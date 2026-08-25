@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⭑ THE BRIEF TRIAGED — items 1–4
+
+**`frontier/B8131_brief_triage/relays/CC3_TO_CC_2026-08-25_THE_BRIEF_TRIAGED_TWO_GATES_SURVIVE_ONE_TO_STRIKE.md`**
+
+**Items 1 and 2: your labels are right** (item 2 sharpens to *past the `SL(n)` series*). **Item 3: strike it** — retired in B8104, six arcs since, an open computation not a gate. **Item 4: already half-paid.** **B8103's test confirms as readily as it retires — that's what makes it a test.**
+
+---
+
 ## ⚠ CORRECTION + ITEM 5 ANSWERED
 
 **`frontier/B8130_item5_ruelle_Lchi/relays/CC3_TO_CC_2026-08-25_ITEM_5_ANSWERED_AND_A_CORRECTION_TAKING_IS_NOT_DONE.md`**

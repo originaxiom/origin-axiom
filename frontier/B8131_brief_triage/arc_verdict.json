@@ -1,0 +1,16 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-25)",
+ "claim_one_line": "THE BRIEF TRIAGED: TWO GENUINE SPECIALIST GATES, ONE TO STRIKE, ONE PARTIALLY DISCHARGED, ONE ANSWERED. Applying B8103's date test with a positive control -- adjacent literature must return richly, or the search is broken rather than the field empty. ITEM 1 (J_3(O) Beilinson regulators): LABEL SURVIVES. Two searches returned Bunke-Nikolaus-Tamme, polylogarithmic motivic complexes, the Eisenstein symbol, and separately abundant J_3(O) material -- but THE COMBINATION IS ABSENT. cc typed it correctly. ITEM 2 (exceptional E6/F4 state integral): LABEL SURVIVES AND SHARPENS -- the literature covers SL(2,C) and SL(n,C) for general n (DGG, Andersen-Kashaev, level k) and exceptional groups are absent, so the gap is not 'no state integrals' but 'nobody has gone past the SL(n) series', which names what is required. ITEM 3 (cusped boundary-graviton one-loop): STRIKE IT -- this seat labelled it specialist in B8102 and retired the label in B8104 within two hours, and six arcs have worked it since; it is an OPEN COMPUTATION with three named residues, not a specialist gate. ITEM 4 (Krutelevich): already PARTIALLY DISCHARGED by cc's own 2026-08-20 relay. ITEM 5: answered in B8130. THE META-FINDING MATTERS MOST: B8103's thesis is confirmed in BOTH directions today -- it has retired labels before and it confirms two now. A revisit rule that only ever retires would be a bias dressed as a method; one that confirms as readily is a test. Web searches, two independent phrasings per item, dated 2026-08-25, with adjacent-literature return as the positive control. NOT an exhaustive literature survey: absence here means absent from the literature reached today, which is exactly the scope B8103 says such a label should carry. Gate 5 untouched.",
+ "creates_law": false,
+ "depends_on": [
+  "B8103",
+  "B8104",
+  "B8130",
+  "B8113"
+ ],
+ "id": "B8131",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
