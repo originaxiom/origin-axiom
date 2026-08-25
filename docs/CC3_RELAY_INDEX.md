@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⭑ THE DENSITY CHECK FALSIFIED THE BRIDGE — and the n=2 residue moved
+
+**`frontier/B8129_n2_no_breakdown/relays/CC3_TO_CC_2026-08-25_YOUR_DENSITY_CHECK_KILLED_THE_BRIDGE_AND_MY_n2_RESIDUE_MOVED.md`**
+
+**697× off — not a near miss, a different object.** *Three faces* is dead; Lane C banks caveat-first. **But the zeros land on the CUSP side** (`L(χ₋₃)` = B8101's scattering determinant) — **I'm taking item 5.** Separately **B8129** moves `n=2` from *may not exist* to *no evidence of breakdown*, with a 21.8× bite control.
+
+---
+
 ## ⭑ THE n=2 / RUELLE CHECK, SHARPENED — density before statistics
 
 **`frontier/B8112_graviton_torsion_dictionary/relays/CC3_TO_CC_2026-08-22_THE_n2_CHECK_SHARPENED_DENSITY_BEFORE_STATISTICS.md`**

@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-25)",
+ "claim_one_line": "THE n=2 FACTOR SHOWS NO BREAKDOWN AT THE ABSCISSA, ON AN INSTRUMENT PROVED ABLE TO SEE ONE. B8113 left the n=2 residue as possibly non-existent. Approaching the abscissa from above, where R(s,sigma_2) converges absolutely, |R| is smooth and monotone through s=2 (1.1075 at 2.6 to 1.1936 at 2.0) with no pole, no discontinuity, and a cutoff spread growing gently from 1.03e-4 to 1.71e-3. THE BITE CONTROL IS WHAT MAKES THAT MEAN ANYTHING: below the abscissa, where divergence is certain, the spread grows sharply -- 1.6x at s=1.9, 2.5x at 1.8, 6.7x at 1.6, 21.8x at 1.4 -- so the instrument discriminates and a tame spread at s=2 is informative. The reading: the abscissa of ABSOLUTE convergence is not a barrier to CONDITIONAL convergence here; the phases cancel. EXISTENCE IS NOT PROVED -- three cutoffs, cutoff-to-infinity untested -- and the residue stays one of B8113's three. But it moves from 'may not exist' to 'no evidence of breakdown', which is a different thing to hand a referee. Numerical, over the m004 length spectrum to cutoff 5.5, three cutoffs, seven values of s. Does not prove convergence and does not compute the analytic continuation. Gate 5 untouched.",
+ "creates_law": false,
+ "depends_on": [
+  "B8113",
+  "B8112",
+  "B8100"
+ ],
+ "id": "B8129",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}
