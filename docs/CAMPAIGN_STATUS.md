@@ -16,6 +16,17 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-25, B1141)**: THE SPIN PAYMENT — the object's own beat
+selects the spin structure, so the freedom ledger's **last free discrete bit is
+assigned, not free.** Cloud memo 28, HOSTILE-verified two-bench (own relator search,
+own exact intertwiner rank, three engines — SnapPy + exact-symbolic + 50-digit).
+The Gieseking beat closes over **exactly one** of m004's two SL(2,ℂ) lifts:
+the intertwiner space is exactly 1-dimensional (rank 3, nullspace 1), N(λ)=|λ|²≥0
+kills the twisted lift, χ is beat-invariant. Explains B1122 (a topological
+consistency condition, not a dynamical observable). Two non-load-bearing errata
+relayed. NOT fermionic fields — kinematics only; **SP-2 is the live hinge** (is
+the beat-selected structure the fermion-capable one?). Lock test_b1141_spin_payment.py.
+
 **LATEST (2026-08-22, B1140)**: THE 64 ORGANIZED — the cloud loop's finale,
 verified two-bench (own re-derivation, slot-independent). B1134's relay computed:
 the E₆(−26) spacetime branch's 64 dimensions (= 78−14, the fork's su(2)×su(2)×su(3)

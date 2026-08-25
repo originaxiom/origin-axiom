@@ -1,0 +1,50 @@
+{
+  "snappy_identify": [
+    "m004(0,0)",
+    "4_1(0,0)",
+    "K2_1(0,0)",
+    "K4a1(0,0)",
+    "otet02_00001(0,0)"
+  ],
+  "snappy_volume": 2.029883212819307,
+  "snappy_H1": "Z",
+  "n_spin_structures": 2,
+  "omega_minpoly_x2+x+1_holds": true,
+  "omega_minpoly_x2-x+1_holds": false,
+  "erratum_1": "task brief states omega=e^{2pi i/3} is 'a root of omega^2-omega+1=0'; independently confirmed FALSE. omega^2+omega+1=0 is the correct minimal polynomial for e^{2pi i/3}; x^2-x+1=0 is instead satisfied by e^{i pi/3} (the figure-eight's ideal-tetrahedron shape parameter, a related but distinct generator of the same field Q(sqrt(-3))). Non-load-bearing.",
+  "relator_word": "abABaBAbaB",
+  "relator_holds_exactly": true,
+  "snappy_trace_field_crosscheck_near_integer": "True",
+  "relator_census": {
+    "R(A,B)": "+I",
+    "R(-A,-B)": "+I",
+    "R(-A,B)": "-I",
+    "R(A,-B)": "-I"
+  },
+  "beat_respects_relator": true,
+  "beat_word_lengths": {
+    "beat_a": 1,
+    "beat_b": 5
+  },
+  "H1_abelianized_relator": {
+    "e_a": 1,
+    "e_b": -1
+  },
+  "chi_beat_invariance_spotcheck": "20/20",
+  "intertwiner_system_rank": 3,
+  "intertwiner_space_dimension": 1,
+  "intertwiner_rank_numeric_crosscheck": 3,
+  "beat_closure_equations": {
+    "W0 conj(A) W0^-1 == +A": true,
+    "W0 conj(B) W0^-1 == +rho(beat(b))": true,
+    "W0 conj(W0) == +A": true,
+    "det(W0) == 1": true
+  },
+  "N_lambda_general": "x^2+y^2 (|lambda|^2), lambda in C -- exact",
+  "N_XY_arithmetic_lattice": "X^2-XY+Y^2 (NOT X^2+XY+Y^2 as stated in brief -- erratum, non-load-bearing)",
+  "N_positive_definite": true,
+  "erratum_2": "task brief claims N(lambda)=X^2+XY+Y^2 for lambda=X+Y*omega; independently computed exact value is X^2-XY+Y^2 (the standard Eisenstein norm for omega=e^{2pi i/3}). Same sign-convention family as erratum_1. Both forms are positive definite (disc=-3); does not affect the conclusion.",
+  "twisted_lift_shares_i_ii": true,
+  "twisted_lift_square_unsatisfiable": true,
+  "verdict": "CONFIRMED: the spin payment holds. Two non-load-bearing documentation errata found."
+}

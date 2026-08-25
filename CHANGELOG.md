@@ -1,5 +1,48 @@
 # Changelog
 
+## THE SPIN PAYMENT (B1141, 2026-08-25): the object's own beat selects the spin structure — the last free discrete bit is assigned, not free. Hostile-verified two-bench
+
+The cloud seat's twenty-eighth memo (THE SPIN PAYMENT), re-derived on this bench with own code
+(own relator search, own exact intertwiner-rank computation, own norm-form + χ-parity proofs;
+**three independent engines** — SnapPy, exact-symbolic over ℚ(√−3), and 50-digit numeric —
+nothing imported from the cloud cert). **The selection HOLDS.**
+
+The discrete freedom ledger closed (B1118) to {C, P, spin lift}. The **spin lift** — the choice
+between m004's two SL(2,ℂ) holonomy lifts (the two spin structures, H¹(M;ℤ/2)=ℤ/2 since H₁=ℤ) —
+was the observer's *last genuinely free* discrete purchase, and the load-bearing one (fermionicity
+and chirality both hang on it). Memo 28 takes it off the counter, via **extension-consistency with
+the object's own ℤ/2** — a channel B1122 (no coupling reads it) and memo 20 (no geometry sources
+it) never touched.
+
+**The theorem, each step re-derived independently and CONFIRMED** (holonomy A=[[1,1],[0,1]],
+B=[[1,0],[−ω,1]], ω a root of x²+x+1; relator `abABaBAbaB` exact; relator census R(A,B)=R(−A,−B)=+I,
+mixed=−I):
+1. **The intertwiner space is EXACTLY 1-dimensional** (the crux) — the 8×4 system W·conj(g) −
+   ρ(beat(g))·W = 0 has exact **rank 3, nullspace 1** (Gaussian elimination over the number field +
+   50-digit complex SVD, 4th singular value ~7.6×10⁻⁵¹); every beat implementation is a scalar λW₀.
+2. **N(λ) ≥ 0 — the twisted lift is impossible.** W₀ closes every beat equation with sign +
+   (det W₀=1); (λW₀)·conj(λW₀) = |λ|²·A, so the twisted self-consistent square would need
+   |λ|²=−1 — impossible (positivity automatic: the beat's "Galois conjugation" *is* complex
+   conjugation, so the ℚ(√−3) norm is positive-definite). χ-invariance makes the twisted lift
+   share equations (i),(ii) — the obstruction lives **only** in the square.
+3. **χ is beat-invariant** — beat(a)=a (len 1), beat(b)=b⁻¹aba⁻¹b (len 5), both odd; proved *in
+   general* (length parity preserved for every word) + 20/20 spot check; beat descends to π₁(m004),
+   beat²=conj-by-a.
+
+**So the Gieseking extension exists over exactly ONE spin structure — the object's own ℤ/2 selects
+the lift; the freedom ledger's last bit is assigned.** It *explains* B1122 (a topological
+consistency condition, not a dynamical observable — that is why no coupling reads it).
+
+**Two non-load-bearing errata caught + relayed to the cloud seat** (like the family_triplet fix):
+ω's minpoly is **x²+x+1** (not x²−x+1 — that's e^{iπ/3}, a different generator); the norm form is
+**X²−XY+Y²** for ω=e^{2πi/3} (not X²+XY+Y²) — both positive-definite (disc −3), conclusion untouched.
+**NEEDS-CERT (scope):** the exact cohomological packaging (the w̃ extension element) and the
+"Galois∘Fibonacci" naming were taken on the memo's say-so — the substance is verified; that
+formalism needs the beat-trilogy (16/17/18) construction. **What it is NOT:** fermionic *kinematics*
+(the right to half-integer spin), not fermionic *fields* — dynamics stays the unpaid verb. **SP-2**
+is the live hinge (is the beat-selected structure the fermion-capable one?). Gate 5 n/a. Lock
+`tests/test_b1141_spin_payment.py`.
+
 ## THE 64 ORGANIZED (B1140, 2026-08-22): the spacetime branch holds a graviton and colored bi-vectors — and ZERO invariant content, so hypercharge cannot organize there. The closing arc's finale; the tenth honest value-negative, the first by structure
 
 The cloud seat's twenty-seventh memo and the close-out of its loop (golden_gate head 449ece8,

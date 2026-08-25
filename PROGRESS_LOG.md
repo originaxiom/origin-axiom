@@ -11210,3 +11210,20 @@ fork's two forms split the world with nothing shared — E₆(−14) the charges
 kill-graph (B836). Provenance: memo 26 + Lane C are single-homed (cc3 confirms) — a debt, not
 banked, recorded as an OPEN_LEADS row (cc3's rule adopted). Gate 5 untouched. Lock
 test_b1140_the_64_organized.py.
+
+**2026-08-25 — THE SPIN PAYMENT (B1141), the last free discrete bit assigned.** Cloud memo 28,
+HOSTILE-verified two-bench — own relator search, own exact intertwiner-rank, own norm-form +
+χ-parity proofs; three independent engines (SnapPy + exact-symbolic ℚ(√−3) + 50-digit numeric);
+nothing imported from the cloud cert. The object's Gieseking beat (its own ℤ/2) SELECTS the spin
+structure: the spin lift (the two SL(2,ℂ) holonomy lifts, H¹(M;ℤ/2)=ℤ/2) is **assigned, not free**.
+Three load-bearing claims CONFIRMED: (1) the beat's **intertwiner space is exactly 1-dimensional**
+(8×4 system, exact rank 3 / nullspace 1, + 50-digit SVD 4th σ~7.6e-51); (2) **N(λ)=|λ|²≥0** — W₀
+closes every beat equation (+; det 1), the twisted lift needs |λ|²=−1, impossible (positivity
+automatic — the ℚ(√−3) norm is positive-definite; χ-invariance makes the twisted lift share
+(i),(ii), so the obstruction is only in the square); (3) **χ beat-invariant** (beat(a)=a len 1,
+beat(b) len 5, parity preserved in general + 20/20; beat descends to π₁(m004), beat²=conj-by-a).
+Explains B1122 (topological consistency condition, not a dynamical observable). Two non-load-bearing
+errata relayed (ω minpoly x²+x+1 not x²−x+1; norm X²−XY+Y² not X²+XY+Y² — both positive-definite).
+NEEDS-CERT: the w̃ packaging + Galois∘Fibonacci naming (needs beat-trilogy). NOT fermionic fields —
+kinematics only; SP-2 is the live hinge. Gate 5 n/a. Cloud seat credited. Lock
+test_b1141_spin_payment.py.
