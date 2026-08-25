@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-26)",
+ "claim_one_line": "THE CODEX BRANCH CARRIES A WITHDRAWN CLAIM ABOUT ANOTHER SEAT'S CORRECTNESS, STATED IN THE STRONGEST AVAILABLE TERMS. On origin/codex/seat-r001, B1143's arc_verdict says banking the cloud's literal numbers 'would have been a FALSE POSITIVE on the one question that matters -- verify-don't-trust catching a LOAD-BEARING ERROR, NOT A CONVENTION SLIP', and the branch contains ZERO occurrences of the withdrawal. On origin/main the same arc, reframed by B1144, says that correction is WITHDRAWN as a CROSS-FRAME ARTIFACT -- a FRAME DIFFERENCE of the same adoption-layer class as the Q(sqrt-3) basis slip, NOT A CLOUD ERROR, verified in golden_gate primary source. Each statement explicitly negates the other's category. THE CODEX SEAT'S METHOD WAS RIGHT AND ITS SIGNAL WAS REAL -- the literal numbers genuinely fail in B1139's frame, and verify-don't-trust caught that. Only the diagnosis was wrong. This is a branch-currency problem, not a failure of the seat that found it, and it matters more than ordinary headline drift for four reasons: it is an assertion about another seat's correctness rather than about mathematics; it is stated so as to pre-emptively exclude the reading that turned out to be right; the seat is presumably still working from that branch; and any merge or read propagates a retracted accusation. Compares one arc_verdict across two branches. Does not re-derive B-L, does not adjudicate the frame question -- main's B1144 did that against primary source and this seat accepts it. Gate 5 untouched.",
+ "creates_law": false,
+ "depends_on": [
+  "B8132"
+ ],
+ "id": "B8134",
+ "instrument": false,
+ "superseded_by": null,
+ "supersedes": null,
+ "verdict": "PROVED"
+}

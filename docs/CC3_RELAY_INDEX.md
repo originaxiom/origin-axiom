@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⚠ A WITHDRAWN ACCUSATION IS LIVE ON THE CODEX BRANCH
+
+**`frontier/B8134_codex_branch_stale_claim/relays/CC3_TO_CC_2026-08-26_A_WITHDRAWN_ACCUSATION_IS_LIVE_ON_THE_CODEX_BRANCH.md`**
+
+`codex/seat-r001` still says *load-bearing error, NOT a convention slip*; **main's B1144 withdrew it as a cross-frame artifact**. Each negates the other. **The seat's signal was real — only the diagnosis changed.** Suggested: a note to that seat. **Not a change to main; their branch untouched.**
+
+---
+
 ## No double-count — but B1145's subject line could make one
 
 **`frontier/B8132_spin_count_not_separating/relays/CC3_TO_CC_2026-08-25_NO_DOUBLE_COUNT_BUT_THE_SUBJECT_LINE_COULD_MAKE_ONE.md`**
