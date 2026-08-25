@@ -85,16 +85,20 @@ sealed miss, kept as boundary.**
   blind to scale by TWO theorems (Hom(G,ℝ₊) = 0; no normalisable prior on the ray).
 - **V.2 The seven misses** — [NEGATIVE, kept] seven sealed crossings, seven misses —
   the boundary the tiers were rebuilt on (structure, not values, by construct).
-- **V.3 The value interface** — [NEGATIVE on periods (B1126/V-3 + the wave); NAMED-OPEN on
-  regulators, firewalled]: the identification crux ran against a sealed prereg —
-  **NO OBJECT PERIOD IS AN SM RATIO** (exhaustive 352-pair scan, B1126) — and the wave
-  (B1128–B1131) extended the negative across natural forms, the coupling, and the sharpest
-  coincidence (|det φ| = 2/3 vs Koide, proven coincidental). *Physics-shaped, not
+- **V.3 The value interface** — [NEGATIVE, closed 2026-08-25 — periods (B1126/V-3 + the
+  wave) AND regulators (B1140) both shut]: the identification crux ran against a sealed
+  prereg — **NO OBJECT PERIOD IS AN SM RATIO** (exhaustive 352-pair scan, B1126) — and the
+  wave (B1128–B1131) extended the negative across natural forms, the coupling, and the
+  sharpest coincidence (|det φ| = 2/3 vs Koide, proven coincidental). *Physics-shaped, not
   physics-valued.* The arithmetic reproduces at five orders C₀–C₄, single-end ℚ(√−3)
-  (B1133). What stays open is the DEEPER form: values as **regulators** (archimedean
-  realizations — what Vol and the tower ARE), not periods — untested, and after B1134
-  living in a *forced* domain (J₃(𝕆), the 64 fixed dimensions the simultaneous closing
-  leaves). A firewalled hypothesis, not a result.
+  (B1133). What stayed open was the DEEPER form: values as **regulators** (archimedean
+  realizations — what Vol and the tower ARE), not periods — living, after B1134, in a
+  *forced* domain (J₃(𝕆), the 64 fixed dimensions the simultaneous closing leaves).
+  **THE FINALE (B1140, the cloud seat's twenty-seventh memo) tested it, and it closed
+  too**: that domain's own fixed-dimension content, computed exactly, carries INVARIANT
+  CONTENT ZERO — hypercharge cannot organize there either. No longer a firewalled
+  hypothesis: the campaign's TENTH honest value-negative, and the FIRST reached by
+  structure, not scan.
 - **V.4 The scale** — [PROVEN-FREE, terminal] the substrate supplies it physically;
   the program computes the invariant factor and is blind to the other by theorem.
 
@@ -225,3 +229,5 @@ unchanged; its center of gravity has moved from *"is there a value channel at al
 (open, and cleanly falsifiable).
 
 **Re-census 2026-08-22 (the value campaign + the wave + THE SIMULTANEOUS CLOSING, B1123–B1134) — supersedes the VALUES line above.** THE IDENTIFICATION ran and **returned a theorem-shaped negative**: no object PERIOD is an SM ratio (V-3/B1126, exhaustive), and the value-probing wave (B1128–B1133) extended the negative across natural forms, the coupling, the two-ended tower (**SINGLE-END**, ℚ(√−3) only — C₄ recognized, five orders C₀–C₄), and the sharpest coincidence (Koide, proven coincidental). The golden meridian law banked (T-GOLDEN-MERIDIAN). *"Physics-shaped, not physics-valued."* Then **B1134 THE SIMULTANEOUS CLOSING**: the observer's whole real-structure bill (Lorentz signature + compact color) is a **single conjugation**, forced into the object's own E₆(−26) = M(𝕆,ℂ) — closing the open question B1114 flagged (VII.6). The center of gravity moves again — from *"does any object-period equal an SM number?"* (answered: NO, exhaustively) to the one door still open: *"is any SM value a **regulator** (not a period) of the object's higher classes, in the forced J₃(𝕆) domain?"* — a firewalled hypothesis (V.3), the sharpest form the value question has reached.
+
+**Re-census 2026-08-25 (THE FINALE, B1134–B1140) — supersedes the VALUES line above.** The door B1134 left open — *"is any SM value a regulator of the object's higher classes, in the forced J₃(𝕆) domain?"* — is now shut. **B1140** (the cloud seat's twenty-seventh memo) computes that domain's own fixed-dimension content exactly: the E₆(−26) branch's 64 fixed dimensions decompose under su(2)×su(2)×su(3) as (spin-2,0;1)⊕(0,spin-2;1)⊕(1,1;3)⊕(1,1;3̄) = 5+5+27+27 — a color-singlet graviton (two spin-2 pieces) plus 54 colored bi-vectors — with **INVARIANT CONTENT ZERO**. Hypercharge cannot organize in the spacetime branch either: the regulator hypothesis closes NEGATIVE, the campaign's **TENTH honest value-negative**, the **FIRST reached by structure, not scan** (the rep-level restatement of the fork theorem's z = 0, B1138). The fork itself (B1138/B1134/B1135) now states in full how the two real forms **split the world with nothing shared**: **E₆(−14)** took every charge (Y-selection, sin²θ_W = 3/8, the generation table, the anomaly zeros, B−L); **E₆(−26)** took the geometry (Lorentz, compact color, the graviton). Any TWO of {spacetime, color, hypercharge}, never three. The graviton itself is now two faces, not three: B1140's spin-2 rep and the Ruelle-zeta one-loop product (B8112, VI.2) are independent routes to the same object; Lane C's GUE zeros are retired as a candidate — the object's own cusp/scattering spectrum (B739), not the graviton. The center of gravity moves a last time — from *"is any SM value a regulator?"* (answered: NO, by structure) to the honest state of the whole map: **the discrete kinematic skeleton is the milestone now reached** — forced part total (39/43, B1123), free part priced (Section IX), values disjoint at every level tried. What remains is no longer a computation this method prices: **specialist handoff** (unification-scale dynamics, phenomenology) and **Gate 5's dynamics** stand unpaid, honestly, as the map's own edge — a named boundary, not a hole. The spin bit (the cloud seat's twenty-eighth memo, THE SPIN PAYMENT) stays **ONE-BENCH**, pending hostile verification — tagged pending, not banked.

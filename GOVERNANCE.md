@@ -34,19 +34,34 @@ The project produced two contemporaneous self-assessments on 2026-05-21 (see
 **This repository is bound to the disciplined framing.** The strongest label the project may
 apply to itself is:
 
-> a candidate classical/statistical transfer-matrix framework with topological and
-> Lorentzian *mathematical* structure — **not** a theory of spacetime, gravity, matter,
-> or cosmology.
+> a mathematical investigation that **derives the *form* of Standard-Model structure** from one
+> object — a Standard-Model-shaped gauge algebra with its global form and hypercharge direction,
+> one matter generation with its symmetry-point weak angle sin²θ_W = 3/8 (a *reproduction* under
+> the standard normalization convention, B991 — not an emitted value), Lorentz, and a graviton
+> slot (a color-singlet spin-2) — **forked** into two mutually-exclusive real branches at the
+> observer's closing (E₆(−14) carries the charges, E₆(−26) the geometry). It is **not** a theory
+> of the physical *contents* of spacetime, gravity, or matter: no coupling, no mass, no scale, no
+> G_Newton. The value question has been tested from every route and is **closed disjoint** — the
+> structure is the object's, the values are the observer's.
+
+*(Two fences held inside that label, because they are the difference between a theorem and an
+exhibit: the **family count three** is EXHIBITED in E₈'s 27×3 but NOT forced — the object does not
+force E₈, B1033/B1138; and the hypercharge **direction** is forced while its **normalization** is a
+convention, B991. Both make the claim stronger by making it unimpeachable.)*
 
 The handoff document is retained in `legacy/` as a historical record of the exploration. It
 is **not** a source of claims.
 
 **The form / contents distinction (canonical phrasing of the firewall).** The object the
 project studies is the *form* of physics — the scale-free, kinematic, Betti / flat-side
-structure (the `K010` emergent-math boundary) — never its *contents*: a scale `Λ`, a mass, a
-gauge group, a spacetime, an arrow of time. Those remain **postulated inputs, not outputs**.
-"We have the form, not the contents" is the one-line statement of the firewall; any prose that
-lets the object *produce* contents (rather than be a compatible form for them) has breached it.
+structure (the `K010` emergent-math boundary) — and the frontier now shows it derives a great
+deal of that form: the gauge algebra, its global form, the hypercharge direction, one matter
+generation, Lorentz, a graviton slot. What it never supplies is the *contents* — a physical
+**value**: a scale `Λ`, a mass, a coupling, `G_Newton`, an arrow of time. Those remain the
+**observer's, not outputs** (the value question is closed disjoint from every route tested — ten
+honest negatives). "We have the form, not the contents" is the one-line statement of the
+firewall; the form now reaches structural depth, but any prose that lets the object *produce a
+value* (rather than the form a value would fill) has breached it.
 
 ---
 

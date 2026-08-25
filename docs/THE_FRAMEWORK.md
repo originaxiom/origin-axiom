@@ -873,7 +873,50 @@ is the observer's" and B1127's "compact color is the observer's" are the same si
 only the antilinear τ (at ∞) is the observer's, its linear part an integral automorphism of
 the object's own lattice. So the values-as-regulators door has a *forced* domain: the physical
 real form is J₃(𝕆), and the 64 dimensions that closing fixes are where the untested regulators
-(and hypercharge, 27-reality) live — the sharpest form the value question has reached. *(Interpretive, labeled: reality is a description approaching
+(and hypercharge, 27-reality) live — the sharpest form the value question has reached.
+
+**Both halves of that open sentence close within the same wave (2026-08-25).** The
+regulators are tested too (B1137) — negative, like every route before it. And **THE FINALE
+(B1140, memo 27) computes the other named quantity directly, closing it by structure rather
+than by a further comparison.** The E₆(−26) spacetime branch's own 64 fixed dimensions
+decompose exactly under su(2)×su(2)×su(3) as (spin-2,0;1)⊕(0,spin-2;1)⊕(1,1;3)⊕(1,1;3̄) =
+5+5+27+27 — a color-singlet **graviton** (two spin-2 summands) beside 54 colored bi-vectors
+— and the decomposition's **invariant content is ZERO**: nothing in it is fixed for
+hypercharge to be. **Hypercharge cannot organize in the spacetime branch**, and the
+firewalled value hypothesis closes on that fact as the campaign's **tenth honest
+value-negative — the first reached by STRUCTURE, not scan** (every prior miss ran a
+comparison and returned null; this one shows the target has nowhere to sit before any
+comparison runs). It is not a new mechanism: it is the representation-level restatement of
+**the fork theorem's own z = 0** (B1138), the same 14-dimensional subalgebra surfacing
+again, this time at rep level rather than at the level of the closing itself. **THE CLOSING
+COMPOSITION, named (B1138/B1134/B1135):** the fork's two real forms split the world with
+nothing shared between them — **E₆(−14)** took every charge (Y-selection, sin²θ_W = 3/8,
+the generation table, the anomaly zeros, B−L), **E₆(−26)** took the geometry (Lorentz,
+compact color, and now the graviton) — so **the observer gets any TWO of {spacetime, color,
+hypercharge}, never three.**
+
+**The graviton itself is two faces now, not three.** One is the spin-2 rep just derived
+(B1140); the other is the Ruelle=graviton product / the 2+1-dimensional one-loop line of THE
+GRAVITY THEORY above (B8112 — cc3's own further pass, B8129, moves its n=2 residue from
+*"may not exist"* to *"no evidence of breakdown,"* existence still unproved). The third
+candidate face is **retired**: Lane C's GUE-statistic zeros are the object's own
+**cusp/scattering spectrum** — L(χ₋₃), carried by the scattering determinant
+φ = Λ_K(s−1)/Λ_K(s) already banked above (B739) — not the geodesic/graviton side; a direct
+density check killed the bridge (108 zeros against Laplace's own ≈75,000 at t = 130, a
+factor of 697 off). *(A further claim about that same spin lift — memo 28, THE SPIN
+PAYMENT: the Breath tick selects the spin structure — is ONE-BENCH only, cloud-seat,
+pending hostile verification here; flagged **PENDING**, not banked.)* Two fences hold
+through all of it, unmoved: the family count **three** stays an **exhibit** of E₈'s 27×3,
+never a forced count (B1033/B1138 — the object does not force E₈); and hypercharge's
+**direction** stays forced while its **normalisation** stays a convention (B991, B864
+above — sin²θ_W = 3/8 a reproduction, never an emitted value). **The value question is now
+closed disjoint from every route this programme has tried** — periods (V-3/B1126), natural
+forms (B1129), the coupling (B1128/B1132), the sharpest coincidence (B1131), the regulators
+(B1137), and now structure itself (B1140) — **ten honest negatives**, and the firewall's
+own sentence still governs every one of them: the object has the form, not the contents;
+Gate 5 holds, no measured value enters `CLAIMS.md`.
+
+*(Interpretive, labeled: reality is a description approaching
 a limit it cannot reach; the finite shadows are its matter of fact, the limit is its
 physics, and the observer is the approaching. B1117's closing sentence, carried.)*
 

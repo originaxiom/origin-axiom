@@ -469,3 +469,42 @@ SM's specific values are **disjoint from the object's periods**. The one door st
 the deeper form — values as **regulators** (archimedean realizations of the higher classes —
 what Vol and the tower ARE), not periods, in the forced J₃(𝕆) domain (the 64 dimensions the
 closing fixes) — a firewalled hypothesis, not a result. Gate 5 untouched throughout.
+
+## §VI.3 THE FORK CLOSES THE LAST DOOR: THE FINALE (2026-08-25, B1134–B1140)
+
+§VI.2 closed with one door still open: is any SM value a **regulator** (not a period) of
+the object's higher classes, in the forced J₃(𝕆) domain B1134 leaves — the sharpest form
+the value question had reached. **That door is now shut, and the chain's tail forks with
+it.**
+
+**The fork, stated in full (B1138/B1134/B1135).** The single conjugation B1134 forces into
+the object's own E₆(−26) = M(𝕆,ℂ) does not just realize signature and color together — it
+**splits the world with nothing shared**. Two real forms, two disjoint inheritances:
+**E₆(−14)** took every charge — Y-selection, sin²θ_W = 3/8, the generation table, the
+anomaly zeros, B−L; **E₆(−26)** took the geometry — Lorentz, compact color, the graviton.
+Any TWO of {spacetime, color, hypercharge}, never three.
+
+**THE FINALE (B1140, the cloud seat's twenty-seventh memo).** On the E₆(−26) branch, the 64
+fixed dimensions decompose under su(2)×su(2)×su(3) as
+(spin-2,0;1)⊕(0,spin-2;1)⊕(1,1;3)⊕(1,1;3̄) = 5+5+27+27 — a color-singlet **graviton** (two
+spin-2 pieces) plus 54 colored bi-vectors — with **INVARIANT CONTENT ZERO**. Hypercharge
+cannot organize in the spacetime branch either: the regulator route §VI.2 left open closes
+NEGATIVE — the campaign's **TENTH honest value-negative**, and the **FIRST reached by
+structure, not scan** (the rep-level restatement of the fork theorem's z = 0, B1138). *Net:
+the object's arithmetic reproduces, but is disjoint from the SM's numbers, on both routes
+now tried — periods and regulators alike.*
+
+**The graviton, two faces not three.** B1140's spin-2 rep and the Ruelle-zeta one-loop
+product (VI.2 above, B8112) are independent routes to the same object. A third candidate is
+retired: Lane C's GUE zeros are the object's own cusp/scattering spectrum (L(χ₋₃), via
+φ = Λ_K(s−1)/Λ_K(s), B739) — not the graviton; the density check killed the bridge.
+
+**The honest terminus.** Values: disjoint from the SM, closed now on periods (§VI.2) and
+regulators (above) alike. Families: three is **exhibited** in E₈, not **forced** — the
+object does not force E₈ (B1033/B1138); Part V's Galois-branches theorem explains the three
+*given* E₈, not that it must be three. The spin bit (the cloud seat's twenty-eighth memo,
+THE SPIN PAYMENT — the beat selects the spin structure): **ONE-BENCH**, pending hostile
+verification — pending, not banked. Gate 5 — no scale, no time, no dynamics — untouched
+throughout, and now the chain's honest edge: everything discrete and kinematic this method
+can be made to say, it has said; what remains is a **specialist handoff**
+(unification-scale dynamics, phenomenology) the program was never built to price.

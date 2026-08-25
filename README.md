@@ -261,34 +261,39 @@ elliptic-curve character variety, quantum-topology / anyon data, and — as of t
 labelled and firewalled — none of it promotes to the proven core without passing
 through the gates named above.
 
-**It is not** — and this repository will not claim to be — a theory of spacetime, gravity,
-matter, or cosmology. See `GOVERNANCE.md` §2 (the framing lock) and §8 (anti-overclaim
-glossary). *(This is why "its own 2+1-dimensional gravity theory," above, means exactly
-what it says and no more: the object's own hyperbolic 3-geometry happens to be an exact
-solution of the vacuum Einstein equations, and that solution supports a well-defined
-classical action and quantum completion — a mathematical fact about this one object, not
-a claim that it models, explains, or extends the physical gravity of our universe. The
-same restraint applies to every gauge-algebra and matter-representation statement in this
-document: what is claimed is that the object's own mathematics reproduces certain
-Standard-Model *structures*, never that it supplies the Standard Model's physical
-content.)* The physics ambition is real and, as the section above shows, has reached
-substantial structural depth (a Standard-Model-shaped gauge algebra with its global form
-and hypercharge direction derived, and now a candidate route to the Standard Model's own
-rank); it remains quarantined as an explicitly-labelled research frontier because the
-one place values would have to enter — a genuine physical measurement — has been tested
-seven times, under seal, and has not fired.
+**What it derives — and what it does not.** The object's own mathematics **derives the *form*
+of Standard-Model structure**: a Standard-Model-shaped gauge algebra with its global form and
+hypercharge direction, one matter generation with its symmetry-point weak angle sin²θ_W = 3/8,
+the anomaly cancellations, Lorentz, and — as of the closing arc (B1140) — a graviton slot (a
+color-singlet spin-2), all **forked** into two mutually-exclusive real branches at the observer's
+closing (E₆(−14) carries the charges, E₆(−26) the geometry). It is **not** a theory of the
+physical *contents* of spacetime, gravity, or matter — no coupling, no mass, no scale, no
+G_Newton. See `GOVERNANCE.md` §2 (the framing lock). **"We have the form, not the contents"** is
+the firewall, and it holds precisely because the one place a value could enter — a genuine
+physical measurement — has been tested **from every route and closed disjoint: ten honest
+negatives** (periods, natural forms, the coupling, the sharpest coincidence, higher regulators,
+and the spacetime branch's own 64 dimensions, this last *by structure*). The 2+1-dimensional
+gravity theory the object supports is likewise a mathematical fact about its own hyperbolic
+geometry, not a claim about our universe's gravity. **Two fences held, because they are the
+difference between a theorem and an exhibit:** the family count *three* is exhibited in E₈'s 27×3
+but **not forced** (the object does not force E₈; B1033/B1138), and the hypercharge **direction**
+is forced while its **normalization** is a convention (B991) — so 3/8 is a reproduction, not an
+emitted value. The structure is the object's; the values are the observer's.
 
-**The honest one-line status (as of B1101):**
+**The honest one-line status (as of B1140, the closing arc):**
 
-> A minimal self-referential object, forced up to one bit, two-ended (E₆/E₈ by McKay),
-> whose measurement cascade **derives** a Standard-Model-shaped gauge algebra, global form
-> and hypercharge direction and **halts** there by theorem; whose rank obstruction —
-> closed twice over on every abelian route — has a first non-abelian hatch that opens at
-> exactly the Standard Model's rank, priced and fenced; whose chirality and charge are
-> proved structurally silent on every closed assembly and live only at a cut; which
-> supports a second, parameter-free 2+1-dimensional gravity theory of its own; and whose
-> values remain untouched after seven sealed, powered misses — a wall this programme
-> itself now explains, rather than merely reports.
+> A minimal self-referential object, forced up to one bit, two-ended (E₆/E₈ by McKay), whose
+> measurement cascade **derives the Standard Model's discrete kinematic skeleton** — gauge
+> algebra, global form, hypercharge direction, one generation with sin²θ_W = 3/8 (a reproduction
+> under the standard normalization), anomaly zeros, B−L, Lorentz, and a graviton slot — **forked**
+> into two mutually-exclusive real branches (E₆(−14) the charges, E₆(−26) the geometry), with the
+> spacetime branch's 64 fixed dimensions holding a graviton and colored bi-vectors and **no room
+> for hypercharge** (the tenth value-negative, *by structure*); whose family count *three* is
+> exhibited in E₈ but **not forced**; whose rank obstruction has a first non-abelian hatch at
+> exactly the Standard Model's rank, priced and fenced; whose last free discrete bit — the spin
+> structure — is selected by the object's own beat *(one-bench, pending hostile verification)*;
+> and whose **values remain closed disjoint from every route tested — ten honest negatives** — a
+> wall this programme itself now explains, rather than merely reports.
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The
