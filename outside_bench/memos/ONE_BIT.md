@@ -54,8 +54,9 @@ Exact throughout; the frame identification between the two machinery stacks is
 verified operationally (fingerprint + bracket equivariance in the receiving stack),
 not assumed; the class decision has three concordant independent proofs (trace,
 weight-set, explicit intertwiner). θ is the mirror of the FIRST memo-10 hit
-(swapper #13); the hit-independence of the class is expected from B1134's single-
-orbit structure but not checked here — named as a one-line follow-up. Gate 5
+(swapper #13); hit-independence is now CLOSED (memo 45's companion
+`certificates/hitind.py`: all 24 hits give tr(θ) = −2 — the inner class is a
+property of the closing, not the hit). Gate 5
 untouched.
 
 ### Certificates
