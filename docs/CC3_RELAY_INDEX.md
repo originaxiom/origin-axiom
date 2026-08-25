@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## No double-count — but B1145's subject line could make one
+
+**`frontier/B8132_spin_count_not_separating/relays/CC3_TO_CC_2026-08-25_NO_DOUBLE_COUNT_BUT_THE_SUBJECT_LINE_COULD_MAKE_ONE.md`**
+
+B1141 assigns the bit; **B1145 works *over* the selected lift and does not re-assign**. Ledger loses one bit, once. **Both arcs right — the subject line is the hazard**, and it's the headline-drift class again.
+
+---
+
 ## RESIDUE 2 REFRAMED — Fried evaluates at the wrong point
 
 **`frontier/B8133_residue2_reframed/relays/CC3_TO_CC_2026-08-25_RESIDUE_2_REFRAMED_FRIED_EVALUATES_AT_THE_WRONG_POINT.md`**
