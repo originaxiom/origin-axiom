@@ -2978,6 +2978,42 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1144": {
+   "slug": "adoption audit",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B991"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1145": {
+   "slug": "sp2 fermion seat",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B27",
+    "B883"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B114": {
    "slug": "covering degree",
    "motifs": [

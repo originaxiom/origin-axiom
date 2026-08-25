@@ -1968,4 +1968,8 @@ relay-debt gate does this accounting one layer up (`docs/RELAY_LEDGER.md`); **no
 layer**. THE CELL: a gate that scans banked arcs' FINDINGS/verdicts for cited artifacts not present
 in the working tree (hence not on either remote after push) and lists them as debts until resolved.
 Not urgent here (memo 26 + Lane C were NOT banked — no debt incurred; the rule is prospective).
-cc3 credited. ★★ (hygiene/provenance, not math).
+**RESOLVED (B1144, 2026-08-25):** the reachability gap that motivated this is closed — golden_gate
+is a *separate public repo* (invisible only because this checkout's key is origin-axiom-scoped; now
+reachable fetch-only via anonymous HTTPS), and the cloud now pushes `outside-bench` to
+origin, so cited artifacts are fetchable. The push-before-cite rule stands as the prospective guard;
+the "debt" framing on 449ece8 is cleared. cc3 credited. ★★ (hygiene/provenance, not math).

@@ -16,6 +16,25 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-25, B1145)**: SP-2 — **the beat closes EXACTLY on the fermion-capable
+odd A1/su(6) stratum's 27 over the beat-selected lift; the last discrete spin-lift bit is
+assigned.** (Minuscule → 6 fundamental-2 doublets + 15 singlets inherit B1141's lift; every
+identity exact over ℚ(√−3), verified three independent ways — this bench blind + the cloud's
+cert + adversarial own-code.) **The exact algebra is the theorem.** The codex seat's audit
+sharpens the fence: the A₁ is su(2) *internal* to E₆, not the 4d Lorentz group — **no Pin
+structure, no Dirac index, no chirality, three generations NOT proved**; "the generation's seat
+closes" is the program's *thesis* reading, not a theorem. Fence: fermionic kinematics, not
+dynamics. Lock test_b1145_sp2_fermion_seat.py.
+
+**LATEST (2026-08-25, B1144)**: THE ADOPTION-LAYER CORRECTION — four fixes from
+the cloud's audit, verified from primary source; **the math was never wrong**. B1141's
+ℚ(√−3) "errata" withdrawn (the durable convention map banked); B1138's E₈ Cartan cert-note
+corrected (it's valid, 240 roots); B1140's single-homed debt cleared (golden_gate is a
+separate public repo, now fetch-only reachable; the cloud now pushes outside-bench
+to origin); B1139's stale "open cell" tag fixed and B1143's B−L "catch" withdrawn as a
+cross-frame artifact (B1143 amended; both benches find c₅=1). Bidirectional — the two-bench
+discipline working. Lock test_b1144_adoption_audit.py.
+
 **LATEST (2026-08-25, B1143)**: SP-1 CLOSES — the physical **B−L is a genuine
 fourth Cartan direction** (independent of Y/T₃R/T₃L), verified two-bench on B1139's
 banked 27: rank 5/nullity 1 → family c=[0,c₁,0,−⅓,1,0]; both span-memberships

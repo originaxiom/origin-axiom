@@ -570,3 +570,19 @@ sense.
   are COUPLING-READABLE (the t-meter, B1113: free-of-one = forced-of-pair); the spin lift
   is PAIR-INVISIBLE (B1122/L179: its whole content is the central sign operator φ(−I),
   which no seam-word trace on the coupled pair can read) — irreducibly the observer's.
+
+## Added 2026-08-25 (B1144) — the ℚ(√−3) convention map (two unit generators; neither is an error)
+
+ℚ(√−3) = ℚ(ζ₃) = ℚ(ζ₆) has two natural unit generators, and different memos use different ones.
+Reading one basis's statement in the other's column produces a spurious "error" (this cost B1141
+two withdrawn errata). The map, once and for all:
+
+| generator | value | root of unity | minpoly | trace g+ḡ | norm N(x+yg) |
+|---|---|---|---|---|---|
+| **q** | e^{iπ/3} = (1+√−3)/2 | primitive **6th** | **x²−x+1** | **+1** | **x²+xy+y²** |
+| **ω** | e^{2πi/3} = (−1+√−3)/2 | primitive **3rd** | **x²+x+1** | **−1** | **x²−xy+y²** |
+
+Bridge identities: **ω = q−1**, **q = −ω̄**, **q̄ = 1−q = −ω** (the m004 holonomy entry, B=[[1,0],[−ω,1]]).
+ℤ[q] = ℤ[ω] = the Eisenstein integers. Both are correct; a claim that one's minpoly/norm "should"
+be the other's is a basis confusion, not a mistake. (Sibling-frame hazard: B1143's B−L "vector
+mismatch" was the same phenomenon one level up — a Cartan-frame difference, not an error.)

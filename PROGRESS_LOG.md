@@ -11255,3 +11255,28 @@ family in this frame c=[0,c1,0,−1/3,1,0]. SP-3: 72 assignments, 1 table; batte
 30/30 + 6/6 vanish; "36/36" FLAGGED. SP-4: FLAGGED (three-A₂ frame, not four; 2592 not established).
 The closing's Cartan content complete (Y,T3L,T3R,B−L). Cloud seat credited. Gate 5 untouched. Lock
 test_b1143_bl_fourth_cartan.py.
+
+**2026-08-25 — THE ADOPTION-LAYER CORRECTION (B1144):** four adoption-layer errors in the phase-III
+digest, from the cloud's CORPUS_ADOPTION_AUDIT (golden_gate d537790), verified here — three from the
+cloud's PRIMARY certs (golden_gate restored fetch-only via anon-HTTPS to the separate public repo).
+Math untouched. ① B1141's two ℚ(√−3) errata WITHDRAWN (memo's q=e^{iπ/3} basis correct; the durable
+convention map banked in TERMINOLOGY). ② B1138 cert note corrected (family_triplet E₈ Cartan
+symmetric/valid, 240 roots; verifier mis-transcribed). ③ B1140 single-homed debt reframed+cleared
+(golden_gate = separate public repo; cloud now pushes outside-bench to origin). ④ B1139 stale
+"open cell" tag fixed; B1143 "catch" WITHDRAWN (cross-frame artifact), B1143 amended; both benches
+find c₅=1. Bidirectional, primary-source-verified. Cloud seat credited. Gate 5 n/a. Lock
+test_b1144_adoption_audit.py.
+
+**2026-08-25 — SP-2 (B1145): the beat closes EXACTLY on the fermion-capable stratum's 27 over the
+selected lift; the last discrete spin-lift bit is assigned.** Sealed prereg c384dd3e (blind, before
+memo-29 contact). The odd A1/su(6) stratum's 27 is minuscule → 6 fundamental-2 doublets + 15
+singlets; the beat W=exp(q e), upstream of the embedding, closes functorially. Exact over ℚ(√−3):
+relator=+I, Ω²=A27, Ω A27 Ω⁻¹=A27, Ω B27 Ω⁻¹=ρ(B⁻¹ABA⁻¹B). Verified 3 ways (this bench blind + cloud
+sp2_seat.py reproduces + adversarial own-code sp2_independent.py, banked B1102/B883 only, ρ₂₇
+re-certified on 3003 brackets). **The exact algebra is the theorem.** CODEX-SHARPENED FENCE (its
+close-out audit re-ran all 46 cloud certs, confirmed this algebra, banked it as OA-C1056): the A1 is
+su(2) INTERNAL to E6 (centralizer su(6)), not the 4d Lorentz group — no Pin structure, no Dirac
+index, no 4d chirality, three generations NOT proved; "the generation's seat closes" is the
+program's THESIS reading, not a theorem. Fence: fermionic kinematics not dynamics. B1141 NEEDS-CERT
+dischargeable (beat trilogy now reachable). Cloud + codex credited. Gate 5 n/a. Lock
+test_b1145_sp2_fermion_seat.py.

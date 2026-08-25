@@ -1,5 +1,49 @@
 # Changelog
 
+## SP-2 (B1145, 2026-08-25): the beat closes exactly on the fermion-capable stratum's 27 over the selected lift — the last spin-lift bit is assigned (the physical-generation reading is thesis-level, not a theorem — codex-sharpened)
+
+The single live frontier cell, sealed as a prereg (`c384dd3e`) **before** the answer was known and
+**before** the cloud's memo 29 was seen — so this bench's derivation is genuinely blind. **MATCH.**
+The fermion-capable **odd A1/su(6) stratum**'s 27 is minuscule, so it restricts to the root-sl₂ as
+**6·(fundamental 2) ⊕ 15·(singlet)** — the fermion doublets are copies of the fundamental 2. The
+beat **W = exp(q·e)** lives upstream of the embedding, so **Ω = exp(ρ₂₇(q·e))∘gal** closes
+functorially on the 27: the fermions **inherit** B1141's beat-selected lift. Exact over ℚ(√−3):
+relator = +I; **Ω²=A27**; **Ω·A27·Ω⁻¹=A27**; **Ω·B27·Ω⁻¹=ρ(B⁻¹ABA⁻¹B)**. **Verified three
+independent ways** — this bench blind, the cloud's `sp2_seat.py` reproducing from primary source,
+and an adversarial own-code cert (banked B1102/B883 only; ρ₂₇ re-certified on 3003 brackets;
+non-vacuity checks pass). **The exact algebraic closure is the theorem: the last discrete spin-lift
+bit is assigned, on-object, consistent with the fermion-capable stratum's *internal* structure.**
+The codex seat's close-out audit (which re-ran all 46 cloud certs and confirms this algebra
+reproduces) **sharpens the fence**: the A₁ is su(2) *internal* to E₆ (centralizer su(6)), **not**
+the 4d Lorentz group — **no Pin structure, no Dirac index, no 4d chirality, and three generations
+are NOT proved**, so "the generation's seat closes" is the program's *thesis* reading, not a
+theorem. Fence: fermionic *kinematics*, not dynamics. Cloud + codex seats credited. Gate 5 n/a.
+Lock `tests/test_b1145_sp2_fermion_seat.py`.
+
+## THE ADOPTION-LAYER CORRECTION (B1144, 2026-08-25): four fixes from the cloud's audit, verified from primary source — the math was never wrong
+
+The cloud seat's `CORPUS_ADOPTION_AUDIT.md` (golden_gate `d537790`) found four adoption-layer
+errors in the phase-III digest; each re-checked here, three against the cloud's **primary
+certificates** (golden_gate is a separate public repo — invisible only because this checkout's key
+is origin-axiom-scoped; restored fetch-only via anonymous HTTPS). **None of B1138–B1143's math
+changes.**
+
+- **①** B1141's two ℚ(√−3) "errata" **WITHDRAWN** — the memo writes in the q=e^{iπ/3} basis (minpoly
+  x²−x+1, norm x²+xy+y²), exactly correct; the "errata" imposed the ω=e^{2πi/3} basis. The durable
+  **ℚ(√−3) convention map** is banked in TERMINOLOGY.md.
+- **②** B1138's cert note **corrected** — `family_triplet.py`'s E₈ Cartan **is** symmetric/valid
+  (240 roots, self-asserted); the verifier mis-transcribed it (artifact on the verifying side).
+- **③** B1140's "single-homed debt" **reframed + cleared** — 449ece8 is on neither canonical remote
+  but on golden_gate; the push-before-cite rule stands; the durable fix is the cloud now pushing
+  `outside-bench` to origin.
+- **④** B1139's "SP-1 open cell" tag was stale (memo 25 closed it) and B1143's "catch on the cloud's
+  vector (= Y − T₃L)" is **withdrawn** as a cross-frame artifact — B1143 amended. Both benches find
+  c₅ = 1.
+
+Bidirectional, primary-source-verified — the two-bench discipline working. Accepted credits stand
+(B8132 scope clause, B991 3/8 typing, F-3). Cloud seat credited. Gate 5 n/a. Lock
+`tests/test_b1144_adoption_audit.py`.
+
 ## SP-1 CLOSES (B1143, 2026-08-25): the physical B−L is a genuine fourth Cartan direction — confirmed two-bench with cloud memo 25
 
 Cloud memo 25 (SP-1/SP-3/SP-4), re-derived two-bench with own code (own linear solve +
