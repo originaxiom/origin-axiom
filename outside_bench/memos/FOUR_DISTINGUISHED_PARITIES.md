@@ -69,6 +69,31 @@ the beat closure) is computed in the certificate.
 the vendored `certificates/twisted_double.py` stack (ρ₂₇ verified on all 3003 brackets
 in-run).
 
+### CODEX ADDENDUM (adopted 2026-08-25, from codex/seat-r001 R003 Wave 1 — the fourth bench's hostile verification of this memo; corrections filed at point of occurrence)
+1. **Reproduction:** `cp1_strata.py` re-run isolated (SHA-256-locked source,
+   Python 3.12.1 / SymPy 1.14.0), exit 0, byte-identical output; all four
+   distinguished rows confirmed exact.
+2. **Their extension, adopted with credit:** the selected-beat identities verified on
+   **ALL ELEVEN odd rows** (`verify_cp1_all_odd.py`, keyed to this certificate's
+   hash) — this memo checked the odd distinguished row and memo 29 the Levi A1; the
+   campaign's spine coverage over strata is now complete by the codex computation.
+3. **Sharpened fence, ADOPTED — census completeness:** every accepted row carries an
+   exact bracket-verified sl₂ witness (the positives are sound), but absence for
+   rejected labels is NOT algebraically proven — four seeded generic trials failing
+   is not a nonexistence proof, and the `len == 20` control leans on the CITED
+   Bala–Carter count. Reclassification: the census is EXACT-POSITIVE +
+   CITED-COMPLETE, not independently complete. (An independent completeness proof —
+   exact genericity certificates for the solvability rank condition, or an
+   exhaustive structured e-search — is the named follow-up.)
+4. **Scope sharpening, ADOPTED in the codex's crisper form:** since the 9 projective
+   rows need no lift and all 11 odd rows accept the selected-beat construction,
+   **beat-compatibility selects 0 of the 20 rows** — the beat is a functorial
+   compatibility mechanism AFTER a stratum is chosen, not a selector of the A1
+   landing, a fermion construction, or a generation theorem. What the beat selects
+   is the LIFT (χ = +1, memo 28); what selects among strata is projectivity/geometry
+   (memo 2) — two different mechanisms, now cleanly separated. B1145's internal-A1
+   fence propagates unchanged.
+
 ### One sentence for the ledger
 The four rows memo 2 could not reach are reached: one is fermion-capable and three are
 projective, the dictionary stands complete at 9 projective of 20 with nothing
