@@ -22,18 +22,38 @@ one live defect; **and the standing habit of the corpus correcting its own headl
 
 **No single theorem carries that. The series must.**
 
-## The spine
+## The spine — REVISED 2026-08-26, and the fourth seat had already built it
 
-**Every paper carries, identically:**
+**I first proposed writing a programme paragraph. That was the wrong instrument, and I was working
+from a stale tree.** The `codex/seat-r001` seat has banked
+`documents/PROGRAM_QUESTION_ANSWER_MAP.md`: **81 canonical questions, SHA-256 registered
+(`38b145bf…`), source-linked, with a renderer and a campaign validator.**
 
-1. **A one-paragraph programme statement** — what the object is, what the programme claims and
-   explicitly does not, and that the values question is closed negatively. Same words in all four.
-2. **The verification pointer** — `verify/` travelling in the tarball, clean-room reproducible,
-   with the paper's own claim-to-script table (the current paper's Appendix B, which already works
-   and is reusable verbatim).
-3. **A series footnote** naming the other three by title and status.
+| status | count |
+|---|---:|
+| `PROVED` | **22** |
+| `REFUTED` | **29** |
+| `CONDITIONAL` | 13 |
+| `EXTERNAL_BLOCKER` | 16 |
+| `EMPIRICAL` | 1 |
 
-**That is what stops four papers reading as four accidents.**
+> **MORE REFUTATIONS THAN PROOFS. That single table says what the programme is, quantitatively,
+> better than any paragraph I could write — and it is hashed, rendered from JSON, and validated.**
+
+**So the spine is:**
+
+1. **The question-answer map, cited by ID.** Every paper's claims carry their `OA-C####` IDs, so a
+   referee can see the claim's status *and* the 80 other questions around it. **This is what stops
+   four papers reading as four accidents: they are visibly four windows into one registry.**
+2. **The verification pointer** — `verify/` travelling in the tarball, clean-room reproducible, with
+   the claim-to-script table (the current paper's Appendix B, reusable verbatim).
+3. **A series footnote** naming the others by title and status.
+
+**And the map's domain counts justify the split rather than merely permitting it:**
+`vacuum` 22 · `geometry` 17 · `lie` 8 · `qft` 8 · `values` 6 · `flavor` 6 · `spectrum` 5.
+**Paper I is geometry/arithmetic, II is lie, III is qft, IV is values+framework** — the four
+largest non-vacuum domains, one community each. **`vacuum`, the largest at 22, is the current 52pp
+paper's territory and stays its own object.**
 
 ## The four, and the order
 
