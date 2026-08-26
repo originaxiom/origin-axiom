@@ -11070,3 +11070,7 @@ Returned to the mathematics. The Sym-power eigenvalue decomposition gives an exa
 
 Reproduced cc's B1157 exactly over `ℚ(√−3)` rather than citing it: `H*` is never acyclic, `(0,1,1)` for `m ≥ 1`, by a peripheral mechanism that holds for every `m`. **That invalidates the Fried step in my own reflection formula, whose numbers are withdrawn and removed from Paper III.** The Sym-power identity is untouched. Recorded three instrument failures met on the way, including that SnapPy's high-precision values are destroyed by the `complex()` cast.
 
+## B8141 extended — the manifest route
+
+The suite sweep turned up a third artifact-class instance my own scan could not see: a test reading a manifest that lists gitignored `.log` files. Extended the instrument, then **caught it over-reporting twice** — nine manifests when only one is read by a test, and a reader-attribution that credited the wrong test. Gated on actual readers and anchored on the empirically observed failure.
+

@@ -1,5 +1,15 @@
 # Changelog
 
+## B8141 extended — the artifact class has a second route, and my scan was blind to it
+
+**Found by the suite sweep this arc prompted.** `test_b646_wave2::test_archive_matches_manifest_except_disclosed` fails with **MISSING `.log` entries** — a test reading a **manifest that lists gitignored artifacts**, so the paths never appear as string literals in any test source. **B8141's original scan was structurally blind to this.**
+
+**Verified instance:** `B646_wave2_integration/cc2_packets/ORIGINALS_MANIFEST.txt` — 112 listed, 14 absent, **9 gitignored**, read by `test_b646_wave2.py`. So the class has two routes: literal paths in test source (2 tests, 6 artifacts) and manifest-listed paths (1 test, 9 artifacts).
+
+**⚠ My extension over-reported twice, both recorded.** It first flagged **nine** manifests with 69 gitignored-missing entries — **eight are read by no test and break nothing**; reporting them would be noise, the same disease as the permanent red this arc exists to cure. Then its reader-attribution matched the manifest's *parent folder* and credited `test_cc2_r5_adopted.py`, which does not read it; fixed to match the **arc directory**, which resolves to the test actually observed failing.
+
+**The ground truth is the observed failure, not the static scan.** The scan was tuned until it reported exactly what was independently verified, and no more.
+
 ## B8142 CORRECTED — the reflection formula's antecedent is refuted, and I reproduced the refutation
 
 **cc's B1157 refuted the antecedent of B8142b one turn after I banked it. Reproduced from scratch, exactly over `ℚ(√−3)`, 8/8 — not cited.**

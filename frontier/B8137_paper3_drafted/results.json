@@ -3,6 +3,12 @@
   "statement": "the Euler product of R(k,sigma_k) is PURELY GEODESIC and contains no L-function, so R does NOT factor through L(s,chi_-3) in its Euler product -- but L(s,chi_-3) DOES enter the functional equation through the cusp",
   "why_it_matters": "arithmetic enters through the cusp and the functional equation, not the geodesic Euler product; 'the Ruelle zeta is an L-function' is false in the Euler-product sense such claims usually mean"
  },
+ "blast_radius_checked_2026-08-26": {
+  "B8133": "NO CORRECTION NEEDED -- it already states Fried's hypothesis as 'acyclic orthogonal' and concludes Fried does NOT close residue 2. The refutation STRENGTHENS it.",
+  "B8135": "NO CORRECTION NEEDED -- references only OA-C1061/1062 statuses.",
+  "B8137": "POINTER ADDED (this field) -- the decomposition claim stands, the Fried composition does not.",
+  "B8142": "CORRECTED in place; reflection formula withdrawn."
+ },
  "gap_found_and_filled": {
   "action": "wrote check_n2_abscissa.py independently from B8129's method description, with the bite control promoted to an ABORT",
   "residual": "my spreads differ ~3% from banked (independent implementation); |R| values agree to four decimals; no conclusion depends on the difference",
@@ -43,7 +49,7 @@
  },
  "three_residues": {
   "1_spin2_cusped_test_function": "a gauge-fixed spin-2/vector/scalar one-loop determinant for the finite-volume CUSPED case. Believed a genuine literature gap, not a retrieval failure. CLOSED BY: a construction, or a citation missed.",
-  "2_evaluation_point": "Fried gives R_sigma(0) = T_X(sigma)^2 and the cusped extension EXISTS (Park). It does NOT close the gap: Fried evaluates at s=0, Pfaff at k>=3, the graviton at s=n>=2 -- three evaluations of ONE family, and Fried's is the one point the graviton never visits. CLOSED BY: a relation between the family's value at 0 and its values at positive integers. Reframes an EXISTENCE gap as an EVALUATION gap. || SHARPENED BY B8142: R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j) exactly, so at s=0 the graviton's own factors conj R(j,sigma_j) (j=1..m) sit INSIDE Fried's point, and the obstruction is the complementary product at NEGATIVE arguments. Residue 2 therefore reduces to evaluating R at the negative integers, and again -- since s <-> 2-s carries 2+j to -j with R(2+j,sigma_j) absolutely convergent -- to ESTABLISHING THE FUNCTIONAL EQUATION for R(s,sigma_k) on m004. Still OPEN; the target is now a single standard object.",
+  "2_evaluation_point": "Fried gives R_sigma(0) = T_X(sigma)^2 and the cusped extension EXISTS (Park). It does NOT close the gap: Fried evaluates at s=0, Pfaff at k>=3, the graviton at s=n>=2 -- three evaluations of ONE family, and Fried's is the one point the graviton never visits. CLOSED BY: a relation between the family's value at 0 and its values at positive integers. Reframes an EXISTENCE gap as an EVALUATION gap. || SHARPENED BY B8142: R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j) exactly, so at s=0 the graviton's own factors conj R(j,sigma_j) (j=1..m) sit INSIDE Fried's point, and the obstruction is the complementary product at NEGATIVE arguments. Residue 2 therefore reduces to evaluating R at the negative integers, and again -- since s <-> 2-s carries 2+j to -j with R(2+j,sigma_j) absolutely convergent -- to ESTABLISHING THE FUNCTIONAL EQUATION for R(s,sigma_k) on m004. Still OPEN; the target is now a single standard object. || CORRECTED 2026-08-26 (see B8142): the phrase 'sit INSIDE Fried's point' describes the DECOMPOSITION of R_{rho(m)}(0), which stands. It must NOT be read as licensing 'R_{rho(m)}(0) = T_X(rho(m))^2' -- that step is REFUTED, because H*(m004; Sym^{2m}C^2) = (0,1,1) is never acyclic and R_{rho(m)}(s) vanishes to nonzero order at s=0. The reduction chain (to negative integers, then to a functional equation) is unaffected: it rests on the identity and on s <-> 2-s, not on Fried.",
   "3_cusp_continuous_spectrum": "not included in the assembly. CLOSED BY: the assembly, once residue 1 is available."
  }
 }

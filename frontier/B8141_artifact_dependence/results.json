@@ -1,5 +1,19 @@
 {
  "distinct_from_the_cost_class": "a COST-class lock works but is never REACHED (B8139); an ARTIFACT-class lock IS reached and reports on the machine rather than the code",
+ "extended_2026-08-26_the_manifest_route": {
+  "discipline": "the ground truth is the observed failure, not the static scan. The scan was tuned until it reported exactly what was independently verified, and no more.",
+  "found_by": "the suite sweep this arc prompted -- test_b646_wave2::test_archive_matches_manifest_except_disclosed FAILS with MISSING .log entries",
+  "my_extension_over_reported_twice": {
+   "first": "the extended scan flagged NINE manifests with 69 gitignored-missing entries. EIGHT are read by no test and break nothing. Reporting them would be noise -- the same disease as the permanent red this arc exists to cure. Gated on actual readers.",
+   "second": "the first reader-attribution matched the manifest's PARENT FOLDER (cc2_packets) and credited test_cc2_r5_adopted.py, which does not read it. Fixed to match the ARC DIRECTORY, which resolves to test_b646_wave2.py -- the test empirically observed failing."
+  },
+  "so_the_class_has_two_routes": [
+   "literal paths in test source (the original finding: 2 tests, 6 artifacts)",
+   "manifest-listed paths read at runtime (1 test, 9 artifacts)"
+  ],
+  "the_second_route": "a test may read a MANIFEST that LISTS gitignored artifacts, so the paths never appear as string literals in any test source. B8141's original scan was STRUCTURALLY BLIND to this.",
+  "verified_instance": "frontier/B646_wave2_integration/cc2_packets/ORIGINALS_MANIFEST.txt -- 112 listed, 14 absent, 9 GITIGNORED, read by test_b646_wave2.py"
+ },
  "finding": {
   "affected_tests": {
    "test_b1062_bridge.py": 5,

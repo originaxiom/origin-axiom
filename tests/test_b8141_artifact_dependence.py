@@ -27,3 +27,20 @@ def test_legitimate_cases_are_excluded_not_inflated():
 
 def test_no_remedy_is_claimed():
     assert any("judgements for the arcs' owner" in x for x in R["not_claimed"])
+
+
+def test_the_manifest_route_is_recorded():
+    e = R["extended_2026-08-26_the_manifest_route"]
+    assert "STRUCTURALLY BLIND" in e["the_second_route"]
+    assert "test_b646_wave2.py" in e["verified_instance"]
+    assert len(e["so_the_class_has_two_routes"]) == 2
+
+def test_the_extensions_over_reporting_is_recorded_both_times():
+    o = R["extended_2026-08-26_the_manifest_route"]["my_extension_over_reported_twice"]
+    assert "EIGHT are read by no test" in o["first"]
+    assert "does not read it" in o["second"]
+
+def test_the_scan_is_gated_on_actual_readers():
+    src = (ROOT / "scripts/checks/artifact_dependence.py").read_text()
+    assert "read by no test" in src or "readers" in src
+    assert "mis-attributed" in src
