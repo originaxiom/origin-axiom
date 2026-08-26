@@ -1,0 +1,6 @@
+R(s,sigma_k) exponent coefficients: (-s,k)
+q^k exponent coefficients: (-k,k)
+termwise equality occurs at s=k
+absolute-domain check: k=2 is boundary; every integer k>=3 is inside Re(s)>2
+countercontrol: prod_(n=2..N)(1-1/n^2)=(N+1)/(2N) -> 1/2
+VERDICT: k>=3 DICTIONARY EXACT; n=2 AND NO-FINITE-IDENTITY CLAIMS DO NOT FOLLOW
