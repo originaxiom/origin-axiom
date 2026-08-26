@@ -1,0 +1,9 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+(0, 1, 0, 0, 0, 0) numpy rank(ad e)= 22 orbit dim (numpy)= 56
+(2, 2, 2, 2, 2, 2) numpy rank(ad e)= 72 orbit dim (numpy)= 6
+(0, 0, 0, 1, 0, 0) numpy rank(ad e)= 40 orbit dim (numpy)= 38
