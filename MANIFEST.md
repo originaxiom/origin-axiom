@@ -17,6 +17,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R011 | `certificates/r011_ruelle_scope.py` | Paper III's exact dictionary is an M-character identity for k>=3; n=2, no-finite-torsion and full-cusped-gravity upgrades do not follow | VERIFIED / RELAYED |
 | R012 | `certificates/r012_dark_ledger_scope.py` | fixed D5/bridge frames give the exact 40+5 cubic support and distinct parities; U(1)_psi naming and physical dark-sector fences restored | VERIFIED / RELAYED |
 | R013 | `certificates/r013_rung_transfer.py` | torality plus the single explicit E6 A2 Weyl orbit transfers the charged C to the exact 109-flat/11-value Qbar arrangement | VERIFIED / RELAYED |
+| R014 | `certificates/r014_paper4_counterexamples.py` | normalized volume refutes the literal scale theorem; exact s955 gluing refutes the exhaustive 14-member family | VERIFIED / RELAYED |
 
 Every new cell must add its memo, self-contained certificate, captured output, and relay before it
 is cited outside this branch.

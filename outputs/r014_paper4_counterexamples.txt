@@ -1,0 +1,8 @@
+s955 isosig: gLvQQadfedefjqqasjj
+census metadata: size=212641, paper last index=1200, s955 index=1256
+s955 exact regular-shape gluing: 6 edge equations and 2 cusp equations PASS
+shape polynomial: X^2-X+1, discriminant=-3
+verdict: the asserted exhaustive 14-member family is REFUTED
+scale counterexample: normalized volume of a degree-3 cover is 3*volume
+correct fence: conversion to physical units still needs an external scale L
+VERDICT: BOTH LITERAL PAPER-IV CLAIMS REFUTED; FULL-FAMILY SEPARATOR REMAINS OPEN
