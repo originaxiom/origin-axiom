@@ -1,5 +1,84 @@
 # Changelog
 
+## THE LARGE-T GUE TEST (B1151 / C4, 2026-08-26): the preregistered single-GUE gate is NOT met at T=3000 — and the deviation is the superposition (ζ_K = ζ·L(χ₋₃))
+
+The cloud's preregistered spectral cell `c4_gue_larget.py` (`origin/outside-bench`), run on our i9 at
+T=3000 (5459 merged zeros). **Preregistered gate NOT MET** — single-GUE rejected (KS vs GUE Wigner
+surmise D=0.134, p=2e−85), though the **density gate passed exactly** (5459 vs 5458.0, |diff|=1.0) and
+Poisson is strongly rejected (GUE closer than Poisson). The discriminating computation
+(`gue_analysis.py`, per-factor unfolding on the committed raw zeros) locates it: ζ alone D=0.040,
+L(χ₋₃) alone D=0.049 — the **merged D=0.134 is ≈3× each factor**, the fingerprint of a **2-fold GUE
+superposition**: ζ_K is a product L-function (ℚ(√−3)'s Dedekind zeta, B737), a union of two independent
+GUE spectra that don't cross-repel. Honest **NEGATIVE**, informative. Fences: GUE is generic (B1142) —
+universality class at scale, never object-specificity; the superposition is generic for any product
+L-function; no crossing; Gate 5 untouched. Raw zeros (the ~1.7h scan) committed. Lock
+`test_b1151_gue_larget.py`.
+
+## THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA (B1150, 2026-08-26): cloud memos 52–53 reproduce-verified — the coupling's depth-selection rule + the inter-family Yukawa ε_family⊗Jordan-cubic
+
+The cloud's **memos 52–53** (`origin/outside-bench` `1544989d`) reproduce-verified (2/2, rc=0 = every
+preregistered assert GREEN); memo 53's family=ε independently sympy-confirmed.
+- **memo 52 (THE YUKAWA READS THE CLOCK)** — the unique coupling Y=ε⊗C (memo 48) is supported on
+  **exactly the 7 sl₂-allowed depth blocks** of the meridian grading (none of the 11 forbidden), every
+  nonzero block **odd** total depth — the **representation-theoretic maximum** (not a tautology: the
+  allowed blocks could have been annihilated). *The clock that times the slots also routes their
+  interactions.* Closes the quartet 49–52.
+- **memo 53 (THE THREE-FAMILY YUKAWA)** — a fenced **possibility-space** cell (E8 not object-paid): in
+  E8 the three-family Yukawa on G-3's triplet is **ε_family⊗C_Jordan** exactly; **same-family
+  (diagonal) couplings vanish** by root arithmetic (no same-family zero-sum triple exists); C_sym = the
+  object's Jordan cubic (memo 48), the family factor forced to ε.
+
+Kinematics only; Gate 5 untouched. Lock `test_b1150_yukawa_clock_and_family.py`.
+
+## THE MERIDIAN & LONGITUDE HARVEST (B1149, 2026-08-26): cloud memos 49–51 reproduce-verified — the carrier's cusp structure IS the matter grading, and the atlas's two arithmetic ends are one trace-3 form
+
+The cloud's **memos 49–51** (`origin/outside-bench` `1544989d`) reproduce-verified (3/3 self-contained
+stdlib-exact certs, **rc=0 = every preregistered assert GREEN** on our pyenv); memo 49's arithmetic core
+independently **sympy**-confirmed (a tool distinct from the cert). The arc traces the carrier's peripheral
+(cusp ℤ²) structure onto the matter sector:
+- **memo 49 (TRACE THREE)** — the atlas's golden (ℚ(√5)) and Eisenstein (ℚ(√−3)) ends are the **unit**
+  (x²−3x+1, det 1, disc 5) and **ramified** (X²−3X+3, norm 3, disc −3) answers to **one trace-3 form**;
+  the object supplies both witnesses (its clock + its conserved κ=1+q), disc = 9−4d. One meridian, two
+  clocks: φ² exponential on the fiber, **nilpotency degree exactly 3** on the carrier Ψ=ℂ²⊗27. The beat
+  fixes the golden, stirs only the Eisenstein pair. *[machine-caught error filed: nilpotency 4→3, corrected.]*
+- **memo 50 (ODD STEPS ARE MATTER)** — Jordan type **6·J₃⊕15·J₂⊕6·J₁** (27:21:6); the memo-46 lock **is
+  clock-depth parity** — matter (24) = odd chains, unlocked (30) = even; full depth 3 only in matter.
+- **memo 51 (THE LONGITUDE IS THE LOCK)** — ρ_Ψ(λ)=C_Ψ·(3-step unipotent): the **semisimple part of the
+  boundary curve is the lock**; the cusp-fixed space (dim 12) lies entirely in matter. Meridian = clock,
+  longitude = sign.
+
+The 24-dim matter sector is now named by **four independent computations** (memos 46/47/50/51) — the
+over-determination is what "structural" means. memo 49 is a `RECURRENCE_ATLAS` `two_ends` annotation
+candidate (the co-occurrence pattern's first exact mechanism). Kinematics only; Gate 5 untouched. Lock
+`test_b1149_meridian_longitude.py`.
+
+## THE CARRIER HARVEST (B1148, 2026-08-26): cloud memos 41–48 reproduce-verified — the internal→spacetime bridge's first plank + the Yukawa *shape* as a theorem (unique with no shape assumption)
+
+The cloud's **memos 41–48** (`origin/outside-bench` `d3c99640`) reproduce-verified (8/8 self-contained
+certs, byte-identical on our pyenv). The batch reaches toward the internal→spacetime bridge B1145/codex
+flagged unpaid:
+- **memo 45 (the only spinor)** — the 27 and 78 are integer-spin under the Lorentz double; the *only*
+  spin-½ module is the holonomy's **C²**; the bridge gap is now **one sharp question** (what carries C²
+  into spacetime), the no-go half exact.
+- **memo 46 (the carrier)** — **Ψ = C²⊗27** verified on 54×54; the **matter sector *is* the
+  lift-independent sector** (C_Ψ=+1 on the 24 fermion slots) — a spin-internal lock, exact.
+- **memo 47 (the Yukawa)** — Y=ε⊗C is the unique, antisymmetric, selection-ruled coupling invariant;
+  **the Yukawa shape is a theorem, the values stay behind Gate 5** — structure-vs-values in the flavor
+  sector (the honest counterpart to codex's up-Yukawa no-go / SEAM-Y).
+- **memo 48 (the coupling is unique)** — π₁ *alone* leaves **6615** invariant trilinears; the gauge/closing
+  symmetry cuts **6615→4→1** by direct full-tensor nullspace (**no symmetry assumed** — the survivor is
+  *automatically* symmetric); **Y=ε⊗C is unique with no shape assumption**, discharging memo 47's
+  factorized caveat — the gauge principle does the cutting.
+- **memo 42 (the freedom ledger)** — the SM description in four audited columns (object-forced 14,
+  observer-priced 7, invisible 1 = the beat, open 5); the ten value-negatives = column-membership proofs.
+- **memos 41/43/44** — κ=1+q meets the beat at the field's √−3; the holonomy triple as a fixed point of
+  the trace map (+ its Galois twin); the closing's mirror is inner (one ℤ/2 class).
+
+Plus **codex R003** re-verified memo 30 (byte-identical + all-11-odd-rows), fence: "the beat is a
+*compatibility* condition, not a selector" — agreeing with B1146/SEAM-B. Fences held: kinematics/algebra
+only (no bundle/Dirac/field/value/dynamics); the bridge is **not closed**. Cloud + codex credited. Gate 5
+untouched. Lock `tests/test_b1148_carrier_harvest.py`.
+
 ## THE CONVERGENCE CAMPAIGN (B1146 + B1147, 2026-08-26)
 
 **B1146 — SEAM-B (own bench, exact).** The 2T-vs-A₄ distinction is the object's own **−I**, visible

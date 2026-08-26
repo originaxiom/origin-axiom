@@ -16,6 +16,46 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1151 — THE LARGE-T GUE TEST / C4)**: the cloud's preregistered spectral
+cell run on our i9 at T=3000 (5459 merged zeros of ζ_K = ζ·L(χ₋₃)). **Preregistered single-GUE
+gate NOT MET** (KS vs GUE D=0.134, p=2e−85) — an **honest NEGATIVE**; but the density gate passed
+exactly and the discriminating per-factor computation locates the deviation in the **merge**: ζ
+alone D=0.040, L(χ₋₃) alone D=0.049, merged D=0.134 ≈ 3× each — the **2-fold GUE superposition**
+fingerprint (ζ_K is a product L-function). Fences: GUE is generic (B1142) — universality class at
+scale, never object-specificity; no crossing; Gate 5 untouched. Lock test_b1151_gue_larget.py.
+
+**LATEST (2026-08-26, B1150 — THE YUKAWA READS THE CLOCK + THREE-FAMILY YUKAWA)**: cloud memos
+52–53 reproduce-verified (2/2, rc=0; memo 53's family=ε independently sympy-confirmed). **memo 52**:
+the unique coupling Y=ε⊗C is supported on **exactly the 7 sl₂-allowed depth blocks** of the meridian
+grading (none of 11 forbidden), every nonzero block odd total depth — the **representation-theoretic
+maximum**, not a tautology; the clock that times the slots also routes their interactions (closes the
+quartet 49–52). **memo 53** (possibility-space, E8 not object-paid): the three-family Yukawa on G-3's
+triplet is **ε_family⊗C_Jordan** — **same-family couplings vanish** by root arithmetic; C_sym = the
+object's Jordan cubic (memo 48). Gate 5 untouched. Lock test_b1150_yukawa_clock_and_family.py.
+
+**LATEST (2026-08-26, B1149 — THE MERIDIAN & LONGITUDE HARVEST)**: cloud memos 49–51
+reproduce-verified (3/3, rc=0 = every preregistered assert GREEN; memo 49 independently
+sympy-confirmed) — the carrier's peripheral (cusp) structure IS the matter grading. **memo 49**
+(TRACE THREE): the atlas's golden ℚ(√5) and Eisenstein ℚ(√−3) ends are the **unit** (disc 5) and
+**ramified** (disc −3) answers to **one trace-3 form** — the object's clock + its conserved κ=1+q;
+one meridian, two clocks (φ² on the fiber, **nilpotency exactly 3** on the carrier). **memo 50**
+(ODD STEPS ARE MATTER): Jordan type 6·J₃⊕15·J₂⊕6·J₁; the lock **is clock-depth parity** (matter =
+odd chains). **memo 51** (THE LONGITUDE IS THE LOCK): ρ_Ψ(λ)=C_Ψ·(3-step unipotent) — the
+**semisimple part of the boundary curve is the lock**; cusp-fixed space (dim 12) ⊂ matter. The
+24-sector is now **4× over-determined** (memos 46/47/50/51). Atlas `two_ends` annotation landed.
+Gate 5 untouched. Lock test_b1149_meridian_longitude.py.
+
+**LATEST (2026-08-26, B1148 — THE CARRIER HARVEST)**: cloud memos 41–48 reproduce-verified
+(8/8) — the first algebraic reach at the internal→spacetime bridge: **memo 45** (the *only*
+spin-½ is the holonomy's C²; 27/78 integer-spin; bridge = one sharp question, no-go half exact),
+**memo 46** (the carrier **Ψ=C²⊗27**; matter sector = lift-independent sector, a spin-internal
+lock), **memo 47** (the **Yukawa shape is a theorem, values behind Gate 5** — flavor-sector
+structure-vs-values, the counterpart to codex's up-Yukawa no-go), **memo 48** (the coupling is
+*unique* — 6615→4→1 by direct full-tensor nullspace, **no shape assumption**). Plus the freedom ledger (memo
+42, four audited columns), κ-meets-beat (41), the fixed-point twin (43), the inner mirror (44),
+and codex's R003 cross-verification of memo 30. Bridge NOT closed; kinematics only. Lock
+test_b1148_carrier_harvest.py.
+
 **LATEST (2026-08-26, B1146 + B1147 — THE CONVERGENCE CAMPAIGN)**: **B1146 SEAM-B** — the
 2T-vs-A₄ distinction is the object's own −I, visible on BOTH the 27 and the 78 (minimal-A1
 adjoint 5-grading, 40 odd dims); codex's "adjoint can't distinguish them" is a principal-sl₂

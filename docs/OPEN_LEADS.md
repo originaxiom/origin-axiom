@@ -1973,3 +1973,42 @@ is a *separate public repo* (invisible only because this checkout's key is origi
 reachable fetch-only via anonymous HTTPS), and the cloud now pushes `outside-bench` to
 origin, so cited artifacts are fetchable. The push-before-cite rule stands as the prospective guard;
 the "debt" framing on 449ece8 is cleared. cc3 credited. ★★ (hygiene/provenance, not math).
+
+## L182 — THE THREE SEAMS: the make-or-break crossings, sealed and named (registered 2026-08-26; source `frontier/B1146_seam_b/THREE_SEAMS_PREREG.md`, sha e699ebc79c06a823)
+
+The prereg (three-bench, sealed) names the three load-bearing crossings the chain
+not-nothing→…→SM structure→the values now rests on. **SEAM-B** (2T = the object's own
+beat/−I) is DISCHARGED — B1146 (the −I visible on the 27 AND the 78) + cloud memo 34
+(PROJECTIVE⟺EVEN). Two remain OPEN, and they are the campaign's highest prize:
+
+- **SEAM-Y — the up-Yukawa ≡ the value wall.** Codex's independent result: the up-type
+  Yukawa is forced to **0** by the same disjointness that makes the ten SM values
+  non-derivable (the object supplies the coupling SHAPE — B1148 memos 47/48 — never the
+  value). The seam: is codex's up-Yukawa=0 the SAME theorem as the value-negatives, or a
+  distinct no-go? Typed before running; a MATCH links the flavor sector to the value wall.
+- **SEAM-A — heterotic = the archimedean ∞-place (THE PRIZE).** The adelic thesis
+  (Vol = 9√3·ζ_K(2)/π²) reads the finite places as the arithmetic and the ∞-place as the
+  physics; the conjecture is that the heterotic string on the object's data IS the
+  archimedean completion. Codex's conditional MSSM-spectrum sketch lives here. **Wholly
+  unrun; a crossing needs a derivation + a null test** — the L46 firewall binds (structural
+  rhyme is the null hypothesis; same E₈ algebra ≠ same role).
+
+Also registered: **codex's five §9 challenges** to SEAM-B (each a sharpening/stress-test of
+the beat=−I identification; the principal-sl2 blindness one already defused as off-target in
+B1146). ★★★★★ (the two open seams are the make-or-break of the whole chain). GATED: SEAM-A is
+reading- and derivation-gated; nothing here promotes to CLAIMS.
+
+## L183 — THE REPRODUCER SWEEP: arcs banked as results with no code in the tree (registered 2026-08-26; cc3's cross-band suggestion, c1dc81c3)
+
+cc3, drafting the paper series, found **B8129 and B8130 banked as `results.json` with no
+reproducer in the tree** — a numerical claim that would have shipped with no script. They
+wrote one independently from the banked method description, promoted the bite control to an
+ABORT, and recorded a ~3% spread from the banked value rather than tuning to match (|R|
+agreed to four decimals). Their suggestion, adopted: **sweep more widely than one band —
+how many arcs across the repo are banked as results with no reproducer?** The cell: enumerate
+frontier arcs whose verdict cites a numerical result, check for a runnable script in the arc
+dir, list the gaps as debts — the single-homed-content gate (L181) one layer down: not "is it
+on a remote" but "can it be re-run at all." Cheap to enumerate; each gap is then a
+re-derivation task. ★★★ (reproducibility hygiene; the paper lane makes it load-bearing). Note:
+this seat's recent band (B1143–B1148) ships reproducers — B1148 8/8, B1146 `seam_b.py`, B1145
+`sp2_independent.py` — so the sweep's yield is expected in older arcs.

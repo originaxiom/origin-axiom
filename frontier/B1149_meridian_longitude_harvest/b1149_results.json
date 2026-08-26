@@ -1,0 +1,27 @@
+{
+ "id": "B1149",
+ "title": "THE MERIDIAN & LONGITUDE HARVEST: cloud memos 49-51 reproduce-verified -- the carrier's peripheral (cusp) structure IS the matter grading, and the atlas's two arithmetic ends are unified at trace 3",
+ "primary_source": "origin/outside-bench @ 1544989d (shared remote; memos 49-51 + certs + committed outputs)",
+ "verification_method": "reproduction -- each self-contained cert (stdlib Fraction, exact) re-run on this bench's pyenv 3.12.1; every claim is a preregistered assert so rc=0 IS the verification; verdict region diffed vs committed outputs (verification/reproduce.log). PLUS an independent sympy cross-check of memo 49's trace-3 arithmetic (verification/independent_check_memo49.txt), a tool distinct from the cert code.",
+ "reproduce": {
+  "total_certs": 3,
+  "byte_identical_verdict": 3,
+  "rc_zero": 3,
+  "failures": 0
+ },
+ "memos": {
+  "49": "TRACE THREE: the atlas's two structural ends are the UNIT and RAMIFIED answers to ONE trace-3 form. The clock (fiber substitution phi(V)=VU^-1VV, abelianization [[0,-1],[1,3]]) has charpoly x^2-3x+1 (trace 3, det 1=unit, disc 5, roots phi^2/phi^-2 -> GOLDEN Q(sqrt5)); the conserved kappa=tr[a,b]=1+q has minpoly X^2-3X+3 (trace 3, norm 3=ramified prime, disc -3 -> EISENSTEIN Q(sqrt-3)). Both monic trace-3, disc=9-4d, object supplies both witnesses (its dynamics + its first integral). One meridian, two clocks: spectral radius phi^2 (exponential, entropy 2 log phi) on the fiber lattice; unipotent nilpotency degree EXACTLY 3 on the carrier Psi=C^2(x)27 (composition 2+2-1). The beat fixes the golden polynomial (rational) and stirs only the Eisenstein pair (kappa<->gal kappa). [machine-caught error filed: preregistered nilpotency 4, cert returned 3, corrected -- the discipline working]",
+  "50": "ODD STEPS ARE MATTER: memos 46 and 49 are ONE fact. N=rho_Psi(a)-I has rank 27, rank^2 6, N^3=0 -> Jordan type 6 J3 (+) 15 J2 (+) 6 J1, graded 27:21:6. The lock C_Psi=diag((-1)^(1+wt)) commutes with BOTH generators (pi1-covariant, upgrading memo 46's comparison operator to an invariant grading). The lock IS clock-depth parity: locked/matter (dim 24) = 6 J3 (+) 6 J1 (ODD chains), unlocked (dim 30) = 15 J2 (EVEN chains); full depth 3 reached only in matter. Beat-stable at every filtration layer (dims 27/48/54).",
+  "51": "THE LONGITUDE IS THE LOCK: rho_Psi(lambda) = C_Psi . (3-step unipotent) -- by uniqueness of the multiplicative Jordan decomposition (C_Psi semisimple order 2, commuting with the unipotent part, both asserted in-run), the SEMISIMPLE PART of the boundary curve (longitude lambda=bABaaBAb, tr rho2=-2) on the carrier IS the lock operator. The matter/non-matter split is the eigenvalue grading of the boundary curve itself. The cusp divides labor: meridian=clock (memos 49/50), longitude=sign. Joint cusp-fixed space dim 12, ENTIRELY inside matter (unlocked longitude eigenvalue -1 forbids fixed support there). The 24-dim matter sector is now named by FOUR independent computations (memos 46/47/50/51).",
+  "arithmetic_check": "INDEPENDENT (sympy): kappa=1+q minpoly x^2-3x+3 (trace 3, norm 3, disc -3); substitution charpoly x^2-3x+1 (trace 3, det 1, disc 5); (3+sqrt5)/2==phi^2; both monic trace-3, disc=9-4d. CONFIRMED with a tool distinct from the cert."
+ },
+ "through_line": "memos 49-51 trace the carrier's PERIPHERAL (cusp Z^2) structure onto the matter grading: the meridian a supplies the CLOCK (nilpotency degree 3, matter = odd Jordan chains), the longitude lambda supplies the SIGN (its semisimple part = the lock C_Psi). The 24-dim matter sector is the +1 eigenspace of the longitude AND the odd-depth sector of the meridian -- massively over-determined (memos 46/47/50/51). Above it, memo 49 unifies the atlas's golden and Eisenstein ends as the unit and ramified answers to a single trace-3 form, the first EXACT mechanism for the two_ends co-occurrence pattern.",
+ "convergences": [
+  "the 24 matter slots named 4x independently (memo 46 lift-independence, memo 47 Yukawa selection, memo 50 odd chains, memo 51 longitude +1 eigenspace) = 'structural' made precise",
+  "memo 49's carrier-nilpotency-3 ties to memo 46's beta^2 = meridian (the beat squared = the meridian a)",
+  "memo 49 gives docs/RECURRENCE_ATLAS two_ends pattern its first exact mechanism (annotation candidate, flagged)",
+  "the beat (mirror) fixes the golden end and stirs only the Eisenstein pair -- the invisible bit lives entirely at the ramified prime sqrt-3 (memo 41/43 + THE_CORE_QUESTION s5)"
+ ],
+ "fences": "kinematics/algebra ONLY (no bundle, no Dirac operator, no field, no value, no dynamics -- stated by the certs). 'Clock', 'time', 'entropy', 'steps' are standard dynamical readings of exact spectral/nilpotency facts, labeled interpretive. That memo 49 EXPLAINS the atlas percentages is interpretive. The 54-dim carrier claims (Jordan types, longitude=lock) are reproduce-verified + internally self-checked (Chevalley brackets PASS, relator=identity PASS) and flagged for independent own-code re-derivation as promotion follow-ups; memo 49's arithmetic core is already independently sympy-confirmed here.",
+ "gate5": "n/a (topology / representation theory, no SM value)"
+}

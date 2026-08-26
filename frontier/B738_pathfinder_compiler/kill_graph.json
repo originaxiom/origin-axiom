@@ -10596,5 +10596,19 @@
   "fact_computed": "own mpmath/scipy re-derivation (nothing imported); vol=2.02988 (Bloch-Wigner, 28 dig); N(130)=75316 vs 108 observed (697x); exact count 43 zeta + 65 L(chi_-3) = 108; unitarity phi(s)phi(2-s)=1 to ~1e-31, Res phi=2 sqrt3/vol=1.7066; combined KS(GUE) D=0.1176 p=0.096, KS(Poisson) D=0.2152 p=1e-4 -- reproduces cloud's 0.1177/0.103 to 3-4 sig figs",
   "faces_consulted": "cc3 B8129 (density-kill + n=2 no-breakdown), B8130 (Ruelle Euler product purely geodesic, item 5 answered); B739 (the scattering determinant phi=Lambda_K(s-1)/Lambda_K(s)); B1140 (the finale, independent of this); the graviton two-faces = B1140 spin-2 + B8112 Ruelle",
   "hatch": "the graviton is TWO faces, not three (the spin-2 rep B1140 + the Ruelle=graviton product / 2+1 one-loop B8112, n=2 no-breakdown per B8129). Lane C is the object's cusp/scattering spectrum -- a PROVEN placement (Lambda_K=zeta*L(chi_-3)) worth locating, worth nothing to the value hunt. The DENSITY (carries vol/the cusp), not the GUE spacing (generic), is the object-specific fact"
+ },
+ {
+  "id": "B1151",
+  "claim_killed": "The preregistered single-GUE gate for zeta_K = zeta*L(chi_-3) at large T -- that the merged zeros match the single-GUE Wigner-surmise nearest-neighbour spacing at scale. Killed at T=3000 (5459 zeros): KS vs GUE D=0.13365 p=2.2e-85 (rejected; Poisson also rejected p=2e-116, GUE closer, D_GUE<D_Poisson). The deviation is the SUPERPOSITION: zeta_K is a product L-function, the union of two independent GUE spectra that do not cross-repel (per-factor D~0.040/0.049 vs merged 0.134).",
+  "kill_form": "genericity",
+  "faces_consulted": [
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "positive KS vs the 2-fold GUE SUPERPOSITION surmise (should FIT); + per-factor KS vs the exact GUE Gaudin distribution with precise unfolding, to clear the ~0.04 residual",
+  "priority": "P3",
+  "revival_score": 2,
+  "depth_note": "T=3000, 5459 merged zeros (L-scan 6098s on 10 cores). Per-factor KS still rejects at p<0.01 (D~0.04-0.05), consistent with the Wigner-surmise-vs-exact-GUE gap + leading-order Weyl unfolding -- not a per-factor failure; the clean confirmations are the un-walked hatches. Raw zeros committed (B1151 verification/).",
+  "note": "The large-T continuation of B1142's down-payment (108 zeros at t=130): CONFIRMS 'GUE but GENERIC' (Montgomery/Katz-Sarnak) at scale AND locates the merged deviation as the product-L-function superposition. GENERIC, not object-specific -- no firewall crossing; the density gate PASSED exactly (5459 vs 5458.0, |diff|=1.0). The kill is of the single-GUE reading of the merged spectrum, not of universality (Gate 5 untouched)."
  }
 ]

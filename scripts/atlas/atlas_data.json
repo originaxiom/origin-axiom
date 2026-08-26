@@ -3046,6 +3046,44 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1148": {
+   "slug": "carrier harvest",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1149": {
+   "slug": "meridian longitude harvest",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "symplectic"
+   ],
+   "refs": [
+    "L183"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B114": {
    "slug": "covering degree",
    "motifs": [
@@ -3062,6 +3100,35 @@
    "obstacle_conf": 2,
    "status": "open",
    "domain": "representation"
+  },
+  "B1150": {
+   "slug": "yukawa clock and family",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [
+    "L183"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1151": {
+   "slug": "gue larget superposition",
+   "motifs": [
+    "eisenstein",
+    "symplectic",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B737"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B115": {
    "slug": "higher generality",

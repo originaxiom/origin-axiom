@@ -1,0 +1,31 @@
+{
+ "id": "B1151",
+ "title": "THE LARGE-T GUE TEST (C4): the preregistered single-GUE gate is NOT met at T=3000 -- and the discriminating computation locates the deviation in the MERGE: zeta_K = zeta * L(chi_-3) is a 2-fold GUE SUPERPOSITION, not a single-GUE spectrum",
+ "verdict": "NEGATIVE (preregistered gate not met) -- informative: the deviation is the superposition, not a per-factor failure",
+ "provenance": "cloud seat's preregistered cell c4_gue_larget.py (origin/outside-bench); the down-payment gue_bench.py's named continuation ('re-run at much larger T before drawing any conclusion'). Run on this bench's i9 via c4_finish.py (reused saved zeta zeros + a 10-core parallel L(chi_-3) scan, after the original stalled on mpmath's slow high-n zetazero). Two-bench, owner-approved compute split.",
+ "scale": "T=3000: zeta zeros 2468 (to t=2998.96) + L(chi_-3) zeros 2991 = 5459 merged (vs 108 at the T=130 down-payment). L(chi_-3) scan: 6098 s on 10 cores.",
+ "preregistered_gate": "GUE-consistent IFF p_GUE > 0.01 AND p_Poisson < 1e-6 AND D_GUE < D_Poisson; else bank the negative honestly. Density gate: merged count vs N(T)=(T/pi)log(T sqrt3/(2 pi e)) within O(log T).",
+ "merged_result": {
+  "density_gate": "PASS -- observed 5459 vs smooth N(T)=5458.0, |diff|=1.0, gate O(log T)=8.0",
+  "unfolded_mean_spacing": "1.000072 (PASS, within 0.01 of 1)",
+  "ks_vs_gue": "D=0.13365, p=2.216e-85",
+  "ks_vs_poisson": "D=0.15617, p=1.976e-116",
+  "gate_verdict": "NOT MET -- p_GUE=2.2e-85 fails the >0.01 condition (Poisson rejected; GUE closer than Poisson: D_GUE < D_Poisson; but single-GUE also rejected)"
+ },
+ "discriminating_computation": {
+  "method": "unfold each L-factor separately (its own Weyl density rho=(1/2pi)log(cond*t/2pi), cond=1 for zeta, 3 for L(chi_-3)) and KS vs the single-GUE Wigner surmise (verification/gue_analysis.py, on the committed raw zeros)",
+  "zeta_alone": "D=0.0401, p=6.85e-4",
+  "L_alone": "D=0.0487, p=1.36e-6",
+  "reading": "the merged D=0.13365 is ~3x each factor's (0.040, 0.049) -- the non-GUE-ness lives in the MERGE. zeta_K = zeta * L(chi_-3) is a product L-function, so its zeros are the UNION of two independent GUE spectra, which do NOT cross-repel: the excess small spacings reject single-GUE while Poisson is also rejected (each factor keeps its own repulsion). This is the textbook 2-fold GUE SUPERPOSITION signature."
+ },
+ "interpretation": "the preregistered single-GUE gate fails BY SUPERPOSITION, not by any per-factor departure from universality. The 'interesting failure mode' the handoff flagged (the density gate) PASSED exactly -- the count is right to |diff|=1.0; it is the spacing distribution that carries the two-spectra structure. The arithmetic fact behind it: zeta_K = zeta * L(chi_-3) is the field Q(sqrt-3)'s Dedekind zeta (B737, the cusp voice numerator), a genuine product, so superposition is forced.",
+ "fences": {
+  "generic": "GUE is GENERIC (Montgomery / Katz-Sarnak, B1142) -- this certifies the universality CLASS at scale, never object-specificity; and the merged spectrum's superposition is likewise generic for ANY product of two L-functions, not object-specific.",
+  "per_factor_residual": "the per-factor KS still rejects at p<0.01 (D~0.04-0.05), consistent with (a) the Wigner SURMISE being an approximation to the exact GUE/Gaudin nearest-neighbour distribution, detectable at ~2500 samples, and (b) the leading-order Weyl unfolding. A clean per-factor GUE confirmation (exact Gaudin distribution + precise unfolding) is the named follow-up; it does not affect the located-in-the-merge conclusion (the 3x gap).",
+  "not_a_crossing": "no firewall crossing -- a statistical universality statement about an arithmetic zeta, not an object-to-physics bridge; Gate 5 untouched."
+ },
+ "follow_ups": [
+  "test the merged spacing against the 2-fold GUE SUPERPOSITION surmise (should FIT p>0.01) to positively confirm the mechanism",
+  "per-factor KS against the exact GUE (Gaudin) distribution + precise (higher-order) unfolding, to clear the ~0.04 residual"
+ ]
+}

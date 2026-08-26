@@ -11292,3 +11292,73 @@ derivation, memo 33 B1140 gluing discharged, memo 34 PROJECTIVE<=>EVEN (=B1146),
 Weyl coeff / pi^2 law / the one germ. C3 large-ladder on our i9 (N<=4000, 120 dps): c0 anchor exact,
 c1/c2 NOT-RECOGNIZED at depth (honest negative). C4 large-T GUE grinding, banks separately. Cloud
 credited. Gate 5 untouched. Locks test_b1146_seam_b.py + test_b1147_clane_harvest.py.
+
+**2026-08-26 — THE CARRIER HARVEST (B1148).** Cloud memos 41-48 reproduce-verified (8/8 certs
+byte-identical on our pyenv; origin/outside-bench d3c99640). The batch reaches at the
+internal->spacetime bridge B1145/codex flagged unpaid: memo 45 (the only spinor -- 27/78 integer-spin
+under the Lorentz double, the ONLY spin-1/2 is the holonomy's C^2; bridge gap = one sharp question,
+no-go half exact), memo 46 (the carrier Psi=C^2 (x) 27 on 54x54, C_Psi=+1 on the 24 fermion slots =>
+matter sector = lift-independent sector, a spin-internal lock), memo 47 (the Yukawa SHAPE is a theorem,
+values behind Gate 5 -- flavor-sector structure-vs-values, the counterpart to codex's up-Yukawa
+no-go/SEAM-Y). memo 48 (the coupling is unique -- pi1 alone leaves 6615 invariant trilinears, the gauge
+cuts 6615->4->1 by direct full-tensor nullspace with NO symmetry assumed, the survivor automatically
+symmetric; Y=eps (x) C unique with no shape assumption, memo 47's factorized caveat discharged).
+memo 42 (the freedom ledger, 4 audited columns: object-forced 14, observer-priced 7,
+invisible 1=beat, open 5; ten value-negatives = column-membership). memo 41 (kappa=1+q meets the beat
+at sqrt-3), 43 (fixed-point twin on the cusped Fricke surface + Galois twin), 44 (the closing's mirror
+is inner, one Z/2 class; 3<->3bar-outer refuted). Plus codex R003 re-verified memo 30 (byte-identical +
+all-11-odd-rows; fence "beat = compatibility not selector" = B1146). Fences: kinematics/algebra only;
+the internal->spacetime bridge is NOT closed. Cloud + codex credited. Gate 5 untouched. Lock
+test_b1148_carrier_harvest.py.
+
+**2026-08-26 — THE MERIDIAN & LONGITUDE HARVEST (B1149).** Cloud memos 49-51 reproduce-verified (3/3
+self-contained stdlib-exact certs, rc=0 = every preregistered assert GREEN on our pyenv;
+origin/outside-bench 1544989d), memo 49's trace-3 arithmetic independently sympy-confirmed. The arc traces
+the carrier's peripheral (cusp Z^2) structure onto the matter grading. memo 49 (TRACE THREE): the atlas's
+golden (Q(sqrt5)) and Eisenstein (Q(sqrt-3)) ends are the UNIT (x^2-3x+1: det 1, disc 5) and RAMIFIED
+(X^2-3X+3: norm 3, disc -3) answers to ONE trace-3 form -- the object's clock (fiber substitution) and its
+conserved kappa=1+q, disc=9-4d; one meridian two clocks (phi^2 exponential on the fiber, nilpotency degree
+EXACTLY 3 on the carrier Psi=C^2(x)27); the beat fixes the golden and stirs only the Eisenstein pair
+[machine-caught error filed: nilpotency 4->3, corrected]. memo 50 (ODD STEPS ARE MATTER): N=rho_Psi(a)-I
+Jordan type 6 J3 (+) 15 J2 (+) 6 J1 (graded 27:21:6); the memo-46 lock IS clock-depth parity -- matter
+(24) = odd chains 6 J3 (+) 6 J1, unlocked (30) = even chains 15 J2, full depth 3 only in matter;
+beat-stable. memo 51 (THE LONGITUDE IS THE LOCK): rho_Psi(lambda) = C_Psi . (3-step unipotent) -- the
+semisimple part of the boundary curve on the carrier IS the lock; matter = the longitude's +1 eigenspace;
+the joint cusp-fixed space (dim 12) lies entirely in matter; meridian=clock, longitude=sign. Convergence:
+the 24-dim matter sector is now named by FOUR independent computations (memos 46/47/50/51). memo 49 flagged
+as a RECURRENCE_ATLAS two_ends annotation candidate (annotation landed). Fences: kinematics/algebra only;
+Gate 5 untouched; load-bearing 54-dim claims flagged for independent re-derivation, memo 49 already
+sympy-confirmed. Cloud credited. Lock test_b1149_meridian_longitude.py.
+
+**2026-08-26 — THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA (B1150).** Cloud memos 52-53
+reproduce-verified (2/2, rc=0 = every preregistered assert GREEN; origin/outside-bench 1544989d),
+memo 53's family=epsilon independently sympy-confirmed. memo 52 (THE YUKAWA READS THE CLOCK): the
+unique coupling Y=eps(x)C (memo 48) is supported on EXACTLY the 7 sl2-allowed depth blocks of the
+meridian grading (none of the 11 forbidden), every nonzero block odd total depth -- the
+representation-theoretic MAXIMUM (not a tautology: invariance forces the forbidden to vanish, not the
+allowed to survive); depth-3 matter self-couples via internal singlets, matter<->unlocked via
+doublets; closes the quartet memos 49-52. memo 53 (THE THREE-FAMILY YUKAWA, POSSIBILITY-SPACE cell,
+E8 NOT object-paid): in E8 the three-family Yukawa on G-3's triplet = eps_family (x) C_Jordan exactly;
+same-family (diagonal) couplings vanish by root arithmetic (no same-family zero-sum triple exists;
+decided at the root-lattice level); C_sym = the Jordan cubic (memo 48), family factor forced to eps
+(dim Inv_sl3(3x3x3)=1 antisymmetric). Kinematics only; Gate 5 untouched. Cloud credited. Lock
+test_b1150_yukawa_clock_and_family.py.
+
+**2026-08-26 — THE LARGE-T GUE TEST (B1151 / C4).** The cloud's preregistered spectral cell
+c4_gue_larget.py run on our i9 at T=3000 (5459 merged zeros of zeta_K = zeta * L(chi_-3); L-scan 6098s
+on 10 cores). PREREGISTERED GATE NOT MET -- single-GUE rejected (KS vs GUE Wigner surmise D=0.13365
+p=2.2e-85); density gate PASSED exactly (5459 vs 5458.0, |diff|=1.0 < O(log T)=8); unfolded mean
+spacing 1.000072; Poisson strongly rejected (D=0.156 p=2e-116), GUE closer than Poisson. HONEST
+NEGATIVE. The discriminating computation (per-factor Weyl unfolding on the committed raw zeros,
+verification/gue_analysis.py): zeta alone D=0.040, L(chi_-3) alone D=0.049 -- the merged D=0.134 is
+~3x each factor => the deviation lives in the MERGE, the 2-fold GUE SUPERPOSITION signature (zeta_K is
+a product L-function, the union of two independent GUE spectra that do not cross-repel; excess small
+spacings reject single-GUE while each factor keeps its own repulsion so Poisson stays rejected). The
+failure mode the handoff flagged as interesting (the density gate) PASSED; it is the spacing that
+carries the two-spectra structure. Fences: GUE is GENERIC (Montgomery/Katz-Sarnak, B1142) --
+certifies the universality class at scale, never object-specificity; the superposition is generic for
+ANY product L-function; the per-factor ~0.04 residual is consistent with the Wigner-surmise-vs-exact-
+GUE gap + leading-order unfolding (clean confirmation = the Gaudin-distribution follow-up); no
+firewall crossing; Gate 5 untouched. Raw zeros (the ~1.7h scan) + gue_analysis.py committed for cheap
+re-analysis. Two-bench compute split; cloud credited (the preregistered cell + gate). Lock
+test_b1151_gue_larget.py.

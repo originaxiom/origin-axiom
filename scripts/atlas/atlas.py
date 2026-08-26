@@ -237,7 +237,7 @@ def _conserved(m):
 
 UNITY_PATTERNS = [
     dict(name="two_ends", weight=3,
-         gloss="the two arithmetic ends (golden √5 / Eisenstein √−3) identified as one object -- K021/B332/B261",
+         gloss="the two arithmetic ends (golden √5 / Eisenstein √−3) identified as one object -- K021/B332/B261; B1149 mechanism: the unit (det 1, disc 5) and ramified (norm 3, disc −3) answers to ONE trace-3 form, the object's clock + its conserved κ=1+q",
          needs=lambda ms: "golden" in ms and "eisenstein" in ms),
     dict(name="object=dynamics", weight=2,
          gloss="the carrier knot realized as the trace-map fixed locus / its conserved trace -- B67/K007",
