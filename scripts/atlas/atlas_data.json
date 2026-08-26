@@ -19382,12 +19382,14 @@
     "trace_map",
     "kappa",
     "dickson_tower",
+    "eisenstein",
     "golden",
-    "torsion"
+    "torsion",
+    "symplectic"
    ],
    "refs": [],
    "obstacle": "observable",
-   "obstacle_conf": 1,
+   "obstacle_conf": 3,
    "status": "dead",
    "domain": "arithmetic"
   },

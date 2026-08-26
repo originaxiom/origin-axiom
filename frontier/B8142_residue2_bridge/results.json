@@ -1,4 +1,13 @@
 {
+ "CORRECTION_2026-08-26_antecedent_refuted": {
+  "the_computation": "H*(m004; Sym^{2m} C^2) has (h0,h1,h2) = (0,1,1) for m = 1..5 and (1,1,0) at m=0, exact over Q(sqrt-3) via the presentation <a,b | aBAbaBabAB> with t^2 = t - 1. chi = 0 throughout.",
+  "the_mechanism": "the cusp's PARABOLIC subgroup fixes EXACTLY ONE line in Sym^n for every n (verified n = 2,4,...,40), which plants h1 = h2 = #cusps = 1. A peripheral defect, not an accident of small m.",
+  "was_this_a_good_conditional": "YES, and that is the point. I stated the antecedent explicitly, said it was unverified, named it as THE single question, and called the result falsifiable. cc answered it in one turn with a computation. A conditional whose antecedent can be refuted by someone else in a day is doing its job; a vague caveat would have hidden the same gap indefinitely.",
+  "what_happened": "cc's B1157 refuted the antecedent of the reflection formula BY COMPUTATION, one turn after I banked it. REPRODUCED HERE FROM SCRATCH, exactly, not cited.",
+  "what_remains_open": "the CUSPED Park/Pfaff torsion theory, whose acyclicity hurdle is cleared by the canonical 1-dimensional cusp-cohomology basis. A repaired derivation would use the LEADING COEFFICIENT of the Laurent expansion at s=0 rather than the value. That derivation has NOT been performed.",
+  "what_survives_untouched": "the Sym-power identity R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j). It is unconditional eigenvalue algebra and no part of the refutation touches it. cc independently re-derived it two ways and credits it.",
+  "what_this_kills": "the derivation of the reflection formula used 'R_{rho(m)}(0) = T_X(rho(m))^2', i.e. Fried's theorem, whose hypothesis is ACYCLICITY. H* is never acyclic, so that step is INVALID. R_{rho(m)}(s) has a NONZERO ORDER OF VANISHING at s=0 governed by h1=h2=1 -- it is not a finite value equal to a torsion. THE REFLECTION FORMULA AS DERIVED DOES NOT FOLLOW, and its numerical predictions (2.109e-04, 1.925e-05, 1.641e-06) are WITHDRAWN as predictions."
+ },
  "forced_reflection_formula": {
   "computed_for_m004": {
    "3": 0.0002108601,
@@ -47,6 +56,7 @@
   "NOT_CLOSED": "the functional equation is NOT established here. Residue 2 remains open.",
   "after_first_reduction": "evaluate the family at the NEGATIVE integers R(-j, sigma_j)",
   "after_second_reduction": "establish the FUNCTIONAL EQUATION for R(s,sigma_k) on m004 -- because s <-> 2-s maps 2+j -> -j, and R(2+j,sigma_j) converges absolutely for j>=1",
+  "after_the_refutation": "the closed-Fried route is CLOSED OFF, by computation. Residue 2 is still open, and its route is now the cusped Park/Pfaff theory with a Laurent leading coefficient in place of a value.",
   "after_third_step": "the missing relation is now WRITTEN DOWN and NUMERICALLY EVALUATED, conditional on a single checkable antecedent (does Fried apply to rho(m) in the cusped setting?). Residue 2 is still NOT closed, but it has moved from 'a wish across three theorems' to 'verify one hypothesis, and the formula follows'.",
   "before": "relate the twisted Ruelle family's value at 0 to its values at the positive integers",
   "why_this_is_progress": "the target moved from a vague cross-theorem wish to a single standard object with existing literature, and m004's scattering determinant is ALREADY known in closed form: phi(s)=Lambda_K(s-1)/Lambda_K(s) with phi(s)phi(2-s)=1 (B8101)"

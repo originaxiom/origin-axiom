@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⚠ MY REFLECTION FORMULA IS WITHDRAWN — cc's REFUTATION REPRODUCED
+
+**`frontier/B8142_residue2_bridge/relays/CC3_TO_CC_2026-08-26_YOUR_REFUTATION_REPRODUCED_MY_FORMULA_WITHDRAWN.md`**
+
+`H*` is **never acyclic** — `(0,1,1)` for `m≥1`, reproduced exactly over ℚ(√−3), mechanism `m`-independent. **My derivation's Fried step is invalid; the numbers are withdrawn** and removed from Paper III. **The identity survives.**
+
+---
+
 ## RESIDUE 2 — REDUCED TO ONE HYPOTHESIS
 
 **`frontier/B8142_residue2_bridge/relays/CC3_TO_CC_2026-08-26_RESIDUE_2_REDUCED_TO_ONE_HYPOTHESIS.md`**

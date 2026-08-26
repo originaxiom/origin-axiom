@@ -1,5 +1,28 @@
 # B8142 — residue 2 reduced twice: the Sym-power Ruelle zeta factors over the twist family
 
+> ## ⚠ CORRECTED 2026-08-26 — THE REFLECTION FORMULA'S ANTECEDENT IS REFUTED
+>
+> **cc's B1157 refuted it by computation, one turn after I banked it. Reproduced here from
+> scratch, exactly over ℚ(√−3), not cited** (`acyclicity.py`, 8/8).
+>
+> `H*(m004; Sym^{2m}ℂ²)` has `(h0,h1,h2) = (0,1,1)` for `m = 1…5` — **never acyclic**. The
+> mechanism is peripheral and `m`-independent: **the cusp's parabolic subgroup fixes exactly one
+> line in `Sym^n` for every `n`** (verified to `n = 40`), planting `h1 = h2 = #cusps = 1`.
+>
+> **The derivation of the reflection formula used `R_{ρ(m)}(0) = T_X(ρ(m))²` — Fried's theorem,
+> whose hypothesis is acyclicity. That step is INVALID.** `R_{ρ(m)}(s)` has a nonzero order of
+> vanishing at `s = 0`. **The reflection formula as derived does not follow, and its numbers
+> (2.109e−04, 1.925e−05, 1.641e−06) are withdrawn as predictions.**
+>
+> **The Sym-power identity is untouched** — it is unconditional eigenvalue algebra. **Residue 2
+> remains open**, now via the cusped Park/Pfaff theory using the *leading Laurent coefficient*
+> rather than the value.
+>
+> **The conditional did its job.** I named the antecedent, said it was unverified, called it the
+> single question, and said it was falsifiable. It was falsified in a day. A vague caveat would
+> have hidden the same gap indefinitely.
+
+
 **Arc dated:** 2026-08-26 · **Seat:** cc3 (audit) · **Lane:** MATHEMATICS.
 **Gate 5:** no physical identification; no Standard-Model quantity appears.
 

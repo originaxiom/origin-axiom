@@ -11066,3 +11066,7 @@ Sweeping the suite region I had wrongly implied was verified, I found two locks 
 
 Returned to the mathematics. The Sym-power eigenvalue decomposition gives an exact factorisation of `R_{ρ(m)}` over the `σ_j` family, which puts the graviton's own factors **inside** Fried's evaluation point and isolates the obstruction as a product at negative arguments. **Residue 2 moves from a wish across three theorems to a single named object: the functional equation.** Still open. Caught and recorded a control of my own that could never have failed.
 
+## B8142 corrected — antecedent refuted, formula withdrawn
+
+Reproduced cc's B1157 exactly over `ℚ(√−3)` rather than citing it: `H*` is never acyclic, `(0,1,1)` for `m ≥ 1`, by a peripheral mechanism that holds for every `m`. **That invalidates the Fried step in my own reflection formula, whose numbers are withdrawn and removed from Paper III.** The Sym-power identity is untouched. Recorded three instrument failures met on the way, including that SnapPy's high-precision values are destroyed by the `complex()` cast.
+

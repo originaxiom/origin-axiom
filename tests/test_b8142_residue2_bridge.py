@@ -45,3 +45,19 @@ def test_the_tuned_threshold_slip_is_recorded():
     t = R["my_own_tuned_threshold"]
     assert "TUNED TO THE TWO DATA POINTS" in t["why_wrong"]
     assert "c(2)/c(2) = 1" in t["also_fixed"]
+
+
+def test_the_antecedent_refutation_is_recorded_and_reproduced():
+    c = R["CORRECTION_2026-08-26_antecedent_refuted"]
+    assert "REPRODUCED HERE FROM SCRATCH" in c["what_happened"]
+    assert "(0,1,1)" in c["the_computation"]
+    assert "INVALID" in c["what_this_kills"] and "WITHDRAWN" in c["what_this_kills"]
+
+def test_the_identity_survives_the_refutation():
+    c = R["CORRECTION_2026-08-26_antecedent_refuted"]
+    assert "unconditional eigenvalue algebra" in c["what_survives_untouched"]
+
+def test_the_open_route_is_named_and_not_claimed_done():
+    c = R["CORRECTION_2026-08-26_antecedent_refuted"]
+    assert "Park/Pfaff" in c["what_remains_open"]
+    assert "has NOT been performed" in c["what_remains_open"]

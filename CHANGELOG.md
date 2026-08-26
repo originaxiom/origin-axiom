@@ -1,5 +1,19 @@
 # Changelog
 
+## B8142 CORRECTED — the reflection formula's antecedent is refuted, and I reproduced the refutation
+
+**cc's B1157 refuted the antecedent of B8142b one turn after I banked it. Reproduced from scratch, exactly over `ℚ(√−3)`, 8/8 — not cited.**
+
+`H*(m004; Sym^{2m}ℂ²)` is **never acyclic**: `(0,1,1)` for `m = 1…5`, `(1,1,0)` at `m = 0`, `χ = 0` throughout. The mechanism is **peripheral and `m`-independent** — the cusp's parabolic subgroup fixes **exactly one line** in `Sym^n` for every `n` (tested to 40), planting `h¹ = h² = #cusps = 1`.
+
+**My derivation used `R_{ρ(m)}(0) = T_X(ρ(m))²` — Fried, whose hypothesis is acyclicity. That step is invalid.** `R_{ρ(m)}(s)` vanishes to nonzero order at `s = 0`. **The reflection formula does not follow, and its numbers (2.109e−04, 1.925e−05, 1.641e−06) are withdrawn** — removed from Paper III, which now carries the refutation as a proposition with its mechanism.
+
+**The Sym-power identity survives untouched** — unconditional eigenvalue algebra. **Route forward:** cusped Park/Pfaff with the *leading Laurent coefficient* in place of the value; **not performed, not claimed.**
+
+**Three instrument fixes recorded on the way:** SnapPy's holonomy in double precision fails the relator check by `m=3`; SnapPy's **high-precision** manifold does not help, because the `complex()` cast discards it immediately; sympy was exact but too slow. The field was modelled directly instead, and the **presentation was solved for, not guessed**, with an Alexander-polynomial control pinning `4₁`.
+
+**The conditional did its job.** The antecedent was named, marked unverified, and called falsifiable — and was falsified in a day. A vague caveat would have hidden the same gap indefinitely.
+
 ## B8142 — residue 2 reduced twice: the Sym-power Ruelle zeta factors over the twist family
 
 **`R_{ρ(m)}(s) = ∏_{j=−m}^{m} R(s−j, σ_j)`**, exactly — verified on m004 to `5×10⁻¹⁸` for `m = 0…4`, at `s > 2+m` where every factor converges absolutely, with three live controls that mismatch.

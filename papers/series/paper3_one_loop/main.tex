@@ -247,26 +247,32 @@ product, at arguments outside absolute convergence. \textbf{Residue~2 therefore 
 evaluating $\Rz$ at the negative integers} --- and since a reflection $s\leftrightarrow2-s$ carries
 $2+j$ to $-j$, with $\Rz(2+j,\sigma_j)$ absolutely convergent for $j\ge1$, it reduces again:
 
-\textbf{Moreover, if Fried's theorem does apply to $\rho(m)$, the missing relation is forced.}
-Taking the ratio of \eqref{eq:symfactor} at $m$ and $m-1$ isolates
-$\Rz(-m,\sigma_m)\cdot\overline{\Rz(m,\sigma_m)}$; Fried converts the left-hand side into
-$[T_X(\rho(m))/T_X(\rho(m-1))]^2$, and Proposition~\ref{prop:tail} evaluates that ratio. Cancelling
-the convergent factor gives
-\begin{equation}\label{eq:reflect}
-   \bigl|\Rz(-m,\sigma_m)\bigr|
-   =\Bigl(\frac{c(m)}{c(m-1)}\Bigr)^{2\kappa(X)}
-     e^{-4m\vol(X)/\pi}\,\bigl|\Rz(m,\sigma_m)\bigr| ,
-\end{equation}
-whose right-hand side is absolutely convergent and computable. For $m004$ this yields
-$2.109\times10^{-4}$, $1.925\times10^{-5}$ and $1.641\times10^{-6}$ at $m=3,4,5$, decaying by the
-factor $e^{-4\vol/\pi}=0.0754$ as the derivation requires.
+\textbf{The gap can nevertheless be located exactly, and one route to closing it can be ruled
+out.} Taking the ratio of \eqref{eq:symfactor} at $m$ and $m-1$ isolates
+$\Rz(-m,\sigma_m)\cdot\overline{\Rz(m,\sigma_m)}$. \emph{If} one could write
+$\Rz_{\rho(m)}(0)=T_X(\rho(m))^2$ --- Fried's theorem --- then Proposition~\ref{prop:tail} would
+evaluate that ratio and give a reflection formula expressing $|\Rz(-m,\sigma_m)|$ through the
+absolutely convergent $|\Rz(m,\sigma_m)|$.
 
-\textbf{What would close it:} verifying that Fried's hypotheses hold for $\rho(m)$ in the cusped
-setting. \textbf{We do not verify them, and residue~2 remains open.} Without them
-\eqref{eq:symfactor} still holds unconditionally, but \eqref{eq:reflect} becomes an implication
-with an unchecked antecedent. It is in either case falsifiable: an independent evaluation of $\Rz$
-at a negative integer confirms \eqref{eq:reflect} or refutes its antecedent. The residue has moved
-from a wish across three theorems to a single hypothesis with a computed consequence.
+\textbf{That route is closed.} Fried's hypothesis is acyclicity, and here it fails at every $m$:
+
+\begin{proposition}[the coefficients are never acyclic]\label{prop:acyclic}
+For the figure-eight knot complement and $\rho(m)=\Sym^{2m}\C^2$,
+\[
+   \bigl(h^0,h^1,h^2\bigr)=(0,1,1)\quad\text{for every }m\ge1,
+   \qquad (1,1,0)\ \text{for } m=0 .
+\]
+The obstruction is peripheral and independent of $m$: the cusp's parabolic subgroup fixes
+\emph{exactly one} line in $\Sym^{n}\C^2$ for every $n$, which forces $h^1=h^2=\kappa(X)=1$.
+\end{proposition}
+
+Consequently $\Rz_{\rho(m)}(s)$ has a nonzero order of vanishing at $s=0$ rather than a finite
+value equal to a torsion, and the reflection formula does \emph{not} follow by this route.
+
+\textbf{What would close it:} the cusped Ray--Singer theory of Park and Pfaff, whose acyclicity
+hurdle is met by the canonical one-dimensional cusp-cohomology basis, with the \emph{leading
+Laurent coefficient} at $s=0$ in place of the value. \textbf{We have not carried out that
+derivation, and residue~2 remains open.} What is unconditional is \eqref{eq:symfactor} alone.
 \end{residue}
 
 \begin{residue}[the cusp's continuous spectrum]\label{res:three}
