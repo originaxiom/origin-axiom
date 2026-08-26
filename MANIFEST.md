@@ -21,6 +21,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R015 | `documents/program-question-map/validate.py` | Wave-4 canonical 120-question map; four explicit live computations; latest main/outside/paper refs reconciled | ACTIVE / RELAYED |
 | R016 | `certificates/r016_habiro_zeta3_embeddings.py` | compatible cube-root embedding repairs the four tested zeta-three Habiro tables; universal/local-valuation upgrade remains unproved | VERIFIED / RELAYED |
 | R017 | `certificates/r017_yukawa_primary/verify_yukawa_{cup_product_308_scope,exact_spectrum_no_go}.py` | exact height-308 up-Yukawa zero and same-monad exact-one-Higgs repair no-go are now branch-local | VERIFIED / RELAYED |
+| R019 | `certificates/r019_hypercharge/hypercharge_trinification_scope.py` | selected trinification frames realize the universal anomaly-ratio theorem; frame, physical spectrum, gauging and normalization remain unselected | VERIFIED / RELAYED |
 
 Every new cell must add its memo, self-contained certificate, captured output, and relay before it
 is cited outside this branch.
