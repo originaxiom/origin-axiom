@@ -1,0 +1,83 @@
+==============================================================================
+CONTROLS
+==============================================================================
+  [PASS] E6 built by reflection closure: 72 roots
+
+==============================================================================
+(1) THE 64 LEVI SUBSYSTEMS
+==============================================================================
+
+   subsets  roots   dim   type(s)
+         1      0     6   empty
+         6      2     8   A1
+        10      4    10   A1+A1
+        10      6    12   A1+A1+A1, A2
+        10      8    14   A1+A2
+         5     10    16   A1+A1+A2
+         6     12    18   A2+A2, A3
+         5     14    20   A1+A2+A2, A1+A3
+         4     20    26   A4
+         2     22    28   A1+A4
+         1     24    30   D4
+         1     30    36   A5
+         2     40    46   D5
+         1     72    78   E6
+  [PASS] root counts are 0,2,4,6,8,10,12,14,20,22,24,30,40,72
+  [PASS] the fourteen ambient Levi dimensions
+  [PASS] 24 is NOT a Levi dimension of E6
+  [PASS] 26 is realized by exactly four A4 node-subsets
+  [PASS] exactly three dimensions carry two types -- 12, 18, 20 (Rmk leviscope)  [(12, ['A1+A1+A1', 'A2']), (18, ['A2+A2', 'A3']), (20, ['A1+A2+A2', 'A1+A3'])]
+  [PASS] the four UNAMBIGUOUS counts the paper leans on: 46->40->D5, 30->24->D4, 26->20->A4, 14->8->A2+A1
+
+==============================================================================
+(2) THE NO-MODULI REDUCTION -- reproduced, not cited
+==============================================================================
+  [PASS] the chosen A2 subsystem has 6 roots
+  [PASS] A2 is the ONLY rank-<=2 root system with 6 roots (A1:2, A1xA1:4, A2:6, B2:8, G2:12)
+  [PASS] all A2 root subsystems form one explicitly enumerated Weyl orbit  orbit=120, all=120
+  [PASS] C = (A2)-perp is 4-dimensional
+  [PASS] exactly 6 roots restrict to zero, so dim z(C) = 6 + 6 = 12
+  [PASS] 30 distinct non-zero weights, total multiplicity 66 = 72 - 6
+  [PASS] multiplicity profile 12x1 + 18x3 -- the charge-side route computes this independently; neither route can see the other's code  [(1, 12), (3, 18)]
+
+==============================================================================
+(3) THE FLAT ENUMERATION -- EXACT OVER Q, no primes
+==============================================================================
+
+  109 flats.  Realized rung spectrum:
+
+      dim z(S) = 12   at subspaces S of dimension [4]
+      dim z(S) = 14   at subspaces S of dimension [3]
+      dim z(S) = 16   at subspaces S of dimension [2]
+      dim z(S) = 18   at subspaces S of dimension [2, 3]
+      dim z(S) = 20   at subspaces S of dimension [1, 2]
+      dim z(S) = 26   at subspaces S of dimension [2]
+      dim z(S) = 28   at subspaces S of dimension [1]
+      dim z(S) = 30   at subspaces S of dimension [2]
+      dim z(S) = 36   at subspaces S of dimension [1]
+      dim z(S) = 46   at subspaces S of dimension [1]
+      dim z(S) = 78   at subspaces S of dimension [0]
+  [PASS] 109 flats -- the same lattice the charge-side route finds at a prime
+  [PASS] the spectrum is EXACTLY the paper's eleven values  [12, 14, 16, 18, 20, 26, 28, 30, 36, 46, 78]
+  [PASS] every realized value is an ambient Levi dimension
+  [PASS] dim z(S) = 14 is attained at 3-dimensional S
+
+  THE RESIDUE IS CLOSED.  check_rung_attained.py certifies the flat lattice at a
+  faithful prime and NOT over Qbar, because reduction mod p can only ADD dependencies.
+  Here every weight is a rational vector -- an E6 root restricted to a rational
+  4-dimensional subspace -- so the arrangement is defined over Q, linear dependence
+  among rational vectors is unchanged by any characteristic-zero extension, and this
+  enumeration over Q IS the enumeration over Qbar.
+
+  Two constructions, no shared code path, one answer:
+      charge side : charges -> ad-matrices -> charpoly orbits -> weights mod p
+      root side   : E6 roots -> restrict to (A2)-perp -> weights over Q
+
+  AND THE NUANCE THAT RECONCILES THIS WITH THE 46.  The arrangement is rational; the
+  CHARGE BASIS's position relative to it is not.  A flat that is rational in root
+  coordinates corresponds to a subspace that the coordinates x8, x14, x16, x22 reach
+  only after base change to K.  That is why the (8,16)-plane cubic is irreducible
+  over Q while the lattice itself is rational -- the two facts are about different
+  coordinate systems and do not conflict.
+
+PASS: every check reproduced exactly.
