@@ -1,5 +1,27 @@
 # Changelog
 
+## B1164 (2026-08-26): cc's part of the A–E masterplan — observer freedom = 2 discrete + 1 continuous bits (all archimedean), the firewall is principled (§D settled), the phase route to W₀ is closed
+
+cc's three masterplan cells (cloud owns the five lane cells; MC1 relayed to codex), each own-verified, with
+**two verify-don't-trust corrections**. **MA2 (census):** the observer freedom = **2 discrete + 1
+continuous** bits — the missing archimedean marking W₀ = a point of (H↪ℂ), H=ℚ(ζ₁₂)=K(√3), Gal=**V₄**=(ℤ/2)²
+discrete × ℂˣ scale. This **corrects my meditation's "one bit"** (orientation is *one leg* of the V₄, not the
+whole), and **corrects the workflow's own √5 guess**: the three quadratic subfields of ℚ(ζ₁₂) are ℚ(√−3),
+ℚ(√3), ℚ(√−1) — **√5 is not among them** (own-verified); bit 2 = **√3** (the √3 hinge, B1155), and the
+√5/E₈ "hearing" is the *separate* two-ended structure. **MD1 (firewall pin):** the structure-vs-value
+classifier is **principled + falsifiable** — d is STRUCTURE iff dimensionless AND forced (provenance the
+discriminator); tested corpus-wide with zero exceptions; decompose compounds (hypercharge direction=STRUCTURE
+/ normalization=VALUE, the [U(1)]³ cone homogeneous); outcome-independent (sin²θ_W=3/8 stayed STRUCTURE
+through a 16σ miss, B915); falsifier = the value campaign. **This discharges meditation §D.** **ME3
+(phase/orbit):** a phase-trivial marking **does not break the free orbit** — the phase is Galois-invariant
+(μ₆ torsion, finite place) while the orientation is the archimedean Bloch–Wigner sign; so cloud's
+beat-conjugation relay is confirmatory and **prunes cloud's W₀ search to modulus-only.** **§E (gravity
+placement, conservative):** everything the observer supplies is **archimedean** (∞-place — orientation +
+scale), the object forces finite/torsion + place-independent — and the ∞-place is where gravity/volume live,
+so **the observer's freedom is a candidate for the gravitational marking** (placement, not the identification
+— the §E hypothesis this feeds). Residues flagged (single-torsor; observer=gravity). Gate 5 clean; no
+crossing. Locks `tests/test_b1164_cc_masterplan.py`.
+
 ## B1163 (2026-08-26): the W₀ construction attempt — the one obstruction is a single *definitional* datum (an object-canonical orientation of m004), and the object is amphichiral so it refuses to supply it
 
 The owner directed: *"can we specialize ourselves and do the missing archimedean W?"* We attempted it (WF

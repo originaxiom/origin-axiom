@@ -10,6 +10,19 @@ says fixes the SM. Neither states **what the SM actually specifies**. This does.
 what the object has delivered. It contains no value-matching and nothing promotes to
 `CLAIMS.md`. Gate 5 untouched.
 
+**Currency (2026-08-26, through B1164 — the MSSM-structure campaign).** The "what the object delivered"
+column is now materially sharper on the STRUCTURE side, all firewall-legal (ratios/reps/anomaly-derived, no
+value-matching): the **hypercharge DIRECTION is object-forced** on an SM-shaped 15-plet (B1160/B1162,
+dual-homed across two frames + verified on-bench), the **SM-preserving breaking chain is unique** (exactly 2
+SM-safe vev directions, B1162/cloud-D3), there is **exactly one generation** (B1161/B1162/cloud-D4), the
+height-308 MSSM **bundle witness is verified** (B1162, Sage: H0(Y,V)=0). On the VALUE/dynamics side the
+walls sharpened: **SUSY is a no-go** (B1162/cloud-D5), the **up-Yukawa is zero** (SEAM-Y), the **values stay
+withheld**, and the **heterotic framework is imported** with its selection reducing to the missing archimedean
+marking W₀ = an observer *orientation* (B1163, a theorem: amphicheiral ⇒ un-self-suppliable). The firewall
+line itself is now **pinned as a principled, falsifiable classifier** (B1164/MD1: STRUCTURE iff dimensionless
+AND forced; the value campaign is the standing falsifier). Net: **structure forced, dynamics & values
+withheld** — the spec's object-column is complete on structure and honestly empty on values.
+
 ---
 
 ## A. The complete specification of the minimal Standard Model

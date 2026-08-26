@@ -11613,3 +11613,19 @@ is **DEFINITIONAL** (is Mostow-canonical structure object or observer?); the spe
 the same admission. Bank-grade own-verified: Vol from the Kashaev asymptotic (volume conjecture reproduced),
 the {+Vol,−Vol} orbit, the a1=−(11/216)√−3 correction (verify-don't-trust inside the attempt), R2 det=+1/H³.
 Firewall CLEAN, no crossing, no W₀ claimed; Gate 5 clean. Locks `tests/test_b1163_w0_attempt.py` (8 tests).
+
+## 2026-08-26 — B1164: cc's part of the A–E masterplan (parallel to cloud's five; MC1→codex)
+
+Owner relayed cloud's §A–§E division of labor + GO. cc's three cells, own-verified, two verify-don't-trust
+corrections. **MA2:** the observer freedom = **2 discrete + 1 continuous** bits (branch-V₄=(ℤ/12)^×=(ℤ/2)²
+discrete × ℂˣ scale) — **corrects my meditation "one bit"** (orientation = one leg of V₄); **corrects the
+workflow's √5 guess** (ℚ(ζ₁₂) subfields = √−3, √3, √−1 — no √5; bit 2 = √3, the B1155 hinge; √5/E₈ hearing is
+the separate two-ended structure). **MD1:** the firewall classifier pinned — STRUCTURE iff dimensionless AND
+forced (provenance the discriminator), zero corpus exceptions, decompose compounds (hypercharge
+direction/scale split), outcome-independent (sin²θ_W=3/8 through a 16σ miss), falsifier = the value campaign
+→ **principled, §D settled.** **ME3:** the phase-trivial marking does NOT break the orbit (phase
+Galois-invariant/μ₆-torsion; orientation archimedean/mirror-odd) → prunes cloud's W₀ to modulus-only. **§E:**
+everything the observer supplies is archimedean (∞-place = where gravity lives) → observer freedom = a
+candidate for the gravitational marking (placement, not the identification — the §E hypothesis). Residues
+flagged (single-torsor; observer=gravity). Own-verified. Gate 5 clean; no crossing. cloud's five + codex MC1
+still running. Locks `tests/test_b1164_cc_masterplan.py` (8 tests).

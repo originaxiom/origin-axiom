@@ -3391,6 +3391,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1164": {
+   "slug": "cc masterplan",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B713",
+    "B915",
+    "B950"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 16,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [

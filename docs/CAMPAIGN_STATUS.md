@@ -18,6 +18,8 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1164 — cc's part of the A–E masterplan; observer freedom = 2 discrete + 1 continuous, firewall §D settled)**: the owner relayed cloud's §A–§E split (cloud owns 5 lane cells; MC1→codex; cc takes MA2/MD1/ME3). cc's cells, own-verified with 2 corrections: **MA2** — the observer freedom is **2 discrete + 1 continuous** (branch-V₄=(ℤ/2)² × ℂˣ scale), *correcting* my meditation "one bit" AND the workflow's √5 guess (ℚ(ζ₁₂) subfields = √−3,√3,√−1; bit 2 = √3, not √5). **MD1** — the firewall classifier is **principled + falsifiable** (dimensionless AND forced; zero corpus exceptions; outcome-independent through a 16σ miss; the value campaign the falsifier) → **§D settled.** **ME3** — the phase-trivial marking does **not** break the orbit → prunes cloud's W₀ search to modulus-only. **§E** — everything the observer supplies is **archimedean** (= where gravity lives) → the observer's freedom is a *candidate* for the gravitational marking (placement, the §E hypothesis; not banked). Gate 5 clean. Locks test_b1164_cc_masterplan.py. cloud's 5 + codex MC1 still running.
+
 **LATEST (2026-08-26, B1163 — the W₀ construction attempt; the one obstruction is a *definitional* datum)**:
 owner: "can we specialize ourselves and do the missing archimedean W?" Attempted (3 routes). **Seal =
 PARTIAL** — no W₀ constructed, but we **proved what it is**: one missing datum, an object-canonical
