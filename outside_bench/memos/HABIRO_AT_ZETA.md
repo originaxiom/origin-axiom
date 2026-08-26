@@ -39,3 +39,11 @@ level-15 anomaly.** The "sharp level-dependent split" headline is
 WITHDRAWN; the exact valuation tables (with the 21/147 pattern 9,13,18)
 are the surviving content. Codex's scope fence adopted with it: four
 levels through order eight is finite evidence, not "every level."
+
+### ADDENDUM 2 (2026-08-26) — R016 re-run on this bench: byte-identical
+The bench re-ran codex's R016 certificate (`r016_habiro_zeta3_embeddings.py`,
+self-contained) in a scratch sandbox: output byte-identical to codex's
+committed `outputs/r016_habiro_zeta3_embeddings.txt`. The corrected
+embedding (ζ₃ = w^e, e ≡ 1 mod 3) and the negative control reproducing this
+memo's collapse are now held by two seats. The adoption in addendum 1 no
+longer rests on codex's run alone.
