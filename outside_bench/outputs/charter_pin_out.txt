@@ -1,0 +1,8 @@
+E2 pinned: grav^2 Y load-bearing; cubic redundant (memo 78)
+E3 pinned: exact spectrum, mirror-symmetric, systole 2-w (memo 81)
+E6 pinned: SM torus exact; family charge dies gcd-1 (memo 77)
+E7 pinned: chirality character-invisible, orientation visible (memo 79)
+
+CHARTER PIN GREEN: the four bench anchors of THE_GRAVITY_CHARTER.md
+stand as banked.  (cc's anchors E1/E4/E5/E8 are cited to main commits
+e3149e10/3e0028c9/294cb57e and are theirs to guard.)
