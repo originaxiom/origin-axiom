@@ -1,5 +1,19 @@
 # Changelog
 
+## B8142 — residue 2 reduced twice: the Sym-power Ruelle zeta factors over the twist family
+
+**`R_{ρ(m)}(s) = ∏_{j=−m}^{m} R(s−j, σ_j)`**, exactly — verified on m004 to `5×10⁻¹⁸` for `m = 0…4`, at `s > 2+m` where every factor converges absolutely, with three live controls that mismatch.
+
+**At Fried's point the graviton's own factors are inside.** `R_{ρ(m)}(0)` splits into `R(0,σ₀)`, the conjugated graviton factors `R(j,σ_j)` for `j = 1…m`, and a complementary product at **negative** arguments. **That last product is the whole obstruction.**
+
+**So residue 2 reduces twice:** from *relate 0 to the positive integers* → *evaluate at the negative integers* → **establish the functional equation for `R(s,σ_k)`**, because `s ↔ 2−s` carries `2+j ↦ −j` and `R(2+j,σ_j)` converges absolutely. The target is now a single standard object with existing literature, and m004's scattering determinant is already closed-form. **Residue 2 is NOT closed.**
+
+**No novelty is claimed for the identity** — elementary eigenvalue algebra, very likely classical. The contribution is what it locates. **Fried's hypotheses for `ρ(m)` are not checked**, so the identity stands but its composition with Fried does not follow.
+
+**⚠ A control of mine that could not fail.** I first used `s+j` in place of `s−j` and expected a mismatch; it matched, because over the symmetric range `j → −j` is a **symmetry, not an error**. Replaced by three controls that do fail, and the vacuous one is **kept in the script, relabelled**, rather than quietly deleted.
+
+**Paper III §5 sharpened accordingly** — 7pp, still 0 overfull, 0 undefined.
+
 ## B8141 — the artifact class: a lock that reads a gitignored file reports on the machine
 
 **Two locks depend on six `.log` files that `.gitignore` forbids the repo to carry.** `test_b1062_bridge.py` reads 5, `test_b1063_refresh.py` reads 1. They assert a property of the author's working directory, and on a clean checkout **fail rather than skip** — two are failing now.

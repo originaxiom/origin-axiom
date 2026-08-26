@@ -1,0 +1,38 @@
+{
+ "identity": {
+  "derivation": "rho(m)=Sym^{2m}C^2 has eigenvalues e^{jL}, j=-m..m, for holonomy of complex length L=l+i*theta; e^{jL}e^{-s l} = e^{i j theta} e^{-(s-j) l}, which is the sigma_j twist evaluated at s-j",
+  "novelty": "NONE CLAIMED -- elementary eigenvalue algebra, very likely classical. The contribution is the USE, not the identity.",
+  "statement": "R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j)",
+  "verified": "on m004's length spectrum for m=0,1,2,3,4 at s>2+m where every factor converges absolutely; |diff| <= 5e-18"
+ },
+ "my_own_vacuous_control": {
+  "class": "a control that tests a SYMMETRY rather than the claim is vacuous; this is the same failure mode as a test that cannot fail",
+  "kept_as_a_record": "the s+j case is still run, relabelled as a SYMMETRY rather than a control, so the vacuity stays visible",
+  "replaced_by": [
+   "wrong twist sigma_{2j} -- mismatches by 3.3e-02",
+   "perturbed shift s-j+0.05 -- mismatches by 1.2e-03",
+   "truncated j-range -m..m-1 -- mismatches by 2.4e-02"
+  ],
+  "what": "I first wrote a control using s+j in place of s-j and expected it to MISMATCH. It matched.",
+  "why": "over the SYMMETRIC range j=-m..m the substitution j -> -j maps {R(s-j,sigma_j)} onto itself, so s+j is an IDENTITY, not an error -- the control could NEVER fail"
+ },
+ "not_claimed": [
+  "novelty for the identity",
+  "that Fried's hypotheses hold for rho(m)",
+  "that the functional equation holds",
+  "that residue 2 is closed"
+ ],
+ "residue2_status": {
+  "NOT_CLOSED": "the functional equation is NOT established here. Residue 2 remains open.",
+  "after_first_reduction": "evaluate the family at the NEGATIVE integers R(-j, sigma_j)",
+  "after_second_reduction": "establish the FUNCTIONAL EQUATION for R(s,sigma_k) on m004 -- because s <-> 2-s maps 2+j -> -j, and R(2+j,sigma_j) converges absolutely for j>=1",
+  "before": "relate the twisted Ruelle family's value at 0 to its values at the positive integers",
+  "why_this_is_progress": "the target moved from a vague cross-theorem wish to a single standard object with existing literature, and m004's scattering determinant is ALREADY known in closed form: phi(s)=Lambda_K(s-1)/Lambda_K(s) with phi(s)phi(2-s)=1 (B8101)"
+ },
+ "what_it_does_at_frieds_point": {
+  "conditional": "IF Fried applies to rho(m) then T_X(rho(m))^2 = R_{rho(m)}(0) and the graviton's factors sit inside the analytic torsion explicitly. FRIED'S HYPOTHESES FOR rho(m) ARE NOT CHECKED HERE.",
+  "expansion": "R_{rho(m)}(0) = R(0,sigma_0) * prod_{j=1..m} conj R(j,sigma_j) * prod_{j=1..m} R(-j,sigma_j)",
+  "the_graviton_is_inside": "the j<0 half is EXACTLY the graviton's own factors R(j,sigma_j), j=1..m, conjugated -- convergent for j>2",
+  "the_obstruction": "the j>0 half sits at NEGATIVE arguments, outside absolute convergence, needing analytic continuation"
+ }
+}

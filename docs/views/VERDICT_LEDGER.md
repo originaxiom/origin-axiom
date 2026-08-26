@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1030 of 1043 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1031 of 1044 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (692)
+## PROVED (693)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -704,6 +704,7 @@
 | `B8138` | Paper IV is DRAFTED (5pp, builds clean), completing the four-paper series. Three failures are shown to be THEOREMS, each with its exact escape: (i) no dimensionful quantity, escape = dimensionless quantities untouched; (ii) an orbit invariant cannot select a point of its orbit, escape = exactly two, shrink the group or add non-invariant structure; (iii) of seven elementary invariants exactly ONE separates m004 from its 14-member shape-field family, H_1 = Z -- so trace-field inputs are FAMILY inputs. |  | 0 |
 | `B8139` | THIS SEAT STOPPED WRITING FINDINGS.md AT B8110 AND THE OMISSION RAN UNBROKEN THROUGH B8134 -- SIXTEEN ARCS -- UNDETECTED FOR FIVE DAYS. The lock that catches it exists and works; it sits in a suite whose COLLECTION ALONE takes 7 minutes over 1038 files and 4528 tests, so it never finished inside a session and its verdict was never read. A lock nobody can afford to run is not a lock. Swept: 16 FINDINGS.md reconstructed and marked non-contemporaneous, 2 verdicts normalised into the sealed vocabulary, 7 NEGATIVE arcs routed to the kill graph, atlas regenerated. | yes | 0 |
 | `B8140` | B1152's fast lane REPRODUCED IN-SANDBOX, NOT CITED: it selects 47 files for an arc change -- including all three locks that caught B8139's drift -- and runs them in 59 SECONDS against a suite that cannot finish. It falls back to FULL for scripts, conftest and unknown files. ONE COST BUG FOUND: a relay-only change falls back to FULL for paths the tool has ALREADY positively classified test-inert, because main() conflates 'nothing matched' with 'everything matched as inert'. Fix verified across six cases with every conservative guarantee intact; NOT patched on this branch. | yes | 0 |
+| `B8142` | RESIDUE 2 IS REDUCED TWICE, NOT CLOSED. The eigenvalue decomposition of rho(m)=Sym^{2m}C^2 gives the exact identity R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j), verified on m004 to 1e-18 for m=0..4. At s=0 -- Fried's point -- the j<0 half is exactly conj R(i,sigma_i) for i=1..m, THE GRAVITON'S OWN FACTORS, and the j>0 half is R(-j,sigma_j) at NEGATIVE arguments. So residue 2 reduces from 'relate 0 to the positive integers' to 'evaluate at the NEGATIVE integers'; and since s <-> 2-s maps 2+j -> -j with R(2+j,sigma_j) absolutely convergent, it reduces again to 'establish the functional equation for R(s,sigma_k) on m004', where B8101's scattering determinant is already known in closed form. |  | 0 |
 
 ## NEGATIVE (294)
 

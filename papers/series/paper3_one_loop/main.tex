@@ -227,11 +227,31 @@ holomorphic at $0$ with $\Rz_\sigma(0)=T_X(\sigma)^2$, and a cusped extension ex
 literature via a regularised trace. It is natural to expect this closes the gap between the
 graviton determinant and analytic torsion. \textbf{It does not, and the reason is the evaluation
 point.} Fried's identity lives at $s=0$; Pfaff's ratios live at $k\ge3$; the graviton product
-lives at $s=n\ge2$. These are three evaluations of one twisted Ruelle family, and Fried's is
-the single point the graviton product never visits. \textbf{What would close it:} a relation
-between the family's value at $0$ and its values at the positive integers. This reframes the
-residue from an existence gap --- ``no cusped torsion theorem'' --- to an evaluation gap, which
-is a sharper and more attackable statement.
+lives at $s=n\ge2$. These are three evaluations of one twisted Ruelle family, and Fried's is the
+single point the graviton product never visits.
+
+\textbf{The gap can nevertheless be located exactly.} Since $\rho(m)=\Sym^{2m}\C^2$ has
+eigenvalues $e^{jL}$ for $j=-m,\dots,m$ on a holonomy of complex length $L=\ell+i\theta$, and
+$e^{jL}e^{-s\ell}=e^{ij\theta}e^{-(s-j)\ell}$, one has the identity
+\begin{equation}\label{eq:symfactor}
+   \Rz_{\rho(m)}(s)=\prod_{j=-m}^{m}\Rz(s-j,\sigma_j),
+\end{equation}
+which is elementary and we claim no novelty for it. At $s=0$ it reads
+\[
+   \Rz_{\rho(m)}(0)=\Rz(0,\sigma_0)\cdot
+   \underbrace{\prod_{j=1}^{m}\overline{\Rz(j,\sigma_j)}}_{\text{the graviton's own factors}}\cdot
+   \underbrace{\prod_{j=1}^{m}\Rz(-j,\sigma_j)}_{\text{negative arguments}} .
+\]
+\textbf{The graviton's factors sit inside Fried's point explicitly}; the obstruction is the second
+product, at arguments outside absolute convergence. \textbf{Residue~2 therefore reduces to
+evaluating $\Rz$ at the negative integers} --- and since a reflection $s\leftrightarrow2-s$ carries
+$2+j$ to $-j$, with $\Rz(2+j,\sigma_j)$ absolutely convergent for $j\ge1$, it reduces again:
+
+\textbf{What would close it:} a functional equation for $\Rz(s,\sigma_k)$ on this manifold. That is
+a single standard object rather than a wish across three theorems, and the relevant scattering
+determinant is already available in closed form (\S\ref{sec:Lchi}). \textbf{We do not establish it
+here, and residue~2 remains open.} We also do not verify Fried's hypotheses for $\rho(m)$; without
+them, \eqref{eq:symfactor} still holds, but its composition with Fried's theorem does not follow.
 \end{residue}
 
 \begin{residue}[the cusp's continuous spectrum]\label{res:three}

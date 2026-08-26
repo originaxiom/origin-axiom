@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1043** |
-| words of findings prose | **707,719** |
+| research arcs with findings | **1044** |
+| words of findings prose | **708,188** |
 | test lock files referenced | **611** |
-| arcs carrying an authored verdict | **1030** (98.8 %) |
+| arcs carrying an authored verdict | **1031** (98.8 %) |
 | recorded closures | **763** (589 classified, 174 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 692 |
+| PROVED | 693 |
 | NEGATIVE | 294 |
 | OPEN | 33 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B8140`** (305 words, 0 locks)  
-B1152's fast lane REPRODUCED IN-SANDBOX, NOT CITED: it selects 47 files for an arc change -- including all three locks that caught B8139's drift -- and runs them in 59 SECONDS against a suite that cannot finish. It falls back to FULL for scripts, conftest and unknown files. ONE COST BUG FOUND: a relay-only change falls back to FULL for paths the tool has ALREADY positively classified test-inert, because main() conflates 'nothing matched' with 'everything matched as inert'. Fix verified across six cases with every conservative guarantee intact; NOT patched on this branch.  
-`B8140_fastlane_adopted/FINDINGS.md`
+**PROVED — `B8142`** (469 words, 0 locks)  
+RESIDUE 2 IS REDUCED TWICE, NOT CLOSED. The eigenvalue decomposition of rho(m)=Sym^{2m}C^2 gives the exact identity R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j), verified on m004 to 1e-18 for m=0..4. At s=0 -- Fried's point -- the j<0 half is exactly conj R(i,sigma_i) for i=1..m, THE GRAVITON'S OWN FACTORS, and the j>0 half is R(-j,sigma_j) at NEGATIVE arguments. So residue 2 reduces from 'relate 0 to the positive integers' to 'evaluate at the NEGATIVE integers'; and since s <-> 2-s maps 2+j -> -j with R(2+j,sigma_j) absolutely convergent, it reduces again to 'establish the functional equation for R(s,sigma_k) on m004', where B8101's scattering determinant is already known in closed form.  
+`B8142_residue2_bridge/FINDINGS.md`
 
 **NEGATIVE — `B8141`** (440 words, 0 locks)  
 THE ARTIFACT CLASS, third after B8139's COST and B8140's TWO EMPTIES: two locks depend on SIX gitignored .log files, so they can only pass on a machine where the arc was recently run. On any clean checkout they do not SKIP -- they FAIL. test_b1062_bridge.py (5 artifacts) and test_b1063_refresh.py (1) currently fail here for exactly this reason. Permanent red trains a reader to ignore failures, which costs more than the lock is worth.  

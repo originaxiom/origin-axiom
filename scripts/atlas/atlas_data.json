@@ -19375,6 +19375,21 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B8142": {
+   "slug": "residue2 bridge",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "golden",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B814": {
    "slug": "gate d",
    "motifs": [

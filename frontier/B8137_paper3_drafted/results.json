@@ -35,15 +35,15 @@
  ],
  "paper": {
   "overfull": 0,
-  "pages": 6,
+  "pages": 7,
   "path": "papers/series/paper3_one_loop/main.tex",
-  "sha256_tex": "93c7033aa8f5504b904f4b0c3f40aab9b04c801ee5fab1be87930c5d2952fd25",
+  "sha256_tex": "c0355884eb5c2d5acba600427279150fd7284a5d38206b9bcf20d1f6486c4e81",
   "sha256_verify": "32ebc980827a6b741b6fab4e2741043171ac972b632773e420d05d0870c1ade4",
   "undefined_refs": 0
  },
  "three_residues": {
   "1_spin2_cusped_test_function": "a gauge-fixed spin-2/vector/scalar one-loop determinant for the finite-volume CUSPED case. Believed a genuine literature gap, not a retrieval failure. CLOSED BY: a construction, or a citation missed.",
-  "2_evaluation_point": "Fried gives R_sigma(0) = T_X(sigma)^2 and the cusped extension EXISTS (Park). It does NOT close the gap: Fried evaluates at s=0, Pfaff at k>=3, the graviton at s=n>=2 -- three evaluations of ONE family, and Fried's is the one point the graviton never visits. CLOSED BY: a relation between the family's value at 0 and its values at positive integers. Reframes an EXISTENCE gap as an EVALUATION gap.",
+  "2_evaluation_point": "Fried gives R_sigma(0) = T_X(sigma)^2 and the cusped extension EXISTS (Park). It does NOT close the gap: Fried evaluates at s=0, Pfaff at k>=3, the graviton at s=n>=2 -- three evaluations of ONE family, and Fried's is the one point the graviton never visits. CLOSED BY: a relation between the family's value at 0 and its values at positive integers. Reframes an EXISTENCE gap as an EVALUATION gap. || SHARPENED BY B8142: R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j) exactly, so at s=0 the graviton's own factors conj R(j,sigma_j) (j=1..m) sit INSIDE Fried's point, and the obstruction is the complementary product at NEGATIVE arguments. Residue 2 therefore reduces to evaluating R at the negative integers, and again -- since s <-> 2-s carries 2+j to -j with R(2+j,sigma_j) absolutely convergent -- to ESTABLISHING THE FUNCTIONAL EQUATION for R(s,sigma_k) on m004. Still OPEN; the target is now a single standard object.",
   "3_cusp_continuous_spectrum": "not included in the assembly. CLOSED BY: the assembly, once residue 1 is available."
  }
 }

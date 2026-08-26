@@ -1,4 +1,21 @@
 {
+ "cc_fix_verified": {
+  "cases": {
+   "arc alone": "47 files",
+   "docs change": "46 files",
+   "no changes at all": "NO TESTS AFFECTED",
+   "non-.py under tests/": "FULL",
+   "nonexistent arc dir": "46 files",
+   "relay + arc": "47 files",
+   "relay + script": "FULL",
+   "relay only": "NO TESTS AFFECTED",
+   "unknown file": "FULL"
+  },
+  "my_shape": "required every path be POSITIVELY classified inert (len(inert)==len(files)) before reporting nothing-affected",
+  "their_shape": "`if full: FULL` then `if not sel: NO TESTS AFFECTED` -- they treat (full empty AND sel empty) as nothing-affected",
+  "verdict": "THEIRS IS CORRECT, and BETTER than mine on one case: with NO CHANGES AT ALL mine fell through to FULL, theirs correctly reports nothing to run. Safe because `sel |= agg` makes any frontier/docs path yield a non-empty selection, so (full empty AND sel empty) implies every path was relay-inert or there were none.",
+  "what": "origin/main 68383e80 adopted the fix. Their implementation DIFFERS from my proposal and is verified here across ten cases."
+ },
  "cost_bug": {
   "fix_verified": {
    "arc alone": "47 files",
@@ -34,6 +51,12 @@
   "that the 0-62% region of the suite is clean -- it is NOT verified, and test_b1034_l154 is a known pre-existing failure in it",
   "that the fix has been applied to scripts/affected_tests.py -- it has not"
  ],
+ "observation_not_a_defect_claim": {
+  "not_proposing_a_fix": "whether the selector should police deletions is a design question for cc, not an audit finding.",
+  "what": "a commit whose ONLY change is DELETING a test file reports NO TESTS AFFECTED -- green.",
+  "why_it_is_not_a_selector_bug": "the selector's job is to pick tests affected by a change; a deleted test genuinely has nothing to run. Calling this a bug would be overreach.",
+  "why_it_is_still_worth_recording": "deleting a lock is precisely the drift this B8139/B8140/B8141 series is about, and the fast lane returns GREEN for it. A blind spot with a familiar shape, in a tool whose whole purpose is making locks affordable enough to actually run."
+ },
  "reproduction": {
   "end_to_end": "47 files / 310 tests in 58.8s",
   "selection_cases": {

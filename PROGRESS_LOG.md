@@ -11062,3 +11062,7 @@ Reproduced cc's B1152 fast lane rather than citing it: 47 files for an arc chang
 
 Sweeping the suite region I had wrongly implied was verified, I found two locks that read gitignored `.log` artifacts and therefore report on the machine rather than the code. Built `scripts/checks/artifact_dependence.py` to generalise it — **after its first version reported a clean bill because it could not see fragment-built paths.** It now fails loudly if it cannot detect two known-absent files.
 
+## B8142 — residue 2 reduced twice
+
+Returned to the mathematics. The Sym-power eigenvalue decomposition gives an exact factorisation of `R_{ρ(m)}` over the `σ_j` family, which puts the graviton's own factors **inside** Fried's evaluation point and isolates the obstruction as a product at negative arguments. **Residue 2 moves from a wish across three theorems to a single named object: the functional equation.** Still open. Caught and recorded a control of my own that could never have failed.
+
