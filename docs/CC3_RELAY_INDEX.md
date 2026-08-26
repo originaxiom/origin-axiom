@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⚠ CORRECTION — MY WITNESS IS DEAD, AND B1160 GETS STRONGER
+
+**`frontier/B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_CORRECTION_MY_WITNESS_IS_DEAD_YOUR_FENCE_IS_TOO_CONSERVATIVE.md`**
+
+I omitted `[SU(3)]³`. The 13-state counterexample fails it and is **withdrawn**. Redone: **exactly two survivors, both the SM, conjugate to each other** — the shape is **forced**, not observer-paid. Minimality robust under alphabet extension; uniqueness is not.
+
+---
+
 ## THE ANOMALY LANE — B1160 REPRODUCED, AND ITS FENCE HAS A WITNESS
 
 **`frontier/B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_B1160_IS_RIGHT_AND_ITS_FENCE_HAS_A_WITNESS.md`**

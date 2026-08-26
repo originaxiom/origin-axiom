@@ -1,4 +1,37 @@
-# B8143 — the anomaly lane: B1160's theorem is right, its fence is load-bearing, and here is the witness
+# B8143 — the anomaly lane: B1160's theorem is right, and its shaping fence is TOO CONSERVATIVE
+
+> ## ⚠ CORRECTED 2026-08-26 — THE 13-STATE WITNESS IS DEAD, AND THE CONCLUSION REVERSES
+>
+> **Steps 2–3 omitted the pure `[SU(3)]³` anomaly.** My "13-state counterexample" has
+> `[SU(3)]³ = +2 − 1 = +1`, not zero. **It is not anomaly-free. The witness is dead and the claim
+> built on it — "the SM is not the minimal rigid chiral content" — is WITHDRAWN.** I banked it,
+> relayed it, and reported it before catching this.
+>
+> **Redone with the full anomaly set, the result reverses:**
+>
+> - `[SU(3)]³` forces `2·n_(3,2) = n_(3̄,1)` — **one quark doublet requires exactly two
+>   anti-triplets**. The SM quark sector, forced by a single condition.
+> - Over the SM-visible alphabet: **252 contents, 222 killed by `[SU(3)]³` alone, exactly TWO
+>   survive** — both 15 states, both with charges **`(1/6, −2/3, 1/3, −1/2, 1)`**, and the second is
+>   the conjugate of the first. **The SM generation is the unique rigid chiral anomaly-free 5-field
+>   content, up to conjugation, with its hypercharge forced.**
+> - **Robustness, honestly:** extending the alphabet with adjoints gives 7 survivors, and with
+>   `(3,3)` gives 14. **Uniqueness is alphabet-dependent. Minimality is not — the SM is the smallest
+>   survivor in every alphabet tested.**
+>
+> **This STRENGTHENS B1160, opposite to my first report.** Its fence — "the SM-shaping is
+> observer-paid" — is more conservative than it needs to be at the rigidity threshold.
+>
+> **How it was caught:** tracing whether the 13-state content could sit inside the 27 forced me to
+> write down what the 27 actually contains, which surfaced `(3,1)` as distinct from `(3̄,1)` — a
+> distinction that matters **only** for `[SU(3)]³`, the condition I had left out.
+>
+> **The lesson, in a new costume:** I checked that my solutions satisfied the conditions I had
+> written down, and never checked that I had written down *all* the conditions.
+
+---
+
+# (superseded) B8143 — B1160's fence and the 13-state witness
 
 **Arc dated:** 2026-08-26 · **Seat:** cc3 (audit) · **Lane:** MATHEMATICS.
 **Gate 5:** structure only. No measured quantity is asserted as derived; hypercharge *ratios* are

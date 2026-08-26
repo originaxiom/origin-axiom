@@ -19407,7 +19407,7 @@
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 6,
-   "status": "banked",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B814": {

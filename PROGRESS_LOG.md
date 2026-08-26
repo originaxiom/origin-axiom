@@ -11078,3 +11078,7 @@ The suite sweep turned up a third artifact-class instance my own scan could not 
 
 Reproduced B1160's core theorem exactly, then found two scope items: a vector-like branch its normalisation hides (confirming B864), and an explicit **13-state** rigid chiral anomaly-free content **smaller than the SM** — so the SM-shaping fence is load-bearing with a witness. Posed the decisive follow-up (is it realisable in the 27?) rather than half-doing it.
 
+## B8143 corrected — a missing equation, and the conclusion reverses
+
+Omitted the pure `[SU(3)]³` anomaly; my 13-state counterexample fails it and is withdrawn. Redone with the full set, **the SM generation is the unique rigid chiral anomaly-free 5-field content up to conjugation** — which **strengthens** B1160 rather than weakening it. Uniqueness is alphabet-dependent; minimality is robust. Caught by tracing my own 27-realisability question.
+

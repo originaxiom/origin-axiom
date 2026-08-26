@@ -1,4 +1,26 @@
 {
+ "CORRECTED_RESULT": {
+  "mechanism": "[SU(3)]^3 forces n_(3,2)*2 = n_(3bar,1), i.e. ONE quark doublet requires EXACTLY TWO anti-triplets. That is the SM quark sector, forced by a single condition.",
+  "over_the_SM_visible_alphabet": {
+   "alphabet": "{(3,2),(3bar,2),(3,1),(3bar,1),(1,2),(1,1)}",
+   "contents_examined": 252,
+   "killed_by_SU3_cubed_alone": 222,
+   "statement": "the SM generation is the UNIQUE rigid chiral fully-anomaly-free 5-field content, up to conjugation, and its hypercharge is forced to the SM's",
+   "survivors": "EXACTLY TWO, both 15 states, both with charges (1/6,-2/3,1/3,-1/2,1) -- and the second is the CONJUGATE of the first"
+  },
+  "robustness": {
+   "extended_further_with_(3,3),(3bar,3)": "14 survivors; SM still the SMALLEST at 15 states",
+   "extended_with_adjoints_(8,1)_(1,3)": "7 survivors; SM still the SMALLEST at 15 states",
+   "honest_summary": "UNIQUENESS IS ALPHABET-DEPENDENT and fails once adjoints are admitted. MINIMALITY IS ROBUST -- the SM is the smallest survivor in EVERY alphabet tested. Some larger survivors have rational charges (e.g. 17-state (3,2)+2(3bar,1)+(1,2)+(1,3) at (-5/6,1/3,4/3,-3/2,1)); others have irrational or complex ones and would fail charge quantisation."
+  },
+  "what_this_means_for_B1160": "it STRENGTHENS B1160, opposite to what I first reported. B1160 fences the SM-shaping as observer-paid. Over the SM-visible alphabet the shaping is NOT free: it is forced, up to conjugation, by the anomaly conditions alone. The fence is more conservative than it needs to be at the 5-field/rigidity threshold."
+ },
+ "CORRECTION_the_13_state_witness_is_DEAD": {
+  "how_it_was_caught": "tracing whether the 13-state content could sit inside the 27 forced me to write down what the 27 actually contains, which surfaced (3,1) as distinct from (3bar,1) -- and that distinction only matters for [SU(3)]^3, the condition I had left out.",
+  "severity": "I banked it, relayed it to cc, and reported it to the owner before catching this. The correction REVERSES the conclusion.",
+  "the_consequence": "my '13-state witness' ABCDD has [SU(3)]^3 = +2 - 1 = +1, NOT zero. IT IS NOT ANOMALY-FREE. The counterexample is DEAD and the claim built on it -- 'the SM is not the minimal rigid chiral content' -- IS WITHDRAWN.",
+  "what_I_got_wrong": "steps 2-3 OMITTED THE PURE [SU(3)]^3 ANOMALY. I imposed only [SU(3)]^2 Y, [SU(2)]^2 Y, grav Y, [Y]^3 and Witten."
+ },
  "b1160_core_reproduced": {
   "cubic": "[Y]^3 on the 2-plane = -18(t-3)(t+3) at Yq=1, Yu=-1+t -- matches exactly",
   "linear": "Yl=-3Yq, Ye=6Yq, Yu+Yd=-2Yq -- matches exactly",
@@ -10,6 +32,7 @@
  },
  "my_own_two_instrument_errors": {
   "first": "the initial shape search asked 'does a solution EXIST', which is almost always yes once there are enough free charges -- the question had to be RIGIDITY, not existence. Reframed.",
+  "fourth_and_worst": "omitting [SU(3)]^3 entirely from the anomaly set. Not a tuning error or a weak control -- a MISSING EQUATION, which produced a confident false counterexample that I banked and relayed. The lesson is the same one this seat keeps re-learning in a new costume: I checked that my solutions SATISFIED the conditions I wrote down, and never checked that I had written down ALL the conditions.",
   "second": "the first chirality test only required that SOME (3,2) be charged, so contents with a NEUTRAL (3,2) and neutral singlets (AAACD, AAABC) passed as 'chiral'. Tightened to require EVERY field charged; those two dropped out and the census fell to two contents.",
   "third": "after banking, I added a BLIND_ARCS row for B8143 -- but the atlas-lexicon gate had printed PASS immediately before, and B8143 is NOT blind (the lexicon covers it). The row made the gate FAIL. I pattern-matched from B8139/B8141, which did need rows, instead of reading the output in front of me. Row removed; gate green again."
  },

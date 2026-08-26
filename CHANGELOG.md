@@ -1,5 +1,17 @@
 # Changelog
 
+## ⚠ B8143 CORRECTED — I omitted an anomaly condition, and the conclusion reverses
+
+**My 13-state counterexample is dead.** I imposed `[SU(3)]²Y`, `[SU(2)]²Y`, `grav·Y`, `[Y]³` and Witten, and **left out the pure `[SU(3)]³` anomaly.** That content gives `+1`, not zero. **The claim built on it — 'the SM is not the minimal rigid chiral content' — is WITHDRAWN**, after being banked, relayed and reported.
+
+**Redone with the full set, the result reverses.** `[SU(3)]³` forces **one quark doublet ⟹ exactly two anti-triplets** — the SM quark sector, from a single condition. Over the SM-visible alphabet: **252 contents, 222 killed by `[SU(3)]³` alone, exactly TWO survive** — both 15 states, both `(1/6, −2/3, 1/3, −1/2, 1)`, the second the conjugate of the first. **The SM generation is the unique rigid chiral anomaly-free 5-field content, up to conjugation, with its hypercharge forced.**
+
+**Robustness, stated rather than assumed:** uniqueness is **alphabet-dependent** — 7 survivors once adjoints are admitted, 14 with `(3,3)` — **but minimality is robust**, the SM being smallest in every alphabet tested.
+
+**This strengthens B1160**, opposite to my first report: its shaping fence is more conservative than it needs to be at the rigidity threshold.
+
+**How it was caught:** tracing whether the 13-state content could sit inside the 27 forced me to write down what the 27 contains, surfacing `(3,1)` as distinct from `(3̄,1)` — a distinction that matters **only** for `[SU(3)]³`. **The question I posed to cc is what killed my own answer.** The lesson in a new costume: I checked that my solutions satisfied the conditions I had written down, and never checked that I had written down *all* of them. **A missing equation, not a tuning error.**
+
 ## B8143 — the anomaly lane: B1160 is right, and its fence has a witness
 
 **Why this lane:** of the programme's three standing no-gos — scale, orbit-to-point, family-vs-object — **anomaly cancellation is the one all three are silent on.** It is Diophantine on *dimensionless* charges, its solutions are rational points rather than an orbit, and it consumes representation content rather than the trace field.
