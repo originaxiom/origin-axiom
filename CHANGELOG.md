@@ -1,5 +1,15 @@
 # Changelog
 
+## B8144 — the price ledger and B1164's census disagree by two items
+
+**Banked final price:** one unit, two bits (**time's arrow**, chirality), one **orbit-point**. **B1164's census:** `D1` orientation, `D2` √3, `C1` scale — *2 discrete + 1 continuous, all archimedean*, described as **"the whole program's observer freedom."**
+
+`C1`↔unit and `D1`↔chirality match. **`time's arrow` and the `VEV orbit-point` appear ZERO times in B1164** (grepped); **`D2 = √3` appears nowhere in the price ledger.**
+
+**Why it bites:** the orbit-point is booked **finite over ℤ** — a *finite*-place cost — while B1164's thesis is that everything the observer supplies is **archimedean**. If the orbit-point is a genuine observer cost that thesis is false as stated; if it is not, the price ledger over-counts.
+
+**Exactly one holds**, and either is worth knowing: the ledger over-counts, in which case **the campaign is cheaper than banked and that good news is currently invisible**; or the census under-counts, in which case the claim narrows to *the archimedean part*. **This seat asserts neither** — only that both cannot stand as written, and the document saying *"the whole program's"* is the one that will be quoted. Settled by three words each.
+
 ## B8138 extended — a wider sweep finds a second object-level separator: the cusp shape
 
 **Paper IV's theorem was scoped to seven invariants.** Seven is a small sample, and the claim invited the misreading that `H₁ ≅ ℤ` is the *unique* object-level handle. **Extending the census to thirteen finds exactly one more: the cusp shape.** m004's is `2√3 i = 3.4641016151 i`, taken by **no** other family member at **any** cusp — five carry `√3 i`, six the hexagonal `ω`. Verified at full precision across all cusps and up to conjugation; nothing within `1e-6`.

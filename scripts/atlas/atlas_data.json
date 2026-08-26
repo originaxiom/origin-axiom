@@ -19413,6 +19413,18 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B8144": {
+   "slug": "price reconciliation",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B814": {
    "slug": "gate d",
    "motifs": [

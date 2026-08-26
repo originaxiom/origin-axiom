@@ -11086,3 +11086,7 @@ Omitted the pure `[SU(3)]³` anomaly; my 13-state counterexample fails it and is
 
 Tested Paper IV's own claim against a broader sweep, since seven invariants is a small sample. Thirteen invariants yield **exactly one** further separator, the **cusp shape** (`2√3 i`, unique to m004 across all cusps of all fourteen). Nothing retracted — the theorem was scoped to seven — but the paper now forecloses the misreading that `H₁` is the only object-level handle, and B1163 gains a second candidate route.
 
+## B8144 — two ledgers of the same price
+
+B1164's observer-freedom census omits two items the banked final-price ledger books — **time's arrow** and the **VEV orbit-point**, both zero hits on grep — and adds one the ledger lacks (`D2 = √3`). The orbit-point is *finite over ℤ*, which cuts against B1164's all-archimedean thesis. **Verdict OPEN and deliberately symmetric:** either the ledger over-counts (campaign cheaper than banked) or the census under-counts.
+
