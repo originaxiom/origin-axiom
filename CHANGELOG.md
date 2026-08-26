@@ -1,5 +1,16 @@
 # Changelog
 
+## B8140 ADOPTION (cc3's audit of B1152, 2026-08-26): the relay-only cost bug fixed + the "73%" detail withdrawn
+
+cc3 (**B8140**, `paper/structure-genesis-first` `d87530f4`) reproduced B1152's fast lane in-sandbox and
+found one **safe** cost bug: a **relay-only diff fell back to the full suite** (the selector conflated
+"nothing matched, all inert" with "cannot bound") — the tool defeating itself on the commonest input
+(writing a relay). Fixed in `scripts/affected_tests.py` (relay alone → no tests; relay+arc → the arc's
+tests; relay+script → full) + regression-locked. And cc3 **withdrew** two of its own B8139 claims — the
+killed-run "73% / five failures" detail (a truncated-log artifact; B1152's narrative corrected in
+place — the *principle* stands, the numbers do not) and a test_b1034_l154 failure (pre-existing on
+cc3's branch, not theirs). A correction commit, no new arc; cc3 credited.
+
 ## THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS (B1153, 2026-08-26): cloud memos 54–55 — tr(ab⁻¹)=gal(κ) is the Riley relation in disguise, and C4's negative closes *positive*
 
 The cloud's **memos 54–55** (`origin/outside-bench` `0c7f8b5a`) reproduce-verified (2/2, rc=0); memo 54

@@ -11406,3 +11406,14 @@ PART II interpolation+verify (traces polynomial coords CITED-standard + 40-sampl
 GENERIC (superposition expected for any product L-function; no object-specificity, no crossing); zeta
 file 2469 vs B1151 prose 2468 (immaterial). Gate 5 untouched. Cloud + codex credited. Lock
 test_b1153_peripheral_and_superposition.py.
+
+**2026-08-26 — B8140 ADOPTION (cc3's audit of B1152).** cc3 (paper/structure-genesis-first d87530f4)
+reproduced B1152's fast lane in-sandbox and found one SAFE cost bug: a relay-only diff fell back to the
+FULL suite (main()'s `if full or not sel` conflated 'nothing matched (inert)' with 'cannot bound') --
+the tool defeating itself on the commonest input (writing a relay). Fixed in scripts/affected_tests.py
+(FULL only if unmappable; sel empty AND full empty => NO TESTS AFFECTED, exit 0) + regression-locked
+(relay alone -> no tests; relay+arc -> the arc's tests; relay+script -> full). cc3 withdrew two of its
+own B8139 claims: the killed-run '73% / five failures' detail (the captured log was a truncated
+three-line fragment -- B1152 FINDINGS + results corrected in place; the PRINCIPLE stands, not the
+numbers) and a test_b1034_l154 failure (pre-existing on cc3's branch, not theirs; passes on main). A
+correction commit, no new arc; cc3 credited.

@@ -64,6 +64,19 @@ def test_selector_is_conservative_never_a_false_green():
     assert "tests/test_b833_negative_routing.py" in sel   # negative-routing runs on any arc change
 
 
+def test_selector_relay_only_runs_nothing_not_full():
+    # B8140 (cc3's audit): a relay-only diff must select NO tests (relays are test-inert), NOT fall
+    # back to the full suite -- writing a relay is the commonest operation, and the tool defeated
+    # itself on it by conflating "nothing matched (inert)" with "cannot bound". Fix verified 3 ways:
+    A = _load_selector()
+    sel, full = A.select({"CC_TO_CLOUD_2026-08-25_AUDIT.md"})
+    assert not full and not sel                          # relay alone -> nothing affected
+    sel, full = A.select({"CC_TO_CLOUD_x.md", "frontier/B1151_gue_larget_superposition/FINDINGS.md"})
+    assert not full and any("b1151" in f for f in sel)   # relay + arc -> the arc's tests (not full)
+    sel, full = A.select({"CC_TO_CLOUD_x.md", "scripts/gates/gates.py"})
+    assert full                                          # relay + script -> full (unmappable dominates)
+
+
 def test_run_suite_uses_set_u_safe_array_expansion():
     # regression (B1152, caught by the suite it introduced): macOS ships bash 3.2, where under
     # `set -u` the empty-array expansion "${MARK[@]}" is an UNBOUND-VARIABLE error -- the --fast/

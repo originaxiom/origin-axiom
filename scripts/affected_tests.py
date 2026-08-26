@@ -104,10 +104,16 @@ def main():
     run = "--run" in sys.argv
     files = _changed(ref)
     sel, full = select(files)
-    if full or not sel:
-        why = f"unmappable: {full[:6]}" if full else "no test-mapped changes"
-        print(f"FULL SUITE REQUIRED ({why}) -- run scripts/run_suite.sh")
+    if full:                                            # an unmappable change -> the full suite
+        print(f"FULL SUITE REQUIRED (unmappable: {full[:6]}) -- run scripts/run_suite.sh")
         sys.exit(subprocess.run(["scripts/run_suite.sh"]).returncode if run else 0)
+    if not sel:
+        # B8140 (cc3): every changed path was test-INERT (e.g. cross-seat relay correspondence) or
+        # there were no changes -- nothing to run. This is NOT the full suite: conflating "nothing
+        # matched (inert)" with "cannot bound" made the tool run the whole suite on a relay-only diff,
+        # its commonest input. `full` empty AND `sel` empty => genuinely nothing affected.
+        print(f"NO TESTS AFFECTED ({len(files)} changed path(s), all test-inert or none)")
+        sys.exit(0)
     print(f"AFFECTED: {len(sel)} test file(s) for {len(files)} changed path(s)")
     for f in sel:
         print("  " + f)

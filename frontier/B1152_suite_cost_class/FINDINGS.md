@@ -14,9 +14,14 @@ files / 4528 tests) takes **421 s just to collect**, and two background runs wer
 The concrete drift it let through: cc3 stopped writing `FINDINGS.md` at B8110 and it ran **unbroken
 for 16 arcs / 5 days** — every one caught by a lock that never got to run.
 
-> "A killed run is not a run that told you nothing." — cc3 surfaced it only by reading a run killed
-> at 73%, which had already emitted five failures. (The same discipline saved this seat's C4 read
-> this session — the finisher's partial output *was* the verdict.)
+> "A killed run is not a run that told you nothing." — cc3 surfaced it only by reading a killed
+> run's captured partial output rather than discarding it. (The same discipline saved this seat's C4
+> read this session — the finisher's partial output *was* the verdict.)
+
+*[B8140 correction (cc3, adopted 2026-08-26): cc3's first framing gave a specific "killed at 73%,
+five failures already emitted" for that run; it is **withdrawn** — the captured log was a truncated
+three-line fragment, so the numbers were never sound and the coverage they implied is retracted. The
+**principle** (a killed run's partial output is still evidence) stands; the numbers do not.]*
 
 ## The main-band audit — main is clean; the difference is main's suite gets *run*
 
