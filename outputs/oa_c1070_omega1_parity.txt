@@ -1,0 +1,26 @@
+accepted rows: 20 (copied exactly from locked C-P1 output)
+c | dim O | type | t=A^-1 c | omega_1 parity | projective
+(0, 0, 0, 1, 0, 0) | 40 | LEVI-REGULAR | (2, 3, 4, 6, 4, 2) | odd | False
+(0, 0, 0, 2, 0, 0) | 58 | DISTINGUISHED | (4, 6, 8, 12, 8, 4) | even | True
+(0, 0, 1, 0, 1, 0) | 50 | LEVI-REGULAR | (3, 4, 6, 8, 6, 3) | odd | False
+(0, 1, 0, 0, 0, 0) | 22 | LEVI-REGULAR | (1, 2, 2, 3, 2, 1) | odd | False
+(0, 1, 1, 0, 1, 0) | 56 | LEVI-REGULAR | (4, 6, 8, 11, 8, 4) | odd | False
+(0, 2, 0, 0, 0, 0) | 42 | LEVI-REGULAR | (2, 4, 4, 6, 4, 2) | even | True
+(0, 2, 0, 2, 0, 0) | 60 | LEVI-REGULAR | (6, 10, 12, 18, 12, 6) | even | True
+(1, 0, 0, 0, 0, 1) | 32 | LEVI-REGULAR | (2, 2, 3, 4, 3, 2) | odd | False
+(1, 0, 0, 1, 0, 1) | 54 | LEVI-REGULAR | (4, 5, 7, 10, 7, 4) | odd | False
+(1, 1, 0, 0, 0, 1) | 46 | LEVI-REGULAR | (3, 4, 5, 7, 5, 3) | odd | False
+(1, 1, 1, 0, 1, 1) | 62 | LEVI-REGULAR | (6, 8, 11, 15, 11, 6) | odd | False
+(1, 2, 0, 0, 0, 1) | 52 | LEVI-REGULAR | (4, 6, 7, 10, 7, 4) | odd | False
+(1, 2, 1, 0, 1, 1) | 64 | DISTINGUISHED | (7, 10, 13, 18, 13, 7) | odd | False
+(2, 0, 0, 0, 0, 2) | 48 | LEVI-REGULAR | (4, 4, 6, 8, 6, 4) | even | True
+(2, 0, 0, 2, 0, 2) | 66 | DISTINGUISHED | (8, 10, 14, 20, 14, 8) | even | True
+(2, 1, 1, 0, 1, 2) | 64 | LEVI-REGULAR | (8, 10, 14, 19, 14, 8) | odd | False
+(2, 2, 0, 0, 0, 2) | 60 | LEVI-REGULAR | (6, 8, 10, 14, 10, 6) | even | True
+(2, 2, 0, 2, 0, 2) | 68 | LEVI-REGULAR | (10, 14, 18, 26, 18, 10) | even | True
+(2, 2, 2, 0, 2, 2) | 70 | DISTINGUISHED | (12, 16, 22, 30, 22, 12) | even | True
+(2, 2, 2, 2, 2, 2) | 72 | LEVI-REGULAR | (16, 22, 30, 42, 30, 16) | even | True
+projective rows: 9/20; every projective row has all labels even
+integral even-label test: 24/64 label vectors pass; all give even t and 27-spectrum
+scope fence: c=(2,0,0,0,0,0) is even but t_1=8/3; arbitrary even labels are not enough
+OA-C1070: PASS — among weighted-Dynkin characteristics, omega_1 parity is redundant
