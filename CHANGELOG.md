@@ -1,5 +1,19 @@
 # Changelog
 
+## B8139 — a lock that works caught nothing for five days, because nobody can afford to run it
+
+**This seat stopped writing `FINDINGS.md` at B8110. The omission ran unbroken through B8134 — sixteen consecutive arcs, all mine.** The lock exists and works. **It was never reached:** its suite is 1038 files and 4528 tests, **collection alone takes 421s**, and two background runs were killed by timeout. **The failure class is cost.**
+
+It surfaced only because a run killed at **73%** had already emitted five failures, and I read the killed run's partial output instead of discarding it.
+
+**Five failures, triaged honestly:** `instrument` banked as a string where the schema is a bool (**mine, new**); 16 arcs missing findings docs, to which **I had added 4 more**; two verdicts outside the sealed vocabulary (**my seat**); 6 unrouted `NEGATIVE` arcs; and `atlas-fresh`, which **my own fix broke** and which I regenerated rather than hand-edited.
+
+**`PARTIAL` was considered and rejected** for the vocabulary fix: it is in wave-2's list but not wave-1's, **and it is used by zero arcs** against 1026 using the four live tokens — so normalising into the vocabulary beats widening a lock.
+
+**⚠ Flagged, not touched:** `SUBMISSION_METADATA.md` carries the owner's personal email on a tracked, dual-pushed surface, and a lock exists to keep email-shaped text off it. Supplied deliberately for arXiv on 2026-08-15. Removing it would undo a deliberate act; staying silent would suppress a privacy-relevant conflict.
+
+**The suite cost is not fixed. This is a sweep, not a remedy.**
+
 ## B8138 — Paper IV drafted: the series is complete
 
 **`papers/series/paper4_what_cannot_be_supplied/` — 5pp, builds clean, 7/7 verified.** Three failures shown to be **theorems**, each with its exact escape: **scale** (no dimensionful quantity — but ratios, phases, mixing and counts are untouched); **orbit position** (an orbit invariant cannot select a point of its orbit, and no refinement ever will — exactly two escapes, shown exhaustive); **family versus object** (of seven elementary invariants exactly one separates `m004` from its 14-member shape-field family, `H₁ = ℤ`).

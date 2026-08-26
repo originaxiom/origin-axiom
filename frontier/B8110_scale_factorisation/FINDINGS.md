@@ -1,0 +1,51 @@
+# B8110 — scale factorisation
+
+**Arc dated:** 2026-08-21 · **Seat:** cc3 (audit) · **Lane:** MATHEMATICS.
+**Gate 5:** no physical identification claimed in this arc.
+
+> **RECONSTRUCTED 2026-08-26 from this arc's own banked record** (`arc_verdict.json`
+> and `results.json`). **This seat stopped writing `FINDINGS.md` at B8110 and the
+> omission ran unbroken through B8134 — sixteen arcs.** It went uncaught because the
+> lock that detects it lives in a suite too slow to finish inside a session. **This
+> document is faithful to the banked record but is NOT contemporaneous, and is marked
+> so rather than backdated.**
+
+## Verdict
+
+**PROVED**
+
+THE SCALE-FACTORISATION DOCUMENT RECOVERED AND RESENT WITH A NINE-DAY ADDENDUM, AND THREE OF ITS
+OWN DECLARED NOT-SEARCHED ITEMS HAVE MOVED. At cc's request on the owner's unseal, the
+2026-08-12 document (SM value = class invariant x substrate scale) was recovered VERBATIM from
+commit d71732b9 on branch audit/b775-braver-questions -- pushed to origin and codeberg, NOT an
+ancestor of this branch's HEAD, which is why it was not to hand -- and restored under an arc
+directory rather than at root per tracked-forbidden. The original is unedited; the addendum is
+separate. ITS ITEM 1 IS PARTIALLY ANSWERED: the document wrote that the field has fifty years of
+experiment and the corpus has never read it as a target, and B8094 has now read it, cataloguing
+the Fibonacci quasicrystal realisations with citations (arXiv:1403.7124 / PRB 91 064201; the
+Aubry-Andre-Harper cold-atom programme; Nature 553, 59) -- and the fact the document could not
+have known is that those experiments scan the PHASON, which IS the Sturmian intercept, the
+coordinate B8091 proves the object never supplies. ITS ITEM 3 DOUBLES: alongside its sealed
+genericity control (a non-golden substitution must fail) sits a second hazard, that gap labeling
+already forces edge counts so a coincident prediction is a RE-DERIVATION -- cc's B1095 conceded
+exactly this for the 5-vs-6 counts, the first live instance -- and neither control is run. ITS
+BLIND FACTOR IS BLINDER THAN CLAIMED: Hom(G,R+) = 0 is joined by a measure-theoretic proof,
+since the scale torsor is the non-compact ray whose Haar measure dx/x is not normalisable, so
+there is no uniform prior on scale at all -- two unrelated routes landing on one slot,
+strengthening the document's thesis. AND ONE CANDIDATE LEFT ITS LIVE HALF: B8089 ran L144 sealed
+two-outcome on the ratio lane's sharpest route, the RG-invariant anomaly layer, and over the
+derived 16 it is identically zero, so door 5 is shut structurally -- which does not touch the
+factorisation but removes one mechanism from its live half with a reason. NOT DONE: Phase-0 item
+0, the genericity control's sealed design, remains unrun and remains this seat's, and was not
+slipped in beside a resend. Nothing here is a crossing; no measured value enters any claim. Gate
+5 untouched.
+
+## Depends on
+
+`B518`, `B8094`, `B8091`, `B8089`
+
+## Scope
+
+As recorded above. Nothing in this reconstruction adds a claim the arc did not bank, and where
+the arc recorded a limit, a flag or a self-caught error, that text is reproduced rather than
+summarised away.

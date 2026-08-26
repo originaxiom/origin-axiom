@@ -6,7 +6,8 @@
   "B8078"
  ],
  "id": "B8136",
- "instrument": "papers/series/paper2_rung_spectrum/verify/check_forcing.py (13 checks, live controls) + the inherited B8078 reproducer rung_attained.py, re-run to completion exit 0 ALL CHECKS PASS before drafting",
+ "instrument": false,
+ "reproducer": "papers/series/paper2_rung_spectrum/verify/check_forcing.py (13 checks, live controls) + the inherited B8078 reproducer rung_attained.py, re-run to completion exit 0 ALL CHECKS PASS before drafting",
  "superseded_by": null,
  "supersedes": [],
  "verdict": "PROVED"

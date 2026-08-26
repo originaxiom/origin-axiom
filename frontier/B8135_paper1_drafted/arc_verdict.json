@@ -6,7 +6,8 @@
   "B8122"
  ],
  "id": "B8135",
- "instrument": "papers/series/paper1_characterization/verify/check_locus.py -- 15 checks, 4 groups, every group carrying at least one control that must be able to fail",
+ "instrument": false,
+ "reproducer": "papers/series/paper1_characterization/verify/check_locus.py -- 15 checks, 4 groups, every group carrying at least one control that must be able to fail",
  "superseded_by": null,
  "supersedes": [],
  "verdict": "PROVED"

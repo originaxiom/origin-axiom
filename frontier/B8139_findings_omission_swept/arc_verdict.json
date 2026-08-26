@@ -1,0 +1,12 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-26)",
+ "claim_one_line": "THIS SEAT STOPPED WRITING FINDINGS.md AT B8110 AND THE OMISSION RAN UNBROKEN THROUGH B8134 -- SIXTEEN ARCS -- UNDETECTED FOR FIVE DAYS. The lock that catches it exists and works; it sits in a suite whose COLLECTION ALONE takes 7 minutes over 1038 files and 4528 tests, so it never finished inside a session and its verdict was never read. A lock nobody can afford to run is not a lock. Swept: 16 FINDINGS.md reconstructed and marked non-contemporaneous, 2 verdicts normalised into the sealed vocabulary, 7 NEGATIVE arcs routed to the kill graph, atlas regenerated.",
+ "creates_law": "A LOCK TOO SLOW TO RUN IS NOT A LOCK. The FINDINGS.md write-safety invariant was never weakened and never failed silently -- it was simply never reached, because the suite it lives in cannot complete in a working session. SCOPE: the remedy applied here is a SWEEP, not a fix to the cost; the suite is still too slow and the same class of drift can recur. SCOPE: the reconstructed documents are faithful to each arc's banked record but are NOT contemporaneous, and every one says so in its own header rather than being backdated.",
+ "depends_on": [],
+ "id": "B8139",
+ "instrument": true,
+ "reproducer": "tests/test_b810_wave1.py + tests/test_b817_wave2.py + tests/test_b833_negative_routing.py -- 17 assertions, all green after the sweep",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

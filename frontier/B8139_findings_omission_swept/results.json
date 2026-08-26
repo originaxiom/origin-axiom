@@ -1,0 +1,49 @@
+{
+ "five_failures_triaged": {
+  "1_instrument_field_type": {
+   "detail": "I banked B8135-B8138 with `instrument` as a STRING. The schema is a BOOL -- 928 False / 96 True across the corpus, and B8078 which HAS a reproducer is still False. Fixed: instrument -> False, the path moved to a new `reproducer` key.",
+   "status": "MINE, NEW"
+  },
+  "2_missing_findings_docs": {
+   "detail": "16 pre-existing (B8110-B8134) plus my 4 new = 20. All 20 now have FINDINGS.md.",
+   "status": "PRE-EXISTING, AND I ADDED 4 TO IT"
+  },
+  "3_sealed_vocabulary": {
+   "detail": "B8068 'PROVED (cell 1) / WITHDRAWN (cell 2)' -> PROVED; B8080 'REFUTES' -> NEGATIVE. PARTIAL was considered and REJECTED: it is in wave2's vocabulary but not wave1's, AND it is used by ZERO arcs -- the live vocabulary is exactly the 4 tokens across 1026 arcs, so normalising into it beats widening the lock. Both originals preserved in `verdict_original` with a stated rationale.",
+   "status": "PRE-EXISTING, MY SEAT"
+  },
+  "4_kill_graph_routing": {
+   "detail": "6 NEGATIVE arcs unrouted (B8092/93/96, B8115, B8117, B8125); B8080 became a 7th once its verdict was normalised. All routed on B836's convention with judgement fields DELIBERATELY UNSET -- setting fact_computed mechanically would fabricate the exact signal it exists to carry.",
+   "status": "PRE-EXISTING"
+  },
+  "5_atlas_stale": {
+   "detail": "writing the 16 FINDINGS.md made those arcs visible to the atlas, so `atlas-fresh` began failing with dirs-only=[B8110,B8120,B8121,B8122,B8123]. REGENERATED via scripts/atlas/atlas.py and scripts/views/generate.py -- never hand-edited, since the views-generated gate byte-compares.",
+   "status": "MINE, CAUSED BY THE FIX"
+  }
+ },
+ "flagged_for_the_owner": {
+  "what": "SUBMISSION_METADATA.md contains a personal email address on a tracked, dual-pushed surface, and a lock exists specifically to prevent email-shaped text reaching it",
+  "why_not_fixed_here": "it is the owner's own address, deliberately supplied for submission. Removing it would undo a deliberate act and could break the submission; leaving it silently would suppress a privacy-relevant conflict between a deliberate decision and a standing lock. FLAGGED, not touched."
+ },
+ "how_it_surfaced": "drafting the four series papers forced a full-suite run; the run was killed at 73% but had already emitted 5 failures, and reading the killed run's partial output rather than discarding it is what exposed them",
+ "not_claimed": [
+  "that the suite cost is fixed -- it is not; the same drift class can recur",
+  "that the reconstructed documents are contemporaneous -- each says otherwise in its own header"
+ ],
+ "suite_coverage_achieved": {
+  "covered": "0-73% via the killed run's partial output (5 failures, all triaged above); 62-82% re-run; 80-100% in four chunks",
+  "method": "the full suite cannot complete in a session, so it was run in slices",
+  "remaining_failures_all_pre_existing": [
+   "test_b887_gate_audit::test_all_twenty_gates_pass_now",
+   "test_repo_gates::test_all_gates_pass",
+   "test_public_surface_scan::test_no_email_addresses_or_reviewer_placeholders"
+  ],
+  "why_they_fail": "the first two trace to 6 standing gate debts (attribution on a cc relay from 2026-08-21, tracked-forbidden ~100 root relays, path-refs 6, lawmap-scope B962, doc-currency 4 DECLARED debts, relay-debt 7 stale). The third is papers/structure_paper/SUBMISSION_METADATA.md carrying the owner's contact email, last touched 2026-08-22, supplied deliberately on 2026-08-15 for arXiv."
+ },
+ "the_finding": {
+  "all_mine": "every one is cc3 audit seat -- this is entirely this seat's debt, not another seat's",
+  "the_lesson": "the lock never weakened and never failed silently. It was never REACHED. A lock nobody can afford to run is not a lock.",
+  "what": "16 consecutive arcs (B8110-B8134, 2026-08-21 to 2026-08-26) carry arc_verdict.json with NO FINDINGS.md",
+  "why_undetected": "tests/test_b817_wave2.py::test_writer_safety_no_verdict_without_a_findings_document EXISTS AND WORKS. It sits in a suite of 1038 files / 4528 tests whose COLLECTION ALONE takes 421s. Two background runs were killed by timeout before finishing; the first reached 73%."
+ }
+}

@@ -5,8 +5,8 @@
 
 # The closed-door map (generated)
 
-**756 recorded closures — of which 589 are CLASSIFIED by mechanism and
-167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
+**763 recorded closures — of which 589 are CLASSIFIED by mechanism and
+174 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
 number. A programme whose firewall works is mostly negatives; this is the shape of them.
@@ -14,7 +14,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | mechanism | doors | facts not computed |
 |---|---|---|
 | `other` | 359 | 343 |
-| `unrouted-unclassified` | 167 | 167 |
+| `unrouted-unclassified` | 174 | 174 |
 | `kind-mismatch` | 49 | 4 |
 | `genericity` | 35 | 1 |
 | `no-landing-site` | 30 | 1 |
@@ -50,7 +50,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `right-arithmetic-wrong-object` | 1 |  |
 | `structurally-empty-instrument` | 1 |  |
 
-## Closures whose discriminating fact was not computed (522)
+## Closures whose discriminating fact was not computed (529)
 
 The standing rule is that a negative is only as sound as the in-sandbox computation of
 its discriminating fact. **B799 resolved all of these** — see `frontier/B799_uncomputed_doors/`.
@@ -579,3 +579,10 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B762` |  | `other` |
 | `B774` |  | `other` |
 | `B791` |  | `other` |
+| `B8080` | THE ASSEMBLY CLASSIFICATION IS FALSE AS STATED: ALL SIX CANDIDATES ADMIT A 27-DIMENSIONAL ASSEMBLY. Scope (ass | `unrouted-unclassified` |
+| `B8092` | THE DESIGN AUDIT: THREE PLACES THE PROMPTS COULD ONLY REMOVE CANDIDATES, AND NO EVIDENCE OF INTENTIONAL BIAS.  | `unrouted-unclassified` |
+| `B8093` | L171 TYPED: THE CLPW CROSSED-PRODUCT BRIDGE IS MOOD, NOT MATCH -- AND THE DISANALOGY IS THE FINDING. Read CLPW | `unrouted-unclassified` |
+| `B8096` | THE RESIDUE HUNT RE-RUN WITH THE GUARD RELAXED: OUTCOME B, NO SUPPRESSED CANDIDATE IN THIS FAMILY, AND THE NEG | `unrouted-unclassified` |
+| `B8115` | C5 CLOSES AS A NEGATIVE, AND THE NEGATIVE NAMES ITS OWN BOUNDARY. B8114 re-typed C5 NEEDS-READING and said the | `unrouted-unclassified` |
+| `B8117` | L172 ANSWERS NEGATIVELY AND THE NEGATIVE IS DECISIVE: THERE IS NO FIBONACCI-ANYON DEVICE. Every demonstration  | `unrouted-unclassified` |
+| `B8125` | THE n=2 ABSCISSA IS NOT A CUSP PHENOMENON -- REFUTED BY THE WEEKS MANIFOLD. The hypothesis was that B8113's n= | `unrouted-unclassified` |

@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1020** |
-| words of findings prose | **690,597** |
+| research arcs with findings | **1041** |
+| words of findings prose | **706,974** |
 | test lock files referenced | **611** |
-| arcs carrying an authored verdict | **1007** (98.7 %) |
-| recorded closures | **756** (589 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1028** (98.8 %) |
+| recorded closures | **763** (589 classified, 174 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 670 |
-| NEGATIVE | 291 |
+| PROVED | 691 |
+| NEGATIVE | 293 |
 | OPEN | 33 |
 | RETRACTED | 11 |
 
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `other` | 359 |
-| `unrouted-unclassified` | 167 |
+| `unrouted-unclassified` | 174 |
 | `kind-mismatch` | 49 |
 | `genericity` | 35 |
 | `no-landing-site` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**522 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**529 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B8119`** (879 words, 1 locks)  
-THE 2+1 THEORY IS COMPLETE AS A DEFINITION AND IS PARAMETER-FREE, THE QUANTUM SIDE IS NOT, AND ONE ROW OF THE ORIGINAL AUDIT WAS NEVER SEARCHED. Re-auditing B8099's eleven rows after B8118: six were already PRESENT; the MATTER SPECTRUM is RESOLVED (B8118 -- it is T[4_1]'s 2 chirals, since E6 is arithmetic and not matter); E6 AS A DYNAMICAL GAUGE is CLOSED NEGATIVE (B262's wall #2); the E6 STATE INTEGRAL DISSOLVES (no dynamical E6, no such object); and the 4d LIFT is OUT OF SCOPE by the owner's own election plus B8099's proof that 3d-3d cannot reach 4d. THE UNSEARCHED ROW: B8099 marked the state integral PARTIAL, 'not a closed evaluation', and mentions B787 ZERO times -- yet B787's D5 cell computes the figure-eight state integral in the Andersen-Kashaev normalisation with Faddeev's quantum dilogarithm VALIDATED to 1.6e-30, at the self-dual point b=1 where the exact residue evaluation collapses to a SINGLE term, with the saddle matching Vol(4_1) to 3.9e-31. That is a closed evaluation, and the PARTIAL label was a WORKING_RULES section 0 violation by this seat. So no row is left PARTIAL, AMBIGUOUS or MISSING. THE THEORY IS PARAMETER-FREE IN A STRONG SENSE: the saddle recomputed here independently gives Vol = 2 Im Li_2(e^{i pi/3}) = 2.029883212819307, which equals (3 sqrt3/2) L(chi_-3, 2) -- an L-VALUE, not a fitted constant. NOVELTY IS NOT CLAIMED AND IS EXPLICITLY DISCLAIMED: DGG built T[4_1], Andersen-Kashaev built the state integral, and 2+1 gravity with negative Lambda is standard; what the corpus did is ASSEMBLE and VERIFY the combination for this manifold and remove an ambiguity of its own making. WHAT IS NOT FINISHED, STATED FIRST RATHER THAN LAST: the ONE-LOOP PARTITION FUNCTION is NOT assembled, with three named residues -- the cusp's continuous spectrum (phi(s) in hand, the spin-2 cusped test function not), the torsion-to-determinant step B8112 declined, and the n=2 factor's convergence at the abscissa (B8113). Those were never on B8099's checklist; they are a rung this seat added. The checklist measures the theory's DEFINITION; the residues are its QUANTUM EVALUATION, and that is where a genuinely new result would live. Re-audits B8099's eleven rows against the corpus and recomputes the state integral's saddle independently. Does NOT re-derive T[4_1] or the state integral -- both are read from B262 and B787 and, for B787, re-run in-sandbox. Claims no novelty. Gate 5 untouched. CORRECTION 2026-08-22: the identity Vol = (3sqrt3/2) L(chi_-3,2) was ALREADY BANKED as B680 and this arc recomputed it without searching, presenting the saddle as establishing it; the mathematics stands, the attribution did not, and the later 'two seats two routes' framing of cc's B1117 was in fact three routes to a banked result.  
-`B8119_3d_closure/FINDINGS.md`
+**PROVED — `B8139`** (658 words, 0 locks)  
+THIS SEAT STOPPED WRITING FINDINGS.md AT B8110 AND THE OMISSION RAN UNBROKEN THROUGH B8134 -- SIXTEEN ARCS -- UNDETECTED FOR FIVE DAYS. The lock that catches it exists and works; it sits in a suite whose COLLECTION ALONE takes 7 minutes over 1038 files and 4528 tests, so it never finished inside a session and its verdict was never read. A lock nobody can afford to run is not a lock. Swept: 16 FINDINGS.md reconstructed and marked non-contemporaneous, 2 verdicts normalised into the sealed vocabulary, 7 NEGATIVE arcs routed to the kill graph, atlas regenerated.  
+`B8139_findings_omission_swept/FINDINGS.md`
 
-**NEGATIVE — `B8117`** (621 words, 1 locks)  
-L172 ANSWERS NEGATIVELY AND THE NEGATIVE IS DECISIVE: THERE IS NO FIBONACCI-ANYON DEVICE. Every demonstration to date is a DIGITAL SIMULATION of Fibonacci string-nets on a gate-based processor. The 2024 superconducting result (arXiv:2404.00091; Nat. Phys. s41567-024-02529-6) simulates the string-net on 27 TRANSMONS and demonstrates fusion and braiding 'by applying unitary gates on the underlying physical qubits'; the 2025 Nature Communications string-net condensation result has the same shape; and the current hardware state of the art for UNIVERSALITY (Nature s41586-026-10709-y, 15 July 2026, 54 qubits on Quantinuum H2) uses non-Abelian S_3 rather than Fibonacci and reaches universality only by treating FUSION as a computational primitive alongside braiding. On the compilation side, Kliuchnikov-Bocharov-Svore (PRL 112, 140504 (2014); arXiv:1310.4150) run unitary -> braid: the braid is a compiler OUTPUT given a target, never a measurement. THE CONSEQUENCE FOR THE TORSOR-TO-GATE DICTIONARY: a golden-ratio structure in a compiled Fibonacci braid is PUT IN by the simulation, not READ OUT of hardware, so a dictionary typed 'against real hardware claims' has NO HARDWARE TO TYPE AGAINST, and any crossing resting on native realization would be CIRCULAR. THE CLASS NAMED: anything requiring a NATIVE non-abelian golden substrate; the boundary is SIMULATION vs REALIZATION, which no improvement in qubit count or fidelity crosses, since the golden content enters through the compiler at every scale. AND IT COMPOSES WITH B8111: the discriminating content is phi/2 and 1/(2phi) at resolution better than 0.101910213188, and on a simulated braid those are INPUTS TO THE COMPILER -- one cannot measure to 0.1019 a quantity one supplied -- so THE ANYON-DEVICE ROUTE TO L8001 IS CLOSED FOR NOW and the surviving route is the condensed-matter one catalogued in B8094, where the golden structure sits in the MATERIAL and the phason is a physical dial. NOT FOUND, recorded rather than dropped: Parzanchevski-Sarnak 'golden gates' did not appear in the returned results and is NOT cited. A literature pass dated 2026-08-21 at abstract/summary level, declared. Establishes what HOSTS the Fibonacci anyons in each demonstration -- material or processor -- which is the only question L172 asked. Does NOT assess any experiment's fidelity, and does not claim a native device is impossible, only that none exists in the literature reached. Gate 5 untouched.  
-`B8117_l172_anyon_devices/FINDINGS.md`
+**NEGATIVE — `B8125`** (903 words, 0 locks)  
+THE n=2 ABSCISSA IS NOT A CUSP PHENOMENON -- REFUTED BY THE WEEKS MANIFOLD. The hypothesis was that B8113's n=2 residue and its cusp-continuous-spectrum residue are one object, so that B739's scattering determinant regularizes the abscissa. It is false. A log-fit produced a seductive near-miss -- intercept d = 0.102679 against vol/(2 pi^2) = 0.102835, 0.15% -- which died the moment c was pinned: d swings from 0.197 to -0.030 across c's own 20% uncertainty, so the intercept was never determined, and the candidate had been printed in the same script that produced the fit. B724's look-elsewhere rule, applied to this seat. THE DECISIVE CONTROL: on m003(-3,1), the Weeks manifold -- closed, cusp-free, is_complete=False, filling (-3,1), volume 0.9427 -- S(2) grows identically, steps +0.050, +0.087, +0.079, +0.049 with no decay. The divergence does not need a cusp. IT HAD TO FAIL: the abscissa is the critical exponent delta = 2 of the geodesic flow, an ENTROPY fact holding for every finite-covolume lattice in Isom(H^3); the cusp contributes the CONTINUOUS SPECTRUM, on the other side of the trace formula. B8113's three residues stay three. THE CLASS NAMED, and it is a one-line test for any future candidate of this shape: does it survive on a CLOSED manifold? Tests one structural hypothesis and refutes it. Uses partial sums over the length spectrum to cutoff 5.5 (m004) and 4.5 (Weeks); does not prove divergence, and does not resolve whether the n=2 factor's conditionally-convergent limit exists -- that remains open exactly as B8113 left it. Gate 5 untouched.  
+`B8125_abscissa_not_the_cusp/FINDINGS.md`
 
 **RETRACTED — `B8070`** (1056 words, 0 locks)  
 THIS ARC'S OWN HEADLINE IS WITHDRAWN IN FULL: it claimed anomaly cancellation carries su(3)+su(2)+u(1)^3 (Lie rank 6) to su(3)+su(2)+u(1)_Y (Lie rank 4), escaping the GUT_REQUIREMENTS_LEDGER section D rank obstruction. Four defects, all verified on this bench. (1) The headline was never computed -- the source line prints the literal f-string {2+1+3} -> {2+1+1}; no Lie rank is calculated anywhere in the file. (2) The only quantity actually computed does not move: Killing rank is 11 with one u(1) and 11 with three, so the apparent (14,11) -> (12,11) descent is len(basis), a Python list length reading back the function's own argument. (3) The algebra was not the algebra -- the three 'u(1)' generators do not commute with su(3)+su(2) (max norm of the commutator 2.83, 12.73, 86.27) and the real span is 13, not the printed 14. (4) The controls tested adjacent quantities: C1 checked centralizer DIMENSION inside a rank-4 algebra rather than rank inside e6, and C4 tested an unrelated grid scan while the detector, which takes no charge assignment, returns (12,11) unconditionally. Independently, B971 (2026-08-08) had already closed this question NEGATIVE: on the object's own complete 27 every anomaly condition is identically zero, the solution space stays 3-dimensional, and the 3 -> 1 drop exists only over an imported chiral truncation that the object has no operation to perform. THE ONE THING THIS CELL CONTRIBUTES, kept as a scope note and NOT a retraction of B864: B864's 'hypercharge is the unique gaugeable U(1)' is uniqueness INSIDE the chosen 3-plane span(Y, chi, psi) -- the coefficient a drops out identically because A(Y) = 0 is the textbook fact, and over the full 5-dimensional charge space the cubic factors into THREE lines, -2.yL.(2yL+3yd).(4yL-3yd)/3, namely hypercharge, the u-d-swapped Minahan-Ramond-Warner solution, and the vector-like direction. B864 is correct as scoped and must not be quoted as 'anomaly cancellation selects hypercharge'. Error class: a headline printed rather than computed, wrapped in controls aimed at the claim's neighbourhood; a FALSE POSITIVE this time rather than a false negative. Gate 5 untouched.  

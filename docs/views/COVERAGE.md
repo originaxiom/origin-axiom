@@ -10,15 +10,11 @@ view can quietly imply completeness it does not have.
 
 | layer | count | of | share |
 |---|---|---|---|
-| arcs with `FINDINGS.md` | **1020** | — | 100 % |
-| arcs with an authored verdict (W1) | **1007** | 1020 | 98.7 % |
-| classified in `kill_graph` | **756** | — | — |
-| kill records resolving to an arc | **711** | 756 | 94 % |
-| kill records with no arc directory | **45** | 756 | 6 % |
-
-## Negatives absent from `kill_graph`
-
-Found among the authored arcs: `B8092`, `B8093`, `B8096`, `B8115`, `B8117`.
+| arcs with `FINDINGS.md` | **1041** | — | 100 % |
+| arcs with an authored verdict (W1) | **1028** | 1041 | 98.8 % |
+| classified in `kill_graph` | **763** | — | — |
+| kill records resolving to an arc | **718** | 763 | 94 % |
+| kill records with no arc directory | **45** | 763 | 6 % |
 
 ### Measured (B801), not merely flagged
 
@@ -40,6 +36,6 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
 
 | stratum | meaning | count | share |
 |---|---|---|---|
-| **A** | explicit `## Verdict` block — directly extractable | 211 | 20.7 % |
-| **B** | no block, but the title carries the verdict | 795 | 77.9 % |
-| **C** | neither — genuinely hard, needs a full read | 14 | 1.4 % |
+| **A** | explicit `## Verdict` block — directly extractable | 227 | 21.8 % |
+| **B** | no block, but the title carries the verdict | 800 | 76.8 % |
+| **C** | neither — genuinely hard, needs a full read | 14 | 1.3 % |

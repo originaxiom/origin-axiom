@@ -8,5 +8,7 @@
  "instrument": false,
  "superseded_by": null,
  "supersedes": null,
- "verdict": "REFUTES"
+ "verdict": "NEGATIVE",
+ "verdict_normalisation_note": "'REFUTES' is not a sealed token. The arc refutes a classification -- 'THE ASSEMBLY CLASSIFICATION IS FALSE AS STATED' -- and NEGATIVE is the sealed token for a refutation. No change of meaning.",
+ "verdict_original": "REFUTES"
 }

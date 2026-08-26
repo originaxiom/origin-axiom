@@ -1,0 +1,87 @@
+# B8124 — phi law sharpened
+
+**Arc dated:** 2026-08-22 · **Seat:** cc3 (audit) · **Lane:** MATHEMATICS.
+**Gate 5:** no physical identification claimed in this arc.
+
+> **RECONSTRUCTED 2026-08-26 from this arc's own banked record** (`arc_verdict.json`
+> and `results.json`). **This seat stopped writing `FINDINGS.md` at B8110 and the
+> omission ran unbroken through B8134 — sixteen arcs.** It went uncaught because the
+> lock that detects it lives in a suite too slow to finish inside a session. **This
+> document is faithful to the banked record but is NOT contemporaneous, and is marked
+> so rather than backdated.**
+
+## Verdict
+
+**PROVED**
+
+THE PHI-LAW REPRODUCES EXACTLY AND ONE THIRD OF IT IS AN IDENTITY. Rebuilt B1128's instrument
+independently: the axis triple for RRLL is -phi times that for RL, componentwise, to 2e-50 or
+better, and a 13-point theta sweep gives max residual 1.2e-50. The law is real. BUT tone(RL) =
+1/(2 phi) and tone(RRLL) = -1/2 EXACTLY, and phi * 1/(2 phi) = 1/2 is an identity holding for
+any phi -- so the TONE component ratio is forced by arithmetic and carries no golden content
+whatever. The genuine content is that wx and wz scale by the same -phi, which is not automatic:
+the vectors are (-a/phi, a) and (a, -a phi). RECOMMENDATION: bank the row SCOPED to the off-tone
+components. AND BY B8111'S OWN MEASUREMENT the tone pair is half generic -- RL's 1/(2phi) is
+golden-discriminating but RRLL's 1/2 is shared by 2T, 2O and 2I alike. Reproduces one cross-seat
+side-finding from its own script and sharpens it. Does not re-derive the listener map or B1128's
+null verdict, which is untouched. Gate 5 untouched.
+
+## What the arc recorded
+
+### `verdict`
+
+THE PHI-LAW REPRODUCES EXACTLY AND ONE THIRD OF IT IS AN IDENTITY. Rebuilt B1128's instrument
+independently: the axis triple for RRLL is -phi times that for RL, componentwise, to 2e-50 or
+better, and a 13-point theta sweep gives max residual 1.2e-50. The law is real. BUT tone(RL) =
+1/(2 phi) and tone(RRLL) = -1/2 EXACTLY, and phi * 1/(2 phi) = 1/2 is an identity holding for
+any phi -- so the TONE component ratio is forced by arithmetic and carries no golden content
+whatever. The genuine content is that wx and wz scale by the same -phi, which is not automatic:
+the vectors are (-a/phi, a) and (a, -a phi). RECOMMENDATION: bank the row SCOPED to the off-tone
+components. AND BY B8111'S OWN MEASUREMENT the tone pair is half generic -- RL's 1/(2phi) is
+golden-discriminating but RRLL's 1/2 is shared by 2T, 2O and 2I alike.
+
+### `scope`
+
+Reproduces one cross-seat side-finding from its own script and sharpens it. Does not re-derive
+the listener map or B1128's null verdict, which is untouched. Gate 5 untouched.
+
+### `method`
+
+rebuilt B1128's instrument from its own standalone script and evaluated the axis triples
+independently; the closed form is h(g,u(theta)) = tone + i(wx sin2theta + wz cos2theta), so the
+law holds for ALL theta iff the whole triple (tone,wx,wz) scales by -phi
+
+### `THE_SHARPENING`
+
+ONE THIRD OF THE LAW IS AN IDENTITY AND CARRIES NO GOLDEN CONTENT. tone(RL) = 1/(2 phi) EXACTLY
+and tone(RRLL) = -1/2 exactly -- both are members of B8111's five-tone 2I menu. Their ratio is
+-phi BY THE DEFINITION OF phi: phi * 1/(2 phi) = 1/2 holds for any phi whatsoever, indeed for
+any nonzero real. So the tone component of the proposed law is a reciprocal identity, not a
+golden-ratio law. What is NOT automatic, and IS the content, is that wx and wz scale by the SAME
+-phi: the vectors are (-a/phi, a) and (a, -a phi) with a = 0.425325404176, so the (wx,wz) half
+is a genuine phi-shift and not forced by the tones.
+
+### `connects_to_B8111`
+
+B8111 computed the 2I tone menu {0, 1/(2phi), 1/2, phi/2, 1} and showed only phi/2 and 1/(2phi)
+are golden-DISCRIMINATING, with {0,1/2,1} shared by 2T, 2O and 2I. Here RL lands on 1/(2phi) --
+discriminating -- and RRLL on 1/2 -- NOT discriminating, shared by all three groups. So the tone
+pair underlying the 'law' is half generic by B8111's own measurement.
+
+### `recommendation`
+
+BANK THE LAW, BUT SCOPED TO THE (wx,wz) COMPONENTS. Stating it as 'an exact golden-ratio law on
+the listener curve' over all three components invites the reply that a third of it is the
+definition of a reciprocal. The defensible row is: the OFF-TONE part of the axis scales by -phi,
+while the tone part does so trivially because the two tones are 1/(2phi) and 1/2. That is a
+smaller claim and a true one.
+
+## Depends on
+
+`B8111`
+
+## Scope
+
+As recorded above. Nothing in this reconstruction adds a claim the arc did not bank, and where
+the arc recorded a limit, a flag or a self-caught error, that text is reproduced rather than
+summarised away.

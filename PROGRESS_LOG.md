@@ -11050,3 +11050,7 @@ Drafted Paper III (6pp) on the graviton/Ruelle identity and the three residues. 
 
 Drafted Paper IV (5pp), the negatives paper the plan puts last on purpose. Wrote its census reproducer to **regenerate** the 14-manifold family rather than read B8128's stored list; it reproduces that table exactly, and its two controls encode the two errors the census originally caught. **Added a check the paper's own table needed: amphichirality is shared with all thirteen others — I had asserted it without testing it, and the script now tests it.** The series stands at four drafted papers, I through IV.
 
+## B8139 — the FINDINGS.md omission, swept
+
+Sixteen of my own arcs (B8110–B8134) carried verdicts with no findings document for five days, undetected because the lock lives in a suite too slow to finish. Wrote 20 findings documents (16 reconstructed and **marked non-contemporaneous rather than backdated**), normalised two verdicts into the live vocabulary with originals preserved, routed 7 negative arcs, and regenerated the atlas my own fix had staled. **Corrected my earlier report to the owner:** I had said the gate failures were pre-existing and not mine — true of the gates, but the suite had five failures and **two of them were mine.**
+

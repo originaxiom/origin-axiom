@@ -10,7 +10,8 @@
   "B8133"
  ],
  "id": "B8137",
- "instrument": "papers/series/paper3_one_loop/verify/check_n2_abscissa.py (5 checks, ABORTS unless the bite control diverges below the abscissa) + dictionary.py re-run exit 0 ALL CHECKS PASS",
+ "instrument": false,
+ "reproducer": "papers/series/paper3_one_loop/verify/check_n2_abscissa.py (5 checks, ABORTS unless the bite control diverges below the abscissa) + dictionary.py re-run exit 0 ALL CHECKS PASS",
  "superseded_by": null,
  "supersedes": [],
  "verdict": "PROVED"

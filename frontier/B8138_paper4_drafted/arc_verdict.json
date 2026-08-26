@@ -8,7 +8,8 @@
   "B719"
  ],
  "id": "B8138",
- "instrument": "papers/series/paper4_what_cannot_be_supplied/verify/check_family.py -- 7 checks, family REGENERATED from the census, two controls encoding the two errors this census caught",
+ "instrument": false,
+ "reproducer": "papers/series/paper4_what_cannot_be_supplied/verify/check_family.py -- 7 checks, family REGENERATED from the census, two controls encoding the two errors this census caught",
  "superseded_by": null,
  "supersedes": [],
  "verdict": "PROVED"

@@ -18834,6 +18834,22 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B8110": {
+   "slug": "scale factorisation",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "quasicrystal"
+   ],
+   "refs": [
+    "B518",
+    "L144"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B8111": {
    "slug": "genericity control",
    "motifs": [
@@ -19022,6 +19038,144 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B8120": {
+   "slug": "scrutiny triage",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "P1"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8121": {
+   "slug": "m4 closed",
+   "motifs": [
+    "trace_map"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B8122": {
+   "slug": "constructive items",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B8123": {
+   "slug": "scrutiny closed",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "P1"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B8124": {
+   "slug": "phi law sharpened",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8125": {
+   "slug": "abscissa not the cusp",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "B724",
+    "B739"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B8126": {
+   "slug": "tone axis split",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8127": {
+   "slug": "regulator omission",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B680",
+    "B683",
+    "B787",
+    "K3"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B8128": {
+   "slug": "genericity on the wins",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B680",
+    "B955"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B8129": {
+   "slug": "n2 no breakdown",
+   "motifs": [
+    "figure_eight",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B812": {
    "slug": "physics path map",
    "motifs": [
@@ -19061,6 +19215,128 @@
    "obstacle_conf": 7,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B8130": {
+   "slug": "item5 ruelle Lchi",
+   "motifs": [
+    "figure_eight",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B8131": {
+   "slug": "brief triage",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8132": {
+   "slug": "spin count not separating",
+   "motifs": [
+    "figure_eight",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "H1"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8133": {
+   "slug": "residue2 reframed",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B8134": {
+   "slug": "codex branch stale claim",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8135": {
+   "slug": "paper1 drafted",
+   "motifs": [
+    "trace_map",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8136": {
+   "slug": "paper2 drafted",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8137": {
+   "slug": "paper3 drafted",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B8138": {
+   "slug": "paper4 drafted",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B8139": {
+   "slug": "findings omission swept",
+   "motifs": [],
+   "refs": [
+    "B836"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
   },
   "B813": {
    "slug": "cs theta type audit",
