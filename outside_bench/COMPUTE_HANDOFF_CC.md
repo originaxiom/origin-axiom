@@ -11,8 +11,14 @@
   (B1147).** Continuation named: extend the ladder well past N=4000 and/or
   raise dps; the convention-free raw ladder is banked for that restart.
   This lane's outcome ledger: C3 CLOSED-NEGATIVE at this depth.
-- **C4 (large-T GUE): still grinding on the i9; banks separately.** Gates
-  unchanged below.
+- **C4: RETURNED — the preregistered negative, completed into a positive
+  (B1151 + memo 55).** Single-GUE gate NOT met at T=3000 (merged D=0.13365,
+  p~1e-85) with density and mean-spacing gates PASSING; cc's discriminating
+  per-factor computation located the deviation in the MERGE (factors at
+  D~0.040/0.049), and this lane's memo 55 closed the arc: the 2-fold GUE
+  superposition surmise fits the merged spacings at D=0.024 with each factor
+  alone rejecting it — zeta_K's statistics see exactly its product structure.
+  Both handoff cells are now returned and processed; this handoff is CLOSED.
 
 ### C4 — large-T GUE for ζ_K = ζ·L(χ₋₃)  (`certificates/c4_gue_larget.py`)
 - **What:** the preregistered continuation of the banked `gue_bench.py` down payment
