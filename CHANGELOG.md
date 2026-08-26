@@ -1,5 +1,19 @@
 # Changelog
 
+## REVIEW 49 (2026-08-26): the decadal review over B1135–B1155 — the discipline held, and B8141 the artifact class fixed
+
+The window (the phase-III tail + the carrier/coupling/peripheral harvest of cloud memos 30–55 + C4
+negative→positive + the cost class + the two seams) reviewed HOT, each cell reproduce-verified and
+several independently cross-checked (a COLD fresh-eyes pass is carried, R49-6). **Self-audit — six
+in-window errors, all caught and corrected before/at push** (B1143's over-claim withdrawn; B1150's
+primary-source hash mis-cite corrected; the `run_suite.sh` `set -u` empty-array crash + the
+`affected_tests` relay-only fall-back both fixed and regression-locked; the R28-9 absolute-path catch;
+cc3's withdrawn "73%/five-failures"). **Action taken:** cc3's **B8141 the artifact class** — five harvest
+tests (b1147/1148/1149/1150/1153) read the gitignored `reproduce.log` (a clean-checkout failure) →
+rerouted to the **committed runner**. Live crossings carried: SEAM-A's Gate 2 (cc3's arithmetic-CS
+action, NEEDS-SPECIALIST), codex's off-branch derivations (commit-to-branch), L183/L184. Anchor
+`29b09993`. See `docs/progress/REVIEWS.md` Review 49.
+
 ## THE TWO OPEN SEAMS WALKED (B1154 SEAM-Y + B1155 SEAM-A, 2026-08-26): SEAM-Y resolves MISMATCH (two walls, one thesis); SEAM-A is INDETERMINATE (the √3 hinge banked, leaning MISMATCH)
 
 The owner's "do them all" — the two remaining sealed seams (`THREE_SEAMS_PREREG`; SEAM-B was discharged

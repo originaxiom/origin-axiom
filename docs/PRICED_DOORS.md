@@ -1,5 +1,7 @@
 # The priced-doors campaign — every physics word, its price, and its computable next rung
 
+> **Review 49 (2026-08-26):** **SEAM-A** (the heterotic axiom → the adelic ∞-place) is the priced crossing — Gate 1 met (codex's ζ₁₂=K(√3) ring class field), Gate 2 owed (cc3's arithmetic-CS action, NEEDS-SPECIALIST); the √3 hinge is banked but is not the axiom collapsing. SEAM-Y closed MISMATCH.
+
 *Review 48 (2026-08-22, anchor 79e513a9): the VALUE door (unlocked by L180/B1120) was WALKED and returned a theorem-shaped negative — no object period is an SM ratio (V-3 + the wave); "physics-shaped, not physics-valued." **B1134 THE SIMULTANEOUS CLOSING** collapsed the observer's two real-structure doors (Lorentz signature + compact color) into ONE conjugation, forced into E₆(−26)=M(𝕆,ℂ). Next priced door: the values-as-regulators cell — the higher-class regulators in the forced J₃(𝕆) domain (B1134's 64 fixed dimensions), sealed vs SM ratios (R48-3). See docs/progress/REVIEWS.md Review 48.*
 
 *Review 47 (2026-08-20): the crossing week's tail plus the closing campaign's Phase 1. The coupling

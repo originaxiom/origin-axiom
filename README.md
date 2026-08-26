@@ -1,5 +1,7 @@
 # Origin Axiom
 
+> **State — Review 49 (2026-08-26), head B1155.** Since B1134: the internal→spacetime **carrier** (Ψ=ℂ²⊗27, the unique coupling, the cusp structure = the matter grading, the Yukawa reads the clock); C4's spacing seen as the ζ·L(χ₋₃) **superposition**; and the two open seams **walked** — **SEAM-Y MISMATCH** (codex's up-Yukawa=0 is a distinct *cohomological* wall, not our arithmetic one) and **SEAM-A** the honest open crossing (heterotic = the adelic ∞-place; gated on cc3's full arithmetic-CS action). Structure complete up to one observer conjugation; **values disjoint on periods AND regulators AND the up-Yukawa cohomology.**
+
 A claim-bounded, reproducible investigation of the **Origin Axiom** — the idea that
 existence is a *frustrated cancellation*: a remainder left when an attempt to cancel to
 nothing cannot complete.

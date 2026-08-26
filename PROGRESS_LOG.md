@@ -11439,3 +11439,20 @@ heterotic axiom collapsing. Leans MISMATCH on 3 banked facts: B1108 (arith-CS is
 lacks Vol), OA-C1045 (codex's CS is a torsion phase), OA-C1002 (codex's OWN refutation: heterotic is an
 added premise, not a CY3 property). The seal waits on Gate 2 (NEEDS-SPECIALIST). No firewall crossing;
 Gate 5 untouched. Locks test_b1154_seam_y.py, test_b1155_seam_a.py.
+
+**2026-08-26 — REVIEW 49 (the decadal review, window B1135-B1155, ~22 merges since R48/79e513a9).** HOT
+(this seat), per-cell independent checks banked as the work landed; a COLD fresh-eyes pass carried R49-6.
+Every harvested memo reproduce-verified (rc=0), the interpretively-driving claims independently
+cross-checked (memo 49 trace-3 sympy, memo 53 sl3, memo 54 Riley sympy, C4 per-factor, SEAM-A sqrt3
+hinge). SELF-AUDIT -- six in-window errors, all caught + corrected before/at push (the discipline held):
+B1143 over-claim withdrawn; B1150 primary-source hash mis-cite (1544989d vs 981f4c33) corrected
+post-push (9440f3fd); the run_suite.sh set -u empty-array crash (macOS bash 3.2) caught by the suite +
+regression-locked; the affected_tests relay-only full-suite fall-back (cc3 B8140) fixed + regression-
+locked; the seam arcs' absolute machine path caught by R28-9, fixed to ~/; cc3's withdrawn '73%/five
+failures' adopted (B1152 corrected). ACTION: cc3's B8141 the artifact class -- 5 harvest tests
+(b1147/1148/1149/1150/1153) read the gitignored verification/reproduce.log (fail on a clean checkout) ->
+rerouted to assert on the COMMITTED runner (reproduce*.sh); reproduction-happened evidence stays in
+test_all_*_reproduced (committed results.json). SEAM-Y=MISMATCH, SEAM-A=INDETERMINATE (Gate 2 the live
+crossing). Provenance debt: codex's primary derivations off-branch/unversioned (R49-1, commit-to-branch).
+Carried: R49-2 (SEAM-A Gate 2, cc3's arith-CS action, NEEDS-SPECIALIST), R49-3 (L184 collection lazy-fy),
+R49-4 (L183 reproducer sweep), R49-7 (papers). anchor-commit 29b09993.

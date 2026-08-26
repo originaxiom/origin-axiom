@@ -4167,7 +4167,7 @@ R48-6.
 - [x] R48-0: the three cold audits' fixes landed this review (E49; the B1101 lock; the
   value-wave input-completeness audit; the five deep-surface threads)
 - [x] R48-1: B1134 THE SIMULTANEOUS CLOSING banked + certified + pushed (79e513a9)
-- [ ] R48-2: integrate cc3's golden-meridian refinement (B8124 "one-third is a reciprocal
+- [>] R48-2: integrate cc3's golden-meridian refinement (B8124 "one-third is a reciprocal
   identity" + B8126 the Pauli-components split) — VERIFY on-bench, then scope the
   T-GOLDEN-MERIDIAN row to the off-tone (w_x, w_z) components (owner: banking seat)
 - [x] R48-3: **THE VALUES-AS-REGULATORS DOOR** — the campaign's named next frontier: compute
@@ -4177,17 +4177,90 @@ R48-6.
   owner-directed; rung-1 algebraicity over the reachable regulator ladder × 18 sealed SM targets
   × 216 cells + 384-cell matched null → 0/18 involve a regulator, base rate 0.0; the value
   question is now closed from every route. Tier B (J₃(𝕆) Beilinson regulators) NEEDS-SPECIALIST.
-- [ ] R48-4: cc3's B8127 (two omissions caught by the regulator door) — verify + integrate if
+- [>] R48-4: cc3's B8127 (two omissions caught by the regulator door) — verify + integrate if
   it survives (owner: banking seat)
 - [>] R48-5: R47-3 carried — B763 registry entries for the qor5up + b775 branches
-- [ ] R48-6: the cc3 audit-seat COLD pass over B1100–B1134 (R47-6 carried; at the owner's word)
+- [>] R48-6: the cc3 audit-seat COLD pass over B1100–B1134 (R47-6 carried; at the owner's word)
 - [>] R48-7: R47-7 carried — the LAW_MAP debt B1042/B1043 rows
 - [>] R48-8: R47-8 carried — the census's 31 category calls
 - [>] R48-9: R47-9 carried — the B909/B952 promotion-currency lag (promotion review now UNBLOCKED post-B1100)
-- [ ] R48-10: R47-10 carried — the per-gap detector → L173 seal path (after the aperiodic decision session)
-- [ ] R48-11: **PAPERS** (the owner's "then papers") — relay the value close + B1134 to the
+- [>] R48-10: R47-10 carried — the per-gap detector → L173 seal path (after the aperiodic decision session)
+- [>] R48-11: **PAPERS** (the owner's "then papers") — relay the value close + B1134 to the
   paper assembly (cc3's freeze): structure complete up to a single observer conjugation into
   the object's own M(𝕆,ℂ), values disjoint on periods, the regulator door as the honest open
   value section
 
 anchor-commit: `79e513a9` (the B1134 bank, this window's last substantive commit)
+
+## Review 49 — 2026-08-26 (merges 1–22 from Review 48; the phase-III-tail + the carrier/coupling/peripheral harvest + C4 + the cost class + the two seams)
+
+*HOT (this banking seat), with a strong self-audit and per-cell independent checks banked as the work
+landed; a COLD fresh-eyes pass over the window is available at the owner's word (carried R49-6). Prior
+anchor: 79e513a9 (R48). The window: the phase-III digest tail (B1135 the gauge closing, B1137 the
+regulator door DISJOINT, B1138–B1142), then this session — SP-1/SP-2 + the adoption audit (B1143–B1145),
+SEAM-B (B1146), the C-lane + carrier/coupling/peripheral harvest of cloud memos 30–55 (B1147–B1150,
+B1153), C4's honest negative (B1151) and its POSITIVE closure (B1153), the cost failure class + the fast
+lane (B1152), and the two open seams walked (B1154 SEAM-Y MISMATCH, B1155 SEAM-A INDETERMINATE).*
+
+**1. Math / verification.** Every harvested memo was reproduce-verified on this bench (rc=0 = every
+preregistered assert GREEN), and the load-bearing or interpretively-driving claims were **independently
+cross-checked with a distinct tool**: memo 49's trace-3 arithmetic (sympy), memo 53's family=ε
+(sl₃ joint-kernel), memo 54's Riley identity + fixed locus (sympy), C4's discriminating per-factor test,
+SEAM-A's √3 hinge (sympy). C4's arc is the window's cleanest shape: banked as an honest **negative**
+(single-GUE rejected, B1151) and closed **positive** by memo 55 as the 2-fold superposition of ζ·L(χ₋₃)
+— confirmed by codex R009 independently. The seams rest on committed sources + own computation, with the
+verdicts (MISMATCH / INDETERMINATE) robust to the codex material they characterize.
+
+**2. Self-audit — the errors this window, all CAUGHT and corrected in-window (the discipline held).**
+(a) B1143's "caught the cloud's error" over-claim → **withdrawn** as a cross-frame artifact (memo 25 was
+right). (b) **B1150 mis-cited its primary-source hash** (1544989d = memo 51's tip, not the 981f4c33 that
+holds memos 52–53) → caught by a post-push provenance check, corrected (9440f3fd), append-only logs
+stamped, no content single-homed. (c) The `run_suite.sh` `--fast` edit crashed under **macOS bash 3.2 +
+set -u** (empty-array `"${MARK[@]}"`) → caught by the suite (it never launched), fixed + regression-locked.
+(d) The fast-lane selector fell back to the **full suite on a relay-only diff** (cc3 B8140) → fixed
+(two empties distinguished) + regression-locked. (e) The seam arcs cited codex's location as an
+**absolute machine path** → caught by the R28-9 guard, fixed to `~/`. (f) cc3 withdrew its own
+"73% / five failures" killed-run detail (a truncated-log artifact) → **B1152 narrative corrected in
+place**. Plus the cloud's own machine-caught error (memo 49 nilpotency 4→3). No error reached a remote
+uncorrected; the suite / fast lane / provenance checks caught each.
+
+**3. The action taken this review — B8141 the artifact class, harvested + fixed.** cc3 named a third
+failure class: a lock that reads a **gitignored** file reports on the author's machine, not the code —
+on a clean checkout it fails, not skips. **Five harvest-arc tests (test_b1147/1148/1149/1150/1153) read
+the gitignored `verification/reproduce.log`** → **fixed** to assert on the **committed** reproduction
+runner (`reproduce*.sh`, which emits the per-cert REPRODUCES verdict); the reproduction-happened evidence
+stays in `test_all_*_reproduced` (the committed results.json). Clean-checkout-safe. The seam arcs
+(B1154/B1155) were built to this rule from the start. cc3's B8139 (cost, E50) and B8140 (two empties)
+were already harvested this window (B1152 + the B8140 correction).
+
+**4. The two seams.** SEAM-Y = **MISMATCH** (codex's cohomological up-Yukawa=0 emptiness vs our arithmetic
+period-value non-overlap — two independent walls, both confirming structure-not-values). SEAM-A (the
+prize) = **INDETERMINATE, leaning MISMATCH** — Gate 1 (codex's ζ₁₂=K(√3) ring class field) met, **Gate 2
+(cc3's full arithmetic-CS action of m004) the missing gate**; the √3 hinge banked as a real
+finite↔archimedean pairing over K, but not the heterotic axiom collapsing. The one live crossing is
+SEAM-A's Gate 2 (NEEDS-SPECIALIST).
+
+**5. The provenance debt (window-level).** Both seams' codex gate-material lives **off-branch and
+unversioned** (`~/oa-audit-seat/`, not a git repo) — the verdicts were grounded in committed sources and
+do not lean on it, but this is a real single-homed debt (L181/L183). Carried R49-1.
+
+### Action items (Review 49)
+- [x] R49-0: **B8141 the artifact class harvested + fixed** — 5 harvest tests rerouted from the gitignored
+  reproduce.log to the committed runner; the fix regression-safe (suite green this review).
+- [ ] R49-1: **codex's primary derivations are off-branch/unversioned** (`~/oa-audit-seat/`: the height-308
+  up-Yukawa proof for SEAM-Y, the ζ₁₂/dP₆ construction for SEAM-A) → relay to codex to **commit them to
+  `origin/codex/seat-r001`** (the seam verdicts need on-branch evidence to seal; single-homed debt).
+- [ ] R49-2: **SEAM-A Gate 2 — cc3's full Kim-style arithmetic-CS ACTION of m004 on ℚ(√−3)** (not just
+  B708's linking form / B800's unnormalized Habiro series) → the one live crossing, NEEDS-SPECIALIST
+  (relay to cc3). Its resolution seals SEAM-A (MATCH vs the leaning MISMATCH).
+- [ ] R49-3: **L184 — the suite collection lazy-fy** (the root cost fix behind the fast lane; collection
+  alone >120 s) — name + de-lazy the slowest module-level importers so even the full suite collects fast.
+- [ ] R49-4: **L183 — the reproducer sweep** (cc3's cross-band ask): enumerate arcs banked as results with
+  no runnable reproducer in the tree; list the gaps as debts.
+- [>] R49-5: R48-2 carried — cc3's golden-meridian refinement (B8124/B8126) verify + scope T-GOLDEN-MERIDIAN.
+- [ ] R49-6: a COLD fresh-eyes pass over B1135–B1155 (this review was HOT) — available at the owner's word.
+- [>] R49-7: R48-11 carried — **PAPERS**: relay the carrier/coupling harvest + C4's superposition + the two
+  seams to cc3's paper assembly (structure complete; values disjoint on periods AND regulators; up-Yukawa
+  a distinct cohomological wall; SEAM-A the honest open crossing).
+
+anchor-commit: `29b09993` (the two-seams bank, this window's last substantive commit before the review)
