@@ -1,0 +1,29 @@
+{
+ "id": "B1152",
+ "title": "THE COST FAILURE CLASS (harvest of cc3's B8139) + the fast lane: a lock never REACHED catches nothing — main audited clean of the drift, and the suite given an inner-loop lane so the class stops recurring",
+ "verdict": "PROVED",
+ "harvest_source": "cc3 B8139 (paper/structure-genesis-first @ 1f455266), integrate-don't-merge",
+ "the_finding_harvested": "cc3 named a NEW failure class -- 'cost': a lock that exists, works, and was never weakened, but is never REACHED because the suite is too expensive to run (their suite: 1038 files / 4528 tests, 421 s to COLLECT alone; two background runs killed by timeout). The concrete drift it let through: cc3's seat stopped writing FINDINGS.md at B8110 and it ran unbroken for 16 arcs / 5 days. Every remedy for a missing/weak/silent check is useless against cost. It surfaced only because cc3 read a run KILLED at 73% -- 'a killed run is not a run that told you nothing' (the same discipline that saved this seat's C4 partial reads).",
+ "main_band_audit": {
+  "scope": "1043 arc_verdict.json on main, the 4 drift classes cc3 found",
+  "findings_completeness": "CLEAN -- every arc carries FINDINGS.md except B519 (RETRACTED), which records its result in VERDICT.md, a convention already LOCKED on main (test_b810_wave1 accepts FINDINGS.md OR VERDICT.md; test_b826/b819/b817/b818). Not drift.",
+  "instrument_bool": "CLEAN -- 0 arcs carry instrument as a string (all bool)",
+  "verdict_vocabulary": "CLEAN -- 0 verdicts outside {PROVED, NEGATIVE, OPEN, RETRACTED}",
+  "negative_routing": "CLEAN -- 0 unrouted NEGATIVE arcs (B1151 routed this cycle)",
+  "conclusion": "cc3's drift was BAND-LOCAL. Main held -- because main's suite GETS RUN each bank while cc3's does not complete. Same trajectory though: main's collection alone is already >120 s (this seat hit it: a --co run timed out at 120 s this session; a full run is ~22 min), and this seat already had to green a tree by input-change analysis rather than a clean re-run. Preventive, not just curative."
+ },
+ "cost_diagnosis": {
+  "single_file_collect": "1.17 s (fixed conftest/plugin overhead is LOW)",
+  "full_collect": ">120 s (a --co run timed out) -- so the cost is import-time work SPREAD across many test modules (module-level compute), not fixed overhead",
+  "mechanism": "pytest imports EVERY test module before running any test (documented in tests/conftest.py, the R22-4 module-level-dps sweep). Module-level computation in test files therefore runs at COLLECTION, and its sum is the collection cost. `-m 'not slow'` cannot help collection (the modules still import).",
+  "per_file_breakdown": "the single-file collect (1.17 s) vs the full collect (>120 s) already establishes the cost is SPREAD across many module-level importers; a per-file breakdown to NAME the worst offenders is the first step of the L184 root-fix follow-up"
+ },
+ "remedy": {
+  "slow_marker": "registered the `slow` pytest marker (tests/conftest.py pytest_configure) -- kills the UnknownMark warning and enables `-m 'not slow'` to skip expensive tests at EXECUTION time",
+  "changed_file_selector": "scripts/affected_tests.py -- maps the working-tree (or a diff range) to ONLY the affected test files, so pytest collects a handful in seconds. CONSERVATIVE: any change it cannot bound (scripts code, conftest, unknown) falls back to the FULL suite -- never a false green. Validated: a typical bank (frontier arc + CHANGELOG/PROGRESS/RELAY + views) maps to 49 test files INCLUDING the corpus-aggregate + gate tests (test_repo_gates, test_b833 negative-routing -- the very test that caught B1151's routing this cycle), not the full ~140.",
+  "runner_modes": "scripts/run_suite.sh gains --changed (the selector) and --fast (-m 'not slow'); --serial/full stay the certificate of record.",
+  "not_fixed": "the ROOT collection cost is not yet fixed -- the selector AVOIDS it for the inner loop; a lazy-fy of the slowest module-level importers (moving compute into fixtures/functions) so even the FULL suite collects fast is the named follow-up (L-registered)."
+ },
+ "fences": "This is a METHOD/tooling bank, no mathematics. The full suite remains the certificate of record (the ARBITER RULE / B1018 stands); the fast lane is the inner loop, not a replacement for the pre-commit certificate. The selector's safety is its FULL fallback -- it is only ever a SUPERSET-or-FULL selector, proven by test. cc3 credited (the finding + the name). The email-on-a-public-surface flag cc3 raised (SUBMISSION_METADATA.md) is on THEIR branch and is the OWNER's decision -- surfaced, not touched here.",
+ "gate5": "n/a (test infrastructure)"
+}

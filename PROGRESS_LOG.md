@@ -11369,3 +11369,21 @@ test_b1151_gue_larget.py.
 and the relay ledger are corrected to 981f4c33. No content was single-homed -- reachable at 981f4c33
 on origin + codeberg (the outside-bench mirror fast-forwarded). Caught by the post-push provenance
 check; the append-only logs keep their original text with this stamp.
+
+**2026-08-26 — THE COST FAILURE CLASS + THE FAST LANE (B1152).** Harvest of cc3's B8139
+(paper/structure-genesis-first 1f455266, integrate-don't-merge): cc3 named the 'cost' failure class --
+a lock that works, was never weakened, but is NEVER RUN because the suite is too expensive to reach it
+(their 4528-test suite takes 421s to COLLECT; runs killed by timeout); missing-FINDINGS drift ran 16
+arcs/5 days behind it. MAIN-BAND AUDIT (1043 arc_verdicts): CLEAN of all 4 drift classes (FINDINGS --
+B519 RETRACTED uses VERDICT.md, a convention already locked; instrument-bool; verdict vocabulary;
+negative routing 0 unrouted). cc3's drift band-local; main held because its suite gets RUN each bank,
+but main is on the same trajectory (collection >120s, full ~22min; this seat greened a tree by
+input-change analysis this session). REMEDY: the slow marker; scripts/affected_tests.py (a CONSERVATIVE
+changed-file selector -- a typical bank -> ~49 tests incl. the gate + negative-routing aggregates that
+caught B1151's routing; any unbounded change -> FULL fallback, never a false green); run_suite.sh
+--changed/--fast. Cost mechanism: pytest imports every test module before running any test, so
+module-level compute IS collection cost (-m 'not slow' cannot shrink it; single-file collect 1.17s vs
+full >120s = spread across files). E50 registered; the root lazy-fy of slow importers = L184. The full
+suite stays the certificate of record. cc3's email-on-a-public-surface flag (SUBMISSION_METADATA.md,
+their branch, deliberate arXiv act vs a standing lock) surfaced to the owner, not touched. Lock
+test_b1152_suite_cost_class.py.

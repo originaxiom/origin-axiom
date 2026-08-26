@@ -49,6 +49,7 @@ auditable in a way a passing threshold never was.
 | `B1078` | GAP | the gauge-selection layer (2026-08-19) — the lexicon has no term for denominator-purity, the closed λ-spectrum, or class-level selection; a real object topic the vocabulary misses (the observation's own grammar: the value-prime shape as a selector) |
 | `B1080` | GAP | the global-form layer (2026-08-19) — the lexicon has no term for center/fundamental-group quotients, Γ = ℤ/6 as the forced global structure, or charge-lattice-vs-center arithmetic; a real object topic the vocabulary misses (the arc's own finding: the quotient is uniform across the menu, B862's local fact made global) |
 | `B1092` | GAP | the spinor/purity layer (2026-08-20) — the lexicon has no term for pure spinors, the spinor variety 𝕊₁₀, parabolic stabilizers, or purity-as-selection; a real object topic the vocabulary misses (the arc's own finding: purity is the unique rank-preserving condition on the second VEV — the rank wall's sharpest reduction speaks a vocabulary the atlas predates) |
+| `B1152` | INSTRUMENT | THE COST FAILURE CLASS + the fast lane (2026-08-26, harvest of cc3's B8139): the suite's own runnability — a lock never *reached* catches nothing, the changed-file test selector, the `slow` marker, the main-band drift audit. About the repository's own test machinery; an OBJECT atlas is correct to miss it. |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 

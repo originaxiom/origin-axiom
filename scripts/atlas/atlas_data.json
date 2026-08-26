@@ -3130,6 +3130,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1152": {
+   "slug": "suite cost class",
+   "motifs": [],
+   "refs": [
+    "B519"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B115": {
    "slug": "higher generality",
    "motifs": [

@@ -13,6 +13,19 @@ cross test boundaries.
 import mpmath as mp
 import pytest
 
+
+def pytest_configure(config):
+    # Register the `slow` marker (B1152, harvesting cc3's B8139 "cost failure class"):
+    # expensive compute/high-precision tests carry @pytest.mark.slow so the fast lane
+    # (scripts/run_suite.sh --fast, `-m "not slow"`) can skip them at EXECUTION time.
+    # NB: this does not shrink COLLECTION cost (pytest imports every module first) --
+    # the changed-file selector (scripts/affected_tests.py) is what avoids collection.
+    config.addinivalue_line(
+        "markers",
+        "slow: expensive test (heavy compute / high precision); excluded from the fast lane, "
+        "run in the full certificate-of-record suite",
+    )
+
 # The E12 COLLECTION-TIME variant (B666 cell 5, repaired suite-wide by the
 # R22-4 module-level-dps sweep): pytest imports every test module before any
 # test runs, so a module-level mp.mp.dps assignment leaks to every later import

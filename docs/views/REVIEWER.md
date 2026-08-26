@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1055** |
-| words of findings prose | **716,452** |
-| test lock files referenced | **661** |
-| arcs carrying an authored verdict | **1042** (98.8 %) |
+| research arcs with findings | **1056** |
+| words of findings prose | **717,243** |
+| test lock files referenced | **662** |
+| arcs carrying an authored verdict | **1043** (98.8 %) |
 | recorded closures | **764** (597 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 705 |
+| PROVED | 706 |
 | NEGATIVE | 291 |
 | OPEN | 36 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1150`** (792 words, 1 locks)  
-THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA: cloud memos 52-53 (origin/outside-bench 981f4c33) verified by REPRODUCTION -- both self-contained stdlib-exact certs re-run on this bench's pyenv exit rc=0 (every claim a preregistered assert) and reproduce byte-identical; PLUS memo 53's FACT 7 independently sympy-confirmed. memo 52 THE YUKAWA READS THE CLOCK: the unique coupling Y=eps(x)C (memo 48) is supported on EXACTLY the 7 sl2-allowed depth blocks of the meridian's Jordan grading (memo 50) and identically zero on all 11 forbidden blocks (exhaustive exact computation, not cited); every nonzero block has ODD total chain length (the depth-refinement of memo 47's lock rule); NOT a tautology (invariance forces the forbidden to vanish, not the allowed to survive) -- the preregistered cell landed on the representation-theoretic MAXIMUM, the coupling as connected as the symmetry permits (depth-3 matter self-couples through internal singlets, matter-to-unlocked through doublets); closes the quartet memos 49-52. memo 53 THE THREE-FAMILY YUKAWA (POSSIBILITY-SPACE cell, E8 NOT object-paid): golden_gate G-3's three copies of the 27 in E8 (the fourth-A2 triplet = 'three families') carry an E8-induced Yukawa = eps_family (x) C_Jordan exactly -- the 270 zero-sum triples all have three DISTINCT family weights (same-family zero-sum triple does not exist; decided at the root-lattice level), the gauge-corrected form (GF(2) solve, 270 eqns rank 97) is eps_family (x) C_sym on all 1620 entries with C_sym = the Jordan cubic (memo 48 dim-1), and the family factor is forced too (dim Inv_sl3(3x3x3)=1 antisymmetric = eps, independently sympy-confirmed) => SAME-FAMILY (diagonal) Yukawa couplings vanish identically, absent already at the root-lattice level (off-diagonal inter-family texture; diagonal masses would come from outside this channel). [machine-caught error #4 filed: raw-symmetry preregistration failed -> sign gauge proved constructively.] Convergences: memo 52 = depth-refinement of memo 47/50; memo 53's C_sym = memo 48's unique cubic reappearing inside E8; the combined exchange sign eps_spin x eps_family x C = symmetric. Fences: kinematics/algebra ONLY (the certs state no bundle/Dirac/field/value/dynamics); memo 53 is POSSIBILITY-SPACE (E8 not object-paid, G-3's fence stands); load-bearing E8 construction reproduce-verified + internally self-checked (Killing invariance generator-by-generator) and flagged for independent re-derivation, FACT 7 already sympy-confirmed. Primary source shared-remote. Cloud seat credited. Gate 5 untouched.  
-`B1150_yukawa_clock_and_family/FINDINGS.md`
+**PROVED — `B1152`** (791 words, 1 locks)  
+THE COST FAILURE CLASS (harvest of cc3's B8139, paper/structure-genesis-first 1f455266, integrate-don't-merge) + THE FAST LANE. cc3 named a new failure class -- 'cost': a lock that works and was never weakened but is never REACHED because the suite is too expensive to run (their 4528-test suite takes 421 s just to COLLECT; runs killed by timeout), which let 16 arcs / 5 days of missing-FINDINGS drift through in their band. MAIN-BAND AUDIT over 1043 arc_verdicts: CLEAN of all four drift classes cc3 found -- FINDINGS completeness (B519 RETRACTED legitimately uses VERDICT.md, a convention already locked by test_b810/b826/b819), instrument-is-bool (0 string), verdict vocabulary (0 off the sealed 4), negative routing (0 unrouted; B1151 routed this cycle). cc3's drift was BAND-LOCAL; main held because main's suite gets RUN each bank -- but main is on the same trajectory (collection alone already >120 s, full run ~22 min; this seat greened a tree by input-change analysis this session). REMEDY: (1) registered the `slow` marker (tests/conftest.py) for `-m 'not slow'`; (2) scripts/affected_tests.py -- a CONSERVATIVE changed-file test selector that runs only the affected tests (a typical bank maps to 49 files incl. the gate + negative-routing aggregates, not the full ~140) and falls back to the FULL suite on any unbounded change, never a false green; (3) scripts/run_suite.sh --changed / --fast. Cost mechanism: pytest imports every test module before running any test, so module-level compute is collection cost (`-m 'not slow'` cannot shrink it); the root lazy-fy of the slowest importers is the named follow-up. Fences: method/tooling only, no math; the full suite stays the certificate of record; cc3 credited; cc3's email-on-a-public-surface flag (SUBMISSION_METADATA.md, their branch) surfaced to the OWNER, not touched. Gate 5 n/a.  
+`B1152_suite_cost_class/FINDINGS.md`
 
 **NEGATIVE — `B1151`** (656 words, 1 locks)  
 THE LARGE-T GUE TEST (C4, the cloud's preregistered cell c4_gue_larget.py run on our i9 at T=3000, 5459 merged zeros): the preregistered single-GUE gate is NOT MET -- GUE-consistent required p_GUE>0.01 but KS vs the GUE Wigner surmise gives D=0.13365 p=2.2e-85 (Poisson also rejected, D=0.156 p=2e-116; GUE closer than Poisson, D_GUE<D_Poisson; density gate PASSED exactly, 5459 vs 5458.0, |diff|=1.0<O(log T)=8; unfolded mean spacing 1.000072). HONEST NEGATIVE, banked as the preregistered outcome. The DISCRIMINATING computation (verification/gue_analysis.py, per-factor Weyl unfolding + KS on the committed raw zeros) locates the deviation: zeta alone D=0.040, L(chi_-3) alone D=0.049 -- the merged D=0.134 is ~3x each factor, so the non-GUE-ness lives in the MERGE. zeta_K = zeta * L(chi_-3) is a product L-function (the field Q(sqrt-3)'s Dedekind zeta, B737); its zeros are the UNION of two independent GUE spectra, which do not cross-repel -- the textbook 2-fold GUE SUPERPOSITION, which rejects single-GUE (excess small spacings) while Poisson stays rejected (each factor keeps its repulsion). The failure mode the handoff flagged as interesting (the density gate) PASSED; it is the spacing that carries the two-spectra structure. Fences: GUE is GENERIC (B1142) -- certifies the universality class at scale, never object-specificity; the superposition is likewise generic for any product of two L-functions; the per-factor ~0.04 residual is consistent with the Wigner-surmise-vs-exact-GUE gap + leading-order unfolding (clean confirmation = the Gaudin-distribution follow-up); no firewall crossing; Gate 5 untouched. Two-bench, owner-approved compute split; cloud seat credited. Raw zeros (the ~1.7h scan) committed for cheap re-analysis.  

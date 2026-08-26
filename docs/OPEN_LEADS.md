@@ -2012,3 +2012,14 @@ on a remote" but "can it be re-run at all." Cheap to enumerate; each gap is then
 re-derivation task. ★★★ (reproducibility hygiene; the paper lane makes it load-bearing). Note:
 this seat's recent band (B1143–B1148) ships reproducers — B1148 8/8, B1146 `seam_b.py`, B1145
 `sp2_independent.py` — so the sweep's yield is expected in older arcs.
+
+## L184 — THE SUITE COLLECTION LAZY-FY: make even the FULL suite collect fast (registered 2026-08-26, B1152; the root fix behind the fast-lane remedy)
+
+B1152 gave the inner loop a changed-file fast lane, but the **root** cost stands: pytest imports every
+test module before running any test, so module-level computation in test files runs at **collection**,
+and the sum is **>120 s** on main (cc3: 421 s). The cell: identify the slowest module-level importers
+(a per-file collection sweep names them) and move their compute into fixtures / functions (lazy), so
+collection drops to seconds and even the full certificate-of-record suite becomes routinely runnable.
+Mechanical, per-file, **test-outcome-preserving** (each file's own tests re-run to confirm). Closes the
+**E50** cost class at the root rather than only routing around it. ★★★ (program health — a suite that
+gets run is the only lock that catches anything).

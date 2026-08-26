@@ -1,5 +1,25 @@
 # Changelog
 
+## THE COST FAILURE CLASS + THE FAST LANE (B1152, 2026-08-26): harvest of cc3's B8139 — a lock never *reached* catches nothing; main audited clean, the suite given an inner-loop lane
+
+cc3's **B8139** (`paper/structure-genesis-first` `1f455266`, integrate-don't-merge) named a failure
+class the usual defences miss — **cost**: a lock that works and was never weakened but is *never
+reached* because the suite is too expensive to run (their 4528-test suite: **421 s to collect**; runs
+killed by timeout), which let missing-FINDINGS drift run **16 arcs / 5 days** in their band.
+- **Main-band audit** (1043 arc_verdicts): **clean** of all four drift classes — FINDINGS (B519
+  RETRACTED legitimately uses `VERDICT.md`, already locked), instrument-bool, verdict vocabulary,
+  negative routing. cc3's drift was band-local; main held because its suite gets *run* each bank — but
+  main is on the same trajectory (collection alone >120 s, full run ~22 min).
+- **Remedy:** the `slow` marker (`-m "not slow"`), a **conservative changed-file selector**
+  (`scripts/affected_tests.py` — a bank maps to ~49 tests incl. the gate + negative-routing
+  aggregates that caught B1151; any unbounded change falls back to the **FULL** suite, never a false
+  green), and `scripts/run_suite.sh --changed / --fast`. The full suite stays the certificate of record.
+- **E50** registered (the cost class); the root lazy-fy of slow importers = **L184** (follow-up).
+
+**⚠ Surfaced to the owner, not touched:** cc3 also flags the owner's personal email on
+`SUBMISSION_METADATA.md` (public, their branch, a deliberate arXiv act vs a standing email-privacy
+lock) — the owner's decision. Lock `test_b1152_suite_cost_class.py`.
+
 ## PROVENANCE CORRECTION (2026-08-26): B1150's primary-source hash
 
 The B1150 entry below cites the cloud primary-source hash as `1544989d` — that is **memo 51's** tip
