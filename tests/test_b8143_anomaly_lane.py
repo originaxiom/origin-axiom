@@ -69,3 +69,18 @@ def test_the_decisive_question_is_posed_and_not_answered():
     q = R["the_decisive_open_question"]
     assert "realisable inside the object's 27" in q["statement"]
     assert "not done" in q["not_attempted_here"]
+
+
+def test_the_forcing_is_generic_not_object_specific():
+    g = R["step6_how_much_is_object_specific"]
+    assert g["object_tokens_in_executable_code"].startswith("NONE")
+    assert "ARENA" in g["conclusion"] and "CONTENT" in g["conclusion"]
+    assert "not evidence FOR the object" in g["why_it_matters"]
+
+def test_the_one_prose_hit_is_disclosed_not_swept():
+    g = R["step6_how_much_is_object_specific"]
+    assert "COMMENT" in g["the_one_prose_hit"]
+    assert "my own control fired on it" in g["the_one_prose_hit"]
+
+def test_no_novelty_is_claimed_for_the_uniqueness():
+    assert R["step6_how_much_is_object_specific"]["novelty"].startswith("NONE CLAIMED")

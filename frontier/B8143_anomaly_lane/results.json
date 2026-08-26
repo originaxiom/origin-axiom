@@ -61,6 +61,23 @@
   },
   "what": "B1160 fences 'the SM-shaping is observer-paid'. Tested whether the shape is forced."
  },
+ "step6_how_much_is_object_specific": {
+  "conclusion": "the CHARGES are forced generically (B1160 says so itself: 'standard GUT model-building'); the SHAPE is forced generically too (this arc). Neither is object-specific. What IS object-specific is only that the object supplies a rank-3 abelian sector in which an SM-shaped 15-plet is AVAILABLE. THE OBJECT SUPPLIES THE ARENA; THE ANOMALIES SUPPLY THE CONTENT.",
+  "inputs_consumed": [
+   "the gauge group SU(3)xSU(2)xU(1)",
+   "a list of small reps",
+   "the five anomaly conditions incl [SU(3)]^3",
+   "the Witten parity condition",
+   "the rigidity threshold n=5, a dimension count",
+   "a chirality convention (no sterile field)"
+  ],
+  "not_a_refutation": "B1160 fences this itself ('the anomaly->hypercharge fact is standard'). This quantifies the fence and extends it from the charges to the shape.",
+  "novelty": "NONE CLAIMED for the uniqueness result, which is very likely known in the model-building literature. The claim is the scoping conclusion only.",
+  "object_tokens_in_executable_code": "NONE -- no E6, no 27, no m004, no trace field, no roots or weights enters any equation",
+  "question": "the corrected result forces the SM shape AND charges. What input did that consume?",
+  "the_one_prose_hit": "'the 27' appears in a COMMENT explaining why I added (3,1) to the alphabet. The 27 is why I NOTICED that (3,1) differs from (3bar,1) -- which is exactly what surfaced my missing [SU(3)]^3 condition. It is not a term in any equation, the alphabet is the generic small-rep list, and the extended alphabets go beyond the 27. Recorded because my own control fired on it.",
+  "why_it_matters": "a result that comes out identically for anyone starting from SU(3)xSU(2)xU(1) CORROBORATES the Standard Model but is not evidence FOR the object. This is the B996 lesson -- 'reaching E6 is generic; specialness lives in the grammar' -- one level further down, now at the matter content."
+ },
  "the_decisive_open_question": {
   "if_no": "the 27's own content plus anomalies TOGETHER force the SM shape, which is a STRONGER result than B1160 and would move the shaping from observer-paid to object-forced",
   "if_yes": "the object does NOT force the SM shape, and the hypercharge claim is weaker than the headline reads -- the shaping carries the content",

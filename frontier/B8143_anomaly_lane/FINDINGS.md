@@ -125,3 +125,37 @@ have the 27's trinification decomposition in hand.
 - **Not claimed:** that B1160 is wrong — its core theorem is reproduced exactly and is correct.
 - **Not claimed:** novelty for the anomaly-forces-hypercharge fact, which B1160 itself labels standard.
 - **Not claimed:** that the 13-state content is realisable in the 27. That is the open question.
+
+---
+
+## Step 6 — how much of "hypercharge falls out" is object-specific?
+
+The corrected result forces the SM **shape and charges**. So: what input did that consume?
+
+**Everything it used:** the gauge group `SU(3)×SU(2)×U(1)`; a list of small reps; the five anomaly
+conditions including `[SU(3)]³`; the Witten parity condition; the rigidity threshold `n = 5` (a
+dimension count); a chirality convention.
+
+**Object-specific tokens in executable code — `E₆`, the `27`, `m004`, the trace field, roots,
+weights: NONE.** One token appears in *prose*: a comment noting that the 27 contains `(3,1)`. **That
+is why I noticed `(3,1)` differs from `(3̄,1)` — which is exactly what surfaced my missing `[SU(3)]³`
+condition — but it is not a term in any equation**, the alphabet is the generic small-rep list, and
+the extended alphabets go beyond the 27. Recorded because my own control fired on it.
+
+> **The charges are forced generically** — B1160 says so itself (*"standard GUT model-building"*).
+> **The shape is forced generically too** — this arc. **Neither is object-specific.** What *is*
+> object-specific is only that the object supplies a rank-3 abelian sector in which an SM-shaped
+> 15-plet is **available**.
+>
+> **The object supplies the arena. The anomalies supply the content.**
+
+**Why it matters:** a result that comes out identically for anyone starting from `SU(3)×SU(2)×U(1)`
+**corroborates the Standard Model but is not evidence *for* the object.** This is the B996 lesson —
+*"reaching E₆ is generic; specialness lives in the grammar"* — one level further down, now at the
+matter content.
+
+**Not a refutation.** B1160 fences this itself. This quantifies the fence, and extends it from the
+charges to the shape.
+
+**Novelty: none claimed** for the uniqueness result, which is very likely known in the model-building
+literature. The claim is the scoping conclusion only.

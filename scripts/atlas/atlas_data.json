@@ -19396,6 +19396,8 @@
   "B8143": {
    "slug": "anomaly lane",
    "motifs": [
+    "figure_eight",
+    "eisenstein",
     "z3_generation",
     "amphichiral_cp",
     "wrt_quantum"
@@ -19403,12 +19405,13 @@
    "refs": [
     "B864",
     "B950",
+    "B996",
     "L132"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 6,
    "status": "dead",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B814": {
    "slug": "gate d",
