@@ -1,5 +1,27 @@
 # Changelog
 
+## B1160 (2026-08-26): hypercharge falls out — the object's integer anomaly arithmetic forces the SM hypercharge (cloud memo 70 / L132, verified)
+
+Cloud executed L132 (registered by B950) and banked memo 70 — "the biggest single link-payment the chain
+has received." Owner forwarded it with the directive "always verify," and the load-bearing theorem is
+**re-derived independently on-bench** (`reproduce.sh` → REPRODUCES): on an SM-shaped 15-plet drawn from the
+27, the four anomaly conditions ([SU(3)]²Y, [SU(2)]²Y, grav²Y, [Y]³) force the hypercharge to the **SM
+direction, unique up to scale and u^c↔d^c, zero non-SM** — the three linear conditions cut the charge space
+to a line, and the cubic factors to **−18(t−3)(t+3)** → t=±3 only → exactly (1,−4,2,−3,6) and its u^c↔d^c
+relabel. Cloud realized this in the object's rank-3 abelian sector (the trinification frame — three
+orthogonal A₂s among the 72 e₆ roots, abelian complement dim exactly 3 = B892's 8+3+3): **36 assignments,
+all SM, zero non-SM, a second frame identical.**
+
+**Honest scope:** this pays the hypercharge link down from *"the whole embedding is observer-paid"* to *"the
+**existence** of an embedding is observer-paid; its **content** is forced by integer arithmetic"* — sharpens
+**B1159 link C** (the character alphabet *and* the hypercharge direction are now object-forced). It does
+**not** pay the frame existence or the SM-shaping (observer inputs); the anomaly→hypercharge fact is standard
+GUT model-building, and the object-specific content is that the object's u(1)³ realizes it and *only* it.
+**Firewall:** B950 typed L132 as structure, not value-matching (the SM hypercharge *ratios* are
+anomaly-derived structure, not measured numbers) — Gate 5 clean. Cloud's object-specific cert needs cloud's
+stack (cited); the theorem is own-verified. Cloud credited. No firewall crossing. Locks
+`tests/test_b1160_hypercharge_forced.py`.
+
 ## B1159 (2026-08-26): the object→MSSM debt-map (WF-3) — every condition typed + verified; the chain is NOT object-forced end-to-end, and SEAM-A is a wall
 
 The owner approved "pay codex's conditional debt and have the chain to MSSM," then pressed the sharper

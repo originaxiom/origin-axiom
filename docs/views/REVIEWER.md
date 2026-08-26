@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1063** |
-| words of findings prose | **723,672** |
-| test lock files referenced | **668** |
-| arcs carrying an authored verdict | **1050** (98.8 %) |
+| research arcs with findings | **1064** |
+| words of findings prose | **724,465** |
+| test lock files referenced | **669** |
+| arcs carrying an authored verdict | **1051** (98.8 %) |
 | recorded closures | **765** (598 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 708 |
+| PROVED | 709 |
 | NEGATIVE | 292 |
 | OPEN | 40 |
 | RETRACTED | 10 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1154`** (669 words, 1 locks)  
-SEAM-Y RESOLVED = MISMATCH (the sealed grammar's second outcome: two independent walls, both confirming structure-not-values). The seam asked whether codex's exact up-type-Yukawa=0 is the SAME fact as our period-value disjointness. It is NOT: codex's mu_u=0 is a COHOMOLOGICAL vanishing -- the cup product mu_u=<i(a) cup i(b),c> is forced to zero by H^1(X,G_X)=0 (i is the zero map), a rank-0 EMPTINESS that is field-independent and contains no SM number, no PSLQ, no regulator (codex: 'an identity of cohomology classes, not... one arithmetic point'; the Q(zeta_12) arithmetic only SELECTS which class is H_u); our wall is an ARITHMETIC NON-OVERLAP -- the object's period/regulator Q-algebra over Q(sqrt-3)/Q(sqrt5) contains no SM value-ratio (B1137: 0/18 targets, null base rate 0.0, PSLQ 60+ dps; regulators computed with no SM input), a statement about numbers that REQUIRES the SM target list. The discriminator: emptiness != non-overlap; the two walls share zero common data and no bridge object (codex's mu_u is not among our sealed periods; no object period enters codex's H^3(O_Y); disjoint geometries). Both nonetheless confirm the ONE thesis -- the object supplies structure, not the SM's values -- so this banks as TWO-ROUTES-ONE-VERDICT (independent confirmation). Grounded in COMMITTED sources (our banked B1124-B1137 wall + codex's on-branch one-line claim + the B774 structural cup cell). PROVENANCE DEBT flagged: codex's PRIMARY height-308 derivation is off-branch and unversioned (~/oa-audit-seat/, not a git repo) -- the verdict rests on the KIND-difference (robust regardless) and does not lean on it; codex should commit it. The prereg's MATCH->cc3-third-opinion rule does not trigger (MISMATCH). Gate 5 untouched.  
-`B1154_seam_y/FINDINGS.md`
+**PROVED — `B1160`** (793 words, 1 locks)  
+Hypercharge falls out (cloud memo 70 / L132, verified): on an SM-shaped 15-plet drawn from the 27, the four anomaly conditions ([SU3]^2 Y, [SU2]^2 Y, grav^2 Y, [Y]^3) force the hypercharge to the SM direction, UNIQUE up to overall scale and the uc<->dc relabeling, ZERO non-SM solutions. Re-derived independently on-bench (reproduce.sh -> REPRODUCES): the 3 linear conditions cut the 5-dim charge space to a line (Yl=-3Yq, Ye=6Yq, Yu+Yd=-2Yq), and the cubic [Y]^3 factors to -18(t-3)(t+3) (Yq=1, Yu=-1+t) => t=+-3 only => exactly (1,-4,2,-3,6) [SM] and (1,2,-4,-3,6) [SM with uc<->dc]. Cloud realized this in the object's rank-3 abelian sector (trinification frame: 3 orthogonal A2s in the 72 e6 roots, abelian complement dim exactly 3 = B892's 8+3+3=14): 36 SM-shaped assignments, ALL SM, zero non-SM, each unique up to scale, a second frame identical. SCOPE (honest): this pays down the hypercharge link from 'the whole embedding is observer-paid' to 'the EXISTENCE of an embedding is observer-paid; its CONTENT is forced by integer arithmetic' -- sharpens B1159 link C (hypercharge content forced). It does NOT pay the frame existence or the SM-shaping (observer-chosen); the anomaly->hypercharge fact is standard GUT model-building, the object-specific content is that the object's u(1)^3 REALIZES it and ONLY it. FIREWALL: B950 registered L132 as STRUCTURE not value-matching (the SM hypercharge RATIOS are group-theoretic/anomaly-DERIVED structure, not measured numbers) -- Gate 5 clean, no measured value asserted as derived. Cloud's object-specific cert (l132_trinification.py) needs cloud's stack (CITED); the load-bearing theorem is own-verified. Cloud credited; object-specific realization single-homed on cloud's branch (provenance debt).  
+`B1160_hypercharge_forced/FINDINGS.md`
 
 **NEGATIVE — `B1157`** (923 words, 1 locks)  
 WF-2 (the dynamics; the masterplan's 2nd workflow, 8 agents), sealed DECIDABLE-RESULT, banked as a productive NEGATIVE. THE FIREWALL VERDICT: the object supplies NO parameter-free dynamical law at the archimedean infinity-place -- STRUCTURAL RHYME (L46 upheld). cc3's B8142 tempting reading ('the graviton's factors sit inside the analytic torsion') does NOT cross: (a) it is a rep-label (the top SO(3) weight of Sym^{2m}), no graviton DYNAMICS (no propagator/kinetic/Ward/S-matrix; Ruelle zeta = topological BF has no propagating graviton); (b) every load-bearing ingredient -- the Sym-power factorization R_{rho(m)}(s)=prod_{j=-m}^m R(s-j,sigma_j), H1=H2=#cusps, the exp(-4Vol/pi) damping -- is GENERIC to all finite-volume hyperbolic 3-manifolds, uses only SL(2,C) holonomy + volume, and NEVER touches the arithmetic (Q(sqrt-3), E6, xi=[e^{i pi/3}] in K_3(Q(sqrt-3))); the whole story survives swapping m004 for a non-arithmetic knot verbatim (the B996 'reaching E6 is generic' lesson at the infinity-place). The Vol 'coincidence' (B1156 regulator = B8142b damping, both = 2.02988321281930725) is the tautology Vol(M)=Vol(M). THE DECIDABLE MATH RESULT (own-verified, useful to cc3): the one antecedent cc3 left open -- does Fried apply to rho(m)=Sym^{2m} on the CUSPED m004? -- is REFUTED for every m: H*(m004;Sym^{2m}C^2) is NEVER acyclic ((H0,H1,H2)=(1,1,0) at m=0, (0,1,1) for m>=1; peripheral T^2=(1,2,1)). Mechanism: Sym^{2m} of the parabolic peripheral holonomy is a single Jordan block => a 1-dim invariant line shared by mu,lambda => H0(T^2)=1, then half-lives-half-dies + chi_rho=0 force H1=H2=#cusps=1. Triply corroborated (deformation dim H1(M;Ad)=1; Menal-Ferrer-Porti even sym powers => H1=#cusps, banked B581; Fox calculus). => cc3's B8142b reflection STAYS CONDITIONAL (the closed-Fried route is refuted; the correct framework is cusped Park/Pfaff torsion). BANK-GRADE (cc3 B8142 credited): the Sym-power factorization, re-derived two ways + reproduced to |diff|<=5e-18. RELAYED to cc3 (verify-don't-trust catch): exact_check.py crashes at line 39 (sympy structural equality on unsimplified entries), non-fatal. Sharpened NEEDS-SPECIALIST: the order of vanishing in Cappell-Miller orthogonal torsion; the Park/Pfaff cusp correction = exp(-4mVol/pi) test; the s<->2-s functional equation. No firewall crossing; Gate 5 clean (no SM quantity).  

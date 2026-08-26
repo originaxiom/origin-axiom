@@ -18,6 +18,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1160 — hypercharge falls out; cloud memo 70 / L132, verified)**: cloud's biggest
+single link-payment, owner-forwarded "always verify." Load-bearing theorem re-derived independently on-bench:
+on an SM-shaped 15-plet the four anomaly conditions force the **SM hypercharge, unique up to scale + u^c↔d^c,
+zero non-SM** (the cubic factors to −18(t−3)(t+3) → t=±3 → (1,−4,2,−3,6) + relabel). Cloud realized it in the
+object's rank-3 abelian sector (trinification frame): **36 assignments, all SM, zero non-SM**. **Pays
+hypercharge CONTENT** — the link moves from "the whole embedding is observer-paid" to "the *existence* is
+observer-paid; its *content* is forced by integer arithmetic" (sharpens B1159 link C). Does NOT pay frame
+existence / SM-shaping; firewall-legal (B950: hypercharge ratios are derived structure, not measured) — Gate
+5 clean. Cloud credited. Locks test_b1160_hypercharge_forced.py.
+
 **LATEST (2026-08-26, B1159 — the object→MSSM debt-map (WF-3); SEAM-A is a wall)**: owner approved "pay
 codex's conditional debt, chain to MSSM" + pressed "SEAM-A is a wall, not a door?" — both answered. WF-3
 read codex's off-branch MSSM witness + re-derived the load-bearing algebra in-sandbox, typing every link

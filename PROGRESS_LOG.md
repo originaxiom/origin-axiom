@@ -11550,3 +11550,17 @@ object-intrinsic principle (derive the spectrum from E₆ + character rule as al
 SEAM-A as a wall (B1156, NEEDS-SPECIALIST → scoping/relay). Provenance debt D1/D2/D3 relayed to codex
 (commit the off-branch witness). No firewall crossing; Gate 5 clean. Locks
 `tests/test_b1159_mssm_debt_ledger.py` (10 tests).
+
+## 2026-08-26 — B1160: hypercharge falls out (cloud memo 70 / L132), verified
+
+Cloud banked memo 70 (7f4f6db7); owner forwarded it "always verify." Load-bearing theorem re-derived
+independently on-bench (`reproduce.sh` → REPRODUCES): on an SM-shaped 15-plet, the four anomaly conditions
+force the SM hypercharge, unique up to scale + u^c↔d^c, zero non-SM — the cubic factors to −18(t−3)(t+3) →
+t=±3 → (1,−4,2,−3,6) and its relabel. Cloud realized it in the object's rank-3 abelian sector
+(trinification frame): 36 assignments, all SM, zero non-SM, second frame identical. **Pays hypercharge
+CONTENT** (link from "whole embedding observer-paid" → "existence observer-paid, content forced by integer
+arithmetic"); sharpens B1159 link C (addendum). Does NOT pay frame existence / SM-shaping (observer inputs);
+anomaly→hypercharge is standard GUT, the object-specific content is realization+uniqueness in u(1)³.
+Firewall: B950 typed L132 as structure-not-value (hypercharge ratios are derived structure) — Gate 5 clean.
+Cloud credited; object cert cited (needs cloud's stack). Cloud follow-up flagged: L132 in B892's centralizer
+frame (two-frame corroboration). Locks `tests/test_b1160_hypercharge_forced.py` (6 tests).

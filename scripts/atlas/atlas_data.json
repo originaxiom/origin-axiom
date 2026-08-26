@@ -3312,6 +3312,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1160": {
+   "slug": "hypercharge forced",
+   "motifs": [
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B892",
+    "B950",
+    "L132"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [
