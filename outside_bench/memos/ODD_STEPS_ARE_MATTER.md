@@ -28,7 +28,7 @@ on the same 54-dimensional space — are they secretly the same structure?
   So the memo-46 lock bit equals the parity of the meridian-clock chain
   length, and **full depth 3 is reached only in the matter sector**.
 - **FACT D — the beat respects everything.** BtP = W⊗U₂₇ commutes with C_Ψ
-  exactly (C_Ψ is real diagonal, so the antiunitary β_Ψ = BtP∘conj preserves
+  exactly (C_Ψ is real diagonal, so the semilinear β_Ψ = BtP∘conj preserves
   both lock sectors), and β_Ψ ρ(a) β_Ψ⁻¹ = ρ(a) re-verified direct — every
   filtration layer ker N^k is beat-stable (dims 27 / 48 / 54).
 

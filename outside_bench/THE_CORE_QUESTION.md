@@ -35,9 +35,12 @@ that the benches producing this record have no analogous private fact: their
 entire state is the record.
 
 ### 4. The reflection–time relation
-(W∘conj)² = A (memos 16/28/45/46): the antiunitary square of the mirror is the
-elementary monodromy step, not a sign. In standard terms, where time-reversal
-squares to ±1, here the mirror squares to the tick. If a dynamics is ever
+(W∘conj)² = A (memos 16/28/45/46): the semilinear square of the mirror is the
+elementary monodromy step, not a sign. [Corrected 2026-08-26, codex OA-C1090:
+the mirror is Galois-semilinear, NOT antiunitary — no metric is constructed,
+and its unipotent square rules one out; the time-reversal analogy is therefore
+looser than this paragraph's original wording implied.] In standard terms,
+where time-reversal squares to ±1, here the mirror squares to the tick. If a dynamics is ever
 constructed in this framework, its time direction has a candidate origin already
 banked: iteration of the reflection. On the carrier, this square lands on the
 locked matter sector (memo 46). This is the record's most physically suggestive

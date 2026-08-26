@@ -36,6 +36,17 @@ the section a):
 > boundary-invisible mirror bit (memo 37). Every face of the record's ℤ/2 is now
 > exhibited as the SAME exchange, computed on the same page.**
 
+### CODEX ADDENDUM (adopted 2026-08-26, from codex Wave-3 OA-C1082 — a genuine counterexample)
+The codex seat refuted this memo's exhaustiveness phrasing ("the fixed locus …
+is a CONJUGATE PAIR"): **(0,0,0) is a further fixed point of the trace map on
+the same level-0 surface**, and it is a genuine SL2 character (U = diag(i,−i),
+V = [[0,1],[−1,0]], tr[U,V] = −2). Adopted at point of occurrence: this memo's
+exact claims (the pair exists, is fixed, is exchanged by the beat, has
+κ-conjugate coordinates) all stand; "the second" should have read "a second" —
+the pair is contained in, not equal to, the fixed locus. The COMPLETE fixed
+locus is computed exactly in memo 54, which also executes this memo's named
+one-line follow-up (the tr(ab⁻¹) = gal(κ) component question = codex OA-C1083).
+
 ### Fences
 Exact throughout; the fiber-basis choice (U = ba⁻¹, V = aUa⁻¹) is validated by its
 consequences in-run (φ-stability with an exactly matched substitution; boundary

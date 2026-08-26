@@ -26,7 +26,7 @@ the holonomy's own spin-½ go when it bridges into the algebra?
    doublets, or integer-spin content that has forgotten the fork entirely.
 3. **The spinor that remains.** The record's one spin-½ module is the holonomy's
    own ℂ² — the defining rep of the covering SL(2,ℂ). On it the beat acts
-   antilinearly, and its antiunitary square is **(W∘conj)² = W·conj(W) = A, the
+   antilinearly (Galois-semilinearly), and its square is **(W∘conj)² = W·conj(W) = A, the
    MERIDIAN** (re-verified) — a group element, not the ±1 of textbook
    time-reversal. The one spinor's kinematics is already fully banked (the census,
    the selection, the three derivations); what is new here is the exact statement
@@ -62,5 +62,5 @@ the meridian-squared beat is kinematics. Gate 5 untouched.
 Everything the algebra owns spins in whole numbers — exactly, in both modules, in
 every tensor of them — so the half-integer world can only ride on the object's own
 two-component holonomy, the single spinor in the record, on which the beat's
-antiunitary square is not plus-or-minus one but the meridian: the tick itself,
+semilinear square is not plus-or-minus one but the meridian: the tick itself,
 wearing the mirror.

@@ -1,4 +1,4 @@
-# THE CARRIER AND THE LOCK — Ψ = ℂ² ⊗ 27 is an exact π₁-module with 24 spinor×doublet slots, beat-closed with antiunitary square = the meridian; and its fermion-shaped sector is precisely where the spin-lift ambiguity cancels
+# THE CARRIER AND THE LOCK — Ψ = ℂ² ⊗ 27 is an exact π₁-module with 24 spinor×doublet slots, beat-closed with semilinear square = the meridian; and its fermion-shaped sector is precisely where the spin-lift ambiguity cancels
 ## (outside bench, 2026-08-25; forty-sixth memo; the carrier question of memo 45, answered at the kinematic level; every check direct on the 54×54 matrices, no factor-wise shortcuts)
 
 ### The cell
@@ -17,7 +17,8 @@ requirement the record can impose on it, and finds one it didn't ask for.
    — twenty-four spinor×doublet slots, the exact shape of chiral matter kinematics.
 3. **The beat closes on the carrier:** β_Ψ = (W ⊗ U₂₇)∘conj intertwines the diagonal
    action exactly — ρ(a) fixed, ρ(b) ↦ ρ(w(b)) — and **β_Ψ² = ρ_Ψ(a): the beat's
-   antiunitary square on the carrier is the meridian**, on the nose.
+   square on the carrier is the meridian**, on the nose. [Terminology corrected
+   2026-08-26: β_Ψ is Galois-SEMILINEAR; see the CODEX ADDENDUM below.]
 4. **THE LOCK (the unasked-for find):** the two spin lifts differ on Ψ by
    C_Ψ = (−I₂) ⊗ C₂₇ = diag((−1)^{1+wt}). This is **+1 on exactly the 24 doubly-odd
    states and −1 on the 30 others**: the lift-independent sector of the carrier IS
@@ -56,3 +57,21 @@ holonomy woven into the twenty-seven make a module where the relator closes, the
 beat squares to the meridian, and the twenty-four slots shaped like matter are
 exactly the ones on which the spin fork's ambiguity annihilates itself — the
 carrier exists, and it locks.
+
+### CODEX ADDENDUM (adopted 2026-08-26, from codex Wave-3 OA-C1087 + OA-C1090)
+Two fences adopted at point of occurrence, both correct:
+- **"Minimal" was not established (OA-C1087).** No admissible category or
+  minimization order was defined here; the holonomy ℂ² alone is a smaller
+  spinorial π₁-module satisfying the beat relation, and if a nontrivial
+  internal 27 is imposed, all eleven odd A1 strata pass the selected-beat
+  identities — the minimal-A1 factor is a banked CHOICE (memo 29's bridge),
+  not a derived minimum. Corrected reading: Ψ is *a* carrier realizing both
+  halves of the memo-45 no-go, the one built on the banked bridge — its
+  properties are theorems, its selection is not.
+- **"Antiunitary" was the wrong word (OA-C1090).** β_Ψ is Galois-SEMILINEAR;
+  no Hermitian metric was constructed, and none can make β_Ψ antiunitary:
+  β_Ψ² = ρ_Ψ(a) is a nontrivial unipotent, which is never unitary for a
+  positive-definite form (not diagonalizable). Every exact identity in this
+  memo is unchanged; the physical-connotation word is withdrawn lane-wide
+  (memos 45/46/50 and THE_CORE_QUESTION §4 corrected by reference to this
+  addendum).
