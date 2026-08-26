@@ -1,5 +1,19 @@
 # Changelog
 
+## B8143 — the anomaly lane: B1160 is right, and its fence has a witness
+
+**Why this lane:** of the programme's three standing no-gos — scale, orbit-to-point, family-vs-object — **anomaly cancellation is the one all three are silent on.** It is Diophantine on *dimensionless* charges, its solutions are rational points rather than an orbit, and it consumes representation content rather than the trace field.
+
+**B1160's core theorem reproduced exactly:** `−18(t−3)(t+3)`, giving the SM and its `u↔d` swap. No dispute.
+
+**Finding 1.** Unnormalised, the system has **three** branches — the two SM lines plus a **one-parameter vector-like family** (`Yq=0, Yd=−Yu`) that `Yq=1` excludes by construction. **Exactly B864's 'three lines', independently confirmed.** Not damaging, but the honest statement changes: anomalies alone leave three; **chirality** is what reduces to two.
+
+**Finding 2.** **Rigidity is a dimension count** (`n−5`), and the SM's five field types are exactly the number that lets anomalies determine the charges. **But the SM shape is not forced:** over the same alphabet there is a **13-state** rigid chiral anomaly-free content, `(3,2)+(3̄,1)+(1,2)+2×(1,1)` with `(1/2,−1,−3/2,2,1)` — **smaller than the SM's 15.** B1160's fence is a theorem with a counterexample, not a caution.
+
+**The decisive question, posed not half-done:** is that content realisable in the 27's `u(1)³` lattice? **No** would make the shaping object-forced — strictly stronger than B1160.
+
+**Two errors of mine recorded:** the first search asked existence rather than **rigidity**; the first chirality test let contents with a **neutral** `(3,2)` through, and tightening it cut the census from four to two.
+
 ## B8141 extended — the artifact class has a second route, and my scan was blind to it
 
 **Found by the suite sweep this arc prompted.** `test_b646_wave2::test_archive_matches_manifest_except_disclosed` fails with **MISSING `.log` entries** — a test reading a **manifest that lists gitignored artifacts**, so the paths never appear as string literals in any test source. **B8141's original scan was structurally blind to this.**

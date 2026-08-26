@@ -55,6 +55,7 @@ auditable in a way a passing threshold never was.
 | `B8109` | INSTRUMENT | R48's closing report: which review instruments worked, which did not, and the positive-control principle for document scans. **Pure methodology**, no object mathematics — an object atlas is correct to miss it. |
 | `B8139` | INSTRUMENT | The **cost failure class**: a working lock (`FINDINGS.md` write-safety) caught nothing for five days because the suite it lives in is unaffordable — 1038 files, 4528 tests, **421s of collection alone**. About **our own suite's economics**, not an object topic; it introduces no object term and should not acquire one. |
 | `B8141` | INSTRUMENT | The **artifact class**: locks reading `.gitignore`d `.log` files report on the author's working directory rather than the code. About **our own suite's reproducibility**, not an object topic — it introduces no object term. |
+| `B8143` | GAP | The **anomaly lane** — a real object topic the lexicon's 18 motif sets do not cover: Diophantine charge conditions on a representation content. It is the one lane the programme's three standing no-gos (scale, orbit-to-point, family-vs-object) are all silent on, and the lexicon has no motif for it. |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 

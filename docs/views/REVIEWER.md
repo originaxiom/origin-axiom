@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1044** |
-| words of findings prose | **708,739** |
+| research arcs with findings | **1045** |
+| words of findings prose | **709,536** |
 | test lock files referenced | **611** |
-| arcs carrying an authored verdict | **1031** (98.8 %) |
+| arcs carrying an authored verdict | **1032** (98.8 %) |
 | recorded closures | **763** (589 classified, 174 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 693 |
+| PROVED | 694 |
 | NEGATIVE | 294 |
 | OPEN | 33 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B8142`** (1020 words, 0 locks)  
-RESIDUE 2 IS REDUCED TWICE, NOT CLOSED. The eigenvalue decomposition of rho(m)=Sym^{2m}C^2 gives the exact identity R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j), verified on m004 to 1e-18 for m=0..4. At s=0 -- Fried's point -- the j<0 half is exactly conj R(i,sigma_i) for i=1..m, THE GRAVITON'S OWN FACTORS, and the j>0 half is R(-j,sigma_j) at NEGATIVE arguments. So residue 2 reduces from 'relate 0 to the positive integers' to 'evaluate at the NEGATIVE integers'; and since s <-> 2-s maps 2+j -> -j with R(2+j,sigma_j) absolutely convergent, it reduces again to 'establish the functional equation for R(s,sigma_k) on m004', where B8101's scattering determinant is already known in closed form.  
-`B8142_residue2_bridge/FINDINGS.md`
+**PROVED — `B8143`** (797 words, 0 locks)  
+B1160'S CORE THEOREM IS EXACTLY CORRECT AND ITS FENCE IS LOAD-BEARING, WITH A WITNESS. Reproduced the cubic factorisation -18(t-3)(t+3) exactly. TWO SCOPE FINDINGS: (1) solved WITHOUT B1160's normalisation Yq=1, the system has THREE branches -- the two SM lines plus a ONE-PARAMETER VECTOR-LIKE family (Yq=0, Yd=-Yu) invisible to its chart, confirming B864's 'three lines' exactly. (2) B1160 fences the SM-SHAPING as observer-paid; that fence is not a caution but a THEOREM WITH A COUNTEREXAMPLE -- over the same alphabet there is a RIGID, CHIRAL, anomaly-free 13-STATE content ABCDD = (3,2)+(3bar,1)+(1,2)+2x(1,1) with charges (1/2,-1,-3/2,2,1), SMALLER than the SM's 15. The SM is NOT the minimal rigid chiral content.  
+`B8143_anomaly_lane/FINDINGS.md`
 
 **NEGATIVE — `B8141`** (440 words, 0 locks)  
 THE ARTIFACT CLASS, third after B8139's COST and B8140's TWO EMPTIES: two locks depend on SIX gitignored .log files, so they can only pass on a machine where the arc was recently run. On any clean checkout they do not SKIP -- they FAIL. test_b1062_bridge.py (5 artifacts) and test_b1063_refresh.py (1) currently fail here for exactly this reason. Permanent red trains a reader to ignore failures, which costs more than the lock is worth.  

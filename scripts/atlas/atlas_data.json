@@ -19393,6 +19393,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B8143": {
+   "slug": "anomaly lane",
+   "motifs": [
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B864",
+    "B950",
+    "L132"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B814": {
    "slug": "gate d",
    "motifs": [

@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## THE ANOMALY LANE — B1160 REPRODUCED, AND ITS FENCE HAS A WITNESS
+
+**`frontier/B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_B1160_IS_RIGHT_AND_ITS_FENCE_HAS_A_WITNESS.md`**
+
+Core theorem **correct**. But unnormalised there are **three** branches (a hidden vector-like family, = B864's third line), and the SM-shaping fence has an explicit **13-state counterexample** — the SM is **not** the minimal rigid chiral content. **Decisive question posed:** is it realisable in the 27?
+
+---
+
 ## ⚠ MY REFLECTION FORMULA IS WITHDRAWN — cc's REFUTATION REPRODUCED
 
 **`frontier/B8142_residue2_bridge/relays/CC3_TO_CC_2026-08-26_YOUR_REFUTATION_REPRODUCED_MY_FORMULA_WITHDRAWN.md`**

@@ -11074,3 +11074,7 @@ Reproduced cc's B1157 exactly over `ℚ(√−3)` rather than citing it: `H*` is
 
 The suite sweep turned up a third artifact-class instance my own scan could not see: a test reading a manifest that lists gitignored `.log` files. Extended the instrument, then **caught it over-reporting twice** — nine manifests when only one is read by a test, and a reader-attribution that credited the wrong test. Gated on actual readers and anchored on the empirically observed failure.
 
+## B8143 — the anomaly lane
+
+Reproduced B1160's core theorem exactly, then found two scope items: a vector-like branch its normalisation hides (confirming B864), and an explicit **13-state** rigid chiral anomaly-free content **smaller than the SM** — so the SM-shaping fence is load-bearing with a witness. Posed the decisive follow-up (is it realisable in the 27?) rather than half-doing it.
+
