@@ -1,0 +1,33 @@
+conjugacy classes (cyclic words, len <= 7, mod rotation+inversion): 275
+FACT 1: every class trace lies in Z[w] — the Eisenstein integers: traces are
+   algebraic integers of the banked trace field Q(sqrt-3)
+   loxodromic classes: 257; parabolic/elliptic-trace classes: 18
+FACT 2: inner ball (len<=4): 25 classes; conjugate traces not in the
+   len<=7 ball: 1 — targeted search to length 9 for those:
+   trace 6+(-5)w realized by [aabaaBAB] (length 8)
+   => EVERY inner-ball class has a mirror partner: the spectrum is mirror-
+      symmetric (lengths invariant, torsion negated) — verified, with the
+      measured finding that the mirror DISTORTS word length (it is not a
+      letter map; cf. MA1's no-word-level-realization)
+   exhibit lengths: 3.450219 vs 3.450219 (equal), torsions +1.843678 vs -1.843678 (negated)
+FACT 3: loxodromic classes with torsion (nonreal trace): 247;
+   mirror-fixed (real-trace) loxodromics: 10 — real traces: [4.0, 8.0]
+FACT 4: the spectrum's beginning (distinct up to mirror; length, |torsion|, exact trace):
+   len 1.087070  torsion 1.722768   tr = 2-1w   [AB]
+   len 1.662886  torsion 2.392124   tr = 2-2w   [AAB]
+   len 1.725109  torsion 0.921839   tr = 3-1w   [ABAb]
+   len 2.174140  torsion 2.837648   tr = 2-3w   [AAAB]
+   len 2.174140  torsion 3.445537   tr = -2+3w   [AAbaBB]
+   len 2.416113  torsion 1.208686   tr = 4-2w   [AAbAB]
+   len 2.633916  torsion 0.000000   tr = 4+0w   [AAbab]
+   len 2.633916  torsion 3.141593   tr = 2-4w   [AAAAB]
+   SYSTOLE (in this ball): word class [AB], exact trace 2+(-1)w,
+   complex length 1.087070 + 1.722768 i
+
+THE MOTHER TONGUE: the object's native spectral data — the complex-length
+spectrum — computed exactly in its trace ring Z[w].  The mirror acts as
+complex conjugation: the LENGTH spectrum (the gravitational moduli) is
+mirror-even, the TORSION spectrum is mirror-odd.  The record's invisible
+bit, spoken gravitationally, is the torsion sense of every geodesic —
+the geodesic-side shadow of the (Vol, CS) pair (wave-3 ME3).  Gate 5
+untouched (all data are the object's own geometry).

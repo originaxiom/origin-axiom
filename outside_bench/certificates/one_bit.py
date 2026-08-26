@@ -1,149 +1,153 @@
 #!/usr/bin/env python3
-"""MEMO-44 CELL: ONE BIT OR TWO — is the geometric branch's mirror the beat's
-bit, or the beat's bit composed with charge conjugation?
+"""MEMO-79 CELL (WAVE-3 MA1): THE ONE-BIT WITNESS — are the record's
+orientation/Galois bit and its chirality bit (27 vs 27-bar) the same Z/2?
+The computable fragment of cc's B1162 meditation SS-A (the one-bit
+conjecture: chirality, frame, branch selection, W0 = one observer choice).
 
-The reduction (exact): the beat's real structure is sigma_beat = exp(ad qE) o gal,
-whose linear part is an EXPONENTIAL — manifestly inner.  The closing's real
-structure is sigma_close = T o conj with T = theta_matrix(g,c) (the memo-10 hit's
-mirror, memo 27/33's gluing map), a rational linear automorphism.  Their ratio is
-T o (inner), so:  THE TWO REAL STRUCTURES DEFINE THE SAME Z/2 CLASS  <=>  T IS
-INNER.  E6 separates inner from outer on the 27: inner automorphisms preserve the
-27's isomorphism class; outer ones carry it to the dual 27-bar.
+THE TWO BITS:
+  ORIENTATION bit: gal (q -> 1-q) — complex conjugation under either
+    embedding; realized on the carrier only by the SEMILINEAR beat (banked).
+    KEY ARITHMETIC (verified in-run): q(1-q) = 1, so gal(q) = q^{-1} — the
+    Galois bit inverts the meridian-twist parameter.
+  CHIRALITY bit: the 27 vs its dual (omega_1 vs omega_6), memo 66's fenced
+    choice.  The 27 is genuinely chiral at the e6 level: weight multiset
+    W != -W (verified in-run; 27 (x) 27 has no singlet).
 
-PREREGISTERED two-outcome:
-  A (T inner):  27 o T ~ 27  — ONE BIT: the geometric mirror IS the beat's bit
-     up to inner; the internal->spacetime bridge candidate stands at algebra level.
-  B (T outer):  27 o T ~ 27-bar — TWO FACES: the geometric mirror = the beat's
-     bit composed with the OUTER class (charge conjugation); the observer's C is
-     exactly the discrepancy between the two mirrors.
-Cross-check: tr(T) on the 78 pins the involution class (outer: 26 [f4] or -6
-[sp8]; inner: -2 [sl2+sl6] or 14 [so(10)+u(1)]).
+THE TEST (exact over the pair-field): on the internal pi1 image
+(a -> exp(E27), b -> exp(q F27)), compare over the FULL ball of reduced
+words of length <= 5:
+    chi(w) = tr rho27(w),  chi*(w) = tr rho27(w^{-1}),  chi^gal = gal o chi.
+
+PREREGISTERED as two-outcome (ONE-BIT: chi^gal == chi*; TWO-BITS: a word
+separates them), with a non-vacuity gate "some word has chi(w) != chi*(w)".
+[ERROR FILED AT POINT OF OCCURRENCE — and the refused gate is the
+finding: the machine returned chi == chi* IDENTICALLY on the ball (zero
+separating words).  The DUAL character coincides with the character on
+the holonomy image — the 27-level shadow of the figure-eight's strong
+invertibility (2-bridge knots are strongly invertible, CITED context;
+the character identity itself is computed exactly here).  So the
+preregistered comparison was between the WRONG pair: chi* cannot
+distinguish anything.  The corrected facts below are the measured
+branch.]
+
+MEASURED FACTS (asserts):
+  FACT 1 (chirality is character-INVISIBLE): chi(w) = chi(w^{-1}) for ALL
+    words in the ball => the holonomy characters cannot see 27 vs 27-bar:
+    the chirality bit costs NOTHING at the character level.  (Aligns with
+    the corpus's walled item "chirality is inserted" — here sharpened: the
+    object's characters do not even register the flip.)
+  FACT 2 (orientation is character-VISIBLE): chi^gal != chi on 396 of 484
+    words — the Galois bit genuinely moves the character data.
+  FACT 3 (and it is irreducibly semilinear): gal is NOT realized by any
+    word-level relabeling tested (letters->inverses; a<->b swap;
+    b->b^{-1} only): each matches gal exactly on the rational-trace words
+    and nowhere else — consistent with the banked semilinearity of the
+    beat (the mirror has no linear/word-level realization).
+VERDICT (BRANCH TWO-BITS, refined): the two bits are NOT one bit — and
+the reason is structural: chirality is FREE on the carrier's characters
+(invisible, unpaid) while orientation is ARITHMETIC (visible, semilinear
+only).  cc's SS-A one-bit unification fails in its cleanest carrier-level
+version; what survives is sharper: the record's ONE arithmetic Z/2 is the
+orientation bit (whose gravitational face is the CS phase — wave-3 ME3),
+and the chirality insertion is priced at exactly zero by the object.
+FENCE: character-level, finite ball (radius 5), exact; not an all-words
+proof; not a decision of the observer-coupling thesis.  Gate 5 untouched.
 """
-import random
 from fractions import Fraction as F
+from collections import Counter
 SCR=__import__('os').path.dirname(__import__('os').path.abspath(__file__))+""
 src=open(SCR+"/twisted_double.py").read()
 cut=src.index("# ---------------- stage 4")
-exec(src[:cut])   # exact e6 + the 27 (rho27_Q verified on 3003 brackets in-run)
+exec(src[:cut])
 
-import importlib.util
-spec=importlib.util.spec_from_file_location("theta_dump", SCR+"/theta_dump.py")
-td=importlib.util.module_from_spec(spec); spec.loader.exec_module(td)
-assert td.N_FP==N and td.DIM_FP==DIM
-assert list(td.ROOTS_FP)==list(ROOTS), "ccb basis fingerprint mismatch between stacks"
-T=td.TMAT
-print("frame check: ROOTS fingerprint identical across stacks (%d roots)"%len(ROOTS))
+r0=ROOTS[0]
+E27=rho27_Q(evec(r0)); F27=rho27_Q(evec(tuple(-x for x in r0)))
+Z=(F(0),F(0)); O=(F(1),F(0)); Qp=(F(0),F(1))
+E27p=toF(E27); F27p=toF(F27)
 
-def mv(M,v): return [sum(M[i][j]*v[j] for j in range(DIM) if v[j]!=0) for i in range(DIM)]
-# T is an involution and a bracket automorphism IN THIS STACK (operational frame proof)
-random.seed(7)
-for _ in range(25):
-    i=random.randrange(DIM); j=random.randrange(DIM)
-    ei=[F(1) if k==i else F(0) for k in range(DIM)]; ej=[F(1) if k==j else F(0) for k in range(DIM)]
-    Ti=mv(T,ei); Tj=mv(T,ej)
-    assert mv(T,Ti)==ei
-    assert br(Ti,Tj)==mv(T,br(ei,ej))
-print("T^2 = id and bracket equivariance: verified on 25 random basis pairs, exact")
+qbar=fadd(O,fneg(Qp))
+assert fmul(Qp,qbar)==O
+print("KEY ARITHMETIC: q(1-q) = 1 exactly => gal(q) = q^{-1}")
+Wt=[tuple(int(x) for x in w) for w in weights]
+assert Counter(Wt)!=Counter(tuple(-x for x in w) for w in Wt)
+print("CHIRALITY GATE: W != -W as multisets — the 27 is not self-dual at the e6 level")
 
-trT=sum(T[i][i] for i in range(DIM))
-print(f"tr(T) on the 78 = {trT}   (outer involutions: 26 [f4] / -6 [sp8]; inner: -2 / 14)")
+Ma=nilexp(E27p,ONE);  MA=nilexp(E27p,fneg(ONE))
+Mb=nilexp(F27p,Qp);   MB=nilexp(F27p,fneg(Qp))
+def mmF(X,Y):
+    n=len(X); out=[[Z]*n for _ in range(n)]
+    for i in range(n):
+        Xi=X[i]
+        for k in range(n):
+            x=Xi[k]
+            if x==Z: continue
+            Yk=Y[k]; oi=out[i]
+            for j in range(n):
+                y=Yk[j]
+                if y==Z: continue
+                oi[j]=fadd(oi[j],fmul(x,y))
+    return out
+I27=[[O if i==j else Z for j in range(27)] for i in range(27)]
+assert mmF(Ma,MA)==I27 and mmF(Mb,MB)==I27
+LET={'a':Ma,'b':Mb,'A':MA,'B':MB}
+INV={'a':'A','b':'B','A':'a','B':'b'}
+def trF(M):
+    t=Z
+    for i in range(27): t=fadd(t,M[i][i])
+    return t
+def galF(x): return (x[0]+x[1], -x[1])
 
-# Cartan preservation and the induced 6x6 block
-cart_ok=all(all(T[i][j]==0 for i in range(N,DIM)) for j in range(N))
-print("T preserves the Cartan subalgebra:", cart_ok)
-assert cart_ok
-Th=[[T[i][j] for j in range(N)] for i in range(N)]
-def inv6(M):
-    n=N; aug=[[F(M[i][j]) for j in range(n)]+[F(1) if k==i else F(0) for k in range(n)] for i in range(n)]
-    for col in range(n):
-        p=next(i for i in range(col,n) if aug[i][col]!=0)
-        aug[col],aug[p]=aug[p],aug[col]
-        pv=aug[col][col]; aug[col]=[x/pv for x in aug[col]]
-        for i in range(n):
-            if i!=col and aug[i][col]!=0:
-                fq=aug[i][col]; aug[i]=[x-fq*y for x,y in zip(aug[i],aug[col])]
-    return [row[n:] for row in aug]
-Thi=inv6(Th)
+LMAX=5
+tr_of={}
+def dfs(word, mat):
+    if word: tr_of[word]=trF(mat)
+    if len(word)==LMAX: return
+    for ch in 'abAB':
+        if word and INV[word[-1]]==ch: continue
+        dfs(word+ch, mmF(mat,LET[ch]))
+dfs("", I27)
+def invword(w): return ''.join(INV[ch] for ch in reversed(w))
+words=sorted(tr_of)
+nonrat=[w for w in words if tr_of[w][1]!=0]
+print(f"BALL: {len(words)} reduced words, length <= {LMAX}; {len(nonrat)} with irrational trace")
 
-# 27 weights in pairing coordinates
-Hs=[rho27_Q([F(1) if k==i else F(0) for k in range(DIM)]) for i in range(N)]
-wt=[tuple(Hs[i][a][a] for i in range(N)) for a in range(27)]
-# transformed weight: mu' = (Th^{-1})^T mu   (mu'(h_i) = mu(Th^{-1} h_i))
-def transf(mu): return tuple(sum(Thi[j][i]*mu[j] for j in range(N)) for i in range(N))
-tw=[transf(m) for m in wt]
-setA=set(wt); setB=set(tuple(-x for x in m) for m in wt)
-inA=all(m in setA for m in tw); inB=all(m in setB for m in tw)
-print(f"T-transformed 27-weight set == 27 weights: {inA}   == 27-BAR weights (negatives): {inB}")
-assert inA != inB, "weight test inconclusive"
+# FACT 1: dual character == character (the refused gate, now the finding)
+dualdiff=[w for w in words if tr_of[invword(w)]!=tr_of[w]]
+print(f"FACT 1: words with chi(w) != chi(w^-1): {len(dualdiff)} — the dual character")
+print("   COINCIDES with the character on the whole ball: chirality is")
+print("   character-INVISIBLE on the holonomy image (strong invertibility of 4_1")
+print("   at the 27 level; CITED context, identity computed exactly)")
+assert not dualdiff
 
-if inA:
-    # hypothesis A: monomial intertwiner M with rho(Tx) = M rho(x) M^-1
-    pi={a: wt.index(tw[a]) for a in range(27)}
-    def rho_of(x): return rho27_Q(x)
-    hyp='A'
-else:
-    # hypothesis B: rho(Tx) = M rhobar(x) M^-1 with rhobar(x) = -rho(x)^T
-    negwt=[tuple(-x for x in m) for m in wt]
-    pi={a: wt.index(transf(negwt[a])) if False else None for a in range(27)}
-    # basis vector a carries rhobar-weight -wt[a]; its image must carry (rho o T)-weight
-    # = transf^{-1}? — set up directly: M e_a = m_a e_{sig(a)} with wt[sig(a)] = transf(-wt[a])
-    pi={a: wt.index(transf(tuple(-x for x in wt[a]))) for a in range(27)}
-    hyp='B'
-print(f"proceeding under hypothesis {hyp}; the permutation is a bijection: {sorted(pi.values())==list(range(27))}")
-assert sorted(pi.values())==list(range(27))
+# FACT 2: gal moves the characters
+galdiff=[w for w in words if galF(tr_of[w])!=tr_of[w]]
+print(f"FACT 2: words with chi^gal(w) != chi(w): {len(galdiff)} of {len(words)} — the")
+print("   orientation bit is character-VISIBLE")
+assert len(galdiff)==len(nonrat) and len(galdiff)>0
 
-# generators and their T-images (in this stack)
-gens=[]
-for i in range(N):
-    r=tuple(1 if k==i else 0 for k in range(N))
-    for rr in (r, tuple(-x for x in r)):
-        x=evec(rr)
-        gens.append((rho27_Q(x), rho27_Q(mv(T,x))))
-def rbar(Mx): return [[-Mx[j][i] for j in range(27)] for i in range(27)]
+# FACT 3: gal is not any word-level relabeling
+def relabel_test(mapping, name):
+    ok=sum(1 for w in words if galF(tr_of[w])==tr_of[''.join(mapping[c] for c in w)])
+    ratn=len(words)-len(nonrat)
+    print(f"FACT 3 [{name}]: gal matches the relabeled trace on {ok}/{len(words)} words"
+          f" (rational-trace words: {ratn})")
+    return ok
+n_sig =relabel_test({'a':'A','A':'a','b':'B','B':'b'}, "letters -> inverses")
+n_swap=relabel_test({'a':'b','b':'a','A':'B','B':'A'}, "a <-> b swap")
+n_binv=relabel_test({'a':'a','A':'A','b':'B','B':'b'}, "b -> b^-1 only")
+ratn=len(words)-len(nonrat)
+assert max(n_sig,n_swap,n_binv)==ratn, "no relabeling exceeds the trivial rational agreement"
+print("   => gal is realized by NO word-level involution — it is irreducibly")
+print("      SEMILINEAR (the beat), as banked")
 
-# scalar propagation: m_a unknowns; equations rho(Tx)[pi(a2),pi(a1)] * m_a1 = m_a2 * S(x)[a2,a1]
-# where S = rho (hyp A) or rhobar (hyp B)
-m=[None]*27; m[0]=F(1)
-changed=True
-while changed:
-    changed=False
-    for S,RT in ((s, rt) for s,rt in [(g[0] if hyp=='A' else rbar(g[0]), g[1]) for g in gens]):
-        for a1 in range(27):
-            if m[a1] is None: continue
-            for a2 in range(27):
-                s=S[a2][a1]
-                if s==0: continue
-                lhs=RT[pi[a2]][pi[a1]]
-                if m[a2] is None:
-                    assert lhs!=0, "structure mismatch: zero vs nonzero entry"
-                    m[a2]=lhs*m[a1]/s; changed=True
-assert all(x is not None and x!=0 for x in m), "propagation incomplete or singular"
-# full verification of the intertwiner on ALL 12 generators
-ok=True
-for g in gens:
-    S=g[0] if hyp=='A' else rbar(g[0]); RT=g[1]
-    for a1 in range(27):
-        for a2 in range(27):
-            lhs=RT[pi[a2]][pi[a1]]*m[a1]
-            rhs=m[a2]*S[a2][a1]
-            if lhs!=rhs: ok=False
-print(f"monomial intertwiner M (27 scalars, all nonzero) verified on ALL 12 generators: {ok}")
-assert ok
-
-if hyp=='A':
-    print("""
-VERDICT — OUTCOME A: T is INNER-CLASS on the 27 (27 o T ~ 27).  ONE BIT:
-the geometric branch's mirror and the beat's mirror define the same Z/2
-real-structure class up to inner automorphism — the internal->spacetime
-bridge candidate stands at the algebra level.""")
-else:
-    print("""
-VERDICT — OUTCOME B: T is OUTER (27 o T ~ 27-BAR, the dual).  TWO FACES OF
-THE MIRROR: the geometric branch's real structure equals the beat's real
-structure COMPOSED WITH THE OUTER CLASS of E6 — charge conjugation.  The
-discrepancy between the two mirrors is exactly the C bit (observer-paid in
-the freedom ledger): sigma_close = sigma_beat o C up to inner.  Read with
-memo 33's colored-sector fact (theta swaps 3 <-> 3bar pointwise): the
-geometric mirror is the beat wearing charge conjugation — one private bit,
-one public dressing, and the bridge question sharpens to whether the
-DRESSED or the BARE mirror is the one spacetime reads.""")
+print(f"""
+VERDICT (BRANCH TWO-BITS, refined): the chirality bit and the orientation
+bit are NOT one bit, for a structural reason measured above — chirality is
+FREE (the holonomy characters do not register 27 vs 27-bar: the insertion
+is priced at exactly zero by the object) while orientation is ARITHMETIC
+(moves 396/484 characters, realized only semilinearly).  cc's SS-A one-bit
+unification fails in its cleanest carrier-level version; the surviving
+core is sharper: the record's ONE arithmetic Z/2 is the orientation bit,
+whose gravitational face is the CS phase (ME3).  FENCE: character-level,
+radius-{LMAX} ball, exact; not an all-words proof; the observer-coupling
+thesis is untouched.  Gate 5 untouched.""")
