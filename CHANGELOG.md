@@ -1,5 +1,32 @@
 # Changelog
 
+## B1161 (2026-08-26): the frontier sweep (compute-all-we-can) — the computable frontier mapped and exhausted; the bypass door IS SEAM-A
+
+The owner's "compute all we can, then review," executed as a 6-cell frontier sweep (WF, 7 agents), each cell
+typed and the load-bearing ones re-verified on-bench (`reproduce.sh` → REPRODUCES). **Headline
+unification:** the crown cell tried to force C's P1/P2 branch selection object-intrinsically (which would
+derive the MSSM spectrum *without* the walled heterotic axiom) — **NOT-FORCED, proved irreducible** by the
+**free-orbit theorem**: V₄=Gal(H/ℚ) (ring class field, disc 144) acts **freely + transitively** on the 4
+surviving branches (trivial stabilizers), so no Galois-invariant object quantity can pick one, and each
+carries 11-dim moduli. But the theorem forbids only *Galois-invariant* selectors — an object-supplied
+**archimedean marking** would break the orbit, and that marking is exactly **SEAM-A's absent W₀**. So the
+bypass door and SEAM-A are the **same obstruction** (the missing archimedean marking) seen from two sides —
+the program's remaining structural blocker is *one* object, not two.
+
+**The six cells:** P1/P2-force **NOT-FORCED** (scoped positives: C4×C3 is the unique coprime CRT split; the
+odd-leg {4,8} is K-rational — link C's decomposition + leg-set gain object footing); L132-B892 **CONVERGES**
+(hypercharge forcing now dual-homed — B892's color-A₂ centralizer = A₂+A₂ gives 36/36 SM, matching B1160's
+trinification frame); SEAM-A-seal **NEEDS-SPECIALIST** (the PSLQ non-relation sealer is **vacuous** —
+own-verified PSLQ is live [recovers B682 as [−2,3]] but PSLQ(rational,Vol)=None for claim + controls, just
+restating Vol∉ℚ; SEAM-A stays the Arakelov/W₀ FLOOR, the PSLQ route retired); down-Yukawa
+**BENCHABLE/WITHHELD** (unlike μ_u=0 *absent*, the down coupling is object-forced + *present* as a 3×3×4
+tensor, only the Higgs-line projection observer-supplied); generation-index **NULL** (own-verified: trace
+field degree 2, Galois ℤ/2 → multiplicities ∈{1,2}, never 3; the object's honest content is **one
+generation**, the "3" external). **The exhausted-frontier boundary:** everything reducible to object group
+theory / toric cohomology / in-sandbox numerics is **done**; what remains is 2 proved irreducibilities, 2
+walls, 1 NEEDS-SPECIALIST sharp bar (SEAM-A), 1 buildable-but-unbuilt artifact. Gate 5 clean across all six
+cells. Feeds the review. Locks `tests/test_b1161_frontier_sweep.py`.
+
 ## B1160 (2026-08-26): hypercharge falls out — the object's integer anomaly arithmetic forces the SM hypercharge (cloud memo 70 / L132, verified)
 
 Cloud executed L132 (registered by B950) and banked memo 70 — "the biggest single link-payment the chain

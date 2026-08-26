@@ -1,0 +1,21 @@
+(SEAM-A seal cell) the PSLQ non-relation test is VACUOUS -- cannot seal MISMATCH
+  Vol(4_1)          = 2.0298832128193072500424051085490405718833786150606
+  (3 sqrt3/2) L     = 2.0298832128193072500424051085490405718833786150606   = Vol (B682): True
+  PSLQ(Vol, sqrt3*L)= [-2, 3]   <- PSLQ is LIVE (recovers B682, 2Vol=3 sqrt3 L)
+  PSLQ(1/6, Vol)    = None   <- but rational-vs-Vol = None
+  PSLQ(3/7, Vol)    = None   <- control also None => ZERO discriminating power
+  => the finite-phase (exp(2 pi i/6)) <-> Vol non-relation just restates Vol not in Q;
+     present in BOTH match and mismatch worlds. Cannot seal MISMATCH. SEAM-A stays a
+     NEEDS-SPECIALIST FLOOR (the Arakelov / marked-H3 W0 bar).
+
+(generation-index cell) NULL -- no object index forces 3
+  trace field min poly x^2-x+1: disc = -3 , degree = 2
+  => Galois Z/2; irreducible-rep multiplicities in {1,2}, NEVER 3. chi(4_1 complement)=0.
+  Object's honest content = ONE generation; the '3' is external (cubic carrier / cover / E8).
+
+(L132-B892 cell) the two-frame backbone: color-A2 centralizer in e6 = A2 + A2 (rank 6)
+  rank e6 = 6; trinification A2xA2xA2 has rank 2+2+2 = 6 (three orthogonal A2s).
+  weak A2's 3 sl2's each SM-shape the 27 => 12 anomaly solutions each = 36, all SM (B1160 cubic
+  -18(t-3)(t+3) => t=+-3). So the object-specific SM realization is DUAL-HOMED (trinification + B892).
+
+REPRODUCES

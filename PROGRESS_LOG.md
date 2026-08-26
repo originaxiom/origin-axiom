@@ -11564,3 +11564,20 @@ anomaly→hypercharge is standard GUT, the object-specific content is realizatio
 Firewall: B950 typed L132 as structure-not-value (hypercharge ratios are derived structure) — Gate 5 clean.
 Cloud credited; object cert cited (needs cloud's stack). Cloud follow-up flagged: L132 in B892's centralizer
 frame (two-frame corroboration). Locks `tests/test_b1160_hypercharge_forced.py` (6 tests).
+
+## 2026-08-26 — B1161: the frontier sweep (compute-all-we-can); the bypass door IS SEAM-A
+
+Owner: "compute all we can, then review." Executed as a 6-cell frontier-sweep workflow (7 agents), each cell
+typed, load-bearing ones re-verified on-bench (`reproduce.sh` → REPRODUCES). **Headline unification:** the
+crown (force C's P1/P2 to derive the MSSM spectrum without heterotic) is NOT-FORCED, **proved irreducible**
+by the free-orbit theorem (V₄=Gal(H/ℚ) acts freely on the 4 branches, trivial stabilizers → no
+Galois-invariant selector; + 11-dim moduli). But the missing selector is exactly an **archimedean marking =
+SEAM-A's absent W₀** → the bypass door and SEAM-A are the **same obstruction**. Cells: P1/P2 NOT-FORCED
+(scoped positives: unique coprime CRT split, K-rational odd leg); L132-B892 CONVERGES (hypercharge
+dual-homed); SEAM-A-seal NEEDS-SPECIALIST (the PSLQ sealer is **vacuous** — own-verified PSLQ live [recovers
+B682] but rational-vs-Vol=None for claim+controls; SEAM-A stays the Arakelov/W₀ FLOOR); down-Yukawa
+BENCHABLE/WITHHELD (the down coupling is object-forced+present as a 3×3×4 tensor, unlike μ_u=0 absent);
+generation-index NULL (degree-2 Galois ℤ/2 → never 3; object = ONE generation, the "3" external). The
+computable frontier is **exhausted** (2 proved irreducibilities + 2 walls + 1 specialist bar + 1
+buildable-unbuilt artifact). Gate 5 clean. Feeds the review. Locks `tests/test_b1161_frontier_sweep.py`
+(9 tests). cc3 pushed B8143 mid-run (independent corroboration of B1160 + a shaping-fence witness) — queued.

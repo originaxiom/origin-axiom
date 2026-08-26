@@ -3329,6 +3329,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1161": {
+   "slug": "frontier sweep",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B682",
+    "B892",
+    "B950",
+    "L132",
+    "L182",
+    "P1",
+    "P2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [

@@ -18,6 +18,18 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1161 — the frontier sweep (compute-all-we-can); the bypass door IS SEAM-A)**: owner's
+"compute all we can, then review," executed as a 6-cell sweep. **Headline unification:** the crown (force
+C's P1/P2 to derive the MSSM spectrum *without* the walled heterotic axiom) is **NOT-FORCED, proved
+irreducible** (the free-orbit theorem: V₄=Gal(H/ℚ) acts freely on the 4 branches → no Galois-invariant
+selector; + 11-dim moduli) — and the missing selector is exactly an **archimedean marking = SEAM-A's absent
+W₀**, so **the bypass door and SEAM-A are the same obstruction**. Cells: L132-B892 **CONVERGES** (hypercharge
+dual-homed); SEAM-A-seal the PSLQ route **vacuous** (stays the Arakelov/W₀ FLOOR); down-Yukawa **present** as
+a 3×3×4 tensor (readout observer-gated), unlike the absent up-Yukawa; generation-index **NULL** (object =
+ONE generation, the "3" external). **The computable frontier is exhausted** (2 irreducibilities + 2 walls +
+1 specialist bar + 1 buildable artifact). Gate 5 clean. **Feeds the review (next).** Locks
+test_b1161_frontier_sweep.py.
+
 **LATEST (2026-08-26, B1160 — hypercharge falls out; cloud memo 70 / L132, verified)**: cloud's biggest
 single link-payment, owner-forwarded "always verify." Load-bearing theorem re-derived independently on-bench:
 on an SM-shaped 15-plet the four anomaly conditions force the **SM hypercharge, unique up to scale + u^c↔d^c,
