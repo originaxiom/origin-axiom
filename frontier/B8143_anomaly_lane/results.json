@@ -10,7 +10,8 @@
  },
  "my_own_two_instrument_errors": {
   "first": "the initial shape search asked 'does a solution EXIST', which is almost always yes once there are enough free charges -- the question had to be RIGIDITY, not existence. Reframed.",
-  "second": "the first chirality test only required that SOME (3,2) be charged, so contents with a NEUTRAL (3,2) and neutral singlets (AAACD, AAABC) passed as 'chiral'. Tightened to require EVERY field charged; those two dropped out and the census fell to two contents."
+  "second": "the first chirality test only required that SOME (3,2) be charged, so contents with a NEUTRAL (3,2) and neutral singlets (AAACD, AAABC) passed as 'chiral'. Tightened to require EVERY field charged; those two dropped out and the census fell to two contents.",
+  "third": "after banking, I added a BLIND_ARCS row for B8143 -- but the atlas-lexicon gate had printed PASS immediately before, and B8143 is NOT blind (the lexicon covers it). The row made the gate FAIL. I pattern-matched from B8139/B8141, which did need rows, instead of reading the output in front of me. Row removed; gate green again."
  },
  "not_claimed": [
   "that B1160 is wrong -- its core theorem is reproduced exactly and is correct",
