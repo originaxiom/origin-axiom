@@ -5,7 +5,7 @@ certificates re-run on THIS bench's pyenv 3.12.1 exit rc=0 — every claim is a 
 so rc=0 IS the verification — and reproduce their committed outputs byte-identical). PLUS memo 53's
 FACT 7 independently sympy-confirmed (`verification/independent_check_memo53.txt`, a joint-kernel
 computation distinct from the cert). Harvest arc — the cloud seat's memos 52–53
-(`origin/outside-bench` `1544989d`, primary source shared-remote). Integrate-don't-merge. Gate 5
+(`origin/outside-bench` `981f4c33`, primary source shared-remote). Integrate-don't-merge. Gate 5
 untouched. Lock `tests/test_b1150_yukawa_clock_and_family.py`.**
 
 ## The two cells (memos 52–53), reproduce-verified

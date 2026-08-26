@@ -11362,3 +11362,10 @@ GUE gap + leading-order unfolding (clean confirmation = the Gaudin-distribution 
 firewall crossing; Gate 5 untouched. Raw zeros (the ~1.7h scan) + gue_analysis.py committed for cheap
 re-analysis. Two-bench compute split; cloud credited (the preregistered cell + gate). Lock
 test_b1151_gue_larget.py.
+
+**2026-08-26 — PROVENANCE CORRECTION (B1150 primary-source hash).** The B1150 entry above cites
+1544989d (memo 51's tip); memos 52-53 actually sit at 981f4c33 (the corpus-sync tip above it;
+1544989d lacks their certs). The arc's authoritative files (arc_verdict/results/FINDINGS/reproduce.sh)
+and the relay ledger are corrected to 981f4c33. No content was single-homed -- reachable at 981f4c33
+on origin + codeberg (the outside-bench mirror fast-forwarded). Caught by the post-push provenance
+check; the append-only logs keep their original text with this stamp.

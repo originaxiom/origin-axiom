@@ -2,10 +2,10 @@
 # B1150 reproduction runner -- PROVENANCE (per the L183 reproducer-hygiene rule).
 # The certs (yukawa_clock.py = memo 52; family_yukawa.py + vendored e7_ladder.py = memo 53) and their
 # expected outputs are the CLOUD SEAT's self-contained certs. Primary source: origin/outside-bench @
-# 1544989d (fetchable; NOT duplicated here -- the harvest pattern keeps cert code on its source, per
+# 981f4c33 (fetchable; NOT duplicated here -- the harvest pattern keeps cert code on its source, per
 # B1147-B1149). Each cert is stdlib-only (fractions.Fraction, exact); every claim is a preregistered
 # assert, so rc=0 IS the verification. family_yukawa.py exec()s e7_ladder.py, so keep them together.
-# To re-run: git fetch origin claude/outside-bench && git checkout 1544989d -- \
+# To re-run: git fetch origin claude/outside-bench && git checkout 981f4c33 -- \
 #   outside_bench/certificates/{yukawa_clock,family_yukawa,e7_ladder}.py \
 #   outside_bench/outputs/{yukawa_clock,family_yukawa}_out.txt
 # then run against them. reproduce.log records the run on THIS bench (2026-08-26): 2/2 REPRODUCE, rc=0,

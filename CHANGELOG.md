@@ -1,5 +1,16 @@
 # Changelog
 
+## PROVENANCE CORRECTION (2026-08-26): B1150's primary-source hash
+
+The B1150 entry below cites the cloud primary-source hash as `1544989d` — that is **memo 51's** tip
+(correct for B1149), but memos 52–53 sit *above* it at **`981f4c33`** (the corpus-sync tip;
+`1544989d` does not contain their certs). The arc's authoritative files
+(`frontier/B1150_yukawa_clock_and_family/{arc_verdict.json, b1150_results.json, FINDINGS.md,
+verification/reproduce.sh}`) and the relay ledger are corrected to `981f4c33`. **No content was
+single-homed** — the certs are reachable at `981f4c33` on both origin and codeberg (the outside-bench
+mirror was fast-forwarded). Caught by the post-push provenance check; the append-only logs keep their
+original text with this stamp rather than rewriting history.
+
 ## THE LARGE-T GUE TEST (B1151 / C4, 2026-08-26): the preregistered single-GUE gate is NOT met at T=3000 — and the deviation is the superposition (ζ_K = ζ·L(χ₋₃))
 
 The cloud's preregistered spectral cell `c4_gue_larget.py` (`origin/outside-bench`), run on our i9 at

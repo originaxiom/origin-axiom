@@ -1,7 +1,7 @@
 {
  "id": "B1150",
  "title": "THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA: cloud memos 52-53 reproduce-verified -- the unique coupling's depth-selection rule (7 of 7 allowed blocks, odd total depth) and, in the E8 possibility-space, the three-family Yukawa = epsilon_family (x) Jordan-cubic (same-family couplings vanish by root arithmetic)",
- "primary_source": "origin/outside-bench @ 1544989d (shared remote; memos 52-53 + certs yukawa_clock.py, family_yukawa.py, vendored e7_ladder.py + committed outputs)",
+ "primary_source": "origin/outside-bench @ 981f4c33 (shared remote; memos 52-53 + certs yukawa_clock.py, family_yukawa.py, vendored e7_ladder.py + committed outputs)",
  "verification_method": "reproduction -- each self-contained stdlib-exact cert re-run on this bench's pyenv 3.12.1; every claim is a preregistered assert so rc=0 IS the verification; verdict region diffed vs committed outputs (verification/reproduce.log). PLUS an independent sympy joint-kernel check of memo 53's FACT 7 (dim Inv_sl3(3x3x3)=1, totally antisymmetric = epsilon), a computation distinct from the cert (verification/independent_check_memo53.txt).",
  "reproduce": {
   "total_certs": 2,
