@@ -1,0 +1,46 @@
+FACT 1 (sanity): (1-q^j)(1-q^-j) = 2-q^j-q^-j identity holds; J_2 == classical Jones of 4_1: True
+
+FACT 2: Taylor germ d_j of F at q=zeta_3 (x = zeta_3, Phi_3(x)=x^2+x+1=0), NMAX=8:
+  d_0 = 13 + 0*zeta_3   [raw: 13]
+  d_1 = 2 + -2*zeta_3   [raw: 2 - 2*x]
+  d_2 = 2 + -1038*zeta_3   [raw: 2 - 1038*x]
+  d_3 = 772 + -534*zeta_3   [raw: 772 - 534*x]
+  d_4 = -326887 + -327689*zeta_3   [raw: -327689*x - 326887]
+  d_5 = -234676 + -772953*zeta_3   [raw: -772953*x - 234676]
+  d_6 = -232162044 + -588027*zeta_3   [raw: -588027*x - 232162044]
+  d_7 = -803757824 + -590729473*zeta_3   [raw: -590729473*x - 803757824]
+stabilization K_BOUND=27 -> K_BOUND2=36: coefficients unchanged: True
+
+FACT 3: comparison table v_pi( F(xi) - sum_{j<N} d_j (xi-zeta_3)^j ), N=1..8:
+  p=5, r=1, modn=15 (phi=8):  N=1:v=2  N=2:v=0  N=3:v=0  N=4:v=0  N=5:v=0  N=6:v=0  N=7:v=0  N=8:v=0
+  p=5, r=2, modn=75 (phi=40):  N=1:v=2  N=2:v=4  N=3:v=6  N=4:v=8  N=5:v=10  N=6:v=12  N=7:v=14  N=8:v=16
+  p=7, r=1, modn=21 (phi=12):  N=1:v=2  N=2:v=4  N=3:v=6  N=4:v=9  N=5:v=10  N=6:v=13  N=7:v=14  N=8:v=18
+  p=7, r=2, modn=147 (phi=84):  N=1:v=2  N=2:v=4  N=3:v=6  N=4:v=9  N=5:v=10  N=6:v=13  N=7:v=14  N=8:v=18
+
+branch test: at the 3 non-failing levels, v(N) >= N and strictly increasing for all N: True
+branch test: at modn=15 (p=5,r=1), v(1)=2 then v(N)=0 for all N=2..8: True
+
+MEASURED LAW: base-zeta_3 germ coherence TRANSPORTS (v(N) >= N, strictly growing, matching
+the base-1 Ohtsuki law of c2b_ohtsuki_bridge.py) at 3 of the 4 tested levels; it COLLAPSES
+exactly to v(N)=0 for N>=2 at the smallest level (p=5,r=1, modn=15) -- a genuine, exact,
+level-dependent breakdown, not a plateau and not partial growth.
+
+robustness re-run at modn=15 with NMAX_ROBUST=11 (independent germ recomputation): [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+collapse persists beyond the NMAX=8 boundary (not a truncation artifact): True
+
+B3 CLOSED: the exact Taylor germ of the Habiro unified element of 4_1 at
+q = zeta_3 was computed in Q(zeta_3)[eps] (stabilized against a larger term
+count), and compared against exact evaluations at primitive 3*p^r-th roots
+of unity for p in {5,7}, r in {1,2}, entirely by exact resultant/valuation
+arithmetic in the relevant cyclotomic fields. RESULT: neither preregistered
+clean branch held uniformly -- the honest, exact, machine-verified finding
+is a SPLIT: the base-1 Ohtsuki coherence (v(N) >= N, strictly growing)
+TRANSPORTS to base zeta_3 at 3 of 4 tested levels (3*5^2, 3*7^1, 3*7^2,
+with v(N) = 2N exactly at 3*5^2), and COLLAPSES completely and exactly
+(v(N) = 0 for every N >= 2, confirmed stable against a larger germ order)
+at the smallest tested level, 3*5^1 = 15. This resolves the named
+follow-up to memo 40 with a real, exact, level-dependent answer rather
+than a single global verdict -- itself a bankable structural fact about
+where the one-germ property does and does not transport. Placement/
+structure only; Gate 5 (no measured physical constants) untouched
+throughout.

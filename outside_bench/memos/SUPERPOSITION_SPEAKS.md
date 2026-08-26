@@ -68,3 +68,6 @@ The cusp voice's numerator fails the single-spectrum test precisely because
 it is two voices — and when the test is asked the right question, the two
 independent golden-class spectra inside ζ_K answer to within the error of the
 question itself.
+
+### ADDENDUM (2026-08-26, wave-2) — the data note resolved, and the surmise fence updated
+`certificates/zeta_count.py`: the committed ζ file is AUTHORITATIVE — 2469 zeros, strictly increasing, first 10 matching direct recomputation, last entry ζ-zero #2469 at t = 2999.494 < 3000 (Riemann–von Mangoldt N(3000) = 2468.65); B1151's prose "2468" is off by one. And memo 68 (GAUDIN_CLOSE) falsifies this memo's "(a) surmise error" reading of the per-factor residual: under the exact Gaudin law the residual grows slightly; candidate (b), leading-order unfolding, is now the sole named suspect.

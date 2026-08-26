@@ -1,0 +1,33 @@
+data: 2469 zeta zeros (to 2999.49), 2991 L(chi_-3) zeros (to 2998.25)
+unfolded counts: zeta=2468 L=2990 merged=5459   max spacings: 2.468/2.292/3.144
+A0: zeta vs Wigner   D=0.0401 (bank 0.0401) p=0.000685
+A0: L    vs Wigner   D=0.0487 (bank 0.0487) p=1.36e-06
+A0: merged vs single-Wigner D=0.13359 (bank 0.13365) p=2.03e-85
+density fractions (global counts): f_zeta=0.4522 f_L=0.5478
+A0: merged vs 2-fold WIGNER superposition  D=0.02400 (bank 0.02400) p=0.00365
+A0 anchors reproduced -- like-for-like with the banked Wigner-surmise cert.
+
+M1: Nystrom convergence m=40 vs m=80 at s in {0.5,1.5,3.0}: ['1.11e-16', '1.04e-15', '2.27e-17']
+M2: E(0)=1.0000000000 (exact 1)   E'(0)=-0.99999985 (expect -1)
+M2: mean spacing (exact law) = 1.000000 (gate: |.-1|<2e-3)
+M1/M2 passed: Nystrom E(s) converged, normalization/mean confirmed.
+
+G1: zeta alone vs EXACT Gaudin  D=0.0416 (Wigner was 0.0401)  p=0.000384
+G1: L    alone vs EXACT Gaudin  D=0.0502 (Wigner was 0.0487)  p=5.52e-07
+G1 branch: NEGATIVE (real per-factor deviation survives exact law)
+G2 model sanity: sup_cdf(0)=0.0e+00, sup_cdf(6.0)=1.00000000, mean=1.000000
+G2: merged vs EXACT 2-fold GAUDIN superposition  D=0.02441  p=0.00294
+    (Wigner-surmise superposition was D=0.02400; single-Gaudin/Wigner merged D~0.13359)
+C1: zeta alone vs exact-superposition D=0.1803 (vs exact-single 0.0416)
+C1: L    alone vs exact-superposition D=0.1916 (vs exact-single 0.0502)
+
+==============================================================================
+G1 RESULT: NEGATIVE branch. The exact Gaudin law does NOT clear the
+per-factor residual (D=0.0416/0.0502, p=0.000384/5.52e-07) below the
+p>0.01/D-improvement gate -- banked as a real, surmise-independent
+per-factor deviation from GUE bulk statistics.
+G2: merged vs exact 2-fold superposition D=0.02441 p=0.00294
+    vs banked Wigner-surmise superposition D=0.02400 p=0.00365
+C1 control: single factors fit exact-single at least as well as exact-superposition -- PASS
+Gate 5: no measured physical constants used (pure zero-data + closed-form kernel).
+==============================================================================

@@ -1,0 +1,72 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+nonzero nilpotent characteristics found: 20 (CONTROL: expect 20)
+fact (1) VERIFIED: all 20 triples satisfy [e,f]=h, [h,e]=2e, [h,f]=-2f exactly.
+
+computed orbit-dimension multiset (sorted, exact): [22, 32, 40, 42, 46, 48, 50, 52, 54, 56, 58, 60, 60, 62, 64, 64, 66, 68, 70, 72]
+reference draft multiset (sorted):                 [22, 32, 40, 42, 46, 48, 50, 52, 54, 54, 56, 58, 60, 60, 62, 64, 64, 66, 68, 70]
+MATCH with reference draft: False (expected False -- filed as data per protocol, see ERROR LOG in docstring)
+Kostant check PASSED: dim z(e_regular) = 6 = rank(E6) = 6; regular orbit dim = 78-6 = 72.
+minimal-orbit check PASSED: min computed dim = 22 = 2*h^vee(E6)-2 = 2*12-2 = 22.
+evenness check PASSED: all 20 computed orbit dimensions are even.
+fact (2) VERIFIED (corrected form): computed multiset disagrees with the reference draft exactly where Kostant's theorem independently pins the regular-orbit value to 72 (not 70), corroborating the computation rather than the reference draft.
+
+THE 20-ROW TABLE (characteristic c -> exact orbit dim, 78 - dim ker(ad e)):
+label c               dim O_e
+(0, 1, 0, 0, 0, 0)         22
+(1, 0, 0, 0, 0, 1)         32
+(0, 0, 0, 1, 0, 0)         40
+(0, 2, 0, 0, 0, 0)         42
+(1, 1, 0, 0, 0, 1)         46
+(2, 0, 0, 0, 0, 2)         48
+(0, 0, 1, 0, 1, 0)         50
+(1, 2, 0, 0, 0, 1)         52
+(1, 0, 0, 1, 0, 1)         54
+(0, 1, 1, 0, 1, 0)         56
+(0, 0, 0, 2, 0, 0)         58
+(0, 2, 0, 2, 0, 0)         60
+(2, 2, 0, 0, 0, 2)         60
+(1, 1, 1, 0, 1, 1)         62
+(1, 2, 1, 0, 1, 1)         64
+(2, 1, 1, 0, 1, 2)         64
+(2, 0, 0, 2, 0, 2)         66
+(2, 2, 0, 2, 0, 2)         68
+(2, 2, 2, 0, 2, 2)         70
+(2, 2, 2, 2, 2, 2)         72
+
+position-by-position diff (computed dim vs reference-draft dim, both ascending):
+  # 1  c=(0, 1, 0, 0, 0, 0)   computed= 22  reference-draft= 22  agree
+  # 2  c=(1, 0, 0, 0, 0, 1)   computed= 32  reference-draft= 32  agree
+  # 3  c=(0, 0, 0, 1, 0, 0)   computed= 40  reference-draft= 40  agree
+  # 4  c=(0, 2, 0, 0, 0, 0)   computed= 42  reference-draft= 42  agree
+  # 5  c=(1, 1, 0, 0, 0, 1)   computed= 46  reference-draft= 46  agree
+  # 6  c=(2, 0, 0, 0, 0, 2)   computed= 48  reference-draft= 48  agree
+  # 7  c=(0, 0, 1, 0, 1, 0)   computed= 50  reference-draft= 50  agree
+  # 8  c=(1, 2, 0, 0, 0, 1)   computed= 52  reference-draft= 52  agree
+  # 9  c=(1, 0, 0, 1, 0, 1)   computed= 54  reference-draft= 54  agree
+  #10  c=(0, 1, 1, 0, 1, 0)   computed= 56  reference-draft= 54  DIFFERS
+  #11  c=(0, 0, 0, 2, 0, 0)   computed= 58  reference-draft= 56  DIFFERS
+  #12  c=(0, 2, 0, 2, 0, 0)   computed= 60  reference-draft= 58  DIFFERS
+  #13  c=(2, 2, 0, 0, 0, 2)   computed= 60  reference-draft= 60  agree
+  #14  c=(1, 1, 1, 0, 1, 1)   computed= 62  reference-draft= 60  DIFFERS
+  #15  c=(1, 2, 1, 0, 1, 1)   computed= 64  reference-draft= 62  DIFFERS
+  #16  c=(2, 1, 1, 0, 1, 2)   computed= 64  reference-draft= 64  agree
+  #17  c=(2, 0, 0, 2, 0, 2)   computed= 66  reference-draft= 64  DIFFERS
+  #18  c=(2, 2, 0, 2, 0, 2)   computed= 68  reference-draft= 66  DIFFERS
+  #19  c=(2, 2, 2, 0, 2, 2)   computed= 70  reference-draft= 68  DIFFERS
+  #20  c=(2, 2, 2, 2, 2, 2)   computed= 72  reference-draft= 70  DIFFERS
+
+11/20 positions agree with the reference draft; disagreement begins exactly at the point where the draft's duplicated-54 / missing-72 transcription error takes effect.
+
+CELL A6 SUMMARY: 20/20 sl2 triples rebuilt exactly; 20/20 exact centralizer ranks computed;
+orbit-dimension multiset = [22, 32, 40, 42, 46, 48, 50, 52, 54, 56, 58, 60, 60, 62, 64, 64, 66, 68, 70, 72].
+This computed multiset, not the mistranscribed reference draft, is the certified result;
+it is independently corroborated by Kostant's theorem (regular orbit = dim g - rank = 72)
+and by the minimal-orbit formula (2*h^vee-2 = 22), both CITED, plus universal evenness.
+FENCE: corroboration of cited completeness (20 nonzero orbits) via independent exact
+       dimension data; NOT a completeness proof. Jacobson-Morozov and the theorem that
+       the dominant characteristic is a complete conjugacy invariant remain CITED.
