@@ -11629,3 +11629,28 @@ everything the observer supplies is archimedean (∞-place = where gravity lives
 candidate for the gravitational marking (placement, not the identification — the §E hypothesis). Residues
 flagged (single-torsor; observer=gravity). Own-verified. Gate 5 clean; no crossing. cloud's five + codex MC1
 still running. Locks `tests/test_b1164_cc_masterplan.py` (8 tests).
+
+## B1165 (2026-08-26) — the terminal gravity close (§E): GENERIC-RHYME, gravity is the WHERE
+The owner-directed terminal probe of gravity, run to a typed close. **Verdict NEGATIVE, seal GENERIC-RHYME:**
+the observer's archimedean closing is CO-LOCATED with the object's gravitational sector at the ∞-place, NOT
+object-specifically identical — the §E identification hypothesis is refuted. Adjudicated adversarially (the
+bench over-reached on this framing twice this session; MATCH not forced). The ∞-place map (5 invariants: Vol
+= the on-shell Λ<0 3d-gravity action = Im SL(2,ℂ) CS complex volume, CS≡0 by amphichirality; geodesic length
+spectrum; Ruelle/Selberg zeta = 1-loop; Ray–Singer torsion = graviton 1-loop; Laplacian/Maass). **The
+dynamics is GENERIC-RHYME** — holonomy+Vol only, survives m004→non-arithmetic-knot verbatim (B1157 three-seat;
+B850 across the non-arithmetic control m015=5₂). **The arithmetic enters at exactly one non-dynamical spot** —
+the static scalar Vol=(3√3/2)L(χ₋₃,2)=9√3·ζ_K(2)/π² (own-verified three ways to 50 dps,
+2.0298832128193072500424051085490405718833786150606), three-tier-bounded (generic-in-form by Borel;
+object-specific only in *which* grammar, m004 the unique arithmetic knot per Reid; a re-labeling, no
+mechanism). Both archimedean data generic: orientation (+Vol sign, Bloch–Wigner odd, a bare ℤ/2) + scale
+(ℂˣ/dilaton, the dimensionful bit the scale-free object cannot emit) → SUPPLIED-not-identified. **Scale wall
+CONFIRMED** (every sector invariant dimensionless; B660/B666/B167/B936). **The definitional fork = the
+terminal boundary** (B1163): a Mostow-canonical structure object emitting dimensionless, un-oriented geometry,
+and an observer that is the archimedean closing — co-located at the same ∞-place but generic. Sits on the
+adelic observer (B1164 price reconciliation): §E is the archimedean half. Predicts cloud ME2 (ablation): swap
+m004→5₂ reproduces the whole dynamical sector, breaks only the Vol=L-value avatar; a dynamical invariant that
+also tracked the arithmetic would overturn toward MATCH — the one live check. **§E CLOSED (terminal).** Review
+note: SnapPy's `isometry_signature` returns amphichiral=True for the chiral 5₂, so the B1163 family-wide 4/14
+spot-check was likely vacuous (that result rests on cc3's check_family.py 7/7 + m004's symmetry-group
+amphicheirality). Own-verified; kill_graph routed (genericity, companion to B1157/B1163); Gate 5 clean. Locks
+tests/test_b1165_gravity_terminal.py (10 tests).

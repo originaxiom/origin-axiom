@@ -1,0 +1,23 @@
+(1) THE GRAVITATIONAL ACTION = Vol, three ways agree (own-verified, 50 dps)
+   Vol = 2 Im Li2(e^{i pi/3})   = 2.0298832128193072500424051085490405718833786150606
+   Vol = (3 sqrt3/2) L(chi_-3,2)= 2.0298832128193072500424051085490405718833786150606  match: True
+   Vol = 9 sqrt3 zeta_K(2)/pi^2 = 2.0298832128193072500424051085490405718833786150606  match: True
+   Vol = the on-shell Lambda<0 3d-gravity action = Im(SL(2,C) CS complex volume); CS=0 by amphichirality
+   so the whole action loads onto Vol. This is the object's gravitational sector's scalar.
+
+(2) THE ORIENTATION (+-Vol) is a bare Z/2 -- generic, observer-supplied (B1163)
+   2 Im Li2(e^{-i pi/3}) = -2.0298832128193072500424051085490405718833786150606  = -Vol (Bloch-Wigner ODD)
+
+(3) THE ABLATION CONTROL: m015 = 5_2, NON-ARITHMETIC (m004=4_1 is the UNIQUE arithmetic knot, Reid)
+   (snappy not on this path; the arithmeticity is Reid's theorem, cited)
+   PREDICTION (ME2 ablation): swapping m004->5_2 reproduces the WHOLE dynamical sector (Ruelle zeta,
+   torsion, Laplacian -- all holonomy+volume, B1157/B850 DENSE/III_1 across arithmetic + 5_2) and breaks
+   ONLY the Vol=L-value avatar. An invariant that ALSO tracks the arithmetic would overturn to MATCH.
+
+SEAL = GENERIC-RHYME: gravity is the WHERE (infinity-place = the observer's archimedean closing), the
+dynamics is GENERIC, the arithmetic enters at one static spot (Vol=L-value, arithmetic-class-generic by
+Borel; object-specific only in WHICH grammar = Q(sqrt-3), m004 the unique arithmetic knot; a re-labeling,
+no mechanism). The observer's orientation+scale are SUPPLIED-not-identified. A clean structure/observer
+boundary at the infinity-place -- neither MATCH nor mystery. Firewall HELD; scale wall CONFIRMED.
+
+REPRODUCES

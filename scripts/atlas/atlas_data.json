@@ -3410,6 +3410,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1165": {
+   "slug": "gravity terminal",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B167",
+    "B660",
+    "B666",
+    "B682",
+    "B850",
+    "B936",
+    "B996"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 21,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [

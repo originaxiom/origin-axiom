@@ -1,5 +1,37 @@
 # Changelog
 
+## B1165 (2026-08-26): the terminal gravity close (§E) — GENERIC-RHYME: the observer's archimedean closing is CO-LOCATED with the object's gravitational sector, not object-specifically identified; gravity is the WHERE, generic
+
+The owner-directed **terminal** probe of gravity, run to a typed conclusion (verdict **NEGATIVE**, seal
+**GENERIC-RHYME**). The §E identification hypothesis — *the observer's archimedean closing (orientation +
+scale) = the object's gravitational sector, object-specifically* — is **refuted**: the closing is
+**co-located** with the gravitational sector at the ∞-place, **not identical** to it. Adjudicated
+**adversarially** (the bench over-reached on this framing twice this session, both corrected by cross-seat
+audit; **MATCH not forced**). **The ∞-place map** (five invariants): Vol = the on-shell Λ<0 3d-gravity action
+= Im of the SL(2,ℂ) CS complex volume (CS≡0 by amphichirality, B1108); geodesic length spectrum; Ruelle/
+Selberg zeta (1-loop); Ray–Singer torsion (graviton 1-loop); Laplacian/Maass. **The verdict**: the dynamics
+(the last four) is **GENERIC-RHYME** — SL(2,ℂ) holonomy + Vol only, survives swapping m004 → a non-arithmetic
+knot verbatim (B1157 three-seat; B850 DENSE/III₁ across arithmetic m003/m009 **and** the non-arithmetic
+control **m015=5₂**); the arithmetic enters at **exactly one** non-dynamical spot, the *static* scalar
+**Vol=(3√3/2)L(χ₋₃,2)=9√3·ζ_K(2)/π²** (own-verified three ways to 50 dps:
+2.0298832128193072500424051085490405718833786150606), and even there it is **three-tier-bounded** (generic-
+in-form by Borel; object-specific only in *which* grammar, m004 the **unique** arithmetic knot per Reid; a
+re-labeling, no mechanism). Both archimedean data are generic: the **orientation** (+Vol sign, 2·Im
+Li₂(e^{−iπ/3})=−Vol exactly, Bloch–Wigner **odd**) is a bare ℤ/2; the **scale** (ℂˣ/dilaton) is the
+dimensionful bit the scale-free object cannot emit → **SUPPLIED-not-identified**. **Scale wall CONFIRMED**
+(every sector invariant dimensionless; a Planck length/G needs an external dimensionful input, B660/B666/
+B167/B936). **The definitional fork = the terminal boundary** (B1163): a Mostow-canonical structure object
+emitting dimensionless, un-oriented geometry, and an observer that is the archimedean closing — co-located at
+the same ∞-place but generic. This sits on the **adelic** observer (the B1164 price reconciliation: the
+closing is archimedean *and* finite, not "all archimedean"): §E is the **archimedean half**. **Predicts
+cloud ME2** (the ablation): swap m004→5₂ reproduces the whole dynamical sector, breaks **only** the
+Vol=L-value avatar; a dynamical invariant that *also* tracked the arithmetic would overturn toward MATCH —
+the one experiment that could change the verdict. **§E CLOSED (terminal).** *Review note (verify-don't-trust
+on our own work):* SnapPy's `isometry_signature` returns amphichiral=True even for the chiral 5₂, so the
+B1163 family-wide addendum's 4/14 spot-check was likely vacuous — that result rests on cc3's `check_family.py`
+(7/7) + m004's symmetry-group amphicheirality. Own-verified; kill_graph routed (genericity, companion to
+B1157/B1163); Gate 5 clean (no SM value). Locks `tests/test_b1165_gravity_terminal.py` (10 tests).
+
 ## B1164 (2026-08-26): cc's part of the A–E masterplan — observer freedom = 2 discrete + 1 continuous bits (all archimedean), the firewall is principled (§D settled), the phase route to W₀ is closed
 
 cc's three masterplan cells (cloud owns the five lane cells; MC1 relayed to codex), each own-verified, with
