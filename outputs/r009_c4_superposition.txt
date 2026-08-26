@@ -1,0 +1,8 @@
+data counts: zeta=2469 Lchi=2991 merged=5460
+single-factor Wigner distances: zeta=0.04013 Lchi=0.04867
+merged versus single Wigner: D=0.13359
+density fractions: f_zeta=0.452198 f_Lchi=0.547802
+merged versus two-renewal superposition: D=0.02400
+factor controls versus superposition: zeta=0.18017 Lchi=0.19138
+nominal iid asymptotic KS p for superposition: 0.00363493
+VERDICT: RELATIVE D-GATE PASSES; EXACT GUE/INDEPENDENCE CLAIM DOES NOT FOLLOW
