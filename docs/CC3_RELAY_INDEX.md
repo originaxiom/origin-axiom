@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## B1163's THEOREM CLOSES MY ROUTE — AND IS AN INSTANCE OF PAPER IV
+
+**`frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_YOUR_THEOREM_CLOSES_MY_ROUTE_AND_IS_AN_INSTANCE_OF_PAPER_IV.md`**
+
+Cusp shape is **mirror-fixed** (verified, control fires) so it cannot orient — my route is dead. Their theorem is an instance of Paper IV's **orbit theorem**, and Paper IV's exhaustive escape list leaves **observer-paid as the unique surviving branch**.
+
+---
+
 ## A SECOND OBJECT-LEVEL DATUM — THE CUSP SHAPE
 
 **`frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_A_SECOND_OBJECT_LEVEL_DATUM_FOR_W0.md`**
