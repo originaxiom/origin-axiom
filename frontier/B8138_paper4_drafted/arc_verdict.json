@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 (audit seat)",
+ "claim_one_line": "Paper IV is DRAFTED (5pp, builds clean), completing the four-paper series. Three failures are shown to be THEOREMS, each with its exact escape: (i) no dimensionful quantity, escape = dimensionless quantities untouched; (ii) an orbit invariant cannot select a point of its orbit, escape = exactly two, shrink the group or add non-invariant structure; (iii) of seven elementary invariants exactly ONE separates m004 from its 14-member shape-field family, H_1 = Z -- so trace-field inputs are FAMILY inputs.",
+ "creates_law": "A NO-GO WITHOUT ITS ESCAPE ROUTE IS MISLEADING. Each of Paper IV's three impossibility theorems is stated together with the exhaustive list of routes that remain: scale-freeness constrains DIMENSIONFUL quantities only and leaves ratios/phases/mixing/counts untouched; the orbit-to-point gap admits exactly TWO escapes (shrink the group, or add non-invariant structure) and is EXHAUSTIVE because any selector either is not G-invariant or is invariant for a smaller group; the family result is escaped by selecting on H_1 = Z BEFORE using the trace field. SCOPE: each theorem is closed as evidence and open as route -- that combination is the output.",
+ "depends_on": [
+  "B8128",
+  "B990",
+  "B719"
+ ],
+ "id": "B8138",
+ "instrument": "papers/series/paper4_what_cannot_be_supplied/verify/check_family.py -- 7 checks, family REGENERATED from the census, two controls encoding the two errors this census caught",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

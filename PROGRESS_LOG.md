@@ -11033,3 +11033,20 @@ The theory is parameter-free in a strong sense: recomputed independently, the sa
 Novelty is disclaimed. DGG built T[4_1], Andersen-Kashaev built the state integral, and 2+1 gravity with negative Lambda is standard. What was done here is assembly and verification, plus the removal of an ambiguity the corpus had created itself.
 
 What is not finished is the one-loop partition function, with three named residues. Also recorded: the first run of this arc failed a control and was nearly banked, because stderr was suppressed and the output read through tail; and the failing control was itself a false negative caused by str() truncating a SnapPy Number to eleven digits.
+
+## B8135 — Paper I drafted; the series plan's spine corrected
+
+Drafted Paper I (7pp, 15/15 with live controls, **896 sampled matrices rather than the representatives alone**). Sharpened the selection theorem from `det(A²−I) = −m²` to the integer identity **`A² − I = mA`**, which pins the invariant factors instead of only the order — the determinant route leaves a cyclic `ℤ/m²` open. **Corrected my own `SERIES_PLAN.md`: Paper I does not answer the map's `geometry` domain — all 17 of those rows are heterotic bundle geometry. Its anchors are one REFUTED and two CONDITIONAL rows, and the paper states that in Appendix B.** Flagged an unresolved `m = 12` class-count disagreement in the paper rather than suppressing it. Also flagged that commit `6adfc736`'s subject line carries the token the `attribution` gate forbids in tracked files; the gate scans file contents, not commit messages, so it is green while the rule is broken.
+
+## B8136 — Paper II drafted; C is forced, and I had the group wrong
+
+Re-ran B8078's reproducer to completion (exit 0, ALL CHECKS PASS) before drafting. Paper II makes the sample-versus-enumeration point its thesis: an upper-semicontinuous invariant on an infinite lattice cannot be sampled, but can be enumerated once its jumps are recognised as a hyperplane arrangement — 30 hyperplanes in a 4-space, 109 flats, eleven values, all attained. **Added a forcing proposition B8078 did not have: `C` is the unique subspace spanned by `2T`-invariants sitting in principal-`sl₂` summands, with `2O` and `2I` as controls that give different answers.** That came out of correcting my own draft, which called the invariants **binary octahedral** throughout; `2O` is 8,12,18, while the 6,8,12 actually in use are `2T` — `E₆`'s McKay partner. The correction strengthened the paper.
+
+## B8137 — Paper III drafted; the source arc had no code
+
+Drafted Paper III (6pp) on the graviton/Ruelle identity and the three residues. Re-ran `dictionary.py` (exit 0) before using it. **Discovered that B8129 and B8130 were banked as results with no reproducer in the tree** — so the paper's numerical section had nothing behind it. Wrote one independently from the banked method description and promoted the bite control to an abort, so the script cannot report a smooth curve above the abscissa without first demonstrating it diverges below. Recorded that my spreads differ ~3% from banked rather than tuning to match.
+
+## B8138 — Paper IV drafted; the series is complete
+
+Drafted Paper IV (5pp), the negatives paper the plan puts last on purpose. Wrote its census reproducer to **regenerate** the 14-manifold family rather than read B8128's stored list; it reproduces that table exactly, and its two controls encode the two errors the census originally caught. **Added a check the paper's own table needed: amphichirality is shared with all thirteen others — I had asserted it without testing it, and the script now tests it.** The series stands at four drafted papers, I through IV.
+

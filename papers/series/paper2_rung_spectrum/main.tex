@@ -1,0 +1,480 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\theoremstyle{remark}
+\newtheorem{scope}[theorem]{Scope}
+
+\newcommand{\g}{\mathfrak{g}}
+\newcommand{\esix}{\mathfrak{e}_6}
+\newcommand{\slt}{\mathfrak{sl}_2}
+\newcommand{\z}{\mathfrak{z}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\ad}{\operatorname{ad}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\charpoly}{\operatorname{charpoly}}
+\newcommand{\SU}{\operatorname{SU}}
+
+\title{A finite spectrum on an infinite lattice:\\
+centraliser dimensions for a four-dimensional abelian\\
+subalgebra of $\esix$, and why sampling cannot find them}
+\author{}
+\date{26 August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let $C\subset\esix$ be the four-dimensional abelian subalgebra spanned by highest-weight
+vectors for the principal $\slt$-summands of exponents $4,7,8,11$, with coefficients supplied
+by the binary tetrahedral invariant forms of degrees $8,14,16,22$. We study the function
+$S\mapsto\dim\z(S)$ on the subspace lattice of $C$.
+
+That lattice is infinite, so no sample determines the function. We show its image is
+nevertheless finite and exactly computable. The mechanism is a structure theorem, exact over
+$\Q$: the adjoint action of $C$ makes $\esix=\z(C)\oplus V'$ with $C$ acting as \emph{literally
+zero} --- not merely nilpotently --- on the $12$-dimensional summand $\z(C)$, and the $66$
+non-zero weights fall into three Galois orbits, of sizes $6,12,12$ and multiplicities $3,1,3$.
+Consequently, for \emph{every} subspace $S\subseteq C$,
+\[
+   \dim\z(S)\;=\;12+\sum\bigl\{\,m_\lambda \;:\; \lambda|_S=0\,\bigr\},
+\]
+so the function is the flat-function of an arrangement of $30$ hyperplanes in a $4$-dimensional
+space. Enumerating the $109$ flats gives the image exactly:
+\[
+   \{12,\,14,\,16,\,18,\,20,\,26,\,28,\,30,\,36,\,46,\,78\},
+\]
+eleven values, every one attained. A prior sample --- sixteen coordinate subspaces together
+with $440$ random rational directions --- had returned only $\{12,30,78\}$. We explain the
+discrepancy: the eight missing values are supported on proper subvarieties, which a random
+rational direction misses with probability one. The extreme case is $46$, which on a
+distinguished plane occurs exactly on the roots of an irreducible rational cubic, and so is not
+merely rare over $\Q$ but \emph{arithmetically inaccessible} over $\Q$; that cubic acquires a
+root in, and generates, the cubic field $K=\Q[x]/(x^3-12x-5)$. The structure theorem, the
+weight orbits, the master formula and the cubic are exact over $\Q$; the flat enumeration is
+exhaustive at three faithful primes and is stated as such.
+\end{abstract}
+
+\section{Introduction}
+
+\subsection{The problem}
+
+Let $\g$ be a semisimple Lie algebra and $C\subseteq\g$ an abelian subalgebra. For a subspace
+$S\subseteq C$ write $\z(S)=\{X\in\g:[X,S]=0\}$. The assignment $S\mapsto\dim\z(S)$ is a
+function on the subspace lattice of $C$, and when $\dim C\ge2$ that lattice is infinite: it
+contains a projective space of lines. So the function cannot be tabulated, and any finite
+computation is a sample.
+
+Samples of this function are systematically misleading, and the reason is structural rather
+than statistical. $\dim\z(S)$ is upper semicontinuous: it jumps \emph{up} on closed subvarieties
+of the Grassmannian and takes its minimum on a dense open set. A finite sample of rational
+points therefore sees the generic value, plus whichever special values happen to lie on
+coordinate subspaces one thought to try. It cannot see the rest, and no enlargement of the
+sample repairs this.
+
+This paper computes the function exactly for one specific $C$, by replacing the sample with an
+enumeration of a hyperplane arrangement.
+
+\subsection{The subalgebra}\label{sec:C}
+
+Under a principal $\slt\subseteq\esix$, the adjoint representation decomposes into irreducible
+summands of dimensions $2m_i+1$ where $m_i\in\{1,4,5,7,8,11\}$ are the exponents of $E_6$
+\cite{Kostant}; the dimensions are therefore $3,9,11,15,17,23$.
+
+\begin{definition}\label{def:C}
+Recall that the space of binary forms of degree $n$ in $x,y$ \emph{is} the irreducible
+$\slt$-representation of dimension $n+1$, with $\slt$ acting by the usual differential
+operators. Under the principal $\slt$, the summands of $\esix$ of exponents $4,7,8,11$ have
+dimensions $9,15,17,23$, hence are the spaces of binary forms of degrees $8,14,16,22$
+respectively.
+
+Let
+\[
+   t=x^5y-xy^5\ (\deg 6),\qquad \Phi=x^8+14x^4y^4+y^8\ (\deg 8)
+\]
+be two of Klein's binary tetrahedral forms. The four products
+\[
+   \Phi\ (\deg 8),\qquad t\Phi\ (\deg 14),\qquad \Phi^2\ (\deg 16),\qquad t\Phi^2\ (\deg 22)
+\]
+have exactly the four degrees above, so each is canonically an element of the corresponding
+$\esix$-summand. Write $x_8,x_{14},x_{16},x_{22}\in\esix$ for these elements and set
+\[
+   C=\langle x_8,\;x_{14},\;x_{16},\;x_{22}\rangle .
+\]
+No choice of normalisation is involved beyond that of the principal $\slt$ itself: the
+identification of degree-$n$ forms with the $(n+1)$-dimensional summand is canonical up to the
+overall scalar on each summand, and every statement below is invariant under rescaling the
+individual $x_n$.
+\end{definition}
+
+The four degrees are not a selection. The binary tetrahedral group $2T\subset\SU(2)$ is the
+McKay partner of $E_6$, and its invariant ring is generated in degrees $6,8,12$
+\cite{Klein,McKay}. Comparing that list of realisable degrees with the degrees of the principal
+$\slt$-summands of $\esix$ leaves no freedom:
+
+\begin{proposition}[the subalgebra is forced by degree matching]\label{prop:forced}
+Let $D=\{6a+8b+12c: a,b,c\ge0\}$ be the set of degrees of $2T$-invariant binary forms, and let
+$E=\{2,8,10,14,16,22\}$ be the degrees of the principal $\slt$-summands of $\esix$. Then
+\[
+   D\cap E=\{8,\,14,\,16,\,22\},
+\]
+the excluded degrees being $2$ and $10$ --- the exponents $1$ and $5$ --- which are not degrees
+of any $2T$-invariant. Moreover each element of $D\cap E$ is realised by a \emph{unique}
+monomial in the generators, namely
+\[
+   8\mapsto\Phi,\qquad 14\mapsto t\Phi,\qquad 16\mapsto\Phi^2,\qquad 22\mapsto t\Phi^2 ,
+\]
+none of which involves the degree-$12$ generator. Hence $C$ of Definition~\ref{def:C} is, up to
+scaling each summand, the \emph{unique} subspace of $\esix$ spanned by $2T$-invariant forms
+sitting in principal $\slt$-summands.
+\end{proposition}
+
+\begin{proof}
+$D$ contains every even integer $\ge6$ except $10$: $6,8,12,14,16,18,\dots$ are realised by
+$t,\Phi,t^2,t\Phi,\Phi^2,t^3,\dots$, while $10=6a+8b+12c$ has no solution in non-negative
+integers, and neither does $2$. Intersecting with $E$ gives $\{8,14,16,22\}$. Uniqueness of the
+monomial: for $8$, $6a+8b+12c=8$ forces $(a,b,c)=(0,1,0)$; for $14$, $(1,1,0)$; for $16$,
+$(0,2,0)$; for $22$, $(1,2,0)$ --- in each case by inspection, since $c\ge1$ already exceeds the
+target in the first two cases and leaves $4$ or $10$, neither in $D\cup\{0\}$, in the others.
+\end{proof}
+
+\begin{remark}[the partner does the work]
+Running the same degree-intersection for the other two binary polyhedral groups shows the
+matching is not a coincidence of arithmetic that any group would produce. Against $\esix$'s
+summand degrees $\{2,8,10,14,16,22\}$:
+\[
+   D(2T)\cap E=\{8,14,16,22\},\qquad D(2O)\cap E=\{8,16\},\qquad D(2I)\cap E=\varnothing .
+\]
+The $E_6$ partner yields a four-dimensional $C$; the $E_7$ partner would yield only a
+two-dimensional one, and the $E_8$ partner nothing at all.
+\end{remark}
+
+\begin{remark}
+So the construction reads: \emph{take the finite group whose McKay partner is $E_6$, and place
+its invariants inside $\esix$ wherever the degrees allow}. That determines $C$ completely. This
+does not make $C$ canonical in an absolute sense --- it still depends on the principal $\slt$,
+which is an input --- but it removes the suspicion that four summands were picked to obtain a
+convenient answer.
+\end{remark}
+
+\begin{proposition}\label{prop:abelian}
+$C$ is a four-dimensional abelian subalgebra of $\esix$: all six pairwise brackets vanish
+identically, and $\dim\z(C)=12$. Both statements are exact over $\Q$.
+\end{proposition}
+
+The exponents used are $4,7,8,11$ --- all six exponents of $E_6$ except $1$ and $5$, these
+being exactly the ones for which the tetrahedral products above have matching degree.
+Nothing below depends on \emph{why} this particular $C$ is of interest; the results are
+statements about the $C$ of Definition~\ref{def:C}, and the reader may take it as given.
+
+\subsection{Results}
+
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Theorem~\ref{thm:structure}} (structure, exact over $\Q$). $\esix=\z(C)\oplus V'$
+      with $C$ acting as zero on $\z(C)$; the characteristic polynomial of a generic
+      $R\in\ad(C)$ is $t^{12}q_6^{3}q_{12}q_{12}'^{3}$; the $66$ non-zero weights form three
+      Galois orbits with $(\text{size},\text{multiplicity})=(6,3),(12,1),(12,3)$.
+\item \textbf{Theorem~\ref{thm:master}} (the master formula). For every $S\subseteq C$,
+      $\dim\z(S)=12+\sum\{m_\lambda:\lambda|_S=0\}$. The function is the flat-function of $30$
+      hyperplanes in a $4$-space.
+\item \textbf{Theorem~\ref{thm:spectrum}} (the image). The arrangement has $109$ flats, and the
+      image is the eleven-element set $\{12,14,16,18,20,26,28,30,\allowbreak 36,46,78\}$ ---
+      every value attained.
+\item \textbf{Theorem~\ref{thm:46}} (arithmetic inaccessibility). On the $(x_8,x_{16})$-plane,
+      $\dim\z(a x_8+b x_{16})=30$ unless $-b/a$ is a root of an explicit irreducible cubic
+      $g\in\Q[t]$, in which case it is $46$. Since $g$ is irreducible over $\Q$, \emph{every}
+      rational direction in that plane gives $30$. The multiplicity $16=46-30$ is derived, as
+      the exponent in $\charpoly(Q)=c\,g(t)^{16}$, not recorded as a difference.
+\item \textbf{Corollary~\ref{cor:sampling}} (why the sample failed). A sample of rational
+      directions returns the generic value with probability one on each stratum it does not meet
+      by design; the prior sample's $\{12,30,78\}$ is exactly what the coordinate subspaces
+      force, and the other eight values are invisible to it. The sample was not unlucky --- it
+      was the wrong instrument.
+\end{itemize}
+
+\subsection{What is certified how}\label{sec:certification}
+
+We separate two grades of evidence and never merge them.
+
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Exact over $\Q$:} Proposition~\ref{prop:abelian}; Theorem~\ref{thm:structure} in
+      full; Theorem~\ref{thm:master}; Theorem~\ref{thm:46} including the cubic, its
+      irreducibility, its discriminant and the field it generates.
+\item \textbf{Exhaustive at three faithful primes} ($p=409,421,487$): the count of $109$ flats
+      and hence the eleven-element image of Theorem~\ref{thm:spectrum}. This is \emph{not} a
+      $\overline{\Q}$ certificate. Reduction modulo $p$ can only \emph{add} linear dependencies
+      among weights, so a flat computed mod $p$ could in principle be coarser than its
+      characteristic-zero counterpart. Three independent faithful primes agree on all $109$
+      flats, and six of the eleven values are corroborated by independent computations sharing
+      no code with this one; the exact-over-$\overline{\Q}$ flat lattice is nevertheless
+      registered as an open residue rather than claimed. See Scope~\ref{sc:primes}.
+\end{itemize}
+
+\section{The structure theorem}\label{sec:structure}
+
+\begin{theorem}[structure of the adjoint action of $C$]\label{thm:structure}
+With $C$ as in Definition~\ref{def:C}:
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.4em]
+\item $\dim\z(C)=12$, and the generalised zero-eigenspace of $\ad(C)$ \emph{equals} $\z(C)$;
+      equivalently $C$ acts as literally zero on $\z(C)$, not merely nilpotently.
+\item $\esix=\z(C)\oplus V'$ as $C$-modules, with $\dim V'=66$.
+\item For generic $R\in\ad(C)$,
+      $\charpoly(R)=t^{12}\,q_6(t)^{3}\,q_{12}(t)\,q_{12}'(t)^{3}$, where $q_6$ has degree $6$
+      and $q_{12},q_{12}'$ have degree $12$.
+\item The $66$ non-zero weights of $C$ on $V'$ consist of $30$ distinct linear functionals on
+      $C\cong\Q^4$, falling into three Galois orbits:
+      \[
+        6\text{ weights of multiplicity }3,\quad
+        12\text{ of multiplicity }1,\quad
+        12\text{ of multiplicity }3,
+      \]
+      accounting for $18+12+36=66$ dimensions, and $12+66=78=\dim\esix$.
+\end{enumerate}
+All four statements are exact over $\Q$.
+\end{theorem}
+
+Statement (i) is the one that makes everything else work, and it is not automatic: for a general
+abelian subalgebra the generalised zero-eigenspace is strictly larger than the centraliser, and
+then the weight decomposition acquires Jordan blocks and the counting below fails. Here the
+action on $\z(C)$ is identically zero, so $V'$ is a genuine sum of weight spaces.
+
+\begin{proof}[Method]
+The four charges are built explicitly over $\Q$ from $\slt$-lowering applied to highest-weight
+vectors, in a fixed Chevalley basis of $\esix$ with $72$ roots. Brackets, the nullspace computing
+$\z(C)$, the generalised zero-eigenspace, and the characteristic polynomial of a generic member
+of $\ad(C)$ are all computed symbolically over $\Q$; factorisation of the characteristic
+polynomial into $t^{12}q_6^3q_{12}q_{12}'^3$ and the resulting orbit structure are exact. Each
+step is gated by a control that must be able to fail --- among them, that the six weights of
+total multiplicity $18$ vanishing on the $(x_8,x_{16})$-plane reproduce an independently banked
+value $12+18=30$ that was not chosen here. See Appendix~\ref{app:verify}.
+\end{proof}
+
+\section{The master formula}\label{sec:master}
+
+\begin{theorem}[the rung function is a flat-function]\label{thm:master}
+Let $\Lambda\subset C^*$ be the set of $30$ non-zero weights of Theorem~\ref{thm:structure}(iv),
+with multiplicities $m_\lambda$. Then for every subspace $S\subseteq C$,
+\[
+   \dim\z(S)\;=\;12+\sum_{\substack{\lambda\in\Lambda\\ \lambda|_S=0}} m_\lambda .
+\]
+\end{theorem}
+
+\begin{proof}
+Decompose $\esix=\z(C)\oplus\bigoplus_{\lambda\in\Lambda}V_\lambda$ with $\dim
+V_\lambda=m_\lambda$; this is a decomposition into $C$-weight spaces by
+Theorem~\ref{thm:structure}(i)--(ii), the point of (i) being that no generalised eigenspace is
+larger than its eigenspace. An element $X\in V_\lambda$ satisfies $[X,S]=0$ if and only if
+$\lambda$ annihilates $S$, and $\z(C)$ is centralised by every $S\subseteq C$. Summing
+dimensions gives the formula.
+\end{proof}
+
+\begin{corollary}\label{cor:arrangement}
+Each $\lambda\in\Lambda$ defines a hyperplane $H_\lambda=\ker\lambda$ in $C\cong\Q^4$. The
+value $\dim\z(S)$ depends on $S$ only through the set $\{\lambda:S\subseteq H_\lambda\}$, i.e.\
+only through the flat of the arrangement $\{H_\lambda\}_{\lambda\in\Lambda}$ spanned by $S$.
+The infinite subspace lattice therefore has finite image under $\dim\z(-)$, and that image is
+computed by enumerating flats.
+\end{corollary}
+
+This is the paper's structural point. The question ``what values does $\dim\z(S)$ take?'' is a
+question about an infinite lattice; Corollary~\ref{cor:arrangement} converts it into a question
+about a finite arrangement, which is a finite computation.
+
+\section{The image}\label{sec:image}
+
+\begin{theorem}[the eleven values, all attained]\label{thm:spectrum}
+The arrangement of Corollary~\ref{cor:arrangement} has $109$ flats, and
+\[
+   \bigl\{\dim\z(S)\;:\;S\subseteq C\bigr\}
+   =\{12,\,14,\,16,\,18,\,20,\,26,\,28,\,30,\,36,\,46,\,78\},
+\]
+with each value attained at the subspace dimensions shown:
+\begin{center}
+\begin{tabular}{@{}lccccccccccc@{}}
+\toprule
+$\dim\z(S)$      & 12 & 14 & 16 & 18 & 20 & 26 & 28 & 30 & 36 & 46 & 78\\
+attained at $\dim S=$ & 4 & 3 & 2 & 2,3 & 1,2 & 2 & 1 & 2 & 1 & 1 & 0\\
+\bottomrule
+\end{tabular}
+\end{center}
+The enumeration is exhaustive at each of the three faithful primes $409,421,487$, which agree.
+\end{theorem}
+
+\begin{scope}[the grade of this statement]\label{sc:primes}
+A prime $p$ is called \emph{faithful} here when the reduction of the weight system mod $p$ still
+has $30$ distinct weights with multiplicity profile matching the exact $\Q$-orbits; this is
+checked, not assumed, and is a control that can fail. Given faithfulness, enumeration of flats
+mod $p$ is exhaustive. What is \emph{not} established is that no flat is coarser than its
+characteristic-zero counterpart: reduction can only add dependencies among weights, so the mod-$p$
+flat lattice could in principle merge two characteristic-zero flats. Three independent faithful
+primes agreeing on all $109$ flats makes this unlikely but does not exclude it. We therefore
+state Theorem~\ref{thm:spectrum} at this grade and register the $\overline{\Q}$ certificate as
+open. The endpoints are unaffected: $78$ at $S=0$ and $12$ at $S=C$ are exact over $\Q$ by
+Theorem~\ref{thm:structure}.
+\end{scope}
+
+\begin{remark}[independent corroboration]
+Six of the eleven values --- $12$, $14$, $18$, $30$, $46$ and (trivially) $78$ --- were obtained
+in earlier separate computations that share no code with the enumeration here, and all six lie
+in the enumerated set. This is a consistency check on the arrangement, not a proof of
+exhaustiveness.
+\end{remark}
+
+\section{The $46$, and arithmetic inaccessibility}\label{sec:46}
+
+The value most resistant to sampling is $46$, and its resistance has an exact explanation.
+
+\begin{theorem}[the distinguished plane]\label{thm:46}
+Let $W=\im(\ad x_{16})$, so $\dim W=48$; $W$ is invariant under both $\ad x_8$ and $\ad x_{16}$,
+and $\ad x_{16}|_W$ is invertible. Put $Q=(\ad x_{16}|_W)^{-1}\circ(\ad x_8|_W)$. Then
+\[
+   \charpoly(Q)=c\cdot g(t)^{16}
+\]
+for a constant $c$ and a single cubic $g\in\Q[t]$, and for $(a,b)\ne(0,0)$,
+\[
+   \dim\z(a x_8+b x_{16})=
+   \begin{cases}
+      46, & g(-b/a)=0,\\
+      30, & \text{otherwise.}
+   \end{cases}
+\]
+Moreover $g$ is irreducible over $\Q$; its discriminant has squarefree part $77$, the same as
+that of $x^3-12x-5$; and $g$ acquires a root in $K=\Q[x]/(x^3-12x-5)$, over which it factors
+with degrees $(1,2)$. Hence $g$ generates $K$.
+\end{theorem}
+
+\begin{corollary}[inaccessible, not merely rare]\label{cor:inaccessible}
+Since $g$ is irreducible over $\Q$, it has no rational root, so \emph{every} rational direction
+in the $(x_8,x_{16})$-plane gives $\dim\z=30$. The value $46$ is not a rare event for rational
+sampling in this plane --- it is an impossible one. Detecting it requires either exact work over
+an extension, or the structural route of Theorem~\ref{thm:master}.
+\end{corollary}
+
+\begin{remark}[the multiplicity is derived]
+The exponent $16$ in $\charpoly(Q)=c\,g^{16}$ is computed, and it equals the jump $46-30$. An
+earlier treatment obtained $46$ from a $55$-digit numerical spectral gap and left an independent
+determination of the jump as an open item; here the jump is the exponent, and the value is
+exact.
+\end{remark}
+
+\section{Why the sample returned three values}\label{sec:sampling}
+
+\begin{corollary}[the sample was the wrong instrument]\label{cor:sampling}
+A prior investigation evaluated $\dim\z(S)$ on sixteen coordinate subspaces of $C$ together with
+$440$ random rational directions, obtaining the image $\{12,30,78\}$, and concluded on that
+evidence that the realized spectrum ``appears to be far smaller'' than the eleven-element bound.
+Theorem~\ref{thm:spectrum} shows the bound is in fact attained. The discrepancy is fully
+explained:
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.4em]
+\item $78$ is $S=0$ and $12$ is generic, so both are forced;
+\item $30$ is the value on the $(x_8,x_{16})$-plane, one of the sixteen coordinate subspaces
+      tried;
+\item each of the remaining eight values is supported on a proper subvariety of the relevant
+      Grassmannian. A random rational direction lies on such a subvariety with probability zero,
+      and by Corollary~\ref{cor:inaccessible} the case of $46$ is worse than probability zero:
+      it is arithmetically impossible over $\Q$ in the plane where it occurs.
+\end{enumerate}
+Enlarging the sample does not help, since (iii) is not a matter of sample size.
+\end{corollary}
+
+We record this because the failure mode is general and is easy to repeat. Whenever an invariant
+is upper semicontinuous on a parameter space, sampling estimates its \emph{generic} value and
+provides no information about its image. The remedy used here --- identify the stratification,
+then enumerate it --- is available whenever the jumps are governed by a finite arrangement, which
+Theorem~\ref{thm:master} establishes in this case.
+
+\begin{remark}[what this settles downstream]
+A statement of the form ``\emph{if} a locus with $\dim\z(S)=14$ occurs, its type is forced''
+has its antecedent discharged by Theorem~\ref{thm:spectrum}: $14$ is attained, at
+$\dim S=3$.
+\end{remark}
+
+\section{What is not claimed}
+
+Nothing here concerns real forms, conjugacy classes of subalgebras, or any structure beyond the
+dimensions of centralisers of subspaces of the single $C$ of Definition~\ref{def:C}. The
+$\overline{\Q}$ flat lattice is open (Scope~\ref{sc:primes}). No interpretation of any of these
+dimensions outside Lie theory is offered or used.
+
+\appendix
+
+\section{Verification}\label{app:verify}
+
+The computation is reproduced by \texttt{verify/rung\_attained.py}, which builds $\esix$ in a
+Chevalley basis with $72$ roots, constructs $C$ from Definition~\ref{def:C} over $\Q$, and runs
+every step behind a control that is designed so that a plausible error makes it fail. The script
+exits non-zero on any failure. Selected controls, in the order they run:
+
+\begin{center}
+\begin{tabular}{@{}lp{9.2cm}@{}}
+\toprule
+discharges & control \\
+\midrule
+\S\ref{sec:C}          & $\esix$ carrier has $72$ roots and dimension $78$; the four charges are built at degrees $8,14,16,22$; all six pairwise brackets vanish \\
+Prop.~\ref{prop:forced} & (\texttt{verify/check\_forcing.py}, $13$ checks) $t$ and $\Phi$ are $2T$-invariant, with a control that a non-invariant degree-$8$ form is rejected; $D(2T)\cap E=\{8,14,16,22\}$ exactly; each degree has a unique monomial; controls that $2O$ and $2I$ give \emph{different} intersections, so the McKay partner is load-bearing \\
+Prop.~\ref{prop:abelian} & $\dim\z(C)=12$, exactly over $\Q$, reproducing two independent earlier computations \\
+Thm~\ref{thm:structure}  & the zero weight has multiplicity $12=\dim\z(C)$; the generalised zero-space \emph{is} $\z(C)$; $C$ acts as literally zero on it; dimensions account exactly to $78$; thirty non-zero weights in three Galois orbits \\
+Thm~\ref{thm:46}         & $\dim W=48$; $W$ is $\ad x_8$- and $\ad x_{16}$-invariant; $\ad x_{16}|_W$ invertible; $\charpoly(Q)$ is a single cubic to the $16$th power; that cubic is irreducible over $\Q$; its discriminant squarefree part is $77$; it acquires a root in $K$ with factor degrees $(1,2)$ \\
+Thm~\ref{thm:spectrum}   & each prime is checked \emph{faithful} before use ($30$ distinct weights, multiplicity profile $(1,12),(3,18)$ matching the exact orbits); the $(x_8,x_{16})$-plane control returns exactly six weights of total multiplicity $18$, giving $12+18=30$ --- a value fixed independently and not chosen here \\
+Cor.~\ref{cor:sampling}  & the sixteen coordinate subspaces reproduce the earlier sample's table $\{12,30,78\}$ exactly --- the sample this paper replaces is regenerated rather than quoted \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The last two rows are the ones worth attention. The plane control fixes a number the enumeration
+did not get to choose, and the sample control reproduces the very evidence whose interpretation
+this paper overturns, rather than citing it.
+
+\section{Status in the programme register}\label{app:register}
+
+This is the second of four papers drawn from a register of questions carrying explicit statuses.
+The entries this paper bears on:
+
+\begin{center}
+\begin{tabular}{@{}llp{7.0cm}@{}}
+\toprule
+entry & status & relation to this paper \\
+\midrule
+\texttt{OA-C0005} & \texttt{PROVED} & that the binary tetrahedral data determines the $E_6$ root-system type. Used as background; not re-derived here. \\
+\texttt{OA-C0006} & \texttt{CONDITIONAL} & whether the principal $\slt$ placement is selected. \textbf{Assumed, not established.} $C$ is \emph{defined} using the principal $\slt$; this paper does not argue that placement is forced. \\
+\texttt{OA-C1057} & \texttt{PROVED} & exact triples for distinguished non-regular $E_6$ characteristics; consistent with, and independent of, the enumeration here. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+The honest reading is that this paper's theorems are unconditional statements about a
+\emph{given} $C$, while the interest of that particular $C$ rests on \texttt{OA-C0006}, which is
+\texttt{CONDITIONAL}. We state the theorems in a form that does not depend on resolving it.
+
+\begin{thebibliography}{9}
+\bibitem{Bourbaki} N.~Bourbaki, \emph{Groupes et alg\`ebres de Lie}, Ch.~IV--VI, Hermann, 1968.
+\bibitem{Carter} R.~W.~Carter, \emph{Finite Groups of Lie Type: Conjugacy Classes and Complex
+  Characters}, Wiley, 1985.
+\bibitem{CollingwoodMcGovern} D.~H.~Collingwood and W.~M.~McGovern, \emph{Nilpotent Orbits in
+  Semisimple Lie Algebras}, Van Nostrand Reinhold, 1993.
+\bibitem{McKay} J.~McKay, Graphs, singularities, and finite groups, in \emph{The Santa Cruz
+  Conference on Finite Groups}, Proc.\ Sympos.\ Pure Math.\ \textbf{37}, AMS, 1980, 183--186.
+\bibitem{Klein} F.~Klein, \emph{Vorlesungen \"uber das Ikosaeder und die Aufl\"osung der
+  Gleichungen vom f\"unften Grade}, Teubner, 1884.
+\bibitem{OrlikTerao} P.~Orlik and H.~Terao, \emph{Arrangements of Hyperplanes}, Springer, 1992.
+\bibitem{Kostant} B.~Kostant, The principal three-dimensional subgroup and the Betti numbers of
+  a complex simple Lie group, \emph{Amer.\ J.\ Math.} \textbf{81} (1959), 973--1032.
+\end{thebibliography}
+
+\end{document}

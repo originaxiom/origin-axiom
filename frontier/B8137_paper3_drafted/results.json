@@ -1,0 +1,49 @@
+{
+ "L_chi_negative": {
+  "statement": "the Euler product of R(k,sigma_k) is PURELY GEODESIC and contains no L-function, so R does NOT factor through L(s,chi_-3) in its Euler product -- but L(s,chi_-3) DOES enter the functional equation through the cusp",
+  "why_it_matters": "arithmetic enters through the cusp and the functional equation, not the geodesic Euler product; 'the Ruelle zeta is an L-function' is false in the Euler-product sense such claims usually mean"
+ },
+ "gap_found_and_filled": {
+  "action": "wrote check_n2_abscissa.py independently from B8129's method description, with the bite control promoted to an ABORT",
+  "residual": "my spreads differ ~3% from banked (independent implementation); |R| values agree to four decimals; no conclusion depends on the difference",
+  "what": "B8129 and B8130 are banked as results.json with NO reproducer in the tree",
+  "why_it_mattered": "Paper III's section 4 would have shipped a numerical claim with no script"
+ },
+ "identity": {
+  "answers": "'which of Pfaff's torsions is the graviton one-loop?' -- NONE OF THEM. It is not a single Ray-Singer torsion nor any finite ratio of them.",
+  "consequence": "Z_1loop = prod_{n>=2} |R(n,sigma_n)|^{-2} -- an INFINITE PRODUCT of Ruelle zeta values",
+  "cross_check": "log Z for the n>=3 tail computed twice -- via R(k,sigma_k) and via the direct geodesic sum -- agrees to 8.2e-14",
+  "pfaff_reaches": "exactly the k>=3 tail; n=2 sits AT the abscissa Re(s)>2, which is WHY the ratio formula starts at m>=3 and normalises by rho(2)",
+  "statement": "sigma_k one-dimensional => R(k,sigma_k) = prod_{[gamma] prime} (1 - q_gamma^k), q = e^{-l+i theta} = the GMY nome, EXACTLY"
+ },
+ "independent_corroboration": {
+  "OA-C1059": "REFUTED -- untwisted Ruelle zeta as finite product/ratio of shifted Dirichlet L. Consistent with thm:Lchi.",
+  "OA-C1060": "EXTERNAL_BLOCKER -- proved cutoff-independent value for n=2. IS the n=2 scope.",
+  "OA-C1061": "REFUTED -- do Fried/Park/Pfaff or the scalar cusp scattering determinant directly supply the one-loop object? Matches cor:notasingle and residue 2.",
+  "OA-C1062": "EXTERNAL_BLOCKER -- can a gauge-fixed spin-2 determinant be built for the finite-volume cusped case? IS residue 1.",
+  "why_recorded": "residue 1 is an ASSERTION OF ABSENCE, the weakest claim a single investigator can make. Two independent arrivals agreeing on WHICH thing is missing and which adjacent things are PRESENT is materially better evidence than one."
+ },
+ "n2_at_the_abscissa": {
+  "NOT_established": "CONVERGENCE IS NOT PROVED. Three cutoffs; the cutoff->infinity limit is untested. Status moves from 'may not exist' to 'no evidence of breakdown; existence unproved'.",
+  "bite_control": "BELOW the abscissa the same instrument DIVERGES -- spread ratio 1.6x at s=1.90 up to 21.8x at s=1.40. The script ABORTS if this control fails, because a smooth curve is evidence only against an instrument that can report failure.",
+  "finding": "|R(s,sigma_2)| smooth and monotone through s=2, 1.1075 at s=2.6 rising to 1.1936 at s=2.0, no pole, no discontinuity"
+ },
+ "not_claimed": [
+  "assembly of the one-loop partition function",
+  "convergence of the n=2 factor",
+  "any measured quantity or identification with an observable"
+ ],
+ "paper": {
+  "overfull": 0,
+  "pages": 6,
+  "path": "papers/series/paper3_one_loop/main.tex",
+  "sha256_tex": "93c7033aa8f5504b904f4b0c3f40aab9b04c801ee5fab1be87930c5d2952fd25",
+  "sha256_verify": "32ebc980827a6b741b6fab4e2741043171ac972b632773e420d05d0870c1ade4",
+  "undefined_refs": 0
+ },
+ "three_residues": {
+  "1_spin2_cusped_test_function": "a gauge-fixed spin-2/vector/scalar one-loop determinant for the finite-volume CUSPED case. Believed a genuine literature gap, not a retrieval failure. CLOSED BY: a construction, or a citation missed.",
+  "2_evaluation_point": "Fried gives R_sigma(0) = T_X(sigma)^2 and the cusped extension EXISTS (Park). It does NOT close the gap: Fried evaluates at s=0, Pfaff at k>=3, the graviton at s=n>=2 -- three evaluations of ONE family, and Fried's is the one point the graviton never visits. CLOSED BY: a relation between the family's value at 0 and its values at positive integers. Reframes an EXISTENCE gap as an EVALUATION gap.",
+  "3_cusp_continuous_spectrum": "not included in the assembly. CLOSED BY: the assembly, once residue 1 is available."
+ }
+}

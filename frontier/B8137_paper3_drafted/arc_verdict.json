@@ -1,0 +1,17 @@
+{
+ "authored_by": "cc3 (audit seat)",
+ "claim_one_line": "Paper III is DRAFTED (6pp, builds clean): sigma_k is one-dimensional, so R(k,sigma_k) = prod_gamma (1 - q^k) with q EXACTLY the GMY nome, and the AdS3 boundary-graviton one-loop is prod_{n>=2}|R(n,sigma_n)|^{-2} -- an INFINITE PRODUCT, hence NOT any single Ray-Singer torsion. Pfaff supplies exactly the k>=3 tail; n=2 sits AT the abscissa. Three residues are stated separately with what would close each.",
+ "creates_law": "PAPER III SHIPS A REPRODUCER B8129 NEVER HAD. B8129 banked the n=2 no-breakdown reading as results.json with NO code in the tree. Paper III could not ship a numerical claim without a script, so one was written independently from the method description. SCOPE: it reproduces the banked |R| values to four decimals (1.1075 at s=2.6, 1.1936 at s=2.0) but its cutoff SPREADS differ by ~3% from banked (1.06e-4 vs 1.03e-4 at s=2.6; 1.77e-3 vs 1.71e-3 at s=2.0) -- an independent implementation, not a copy; no conclusion depends on the difference.",
+ "depends_on": [
+  "B8112",
+  "B8113",
+  "B8129",
+  "B8130",
+  "B8133"
+ ],
+ "id": "B8137",
+ "instrument": "papers/series/paper3_one_loop/verify/check_n2_abscissa.py (5 checks, ABORTS unless the bite control diverges below the abscissa) + dictionary.py re-run exit 0 ALL CHECKS PASS",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

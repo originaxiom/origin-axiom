@@ -1,0 +1,66 @@
+{
+ "not_claimed": [
+  "that any of OA-C0016 / OA-C0018 / OA-C1063 / OA-C1064 is resolved -- none is PROVED and this paper does not change that",
+  "any physical interpretation"
+ ],
+ "paper": {
+  "overfull": 0,
+  "pages": 5,
+  "path": "papers/series/paper4_what_cannot_be_supplied/main.tex",
+  "sha256_tex": "29e32a254d345976a65c4f974708c82ececce7a12287a0b4acff2ba411f8be8a",
+  "sha256_verify": "0cfdeaa05058be27c504155d4c07e8d69f62ff3d46790eb1d3fdd5d567b0273e",
+  "undefined_refs": 0
+ },
+ "three_theorems": {
+  "family": {
+   "corollary_input": "any construction whose input is the invariant trace field takes a FAMILY-LEVEL input: all 14 members supply the same field and would proceed identically",
+   "corollary_volume": "vol(m004) = (3 sqrt3/2) L(chi_-3, 2) is shared with m003, hence a FAMILY property -- it cannot participate in any argument needing to distinguish m004 within the family",
+   "escape": "select on H_1 = Z FIRST -- that step is genuinely object-level -- and a later trace-field step inherits the selection. What is forbidden is the reverse order.",
+   "shared": {
+    "Chern-Simons = 0": [
+     "m203",
+     "m206",
+     "m208",
+     "s595",
+     "s596"
+    ],
+    "amphichiral": "ALL THIRTEEN others",
+    "cusp count": "nine others",
+    "tetrahedron count": [
+     "m003"
+    ],
+    "torsion-free H_1": [
+     "m202",
+     "m203"
+    ],
+    "volume": [
+     "m003"
+    ]
+   },
+   "theorem": "of seven elementary invariants, exactly ONE separates m004 within the 14 orientable cusped census manifolds of shape field Q(sqrt-3): H_1 = Z"
+  },
+  "orbit": {
+   "escape": "exactly TWO, and they are exhaustive: (i) shrink the group so orbits break up (e.g. Q-linear -> Z-linear, where failure of homogeneity creates new invariants); (ii) add non-invariant structure. Exhaustive because any successful selector either fails G-invariance or is invariant for a smaller group.",
+   "theorem": "a G-invariant I is constant on each G-orbit, so no function of I alone distinguishes two points of one orbit; no REFINEMENT of the same invariant ever will",
+   "why_a_theorem_not_a_gap": "a failure to select a point of an orbit is not weak evidence -- it is a proof the evidence is of the WRONG TYPE, so sharpening I is provably wasted effort"
+  },
+  "scale": {
+   "escape": "DIMENSIONLESS quantities -- ratios, phases, mixing angles, integer counts -- are untouched. Stated explicitly because the theorem is easy to overstate into 'nothing numerical can be obtained', which is FALSE and would close the one lane the argument leaves open.",
+   "theorem": "Mostow fixes shape not size; vol(cover) = d * vol(base) with no distinguished degree, so no dimensionful quantity is determined by the isometry type"
+  }
+ },
+ "two_errors_reported_in_the_paper": {
+  "float_equality_on_CS": "comparing Chern-Simons by exact equality made m004's 9e-17 look unique, producing a SPURIOUS second separating property. Five other members have CS = 0. The error inverted the conclusion in the direction that FLATTERED it.",
+  "neighbouring_property": "testing torsion-freeness instead of the knot-complement condition. m202 and m203 are torsion-free with H_1 = Z + Z. Substituting an easier-to-compute property for the one at issue is undetectable WITHIN the computation, because the computation is correct -- it answers a different question."
+ },
+ "verification": {
+  "checks": 7,
+  "controls": [
+   "CS compared with an EXPLICIT stated tolerance 1e-9, never equality; the run PRINTS both answers (4 others by equality vs 5 by tolerance) so the difference is visible",
+   "torsion-freeness and H_1 = Z both computed and reported separately, so substituting one for the other is visible rather than silent",
+   "the paper's amphichirality claim (shared with ALL thirteen) is tested, not asserted -- it holds"
+  ],
+  "independent_reproduction": "the family table was regenerated from the census rather than read from B8128's stored list, and reproduces it exactly",
+  "passed": 7
+ }
+}

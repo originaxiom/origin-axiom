@@ -123,3 +123,18 @@ itself one of the programme's results** — `prop:mod3`, the single link, which 
 object of study rather than a step to be hurried past.
 
 **That turns the current paper's weakest point into paper IV's subject.**
+
+---
+
+## STATUS 2026-08-26 — ALL FOUR ARE DRAFTED
+
+| # | paper | pp | verification | register appendix |
+|---|---|---:|---|---|
+| **I** | `paper1_characterization` — the period-one locus | 7 | `check_locus.py` **15/15**, 896 matrices, control that the identity fails off the locus | `OA-C0001` REFUTED, `OA-C0002`/`OA-C0003` CONDITIONAL — **none PROVED** |
+| **II** | `paper2_rung_spectrum` — a finite spectrum on an infinite lattice | 8 | `check_forcing.py` **13/13** with `2O`/`2I` controls; B8078 reproducer re-run exit 0 | `OA-C0006` CONDITIONAL and **assumed, not established** |
+| **III** | `paper3_one_loop` — the graviton identity and three residues | 6 | `check_n2_abscissa.py` **5/5**, bite control promoted to an **ABORT** | `OA-C1061`/`OA-C1059` REFUTED, `OA-C1062`/`OA-C1060` BLOCKED |
+| **IV** | `paper4_what_cannot_be_supplied` — scale, orbit, family | 5 | `check_family.py` **7/7**, family **regenerated** from the census | four entries, **none PROVED** |
+
+**Every paper builds with 0 overfull boxes and 0 undefined references.** Every one carries a register appendix that names what it does *not* close — and in three of the four, the anchor entries are **not** `PROVED`. That is the series' actual shape, and stating it is the point.
+
+**What remains, and is the owner's:** whether any of these is submitted, in what order, and to which venue. The arXiv upload and endorsement are not this seat's to make.

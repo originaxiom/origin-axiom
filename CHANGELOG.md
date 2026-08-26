@@ -1,5 +1,35 @@
 # Changelog
 
+## B8138 — Paper IV drafted: the series is complete
+
+**`papers/series/paper4_what_cannot_be_supplied/` — 5pp, builds clean, 7/7 verified.** Three failures shown to be **theorems**, each with its exact escape: **scale** (no dimensionful quantity — but ratios, phases, mixing and counts are untouched); **orbit position** (an orbit invariant cannot select a point of its orbit, and no refinement ever will — exactly two escapes, shown exhaustive); **family versus object** (of seven elementary invariants exactly one separates `m004` from its 14-member shape-field family, `H₁ = ℤ`).
+
+**Two consequences stated plainly.** `vol(m004) = (3√3/2)L(χ₋₃,2)` is shared with `m003`, hence a **family** property; and any construction whose input is the invariant trace field takes a **family-level** input. The escape is to select on `H₁ = ℤ` first, which is genuinely object-level — what is forbidden is the reverse order.
+
+**The paper reports two of our own errors**, because both are general failure modes: comparing Chern–Simons by **float equality**, which made `m004`'s `9e-17` look unique and manufactured a second separating property **in the direction that flattered the conclusion**; and testing **torsion-freeness** in place of the knot-complement condition — undetectable within the computation, because the computation is correct and merely answers a different question.
+
+**With this the four-paper series is drafted: I 7pp, II 8pp, III 6pp, IV 5pp**, each with its own verification carrying live controls, and each with a register appendix naming the entries it does *not* close.
+
+## B8137 — Paper III drafted, and it ships a reproducer the source arc never had
+
+**`papers/series/paper3_one_loop/` — 6pp, builds clean.** `σ_k` is one-dimensional, so `R(k,σ_k) = ∏_γ(1−q_γ^k)` with `q` **exactly** the GMY nome, and the boundary-graviton one-loop is `∏_{n≥2}|R(n,σ_n)|^{−2}` — an **infinite product**. To *which of Pfaff's torsions is it?* the answer is **none of them**. Pfaff supplies exactly the `k≥3` tail; `n=2` sits **at** the abscissa, which is why that formula starts at `m≥3`.
+
+**The three residues are stated separately, each with what would close it** — the spin-2 cusped test function; the **evaluation-point** gap (Fried at `s=0`, Pfaff at `k≥3`, the graviton at `s=n≥2`: three evaluations of one family, and Fried's is the one point the graviton never visits); and the cusp continuous spectrum.
+
+**⚠ A gap in my own bank, found and filled.** B8129 and B8130 are banked as `results.json` with **no code in the tree**. Paper III's §4 would have shipped a numerical claim without a script. Wrote `check_n2_abscissa.py` independently from the method description, with the **bite control promoted to an ABORT**: it refuses to report anything above the abscissa unless it first visibly diverges below it. My spreads differ ~3% from banked — independent implementation, `|R|` agrees to four decimals, no conclusion turns on it.
+
+**Corroboration recorded because absence is a weak claim.** `OA-C1061` REFUTED and `OA-C1062` EXTERNAL_BLOCKER were reached independently and agree not only that something is missing but on **which** thing, and which adjacent things are present.
+
+## B8136 — Paper II drafted: a finite spectrum on an infinite lattice
+
+**`papers/series/paper2_rung_spectrum/` — 8pp, builds clean.** `dim z(S)` on the infinite subspace lattice of `C` is the **flat-function of 30 hyperplanes in a 4-space**, so its image is finite: **109 flats, eleven values, every one attained**. A prior sample (16 coordinate subspaces + 440 random rational directions) returned only `{12,30,78}`; the eight missing values sit on proper subvarieties. The extreme case is **46**, which on its plane occurs exactly at the roots of an **irreducible** rational cubic — **arithmetically inaccessible over ℚ, not merely rare**.
+
+**New over B8078: `C` is forced, not chosen.** `D(2T) ∩ E = {8,14,16,22}` exactly, each with a unique monomial. **The McKay partner is load-bearing** — `D(2O) ∩ E = {8,16}`, `D(2I) ∩ E = ∅`.
+
+**⚠ Self-correction mid-draft.** I wrote the entire first draft calling `t` and `Φ` **binary octahedral** invariants. `2O`'s generator degrees are 8, 12, 18; the degrees actually used — 6, 8, 12 — are **`2T`**, the binary tetrahedral group, **which is exactly `E₆`'s McKay partner**. Caught while testing whether the exponent choice was forced. The correction made the paper stronger, not weaker.
+
+**Grades kept separate:** the structure theorem, weight orbits, master formula, cubic and forcing proposition are **exact over ℚ**; the 109 flats are **exhaustive at three faithful primes**, and the `ℚ̄` flat lattice is registered **open**.
+
 ## B8135 — Paper I of the series is drafted, and the plan's spine is corrected
 
 **`papers/series/paper1_characterization/` — 7pp, builds clean, 15/15 verified.** The period-one locus in `GL(2,ℤ)` is exactly `det = −1`; the primitive class is unique for `m ≤ 5` with **`m = 6` the first repetition**; and **`A² − I = mA`** by Cayley–Hamilton, so the torsion is **exactly `ℤ/m ⊕ ℤ/m`** and the knot-complement condition is `m = 1`, blind to the class ambiguity.

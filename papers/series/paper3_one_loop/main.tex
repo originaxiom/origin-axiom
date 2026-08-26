@@ -1,0 +1,347 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\theoremstyle{remark}
+\newtheorem{scope}[theorem]{Scope}
+\newtheorem{residue}{Residue}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\HH}{\mathbb{H}}
+\newcommand{\vol}{\operatorname{vol}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\Rz}{\mathcal{R}}
+
+\title{The boundary-graviton one-loop determinant\\
+as an infinite product of twisted Ruelle zetas,\\
+and the three residues that remain}
+\author{}
+\date{26 August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+For a hyperbolic $3$-manifold $X=\Gamma\backslash\HH^3$, the one-loop determinant of boundary
+gravitons in $\mathrm{AdS}_3$ is conventionally written as a product over primitive conjugacy
+classes in terms of the nome $q_\gamma=e^{-\ell_\gamma+i\theta_\gamma}$. We observe that the
+symmetric-power representation $\sigma_k$ entering the twisted Ruelle zeta at integer argument
+$k$ is \emph{one-dimensional}, so that
+\[
+   \Rz(k,\sigma_k)=\prod_{[\gamma]\ \mathrm{prime}}\bigl(1-q_\gamma^{\,k}\bigr)
+\]
+with $q_\gamma$ \emph{exactly} that nome. The boundary-graviton one-loop determinant is
+therefore
+\[
+   Z_{\mathrm{1-loop}}=\prod_{n\ge2}\bigl|\Rz(n,\sigma_n)\bigr|^{-2},
+\]
+an infinite product of twisted Ruelle zeta values. In particular it is \emph{not} any single
+Ray--Singer analytic torsion: to the question ``which of Pfaff's torsions is it?'' the answer is
+none of them. Pfaff's ratio formula supplies exactly the tail $k\ge3$; the one factor it cannot
+reach is $n=2$, which sits \emph{at} the abscissa of absolute convergence $\mathrm{Re}(s)>2$ ---
+which is also why that formula begins at $m\ge3$ and normalises by $\rho(2)$.
+
+We then state precisely what is not thereby established. Three residues remain, and we
+separate them rather than merging them into a single caveat: (1) a gauge-fixed spin-$2$ test
+function for the finite-volume cusped case, which we believe is a genuine gap in the
+literature; (2) an evaluation-point gap --- Fried's theorem relates the twisted Ruelle zeta at
+$s=0$ to analytic torsion, Pfaff's ratios live at $k\ge3$, and the graviton product at
+$s=n\ge2$, so these are three evaluations of one family and Fried's is the one point the
+graviton never visits; (3) the cusp's continuous spectrum. For $m004$ we also settle a related
+question negatively: its Ruelle zeta does not factor through $L(s,\chi_{-3})$ in its Euler
+product, which is purely geodesic, although $L(s,\chi_{-3})$ does enter the functional equation
+through the cusp. No measured quantity is claimed anywhere.
+\end{abstract}
+
+\section{Introduction}
+
+\subsection{Setting}
+
+Let $X=\Gamma\backslash\HH^3$ be a hyperbolic $3$-manifold. For a primitive closed geodesic
+$[\gamma]$ of complex length $\ell_\gamma+i\theta_\gamma$, write
+$q_\gamma=e^{-\ell_\gamma+i\theta_\gamma}$. In the standard treatment of one-loop quantum
+gravity in $\mathrm{AdS}_3$, the contribution of boundary gravitons is assembled from products
+over $[\gamma]$ in powers of $q_\gamma$ and $\bar q_\gamma$.
+
+Separately, for a finite-dimensional representation $\sigma$ of $\Gamma$ one has the twisted
+Ruelle zeta function, defined for $\mathrm{Re}(s)$ large by
+\[
+   \Rz(s,\sigma)=\prod_{[\gamma]\ \mathrm{prime}}
+      \det\bigl(I-\sigma(\gamma)\,e^{-s\,\ell_\gamma}\bigr),
+\]
+and continued meromorphically. Ruelle zeta values are related to Ray--Singer analytic torsion
+by theorems of Fried and, in the setting relevant here, by Pfaff's ratio formula.
+
+These two objects are usually discussed in different languages. The point of \S\ref{sec:identity}
+is that in this case they are not merely related --- they coincide, term by term, for an
+elementary reason.
+
+\subsection{The observation}
+
+The representations $\sigma_k$ that appear are one-dimensional. When $\sigma$ is
+one-dimensional the determinant in the definition of $\Rz$ is just a scalar, and the
+$e^{-s\ell_\gamma}$ combines with the character value $e^{ik\theta_\gamma}$ into precisely
+$q_\gamma^{\,k}$. There is no room for the two conventions to differ, and the identification is
+an identity rather than a correspondence. Everything in \S\ref{sec:identity} follows from that
+observation; we claim no depth for it, only that stating it clearly changes what one can then
+prove and, more usefully, changes what one can then \emph{locate} as missing.
+
+\subsection{What this paper claims, and what it does not}
+
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Claimed:} the identity (Theorem~\ref{thm:identity}); the consequence that the
+      one-loop determinant is an infinite product and not a single torsion
+      (Corollary~\ref{cor:notasingle}); the exact match between Pfaff's ratio formula and the
+      $k\ge3$ tail (Proposition~\ref{prop:tail}); numerical evidence, on an instrument with a
+      control proved able to detect failure, that the $n=2$ factor does not break down at the
+      abscissa (\S\ref{sec:n2}); and the negative result on $L(s,\chi_{-3})$
+      (Theorem~\ref{thm:Lchi}).
+\item \textbf{Not claimed:} the assembly of the one-loop partition function. Three specific
+      obstructions remain and are stated as Residues~\ref{res:one}--\ref{res:three} in
+      \S\ref{sec:residues}, each with what would close it. Convergence of the $n=2$ factor is
+      \emph{not} proved (Scope~\ref{sc:n2}). No numerical value is offered as a measurement of
+      anything.
+\end{itemize}
+
+\section{The identity}\label{sec:identity}
+
+\begin{theorem}[the dictionary entry is an identity]\label{thm:identity}
+Let $\sigma_k$ denote the one-dimensional representation sending $\gamma\mapsto
+e^{ik\theta_\gamma}$. Then for $\mathrm{Re}(s)>2$,
+\[
+   \Rz(k,\sigma_k)=\prod_{[\gamma]\ \mathrm{prime}}\bigl(1-q_\gamma^{\,k}\bigr),
+   \qquad q_\gamma=e^{-\ell_\gamma+i\theta_\gamma},
+\]
+with $q_\gamma$ exactly the nome appearing in the boundary-graviton product. Consequently
+\[
+   Z_{\mathrm{1-loop}}=\prod_{n\ge2}\bigl|\Rz(n,\sigma_n)\bigr|^{-2}.
+\]
+\end{theorem}
+
+\begin{proof}
+Since $\sigma_k$ is one-dimensional, $\det(I-\sigma_k(\gamma)e^{-k\ell_\gamma})
+=1-e^{ik\theta_\gamma}e^{-k\ell_\gamma}=1-\bigl(e^{-\ell_\gamma+i\theta_\gamma}\bigr)^k
+=1-q_\gamma^{\,k}$. The boundary-graviton determinant is the product over $n\ge2$ of
+$\prod_\gamma|1-q_\gamma^{\,n}|^{-2}$, which is the displayed expression.
+\end{proof}
+
+\begin{corollary}[it is not a single analytic torsion]\label{cor:notasingle}
+$Z_{\mathrm{1-loop}}$ is an infinite product of Ruelle zeta values. It is therefore not equal to
+any one Ray--Singer analytic torsion $T_X(\rho)$, nor to any finite ratio of such; asking which
+torsion it ``is'' has the answer: none of them.
+\end{corollary}
+
+This is a negative answer to a natural question, and it is worth stating because the question is
+asked. The positive content is that the individual factors are torsion-theoretic, which is what
+Proposition~\ref{prop:tail} makes precise.
+
+\begin{proposition}[Pfaff's formula supplies exactly the tail]\label{prop:tail}
+With $\rho(m)=\Sym^{2m}\C^2$ and $\kappa(X)$ the number of cusps, Pfaff's ratio formula reads
+\[
+   \frac{T_X(\rho(m))}{T_X(\rho(2))}
+   =\Bigl(\frac{c(m)}{c(2)}\Bigr)^{\kappa(X)}
+     \exp\!\Bigl(-\tfrac1\pi\vol(X)\bigl(m(m+1)-6\bigr)\Bigr)
+     \prod_{k=3}^{m}\bigl|\Rz(k,\sigma_k)\bigr| .
+\]
+The product on the right is exactly the $k\ge3$ portion of Theorem~\ref{thm:identity}. The
+formula therefore expresses the tail of $Z_{\mathrm{1-loop}}$ in torsion-theoretic terms, and
+does not reach $n=2$.
+\end{proposition}
+
+\begin{remark}[why the formula starts at $m\ge3$]
+$\Rz(s,\sigma_k)$ converges absolutely for $\mathrm{Re}(s)>2$. The factor $n=2$ therefore sits
+\emph{at} the abscissa of absolute convergence, not inside it. This is the structural reason the
+ratio formula begins at $m\ge3$ and normalises by $\rho(2)$: the excluded factor is exactly the
+one at the boundary of the region where the Euler product converges absolutely. It is also why
+naive numerical evaluation of the $n=2$ term is oscillatory in the geodesic cutoff, while the
+$n\ge3$ tail is not.
+\end{remark}
+
+\section{The $n=2$ factor at the abscissa}\label{sec:n2}
+
+Because $n=2$ is the one factor outside the reach of Proposition~\ref{prop:tail}, its status
+matters. We report a numerical study, and we are explicit that it is numerical.
+
+\begin{proposition}[no breakdown, on an instrument that can see one]\label{prop:n2}
+Approach the abscissa from above, where $\Rz(s,\sigma_2)=\prod_\gamma(1-e^{2i\theta_\gamma}
+e^{-s\ell_\gamma})$ converges absolutely, and track the dependence on the geodesic cutoff. For
+$m004$, over three cutoffs and seven values of $s$, $|\Rz(s,\sigma_2)|$ is smooth and monotone
+through $s=2$ --- rising from $1.1075$ at $s=2.6$ to $1.1936$ at $s=2.0$ --- with no pole and no
+discontinuity, and with a cutoff spread that grows smoothly rather than diverging.
+\end{proposition}
+
+\begin{scope}[what this does and does not establish]\label{sc:n2}
+The reading is meaningful only because the instrument is shown able to report failure: taken
+\emph{below} the abscissa, where divergence is certain, the same computation does diverge and
+the cutoff spread blows up. That is the bite control, and without it a smooth curve would be
+evidence of nothing.
+
+What is established is the absence of any observable breakdown at $s=2$. What is \emph{not}
+established is convergence. Three cutoffs are used and the cutoff-to-infinity limit is untested;
+a spread that is small at cutoff $5.5$ may still fail to converge. Accordingly the status of the
+$n=2$ factor moves from ``may not exist'' to ``no evidence of breakdown; existence unproved'',
+and it remains one of the three residues below.
+\end{scope}
+
+\begin{remark}[a consistency check on the assembly]
+Computing $\log Z$ for the assembled $n\ge3$ tail in two independent ways --- once through the
+Ruelle factors $\Rz(k,\sigma_k)$ and once directly through the geodesic sum over $[\gamma]$ ---
+agrees to $8.2\times10^{-14}$. This tests the identity of Theorem~\ref{thm:identity} in the
+regime where both sides converge absolutely, rather than testing arithmetic.
+\end{remark}
+
+\section{The three residues}\label{sec:residues}
+
+A single caveat covering everything unfinished is not useful to a reader. We separate the
+obstructions, because they have different characters and different remedies, and because two of
+the three are not what one would first guess.
+
+\begin{residue}[the spin-$2$ cusped test function]\label{res:one}
+Assembling the one-loop determinant for a finite-volume cusped hyperbolic $3$-manifold requires
+a gauge-fixed spin-$2$ (and vector, and scalar) one-loop determinant in the cusped setting. We
+have not found this in the literature, and we believe it to be a genuine gap rather than a
+retrieval failure: adjacent literature returns richly for the compact case and for the
+$\mathrm{SL}(2,\C)$ and $\mathrm{SL}(n,\C)$ state-integral families, while this specific
+combination does not appear. \textbf{What would close it:} a construction and evaluation of that
+determinant, or a citation we have missed.
+\end{residue}
+
+\begin{residue}[the evaluation point]\label{res:two}
+Fried's theorem gives, for acyclic orthogonal representations, that the twisted Ruelle zeta is
+holomorphic at $0$ with $\Rz_\sigma(0)=T_X(\sigma)^2$, and a cusped extension exists in the
+literature via a regularised trace. It is natural to expect this closes the gap between the
+graviton determinant and analytic torsion. \textbf{It does not, and the reason is the evaluation
+point.} Fried's identity lives at $s=0$; Pfaff's ratios live at $k\ge3$; the graviton product
+lives at $s=n\ge2$. These are three evaluations of one twisted Ruelle family, and Fried's is
+the single point the graviton product never visits. \textbf{What would close it:} a relation
+between the family's value at $0$ and its values at the positive integers. This reframes the
+residue from an existence gap --- ``no cusped torsion theorem'' --- to an evaluation gap, which
+is a sharper and more attackable statement.
+\end{residue}
+
+\begin{residue}[the cusp's continuous spectrum]\label{res:three}
+The continuous spectrum contributed by the cusp is not included in the assembly above. Its
+scattering determinant for $m004$ is available in closed form, but incorporating it into the
+one-loop object is not done here. \textbf{What would close it:} the assembly, once
+Residue~\ref{res:one} is available.
+\end{residue}
+
+\begin{remark}[a correction we record]
+We initially expected Fried's theorem to close Residue~\ref{res:two} outright, and said so
+before checking where each theorem evaluates. It does not. We record the expectation and its
+failure because the reframing in Residue~\ref{res:two} is the useful output, and it was only
+reached by asking which point of the family each theorem actually speaks about.
+\end{remark}
+
+\section{What the Ruelle zeta does not know about $L(s,\chi_{-3})$}\label{sec:Lchi}
+
+The manifold $m004$ has invariant trace field $\Q(\sqrt{-3})$, and the Dirichlet $L$-function
+$L(s,\chi_{-3})$ appears in its volume. It is natural to ask whether the Ruelle zeta factors
+through that $L$-function. It does not.
+
+\begin{theorem}\label{thm:Lchi}
+The Euler product of $\Rz(k,\sigma_k)$ is purely geodesic: by Theorem~\ref{thm:identity} it is
+$\prod_\gamma(1-q_\gamma^{\,k})$, indexed by primitive closed geodesics, and it contains no
+$L$-function factor. In particular $\Rz$ does not factor through $L(s,\chi_{-3})$ in its Euler
+product. However, $L(s,\chi_{-3})$ \emph{does} enter the functional equation, through the
+scattering determinant of the cusp.
+\end{theorem}
+
+The distinction is worth preserving. Arithmetic enters this object through the cusp and the
+functional equation, not through the geodesic Euler product; a claim that the Ruelle zeta ``is''
+an $L$-function, or a ratio of them, is false in the Euler-product sense in which such claims
+are usually meant.
+
+\section{Independent corroboration}\label{sec:corrob}
+
+The two central negative findings of this paper --- that the cited torsion formulae and the
+scalar cusp scattering determinant do not by themselves supply the one-loop object, and that a
+gauge-fixed spin-$2$ determinant for the finite-volume cusped case is not available --- were
+reached independently, by different means, and recorded in a register of questions as
+\texttt{REFUTED} and \texttt{EXTERNAL\_BLOCKER} respectively (Appendix~\ref{app:register}).
+
+We note this because the second is an assertion of absence, and assertions of absence are the
+weakest kind of claim a single investigator can make. Two independent arrivals at the same
+boundary --- agreeing not only that something is missing but on \emph{which} thing is missing and
+which adjacent things are present --- is materially better evidence than one, and it is the
+reason we are willing to state Residue~\ref{res:one} as a gap rather than as a failure to find.
+
+\section{What is not claimed}
+
+No measured quantity appears in this paper, and no identification of any quantity here with any
+observable is offered or used. The numerical work of \S\ref{sec:n2} is evidence about
+convergence behaviour, not a computation of a physical value. Convergence of the $n=2$ factor is
+unproved (Scope~\ref{sc:n2}), and the one-loop partition function is not assembled
+(\S\ref{sec:residues}).
+
+\appendix
+
+\section{Verification}\label{app:verify}
+
+The computations are reproduced by the scripts in \texttt{verify/}, over the complex length
+spectrum of $m004$. Controls run before results are read.
+
+\begin{center}
+\begin{tabular}{@{}lp{8.4cm}@{}}
+\toprule
+discharges & control or check \\
+\midrule
+Thm~\ref{thm:identity} & $\log Z$ for the $n\ge3$ tail computed twice, once via $\Rz(k,\sigma_k)$ and once via the direct geodesic sum, agreeing to $8.2\times10^{-14}$; conjugate pairs identified by distance to the nearest multiple of $2\pi$, not by a raw modulus, and the four self-conjugate $\theta=\pi$ classes handled separately \\
+Prop.~\ref{prop:tail}  & the torsion ratios at $m=3,4,5,6$ reproduce independently computed values; $\kappa(X)=1$; $\vol(X)=2.029883212819307$ taken at full double precision, since a truncated decimal string manufactures a spurious mismatch at the $10^{-11}$ level \\
+Prop.~\ref{prop:n2}    & \textbf{bite control:} the same evaluation taken \emph{below} the abscissa must diverge with a blowing-up cutoff spread, and does; the reported smoothness above the abscissa is meaningful only against it \\
+Thm~\ref{thm:Lchi}     & the Euler product is regenerated from the geodesic list rather than quoted, and checked against a Dirichlet-series evaluation performed by analytic continuation --- a naive series at $s=1/2$ lies outside its half-plane and produces a spurious refutation \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Status in the programme register}\label{app:register}
+
+\begin{center}
+\begin{tabular}{@{}llp{6.9cm}@{}}
+\toprule
+entry & status & relation to this paper \\
+\midrule
+\texttt{OA-C1061} & \texttt{REFUTED} & whether the cited Fried, Park or Pfaff torsion formulae, or the scalar cusp scattering determinant, directly supply the one-loop object. Independently reached; matches Corollary~\ref{cor:notasingle} and Residue~\ref{res:two}. \\
+\texttt{OA-C1062} & \texttt{EXTERNAL\_BLOCKER} & whether a gauge-fixed spin-$2$/vector/scalar one-loop determinant can be constructed for the finite-volume cusped case. Independently reached; this is Residue~\ref{res:one}. \\
+\texttt{OA-C1059} & \texttt{REFUTED} & whether the untwisted Ruelle zeta is a finite product or ratio of shifted Dirichlet $L$-functions. Consistent with Theorem~\ref{thm:Lchi}. \\
+\texttt{OA-C1060} & \texttt{EXTERNAL\_BLOCKER} & whether the $n=2$ factor has a proved cutoff-independent value. This is exactly Scope~\ref{sc:n2}: we report no breakdown and do not claim existence. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+Three of the four are negative or blocked. We regard that as the honest shape of this subject at
+present, and prefer to publish the identity together with an accurate map of what it does not
+close.
+
+\begin{thebibliography}{9}
+\bibitem{Fried} D.~Fried, Analytic torsion and closed geodesics on hyperbolic manifolds,
+  \emph{Invent.\ Math.} \textbf{84} (1986), 523--540.
+\bibitem{Pfaff} J.~Pfaff, Analytic torsion versus Reidemeister torsion on hyperbolic
+  $3$-manifolds with cusps, arXiv:1206.0228.
+\bibitem{Park} J.~Park, Analytic torsion and Ruelle zeta functions for hyperbolic manifolds
+  with cusps, \emph{J.\ Funct.\ Anal.} \textbf{257} (2009), 1713--1758.
+\bibitem{GMY} S.~Giombi, A.~Maloney and X.~Yin, One-loop partition functions of $3d$ gravity,
+  \emph{JHEP} \textbf{08} (2008), 007.
+\bibitem{MaloneyWitten} A.~Maloney and E.~Witten, Quantum gravity partition functions in three
+  dimensions, \emph{JHEP} \textbf{02} (2010), 029.
+\bibitem{Melrose} R.~B.~Melrose, \emph{The Atiyah--Patodi--Singer Index Theorem}, A K Peters,
+  1993.
+\end{thebibliography}
+
+\end{document}

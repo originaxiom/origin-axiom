@@ -1,0 +1,13 @@
+{
+ "authored_by": "cc3 (audit seat)",
+ "claim_one_line": "Paper II is DRAFTED (8pp, builds clean): dim z(S) on the infinite subspace lattice of C is the flat-function of 30 hyperplanes in a 4-space, so its image is finite -- 109 flats, eleven values all attained -- and sampling provably cannot find eight of them. NEW over B8078: C is not chosen but FORCED, as the unique subspace spanned by 2T-invariants sitting in principal-sl2 summands of e6.",
+ "creates_law": "MCKAY DEGREE MATCHING FORCES C: let D(G) be the degrees of G-invariant binary forms and E = {2,8,10,14,16,22} the principal-sl2 summand degrees of e6. Then D(2T) INTERSECT E = {8,14,16,22} exactly, each realised by a UNIQUE monomial (Phi, tPhi, Phi^2, tPhi^2), and the degree-12 generator never appears. SCOPE: 2T is the McKay partner of E6 and the partner is load-bearing -- D(2O) INTERSECT E = {8,16} and D(2I) INTERSECT E = empty. SCOPE: forces C given the principal sl2, which remains an INPUT (OA-C0006, CONDITIONAL); not absolute canonicity.",
+ "depends_on": [
+  "B8078"
+ ],
+ "id": "B8136",
+ "instrument": "papers/series/paper2_rung_spectrum/verify/check_forcing.py (13 checks, live controls) + the inherited B8078 reproducer rung_attained.py, re-run to completion exit 0 ALL CHECKS PASS before drafting",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

@@ -1,0 +1,298 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\theoremstyle{remark}
+\newtheorem{scope}[theorem]{Scope}
+\newtheorem{escape}{Escape route}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\HH}{\mathbb{H}}
+\newcommand{\vol}{\operatorname{vol}}
+\newcommand{\Hom}{\operatorname{Hom}}
+
+\title{What a class invariant cannot supply:\\
+scale, orbit position, and the difference between\\
+a manifold and its family}
+\author{}
+\date{26 August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Programmes that extract structure from a fixed hyperbolic $3$-manifold routinely reach a point
+where a desired quantity fails to appear, and it is rarely clear whether the failure is a gap in
+the argument or a theorem. We isolate three such failures for the figure-eight knot complement
+$m004$ and show that each is a theorem, with an exactly stated escape route.
+
+\emph{Scale.} Mostow rigidity fixes the shape of a finite-volume hyperbolic $3$-manifold but not
+its size, and the covering ladder satisfies $\vol(\widetilde X)=d\cdot\vol(X)$ with no
+distinguished degree. Consequently no dimensionful quantity is determined. The escape is exact
+and is not a loophole: dimensionless quantities --- ratios, phases, mixing angles, counts --- are
+untouched by the argument, so the no-go constrains what kind of quantity may be sought, not
+whether any may be.
+
+\emph{Orbit position.} If a quantity is an invariant of an orbit of a group acting on a space of
+candidates, it is constant on that orbit and therefore cannot select a point of it. This is
+structural, not evidential: no refinement of the same invariant will ever select a point, so
+accumulating more of the same evidence is provably futile. There are exactly two escapes ---
+shrink the group, or add structure that is not invariant.
+
+\emph{Family versus object.} Of the fourteen orientable cusped census manifolds whose tetrahedron
+shape field is $\Q(\sqrt{-3})$, we tabulate seven elementary invariants and find that
+\emph{exactly one} separates $m004$ from the rest: $H_1\cong\Z$. Volume, tetrahedron count, cusp
+count, amphichirality and vanishing Chern--Simons invariant are all shared. In particular the
+identity $\vol(m004)=\tfrac{3\sqrt3}{2}L(\chi_{-3},2)$ is a property of the family, being shared
+with $m003$. It follows that any construction taking the invariant trace field as its input has a
+\emph{family-level} input, and cannot by itself distinguish $m004$ from thirteen other manifolds.
+
+We report two errors of our own that this census caught, because both are instructive: comparing
+Chern--Simons invariants by floating-point equality, which produced a spurious separating
+property; and testing torsion-freeness in place of the knot-complement condition, which is a
+different property that two other family members also satisfy.
+\end{abstract}
+
+\section{Introduction}
+
+\subsection{Negative results as instruments}
+
+A programme that derives structure from a fixed mathematical object accumulates, alongside its
+positive results, a list of things it has failed to obtain. That list is usually treated as a
+record of unfinished business. Sometimes it is instead a record of theorems, and the difference
+matters: an unfinished computation rewards more effort, while a theorem of impossibility tells
+one that a particular kind of effort is wasted and which other kind is not.
+
+This paper takes three items from such a list and determines which they are. All three turn out
+to be theorems. In each case we state the theorem, then state the escape route precisely, because
+a no-go result without its escape route is misleading --- it invites the reader to conclude that
+more is closed than actually is.
+
+\subsection{The object}
+
+Throughout, $X$ denotes a finite-volume orientable hyperbolic $3$-manifold, and $m004$ the
+figure-eight knot complement, with $\vol(m004)=2.029883212819307\ldots$ and invariant trace field
+$\Q(\sqrt{-3})$.
+
+\section{Scale is not determined}\label{sec:scale}
+
+\begin{theorem}[no dimensionful quantity]\label{thm:scale}
+Let $F$ be a function assigning a real number to a finite-volume hyperbolic $3$-manifold, defined
+purely in terms of its isometry type. Then $F$ cannot determine a quantity carrying a dimension of
+length, area or volume in any way that distinguishes a manifold from its finite covers, because
+for every degree-$d$ cover $\widetilde X\to X$ one has $\vol(\widetilde X)=d\cdot\vol(X)$, and the
+covering ladder above $X$ contains covers of unboundedly many degrees with no distinguished one.
+\end{theorem}
+
+\begin{proof}
+Mostow rigidity makes the hyperbolic structure on $X$ unique, so isometry-type invariants are
+topological invariants; they do not depend on a choice of unit. Volume multiplies exactly by the
+covering degree, and a finite-volume hyperbolic $3$-manifold has finite covers of infinitely many
+degrees. Any rule selecting one member of the ladder is additional data, not a consequence of the
+isometry type.
+\end{proof}
+
+\begin{escape}[dimensionless quantities are untouched]\label{esc:ratios}
+Theorem~\ref{thm:scale} constrains dimensionful quantities only. A ratio of two quantities that
+scale the same way, a phase, a mixing angle, or an integer count is invariant under the ladder and
+is not excluded by any part of the argument. We emphasise this because the theorem is easy to
+overstate into ``nothing numerical can be obtained'', which is false and would close off the one
+lane the argument leaves open.
+\end{escape}
+
+\section{An orbit invariant cannot select a point of the orbit}\label{sec:orbit}
+
+\begin{theorem}[the orbit-to-point gap is structural]\label{thm:orbit}
+Let a group $G$ act on a set $\Omega$ of candidate objects, and let $I:\Omega\to V$ be
+$G$-invariant. Then $I$ is constant on each $G$-orbit, and therefore no function of $I$ alone
+distinguishes two points of the same orbit. In particular, if a desired conclusion amounts to
+selecting a point of a $G$-orbit, no refinement of $I$ --- no sharper computation of the same
+invariant, no additional decimal places, no further consistency check --- can ever supply it.
+\end{theorem}
+
+The proof is immediate. We state it as a theorem because its content is not the mathematics but
+the classification it forces: a failure to select a point of an orbit is not weak evidence, it is
+a proof that the evidence is of the wrong type. Effort spent sharpening $I$ is provably wasted.
+
+\begin{escape}[there are exactly two]\label{esc:orbit}
+To select a point of a $G$-orbit one must either
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.4em]
+\item \textbf{shrink the group}: replace $G$ by a subgroup $H$ for which the orbit breaks up, so
+      that the $H$-orbits are smaller and $I$ becomes a finer invariant --- for instance replacing
+      a $\Q$-linear symmetry by a $\Z$-linear one, where the failure of homogeneity is exactly what
+      creates new invariants; or
+\item \textbf{add non-invariant structure}: introduce data not preserved by $G$, which is to say,
+      change the problem to one where the point is not merely a point of an orbit.
+\end{enumerate}
+These are exhaustive, since any successful selector either fails to be $G$-invariant (case (ii))
+or is invariant for a smaller group (case (i)).
+\end{escape}
+
+\begin{remark}
+Escape~\ref{esc:orbit} is useful precisely because it is short. It converts an open-ended search
+into a choice between two named moves, each of which can be attempted or ruled out on its own
+terms.
+\end{remark}
+
+\section{The family, and what separates $m004$ from it}\label{sec:family}
+
+The invariant trace field is a strong invariant, but it is an invariant of a \emph{family}. We
+make this quantitative.
+
+\begin{definition}
+Let $\mathcal{F}$ be the set of orientable cusped census manifolds whose tetrahedron shape field is
+$\Q(\sqrt{-3})$. Then $|\mathcal{F}|=14$:
+\[
+\begin{aligned}
+ \mathcal{F}=\{\,&m003,\ m004,\ m202,\ m203,\ m206,\ m207,\ m208,\\
+                 &m410,\ m412,\ s118,\ s119,\ s594,\ s595,\ s596\,\}.
+\end{aligned}
+\]
+\end{definition}
+
+\begin{theorem}[exactly one elementary invariant separates $m004$]\label{thm:family}
+Among the seven invariants --- volume, tetrahedron count, cusp count, torsion-freeness of $H_1$,
+the condition $H_1\cong\Z$, amphichirality, and vanishing of the Chern--Simons invariant --- exactly
+one distinguishes $m004$ within $\mathcal{F}$, namely $H_1\cong\Z$. The other six are shared:
+\begin{center}
+\begin{tabular}{@{}lll@{}}
+\toprule
+invariant & value at $m004$ & also held by \\
+\midrule
+volume                   & $2.029883212819307$ & $m003$ \\
+tetrahedron count        & $2$                 & $m003$ \\
+cusp count               & $1$                 & nine others \\
+torsion-free $H_1$       & true                & $m202$, $m203$ \\
+amphichiral              & true                & \textbf{all thirteen others} \\
+Chern--Simons $=0$       & true                & $m203$, $m206$, $m208$, $s595$, $s596$ \\
+\midrule
+$H_1\cong\Z$             & true                & \textbf{none} \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{theorem}
+
+\begin{corollary}[the volume identity is a family property]\label{cor:volume}
+The identity $\vol(m004)=\tfrac{3\sqrt3}{2}L(\chi_{-3},2)$ is shared with $m003$ and is therefore
+a property of the family, not of $m004$. It cannot participate in any argument that needs to
+distinguish $m004$ from other members of $\mathcal{F}$.
+\end{corollary}
+
+\begin{corollary}[trace-field inputs are family inputs]\label{cor:familyinput}
+Any construction whose input is the invariant trace field takes a family-level input: all fourteen
+members of $\mathcal{F}$ supply the same field and would proceed identically. Such a construction
+cannot, by itself, be said to be about $m004$ rather than about $\mathcal{F}$.
+\end{corollary}
+
+\begin{scope}[what Corollary~\ref{cor:familyinput} does and does not damage]\label{sc:notdamaging}
+This is not a contradiction of arguments that first select $m004$ and then use the trace field: if
+the selection step uses $H_1\cong\Z$, it is genuinely object-level by
+Theorem~\ref{thm:family}, and a later trace-field step inherits that selection. What
+Corollary~\ref{cor:familyinput} forbids is the reverse order, and it sharpens the honest
+description of any such chain: the field-based step is a family step, and should be described as
+one. A reader who runs this census will notice, and it is better to state it first.
+\end{scope}
+
+\section{Two errors this census caught}\label{sec:errors}
+
+Both errors were ours, both produced confident wrong answers, and both were caught by the census
+rather than by inspection. We report them because each is a general failure mode.
+
+\begin{enumerate}[leftmargin=1.8em]
+\item \textbf{Floating-point equality on an invariant that is only numerically zero.} Our first
+      run compared Chern--Simons invariants with exact equality. The computed value at $m004$ was
+      $9\times10^{-17}$ rather than $0$, so $m004$ appeared to be the unique member with vanishing
+      Chern--Simons invariant, and ``$CS=0$'' was reported as a second separating property. It is
+      not: five other members have $CS=0$ as well. The error inverted the paper's conclusion in
+      the direction that flattered it.
+\item \textbf{Testing a neighbouring property.} Our first run tested torsion-freeness of $H_1$,
+      which is \emph{not} the knot-complement condition. The manifolds $m202$ and $m203$ have
+      $H_1\cong\Z\oplus\Z$, which is torsion-free but not $\Z$. Substituting a property that is
+      easier to compute for the one actually at issue is a failure mode that no amount of care
+      \emph{within} the computation detects, because the computation is correct --- it is
+      answering a different question.
+\end{enumerate}
+
+The first was caught by re-reading the run's own printed table rather than its summary line; the
+second by writing down the intended property and the tested property side by side.
+
+\section{Summary}
+
+\begin{center}
+\begin{tabular}{@{}p{4.5cm}lp{5.4cm}@{}}
+\toprule
+failure & status & escape \\
+\midrule
+no dimensionful quantity & Thm~\ref{thm:scale} & dimensionless quantities untouched (\ref{esc:ratios}) \\
+cannot select within an orbit & Thm~\ref{thm:orbit} & shrink the group, or add non-invariant structure (\ref{esc:orbit}) \\
+trace field does not isolate $m004$ & Thm~\ref{thm:family} & select first by $H_1\cong\Z$ (\ref{sc:notdamaging}) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Each is closed as a matter of evidence and open as a matter of route. That combination is the
+useful output: it says which further computation is futile, and names the alternatives that are
+not.
+
+\appendix
+
+\section{Verification}\label{app:verify}
+
+The census of \S\ref{sec:family} is reproduced by \texttt{verify/}, which rebuilds $\mathcal{F}$
+from the census by shape field rather than accepting a stored list, and tabulates all seven
+invariants. Controls: Chern--Simons is compared with an explicit tolerance and never by equality,
+with the tolerance stated; the intended property ($H_1\cong\Z$) and the neighbouring property
+(torsion-freeness) are both computed and reported separately, so that substituting one for the
+other is visible rather than silent; and the family is regenerated, so a change in the census
+would change the table rather than pass unnoticed.
+
+\section{Status in the programme register}\label{app:register}
+
+\begin{center}
+\begin{tabular}{@{}llp{6.9cm}@{}}
+\toprule
+entry & status & relation to this paper \\
+\midrule
+\texttt{OA-C0016} & \texttt{EXTERNAL\_BLOCKER} & whether every dimensionless parameter is emitted after thresholds and running. Untouched here; \S\ref{sec:scale} constrains only dimensionful quantities. \\
+\texttt{OA-C0018} & \texttt{EMPIRICAL} & whether the completed theory makes a successful unused quantitative prediction. Not addressed. \\
+\texttt{OA-C1063} & \texttt{REFUTED} & whether a Beilinson regulator is defined for the relevant classes. Consistent with the orbit argument of \S\ref{sec:orbit}. \\
+\texttt{OA-C1064} & \texttt{EXTERNAL\_BLOCKER} & whether an arithmetic motive is uniquely selected. \S\ref{sec:family} explains one reason selection is hard: the natural inputs are family-level. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+None of these is \texttt{PROVED}. This paper does not change that, and does not try to: its
+contribution is to convert three of the surrounding failures from open questions into theorems
+with named escape routes, which is a different and smaller thing than answering them.
+
+\begin{thebibliography}{9}
+\bibitem{Mostow} G.~D.~Mostow, \emph{Strong Rigidity of Locally Symmetric Spaces}, Princeton, 1973.
+\bibitem{Prasad} G.~Prasad, Strong rigidity of $\Q$-rank $1$ lattices, \emph{Invent.\ Math.}
+  \textbf{21} (1973), 255--286.
+\bibitem{MaclachlanReid} C.~Maclachlan and A.~W.~Reid, \emph{The Arithmetic of Hyperbolic
+  $3$-Manifolds}, Springer, 2003.
+\bibitem{Thurston} W.~P.~Thurston, \emph{The Geometry and Topology of Three-Manifolds},
+  Princeton lecture notes, 1980.
+\bibitem{CullerDunfield} M.~Culler, N.~M.~Dunfield, M.~Goerner and J.~R.~Weeks, SnapPy, a computer
+  program for studying the geometry and topology of $3$-manifolds,
+  \texttt{http://snappy.computop.org}.
+\bibitem{NeumannZagier} W.~D.~Neumann and D.~Zagier, Volumes of hyperbolic three-manifolds,
+  \emph{Topology} \textbf{24} (1985), 307--332.
+\end{thebibliography}
+
+\end{document}

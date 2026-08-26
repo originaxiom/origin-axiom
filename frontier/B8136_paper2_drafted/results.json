@@ -1,0 +1,71 @@
+{
+ "inherited_from_B8078_rerun": {
+  "image": {
+   "all_attained": true,
+   "n_flats": 109,
+   "spectrum": [
+    12,
+    14,
+    16,
+    18,
+    20,
+    26,
+    28,
+    30,
+    36,
+    46,
+    78
+   ]
+  },
+  "master_formula": "for every subspace S of C: dim z(S) = 12 + sum{m_lambda : lambda|_S = 0} -- the flat-function of 30 hyperplanes in a 4-space",
+  "status": "exit 0, ALL CHECKS PASS, re-run to completion before drafting",
+  "structure": "e6 = z(C) + V'; C acts as LITERALLY ZERO on z(C) (generalised zero-space EQUALS z(C)); charpoly(R) = t^12 q6^3 q12 q12'^3; 30 distinct weights in three Galois orbits (6 x mult 3, 12 x mult 1, 12 x mult 3) = 66, plus 12 = 78",
+  "the_46": "on the (x8,x16)-plane charpoly(Q) = c g(t)^16 with g an IRREDUCIBLE rational cubic; dim z = 46 exactly on g's roots, 30 otherwise; so EVERY rational direction gives 30 -- 46 is arithmetically INACCESSIBLE over Q, not merely rare. g has discriminant squarefree part 77 and acquires a root in K = Q[x]/(x^3-12x-5), factoring (1,2), hence generates K. The multiplicity 16 is DERIVED as the exponent, not recorded as 46-30."
+ },
+ "my_own_error_caught_mid_draft": {
+  "effect": "the correction made the paper STRONGER -- 2T being E6's McKay partner is what makes the degree matching meaningful rather than a coincidence",
+  "how_caught": "testing whether the exponent choice was forced; the degree arithmetic only closed for the 6,8,12 generator set, which is not 2O's",
+  "verified_after": "explicit invariance of t and Phi under both 2T generators, with a control that a non-invariant degree-8 form is rejected",
+  "what": "I wrote the whole first draft calling t and Phi BINARY OCTAHEDRAL invariants.",
+  "why_wrong": "2O's invariant generator degrees are 8, 12, 18. The degrees actually used -- 6, 8, 12 -- are 2T's, the BINARY TETRAHEDRAL group, which is the McKay partner of E6."
+ },
+ "new_in_paper2": {
+  "controls_that_make_it_nontrivial": {
+   "2I": "D(2I) cap E = [] -- would give nothing",
+   "2O": "D(2O) cap E = [8, 16] -- would give a 2-dimensional C"
+  },
+  "statement": "D(2T) = {6a+8b+12c} meets E = {2,8,10,14,16,22} in exactly {8,14,16,22}; excluded are 2 and 10, i.e. exponents 1 and 5, which are not degrees of any 2T-invariant; each surviving degree has a UNIQUE monomial and none uses the degree-12 generator",
+  "what": "C is FORCED, not chosen",
+  "why_it_matters": "removes the suspicion that four summands were picked to obtain a convenient answer; the construction reads 'take the group whose McKay partner is E6 and place its invariants where the degrees allow'"
+ },
+ "paper": {
+  "overfull": 0,
+  "pages": 8,
+  "path": "papers/series/paper2_rung_spectrum/main.tex",
+  "sha256_tex": "5fcbd6c7d98a1459301d7d4de5adb58370569d923f634a21b5c5ebc6aaf80e7e",
+  "sha256_verify": "88e863aa748b34275fa78ec16217e9658dedc0c5128d1f4001dbd903eee9aff0",
+  "undefined_refs": 0
+ },
+ "scope": {
+  "exact_over_Q": [
+   "dim z(C) = 12",
+   "the decomposition and that C acts as zero on z(C)",
+   "the three weight orbits",
+   "the master formula",
+   "the plane cubic, its irreducibility, its discriminant and that it generates K",
+   "the forcing proposition"
+  ],
+  "not_claimed": [
+   "real forms",
+   "conjugacy classes of subalgebras",
+   "that the principal sl2 placement is forced (OA-C0006, CONDITIONAL, ASSUMED here)",
+   "any interpretation outside Lie theory"
+  ],
+  "three_faithful_primes_only": "the 109 flats and the eleven attained values; mod-p reduction can only ADD dependencies so a flat could be coarser than its Qbar counterpart; primes 409/421/487 agree; the Qbar flat lattice is REGISTERED AS OPEN, not claimed"
+ },
+ "verification": {
+  "b8078_reproducer": "exit 0",
+  "forcing_checks": 13,
+  "forcing_passed": 13
+ }
+}

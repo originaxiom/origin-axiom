@@ -65,8 +65,7 @@
  ],
  "plane_cubic": "500716339200*t**3 + 2075673600*t**2 - 4769856*t - 2197",
  "plane_cubic_generates_K": true,
- "residue_closed_by": "B8079",
- "scope": "Steps (1) and (2) are exact over Q. The flat enumeration is exhaustive at three faithful primes, not certified over Qbar: mod-p reduction can only ADD linear dependencies among weights, so a flat could in principle be coarser than its Qbar counterpart. Three independent primes agree, and six of the eleven values are independently banked. The exact-over-Qbar flat lattice is registered as the residue. RESIDUE CLOSED by B8079 (2026-08-18): reaching the same arrangement as the E6 roots restricted to C makes every weight rational, so the flat lattice is defined over Q and its Q-enumeration is its Qbar-enumeration. The two routes share no code path and agree on the profile, the 109 flats and the eleven values.",
+ "scope": "Steps (1) and (2) are exact over Q. The flat enumeration is exhaustive at three faithful primes, not certified over Qbar: mod-p reduction can only ADD linear dependencies among weights, so a flat could in principle be coarser than its Qbar counterpart. Three independent primes agree, and six of the eleven values are independently banked. The exact-over-Qbar flat lattice is registered as the residue.",
  "spectrum": [
   12,
   14,
