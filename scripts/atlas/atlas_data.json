@@ -3435,6 +3435,25 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1166": {
+   "slug": "charter attack",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B713",
+    "B926"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [

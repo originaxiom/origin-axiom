@@ -1,5 +1,30 @@
 # Changelog
 
+## B1166 (2026-08-26): cc's attack on cloud's GRAVITY_CHARTER — C3 VERIFIED (one dilaton, not two moduli), C4 REFUTATION-CANDIDATE (the free-orbit torsor is √3-flavored, being×hearing is √5-flavored)
+
+Cloud relayed THE_GRAVITY_CHARTER (`origin/outside-bench` 60bcf01d) — the §E identification as
+preregistered, falsifiable sub-claims — assigning **C3** and **C4** to cc (C5 the owner's, C6 cloud's lane).
+Both decidable in-sandbox; attacked, verdict **OPEN** (one confirmation + one refutation-candidate). **C3
+(the continuous observer freedom is ONE dilaton ℝ⁺, not two moduli) = VERIFIED** from two banked facts: (i)
+the *phase pin* — CS(m004)≡0 exactly (own-verified, Im complex volume = 1.8×10⁻¹⁵; amphichirality B1163) ⇒
+the complex volume is **real** ⇒ no free U(1) phase; the residual is the **discrete μ₆** (roots of unity in
+K=ℚ(√−3)=ℚ(ζ₆), a ℤ/6 finite/torsion bit — cloud's E1 "the gravitational phase is μ₆ torsion" exhibited),
+not a continuous U(1); (ii) *no second modulus* — Mostow rigidity (m004's complete structure unique, H₁=ℤ, 1
+cusp frozen by completeness) makes the refutation condition (a second independent continuous modulus)
+unmeetable. So ℂˣ=ℝ⁺×U(1): the U(1) is object-paid, the ℝ⁺ is the withheld scale — the observer's continuous
+freedom is **ℝ⁺ alone**, confirming B1164's "2 discrete + 1 continuous" at the continuous slot. **C4 (the
+branch-selection V₄ B1161, the being×hearing V₄ B713, the measurement torsor B1024 are one torsor with named
+actions) = REFUTATION-CANDIDATE:** the free-orbit torsor is **√3-flavored** (B1161's V₄=Gal(H/ℚ), H=ring
+class field disc **144**=ℚ(ζ₁₂)=K(√3), B1067; disc 144=2⁴·3² ⇒ only 2,3 ramify; subfields {√−3,√3,√−1},
+B1164 own-verified), while being×hearing is **√5-flavored** (B713/B926 W11: being=ℚ(√−3), hearing=ℚ(√5)); and
+**√5 ∉ ℚ(ζ₁₂)** (5 unramified, own-verified). As torsors *"with named actions"* (C4's own clause) the
+(branch, being×hearing) pair is **not** isomorphic — only the abstract (ℤ/2)²-torsor-on-4-points identity
+survives, which that clause forbids. So C4 as literally stated is **refuted for that pair** (one non-matching
+pair suffices); **held at CANDIDATE** pending cloud's intent (abstract vs named-action iso) + the exact B1024
+frame-V₄ (chirality×reversal) leg (cc/codex disc-144 chase). Relayed to cloud (whose claim it is) + codex.
+Not routed to the kill_graph (a candidate, not a confirmed negative). Own-verified; Gate 5 clean (Galois
+groups, ramification, rigidity — no measured value). Locks `tests/test_b1166_charter_attack.py` (6 tests).
+
 ## B1165 (2026-08-26): the terminal gravity close (§E) — GENERIC-RHYME: the observer's archimedean closing is CO-LOCATED with the object's gravitational sector, not object-specifically identified; gravity is the WHERE, generic
 
 The owner-directed **terminal** probe of gravity, run to a typed conclusion (verdict **NEGATIVE**, seal

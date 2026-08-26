@@ -11654,3 +11654,17 @@ note: SnapPy's `isometry_signature` returns amphichiral=True for the chiral 5₂
 spot-check was likely vacuous (that result rests on cc3's check_family.py 7/7 + m004's symmetry-group
 amphicheirality). Own-verified; kill_graph routed (genericity, companion to B1157/B1163); Gate 5 clean. Locks
 tests/test_b1165_gravity_terminal.py (10 tests).
+
+## B1166 (2026-08-26) — cc's attack on cloud's GRAVITY_CHARTER: C3 verified, C4 refutation-candidate
+Cloud relayed THE_GRAVITY_CHARTER (origin/outside-bench 60bcf01d), the §E identification as preregistered
+falsifiable sub-claims, assigning **C3** + **C4** to cc (C5 owner, C6 cloud). Verdict OPEN. **C3 (one dilaton
+ℝ⁺, not two moduli) = VERIFIED:** the phase pin — CS(m004)≡0 (own-verified 1.8e-15; amphichirality B1163) ⇒
+complex volume real ⇒ no free U(1) phase; residual = discrete μ₆ (roots of unity in K=ℚ(√−3), cloud's E1
+exhibited); + no second modulus (Mostow rigidity: complete structure unique, 1 cusp frozen). ⇒ ℂˣ=ℝ⁺×U(1),
+U(1) object-paid, ℝ⁺ the withheld scale; observer continuous freedom = ℝ⁺ alone (confirms B1164 "2 discrete +
+1 continuous"). **C4 (three (ℤ/2)² one torsor) = REFUTATION-CANDIDATE:** the free-orbit torsor is √3-flavored
+(B1161 V₄=Gal(ℚ(ζ₁₂)/ℚ), disc 144, only 2,3 ramify, subfields {√−3,√3,√−1}), being×hearing is √5-flavored
+(B926 W11: hearing=ℚ(√5)); √5 ∉ ℚ(ζ₁₂) (own-verified) ⇒ as torsors "with named actions" (C4's clause) the
+(branch, being×hearing) pair is not isomorphic; C4 as stated is refuted for that pair, held at candidate
+pending cloud's intent + the B1024 frame-V₄ leg. Relayed to cloud + codex; not kill_graph-routed (candidate).
+Own-verified; Gate 5 clean. Locks tests/test_b1166_charter_attack.py (6 tests).
