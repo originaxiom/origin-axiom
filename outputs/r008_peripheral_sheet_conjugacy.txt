@@ -1,0 +1,11 @@
+Riley trace component: P = -x**2*z + 2*x**2 + z**2 - z - 1
+disc_z(P) = (x - 1)*(x + 1)*(x**2 - 5)
+kappa mod P = z - 1
+tau + kappa - 3 mod P = (x - 2)*(x + 2)
+global deck map: z -> x**2 - z + 1
+global deck conjugate of kappa = x**2 - z
+generic kappa polynomial = K**2 - K*(x**2 - 1) + x**2 - 1
+parabolic specialization: x^2=4 gives kappa + tau = 3
+selected x=2 values: kappa=1+q, tau=2-q
+counterexample: x=0, z=(1+sqrt(5))/2 gives tau+kappa-3=-4
+VERDICT: GLOBAL SHEET CONJUGACY PROVED; CONSTANT 3-KAPPA IS PERIPHERAL ONLY
