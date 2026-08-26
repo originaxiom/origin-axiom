@@ -139,3 +139,40 @@ unique up to scale, frame-covariant. §6's D2 is paid on the positive
 branch: the chain's broken link reduces from "the whole embedding" to
 "the existence of an embedding," with the content forced by integer
 arithmetic. D1 (the witness alignment audit), D3–D5 remain.
+
+### ADDENDUM 3 (2026-08-26) — D3, D4, D5 executed; the ledger closes at 4/5
+- **D5 (memo 71, SUSY_NO_GO):** three definitions of a supercharge on the
+  carrier, three exact negatives — the "M" in MSSM is unsupported by the
+  object's kinematics; the skeleton is a COUPLING structure. Contradicts
+  no observation (superpartners unobserved). Field SUSY behind Gates 2/3.
+- **D3 (memo 72, UNIQUE_CHAIN):** exactly TWO SM-safe vev directions in
+  the 27 (the lepton block's neutral pair) — the standard E6 double-
+  breaking is the only chain; it lands on exactly the SM torus; and it
+  costs BOTH distinguished ℤ/2s (neither ψ-parity nor lock survives —
+  memo 61's fork resolved).
+- **D4 (memo 74, FAMILY_CENSUS):** one 27 carries no family index — the
+  in-frame trinification ℤ/3 (432 automorphisms, 36 cube roots of 1)
+  rotates SECTORS within one generation; three-ness lives only in E8's
+  (3,27), which stays possibility-space.
+- **D1 (the alignment audit): STILL BLOCKED** — final fetch 2026-08-26:
+  main unchanged at c54ae433, WF-3's conditional MSSM witness has not
+  landed; the audit runs when it does.
+- **L132 second frame (B892's own):** assessed. Main's own B948 identifies
+  su(3)⊕su(2)⊕u(1)³ as the A₂+A₁ Levi with "exactly B892's numbers"
+  (dim 14, centre 3) — the SHAPE memo 70's cell already uses (8+3+3) and
+  answers frame-covariantly in-stack. What remains is adjoint-conjugacy
+  of this lane's slot embedding with cc's tower frame z(x₁,y*), which
+  requires vendoring their build's basis correspondence (foreign paths,
+  the exact tower over F = ℚ[ρ]/μ) — a cross-repo audit, LEFT FOR THE
+  SEAT with this justification; not claimed here.
+
+**The verdict of the programme as executed:** the parameter-free chain to
+"MSSM detailed structure" resolves into (i) a forced NMSSM-shaped
+COUPLING skeleton (banked, memos 32/35/47/48/56/70), (ii) a unique
+SM-breaking chain priced in parities (72), (iii) NO kinematic
+supersymmetry (71) and NO intra-27 family index (74). What the record
+supports parameter-free is the FORM — couplings, parities, portal, one
+forced hypercharge — not a supersymmetrized spectrum. The detailed-MSSM
+ambition lands, on this bench's evidence, as "NMSSM-shaped coupling
+skeleton over exactly one generation-kinematics, families supplied only
+at the E8 possibility level."

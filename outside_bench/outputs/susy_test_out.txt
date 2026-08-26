@@ -1,0 +1,31 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT A: locked content {'1': 6, '0': 6}, unlocked {'1/2': 15}
+   contents DISJOINT => (Schur, CITED; closure = diagonal SL2, CITED as memo 48)
+   every pi1-equivariant map locked <-> unlocked is ZERO:
+   dim(odd pi1-commutant) = 0 — NO Definition-A supercharge exists
+FACT B(i): 27 weights multiplicity-free and weight graph connected: 27/27
+   => any operator commuting with the Cartan and all 12 generators is a
+      SCALAR on the 27 (weight-diagonal by multiplicity-freeness, constant
+      along the connected generator graph) — commutant of the 27 = scalars,
+      PROVED in-run; hence the e6-commutant on Psi = {M (x) I : M in gl2}
+FACT B(iii): A_27 has 6 nonzero off-diagonal entries (e.g. (16, 0)) — A_27 != I,
+   so (M (x) I)^2 = M^2 (x) I can NEVER equal A_2 (x) A_27:
+   NO Definition-B supercharge exists
+FACT C: the beat commutes with the lock (is EVEN): True; and it is
+   Galois-SEMILINEAR (banked, memo 46 + OA-C1090): the object's one
+   square-root of the tick is a mirror, not a supercharge
+
+THE SUSY NO-GO (kinematic): no odd operator squaring to the meridian exists
+on the carrier under pi1-equivariance (content-disjointness, Schur) or
+gauge-equivariance (commutant = gl2 (x) I, proved in-run, cannot square to
+the tick); and the record's own square-root of the tick — the beat — is
+even and semilinear.  The "M" in MSSM is unsupported by the object's
+kinematics: the NMSSM-shaped skeleton is a coupling structure, not a
+supersymmetric one.  This contradicts no observation (superpartners are
+not observed); 4d field SUSY with true translations is behind Gates 2/3
+and untouched.  Gate 5 untouched.
