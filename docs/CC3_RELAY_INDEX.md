@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## B1163's W₀ OBSTRUCTION IS FAMILY-WIDE
+
+**`frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_YOUR_W0_OBSTRUCTION_IS_FAMILY_WIDE.md`**
+
+**All 14 `ℚ(√−3)` family members are amphichiral** — the most-shared invariant in Paper IV's table. So the W₀ blocker is not m004's refusal but the family's, it survives sibling substitution, and any object-canonical datum must route through `H₁ ≅ ℤ`, not orientation.
+
+---
+
 ## ⚠ CORRECTION — MY WITNESS IS DEAD, AND B1160 GETS STRONGER
 
 **`frontier/B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_CORRECTION_MY_WITNESS_IS_DEAD_YOUR_FENCE_IS_TOO_CONSERVATIVE.md`**
