@@ -1,0 +1,23 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+Psi diagonal-sl2 weight multiset: {0: 12, 1: 15, 2: 6, -2: 6, -1: 15}
+Psi|_diag-sl2 decomposition {spin: mult}: {'0': 6, '1/2': 15, '1': 6}
+RUNG 1: dim of pi1-invariant trilinears on Psi x Psi x 27  =  6615
+ordered weight-zero triples: 270
+RUNG 3: dim of FULL-TENSOR e6-invariants on 27 x 27 x 27  =  1
+the unique full-tensor invariant is automatically SYMMETRIC: True
+
+THE UNIQUENESS CHAIN, EXACT:
+    pi1 alone (diagonal SL2 closure)      : 6615 independent couplings
+    + trinification gauge (memo 35 x eps) : 4
+    + the object's full e6 (computed here): 1  — and that one is symmetric,
+      so it IS the Jordan coupling Y = eps (x) C of memo 47.
+The gauge principle is not decoration: without internal covariance the
+carrier admits 6615 couplings; the closing's own symmetry does all the
+cutting, and what survives is the single beat-covariant Jordan coupling.
+(Zariski-density of the nonelementary holonomy and algebraicity of the
+bridge are the CITED-standard steps; every dimension above is computed.)
