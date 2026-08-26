@@ -18,6 +18,20 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1159 — the object→MSSM debt-map (WF-3); SEAM-A is a wall)**: owner approved "pay
+codex's conditional debt, chain to MSSM" + pressed "SEAM-A is a wall, not a door?" — both answered. WF-3
+read codex's off-branch MSSM witness + re-derived the load-bearing algebra in-sandbox, typing every link
+**A–E**: A (heterotic) = **imported/walled** (OA-C1002 re-derived by multiplet count — three string theories
+on one CY3; SEAM-A un-forced at every place, the "door" withdrawn; a FLOOR only in strict-proof, payment
+NEEDS-SPECIALIST + leaning MISMATCH); B forced-given-A (E₆ generic); C **half-paid** (character alphabet
+object-forced with zero spectrum input = the bypass foothold; branch selection needs imported P1/P2 + free
+Galois); D **WALL** (up-Yukawa=0 = SEAM-Y); E **withheld** (scale no-go). **Bifurcation:** the structural
+chain → exact charged MSSM *spectrum* is payable **iff A** (conditional cohomological spectrum theorem); the
+value chain → masses hits the wall. So the object gives a **conditionally-forced spectrum on top of a proved
+wall where the masses are** — not object-forced end-to-end, not a breakthrough. **Live door relocated:**
+bypass A (replace C's P1/P2 with an object-intrinsic principle). Provenance debt D1/D2/D3 relayed to codex.
+Gate 5 clean. Locks test_b1159_mssm_debt_ledger.py. **Move 2 reframed: seal SEAM-A as a wall.**
+
 **LATEST (2026-08-26, B1158 — cloud WAVE-2 + codex R009–R014 backlog harvest; owner: constantly check the 3 seats)**: standing monitors armed on cloud/codex/cc3; the sweep found + cleared a real backlog (cloud's 10-cell WAVE-2 memos 56–69 + codex's Paper I–IV audits) via a verify-don't-trust harvest workflow. **Three own-reproduced survivors** (scoped): the **exact Gaudin law closes B1151's surmise-error hatch** (p-value collapse robust; residual quarantined; codex R009 corroborates); the **anomaly integer identity** 27=16₊₁⊕10₋₂⊕1₊₄ (dark block=−(16); "required" quarantined as conditional); the **Habiro ζ₃ germ corrected** (mechanism solved, coherence⇔p^r≡1 mod 3). **Two convergences:** codex R011 **corroborates B1157** (two seats, one ∞-place NULL); codex R012 ≡ cloud ANOMALY_PAYMENT (consistent). Codex R010–R014 **relayed to cc3** (paper-facing, owner-gated; R014 refutes Paper-IV's scale theorem + 14-family via s955). Gate 5 clean; no crossing. Locks test_b1158_cloud_wave2_harvest.py. **Masterplan resumes at WF-3.**
 
 **LATEST (2026-08-26, B1157 — WF-2 the dynamics; STRUCTURAL RHYME + closed-Fried REFUTED)**: the

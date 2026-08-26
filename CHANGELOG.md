@@ -1,5 +1,35 @@
 # Changelog
 
+## B1159 (2026-08-26): the object→MSSM debt-map (WF-3) — every condition typed + verified; the chain is NOT object-forced end-to-end, and SEAM-A is a wall
+
+The owner approved "pay codex's conditional debt and have the chain to MSSM," then pressed the sharper
+question: *is SEAM-A a wall, not a door?* Both are answered here. WF-3 (6 agents) read codex's off-branch
+conditional MSSM witness (the height-308 SU(5) bundle, the heterotic bridge, the character-rule selector,
+the Yukawa no-go) **and re-derived the load-bearing algebra in-sandbox**, typing every link A–E:
+- **A (heterotic framework) = CRUX, IMPORTED, un-forced.** OA-C1002 re-derived by multiplet count: the same
+  CY3 with (h¹¹,h²¹)=(1,4) gives IIA (1,5), IIB (4,2), het (N=1) — three inequivalent string realizations,
+  so heterotic is a *choice*. **SEAM-A is a wall in substance** (un-forced at every place: finite by
+  OA-C1002, ∞ by B1157 genericity + B1156's tautology-risk); the "door" framing is withdrawn. It is a FLOOR
+  only in strict-proof (one unsealed finite-phase→Vol computation, NEEDS-SPECIALIST, leaning MISMATCH), and
+  either way it **does not pay link A**.
+- **B (which E₈) = forced-given-A.** SU(3)-commutant E₆(78) in E₈ vs SO(26)×U(1)(326) in Spin(32)/ℤ₂ →
+  E₈×E₈ only (re-derived). But E₆ arrival is generic (B727).
+- **C (bundle/branch/Wilson) = half-paid.** The character **alphabet** is object-forced with **zero spectrum
+  input** (Pic_ℚ={0,2,3,4,6,8,9,10} from the toric fan — the bypass door's foothold); the **branch
+  selection** needs two imported target-motivated rules P1/P2 + a free Galois action (uniqueness refuted,
+  11-dim moduli unselected).
+- **D (up-Yukawa) = WALL.** μ_u=⟨i(a)∪i(b),c̃⟩=0 from H¹(X,G_X)=0 (re-derived) = SEAM-Y MISMATCH (B1154).
+- **E (moduli/SUSY/EWSB/scales) = WITHHELD** (dimensionful no-go, B660/B666).
+
+**The bifurcation:** the structural chain (→ exact charged MSSM *spectrum*) is payable **iff A is paid** (a
+conditional cohomological spectrum theorem); the value chain (→ Yukawas/masses) hits the wall (D) + withheld
+(E). So "the object all the way to MSSM" = a **conditionally-forced spectrum on top of a proved wall where
+the masses are** — structure forced (on A), values withheld, the program's one verdict at the SM's doorstep.
+**Not object-forced end-to-end; not a breakthrough.** The live door is **relocated**: bypass A — replace
+C's P1/P2 with an object-intrinsic principle to derive the spectrum from E₆ + the character rule as algebra.
+Two facts own-verified (`reproduce.sh` → REPRODUCES). Codex witness single-homed (provenance debt D1/D2/D3
+relayed). No firewall crossing; Gate 5 clean. Locks `tests/test_b1159_mssm_debt_ledger.py`.
+
 ## B1158 (2026-08-26): Cloud WAVE-2 + codex R009–R014 backlog harvest — three verified survivors, two cross-seat convergences, codex paper-audits relayed
 
 The owner's "constantly check cloud/codex/cc3" directive surfaced a real backlog: cloud's whole **WAVE-2**

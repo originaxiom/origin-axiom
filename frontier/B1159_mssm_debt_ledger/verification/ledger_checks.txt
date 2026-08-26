@@ -1,0 +1,25 @@
+(A) LINK A IMPORTED -- OA-C1002 by multiplet count (the same CY3, three string theories)
+    CY3 (h11,h21)=(1,4):
+      IIA: vectors=h11=1, hypers=h21+1=5   -> (1,5)
+      IIB: vectors=h21=4, hypers=h11+1=2   -> (4,2)
+      het: N=1 in 4D, gauge from the bundle -- a distinct theory
+    => IIA (1,5) != IIB (4,2): THREE inequivalent realizations of the SAME CY3.
+       Heterotic is a CHOICE, not a property of the geometry. LINK A = IMPORTED (crux).
+
+(B) LINK B FORCED-GIVEN-CRUX -- McKay E6 selects E8xE8, not Spin(32)/Z2
+    E8(248), gauge SU(3): commutant = E6, dim = 78
+    Spin(32)/Z2(496), gauge SU(3): commutant = SO(26)xU(1), dim = 325+1 = 326
+    E6(78) != SO(26)xU(1)(326) => the SU(3)-commutant distinguishes them;
+       McKay E6 (from Q(sqrt-3)->2T) selects the E8xE8 fiber only. FORCED-GIVEN-CRUX.
+    (E8 = 248 = 78[E6] + 8[SU3] + (27,3)=81 + (27bar,3bar)=81 = 248  -- consistent.)
+
+(C) THE BIFURCATION -- the type split at the SM's doorstep
+    STRUCTURAL chain (-> exact charged MSSM SPECTRUM): A => B => C-spectrum.
+      PAYABLE IFF A is paid; A is provably NOT object-forced (OA-C1002). Conditional.
+    VALUE chain (-> Yukawas/masses): WALL. up-Yukawa = 0 (SEAM-Y=MISMATCH, B1154,
+      cohomological emptiness, coefficient-independent); down-Yukawa + scales WITHHELD (E).
+    => 'object all the way to MSSM' = a conditionally-forced SPECTRUM sitting ON TOP OF
+       a proved WALL where the masses are. Structure forced (on A), values withheld --
+       the program's one verdict, at the SM's doorstep.
+
+REPRODUCES

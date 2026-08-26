@@ -3267,6 +3267,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1159": {
+   "slug": "mssm debt ledger",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B660",
+    "B666",
+    "B727",
+    "P1",
+    "P2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B115": {
    "slug": "higher generality",
    "motifs": [

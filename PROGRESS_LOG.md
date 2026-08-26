@@ -11527,3 +11527,26 @@ codex R011 corroborates B1157 (two-routes-one-verdict on the ∞-place NULL; B11
 ≡ cloud ANOMALY_PAYMENT (consistent). **Codex R010–R014 relayed to cc3** (paper-facing, owner-gated; incl.
 R014 refuting Paper-IV's scale theorem + 14-family via witness s955). No firewall crossing; Gate 5 clean.
 Locks `tests/test_b1158_cloud_wave2_harvest.py` (9 tests). Backlog cleared; masterplan resumes at WF-3.
+
+## 2026-08-26 — B1159: the object→MSSM debt-map (WF-3, owner-approved); + the owner's "SEAM-A is a wall" correction adopted
+
+Owner approved "pay codex's conditional debt, chain to MSSM," then pressed "seam-a is a wall, not a door,
+no?" — conceded and adopted. WF-3 (6 agents: 2 scope → 3 verify → 1 assemble) read codex's off-branch MSSM
+witness (readable locally) + re-derived the load-bearing algebra in-sandbox, banking the verified A–E
+condition ledger → **B1159**. Two clean facts own-verified (`reproduce.sh` → REPRODUCES): OA-C1002 by
+multiplet count (same CY3 → IIA (1,5)/IIB (4,2)/het — three string theories, so **link A is imported**), and
+the E₈ SU(3)-commutant branching (E₆(78) vs SO(26)×U(1)(326) → E₈×E₈).
+
+**Verdict:** the chain is **not object-forced end-to-end**. A (heterotic) = CRUX/imported/**walled** (SEAM-A
+un-forced at every place — the "door" framing withdrawn; a FLOOR only in strict-proof, the finite-phase→Vol
+payment NEEDS-SPECIALIST + leaning MISMATCH); B forced-given-A (E₆ generic, B727); C **half-paid** (the
+character alphabet object-forced with zero spectrum input — the bypass foothold; the branch selection needs
+imported P1/P2 + free Galois action); D **WALL** (up-Yukawa=0, SEAM-Y B1154, re-derived); E **withheld**
+(scale no-go). **Bifurcation:** structural chain → exact charged MSSM *spectrum* payable iff A paid (a
+conditional cohomological spectrum theorem); value chain → Yukawas/masses hits the wall + withheld. So the
+object gives a **conditionally-forced spectrum on top of a proved wall where the masses are** — structure
+forced (on A), values withheld. **The live door relocated:** bypass A — replace C's P1/P2 with an
+object-intrinsic principle (derive the spectrum from E₆ + character rule as algebra). Move 2 reframed: seal
+SEAM-A as a wall (B1156, NEEDS-SPECIALIST → scoping/relay). Provenance debt D1/D2/D3 relayed to codex
+(commit the off-branch witness). No firewall crossing; Gate 5 clean. Locks
+`tests/test_b1159_mssm_debt_ledger.py` (10 tests).
