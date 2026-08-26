@@ -1,0 +1,10 @@
+k=4: selected sectors={'u^c': (4, 3), 'Q': (8, 3), 'e^c': (0, 3), 'd^c': (4, 3), 'L/Hd': (0, 4), 'Hu': (0, 1)}
+k=8: selected sectors={'u^c': (8, 3), 'Q': (4, 3), 'e^c': (0, 3), 'd^c': (8, 3), 'L/Hd': (0, 4), 'Hu': (0, 1)}
+H_d choice space = P(B_0) = P^3; C12 acts trivially on B_0
+up selection space = Sym^2(C^3), dimension 6
+down/lepton selection space after an H_d choice = C^3 tensor C^3, dimension 9
+DATA full unprojected mu_u domain dimension = 1806; induced matrix has rank 0
+DATA Wilson-projected up matrix is the exact 1 x 6 zero matrix
+RESULT exact naturality factorisation gives mu_u = 0 and rank(mu_u) = 0
+SCOPE mu_d still has no Cech/hypercohomology chain-level evaluation
+Yukawa cup-product scope certificate: PASS
