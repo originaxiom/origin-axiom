@@ -1,0 +1,33 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: u(1) charge multiset on the 27: {4: 1, 1: 16, -2: 10}
+   classes: 16 at q=1, 10 at q=-2, 1 at q=4
+   bridge root charge shift: q(r0) = -3
+FACT 2: the 45 cubic triples by family type: {('1', '10', '10'): 5, ('10', '16', '16'): 40}
+   => 40 of type 16.16.10 and 5 of type 10.10.1, nothing else
+FACT 3: no triple couples 16 with the singlet: True;
+        every singlet coupling is 10.10.1: True (5 triples)
+        => THE PORTAL SHAPE: the 10 is the sole channel between the
+           SM-shaped 16 and the singlet, in the unique coupling
+FACT 4: matter parity P (=-1 on 16, +1 on 10,1) conserved by all 45 triples: True
+FACT 5: family class x bridge weight (the DARK LEDGER cross-table):
+    16: wt -1:  5   wt 0: 10   wt +1:  1
+    10: wt -1:  0   wt 0:  5   wt +1:  5
+     1: wt -1:  1   wt 0:  0   wt +1:  0
+   lock C_27 == P: False;  lock == -P: False
+   => INDEPENDENT Z/2s: joint distribution {(1, -1): 6, (-1, -1): 6, (-1, 1): 10, (1, 1): 5}
+      the object-paid lock (longitude's sign) and the frame-paid
+      matter parity are DIFFERENT gradings of the 27
+
+THE DARK LEDGER: in the unique coupling the singlet talks only through the
+vector-like 10 (the portal shape is a theorem), a matter parity separating
+the SM-shaped 16 from the rest is conserved exactly, and the ledger now
+records which Z/2 is whose: the matter parity is frame-paid (it exists once
+the D5 is chosen), the lock is object-paid (the longitude's own sign), and
+the table above states their exact relation.  What remains dark is exactly
+what needs the unpaid verbs: stability, abundance, mass — dynamics and
+values, behind the gates where they belong.
