@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1057** |
-| words of findings prose | **718,425** |
-| test lock files referenced | **663** |
-| arcs carrying an authored verdict | **1044** (98.8 %) |
+| research arcs with findings | **1059** |
+| words of findings prose | **719,824** |
+| test lock files referenced | **665** |
+| arcs carrying an authored verdict | **1046** (98.8 %) |
 | recorded closures | **764** (597 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 707 |
+| PROVED | 708 |
 | NEGATIVE | 291 |
-| OPEN | 36 |
+| OPEN | 37 |
 | RETRACTED | 10 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1153`** (866 words, 1 locks)  
-THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS: cloud memos 54-55 (origin/outside-bench 0c7f8b5a) verified by REPRODUCTION -- both self-contained certs re-run on this bench's pyenv exit rc=0 (every claim a preregistered assert) and reproduce byte-identical; PLUS memo 54 independently sympy-confirmed. memo 54 THE PERIPHERAL IDENTITY (closes codex OA-C1082/OA-C1083, completes memo 43): tr(ab^-1) = gal(kappa) is the RILEY RELATION in disguise -- deriving the m004 nonabelian trace relation P(x,z)=z^2-x^2 z+2x^2-z-1 in-run, S-3 = P + (x^2-4) with quotient exactly 1, so on the component tr(ab^-1)+kappa = 3 + (tr a-2)(tr a+2): it holds tr(ab^-1)=gal(kappa) PRECISELY where the meridian is parabolic (P(2,z)=z^2-5z+7, both geometric characters, scheme-theoretic), with defect EXACTLY x^2-4 off it -- the object's '3' is the cusp condition, a FOURTH TRACE THREE appearance (memo 49). And the trace map's FULL fixed locus is exactly 3 points (Groebner elim z^2(z^2+12), scheme length 4=1+1+2): the kappa-pair (mirror-exchanged) + (0,0,0) (codex's point, non-reduced mult 2, mirror-FIXED) -- the mirror's free orbit is still exactly the pair, so memo 43's exact claims stand ('a second' not 'the second'). memo 55 THE SUPERPOSITION SPEAKS (B1151's named follow-up on B1151's own committed data): the 2-fold GUE superposition surmise E_W(f1 s) E_W(f2 s) fits the merged zeta_K spacing at D=0.02400 (vs single-GUE 0.13359), BELOW the factors' own residuals, passing the preregistered D gate with a 5.6x margin; control -- each factor REJECTS the superposition (D~0.18) while fitting single-GUE (0.04). B1151's honest NEGATIVE and this POSITIVE are two halves of one statement: zeta_K's spacings see exactly its factorization zeta*L(chi_-3). ADOPTED (memo 54's codex Wave-3 corrections, into B1148/B1149, MATH unchanged): 'antiunitary'->'semilinear' (45/46/50); the carrier is 'a' carrier on the banked minimal-A1 bridge, not a derived minimum (46, OA-C1087); memo 43's fixed pair is 'a second' point, not 'the' (43, OA-C1082). Fences: PART I rational algebra, PART II interpolation+verify (traces polynomial coords CITED-standard + 40-sample + Groebner/Q); memo 55 GENERIC (superposition expected for any product L-function; no object-specificity, no crossing); zeta file 2469 vs B1151 prose 2468 (immaterial). Primary source shared-remote. Cloud + codex seats credited. Gate 5 untouched.  
-`B1153_peripheral_and_superposition/FINDINGS.md`
+**PROVED — `B1154`** (669 words, 1 locks)  
+SEAM-Y RESOLVED = MISMATCH (the sealed grammar's second outcome: two independent walls, both confirming structure-not-values). The seam asked whether codex's exact up-type-Yukawa=0 is the SAME fact as our period-value disjointness. It is NOT: codex's mu_u=0 is a COHOMOLOGICAL vanishing -- the cup product mu_u=<i(a) cup i(b),c> is forced to zero by H^1(X,G_X)=0 (i is the zero map), a rank-0 EMPTINESS that is field-independent and contains no SM number, no PSLQ, no regulator (codex: 'an identity of cohomology classes, not... one arithmetic point'; the Q(zeta_12) arithmetic only SELECTS which class is H_u); our wall is an ARITHMETIC NON-OVERLAP -- the object's period/regulator Q-algebra over Q(sqrt-3)/Q(sqrt5) contains no SM value-ratio (B1137: 0/18 targets, null base rate 0.0, PSLQ 60+ dps; regulators computed with no SM input), a statement about numbers that REQUIRES the SM target list. The discriminator: emptiness != non-overlap; the two walls share zero common data and no bridge object (codex's mu_u is not among our sealed periods; no object period enters codex's H^3(O_Y); disjoint geometries). Both nonetheless confirm the ONE thesis -- the object supplies structure, not the SM's values -- so this banks as TWO-ROUTES-ONE-VERDICT (independent confirmation). Grounded in COMMITTED sources (our banked B1124-B1137 wall + codex's on-branch one-line claim + the B774 structural cup cell). PROVENANCE DEBT flagged: codex's PRIMARY height-308 derivation is off-branch and unversioned (~/oa-audit-seat/, not a git repo) -- the verdict rests on the KIND-difference (robust regardless) and does not lean on it; codex should commit it. The prereg's MATCH->cc3-third-opinion rule does not trigger (MISMATCH). Gate 5 untouched.  
+`B1154_seam_y/FINDINGS.md`
 
 **NEGATIVE — `B1151`** (656 words, 1 locks)  
 THE LARGE-T GUE TEST (C4, the cloud's preregistered cell c4_gue_larget.py run on our i9 at T=3000, 5459 merged zeros): the preregistered single-GUE gate is NOT MET -- GUE-consistent required p_GUE>0.01 but KS vs the GUE Wigner surmise gives D=0.13365 p=2.2e-85 (Poisson also rejected, D=0.156 p=2e-116; GUE closer than Poisson, D_GUE<D_Poisson; density gate PASSED exactly, 5459 vs 5458.0, |diff|=1.0<O(log T)=8; unfolded mean spacing 1.000072). HONEST NEGATIVE, banked as the preregistered outcome. The DISCRIMINATING computation (verification/gue_analysis.py, per-factor Weyl unfolding + KS on the committed raw zeros) locates the deviation: zeta alone D=0.040, L(chi_-3) alone D=0.049 -- the merged D=0.134 is ~3x each factor, so the non-GUE-ness lives in the MERGE. zeta_K = zeta * L(chi_-3) is a product L-function (the field Q(sqrt-3)'s Dedekind zeta, B737); its zeros are the UNION of two independent GUE spectra, which do not cross-repel -- the textbook 2-fold GUE SUPERPOSITION, which rejects single-GUE (excess small spacings) while Poisson stays rejected (each factor keeps its repulsion). The failure mode the handoff flagged as interesting (the density gate) PASSED; it is the spacing that carries the two-spectra structure. Fences: GUE is GENERIC (B1142) -- certifies the universality class at scale, never object-specificity; the superposition is likewise generic for any product of two L-functions; the per-factor ~0.04 residual is consistent with the Wigner-surmise-vs-exact-GUE gap + leading-order unfolding (clean confirmation = the Gaudin-distribution follow-up); no firewall crossing; Gate 5 untouched. Two-bench, owner-approved compute split; cloud seat credited. Raw zeros (the ~1.7h scan) committed for cheap re-analysis.  

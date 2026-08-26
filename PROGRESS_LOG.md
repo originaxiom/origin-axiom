@@ -11417,3 +11417,25 @@ own B8139 claims: the killed-run '73% / five failures' detail (the captured log 
 three-line fragment -- B1152 FINDINGS + results corrected in place; the PRINCIPLE stands, not the
 numbers) and a test_b1034_l154 failure (pre-existing on cc3's branch, not theirs; passes on main). A
 correction commit, no new arc; cc3 credited.
+
+**2026-08-26 — THE TWO OPEN SEAMS WALKED (B1154 SEAM-Y + B1155 SEAM-A).** The owner's "do them all": the
+two remaining sealed seams (THREE_SEAMS_PREREG; SEAM-B discharged in B1146), each walked to a banked
+outcome on COMMITTED evidence (codex's primary derivations are off-branch/unversioned at
+~/oa-audit-seat/ -- flagged as a provenance/single-homed debt, NOT leaned on). **B1154 SEAM-Y =
+MISMATCH**: is codex's up-Yukawa=0 the same fact as our period-value disjointness? NO -- two independent
+walls. codex's mu_u=0 is a COHOMOLOGICAL vanishing (cup product forced to 0 by H^1(X,G_X)=0, rank-0
+emptiness, field-independent, no SM number; the Q(zeta_12) arithmetic only selects which class is H_u);
+ours is an ARITHMETIC non-overlap (the object's regulator Q-algebra over Q(sqrt-3)/Q(sqrt5) misses every
+SM ratio -- B1137: 0/18, requires the SM target list). Emptiness != non-overlap; no bridge object; both
+confirm structure-not-values (two-routes-one-verdict). **B1155 SEAM-A (the prize) = INDETERMINATE,
+leaning MISMATCH**: Gate 1 (codex's zeta12=K(sqrt3)/dP6xdP6 = the ring class field of m004's conductor-4
+cusp order, B1067) SATISFIED; Gate 2 (cc3's FULL arithmetic-CS action of m004 on Q(sqrt-3)) NOT -- only
+partial (B708 linking form at F=Q; B800 unnormalized Habiro series; B682 dictionary; B905 cited).
+Runnable + banked: the sqrt3 hinge (own sympy) -- zeta12=(sqrt3+i)/2, zeta12^2=(1+sqrt-3)/2 so
+K subset Q(zeta12), sqrt3=2 zeta12-i so Q(zeta12)=K(sqrt3), sqrt|disc K|=sqrt3; the SAME sqrt3 is codex's
+finite-place ring-class generator AND our archimedean odd-order datum (Vol=9 sqrt3 zeta_K(2)/pi^2,
+C1=(11/108)sqrt3 pi C0) -- a REAL finite<->archimedean adelic pairing over the one field K, but NOT the
+heterotic axiom collapsing. Leans MISMATCH on 3 banked facts: B1108 (arith-CS is finite/torsion, CS=0,
+lacks Vol), OA-C1045 (codex's CS is a torsion phase), OA-C1002 (codex's OWN refutation: heterotic is an
+added premise, not a CY3 property). The seal waits on Gate 2 (NEEDS-SPECIALIST). No firewall crossing;
+Gate 5 untouched. Locks test_b1154_seam_y.py, test_b1155_seam_a.py.

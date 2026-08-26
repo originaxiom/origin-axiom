@@ -1976,6 +1976,8 @@ the "debt" framing on 449ece8 is cleared. cc3 credited. ★★ (hygiene/provenan
 
 ## L182 — THE THREE SEAMS: the make-or-break crossings, sealed and named (registered 2026-08-26; source `frontier/B1146_seam_b/THREE_SEAMS_PREREG.md`, sha e699ebc79c06a823)
 
+**STATUS UPDATE (2026-08-26) — all three seams now WALKED:** SEAM-B **DISCHARGED** (B1146, the −I on 27 & 78). SEAM-Y **RESOLVED = MISMATCH** (B1154: codex's up-Yukawa=0 is a cohomological emptiness, ours an arithmetic non-overlap — two independent walls, both confirming structure-not-values). SEAM-A (the prize) **INDETERMINATE = OPEN** (B1155: Gate 1 met, **Gate 2 — cc3's full arithmetic-CS action of m004 — the missing gate, NEEDS-SPECIALIST**; the √3 hinge banked, leaning MISMATCH). **The one live crossing is SEAM-A, gated on cc3's arithmetic-CS reading.** Provenance debt flagged: codex's primary derivations are off-branch/unversioned.
+
 The prereg (three-bench, sealed) names the three load-bearing crossings the chain
 not-nothing→…→SM structure→the values now rests on. **SEAM-B** (2T = the object's own
 beat/−I) is DISCHARGED — B1146 (the −I visible on the 27 AND the 78) + cloud memo 34

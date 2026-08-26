@@ -1,0 +1,39 @@
+SEAM-A gate assessment (sealed grammar: MATCH / MISMATCH / INDETERMINATE).
+
+GATE 1 -- codex's Q(zeta12)/dP6 x dP6 construction: SATISFIED (substance).
+  zeta12 = K(sqrt3) = ring class field of m004's conductor-4 cusp order over K=Q(sqrt-3) (disc H=144,
+  B1067); O_H = O_K + zeta12 O_K, the two Eisenstein unit hexagons give dP6 x dP6; mult-by-zeta12 is
+  integrally conjugate to the Braun-Candelas-Davies A_N (det T=1, mu12=mu3 x mu4). Present + PROVED at
+  the toric-fan level. FENCE (codex's own): canonical only RELATIVE to adopting the ring-class/unit-fan
+  functor; NOT forced by the minimal description.
+  PROVENANCE: off-branch/unversioned (~/oa-audit-seat/); branch has only the summary (OA-C1000/
+  C1002/C1009/C1043/C1045/C1075). Single-homed debt, same as SEAM-Y.
+
+GATE 2 -- cc3's arithmetic-CS reading of m004 on Q(sqrt-3): NOT SATISFIED (the missing gate).
+  Only PARTIAL pieces exist on cc3's branch: B708_kim_seam (the observer seam inside Kim's arith-CS, but
+  at F=Q, G=Z/2 -- the linking form lk(3,5)=1, NOT the full action; self-flags NEEDS-SPECIALIST);
+  B800_habiro_integrality (a complex/perturbative CS of 4_1 over Q(sqrt-3): saddle (1+sqrt-3)/2,
+  1-loop V''=sqrt-3, expansion in Q(sqrt-3); PARTIAL -- normalization not pinned to GSWZ eq.2);
+  B682_habiro_dictionary (Vol(4_1)=(3sqrt3/2)L(chi_-3,2) = the zeta_K(2) avatar); B905 (Habiro ring of
+  a number field, founding example 4_1 over Q(sqrt-3), CITED not on-bench). No unified computed Kim-style
+  arithmetic-CS ACTION invariant of m004 to set equal to codex's finite-place data.
+
+=> SEAM-A VERDICT: INDETERMINATE (pre-registered clause: gates on cc3's arithmetic-CS reading -> flag + wait;
+   Gate 2 is the one to wait on). OPEN, with the runnable sqrt3 hinge banked as the real bridge.
+
+LEANING (three ALREADY-BANKED facts tilt the eventual outcome to MISMATCH on the specific 'heterotic axiom
+collapses to a theorem' claim):
+  1. B1108 (main): arithmetic CS is FINITE-group-valued by construction (action in mu_n(F)^D = (1/n)Z/Z,
+     torsion); it supplies exactly the term the object proves VANISHES (CS=0 by amphichirality) and LACKS
+     the term the object CARRIES (Vol). The object's archimedean content (Vol, C0/C1/C2) is reached only
+     through the quantum-modularity/Habiro door -- a different object from codex's class-field CS.
+  2. OA-C1045 (codex, PROVED): codex's class-field E8 CS character is chi(n)=n1/6 mod 1 -- a torsion
+     PHASE exp(2 pi i/6), 'a phase/coset, not an additive parameter-free W0; BLOCKED as a normalized
+     holomorphic period.' Finite side.
+  3. OA-C1002 (codex, REFUTED by codex): the class-field/toric data do NOT select the heterotic functor --
+     the same CY3 admits IIA/IIB/heterotic; 'the heterotic worldsheet is an additional physical premise,
+     not a property of the CY3.' Codex's OWN ledger already says the heterotic axiom is not derivable.
+
+So the runnable adelic pairing (finite ring class field zeta12=K(sqrt3) <-> archimedean sqrt3 in Vol/C1,
+over the one field K) is REAL and banked; but it is NOT the heterotic axiom dissolving into the infinite
+place. The seal (MATCH vs MISMATCH) waits on Gate 2 (cc3's full arithmetic-CS action). Gate 5 untouched.

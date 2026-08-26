@@ -16,6 +16,18 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1154 + B1155 — THE TWO OPEN SEAMS WALKED)**: the owner's "do them all" — the
+two remaining sealed seams (SEAM-B was discharged in B1146), on committed evidence. **B1154 SEAM-Y =
+MISMATCH**: codex's up-Yukawa=0 (a **cohomological emptiness**, no SM number) and our period-value
+disjointness (an **arithmetic non-overlap**, requires the SM targets) are two *independent* walls — but
+**both confirm the one thesis** (structure, not values); two-routes-one-verdict. **B1155 SEAM-A (the
+prize) = INDETERMINATE, leaning MISMATCH**: Gate 1 (codex's ℚ(ζ₁₂)=K(√3)/dP₆×dP₆) met, **Gate 2 (cc3's
+full arithmetic-CS action) not**; the **√3 hinge** is banked (ζ₁₂=K(√3), √3=√|disc K|, the same √3 in
+Vol/C₁ — a real finite↔archimedean pairing over K) but that is **not** the heterotic axiom collapsing
+(B1108: arith-CS is finite/torsion, lacks Vol; codex's own OA-C1002 refutes derivability). Codex's
+primary derivations are off-branch/unversioned (provenance debt, flagged). No crossing; Gate 5 untouched.
+Locks test_b1154_seam_y.py, test_b1155_seam_a.py.
+
 **LATEST (2026-08-26, B1153 — THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS)**: cloud memos
 54–55 reproduce-verified (2/2; memo 54 sympy-confirmed). **memo 54**: tr(ab⁻¹)=gal(κ) is the **Riley
 relation** in disguise (exact where the meridian is parabolic, defect (tr a)²−4 off it — a fourth

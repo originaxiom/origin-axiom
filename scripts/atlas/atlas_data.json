@@ -3161,6 +3161,45 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1154": {
+   "slug": "seam y",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B774",
+    "L181",
+    "L183"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1155": {
+   "slug": "seam a",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B682",
+    "B708",
+    "B800",
+    "B905"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B115": {
    "slug": "higher generality",
    "motifs": [

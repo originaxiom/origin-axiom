@@ -1,0 +1,31 @@
+SEAM-Y discriminating fact -- grounded in COMMITTED sources (not codex's off-branch files).
+
+OUR WALL (arithmetic non-overlap), main:
+  B1137 FINDINGS: "the regulators are computed with no SM input; only the final PSLQ step admits a
+  target" -> 0/18 SM values are bounded-height-algebraic over the object's higher regulators
+  {L(n,chi_-3), zeta_K(n), L(n,chi_5), zeta_F(n), pi, sqrt3, sqrt5, log phi, zeta(3)}; null base rate 0.0.
+  B1124/B1126/B1129/B1127: no object period/natural-value is an SM ratio (sealed exhaustive scans).
+  TYPE: a statement about NUMBERS and their Q-relations. REQUIRES the SM target list (strip it -> no statement).
+
+CODEX WALL (cohomological emptiness), on-branch codex/seat-r001:
+  up-type Yukawa mu_u = <i(a) cup i(b), c> = 0, forced by H^1(X,G_X)=0 (i is the zero map) -> rank 0.
+  On-branch B774_chord_pass/cells/CP-W2-yukawa: the family tensor is alternating => symmetric Yukawa
+  on identical families = 0 by graded-commutativity (a Pauli-antisymmetry structural mechanism).
+  Codex states: "an identity of cohomology classes, not a statement about a chosen basis, residue
+  normalisation or one arithmetic point." The arithmetic (Q(zeta_12) Wilson characters) is a SELECTOR
+  (which class is H_u), NOT the cause. TYPE: a coupling is STRUCTURALLY ABSENT (rank 0). NO SM number.
+
+THE DISCRIMINATOR:
+  - codex's obstruction contains NO SM number, NO PSLQ, NO regulator; ours REQUIRES the SM target list.
+  - codex's is EMPTINESS (rank-0, the coupling cannot form); ours is NON-OVERLAP (two nonempty number
+    sets miss). Emptiness != non-overlap.
+  - no shared bridge object: codex's mu_u is not among our sealed periods; no object period enters
+    codex's H^3(O_Y). Disjoint geometries (heterotic CY3 cup product vs figure-eight trace-field periods).
+  => MISMATCH: two DIFFERENT walls (bundle cohomology vs special-value transcendence; different logical
+     type), both confirming the ONE thesis: the object supplies STRUCTURE, not the SM's VALUES.
+
+PROVENANCE DEBT (flagged): codex's PRIMARY height-308 derivation (YUKAWA_CUP_PRODUCTS_308,
+YUKAWA_EXACT_SPECTRUM_NO_GO) is OFF-BRANCH and UNVERSIONED (~/oa-audit-seat/, not a git repo);
+the branch carries only the one-line claim + the B774 structural cell. The MISMATCH verdict rests on the
+KIND-difference (robust regardless of that proof's details) + committed sources -- it does NOT lean on
+the off-branch proof. Codex should commit its primary derivations to the branch (single-homed debt).

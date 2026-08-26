@@ -1,5 +1,25 @@
 # Changelog
 
+## THE TWO OPEN SEAMS WALKED (B1154 SEAM-Y + B1155 SEAM-A, 2026-08-26): SEAM-Y resolves MISMATCH (two walls, one thesis); SEAM-A is INDETERMINATE (the √3 hinge banked, leaning MISMATCH)
+
+The owner's "do them all" — the two remaining sealed seams (`THREE_SEAMS_PREREG`; SEAM-B was discharged
+in B1146), each walked to a banked outcome **on committed evidence** (codex's primary derivations are
+off-branch/unversioned — flagged as a provenance debt, not leaned on).
+- **B1154 — SEAM-Y = MISMATCH.** Is codex's up-Yukawa=0 the same fact as our period-value disjointness?
+  **No — two independent walls.** codex's mu_u=0 is a **cohomological vanishing** (H¹(G_X)=0 → rank-0
+  emptiness, field-independent, no SM number); ours is an **arithmetic non-overlap** (the object's
+  regulator ℚ-algebra misses every SM ratio, requires the SM target list). Emptiness ≠ non-overlap; no
+  bridge object. **Both confirm the one thesis** (structure, not values) — banks as two-routes-one-verdict.
+- **B1155 — SEAM-A (the prize) = INDETERMINATE, leaning MISMATCH.** Gate 1 (codex's ℚ(ζ₁₂)=K(√3)/dP₆×dP₆
+  construction) satisfied; **Gate 2 (cc3's *full* arithmetic-CS action of m004) not** — only partial
+  pieces (B708/B800/B682/B905). Runnable + banked: the **√3 hinge** — ζ₁₂=K(√3), √3=√|disc K|, the same
+  √3 in Vol=9√3ζ_K(2)/π² and C₁ — a real finite↔archimedean pairing over the one field K, but **not** the
+  heterotic axiom collapsing. Leans MISMATCH on three banked facts (B1108 arith-CS is finite/torsion and
+  lacks Vol; OA-C1045 codex's CS is a torsion phase; OA-C1002 codex's own refutation of derivability).
+  The seal waits on Gate 2.
+
+No firewall crossing; Gate 5 untouched. Locks `test_b1154_seam_y.py`, `test_b1155_seam_a.py`.
+
 ## B8140 ADOPTION (cc3's audit of B1152, 2026-08-26): the relay-only cost bug fixed + the "73%" detail withdrawn
 
 cc3 (**B8140**, `paper/structure-genesis-first` `d87530f4`) reproduced B1152's fast lane in-sandbox and
