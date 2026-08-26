@@ -120,3 +120,14 @@ anomaly-required, its Yukawa unique, and every remaining discrete choice
 either object-paid or priced to the observer with a certificate — is
 reachable, is mostly banked already, and needs no strings. That is the
 debt worth paying, and most of the instruments to pay it are in this lane.
+
+### ADDENDUM (2026-08-26, post-fetch)
+B1156 sharpened SEAM-A: the a-priori MISMATCH is refuted and the seam is
+now "a precise FLOOR with a named archimedean door." That is the exact
+form §2's prediction takes: the door is now named, and the pattern-read
+here is that it stays shut — a falsifiable disagreement, cleanly posed.
+B1157 + codex R011 (two seats, opposite mechanisms, same k=2 fault line)
+both landed on "structural rhyme," consistent with §2. And B1158 has
+harvested this lane's wave-2 with scope corrections (adopted in memos 55,
+58, 68, 69's addenda) — the alignment-audit debt (§4, D1) and L132 (D2)
+remain unexecuted by any seat.

@@ -71,3 +71,17 @@ question itself.
 
 ### ADDENDUM (2026-08-26, wave-2) — the data note resolved, and the surmise fence updated
 `certificates/zeta_count.py`: the committed ζ file is AUTHORITATIVE — 2469 zeros, strictly increasing, first 10 matching direct recomputation, last entry ζ-zero #2469 at t = 2999.494 < 3000 (Riemann–von Mangoldt N(3000) = 2468.65); B1151's prose "2468" is off by one. And memo 68 (GAUDIN_CLOSE) falsifies this memo's "(a) surmise error" reading of the per-factor residual: under the exact Gaudin law the residual grows slightly; candidate (b), leading-order unfolding, is now the sole named suspect.
+
+### ADDENDUM 2 (2026-08-26, from codex R009 — third-bench reproduction with a hostile scope fence, adopted)
+R009 reproduced every number in this memo with a stdlib-only rerun (no
+numpy/scipy) and fenced the headline: the tested model is the
+Wigner-surmise RENEWAL approximation, not the exact nearest-neighbour law
+of a GUE superposition; a deterministic finite zero list cannot establish
+independence of the two spectra; and with dependent adjacent spacings the
+nominal KS p is diagnostic, not calibrated. ADOPTED — the defensible
+statement is codex's: *empirical compatibility with the expected
+product-spectrum mechanism, not a proof of independence or exactness.*
+Note: memo 68 subsequently replaced the surmise with the exact Gaudin
+superposition law and the fit was unchanged (D = 0.02441 vs 0.02400), so
+the surmise-vs-exact half of the fence is now empirically closed; the
+independence and calibration halves stand.

@@ -27,8 +27,8 @@ is OBSERVER-PAID; everything computed after it is forced.
   channel* between the SM-shaped block and the singlet — the Higgs-portal
   shape, as a theorem of the cubic, not a model-building choice.
 - **FACT 4 — MATTER PARITY.** P = −1 on the 16, +1 on 10 ⊕ 1 is conserved
-  by all 45 triples. (The standard U(1)_χ ℤ/2; here forced once the D5
-  frame is chosen.)
+  by all 45 triples. (The standard U(1)_ψ ℤ/2 [label corrected per codex
+  R012 — see CODEX ADDENDUM 2]; here forced once the D5 frame is chosen.)
 - **FACT 5 — WHOSE ℤ/2 IS WHOSE (the measured branch landed on
   "independent").** The family classes crossed with the object's bridge
   grading (the lock C₂₇ = (−1)^wt = the longitude's sign, memos 46/50/51):
@@ -99,3 +99,18 @@ the same 6 (the E₂₇ rungs, charge shift −3), while preserving the lock C�
 every state (re-checked). **The family/dark split and its matter parity are
 frame-paid in the strong sense: the object's own mirror does not respect the
 frame. The only mirror-stable ℤ/2 in the ledger is the object's lock.**
+
+### CODEX ADDENDUM 2 (adopted 2026-08-26, from codex R012 — third-bench reproduction with three scope corrections)
+R012 reproduced this memo's algebra exactly (own certificate, branch-local
+stack: the 16/10/1 split, the 40+5 typing, parity conservation, the
+class×weight table, lock ≠ ±P). Three corrections requested and ADOPTED:
+(1) **the charge label**: the grading (16₁, 10₋₂, 1₄) is conventionally
+U(1)_ψ (E₆→SO(10)×U(1)_ψ), not U(1)_χ — FACT 4's "U(1)_χ" label is
+corrected to U(1)_ψ; the ℤ/2 and all computed facts are unchanged.
+(2) **"portal"** means precisely the two-step connection in the cubic
+support hypergraph — no fields, kinetic terms, vacuum, or dynamics are
+implied (this memo's own fence, sharpened to codex's phrasing).
+(3) **"object-paid" for the lock is relative to the banked bridge branch**:
+the minimal-A1 bridge is itself a selection (OA-C1087), so the lock is
+object-paid GIVEN that selection — the χ=+1 lift is paid by the banked
+spin-selection chain; the stratum choice is the residual selection.

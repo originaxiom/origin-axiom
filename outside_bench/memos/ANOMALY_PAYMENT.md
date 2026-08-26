@@ -68,3 +68,12 @@ The dark sector's reason-for-being, at the only level the record can yet
 ask it: the visible generation's quantum ledger does not balance under the
 object's family charge — it is off by exactly sixteen in every channel that
 counts — and the dark states are the entries that make the books close.
+
+### ADDENDUM (2026-08-26, from B1158's harvest triage — quarantine adopted)
+The seat banks the INTEGER IDENTITY (own-reproduced, and independently
+matched by codex R012) and quarantines the "required, not decorative"
+headline as CONDITIONAL — which this memo's own box and fences already
+state ("if the family u(1) is gauged") but the headline rode ahead of.
+Adopted: the banked content is the exact identity T_dark = −T₁₆ in every
+channel; "required" holds conditional on (a) the u(1) being gauged and
+(b) the observer-paid D5 frame. OA-C0014 stays EXTERNAL_BLOCKER.

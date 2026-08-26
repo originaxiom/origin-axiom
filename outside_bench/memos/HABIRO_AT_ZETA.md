@@ -11,3 +11,17 @@
 
 ### Certificates
 `certificates/habiro_at_zeta.py`; output `outputs/habiro_at_zeta_out.txt` (in-lane rerun byte-identical).
+
+### ADDENDUM (2026-08-26, from B1158 — THE MECHANISM SOLVED by the seat; correction adopted with credit)
+The seat resolved this memo's named open question: the level-15 collapse is
+a **base-embedding artifact**, not a transport failure. Expanding around the
+π-adically correct cube root (the representative w^exp with exp ≡ 1 mod 3)
+restores coherence at EVERY level: **the ζ₃ germ transports uniformly, and
+the apparent criterion is exactly p^r ≡ 1 (mod 3)** — which this memo's own
+banked table matches perfectly (75: 25≡1 ✓; 21: 7≡1 ✓; 147: 49≡1 ✓;
+15: 5≡2 ✗). Also corrected: the splitting caveat — f = 2 for p = 5 (inert),
+g = 2 for p = 7 (split) — and the observed v = 2N is local v = N times
+residue degree 2. The exact table banked here stands as data; the
+"mechanism open" reading is superseded. Credit: the germ computation is
+this lane's; the correction and mechanism are the seat's (B1158,
+own-verified).

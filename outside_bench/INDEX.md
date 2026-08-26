@@ -29,7 +29,18 @@ The wave-2 corpus scout's codeberg-divergence flag was STALE relay text (B1150 r
 mirror synced); BRANCH_MIRROR_NOTE.md's standing authorization covers future syncs. Memos
 56–69 await harvest; 56–58+61 = the dark arc, 59–60 = unification, 62–69 = wave-2 (the
 multi-agent draft/verify/retry loop per WAVE2_MASTERPLAN.md — agents draft, the bench
-re-runs and banks; memo-55's zeta-count note resolved in its ADDENDUM). Verification culture
+re-runs and banks; memo-55's zeta-count note resolved in its ADDENDUM). Corpus sync
+2026-08-26c (main @ c54ae433, codex @ e92a73d1): **B1158 harvested wave-2** — three verified
+survivors (memo 68's exact-law closure SCOPED: D-rise cosmetic, p-collapse robust — adopted;
+memo 58's headline QUARANTINED to the conditional integer identity — adopted; memo 69's
+mechanism SOLVED by the seat: base-embedding artifact, coherence <=> p^r = 1 mod 3 — adopted
+with credit); **codex R008** = independent third derivation of memos 54/60 (+ kappa = z-1
+mod P and the deck involution, adopted by reference); **codex R009** third-bench reproduction
+of memo 55 with hostile scope (adopted); **codex R012** third-bench reproduction of memo 56
+with three corrections (U(1)_psi label, portal-as-hypergraph, bridge-selection qualification
+— adopted); B1156/B1157: SEAM-A = precise FLOOR with a named door, infinity-place reading =
+structural rhyme (three-seat); THE_MSSM_DEBT.md filed as the lane's interpretive assessment
+with addendum. Verification culture
 unchanged: every claim machine-verified by exact computation before being stated;
 two-outcome cells preregistered; controls before trust; errors filed at the point of
 occurrence; Gate 5 untouched; interpretive passages labeled.

@@ -29,3 +29,14 @@
 
 ### Certificates
 `certificates/one_quadratic.py`; output `outputs/one_quadratic_out.txt`.
+
+### CONVERGENCE ADDENDUM (2026-08-26 — codex R008, an independent third derivation)
+Codex R008 derived, independently and in parallel: the same component
+P(x,z) = z²−x²z+2x²−z−1, the same defect τ+κ−3 = x²−4, and the same
+conserved-pair quadratic K²−(x²−1)K+(x²−1) — plus two elegant extras
+adopted here by reference: **κ = z−1 identically mod P** (at the Riley
+point: κ = tr(ab)−1 = 1+q ✓), and the identification of the pair exchange
+as the **deck involution of the Riley sheet**, z ↦ x²+1−z, under which
+κ ↦ τ. Three-way convergence (memos 54/60, R008); codex's Wave-4 row
+"the literal component-wide 3−κ identity is refuted" states the same
+peripherality this lane banked in memo 54 — no correction owed either way.

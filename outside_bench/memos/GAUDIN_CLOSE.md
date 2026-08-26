@@ -8,3 +8,14 @@
 
 ### Certificates
 `certificates/gaudin_close.py`; output `outputs/gaudin_close_out.txt` (in-lane rerun byte-identical).
+
+### ADDENDUM (2026-08-26, from B1158's harvest triage — scope adopted)
+The seat's mandatory scope on this memo's headline, ADOPTED: the D-rise
+(0.0401→0.0416, 0.0487→0.0502) is COSMETIC — the two theory curves differ
+by ≤ 0.0015 while the empirical residual is 0.04–0.05, so the direction of
+the shift carries no information. The robust banked content is the
+p-collapse under the EXACT law: the residual is NOT surmise error. "Real"
+in the title means law-independent, not physical: the live suspect is
+leading-order unfolding (the ρ used omits the constant and S(T) terms — a
+known finite-height O(0.04) artifact at T≈3000), exactly as this memo's
+own follow-up names. Corroborated by codex R009's independent fence.
