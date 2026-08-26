@@ -1,0 +1,7 @@
+proper class counts m=1..12: [1, 1, 1, 1, 1, 2, 1, 1, 2, 2, 1, 3]
+full GL class counts m=1..12: [1, 1, 1, 1, 1, 2, 1, 1, 2, 2, 1, 2]
+D=148 proper-cycle representatives: [(-7, 6, 4), (-7, 8, 3), (-1, 12, 1)]
+improper swap: (-7,6,4) -> (4,6,-7)
+swap matrix determinant: -1
+D=148 verdict: 3 proper SL classes, 2 full GL classes
+PAPER-I m=12 DISCREPANCY RESOLVED
