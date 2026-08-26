@@ -1,0 +1,32 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+fiber tick (abelianized substitution phi(V) = VuVV): matrix [[0,-1],[1,3]]
+  characteristic polynomial: x^2 - 3x + 1   trace 3, det 1, disc 5
+  => the GOLDEN end: disc 5, roots phi^2, phi^-2 (a unit)
+kappa = 1+q: minimal polynomial X^2 - 3X + 3   trace 3, norm 3, disc -3
+  => the EISENSTEIN end: disc -3, (kappa) the ramified prime
+
+THE MECHANISM: both ends solve 'trace 3' — x^2-3x+d with d = det:
+  d = 1 (unit)    -> disc  5  -> Q(sqrt5),  the golden end   (the clock)
+  d = 3 (ramified)-> disc -3  -> Q(sqrt-3), the Eisenstein end (the integral)
+
+meridian on the CARRIER: (rho_Psi(a) - I)^3 = 0 and ^2 != 0: nilpotency degree EXACTLY 3
+meridian on the FIBER lattice: spectral radius phi^2 (the golden root of Fact 1)
+=> ONE generator, TWO clocks: 3-step-nilpotent (zero entropy) on matter,
+   hyperbolic (entropy 2 log phi) on the geometric fiber.
+
+the beat (gal): fixes x^2-3x+1 coefficientwise (rational — the golden clock
+untouched) and swaps the roots of X^2-3X+3 (kappa <-> gal kappa, memo 41):
+the mirror stirs only the Eisenstein pair.
+
+TRACE THREE: the record's two arithmetic ends are the unit answer and the
+ramified answer to a single equation — trace 3 — with the object supplying
+both witnesses itself: its clock's characteristic polynomial (disc 5) and
+its conserved number's minimal polynomial (disc -3).  And the one meridian
+that drives both reads matter and geometry at different depths: three exact
+steps on the carrier, golden exponential on the fiber.  Structure only;
+Gate 5 untouched.
