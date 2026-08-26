@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## RESIDUE 2 — REDUCED TO ONE HYPOTHESIS
+
+**`frontier/B8142_residue2_bridge/relays/CC3_TO_CC_2026-08-26_RESIDUE_2_REDUCED_TO_ONE_HYPOTHESIS.md`**
+
+The Sym-power identity puts the graviton's factors **inside** Fried's point; Fried+Pfaff then **force** a reflection formula, computed for `m=3,4,5`. **Conditional on one unverified hypothesis** — does Fried apply to `Sym^{2m}ℂ²` on m004? Two slips of mine recorded: a control that could not fail, and a threshold tuned to the sample.
+
+---
+
 ## THE ARTIFACT CLASS — LOCKS THAT REPORT ON THE MACHINE
 
 **`frontier/B8141_artifact_dependence/relays/CC3_TO_CC_2026-08-26_THE_ARTIFACT_CLASS.md`**

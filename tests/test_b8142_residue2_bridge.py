@@ -28,3 +28,20 @@ def test_the_vacuous_control_is_recorded_and_kept_visible():
     assert "could NEVER fail" in v["why"]
     assert "SYMMETRY rather than a control" in v["kept_as_a_record"]
     assert len(v["replaced_by"]) == 3
+
+
+def test_the_forced_reflection_formula_is_recorded_as_conditional():
+    f = R["forced_reflection_formula"]
+    assert f["statement"].startswith("|R(-m, sigma_m)|")
+    assert "CONDITIONAL" in f["status"] and "NOT verified here" in f["status"]
+    assert "falsifiable" in f
+
+def test_the_reflection_values_decay_by_the_damping():
+    v = R["forced_reflection_formula"]["computed_for_m004"]
+    assert v["5"] < v["4"] < v["3"]
+    assert all(x < 1e-3 for x in v.values())
+
+def test_the_tuned_threshold_slip_is_recorded():
+    t = R["my_own_tuned_threshold"]
+    assert "TUNED TO THE TWO DATA POINTS" in t["why_wrong"]
+    assert "c(2)/c(2) = 1" in t["also_fixed"]

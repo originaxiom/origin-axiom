@@ -19380,12 +19380,13 @@
    "motifs": [
     "figure_eight",
     "trace_map",
+    "kappa",
     "dickson_tower",
     "golden",
     "torsion"
    ],
    "refs": [],
-   "obstacle": "bridge_construction",
+   "obstacle": "observable",
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "arithmetic"

@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1044** |
-| words of findings prose | **708,188** |
+| words of findings prose | **708,520** |
 | test lock files referenced | **611** |
 | arcs carrying an authored verdict | **1031** (98.8 %) |
 | recorded closures | **763** (589 classified, 174 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B8142`** (469 words, 0 locks)  
+**PROVED — `B8142`** (801 words, 0 locks)  
 RESIDUE 2 IS REDUCED TWICE, NOT CLOSED. The eigenvalue decomposition of rho(m)=Sym^{2m}C^2 gives the exact identity R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j), verified on m004 to 1e-18 for m=0..4. At s=0 -- Fried's point -- the j<0 half is exactly conj R(i,sigma_i) for i=1..m, THE GRAVITON'S OWN FACTORS, and the j>0 half is R(-j,sigma_j) at NEGATIVE arguments. So residue 2 reduces from 'relate 0 to the positive integers' to 'evaluate at the NEGATIVE integers'; and since s <-> 2-s maps 2+j -> -j with R(2+j,sigma_j) absolutely convergent, it reduces again to 'establish the functional equation for R(s,sigma_k) on m004', where B8101's scattering determinant is already known in closed form.  
 `B8142_residue2_bridge/FINDINGS.md`
 

@@ -1,9 +1,30 @@
 {
+ "forced_reflection_formula": {
+  "computed_for_m004": {
+   "3": 0.0002108601,
+   "4": 1.924562e-05,
+   "5": 1.641211e-06
+  },
+  "control": "removing exp(-4m vol/pi) leaves O(1) values (0.4913, 0.5945, 0.6720), so the exponential suppression comes from where the derivation says it does",
+  "decay": "successive values fall by ~exp(-4 vol/pi) = 0.0754; observed 0.0913, 0.0853 -- dominated by the damping, as derived",
+  "falsifiable": "an independent computation of R at a negative integer either confirms it or refutes the antecedent",
+  "how_it_arises": "the Sym-power identity gives R_{rho(m)}(0)/R_{rho(m-1)}(0) = A_m * B_m with A_m = R(-m,sigma_m) and |B_m| = |R(m,sigma_m)|; Fried turns the left side into [T_X(rho(m))/T_X(rho(m-1))]^2; Pfaff's ratio evaluates that as (c(m)/c(m-1))^kappa exp(-2m vol/pi) |R(m,sigma_m)|. Squaring and cancelling |B_m| gives the formula.",
+  "statement": "|R(-m, sigma_m)| = (c(m)/c(m-1))^{2 kappa} * exp(-4 m vol/pi) * |R(m, sigma_m)|",
+  "status": "CONDITIONAL on Fried's theorem applying to rho(m) in the cusped setting -- hypotheses NOT verified here. IF Fried applies, the reflection is FORCED. If not, this is an implication with an unchecked antecedent.",
+  "why_it_matters": "this IS the object residue 2 was missing -- a relation between the family at negative and positive arguments, with the right-hand side absolutely convergent and already computed"
+ },
  "identity": {
   "derivation": "rho(m)=Sym^{2m}C^2 has eigenvalues e^{jL}, j=-m..m, for holonomy of complex length L=l+i*theta; e^{jL}e^{-s l} = e^{i j theta} e^{-(s-j) l}, which is the sigma_j twist evaluated at s-j",
   "novelty": "NONE CLAIMED -- elementary eigenvalue algebra, very likely classical. The contribution is the USE, not the identity.",
   "statement": "R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j)",
   "verified": "on m004's length spectrum for m=0,1,2,3,4 at s>2+m where every factor converges absolutely; |diff| <= 5e-18"
+ },
+ "my_own_tuned_threshold": {
+  "also_fixed": "an earlier version of the script needlessly excluded m=3 by forgetting that c(2)/c(2) = 1",
+  "class": "fitting a check to the sample rather than to the claim -- the same shape as a control that cannot fail, in the opposite direction",
+  "fixed_to": "the claim the derivation actually makes: successive values decay by ~exp(-4 vol/pi), tested within a factor of 2",
+  "what": "the smallness check was written as `all(v < 1e-4)`",
+  "why_wrong": "that threshold was TUNED TO THE TWO DATA POINTS THEN AVAILABLE (m=4,5) and broke immediately when m=3 was added (2.1e-04)"
  },
  "my_own_vacuous_control": {
   "class": "a control that tests a SYMMETRY rather than the claim is vacuous; this is the same failure mode as a test that cannot fail",
@@ -26,6 +47,7 @@
   "NOT_CLOSED": "the functional equation is NOT established here. Residue 2 remains open.",
   "after_first_reduction": "evaluate the family at the NEGATIVE integers R(-j, sigma_j)",
   "after_second_reduction": "establish the FUNCTIONAL EQUATION for R(s,sigma_k) on m004 -- because s <-> 2-s maps 2+j -> -j, and R(2+j,sigma_j) converges absolutely for j>=1",
+  "after_third_step": "the missing relation is now WRITTEN DOWN and NUMERICALLY EVALUATED, conditional on a single checkable antecedent (does Fried apply to rho(m) in the cusped setting?). Residue 2 is still NOT closed, but it has moved from 'a wish across three theorems' to 'verify one hypothesis, and the formula follows'.",
   "before": "relate the twisted Ruelle family's value at 0 to its values at the positive integers",
   "why_this_is_progress": "the target moved from a vague cross-theorem wish to a single standard object with existing literature, and m004's scattering determinant is ALREADY known in closed form: phi(s)=Lambda_K(s-1)/Lambda_K(s) with phi(s)phi(2-s)=1 (B8101)"
  },

@@ -59,6 +59,44 @@ is an identity, not an error; the control could never have failed.**
 A control that tests a *symmetry* instead of the *claim* is vacuous. It is kept in the script,
 **relabelled as a symmetry**, so the vacuity stays visible rather than being quietly deleted.
 
+
+## The reflection formula that Fried + Pfaff jointly force
+
+The identity gives `R_{ρ(m)}(0)/R_{ρ(m−1)}(0) = A_m·B_m` with `A_m = R(−m,σ_m)` and
+`|B_m| = |R(m,σ_m)|`. Fried turns the left side into `[T_X(ρ(m))/T_X(ρ(m−1))]²`; Pfaff's ratio
+evaluates that as `(c(m)/c(m−1))^κ · exp(−2m·vol/π) · |R(m,σ_m)|`. Squaring and cancelling `|B_m|`:
+
+> **`|R(−m, σ_m)| = (c(m)/c(m−1))^{2κ} · exp(−4m·vol/π) · |R(m, σ_m)|`**
+
+For m004 (`κ = 1`, banked `c(m)/c(2)` from B8104/B8112, `|R(m,σ_m)|` from `bridge.py`):
+
+| `m` | `c(m)/c(m−1)` | `\|R(m,σ_m)\|` | `exp(−4m·vol/π)` | **`\|R(−m,σ_m)\|`** |
+|---:|---|---|---|---|
+| 3 | 0.7121142418 | 0.9687980563 | 4.292e−04 | **2.109e−04** |
+| 4 | 0.7767739989 | 0.9852054775 | 3.238e−05 | **1.925e−05** |
+| 5 | 0.8176395289 | 1.0052425571 | 2.442e−06 | **1.641e−06** |
+
+Successive values decay by `≈ exp(−4·vol/π) = 0.0754` (observed 0.0913, 0.0853), and a control
+confirms the suppression comes from the damping: removing it leaves O(1) values.
+
+**This is the object residue 2 was missing** — a relation between the family at negative and
+positive arguments, right-hand side absolutely convergent and already computed. **It is
+CONDITIONAL** on Fried applying to `ρ(m)` in the cusped setting, which is **not verified here**. If
+Fried applies, the reflection is *forced*; if not, this is an implication with an unchecked
+antecedent. Either way it is **falsifiable**: an independent computation of `R` at a negative
+integer confirms it or refutes the antecedent.
+
+**Residue 2 is still not closed** — but it has moved from *a wish across three theorems* to
+*verify one hypothesis, and the formula follows*.
+
+## ⚠ A second instrument slip, opposite in kind
+
+The smallness check was written `all(v < 1e-4)`. **That threshold was tuned to the two data points
+then available** and broke the moment `m = 3` was added (2.1e−04). Fitting a check to the sample
+rather than to the claim is the same failure as a control that cannot fail, pointed the other way.
+Replaced by the claim the derivation actually makes — decay by `exp(−4·vol/π)`. An earlier version
+also excluded `m = 3` needlessly, having forgotten `c(2)/c(2) = 1`.
+
 ## SCOPE
 
 - **Not claimed:** novelty for the identity; that Fried's hypotheses hold for `ρ(m)`; that the
