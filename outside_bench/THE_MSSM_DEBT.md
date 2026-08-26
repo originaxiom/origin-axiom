@@ -131,3 +131,11 @@ both landed on "structural rhyme," consistent with §2. And B1158 has
 harvested this lane's wave-2 with scope corrections (adopted in memos 55,
 58, 68, 69's addenda) — the alignment-audit debt (§4, D1) and L132 (D2)
 remain unexecuted by any seat.
+
+### ADDENDUM 2 (2026-08-26) — D2 executed: hypercharge falls out
+Memo 70 ran L132 in the trinification frame: 36/36 anomaly-consistent
+solutions carry exactly the SM hypercharge ratios, no alternative exists,
+unique up to scale, frame-covariant. §6's D2 is paid on the positive
+branch: the chain's broken link reduces from "the whole embedding" to
+"the existence of an embedding," with the content forced by integer
+arithmetic. D1 (the witness alignment audit), D3–D5 remain.

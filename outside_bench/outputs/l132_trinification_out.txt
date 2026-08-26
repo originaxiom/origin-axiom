@@ -1,0 +1,29 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: three orthogonal A2 slots found (6/6/6), crossing roots: 54 (expect 54)
+   27 block structure (types under the three slots): {('3b', '3b', '1'): 9, ('3', '1', '3b'): 9, ('1', '3', '3'): 9}
+
+FACT 2: the anomaly Diophantine over all SM-shaped assignments
+   frame A: color=slot2 -> L=slot1 (derived from the block pairing)
+   frame A: {'solutions': 36, 'SM-pattern': 36}; distinct ratio tuples found: [(-4, 2, -3, 6), (2, -4, -3, 6)]
+   frame B: color=slot0 -> L=slot2 (derived from the block pairing)
+   frame B: {'solutions': 36, 'SM-pattern': 36}; distinct ratio tuples found: [(-4, 2, -3, 6), (2, -4, -3, 6)]
+FACT 3: covariance: frame A counts == frame B counts: True
+
+VERDICT COUNTS: anomaly-consistent nonzero Y assignments = 36 (SM ratio pattern: 36, non-SM: 0, multidim: 0)
+   witness (any SM-pattern solution, normalized Yq = 1/6):
+     q(3,2): 1/6   u^c(3b,1): -2/3   d^c(3b,1): 1/3   l(1,2): -1/2   e^c(1,1): 1
+   (ratios (-4,2,-3,6) x 1/6 — the SM hypercharge assignment, up to the
+    u^c<->d^c relabeling; each solution unique up to overall scale)
+
+BRANCH A, STRONG FORM: every anomaly-consistent nonzero hypercharge direction
+in the object's u(1)^3 carries EXACTLY the SM ratio pattern (-4,2,-3,6) x Yq
+(up to the uc<->dc relabeling), and each is unique up to scale.  In this
+frame, HYPERCHARGE FALLS OUT of the integer anomaly equations: the shape of
+the 15-plet plus anomaly freedom leaves no other charge assignment.  L132's
+question, in the trinification frame: YES.
+Gate 5: only integer/rational identities used; the SM ratio pattern is derived structure (B950).
