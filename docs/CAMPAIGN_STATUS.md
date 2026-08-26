@@ -18,6 +18,8 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1158 — cloud WAVE-2 + codex R009–R014 backlog harvest; owner: constantly check the 3 seats)**: standing monitors armed on cloud/codex/cc3; the sweep found + cleared a real backlog (cloud's 10-cell WAVE-2 memos 56–69 + codex's Paper I–IV audits) via a verify-don't-trust harvest workflow. **Three own-reproduced survivors** (scoped): the **exact Gaudin law closes B1151's surmise-error hatch** (p-value collapse robust; residual quarantined; codex R009 corroborates); the **anomaly integer identity** 27=16₊₁⊕10₋₂⊕1₊₄ (dark block=−(16); "required" quarantined as conditional); the **Habiro ζ₃ germ corrected** (mechanism solved, coherence⇔p^r≡1 mod 3). **Two convergences:** codex R011 **corroborates B1157** (two seats, one ∞-place NULL); codex R012 ≡ cloud ANOMALY_PAYMENT (consistent). Codex R010–R014 **relayed to cc3** (paper-facing, owner-gated; R014 refutes Paper-IV's scale theorem + 14-family via s955). Gate 5 clean; no crossing. Locks test_b1158_cloud_wave2_harvest.py. **Masterplan resumes at WF-3.**
+
 **LATEST (2026-08-26, B1157 — WF-2 the dynamics; STRUCTURAL RHYME + closed-Fried REFUTED)**: the
 masterplan's **WF-2** (8 agents) asked whether the object supplies a parameter-free **dynamical law** at
 the archimedean ∞-place, harvesting cc3's fresh **B8142/B8142b** (the Sym-power Ruelle zeta / analytic

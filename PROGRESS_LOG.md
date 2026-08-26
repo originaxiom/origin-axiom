@@ -11506,3 +11506,24 @@ Park/Pfaff / Cappell–Miller complex-orthogonal torsion. Relayed to cc3: the ex
 (non-fatal). Bank-grade (cc3 credited): the Sym-power factorization. kill_graph: the "∞-place dynamical law
 crosses the firewall" node killed. Gate 5 clean; no firewall crossing. Locks
 `tests/test_b1157_dynamics_null.py` (8 tests). Next in the masterplan: WF-3 (MSSM + provenance relays).
+
+## 2026-08-26 — B1158: Cloud WAVE-2 + codex R009–R014 backlog harvest (owner directive: constantly check the three seats)
+
+The owner directed constant monitoring of cloud/codex/cc3. Standing monitors armed (bbtols2ly cloud+codex,
+bosx28lrf cc3; saved to memory). The immediate sweep found a real backlog: cloud's whole **WAVE-2**
+(10-cell residue queue, memos 56–69) + **codex R009–R014** (Paper I–IV audits). A backlog-harvest workflow
+(8 agents: 2 scope → 5 verify → 1 triage; verify-don't-trust read-only on the branches, cross-checked both
+seats against each other + against main) digested it → **B1158**.
+
+Verify-don't-trust before banking: the two clean survivors re-derived on-bench (`reproduce.sh` → REPRODUCES)
+— the anomaly identity (27=16₊₁⊕10₋₂⊕1₊₄ anomaly-free all three channels; 16 anomalous; dark block=−(16))
+and the Habiro prime-splitting (p=5 inert f=2 / p=7 split g=2; coherence⇔p^r≡1 mod 3).
+
+**Three survivors banked, scoped:** (1) the **exact Gaudin law closes B1151's surmise-error hatch** (p-value
+collapse robust; residual quarantined — leading-order unfolding the sole suspect; codex R009 corroborates);
+(2) the **anomaly integer identity** (the "dark sector required" headline quarantined as conditional); (3)
+the **Habiro ζ₃ germ corrected** (mechanism solved; cloud credited, correction ours). **Two convergences:**
+codex R011 corroborates B1157 (two-routes-one-verdict on the ∞-place NULL; B1157 addendum added); codex R012
+≡ cloud ANOMALY_PAYMENT (consistent). **Codex R010–R014 relayed to cc3** (paper-facing, owner-gated; incl.
+R014 refuting Paper-IV's scale theorem + 14-family via witness s955). No firewall crossing; Gate 5 clean.
+Locks `tests/test_b1158_cloud_wave2_harvest.py` (9 tests). Backlog cleared; masterplan resumes at WF-3.

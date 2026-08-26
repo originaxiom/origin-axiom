@@ -1,0 +1,55 @@
+{
+ "id": "B1158",
+ "title": "Cloud WAVE-2 harvest: the exact-law C4 closure (B1151 surmise hatch falsified), the anomaly integer identity (dark block = -(16), 'required' quarantined), the Habiro zeta_3 germ correction (mechanism solved), and two cross-seat convergences (codex R011==B1157, codex R012==cloud ANOMALY_PAYMENT)",
+ "verdict": "OPEN (a harvest/digest arc; proved sub-facts in body, open questions stay open/conditional). Seal of the harvest workflow: three BANK-TO-MAIN survivors + two convergences + codex relays.",
+ "provenance_workflow": {
+  "name": "backlog-harvest (cloud WAVE-2 + codex R009-R014)",
+  "shape": "2 scope -> 5 verify (verify-don't-trust, read-only on branches) -> 1 triage",
+  "agents": 8,
+  "subagent_tokens": 370591,
+  "verification_this_seat": "the two clean survivors (anomaly identity + Habiro splitting) independently re-derived on-bench (verification/reproduce.sh -> REPRODUCES); the Gaudin cell reproduced by the harvest verifier + corroborated by codex R009 (full sine-kernel uses B1151's committed zeros, cited)."
+ },
+ "survivor_1_gaudin_C4": {
+  "cell": "cloud B1 gaudin_close (memo 68)",
+  "reproduced": "YES (verifier) + corroborated by codex R009",
+  "claim": "The EXACT GUE sine-kernel (Gaudin/Fredholm) spacing law replaces the Wigner surmise: per-factor KS p-values stay 3.8e-4 / 5.5e-7 (<<0.01), so B1151's 'it might be the surmise approximation' hatch is FALSIFIED by exact computation. Merged 2-fold superposition D=0.02441 ~= banked 0.02400 confirms B1153's superposition conclusion is LAW-ROBUST; single-GUE control still misses ~4x.",
+  "scoped": "Does NOT bank 'the residual is real.' The D-rise 0.0401->0.0416 is COSMETIC (theory curves differ <=0.0015 vs empirical residual 0.04-0.05 => noise). The robust fact is the p-value collapse: NOT surmise error -- leading-order unfolding remains the SOLE live suspect (rho omits +7/8 and S(T); the known finite-height O(0.04) artifact at T~3000).",
+  "extends": "B1151 / B1153 (the C4 GUE/superposition arc)",
+  "corroboration": "codex R009: both fence the merged spectrum as relative-only, both refuse the exact-GUE/independence crossing (single-factor Wigner distances 0.040/0.049, iid-KS p=0.0036)."
+ },
+ "survivor_2_anomaly_identity": {
+  "cell": "cloud A-wave ANOMALY_PAYMENT (memos 57/58/62); codex R012 (Memo-56)",
+  "reproduced": "YES (own, independently, without their stack) for the anomaly arithmetic; E8 root-level splits CITED-ONLY",
+  "claim_INTEGER_IDENTITY": "Under E6->SO(10)xU(1): 27 = 16(+1) (+) 10(-2) (+) 1(+4) is anomaly-free in ALL three channels -- grav^2-U(1) = sum dim*q = 0; U(1)^3 = sum dim*q^3 = 0; SO(10)^2-U(1) = sum T*q = 0 (T(16)=2, T(10)=1). The SM-shaped 16 alone is anomalous (16 != 0). The dark block 10(-2)+1(+4) carries EXACTLY -(16's contribution) in every channel (grav -16, U(1)^3 -16); the mixed channel closes via T(16)/T(10)=2.",
+  "quarantined": "The 'dark sector REQUIRED / not optional passengers' headline is NOT banked -- it is CONDITIONAL: (a) needs the family U(1) actually GAUGED (behind Gate 5); (b) the D5 frame defining the 16/10/1 split is observer/frame-PAID (uniqueness REFUTED OA-C1087) and not respected by the object's own operators. Bank the identity, not the headline (FACTS 2/3 are near-tautological given A+B=0, A!=0 => B=-A; the novelty is only the DISPLAY in the object's coordinates).",
+  "extends": "B1147-B1150 (the carrier Psi=C^2 (x) 27); corroborates the dark-ledger typing (memo 56 / codex R012) at the anomaly level."
+ },
+ "survivor_3_habiro_correction": {
+  "cell": "cloud B3 habiro_at_zeta (memo 69)",
+  "reproduced": "YES, but CORRECTS the memo",
+  "claim": "The zeta_3 one-germ property of the figure-eight Habiro element transports UNIFORMLY (local v_pi = N at every level). The memo's 'level-dependent collapse at modn=15, mechanism OPEN' is a BASE-EMBEDDING ARTIFACT: expanding around the pi-adically-correct cube root (w^exp, exp = 1 mod 3) restores coherence at every level. MECHANISM SOLVED: coherence <=> p^r = 1 mod 3. The memo's 'f=1, unique prime' is also wrong: f=2 for p=5 (inert), g=2 for p=7 (split) in Q(sqrt-3); the reported v=2N is local N x residue degree 2.",
+  "provenance": "Credit CLOUD for the germ computation; the CORRECTION + the mechanism are this seat's contribution.",
+  "extends": "B905 (Habiro ring of a number field) / B1156 (the finite/p-adic completion of xi); own-verified via prime splitting in Q(sqrt-3) (reproduce.sh)."
+ },
+ "convergence_1_R011_equals_B1157": {
+  "verdict": "CORROBORATES B1157 (strongest cross-seat finding). Two independent seats on the SAME infinity-place Ruelle/dynamics limit at the SAME k=2 fault line, opposite mechanisms, identical conclusion.",
+  "codex_R011": "analytic scope -- the dictionary R(s,sigma_k)=prod(1-e^{ik theta}e^{-s l}) is exact only for k>=3; k=2 sits on the convergence boundary; the corpus builds a discrete-geodesic GMY form factor, NOT the cusped Einstein spin-2 determinant (OA-C1062 blocker).",
+  "our_B1157": "firewall genericity -- the same factorization banked to |diff|<5e-18; every ingredient generic to hyperbolic 3-manifolds, never touches Q(sqrt-3)/E6; graviton = a rep-label; the closed-Fried antecedent REFUTED, reflection stays conditional.",
+  "action": "record as a corroboration note on B1157 (addendum-beside); do NOT re-bank (ALREADY-COVERED)."
+ },
+ "convergence_2_R012_equals_ANOMALY_PAYMENT": {
+  "verdict": "CONSISTENT (apparent conflict dissolves at scope).",
+  "detail": "'codex: not yet a dark sector' vs 'cloud: dark block required' both reproduce IDENTICAL exact E6 kinematics (27=16+10+1, 40+5 cubic split, parity conserved, T_dark=-T16 every channel) and impose the SAME fences (observer-paid D5 frame; no vacuum/stability/abundance; OA-C0014 EXTERNAL_BLOCKER). Cloud's 'required' is a correct CONDITIONAL anomaly identity (if U(1) gauged) that codex does not dispute."
+ },
+ "relayed_to_cc3_owner_gated": {
+  "note": "codex R010-R014 audit cc3's Paper I-IV + Memo-56; verified verdicts relayed via CC_TO_CC3_2026-08-26 (papers are owner-gated; NOT banked to a main B-arc).",
+  "R010": "Paper I -- m=12 GL class-count bug at disc 148 RESOLVED (h_proper=3 vs h_GL=2 via det(-1) swap); corrected GL counts m=1..12 = 1,1,1,1,1,2,1,1,2,2,1,2; threshold m=6 unchanged. Re-verified in-sandbox.",
+  "R011": "Paper III -- Ruelle dictionary FENCED (exact k>=3; eight corrections incl. sigma_k is an M-character not a Gamma-rep, GMY form not the Einstein spin-2 determinant); OA-C1059/C1061 REFUTED, C1060/C1062 EXTERNAL_BLOCKER. Cert green.",
+  "R012": "Memo-56 -- dark ledger narrow PROVED + fences restored (27=16+10+1; 45 cubic supports = 40x(16,16,10)+5x(10,10,1); 3003 Chevalley brackets pass; bridge A1 uniqueness REFUTED OA-C1087; OA-C0014 stays EXTERNAL_BLOCKER). Cert green.",
+  "R013": "Paper II -- Qbar rung residue CLOSED, conditional on the specified principal 2T embedding (charged 2T centralizer forced to A2^perp; all A2 subsystems one Weyl orbit 120=120; rational => Q->Qbar unchanged). Cert cited, not re-executed.",
+  "R014": "Paper IV -- BOTH literal claims REFUTED (verified in SnapPy 3.3.2). (1) scale theorem refuted by its own normalized-volume counterexample Vol(deg-d cover)=d*Vol -- a mis-statement catch; defensible core 'needs external scale L' survives, OA-C1029 STANDS. (2) exhaustive-14-family REFUTED: witness s955 (index 1256, isosig gLvQQadfedefjqqasjj) all 6 tetrahedra regular e^{i pi/3}, shape field Q(sqrt-3), H1=Z/20+Z -- a genuine regular Q(sqrt-3) census manifold past the B8128 cutoff of 1200; s955 does not itself settle uniqueness -> new OPEN row. Premise about cc3's actual Paper-IV text CITED-ONLY (not in read-only set)."
+ },
+ "fences": "No firewall crossing -- the C4 residual is NOT established as real (leading-order-unfolding-limited), the dark sector is CONDITIONAL, the infinity-place Ruelle story is generic (B1157). Gate 5 clean (no SM value derived). Anomaly identity + Habiro correction own-verified; Gaudin reproduced by verifier + corroborated by codex R009 (full sine-kernel uses B1151's committed zeros, cited). The E8 root-level family splits (270 triples) reproduce but stay object-unpaid possibility-space (memo-53 fence), CITED-ONLY. cloud/codex primary toolchains off-branch (provenance debt, not leaned on).",
+ "gate5": "clean -- no Standard-Model quantity asserted as derived anywhere in this arc.",
+ "routes": "B1157 addendum (the R011 convergence). L182/residue-2: the Ruelle k=2 fault line is now a two-seat finding. Relay: codex R010-R014 -> cc3 (owner-gated). B1's falsification of B1151's surmise-error hatch noted (the hatch closes; unfolding is the sole live suspect)."
+}

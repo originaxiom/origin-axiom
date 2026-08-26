@@ -1,5 +1,34 @@
 # Changelog
 
+## B1158 (2026-08-26): Cloud WAVE-2 + codex R009–R014 backlog harvest — three verified survivors, two cross-seat convergences, codex paper-audits relayed
+
+The owner's "constantly check cloud/codex/cc3" directive surfaced a real backlog: cloud's whole **WAVE-2**
+(a preregistered 10-cell residue queue, memos 56–69) and **codex R009–R014** (Paper I–IV audits). A
+backlog-harvest workflow (8 agents, verify-don't-trust read-only on the branches, cross-checked both seats
+against each other and against main) digested it. Three survivors banked (own-reproduced,
+`reproduce.sh` → REPRODUCES), each overclaim scoped:
+- **C4 — the exact Gaudin law CLOSES B1151's "surmise-error" hatch** (cloud B1): the exact GUE sine-kernel
+  law leaves per-factor KS p-values at 3.8×10⁻⁴/5.5×10⁻⁷ (≪0.01), so B1151's "maybe it's the surmise
+  approximation" hatch is **falsified by exact computation**; merged D=0.02441≈0.024 confirms B1153's
+  superposition is **law-robust**. **SCOPED:** not "the residual is real" (the D-rise is cosmetic) —
+  **leading-order unfolding is the sole live suspect**. Corroborated by codex R009.
+- **The anomaly integer identity** (cloud A-wave / codex R012): E₆→SO(10)×U(1) gives 27=16₊₁⊕10₋₂⊕1₊₄
+  anomaly-free in all three channels; the 16 alone is anomalous; the **dark block 10⊕1 carries exactly
+  −(the 16) in every channel**. **QUARANTINED:** the "dark sector REQUIRED" headline is conditional (needs
+  a gauged U(1) [Gate 5] + the observer-paid D5 frame, uniqueness refuted OA-C1087). Extends B1147–B1150.
+- **The Habiro ζ₃ germ — CORRECTED, mechanism SOLVED** (cloud B3): the one-germ property transports
+  uniformly; the memo's "collapse at modn=15" is a base-embedding artifact; **coherence ⇔ p^r≡1 (mod 3)**;
+  f=2 (p=5 inert)/g=2 (p=7 split) correct the memo's "f=1 unique prime." Cloud credited for the germ; the
+  correction is ours. Extends B905/B1156.
+
+**Two cross-seat convergences:** (1, strongest) **codex R011 corroborates B1157** — two seats, same ∞-place
+Ruelle limit, same k=2 fault line, opposite mechanisms, identical "no crossing" verdict (recorded as a
+B1157 addendum, not re-banked). (2) **codex R012 ≡ cloud ANOMALY_PAYMENT** — the apparent dark-sector
+conflict dissolves at scope; identical E₆ kinematics + fences. **Codex R010–R014** (incl. R014 refuting
+Paper-IV's scale theorem + 14-family via witness s955) are **paper-facing (owner-gated)** → relayed to cc3,
+not banked. No firewall crossing; Gate 5 clean. Locks `tests/test_b1158_cloud_wave2_harvest.py`. Standing
+monitors armed on all three seat branches (owner directive).
+
 ## B1157 (2026-08-26): WF-2 (the dynamics) — the ∞-place "dynamical law" is STRUCTURAL RHYME (firewall upheld); the closed-Fried antecedent for cc3's B8142b is REFUTED by computation
 
 The masterplan's WF-2 (8 agents: 3 scope/verify → gap → attempt → 2 adversarial refuters → seal; 453k
