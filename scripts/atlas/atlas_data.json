@@ -3454,6 +3454,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1167": {
+   "slug": "seat harvest",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [

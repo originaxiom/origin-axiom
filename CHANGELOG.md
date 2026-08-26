@@ -1,5 +1,28 @@
 # Changelog
 
+## B1167 (2026-08-26): two-seat harvest — codex R017 pays the SEAM-Y up-Yukawa provenance debt; cc3's cusp-shape second separator is ORIENTATION-BLIND (B1163 strengthened)
+
+An owner-approved integrate-don't-merge harvest of two seats. **(A) codex R017** (`codex/seat-r001` b7faffef)
+**closes the SEAM-Y up-Yukawa provenance debt** (B1154/B1159-D1/R49-1): the two height-308 primary
+derivations + self-contained certs are now branch-local. Verified (codex asked for re-derivation): the **C₁₂
+Wilson character arithmetic** is own-re-derived — at the selected characters every MSSM operator is
+C₁₂-neutral (up Q·u^c·H_u = 8+4+0 ≡ 0 mod 12; down/lepton/μ likewise), so C₁₂ imposes **no** family texture
+zero and *permits* up = Sym²(ℂ³) dim 6; the vanishing **μ_u=0 is codex's cohomological naturality**
+(H¹(G_Y)=0 chain-level), **fenced** as codex's typed input (needs the Sage/BCDD monad stack, codex's own
+scope; the down/lepton chain stays open); both certs reproduce byte-identical from b7faffef (μ_u domain 1806,
+rank 0; the exact 1×6 zero up matrix; OA-C1055 one-Higgs no-go). The conclusion μ_u=0 was already banked
+(B1154, two independent walls); R017 pays the **provenance** — D1 up-sector **PAID**. **(B) cc3
+B8138-extended** adds the **cusp shape** as a second object-level separator (m004 = 2√3·i, unique in the
+14-manifold ℚ(√−3) family — reproduced, all cusps, up to conjugation, nothing within 1e-6). cc3 handed cc the
+question "does a modulus yield an orientation?" — **answer: NO.** 2√3·i is **purely imaginary** (rectangular
+cusp); orientation-reversal τ↦−τ̄ **fixes** it (−(2√3 i)‾ = 2√3 i), so it is **mirror-fixed → orientation-blind
+→ does not supply W₀**. **B1163 is strengthened, not overturned:** two object-level separators (H₁≅ℤ, cusp
+shape), *both* orientation-blind; the object still provably refuses to self-orient. **C5 seed** (for the
+owner-directed investigation): the object *does* supply a canonical archimedean **modulus** (2√3 i,
+√3-flavored — tying the cusp geometry to the disc-144/ℚ(ζ₁₂) hinge of B1166) but withholds only the
+**orientation** — refining B1165's G3. Both seats credited; no merge. Own-verified; Gate 5 clean. Locks
+`tests/test_b1167_seat_harvest.py` (6 tests).
+
 ## B1166 (2026-08-26): cc's attack on cloud's GRAVITY_CHARTER — C3 VERIFIED (one dilaton, not two moduli), C4 REFUTATION-CANDIDATE (the free-orbit torsor is √3-flavored, being×hearing is √5-flavored)
 
 Cloud relayed THE_GRAVITY_CHARTER (`origin/outside-bench` 60bcf01d) — the §E identification as

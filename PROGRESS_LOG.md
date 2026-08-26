@@ -11668,3 +11668,17 @@ U(1) object-paid, ℝ⁺ the withheld scale; observer continuous freedom = ℝ�
 (branch, being×hearing) pair is not isomorphic; C4 as stated is refuted for that pair, held at candidate
 pending cloud's intent + the B1024 frame-V₄ leg. Relayed to cloud + codex; not kill_graph-routed (candidate).
 Own-verified; Gate 5 clean. Locks tests/test_b1166_charter_attack.py (6 tests).
+
+## B1167 (2026-08-26) — two-seat harvest: codex R017 pays SEAM-Y provenance; cc3's cusp separator is orientation-blind
+Owner-approved integrate-don't-merge harvest. **(A) codex R017** (b7faffef) closes the SEAM-Y up-Yukawa
+provenance debt (B1154/B1159-D1/R49-1): the two height-308 primary derivations + certs are branch-local.
+Own-verified: the C₁₂ Wilson character arithmetic (every MSSM operator C₁₂-neutral ⇒ C₁₂ permits up=Sym²(ℂ³)
+dim 6, not a texture zero); both certs reproduce byte-identical (μ_u domain 1806, rank 0; exact 1×6 zero;
+OA-C1055 one-Higgs no-go). The vanishing μ_u=0 is codex's cohomological naturality (H¹(G_Y)=0), FENCED as
+codex's typed input (needs the Sage/BCDD stack). Conclusion already B1154; D1 up-sector PAID. **(B) cc3
+B8138-extended** adds the cusp shape as a 2nd object-level separator (m004=2√3 i, unique in the 14-manifold
+ℚ(√−3) family, reproduced). cc's answer to cc3's handed question ("does a modulus orient?"): NO — 2√3 i is
+purely imaginary (rectangular cusp), mirror-fixed (−conj(τ)=τ), orientation-blind ⇒ does NOT supply W₀. B1163
+STRENGTHENED: two object-level separators, both orientation-blind; the object still refuses to self-orient.
+C5 seed: the object supplies a canonical archimedean MODULUS (2√3 i, √3-flavored) but withholds the
+orientation. Relayed codex + cc3. Own-verified; Gate 5 clean. Locks tests/test_b1167_seat_harvest.py (6).
