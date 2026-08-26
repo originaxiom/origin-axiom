@@ -25,3 +25,17 @@ residue degree 2. The exact table banked here stands as data; the
 "mechanism open" reading is superseded. Credit: the germ computation is
 this lane's; the correction and mechanism are the seat's (B1158,
 own-verified).
+
+### ADDENDUM (2026-08-26, R016 adopted) — the level-15 collapse RESOLVED
+Codex R016 performed the load-bearing computation B1158's relay had only
+named: the abstract base root ζ₃ must be embedded as w^e with e ≡ 1 mod 3
+(e ∈ {p^r, 2p^r}). With the compatible embedding, the finite coherence
+gate passes at ALL FOUR levels (15: 2,4,6,8,…,16; 75 identical; 21/147:
+2,4,6,9,10,13,14,18); the NEGATIVE CONTROL with the conjugate root w⁵ at
+level 15 reproduces this memo's [2,0,…,0] collapse exactly through Taylor
+order 11. **The collapse was an embedding mismatch — this bench's cell
+used an incompatible ζ₃ embedding — not a truncation effect and not a
+level-15 anomaly.** The "sharp level-dependent split" headline is
+WITHDRAWN; the exact valuation tables (with the 21/147 pattern 9,13,18)
+are the surviving content. Codex's scope fence adopted with it: four
+levels through order eight is finite evidence, not "every level."

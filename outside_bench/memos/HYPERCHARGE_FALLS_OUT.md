@@ -68,3 +68,25 @@ Asked which charges a Standard-Model-shaped generation could carry inside
 the object's own abelian sector without quantum inconsistency, the integer
 arithmetic returns exactly one answer, thirty-six times over, in every
 frame: the charges our world uses.
+
+### ADDENDUM (2026-08-26, R019/B1160 adopted) — the scope made exact
+Codex R019 (audit of this memo; its cert re-run on this bench,
+byte-identical) and cc's B1160 (independent on-bench re-derivation)
+both verify the computation and sharpen its scope, adopted here:
+- **The ratios are universal, not E6's.** For ANY abstract SM-shaped
+  15-plet the linear anomaly conditions force Yl=−3Yq, Ye=6Yq,
+  Yu+Yd=−2Yq, and the cubic factors as −18(u−2)(u+4) ⇒ the SM pattern up
+  to u↔d, independent of E6 (re-derived in
+  `certificates/alignment_audit.py`, memo 75). **This memo's object-side
+  content is therefore the REALIZATION**: the object's rank-3 abelian
+  complement admits anomaly-consistent solutions for every enumerated
+  assignment (36/36) — the nontrivial fact is that the charge functionals
+  land compatibly in the 3-dim space, not the ratio values.
+- **R019 extended the covariance control** from this memo's two color
+  frames to all three: identical counts.
+- **Unpaid, per R019 (concurred):** frame/orientation selection; the
+  presupposed 15-plet (the other 12 states' fate); B892's own centralizer
+  frame (left for the seat, THE_MSSM_DEBT addendum 3); gauging/kinetic
+  normalization; Yq=1/6 as convention. The headline stands as banked:
+  BRANCH A STRONG **in-frame**, the link paid down to "the existence of
+  an embedding."

@@ -176,3 +176,20 @@ forced hypercharge — not a supersymmetrized spectrum. The detailed-MSSM
 ambition lands, on this bench's evidence, as "NMSSM-shaped coupling
 skeleton over exactly one generation-kinematics, families supplied only
 at the E8 possibility level."
+
+### ADDENDUM 4 (2026-08-26) — D1 PAID: the ledger closes 5/5
+The witness landed (B1159, WF-3's typed condition ledger A–E, with B1160
+verifying memo 70 and B1161 unifying the bypass door with SEAM-A; codex
+R017 paying provenance debt, R019 auditing memo 70). Memo 75 ran the
+alignment audit: **full alignment, zero contradictions** — cc's top-down
+chain and this bench's bottom-up chain meet at "structure forced
+(conditionally), values withheld"; overlaps agree to the byte (three
+seats now hold the hypercharge computation); the bench's no-gos sharpen
+links A (SUSY imported — memo 71 shows the carrier has no supercharge of
+its own) and C (the bypass spectrum must source families outside the 27 —
+memo 74 — and pay both ℤ/2s — memo 72). Memo 70 re-scoped per R019 (the
+ratios are universal to the anomaly equations; the object supplies the
+realization). **The programme is complete: D1–D5 all executed.** What
+remains open is owned elsewhere: SEAM-A's specialist seal (cc), the
+bypass door's object-intrinsic selector (cc's live cell, now carrying
+this lane's constraints), B892-frame conjugacy (seat, addendum 3).
