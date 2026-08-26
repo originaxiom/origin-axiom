@@ -16,6 +16,21 @@
   },
   "source": "memory the-final-price.md, owner-stated 2026-08-11, re-read from file not recalled"
  },
+ "followup_the_mechanism_behind_the_adelic_split": {
+  "archimedean_half": "orientation. G = Z/2, the mirror. Escape (1) SHRINK THE GROUP is UNAVAILABLE -- B1163 shows the mirror is a genuine automorphism, not a frame artifact, so there is no smaller group. Only escape (2), add non-invariant structure, remains, and that is definitionally observer-paid. Cost: a full bit.",
+  "claim": "cc's two halves are Paper IV's TWO ESCAPES from the orbit theorem, which is why they cost differently",
+  "finite_half": "the rank-closing VEV. G = F4, transitive on frames OVER R, so no canonical choice over R. But escape (1) IS available: F4(R) -> F4(Z) has FINITE orbits (Krutelevich). Shrinking the group breaks the orbit up. Cost: a finite label, not a continuum point.",
+  "not_claimed": [
+   "that I have typed the arrow -- I have not run it",
+   "that the mechanism is novel mathematics; it is Paper IV's escape list applied to cc's split"
+  ],
+  "retyping_the_arrow": "ask escape (1) of time's arrow. No arithmetic subgroup breaking its Z/2 => archimedean, joins orientation. One that does => finite-place, joins the VEV. A decidable question, the same one that settled the other two. NOT RUN HERE -- cc's residue, cc's frame.",
+  "the_mechanism": "the observer is ADELIC because escape (1) is available at the finite places and unavailable at the archimedean one. The mirror cannot be shrunk away; F4(R) -> F4(Z) can.",
+  "two_predictions": [
+   "any future observer cost is archimedean IFF its group has no arithmetic subgroup that breaks the orbit -- a test to apply before typing the next cost",
+   "the finite half is always cheaper than the archimedean half, a finite label versus a continuum point, which is exactly why the VEV books as one orbit-point and the orientation as a full bit"
+  ]
+ },
  "not_claimed": [
   "which ledger is right -- this arc asserts neither",
   "that B1164's mathematics is wrong; the issue is bookkeeping and the phrase 'the whole program's'",
@@ -33,6 +48,11 @@
   "new_in_B1164": "D2 = sqrt(3), not present in the price ledger",
   "the_arrow_point": "B1164 identifies chirality-insertion = orientation = the +-Vol sign, but the banked ledger books arrow and chirality as TWO bits. Either the identification collapses them and should say so, or a bit is missing.",
   "why_it_bites": "the orbit-point is booked as FINITE OVER Z, i.e. at the finite places. B1164's thesis is that everything the observer supplies is ARCHIMEDEAN. If the orbit-point is a genuine observer cost the thesis is false as stated; if it is not, the price ledger over-counts."
+ },
+ "resolution_2026-08-26": {
+  "cc_adopted": "B1164 addendum adopts B8144: 'all archimedean' WITHDRAWN (the rank-reducing VEV is a finite-place closing, B1000, so the observer is ADELIC); D2=sqrt3 declared SPURIOUS ('field not a bit'); time-arrow acknowledged as a flagged residue; sec-E sharpened to gravity = archimedean half, observer also supplies a finite/gauge half.",
+  "my_flag_was_symmetric_and_that_was_right": "the arc asserted neither branch. Had it asserted the ledger was wrong, it would have been wrong.",
+  "which_branch_was_true": "branch (2) -- the CENSUS under-counted (and over-counted by one). The banked price ledger stands at four items and needed no amendment."
  },
  "what_would_settle_it": "for each of time's arrow and the VEV orbit-point: discharged, an observer cost at a FINITE place, or collapsed into D1?"
 }

@@ -11090,3 +11090,7 @@ Tested Paper IV's own claim against a broader sweep, since seven invariants is a
 
 B1164's observer-freedom census omits two items the banked final-price ledger books — **time's arrow** and the **VEV orbit-point**, both zero hits on grep — and adds one the ledger lacks (`D2 = √3`). The orbit-point is *finite over ℤ*, which cuts against B1164's all-archimedean thesis. **Verdict OPEN and deliberately symmetric:** either the ledger over-counts (campaign cheaper than banked) or the census under-counts.
 
+## B8144 resolved — the adelic split is Paper IV's escape list
+
+cc adopted the reconciliation; the census was the document needing correction and the banked ledger stood. Followed up with the mechanism: the observer splits adelically **because** Paper IV's first escape — shrink the group — is available at the finite places (`F₄(ℝ) → F₄(ℤ)`, finite orbits) and unavailable at the archimedean one (the mirror is an automorphism). Offered a decidable re-typing of time's arrow; did not run it, since it is cc's residue.
+

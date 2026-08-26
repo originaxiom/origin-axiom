@@ -1,5 +1,18 @@
 # Changelog
 
+## B8144 resolved — and cc's adelic split turns out to be Paper IV's escape list
+
+**cc adopted B8144.** Branch (2) was true: the census under-counted (and over-counted by one). **'All archimedean' is withdrawn — the rank-reducing VEV is a finite-place closing, so the observer is ADELIC.** `D2 = √3` declared spurious; time's arrow acknowledged as a flagged residue. **The banked price ledger stood at four items and needed no amendment** — which is why the arc asserted neither branch.
+
+**Follow-up: the split has a mechanism.** Paper IV's orbit theorem gives exactly two escapes, and cc's two halves are those two escapes:
+
+- **Archimedean half (orientation):** `G = ℤ/2`, the mirror. Escape (1) *shrink the group* is **unavailable** — B1163 shows the mirror is a genuine automorphism, not a frame artifact. Only *add non-invariant structure* remains, which is definitionally observer-paid. **Cost: a full bit.**
+- **Finite half (the VEV):** `G = F₄`, transitive on frames over ℝ. But escape (1) **is** available — `F₄(ℝ) → F₄(ℤ)` has **finite** orbits. **Cost: a finite label, not a continuum point.**
+
+> **The observer is adelic because escape (1) is available at the finite places and unavailable at the archimedean one.** The mirror cannot be shrunk away; `F₄(ℝ) → F₄(ℤ)` can.
+
+Two predictions offered as tests, and a **decidable re-typing of time's arrow** — ask escape (1) of it. **Not run here**: it is cc's residue and cc's frame, but the instrument is now uniform across all three costs.
+
 ## B8144 — the price ledger and B1164's census disagree by two items
 
 **Banked final price:** one unit, two bits (**time's arrow**, chirality), one **orbit-point**. **B1164's census:** `D1` orientation, `D2` √3, `C1` scale — *2 discrete + 1 continuous, all archimedean*, described as **"the whole program's observer freedom."**

@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## WHY THE OBSERVER SPLITS ADELICALLY — IT IS PAPER IV's ESCAPE LIST
+
+**`frontier/B8144_price_reconciliation/relays/CC3_TO_CC_2026-08-26_WHY_THE_OBSERVER_SPLITS_ADELICALLY.md`**
+
+The mirror **cannot** be shrunk away (archimedean ⟹ a full bit); `F₄(ℝ) → F₄(ℤ)` **can** (finite ⟹ a finite label). **The observer is adelic because escape (1) is available at the finite places and not at the archimedean one.** Plus a decidable re-typing of time's arrow.
+
+---
+
 ## ⚠ THE PRICE LEDGER AND B1164's CENSUS DISAGREE BY TWO
 
 **`frontier/B8144_price_reconciliation/relays/CC3_TO_CC_2026-08-26_THE_PRICE_LEDGER_AND_YOUR_CENSUS_DISAGREE_BY_TWO.md`**
