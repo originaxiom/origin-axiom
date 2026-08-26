@@ -1,5 +1,28 @@
 # Changelog
 
+## B1163 (2026-08-26): the W₀ construction attempt — the one obstruction is a single *definitional* datum (an object-canonical orientation of m004), and the object is amphichiral so it refuses to supply it
+
+The owner directed: *"can we specialize ourselves and do the missing archimedean W?"* We attempted it (WF
+W₀-construct, three routes, adversarial verify). **Seal = PARTIAL:** no W₀ constructed — and in failing
+precisely, we **proved what it is**. All three routes converge on **one** missing datum: an **object-canonical
+archimedean embedding ℚ(√−3)↪ℂ** = an **orientation** of m004 = the selection of **+Vol over −Vol**. Every
+candidate marking *smuggles* it. **One obstruction, three views** (own-verified): the free-orbit theorem
+(arithmetic, B1161) = the **{+Vol,−Vol} two-valuedness** (analytic — Bloch–Wigner is odd under conjugation,
+2·Im Li₂(e^{−iπ/3})=−Vol exactly) = the **amphichirality CS=0** (geometric — m004 amphichiral, so the object's
+own symmetry does not break z↔z̄; picking +Vol needs "Vol>0", not arithmetic data). **The object provably
+refuses to make the choice** — not a gap, but the object being exactly Galois-symmetric + amphichiral.
+
+**This validates the meditation's two conjectures:** **(A)** the absence of W₀ is the **observer's role**, not a
+gap (the orientation is the observer's, the same bit as chirality/branch); **(B)** it is a **scale wall, not a
+value wall** — R2 proved the CY3 period Ω is canonical *up to ℂ^× scale*; the object forces the *ratios* and
+withholds only the *scale* (=W₀). **The exact bar is DEFINITIONAL, not benchable:** does the adelic thesis admit
+m004's Mostow-canonical hyperbolic structure as *object*-data or *observer*-data? The specialist route
+(Andersen–Hansen cusped) still outputs {+Vol,−Vol} and still needs the embedding — it collapses onto the same
+admission. Bank-grade own-verified: Vol from the Kashaev sum (volume conjecture reproduced); the {+Vol,−Vol}
+orbit; a **correction** (verify-don't-trust *inside* the attempt: the true a1=−(11/216)√−3, ratio 11/2, stays in
+ℚ(√−3)); R2's det=+1/Φ₁₂ + H³=ℤ¹⁰. Firewall CLEAN — no crossing, no W₀ claimed; Gate 5 clean. Locks
+`tests/test_b1163_w0_attempt.py`.
+
 ## B1162 (2026-08-26): the MSSM-debt closure (cloud D1–D5) + the height-308 witness verified on-bench — structure forced, dynamics & values withheld
 
 Finishes WF-3's second half (B1159 built the ledger but *relayed* the single-homed witness) and integrates

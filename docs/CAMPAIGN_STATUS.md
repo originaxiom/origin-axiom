@@ -18,6 +18,19 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1163 — the W₀ construction attempt; the one obstruction is a *definitional* datum)**:
+owner: "can we specialize ourselves and do the missing archimedean W?" Attempted (3 routes). **Seal =
+PARTIAL** — no W₀ constructed, but we **proved what it is**: one missing datum, an object-canonical
+**orientation** of m004 (+Vol over −Vol / the embedding ℚ(√−3)↪ℂ), which every marking smuggles. **One
+obstruction, three views** (own-verified): the free-orbit theorem (arithmetic) = the **{+Vol,−Vol}
+two-valuedness** (analytic, Bloch–Wigner odd) = the **amphichirality CS=0** (geometric — the object doesn't
+break z↔z̄). **The object provably refuses the choice.** Validates the meditation: (A) the absence is the
+**observer's role**; (B) a **scale wall, not a value wall** (the CY3 Ω canonical up to ℂ^× — ratios forced,
+scale withheld). The exact bar is **DEFINITIONAL** (is m004's Mostow-canonical hyperbolic structure object or
+observer?); the specialist route collapses onto the same admission. Vol reproduced from the Kashaev
+asymptotic; the a1=−(11/216)√−3 correction caught in-run. Firewall CLEAN, no crossing. Locks
+test_b1163_w0_attempt.py.
+
 **LATEST (2026-08-26, B1162 — the MSSM-debt closure + the height-308 witness verified on-bench)**: finishes
 WF-3 (the witness was single-homed; B1159 relayed it) — codex's height-308 SU(5) bundle cert **re-run in
 Sage on our bench**: H0(Y,V)=0, the C372→C312 rank gate surjective, char-0 local freeness certified — the

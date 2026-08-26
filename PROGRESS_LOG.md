@@ -11598,3 +11598,18 @@ heterotic imported + the missing W₀) — structure forced, dynamics+values wit
 visible sector. Bank-grade: the witness (sage), D1, D4=B1161, D2=B1160. Cited (cloud stack): D3, D5. Gate 5
 clean; no crossing. W₀ construction workflow still running. Locks `tests/test_b1162_mssm_debt_closure.py`
 (8 tests).
+
+## 2026-08-26 — B1163: the W₀ construction attempt — the one obstruction is a definitional datum; the object is amphichiral and refuses to supply it
+
+Owner: "can we specialize ourselves and do the missing archimedean W?" Attempted (WF W₀-construct, 3 routes,
+adversarial verify). **Seal = PARTIAL:** no W₀ constructed; the obstruction reduced to ONE datum — an
+object-canonical archimedean embedding ℚ(√−3)↪ℂ = an **orientation** of m004 = +Vol over −Vol, which every
+marking smuggles. **One obstruction, three views** (own-verified): free-orbit theorem (arithmetic) =
+{+Vol,−Vol} two-valuedness (analytic, Bloch–Wigner odd under conjugation) = amphichirality CS=0 (geometric —
+the object doesn't break z↔z̄). **The object provably refuses the choice.** Validates the meditation: (A) the
+absence is the observer's role (orientation = the observer's bit, same as chirality/branch); (B) a **scale
+wall, not a value wall** (R2: the CY3 Ω canonical up to ℂ^× scale — ratios forced, scale withheld). Exact bar
+is **DEFINITIONAL** (is Mostow-canonical structure object or observer?); the specialist route collapses onto
+the same admission. Bank-grade own-verified: Vol from the Kashaev asymptotic (volume conjecture reproduced),
+the {+Vol,−Vol} orbit, the a1=−(11/216)√−3 correction (verify-don't-trust inside the attempt), R2 det=+1/H³.
+Firewall CLEAN, no crossing, no W₀ claimed; Gate 5 clean. Locks `tests/test_b1163_w0_attempt.py` (8 tests).

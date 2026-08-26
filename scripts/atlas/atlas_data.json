@@ -3372,6 +3372,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1163": {
+   "slug": "w0 attempt",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "L182"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [
