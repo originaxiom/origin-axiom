@@ -19,7 +19,7 @@ Each canonical item is represented by these fields:
 | `source_verdict` | verbatim assertion-level verdict from each source, possibly contradictory |
 | `claim_truth_grade` | independent audit grade of the proposition actually established |
 | `obligation_effect` | `creates`, `narrows`, `closes`, `retracts`, or `none`; a `PROVED` arc may create an open obligation |
-| `adjudicated_status` | one operational state from `README.md` |
+| `adjudicated_status` | one operational state from `README.md`; `OPEN` is admissible but nonterminal |
 | `evidence_mode` | `proof`, `exact-compute`, `bounded-numeric`, `literature`, `postulate`, or `unrun` |
 | `review_state` | author-bank status and independent-review status, kept separate |
 | `evidence` | concise proof/result and reproducibility record |
@@ -42,3 +42,5 @@ Each canonical item is represented by these fields:
 - Namespace collisions are split before semantic merging (`B58` is already two different arcs;
   q/paper/main identifiers are branch-qualified).
 - “No hit” is exhaustive only after the search space and completeness certificate are proved.
+- A feasible computation that has not run is `OPEN`, not `EXTERNAL_BLOCKER`; campaign exhaustion
+  requires the `OPEN` count to be zero.

@@ -16,6 +16,7 @@ from urllib.parse import quote
 
 
 STATUS_ORDER = (
+    "OPEN",
     "PROVED",
     "REFUTED",
     "CONDITIONAL",
@@ -25,6 +26,7 @@ STATUS_ORDER = (
 )
 
 ANSWER_PREFIX = {
+    "OPEN": "Open.",
     "PROVED": "Yes.",
     "REFUTED": "No.",
     "CONDITIONAL": "Conditionally.",
@@ -34,6 +36,7 @@ ANSWER_PREFIX = {
 }
 
 STATUS_MEANING = {
+    "OPEN": "Registered and typed, but its stated closure test has not yet been executed.",
     "PROVED": "A type-correct proof or reproducible exact computation establishes the scoped claim.",
     "REFUTED": "A proof, counterexample, or exact negative computation defeats the scoped claim.",
     "CONDITIONAL": "The claim follows only after the named underived input is assumed.",
@@ -118,8 +121,9 @@ def render_markdown(data: dict, digest: str, source: Path, output: Path, as_of: 
         "",
         "This is the durable, source-linked map of every canonical question currently registered by",
         "the independent closure campaign. It distinguishes a proved narrow theorem from a broader",
-        "physical interpretation. `CONDITIONAL` and `EXTERNAL_BLOCKER` mean the question is accounted",
-        "for, not that the parameter-free programme has answered it affirmatively.",
+        "physical interpretation. `OPEN` is a live obligation. `CONDITIONAL` and",
+        "`EXTERNAL_BLOCKER` mean the question is accounted for, not that the parameter-free",
+        "programme has answered it affirmatively.",
         "",
         "## How to update this map",
         "",
@@ -203,6 +207,7 @@ def render_markdown(data: dict, digest: str, source: Path, output: Path, as_of: 
         "",
         "- A `PROVED` row proves only its recorded scope; inspect its dependencies before using it",
         "  downstream.",
+        "- An `OPEN` row is a live, typed task; it is neither evidence nor a blocker declaration.",
         "- A `REFUTED` row closes the named route, not every imaginable replacement.",
         "- A `CONDITIONAL` row exposes the exact unpaid input rather than hiding it.",
         "- An `EXTERNAL_BLOCKER` is terminal for the present campaign state but becomes active when",
@@ -298,6 +303,7 @@ def render_html(data: dict, digest: str, source: Path, output: Path, as_of: str)
 <title>Origin Axiom programme question–answer map</title>
 <style>
 :root{{--bg:#f5f4ef;--paper:#fff;--ink:#20231f;--muted:#62685f;--line:#d8d9d1;
+--open:#b14f00;
 --proved:#176b43;--refuted:#a12d2d;--conditional:#946400;--external:#6745a3;
 --empirical:#176a87;--out:#606060}}*{{box-sizing:border-box}}body{{margin:0;background:var(--bg);
 color:var(--ink);font:16px/1.5 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}}
@@ -311,12 +317,12 @@ padding:12px;background:rgba(245,244,239,.96);backdrop-filter:blur(8px);border-b
 input,select,button{{font:inherit}}input,select,.reset{{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;background:#fff}}
 .count{{align-self:center;color:var(--muted);white-space:nowrap}}.cards{{display:grid;gap:14px;margin-top:20px}}
 .card{{background:var(--paper);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:12px;padding:18px;scroll-margin-top:90px}}
-.card[data-status=PROVED]{{border-left-color:var(--proved)}}.card[data-status=REFUTED]{{border-left-color:var(--refuted)}}
+.card[data-status=OPEN]{{border-left-color:var(--open)}}.card[data-status=PROVED]{{border-left-color:var(--proved)}}.card[data-status=REFUTED]{{border-left-color:var(--refuted)}}
 .card[data-status=CONDITIONAL]{{border-left-color:var(--conditional)}}.card[data-status=EXTERNAL_BLOCKER]{{border-left-color:var(--external)}}
 .card[data-status=EMPIRICAL]{{border-left-color:var(--empirical)}}.card[data-status=OUT_OF_SCOPE]{{border-left-color:var(--out)}}
 .card header{{display:flex;gap:9px;align-items:center;flex-wrap:wrap}}.id{{font-weight:800;color:var(--ink)}}
 .badge,.domain{{font-size:.72rem;padding:3px 7px;border-radius:99px;background:#ecece7}}.badge{{color:#fff}}
-.proved{{background:var(--proved)}}.refuted{{background:var(--refuted)}}.conditional{{background:var(--conditional)}}
+.open{{background:var(--open)}}.proved{{background:var(--proved)}}.refuted{{background:var(--refuted)}}.conditional{{background:var(--conditional)}}
 .external_blocker{{background:var(--external)}}.empirical{{background:var(--empirical)}}.out_of_scope{{background:var(--out)}}
 .card h2{{font-size:1.18rem;line-height:1.3;margin:.7em 0}}.answer{{margin:.4em 0 1em}}
 details{{border-top:1px solid var(--line);padding-top:9px}}summary{{cursor:pointer;color:var(--muted)}}
@@ -328,7 +334,7 @@ a{{color:#285f89}}.hidden{{display:none}}@media(max-width:720px){{main{{padding:
 <p class="meta">As of {html.escape(as_of)} · {len(items)} canonical questions · registry SHA-256 <code>{digest}</code></p>
 <h1>Programme question–answer map</h1>
 <p class="lede">Every registered question, its direct status-aware answer, dependencies, scope,
-closure test, falsifier, and evidence. Conditional and external-blocker rows are accounted for,
+closure test, falsifier, and evidence. Open rows are live work. Conditional and external-blocker rows are accounted for,
 but they are not affirmative parameter-free results.</p>
 <section class="dashboard">{status_tiles}</section>
 <section class="controls">

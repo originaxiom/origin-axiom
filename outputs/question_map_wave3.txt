@@ -1,0 +1,4 @@
+question_map_rows=108
+question_map_statuses={"CONDITIONAL": 13, "EMPIRICAL": 1, "EXTERNAL_BLOCKER": 16, "OPEN": 5, "OUT_OF_SCOPE": 0, "PROVED": 37, "REFUTED": 36}
+question_map_open=["OA-C1067", "OA-C1069", "OA-C1074", "OA-C1077", "OA-C1083"]
+QUESTION MAP INTEGRITY: PASS
