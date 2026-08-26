@@ -16,6 +16,16 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1153 — THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS)**: cloud memos
+54–55 reproduce-verified (2/2; memo 54 sympy-confirmed). **memo 54**: tr(ab⁻¹)=gal(κ) is the **Riley
+relation** in disguise (exact where the meridian is parabolic, defect (tr a)²−4 off it — a fourth
+trace-3), and the trace map's **full fixed locus is 3 points** (the κ-pair + (0,0,0)), closing codex
+OA-C1082/1083 + completing memo 43. **memo 55**: B1151's C4 negative **closes positive** — the merged
+ζ_K spacing IS the 2-fold GUE superposition of ζ·L(χ₋₃) (D=0.024 vs single-GUE 0.134; on B1151's own
+data). Codex Wave-3 corrections adopted into B1148/B1149 (antiunitary→semilinear; "a" not "the minimal"
+carrier; "a second" fixed point) — math unchanged. Generic; Gate 5 untouched. Lock
+test_b1153_peripheral_and_superposition.py.
+
 **LATEST (2026-08-26, B1151 — THE LARGE-T GUE TEST / C4)**: the cloud's preregistered spectral
 cell run on our i9 at T=3000 (5459 merged zeros of ζ_K = ζ·L(χ₋₃)). **Preregistered single-GUE
 gate NOT MET** (KS vs GUE D=0.134, p=2e−85) — an **honest NEGATIVE**; but the density gate passed

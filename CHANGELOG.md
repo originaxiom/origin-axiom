@@ -1,5 +1,23 @@
 # Changelog
 
+## THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS (B1153, 2026-08-26): cloud memos 54–55 — tr(ab⁻¹)=gal(κ) is the Riley relation in disguise, and C4's negative closes *positive*
+
+The cloud's **memos 54–55** (`origin/outside-bench` `0c7f8b5a`) reproduce-verified (2/2, rc=0); memo 54
+independently sympy-confirmed.
+- **memo 54 (THE PERIPHERAL IDENTITY)** — **tr(ab⁻¹)=gal(κ)** is the **Riley relation** in disguise
+  (S−3 = P+(x²−4); exact where the meridian is parabolic, defect exactly (tr a)²−4 off it — a *fourth*
+  trace-3 appearance). The trace map's **full fixed locus** is exactly **3 points** (`z²(z²+12)`: the
+  κ-pair + (0,0,0)), closing codex OA-C1082/OA-C1083 and completing memo 43.
+- **memo 55 (THE SUPERPOSITION SPEAKS)** — B1151's C4 negative **closes positive**: on B1151's own
+  committed data, the merged ζ_K spacing fits the **2-fold GUE superposition surmise at D=0.024** (vs
+  single-GUE 0.134), the control confirming each factor rejects it. ζ_K's spacings see exactly its
+  factorization ζ·L(χ₋₃). Generic; no crossing.
+- **Adopted (memo 54's codex Wave-3 corrections into B1148/B1149; math unchanged):** "antiunitary"→
+  "semilinear" (45/46/50); the carrier is "*a*" not "*the minimal*" one (46); memo 43's fixed pair is
+  "*a* second" not "*the*" (43).
+
+Gate 5 untouched. Cloud + codex credited. Lock `test_b1153_peripheral_and_superposition.py`.
+
 ## THE COST FAILURE CLASS + THE FAST LANE (B1152, 2026-08-26): harvest of cc3's B8139 — a lock never *reached* catches nothing; main audited clean, the suite given an inner-loop lane
 
 cc3's **B8139** (`paper/structure-genesis-first` `1f455266`, integrate-don't-merge) named a failure

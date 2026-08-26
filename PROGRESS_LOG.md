@@ -11387,3 +11387,22 @@ full >120s = spread across files). E50 registered; the root lazy-fy of slow impo
 suite stays the certificate of record. cc3's email-on-a-public-surface flag (SUBMISSION_METADATA.md,
 their branch, deliberate arXiv act vs a standing lock) surfaced to the owner, not touched. Lock
 test_b1152_suite_cost_class.py.
+
+**2026-08-26 — THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS (B1153).** Cloud memos 54-55
+reproduce-verified (2/2, rc=0; origin/outside-bench 0c7f8b5a), memo 54 independently sympy-confirmed.
+memo 54 (THE PERIPHERAL IDENTITY): tr(ab^-1)=gal(kappa) is the RILEY RELATION in disguise -- S-3=P+(x^2-4),
+exact where the meridian is parabolic (P(2,z)=z^2-5z+7, both geometric characters), defect exactly x^2-4
+off it, the object's '3' = the cusp condition (a fourth TRACE THREE appearance); the trace map's FULL
+fixed locus is exactly 3 points (Groebner z^2(z^2+12): the kappa-pair + (0,0,0) non-reduced mult 2),
+closing codex OA-C1082/OA-C1083 + completing memo 43 (the mirror-free orbit still exactly the pair).
+memo 55 (THE SUPERPOSITION SPEAKS): B1151's C4 honest negative CLOSES POSITIVE -- on B1151's own
+committed data (main @ 522c7caa), the merged zeta_K spacing fits the 2-fold GUE superposition surmise at
+D=0.02400 (vs single-GUE 0.13359), below the factors' own residuals, 5.6x margin on the preregistered
+gate; control -- each factor rejects the superposition while fitting single-GUE. zeta_K's spacings see
+exactly its factorization zeta*L(chi_-3). ADOPTED (memo 54's codex Wave-3 corrections into B1148/B1149,
+math unchanged): antiunitary->semilinear (45/46/50); the carrier is 'a' not 'the minimal' one (46,
+OA-C1087); memo 43's fixed pair is 'a second' not 'the' (43, OA-C1082). Fences: PART I rational algebra,
+PART II interpolation+verify (traces polynomial coords CITED-standard + 40-sample + Groebner/Q); memo 55
+GENERIC (superposition expected for any product L-function; no object-specificity, no crossing); zeta
+file 2469 vs B1151 prose 2468 (immaterial). Gate 5 untouched. Cloud + codex credited. Lock
+test_b1153_peripheral_and_superposition.py.

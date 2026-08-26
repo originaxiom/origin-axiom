@@ -3074,13 +3074,14 @@
     "kappa",
     "eisenstein",
     "golden",
-    "symplectic"
+    "symplectic",
+    "firewall"
    ],
    "refs": [
     "L183"
    ],
    "obstacle": "cancellation",
-   "obstacle_conf": 2,
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -3140,6 +3141,25 @@
    "obstacle_conf": 4,
    "status": "dead",
    "domain": "dynamics"
+  },
+  "B1153": {
+   "slug": "peripheral and superposition",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "amphichiral_cp",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "L183",
+    "S1"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
   },
   "B115": {
    "slug": "higher generality",

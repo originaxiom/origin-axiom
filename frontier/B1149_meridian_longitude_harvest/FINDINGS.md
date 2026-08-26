@@ -66,3 +66,11 @@ cross-check of memo 49 (`verification/independent_check_memo49.txt`). Primary so
 (push-before-cite satisfied; certs kept on the source per the B1147/B1148 harvest pattern, runner
 `verification/reproduce.sh` provenance-headed per the L183 reproducer-hygiene rule). Cloud seat
 credited (memos 49–51). Gate 5 untouched.
+
+## CODEX WAVE-3 CORRECTION (adopted 2026-08-26 via cloud memo 54 → B1153; the banked math is unchanged)
+
+- **memo 50 (odd steps are matter):** "antiunitary β_Ψ" → "**semilinear** β_Ψ". β_Ψ is
+  Galois-semilinear — β_Ψ² = ρ_Ψ(a) is a nontrivial unipotent (never unitary for a positive-definite
+  form), and no Hermitian metric was constructed. Every exact identity (the beat-stability of each
+  filtration layer ker Nᵏ, C_Ψ commuting with both generators, the clock-depth-parity lock) is
+  unchanged; only the physical-connotation word is withdrawn.

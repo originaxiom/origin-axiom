@@ -64,3 +64,18 @@ shape, 48 uniqueness) warrant full independent own-code re-derivation as promoti
 45's parity is already cross-checked by B1146. Primary source shared-remote (push-before-cite
 satisfied). Cloud seat credited (memos 41–48); codex credited (memo-30 R003 cross-verification,
 adopted). Gate 5 untouched.
+
+## CODEX WAVE-3 CORRECTIONS (adopted 2026-08-26 via cloud memo 54 → B1153; the banked math is unchanged)
+
+Three terminology/scope refinements to this batch's *framings* — every exact identity above stands:
+- **memo 45 (the only spinor):** "antiunitary" square → **"semilinear"**. (W∘conj)² = the meridian is
+  unchanged; the square is **Galois-semilinear**, not antiunitary — no Hermitian metric was
+  constructed and none can make it antiunitary (the square is a nontrivial unipotent, never unitary).
+- **memo 46 (the carrier):** "the *minimal* carrier" → "**a** carrier" on the *banked* minimal-A1
+  bridge (codex OA-C1087). Minimality was a banked **choice** (memo 29's bridge), not a derived
+  minimum — Ψ = ℂ²⊗27 realizes both halves of memo 45's no-go, its properties are theorems, its
+  selection is not.
+- **memo 43 (the fixed point + its twin):** "**the** second fixed point" → "**a** second" (codex
+  OA-C1082). The trace map's *full* fixed locus is **3 points** — the κ-pair + (0,0,0), computed
+  exactly in **memo 54 / B1153** — and the mirror's free orbit is still exactly the κ-pair, so this
+  memo's exact claims stand.

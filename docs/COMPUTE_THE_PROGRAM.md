@@ -197,6 +197,27 @@ missing precondition — it is what keeps that assumption true during exactly th
 run) when the protocol's own outputs are being certified. A probe run correctly by every rule
 above, but landed by glob mid-suite, still produces an uncertified result.
 
+## CURRENCY READ — 2026-08-26 (B1102–B1153): the carrier/coupling/peripheral harvest + the suite gains a FAST LANE
+
+Since the last read the corpus advanced through the cloud seat's memos into the carrier/coupling
+layer, plus one method arc that touches *this* protocol directly:
+- **The internal→spacetime carrier (B1148–B1150, B1153):** Ψ = ℂ²⊗27, the coupling unique with **no
+  shape assumption**; the carrier's cusp structure **IS** the matter grading (meridian = clock,
+  longitude = lock, the 24-sector 4×-overdetermined); the Yukawa reads the clock; the E8 three-family
+  Yukawa is inter-family; and tr(ab⁻¹)=gal(κ) is the **Riley relation** in disguise (the full fixed
+  locus is 3 points). Every cell reproduce-verified, several with an independent cross-check — the
+  "compute over full relations" quantifier stated per cell.
+- **C4 / the spectral lane (B1151 → B1153):** the large-T GUE test's honest **negative** *and* its
+  **positive** closure — ζ_K's nearest-neighbour spacings are the exact 2-fold superposition of
+  ζ·L(χ₋₃); generic, no crossing, Gate 5 untouched.
+- **B1152 — the certification envelope gains a FAST LANE.** §6's certificate of record is expensive to
+  reach (collection alone >120 s), which cc3's B8139 named the **"cost" failure class**: a lock never
+  *run* catches nothing (it let 16 arcs of drift through in cc3's band). The remedy, now standing:
+  **`scripts/run_suite.sh --changed`** runs only the tests a diff affects (via `scripts/affected_tests.py`
+  — conservative: any change it cannot bound falls back to the full suite, **never a false green**), and
+  **`--fast`** skips `@pytest.mark.slow`. **The full suite stays the certificate of record**; the fast
+  lane is the inner loop. See E50 (the cost class) / L184 (the root collection lazy-fy).
+
 ## CURRENCY READ — 2026-08-20 (B1077–B1101): the closing campaign's first phase
 
 What "compute the entire program" produced since the crossing week closed, read in this
