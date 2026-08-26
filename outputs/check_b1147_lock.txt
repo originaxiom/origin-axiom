@@ -1,0 +1,7 @@
+source_commit = 9d6979db424c0b878c62541a3f21e0a2ca39f274
+test_sha256 = 5713e542905a12c0343dcb7058984b749bffe0ac56d887d07190c76c3284378a
+tree_manifest_sha256 = eb70e098d918b7dbfa350ff93a40bb1641cb251a5db4dc129e054aadaf427dd7
+required_by_test = frontier/B1147_clane_harvest/verification/reproduce.log
+present_in_clean_tree = False
+RESULT B1147 clean-checkout lock is not self-contained: required reproduce.log is absent
+SCOPE record/lock defect only; the eleven mathematical verdicts require separate reproduction
