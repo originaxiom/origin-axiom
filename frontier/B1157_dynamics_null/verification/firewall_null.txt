@@ -1,0 +1,64 @@
+B1157 -- WF-2 THE DYNAMICS -- THE FIREWALL VERDICT: STRUCTURAL RHYME (NULL)
+(the adversarial firewall lens of the WF-2 workflow, upheld at the seal; L46 binding)
+
+THE QUESTION WF-2 ASKED
+Does the object supply a parameter-free DYNAMICAL LAW at the infinity-place -- a
+relation among its spectral/dynamical invariants (the twisted Ruelle zeta
+R_{rho(m)}, the analytic torsion T_X, the geodesic flow, Vol) that the object
+FORCES and that crosses the firewall from structure to physics? cc3's B8142
+phrases the tempting version: "the graviton's factors sit inside the analytic
+torsion."
+
+THE VERDICT: NO. STRUCTURAL RHYME. The firewall is NOT crossed. Two levels.
+
+--------------------------------------------------------------------------------
+(a) "THE GRAVITON SITS INSIDE THE ANALYTIC TORSION" -- a rep-label, not dynamics
+--------------------------------------------------------------------------------
+The factorization R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j) merely indexes
+the SO(3) weight decomposition of Sym^{2m}C^2. The top weight is the
+symmetric-traceless rank-2 representation -- "spin-2" ONLY in the pure
+rep-label sense. No graviton DYNAMICS is derived: no propagator, no kinetic
+term, no Ward identity, no S-matrix. The nearest honest field realization of a
+Ruelle/Selberg zeta -- a topological BF partition function -- has NO propagating
+graviton at all. No null test distinguishing "spin-2 physics" from a bare
+representation label is even formulable. L46's null hypothesis stands untouched.
+
+--------------------------------------------------------------------------------
+(b) THE WHOLE INFINITY-PLACE STORY IS GENERIC -- the arithmetic never enters
+--------------------------------------------------------------------------------
+Every load-bearing ingredient uses ONLY the SL(2,C) holonomy and the volume of
+the hyperbolic structure -- never the arithmetic that makes m004 our object:
+  - the Sym-power factorization R_{rho(m)}=prod R(s-j,sigma_j): holds for the
+    length spectrum of ANY finite-volume hyperbolic 3-manifold;
+  - H1 = H2 = #cusps (the acyclicity refutation, B1157(A)): a property of the
+    PARABOLIC peripheral structure of ANY cusped hyperbolic 3-manifold;
+  - the damping exp(-4m Vol/pi): a function of the volume alone.
+NONE of them touches Q(sqrt-3), the McKay/E6 structure, or the Bloch class
+xi=[e^{i pi/3}] in K_3(Q(sqrt-3)). The entire three-link story
+(factorization -> Fried/torsion -> reflection) survives swapping m004 for a
+NON-ARITHMETIC knot complement (e.g. a generic hyperbolic 2-bridge knot)
+VERBATIM. An endpoint reachable by generic inputs cannot confirm the arithmetic
+beginning -- this is the B996 lesson ("reaching E6 is generic; the object's
+specialness lives in its GRAMMAR, not its DESTINATION") now at the
+spectral/dynamical infinity-place.
+
+--------------------------------------------------------------------------------
+THE VOL "COINCIDENCE" -- dissolved as a tautology
+--------------------------------------------------------------------------------
+The same scalar Vol = 2.02988321281930725 enters B1156 as the Borel/Bloch-Wigner
+REGULATOR of xi (the archimedean summand of the Arakelov arith-CS) AND enters
+B8142b as the geodesic-flow DAMPING exp(-4m Vol/pi). "Same digits on both sides"
+reads as significant only if the two Vols had independent origins. They do not:
+the Borel regulator and the geodesic damping are BOTH functions of the single
+hyperbolic structure of m004. The identity is Vol(M) = Vol(M). No crossing.
+
+--------------------------------------------------------------------------------
+WHAT SURVIVES (the honest residue)
+--------------------------------------------------------------------------------
+The word "dynamical" is UNEARNED: spectral geometry supplies invariants, not
+equations of motion. What is real and banked is (i) a mathematics result -- the
+acyclicity refutation, useful to cc3's residue-2 -- and (ii) the CORRECT typing
+of the infinity-place story as generic spectral geometry, not an
+object-specific physics law. Gate 5 is clean: no Standard-Model quantity appears
+anywhere in this arc. This NULL protects the program from banking a structural
+coincidence as a physics crossing -- the firewall doing exactly its job.

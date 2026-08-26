@@ -21,6 +21,18 @@ rescoped to "a LINEAR negative, the antilinear (mirror) route V-2′ still open"
 before banking** — so no public phrase is owed a sweep. The registry is current and the
 `retraction-sweep` gate is clean.
 
+**Currency (verified 2026-08-26, through B1157).** The B1127–B1157 window — the cloud
+carrier/coupling harvest (B1147–B1153), C4 neg→pos (B1151/B1153), the two seams (B1154/B1155),
+and the masterplan's first two workflows (B1156 SEAM-A Gate 2; B1157 the dynamics) — produced
+**two framing corrections, both self-caught in staging before banking**, so no public phrase is
+owed a sweep. (i) **B1156** withdrew B1155's "SEAM-A is *leaning MISMATCH*" — the a-priori
+MISMATCH was a finite-truncation theorem, not a codomain wall, so the lean was removed and the
+seam typed a precise FLOOR. (ii) **B1157** declined the tempting "*the object's ∞-place supplies
+a parameter-free dynamical law*" / "*the graviton sits inside the analytic torsion* (as physics)"
+reading, typing it **structural rhyme** (generic to any hyperbolic 3-manifold, never the
+arithmetic) rather than a crossing — quarantined at the seal, never banked as a live claim. Both
+are mentions here, not uses. The registry stays current and the `retraction-sweep` gate clean.
+
 | # | retracted phrase (case-insensitive) | retracted by | why it is wrong |
 |---|---|---|---|
 | 1 | `the object does not supply a VEV` | **B964** | False. An adjoint VEV's unbroken group **is** the centralizer of that element, so the measurement cascade **is** an adjoint Higgs mechanism. The object supplies the rank-preserving half; it lacks the rank-reducing **27** half. |

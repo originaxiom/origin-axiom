@@ -1,5 +1,33 @@
 # Changelog
 
+## B1157 (2026-08-26): WF-2 (the dynamics) — the ∞-place "dynamical law" is STRUCTURAL RHYME (firewall upheld); the closed-Fried antecedent for cc3's B8142b is REFUTED by computation
+
+The masterplan's WF-2 (8 agents: 3 scope/verify → gap → attempt → 2 adversarial refuters → seal; 453k
+subagent tokens) asked whether the object supplies a parameter-free **dynamical law** at the archimedean
+∞-place, harvesting cc3's fresh B8142/B8142b (the Sym-power Ruelle zeta / analytic torsion, "the graviton's
+factors sit inside the analytic torsion"). Seal = **DECIDABLE-RESULT**, banked as a **productive NEGATIVE**.
+
+**The firewall verdict: STRUCTURAL RHYME (not crossed).** Every load-bearing ingredient — the Sym-power
+factorization R_{ρ(m)}(s)=∏R(s−j,σ_j), H1=H2=#cusps, the exp(−4Vol/π) damping — is **generic to all
+finite-volume hyperbolic 3-manifolds**, using only the SL(2,ℂ) holonomy and the volume, and **never** the
+arithmetic (ℚ(√−3), E₆, ξ=[e^{iπ/3}]∈K₃(ℚ(√−3))); the whole story survives swapping m004 for a
+non-arithmetic knot verbatim (the **B996** "reaching E₆ is generic" lesson at the ∞-place). "Graviton in the
+torsion" is a **rep-label** (the top SO(3) weight of Sym²ᵐ), not dynamics (no propagator/kinetic/Ward/S-matrix;
+Ruelle zeta = topological BF has no propagating graviton). The Vol "coincidence" (B1156's regulator =
+B8142b's damping, both = 2.02988321281930725) is the tautology **Vol(M)=Vol(M)**. Gate 5 clean.
+
+**The decidable substance (own-verified, useful to cc3):** the one antecedent cc3 left open — does Fried
+apply to ρ(m)=Sym²ᵐ on the **cusped** m004? — is **REFUTED for every m**: H\*(m004; Sym²ᵐℂ²) is **never
+acyclic** ((H0,H1,H2)=(1,1,0) at m=0, (0,1,1) for m≥1). Mechanism: Sym²ᵐ of the parabolic peripheral
+holonomy is a single Jordan block → a 1-dim invariant line shared by μ,λ → H0(T²)=1, then half-lives-half-dies
++ χ_ρ=0 force H1=H2=#cusps=1. Triply corroborated (deformation dim H¹(M;Ad)=1; Menal-Ferrer–Porti even
+sym-powers ⇒ H1=#cusps, banked B581; Fox calculus). ⇒ **cc3's B8142b reflection stays conditional** — the
+closed-Fried route is refuted; the correct framework is cusped Park/Pfaff (Cappell–Miller complex-orthogonal,
+ρ(m) orthogonal-not-unitary). **Bank-grade (cc3 credited):** the Sym-power factorization, re-derived two ways
++ reproduced to |diff|≤5×10⁻¹⁸. **Relayed to cc3:** exact_check.py crashes at line 39 (sympy structural
+equality on unsimplified entries), non-fatal. Own reproducer `reproduce.sh` → REPRODUCES (the (0,1,1) table +
+exp(−4Vol/π)=0.07543170680114986). No firewall crossing; Locks `tests/test_b1157_dynamics_null.py`.
+
 ## B1156 (2026-08-26): SEAM-A Gate 2 SHARPENED by WF-1 (the masterplan's first adversarial workflow) — the a-priori MISMATCH is REFUTED; the seam is a precise FLOOR with a named archimedean door
 
 The masterplan's WF-1 (10 agents: 3 scouts → gap synthesis → 2 attempts → 3 adversarial refuters → seal;

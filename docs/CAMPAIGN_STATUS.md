@@ -1,6 +1,6 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-> **Review 49 (2026-08-26):** window B1135–B1155 reviewed (the carrier/coupling harvest, C4 neg→pos, the cost class, the two seams); the discipline held (six in-window errors all caught + corrected); **SEAM-A's Gate 2 is the one live crossing** — now **sharpened to a precise FLOOR by B1156** (WF-1): the a-priori MISMATCH refuted (a finite-truncation theorem), the full/Arakelov arith-CS carries Vol as the Borel regulator; the one open bar is the finite-phase→Vol map (Andersen–Hansen closed→cusped, NEEDS-SPECIALIST).
+> **Review 49 (2026-08-26):** window B1135–B1155 reviewed (the carrier/coupling harvest, C4 neg→pos, the cost class, the two seams); the discipline held (six in-window errors all caught + corrected); **SEAM-A's Gate 2 is the one live crossing** — now **sharpened to a precise FLOOR by B1156** (WF-1): the a-priori MISMATCH refuted (a finite-truncation theorem), the full/Arakelov arith-CS carries Vol as the Borel regulator; the one open bar is the finite-phase→Vol map (Andersen–Hansen closed→cusped, NEEDS-SPECIALIST). **B1157** (WF-2): the ∞-place "dynamical law" is **structural rhyme** (generic to hyperbolic 3-manifolds, firewall upheld); the decidable substance — H\*(m004;Sym²ᵐ) never acyclic — refutes the closed-Fried antecedent of cc3's B8142b (stays conditional; cusped Park/Pfaff is the live framework).
 
 *Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
 
@@ -17,6 +17,19 @@
 
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
+
+**LATEST (2026-08-26, B1157 — WF-2 the dynamics; STRUCTURAL RHYME + closed-Fried REFUTED)**: the
+masterplan's **WF-2** (8 agents) asked whether the object supplies a parameter-free **dynamical law** at
+the archimedean ∞-place, harvesting cc3's fresh **B8142/B8142b** (the Sym-power Ruelle zeta / analytic
+torsion). Seal **DECIDABLE-RESULT**, banked as a **productive NEGATIVE**. **Firewall = STRUCTURAL RHYME:**
+the "graviton sits in the torsion / ∞-place dynamical law" reading does **not** cross — the factorization,
+H1=#cusps, and the exp(−4Vol/π) damping are all **generic to any finite-volume hyperbolic 3-manifold**
+(holonomy + volume only, never the arithmetic); the Vol "coincidence" is Vol(M)=Vol(M) (the B996 lesson at
+the ∞-place). **Decidable math (useful to cc3):** H\*(m004;Sym²ᵐℂ²) is **never acyclic** (H1=H2=#cusps=1,
+m≥1; Sym²ᵐ of the parabolic = a single Jordan block → a shared 1-dim invariant line), so cc3's B8142b
+reflection **stays conditional** — closed-Fried refuted, the live framework is cusped Park/Pfaff. Own
+reproducer → REPRODUCES; Sym-power factorization re-verified (cc3 credited); exact_check.py line-39 crash
+relayed. Gate 5 clean; no crossing. Locks test_b1157_dynamics_null.py. **Next: WF-3 (MSSM + provenance).**
 
 **LATEST (2026-08-26, B1156 — SEAM-A Gate 2 SHARPENED; the masterplan's WF-1)**: the roadmap masterplan
 opened with **WF-1** (10 agents: 3 scouts → gap → 2 attempts → 3 adversarial refuters → seal). Seal =

@@ -11481,3 +11481,28 @@ normalization OA-C1045/C1053 record ABSENT). The ASSEMBLE attempt's v3(100)=147�
 refuted (inconsistent prefactor) — a p-adic normalization item, quarantined, not banked. Updates L182 +
 the OPEN_LEADS currency line. Codex data off-branch (provenance debt). No firewall crossing; Gate 5
 untouched. Locks `tests/test_b1156_seam_a_gate2.py` (8 tests). Next in the masterplan: WF-2 (the dynamics).
+
+## 2026-08-26 — B1157: WF-2 (the dynamics) — the ∞-place dynamical law is STRUCTURAL RHYME; the closed-Fried antecedent for cc3's B8142b is REFUTED
+
+WF-2 (the masterplan's 2nd workflow, 8 agents: 3 scope/verify → gap → attempt → 2 adversarial refuters →
+seal; 453k tokens) asked whether the object supplies a parameter-free dynamical law at the archimedean
+∞-place. Mid-run cc3 pushed **B8142/B8142b** (the Sym-power Ruelle zeta / analytic torsion; "the graviton's
+factors sit inside the analytic torsion") — the exact frontier — so WF-2 **harvested + independently
+verified** it (no duplication; cc3 credited) rather than recomputing. Seal = **DECIDABLE-RESULT**, banked as
+a **productive NEGATIVE**.
+
+Verify-don't-trust before banking: re-verified the acyclicity mechanism (Sym²ᵐ of the parabolic = single
+Jordan block → 1-dim invariant line, own sympy m=1..5), the (0,1,1)/(1,2,1) cohomology assembly, and the
+Vol/damping numerics (exp(−4Vol/π)=0.07543170680114986) — all in `verification/reproduce.sh` → REPRODUCES;
+and confirmed B581 (Menal-Ferrer–Porti even sym-powers ⇒ H1=#cusps) corroborates.
+
+**Firewall verdict = STRUCTURAL RHYME (not crossed).** Every ingredient (the Sym-power factorization,
+H1=#cusps, the exp(−4Vol/π) damping) is generic to all finite-volume hyperbolic 3-manifolds — holonomy +
+volume only, never the arithmetic; the story survives swapping m004 for a non-arithmetic knot verbatim (the
+B996 lesson at the ∞-place). "Graviton in the torsion" is a rep-label, not dynamics. Vol "coincidence" =
+Vol(M)=Vol(M). **Decidable math (useful to cc3):** H\*(m004;Sym²ᵐℂ²) is never acyclic (H1=H2=#cusps=1 for
+m≥1), so cc3's B8142b reflection stays conditional — closed-Fried refuted; the live framework is cusped
+Park/Pfaff / Cappell–Miller complex-orthogonal torsion. Relayed to cc3: the exact_check.py line-39 crash
+(non-fatal). Bank-grade (cc3 credited): the Sym-power factorization. kill_graph: the "∞-place dynamical law
+crosses the firewall" node killed. Gate 5 clean; no firewall crossing. Locks
+`tests/test_b1157_dynamics_null.py` (8 tests). Next in the masterplan: WF-3 (MSSM + provenance relays).

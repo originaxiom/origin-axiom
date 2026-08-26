@@ -3222,6 +3222,31 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1157": {
+   "slug": "dynamics null",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "B581",
+    "B996",
+    "H0",
+    "H1",
+    "H2",
+    "L182",
+    "L46"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B115": {
    "slug": "higher generality",
    "motifs": [
