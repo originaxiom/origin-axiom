@@ -45,5 +45,19 @@
 
   "fences": "No dimensionful gravity value asserted as derived; only the dimensionless Vol and its L-value avatar (static geometric invariants). Structural rhyme (B1157) carried as the null throughout, survives everywhere in the dynamics, downgraded at exactly one point (Vol=L-value) to arithmetic-class-generic (Borel), not object-unique. The bench's twice-over-reached sec-E framing is adjudicated co-located-not-identified; MATCH not forced. No firewall crossing; Gate 5 clean.",
 
-  "reproduces": "verification/reproduce.sh -> REPRODUCES (Vol three ways to 50 dps; -Vol Bloch-Wigner odd; the m015=5_2 non-arithmetic ablation control cited)"
+  "reproduces": "verification/reproduce.sh -> REPRODUCES (Vol three ways to 50 dps; -Vol Bloch-Wigner odd; the m015=5_2 non-arithmetic ablation control cited)",
+
+  "gravity_charter_reconciliation": {
+    "addendum": "ADDENDUM_gravity_charter_reconciliation.md",
+    "trigger": "cloud's Wave-3 sec-E landed on origin/outside-bench (60bcf01d) right after B1165: THE_GRAVITY_CHARTER + memo 78 GRAVITY_LOAD_BEARING (ME2). Headline read as a possible conflict (cloud 'load-bearing' vs B1165 'generic'); verify-don't-trust resolved it NO-conflict",
+    "three_roles_of_gravity": {
+      "G1_anomaly_condition": "grav^2 Y = Tr(Y) = 0 (4d mixed gauge-gravitational): OBJECT-FORCED, LOAD-BEARING for the SM hypercharge (cubic redundant in-frame) -- cloud memo 78 / E2",
+      "G2_gravitational_sector": "the object's 3d sector (Vol, geodesic spectrum, Ruelle zeta, torsion, CS=0): object-forced as Mostow-canonical invariants but arithmetic-GENERIC in structure (survives m004->5_2); arithmetic enters at one static spot Vol=L-value -- B1165",
+      "G3_frame_data": "orientation (Z/2) + scale (R+), archimedean: OBSERVER-supplied, un-self-suppliable -- B1165 + B1163 / cloud E4/E5"
+    },
+    "resolution": "no conflict -- B1165's 'generic' was always scoped to the gravitational-sector DYNAMICS (G2), never to the anomaly condition (G1); the two are disjoint statements about different physics; together = the STRUCTURE/observer split applied to gravity itself",
+    "convergence": "cloud's G-IDENT ('observer contribution = frame data = the gravitational marking; every gravitational datum that is NOT frame data is object-forced') = B1165's 'co-located, not identified', independently derived; cloud's C5 definitional admission = B1165's definitional fork = the terminal boundary, verbatim",
+    "e2_own_verified_core": "all four SM anomaly conditions hold; grav^2 Y = Tr(Y) = 0 is a genuine mixed gauge-gravitational anomaly; the abstract {L1,L2,L3} nullspace is 2-dim (so abstractly the cubic IS needed) -> confirms cloud's 'cubic redundant' is a genuine IN-FRAME (object-27-realization) phenomenon, exactly memo 78; the exact in-frame counts (36/18) are cloud's realization, cited (reproduced-in-lane byte-identical), dual-homing deferred",
+    "effect_on_b1165": "STANDS, sharpened; seal GENERIC-RHYME correct for the identification; 'generic' scoped to the dynamics (G2) not the anomaly condition (G1); no headline withdrawn, one bounded; the sec-E close is now two-seat (cc B1165 + cloud charter), converging; B1165 (91be9bb8) is a new main anchor for cloud's charter to cite"
+  }
 }

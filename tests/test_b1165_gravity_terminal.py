@@ -91,3 +91,21 @@ def test_reproduce_runner_committed_and_reproduces():
 def test_no_crossing_gate5_clean():
     d = _d()
     assert "No firewall crossing" in d["fences"] and "Gate 5 clean" in d["fences"]
+
+
+def test_gravity_charter_reconciliation_three_roles():
+    # cloud's Wave-3 sec-E (memo 78 'gravity load-bearing') integrated: it is a DIFFERENT role
+    # of gravity than B1165's 'generic' -- no conflict, convergence. Addendum committed.
+    r = _d()["gravity_charter_reconciliation"]
+    assert (ARC / r["addendum"]).exists(), "reconciliation addendum missing"
+    roles = r["three_roles_of_gravity"]
+    assert "LOAD-BEARING" in roles["G1_anomaly_condition"]
+    assert "arithmetic-GENERIC" in roles["G2_gravitational_sector"]
+    assert "OBSERVER-supplied" in roles["G3_frame_data"]
+    # the resolution: 'generic' was scoped to the dynamics (G2), never the anomaly condition (G1)
+    assert "no conflict" in r["resolution"] and "G2" in r["resolution"] and "G1" in r["resolution"]
+    # cloud's G-IDENT converges with B1165's co-located-not-identified; C5 = the terminal fork
+    assert "G-IDENT" in r["convergence"] and "co-located" in r["convergence"]
+    # E2's core own-verified; in-frame counts cited as cloud's realization
+    assert "Tr(Y) = 0" in r["e2_own_verified_core"] and "IN-FRAME" in r["e2_own_verified_core"]
+    assert "STANDS" in r["effect_on_b1165"] and "two-seat" in r["effect_on_b1165"]
