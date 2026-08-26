@@ -1,5 +1,15 @@
 # Changelog
 
+## B8141 — the artifact class: a lock that reads a gitignored file reports on the machine
+
+**Two locks depend on six `.log` files that `.gitignore` forbids the repo to carry.** `test_b1062_bridge.py` reads 5, `test_b1063_refresh.py` reads 1. They assert a property of the author's working directory, and on a clean checkout **fail rather than skip** — two are failing now.
+
+**Third class in a series:** B8139 **cost** (works, never *reached*); B8140 **two empties** (proves *0 affected*, runs everything); B8141 **artifact** (*is* reached, reports the wrong thing). The distinction matters because every remedy for *never reached* is useless here.
+
+**⚠ My own scan reported a clean bill first.** It matched only whole repo-relative paths written as one string literal, while the tests build theirs from fragments — so it **missed the very files that motivated it**, printing *0 gitignored* while two such tests were failing. It now carries a **positive control and exits non-zero if it cannot see two known-absent files**.
+
+**Two absent-but-not-gitignored relay names were excluded deliberately** — relays are untracked here on purpose. Inflating a finding with legitimate cases is how a real one stops being believed. **No remedy applied; it is a judgement for the arcs' owner.**
+
 ## B8140 — the fast lane reproduced, and two empties that are not the same empty
 
 **B1152 built the remedy B8139 explicitly scoped as *not done*. Reproduced in-sandbox, not cited.** It works: an arc change selects **47 files — including all three locks that caught B8139's drift — and runs in 59 seconds**, against a suite that cannot finish.

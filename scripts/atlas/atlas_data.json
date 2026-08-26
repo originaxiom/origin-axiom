@@ -19366,6 +19366,15 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B8141": {
+   "slug": "artifact dependence",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B814": {
    "slug": "gate d",
    "motifs": [

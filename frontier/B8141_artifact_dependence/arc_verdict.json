@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-26)",
+ "claim_one_line": "THE ARTIFACT CLASS, third after B8139's COST and B8140's TWO EMPTIES: two locks depend on SIX gitignored .log files, so they can only pass on a machine where the arc was recently run. On any clean checkout they do not SKIP -- they FAIL. test_b1062_bridge.py (5 artifacts) and test_b1063_refresh.py (1) currently fail here for exactly this reason. Permanent red trains a reader to ignore failures, which costs more than the lock is worth.",
+ "creates_law": "A LOCK THAT READS A GITIGNORED FILE REPORTS ON THE MACHINE, NOT ON THE CODE. `*.log` is gitignored, so the artifacts these tests read can NEVER be committed; the tests therefore assert a property of the author's working directory. SCOPE: distinct from the cost class -- a cost-class lock WORKS but is never REACHED; an artifact-class lock IS reached and reports the wrong thing. SCOPE: the remedy is a judgement (commit the artifact under a non-ignored name, regenerate it in the test, or skip explicitly) and belongs to whoever owns B1062/B1063 -- NOT applied here.",
+ "depends_on": [
+  "B8139",
+  "B8140"
+ ],
+ "id": "B8141",
+ "instrument": true,
+ "reproducer": "scripts/checks/artifact_dependence.py -- carries a POSITIVE CONTROL and exits non-zero if the scan cannot detect two independently-confirmed absent files",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "NEGATIVE"
+}

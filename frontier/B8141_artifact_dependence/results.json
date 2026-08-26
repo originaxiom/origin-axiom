@@ -1,0 +1,37 @@
+{
+ "distinct_from_the_cost_class": "a COST-class lock works but is never REACHED (B8139); an ARTIFACT-class lock IS reached and reports on the machine rather than the code",
+ "finding": {
+  "affected_tests": {
+   "test_b1062_bridge.py": 5,
+   "test_b1063_refresh.py": 1
+  },
+  "artifacts": [
+   "b1062_v1_v3.log",
+   "b1062_v2_block1.log",
+   "b1062_v2_block2n.log",
+   "b1062_v2_block3.log",
+   "b1062_verify_battery.log",
+   "refresh_windows.log"
+  ],
+  "class": "artifact dependence",
+  "observed_now": "2 of 5 tests in those files FAIL here with FileNotFoundError; they do not skip",
+  "the_harm": "a lock that is permanently red trains readers to ignore failures, which costs more than the lock was ever worth",
+  "why_they_can_never_be_committed": ".gitignore line 20 is `*.log`"
+ },
+ "my_instrument_failed_first": {
+  "fix": "match BASENAMES and index every file actually present",
+  "hardened": "the script now carries a POSITIVE CONTROL naming two independently-confirmed absent files and EXITS NON-ZERO if it cannot see them. A scan that cannot detect a known-missing file is not evidence of absence.",
+  "what": "the first version of the scan matched only whole repo-relative paths written as a SINGLE string literal",
+  "what_it_reported": "'0 gitignored' while two such tests were failing three metres away -- a FALSE NEGATIVE of exactly the class this seat keeps cataloguing",
+  "why_wrong": "the tests build those paths from fragments (ROOT / 'frontier' / name), so the scan MISSED the very files that motivated it"
+ },
+ "not_claimed": [
+  "that B1062/B1063's results are wrong -- only that their LOCKS cannot verify them on a clean checkout",
+  "any remedy -- commit under a non-ignored name, regenerate in-test, or skip explicitly are all judgements for the arcs' owner"
+ ],
+ "not_in_this_class": {
+  "AUDIT_B1076_ONE_NOTATION_DEFECT.md": "absent but NOT gitignored",
+  "I_WAS_WRONG_THE_REAL_DEFECT.md": "absent but NOT gitignored",
+  "why_legitimate": "this corpus keeps cross-seat relay files UNTRACKED on purpose (the ledger is the register); test_cc3_relay_index_complete.py asserts those NAMES appear in the index text, not that the files exist. Reported separately rather than folded into the finding."
+ }
+}

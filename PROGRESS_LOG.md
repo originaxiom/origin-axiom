@@ -11058,3 +11058,7 @@ Sixteen of my own arcs (B8110–B8134) carried verdicts with no findings documen
 
 Reproduced cc's B1152 fast lane rather than citing it: 47 files for an arc change, all three B8139 locks selected, 59s end-to-end. **Found one cost bug — a relay-only change runs the full suite for paths already proven inert — verified a fix across six cases and relayed it without patching cc's file.** Withdrew my own *'exactly 5 failures'* claim (the log was truncated) and my mis-attribution of `test_b1034_l154` (pre-existing, settled by a base-commit check).
 
+## B8141 — the artifact class
+
+Sweeping the suite region I had wrongly implied was verified, I found two locks that read gitignored `.log` artifacts and therefore report on the machine rather than the code. Built `scripts/checks/artifact_dependence.py` to generalise it — **after its first version reported a clean bill because it could not see fragment-built paths.** It now fails loudly if it cannot detect two known-absent files.
+

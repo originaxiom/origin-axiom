@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1042** |
-| words of findings prose | **707,279** |
+| research arcs with findings | **1043** |
+| words of findings prose | **707,719** |
 | test lock files referenced | **611** |
-| arcs carrying an authored verdict | **1029** (98.8 %) |
+| arcs carrying an authored verdict | **1030** (98.8 %) |
 | recorded closures | **763** (589 classified, 174 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 692 |
-| NEGATIVE | 293 |
+| NEGATIVE | 294 |
 | OPEN | 33 |
 | RETRACTED | 11 |
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 B1152's fast lane REPRODUCED IN-SANDBOX, NOT CITED: it selects 47 files for an arc change -- including all three locks that caught B8139's drift -- and runs them in 59 SECONDS against a suite that cannot finish. It falls back to FULL for scripts, conftest and unknown files. ONE COST BUG FOUND: a relay-only change falls back to FULL for paths the tool has ALREADY positively classified test-inert, because main() conflates 'nothing matched' with 'everything matched as inert'. Fix verified across six cases with every conservative guarantee intact; NOT patched on this branch.  
 `B8140_fastlane_adopted/FINDINGS.md`
 
-**NEGATIVE — `B8125`** (903 words, 0 locks)  
-THE n=2 ABSCISSA IS NOT A CUSP PHENOMENON -- REFUTED BY THE WEEKS MANIFOLD. The hypothesis was that B8113's n=2 residue and its cusp-continuous-spectrum residue are one object, so that B739's scattering determinant regularizes the abscissa. It is false. A log-fit produced a seductive near-miss -- intercept d = 0.102679 against vol/(2 pi^2) = 0.102835, 0.15% -- which died the moment c was pinned: d swings from 0.197 to -0.030 across c's own 20% uncertainty, so the intercept was never determined, and the candidate had been printed in the same script that produced the fit. B724's look-elsewhere rule, applied to this seat. THE DECISIVE CONTROL: on m003(-3,1), the Weeks manifold -- closed, cusp-free, is_complete=False, filling (-3,1), volume 0.9427 -- S(2) grows identically, steps +0.050, +0.087, +0.079, +0.049 with no decay. The divergence does not need a cusp. IT HAD TO FAIL: the abscissa is the critical exponent delta = 2 of the geodesic flow, an ENTROPY fact holding for every finite-covolume lattice in Isom(H^3); the cusp contributes the CONTINUOUS SPECTRUM, on the other side of the trace formula. B8113's three residues stay three. THE CLASS NAMED, and it is a one-line test for any future candidate of this shape: does it survive on a CLOSED manifold? Tests one structural hypothesis and refutes it. Uses partial sums over the length spectrum to cutoff 5.5 (m004) and 4.5 (Weeks); does not prove divergence, and does not resolve whether the n=2 factor's conditionally-convergent limit exists -- that remains open exactly as B8113 left it. Gate 5 untouched.  
-`B8125_abscissa_not_the_cusp/FINDINGS.md`
+**NEGATIVE — `B8141`** (440 words, 0 locks)  
+THE ARTIFACT CLASS, third after B8139's COST and B8140's TWO EMPTIES: two locks depend on SIX gitignored .log files, so they can only pass on a machine where the arc was recently run. On any clean checkout they do not SKIP -- they FAIL. test_b1062_bridge.py (5 artifacts) and test_b1063_refresh.py (1) currently fail here for exactly this reason. Permanent red trains a reader to ignore failures, which costs more than the lock is worth.  
+`B8141_artifact_dependence/FINDINGS.md`
 
 **RETRACTED — `B8070`** (1056 words, 0 locks)  
 THIS ARC'S OWN HEADLINE IS WITHDRAWN IN FULL: it claimed anomaly cancellation carries su(3)+su(2)+u(1)^3 (Lie rank 6) to su(3)+su(2)+u(1)_Y (Lie rank 4), escaping the GUT_REQUIREMENTS_LEDGER section D rank obstruction. Four defects, all verified on this bench. (1) The headline was never computed -- the source line prints the literal f-string {2+1+3} -> {2+1+1}; no Lie rank is calculated anywhere in the file. (2) The only quantity actually computed does not move: Killing rank is 11 with one u(1) and 11 with three, so the apparent (14,11) -> (12,11) descent is len(basis), a Python list length reading back the function's own argument. (3) The algebra was not the algebra -- the three 'u(1)' generators do not commute with su(3)+su(2) (max norm of the commutator 2.83, 12.73, 86.27) and the real span is 13, not the printed 14. (4) The controls tested adjacent quantities: C1 checked centralizer DIMENSION inside a rank-4 algebra rather than rank inside e6, and C4 tested an unrelated grid scan while the detector, which takes no charge assignment, returns (12,11) unconditionally. Independently, B971 (2026-08-08) had already closed this question NEGATIVE: on the object's own complete 27 every anomaly condition is identically zero, the solution space stays 3-dimensional, and the 3 -> 1 drop exists only over an imported chiral truncation that the object has no operation to perform. THE ONE THING THIS CELL CONTRIBUTES, kept as a scope note and NOT a retraction of B864: B864's 'hypercharge is the unique gaugeable U(1)' is uniqueness INSIDE the chosen 3-plane span(Y, chi, psi) -- the coefficient a drops out identically because A(Y) = 0 is the textbook fact, and over the full 5-dimensional charge space the cubic factors into THREE lines, -2.yL.(2yL+3yd).(4yL-3yd)/3, namely hypercharge, the u-d-swapped Minahan-Ramond-Warner solution, and the vector-like direction. B864 is correct as scoped and must not be quoted as 'anomaly cancellation selects hypercharge'. Error class: a headline printed rather than computed, wrapped in controls aimed at the claim's neighbourhood; a FALSE POSITIVE this time rather than a false negative. Gate 5 untouched.  

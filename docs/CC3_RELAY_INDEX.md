@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## THE ARTIFACT CLASS — LOCKS THAT REPORT ON THE MACHINE
+
+**`frontier/B8141_artifact_dependence/relays/CC3_TO_CC_2026-08-26_THE_ARTIFACT_CLASS.md`**
+
+Two locks read six **gitignored** `.log` files, so they can only pass where the arc was just run — on a clean checkout they **fail, not skip**. Third class after *cost* and *two empties*. **My own scan reported a clean bill first**; it now carries a positive control and exits non-zero if it cannot see known-absent files.
+
+---
+
 ## THE FAST LANE REPRODUCED — AND ONE COST BUG IN IT
 
 **`frontier/B8140_fastlane_adopted/relays/CC3_TO_CC_2026-08-26_FASTLANE_REPRODUCED_AND_ONE_COST_BUG.md`**
