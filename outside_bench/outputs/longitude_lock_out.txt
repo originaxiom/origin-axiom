@@ -1,0 +1,28 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 0: tr rho_2(lambda) = -2 + 0 q
+FACT 1: C_27 commutes with A27, B27 (and inverses): True
+FACT 2: (C_27 . rho_27(lambda) - I) != 0: True; squared = 0: True
+  => rho_27(lambda) = C_27 . (2-step unipotent): the internal longitude is
+     the internal lock times a unipotent drift
+FACT 3 pre: C_Psi commutes with rho_Psi(lambda): True
+FACT 3: (C_Psi . rho_Psi(lambda) - I)^2 != 0: True; cubed = 0: True
+FACT 4: by uniqueness of the multiplicative Jordan decomposition,
+        rho_Psi(lambda) = C_Psi . U_lambda with U_lambda 3-step unipotent:
+        THE SEMISIMPLE PART OF THE LONGITUDE ON THE CARRIER IS THE LOCK.
+FACT 5: joint cusp-fixed space dim {v : mu v = v, lambda v = v} = 12
+        with 'vanishes on unlocked sector' imposed: dim = 12
+  => the whole cusp-fixed space of the carrier lives INSIDE matter
+
+THE LONGITUDE IS THE LOCK: the boundary curve acts on the carrier as
+C_Psi . (3-step unipotent) — its semisimple part IS the lock operator whose
++1 sector is the 24 fermion-shaped slots (memo 46) and whose grading is the
+clock-parity (memo 50).  The matter/non-matter distinction is not imposed on
+the object: it is the eigenvalue grading of the boundary curve itself, with
+the meridian supplying the clock and the longitude supplying the sign.  The
+cusp's joint fixed space (dim 12) lies entirely inside matter.  Structure
+only; Gate 5 untouched.
