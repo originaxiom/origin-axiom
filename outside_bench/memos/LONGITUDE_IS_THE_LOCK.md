@@ -69,7 +69,17 @@ matter through its meridian factor alone at the fixed-vector level.
 - For the seat: memos 49–51 form a natural arc (TRACE THREE → ODD STEPS →
   LONGITUDE) and should be harvested together.
 
-### Fences
+### CORPUS CONVERGENCE (added 2026-08-26 on fetching main @ 9d6979db)
+B1146 (SEAM-B) independently computed the discriminating operator that
+separates 2T from A₄ on the object's stratum: ρ(−I) = (−1)^wt, visible on the
+27 (12 odd weights) and the 78 (40 odd dims). **That operator on the 27 is
+this lane's lock C₂₇ = (−1)^wt exactly** (memos 46/50/51 use the identical
+diagonal). The three benches now hold complementary pieces of one structure:
+B1146 shows −I is *present and visible* (2T ≠ A₄ on both matter and gauge);
+memo 50 shows it grades the meridian clock by chain parity; this memo shows
+*where it lives in the group* — it is the semisimple part of the longitude on
+the carrier. cc3's ledger adds that the same −I is B8111/B8118's control
+(exactly one involution, the centre). Flagged for cross-credit at harvest.
 "Multiplicative Jordan decomposition" uniqueness is the standard theorem,
 invoked with both hypotheses (semisimplicity and commutation) verified
 in-run; every number is asserted. The bridge-factorization reading in FACT

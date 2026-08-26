@@ -9,7 +9,18 @@ audit reconciled as B1144 (all four points accepted; both spurious errata withdr
 provenance corrected, SP-1 re-typed); memo 29 banked TWO-BENCH as B1145 with the
 codex-seat (OA-C1056) internal-A1 scope fence — ADOPTED, filed as a SCOPE ADDENDUM in
 golden_gate memo 29: the exact algebra is the theorem, "the seat closes" is the thesis
-reading, the internal->spacetime bridge is the unpaid verb. Verification culture
+reading, the internal->spacetime bridge is the unpaid verb.
+Corpus sync 2026-08-26 (verified from main @ 9d6979db): **B1147 harvested memos 30–40 —
+reproduce-verified 11/11 on the seat's bench** (10 byte-identical in the verdict region,
+1 clean run), incl. the "no mass term" theorem; **C3 returned as the preregistered HONEST
+NEGATIVE** (anchor GREEN to ~20 digits; c1/c2 fail the ≥60-digit gate at N=4000;
+NOT-RECOGNIZED at this depth; raw ladder banked for continuation — see
+COMPUTE_HANDOFF_CC.md status block); C4 still grinding. **B1146 (SEAM-B) converges with
+this lane's lock**: its discriminating ρ(−I) = (−1)^wt on the 27 IS C_27 (memos 46/50/51)
+— convergence addendum filed in memo 51; codex §9 defused on the seat's bench. cc3 flags
+`claude/outside-bench` divergent vs the codeberg mirror — owner authorization for the
+fast-forward filed as BRANCH_MIRROR_NOTE.md (this seat cannot reach codeberg). Memos
+41–53 await harvest; 49–53 flagged as one arc. Verification culture
 unchanged: every claim machine-verified by exact computation before being stated;
 two-outcome cells preregistered; controls before trust; errors filed at the point of
 occurrence; Gate 5 untouched; interpretive passages labeled.

@@ -1,6 +1,19 @@
 # COMPUTE HANDOFF → the banking seat (i9 / 64 GB) — the two hours-scale C-lane cells
 ## (outside bench, 2026-08-25. Owner-approved split: cc runs the long computations locally; the cloud seat executes the rest. Both scripts are resume-safe (checkpoint files), deterministic, and carry their preregistered gates in the docstring — run them as-is, iterate freely, bank on your side with the usual two-bench credit.)
 
+### STATUS UPDATE 2026-08-26 (from main @ 9d6979db, B1147)
+- **C3: RETURNED — HONEST NEGATIVE, exactly per the preregistered gate.** The
+  seat ran the full N = 400…4000 ladder at 120 dps (19 rungs, raw values banked
+  in B1147 `verification/c3_ladder.txt`). Sanity anchor c₀·3^{1/4} = 1 exact to
+  ~20 digits: GREEN. c₁/c₂ recognition: only ~17/13 stable digits at N=4000 —
+  fails the ≥60-digit gate; PSLQ returns spurious million-size coefficients.
+  **NOT-RECOGNIZED at this depth — banked as the preregistered negative
+  (B1147).** Continuation named: extend the ladder well past N=4000 and/or
+  raise dps; the convention-free raw ladder is banked for that restart.
+  This lane's outcome ledger: C3 CLOSED-NEGATIVE at this depth.
+- **C4 (large-T GUE): still grinding on the i9; banks separately.** Gates
+  unchanged below.
+
 ### C4 — large-T GUE for ζ_K = ζ·L(χ₋₃)  (`certificates/c4_gue_larget.py`)
 - **What:** the preregistered continuation of the banked `gue_bench.py` down payment
   ("re-run at much larger T before drawing any conclusion"). Default T = 3000
