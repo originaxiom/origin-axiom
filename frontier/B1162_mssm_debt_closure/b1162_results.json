@@ -1,0 +1,37 @@
+{
+ "id": "B1162",
+ "title": "The MSSM-debt closure (cloud D1-D5) + the height-308 witness verified on-bench: the object forces a complete SM structure, walls SUSY, withholds the values",
+ "verdict": "OPEN (a comprehensive closure/harvest: finishes WF-3 by verifying the witness on-bench + integrates cloud's 5/5 debt closure). No new crossing; confirms + sharpens the chain.",
+ "witness_finished": {
+  "context": "WF-3 (B1159) built the condition ledger but RELAYED the witness (single-homed off-branch). This arc finishes it: codex's height-308 SU(5) bundle cert re-run in SAGE on our bench.",
+  "sage_verified": "witness_sage.txt: H0(Y,V)=0 (exact global augmented-kernel dimension = 6); the Phi-induced C372->C312 rank gate = 312, surjective over Q(zeta12), H1(K1*)=0; char-0 local freeness certified; all three chart-orbit ideals = unit [1]. candidate/norm = 308, exact-six kernel labels (0,2,6,8,9,10).",
+  "honest_fences": "codex's own: minimality HEURISTIC only, stability UNPROVED -- carried.",
+  "independent_free_orbit": "the witness cert's own top line states B1161's result: 'every rational trace/norm map has Galois-stable kernel; a marked H-valued tensor could evade it' = the free-orbit no-go + the W0 escape.",
+  "provenance": "the witness is now DUAL-HOMED (codex off-branch + main-sage-verified this bench); the D1 bundle-cert provenance debt is discharged (codex R017 pays the rest)."
+ },
+ "cloud_5of5_closure": {
+  "D1_alignment_memo75": {
+   "result": "B1159's condition ledger read against the bench's banked chain: FULL alignment, ZERO contradictions; the bench's no-gos sharpen links A and C from the object side; codex R019 re-run byte-identical. The anomaly discriminant re-derived as -18(u-2)(u+4), u=Yu/Yq.",
+   "cross_check": "OWN-VERIFIED IDENTICAL to our B1160/B1161 discriminant -18(t-3)(t+3) (u=t-1); roots u=2,-4 = the SM hypercharge (reproduce.sh)."
+  },
+  "D2_hypercharge_memo70": "forced to the SM direction = B1160 (own-verified; cc3 B8143 independent corroboration queued).",
+  "D3_unique_chain_memo72": {
+   "result": "the SM breaking chain is UNIQUE: exactly 2 of 27 directions are (color-singlet, weak-singlet, Y=0) = the lepton block's two neutral states (nu^c-like + S-like, states [1,17]); standard E6 double-breaking is the ONLY SM-preserving chain (necessary-condition level). One in-run preregistration error filed (the psi-charges came out {1,-2}, not the expected {nu^c, singlet} -- the F-3 frame lesson).",
+   "provenance": "cloud cert breaking_chains.py (asserts GREEN) needs cloud's stack (check_charge_bracket) -- CITED; consistent with standard E6 GUT (the 27's two SM-singlets)."
+  },
+  "D4_one_generation_memo74": {
+   "result": "one 27 carries NO family index: the trinification Z/3 is real (of 1728 slot-cycling maps, 432 permute the 72 e6 roots, 36 satisfy T^3=1) but every orbit rotates quark-sector -> lepton-sector -> anti-sector WITHIN one generation (9 orbits of size 3, each meeting all three 9-blocks); three-ness lives only in E8's (3,27).",
+   "cross_check": "CONFIRMS B1161 generation-index NULL (own-verified: trace field x^2-x+1 degree 2, Galois Z/2 => multiplicities in {1,2}, never 3). Two independent routes to 'one generation'."
+  },
+  "D5_susy_nogo_memo71": {
+   "result": "SUSY NO-GO: the carrier admits no supercharge. (A) pi1-equivariant odd Q with Q^2=meridian: NONE (locked/unlocked sectors have disjoint holonomy content, 6*spin1 + 6*spin0 vs 15*spin(1/2); Schur+closure => odd commutant dim 0). (B) gauge-equivariant Q: NONE (the 27's weights multiplicity-free + weight graph connected => commutant scalars => e6-commutant on Psi is {M(x)I}; (M(x)I)^2 != A2(x)A27). (C) the beat: NOT a supercharge (beta^2=meridian but beta is even + Galois-semilinear, OA-C1090). Contradicts no observation (superpartners unobserved).",
+   "provenance": "cloud cert susy_test.py (asserts GREEN) needs cloud's stack -- CITED; consistent with the carrier structure B1147-B1150."
+  },
+  "memo73_residual": "the C4 per-factor GUE deviation survives theta-exact unfolding (exact Riemann-Siegel theta / Gamma-factor phase: D_zeta=0.0416 p=3.8e-4, D_L=0.0502 p=5.5e-7, identical to baseline) AND local-empirical sliding-window unfolding (D_zeta=0.0406, D_L=0.0513) -- NOT surmise error (memo 68), NOT unfolding error, but intrinsic FINITE-HEIGHT statistics at T=3000 (the known O(1/log T) correction class). Confirms B1158's scoping (unfolding was the sole suspect; now exhausted => generic finite-height)."
+ },
+ "synthesis": "With the debt executed 5/5, the object FORCES a complete SM STRUCTURE (the E6 spine; the carrier/lock/clock; the unique maximal Yukawa; hypercharge CONTENT, dual-homed; the UNIQUE SM-preserving breaking chain; exactly ONE generation) and WALLS the dynamics/values (SUSY NO-GO; up-Yukawa=0 SEAM-Y; the values provably free; the heterotic framework imported OA-C1002 + the missing archimedean W0). The program's one verdict -- structure forced, dynamics and values withheld -- now instantiated across the whole visible sector, not a single crossing.",
+ "bank_grade_vs_cited": "BANK-GRADE own-verified this bench: the witness cohomology (sage: H0(Y,V)=0, rank gate 312, local freeness); the D1 alignment discriminant (= B1160/B1161); D4 (= B1161 generation-NULL); D2 (= B1160). CITED (cloud stack single-homed, provenance debt, corroborated by memo 75's zero-contradictions alignment): D3 (2-door breaking chain), D5 (SUSY no-go).",
+ "fences": "No firewall crossing -- the object forces STRUCTURE (reps/charges/breaking-chain/generation-count/anomaly-derived ratios per B950), never a measured VALUE; SUSY is a NEGATIVE, values withheld, heterotic/W0 open. Gate 5 clean. Witness minimality/stability are codex's open fences (heuristic/unproved), carried. Cloud/codex stacks single-homed where noted.",
+ "gate5": "clean -- no Standard-Model quantity asserted as derived; the visible sector's structure (reps, charges, breaking chain, one generation) is group theory / anomaly arithmetic, the values stay withheld.",
+ "routes": "B1159 debt-map: the debts EXECUTED 5/5 (the ledger closes; residual observer bits = link A heterotic/W0 + the values). W0 (live): the one remaining structural obstruction, the construction workflow running. D5 SUSY no-go: a new NEGATIVE. cc3 B8143: independent corroboration of D2, queued."
+}

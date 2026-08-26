@@ -1,0 +1,23 @@
+(D1 alignment) cloud memo 75's discriminant = our B1160/B1161 discriminant
+  cloud -18(u-2)(u+4)      = -18*u**2 - 36*u + 144
+  ours  -18(t-3)(t+3)|t=u+1= -18*u**2 - 36*u + 144
+  => IDENTICAL. cloud's D1 alignment audit confirms B1159/B1160/B1161. roots u=2,-4 = SM (Yu=-4 or +2).
+
+(witness) SAGE-verified on-bench (witness_sage.txt):
+    DATA candidate key = 308
+    DATA norm = 308
+    DATA exact-six kernel labels = (0, 2, 6, 8, 9, 10)
+    RESULT exact global augmented-kernel dimension = 6; H0(V)=0
+    RESULT Phi-induced C372->C312 quotient rank mod 1009 = 312
+    RESULT C372->C312 is surjective over Q(zeta_12); H1(K1*)=0
+    CHECK chart orbit unit ideal: True
+    CHECK chart orbit unit ideal: True
+    CHECK chart orbit unit ideal: True
+    RESULT characteristic-zero local freeness: certified via good-fiber properness argument
+    RESULT minimality: heuristic only; stability: unproved
+
+(D4 one generation) confirms B1161 generation-index NULL: trace field x^2-x+1
+   disc = -3 degree 2 => multiplicities in {1,2}, never 3; one 27 = ONE generation.
+   (cloud D4: the trinification Z/3 rotates quark->lepton->antiquark WITHIN a generation; the 3 lives in E8's (3,27).)
+
+REPRODUCES

@@ -11581,3 +11581,20 @@ generation-index NULL (degree-2 Galois ℤ/2 → never 3; object = ONE generatio
 computable frontier is **exhausted** (2 proved irreducibilities + 2 walls + 1 specialist bar + 1
 buildable-unbuilt artifact). Gate 5 clean. Feeds the review. Locks `tests/test_b1161_frontier_sweep.py`
 (9 tests). cc3 pushed B8143 mid-run (independent corroboration of B1160 + a shaping-fence witness) — queued.
+
+## 2026-08-26 — B1162: the MSSM-debt closure (cloud D1–D5) + the height-308 witness verified on-bench
+
+Owner: "didn't you finish WF-3's MSSM witness?" — correct, I'd relayed it. Finished here. **The witness
+verified on our bench** (Sage; sage IS available at ~/.local/bin/sage): codex's height-308 cert re-run —
+H0(Y,V)=0 (augmented-kernel dim 6), the C372→C312 rank gate = 312 surjective (H1=0), char-0 local freeness
+certified (`witness_sage.txt`); minimality/stability fences carried; now **dual-homed**, not single-homed.
+Then **cloud's 5/5 MSSM-debt closure** (memos 71–75) integrated + cross-checked: D1 (alignment — B1159 aligns
+zero-contradictions; discriminant −18(u−2)(u+4) own-verified = our −18(t−3)(t+3)), D2 (hypercharge = B1160),
+D3 (unique SM breaking chain — 2 of 27 SM-safe, cited), D4 (one generation — confirms B1161), D5 (**SUSY
+NO-GO** — no supercharge, cited), + memo 73 (the C4 residual = finite-height statistics, confirms B1158).
+**Synthesis:** the object forces a complete SM STRUCTURE (spine, carrier, unique Yukawa, hypercharge, unique
+breaking chain, one generation) and WALLS the dynamics/values (SUSY no-go, up-Yukawa=0, values free,
+heterotic imported + the missing W₀) — structure forced, dynamics+values withheld, now across the whole
+visible sector. Bank-grade: the witness (sage), D1, D4=B1161, D2=B1160. Cited (cloud stack): D3, D5. Gate 5
+clean; no crossing. W₀ construction workflow still running. Locks `tests/test_b1162_mssm_debt_closure.py`
+(8 tests).

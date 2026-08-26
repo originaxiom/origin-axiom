@@ -3351,6 +3351,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1162": {
+   "slug": "mssm debt closure",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B950",
+    "H0",
+    "H1",
+    "K1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [

@@ -18,6 +18,17 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-26, B1162 — the MSSM-debt closure + the height-308 witness verified on-bench)**: finishes
+WF-3 (the witness was single-homed; B1159 relayed it) — codex's height-308 SU(5) bundle cert **re-run in
+Sage on our bench**: H0(Y,V)=0, the C372→C312 rank gate surjective, char-0 local freeness certified — the
+witness is now **dual-homed**. Plus cloud's **5/5 MSSM-debt closure** (memos 71–75), cross-checked: D1
+alignment (B1159 aligns, zero contradictions; discriminant own-verified = ours), D2 hypercharge (=B1160), D3
+the SM breaking chain **unique** (2 of 27 SM-safe), D4 **one generation** (confirms B1161), D5 **SUSY NO-GO**
+(no supercharge). **Synthesis:** the object **forces a complete SM structure** (spine, carrier, unique
+Yukawa, hypercharge, unique breaking chain, one generation) and **walls the dynamics/values** (SUSY no-go,
+up-Yukawa=0, values free, heterotic imported + the missing W₀) — structure forced, dynamics & values
+withheld, now across the whole visible sector. Gate 5 clean. Locks test_b1162_mssm_debt_closure.py.
+
 **LATEST (2026-08-26, B1161 — the frontier sweep (compute-all-we-can); the bypass door IS SEAM-A)**: owner's
 "compute all we can, then review," executed as a 6-cell sweep. **Headline unification:** the crown (force
 C's P1/P2 to derive the MSSM spectrum *without* the walled heterotic axiom) is **NOT-FORCED, proved

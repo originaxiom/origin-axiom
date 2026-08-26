@@ -1,5 +1,30 @@
 # Changelog
 
+## B1162 (2026-08-26): the MSSM-debt closure (cloud D1–D5) + the height-308 witness verified on-bench — structure forced, dynamics & values withheld
+
+Finishes WF-3's second half (B1159 built the ledger but *relayed* the single-homed witness) and integrates
+cloud's five-debt closure (memos 71–75). **The witness, verified on our bench:** codex's height-308 SU(5)
+bundle cert re-run in **Sage** — **H0(Y,V)=0** (augmented-kernel dim 6), the **C372→C312 rank gate = 312
+surjective** (H1=0), **char-0 local freeness certified**, chart ideals unit (`witness_sage.txt`); honest
+fences intact (minimality heuristic, stability unproved). The witness is now **dual-homed**, no longer
+single-homed. Its own top line independently states B1161's free-orbit no-go + the W₀ escape.
+
+**Cloud's 5/5 closure, cross-checked:** **D1** (memo 75) — B1159's ledger aligns with the bench, **zero
+contradictions**; the anomaly discriminant −18(u−2)(u+4) **own-verified identical** to our B1160/B1161.
+**D2** (memo 70) hypercharge forced = B1160. **D3** (memo 72) the SM breaking chain is **unique** — exactly
+2 of 27 are (color-singlet, weak-singlet, Y=0), the standard E₆ double-breaking the only SM-preserving chain.
+**D4** (memo 74) **one 27 = one generation** (the ℤ/3 rotates within; three-ness lives in E₈'s (3,27)) —
+**confirms B1161** generation-NULL. **D5** (memo 71) **SUSY NO-GO** — the carrier admits no supercharge
+(three definitions, three exact negatives); contradicts no observation. Plus memo 73 closes the C4 residual
+(intrinsic finite-height statistics, survives exact unfolding — confirms B1158).
+
+**Synthesis:** the object **forces a complete SM *structure*** (E₆ spine, carrier/lock/clock, unique Yukawa,
+hypercharge, unique breaking chain, one generation) and **walls the dynamics/values** (SUSY no-go, up-Yukawa
+zero, values provably free, heterotic imported + the missing W₀). The program's one verdict — *structure
+forced, dynamics & values withheld* — now across the whole visible sector. Bank-grade own-verified: the
+witness cohomology (Sage), the D1 discriminant, D4=B1161, D2=B1160. Cited (cloud stack, corroborated): D3,
+D5. No firewall crossing; Gate 5 clean. Cloud + codex credited. Locks `tests/test_b1162_mssm_debt_closure.py`.
+
 ## B1161 (2026-08-26): the frontier sweep (compute-all-we-can) — the computable frontier mapped and exhausted; the bypass door IS SEAM-A
 
 The owner's "compute all we can, then review," executed as a 6-cell frontier sweep (WF, 7 agents), each cell
