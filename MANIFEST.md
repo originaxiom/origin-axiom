@@ -15,6 +15,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R009 | `certificates/r009_c4_superposition/superposition_stdlib.py` | B1153's relative D improvement reproduces dependency-free; it supports an empirical Wigner-surmise renewal model, not exact GUE independence | VERIFIED / RELAYED |
 | R010 | `certificates/r010_gl_class_m12.py` | Paper I's m=12 discrepancy is 3 proper classes versus 2 full GL classes; the m=6 threshold survives | VERIFIED / RELAYED |
 | R011 | `certificates/r011_ruelle_scope.py` | Paper III's exact dictionary is an M-character identity for k>=3; n=2, no-finite-torsion and full-cusped-gravity upgrades do not follow | VERIFIED / RELAYED |
+| R012 | `certificates/r012_dark_ledger_scope.py` | fixed D5/bridge frames give the exact 40+5 cubic support and distinct parities; U(1)_psi naming and physical dark-sector fences restored | VERIFIED / RELAYED |
 
 Every new cell must add its memo, self-contained certificate, captured output, and relay before it
 is cited outside this branch.
