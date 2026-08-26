@@ -4,16 +4,17 @@ This directory is the shared, living source for the Codex seat's hostile closure
 `inventory/backbone.json`; never hand-edit the generated
 `../PROGRAM_QUESTION_ANSWER_MAP.md`.
 
-Current source locks:
+Wave-4 source locks:
 
 ```text
-origin/main                  9d6979db424c0b878c62541a3f21e0a2ca39f274
-origin outside-bench ref    0fcdb66cd57edeb13c8703b7f05717fcc2609893
+origin/main                  68383e80718e732e7cf5b9e57077a19dff753ad6
+origin outside-bench ref    59680460721a0b9e4f672ad6e997724c226ceb56
+origin paper branch         61a243c65f1a84c700e3c3d9755b11c30a5f0699
 golden_gate handoff         15b3366937af19e643a54d564883253f013fc651
 ```
 
-Current canonical state: 108 rows; 37 `PROVED`, 36 `REFUTED`, 13 `CONDITIONAL`, 16
-`EXTERNAL_BLOCKER`, 1 `EMPIRICAL`, and 5 `OPEN`.
+Wave-4 canonical state: 120 rows; 45 `PROVED`, 40 `REFUTED`, 13 `CONDITIONAL`, 16
+`EXTERNAL_BLOCKER`, 2 `EMPIRICAL`, and 4 `OPEN`.
 
 ## Update loop
 
@@ -38,4 +39,4 @@ PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
 
 `OPEN` is an honest nonterminal state.  `CONDITIONAL` and `EXTERNAL_BLOCKER` account for an
 obligation but do not count as parameter-free physical closure.  The latest hostile audit and
-five-item live queue are in `evidence/PROGRESS_BANK_2026-08-26_WAVE3.md`.
+four-item live queue are in `evidence/PROGRESS_BANK_2026-08-26_WAVE4.md`.

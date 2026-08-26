@@ -7,7 +7,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R001 | `documents/codex-seat-r001.md` | independent closure audit and heterotic-route state | RELAYED |
 | R002 | `documents/codex-seat-r002-masterplan.md` | delta-driven closure-campaign protocol | RELAYED |
 | R003 | `documents/codex-seat-r003/verify_cp1_all_odd.py` | all 11 accepted odd rows pass the selected-beat identities; beat selects none | RELAYED |
-| R004 | `documents/program-question-map/validate.py` | canonical 108-question living ledger, generated Markdown, five explicit live computations | ACTIVE / RELAYED |
+| R004 | `documents/program-question-map/validate.py` | Wave-3 108-question map checkpoint | SUPERSEDED BY R015 / RELAYED |
 | R005 | `certificates/check_b1147_lock.py` | clean `main@9d6979db` omits the `reproduce.log` required by its B1147 lock | VERIFIED-NEGATIVE |
 | R006 | `certificates/r006_e6_invariants/{jordan_beat,tensor_invariant_counts}.py` | exact E6/27 symmetric and ordered invariant multiplicities; fixed-linearization cubic covariance | VERIFIED |
 | R007 | `certificates/oa_c1070_omega1_parity.py` | even labels imply even omega-one grade for integral E6 characteristics; census completeness stays separate | VERIFIED |
@@ -18,6 +18,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R012 | `certificates/r012_dark_ledger_scope.py` | fixed D5/bridge frames give the exact 40+5 cubic support and distinct parities; U(1)_psi naming and physical dark-sector fences restored | VERIFIED / RELAYED |
 | R013 | `certificates/r013_rung_transfer.py` | torality plus the single explicit E6 A2 Weyl orbit transfers the charged C to the exact 109-flat/11-value Qbar arrangement | VERIFIED / RELAYED |
 | R014 | `certificates/r014_paper4_counterexamples.py` | normalized volume refutes the literal scale theorem; exact s955 gluing refutes the exhaustive 14-member family | VERIFIED / RELAYED |
+| R015 | `documents/program-question-map/validate.py` | Wave-4 canonical 120-question map; four explicit live computations; latest main/outside/paper refs reconciled | ACTIVE / RELAYED |
 
 Every new cell must add its memo, self-contained certificate, captured output, and relay before it
 is cited outside this branch.

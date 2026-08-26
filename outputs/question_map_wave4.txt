@@ -1,0 +1,5 @@
+CURRENT documents/PROGRAM_QUESTION_ANSWER_MAP.md
+question_map_rows=120
+question_map_statuses={"CONDITIONAL": 13, "EMPIRICAL": 2, "EXTERNAL_BLOCKER": 16, "OPEN": 4, "OUT_OF_SCOPE": 0, "PROVED": 45, "REFUTED": 40}
+question_map_open=["OA-C1067", "OA-C1069", "OA-C1074", "OA-C1103"]
+QUESTION MAP INTEGRITY: PASS
