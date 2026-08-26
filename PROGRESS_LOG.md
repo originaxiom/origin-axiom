@@ -11054,3 +11054,7 @@ Drafted Paper IV (5pp), the negatives paper the plan puts last on purpose. Wrote
 
 Sixteen of my own arcs (B8110–B8134) carried verdicts with no findings document for five days, undetected because the lock lives in a suite too slow to finish. Wrote 20 findings documents (16 reconstructed and **marked non-contemporaneous rather than backdated**), normalised two verdicts into the live vocabulary with originals preserved, routed 7 negative arcs, and regenerated the atlas my own fix had staled. **Corrected my earlier report to the owner:** I had said the gate failures were pre-existing and not mine — true of the gates, but the suite had five failures and **two of them were mine.**
 
+## B8140 — the fast lane reproduced, one cost bug, two corrections
+
+Reproduced cc's B1152 fast lane rather than citing it: 47 files for an arc change, all three B8139 locks selected, 59s end-to-end. **Found one cost bug — a relay-only change runs the full suite for paths already proven inert — verified a fix across six cases and relayed it without patching cc's file.** Withdrew my own *'exactly 5 failures'* claim (the log was truncated) and my mis-attribution of `test_b1034_l154` (pre-existing, settled by a base-commit check).
+

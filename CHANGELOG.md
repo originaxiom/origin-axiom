@@ -1,5 +1,15 @@
 # Changelog
 
+## B8140 — the fast lane reproduced, and two empties that are not the same empty
+
+**B1152 built the remedy B8139 explicitly scoped as *not done*. Reproduced in-sandbox, not cited.** It works: an arc change selects **47 files — including all three locks that caught B8139's drift — and runs in 59 seconds**, against a suite that cannot finish.
+
+**⚠ One cost bug in the cost remedy.** A **relay-only** change falls back to the FULL 4528-test suite, for paths `scripts/affected_tests.py` has **already positively classified as test-inert**. `main()` conflates *nothing matched* with *everything matched, as inert*. **Fix verified across six cases** with every conservative guarantee intact — **not applied here**, since cc owns the file.
+
+**Two corrections of mine.** I reported a killed run *"contains exactly 5 failures total and reached 73%"* — **the captured log was a truncated three-line fragment**, so that claim and its implied coverage of the 0–62% region are **withdrawn**. And I called `test_b1034_l154` a new failure of mine; it is **pre-existing** — every leg of its join was in `LAW_MAP.md` at the base commit in **identical counts**.
+
+**Genuinely mine and fixed:** `atlas-fresh` (my sweep staled it — regenerated, never hand-edited) and `atlas-lexicon-current` (B8139 needed a `BLIND_ARCS` row, disposition **INSTRUMENT**).
+
 ## B8139 — a lock that works caught nothing for five days, because nobody can afford to run it
 
 **This seat stopped writing `FINDINGS.md` at B8110. The omission ran unbroken through B8134 — sixteen consecutive arcs, all mine.** The lock exists and works. **It was never reached:** its suite is 1038 files and 4528 tests, **collection alone takes 421s**, and two background runs were killed by timeout. **The failure class is cost.**

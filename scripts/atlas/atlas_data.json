@@ -19357,6 +19357,15 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B8140": {
+   "slug": "fastlane adopted",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B814": {
    "slug": "gate d",
    "motifs": [

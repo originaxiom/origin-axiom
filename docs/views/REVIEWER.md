@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1041** |
-| words of findings prose | **706,974** |
+| research arcs with findings | **1042** |
+| words of findings prose | **707,279** |
 | test lock files referenced | **611** |
-| arcs carrying an authored verdict | **1028** (98.8 %) |
+| arcs carrying an authored verdict | **1029** (98.8 %) |
 | recorded closures | **763** (589 classified, 174 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 691 |
+| PROVED | 692 |
 | NEGATIVE | 293 |
 | OPEN | 33 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B8139`** (658 words, 0 locks)  
-THIS SEAT STOPPED WRITING FINDINGS.md AT B8110 AND THE OMISSION RAN UNBROKEN THROUGH B8134 -- SIXTEEN ARCS -- UNDETECTED FOR FIVE DAYS. The lock that catches it exists and works; it sits in a suite whose COLLECTION ALONE takes 7 minutes over 1038 files and 4528 tests, so it never finished inside a session and its verdict was never read. A lock nobody can afford to run is not a lock. Swept: 16 FINDINGS.md reconstructed and marked non-contemporaneous, 2 verdicts normalised into the sealed vocabulary, 7 NEGATIVE arcs routed to the kill graph, atlas regenerated.  
-`B8139_findings_omission_swept/FINDINGS.md`
+**PROVED — `B8140`** (305 words, 0 locks)  
+B1152's fast lane REPRODUCED IN-SANDBOX, NOT CITED: it selects 47 files for an arc change -- including all three locks that caught B8139's drift -- and runs them in 59 SECONDS against a suite that cannot finish. It falls back to FULL for scripts, conftest and unknown files. ONE COST BUG FOUND: a relay-only change falls back to FULL for paths the tool has ALREADY positively classified test-inert, because main() conflates 'nothing matched' with 'everything matched as inert'. Fix verified across six cases with every conservative guarantee intact; NOT patched on this branch.  
+`B8140_fastlane_adopted/FINDINGS.md`
 
 **NEGATIVE — `B8125`** (903 words, 0 locks)  
 THE n=2 ABSCISSA IS NOT A CUSP PHENOMENON -- REFUTED BY THE WEEKS MANIFOLD. The hypothesis was that B8113's n=2 residue and its cusp-continuous-spectrum residue are one object, so that B739's scattering determinant regularizes the abscissa. It is false. A log-fit produced a seductive near-miss -- intercept d = 0.102679 against vol/(2 pi^2) = 0.102835, 0.15% -- which died the moment c was pinned: d swings from 0.197 to -0.030 across c's own 20% uncertainty, so the intercept was never determined, and the candidate had been printed in the same script that produced the fit. B724's look-elsewhere rule, applied to this seat. THE DECISIVE CONTROL: on m003(-3,1), the Weeks manifold -- closed, cusp-free, is_complete=False, filling (-3,1), volume 0.9427 -- S(2) grows identically, steps +0.050, +0.087, +0.079, +0.049 with no decay. The divergence does not need a cusp. IT HAD TO FAIL: the abscissa is the critical exponent delta = 2 of the geodesic flow, an ENTROPY fact holding for every finite-covolume lattice in Isom(H^3); the cusp contributes the CONTINUOUS SPECTRUM, on the other side of the trace formula. B8113's three residues stay three. THE CLASS NAMED, and it is a one-line test for any future candidate of this shape: does it survive on a CLOSED manifold? Tests one structural hypothesis and refutes it. Uses partial sums over the length spectrum to cutoff 5.5 (m004) and 4.5 (Weeks); does not prove divergence, and does not resolve whether the n=2 factor's conditionally-convergent limit exists -- that remains open exactly as B8113 left it. Gate 5 untouched.  

@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-26)",
+ "claim_one_line": "B1152's fast lane REPRODUCED IN-SANDBOX, NOT CITED: it selects 47 files for an arc change -- including all three locks that caught B8139's drift -- and runs them in 59 SECONDS against a suite that cannot finish. It falls back to FULL for scripts, conftest and unknown files. ONE COST BUG FOUND: a relay-only change falls back to FULL for paths the tool has ALREADY positively classified test-inert, because main() conflates 'nothing matched' with 'everything matched as inert'. Fix verified across six cases with every conservative guarantee intact; NOT patched on this branch.",
+ "creates_law": "TWO EMPTIES ARE NOT THE SAME EMPTY. A changed-file test selector must distinguish 'no path matched any rule' (full suite is correct) from 'every path was POSITIVELY classified as affecting no test' (zero tests is correct). Collapsing them is safe but defeats the tool on its most frequent input. SCOPE: verified on scripts/affected_tests.py as of origin/main 443b5c55; the fix is proposed to cc and NOT applied here, since cc owns the file and is the merge gate.",
+ "depends_on": [
+  "B8139"
+ ],
+ "id": "B8140",
+ "instrument": true,
+ "reproducer": "scripts/affected_tests.py adopted from origin/main and reproduced in-sandbox across six selection cases + an end-to-end timed run",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

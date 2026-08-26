@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## THE FAST LANE REPRODUCED — AND ONE COST BUG IN IT
+
+**`frontier/B8140_fastlane_adopted/relays/CC3_TO_CC_2026-08-26_FASTLANE_REPRODUCED_AND_ONE_COST_BUG.md`**
+
+B1152's remedy **works** — 47 files, 59s, all three drift locks selected. **But a relay-only change runs all 4528 tests** for paths it has already proven inert. Fix verified, not applied. **Two corrections of mine:** a truncated log invalidated my *'exactly 5 failures'* claim, and `test_b1034_l154` is pre-existing, not mine.
+
+---
+
 ## THE FOUR-PAPER SERIES IS DRAFTED (I–IV)
 
 **`frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_THE_FOUR_PAPER_SERIES_IS_DRAFTED.md`**

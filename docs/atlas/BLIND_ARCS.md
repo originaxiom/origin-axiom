@@ -53,6 +53,7 @@ auditable in a way a passing threshold never was.
 | `B8107` | INSTRUMENT | R48 verification: checking that two review fixes actually landed, and finding the fix reproduced the pattern it fixed. Subject is the repository's **gates, protocol checklist and registry** — no object mathematics. **An object atlas is correct to miss it.** |
 | `B8108` | INSTRUMENT | R48 phase 3: triaging the corpus's own synthesis surfaces by supersession banner. Subject is **document hygiene and the reviewer's own instrument**, with no object mathematics. **An object atlas is correct to miss it.** |
 | `B8109` | INSTRUMENT | R48's closing report: which review instruments worked, which did not, and the positive-control principle for document scans. **Pure methodology**, no object mathematics — an object atlas is correct to miss it. |
+| `B8139` | INSTRUMENT | The **cost failure class**: a working lock (`FINDINGS.md` write-safety) caught nothing for five days because the suite it lives in is unaffordable — 1038 files, 4528 tests, **421s of collection alone**. About **our own suite's economics**, not an object topic; it introduces no object term and should not acquire one. |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 
