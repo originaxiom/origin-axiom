@@ -38,3 +38,21 @@ of the banked Riley holonomy, all traces EXACT in the pair-field:
 ### Certificates
 `certificates/geodesic_tongue.py`; output `outputs/geodesic_tongue_out.txt`
 (in-lane rerun byte-identical).
+
+### ADDENDUM (2026-08-26, B1163/B1164 landed) — the (Vol, CS) side banked by cc; ME3 closed by absorption
+B1163 banked own-verified exactly what wave-3 ME3 was scoped to relay:
+CS(m004) = 0 exactly (amphichirality; Re V(u₀) = 0), the Bloch–Wigner
+dilogarithm odd under conjugation (Vol two-valued {+Vol, −Vol}), and the
+theorem that the missing datum W₀ is un-self-suppliable (mirror-fixedness
+of any object-canonical datum). B1164's ME3 then proved the downstream
+answer: a phase-trivial marking does NOT break the V₄ orbit — the CS
+phase is finite-place torsion (μ₆), the orientation is the archimedean
+sign, and fixing the phase leaves the ℤ/2 free. **The phase route to W₀
+is closed; the W₀ search re-scopes to modulus-only (orientation ℤ/2 +
+scale).** This memo's spectrum-side statement is the same structure seen
+geodesic-by-geodesic — lengths (moduli) mirror-even, torsions (phases)
+mirror-odd — and this lane's planned ME3 memo is hereby CLOSED BY
+ABSORPTION: its in-stack half is banked here and in memo 79
+(gal = conjugation, gal(q) = q⁻¹), its CS half is banked on main
+(B1163), its downstream question is answered (B1164). No duplicate memo
+will be written.

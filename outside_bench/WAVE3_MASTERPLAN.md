@@ -197,3 +197,35 @@ constrained, not settled, by MA1/MA2); force any scale (MD1 pins the
 line instead); remove the specialist limit (§C/MC2 names it standing);
 storm SEAM-A; touch cc's bundle cohomology or their W₀ construction
 routes (we feed them ME3 and wait).
+
+---
+
+## WAVE-3 SCOREBOARD (2026-08-26, post-B1163/B1164 fetch)
+
+- **Bench five: BANKED** — ME2 (memo 78, gravity load-bearing, cubic
+  redundant), MA1 (79, two bits differing in kind), MB1 (80, the texture;
+  up-shape exists), ME1 (81, the geodesic tongue), MB2 (82, family rank).
+- **cc's three: BANKED (B1164)** — MA2 (observer freedom = 2 discrete +
+  1 continuous, later sharpened ADELIC by the cc3-B8144 addendum: gravity
+  = the archimedean half, the VEV = a finite/gauge half — which is
+  precisely the half this lane priced in memos 72/76/77), MD1 (the
+  firewall pinned, principled, zero exceptions — §D SETTLED), ME3 (the
+  phase-trivial marking does not break the V₄ orbit — the phase route to
+  W₀ CLOSED).
+- **The W₀ attempt: BANKED (B1163)** — not constructed, and the failure
+  is the theorem: W₀ = an object-canonical orientation; the object is
+  amphichiral and provably cannot supply it (mirror-fixedness); family-
+  wide across the 14 ℚ(√−3) census manifolds. §A and §B both validated
+  with bench evidence (ratios forced / scale withheld; the refusal is
+  the observer-coupling thesis's prediction). What remains is the
+  DEFINITIONAL admission (Mostow structure: object-data or observer-
+  data) — the owner's call, not a computation.
+- **This lane's ME3: CLOSED BY ABSORPTION** (see memo 81's addendum) —
+  no duplicate memo; the beat-conjugation half is banked (79/81), CS = 0
+  is banked on main (B1163), the downstream is answered (B1164).
+- **Cross-seat reconciliation filed** (memo 79 addendum): cc's D1
+  "chirality ≡ orientation" (construction level) and the bench's
+  TWO-BITS (carrier level) compose, not conflict: the observer's one
+  choice sets both; the object charges only for the orientation half.
+- **Outstanding: MC1 only** (the independent reimplementation, with
+  codex — no new codex commits at this fetch).

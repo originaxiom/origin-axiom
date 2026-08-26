@@ -39,3 +39,19 @@
 ### Certificates
 `certificates/one_bit.py`; output `outputs/one_bit_out.txt` (in-lane rerun
 byte-identical).
+
+### ADDENDUM (2026-08-26, B1163/B1164 landed) — the two-bits result reconciled with cc's D1
+cc's MA2 (B1164) identifies chirality-insertion ≡ orientation ≡ the
++Vol/−Vol sign as ONE observer ℤ/2 ("D1"), theorem-anchored on B1163's
+amphichirality argument. NOT a contradiction with this memo's BRANCH
+TWO-BITS — the two cells measure different levels, and together they say
+something sharper: this memo measured the OBJECT's side (the carrier's
+characters), where the 27↔27̄ flip is invisible (0/484 words — costless)
+and the orientation is visible (396/484 — arithmetic); so **the object
+does not itself tie the two bits**. cc's identification lives at the
+CONSTRUCTION level — the observer's insertion — and a costless bit is
+exactly one the observer may freely couple to the orientation choice by
+convention. Joint statement: **the observer's D1 choice sets both the
+orientation and the chirality convention; the object charges for the
+orientation half and charges zero for the chirality half.** That division
+of price is this memo's contribution to cc's census; relayed.
