@@ -11456,3 +11456,28 @@ test_all_*_reproduced (committed results.json). SEAM-Y=MISMATCH, SEAM-A=INDETERM
 crossing). Provenance debt: codex's primary derivations off-branch/unversioned (R49-1, commit-to-branch).
 Carried: R49-2 (SEAM-A Gate 2, cc3's arith-CS action, NEEDS-SPECIALIST), R49-3 (L184 collection lazy-fy),
 R49-4 (L183 reproducer sweep), R49-7 (papers). anchor-commit 29b09993.
+
+## 2026-08-26 — B1156: SEAM-A Gate 2 sharpened by WF-1 (the masterplan's first workflow); the a-priori MISMATCH REFUTED; a precise FLOOR
+
+The roadmap masterplan (5-workflow campaign, task #296) opened. **WF-1 (SEAM-A Gate 2)** ran 10 agents
+(3 scouts → gap synthesis → 2 attempts (assemble / structural) → 3 adversarial refuters → seal; 422k
+subagent tokens). Seal = **FLOOR**. Verify-don't-trust before banking: re-computed the archimedean anchor
+own-code (`frontier/B1156_seam_a_gate2/verification/reproduce.sh` → REPRODUCES: z²−z+1=0,
+2·D(e^{iπ/3})=2.02988321281930725=SnapPy Vol(4₁) to 15 digits, V″=√−3) and re-verified B1108's
+archimedean-door concession against its committed text before trusting the refutation.
+
+**Result — B1155's "leaning MISMATCH" WITHDRAWN.** The a-priori MISMATCH ("arith-CS is torsion-valued
+(1/n)ℤ/ℤ, so it cannot reach Vol") was **refuted (2 of 3 lenses)**: a theorem about the **finite μ_n
+truncation only** (Artin–Verdier), secured solely by *defining* arith-CS to be the finite row. The
+**full/Arakelov-compactified** arithmetic CS over closed Spec O_F=ℤ[√−3] (∞-place included) carries a
+**real archimedean summand = the Borel regulator of ξ=[e^{iπ/3}]∈K₃(ℚ(√−3)) = Vol** — codomain contains
+ℝ, the wall is truncation-dependent (echoes B1108). MATCH not sealable either (no map finite-phase→Vol
+constructed). **Category correction:** arith-CS is a functional of a field+Galois rep, not "of m004"; the
+one ξ has three completions (archimedean→Vol, finite→torsion, p-adic→GSWZ), and **B800 is the p-adic one,
+not the finite Kim action**. **The one open bar:** extend Andersen–Hansen's proved root-of-unity↔Vol
+crossing from closed surgeries on 4₁ to the cusped m004; two specialist sub-bars (object: stationary-phase/CS
+bridge with content when CS=0 by amphichirality, B1108's unwalked door; codex: the marked H³ basis/period/Ω
+normalization OA-C1045/C1053 record ABSENT). The ASSEMBLE attempt's v3(100)=147→GSWZ-146 reconciliation was
+refuted (inconsistent prefactor) — a p-adic normalization item, quarantined, not banked. Updates L182 +
+the OPEN_LEADS currency line. Codex data off-branch (provenance debt). No firewall crossing; Gate 5
+untouched. Locks `tests/test_b1156_seam_a_gate2.py` (8 tests). Next in the masterplan: WF-2 (the dynamics).

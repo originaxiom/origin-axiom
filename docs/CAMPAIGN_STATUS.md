@@ -1,6 +1,6 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-> **Review 49 (2026-08-26):** window B1135–B1155 reviewed (the carrier/coupling harvest, C4 neg→pos, the cost class, the two seams); the discipline held (six in-window errors all caught + corrected); **SEAM-A's Gate 2 is the one live crossing.**
+> **Review 49 (2026-08-26):** window B1135–B1155 reviewed (the carrier/coupling harvest, C4 neg→pos, the cost class, the two seams); the discipline held (six in-window errors all caught + corrected); **SEAM-A's Gate 2 is the one live crossing** — now **sharpened to a precise FLOOR by B1156** (WF-1): the a-priori MISMATCH refuted (a finite-truncation theorem), the full/Arakelov arith-CS carries Vol as the Borel regulator; the one open bar is the finite-phase→Vol map (Andersen–Hansen closed→cusped, NEEDS-SPECIALIST).
 
 *Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
 
@@ -17,6 +17,21 @@
 
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
+
+**LATEST (2026-08-26, B1156 — SEAM-A Gate 2 SHARPENED; the masterplan's WF-1)**: the roadmap masterplan
+opened with **WF-1** (10 agents: 3 scouts → gap → 2 attempts → 3 adversarial refuters → seal). Seal =
+**FLOOR**, and **B1155's "leaning MISMATCH" is withdrawn**. The a-priori MISMATCH ("arith-CS is
+torsion-valued, so it cannot reach Vol") was **refuted (2 of 3 lenses)** — a theorem about the **finite
+μ_n truncation only** (Artin–Verdier), secured only by *defining* arith-CS as the finite row; the
+**full/Arakelov** arithmetic CS over closed Spec O_F=ℤ[√−3] (∞-place included) carries a **real summand =
+the Borel regulator of ξ=[e^{iπ/3}]∈K₃(ℚ(√−3)) = Vol** (echoes B1108, re-verified). MATCH not sealable
+(no map finite-phase→Vol). **Category correction:** arith-CS is a functional of a field+Galois rep, not
+"of m004"; ξ has three completions (archimedean→Vol, finite→torsion, p-adic→GSWZ), and **B800 is the
+p-adic one, not the finite Kim action**. **The one open bar:** extend Andersen–Hansen closed→cusped
+(m004), decide the finite-phase→Vol map — two specialist sub-bars (object: CS=0 stationary-phase bridge;
+codex: the marked H³ basis/period/Ω the OA-C1045/C1053 ledger records ABSENT). Anchor own-verified
+(reproduce.sh → REPRODUCES). Seam stays **OPEN**, now a sharp NEEDS-SPECIALIST bar. No crossing; Gate 5
+untouched. Locks test_b1156_seam_a_gate2.py. **Next: WF-2 (the dynamics).**
 
 **LATEST (2026-08-26, B1154 + B1155 — THE TWO OPEN SEAMS WALKED)**: the owner's "do them all" — the
 two remaining sealed seams (SEAM-B was discharged in B1146), on committed evidence. **B1154 SEAM-Y =

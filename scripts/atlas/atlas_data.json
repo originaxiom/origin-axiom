@@ -3200,6 +3200,28 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B1156": {
+   "slug": "seam a gate2",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B682",
+    "B708",
+    "B800",
+    "L182"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B115": {
    "slug": "higher generality",
    "motifs": [

@@ -1,0 +1,112 @@
+B1156 -- SEAM-A GATE 2 -- THE FLOOR ADJUDICATION
+(condensed from the WF-1 adversarial workflow: 3 scouts -> gap synthesis ->
+2 attempts (assemble / structural) -> 3 adversarial refuters -> seal. 10 agents,
+422k subagent tokens. Every claim below is either re-verified on this bench
+(the archimedean anchor, reproduce.sh) or a citation traceable to a committed
+arc (B1108, B708) or to codex's off-branch ledger, flagged as such.)
+
+================================================================================
+THE OBJECT (a category correction inherited into the gate, now fixed)
+================================================================================
+There is NO "arithmetic-CS action of m004." Arithmetic Chern-Simons is a
+functional of a FIELD F and a Galois representation rho:pi_1(Spec O_F)->A, not
+of a 3-manifold. m004 enters ONLY because its trace field is K=Q(sqrt-3) and its
+geometric shape z=e^{i pi/3}=(1+sqrt-3)/2 supplies ONE Bloch/K-theory class
+        xi = [z] in K_3(Q(sqrt-3)).
+That single class xi has THREE inequivalent regulators / completions:
+
+  completion      invariant                              value type
+  ----------      ---------                              ----------
+  archimedean inf Borel/Bloch-Wigner D(z) -> Vol(4_1)    real transcendental in R
+  finite mod-n    Kim CS_c(rho)=inv_F(rho* c)            torsion in (1/n)Z/Z
+  p-adic          Lee-Park / GSWZ D_p(xi)                in Q_p/Z_p
+
+"Arithmetic CS ACTION" names ONLY the finite (middle) completion. Consequence:
+B800 (the state-integral perturbative series, saddle (1+sqrt-3)/2, V''=sqrt-3)
+is the P-ADIC completion, NOT the finite Kim action -- so "assemble the Kim
+action from B800" is a category confusion (they are two different completions
+of the same xi). This corrects a phrasing B1155 carried.
+
+================================================================================
+WHY NOT MISMATCH (the a-priori argument is REFUTED, 2 of 3 lenses)
+================================================================================
+B1155 leaned MISMATCH on: "arith-CS lands in (1/n)Z/Z torsion; a torsion group
+holds no real transcendental; so the action provably cannot reach Vol before any
+rho is computed." Two independent adversarial refuters showed this is a theorem
+about the FINITE mu_n-coefficient TRUNCATION only:
+   Artin-Verdier  H^3(Spec O_F, mu_n) ~= (1/n)Z/Z   (finite coefficients)
+   secured solely by the STIPULATION "arithmetic CS names the finite row by
+   definition." It is NOT a codomain theorem about the untruncated theory.
+The full / Arakelov-COMPACTIFIED arithmetic CS over the CLOSED Spec O_F (infinite
+places INCLUDED) carries a REAL archimedean summand equal to the Borel /
+Bloch-Wigner regulator of xi -- which IS Vol (reproduce.sh: 2*D(e^{i pi/3}) =
+2.02988321281930725 = SnapPy Vol(4_1)). So the codomain of the untruncated theory
+CONTAINS R; the impossibility is truncation-dependent, not a codomain wall.
+This is NOT a new claim: B1108 (banked, main) ALREADY records it --
+"the negative does not say no arithmetic theory [reaches Vol]... the object's
+volume must live at the archimedean place," naming the Arakelov reading and the
+volume-conjecture door. The workflow's refutation ECHOES a banked arc, re-verified
+this session, not a fresh assertion.
+
+================================================================================
+WHY NOT MATCH (no map is constructed; the honest meet is only a type-match)
+================================================================================
+No map / equation sending codex's finite order-6 phase to Vol is constructed.
+Equating a real transcendental (Vol) with a finite root-of-unity phase
+(exp(2 pi i/6)) is FALSE as stated. The honest finite-place result is a
+TYPE-MATCH only: both sides are order-3/6 root-of-unity secondary-CS characters
+(B708's lk(3,5)=1, B1108's "half a meeting") -- real, but NOT the
+archimedean-normalized period W_0 the derivation needs. MATCH is not sealable.
+
+Also: the ASSEMBLE attempt reproduced B800 in exact Q(sqrt-3) arithmetic and
+pushed v3(100)=147, then tried to reconcile to GSWZ's 146 via a prefactor
+argument. The 3rd adversarial refuter REFUTED that reconciliation as
+arithmetically self-inconsistent ((-3)^{-1/2} vs (-3) prefactor; lands one unit
+ABOVE GSWZ 146, not below B800's 143). => the v3 residual is NOTED, NOT BANKED,
+and is IMMATERIAL to this gate (v3 sits in Q_p/Z_p regardless -- it is a p-adic
+normalization item, not the archimedean crossing). Quarantined.
+
+================================================================================
+THE VERDICT: FLOOR (a sharpened NEEDS-SPECIALIST, not a wall, not a crossing)
+================================================================================
+Whether the named archimedean door supplies a GENUINE equation carrying codex's
+finite order-6 phase to Vol -- or only re-exhibits Vol TAUTOLOGICALLY as the
+Borel regulator of xi -- is a DERIVATIONAL question that is NEEDS-SPECIALIST.
+The attempts' own best defense (structural attempt, Horn 2: "reaches Vol only as
+the Borel regulator, no map from the finite phase") ADMITS the map is
+unconstructed. That is a specialist gap, not an a-priori MISMATCH.
+
+================================================================================
+THE EXACT REMAINING COMPUTATION (the floor, stated precisely)
+================================================================================
+Extend Andersen-Hansen's PROVED root-of-unity <-> Vol crossing from closed Dehn
+surgeries on 4_1 to the CUSPED complement m004 itself: construct (or refute) the
+Arakelov-compactified arithmetic Chern-Simons over the closed Spec O_F=Z[sqrt-3]
+(infinite place included), and decide whether its real archimedean summand
+furnishes a genuine map sending codex's finite order-6 secondary-CS phase
+(exp(2 pi i/6), in (1/12)Z/Z) to the archimedean regulator
+        Vol = 2*D(e^{i pi/3}) = 2*Im Li_2(e^{i pi/3}) = 2.02988321281930725,
+rather than merely relabeling Vol as the Borel/Bloch-Wigner regulator of xi.
+Two sub-bars, BOTH specialist:
+  (i)  OBJECT side -- is there a stationary-phase/CS bridge with content when
+       CS=0 exactly (by amphichirality)? [B1108 registered this door, did not
+       walk it: "what does stationary-phase = CS degenerate to when CS=0."]
+  (ii) CODEX side -- construct the marked H^3 basis / period vector / Omega
+       normalization that OA-C1045/C1053 record as ABSENT. Without it codex
+       supplies NO archimedean-normalized W_0 to match, so even a successful
+       object-side door still faces a finite/unnormalized codex bank.
+This is B708's flagged NEEDS-SPECIALIST bar ("whether the full arithmetic-CS
+ACTION, not just H^1+linking, matches") specialized to the archimedean door
+B1108 registered but did not walk. Neither sub-bar is closable in-sandbox.
+
+CODEX-SIDE PROVENANCE (bounds, keeps codex from supplying W_0):
+  OA-C1002 REFUTED (codex) -- the heterotic functor is an imported axiom, not
+    selected by the arithmetic/toric antecedent.
+  OA-C1045/C1053 -- the E8 CS phase is explicitly NOT promoted to a period
+    (no marked H^3 basis, no period vector, no Omega normalization).
+
+NET vs B1155: B1155 said "INDETERMINATE, leaning MISMATCH." B1156 REMOVES the
+lean -- the a-priori MISMATCH is refuted -- and REPLACES it with a sharp,
+named FLOOR: the crossing is a real archimedean door (Arakelov arith-CS carries
+Vol as the regulator), and the ONE open question is the finite-phase -> Vol MAP.
+The seam stays OPEN; it is now a precise specialist bar, not a leaning negative.

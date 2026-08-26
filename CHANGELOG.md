@@ -1,5 +1,33 @@
 # Changelog
 
+## B1156 (2026-08-26): SEAM-A Gate 2 SHARPENED by WF-1 (the masterplan's first adversarial workflow) — the a-priori MISMATCH is REFUTED; the seam is a precise FLOOR with a named archimedean door
+
+The masterplan's WF-1 (10 agents: 3 scouts → gap synthesis → 2 attempts → 3 adversarial refuters → seal;
+422k subagent tokens) walked SEAM-A's Gate 2 as far as the bench allows. Seal = **FLOOR**, and it
+**withdraws B1155's "leaning MISMATCH."** The a-priori MISMATCH — "arith-CS lands in torsion (1/n)ℤ/ℤ, so
+it cannot reach the real transcendental Vol" — was **refuted (2 of 3 lenses)**: that is a theorem about the
+**finite μ_n-coefficient truncation only** (Artin–Verdier H³(Spec O_F,μ_n)≅(1/n)ℤ/ℤ), secured solely by
+*defining* arith-CS to be the finite row. The **full/Arakelov-compactified** arithmetic CS over the closed
+Spec O_F=ℤ[√−3] (∞-place included) carries a **real archimedean summand = the Borel/Bloch–Wigner regulator
+of the single class ξ=[e^{iπ/3}]∈K₃(ℚ(√−3)) = Vol(4₁)** — the codomain contains ℝ; the wall is
+truncation-dependent. This is **not a new claim** — B1108 (banked) already recorded it ("the negative does
+not say no arithmetic theory [reaches Vol]… the object's volume must live at the archimedean place");
+re-verified this session. **MATCH is not sealable either** — no map/equation finite-phase→Vol is
+constructed. A **category correction**: there is no arith-CS "of m004" — it is a functional of a **field +
+Galois rep**; the one class ξ has **three completions** (archimedean→Vol, finite→torsion, p-adic→GSWZ), and
+**B800 is the p-adic one, not the finite Kim action** (so "assemble the Kim action from B800" was a category
+confusion). **The one open bar, named exactly:** extend **Andersen–Hansen**'s proved root-of-unity↔Vol
+crossing from closed Dehn surgeries on 4₁ to the **cusped** m004, and decide whether the archimedean summand
+gives a genuine map sending codex's finite order-6 phase (exp(2πi/6)) to **Vol=2.02988321281930725** vs
+merely relabeling Vol as the regulator — two specialist sub-bars (object: a stationary-phase/CS bridge with
+content when CS=0 by amphichirality, B1108's unwalked door; codex: the marked H³ basis/period/Ω
+normalization OA-C1045/C1053 record as ABSENT). The archimedean anchor is **own-verified** (`reproduce.sh` →
+REPRODUCES: z²−z+1=0, 2·D(e^{iπ/3})=2.02988321281930725=Vol(4₁), V″=√−3). The ASSEMBLE attempt's
+v3(100)=147→GSWZ-146 reconciliation was **refuted** (inconsistent prefactor) — a p-adic normalization item,
+**quarantined, not banked, immaterial** to the archimedean crossing. Net: SEAM-A stays **OPEN**, now a sharp
+NEEDS-SPECIALIST bar rather than a leaning negative. Codex data off-branch (provenance debt, not leaned on).
+No firewall crossing; Gate 5 untouched. Locks `tests/test_b1156_seam_a_gate2.py`.
+
 ## REVIEW 49 (2026-08-26): the decadal review over B1135–B1155 — the discipline held, and B8141 the artifact class fixed
 
 The window (the phase-III tail + the carrier/coupling/peripheral harvest of cloud memos 30–55 + C4
