@@ -19,6 +19,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R013 | `certificates/r013_rung_transfer.py` | torality plus the single explicit E6 A2 Weyl orbit transfers the charged C to the exact 109-flat/11-value Qbar arrangement | VERIFIED / RELAYED |
 | R014 | `certificates/r014_paper4_counterexamples.py` | normalized volume refutes the literal scale theorem; exact s955 gluing refutes the exhaustive 14-member family | VERIFIED / RELAYED |
 | R015 | `documents/program-question-map/validate.py` | Wave-4 canonical 120-question map; four explicit live computations; latest main/outside/paper refs reconciled | ACTIVE / RELAYED |
+| R016 | `certificates/r016_habiro_zeta3_embeddings.py` | compatible cube-root embedding repairs the four tested zeta-three Habiro tables; universal/local-valuation upgrade remains unproved | VERIFIED / RELAYED |
 
 Every new cell must add its memo, self-contained certificate, captured output, and relay before it
 is cited outside this branch.

@@ -1,0 +1,34 @@
+FACT 1 (sanity): (1-q^j)(1-q^-j) = 2-q^j-q^-j identity holds; J_2 == classical Jones of 4_1: True
+
+FACT 2: Taylor germ d_j of F at q=zeta_3 (x = zeta_3, Phi_3(x)=x^2+x+1=0), NMAX=8:
+  d_0 = 13 + 0*zeta_3   [raw: 13]
+  d_1 = 2 + -2*zeta_3   [raw: 2 - 2*x]
+  d_2 = 2 + -1038*zeta_3   [raw: 2 - 1038*x]
+  d_3 = 772 + -534*zeta_3   [raw: 772 - 534*x]
+  d_4 = -326887 + -327689*zeta_3   [raw: -327689*x - 326887]
+  d_5 = -234676 + -772953*zeta_3   [raw: -772953*x - 234676]
+  d_6 = -232162044 + -588027*zeta_3   [raw: -588027*x - 232162044]
+  d_7 = -803757824 + -590729473*zeta_3   [raw: -590729473*x - 803757824]
+stabilization K_BOUND=27 -> K_BOUND2=36: coefficients unchanged: True
+
+FACT 3: comparison table v_p(Norm(F(xi) - sum_{j<N} d_j (xi-zeta_3)^j)), N=1..8:
+  p=5, r=1, modn=15 (phi=8):  N=1:v=2  N=2:v=4  N=3:v=6  N=4:v=8  N=5:v=10  N=6:v=12  N=7:v=14  N=8:v=16
+  p=5, r=2, modn=75 (phi=40):  N=1:v=2  N=2:v=4  N=3:v=6  N=4:v=8  N=5:v=10  N=6:v=12  N=7:v=14  N=8:v=16
+  p=7, r=1, modn=21 (phi=12):  N=1:v=2  N=2:v=4  N=3:v=6  N=4:v=9  N=5:v=10  N=6:v=13  N=7:v=14  N=8:v=18
+  p=7, r=2, modn=147 (phi=84):  N=1:v=2  N=2:v=4  N=3:v=6  N=4:v=9  N=5:v=10  N=6:v=13  N=7:v=14  N=8:v=18
+
+corrected-embedding gate: all 4 rows have v(N) >= N and strict growth: True
+
+FINITE CORRECTION: the compatible cube-root embedding restores coherence
+at levels 15, 75, 21 and 147 through Taylor order 8.
+
+conjugate-embedding control at modn=15 through N=11: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+memo-69 collapse reproduced under the conjugate embedding: True
+
+R016 PASS: B1158's corrected cube-root embedding restores the tested global
+norm-valuation bound on all four frozen levels.  Memo 69's level-15 collapse
+is also reproduced exactly under the conjugate embedding, so it is an
+embedding artifact rather than a Taylor-truncation artifact.  The universal
+all-level transport claim and normalized single-prime local valuation are
+not proved by this finite certificate.  No physical quantity or
+Standard-Model inference is involved.
