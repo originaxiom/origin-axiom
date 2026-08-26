@@ -1,144 +1,199 @@
-# WAVE-3 MASTERPLAN — probing the open ledger A–E, plus the G-lane (gravity)
-## (outside bench, 2026-08-26; the owner's charter: "probe all these open questions from A to E including gravity")
+# WAVE-3 MASTERPLAN v2 — probing cc's B1162 meditation, §A through §E, gravity included
+## (outside bench, 2026-08-26)
+
+**v2 CORRECTION (process error, filed):** v1 of this plan read the owner's
+charter as targeting B1159's condition links A–E. The owner corrected the
+referent: the target is **cc's B1162 meditation §A–§E** (the blind-spot
+list). The bench's misread is filed here at point of occurrence. v1's
+G-lane and two of its cells survive verbatim — they are exactly §E and §B
+probes — the rest is retargeted below.
 
 **Standing rules (unchanged):** every claim verified by exact computation
 before claiming; preregistered two-outcome cells; errors filed at point of
-occurrence; CITED for standard facts, never leaned on for load-bearing
-steps; Gate 5 untouched; hired agents (if a workflow fires) run Sonnet or
-Haiku, never the bench's own model; the bench re-runs everything in-lane
-before banking. Owner directive in force: a contradiction between FORCED
-structure and OBSERVED structure is a thesis-failure signal; "not forced"
-is not a contradiction — it prices the bit to the observer column.
+occurrence; CITED never load-bearing; Gate 5 untouched; hired agents (if a
+workflow fires) run Sonnet/Haiku only; the bench re-runs in-lane before
+banking. Owner directive in force (forced-vs-observed contradiction =
+thesis-failure signal; "not forced" prices the bit, contradicts nothing).
 
-**The reference ledger:** B1159's links A–E (main, a19a83a2), read against
-this lane's memos 70–77. Walls are respected, not stormed: D's μ_u = 0 and
-A's un-forcedness are *cc's proved facts about cc's witness*; the bench
-probes the record's OWN channels, which is where it has exact tools.
-
----
-
-## THE G-LANE — gravity (the new lane, and the organizing insight)
-
-Gravity is already in the record twice, both times Gate-honestly. The
-G-lane makes both appearances precise and tests whether they carry weight.
-
-**G0 (framing, interpretive — labeled).** The object m004 is a complete
-hyperbolic 3-manifold: a vacuum Einstein solution (Λ < 0) in three
-dimensions. 3d gravity is an SL(2,ℂ) Chern–Simons theory (CITED, standard)
-whose field IS the flat connection — i.e. the holonomy representation this
-lane has computed with since memo 30. **The tick (meridian), the lock
-(longitude), and the mirror (beat) are properties of the gravitational
-holonomy of the object.** Memos 30–77 were gravitational statements all
-along; the G-lane says so and then tests where it bites. No new claim
-banks from G0 alone.
-
-**G1 (the ablation — is gravity load-bearing in the forced hypercharge?).**
-Memo 70 forced Y using four anomaly conditions, one of which is grav²Y —
-the mixed GRAVITATIONAL anomaly. Cell: rerun the L132 system with the
-grav²Y condition DELETED (and, as a control, with only grav²Y deleted vs
-only the cubic deleted): count solutions and ratios.
-PREREGISTERED: BRANCH LB (load-bearing): without gravity the solution
-space grows / non-SM ratios appear → **the SM hypercharge pattern needs
-gravity's consistency condition** — gravity is a required ingredient of
-the one forced value-structure in the record. BRANCH R (redundant): the
-ratios survive without it → gravity's condition was implied by the gauge
-ones on this content. Either branch banks; both are sharp.
-
-**G2 (the mirror kills the gravitational phase).** The object's archimedean
-data is the pair (Vol, CS) — exactly the "archimedean marking" B1161 says
-SEAM-A and the bypass door both lack (W0). In-stack half: the beat is
-Galois-SEMILINEAR (banked, memos 42/46/54 + OA-C1090), and gal on ℚ(√−3)
-IS complex conjugation — verify in-run that the beat conjugates the
-holonomy characters to their complex conjugates (κ ↦ 3−κ = κ̄, exact).
-CITED half: an orientation-reversing symmetry forces CS(M) = −CS(M) mod
-its period; 4₁ is amphichiral, CS(m004) = 0 (CITED, stated, not derived).
-BANKABLE STATEMENT: **the object's own mirror — the same operator that is
-the record's invisible bit — forces the gravitational phase of its
-archimedean marking to zero.** Whatever W0 is, its CS-phase half is
-object-forced trivial. RELAY to cc: does a half-trivial marking (phase 0,
-modulus Vol) suffice to break the V₄ orbit, or does the free-orbit theorem
-survive a phase-only marking? (Their machinery, not ours.)
+**The bench's answer to cc's closing question** (which lands hardest):
+§B is the most testable and could brighten the whole verdict — agreed.
+§E is the most likely deep thing — agreed, and the bench has been
+computing in that language all along without saying so (the holonomy IS
+the gravitational field). And §A has an immediately computable witness
+nobody has run: whether the orientation bit and the chirality bit are the
+SAME bit. The plan below feeds all three, plus a concrete sub-piece for
+cc's live W₀ workflow.
 
 ---
 
-## THE LINK PROBES A–E (what the bench can actually compute)
+## §A — "W₀'s absence may be the answer" → make the one-bit conjecture computable
 
-**A (heterotic framework — walled; the bench does not storm it).**
-The bench's A-contribution is G2's relay (the phase half of W0) plus:
-**A1 (the bypass charter, assembly + one consistency cell):** collect the
-in-lane facts every A-free derivation must respect — hypercharge forced
-in-frame (70, R019 scope), no intra-27 family index (74), both ℤ/2s paid
-at breaking (72), no kinematic SUSY (71), one SM shadow + 14 extra ℤ/2s
-with no R-parity (76), SM-torus-exactly + dark unprotected (77) — into one
-machine-checked charter cell that re-asserts each from its banked cert
-outputs (guard against drift) and states the charter as constraints ON
-cc's live bypass cell. RELAY to cc with the charter.
+cc's conjecture: chirality, the frame, branch selection, and W₀ are one
+observer choice — the orientation. The bench can test the sharpest
+fragment of this exactly, in-stack:
 
-**B (which E8 — forced-given-A; re-verify the OTHER side in-lane).**
-B1159 re-derived dim(SO(26)×U(1)) = 326 ≠ 78. Cell **B1:** build the D₁₆
-root system exactly, enumerate A₂ root-subsystems up to Weyl equivalence,
-compute each commutant type and dimension → verify NO A₂ has an e₆-shaped
-(78-dim) commutant in so(32), vs the banked e₈ ⊃ sl₃ ⊕ e₆ realization
-(memos 53/62). PREREGISTERED: the commutant census lands ≠ 78 everywhere
-(two-outcome; a 78 would refute B1159's link-B arithmetic and must be
-reported as such).
+**MA1 (the one-bit witness): is the orientation bit the chirality bit?**
+The record's orientation/Galois bit is banked: the beat is semilinear, gal
+(q ↦ 1−q) is complex conjugation on ℚ(√−3), and conjugating the holonomy
+is reversing the object's orientation (CITED-standard). The record's
+CHIRALITY bit is the minuscule choice 27 vs 27̄ (ω₁ vs ω₆ — the one
+duality memo 66 left as the fenced choice). Cell: compare the Galois
+conjugate of the internal 27 with the DUAL of the internal 27 as
+characters — χ^gal(g) = gal(χ(g)) vs χ*(g) = χ(g⁻¹) over a systematic
+word sample of the π₁ image, plus the e6-level weight-set comparison
+(does gal-twist send the 27's weight data to the 27̄'s?).
+PREREGISTERED: BRANCH ONE-BIT: χ^gal = χ* (twist ≅ dual) → flipping the
+orientation IS flipping 27 ↔ 27̄: chirality and orientation are the same
+ℤ/2, cc's §A conjecture gets its first computed witness at the carrier
+level. BRANCH TWO-BITS: they differ on an exhibited word → the choices
+are independent; §A loses its cleanest version; either branch banks.
 
-**C (branch selection — cc's live cell; the bench supplies constraints).**
-The V₄ free-orbit theorem is off-stack (their ring class field). The
-bench's C-contribution is A1's charter plus one sharpening already proved:
-IF the bypass sources families from E8's (3,27) — the record's ONLY
-three-copy structure (74) — THEN the family coupling is forced to
-ε_family ⊗ C_Jordan with zero diagonal (53). Cell **C1 = D1 below** (they
-coincide: the family-channel structure IS the constraint C must respect).
+**MA2 (the choice-orbit census):** enumerate the record's banked binary
+choices (Galois embedding q vs 1−q; κ vs 3−κ; orientation; 27 vs 27̄;
+the beat vs its inverse) and compute the orbit structure under the beat —
+how many INDEPENDENT bits remain? (Several equivalences are already
+banked: gal(κ) = 3−κ, the beat realizes gal; MA1 decides the chirality
+edge; this cell assembles the full quotient exactly and counts.)
+Measured count N banks either way; N = 1 is cc's "one observer choice."
 
-**D (the Yukawa wall — probe the record's OWN channel, not cc's witness).**
-cc's μ_u = 0 is about their bundle. The record's only three-family channel
-(E8, possibility-space) has the banked coupling ε ⊗ C — antisymmetric in
-the family pair. Cell **D1 (family rank theorem):** for the E8 vertex,
-verify every per-internal-triple 3×3 family matrix is antisymmetric ⇒
-det = 0 ⇒ rank ≤ 2 exactly; compute the kernel direction per triple
-(family-democratic or triple-dependent?). PREREGISTERED: **at least one
-massless family direction per triple at this level** — a rank statement,
-not a value (Gate 5 clean). If it lands: the record's own channel has a
-Yukawa-suppression structure INDEPENDENT of cc's cohomological wall — the
-two walls rhyme (75's fence stands: rhyme, not identification).
+**The §A fence (adopted from cc, stated once):** if the one-bit reading
+holds, the honest W₀ outcome may be "correctly refused" — the bench's
+cells CONSTRAIN that reading; they cannot decide the observer-coupling
+thesis. No cell here claims to.
 
-**E (moduli/SUSY/EWSB/scales — withheld; count what is countable).**
-The dimensionful no-go (B660/B666) stands: no scales, no vevs, no masses.
-What IS countable is the Higgs sector's kinematic skeleton. Cell **E1
-(higgs_skeleton):** from the memo-76 roster, verify the chain leaves
-EXACTLY 4 Higgs-candidate doublet states = 2 doublets with Y = ±1/2
-(measure), plus the 2 neutral singlet directions; cross-assert against the
-banked structure: bare μ forbidden (32), singlet portal forced as the only
-coupling channel (56), portal participation of these exact states.
-PREREGISTERED: the counted Higgs sector is (2 doublets + singlet portal −
-bare mass) = **the NMSSM Higgs skeleton as a counted theorem**, closing
-the loop with memo 71: NMSSM-shaped couplings, no SUSY — the record's
-Higgs sector is NMSSM-in-form, not-MSSM-in-substance. Two-outcome: any
-other count banks as measured.
+## §B — "values withheld" may be "scales withheld" → count the dimensionless SM
+
+**MB1 (the dimensionless ledger + the Yukawa texture).** Assemble the
+machine-checked ledger of every DIMENSIONLESS SM-structure quantity the
+lane has touched, each re-asserted from its banked cert: hypercharge
+ratios (forced, 70/75-scoped), Yukawa shape (forced, 47/48), depth
+selection rule (forced, 52), portal shape (forced, 56), Higgs-sector
+counts (76/77), parities paid (72/76). NEW COMPUTATION in the same cell:
+the TEXTURE of the unique coupling on the physical roster — for the
+banked Y = ε⊗C, compute which (15-plet × 15-plet × Higgs-docket) entries
+are identically zero vs nonzero (texture zeros are dimensionless
+structure; memo 52's depth blocks restricted to memo 76's roster).
+PREREGISTERED two-outcome on the zero-pattern; either texture banks.
+
+**MB2 (the family rank theorem — v1 cell, survives).** In the record's
+only three-family channel (E8, possibility-space fenced), every
+per-triple 3×3 family matrix of the forced coupling is antisymmetric ⇒
+det = 0 ⇒ rank ≤ 2: AT LEAST ONE MASSLESS FAMILY DIRECTION per triple —
+a dimensionless rank statement (Gate 5 clean), computed exactly, with the
+kernel direction per triple (democratic or not: measured). Rhymes with
+SEAM-Y; fenced as rhyme (memo 75).
+
+**The §B verdict shape:** if MB1+MB2 land forced, the bench's evidence
+becomes "every dimensionless quantity the record CAN state, it forces" —
+cc's §B sharpening ("scale wall, not value wall") gains its in-lane half.
+The scale side stays withheld (dimensionful no-go, untouched).
+
+## §C — the four-seat risk → buy real diversity where it can be bought
+
+The limit cc names is real and a cell cannot remove it: four seats, one
+architecture. What CAN be bought:
+
+**MC1 (the independent reimplementation).** Re-derive the single most
+load-bearing wave-2/3 fact — the in-frame hypercharge forcing — from the
+E6 CARTAN MATRIX ALONE: build the 27's weight system by Freudenthal/
+crystal from scratch (no twisted_double.py, no shared stack, different
+algorithm, plain integers), rebuild the trinification frame and the
+anomaly system, re-count 36/36. PREREGISTERED: counts match the three
+existing seats or the discrepancy is reported exactly. This is the
+strongest internal-diversity move available: same fact, disjoint code
+path. (The stacks being byte-identical across seats — memo 75 — is
+provenance strength but diversity WEAKNESS; this cell addresses it.)
+
+**MC2 (the named limit, no cell).** The Andersen–Hansen cusped extension
+stays NEEDS-SPECIALIST — a HUMAN number theorist / quantum-topology
+specialist, not another workflow. The bench co-signs cc's §C: this is a
+standing limit, not a queue item. Recommendation to the owner (standing):
+the highest-value external spend is that one consultation.
+
+## §D — the firewall as a falsifiable criterion → pin it before it is ever tested
+
+**MD1 (the firewall pinned).** Write the criterion as a definition that a
+machine can apply, and pin it NOW — before any scale is ever forced — so
+future reclassification is detectable rather than deniable:
+STRUCTURE = dimensionless, unit-free, determined by integer/rational/
+algebraic identities from the record, stated without any measured input;
+VALUE = requires a ruler (scale/unit) or a measured number to state.
+The cell applies the classifier to the ~15 banked quantities (table
+asserted entry-by-entry), records the classification hash in the output,
+and the memo commits the lane to: **if a future computation forces a
+quantity classified VALUE here, that is a FIREWALL BREACH to be reported
+as such — not an occasion to re-draw the line.** (This makes cc's §D
+worry testable: the line is now written down independently of where the
+object succeeds.) Includes the audit note: L132 was typed value-level-
+not-value-matching BEFORE memo 70 landed (B950) — the one historical
+test of the line, passed; cited with its provenance.
+
+## §E — the gravitational mother tongue → speak it exactly (the v1 G-lane, kept)
+
+**ME0 (framing, interpretive — labeled).** m004 is a vacuum Einstein
+solution (Λ < 0); 3d gravity is SL(2,ℂ) Chern–Simons (CITED); the
+holonomy rep IS the gravitational field. The tick, lock, and mirror are
+properties of the gravitational holonomy — the lane has been computing
+in the object's mother tongue since memo 30 without saying so. cc's §E
+under-exploration worry is answered by making the vocabulary explicit
+and then COMPUTING in it (ME1–ME3), not by leaving the frame poetic.
+
+**ME1 (the exact geodesic mother tongue).** The object's native spectral
+data — the complex-length spectrum — is EXACTLY computable in-stack:
+complex lengths of short closed geodesics are 2 arccosh(tr/2) for traces
+in ℚ(√−3) (loxodromic words of the Riley rep, systematic enumeration to
+a word-length bound). Compute the spectrum's beginning exactly as
+algebraic data, then the MIRROR ACTION on it. PREREGISTERED: real parts
+(lengths — the spectral/gravitational moduli) are mirror-INVARIANT;
+imaginary parts (holonomy torsion angles) are mirror-NEGATED → **in the
+gravitational vocabulary, the invisible bit is the torsion angle of every
+geodesic; the visible spectrum is the length**. Either branch banks; this
+is §E's thesis ("∞-place = gravity") given its first exact in-lane cell,
+and it is the geodesic-side shadow of the (Vol, CS) pair.
+
+**ME2 (the gravity ablation — v1 G1, survives).** Is the grav²Y anomaly
+condition LOAD-BEARING in the forced hypercharge (70)? Rerun the L132
+system with the gravitational condition deleted (controls: delete only
+the cubic; delete one gauge condition). PREREGISTERED: BRANCH LB — the
+forcing fails without gravity ⇒ the one forced value-structure in the
+record NEEDS gravity's consistency; BRANCH R — redundant on this content.
+Either is a headline about where gravity bites.
+
+**ME3 (the mirror kills the gravitational phase — v1 G2, survives; the
+W₀ sub-piece).** The archimedean marking W₀ = the pair (Vol, CS).
+In-stack half: the beat conjugates the holonomy characters (κ ↦ 3−κ = κ̄,
+exact — verify in-run); CITED half: orientation-reversal negates CS, 4₁
+is amphichiral, so CS(m004) = 0. Bankable: **the record's invisible bit
+forces the PHASE half of W₀ to zero** — the object does supply half its
+archimedean marking, the trivial half, and the mirror is why. RELAY to
+cc's running W₀ workflow: does a phase-trivial marking (modulus Vol,
+phase 0) break the V₄ orbit or not? — that question is theirs; this
+sub-piece is ours.
 
 ---
 
 ## EXECUTION ORDER AND HYGIENE
 
-1. **G1** (ablation; cheapest, sharpest — gravity's role decided first),
-2. **D1** (family rank; possibility-space fenced as in 53/62),
-3. **E1** (Higgs skeleton),
-4. **B1** (so(32) census; heaviest enumeration, bound Weyl classes first),
-5. **G2** (mirror/CS: in-stack half computed, CITED half labeled, relay
-   drafted),
-6. **A1** (charter cell + relay to cc; written LAST so it cites the
-   wave-3 results too).
+1. **ME2** (cheapest, sharpest — where gravity bites, decided first)
+2. **MA1** (the one-bit witness — §A's computable fragment)
+3. **MB1** (dimensionless ledger + texture)
+4. **ME1** (exact geodesic spectrum + mirror action)
+5. **MB2** (family rank theorem)
+6. **MD1** (firewall pinned)
+7. **MA2** (choice-orbit census; cites MA1)
+8. **MC1** (independent reimplementation — heaviest, run last)
+9. **ME3** (CS-phase memo + W₀ relay to cc; cites ME1/ME2)
 
-Each cell: preregistered two-outcome docstring → run in scratch → iterate
-to GREEN → vendor in-lane → byte-identical rerun → memo → INDEX row.
-Errors filed at point of occurrence. Corpus fetch after banking (cc has
-been responding within hours); adoptions filed as addenda. If the owner
-fires this as a multi-agent workflow: agents draft cells (Sonnet),
-adversarial verifiers re-run and attack preregistrations (Sonnet), a
-critic gates retries (Haiku triage); the bench re-runs in-lane and banks —
-same loop as wave-2 (memos 62–69), same division of labor.
+Each cell: preregistered two-outcome docstring → scratch → GREEN →
+vendor → byte-identical in-lane rerun → memo → INDEX row; errors filed
+at point of occurrence; corpus fetch after each banking batch (cc's W₀
+workflow is running — its outcome may retarget ME3 mid-wave, and B1162's
+review may land corrections to adopt). If fired as a multi-agent
+workflow: Sonnet drafters + adversarial verifiers, Haiku triage, bench
+re-runs and banks — the wave-2 loop (memos 62–69) unchanged.
 
-**What wave-3 does NOT do:** storm SEAM-A (specialist-walled), touch cc's
-bundle cohomology (their witness, their bench), derive any dimensionful
-quantity (no-go), or let E6 folklore stand in for a computation.
+**What wave-3 does NOT do:** decide the observer-coupling thesis (§A is
+constrained, not settled, by MA1/MA2); force any scale (MD1 pins the
+line instead); remove the specialist limit (§C/MC2 names it standing);
+storm SEAM-A; touch cc's bundle cohomology or their W₀ construction
+routes (we feed them ME3 and wait).
