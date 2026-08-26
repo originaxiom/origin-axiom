@@ -11682,3 +11682,18 @@ purely imaginary (rectangular cusp), mirror-fixed (−conj(τ)=τ), orientation-
 STRENGTHENED: two object-level separators, both orientation-blind; the object still refuses to self-orient.
 C5 seed: the object supplies a canonical archimedean MODULUS (2√3 i, √3-flavored) but withholds the
 orientation. Relayed codex + cc3. Own-verified; Gate 5 clean. Locks tests/test_b1167_seat_harvest.py (6).
+
+## B1168 (2026-08-27) — the C5 investigation: the ∞-place object/observer boundary is a MIRROR-PARITY × DIMENSION law, not a choice
+Owner-directed ("C5 is not just a choice, investigate further"). The charter framed C5 (is m004's Mostow
+structure object- or observer-data?) as a definitional admission; the investigation finds it is DECIDABLE.
+Classify each ∞-place datum by mirror-parity + dimension (own-verified): Vol mirror-even; CS mirror-odd
+(complex volume conjugates, CS(M̄)=−CS(M); CS≡0 amphichiral); cusp shape 2√3 i mirror-fixed/even (−τ̄=τ);
+lengths mirror-even. THE DECIDER: object-canonical IFF mirror-even AND dimensionless (well-defined on the
+un-oriented, scale-free object); the observer supplies the mirror-odd completion (orientation, which fixes
+every odd sign) + the dimensionful scale. ⇒ C5 is a law, not a choice: the Mostow structure IS object-data
+(its even/dimensionless part = the whole geometry), and this does NOT refute G-IDENT — the charter's binary
+is a false dichotomy (object-data geometry + observer frame are compatible). Investigable via B1167's cusp
+shape (a 2nd mirror-even object-canonical archimedean datum, √3-flavored, tying to the disc-144/ℚ(ζ₁₂) hinge
+B1166). Converges: cloud's C6 promoted to the C5 decider; firewall MD1 at the ∞-place. Fenced+relayed to cc3
+(analytic-torsion parity; WebSearch exhausted). Completeness = C6's standing lane ⇒ OPEN. Own-verified; Gate 5
+clean. Locks tests/test_b1168_c5_investigation.py (9).

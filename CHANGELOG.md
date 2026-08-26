@@ -1,5 +1,31 @@
 # Changelog
 
+## B1168 (2026-08-27): the C5 investigation — the object/observer boundary at the ∞-place is NOT a choice, it is a MIRROR-PARITY × DIMENSION law
+
+Owner-directed (*"C5 is not just a choice, investigate further"*). The gravity charter framed C5 — *is
+m004's Mostow-canonical hyperbolic structure object-data or observer-data?* — as a definitional admission
+with two priced horns. **The investigation finds a third, decidable answer.** Classify each datum the object
+carries at the archimedean (∞) place by how the **mirror** (orientation-reversing self-isometry; m004
+amphichiral) acts, and by dimensionfulness (own-verified): **Vol mirror-even** (Vol(M)=Vol(mirror)),
+**Chern–Simons mirror-odd** (the complex volume conjugates ⇒ CS(M̄)=−CS(M); CS≡0 amphichiral), **cusp shape
+2√3·i mirror-fixed/even** (−τ̄=τ), **length spectrum mirror-even**. **THE DECIDER: an archimedean datum is
+object-canonical iff it is mirror-EVEN and dimensionless** — i.e. well-defined on the *un-oriented,
+scale-free* object. The observer supplies exactly the complement: the mirror-**odd** completion (the
+**orientation** bit — which, once chosen, fixes the sign of every odd datum: CS, torsion sign, the
+complex-volume phase) + the **dimensionful scale**. So **C5 is settled by a law, not a choice**: the Mostow
+structure **is** object-data (its mirror-even/dimensionless part = the entire geometry — Vol, cusp shape,
+spectra), and this does **not** refute G-IDENT/the adelic place-split — the charter's binary ("object-data ⇒
+G-IDENT fails") is a **false dichotomy** (object-data geometry is compatible with an observer-supplied frame,
+since the frame is exactly the odd + dimensionful complement). The cell became investigable via **B1167's
+cusp shape** (a second mirror-even object-canonical archimedean datum, √3-flavored — one datum can't reveal a
+law, two can; the √3 ties the ∞-place geometry to the disc-144/ℚ(ζ₁₂) hinge of B1166). **Converges:** cloud's
+**C6** (mirror-even = frame-free) is promoted from a check to the C5 decider; the **firewall MD1**
+(dimensionless AND forced) is this classifier at the ∞-place with "forced" sharpened to "mirror-even";
+B1165's **G2/G3** split is the decider's output. **Fenced + relayed to cc3** (WebSearch budget exhausted, no
+literature sweep, per the owner): the exact mirror-parity of the analytic torsion (enriching, not
+load-bearing). The **completeness** of the law is cloud's C6 standing lane → verdict OPEN. Own-verified;
+Gate 5 clean. Locks `tests/test_b1168_c5_investigation.py` (9 tests).
+
 ## B1167 (2026-08-26): two-seat harvest — codex R017 pays the SEAM-Y up-Yukawa provenance debt; cc3's cusp-shape second separator is ORIENTATION-BLIND (B1163 strengthened)
 
 An owner-approved integrate-don't-merge harvest of two seats. **(A) codex R017** (`codex/seat-r001` b7faffef)

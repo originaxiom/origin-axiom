@@ -3468,6 +3468,20 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1168": {
+   "slug": "c5 investigation",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 35,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [

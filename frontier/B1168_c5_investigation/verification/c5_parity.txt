@@ -1,0 +1,15 @@
+(1) Vol mirror-EVEN: True  (Vol=2.0298832128)
+(2) CS mirror-ODD (complex vol conjugates): True ; CS=1.78e-15 (=0 amphichiral)
+(3) cusp shape 2sqrt3 i mirror-FIXED (even): True  (tau=3.464102i)
+(4) length spectrum mirror-EVEN (orientation-independent): True  (systole=1.087070)
+
+THE C5 LAW (parity x dimension):
+  OBJECT-canonical = mirror-EVEN and dimensionless : Vol, cusp shape, length spectrum, |torsion|
+  OBSERVER         = mirror-ODD (orientation, CS-sign, torsion-sign) OR dimensionful (scale)
+  DECIDER: object-canonical IFF well-defined on the UN-ORIENTED, SCALE-FREE object.
+  => C5 is NOT a free choice. The Mostow structure IS object-data (its even/dimensionless part =
+     the whole geometry); G-IDENT holds because the observer supplies exactly the odd + dimensionful
+     complement. The charter's binary ('object-data => G-IDENT fails') is a false dichotomy.
+  FENCED (cloud memo 81, relayed to cc3 -- WebSearch budget exhausted): the exact mirror-parity of
+     the Ray-Singer/Cappell-Miller analytic torsion (mirror-ODD sign); not load-bearing for the core.
+REPRODUCES
