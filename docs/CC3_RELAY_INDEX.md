@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## A SECOND OBJECT-LEVEL DATUM — THE CUSP SHAPE
+
+**`frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_A_SECOND_OBJECT_LEVEL_DATUM_FOR_W0.md`**
+
+Sweeping 7 → 13 invariants finds **exactly one** more separator: the **cusp shape**, `2√3 i`, unique to m004. **B1163's route list is two, not one.** Paper IV updated — nothing retracted; its theorem was scoped to seven.
+
+---
+
 ## B1163's W₀ OBSTRUCTION IS FAMILY-WIDE
 
 **`frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_YOUR_W0_OBSTRUCTION_IS_FAMILY_WIDE.md`**

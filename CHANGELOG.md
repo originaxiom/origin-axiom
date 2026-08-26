@@ -1,5 +1,13 @@
 # Changelog
 
+## B8138 extended — a wider sweep finds a second object-level separator: the cusp shape
+
+**Paper IV's theorem was scoped to seven invariants.** Seven is a small sample, and the claim invited the misreading that `H₁ ≅ ℤ` is the *unique* object-level handle. **Extending the census to thirteen finds exactly one more: the cusp shape.** m004's is `2√3 i = 3.4641016151 i`, taken by **no** other family member at **any** cusp — five carry `√3 i`, six the hexagonal `ω`. Verified at full precision across all cusps and up to conjugation; nothing within `1e-6`.
+
+**Nothing is retracted.** The theorem was correctly scoped and remains exactly true. The paper now adds that **object-level data is scarce but not unique — two invariants out of thirteen** — so a construction needing an object-canonical datum has **two routes, not one**. The corollaries are unaffected: the trace field is still shared by all fourteen.
+
+**Bearing on B1163:** its W₀ blocker needs an object-canonical datum, and I had shown amphichirality is family-wide and cannot supply one. **The cusp shape is object-level and unexamined.** Whether a modulus yields an orientation is cc's question — but the route list is now two. This also corrects a misreading I handed cc the day before.
+
 ## ⚠ B8143 CORRECTED — I omitted an anomaly condition, and the conclusion reverses
 
 **My 13-state counterexample is dead.** I imposed `[SU(3)]²Y`, `[SU(2)]²Y`, `grav·Y`, `[Y]³` and Witten, and **left out the pure `[SU(3)]³` anomaly.** That content gives `+1`, not zero. **The claim built on it — 'the SM is not the minimal rigid chiral content' — is WITHDRAWN**, after being banked, relayed and reported.

@@ -11082,3 +11082,7 @@ Reproduced B1160's core theorem exactly, then found two scope items: a vector-li
 
 Omitted the pure `[SU(3)]³` anomaly; my 13-state counterexample fails it and is withdrawn. Redone with the full set, **the SM generation is the unique rigid chiral anomaly-free 5-field content up to conjugation** — which **strengthens** B1160 rather than weakening it. Uniqueness is alphabet-dependent; minimality is robust. Caught by tracing my own 27-realisability question.
 
+## B8138 extended — the cusp shape is a second object-level separator
+
+Tested Paper IV's own claim against a broader sweep, since seven invariants is a small sample. Thirteen invariants yield **exactly one** further separator, the **cusp shape** (`2√3 i`, unique to m004 across all cusps of all fourteen). Nothing retracted — the theorem was scoped to seven — but the paper now forecloses the misreading that `H₁` is the only object-level handle, and B1163 gains a second candidate route.
+

@@ -1,4 +1,13 @@
 {
+ "extension_2026-08-26_a_wider_sweep_finds_a_second_separator": {
+  "bearing_on_B1163": "cc's W0 construction is blocked for want of an object-canonical orientation, and amphichirality is family-wide so it cannot supply one. THE CUSP SHAPE IS A SECOND OBJECT-LEVEL DATUM and is a candidate route B1163 has not considered. Relayed.",
+  "result": "EXACTLY ONE further separator -- the CUSP SHAPE. m004's is 2*sqrt(3)*i = 3.4641016151i, taken by no other member at any cusp; five members share sqrt(3)*i and six share the hexagonal 1/2 + (sqrt3/2)i.",
+  "sweep": "extended to THIRTEEN invariants: + symmetry-group order, cusp shape, Alexander polynomial, generator/relator counts, shortest geodesic length, solution type",
+  "theorem_still_true": "Theorem thm:family is scoped to its seven invariants and remains exactly true. Nothing is retracted.",
+  "verified_not_an_artifact": "checked at full precision across ALL cusps of all 14 (not just the first), and up to complex conjugation; no member is within 1e-6",
+  "what_changes": "the paper now states that object-level data is SCARCE BUT NOT UNIQUE -- two invariants out of thirteen -- so a construction needing an object-canonical datum has TWO routes, not one. The corollaries are unaffected: the invariant trace field is still shared by all fourteen.",
+  "why": "Paper IV's theorem was scoped to SEVEN invariants. Seven is a small sample and the claim invited the misreading that H_1 = Z is the UNIQUE object-level handle."
+ },
  "not_claimed": [
   "that any of OA-C0016 / OA-C0018 / OA-C1063 / OA-C1064 is resolved -- none is PROVED and this paper does not change that",
   "any physical interpretation"
@@ -7,7 +16,7 @@
   "overfull": 0,
   "pages": 5,
   "path": "papers/series/paper4_what_cannot_be_supplied/main.tex",
-  "sha256_tex": "29e32a254d345976a65c4f974708c82ececce7a12287a0b4acff2ba411f8be8a",
+  "sha256_tex": "d30c5dca8d400826f6786b6197a2db2d82e8fcc1b6ff6e379fb82d57ec9b1802",
   "sha256_verify": "0cfdeaa05058be27c504155d4c07e8d69f62ff3d46790eb1d3fdd5d567b0273e",
   "undefined_refs": 0
  },

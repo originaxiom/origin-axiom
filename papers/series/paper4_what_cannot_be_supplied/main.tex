@@ -55,7 +55,9 @@ shrink the group, or add structure that is not invariant.
 
 \emph{Family versus object.} Of the fourteen orientable cusped census manifolds whose tetrahedron
 shape field is $\Q(\sqrt{-3})$, we tabulate seven elementary invariants and find that
-\emph{exactly one} separates $m004$ from the rest: $H_1\cong\Z$. Volume, tetrahedron count, cusp
+\emph{exactly one} of them separates $m004$ from the rest: $H_1\cong\Z$. A wider sweep of thirteen
+invariants finds exactly one more --- the cusp shape, which is $2\sqrt{3}\,i$ for $m004$ and takes
+no other member's value --- so object-level data is scarce but not unique. Volume, tetrahedron count, cusp
 count, amphichirality and vanishing Chern--Simons invariant are all shared. In particular the
 identity $\vol(m004)=\tfrac{3\sqrt3}{2}L(\chi_{-3},2)$ is a property of the family, being shared
 with $m003$. It follows that any construction taking the invariant trace field as its input has a
@@ -185,6 +187,25 @@ $H_1\cong\Z$             & true                & \textbf{none} \\
 \end{tabular}
 \end{center}
 \end{theorem}
+
+\begin{proposition}[a wider sweep finds exactly one more]\label{prop:wider}
+Seven invariants is a small sample, and the theorem above is scoped to them. Extending the sweep to
+thirteen --- adding the symmetry-group order, the cusp shape, the Alexander polynomial, the
+generator/relator counts of a presentation, the shortest geodesic length, and the solution type ---
+finds \emph{exactly one} further separator: the \textbf{cusp shape}. For $m004$ it is
+$2\sqrt3\,i\approx3.4641016151\,i$; no other member of $\mathcal{F}$ takes that value at any cusp,
+while five members share $\sqrt3\,i$ and six share the hexagonal $\tfrac12+\tfrac{\sqrt3}{2}i$. The
+remaining eleven invariants are shared.
+\end{proposition}
+
+\begin{remark}[what this does and does not change]
+Theorem~\ref{thm:family} stands as stated: among its seven invariants exactly one separates. What
+Proposition~\ref{prop:wider} forecloses is the natural misreading that $H_1\cong\Z$ is therefore the
+\emph{unique} object-level handle. It is not. \textbf{Object-level data is scarce --- two invariants
+out of thirteen --- but a construction needing an object-canonical datum has two routes, not one.}
+Corollaries~\ref{cor:volume} and~\ref{cor:familyinput} are unaffected, since the invariant trace
+field remains shared by all fourteen members.
+\end{remark}
 
 \begin{corollary}[the volume identity is a family property]\label{cor:volume}
 The identity $\vol(m004)=\tfrac{3\sqrt3}{2}L(\chi_{-3},2)$ is shared with $m003$ and is therefore
