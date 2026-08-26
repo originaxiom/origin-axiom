@@ -91,3 +91,11 @@ The dark sector's room in the record now has a floor plan — one door
 (through the vector-like 10), a conserved parity on the hinges, and the
 discovery that the object's own lock is a different key — while whether
 anyone lives there stays exactly as dark as the unpaid verbs require.
+
+### ADDENDUM (2026-08-26, `certificates/dark_beat.py`) — the dark split is not mirror-stable
+Preregistered two-outcome, expected branch landed: the beat (U₂₇∘gal) moves
+6/27 basis states out of their family class and flips parity-P components on
+the same 6 (the E₂₇ rungs, charge shift −3), while preserving the lock C₂₇ on
+every state (re-checked). **The family/dark split and its matter parity are
+frame-paid in the strong sense: the object's own mirror does not respect the
+frame. The only mirror-stable ℤ/2 in the ledger is the object's lock.**
