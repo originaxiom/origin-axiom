@@ -1,0 +1,42 @@
+PART A: the script chain, re-asserted from banked outputs:
+   [charges: hypercharge forced (70)] pinned via l132_trinification_out.txt
+   [gravity's grip (78)] pinned via grav_ablation_out.txt
+   [chain: two doors only (72)] pinned via breaking_chains_out.txt
+   [chain lands on SM torus (72)] pinned via breaking_chains_out.txt
+   [parities: no R-parity survives (76)] pinned via z2_census_out.txt
+   [parities: family charge dies (77)] pinned via psi_survival_out.txt
+   [families: intra-27 absent (74)] pinned via family_census_out.txt
+   [families: rank theorem (82)] pinned via family_rank_out.txt
+   [couplings: full texture (80)] pinned via yukawa_texture_out.txt
+   [CP column real (83)] pinned via cp_column_out.txt
+   [atom shape neutral (84)] pinned via atom_shape_out.txt
+   [fence: no kinematic SUSY (71)] pinned via susy_test_out.txt
+   twelve script anchors GREEN — the chain stands as banked.
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+
+PART B: repeated-state census of the 45 support triples: 0 diagonal entries
+   BRANCH DISTINCT: every support triple has three DISTINCT states — the
+   record's one coupling has NO diagonal entry of any kind: no Majorana-shaped
+   nu^c.nu^c.X or S.S.X term exists in 27^3.  With the no-bare-mass theorem
+   (memo 32, banked), the script's neutrino sector is DIRAC-ONLY at the level
+   of the record's own coupling: a seesaw requires structure the object has
+   not paid for (27-bar matter or higher operators).  A sharp structural gap,
+   named exactly — not hidden.
+
+PART C: WHAT THE SCRIPT DOES NOT REACH (typed to memo 83's bins):
+   binding energies, cross-sections, rates, abundances   -> DYNAMICS (walled)
+   masses, temperatures, times, the expansion history    -> SCHEDULE (observer)
+   the EW direction inside the two doublets (tan-beta)   -> OBSERVER (vev choice)
+   the arrow, the CP phase realized in vacua             -> OBSERVER (c-leg, 83)
+   nu^c Majorana mass / seesaw                           -> ABSENT IN-RECORD (Part B)
+   family COUNT as object-paid (vs possibility-space)    -> CONDITIONAL (E8 fence, 53/74)
+   B892-frame conjugacy of the charge frame              -> SEAT (debt addendum 3)
+The script rows themselves (Part A) are the record's forced cosmogony:
+arena, cast, charges, chain, parities, couplings, gravity's grip, CP
+reality, atom neutrality — each a banked cert, none a value.  Gate 5
+untouched.
