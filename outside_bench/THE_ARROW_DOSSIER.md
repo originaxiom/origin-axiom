@@ -82,3 +82,68 @@ staircase is the same filtration for a and a⁻¹. ORDER: object.
 DIRECTION: the c-leg. AR0 strengthens ARROW-IDENT's frame: the object
 supplies a temporal ORDER structure whose direction bit is exactly the
 one datum it provably cannot supply (AR2/B1163).
+
+### ADDENDUM 2 (2026-08-27, owner-directed retrieval) — THE ARROW ARCHAEOLOGY: the owner's a/ab/ba question was asked, partially banked in June–July 2026, and buried; restored here with citations
+The owner: "I asked the a ab ba question related to the arrow many times
+but it got forgotten and buried." CONFIRMED by corpus retrieval — the
+question exists in the record in its ORIGINAL form and predates this
+dossier by seven weeks. The retrieved prior art:
+
+- **CRYSTALLIZATION_2026-07-09 §6 — the question itself:** "The
+  substitution treats a and b DIFFERENTLY: σ(a) = ab (creates),
+  σ(b) = a (returns)... Built-in CP-like asymmetry from the two-letter
+  alphabet." This is the owner's a/ab/ba arrow, verbatim, at the
+  SUBSTITUTION level (the golden/fiber end).
+- **§2 same doc:** arrow of time = trace-map hyperbolicity — one-way
+  flow (trivial→geometric), irreversibility = stretching, KS entropy
+  log φ; and the open question at line 316: "does one-way flow =
+  irreversibility without additional physics input?"
+- **H90 → B303 (HINT_LEDGER, banked 2026-06-30):** the CP sign IS the
+  sign of the CS clock; along the (1,n) filling ladder CS has ONE
+  definite sign (B289), the amphichiral cusp is the CS = 0
+  CP-symmetric ORIGIN; "matter-over-antimatter = the sign of the clock
+  = the arrow of time (internal)" — conditional on two firewalled
+  LEAPs (CS-time = cosmological clock; the arrow forced via σ
+  non-invertibility / the dS floor, S045).
+- **S045 (live speculation): "the σ-flow cosmogony."**
+- **B497/B498 (the four verbs of F₂ / the drift ledger, PROVED):** the
+  NON-INVERTIBLE sector of End(F₂) — beyond automorphisms (the
+  Cantat–Dujardin delta) — with a per-verb drift ledger; **K025** lists
+  "dynamics / the arrow of time, latent in the det-0 stratum of
+  End(F₂)" as one of exactly two things "already present but
+  unrecognized."
+- **Nomenclature fence (to prevent cross-wiring):** the old κ =
+  tr[A,B] = −2 lives on the FIBER F₂ (punctured-torus generators,
+  commutator = puncture, parabolic); this lane's κ = tr[a,b] = 1+ω =
+  (3+√−3)/2 (memo 86) lives on the MERIDIONAL generators of the knot
+  group. Two banked commutator-traces, two F₂'s, one naming hazard.
+
+**SCOPE CORRECTION TO MEMO 86, filed:** memo 86 decided the
+HOLONOMY-level arrow (group inversion — invertible, direction free).
+The owner's original question is SUBSTITUTION-level: σ(a) = ab is
+NON-invertible on its stratum — σ can be applied but not undone — which
+memo 86's facts do NOT cover. The owner's question is therefore
+RESTORED TO THE REGISTER as open, not settled, and becomes:
+
+**AR6 (NEW, preregistered) — does the σ non-invertibility supply an
+object-canonical arrow?** The retrieved work shows the record carries
+TWO arrow-shaped structures: (i) IRREVERSIBILITY — the non-invertible
+σ-flow with its proven drift (B497/B498), living at the golden/REAL end
+— which is mirror-EVEN (c acts trivially on ℚ(√5), B1174), so it does
+NOT spend the c-bit; (ii) ORIENTATION — the c-leg (this dossier's
+rows). The live tension, stated as a two-outcome question:
+  BRANCH CANONICAL: the σ-drift's one-way-ness constitutes an
+  object-canonical time direction ⇒ it collides with AR2/B1163 at the
+  dynamical level and the dossier's frame needs surgery — reported
+  loudly, not absorbed.
+  BRANCH SPLIT: irreversibility (object, mirror-even, dynamical) and
+  direction-for-an-observer (c-leg) are DIFFERENT data — the record
+  supplies a one-way flow the way it supplies the depth-3 staircase
+  (memo 86 FACT 3(iii)): a canonical decay structure that still does
+  not orient the observer's time — and H90/B303's two LEAPs are
+  exactly the price of welding them.
+OWNERS: cc (B497/B498/B303/B289 are theirs; the reconciliation with
+B1165's generic-rhyme typing is the first check), bench (in-stack
+support where the fiber machinery reaches), the owner (H90's two LEAPs
+remain the firewalled inputs, unchanged). The question shall not be
+buried again: it is now a numbered dossier row with named owners.
