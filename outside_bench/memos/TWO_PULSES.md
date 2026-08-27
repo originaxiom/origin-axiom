@@ -62,3 +62,25 @@ Prior art (retrieved, not new): S045 (the σ-flow cosmogony), H90/B303
 (LEAP-1 and LEAP-2), CRYSTALLIZATION §6 (σ(a)=ab asymmetry), memos
 46/49/81. Interpretive passages above are labeled as such; everything
 else is pins and exact matrix arithmetic. Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-27) — ERRATUM: the "Λ tension" line repeats a WITHDRAWN objection (bench error #7, filed at point of occurrence)
+FACT 4's "named tension" — *the object's geometry is hyperbolic (Λ<0
+flavor); the observed expansion is Λ>0* — restates, in softened form,
+the exact objection the corpus **withdrew as wrong twice** (B981,
+2026-08; assembled in `docs/THE_LAMBDA_POSITION.md` §1): (1) hyperbolic
+H³ is **Riemannian**, AdS is **Lorentzian**, and B716 bans the
+identification (signature is the observer's; no canonical Wick
+rotation) — so "Λ<0 flavor" vs "observed Λ>0" compares across a
+non-canonical rotation; (2) the object **has a positive-curvature
+end**: the cone-angle sweep (B248) runs hyperbolic (ℚ(√−3)/E₆) → flat
+(2π/3) → spherical (ℚ(√5)/E₈) on one curve, one AJ recursion carrying
+both ends (B261). The bench wrote the line without checking the Λ
+position document; the machine content of memo 90 (FACTs 1–3 and the
+form/rate typing) is untouched — no pin or assert involved the sign.
+CORRECTED READING of the fence: what is real and unpaid is **LEAP-1
+alone**; the sign of the observed Λ is not a tension against the
+object, because the object does not fix a curvature sign (the cone
+angle is a free parameter — "no solution to the cosmological-constant
+problem", B981's own scope line, repeated here so it cannot be
+dropped). The certificate's FACT-4 print block carries the superseded
+wording; this addendum is its correction of record.

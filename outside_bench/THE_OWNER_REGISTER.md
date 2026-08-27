@@ -60,3 +60,14 @@ Status note: the machine half is banked (memo 90); what remains on R13 is
 exactly one weld (LEAP-1) and one named tension — neither is a
 computation, both are priced decisions. This addendum is the only
 mutation.
+
+### ADDENDUM 3 (2026-08-27) — R13 remainder corrected (erratum, memo 90 addendum 1)
+The "named Λ<0 vs Λ>0 tension" in R13's remainder repeated an objection
+the corpus had already withdrawn (B981: Riemannian/Lorentzian category
+error + the object's spherical end; assembled in
+`docs/THE_LAMBDA_POSITION.md`). R13's LIVE remainder is now **LEAP-1
+alone** (σ-clock = cosmological clock, unpaid, the owner's to price);
+the sign question is not a tension — the object spans all three
+curvature signs with the cone angle free, and the value/sign of the
+observed Λ stays observer-side by the scale-torsor theorem. Bench error
+#7 filed in memo 90 addendum 1. This addendum is the only mutation.
