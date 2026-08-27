@@ -11782,3 +11782,14 @@ of ℚ(√−15) (fixes √−15 ⇒ both-flip leg; c moves √−15). Consequen
 the remaining rung, hatched); B1166-C4 constructively resolved ("share the c-leg"; relayed cloud+codex);
 B1161 sharpened; S068 row 1 closed; B1164 census grounded leg-by-leg. Bug self-caught by hand-check before
 banking (subs-on-non-Symbol; MB12 class). kill_graph routed. R50-3 [x]. Gate 5 clean. Locks test_b1174 (8).
+
+## B1175 (2026-08-27) — THE CHARTER-CLOSE HARVEST: cloud Addendum 1 + codex R020/R021/R022
+Cloud filed the charter's Addendum 1 (every row moved: G-IDENT re-typed per B1165, accepted; C1+arena
+adopted; C3 VERIFIED; C4 REFUTED-AS-STATED by the author → C4′ = the √−3-internal pair with R022's frozen
+data, being×hearing dropped; C5 SUPERSEDED BY THE LAW → G-IDENT′ = mirror-ODD-or-DIMENSIONFUL + finite VEV
+= observer, even∧dimensionless = object; C6 load-bearing). Codex R020/R021/R022 all re-run BYTE-IDENTICAL
+(standalone): R022 the V₄ audit (separator exact; three-way ILL-TYPED until frozen; B1024 carrier typed,
+conjugation-coordinate fence); R020 Σ(V64)⊄V64 (cloud-scoped different-operator); R021 the Gieseking Pin⁻
+restriction CONSTANT (p*=0; one m004 spin structure does NOT extend; non-identification residual honored).
+Composition with B1174: C4′ = one bounded question (c↦conjugation class; θ=cr↦K-fixing-type leg). Charter
+reconciled three-seat. Gate 5 clean. Locks test_b1175 (5).

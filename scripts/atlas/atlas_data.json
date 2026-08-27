@@ -3634,6 +3634,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1175": {
+   "slug": "charter close harvest",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "V64"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B117": {
    "slug": "interleaving",
    "motifs": [

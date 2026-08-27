@@ -1,5 +1,27 @@
 # Changelog
 
+## B1175 (2026-08-27): THE CHARTER-CLOSE HARVEST — cloud filed Addendum 1 (every row moved; the gravity charter reconciled three-seat); codex R020/R021/R022 all byte-identical
+
+The two inbounds landed within hours of the B1170/B1174 relays and are harvested verified. **Cloud's
+Addendum 1** (their own amendment rule): G-IDENT re-typed per B1165 (accepted); C1 + the arena rescope
+adopted (E2 restated); **C3 VERIFIED** (prediction→carried); **C4 REFUTED-AS-STATED, adjudicated by the
+author** (named-action was the stated condition; the √3-vs-√5 separator made exact by R022) **→ C4′** — the
+√−3-internal pair (branch V₄ vs B1024's H¹ quotient with the measurement leg FROZEN per R022; being×hearing
+dropped); **C5 SUPERSEDED BY THE LAW** ("the owner's investigation direction vindicated") **→ G-IDENT′**:
+*the observer's contribution = exactly the mirror-ODD-or-DIMENSIONFUL data at the archimedean place + the
+finite-place VEV; everything mirror-even and dimensionless is the object's*; C6 now load-bearing. **The
+codex trio, all re-run byte-identical** (standalone certs): **R022** (the V₄ named-action audit — the
+separator confirmed exact; three-way ILL-TYPED until frozen; B1024's carrier typed with the
+conjugation-coordinate fence, reversal=(1,1) in both conventions); **R020** (Σ(V64)⊄V64 — the principal
+semilinear beat leaks B1140's 64; Σ²=Ad(meridian) on all 78 inputs; cloud-scoped as a different operator,
+nothing banked touched); **R021** (the Gieseking Pin⁻ restriction is CONSTANT — p\*=0 on H¹(−;𝔽₂),
+H₁(N)=ℤ⟨t⟩ with a=b=2t; **one of m004's spin structures does not extend to the Gieseking** — the first
+topological constraint on the spin payment from the Gieseking side; codex's non-identification fence
+honored, the tangent-frame comparison queued). **Composition with B1174:** C4′'s remaining content is one
+bounded question — a label-preserving iso of the frozen B1024 quotient onto the branch V₄ with c ↦ the
+conjugation class and θ=cr ↦ a K-fixing-type leg. Cloud + codex credited; Gate 5 clean. Locks
+`tests/test_b1175_charter_close_harvest.py` (5).
+
 ## B1174 (2026-08-27): THE ℤ/2-IDENTIFICATION CELL (R50-3) — NOT ONE TORSOR, ONE SHARED INVOLUTION; C4 constructively resolved; B1169's S1 partially promoted
 
 The register's Q1 (= B1169's S1, double-discovered by the sweep and the meditation), run same-day on the
