@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1035 of 1048 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1036 of 1049 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (695)
+## PROVED (696)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -707,6 +707,7 @@
 | `B8142` | RESIDUE 2 IS REDUCED TWICE, NOT CLOSED. The eigenvalue decomposition of rho(m)=Sym^{2m}C^2 gives the exact identity R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j), verified on m004 to 1e-18 for m=0..4. At s=0 -- Fried's point -- the j<0 half is exactly conj R(i,sigma_i) for i=1..m, THE GRAVITON'S OWN FACTORS, and the j>0 half is R(-j,sigma_j) at NEGATIVE arguments. So residue 2 reduces from 'relate 0 to the positive integers' to 'evaluate at the NEGATIVE integers'; and since s <-> 2-s maps 2+j -> -j with R(2+j,sigma_j) absolutely convergent, it reduces again to 'establish the functional equation for R(s,sigma_k) on m004', where B8101's scattering determinant is already known in closed form. |  | 0 |
 | `B8143` | B1160'S CORE THEOREM IS EXACTLY CORRECT AND ITS FENCE IS LOAD-BEARING, WITH A WITNESS. Reproduced the cubic factorisation -18(t-3)(t+3) exactly. TWO SCOPE FINDINGS: (1) solved WITHOUT B1160's normalisation Yq=1, the system has THREE branches -- the two SM lines plus a ONE-PARAMETER VECTOR-LIKE family (Yq=0, Yd=-Yu) invisible to its chart, confirming B864's 'three lines' exactly. (2) B1160 fences the SM-SHAPING as observer-paid; that fence is not a caution but a THEOREM WITH A COUNTEREXAMPLE -- over the same alphabet there is a RIGID, CHIRAL, anomaly-free 13-STATE content ABCDD = (3,2)+(3bar,1)+(1,2)+2x(1,1) with charges (1/2,-1,-3/2,2,1), SMALLER than the SM's 15. The SM is NOT the minimal rigid chiral content. |  | 0 |
 | `B8145` | B8093's L171 TYPING VERIFIED AND EXTENDED. All EIGHT of its factual claims about CLPW confirmed VERBATIM from the source, down to the notation Pi = Theta(q), Tr 1 = 1 and H_obs = L^2(R_+) rather than L^2(R). The MOOD typing is correctly derived under the binding criteria. AND the gap B8093 disclosed in its own scope -- successor literature not read -- is now filled: Witten's background-independent algebra (2308.03663) is NOT a crossed product and does NOT invoke ergodicity; it gets II_1 from a TRACIAL STATE via the KMS condition. So B8093's (a) disanalogy is scoped to CLPW and does not extend. MOOD SURVIVES ANYWAY, for a different reason: B721 found our tracial state COMPLEMENTARY TO rather than INSIDE the KMS torsor, so the successor's engine is disanalogous too. | yes | 0 |
+| `B8151` | THE VERIFIED-VS-USED CHECK RUN ACROSS ALL FOUR PAPERS. Papers III and IV had already yielded defects by it (the s=0 continuation fence; the enumerated-vs-quantified family). Papers I and II PASS on universal quantifiers -- every 'for every' there is licensed by a general proof, not a sample. But a DIFFERENT defect showed up in the same sweep: Papers I and II name their verification script AND state its count (15, 13, both matching the live suites), while PAPERS III AND IV POINTED AT A BARE verify/ DIRECTORY -- no filename, no expected output. That is the reproducibility promise without the means to check it. Both now name the script and state the count (5 and 7, matching). | yes | 0 |
 
 ## NEGATIVE (295)
 

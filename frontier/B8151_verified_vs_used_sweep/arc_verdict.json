@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-27)",
+ "claim_one_line": "THE VERIFIED-VS-USED CHECK RUN ACROSS ALL FOUR PAPERS. Papers III and IV had already yielded defects by it (the s=0 continuation fence; the enumerated-vs-quantified family). Papers I and II PASS on universal quantifiers -- every 'for every' there is licensed by a general proof, not a sample. But a DIFFERENT defect showed up in the same sweep: Papers I and II name their verification script AND state its count (15, 13, both matching the live suites), while PAPERS III AND IV POINTED AT A BARE verify/ DIRECTORY -- no filename, no expected output. That is the reproducibility promise without the means to check it. Both now name the script and state the count (5 and 7, matching).",
+ "creates_law": "A REPRODUCIBILITY APPENDIX MUST NAME THE FILE AND THE EXPECTED OUTPUT. Pointing a referee at a directory tells them work exists without telling them what to run or what should come back, so the appendix cannot be used for the one purpose it has. SCOPE: this is a defect of CHECKABILITY, not of correctness -- all four suites pass at their stated counts (15/15, 13/13, 5/5, 7/7). SCOPE: the universal-quantifier audit passed on Papers I and II, so the verified-vs-used check is not a blanket condemnation; it found real defects in two papers and none of that kind in the other two.",
+ "depends_on": [
+  "B8150",
+  "B8147"
+ ],
+ "id": "B8151",
+ "instrument": true,
+ "reproducer": "the verified-vs-used check applied to all four papers, plus each suite run and its count compared to the paper's stated count",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

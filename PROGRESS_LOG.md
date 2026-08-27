@@ -11102,3 +11102,7 @@ Re-verified B8093 against arXiv:2206.10780 itself: **eight claims, eight confirm
 
 Opened codex's R014 (a day late) and verified it: both of Paper IV's separator claims fail. The witness R014 named refutes neither, but it exposed that my family was never checked for completeness. **`o10_150700` shares `H₁ ≅ ℤ`; four manifolds share the cusp shape.** Corrected the paper, banked the retraction, and told cc that two figures they adopted from me — the 14-count and the `H₁` route — are void.
 
+## B8150–B8151 — the codex set closed, and one failure mode named
+
+Took up R011 and found Paper III evaluating a verified-on-a-half-plane identity at `s = 0` with no continuation step stated, plus a duplicated sentence of my own. Then ran the same verified-vs-used check on all four papers: I and II pass on quantifiers, but III and IV were pointing referees at a bare directory. All four now name their script and state a matching count. **Every defect the check has found is the same shape — a claim at a scope wider than its evidence.**
+

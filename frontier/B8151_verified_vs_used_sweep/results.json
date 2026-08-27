@@ -1,0 +1,26 @@
+{
+ "not_claimed": [
+  "that Papers I and II are defect-free -- only that they pass THIS check on universal quantifiers and stated counts",
+  "that the count mismatch was a falsehood -- no count was stated, which is why it could not be checked"
+ ],
+ "stated_vs_actual_counts": {
+  "paper_I": "stated 15, actual 15/15",
+  "paper_II": "stated 13, actual 13/13",
+  "paper_III": "stated none -> now 5, actual 5/5",
+  "paper_IV": "stated none -> now 7, actual 7/7"
+ },
+ "the_new_defect_found": {
+  "contrast": "Papers I and II name the script AND state the count",
+  "fixed": "Paper III now names check_n2_abscissa.py (5 checks, and notes it ABORTS unless the bite control fires) plus dictionary.py; Paper IV now names check_family.py (7 checks)",
+  "what": "Papers III and IV pointed at a bare verify/ directory with no filename and no expected output",
+  "why_it_matters": "the appendix exists so a referee can reproduce; a directory tells them work exists without telling them what to run or what should come back"
+ },
+ "the_pattern_across_the_session": "every defect this check found is the same shape -- a claim asserted at a scope wider than the evidence establishing it. The family enumerated at 14 and quantified over as complete; the identity verified on a half-plane and evaluated at a point outside it; a directory offered where a runnable file was promised. Different papers, one failure mode.",
+ "universal_quantifier_audit": {
+  "paper_I": "PASS -- 'for every A on the locus' is licensed by Cayley-Hamilton, a general algebraic proof; the 896 sampled matrices are a CHECK, not the basis",
+  "paper_II": "PASS -- 'for every subspace S' is the master formula, proved from the structure theorem; 'every rational direction' is licensed by irreducibility of g, exact over Q",
+  "paper_III": "already fixed in B8150 -- the s=0 evaluation needed the continuation fence",
+  "paper_IV": "already fixed in B8147 -- the family was enumerated at 14 and quantified over as if complete"
+ },
+ "why": "I proposed this sweep myself after the same check found defects in Papers III and IV, and said it was worth running on all four rather than treating them as one-offs."
+}

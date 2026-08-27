@@ -1,5 +1,15 @@
 # Changelog
 
+## B8150–B8151 — R011 closes the codex set, and the verified-vs-used check sweeps all four papers
+
+**R011 uptake found two defects in Paper III.** `eq:symfactor` was verified as an identity of **Euler products on `Re(s) > 2+m`** and then **evaluated at `s = 0`**, where the right-hand factors are outside convergence and are not Euler products — licensed only by analytic continuation, a step never stated. **Not false; a fencing defect.** Plus a **duplicated sentence** left by my own post-B1157 edit.
+
+**All four codex verdicts are now closed:** R010 settled at **3** with a control; R011 this arc; R013 shown **one-sided** and narrowed to `{16,20,26,28,36}`; R014 → **Paper IV retracted**.
+
+**Then the same check across all four papers.** Papers I and II **pass** the universal-quantifier audit — every *for every* is licensed by a proof, not a sample. **But Papers III and IV pointed at a bare `verify/` directory**, with no filename and no expected output, while I and II name the script and state the count. Fixed: all four now name the script and state a count matching the live suite (15/15, 13/13, 5/5, 7/7).
+
+**The pattern, stated once:** every defect this check found is *a claim asserted at a scope wider than the evidence establishing it* — a family enumerated at 14 and quantified over as complete; an identity verified on a half-plane and evaluated outside it; a directory offered where a runnable file was promised. **Different papers, one failure mode.**
+
 ## ⚠ B8147 — PAPER IV's SEPARATOR CLAIMS RETRACTED: the family was incomplete
 
 **codex R014 was right that both claims fall** — though its named witness `s955` refutes neither (`H₁ = ℤ/20 ⊕ ℤ`, cusp `ω`). What `s955` did was expose the real defect: it has shape field `ℚ(√−3)` and **was not in my family**.

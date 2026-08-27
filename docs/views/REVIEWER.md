@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1048** |
-| words of findings prose | **711,750** |
+| research arcs with findings | **1049** |
+| words of findings prose | **712,131** |
 | test lock files referenced | **611** |
-| arcs carrying an authored verdict | **1035** (98.8 %) |
+| arcs carrying an authored verdict | **1036** (98.8 %) |
 | recorded closures | **763** (589 classified, 174 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 695 |
+| PROVED | 696 |
 | NEGATIVE | 295 |
 | OPEN | 34 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B8145`** (605 words, 0 locks)  
-B8093's L171 TYPING VERIFIED AND EXTENDED. All EIGHT of its factual claims about CLPW confirmed VERBATIM from the source, down to the notation Pi = Theta(q), Tr 1 = 1 and H_obs = L^2(R_+) rather than L^2(R). The MOOD typing is correctly derived under the binding criteria. AND the gap B8093 disclosed in its own scope -- successor literature not read -- is now filled: Witten's background-independent algebra (2308.03663) is NOT a crossed product and does NOT invoke ergodicity; it gets II_1 from a TRACIAL STATE via the KMS condition. So B8093's (a) disanalogy is scoped to CLPW and does not extend. MOOD SURVIVES ANYWAY, for a different reason: B721 found our tracial state COMPLEMENTARY TO rather than INSIDE the KMS torsor, so the successor's engine is disanalogous too.  
-`B8145_l171_verified/FINDINGS.md`
+**PROVED — `B8151`** (381 words, 0 locks)  
+THE VERIFIED-VS-USED CHECK RUN ACROSS ALL FOUR PAPERS. Papers III and IV had already yielded defects by it (the s=0 continuation fence; the enumerated-vs-quantified family). Papers I and II PASS on universal quantifiers -- every 'for every' there is licensed by a general proof, not a sample. But a DIFFERENT defect showed up in the same sweep: Papers I and II name their verification script AND state its count (15, 13, both matching the live suites), while PAPERS III AND IV POINTED AT A BARE verify/ DIRECTORY -- no filename, no expected output. That is the reproducibility promise without the means to check it. Both now name the script and state the count (5 and 7, matching).  
+`B8151_verified_vs_used_sweep/FINDINGS.md`
 
 **NEGATIVE — `B8146`** (476 words, 0 locks)  
 L173'S PRECISION COLUMN IS COMPLETED AS A NEGATIVE, AND THE NEGATIVE RESHAPES THE PREREG. The load-bearing anchor (Verbin-Kraus-Zilberberg, arXiv:1403.7124) reports NO error bars, NO uncertainties and NO resolution limits anywhere -- it is a demonstration paper. Extracted instead: arrays of 13-28 waveguides (21 boundary-state, 28 phase-study, 13 pumping) and the phason scanned at THIRTEEN discrete values over [0,2pi), about pi/6 spacing. DECISIVELY: mode identification is QUALITATIVE (localization patterns), not a COUNT. So the prereg cannot state a required RESOLUTION from this literature; it must instead state a required OBSERVABLE -- the NUMBER of edge modes in a labelled gap -- which the anchor experiments do not currently produce.  

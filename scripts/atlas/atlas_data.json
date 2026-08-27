@@ -19472,6 +19472,15 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B8151": {
+   "slug": "verified vs used sweep",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B817": {
    "slug": "verdict wave2",
    "motifs": [
