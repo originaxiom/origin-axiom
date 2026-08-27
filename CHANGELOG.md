@@ -1,5 +1,27 @@
 # Changelog
 
+## B1183 (2026-08-27): THE ONE-CLASS THEOREM — the QP-4 no-self-closure obstruction IS the orientation obstruction (one ℤ/2 class under the one involution c); S1 FULLY PROMOTED; the bypass-door label upgraded to PROVED-AS-DECOMPOSED
+
+Cell (2) of the remaining-math queue (B1174's hatch 1; B1169's S1 last rung). **The theorem:** the QP-4
+obstruction (B760: no object-native operation canonically signs the chord/θ-odd sector) and the
+**orientation** obstruction (B1163) are **the same ℤ/2-torsor class** under the one global involution c.
+The proof, exact: the chord arithmetic re-derived (eigenvalues {ζ₅,ζ₅⁴}, char poly x²−(1/φ)x+1, ε²=−I
+pseudo-real); **one global involution through its restrictions** (c|_K = the Gal generator ω↦ω²; c|_ℚ(ζ₅) =
+σ₄ — which *fixes* √5, the parity mechanism again; c|_ℝ trivial) — the eigenvalue swap AND the ±√3 sign flip
+AND the orientation flip are all c; the sign-carrier lemma (Im f(ω̄) = −Im f(ω), exact); and **the
+equivariant map** ("orientation choice ↦ sign(Im) at the chosen embedding") — equivariant under one group ⇒
+an isomorphism of torsors, with the nontriviality having the same source both sides (c is an automorphism
+*of the object*: amphichirality | the inseparable σ₄-orbit). One basepoint trivializes both simultaneously.
+**Consequences:** (1) **B1169's S1 FULLY PROMOTED** — the four "cannot self-close" probes are ONE BIT,
+proved (B1174 + B1183); what stays firewalled is only S2/S3 (cloud's C6) and S4 (the quine, untouched).
+(2) **B1161's bypass-door label → PROVED-AS-DECOMPOSED**: the bypass obstruction = the archimedean c-leg
+(= SEAM-A's W₀ = the QP-4 class, **proved one class**) + the finite k7/arrow label (B1182, separately
+payable, not SEAM-A's). (3) The qualia arc completes its promotion: "awareness without choice" → the parity
+law → the choice *named* → the choice's class **proved one** across geometry, Galois, values, and the chord
+sector. Fences: B760's SU(2)/15-32/±√3 computations cited (their locked arc); classes identified, not the
+physical acts beyond the class; the quine untouched. Gate 5 clean. Locks
+`tests/test_b1183_one_class_theorem.py` (5, live exact asserts).
+
 ## B1182 (2026-08-27): C4′ RESOLVED POSITIVE — the unique iso (c,r,θ)→(k11,k7,k5); THE TIME'S-ARROW TYPED FINITE-PLACE (the B8144 instrument's first execution); the adelic observer typed leg-by-leg
 
 The cell the three-seat convergence specified, run on the owner's back-to-the-math GO. **The theorem:** the

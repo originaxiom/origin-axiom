@@ -1,0 +1,6 @@
+(a) char poly x^2-(1/phi)x+1 with roots {z5, z5^4}; eps^2=-I pseudo-real: NO real structure
+(b) c|Q(z5)=sigma_4 (fixes sqrt5, real); c|K: w->w^2 = the Gal generator = the orientation leg
+(c) Im f(w-bar) = -Im f(w) (real-coefficient f) => the +-sqrt3 chord sign flips under c|K;
+    magnitude c-invariant. T_orient and T_QP4 are torsors under THE SAME c; the map
+    'orientation choice -> sign(Im) at the chosen embedding' is c-equivariant => ISO.
+    Nontriviality same source both sides (c an automorphism of the object). ONE CLASS. REPRODUCES

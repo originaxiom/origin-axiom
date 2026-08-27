@@ -1,0 +1,19 @@
+{
+ "id": "B1183",
+ "arc": "the one-class theorem (QP-4 class = c's class)",
+ "verdict": "PROVED",
+ "theorem": "T_QP4 (the chord-sign torsor) = T_orient (the orientation torsor) as Z/2-torsors under the one global involution c",
+ "proof_legs": {
+  "a": "chord arithmetic exact (char poly, eigenvalues, eps^2=-I)",
+  "b": "one involution through restrictions (c|K = Gal gen; c|Q(zeta5) = sigma_4, fixes sqrt5; c|R trivial)",
+  "c": "sign-carrier: Im f(conj) = -Im f exact => the +-sqrt3 flip IS c",
+  "d": "the equivariant map (orientation choice -> sign Im) => iso; same nontriviality source (c an automorphism of the object)"
+ },
+ "consequences": {
+  "s1": "B1169 S1 FULLY PROMOTED (the four probes = one bit, proved); S2/S3 cloud's lane; S4 quine untouched",
+  "bypass_door": "B1161 label -> PROVED-AS-DECOMPOSED: archimedean c-leg = SEAM-A's W0 = QP-4 class (one proved class) + the finite k7/arrow label (B1182, separate)",
+  "qualia_arc": "'awareness without choice' -> parity law -> the choice named -> the choice's class proved ONE across geometry/Galois/values/chord"
+ },
+ "fences": "B760's SU(2) realization + 15/32 + the +-sqrt3 evaluation cited (their locked arc); my re-derivations = arithmetic + torsor-level equivariance; classes identified, not the physical acts beyond the class; the quine untouched. Gate 5 clean.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

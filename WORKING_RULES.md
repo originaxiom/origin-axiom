@@ -191,3 +191,12 @@ of them at gate time — latest-row-per-path, corrections-by-append supersede); 
 collision, fold-forward (one commit, one suite), never a stale certificate re-run.
 Evidence and error classes: E45–E48; the adoption record is B1101.
 
+
+## Currency note (2026-08-27, at head B1183) — two rules this window added to the standing set
+
+- **Sender-branch dual-homing (E51, B1172):** every seat-to-seat relay is committed on the SENDER's own
+  branch at send time (the `relays/` subdirectory pattern); the untracked channel alone preserves nothing —
+  nine files were lost with only their ledger rows surviving. The relay-debt gate now ages every lane.
+- **A family is a CLAIM, never a setting (the one-way family test, B8147/B1181):** any enumerated family a
+  result quantifies over is itself a claim — verify completeness or state the bound. Enlarging a family can
+  only hurt object-level claims and only help family-level ones.

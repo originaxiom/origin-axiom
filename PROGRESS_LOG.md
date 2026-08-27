@@ -11860,3 +11860,13 @@ the pair forces the iso). THE ARROW TYPED FINITE-PLACE (B8144's instrument, firs
 mod-(4) arithmetic form-class swap, finite orbits ⇒ escape-(1) available) — the orientation = the sole
 archimedean bit; the adelic observer leg-by-leg: c=archimedean orientation | r=finite label | θ=value-kernel
 | ℝ⁺ | VEV. Residual: the (α₂,α₄) dictionary (codex). Gate 5 clean. Locks test_b1182 (4).
+
+## B1183 (2026-08-27) — THE ONE-CLASS THEOREM: QP-4's obstruction = the orientation obstruction (one class)
+Cell (2): the QP-4 chord-sign obstruction (B760) and the orientation obstruction (B1163) are THE SAME
+ℤ/2-torsor class under the one global involution c. Proof exact: the chord arithmetic ({ζ₅,ζ₅⁴},
+x²−(1/φ)x+1, ε²=−I); one involution through restrictions (c|K=Gal gen; c|ℚ(ζ₅)=σ₄ fixing √5; c|ℝ trivial);
+the sign-carrier lemma (Im f(ω̄)=−Im f(ω)); the equivariant map ⇒ iso; same nontriviality source (c an
+automorphism of the object). Consequences: B1169-S1 FULLY PROMOTED (four probes = one bit, proved; only
+S2/S3 cloud + S4 quine remain); B1161's label → PROVED-AS-DECOMPOSED (archimedean c-leg = SEAM-A's W₀ =
+QP-4's class, one proved class; + the finite k7/arrow label, separate); the qualia promotion arc complete.
+B760's computations cited; classes identified, not acts. Gate 5 clean. Locks test_b1183 (5).
