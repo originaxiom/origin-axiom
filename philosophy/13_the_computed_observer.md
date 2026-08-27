@@ -45,3 +45,18 @@ This room's claim-discipline note: the phase-as-qualia reading (arg(h):
 observer-dependent, π/10-quantized, invisible in |h|², private-lawful-
 irreducible) remains FENCED — the properties match, the identification is
 not claimed.*
+
+---
+
+## Addendum (2026-08-27, B1176/R50-4) — the scoreboard through the APEX + charter era
+
+The computed-observer scoreboard, updated for what the record now PROVES (each line cites its bank):
+the observer's discretion is **two bits + one dilaton** (B1164/B1166: the c-leg orientation + the √3
+form-class leg + ℝ⁺); its **mechanism is the orbit-escape pair** (B1171: unshrinkable mirror vs F₄(ℤ)
+orbits); the **boundary is the mirror-parity law** (B1168, cloud-adopted as G-IDENT′); the **orientation
+is ONE shared involution across every register it appears in** (B1174: mirror = chirality = Gal(K/ℚ));
+and the qualia headline "awareness without choice" is now the decidable statement "the blanket sees the
+mirror-even; only an observer sets the odd bit" (B1169, solid core). What philosophy still owes the
+record: the QP-1 quine (can the basepoint-taking be modeled?), and the faith-vs-computed column for the
+torsor-law reading (firewalled in S074). The 2026-08-05-era text above stands as written — this addendum
+updates the scoreboard, not the argument.

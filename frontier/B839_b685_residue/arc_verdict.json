@@ -1,0 +1,7 @@
+{
+ "id": "B839",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "B685 residue (retro-authored at R50-4): the non-3 denominator is an EXPANSION ARTIFACT -- (2n)! absorbs the entire non-3 denominator at every computed order, and no other member of the sealed family does (prereg 0bbdc9f5fcf96cb2). [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

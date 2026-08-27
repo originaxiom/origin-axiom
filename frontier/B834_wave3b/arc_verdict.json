@@ -1,0 +1,7 @@
+{
+ "id": "B834",
+ "verdict": "OPEN",
+ "claim_one_line": "Wave 3b (retro-authored at R50-4): kappa replicated on the same 16-arc block with a fresh 12-reader panel at kappa = 0.9300 (three measurements spanning 0.0012), closing the failed four-category prediction -- 'agreement is a property of the panel, not of the vocabulary's width.' [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

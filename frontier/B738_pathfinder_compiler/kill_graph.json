@@ -10653,5 +10653,33 @@
   "note": "The C4-refutation pattern (B1166's sqrt3-vs-sqrt5) upgraded to theorem grade and completed into a structure statement: two V4's, one shared c-leg. The observer's orientation is ALWAYS the c-leg; the value/genus/form-class bits are provably other legs. Kills the one-torsor unification, NOT the shared-leg theorem (which is the productive content).",
   "priority": "P3",
   "revival_score": 2
+ },
+ {
+  "id": "B838",
+  "claim_killed": "R35-7's called-for lexicon re-grounding: the pre-seal frequency diagnostic shows K023-K025 are SYNTHESES, not topics -- no motif exists to re-ground on. TESTED AND DECLINED.",
+  "depth_note": "Retro-routed at R50-4 (B1176) with the retro arc_verdict; the FINDINGS remain primary.",
+  "faces_consulted": [
+   "meeting"
+  ],
+  "fact_computed": true,
+  "hatch": "if a future lexicon pass finds K023-K025 recurring as genuine topics (not syntheses), the re-grounding reopens with that evidence.",
+  "kill_form": "vacuity",
+  "note": "Pre-discipline-era arc; verdict authored 2026-08-27.",
+  "priority": "P4",
+  "revival_score": 1
+ },
+ {
+  "id": "B840",
+  "claim_killed": "B590's R1 'SEALED' verdict: VACUOUS -- polish_mp built 9 complex trace equations (18 real) for 22 real unknowns, so escapes==0 held because nothing was ever tested. (The arc's other loose ends closed positively.)",
+  "depth_note": "Retro-routed at R50-4 (B1176); the MB12 vacuous-check class's canonical early instance.",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "re-run the R1 check with an overdetermined system (>=22 real equations) if the underlying question is ever revived.",
+  "kill_form": "vacuity",
+  "note": "Pre-discipline-era arc; verdict authored 2026-08-27.",
+  "priority": "P4",
+  "revival_score": 1
  }
 ]

@@ -1,0 +1,7 @@
+{
+ "id": "B89",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Task T (retro-authored at R50-4): the cohomological/root-height route to char(J(m)) = prod char(+-M^k) is FORECLOSED -- at the trivial rep H^1(F2; ad triv) gives char poly char(M)^(n^2-1), verified != tower for n=3,4,5; the tower-carrying object is the trace-coordinate (Procesi) Jacobian, not a representation linearization. A closed-form symbolic-m Sym reduction survives as the advance. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

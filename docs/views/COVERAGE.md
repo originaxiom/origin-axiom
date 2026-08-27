@@ -11,10 +11,10 @@ view can quietly imply completeness it does not have.
 | layer | count | of | share |
 |---|---|---|---|
 | arcs with `FINDINGS.md` | **1079** | — | 100 % |
-| arcs with an authored verdict (W1) | **1066** | 1079 | 98.8 % |
-| classified in `kill_graph` | **767** | — | — |
-| kill records resolving to an arc | **722** | 767 | 94 % |
-| kill records with no arc directory | **45** | 767 | 6 % |
+| arcs with an authored verdict (W1) | **1079** | 1079 | 100.0 % |
+| classified in `kill_graph` | **769** | — | — |
+| kill records resolving to an arc | **724** | 769 | 94 % |
+| kill records with no arc directory | **45** | 769 | 6 % |
 
 ### Measured (B801), not merely flagged
 

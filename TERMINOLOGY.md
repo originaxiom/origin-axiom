@@ -586,3 +586,18 @@ Bridge identities: **ω = q−1**, **q = −ω̄**, **q̄ = 1−q = −ω** (the
 ℤ[q] = ℤ[ω] = the Eisenstein integers. Both are correct; a claim that one's minpoly/norm "should"
 be the other's is a basis confusion, not a mistake. (Sibling-frame hazard: B1143's B−L "vector
 mismatch" was the same phenomenon one level up — a Cartan-frame difference, not an error.)
+
+## The overloaded-symbol registry (B1176/R50-4; the E-class cure — say WHICH, every time)
+
+Four live **C-namespaces**: (1) the genesis chain C1–C6 (THEOREM_LEDGER; C3 = the inexhaustible-description
+axiom, C5 = the orientation axiom); (2) the gravity charter's C1–C6 (cloud; C3 = the dilaton claim, C5 = the
+superseded definitional admission → the parity law; relabel to CH1–CH6 suggested, cloud's call); (3) chat-1's
+refuted C3 (the entropy arrow — dead, cite only as history); (4) the Kashaev tower coefficients C₀–C₄
+(B1120/B1133). — Three live **κ senses**: the conserved first integral κ=tr[a,b] (the Sütő invariant; the
+atlas's 238×); the Möbius vector-field constant κ=2log(φ²)/√5 (P15); the Weil/affine stage level κ (κ=5
+golden). — Four **P5 senses**: the portfolio's P5 = the laboratory paper; `papers/P5_monoid` (WITHDRAWN); the
+protocol step P5 (COMPUTE_THE_PROGRAM); the meditation label P5. `papers/PORTFOLIO_2026-08-27.md` §2 is the
+P/PC disambiguation. — **G1–G3** = the three roles of gravity (B1165 addendum: anomaly / sector / frame) —
+distinct from any future charter G-labels. — **L110/L113** each name TWO leads (annotated in place in
+OPEN_LEADS; no renumbering). Rule (B964's, generalized): every load-bearing overloaded symbol gets a row
+here before its next use.

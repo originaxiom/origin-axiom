@@ -1,5 +1,22 @@
 # Changelog
 
+## B1176 (2026-08-27): THE RECORD-SURFACE WAVE (R50-4) — the portfolio landed in-repo; 13 retro arc_verdicts; the governed-rooms APEX repair; L189; the collisions annotated; the overloaded-symbol registry
+
+**(1) The portfolio** (`papers/PORTFOLIO_2026-08-27.md`, was memory-only): the ratified architecture (core
+trio P1/P2/P3 + satellites; P1's scrutiny campaign the first publication move; post-ratification
+strengtheners noted) + the **P/PC namespace disambiguation** (three colliding P-generations; FOUR P5
+senses; README's PC-only scope was the root cause — pointer added) + per-artifact dispositions (P4_markov
+the one arXiv-candidate, owner-gated; PC23 ready-minus; PC22 reframe-as-letter). **(2) Thirteen retro
+arc_verdicts** for the pre-discipline band (B58_stage1, B834–B842, B845, B89 PROVED M⁴=L, B89T NEGATIVE
+under the shared id) — each stamped retro-authored, FINDINGS primary; P3_depth_exposure exempt-by-name;
+B838/B840 kill-routed (vacuity). **(3) The rooms repair**: S074 homes the APEX doctrine (adelic object;
+values disjoint; the mechanism; the parity law; the shared involution) with the firewalled residue table;
+philosophy/13 gains the dated scoreboard addendum. **(4) L189**: the eight genesis-chat harvest candidates
+publicly OWNED (topics only; the private source stays untracked) — U_e + the quasinormal channel the two
+genuine physics-adjacent gaps. **(5) L110/L113 annotated in place** (no renumbering). **(6) The
+overloaded-symbol registry** in TERMINOLOGY.md (C×4, κ×3, P5×4, G1–G3; B964's rule generalized). Locks
+`tests/test_b1176_record_surface_wave.py` (5).
+
 ## B1175 (2026-08-27): THE CHARTER-CLOSE HARVEST — cloud filed Addendum 1 (every row moved; the gravity charter reconciled three-seat); codex R020/R021/R022 all byte-identical
 
 The two inbounds landed within hours of the B1170/B1174 relays and are harvested verified. **Cloud's

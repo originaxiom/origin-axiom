@@ -11793,3 +11793,12 @@ conjugation-coordinate fence); R020 Σ(V64)⊄V64 (cloud-scoped different-operat
 restriction CONSTANT (p*=0; one m004 spin structure does NOT extend; non-identification residual honored).
 Composition with B1174: C4′ = one bounded question (c↦conjugation class; θ=cr↦K-fixing-type leg). Charter
 reconciled three-seat. Gate 5 clean. Locks test_b1175 (5).
+
+## B1176 (2026-08-27) — THE RECORD-SURFACE WAVE (R50-4)
+The portfolio landed in-repo (papers/PORTFOLIO_2026-08-27.md: core trio P1/P2/P3 + satellites; P/PC
+disambiguation — 3 P-generations, 4 P5 senses, README's PC-only scope the root cause; per-artifact
+dispositions). 13 retro arc_verdicts (B58_stage1, B834–B845 band, B89 PROVED, B89T NEG under shared id;
+P3_depth_exposure exempt-by-name; B838/B840 kill-routed vacuity). The rooms repair (S074 the APEX doctrine +
+philosophy/13 scoreboard addendum). L189 (the 8 genesis-chat candidates owned; U_e + quasinormal the real
+gaps). L110/L113 annotated in place. The overloaded-symbol registry in TERMINOLOGY (C×4, κ×3, P5×4).
+Gate 5 clean. Locks test_b1176 (5).

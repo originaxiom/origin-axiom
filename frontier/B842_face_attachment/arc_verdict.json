@@ -1,0 +1,7 @@
+{
+ "id": "B842",
+ "verdict": "OPEN",
+ "claim_one_line": "Face attachment (retro-authored at R50-4): the reader panel PASSES its sealed gate -- Fleiss kappa = 0.8732, CI [0.7388, 0.9603] vs gate 0.60; B806's keyword classifier (precision 0.45, +55% over-prediction) was a different instrument, not a contradiction. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

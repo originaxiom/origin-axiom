@@ -1,0 +1,7 @@
+{
+ "id": "B837",
+ "verdict": "OPEN",
+ "claim_one_line": "File-drawer audit (retro-authored at R50-4): the count went 15 -> 0 -> 3 across three methods and only the last number came from READING -- the sealed-prereg-without-report population is 3, not 15. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

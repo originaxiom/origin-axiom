@@ -671,7 +671,7 @@ condition that let the whole Maass thread run unconnected for four arcs.*
 
 > **Review 34 (2026-07-30)** — bearing on lead selection: the (face, motif) plane is **saturated** (B808), so absence from it is not a gap; and the atlas lexicon is **frozen at 2026-07-01** (B806), so absence from the atlas is not evidence of absence.
 
-> **L110 — the CS↔θ_QCD dictionary has NO registered obligation set (opened 2026-07-30, B812).**
+> **L110 — the CS↔θ_QCD dictionary has NO registered obligation set (opened 2026-07-30, B812).** *(ID-COLLISION NOTE, B1176/R50-4: this CLOSED lead shares its number with the LIVE Maass row "the parent r₂-above-10 question" in the R32-8 table above — two distinct leads, one id; read "L110-CSθ" here vs "L110-Maass" there; no renumbering, per append-only.)*
 > B812's map found θ_QCD = 0 to be its **most advanced** target: dimensionless (no scale needed), it
 > supplies the *symmetric point* rather than a fitted value, **amphichirality is genuinely
 > manifold-level** (m003 is not a knot), and **`CS = 0` is computed and banked** (B286/B289/B303).
@@ -744,7 +744,7 @@ clause, not the whole normalisation.
 ### Re-registrations from the cc3 loss audit (2026-08-05) — dropped forward obligations, each one row
 | id | lead | source | status |
 |---|---|---|---|
-| L113 | **The BC/CMR successor question** — is the β=1 system a BC/CMR-type system for K = ℚ(√−3)? The sole load-bearing assumption behind the level mismatch; if YES, B723's central identification fails unconditionally. cc3's branch holds the ℚ(√−3) groundwork (ray class mod (4) = ℤ/2; the Bianchi-BC verified negative + its structural reason). | B851 §3; phantom B858 | **RESOLVED 2026-08-07 by B942 — OUTCOME YES; the kill condition EXECUTED** |
+| L113 | **The BC/CMR successor question** *(ID-COLLISION NOTE, B1176/R50-4: this 2026-08-05 re-registration collided with the earlier L113 = cc's B798 algebraicity/100-digit box, which remains OPEN in the R32-8 table; read "L113-BC" here [RESOLVED by B942] vs "L113-alg" there [OPEN]; the B921-4 "COVERED: = L113" pointer refers to THIS row, L113-BC.)* — is the β=1 system a BC/CMR-type system for K = ℚ(√−3)? The sole load-bearing assumption behind the level mismatch; if YES, B723's central identification fails unconditionally. cc3's branch holds the ℚ(√−3) groundwork (ray class mod (4) = ℤ/2; the Bianchi-BC verified negative + its structural reason). | B851 §3; phantom B858 | **RESOLVED 2026-08-07 by B942 — OUTCOME YES; the kill condition EXECUTED** |
 | L114 | **The ι-status question (H-B787-IOTA), promoted** — decides whether the torsor measurement and the FMT measurement are one object; cc3's τ-parity prototype (L111) is the instrument. | B787; audit A3 | OPEN — cc3 assigned (their D4) |
 | L115 | **The a_π census** — Cell 2's CM-vs-construction discriminator (~10 primes, density-½). | cc3 branch cell2 | OPEN — cc3 assigned (their D3) |
 | L116 | **The Steil 1999 read** (IMA 109, 617–641) — class labels for the lift question. | registered source, never read | OPEN |
@@ -2085,3 +2085,16 @@ not thirteen: nothing lost, nothing duplicated — any future sitting dispositio
 the denominator stays 58. The qor5up branch itself is **FROZEN-RECORD-CLOSED** (registry entry landed,
 R47-3/R48-5 discharged). ★★ (a queue pointer, not a computation; the two-κ and shadow-library rows are the
 likeliest early reopens).
+
+## L189 — THE GENESIS-CHAT HARVEST CANDIDATES, OWNED (registered 2026-08-27, B1176/R50-4; source: the gitignored local triage list `chronicle_raw/HARVEST_CANDIDATES.md` — private by the LEAK-NOTHING rule; only the mathematical TOPICS are named here)
+
+The genesis-era chat export's triage extracted **eight candidate-unbanked mathematical claims** that no
+tracked surface owned until now (the completeness critic's highest-value gap): (1) **U_e** — the
+charged-lepton diagonalization (blocks any PMNS comparison; zero repo hits); (2) **the quasinormal-mode
+channel** (tower→measurable; zero repo hits); (3) the Verlinde k=5..7 continuation (with 78=dim E₆ at k=5);
+(4) L(1,χ₅) on the ℤ-ladder; (5) the ζ₅ irrational-basepoint extension of B728; (6) the two-input
+(scale+chirality) boundary framing (now largely subsumed by B1164/B1168 — verify-then-close); (7) the
+s=1/48 parity-twisted pair vs the PC22 identity; (8) *(one further item on the private list, structural)*.
+Owner: the banking seat. The cell shape: per item, a bounded verify-or-register pass (bank, register as its
+own lead, or close-as-subsumed with the citation). ★★★ (U_e and the quasinormal channel are the two genuine
+physics-adjacent gaps in the record). Private source stays untracked; this row is the public owner.
