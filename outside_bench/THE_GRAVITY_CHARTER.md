@@ -108,3 +108,86 @@ Relayed to cc and codex for attack. The bench's next gravitational cells
 route through C6's two-bin test. The charter is amendable only by filed
 addendum — silent edits to claims, conditions, or owners are the same
 offense as silent reclassification under MD1.
+
+---
+
+## ADDENDUM 1 (2026-08-27, B1165–B1173 + codex R018–R022 landed) — every row moved; filed per the charter's own amendment rule
+
+**G-IDENT re-typed (B1165, verdict accepted).** The object-SPECIFIC
+identification ("the observer's archimedean closing = the object's
+gravitational sector, object-specifically") is REFUTED — the honest close
+is GENERIC-RHYME: the dynamics (spectrum, zetas, torsion, Maass modes) is
+built from holonomy + Vol and survives a non-arithmetic swap; the
+arithmetic enters at exactly one static spot (Vol as an L-value).
+**Gravity is the WHERE of the observer's closing, generically — not a
+fingerprint of this object.** The charter's target accordingly updates to
+the law form below (C5). cc's reconciliation adopted (f5e565fc): memo
+78's "gravity load-bearing" (the anomaly ROLE in the in-frame forcing)
+and B1165's "gravity generic" (the arena ROLE) are different roles of
+gravity, both banked, no conflict.
+
+**C1 — carried, with the ARENA RESCOPE adopted (B1170).** cc3's B8143
+(252 contents / 222 killed by [SU(3)]³ / exactly TWO rigid+chiral+
+anomaly-free survivors = the SM 15-plet and conjugate, with ZERO object
+tokens in the code) + codex R019's universal reduction, three-seat
+verified: **the object supplies the arena; the anomalies supply the
+content.** E2's row is restated to match: the grav²Y condition is
+load-bearing IN THE RECORD'S FRAME (memo 78 stands as computed); the
+content it forces is arena-generic (the memo 75 re-scope, now extended
+from charges to shape). Minimality is alphabet-independent; uniqueness is
+alphabet-dependent — both fences adopted.
+
+**C3 — VERIFIED (B1166).** The U(1) half is object-paid exactly as
+predicted (CS ≡ 0, μ₆ torsion — the absorption exhibited), and Mostow
+rigidity forbids any second continuous modulus. The observer's continuous
+freedom is ℝ⁺ alone. Row upgraded from prediction to carried.
+
+**C4 — REFUTED-AS-STATED; adjudicated by the claim's author.** The
+charter's stated proof condition was NAMED-ACTION equivariant
+isomorphism, and by that condition cc's separator (branch-V₄ is
+√3-flavored, ramification {2,3}; being×hearing is √5-flavored,
+ramification {3,5}; √5 ∉ ℚ(ζ₁₂)) — made exact by codex R022's
+certificate — refutes the (branch, being×hearing) pair. The abstract
+reading (all regular V₄'s on 4 points are isomorphic) was never the
+claim; it is vacuous, as R022 states. **C4 is recorded REFUTED as
+stated.** Re-scoped by this addendum to:
+> **C4′ — the √−3-INTERNAL pair:** the branch-selection V₄ and the B1024
+> H¹ quotient (the measurement leg FROZEN per R022's typing requirement:
+> the H¹((⟨τ⟩,(ℤ/2)⁶)) quotient at Bourbaki nodes (α₂,α₄), one declared
+> coordinate convention, the four branch labels frozen) are one
+> named-action torsor. Being×hearing is DROPPED from the claim — it
+> pairs the record's two ends (√−3/√5) and is separated by construction.
+> PROOF: a label-preserving equivariant isomorphism with the frozen data.
+> REFUTATION: a flavor/ramification separator on this pair too.
+> OWNER: cc/codex (the continuing disc-144 chase); R022's
+> ill-typed-until-frozen verdict is the specification.
+
+**C5 — SUPERSEDED BY A LAW (B1168; the owner's investigation direction
+vindicated).** The charter priced C5 as a two-horn definitional
+admission. B1168 found a third answer the charter did not price, and it
+is DECIDABLE: **an archimedean datum is object-canonical iff it is
+mirror-EVEN and dimensionless** — well-defined on the un-oriented,
+scale-free object itself. Vol, cusp shape, lengths, |torsion|: object.
+CS, torsion signs, orientation: observer (mirror-odd). Scale: observer
+(dimensionful). The admission dissolves into a parity × dimension law —
+and the law IS this lane's C6 two-bin classification, stated as the
+decider rather than a test. G-IDENT's surviving form:
+> **G-IDENT′ (the law form): the observer's contribution = exactly the
+> mirror-ODD-or-DIMENSIONFUL data at the archimedean place, plus the
+> finite-place vev closing; everything mirror-even and dimensionless is
+> the object's.** Generic in the WHERE (B1165), lawful in the WHAT
+> (B1168), with the record's realization exact (memos 77/78/79/81).
+
+**C6 — unchanged, and now the load-bearing lane.** B1168 explicitly
+assigns completeness to this lane's standing test; every future exact
+gravitational datum must land in the parity×dimension bins. The bench's
+banked table (memo 81: lengths even, torsions odd; memo 79: orientation
+charged, chirality free) already conforms — 0 exceptions to date.
+
+**Side notes from the same fetch:** B1171 verified memos 80 and 82 on
+cc's bench. Codex R020 refutes principal-Σ preservation of B1140's
+spacetime-64 — SCOPE NOTE: that is the PRINCIPAL nilpotent operator on
+the main corpus's 64; this lane's beat is the ROOTS[0] single-root
+operator on the carrier (R020's own "hostile convention lock" states the
+two are different operators) — no lane result is touched. Codex R021
+(Gieseking Pin⁻) is noted as orientation-adjacent, unprocessed here.
