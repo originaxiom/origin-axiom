@@ -1,5 +1,23 @@
 # Changelog
 
+## B1185 (2026-08-27): L186 CLOSED — THE THREE-MECHANISMS THEOREM (genuinely three) + the down-Yukawa evaluator's benchable half
+
+Owner's GO on the remaining-math queue. **The theorem**: the record's three named Yukawa-suppression
+mechanisms are GENUINELY THREE — INV-1 arena (the same up-coupling is rank 0 in the heterotic dressing —
+codex R017's certs RE-RUN PASS on this bench, the exact 1×6 zero — vs 6-nonzero on the object channel:
+one mechanism cannot both kill and allow the same coupling); INV-2 rank+selectivity (rank 0 +
+sector-asymmetric vs rank exactly 2 + sector-universal 810/810); INV-3 index space (the family-rank
+kernel is a FAMILY direction — an index the object provably lacks, generation-NULL degree-2 — while the
+object channel kills nothing, up 6/6 down 6/6). The one-costume direction falsified exactly. Synthesis
+(fenced): three LAYERS (dressing/object/E8-fence), restoration costs typed wall / continuous-ℙ³ (the down
+READOUT — C12 proved trivial on B₀, so purely continuous) / finite-3-label — the B1182 rhyme. **The
+evaluator's benchable half built exactly**: mod-12 bookkeeping reconciled (raw (7,6,2)+once-applied shifts
+=(8,4,0)), the 36-entry census 18+9+6+3=3×3×4, the tail rule ρ+σ≡8 → {(0,8),(2,6),(4,4)}, and THE SKEW
+ZERO — the repeated 1-dim (4,4) channel vanishes EXACTLY over ℚ(ζ₁₂): the down block's first
+theorem-grade char-0 statement. The remaining half (the cyclic/Serre 𝒯) = codex's declared single next
+artifact — commissioned (R023 relay); their audit's uncommitted load-target flagged (E51 class). Gate 5
+clean. Locks test_b1185 (4).
+
 ## B1184 (2026-08-27): THE QUINE SYNTHESIS — SELF-NAMING WITHOUT SELF-SIGNING (S4 split-answered; the observer table's cc-rungs close)
 
 The quine cell (B1169's S4). **The correction first**: the register's "QP-1 open" was STALE — B762 ran the

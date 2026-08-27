@@ -2034,7 +2034,7 @@ Mechanical, per-file, **test-outcome-preserving** (each file's own tests re-run 
 **E50** cost class at the root rather than only routing around it. ★★★ (program health — a suite that
 gets run is the only lock that catches anything).
 
-## L186 — THE THREE YUKAWA-SUPPRESSION MECHANISMS: one or three? (registered 2026-08-27, B1171; source: cloud memo 82's closing fence, verified byte-identical on this bench)
+## L186 — CLOSED: THREE (B1185, 2026-08-27). THE THREE YUKAWA-SUPPRESSION MECHANISMS: one or three? (registered 2026-08-27, B1171)
 
 The record now carries **three distinct, named Yukawa-suppression mechanisms — none identified with
 another**: (1) **SEAM-Y** — cc's/codex's bundle-cohomology wall (μ_u = 0 at height-308: H¹(G_Y)=0
@@ -2048,6 +2048,13 @@ observer/vacuum. **The lead: are these one mechanism wearing three costumes, or 
 falsifiable identification (a map carrying one suppression to another, or a proof of distinctness) either
 way banks. Priority ★★★ (touches SEAM-Y, the masslessness ledger, and the E8 fence at once; each pairwise
 comparison is a bounded cell).
+
+**CLOSED (B1185): GENUINELY THREE** — three exact pairwise invariants: INV-1 arena (the same
+up-coupling rank 0 in the dressing vs 6-nonzero on the object channel); INV-2 rank+selectivity
+(0 + sector-asymmetric vs exactly-2 + sector-universal 810/810); INV-3 index space (the family
+index is external to the object — generation-NULL, degree-2 trace field). The identification
+direction falsified. Residue (fenced, organizing): three layers, restoration costs typed
+wall / continuous-ℙ³ (down readout; C12 trivial on B₀) / finite-3-label — the B1182 rhyme.
 
 ## L187 — THE DEPTH-CLOSURE BACKLOG (registered 2026-08-27, B1172; source: cc3's P3 depth-exposure stratum, CC3_TO_CC_2026-07-22_p3_complete — the ledger's oldest debt, triaged)
 

@@ -1,0 +1,12 @@
+{
+ "id": "B1185",
+ "arc": "L186 the three Yukawa-suppression mechanisms + the down-evaluator benchable half",
+ "verdict": "PROVED",
+ "theorem": "GENUINELY THREE: INV-1 arena (rank 0 dressing vs 6-nonzero object, same coupling); INV-2 rank+selectivity (0+asymmetric vs exactly-2+universal 810/810); INV-3 index space (family index external to the object -- generation-NULL degree-2)",
+ "l186": "CLOSED: THREE (the identification direction falsified exactly)",
+ "synthesis_fenced": "three layers (dressing/object/E8-fence); restoration costs wall / nothing (down readout = continuous P^3, C12 trivial on B_0) / finite 3-label -- B1182 rhyme, not an identification",
+ "evaluator_benchable_half": "mod-12 bookkeeping reconciled ((7,6,2)+once-applied shifts=(8,4,0)); census 36=18+9+6+3=3x3x4; tail rule rho+sigma=8 -> {(0,8),(2,6),(4,4)}; THE SKEW ZERO: (4,4) repeated 1-dim channel = 0 EXACTLY over Q(zeta_12)",
+ "dual_homed_this_arc": "codex R017 scope + no-go certs re-run PASS on this bench (mu_u = exact 1x6 zero; OA-C1055; C12 trivial on B_0)",
+ "commissioned": "T_cal = (Delta_G, Tr_(Y,Omega), S) over Q(zeta_12) -- codex's declared single next artifact; + commit the audit's load-target certify_yukawa_down_tail_cech_308.sage (single-homed GF(1009) record, E51 class)",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}
