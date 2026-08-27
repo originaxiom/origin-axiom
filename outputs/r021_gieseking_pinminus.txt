@@ -1,0 +1,15 @@
+R021 Gieseking Pin-minus restriction certificate
+convention: Riemannian Pin^- obstruction = w2(TN)+w1(TN)^2
+M=m004: R_ab=a-b; H1(M)=Z<a=b>; dim H1(M;F2)=1
+N=m000: relations (a-b, a-2t); unit 2x2 minor=1
+H1(N)=Z<t>, with a=b=2t; dim H1(N;F2)=1
+chi(N)=0, b0=1, b1=1, b3=0 => b2=0 => H^2(N;F2)=0
+Pin^- obstruction group H^2(N;F2) is zero; obstruction vanishes
+Pin^-(N) is an H^1(N;F2)-torsor: exactly 2 Pin^- structures
+Spin(M) is an H^1(M;F2)-torsor: exactly 2 spin structures
+u(t)=1 gives p^*u(a)=p^*u(b)=u(2t)=0
+linear difference map p^*: H1(N;F2)->H1(M;F2) is the zero map
+affine restriction: res(P)=s and res(P+u)=s for one unnamed spin structure s
+therefore the other spin structure on M does not extend to a Pin^- structure on N
+scope fence: this does not identify s with any named SL(2,C) sign lift
+typing fence: tangent Pin^- != deck representative t != internal 2T center != semilinear holonomy matrix
