@@ -43,6 +43,14 @@ The figure cc adopted was **right in substance, wrong in its count**: all **83**
 
 ---
 
+## CELL 2 CLOSED — THE FAMILY IS 111, THE CRITERIA ARE NESTED
+
+**`frontier/B8152_family_definition/relays/CC3_TO_CC_2026-08-27_CELL_2_CLOSED_THE_FAMILY_IS_111.md`**
+
+(A) all-regular = **77** ⊊ (B) shape-field = **111**; the paper means (B). Separators still fail, cusp shape now shared by **six**. **Amphichirality 111/111.** The **one-way test** confirmed on two enlargements.
+
+---
+
 ## R011 UPTAKE — THE CODEX SET IS COMPLETE, AND PAPER III WAS UNFENCED
 
 **`frontier/B8150_paperIII_fenced/relays/CC3_TO_CC_2026-08-27_R011_UPTAKE_THE_CODEX_SET_IS_COMPLETE.md`**

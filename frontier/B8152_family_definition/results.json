@@ -1,0 +1,26 @@
+{
+ "consequences": {
+  "amphichirality_strengthens_again": "111 of 111, no exceptions -- from 14/14 to 83/83 to 111/111",
+  "separators_still_fail": "H_1 = Z shared by o10_150700; the cusp shape 2sqrt3 i shared by SIX members (t12840, o9_41001, o9_41009, o10_150684, o10_150685, o10_150693) -- up from four on the 83",
+  "the_one_way_test_confirmed_twice": "enlarging the family destroyed both object-level claims and reinforced the family-level one, in both enlargements"
+ },
+ "control": "the membership test must recover all fourteen originals. It does -- zero missing.",
+ "not_claimed": [
+  "that 111 is the count of all such manifolds -- it is the census count",
+  "that criterion A is wrong -- it is a strictly narrower, different claim"
+ ],
+ "scope": {
+  "census_bounded": "111 counts CENSUS members. The paper's own definition is census-bounded, so this is the right figure for it -- NOT a claim about all hyperbolic 3-manifolds.",
+  "numerical_test": "z is in Q(sqrt-3) iff Re(z) and Im(z)/sqrt(3) are both rational; tested at bounded denominator with a tolerance, and controlled against the original 14"
+ },
+ "the_two_criteria": {
+  "A_all_regular_ideal": 77,
+  "A_strictly_inside_B": true,
+  "B_shape_field_in_Qsqrt3": 111,
+  "in_A_not_B": 0,
+  "in_B_not_A": 34,
+  "which_one_the_paper_means": "(B) -- the paper defines F by the tetrahedron shape field, so |F| = 111",
+  "why_they_were_conflated": "both hold for m004 and for 8 of the original 14; the 6 that fail A are what should have exposed it"
+ },
+ "why": "cc's THE_REMAINING_MATH.md queues this as cell 2, NEXT (recommended), described as the B1180 residue: what IS the >=83 family, all-regular vs trace-field, each a different claim. It is the open definitional edge my own retraction left."
+}

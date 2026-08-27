@@ -11106,3 +11106,7 @@ Opened codex's R014 (a day late) and verified it: both of Paper IV's separator c
 
 Took up R011 and found Paper III evaluating a verified-on-a-half-plane identity at `s = 0` with no continuation step stated, plus a duplicated sentence of my own. Then ran the same verified-vs-used check on all four papers: I and II pass on quantifiers, but III and IV were pointing referees at a bare directory. All four now name their script and state a matching count. **Every defect the check has found is the same shape — a claim at a scope wider than its evidence.**
 
+## B8152 — the family is 111
+
+Closed the queue's cell 2. The two criteria are strictly nested — all-regular (77) inside shape-field (111) — and the paper means the latter. Separators still fail, amphichirality now 111/111, and the one-way test is confirmed on two enlargements. **Also: the gate refused this push until I fixed two of my own slips** — an unnecessary `BLIND_ARCS` row (the B8143 mistake again) and the missing synthesis-surface entries.
+

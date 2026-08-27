@@ -1,5 +1,15 @@
 # Changelog
 
+## B8152 — cell 2 closed: the family is 111, and the two criteria are strictly nested
+
+The queue's NEXT-recommended cell, and the definitional edge my own retraction left. Across the census: **(A)** all tetrahedra regular ideal = **77**; **(B)** shape field ⊆ `ℚ(√−3)` = **111**. **`A ⊊ B`** — `A\B` is empty, but **34** members of `B` are non-regular, **six of them in my original fourteen**, which is exactly what should have exposed the conflation and did not.
+
+**Paper IV's definition has always been (B), so `|𝓕| = 111`** — eight times what I enumerated, and more than the `≥83` lower bound the retraction could state. Control: the membership test recovers all fourteen originals, zero missing.
+
+**Both separators still fail, one harder:** `H₁ ≅ ℤ` shared by `o10_150700`; the cusp shape now shared by **six** members, up from four. **Amphichirality strengthens again — 111/111.**
+
+**So the one-way test is confirmed on two independent enlargements** (14→83, 83→111): enlarging a family destroys object-level claims and reinforces family-level ones, both times. **SCOPE: 111 is the census count**, matching the paper's census-bounded definition.
+
 ## B8150–B8151 — R011 closes the codex set, and the verified-vs-used check sweeps all four papers
 
 **R011 uptake found two defects in Paper III.** `eq:symfactor` was verified as an identity of **Euler products on `Re(s) > 2+m`** and then **evaluated at `s = 0`**, where the right-hand factors are outside convergence and are not Euler products — licensed only by analytic continuation, a step never stated. **Not false; a fencing defect.** Plus a **duplicated sentence** left by my own post-B1157 edit.

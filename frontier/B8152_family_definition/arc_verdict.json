@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-27)",
+ "claim_one_line": "CELL 2 CLOSED: THE FAMILY IS 111, AND THE TWO CRITERIA ARE NESTED. (A) all tetrahedra regular ideal = 77 members; (B) tetrahedron shape field contained in Q(sqrt-3) = 111 members; A is a STRICT subset of B, with 34 members of B non-regular and A\\B empty. Paper IV's own definition is (B), so the family is 111 -- eight times the 14 it enumerated, and more than the >=83 lower bound my retraction could state. Both separators still fail (H_1 = Z on o10_150700; the cusp shape on SIX members, up from four). And all 111 are amphichiral, no exceptions.",
+ "creates_law": "TWO CRITERIA THAT AGREE ON A SAMPLE CAN BE STRICTLY NESTED. 'All tetrahedra regular ideal' and 'shape field inside Q(sqrt-3)' both hold for m004 and for most of the original list, which is why they were conflated; across the census A = 77 and B = 111 with A strictly inside B. The paper's definition was always B. SCOPE: 111 counts CENSUS members -- the criterion is census-bounded by the paper's own definition, not a claim about all hyperbolic 3-manifolds. SCOPE: the numerical test for membership in Q(sqrt-3) is Re(z) and Im(z)/sqrt(3) both rational at bounded denominator; it is controlled by requiring that it recover all fourteen originals, which it does.",
+ "depends_on": [
+  "B8147"
+ ],
+ "id": "B8152",
+ "instrument": false,
+ "reproducer": "census scan under BOTH criteria with the original 14 as a control that criterion B must contain",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}
