@@ -1,0 +1,23 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: the unique 27-coupling C: dim 1 over Q, all 45 entries in {+1,-1}
+   after one normalization — ENTIRELY RATIONAL (memo 47 reproduced)
+FACT 2: the E8 family vertex T: all 1620 entries in kappa*Z = {-60, 60}
+   — ENTIRELY RATIONAL (kappa = -60, memo 53 reproduced)
+FACT 3: sample rephasing-invariant products (pairwise + total over all 45):
+   pairwise samples all in {+1,-1}: True; total product = -1
+   every product of entries in either channel is a nonzero RATIONAL — REAL.
+
+BRANCH REAL: the object forces ZERO CP-odd phase — both banked coupling
+channels are defined over Q, so no rephasing-invariant of the forced
+couplings can be non-real.  The CP column of the cosmogony ledger lands
+OBSERVER-SIDE, in the same column as the arrow of time (both mirror-odd),
+exactly as the parity law (B1168) predicts — and the charter's C2
+survives this stress test.  Nature's observed CP phase contradicts
+nothing here: it is priced to the observer's closing (vev phases / frame
+data), not denied.  FENCES: the two banked channels only; record-parity,
+not 4d-QFT CP (Gates 2/3).  Gate 5 untouched.
