@@ -3730,6 +3730,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1186": {
+   "slug": "family is 112",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B762"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B118": {
    "slug": "theta fixed root sign",
    "motifs": [

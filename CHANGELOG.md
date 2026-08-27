@@ -1,5 +1,22 @@
 # Changelog
 
+## B1186 (2026-08-27): the family-definition cell CLOSED — THE FAMILY IS 112 (cc3's B8152 harvested, verified, and corrected by one member)
+
+cc3 ran THE_REMAINING_MATH cell 2 within the hour of the queue doc's push (B8152: criteria nested,
+family = 111). Verified here by INDEPENDENT full-census enumeration (own code, committed —
+the dual-homed artifact their arc lacked; same census, 212,641): nestedness CONFIRMED (|A| = 77
+all-regular, A ⊊ B, Paper IV's definition is B) — **but |B| = 112, not 111**. The corrective member:
+**t06829** (7 tets, 2 cusps, volume exactly 3×m004), shape denominators to **98** (all others ≤ 49) —
+past cc3's implicit bound; certified EXACTLY (its ℚ(√−3) candidates solve the full gluing-equation
+system symbolically; controls behave). THE RECURSION OF THE LESSON: B8152's own headline — a bounded
+test is a different claim than its criterion — applied to its own count; scope stated (census, den
+bound 256). Consequences, all verified in the committed run: **amphichirality 112/112** (third
+strengthening); **the quine survives the full family** (zero collisions); the six 2√3i carriers match;
+both separators stay dead; the one-way family test fires a THIRD time. Fence narrated: this bench's
+first verifier had a double-cast precision bug (wrongly rejected o9_41001) — caught by chasing the
+disagreement before trusting the tool. Reply relayed to cc3 (Paper IV → 112 with the bound stated).
+Gate 5 clean. Locks test_b1186 (3).
+
 ## B1185 (2026-08-27): L186 CLOSED — THE THREE-MECHANISMS THEOREM (genuinely three) + the down-Yukawa evaluator's benchable half
 
 Owner's GO on the remaining-math queue. **The theorem**: the record's three named Yukawa-suppression
