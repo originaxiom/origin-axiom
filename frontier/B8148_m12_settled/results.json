@@ -1,0 +1,22 @@
+{
+ "not_claimed": [
+  "that the independent count used the b < floor(sqrt(D)) form -- only that this form yields 2",
+  "that anything in Paper I depends on m >= 12 -- the threshold claim concerns the first repetition at m = 6"
+ ],
+ "paper_updated": "Paper I's remark rem:m12 now states the resolution at 3, records the control, and records the off-by-one caution",
+ "result": {
+  "GL2 classes": 3,
+  "SL2 classes": 3,
+  "control": "the rebuilt method reproduces (1,1,1,1,1,2,1,1,2,2,1) for m=1..11 exactly BEFORE being applied at m=12",
+  "m=12 disc": 148
+ },
+ "status_of_codex_R010": "reports m12 RESOLVED but the relay body is untracked and the ledger row does not state the direction. This bench settles it at 3 with a control; the two should be COMPARED, not assumed to agree.",
+ "the_likely_source_of_2": {
+  "effect_at_D=148": "sqrt(148) = 12.166..., so b = 12 is admissible; excluding it removes exactly one class and returns 2",
+  "not_asserted": "I do NOT claim this is what the independent count did. It is the mechanism that produces 2 from an otherwise correct method, offered as the likely explanation.",
+  "provenance": "MY OWN first re-implementation in this arc made exactly this slip -- it also returned 0 classes at m=11 and m=13, which is how it was caught",
+  "the_slip": "reduction requires 0 < b < sqrt(D); implementing b < floor(sqrt(D)) discards b = floor(sqrt(D))",
+  "why_it_is_legitimate": "whenever D is not a perfect square, floor(sqrt(D)) < sqrt(D), so that b is admissible"
+ },
+ "why": "codex R010 ('Paper-I m12 resolved') reached this seat in the same relay as R014 and was left unprocessed while I acted only on the refutation. The owner's direction -- sends hold, back to the mathematics -- made the remaining uptake the next work."
+}

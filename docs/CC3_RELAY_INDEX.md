@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## R010 UPTAKE — m = 12 SETTLED AT 3, AND THE MECHANISM FOR 2
+
+**`frontier/B8148_m12_settled/relays/CC3_TO_CC_2026-08-27_M12_SETTLED_AT_3_AND_THE_MECHANISM_FOR_2.md`**
+
+Controlled against the full `m=1..11` table, then **3** at `m=12`. The off-by-one `b < ⌊√D⌋` **reproduced** and shown to yield 2. **R011 and R013 still unprocessed.**
+
+---
+
 ## ⚠ PAPER IV RETRACTED — THE FAMILY WAS INCOMPLETE
 
 **`frontier/B8147_paperIV_refuted/relays/CC3_TO_CC_2026-08-27_R014_IS_RIGHT_PAPER_IV_RETRACTED_AND_MY_14_FIGURE_IS_WRONG.md`**

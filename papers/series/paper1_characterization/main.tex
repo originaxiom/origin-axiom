@@ -223,12 +223,22 @@ the stated counts. The computation is reproduced, with controls, by the script n
 Appendix~\ref{app:verify}.
 \end{proof}
 
-\begin{remark}[a recorded disagreement]\label{rem:m12}
-An independent count communicated to us reports $2$ primitive classes at $m=12$, where our
-enumeration gives $3$. We have not resolved the discrepancy and therefore state
-Theorem~\ref{thm:classes} only for $m\le11$. Nothing in this paper depends on $m\ge12$: the
-threshold claim concerns the \emph{first} repetition, which occurs at $m=6$, and both counts
-agree on $1\le m\le11$. We flag it rather than suppress it.
+\begin{remark}[a recorded disagreement, now resolved]\label{rem:m12}
+An independent count communicated to us reported $2$ primitive classes at $m=12$, where our
+enumeration gives $3$. \textbf{We have since settled it at $3$}, by re-implementing the reduction
+from scratch and validating the implementation against the whole of Theorem~\ref{thm:classes}: the
+rebuilt method reproduces $(1,1,1,1,1,2,1,1,2,2,1)$ for $m=1,\dots,11$ exactly before being applied
+at $m=12$, where it returns $3$ classes under both $\SL(2,\Z)$- and $\GL(2,\Z)$-equivalence.
+
+\textbf{A caution worth recording, since it cost us a first attempt.} The reduction condition is
+$0<b<\sqrt{D}$; implementing it as $b<\lfloor\sqrt{D}\rfloor$ silently discards the case
+$b=\lfloor\sqrt{D}\rfloor$, which is legitimate whenever $D$ is not a perfect square. At $D=148$
+that single exclusion removes a class and returns $2$. An implementation making this slip agrees
+with the correct one at many small $m$ and fails without warning at others, so a count that has not
+been validated against a known table should not be trusted.
+
+Nothing in this paper depends on $m\ge12$: the threshold claim concerns the \emph{first}
+repetition, at $m=6$.
 \end{remark}
 
 \begin{remark}[the trap this exposes]

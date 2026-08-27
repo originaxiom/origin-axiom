@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-27)",
+ "claim_one_line": "PAPER I'S FLAGGED m=12 DISAGREEMENT IS SETTLED AT 3. A from-scratch re-implementation reproduces the banked GL(2,Z) table (1,1,1,1,1,2,1,1,2,2,1) for m=1..11 EXACTLY as a control, then returns 3 classes at m=12 under both SL(2,Z) and GL(2,Z). AND THE LIKELY SOURCE OF '2' IS IDENTIFIED: the reduction condition is 0 < b < sqrt(D); coding it as b < floor(sqrt(D)) silently discards b = floor(sqrt(D)), legitimate whenever D is not a perfect square, and at D = 148 that single exclusion removes exactly one class and yields 2. My own first re-implementation made that slip.",
+ "creates_law": "AN UNCONTROLLED COUNT IS NOT A COUNT. The off-by-one b < floor(sqrt D) versus b < sqrt(D) agrees with the correct reduction at many small discriminants and fails silently at others, so a class count that has not been validated against a known table carries no weight. SCOPE: this settles the m=12 value on THIS bench with a control; codex's R010 also reports m12 resolved but its direction was not readable from the relay ledger row, so the two should be compared rather than assumed to agree. SCOPE: nothing in Paper I depends on m >= 12 -- the threshold claim is about the FIRST repetition, at m = 6.",
+ "depends_on": [
+  "B8135"
+ ],
+ "id": "B8148",
+ "instrument": true,
+ "reproducer": "reduction re-implemented from scratch and validated against Theorem thm:classes' full m=1..11 table before use at m=12",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}
