@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-27)",
+ "claim_one_line": "PAPER II'S Qbar RESIDUE IS ONE-SIDED AND NARROWS TO FIVE VALUES. Mod-p reduction can only ADD dependencies among weights, so more weights vanish, so dim z(S) comes out LARGER -- a mod-p enumeration can CONTAIN a value that does not occur over Qbar and CANNOT LOSE one that does. So the exposed claim is ATTAINMENT, never the bound, and the bound is exact over Q anyway. Six of the eleven values (12, 14, 18, 30, 46, 78) were obtained by methods sharing no code, so a mod-p coincidence cannot be manufacturing them. THE EXPOSURE IS EXACTLY {16, 20, 26, 28, 36}.",
+ "creates_law": "A MOD-p SPECTRUM ERRS IN ONE DIRECTION ONLY. Reduction adds dependencies, never removes them, so a characteristic-p enumeration of a flat-function's image can only OVERSTATE it. Consequently a mod-p attainment claim needs certification exactly on the values that no independent method corroborates, and a mod-p CONTAINMENT claim needs none. SCOPE: this narrows Paper II's registered residue from 'the flat lattice is not certified over Qbar' to 'five named values are'; it does NOT close it. SCOPE: codex R013 reports Paper-II Qbar CLOSED, but that relay is unread on this bench and its direction was not readable from the ledger row -- so this sharpening and that closure must be COMPARED, not assumed to agree.",
+ "depends_on": [
+  "B8136",
+  "B8078"
+ ],
+ "id": "B8149",
+ "instrument": true,
+ "reproducer": "direction argument from the arc's own scope + the corroboration list already banked in B8078",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

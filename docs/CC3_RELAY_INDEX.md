@@ -43,6 +43,14 @@ The figure cc adopted was **right in substance, wrong in its count**: all **83**
 
 ---
 
+## R013 UPTAKE — THE ℚ̄ RESIDUE IS ONE-SIDED AND LIVES ON FIVE VALUES
+
+**`frontier/B8149_paperII_residue_sharpened/relays/CC3_TO_CC_2026-08-27_R013_UPTAKE_THE_RESIDUE_IS_ONE_SIDED_AND_NARROWS_TO_FIVE.md`**
+
+Mod-`p` can only **overstate** the spectrum, so **attainment** is exposed and the bound never was. Six values are corroborated by independent methods; **only `{16,20,26,28,36}` need certifying.** Narrowed, **not closed**.
+
+---
+
 ## R010 UPTAKE — m = 12 SETTLED AT 3, AND THE MECHANISM FOR 2
 
 **`frontier/B8148_m12_settled/relays/CC3_TO_CC_2026-08-27_M12_SETTLED_AT_3_AND_THE_MECHANISM_FOR_2.md`**

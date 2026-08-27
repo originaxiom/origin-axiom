@@ -328,11 +328,24 @@ open. The endpoints are unaffected: $78$ at $S=0$ and $12$ at $S=C$ are exact ov
 Theorem~\ref{thm:structure}.
 \end{scope}
 
-\begin{remark}[independent corroboration]
-Six of the eleven values --- $12$, $14$, $18$, $30$, $46$ and (trivially) $78$ --- were obtained
-in earlier separate computations that share no code with the enumeration here, and all six lie
-in the enumerated set. This is a consistency check on the arrangement, not a proof of
-exhaustiveness.
+\begin{remark}[which values are exposed, and in which direction]\label{rem:exposed}
+The residue of Scope~\ref{sc:primes} can be stated more precisely than ``not a $\overline{\Q}$
+certificate'', and it is worth doing so because the exposure is one-sided.
+
+\textbf{Direction.} Reduction modulo $p$ can only \emph{add} linear dependencies among weights.
+More weights vanishing on a subspace means a larger $\sum m_\lambda$, hence a \emph{larger}
+$\dim\z(S)$. So a mod-$p$ enumeration can \textbf{contain a value that does not occur over
+$\overline{\Q}$; it cannot lose one that does.} The exposed claim is therefore \emph{attainment},
+not the bound --- Theorem~\ref{thm:structure}'s containment is exact over $\Q$ and is untouched.
+
+\textbf{Which values.} Six of the eleven --- $12$, $14$, $18$, $30$, $46$ and (trivially) $78$ ---
+were obtained in earlier computations sharing no code with the enumeration here, so a mod-$p$
+coincidence cannot be manufacturing them. \textbf{The remaining five are exposed:}
+\[
+   16,\quad 20,\quad 26,\quad 28,\quad 36 .
+\]
+A $\overline{\Q}$ certificate is needed only for these, and anyone attempting one should check
+exactly them.
 \end{remark}
 
 \section{The $46$, and arithmetic inaccessibility}\label{sec:46}

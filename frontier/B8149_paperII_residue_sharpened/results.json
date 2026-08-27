@@ -1,0 +1,34 @@
+{
+ "not_claimed": [
+  "that the Qbar residue is closed -- this narrows it, nothing more",
+  "that codex's closure is wrong or right -- it is unread",
+  "any change to the containment bound, which was always exact over Q"
+ ],
+ "paper_updated": "Paper II's corroboration remark is replaced by rem:exposed, which states the direction and names the five",
+ "status_of_codex_R013": "reports Paper-II Qbar CLOSED. The relay body is untracked and the ledger row does not state how. UNREAD on this bench -- to be compared, not assumed to agree.",
+ "the_direction_argument": {
+  "consequence": "more weights vanishing on a subspace => larger sum of multiplicities => LARGER dim z(S)",
+  "fact": "mod-p reduction can only ADD linear dependencies among the 30 weights",
+  "therefore": "a mod-p enumeration can CONTAIN a value not occurring over Qbar, and CANNOT LOSE one that does",
+  "what_is_exposed": "ATTAINMENT only. The eleven-element CONTAINMENT bound is exact over Q (Theorem thm:structure) and is untouched."
+ },
+ "the_narrowing": {
+  "exposed": [
+   16,
+   20,
+   26,
+   28,
+   36
+  ],
+  "independently_corroborated": {
+   "12": "B874 sec.2, B8075",
+   "14": "B892 via B874",
+   "18": "B892",
+   "30": "B874 sec.1, B8075",
+   "46": "B866",
+   "78": "trivially, S=0"
+  },
+  "why_the_six_are_safe": "obtained by earlier computations sharing no code with this enumeration, so a mod-p coincidence cannot be manufacturing them"
+ },
+ "why": "R013 ('Paper-II Qbar closed') is one of the codex audit verdicts I named as unprocessed. I cannot verify a closure I cannot read, so I sharpened the residue instead -- which is the part that does not depend on their result."
+}
