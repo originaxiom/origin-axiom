@@ -1,5 +1,23 @@
 # Changelog
 
+## B1179 (2026-08-27): R50-7's GO-able halves — THE PAPERS RELAY sent to cc3's assembly; THE SPECIALIST SEND-QUEUE built and presented (nothing leaves without the owner's per-item word)
+
+**(1) The papers relay** (discharging the R48-11→R49-7 carry lineage): the paper-grade results since cc3's
+freeze handed to their assembly — the mirror-parity law (B1168/G-IDENT′), the arena rescope (B1170), the
+shared-involution theorem (B1174), the gravity close + the adelic mechanism (B1165/B1171), the charter
+reconciliation (B1175), the Gieseking Pin⁻ constraint (R021), the complete value verdict — plus **the
+portfolio as the shared architecture** (their four-paper series maps in, nothing displaced), the
+formulation recommendations, and the standing hazards stated informationally (R014 vs Paper IV — the owner
+holds the decisions). **(2) The specialist send-queue** (`docs/SPECIALIST_SEND_QUEUE.md`; the trigger
+formally FIRED at B1161's exhaustion; the June brief staleness-passed in place): **six bounded bars** —
+Q1 SEAM-A Gate 2 (★★★★, the prize crossing), Q2 J₃(𝕆) regulators, Q3 the B491 seam form (the P1-adjacent
+novelty ask), Q4 Cappell–Miller cusped vanishing, Q5 B165, Q6 the closed-form-k rider — each with the
+honest proof-status, the specialist type, and **the stated refutation risk** (what an expert could kill,
+said in advance); the torsion-parity excluded (cc3-internal first). Mechanics fixed: per-item
+SEND/HOLD/REFRAME; sends are the owner's act under the owner's name; every send gets a relay-ledger row so
+the repaired gate AGES it; replies harvested verify-don't-trust. Locks
+`tests/test_b1179_outreach_and_papers.py` (4).
+
 ## B1178 (2026-08-27): L184 EXECUTED — the collection lazy-fy; 178 s → 15 s (12×), two surgical fixes, outcomes preserved
 
 The per-file sweep (1063 files, B1177's addendum) found the diagnosis **surgical, not structural**: TWO

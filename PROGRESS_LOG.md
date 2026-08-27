@@ -11820,3 +11820,14 @@ collection. Outcomes preserved (5/5 post-fix; 277.88 s execution = the same comp
 CERTIFIED: full collection 178.41 → 15.14 s (5587 tests). The E50 root fix, same-day as its diagnosis.
 B1177's ADDENDUM_measurements landed (the per-file table committed; OA_SLOW launched-not-complete, honest).
 Instrument arc. Locks test_b1178 (2).
+
+## B1179 (2026-08-27) — R50-7's GO-able halves: the papers relay + the specialist send-queue
+(1) The papers relay sent to cc3's assembly (the R48-11→R49-7 lineage discharged): 7 paper-grade results
+since their freeze (the parity law/G-IDENT′; the arena rescope; the shared involution; the gravity close +
+adelic mechanism; the charter reconciliation; the Pin⁻ constraint; the complete value verdict) + the
+portfolio as shared architecture + formulation recs + hazards informational (R014 vs Paper IV). (2) The
+specialist send-queue built + PRESENTED (docs/SPECIALIST_SEND_QUEUE.md; the trigger fired at B1161): six
+bounded bars (SEAM-A Gate 2 ★★★★; J₃(𝕆); B491 seam form; Cappell–Miller; B165; the k-rider), each with
+honest status + the stated refutation risk + the owner decision box; torsion-parity excluded (cc3-internal
+first); mechanics: per-item SEND/HOLD/REFRAME, owner's act + name, sends rowed so the gate ages them. The
+June brief staleness-passed. Review 50 fully executed cc-side. Gate 5 clean. Locks test_b1179 (4).

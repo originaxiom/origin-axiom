@@ -1,0 +1,10 @@
+{
+ "id": "B1179",
+ "arc": "R50-7's GO-able halves: the papers relay + the specialist send-queue",
+ "verdict": "OPEN",
+ "papers_relay": "sent to cc3 (rowed); 7 paper-grade results + the portfolio + formulation recs + hazards (R014 informational) + re-pings",
+ "send_queue": "docs/SPECIALIST_SEND_QUEUE.md: 6 bars (SEAM-A Gate 2 the 4-star), each with honest status + refutation risk + owner decision box; June brief staleness-passed; torsion-parity excluded (cc3-internal first)",
+ "mechanics": "per-item SEND/HOLD/REFRAME; owner's act, owner's name; sends rowed so the gate ages them; replies verify-don't-trust",
+ "fences": "Nothing external moves without the owner's per-item word. The R014 hazard is stated informationally (the owner skipped O1; not re-litigated). Gate 5 clean.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}
