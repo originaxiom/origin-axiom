@@ -11728,3 +11728,15 @@ rank-3 abelian sector + SM-shaped-15-plet availability (B1160's realization; B11
 addendum gains a dated §2; cloud relay requests the charter's filed addendum + flags the C-namespace
 collision. cc3+codex credited; novelty none claimed (scoping only). Gate 5 clean. Locks
 tests/test_b1170_arena_rescope.py (7) + test_b1165 +1.
+
+## B1171 (2026-08-27) — THE SEAM HARVEST: five cross-seat results in one sitting
+(1) cc3 B8144 → the adelic MECHANISM (orbit-theorem escape pair; orientation: mirror genuine ⇒ full bit;
+VEV: F₄(ℤ) finite orbits ⇒ finite label, Krutelevich cited) banked with the main-side lock + 2 preregistered
+typing tests; own-verified vs all banked costs + the paid spin bit; time's-arrow instrument queued. (2) cc3
+B8145 → L171 CLOSED (MOOD); cc spot-verified 4/4 by own fetch; reason moved (KMS-traciality; B721
+complementary). (3) cc3 B8146 → L173 precision NEGATIVE; the prereg re-posed by ADDENDUM-BESIDE (sealed sha
+untouched): commission a mode-count observable ("the program supplies the KNOB, not the READOUT"). (4) cloud
+memos 80/82 byte-identical on-bench: the up-Yukawa SHAPE EXISTS on the object (SEAM-Y = the dressing's wall,
+proven different facts); 810/810 family matrices rank 2, kernel = the Higgs family; L186 registered (three
+Yukawa mechanisms: one or three?). (5) codex R015/R016 adopted (B1153 grade-note; B1158 fence-note) + two
+asks (R018 gap; ζ₁₂/dP₆ cert). All seats credited. Gate 5 clean. Locks tests/test_b1171_seam_harvest.py (8).

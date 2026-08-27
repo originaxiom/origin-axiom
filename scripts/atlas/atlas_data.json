@@ -3549,6 +3549,26 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1171": {
+   "slug": "seam harvest",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B721",
+    "L162",
+    "L171",
+    "L173",
+    "L186"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B117": {
    "slug": "interleaving",
    "motifs": [

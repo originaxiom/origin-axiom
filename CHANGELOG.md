@@ -1,5 +1,33 @@
 # Changelog
 
+## B1171 (2026-08-27): THE SEAM HARVEST — five cross-seat results landed in one sitting (the adelic mechanism locked; L171 closed MOOD; L173 re-posed as a count; memos 80/82 verified; two codex grade/scope adoptions)
+
+The lose-nothing sweep's urgent-reclaim #2, executed batched (the B1158 pattern), every component verified
+on this bench. **(1) cc3 B8144 — the adelic split gets its MECHANISM** (the orbit-theorem escape pair:
+orientation's ℤ/2 mirror is a genuine automorphism ⇒ escape-1 unavailable ⇒ a full archimedean bit; the
+VEV's F₄(ℝ)→F₄(ℤ) has finite orbits (Krutelevich, cited) ⇒ a finite label) — banked as
+`B1164/ADDENDUM_adelic_mechanism.md` with the main-side lock their branch didn't ship; own-verified against
+all 3 banked costs + the paid spin bit; **two preregistered typing tests registered** (archimedean-iff-no-
+arithmetic-orbit-breaker; finite-always-cheaper); the time's-arrow instrument queued. **(2) cc3 B8145 —
+L171 CLOSED (MOOD):** their 8/8 CLPW source verification, cc spot-verified 4/4 by own fetch (eq. 24
+Π=Θ(q); eq. 25 Tr 1=1; H_obs on L²(ℝ₊); ρ_max=1); the reason moved (the successor's engine is
+KMS-traciality; B721 places our tracial state complementary to the KMS torsor); banks
+consistent-not-distinctive per the row's own pre-typing. **(3) cc3 B8146 — L173's precision column
+NEGATIVE:** the banked prediction is a COUNT (5-vs-6 at ρ=α), not an energy; the anchor is "a demonstration
+paper, not metrology"; **the program supplies the KNOB (the phason), not the READOUT** — re-posed by
+**addendum-beside** (`docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md`; the sealed spec's sha untouched, per its
+own R6 amendability): commission a **mode-count observable in a labelled gap**. **(4) cloud memos 80/82 —
+both certs BYTE-IDENTICAL on this bench** (dep closure extracted): memo 80 — **the up-type Yukawa SHAPE
+EXISTS on the object (6 nonzero entries), so SEAM-Y's μ_u=0 is the heterotic DRESSING's, not the object's**
+(two walls proven different facts); memo 82 — **810/810 family matrices rank exactly 2, kernel = the
+Higgs's own family** (E8 possibility-space fence intact). **→ L186 registered:** are the three
+Yukawa-suppression mechanisms (SEAM-Y / live up-shape / rank-2 hole) one or three? **(5) codex R015/R016
+adopted:** B1153 grade-note ("exact 2-fold GUE" bounded — surmise-level identification, not theorem-grade)
++ B1158 fence-note (universal phrases bounded to p∈{5,7}, r∈{1,2}, order ≤8; R016 performed the computation
+B1158 stated but didn't ship). Two asks to codex: the R018 numbering gap; the ζ₁₂/dP₆ re-runnable
+construction cert. All seats credited; Gate 5 clean. Locks `tests/test_b1171_seam_harvest.py` (8 tests,
+incl. the sealed-spec sha guard).
+
 ## B1170 (2026-08-27): THE ARENA RESCOPE — the anomaly forcing is arena-generic; the charter's G1 bounded (load-bearing in-derivation / object-specificity dropped); B1160 strengthened
 
 The lose-nothing sweep's highest-risk item closed: **cc3's B8143** (4-commit chain with an honest mid-chain

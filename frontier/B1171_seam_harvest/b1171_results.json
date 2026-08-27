@@ -1,0 +1,47 @@
+{
+  "id": "B1171",
+  "arc": "the seam harvest -- five cross-seat results landed on main in one sitting",
+  "verdict": "OPEN",
+  "pattern": "batched integrate-don't-merge (the B1158 pattern); all seats credited; every component verified on this bench before banking",
+
+  "c1_b8144_adelic_mechanism": {
+    "source": "cc3 a6c35d08 (results.json + relay; NO lock on their branch -- main supplies it)",
+    "mechanism": "orbit-theorem escape pair: archimedean/orientation -- escape-1 unavailable (mirror a genuine automorphism, B1163) => full bit; finite/VEV -- escape-1 available (F4(R)->F4(Z) finite orbits, Krutelevich CITED) => finite label",
+    "own_verified": "the mechanism reproduces all 3 banked costs (orientation, scale, VEV) + the paid spin bit (choice-space collapses, no orbit survives) -- 3/3 + 1",
+    "predictions_preregistered": [
+      "any future observer cost is archimedean IFF its group has no arithmetic subgroup that breaks the orbit -- a test to apply before typing the next cost",
+      "the finite half is always cheaper than the archimedean half, a finite label versus a continuum point, which is exactly why the VEV books as one orbit-point and the orientation as a full bit"
+    ],
+    "queued_not_run": "the time's-arrow escape-1 instrument (cc3: 'your residue and your frame')",
+    "home": "frontier/B1164_cc_masterplan/ADDENDUM_adelic_mechanism.md"
+  },
+
+  "c2_b8145_l171_closed_mood": {
+    "source": "cc3 700f25db: B8093's CLPW typing verified against the source 8/8",
+    "cc_spot_verify": "4/4 by own fetch: eq.24 Pi=Theta(q); eq.25 Tr 1=1 verbatim; H_obs=q>=0 on L^2(R+); rho_max=1",
+    "reason_moved": "successor (arXiv 2308.03663) drops the ergodicity engine => B8093's disanalogy is CLPW-scoped; relocates to KMS-traciality; B721 places our tracial state COMPLEMENTARY to the KMS torsor",
+    "disposition": "L171 CLOSED (MOOD, consistent-not-distinctive, exactly per the row's own pre-typing); stale WebFetch action retired"
+  },
+
+  "c3_b8146_l173_reposed": {
+    "source": "cc3 835bc815: the precision column NEGATIVE",
+    "finding": "the banked prediction is a COUNT (rho -> edge content, 5-vs-6 at rho=alpha), not an energy; the anchor 1403.7124 = 'a demonstration paper, not metrology' (13-28 waveguides, no error bars, qualitative mode-ID); THE PROGRAM SUPPLIES THE KNOB (the phason), NOT THE READOUT",
+    "disposition": "re-posed by ADDENDUM-BESIDE (docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md; the sealed spec untouched per its own R6 amendability clause): commission a MODE-COUNT observable in a labelled gap, enough sites to separate 5 from 6; SEAL_LEDGER row added; cc3's B8094-results mutation NOT ported"
+  },
+
+  "c4_cloud_memos_80_82": {
+    "verification": "both certs run on this bench BYTE-IDENTICAL to committed outputs (dep closure extracted: twisted_double.py + paper/verify/check_charge_bracket.py; e7_ladder.py)",
+    "memo80_texture": "the unique invariant coupling reproduces the full E6 27^3 sector table (45/45); THE UP-TYPE YUKAWA SHAPE EXISTS (6 nonzero entries) -- the object's kinematics allows what the heterotic dressing forbids => SEAM-Y's mu_u=0 is the DRESSING's, not the object's; the two walls are proven different facts",
+    "memo82_family_rank": "810/810 family matrices rank exactly 2, kernel = the Higgs's own family; one exactly-massless family per coupling forced + dimensionless; WHICH family priced to the observer/vacuum; E8 possibility-space fence intact; the sigma-gauge trap hit twice, caught twice (their filed error)",
+    "lead_registered": "L186 -- are the three Yukawa-suppression mechanisms (SEAM-Y / live up-shape / rank-2 hole) one or three?"
+  },
+
+  "c5_codex_dispositions": {
+    "r015_adopted": "B1153 grade-note (ADDENDUM_grade_note_R015.md): 'exact 2-fold GUE' bounded -- surmise-level model identification (D=0.024, preregistered gate), NOT theorem-grade; 'exact' = the factor structure zeta_K = zeta * L(chi_-3), not the spacing law",
+    "r016_adopted": "B1158 fence-note (ADDENDUM_fence_note_R016.md): R016 performed the computation B1158 stated but didn't ship; universal phrases bounded to the verified scope (p in {5,7}, r in {1,2}, Taylor order <= 8)",
+    "asks_relayed": ["the R018 numbering gap (R017->R019, no R018 anywhere -- asked, not assumed lost)", "the zeta12/dP6 re-runnable construction cert (registry rows exist, a cert does not -- the refined R49-1 second half)"]
+  },
+
+  "fences": "Krutelevich cited-not-rederived (the L162 gate stands). The E8 channel keeps its possibility-space fence. B8145's successor read is one-fetch scope (cc3's fence). No firewall crossing; Gate 5 clean (no measured value). Not kill_graph-routed (harvests + bounds; the one NEGATIVE is cc3's arc on their branch, reflected as the L173 re-pose).",
+  "reproduces": "verification/reproduce.sh -> REPRODUCES (all five components' committed evidence files + the three OPEN_LEADS mutations present)"
+}
