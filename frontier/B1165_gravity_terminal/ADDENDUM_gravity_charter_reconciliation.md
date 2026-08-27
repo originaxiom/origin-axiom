@@ -70,3 +70,19 @@ cloud credited; the in-frame counts are dual-homable once the realization stack'
 different roles of gravity, and cloud's independent §E charter converges on B1165's own verdict. The gravity
 thread closes, two-seat, with a clean three-way typing (G1 forced-load-bearing / G2 forced-but-generic / G3
 observer-frame) and the definitional fork as the shared terminal boundary.
+
+## §2 (added 2026-08-27, B1170) — the G1 row is BOUNDED: load-bearing in-derivation, arena-generic in scope
+
+Two seat results post-dating §1 rescope G1 (this is a dated amendment, not a silent edit). **cc3's B8143**
+(4-commit chain, mid-chain correction theirs): the anomaly-forcing package is **arena-generic** — over the
+SM-visible 5-field alphabet, 252 contents, 222 killed by [SU(3)]³ alone, exactly TWO rigid+chiral+
+anomaly-free survivors (the SM 15-plet + conjugate), with **zero object tokens in any equation**; uniqueness
+is alphabet-dependent, minimality is not. **codex's R019**: the universal ratio reduction (Yl/Yq=−3, Ye/Yq=6,
+(Yu+Yd)/Yq=−2, cubic −18(Yu/Yq−2)(Yu/Yq+4)) holds *independently of E₆*. Both verified on this bench
+(B1170: independent own-code re-derivation + both seat certs re-run, R019 byte-identical). **So G1 splits:**
+*load-bearing IN-DERIVATION* (kept — within the in-frame system, dropping grav²Y degrades the forcing
+36→18+27-planes; cloud memo 78 untouched) vs *object-specific* (dropped — the forcing would run identically
+in any theory supplying the same arena). **The object supplies the ARENA (the rank-3 abelian sector with an
+SM-shaped 15-plet available, B1160's realization); the anomalies supply the CONTENT.** B1160 is strengthened
+(its own fence quantified). Cloud asked for the charter's filed addendum on E2/G1. See
+`frontier/B1170_arena_rescope/`.

@@ -93,6 +93,15 @@ def test_no_crossing_gate5_clean():
     assert "No firewall crossing" in d["fences"] and "Gate 5 clean" in d["fences"]
 
 
+def test_addendum_s2_g1_bounded_by_b1170():
+    # B1170's dated amendment: G1 = load-bearing in-derivation / arena-generic in scope
+    txt = (ARC / "ADDENDUM_gravity_charter_reconciliation.md").read_text(encoding="utf-8")
+    assert "§2 (added 2026-08-27, B1170)" in txt
+    assert "arena-generic" in txt and "zero object tokens" in txt
+    assert "load-bearing IN-DERIVATION" in txt
+    assert "the anomalies supply the CONTENT" in txt
+
+
 def test_gravity_charter_reconciliation_three_roles():
     # cloud's Wave-3 sec-E (memo 78 'gravity load-bearing') integrated: it is a DIFFERENT role
     # of gravity than B1165's 'generic' -- no conflict, convergence. Addendum committed.

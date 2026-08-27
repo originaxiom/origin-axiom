@@ -11712,3 +11712,19 @@ full unification qualia=C5-parity=structure/observer is a chain, not one theorem
 speculation→calculation table (S2 = cloud's C6 the key promotable rung). Prepared for three-seat verification.
 Reclaims the qualia/σ spine flagged recessive. Own-verified; Gate 5 clean. Locks
 tests/test_b1169_qualia_parity_synthesis.py (7).
+
+## B1170 (2026-08-27) — THE ARENA RESCOPE: the anomaly forcing is arena-generic; charter G1 bounded; B1160 strengthened
+The lose-nothing sweep's highest-risk item closed. cc3's B8143 (4-commit chain; their own mid-chain
+correction — the omitted [SU(3)]³ killed their 13-state counter-witness) + codex's R019 rescope the gravity
+charter's G1/E2. Over the SM-visible 5-field alphabet: 252 contents, 222 killed by [SU(3)]³ alone, exactly
+TWO rigid+chiral+anomaly-free survivors (the SM 15-plet (1/6,−2/3,1/3,−1/2,1) + conjugate), ZERO object
+tokens in any equation; uniqueness alphabet-dependent (adjoints→7, (3,3)→14), minimality not. R019: the
+universal reduction (Yl/Yq=−3, Ye/Yq=6, (Yu+Yd)/Yq=−2, cubic −18(Yu/Yq−2)(Yu/Yq+4)) "independently of E₆".
+Verified three ways on-bench: independent own-code enumeration (Fraction elimination + explicit cubic, no
+sympy.solve) confirms 252/222/2; cc3's lane re-run; R019 byte-identical. THE RESCOPE: G1 = load-bearing
+IN-DERIVATION (kept; memo 78's ablation untouched) / object-specificity DROPPED — "THE OBJECT SUPPLIES THE
+ARENA; THE ANOMALIES SUPPLY THE CONTENT" (the B996 lesson one level down). The object's contribution = the
+rank-3 abelian sector + SM-shaped-15-plet availability (B1160's realization; B1160 STRENGTHENED). B1165's
+addendum gains a dated §2; cloud relay requests the charter's filed addendum + flags the C-namespace
+collision. cc3+codex credited; novelty none claimed (scoping only). Gate 5 clean. Locks
+tests/test_b1170_arena_rescope.py (7) + test_b1165 +1.

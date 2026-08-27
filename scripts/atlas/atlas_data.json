@@ -3533,6 +3533,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1170": {
+   "slug": "arena rescope",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B950",
+    "B996"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B117": {
    "slug": "interleaving",
    "motifs": [

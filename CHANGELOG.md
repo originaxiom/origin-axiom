@@ -1,5 +1,31 @@
 # Changelog
 
+## B1170 (2026-08-27): THE ARENA RESCOPE — the anomaly forcing is arena-generic; the charter's G1 bounded (load-bearing in-derivation / object-specificity dropped); B1160 strengthened
+
+The lose-nothing sweep's highest-risk item closed: **cc3's B8143** (4-commit chain with an honest mid-chain
+correction — the omitted [SU(3)]³ killed their own 13-state counter-witness and made B1160 *stronger*) +
+**codex's R019** both post-date the B1165 gravity-charter reconciliation and rescope its G1/E2 row. **The
+finding:** over the SM-visible 5-field alphabet, **252 contents, 222 killed by [SU(3)]³ alone, exactly TWO
+rigid+chiral+fully-anomaly-free survivors** — the SM 15-plet (1/6,−2/3,1/3,−1/2,1) up to scale + its
+conjugate — with **zero object tokens in any equation** (cc3's step-6 token audit); uniqueness is
+**alphabet-dependent** (adjoints→7, (3,3)→14), **minimality is not**. codex R019 corroborates in-frame
+(36/36 all three color frames; the universal reduction Yl/Yq=−3, Ye/Yq=6, (Yu+Yd)/Yq=−2, cubic
+−18(Yu/Yq−2)(Yu/Yq+4), *"independently of E₆"*). **Verified three ways on this bench:** an independent
+own-code re-derivation (Fraction Gaussian elimination + explicit homogeneous-cubic analysis, no sympy.solve)
+confirming 252/222/2 + the SM charge multiset; cc3's lane steps 4–6 re-run (same); codex's R019 cert re-run
+**byte-identical** (vendored r006 stack extracted). **The rescope:** G1 splits into *load-bearing
+IN-DERIVATION* (kept — cloud memo 78's ablation untouched: dropping grav²Y degrades 36→18+27-planes, the
+cubic redundant in-frame) vs *object-specific* (dropped — the forcing package is pure SM-anomaly arithmetic
+that would run identically in any theory supplying the same arena). **"THE OBJECT SUPPLIES THE ARENA; THE
+ANOMALIES SUPPLY THE CONTENT"** — the B996 lesson one level down, the same generic-form/specific-which
+template as B1165's G-split. The object's contribution = the rank-3 abelian sector with an SM-shaped 15-plet
+available (B1160's realization; **B1160 strengthened**, its own fence quantified). B1165's reconciliation
+addendum gains a dated §2 (bounded, not withdrawn); relay to cloud requests the charter's **filed addendum**
++ flags the C-namespace collision (charter C1–C6 vs genesis C1–C6 vs Kashaev C₀–C₄). Novelty: none claimed
+for SM-uniqueness-at-minimal-content (cc3's own note); only the scoping conclusion. cc3 + codex credited.
+Gate 5 clean. Locks `tests/test_b1170_arena_rescope.py` (7 tests, incl. a live re-run of the independent
+enumeration) + test_b1165 +1.
+
 ## B1169 (2026-08-27): the qualia/parity synthesis — this week's four arcs fold back into the observer-closure spine; "awareness without choice" becomes the mirror-parity, and the choice is named
 
 Owner-directed ("run it and I'll ask all seats to verify"). A synthesis cell reconnecting B1165–B1168 to the
