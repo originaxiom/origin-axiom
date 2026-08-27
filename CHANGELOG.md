@@ -1,5 +1,23 @@
 # Changelog
 
+## Review 50 (2026-08-27): the decadal review over B1156–B1173 — opened with the carry-leak audit (10 broken keys found, all dispositioned; the gate now enforces carry continuity); the cold audit's corrections applied; SEAM-A's authoritative split stated
+
+**§0 THE CARRY-LEAK AUDIT:** the review carry chain leaked while its gate stayed green — R47 dumped
+R46-5/6/7/11 onto "R47-10" (a different item's key); R49 named none of R48-4…10. The gate never verified
+that a carried `[>]` item *recurs*. **Extended** (`_carry_leaks`, enforced from R46 onward, unit-locked in
+`tests/test_review_carry_gate.py`) — and its own first run found **six more** broken keys the sweep missed
+(R46-3/5, R47-6/7/8/9 — content-continuous under renamed keys, the keys broken). All ten dispositioned by
+key in §0; the verdict: the chain drops KEYS more often than CONTENT, but twice it dropped content too
+(R48-4 = cc3's B8127, never harvested → R50-6; the R46-6/11 cc3-lane specifics → subsumed/bundled).
+**The window (18 arcs):** three-way verification became routine; the two seat-caught over-reaches, the
+vacuous isometry_signature check, E51, and the gate-caught slips all recorded in §2 — none reached a remote
+uncorrected. **§4 the reconciliations, authoritative:** SEAM-A = *walled-on-forcing / INDETERMINATE-on-
+sealing* (the "leaning MISMATCH" phrasing retired — the cold audit's MODERATE correction); the bypass-door ≡
+SEAM-A identity relabeled SUPPORTED-CONJECTURAL (B1161 addendum; the ℤ/2 cell settles it); the arena/content
+split; the parity law; the qualia naming. **§6:** the b775 registry entry landed (R48-5 fully discharged);
+the rooms' APEX staleness queued (R50-4). README state refreshed to Review 50 / head B1173. Action items
+R50-0…7 (three [x] at open); anchor `8ee77957`. Locks `tests/test_review_carry_gate.py` (5).
+
 ## B1173 (2026-08-27): THE DIGEST PARTIAL-CLOSE (O4) — 45 dispositioned / 13 NOT-REACHED → L185; the qor5up branch released; R47-3 + R48-5 discharged
 
 Owner-directed O4 (the approved default). The B1060 digest — the anti-cherry-picking backbone (58 rows,

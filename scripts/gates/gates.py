@@ -275,10 +275,42 @@ def review_status():
     return n, n >= REVIEW_EVERY
 
 
+def _carry_leaks(text):
+    """R50's carry-continuity core (unit-tested in test_review_carry_gate.py).
+    For every `- [>]` item in a NON-latest action block whose line names a review key
+    (R<nn>-<m>), that key must reappear SOMEWHERE LATER in the file (a later block or a
+    later review's body). A [>] whose key never recurs is a SILENT DROP — exactly how
+    R48-4..10 vanished (R49 named none of them) and how R46-6/7/11 evaporated (carried
+    'to R47-10', whose content was a different item). Enforced from Review 46 onward
+    (older blocks predate the key convention)."""
+    leaks = []
+    for m in re.finditer(r"### Action items \(Review (\d+)\)\n", text):
+        rev = int(m.group(1))
+        if rev < 46:
+            continue
+        block_start = m.end()
+        nxt = text.find("### Action items (Review", block_start)
+        block_end = nxt if nxt != -1 else len(text)
+        if nxt == -1:
+            continue  # the latest block: its carries are the live queue, not leaks
+        block = text[block_start:block_end].split("anchor-commit")[0]
+        rest = text[block_end:]
+        for line in re.findall(r"^- \[>\].*$", block, re.M):
+            for key in re.findall(r"\bR\d+-\d+\b", line):
+                # the item's own key (R<rev>-<m>) or a carried ancestor key must recur later
+                if key not in rest:
+                    leaks.append(f"Review {rev}: carried item key {key} never recurs later — silent drop")
+                    break
+    return leaks
+
+
 def gate_review_actions():
     """GOVERNANCE §15: action-item blocks in REVIEWS.md. Any block that is
     NOT the latest must contain zero open `- [ ]` items (resolved `[x]` or
-    carried `[>]` only). The latest block's open count is advisory."""
+    carried `[>]` only). The latest block's open count is advisory.
+    R50 extension: carried `[>]` items must RECUR later by key (see _carry_leaks) —
+    the carry chain leaked twice (R46-6/7/11 mis-keyed; R48-4..10 silently dropped)
+    while this gate stayed green, because it never verified continuity."""
     path = os.path.join(ROOT, REVIEWS)
     if not os.path.exists(path):
         # FAIL-CLOSED (restart-resistance audit): deleting REVIEWS.md silently disabled BOTH
@@ -302,8 +334,11 @@ def gate_review_actions():
     if stale_open:
         return False, (f"{stale_open} open item(s) in a superseded review's "
                        "block — resolve [x] or carry [>] them")
+    leaks = _carry_leaks(text)
+    if leaks:
+        return False, "; ".join(leaks[:4])
     latest_open = len(re.findall(r"^- \[ \]", blocks[-1], re.M))
-    return True, f"ok ({latest_open} open in the latest block, advisory)"
+    return True, f"ok ({latest_open} open in the latest block, advisory; carry chain continuous)"
 
 
 

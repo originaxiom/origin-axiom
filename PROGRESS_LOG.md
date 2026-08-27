@@ -11760,3 +11760,14 @@ arcs). The stale "→L165+" renumber collision fixed (→L185+; main's L165–L1
 written). qor5up: FROZEN-RECORD-PENDING → FROZEN-RECORD-CLOSED (append-only registry note; R47-3 + R48-5
 discharged before Review 50 opens). OPEN_LEADS stamp corrected (next lead L189). test_b1060_digest pins the
 closed state. Nothing lost. Gate 5 clean. Locks test_b1173 (3). WAVE 1 + O3 + O4 COMPLETE (B1170–B1173).
+
+## Review 50 (2026-08-27) — the decadal review over B1156–B1173; the carry-leak audit; the gate now enforces continuity
+§0: the carry chain leaked while green (R47 dumped R46-5/6/7/11 onto "R47-10"; R49 named none of R48-4…10);
+the gate extended with _carry_leaks (from R46 on; unit-locked) — its first run found SIX more broken keys
+(R46-3/5, R47-6/7/8/9); all TEN dispositioned by key; content lost twice (R48-4=B8127 → R50-6; R46-6/11
+specifics → subsumed). §2: the window's errors (two over-reaches seat-caught+corrected; the vacuous
+isometry_signature check; E51; gate-caught slips) — none reached a remote uncorrected. §4 authoritative:
+SEAM-A = walled-on-forcing / INDETERMINATE-on-sealing ("leaning MISMATCH" retired); bypass-door≡SEAM-A →
+SUPPORTED-CONJECTURAL (B1161 addendum; the ℤ/2 cell settles); arena/content; the parity law; the qualia
+naming. §6: b775 registry landed (R48-5 FULLY discharged). README → R50/B1173. Items R50-0…7 (3 [x] at
+open). Anchor 8ee77957. Locks tests/test_review_carry_gate.py (5).

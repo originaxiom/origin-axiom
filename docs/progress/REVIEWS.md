@@ -4247,18 +4247,18 @@ do not lean on it, but this is a real single-homed debt (L181/L183). Carried R49
 ### Action items (Review 49)
 - [x] R49-0: **B8141 the artifact class harvested + fixed** — 5 harvest tests rerouted from the gitignored
   reproduce.log to the committed runner; the fix regression-safe (suite green this review).
-- [ ] R49-1: **codex's primary derivations are off-branch/unversioned** (`~/oa-audit-seat/`: the height-308
+- [>] R49-1 (→ R50-6): **codex's primary derivations are off-branch/unversioned** (`~/oa-audit-seat/`: the height-308
   up-Yukawa proof for SEAM-Y, the ζ₁₂/dP₆ construction for SEAM-A) → relay to codex to **commit them to
   `origin/codex/seat-r001`** (the seam verdicts need on-branch evidence to seal; single-homed debt).
-- [ ] R49-2: **SEAM-A Gate 2 — cc3's full Kim-style arithmetic-CS ACTION of m004 on ℚ(√−3)** (not just
+- [>] R49-2 (→ R50-6): **SEAM-A Gate 2 — cc3's full Kim-style arithmetic-CS ACTION of m004 on ℚ(√−3)** (not just
   B708's linking form / B800's unnormalized Habiro series) → the one live crossing, NEEDS-SPECIALIST
   (relay to cc3). Its resolution seals SEAM-A (MATCH vs the leaning MISMATCH).
-- [ ] R49-3: **L184 — the suite collection lazy-fy** (the root cost fix behind the fast lane; collection
+- [>] R49-3 (→ R50-5): **L184 — the suite collection lazy-fy** (the root cost fix behind the fast lane; collection
   alone >120 s) — name + de-lazy the slowest module-level importers so even the full suite collects fast.
-- [ ] R49-4: **L183 — the reproducer sweep** (cc3's cross-band ask): enumerate arcs banked as results with
+- [>] R49-4 (→ R50-5): **L183 — the reproducer sweep** (cc3's cross-band ask): enumerate arcs banked as results with
   no runnable reproducer in the tree; list the gaps as debts.
 - [>] R49-5: R48-2 carried — cc3's golden-meridian refinement (B8124/B8126) verify + scope T-GOLDEN-MERIDIAN.
-- [ ] R49-6: a COLD fresh-eyes pass over B1135–B1155 (this review was HOT) — available at the owner's word.
+- [>] R49-6 (→ R50-7): a COLD fresh-eyes pass over B1135–B1155 (this review was HOT) — available at the owner's word.
 - [>] R49-7: R48-11 carried — **PAPERS**: relay the carrier/coupling harvest + C4's superposition + the two
   seams to cc3's paper assembly (structure complete; values disjoint on periods AND regulators; up-Yukawa
   a distinct cohomological wall; SEAM-A the honest open crossing).
@@ -4273,3 +4273,129 @@ FROZEN-RECORD-PENDING → **FROZEN-RECORD-CLOSED**. The B1060 digest partial-clo
 registry entry (R47-3, carried R48-5) is hereby landed and both carries discharge. Residue readable via
 `docs/CLOUD_ALIAS_TABLE.md`; reopen path = disposition any NOT-REACHED row under a new arc. Carry to
 Review 50: none for this item.
+
+## Review 50 — 2026-08-27 (merges 1–18 from Review 49; the masterplan loop + the terminal gravity close + the charter + the qualia synthesis + the lose-nothing campaign + the seam sitting)
+
+*HOT (this banking seat); a mid-window COLD fresh-eyes audit DID run over the B1156–B1164 stretch (its two
+MODERATE corrections applied this review — §4). Prior anchor: 29b09993 (R49). The window, 18 arcs: the
+masterplan loop (B1156 SEAM-A Gate-2 FLOOR, B1157 dynamics null, B1158 wave-2 harvest, B1159 MSSM debt
+ledger, B1160 hypercharge, B1161 frontier sweep, B1162 MSSM witness verified, B1163 W₀/orientation, B1164
+cc's A–E cells + the adelic price reconciliation), the terminal closes (B1165 gravity GENERIC-RHYME two-seat,
+B1166 charter C3/C4, B1167 codex-D1-paid + the cusp separator, B1168 the mirror-parity law, B1169 the
+qualia/parity synthesis), and the lose-nothing campaign (the 10-agent sweep + meditation → B1170 arena
+rescope, B1171 seam harvest, B1172 trigger+register+E51, B1173 digest partial-close).*
+
+**0. THE CARRY-LEAK AUDIT (this review's opening item; the sweep's finding, verified and repaired).** The
+review carry chain leaked twice while the gate stayed green: **(a)** R47 carried **R46-6/7/11** "→ R47-10",
+but R47-10's content is a different item (the per-gap detector) — the bundle's content evaporated;
+**(b)** R49 named none of **R48-4/5/6/7/8/9/10** — seven carried items silently dropped. Root cause: the
+gate checked that superseded blocks contain no open `[ ]` items but **never verified that a carried `[>]`
+item recurs**. **Repaired**: `_carry_leaks()` in the gate (a `[>]` key that never recurs later in the file
+fails by name; enforced from R46 onward; unit-locked in `tests/test_review_carry_gate.py`). **The leaked
+items, dispositioned by key:** R46-6 (Deligne–Milne/gerbe cc3-lane) → SUBSUMED by the standing
+NEEDS-SPECIALIST reading relay (2026-08-22). R46-7 (the per-gate fail-open re-ask, R36-1's lineage) →
+DISCHARGED-BY-INSTITUTION: the class is living (B827, B844, B1172 = four instances) and is covered by the
+b887 gate-audit test + each review's protocol-integrity check. R46-11 (R1-16's lock-shape sweep) → bundled
+with the R32 vacuity queue into R50-5. R48-4 (cc3's B8127, never harvested — zero grep hits) → R50-6.
+R48-5 → **DISCHARGED (B1173**: qor5up registry landed; the **b775** half landed this review — see §6).
+R48-6 (cold pass, owner-gated) → merged into R50-7. R48-7 (LAW_MAP B1042/B1043 rows) → R50-5. R48-8 (the
+census's 31 category calls, R45-5's lineage, owner-gated D2) → R50-7. R48-9 (the promotion-currency review)
+→ R50-5. R48-10 (the per-gap detector → L173 seal path) → R50-7, updated: post-B8146 the readout is a
+COUNT, so the detector's target is the mode-count observable. **The gate's own first run found FOUR MORE the sweep missed** — all
+content-continuous under renamed keys, the keys themselves broken: **R46-3** (the LAW_MAP debt batch;
+content lived on as R47-7 → R48-7 → R50-5), **R46-5** (the census's 31 calls; *also* dumped "→ R47-10" —
+the mis-key was wider than first found; content = R48-8's lineage → R50-7), **R47-6** (the cold pass;
+content = R48-6 → R50-7), **R47-7** (LAW_MAP again → R50-5), **R47-8** (the census calls; content =
+R48-8 → R50-7), **R47-9** (the promotion-currency lag; content = R48-9 → R50-5). Verdict on the class: the chain drops KEYS
+more often than CONTENT, but twice it dropped content too (R48-4; R46-6/11's cc3-lane specifics) — the
+continuity gate now catches both. One citation from the sweep — a "105-candidate law harvest" upstream
+loss — did **not resolve by grep** under that name; logged as UNRESOLVED-CITATION, no action derivable.
+
+**1. Math / verification (the window's standard held and rose).** Three-way verification became routine:
+B1170's core re-derived in own code (252/222/2, no sympy.solve) *plus* both seat certs re-run (R019
+byte-identical); B1165's Vol three ways to 50 dps; the memos 80/82 + R017 certs byte-identical with dep
+closures extracted; B1162's sage witness on-bench; B1166's C3 from two banked facts; B1168's parity facts
+own-run. The window's shape: **every synthesis that could be adjudicated adversarially was** — and twice
+that adjudication *corrected this seat* (§2).
+
+**2. Self-audit — the errors this window, all caught, none reaching a remote uncorrected.** (a) **Two
+synthesis over-reaches by this seat** — the SEAM-A "leaning MISMATCH" re-lean (adopted from a leading
+question; de-leaned by the cold audit → the authoritative split is §4) and B1164's "everything the observer
+supplies is archimedean" (falsified by cc3's B8144 — the VEV is finite; corrected to ADELIC in a dated
+addendum). The over-reach class is this seat's known failure mode; the cure (adversarial cross-seat) worked
+both times. (b) **A vacuous own-check**: B1163's family-wide addendum spot-checked amphichirality via
+SnapPy's `isometry_signature`, which returns amphichiral=True even for the chiral 5₂ — the 4/14 check was
+likely vacuous; the result stands on cc3's `check_family.py` (7/7) + m004's symmetry group (flagged in
+B1165's fences at the time, recorded here). MB12's class, again. (c) **E51, the retention-gap event** (nine
+relay files lost; rows the only record) — found by B1172's triage, filed, remedied (sender-branch
+dual-homing now standard). (d) Gate-caught slips, all pre-push: the attribution token (2×), the relay
+ROW_RE compound-column (1×, later found to have made a row unparseable — repaired B1172), seal-provenance
+markers (1×). (e) Two language over-statements bounded via codex (B1153's "exact"; B1158's universal
+phrases) — adopted, nothing withdrawn.
+
+**3. The instruments this window.** The **relay-debt gate was silently dead** (frozen stamp-clock since
+08-09; stale swallowed; seat-blind regex; dateless exemption) — all four repaired + enforcement
+(ESCALATED-by-name) + a dedicated lock. The **review-carry gate** extended this review (§0). The **E50
+cost class** still open: the targeted-gate cert (~1100 tests) is the standing certification path; **L184
+(the collection lazy-fy) remains the root fix** → R50-5. The OA_SLOW shadow suite (50 gated test-halves,
+never run by any runner) is queued → R50-5.
+
+**4. The reconciliations (the window's doctrine work, stated once, authoritative).** **SEAM-A:** the
+cold audit's MODERATE correction adopted — the honest split is *"is heterotic FORCED?"* = **WALLED**
+(OA-C1002, un-forced at every place) vs *"does the crossing SEAL?"* = **INDETERMINATE** (Gate 2, cc3's full
+arithmetic-CS action, NEEDS-SPECIALIST); the "leaning MISMATCH" phrasing is retired. **The bypass-door ≡
+SEAM-A identity** relabeled SUPPORTED-CONJECTURAL (B1161 addendum landed this review; the ℤ/2-identification
+cell is the settling computation). **The arena/content split** (B1170): grav²Y load-bearing *in-derivation*
+(cloud), arena-generic *in scope* (cc3+codex) — the charter's G1 bounded, filed-addendum requested. **The
+three-role gravity** (G1 anomaly / G2 sector / G3 frame) + **the adelic observer with mechanism** (the
+orbit-escape pair, two preregistered typing tests). **The parity law** (B1168): object-canonical iff
+mirror-even ∧ dimensionless — C5 decidable, C6 promoted to the decider. **The qualia naming** (B1169): the
+missing "choice" IS the mirror-odd orientation (solid core banked; the full unification firewalled with a
+4-rung table; three-seat verification pending). Minor tone note recorded (B1160 warm-prose): no edit,
+append-only spirit.
+
+**5. The state after the window.** Structure forced (E₆ spine → hypercharge content → unique breaking
+chain → one generation), the boundary **decidable** (the parity law), the observer **adelic with a
+mechanism**, gravity closed two-seat as the WHERE, values/dynamics withheld (five routes + generic).
+Remaining, honestly: the specialist bars (SEAM-A Gate 2; J₃(𝕆) regulators; the seam form; torsion parity —
+queued at cc3), the QP-1 quine (the closure question), C6 completeness (cloud's lane), 3 generations (NULL
+on-object), and the publication surface (the portfolio, memory-only — R50-4).
+
+**6. Protocol items.** Doc currency: green through the banks (the doc-currency gate live; the OPEN_LEADS
+stamp corrected in B1173). The seven rooms: **stale through the APEX era** (speculations/ 08-12,
+philosophy/ 08-05) — the proven repair (one S-file + a philosophy addendum) queued as R50-4; a
+rooms-freshness question is added to the review checklist by this sentence. The hemisphere check: the
+window's negatives (B1157, B1163, B1165, B8146) all carried named hatches/instruments — no
+negative-without-a-door. Seal spot-check (E47's ritual): B1171's addendum sha was piped, not retyped;
+`seal-digests` recomputation green. **b775 registry entry (R48-5's second half) landed here:**
+`audit/b775-braver-questions` → FROZEN-RECORD-CLOSED (an old audit-band lane; its record stands frozen;
+reopen = a named arc citing it; this sentence is the owed registry entry).
+
+### Action items (Review 50)
+- [x] R50-0: the carry-leak audit run + the gate's continuity extension landed (§0; unit-locked).
+- [x] R50-1: the cold audit's two MODERATE corrections applied (SEAM-A split authoritative in §4; the
+  bypass-door label addendum in B1161) + README state refreshed to this review.
+- [x] R50-2: R48-5 fully discharged (qor5up in B1173; b775 in §6).
+- [ ] R50-3: **the ℤ/2-identification cell** (the register's Q1; sweep #14 ≡ B1169-S1, double-discovered):
+  are B942 (chirality→Gal), B957 (value torsor), B1168 (mirror bit), S068's rows ONE involution? The
+  settling computation for the bypass-door≡SEAM-A label too. (owner: banking seat; next science cell)
+- [ ] R50-4: **the record-surface wave** (Wave 2 of the register): the portfolio landed in-repo
+  (papers/PORTFOLIO + P-numbering disambiguation + PC23/P4/PC22/PC24 dispositions); the governed-rooms
+  APEX repair; chronicle_raw HARVEST_CANDIDATES ownership; the C-namespace registry; the 14 missing
+  arc_verdicts (B834–B845 band); the OPEN_LEADS ID collisions (two L110s/L113s). (owner: banking seat)
+- [ ] R50-5: **the instrument-debt bundle**: L184 collection lazy-fy (ex-R49-3) + L183 reproducer sweep
+  (ex-R49-4) + the OA_SLOW one-run + the R32 vacuity queue with R46-11's lock-shape sweep + LAW_MAP
+  B1042/B1043 rows (ex-R48-7) + the promotion-currency review (ex-R48-9) + the toolbox extraction seed.
+  (owner: banking seat, batched)
+- [ ] R50-6: **the cross-seat waits**: cc3's B8127 verify (ex-R48-4); the ζ₁₂/dP₆ re-runnable cert
+  (ex-R49-1's second half; first half PAID, R017/B1167); SEAM-A Gate 2 (ex-R49-2, NEEDS-SPECIALIST);
+  the nine-relay re-send (E51); the B1169 three-seat verification; cloud's G1 filed addendum + C4 intent;
+  codex's MC1 + B1024 leg + R018 answer; cc3's torsion parity. (owners: the seats; cc harvests)
+- [ ] R50-7: **owner-gated menu**: the papers relay (ex-R49-7/R48-11); the cold pass over this window
+  (ex-R49-6/R48-6); the census's 31 category calls (ex-R48-8, D2); the per-gap detector → the L173
+  mode-COUNT seal path (ex-R48-10, post-aperiodic-session); the specialist send-queue (the outreach
+  trigger has fired, B1161). (owner: the owner's word)
+- [>] R49-5 → folded into R50-6 (T-GOLDEN-MERIDIAN verify, with R48-2's lineage noted).
+- [>] R49-7 → folded into R50-7 (the papers relay, with R48-11's lineage noted).
+
+anchor-commit: `8ee77957` (the B1173 bank, this window's last substantive commit before the review)

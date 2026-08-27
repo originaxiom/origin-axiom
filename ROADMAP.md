@@ -1,3 +1,5 @@
+> **Review 50 currency (2026-08-27, B1173):** the gravity tier CLOSED two-seat (B1165 GENERIC-RHYME); the boundary tier now DECIDABLE (B1168 the mirror-parity law); the anomaly tier rescoped ARENA-GENERIC (B1170). The live ladder: the ℤ/2-identification cell (R50-3) → the record-surface wave (R50-4) → the instrument bundle (R50-5); the specialist rungs unchanged (SEAM-A Gate 2 the crossing).
+
 # Origin Axiom — Roadmap
 
 > **Review 49 currency (2026-08-26, B1155):** the two remaining seams walked — **SEAM-A** (heterotic = the archimedean ∞-place, the prize) is now the *one live crossing*, gated on cc3's full Kim-style arithmetic-CS action of m004 (NEEDS-SPECIALIST); **SEAM-Y resolved MISMATCH**. The suite gained a changed-file fast lane (B1152).

@@ -1,5 +1,6 @@
 # LEAD REGISTER — the now-computable frontier (2026-07-04)
 
+> **Review 50 (2026-08-27):** this window registered **L185** (the qor5up residue umbrella), **L186** (three Yukawa mechanisms: one or three?), **L187** (the depth-closure backlog), **L188** (the selection-cochain six claims); **L171 CLOSED (MOOD)**; L173's precision column re-posed as a COUNT. Next lead: L189.
 > **Review 49 (2026-08-26):** this window registered **L182** (the three seams — SEAM-A the one live crossing), **L183** (the reproducer sweep), **L184** (the suite-collection lazy-fy). SEAM-Y closed MISMATCH; SEAM-A OPEN (gated on cc3's arithmetic-CS action).
 
 *Review 48 (2026-08-22, anchor 79e513a9): value campaign CLOSED (disjoint on periods; **B1134 THE SIMULTANEOUS CLOSING** banked — one conjugation into M(𝕆,ℂ)). NEW lead candidate: **values-as-regulators** — the archimedean regulators of the object's higher classes (ζ_K(3), ζ_K(4), the rank-1 ℚ(√−3) ladder; ζ_F(3) at the E₈ end) in the FORCED J₃(𝕆) domain (B1134's 64 fixed dimensions), sealed-scanned against SM ratios (R48-3, firewalled). See docs/progress/REVIEWS.md Review 48.*
