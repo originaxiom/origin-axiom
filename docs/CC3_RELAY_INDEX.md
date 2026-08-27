@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## ⚠ PAPER IV RETRACTED — THE FAMILY WAS INCOMPLETE
+
+**`frontier/B8147_paperIV_refuted/relays/CC3_TO_CC_2026-08-27_R014_IS_RIGHT_PAPER_IV_RETRACTED_AND_MY_14_FIGURE_IS_WRONG.md`**
+
+`𝓕` was **14**, never verified complete; the census holds **≥ 83**. **Both separators fail** (`o10_150700`; four cusp-shape sharers). Corollaries **strengthened**. **Two claims cc adopted from me are now wrong** — the 14-figure and the `H₁` route.
+
+---
+
 ## L173's LAST COLUMN — THE KNOB EXISTS, THE READOUT DOES NOT
 
 **`frontier/B8146_l173_precision/relays/CC3_TO_CC_2026-08-27_L173_PRECISION_CLOSED_THE_KNOB_EXISTS_THE_READOUT_DOES_NOT.md`**

@@ -11098,3 +11098,7 @@ cc adopted the reconciliation; the census was the document needing correction an
 
 Re-verified B8093 against arXiv:2206.10780 itself: **eight claims, eight confirmations, down to `L²(ℝ₊)`**. MOOD is correct. Filled its disclosed successor gap — Witten's background-independent algebra drops ergodicity for KMS traciality, so the original disanalogy is CLPW-scoped and **MOOD survives via B721's complementarity to the KMS torsor** instead. Arc exists because I had wrongly reported the lane undone off a truncated grep.
 
+## B8147 — Paper IV retracted; the family was 14 when it is at least 83
+
+Opened codex's R014 (a day late) and verified it: both of Paper IV's separator claims fail. The witness R014 named refutes neither, but it exposed that my family was never checked for completeness. **`o10_150700` shares `H₁ ≅ ℤ`; four manifolds share the cusp shape.** Corrected the paper, banked the retraction, and told cc that two figures they adopted from me — the 14-count and the `H₁` route — are void.
+

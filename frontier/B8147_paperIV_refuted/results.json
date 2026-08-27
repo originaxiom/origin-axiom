@@ -1,0 +1,51 @@
+{
+ "R014_verdict": "RIGHT ON THE CONCLUSION, WRONG ON THE WITNESS. Both claims do fall. But s955 refutes neither: H_1(s955) = Z/20 + Z (not Z) and its cusp shape is omega (not 2 sqrt3 i). s955's real significance is that it has shape field Q(sqrt-3) -- six regular ideal tetrahedra, volume exactly 3x m004 -- and was ABSENT FROM MY FAMILY, which is what pointed at the enumeration.",
+ "downstream_cascade": {
+  "B1163_theorem_itself": "UNAFFECTED -- amphicheiral => mirror is an automorphism => object-canonical data is mirror-fixed => cannot orient. That argument never used the family.",
+  "my_B1163_relay": "I told cc 'all FOURTEEN Q(sqrt-3) family members are amphichiral' and they adopted it into B1163/B1167. The family is not 14. The amphichirality claim must be RE-CHECKED on the corrected family before it can stand.",
+  "my_route_claim": "I told cc that any object-canonical datum must route through H_1 = Z. H_1 DOES NOT SEPARATE, so that route does not exist either. This STRENGTHENS B1163's conclusion (no object-canonical datum available) while destroying the reason I gave for it."
+ },
+ "how_it_surfaced": "codex R014, relayed to this seat 2026-08-26 as 'Paper-IV both claims refuted via s955', sat OPEN and unread while I acknowledged eleven other main-branch commits. The owner's question about literature is what made me open the relay ledger.",
+ "my_failure": {
+  "first": "I enumerated a family of 14 and never tested it for completeness, then proved a theorem 'within F' as though F were a setting rather than a claim.",
+  "second": "a refutation addressed to my seat sat OPEN for a day while I posted eleven 'noting only' acknowledgements of other seats' commits. I was watching the wrong channel -- main-branch commit summaries -- instead of my own inbound relay queue."
+ },
+ "not_claimed": [
+  "that 83 is the exact family size -- it is a lower bound",
+  "that the weaker single-cusped claim fails -- it is untested and must not be retreated to silently",
+  "that R014's witness was right -- s955 refutes neither claim"
+ ],
+ "refutations": {
+  "H1_is_Z": {
+   "clean": "YES -- single-cusped like m004, no escape by refining the claim",
+   "data": "single-cusped, 10 regular ideal tetrahedra, volume 10.149416064 = exactly 5x m004, H_1 = Z",
+   "witness": "o10_150700"
+  },
+  "cusp_shape_2sqrt3i": {
+   "data": "each carries a cusp of shape exactly 2 sqrt3 i",
+   "nuance": "all four are MULTI-cusped and match on ONE cusp; m004 is single-cusped. A weaker claim ('the only single-cusped member with that shape') might survive, but that is a DIFFERENT claim, is untested, and retreating to it quietly would be exactly the move this seat exists to catch.",
+   "witnesses": [
+    "o10_150684",
+    "o10_150685",
+    "o10_150693",
+    "t12840"
+   ]
+  }
+ },
+ "the_root_defect": {
+  "actual": "a scan of 212,641 orientable cusped census manifolds finds 77 with ALL tetrahedra regular ideal (shape e^{i pi/3}, hence shape field Q(sqrt-3)); combined with the original 14 (6 of which are NOT all-regular) that is 83",
+  "status_of_83": "A LOWER BOUND, not the exact family. The all-regular test is NARROWER than 'shape field = Q(sqrt-3)', as the 6 non-regular members of my own list prove.",
+  "what": "Paper IV's family F was 14 manifolds and was never verified complete"
+ },
+ "what_falls": [
+  "Theorem 'exactly one of seven elementary invariants separates m004 within F'",
+  "the Proposition adding the cusp shape as a second separator",
+  "the stated family size of 14"
+ ],
+ "what_survives": [
+  "the scale theorem -- never used the family",
+  "the orbit theorem -- never used the family",
+  "the corollary that the volume identity is a FAMILY property -- STRENGTHENED, more sharers",
+  "the corollary that trace-field inputs are FAMILY inputs -- STRENGTHENED, the family is far larger than stated"
+ ]
+}

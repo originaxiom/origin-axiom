@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-27)",
+ "claim_one_line": "PAPER IV'S BOTH SEPARATOR CLAIMS ARE REFUTED, AND THE CAUSE IS THAT ITS FAMILY WAS BADLY INCOMPLETE -- 14 members against AT LEAST 83. H_1 = Z is NOT a separator: o10_150700 is single-cusped, 10 regular ideal tetrahedra, volume exactly 5x m004, with H_1 = Z. The cusp shape 2*sqrt(3)i is NOT a separator: o10_150684, o10_150685, o10_150693 and t12840 each carry a cusp of exactly that shape. codex R014 was RIGHT that both claims fall, though the witness it named (s955) refutes neither -- s955 has H_1 = Z/20 + Z and cusp shape omega.",
+ "creates_law": "AN ENUMERATED FAMILY IS A CLAIM, NOT A SETTING. Paper IV verified 'exactly one of seven invariants separates m004 WITHIN F' against an F of 14 that was never itself verified complete. The census holds AT LEAST 83 manifolds with tetrahedron shape field Q(sqrt-3), and both separators die on the additions. SCOPE: 83 is a LOWER BOUND -- it is the all-regular-ideal set (77) united with the original 14, and 6 of those 14 are NOT all-regular, so the true shape-field family may be larger still. SCOPE: what SURVIVES is everything that does not depend on separation -- the volume-is-a-family-property corollary and the trace-field-inputs-are-family-inputs corollary are STRENGTHENED by a larger family, and the scale and orbit theorems never used it.",
+ "depends_on": [
+  "B8138"
+ ],
+ "id": "B8147",
+ "instrument": false,
+ "reproducer": "census scan of 212,641 orientable cusped manifolds for all-regular-ideal shapes, then both separators tested on the combined family",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "RETRACTED"
+}

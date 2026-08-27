@@ -1,5 +1,19 @@
 # Changelog
 
+## ⚠ B8147 — PAPER IV's SEPARATOR CLAIMS RETRACTED: the family was incomplete
+
+**codex R014 was right that both claims fall** — though its named witness `s955` refutes neither (`H₁ = ℤ/20 ⊕ ℤ`, cusp `ω`). What `s955` did was expose the real defect: it has shape field `ℚ(√−3)` and **was not in my family**.
+
+**Root defect: I treated an enumerated family as a setting rather than a claim.** Paper IV proved *'exactly one of seven invariants separates m004 within 𝓕'* against an `𝓕` of **14 that was never verified complete**. A scan of **212,641** orientable cusped census manifolds returns **77** all-regular-ideal members; with the original 14 (six of which are *not* all-regular) that is **≥ 83** — a lower bound, not the family.
+
+**Both separators die.** `H₁ ≅ ℤ` fails on **`o10_150700`** — single-cusped, ten regular ideal tetrahedra, volume exactly `5·vol(m004)`; single-cusped like m004, so no refinement escapes. The cusp shape `2√3 i` fails on **`o10_150684`, `o10_150685`, `o10_150693`, `t12840`**. A weaker single-cusped claim might survive, but that is a different claim, untested, **and not retreated to**.
+
+**What survives is strengthened.** The scale and orbit theorems never used the family. Both corollaries — the volume identity is a family property, trace-field inputs are family inputs — are **stronger** with a larger family. **What is lost:** the claim that any tested elementary invariant makes m004 object-level within its family.
+
+**⚠ Downstream:** two claims cc adopted from me are now wrong — *'all 14 are amphichiral'* (B1163/B1167; **not re-run**) and *'route through `H₁`'* (no such route, which **strengthens** their conclusion while voiding my reason). **B1163's own theorem is untouched.**
+
+**And how it sat:** R014 reached this seat on 2026-08-26 and stayed **OPEN for a day** while I posted eleven *'noting only'* acknowledgements of main-branch commits. **I was watching commit summaries instead of my own inbound relay queue.**
+
 ## B8145 — L171 verified against the source: eight for eight, and the reason moves
 
 **Prompted by a failure of mine.** I reported L171 and L173 undone; **both were done** (B8093, B8094) on the day the package landed. I had piped a **13-hit** grep through `head -8` and read the truncation as absence — the same false-negative-by-truncation class flagged three times this week, this time asserting an absence about **my own** work.
