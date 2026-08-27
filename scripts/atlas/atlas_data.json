@@ -3593,6 +3593,24 @@
    "status": "dead",
    "domain": "meta"
   },
+  "B1173": {
+   "slug": "digest partial close",
+   "motifs": [
+    "kappa"
+   ],
+   "refs": [
+    "L161",
+    "L165",
+    "L175",
+    "L184",
+    "L185",
+    "L189"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B117": {
    "slug": "interleaving",
    "motifs": [

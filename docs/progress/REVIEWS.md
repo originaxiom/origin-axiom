@@ -4264,3 +4264,12 @@ do not lean on it, but this is a real single-homed debt (L181/L183). Carried R49
   a distinct cohomological wall; SEAM-A the honest open crossing).
 
 anchor-commit: `29b09993` (the two-seams bank, this window's last substantive commit before the review)
+
+---
+
+*Inter-review note (2026-08-27, B1173; owner-directed O4).* The **qor5up** branch:
+FROZEN-RECORD-PENDING → **FROZEN-RECORD-CLOSED**. The B1060 digest partial-closed (45 dispositioned /
+13 NOT-REACHED → umbrella **L185**); the branch's record stands frozen at its Review-1 state; the owed
+registry entry (R47-3, carried R48-5) is hereby landed and both carries discharge. Residue readable via
+`docs/CLOUD_ALIAS_TABLE.md`; reopen path = disposition any NOT-REACHED row under a new arc. Carry to
+Review 50: none for this item.

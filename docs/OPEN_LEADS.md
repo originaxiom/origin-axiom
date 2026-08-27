@@ -7,7 +7,7 @@
 *Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
 
 
-*Review 47 currency (2026-08-20, anchor 61499dfe): the lead register reviewed at the window's close — L79 closed (B1086); L167–L170 all closed (the harvest); L171–L173 registered with L173 differential-first; L174's C1–C4 banked; THE HATCH row updated (B1098; B1100 running with the reality check per the audit seat's B959 flag). As of 2026-08-19: L167–L170 REGISTERED (the audit-seat harvest queue — every entry re-derives under a main-band arc before use, integrate-don't-merge; the seat's own branch numbers its twins L166/L167, alias table disambiguates); main's next lead L175 (L171–L174 registered 2026-08-19). Prior: L166 REGISTERED 2026-08-18 (the listener map — `docs/LISTENER_MAP_SPEC.md`; answered within 48h, see its STATUS ADDENDUM). Prior: L160 closed (B1041); the digest renumbers qL155–qL166 at B1060 (qL-numbers are the branch's — the alias table disambiguates); stamp history: refreshed 2026-08-14 (was stale at L161 since Review 45).*
+*Review 47 currency (2026-08-20, anchor 61499dfe): the lead register reviewed at the window's close — L79 closed (B1086); L167–L170 all closed (the harvest); L171–L173 registered with L173 differential-first; L174's C1–C4 banked; THE HATCH row updated (B1098; B1100 running with the reality check per the audit seat's B959 flag). As of 2026-08-19: L167–L170 REGISTERED (the audit-seat harvest queue — every entry re-derives under a main-band arc before use, integrate-don't-merge; the seat's own branch numbers its twins L166/L167, alias table disambiguates); main's next lead **L189** (L171–L174 registered 2026-08-19). Prior: L166 REGISTERED 2026-08-18 (the listener map — `docs/LISTENER_MAP_SPEC.md`; answered within 48h, see its STATUS ADDENDUM). Prior: L160 closed (B1041); the digest renumbers qL155–qL166 at B1060 (qL-numbers are the branch's — the alias table disambiguates); stamp history: refreshed 2026-08-14 (was stale at L161 since Review 45).*
 
 A registry of **open leads**: directions named but not yet run, ranked by value and tractability. This is a
 *pointer file*, not a results file — nothing here is a claim, nothing promotes to `../CLAIMS.md`. Each lead is a
@@ -2069,3 +2069,17 @@ corroboration of B665 — the pointwise formula was never checked, no mod-5 colu
 The cell: verify-don't-trust each claim per its addendum disposition, bank under new numbers.
 ★★ (bounded; the addendum already did the scoping honestly). Path
 `frontier/B879_selection_cochain/packet/`.
+
+
+## L185 — THE QOR5UP UNPORTED RESIDUE (umbrella; registered 2026-08-27, B1173 at the digest partial-close; owner-directed O4)
+
+The B1060 digest closed PARTIAL with **13 NOT-REACHED rows**, all readable at the frozen qor5up branch via
+`docs/CLOUD_ALIAS_TABLE.md`: lanes 3.1–3.5 (the law-siblings gate; the supersession gate; E37/E38 →
+ERROR_LEDGER; verdict_drop.py), 4.1–4.7 (the B408/B426 Galois restoration; B564-closed-B141; the
+claim-lines-overstate 5; metadata-vs-body 14→28; **the 15 absent reproducers**; the two-κ finding qL159; the
+shadow library, 227 files / cyclo_engine 56 importers), and 5.01–5.12 (the twelve cloud leads qL155–qL166;
+qL164 already owner-DECIDED; renumber at disposition = **L185+**, never the stale L165+). One umbrella row,
+not thirteen: nothing lost, nothing duplicated — any future sitting dispositions a row under a new arc and
+the denominator stays 58. The qor5up branch itself is **FROZEN-RECORD-CLOSED** (registry entry landed,
+R47-3/R48-5 discharged). ★★ (a queue pointer, not a computation; the two-κ and shadow-library rows are the
+likeliest early reopens).

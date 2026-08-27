@@ -11752,3 +11752,11 @@ nothing preserved the untracked FILES"). Fixes: sender-branch dual-homing now st
 O3 executed (MC1 row, formally codex's); 2 cloud rows backfilled; MSSM row repaired; fab2849b accept
 recorded. The sweep's register banked verbatim (Wave-2/3 queues; the review-carry leak = R50's opening
 item). Instrument arc; Gate 5 clean. Locks test_b1172 (6) + test_relay_debt_gate (6).
+
+## B1173 (2026-08-27) — THE DIGEST PARTIAL-CLOSE (O4): 13 NOT-REACHED → L185; qor5up released
+The stalled B1060 digest CLOSED-PARTIAL: 45 dispositioned / 13 NOT-REACHED (the ledger's own honesty
+vocabulary, not a new token), each → L185 (umbrella residue; denominator stays 58; rows reopenable under new
+arcs). The stale "→L165+" renumber collision fixed (→L185+; main's L165–L184 were minted after it was
+written). qor5up: FROZEN-RECORD-PENDING → FROZEN-RECORD-CLOSED (append-only registry note; R47-3 + R48-5
+discharged before Review 50 opens). OPEN_LEADS stamp corrected (next lead L189). test_b1060_digest pins the
+closed state. Nothing lost. Gate 5 clean. Locks test_b1173 (3). WAVE 1 + O3 + O4 COMPLETE (B1170–B1173).

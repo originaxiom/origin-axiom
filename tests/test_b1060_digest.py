@@ -32,10 +32,13 @@ def test_arcs_lane_complete():
         assert f"qB{n}" in txt, f"missing arc row qB{n}"
 
 
-def test_open_state_is_declared():
+def test_close_state_is_declared():
+    # B1173: the digest PARTIAL-CLOSED (owner-directed O4). The lock now pins the closed state:
+    # zero EMPTY rows (13 NOT-REACHED via the ledger's own honesty vocabulary), the L185 umbrella
+    # pointer, and the qor5up release. The denominator stays 58 (test_structure_and_vocabulary).
     txt = LED.read_text()
-    assert "DIGEST STATUS: OPEN" in txt
-    # while OPEN, EMPTY rows are legal; the completion lock ships with the closing
-    # arc and will assert zero EMPTY. This lock only pins the declared state.
-    n_empty = txt.count("| EMPTY |")
-    assert n_empty > 0 or "DIGEST STATUS: CLOSED" in txt
+    assert "DIGEST STATUS: CLOSED-PARTIAL" in txt
+    assert txt.count("| EMPTY |") == 0, "EMPTY rows survived the partial-close"
+    assert txt.count("NOT-REACHED at partial-close") == 13
+    assert "L185" in txt and "FROZEN-RECORD-CLOSED" in txt
+    assert "L185+" in txt  # the stale L165+ renumber instruction is corrected

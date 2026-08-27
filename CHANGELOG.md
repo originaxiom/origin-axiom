@@ -1,5 +1,20 @@
 # Changelog
 
+## B1173 (2026-08-27): THE DIGEST PARTIAL-CLOSE (O4) — 45 dispositioned / 13 NOT-REACHED → L185; the qor5up branch released; R47-3 + R48-5 discharged
+
+Owner-directed O4 (the approved default). The B1060 digest — the anti-cherry-picking backbone (58 rows,
+fixed denominator) — had stalled at 13 EMPTY rows since 2026-08-14, holding qor5up hostage. Closed:
+**CLOSED-PARTIAL (2026-08-27)**; the 13 rows typed **NOT-REACHED** (*the ledger's own honesty vocabulary —
+a deliberate deviation from the plan's new-token proposal; using the sealed vocabulary instead of widening
+it*), each → **L185**, the umbrella residue lead (one row, not thirteen; denominator stays 58; any row
+reopenable under a new arc). **The renumber collision fixed** (the stale "→L165+" collided with main's live
+L165–L184 → **L185+**, alias table the resolver). **qor5up: FROZEN-RECORD-PENDING → FROZEN-RECORD-CLOSED**
+(registry entry landed append-only; **R47-3 and R48-5 discharge** — two Review-50 carries closed before it
+opens). The stale OPEN_LEADS stamp corrected (next lead L189). `test_b1060_digest` now pins the closed
+state. Nothing lost: every row readable at the frozen branch via the alias table; two-κ (qL159) +
+shadow-library (qL160) flagged as likeliest early reopens. Gate 5 clean. Locks
+`tests/test_b1173_digest_partial_close.py` (3) + the updated b1060 lock.
+
 ## B1172 (2026-08-27): THE TRIGGER + THE BACKLOG + THE REGISTER — the relay-escalation instrument repaired and ENFORCED; the 36-day backlog triaged; a nine-file retention-gap event found and filed (E51); the sweep's register banked
 
 **The relay-debt gate was silently dead** — four defects verified and repaired (same commit as the triage):

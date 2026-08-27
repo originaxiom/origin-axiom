@@ -1,0 +1,16 @@
+{
+ "id": "B1173",
+ "arc": "the digest partial-close (O4)",
+ "verdict": "OPEN",
+ "closed": {
+  "dispositioned": 45,
+  "not_reached": 13,
+  "denominator": 58,
+  "vocabulary_note": "NOT-REACHED used (the ledger's own honesty row) instead of minting UNPORTED-AT-CLOSE -- deviation from plan, noted",
+  "renumber_fix": "qL155-qL166 -> L185+ (the stale L165+ collided with main's live L165-L184)"
+ },
+ "l185": "the umbrella residue lead: 13 rows readable at the frozen branch via docs/CLOUD_ALIAS_TABLE.md; reopens = disposition under a new arc",
+ "qor5up": "FROZEN-RECORD-PENDING -> FROZEN-RECORD-CLOSED; registry entry landed (append-only inter-review note in docs/progress/REVIEWS.md); R47-3 + R48-5 discharged",
+ "fences": "Nothing lost; process arc; no mathematics; Gate 5 clean. Not kill_graph-routed.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}
