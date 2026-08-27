@@ -191,3 +191,18 @@ the main corpus's 64; this lane's beat is the ROOTS[0] single-root
 operator on the carrier (R020's own "hostile convention lock" states the
 two are different operators) — no lane result is touched. Codex R021
 (Gieseking Pin⁻) is noted as orientation-adjacent, unprocessed here.
+
+## ADDENDUM 2 (2026-08-27, B1174/B1175 landed) — C4 constructively closed
+**C4/C4′ — RESOLVED by B1174: NOT ONE TORSOR — ONE SHARED INVOLUTION.**
+The program's ℤ/2's organize as two V₄'s (branch/ζ₁₂ and meeting/√−3·√5)
+sharing exactly the c-leg, where c = the mirror = the chirality quotient
+Gal(K/ℚ) = the orientation — proved by the mirror acting as complex
+conjugation on the holonomy traces (their SnapPy verification; this
+lane's exact half is memos 79/81: gal = conjugation, gal(q) = q⁻¹). The
+value/genus/form-class bits are provably OTHER legs (c is trivial on
+real fields — the parity law at the field level, matching this lane's
+mirror-even/mirror-odd split). The charter's C4 line is closed: refuted
+as one torsor (Addendum 1), resolved as one shared involution (B1174).
+B1175 harvested Addendum 1 three-seat; codex R020/R021/R022 verified
+byte-identical on cc's bench. Remaining open rows: C2 (standing test,
+passed again by memo 83's CP cell), C6 (standing), and the ℝ⁺ scale.

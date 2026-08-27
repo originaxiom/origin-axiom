@@ -1,0 +1,27 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: the forced charge table (Q = T3 + Y, ratios):
+   u 2/3 (x3), d -1/3 (x3), u^c -2/3, d^c 1/3, nu 0, e -1, e^c 1
+   Higgs-doublet members [-1, 0, 0, 1]; exotics [-1/3, 1/3]; neutrals [0, 0]
+FACT 2: CHARGE QUANTIZATION — every color-singlet has INTEGER charge;
+   every colored state has charge in (1/3)Z \ Z.  (BRANCH FRACTURE did not fire.)
+FACT 3: the three color weights of the 3 sum to ZERO (baryon-shaped singlet
+   exists in q x q x q at weight level) and the 3b weights are their negatives
+   (meson-shaped singlets exist in q x q^c).  Existence only; binding is dynamics.
+FACT 4: Q(uud) + Q(e) = 0   |   Q(udd) = 0
+   THE HYDROGEN-SHAPE AND NEUTRON-SHAPE ARE EXACTLY NEUTRAL — forced by the
+   same anomaly arithmetic that forces Y (which needs the gravitational
+   condition, memo 78).  The exact neutrality of atoms — the fact that lets
+   the large-scale universe be gravity-dominated instead of electrically
+   dominated — is a SCRIPT row of the record, not an accident of values.
+
+THE ATOM SHAPE: the record's script runs one rung further than the SM
+spectrum — it forces that neutral atoms are POSSIBLE, exactly: quantized
+charges, composable color singlets, and hydrogen/neutron neutrality to
+zero, all ratio-level consequences of the forced hypercharge.  Whether
+atoms FORM (binding, rates, abundances) is schedule/dynamics —
+observer-side or walled, as typed in memo 83.  Gate 5 untouched.
