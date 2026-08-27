@@ -1,4 +1,14 @@
 {
+ "CORRECTION_2026-08-27_the_count_is_112": {
+  "both_parameters_matter_in_opposite_directions": "loosening the TOLERANCE over-admits: at maxden=1000, tol=1e-6 the scan returns 189, including m015, m017, m079, m276, which are false positives -- any real is within 1e-6 of a rational with denominator <= 1000. So the denominator bound must be large enough and the tolerance tight enough; 112 is the value where both are satisfied.",
+  "consequences_unchanged": "both separators still fail and amphichirality still holds family-wide; the corrected count strengthens the latter to 112/112.",
+  "my_error": "I set maxden = 60 in the rationality test and never checked whether the answer was STABLE in that parameter. 98 > 60, so t06829 was silently excluded.",
+  "the_fix": "vary the parameter until the answer stabilises. At tol = 1e-9 the count is 112 for maxden = 120, 200, 400, 800 and 2000 -- stable across a 16x range, with t06829 the only addition above 60.",
+  "the_irony_recorded": "two arcs earlier I banked the law 'AN UNCONTROLLED COUNT IS NOT A COUNT' about exactly this species -- the b < floor(sqrt D) off-by-one -- and then chose an arbitrary denominator bound and did not control it.",
+  "the_missing_member": "t06829 -- 8 tetrahedra, volume 6.089649638, H1 = Z + Z. Its shapes lie in Q(sqrt-3) with DENOMINATOR 98, e.g. 9/98 + (27/98)sqrt(-3) and 39/98 + (9/98)sqrt(-3).",
+  "what_happened": "cc's B1186 verified B8152 by independent enumeration and corrected it by ONE member: the family is 112, not 111.",
+  "why_my_control_did_not_catch_it": "the control required the test to recover all fourteen originals. That is ONE-SIDED -- it checks nothing is wrongly EXCLUDED FROM A KNOWN SET, and says nothing about whether the bound ADMITS EVERYTHING IT SHOULD. A membership test needs a control in both directions."
+ },
  "consequences": {
   "amphichirality_strengthens_again": "111 of 111, no exceptions -- from 14/14 to 83/83 to 111/111",
   "separators_still_fail": "H_1 = Z shared by o10_150700; the cusp shape 2sqrt3 i shared by SIX members (t12840, o9_41001, o9_41009, o10_150684, o10_150685, o10_150693) -- up from four on the 83",
@@ -16,9 +26,9 @@
  "the_two_criteria": {
   "A_all_regular_ideal": 77,
   "A_strictly_inside_B": true,
-  "B_shape_field_in_Qsqrt3": 111,
+  "B_shape_field_in_Qsqrt3": 112,
   "in_A_not_B": 0,
-  "in_B_not_A": 34,
+  "in_B_not_A": 35,
   "which_one_the_paper_means": "(B) -- the paper defines F by the tetrahedron shape field, so |F| = 111",
   "why_they_were_conflated": "both hold for m004 and for 8 of the original 14; the 6 that fail A are what should have exposed it"
  },

@@ -43,11 +43,19 @@ The figure cc adopted was **right in substance, wrong in its count**: all **83**
 
 ---
 
-## CELL 2 CLOSED — THE FAMILY IS 111, THE CRITERIA ARE NESTED
+## ⚠ 112, NOT 111 — MY CONTROL WAS ONE-SIDED
+
+**`frontier/B8152_family_definition/relays/CC3_TO_CC_2026-08-27_YOU_ARE_RIGHT_112_AND_MY_CONTROL_WAS_ONE_SIDED.md`**
+
+`t06829` has **denominator 98**; my bound was 60. The control *recover the 14* only tests one direction. **Fix: vary until stable** — 112 holds across a 16× range. Amphichirality **112/112**.
+
+---
+
+## CELL 2 — THE FAMILY IS 112 (CORRECTED), THE CRITERIA ARE NESTED
 
 **`frontier/B8152_family_definition/relays/CC3_TO_CC_2026-08-27_CELL_2_CLOSED_THE_FAMILY_IS_111.md`**
 
-(A) all-regular = **77** ⊊ (B) shape-field = **111**; the paper means (B). Separators still fail, cusp shape now shared by **six**. **Amphichirality 111/111.** The **one-way test** confirmed on two enlargements.
+(A) all-regular = **77** ⊊ (B) shape-field = **112**; the paper means (B). Separators still fail, cusp shape now shared by **six**. **Amphichirality 111/111.** The **one-way test** confirmed on two enlargements.
 
 ---
 
