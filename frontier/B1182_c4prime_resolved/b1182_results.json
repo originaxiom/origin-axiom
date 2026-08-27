@@ -1,0 +1,12 @@
+{
+ "id": "B1182",
+ "arc": "C4' resolved positive + the arrow typed",
+ "verdict": "PROVED",
+ "theorem": "(c,r,theta) -> (k11,k7,k5) is the UNIQUE label-preserving V4 isomorphism (frame -> branch)",
+ "forcing": "c->k11 (B1174); r->k7 (trace-reversal invariance exact + k7 the unique K-fixer); theta->k5 (group law 11*7=5 mod 12)",
+ "self_correction": "B1175 guessed theta K-fixing -- computation says r is the K-fixer, theta -> k5",
+ "arrow_typed": "FINITE-PLACE (r -> k7 = the arithmetic form-class swap, finite orbits, escape-(1) available); the orientation stays the sole archimedean bit; B8144 instrument's first execution",
+ "adelic_observer_leg_by_leg": "c = archimedean orientation (full bit) | r = finite form-class label | theta = value-kernel (i-fixer) | R+ scale | VEV",
+ "fences": "generic-2x2 trace proof on generating words (general statement = the standard anti-automorphism, cited); arrow==r is the banked frame's identification; the (alpha2,alpha4) dictionary residual (relayed to codex). Gate 5 clean.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

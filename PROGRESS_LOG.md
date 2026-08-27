@@ -11850,3 +11850,13 @@ object-level claims, only helps family-level ones; a family is a CLAIM, never a 
 DIRECTION recorded: all sends HOLD (decision box marked); the paper crafted owner+cc after the math is
 exhausted; cc3's papers stay as insight; priority = the remaining mathematics to a full ToE. Gate 5 clean.
 Locks test_b1181 (3).
+
+## B1182 (2026-08-27) — C4′ RESOLVED POSITIVE: the unique iso (c,r,θ)→(k11,k7,k5); the arrow typed FINITE
+The √−3-internal pair (frame V₄ vs branch V₄) is ONE named-action torsor by the UNIQUE label-preserving
+iso: c→k11 (B1174); r→k7 FORCED by trace-reversal invariance (tr(w)=tr(w^rev) proved exactly, generic 2×2,
+6 words — reversal fixes K pointwise; k7 the unique K-fixing leg); θ→k5 (11·7≡5 mod 12). Self-correction:
+B1175's guess (θ K-fixing) wrong — r is the K-fixer. B1029 consistent (different module: values vs field —
+the pair forces the iso). THE ARROW TYPED FINITE-PLACE (B8144's instrument, first execution: r's leg = the
+mod-(4) arithmetic form-class swap, finite orbits ⇒ escape-(1) available) — the orientation = the sole
+archimedean bit; the adelic observer leg-by-leg: c=archimedean orientation | r=finite label | θ=value-kernel
+| ℝ⁺ | VEV. Residual: the (α₂,α₄) dictionary (codex). Gate 5 clean. Locks test_b1182 (4).

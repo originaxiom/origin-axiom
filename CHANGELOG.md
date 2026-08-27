@@ -1,5 +1,26 @@
 # Changelog
 
+## B1182 (2026-08-27): C4′ RESOLVED POSITIVE — the unique iso (c,r,θ)→(k11,k7,k5); THE TIME'S-ARROW TYPED FINITE-PLACE (the B8144 instrument's first execution); the adelic observer typed leg-by-leg
+
+The cell the three-seat convergence specified, run on the owner's back-to-the-math GO. **The theorem:** the
+√−3-internal pair — the frame V₄ = ⟨c,r⟩ (chirality × reversal) and the branch V₄ = Gal(ℚ(ζ₁₂)/ℚ) — is
+**one named-action torsor** via the **unique** label-preserving isomorphism **(c, r, θ=cr) → (k11, k7, k5)**.
+The forcing, exact: c→k11 (B1174, the mirror IS Gal(K/ℚ)'s generator); **r→k7 by TRACE-REVERSAL
+INVARIANCE** — tr(w)=tr(w^rev) proved exactly on generic 2×2 matrices (the classical transposition
+anti-automorphism), so **reversal fixes the trace field K pointwise**, and k7 is the *unique* K-fixing
+branch leg — no freedom remains; θ→k5 by the group law (11·7≡5 mod 12). **An honest self-correction:**
+B1175's bounded question guessed θ would land K-fixing — the computation says **r is the K-fixer**, θ lands
+on k5. B1029's value-kernel theorem is consistent (a *different module*: on values r conjugates characters
+hence acts like c; on the field r is trivial — the (module, field) pair is exactly what separates r from c
+and forces the iso). R022's coordinate-convention fence absorbed (axis naming only). **The free corollary —
+the time's-arrow typed** (the flagged price-reconciliation residue, closed by cc3's own instrument): the
+arrow = r, whose leg k7 = the mod-(4) **arithmetic form-class swap** (B1067) with finite orbits ⇒ escape-(1)
+available ⇒ **THE ARROW IS FINITE-PLACE** — a label on the VEV side, not a continuum bit; **the orientation
+(c) is the sole archimedean bit**. The adelic observer now typed leg-by-leg: c = archimedean orientation
+(full bit) | r = finite form-class label | θ = the value-kernel (i-fixer) | ℝ⁺ scale | the VEV. Residual:
+the (α₂,α₄)-to-field-label dictionary (codex's carrier bookkeeping, relayed). Gate 5 clean. Locks
+`tests/test_b1182_c4prime_resolved.py` (4, incl. the live trace-reversal + leg-table asserts).
+
 ## B1181 (2026-08-27): THE AMPHICHIRALITY DEBT CLOSED — 83/83 (cc3), spot-verified 5/5 by mirror-isometry; the W₀ obstruction now family-wide across ≥83; THE ONE-WAY FAMILY TEST registered as a method-law. + THE OWNER'S DIRECTION: all sends HOLD; the paper crafted together after the math is exhausted; back to the remaining mathematics
 
 The residue B1180 flagged same-day is **closed by cc3** (a0a349ef): the corrected ≥83 family is **83/83
