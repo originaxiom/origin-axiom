@@ -3569,6 +3569,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1172": {
+   "slug": "lose nothing register",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B489",
+    "B500",
+    "B685",
+    "B999",
+    "L114",
+    "L187",
+    "L188",
+    "L255",
+    "L310",
+    "L34",
+    "S6",
+    "S7"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "meta"
+  },
   "B117": {
    "slug": "interleaving",
    "motifs": [

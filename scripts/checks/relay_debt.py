@@ -23,8 +23,23 @@ Every relay carries exactly one disposition in `docs/RELAY_LEDGER.md`:
     OPEN     — a debt, carrying an age
 
 **A relay with no row is the failure state: invisible work.** That fails the gate.
-**A debt is not an exemption** (B982): debts are listed with their age and escalated
-by name past the threshold.
+**A debt is not an exemption** (B982): debts are listed with their age and **escalation
+is ENFORCED** (B1172): an OPEN row older than STALE_DAYS **fails the gate** unless its
+note carries an explicit `ESCALATED(YYYY-MM-DD` marker — escalation-by-name means
+somebody actually wrote the escalation down, with a date and a named next action.
+A DATELESS open row is treated as stale (the dateless exemption was how the oldest
+artifact in the ledger stayed structurally invisible for 10 weeks).
+
+B1172'S FOUR REPAIRS (the sweep found this gate silently dead)
+--------------------------------------------------------------
+1. `_today()` read the ledger's own stamp — frozen at 2026-08-09 — so the gate believed
+   no time ever passed and the 21-day rule NEVER FIRED. Now: the real date, with the
+   `OA_RELAY_TODAY` env override for deterministic tests.
+2. Stale debts were PRINTED but never failed the gate. Now they fail (minus ESCALATED).
+3. `RELAY_RE` matched only the cc3 lane; `CC_TO_CODEX_*` / `CC_TO_CLOUD_*` /
+   `CC_TO_ALL_SEATS_*` were invisible (the MC1 assignment went unrowed exactly there).
+   Now: any `<SEAT>_TO_<SEATS>_<date>_*.md` plus the proposal/handoff shapes.
+4. Dateless OPEN rows skipped the age check entirely. Now stale-by-definition.
 
 DISCIPLINE ON WHO MAY MARK WHAT
 -------------------------------
@@ -35,6 +50,7 @@ must name the arc that carries the finding, so the claim is checkable by grep.
 from __future__ import annotations
 
 import datetime
+import os
 import pathlib
 import re
 import sys
@@ -42,16 +58,15 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 LEDGER = ROOT / "docs" / "RELAY_LEDGER.md"
 STALE_DAYS = 21
+ESCALATED_RE = re.compile(r"ESCALATED\(\s*[0-9]{4}-[0-9]{2}-[0-9]{2}")
 
 # Relays live outside the tree by the standing rule, so the gate reads the LEDGER as the
 # register of what exists, and cross-checks any relay file that IS tracked.
 # B1004: widened after cc3 found the ONE artifact that went unadopted today was INVISIBLE to
-# this gate -- README_ARC_PROPOSAL.md does not match the CC3_TO_CC_<date>_* pattern, so the
-# mechanism written to prevent exactly that loss could not see it. Proposals and handoffs carry
-# no date in the name, so they are dated from first commit. Whoever narrows this later should
-# know what the narrow version cost.
+# this gate. B1172: widened again to every seat lane (CC/CC3/CODEX/CLOUD/ALL_SEATS, any
+# direction) after the sweep found the codex/cloud lanes structurally invisible.
 RELAY_RE = re.compile(
-    r"(CC3?_TO_CC3?_[0-9]{4}-[0-9]{2}-[0-9]{2}[A-Za-z0-9_.\-]*\.md"
+    r"((CC3?|CODEX|CLOUD)_TO_[A-Z0-9_]+_[0-9]{4}-[0-9]{2}-[0-9]{2}[A-Za-z0-9_.\-]*\.md"
     r"|[A-Za-z0-9_.\-]*_PROPOSAL\.md|PROPOSAL_[A-Za-z0-9_.\-]*\.md"
     r"|[A-Za-z0-9_.\-]*_HANDOFF\.md|HANDOFF_[A-Za-z0-9_.\-]*\.md)")
 ROW_RE = re.compile(
@@ -60,10 +75,12 @@ ROW_RE = re.compile(
 
 
 def _today() -> datetime.date:
-    # Date is read from the ledger's own stamp when present, so the gate is deterministic
-    # under replay and does not depend on wall-clock (which scripts here may not use).
-    m = re.search(r"<!--\s*relay-ledger-date:\s*([0-9]{4}-[0-9]{2}-[0-9]{2})", _read(LEDGER))
-    return datetime.date.fromisoformat(m.group(1)) if m else datetime.date(2026, 8, 9)
+    # B1172: the real date. The old stamp-based clock froze at 2026-08-09 and the gate
+    # never fired. OA_RELAY_TODAY overrides for deterministic tests only.
+    env = os.environ.get("OA_RELAY_TODAY")
+    if env:
+        return datetime.date.fromisoformat(env)
+    return datetime.date.today()
 
 
 def _read(p: pathlib.Path) -> str:
@@ -101,10 +118,16 @@ def check() -> tuple[list[str], list[str], dict]:
             fails.append(f"{name}: BANKED but the note names no arc — unverifiable")
         if d == "DECLINED" and len(note) < 12:
             fails.append(f"{name}: DECLINED with no reason given")
-        if d == "OPEN" and m.group("date") not in ("—", "-"):
-            age = (today - datetime.date.fromisoformat(m.group("date"))).days
-            if age > STALE_DAYS:
-                stale.append(f"{name}: OPEN for {age} days (> {STALE_DAYS})")
+        if d == "OPEN":
+            escalated = bool(ESCALATED_RE.search(note))
+            if m.group("date") in ("—", "-"):
+                # B1172: dateless OPEN = stale by definition (repair 4)
+                if not escalated:
+                    stale.append(f"{name}: OPEN with NO DATE and no ESCALATED marker")
+            else:
+                age = (today - datetime.date.fromisoformat(m.group("date"))).days
+                if age > STALE_DAYS and not escalated:
+                    stale.append(f"{name}: OPEN for {age} days (> {STALE_DAYS}), no ESCALATED marker")
 
     # invisible work: a relay file present in the tree with no ledger row
     for name in sorted(tracked_relays() - set(rows)):
@@ -118,15 +141,15 @@ def main() -> int:
         print(f"  relay-debt: {counts['BANKED']} banked, {counts['DECLINED']} declined, "
               f"{counts['OPEN']} open")
     if stale:
-        print(f"  relay-debt: {len(stale)} STALE DEBT(S), escalated by name --")
+        print(f"  relay-debt: {len(stale)} UNESCALATED STALE DEBT(S) — escalate by name or close --")
         for s in stale:
             print(f"    {s}")
     if fails:
         print("  relay-debt: FAILURES --")
         for f in fails:
             print(f"    {f}")
-        return 1
-    return 0
+    # B1172 repair 2: stale debts FAIL the gate (they used to be printed and swallowed)
+    return 1 if (fails or stale) else 0
 
 
 if __name__ == "__main__":

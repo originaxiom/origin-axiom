@@ -1,0 +1,48 @@
+{
+ "id": "B1172",
+ "arc": "the trigger + the backlog + the register",
+ "verdict": "OPEN",
+ "gate_repairs": {
+  "defect1_frozen_clock": "fixed: real date.today(), OA_RELAY_TODAY env override for tests; the old stamp-clock froze at 2026-08-09 and the rule never fired",
+  "defect2_stale_swallowed": "fixed: stale OPEN rows FAIL the gate unless the note carries ESCALATED(date -- escalation-by-name is enforcement now",
+  "defect3_seat_blind_regex": "fixed: (CC|CC3|CODEX|CLOUD)_TO_<SEATS>_<date>_* all match; the MC1 unrowed-assignment was this defect's live instance",
+  "defect4_dateless_exemption": "fixed: dateless OPEN = stale-by-definition",
+  "lock": "tests/test_relay_debt_gate.py (regex coverage; clock; marker; both exit paths against the real ledger)"
+ },
+ "triage": {
+  "p3_complete_36d": "BANKED-as-triaged; the 7 EXPOSED -> L187 (depth-closure backlog; B500 doubly-owed with R28-6)",
+  "selection_cochain_24d": "ESCALATED + L188 (the six claims per the packet's own reconciliation addendum)",
+  "handoff_manifest_dateless": "dated 2026-06-15 + ESCALATED (Review 50 named item)",
+  "the_nine_0809_rows": "pre-escalated (3 days from tripping) -- and the triage found the retention-gap event"
+ },
+ "e51_retention_gap": "the nine 2026-08-09 relay FILES lost from the working tree, on NO reachable branch; only ledger rows survive; 2/9 processed pre-loss; fixes: sender-branch dual-homing (now standard), the re-send ask to cc3 (CC_TO_CC3_2026-08-27_RESEND_NINE_RELAYS.md), the repaired gate",
+ "o3_mc1": "the assignment row exists (OPEN, formally codex's; Cartan-only 36/36; R019 fences the theorem but is not it); + 2 cloud rows backfilled; the MSSM compound column repaired; fab2849b acceptance recorded",
+ "the_register_wave2_queue": [
+  "R50 opening item: the review-carry leak audit (R47 mis-keyed the R46-6/7/11 bundle; R49 silently dropped R48-4/5/6/7/8/9/10; gates.py review check blind to carry continuity) + gate extension",
+  "the 14 missing arc_verdict.json (B834-B845 band + B58_stage1 + B89/B89T + P3_depth_exposure) + kill-graph 66%-coverage caveat on revival rankings",
+  "OA_SLOW=1 one full run (50 shadow test-halves never certified); record last-green",
+  "chronicle_raw/HARVEST_CANDIDATES.md ownership + OPEN_LEADS row (U_e diagonalization; quasinormal pipeline; Verlinde k=5..7; L(1,chi5) Z-ladder; zeta5 B728-ext; s=1/48 vs PC22)",
+  "the C-namespace registry (charter C1-C6 vs genesis C1-C6 vs chat-1 C3 vs Kashaev C0-C4; kappa 3 senses) -- cloud's relabel asked in the B1170 relay",
+  "papers/PORTFOLIO landing (ratified P1-P8 currently memory-only; 3 contradictory P-numbering generations; PC23/P4/PC22/PC24 dispositions)",
+  "the governed-rooms APEX repair (one S-file + philosophy addendum; rooms-freshness question into the review checklist)",
+  "the TOOLBOX extraction seed (e6_centralizer 54 consumers; frame.py; B1103 engine; B878 Maass solver; 3 scripts -> nonexistent B792 dir) + doc_currency gate one-liner",
+  "OPEN_LEADS ID collisions (two L110s, two L113s) + VERDICT_LEDGER-vs-OPEN_LEADS diff",
+  "specialist outreach: EXPERT_OUTREACH staleness pass (the trigger HAS fired per B1161) + ONE specialist-gate ledger row over all 6 bars + the send-queue to the owner"
+ ],
+ "the_register_wave3_queue": [
+  "Q1 THE Z/2 IDENTIFICATION CELL (sweep #14 == B1169-S1, double-discovered): are B942/B957/B1168/S068's Z/2s ONE involution? computable",
+  "Q2 KMRT sec-43 / 3D4 reading cell (cheapest Tier-VALUE-COMPRESSION door) + B1074 supersession + L154 anchor",
+  "Q3 F11: m004 scattering resonances by mirror parity (B1168-enabled; three 5-scored hatches converge)",
+  "Q4 L145a (top revival score): hunt_d5 saturation + degree-4 field test on 35 words",
+  "Q5 L129/B945 Klein-locus theorem candidate",
+  "Q6 THE TORSOR LAW synthesis (fed by Q1 + the seats' B1169-S2 verdict)",
+  "Q7 field-of-moduli / Weil-descent literature relay to cc3",
+  "Q8 B850's named unproven step (else annotate 'dynamics GENERIC' conditional)",
+  "Q9 the Maass cluster (relay-fetch cc3's B792 ~43 eigenvalues -> L110; re-price L113; pi_7)",
+  "Q10 K014 heterogeneous-partner question-cell vs the free orbit + SEAM-A",
+  "Q11 L178 tones gate(1); T-GOLDEN-MERIDIAN LAW_MAP row; B958 char-0; L163 mu-pencil; OPEN_PROBLEMS sec-7 consolidation",
+  "+ L186 (three Yukawa mechanisms), L187 (depth-closure), L188 (selection-cochain) registered this sitting"
+ ],
+ "fences": "Process arc; no mathematics asserted; Gate 5 clean. E51 honestly bounded (seven files unrecoverable from this tree; re-send may recover; if cc3 also lost them the loss is final and marked). Not kill_graph-routed.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES (gate green at triage date; L187/L188; E51; MC1 row; 11 ESCALATED-by-name rows)"
+}

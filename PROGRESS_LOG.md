@@ -11740,3 +11740,15 @@ memos 80/82 byte-identical on-bench: the up-Yukawa SHAPE EXISTS on the object (S
 proven different facts); 810/810 family matrices rank 2, kernel = the Higgs family; L186 registered (three
 Yukawa mechanisms: one or three?). (5) codex R015/R016 adopted (B1153 grade-note; B1158 fence-note) + two
 asks (R018 gap; ζ₁₂/dP₆ cert). All seats credited. Gate 5 clean. Locks tests/test_b1171_seam_harvest.py (8).
+
+## B1172 (2026-08-27) — THE TRIGGER + THE BACKLOG + THE REGISTER
+The relay-debt gate was silently DEAD (frozen stamp-clock since 08-09; stale swallowed; seat-blind regex —
+the MC1 unrowed-assignment was this defect live; dateless exemption). All four repaired same-commit as the
+triage; stale now FAILS unless ESCALATED-by-name; new lock test_relay_debt_gate.py. Backlog triaged:
+p3_complete (36d) → L187 (the 7 EXPOSED depth-closure backlog); selection-cochain (24d) → L188; MANIFEST
+dated+escalated; the nine 08-09 rows pre-escalated — finding THE RETENTION-GAP EVENT (E51): the nine relay
+FILES lost from the tree, on no reachable branch; rows are the only record ("the ledger preserved ROWS;
+nothing preserved the untracked FILES"). Fixes: sender-branch dual-homing now standard; re-send ask to cc3.
+O3 executed (MC1 row, formally codex's); 2 cloud rows backfilled; MSSM row repaired; fab2849b accept
+recorded. The sweep's register banked verbatim (Wave-2/3 queues; the review-carry leak = R50's opening
+item). Instrument arc; Gate 5 clean. Locks test_b1172 (6) + test_relay_debt_gate (6).

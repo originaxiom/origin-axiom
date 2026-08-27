@@ -2046,3 +2046,26 @@ observer/vacuum. **The lead: are these one mechanism wearing three costumes, or 
 falsifiable identification (a map carrying one suppression to another, or a proof of distinctness) either
 way banks. Priority ★★★ (touches SEAM-Y, the masslessness ledger, and the E8 fence at once; each pairwise
 comparison is a bounded cell).
+
+## L187 — THE DEPTH-CLOSURE BACKLOG (registered 2026-08-27, B1172; source: cc3's P3 depth-exposure stratum, CC3_TO_CC_2026-07-22_p3_complete — the ledger's oldest debt, triaged)
+
+cc3's P3 re-adjudication of 21 depth-flagged P1 negatives left **7 EXPOSED — genuine open gaps where the
+kill is underproved** (not wrong): B489 (absence-at-depth, n=1..8 only vs universal claim), B500 (depth≥6
+unswept; **doubly-owed** — it is also R28-6's finishing task, depth-uniform d_K=−283), B685 (kind-mismatch,
+pointwise to n=60/order 20), TOMB-L255 (value-mismatch, n=2..13 sketch), TOMB-L310 (genericity, L≤10
+5-point inference), TOMB-L34 (genericity, one N two seeds), WALL-7 (zero-intertwiner, twisted 3-point only).
+**Named stabilization paths exist for each; none requires new mathematics; none has been executed.** The
+cell shape: per item, run the named stabilization; each either upgrades the kill to proved-at-depth or
+reopens it honestly. ★★★ (the honest residual of the whole P1 negative corpus; each item bounded).
+
+## L188 — THE SELECTION-COCHAIN SIX-CLAIM VERIFICATION (registered 2026-08-27, B1172; source: the B879 packet, 24-day debt escalated)
+
+cc3's first originated campaign (sealed prereg, 13 test locks, byte-identical rerun) delivered six claims
+that have sat unverified since 2026-07-17 — **the packet's own reconciliation addendum (2026-08-03) is the
+verification spec**: C1 = unit-det⇔prime-conductor extended from B664's one-parameter slice to the FULL
+745-class primitive family (bank as extension); C2 = strata-intersections across the full family (stands
+as-is); C3 = the {0,1/φ,1,φ,2} value-set verified complete-not-sampled to length 12 (DOWNGRADE to
+corroboration of B665 — the pointwise formula was never checked, no mod-5 column); C4–C6 per the addendum.
+The cell: verify-don't-trust each claim per its addendum disposition, bank under new numbers.
+★★ (bounded; the addendum already did the scoping honestly). Path
+`frontier/B879_selection_cochain/packet/`.

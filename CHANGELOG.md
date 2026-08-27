@@ -1,5 +1,29 @@
 # Changelog
 
+## B1172 (2026-08-27): THE TRIGGER + THE BACKLOG + THE REGISTER — the relay-escalation instrument repaired and ENFORCED; the 36-day backlog triaged; a nine-file retention-gap event found and filed (E51); the sweep's register banked
+
+**The relay-debt gate was silently dead** — four defects verified and repaired (same commit as the triage):
+a **frozen clock** (`_today()` read the ledger's own stamp, unchanged since 2026-08-09 — the 21-day rule
+*never fired*); **stale-never-fails** (printed, swallowed); a **seat-blind regex** (only the cc3 lane; the
+MC1 assignment went unrowed exactly there); a **dateless exemption** (the June-15 manifest invisible 10
+weeks). Now: real clock (`OA_RELAY_TODAY` test override); **stale FAILS unless the row carries
+`ESCALATED(date` — escalation-by-name is enforcement**; every seat lane matched; dateless = stale. New
+dedicated lock `tests/test_relay_debt_gate.py`. **The backlog triaged:** p3_complete (36d, oldest) →
+BANKED-as-triaged, the **7 EXPOSED → L187** (the depth-closure backlog; B500 doubly-owed with R28-6);
+HANDOFF_CC_SELECTION_COCHAIN (24d, content-free row) → ESCALATED + **L188** (the packet's own
+reconciliation addendum as the spec); HANDOFF_MANIFEST dated + ESCALATED (Review 50 item); the nine
+2026-08-09 rows pre-escalated — **and the triage found THE RETENTION-GAP EVENT (E51): the nine relay FILES
+are lost from the working tree and on no reachable branch; only the ledger rows survive.** The L114 class
+one level down ("the ledger preserved ROWS; nothing preserved the untracked FILES"). Fixes: sender-branch
+dual-homing (cc3's `B8xxx/relays/` practice now the standard), the re-send ask
+(`CC_TO_CC3_2026-08-27_RESEND_NINE_RELAYS.md`), the repaired gate. **O3 executed:** the MC1 assignment row
+exists (formally codex's; R019 fences the theorem but is not it) — the missing row was defect-3's live
+instance, caught on the gate's first honest run; two cloud rows backfilled; the MSSM row's unparseable
+column repaired; cc3's fab2849b acceptance recorded. **The register banked** (b1172_results.json): the
+sweep's verdict (losses at the seams, not the mathematics) + the full Wave-2/Wave-3 queues verbatim — the
+review-carry leak is Review 50's named opening item. Process arc (instrument: true); Gate 5 clean. Locks
+`tests/test_b1172_lose_nothing_register.py` (6) + `tests/test_relay_debt_gate.py` (6).
+
 ## B1171 (2026-08-27): THE SEAM HARVEST — five cross-seat results landed in one sitting (the adelic mechanism locked; L171 closed MOOD; L173 re-posed as a count; memos 80/82 verified; two codex grade/scope adoptions)
 
 The lose-nothing sweep's urgent-reclaim #2, executed batched (the B1158 pattern), every component verified
