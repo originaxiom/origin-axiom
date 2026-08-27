@@ -25,6 +25,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R019 | `certificates/r019_hypercharge/hypercharge_trinification_scope.py` | selected trinification frames realize the universal anomaly-ratio theorem; frame, physical spectrum, gauging and normalization remain unselected | VERIFIED / RELAYED |
 | R020 | `certificates/r020_beat64/r020_beat64_principal.py` | on the source-locked B1140 compact-color representative, the principal semilinear beat does not preserve the Killing-orthogonal 64 or any of its three named summands | VERIFIED-NEGATIVE / RELAYED |
 | R021 | `certificates/r021_gieseking_pinminus/gieseking_pinminus_restriction.py` | m000 has two Pin-minus structures whose restrictions to m004 coincide in one unnamed spin structure; identifying that image with B1141 remains open | VERIFIED / RELAYED |
+| R022 | `certificates/r022_v4_torsors/v4_named_action_audit.py` | regular four-point V4 actions agree abstractly; field-annotated branch and being-by-hearing actions separate conditionally; the original three-way named claim remains ill-typed/open | VERIFIED / RELAYED |
 
 Every new cell must add its memo, self-contained certificate, captured output, and relay before it
 is cited outside this branch.

@@ -1,0 +1,81 @@
+R022 V4 NAMED-ACTION AUDIT
+exact finite certificate; all arithmetic is tuple/integer arithmetic
+
+[branch-selection (B1161; labels are audit coordinates only)]
+ labels: ('B00', 'B10', 'B01', 'B11')
+ 1: (B00)(B10)(B01)(B11) fixed=4 cycles=(1, 1, 1, 1)
+ u: (B00 B10)(B01 B11) fixed=0 cycles=(2, 2)
+ v: (B00 B01)(B10 B11) fixed=0 cycles=(2, 2)
+ character columns: ((0, 0), (1, 0), (0, 1), (1, 1))
+ 1: (1, 1, 1, 1)
+ chi_1: (1, -1, 1, -1)
+ chi_2: (1, 1, -1, -1)
+ chi_12: (1, -1, -1, 1)
+ branch field: Q(zeta_12)=Q(i,sqrt(3)); quadratic subfields={Q(i),Q(sqrt(3)),Q(sqrt(-3))}
+ branch discriminant=144=2^4*3^2; ramified primes={2,3}
+ source-label fence: B1161 commits the free orbit but no canonical B00/B10/B01/B11 branch table
+
+[being-by-hearing product]
+ labels: ('(b+,h+)', '(b-,h+)', '(b+,h-)', '(b-,h-)')
+ 1: ((b+,h+))((b-,h+))((b+,h-))((b-,h-)) fixed=4 cycles=(1, 1, 1, 1)
+ being-c: ((b+,h+) (b-,h+))((b+,h-) (b-,h-)) fixed=0 cycles=(2, 2)
+ hearing-c: ((b+,h+) (b+,h-))((b-,h+) (b-,h-)) fixed=0 cycles=(2, 2)
+ character columns: ((0, 0), (1, 0), (0, 1), (1, 1))
+ 1: (1, 1, 1, 1)
+ chi_1: (1, -1, 1, -1)
+ chi_2: (1, 1, -1, -1)
+ chi_12: (1, -1, -1, 1)
+ b+= (3+sqrt(-3))/2, b-= (3-sqrt(-3))/2; field=Q(sqrt(-3))
+ h+=phi, h-=-1/phi (equivalently Fibonacci/Yang-Lee); field=Q(sqrt(5))
+ compositum=Q(sqrt(-3),sqrt(5)); quadratic subfields={Q(sqrt(-3)),Q(sqrt(5)),Q(sqrt(-15))}
+ compositum discriminant=225=3^2*5^2; ramified primes={3,5}
+
+[B1024 measurement/frame carrier]
+ X^tau cocycles: 16 (a 16-point torsor under X^tau)
+ H1 quotient coordinates (fixed Bourbaki nodes alpha_2,alpha_4): [(0, 0), (0, 1), (1, 0), (1, 1)]
+ class multiplicities: {(0, 0): 4, (1, 0): 4, (0, 1): 4, (1, 1): 4}
+ class (0, 0): fixed-dimension/type=36/C4
+ class (0, 1): fixed-dimension/type=36/C4
+ class (1, 0): fixed-dimension/type=36/C4
+ class (1, 1): fixed-dimension/type=52/F4
+ primary direct-inner convention: chi_c=(1, -1, -1, 1, -1, 1) -> c=(1, 0)
+ structure-coordinate convention: chi_c*chi_plus -> c=(0, 1)
+ reversal bare tau-lift chi=1 -> r=(1, 1)
+ coordinate-transposition fence: the two conventions swap the first two H1 axes; span is all four classes
+[H1 quotient / primary labels]
+ labels: ('00', '10', '01', '11')
+ 1: (00)(10)(01)(11) fixed=4 cycles=(1, 1, 1, 1)
+ c: (00 10)(01 11) fixed=0 cycles=(2, 2)
+ r: (00 11)(10 01) fixed=0 cycles=(2, 2)
+ character columns: ((0, 0), (1, 0), (1, 1), (0, 1))
+ 1: (1, 1, 1, 1)
+ chi_1: (1, -1, -1, 1)
+ chi_2: (1, 1, -1, -1)
+ chi_12: (1, -1, 1, -1)
+[H1 quotient / structure-coordinate labels]
+ labels: ('00', '10', '01', '11')
+ 1: (00)(10)(01)(11) fixed=4 cycles=(1, 1, 1, 1)
+ c: (00 01)(10 11) fixed=0 cycles=(2, 2)
+ r: (00 11)(10 01) fixed=0 cycles=(2, 2)
+ character columns: ((0, 0), (0, 1), (1, 1), (1, 0))
+ 1: (1, 1, 1, 1)
+ chi_1: (1, 1, -1, -1)
+ chi_2: (1, -1, -1, 1)
+ chi_12: (1, -1, 1, -1)
+
+[B766 measurement distinction]
+ actual B766 closing set: ('closing-000', 'closing-001', 'closing-002', 'closing-003', 'closing-004', 'closing-005', 'closing-006', 'closing-007')
+ structure group: (Z/2)^3, not V4; B782 verifies free transitive action on 8 points
+ fixed counts: identity=8; each of 7 nonidentity elements=0
+
+[field-label separator]
+ ram(Q(zeta_12))= [2, 3] ; ram(Q(sqrt(5)))= [5]
+ sqrt(5) is not a subfield of Q(zeta_12): 5 is unramified in discriminant 144
+ named branch second leg sqrt(3) != named hearing second leg sqrt(5)
+
+[verdict]
+ abstract four-point regular V4 actions: EQUIVARIANTLY ISOMORPHIC
+ with field labels retained: branch-selection vs being-by-hearing are NOT label-preserving
+ full three-way claim: ILL-TYPED/OPEN until branch labels and the measurement carrier are frozen
+ minimal falsifier: a label-preserving map must preserve the field/Dynkin-label annotations;
+                 ramification {2,3} vs hearing's {5} already separates the first two
