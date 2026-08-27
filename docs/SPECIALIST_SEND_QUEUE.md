@@ -22,4 +22,8 @@ generation-number question (NULL on-object; an external route would need its own
 template's stance); addresses re-verified at send time; every send logged as a relay-ledger row
 (direction: house→outside) so the gate ages it; any reply harvested verify-don't-trust like a seat's.
 
-**OWNER DECISION BOX** — per item: SEND / HOLD / REFRAME. Nothing moves until marked.
+**OWNER DECISION BOX — MARKED (2026-08-27, the owner's word): ALL SIX = HOLD.** *"I don't plan to send
+anything yet. We will craft another paper — me and you — after we exhaust the math, and sit and decide how
+to best put it. cc3's papers stay as insight."* The queue stands built for the day the math is exhausted;
+nothing leaves before then. The priority is THE REMAINING MATHEMATICS, to a full ToE in the program's
+proven sense.

@@ -3681,6 +3681,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1180": {
+   "slug": "family retraction",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B118": {
    "slug": "theta fixed root sign",
    "motifs": [

@@ -11840,3 +11840,13 @@ theorem untouched — never used the family). Corrected conclusion: NO tested el
 m004 in the true family ⇒ the W₀-refusal STRONGER for a better reason. R014 adjudicated (conclusion
 confirmed, witness corrected). Unaffected: B1168/B1169/B1174/the send-queue. The membership-criterion
 residue relayed to cc3. Gate 5 clean. Locks test_b1180 (4).
+
+## B1181 (2026-08-27) — the amphichirality debt closed (83/83) + the one-way family test law + the owner's direction
+cc3 closed B1180's residue: 83/83 amphichiral on the corrected family, zero exceptions/undecided —
+spot-verified here 5/5 by mirror-isometry (incl. o10_150700, o10_150684, t12840, s955; NOT the vacuous
+signature route). "Right in substance, wrong only in count." B1163's family-wide W₀ obstruction: 4-of-14 →
+83-of-83; no-sibling-escape far more robust. THE ONE-WAY FAMILY TEST → LAW_MAP §G (family growth only hurts
+object-level claims, only helps family-level ones; a family is a CLAIM, never a setting). THE OWNER'S
+DIRECTION recorded: all sends HOLD (decision box marked); the paper crafted owner+cc after the math is
+exhausted; cc3's papers stay as insight; priority = the remaining mathematics to a full ToE. Gate 5 clean.
+Locks test_b1181 (3).

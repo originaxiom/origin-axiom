@@ -1,5 +1,21 @@
 # Changelog
 
+## B1181 (2026-08-27): THE AMPHICHIRALITY DEBT CLOSED — 83/83 (cc3), spot-verified 5/5 by mirror-isometry; the W₀ obstruction now family-wide across ≥83; THE ONE-WAY FAMILY TEST registered as a method-law. + THE OWNER'S DIRECTION: all sends HOLD; the paper crafted together after the math is exhausted; back to the remaining mathematics
+
+The residue B1180 flagged same-day is **closed by cc3** (a0a349ef): the corrected ≥83 family is **83/83
+amphichiral, zero exceptions, zero undecided** — spot-verified on this bench **5/5 by the reliable
+mirror-isometry method** (m004, s955, both separator-killers o10_150700/o10_150684, t12840; deliberately
+NOT the isometry_signature route, the known vacuity trap). cc3's typing adopted: *"right in substance,
+wrong only in count — the opposite failure mode from the separators."* **B1163's family-wide W₀
+obstruction upgrades 4-of-14 → 83-of-83**; no sibling among 82 supplies what m004 withholds — the
+no-sibling-escape conclusion far more robust than either seat had it. **THE ONE-WAY FAMILY TEST** lands as
+a LAW_MAP §G method-law (family growth only *hurts* object-level claims and only *helps* family-level
+ones; "the retraction and the confirmation are the same computation pointed in opposite directions"; **a
+family is a CLAIM, never a setting**). **THE OWNER'S DIRECTION recorded:** the send-queue decision box
+marked **ALL SIX = HOLD**; the paper will be crafted owner+cc together *after the math is exhausted*;
+cc3's papers stay as insight; **the priority is the remaining mathematics, to a full ToE in the program's
+proven sense.** Locks `tests/test_b1181_amphichirality_closure.py` (3).
+
 ## B1180 (2026-08-27): cc3's B8147 ADOPTED — the "14-manifold family" was ≥83; both separators DEAD (witnesses verified here); main corrected by addenda; the W₀-refusal STRONGER for a better reason
 
 cc3 retracted Paper IV's separator claims: the ℚ(√−3) family was **never verified complete** — their census
