@@ -147,3 +147,66 @@ B1165's generic-rhyme typing is the first check), bench (in-stack
 support where the fiber machinery reaches), the owner (H90's two LEAPs
 remain the firewalled inputs, unchanged). The question shall not be
 buried again: it is now a numbered dossier row with named owners.
+
+### ADDENDUM 3 (2026-08-27, owner-directed) — the OTHER AR rows checked against the corpus: three have buried answers
+The owner: "check if other AR questions are answered already." Swept.
+They are — substantially:
+
+**AR3 (thermal time) — SUBSTANTIALLY ANSWERED, and the answer was the
+owner's own question.** H124 (HINT_LEDGER, owner question 2026-07-14:
+"thermal time — the object's modular flow") was CHECKED in B566-S2: the
+Connes–Rovelli reading stays a HOOK. Then **B721 (TWO CLOCKS)** settled
+the operator-algebra level: **the object's own time is tracial type II₁
+— TRIVIAL modular flow (Δ = 1), an equilibrium clock with no direction
+at all**; the thermal type-III clock exists only after an EXTERNAL
+weight is supplied — i.e., the thermal clock is the OBSERVER'S by
+construction. And L171 (the CLPW crossed-product bridge) was CLOSED
+MOOD on 2026-08-27 (B1171/B8145, 8/8 source-verified): our tracial
+state is complementary to, not inside, the KMS torsor. **AR3's refuter
+(a state-independent canonical modular direction) cannot fire: the
+object's algebra has no modular flow to direct.** AR3 → CARRIED by
+retrieval; the one residual is reconciling B850's type-III₁
+geodesic-FLOW typing with B721's tracial object algebra (different
+algebras — the flow's crossed product vs the object's; routed to cc as
+a note, not a task).
+
+**AR4 (the non-orientable parent) — SUBSTANTIALLY ANSWERED, half by
+this lane's own memo 36.** Memo 36 (PIN_ABOVE_THE_FORK, banked
+2026-08-25): H₁(N) = ℤ⟨t⟩ with a = b = 2t, and the restriction
+H¹(N;ℤ/2) → H¹(M;ℤ/2) is the ZERO map — both Gieseking-level
+structures restrict to the beat-selected χ = +1. Codex R021 (landed
+2026-08-27): both Pin⁻ structures on the Gieseking restrict to the
+SAME spin structure on m004 — a constant restriction, independently.
+**Two seats, two computations, one typing: the un-oriented parent is
+BLIND to the cover's orientation-linked choices — parent-level data
+cannot select the cover's bits, so those bits are new observer data,**
+exactly AR4's proof condition in the B1168-law sense. AR4 → CARRIED in
+substance; residual: the formal fold into the parity-law table
+(bench/codex co-sign, small).
+
+**AR6 (the σ non-invertibility) — BRANCH SPLIT gains a banked strike.**
+**B523 (2026-07-11, NEGATIVE, locked test):** the four verbs carry four
+DIFFERENT causal types — only the unimodular evolution verb gives a
+proper (3,1) cone; decimation is (2,2), TM/erasure det-0 degenerate;
+**the monoid preserves NO single causal cone** ⇒ the substitution
+dynamics does NOT define a Malament time-orientation. The CANONICAL
+branch of AR6 must now overturn a banked negative, on top of B721's
+no-modular-direction. AR6 stays open as preregistered, leaning SPLIT
+with named evidence; H90's second LEAP (the arrow forced via σ/the dS
+floor) was never paid — consistent with everything above.
+
+**AR1** — June support already cited in Addendum 2 (B303: the CP sign
+IS the CS-clock sign, conditional). **AR2** — carried by B1163;
+old support: B701 ("the choice stays provably free").
+
+**Retraction fences respected:** B942/B957/B1004 banners (measurement =
+β=1 SSB retracted; chirality-as-Galois-label retracted; the B700-torsor
+/idèle identification refuted) — nothing in this dossier leans on the
+retracted clauses; B1174's c-leg is the surviving, theorem-grade form.
+
+**The pattern, named for the register:** the owner's questions (H90,
+H124, H125, H126 — all owner-voiced, June–July) were checked once,
+banked as HOOKs or conditionals, and buried under subsequent waves.
+This dossier is now the standing register for the arrow family; its
+rows carry the retrieved citations and cannot silently drop them —
+the same amendment rule as the charter.
