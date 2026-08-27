@@ -36,3 +36,16 @@ it is asked, with an owner-assigned seat and a status that only filed
 addenda may change. A question checked once and left as a HOOK is not
 closed — it is LIVE until this register says otherwise. The a/ab/ba
 burial does not repeat.
+
+### ADDENDUM 1 (2026-08-27) — R5 CLOSED: the recursive dark law PROVED
+Row R5's named open step ("the symbolic proof — degenerate Gauss sums at
+p²") is paid: memo 87 (`certificates/dark_law_p2.py`, GREEN) derives the
+full N = p² classifier from three elementary lemmas, turns every banked
+count into a polynomial identity, and gets the wholesale/recapitulation
+recursion as a corollary — verified point-by-point at five primes, two
+exactly in ℤ[ζ]. R5 status: **PROVED** (the exponent-echo hook remains a
+hook; p³ not claimed). Relayed to cc for verification against their
+B534/B566 lineage. R7 (the ends' entanglement re-read) and R4's probe
+(the compact form) remain flagged: R7 routed to cc with the
+B1166/B1174 separation theorems as the new context; R4's probe awaits a
+scoping pass. Register discipline: this addendum is the only mutation.
