@@ -69,3 +69,16 @@ amendable only by filed addendum.
 Relayed to cc (AR3, and AR1's verification with lane 2) and codex (AR4,
 and AR1's hostile attack). The bench's standing duty: every future cell
 that touches a mirror-odd quantity re-tests AR1.
+
+### ADDENDUM 1 (2026-08-27) — row AR0 added: the owner's order-lock, decided
+**AR0 — the initial noncommutativity locks ORDER, not DIRECTION (memo 86,
+banked).** The owner proposed "the very initial a, ab, ba locks the
+arrow." Decided exactly: ab ≠ ba from the first two letters with
+**tr[a,b] = 1+ω = κ** — the existence of temporal order is object-paid at
+the record's first act and its price is the conserved quantity itself —
+while ab ~ ba as states, inversion AND the strong-inversion relabeling
+are character-invisible (0 exceptions each), and the tick's depth-3
+staircase is the same filtration for a and a⁻¹. ORDER: object.
+DIRECTION: the c-leg. AR0 strengthens ARROW-IDENT's frame: the object
+supplies a temporal ORDER structure whose direction bit is exactly the
+one datum it provably cannot supply (AR2/B1163).
