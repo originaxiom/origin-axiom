@@ -1,0 +1,21 @@
+EXACT SWEEP (p,e)=(3,3): all 729 points in Z[zeta_27] ...
+   PASS; shell counts {0: 101, 1: 567, 3: 54, 9: 6, 27: 1}
+FLOAT SWEEP (p,e)=(3,4): all 6561 points match; survivor (2,79) at |T|^2 = p^4; shells {0: 911, 1: 5103, 3: 486, 9: 54, 27: 6, 81: 1}
+FLOAT SWEEP (p,e)=(5,3): all 15625 points match; survivor (2,123) at |T|^2 = p^3; shells {0: 1979, 1: 13125, 5: 500, 25: 20, 125: 1}
+FLOAT SWEEP (p,e)=(7,3): all 117649 points match; survivor (2,341) at |T|^2 = p^3; shells {0: 12305, 1: 103243, 7: 2058, 49: 42, 343: 1}
+FLOAT SWEEP (p,e)=(5,4): all 390625 points match; survivor (2,623) at |T|^2 = p^4; shells {0: 49479, 1: 328125, 5: 12500, 25: 500, 125: 20, 625: 1}
+
+THE THREAD: |T(2, p^e-2)|^2 = p^e at every tested depth (asserted above);
+the j=2-mod-p^a sub-classes carry shell a — the recursion climbs the tower.
+
+THE DARK TOWER STANDS: one classifier — (v(l), v(alpha), v(beta)) with
+B534's trio — governs every prime power tested: spectrum exactly
+{0, 1, sqrt p, ..., p^{e/2}}, a UNIQUE survivor at (2, p^e - 2) whose
+loudness climbs as p^{e/2}, prime-dark classes with j != 2 wholesale
+dark at every depth, and the single j = 2 thread carrying the whole law
+upward.  The v(l) >= 1 clause (the one conjectural piece of the
+generalization) held at every tested point.  Memo 87's law is the e = 2
+floor of a tower.  FENCES: verified depths (3,3),(3,4),(5,3),(7,3),(5,4)
+with (3,3) exact; general-e is the derivation in the docstring plus
+these five instances, not an all-e machine proof; the exponent-echo hook
+is untouched.  Gate 5 untouched.
