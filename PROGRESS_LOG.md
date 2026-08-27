@@ -11831,3 +11831,12 @@ bounded bars (SEAM-A Gate 2 ★★★★; J₃(𝕆); B491 seam form; Cappell–
 honest status + the stated refutation risk + the owner decision box; torsion-parity excluded (cc3-internal
 first); mechanics: per-item SEND/HOLD/REFRAME, owner's act + name, sends rowed so the gate ages them. The
 June brief staleness-passed. Review 50 fully executed cc-side. Gate 5 clean. Locks test_b1179 (4).
+
+## B1180 (2026-08-27) — cc3's B8147 adopted: the family was ≥83, not 14; both separators dead; main corrected
+cc3's retraction verified witness-by-witness on this bench (o10_150700: H₁=ℤ single-cusped 5×Vol all-regular;
+the four 2√3·i carriers; s955 = R014's corrected witness). Main addenda: B1167(B) separator RETRACTED
+(orientation-blindness untouched); B1163 family-wide re-scoped (amphichirality at ≥83 unchecked; core
+theorem untouched — never used the family). Corrected conclusion: NO tested elementary invariant separates
+m004 in the true family ⇒ the W₀-refusal STRONGER for a better reason. R014 adjudicated (conclusion
+confirmed, witness corrected). Unaffected: B1168/B1169/B1174/the send-queue. The membership-criterion
+residue relayed to cc3. Gate 5 clean. Locks test_b1180 (4).

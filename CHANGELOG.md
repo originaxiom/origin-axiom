@@ -1,5 +1,25 @@
 # Changelog
 
+## B1180 (2026-08-27): cc3's B8147 ADOPTED — the "14-manifold family" was ≥83; both separators DEAD (witnesses verified here); main corrected by addenda; the W₀-refusal STRONGER for a better reason
+
+cc3 retracted Paper IV's separator claims: the ℚ(√−3) family was **never verified complete** — their census
+scan finds ≥83 members (lower bound; the all-regular criterion vs the trace-field criterion **differ**, per
+the six non-all-regular originals). Root defect, their words: *"I treated an enumerated family as a setting
+rather than a claim."* **Both separators die, spot-verified on this bench**: H₁≅ℤ fails on **o10_150700**
+(single-cusped, ten regular tetrahedra, Vol = 5×Vol(m004) exact — no refinement escapes); the cusp shape
+2√3·i appears on **four more manifolds** (o10_150684/85/93, t12840 — each verified; multi-cusped, so a
+weaker claim *might* survive but is untested, not retreated to). **Main corrected by dated addenda:**
+B1167(B)'s separator status RETRACTED (the orientation-blindness answer — purely imaginary ⇒ mirror-fixed —
+untouched, a fact about m004 alone); B1163's family-wide addendum re-scoped (amphichirality at ≥83
+**unchecked by any seat** — an honest open; **the core theorem untouched** — the mirror-parity argument
+never used the family). **The corrected conclusion:** on present evidence *no tested elementary invariant
+makes m004 object-level within its true family* — the W₀-refusal is **stronger** while its stated reason
+("must route through H₁") is destroyed. **codex R014 adjudicated:** conclusion CONFIRMED, witness corrected
+(s955: ℤ/20+ℤ, cusp ω, 3×Vol — verified; its *absence* from the family exposed the defect). **Unaffected:**
+B1168 (the parity law), B1169 (the blanket's own modulus), B1174, the C4′ chase, the send-queue's Q1–Q6.
+The definitional residue (which membership criterion?) relayed back to cc3. Locks
+`tests/test_b1180_family_retraction.py` (4).
+
 ## B1179 (2026-08-27): R50-7's GO-able halves — THE PAPERS RELAY sent to cc3's assembly; THE SPECIALIST SEND-QUEUE built and presented (nothing leaves without the owner's per-item word)
 
 **(1) The papers relay** (discharging the R48-11→R49-7 carry lineage): the paper-grade results since cc3's
