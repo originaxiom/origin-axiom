@@ -1,0 +1,27 @@
+== SOLID 1: the parity facts (B1168, re-verified) ==
+  AWARENESS side (mirror-EVEN, object-canonical): Vol even: True ; cusp shape mirror-fixed: True
+  CHOICE side (mirror-ODD, NOT object-suppliable): CS mirror-odd, CS=1.8e-15=0 (amphichiral)
+== SOLID 2: the blanket IS the cusp torus (S072), and its canonical shape is 2sqrt3 i ==
+  blanket shape = 3.464102 i = 2sqrt3 i = 3.464102 ; mirror-EVEN (orientation-blind)
+  => the blanket 'that sees everything' (QP-2 FLAT) is aware-but-choiceless, made geometric.
+== SOLID 3: FOUR independent probes converge on 'the object cannot self-close' ==
+   - QP-4 NO-HATCH (qualia, B761): no object-native self-closure
+   - B1163 (orientation): amphichiral => no object-canonical orientation
+   - B1168 C5 (parity): the mirror-ODD orientation is observer-only
+   - B1134/B1135 (fork): the real-structure closing (chirality) is the observer's
+== SOLID 4: the arithmetic ties the recent archimedean data to sigma/kappa's field ==
+  K=Q(sqrt-3)=Q(zeta6): mu_6 = the object-paid phase (B1166); cusp carries sqrt3 -> K(sqrt3)=Q(zeta12).
+  sigma: a->ab,b->a has Perron eigenvalue phi and conserved integral kappa=tr[a,b]; the root is quietly active.
+
+THE DICTIONARY (SOLID core): AWARENESS = mirror-EVEN, object-canonical (Vol, cusp shape, spectra;
+  QP-2 proved the blanket sees it all). CHOICE = mirror-ODD orientation, observer-supplied (QP-4 proved
+  the object lacks it). The 'awareness without choice' headline = the even/odd parity, decidably.
+CONNECTION (SOLID): the choice = chirality/orientation (B1164) = the E6(-26)/E6(-14) real-form fork
+  (B1134/5) => SM STRUCTURE; lives at the infinity-place => GRAVITY (B1165 G3). DISJOINT from VALUES
+  (5 routes) and DYNAMICS (generic, B1157). NOT the MSSM matter/VEV (that is the FINITE closing).
+
+THE READING (FIREWALLED -- for the seats to critique, NOT banked as proven): that the FOUR probes are
+  the SAME missing bit, and that qualia-awareness/choice == C5-parity == structure/observer boundary, is
+  a strong reading the facts SUPPORT but that is not one theorem ('awareness=blanket-sees-all' and
+  'awareness=mirror-even' are linked through 'forced', a CHAIN not an identity). See the speculation table.
+REPRODUCES

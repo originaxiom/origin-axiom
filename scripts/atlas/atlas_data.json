@@ -3482,6 +3482,31 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1169": {
+   "slug": "qualia parity synthesis",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "apolynomial",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B735",
+    "B761",
+    "S072",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B116": {
    "slug": "reconcile theta sym",
    "motifs": [

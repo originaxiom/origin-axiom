@@ -11697,3 +11697,18 @@ shape (a 2nd mirror-even object-canonical archimedean datum, √3-flavored, tyin
 B1166). Converges: cloud's C6 promoted to the C5 decider; firewall MD1 at the ∞-place. Fenced+relayed to cc3
 (analytic-torsion parity; WebSearch exhausted). Completeness = C6's standing lane ⇒ OPEN. Own-verified; Gate 5
 clean. Locks tests/test_b1168_c5_investigation.py (9).
+
+## B1169 (2026-08-27) — the qualia/parity synthesis: this week's four arcs fold back into the observer-closure spine
+Owner-directed ("run it, all seats to verify"). SOLID core (own-verified + banked-cited): the parity facts
+(B1168); the Markov blanket IS the cusp torus (S072) with canonical shape 2√3 i (B1167), mirror-even ⇒ the
+blanket that sees everything (QP-2 FLAT, B761) is aware-but-choiceless; four independent probes converge on
+"the object cannot self-close" (QP-4 NO-HATCH, B1163, B1168/C5, B1134/5); the arithmetic ties to σ's root
+(μ₆ in ℚ(√−3), √3 in the cusp; σ: a→ab,b→a eigenvalue φ, conserved κ). THE DECIDABLE NAMING: "awareness
+without choice" becomes a parity dictionary — AWARENESS = mirror-even (blanket sees it), CHOICE = the
+mirror-odd orientation the object lacks; the missing choice IS the mirror-odd orientation bit. Connection: the
+choice = chirality (B1164) = the E₆(−26)/E₆(−14) fork (B1134/5) ⇒ SM structure + gravity (∞-place); disjoint
+from values (5 routes) + dynamics (generic); NOT the MSSM matter/VEV (finite closing). FIREWALLED reading (the
+full unification qualia=C5-parity=structure/observer is a chain, not one theorem) with a 4-rung
+speculation→calculation table (S2 = cloud's C6 the key promotable rung). Prepared for three-seat verification.
+Reclaims the qualia/σ spine flagged recessive. Own-verified; Gate 5 clean. Locks
+tests/test_b1169_qualia_parity_synthesis.py (7).

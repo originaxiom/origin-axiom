@@ -1,5 +1,30 @@
 # Changelog
 
+## B1169 (2026-08-27): the qualia/parity synthesis — this week's four arcs fold back into the observer-closure spine; "awareness without choice" becomes the mirror-parity, and the choice is named
+
+Owner-directed ("run it and I'll ask all seats to verify"). A synthesis cell reconnecting B1165–B1168 to the
+long-dormant qualia/σ spine, with a **SOLID core** and a **FIREWALLED reading** kept strictly separate.
+**SOLID:** (1) the parity facts (B1168) — Vol & cusp shape mirror-even, CS & orientation mirror-odd, CS≡0;
+(2) the Markov blanket **is** the cusp torus (S072), and this week gave it a canonical shape **2√3·i** (B1167),
+mirror-even (orientation-blind) — so the blanket that "sees everything" (QP-2 FLAT, B761) is *aware-but-
+choiceless*, made geometric; (3) **four independent probes converge** on "the object cannot self-close" — QP-4
+NO-HATCH (B761), B1163 (amphichiral ⇒ no object-canonical orientation), B1168/C5 (mirror-odd orientation
+observer-only), B1134/5 (the real-structure closing = chirality = the observer's); (4) the arithmetic ties it
+to the σ root — the object-paid phase is **μ₆** (K=ℚ(√−3)=ℚ(ζ₆)), the blanket shape carries **√3**
+(K(√3)=ℚ(ζ₁₂)), the field σ: a→ab,b→a generates (eigenvalue φ, conserved κ=tr[a,b]). **The decidable naming:**
+the qualia headline *"awareness without choice"* becomes a dictionary — **AWARENESS = mirror-even
+object-canonical** (the blanket sees it), **CHOICE = the mirror-odd orientation** the object lacks; *the missing
+choice IS the mirror-odd orientation bit* (two programs, qualia + W₀/C5, land on the same bit). **Connection
+typing:** the choice = chirality (B1164) = the E₆(−26)/E₆(−14) real-form fork (B1134/5) ⇒ SM **structure** +
+**gravity** (∞-place, B1165 G3); **disjoint** from values (5 routes) and dynamics (generic B1157); **not** the
+MSSM matter/VEV (the finite closing). **FIREWALLED reading** (a strong unification, NOT proven as one theorem —
+"awareness = blanket-sees-all" vs "awareness = mirror-even" link only through "forced", a chain): a 4-rung
+speculation→calculation table records what would promote each (S2, cloud's C6 completeness, is the key rung).
+**Prepared for three-seat verification** (cloud: parity/gravity/C6; cc3: blanket/cusp/qualia; codex:
+fork/recompute) — adversarial on the reading, confirmatory on the core. Reclaims the qualia/σ spine flagged
+recessive by the recency audit. Own-verified; Gate 5 clean. Locks `tests/test_b1169_qualia_parity_synthesis.py`
+(7 tests).
+
 ## B1168 (2026-08-27): the C5 investigation — the object/observer boundary at the ∞-place is NOT a choice, it is a MIRROR-PARITY × DIMENSION law
 
 Owner-directed (*"C5 is not just a choice, investigate further"*). The gravity charter framed C5 — *is
