@@ -36,3 +36,9 @@ def test_my_own_two_failures_are_recorded():
     f = R["my_failure"]
     assert "never tested it for completeness" in f["first"]
     assert "inbound relay queue" in f["second"]
+
+
+def test_the_amphichirality_debt_was_closed_not_left_open():
+    r = R["downstream_cascade"]["my_B1163_relay_RESOLVED_2026-08-27"]
+    assert "83/83" in r and "SURVIVES" in r
+    assert "STRONGER" in r
