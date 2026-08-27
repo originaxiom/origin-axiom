@@ -28,3 +28,13 @@ escalation are the proof).
   still-live tools (scripts under `frontier/*/` with reuse value) is owed as
   a digest side-task; this page grows only from that audited extraction,
   never from memory.
+
+## The extraction seed (B1177/R50-5 — the owed digest side-task, opened with the audited first inventory)
+
+- **`e6_centralizer.py`** (54 consumers corpus-wide) + **`frame.py`** — the E₆ centralizer/frame engines;
+  the single most-reused unindexed pair.
+- **The B1103 engine** (live SEAM/SP-2 consumers) — the being-gate machinery.
+- **The B878 Maass solver** — already cost one full failed rebuild (B1007) for want of indexing.
+- **Path repairs owed:** three main-branch scripts point at a nonexistent `frontier/B792_maass_m004_eigenvalues`
+  (the Maass material lives elsewhere) — repoint or rehome at next touch.
+- Rule: this list grows only from audited extraction (per the frozen body's split), never from memory.

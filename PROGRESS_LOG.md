@@ -11802,3 +11802,12 @@ P3_depth_exposure exempt-by-name; B838/B840 kill-routed vacuity). The rooms repa
 philosophy/13 scoreboard addendum). L189 (the 8 genesis-chat candidates owned; U_e + quasinormal the real
 gaps). L110/L113 annotated in place. The overloaded-symbol registry in TERMINOLOGY (C×4, κ×3, P5×4).
 Gate 5 clean. Locks test_b1176 (5).
+
+## B1177 (2026-08-27) — THE INSTRUMENT BUNDLE (R50-5)
+L183: the reproducer debt cut 176→21 (two-stage heuristic: test-locks + root scripts ARE runners; the 21
+committed; rule = runner ships with the next touch, no retro mass-authoring). L184 diagnosed (178.41 s /
+5556 collection; per-file sweep + the first-ever OA_SLOW run launched → ADDENDUM_measurements on landing).
+The R32 vacuity queue RUN: 4449 / 0 no-assert / 0 tautology / 84 informational. The LAW_MAP debt paid
+(4 rows: B1042 trit morphism; B1043 superlinear creation + invariant line + THE ARITY VOID §E wall). The
+promotion scope-check (zero B909/B952 rows confirmed; pass = named residue). The toolbox extraction seed +
+doc_currency watches TOOLBOX_LIVE. Instrument arc; Gate 5 clean. Locks test_b1177 (5).

@@ -35,6 +35,7 @@ FROZEN_RE = re.compile(r"^\s*<!--\s*doc-currency:\s*frozen", re.I | re.M)
 # being current matters more than any single arc being current. Tolerance = how many arcs
 # may be banked before the document is owed a read.
 LIVING = {
+    "docs/TOOLBOX_LIVE.md": 60,  # B1177/R50-5: the gate TOOLBOX_LIVE itself claims existed
     # qL163's port (owner: YES, 2026-08-13): the three governed registers were
     # outside the watch — the registers that RECORD debts were themselves unwatched.
     "docs/ERROR_LEDGER.md": 40,

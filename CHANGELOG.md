@@ -1,5 +1,23 @@
 # Changelog
 
+## B1177 (2026-08-27): THE INSTRUMENT BUNDLE (R50-5) — the reproducer debt cut 176→21 and committed; L184 diagnosed; the OA_SLOW first run launched; the vacuity queue clean; the LAW_MAP debt paid (4 rows); the toolbox seed + the doc_currency fix
+
+**(1) L183:** the two-stage heuristic (runner OR test-lock OR root script) cuts the naive 176 to **21 true
+no-runner-no-lock arcs** (list committed; 15/21 = the B1067–B1082 band); rule: the runner ships with the
+next touch — **no retro mass-authoring** (a runner written from memory certifies nothing, E51's cousin).
+**(2) L184 diagnosed:** collection = **178.41 s / 5556 tests**; the per-file top-offenders sweep runs long
+(its own diagnosis) → ADDENDUM_measurements on landing; the lazy-fy = the named next sitting. **(3) The
+OA_SLOW shadow suite** (50 gated files, never run by any runner): the first-ever run **launched** (fixed
+invocation); last-green → the same addendum. **(4) The R32 vacuity queue RUN:** 4449 scanned / **0
+no-assert / 0 tautology** / 84 informational both-literal rows — clean at the defect level. **(5) The
+LAW_MAP debt paid** (the R46-3→R47-7→R48-7 lineage): B1042 THE TRIT MORPHISM (the SL(2,5)-perfect control;
+field-side by descent); B1043 ×3 (SUPERLINEAR SEAM CREATION h¹=10=7+3; THE INVARIANT LINE h⁰=1; **THE ARITY
+VOID** as a §E wall with the mirror-double door + the MB12 prereg method note). **(6) The promotion
+scope-check** (ex-R48-9): CLAIMS carries zero B909/B952 rows (confirmed); the pass stays a named bounded
+residue. **(7) The toolbox extraction seed** landed + **doc_currency now watches TOOLBOX_LIVE** (the gate
+the doc itself claimed existed — one line). Process arc (instrument). Locks
+`tests/test_b1177_instrument_bundle.py` (5).
+
 ## B1176 (2026-08-27): THE RECORD-SURFACE WAVE (R50-4) — the portfolio landed in-repo; 13 retro arc_verdicts; the governed-rooms APEX repair; L189; the collisions annotated; the overloaded-symbol registry
 
 **(1) The portfolio** (`papers/PORTFOLIO_2026-08-27.md`, was memory-only): the ratified architecture (core

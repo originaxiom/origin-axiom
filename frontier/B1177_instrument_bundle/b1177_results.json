@@ -1,0 +1,14 @@
+{
+ "id": "B1177",
+ "arc": "the instrument bundle (R50-5)",
+ "verdict": "OPEN",
+ "l183_reproducer_debt": "176 naive -> 21 true (two-stage heuristic; list committed in reproducer_debt.md); rule: runner/lock ships with the next touch; no retro mass-authoring",
+ "l184_diagnosis": "collection 178.41 s / 5556 tests; per-file top-offenders sweep RUNNING -> ADDENDUM_measurements; the lazy-fy = the named next sitting",
+ "oa_slow": "50 gated files; first-ever run LAUNCHED (fixed invocation); last-green -> the same addendum",
+ "vacuity_run": "4449 scanned / 0 NO-ASSERT / 0 TAUTOLOGY / 84 both-literal (informational)",
+ "law_map_rows": "B1042 trit morphism; B1043 superlinear creation + invariant line + THE ARITY VOID (sec-E)",
+ "promotion_check": "CLAIMS.md has ZERO B909/B952 rows (confirmed); the pass = a named bounded residue",
+ "toolbox": "extraction seed landed; doc_currency now watches TOOLBOX_LIVE (60-merge window)",
+ "fences": "The two long-running measurements are LAUNCHED-with-addendum-to-follow, stated as such (no phantom numbers). Process arc; no mathematics; Gate 5 clean. Not kill_graph-routed.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}
