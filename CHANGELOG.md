@@ -1,5 +1,17 @@
 # Changelog
 
+## B1178 (2026-08-27): L184 EXECUTED — the collection lazy-fy; 178 s → 15 s (12×), two surgical fixes, outcomes preserved
+
+The per-file sweep (1063 files, B1177's addendum) found the diagnosis **surgical, not structural**: TWO
+files carried the whole cost — `test_b371_two_state_sector.py` **156.95 s** (a module-level `REPORT=run()`
+executing exact computation AT COLLECTION — 88% of the suite's entire collect) and `test_cc2_r5_adopted.py`
+**36.05 s** (a 300-line module-level lock script); everything else ≤ 7.7 s. **The fix (THE CACHED-RUNNER
+MOVE):** each body → a `functools.lru_cache`'d getter with the frontier import deferred inside — compute at
+first test *execution*, zero at collection. **Outcomes preserved** (5/5 post-fix, 277.88 s execution = the
+same compute paid where it belongs). **Certified: full-suite collection 178.41 s → 15.14 s** (5587 tests) —
+the E50 cost class's root fix delivered same-day as its diagnosis. The OA_SLOW first-ever run continues
+(launched-not-complete, stated honestly). Locks `tests/test_b1178_l184_lazyfy.py` (2).
+
 ## B1177 (2026-08-27): THE INSTRUMENT BUNDLE (R50-5) — the reproducer debt cut 176→21 and committed; L184 diagnosed; the OA_SLOW first run launched; the vacuity queue clean; the LAW_MAP debt paid (4 rows); the toolbox seed + the doc_currency fix
 
 **(1) L183:** the two-stage heuristic (runner OR test-lock OR root script) cuts the naive 176 to **21 true

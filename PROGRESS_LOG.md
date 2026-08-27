@@ -11811,3 +11811,12 @@ The R32 vacuity queue RUN: 4449 / 0 no-assert / 0 tautology / 84 informational. 
 (4 rows: B1042 trit morphism; B1043 superlinear creation + invariant line + THE ARITY VOID §E wall). The
 promotion scope-check (zero B909/B952 rows confirmed; pass = named residue). The toolbox extraction seed +
 doc_currency watches TOOLBOX_LIVE. Instrument arc; Gate 5 clean. Locks test_b1177 (5).
+
+## B1178 (2026-08-27) — L184 EXECUTED: the collection lazy-fy (178 s → 15 s, 12×)
+The diagnosis was surgical: 2 files = the whole cost (b371's module-level REPORT=run() at 156.95 s = 88% of
+the entire collect; cc2_r5's 300-line lock script at 36.05 s). THE CACHED-RUNNER MOVE: body →
+functools.lru_cache'd getter, frontier import deferred inside; compute at first test execution, zero at
+collection. Outcomes preserved (5/5 post-fix; 277.88 s execution = the same compute, paid where it belongs).
+CERTIFIED: full collection 178.41 → 15.14 s (5587 tests). The E50 root fix, same-day as its diagnosis.
+B1177's ADDENDUM_measurements landed (the per-file table committed; OA_SLOW launched-not-complete, honest).
+Instrument arc. Locks test_b1178 (2).

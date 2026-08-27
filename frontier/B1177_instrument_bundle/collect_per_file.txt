@@ -1,0 +1,17 @@
+TOP 15 slowest-collecting test files (seconds incl. interpreter+conftest):
+   156.95  tests/test_b371_two_state_sector.py
+    36.05  tests/test_cc2_r5_adopted.py
+     7.69  tests/test_r28_10_stabilizations.py
+     6.00  tests/test_v4_genericity.py
+     4.99  tests/test_b353_geometric_theta_identification.py
+     4.99  tests/test_b352_cup_product_obstruction.py
+     4.56  tests/test_derived_potential.py
+     4.54  tests/test_metallic_spectra.py
+     4.46  tests/test_fibonacci.py
+     4.44  tests/test_figure_eight_invariant_surface.py
+     4.42  tests/test_trace_selector_c5.py
+     4.35  tests/test_torsion.py
+     4.34  tests/test_golden_cat_map_principle.py
+     4.32  tests/test_mobius_vector_field.py
+     4.32  tests/test_gluing_equation.py
+total files: 1063; sum of per-file times: 1566.7s
