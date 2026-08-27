@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1047** |
-| words of findings prose | **711,274** |
+| research arcs with findings | **1048** |
+| words of findings prose | **711,750** |
 | test lock files referenced | **611** |
-| arcs carrying an authored verdict | **1034** (98.8 %) |
+| arcs carrying an authored verdict | **1035** (98.8 %) |
 | recorded closures | **763** (589 classified, 174 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 695 |
-| NEGATIVE | 294 |
+| NEGATIVE | 295 |
 | OPEN | 34 |
 | RETRACTED | 11 |
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 B8093's L171 TYPING VERIFIED AND EXTENDED. All EIGHT of its factual claims about CLPW confirmed VERBATIM from the source, down to the notation Pi = Theta(q), Tr 1 = 1 and H_obs = L^2(R_+) rather than L^2(R). The MOOD typing is correctly derived under the binding criteria. AND the gap B8093 disclosed in its own scope -- successor literature not read -- is now filled: Witten's background-independent algebra (2308.03663) is NOT a crossed product and does NOT invoke ergodicity; it gets II_1 from a TRACIAL STATE via the KMS condition. So B8093's (a) disanalogy is scoped to CLPW and does not extend. MOOD SURVIVES ANYWAY, for a different reason: B721 found our tracial state COMPLEMENTARY TO rather than INSIDE the KMS torsor, so the successor's engine is disanalogous too.  
 `B8145_l171_verified/FINDINGS.md`
 
-**NEGATIVE — `B8141`** (440 words, 0 locks)  
-THE ARTIFACT CLASS, third after B8139's COST and B8140's TWO EMPTIES: two locks depend on SIX gitignored .log files, so they can only pass on a machine where the arc was recently run. On any clean checkout they do not SKIP -- they FAIL. test_b1062_bridge.py (5 artifacts) and test_b1063_refresh.py (1) currently fail here for exactly this reason. Permanent red trains a reader to ignore failures, which costs more than the lock is worth.  
-`B8141_artifact_dependence/FINDINGS.md`
+**NEGATIVE — `B8146`** (476 words, 0 locks)  
+L173'S PRECISION COLUMN IS COMPLETED AS A NEGATIVE, AND THE NEGATIVE RESHAPES THE PREREG. The load-bearing anchor (Verbin-Kraus-Zilberberg, arXiv:1403.7124) reports NO error bars, NO uncertainties and NO resolution limits anywhere -- it is a demonstration paper. Extracted instead: arrays of 13-28 waveguides (21 boundary-state, 28 phase-study, 13 pumping) and the phason scanned at THIRTEEN discrete values over [0,2pi), about pi/6 spacing. DECISIVELY: mode identification is QUALITATIVE (localization patterns), not a COUNT. So the prereg cannot state a required RESOLUTION from this literature; it must instead state a required OBSERVABLE -- the NUMBER of edge modes in a labelled gap -- which the anchor experiments do not currently produce.  
+`B8146_l173_precision/FINDINGS.md`
 
 **RETRACTED — `B8070`** (1056 words, 0 locks)  
 THIS ARC'S OWN HEADLINE IS WITHDRAWN IN FULL: it claimed anomaly cancellation carries su(3)+su(2)+u(1)^3 (Lie rank 6) to su(3)+su(2)+u(1)_Y (Lie rank 4), escaping the GUT_REQUIREMENTS_LEDGER section D rank obstruction. Four defects, all verified on this bench. (1) The headline was never computed -- the source line prints the literal f-string {2+1+3} -> {2+1+1}; no Lie rank is calculated anywhere in the file. (2) The only quantity actually computed does not move: Killing rank is 11 with one u(1) and 11 with three, so the apparent (14,11) -> (12,11) descent is len(basis), a Python list length reading back the function's own argument. (3) The algebra was not the algebra -- the three 'u(1)' generators do not commute with su(3)+su(2) (max norm of the commutator 2.83, 12.73, 86.27) and the real span is 13, not the printed 14. (4) The controls tested adjacent quantities: C1 checked centralizer DIMENSION inside a rank-4 algebra rather than rank inside e6, and C4 tested an unrelated grid scan while the detector, which takes no charge assignment, returns (12,11) unconditionally. Independently, B971 (2026-08-08) had already closed this question NEGATIVE: on the object's own complete 27 every anomaly condition is identically zero, the solution space stays 3-dimensional, and the 3 -> 1 drop exists only over an imported chiral truncation that the object has no operation to perform. THE ONE THING THIS CELL CONTRIBUTES, kept as a scope note and NOT a retraction of B864: B864's 'hypercharge is the unique gaugeable U(1)' is uniqueness INSIDE the chosen 3-plane span(Y, chi, psi) -- the coefficient a drops out identically because A(Y) = 0 is the textbook fact, and over the full 5-dimensional charge space the cubic factors into THREE lines, -2.yL.(2yL+3yd).(4yL-3yd)/3, namely hypercharge, the u-d-swapped Minahan-Ramond-Warner solution, and the vector-like direction. B864 is correct as scoped and must not be quoted as 'anomaly cancellation selects hypercharge'. Error class: a headline printed rather than computed, wrapped in controls aimed at the claim's neighbourhood; a FALSE POSITIVE this time rather than a false negative. Gate 5 untouched.  

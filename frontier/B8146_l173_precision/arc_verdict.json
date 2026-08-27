@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-27)",
+ "claim_one_line": "L173'S PRECISION COLUMN IS COMPLETED AS A NEGATIVE, AND THE NEGATIVE RESHAPES THE PREREG. The load-bearing anchor (Verbin-Kraus-Zilberberg, arXiv:1403.7124) reports NO error bars, NO uncertainties and NO resolution limits anywhere -- it is a demonstration paper. Extracted instead: arrays of 13-28 waveguides (21 boundary-state, 28 phase-study, 13 pumping) and the phason scanned at THIRTEEN discrete values over [0,2pi), about pi/6 spacing. DECISIVELY: mode identification is QUALITATIVE (localization patterns), not a COUNT. So the prereg cannot state a required RESOLUTION from this literature; it must instead state a required OBSERVABLE -- the NUMBER of edge modes in a labelled gap -- which the anchor experiments do not currently produce.",
+ "creates_law": "WHEN THE LITERATURE DOES NOT REPORT THE QUANTITY, THE PREREG MUST SPECIFY AN OBSERVABLE, NOT A PRECISION. Our banked prediction shape is a COUNT (rho -> edge content, 5-vs-6 at rho = alpha), not an energy. Falsifying it needs (i) a mode-counting observable and (ii) enough sites to separate 5 from 6. The anchor programme supplies the KNOB (the phason = our intercept, B8094) but not the READOUT. That is a gap in the MEASUREMENT, not in the precision, and it is the thing an experimentalist would have to add. SCOPE: one anchor read in full plus a search across the AAH line; the wider anchor set was not read in full, so this is not a claim about every paper in the field.",
+ "depends_on": [
+  "B8094"
+ ],
+ "id": "B8146",
+ "instrument": true,
+ "reproducer": "WebFetch of ar5iv full text arXiv:1403.7124 + a targeted search across the AAH cold-atom edge-state line",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "NEGATIVE"
+}

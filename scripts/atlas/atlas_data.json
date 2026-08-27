@@ -19441,6 +19441,20 @@
    "status": "banked",
    "domain": "quantum"
   },
+  "B8146": {
+   "slug": "l173 precision",
+   "motifs": [
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "L173"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B814": {
    "slug": "gate d",
    "motifs": [

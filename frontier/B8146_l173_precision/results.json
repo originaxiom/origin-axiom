@@ -1,0 +1,26 @@
+{
+ "consequence_for_falsifiability": "B8094 established the falsification ROUTE exists because the knob exists. This narrows it: the route exists but the readout does not, so the prereg's 'who can falsify us' section must commission a mode count rather than assume one.",
+ "extracted_from_1403_7124": {
+  "array_sizes": "13-28 waveguides: 21-waveguide arrays for boundary-state observation, 28-long Fibonacci QC for the phase study, 13-waveguide for pumping",
+  "character_of_the_paper": "demonstration of topological phenomena, not precision metrology",
+  "error_bars": "NONE. No stated uncertainty ranges, error margins or resolution limits anywhere in results or figures.",
+  "mode_counting": "NOT DONE. Boundary modes are shown QUALITATIVELY -- 'light inserted into the corresponding boundaries excites these boundary states and remains there' -- localization patterns, not numerical mode counts or spectral resolution metrics.",
+  "phason_sampling": "THIRTEEN discrete fabricated arrays for values of phi between 0 and 2pi -- about pi/6 spacing, a coarse but real scan"
+ },
+ "not_claimed": [
+  "that no experiment anywhere counts edge modes -- only that the anchors checked do not report it",
+  "any measured value; Gate 5 untouched",
+  "that the prediction is unfalsifiable -- the knob exists and is standard; the readout is what must be added"
+ ],
+ "scope": "ONE anchor read in full (1403.7124) plus a targeted search across the AAH cold-atom edge-state line, which surfaced no experimental resolution or edge-count figures either. The wider anchor set -- Nature 553 59 (2018), the gap-labeling line arXiv:2201.04820, Penington-adjacent 4D QH work -- was NOT read in full. NOT a claim about every paper in the field.",
+ "sources": [
+  "arXiv:1403.7124 (Verbin, Zilberberg, Kraus et al.); PRB 91, 064201 (2015)"
+ ],
+ "the_finding": {
+  "and_the_deeper_point": "our prediction is a COUNT (5-vs-6 edge modes at rho = alpha, B1085), not an energy. So the relevant question was never 'what energy resolution' but 'can they count modes in a labelled gap' -- and the answer is that they do not currently make that measurement.",
+  "the_column_is_empty_because_the_field_does_not_report_it": "this is not a retrieval failure. The anchor literature reports demonstrations; precision figures are absent from the source, not from the search.",
+  "what_the_prereg_must_say_instead": "a required OBSERVABLE (number of edge modes in a labelled gap), not a required resolution. The programme supplies the KNOB -- the phason is our intercept, B8094 -- but not the READOUT.",
+  "why_this_is_better_than_a_number": "a resolution figure would have been a threshold to clear. This is a missing measurement to add, which is actionable and is exactly what an experimentalist would need to be told."
+ },
+ "why": "B8094 recorded precision_figures_extracted = False and said so in its scope: 'abstracts do not carry them and full texts were not obtained'. The owner's package asked specifically for 'what precision on edge-state energies/counts is experimentally standard'. This gets the full text."
+}

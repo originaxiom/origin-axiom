@@ -35,7 +35,7 @@
  "falsification_route_exists": true,
  "knob_is_standard_practice": true,
  "novelty_against_gap_labeling_established": false,
- "precision_figures_extracted": false,
+ "precision_figures_extracted": "COMPLETED BY B8146 (2026-08-27) AS A NEGATIVE: the anchor literature reports no error bars, uncertainties or resolution limits -- it is demonstration work. Extracted instead: 13-28 waveguide arrays, phason scanned at 13 discrete values over [0,2pi). Decisively, mode identification is QUALITATIVE, not a count -- so the prereg must specify an OBSERVABLE (number of edge modes in a labelled gap), not a precision.",
  "scope": "A CAPABILITY inventory. No measured value enters any claim (Gate 5). Precision figures NOT extracted -- abstracts do not carry them and full texts were not obtained, so the prereg cannot yet state a required resolution. Novelty against gap labeling NOT verified: until that in-sandbox check is done this lane has an anchor list and no established novelty.",
  "structural_fact": "the phason phase these experiments adiabatically scan IS the Sturmian intercept -- the circle-torsor coordinate B8091 showed the object never supplies",
  "the_discipline": "gap labeling is standard and already measured; a prediction of N edge modes at intercept rho is NOT automatically novel -- if it coincides with what the gap-labeling theorem forces it is a RE-DERIVATION. The prereg must state what gap labeling predicts for the same configuration and where our claim DIFFERS, before any comparison. This is B724's look-elsewhere discipline transposed to an experimental lane."

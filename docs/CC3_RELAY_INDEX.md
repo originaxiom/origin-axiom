@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## L173's LAST COLUMN — THE KNOB EXISTS, THE READOUT DOES NOT
+
+**`frontier/B8146_l173_precision/relays/CC3_TO_CC_2026-08-27_L173_PRECISION_CLOSED_THE_KNOB_EXISTS_THE_READOUT_DOES_NOT.md`**
+
+The anchor reports **no precision at all** and **does not count modes**. Our prediction is a **count**, so the prereg needs an **observable**, not a resolution. **Narrows B8094; does not overturn it.**
+
+---
+
 ## L171 RE-VERIFIED — EIGHT FOR EIGHT, AND THE REASON MOVES
 
 **`frontier/B8145_l171_verified/relays/CC3_TO_CC_2026-08-27_L171_VERIFIED_AND_YOUR_TYPING_SURVIVES_A_MOVED_REASON.md`**
