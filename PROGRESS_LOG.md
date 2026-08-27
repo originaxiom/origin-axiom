@@ -11771,3 +11771,14 @@ SEAM-A = walled-on-forcing / INDETERMINATE-on-sealing ("leaning MISMATCH" retire
 SUPPORTED-CONJECTURAL (B1161 addendum; the ℤ/2 cell settles); arena/content; the parity law; the qualia
 naming. §6: b775 registry landed (R48-5 FULLY discharged). README → R50/B1173. Items R50-0…7 (3 [x] at
 open). Anchor 8ee77957. Locks tests/test_review_carry_gate.py (5).
+
+## B1174 (2026-08-27) — the ℤ/2-identification cell (R50-3): NOT ONE TORSOR — ONE SHARED INVOLUTION
+Verdict NEGATIVE (the literal four-way identification refuted) with the proved substance: c = the mirror
+(reversed-m004 traces = conjugates ⇒ the mirror IS c on K) = chirality (B942's quotient) = the shared c-leg
+of both V₄'s — branch (k=11 = c the ORIENTATION leg; k=7 fixes K = B1067's form-class swap = census bit 2;
+exact mod-Φ₁₂ with asserts) and meeting (Gal(ℚ(√−3,√5)/ℚ)). Refutations exact: the value torsor's √5 swap
+(c TRIVIAL on real fields — the parity law at the field level: c nontrivial iff imaginary); the genus-ℤ/2
+of ℚ(√−15) (fixes √−15 ⇒ both-flip leg; c moves √−15). Consequences: B1169-S1 partially promoted (QP-4-class
+the remaining rung, hatched); B1166-C4 constructively resolved ("share the c-leg"; relayed cloud+codex);
+B1161 sharpened; S068 row 1 closed; B1164 census grounded leg-by-leg. Bug self-caught by hand-check before
+banking (subs-on-non-Symbol; MB12 class). kill_graph routed. R50-3 [x]. Gate 5 clean. Locks test_b1174 (8).

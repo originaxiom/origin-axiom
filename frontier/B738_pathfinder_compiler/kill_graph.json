@@ -10638,5 +10638,20 @@
   "note": "The B996 'reaching E6 is generic' lesson at the archimedean/gravitational infinity-place, one tier deeper than B1157 (which killed the dynamical-LAW crossing): B1165 kills the IDENTIFICATION crossing (observer archimedean = object gravity, object-specifically), leaving gravity as the WHERE (co-located, generic dynamics, one static arithmetic contact Vol=L-value). Companion to B1157 (dynamics null) and B1163 (the W_0 orientation obstruction: amphichirality makes self-orientation theorem-level impossible). sec-E CLOSED (terminal). No firewall crossing; Gate 5 untouched.",
   "priority": "P3",
   "revival_score": 2
+ },
+ {
+  "id": "B1174",
+  "claim_killed": "The four program Z/2's -- B942's chirality (Gal(K/Q) quotient), B957's value torsor (B700: Z/2 over Q(sqrt5)/Q(sqrt-7)), B1168's mirror bit (orientation parity), S068's genus-Z/2 of Q(sqrt-15) -- are ONE involution / one torsor. REFUTED by exact field actions: c (= the mirror = chirality, PROVED one involution) is TRIVIAL on Q(sqrt5) (real field -- the value swap is not c) and MOVES sqrt-15 (not in the genus group -- the genus generator is the both-flip leg). The proved substance: ONE SHARED INVOLUTION -- c is the common leg of the branch V4 (Gal(Q(zeta12)/Q), where k=11=c is the orientation leg and k=7 is B1067's form-class swap) and the meeting V4 (Gal(Q(sqrt-3,sqrt5)/Q)). Mechanism: the parity law at the field level (c nontrivial IFF imaginary; the metallic/hearing ladder is real hence mirror-even). Gate 5 clean.",
+  "depth_note": "R50-3, the register's Q1 = B1169's S1 (double-discovered). Exact cyclotomic reduction mod Phi_12 with load-bearing asserts; SnapPy conjugate-trace check; B942's c-not-in-kernel cited (computed there two ways). A leg-table implementation bug (subs on non-Symbol) self-caught by hand-check before banking. Consequences routed: B1169-S1 partially promoted; B1166-C4 constructively resolved ('share the c-leg'); B1161's label sharpened; B1164's census grounded leg-by-leg; S068 row 1 closed.",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "(1) THE QP-4-CLASS COMPARISON: express B761's no-self-closure obstruction as a cohomology class and compare with c's class -- the remaining rung of B1169's S1 and the settling computation for B1161's bypass-door label. (2) THE Q(sqrt-7) PARTIAL BRIDGE: B700 cell-2's torsor field is imaginary, so c acts as its Galois swap -- test whether that action is CANONICAL (a natural transformation, not just a shared automorphism) on the cell-2 tower. (3) codex's B1024 frame-leg typing: is the value-kernel theta=cr the k5/k7-type leg of a V4 containing the frame group?",
+  "kill_form": "category-mismatch",
+  "note": "The C4-refutation pattern (B1166's sqrt3-vs-sqrt5) upgraded to theorem grade and completed into a structure statement: two V4's, one shared c-leg. The observer's orientation is ALWAYS the c-leg; the value/genus/form-class bits are provably other legs. Kills the one-torsor unification, NOT the shared-leg theorem (which is the productive content).",
+  "priority": "P3",
+  "revival_score": 2
  }
 ]

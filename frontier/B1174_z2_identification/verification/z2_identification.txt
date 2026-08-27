@@ -1,0 +1,21 @@
+(1) THE MIRROR = COMPLEX CONJUGATION ON TRACES (numeric, SnapPy)
+   mirror traces = conjugate traces (up to sign lift): True
+   => on K=Q(sqrt-3) inside C, the mirror acts as complex conjugation c = Gal(K/Q)'s generator.
+
+(2) THE BRANCH V4 = Gal(Q(zeta12)/Q) -- the exact leg table (reduced mod Phi_12 = z^4-z^2+1)
+   k=11 = c: fixes sqrt3, flips sqrt-3  -> THE ORIENTATION/CHIRALITY LEG (B942's quotient)
+   k=7      : FIXES sqrt-3 (K pointwise), flips sqrt3 -> the B1067 form-class swap = bit 2
+   k=5      : fixes i
+
+(3) THE MEETING V4 = Gal(Q(sqrt-3,sqrt5)/Q) -- c vs the genus-Z/2 of Q(sqrt-15) (exact)
+   c: sqrt-3 -> -sqrt-3 (imaginary), sqrt5 -> +sqrt5 (real) => sqrt-15 -> -sqrt-15 : c MOVES sqrt-15
+   => c is NOT in Gal(genus/Q(sqrt-15)); the genus generator is the BOTH-FLIP leg. DISTINCT legs,
+      same V4 => S068 row 1: clean negative WITH the constructive residue.
+
+(4) B957's VALUE TORSORS -- the field-level parity mechanism (exact)
+   c acts nontrivially on a quadratic field IFF the field is IMAGINARY. B700 cell-1's torsor is
+   over Q(sqrt5) (REAL: c-trivial) => its swap is NOT c. (Cell-2's Q(sqrt-7) is imaginary -- c acts,
+   but a shared action on one field is not a canonical torsor iso.)
+
+VERDICT: the literal all-four-one-involution hypothesis is REFUTED; the proved substance is the
+SHARED-LEG THEOREM: c = mirror = chirality = Gal(K/Q) = the c-leg of both V4's. REPRODUCES

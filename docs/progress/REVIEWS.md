@@ -4376,7 +4376,7 @@ reopen = a named arc citing it; this sentence is the owed registry entry).
 - [x] R50-1: the cold audit's two MODERATE corrections applied (SEAM-A split authoritative in §4; the
   bypass-door label addendum in B1161) + README state refreshed to this review.
 - [x] R50-2: R48-5 fully discharged (qor5up in B1173; b775 in §6).
-- [ ] R50-3: **the ℤ/2-identification cell** (the register's Q1; sweep #14 ≡ B1169-S1, double-discovered):
+- [x] R50-3: **the ℤ/2-identification cell** — DONE (**B1174**, same day): NOT ONE TORSOR — ONE SHARED INVOLUTION (c = mirror = chirality = Gal(K/ℚ), proved; the value/genus/form-class legs provably distinct by exact field actions; the field-level parity mechanism). S1 partially promoted; C4 constructively resolved; the remaining rung = the QP-4-class comparison (hatched). Original text: (the register's Q1; sweep #14 ≡ B1169-S1, double-discovered):
   are B942 (chirality→Gal), B957 (value torsor), B1168 (mirror bit), S068's rows ONE involution? The
   settling computation for the bypass-door≡SEAM-A label too. (owner: banking seat; next science cell)
 - [ ] R50-4: **the record-surface wave** (Wave 2 of the register): the portfolio landed in-repo

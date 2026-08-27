@@ -1,0 +1,27 @@
+{
+ "id": "B1174",
+ "arc": "the Z/2-identification cell (R50-3)",
+ "verdict": "NEGATIVE",
+ "hypothesis_refuted": "the four program Z/2's (B942 chirality, B957 value torsor, B1168 mirror, S068 genus/breath) are ONE involution",
+ "proved_shared_involution": {
+  "mirror_eq_conjugation": "SnapPy: reversed-m004 holonomy traces = complex conjugates (a,b,ab; 1e-9) => on K=Q(sqrt-3) the mirror IS c",
+  "chirality_eq_c": "B942 (computed there, cited): c not in Gal(K^ab/K); c generates the quotient Gal(K/Q)",
+  "branch_V4_leg_table_exact": "Gal(Q(zeta12)/Q) mod Phi_12: k=11 = c (fixes sqrt3, flips sqrt-3) = THE ORIENTATION LEG; k=7 fixes K (flips sqrt3) = B1067 form-class swap = B1164 bit 2; k=5 fixes i",
+  "meeting_V4": "Gal(Q(sqrt-3,sqrt5)/Q): c flips sqrt-3, fixes sqrt5 -- a leg"
+ },
+ "refutations_exact": {
+  "b957_value_leg": "the cell-1 torsor swaps sqrt5; c is TRIVIAL on Q(sqrt5) (real) => not c. MECHANISM: the parity law at the field level -- c nontrivial on a quadratic field IFF imaginary; the real/metallic hearing ladder is mirror-even",
+  "s068_genus_leg": "the genus-Z/2 of Q(sqrt-15) fixes sqrt-15 => flips BOTH sqrt-3 and sqrt5; c flips only sqrt-3 and MOVES sqrt-15 => distinct legs, no canonical iso; clean negative with constructive residue",
+  "q_sqrt_minus7_note": "B700 cell-2's Q(sqrt-7) is imaginary -- c acts there; a shared action on one field is not a canonical torsor iso (the partial bridge, hatched)"
+ },
+ "one_line_theorem": "NOT ONE TORSOR -- ONE SHARED INVOLUTION",
+ "consequences": {
+  "b1169_s1": "PARTIALLY PROMOTED (mirror=chirality=Gal proved); remaining gap = the QP-4 obstruction-class comparison (named); dated addendum in B1169",
+  "b1166_c4": "constructively resolved: 'the presentations share the c-leg'; relayed cloud (C4 amendment) + codex (type the B1024 frame leg: is theta=cr the k5/k7-type leg?)",
+  "b1161_label": "sharpened, still SUPPORTED-CONJECTURAL: the W0 marking's c-component = the orientation bit (proved); full identity awaits the QP-4 class",
+  "s068_row1": "closed (clean negative with residue); row 2 (mod-15 dynamics) stays open",
+  "b1164_census": "grounded leg-by-leg: bit 1 = c = k11; bit 2 = k7 the form-class swap"
+ },
+ "fences": "The first leg-2 implementation misfired (subs on a non-Symbol; wrong V4 table printed) -- caught by hand-check BEFORE banking, re-implemented exactly with asserts (MB12 class, self-caught). SnapPy numeric 1e-9; conjugate-rep standard; Galois arithmetic exact. No firewall crossing; Gate 5 clean.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES (4 legs; exact asserts)"
+}

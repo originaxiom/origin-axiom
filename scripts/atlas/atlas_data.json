@@ -3611,6 +3611,29 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1174": {
+   "slug": "z2 identification",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B700",
+    "B942",
+    "B957",
+    "S068",
+    "S1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B117": {
    "slug": "interleaving",
    "motifs": [

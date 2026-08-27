@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**766 recorded closures — of which 599 are CLASSIFIED by mechanism and
+**767 recorded closures — of which 600 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -29,13 +29,13 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `selection-not-unique` | 3 |  |
 | `finite-truncation` | 2 | 1 |
 | `rigidity-collapse-with-mechanism` | 2 |  |
+| `category-mismatch` | 2 |  |
 | `vacuity` | 2 |  |
 | `registered-comparison-null` | 1 |  |
 | `sealed-one-input-comparison` | 1 |  |
 | `sealed-invert-then-match; killed by the chain's own algebra` | 1 |  |
 | `group-membership-refutation` | 1 |  |
 | `stabilizer-computation` | 1 |  |
-| `category-mismatch` | 1 |  |
 | `rank-vs-reality-dichotomy` | 1 |  |
 | `cross-family-counterexample` | 1 |  |
 | `self-defeating-escape` | 1 |  |

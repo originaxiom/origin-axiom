@@ -1,5 +1,27 @@
 # Changelog
 
+## B1174 (2026-08-27): THE ℤ/2-IDENTIFICATION CELL (R50-3) — NOT ONE TORSOR, ONE SHARED INVOLUTION; C4 constructively resolved; B1169's S1 partially promoted
+
+The register's Q1 (= B1169's S1, double-discovered by the sweep and the meditation), run same-day on the
+review's GO. **Verdict NEGATIVE** — the literal hypothesis (the four program ℤ/2's — B942 chirality, B957
+value torsor, B1168 mirror bit, S068 genus/breath — are ONE involution) is **refuted**, with the proved
+substance carried (the B1157 shape): **ONE SHARED INVOLUTION, four names — c = the mirror** (SnapPy: the
+reversed m004's traces are the complex conjugates ⇒ on K=ℚ(√−3) the mirror IS c) **= chirality** (B942's
+quotient, cited) **= the c-leg of BOTH V₄'s**, located exactly (mod Φ₁₂: **k=11 = c, fixes √3 + flips √−3 —
+the ORIENTATION leg; k=7 fixes K + flips √3 — B1067's form-class swap = the census's bit 2** — B1164
+grounded leg-by-leg; the meeting V₄ = Gal(ℚ(√−3,√5)/ℚ): c a leg). **The refutations, each exact:** the
+value torsor swaps √5 and **c is trivial on ℚ(√5)** — the mechanism is **the parity law at the field level
+(c nontrivial iff the field is IMAGINARY**; the real/metallic hearing ladder is mirror-even); the genus-ℤ/2
+of ℚ(√−15) fixes √−15 hence flips both surds while c *moves* √−15 — distinct legs, no canonical iso (S068
+row 1's clean negative fires, with residue). **Consequences routed:** B1169's **S1 PARTIALLY PROMOTED**
+(dated addendum; the remaining rung = the QP-4-class comparison, hatched); **B1166's C4 constructively
+resolved** ("the presentations share the c-leg" — cloud asked for the filed amendment; codex asked to type
+θ=cr's leg); **B1161's label sharpened** (the W₀ marking's c-component = the orientation bit, proved);
+**R50-3 checked off same-day.** *Fence (honest):* the first leg-table implementation misfired (`subs` on a
+non-Symbol) and was **self-caught by hand-check before banking**, re-implemented with exact reduction +
+load-bearing asserts — the MB12 class, caught in-cell. kill_graph routed (category-mismatch; 3 hatches).
+Gate 5 clean. Locks `tests/test_b1174_z2_identification.py` (8, incl. the live exact leg table).
+
 ## Review 50 (2026-08-27): the decadal review over B1156–B1173 — opened with the carry-leak audit (10 broken keys found, all dispositioned; the gate now enforces carry continuity); the cold audit's corrections applied; SEAM-A's authoritative split stated
 
 **§0 THE CARRY-LEAK AUDIT:** the review carry chain leaked while its gate stayed green — R47 dumped
