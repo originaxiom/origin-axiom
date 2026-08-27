@@ -1,0 +1,35 @@
+FACT 1: banked pins hold — beta^2 = meridian (memo 46) and the beat
+   preserves EVERY geodesic length (memo 81: length-even, torsion-odd).
+   A map that fixes the whole length spectrum changes no distance:
+   THE BEAT CANNOT DRIVE EXPANSION — its stretch factor is exactly 1.
+FACT 2: sigma abelianized S = [[1,1],[1,0]]; char poly x^2 - x - 1,
+   Perron root phi = (1+sqrt5)/2 (exact).  S^2 = [[2,1],[1,1]] exactly;
+   char poly x^2 - 3x + 1 with root phi^2 — the SAME golden trace-3
+   polynomial banked in memo 49 (pin verified).  Stretch per tick: phi.
+FACT 3: FOUND — P = [[-3, -1], [5, 2]] (det -1) gives
+   P F P^-1 = S^2 exactly: the banked memo-49 fiber tick and the
+   substitution's square are ONE GL2(Z) conjugacy class — sigma^2 IS
+   the monodromy.  The record's two squared steps, exact:
+     beta^2  = meridian   : stretch 1      (isometric pulse, memo 46)
+     sigma^2 ~ monodromy  : stretch phi^2  (golden pulse, this cell)
+   entropy cross-check: log(phi^2) = 2 log phi = the banked fiber entropy.
+
+FACT 4 — THE TYPING (through the banked parity x dimension law, B1168):
+   FORM of a pulse-driven expansion law: 'lengths multiply by phi per
+     sigma-tick' — a DIMENSIONLESS ratio, exponential in tick count.
+     Object-side CONDITIONALLY: conditional on H90's LEAP-1 (that the
+     sigma-clock is the cosmological clock), which is UNPAID.
+   RATE of the observed expansion: a dimensionful scale (per second).
+     Observer-side BY THEOREM (the dimension half of the law): the
+     object prices no seconds.
+   NAMED TENSION (not resolved here): the object's geometry is
+     hyperbolic (Lambda < 0 flavor); the observed expansion is
+     Lambda > 0.  The weld, if any, is the owner's to price.
+
+THE TWO PULSES: the record carries exactly two squared steps on the one
+object — the beat's (isometric: it CANNOT drive expansion, theorem) and
+the substitution's (stretching: factor phi per tick, exact, and its
+square IS the fiber monodromy in one GL2(Z) class with the banked
+memo-49 tick).  If anything in this record drives expansion it is the
+golden pulse, not the heartbeat — and only across LEAP-1, which remains
+unpaid.  Gate 5 untouched.

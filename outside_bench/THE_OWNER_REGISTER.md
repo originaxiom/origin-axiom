@@ -49,3 +49,14 @@ B534/B566 lineage. R7 (the ends' entanglement re-read) and R4's probe
 (the compact form) remain flagged: R7 routed to cc with the
 B1166/B1174 separation theorems as the new context; R4's probe awaits a
 scoping pass. Register discipline: this addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-27) — NEW ROW R13, filed same session per the standing rule
+
+| # | the owner's question (dated) | checked where | verdict then | modern status | LIVE remainder |
+|---|---|---|---|---|---|
+| R13 | **"could the heartbeat drive the expansion of the universe?"** (2026-08-27) | memo 90 (`certificates/two_pulses.py`, GREEN) + prior art S045, H90/B303, CRYSTALLIZATION §6, memos 46/49/81 | — (asked now) | **TYPED, NOT DECIDED**: the beat provably CANNOT (isometric — β²=meridian, every geodesic length preserved, stretch exactly 1); the record's one stretching pulse is the golden substitution σ, whose square IS the fiber monodromy (one GL₂(ℤ) class with memo 49's tick, stretch φ per tick — memo 90 FOUND branch); expansion FORM (dimensionless ratio φ/tick) conditionally object-side, RATE observer-side by the parity×dimension law | **LEAP-1 (σ-clock = cosmological clock, H90) — UNPAID**, the owner's to price; plus the named Λ<0 (object) vs Λ>0 (observed) tension |
+
+Status note: the machine half is banked (memo 90); what remains on R13 is
+exactly one weld (LEAP-1) and one named tension — neither is a
+computation, both are priced decisions. This addendum is the only
+mutation.
