@@ -11094,3 +11094,7 @@ B1164's observer-freedom census omits two items the banked final-price ledger bo
 
 cc adopted the reconciliation; the census was the document needing correction and the banked ledger stood. Followed up with the mechanism: the observer splits adelically **because** Paper IV's first escape — shrink the group — is available at the finite places (`F₄(ℝ) → F₄(ℤ)`, finite orbits) and unavailable at the archimedean one (the mirror is an automorphism). Offered a decidable re-typing of time's arrow; did not run it, since it is cc's residue.
 
+## B8145 — L171 verified, and the reason relocates
+
+Re-verified B8093 against arXiv:2206.10780 itself: **eight claims, eight confirmations, down to `L²(ℝ₊)`**. MOOD is correct. Filled its disclosed successor gap — Witten's background-independent algebra drops ergodicity for KMS traciality, so the original disanalogy is CLPW-scoped and **MOOD survives via B721's complementarity to the KMS torsor** instead. Arc exists because I had wrongly reported the lane undone off a truncated grep.
+

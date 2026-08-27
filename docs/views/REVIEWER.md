@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1046** |
-| words of findings prose | **710,669** |
+| research arcs with findings | **1047** |
+| words of findings prose | **711,274** |
 | test lock files referenced | **611** |
-| arcs carrying an authored verdict | **1033** (98.8 %) |
+| arcs carrying an authored verdict | **1034** (98.8 %) |
 | recorded closures | **763** (589 classified, 174 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 694 |
+| PROVED | 695 |
 | NEGATIVE | 294 |
 | OPEN | 34 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B8143`** (1424 words, 0 locks)  
-B1160'S CORE THEOREM IS EXACTLY CORRECT AND ITS FENCE IS LOAD-BEARING, WITH A WITNESS. Reproduced the cubic factorisation -18(t-3)(t+3) exactly. TWO SCOPE FINDINGS: (1) solved WITHOUT B1160's normalisation Yq=1, the system has THREE branches -- the two SM lines plus a ONE-PARAMETER VECTOR-LIKE family (Yq=0, Yd=-Yu) invisible to its chart, confirming B864's 'three lines' exactly. (2) B1160 fences the SM-SHAPING as observer-paid; that fence is not a caution but a THEOREM WITH A COUNTEREXAMPLE -- over the same alphabet there is a RIGID, CHIRAL, anomaly-free 13-STATE content ABCDD = (3,2)+(3bar,1)+(1,2)+2x(1,1) with charges (1/2,-1,-3/2,2,1), SMALLER than the SM's 15. The SM is NOT the minimal rigid chiral content.  
-`B8143_anomaly_lane/FINDINGS.md`
+**PROVED — `B8145`** (605 words, 0 locks)  
+B8093's L171 TYPING VERIFIED AND EXTENDED. All EIGHT of its factual claims about CLPW confirmed VERBATIM from the source, down to the notation Pi = Theta(q), Tr 1 = 1 and H_obs = L^2(R_+) rather than L^2(R). The MOOD typing is correctly derived under the binding criteria. AND the gap B8093 disclosed in its own scope -- successor literature not read -- is now filled: Witten's background-independent algebra (2308.03663) is NOT a crossed product and does NOT invoke ergodicity; it gets II_1 from a TRACIAL STATE via the KMS condition. So B8093's (a) disanalogy is scoped to CLPW and does not extend. MOOD SURVIVES ANYWAY, for a different reason: B721 found our tracial state COMPLEMENTARY TO rather than INSIDE the KMS torsor, so the successor's engine is disanalogous too.  
+`B8145_l171_verified/FINDINGS.md`
 
 **NEGATIVE — `B8141`** (440 words, 0 locks)  
 THE ARTIFACT CLASS, third after B8139's COST and B8140's TWO EMPTIES: two locks depend on SIX gitignored .log files, so they can only pass on a machine where the arc was recently run. On any clean checkout they do not SKIP -- they FAIL. test_b1062_bridge.py (5 artifacts) and test_b1063_refresh.py (1) currently fail here for exactly this reason. Permanent red trains a reader to ignore failures, which costs more than the lock is worth.  

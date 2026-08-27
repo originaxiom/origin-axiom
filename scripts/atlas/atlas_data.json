@@ -19425,6 +19425,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B8145": {
+   "slug": "l171 verified",
+   "motifs": [
+    "trace_map",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B721",
+    "L171",
+    "L173"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "quantum"
+  },
   "B814": {
    "slug": "gate d",
    "motifs": [

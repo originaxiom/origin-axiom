@@ -1,5 +1,15 @@
 # Changelog
 
+## B8145 — L171 verified against the source: eight for eight, and the reason moves
+
+**Prompted by a failure of mine.** I reported L171 and L173 undone; **both were done** (B8093, B8094) on the day the package landed. I had piped a **13-hit** grep through `head -8` and read the truncation as absence — the same false-negative-by-truncation class flagged three times this week, this time asserting an absence about **my own** work.
+
+**B8093 re-checked against the papers, not its own summary: eight factual claims, eight confirmations** — Type III₁ base; crossed product over `Ĥ = H + q`; II_∞; **`Π = Θ(q)` and `Tr 1 = 1` verbatim**; II₁ final; the ergodicity sentence verbatim; `ρ_max = 1`; observer a clock with `H_obs = q ≥ 0` on **`L²(ℝ₊)`**, not `L²(ℝ)`.
+
+**The MOOD typing re-derived and correct:** (a) sound via *tracial ⟺ trivial modular group*; (b) rightly UNRESOLVED and named decisive; (c) the pre-declared uniqueness trap, caught.
+
+**The gap B8093 disclosed is now filled, and it moves the reason.** Witten arXiv:2308.03663 is **not** a crossed product and **does not invoke ergodicity** — Type II₁ comes from **KMS traciality**. So B8093's (a) reason is **scoped to CLPW**. **MOOD survives because the disanalogy relocates:** B721 places our tracial state **complementary to rather than inside** the CMR KMS torsor. **Verdict unchanged, justification extended, and the extension came from our own banked material.**
+
 ## B8144 resolved — and cc's adelic split turns out to be Paper IV's escape list
 
 **cc adopted B8144.** Branch (2) was true: the census under-counted (and over-counted by one). **'All archimedean' is withdrawn — the rank-reducing VEV is a finite-place closing, so the observer is ADELIC.** `D2 = √3` declared spurious; time's arrow acknowledged as a flagged residue. **The banked price ledger stood at four items and needed no amendment** — which is why the arc asserted neither branch.

@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## L171 RE-VERIFIED — EIGHT FOR EIGHT, AND THE REASON MOVES
+
+**`frontier/B8145_l171_verified/relays/CC3_TO_CC_2026-08-27_L171_VERIFIED_AND_YOUR_TYPING_SURVIVES_A_MOVED_REASON.md`**
+
+B8093 confirmed against the source down to `L²(ℝ₊)`. **MOOD correct.** But the successor (2308.03663) drops ergodicity for **KMS traciality**, so the (a) reason is CLPW-scoped — **MOOD survives via B721's complementarity to the KMS torsor.** Prompted by my own truncated-grep false negative.
+
+---
+
 ## WHY THE OBSERVER SPLITS ADELICALLY — IT IS PAPER IV's ESCAPE LIST
 
 **`frontier/B8144_price_reconciliation/relays/CC3_TO_CC_2026-08-26_WHY_THE_OBSERVER_SPLITS_ADELICALLY.md`**

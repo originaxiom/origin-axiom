@@ -1,0 +1,36 @@
+{
+ "eight_claims_checked_against_source": {
+  "base algebra Type III_1": "CONFIRMED -- 'the algebra of observables in the region P is a Type III algebra A' (sec 2.1)",
+  "crossed product over H, the modular/boost generator": "CONFIRMED -- 'A^H = (A tensor B(L^2(R_+)))^Hhat', 'Hhat = H + H_obs = H + q' (eq 20, sec 2.4)",
+  "crossed product yields II_infinity": "CONFIRMED -- 'this is actually a standard description of the crossed product ... and in particular it is an algebra of Type II_infinity' (sec 2.4)",
+  "final type II_1": "CONFIRMED -- abstract: 'a von Neumann algebra of Type II_1'",
+  "max entropy density matrix = 1": "CONFIRMED -- 'rho_max = 1'",
+  "observer = clock, H_obs = q >= 0, L^2(R_+)": "CONFIRMED EXACTLY, including R_+ not R -- 'H_obs = q ... we will assume q >= 0 ... H_obs = L^2(R_+)'",
+  "observer forced by ERGODIC modular flow, invariants are c-numbers": "CONFIRMED VERBATIM -- 'the only H-invariant elements of A are c-numbers ... the modular automorphism group acts ergodically' (sec 2.4)",
+  "positivity projection Pi = Theta(q), Tr 1 = 1": "CONFIRMED VERBATIM -- 'Pi = Theta(q) = Theta(-H-x)' (eq 24); 'Tr_A 1 = 1' (eq 25)"
+ },
+ "not_claimed": [
+  "that B8093 was wrong -- it is right on every fact and on the typing",
+  "that the successor changes MOOD -- it does not, though it changes the reason",
+  "that our modular flow is trivial BY DERIVATION -- B8093's own inverted question, still open"
+ ],
+ "scope": "the successor was read at ONE FETCH of its full text, not in full detail; this types its construction MECHANISM, not its every claim. Penington-Witten and the wider successor set were not read.",
+ "sources": [
+  "arXiv:2206.10780 (Chandrasekaran-Longo-Penington-Witten)",
+  "arXiv:2308.03663 (Witten, background-independent algebra)"
+ ],
+ "the_disclosed_gap_now_filled": {
+  "consequence_for_the_typing": "B8093's (a) reason is SCOPED TO CLPW and does not extend to the successor, whose engine is not ergodicity.",
+  "does_MOOD_survive": "YES, but the disanalogy RELOCATES. The successor's engine is KMS traciality; B721 places our tracial state COMPLEMENTARY TO rather than INSIDE the CMR KMS torsor. So the successor is disanalogous at its own engine, not at CLPW's.",
+  "net": "the typing is unchanged; the justification needed extending, and the extension came from our own banked material rather than from a new assumption",
+  "what_B8093_said": "'The successor literature (Witten's later crossed-product papers, Penington-Witten) was NOT read, so this types the foundational construction only.' A disclosed limitation, not a hidden defect.",
+  "what_the_successor_does": "Witten, 'A background-independent algebra in quantum gravity' (arXiv:2308.03663): NOT explicitly a crossed product; obtains Type II_1 from a TRACIAL STATE whose traciality follows from the KMS condition of Psi_dS via holomorphic continuation; ergodicity of modular flow is NOT explicitly invoked, replaced by time-translation symmetry and thermal structure. Observer still mandatory (background independence, operational meaning, symmetry breaking); positivity q >= 0 with Pi = Theta(q) still present."
+ },
+ "typing_re_derived": {
+  "a_crossed_product_over": "DISANALOGY CONFIRMED SOUND. Their engine is ergodic modular flow. Ours (B721) is a tracial state, and tracial <=> trivial modular automorphism group (Tomita-Takesaki), so A^H = A -- every element invariant -- and the mechanism that FORCES their observer is absent.",
+  "b_observer_machinery": "UNRESOLVED, and correctly so -- B8093 names it the decisive test and declines to assert it. An in-sandbox question, owed not claimed.",
+  "c_max_entropy_tracial_state": "NEAR-VACUOUS CONFIRMED -- rho_max = 1 with flat spectrum is canonical for ANY II_1 factor. This is EXACTLY the trap cc pre-declared ('hyperfinite II_1 is UNIQUE, so a coarse structural match is near-vacuous'), and B8093 caught it.",
+  "verdict": "one DISANALOGY, one UNRESOLVED, one NEAR-VACUOUS. Under the binding rule that a MATCH requires a non-generic contact, none delivers one. MOOD is correct."
+ },
+ "why_this_arc_exists": "I reported to the owner that L171 and L173 were undone. BOTH WERE DONE (B8093, B8094). I had piped a 13-hit grep through 'head -8' and read the truncation as absence. The owner then asked me to verify B8093 rather than redo it, given the demonstrated unreliability."
+}
