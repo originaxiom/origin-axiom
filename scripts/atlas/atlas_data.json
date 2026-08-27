@@ -3693,6 +3693,27 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1184": {
+   "slug": "quine synthesis",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B760",
+    "B762",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B118": {
    "slug": "theta fixed root sign",
    "motifs": [

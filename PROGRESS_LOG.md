@@ -11870,3 +11870,18 @@ automorphism of the object). Consequences: B1169-S1 FULLY PROMOTED (four probes 
 S2/S3 cloud + S4 quine remain); B1161's label → PROVED-AS-DECOMPOSED (archimedean c-leg = SEAM-A's W₀ =
 QP-4's class, one proved class; + the finite k7/arrow label, separate); the qualia promotion arc complete.
 B760's computations cited; classes identified, not acts. Gate 5 clean. Locks test_b1183 (5).
+
+## B1184 (2026-08-27): THE QUINE SYNTHESIS — SELF-NAMING WITHOUT SELF-SIGNING (S4 split-answered; the observer table's cc-rungs close)
+
+The quine cell (B1169's S4). **The correction first**: the register's "QP-1 open" was STALE — B762 ran the
+quine and PROVED it (m004 the unique 1-cusped census manifold by volume→shape; the emitted word a
+SELF-NAME). **The B8147 stress-test, bench-verified**: the quine SURVIVES the family retraction by its own
+filters — o10_150700 excluded by volume (ratio exactly 5), the four 2√3i carriers by the 1-cusped filter,
+m003 by shape (ω ≠ 2ω); B762 was census-scoped from the start (the one-way family test honored avant la
+lettre). **The new computation**: every letter of the self-name is mirror-EVEN (volume, cusp shape, CM
+disc, residue, palette orders) = exactly the B1168 parity law's object side — the name contains NO odd
+letter; the sign is unutterable in it. **The synthesis theorem**: QP-1 (can name) + QP-4/B1183 (cannot
+sign; the missing sign IS c's one class) ⇒ NAMING and CHOOSING are complementary — the object says WHO it
+is, never WHICH WAY it is. S4 answers as a SPLIT VERDICT: the fixed point exists for the name, provably
+not for the sign. The observer table: S1 PROVED, S4 SPLIT-ANSWERED, S2/S3 cloud's C6. Gate 5 clean. Locks
+test_b1184 (3).

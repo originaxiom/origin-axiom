@@ -1,0 +1,12 @@
+{
+ "id": "B1184",
+ "arc": "the quine synthesis: self-naming without self-signing",
+ "verdict": "PROVED",
+ "correction": "the register's 'QP-1 open' was STALE -- B762 ran it, verdict QUINE (PROVED)",
+ "b8147_stress_test": "the quine SURVIVES: o10_150700 excluded by volume (5x); the four 2sqrt3i carriers by 1-cusped (verified); m003 by shape; census-scoped from the start",
+ "name_parity": "every emitted letter mirror-even (volume, shape, disc, residue, palette orders) = the B1168 object side; no odd letter exists",
+ "synthesis": "NAMING and CHOOSING proved complementary: QP-1 (can name) + B1183 (cannot sign; the sign IS c's class). S4 split-answered: fixed point exists for the name, provably not for the sign",
+ "observer_table": "S1 PROVED (B1174+B1183) | S2/S3 cloud's C6 (pending) | S4 SPLIT-ANSWERED (here) -- the four-rung table closes",
+ "fences": "B762 cited (honest census scope); parity checks bench-verified; 'unique' census-scoped per the one-way-family rule. Gate 5 clean.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}
