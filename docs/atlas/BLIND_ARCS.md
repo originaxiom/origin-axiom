@@ -55,6 +55,7 @@ auditable in a way a passing threshold never was.
 | `B8109` | INSTRUMENT | R48's closing report: which review instruments worked, which did not, and the positive-control principle for document scans. **Pure methodology**, no object mathematics — an object atlas is correct to miss it. |
 | `B8139` | INSTRUMENT | The **cost failure class**: a working lock (`FINDINGS.md` write-safety) caught nothing for five days because the suite it lives in is unaffordable — 1038 files, 4528 tests, **421s of collection alone**. About **our own suite's economics**, not an object topic; it introduces no object term and should not acquire one. |
 | `B8141` | INSTRUMENT | The **artifact class**: locks reading `.gitignore`d `.log` files report on the author's working directory rather than the code. About **our own suite's reproducibility**, not an object topic — it introduces no object term. |
+| `B8151` | INSTRUMENT | The **verified-vs-used** check applied to the paper series: does each claim's scope match the evidence establishing it, and does each verification appendix name a runnable file with an expected output? About **our own papers' checkability**, not an object topic; it introduces no object term. |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
 
