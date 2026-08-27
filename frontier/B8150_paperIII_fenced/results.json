@@ -1,0 +1,26 @@
+{
+ "codex_set_now_complete": {
+  "R010": "m=12 settled at 3 with a control (B8148)",
+  "R011": "this arc",
+  "R013": "residue narrowed to five values (B8149)",
+  "R014": "Paper IV retracted (B8147)"
+ },
+ "defect_1_the_missing_fence": {
+  "fixed": "the paper now states where the identity was verified, that each side continues meromorphically, and that the continuation is what licenses the next display",
+  "is_the_statement_false": "NO -- the identity does hold at s = 0. This is a FENCING defect: the paper let a reader take the s=0 display as verified when only its ancestor on the half-plane was.",
+  "the_licence": "both sides continue meromorphically, so by the identity theorem they agree as MEROMORPHIC FUNCTIONS wherever both are defined, in particular at s = 0",
+  "what": "eq:symfactor R_{rho(m)}(s) = prod_j R(s-j, sigma_j) was VERIFIED as an identity of Euler products on Re(s) > 2+m, then EVALUATED AT s = 0 with no continuation step stated",
+  "why_it_matters": "at s = 0 several factors on the right are outside absolute convergence and are not Euler products at all; the display is licensed only by analytic continuation"
+ },
+ "defect_2_duplicated_sentence": {
+  "cause": "a leftover from my own earlier edit when I replaced the reflection-formula passage after B1157 refuted its antecedent",
+  "fixed": "the second occurrence rewritten as 'One route to closing it can, moreover, be ruled out.'",
+  "what": "'The gap can nevertheless be located exactly' appeared TWICE in the same subsection, at lines 233 and 250"
+ },
+ "not_claimed": [
+  "that eq:symfactor is false at s=0 -- it is true; the defect was that the paper did not say why it may be evaluated there",
+  "that I have read codex's R011 -- the relay body is untracked; this is an independent audit of the same target"
+ ],
+ "the_check_that_found_them": "list every claim about an object, then ask of each: WHERE was this verified, and WHERE is it used? The gap between those two is where fencing defects live.",
+ "why": "R011 ('Paper-III Ruelle fenced') was the last of the four codex audit verdicts I had named as unprocessed. The relay body is untracked, so instead of assuming what it flags I audited every Ruelle claim in the paper against the region where it was actually verified."
+}

@@ -1,0 +1,15 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-27)",
+ "claim_one_line": "R011 UPTAKE COMPLETES THE CODEX SET, AND IT FOUND TWO REAL DEFECTS IN MY OWN PAPER. (1) THE MISSING FENCE: the Sym-power identity was VERIFIED on Re(s) > 2+m, where every factor converges absolutely, and then EVALUATED AT s = 0 with no continuation step stated -- the licence is the identity theorem for meromorphic functions, and it must be said, because on the right the factors are no longer Euler products there. (2) A DUPLICATED LEAD-IN sentence left by my own earlier edit, appearing twice in the same subsection. Both fixed; paper rebuilds 7pp clean.",
+ "creates_law": "AN IDENTITY IS FENCED BY WHERE IT WAS VERIFIED, NOT BY WHERE IT IS USED. eq:symfactor was checked as an identity of EULER PRODUCTS on Re(s) > 2+m and then used at s = 0, where the right-hand factors exist only by continuation. The step is standard -- both sides continue meromorphically, so the identity theorem gives agreement as meromorphic functions -- but omitting it lets a reader take the s = 0 display as verified when only its ancestor was. SCOPE: this is a fencing defect, not a false statement; the identity does hold at s = 0. SCOPE: it was found by auditing where each claim was VERIFIED against where it was USED, which is a check worth running on any paper that evaluates a product outside its half-plane of convergence.",
+ "depends_on": [
+  "B8137",
+  "B8142"
+ ],
+ "id": "B8150",
+ "instrument": true,
+ "reproducer": "audit of every Ruelle-zeta claim in papers/series/paper3_one_loop/main.tex against where each is verified",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "PROVED"
+}

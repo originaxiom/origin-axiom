@@ -236,7 +236,13 @@ $e^{jL}e^{-s\ell}=e^{ij\theta}e^{-(s-j)\ell}$, one has the identity
 \begin{equation}\label{eq:symfactor}
    \Rz_{\rho(m)}(s)=\prod_{j=-m}^{m}\Rz(s-j,\sigma_j),
 \end{equation}
-which is elementary and we claim no novelty for it. At $s=0$ it reads
+which is elementary and we claim no novelty for it. \textbf{As stated,
+\eqref{eq:symfactor} is an identity of Euler products on the half-plane where every factor
+converges absolutely, namely $\mathrm{Re}(s)>2+m$; we verified it there.} Each side continues
+meromorphically, so by the identity theorem the two agree \emph{as meromorphic functions} wherever
+both are defined, and in particular at $s=0$. \textbf{This continuation step is what licenses the
+next display, and it is worth stating because the individual factors on the right are no longer
+Euler products there.} At $s=0$ it reads
 \[
    \Rz_{\rho(m)}(0)=\Rz(0,\sigma_0)\cdot
    \underbrace{\prod_{j=1}^{m}\overline{\Rz(j,\sigma_j)}}_{\text{the graviton's own factors}}\cdot
@@ -247,8 +253,7 @@ product, at arguments outside absolute convergence. \textbf{Residue~2 therefore 
 evaluating $\Rz$ at the negative integers} --- and since a reflection $s\leftrightarrow2-s$ carries
 $2+j$ to $-j$, with $\Rz(2+j,\sigma_j)$ absolutely convergent for $j\ge1$, it reduces again:
 
-\textbf{The gap can nevertheless be located exactly, and one route to closing it can be ruled
-out.} Taking the ratio of \eqref{eq:symfactor} at $m$ and $m-1$ isolates
+\textbf{One route to closing it can, moreover, be ruled out.} Taking the ratio of \eqref{eq:symfactor} at $m$ and $m-1$ isolates
 $\Rz(-m,\sigma_m)\cdot\overline{\Rz(m,\sigma_m)}$. \emph{If} one could write
 $\Rz_{\rho(m)}(0)=T_X(\rho(m))^2$ --- Fried's theorem --- then Proposition~\ref{prop:tail} would
 evaluate that ratio and give a reflection formula expressing $|\Rz(-m,\sigma_m)|$ through the

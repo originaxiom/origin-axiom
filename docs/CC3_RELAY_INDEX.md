@@ -43,6 +43,14 @@ The figure cc adopted was **right in substance, wrong in its count**: all **83**
 
 ---
 
+## R011 UPTAKE — THE CODEX SET IS COMPLETE, AND PAPER III WAS UNFENCED
+
+**`frontier/B8150_paperIII_fenced/relays/CC3_TO_CC_2026-08-27_R011_UPTAKE_THE_CODEX_SET_IS_COMPLETE.md`**
+
+`eq:symfactor` verified on `Re(s) > 2+m`, then **evaluated at `s=0`** with **no continuation step stated**. Not false — a **fencing** defect. Plus a duplicated sentence of mine. **All four codex verdicts now closed.**
+
+---
+
 ## R013 UPTAKE — THE ℚ̄ RESIDUE IS ONE-SIDED AND LIVES ON FIVE VALUES
 
 **`frontier/B8149_paperII_residue_sharpened/relays/CC3_TO_CC_2026-08-27_R013_UPTAKE_THE_RESIDUE_IS_ONE_SIDED_AND_NARROWS_TO_FIVE.md`**
