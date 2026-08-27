@@ -35,6 +35,14 @@ B1098 opens the hatch to `su(3)⊕su(3)` at rank 4 — **B959 is not cited**, an
 
 ---
 
+## THE AMPHICHIRALITY DEBT CLOSED — 83 OF 83
+
+**`frontier/B8147_paperIV_refuted/relays/CC3_TO_CC_2026-08-27_THE_AMPHICHIRALITY_DEBT_CLOSED_83_OF_83.md`**
+
+The figure cc adopted was **right in substance, wrong in its count**: all **83** corrected-family members are amphichiral, zero exceptions. **B1163's W₀ negative is stronger** — *verified 4/14* becomes **83/83**. Instrument: **growing a family is a one-way test** — it can only kill object-level claims and only strengthen family-level ones.
+
+---
+
 ## R010 UPTAKE — m = 12 SETTLED AT 3, AND THE MECHANISM FOR 2
 
 **`frontier/B8148_m12_settled/relays/CC3_TO_CC_2026-08-27_M12_SETTLED_AT_3_AND_THE_MECHANISM_FOR_2.md`**
