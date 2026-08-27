@@ -1,0 +1,25 @@
+SYMBOLIC: sum_a shell(a) = p(p^{2e-2}-1)/(p+1) PROVED by induction (base + step)
+SYMBOLIC: ACTIVE + DARK + shells + survivor == p^{2e} identically
+SYMBOLIC: e = 2 collapses to the memo-87 formulas exactly
+  (p,e)=(3,2): all 4 shell counts match the closed forms exactly
+  (p,e)=(5,2): all 4 shell counts match the closed forms exactly
+  (p,e)=(3,3): all 5 shell counts match the closed forms exactly
+  (p,e)=(3,4): all 6 shell counts match the closed forms exactly
+  (p,e)=(5,3): all 5 shell counts match the closed forms exactly
+  (p,e)=(7,3): all 5 shell counts match the closed forms exactly
+  (p,e)=(5,4): all 6 shell counts match the closed forms exactly
+  (p,e)=(3,5): all 7 shell counts match the closed forms exactly
+  (p,e)=(5,5): all 7 shell counts match the closed forms exactly
+  (p,e)=(7,4): all 6 shell counts match the closed forms exactly
+  (p,e)=(11,3): all 5 shell counts match the closed forms exactly
+  (p,e)=(13,3): all 5 shell counts match the closed forms exactly
+
+THE TOWER IS COUNTED: every shell of the dark tower has a closed form —
+ACTIVE p^{2e-1} + (p-1)^2 p^{2e-2}, SHELL-a (p-1)p^{2(e-a)-1}, SURVIVOR
+1, DARK the exact remainder — proven as symbolic identities (grand total
+p^{2e}; e = 2 collapses to memo 87) and verified against the classifier
+at TWELVE (p,e) depths including the five where the classifier was
+point-verified against T itself.  Memo 88's "noted, not asserted" fence
+is discharged.  Unchanged and honest: the classifier-for-all-e remains
+derivation + instances; the exponent-echo hook remains a hook.  Gate 5
+untouched.

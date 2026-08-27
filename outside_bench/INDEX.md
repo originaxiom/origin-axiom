@@ -111,6 +111,8 @@ occurrence; Gate 5 untouched; interpretive passages labeled.
 
 | 88 | memos/DARK_TOWER.md | certificates/dark_tower.py | THE DARK TOWER (the rung memo 87 did not claim, decided): ONE classifier — (v(l), v(alpha), v(beta)) with B534s trio — governs EVERY prime power N=p^e: spectrum exactly {0,1,sqrt p,...,p^{e/2}}, survivor UNIQUE at (2, p^e-2) with loudness p^{e/2}, prime-dark j!=2 classes wholesale dark at every depth, the j=2-mod-p^a sub-classes carrying shell a — the recursion climbs the tower; the v(l)>=1 clause (the one conjectural piece) HELD at every point; verified (3,3) EXACT in Z[zeta_27] + (3,4),(5,3),(7,3),(5,4) float — 531k+ points, all GREEN first run; shell-count pattern p(p-1)p^{2(e-1-a)} noted not asserted; exponent-echo hook untouched | 1B, banked 2026-08-27 |
 
+| 89 | memos/DARK_TOWER_COUNTED.md | certificates/dark_tower_counts.py | THE TOWER COUNTED (memo 88s noted-not-asserted fence discharged): closed forms for EVERY shell — ACTIVE p^{2e-1}+(p-1)^2 p^{2e-2}, SHELL-a (p-1)p^{2(e-a)-1}, SURVIVOR 1, DARK the exact remainder — with the geometric shell sum PROVED BY INDUCTION (base + step as plain power identities), grand total == p^{2e} symbolically, e=2 collapsing exactly to memo 87; verified against the classifier at TWELVE depths (the seven point-verified + (3,5),(5,5),(7,4),(11,3),(13,3)), every shell exact; classifier-for-all-e remains derivation+instances; exponent-echo hook untouched | 1B, banked 2026-08-27 |
+
 ## Machinery vendored here (so the lane is self-contained from day one)
 `certificates/twisted_double.py` (the exact e₆ + 27 stack, ℚ(q) pair-field arithmetic) ·
 `certificates/paper/verify/check_charge_bracket.py` (the paper's own e₆ builder) ·
