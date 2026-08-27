@@ -4,17 +4,17 @@ This directory is the shared, living source for the Codex seat's hostile closure
 `inventory/backbone.json`; never hand-edit the generated
 `../PROGRAM_QUESTION_ANSWER_MAP.md`.
 
-Wave-4 source locks:
+Wave-5 source locks:
 
 ```text
-origin/main                  68383e80718e732e7cf5b9e57077a19dff753ad6
-origin outside-bench ref    59680460721a0b9e4f672ad6e997724c226ceb56
-origin paper branch         61a243c65f1a84c700e3c3d9755b11c30a5f0699
-golden_gate handoff         15b3366937af19e643a54d564883253f013fc651
+origin/main                  bf580f45840d121a811d2b6606c48beac92c3057
+origin outside-bench ref    60bcf01db966ae0b13f18c73c24845040b59fd98
+origin paper branch         a6c35d083e9bd7610045093d682afce827034932
+golden_gate handoff         6fc86147e553773335b665d6d460e1eaa77aaaf0
 ```
 
-Wave-4 canonical state: 120 rows; 45 `PROVED`, 40 `REFUTED`, 13 `CONDITIONAL`, 16
-`EXTERNAL_BLOCKER`, 2 `EMPIRICAL`, and 4 `OPEN`.
+Wave-5 canonical state after the overnight reconciliation: 154 rows; 60 `PROVED`, 47 `REFUTED`,
+14 `CONDITIONAL`, 20 `EXTERNAL_BLOCKER`, 2 `EMPIRICAL`, and 11 `OPEN`.
 
 ## Update loop
 
@@ -30,13 +30,13 @@ PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/validate.py
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \
   --markdown documents/PROGRAM_QUESTION_ANSWER_MAP.md \
-  --as-of 2026-08-26
+  --as-of 2026-08-27
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \
   --markdown documents/PROGRAM_QUESTION_ANSWER_MAP.md \
-  --as-of 2026-08-26 --check
+  --as-of 2026-08-27 --check
 ```
 
 `OPEN` is an honest nonterminal state.  `CONDITIONAL` and `EXTERNAL_BLOCKER` account for an
 obligation but do not count as parameter-free physical closure.  The latest hostile audit and
-four-item live queue are in `evidence/PROGRESS_BANK_2026-08-26_WAVE4.md`.
+eleven-item live queue are in `evidence/PROGRESS_BANK_2026-08-26_WAVE5.md`.
