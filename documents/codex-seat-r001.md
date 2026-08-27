@@ -22,10 +22,10 @@ We also proved that several upstream “open-count” ledgers are arithmetically
 
 Share:
 
-- [Programme registry](/Users/dri/oa-audit-seat/aud1t/closure_campaign/inventory/backbone.json)
-- [Registry audit](/Users/dri/oa-audit-seat/aud1t/closure_campaign/inventory/REGISTRY_AUDIT.md)
-- [Current progress bank](/Users/dri/oa-audit-seat/aud1t/closure_campaign/PROGRESS_BANK_2026-08-25.md)
-- [Navigation/readme](/Users/dri/oa-audit-seat/aud1t/closure_campaign/README.md)
+- Programme registry: `<local-campaign>/inventory/backbone.json`
+- Registry audit: `<local-campaign>/inventory/REGISTRY_AUDIT.md`
+- Current progress bank: `<local-campaign>/PROGRESS_BANK_2026-08-25.md`
+- Navigation/readme: `<local-campaign>/README.md`
 
 ### 2. The strongest positive bridge found so far
 
@@ -45,11 +45,11 @@ This is a real structural bridge—but it still requires the heterotic/worldshee
 
 Key reports:
 
-- [C12 action reconstruction](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/C12_ACTION_RECONSTRUCTION.md)
-- [Orientation/branch selector](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/ORIENTATION_BRANCH_SELECTOR.md)
-- [Heterotic bridge audit](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/HETEROTIC_BRIDGE_AUDIT.md)
-- [McKay–heterotic selector](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/MCKAY_HETEROTIC_SELECTOR_AUDIT.md)
-- [Lattice/VOA bridge](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/LATTICE_VOA_HETEROTIC_BRIDGE.md)
+- C12 action reconstruction: `<local-campaign>/tracks/C12_ACTION_RECONSTRUCTION.md`
+- Orientation/branch selector: `<local-campaign>/tracks/ORIENTATION_BRANCH_SELECTOR.md`
+- Heterotic bridge audit: `<local-campaign>/tracks/HETEROTIC_BRIDGE_AUDIT.md`
+- McKay–heterotic selector: `<local-campaign>/tracks/MCKAY_HETEROTIC_SELECTOR_AUDIT.md`
+- Lattice/VOA bridge: `<local-campaign>/tracks/LATTICE_VOA_HETEROTIC_BRIDGE.md`
 
 ### 3. A new canonical Calabi–Yau candidate
 
@@ -72,7 +72,7 @@ This is far stronger than merely recognizing the BCDD ambient space. It gives a 
 
 Share:
 
-- [Section/vacuum selector](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/SECTION_VACUUM_SELECTOR.md)
+- Section/vacuum selector: `<local-campaign>/tracks/SECTION_VACUUM_SELECTOR.md`
 
 ### 4. A fully certified conditional MSSM witness
 
@@ -109,8 +109,8 @@ This is one of our most important results because it closes an entire family of 
 
 Share:
 
-- [Exact-spectrum Yukawa no-go](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/YUKAWA_EXACT_SPECTRUM_NO_GO.md)
-- [Cup-product audit](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/YUKAWA_CUP_PRODUCTS_308.md)
+- Exact-spectrum Yukawa no-go: `<local-campaign>/tracks/YUKAWA_EXACT_SPECTRUM_NO_GO.md`
+- Cup-product audit: `<local-campaign>/tracks/YUKAWA_CUP_PRODUCTS_308.md`
 
 ### 6. Down-Yukawa calculation reduced to its smallest missing maps
 
@@ -203,7 +203,7 @@ So we banked the algebra as `OA-C1056`, while rejecting “the generation’s se
 
 Share:
 
-- [Golden close-out audit](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/GOLDEN_CLOUDSEAT_CLOSEOUT_AUDIT.md)
+- Golden close-out audit: `<local-campaign>/tracks/GOLDEN_CLOUDSEAT_CLOSEOUT_AUDIT.md`
 
 ## What the programme can honestly claim now
 
@@ -237,4 +237,7 @@ All of this is saved and validated. The current integrity result is:
 ALL CAMPAIGN INTEGRITY CHECKS PASSED
 ```
 
-The best single file to give another seat is [PROGRESS_BANK_2026-08-25.md](/Users/dri/oa-audit-seat/aud1t/closure_campaign/PROGRESS_BANK_2026-08-25.md); then give them the [README](/Users/dri/oa-audit-seat/aud1t/closure_campaign/README.md) and the [Golden close-out audit](/Users/dri/oa-audit-seat/aud1t/closure_campaign/tracks/GOLDEN_CLOUDSEAT_CLOSEOUT_AUDIT.md).
+The best single local file to give another seat is
+`<local-campaign>/PROGRESS_BANK_2026-08-25.md`; then give them
+`<local-campaign>/README.md` and
+`<local-campaign>/tracks/GOLDEN_CLOUDSEAT_CLOSEOUT_AUDIT.md`.

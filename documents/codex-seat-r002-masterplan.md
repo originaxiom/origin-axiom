@@ -45,7 +45,7 @@ These are the exact public heads re-fetched immediately before this plan was wri
 | Golden Gate | branch suffix `paper-hostile-review-alero0` | `15b3366937af19e643a54d564883253f013fc651` | closed cloud seat plus adoption audit and manifest |
 | Golden Gate | `main` | `12af0b47d18a99ec9ff618f04e10342ef7591ef6` | Golden public baseline |
 
-The banking worktree at `/Users/dri/origin-axiom` was also inspected read-only. At lock time it was
+The banking worktree at `<banking-worktree>` was also inspected read-only. At lock time it was
 one commit ahead of public `main`, at `ab03a0616949fe9bba89b667b5f5b8fdc8fe455e`, with active
 modified and untracked work including B1144 and B1145. That tree is **evidence in flight**, not a
 published source lock. This seat must not edit, clean, commit, or merge it.
