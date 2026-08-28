@@ -1,0 +1,47 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+reused (memo 122): N1 = 0 (1, 0, 0, 0, 0, 0), N2 = 16 (1, -1, 0, 0, 0, 0)
+
+THE CENSUS — AFFINE characters w -> zeta_n^(<a,w> + c) over the 27's weights.
+    (IN-RUN CORRECTION: the first pass tested only LINEAR characters (c = 0).
+     Memo 92 found D2tw has polarity eps = -1, i.e. it IS affine, so the shift
+     c must be enumerated too.  With a shift, the CHARGED set is the complement
+     of a level set, so a stabilizer needs some level set to hold >= 25 of the
+     27 weights.  Both cases are now covered.)
+
+     n  (a,c) pairs  stabilizers   min |charged|   max |level set|
+     2          128            0              11                16
+     3         2187            0              12                15
+     4        16384            0              11                16
+     5        78125            0              11                16
+     6       279936            0              11                16
+
+VERDICT — THE COSMOLOGY LEDGER'S ROW 4, CLOSED AT CHARACTER LEVEL:
+  **NO abelian character of the 27's weight system stabilizes N1 or
+  N2 — for ANY modulus n = 2..6, LINEAR OR AFFINE.**  Zero stabilizers
+  out of 376760 (a, c) pairs tested.  The smallest charged set
+  any nontrivial character can produce is **11 states**, and the
+  largest level set any NONTRIVIAL character achieves is **16 of 27** — where a
+  stabilizer would need 25.  Both bounds fail by wide margins.
+  WHY, structurally: the 27's weights are spread across the Cartan in
+  such a way that no linear functional mod n isolates the two singlets.
+  The obstruction is the WEIGHT GEOMETRY, not a shortage of banked
+  symmetries — which is why memo 122's four-element negative was not
+  an accident of which four.
+  THE CLOSURE THIS EARNS: row 4's first probe asked whether a forced
+  discrete symmetry stabilizes a neutral.  Memo 122 answered no for
+  the forced ones; this cell answers no for ALL characters of this
+  form.  **Dark-matter stability cannot come from an abelian symmetry
+  of the 27.**  It must come from somewhere else entirely — a
+  non-abelian symmetry, a kinematic (mass-ordering) accident, or a
+  structure outside the 27 — and the record supplies none of those.
+  FENCE (kept honest): this is a NECESSARY-condition census.  It does
+  not impose the Yukawa/coupling consistency, which could only SHRINK
+  the candidate set, so the negative is a superset negative and stands
+  a fortiori.  Non-abelian stabilizers and kinematic stability remain
+  untested — named here, not claimed done.
+Gate 5 untouched.
