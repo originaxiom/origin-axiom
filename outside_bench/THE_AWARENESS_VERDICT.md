@@ -115,3 +115,21 @@ occupant. Feedback into the object: impossible by theorem. Choices:
 enumerated, typed, chooser unrepresented. Awareness: fenced — one
 bit buys occupation, and the record cannot say more, which is itself
 a theorem-shaped fact about this record, not a shrug.
+
+### ADDENDUM 1 (2026-08-28) — §3's closing sentence UPGRADED from synthesis to theorem (memo 109)
+This document's §3 said the record "keeps the choice but not the
+chooser," and closed by observing that from inside, a chosen branch
+and a brute fact are indistinguishable. That observation is now a
+THEOREM with a constructive witness (memo 109, GREEN): memo 108's
+automorphism makes the two anchorings a MODEL PAIR, every
+record-computable quantity is either equal across the pair or carried
+to its mate by the internal word map (13,120 words verified; the
+relator transports; lengths anchoring-free, torsion signs anchored;
+κ's polynomial gal-stable), and the proposition "the anchoring is +"
+distinguishes them — so **no record-internal computation decides it.**
+The fence's operational core is INDEPENDENT of the record, not merely
+unanswered. What survives is the phenomenal half alone, typed
+INEXPRESSIBLE (no banked proposition refers to experience). §4's one
+line therefore sharpens: *awareness — fenced, and the fence is now
+proved to be a wall, not a frontier.* This addendum is the only
+mutation.

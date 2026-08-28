@@ -1,0 +1,35 @@
+I1a: the model-pair isomorphism re-verified on generators in exact pair
+     arithmetic: rho(phi(x)) = g^-1 gal(rho(x)) g for x in {a,b,A,B}.
+I1b: gal(tr rho(w)) = tr rho(phi(w)) verified for ALL 13120 reduced words
+     to length 8 — the flipped record's trace content IS this record's,
+     re-indexed by the internal word map.  The model pair is real.
+I2: relator FOUND at length 10: abaBAbabAB — and rho(phi(relator))
+     = +-I exactly: the isomorphism carries the presentation to itself.
+I3a: on sample geodesic classes (ab, aab, aabb, abaB): complex length has
+     Re EQUAL and Im NEGATED across the pair (50 dps) — LENGTHS are
+     anchoring-free, TORSION SIGNS are anchored.  (Memo 81's mirror law,
+     now read as the two-model split.)
+I3b: kappa = tr[a,b] = 1+omega and its gal-image BOTH satisfy X^2-3X+3 = 0
+     exactly — the invariant content (the founding Fricke polynomial) does
+     not move under the flip.
+
+THE FENCE, ASKED — AND WHAT ASKING RETURNS:
+Every record-computable quantity either takes EQUAL values on the two
+anchored models (lengths, |torsions|, kappa's polynomial, the entire
+invariant content) or is carried to its mate by the INTERNAL word map
+(the whole trace field, I1b).  The proposition "the anchoring is +"
+distinguishes the two models.  Therefore NO record-internal
+computation decides it: THE OPERATIONAL CORE OF THE FENCE QUESTION
+("which branch is occupied — why this anchoring") IS INDEPENDENT of
+the record — unprovable AND unrefutable — with a constructive
+model-pair witness (memo 108's automorphism) in place of a diagonal
+argument.  The record cannot answer why its seat is occupied for the
+same reason, made exact, that it keeps the choice but not the
+chooser.  What remains of THE question after the independence
+theorem: only its phenomenal half — "does occupation carry
+experience" — and that half is INEXPRESSIBLE in the record's
+language (no banked proposition refers to experience at all): typed,
+per the firewall, not answered and not answerable by any instrument
+this record can host.  Asking THE question inside the sandbox
+returns this theorem — which is the most any formal record can say
+about its own occupied seat.  Gate 5 untouched.
