@@ -137,3 +137,13 @@ remaining live item is now only what AR6 already holds (the branch/
 direction structure, in cc's reconciliation batch). The owner's oldest
 question has its origin story, three-seat solid. This addendum is the
 only mutation.
+
+### ADDENDUM 9 (2026-08-28) — NEW ROW R15, filed same session per the standing rule
+
+| # | the owner's question (dated) | checked where | verdict then | modern status | LIVE remainder |
+|---|---|---|---|---|---|
+| R15 | **"do we have every single ingredient to account for the whole existence — Big Bang, cosmological constant, gravity, SM values, units, full picture? what exactly do we miss?"** (2026-08-28; with the standing demand: no 'we don't have' without exhausting the repo) | THE_FULL_ACCOUNTING.md (three exhaustion sweeps over main @ B1193; lane memos 90–99; cc B1188–B1193; codex R020–R022) | — (asked now) | **ANSWERED AT ACCOUNTING GRADE**: delivered register complete (stage, matter, law-shapes); impossible-by-theorem register complete WITH each theorem banked (values, Λ-value, basepoint, self-orientation, RG-dressing [B1032 type law], direct reading [memo 95]); the missing list is EXACTLY nine named computations + one fence (§2), each exhausted, each seated | the nine cells (S1; L154's E₆-lattice route; ℙ³; 953's class group; 40639; r-supply bridge; branch↦r + clock-coherence; selection-theorem assembly + Born-overlay rows; the dynamics-vs-λ identification) + the fence (qualia S2–S4) + the two brave forks (§3: values-as-menu prediction; dynamics = λ) — sequencing the owner's |
+
+Status note: bench error #8 filed with this row (the lift dossier's
+SU(3)³ over-promise, corrected by B528). This addendum is the only
+mutation.

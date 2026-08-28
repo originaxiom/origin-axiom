@@ -64,3 +64,15 @@ first-step (SU(3)³ slice); B304's LEAP has a named smallest decidable
 consequence. All three are now cells with owners instead of walls with
 names. Gate 5 untouched (everything here is geometry/algebra; no
 measured value).
+
+### ADDENDUM 1 (2026-08-28) — SPEC-2 CORRECTED (bench error #8): T_K[4₁] is abelian at every rank
+The exhaustion sweep surfaced B528 (banked, missed by wave 1 and by
+this bench at assembly): the DGG theories T_K[4₁] are ABELIAN
+Chern–Simons–matter at EVERY rank K (DGG 1301.0192, quoted verbatim
+in B528), and the figure-eight's one real SU(3) fact is a GLOBAL
+FLAVOR enhancement (B487), not gauge. SPEC-2's "SU(3)³ trinification
+slice, computable-now" proposal therefore over-promised: a rank-K
+state integral exists but its gauge content is abelian — no easy
+nonabelian slice exists. S1 (SPEC-1's shadow + the literal SW-curve
+comparison) stands as THE lift cell, specialist-gated. Error filed at
+point of occurrence. This addendum is the only mutation.
