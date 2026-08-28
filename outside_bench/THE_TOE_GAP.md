@@ -239,3 +239,45 @@ apparatus); **the unit → the second** (still open).
 §2's KIND A row A1 should be read accordingly: dynamics is not
 "missing" wholesale; what is missing is a unit. This addendum is the
 only mutation.
+
+### ADDENDUM 4 (2026-08-28) — THE SECOND IS KIND B, NOT KIND A: the "dominant gap" dissolves, and the dominant gap is now COSMOLOGY
+The second hunt closes the other half of addendum 2, from primary
+sources:
+
+- **The scale-torsor no-go is a PROVED THEOREM**, not a stance:
+  `frontier/B666_leads_campaign/cellS/PROOF_NOTE.md` — *Lemma:*
+  Hom(G, ℝ₊) = 0 for every finite group G and every profinite G;
+  *Theorem:* T = 0; *Corollary:* "**every dimensionful quantity … is
+  permanently outside the framework's reach AS A VALUE**." With an
+  explicit scope limit and a stated falsifier.
+- **And taking one unit is not a defect** — `docs/WHAT_WOULD_COUNT.md`
+  §2, verbatim: *"One **dimensionful anchor** is required of every
+  theory — established here and universal: SI itself defines c, h, k_B
+  by fiat and derives the metre. **Nobody derives the metre. Taking
+  one anchor is the correct end state, not a failure.**"*
+- **B1025 I3:** ℓ *"SURVIVES … the one input whose externality survives
+  every attack from every seat"* — even at σ = 1, ℓ stays free.
+- The one historical attempt at a dimensionful derivation (B980's
+  Planck-scale Λ) is **RETRACTED**, and with it the "122 orders"
+  embarrassment: *"the object never made that prediction."*
+
+**So THE SECOND is KIND B (proved impossible), and it is additionally
+the universal one-anchor of all physics — not this programme's
+shortfall.**
+
+**CONSEQUENCE — §5's "one gap that dominates" is WITHDRAWN.** After
+both hunts, the dynamics row decomposes with nothing missing in it:
+- the **flows exist** and are exactly specified (Anosov suspension with
+  rate φ; the Fricke map; the TM/layer map) — memo 120;
+- the **thermal character is PRICED**, price = λ — B723's apparatus,
+  addendum 3;
+- the **unit is the universal anchor** — KIND B, this addendum.
+- What genuinely remains is **an IDENTIFICATION, not a missing
+  object**: *which* banked flow (if any) is the physical evolution.
+  That is the λ level-crossing test, and memo 120 already narrows it
+  (the layer flow is a poor candidate — wrong growth class).
+
+**THE DOMINANT GAP IS THEREFORE COSMOLOGY**, not dynamics: the three
+rows with **zero dedicated arcs** — dark matter, inflation, structure
+formation — each carrying only a first probe. §2's ranking is amended
+accordingly. This addendum is the only mutation.

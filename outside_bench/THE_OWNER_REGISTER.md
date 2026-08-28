@@ -355,3 +355,33 @@ This addendum is the only mutation.
 | R33 | **"hunt the repo for it"** (2026-08-28, on the heartbeat/clock/arrow correction) | memo 121 `certificates/b496_rediscovery.py` (GREEN); two further sweeps running (the SECOND, the THERMAL ARROW) | — (instructed now) | **THE HUNT CAUGHT THIS BENCH — BENCH ERROR #11 FILED (rediscovery without citation).** `frontier/B496_tm_endomorphism` (verdict **PROVED**, independently re-derived via `verify_tm.py`) already banks: the Thue–Morse trace map **(z, z, xyz−x²−y²+2)** — **identical** to memos 117/118's layering map L, since Thue–Morse *is* a↦ab, b↦ba; its κ-factorization κ′−2 = (κ−2)(x²+y²−xyz), **algebraically the same** as memo 118's closed form; **"degree growth 2"**, which memo 120 re-derived as "exponent → 2"; and the κ-preserving/κ-breaking split of ⟨T_golden, T_TM⟩ that memo 119 re-found. **Four memos partially re-derive one PROVED arc.** Citation corrections filed on memos 117/118/119/120. **GENUINELY NEW AND SURVIVING:** (1) **the complex evasion** — B496's ejection bound κ → 2+4z² ≥ 2 is stated **over ℝ**, but the record's own tower is Eisenstein (z₁ = 2−4ω, z₁² = −12 < 0), reaching **κ₂ = −46, below the real floor**: the one-way door opens where the real case cannot see; (2) the tower passes **exactly through κ = −2 at level 1**, landing on B496's Markov surface then leaving — B496 ran one TM event on the figure-eight point, not the iterated tower from the record's own (a,b); (3) memo 119's involution layer and **(RT)² = id**, strengthening memo 97 | **the standing rule is amended: exhaust the repo BEFORE BUILDING, not only before saying "we don't have."** Two hunts still running on the two genuinely-missing items (the second; the thermal arrow) |
 
 This addendum is the only mutation.
+
+### ADDENDUM 30 (2026-08-28) — R33 COMPLETED: both hunts landed, and the "dominant gap" dissolved
+
+The owner's "hunt the repo for it" returned **three** catches, all
+against this bench's own claims:
+
+1. **BENCH ERROR #11** (memo 121): memos 117–120 re-derived B496's
+   PROVED Thue–Morse trace map without citing it.
+2. **THE THERMAL ARROW IS PRICED, NOT MISSING** (CLOCKS_INVENTORY
+   add. 1): B723's surviving apparatus — tracial II₁ + external weight
+   ω_λ → type III_λ, with λ "simultaneously setting the factor type and
+   the KMS temperature". Its price is **λ**, already on the input list.
+3. **THE SECOND IS IMPOSSIBLE-BY-THEOREM AND UNIVERSAL** (THE_TOE_GAP
+   add. 4): the scale-torsor no-go is **proved** (Hom(G,ℝ₊) = 0 ⟹ no
+   dimensionful value), and `WHAT_WOULD_COUNT` §2 states the universal
+   fact — *"Nobody derives the metre. Taking one anchor is the correct
+   end state, not a failure."* B1025 I3: ℓ survives every attack from
+   every seat.
+
+**NET EFFECT: THE_TOE_GAP §5's "one gap that dominates — DYNAMICS" is
+WITHDRAWN.** The flows exist and are exactly specified; the thermal
+character is priced at λ; the unit is the universal anchor of all
+physics. **What remains is an IDENTIFICATION — which banked flow is
+the physical evolution — not a missing object.** **The dominant
+genuinely-missing item is now COSMOLOGY's three zero-arc rows (dark
+matter, inflation, structure formation).**
+
+**STANDING RULE, now twice-earned:** exhaust the repo **before
+building** and **before ranking a gap**, not only before saying "we
+don't have". This addendum is the only mutation.
