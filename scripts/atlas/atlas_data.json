@@ -3869,6 +3869,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1190": {
+   "slug": "close loop batch2",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B723",
+    "B766",
+    "B769",
+    "B891",
+    "B956",
+    "L154"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B119": {
    "slug": "mk scalar mechanism",
    "motifs": [

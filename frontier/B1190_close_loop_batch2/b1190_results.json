@@ -1,0 +1,14 @@
+{
+ "id": "B1190",
+ "arc": "close-loop batch 2 (GC-6..GC-10)",
+ "verdict": "PROVED",
+ "cells": {
+  "GC-6": "PARTIAL/synthesis-refuted: arithmetic verified, kind-error killed; L154 one-bridge-missing, instrument typed",
+  "GC-7": "PARTIAL/survives: five adelic legs close zero-orphans; gamma5 place-typing + weight-lambda reconciliation = the residues",
+  "GC-8": "re-graded PARTIAL: no-tension reading plausible, mechanism unproven, false third-cell support caught",
+  "GC-9": "rank-4 EXISTS (su(3)+su(3), so(7)+u(1) from the raw bracket); complex-clause de-graded",
+  "GC-10": "replication theorem verified; payoff degenerates (finite tick => trivial product); 4d costs no new bit"
+ },
+ "survival": "1/5 intact -- the refutations are the batch's content",
+ "reproduces": "verification/batch2_cells.json (cells + lens verdicts verbatim)"
+}

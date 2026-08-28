@@ -11989,3 +11989,17 @@ B766-vs-B1083 RECONCILED (different invariants, different objects); B293≡memo-
 two longest terminal jumps, and **the charpoly-LOCALITY law** named + tested (ρ=−0.61, p<1e-16).
 **GC-5 (PROVED)**: L63 CLOSED as c; L114 adjudicated (no contradiction — two questions, two spaces);
 L120 re-posed; B279/B769 confirmed with locks. Ledger rows updated in place. Locks test_b1189 (3).
+
+## B1190 (2026-08-28): CLOSE-LOOP BATCH 2 — the hard cells; the loop kills its own syntheses (1/5 survives)
+
+GC-6 (L154): the arithmetic all verified lens-independently (the (E₆)₁ characters rebuilt via an
+independent E₈→E₆ projection) but the fingerprint synthesis REFUTED — a KIND ERROR (q-prefactor
+exponents matched against conformal weights, no bridge map) + an untested universal quantifier;
+L154 stays one-bridge-missing with the next attempt's instrument typed. GC-7 (the assembly): the
+never-run completeness check RUNS AND CLOSES — five adelic legs, zero orphans; γ₅'s place-typing
+and B723's weight-λ reconciliation named as the residues; the realizer requirements typed. GC-8:
+B891's no-tension reading plausible, mechanism unproven (a false third-cell support caught). GC-9:
+**rank-4 non-abelian proper centralizers EXIST** (su(3)⊕su(3), so(7)⊕u(1) from the raw bracket);
+the complex-clause de-graded. GC-10: the 4d replication theorem verified — 4d costs no new bit
+beyond c — but the route mints no new geometry (finite tick ⇒ trivial product). Every refutation
+archived verbatim beside its cell. Locks test_b1190 (2).
