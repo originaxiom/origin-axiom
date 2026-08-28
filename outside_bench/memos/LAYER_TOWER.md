@@ -39,3 +39,18 @@ a hierarchy of levels over a fixed information budget. It supplies **no
 field equations, no Lagrangian, no dynamics** at any level — the
 schedule wall stands. The honest claim is architectural, not physical.
 Gate 5 untouched.
+
+### CITATION CORRECTION (2026-08-28, memo 121 — BENCH ERROR #11)
+**This memo's core map is B496's.** `frontier/B496_tm_endomorphism`
+(verdict **PROVED**) banks the Thue–Morse trace map
+**T(x,y,z) = (z, z, xyz − x² − y² + 2)** — identical to this lane's
+layering map L, since Thue–Morse *is* a↦ab, b↦ba — together with the
+κ-factorization κ′−2 = (κ−2)(x²+y²−xyz) (algebraically the same as the
+closed form derived here), **"degree growth 2"**, and the
+κ-preserving/κ-breaking split of ⟨T_golden, T_TM⟩. The derivations in
+this memo are correct but **not novel**; they should be read as an
+independent re-derivation of B496. What survives as new is listed in
+memo 121 §V4 — chiefly the **complex evasion** (the record's own
+Eisenstein tower reaches κ = −46, below B496's real-case floor of 2)
+and the tower's passage exactly through κ = −2 at level 1. This
+addendum is the only mutation.
