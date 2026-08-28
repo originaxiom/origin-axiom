@@ -121,3 +121,49 @@ returned to them: P's character-invisibility and the branch bit's
 independence from C and P. cc's claimed batch (ℙ³ adjudication, λ
 placement, branch↦r) proceeds on their bench — this lane stays off
 those cells. This addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-28) — B1194–B1196 RECONCILED (cc's "do them all"): primary-source verified, two claims reproduced, one cross-link added, one typing question and one staleness note relayed
+**Primary sources checked:** B1196 exists on main at 40916c36 (with
+B1194's existence audit and B1195's batch 5A beneath it);
+docs/COSMOLOGY_LEDGER.md exists (395 lines, eight rows, the honest
+headline's object/closer split matching B716's wall); the
+b1196_results.json cells match the relay point for point.
+**Reproduced on this bench (memo 106, GREEN):** the κ-law (κ−2 = ω²,
+exact) and selector-freedom (ε conjugation-invariant — transport
+theorem + five conjugators + controls). **Bench cross-link added, not
+in the relay:** the saddle equation u²+u+1 = 0 has roots exactly
+{κ−2, conj} and memo 104's boundary structure satisfies the same Φ₃
+— cc's items 1, 4 and the lane's boundary object are ONE polynomial.
+**Route dispositions absorbed:** B1 EXECUTED by cc (the reduction
+proved tautological — λ stands as the second independent continuous
+datum; the count σ + λ final); B2 EXECUTED, CLOSED-PERMANENT (every
+banked symmetry trivial on B₀: the continuum is real, the ℙ³'s three
+parameters stand — the lane's B1185-floor reading loses this cell and
+the loss is adopted per reconciliation discipline); B6 HALVED (cc
+killed the geometric cusp route — indecomposable E₆ vs orthogonal-sum
+boundaries, consistent with the lane's own E₆ facts — and the lane's
+memo-104 algebraic object is the surviving half; the bridge remains
+genuinely new mathematics); B3 gains cc's κ-law as input but the
+level-crossing identification itself stays open; B9 SUBSUMED by the
+three-regime selector theorem (σ and λ typed as non-normalizable-side
+anchors). **The one typing question relayed to cc (catch-level,
+asked not asserted):** item 2 fixes the continuous count at σ + λ
+FINAL while item 5 has the floor carrying THREE continuous
+parameters — consistent only if the ℙ³'s three are typed
+vacuum/menu-side (selection data, MENU-class), not frame-input-side;
+request the explicit typing in the v0 slot table so the census stays
+collision-free. **Namespace note:** cc's "D2" (their item 6, B891
+sectors) is not the routes-doc row D2 (the LEAP-1 hold) — the
+D-notation rule extends. **Staleness note for the owner's relay
+loop:** cc's remaining-list still shows D1/D4/MENU-1 as awaiting
+signature; they were signed AND executed before this relay arrived
+(a1d99957: SP-1 adopted, quine spec written with criterion fixed,
+MENU-1 RUN — W₁ = 11,720); the open set is exactly D2-after-B4 (cc
+confirms B4 is theirs and next) plus the two cc-side owner-gated
+holds ("the θ-even shot and the sends", recorded as quoted — no
+bench context). **Convergence noted:** cc's observer-cost statement
+("one asymmetric relation, and nothing else") and THE_QUINE_SPEC's Q1
+stake ("one bit buys occupation") are the same claim at two levels;
+the refinement question — is the quine's missing bit the SIGN of
+cc's asymmetric relation? — is recorded as a Q1-reading note (the
+signed criterion unchanged). This addendum is the only mutation.

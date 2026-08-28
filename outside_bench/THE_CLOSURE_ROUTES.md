@@ -260,3 +260,23 @@ awaiting its preregistered test. The owner's structural addition —
 that D3's blessing and D4's criterion were ready NOW because their
 theorems exist — is recorded and was honored. This addendum is the
 only mutation.
+
+### ADDENDUM 3 (2026-08-28) — THE SCOREBOARD AFTER cc's B1194–B1196 (repofeq; verification in memo 106)
+B1 CLOSED (cc: tautological — λ final, σ + λ the whole continuous
+count); B2 CLOSED-PERMANENT (cc: continuum real; the lane's floor
+reading loses, adopted); B6 HALVED (geometric route dead by
+indecomposability; the lane's memo-104 object is the living half —
+the bridge stands as the route's whole remainder); B3 OPEN with cc's
+κ-law as new input (memo 106 verifies the law and finds the
+saddle/obstruction/boundary Φ₃ identity); B4 NEXT ON cc's BENCH
+(D2 pays iff monotone); B5/C1 OPEN (second-seat reproduction of
+memos 102/103); B7 OPEN (cc pipeline); B8 ABSORBED into cc's floor
+work; B9 SUBSUMED (three-regime selector theorem). Row D: D1, D3, D4,
+MENU-1 all EXECUTED (addendum 2); D2 held on B4. Rows E unchanged
+(E1's specialist bar now carries cc's exact SEAM-A shape:
+Z = (ω/√−3)·2sinh(Vol/2π) with the saddle the founding quadratic —
+the bar is sharper, not gone). NEW from cc: the cosmology ledger
+(docs/COSMOLOGY_LEDGER.md) is the standing specification surface for
+the one blind region; its MISSING rows (dark matter, inflation, CMB,
+structure) each carry a first computable probe and none is routed to
+this bench yet. This addendum is the only mutation.
