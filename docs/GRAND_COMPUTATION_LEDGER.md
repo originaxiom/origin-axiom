@@ -27,7 +27,7 @@ close. Update rule: every bank touching a row updates it, same PR.
 
 | item | status | the close |
 |---|---|---|
-| A1. dimension from the object | **THE LAW FOUND (B1189/GC-4)**: the deficit survives degree-preserving nulls and DEEPENS to z≈49–59; localized (81% = the two longest jumps into the terminal shell); **the charpoly-LOCALITY law** — edges are local in class space, segregating descendant cones (ρ = −0.61, p<1e-16); combinatorial characterization, NOT a spacetime claim; B1104-C3-as-content still unposed | pose B1104-C3; the locality law's exact-derivation tier |
+| A1. dimension from the object | **THE LAW FOUND (B1189/GC-4)**: the DEFICIT of transitive reach survives degree-preserving nulls and DEEPENS to z≈49–59; localized (81% = the two longest jumps into the terminal shell); **the charpoly-LOCALITY law** — edges are local in class space, segregating descendant cones (ρ = −0.61, p<1e-16); combinatorial characterization, NOT a spacetime claim; B1104-C3-as-content still unposed | pose B1104-C3; the locality law's exact-derivation tier |
 | A2. causal order | **PARTIAL** — the four verbs carry four causal types; only the evolution verb yields a proper (1,3) cone (B523, buried); Malament inapplicable to the monoid | type: is the evolution-verb cone the object's causal order, relationally completable? |
 | A3. 4d filling | **IMPOSSIBLE-BY-THEOREM as canonical** — Ω₃^SO=0: fillings exist, infinitely non-unique, nothing selects (B716) | stands; the filling is a closer-choice (a LABEL row) |
 
