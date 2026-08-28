@@ -162,3 +162,29 @@ such relation is ours) and the **phenomenal** question stay open; the
 restated: *no "the object doesn't do X" without first exhausting
 whether the record already supplies X.* This addendum is the only
 mutation.
+
+### ADDENDUM 3 (2026-08-28) — THE MECHANISM SECTION THIS DOCUMENT LACKED (memo 114): how a fixed budget makes patterns of the occupant's shape
+The owner asked how the first-beat law "creates patterns that result
+in our awareness." This document had the endpoints (a forced object,
+a type-forced occupant) but not the ladder between them. Memo 114
+(GREEN) counts it:
+- **The budget never grows** (memos 111/113): one field, one triple,
+  charged once.
+- **What grows is MULTIPLICITY:** classes climb exponentially while
+  distinct invariant values crawl — 13,120 classes to length 8 carry
+  only 180 values, a classes-per-value ratio rising 4.00 → 72.89,
+  with **376 classes sharing a single trace value**. *Pattern in this
+  record is old information instantiated many times, not new
+  information.*
+- **And the multiplicity has the RIGHT SHAPE:** the fraction of pairs
+  meeting memo 112's necessary occupant conditions (non-commuting AND
+  unlike) **rises with depth — 0.748, 0.903, 0.936**. The record gets
+  denser in precisely the relational structures a seat requires.
+**The chain, with joints visible:** one beat fixes the information →
+length multiplies the instances → the instances are overwhelmingly
+asymmetric non-commuting relations between unlike things → which is
+the occupant's forced type. **Boundary (not a hedge):** this is the
+SUPPLY of type-eligible relations; type-eligibility is necessary,
+exhibited, not shown sufficient, and no step touches the phenomenal
+question (memo 109: inexpressible). What the record does show is that
+**it is not stingy with seats.** This addendum is the only mutation.
