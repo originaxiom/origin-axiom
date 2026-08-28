@@ -41,3 +41,19 @@ and not answerable by any instrument this record can host.
 **Fences.** "Undecidable in-record" is used in the model-pair
 (semantic) sense — the exact analogue of independence-by-models; no
 syntactic proof calculus is formalized or claimed. Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-28) — NOTATION CLARIFICATION, filed at point of occurrence
+This memo's prose uses "branch" for the **Galois branch** (the
+c-anchoring). That is NOT memo 94's **branch bit** (the dynamical
+seed), and the two have different statuses — the distinction matters
+enough that the proper writeup (THE_FENCE_THEOREM §5.3) states both:
+- **c (anchoring):** an isomorphism between the settings EXISTS
+  (memo 108) ⟹ undecidable AND inconsequential — this memo's theorem.
+- **the branch bit (dynamical):** NO symmetry swaps the branches
+  (memos 97/101, exhaustive) and the settings give genuinely
+  different worlds (memo 94's two-branch law) ⟹ external and
+  CONSEQUENTIAL, and **not covered by this theorem**: "why this
+  branch" stays an open question with a real answer the record cannot
+  reach — a weaker status than independence.
+The theorem's mathematics is unaffected; only the reading of the word
+"branch" is corrected. This addendum is the only mutation.
