@@ -256,3 +256,33 @@ holds open a seat that only a relation can fill, prices it at one
 bit, and charges that bit once, at coordinatization.** The open
 residue is the TOKEN question (which relation is ours) and the
 phenomenal one — not the type. This addendum is the only mutation.
+
+### ADDENDUM 3 (2026-08-28) — A SECOND, DISJOINT PROOF THAT THE MIRROR IS IRREMOVABLE (memo 127)
+§2 built the independence witness from an explicit isomorphism, and
+memo 107 established the bit's irreducibility by a realizer nullspace
+search. Memo 127 (GREEN) reaches the same conclusion by machinery that
+shares nothing with either: **a κ-invariance identity.** On the Fricke
+coordinates (x,y,z) = (tr A, tr B, tr AB), with
+κ = x²+y²+z²−xyz−2 and the record's own point P₀ = (2,2,2−ω):
+- the **entire internal group** — letter swap, word reversal,
+  inversion, the three SL₂ lift signs, and the whole Fricke action
+  Tⁿ — satisfies **κ ∘ g = κ identically in ℤ[x,y,z]**, at every
+  point, not merely at P₀ (while the Thue–Morse map L does not:
+  κ ∘ L − κ = (x²−xyz+y²−1)(x²−xyz+y²+z²−4));
+- **κ(P₀) = 1+ω and κ(gal P₀) = 2−ω are distinct.**
+Therefore **no composition of internal operations sends gal(P₀) back
+to P₀** — the mirror cannot be absorbed, and the proof covers the
+whole group at once instead of candidate by candidate. Two incidental
+facts fall out: exactly **2 of the 8** elements of ⟨letter swap, lift
+signs⟩ fix P₀, so **the letter swap is the object's only internal
+duality at its own point** (x = y = 2); and the three lift signs are
+**verified** to be gauge — each is the trace action of a nontrivial
+character F(a,b) → {±1}, a different point but the same PSL₂
+representation.
+**Scope, stated exactly:** this proves *irremovability* (≥ 1), more
+strongly than before. *At most one* remains addendum 1's ledger
+(memo 111's L3: the trace ring is exactly ℤ[ω], so Gal = ℤ/2 and no
+second Galois freedom exists at any depth). Note also that both κ
+values root X²−3X+3 (§3.3), so the invariant **content** is unmoved
+while the **value** is not — §4's kernel/odd split, seen from the
+duality side. This addendum is the only mutation.

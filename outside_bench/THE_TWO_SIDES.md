@@ -121,3 +121,40 @@ is not only real but **permanent**. PC04's remaining gap is its
 **physical dictionary** alone. §7's items (1) and (2) — the missing
 duality index and the zero-overlap anatomies — stand unchanged. This
 addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-28) — §7's FIRST TWO THIN ITEMS ARE CLOSED (memos 126 and 127), and one of its numbers is corrected
+This document's §7 named three thin items. The first two are now
+closed, and neither closed the way it was framed.
+- **"The corpus's two top-level anatomies have zero overlap"** —
+  memo 126 (GREEN) shows the zero overlap is a **NAME** fact and not a
+  defect: 653 arcs carry both a face and a motif, the contingency
+  table is **13 × 19 with 83.0% of cells nonzero**, and **no** face and
+  **no** motif is concentrated on a single partner (top shares 12–15%
+  and 26–46% against an 80% criterion fixed before the run).
+  **VERDICT: ORTHOGONAL AXES** — the honest fix is a stated pairing
+  (an arc's full address is *(face, motif)*), not a merge.
+  ⚠ **This document's own count is corrected:** the anatomies are
+  **15 canonical face labels** and **19 motifs**, not "11 vs 18"; and
+  **8 of the 23** distinct `faces_consulted` values are free-text
+  prose in a categorical field — a data-quality finding filed
+  upstream.
+- **"No master duality index"** — built (`THE_DUALITY_INDEX.md`,
+  memo 127, GREEN), and it returned a theorem rather than a list. The
+  index's organizing claim is that the corpus carries **two columns**
+  that must not be merged: OPERATION dualities that act (and can be
+  priced) and VALUE dualities that pair quantities (and cost nothing).
+  Typing the operation column by κ gives: the entire internal group
+  (letter swap, reversal, inversion, the three SL₂ lift signs, the
+  whole Fricke action) preserves κ **identically in ℤ[x,y,z]**, while
+  gal moves κ from 1+ω to 2−ω — so **the mirror is irremovable**, and
+  it is the **only** external operation. That reproduces the one-bit
+  count from a direction disjoint from the quine, the ledger and the
+  fence theorem.
+**Bearing on this document's question.** The yin/yang framing gains a
+sharp corollary: of everything the record can *do to itself*, exactly
+one operation crosses between the two sides, and it is the mirror.
+Every other duality either fixes the object, gauges its lift, or flows
+along the fibre. **The negative side is not under-worked; it is
+reached by exactly one door, and the record charges one bit for it.**
+§7's third item (PC04's physical dictionary) remains the live one.
+This addendum is the only mutation.
