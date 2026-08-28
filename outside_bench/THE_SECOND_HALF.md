@@ -332,3 +332,39 @@ conditional · W3 written · W4 BANKED (memo 91) · X1 deferred-typed.
 The campaign continues under the standing GO: bench next = H4 (the
 schedule ledger) and the α scoping note; everything else queued by
 seat in THE_GRAND_COMPUTATION §3. This addendum is the only mutation.
+
+---
+
+## ADDENDUM 4 (2026-08-28) — WAVE 3 (the owner's unseal + the bench close-out): the solo-computable queue is EMPTY; the campaign waits on cross-seat returns
+
+Banked this wave (all GREEN, byte-identical, pushed):
+- **memo 95** (`stage2_unseal.py`) — STAGE 2 UNSEALED by the owner's
+  word and CLOSED: all six primary readings MISS under the
+  pre-committed seal; the direct-reading option eliminated
+  exhaustively for the whole sheet, both targets; scan at chance; NOT
+  a thesis-failure signal. Grand table bin V resolved.
+- **memo 96** (`degree_ledger.py`) — H4 CLOSED AT SPEC GRADE: rank-1
+  degree lattice, all relations homogeneous, tick-schedule degree 0 —
+  the schedule factorizes as (object's tick-history) × (one frame
+  unit); C3 corroborated; maintenance rule standing.
+- **Census addendum 3** — candidate 3 (cone angle) typed NOT-FRAME
+  (family modulus consumed by object selection; residues to B981's
+  surface and R10). Census now: ONE live excess candidate (ℙ³/I5) +
+  two blockers (clock weight; branch bit).
+- **Weld book addendum 2** — THE CLOCK COHERENCE CONDITION named
+  (LEAP-1 + W1 jointly payable ⟺ CS-time ≅ volume-time; banked
+  asymptotics coherent; per-slope monotonicity → cc's SnapPy
+  instrument, two-outcome).
+
+**Bench state: the solo-computable queue is EMPTY.** Every remaining
+open row requires another seat or the owner:
+- cc: twist-forcing (the front door) · ℙ³×I5 cross-ref · clock-weight
+  weld arc · B1024 d=2 · the clock-coherence monotonicity run · the
+  branch-bit formalization · lane-4 verification (memo 96) · the F4
+  finding vs their MA2 census.
+- codex: reproduce memos 91–96 · the vacuum-count ladder.
+- specialist-gated: T[4₁;E₆] (SU(3)³ first step) · S1's literal form.
+- owner: the LEAP price sheet (LEAP-1 now with the coherence condition
+  attached; LEAP-2 with the branch bit); relaying the seat queues.
+The loop resumes on the next repofeq (cross-seat returns) or GO. This
+addendum is the only mutation.
