@@ -63,3 +63,45 @@ memo 121 §V4 — chiefly the **complex evasion** (the record's own
 Eisenstein tower reaches κ = −46, below B496's real-case floor of 2)
 and the tower's passage exactly through κ = −2 at level 1. This
 addendum is the only mutation.
+
+### ADDENDUM 1 (2026-08-28) — THE THERMAL ARROW IS NOT MISSING: it is PRICED, and its price is λ (the hunt's second catch)
+This memo listed *"(ii) THE THERMAL ARROW"* as one of two **missing**
+items. **That typing is wrong.** The repo hunt found the apparatus
+already banked. `frontier/B723_build_the_observer` (verdict
+**PROVED**), Probe 2, verbatim:
+
+> "the object supplies the tracial core; an **EXTERNAL weight ω_λ**
+> (the free datum, B701) with trace-scaling module λ (0<λ<1) completes
+> it to the Powers/Araki–Woods factor **R_λ — a genuine TYPE III_λ
+> factor** (verified: Δ-spectrum {1,λ,1/λ} ⇒ S-invariant λ^ℤ ⇒ III_λ;
+> the object alone, λ=1, is tracial II₁, NOT III). **The type-III-ness
+> AND the thermal clock are carried ENTIRELY by the external free
+> weight** — λ simultaneously sets the factor type and the KMS
+> temperature."
+
+And `docs/LAW_MAP.md`'s correction banner fixes exactly what survives:
+> "**What survives is the apparatus** (tracial II₁ + an external weight
+> → type III_λ); what does not is the identification of measurement
+> with the β=1 SSB."
+
+**So the thermal arrow is KIND C (priced), not KIND A (missing).** The
+object alone is tracial — B721 stands, and the arrow is genuinely not
+object-side — but the record already banks *what buys it*: **λ**, the
+very datum the dynamics deficit names. (THE_FULL_ACCOUNTING already
+quoted this: *"the external weight λ is exactly where the closer's
+clock enters."* This memo should have caught it.)
+
+**CONSEQUENCE — the deficit is now fully typed WITH MECHANISMS:**
+the dynamics deficit was typed *(one dimensionless flow datum + one
+unit)*; **λ buys the thermal character** (type III_λ + KMS
+temperature, B723's surviving apparatus), and **the unit is the
+second**. What remains genuinely missing therefore reduces to **ONE
+item: THE SECOND.**
+
+**Fences, kept exact:** B723's *mechanism* claims — measurement = the
+β=1 SSB, chirality = the extremal-KMS Galois label — are **RETRACTED
+(B942) and REFUTED (B957)**; only the apparatus survives, so nothing
+here is an account of measurement or of chirality. And per the lesson
+of bench error #11, **no new certificate was written for this**: the
+result is banked, and the correct action is citation, not
+re-derivation. This addendum is the only mutation.

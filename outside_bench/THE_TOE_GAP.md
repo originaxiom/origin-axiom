@@ -219,3 +219,23 @@ statement of the deficit is (one unit + one thermal character), not
 "no dynamics". And the object side is now known to carry **three**
 distinct flows (memo 120), not one. This addendum is the only
 mutation.
+
+### ADDENDUM 3 (2026-08-28) — THE THERMAL ARROW MOVES FROM KIND A TO KIND C: one genuinely missing item remains
+Addendum 2 named two missing things: the second and the thermal arrow.
+**The repo hunt corrects the second of those.** B723 (PROVED) banks the
+apparatus — tracial II₁ core **+ an external weight ω_λ → a genuine
+type III_λ factor**, with λ "simultaneously setting the factor type and
+the KMS temperature"; LAW_MAP confirms the apparatus survives the
+B942/B957 retraction of the *measurement = β=1 SSB* clause. **The
+thermal arrow is therefore PRICED (KIND C), not MISSING (KIND A) — and
+its price is λ, already on the input list.**
+
+**The missing-ingredient list for dynamics reduces to ONE item: THE
+SECOND** (the dimensionful conversion). The deficit's typing —
+*(one dimensionless flow datum + one unit)* — now has a named
+mechanism on each half: **λ → the thermal character** (B723's
+apparatus); **the unit → the second** (still open).
+
+§2's KIND A row A1 should be read accordingly: dynamics is not
+"missing" wholesale; what is missing is a unit. This addendum is the
+only mutation.
