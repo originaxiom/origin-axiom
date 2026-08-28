@@ -1,5 +1,18 @@
 # Changelog
 
+## B1193 (2026-08-28): THE TWO CAMPAIGNS RECONCILED — the floor amended; the founding-bit identity recorded
+
+The owner's directive ran through both seats blind; the runs CONVERGE (λ = THE residue per both;
+the arrow's external-≠-c seed with interlocking halves; one clock generator; the meter ×3; the V₄
+legs ×3 seats). Both catches adopted: **the v0 floor AMENDED** (our B1185 ℙ³ line, not covered by
+I5's argument — the end-state list gains the ℙ³ adjudication, two-outcome cell named) and the old
+2+1 count a two-seat-established undercount. THE MERGED OPEN CORE = the run-order: λ · ℙ³ · L154 ·
+twist-forcing · (Vol,CS) coherence · branch↦r. Five travelers harvest-queued. **THE FOUNDING-BIT
+IDENTITY** (the owner's long-standing question, answered from the record): A7's one-bit residue =
+the K₄ basepoint taken by writing a→ab, b→a = the ℤ/2 that transports as c = the relational class
+of an asymmetric pair — the bit is carried by asymmetric relation at every level, from the two
+letters at the origin to the two objects at the coupling. Locks test_b1193 (3).
+
 ## B1192 (2026-08-28): CLOSE-LOOP BATCH 4 — THE RELATIONAL BIT EXISTS
 
 **The campaign's crown positive (lens-scoped)**: for the heterogeneous pair (the object A, the

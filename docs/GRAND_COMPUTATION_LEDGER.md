@@ -117,3 +117,15 @@ adjudication · GC-4 reach-deficit law · GC-5 register repairs. **Batch 2**: th
 assembly cell (H1) · D3 · G1's full vector · the Selector + B998 locks · I3's pre-work. **Batch 3**:
 THE GRAND COMPUTATION assembly — the universe written in rows A–H's own units; I3's shot if the
 owner elects it; the bridge last.
+
+## THE MERGED OPEN CORE (B1193 — the two campaigns reconciled; agreed across seats)
+
+Both independent runs of the owner's directive converge (their reconciliation:
+`outside_bench/THE_TWO_CAMPAIGNS.md`, their branch 79ef73fb; evidence-grade by blindness). The
+campaign's run-order is now the six agreed items: **λ's placement** (both seats' top residue) ·
+**the ℙ³-vs-floor adjudication** (their catch; v0 §9) · **L154's bridge** (σ's deletion route) ·
+**twist-forcing** · **the (Vol, CS) coherence run** · **the branch↦r identification cell**. The
+five travelers (v0 §10) harvest-verify in parallel. Codex's R020 two-beats fence filed with the
+clock rows. Catch 2 (ours, adopted by cloud): the old 2+1 count was an undercount — now a
+two-seat-established finding.
+

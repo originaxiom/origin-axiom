@@ -3930,6 +3930,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1193": {
+   "slug": "two campaigns reconciled",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "L63"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B119": {
    "slug": "mk scalar mechanism",
    "motifs": [

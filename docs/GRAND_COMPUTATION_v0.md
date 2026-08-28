@@ -275,3 +275,24 @@ centralizers retain ALL-complex constituents under B1100's correct criterion). T
 proved piece is a formal theorem with a proved finite-case correspondence to B1183; F2/F8 locks
 were already banked (B1003 — finished-but-forgotten again), F3's lock drafted and green (GC-15).
 
+## §9 — THE FLOOR AMENDMENT (B1193; cloud's priority-one catch, adopted)
+
+Cloud's census addendum 5 caught an internal tension in this document: §5's floor ("no continuous
+dimensionless input remains except σ") vs our own B1185 (the down-readout's **ℙ³ Higgs line —
+purely continuous, C12-trivial on B₀**). Their adjudication stands: the ℙ³ line is NOT covered by
+B1025-I5's multiplicity-one argument (it lives in a 4-dimensional block the argument never
+reaches). **The floor is amended**: the input slots gain a row — *the down-readout's ℙ³ line: up
+to three continuous parameters, PARTIAL-CONTESTED* — with the two-outcome adjudication cell named
+(either the ℙ³ reduces, restoring the old floor, or the floor carries it permanently; both
+bankable). The end-state list reads, honestly: **ℓ + the relational c-bit + finite labels + σ (one
+bridge) + the λ-placement + the ℙ³ adjudication.**
+
+## §10 — The five travelers from cloud's lane (harvest-queued, verify-don't-trust)
+
+(1) the mirror-even hierarchy carrier (their memo 92 — load-bearing for the value arc); (2) the
+Klein split (memo 93); (3) the Stage-2 closure (their sealed exhaustive comparison, owner-unsealed
+— the coupling rows carry it once verified); (4) the degree ledger (memo 96 — the meter's third
+telling); (5) the clock-coherence condition — the λ/r/γ₅ time-triangle's first refutation-capable
+test. Plus the merge-born cell: **is cloud's branch ℤ/2 our r-label?** (both external, both ≠ c;
+computable; their THE_TWO_CAMPAIGNS.md §V names it).
+
