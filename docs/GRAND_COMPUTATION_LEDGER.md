@@ -141,3 +141,7 @@ The NEEDS-SPECIALIST bar (row H/the sign row's wall) now has its reading list **
 
 The saddle of the object's own partition function (item 1's SEAM-A analysis), the founding obstruction κ − 2 (item 4's law for the relational bit), and the boundary structure (memo 104) all satisfy **Φ₃ = u² + u + 1**; the **saddle set IS {κ − 2, its conjugate}**; and the map between the faces is **u ↦ u² = the swap = c**. The eight-item list's items 1 and 4 therefore describe **one invariant seen twice**. Cross-seat: cloud reproduced the κ-law and selector-freedom; this bench verified their Φ₃ cross-link exactly and contributed the linking-map identification.
 
+## THE FORCING THEOREM'S SHAPE (B1203) — two candidates eliminated
+
+The value arm (row E1) needs a forcing theorem that selects one map before looking. **Two natural candidates are now eliminated, both for the same reason**: **c-equivariance** (the menu already lies wholly inside the mirror-even class — a cut of exactly zero on all 11,720) and **iteration of the founding principle** (the climb (X,Y)→(XY,X) preserves κ identically — B148's banked Dehn-twist invariance). Both are **symmetries the admissible class already respects**, and such a symmetry can never select within it. **The forcing principle, if it exists, must BREAK a symmetry rather than impose one.**
+

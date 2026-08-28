@@ -4087,6 +4087,26 @@
    "status": "banked",
    "domain": "meta"
   },
+  "B1203": {
+   "slug": "two probes",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B148",
+    "B566",
+    "S4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B120": {
    "slug": "tower determination",
    "motifs": [

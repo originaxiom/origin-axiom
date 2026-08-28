@@ -12183,3 +12183,22 @@ flagged at top rank; both genuine blind regions (inflation/reheating; dark-matte
 `--exclude=`, and noted because the trap waits for any self-documenting instrument. **The rule**
 (WORKING_RULES): no MISSING/OPEN claim without running it, and **state the searched terms with the
 claim**. Locks test_b1202 (2).
+
+## B1203 (2026-08-28): TWO PROBES, BOTH NEGATIVE FOR THE PROPOSER — and the new check's first live catch
+
+**Probe 1 — c-equivariance as a forcing filter: REFUTED, cut of exactly zero.** Cloud's enumerator
+re-run here (**W₁ = 11,720 reproduced independently**); all 17 tier-1 atoms are real, c fixes reals,
+the ops preserve reality ⇒ **11,720 of 11,720 retained**. The structural reason is the useful part:
+the menu already lies wholly inside the c-even class (B1168), and *requiring what every candidate
+satisfies selects nothing.* **Probe 2 — climbing a→ab, b→a one level up (the owner's question)**:
+read literally the climb is (X,Y) → (XY,X), i.e. (x,y,z) → (z,x,xz−y), and **κ is preserved
+identically at every rung** (six verified; the whole K₄ of founding rules; bite controls
+discriminate). So **the climb is a symmetry of the founding obstruction, not a generator** — which
+is *why* three banked results say "one level then fixed" (the second beat adds no invariant;
+measurement-of-measurement collapses once; the quine's external bits = exactly 1). **Honest**: the
+identity is **already banked at B148** (the Dehn twists preserve κ; classical Fricke) — only the
+reading is new. **The instrument's first live catch**: B1202's `already_banked.py` surfaced B148
+*before* this was banked as new — the fifth instance of the class prevented, on its own author,
+within the hour. **What both leave**: the forcing theorem cannot be c-equivariance nor iteration —
+both are symmetries the class respects — so **it must break a symmetry, not impose one.** Locks
+test_b1203 (2).

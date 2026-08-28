@@ -1,0 +1,24 @@
+{
+ "id": "B1203",
+ "arc": "two probes: the c-filter and the climb",
+ "verdict": "NEGATIVE",
+ "probe1": {
+  "proposal": "c-equivariance as a forcing filter on MENU-1",
+  "result": "REFUTED",
+  "cut": "0 of 11720 (all 17 atoms real; c fixes reals)",
+  "W1_reproduced_here": 11720,
+  "reason": "the menu lies wholly inside the c-even class (B1168) -- requiring what all satisfy selects nothing"
+ },
+ "probe2": {
+  "question": "does climbing a->ab,b->a add an invariant?",
+  "result": "NO -- kappa preserved identically",
+  "map": "(X,Y)->(XY,X) i.e. (x,y,z)->(z,x,xz-y)",
+  "rungs_verified": 6,
+  "controls": "(X,Y)->(X^2,Y) and ->(XY,XY) do NOT preserve kappa",
+  "already_banked_at": "B148 (the Dehn twists preserve kappa) -- classical Fricke/Out(F_2)",
+  "what_is_new": "only the reading: this is the mechanism behind the three 'one level then fixed' results and single-bit uniqueness"
+ },
+ "instrument_first_catch": "already_banked.py (B1202) surfaced B148 before this was banked as new -- the fifth instance prevented, on its author, within the hour",
+ "narrowing": "the forcing principle must BREAK a symmetry, not impose one",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}
