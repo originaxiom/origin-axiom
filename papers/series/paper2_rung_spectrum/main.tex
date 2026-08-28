@@ -6,6 +6,7 @@
 \usepackage{enumitem}
 \usepackage{booktabs}
 \usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={Dritero Mehmetaj},pdftitle={A finite spectrum on an infinite lattice},pdfsubject={17B25}}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -33,7 +34,7 @@
 \title{A finite spectrum on an infinite lattice:\\
 centraliser dimensions for a four-dimensional abelian\\
 subalgebra of $\esix$, and why sampling cannot find them}
-\author{}
+\author{Drit\"ero Mehmetaj}
 \date{26 August 2026}
 
 \begin{document}
@@ -69,6 +70,16 @@ root in, and generates, the cubic field $K=\Q[x]/(x^3-12x-5)$. The structure the
 weight orbits, the master formula and the cubic are exact over $\Q$; the flat enumeration is
 exhaustive at three faithful primes and is stated as such.
 \end{abstract}
+
+\begin{center}\small
+\textit{Paper II of four.} The others are I, \emph{The period-one locus in $\mathrm{GL}(2,\mathbb{Z})$} · III, \emph{The boundary-graviton one-loop determinant} · IV, \emph{What a class invariant cannot supply}.
+They share a verification convention: every numeral is recomputed by a named script whose
+expected output is stated, and every control is designed so that a plausible error makes it fail.
+\end{center}
+
+\medskip\noindent\small\textbf{MSC 2020.} Primary 17B25; Secondary 52C35, 17B45, 20G41, 11R16.\\
+\textbf{Keywords.} exceptional Lie algebras, centraliser, hyperplane arrangement, flat-function, binary tetrahedral group.\normalsize
+
 
 \section{Introduction}
 
@@ -346,6 +357,18 @@ coincidence cannot be manufacturing them. \textbf{The remaining five are exposed
 \]
 A $\overline{\Q}$ certificate is needed only for these, and anyone attempting one should check
 exactly them.
+
+\textbf{Why such a certificate is not a routine computation.} A value is certified attained by
+exhibiting one subspace realising it, and $\dim\z(S)$ is computable exactly over $\Q$ for any
+rational $S$ by a single nullspace. We searched for rational witnesses to the five and found
+none: no subspace of dimension $1$ or $2$ spanned by vectors with coefficients in
+$\{-2,\dots,2\}$, respectively $\{-1,0,1\}$, realises any of $16,20,26,28,36$. This is a bounded
+search and therefore evidence rather than proof, but it points the same way as
+Theorem~\ref{thm:46}: the exposed values, like the $46$, appear to be reached only at irrational
+directions, so a certificate must be assembled in the splitting field of $q_6q_{12}q_{12}'$ rather
+than over $\Q$. \textbf{The difficulty of the residue is thus of a piece with the paper's own
+thesis} --- these values are hidden from rational access, which is exactly why a rational sample
+never found them.
 \end{remark}
 
 \section{The $46$, and arithmetic inaccessibility}\label{sec:46}

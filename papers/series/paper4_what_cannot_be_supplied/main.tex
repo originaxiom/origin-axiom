@@ -6,6 +6,7 @@
 \usepackage{enumitem}
 \usepackage{booktabs}
 \usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={Dritero Mehmetaj},pdftitle={What a class invariant cannot supply},pdfsubject={57K32}}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -28,7 +29,7 @@
 \title{What a class invariant cannot supply:\\
 scale, orbit position, and the difference between\\
 a manifold and its family}
-\author{}
+\author{Drit\"ero Mehmetaj}
 \date{26 August 2026}
 
 \begin{document}
@@ -53,22 +54,35 @@ structural, not evidential: no refinement of the same invariant will ever select
 accumulating more of the same evidence is provably futile. There are exactly two escapes ---
 shrink the group, or add structure that is not invariant.
 
-\emph{Family versus object.} Of the fourteen orientable cusped census manifolds whose tetrahedron
-shape field is $\Q(\sqrt{-3})$, \textbf{no elementary invariant we have tested separates $m004$ at
-all.} An earlier version of this paper claimed $H_1\cong\Z$ did, and a wider sweep claimed the cusp
-shape did too; \textbf{both claims were artefacts of an incomplete family} and are retracted in
-\S\ref{sec:family}. The corollaries that matter are unaffected and in fact strengthened: a larger
-family makes trace-field inputs \emph{more} clearly family-level, not less. Volume, tetrahedron count, cusp
-count, amphichirality and vanishing Chern--Simons invariant are all shared. In particular the
-identity $\vol(m004)=\tfrac{3\sqrt3}{2}L(\chi_{-3},2)$ is a property of the family, being shared
-with $m003$. It follows that any construction taking the invariant trace field as its input has a
-\emph{family-level} input, and cannot by itself distinguish $m004$ from thirteen other manifolds.
+\emph{Family versus object.} The orientable cusped census contains $112$ manifolds whose
+tetrahedron shape field lies in $\Q(\sqrt{-3})$, and $m004$ is one of them. Of thirteen elementary
+invariants we tested --- volume, homology, cusp and tetrahedron counts, amphichirality,
+Chern--Simons, symmetry order, cusp shape, Alexander polynomial and others --- \textbf{not one
+separates $m004$ within that family}: $H_1\cong\Z$ is shared with a single-cusped manifold of five
+times its volume, and the cusp shape $2\sqrt3\,i$ with six further members. One property is instead
+family-\emph{wide}: all $112$ are amphichiral. It follows that a construction taking the invariant
+trace field as its input has a \emph{family-level} input, and that the identity
+$\vol(m004)=\tfrac{3\sqrt3}{2}L(\chi_{-3},2)$ is a property of the family rather than of the
+manifold.
 
-We report two errors of our own that this census caught, because both are instructive: comparing
-Chern--Simons invariants by floating-point equality, which produced a spurious separating
-property; and testing torsion-freeness in place of the knot-complement condition, which is a
-different property that two other family members also satisfy.
+Two methodological points are recorded because they cost us results. An earlier version of this
+paper enumerated the family at $14$ and claimed two separators; both claims are false at the
+correct cardinality and are withdrawn here. \textbf{Enlarging a family is a one-way test} --- it can
+only destroy object-level claims and only reinforce family-level ones --- and that asymmetry is
+visible in the two enlargements this correction passed through. We also report two errors the
+census itself caught: comparing Chern--Simons invariants by floating-point equality, and testing
+torsion-freeness in place of the knot-complement condition.
 \end{abstract}
+
+\begin{center}\small
+\textit{Paper IV of four.} The others are I, \emph{The period-one locus in $\mathrm{GL}(2,\mathbb{Z})$} · II, \emph{A finite spectrum on an infinite lattice} · III, \emph{The boundary-graviton one-loop determinant}.
+They share a verification convention: every numeral is recomputed by a named script whose
+expected output is stated, and every control is designed so that a plausible error makes it fail.
+\end{center}
+
+\medskip\noindent\small\textbf{MSC 2020.} Primary 57K32; Secondary 57M50, 11R52, 20E45, 58J52.\\
+\textbf{Keywords.} hyperbolic three-manifolds, Mostow rigidity, invariant trace field, census, amphichirality.\normalsize
+
 
 \section{Introduction}
 
@@ -151,64 +165,65 @@ into a choice between two named moves, each of which can be attempted or ruled o
 terms.
 \end{remark}
 
-\section{The family, and what separates $m004$ from it}\label{sec:family}
+\section{The family, and what does not separate $m004$ from it}\label{sec:family}
 
 The invariant trace field is a strong invariant, but it is an invariant of a \emph{family}. We
-make this quantitative.
+make this quantitative, and the quantitative answer is larger than one expects.
 
-\begin{definition}
-Let $\mathcal{F}$ be the set of orientable cusped census manifolds whose tetrahedron shape field is
-$\Q(\sqrt{-3})$. Then $|\mathcal{F}|=14$:
-\[
-\begin{aligned}
- \mathcal{F}=\{\,&m003,\ m004,\ m202,\ m203,\ m206,\ m207,\ m208,\\
-                 &m410,\ m412,\ s118,\ s119,\ s594,\ s595,\ s596\,\}.
-\end{aligned}
-\]
-\end{definition}
-
-\begin{scope}[\textbf{RETRACTED}: the family was incomplete, and both separator claims fail]\label{sc:retracted}
-Earlier versions of this paper stated that among seven elementary invariants exactly one separates
-$m004$ within $\mathcal{F}$ --- namely $H_1\cong\Z$ --- and that a wider sweep of thirteen added the
-cusp shape as a second. \textbf{Both claims are false, and the cause is that $\mathcal{F}$ was
-never verified complete.}
-
-We had $|\mathcal{F}|=14$. \textbf{The census contains $112$.} Two criteria must be kept apart, and
-conflating them is what produced the error:
+\begin{definition}\label{def:family}
+Let $\mathcal{F}$ be the set of orientable cusped census manifolds whose tetrahedron shape field
+lies in $\Q(\sqrt{-3})$. Two criteria must be kept apart here, because they agree on small samples
+and diverge on the census:
 \begin{itemize}[leftmargin=1.4em]
-\item[\textbf{(A)}] \emph{all} tetrahedra regular ideal (shape $e^{i\pi/3}$) --- \textbf{77}
+\item[\textbf{(A)}] every tetrahedron regular ideal, i.e.\ of shape $e^{i\pi/3}$ --- \textbf{77}
       members;
 \item[\textbf{(B)}] tetrahedron shape field contained in $\Q(\sqrt{-3})$ --- \textbf{112} members.
 \end{itemize}
-$A\subsetneq B$ strictly: every all-regular manifold has shape field $\Q(\sqrt{-3})$, but $35$
-members of $B$ have non-regular shapes, six of them in our original fourteen. \textbf{The
-definition this paper uses is (B), so $|\mathcal{F}|=112$} --- eight times what we enumerated.
+$A\subsetneq B$ strictly: every all-regular manifold has shape field $\Q(\sqrt{-3})$, so
+$A\setminus B=\varnothing$, while $35$ members of $B$ have non-regular shapes. \textbf{We use
+{\normalfont(B)}, so $|\mathcal{F}|=112$}, of which $m004$ is one.
+\end{definition}
 
-Both separators die on the additions:
-\begin{itemize}[leftmargin=1.4em]
-\item $H_1\cong\Z$: \textbf{$o10\_150700$} is single-cusped, has ten regular ideal tetrahedra,
-      volume exactly $5\vol(m004)$, and $H_1\cong\Z$. Single-cusped like $m004$, so no refinement
-      of the claim escapes it.
-\item the cusp shape $2\sqrt3\,i$: \textbf{six} members carry a cusp of exactly that shape ---
-      $t12840$, $o9\_41001$, $o9\_41009$, $o10\_150684$, $o10\_150685$, $o10\_150693$. Each is
-      multi-cusped and matches on one cusp; a weaker statement restricted to single-cusped members
-      might survive, but that is a \emph{different} claim, is untested here, and we do not retreat
-      to it.
-\end{itemize}
-
-\textbf{One claim survives the enlargement, and gets stronger.} All $112$ members are
-amphichiral --- no exceptions. \textbf{Enlarging a family is a one-way test:} it can only destroy
-object-level claims, since more members may share the property, and can only reinforce
-family-level ones, since more members exhibit it. Both separators were object-level and died; the
-amphichirality of $\mathcal{F}$ is family-level and strengthened from $14/14$ to $112/112$.
-
-\textbf{What this costs, and what it does not.} The scale theorem (\S\ref{sec:scale}) and the orbit
-theorem (\S\ref{sec:orbit}) never used $\mathcal{F}$ and are untouched. The two corollaries below
-are \emph{strengthened}: a larger family makes the volume identity more clearly a family property
-and trace-field inputs more clearly family inputs. \textbf{What is lost is the claim that any
-elementary invariant we tested makes $m004$ object-level within its family.} On present evidence
-none does.
+\begin{scope}[the count is census-bounded, and was got wrong once]\label{sc:census}
+$112$ counts \emph{census} members; the definition is census-bounded and this is the right figure
+for it, not a claim about every hyperbolic $3$-manifold with that shape field. \textbf{An earlier
+version of this paper enumerated $\mathcal{F}$ at $14$ and quantified over it as though complete.}
+Both separator claims it then made --- that $H_1\cong\Z$ singles out $m004$, and that the cusp
+shape does too --- are false at the correct cardinality, and are withdrawn; the witnesses are named
+in Theorem~\ref{thm:family} below. The membership test used here ($\mathrm{Re}\,z$ and
+$\mathrm{Im}\,z/\sqrt3$ both rational at bounded denominator) is controlled by requiring that it
+recover every member of that original fourteen, and by requiring the count to be stable in the
+denominator bound.
 \end{scope}
+
+\begin{theorem}[no tested elementary invariant separates $m004$]\label{thm:family}
+Let $\mathcal{F}$ be as in Definition~\ref{def:family}, $|\mathcal{F}|=112$. Among the thirteen
+invariants we have tested --- volume, tetrahedron count, cusp count, torsion-freeness of $H_1$, the
+condition $H_1\cong\Z$, amphichirality, vanishing Chern--Simons invariant, symmetry-group order,
+cusp shape, Alexander polynomial, generator and relator counts, shortest geodesic length, and
+solution type --- \textbf{none separates $m004$ within $\mathcal{F}$.} In particular:
+\begin{itemize}[leftmargin=1.4em]
+\item $H_1\cong\Z$ is shared with $o10\_150700$, which is single-cusped with ten regular ideal
+      tetrahedra and volume exactly $5\vol(m004)$ --- single-cusped like $m004$, so no refinement
+      of the claim escapes it;
+\item the cusp shape $2\sqrt3\,i$ is shared with six members, namely $t12840$, $o9\_41001$,
+      $o9\_41009$, $o10\_150684$, $o10\_150685$ and $o10\_150693$.
+\end{itemize}
+\end{theorem}
+
+\begin{proposition}[one property is family-wide, and it strengthens with the family]\label{prop:amph}
+Every one of the $112$ members is amphichiral --- no exceptions, none undecided.
+\end{proposition}
+
+\begin{remark}[enlarging a family is a one-way test]\label{rem:oneway}
+Propositions of the two kinds respond oppositely to enlargement. An \emph{object-level} claim ---
+this invariant singles out $m004$ --- can only be destroyed by new members, since a new member may
+share the property. A \emph{family-level} claim --- every member has this property --- can only be
+reinforced. Both separator claims died across two independent enlargements ($14\to83\to112$) and
+amphichirality strengthened across the same two ($14/14\to83/83\to112/112$). \textbf{That asymmetry
+is not a coincidence of these invariants; it is what the direction of the test guarantees}, and it
+is the cheapest available check on a claim of either kind.
+\end{remark}
 
 \begin{corollary}[the volume identity is a family property]\label{cor:volume}
 The identity $\vol(m004)=\tfrac{3\sqrt3}{2}L(\chi_{-3},2)$ is shared with $m003$ and is therefore
@@ -225,8 +240,8 @@ cannot, by itself, be said to be about $m004$ rather than about $\mathcal{F}$.
 \begin{scope}[what Corollary~\ref{cor:familyinput} does and does not damage]\label{sc:notdamaging}
 \textbf{An earlier version said here that a chain is safe if it selects $m004$ by $H_1\cong\Z$
 first and only then uses the trace field, because that first step was object-level. Scope
-\ref{sc:retracted} withdraws the premise: $H_1\cong\Z$ does not separate $m004$ within the
-family.} So this escape is not available, and we know of no elementary invariant that supplies
+Theorem~\ref{thm:family} withdraws the premise: $H_1\cong\Z$ does not separate $m004$
+within the family.} So this escape is not available, and we know of no elementary invariant that supplies
 one.
 
 What survives is the negative itself, in a stronger form than before: the field-based step is a
@@ -268,7 +283,7 @@ failure & status & escape \\
 \midrule
 no dimensionful quantity & Thm~\ref{thm:scale} & dimensionless quantities untouched (\ref{esc:ratios}) \\
 cannot select within an orbit & Thm~\ref{thm:orbit} & shrink the group, or add non-invariant structure (\ref{esc:orbit}) \\
-trace field does not isolate $m004$ & Cor.~\ref{cor:familyinput} & \textbf{none known} --- the $H_1$ escape is retracted (\ref{sc:retracted}) \\
+trace field does not isolate $m004$ & Cor.~\ref{cor:familyinput} & \textbf{none known} --- the $H_1$ escape is withdrawn (Thm~\ref{thm:family}) \\
 \bottomrule
 \end{tabular}
 \end{center}
