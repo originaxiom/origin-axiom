@@ -76,3 +76,12 @@ maintenance rule:
   is independent of the doorway and STANDS; E₆ arrives at the object's
   hyperbolic ℚ(√−3) curvature end (2T→E₆ via McKay; B981/B248). Corrected
   in place across all surfaces in the B1127 PR. *(banked: B1123 · corrected: B1127 / E37 / cc3 1a0b5a90)*
+
+## 2026-08-28 (B1188) — the L190 direction-word correction
+
+B1187 banked the Ω-DAG per-level null result with the interpretation "excess transitive reach."
+The direction was wrong (higher d_MM = lower ordering fraction = reach DEFICIT); the 11σ number,
+the per-level z-trend, and the non-genericity verdict all stand unchanged. Corrected in
+B1188/FINDINGS, the GRAND_COMPUTATION_LEDGER, and L190's row; the phrase row added to
+RETRACTED_PHRASES. Class: E52-adjacent (an interpretation word passing both bank and review) —
+caught by the retrieval sweep's clock/4d lens cross-reading B189's own earlier correction.

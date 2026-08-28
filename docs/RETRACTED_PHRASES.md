@@ -104,3 +104,4 @@ Three phrases retracted in this window, registered with their treatment:
   (correction-not-retraction: the numbers were right; the reading was weaker than the
   truth). The counts (5-vs-6) conceded standard bulk–boundary content in kind.
 
+| "excess transitive reach" (of the Ω-DAG's 11σ deviation) | B1187/L190, 2026-08-28 | WRONG DIRECTION — d_MM above null ⟺ ordering fraction below null ⟺ a **DEFICIT** of transitive reach (more tree-like). Number and non-genericity verdict stand; the phrase is retired everywhere (corrected at B1188; consistent with B189's own 2026-06-23 in-file reading). Use: "reach-deficit structure." |
