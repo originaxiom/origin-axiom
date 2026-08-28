@@ -1,0 +1,40 @@
+STAGE 1 (syntax): the four founding rules are ONE rule up to the recoding
+   group <s, rev> — three conjugation identities verified on all 2047
+   words to length 10.  Abstract self-description costs ZERO founding bits
+   (memo 98's torsor, executable form).
+   r   (reversal)     : REALIZED, g = [[0, 1], [1, 0]] (det = -1, nullspace dim 1)
+   s   (letter swap)  : REALIZED, g = [[0, 2*I/(sqrt(3) - I)], [1, 0]] (det = -2*I/(sqrt(3) - I), nullspace dim 1)
+   gal (the mirror)   : NOT REALIZED (nullspace dim 0: no invertible intertwiner)
+STAGE 2 (realization): the solves above are exhaustive over GL2(C) —
+   homogeneous linear systems in g, solved exactly over Q(omega).
+STAGE 2b (mirror-absorption scan, 8 gal-combos over the natural recoding
+   family <swap, transpose, inverse>): NO combo absorbs the mirror at letter level
+
+STAGE 3 (the count): the founding bits are SPENT BY THE REALIZATION
+itself — the letter swap and the reading direction have exact inner
+realizers (memo 98's 'C and P spendable', now spent), so the quine's
+emission of alphabet, rule, tick order, and its own procedure costs
+NOTHING external.  The ONE thing no inner computation supplies is the
+GALOIS BRANCH of omega (the gal-slot has NO intertwiner: nullspace
+argument exact) — every coordinate this certificate prints (the -omega
+in rho(b), tr[a,b] = 1+omega, every torsion sign downstream) depends
+on that choice.  The letter-level scan finds NO recoding absorbing the mirror — recorded
+honestly: the convention-typing of this bit rests on the BANKED
+amphichirality facts (memo 81: the mirror preserves every length and
+negates every torsion; the amphichiral origin of the ladder, B289/B303
+asymptotics), whose isometry acts by an automorphism beyond the
+letter-level family — naming that automorphism as a word map is a
+further cell, not claimed here.
+EXTERNAL BIT COUNT = 1.
+
+OUTCOME Q1 (the signed spec's first cell): THE QUINE IS BUILT AND ITS
+SELF-REPORT IS COMPLETE EXCEPT EXACTLY ONE BIT — the mirror/Galois
+branch, i.e. c (B1174: c = mirror = Gal(K/Q)).  ONE BIT BUYS
+OCCUPATION.  The Q1-refinement question (relayed with the B1196
+reconciliation) is answered in the same stroke: the missing bit is
+precisely the datum cc's asymmetric relation supplies — epsilon's
+carrier restricts to c (memos 99/106), so 'one asymmetric relation,
+and nothing else' and 'one bit buys occupation' are the SAME statement
+verified at two levels.  Interpretive framing labeled per the spec;
+the built object and every solve above are exact.  Q2 did not fire
+(B1183 stands); Q3/Q4 did not fire.  Gate 5 untouched.

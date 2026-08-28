@@ -179,3 +179,17 @@ correction — D3 and D4's criterion ready immediately — is recorded as
 a register-grade precedent: a decision is ready when its backing
 theorems are banked, not when its downstream dependencies clear.
 This addendum is the only mutation.
+
+### ADDENDUM 13 (2026-08-28) — the "go" executed: S4 built same day as its spec was signed (memo 107, Q1)
+Under the standing GO, the bench opened the construction window the
+signed spec authorized: THE QUINE IS BUILT and Q1 fired — self-report
+complete except exactly one bit, the bit is c, the founding bits
+spent by the realization (exact inner realizers), the mirror
+inabsorbable at letter level (exhaustive scan). The qualia fence's
+question is now "one bit buys occupation," verified as the same
+statement as cc's observer-cost theorem at a second level. Remaining
+on the whole programme's desk after this: D2-after-B4 (cc, next),
+B5/C1 second-seat reproductions, B3/B6/B7 (cc instruments), E1/E2
+(the world's bars), the owner's two cc-side holds, and the one named
+follow-up cell (the amphichiral word map). This addendum is the only
+mutation.

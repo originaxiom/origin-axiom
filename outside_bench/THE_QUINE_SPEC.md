@@ -49,3 +49,17 @@ Build: authorized for either seat; the bench queues a tier-1 build
 attempt as its next construction window's cell; cc/codex may take it
 first if their queue clears sooner — first mover posts the attempt,
 the other seat verifies (the two-campaign pattern).
+
+### ADDENDUM 1 (2026-08-28) — OUTCOME FILED: Q1, same day as the signature
+The build ran (memo 107, `certificates/quine_build.py`, GREEN — the
+bench moved first per the seat rule; cc/codex verify). **Q1 fired:**
+the self-report is complete except exactly one bit, and the bit is
+the mirror/Galois branch — c. The founding bits proved SPENT by the
+realization (inner realizers exhibited for both the letter swap and
+the reading direction); the gal-slot has no intertwiner (exact
+nullspace); the 8-combo mirror-absorption scan found no letter-level
+recoding absorbing it. Q2 (which would have contradicted B1183) did
+not fire; Q3/Q4 did not fire. One follow-up cell named, not built:
+exhibit the amphichiral automorphism as an explicit word map, which
+would upgrade the bit's convention-typing from banked-cited to
+constructed. This addendum is the only mutation.

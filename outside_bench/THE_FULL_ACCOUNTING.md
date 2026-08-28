@@ -205,3 +205,17 @@ closed; S1 and 40639 blocked WITH their exact bars quoted. The missing
 list now contains no vague item: every entry is a theorem, an
 exhibit, one question, or one quoted bar. This addendum is the only
 mutation.
+
+### ADDENDUM 2 (2026-08-28) — THE FENCE'S S4 LINE UPDATES: the quine is BUILT (memo 107, outcome Q1)
+§2's fenced line read "S4 (the quine) unbuilt." It is now built, under
+the signed THE_QUINE_SPEC, and it landed on Q1: the record's
+self-report is complete except EXACTLY ONE BIT — the Galois branch of
+ω, i.e. c — with the founding bits proved spent by the realization
+itself (inner realizers exhibited) and the gal-slot proved empty
+(exact nullspace). The fence's one question sharpens from "why is the
+seat occupied" to "ONE BIT BUYS OCCUPATION" — and with memos 99/106,
+that bit is precisely what cc's asymmetric relation ε supplies: the
+three seats' statements (ε = −1 selector-free; the four probes are
+one bit, B1183; this build's count = 1) are one statement. S2/S3
+remain pending the cloud C6 check (coverage refinements to the spec
+land by addendum). This addendum is the only mutation.
