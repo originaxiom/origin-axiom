@@ -71,3 +71,13 @@ the sign question is not a tension — the object spans all three
 curvature signs with the cone angle free, and the value/sign of the
 observed Λ stays observer-side by the scale-torsor theorem. Bench error
 #7 filed in memo 90 addendum 1. This addendum is the only mutation.
+
+### ADDENDUM 4 (2026-08-28) — NEW ROW R14, filed same session per the standing rule
+
+| # | the owner's question (dated) | checked where | verdict then | modern status | LIVE remainder |
+|---|---|---|---|---|---|
+| R14 | **"who made the observer? why do we treat object and observer as two separate projects instead of computing the whole picture, observer included?"** (2026-08-28; the owner notes having pressed this repeatedly — "the program is more than the object alone") | B1163 (W₀ un-self-suppliable), B1164 (adelic split; 2 discrete + 1 continuous frame bits), B666 S′/S″ (scale torsor; Λ as boundary mode), B721 (two clocks), B1169 (qualia/feedback), B1170 (arena rescope), B1174 (c-leg), bench memos 46/84/86 | — (asked now, sharpened now) | **CLARIFIED BY A SPLIT, NOT YET COMPUTED**: observer = (HARDWARE, FRAME). The hardware — atoms, chirality, matter, the arrow's order — is the object's own 27-stuff, in-program and largely computed (memos 46/84/86). The FRAME — unit section, signature, clock weight, c-leg sign — is choice-typed (torsor coordinates): un-derivable not because the observer is a second project but because deriving a torsor coordinate is a contradiction in terms (S′; B1163's refusal-is-the-theorem). What IS computable about the frame and only partly done: its exact SIZE (B1164's 2+1 count), its TYPE census, and the WELD constraints binding each frame datum to the object (Λ ↔ 4-volume, clock ↔ tick, c-leg ↔ torsion sense) | THE SECOND-HALF PROGRAM, three posable lanes: (1) hardware-half assembly (observer's body = object's matter, theorem list); (2) machine-checkable FRAME CENSUS (every observer input in the corpus, typed, counted, completeness-audited against B1164's 2+1); (3) the weld equations (the constraint half of every priced bit). None banked yet; owner to sequence |
+
+Status note: R14 is the program-level question behind R10, R13, LEAP-1,
+and the Λ position — filed as its own row so the "second half" stops
+being implicit. This addendum is the only mutation.
