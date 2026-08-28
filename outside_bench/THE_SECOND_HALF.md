@@ -101,3 +101,143 @@ directive stands: a forced-vs-observed contradiction is a
 thesis-failure signal; "not forced" prices the bit and contradicts
 nothing. No claim of finality enters the record — the campaign closes
 when the ledger's rows do.
+
+---
+
+## ADDENDUM 1 (2026-08-28) — THE RETRIEVAL SWEEP: the archaeology owner-directed before any hunt ("search sweep retrieve the repo first for lost work, for finished stuff")
+
+Five parallel corpus sweeps over main-at-B1187 (twelve batches past the
+bench's last sync). Sourced from agent reports; every load-bearing item
+below is to be pin-verified by the lane's own certs before any claim
+rests on it (bench discipline unchanged). Per-row updates:
+
+**F1 (orientation bit) — STRENGTHENED.** The m004 family corrected to
+112 members (B1186), ALL amphichiral (B1181): no sibling supplies what
+m004 withholds — the W₀ refusal is family-robust. B1183 proves B760's
+chord-sign obstruction and B1163's orientation obstruction are ONE
+ℤ/2 class under the global involution c.
+
+**F2/F5 (√3 hinge; torsor identities) — LARGELY CLOSED BY BURIED WORK.**
+B1164's "three d=2 presentations, isomorphism unchased" was answered
+in-corpus and never cross-linked: B1174 (NOT one torsor — one shared
+involution c organizing the ℤ/2s into two V₄s), then **B1182 resolves
+C4′ POSITIVE** (frame-V₄ ≅ branch-V₄ as named-action torsors, unique
+forced isomorphism). B700/B701 had already proved the torsor-iso
+OBSTRUCTION is itself the observer-coupling thesis. REMAINING for F5:
+(i) B928's Klein group {I,D₂,D,D₂D} = ±ρ₂₇({1,σ_χ₋,σ₋₁,σ_χ₊}) on the
+27 — never compared to either V₄ (a plausible fourth presentation,
+buried); (ii) B1024's d=2 is self-flagged PROVISIONAL
+(surjectivity-only); d≤3 unconditional.
+
+**F3 (the continuous input) — CLOSED IN-CORPUS.** B1166 C3 VERIFIED:
+exactly ONE dilaton (ℝ⁺); U(1) phase object-paid (CS≡0, μ₆); Mostow
+forbids a second modulus. B1163 §B: "ratios forced, scale withheld."
+
+**F4 (census completeness) — MOSTLY PRE-DONE, WITH NEW CANDIDATES.**
+Pre-done: the B1114→B1134→B1135→B1138→B1141 chain proves the ENTIRE
+real-structure closing (Lorentzian signature + color compactness +
+spin) is ONE forced involution choice — not separate bits; the clock
+is the external weight (B721 two-clocks; B850 generic III₁,
+conditional); B1168 makes the object/observer boundary a DECIDABLE
+parity×dimension law (superseding B1163's "definitional admission");
+B1123's forcedness census: 39/43 links FORCED, only the observer's
+closing outside; B1025's master audit: the arrow bit, chirality bit,
+and ℓ survive as external. NEW RECONCILIATION CANDIDATES the census
+must type against {D1, D2, C1}: the cone angle α (free; NO forcing
+attempt exists anywhere in the corpus — genuinely unattempted), the
+Hermitian gauge choice (canonical vs D₂-twisted, B916/B923 — see D1r),
+B1185's "observer's continuous ℙ³ Higgs line", the filling
+slope/polarization (B293), B523's signature selection (3,1)-vs-(2,2)
+Door 2, and the spin structure (B1141: assigned, not free).
+
+**H1 (N=2→N=1) — TERMINAL STATE PINNED.** B1025 I2: SURVIVES ("doubly
+mechanized; nothing joins; every chiral construction routes through a
+closing"). UNTESTED for 700+ batches: B304's firewalled LEAP "the Dehn
+filling IS the mass deformation" (DGG) — named, never computed. The
+corpus's largest standing debt on this thread: T[4₁;E₆] (the
+exceptional 3d-3d state integral), named tool-gated four times (B281,
+B292, B433, B812), never attempted.
+
+**H2 (6d type) — GENUINELY NARROWED.** Reclassified artifact→
+specification (B1000/B1013); B1025 I4: the object CANONICALLY NOMINATES
+its types (E₆ hyperbolic end, E₈ spherical end) — external is the
+ACCEPTANCE of the nomination, with one named unrun computation S1 (the
+E₆ compactification's SW curve vs the banked A-polynomial).
+
+**H3 (LEAP-1 price statement) — CONFIRMED NEVER WRITTEN.** B303/S045
+state the two-LEAP conditional in prose; no batch ever derives the
+formal IF-THEN consequence chain. Genuine gap, bench-shaped.
+
+**H4 (schedule) — CONFIRMED NEW**, with two adjacent queued-not-run
+instruments recovered: the time's-arrow instrument (B1171/B1164
+addendum: decidable arithmetic test, named and left undone — the most
+recent live arrow status) and S002/B124's D2 H-theorem test (is log φ
+monotone along forward orbits). Also: S045's Friedmann route is CLOSED
+(clean internal negative — do not resurrect); B5 (WDW) is DEAD with
+zero successors.
+
+**H5 (qualia) — half-promoted.** B1169's S1 promoted by B1174
+(mirror=chirality=Gal(K/ℚ)); S4 half-answered by B1184 (quine
+self-naming). Core stays: AWARENESS = mirror-even/object-canonical,
+CHOICE = mirror-odd/observer-supplied. Firewalled reading, per its own
+banner.
+
+**D1r (ratio wall) — 30–40% OF THE GRAND TABLE EXISTS, EXACT AND GATE-5
+CLEAN.** The B910–B928 value arc: one-number colorless coupling table
+(15 pairwise ratios = 1 exactly, T = σ₂(t_K)); unimodularity/twist-norm
+law (λ=1 canonical, 2304/953 twisted, ∏dᵢ = −(953/2304)²); product law
+P9 (27·2304⁴ exact); observer's-place theorem (den(V) = 𝔭₁(953)⁴);
+HIER identity (v_g² = roots(HIER), 953⁴·charpoly(V_ccl) = HIER);
+hierarchy-carrier theorem (D₂ = ±ρ₂₇(σ_χ₋), 98/98, sum rule 11);
+sin²θ_W = 3/8 (flagged "reproduced, not predicted"); B922's
+λ₂ = 25.01083666330126855876589… in the object's own units. THREE NAMED
+GAPS: (1) THE GAUGE CRUX — canonical gauge is generation-degenerate
+(x+3)³, the D₂-twisted gauge carries the whole hierarchy, and which
+gauge is physical is underived; note D₂ = ±ρ₂₇(σ_χ₋) — whether the
+gauge choice reduces to the c involution / an observer bit is exactly a
+census question (F4×D1r junction, the campaign's sharpest new cell);
+(2) B928 Stage-2 (blind Q3 sheet vs measured mixing) computed and
+SEALED pending the owner's word — the owner's act, not the repo's;
+(3) the primes 953/2304 underived upstream ("honest residue"). Nulls
+that must stay banked: B743 (four transcendental units vs 18 SM ratios:
+0 hits), B1126 (352 pairs: 351 null, 1 dismissed by look-elsewhere),
+B915/B925/B929/B1027/B1140 negative; tombstones H128/H129/S014 stay
+dead.
+
+**W1–W3 (welds) — THE MASTER WELD ALREADY EXISTS.** B293 (two
+independent proofs): κ = tr[a,b] is the CASIMIR and on each leaf
+{κ=const} the peripheral pair (μ,λ) is CANONICALLY CONJUGATE — the
+filling slope = the observer's choice of Lagrangian polarization. This
+is the exact prototype the weld book needs. W1 (HT: Λ conjugate to
+4-volume) never got its IF-THEN; W2 = H3; W3 grounded in B1174 + memo
+81.
+
+**W4 (the meter) — THE DEEPEST RELATION FOUND.** B1117:
+**Vol(m004) = 9√3·ζ_K(2)/π² to 32+ digits** — the archimedean meter IS
+a special L-value of the object's own arithmetic shadow (K = ℚ(√−3));
+B1120 extends to the Kashaev tower (C₀ = |disc|^(−1/4), 30 digits);
+entropy standard 2 log φ family-wide (B317); B291's HOOK: the systole
+meter and the min-volume meter DIVERGE (no finite systole-extremal
+closing) — the own-meter cell must pick its standard and prove the
+choice canonical or record it as convention.
+
+**G1/gravity — REMOVE A DOOR.** G1 is CLOSED NEGATIVE
+(OBSTRUCTED-AT-TORUS, B1064: amphichirality deletes the quantized
+boundary sector; BRIDGE-COMPLETE never reached); the gravity
+identification closed three-seat-reconciled as GENERIC-RHYME (B1175).
+The Λ position's "what would change this" list therefore has ONE live
+door (B277 movement), not two.
+
+**Prior art for the whole campaign:** THE_FRAMEWORK.md already treats
+the observer as computed-not-label ("the observer IS the cut"; "the
+completion at the infinite place"); THE_END_TO_END_CHAIN counts
+dials=0, priced=3, undetermined=2. The second half is not starting from
+zero — it is finishing a building whose frame is up.
+
+WAVE-1 TARGETS (set by this addendum): (1) F4×D1r census incl. the
+gauge-crux reconciliation; (2) F5's Klein-vs-V₄ comparison; (3) H1/H2
+scoping (S1 spec; T[4₁;E₆] feasibility; B304's untested LEAP);
+(4) the grand-table skeleton; (5) the weld book (B293 prototype + HT
+IF-THEN + LEAP price statements + the two queued-not-run arrow
+instruments); (6) the own-meter cell (Vol=L-value re-verified in-lane;
+the B291 divergence typed). This addendum is the only mutation.
