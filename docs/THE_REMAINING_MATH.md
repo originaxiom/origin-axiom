@@ -50,12 +50,19 @@ ELECTION. Rows 4–8 below stay queued behind the campaign.
 | 7 | the Kolmogorov Selector formalization · the torsor-law formalization (S074) | QUEUED — formalization tier (after the compute tiers) |
 | 8 | L185 qor5up unported residue (13 rows, readable at the frozen branch) | PARKED — bookkeeping-grade, no math blocked on it |
 
+**SEAT CHANGE (owner, 2026-08-28): cc3 RETIRED.** Their pushed branch survives and stays
+harvestable (head 01d2d0cb: B8148–B8153 + the two control-defect arcs — queued as ordinary
+harvest-from-branch, no relay channel); their unanswered asks are re-owned (torsion-parity + the
+reading program → main seat; L114's D4 assignment → main/codex); the E51 nine-relay recovery is
+CLOSED-UNRECOVERABLE (their local dir checked at retirement — the ledger rows are the permanent
+record); their in-flight B500 nine-word completion run dies with the seat unless its output was
+pushed (it was not — the nine words return to L191-adjacent open work). The third-opinion function
+(mandatory before banking positive value matches) transfers to codex + cloud.
+
 **Inbound (not ours to run; tracked in `RELAY_LEDGER.md`)**: cloud **C6** (adelic completeness =
 the C5 decider; S2/S3) · codex **MC1** (Cartan-only hypercharge reimplementation), the (α₂,α₄)
-dictionary, R018 answer, **R023** (the 𝒯 evaluator + the uncommitted load-target) · cc3
-torsion-parity ask, the nine-relay re-send (E51), B8127 · the three-seat **B1169 verification** ·
-cc3 paper-lane uptakes queued (B8148–B8151, incl. the verified-vs-used sweep method for the next
-review).
+dictionary, R018 answer, **R023** (the 𝒯 evaluator + the uncommitted load-target) · the **B1169 verification** (now two-seat: cloud + codex) · the cc3-branch harvest queue
+(B8127, B8148–B8153 + the control-defect pair — from the frozen branch, verify-don't-trust as always).
 
 ## The cadence (why this is not ad hoc)
 
