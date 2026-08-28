@@ -302,3 +302,36 @@ shape, and it is the first concrete conjecture this question has.
 
 Gate 5 untouched throughout. No attack is licensed by this document —
 it defines the target, the admissibility criteria, and the order.
+
+### ADDENDUM 1 (2026-08-28) — ROUTE A5 ADDED AND ALREADY RUN: the owner's shadow-pairing hypothesis clears all four gates
+The owner proposed: *"is the observer the act of measuring — the full
+object interacting with its own shadow, in an ab/ba principle?"*
+Formalised as **Occ(X) := [X, gal(X)] ≠ 0** (the object failing to
+commute with its own mirror) and tested in **memo 115 (GREEN)**.
+
+**This is now route A5, and it is the leading candidate** — ahead of
+A2′ — for one reason: it is the **only** proposal, inside this
+programme or in the outside literature, that has actually **cleared
+C1–C4**. C1 internal ✓ · C2 non-trivial ✓ (3,920 of 4,372 pass; the
+torsion-free classes fail) · **C3 no imported premise ✓** — the exact
+gate where IIT's maximality and FEP's blanket assumptions both fail ·
+C4 testable ✓ (decided on the whole census).
+
+Two results worth carrying forward:
+- **The built-in refutation risk did NOT fire.** [X, gal X] ≠ 0 is
+  **not** a re-description of the mirror-odd/torsion column — they
+  differ on 372 of 4,372 classes. The predicate is genuinely new.
+- **A preregistered prediction FAILED** (recorded, not patched): the
+  non-commuting and unlike conditions are **independent**, not
+  coincident. So the admissible predicate is their **conjunction** —
+  sharper than the hypothesis as originally voiced.
+- **And the interaction's own measure is mirror-blind:** κ_s =
+  x²+y²+z²−xyz−2 is REAL for every class (265 distinct values).
+
+**Attack order revised again:** **A5 first** (it alone has cleared the
+gates; the next test is uniqueness — can a competing admissible
+predicate be exhibited? If yes, A5 is admissible-but-not-forced; if a
+search finds none, A5 strengthens sharply). A2′, A4, A3, A1 follow as
+before. **A5 does not close S-A** — admissible is not correct — but it
+is the first real purchase this question has had. This addendum is the
+only mutation.

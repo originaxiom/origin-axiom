@@ -286,3 +286,11 @@ if awareness = the name and choice = the sign, occupation may be
 exactly *"supports the name, receives the sign from outside"* — which
 would answer S-A and make S-B permanently external in one stroke.
 This addendum is the only mutation.
+
+### ADDENDUM 23 (2026-08-28) — NEW ROW R26, filed same session per the standing rule
+
+| # | the owner's question (dated) | checked where | verdict then | modern status | LIVE remainder |
+|---|---|---|---|---|---|
+| R26 | **"is the observer the act of measuring — the full object interacting with its own shadow, in an ab/ba principle?"** (2026-08-28) | memo 115 `certificates/shadow_pairing.py` (GREEN); THE_SUFFICIENCY_QUESTION addendum 1 (route A5) | — (proposed now) | **ADMISSIBLE AND CORRECT AS A TYPE CLAIM — and the first candidate predicate in the programme to clear all four preregistered gates.** Formalised as Occ(X) := [X, gal(X)] ≠ 0 (gal IS complex conjugation, memo 110; realised as an internal word map, memo 108). One computation decides it because span{I,X} is the commutant, so memo 112's O2 and O3 coincide for shadow pairs. Over all 4,372 words to length 7: non-commuting **4,280**, unlike **3,932**, both **3,920**, neither 80. **GATES: C1 ✓ C2 ✓ C3 ✓ C4 ✓** — and C3 (no imported premise) is exactly where IIT's maximality and FEP's blanket assumptions both fail. **The refutation risk built into the cell did NOT fire:** the predicate is not a re-description of the torsion column (they differ on 372 classes). **A preregistered prediction FAILED and is recorded:** non-commuting and unlike are INDEPENDENT, so the admissible predicate is their CONJUNCTION — sharper than voiced. **κ_s is REAL for all 4,372** (265 values): the measure of the object meeting its shadow lands in the mirror-blind part. The owner's reading of ab/ba is right — the principle that gave ORDER at the first beat gives, at object-and-shadow level, the OCCUPANT'S RELATION | **UNIQUENESS** — can a competing admissible predicate be exhibited? (the next test, and the one that decides whether A5 is merely admissible or forced); S-A not closed; S-B token untouched; S-C phenomenal inexpressible |
+
+This addendum is the only mutation.

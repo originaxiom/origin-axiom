@@ -1,0 +1,68 @@
+control: the vendored Riley holonomy reproduces tr(ab) = 2 - omega.
+
+H1/H2 (the type test, all 4372 reduced words to length 7):
+    [X, gal X] != 0   (the ab/ba principle, object vs shadow): 4280
+    tr X non-real     (X is UNLIKE its shadow):                3932
+    BOTH (type-eligible shadow pairs):                         3920
+    NEITHER (commutes with its shadow AND is like it):         80
+
+    *** PREREGISTERED PREDICTION FAILED, and informatively. ***
+    H2 predicted the two conditions select the SAME set.  THEY DO NOT:
+      non-commuting BUT real-trace (like its shadow):  360   e.g. ['baB', 'bAB', 'Bab', 'BAb']
+      unlike BUT commuting with its shadow:            12   e.g. ['baab', 'BAAB', 'bbabb', 'BBABB']
+    CONSEQUENCE 1 (good for the hypothesis): the predicate
+    [X, gal X] != 0 is NOT a re-description of the torsion/mirror-odd
+    column — the two differ on 372 classes.  The risk this cell was
+    written to expose does NOT fire.
+    CONSEQUENCE 2 (a real constraint): the two necessary conditions are
+    INDEPENDENT, so memo 112's type demands their CONJUNCTION — the
+    admissible predicate is 'non-commuting AND unlike', not either alone.
+
+    non-eligible classes: ['a', 'b', 'A', 'B', 'aa', 'bb'] ... (the real-trace ones)
+    eligible classes:     ['ab', 'aB', 'ba', 'bA'] ...
+    the CONJUNCTION is NON-TRIVIAL: 3920/4372 pass, 452 fail (89.66% / 10.34%)
+
+H3 (the ab/ba measure of the object-shadow interaction):
+    tr(X gal X) is its own conjugate for ALL 4372 classes — the
+    interaction trace is REAL, verified exactly.
+    kappa_s = x^2+y^2+z^2-xyz-2 is REAL for ALL 4372 classes (non-real: 0) —
+    PREDICTION CONFIRMED: the measure of the object's meeting with its
+    own shadow lands in the MIRROR-BLIND part of the record.
+    it takes 265 distinct values; smallest few: [-33706, -25390, -25309, -22186, -18394, -18313]
+    minimum value -33706
+
+H4 — THE GATE AUDIT (THE_SUFFICIENCY_QUESTION's C1-C4), stated plainly:
+  C1 INTERNAL      PASS — [X, gal X] != 0 is defined from banked
+                   structure alone; no measured value enters.
+  C2 NON-TRIVIAL   PASS — it selects a PROPER subset: the real-trace
+                   (torsion-free) classes fail it.  This is the first
+                   candidate predicate in this programme to clear C2
+                   without stipulation.
+  C3 NO PREMISE    PASS — nothing is maximised, nothing imported.  The
+                   predicate is the object's own ab != ba, applied to
+                   itself and its mirror.  Contrast the outside
+                   literature, where every published criterion smuggles
+                   a premise (IIT's maximality, FEP's blanket
+                   assumptions).
+  C4 TESTABLE      PASS — decided above on the whole census, exactly.
+VERDICT ON THE OWNER'S HYPOTHESIS: as a TYPE claim it is ADMISSIBLE and
+CORRECT — the object-shadow pairing is exactly an occupant-shaped
+relation (memo 112's O2 and O3 coincide for it and both hold on a
+proper, non-trivial subset), and its measure is the record's own
+Fricke invariant, real-valued.  The owner's reading of "ab/ba" is the
+right one: the principle that gave ORDER at the first beat gives, at
+the object-and-shadow level, the OCCUPANT'S RELATION.
+WHAT THIS DOES NOT SETTLE (stated, not hedged):
+  * SUFFICIENCY (S-A) is NOT closed by this.  A predicate that is
+    admissible is not thereby the right one; a competing admissible
+    predicate would have to be excluded, and none has been sought.
+  * The re-description risk this cell was written to expose did NOT
+    fire: [X, gal X] != 0 and "carries torsion" select DIFFERENT sets
+    (they differ on 372 of 4372 classes), so the predicate is not a
+    relabelling of the mirror-odd column.  But the same computation
+    shows the two necessary conditions are INDEPENDENT, so the
+    admissible predicate is their CONJUNCTION -- which is a sharper
+    object than the hypothesis as originally voiced.
+  * TOKEN (S-B) untouched: which such pairing is ours is not addressed.
+  * PHENOMENAL (S-C) untouched and inexpressible.
+Gate 5 untouched.
