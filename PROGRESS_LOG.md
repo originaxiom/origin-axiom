@@ -12047,3 +12047,14 @@ IDENTITY** (the owner's long-standing question, answered from the record): A7's 
 the K₄ basepoint taken by writing a→ab, b→a = the ℤ/2 that transports as c = the relational class
 of an asymmetric pair — the bit is carried by asymmetric relation at every level, from the two
 letters at the origin to the two objects at the coupling. Locks test_b1193 (3).
+
+## B1194 (2026-08-28): THE EXISTENCE AUDIT — the exact missing list, exhaustion-verified
+
+Six lenses under the owner's rule (no 'missing' without exhausting the repo). HAVE: twelve rows.
+PROVABLY-CANNOT: eight walls, each naming where the ingredient lives instead. **GENUINELY MISSING:
+EIGHT items** — SEAM-A's door · λ · L154's boundary character · the relational-bit classification ·
+the ℙ³ adjudication · D2 · the Selector seal · **THE COSMOLOGY LEDGER** (dark matter / inflation /
+the initial condition: the one blind region, zero dedicated modern arcs — the named first move
+never made). The big bang itself: answered structurally (genesis chain priced; no-beginning proved;
+the bang = the onset of non-cancellation, κ−2 = ω²; the Sakharov gate present, no-rate honest). The
+object's own Λ = −1 PROVED; the measured Λ = a value-wall question. Locks test_b1194 (2).

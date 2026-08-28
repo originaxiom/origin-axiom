@@ -1,0 +1,8 @@
+{
+ "id": "B1194",
+ "arc": "the existence audit",
+ "verdict": "PROVED",
+ "missing_count": 8,
+ "cosmology_ledger": "the one blind region -- the named first move",
+ "reproduces": "verification/audit_cells.json (six lenses + lens verdicts verbatim)"
+}

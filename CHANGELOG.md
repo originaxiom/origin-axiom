@@ -1,5 +1,16 @@
 # Changelog
 
+## B1194 (2026-08-28): THE EXISTENCE AUDIT — the exact missing list, exhaustion-verified
+
+Six lenses under the owner's rule (no 'missing' without exhausting the repo). HAVE: twelve rows.
+PROVABLY-CANNOT: eight walls, each naming where the ingredient lives instead. **GENUINELY MISSING:
+EIGHT items** — SEAM-A's door · λ · L154's boundary character · the relational-bit classification ·
+the ℙ³ adjudication · D2 · the Selector seal · **THE COSMOLOGY LEDGER** (dark matter / inflation /
+the initial condition: the one blind region, zero dedicated modern arcs — the named first move
+never made). The big bang itself: answered structurally (genesis chain priced; no-beginning proved;
+the bang = the onset of non-cancellation, κ−2 = ω²; the Sakharov gate present, no-rate honest). The
+object's own Λ = −1 PROVED; the measured Λ = a value-wall question. Locks test_b1194 (2).
+
 ## B1193 (2026-08-28): THE TWO CAMPAIGNS RECONCILED — the floor amended; the founding-bit identity recorded
 
 The owner's directive ran through both seats blind; the runs CONVERGE (λ = THE residue per both;
