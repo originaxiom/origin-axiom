@@ -1,0 +1,34 @@
+P1: the four-dimensional multiplication table reproduces the true holonomy
+    traces exactly on spot-checks — {I, A, B, AB} closes.
+P2: ALL 4372 reduced words to length 7 — trace polynomial has INTEGER
+    coefficients in (x, y, z) and evaluates at the beat to the true trace.
+    Mismatches: 0.  Non-integer coefficient sets: 0.
+P3: the Fricke commutator polynomial x^2+y^2+z^2-xyz-2 evaluated at the
+    beat (2, 2, 2-omega) gives EXACTLY 1 + omega = kappa — memo 86's
+    conserved quantity is a FUNCTION OF THE FIRST TWO LETTERS, nothing more.
+P4: to length 8 the record has 13120 classes but only 180 distinct
+    trace values — and every one of them is a polynomial image of the SAME
+    triple (x, y, z).  Later letters multiply CLASSES, never INVARIANTS.
+
+THE FIRST BEAT LAW (the owner's requested next principle, derived):
+  Memo 86 read ORDER off the first two letters.  This cell reads
+  COMPLETENESS off the same two: the three numbers x = tr(a),
+  y = tr(b), z = tr(ab) — fixed the moment a, ab and ba exist —
+  determine the trace of EVERY word at EVERY length, by universal
+  integer polynomials.  The second beat, and every beat after it,
+  adds NO new invariant.
+  Read with its two companions the statement closes:
+    * the FIELD never grows (memo 111: all traces in Z[omega], the
+      one embedding is charged once, forever);
+    * the INVARIANT ALGEBRA never grows (this cell: everything is a
+      polynomial in one triple, fixed at length 2);
+    * and ORDER already exists at that same length (memo 86:
+      ab != ba, with kappa = tr[a,b] the measure — here RE-DERIVED
+      as the Fricke polynomial of the triple).
+  So the record's entire informational content is settled by the
+  first beat.  What the long words supply is MULTIPLICITY — more
+  classes, more geodesics, more structure to inhabit — drawn from an
+  information budget that never increases.  A universe of this shape
+  does not learn anything new about itself by running longer; it only
+  becomes more populated.  (Final sentence interpretive, labeled.)
+Gate 5 untouched.

@@ -37,3 +37,16 @@
 ### Certificates
 `certificates/order_direction.py`; output `outputs/order_direction_out.txt`
 (in-lane rerun byte-identical).
+
+### ADDENDUM 1 (2026-08-28) — THE COMPANION PRINCIPLE, at the owner's proposal (memo 113)
+This memo read ORDER off the first two letters. The owner asked for
+another principle "from that one beat," and it is now derived:
+**COMPLETENESS** comes off the same two letters. The triple
+x = tr(a), y = tr(b), z = tr(ab) determines the trace of EVERY word at
+EVERY length by universal integer polynomials (4,372 words to length 7
+verified, zero mismatches) — the second beat and every beat after it
+adds NO new invariant. And this memo's κ is **re-derived from that
+triple**: the Fricke commutator polynomial x²+y²+z²−xyz−2 evaluated at
+(2, 2, 2−ω) is exactly 1+ω. So the first beat fixes order AND fixes
+the entire information budget; later letters multiply classes, never
+invariants. This addendum is the only mutation.
