@@ -92,3 +92,18 @@ D1r the ratio wall, W1–W4 welds, X1 bridge-deferred), six lanes A–F,
 bench first GO = lane A (the frame census) + lane B (the object's
 meter). R14 remainder now tracked row-by-row in that ledger. This
 addendum is the only mutation.
+
+### ADDENDUM 6 (2026-08-28) — R14 progress: waves 1–2 banked, the grand computation specified
+The campaign the owner directed under R14 has run its first two waves
+end-to-end without check-ins (owner's standing GO): the retrieval
+sweep (5 agents), wave-1 workflow (14 agents; four documents + memo
+91), wave-2 bench certs (memos 92–94), and lane F's specification
+(THE_GRAND_COMPUTATION.md). Headline movements: the observer census is
+honestly OPEN at 2+1 (a finding); the hierarchy is proven
+mirror-even/object-side (memo 92) — the single biggest re-typing of
+the campaign; the gauge 2-torsion splits along the hierarchy line
+(memo 93); the arrow is branch-conditional at the orbit level
+(memo 94). R13's LEAP-1 and the new LEAP-2 price statements now stand
+as one decision sheet in THE_WELD_BOOK. Owner-gates outstanding:
+the B928 Stage-2 unseal and the LEAP price decisions — both the
+owner's word, nothing else. This addendum is the only mutation.

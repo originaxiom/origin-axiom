@@ -300,3 +300,35 @@ candidate 4 and decides whether the hierarchy is observer-carried);
 identification. cc relays: the SU(3)³ slice (lane D flagship), the
 sealed Stage-2 reminder (owner-gated), the F4 open-at-2+1 finding
 (their MA2 census). This addendum is the only mutation.
+
+---
+
+## ADDENDUM 3 (2026-08-28) — WAVE 2 BANKED; LANE F OPENED; the campaign's standing state
+
+Wave 2 (bench certs, all GREEN, byte-identical, pushed):
+- **memo 92** (`twist_parity.py`) — THE FLAGSHIP: the hierarchy
+  carrier D₂ᵗʷ is MIRROR-EVEN; census candidate 4 CLOSED NOT-FRAME;
+  the hierarchy is object-side; cc's B883 coordinates = the lane's
+  (cross-stack fact); the gauge crux transforms into an object-side
+  twist-forcing question.
+- **memo 93** (`klein_parity.py`) — F5 REFINED-CLOSED: the gauge
+  2-torsion splits along the hierarchy line (parity is a character
+  with kernel {I, D₂ᵗʷ}); B912's wall twist D is mirror-ODD; fourth
+  presentation refuted-as-identification; residue B1024 d=2 → cc.
+- **memo 94** (`h_theorem.py`) — S002's D2 run after ~1100 batches:
+  H-theorem as stated REFUTED by the TWO-BRANCH LAW; the arrow is
+  branch-conditional; LEAP-2 priced to the branch bit; weld book
+  addendum 1 + arrow dossier addendum 4 filed.
+Lane F opened: **THE_GRAND_COMPUTATION.md** — the spec of completion
+(§2, checkable), the standing assembly (§1), the per-seat queue (§3),
+the H5 fence (§4).
+ROW STATES after waves 1–2: F1/F2/F3 typed-closed · F4 **OPEN AT 2+1**
+(remainder: α, ℙ³×I5, clock weight, branch bit) · F5 refined-closed
+(residue → cc) · H1/H2 specs+relays (SU(3)³ slice named; S1 shadow
+leans MISMATCH) · H3 price statements written · H4 queued (bench
+next) · H5 fenced · D1r delivered-plus-object-side-conditional
+(twist-forcing → cc; Stage-2 owner-gated) · W0 proved · W1/W2 written
+conditional · W3 written · W4 BANKED (memo 91) · X1 deferred-typed.
+The campaign continues under the standing GO: bench next = H4 (the
+schedule ledger) and the α scoping note; everything else queued by
+seat in THE_GRAND_COMPUTATION §3. This addendum is the only mutation.
