@@ -18,6 +18,8 @@
 *Updated at every bank and wave transition; mirrored to iCloud. Plain language on purpose —
 this is the owner's one-glance view of what the machine is doing.*
 
+**LATEST (2026-08-28, B1196 — THE EIGHT FULLY DISPOSITIONED)**: D2 DIFFERENT (computed; wall untouched); **THE RELATIONAL BIT IS SELECTOR-FREE** (ε conjugation-invariant — the observer's bit = invariant pair-data, no selection act); the Selector = a three-regime theorem (σ/λ on the non-normalizable side — why they are anchors); **`docs/COSMOLOGY_LEDGER.md` CREATED** (the blind region closed as a surface). The existence audit's list: 1 sharpened · 2 closed · 3 halved · 4 law-found · 5 closed-permanent · 6 closed · 7 resolved · 8 created. Locks test_b1196 (3).
+
 **LATEST (2026-08-28, B1195 — BATCH 5A: 3 of 8 closed/decided)**: SEAM-A SHARPENED (the exact factorization; the saddle equation IS the founding quadratic; the ζ₁₂ hinge); **λ PLACED (P1)** — the count = σ + λ; the E₆ cusp route dead / cloud's algebraic half lives; **THE BIT'S LAW = κ, the founding Fricke invariant** (existence and observer-bit are ONE invariant); the ℙ³ floor PERMANENT. Locks test_b1195.
 
 **LATEST (2026-08-28, B1194 — THE EXISTENCE AUDIT)**: the owner's whole-picture question answered under the exhaustion rule. HAVE ×12 · PROVABLY-CANNOT ×8 (walls that name where each ingredient lives) · **GENUINELY MISSING = 8 named items**, topped by SEAM-A's door, λ, L154's boundary character, and **THE COSMOLOGY LEDGER** (the one blind region — dark matter/inflation/initial condition, zero modern arcs). The bang: structurally answered (no-beginning proved; onset-of-non-cancellation, κ−2=ω²). Own Λ = −1 PROVED; measured Λ = value-wall. Locks test_b1194 (2).

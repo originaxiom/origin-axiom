@@ -12070,3 +12070,16 @@ E₆); cloud's algebraic boundary object is the living half; the q-series map re
 invariant** (gen_det = −κ/g²): the existence obstruction and the observer-bit criterion are ONE
 invariant. **The ℙ³ line PERMANENT** (the frame V₄ proved trivial on B₀ — the floor's 3 continuous
 parameters stand definitively). Missing list: 3/8 closed or decided, 2 sharpened. Locks test_b1195.
+
+## B1196 (2026-08-28): BATCH 5B — the eight-item missing list FULLY DISPOSITIONED
+
+**D2 ADJUDICATED DIFFERENT, computed** (the projector mass spreads 5:6:5 across all three
+trinification blocks — B891's sectors are a distinct cubic-carrier structure; the wall untouched;
+the census-31 tag exposed as a label collision). **THE SELECTOR RESOLVED** (three-regime dichotomy,
+a theorem per regime; σ and λ sit on the non-normalizable side — WHY they are anchors) — and the
+deepest payoff confirmed fresh: **THE RELATIONAL BIT IS SELECTOR-FREE** (ε conjugation-invariant,
+8/8) — the observer's one bit arrives as invariant pair-data, no selection act; B1192 + B1183 + the
+prior-vs-point theorem close into one statement of what an observer costs. **THE COSMOLOGY LEDGER
+CREATED** (`docs/COSMOLOGY_LEDGER.md`, 395 lines — the blind region's surface, every row banked-
+sourced, first probes named). The eight: 1 sharpened · 2 closed · 3 halved · 4 law-found ·
+5 closed-permanent · 6 closed · 7 resolved · 8 created. Locks test_b1196 (3).

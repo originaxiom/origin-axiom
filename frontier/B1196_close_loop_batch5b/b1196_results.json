@@ -1,0 +1,12 @@
+{
+ "id": "B1196",
+ "arc": "close-loop batch 5B -- the eight dispositioned",
+ "verdict": "PROVED",
+ "cells": {
+  "GC-26": "D2 DIFFERENT (projector mass 5:6:5 across all blocks; label collision exposed)",
+  "GC-27": "three-regime dichotomy + THE RELATIONAL BIT IS SELECTOR-FREE (eps conjugation-invariant, fresh)",
+  "GC-28": "docs/COSMOLOGY_LEDGER.md created, 395 lines, every row sourced"
+ },
+ "eight_items": "1 sharpened / 2 closed / 3 halved / 4 law-found / 5 closed-permanent / 6 closed / 7 resolved / 8 created",
+ "reproduces": "verification/batch5b_cells.json"
+}

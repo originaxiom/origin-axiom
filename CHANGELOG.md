@@ -1,5 +1,18 @@
 # Changelog
 
+## B1196 (2026-08-28): BATCH 5B — the eight-item missing list FULLY DISPOSITIONED
+
+**D2 ADJUDICATED DIFFERENT, computed** (the projector mass spreads 5:6:5 across all three
+trinification blocks — B891's sectors are a distinct cubic-carrier structure; the wall untouched;
+the census-31 tag exposed as a label collision). **THE SELECTOR RESOLVED** (three-regime dichotomy,
+a theorem per regime; σ and λ sit on the non-normalizable side — WHY they are anchors) — and the
+deepest payoff confirmed fresh: **THE RELATIONAL BIT IS SELECTOR-FREE** (ε conjugation-invariant,
+8/8) — the observer's one bit arrives as invariant pair-data, no selection act; B1192 + B1183 + the
+prior-vs-point theorem close into one statement of what an observer costs. **THE COSMOLOGY LEDGER
+CREATED** (`docs/COSMOLOGY_LEDGER.md`, 395 lines — the blind region's surface, every row banked-
+sourced, first probes named). The eight: 1 sharpened · 2 closed · 3 halved · 4 law-found ·
+5 closed-permanent · 6 closed · 7 resolved · 8 created. Locks test_b1196 (3).
+
 ## B1195 (2026-08-28): BATCH 5A — three of the eight closed or decided; the bit's law IS the founding invariant
 
 **SEAM-A SHARPENED** (Z = (ω/√−3)·2sinh(Vol/2π); the saddle equation is u²+u+1=0 — the founding
