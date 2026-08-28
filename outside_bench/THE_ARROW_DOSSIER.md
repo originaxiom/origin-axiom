@@ -231,3 +231,13 @@ supplies that break (the branch bit survives external). AR6's SPLIT
 now stands with its mechanism: irreversibility structure (mirror-even,
 branch-gated) + an exact reverser + an external branch bit. This
 addendum is the only mutation.
+
+### ADDENDUM 6 (2026-08-28) — memo 97's RELATION STRENGTHENED by the second climb (memo 119)
+Memo 97 banked **R T² R = T⁻²** for the reverser R = s∘e′. The
+level-2 relation hunt (memo 119, GREEN) finds the sharper identity
+**(RT)² = id**, i.e. **R T R = T⁻¹**, from which memo 97's relation
+follows immediately (RT²R = RTR·RTR = T⁻¹T⁻¹ = T⁻²). Memo 97's
+identity was also independently re-verified at map level. **The
+reverser does not merely invert T² — it inverts T itself.** Nothing
+in memo 97's conclusions changes; the relation behind them is simply
+stronger than was banked. This addendum is the only mutation.

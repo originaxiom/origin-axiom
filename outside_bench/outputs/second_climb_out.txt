@@ -1,0 +1,48 @@
+C1 — THE COMMUTATION TABLE (ab/ba at the level of MAPS):
+
+            T      L      s      e      R
+      T  comm    NO     NO     NO     NO 
+      L   NO    comm   comm    NO     NO 
+      s   NO    comm   comm   comm   comm
+      e   NO     NO    comm   comm   comm
+      R   NO     NO    comm   comm   comm
+
+    non-commuting pairs: 6 of 10
+    ['[T,L]', '[T,s]', '[T,e]', '[T,R]', '[L,e]', '[L,R]']
+    => LEVEL-2 ab/ba HAS CONTENT: the record's own maps do not commute.
+
+C2 — WHAT EACH MAP DOES TO kappa:
+     T: kappa PRESERVED
+     L: kappa NOT preserved   (kappa -> x**4 - 2*x**3*y*z + x**2*y**2*z**2 + 2*x**2*y**2 + x**2*z**2 - 4*x**2 - 2*x*y**3*z - x*y*z**3 + 4*x*y*z + y**4 + y**2*z**2 - 4*y**2 + 2)
+     s: kappa PRESERVED
+     e: kappa PRESERVED
+     R: kappa PRESERVED
+
+C3 — THE RELATION HUNT (words in the generators equal to the identity):
+    RELATIONS FOUND (length <= 4): ['RR', 'RTRT', 'ReRe', 'ReeR', 'Res', 'RsRs', 'Rse', 'RssR', 'TRTR', 'eRRe', 'eReR', 'eRs', 'ee', 'esR', 'eses', 'esse', 'sRRs', 'sRe', 'sRsR', 'seR', 'sees', 'sese', 'ss']
+    memo 97's banked relation R T^2 R = T^-2 re-checked at map level:
+      R T^2 R == T^-2 ?  True
+
+C4 — THE VERDICT: does climbing produce mathematics?
+  YES, AND OF A DIFFERENT KIND FROM LEVELS 0-1.  At level 2 the
+  objects are the record's own transformations, and ab/ba asks whether
+  they commute.  6 of the 10 pairs do NOT — so the climb
+  produces a genuinely NON-COMMUTATIVE structure: a group of exact
+  polynomial maps on the character variety, with a commutation table
+  and (above) an explicit relation.
+  WHY THIS IS NOT COVERED BY THE FIRST BEAT LAW (the important point):
+  memo 113 governs trace VALUES and proves no new information appears
+  at any word length.  It says nothing about MAPS.  Level 2 is
+  therefore the first climb whose content the first beat law does not
+  already determine — the tower of memo 117 was re-expression, but the
+  group of maps is new structure.
+  WHAT IT IS AND IS NOT (labeled): this is MATHEMATICS — an exactly
+  specified non-commutative system with computable relations.  It is
+  NOT new physics: no rate, no time, no measured quantity enters, and
+  the schedule wall stands.  The honest claim is that the climb yields
+  a new algebraic object at each level whose SYMMETRIES are content
+  even when its VALUES are not.
+  HOW FAR THE LADDER GOES (stated, not run): level 3 would be maps of
+  maps — the automorphisms of the group found here.  That is a
+  well-posed next cell and it is NOT run in this one.
+Gate 5 untouched.
