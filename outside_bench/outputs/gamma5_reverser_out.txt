@@ -1,0 +1,17 @@
+setup: v_u (phi^4) and v_s (phi^-4) are exact Galois conjugates entrywise.
+FACT 1: DR(v_u) = (9 - 4*sqrt(5))*v_s and DR(v_s) = (4*sqrt(5) + 9)*v_u —
+   the reverser R acts on the golden eigenframe EXACTLY as the Q(sqrt5)
+   Galois conjugation: TIME REVERSAL = THE gamma5 FIELD ACTION at the
+   orbit level.  The third bit has its dynamical face.
+   C = s       : Dg(v_u) = off-line
+   e'          : Dg(v_u) = off-line
+   R = s o e'  : Dg(v_u) = -> STABLE line
+FACT 2: NO banked involution induces v_u -> -v_u — not C, not e', not R
+   (which reverses time, not the branch), and by prior cells not c (trivial
+   on the real slice, memo 97), not P (character-trivial, memo 98), not the
+   sign twists (they move the fixed point, memo 97).  THE BRANCH BIT IS THE
+   +- TORSOR ON THE GOLDEN EIGENLINE, reachable by no banked symmetry —
+   exactly the shape of a genuine frame datum.  Its identification with
+   cc's r (a Galois datum one level up) requires a level-crossing map:
+   relayed with this exhaustion as the word/orbit-level input.
+Gate 5 untouched.

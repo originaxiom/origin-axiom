@@ -1,0 +1,20 @@
+control: the vendored Riley holonomy reproduces the banked systole trace 2-omega.
+LONGITUDE FOUND BY GRAMMAR SEARCH: word baBAABab (length 8),
+   holonomy -[[1, tau],[0, 1]] with tau = (Fraction(2, 1), Fraction(-4, 1)) (as x + y*omega)
+   tau = +-(4 omega - 2) = +-2 sqrt(-3) EXACTLY — the banked cusp modulus
+   2 sqrt3 i, now DERIVED from a grammar word (no cusp geometry imported).
+THE CLASS PAIR: reduced primitive forms of disc -48 = [(1, 0, 12), (3, 0, 4)] — h(-48) = 2.
+
+GC-17'S GAP CLOSED (two-outcome: BRIDGE BUILT): the disc-48 Gauss pair
+IS grammar-reachable — the longitude is a word of the {a,b} alphabet,
+found by exhaustive grammar search with no geometric input; its banked
+holonomy hands the cusp lattice Z + 2 sqrt(-3) Z, whose norm form has
+discriminant -48 with EXACTLY TWO classes {(1,0,12), (3,0,4)}.  The
+r-bit's carrier (the Gauss swap of this pair) is therefore supplied by
+the object's own grammar + its banked realization — the 'geometric/CM
+import' objection dissolves: the CM datum was a grammar word all
+along.  What remains r-side after this cell: only the SWAP's choice
+itself (the bit), exactly as the census prices it.  Fence: the
+holonomy realization is the banked one; a grammar-only derivation
+WITHOUT any realization would be a different (stronger) claim, not
+made.  Gate 5 untouched.

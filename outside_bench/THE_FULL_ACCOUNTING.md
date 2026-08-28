@@ -192,3 +192,16 @@ Register: row R15 files with this document. Provenance: three
 exhaustion agents (search terms and negative scopes recorded in their
 reports, archived in the session record), lane memos 90–99, cc's
 B1188–B1193, codex R020–R022. Gate 5 untouched throughout.
+
+### ADDENDUM 1 (2026-08-28) — THE NINE CELLS RUN (owner: "lets run all 9")
+Outcome sheet: **THE_NINE_CELLS.md**. Score: 953's class-group step
+CLOSED CONSTRUCTIVELY (h = 1, explicit generator — memo 102); the
+grammar→disc-48 bridge CLOSED (memo 100); time reversal = the γ₅
+Galois banked + the branch exhaustion (memo 101); the selection
+theorem assembled to one named premise; the dynamics-vs-λ insight
+TYPED (count and type match); the ℙ³ adjudication sharpened to one
+question for cc (is B₀ torus-isotypic?); the lane-side L154 survey
+closed; S1 and 40639 blocked WITH their exact bars quoted. The missing
+list now contains no vague item: every entry is a theorem, an
+exhibit, one question, or one quoted bar. This addendum is the only
+mutation.
