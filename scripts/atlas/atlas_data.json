@@ -4131,6 +4131,22 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1206": {
+   "slug": "one condition short",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B298",
+    "B299",
+    "B884",
+    "B987"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B120": {
    "slug": "tower determination",
    "motifs": [

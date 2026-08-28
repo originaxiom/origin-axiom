@@ -1,5 +1,19 @@
 # Changelog
 
+## B1206 (2026-08-29): THE ℙ³ IS EXACTLY ONE CONDITION SHORT
+
+B1205 left the frontier *"are there any linear conditions at all?"* — **yes, and there is exactly
+one.** The cubic's **1·10·10** term becomes a **linear functional on B₀** whenever its other two legs
+are *pinned*: **H_u is 1-dimensional** (pinned automatically) and, of the 27's two neutrals, memo
+80's measured λ-term row (**N₁ → 2 entries, N₂ → 0**) says **only one couples**. So the object
+supplies **exactly one canonical linear functional** — the λ-term C(N₁, H_u, ·). **The cut ledger**:
+ℙ³ dim 3 → (1 linear) dim 2 → (det Y_d = 0, B1205) dim 1; points need 0. **The forcing falls exactly
+one condition short.** That converts B1205's unbounded "the linear cuts are missing" into a bounded,
+checkable gap: **one more independent condition flips the row from PERMANENT to FORCED**. Three named
+candidates, the cheapest being **the λ-term's rank on B₀** — if it is 2 rather than 1 the ledger
+closes immediately, and that is precisely a datum codex's commissioned 𝒯 evaluator (R023) settles.
+Fenced as a *count of available structure*, not a physics claim. Locks test_b1206 (2).
+
 ## B1205 (2026-08-29): THE CUBIC CELL RUN — the cubic exists and is failable, but it cuts one dimension of three
 
 B1204's prescribed cell, run. **The cubic is real**: the down block is 3×3×4, so Y_d(h) is linear in

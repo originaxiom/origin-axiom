@@ -1,0 +1,25 @@
+{
+ "id": "B1206",
+ "arc": "the P^3 is one condition short",
+ "verdict": "OPEN",
+ "mechanism": "the cubic's 1.10.10 term gives a linear functional on B_0 once both other legs are pinned",
+ "pinned_slots": {
+  "H_u": "dim 1 -- pinned automatically",
+  "neutrals": "2, but only N1 couples to Hu.Hd (memo 80: N1->2, N2->0)"
+ },
+ "canonical_linear_functionals": 1,
+ "cut_ledger": {
+  "start": 3,
+  "after_linear": 2,
+  "after_cubic": 1,
+  "needed_for_points": 0,
+  "verdict": "EXACTLY ONE CONDITION SHORT"
+ },
+ "candidates_for_the_missing_one": [
+  "N2 / the exotic-mass slot (its own count)",
+  "doublet-triplet splitting (typed EXTERNAL by B298/B299 -- if so, a clean negative)",
+  "the lambda-term's RANK on B_0 (if 2 not 1, the ledger CLOSES) -- codex R023's datum, cheapest"
+ ],
+ "significance": "moves the P^3 row from 'no linear conditions exist' to 'one exists, forcing is one condition short'",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

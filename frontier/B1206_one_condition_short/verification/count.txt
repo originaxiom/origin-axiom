@@ -1,0 +1,18 @@
+B_0 = the H_d block: dim 4  =>  the Higgs line is P^3 = P^3 (dim 3)
+
+WHICH CUBIC SLOTS GIVE A CANONICAL LINEAR FUNCTIONAL ON B_0?
+  a cubic term C(X, Y, .) is linear in h once X and Y are PINNED.
+  H_u is 1-dimensional -> pinned automatically.
+  the neutrals: 2 of them, but the measured lambda-term row says
+    N1 -> 2 nonzero entries, N2 -> 0  =>  only ONE neutral couples to Hu.Hd.
+  => canonical linear functionals on B_0: 1 (the lambda-term C(N1, H_u, .))
+  (the q.dc.Hd and l.ec.Hd rows are linear in h only after CHOOSING matter states,
+   so they give texture conditions, not canonical ones -- they are the tensor itself.)
+
+THE CUT LEDGER on the P^3:
+  start                                   dim 3
+  - 1 canonical LINEAR condition (lambda-term)   dim 2
+  - 1 NONLINEAR condition (det Y_d = 0, B1205)  dim 1
+
+  => dim 1. Points need dim 0. THE FORCING FALLS EXACTLY ONE CONDITION SHORT.
+REPRODUCES
