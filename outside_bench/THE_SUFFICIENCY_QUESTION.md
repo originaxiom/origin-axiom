@@ -335,3 +335,27 @@ search finds none, A5 strengthens sharply). A2′, A4, A3, A1 follow as
 before. **A5 does not close S-A** — admissible is not correct — but it
 is the first real purchase this question has had. This addendum is the
 only mutation.
+
+### ADDENDUM 2 (2026-08-28) — A5 IS NOT UNIQUE: the gates are refuted as a discriminator (memo 116), and addendum 1's promotion is withdrawn
+The owner said GO on uniqueness. **Result: addendum 1 over-promoted
+A5, and this addendum withdraws that promotion.** Eight premise-free
+candidates select **six distinct admissible sets**; A5 has **five
+inequivalent competitors**. Clearing C1–C4 is therefore **cheap**, and
+"A5 clears all four gates" cannot mean "A5 is the criterion". **Memo
+115's mathematics stands; its status does not** — A5 is now *one of
+several admissible candidates*.
+
+**The gate system, not the hypothesis, is what failed.** A candidate
+further gate (C5, φ-stability) was tested **with its honesty note
+stated in advance: it is PROPOSED, NOT FORCED** — it is not a
+corollary of memo 109, since the shadow predicate is anchoring-
+invariant either way (flipping sends [X, gal X] to its negative, still
+nonzero), so adopting C5 would itself import a premise — the exact
+failure mode diagnosed in IIT. Under it **A5 fails** (witness `b`) and
+three candidates survive. That is a narrowing, not a decision.
+
+**The real work is now named precisely:** S-A needs a gate that is
+**derived** from the record rather than chosen. Until one exists, no
+admissible predicate can be promoted — including the owner's, and
+including any the bench prefers. **S-A: OPEN.** This addendum is the
+only mutation.

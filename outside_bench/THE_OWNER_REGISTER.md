@@ -294,3 +294,23 @@ This addendum is the only mutation.
 | R26 | **"is the observer the act of measuring — the full object interacting with its own shadow, in an ab/ba principle?"** (2026-08-28) | memo 115 `certificates/shadow_pairing.py` (GREEN); THE_SUFFICIENCY_QUESTION addendum 1 (route A5) | — (proposed now) | **ADMISSIBLE AND CORRECT AS A TYPE CLAIM — and the first candidate predicate in the programme to clear all four preregistered gates.** Formalised as Occ(X) := [X, gal(X)] ≠ 0 (gal IS complex conjugation, memo 110; realised as an internal word map, memo 108). One computation decides it because span{I,X} is the commutant, so memo 112's O2 and O3 coincide for shadow pairs. Over all 4,372 words to length 7: non-commuting **4,280**, unlike **3,932**, both **3,920**, neither 80. **GATES: C1 ✓ C2 ✓ C3 ✓ C4 ✓** — and C3 (no imported premise) is exactly where IIT's maximality and FEP's blanket assumptions both fail. **The refutation risk built into the cell did NOT fire:** the predicate is not a re-description of the torsion column (they differ on 372 classes). **A preregistered prediction FAILED and is recorded:** non-commuting and unlike are INDEPENDENT, so the admissible predicate is their CONJUNCTION — sharper than voiced. **κ_s is REAL for all 4,372** (265 values): the measure of the object meeting its shadow lands in the mirror-blind part. The owner's reading of ab/ba is right — the principle that gave ORDER at the first beat gives, at object-and-shadow level, the OCCUPANT'S RELATION | **UNIQUENESS** — can a competing admissible predicate be exhibited? (the next test, and the one that decides whether A5 is merely admissible or forced); S-A not closed; S-B token untouched; S-C phenomenal inexpressible |
 
 This addendum is the only mutation.
+
+### ADDENDUM 24 (2026-08-28) — R26 CORRECTED and NEW ROW R27, both filed same session
+
+**R26 CORRECTION (bench over-promotion, filed):** R26 recorded the
+shadow-pairing predicate as "the first candidate to clear all four
+gates" and route A5 was promoted to leading candidate. **Memo 116 (the
+owner's GO) shows clearing C1–C4 is cheap — six distinct admissible
+sets exist among premise-free candidates, so A5 has five inequivalent
+competitors.** The promotion is **withdrawn**; A5 is one of several
+admissible candidates. Under a *proposed but unforced* stability gate
+(C5, φ-stability) A5 is eliminated (witness `b`) while unlike-shadow,
+non-parabolic and word-map-shadow survive. **Memo 115's mathematics
+stands; its framing was over-strong, and the bench states so plainly.**
+The gates were refuted as a discriminator, not the hypothesis.
+
+| # | the owner's question (dated) | checked where | verdict then | modern status | LIVE remainder |
+|---|---|---|---|---|---|
+| R27 | **"by adding more and more layers of measurement — ab/ba again at a level above on what the prior level computed — quantum fields laying one above another accounting for the reality we measure?"** (2026-08-28) | memo 117 `certificates/layer_tower.py` (GREEN) | — (proposed now) | **ARCHITECTURE CONFIRMED, CONTENT CONSTRAINED, plus one unanticipated limit.** Formalised as L : (A,B) ↦ (AB, BA) — the two ORDERS become the next level's two LETTERS. **T1:** the pair stays NON-COMMUTING at every level 0–8 — the tower does not collapse; ab ≠ ba genuinely re-applies above itself. **T4:** each level carries its own Fricke measure — κ₀ = 1+ω, κ₁ = −2, κ₂ = −46, κ₃ = 6914, κ₄ = −99,532,798, κ₅ ≈ 3.06×10¹⁶ — digit-lengths **1,1,2,4,8,17,34,68,135**, roughly squaring per level; the ω-part washes out from level 3 (the tower becomes REAL). **T3 THE INFORMATION VERDICT:** every invariant lies in ℤ[ω] and, by memo 113, is a polynomial in the ORIGINAL triple — **the tower adds STRUCTURE but provably NO INFORMATION**. **T2 THE UNANTICIPATED LIMIT:** from level 1 up x_n = y_n, so every layer is trace-HOMOGENEOUS — **layering never manufactures the UNLIKENESS memo 112 requires of an occupant.** Unlikeness must be present at the bottom or it is never produced | the fence: no field equations, no Lagrangian, no dynamics at any level — the schedule wall stands; the claim is architectural, not physical |
+
+This addendum is the only mutation.
