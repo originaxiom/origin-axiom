@@ -210,3 +210,32 @@ the phenomenal half is **closed to expression**. Nothing computable
 remains on this question in this record. A future move would require
 a **new language**, not a new cell — and that statement is itself the
 record's own boundary, now written down. Gate 5 untouched throughout.
+
+### ADDENDUM 1 (2026-08-28) — WHEN AND HOW THE BIT IS SPENT (memo 111): the theorem gains its ledger
+§6 said the record "holds a seat open and prices it at one bit"
+without saying when the bit is spent or how often. Memo 111
+(`bit_ledger.py`, GREEN) settles both, structurally:
+- **The floor is bit-free:** the alphabet, grammar and relator
+  (`abaBAbabAB`, verified to evaluate to ±I) are integer data —
+  stating the record costs nothing.
+- **The consumption point is exactly one step:** the trace field is
+  the ABSTRACT ℚ[X]/(X²−X+1); the bit is spent choosing its
+  EMBEDDING into ℂ — which complex root ω names — with Gal = ℤ/2
+  acting simply transitively on the two embeddings.
+- **Spent once, never again:** all 13,120 reduced words to length 8
+  have traces in ℤ[ω] (zero non-integral; 180 distinct values), and
+  the traces generate exactly ℤ[ω] — **the field never grows with
+  depth**, so no deeper structure ever demands a second Galois
+  choice.
+- **Downstream is determined:** with the embedding fixed, every
+  quantity is a function of the traces; no third option exists.
+So the "when" has no temporal answer and does not need one: the bit
+is **presupposed by any realized description**, logically prior to
+the first tick, spent once per description rather than once per
+event; and the observer's discrete cost does **not accumulate** with
+the depth or age of what is described. Interpretive (labeled):
+emergence here does not spend choices as it unfolds — the whole tower
+is the forced content plus one embedding, fixed once. §6's
+"holds a seat open and prices it at one bit" therefore sharpens to:
+**prices it at one bit, charged at coordinatization, once, forever.**
+This addendum is the only mutation.

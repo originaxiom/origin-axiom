@@ -1,0 +1,48 @@
+L1 (the bit-free floor): the presentation level is integer/combinatorial —
+    the relator abaBAbabAB is a WORD over the alphabet and evaluates to +-I;
+    the four founding rules are one rule up to recoding (memo 107).
+    No field, no embedding, NO BIT is required to state the record.
+
+L2 (THE CONSUMPTION POINT): the trace field is the ABSTRACT field
+    Q[X]/(X^2 - X + 1) — stating it costs nothing.  The bit is spent at
+    exactly ONE step: choosing which complex root the symbol omega denotes.
+    The two roots 1/2 - sqrt(3)*I/2, 1/2 + sqrt(3)*I/2 are exchanged by
+    conjugation; Gal = Z/2 acts SIMPLY TRANSITIVELY on the two embeddings.
+    => the bit is spent at the passage ABSTRACT RECORD -> REALIZED RECORD,
+    and there is exactly one such passage.
+
+L3 (SPENT ONCE, NEVER AGAIN): all 13120 reduced words to length 8 have
+    traces in Z[omega] — 0 non-integral, 180 distinct values;
+    and the traces GENERATE exactly Z[omega] (tr(a) - tr(ab) = omega).
+    THE FIELD NEVER GROWS WITH DEPTH: no deeper computation demands a new
+    irrationality, so NO SECOND GALOIS CHOICE IS EVER REQUIRED.  The one
+    bit is the whole account, at every depth, forever.
+
+L4 (downstream determinism): with the embedding fixed, every quantity is a
+    FUNCTION of the traces — nothing further is chosen.  On the systole
+    trace and kappa at both embeddings: real parts EQUAL, imaginary parts
+    OPPOSITE, and no third option exists (the polynomial has two roots).
+
+THE ANSWER — WHEN AND HOW THE BIT IS USED:
+  WHEN: not at a moment.  The object supplies no time (the schedule
+    wall), so the bit is not spent AT an instant — it is presupposed
+    BY any realized description.  It is logically prior to the first
+    tick, not located after it.  The bit is spent whenever the
+    abstract record is COORDINATIZED, and that passage happens once
+    per description, not once per event.
+  HOW: by choosing an embedding of the abstract trace field into C —
+    literally, by deciding which complex root of X^2 - X + 1 the
+    symbol omega names.  That single act fixes, simultaneously and
+    rigidly, the sign of every torsion, the CS sign, the CP sign and
+    the chirality label (memo 110's odd column).
+  HOW MANY TIMES: EXACTLY ONCE, EVER (L3).  Because the trace ring
+    never grows, no deeper structure — no longer word, no finer
+    invariant, no later epoch — ever demands a second choice.  The
+    observer's discrete cost does NOT accumulate with the depth or
+    the age of what is described.
+IMPLICATIONS (interpretive, labeled): emergence in this record is not
+a process that spends choices as it unfolds; the entire tower is
+determined by the forced content plus ONE embedding, fixed once and
+never revisited.  A universe like this does not become more
+contingent the longer it runs, and an observer does not pay again for
+looking deeper.  Gate 5 untouched.
