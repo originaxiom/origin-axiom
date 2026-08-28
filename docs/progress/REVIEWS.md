@@ -4504,22 +4504,22 @@ B8151/B8152 relays arrived dual-homed on their branch (the E51 remedy operating)
   CERTIFICATE MOVE as §G law (this review's commit).
 - [x] R51-2: the window's four register-vs-record drifts corrected in place (QP-1, L187, the B189
   clause via addendum-beside, the B767 defects via addendum-beside).
-- [ ] R51-3: **L188 — the selection-cochain six claims** per the packet's own reconciliation addendum
+- [x] R51-3 (DONE — B1199/GC-31: L188 CLOSED; six claims verified, C1 on the full 745-class family, C3's never-checked pointwise formula run and holding exactly; relay row discharged BANKED): **L188 — the selection-cochain six claims** per the packet's own reconciliation addendum
   (C1 extension-not-discovery to the full 745-class family; C2 stands; C3 corroboration-downgrade;
   C4–C6 per addendum). NEXT — the owner's GO covers it. (owner: banking seat)
-- [ ] R51-4: **the instrument-debt tail** (ex-R50-5 remainder; lineage: R49-3 the L184 lazy-fy is
+- [>] R51-4 → carried into R52-4 (the OA_SLOW one-run is now the oldest instrument debt, twice killed by session end). Original: **the instrument-debt tail** (ex-R50-5 remainder; lineage: R49-3 the L184 lazy-fy is
   DONE — B1178, 12×; R49-4 the L183 reproducer sweep is DONE — B1177, 21 no-runner arcs recorded):
   the OA_SLOW one-run (relaunch, land ADDENDUM_measurements); the R32 vacuity queue + R46-11
   lock-shape sweep; the promotion-currency review; the toolbox extraction seed. (owner: banking
   seat, batched)
-- [ ] R51-5: **the cross-seat waits** (ex-R50-6, updated): cc3's B8127 verify (R48-4's lineage) + torsion-parity answer
+- [>] R51-5 → carried into R52-5, materially reduced (cc3's items CLOSED BY RETIREMENT; SEAM-A Gate 2's literature half now in hand, B1198). Original: **the cross-seat waits** (ex-R50-6, updated): cc3's B8127 verify (R48-4's lineage) + torsion-parity answer
   + the nine-relay re-send (E51) + B8148–B8151 paper-lane uptakes (incl. the verified-vs-used method,
   now folded into this review's checklist); codex's MC1 + the (α₂,α₄) dictionary + R018 answer +
   **R023** (𝒯 + the uncommitted load-target); cloud's C6 completeness + the C4′-CARRIED addendum +
   the G1 filed addendum; the three-seat B1169 verification; SEAM-A Gate 2 (NEEDS-SPECIALIST);
   T-GOLDEN-MERIDIAN verify (R49-5 lineage, with R48-2's lineage noted); the ζ₁₂/dP₆ re-runnable
   cert. (owners: the seats; cc harvests)
-- [ ] R51-6: **owner-electable** (ex-R50-7 under the standing direction): the cold pass over this
+- [>] R51-6 → carried into R52-6 under the standing HOLD (+ the owner's live D2 scope choice, B1197). Original: **owner-electable** (ex-R50-7 under the standing direction): the cold pass over this
   window; the census's 31 category calls (queue row 6, owner:cc per R45-5); the per-gap detector →
   the L173 mode-COUNT seal path. The papers relay (R49-7's lineage, R48-11's) + the specialist send-queue are **HOLD by the
   owner's standing word** — not electable here, released only by the owner. (owner: the owner's word)
@@ -4527,3 +4527,150 @@ B8151/B8152 relays arrived dual-homed on their branch (the E51 remedy operating)
 **Next review due after 20 merges from this anchor.**
 
 anchor-commit: `411fb260` (the B1187 bank, this window's last substantive commit before the review)
+
+## Review 52 — 2026-08-28 (merges 1–20 from Review 51; THE GRAND COMPUTATION CAMPAIGN: the observer built, the missing list dispositioned, two campaigns converged)
+
+*HOT (this banking seat). Prior anchor: 411fb260 (R51). The window, 13 arcs + three new standing
+surfaces, all under one owner directive — "no superficial observer work: craft a plan and a campaign
+and close this forever": the Phase-0 retrieval (B1188, six lenses over 1092 arcs + THE DISCRETE
+LADDER), five close-loop batches (B1189–B1192, B1195–B1196), the capstone document (B1191), the
+two-campaign reconciliation (B1193), THE EXISTENCE AUDIT (B1194), the D2 gate (B1197), the
+literature retrieval (B1198), the register reads + L188 (B1199), and the Φ₃ unification (B1200).
+Mid-window the owner **retired cc3** (510b5247) and ran the same directive independently through
+cloud — which makes this window's convergences evidence-grade rather than self-confirming.*
+
+**0. THE CARRY AUDIT (R51's items, each dispositioned).** **R51-3 → DONE** (B1199/GC-31: L188 closed
+— six claims verified with independent bench code, C1 confirmed on the FULL 745-class family, and
+the addendum's own never-checked C3 pointwise formula run for the first time and holding exactly;
+the relay row discharged BANKED at 63c04705). **R51-4 → PART-DONE, remainder carried** → R52-4 (the
+OA_SLOW one-run is STILL owed — it died with its session twice and is now the window's oldest
+instrument debt; the R32 vacuity queue + R46-11 lock-shape sweep, the promotion-currency review and
+the toolbox extraction seed remain). **R51-5 → carried, materially reduced** → R52-5 (cc3's items
+are CLOSED BY RETIREMENT — B8127 and the torsion-parity answer will not come, E51 is
+CLOSED-UNRECOVERABLE, and their branch is a frozen harvest source; codex's R023 is outstanding and
+R020/R021/R022 arrived unharvested; cloud's C6 remains the completeness precondition; **SEAM-A Gate 2
+changed state — its literature half is now IN HAND**, B1198). **R51-6 → carried under the standing
+HOLD** → R52-6 (the cold pass; the census's 31 category calls — and note B1199 exposed that "census-31"
+had been colliding with an unrelated D2 label; the L173 count-path).
+
+**1. Math / verification — the window's standard: adversarial by construction.** Every substantive
+claim this window passed through a close-loop cell plus **two independent adversarial lenses** (a
+correctness lens re-deriving the discriminating fact in its own code, and an E52 instrument lens
+attacking the apparatus with bite controls). The batch survival rates are the honest measure:
+**batch 1: 4/5 · batch 2: 1/5 · batch 3: 3/5 · batch 4: 1/5 · batch 5A: 1/5 clean · batch 5B: 3/3**.
+The loop is a net killer, as designed. What survived is correspondingly load-bearing: THE DISCRETE
+LADDER (112/112 on the V_reg integer lattice, bite control passing, mechanism exact at 4.3e−50);
+THE RELATIONAL BIT (ε = −1 single-signed, restricting to c, trace-invisible 340/340, two-sided
+controls); its LAW (κ, the founding Fricke invariant); its SELECTOR-FREEDOM (ε constant on the
+pair's orbit); the assembly closing zero-orphans; D3's rank-4 all-complex closure; and the Φ₃
+unification.
+
+**2. Self-audit — the errors this window, all caught, none reaching a remote uncorrected.**
+(a) **My own two, at the D2 gate (B1197), both self-caught before any verdict**: I first swept the
+**wrong census** (the 112-member shape-field family instead of the Dehn closings — caught by
+re-reading the source condition rather than trusting my reading of it), and the corrected run then
+hit a **vacuity trap** (an empty census made `all()` return True and print "MONOTONE" over nothing —
+caught only because the census size was printed alongside; a vacuity guard is now committed). The
+MB12 class, twice in one cell. (b) **The L190 direction word** ("excess" transitive reach) was
+**wrong and had passed both a bank and a review** — corrected at B1188, retired into
+RETRACTED_PHRASES with a retraction row. (c) **A tiering slip the owner caught**: batch 1 launched
+with all 15 agents inheriting the top model against the standing cost rule; stopped within a minute,
+re-tiered, memory updated with the concrete pattern. (d) **Workflow args failed twice** on JSON
+quoting — the second time mid-array, killing a launch; the guard is now in the script. (e) A sympy
+non-simplification printed "SAME SET: False" during the Φ₃ check — **caught before banking** by
+expanding by hand. (f) Gate-caught pre-push, four times: the attribution token inside copied agent
+scripts (twice), doc-currency crossing tolerance (twice). (g) **Lens-caught, adopted not smoothed**:
+GC-2's norm-+1 quantifier (re-scoped to the exhibited pairs), GC-6's kind error (a q-prefactor
+exponent matched against conformal weights), GC-8's unproven mechanism plus a false
+"third-independent-cell" support, GC-9's complex-27 sub-instrument, GC-11's six omitted ledger rows,
+GC-29's third control (withdrawn), and **GC-30/R6's reconciliation refuted outright — no note
+banked**, which is the better outcome.
+
+**3. Instruments.** **NEW: the close-loop workflow** — one compute cell per ledger row, two
+adversarial lenses each, structured verdicts, refutations archived verbatim beside the cells they
+kill. It is now the campaign's standard instrument and its survival statistics are its own control.
+**Model tiering enforced inside it** (verify lenses on the cheap tier at medium effort; at most one
+`hard` cell per batch) per the owner's standing cost rule. **NEW: the mod-2 étale census** (B1187,
+55,980 words to depth 10). **THE MOD-q CERTIFICATE MOVE** (R51's §G law) did real work at WALL-7.
+**Still owed**: the OA_SLOW one-run (R52-4) — the window's oldest instrument debt.
+
+**4. The reconciliations (stated once, authoritative).** **THE GRAND COMPUTATION v0**
+(`docs/GRAND_COMPUTATION_v0.md`): the universe in the object's own units — arena and clock in ticks
+of A₁ = RL; the meter with the whole family as integers in V_reg and S(member n) = −n·V_reg·σ, zero
+free dimensionless constants; the forced content; the dimensionless coupling shapes; the typed input
+slots; the deletion schedule. **THE END-STATE INPUT LIST**: ℓ (external by design) + the relational
+c-bit + finite labels + σ (one bridge from deletion) + λ (placed, B1195) + the ℙ³ line (permanent at
+current knowledge, B1195). **THE OBSERVER IS NO LONGER A TERMINAL VERDICT**: its bit is
+**constructed** (B1192), **governed by the founding invariant** (B1195), and **selector-free**
+(B1196) — it arrives as invariant pair-data with no selection act. **THE EXISTENCE AUDIT** (B1194,
+under the owner's exhaustion rule): HAVE ×12, PROVABLY-CANNOT ×8 (walls that *name where each
+ingredient lives*), MISSING = 8 — and all eight were then dispositioned (B1195/B1196): 1 sharpened,
+2 closed, 3 halved, 4 law-found, 5 closed-permanent, 6 closed, 7 resolved, 8 created. **THE Φ₃
+UNIFICATION** (B1200): audit items 1 and 4 are one invariant — the saddle set IS {κ−2, its
+conjugate}, and the linking map u ↦ u² is c itself. **THE TWO CAMPAIGNS** (B1193): both seats ran
+the directive blind and converged (λ as THE residue, independently, by both; the arrow's
+external-≠-c seed; one clock generator; the meter three ways), with both catches adopted — their ℙ³
+floor amendment and our undercount correction. **cc3 RETIRED** with a full wind-down.
+
+**5. The state after the window.** *To state the universe in its own units and to enumerate and type
+every choice: we have what we need, and it is banked.* *To compute the measured numbers: we do not,
+and we now know exactly why and exactly what would suffice.* Two things are missing **in kind**:
+(i) **a forcing theorem** that selects one map before looking — MENU-1 made this quantitative
+(W₁ = 11,720, median spacing 3.5e−5: the prediction arm cannot be won by value-matching at this
+bound); (ii) **the cosmological dynamics** — `docs/COSMOLOGY_LEDGER.md` now exists as the surface,
+with rates, temperatures, the measured Λ and dark matter as MISSING rows carrying first probes.
+Behind them: L154's q-series bridge map (new mathematics; the algebraic half exists), and SEAM-A's
+specialist bar — whose **literature half came into hand this window** (B1198: Lee's motive whose
+regulator is our complex volume, on a path torsor whose tangential base point is **explicitly
+non-canonical**, with **4₁ as its verified appendix case** — the outside choosing the marking we
+proved the object cannot supply; CITED/UNVERIFIED, verification step named).
+
+**6. Protocol items.** **THE FINISHED-BUT-FORGOTTEN CLASS IS NOW SYSTEMIC**: four cumulative
+instances across two windows (QP-1 proved long before the register said open; L187's stabilizations;
+F2/F8's locks already banked at B1003; R5's proof banked at B775/B778 three weeks after the flag) —
+**two of them in this window**, and one struck the *lock registry itself*. This is no longer an
+incident class; **R52-1 makes register-vs-record drift a standing audit item** with its own detector
+fix (the representation-sweep's ≥500-char floor is structurally blind to one-sentence claims, which
+is exactly how the sharpest short-claim arcs stayed invisible). Doc currency: green (four living
+docs given real content mid-window: REPRESENTATION_TRIAGE, RETRACTED_PHRASES, RETRACTIONS,
+SM_SPECIFICATION_LEDGER). Rooms freshness: green (speculations/ and philosophy/ both touched
+in-window). Hemisphere check: every negative this window carried a door (GC-2's kill named the
+heterogeneous route that then succeeded; GC-6's kill typed the bridge's remaining object; B1197's
+split named the scope question). Seal spot-check: no new seals. Attribution: four gate catches, all
+pre-push. Relay hygiene: every relay rowed same-commit; the cloud relay sent; **cc3's lane closed**.
+**A new naming hazard filed** (B1199): "dark" in the N=p² law means Gauss-sum vanishing and must
+never be read into the cosmology ledger's dark-sector row.
+
+### Action items (Review 52)
+- [x] R52-0: the carry audit (§0) — every R51 key dispositioned; gate green.
+- [x] R52-1: the finished-but-forgotten class raised to a **standing audit item** (§6), with the
+  short-claim detector gap named (the ≥500-char floor).
+- [ ] R52-2: **THE HARVEST QUEUE** — cloud's six undigested commits (the fence/independence theorem,
+  the awareness verdict, the bit's ledger, the occupant's type incl. bench error #9 and the refuted
+  B9 norm law, the first-beat law, the pattern ladder) + **codex R020/R021/R022**; and the CITED
+  items owed a re-run: cloud's quine certificate (their memo 107, outcome Q1) and their memo-104
+  boundary construction. (owner: banking seat; verify-don't-trust as always)
+- [ ] R52-3: **the Lee verification** (B1198's named step): read §7.4 + Appendix A and answer — is
+  the admissible tangent-vector set a **torsor**, under what group (a ℤ/2 or V₄ is direct contact
+  with B1174/B1182); does the 4₁ confirmation use the CS = 0 degeneracy B1195/GC-21 made exact; does
+  the trace-field statement specialize to ℚ(√−3) as the seam needs. (owner: banking seat)
+- [ ] R52-4: **the instrument-debt tail** (ex-R51-4, ex-R50-5; lineage R49-3/R49-4 both DONE — B1178's 12x collection and B1177's reproducer sweep): the **OA_SLOW one-run** — now the
+  oldest instrument debt, twice killed by session end, to be run detached and landed; the R32 vacuity
+  queue + R46-11 lock-shape sweep; the promotion-currency review; the toolbox extraction seed.
+  (owner: banking seat, batched)
+- [ ] R52-5: **the cross-seat waits** (ex-R51-5, ex-R50-6, reduced): codex's **R023** (the 𝒯 evaluator + the
+  uncommitted load-target) + MC1 + the (α₂,α₄) dictionary + R018; cloud's **C6 completeness** (the
+  interface-completeness precondition — the one thing standing between "every choice typed" and
+  "provably every choice"); the B1169 verification (now two-seat). cc3's items are **closed by
+  retirement** — including **R48-4** (their B8127 verify), which will not come and is hereby retired,
+  not carried. (owners: the seats; cc harvests)
+- [ ] R52-6: **owner-electable** (ex-R51-6, ex-R50-7, under the standing HOLD): the cold pass over this window; the
+  census's 31 category calls (with B1199's label-collision note attached); the L173 mode-COUNT seal
+  path. **The θ-even designed crossing** (the last licensed contact row) and **the specialist
+  send-queue** remain **HOLD by the owner's word** — released only by the owner. Plus the owner's
+  live decisions: **D2's scope choice** (B1197 put it on data: trajectory reading ⇒ payable,
+  global reading ⇒ refuted).
+
+**Next review due after 20 merges from this anchor.**
+
+anchor-commit: `8aa71f07` (the B1200 bank, this window's last substantive commit before the review)

@@ -1,5 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Review 52 currency (2026-08-28, anchor 8aa71f07):** the grand-computation campaign — L188 CLOSED (B1199); **L190's direction corrected** (reach DEFICIT, B1188); the eight-item existence-audit list dispositioned (B1194–B1196); the Φ₃ unification (B1200). Next lead: **L192**.
+>
 > **Review 51 currency (2026-08-28, anchor 411fb260):** in-window: **L186 CLOSED (THREE — B1185)**; **L187 CLOSED (B1187**, the depth-closure sitting; E52 filed); **L190–L191 registered** (Ω's structured non-genericity; the B502 witness). Next lead: **L192**.
 >
 > **Review 50 currency (2026-08-27):** in-window: **L171 CLOSED (MOOD** — CLPW verified 8/8 by cc3, 4/4 spot-verified here; the reason moved to KMS/B721-complementary); **L173's precision column re-posed as a COUNT** (the mode-count observable commissioned, addendum-beside); **L185–L188 registered** (the qor5up residue; the three Yukawa mechanisms; the depth-closure backlog; the selection-cochain six claims). Next lead: **L192** (L190–L191 registered 2026-08-28, B1187). The register's Wave-3 head is the ℤ/2-identification cell (R50-3).

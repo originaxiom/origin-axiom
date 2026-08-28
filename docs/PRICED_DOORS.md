@@ -302,3 +302,13 @@ mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-cl
 dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
 The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
 standing word).*
+
+*Review 52 currency (2026-08-28, anchor 8aa71f07): THE GRAND COMPUTATION CAMPAIGN closed its first
+full arc. The universe is now stated in the object's own units (`docs/GRAND_COMPUTATION_v0.md`);
+every observer input is typed with its supplier (ℓ + the relational c-bit + finite labels + σ + λ +
+the ℙ³ line); **the observer's one bit is constructed, governed by the founding invariant κ, and
+selector-free**; the existence audit's eight missing items are all dispositioned; and the saddle,
+the founding obstruction and the boundary are proved to be one polynomial Φ₃ with c as the map
+between its faces. Missing in kind: a forcing theorem for the value arm, and the cosmological
+dynamics (`docs/COSMOLOGY_LEDGER.md` is the new surface). cc3 retired; cloud ran the same directive
+independently and converged.*
