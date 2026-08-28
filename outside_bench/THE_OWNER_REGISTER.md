@@ -257,3 +257,32 @@ This addendum is the only mutation.
 | R25 | **"elaborate and formulate it properly before attack, scan literature, see if we have more buried insight on the repo"** (2026-08-28; on the sufficiency question named by memo 114) | THE_SUFFICIENCY_QUESTION.md (§1–§7) | — (asked now) | **FORMULATED, NOT YET ATTACKED (by design).** The question is split into three inequivalent readings that were being blurred: **S-A** the sufficiency criterion (NEW, open, attackable), **S-B** the token question (open, external), **S-C** the phenomenal question (inexpressible, memo 109). S-A stated precisely as the existence of a predicate Occ on the eligible set E, with four preregistered admissibility gates (C1 internal · C2 non-trivial · C3 no unnamed extremal premise · C4 two-outcome testable) and four named attack routes (A1 extremal · A2 closure/fixed-point · A3 selector-regime · A4 no-go). **LITERATURE SCANNED:** the question is the recognised **boundary problem**; **both** leading extant criteria fail a C3-style gate — IIT's exclusion postulate by an imported maximality premise, FEP/Markov blankets by unstated assumptions and non-equivalent definitions; **RQM independently reaches memo 112's TYPE conclusion** (facts realised only at interactions between two systems — convergent support, not a solution); **Lawvere's fixed-point theorem** supplies A2's backbone (a fixed point is both observer and observed) and its negative half matches our quine's one-bit shortfall; decompositional-equivalence and undecidability-propagation results are prior art for **A4** | §6 (the repo sweep for buried prior work) — two sweeps running, to be folded in **by addendum before any attack**; then the preregistered attack order A2 → A4 → A3 (cc-gated) → A1 (premise-gated) |
 
 This addendum is the only mutation.
+
+### ADDENDUM 22 (2026-08-28) — R25 COMPLETED: the sweep ran and CHANGED THE PLAN before any attack
+§6 of THE_SUFFICIENCY_QUESTION is filled, every finding re-verified by
+the bench against the primary source. The decisive one: **B1184's
+SPLIT VERDICT refutes route A2 as first drafted** — "the fixed point
+EXISTS for the name … [not] for the sign (B1183: any setter would
+trivialize c's class; the class is nontrivial). There is no
+object-native basepoint-setter." A bit-SETTING fixed point provably
+does not exist, so A2 is re-specified to the **name** fixed point
+(A2′), which does. Also found: **B762** (m004 unique among 203,123
+census manifolds — the precedent for what a selecting criterion looks
+like in this programme); **B560 Cell_3** (a prior "the observer is φ"
+identification TESTED AND REFUTED — a standing bar for any candidate);
+**B717's c-as-SWAP** ("the observer is what BREAKS the swap"), the
+best functional handle, alongside the useful negative that the corpus
+**never defines a closer structurally**; the exact S2/S3 wordings
+(a different axis, but S3's "none neither" is criterion-shaped).
+**A HIRED-AGENT CLAIM WAS CORRECTED BY THE BENCH:** one sweep reported
+B1188–B1193 and GRAND_COMPUTATION_v0 "absent from this repository",
+which would have undercut cross-seat convergence claims — **false**;
+`git ls-tree origin/main` lists B1188–B1196 contiguously and
+`docs/GRAND_COMPUTATION_v0.md` exists (the sweep searched the local
+worktree, not the branch). The standing verify-against-primary rule
+applies to this bench's own agents exactly as to other seats.
+**NEW CONJECTURE, first for this question** (interpretive, labeled):
+if awareness = the name and choice = the sign, occupation may be
+exactly *"supports the name, receives the sign from outside"* — which
+would answer S-A and make S-B permanently external in one stroke.
+This addendum is the only mutation.
