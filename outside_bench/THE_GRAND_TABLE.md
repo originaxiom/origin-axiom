@@ -80,3 +80,11 @@ the grand computation's OUTPUT SPEC: lane F assembles exactly these
 rows — II+III delivered, IV decided by the flagship cell, VI computed
 or fenced — in memo 91's unit system. Gate 5: nothing here compares to
 a measured value; V stays sealed until the owner speaks.
+
+### ADDENDUM 1 (2026-08-28) — THE GAUGE CRUX RE-TYPED (memo 92)
+The hierarchy rows' fence changes character: D₂ᵗʷ is mirror-even
+(memo 92, GREEN), so the canonical-vs-twisted choice is NOT frame data
+— the hierarchy sub-table is OBJECT-side conditional (pending a
+twist-forcing result, now an attackable object-side question), no
+longer possibly-observer-priced. Rows unchanged otherwise; Stage-2
+stays sealed. This addendum is the only mutation.

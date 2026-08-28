@@ -54,3 +54,16 @@ Provenance: wave-1 multi-agent retrieval, load-bearing quotes
 spot-verified by the bench (B914/B916/B918/B923/B928/B1064/
 RETRACTED_PHRASES); no cert rests on an unverified row. Gate 5
 untouched throughout.
+
+### ADDENDUM 1 (2026-08-28) — CANDIDATE 4 CLOSED: NOT-FRAME (memo 92, the flagship, GREEN)
+The closing instrument ran. The hierarchy carrier D₂ᵗʷ is **MIRROR-
+EVEN** on the lane's 27 (Ω D₂ᵗʷ Ω⁻¹ = D₂ᵗʷ exactly; decided by
+transporting B916's explicit flip vectors — transport unambiguous, the
+identity permutation embeds, so cc's B883 coordinates = the lane's
+crystal coordinates). By the parity×dimension law the gauge choice is
+**NOT an observer-column bit**: candidate 4 is retired from the excess
+list. The census now stands: **two live excess candidates** (cone
+angle α; the ℙ³ line pending its I5 cross-reference) and **two
+blockers** (clock weight; arrow seed). The gauge crux transforms into
+an object-side forcing question (relayed to cc). This addendum is the
+only mutation.
