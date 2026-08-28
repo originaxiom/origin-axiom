@@ -1,0 +1,37 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+CHECK 1: B883's full weight system == the lane's crystal weights, identity
+   on coordinates (memo 92's cross-stack agreement, extended to all 27).
+CHECK 2: D2tw's two banked representations (index-signs vs flip vectors)
+   AGREE after transport — one twist, consistently recorded.
+CHECK 3: D IS a pure-family character: (b, polarity) = [((0, 1, 1, 1, 1, 0), 1)]
+   I      : beat-EVEN   (flips 0)
+   D2tw   : beat-EVEN   (flips 11)
+   D      : beat-BROKEN   (flips 12)
+   D2tw*D : beat-BROKEN   (flips 15)
+   parity is MULTIPLICATIVE on the Klein group: a character with
+   kernel {I, D2tw} — the hierarchy line is exactly the mirror-even subgroup.
+
+VERDICT (F5 REFINED, structure banked): the Klein group SPLITS under
+the mirror — elements ['D', 'D2tw*D'] are beat-BROKEN while the hierarchy
+line {I, D2tw} is beat-EVEN, and the split is a CHARACTER of the
+group (multiplicative, verified).  So B928's gauge 2-torsion is
+neither inside the mirror's centralizer nor disjoint from the mirror
+bit: it SURJECTS onto the mirror parity Z/2 with kernel exactly the
+hierarchy carrier's line.  The fourth-presentation hypothesis is
+refuted AS AN IDENTIFICATION (the groups are not one torsor) but the
+interlock is real: the gauge Klein group and the observer's c-leg
+share a common Z/2 quotient, realized by B912's wall twist D — while
+the hierarchy carrier D2tw is precisely the part the mirror cannot
+see (memo 92, now sharpened: it is the FULL mirror-even subgroup).
+Relay to cc with the table; F5's remaining residue is B1024's
+provisional d=2 (cc apparatus).
+Fences: parity is decided against the lane's banked mirror realization
+(memos 31-33/46; B1174's c-leg), as in memo 92.  The vendored diagonals
+are B916/B912's banked results (provenance in the docstring); CHECK 2's
+double-representation agreement is the corruption guard.  Gate 5
+untouched.

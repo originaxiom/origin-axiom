@@ -67,3 +67,11 @@ angle α; the ℙ³ line pending its I5 cross-reference) and **two
 blockers** (clock weight; arrow seed). The gauge crux transforms into
 an object-side forcing question (relayed to cc). This addendum is the
 only mutation.
+
+### ADDENDUM 2 (2026-08-28) — F5 REFINED-CLOSED (memo 93): the boundary cuts through the gauge sector along the hierarchy line
+B928's Klein group splits under the mirror: parity is a multiplicative
+character with kernel exactly {I, D₂ᵗʷ}. Fourth-presentation REFUTED
+as identification; the interlock is a surjection onto the mirror ℤ/2
+realized by B912's wall twist D (mirror-ODD — a new observer-column
+family entry). F5's residue: B1024's provisional d=2 (cc, relayed).
+This addendum is the only mutation.
