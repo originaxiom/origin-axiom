@@ -1,5 +1,25 @@
 # Changelog
 
+## B1187 (2026-08-28): L187 CLOSED — the depth-closure sitting; the verifiers re-verified
+
+All seven dispositioned. THE REGISTRATION CORRECTION: "none executed" was stale — B767 had already
+STABILIZED B489 (Binet, all n) + TOMB-L255 (Symᵈ functor, all d); verified standing. NEW CLOSURES:
+**TOMB-L34** (B742's own one-cut-profile design: slope a(N) stable across 7 sizes N=233..4181 × 2
+word windows, big-N [0.139, 0.210]; controls discriminate — random 0.022, periodic 0.000; two B767
+defects corrected: the vacuous "3 seeds" and the S/log L estimator artifact) and **WALL-7 mod-q at
+ALL t** (dim=0 at every nondegenerate t ∈ {1..865}, all 8 patterns, q = 1009 AND 1999, ~25s/prime
+via GF(q) reduction of the exact machinery; B767's "no-roots" logic error corrected — its 18 exact
+points gave generic-t over K; all-t root exclusion is the new step, mod two primes; K-exact route
+specified). RE-SCOPED: **TOMB-L310** — the kill stands on drift-artifact grounds, but B189's
+"indistinguishable from null" clause REVERSES at per-level 100-seed statistics (z_L10 = +11.2; the
+Ω-DAG has structured excess reach → L190). EXTENDED: **B685** at K=60/n≤240, ALL CHECKS PASS
+(3-integrality = the named remaining theorem). REFUTED-ROUTE: **B500**'s depth-uniform mod-2
+exclusion cannot exist — the new étale census instrument (GF(16) fixed schemes, det(J−I), Frobenius
+orbits) shows the child's 2-inert signature ABUNDANT from depth 5 (depth 4: zero — matching the
+clean depth-4 hunt); kill stays PROVISIONAL; B502 witness → L191. META for Review 51: three cells
+turned on prior-instrument defects + one clause reversed under better statistics — verify-the-
+verifier joins the checklist. Locks test_b1187 (5).
+
 ## B1186 (2026-08-27): the family-definition cell CLOSED — THE FAMILY IS 112 (cc3's B8152 harvested, verified, and corrected by one member)
 
 cc3 ran THE_REMAINING_MATH cell 2 within the hour of the queue doc's push (B8152: criteria nested,

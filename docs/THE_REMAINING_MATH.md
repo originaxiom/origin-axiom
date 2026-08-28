@@ -32,8 +32,8 @@ highest-leverage NEEDS-SPECIALIST bar) · branch selection (free-orbit theorem) 
 | 0 | the ℤ/2 / observer-layer campaign (S1→S4) | **DONE** — B1174, B1182, B1183, B1184 |
 | 1 | L186 three Yukawa-suppression mechanisms | **DONE** — B1185 (GENUINELY THREE); 𝒯 char-0 evaluator **commissioned to codex** (R023) |
 | 2 | the family-DEFINITION cell (B1180 residue) | **DONE** — B1186 (cc3's B8152 harvested + corrected): criteria strictly nested (77 ⊊ 112); **the family is 112** (t06829 the exactly-certified boundary member cc3's bound missed); amphichirality 112/112; quine intact |
-| 3 | L187 depth-closure backlog (7 EXPOSED kills, named stabilization paths, none executed) | **NEXT (recommended)** — the honest residual of the P1 negative corpus; batchable as one sitting |
-| 4 | L188 selection-cochain six claims (verification spec = the packet's own addendum) | QUEUED — bounded |
+| 3 | L187 depth-closure backlog | **DONE** — B1187: 2 were already closed (B767, registration stale); TOMB-L34 + WALL-7(mod-q, all t) closed here; TOMB-L310 re-scoped (B189's null clause REVERSED, 11σ → L190); B685 extended 3×/4×; B500's obstruction route refuted (mod-2 étale census; B502 witness → L191) |
+| 4 | L188 selection-cochain six claims (verification spec = the packet's own addendum) | **NEXT (recommended)** — bounded |
 | 5 | SEAM-A in-house: the CS=0 stationary-phase door (B1108) | QUEUED — the last in-house move on the W₀ bar before it is specialist-only |
 | 6 | census-31-calls (R45-5, owner:cc) · L145a · F11 · K014 · L189 (U_e/quasinormal) | QUEUED — smaller bounded cells |
 | 7 | the Kolmogorov Selector formalization · the torsor-law formalization (S074) | QUEUED — formalization tier (after the compute tiers) |

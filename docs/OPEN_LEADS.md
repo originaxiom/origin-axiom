@@ -1,6 +1,6 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-> **Review 50 currency (2026-08-27):** in-window: **L171 CLOSED (MOOD** — CLPW verified 8/8 by cc3, 4/4 spot-verified here; the reason moved to KMS/B721-complementary); **L173's precision column re-posed as a COUNT** (the mode-count observable commissioned, addendum-beside); **L185–L188 registered** (the qor5up residue; the three Yukawa mechanisms; the depth-closure backlog; the selection-cochain six claims). Next lead: **L189**. The register's Wave-3 head is the ℤ/2-identification cell (R50-3).
+> **Review 50 currency (2026-08-27):** in-window: **L171 CLOSED (MOOD** — CLPW verified 8/8 by cc3, 4/4 spot-verified here; the reason moved to KMS/B721-complementary); **L173's precision column re-posed as a COUNT** (the mode-count observable commissioned, addendum-beside); **L185–L188 registered** (the qor5up residue; the three Yukawa mechanisms; the depth-closure backlog; the selection-cochain six claims). Next lead: **L192** (L190–L191 registered 2026-08-28, B1187). The register's Wave-3 head is the ℤ/2-identification cell (R50-3).
 
 > **Review 49 currency (2026-08-26):** all three seams walked (L182) — SEAM-B discharged, SEAM-Y MISMATCH, **SEAM-A the one live crossing**, now **sharpened to a precise FLOOR** by B1156 (WF-1): the a-priori MISMATCH is refuted (a finite-truncation theorem, not a codomain wall — the full/Arakelov arith-CS carries Vol as the Borel regulator); the one open bar is the finite-phase→Vol map (Andersen–Hansen closed→cusped, NEEDS-SPECIALIST). **B1157** (WF-2 the dynamics): the ∞-place "dynamical law" reading is **structural rhyme** (firewall upheld — generic to any hyperbolic 3-manifold, never the arithmetic); the decidable substance is that H\*(m004;Sym²ᵐ) is never acyclic, refuting the closed-Fried antecedent of cc3's B8142b (its reflection stays conditional; cusped Park/Pfaff is the live framework). L183 (reproducer sweep) + L184 (collection lazy-fy) are the standing hygiene leads.
 
@@ -2056,7 +2056,7 @@ index is external to the object — generation-NULL, degree-2 trace field). The 
 direction falsified. Residue (fenced, organizing): three layers, restoration costs typed
 wall / continuous-ℙ³ (down readout; C12 trivial on B₀) / finite-3-label — the B1182 rhyme.
 
-## L187 — THE DEPTH-CLOSURE BACKLOG (registered 2026-08-27, B1172; source: cc3's P3 depth-exposure stratum, CC3_TO_CC_2026-07-22_p3_complete — the ledger's oldest debt, triaged)
+## L187 — CLOSED (B1187, 2026-08-28). THE DEPTH-CLOSURE BACKLOG (registered 2026-08-27, B1172; source: cc3's P3 depth-exposure stratum)
 
 cc3's P3 re-adjudication of 21 depth-flagged P1 negatives left **7 EXPOSED — genuine open gaps where the
 kill is underproved** (not wrong): B489 (absence-at-depth, n=1..8 only vs universal claim), B500 (depth≥6
@@ -2066,6 +2066,16 @@ pointwise to n=60/order 20), TOMB-L255 (value-mismatch, n=2..13 sketch), TOMB-L3
 **Named stabilization paths exist for each; none requires new mathematics; none has been executed.** The
 cell shape: per item, run the named stabilization; each either upgrades the kill to proved-at-depth or
 reopens it honestly. ★★★ (the honest residual of the whole P1 negative corpus; each item bounded).
+
+**CLOSED (B1187): all seven dispositioned.** The registration was stale — B767 had already closed
+B489 (Binet, all n) + TOMB-L255 (Symᵈ functor, all d). New: **TOMB-L34 CLOSED** (profile slope
+stable, 7 sizes × 2 windows, controls discriminate; two B767 instrument defects corrected);
+**WALL-7 CLOSED-mod-q at all t** (866 points × 8 patterns × q ∈ {1009, 1999}; B767's no-roots
+logic corrected; the K-exact route named); **TOMB-L310 re-scoped closure** (drift grounds stand;
+B189's "indistinguishable" clause REVERSED — 11σ at L10 → L190); **B685 extended 3×/4×**
+(K=60/n≤240 all-pass; 3-integrality = the named remaining theorem); **B500's obstruction route
+refuted** (the mod-2 étale census: the 2-inert signature is abundant from depth 5; depth-4 zero;
+kill stays PROVISIONAL; the B502 field-level witness → L191).
 
 ## L188 — THE SELECTION-COCHAIN SIX-CLAIM VERIFICATION (registered 2026-08-27, B1172; source: the B879 packet, 24-day debt escalated)
 
@@ -2105,3 +2115,25 @@ s=1/48 parity-twisted pair vs the PC22 identity; (8) *(one further item on the p
 Owner: the banking seat. The cell shape: per item, a bounded verify-or-register pass (bank, register as its
 own lead, or close-as-subsumed with the citation). ★★★ (U_e and the quasinormal channel are the two genuine
 physics-adjacent gaps in the record). Private source stays untracked; this row is the public owner.
+
+
+## L190 — THE Ω-DAG'S STRUCTURED NON-GENERICITY (registered 2026-08-28, B1187; source: the per-level matched-null test)
+
+B189's C3 called the Ω class-poset "indistinguishable from a matched random graded DAG" at 30 seeds.
+At 100 seeds per level the clause REVERSES: z(L=6..10) = (−2.2, −2.8, −2.3, +0.6, **+11.2**) — the
+full poset has significantly EXCESS transitive reach (d_MM 3.936 vs null 3.782 ± 0.014), and the
+z-trend is structured (below-null at small L, far above at L10). The kill (d_MM is a graded-poset
+artifact, not a spacetime dimension) is UNAFFECTED — the null still reproduces the ~4 to within 4%.
+The lead: WHAT is the Ω-DAG's excess-reach structure (more chain-like than its degree profile —
+which combinatorial law?), and does it carry object content? Bounded first cell: reach-profile
+statistics vs richer nulls (degree-preserving rewiring). ★★
+
+## L191 — THE B502 FIELD-LEVEL WITNESS (registered 2026-08-28, B1187; source: the mod-2 étale census)
+
+B502's parity conjecture ("every interaction-born field has 2 | d_K"; kill = ONE odd-disc witness)
+was preregistered but never run. The B1187 census refutes its exclusion power at the signature
+level (étale degree-4 closed points mod 2 are abundant from depth 5). The remaining bounded cell:
+pick one depth-5 signature word with a small eliminant, compute the exact eliminant (Sage), factor,
+compute d_K of a quartic factor — one odd d_K kills B502 clean; all-even across witnesses would
+revive it as a live conjecture with the census as its foil. **B398 airlock armed** (a d_K = −283 or
+field-iso hit = STOP, convene). ★★

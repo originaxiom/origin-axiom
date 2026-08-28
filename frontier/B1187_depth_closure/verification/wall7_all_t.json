@@ -1,0 +1,31 @@
+{
+ "deg_bound": 864,
+ "points": 866,
+ "primes": [
+  {
+   "q": 1009,
+   "sqrt_m3": 260,
+   "points": 866,
+   "violations": [
+    [
+     0,
+     "degenerate"
+    ]
+   ],
+   "seconds": 25.1
+  },
+  {
+   "q": 1999,
+   "sqrt_m3": 382,
+   "points": 866,
+   "violations": [
+    [
+     0,
+     "degenerate"
+    ]
+   ],
+   "seconds": 23.4
+  }
+ ],
+ "stage_a_clean": false
+}

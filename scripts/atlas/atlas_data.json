@@ -3746,6 +3746,36 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1187": {
+   "slug": "depth closure",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B189",
+    "B398",
+    "B489",
+    "B500",
+    "B502",
+    "B685",
+    "B742",
+    "B767",
+    "L11",
+    "L187",
+    "L190",
+    "L255",
+    "L310",
+    "L34"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B118": {
    "slug": "theta fixed root sign",
    "motifs": [
