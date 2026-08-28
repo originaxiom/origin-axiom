@@ -98,3 +98,23 @@ candidate 8). Instrument (i) remains blocked on the arrow-ℤ/2
 identification (the branch bit is now its leading candidate — the
 dynamical face of the same choice). This addendum is the only
 mutation.
+
+### ADDENDUM 2 (2026-08-28) — THE CLOCK COHERENCE CONDITION (new, named; the LEAP-1 refutability check typed and routed)
+Reading LEAP-1's source exactly (B303: Alexander–Magueijo–Smolin —
+CS-time conjugate to Λ) against W1 (HT: 4-volume-time conjugate to Λ)
+yields a consistency condition the record never named: **paying LEAP-1
+and W1 TOGETHER requires CS-time and volume-time to be the same clock
+up to monotone reparameterization** — two variables conjugate to the
+same Λ must agree as time up to canonical transformation. This is
+TESTABLE on the record's own closings: along the (1,n) ladder, CS must
+be monotone in Vol. The banked asymptotics are COHERENT so far (B289/
+B303: CS sign-constant with |CS| → 0 up the ladder; Vol ↗ Vol_cusp —
+both monotone toward the amphichiral origin), so the condition
+survives its first look. The full per-slope monotonicity check needs
+the (Vol, CS) pairs across the banked 78-closing census — SnapPy-side,
+**routed to cc** (their B289 instrument). TWO-OUTCOME once run:
+monotone ⟹ the two Λ-conjugacies are jointly payable (LEAP-1's price
+unchanged); non-monotone ⟹ LEAP-1 and W1 CANNOT both be paid — a
+genuine refutation of the joint package, which would force choosing
+between the AMS clock and the HT clock. Either outcome banks. This
+addendum is the only mutation.

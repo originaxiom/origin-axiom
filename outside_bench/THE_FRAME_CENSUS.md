@@ -75,3 +75,25 @@ as identification; the interlock is a surjection onto the mirror ℤ/2
 realized by B912's wall twist D (mirror-ODD — a new observer-column
 family entry). F5's residue: B1024's provisional d=2 (cc, relayed).
 This addendum is the only mutation.
+
+### ADDENDUM 3 (2026-08-28) — CANDIDATE 3 (the cone angle) TYPED: NOT-FRAME — a family modulus consumed by object selection
+The typing argument (from banked theorems; interpretive step labeled):
+α parameterizes the B248 cone-manifold FAMILY — different geometric
+objects on the same underlying space. The record's object is the
+COMPLETE structure, α = 0, and completeness is not an observer's
+ongoing closure datum: it is part of the object's founding selection
+(the uniqueness chain, memo 73 + the atlas' selection theorems), paid
+once at the definitional level — R10's family, the owner's recorded
+seat. Nothing in the banked physics of THE object is a function of α;
+the parity×dimension law does not apply to it because α is not an
+observable of the object (the law's domain) but a coordinate BETWEEN
+objects. VERDICT: **NOT-FRAME** — candidate 3 leaves the excess list;
+"who supplies α" dissolves into "which object", which the uniqueness
+chain answers to the record's banked extent. HONEST RESIDUES: (i) the
+family-level sign-transition surface (B981) stays a live structural
+surface, untouched; (ii) the definitional selection itself remains
+priced at R10 (the owner's admission), where it always lived. The
+census now stands: **ONE live excess candidate** (the ℙ³/I5
+continuum, awaiting cc's cross-reference) **+ two blockers** (the
+clock weight; the branch/seed bit). This addendum is the only
+mutation.
