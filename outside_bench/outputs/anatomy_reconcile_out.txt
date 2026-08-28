@@ -1,0 +1,91 @@
+R1 — the two anatomies, from primary:
+    kill_graph: 769 closure records
+    CANONICAL face labels (15): ['axioms', 'being', 'cascade', 'character-variety', 'children', 'congruence-tower', 'coupled-double', 'emittance-eigenvalues', 'emittance-lengths', 'hearing', 'infinite-hecke', 'meeting', 'mtc-overlay', 'none', 'sln-tower']
+    atlas: 1095 probes, 19 lexicon MOTIFS
+      ['amphichiral_cp', 'apolynomial', 'dickson_tower', 'eisenstein', 'figure_eight', 'firewall', 'five_web', 'golden', 'hyperbolicity_split', 'kappa', 'lorentzian', 'markov_cubic', 'metallic', 'quasicrystal', 'symplectic', 'torsion', 'trace_map', 'wrt_quantum', 'z3_generation']
+    NAME-OVERLAP: 0 (none — the CHANGELOG is right)
+
+    *** DATA-QUALITY FINDING, filed: 8 of the 23 distinct
+    `faces_consulted` values are FREE-TEXT PROSE, not face labels —
+    whole sentences with citations pasted into a categorical field.
+    Example (truncated): B1134 (the relay naming the 64 as the value target); B1138 (the fork z=0 IS the invariant-...
+    They are excluded below; the field needs a schema check.
+
+R2 — THE JOIN: 653 arcs carry BOTH a face and a motif.
+    (kill_graph ids: 769 · atlas ids: 1095)
+
+R3 — THE CONTINGENCY TABLE (13 faces x 19 motifs; 205 nonzero cells of 247 possible = 83.0% filled):
+
+                        amphic apolyn dickso eisens figure firewa five_w golden hyperb  kappa lorent markov metall quasic symple torsio trace_ wrt_qu z3_gen
+axioms                       0      0      0      0      1      0      0      1      0      0      0      0      0      0      0      0      0      0      0
+being                      148     36     37    245    195    224     11    189     12     66     62     20    108     19     51    120    137     87     91
+children                    37     10      7     56     62     51      2     42      9     18     14      6     28      2     14     47     37     14     24
+congruence-tower            15      1      2     48     33     63      5     58      0     16     10      3     47      3      6     53     30     27     21
+coupled-double              22      6      1     36     13     44      1     46      2     12     10      2     31      8      8     22     24     12     15
+emittance-eigenvalues        1      0      0     12     13      4      1      6      0      3      1      0      5      0      0      6      3      3      1
+emittance-lengths            7      1      0      9     11      7      0      3      1      1      3      0      2      0      2      7      5      5      2
+hearing                     80     22     23    136    122    175     14    220     13     97     57     29    165     43     26    104    145     93     53
+infinite-hecke               1      1      0      5      4      4      0      5      0      1      0      0      3      0      0      4      1      2      0
+meeting                     36     17      8     44     53     59      7     55      6     20     13      8     36      6     13     27     39     31     13
+mtc-overlay                 51     15      5     60     54     88      6     94      6     36     21      1     53      7      5     43     39     74     17
+none                         1      0      1      2      1      3      0      2      0      1      0      1      2      0      1      2      1      1      1
+sln-tower                   19     17     59     44     58     34      0     51      1     19     17     12     75      6     25     20     67     11     10
+
+R4 — THE VERDICT (criterion fixed in advance):
+    face                     arcs  motifs  top-motif share
+    axioms                      2       2           50.0%
+    being                    1858      19           13.2%
+    children                  480      19           12.9%
+    congruence-tower          441      18           14.3%
+    coupled-double            315      19           14.6%
+    emittance-eigenvalues      59      13           22.0%
+    emittance-lengths          66      15           16.7%
+    hearing                  1617      19           13.6%
+    infinite-hecke             31      11           16.1%
+    meeting                   491      19           12.0%
+    mtc-overlay               675      19           13.9%
+    none                       20      14           15.0%
+    sln-tower                 545      18           13.8%
+
+    motif                    arcs   faces   top-face share
+    amphichiral_cp            418      12           35.4%
+    apolynomial               126      10           28.6%
+    dickson_tower             143       9           41.3%
+    eisenstein                697      12           35.2%
+    figure_eight              620      13           31.5%
+    firewall                  756      12           29.6%
+    five_web                   47       8           29.8%
+    golden                    772      13           28.5%
+    hyperbolicity_split        50       8           26.0%
+    kappa                     290      12           33.4%
+    lorentzian                208      10           29.8%
+    markov_cubic               82       9           35.4%
+    metallic                  555      12           29.7%
+    quasicrystal               94       8           45.7%
+    symplectic                151      10           33.8%
+    torsion                   455      12           26.4%
+    trace_map                 528      12           27.5%
+    wrt_quantum               360      12           25.8%
+    z3_generation             248      11           36.7%
+
+    faces concentrated (>=80%) on one motif: 0/13
+    motifs concentrated (>=80%) on one face: 0/19
+    ==> VERDICT: ORTHOGONAL AXES
+
+THE RECONCILIATION:
+  The CHANGELOG's finding — "Overlap: ZERO — not one face is a motif" —
+  is a NAME fact, and it is correct.  But the joined data shows the two
+  schemes are not rivals for the same job: they cut the SAME arcs along
+  DIFFERENT, largely independent lines.
+  kill_graph asks WHICH PART OF THE OBJECT an arc touched (a face); the
+  atlas asks WHICH PATTERN RECURRED in it (a motif).  Those are
+  orthogonal coordinates, so zero name-overlap is exactly what a
+  well-formed pair of axes looks like — NOT a defect to be repaired.
+  THE HONEST FIX: not a merge but a STATED PAIRING — the corpus should
+  record that its two anatomies are the two axes of one grid, and that
+  an arc's full address is (face, motif).  The contingency table above
+  IS that grid, computed for the first time.
+  FENCE: this is repository metadata, not an object claim; the join
+  covers only arcs present in BOTH artifacts, and arcs missing a face
+  or a motif are outside it.
+Gate 5 untouched.
