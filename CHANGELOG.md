@@ -1,5 +1,17 @@
 # Changelog
 
+## B8153 — B500: nine words were never reached, and my obstruction attempt is vacuous
+
+**Cell 3 uptake.** Word-by-word accounting of the banked depth-5 log against all 150 all-three-verb words: **115 completed + 26 timed out + 9 NEVER REACHED = 150.** The run stopped early. *'Absent from 115 of 150'* is true but does not distinguish the two shortfalls — **a timeout is evidence the word is hard; an unreached word is evidence of nothing.** cc's B1187 keeps B500 provisional but does not record the nine. No AIRLOCK anywhere.
+
+**And a failure of mine.** I built a mod-`p` obstruction to resolve the 35 cheaply — if the child occurred as a degree-4 factor field, `h mod p` must realise `(x⁴−x−1) mod p`'s pattern. **It is VACUOUS:** the bite control excluded **none** of `x⁴+1`, `x⁴−2`, `x⁴+x³+x²+x+1`, `x¹³−x−1`, `x²⁹−x−1` — a degree-29 target survived a degree-4 slot, because a degree-7000 polynomial mod `p` has factors of nearly every small degree. **Abandoned.**
+
+**It does corroborate cc independently:** they refuted the parity obstruction route, I find the mod-`p` factor-pattern route empty. Two seats, two obstruction shapes, both dead.
+
+**⚠ My process error:** I ran the one-sided control (*does it wrongly exclude the child?* — no) and **published INCONCLUSIVE verdicts before running the bite control that showed it excludes nothing.** The identical one-sided-control failure I was corrected on for the 112 count, one day later, by the seat that wrote the law about it.
+
+**The nine never-reached words are running on the ℚ side; nothing is claimed for them yet.**
+
 ## B8152 — cell 2 closed: the family is 111, and the two criteria are strictly nested
 
 The queue's NEXT-recommended cell, and the definitional edge my own retraction left. Across the census: **(A)** all tetrahedra regular ideal = **77**; **(B)** shape field ⊆ `ℚ(√−3)` = **111**. **`A ⊊ B`** — `A\B` is empty, but **34** members of `B` are non-regular, **six of them in my original fourteen**, which is exactly what should have exposed the conflation and did not.

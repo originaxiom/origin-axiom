@@ -1,0 +1,9 @@
+B500 stabilisation: target d_K=-283
+never-reached depth-5 words: 9
+DDFMD: TIMEOUT at 1800s
+DDFDM: TIMEOUT at 1800s
+DDMFF: eliminant deg 3496; small factors: ['deg2', 'deg3', 'deg6', 'deg9']
+DDMFM: eliminant deg 46; small factors: ['deg2', 'deg10', 'deg11', 'deg11', 'deg11']
+DDMFD: eliminant deg 46; small factors: ['deg2', 'deg10', 'deg11']
+DDMMF: ERROR PariError
+DDMDF: eliminant deg 7036; small factors: ['deg2', 'deg10', 'deg11']

@@ -1,0 +1,55 @@
+CONTROL child-vs-itself realisable at every prime: True
+FMMMD: eliminant vanishes mod 10007 -- inconclusive here
+FMMMD: eliminant vanishes mod 10009 -- inconclusive here
+FMMMD: eliminant vanishes mod 10037 -- inconclusive here
+FMMMD: eliminant vanishes mod 10039 -- inconclusive here
+FMMMD: eliminant vanishes mod 10061 -- inconclusive here
+FMMMD: eliminant vanishes mod 10067 -- inconclusive here
+FMMMD: eliminant vanishes mod 10069 -- inconclusive here
+FMMMD: eliminant vanishes mod 10079 -- inconclusive here
+FMMMD: not excluded by any tested prime -- INCONCLUSIVE, needs the Q-side factorisation
+FMMDD: eliminant vanishes mod 10007 -- inconclusive here
+FMMDD: eliminant vanishes mod 10009 -- inconclusive here
+FMMDD: eliminant vanishes mod 10037 -- inconclusive here
+FMMDD: eliminant vanishes mod 10039 -- inconclusive here
+FMMDD: eliminant vanishes mod 10061 -- inconclusive here
+FMMDD: eliminant vanishes mod 10067 -- inconclusive here
+FMMDD: eliminant vanishes mod 10069 -- inconclusive here
+FMMDD: eliminant vanishes mod 10079 -- inconclusive here
+FMMDD: not excluded by any tested prime -- INCONCLUSIVE, needs the Q-side factorisation
+FMDMM: eliminant vanishes mod 10007 -- inconclusive here
+FMDMM: eliminant vanishes mod 10009 -- inconclusive here
+FMDMM: eliminant vanishes mod 10037 -- inconclusive here
+FMDMM: eliminant vanishes mod 10039 -- inconclusive here
+FMDMM: eliminant vanishes mod 10061 -- inconclusive here
+FMDMM: eliminant vanishes mod 10067 -- inconclusive here
+FMDMM: eliminant vanishes mod 10069 -- inconclusive here
+FMDMM: eliminant vanishes mod 10079 -- inconclusive here
+FMDMM: not excluded by any tested prime -- INCONCLUSIVE, needs the Q-side factorisation
+FMDMD: eliminant vanishes mod 10007 -- inconclusive here
+FMDMD: eliminant vanishes mod 10009 -- inconclusive here
+FMDMD: eliminant vanishes mod 10037 -- inconclusive here
+FMDMD: eliminant vanishes mod 10039 -- inconclusive here
+FMDMD: eliminant vanishes mod 10061 -- inconclusive here
+FMDMD: eliminant vanishes mod 10067 -- inconclusive here
+FMDMD: eliminant vanishes mod 10069 -- inconclusive here
+FMDMD: eliminant vanishes mod 10079 -- inconclusive here
+FMDMD: not excluded by any tested prime -- INCONCLUSIVE, needs the Q-side factorisation
+FMDDD: eliminant vanishes mod 10007 -- inconclusive here
+FMDDD: eliminant vanishes mod 10009 -- inconclusive here
+FMDDD: eliminant vanishes mod 10037 -- inconclusive here
+FMDDD: eliminant vanishes mod 10039 -- inconclusive here
+FMDDD: eliminant vanishes mod 10061 -- inconclusive here
+FMDDD: eliminant vanishes mod 10067 -- inconclusive here
+FMDDD: eliminant vanishes mod 10069 -- inconclusive here
+FMDDD: eliminant vanishes mod 10079 -- inconclusive here
+FMDDD: not excluded by any tested prime -- INCONCLUSIVE, needs the Q-side factorisation
+FDMMM: eliminant vanishes mod 10007 -- inconclusive here
+FDMMM: eliminant vanishes mod 10009 -- inconclusive here
+FDMMM: eliminant vanishes mod 10037 -- inconclusive here
+FDMMM: eliminant vanishes mod 10039 -- inconclusive here
+FDMMM: eliminant vanishes mod 10061 -- inconclusive here
+FDMMM: eliminant vanishes mod 10067 -- inconclusive here
+FDMMM: eliminant vanishes mod 10069 -- inconclusive here
+FDMMM: eliminant vanishes mod 10079 -- inconclusive here
+FDMMM: not excluded by any tested prime -- INCONCLUSIVE, needs the Q-side factorisation

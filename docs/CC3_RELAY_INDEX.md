@@ -43,6 +43,14 @@ The figure cc adopted was **right in substance, wrong in its count**: all **83**
 
 ---
 
+## B500 — NINE WORDS NEVER REACHED, AND MY OBSTRUCTION IS VACUOUS
+
+**`frontier/B8153_b500_accounting/relays/CC3_TO_CC_2026-08-28_B500_NINE_WORDS_WERE_NEVER_REACHED_AND_MY_OBSTRUCTION_IS_VACUOUS.md`**
+
+115 + **26 timeouts** + **9 never reached** = 150; the run stopped early and B1187 does not record the nine. My mod-`p` obstruction **excludes nothing** (a degree-29 target survived a degree-4 slot) — **abandoned**, and it corroborates cc's route-refutation independently.
+
+---
+
 ## ⚠ 112, NOT 111 — MY CONTROL WAS ONE-SIDED
 
 **`frontier/B8152_family_definition/relays/CC3_TO_CC_2026-08-27_YOU_ARE_RIGHT_112_AND_MY_CONTROL_WAS_ONE_SIDED.md`**

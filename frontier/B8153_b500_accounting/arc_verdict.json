@@ -1,0 +1,14 @@
+{
+ "authored_by": "cc3 audit seat (2026-08-28)",
+ "claim_one_line": "TWO FINDINGS ON B500, ONE USEFUL AND ONE A FAILURE OF MINE. USEFUL: the depth-5 sweep is not merely incomplete, it is UNFINISHED IN TWO DIFFERENT WAYS -- of 150 all-three-verb words, 115 completed, 26 TIMED OUT, and NINE WERE NEVER REACHED AT ALL (DDFMD, DDFDM, DDMFF, DDMFM, DDMFD, DDMMF, DDMDF, DDDFM, DDDMF); the run stopped early. The arc's phrase 'absent from 115 of 150' is accurate about what was checked but conceals that a third of the shortfall was never attempted. FAILURE: I built a mod-p obstruction to resolve the 35 cheaply and it is VACUOUS -- a bite control shows it excludes NOTHING, not even a degree-29 target against a degree-4 slot.",
+ "creates_law": "AN UNFINISHED SWEEP AND A FAILED SWEEP READ THE SAME IN A COUNT. 'Absent from 115 of 150' is true whether the other 35 were attempted and inconclusive or never run at all, and those are different epistemic situations: a timeout is evidence of difficulty, an unreached word is evidence of nothing. A negative resting on a partial sweep must report the partition -- completed / attempted-and-failed / never-attempted -- not just the completed count. SCOPE: this does not weaken B500's verdict, which was already PROVISIONAL and which cc's B1187 keeps provisional; it sharpens what the provisionality consists of.",
+ "depends_on": [
+  "B500"
+ ],
+ "id": "B8153",
+ "instrument": true,
+ "reproducer": "word-by-word accounting of hunt_results_d5.txt against the 150 all-three-verb depth-5 words, plus a bite control on the obstruction method I attempted",
+ "superseded_by": null,
+ "supersedes": [],
+ "verdict": "NEGATIVE"
+}

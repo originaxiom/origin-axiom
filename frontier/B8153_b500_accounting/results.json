@@ -1,0 +1,37 @@
+{
+ "my_failed_method": {
+  "convergence": "cc's B1187 independently reports the B500 obstruction route REFUTED. Two seats, two obstruction attempts, both dead -- which is itself worth banking as a boundary.",
+  "idea": "prove absence mod p: if the child K = Q[x]/(x^4-x-1) occurred as a degree-4 factor field of the eliminant h, then for good p, h mod p must contain factors realising the degree pattern of (x^4-x-1) mod p. Elimination over F_p is cheap even in degree 7000.",
+  "my_process_error": "I ran the one-sided control first (the child must not be wrongly excluded -- it passed) and PRESENTED INCONCLUSIVE RESULTS before running the bite control that showed the test excludes nothing. Same one-sided-control failure I was corrected on for the 112 count, one day later.",
+  "the_bite_control": "run the obstruction against deliberately-absent targets. It excluded NONE of x^4+1, x^4-2, x^4+x^3+x^2+x+1, x^13-x-1, or x^29-x-1 -- a degree-29 polynomial was not excluded from a degree-4 slot.",
+  "verdict": "VACUOUS. Abandoned. Its INCONCLUSIVE verdicts carry no information.",
+  "why_it_fails": "a degree-7000 polynomial over F_p has irreducible factors of essentially every small degree, so the pattern is realisable for almost any target and the test never excludes"
+ },
+ "not_claimed": [
+  "that B500's verdict is wrong -- it was provisional and stays provisional",
+  "that the obstruction idea is unsalvageable in principle -- only that THIS realisation of it is vacuous",
+  "any result for the nine words -- the run is still going"
+ ],
+ "the_accounting": {
+  "all_three_verb_depth5_words": 150,
+  "check": "115 + 26 + 9 = 150",
+  "completed_with_a_verdict": 115,
+  "never_reached": 9,
+  "never_reached_words": [
+   "DDFMD",
+   "DDFDM",
+   "DDMFF",
+   "DDMFM",
+   "DDMFD",
+   "DDMMF",
+   "DDMDF",
+   "DDDFM",
+   "DDDMF"
+  ],
+  "not_in_cc_closure": "B1187 closes L187 and keeps B500 PROVISIONAL, but does not record the never-reached nine",
+  "timed_out": 26,
+  "why_it_matters": "a timeout is evidence the word is hard; an unreached word is evidence of nothing at all. The banked phrasing does not distinguish them."
+ },
+ "the_airlock_check": "the only match for '283' in the depth-5 log is the header line stating the target. NO AIRLOCK, no child hit, in any completed word.",
+ "what_remains": "the nine never-reached words are being run to completion on the Q side (hunt_d5_finish.py, 1800s timeout each); that is the part of the stabilisation that is genuinely mine to finish and it is not yet done."
+}
