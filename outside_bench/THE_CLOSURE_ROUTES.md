@@ -89,3 +89,151 @@ your decisions (D1–D4, and MENU-1's bound); two are the world's (E1, E2).
 No item remains that is open for lack of a plan — what remains open is
 open for lack of a seat, a decision, or a publication, and each row says
 which.
+
+### ADDENDUM 1 (2026-08-28) — D1–D4 ELABORATED (the owner asked for options and the bench's recommendations; recommendation passages are the bench's judgment, labeled; every anchor banked)
+
+**The cross-cutting fact first: D1–D4 are not four independent choices —
+they form a small decision DAG.** D1 is independent and cheap. D2 has a
+free refutation test pending (route B4). D3's buy DEPENDS on D2 (LEAP-2
+buys matter-over-antimatter only WITH LEAP-1), so it sequences after.
+D4's success criterion depends on E2 (S2/S3 completeness), so spec now,
+build after. The recommended package is one line: **adopt D1 now; gate
+D2 on the clock-coherence run; bless D3's repricing now (do not pay it
+as posed); spec D4 now and build after E2; co-sign MENU-1's bound.**
+
+---
+
+**D1 — the selection theorem's one premise** ("the physical Hermitian
+structure is a generation-resolving one", THE_SELECTION_THEOREM.md).
+
+*Options.* (a) ADOPT as a named premise → the gauge crux becomes a
+theorem-with-one-premise: B928's uniqueness + B923's degeneracy of the
+canonical alternative + memo 92/93's mirror-evenness leave exactly
+H₊D₂ᵗʷ, at zero frame cost. (b) DEMAND DERIVATION → a new campaign;
+the bench searched and found no cell (the premise connects a census
+member to physical inhabitation — nothing banked computes that link).
+(c) DECLINE → the gauge crux stays an open mechanism and the whole
+value arc (hierarchy carrier, HIER identity, den(V) = 𝔭₁(953)⁴) keeps
+its "which gauge?" asterisk.
+
+*Recommendation: ADOPT, and price it in a NEW, lighter class than the
+LEAPs.* Reasons: (i) it is not an identification of two structures
+(the LEAP shape) — it is a typing premise, the same kind already
+accepted silently elsewhere ("the physical inner product is
+Hermitian"); (ii) its refuters are named and sharp — exhibit a second
+generation-resolving census member (kills B928's uniqueness) or show
+the premise imports frame data (kills memo 92's parity) — so adoption
+is maximally falsifiable, not a faith payment; (iii) memo 92/93 certify
+the choice costs NOTHING from the observer column — among all premises
+on the ledger this is the only one with a banked zero-cost certificate.
+Insight (interpretive, labeled): the premise is weaker than an
+anthropic principle — it does not select among worlds, it selects among
+DESCRIPTIONS, and the record itself already banks three resolved
+generations as object structure; what the premise adds is only that the
+description physics uses is one where that resolution is visible.
+Suggested ledger name: **SELECTION PREMISE SP-1** (distinct class from
+LEAP; one entry; refuters attached).
+
+---
+
+**D2 — LEAP-1** (CS-time / σ-clock = the cosmological clock; H90/B303;
+weld book W2).
+
+*Options.* (a) PAY NOW → buys: CP sign internal (= CS-clock sign),
+expansion FORM object-side (exponential, ratio φ per tick — memo 90),
+W1's conjugacy gets a physical clock; costs: one unproven
+identification, against B721's tracial-time obstruction. (b) REFUSE →
+memo 90's expansion-form conditional stays conditional forever; the CP
+sign stays a frame bit. (c) **DEFER ON THE COHERENCE GATE** (weld book
+addendum 2): paying LEAP-1 and W1 together REQUIRES CS-time and
+volume-time to be the same clock up to monotone reparameterization —
+testable on the banked 78-closing census, (Vol, CS) per slope, routed
+to cc (row B4).
+
+*Recommendation: (c) — do not pay before B4 returns.* The coherence
+condition is a FREE refutation opportunity: the asymptotics already
+banked (|CS| → 0 monotone up the ladder, Vol ↗ Vol_cusp) mean the
+package survived its first look, so the run is a genuine two-outcome
+test, not a formality. Paying now would spend the record's one cheap
+chance to falsify the package before the money is down. If B4 returns
+MONOTONE → pay (the buy is the single largest on the sheet, and the
+price was always going to be one identification); if NON-MONOTONE →
+the joint package is REFUTED and the decision sharpens to AMS-clock
+XOR HT-clock — a better decision than today's is even possible.
+Insight: this converts D2 from "pay or refuse" into a conditional that
+the record itself will resolve — strictly better than either
+unconditional answer.
+
+---
+
+**D3 — LEAP-2** ("the arrow is forced"; weld book W2 + addendum 1).
+
+*Options.* (a) PAY → accept the arrow with its updated price: memo 94's
+two-branch law means the buy requires paying the BRANCH BIT (the
+seed/direction bit, census candidate 8). (b) HOLD for an object-side
+arrow → the bench has exhausted every banked route: B124 (no arrow in
+the tower spectrum), memo 94 (entropy monotone on one branch only),
+memos 97/101 (NO banked involution — not c, not C, not P, not R, not
+γ₅, not the sign twists — reaches the branch swap); the only live
+thread is cc's branch↦r level-crossing (row B3), which would give the
+bit an ARITHMETIC carrier (the disc-48 swap) but would not make it
+object-forced — a carrier is not a cause. (c) REFUSE entirely → leaves
+matter-over-antimatter unaccounted at the frame interface.
+
+*Recommendation: neither pay nor refuse AS POSED — RETYPE, and bless
+the retyping.* "The arrow is forced" is, on the banked evidence, FALSE
+as an object claim: three independent negatives, each exact. But the
+arrow is not therefore mysterious — it is EXACTLY ONE BIT, the
+best-typed bit on the whole ledger (orbit-level face: the ±-torsor on
+the golden eigenline, memo 101; founding-level: excluded from K₄,
+memo 98; its time-reversal partner is the γ₅ Galois — so the CHOICE
+that remains is precisely "which branch", nothing larger). The weld
+book's addendum 1 already reprices LEAP-2 this way; what remains is
+the owner's blessing so the ledger stops carrying "the arrow is
+forced" as a payable and carries instead: **ARROW = the branch bit,
+frame-priced, one bit, reach total** (matter-over-antimatter follows
+WITH LEAP-1 — so this decision inherits D2's gate and should be taken
+after it). Insight (interpretive): the owner's own recorded directive
+— "not forced" prices the bit to the observer and contradicts nothing
+— is exactly this retyping; D3 is the directive applied to its most
+important instance.
+
+---
+
+**D4 — the S4 quine** (unbuilt; S1 fully proved B1183, S2/S3 pending
+cloud C6 = row E2; memo 37: self-report complete except the mirror
+bit; B1184: quine self-naming, half-answer).
+
+*Options.* (a) AUTHORIZE SPEC-THEN-BUILD: a SPEC cell first (what must
+the quine output, what counts as success/failure — preregistered
+two-outcome), then the construction. (b) BUILD DIRECT → risks sprawl:
+the only item on the ledger that is a construction rather than a
+verification or decision, with no success criterion yet. (c) LEAVE
+FENCED → the fence's one question ("why is the seat occupied") stays
+interpretive forever.
+
+*Recommendation: (a), with the spec authorized NOW (bench-runnable,
+cheap) and the BUILD gated on E2.* Reason for the gate: the quine's
+success criterion is "self-description complete except for X" — and
+what "complete" must cover is exactly what S2/S3's completeness check
+determines; building before E2 returns means building to a criterion
+that may move. Insight (interpretive, labeled): memo 37's shape
+predicts the outcome — a quine buildable EXCEPT the mirror bit would
+show that occupation of the seat requires exactly one import, and it
+is the same one bit that reappears at every level (c at the mirror,
+the branch in the dynamics, the swap's choice in the r-carrier). If
+the build lands there, the fence's question sharpens from "why
+occupied" to "one bit buys occupation" — which would be the
+programme's cleanest statement of what an observer IS. That is worth a
+spec; the spec will say whether it is worth a build.
+
+---
+
+**The fifth small decision (MENU-1's complexity bound), folded in:**
+recommend fixing the bound FROM banked structure rather than choosing
+a number — maps composed of banked objects only, with degree confined
+to the degree ledger's rank-1 lattice {−2, 0, 1, 3} (memo 96) and
+composition depth ≤ the weld book's price scale. The bench will write
+the precise bound into the MENU-1 preregistration; the owner co-signs
+or amends ONE line. This keeps the instrument's one free parameter
+from becoming a tuning knob. This addendum is the only mutation.
