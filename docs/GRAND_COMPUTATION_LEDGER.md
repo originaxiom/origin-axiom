@@ -129,3 +129,7 @@ five travelers (v0 §10) harvest-verify in parallel. Codex's R020 two-beats fenc
 clock rows. Catch 2 (ours, adopted by cloud): the old 2+1 count was an undercount — now a
 two-seat-established finding.
 
+## B1198 — the SEAM-A bar's literature half (routed, 2026-08-28)
+
+The NEEDS-SPECIALIST bar (row H/the sign row's wall) now has its reading list **in hand rather than absent**: Lee arXiv:2502.11950 constructs the motive whose regulator is our complex volume and realizes it on a path torsor whose **tangential base point at the ideal point is chosen, not derived** — the outside instance of the missing marking, with **4₁ as its verified appendix case**. Grade CITED/UNVERIFIED (E37); the named verification step is §7.4 + Appendix A. This changes the bar's *reading list*, not its shape.
+

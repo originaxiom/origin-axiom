@@ -3962,6 +3962,24 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1198": {
+   "slug": "lee motives retrieval",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B680",
+    "B683",
+    "B707",
+    "B760"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dormant",
+   "domain": "topology"
+  },
   "B119": {
    "slug": "mk scalar mechanism",
    "motifs": [

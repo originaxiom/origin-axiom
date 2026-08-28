@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1091** |
-| words of findings prose | **745,218** |
+| research arcs with findings | **1092** |
+| words of findings prose | **746,115** |
 | test lock files referenced | **671** |
-| arcs carrying an authored verdict | **1091** (100.0 %) |
+| arcs carrying an authored verdict | **1092** (100.0 %) |
 | recorded closures | **769** (602 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -35,7 +35,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 |---|---|
 | PROVED | 721 |
 | NEGATIVE | 299 |
-| OPEN | 61 |
+| OPEN | 62 |
 | RETRACTED | 10 |
 
 ## How the doors were shut

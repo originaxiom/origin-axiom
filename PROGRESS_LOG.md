@@ -12098,3 +12098,21 @@ committed. **D2's consequence**: neither declared outcome fires cleanly — on t
 (the record's own distinguished cusp-approaching path) the joint LEAP-1+W1 package survives and is
 payable; on the global/variable reading it is refuted and the choice becomes AMS XOR HT. The scope
 choice is the owner's, now made on data. Locks test_b1197 (3).
+
+## B1198 (2026-08-28): THE SPECIALIST BAR'S LITERATURE HALF — B707's never-run "Lee's motives" test retrieved
+
+WebSearch returned to this bench; the first search against SEAM-A found B707's **third named
+bridge test** had its object in hand. **Lee (arXiv:2502.11950, Feb 2025)**: for any finite-volume
+hyperbolic 3-manifold, a **mixed Tate motive over the invariant trace field whose Beilinson
+regulator is the PSL₂(ℂ) CS invariant = the complex volume**, Hodge-realized on a **path torsor
+between the geometric point and a tangential base point at an ideal point**. Three facts B707 did
+not have: **the appendix confirms the conjecture for 4₁ — our object**; **the tangential base point
+is NOT canonical** ("any tangent vector satisfying the condition"); and the paper's own caveat that
+the motivic path torsor is hypothetical for non-rational curves. **The convergence**: the outside's
+state of the art supplies a marking at the cusp **by choice, not derivation** — an independent
+instance of the shape our record proved from the inside. Our half computed fresh (40 dps): Vol =
+(3√3/2)L(χ₋₃,2) = 9√3ζ_K(2)/π², complex volume = π²/6 + i·Vol to 2.3e−41. **Fences (E37 on myself)**:
+abstract + automated HTML read only — the mathematics is CITED/UNVERIFIED, and "tangential base
+point ≈ W₀" is a HYPOTHESIS, not a theorem; it does not supply W₀. Verification step named
+(§7.4 + Appendix A: is the tangent-vector set a torsor, under what group; does 4₁'s case use CS=0).
+Locks test_b1198 (3).
