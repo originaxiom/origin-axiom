@@ -159,6 +159,21 @@ These are exhaustive, since any successful selector either fails to be $G$-invar
 or is invariant for a smaller group (case (i)).
 \end{escape}
 
+\begin{remark}[which involution this is]\label{rem:whichinvolution}
+For the application below, $G$ is not an arbitrary $\Z/2$. The manifold's holonomy is defined over
+$\Q(\sqrt{-3})$ with parameter $t$ satisfying $t^2=t-1$, so $t$ is a primitive sixth root of unity
+and $\omega:=t^2$ is a primitive cube root; thus $\Phi_3(\omega)=\omega^2+\omega+1=0$. Complex
+conjugation sends $\omega\mapsto\omega^2$, and conjugating the holonomy sends $t\mapsto1-t$, which
+satisfies the same relator --- so Galois acts on the character variety and complex conjugation of
+the representation is orientation reversal.
+
+\textbf{Hence the mirror involution, the nontrivial element of $\mathrm{Gal}(\Q(\sqrt{-3})/\Q)$, and
+the swap of the two roots of $\Phi_3$ are one and the same map.} The escape analysis above is
+therefore not about some incidental symmetry: \textbf{the datum an observer must supply is a choice
+of root of $\Phi_3$}, and Escape~(i) is unavailable precisely because that choice is not made by any
+invariant of the object.
+\end{remark}
+
 \begin{remark}
 Escape~\ref{esc:orbit} is useful precisely because it is short. It converts an open-ended search
 into a choice between two named moves, each of which can be attempted or ruled out on its own

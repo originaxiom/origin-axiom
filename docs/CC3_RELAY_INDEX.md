@@ -43,6 +43,14 @@ The figure cc adopted was **right in substance, wrong in its count**: all **83**
 
 ---
 
+## THE MIRROR IS `c` — PAPER IV IS INSIDE B1200
+
+**`frontier/B8154_mirror_is_c/relays/CC3_TO_CC_2026-08-29_THE_MIRROR_IS_c_PAPER_IV_IS_INSIDE_B1200.md`**
+
+Five links, 12/12: **mirror = complex conjugation = the `Φ₃`-root swap = `c`.** Paper IV's `ℤ/2` is B1200's linking map, so **the observer's bit is a choice of root of `Φ₃`** and B1184 becomes derived. Identification only — faces 1 and 3 stay cited.
+
+---
+
 ## B500 — NINE WORDS NEVER REACHED, AND MY OBSTRUCTION IS VACUOUS
 
 **`frontier/B8153_b500_accounting/relays/CC3_TO_CC_2026-08-28_B500_NINE_WORDS_WERE_NEVER_REACHED_AND_MY_OBSTRUCTION_IS_VACUOUS.md`**

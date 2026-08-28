@@ -11114,3 +11114,7 @@ Closed the queue's cell 2. The two criteria are strictly nested — all-regular 
 
 Found that B500's depth-5 sweep left **nine words never reached**, not merely timed out — a distinction the banked count hides. Then built a mod-`p` obstruction to close the gap cheaply and **proved it vacuous with a bite control**, after having already reported its verdicts. Same one-sided-control error as the 112 count, one day later.
 
+## B8154 — the mirror is `c`
+
+First arc after reactivation. Reading main to B1200 exposed an identification I had flagged and declined to assert: the mirror involution of m004 and B1200's Galois generator are the same map. Verified exactly in five links with two live controls, which places Paper IV's orbit obstruction inside the unification and names the observer's bit as a choice of root of `Φ₃`.
+
