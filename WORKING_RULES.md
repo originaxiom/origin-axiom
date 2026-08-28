@@ -208,3 +208,11 @@ recovery AND an independent enumeration/complement (the one-sided control is how
 survived). A statistics claim carries its resolution: an N-seed null only speaks to deviations
 larger than its own std (B189's 30-seed "indistinguishable" reversed at 100 seeds per level).
 
+
+**Run the already-banked check before claiming anything is missing (B1202).** No MISSING / OPEN /
+"never run" / "no successor" claim is admissible until `scripts/checks/already_banked.py` has been
+run on its terms, and the searched terms are stated alongside the claim. The class this closes cost
+the program four repetitions (the quine, the depth-closure stabilizations, the genesis locks, the
+dark-hyperbola proof) — in every case the register said open while the corpus held the proof.
+A flagged hit means *read that arc first*; a clean result licenses the claim **for the terms
+searched**, which is what must be written.

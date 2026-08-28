@@ -1,5 +1,22 @@
 # Changelog
 
+## B1202 (2026-08-28): THE ALREADY-BANKED CHECK — the finished-but-forgotten class gets an instrument
+
+The owner's standing instruction ("we don't have X" is never terminal) was violated **four times**,
+always the same way: a *register* row said open while the *corpus* held the proof — the quine
+(B762), L187's stabilizations (B767), the F2/F8 locks (B1003), R5's law (B775/B778). Review 52
+raised it to an audit item; **an audit item is not an instrument**. `scripts/checks/already_banked.py`
+scans every arc verdict AND every nested FINDINGS.md (where B775/B778 lived), ranks by term
+coverage, and exits non-zero when a settled arc matches a real share of the query. **The threshold
+is the design**: a first version flagged any one-word overlap — an instrument that cries wolf gets
+ignored, which is how the misses happened. **Controls two-sided**: all four historical misses
+flagged at top rank; both genuine blind regions (inflation/reheating; dark-matter/relic) clean.
+**An artifact found by its own controls and recorded**: writing this arc broke its negative control
+— the FINDINGS quote the control phrases, so the check matched its own documentation; fixed with
+`--exclude=`, and noted because the trap waits for any self-documenting instrument. **The rule**
+(WORKING_RULES): no MISSING/OPEN claim without running it, and **state the searched terms with the
+claim**. Locks test_b1202 (2).
+
 ## B1201 (2026-08-28): THE LEE VERIFICATION CORRECTS B1198; the cross-seat harvest closes clean
 
 **The verification we named three days ago ran, and it came back against us.** The tangential base

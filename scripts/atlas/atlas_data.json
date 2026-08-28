@@ -4070,6 +4070,23 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1202": {
+   "slug": "already banked check",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B762",
+    "B767",
+    "B775",
+    "B778",
+    "L187"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B120": {
    "slug": "tower determination",
    "motifs": [

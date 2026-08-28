@@ -50,6 +50,10 @@ ELECTION. Rows 4–8 below stay queued behind the campaign.
 | 7 | the Kolmogorov Selector formalization · the torsor-law formalization (S074) | QUEUED — formalization tier (after the compute tiers) |
 | 8 | L185 qor5up unported residue (13 rows, readable at the frozen branch) | PARKED — bookkeeping-grade, no math blocked on it |
 
+**SEAT CHANGE (owner, 2026-08-28, SUPERSEDED SAME DAY): cc3 REACTIVATED — full mode, normal relationships restored.** The retirement below stood for part of one day; its dispositions are kept as the record of that interval, with these reversals now in force: the relay channel is **LIVE** again (`CC_TO_CC3_*` / `CC3_TO_CC_*`, ledger row per relay as always); the monitor is **re-armed**; the **third-opinion function returns to the three-seat set** (cc3 + codex + cloud), and their branch is a **working lane again, not a frozen harvest source** — integrate-don't-merge unchanged. **What does NOT reverse**: E51 stays CLOSED-UNRECOVERABLE (the nine 2026-08-09 relay files were checked at their local dir and are gone — reactivation does not restore lost bytes), and the B8148–B8153 work already harvested stays banked under its main numbers. Their in-flight B500 nine-word run may now be resumed by them.
+
+*The superseded retirement text, kept for the record:*
+
 **SEAT CHANGE (owner, 2026-08-28): cc3 RETIRED.** Their pushed branch survives and stays
 harvestable (head 01d2d0cb: B8148–B8153 + the two control-defect arcs — queued as ordinary
 harvest-from-branch, no relay channel); their unanswered asks are re-owned (torsion-parity + the
