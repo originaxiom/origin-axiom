@@ -191,6 +191,39 @@ check("the relator holds EXACTLY in SL(2, Q(sqrt-3))",
 check("CONTROL a perturbed parameter does NOT satisfy the relator",
       ev(REL, {"a": A, "b": [[ONE, ZERO], [T + ONE, ONE]]}) != eye(2))
 
+# ---- the Alexander-polynomial control, which pins the knot as 4_1 --------------------
+# NOTE: earlier versions of this file ASSERTED this control in the docstring and did not
+# run it -- the check lived in an abandoned sympy draft and the sentence was carried over
+# without the code. A docstring claiming a control that does not execute is worse than no
+# control, so it is implemented here.
+def _alexander_coeffs():
+    """Fox derivative of the relator, abelianised a,b -> x, as integer coefficients."""
+    from fractions import Fraction as Fr
+    # work in Laurent polynomials over Q: dict power -> coeff
+    def mul(p, k):
+        return {e + k: c for e, c in p.items()}
+    D = {}; pre = {0: Fr(1)}
+    for ch in REL:
+        if ch.islower():
+            if ch == "a":
+                for e, c in pre.items(): D[e] = D.get(e, Fr(0)) + c
+            pre = mul(pre, 1)
+        else:
+            pre = mul(pre, -1)
+            if ch == "A":
+                for e, c in pre.items(): D[e] = D.get(e, Fr(0)) - c
+    lo = min(D); co = [D.get(e, Fr(0)) for e in range(lo, max(D) + 1)]
+    while co and co[-1] == 0: co.pop()
+    while co and co[0] == 0: co.pop(0)
+    return co
+
+_alex = _alexander_coeffs()
+_tgt = [1, -3, 1]
+check("CONTROL Alexander polynomial is x^2 - 3x + 1 up to units -- pins the knot as 4_1",
+      _alex == _tgt or _alex == [-c for c in _tgt] or _alex[::-1] == _tgt
+      or _alex[::-1] == [-c for c in _tgt],
+      "got %s" % _alex)
+
 print("\nB  exact cohomology with coefficients in Sym^{2m} C^2")
 print("      m   dim V   h0   h1   h2   chi")
 rows = {}
@@ -240,5 +273,8 @@ print("""
      SURVIVES UNTOUCHED : the identity R_{rho(m)}(s) = prod_j R(s-j, sigma_j).
      REMAINS OPEN       : the cusped Park/Pfaff route, which cc names as the right frame.
 """)
-print("%d/%d checks passed" % (8 - len(FAIL), 8))
+_TOTAL = 9
+assert _TOTAL == sum(1 for _l in open(__file__) if _l.startswith("check(")), \
+    "check-count drifted: update _TOTAL"
+print("%d/%d checks passed" % (_TOTAL - len(FAIL), _TOTAL))
 sys.exit(1 if FAIL else 0)

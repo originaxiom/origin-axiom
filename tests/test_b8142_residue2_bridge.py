@@ -61,3 +61,18 @@ def test_the_open_route_is_named_and_not_claimed_done():
     c = R["CORRECTION_2026-08-26_antecedent_refuted"]
     assert "Park/Pfaff" in c["what_remains_open"]
     assert "has NOT been performed" in c["what_remains_open"]
+
+
+def test_the_alexander_control_exists_in_code_not_only_in_prose():
+    src = (ROOT / "frontier/B8142_residue2_bridge/acyclicity.py").read_text()
+    assert "Alexander polynomial is x^2 - 3x + 1" in src
+    assert src.count("check(") >= 9
+
+def test_the_check_counter_cannot_go_stale():
+    src = (ROOT / "frontier/B8142_residue2_bridge/acyclicity.py").read_text()
+    assert "_TOTAL ==" in src and "check-count drifted" in src
+
+def test_the_claimed_but_unrun_control_is_recorded():
+    c = R["CORRECTION_2026-08-28_a_control_claimed_but_not_run"]
+    assert "NO SUCH CHECK EXISTED" in c["what"]
+    assert c["the_result"].startswith("THE CONTROL PASSES")

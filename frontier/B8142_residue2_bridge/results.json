@@ -8,6 +8,15 @@
   "what_survives_untouched": "the Sym-power identity R_{rho(m)}(s) = prod_{j=-m}^{m} R(s-j, sigma_j). It is unconditional eigenvalue algebra and no part of the refutation touches it. cc independently re-derived it two ways and credits it.",
   "what_this_kills": "the derivation of the reflection formula used 'R_{rho(m)}(0) = T_X(rho(m))^2', i.e. Fried's theorem, whose hypothesis is ACYCLICITY. H* is never acyclic, so that step is INVALID. R_{rho(m)}(s) has a NONZERO ORDER OF VANISHING at s=0 governed by h1=h2=1 -- it is not a finite value equal to a torsion. THE REFLECTION FORMULA AS DERIVED DOES NOT FOLLOW, and its numerical predictions (2.109e-04, 1.925e-05, 1.641e-06) are WITHDRAWN as predictions."
  },
+ "CORRECTION_2026-08-28_a_control_claimed_but_not_run": {
+  "how_it_happened": "the control lived in an abandoned sympy draft, where it first errored on Laurent normalisation. When I rewrote the computation in the exact Q(sqrt-3) field model I carried the DOCSTRING SENTENCE over and left the CHECK behind.",
+  "how_it_surfaced": "the abandoned sympy job finally failed with exit 1, hours later, which is the only reason I looked at that control at all",
+  "second_defect_found_fixing_it": "after installing the check the script printed 8/8 while running 9 checks -- a stale hardcoded total. The counter now DERIVES its total from the file and asserts against it, so it cannot drift again.",
+  "the_family_this_belongs_to": "same as B8151's sweep: a claim asserted at a scope wider than the evidence. Here the claim was in a docstring and the evidence was zero.",
+  "the_result": "THE CONTROL PASSES. Fox derivatives of the relator, abelianised, give +-(x^2 - 3x + 1) for BOTH generators -- exactly the figure-eight's Alexander polynomial. The presentation is pinned as 4_1 and B8142's conclusion stands unchanged.",
+  "what": "acyclicity.py's docstring asserted 'the Alexander polynomial control then pins the knot as 4_1'. NO SUCH CHECK EXISTED IN THE CODE.",
+  "why_it_is_serious": "a docstring claiming a control that does not execute is worse than no control: it tells a reader the presentation was pinned when nothing pinned it. Every downstream use of B8142 -- including the withdrawal of my own reflection formula -- rested on the group being the figure-eight."
+ },
  "forced_reflection_formula": {
   "computed_for_m004": {
    "3": 0.0002108601,
