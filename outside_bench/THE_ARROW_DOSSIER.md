@@ -210,3 +210,13 @@ banked as HOOKs or conditionals, and buried under subsequent waves.
 This dossier is now the standing register for the arrow family; its
 rows carry the retrieved citations and cannot silently drop them —
 the same amendment rule as the charter.
+
+### ADDENDUM 4 (2026-08-28) — AR6 at the orbit level (memo 94): the two-branch law
+The H-theorem instrument (S002's D2, finally run) refines AR6's SPLIT
+lean with orbit-level evidence: on the unstable manifold of the
+trivial rep, running entropy is monotone-increasing on the PLUS
+branch (escaping/hyperbolic) and oscillatory on the MINUS branch
+(bounded region) — the irreversibility structure exists but is
+BRANCH-GATED. Order/magnitude object-paid; the branch choice is the
+bit. AR6 stays open as preregistered; its evidence table gains the
+sharpest entry yet. This addendum is the only mutation.

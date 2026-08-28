@@ -87,3 +87,14 @@ Provenance note: this book cites memo 90 WITH its addendum 1 (bench
 error #7 — the Λ-sign tension line is retracted; the guard caught the
 wave-1 draft omitting this). Nothing here pays a leap: W1/W2 are
 conditionals with their prices; W0 and W3 are proved. Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-28) — instrument (ii) RUN (memo 94): the arrow is branch-conditional
+S002's D2, executed after ~1100 batches queued: the H-theorem as
+stated is REFUTED by a clean two-branch law — running entropy is
+monotone on the escaping branch only; the minus branch oscillates in
+the bounded region. **LEAP-2's cost line updates: the buy requires
+paying the branch bit** (= the seed/direction bit of the census's
+candidate 8). Instrument (i) remains blocked on the arrow-ℤ/2
+identification (the branch bit is now its leading candidate — the
+dynamical face of the same choice). This addendum is the only
+mutation.
