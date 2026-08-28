@@ -12202,3 +12202,20 @@ reading is new. **The instrument's first live catch**: B1202's `already_banked.p
 within the hour. **What both leave**: the forcing theorem cannot be c-equivariance nor iteration —
 both are symmetries the class respects — so **it must break a symmetry, not impose one.** Locks
 test_b1203 (2).
+
+## B1204 (2026-08-29): THE SHAPE OF A FORCING THEOREM — failable, not symmetric; nonlinear when it must cut a continuum
+
+The owner asked whether the record's prior **symmetry breakings** supply the value arm's missing
+forcing principle. They do — but the lesson is in what actually **forced**, and there are exactly two
+families: **classification + membership** (E₆ via McKay; the breaking chain 2-of-27; the tone set —
+the menu is finite *before* the test) and **consistency/cancellation** (hypercharge via anomalies).
+**Both failable; neither a symmetry.** The instructive anatomy, re-derived: B1160's three **linear**
+anomaly conditions cut the 5-dim charge space only to a **line** — **it was the CUBIC [Y]³ that cut
+the line to points** (−18(t−3)(t+3) ⇒ t = ±3). So B1203's "break a symmetry" sharpens to: **a
+forcing theorem is a FAILABLE condition, and to cut a continuum its decisive step is NONLINEAR** —
+linear/symmetry conditions cut *dimension*, only nonlinear ones cut to *points*. That is exactly why
+our two candidates died: both were symmetries the class already satisfies (MB12 — a criterion that
+cannot fail cannot select). **Proposal, labelled**: the object's own cubic is the unique Sym³(27)
+invariant (B884, nullspace dim 1) and it lives *at the coupling*, where E1 says the values live —
+the cell is whether a cubic, failable condition on the object+closer coupling exists that a value-map
+can fail. Locks test_b1204 (2).

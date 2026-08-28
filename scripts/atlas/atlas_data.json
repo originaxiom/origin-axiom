@@ -4107,6 +4107,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1204": {
+   "slug": "forcing shape",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B884"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B120": {
    "slug": "tower determination",
    "motifs": [

@@ -1,0 +1,18 @@
+{
+ "id": "B1204",
+ "arc": "the shape of a forcing theorem",
+ "verdict": "PROVED",
+ "two_families": {
+  "classification": "finite list + membership (E6/McKay; the breaking chain 2-of-27; the tone set)",
+  "consistency": "a condition a candidate can violate (hypercharge via anomalies)"
+ },
+ "the_anatomy": {
+  "linear_conditions": "5-dim charge space -> a LINE (dimension only)",
+  "the_cubic": "[Y]^3 = -18(t-3)(t+3) -> t = +/-3, a LINE cut to POINTS",
+  "lesson": "linear/symmetry cuts dimension; NONLINEAR cuts to points"
+ },
+ "why_ours_failed": "both candidates were symmetries the admissible class already satisfies; MB12 -- a criterion that cannot fail cannot select",
+ "refinement": "a forcing theorem is FAILABLE, and to cut a continuum its decisive step is NONLINEAR",
+ "proposal": "seek a cubic, failable consistency condition on the object+closer coupling; the object's own cubic is the unique Sym^3(27) invariant (B884, nullspace dim 1), at the coupling where E1 says values live",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

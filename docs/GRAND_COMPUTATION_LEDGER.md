@@ -145,3 +145,7 @@ The saddle of the object's own partition function (item 1's SEAM-A analysis), th
 
 The value arm (row E1) needs a forcing theorem that selects one map before looking. **Two natural candidates are now eliminated, both for the same reason**: **c-equivariance** (the menu already lies wholly inside the mirror-even class — a cut of exactly zero on all 11,720) and **iteration of the founding principle** (the climb (X,Y)→(XY,X) preserves κ identically — B148's banked Dehn-twist invariance). Both are **symmetries the admissible class already respects**, and such a symmetry can never select within it. **The forcing principle, if it exists, must BREAK a symmetry rather than impose one.**
 
+## THE FORCING THEOREM'S SHAPE, refined (B1204)
+
+B1203 eliminated two candidates and said *break a symmetry*. B1204 reads the record's own successful forcings and refines it: they come in **two families — classification+membership, and consistency/cancellation — both FAILABLE, neither a symmetry**; and the one forcing that cut a *continuum* to points (B1160's hypercharge) did so with a **CUBIC**, after the linear conditions had only cut dimension. **Prescription: a forcing theorem is a failable condition, nonlinear in its decisive step.** Named candidate home (proposal): the object's own cubic — the unique Sym³(27) invariant, nullspace dim 1 (B884) — at the coupling, where row E1 places the values.
+

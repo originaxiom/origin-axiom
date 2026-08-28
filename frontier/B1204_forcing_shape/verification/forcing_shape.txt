@@ -1,0 +1,21 @@
+THE PRECEDENT (B1160): how the record's one continuum-to-points forcing actually worked.
+  linear conditions  : 5-dim charge space -> a LINE (one free parameter t)
+  the CUBIC [Y]^3    : factors as -18*(t - 3)*(t + 3) => t in [-3, 3] -- a LINE cut to TWO POINTS
+  => the decisive step was NONLINEAR. Linear/symmetry conditions cut DIMENSION;
+     only the nonlinear, FAILABLE condition cut to a finite set.
+
+THE TWO FAMILIES of successful forcing in this record:
+  (i)  CLASSIFICATION + membership  -- E6 via McKay/ADE; the breaking chain (2 of 27 SM-safe);
+       the tone set via the McKay tensor law. A finite list, and a test for being on it.
+  (ii) CONSISTENCY/CANCELLATION     -- hypercharge via anomaly freedom, decisive step cubic.
+  BOTH ARE FAILABLE. NEITHER IS A SYMMETRY.
+
+THE CONTRAST (B1203): the two candidates just eliminated were both SYMMETRIES --
+  c-equivariance (cut 0 of 11720) and iteration of a->ab,b->a (kappa conserved).
+  A symmetry the admissible class already respects cannot select within it (MB12:
+  a criterion must be able to FAIL).
+
+THE NAMED CANDIDATE HOME: the object's OWN cubic -- the unique invariant in Sym^3(27),
+  nullspace dimension exactly 1 (B884) -- at the coupling, which is where the record
+  says the values live (E1's re-frame). Same shape as the one forcing that worked.
+REPRODUCES
