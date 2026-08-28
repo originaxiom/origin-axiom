@@ -1,5 +1,22 @@
 # Changelog
 
+## B1201 (2026-08-28): THE LEE VERIFICATION CORRECTS B1198; the cross-seat harvest closes clean
+
+**The verification we named three days ago ran, and it came back against us.** The tangential base
+point is **NOT free for 4₁ — it is unique** (|a₁| = 1 at all four ideal points, from the appendix's
+own data): B1198's "the outside chooses the marking we proved the object cannot supply" is
+**withdrawn as stated**, and the hoped ℤ/2-contact is killed. **Appendix A makes no use of CS = 0 or
+amphichirality** — Lee's stated reason for 4₁ is *arithmeticity*. **But the shape-match survives,
+relocated**: a genuine ℤ/2 *is* required — at the **augmented variety's double cover, λ vs λ⁻¹**,
+which on our side is the mirror's own action (B716). That is the corrected hypothesis, and it is
+better located than the original. **New**: the paper has **no Dedekind-zeta normalization**, so the
+bridge to our Vol = 9√3ζ_K(2)/π² is **absent from the literature** — a named gap, not an unread
+page. A minor slip in the paper found and reported. **Harvests**: codex R020/R021/R022 reproduce
+byte-identically, none contradicts main (R021 adds a new open spin-bit constraint); cloud's seven
+reproduce and **the quine certificate re-runs clean — outcome Q1 verified here, B1200's CITED debt
+paid**. Two independent convergences: their refuted norm law is *our same-day* GC-24 correction
+re-derived without contact, and their first-beat κ is exactly GC-24's κ − 2. Locks test_b1201 (3).
+
 ## B1200 (2026-08-28): ONE POLYNOMIAL, THREE FACES — the saddle, the founding obstruction, and the boundary are Φ₃, and the map between them is c
 
 Cloud independently reproduced this bench's **κ-law** and **selector-freedom**, and returned a

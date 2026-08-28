@@ -4049,6 +4049,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1201": {
+   "slug": "lee verified and harvest",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "B279",
+    "B716",
+    "B9"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B120": {
    "slug": "tower determination",
    "motifs": [
