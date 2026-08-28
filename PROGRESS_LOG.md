@@ -12083,3 +12083,18 @@ prior-vs-point theorem close into one statement of what an observer costs. **THE
 CREATED** (`docs/COSMOLOGY_LEDGER.md`, 395 lines — the blind region's surface, every row banked-
 sourced, first probes named). The eight: 1 sharpened · 2 closed · 3 halved · 4 law-found ·
 5 closed-permanent · 6 closed · 7 resolved · 8 created. Locks test_b1196 (3).
+
+## B1197 (2026-08-28): THE CLOCK-COHERENCE RUN (route B4, the D2 gate) — SPLIT
+
+Executed the moment 5A returned, per standing instruction. **The named primary test PASSES**: the
+(1,n) ladder over 29 rungs has Vol strictly increasing (→ Vol_cusp) with |CS| strictly decreasing
+(→ 0). **The full census check FAILS**: globally across B289's 78 closings |CS| is not
+non-increasing (15 violations), and every family p ≥ 2 carries an exhibited within-family violation.
+Instrument controlled two-sidedly: the sweep reproduces B289's census size (78) and its banked sign
+law (156/156), and a shuffle control shows the detector bites (36). **Two catches narrated**: the
+first run used the wrong census (the 112-family, not the closings), and the corrected run's first
+pass hit a vacuity trap (empty census ⇒ `all()` = True) — caught by printed counts; a guard is
+committed. **D2's consequence**: neither declared outcome fires cleanly — on the trajectory reading
+(the record's own distinguished cusp-approaching path) the joint LEAP-1+W1 package survives and is
+payable; on the global/variable reading it is refuted and the choice becomes AMS XOR HT. The scope
+choice is the owner's, now made on data. Locks test_b1197 (3).

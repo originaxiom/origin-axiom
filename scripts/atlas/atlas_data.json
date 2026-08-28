@@ -3943,6 +3943,25 @@
    "status": "banked",
    "domain": "meta"
   },
+  "B1197": {
+   "slug": "clock coherence",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B289",
+    "B303",
+    "B4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B119": {
    "slug": "mk scalar mechanism",
    "motifs": [
