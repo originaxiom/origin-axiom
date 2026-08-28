@@ -1,0 +1,15 @@
+{
+ "id": "B1191",
+ "arc": "close-loop batch 3 -- THE GRAND COMPUTATION v0",
+ "verdict": "PROVED",
+ "deliverable": "docs/GRAND_COMPUTATION_v0.md (six sections + the six lens-found rows + batch amendments)",
+ "end_state_inputs": "ell + relational c-bit + finite labels + sigma (one bridge) + lambda-placement",
+ "cells": {
+  "GC-11": "v0 drafted; completeness lens found 6 omitted rows; repaired at banking",
+  "GC-12": "L154 fingerprint route DEAD honestly (one q-series, fails kind-map); bridge object exactly typed",
+  "GC-13": "gamma5 = the SIXTH leg (finite-place, sqrt5-swap, exact Galois table); lambda distinct-not-placed",
+  "GC-14": "D3 closes: both rank-4 centralizers ALL-complex under the correct criterion",
+  "GC-15": "Selector piece formalized + B1183 correspondence proved (finite case); F2/F8 already banked (B1003), F3 drafted green"
+ },
+ "reproduces": "verification/batch3_cells.json (cells + lens verdicts verbatim)"
+}

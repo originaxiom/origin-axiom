@@ -3891,6 +3891,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1191": {
+   "slug": "close loop batch3",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B672",
+    "B998",
+    "H3",
+    "L154"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B119": {
    "slug": "mk scalar mechanism",
    "motifs": [

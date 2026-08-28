@@ -1,5 +1,20 @@
 # Changelog
 
+## B1191 (2026-08-28): CLOSE-LOOP BATCH 3 — THE GRAND COMPUTATION v0 LANDS
+
+`docs/GRAND_COMPUTATION_v0.md`: the universe in the object's own units — arena+clock in ticks of
+A₁; the meter with the whole family as integers in V_reg and S(member n) = −n·V_reg·σ (zero free
+constants; the meter identities dual-verified at 50/60 dps); the forced content; the dimensionless
+coupling shapes; the typed input slots; the deletion schedule — completed at banking with the
+completeness lens's six omitted rows. **THE END-STATE INPUT LIST: ℓ + the relational c-bit + finite
+labels + σ (one bridge) + the λ-placement.** Cells: **GC-12** — the L154 fingerprint route DEAD
+honestly (one q-series in the whole record; fails the kind-map); the bridge's remaining object
+exactly typed. **GC-13** — γ₅ typed and closed as the SIXTH assembly leg (finite-place √5-swap,
+exact Galois table); λ distinct-not-placed. **GC-14** — D3 CLOSES: both rank-4 centralizers
+ALL-complex under the correct criterion. **GC-15** — the Selector's proved piece formalized with a
+proved B1183 correspondence; F2/F8 already banked (B1003 — finished-but-forgotten strikes the lock
+registry), F3 drafted green. Locks test_b1191 (3).
+
 ## B1190 (2026-08-28): CLOSE-LOOP BATCH 2 — the hard cells; the loop kills its own syntheses (1/5 survives)
 
 GC-6 (L154): the arithmetic all verified lens-independently (the (E₆)₁ characters rebuilt via an
