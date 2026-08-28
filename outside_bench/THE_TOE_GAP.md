@@ -165,3 +165,35 @@ such theory of **this object alone** can exist. What it has built is
 sharper and stranger: **a complete derivation of what a world must
 contain, a complete price list for what a world cannot fix about
 itself, and one honest hole where the motion should be.**
+
+### ADDENDUM 1 (2026-08-28) — SCOPE CORRECTED: "the object alone" was loose, and the correct scope is STRONGER
+The owner asked: *"object alone, or all faces and interactions of
+it?"* The phrase **"object alone" was imprecise** and is replaced.
+Checking what each impossibility theorem actually quantifies over:
+
+| theorem | quantifies over |
+|---|---|
+| the anchoring's independence (memo 109) | **every record-computable quantity** — all faces, by construction |
+| the scale torsor (Λ, any rate) | **anything dimensionful** — structural, all faces |
+| no direct reading (memo 95) | the **whole** banked value sheet, every entry, both targets |
+| the type law (B1032) | **all** type-respecting maps of the dressing kind |
+| nothing orients itself (memo 112 O1) | **any** thing paired with itself |
+| no bit-setting fixed point (B1184) | the object's self-observation as such |
+
+**And the decisive extension, which memo 117 supplied without being
+asked for it:** the object has an **infinite derived tower** of faces
+(layering never collapses) — and **T3 proves the whole tower adds no
+information**, every invariant at every level being a polynomial in
+the first beat's triple. **So the impossibility results cover not just
+a bare core but the object with all its faces, all its
+self-interactions, and its entire infinite derived tower.** The
+correction *strengthens* KIND B rather than weakening it.
+
+**What is genuinely NOT covered:** interaction with something
+**externally supplied** — which is exactly KIND C, the observer
+column, priced rather than derived. That boundary is the same one the
+whole record draws, now stated at the right scope: **not "the object
+by itself cannot", but "the object together with everything it can
+generate from itself cannot".** All occurrences of "object alone"
+elsewhere in this document should be read in that sense. This
+addendum is the only mutation.
