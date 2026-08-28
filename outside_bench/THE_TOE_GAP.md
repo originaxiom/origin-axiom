@@ -197,3 +197,25 @@ by itself cannot", but "the object together with everything it can
 generate from itself cannot".** All occurrences of "object alone"
 elsewhere in this document should be read in that sense. This
 addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-28) — THE DYNAMICS ROW RESTATED (memo 120): the record has time; it lacks the second and the thermal arrow
+Row 5 and §5 called dynamics "MISSING" and leaned on "the object
+supplies no rate." **Corrected (bench error #10):** the record banks an
+intrinsic flow (B721/B716's Anosov suspension — real, hyperbolic,
+measure-preserving), a dimensionless rate (φ per tick), an entropy
+(2 log φ), an order (memo 86), a branch-conditional arrow (memo 94),
+and a beat proved isometric (memo 90). **The dynamics row's true
+content is therefore narrower and sharper:**
+
+> **Missing is (i) THE SECOND — the dimensionful conversion, seconds
+> per tick — and (ii) THE THERMAL ARROW, since the object's own clock
+> is tracial type II₁ with trivial modular flow: an equilibrium clock.
+> What is missing is not time, and not a flow, but a *unit* and a
+> *thermal* character.**
+
+This *shrinks* the dominant gap rather than dissolving it: no equation
+of motion in a dimensionful time is still underived. But the honest
+statement of the deficit is (one unit + one thermal character), not
+"no dynamics". And the object side is now known to carry **three**
+distinct flows (memo 120), not one. This addendum is the only
+mutation.

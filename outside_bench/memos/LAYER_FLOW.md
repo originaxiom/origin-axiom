@@ -43,3 +43,20 @@ level-crossing test already seated with cc, now with a *concrete
 candidate flow* to test against instead of an abstract one.
 **Fence:** since L ≠ T, nothing here inherits memo 94's two-branch law
 or its arrow. Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-28) — A CLAUSE WITHDRAWN (memo 120, the owner's catch)
+D4 said the layer flow supplies "the FORM of a dynamics, **and the
+record did not have one**." **That clause is withdrawn.** The record
+already banked a flow: B721/B716's Anosov suspension of
+σ = [[2,1],[1,1]] — real, hyperbolic, measure-preserving — with a
+dimensionless rate (φ per tick) and an entropy (2 log φ). **This
+memo's derivation and its closed form stand; the novelty claim does
+not.** Correctly re-placed (memo 120): L is a **third** flow, distinct
+from the Anosov suspension and from the Fricke map T, and its growth
+is a different *class* — log|z| doubles per level (ratio → exactly 2)
+where the pulse is φⁿ per tick, with **no banked map identifying a
+level with a tick**, so the two are incommensurable as they stand.
+Consequently D4's "candidate for the first half of the deficit" is
+**weakened**: a super-exponential flow is a poor candidate for the
+record's exponential pulse, and the λ level-crossing test should be
+told so. This addendum is the only mutation.
