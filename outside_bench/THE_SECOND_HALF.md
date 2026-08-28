@@ -241,3 +241,62 @@ scoping (S1 spec; T[4₁;E₆] feasibility; B304's untested LEAP);
 IF-THEN + LEAP price statements + the two queued-not-run arrow
 instruments); (6) the own-meter cell (Vol=L-value re-verified in-lane;
 the B291 divergence typed). This addendum is the only mutation.
+
+---
+
+## ADDENDUM 2 (2026-08-28) — WAVE 1 BANKED: the census is OPEN at 2+1, the meter is banked GREEN, the table/weld/lift documents stand; errors filed; wave 2 set
+
+Wave-1 workflow (14 agents: 6 hunt + 6 draft + completeness critic +
+tombstone guard) consolidated by the bench. Deliverables:
+- **memo 91 + `certificates/own_meter.py` (GREEN, byte-identical)** —
+  lane B/W4 CLOSED AT FIRST GRADE: curvature radius forced (symbolic
+  Einstein check from scratch), Vol = L-value in four expressions to
+  50 digits, systole from exact trace (branch-convention error caught
+  in-run and filed: the lane's ω is q = e^{iπ/3}), entropy exact.
+- **THE_FRAME_CENSUS.md** — F4's eight candidates typed. VERDICT: the
+  2+1 count is **OPEN** — excess candidates: cone angle α (sharpest;
+  no forcing attempt exists in ~1200 batches), the Hermitian gauge
+  choice (σ_χ₋ is NOT c — no map exists; the hierarchy is NOT shown
+  observer-carried; free-vs-forced underived), B1185's ℙ³ line;
+  blockers: the clock weight (untyped; B723 apparatus retracted), the
+  arrow seed (NOT D1 — mirror parities differ — but unsettled).
+  Closed: signature (subsumed, one forced involution chain; B523
+  Door 2 residue named), filling slope (bridge artifact, B1000), spin
+  (assigned, theorem B1141). Notation rule adopted: F2-bit vs D₂ᵗʷ.
+- **THE_GRAND_TABLE.md** — D1r's skeleton: ~30 delivered exact rows
+  (value arc + lane), the gauge crux fencing all hierarchy rows,
+  B928 Stage-2 recorded SEALED (the owner's word, not the repo's),
+  missing bin, null/dead bin.
+- **THE_WELD_BOOK.md** — W0 (B293 master weld, proved) + W1 (the HT
+  IF-THEN, conditional, firewalled) + W2/H3 (both LEAP price
+  statements) + W3 (written by the bench; the critics caught it
+  missing) + the two recovered instruments (arrow-ℤ/2 test — blocked
+  on an identification the two wave-1 lanes disagree about, filed;
+  H-theorem test — runnable, queued).
+- **THE_LIFT_DOSSIER.md** — H1/H2 terminal states + three specs:
+  S1's decidable shadow already leans MISMATCH (banked dim-6 vs the
+  curve hypothesis); T[4₁;E₆]'s constructible first step named
+  (SU(3)³ trinification slice, never attempted); B304's smallest
+  decidable consequence named (vacuum-count ladder over banked
+  fillings).
+ERRORS FILED (wave-1 agents, caught by critics/bench): (1) the klein
+lane reproduced the RETRACTED "cyclic cubic μ13" phrase (corpus: S₃
+cubic, disc squarefree part 77) — its CHECK C is dead on a wrong
+premise, dropped; (2) the meter draft overstated the Kashaev
+anti-numerology gap (B1126 tested the ratios; only raw magnitudes
+untested); (3) the D2 notation collision (ledger F2-bit vs B928 twist)
+— rule adopted; (4) census and welds lanes pinned "the arrow's ℤ/2"
+to different objects — recorded as an open contradiction, wave-2 work.
+ROW UPDATES: W4+F3 closed at first grade (memo 91 + B1166 C3); F5
+narrowed to the D₂ᵗʷ-vs-V₄ comparison (CHECK A/B) + B1024's
+provisional d=2; F4 = OPEN AT 2+1 (the finding); H1/H2 = cells with
+owners; W1–W3 drafted (W0 proved prior); H3 drafted; H4/H5/X1
+untouched by design (critic note recorded).
+WAVE 2 (bench, next): (1) **the flagship — beat parity of D₂ᵗʷ** on
+the lane's 27 (the census's closing instrument; either outcome types
+candidate 4 and decides whether the hierarchy is observer-carried);
+(2) klein CHECK A (+B if A opens it); (3) the H-theorem instrument;
+(4) parity-typing of α and the ℙ³ line; (5) the arrow-ℤ/2
+identification. cc relays: the SU(3)³ slice (lane D flagship), the
+sealed Stage-2 reminder (owner-gated), the F4 open-at-2+1 finding
+(their MA2 census). This addendum is the only mutation.
