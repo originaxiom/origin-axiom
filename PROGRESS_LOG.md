@@ -11971,3 +11971,21 @@ from converting the last continuous dimensionless input to OUTPUT. One own error
 B766-vs-B1083 arrow contradiction registered, the sign row's relational seeds retrieved (the
 TWISTED double, c-as-swap, the exchange-sector split), and the θ-even last-licensed crossing HELD
 FOR OWNER ELECTION. Locks test_b1188 (4).
+
+## B1189 (2026-08-28): THE CLOSE-LOOP BATCH 1 — five cells, adversarially verified; the golden-unit killer; the ladder deeper than commensurability
+
+The campaign's first close batch (15 tiered agents; 4/5 survive cleanly, the fifth's lone refutation a
+verifier boolean slip with confirming text). **GC-1 (PARTIAL)**: the 112 ladder independently verified
+(zero failures; 24-manifold bite) with the mechanism EXACT — Vol(m004) = 12·Vol_orb (4.3e-50) — and the
+one-class framing REFUTED: **11 members provably NOT arithmetic (incl. t06829) yet on-lattice: the
+lattice is DEEPER than commensurability** (multiples-of-3·Vol_orb sharpness named open). **GC-2
+(NEGATIVE, the crown)**: the twisted double's pair-datum (H₁ ℤ/5) is mirror-EVEN — **the golden unit's
+norm −1 supplies both-sign conjugators** (centralizer = ±φⁿ; J det +1, K=Jφ det −1 both conjugate
+A→A⁻¹) — the object's own arithmetic forbids its self-coupling from orienting it; two-sided control
+bites (the norm-+1 √3 unit gives a single-signed coset); **the door narrows to heterogeneous couplings
+with a norm-criterion**. **GC-3 (PROVED)**: the three ticks = three OPERATIONS on ONE generator A₁=RL;
+B766-vs-B1083 RECONCILED (different invariants, different objects); B293≡memo-51 JOINED. **GC-4
+(PROVED)**: the reach deficit DEEPENS to z≈49–59 under degree-preserving nulls, 81% localized to the
+two longest terminal jumps, and **the charpoly-LOCALITY law** named + tested (ρ=−0.61, p<1e-16).
+**GC-5 (PROVED)**: L63 CLOSED as c; L114 adjudicated (no contradiction — two questions, two spaces);
+L120 re-posed; B279/B769 confirmed with locks. Ledger rows updated in place. Locks test_b1189 (3).

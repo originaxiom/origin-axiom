@@ -1,0 +1,15 @@
+{
+ "id": "B1189",
+ "arc": "close-loop batch 1 (GC-1..GC-5)",
+ "verdict": "PROVED",
+ "cells": {
+  "GC-1": "PARTIAL: ladder verified; 11 non-arithmetic members; lattice deeper than commensurability; Vol(m004)=12 Vol_orb exact",
+  "GC-2": "NEGATIVE: the golden-unit killer (N(phi)=-1 => both-sign conjugators => mirror-self-equivalent); door narrows to heterogeneous couplings",
+  "GC-3": "PROVED: one generator A1=RL, three operations; B766-vs-B1083 reconciled; B293-vs-memo51 joined",
+  "GC-4": "PROVED: deficit deepens to z~49-59 under degree-preserving nulls; 81% in L7/L8->L10; the charpoly-locality law (rho=-0.61)",
+  "GC-5": "PROVED: L63 closed as c; L114 adjudicated-open; L120 re-posed; B1168/B1166 typed; B279/B769 confirmed"
+ },
+ "survival": "4/5 clean; GC-4's lone refutation = a verifier boolean slip with confirming text (recorded)",
+ "security_note": "one verify agent flagged for a broad pkill; reviewed, no workloads harmed, verdict independent",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

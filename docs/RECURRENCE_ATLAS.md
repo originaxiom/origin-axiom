@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-28 from 1082 frontier probes.
+> Last generated: 2026-08-28 from 1083 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,12 +11,12 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1082 frontier probes; status {'open': 63, 'banked': 720, 'dead': 279, 'dormant': 20}
-  the ONE conserved first integral: kappa (recurs 240x, 22%) -- genuine unity, MUST recur
-  top recurring motifs: golden(615), firewall(594), eisenstein(586), figure_eight(452), metallic(420), trace_map(401)
-  recurrence is: structural-invariant 3575 mentions | conserved-integral 240 | TOOL 401
-  the honest split: the trace-map TOOL is in 401 probes (37%) = method/selection-effect, NOT unity; only kappa is a forced first integral
-  top meeting-point candidates: B530, B521, B156, B598, B309, B321
+  corpus: 1083 frontier probes; status {'open': 63, 'banked': 720, 'dead': 280, 'dormant': 20}
+  the ONE conserved first integral: kappa (recurs 241x, 22%) -- genuine unity, MUST recur
+  top recurring motifs: golden(616), firewall(595), eisenstein(587), figure_eight(453), metallic(420), trace_map(402)
+  recurrence is: structural-invariant 3581 mentions | conserved-integral 241 | TOOL 402
+  the honest split: the trace-map TOOL is in 402 probes (37%) = method/selection-effect, NOT unity; only kappa is a forced first integral
+  top meeting-point candidates: B530, B521, B156, B598, B1189, B309
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
 ```
 
@@ -26,20 +26,20 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 | motif | #probes | % | kind | conserved | home domain | gloss |
 |---|---|---|---|---|---|---|
-| golden | 615 | 56% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
-| firewall | 594 | 54% | structure | structural | meta | the firewall / structural theorem / form-not-values |
-| eisenstein | 586 | 54% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
-| figure_eight | 452 | 41% | object | no | topology | the simplest hyperbolic knot; the carrier object |
+| golden | 616 | 56% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
+| firewall | 595 | 54% | structure | structural | meta | the firewall / structural theorem / form-not-values |
+| eisenstein | 587 | 54% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
+| figure_eight | 453 | 41% | object | no | topology | the simplest hyperbolic knot; the carrier object |
 | metallic | 420 | 38% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
-| trace_map | 401 | 37% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
-| amphichiral_cp | 384 | 35% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
-| torsion | 330 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
+| trace_map | 402 | 37% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
+| amphichiral_cp | 385 | 35% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
+| torsion | 331 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | wrt_quantum | 258 | 23% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
+| kappa | 241 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | z3_generation | 241 | 22% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
-| kappa | 240 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
-| lorentzian | 196 | 18% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
+| lorentzian | 197 | 18% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
+| symplectic | 105 | 9% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
 | dickson_tower | 105 | 9% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
-| symplectic | 104 | 9% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
 | apolynomial | 81 | 7% | structure | no | topology | the A-polynomial / Cooper-Long / AJ |
 | quasicrystal | 68 | 6% | dynamics | structural | quantum | the Fibonacci quasicrystal / Suto / Damanik-Gorodetski |
 | markov_cubic | 68 | 6% | invariant | structural | topology | the trace-triple SURFACE the trace map acts on: the Markov/Fricke cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). Deliberately EXCLUDES the bare phrase 'character variety', which B824 measured at 13.8%% of the corpus -- this programme's subject matter, not a topic within it |
@@ -48,9 +48,9 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 ### The honest split — unity vs the hammer
 
-- **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **240** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3575** mentions — invariants of the object's transforms.
-- **The hammer (selection effect):** the trace-map **tool** appears in **401** probes (37%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
+- **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **241** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3581** mentions — invariants of the object's transforms.
+- **The hammer (selection effect):** the trace-map **tool** appears in **402** probes (37%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
 
@@ -81,6 +81,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | B521 | 23 | dead | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, quantum, topology |
 | B156 | 22 | banked | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, representation, topology |
 | B598 | 22 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, physics, quantum, topology |
+| B1189 | 21 | dead | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, topology |
 | B309 | 21 | banked | two_ends+object=dynamics+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, meta, quantum, topology |
 | B321 | 21 | dead | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, topology |
 | B717 | 21 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, geometry, meta, physics, quantum, topology |
@@ -96,7 +97,6 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | B316 | 19 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
 | B496 | 19 | banked | two_ends+object=dynamics+physics_bridge | arithmetic, dynamics, meta, physics, quantum, topology |
 | B709 | 19 | dead | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
-| B716 | 19 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, geometry, physics, quantum, topology |
 
 **The unity-patterns** (the documented cross-structure identifications the detector looks for):
 
@@ -117,7 +117,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | measure | 104/172 |
 | gauge_dict | 62/102 |
 | selector | 18/28 |
-| spacetime_3p1 | 127/196 |
+| spacetime_3p1 | 127/197 |
 | numerology | 25/38 |
 | observable | 42/61 |
 

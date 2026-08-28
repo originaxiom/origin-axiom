@@ -3807,6 +3807,42 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1189": {
+   "slug": "close loop batch1",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B131",
+    "B279",
+    "B293",
+    "B766",
+    "B769",
+    "B786",
+    "B787",
+    "B942",
+    "B957",
+    "L10",
+    "L114",
+    "L120",
+    "L63",
+    "L7",
+    "L8"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B118": {
    "slug": "theta fixed root sign",
    "motifs": [

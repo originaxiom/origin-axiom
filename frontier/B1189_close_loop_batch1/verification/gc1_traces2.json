@@ -1,0 +1,282 @@
+[
+ {
+  "name": "m208",
+  "gens": 2,
+  "words": 4,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 1.0691058840368783e-50
+ },
+ {
+  "name": "o10_064767",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 6.41463530422127e-50
+ },
+ {
+  "name": "o10_107944",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 6.842277657836021e-49
+ },
+ {
+  "name": "o10_107945",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 1.282927060844254e-49
+ },
+ {
+  "name": "o10_107946",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 6,
+  "max_dev": 8.552847072295026e-50
+ },
+ {
+  "name": "o10_107947",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 3.4211388289180104e-49
+ },
+ {
+  "name": "o10_107948",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 9,
+  "max_dev": 4.276423536147513e-50
+ },
+ {
+  "name": "o10_107949",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 6.842277657836021e-49
+ },
+ {
+  "name": "o10_143600",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 3.4211388289180104e-49
+ },
+ {
+  "name": "o10_143601",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 4,
+  "max_dev": 1.870935297064537e-50
+ },
+ {
+  "name": "o10_143602",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 6,
+  "max_dev": 2.1382117680737565e-50
+ },
+ {
+  "name": "o9_27787",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 8.552847072295026e-50
+ },
+ {
+  "name": "o9_40998",
+  "gens": 2,
+  "words": 4,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 2.1382117680737565e-50
+ },
+ {
+  "name": "o9_40999",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 6,
+  "max_dev": 3.4211388289180104e-49
+ },
+ {
+  "name": "o9_41000",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 0,
+  "max_dev": 0.0
+ },
+ {
+  "name": "o9_41001",
+  "gens": 2,
+  "words": 4,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 5.345529420184391e-51
+ },
+ {
+  "name": "o9_41002",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 4,
+  "max_dev": 6.41463530422127e-50
+ },
+ {
+  "name": "o9_41003",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 7,
+  "max_dev": 1.0691058840368783e-50
+ },
+ {
+  "name": "o9_41004",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 5,
+  "max_dev": 4.276423536147513e-50
+ },
+ {
+  "name": "o9_41005",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 11,
+  "max_dev": 2.1382117680737565e-50
+ },
+ {
+  "name": "o9_41006",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 2.1382117680737565e-50
+ },
+ {
+  "name": "o9_41007",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 9,
+  "max_dev": 3.4211388289180104e-49
+ },
+ {
+  "name": "o9_41008",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 1.0691058840368783e-50
+ },
+ {
+  "name": "o9_41009",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 9,
+  "max_dev": 3.4211388289180104e-49
+ },
+ {
+  "name": "s118",
+  "gens": 2,
+  "words": 4,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 0.0
+ },
+ {
+  "name": "s119",
+  "gens": 2,
+  "words": 4,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 1,
+  "max_dev": 3.741870594129074e-50
+ },
+ {
+  "name": "s594",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 5.345529420184391e-51
+ },
+ {
+  "name": "s595",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 8.552847072295026e-50
+ },
+ {
+  "name": "s596",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 6,
+  "max_dev": 8.552847072295026e-50
+ },
+ {
+  "name": "t06828",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 6,
+  "max_dev": 6.842277657836021e-49
+ },
+ {
+  "name": "t06829",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 11,
+  "max_dev": 1.7105694144590052e-49
+ },
+ {
+  "name": "t11365",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 0.0
+ },
+ {
+  "name": "v2873",
+  "gens": 2,
+  "words": 4,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 2,
+  "max_dev": 5.345529420184391e-51
+ },
+ {
+  "name": "v2874",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": true,
+  "tr_direct_eisenstein": 4,
+  "max_dev": 3.4211388289180104e-49
+ },
+ {
+  "name": "v2875",
+  "gens": 3,
+  "words": 15,
+  "tr2_all_eisenstein": false,
+  "tr_direct_eisenstein": 6,
+  "max_dev": 2.1382117680737565e-50
+ }
+]
