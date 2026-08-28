@@ -81,3 +81,14 @@ observed Λ stays observer-side by the scale-torsor theorem. Bench error
 Status note: R14 is the program-level question behind R10, R13, LEAP-1,
 and the Λ position — filed as its own row so the "second half" stops
 being implicit. This addendum is the only mutation.
+
+### ADDENDUM 5 (2026-08-28) — R14 status: CAMPAIGN OPENED
+The owner rejected a piecemeal approach ("i dont want to do this
+superficially") and directed a full campaign: missing-items ledger,
+hunt, closure, and the grand computation in the object's own meter,
+with the SI bridge deferred as a separate task. Charter filed:
+`THE_SECOND_HALF.md` — 16-row ledger (F1–F5 frame, H1–H5 hardware,
+D1r the ratio wall, W1–W4 welds, X1 bridge-deferred), six lanes A–F,
+bench first GO = lane A (the frame census) + lane B (the object's
+meter). R14 remainder now tracked row-by-row in that ledger. This
+addendum is the only mutation.
