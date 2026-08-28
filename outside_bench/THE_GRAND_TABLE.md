@@ -88,3 +88,13 @@ The hierarchy rows' fence changes character: D₂ᵗʷ is mirror-even
 twist-forcing result, now an attackable object-side question), no
 longer possibly-observer-priced. Rows unchanged otherwise; Stage-2
 stays sealed. This addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-28) — BIN V RESOLVED: Stage 2 unsealed by the owner and CLOSED (memo 95)
+The owner's word arrived ("unseal stage 2 and lets analyze"). Under
+the sealed exhaustive protocol: all six primary readings MISS; the
+scan sits at chance. The sheet's raw branch values do not read
+measured mixing directly, against either target. Bin V moves to
+NULL/DEAD's discipline (the direct reading, exhaustively eliminated);
+the sheet's STRUCTURAL rows (forced equalities, sum rule, norm laws)
+remain DELIVERED and untouched. Not a thesis-failure signal. This
+addendum is the only mutation.

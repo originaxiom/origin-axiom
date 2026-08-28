@@ -86,3 +86,59 @@ own pattern).
 
 *(Results follow in ADDENDUM 1 after the certificate runs — nothing
 below this line exists at seal time.)*
+
+---
+
+## ADDENDUM 1 (2026-08-28, after the sealed run) — THE RESULTS
+
+Certificate `certificates/stage2_unseal.py`, GREEN, byte-identical
+in-lane. Integrity gates all passed (nine branch decimals annihilate
+their minpolys — trM's minpoly derived symbolically from e₁'s as
+−2048t³+6144t²−2952t+375; sum rule 151/64 + 553/64 = 11 exact; t_oct
+identity branch-wise).
+
+### The six primary readings
+| reading | T1 shape | T2 factor-2 |
+|---|---|---|
+| m_S × CKM | PASS (DESC/DESC, indices 1.838/1.443) — **= B929, by citation** | MISS (×4.99, ×9.86) |
+| m_A × CKM | MISS (V vs DESC) | MISS (×4.87, ×40.4) |
+| trM × CKM | MISS (ASC vs DESC) | MISS (×8.19, ×81.8) |
+| m_S × PMNS | MISS (DESC vs Λ) | MISS (×1.48, ×4.43) |
+| m_A × PMNS | MISS (V vs Λ) | MISS (×1.52, ×18.2) |
+| trM × PMNS | MISS (ASC vs Λ) | MISS (×1.11, ×36.8) |
+
+**ALL SIX MISS Tier 2; all five NEW cells miss Tier 1 on shape class.**
+The sheet's three triples carry three DIFFERENT shape classes (DESC,
+V, ASC) while both measured matrices are cascade/Λ — the sheet is
+shape-diverse where mixing is not.
+
+### The secondary scan (non-verdict)
+324 pairs. 5% window: 11 vs 2.6 null-expected; 1% window: 2 vs 0.5 —
+both counts sit above the sealed log-uniform null, and the excess is
+diagnosed honestly: BOTH value sets cluster in the same O(0.1–1)
+decade (generic for dimensionless quantities), which the
+full-range null under-weights; the discriminating question is
+individual sharpness. Best item: m_S's third flip mass 0.30364 vs
+PMNS sin²θ₁₂ = 0.303 (0.21%) — family-wise chance of at least one
+such ≈ 11% under the sealed null, squarely chance-grade (B1126's own
+0.025% coincidence was dismissed at 16.4% look-elsewhere; same
+discipline, same verdict). Second: 0.55581 vs sinθ₁₂ (0.97%),
+chance-grade. **Nothing is promotable; nothing is promoted.**
+
+### THE FULL-SHEET CLOSURE (the banked verdict)
+> The blind B928 shape sheet does NOT read measured mixing directly —
+> not m_S (B929), not m_A, not trM; not against CKM, not against
+> PMNS; and the derived-value scan sits at chance. B929's conclusion
+> extends to the whole sheet: IF the twist speaks to measured mixing,
+> it is through a nontrivial map no banked structure currently
+> supplies. The value layer's real contact points are the STRUCTURAL
+> facts — the forced equalities, the sum rule 11, the norm laws, the
+> mirror-even hierarchy carrier (memo 92) — not raw branch values.
+
+Per the sealed rule and the owner's standing directive, this is NOT a
+thesis-failure signal: no banked theorem ever forced these values
+onto measured mixing. What died today died cleanly and exhaustively:
+the direct-reading option, for the whole sheet, both targets. What
+survives is exactly what was object-side all along: the structure.
+Stage 2 is now CLOSED — the seal's question has its answer, and no
+licensed reading of this sheet remains untried.

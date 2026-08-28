@@ -107,3 +107,16 @@ the campaign; the gauge 2-torsion splits along the hierarchy line
 as one decision sheet in THE_WELD_BOOK. Owner-gates outstanding:
 the B928 Stage-2 unseal and the LEAP price decisions — both the
 owner's word, nothing else. This addendum is the only mutation.
+
+### ADDENDUM 7 (2026-08-28) — the owner's Stage-2 word, executed and closed (memo 95)
+The owner: "unseal stage 2 and lets analyze." Executed under a
+preregistered seal committed before data contact (B929's own pattern,
+cited). Result: the full-sheet closure — all six primary readings
+miss, the scan at chance, the direct-reading option eliminated
+exhaustively for the whole sheet against both CKM and PMNS. Recorded
+per the owner's directive as NOT a thesis-failure signal (nothing
+forced was contradicted; an unforced reading was eliminated). The
+value layer's live route after today: the nontrivial map (unsupplied),
+and the structural contact points — with twist-forcing (memo 92's
+object-side question) as the front door. This addendum is the only
+mutation.
