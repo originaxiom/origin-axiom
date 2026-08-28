@@ -163,3 +163,19 @@ This addendum is the only mutation.
 | R17 | **"elaborate D1–D4 including options and your recommendations/insight"** (2026-08-28; on THE_CLOSURE_ROUTES' owner-decision rows) | THE_CLOSURE_ROUTES.md addendum 1 (this session) | — (asked now) | **ANSWERED AT RECOMMENDATION GRADE**, with the decision DAG made explicit (D1 independent; D2 gated on B4's clock-coherence run; D3 sequenced after D2 since LEAP-2's buy needs LEAP-1; D4's build gated on E2). The bench's package: adopt D1 as a new lighter class (SELECTION PREMISE SP-1 — zero frame cost certified by memos 92/93, refuters named); DEFER D2 until the (Vol, CS) run returns (a free refutation opportunity should not be spent by early payment); RETYPE D3 rather than pay or refuse ("arrow forced" is false on three exact negatives — the arrow is the branch bit, one bit, frame-priced, per the owner's own not-forced directive); D4 spec now / build after E2, with the interpretive stake labeled (a quine complete-except-the-mirror-bit would sharpen the fence to "one bit buys occupation"); MENU-1's bound fixed from banked structure, owner co-signs one line | the owner's actual choices, in DAG order: D1 (now), MENU-1 co-sign (now), D4 spec authorization (now), D2 (after B4), D3 blessing (after D2) |
 
 This addendum is the only mutation.
+
+### ADDENDUM 12 (2026-08-28) — R17 RESOLVES BY SIGNATURE (owner decision recorded, same session)
+The owner signed D1 (SP-1, refuter armed), D3's blessing (arrow
+retyped, LEAP-2 retired as payable), D4's spec (criterion fixed now —
+the owner's structural note: the backing theorems already exist), and
+MENU-1 with the location line; D2 held for the B4 clock-coherence run
+("cc will execute the moment 5A returns" — quoted trigger). Executed
+same session: weld book addendum 3, selection theorem addendum 1,
+THE_QUINE_SPEC.md, and memo 105 (MENU-1 tier 1 RUN: W₁ = 11,720,
+median spacing ~3.5×10⁻⁵ — the denominator rule quantitative, the
+dense-menu reading banked). R17's LIVE remainder collapses to: D2
+(after B4) and the D4 build (queued, either seat). The owner's DAG
+correction — D3 and D4's criterion ready immediately — is recorded as
+a register-grade precedent: a decision is ready when its backing
+theorems are banked, not when its downstream dependencies clear.
+This addendum is the only mutation.

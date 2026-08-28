@@ -31,3 +31,15 @@ candidate INPUT ROWS not yet in the v0 slot table; flagged to cc for
 the floor's next amendment (with the observation that both imports are
 C₄/quartic — a possible fourth "end" for the trichotomy's brave
 question). Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-28) — THE PREMISE IS ADOPTED (owner signature, same date): the theorem is now operative as SP-1
+The owner signed the one premise into the price list as **SELECTION
+PREMISE SP-1** (a new class, lighter than LEAP — a typing premise with
+memos 92/93's zero-frame-cost certificate), **refuter armed**: the two
+named refuters above stand as permanent falsification targets, and
+either firing retracts the adoption automatically (no owner action
+needed — the refuter IS the exit). With SP-1 signed, the conditional
+theorem becomes the operative selection: the physical Hermitian
+structure is H₊D₂ᵗʷ, and the gauge crux is CLOSED-MODULO-SP-1. The
+value arc's "which gauge?" asterisk is replaced by "SP-1" wherever it
+appears. This addendum is the only mutation.

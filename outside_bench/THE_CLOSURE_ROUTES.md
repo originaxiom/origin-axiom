@@ -237,3 +237,26 @@ composition depth ≤ the weld book's price scale. The bench will write
 the precise bound into the MENU-1 preregistration; the owner co-signs
 or amends ONE line. This keeps the instrument's one free parameter
 from becoming a tuning knob. This addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-28) — THE SIGNATURES (owner, same date) and the same-session execution
+The owner signed today: **D1** (SP-1, refuter armed — selection
+theorem addendum 1, weld book addendum 3), **D3's blessing** (LEAP-2
+retired as a payable; ARROW = the branch bit, frame-priced — weld book
+addendum 3), **D4's spec** (THE_QUINE_SPEC.md — with the success
+criterion FIXED NOW per the owner's structural note that its backing
+theorems, memo 37 + B1183 + B1184, already exist; E2 refines coverage
+by addendum only), and **MENU-1 with the location line** — which made
+the instrument bench-runnable, so it was RUN this session:
+**memo 105** (`menu_width.py`, GREEN): tier-1 grammar frozen in the
+certificate before enumeration; **W₁ = 11,720**, median spacing
+≈ 3.5×10⁻⁵ — the denominator rule is now quantitative, and the tier-1
+menu is DENSE (the prediction arm needs a forcing theorem, not a
+value hit; values-as-menu is the standing default arm). **D2 is HELD**
+on the B4 clock-coherence run, which per the owner "cc will execute
+the moment 5A returns"; pay iff monotone. Row-D scoreboard: D1 CLOSED
+(signed), D3 CLOSED (blessed/retyped), D4 spec CLOSED (build queued,
+either seat), MENU-1 bound CLOSED and the cell RUN; D2 open-by-design
+awaiting its preregistered test. The owner's structural addition —
+that D3's blessing and D4's criterion were ready NOW because their
+theorems exist — is recorded and was honored. This addendum is the
+only mutation.

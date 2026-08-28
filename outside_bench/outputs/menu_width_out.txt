@@ -1,0 +1,24 @@
+value pool: 17 atoms, 731 at size 2, 38769 at size 3 (distinct values, ordered-operand grammar)
+
+W1 (THE TIER-1 MENU WIDTH) = 11720
+decile histogram (0.0-0.1 ... 0.9-1.0):
+   4851  1748  1035  882  648  497  584  414  447  614
+menu resolution: median nearest-neighbor gap D = 3.53287e-5, minimum gap = 1.63157e-9
+extremes: smallest menu value 7.064254196e-8, largest 0.9999186297
+   witness: 0.157397691501 = ((72 + 78) / 953)
+   witness: 0.157459164324 = ((2+sqrt3 - 2) / 11)
+   witness: 0.157484586797 = sqrt((2 / (72 + 553/64)))
+
+THE DENOMINATOR RULE, NOW QUANTITATIVE (banked before any data
+contact): the tier-1 menu holds W1 = 11720 values in (0,1) with median
+spacing ~3.53e-5.  Any future MENU-2 sealed comparison at this
+complexity bound inherits W1 as its family-wise denominator, and a
+hit resolved no finer than the local spacing is chance, not evidence
+— the memo-95/B1126 discipline, fixed in advance.  READING (typed,
+interpretive sentence labeled): a menu this shape means the
+"prediction" arm cannot be won at tier 1 by VALUE ALONE — it needs a
+forcing theorem that selects one map before looking (exactly the
+pincer's surviving slot); absent that, the values-as-menu arm stands
+as the default.  Tier 2 (transcendental atoms Vol, pi^2/6, 2 log phi)
+and any bound change are NEW preregistrations, not amendments.
+Gate 5 untouched.

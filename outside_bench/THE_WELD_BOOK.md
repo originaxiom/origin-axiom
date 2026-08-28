@@ -118,3 +118,24 @@ unchanged); non-monotone ⟹ LEAP-1 and W1 CANNOT both be paid — a
 genuine refutation of the joint package, which would force choosing
 between the AMS clock and the HT clock. Either outcome banks. This
 addendum is the only mutation.
+
+### ADDENDUM 3 (2026-08-28) — THE OWNER SIGNS: the decision sheet updates (three entries change state; quoted from the owner's message of this date)
+The owner signed today: **SP-1 adopted, refuter armed** — the
+selection premise ("the physical Hermitian structure is a
+generation-resolving one") enters the price sheet as a NEW, LIGHTER
+CLASS than the LEAPs: a typing premise with a banked zero-frame-cost
+certificate (memos 92/93) and two standing refuters (a second
+generation-resolving census member would kill B928's uniqueness; a
+proof the premise imports frame data would kill memo 92's parity).
+**LEAP-2 is RETIRED AS A PAYABLE** — the owner blessed the retyping:
+"the arrow is forced" is false on three exact negatives (B124, memo
+94's two-branch law, memos 97/101's exhaustion); the ledger now
+carries **ARROW = the branch bit, frame-priced, one bit, reach
+total** (matter-over-antimatter follows only WITH LEAP-1, so that
+consequence inherits LEAP-1's state). This is the owner's recorded
+not-forced directive applied to its most important instance.
+**LEAP-1 is HELD, not decided** — pending the clock-coherence run
+(addendum 2's condition; route B4), which per the owner "cc will
+execute the moment 5A returns." Pay iff monotone; non-monotone
+refutes the joint LEAP-1+W1 package and the choice becomes AMS-clock
+XOR HT-clock. This addendum is the only mutation.
