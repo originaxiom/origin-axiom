@@ -133,3 +133,7 @@ two-seat-established finding.
 
 The NEEDS-SPECIALIST bar (row H/the sign row's wall) now has its reading list **in hand rather than absent**: Lee arXiv:2502.11950 constructs the motive whose regulator is our complex volume and realizes it on a path torsor whose **tangential base point at the ideal point is chosen, not derived** — the outside instance of the missing marking, with **4₁ as its verified appendix case**. Grade CITED/UNVERIFIED (E37); the named verification step is §7.4 + Appendix A. This changes the bar's *reading list*, not its shape.
 
+## G3 — the charge tower's per-rung dark-hyperbola spectrum (row added at B1199)
+
+**STATUS: PROVED** — the N = p² law: the θ-lift seam T(j,l) has magnitude spectrum exactly {0, 1, √p, p} with the banked stratification counts, proved all-p at **B775/B778** (completing the square → a one-variable ℤ/p² Gauss sum) and independently re-verified at **eight** levels in B1199 (p = 23 new). Belongs with B566-S4 (row G2) as the charge tower's per-rung finite arithmetic; S4 was promoted long ago and **S1 was never carried forward** — the omission is closed here. **FENCE (load-bearing): 'dark' means GAUSS-SUM VANISHING, T(j,l) = 0. It has nothing whatever to do with cosmological dark matter, and must never be read into the cosmology ledger's dark-sector row.**
+

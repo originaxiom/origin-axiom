@@ -3980,6 +3980,32 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B1199": {
+   "slug": "register reads and L188",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B566",
+    "B664",
+    "B775",
+    "B778",
+    "H123",
+    "L187",
+    "L188",
+    "S1",
+    "S4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B119": {
    "slug": "mk scalar mechanism",
    "motifs": [

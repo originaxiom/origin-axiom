@@ -1,5 +1,22 @@
 # Changelog
 
+## B1199 (2026-08-28): THE REGISTER READS + L188 CLOSED — a fourth finished-but-forgotten, a refuted reconciliation, a first-ever check
+
+**GC-29 (R5)**: the "buried live law" was buried, but its *openness* is stale — **B775/B778 already
+banked the all-p symbolic proof** (lens-confirmed), three weeks after the flag. The law
+independently re-verified at **8 levels** (p = 23 new); two of three negative controls survive, the
+third **withdrawn** after failing the lens. **Fence**: "dark" = Gauss-sum vanishing, *not*
+cosmological dark matter. Ledger omission closed (S1 → new row G3). **This is the campaign's fourth
+finished-but-forgotten instance — the class is systemic.** **GC-30**: R6's two-clock reconciliation
+**REFUTED by the lens** (integer periods are λⁿ+λ⁻ⁿ−2 with λ = (3+√5)/2 — the argument conflated the
+additive period count with the multiplicative Radon–Nikodym ratio group); **no note banked**, the
+question returns to open with its defect named. R7 closes **NEGATIVE** (the entanglement's field is
+disjoint from the meeting field); R8 **CONFIRMED** as a pattern-level identity. **GC-31: L188 CLOSED**
+— the queue's oldest standing row: six claims verified with independent code, C1 on the **full
+745-class family** (unit-det + prime-conductor + trace-3 select the same single class, zero
+mismatches), and **the addendum's own never-checked C3 pointwise formula run for the first time —
+it HOLDS EXACTLY.** Locks test_b1199 (3).
+
 ## B1198 (2026-08-28): THE SPECIALIST BAR'S LITERATURE HALF — B707's never-run "Lee's motives" test retrieved
 
 WebSearch returned to this bench; the first search against SEAM-A found B707's **third named
