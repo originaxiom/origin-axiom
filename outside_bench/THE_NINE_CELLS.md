@@ -14,3 +14,12 @@
 | 9 | the selection theorem + Born rows | **DELIVERED (THE_SELECTION_THEOREM.md):** the gauge crux reduced to ONE named premise; the Born ζ₅/ζ₂₀⁺ imports flagged as candidate input rows (a possible fourth end) |
 
 **Wave score: 4 closed (5, 7, plus 9's assembly and 3's slice) · 2 sharpened to a single named question (1, 4) · 1 bench-half banked (8) · 2 blocked with their exact bars quoted (2, 6).** Nothing on the missing list remains vague; every item is now a theorem, an exhibit, one question, or one quoted bar. Gate 5 untouched throughout.
+
+### ADDENDUM 1 (2026-08-28) — the owner asked "how do we close these as well?"
+Answered in THE_CLOSURE_ROUTES.md: every item left open on this sheet
+now carries one named mechanism, seat, and trigger; the two routes the
+bench could still run were run first (memo 103: h = 1 by disjoint
+method — cell 5's single-method risk retired; memo 104: the E₆
+boundary object built — cell 3's untouched route has its first half),
+and the values-as-menu fork is posed as a preregistered instrument.
+This addendum is the only mutation.

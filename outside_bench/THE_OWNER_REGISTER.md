@@ -147,3 +147,11 @@ only mutation.
 Status note: bench error #8 filed with this row (the lift dossier's
 SU(3)³ over-promise, corrected by B528). This addendum is the only
 mutation.
+
+### ADDENDUM 10 (2026-08-28) — NEW ROW R16, filed same session per the standing rule
+
+| # | the owner's question (dated) | checked where | verdict then | modern status | LIVE remainder |
+|---|---|---|---|---|---|
+| R16 | **"how do we close these as well?"** (2026-08-28; on THE_NINE_CELLS outcome sheet — the items still open after the nine-cell wave) | THE_CLOSURE_ROUTES.md (this session) | — (asked now) | **ANSWERED AT ROUTE GRADE**: every remaining open item mapped to ONE named closure mechanism + seat + trigger; the two bench-runnable routes were RUN before the map was written — memo 103 (h = 1 re-proved by a disjoint method: eight explicit principal witnesses; the 953 single-method risk retired) and memo 104 (L154's E₆-lattice boundary object BUILT: Eisenstein over the lane's ℤ[ω], disc group = ℤ[ω]/θ with memo 100's θ, content {1, 27, 27̄}, current algebra 78 = dim e₆, c = 6); the values-as-menu fork POSED as a preregistered instrument (MENU-1/MENU-2, owner-gated) | cc's six instrument rows (B1–B9), codex's checks (C1–C2), the owner's four decisions (D1–D4 + MENU-1's complexity bound), the world's two bars (E1 S1-literature, E2 cloud-C6) — no item without a route |
+
+This addendum is the only mutation.

@@ -1,0 +1,41 @@
+F1a: the Coxeter element c has order 12; M = c^4 satisfies M^2 + M + I = 0
+     EXACTLY and preserves the Gram form — a fixed-point-free order-3
+     isometry: E6 is a Z[omega]-lattice (omega := 1 + M; omega^2 = omega - 1
+     holds because (1+M)^2 - (1+M) + I = M^2 + M + I = 0).
+F1b: FREE RANK 3 — {alpha_1, alpha_2, alpha_3} with their
+     M-images form a Z-basis (det = 1): E6 = Z[omega]^3 as a module
+     over the lane's pair-field ring.  The boundary lattice is Eisenstein.
+F2: Smith(G) = diag(1,1,1,1,1,3) — E6*/E6 = Z/3;  (M - I) adj(G) = 0 mod 3
+    EXACTLY => M acts trivially on the disc group: E6*/E6 is a module over
+    Z[omega]/theta = F_3, the residue field of theta = sqrt(-3) = 2 omega - 1 —
+    the SAME theta whose double is memo 100's grammar-derived cusp modulus.
+    label functional l = (1, 0, 2, 0, 1, 2) (G l = 0 mod 3): coset(y) = l . a mod 3.
+F3: EXACT enumeration of E6* (norm <= 4):
+      norm    0  coset 0:  1 vectors
+      norm  4/3  coset 1:  27 vectors
+      norm  4/3  coset 2:  27 vectors
+      norm    2  coset 0:  72 vectors
+      norm 10/3  coset 1:  216 vectors
+      norm 10/3  coset 2:  216 vectors
+      norm    4  coset 0:  270 vectors
+    the trivial coset has 72 norm-2 vectors (the e6 ROOTS); each nontrivial
+    coset has EXACTLY 27 minimal vectors at norm 4/3 => the three primaries
+    carry ground multiplicities {1, 27, 27} at conformal weights {0, 2/3, 2/3}
+    — the boundary theory's matter content IS the record's 27 + conjugate.
+F4: vacuum character (exact, from the lattice alone): dims [1, 78, 729] —
+    level 1 = 6 + 72 = 78 = dim e6 EXACTLY: the boundary current algebra is
+    the lane's own e6.  The 27-primary's tower begins [27, 378].
+    c = rank = 6 (lattice theory; = 6 sigma at sigma = 1 — census-row typing,
+    interpretive label).
+
+THE ROUTE'S FIRST STEP IS BUILT: L154's E6-lattice boundary object
+exists, is EISENSTEIN (a free rank-3 module over the lane's own
+Z[omega]), has discriminant group F_3 = Z[omega]/theta with the SAME
+theta as the grammar-derived cusp modulus (memo 100), and its exact
+content is {vacuum + 27 + 27-bar} with current algebra e6 (78) at
+c = 6.  Every number the boundary theory opens with is a banked
+number of the record.  WHAT REMAINS OPEN on this route (stated, not
+waved at): the BRIDGE — a map between this boundary theory's
+characters and a record-side q-series; GC-12's exclusion (no banked
+q-series candidate in either seat's artifacts) still stands, so the
+bridge needs NEW mathematics, not retrieval.  Gate 5 untouched.
