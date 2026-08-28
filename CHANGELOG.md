@@ -1,5 +1,21 @@
 # Changelog
 
+## B1205 (2026-08-29): THE CUBIC CELL RUN — the cubic exists and is failable, but it cuts one dimension of three
+
+B1204's prescribed cell, run. **The cubic is real**: the down block is 3×3×4, so Y_d(h) is linear in
+the Higgs direction and **det Y_d(h) is a genuine failable cubic form on the ℙ³** — exactly the
+shape asked for, at exactly where row E1 puts the values. **Then the counting kills it**: one
+equation cuts one dimension, so {det = 0} is a cubic *surface* (3 → 2), its singular locus is
+**empty** (5/5 samples smooth; classically generic determinantal cubics are), and rank ≤ 1 is empty
+by codimension. **THE DIMENSION LEDGER**: B1160 worked because **three linear anomaly conditions did
+four dimensions of work first**, leaving a line for the cubic to cut to points — the cubic did *one*
+dimension. The ℙ³ has **no linear conditions at all**, and that is **proved, not missing**:
+B1195/GC-25 established every banked symmetry acts trivially on B₀. **So the conclusion inverts the
+prescription — the missing ingredient is not the nonlinear condition but the LINEAR cuts**, and the
+two results lock together: GC-25's permanence is upgraded from "the floor carries three parameters"
+to **"a B1160-style forcing provably cannot reach them."** B1204 amended, not discarded: the recipe
+is linear-then-nonlinear, and the program has only the second half. Locks test_b1205 (2).
+
 ## B1204 (2026-08-29): THE SHAPE OF A FORCING THEOREM — failable, not symmetric; nonlinear when it must cut a continuum
 
 The owner asked whether the record's prior **symmetry breakings** supply the value arm's missing

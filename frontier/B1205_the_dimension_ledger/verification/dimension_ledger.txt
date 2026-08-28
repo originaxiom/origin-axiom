@@ -1,0 +1,15 @@
+(1) det Y_d(h) IS a genuine cubic form on P^3 -- degree 3, not identically zero:
+    the failable nonlinear condition B1204 asked for EXISTS on the Higgs line.
+(2) but {det = 0} is ONE equation on P^3 => a cubic SURFACE (dim 2), not points;
+    and its singular locus is EMPTY (0 nontrivial solutions of grad = 0;
+    5/5 random samples smooth -- classically, a generic determinantal cubic is smooth).
+    The rank<=1 locus has codim (3-1)^2 = 4 in dim 3 => empty by count.
+
+(3) THE DIMENSION LEDGER -- why B1160's recipe does not transfer:
+    B1160: 5-dim charge space --3 LINEAR conditions--> a LINE (dim 1) --the CUBIC--> POINTS.
+           The cubic did ONE dimension of work; the LINEAR conditions did FOUR.
+    here : P^3 (dim 3) --NO linear conditions (B1195/GC-25: every banked symmetry acts
+           TRIVIALLY on B_0)--> still dim 3 --one cubic--> dim 2.
+    A single polynomial equation cuts exactly ONE dimension. Three are needed.
+=> THE MISSING INGREDIENT IS NOT THE NONLINEAR CONDITION. IT IS THE LINEAR CUTS.
+REPRODUCES

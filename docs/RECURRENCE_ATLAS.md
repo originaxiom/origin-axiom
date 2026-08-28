@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-29 from 1095 frontier probes.
+> Last generated: 2026-08-29 from 1096 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1095 frontier probes; status {'open': 63, 'banked': 725, 'dead': 286, 'dormant': 21}
+  corpus: 1096 frontier probes; status {'open': 63, 'banked': 726, 'dead': 286, 'dormant': 21}
   the ONE conserved first integral: kappa (recurs 245x, 22%) -- genuine unity, MUST recur
   top recurring motifs: golden(621), firewall(605), eisenstein(596), figure_eight(458), metallic(422), trace_map(404)
   recurrence is: structural-invariant 3621 mentions | conserved-integral 245 | TOOL 404
@@ -65,7 +65,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | units_scale | 107 | firewall | firewall(73), golden(65), eisenstein(55), metallic(54) |
 | gauge_dict | 62 | eisenstein | eisenstein(38), firewall(34), golden(30), figure_eight(30) |
 | particle_dict | 92 | eisenstein | eisenstein(66), firewall(60), z3_generation(59), golden(56) |
-| spacetime_3p1 | 128 | eisenstein | eisenstein(76), golden(76), figure_eight(69), trace_map(61) |
+| spacetime_3p1 | 129 | eisenstein | eisenstein(76), golden(76), figure_eight(69), trace_map(61) |
 | observable | 42 | golden | golden(33), metallic(20), eisenstein(19), torsion(18) |
 | numerology | 25 | eisenstein | eisenstein(18), golden(17), firewall(16), metallic(15) |
 | bridge_construction | 9 | golden | golden(7), firewall(6), figure_eight(5), eisenstein(5) |
@@ -116,7 +116,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | bridge_construction | 9/20 |
 | measure | 107/178 |
 | gauge_dict | 62/102 |
-| spacetime_3p1 | 128/200 |
+| spacetime_3p1 | 129/201 |
 | selector | 18/28 |
 | numerology | 25/38 |
 | observable | 42/61 |

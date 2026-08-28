@@ -61,3 +61,4 @@ auditable in a way a passing threshold never was.
 because they are about the Markov cubic but because they **quote** it while discussing the gap. A
 regex motif matches *mentions*, not *subjects*. Recorded rather than filtered, because filtering
 would mean classifying by topic — the thing B822 refused.
+| `B1205` | GAP | the forcing-dimension layer (2026-08-29) — the lexicon has no term for codimension counting on a closer-datum family, the determinantal cubic on the ℙ³ Higgs line, or *linear-cuts-then-nonlinear-cut* as the anatomy of a forcing theorem; a real object topic the vocabulary misses (the arc's own finding: the cubic exists and is failable but cuts one dimension of three, and GC-25's proved absence of linear conditions on B₀ is what blocks it — the ℙ³'s permanence and the forcing recipe are one fact). |
