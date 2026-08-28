@@ -25,3 +25,32 @@ def test_scope_keeps_B1200_faces_cited_not_claimed():
 
 def test_it_claims_no_residue_closure():
     assert any("does not supply the missing marking" in x for x in R["not_claimed"])
+
+
+def test_escape_i_is_vacuous_for_prime_order_and_not_in_general():
+    """Paper IV prop:onlyescape. Re-derived here, not read from the arc's prose.
+
+    A transitive action of a group of PRIME order has no subgroup that both breaks the
+    orbit and keeps any invariance -- so 'shrink the group' is not a real alternative.
+    The control is the point: for |G| = 4 the escape IS genuine, so this test
+    distinguishes prime order rather than passing on every group.
+    """
+    def orbits(n, h):
+        step, seen, out = n // h, set(), []
+        for x in range(n):
+            if x in seen:
+                continue
+            o, y = set(), x
+            for _ in range(h):
+                o.add(y); y = (y + step) % n
+            seen |= o; out.append(o)
+        return out
+
+    def vacuous(n):
+        return all(max(len(o) for o in orbits(n, h)) == n
+                   for h in range(2, n) if n % h == 0)
+
+    assert vacuous(2), "the mirror: Z/2 on the two roots of Phi3"
+    assert all(vacuous(p) for p in (3, 5, 7)), "collapse should track primality"
+    assert not any(vacuous(n) for n in (4, 6, 8, 9)), \
+        "CONTROL: composite order must admit a genuine Escape (i)"

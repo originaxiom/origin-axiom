@@ -19481,6 +19481,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B8154": {
+   "slug": "mirror is c",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B817": {
    "slug": "verdict wave2",
    "motifs": [

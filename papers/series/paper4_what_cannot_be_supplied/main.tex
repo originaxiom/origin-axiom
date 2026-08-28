@@ -52,7 +52,12 @@ whether any may be.
 candidates, it is constant on that orbit and therefore cannot select a point of it. This is
 structural, not evidential: no refinement of the same invariant will ever select a point, so
 accumulating more of the same evidence is provably futile. There are exactly two escapes ---
-shrink the group, or add structure that is not invariant.
+shrink the group, or add structure that is not invariant. For $m004$ we identify the group: the
+holonomy parameter satisfies $t^2=t-1$, so $\omega:=t^2$ is a primitive cube root of unity,
+complex conjugation swaps the two roots of $\Phi_3$, and conjugating the holonomy preserves the
+relator. \textbf{The undetermined datum is therefore a choice of root of $\Phi_3$}, and because the
+acting group has prime order the first escape is \emph{vacuous}: any selector must fail to be
+invariant under complex conjugation outright.
 
 \emph{Family versus object.} The orientable cusped census contains $112$ manifolds whose
 tetrahedron shape field lies in $\Q(\sqrt{-3})$, and $m004$ is one of them. Of thirteen elementary
@@ -80,8 +85,8 @@ They share a verification convention: every numeral is recomputed by a named scr
 expected output is stated, and every control is designed so that a plausible error makes it fail.
 \end{center}
 
-\medskip\noindent\small\textbf{MSC 2020.} Primary 57K32; Secondary 57M50, 11R52, 20E45, 58J52.\\
-\textbf{Keywords.} hyperbolic three-manifolds, Mostow rigidity, invariant trace field, census, amphichirality.\normalsize
+\medskip\noindent\small\textbf{MSC 2020.} Primary 57K32; Secondary 57M50, 11R52, 12F10, 20E45, 58J52.\\
+\textbf{Keywords.} hyperbolic three-manifolds, Mostow rigidity, invariant trace field, census, amphichirality, Galois action.\normalsize
 
 
 \section{Introduction}
@@ -173,6 +178,30 @@ therefore not about some incidental symmetry: \textbf{the datum an observer must
 of root of $\Phi_3$}, and Escape~(i) is unavailable precisely because that choice is not made by any
 invariant of the object.
 \end{remark}
+
+\begin{proposition}[for the mirror, Escape~(i) is vacuous]\label{prop:onlyescape}
+Let $G$ act transitively on a set $\Omega$ with $|\Omega|>1$, and suppose $|G|$ is prime. Then
+every subgroup $H\le G$ is either $G$ itself, for which the orbit is unchanged, or trivial, for
+which \emph{every} function on $\Omega$ is $H$-invariant. Hence Escape~\textup{(i)} applied to such
+a $G$ either changes nothing or retains no invariance at all.
+\end{proposition}
+
+\begin{proof}
+Transitivity gives $|\Omega|=[G:G_x]$, which divides $|G|$; as $|\Omega|>1$ and $|G|$ is prime,
+$|\Omega|=|G|$ and every stabiliser is trivial. By Lagrange the only subgroups of a group of prime
+order are the trivial one and the whole group. For $H=G$ the orbit is all of $\Omega$; for $H=1$
+the orbits are singletons, so $H$-invariance imposes no condition and an $H$-invariant function is
+an arbitrary function.
+\end{proof}
+
+By Remark~\ref{rem:whichinvolution} the mirror is exactly this situation with $|G|=2$: the Galois
+group of $\Q(\sqrt{-3})/\Q$ acting transitively on the two roots of $\Phi_3$. \textbf{So for the
+datum at issue the two escapes of Escape~\ref{esc:orbit} are not alternatives.} Shrinking the group
+is unavailable, and a selector must simply fail to be invariant under complex conjugation --- it
+must know which root, and by construction no invariant of the manifold does. We record that the
+collapse tracks the primality of $|G|$ and not the number $2$: for $|G|=4$ acting transitively on
+four points there is a proper nontrivial subgroup whose orbits are strictly smaller, and
+Escape~\textup{(i)} there is a genuine alternative.
 
 \begin{remark}
 Escape~\ref{esc:orbit} is useful precisely because it is short. It converts an open-ended search

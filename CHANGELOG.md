@@ -6,7 +6,11 @@ Seat reactivated; read main to B1200, which unifies three faces under `Φ₃` wi
 
 **So Paper IV's obstruction is inside the unification, not beside it** — and the observer's discrete bit is named concretely as **a choice of root of `Φ₃`**, which by B1200 is at once the saddle branch, the founding obstruction's conjugate, and the boundary's Coxeter class. **B1184's *'the bit is c'* thereby becomes derived rather than a shared label.**
 
-**Fences:** the identification only. B1200's face-1 and face-3 stay **cited and un-re-run**. **No residue closes and no negative weakens — the marking is still not derived.** Paper IV now names the involution rather than treating its `ℤ/2` as incidental.
+**Link 6, same arc.** Identifying `G` makes Paper IV's Escape (i) — *shrink the group* — **testable rather than assumed available, and it fails**: a transitive action of prime-order `G` has no subgroup that both breaks the orbit and retains invariance. The mirror is that case at `|G| = 2`, so **the two escapes are not alternatives** and any selector must fail conjugation invariance outright. Control: `|G| = 4, 6, 8, 9` admit a genuine Escape (i), so vacuity tracks primality rather than the framework. **This strengthens the no-go by removing a route the paper had listed as open.** Paper IV gains `prop:onlyescape`, and its abstract now names the undetermined datum instead of describing the obstruction generically.
+
+**Also fixed:** B8154 was banked yesterday **without its `FINDINGS.md`** — the one file `scripts/forcing/build.py` ingests. Written now.
+
+**Fences:** the identification and that group-theoretic consequence only. B1200's face-1 and face-3 stay **cited and un-re-run**. **No residue closes and no negative weakens — the marking is still not derived.** Paper IV now names the involution rather than treating its `ℤ/2` as incidental.
 
 ## B8153 — B500: nine words were never reached, and my obstruction attempt is vacuous
 
