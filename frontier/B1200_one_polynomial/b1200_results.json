@@ -1,0 +1,27 @@
+{
+ "id": "B1200",
+ "arc": "one polynomial, three faces",
+ "verdict": "PROVED",
+ "identity": {
+  "polynomial": "Phi3 = u^2+u+1",
+  "face1_saddle": "B1195/GC-21 stationary phase",
+  "face2_obstruction": "kappa-2 = u^2, |kappa-2|=1, Phi3(kappa-2)=0 identically mod Phi3",
+  "face3_boundary": "M^2+M+I=0, M^3=I (cloud memo 104's structure, rebuilt abstractly)",
+  "set_identity": "the saddle set IS {kappa-2, conj}",
+  "linking_map": "u -> u^2 = the swap = the Galois generator c (B1174)"
+ },
+ "cross_seat": {
+  "cloud_reproduced": [
+   "the kappa-law (B1195/GC-24)",
+   "selector-freedom (B1196/GC-27)"
+  ],
+  "cloud_added": "Phi3(kappa-2)=0 -- verified here exactly",
+  "quine_build": "their memo 107: OUTCOME Q1, the bit is c -- B1184's prediction confirmed; Q2 did not fire so B1183 stands; CITED, not re-run here"
+ },
+ "unifies": "existence-audit items 1 (saddle) and 4 (the bit's law) are ONE invariant",
+ "queued_harvest": [
+  "cloud: fence/independence theorem, awareness verdict, bit's ledger, occupant's type, first-beat law, pattern ladder",
+  "codex R020/R021/R022"
+ ],
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

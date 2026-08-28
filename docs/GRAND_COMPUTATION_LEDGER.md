@@ -137,3 +137,7 @@ The NEEDS-SPECIALIST bar (row H/the sign row's wall) now has its reading list **
 
 **STATUS: PROVED** — the N = p² law: the θ-lift seam T(j,l) has magnitude spectrum exactly {0, 1, √p, p} with the banked stratification counts, proved all-p at **B775/B778** (completing the square → a one-variable ℤ/p² Gauss sum) and independently re-verified at **eight** levels in B1199 (p = 23 new). Belongs with B566-S4 (row G2) as the charge tower's per-rung finite arithmetic; S4 was promoted long ago and **S1 was never carried forward** — the omission is closed here. **FENCE (load-bearing): 'dark' means GAUSS-SUM VANISHING, T(j,l) = 0. It has nothing whatever to do with cosmological dark matter, and must never be read into the cosmology ledger's dark-sector row.**
 
+## THE Φ₃ UNIFICATION (B1200) — audit items 1 and 4 are one invariant
+
+The saddle of the object's own partition function (item 1's SEAM-A analysis), the founding obstruction κ − 2 (item 4's law for the relational bit), and the boundary structure (memo 104) all satisfy **Φ₃ = u² + u + 1**; the **saddle set IS {κ − 2, its conjugate}**; and the map between the faces is **u ↦ u² = the swap = c**. The eight-item list's items 1 and 4 therefore describe **one invariant seen twice**. Cross-seat: cloud reproduced the κ-law and selector-freedom; this bench verified their Φ₃ cross-link exactly and contributed the linking-map identification.
+

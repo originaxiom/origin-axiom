@@ -12133,3 +12133,19 @@ disjoint from the meeting field); R8 **CONFIRMED** as a pattern-level identity. 
 745-class family** (unit-det + prime-conductor + trace-3 select the same single class, zero
 mismatches), and **the addendum's own never-checked C3 pointwise formula run for the first time —
 it HOLDS EXACTLY.** Locks test_b1199 (3).
+
+## B1200 (2026-08-28): ONE POLYNOMIAL, THREE FACES — the saddle, the founding obstruction, and the boundary are Φ₃, and the map between them is c
+
+Cloud independently reproduced this bench's **κ-law** and **selector-freedom**, and returned a
+cross-link we had not named: **Φ₃(κ − 2) = 0**. Verified here exactly (identically mod Φ₃, not just
+at the roots). **FACE 1** the saddle of the object's own partition function (B1195/GC-21, derived
+knowing nothing of κ); **FACE 2** the founding obstruction κ − 2 = u², |κ − 2| = 1 (B309/B518);
+**FACE 3** the boundary structure M² + M + I = 0 (cloud memo 104, rebuilt abstractly). **The saddle
+set IS {κ − 2, its conjugate}** — the same two numbers. **This bench's addition: the linking map is
+u ↦ u², which on the primitive cube roots is the swap — the Galois generator c itself.** So the
+existence audit's item 1 (SEAM-A's saddle) and item 4 (the bit's law) are **ONE INVARIANT**: the
+polynomial whose vanishing is the founding frustration is the polynomial whose roots are where the
+amplitude is stationary. Also harvested (CITED): **cloud's quine build landed on OUTCOME Q1 — "the
+bit is c" — exactly B1184's prediction**; Q2 did not fire, so B1183 stands. Cloud's other six
+commits and codex R020–R022 fetched and queued. Locks test_b1200 (2, the identity re-derived in the
+test itself).

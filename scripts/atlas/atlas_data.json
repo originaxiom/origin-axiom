@@ -4030,6 +4030,25 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1200": {
+   "slug": "one polynomial",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B285",
+    "B309",
+    "B518"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B120": {
    "slug": "tower determination",
    "motifs": [

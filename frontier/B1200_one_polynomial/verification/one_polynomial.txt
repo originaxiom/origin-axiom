@@ -1,0 +1,7 @@
+FACE 1 (saddle, B1195/GC-21):        u^2 + u + 1 = 0, roots -1/2 +- sqrt3 i/2
+FACE 2 (obstruction, B309/B518):     kappa - 2 = u^2, |kappa-2| = 1, Phi3(kappa-2) = 0
+        -- identically mod Phi3, not merely at the roots
+FACE 3 (boundary, cloud memo 104):   M^2 + M + I = 0, M^3 = I
+SET IDENTITY: the saddle set IS {kappa-2, conj}
+LINKING MAP : u -> u^2 swaps the roots = the Galois generator c (B1174)
+ONE POLYNOMIAL, THREE FACES. REPRODUCES
