@@ -9,6 +9,15 @@
   "what_this_kills": "the derivation of the reflection formula used 'R_{rho(m)}(0) = T_X(rho(m))^2', i.e. Fried's theorem, whose hypothesis is ACYCLICITY. H* is never acyclic, so that step is INVALID. R_{rho(m)}(s) has a NONZERO ORDER OF VANISHING at s=0 governed by h1=h2=1 -- it is not a finite value equal to a torsion. THE REFLECTION FORMULA AS DERIVED DOES NOT FOLLOW, and its numerical predictions (2.109e-04, 1.925e-05, 1.641e-06) are WITHDRAWN as predictions."
  },
  "CORRECTION_2026-08-28_a_control_claimed_but_not_run": {
+  "attempted_generalisation_FAILED": {
+   "bite_control": "run the detector against scripts KNOWN to execute controls. It saw 3 of 4 -- and MISSED frontier/B8111_genericity_control/genericity_control.py entirely.",
+   "idea": "the defect -- a control claimed in prose and absent from code -- looked mechanically detectable, so I scanned all 133 verification scripts this seat can see for prose control-claims with no executable counterpart.",
+   "it_flagged": 14,
+   "verdict": "UNRELIABLE, high false-positive rate. The 14 flagged scripts are NOT published as findings and no claim is made about them.",
+   "what_this_means": "the B8142 defect -- docstring asserting a control, zero implementation -- is distinguishable from B8111's convention ONLY BY READING. There is no cheap mechanical proxy, so this failure class has no detector and remains caught by accident. Mine surfaced only because an abandoned job failed hours later and notified me.",
+   "what_went_right": "the bite control ran BEFORE publication this time, not after. That is the E52 rule working one instance after it was written.",
+   "why_it_missed": "B8111 names its controls in COMMENTS above live gate() calls ('# THE B997-CORRECTION CONTROL: a finite SU(2) subgroup has EXACTLY ONE involution'), while the gate's own label states the property. The detector looks for the word CONTROL inside the call, so a perfectly good convention reads as absent."
+  },
   "how_it_happened": "the control lived in an abandoned sympy draft, where it first errored on Laurent normalisation. When I rewrote the computation in the exact Q(sqrt-3) field model I carried the DOCSTRING SENTENCE over and left the CHECK behind.",
   "how_it_surfaced": "the abandoned sympy job finally failed with exit 1, hours later, which is the only reason I looked at that control at all",
   "second_defect_found_fixing_it": "after installing the check the script printed 8/8 while running 9 checks -- a stale hardcoded total. The counter now DERIVES its total from the file and asserts against it, so it cannot drift again.",

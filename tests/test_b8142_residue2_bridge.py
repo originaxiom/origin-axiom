@@ -76,3 +76,14 @@ def test_the_claimed_but_unrun_control_is_recorded():
     c = R["CORRECTION_2026-08-28_a_control_claimed_but_not_run"]
     assert "NO SUCH CHECK EXISTED" in c["what"]
     assert c["the_result"].startswith("THE CONTROL PASSES")
+
+
+def test_the_failed_detector_is_recorded_and_its_output_withheld():
+    f = R["CORRECTION_2026-08-28_a_control_claimed_but_not_run"]["attempted_generalisation_FAILED"]
+    assert f["verdict"].startswith("UNRELIABLE")
+    assert "NOT published as findings" in f["verdict"]
+    assert "B8111" in f["why_it_missed"]
+
+def test_the_class_is_recorded_as_having_no_detector():
+    f = R["CORRECTION_2026-08-28_a_control_claimed_but_not_run"]["attempted_generalisation_FAILED"]
+    assert "no detector" in f["what_this_means"] and "caught by accident" in f["what_this_means"]
