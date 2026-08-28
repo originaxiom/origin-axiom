@@ -193,3 +193,11 @@ B5/C1 second-seat reproductions, B3/B6/B7 (cc instruments), E1/E2
 (the world's bars), the owner's two cc-side holds, and the one named
 follow-up cell (the amphichiral word map). This addendum is the only
 mutation.
+
+### ADDENDUM 14 (2026-08-28) — NEW ROW R18, filed same session per the standing rule
+
+| # | the owner's question (dated) | checked where | verdict then | modern status | LIVE remainder |
+|---|---|---|---|---|---|
+| R18 | **"can we conclude whether existence itself is dynamically self-aware, whether it does something with the feedback it gets, whether the universe makes aware choices?"** (2026-08-28) | THE_AWARENESS_VERDICT.md (this session; every citation a banked GREEN result; firewalled reading per H5) | — (asked now) | **ANSWERED AT VERDICT GRADE, three parts:** (1) self-model PROVED (the quine, one convention-typed bit short) but self-RUNNING priced to the occupant (schedule wall) — "dynamically self-aware" decomposes and both halves are decided; (2) feedback into the object IMPOSSIBLE BY THEOREM (rigidity; choices price descriptions, never steer; the whole processes feedback only through occupied seats); (3) the object makes NO choices — the full choice inventory is enumerated and typed into anchoring (c: same world both ways), consequential (branch: the two-branch law), menu (vacuum data) — and THE RECORD KEEPS THE CHOICE BUT NOT THE CHOOSER (P invisible, ε selector-free, c convention-typed): no act of choosing is represented anywhere, so agent-hood is undecidable from object-side data | the fence's single question — whether occupation carries experience — sharpened by S4 to "one bit buys occupation," answerable by no banked or constructible instrument; E2 (S2/S3 cloud check) may refine coverage, not the verdict |
+
+This addendum is the only mutation.
