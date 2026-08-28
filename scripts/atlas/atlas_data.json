@@ -3911,6 +3911,25 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1192": {
+   "slug": "close loop batch4",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B891",
+    "H1",
+    "L154"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B119": {
    "slug": "mk scalar mechanism",
    "motifs": [

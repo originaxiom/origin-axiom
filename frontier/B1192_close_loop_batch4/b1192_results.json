@@ -1,0 +1,14 @@
+{
+ "id": "B1192",
+ "arc": "close-loop batch 4 -- THE RELATIONAL BIT EXISTS",
+ "verdict": "PROVED",
+ "crown": "eps(A,M1) = -1: mirror-odd, dimensionless, restricts to c (both Galois actions computed); trace-invisible 340/340; controls two-sided; lens-scoped to the exhibited pairs (general norm-classification = the named refinement)",
+ "cells": {
+  "GC-16": "PROVED (lens-scoped): the relational bit exhibited",
+  "GC-17": "PARTIAL: arrow stays supplied at probe depth",
+  "GC-18": "lambda placement adjudicated (archived)",
+  "GC-19": "PARTIAL: boundary-character routes typed",
+  "GC-20": "PROVED: F3 green + B891 mechanism + D2 fence"
+ },
+ "reproduces": "verification/batch4_cells.json + gc16_hetero_coupling.py (43/43 exact)"
+}

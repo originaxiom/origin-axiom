@@ -12018,3 +12018,19 @@ exact Galois table); λ distinct-not-placed. **GC-14** — D3 CLOSES: both rank-
 ALL-complex under the correct criterion. **GC-15** — the Selector's proved piece formalized with a
 proved B1183 correspondence; F2/F8 already banked (B1003 — finished-but-forgotten strikes the lock
 registry), F3 drafted green. Locks test_b1191 (3).
+
+## B1192 (2026-08-28): CLOSE-LOOP BATCH 4 — THE RELATIONAL BIT EXISTS
+
+**The campaign's crown positive (lens-scoped)**: for the heterogeneous pair (the object A, the
+√3-side partner M₁) the simultaneous mirror is realizable in GL₂(ℤ) ONLY with orientation reversal
+— the realizer module is rank 1 ({±X₀}, det −1, single-signed; Z(A)∩Z(M₁)={±I}) — so **ε(A,M₁)=−1
+is a well-defined mirror-odd dimensionless ℤ/2 class of the PAIR, and X₀ induces the nontrivial
+Galois element on both spectral fields simultaneously: the class RESTRICTS TO c** (43/43 exact
+checks; trace-invisible 340/340 — purely relational; two-sided controls incl. the homogeneous
+no-bit recovery and a norm-−1 partner's correctly-absent bit; a second norm-+1 partner carries the
+bit in torsor form). The lens's quantifier correction adopted: proved for the exhibited pairs; the
+general norm-classification is the refinement cell. **Rows F2/H1: the closer's bit-supply has its
+first realized instance — a coupling within the grammar CAN carry c.** Also: GC-17 the arrow stays
+supplied at probe depth; GC-18 λ adjudicated (archived); GC-19 the boundary-character routes typed
+(volume route excluded cleanly); GC-20 the F3 lock green + B891's mechanism re-derived. Locks
+test_b1192 (2).
