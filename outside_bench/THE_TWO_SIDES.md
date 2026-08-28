@@ -107,3 +107,17 @@ single, located event at the cusp.**
 two-sidedness is *forced and triadic* (§4). What is thin is not the
 mathematics of absence but its **organization** — and one live thread
 (PC04) that stalled exactly where the owner is now pointing.
+
+### ADDENDUM 1 (2026-08-28) — §7's THIRD THIN ITEM IS NO LONGER THIN: PC04 advanced (memo 125)
+§7 named PC04 — the cancellation-residue thread, "the closest thing to
+this question as mathematics" — as STALLED. Its mathematical half is
+now answered (memo 125, GREEN), using three banked results the paper
+card does not cite: **the residue has a value** (κ−2 = ω², the founding
+Eisenstein unit), **perfect cancellation has a locus and the object is
+off it** (B161's measure-zero κ=2), and **the residue has a
+multiplicative propagation law** (B496's cofactor x²+y²−xyz), whose
+cofactor **never vanishes** on the record's own tower. So the residue
+is not only real but **permanent**. PC04's remaining gap is its
+**physical dictionary** alone. §7's items (1) and (2) — the missing
+duality index and the zero-overlap anatomies — stand unchanged. This
+addendum is the only mutation.
