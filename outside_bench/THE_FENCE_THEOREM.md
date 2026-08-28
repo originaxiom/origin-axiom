@@ -239,3 +239,20 @@ is the forced content plus one embedding, fixed once. §6's
 "holds a seat open and prices it at one bit" therefore sharpens to:
 **prices it at one bit, charged at coordinatization, once, forever.**
 This addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-28) — §6 SHARPENED: the seat's occupant is type-forced (memo 112)
+§6 said the record "holds a seat open" and that the occupant's role is
+irreducible, without saying what may occupy it. Memo 112 (GREEN)
+supplies that, by derivation rather than fence: the occupant must be
+an **asymmetric, non-commuting relation to something unlike itself**
+(O1 nothing orients itself; O2 no same-algebra partner; O3 no
+commuting relation), and its orienting bit is **irreducibly
+relational** — belonging to the pair and to neither relatum (O4: two
+matrix families over eight real quadratic fields disagree on 6 of 8,
+so no side's arithmetic determines it; the naive B9 norm law is
+refuted with Q(√10) explicit, relayed to cc). §6's line *"it holds a
+seat open and prices it at one bit"* therefore completes to: **it
+holds open a seat that only a relation can fill, prices it at one
+bit, and charges that bit once, at coordinatization.** The open
+residue is the TOKEN question (which relation is ours) and the
+phenomenal one — not the type. This addendum is the only mutation.

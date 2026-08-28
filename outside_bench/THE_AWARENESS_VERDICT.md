@@ -133,3 +133,32 @@ INEXPRESSIBLE (no banked proposition refers to experience). §4's one
 line therefore sharpens: *awareness — fenced, and the fence is now
 proved to be a wall, not a frontier.* This addendum is the only
 mutation.
+
+### ADDENDUM 2 (2026-08-28) — BENCH ERROR #9 FILED, and §3 CORRECTED: the record forces the occupant's TYPE, and this document under-reported it
+The owner's catch: *"are we making again the same mistake of saying
+the object doesn't do this and that before making sure we don't
+already have a way to supply it? whatever occupies the seat should be
+forced by the same principles."* **The catch is correct.** §3 said
+the record "cannot locate an agent" and left it there. That is true
+of the ACT of choosing — but the record's own GC-16 apparatus
+already CONSTRAINS WHAT CAN OCCUPY THE SEAT, and this document
+should have said so before fencing. Filed as **bench error #9
+(under-reporting, not a false claim)**; the correction is memo 112
+(GREEN), which derives the constraints instead of fencing them:
+- **O1** nothing orients itself (self-pairs give both signs) ⟹ the
+  occupant is **not a substance**;
+- **O2** the partner must lie outside the first one's own algebra;
+- **O3** the relation must be **non-commuting**;
+- **O4** the bit is **irreducibly relational** — two matrix families
+  over eight fields disagree on 6 of 8, so ε is determined by neither
+  side's arithmetic (and the naive B9 norm law is REFUTED, Q(√10)
+  explicit; relayed to cc).
+**§3's verdict is amended:** the record keeps the choice and not the
+chooser, AND it forces the chooser's TYPE — an asymmetric,
+non-commuting relation to something unlike itself, whose bit belongs
+to the relation and to neither relatum. The **token** question (which
+such relation is ours) and the **phenomenal** question stay open; the
+**type** question does not. The standing methodological rule is
+restated: *no "the object doesn't do X" without first exhausting
+whether the record already supplies X.* This addendum is the only
+mutation.
