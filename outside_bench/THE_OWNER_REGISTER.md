@@ -120,3 +120,20 @@ value layer's live route after today: the nontrivial map (unsupplied),
 and the structural contact points — with twist-forcing (memo 92's
 object-side question) as the front door. This addendum is the only
 mutation.
+
+### ADDENDUM 8 (2026-08-28) — R1's FOUNDING LEVEL CLOSES (three-seat): the a/ab/ba bit was taken at the first symbol, and the arrow was never part of it
+cc's relay (via the owner) + B1083/THE_FORCED_AND_THE_FREE + this
+lane's independent verification (memo 98, GREEN): A1–A6 cannot
+distinguish the four founding substitution rules (a free transitive
+K₄-torsor — reproduced from scratch in-lane); writing a→ab, b→a took
+exactly ONE basepoint of choice, spendable as C (chirality-type) and
+P (reading direction); the residue transports as c (L63, cc); the
+ARROW is not a founding bit — it is σ's non-invertibility (confirmed
+in-lane: the image submonoid provably misses b), exactly where memo 86
+priced the ORDER. Lane additions: P is character-invisible (the object
+cannot see the reading direction — the purest describer-priced bit in
+the record), and the branch ℤ/2 is independent of c, C, AND P. R1's
+remaining live item is now only what AR6 already holds (the branch/
+direction structure, in cc's reconciliation batch). The owner's oldest
+question has its origin story, three-seat solid. This addendum is the
+only mutation.

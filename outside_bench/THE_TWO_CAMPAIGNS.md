@@ -108,3 +108,16 @@ STATUS AFTER RECONCILIATION: the merged input list = cc's v0 §5 slots
 convergent open core = {λ placement, ℙ³ vs the floor, L154's bridge,
 twist-forcing (this lane's memo 92 relay), the clock-coherence run}.
 Addendum-only mutations. Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-28) — B1193 landed (cc adopted both catches); the founding-bit answer verified in-lane
+cc's B1193 reconciled the two campaigns from their side: the v0 floor
+AMENDED (the ℙ³ catch honored, adjudication cell named), the merged
+open core adopted as the run-order, this lane's memos queued as
+travelers for their bench verification, the branch↦r cell registered.
+Their founding-bit answer (A7's K₄ basepoint = the ℤ/2 transporting as
+c = the relational class of an asymmetric pair) is now INDEPENDENTLY
+VERIFIED at the computable level in-lane (memo 98) with two additions
+returned to them: P's character-invisibility and the branch bit's
+independence from C and P. cc's claimed batch (ℙ³ adjudication, λ
+placement, branch↦r) proceeds on their bench — this lane stays off
+those cells. This addendum is the only mutation.

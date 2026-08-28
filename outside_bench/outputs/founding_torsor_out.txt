@@ -1,0 +1,31 @@
+FACT 1: K4 = {1, C, P, CP} verified (involutions, commuting); the orbit of
+   the founding rule = 4 DISTINCT rules {(ab,a), (ba,a), (b,ba), (b,ab)}:
+   FREE + TRANSITIVE, trivial stabilizer — cc's torsor claim REPRODUCED.
+FACT 2: all four rules share char poly x^2 - x - 1 (the A-level shadow of
+   indistinguishability); P is ABELIANIZATION-INVISIBLE; C = swap-conjugation.
+   control: tr(ab) = tr((ab)^-1) = (Fraction(2, 1), Fraction(-1, 1)) = 2 - omega — the banked systole
+   class trace (memo 81) reproduced exactly by the vendored Riley matrices.
+FACT 3: tr(w) = tr(rev(w)) for ALL 1364 words of length <= 5 (exact, Z[omega])
+   — P (reading direction) is CHARACTER-INVISIBLE, as the Fricke argument
+   proves in general (x, y, z all reversal-fixed; traces are polynomials in them).
+FACT 4: at the character level C acts as s:(x,y,z)->(y,x,z) [memo 97: does not
+   swap the branches] and P acts trivially [FACT 3] => THE BRANCH Z/2 IS
+   NEITHER FOUNDING BIT — not C, not P (and not c, memo 97).  Filed to the
+   branch->r identification cell (cc's batch) as word-level input.
+FACT 5: the image submonoid of sigma (87 words to length 8) contains NO
+   word starting with b — in particular b itself is unreachable: sigma is
+   NON-SURJECTIVE, hence non-invertible.  The arrow is this monoid fact (order,
+   memo 86), NOT a K4 coordinate — cc's B1083 re-typing CONFIRMED.
+
+THE FOUNDING TORSOR STANDS, INDEPENDENTLY VERIFIED: the first written
+symbol of the programme took exactly one K4-basepoint of choice — four
+equivalent founding rules, freely and transitively permuted by the
+letter-swap C and the reading-direction P, indistinguishable at the
+abelianized level (one golden polynomial for all four) — and the two
+lane additions sharpen the map: P is invisible to the entire character
+variety (the object cannot even SEE the reading direction), and the
+branch bit is neither founding bit.  The owner's oldest question closes
+its founding level: a/ab/ba took the bit AT THE FIRST SYMBOL, spendable
+as C and P; the arrow was never one of them — it is the substitution's
+non-invertibility, exactly where memo 86 priced the order.  Gate 5
+untouched.
