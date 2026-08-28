@@ -63,3 +63,14 @@ not fire; Q3/Q4 did not fire. One follow-up cell named, not built:
 exhibit the amphichiral automorphism as an explicit word map, which
 would upgrade the bit's convention-typing from banked-cited to
 constructed. This addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-28) — the follow-up cell RAN same session: the convention-typing is CONSTRUCTED (memo 108)
+The amphichiral automorphism is exhibited as an explicit word map:
+φ(a) = a, φ(b) = ba⁻¹b⁻¹, with holomorphic intertwiner
+g = [[1, ω̄],[0,1]] realizing gal∘ρ = g·(ρ∘φ)·g⁻¹ — and φ proved an
+automorphism constructively (φ² = conj by a⁻¹, since gal(g)·g = ρ(a)
+exactly). Q1's one bit is therefore convention-typed BY WITNESS, not
+by citation: c's two settings name the same world. The spec's
+outcome ledger is complete: Q1 fired, its residue paid, nothing of
+S4 remains unbuilt except what E2 may later add as coverage rows.
+This addendum is the only mutation.

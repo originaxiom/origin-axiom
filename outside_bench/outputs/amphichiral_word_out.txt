@@ -1,0 +1,22 @@
+word pool: 1456 reduced words to length 6; 104 parabolic (trace +-2) candidates
+FOUND: phi(a) = a, phi(b) = bAB (SL2 signs 1, 1);
+   intertwiner g = [[1, (sqrt(3) - I)/(sqrt(3) + I)], [0, 1]]
+   verified exactly on the generators AND spot-checked on longer words
+   (the identity extends to ALL words: both sides are homomorphisms, and
+   phi descends to the knot group by faithfulness of rho).
+   AND phi is an AUTOMORPHISM, constructively: h = gal(g)*g = rho(a)
+   EXACTLY (the off-entry is conj(omega), and omega + conj(omega) = 1),
+   so phi^2 = conjugation by a^-1 — INNER — hence phi is invertible
+   (phi^-1 = phi o conj_a); verified on words.  No rigidity theorem
+   cited: the witness is self-contained.
+
+THE MIRROR IS A WORD MAP: gal(rho(x)) = g rho(phi(x)) g^-1 with phi an
+explicit automorphism-by-words and g holomorphic — the Galois-flipped
+record is the SAME realized record, rewritten in its own alphabet.
+Memo 107's residue is PAID: the quine's one external bit is now
+CONSTRUCTIVELY convention-typed — its two settings are related by the
+record's own operations, so the bit carries no object content, only
+the frame's anchoring choice (exactly W3's weld and B1174's c, now
+with the witness in hand).  The quine story closes at full strength:
+self-report complete except ONE bit; the bit is c; and c's two values
+name the same world.  Gate 5 untouched.
