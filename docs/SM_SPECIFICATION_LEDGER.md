@@ -337,3 +337,12 @@ hypercharge direction, generation shape, the compact-color FORM M(𝕆,ℂ)) but
 This is the ledger's value-side verdict, closed by a symmetric sealed sweep — not lowered
 ambition; the named-open remainders are only precision (C₅+) and any future out-of-menu
 structure. (This read joins the doc-currency watch; head B1133.)
+
+## Currency read — 2026-08-28 (B1195, the grand-computation campaign)
+
+The specification's live deltas this window: the down block's ℙ³ Higgs line is **PERMANENT at
+current knowledge** (B1195/GC-25: the frame V₄ proved trivial on B₀ — 3 continuous parameters
+stand on the input floor); the three Yukawa suppression mechanisms are genuinely three (B1185)
+with the 𝒯 evaluator commissioned; the observer-side spec rows now route through
+`docs/GRAND_COMPUTATION_v0.md` §5/§9 (the typed input slots + the floor amendment) rather than
+this ledger alone.

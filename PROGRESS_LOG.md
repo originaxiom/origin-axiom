@@ -12058,3 +12058,15 @@ the initial condition: the one blind region, zero dedicated modern arcs — the 
 never made). The big bang itself: answered structurally (genesis chain priced; no-beginning proved;
 the bang = the onset of non-cancellation, κ−2 = ω²; the Sakharov gate present, no-rate honest). The
 object's own Λ = −1 PROVED; the measured Λ = a value-wall question. Locks test_b1194 (2).
+
+## B1195 (2026-08-28): BATCH 5A — three of the eight closed or decided; the bit's law IS the founding invariant
+
+**SEAM-A SHARPENED** (Z = (ω/√−3)·2sinh(Vol/2π); the saddle equation is u²+u+1=0 — the founding
+quadratic; the ζ₁₂ hinge into H = K(√3); lens-scoped). **λ PLACED** (P1: a second external
+continuous datum; the KMS/BTZ reduction proved tautological — both seats' top residue DECIDED; the
+count = σ and λ). **The E₆ cusp route dead structurally** (orthogonal-sum Grams vs indecomposable
+E₆); cloud's algebraic boundary object is the living half; the q-series map remains. **THE LAW
+(GC-24, survives): the relational bit is governed by κ(A,M) — the program's own founding Fricke
+invariant** (gen_det = −κ/g²): the existence obstruction and the observer-bit criterion are ONE
+invariant. **The ℙ³ line PERMANENT** (the frame V₄ proved trivial on B₀ — the floor's 3 continuous
+parameters stand definitively). Missing list: 3/8 closed or decided, 2 sharpened. Locks test_b1195.

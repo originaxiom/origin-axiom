@@ -1,0 +1,14 @@
+{
+ "id": "B1195",
+ "arc": "close-loop batch 5A",
+ "verdict": "PROVED",
+ "cells": {
+  "GC-21": "SEAM-A SHARPENED: Z=(omega/sqrt-3)2sinh(Vol/2pi); saddle eq = founding quadratic; zeta12 hinge into H=K(sqrt3)",
+  "GC-22": "LAMBDA PLACED: P1 (second external continuous datum); KMS/BTZ route tautological",
+  "GC-23": "cusp route dead structurally; cloud's algebraic half lives; q-series map remains",
+  "GC-24": "THE LAW: the bit is governed by kappa(A,M) -- the founding Fricke invariant; existence and observer-bit are ONE invariant",
+  "GC-25": "P^3 PERMANENT: all banked symmetries trivial on B_0; floor carries 3 continuous params"
+ },
+ "missing_after": "3 of 8 closed/decided, 2 sharpened",
+ "reproduces": "verification/batch5a_cells.json"
+}
