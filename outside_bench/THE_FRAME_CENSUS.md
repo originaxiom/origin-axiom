@@ -110,3 +110,28 @@ time-reversal involution R = s∘e′ (RT²R = T⁻²) — the mechanism that
 makes the bit necessary. The census now stands: TWO live candidates
 beyond the baseline (the ℙ³/I5 continuum; the branch bit) + ONE
 blocker (the clock weight). This addendum is the only mutation.
+
+### ADDENDUM 5 (2026-08-28) — CANDIDATE 5 ADJUDICATED: the ℙ³ Higgs line is NOT I5's residue — a live excess continuous candidate, sharpened (documentary, exact quotes)
+The two sources, read exactly under the owner's full GO:
+- **B1025 I5** retypes the VEV input: the cascade VEV *directions* are
+  CANONICAL (multiplicity-one singlet lines, "rep theory fixes the
+  directions completely; there is no continuous direction-choice to
+  import"); what remains is (i) the discrete act (already counted) and
+  (ii) weight-1 MAGNITUDES (cc3's open folding note toward ℝ₊).
+- **B1185** names the down-readout's missing piece "the observer's
+  continuous ℙ³ Higgs line," purely continuous, no discrete part (C12
+  trivial on B₀).
+VERDICT: **not the same continuum.** I5's multiplicity-one argument
+covers the SO(10)/SU(5) singlet directions; B1185's ℙ³ is a
+DIRECTION-freedom inside the 4-dimensional block B₀ — a slot I5's
+argument does not reach, and dimensionally incompatible with C1 (up to
+3 continuous parameters vs the single ℝ⁺). Candidate 5 therefore
+stands as a LIVE EXCESS CONTINUOUS CANDIDATE, now sharp: either the
+"1 continuous" count is wrong by up to three parameters, or the ℙ³
+line must be shown reducible (a readout artifact, a fold into the
+vacuum/family label, or a canonicalization B1185's arc has not yet
+supplied). TWO-OUTCOME, routed to cc's B1185 line with this exact
+framing. The census stands: TWO live excess candidates (the ℙ³ line,
+now sharpened; the branch bit, memo 97) + ONE blocker (the clock
+weight) — the open-at-2+1 finding is now the campaign's most
+consequential unresolved row. This addendum is the only mutation.

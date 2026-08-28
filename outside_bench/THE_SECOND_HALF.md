@@ -368,3 +368,27 @@ open row requires another seat or the owner:
   attached; LEAP-2 with the branch bit); relaying the seat queues.
 The loop resumes on the next repofeq (cross-seat returns) or GO. This
 addendum is the only mutation.
+
+---
+
+## ADDENDUM 5 (2026-08-28) — THE FULL-GO WAVE: the last bench-computable rows executed
+
+The owner: "you have my full GO on all your open questions." Executed:
+- **memo 97** (`branch_bit.py`, GREEN) — candidate 8's blocker
+  RESOLVED at the geometric level: no object symmetry swaps the
+  branches; the arrow's ℤ/2 IS the branch bit (not c); instrument (i)
+  unblocked (arithmetic half → cc with memo 97 as input). DISCOVERY:
+  the exact time-reversal involution R = s∘e′ (RT²R = T⁻²) — B124's
+  two-headedness as a concrete polynomial map.
+- **Census addendum 5** — candidate 5 adjudicated: B1185's ℙ³ line is
+  NOT B1025-I5's residue (different block, different kind); a live
+  excess continuous candidate, sharpened and routed to cc two-outcome.
+- The clock-coherence CS-half confirmed genuinely cc-side (no banked
+  numeric CS tables exist — B289's data lived in its SnapPy runtime);
+  the Vol-half alone cannot decide coherence and is not banked as a
+  partial.
+CENSUS STATE: two live excess candidates (ℙ³ line; branch bit) + one
+blocker (clock weight) — **the 2+1 count remains OPEN and is the
+campaign's most consequential unresolved row.** Everything now waits
+on cc/codex returns or new arcs; the bench's computable frontier is
+exhausted at memo 97. This addendum is the only mutation.
