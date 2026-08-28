@@ -220,3 +220,14 @@ branch (escaping/hyperbolic) and oscillatory on the MINUS branch
 BRANCH-GATED. Order/magnitude object-paid; the branch choice is the
 bit. AR6 stays open as preregistered; its evidence table gains the
 sharpest entry yet. This addendum is the only mutation.
+
+### ADDENDUM 5 (2026-08-28) — the reverser exhibited (memo 97): AR6's mechanism, exact
+R = s∘e′: (x,y,z)→(y,x,yx−z) — an involution of the banked Fricke
+structure with RT²R = T⁻², fixing the trivial rep, carrying the
+unstable line to the stable line exactly. The object's dynamics is
+time-reversal-symmetric by its OWN symmetry group; the arrow can only
+be a choice that breaks R — and memo 97 shows no object symmetry
+supplies that break (the branch bit survives external). AR6's SPLIT
+now stands with its mechanism: irreversibility structure (mirror-even,
+branch-gated) + an exact reverser + an external branch bit. This
+addendum is the only mutation.

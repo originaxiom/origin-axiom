@@ -1,0 +1,36 @@
+re-pinned: v_u is the exact phi^4 eigenvector of D(T^2) at (2,2,2).
+
+candidate | kappa | fixes P0 | vs the flow | action on v_u
+  e' (z -> xy-z)   | ok | yes | neither  | -
+  s (a<->b swap)   | ok | yes | neither  | -
+  s o e'           | ok | yes | REVERSES | off the line
+  sigma(-1,-1,1)   | ok | no  | neither  | -
+  sigma(-1,1,-1)   | ok | no  | neither  | -
+  sigma(1,-1,-1)   | ok | no  | neither  | -
+REVERSER EXACT: R = s o e' : (x,y,z) -> (y,x,yx-z) is an involution with
+   R T^2 R = T^-2, R(P0) = P0, and DR carries the unstable eigenvector to
+   an exact phi^-4 (STABLE) eigenvector — time reversal on the nose.
+
+OUTCOME: NO SWAP — no candidate symmetry of the banked structure both
+commutes with the flow, fixes the trivial rep, and reverses the
+unstable direction.  THE BRANCH BIT SURVIVES the object's symmetries:
+at the orbit level the branch choice is a genuine EXTERNAL residue —
+the census's candidate-8 blocker types toward the FRAME column, and
+the weld instrument (i)'s blocked identification is ANSWERED IN-LANE:
+the arrow's Z/2 is the BRANCH Z/2 (v_u -> -v_u), which is NOT c (c
+acts trivially on this real slice — consistent with memo 94's
+mirror-even drift and AR6's SPLIT).
+RECORDED: time-reversing symmetries found [("s o e'", True)] — the
+record's own symmetry group realizes orbit-level TIME REVERSAL
+(g T^2 g^-1 = T^-2): the dynamical face of B124's two-headed time,
+now exhibited as an explicit polynomial symmetry.  Note the reverser's
+existence is exactly why the arrow needs a bit at all: forward and
+backward dynamics are symmetry-equivalent; the branch/direction choice
+breaks what the object keeps whole.
+Fences: the candidate list is the natural finite symmetry set of the
+banked Fricke structure (sign twists + the isometry swap + the fourth-
+trace flip); a symmetry OUTSIDE this list is not excluded by this cell
+— completeness of the stabilizer is not claimed, only the tested set.
+The sign twists move P0 (they permute the central characters — B782's
+torsor face) and so cannot swap branches AT P0 by construction; they
+are tested and recorded for exactness.  Gate 5 untouched.

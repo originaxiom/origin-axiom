@@ -97,3 +97,16 @@ census now stands: **ONE live excess candidate** (the ℙ³/I5
 continuum, awaiting cc's cross-reference) **+ two blockers** (the
 clock weight; the branch/seed bit). This addendum is the only
 mutation.
+
+### ADDENDUM 4 (2026-08-28) — CANDIDATE 8 RE-TYPED: from blocker to FRAME-CANDIDATE (memo 97)
+The branch-bit test ran under the owner's full GO: no object symmetry
+swaps the branches (exhaustive over the natural finite set;
+completeness fenced), so the branch ℤ/2 survives as a genuine external
+residue — a THIRD discrete frame-datum candidate, distinct from D1 (c
+is trivial on the real slice). The arrow's ℤ/2 is identified (the
+branch bit); the arithmetic half of the orbit-breaker test goes to cc
+with memo 97 as input. Bonus banked: the record's own exact
+time-reversal involution R = s∘e′ (RT²R = T⁻²) — the mechanism that
+makes the bit necessary. The census now stands: TWO live candidates
+beyond the baseline (the ℙ³/I5 continuum; the branch bit) + ONE
+blocker (the clock weight). This addendum is the only mutation.
