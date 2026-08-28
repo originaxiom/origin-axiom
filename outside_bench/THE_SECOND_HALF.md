@@ -392,3 +392,25 @@ blocker (clock weight) — **the 2+1 count remains OPEN and is the
 campaign's most consequential unresolved row.** Everything now waits
 on cc/codex returns or new arcs; the bench's computable frontier is
 exhausted at memo 97. This addendum is the only mutation.
+
+---
+
+## ADDENDUM 6 (2026-08-28, repofeq @ 1e1aa1d0) — THE RECONCILIATION OF THE TWO CAMPAIGNS
+
+cc independently ran the same owner directive (B1188 retrieval +
+ledger; B1189/B1190 ten lensed cells; B1191 GRAND_COMPUTATION_v0);
+cc3 retired (owner, seat change); codex banked R020–R022. Full
+reconciliation: **THE_TWO_CAMPAIGNS.md**. Headlines: EXACT two-seat
+convergence on λ (the clock weight) as the one unplaced residue; the
+census baseline ADOPTED from cc's fuller slot table (rank-3 discrete
+menu + the σ anchor — the open-at-2+1 finding closes as a confirmed
+undercount); CATCH 1 relayed to cc (their v0 floor vs their own
+B1185's ℙ³ line — this lane's addendum-5 adjudication is the exact
+tension); the two-beats fence filed on memos 92/93 (codex R020 refutes
+a DIFFERENT operator); the golden-unit killer and the discrete ladder
+adopted; the branch↦r identification named as the new closing cell;
+this lane's unique results (Stage-2 closure, twist parity, Klein
+split, branch test, degree ledger, clock coherence) listed for cc's
+v0.1. The merged open core: {λ placement · ℙ³ vs the floor · L154's
+bridge · twist-forcing · the clock-coherence (Vol,CS) run · the
+branch↦r cell}. This addendum is the only mutation.

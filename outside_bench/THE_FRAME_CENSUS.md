@@ -135,3 +135,21 @@ framing. The census stands: TWO live excess candidates (the ℙ³ line,
 now sharpened; the branch bit, memo 97) + ONE blocker (the clock
 weight) — the open-at-2+1 finding is now the campaign's most
 consequential unresolved row. This addendum is the only mutation.
+
+### ADDENDUM 6 (2026-08-28, repofeq @ 1e1aa1d0) — THE BASELINE MOVES: cc's independent campaign resolves the open-at-2+1 finding as an UNDERCOUNT (adopted); one catch relayed back
+cc ran the same owner directive independently (B1188–B1191,
+GRAND_COMPUTATION_v0). Reconciliation (THE_TWO_CAMPAIGNS.md): the
+discrete menu is rank-3 SATURATED (B766/B769: V₄{c,r} × γ₅ — the γ₅
+bit, ℚ(√5)-end, never place-typed) and a second continuous anchor σ
+(A2, c = 6σ, dimensionless — outside B1166-C3's archimedean count,
+which this census wrongly took as exhausting the continuous inputs)
+stands with a named deletion route (L154). **ADOPTED: the baseline is
+now cc's v0 §5 slot table.** The lane's candidates map: candidate 2 =
+their λ row (EXACT two-seat convergence on the one unplaced residue);
+candidate 8 = plausibly their r-label (the named identification cell,
+THE_TWO_CAMPAIGNS §V); candidate 5 (ℙ³) = CATCH 1 — cc's v0 floor
+("no continuous input except σ") is in direct tension with cc's own
+B1185 ℙ³ line, exactly as this census's addendum 5 adjudicated;
+relayed priority-one. The "open at 2+1" finding closes AS a finding:
+both seats independently established the old count was an undercount.
+This addendum is the only mutation.

@@ -60,3 +60,14 @@ if cc ever exhibits a second inequivalent mirror action on the 27, the
 parity question re-opens (none exists in the record). Gate 5
 untouched: weights, signs, and exact pair arithmetic only; no measured
 value anywhere. B928's Stage-2 seal is untouched by this cell.
+
+### ADDENDUM 1 (2026-08-28) — the two-beats fence (codex R020)
+Codex refuted B1140's PRINCIPAL beat (E = Σᵢe_{αᵢ}) preserving the 64
+and proved the single-root and principal generators unequal. This
+cell's verdict is hereby explicitly scoped to the lane's BANKED
+single-root beat — the operator whose square is the actual meridian
+representation (nilpotency degree 3, memo 49; a principal nilpotent
+would be degree 17) and which carries every banked carrier pin (memos
+31–33/46). R020's refuted object is a different operator; no
+correction to this cell. Fence recorded here and in memo 93 by
+reference. This addendum is the only mutation.
