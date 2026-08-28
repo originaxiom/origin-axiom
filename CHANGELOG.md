@@ -1,5 +1,23 @@
 # Changelog
 
+## B1188 (2026-08-28): THE GRAND-COMPUTATION RETRIEVAL — Phase 0 of the observer campaign; THE DISCRETE LADDER; the ledger
+
+Owner-directed ("no superficial observer work — close this forever; sweep the repo first"). Six
+parallel lenses over 1092 verdicted arcs. **The observer theory largely EXISTS and was off-surface**
+(the B723 apparatus — external weight = the closer's clock entry; B766/B733's rank-exactly-3
+saturated menu; B717's emergence map; B725's Born-form theorem; B566-S4's
+measurement-of-measurement collapse), with the burial's cause MEASURED (B985: relation-faces
+recovered at 6–19% vs object-faces 79–100%) and 132 PROVED on-theme arcs absent from every live
+surface. **THE DISCRETE LADDER (new)**: all 112 family members on the INTEGER lattice of
+V_reg = Vol(m004)/2, rungs {2,4,5,6,7,8,9,10}, zero exceptions, bite control passing — within the
+family the scale choice is a FINITE MENU; the continuum residue is the one anchor ℓ (B1015/B1025:
+ONE unit + two bits + finite labels). **The buried prize retrieved**: L154 (σ=1) — one named bridge
+from converting the last continuous dimensionless input to OUTPUT. One own error caught and fixed
+(L190: reach DEFICIT, not excess). Deliverable: `docs/GRAND_COMPUTATION_LEDGER.md` with the
+B766-vs-B1083 arrow contradiction registered, the sign row's relational seeds retrieved (the
+TWISTED double, c-as-swap, the exchange-sector split), and the θ-even last-licensed crossing HELD
+FOR OWNER ELECTION. Locks test_b1188 (4).
+
 ## Review 51 (2026-08-28): the decadal review over B1174–B1187 — the verify-the-verifier window
 
 Anchored at 411fb260 (B1187). The window: the observer-layer closure (B1174/B1182/B1183/B1184 — S1

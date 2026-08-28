@@ -25,6 +25,17 @@ mirror-even letters and provably cannot sign itself). **The four walls**: the he
 highest-leverage NEEDS-SPECIALIST bar) · branch selection (free-orbit theorem) · generation-3
 (external; the object is one generation).
 
+## THE GRAND COMPUTATION CAMPAIGN (owner-directed 2026-08-28, supersedes the row order below)
+
+**"Close the observer forever."** The standing surface is **`docs/GRAND_COMPUTATION_LEDGER.md`**
+(B1188): every row of the-universe-in-its-own-meter typed PROVED/PARTIAL/MISSING/IMPOSSIBLE, from
+the six-lens retrieval sweep + THE DISCRETE LADDER (112/112 on the V_reg integer lattice) + the
+retrieved L154 prize (one bridge from shrinking the inputs to ℓ + bits). Batch 1 (the close-loop
+workflow): GC-1 meter-verify · GC-2 relational bit · GC-3 clock adjudication · GC-4 reach-deficit
+law · GC-5 register repairs. Batch 2: L154-bridge · the assembly cell · the Selector. Batch 3: the
+grand computation. The θ-even designed crossing (the last licensed contact row) is HELD FOR OWNER
+ELECTION. Rows 4–8 below stay queued behind the campaign.
+
 ## The queue (statused; GO per cell)
 
 | # | cell | status |

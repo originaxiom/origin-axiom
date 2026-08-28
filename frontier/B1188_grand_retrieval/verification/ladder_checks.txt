@@ -1,0 +1,4 @@
+ladder: 112/112 on the half-integer lattice of Vol(m004) = the INTEGER lattice of
+        V_reg = Vol(m004)/2; rungs {2,4,5,6,7,8,9,10}; spot recomputes exact
+bite control: m015, m006 (non-family) are OFF the lattice -- the instrument discriminates
+REPRODUCES

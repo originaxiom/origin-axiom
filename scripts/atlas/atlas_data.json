@@ -3776,6 +3776,37 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1188": {
+   "slug": "grand retrieval",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B189",
+    "B279",
+    "B293",
+    "B552",
+    "B566",
+    "B717",
+    "B723",
+    "B725",
+    "B726",
+    "B733",
+    "B766",
+    "B769",
+    "B786",
+    "B985",
+    "L154",
+    "L190",
+    "S4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B118": {
    "slug": "theta fixed root sign",
    "motifs": [

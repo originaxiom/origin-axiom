@@ -2123,10 +2123,10 @@ physics-adjacent gaps in the record). Private source stays untracked; this row i
 
 B189's C3 called the Ω class-poset "indistinguishable from a matched random graded DAG" at 30 seeds.
 At 100 seeds per level the clause REVERSES: z(L=6..10) = (−2.2, −2.8, −2.3, +0.6, **+11.2**) — the
-full poset has significantly EXCESS transitive reach (d_MM 3.936 vs null 3.782 ± 0.014), and the
+full poset has a significant DEFICIT of transitive reach (d_MM 3.936 ABOVE null 3.782 ± 0.014 — higher d_MM = lower ordering fraction = more tree-like; direction corrected at B1188), and the
 z-trend is structured (below-null at small L, far above at L10). The kill (d_MM is a graded-poset
 artifact, not a spacetime dimension) is UNAFFECTED — the null still reproduces the ~4 to within 4%.
-The lead: WHAT is the Ω-DAG's excess-reach structure (more chain-like than its degree profile —
+The lead: WHAT is the Ω-DAG's reach-DEFICIT structure (more tree-like than its degree profile —
 which combinatorial law?), and does it carry object content? Bounded first cell: reach-profile
 statistics vs richer nulls (degree-preserving rewiring). ★★
 
