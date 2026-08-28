@@ -283,3 +283,10 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 41 — 2026-08-09.** The masterplan's governance layer gained a **surface** check: every gate until now verified *arcs*, none verified whether the documents a reader forms their picture from still describe the programme. `doc-currency` (B984) closes that, and the decadal review now certifies currency **room by room** (B988, protocol step 7).
 
 *Review 47 currency (2026-08-20, anchor 61499dfe): this surface was refreshed at the Review-47 window's close — the wave B1083–B1099 (the four-language wall, the 3d completion's cards, THE HATCH at su(3)⊕su(3), the mirror-isospectral split, door 5's closure, Route A's decided stratum) is reflected in the campaign ledgers; the full narrative integration is the doc-reflection wave's mandate (R47-4), in flight.*
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the observer layer's cc-rungs CLOSED (S1 proved
+B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); the three Yukawa
+mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
+dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
+The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
+standing word).*

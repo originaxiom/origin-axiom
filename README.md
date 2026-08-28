@@ -413,3 +413,10 @@ day: it is where `docs/COMPUTE_THE_PROGRAM.md`, `docs/THE_FRAMEWORK.md`, `docs/T
 `docs/THE_CAMPAIGN.md` and the banking protocol were assembled into the standing pre-compute set
 cited throughout this page. The full review-by-review record, Review 1 through the current Review
 47 (2026-08-20), is `docs/progress/REVIEWS.md`.*
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the observer layer's cc-rungs CLOSED (S1 proved
+B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); the three Yukawa
+mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
+dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
+The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
+standing word).*

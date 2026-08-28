@@ -295,3 +295,10 @@ split, door 5's closure, Route A's decided stratum, and the certification envelo
 STATE AT REVIEW 47, top of this file (the doc-reflection wave's mandate, R47-4, discharged). This
 trailing note stays only as the chronological pointer the file's own convention keeps at each
 review's close.*
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the observer layer's cc-rungs CLOSED (S1 proved
+B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); the three Yukawa
+mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
+dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
+The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
+standing word).*

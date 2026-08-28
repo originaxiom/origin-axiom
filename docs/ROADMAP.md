@@ -84,3 +84,10 @@ chats; the recurring hazard is on record (Π_H does not commute with ζ-weighted
 > **Review 43 — 2026-08-11.** The campaign register is `docs/THE_WHY_CAMPAIGN.md` (four lanes; Lane I-1 and III-1 BANKED, the floor quantified by B1030); execution resumes at Lane II-1 (the three-generations upgrade attempt). Review 43's ten action items are the near-term queue — the serial certificate, the provisional-banner discharge, and L154's re-posed run lead it.
 >
 > **Review 41 — 2026-08-09.** `docs/ROADMAP_TOE.md` is **superseded** by `docs/THE_FRAMEWORK.md` (it described the position as *"the kinematic/symmetry frame is forced arithmetic"* for a month after B862/B863/B864 falsified that). The execution order now lives in `docs/THE_CAMPAIGN.md`: **Wave 1 repairs (4 of 6 done) → Wave 2 holes → Wave 3 live surfaces → Wave 4 blind, ledger first**.
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the observer layer's cc-rungs CLOSED (S1 proved
+B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); the three Yukawa
+mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
+dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
+The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
+standing word).*

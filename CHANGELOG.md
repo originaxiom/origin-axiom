@@ -1,5 +1,18 @@
 # Changelog
 
+## Review 51 (2026-08-28): the decadal review over B1174–B1187 — the verify-the-verifier window
+
+Anchored at 411fb260 (B1187). The window: the observer-layer closure (B1174/B1182/B1183/B1184 — S1
+proved, S4 split, the adelic observer typed leg-by-leg), the R50 execution wave (B1175–B1179), the
+family thread settled at 112 (B1180/B1181/B1186), the three-mechanisms theorem + the evaluator's
+benchable half (B1185), and the depth-closure sitting (B1187). **E52 filed** (the VERIFIER-DEFECT
+class: five instances across two seats; the review checklist gains VERIFY-THE-VERIFIER + cc3's
+verified-vs-used sweep); **THE MOD-q CERTIFICATE MOVE** banked as §G method-law; WORKING_RULES gains
+the two-sided-control / estimator-measures-the-claim / statistics-carry-resolution rules. All R50
+carries dispositioned (R50-4 DONE; R50-5 part-done, tail → R51-4; R50-6 → R51-5 updated with R023;
+R50-7 re-dispositioned under the owner's standing HOLD). Next: R51-3 = L188. Counter reset; next
+review due after 20 merges.
+
 ## B1187 (2026-08-28): L187 CLOSED — the depth-closure sitting; the verifiers re-verified
 
 All seven dispositioned. THE REGISTRATION CORRECTION: "none executed" was stale — B767 had already

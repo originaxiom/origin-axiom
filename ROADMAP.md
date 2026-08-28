@@ -331,3 +331,8 @@ names as the thing physics readings wait on. L91 obligations (1)–(3) are open.
 > **Navigation note found by this review:** there are **two roadmap files** — this one (the gated navigation view) and `docs/ROADMAP.md`. The gate tracks **this** one. Worth consolidating; recorded rather than silently left.
 
 *Review 47 currency (2026-08-20, anchor 61499dfe): this surface was refreshed at the Review-47 window's close — the wave B1083–B1099 (the four-language wall, the 3d completion's cards, THE HATCH at su(3)⊕su(3), the mirror-isospectral split, door 5's closure, Route A's decided stratum) is reflected in the campaign ledgers; the full narrative integration is the doc-reflection wave's mandate (R47-4), in flight.*
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the phase ladder's live rung is the
+remaining-math queue (`docs/THE_REMAINING_MATH.md`) — rows 0–3 DONE this window (observer layer ·
+three mechanisms · family = 112 · depth closure); next L188. E52 (verify-the-verifier) + THE MOD-q
+CERTIFICATE MOVE banked. ALL sends HOLD (owner's standing word).*

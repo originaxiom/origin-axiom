@@ -200,3 +200,11 @@ Evidence and error classes: E45–E48; the adoption record is B1101.
 - **A family is a CLAIM, never a setting (the one-way family test, B8147/B1181):** any enumerated family a
   result quantifies over is itself a claim — verify completeness or state the bound. Enlarging a family can
   only hurt object-level claims and only help family-level ones.
+
+**Verify the verifier (E52, Review 51).** A stabilization or control run re-verifies its INSTRUMENT
+before trusting its verdict: does the seed actually enter? does the estimator measure the stated
+claim? does the logic prove the stated quantifier? Controls are TWO-SIDED — a known-positive
+recovery AND an independent enumeration/complement (the one-sided control is how B8152's undercount
+survived). A statistics claim carries its resolution: an N-seed null only speaks to deviations
+larger than its own std (B189's 30-seed "indistinguishable" reversed at 100 seeds per level).
+

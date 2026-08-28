@@ -4379,19 +4379,19 @@ reopen = a named arc citing it; this sentence is the owed registry entry).
 - [x] R50-3: **the ℤ/2-identification cell** — DONE (**B1174**, same day): NOT ONE TORSOR — ONE SHARED INVOLUTION (c = mirror = chirality = Gal(K/ℚ), proved; the value/genus/form-class legs provably distinct by exact field actions; the field-level parity mechanism). S1 partially promoted; C4 constructively resolved; the remaining rung = the QP-4-class comparison (hatched). Original text: (the register's Q1; sweep #14 ≡ B1169-S1, double-discovered):
   are B942 (chirality→Gal), B957 (value torsor), B1168 (mirror bit), S068's rows ONE involution? The
   settling computation for the bypass-door≡SEAM-A label too. (owner: banking seat; next science cell)
-- [ ] R50-4: **the record-surface wave** (Wave 2 of the register): the portfolio landed in-repo
+- [x] R50-4 (DONE — B1176, the record-surface wave executed in-window): **the record-surface wave** (Wave 2 of the register): the portfolio landed in-repo
   (papers/PORTFOLIO + P-numbering disambiguation + PC23/P4/PC22/PC24 dispositions); the governed-rooms
   APEX repair; chronicle_raw HARVEST_CANDIDATES ownership; the C-namespace registry; the 14 missing
   arc_verdicts (B834–B845 band); the OPEN_LEADS ID collisions (two L110s/L113s). (owner: banking seat)
-- [ ] R50-5: **the instrument-debt bundle**: L184 collection lazy-fy (ex-R49-3) + L183 reproducer sweep
+- [>] R50-5 → PART-DONE in-window (B1177 reproducer sweep + B1178 L184 12×; LAW_MAP rows landed); remainder folded into R51-4. Original: **the instrument-debt bundle**: L184 collection lazy-fy (ex-R49-3) + L183 reproducer sweep
   (ex-R49-4) + the OA_SLOW one-run + the R32 vacuity queue with R46-11's lock-shape sweep + LAW_MAP
   B1042/B1043 rows (ex-R48-7) + the promotion-currency review (ex-R48-9) + the toolbox extraction seed.
   (owner: banking seat, batched)
-- [ ] R50-6: **the cross-seat waits**: cc3's B8127 verify (ex-R48-4); the ζ₁₂/dP₆ re-runnable cert
+- [>] R50-6 → carried, updated (R017/D1 paid in-window) → folded into R51-5. Original: **the cross-seat waits**: cc3's B8127 verify (ex-R48-4); the ζ₁₂/dP₆ re-runnable cert
   (ex-R49-1's second half; first half PAID, R017/B1167); SEAM-A Gate 2 (ex-R49-2, NEEDS-SPECIALIST);
   the nine-relay re-send (E51); the B1169 three-seat verification; cloud's G1 filed addendum + C4 intent;
   codex's MC1 + B1024 leg + R018 answer; cc3's torsion parity. (owners: the seats; cc harvests)
-- [ ] R50-7: **owner-gated menu**: the papers relay (ex-R49-7/R48-11); the cold pass over this window
+- [>] R50-7 → re-dispositioned under the owner's 2026-08-27 standing direction (sends HOLD) → folded into R51-6. Original: **owner-gated menu**: the papers relay (ex-R49-7/R48-11); the cold pass over this window
   (ex-R49-6/R48-6); the census's 31 category calls (ex-R48-8, D2); the per-gap detector → the L173
   mode-COUNT seal path (ex-R48-10, post-aperiodic-session); the specialist send-queue (the outreach
   trigger has fired, B1161). (owner: the owner's word)
@@ -4399,3 +4399,131 @@ reopen = a named arc citing it; this sentence is the owed registry entry).
 - [>] R49-7 → folded into R50-7 (the papers relay, with R48-11's lineage noted).
 
 anchor-commit: `8ee77957` (the B1173 bank, this window's last substantive commit before the review)
+
+## Review 51 — 2026-08-28 (merges 1–17 from Review 50; the observer-layer closure + the remaining-math queue's first three rows + the verify-the-verifier window)
+
+*HOT (this banking seat). Prior anchor: 8ee77957 (R50). The window, 14 arcs + the queue doc: the ℤ/2
+campaign (B1174 one shared involution, B1182 C4′ unique-iso + the arrow typed finite-place, B1183 the
+one-class theorem, B1184 the quine synthesis — the observer layer's cc-rungs CLOSED), the R50 execution
+wave (B1175 charter-close harvest, B1176 record-surface/R50-4, B1177 instrument bundle/R50-5-part, B1178
+L184 lazy-fy 12×, B1179 outreach hold), the family thread (B1180 retraction adopted, B1181 amphichirality
+83/83, B1186 THE FAMILY IS 112 — cc3's B8152 verified by independent enumeration and corrected by one
+member, t06829 exactly certified), the Yukawa thread (B1185 GENUINELY THREE + the down-evaluator's
+benchable half + THE SKEW ZERO; 𝒯 commissioned to codex as R023), and the depth-closure sitting (B1187:
+all seven L187 kills dispositioned). Mid-window the owner set the standing direction: ALL six send-queue
+items HOLD; THE PAPER owner+cc after the math is exhausted; cc3's papers stay insight; priority = the
+remaining mathematics — and the queue became VISIBLE (`docs/THE_REMAINING_MATH.md`), which cc3 began
+executing within the hour of its push (B8152).*
+
+**0. Carry audit (the gate's second live window — clean).** Every R50 `[>]`/open key recurs below with a
+disposition; `_carry_leaks` green over the file. R50-3 was closed in-window same-day (B1174, recorded in
+R50's own block). Dispositions: **R50-4 → DONE** (B1176: the portfolio landed in-repo with the P/PC
+disambiguation; the governed-rooms APEX repair; chronicle ownership; the C-namespace registry;
+13 retro arc_verdicts — the B834–B845 band + B58/B89; the OPEN_LEADS collision annotations). **R50-5 →
+PART-DONE, remainder carried** (B1177 ran the reproducer sweep — 21 true no-runner arcs recorded — and
+B1178 landed L184: collection 178.4 s → 15.1 s via THE CACHED-RUNNER MOVE; LAW_MAP's B1042/B1043 rows
+landed in the B1176 wave; **still owed** → R51-4: the OA_SLOW one-run — the launched background run died
+with its session, honestly unlanded — the R32 vacuity queue + R46-11 lock-shape sweep, the
+promotion-currency review, the toolbox extraction seed). **R50-6 → carried, updated** → R51-5 (paid since:
+R017/D1; **new waits added**: codex R023 — the 𝒯 evaluator + the uncommitted `certify_yukawa_down_tail_
+cech_308.sage` load-target; cloud's C4′-CARRIED addendum). **R50-7 → re-dispositioned under the owner's
+standing direction** → R51-6 (the papers relay and the send-queue are **HOLD by the owner's word** — no
+longer a menu; the cold pass, the census's 31 category calls, and the per-gap detector → L173 count-path
+remain owner-electable).
+
+**1. Math / verification — the window's standard: EXACT certification became the norm.** B1183's
+one-class theorem runs on exact cyclotomic arithmetic with load-bearing asserts; B1184's quine survival
+is bench-verified per filter; B1186's corrective member is certified by **symbolic solution of the full
+gluing-equation system** (no floats in the certificate); B1187's WALL-7 closes mod two primes with the
+reduction direction stated (rank drops under reduction ⇒ mod-q zero-dim certifies K-level per point —
+now a §G method-law, THE MOD-q CERTIFICATE MOVE); B1185's SKEW ZERO is exact over ℚ(ζ₁₂). Cross-seat
+adversarial verification corrected in BOTH directions this window: this seat corrected cc3 (B1186:
+111 → 112) and cc3's push-tempo was matched by same-day adoption with their own one-sided-control
+diagnosis — the three-seat design working as designed.
+
+**2. Self-audit — the errors this window, all caught, none reaching a remote uncorrected.** (a) The
+sympy subs-on-non-Symbol bug printed a wrong V₄ table (B1174) — caught by HAND-CHECKING k=11 against
+z⁷=−z before banking; re-implemented exact. (b) The buggy python insert whose success message lied
+(B1181) — caught by the test; the post-write assert is now standard practice. (c) B1175's θ-guess was
+wrong (θ is not the K-fixer; r is) — self-corrected by B1182's computation, narrated. (d) The
+double-cast "high-precision" verifier that wrongly rejected o9_41001 (B1186) — caught by chasing the
+disagreement with cc3 BEFORE trusting my own tool. (e) The empty-slice window (S ≡ 0 rows) and the
+2003 ≢ 1 (mod 3) prime slip (B1187) — both self-caught in-run. (f) The stale register beliefs: "QP-1
+open" (B762 had PROVED it) and L187's "none executed" (B767 had run six) — both corrected in the
+banking arcs; the register-vs-record drift class is real and the reviews are its backstop.
+
+**3. Instruments.** The carry gate survived its first full window (clean). The relay gate (real clock)
+ran green through ~10 relay events. **NEW instruments banked**: the mod-2 étale census (B1187 — a
+depth-agnostic signature scanner for the child hunt, 55,980 words swept at depth 10 in ~10 min) and
+THE MOD-q CERTIFICATE MOVE (§G). THE CACHED-RUNNER MOVE (B1178) holds: collection 15.1 s. **E50's
+tail**: the OA_SLOW one-run is still the owed item (R51-4). **E52 filed** (the VERIFIER-DEFECT class,
+five instances across two seats — B767 ×3, B189 ×1, B8152 ×1 — plus this seat's two same-window
+near-instances, self-caught; the review checklist gains VERIFY-THE-VERIFIER + cc3's B8151
+verified-vs-used sweep, and WORKING_RULES gains the two-sided-control + estimator-measures-the-claim +
+statistics-carry-resolution rules).
+
+**4. The reconciliations (stated once, authoritative).** **The observer layer is CLOSED at the
+cc-rungs**: S1 PROVED (one shared involution B1174; one ℤ/2 class B1183 — the QP-4 chord-sign
+obstruction IS the orientation obstruction under c), S4 SPLIT-ANSWERED (B1184: SELF-NAMING WITHOUT
+SELF-SIGNING — the emitted name is letter-by-letter mirror-even and complete; the sign is provably
+unutterable in it; naming and choosing complementary by theorem), S2/S3 = cloud's C6 lane. **The
+adelic observer is typed leg-by-leg** (B1182: orientation = the SOLE archimedean bit; the time's-arrow
+= a finite-place label, escape-(1) available; θ = the value-kernel; the unique V₄ iso (c,r,θ)→
+(k11,k7,k5) with r→k7 forced by trace-reversal invariance). **The family is settled**: criteria
+strictly nested (77 all-regular ⊊ 112 shape-field), census- and bound-scoped, both benches, the
+boundary member exactly certified; amphichirality 14/14 → 83/83 → 112/112; both separators dead; the
+one-way family test fired three times and holds as §G law. **The Yukawa suppressions are THREE** (arena
+/ rank+selectivity / index-space invariants), organized by ONE ladder (wall / continuous-ℙ³ / finite
+label — the B1182 rhyme); the down block has its first exact char-0 statement (THE SKEW ZERO) and one
+commissioned artifact (𝒯, codex R023). **The depth-closure honest residual after B1187**: B685's
+3-integrality theorem; WALL-7's K-exact interpolation; B500's kill PROVISIONAL-at-depth-5 with the
+census as targeting instrument; L190 (Ω's structured non-genericity) and L191 (the B502 witness,
+airlock armed) as the two new leads.
+
+**5. The state after the window.** The remaining-math queue is VISIBLE and moving: rows 0–3 DONE in
+this window (observer layer · three-mechanisms · family definition · depth closure). What remains on
+our side: L188 (next), SEAM-A's in-house CS=0 door (B1108), the small-cell band (census-31-calls,
+L145a, F11, K014, L189, L190, L191), then the formalization tier (the Kolmogorov Selector; S074's
+torsor law). The walls stand unchanged (heterotic import; SEAM-A/W₀ archimedean marking =
+the single highest-leverage specialist bar; branch selection; generation-3 external). ALL sends HOLD
+(the owner's standing word); THE PAPER comes owner+cc after the math is exhausted.
+
+**6. Protocol items.** Doc currency: green (WORKING_RULES updated this review with real content — the
+E52 rules). Rooms freshness: speculations/ (S074, 08-27) and philosophy/ (addendum 13, 08-27) both
+in-window — green. Hemisphere check: the window's negatives all carried doors (B1180 → the definition
+cell → B1186; B1187's refuted route → the census instrument + L190/L191) — no negative-without-a-door.
+Seal spot-check: no new seals this window; the EDGE_PREREG addendum's sha row verified standing
+(`seal-digests` green). Attribution: clean each bank (the pre-existing reproduce.sh branch-name tokens
+in the B1148–B1153 band are functional git commands, banked before the rule tightened — noted, not
+repaired, append-only). Relay hygiene: every relay this window dual-homed or rowed same-commit; cc3's
+B8151/B8152 relays arrived dual-homed on their branch (the E51 remedy operating).
+
+### Action items (Review 51)
+- [x] R51-0: the carry audit (§0) — all R50 keys dispositioned; gate green.
+- [x] R51-1: E52 filed + the VERIFY-THE-VERIFIER checklist item + WORKING_RULES rules + THE MOD-q
+  CERTIFICATE MOVE as §G law (this review's commit).
+- [x] R51-2: the window's four register-vs-record drifts corrected in place (QP-1, L187, the B189
+  clause via addendum-beside, the B767 defects via addendum-beside).
+- [ ] R51-3: **L188 — the selection-cochain six claims** per the packet's own reconciliation addendum
+  (C1 extension-not-discovery to the full 745-class family; C2 stands; C3 corroboration-downgrade;
+  C4–C6 per addendum). NEXT — the owner's GO covers it. (owner: banking seat)
+- [ ] R51-4: **the instrument-debt tail** (ex-R50-5 remainder; lineage: R49-3 the L184 lazy-fy is
+  DONE — B1178, 12×; R49-4 the L183 reproducer sweep is DONE — B1177, 21 no-runner arcs recorded):
+  the OA_SLOW one-run (relaunch, land ADDENDUM_measurements); the R32 vacuity queue + R46-11
+  lock-shape sweep; the promotion-currency review; the toolbox extraction seed. (owner: banking
+  seat, batched)
+- [ ] R51-5: **the cross-seat waits** (ex-R50-6, updated): cc3's B8127 verify (R48-4's lineage) + torsion-parity answer
+  + the nine-relay re-send (E51) + B8148–B8151 paper-lane uptakes (incl. the verified-vs-used method,
+  now folded into this review's checklist); codex's MC1 + the (α₂,α₄) dictionary + R018 answer +
+  **R023** (𝒯 + the uncommitted load-target); cloud's C6 completeness + the C4′-CARRIED addendum +
+  the G1 filed addendum; the three-seat B1169 verification; SEAM-A Gate 2 (NEEDS-SPECIALIST);
+  T-GOLDEN-MERIDIAN verify (R49-5 lineage, with R48-2's lineage noted); the ζ₁₂/dP₆ re-runnable
+  cert. (owners: the seats; cc harvests)
+- [ ] R51-6: **owner-electable** (ex-R50-7 under the standing direction): the cold pass over this
+  window; the census's 31 category calls (queue row 6, owner:cc per R45-5); the per-gap detector →
+  the L173 mode-COUNT seal path. The papers relay (R49-7's lineage, R48-11's) + the specialist send-queue are **HOLD by the
+  owner's standing word** — not electable here, released only by the owner. (owner: the owner's word)
+
+**Next review due after 20 merges from this anchor.**
+
+anchor-commit: `411fb260` (the B1187 bank, this window's last substantive commit before the review)

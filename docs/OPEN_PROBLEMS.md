@@ -537,3 +537,10 @@ and §6's addenda, and §7's buried-results ledger together carry B1083–B1101 
 include B1100's falsification-and-rescope of B959 and B1101's certification-envelope adoption, both dated
 2026-08-20 after this note was first written). `docs/THE_LADDER.md`'s companion rewrite (same doc-wave) carries the
 rung-graded structural detail this file cites rather than repeats.
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the observer layer's cc-rungs CLOSED (S1 proved
+B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); the three Yukawa
+mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
+dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
+The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
+standing word).*
