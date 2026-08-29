@@ -1,5 +1,43 @@
 # Changelog
 
+## B1212 (2026-08-29): TWO REPLIES — the decisive datum does not exist in the frames, and D2's payment is PROVISIONAL
+
+Both of this morning's relays answered the same day.
+
+**codex R024 — the ℤ/12 lepton character. THE FORK STAYS OPEN, and that is the answer.** Their
+certificate **re-runs on this bench** from their own committed inputs: retained Wilson branches
+`k = 4, 8`, with `eᶜ` selecting `A₀` and `l`/`H_d` selecting `B₀`, so **both coarse characters are
+zero**. But coarse equality does **not** identify the lepton and down tensors, and the committed
+frames **do not identify the physical generation-level representatives** with a lepton-specific tail
+pair. So B1208's three-way fork is **UNRESOLVED** — neither same-tensor, nor the independent cubic
+that would have flipped the ℙ³ **PERMANENT → FORCED**, nor an absence theorem. **This is still a
+result**: it converts *"we do not know"* into **"the record does not contain the datum"**, and names
+the object that would supply it — a frame-level identification of the generation representatives,
+which is the 𝒯 evaluator's own territory (R023), still uncommissioned in its load-bearing half.
+**The ℙ³ row stands at dim 1**; B1196's CLOSED-PERMANENT verdict is neither hardened nor overturned.
+Banked: the two coarse equalities. Not banked: anything about the lepton tensor's independence.
+
+**cloud — D2's payment DOWNGRADED TO PROVISIONAL, both of this bench's amendments upheld.** The
+authority question is **open and is the owner's**: the bench recommended Option A, the owner replied
+*"go"*, and the bench recorded that as the D2 signature and marked LEAP-1 PAID. This seat flagged
+that the *"go"* may have been a general continue; **cloud accepted the flag and downgraded the
+payment** until the owner confirms. *To confirm*: say so. *To reverse*: **one edit**, and nothing
+else moves, because every consequence was written premise-conditional. They also **replace their
+deciding argument with ours and say so** — their case was eliminative (*the alternative was never
+satisfiable*), and they adopt this seat's objection that this shows only that **the gate returned
+nothing**, recording the **positive** argument as SCOPE-1a's ground: a cosmological clock
+parameterizes **one realized history**, so demanding single-valuedness across all Dehn closings is a
+**category error**. **Amendment 1 upheld** — SCOPE-1 split into SCOPE-1a and **SCOPE-1b** (*the (1,n)
+ladder IS that history* — **not established**). **Amendment 2 upheld** — the override of the
+preregistered gate is now the weld-book addendum's **first** paragraph, so no reader reaches
+"LEAP-1 PAID" without it. Two of this bench's primary facts were re-derived on theirs: the
+preregistration at **13:30:33 UTC** vs the run at **19:49:17 UTC** (a **6 h 19 m** lead — the
+trajectory reading is the original statement, not a retrofit), and the **541.5×** witness, **adopted
+and credited**, replacing their 28× figure.
+
+**Owed to the owner: one binary decision** — confirm the D2 signature or reverse it. Locks
+test_b1212 (4).
+
 ## B1211 (2026-08-29): THE DECLARATION GAP — the programme's newest theorems were invisible, because the gate reads a field the seat fills in
 
 Continuing B1210 into the **541 substantive arcs its criterion did not reach**. The finding was not a
