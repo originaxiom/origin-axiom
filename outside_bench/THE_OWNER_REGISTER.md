@@ -517,3 +517,35 @@ This addendum is the only mutation.
 | R46 | **"easy… release the send queue"** (2026-08-29 — given in words, explicitly, after the bench declined to read a garbled token as authorization for an outward-facing irreversible act) | memo 138 `certificates/send_queue_readiness.py` (GREEN); `docs/SPECIALIST_SEND_QUEUE.md`; B1198/B1201/B1209 read from primary | **2026-08-27 decision box: ALL SIX = HOLD** — *"I don't plan to send anything yet. We will craft another paper … after we exhaust the math."* | **THE HOLD IS RELEASED AND RECORDED.** The owner has reversed their own 2026-08-27 decision box, which is theirs to do; **nothing is blocked by this bench.** **TWO OF THE QUEUE'S OWN RULES SURVIVE THE REVERSAL:** (1) *"the send is **the owner's act under the owner's name**"* — so **this bench does not transmit; it prepares**; (2) *"nothing leaves without the owner's **per-item** word"* — a blanket release does not supply six. **AND THE AUDIT FOUND A THIRD THING:** the queue was built at **B1179** and the corpus has banked **33 arcs above it**. **Q1 — the single ★★★★ item, "the one live crossing" — is STALE, touched by 8 post-queue arcs** (B1183, B1194, B1195, B1196, B1198, B1200, B1201, B1209). Its status line still reads *"FLOOR (B1156) … the one bar is the cusped extension"*, but since then **the Lee paper was obtained and read on-bench** (B1209, paying B1198's CITED/UNVERIFIED grade), **the admissible tangential base point was answered from the source and found UNIQUE not free** (B1201 correcting B1198), and **a hoped-for bridge to the observer's bit was CLOSED**. **Sending Q1 as written would hand a specialist a status line omitting eight of our own arcs, one of which killed a bridge we had hoped for — and a send cannot be recalled.** **Q2 is also STALE** (B1198, B1209 — B1209's surviving half is *"an outside motive over our field whose Beilinson regulator is our complex volume"*, which is Q2's own subject). **Q3, Q4, Q5, Q6: READY** — no post-queue arc touches them | **RECOMMENDED SEQUENCE, cheapest first: (a)** rewrite **Q1's** status line from B1198/B1201/B1209 — **the ask NARROWS**, because the literature half is now partly done in-house, which makes it a **better** send, not a worse one; **(b)** re-check **Q2** against B1209's surviving half; **(c)** then take the six **per-item** decisions in one pass. **Q3–Q6 could go as written today.** **Stated once and not relitigated:** the owner's original reason for the hold was sequencing — *"craft another paper … after we exhaust the math"* — and the paper is currently mid-flight **with a known defect** (memo 133: its claim base reads a field 89% of settled arcs never filled). Bears on sequencing; the decision is the owner's and the bench proceeds either way. **Nothing was sent; no address touched; no external contact of any kind made** |
 
 This addendum is the only mutation.
+
+### ADDENDUM 44 (2026-08-29) — NEW STANDING PRACTICE (the owner's instruction, adopted): PUSH AS YOU GO, SO OTHER SEATS CAN SEE THE WORK
+
+**The owner's words:** *"push everything as you go so other seats can see
+your work."* **Adopted as standing practice, effective immediately.**
+
+**Why it matters more than it looks.** codex's audit this session read
+this lane at **`287e8f75`** — a commit **eleven behind** the then-current
+head — and produced a delta audit against a stale snapshot. That is not
+codex's error; it is the cost of work sitting unpushed or unnoticed
+between banks. A seat that cannot see the current head audits the past.
+
+**THE PRACTICE, stated so it can be checked:**
+1. **Every cell banks on completion** — certificate + vendored output +
+   memo + INDEX row + commit + **push**, in one motion, before the next
+   cell starts. No batching across cells.
+2. **A clean, pushed tree is the resting state.** At the end of every
+   turn the working tree is committed and `git rev-list --count
+   origin/<branch>..<branch>` is **0**. If it is not, the turn is not
+   finished.
+3. **Corrections push immediately**, ahead of new work — a wrong figure
+   another seat can read is worse than a slow one.
+4. **Long-running work banks its partial state** rather than waiting for
+   completion, so a seat reading mid-run sees the scaffold and not
+   silence.
+
+**Related standing rule, reaffirmed:** the same session established that
+*a seat reading a stale ref will audit stale content*. The relay to cc
+already carries the note that this lane's head has moved; **the fix is
+this practice, not the note.**
+
+This addendum is the only mutation.
