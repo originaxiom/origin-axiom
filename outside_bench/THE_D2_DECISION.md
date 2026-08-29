@@ -182,3 +182,26 @@ The second is dead either way. The first is preregistered, tested, and
 passes. **Gate 5 untouched throughout: geometry and counts only, all read
 from banked data; no measured value enters and no clock identification is
 asserted by this sheet.**
+
+---
+
+### ADDENDUM 1 (2026-08-29) — **SIGNED: OPTION A**
+The owner replied **"go"** to §4's recommendation. Recorded as the
+signature of **Option A**: **LEAP-1 PAID**, with **SCOPE-1** entered as
+its own priced line (class: typing premise, the SP-1 class) and
+**refuter (a) armed** — *exhibit a requirement in the AMS construction
+that CS-time be a function on the space of solutions rather than along
+one*, which would kill SCOPE-1 and the payment with it.
+
+Written through to `THE_WELD_BOOK.md` addendum 5 and
+`THE_CLOSURE_ROUTES.md` row D2. **Two overstatements were corrected at
+the point of payment** rather than inherited (memo 131): the CP sign
+becomes internal **to the clock, not forced** — the payment adds no
+observer bit, the count stays at one; and matter-over-antimatter is
+**doubly** conditional (LEAP-1 **and** the branch bit), not singly as the
+price sheet implied.
+
+**Unchanged by the signature:** the RATE stays observer-side by theorem,
+and the clock identification stays unproven with B721's imported external
+weight intact. **A paid leap is a labeled premise, not a theorem.** This
+addendum is the only mutation.

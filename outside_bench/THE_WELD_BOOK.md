@@ -179,3 +179,59 @@ run can break the tie.** **LEAP-1's own price is untouched** — the
 identification remains unproven and B721's tracial result still forces an
 imported external weight. **The decision itself remains the owner's and
 is not taken here.** This addendum is the only mutation.
+
+### ADDENDUM 5 (2026-08-29) — **THE OWNER SIGNS D2: LEAP-1 IS PAID under OPTION A, with SCOPE-1 as its own priced line; two overstatements corrected at the point of payment (memo 131)**
+**Provenance, recorded exactly.** The bench put four priced options in
+`THE_D2_DECISION.md` and recommended **Option A**. The owner replied
+**"go"**. That is taken as the signature of Option A. If a different
+option was meant, this names precisely what was taken as the signature
+so it can be corrected in one edit.
+
+**THE DECISION SHEET UPDATES.**
+- **LEAP-1 — PAID.** State changes from HELD to **PAID under premise**.
+  It was *not* resolved by addendum 3's rule (B1197 fired neither signed
+  branch); it is resolved by the **scope signature**, and the record says
+  so rather than pretending the original rule executed.
+- **SCOPE-1 — NEW, its own priced line, class = typing premise (the SP-1
+  class, lighter than a LEAP).** *The Λ-conjugacy is required along a
+  realized history, not between variables on the space of closings.*
+  **Grounds:** the variable reading is refuted twice over and by a law
+  banked before the run — B289's sign law (B1197's own positive control,
+  156/156) puts two opposite CS values over one volume, so signed CS was
+  never a function of Vol; |CS| is the repair and it fails too (memo 130
+  S5: seven closings in a volume window of 0.005149 spanning 0.143940).
+  The (1,n) ladder is **preregistered**, not the passing subset (B289's
+  *scale ladder*; this book's addendum 2).
+  **REFUTERS ARMED:** (a) exhibit a requirement in the AMS construction
+  that CS-time be a function on the *space* of solutions rather than
+  along one — kills SCOPE-1 and with it the payment; (b) exhibit a (1,n)
+  rung where monotonicity fails beyond the banked box; (c) exhibit a
+  second distinguished trajectory on which it fails.
+
+**TWO OVERSTATEMENTS CORRECTED AT THE POINT OF PAYMENT (memo 131).**
+1. **W2/H3's "the CP sign becomes internal" must not be read as "forced."**
+   LEAP-1 identifies the CP sign with the CS-clock sign — and the CS sign,
+   CP sign and chirality label are **already** in the mirror-odd column,
+   all locked to the single bit **c** (memo 110; banked chain memo 83/W3).
+   **The payment adds no observer bit and discharges none:** the count
+   stays at one discrete mirror bit, and memo 111's ledger is untouched
+   because the payment does not touch the trace field. *Internal to the
+   clock*, not *forced*.
+2. **"Matter-over-antimatter follows only WITH LEAP-1, so that consequence
+   inherits LEAP-1's state" is SINGLE-conditional and is CORRECTED to
+   DOUBLE.** LEAP-2 was retired — the arrow is not forced (B124, memo 94's
+   two-branch law, memos 97/101) and the ledger carries **ARROW = the
+   branch bit**. So the consequence inherits **both** LEAP-1's state
+   **and the branch bit's**. Paying LEAP-1 delivers
+   *matter-over-antimatter **given the branch bit***, which is weaker than
+   this book previously implied.
+
+**WHAT THE PAYMENT DOES NOT BUY, stated so it cannot drift.** The RATE
+stays observer-side **by theorem** (dimensionful; the scale-torsor no-go
+Hom(G,ℝ₊) = 0 is untouched — only the dimensionless FORM moves). The
+identification stays **unproven**: no banked computation connects the
+object's tick to a cosmological clock, and **B721's tracial result still
+forces an imported external weight**. **A paid leap is a labeled premise,
+not a theorem** — every consequence travels with its premise attached and
+dies with it if a refuter fires. Gate 5 untouched. This addendum is the
+only mutation.

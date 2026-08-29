@@ -1,0 +1,92 @@
+P1 — THE MECHANICAL SWEEP (grep over the bench corpus, not memory):
+    LEAP-1 occurrences: 53 across 12 documents
+         13  THE_WELD_BOOK.md
+          9  THE_D2_DECISION.md
+          7  THE_OWNER_REGISTER.md
+          5  THE_CLOSURE_ROUTES.md
+          5  THE_SECOND_HALF.md
+          4  TWO_PULSES.md
+          2  D2_SCOPE.md
+          2  INDEX.md
+          2  THE_GRAND_COMPUTATION.md
+          2  THE_TWO_CAMPAIGNS.md
+          1  THE_FULL_ACCOUNTING.md
+          1  THE_TOE_GAP.md
+
+P2 — THE ENTRIES THAT CHANGE STATE (each located, each stated):
+    memos/TWO_PULSES.md
+        expansion FORM object-side
+        WAS   : conditional on LEAP-1 (UNPAID)
+        NOW   : ASSERTED under LEAP-1 + SCOPE-1; the RATE stays observer-side BY THEOREM (dimensionful; the scale-torsor no-go is untouched)
+    THE_CLOSURE_ROUTES.md
+        row D2
+        WAS   : pay or refuse the priced bit
+        NOW   : SIGNED — paid as Option A; the row closes
+    THE_WELD_BOOK.md
+        LEAP-1 is HELD, not decided
+        WAS   : held pending the clock-coherence run
+        NOW   : the run returned SPLIT and fired NEITHER signed branch; resolved by the scope signature, not by the original rule
+    THE_SECOND_HALF.md
+        H3 price statement
+        WAS   : NOT payable by computation — closes as a PRICE STATEMENT
+        NOW   : the price statement is now EXERCISED; H3's deliverable stands and is what the owner priced from
+    THE_TOE_GAP.md
+        row 12 Arrow of time / CP sign
+        WAS   : correlation forced, sign priced to one bit
+        NOW   : UNCHANGED — see T1: the payment does not alter the bit count
+
+T1 — DOES THE PAYMENT ADD AN OBSERVER BIT?
+    the observer column before payment (7 entries):
+        c (the mirror/anchoring bit)
+        the branch bit (dynamical)
+        r (the swap)
+        gamma5
+        sigma
+        lambda
+        ell (the unit)
+    the MIRROR-ODD column (memo 110; banked chain memo 83 / W3),
+    all 4 locked to the SINGLE bit c:
+        torsion signs
+        CS sign
+        CP sign
+        chirality label
+    LEAP-1 asserts: cosmological-clock sign = CS-clock sign.
+    The CS sign is ALREADY in the odd column, locked to c.
+    => the identification attaches the cosmological clock to a bit the
+       record ALREADY carries.  NO NEW BIT IS ADDED, and none is
+       discharged: the count is unchanged at ONE discrete mirror bit.
+    => 'the CP sign becomes INTERNAL' means INTERNAL TO THE CLOCK, not
+       FORCED.  memo 111's ledger (one bit, charged at coordinatization,
+       once, forever) is untouched — the payment does not touch the
+       trace field, so nothing in that ledger can move.
+
+T2 — IS MATTER-OVER-ANTIMATTER SINGLY OR DOUBLY CONDITIONAL?
+    the weld book says it 'follows only WITH LEAP-1, so that
+    consequence inherits LEAP-1's state' — SINGLE conditional.
+    But LEAP-2 was RETIRED: the arrow is NOT forced (B124; memo 94's
+    two-branch law; memos 97/101's exhaustion), and the ledger carries
+    ARROW = THE BRANCH BIT, frame-priced.
+    => matter-over-antimatter inherits BOTH LEAP-1's state AND the
+       BRANCH BIT's.  It is DOUBLY CONDITIONAL, and the weld book's
+       single-conditional phrasing is CORRECTED at the point of payment.
+    => concretely: paying LEAP-1 does NOT deliver matter-over-antimatter;
+       it delivers 'matter-over-antimatter GIVEN the branch bit', which
+       is a weaker statement than the price sheet implied.
+
+P3 — WHAT THE SIGNATURE BUYS, STATED WITHOUT INFLATION:
+  BOUGHT (asserted under LEAP-1 + SCOPE-1, both labeled premises):
+    * the expansion FORM is object-side (ratio phi per tick, dimensionless);
+    * the W1 conjugacy acquires a physical clock on its other side;
+    * the CP sign is identified with the CS-clock sign — the SAME bit the
+      record already carried, not a new one and not a forced value;
+    * matter-over-antimatter, GIVEN the branch bit (T2).
+  NOT BOUGHT — unchanged by the payment:
+    * the RATE remains observer-side BY THEOREM (dimensionful; scale-torsor
+      no-go, Hom(G, R+) = 0);
+    * the observer bit count remains ONE discrete mirror bit (T1);
+    * the identification remains UNPROVEN — no banked computation connects
+      the object's tick to a cosmological clock, and B721's tracial result
+      still forces an imported external weight.
+  A PAID LEAP IS A LABELED PREMISE, NOT A THEOREM.  Every consequence above
+  travels with its premise attached, and dies with it if a refuter fires.
+  Gate 5 untouched.

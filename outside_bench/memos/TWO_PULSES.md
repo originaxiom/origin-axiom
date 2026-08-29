@@ -84,3 +84,18 @@ angle is a free parameter — "no solution to the cosmological-constant
 problem", B981's own scope line, repeated here so it cannot be
 dropped). The certificate's FACT-4 print block carries the superseded
 wording; this addendum is its correction of record.
+
+### STATE CHANGE (2026-08-29, memo 131 — the owner signed D2)
+This memo typed the **expansion FORM** (ratio φ per tick, dimensionless)
+as object-side **conditional on LEAP-1, then UNPAID**. **LEAP-1 is now
+PAID** (weld book addendum 5, Option A, under the new **SCOPE-1** typing
+premise with refuter (a) armed). So:
+- **the expansion FORM is asserted object-side — under the labeled
+  premises LEAP-1 + SCOPE-1, not as a theorem;**
+- **the RATE is UNCHANGED: observer-side by theorem** (dimensionful; the
+  scale-torsor no-go Hom(G,ℝ₊) = 0 is untouched). Only the dimensionless
+  half moved, exactly as this memo's typing anticipated;
+- **σ² IS the monodromy** stands as computed — that was never conditional.
+If refuter (a) fires, the FORM reverts to conditional and this memo's
+original typing is the fallback, unchanged. This addendum is the only
+mutation.

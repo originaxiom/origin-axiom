@@ -42,7 +42,7 @@ no route is listed as "bench-runnable" and left unrun.
 | # | item | the decision that closes it |
 |---|---|---|
 | D1 | the selection theorem's ONE premise | adopt it (⟹ enters the price list as a LEAP-class entry, and the gauge selection becomes a theorem-with-one-premise) or demand its derivation (⟹ a new campaign with no known cell — the bench found none) |
-| D2 | LEAP-1 (H90) | pay or refuse the priced bit; memo 90's expansion-FORM conditional hangs on it |
+| D2 | LEAP-1 (H90) | **SIGNED 2026-08-29 — PAID as Option A under SCOPE-1, refuter (a) armed** (weld book add. 5; memos 130/131). memo 90's expansion-FORM conditional is asserted under premise; the RATE is untouched |
 | D3 | LEAP-2 | already PRICED to the branch bit (memo 94's two-branch law); closing = accepting that price or naming a new route past it — the bench exhausted the banked symmetry routes (memos 97/101) |
 | D4 | qualia S4 (the quine) | authorize the build (it is a construction project, not a verification; either seat could build once specified) — until then it stays "unbuilt" honestly |
 
