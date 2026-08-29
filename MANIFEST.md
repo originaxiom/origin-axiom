@@ -30,6 +30,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R024 | `certificates/r024_lepton_character_datum.py` | both retained height-308 branches place `e^c` and `l` in coarse character zero; its use of the `A7` tail rule for the lepton discussion is superseded by R025 | COARSE RESULT VERIFIED / TAIL SCOPE SUPERSEDED |
 | R025 | `certificates/r025_lepton_tail_selection/lepton_tail_selection.py` | the lepton raw leg is `A11`, so its B-pair sum is 4 rather than 8; the physical `B2 x B2` pure-tail term is the alternating square of one tail line and vanishes, while all mixed/connecting entries remain open | VERIFIED / RELAYED |
 | R026 | `certificates/r026_yukawa_determinant_frame/determinant_frame.py` | exact ordered Euler eigenframe, determinant comparison and sparse local connecting formula for the norm-308 down/lepton evaluator; the `H3(O_Y)` trace and Serre tails remain open | VERIFIED / RELAYED |
+| R027 | `certificates/r027_toric_top_trace/toric_top_trace.py` | exact marked `H2(K_dP6)` class and cyclic dual trace, with a normalized 384-simplex product trace on the 36-chart cover of `dP6 x dP6`; the hypersurface connecting image and Serre tails remain open | VERIFIED / RELAYED |
 
 Every new cell must add its memo, self-contained certificate, captured output, and relay before it
 is cited outside this branch.

@@ -1,0 +1,14 @@
+DATA dP6 canonical weight-zero Cech dimensions = [0, 9, 20, 15, 6, 1]
+DATA dP6 canonical weight-zero differential ranks = [0, 9, 10, 5, 1]
+RESULT dP6 canonical weight-zero cohomology dimensions = [0, 0, 1, 0, 0, 0]
+DATA marked H2(K_dP6) generator support = [((0, 1, 2), 1), ((0, 1, 3), 1), ((0, 1, 4), 1), ((0, 1, 5), 1), ((0, 2, 3), 1), ((0, 2, 4), 1), ((0, 2, 5), 1), ((0, 3, 4), 1), ((0, 3, 5), 1), ((0, 4, 5), 1), ((1, 2, 3), 1), ((1, 2, 4), 1), ((1, 2, 5), 1), ((1, 3, 4), 1), ((1, 3, 5), 1), ((1, 4, 5), 1), ((2, 3, 4), 1), ((2, 3, 5), 1), ((2, 4, 5), 1), ((3, 4, 5), 1)]
+DATA cyclic trace-cycle support = [((0, 1, 3), Fraction(1, 4)), ((0, 2, 4), Fraction(-1, 4)), ((0, 2, 5), Fraction(1, 4)), ((0, 3, 4), Fraction(1, 4)), ((1, 2, 4), Fraction(1, 4)), ((1, 3, 5), Fraction(-1, 4)), ((1, 4, 5), Fraction(1, 4)), ((2, 3, 5), Fraction(1, 4))]
+RESULT factor trace(tau) = 1
+RESULT a boundary-shifted trace is homologous; the planted 012-for-013 row is rejected
+RESULT chart rotation acts as +1 on the marked H2 class
+DATA product trace-cycle nonzero simplex count = 384
+RESULT product trace cycle has zero boundary and pairs with tau x tau as 1
+RESULT order-12 factor-exchange action has product orientation sign +1
+RESULT normalized ambient trace Tr_Z: H4(K_Z) -> Q is explicit on the 36-chart cover
+SCOPE C12 invariance is a cohomology/trace statement; literal invariance of this marked 384-simplex chain is not claimed
+SCOPE for anticanonical Y, Tr_Y(c)=Tr_Z(delta_f(c)); constructing delta_f(c) for the 18 connecting Yukawa entries remains open

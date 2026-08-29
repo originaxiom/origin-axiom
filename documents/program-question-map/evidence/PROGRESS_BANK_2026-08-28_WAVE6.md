@@ -146,6 +146,12 @@ of exact correspondences, not yet a parameter-free Standard Model derivation.
   phase, and the positive-sign sparse local connecting formula. The 18-entry
   connecting problem is now reduced to the normalized hypersurface trace;
   Serre tails and all physical normalizations remain separate debts.
+- R027 constructs the canonical-weight `dP6` top Cech class and a normalized
+  cyclic dual cycle, then its signed 384-simplex Eilenberg--Zilber product on
+  the actual 36-chart cover of `dP6 x dP6`. This pays the ambient
+  `H^4(K_Z)` trace functional. The characteristic-zero refinement collapse,
+  the hypersurface connecting representative `delta(ctilde)/f` for each of
+  the 18 entries, and the Serre-tail realization remain separate debts.
 - The outside uniqueness test finds six distinct admissible sets from eight
   predicates and leaves five competitors to A5. Its proposed phi-stability
   repair is unforced and fails on A5. The Selector and observer-sufficiency
@@ -229,10 +235,11 @@ from its three characters to a record-side q-series with a negative control.
 
 Freeze every Wilson, bundle, Higgs and carrier matrix before OA-C1117. R024/R025
 now fix the coarse and raw lepton characters and close the pure-tail square
-negatively. R026 also fixes the determinant frame. Next construct the
-`H^3(O_Y) -> H^4(K_Z)` trace reduction for the 18 connecting entries, then the
-Serre-tail lift, execute B1208's preregistered fork, and quotient the Higgs line
-in OA-C1150. This is the
+negatively. R026 fixes the determinant frame and R027 fixes the normalized
+ambient top trace. Next construct the characteristic-zero refinement collapse
+and `H^3(O_Y) -> H^4(K_Z)` connecting representative for the 18 entries, then
+the Serre-tail lift, execute B1208's preregistered fork, and quotient the Higgs
+line in OA-C1150. This is the
 highest-leverage finite value-arm computation because it can show the lepton
 cut is identical, independent or absent. This lane can establish or kill one
 explicit charged-spectrum witness. It cannot by itself remove the
