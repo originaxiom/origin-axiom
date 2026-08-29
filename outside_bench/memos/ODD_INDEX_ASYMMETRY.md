@@ -75,3 +75,19 @@ fails yields an asymmetry every quasiperiodic slope shares.**
 
 **Fence.** N = 1597 for the control, four comparison slopes, one detector.
 No laboratory datum touched. Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-29) — THE OPEN LEAD CLOSES NEGATIVELY (memo 145), and this memo's caution is vindicated
+This memo registered the golden excess (6 against 2–3) as an **open lead**
+and declined to claim it on four controls. **The proper ensemble closes it
+negatively.** memo 145: 15 slopes, each at **its own** convergent
+denominators — removing a confound this memo missed, that **N = 1597 is a
+Fibonacci number**, commensurate with the golden slope alone.
+
+Golden's values across its own windows are **1, 3, 6, 7 — monotone in N**,
+and corr(asymmetry, N) = **+0.629** across the ensemble. Šidák-corrected
+over golden's 4 windows, **P = 0.241**. And the ensemble maximum is **8,
+from log 2** — **a non-metallic slope at a smaller window than golden's
+best.**
+
+**Verdict G-NOISE.** Declining to claim on four controls was the right
+call. This addendum is the only mutation.

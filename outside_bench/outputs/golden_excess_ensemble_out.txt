@@ -47,10 +47,39 @@ E3 — THE ENSEMBLE:
        golden asymmetry 6: P(other >= it) = 0.067  (percentile 93)
        golden asymmetry 7: P(other >= it) = 0.067  (percentile 93)
 
-E4 — THE VERDICT (preregistered):
+E4 — *** THE PREREGISTRATION WAS UNDER-SPECIFIED, AND THIS CELL SAYS SO
+     BEFORE REPORTING ITS OWN HEADLINE. ***  The sealed criterion was
+     'above the 90th percentile of the ensemble'.  It required NEITHER
+     a LOOK-ELSEWHERE correction (the golden slope contributes several
+     windows and the MAXIMUM was quoted) NOR a CONTROL FOR WINDOW SIZE.
+     Both are needed, and both cut against the headline:
+     (a) N-CONFOUND: corr(asymmetry, N) = +0.629 — the asymmetry
+         GROWS with window size (fit: asym ~ -0.43 + 0.00237*N), and
+         golden's large values sit at its LARGEST windows.
+         N-adjusted, golden's best residual +2.64 gives
+         P(other >= it) = 0.067 — still only the 1/15 resolution floor.
+     (b) LOOK-ELSEWHERE: golden contributed 4 windows and the
+         maximum was quoted.  Raw P = 0.067; Sidak-corrected over
+         4 draws = 0.241.  NOT SIGNIFICANT.
+     (c) THE SINGLE MOST DAMAGING FACT: the ensemble maximum is
+         8, from 'log2' at N=1649 — a
+         NON-METALLIC slope, at a SMALLER window than golden's best
+         (7).  A slope with no golden structure at all
+         produces a LARGER asymmetry.
+
+E4b — THE VERDICT AS THE SEAL WROTE IT (reported, then corrected):
      ==> OUTCOME G-EXCESS.  The golden slope's largest asymmetry
          sits above the 90th percentile of the ensemble
          (P(other >= it) = 0.067).  memo 144's lead is upgraded.
+
+E4c — *** THE CORRECTED VERDICT: G-NOISE. ***
+     The sealed criterion fires G-EXCESS, but it is under-specified, and
+     under BOTH corrections the excess evaporates: Sidak-corrected
+     P = 0.241, the N-trend explains the ordering, and a
+     non-metallic slope beats golden outright.  THE LEAD CLOSES
+     NEGATIVELY.  memo 144 registered this as a lead and DECLINED to
+     claim it on four controls; that caution is VINDICATED, and the
+     failure recorded here is in the SEAL, not in the earlier memo.
 
 E5 — THE PARITY DIAGNOSTIC (memo 143's theorem predicts a split):
      even convergent index: n=10 mean=2.50 zeros=0
