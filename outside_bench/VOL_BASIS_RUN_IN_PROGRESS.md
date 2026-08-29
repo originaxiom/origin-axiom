@@ -23,10 +23,20 @@ exists to close the corner, not to expect a hit.
 
 ## RUNNING NOW
 
-1. **GATING REPRODUCTION CONTROL** — the full 216-cell real grid on the
-   **unmodified** basis. Per seal §5, **if this does not recover B1137's
-   headline (0 of 18 targets involve a regulator), no extended result may
-   be reported at all.**
+1. ✅ **GATING REPRODUCTION CONTROL — PASSED (seal §5 satisfied).** Full
+   **216-cell** grid on the unmodified basis, 881 s:
+
+   | | |
+   |---|---|
+   | raw PSLQ relations found | **117 of 216** |
+   | passing `involves_V` | **117** |
+   | **passing `involves_regulator`** | **0** |
+   | targets whose relation involves a regulator | **NONE** |
+
+   **B1137's headline — "0 of 18 targets involve a regulator at all" —
+   REPRODUCES EXACTLY.** The 117 raw relations are the V-alone tautology
+   B1137 itself identified and gated (a terminating-decimal target is
+   trivially rational on its own). **The extended run is authorized.**
 2. ✅ **HYGIENE PRE-STEP — RETURNED (seal §4 satisfied).** PSLQ at
    **dps 220, H = 10⁶** against B1137's **25-element pruned basis**:
 
@@ -43,6 +53,7 @@ exists to close the corner, not to expect a hit.
    π-normalized entries — so this instrument does find dependence when it
    is there.)* **Target-free: no SM value was loaded.**
 
-**CONTROL STILL RUNNING** (216 cells, ~20 min). **Nothing about targets
-is claimed until it returns.** The two-outcome and the
+**BOTH PRE-STEPS PASSED. The extended run (basis + 3 volume directions)
+is now authorized and launched.** Its outcome is fixed by seal §3 and is
+not editable. The two-outcome and the
 four-gate hit discipline are fixed in the seal and are not editable.
