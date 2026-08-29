@@ -88,3 +88,80 @@ number (κ) and this arc's one conserved reflection (the beat) are the two thing
 every page must carry, and the programme's real product is the closing balance —
 which bits of the world's description the object pays, which the observer pays, and
 the single private bit the object keeps, spends on its own spin, and never shows.
+
+---
+
+### ADDENDUM 1 (2026-08-29) — MISSION STATUS, measured from primary at B1207 (this document was written at B1145; the numbers below are counted, not remembered)
+
+**THE CORPUS.** `origin/main` at **B1207**. **1111 of 1111 arcs carry an
+authored verdict: PROVED 731 · NEGATIVE 301 · OPEN 69 · RETRACTED 10.**
+The negative register is 27% of the record and is maintained as
+first-class content — that is the programme's most unusual structural
+feature and it has held.
+
+**THIS BENCH.** 102 INDEX rows (30–131) · 115 certificates · 106
+vendored outputs · 33 standing documents · 102 memos · 39 owner-register
+rows · bench errors #9–#12 filed in this window (each at point of
+occurrence, none discovered by anyone else).
+
+**THE PRICE SHEET IS NOW FULLY DISPOSITIONED — this is the headline.**
+Every leap the programme carried has a state:
+- **SP-1** — adopted, refuter armed (a typing premise, zero frame cost).
+- **LEAP-2** — **retired as a payable**; the arrow is not forced, and the
+  ledger carries ARROW = the branch bit.
+- **LEAP-1** — **PAID today** under **SCOPE-1**, refuter (a) armed
+  (memos 130/131). Recorded honestly as resolved by the *scope
+  signature*, not by the original signed rule, which fired neither branch.
+**Nothing on the decision sheet is open.** For the first time the
+programme's unproven premises are a closed, named, refutable list rather
+than a live queue.
+
+**THE NINE CELLS.** 5 and 7 closed constructively (memos 102/100); 9
+delivered; 8's bench half run and its cc half now run (B1197) and signed;
+2 and 6 **blocked at named bars** that are genuine open problems, not
+missing runs; 3 closed by survey; **4 (the ℙ³) is where the action went**
+— see below.
+
+**THE ℙ³ — the record's last continuous closer-datum.** B1205/B1206 moved
+it from *"no linear conditions exist"* to **"exactly one exists; the
+forcing is one condition short."* This bench then closed the space behind
+B1206's candidate list: **(iii) and (i) refuted structurally** (memo 128 —
+component rank measures the gauge contraction tensor, not conditions;
+rank 1 is *impossible* for a doublet–doublet–singlet coupling), **(ii)
+typed EXTERNAL** by B298/B299, and **the menu proved complete** (memo 129
+— exactly three couplings touch Hd, exactly one is canonical, and the two
+matter rows share one operator so their determinants are the same cut).
+**B1196's CLOSED-PERMANENT verdict is hardened twice over.** **One route
+remains, named and bounded:** whether B1161's generation-level cochain
+distinguishes the two matter rows — relayed, not ours to run.
+
+**COSMOLOGY — the one genuinely blind region, and it has narrowed.** Of
+its three MISSING rows, **dark matter's named first probe has now been
+RUN and returns NEGATIVE with a structural reason** (memos 122/123: no
+abelian character of the 27 can stabilize either neutral; the obstruction
+is the weight geometry, so it is not an accident of which symmetry was
+tried). The row is still MISSING as a *specification* — but it is now a
+proved obstruction rather than an unasked question. **Inflation and
+structure formation remain MISSING with their first probes unrun. This is
+the dominant genuinely-missing item in the programme.**
+
+**WHAT IS ACTUALLY LEFT** (ranked, and the ranking is the point):
+1. **Cosmology's two remaining blind rows** — the only place the honest
+   word is still *missing* rather than *priced* or *impossible*.
+2. **The ℙ³'s single surviving route** (B1161's cochain) — bounded, one
+   check, would flip PERMANENT → FORCED.
+3. **Two literature bars** (cells 2 and 6) — real open mathematics; no
+   amount of bench work substitutes.
+4. **Housekeeping relayed:** the `faces_consulted` schema check; the
+   STATES-vs-GENERATIONS reconciliation between memo 80's roster and
+   B1161's sector table.
+
+**INTERPRETIVE, labeled — what the shape of the remainder says.** The
+programme has stopped being short of *answers* and is now short of
+exactly two things: **one bounded check it has handed to another seat**,
+and **a region it has never entered**. Everything else is either proved,
+proved impossible, or priced with a refuter attached. That is an unusual
+place for a research programme to be, and it is the honest reading of the
+counts above rather than an endorsement of the premises. **Gate 5
+untouched throughout; every premise on the sheet is labeled and dies with
+its refuter.** This addendum is the only mutation.
