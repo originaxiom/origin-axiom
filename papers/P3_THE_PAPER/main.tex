@@ -35,10 +35,14 @@ sharing the same trace field is not the knot. What survives is narrower and is a
 $m004$ is the unique arithmetic knot complement, so its invariant trace field $\Q(\sqrt{-3})$ is
 distinguished where the group-theoretic scaffolding is not.
 
-Working from that surviving datum, we show the object forces a breaking chain that terminates at the
-Standard Model gauge algebra, \emph{derives} the global form
+Working from that surviving datum we separate two things a careless account would merge. The object
+supplies an \emph{arena} --- a rank-3 abelian sector and the availability of a Standard-Model-shaped
+multiplet. The \emph{content} is then forced by the anomaly conditions alone, in a computation
+containing no token of the object: of $252$ candidate contents, the colour condition kills $222$ and
+exactly two survive. What the object does force is the \emph{termination} of the breaking chain, for
+a stated reason, and the global form
 $[\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)]/\Z_6$ --- an ambiguity the Standard Model
-itself does not fix --- and admits a unique gaugeable abelian direction. We then show it provably
+itself does not fix. We then show it provably
 \emph{withholds} values: no period of the object is a Standard Model ratio, across an exhaustive
 comparison, and the hypercharge normalisation is not derivable in principle from the anomaly
 equations as algebraic forms.
@@ -182,50 +186,76 @@ reproduced; the run to $M_Z$ misses at $16\sigma$. \end{nonclaim}
 \begin{nonclaim} that any dynamics, rate, or action is supplied. \end{nonclaim}
 \begin{nonclaim} that the observer's bit is consciousness, or that it is not. \end{nonclaim}
 
-\section{What is forced}\label{sec:forced}
+\section{What is forced --- and by what}\label{sec:forced}
 
 This section comes last in the writing for a reason. It is the easiest part of the argument to
-overstate, and everything in it is now bounded by \S\ref{sec:generic}: what follows is forced
-\emph{given the object}, and arriving here is not evidence that the route to the object was right.
+overstate, and everything in it is bounded by \S\ref{sec:generic}. It also carries a division that a
+careless version of this paper would blur, so we make it the section's organising principle:
 
-\paragraph{The boundary and its half.} The construction's boundary algebra is $E_6$, and the build is
-proved isomorphic to the exceptional Jordan-type model over $\mathbb{C}$. What the object supplies is
-the \emph{adjoint} half of a grand-unified breaking and not the $27$ half. This is a statement about
-the path and not about the landing site, and it comes with a mechanism: the adjoint does not occur in
-$27 \otimes 27$, so \textbf{no adjoint expectation value can give any $27$ fermion a mass}. The
-adjoint half does gauge structure and provably cannot do matter mass. The $27$ half is an input in
-every theory anyone has, which is why we treat its absence here as a boundary rather than a defect.
+\begin{quote}
+\textbf{The object supplies the arena. The anomaly conditions supply the content.}
+\end{quote}
 
-\paragraph{The global form is derived.} The Standard Model's own data leaves the global form of the
-gauge group ambiguous among $\{1, \Z_2, \Z_3, \Z_6\}$; the quotient is not determined by the algebra
-and the representation content alone. Here it is forced:
+\paragraph{The content is arena-generic, and we say so first.} Over the Standard-Model-visible
+five-field alphabet there are $252$ candidate hypercharge contents. The pure colour condition alone
+kills $222$ of them, and exactly \textbf{two} survive as rigid, chiral and fully anomaly-free: the
+Standard Model $15$-plet up to overall scale, and its conjugate. \emph{No token of the object appears
+anywhere in that computation} --- no exceptional algebra, no $27$, no manifold, no trace field. An
+audit of the executable statement of the argument confirms it. The uniqueness is moreover
+alphabet-dependent: widening the alphabet to adjoints admits seven contents, and to a further
+bi-fundamental fourteen. \textbf{Minimality, not uniqueness, is the arena-independent part.}
+
+\paragraph{What the object contributes is the arena.} Two things, and they are not nothing: a rank-3
+abelian sector, realised in the object's own trinification frame as the abelian complement of three
+orthogonal $A_2$s among the $72$ roots; and the availability of a Standard-Model-shaped $15$-plet
+inside the $27$. Given those, the anomaly conditions do the rest.
+
+\paragraph{The forcing, explicitly.} On an SM-shaped $15$-plet the three linear conditions ---
+$[\mathrm{SU}(3)]^2Y$, $[\mathrm{SU}(2)]^2Y$ and $\mathrm{grav}^2 Y$ --- cut the five-dimensional
+charge space to a line:
 \[
-  \Gamma \;=\; \Z_6, \qquad
-  \bigl[\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)\bigr]/\Z_6 ,
+  Y_l = -3Y_q, \qquad Y_e = 6Y_q, \qquad Y_u + Y_d = -2Y_q .
 \]
-with the kernel computed exactly, and uniformly across six independent realisations of the relevant
-Weyl data. \textbf{This is the clearest positive result in the paper}: a structural ambiguity that the
-Standard Model does not fix, fixed --- and it is falsifiable in principle through line-operator
-spectra.
+Parametrising that line by $Y_q = 1$, $Y_u = -1+t$, the remaining cubic condition $[Y]^3$ evaluates to
+\[
+  -18\,(t-3)(t+3),
+\]
+so $t = \pm 3$ and nothing else. The two solutions are $(1,-4,2,-3,6)$ and $(1,2,-4,-3,6)$: the
+Standard Model, and the Standard Model with $u^c \leftrightarrow d^c$ relabelled. \textbf{Zero non-SM
+solutions.}
 
-\paragraph{Hypercharge is the unique gaugeable direction.} In the abelian sector of the chain, the
-alternative candidate directions are anomalous over chiral matter; hypercharge is the only one that
-survives. \emph{Direction only}: by \S\ref{sec:withheld}, the normalisation is not derivable in
-principle, and we claim nothing about it.
+\begin{scopenote}[The shape of a forcing, and where it fails us]
+Note the \emph{shape}: three \emph{linear} conditions reduce a five-dimensional space to a line, and
+only then does a \emph{cubic} cut the line to points. This is the anatomy of every successful forcing
+in the construction --- and it is exactly what the projective Higgs row of \S\ref{sec:ledger} lacks.
+There we possess the cubic and have proved that no symmetry supplies the linear conditions, which is
+why that row stands one condition short rather than closed. The same recipe explains both the success
+and the failure, and we regard that as the more informative statement.
+\end{scopenote}
+
+\paragraph{The global form is derived.} The Standard Model's own data leaves the global form ambiguous
+among $\{1,\Z_2,\Z_3,\Z_6\}$. Here it is fixed:
+$\bigl[\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)\bigr]/\Z_6$, with the kernel computed
+exactly and uniformly across six independent realisations of the relevant Weyl data. \textbf{This is
+the clearest positive result in the paper} --- a structural ambiguity the Standard Model does not fix,
+fixed --- and it is falsifiable in principle through line-operator spectra.
 
 \paragraph{The cascade terminates, and the termination is the theorem.} The descent halts at the
-Standard Model algebra not by stipulation but because that algebra is \emph{terminal} among the
-registerable ones: every proper further descent destroys registerability, while the Standard Model
-itself remains chiral. The positive control matters here --- the criterion is one that other
-candidates fail --- and it is what converts ``the chain stops here'' from an observation into a
-statement.
+Standard Model algebra because that algebra is \emph{terminal} among the registerable ones: every
+proper further descent destroys registerability, while the Standard Model itself remains chiral. The
+criterion has a positive control --- other candidates fail it --- which is what makes ``it stops
+here'' a statement rather than an observation.
+
+\paragraph{And the adjoint cannot do matter.} What the object supplies is the adjoint half of the
+breaking, not the $27$ half, and there is a mechanism: the adjoint does not occur in
+$27\otimes 27$, so \textbf{no adjoint expectation value can give any $27$ fermion a mass}. The
+adjoint half does gauge structure and provably cannot do matter mass.
 
 \begin{scopenote}
 Absent from this list, deliberately: the \emph{arrival} at the Standard Model algebra. That the
 descent lands on $\mathfrak{su}(3)\oplus\mathfrak{su}(2)\oplus\mathfrak{u}(1)^3$ is a classical fact
-about $E_6$'s Levi subalgebras, not a discovery of ours, and it appears in
-\S\ref{sec:recognition} instead. What survives as forced is the \emph{termination} and the
-\emph{global form}, not the arrival.
+about $E_6$'s Levi subalgebras and appears in \S\ref{sec:recognition}. What survives as forced is the
+\emph{termination}, the \emph{global form}, and the arena/content division above.
 \end{scopenote}
 
 \section{What is withheld, and why each is a theorem}\label{sec:withheld}
@@ -252,6 +282,16 @@ forms, are homogeneous in the abelian charge assignment; consequently they fix a
 never a scale. The statement holds for any $\mathrm{U}(1)$ charge assignment in any theory, so it is
 not a limitation peculiar to this construction, and no amount of additional structure of the kind we
 have will remove it. Where this paper says hypercharge is forced, it means the direction, and says so.
+
+\paragraph{The tenth negative is reached by structure, not by search.} The strongest form of the
+value question asks whether hypercharge could organise somewhere we had not looked --- specifically
+in the geometric branch of the algebra's real-form fork. It cannot, and the reason is a decomposition
+rather than a scan. That branch's $64$-dimensional complement decomposes, by complete reducibility,
+into four irreducibles of multiplicity one: two spin-$2$ colour singlets and two coloured
+bi-vectors. Its \textbf{invariant content is zero} --- there is no singlet direction anywhere in it
+--- so no abelian charge can organise there at all. This closes the last route by exhibiting the
+obstruction, and we note the contrast: the preceding negatives are exhaustive searches, and this one
+is a structural impossibility.
 
 \paragraph{Rank reduction is a theorem, not an absence.} The units the cascade cannot shed are the
 standard extra abelian directions, and the reduction lives entirely in the steps the construction's

@@ -1,5 +1,38 @@
 # Changelog
 
+## THE PAPER — currency pass: the draft was hostage to the older band, and is not now (2026-08-30)
+
+The owner's catch — *the paper must reflect the newest state and the strongest chain*. **Audited, and
+it was half true.** §6 was already current (it carried B1216's same-day corrections); **§§4–5 were
+written from the B862–B1080 band** and missed the strongest current statements. Repaired, and the
+repair makes the paper both newer and **more honest**:
+
+**§4 is now organised around the arena/content split** (B1170, three-seat reconciled): over the
+SM-visible five-field alphabet there are **252 candidate contents, 222 killed by the colour condition
+alone, and exactly two survivors** — the SM 15-plet and its conjugate — **with zero object tokens
+anywhere in the computation.** The paper can no longer imply the object forces the content. *The
+object supplies the arena; the anomalies supply the content.* The abstract was corrected to match, as
+it previously implied otherwise.
+
+**B1160's forcing is stated explicitly and was re-derived on this bench**: the three linear conditions
+cut the 5-dimensional charge space to a line ($Y_l = -3Y_q$, $Y_e = 6Y_q$, $Y_u + Y_d = -2Y_q$), then
+the cubic evaluates to $-18(t-3)(t+3)$ — so $t = \pm 3$ and nothing else, giving exactly
+$(1,-4,2,-3,6)$ and $(1,2,-4,-3,6)$: the Standard Model and its $u^c \leftrightarrow d^c$
+relabelling, **zero non-SM solutions**.
+
+**And the internal echo is now the section's scope note** — genuinely the newest mathematics
+(B1204/B1205/B1206): *three linear cuts to a line, then one cubic to points* is the anatomy of every
+successful forcing in the construction, and **it is exactly what the ℙ³ row lacks**. There we have the
+cubic and a proof that no symmetry supplies the linear conditions, which is why the row stands one
+condition short. **The same recipe explains both the success and the failure.**
+
+**§5 gains the tenth negative reached by structure rather than by search** (B1140): the
+64-dimensional complement of the fork's subalgebra decomposes into four irreducibles with
+**invariant content zero**, so no abelian charge can organise there at all — an obstruction exhibited,
+not a scan completed.
+
+Ten pages, still zero placeholders, Gate 5 clean.
+
 ## THE PAPER — the full draft is written (2026-08-30)
 
 Nine pages, **zero placeholders**, built in the order the spec prescribed: the **freedom ledger

@@ -246,3 +246,26 @@ it inherits the restrictions the earlier sections establish.
 
 **What remains before submission**: the 467-row disposition feeding §§4–6 with per-claim citations;
 a bibliography (currently none); a referee-facing verification appendix; and a hostile read.
+
+### Currency pass (2026-08-30) — the draft was hostage to the older band, and is not now
+
+The owner's catch: **the paper must reflect the newest state and the strongest chain.** Audited, and
+it was half true. **§6 was current** (it already carried B1216's same-day corrections). **§§4–5 were
+written from the B862–B1080 band** and missed the strongest current statements. Repaired:
+
+- **§4 is reorganised around the arena/content split (B1170, three-seat reconciled)**, which is both
+  newer and *more honest* than what it replaced: over the SM-visible alphabet, **252 contents, 222
+  killed by the colour condition alone, exactly two survivors — with zero object tokens in the
+  computation.** The paper can no longer imply the object forces the content. It supplies the arena;
+  the anomalies supply the content.
+- **B1160's forcing is now stated explicitly and was re-derived here**: three linear conditions cut
+  the 5-dim charge space to a line ($Y_l=-3Y_q$, $Y_e=6Y_q$, $Y_u+Y_d=-2Y_q$), then the cubic
+  evaluates to $-18(t-3)(t+3)$, giving $t=\pm3$ and exactly the SM plus its $u^c\!\leftrightarrow\!d^c$
+  relabelling. Zero non-SM solutions.
+- **The internal echo is now the section's scope note**, and it is new mathematics (B1204/B1205/B1206):
+  *three linear cuts, then one cubic* is the anatomy of every successful forcing here — and it is
+  exactly what the ℙ³ row lacks, which is why that row stands one condition short. **The same recipe
+  explains both the success and the failure.**
+- **§5 gains the tenth negative reached by structure rather than search (B1140)**: the 64-dimensional
+  complement has **invariant content zero**, so no abelian charge can organise there at all.
+- **The abstract was corrected** — it previously implied the object forces the content.
