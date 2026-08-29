@@ -380,6 +380,15 @@ The final main refresh adds ten arcs but closes no canonical OA row.
   tail-2 direction and vanishes by skewness. The three connecting directions,
   mixed terms and generation/Higgs frames remain unevaluated, so coarse
   equality still proves none of B1208's three outcomes.
+- R026 pays the determinant component of the missing cyclic comparison. Exact
+  Fourier projectors in the ordered Euler/ray frame give a characteristic-zero
+  six-frame with minor `-72*zeta^2`; its determinant characters are
+  `B:6, W:11, G:7`, and the unique rank-five twist restores zero. The local
+  three-boundary cup collapses with sign `+1` to one sparse `12 x 12`
+  determinant divided by `Phi_a Phi_b Phi_c Phi_d`. Thus the normalized
+  hypersurface trace is the remaining obstruction for the 18 connecting
+  entries; the Serre lift is additionally required for tail/mixed entries.
+  No rank or nonzero coupling is inferred.
 - B1208's clock verification strengthens the global negative: signed CS is
   opposite at equal volume on 156/156 mirror pairs and absolute CS has a
   541-fold spread-to-window witness. The physical trajectory premise remains

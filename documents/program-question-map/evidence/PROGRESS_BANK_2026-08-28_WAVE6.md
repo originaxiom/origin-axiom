@@ -140,6 +140,12 @@ of exact correspondences, not yet a parameter-free Standard Model derivation.
   tail and vanishes. The connecting and mixed entries and frame-level
   representatives remain open, so the three-way B1208 fork and the
   characteristic-zero evaluator remain open.
+- R026 constructs the previously missing ordered determinant comparison in
+  exact `Q(zeta12)` frames. It proves an exact nonzero six-Euler minor,
+  quotient-lift and splitting independence, the equivariant determinant
+  phase, and the positive-sign sparse local connecting formula. The 18-entry
+  connecting problem is now reduced to the normalized hypersurface trace;
+  Serre tails and all physical normalizations remain separate debts.
 - The outside uniqueness test finds six distinct admissible sets from eight
   predicates and leaves five competitors to A5. Its proposed phi-stability
   repair is unforced and fails on A5. The Selector and observer-sufficiency
@@ -163,7 +169,7 @@ of exact correspondences, not yet a parameter-free Standard Model derivation.
 | OA-C1134 | exact peripheral certificate for a same-cusp family witness |
 | OA-C1140 | identify the constant Gieseking Pin-minus image by name |
 | OA-C1145 | one portable full `Q(zeta12)/dP6` construction certificate |
-| OA-C1148 | exact characteristic-zero down/lepton Yukawa evaluator |
+| OA-C1148 | normalized hypersurface trace for the now-framed connecting row, then exact Serre-tail completion |
 | OA-C1149 | place or prove external the continuous Powers weight `lambda` |
 | OA-C1150 | quotient and price the projective Higgs-line freedom |
 | OA-C1151 | construct L154's boundary character or kill sigma deletion |
@@ -223,9 +229,10 @@ from its three characters to a record-side q-series with a negative control.
 
 Freeze every Wilson, bundle, Higgs and carrier matrix before OA-C1117. R024/R025
 now fix the coarse and raw lepton characters and close the pure-tail square
-negatively. Next execute B1208's preregistered three-way fork on the remaining
-connecting and mixed terms; then run the full characteristic-zero OA-C1148
-evaluator and quotient the Higgs line in OA-C1150. This is the
+negatively. R026 also fixes the determinant frame. Next construct the
+`H^3(O_Y) -> H^4(K_Z)` trace reduction for the 18 connecting entries, then the
+Serre-tail lift, execute B1208's preregistered fork, and quotient the Higgs line
+in OA-C1150. This is the
 highest-leverage finite value-arm computation because it can show the lepton
 cut is identical, independent or absent. This lane can establish or kill one
 explicit charged-spectrum witness. It cannot by itself remove the
@@ -258,6 +265,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 certificates/r023_b1197_clock_coherence.py
 PYTHONDONTWRITEBYTECODE=1 python3 certificates/r023_b1199_selection_recheck.py
 PYTHONDONTWRITEBYTECODE=1 python3 certificates/r024_lepton_character_datum.py
 PYTHONDONTWRITEBYTECODE=1 python3 certificates/r025_lepton_tail_selection/lepton_tail_selection.py
+PYTHONDONTWRITEBYTECODE=1 python3 certificates/r026_yukawa_determinant_frame/determinant_frame.py
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/validate.py
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \
