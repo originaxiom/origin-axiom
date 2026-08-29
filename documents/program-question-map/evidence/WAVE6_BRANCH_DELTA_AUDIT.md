@@ -373,10 +373,13 @@ The final main refresh adds ten arcs but closes no canonical OA row.
   OA-C1150 remain OPEN.
 - R024 executes the datum available in the committed height-308 frames. On both
   retained Wilson branches, `e^c` selects `A_0` and `l/H_d` selects `B_0`, so
-  both coarse characters are zero. The tail rule has abstract admissible pairs
-  `(0,8)`, `(2,6)`, `(4,4)`, but no committed map identifies a physical lepton
-  generation representative with one of them. Coarse equality therefore proves
-  none of B1208's same-tensor, independent-tensor or absent-operator outcomes.
+  both coarse characters are zero. R025 corrects R024's appended tail scope:
+  `(0,8)`, `(2,6)`, `(4,4)` solve the specification's explicitly `A7`-specific
+  quark equation. The raw lepton leg is `A11`, so its equation is
+  `rho+sigma=4`. The physical `B2 x B2` pure-tail term repeats the unique
+  tail-2 direction and vanishes by skewness. The three connecting directions,
+  mixed terms and generation/Higgs frames remain unevaluated, so coarse
+  equality still proves none of B1208's three outcomes.
 - B1208's clock verification strengthens the global negative: signed CS is
   opposite at equal volume on 156/156 mirror pairs and absolute CS has a
   541-fold spread-to-window witness. The physical trajectory premise remains

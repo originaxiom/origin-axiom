@@ -1,0 +1,10 @@
+primary_charge_coefficients={'u^c': 8, 'Q': 1, 'e^c': 6, 'd^c': 2, 'L/Hd': 9}
+retained_physical_rows=[(4, 0, 0), (8, 0, 0)]
+raw_sector_down=A7xB6xB2; required_B_sum=8
+raw_sector_lepton=A11xB2xB2; required_B_sum=4
+quark_A7_unordered_tail_pairs=((0, 8), (2, 6), (4, 4))
+lepton_A11_unordered_tail_pairs=((0, 4), (2, 2), (8, 8))
+physical_lepton_pure_tail_pair=(2, 2); alternating_square=ZERO
+mixed_and_connecting_lepton_entries=UNEVALUATED
+b1208_three_way_fork=UNRESOLVED
+R025 LEPTON TAIL-SELECTION CORRECTION: PASS

@@ -134,8 +134,11 @@ of exact correspondences, not yet a parameter-free Standard Model derivation.
   cubic is not the actual height-308 tensor, and the generation-level lepton
   character assignment is now the highest-leverage discriminator.
 - R024 pays the coarse part of that discriminator: `e^c` and `l` both select
-  character zero on `k=4,8`, and abstract tail pairs exist. It cannot name the
-  frame-level generation representatives, so the three-way B1208 fork and the
+  character zero on `k=4,8`. R025 then corrects its tail interpretation. The
+  quark `A7` rule has B-pair sum 8, whereas the lepton `A11` rule has sum 4;
+  the physical lepton pure-tail square is the repeated one-dimensional `B2`
+  tail and vanishes. The connecting and mixed entries and frame-level
+  representatives remain open, so the three-way B1208 fork and the
   characteristic-zero evaluator remain open.
 - The outside uniqueness test finds six distinct admissible sets from eight
   predicates and leaves five competitors to A5. Its proposed phi-stability
@@ -218,10 +221,11 @@ from its three characters to a record-side q-series with a negative control.
 
 ### Phase D — exhaust the conditional heterotic witness
 
-Freeze every Wilson, bundle, Higgs and carrier matrix before OA-C1117. First
-extract the Z/12 characters of `l` and `e^c` from the height-308 frames and
-execute B1208's preregistered three-way fork; then run the full characteristic-
-zero OA-C1148 evaluator and quotient the Higgs line in OA-C1150. This is the
+Freeze every Wilson, bundle, Higgs and carrier matrix before OA-C1117. R024/R025
+now fix the coarse and raw lepton characters and close the pure-tail square
+negatively. Next execute B1208's preregistered three-way fork on the remaining
+connecting and mixed terms; then run the full characteristic-zero OA-C1148
+evaluator and quotient the Higgs line in OA-C1150. This is the
 highest-leverage finite value-arm computation because it can show the lepton
 cut is identical, independent or absent. This lane can establish or kill one
 explicit charged-spectrum witness. It cannot by itself remove the
@@ -253,6 +257,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 certificates/r023_b1196_generation_obstruction
 PYTHONDONTWRITEBYTECODE=1 python3 certificates/r023_b1197_clock_coherence.py
 PYTHONDONTWRITEBYTECODE=1 python3 certificates/r023_b1199_selection_recheck.py
 PYTHONDONTWRITEBYTECODE=1 python3 certificates/r024_lepton_character_datum.py
+PYTHONDONTWRITEBYTECODE=1 python3 certificates/r025_lepton_tail_selection/lepton_tail_selection.py
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/validate.py
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \

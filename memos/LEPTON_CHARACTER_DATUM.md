@@ -1,5 +1,11 @@
 # R024 — the height-308 lepton character datum
 
+> **R025 scope correction.** The coarse character-zero result below remains
+> correct. The displayed `(0,8),(2,6),(4,4)` tail list uses the residue
+> specification's `A7`-specific quark equation and is not a lepton-tail list.
+> For the raw lepton leg `A11`, the sum is 4; see
+> `LEPTON_TAIL_SELECTION_CORRECTION.md`.
+
 ## Verdict
 
 The committed height-308 character ledger determines the coarse Wilson sectors
