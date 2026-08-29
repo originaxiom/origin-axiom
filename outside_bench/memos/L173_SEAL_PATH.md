@@ -86,3 +86,28 @@ current wording is conceded.
 is made. M2's classical attribution is stated as the standard result it
 is, with the prior-art gate owed at promotion rather than asserted here.
 Gate 5 untouched.
+
+### ⚠ ADDENDUM 1 (2026-08-29) — the gating instrument was built, and BOTH its premises fail (memo 142)
+This memo made B1095's per-gap occupancy detector **gating**. It is built,
+and it overturns two things this memo relied on.
+1. **There is no detector defect to fix.** Across ρ = α the right-hand
+   *word* is identical and the **left-hand word differs at exactly the two
+   cut-adjacent letters {0,1}**. The chain is genuinely discontinuous at
+   α; both detectors reported that correctly, and one that read the same
+   on both sides would be **wrong**. B1095's *"volatile near transitions"*
+   diagnosis is corrected — **the upgrade was aimed at a defect that is
+   not there.**
+2. **The surviving differential's asymmetry is detector-dependent.** This
+   memo's §M3 said the **localization split alone** survives — the hands
+   binding **6 and 5** of 11 shared energies. Under the prescribed
+   two-ended detector the split is **7–7, even**, over **identical energy
+   sets**, each energy bound at **opposite ends** in the two hands. The
+   mechanism is exhibited: B1095's detector reads only the **first 20
+   sites**, so it is blind to far-end states — and **on a reversal pair a
+   one-ended detector manufactures an asymmetry.**
+**L173 remains unsealable, for a better reason.** B1095's *formulation*
+(energies P-invariant, localization P-equivariant) is **confirmed and
+strengthened**; its *number* is not robust. **The gating question is no
+longer "build the detector" but "which detector is correct, and is any
+asymmetry left once both ends are counted?"** This addendum is the only
+mutation.

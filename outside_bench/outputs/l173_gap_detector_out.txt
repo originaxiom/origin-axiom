@@ -1,0 +1,76 @@
+G1 — THE OLD DETECTOR'S VOLATILITY, REPRODUCED (N = 987, 0.5 weight on the first 20 sites):
+    rho = alpha -1.0e-04   ->  (5, 9)
+    rho = alpha -5.0e-05   ->  (5, 9)
+    rho = alpha -2.0e-05   ->  (5, 9)
+    rho = alpha -1.0e-05   ->  (5, 9)
+    rho = alpha -1.0e-06   ->  (5, 9)
+    rho = alpha +0.0e+00   ->  (5, 6)
+    rho = alpha +1.0e-06   ->  (5, 6)
+    rho = alpha +1.0e-05   ->  (5, 6)
+    rho = alpha +2.0e-05   ->  (5, 6)
+    rho = alpha +5.0e-05   ->  (5, 6)
+    rho = alpha +1.0e-04   ->  (5, 6)
+    distinct readings: [(5, 6), (5, 9)]     VOLATILE: True
+    => the flip is a DISCONTINUITY AT ALPHA ITSELF: every sampled rho
+       BELOW alpha reads one value, alpha and above read another.
+
+G2 — THE NEW PER-GAP OCCUPANCY DETECTOR (localization length + gap interior):
+    rho = alpha -1.0e-04   ->  (7, 10)
+    rho = alpha -5.0e-05   ->  (7, 10)
+    rho = alpha -2.0e-05   ->  (7, 10)
+    rho = alpha -1.0e-05   ->  (7, 10)
+    rho = alpha -1.0e-06   ->  (7, 10)
+    rho = alpha +0.0e+00   ->  (7, 7)
+    rho = alpha +1.0e-06   ->  (7, 7)
+    rho = alpha +1.0e-05   ->  (7, 7)
+    rho = alpha +2.0e-05   ->  (7, 7)
+    rho = alpha +5.0e-05   ->  (7, 7)
+    rho = alpha +1.0e-04   ->  (7, 7)
+    distinct readings: [(7, 7), (7, 10)]     VOLATILE: True
+
+G3 — THE VERDICT (preregistered):
+    ==> OUTCOME D-VOLATILE.  The new detector also flips: [(7, 7), (7, 10)].
+        The upgrade FAILS as specified; the localization
+        differential remains unmeasurable and this cell says so
+        rather than re-tuning the criterion after seeing it.
+
+G5 — IS THE FLIP A DETECTOR ARTEFACT, OR IS THE CHAIN ITSELF
+     DISCONTINUOUS AT alpha?  (the question B1095 did not ask)
+    right-hand WORD differs across alpha at 0 sites: []
+    left-hand  WORD differs across alpha at 2 sites: [0, 1]
+    => THE RIGHT WORD IS IDENTICAL; THE LEFT WORD CHANGES AT EXACTLY
+       THE TWO CUT-ADJACENT LETTERS {0, 1}.  So the system IS
+       physically different on the two sides of alpha, and BOTH
+       detectors reported that correctly: each held the right hand
+       fixed and moved the left.  A detector that read the SAME on
+       both sides would be WRONG.
+    ==> B1095's DIAGNOSIS IS CORRECTED: this is not 'a detector
+        volatile near transitions'.  It is a genuine discontinuity of
+        the left chain AT alpha, and no detector upgrade can or
+        should remove it.  The named instrument upgrade was aimed at
+        a defect that is not there.
+
+G6 — WHAT THE TWO DETECTORS ACTUALLY DISAGREE ABOUT (at rho = alpha):
+    the 7 selected energies, RIGHT hand: [np.float64(-1.158405), np.float64(-0.916005), np.float64(-0.503913), np.float64(-0.306406), np.float64(0.470419), np.float64(2.03032), np.float64(2.298699)]
+    the 7 selected energies, LEFT  hand: [np.float64(-1.158405), np.float64(-0.916005), np.float64(-0.503913), np.float64(-0.306406), np.float64(0.470419), np.float64(2.03032), np.float64(2.298699)]
+    IDENTICAL energy sets: True
+    and for EVERY one of them the two hands bind it at OPPOSITE ENDS:
+      E=-1.158405  right com=  981.1   left com=    4.9
+      E=-0.916005  right com=   17.5   left com=  968.5
+      E=-0.503913  right com=    2.9   left com=  983.1
+      E=-0.306406  right com=  983.4   left com=    2.6
+    ==> THE SPLIT IS 7-7, EVEN.  Under the detector B1095 ITSELF
+        PRESCRIBED, the '6 - 5 = 1 parity remainder' DISAPPEARS.
+    THE MECHANISM, exhibited: the old detector sums |psi|^2 over the
+    FIRST 20 SITES ONLY — it examines ONE of the chain's TWO ends and
+    is BLIND to states bound at the far end.  On a reversal pair, a
+    state bound near in one hand is bound FAR in the other — exactly
+    the states it cannot see.  A one-ended detector on a reversal
+    pair MANUFACTURES an asymmetry.
+
+G4 — the criterion's three clauses at rho = alpha (right hand):
+    E1 localized  (PR < N/10)          : 39 states
+    E2 at a boundary (com within PR)   : 19 states
+    E3 in a gap (spacing > 10x median) : 7 states
+    all three                          : 7 states
+    (median level spacing 1.232e-03, N = 987)
