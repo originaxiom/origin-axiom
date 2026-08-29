@@ -1,0 +1,86 @@
+M1 — THE LINEAR-ALGEBRA HALF: is isospectrality itself content?
+    a RANDOM 60-letter word (no Fibonacci structure at all): bbbaaaaaabbbbbbbbbbbabbaabba...
+    J H J == H(reversed word) : True
+    max spectral difference    : 5.773e-15
+    => FOR ANY WORD WHATEVER, reversing it conjugates the Hamiltonian by the
+       exchange matrix J, which is orthogonal — so THE SPECTRA COINCIDE
+       AUTOMATICALLY.  'Exact mirror-isospectrality' carries NO information
+       beyond 'the two half-words are reversals of each other'.
+       B1095's 1.3e-15 agreement is a linear-algebra identity, not a finding.
+
+M2 — THE COMBINATORIAL HALF: is the Fibonacci word a palindrome,
+     and does it depend on the index parity?  (B1095's F16/F18 vs F17/F19)
+        F_k   k  palindrome?    palindrome after dropping last 2
+         55  10        False                                True
+         89  11        False                                True
+        144  12        False                                True
+        233  13        False                                True
+        377  14        False                                True
+        610  15        False                                True
+        987  16        False                                True
+       1597  17        False                                True
+       2584  18        False                                True
+       4181  19        False                                True
+     => the raw Fibonacci word is NOT a palindrome, but the word with its
+        LAST TWO LETTERS REMOVED IS — for every Fibonacci length.
+        holds at every Fibonacci length tested: True
+     THIS IS THE CLASSICAL FACT.  That every Fibonacci prefix of length F_k
+     becomes a palindrome after deleting its last two letters is a standard
+     theorem of Sturmian/Fibonacci word combinatorics (Droubay 1995 and the
+     surrounding literature on palindromic prefixes) — it is NOT a property
+     the object supplies.  It is a property the FIBONACCI WORD supplies, and
+     any Fibonacci chain in any laboratory has it.
+
+M3 — WHAT THE DIFFERENTIAL REDUCES TO, and what (if anything) survives:
+  B1095's cross-hand structure has three named parts.  Taking them in turn:
+   (1) "exact mirror-isospectrality at reversal-closed windows" —
+       REDUCES to M1.  Given the halves are reversals, isospectrality is
+       an identity for ANY word.  No content.
+   (2) "its Fibonacci-parity breaking" — REDUCES to M2, at the strength
+       the computation actually supports and no further.  M2 establishes
+       that EVERY Fibonacci prefix of length F_k is a palindrome after
+       deleting its last TWO letters — and "the last two letters" is
+       exactly the defect B1095 reports ("the reversal identity fails at
+       exactly the TWO cut-adjacent letters").  So the parity behaviour
+       is almost certainly the classical two-letter palindromic-prefix
+       defect seen through their cut.  STATED HONESTLY: this cell did NOT
+       rebuild B1095's rho = alpha cut construction, so part (2) is a
+       STRONGLY-SUPPORTED REDUCTION RISK, not a proof.  Clearing it needs
+       either that rebuild or the prior-art gate.  Either way it must not
+       be carried into a seal as distinctive content unexamined.
+   (3) "the complementary split of one shared odd family" (right hand
+       binds 5, left binds 6, of 11 shared boundary-capable energies) —
+       DOES NOT reduce by either argument above.  Isospectrality forces
+       the energies to be shared; it does NOT force HOW the two hands
+       distribute localization across them.  B1095's own formulation is
+       the precise one: "the energies are P-invariant (FORCED); the
+       localization is P-equivariant (FREE)."
+  ==> OUTCOME D-B on part (1) PROVED and on part (2) AT RISK;
+      D-A on part (3), which survives both arguments.
+
+M4 — THE SEAL-PATH CONSEQUENCE (what this cell asks for, and it is cheap):
+  L173 MUST NOT SEAL ON THE DIFFERENTIAL AS CURRENTLY WORDED.  One of its
+  three named parts is standard content by a proof given here, and a
+  second is at serious risk of being so — and stating them as the object's
+  distinctive prediction would repeat the exact B724 failure the
+  differential-first discipline exists to prevent, one level deeper.
+  THE RESTATEMENT THAT WOULD SURVIVE: the differential is the
+  LOCALIZATION SPLIT ALONE — that of the 11 shared boundary-capable
+  energies the two hands bind 6 and 5, complementarily.  Everything
+  else in the current wording is conceded.
+  STILL OWED BEFORE A SEAL, and both were already named by B1095 itself:
+   * the PER-GAP OCCUPANCY DETECTOR (gap-interior energy + localization
+     length).  B1095 flagged the current 0.5-boundary-weight detector as
+     VOLATILE — a grid point 2e-5 from alpha reads (5,9) where alpha
+     reads (5,6).  A differential that lives entirely in localization
+     CANNOT be measured by a detector that flips on localization
+     thresholds.  This upgrade is now GATING, not optional.
+   * the PRIOR-ART GATE on the surviving part: is a hand-dependent
+     complementary localization split of a shared boundary family already
+     standard in the Fibonacci-chain literature?  This bench cannot
+     settle a literature question offline and does not pretend to; it is
+     named as owed, and it is the one remaining distinctiveness risk.
+  FENCE: no laboratory datum is touched and no experimental comparison is
+  made.  M2's classical attribution is stated as the standard result it
+  is, with the prior-art gate owed at promotion rather than asserted
+  here.  Gate 5 untouched.
