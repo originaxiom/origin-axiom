@@ -27,10 +27,22 @@ exists to close the corner, not to expect a hit.
    **unmodified** basis. Per seal §5, **if this does not recover B1137's
    headline (0 of 18 targets involve a regulator), no extended result may
    be reported at all.**
-2. **PREREGISTERED HYGIENE PRE-STEP** (seal §4) — PSLQ at dps 220, H = 10⁶,
-   asking whether `vol`, `vol_pinorm`, `vol_over_zetaK2` are linearly
-   dependent on the existing basis. **A dependent entry is dropped, not
-   kept.** Target-free: no SM value is loaded in that check.
+2. ✅ **HYGIENE PRE-STEP — RETURNED (seal §4 satisfied).** PSLQ at
+   **dps 220, H = 10⁶** against B1137's **25-element pruned basis**:
 
-**Nothing is claimed until both return.** The two-outcome and the
+   | direction | verdict |
+   |---|---|
+   | `vol` | **INDEPENDENT — keep** |
+   | `vol_pinorm` | **INDEPENDENT — keep** |
+   | `vol_over_zetaK2` | **INDEPENDENT — keep** |
+
+   **0 dropped.** So the cell is **not** worthless on seal §4's first
+   ground: the volume is a genuinely **new direction**, not a redundancy
+   of the existing regulators. *(For contrast, B1137's own hygiene check
+   found and dropped six exact linear redundancies among its raw and
+   π-normalized entries — so this instrument does find dependence when it
+   is there.)* **Target-free: no SM value was loaded.**
+
+**CONTROL STILL RUNNING** (216 cells, ~20 min). **Nothing about targets
+is claimed until it returns.** The two-outcome and the
 four-gate hit discipline are fixed in the seal and are not editable.

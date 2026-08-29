@@ -1,0 +1,11 @@
+B1137 pruned basis size: 25   working dps=220  H=1000000
+Vol(m004) = 2.029883212819307250042405108549   (computed from Li_2, not quoted)
+
+  vol                INDEPENDENT of the existing basis  -> KEEP
+  vol_pinorm         INDEPENDENT of the existing basis  -> KEEP
+  vol_over_zetaK2    INDEPENDENT of the existing basis  -> KEEP
+
+KEPT 3: ['vol', 'vol_pinorm', 'vol_over_zetaK2']
+DROPPED 0: []
+
+Gate 5: no SM target was loaded in this check.
