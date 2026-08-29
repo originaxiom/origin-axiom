@@ -600,3 +600,19 @@ next cell.
 bench's own memo 143 headline has no committed certificate**. Upheld — bench error #15, the same
 class twice flagged before, recurring on the next cell after the fix. The probe is written, banked
 and running; memo 143 stands or is corrected on its result, which is not assumed.
+
+
+---
+
+## ADDENDUM 48 (2026-08-29) — ROW R50: THE CHAIN QUESTION, ASKED OF THE PAPER CHAIN
+
+**The owner's words:** *"what is the conclusion of last chains of runs? what did we probe, what did
+we got, whar does itnsay about sm and physics"* — asked again, now of memos 148/149, and
+**"related to the work here in the context of ultimate goal."**
+
+| row | question | answer | where |
+|---|---|---|---|
+| **R50** | Conclusion of the paper chain, against the ultimate goal. | **We probed the account, not the object — and no physics moved.** The mathematics survives every check; six defects share one shape, *the text does not describe the computation*; and **all six err in the paper's favour, none against it**, which is a measurable signature rather than an accusation. On the SM: nothing new, and the forcing that reads as the paper's physics result is arena-generic anomaly arithmetic whose 88%-killer condition is never displayed. Against the ultimate goal the gap is unchanged and it is the freedom ledger plus the total absence of dynamics. **But the audit surfaced the one thing that touches the endgame: `B990`'s wall is not a wall — Route A is live, its obstructions proved absent, its coarse half closed positive — and it is the only visible route to *reducing* a ledger row rather than proving it irreducible. The paper declares it permanent.** | `THE_PAPER_CHAIN.md` |
+
+**The sentence the row exists for:** the most valuable thing found by auditing the paper was not a
+defect in the paper — it was **a route in the corpus the paper had lost**.
