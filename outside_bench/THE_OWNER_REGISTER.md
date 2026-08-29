@@ -582,3 +582,21 @@ document this bench has already opened.
 **And the error the row must carry.** Bench error #14: the first version of cell H2 charged the
 paper with a mislabelling that exact enumeration refuted, and the mistake was to conflate two
 results the paper also conflates. Filed in the memo at the point of occurrence.
+
+
+---
+
+## ADDENDUM 47 (2026-08-29) — ROW R49: "yes i want it"
+
+**The owner's words**, answering memo 148's closing offer — that §§5–6 carry no arc references, so
+the hostile read could not test the draft against its own corpus, and that this was the natural
+next cell.
+
+| row | question | answer | where |
+|---|---|---|---|
+| **R49** | Trace the written draft against its own arcs. | **One load-bearing drift, one upgrade to memo 148's H3, three of the spec's own headline results dropped, zero arc citations — and the rest traces accurately.** The drift: the paper leans three times on `B990`'s true lemma to declare the finite menus *terminal* and *permanent*, while `B990` is titled **"SHARPENED, NOT CLOSED"**, names two routes out, and two later arcs (`B1093`, `B1099`) have already advanced one of them — one stratum **closed positive**, every obstruction **proved absent**. The draft declares permanent a row the programme is successfully reducing. And `B1002` shows the corpus had already registered the *conductor* collision memo 148 rediscovered, with a standing rule the paper breaks. | memo 149 |
+
+**Also owed to the register:** this cell's trace of §5 surfaced another seat's charge that **this
+bench's own memo 143 headline has no committed certificate**. Upheld — bench error #15, the same
+class twice flagged before, recurring on the next cell after the fix. The probe is written, banked
+and running; memo 143 stands or is corrected on its result, which is not assumed.
