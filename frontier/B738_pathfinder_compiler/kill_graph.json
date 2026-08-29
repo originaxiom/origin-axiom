@@ -10711,5 +10711,19 @@
   "priority": "P1",
   "revival_score": 3,
   "depth_note": "Routed at R52-4 (B1207); the hatch is the program's live specification for the P^3 row."
+ },
+ {
+  "id": "B1209",
+  "claim_killed": "B1198's identification of Lee's tangential base point as 'the outside instance of the missing archimedean marking' -- i.e. the hope that the freedom in choosing a tangential base point at an ideal point is the programme's orientation bit. The admissible set is a torsor under Z/|a_1| (Lee's own count), and for m004 |a_1| = 1 at ALL FOUR ideal points, so the group is TRIVIAL: not Z/2, not V_4, no contact with B1174/B1182/B1183. Also killed in the same cell: the hope that Lee's 4_1 confirmation leans on the CS = 0 degeneracy (it runs on Hikami's Neumann-Zagier potential and dilogarithm identities instead).",
+  "kill_form": "trivial-torsor (the freedom exists in general at size |a_1| and is exactly ZERO for this manifold; the group is named, not merely absent)",
+  "fact_computed": true,
+  "faces_consulted": [
+   "being"
+  ],
+  "hatch": "The count |a_1| is the order of vanishing of the meridian at the ideal point, i.e. the L-width of the A-polynomial's Newton polygon edge. ANY manifold whose A-polynomial is not thin in L has |a_1| > 1 and a genuinely nontrivial torsor there -- so the route revives for a DIFFERENT manifold, never for m004. If the seam is ever re-posed on a sibling in the 112-family, compute that polygon first: it is a two-line check.",
+  "note": "The positive half of Lee is untouched and is the valuable half: a mixed Tate motive over the invariant trace field -- Q(sqrt-3) for m004 -- whose Beilinson regulator is the complex volume, with 4_1 a verified appendix case. This kill removes a hoped-for bridge, not the source. It also confirms B1201's withdrawal of B1198's claim, now double-sourced.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Routed at banking, same commit as the arc -- the discipline B1207 found lapsing."
  }
 ]

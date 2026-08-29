@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**771 recorded closures — of which 604 are CLASSIFIED by mechanism and
+**772 recorded closures — of which 605 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -58,6 +58,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `density-before-statistics (cc3's instrument -- only density can falsify): the 108 zeros to t=130 are 697x too sparse to be the Laplace/geodesic spectrum (Weyl N(130)=75316). They are the cusp/scattering zeros of the complete Dedekind zeta Lambda_K = zeta*L(chi_-3) of Q(sqrt-3) (exact count 43+65=108) -- what the object's scattering determinant phi(s)=Lambda_K(s-1)/Lambda_K(s) (B739) is built from. GUE-distributed but GENERIC (Montgomery pair-correlation / Katz-Sarnak -- certifies a universality class, discriminates nothing object-specific). NO SM value. The graviton (geodesic Ruelle) and Lane C (cusp L(chi_-3)) meet NOWHERE in the spectrum: the Ruelle Euler product is purely geodesic, L(chi_-3) enters only via the cusped functional equation (cc3 B8130) -- the graviton bridge is dead` | 1 |  |
 | `symmetry-cannot-select (both candidates are satisfied by, or conserved along, the admissible class -- a cut of exactly zero and an identically conserved invariant)` | 1 |  |
 | `dimension-count (one cubic cuts one of three dimensions; the missing ingredient is the LINEAR cuts, whose absence is separately PROVED by GC-25's every-banked-symmetry-is-trivial-on-B_0)` | 1 |  |
+| `trivial-torsor (the freedom exists in general at size |a_1| and is exactly ZERO for this manifold; the group is named, not merely absent)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

@@ -85,6 +85,14 @@ read in two directions). **The one open datum is relayed to codex**: the ℤ/12 
 `eᶜ`, whose branch (b) would flip the ℙ³ row PERMANENT → FORCED. codex R020 is received-not-verified
 (it touches banked B1140) and named as the next cell.
 
+**R52-3 DISCHARGED (B1209, 2026-08-29)**: the Lee paper read on-bench; all three questions
+answered. The admissible tangent-vector set is a torsor under **ℤ/|a₁|**, trivial for m004 (|a₁| = 1
+at all four ideal points, re-derived here from B67's own A-polynomial) — **no contact with the
+orientation bit**, B1198's identification killed and B1201 confirmed from the source. The appendix
+does not use CS = 0. The motive lives over the invariant trace field, **= ℚ(√−3) for m004**. **The
+W₀ bar stands unchanged**; the positive half (a motive over our field whose regulator is our complex
+volume) is the valuable half.
+
 **THE PAPER (P3) — SPEC LANDED (owner-approved 2026-08-29)**: `papers/P3_THE_PAPER/SPEC.md`. The
 standing rule is amended by the owner's approval: **P3 is drafted in parallel with the remaining
 computations**, not after them, because the thesis does not depend on what is still open — the one

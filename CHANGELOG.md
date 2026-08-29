@@ -1,5 +1,43 @@
 # Changelog
 
+## B1209 (2026-08-29): THE LEE VERIFICATION — three questions answered from the source, and the hoped-for bridge to the observer's bit is CLOSED
+
+**R52-3 discharged**, and the **E37 CITED/UNVERIFIED** grade B1198 carried is paid: the paper was
+**obtained and read on this bench** (78pp), not cited from an abstract.
+
+**Q1 — the admissible tangent-vector set IS a torsor, under ℤ/|a₁|, and for our object that group is
+TRIVIAL.** Lee states the count directly — *"in general, there are several (i.e. as many as |a₁|)
+choices for a tangent vector ∂/∂z"* — and his Appendix A computes **a₁ = +1, −1, +1, −1** at the four
+ideal points of 4₁, all four satisfying his Conjecture 7.4.2. **Not taken on trust**: a₁ and b₁ are
+the orders of vanishing of the meridian and longitude, so **(a₁, b₁) is a primitive edge vector of
+the Newton polygon of the A-polynomial** — main's own **B67**. Computing that polygon gives edges
+(4,−1), (4,1), (−4,1), (−4,−1), hence (a₁,b₁) = (−1,4), (1,4), (1,−4), (−1,−4): **every edge is
+L-thin, so |a₁| = 1 at every ideal point**, with boundary slopes ±4 matching the figure-eight's known
+values. The structural reason is now ours: *the A-polynomial's Newton polygon is thin in L.*
+
+**The consequence is a clean negative.** The torsor group is trivial — **not ℤ/2, not V₄** — so there
+is **no contact** between Lee's choice-of-base-point and the programme's orientation bit
+(B1174/B1182/B1183). B1198's identification of it as *"the outside instance of the missing
+archimedean marking"* **fails, with a stated mechanism rather than as an absence**, and **B1201's
+withdrawal is confirmed from the source** — now double-sourced. Routed to the kill graph in this same
+commit, with a hatch that names the two-line reopening check (any manifold whose A-polynomial is not
+L-thin has a genuinely nontrivial torsor there).
+
+**Q2 — the 4₁ confirmation does NOT use the CS = 0 degeneracy.** Appendix A runs on Hikami's
+Neumann–Zagier potential on the deformation curve, evaluated by dilogarithm identities, with limits
+**±4ζ(2) = ±2π²/3**. B1195/GC-21's degeneracy plays no role, so that contact point closes too. The one
+genuine adjacency: Hikami's curve is obtained by **the saddle point method**.
+
+**Q3 — the trace field specializes exactly, with no special-casing.** Theorem 2 places the motive in
+`Ext¹_{MT(k(M))}(ℚ(0), ℚ(2))` over the **invariant trace field k(M)** — and for m004 that field **is
+ℚ(√−3)**. The construction lands over the programme's own field by its general statement.
+
+**What remains**: the **positive half stands and is the valuable half** — an outside, published mixed
+Tate motive over ℚ(√−3) whose Beilinson regulator is our complex volume, with 4₁ a verified appendix
+case. And **the W₀ bar stands unchanged**: Lee does not supply SEAM-A's missing archimedean marking,
+because for our manifold there is nothing free there at all. A narrower and more useful state than
+"the reading list is in hand." Locks test_b1209 (5).
+
 ## B1208 (2026-08-29): THE CROSS-SEAT HARVEST — seven results verified, three of them changed
 
 Seven results arrived from three seats while this bench was on instrument work. All seven verified

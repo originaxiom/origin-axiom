@@ -1,0 +1,25 @@
+A-polynomial monomials (deg_M, deg_L): [(0, 1), (2, 1), (4, 0), (4, 1), (4, 2), (6, 1), (8, 1)]
+Newton polygon vertices: [(0, 1), (4, 0), (8, 1), (4, 2)]
+
+EDGES -- each corresponds to an ideal point; (a_1, b_1) is its primitive vector:
+    edge (0, 1)->(4, 0)  primitive (4,-1)  =>  (a_1, b_1) = (-1, 4)   boundary slope b_1/a_1 = -4
+    edge (4, 0)->(8, 1)  primitive (4,1)  =>  (a_1, b_1) = (1, 4)   boundary slope b_1/a_1 = 4
+    edge (8, 1)->(4, 2)  primitive (-4,1)  =>  (a_1, b_1) = (1, -4)   boundary slope b_1/a_1 = -4
+    edge (4, 2)->(0, 1)  primitive (-4,-1)  =>  (a_1, b_1) = (-1, -4)   boundary slope b_1/a_1 = 4
+
+|a_1| over the four ideal points: [1, 1, 1, 1]
+=> |a_1| = 1 AT EVERY IDEAL POINT, derived from our own A-polynomial.
+   Lee's Appendix A reports a_1 = +1, -1, +1, -1: AGREES, and B1201's independent
+   bench computation is confirmed from the source's own structure.
+
+CROSS-CHECK -- the boundary slopes:
+    computed: ['-4', '4']
+    the figure-eight's known boundary slopes are 0 and +-4 -- the non-zero ones MATCH,
+    and Lee's four (a_1,b_1) = (1,-4), (-1,-4), (1,4), (-1,4) reproduce exactly these.
+
+CONSEQUENCE
+  The set of admissible tangential base points at an ideal point is a TORSOR under Z/|a_1|
+  (rescaling the uniformizer by an |a_1|-th root of unity). For m004 that group is TRIVIAL at
+  all four ideal points. It is therefore NOT Z/2 and NOT V_4: there is NO contact between Lee's
+  choice-of-base-point and the programme's orientation bit (B1174/B1182/B1183).
+VERIFIED

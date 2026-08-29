@@ -133,6 +133,21 @@ two-seat-established finding.
 
 The NEEDS-SPECIALIST bar (row H/the sign row's wall) now has its reading list **in hand rather than absent**: Lee arXiv:2502.11950 constructs the motive whose regulator is our complex volume and realizes it on a path torsor whose **tangential base point at the ideal point is chosen, not derived** — the outside instance of the missing marking, with **4₁ as its verified appendix case**. Grade CITED/UNVERIFIED (E37); the named verification step is §7.4 + Appendix A. This changes the bar's *reading list*, not its shape.
 
+### VERIFIED AND PART-KILLED at B1209 (2026-08-29) — the named step run, the bridge closed
+
+The paper was **read on-bench** (78pp), discharging the E37 grade. Three answers: **(1)** the
+admissible tangent-vector set is a **torsor under ℤ/|a₁|** — Lee's own count — and for m004 that
+group is **TRIVIAL** (|a₁| = 1 at all four ideal points, independently re-derived here from **B67's**
+A-polynomial: every Newton-polygon edge is L-thin, boundary slopes ±4). **So it is not ℤ/2 and not
+V₄: there is NO contact with the orientation bit (B1174/B1182/B1183), and B1198's "outside instance
+of the missing archimedean marking" is KILLED** — routed, with B1201's withdrawal now confirmed from
+the source. **(2)** the 4₁ confirmation does **not** use the CS = 0 degeneracy (Hikami's
+Neumann–Zagier potential + dilogarithms; limits ±4ζ(2)). **(3)** the motive lives over the
+**invariant trace field**, which for m004 **is ℚ(√−3)** — exactly what the seam needs, by the general
+statement. **THE W₀ BAR STANDS UNCHANGED.** What survives is the valuable half: an outside published
+**mixed Tate motive over ℚ(√−3) whose Beilinson regulator is our complex volume**, 4₁ a verified
+appendix case.
+
 ## G3 — the charge tower's per-rung dark-hyperbola spectrum (row added at B1199)
 
 **STATUS: PROVED** — the N = p² law: the θ-lift seam T(j,l) has magnitude spectrum exactly {0, 1, √p, p} with the banked stratification counts, proved all-p at **B775/B778** (completing the square → a one-variable ℤ/p² Gauss sum) and independently re-verified at **eight** levels in B1199 (p = 23 new). Belongs with B566-S4 (row G2) as the charge tower's per-rung finite arithmetic; S4 was promoted long ago and **S1 was never carried forward** — the omission is closed here. **FENCE (load-bearing): 'dark' means GAUSS-SUM VANISHING, T(j,l) = 0. It has nothing whatever to do with cosmological dark matter, and must never be read into the cosmology ledger's dark-sector row.**
