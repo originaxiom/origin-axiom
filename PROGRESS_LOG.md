@@ -12631,3 +12631,51 @@ paper written by a hostile-audit seat than by us. Their ledger types **185 quest
 REFUTED, 15 CONDITIONAL, 22 EXTERNAL_BLOCKER, 2 EMPIRICAL, 21 OPEN.** Carried, not actioned: cc3's
 paper-branch verifier still running a withdrawn 14-member census, and cloud's floating-ref scripts.
 Locks test_b1215 (5).
+## B1216 (2026-08-29): THE PARAMETER-CLOSURE LOOP, RUN 1 — zero rows deleted, one gate written, one regression, one refutation
+
+The owner-directed masterplan, run as a 9-agent loop (~686k subagent tokens, 20 min). **The
+pre-registration was wrong, and instructively**: this bench predicted C3 and C1 could close while C2
+and C4 could only sharpen. In fact **C1 closed *negatively* and enlarged its own row, C3 did not
+close, C2 failed adversarial review, and C4 delivered exactly as predicted** — so the cell predicted
+least likely to move is the only one that did.
+
+**THE FINDING THAT MATTERS MOST IS A VACUITY IN OUR OWN RECORD.** The C1 verifier asked that a clause
+be *struck* for want of a computation; the adjudicator **ran the computation instead**, and the
+outcome was worse than striking. **B1192/GC-16's supporting clause** — *"X₀ acts as the Galois
+generator on BOTH spectral fields, so the class restricts to c"* — **is MB12-vacuous**. For hyperbolic
+P ∈ SL₂(ℤ) the eigenvalues are {λ, 1/λ} and the Galois conjugate of λ over ℚ(tr P) **is** 1/λ, so any
+X with XPX⁻¹ = P⁻¹ carries P's λ-eigenline to its own 1/λ-eigenline — **every anti-conjugator swaps
+them, by construction**, exhibited here for a **det X = +1** case, the mirror-**even** type the record
+calls dead. **The det = −1 sign result is untouched** and still discriminates. **Second MB12-vacuity
+in a fortnight, both in supporting clauses rather than headlines** — the headlines are getting
+checked; the sentences propping them up are not.
+
+**C1 refutes the masterplan's own closure route for the c-bit.** The √3-partner is not canonical at
+**two** levels: norm-+1 holds for **30 of 37** fields scanned (81% — generic, not fine-tuned), and —
+previously unflagged — even at the *same* field, conjugating the partner within its GL₂(ℤ)-class
+gives **22/60 DIRECT(det = −1) versus 38 TORSOR**. The killer: DIRECT(−1) is exhibited for **disc 13,
+a genuine norm-(−1) field**, so **norm +1 is not necessary**. The control holds the line: a
+204-embedding √2 scan yields **never** DIRECT(−1), so the sign is field-specific but **does not track
+the unit-norm dichotomy GC-2/GC-16 proposed**.
+
+**C3 did not close the ℙ³ — it reduced it to one binary lookup with both branches proved**: do the
+SU(5) components feeding the down and lepton legs carry the **same** ℤ/12 characters? SAME ⇒
+`det Y_e ≡ det Y_d` identically ⇒ **dim 1 with certainty**; DIFFERENT ⇒ an independent cubic ⇒
+**dim 0**. **And it corrected B1215**: the A₁₁ enumeration missed **(8,8)**, also ≡ 4 mod 12 and also
+a repeated direction — corrected count **2 surviving (down) vs 1 (lepton)**; the conclusion stands,
+the enumeration did not.
+
+**C2 was refuted by its own verifier, correctly.** It claimed a theorem-shaped exhaustion while its
+sources say otherwise verbatim — B850: *"CONDITIONAL on the cited reduction"*; B721: *"a genuine
+bridge **in the literature**"*. **What survives**: ℚ(√−3) has unit rank 0, so its regulator is
+identically 1 — dead by textbook fact. **λ is now worse-documented than before the run.**
+
+**C4 is the only forward motion**: σ moves to *"one bridge missing, fully specified, with a runnable
+pass/fail test and a documented empty candidate set"* — the object named (χ_∂ at **c = 6**) under a
+six-clause gate including the **Cardy 6-vs-1** quantifier, with B672 re-derived from scratch
+confirming K3's failure is genuine and its pass-branch non-empty.
+
+**GOAL TEST: NO.** σ passes the second disjunct; **λ blocks** (no gate exists at all) and **the ℙ³
+blocks** (one lookup away is not closed). **And the caveat recorded in advance**: *dim 0 is a finite
+point set* — if the ℙ³ closes, the row becomes a **finite label**, joining B990's closed category.
+**It does not become a unique prediction.** Locks test_b1216 (5).

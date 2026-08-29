@@ -1,0 +1,24 @@
+=== CORRECTION 1: B1215's tail-pair enumeration was INCOMPLETE ===
+  A_7  (down): need  8 -> pairs [(0, 8), (2, 6), (4, 4)]
+           die by skewness (repeated direction): [(4, 4)]   SURVIVING: 2
+  A_11 (lepton): need  4 -> pairs [(0, 4), (2, 2), (8, 8)]
+           die by skewness (repeated direction): [(2, 2), (8, 8)]   SURVIVING: 1
+  => B1215 reported the A_11 pairs as {(0,4), (2,2)} and MISSED (8,8), which also
+     satisfies 16 = 4 mod 12. (8,8) is likewise a repeated direction, so it also dies.
+  => THE COUNT IS 2 SURVIVING (down) vs 1 SURVIVING (lepton). B1215's CONCLUSION IS
+     UNCHANGED -- the lepton leg has strictly fewer -- but its enumeration was wrong.
+
+=== CORRECTION 2: GC-16's eigenline clause is MB12-VACUOUS ===
+  THE CLAUSE (B1192/GC-16, a supporting leg): 'X0 acts as the Galois generator on BOTH
+  spectral fields -- the class restricts to c.'
+  THE ONE-LINE THEOREM that empties it: for hyperbolic P in SL2(Z), det P = 1, so the
+  eigenvalues are {lam, 1/lam} and the Galois conjugate of lam over Q(tr P) IS 1/lam.
+  Any X with X P X^-1 = P^-1 carries P's lam-eigenline to P^-1's lam-eigenline, which is
+  P's OWN 1/lam-eigenline. So EVERY anti-conjugator swaps the eigenlines, by construction.
+    the golden A, det X = -1 (the LIVE case)                 swaps eigenlines: True
+    a det X = +1 anti-conjugator (the DEAD, mirror-EVEN type) swaps eigenlines: True
+  => IT HOLDS FOR THE det +1 CASE TOO -- the mirror-EVEN type the record calls dead.
+  => THE CLAUSE HAS NO FAILING BRANCH. It cannot discriminate, so it supports nothing.
+     The det = -1 SIGN result is untouched: that one does discriminate.
+
+VERIFIED

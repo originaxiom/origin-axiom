@@ -4072,8 +4072,8 @@
     "H1",
     "L154"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -4558,6 +4558,33 @@
    "obstacle_conf": 3,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B1216": {
+   "slug": "parameter closure run1",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B672",
+    "B721",
+    "B850",
+    "B990",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "topology"
   },
   "B121": {
    "slug": "monodromy grading",

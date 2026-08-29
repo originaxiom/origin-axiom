@@ -95,3 +95,19 @@ running its withdrawn 14-member census*, and outside scripts depending on floati
 self-scanning growing files. **The first is cc3's to fix and is relayed; the second is cloud's.**
 Their roadmap's top item — the characteristic-zero height-308 evaluator in five steps — matches the
 ask this bench relayed, and is theirs to run.
+
+---
+
+## ADDENDUM 1 (2026-08-29, B1216) — THE ENUMERATION WAS INCOMPLETE; THE CONCLUSION STANDS
+
+Leg 3 reported the A₁₁ pure-tail pairs as **{(0,4), (2,2)}**. That list is **missing (8,8)**, which
+also satisfies 8 + 8 = 16 ≡ 4 (mod 12) on the same alphabet. Found by the parameter-closure loop's
+adjudication bench and re-derived here.
+
+(8,8) is **likewise a repeated direction**, so it dies by the same skewness that kills (2,2) and, in
+the down case, (4,4). **The corrected count is 2 surviving pairs (down) versus 1 (lepton)** — so the
+leg's conclusion, *the lepton leg has strictly fewer surviving pure-tail pairs*, is **unchanged**.
+
+What is corrected is the enumeration, not the finding. Recorded because an incomplete list that
+happens to reach the right answer is exactly the kind of thing that is quoted later for a different
+purpose, where it would not.

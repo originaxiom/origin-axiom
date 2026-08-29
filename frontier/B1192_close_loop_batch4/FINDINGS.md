@@ -47,3 +47,28 @@ The GC-16 scope is the lens-corrected one (exhibited pairs, not a general mechan
 cell's charter), with the Galois action itself computed. GC-17/18/19's full texts are archived
 verbatim; their ledger rows carry the archived grades. Scratchpad paths sanitized; no measured
 value.
+
+---
+
+## ADDENDUM 1 (2026-08-29, B1216) — ONE SUPPORTING LEG IS MB12-VACUOUS; THE SIGN RESULT STANDS
+
+GC-16 supports the relational-bit result with three legs. **One of them cannot fail, and therefore
+supports nothing.**
+
+**The clause**: *"X₀ acts as the Galois generator on BOTH spectral fields — the class restricts to
+c."* **The one-line theorem that empties it**: for hyperbolic P ∈ SL₂(ℤ), det P = 1, so the
+eigenvalues are {λ, 1/λ} and **the Galois conjugate of λ over ℚ(tr P) is exactly 1/λ**. Any X with
+`XPX⁻¹ = P⁻¹` therefore carries P's λ-eigenline to P⁻¹'s λ-eigenline — which *is* P's own
+1/λ-eigenline. **Every anti-conjugator swaps them, by construction.** Exhibited on-bench for a
+**det X = +1** anti-conjugator: the mirror-**even** type this record already calls dead.
+
+**WHAT IS UNTOUCHED — and it is the headline**: the **det = −1 sign result**. That one discriminates,
+and B1216's own 204-embedding √2 control confirms it: the norm-(−1) control yields DIRECT(+1) or
+TORSOR and **never** DIRECT(−1). ε = −1 remains a real, mirror-odd, dimensionless class of the pair.
+
+**What must change downstream**: the eigenline clause may no longer be cited as evidence that the
+class restricts to c. It is **true and non-discriminating**. Separately, B1216 shows the *partner
+itself* is not canonical at either the field or the embedding level — see that arc.
+
+*This is the second MB12-vacuity found in a fortnight, both in supporting clauses rather than
+headlines.*
