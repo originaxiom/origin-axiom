@@ -152,6 +152,12 @@ of exact correspondences, not yet a parameter-free Standard Model derivation.
   `H^4(K_Z)` trace functional. The characteristic-zero refinement collapse,
   the hypersurface connecting representative `delta(ctilde)/f` for each of
   the 18 entries, and the Serre-tail realization remain separate debts.
+- R028 pins every toric chart convention needed to feed that trace: the exact
+  ray/monomial actions, deterministic chart orbits, common Laurent frames and
+  the 18-positive/18-negative orientation census. It proves
+  `raw=q_(D,sigma)*t^u` for all relevant monomials. Exact `Q(zeta12)`
+  `Phi_308` and Bezout coefficients remain the next payload rather than being
+  reconstructed from the good-prime unit-ideal test.
 - The outside uniqueness test finds six distinct admissible sets from eight
   predicates and leaves five competitors to A5. Its proposed phi-stability
   repair is unforced and fails on A5. The Selector and observer-sufficiency
@@ -236,8 +242,10 @@ from its three characters to a record-side q-series with a negative control.
 Freeze every Wilson, bundle, Higgs and carrier matrix before OA-C1117. R024/R025
 now fix the coarse and raw lepton characters and close the pure-tail square
 negatively. R026 fixes the determinant frame and R027 fixes the normalized
-ambient top trace. Next construct the characteristic-zero refinement collapse
-and `H^3(O_Y) -> H^4(K_Z)` connecting representative for the 18 entries, then
+ambient top trace. R028 fixes all chart and line-bundle frame transport. Next
+serialize the exact `Q(zeta12)` `Phi_308` payload, construct its
+characteristic-zero Bezout refinement collapse and the
+`H^3(O_Y) -> H^4(K_Z)` connecting representative for the 18 entries, then
 the Serre-tail lift, execute B1208's preregistered fork, and quotient the Higgs
 line in OA-C1150. This is the
 highest-leverage finite value-arm computation because it can show the lepton

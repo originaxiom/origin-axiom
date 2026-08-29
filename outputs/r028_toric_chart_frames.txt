@@ -1,0 +1,11 @@
+DATA exact monomial action A_M = ((0, 0, 1, -1), (0, 0, 1, 0), (1, 0, 0, 0), (0, 1, 0, 0))
+RESULT exact ray permutation = (6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 0)
+RESULT induced chart action is (i,j) -> (j+1 mod 6,i), of order 12
+DATA chart-0 orbit = (0, 6, 7, 13, 14, 20, 21, 27, 28, 34, 35, 5)
+RESULT deterministic chart-orbit representatives = (0, 1, 2)
+DATA representative y-to-t exponent rows = (((0, 0, 0, 1), (0, 0, 1, 0), (0, 1, 0, 0), (1, 0, 0, 0)), ((0, 0, -1, 0), (0, 0, 1, 1), (0, 1, 0, 0), (1, 0, 0, 0)), ((0, 0, -1, -1), (0, 0, 0, 1), (0, 1, 0, 0), (1, 0, 0, 0)))
+RESULT ordered-ray orientation counts = {-1: 18, 1: 18}
+RESULT all 49 anticanonical and 12x35 component monomials satisfy raw = q_D * t^u on every chart
+RESULT Cartier/rational frames are ell_(D,sigma)=q_(D,sigma)^(-1); raw chart coefficients require division by q_D in common Laurent coordinates
+RESULT planted wrong ray ordering, all-positive orientation and omitted-q_D conventions are rejected
+SCOPE Phi_308 coefficients and characteristic-zero Bezout multipliers are not serialized or evaluated here
