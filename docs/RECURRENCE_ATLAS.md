@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-08-29 from 1113 frontier probes.
+> Last generated: 2026-08-29 from 1114 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1113 frontier probes; status {'open': 64, 'banked': 738, 'dead': 289, 'dormant': 22}
+  corpus: 1114 frontier probes; status {'open': 64, 'banked': 738, 'dead': 290, 'dormant': 22}
   the ONE conserved first integral: kappa (recurs 252x, 22%) -- genuine unity, MUST recur
   top recurring motifs: golden(625), firewall(611), eisenstein(605), figure_eight(463), metallic(423), trace_map(408)
   recurrence is: structural-invariant 3661 mentions | conserved-integral 252 | TOOL 408
@@ -30,7 +30,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | firewall | 611 | 54% | structure | structural | meta | the firewall / structural theorem / form-not-values |
 | eisenstein | 605 | 54% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
 | figure_eight | 463 | 41% | object | no | topology | the simplest hyperbolic knot; the carrier object |
-| metallic | 423 | 38% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
+| metallic | 423 | 37% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | trace_map | 408 | 36% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | amphichiral_cp | 405 | 36% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | torsion | 337 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |

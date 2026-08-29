@@ -82,3 +82,22 @@ without creating a law. **Coverage of the remaining ~660 PROVED arcs is not clai
 supersession detector reports *lexical* relations, not adjudicated ones: five flags means five pairs
 **to read**, not five corrections established — two of the five (B904, B928, B1129) are
 confirmations on their face. The keyword section-assignment is a convenience, not a judgement.
+
+---
+
+## ADDENDUM 1 (2026-08-29) — THE CRITERION WAS NECESSARY, NOT SUFFICIENT (superseded by B1213)
+
+This arc built the claim pool from `creates_law` ∪ the registered synthesis surfaces, and §4 fenced
+it as *"complete for its criterion, which is not 'everything the paper might cite'."* **Cloud's memo
+133 found what that fence was hiding**: the field is **absent on 919 of 1031 settled arcs — 89%** —
+so any sweep reading it treats *declared false* and *never declared* identically, as "not a law".
+
+**And this arc's own rendering made it worse than its pool.** `CLAIM_CANDIDATES.md` listed only the
+**flag-derived subset** (48, later 55) while the pool itself was 442. **B991** — *"THE HYPERCHARGE
+NORMALISATION IS NOT DERIVABLE IN PRINCIPLE, and that is a THEOREM ABOUT THE EQUATIONS"* — was
+**inside the pool** via a synthesis surface and **absent from the page**. The pool was wider than the
+document, which is the gap that actually reached the paper.
+
+**B1213 rebuilds the base on a union criterion** (declared ∪ surface ∪ law-vocabulary, the last
+carrying its own two-sided control at 2.29×) and renders **all 467**, tiered so an editor sees why
+each arc is there. B1210's finding stands; its criterion is superseded.

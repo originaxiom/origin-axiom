@@ -76,5 +76,8 @@ def test_the_disposition_column_is_left_to_an_editor():
     """The sweep produces candidates, not decisions. A machine-filled disposition would be the
     same failure as a memory-written spine, one level up."""
     t = POOL.read_text(encoding="utf-8")
-    assert "disposition is an" in t and "editorial call" in t
+    # B1213 re-rendered this page on the union criterion, so the wording moved. The INVARIANT is
+    # what this lock is for and it is unchanged: the column ships empty and the page says the call
+    # belongs to an editor.
+    assert "editorial call" in t
     assert "| | " in t or "|  |" in t, "the disposition column must ship empty"

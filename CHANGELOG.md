@@ -1,5 +1,39 @@
 # Changelog
 
+## B1213 (2026-08-29): THE CLAIM BASE REBUILT — the field the paper's base read is empty on 89% of the corpus
+
+Harvests cloud's R52-6 cold pass (memo 133), **verified entry-for-entry here**. B1211 corrected arcs
+whose `creates_law` flag was **wrong**; cloud asked whether the instance was a class and found the
+larger mode: the field is **ABSENT ENTIRELY on 919 of 1031 settled arcs — 89%**. A sweep reading it
+treats *declared false* and *never declared* identically, as "not a law". **Two distinct failure
+modes, and B1211 fixed the rarer one**: a mis-declaration is a wrong call, an absent field is **no
+call ever made**. Their two-sided control reproduced before adopting the criterion — declared-law
+arcs score **2.47** on the corpus's own law vocabulary against **1.08** for the rest, **2.29×** (they
+report 2.20×); the void branch is in the code on both benches.
+
+**This bench sharpens the diagnosis.** Their decisive exhibit **B991** — PROVED, `instrument: false`,
+`creates_law` absent, claiming *"THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN PRINCIPLE, and
+that is a THEOREM ABOUT THE EQUATIONS"* — **was already inside B1210's 442-arc pool**, reached by a
+synthesis surface. **The leak was the rendering, not the pool**: `CLAIM_CANDIDATES.md` listed only
+the flag-derived subset (48, later 55) while the pool behind it held 442. **The pool was wider than
+the page** — which matters, because filling the field 919 times would not have fixed the document.
+
+**The rebuild**: POOL = declared-law ∪ on-a-synthesis-surface ∪ law-vocabulary = **467 arcs**, the
+vocabulary criterion contributing **39 that neither the flag nor any surface reaches**. The page now
+renders all 467, **tiered** (L declared / S on a surface / V vocabulary-only) so an editor sees why
+each arc is present; the disposition column stays empty. The section distribution moves the paper's
+centre of gravity visibly — **118 observer · 108 withheld · 49 forced · 46 object · 37 wall · 109
+unassigned**: the negative and observer halves together are **four times** the forced half, which is
+what the thesis says, now in the evidence base and not only in the prose.
+
+**THE PATTERN THIS CLOSES — three passes, three blind spots, each found by someone other than its
+author.** B1210: a spine written from memory reproduces the memory. B1211: a spine written from a
+criterion reproduces the criterion, and a gate reading a self-declared field is only as good as the
+declaration. B1213: a criterion reading a field most of the corpus never filled reproduces the
+filling, not the corpus. **No single pass was sufficient and none of the three authors caught their
+own** — an argument for the three-seat design rather than for more care. B1210 carries a dated
+supersession addendum. Locks test_b1213 (6).
+
 ## B1212 (2026-08-29): TWO REPLIES — the decisive datum does not exist in the frames, and D2's payment is PROVISIONAL
 
 Both of this morning's relays answered the same day.
