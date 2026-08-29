@@ -24,7 +24,7 @@ mp.mp.dps = 50
 TOL = mp.mpf(10) ** -20
 SQRT3 = mp.sqrt(3)
 
-fam = json.load(open("/Users/dri/origin-axiom/frontier/B1186_family_is_112/verification/family_census.json"))
+fam = json.load(open(str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B1186_family_is_112/verification/family_census.json")))
 nonreg = sorted(set(fam["members_B"]) - set(fam["members_A"]))
 
 def to_mp(x):

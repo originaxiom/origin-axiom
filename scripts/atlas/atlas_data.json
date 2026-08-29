@@ -3651,6 +3651,94 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1176": {
+   "slug": "record surface wave",
+   "motifs": [
+    "kappa",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B817",
+    "B834",
+    "B838",
+    "B840",
+    "B842",
+    "B845",
+    "B89",
+    "B921",
+    "B964",
+    "L110",
+    "L113",
+    "L187",
+    "L189",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P8",
+    "S074"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1177": {
+   "slug": "instrument bundle",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B792",
+    "B817",
+    "B878",
+    "B909",
+    "B952",
+    "H3",
+    "L183",
+    "L184"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1178": {
+   "slug": "l184 lazyfy",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B817",
+    "L184"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1179": {
+   "slug": "outreach and papers",
+   "motifs": [
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B165",
+    "B491",
+    "B817",
+    "P1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B117": {
    "slug": "interleaving",
    "motifs": [
@@ -3692,6 +3780,65 @@
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "topology"
+  },
+  "B1181": {
+   "slug": "amphichirality closure",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B817",
+    "H1"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1182": {
+   "slug": "c4prime resolved",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B716",
+    "B721",
+    "B817",
+    "V4"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1183": {
+   "slug": "one class theorem",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B760",
+    "B817",
+    "B942",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B1184": {
    "slug": "quine synthesis",
@@ -3943,6 +4090,67 @@
    "status": "banked",
    "domain": "meta"
   },
+  "B1194": {
+   "slug": "existence audit",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B817",
+    "L154"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1195": {
+   "slug": "close loop batch5a",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B817",
+    "P1",
+    "P2",
+    "V4"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1196": {
+   "slug": "close loop batch5b",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B168",
+    "B716",
+    "B817",
+    "B854",
+    "B867",
+    "B891",
+    "P1",
+    "P3",
+    "S3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1197": {
    "slug": "clock coherence",
    "motifs": [
@@ -4146,6 +4354,26 @@
    "obstacle_conf": 4,
    "status": "banked",
    "domain": "meta"
+  },
+  "B1207": {
+   "slug": "slow lane discharge",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B801",
+    "B833",
+    "B836",
+    "L154"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "dynamics"
   },
   "B120": {
    "slug": "tower determination",

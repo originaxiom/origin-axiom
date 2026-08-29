@@ -7,7 +7,7 @@ not convergence of d_MM -- B189's C2 already typed d_MM as a drift."""
 import csv, math, sys, json
 import numpy as np
 
-base = "/Users/dri/origin-axiom/frontier/B159_omega_class_dag"
+base = str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B159_omega_class_dag")
 nodes, level_of = [], {}
 with open(f"{base}/omega_strict_full_class_nodes_L4_L10.csv") as fh:
     for row in csv.DictReader(fh):

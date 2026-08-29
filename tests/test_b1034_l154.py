@@ -42,7 +42,15 @@ def test_v2_no_exhibit_adjudicated():
                # the lock still bars drive-by mentions everywhere else:
                "frontier/B1064_cusp_torus_repose/PREREGISTRATION.md",
                "frontier/B1064_cusp_torus_repose/FINDINGS.md",
-               "docs/SEAL_LEDGER.md"}
+               "docs/SEAL_LEDGER.md",
+               # THE GRAND-COMPUTATION CAMPAIGN (2026-08-28/29): B1190 is the L154 BRIDGE CELL
+               # -- the successor entitled to discuss the pairing exactly as B1064 is -- and the
+               # two campaign surfaces carry its adjudicated row (C4 / the sigma anchor). These
+               # are admitted on the same ground as B1064 and no other: each states the
+               # adjudication rather than asserting the join, which the next test enforces.
+               "frontier/B1190_close_loop_batch2/FINDINGS.md",
+               "docs/GRAND_COMPUTATION_LEDGER.md",
+               "docs/GRAND_COMPUTATION_v0.md"}
     for key, files in r.items():
         assert set(files) <= allowed, (key, files)
 
@@ -77,3 +85,21 @@ def test_verdict_and_seal():
     import hashlib
     actual = hashlib.sha256((ARC / "PREREGISTRATION.md").read_bytes()).hexdigest()
     assert actual == m.group(1)
+
+
+CAMPAIGN_SURFACES = ("frontier/B1190_close_loop_batch2/FINDINGS.md",
+                     "docs/GRAND_COMPUTATION_LEDGER.md",
+                     "docs/GRAND_COMPUTATION_v0.md")
+
+
+def test_the_campaign_surfaces_state_the_adjudication_not_the_join():
+    """The three surfaces admitted at the grand-computation campaign are allowed to discuss the
+    L154 pairing BECAUSE they carry its negative adjudication. If one ever drops the
+    no-exhibit/missing-bridge language it stops being an adjudication and becomes the drive-by
+    join the lock exists to bar -- so the allowance is conditional, not a blanket."""
+    root = Path(__file__).resolve().parents[1]
+    words = ("NO-EXHIBIT", "no-exhibit", "ONE-BRIDGE-MISSING", "bridge", "REFUTED", "DEAD")
+    for rel in CAMPAIGN_SURFACES:
+        body = (root / rel).read_text(encoding="utf-8", errors="ignore")
+        assert any(w in body for w in words), (
+            f"{rel} discusses the L154 pairing without stating its adjudication")

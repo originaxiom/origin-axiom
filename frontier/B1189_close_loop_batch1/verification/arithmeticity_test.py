@@ -40,7 +40,7 @@ mp.mp.dps = 50
 SQ3 = mp.sqrt(3)
 MAXDEN = 400  # generous; traces of short words in small hyperbolic groups have small denominators
 
-FAM = "/Users/dri/origin-axiom/frontier/B1186_family_is_112/verification/family_census.json"
+FAM = str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B1186_family_is_112/verification/family_census.json")
 
 
 def reconstruct_Qsqrtm3(z, maxden=MAXDEN, tol=mp.mpf(10) ** -35):

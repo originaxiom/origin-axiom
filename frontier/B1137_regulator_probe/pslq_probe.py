@@ -134,7 +134,11 @@ def run_pool(tasks, out_path, workers=16, label='cells'):
     n = len(tasks)
     done = 0
     t_start = time.time()
-    with open(out_path, 'a') as f:
+    # 'w', not 'a': there is no resume logic here, so append made every re-run TRIPLE-COUNT
+    # into the same grid -- this bench's real_grid.jsonl held 648 rows (3 x 216) and the
+    # aggregate then re-derived M_grid_cells = 432 and halved the Sidak alpha off duplicate
+    # multiplicity. Caught 2026-08-29 in the slow lane's first full run (B1207).
+    with open(out_path, 'w') as f:
         with ProcessPoolExecutor(max_workers=workers) as ex:
             futs = {ex.submit(_worker, task): task for task in tasks}
             for fut in as_completed(futs):

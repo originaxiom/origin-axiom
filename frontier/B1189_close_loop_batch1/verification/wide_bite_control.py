@@ -10,7 +10,7 @@ import snappy
 import mpmath as mp
 mp.mp.dps = 50
 
-FAM = "/Users/dri/origin-axiom/frontier/B1186_family_is_112/verification/family_census.json"
+FAM = str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B1186_family_is_112/verification/family_census.json")
 
 def hp_vol(name):
     M = snappy.Manifold(name).high_precision()

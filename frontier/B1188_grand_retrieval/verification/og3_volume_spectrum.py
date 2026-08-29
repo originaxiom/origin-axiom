@@ -12,7 +12,7 @@ import json
 import snappy, mpmath as mp
 mp.mp.dps = 50
 
-fam = json.load(open("/Users/dri/origin-axiom/frontier/B1186_family_is_112/verification/family_census.json"))
+fam = json.load(open(str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B1186_family_is_112/verification/family_census.json")))
 members = fam["members_B"]; regs = set(fam["members_A"])
 V0 = mp.mpf(str(snappy.Manifold("m004").high_precision().volume()).replace(" ", ""))
 rows, nonint = [], []

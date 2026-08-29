@@ -216,3 +216,16 @@ the program four repetitions (the quine, the depth-closure stabilizations, the g
 dark-hyperbola proof) — in every case the register said open while the corpus held the proof.
 A flagged hit means *read that arc first*; a clean result licenses the claim **for the terms
 searched**, which is what must be written.
+
+
+**Run the slow lane quiescent, once per review (B1207).** `OA_SLOW=1` reaches fifty test files the
+fast lane never executes; its first complete run — 4 h 45 min, taken more than a week after the
+suite was enumerated — returned nine failures of which **five were real defects and one was eight
+days old**. Two rules follow from how it ran. (1) **Quiescent**: bank nothing while it is in flight.
+A lock run against a moving repository measures the motion — two of the nine findings were arcs
+banked mid-run, a 22 % false-positive rate bought for nothing. (2) **Inspect its diff, never commit
+it blind**: a long run *moves the repository itself*. This one appended 216 duplicate cells to a
+gitignored grid (tripling it, halving a Šidák α off untested multiplicity) and overwrote a tracked
+results file's sanitized placeholders with the bench's absolute paths. Both were silent successes,
+absent from the run's own report. The standing lesson is the reach, not the vigilance: **a gate only
+works where it is reached**, so reaching it has to be scheduled like any other work.

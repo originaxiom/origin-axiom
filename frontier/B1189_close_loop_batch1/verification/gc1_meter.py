@@ -33,7 +33,7 @@ V_REG = mp.im(mp.polylog(2, mp.exp(mp.mpc(0, mp.pi / 3))))  # = D(e^{i pi/3})
 V_REG_clausen = mp.clsin(2, mp.pi / 3)
 assert abs(V_REG - V_REG_clausen) < mp.mpf(10) ** -45
 
-fam = json.load(open("/Users/dri/origin-axiom/frontier/B1186_family_is_112/verification/family_census.json"))
+fam = json.load(open(str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B1186_family_is_112/verification/family_census.json")))
 members = fam["members_B"]
 nonreg = set(fam["members_B"]) - set(fam["members_A"])
 assert len(members) == 112 and len(nonreg) == 35

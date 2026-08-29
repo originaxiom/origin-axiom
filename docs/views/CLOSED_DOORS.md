@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**769 recorded closures — of which 602 are CLASSIFIED by mechanism and
+**771 recorded closures — of which 604 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -56,6 +56,8 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `value-numerology guard fired (rung-1 algebraicity, sealed): 0 of 18 SM targets involve a regulator across 216 cells (D<=3, H<=1e6); 384-cell matched null base rate 0.0; the only relations found (delta_CP=4, m_s/m_d=20) are bare integers -- the V-alone tautology, gated out. The value door closes from its LAST route (regulators), matching the period-close V-3; cleaner than V-3 (which had one genuine near-miss)` | 1 |  |
 | `structural impossibility, NOT a scan: the 64 (= e6 78 minus the fork's 14-dim su(2)xsu(2)xsu(3)) decomposes by own joint highest-weight enumeration as EXACTLY (spin-2,0;1)+(0,spin-2;1)+(1,1;3)+(1,1;3bar)=5+5+27+27, with INVARIANT CONTENT ZERO -- no invariant direction for any u(1), no spinorial content. Hypercharge cannot organize in the spacetime branch; what lives there is the graviton slot (two color-singlet spin-2) + 54 colored bi-vectors. This is the rep-level restatement of the fork theorem's z=0 (B1138) on the SAME 14-dim subalgebra. The campaign's TENTH honest value-negative and the FIRST closed by structure rather than by search` | 1 |  |
 | `density-before-statistics (cc3's instrument -- only density can falsify): the 108 zeros to t=130 are 697x too sparse to be the Laplace/geodesic spectrum (Weyl N(130)=75316). They are the cusp/scattering zeros of the complete Dedekind zeta Lambda_K = zeta*L(chi_-3) of Q(sqrt-3) (exact count 43+65=108) -- what the object's scattering determinant phi(s)=Lambda_K(s-1)/Lambda_K(s) (B739) is built from. GUE-distributed but GENERIC (Montgomery pair-correlation / Katz-Sarnak -- certifies a universality class, discriminates nothing object-specific). NO SM value. The graviton (geodesic Ruelle) and Lane C (cusp L(chi_-3)) meet NOWHERE in the spectrum: the Ruelle Euler product is purely geodesic, L(chi_-3) enters only via the cusped functional equation (cc3 B8130) -- the graviton bridge is dead` | 1 |  |
+| `symmetry-cannot-select (both candidates are satisfied by, or conserved along, the admissible class -- a cut of exactly zero and an identically conserved invariant)` | 1 |  |
+| `dimension-count (one cubic cuts one of three dimensions; the missing ingredient is the LINEAR cuts, whose absence is separately PROVED by GC-25's every-banked-symmetry-is-trivial-on-B_0)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

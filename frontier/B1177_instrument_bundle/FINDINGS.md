@@ -1,0 +1,45 @@
+# B1177 — THE INSTRUMENT BUNDLE
+
+**Verdict**: `OPEN` · **instrument**: true · **creates_law**: false
+**Banked**: 2026-08-27 (`65928f29`) · **This document authored**: 2026-08-29 (R52-4 discharge, B1207)
+
+> **Provenance of this document.** The arc banked its verdict, its results file and its
+> verification artifacts, but no findings document -- the gap B817's writer-safety gate caught in
+> the first full OA_SLOW run (R52-4, 2026-08-29). What follows is authored **from this arc's own
+> banked record**: `arc_verdict.json` is primary, with `b1177_results.json` and `verification/` beside it.
+> Nothing is supplied from memory and no computation is re-narrated that the record does not
+> carry -- the exact mirror of B1176's thirteen retro `arc_verdict.json` files, where FINDINGS was
+> the primary and the verdict the missing half. Section 1 is the banked claim, segmented at its
+> own enumeration; section 2 lists the artifacts that certify it.
+
+
+## 1. The finding, as banked
+
+THE INSTRUMENT BUNDLE (R50-5; the lose-nothing register's Wave 2, instrument half).
+
+**(1)** L183 THE REPRODUCER SWEEP run with a two-stage heuristic: the naive scan flagged 176 arcs; adding the test-lock + root-script stages cuts it to 21 TRUE no-runner-no-lock arcs (the lock IS the runner for the LAW_MAP-cited band) -- the debt list committed (reproducer_debt.md; 15/21 = the B1067-B1082 descent band); disposition rule: each future touch ships its runner/lock same-commit (the B8141 rule extended), NO retro mass-authoring (a runner written from memory certifies nothing -- E51's cousin).
+
+**(2)** L184 DIAGNOSIS RECORDED: full collection = 178.41 s for 5556 tests (the E50 root confirmed at current scale); the per-file top-offenders sweep is RUNNING (long by its own diagnosis) -- results land as ADDENDUM_measurements; the lazy-fy execution remains L184's named next sitting.
+
+**(3)** THE OA_SLOW SHADOW SUITE: 50 gated files enumerated, the first-ever run LAUNCHED (never run by any runner before; the fixed invocation committed in this arc's notes) -- last-green lands in the same addendum.
+
+**(4)** THE R32 VACUITY QUEUE RUN: 4449 test functions scanned, 0 NO-ASSERT, 0 TAUTOLOGY, 84 both-literal review-queue rows (informational, not defects) -- the queue is CLEAN at the defect level.
+
+**(5)** LAW_MAP DEBT PAID (ex-R48-7/R46-3 lineage): FOUR rows landed -- B1042 THE TRIT MORPHISM (joined; the SL(2,5)-perfect control; field-side by descent), B1043 SUPERLINEAR SEAM CREATION (h1=10=7+3; the +1 mechanism; F3 strict; the decoy discriminates), B1043 THE INVARIANT LINE (h0(M;27)=1; the v0 identification a lead candidate), B1043 THE ARITY VOID (sec-E wall: no 3-cells => no H3 target; the mirror-double-of-the-3-fold-cover door; the MB12 prereg method note).
+
+**(6)** THE PROMOTION SCOPE-CHECK (ex-R48-9): CLAIMS.md carries ZERO B909/B952 rows (confirmed) -- the promotion pass itself stays a named bounded residue, not silently re-carried.
+
+**(7)** THE TOOLBOX EXTRACTION SEED landed (e6_centralizer 54 consumers + frame.py; the B1103 engine; the B878 Maass solver; the 3 dangling B792 path repairs owed) + the doc_currency gate NOW WATCHES TOOLBOX_LIVE (the gate the doc itself claimed existed -- the one-line fix). Process arc; no mathematics; Gate 5 clean.
+
+## 2. The certifying record
+
+- `ADDENDUM_measurements.md`
+- `arc_verdict.json`
+- `b1177_results.json`
+- `collect_per_file.txt`
+- `reproducer_debt.md`
+- `verification/reproduce.sh`
+
+## 3. Status at authoring
+
+The verdict field is authoritative and unchanged: `OPEN`. This document does not re-adjudicate it; it makes the arc readable without opening its JSON, which is the whole function the missing file was performing badly.

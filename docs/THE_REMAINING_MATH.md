@@ -68,6 +68,15 @@ the C5 decider; S2/S3) · codex **MC1** (Cartan-only hypercharge reimplementatio
 dictionary, R018 answer, **R023** (the 𝒯 evaluator + the uncommitted load-target) · the **B1169 verification** (now two-seat: cloud + codex) · the cc3-branch harvest queue
 (B8127, B8148–B8153 + the control-defect pair — from the frozen branch, verify-don't-trust as always).
 
+## Instrument debt (Review 52)
+
+**R52-4 DISCHARGED (B1207, 2026-08-29)**: the OA_SLOW shadow suite's first complete run (9 failed /
+5702 passed / 5 skipped, 4 h 45 min) triaged in full — five real defects fixed (thirteen scripts with
+machine paths, ten arcs missing findings documents, two unrouted negatives), two lock bugs repaired,
+one eight-day-old code bug fixed (B1113's verifier could not run at all), two drift artifacts
+dismissed, and a fourth class found by watching the tree (B1137's grid appended and triple-counted;
+B1113's paths overwritten). The slow lane is now a **review-cadence quiescent run** (WORKING_RULES).
+
 ## The cadence (why this is not ad hoc)
 
 One cell per owner **GO** → banked arc (FINDINGS + verdict + reproduce + test lock) → ledgers ×3 +

@@ -12,7 +12,7 @@ import csv, math, ast, collections
 import numpy as np
 from scipy import stats as sps
 
-BASE = "/Users/dri/origin-axiom/frontier/B159_omega_class_dag/"
+BASE = str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B159_omega_class_dag/")
 
 def mm_fraction(d):
     return math.gamma(d+1)*math.gamma(d/2)/(4*math.gamma(3*d/2))

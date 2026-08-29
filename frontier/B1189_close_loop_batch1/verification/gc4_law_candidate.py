@@ -6,7 +6,7 @@ candidate: cone segregation -- same-level pairs' L10-cone overlap distribution +
 import csv, math, collections
 import numpy as np
 
-BASE = "/Users/dri/origin-axiom/frontier/B159_omega_class_dag/"
+BASE = str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B159_omega_class_dag/")
 
 def mm_fraction(d):
     return math.gamma(d+1)*math.gamma(d/2)/(4*math.gamma(3*d/2))

@@ -10,7 +10,7 @@ Independent choices vs the cell under review:
 import csv, math, collections
 import numpy as np
 
-BASE = "/Users/dri/origin-axiom/frontier/B159_omega_class_dag/"
+BASE = str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B159_omega_class_dag/")
 
 # ---------- MM estimator (own implementation) ----------
 def mm(d):  # Myrheim-Meyer expected ordering fraction, directed-pair convention (B189)

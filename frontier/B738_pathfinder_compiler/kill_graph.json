@@ -10681,5 +10681,35 @@
   "note": "Pre-discipline-era arc; verdict authored 2026-08-27.",
   "priority": "P4",
   "revival_score": 1
+ },
+ {
+  "id": "B1203",
+  "claim_killed": "TWO forcing-principle candidates for the value arm, both mine. (a) c-EQUIVARIANCE AS A FILTER: requiring object-canonical values to be c-equivariant cuts MENU-1 by EXACTLY ZERO -- cloud's enumerator was re-run on this bench (W1 = 11,720 reproduced; median gap 3.53e-5), all 17 tier-1 atoms are REAL, c = complex conjugation fixes every real and {+,-,*,/,sqrt} preserve reality, so the filter retains 11720 of 11720. The structural reason: B1168's law already places the whole menu inside the mirror-even class, so the requirement is satisfied by every candidate. (b) CLIMBING THE FOUNDING PRINCIPLE: iterating a->ab, b->a one level up sends (X,Y)->(XY,X), whose Fricke coordinates transform as tau_a: (x,y,z)->(z,x,xz-y), and kappa = x^2+y^2+z^2-xyz-2 is PRESERVED IDENTICALLY at every rung (verified to six) and by the whole K4 of founding rules -- the climb is a SYMMETRY of the founding obstruction, not a generator of new invariants, which is why three independently banked results all terminate at one level.",
+  "kill_form": "symmetry-cannot-select (both candidates are satisfied by, or conserved along, the admissible class -- a cut of exactly zero and an identically conserved invariant)",
+  "fact_computed": true,
+  "faces_consulted": [
+   "being",
+   "value"
+  ],
+  "hatch": "THE NARROWING IS THE HATCH: the forcing principle must BREAK a symmetry rather than impose one. Revive either probe only against a candidate that distinguishes WITHIN the mirror-even class (a: a filter with a c-odd or dimensionful ingredient; b: a step that does NOT conserve kappa -- the bite controls (X,Y)->(X^2,Y) and ->(XY,XY) are two such, already exhibited).",
+  "note": "Probe (b)'s tau_a invariance is CLASSICAL and was ALREADY BANKED at frontier/B148_kappa_fricke_metallic; only the reading (that this invariance is the mechanism behind the three terminates-at-one results) is new, and it is an interpretation joining banked facts, not a theorem. B1202's already_banked.py surfaced B148 before banking -- the instrument's first live catch, on its own author.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Routed at R52-4 (B1207) as part of the same OA_SLOW discharge that caught the routing gap."
+ },
+ {
+  "id": "B1205",
+  "claim_killed": "B1204's prescription that a failable condition NONLINEAR in its decisive step suffices to force the Higgs line in P^3. The cubic is real and failable -- the down block is a 3x3x4 tensor, so Y_d(h) is linear in h and det Y_d(h) is a genuine non-degenerate cubic form on the P^3 -- but the COUNTING kills the route: one polynomial equation cuts exactly one dimension, so {det Y_d = 0} is a cubic SURFACE (dim 3 -> 2), not points; its singular locus is empty (no nontrivial grad = 0; 5/5 random samples smooth, plus the classical genericity fact), so 'h is a singular point' selects nothing; and the rank<=1 locus has codimension 4 inside dimension 3, empty by count. B1160's recipe does not transfer because there THREE LINEAR anomaly conditions did four dimensions of work first and the cubic only cut a LINE to points.",
+  "kill_form": "dimension-count (one cubic cuts one of three dimensions; the missing ingredient is the LINEAR cuts, whose absence is separately PROVED by GC-25's every-banked-symmetry-is-trivial-on-B_0)",
+  "fact_computed": true,
+  "faces_consulted": [
+   "being",
+   "value"
+  ],
+  "hatch": "The requirement is now exactly stated rather than closed: forcing the Higgs line needs THREE independent conditions LINEAR in h (or two plus the cubic). Since no symmetry provides them, they must come from a CONSISTENCY requirement linear in the closer's data -- an anomaly-type constraint on the coupling rather than a symmetry of it. Also named-not-run: when codex's T evaluator (R023) lands, check whether the object's own T is non-generic (identically vanishing determinant), given the banked SKEW ZERO and the rank-2 family law.",
+  "note": "The kill is of the ROUTE, not of B1204, which is amended: 'failable, nonlinear in its decisive step' is right about the LAST step and silent about the FIRST. The computation is over the SHAPE (a generic 3x3x4 tensor), which suffices for a codimension count -- one equation cuts one dimension whatever its coefficients. GC-25's permanence result is upgraded in meaning: not merely that the floor carries three continuous parameters, but that a B1160-style forcing cannot reach them. Nothing weakens V-3.",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Routed at R52-4 (B1207); the hatch is the program's live specification for the P^3 row."
  }
 ]

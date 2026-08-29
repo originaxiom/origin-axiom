@@ -17,7 +17,7 @@ import contextlib, io, os, sys, time, json, math
 from fractions import Fraction as Fr
 import numpy as np
 
-REPO = "/Users/dri/origin-axiom"
+REPO = str(__import__("pathlib").Path(__file__).resolve().parents[3])
 W7 = os.path.join(REPO, "frontier", "B767_stabilizations", "wall7_twisted_extension.py")
 OUT = sys.argv[1] if len(sys.argv) > 1 else "wall7_all_t.json"
 

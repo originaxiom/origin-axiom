@@ -1,5 +1,43 @@
 # Changelog
 
+## B1207 (2026-08-29): THE SLOW LANE'S FIRST FULL RUN, TRIAGED AND DISCHARGED
+
+The fifty OA_SLOW-gated files enumerated and launched at B1177 finished their **first-ever complete
+run**: **9 failed, 5702 passed, 5 skipped, 4 h 45 min**. All nine triaged. **Five are real defects,
+all mine, all invisible to the fast lane**: thirteen arc verification scripts carrying **absolute
+machine paths** (agent-written scripts copied in during the close-loop batches — a script that runs
+on one bench and nowhere else is the opposite of what a `verification/` directory asserts); **ten
+arcs with a verdict and no findings document** (B1176–B1179, B1181–B1183, B1194–B1196 — the exact
+mirror of B1176's thirteen retro verdicts, committed by the same seat two days later); and **two
+NEGATIVE arcs unrouted** in the kill graph (B1203, B1205 — B801's backlog rebuilding within four days
+of the pass that cleared it). **Two were the locks' own bugs**: B844's ID strip was greedy-to-a-colon,
+so a *colon-free* carried item had its whole reason eaten and was then flagged for having no reason —
+the lock manufacturing the defect it hunts; and B1034's L154 allowed-set predated the campaign, whose
+three new surfaces each state the **adjudication** (NO-EXHIBIT / one-bridge-missing / route-dead)
+rather than asserting the join, so they are admitted **conditionally** under a new test. **One was a
+real code bug eight days old**: B1113's t-meter verifier took two dirnames where three were needed,
+resolving its root to `frontier/` and doubling every join — **the verifier has not executed once
+since it was banked**. **Two were casualties of the run itself** (atlas render, cost-class drift):
+both pass in isolation; arcs were banked *while* the 4 h 45 min suite was in flight.
+
+Then a **fourth class the report could not contain**, found by watching the tree because these
+defects *succeed* silently: B1137's PSLQ grid was opened in **append** mode with no resume logic, so
+every re-run added another 216 cells — this bench held **648 = 3 × 216** — and the aggregator
+re-derived `M_grid_cells = 432`, **halving the Šidák α off multiplicity that was never tested**. The
+grid is gitignored, so nothing surfaced until the *fast* test re-aggregated it into the tracked
+report. Fixed at both ends; the banked report is **reproduced exactly** from the restored grid and
+the `DISJOINT` verdict never moved — the error ran in the *conservative* direction, which is why no
+lock caught it. Plus B1113's verifier overwriting hand-sanitized `<repo>/…` placeholders with this
+bench's absolute paths, and two arcs rewriting tracked results with per-run timings.
+
+**THE METHOD FACT**: *a lock run against a moving repository measures the motion, and a long run
+moves the repository itself.* The slow lane must be run **quiescent**, with its diff inspected and
+never committed blind. **THE CLASS, which is the point**: three of the five real defects were
+committed by the seat that had just built or just used the corresponding instrument, so the lesson is
+not vigilance — vigilance is what failed — but that **a gate only works where it is reached**. The
+slow lane becomes a review-cadence quiescent run, which is precisely how it came to sit unrun from
+its own creation until today. No arc's mathematics is re-adjudicated. Locks test_b1207 (9).
+
 ## B1206 (2026-08-29): THE ℙ³ IS EXACTLY ONE CONDITION SHORT
 
 B1205 left the frontier *"are there any linear conditions at all?"* — **yes, and there is exactly

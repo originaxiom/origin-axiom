@@ -15,7 +15,7 @@ r = sum_u |R(u)| / (N(N-1)) on the transitive closure (directed-pair convention)
 import csv, math, os, collections
 import numpy as np
 
-BASE = "/Users/dri/origin-axiom/frontier/B159_omega_class_dag/"
+BASE = str(__import__("pathlib").Path(__file__).resolve().parents[3] / "frontier/B159_omega_class_dag/")
 
 def mm_fraction(d):
     return math.gamma(d+1)*math.gamma(d/2)/(4*math.gamma(3*d/2))

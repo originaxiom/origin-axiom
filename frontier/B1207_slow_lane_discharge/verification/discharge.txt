@@ -1,0 +1,7 @@
+(1) verification scripts with absolute machine paths: 0
+(2) verdicts with no findings document: 0
+(3) NEGATIVE arcs: 300; unrouted: 0
+(4) B1113 REPO_ROOT dirname depth: 3 (needs 3: <root>/frontier/<arc>/file.py)
+(5) ID strip: flags a bare id=True, keeps a colon-free reason=True
+
+REPRODUCES
