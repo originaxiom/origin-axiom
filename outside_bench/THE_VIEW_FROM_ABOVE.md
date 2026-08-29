@@ -165,3 +165,39 @@ place for a research programme to be, and it is the honest reading of the
 counts above rather than an endorsement of the premises. **Gate 5
 untouched throughout; every premise on the sheet is labeled and dies with
 its refuter.** This addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-29) — ADDENDUM 1's OWN RANKING IS REVISED: cosmology is no longer the dominant gap
+Addendum 1 ranked **cosmology's blind rows** as item 1, *"the only place
+the honest word is still missing rather than priced or impossible."*
+Working that item produced the result that **withdraws its own ranking**:
+- **memo 132 (row 2, inflation):** the tower has **no net volume growth**
+  — det J_T = −1 constant, det J_L = 0 identically, det σ² = +1 with
+  eigenvalue product exactly 1. The Lyapunov sum is zero or −∞ **at every
+  point, as an identity**, so **e-folds are identically zero or
+  undefined**, not merely uncomputed.
+- **memo 134 (rows 8 and 7):** row 8's probe fails on **both**
+  requirements — the ensemble is exponential-class where a growth
+  exponent is power-law (log-log slope climbs 2.81 → 10.14), and there is
+  **no scale factor to differentiate against**. Row 7's three named
+  targets (n_s, peak location, amplitude) are each **blocked by theorem**.
+- **THE UNIFICATION:** rows 2, 7 and 8 are **not three blind regions**.
+  They need one and the same missing object — **net volume growth** — and
+  its absence is **proved**, not searched for.
+
+**So the ranking in addendum 1 was wrong in the direction that matters:**
+cosmology's "MISSING" rows are largely **proved negatives with a shared
+mechanism**, not unentered territory. What genuinely remains blind there
+is narrower and should be stated exactly: **the record has no perturbation
+theory at all** (row 7's residue), and **B168's r_∞ recognition question
+stays open** pending the L ≥ 11 enumeration — which this bench
+**deliberately declined** to attempt on six points.
+
+**The revised dominant item** is the one memo 133 surfaced: **the paper's
+claim base is drawn from a `creates_law` field that 89% of settled arcs
+never populated** — 920 of 1031 absent, 102 credible candidates against 55
+in the pool, with B991 (an explicit no-go theorem, flag absent) as the
+decisive exhibit. That is not a research gap; it is a **defect in the
+instrument that decides what the paper claims**, and it is cheap to fix.
+Interpretive, labeled: a programme whose remaining blind spots are mostly
+**bookkeeping over its own record** is in a different position from one
+short of mathematics. This addendum is the only mutation.
