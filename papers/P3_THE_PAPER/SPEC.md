@@ -199,3 +199,26 @@ reference — gives **5 of 24**, and those five are real. **Report the second nu
    on purpose, under the discipline the earlier sections establish.
 5. **The companion index built as we go**, not retrofitted.
 6. **A hostile read before submission** — the P1 scrutiny-campaign pattern, pointed at our own draft.
+
+---
+
+## STATUS (2026-08-30) — the draft exists and builds
+
+`main.tex` + `build.sh` land here. **It is 3 pages and it is not a paper yet** — what is written is
+the front matter that the blueprint says must come first, and nothing else:
+
+- **the abstract**, built to the anti-dismissal shape: it opens on **what is generic** (the ADE
+  forcing, the census surjection rate, the sibling sharing the trace field), states the surviving
+  specificity, and **reports the misses** — the $16\sigma$ run, three generations not derived, no
+  unique 4d theory — before any positive claim;
+- **the non-claims box**, seven entries, placed early by design;
+- **§7 the freedom ledger** — the spine, written first per the build order, carrying all seven input
+  rows with their types and honest statuses, plus two scope notes: one naming $\lambda$ and the
+  $\PP(B_0)$ as the two rows neither derived nor gated, and one **recorded in advance** that a
+  future $\PP(B_0)$ closure yields a *finite point set*, not a unique prediction.
+
+**Every other section is an explicit `[Not yet written]` marker, not filler.** The build is
+reproducible with `./build.sh`.
+
+**Deliberately absent**: an author line. The repository's attribution rule keeps the owner's name out
+of tracked files; it goes in at submission, which is the owner's act.

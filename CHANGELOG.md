@@ -1,5 +1,28 @@
 # Changelog
 
+## THE PAPER — first draft lands and builds (2026-08-30)
+
+`papers/P3_THE_PAPER/main.tex` + `build.sh`. **Three pages, and it is not a paper yet** — what is
+written is the front matter the blueprint requires first, and nothing else is faked:
+
+- **The abstract, in the anti-dismissal shape.** It opens on **what is generic** — the $E_6$
+  recurrence forced by one ADE classification, the census surjection rate, the sibling sharing the
+  trace field — then states the surviving specificity (the unique arithmetic knot complement), and
+  **reports the misses before any positive claim**: the $16\sigma$ run to $M_Z$, three generations
+  not derived, no unique four-dimensional theory.
+- **The non-claims box**, seven entries, placed early by design.
+- **The freedom ledger** — written first, per the build order, because it is the spine. All seven
+  input rows with honest statuses, plus two scope notes: one naming $\lambda$ and the $\mathbb{P}^3$
+  as the two rows neither derived nor gated, and one **recorded in advance** that a future
+  $\mathbb{P}^3$ closure yields a *finite point set*, not a unique prediction.
+
+Every other section is an explicit `[Not yet written]` marker rather than filler. The PDF is a build
+product (gitignored); the source and `build.sh` are tracked. **No author line** — the attribution
+rule keeps the owner's name out of tracked files, and it goes in at submission, which is their act.
+
+**What this is not**: publication-ready. The PDFs in `papers/tex/` and `papers/flagship/` are the
+superseded June/July generation and are not this paper.
+
 ## B1217 (2026-08-30): THE SEAT INTEGRATION — nineteen commits harvested, four verifications, one evidence-contract gap
 
 Discharges the integration debt: **codex 2 commits + their R027 lead, cloud 17, cc3 none.** Per
