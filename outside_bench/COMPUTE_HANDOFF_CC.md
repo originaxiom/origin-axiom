@@ -142,3 +142,80 @@ after all — which would CLOSE the ledger and flip the ℙ³ row to FORCED.**
 That is a single bounded question, and after memo 129's exhaustion **it
 is the only route to closure that remains**. Recommended as the next cell
 on the primary seat.
+
+---
+
+## RELAY, 2026-08-29 (second) — D2 IS CONFIRMED, and a finding that gates the paper
+
+### 0. ⚠ D2: LIFT THE PROVISIONAL — the owner confirmed
+B1212 downgraded the payment to PROVISIONAL, correctly, on cc's flag.
+**The owner has since confirmed it, twice and informedly:** shown the
+authority flag, both options and the one-edit reversal, they replied
+*"do as you recommend"*, and separately typed **"d2 done"** on the cc
+seat. **LEAP-1 is PAID** under **SCOPE-1a** and **SCOPE-1b**, refuters
+armed. Main can lift PROVISIONAL.
+
+Adopted from cc, with credit, on this bench: the **positive** argument
+replaces the bench's eliminative one as SCOPE-1a's recorded ground; the
+**SCOPE-1 split** (1b = "the ladder IS that history", **not
+established**); the **override paragraph** now opening weld-book addendum
+6; the **541.5× witness** (re-derived in `d2_scope.py` S5c); and the
+**6 h 19 m timestamp lead** (re-derived from git). The ladder is also
+banked **standalone** (`THE_LADDER_RESULT.md`), decoupled from LEAP-1.
+
+⚠ **One caveat found after signing** (memo 132): **σ has det = −1**, so
+memo 90's expansion FORM is a **SHEAR, not a DILATION** — anisotropic,
+zero net volume change. What LEAP-1 puts object-side is a
+volume-preserving shear form, **not an FRW scale factor.**
+
+### 1. R52-6 COLD PASS — the paper's claim base is under-populated at the source
+B1211 fixed **one** `creates_law` flag and said why it matters: the
+registry gate and **B1210's claim-pool sweep** read the declared field.
+**It was not one.** Of **1031** settled arcs: declared **true 55**,
+declared **false 56**, **ABSENT ENTIRELY 920.**
+
+> **The field was only ever filled on ~11% of settled arcs. The paper's
+> claim base is drawn from a field 89% of the corpus never populated.**
+
+- Two-sided control passed first: declared-law arcs score **2.20×** the
+  rest on the corpus's own law vocabulary, so the criterion discriminates.
+- **102 credible candidates** (118 raw, minus 16 declared `instrument`),
+  against **55** in the pool. **81 of them have the field absent, 21
+  declared false** — B1211 fixed the rarer mode.
+- **Decisive exhibit, not a borderline call: B991** — PROVED,
+  non-instrument, `creates_law` **absent**, claiming in its own words
+  *"THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN PRINCIPLE, and that
+  is a THEOREM ABOUT THE EQUATIONS."* An explicit no-go theorem invisible
+  to the paper's claim pool.
+
+**The ask, and it is cheap:** **re-audit the field before the disposition
+column is filled.** Filling dispositions over an incomplete pool bakes the
+omission into the paper permanently and invisibly. Start with the 21
+declared-false hits and the explicit-theorem absentees, then regenerate
+B1210's ledger. This bench reclassifies nothing — the list is ranked and
+the call is yours.
+
+### 2. R52-6's other components, dispositioned
+- **The census's 31 category calls — VOID AS WORDED.** B1196 already
+  established that `census-31-calls` is a **label collision** (an
+  unrelated queued cc3 artifact sharing the tag D2). **The review item
+  survived the finding that killed it.** If cc3's artifact carries real
+  work it needs its own row under a non-colliding tag.
+- **L173 mode-COUNT seal path** — untouched, still open.
+- **θ-even crossing + specialist send-queue** — HOLD by the owner's word,
+  untouched.
+
+### 3. Also newly banked here (ranked-remainder item 1a)
+**Cosmology row 2 (inflation) — the ledger's never-run first probe, run,
+returns a STRUCTURAL OBSTRUCTION.** Reframed to its decidable form (a tilt
+and an e-fold count both measure **net volume growth**) and settled by
+determinant identities: **det J_T = −1 constant**, **det J_L = 0
+identically**, **det σ = −1**, **det σ² = +1 with eigenvalue product
+exactly 1**. The sum of Lyapunov exponents is zero or −∞ **at every point,
+as an identity** ⟹ **e-folds are identically zero or undefined**, not
+merely uncomputed; a tilt is blocked the same way. This supplies the
+**mechanism** for S002/B124's banked *"reciprocal-closed, two-headed
+time"*: **the closure is forced by det = 1.** **Proposed grade change for
+row 2: MISSING → PROVED NEGATIVE with the mechanism named** — same shape
+as the scale-torsor no-go, independent theorem, forbidding the
+*dimensionless* growth too.
