@@ -99,3 +99,57 @@ a question and a fishing trip.
 
 **Not sent.** No address touched, no external contact of any kind. The
 send is the owner's act under the owner's name.
+
+---
+
+# Q2 DISPOSITION (2026-08-29) — the staleness flag was MINE and it was WRONG; Q2's ask stands
+
+**Memo 138 flagged Q2 STALE on two keyword hits. Re-checked, the flag is
+substantially a FALSE POSITIVE of this bench's own detector** — of exactly
+the shape B1210 caught on its own first pass ("MOSTLY NOISE"). Corrected
+here rather than carried.
+
+**Two objects, same two words:**
+
+| | subject | target |
+|---|---|---|
+| **Q2 (B1137)** | regulators as **values** — L-values, ζ_K, ζ_F, π, √3, √5, log φ, ζ(3) | the **18 sealed SM targets** |
+| **the flagged hits (B1198/B1209)** | a regulator **map** — Lee's mixed Tate motive | the **complex volume**, a *geometric* invariant |
+
+**Verified:** neither B1198 nor B1209 mentions J₃(𝕆), the exceptional
+domain, the M(𝕆,ℂ) closing, or Tier B. **Q2's ask stands as written.**
+
+**And the obvious follow-on is already a banked negative:** B1126 swept
+the **volume/ζ_K(2) family** among its 16 sealed periods against 22
+live-fetched SM targets — 352 pairs, 351 below two significant figures,
+consistent with noise. So B1209's *"the complex volume is a Beilinson
+regulator"* opens **no** untested SM route.
+
+## Two small honest additions to Q2's status line
+
+**(i)** Cite **B1209 as adjacent-not-contradicting** — an outside
+published Beilinson regulator over our own field exists, for a different
+object and a geometric target. A specialist in this area will know that
+paper; saying we know it too costs nothing and reads better than silence.
+
+**(ii)** Name the **B1137 basis corner** ourselves, with its size stated:
+the volume is swept as a **period** (B1126) but is **not a basis element**
+in B1137's bounded-height **combination** sweep, and those are different
+instruments. **This is an untested corner of one instrument, not a hole in
+the negative** — and adding the volume to the basis and re-running is a
+**bounded in-house cell, not a specialist question.** Naming it pre-empts
+the obvious referee question and costs one clause.
+
+## ⚠ AN ERROR CAUGHT INSIDE THE CHECK, recorded because it is the check's own subject
+
+R3's first version tested `"vol" in claim` and returned **TRUE** — because
+`vol` is a substring of **"in·vol·ves"** (*"an involves_regulator gate"*).
+**A substring false positive, inside the cell written to catch a keyword
+false positive.** Fixed by extracting the basis and matching on words.
+The lesson is the cell's own thesis turned on itself: **a keyword detector
+must be spot-checked on its own hits — including when the detector is
+mine and the hit confirms what I expected.**
+
+**Net:** **Q1 rewritten** (its staleness was verified case-by-case, not
+from keyword hits — that call stands). **Q2 stands as written**, with two
+one-clause additions. **Q3–Q6 READY.** **All six are now decision-ready.**
