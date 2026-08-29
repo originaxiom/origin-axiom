@@ -1,0 +1,91 @@
+{
+ "arc": "B1217",
+ "scope": {
+  "codex_commits": 2,
+  "cloud_commits": 17,
+  "cc3_commits": 0,
+  "rule": "integrate-don't-merge; nothing merged"
+ },
+ "verified_here": {
+  "codex_R026": {
+   "their_cert_runs": true,
+   "output_identical": true,
+   "independently_rederived": [
+    "W:11 = sum of selected ray characters (35 mod 12)",
+    "B + W + G = 24 = 0 mod 12 -- the characters CANCEL",
+    "wedge sign +1 by inversion count"
+   ],
+   "our_addition": "the B+W+G cancellation IS the frame's equivariance; codex reports the three numbers without flagging it as the consistency check",
+   "controls": "(6,11,8), (5,11,7), (6,10,7) all fail -- the agreement is not automatic",
+   "status": "Delta_G BUILT = component 1 of 3",
+   "fork_status": "B1208's fork remains OPEN"
+  },
+  "codex_R027_lead": {
+   "claim": "8 triangles -> Eilenberg-Zilber cross product <= 8^2 x 6 = 384",
+   "confirmed": 384,
+   "the_6_is": "C(4,2), the (2,2)-shuffle count",
+   "degree_check": "2-cycle x 2-cycle = 4-cycle, the right degree for an H^4 class",
+   "status": "A LEAD, not delivered; component 2 of 3, theirs to run"
+  },
+  "codex_R025": {
+   "confirms": "B1215's law rho+sigma = 3-a mod 12, derived independently here",
+   "they_add": "the physical block is explicitly A_11 x B_2 x B_2",
+   "their_scope_carried": "no mixed or connecting term evaluated"
+  },
+  "cloud_VNEG": {
+   "hygiene_pre_step": "RUNS HERE against B1137's own basis.py; reproduces exactly (3 directions independent, 0 dropped, Vol from Li_2)",
+   "gating_control_vs_our_banked_B1137": {
+    "raw": 117,
+    "involves_V": 117,
+    "involves_regulator": 0,
+    "matches_their_claim": true
+   },
+   "the_117_to_108_drop": {
+    "target": "|Vub|",
+    "raw_found": 9,
+    "involves_regulator": 0,
+    "their_explanation": "HOLDS from our side -- masks no hit"
+   },
+   "their_reported_table": {
+    "control_25_entries": {
+     "cells": 216,
+     "raw": 117,
+     "involves_V": 117,
+     "involves_regulator": 0
+    },
+    "extended_28_entries": {
+     "cells": 216,
+     "raw": 108,
+     "involves_V": 108,
+     "involves_regulator": 0
+    },
+    "note": "the control column is CONFIRMED against our own banked B1137 report (117/117/0); the extended column is CITED -- its certificate is not committed"
+   }
+  }
+ },
+ "evidence_contract_gap": {
+  "what": "cloud's EXTENDED run (the V-NEG headline) is not reproducible as committed",
+  "why": "outside_bench/certificates/vol_basis_extended.py contains the BASIS BUILDER (R48-3), not the extended probe; no committed cert carries the involves_regulator gate except an unrelated staleness re-check; their memo names no path",
+  "typed": "CITED, with both checkable sub-claims CONFIRMED and the run unreproduced -- an evidence-contract gap, not a mathematical one",
+  "disposition": "relayed, not fixed here; their branch, their call",
+  "rechecked_at": "their head 7ff41915, 2026-08-30 -- still absent",
+  "what_this_does_not_undermine": "the decisive column is 0 in BOTH runs, and the control's 0 is confirmed from our data; the 117->108 drop is fully explained by |Vub|, whose decisive column is 0 -- so the mathematics is well-supported. What is missing is the artifact, not the argument."
+ },
+ "harvested_typed_not_rerun": {
+  "cosmology": "rows 2 and 8 are ONE missing object (log of a volume ratio / exponent wrt a scale factor); row 8's growth is exponential-class so no exponent exists to compare; no scale factor to differentiate against, banked twice; row 7 split part proved-negative part still missing; the 'expansion' is determinant-one SHEAR, not FRW volume expansion",
+  "governance": "both hold releases OWNER-AUTHORIZED; theta-even released and NOT FIRED (four sufficient reasons, licensed row unspent); send-queue released with two surviving rules; Q1 found stale by eight arcs BECAUSE OF OUR B1209 and rewritten; cloud self-corrected a staleness flag as a false positive of the same shape B1210 caught"
+ },
+ "our_own_lock_repair": {
+  "lock": "the L154 drive-by-mention lock",
+  "admitted": [
+   "frontier/B1207_slow_lane_discharge/FINDINGS.md",
+   "docs/THEOREM_REGISTRY.md"
+  ],
+  "reason": [
+   "B1207 DOCUMENTS the repair of that lock and so quotes its criterion -- the THIRD self-documenting-instrument instance this week",
+   "THEOREM_REGISTRY is a registration surface; B1214 populated it with theorem rows"
+  ],
+  "conditional_test": "intact"
+ },
+ "cross_seat_propagation": "cloud's q2_staleness_recheck.py cites B1210 explicitly -- 'exactly the instrument shape B1210 caught itself on' -- and re-checked its own keyword detector before acting on it. Our lesson reached their bench and changed a decision there."
+}

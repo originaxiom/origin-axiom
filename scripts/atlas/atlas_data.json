@@ -4586,6 +4586,21 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1217": {
+   "slug": "seat integration",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "L154"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B121": {
    "slug": "monodromy grading",
    "motifs": [

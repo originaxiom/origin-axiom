@@ -12679,3 +12679,58 @@ confirming K3's failure is genuine and its pass-branch non-empty.
 blocks** (one lookup away is not closed). **And the caveat recorded in advance**: *dim 0 is a finite
 point set* — if the ℙ³ closes, the row becomes a **finite label**, joining B990's closed category.
 **It does not become a unique prediction.** Locks test_b1216 (5).
+## B1217 (2026-08-30): THE SEAT INTEGRATION — nineteen commits harvested, four verifications, one evidence-contract gap
+
+Discharges the integration debt: **codex 2 commits + their R027 lead, cloud 17, cc3 none.** Per
+*integrate-don't-merge*, nothing merged.
+
+**codex R026 — VERIFIED.** Their certificate runs here with identical output, and two cores were
+re-derived from first principles: **W:11 is the direct sum of the selected ray characters** (35 ≡ 11),
+and **B + W + G = 24 ≡ 0 mod 12 — the three determinant characters cancel**, which *is* the
+equivariance the frame requires and which they report as three numbers **without flagging it as the
+consistency check**; controls (6,11,8), (5,11,7), (6,10,7) all fail, so it isn't automatic. The wedge
+sign is **+1** by inversion count with a parity control. **Δ_G is built — component 1 of 3**, with
+their scope carried verbatim: the H³ trace is still needed for all 18 connecting entries and the
+Serre map for tails, so **B1208's fork remains open**.
+
+**codex R027's simplification — CONFIRMED, and it matters.** An 8-triangle factor cycle whose
+Eilenberg–Zilber cross product gives at most **8² × 6 = 384** product simplices: 384 confirmed here,
+**the 6 is exactly C(4,2), the (2,2)-shuffle count**, and the degrees work — 2-cycle × 2-cycle is a
+**4-cycle**, the right degree for an H⁴ class. It replaces a 432-open refinement with an explicit
+finite cycle. **A lead, not a delivered result**; component 2 of 3, theirs to run.
+
+**codex R025** independently confirms B1215's law and makes the physical block explicit as
+**A₁₁ × B₂ × B₂**, its only pure-tail term zero by skewness — their scope line carried.
+
+**cloud's V-NEG — verified at both checkable points, against our own data.** Their hygiene pre-step
+**runs here** against B1137's own `basis.py` and reproduces exactly (3 volume directions independent,
+**0 dropped**, Vol **computed** from Li₂). Their gating control is confirmed entry-for-entry against
+our banked report: **117 raw / 117 involves_V / 0 involves_regulator**. And their 117 → 108
+explanation **holds from our side** — |Vub| carries `raw_found = 9` with **decisive column 0**, so
+dropping those cells masks no hit.
+
+**THE EVIDENCE-CONTRACT GAP.** The extended run — the headline itself — is **not reproducible as
+committed**: `vol_basis_extended.py` contains the **basis builder**, only an unrelated staleness
+re-check carries the `involves_regulator` gate, and their memo names no path (re-checked at head
+`7ff41915`). Typed **CITED**, with both checkable sub-claims **CONFIRMED**. **What is missing is the
+artifact, not the argument** — the decisive column is 0 in both columns of their own table. Relayed;
+their branch, their call.
+
+**Harvested and typed**: cosmology **rows 2 and 8 are one missing object** (log of a volume ratio /
+exponent w.r.t. a scale factor); row 8's growth is exponential-class so **no exponent exists to
+compare whatever its value**, and there is no scale factor to differentiate against, banked twice;
+row 7 split honestly. The proposed *"expansion"* is **determinant-one shear, not FRW volume
+expansion**. **Governance**: both hold releases were **owner-authorized** and both handled with
+restraint — the θ-even crossing was released and **not fired** (four sufficient reasons; **the
+licensed row is unspent**), and the send-queue release was taken with two surviving rules plus a
+readiness audit finding **Q1 stale by eight arcs because of our B1209**, now rewritten.
+
+**Cross-seat propagation worth recording**: cloud's `q2_staleness_recheck.py` **cites B1210
+explicitly** — *"exactly the instrument shape B1210 caught itself on"* — and they re-checked their own
+keyword detector before acting on it, catching a real false positive. Third seat, same lesson.
+
+**One repair to our own lock**: the L154 drive-by-mention lock tripped on **B1207's FINDINGS**, which
+*documents the repair of that very lock* and so quotes its criterion — **the third
+self-documenting-instrument instance this week** — and on **`docs/THEOREM_REGISTRY.md`**, which
+B1214 populated with theorem rows. Both admitted with the conditional test intact: a registration
+surface is the last place that lock should bar discussion. Locks test_b1217 (5).

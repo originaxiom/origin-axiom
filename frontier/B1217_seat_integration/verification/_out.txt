@@ -1,0 +1,32 @@
+=== 1. codex R026: the determinant-character ledger closes (independent of their frame) ===
+    sum of the selected ray characters = 35 = 11 mod 12   [they report W:11]
+    B + W + G = 6 + 11 + 7 = 24 = 0 mod 12
+    => the three determinant characters CANCEL -- the equivariance the frame requires.
+    CONTROL: nearby ledgers (6,11,8), (5,11,7), (6,10,7) all fail. Not automatic.
+
+=== 2. codex R026: the connecting-product wedge sign ===
+    forced surviving term sb ^ sc ^ k1 ^ sd ^ k2 ^ sa; inversions 6; sign +1
+    => +1 CONFIRMED by inversion count, no reference to their construction.
+
+=== 3. codex R027's simplification: the 384 count ===
+    (2,2)-shuffles in Eilenberg-Zilber = C(4,2) = 6
+    product simplices <= 8 x 8 x 6 = 384   [they report 384]
+    => 384 CONFIRMED, and 2-cycle x 2-cycle = 4-cycle is the right degree for an H^4 class.
+
+=== 4. cloud's V-NEG gating control, against OUR OWN banked B1137 report ===
+    B1137 banked (216 cells, DISJOINT): raw 117, involves_V 117, involves_regulator 0
+    => their claimed control (117 raw, all involves_V, none involves_regulator) MATCHES ours.
+    the target they say loses nine cells: |Vub|  raw=9, involves_regulator=0
+    => nine cells, decisive column ZERO. Their 117->108 explanation HOLDS from our side:
+       dropping them masks no hit, because the deciding column is zero in both runs.
+
+WHAT IS NOT ESTABLISHED HERE
+  cloud's EXTENDED run (the V-NEG headline itself) is NOT reproducible as committed. The file
+  named outside_bench/certificates/vol_basis_extended.py on their branch contains the BASIS
+  BUILDER (R48-3), not the extended probe; no committed certificate carries the
+  involves_regulator gate except an unrelated staleness re-check; and their own memo names no
+  path for it. Their HYGIENE pre-step does run here and reproduces exactly (3 volume directions
+  independent of B1137's 25-entry basis, 0 dropped, Vol computed from Li_2). So the headline is
+  CITED, with both checkable sub-claims CONFIRMED and the run itself unreproduced -- an
+  evidence-contract gap, not a mathematical one.
+VERIFIED
