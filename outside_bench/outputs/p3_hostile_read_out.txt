@@ -1,0 +1,223 @@
+==============================================================================
+P3 HOSTILE READ -- main.tex @ 89affd5b (32190 chars)
+==============================================================================
+
+### H1 -- the displayed forcing of section 4 (CONFIRMATORY)
+
+  linear system:
+    [SU(3)]^2 Y    = Y_d + 2*Y_q + Y_u = 0
+    [SU(2)]^2 Y    = Y_l + 3*Y_q = 0
+    grav^2 Y       = 3*Y_d + Y_e + 2*Y_l + 6*Y_q + 3*Y_u = 0
+
+  solved (paper displays Y_l=-3Y_q, Y_e=6Y_q, Y_u+Y_d=-2Y_q):
+    Y_l = -3*Y_q   [paper: -3*Y_q]   MATCH=True
+    Y_e = 6*Y_q   [paper:  6*Y_q]   MATCH=True
+    Y_d = -2*Y_q - Y_u   => Y_u+Y_d = -2*Y_q   [paper: -2*Y_q]   MATCH=True
+
+  cubic on the line, Y_q=1, Y_u=-1+t:
+    computed = -18*(t - 3)*(t + 3)
+    paper    = -18*(t-3)*(t+3) = 162 - 18*t**2
+    EXACT POLYNOMIAL IDENTITY: True
+    roots t = [-3, 3]   [paper: t = +-3]
+    solutions on the chart Y_q=1: [(1, -4, 2, -3, 6), (1, 2, -4, -3, 6)]   [paper: (1,-4,2,-3,6) and (1,2,-4,-3,6)]
+    MATCH: True
+
+  completeness check -- the chart Y_q=1 excludes Y_q=0. What lives there?
+    on Y_q=0: Y_l=0, Y_e=0, Y_d=-Y_u
+    [Y]^3 restricted to Y_q=0 = 0
+    => [Y]^3 VANISHES IDENTICALLY on the whole Y_q=0 branch:
+       a ONE-PARAMETER FAMILY of fully anomaly-free assignments
+       (Y_q,Y_u,Y_d,Y_l,Y_e) = (0, s, -s, 0, 0), every s.
+       These are VECTOR-LIKE (u^c and d^c conjugate, all else neutral),
+       so the paper's stated 'chiral' filter excludes them --
+       but the DISPLAYED derivation never says so: it parametrises
+       the line by Y_q=1 with no remark that Y_q=0 was disposed of.
+
+  H1 relations OK: True | cubic OK: True | solutions OK: True | displayed derivation complete: False
+  OUTCOME: H1-DEFECT
+
+### H2 -- the two survivors described twice (CONFIRMATORY)
+
+  NOTE -- THIS CELL'S FIRST VERSION WAS WRONG AND IS CORRECTED HERE.
+  It charged that "its conjugate" mislabels the u^c<->d^c relabelling. That
+  charge is FALSE: the census's second survivor is a genuinely CONJUGATE
+  CONTENT (aBBCD), a different multiset of representations. The error was to
+  treat the census's pair and the displayed derivation's pair as the same
+  object -- which is the very conflation this cell now charges the paper with.
+  Filed as bench error #14. The corrected finding is below and is weaker.
+
+  the two objects section 4 calls 'two', computed exactly (see p3_hostile_h6.py):
+    (i)  THE CENSUS: 252 contents -> exactly TWO surviving CONTENTS,
+         AbbCD = (3,2)+2x(3bar,1)+(1,2)+(1,1)   [the SM 15-plet]
+         aBBCD = (3bar,2)+2x(3,1)+(1,2)+(1,1)   [its conjugate content]
+         -- so 'the SM 15-plet up to overall scale, and its conjugate' is CORRECT here.
+    (ii) THE DISPLAYED FORCING: on ONE fixed SM-shaped 15-plet, TWO rays,
+         (1,-4,2,-3,6) and (1,2,-4,-3,6) -- the SM and its u^c<->d^c relabelling.
+
+  are (ii)'s two rays two DIFFERENT census survivors?
+    both live in the SAME content AbbCD, and differ only by swapping the two
+    IDENTICAL letters b,b. Under the census's own equivalence they are ONE
+    survivor. Verified in p3_hostile_h6.py: content AbbCD carries 2 rays,
+    content aBBCD carries 2 rays, total 4 rays over 2 contents.
+
+  THE DEFECT, exactly:
+    Section 4 states (i) -- "exactly TWO survive ... the SM 15-plet up to overall
+    scale, and its conjugate" -- and then, two paragraphs later, states (ii) --
+    "The TWO solutions are (1,-4,2,-3,6) and (1,2,-4,-3,6)" -- with nothing
+    marking them as different results. A referee reads the second as the explicit
+    form of the first. It is not:
+      * (ii)'s two collapse to ONE of (i)'s survivors;
+      * (i)'s second survivor, the conjugate content aBBCD, NEVER APPEARS in the
+        displayed computation at all;
+      * the total number of chiral anomaly-free rays is FOUR, and the paper never
+        states it.
+    Two distinct 'exactly two' results are juxtaposed as one.
+  REPAIR: one clause distinguishing 'two surviving contents' from 'two rays on a
+  fixed content', or drop one of the two counts.
+  OUTCOME: H2-CONFLATION
+
+### H3 -- Theorem 2.1's proof (BLIND)
+
+  step 1: |SL(2,Z/N)| against the binary polyhedral orders {24,48,120}
+    N= 1  |SL(2,Z/N)| =      1   
+    N= 2  |SL(2,Z/N)| =      6   
+    N= 3  |SL(2,Z/N)| =     24   2T (E6)
+    N= 4  |SL(2,Z/N)| =     48   2O (E7)
+    N= 5  |SL(2,Z/N)| =    120   2I (E8)
+    N= 6  |SL(2,Z/N)| =    144   
+    N= 7  |SL(2,Z/N)| =    336   
+    N= 8  |SL(2,Z/N)| =    384   
+    N= 9  |SL(2,Z/N)| =    648   
+    N=10  |SL(2,Z/N)| =    720   
+    N=11  |SL(2,Z/N)| =   1320   
+    N=12  |SL(2,Z/N)| =   1152   
+    qualifying N = [3, 4, 5]   [paper: exactly {3,4,5}]
+    paper's bound 6N^3/pi^2 > 120 for all N>=6: True  (at N=6: 131.31 > 120)
+
+  step 2: the metallic grammar R^m L^m, paper asserts its 'conductor' is m^2+4
+    reading (a) -- 'conductor' means the DISCRIMINANT m^2+4 of x^2-mx-1:
+      m with m^2+4 in {3,4,5}: [0, 1]   (m=0 is not a metallic word)
+      => unique metallic m = 1.   reading (a) makes the proof COMPLETE.
+
+    reading (b) -- 'conductor' in its standard number-theoretic sense:
+      the conductor f of the order Z[x]/(x^2-mx-1) inside its maximal order,
+      i.e. disc = f^2 * d_K with d_K the fundamental discriminant.
+      m   m^2+4      d_K    conductor f    f in {3,4,5}?
+      1   5         5       1              no
+      2   8         8       1              no
+      3   13        13      1              no
+      4   20        5       2              no
+      5   29        29      1              no
+      6   40        40      1              no
+      8   68        17      2              no
+      11  125       5       5              YES  <== |SL(2,Z/5)| = 120 = 2I (E8)
+      12  148       37      2              no
+      14  200       8       5              YES  <== |SL(2,Z/5)| = 120 = 2I (E8)
+      16  260       65      2              no
+      20  404       101     2              no
+      24  580       145     2              no
+      28  788       197     2              no
+      29  845       5       13             no
+      32  1028      257     2              no
+      36  1300      13      10             no
+      39  1525      61      5              YES  <== |SL(2,Z/5)| = 120 = 2I (E8)
+      40  1604      401     2              no
+      44  1940      485     2              no
+      48  2308      577     2              no
+      52  2708      677     2              no
+      56  3140      785     2              no
+
+      metallic m>1 whose ORDER-CONDUCTOR is a McKay modulus: [(11, 5), (14, 5), (39, 5)]
+
+  step 1 exact: True | bound exact: True | reading (b) leaves m=1 unique: False
+  OUTCOME: H3-GAP
+
+### H4 -- the abstract's ledger summary vs the section 7 table (CONFIRMATORY)
+
+  section 7 table rows (input | type):
+    $\ell$                 | dimensionful unit
+    $\sigma$               | continuous, dimensionless
+    $\lambda$              | continuous, dimensionless
+    $\PP(B_0)$             | $\leq 3$ continuous
+    the chirality bit      | one $\Z/2$
+    the arrow label        | one $\Z/2$, finite
+    family, VEV, filling   | finite menus
+
+  counted: dimensionful=1  continuous-dimensionless=2  projective=1  discrete/finite=3  TOTAL ROWS=7
+
+  abstract's enumeration, verbatim:
+    "...freedom ledger withone dimensionful unit that is external by design, two continuous dimensionless anchors, a
+projective line of Higgs data cut to within one condition of a point set, and two discrete labels ---
+one of which is a relational invariant of a pair, belonging to neither relatum, and requiring no act
+of selection."
+
+  abstract says: one dimensionful (True), two continuous dimensionless (True), a projective row (True), and TWO discrete labels.
+  table has 3 discrete/finite rows, not 2.
+  the 3 discrete rows are: ['the chirality bit', 'the arrow label', 'family, VEV, filling']
+  DIRECTION OF THE ERROR: the abstract omits a ledger row, so it
+  UNDERSTATES the construction's freedom. The error is in the paper's favour,
+  in the abstract, in the sentence the paper calls its honest summary.
+  OUTCOME: H4-MISMATCH
+
+### H5 -- the falsifier matrix's referents against the body (CONFIRMATORY)
+
+  term                 in falsifiers   defined/introduced in sections 1-8
+    anchored             yes             NO
+    odd-parity           yes             NO
+    correlation          yes             NO
+    registerable         yes             yes
+    gaugeable            yes             yes
+    bounded-height       no              yes
+    projective Higgs     yes             yes
+
+  DANGLING (used in a falsifier, never introduced in the body): ['anchored', 'odd-parity', 'correlation']
+  OUTCOME: H5-DANGLING
+
+### H7 -- Gate 5 read of the draft (BLIND)
+
+  sin^2 theta_W = 3/8    occurrences: 3
+      [TARGET-OF-NEGATIVE] ...e report the misses.} $\sin^2\theta_W = 3/8$ is a known grand-unified relation reproduced, not predicted, and its run to $M_Z$ misses at $16\sigma$. Three chiral generations are not derived.
+      [TARGET-OF-NEGATIVE] ...\begin{nonclaim} that $\sin^2\theta_W = 3/8$ is a prediction. It is a known grand-unified relation, reproduced; the run to $M_Z$ misses at $16\sigma$. \end{nonclaim} \begin{nonclaim} that an
+      [TARGET-OF-NEGATIVE] ...theory. \item \textbf{$\sin^2\theta_W = 3/8$.} A known grand-unified relation at the unification scale, \emph{reproduced}. Its run down misses badly, and we report the miss in the abstract r
+  16 sigma               occurrences: 2
+      [TARGET-OF-NEGATIVE] ...edicted, and its run to $M_Z$ misses at $16\sigma$. Three chiral generations are not derived. No unique four-dimensional field theory follows, and unrestricted uniqueness is refuted. Finally
+      [TARGET-OF-NEGATIVE] ... reproduced; the run to $M_Z$ misses at $16\sigma$. \end{nonclaim} \begin{nonclaim} that any dynamics, rate, or action is supplied. \end{nonclaim} \begin{nonclaim} that the observer's bit is
+  M_Z                    occurrences: 2
+      [TARGET-OF-NEGATIVE] ...roduced, not predicted, and its run to $M_Z$ misses at $16\sigma$. Three chiral generations are not derived. No unique four-dimensional field theory follows, and unrestricted uniqueness is r
+      [TARGET-OF-NEGATIVE] ...ified relation, reproduced; the run to $M_Z$ misses at $16\sigma$. \end{nonclaim} \begin{nonclaim} that any dynamics, rate, or action is supplied. \end{nonclaim} \begin{nonclaim} that the ob
+
+  every numeral appearing in section 4 (the paper's one explicit derivation):
+    ['1', '2', '3', '4', '6', '15', '18', '27', '72', '222', '252']
+    all are integers: dimensions, multiplicities, counts and hypercharges in
+    the integral normalisation. No measured value enters the derivation.
+  OUTCOME: H7-CLEAN
+
+==============================================================================
+SUMMARY: H1-DEFECT | H2-CONFLATION | H3-GAP | H4-MISMATCH | H5-DANGLING | H7-CLEAN
+==============================================================================
+
+### H3 addendum -- 'conductor' against the PROGRAMME'S OWN usage
+
+    m=1: R^1L^1 = [[2, 1], [1, 1]]  trace=3  D=t^2-4=5  d_K=5  order-conductor f=1   m^2+4=5
+    m=2: R^2L^2 = [[5, 2], [2, 1]]  trace=6  D=t^2-4=32  d_K=8  order-conductor f=2   m^2+4=8
+    m=3: R^3L^3 = [[10, 3], [3, 1]]  trace=11  D=t^2-4=117  d_K=13  order-conductor f=3   m^2+4=13
+    m=4: R^4L^4 = [[17, 4], [4, 1]]  trace=18  D=t^2-4=320  d_K=5  order-conductor f=8   m^2+4=20
+    m=5: R^5L^5 = [[26, 5], [5, 1]]  trace=27  D=t^2-4=725  d_K=29  order-conductor f=5   m^2+4=29
+    m=6: R^6L^6 = [[37, 6], [6, 1]]  trace=38  D=t^2-4=1440  d_K=40  order-conductor f=6   m^2+4=40
+
+    exact: trace(R^m L^m) = m^2 + 2, so D = (m^2+2)^2 - 4 = m^2 (m^2 + 4).
+    Hence for the WORD, the order-conductor is m * f_0 (f_0 = conductor of the
+    order of discriminant m^2+4) -- and it equals m exactly when m^2+4 is
+    fundamental. That is the programme's own 'content(R^m L^m) = m' (B204/L42).
+
+    THE PROGRAMME USES 'CONDUCTOR' IN THE STANDARD SENSE ELSEWHERE:
+      docs/OPEN_LEADS.md L39: "f=8 (t=18, D=320=2^6*5, the golden field with
+      conductor 8)"  -- and indeed 320 = 8^2 * 5, so f=8 is D = f^2 d_K.
+    Under THAT sense, the conductor of R^m L^m is m (or m*f_0), NOT m^2+4.
+    m^2+4 is the DISCRIMINANT of the metallic number x^2 - m x - 1, i.e. D/m^2,
+    and the corpus calls it the LEVEL: L42, "k=3 is the golden level (n=5=m^2+4)".
+
+    So the theorem's substance is right under N = m^2 + 4 = the level, and the
+    defect is the WORD: 'conductor' names a different quantity in this
+    programme's own documents, and in number theory generally.
+    REPAIR: one word -- 'discriminant', or 'the level n = m^2+4'.

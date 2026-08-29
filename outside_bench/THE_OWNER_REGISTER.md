@@ -557,3 +557,28 @@ This addendum is the only mutation.
 | R47 | **"what is the conclusion of the last chain of runs? what did we probe, what did we get, what does it say about SM and physics?"** (2026-08-29) | `THE_LAST_CHAIN.md`; memos 137, 140–145, all GREEN | — (asked now) | **TWO THREADS. (A) THE LABORATORY END — L173, the programme's only live laboratory-prediction prereg. Its differential DISSOLVES COMPLETELY: isospectrality is an identity for any reversal pair (proved on a random word); the Fibonacci-parity breaking is the classical Sturmian palindromic-prefix defect; the 6–5 complementary split is FORCED TO TIE (H_L = J H_R J ⟹ every reflection-symmetric detector ties by construction — the 6–5 was a ONE-ENDED-DETECTOR artefact, two-ended reads 7–7); and the one window where that theorem fails yields an asymmetry EVERY Sturmian slope shares, with **log 2 beating golden** at a smaller window. **All three parts reduce to "the halves are reversals."** B1095's own "detector volatility" diagnosis was also corrected — it is a genuine discontinuity of the left chain at ρ = α, so the named upgrade was aimed at a defect that is not there. **(B) THE VALUES END** — with the object's own complex volume added to B1137's basis (verified independent), **0 of 18 sealed SM targets** involve a regulator, after the unmodified basis reproduced B1137's headline as a gating control: **the NINTH value-crossing negative** (B1126 was the eighth). **THE ASYMMETRY THAT MATTERS:** Thread B **strengthens an existing negative** (a hole closed, nothing lost); Thread A **REMOVES AN ASSET** (a prediction the programme held is not a prediction). **Those must never be added into the same column.** **ON THE SM:** the values end stays shut and more firmly; **the laboratory end is now shut too, and that is new**; so the programme's **contact surface with experiment is currently empty at both ends**. What survives is the exact structural mathematics — the forced E₆ skeleton, the SM-shaped content, the one-bit observer accounting, the determinant identities forbidding inflation and a growth exponent. **Structure, not values; and now not signatures either** — consistent with codex's *"genuine structural mathematics, but not yet a parameter-free Standard Model or TOE"*, narrowed further | **THE LARGER YIELD WAS INSTRUMENTAL, not physical:** bench error #13 (rank-1 exclusion needs full SU(2), codex's catch); the floating-ref class across six certificates (codex's catch, pinned — and pinning proved it, 769 → 772); a self-scan file whose output was **reproducible from no commit at all**; **three detector false positives of my own** (a `vol`/"involves" substring, a keyword staleness flag, an audit harness clobbering its own captures); and a **preregistration defect** — a percentile criterion with no multiplicity correction and no covariate control fired G-EXCESS on noise. **Six cells, no physics, five instrument corrections: the instruments were what needed attention** |
 
 This addendum is the only mutation.
+
+
+---
+
+## ADDENDUM 46 (2026-08-29) — ROW R48: THE HOSTILE READ OF THE PAPER
+
+**Occasion.** Not an owner-voiced question but an owner-designated task: this session's assignment
+is a hostile review of the paper, and the paper's own SPEC lists *"a hostile read before
+submission"* as build-plan item 6 and as one of four things outstanding. Registered here because
+the standing rule books what this seat was asked for, and this is the first assignment in the
+register that came from the paper rather than from the owner's voice.
+
+| row | question / task | answer | where |
+|---|---|---|---|
+| **R48** | Hostile-read P3, the paper. | **Six defects, none fatal; the mathematics survives every check.** The displayed anomaly forcing is exact as a polynomial identity; the 252/222/2 census reproduces exactly in own code; Gate 5 is clean. What fails is the paper's *account* of its own mathematics. The two strongest findings — the only theorem resting on a word (`conductor`) that the programme's own corpus uses for a quantity under which the theorem is **false**; and §4's headline numbers being unreproducible from the paper's text, with the six-letter alphabet called five-letter and the condition doing 88% of the killing never written down — came from the **two blind cells**. The four cells I had scoped by reading first produced the four weaker findings. Five of six repairs are one clause or one word. | memo 148 |
+
+**What this row is for.** The register exists so no question this seat was asked disappears. This
+row records the assignment *and* the one thing the cell learned about itself: **a hostile reader's
+first-pass impressions were the least valuable thing they produced.** The seal's blind/confirmatory
+split is what made that measurable, and it should be standing practice for any future read of a
+document this bench has already opened.
+
+**And the error the row must carry.** Bench error #14: the first version of cell H2 charged the
+paper with a mislabelling that exact enumeration refuted, and the mistake was to conflate two
+results the paper also conflates. Filed in the memo at the point of occurrence.
