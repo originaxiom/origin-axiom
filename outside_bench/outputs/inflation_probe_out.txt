@@ -1,0 +1,69 @@
+N1 — THE RECORD'S TOWER MAPS, and their Jacobians:
+    T (Fricke/golden): [z, x, x*z - y]
+        J_T = [[0, 0, 1], [1, 0, 0], [z, -1, x]]
+    L (Thue-Morse/layering): [z, z, -x**2 + x*y*z - y**2 + 2]
+        J_L = [[0, 0, 1], [0, 0, 1], [-2*x + y*z, x*z - 2*y, x*y]]
+
+N2 — THE DETERMINANTS, as IDENTITIES in Z[x,y,z] (not point values):
+    det J_T = -1      <- constant, independent of the point
+    det J_L = 0      <- identically zero
+    (J_L's first two rows are identical: [[0, 0, 1]] == [[0, 0, 1]] — L sends x and y to the same coordinate,
+     so one direction is destroyed at every step.)
+
+    sigma = [[1, 1], [1, 0]]   det = -1   eigenvalues [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]
+    sigma^2 = [[2, 1], [1, 1]]   det = 1   (B721's Anosov matrix)
+    eigenvalue product = 1 — one stretches by phi^2, the other
+    contracts by phi^-2: RECIPROCAL, exactly compensating.
+
+N3 — THE SUM OF LYAPUNOV EXPONENTS (= log|det J|, by definition):
+    T      : log|det J_T| = log|-1| = 0        -> VOLUME-PRESERVING
+    L      : det J_L = 0                          -> VOLUME-DESTROYING
+    sigma  : log|det sigma| = log 1 = 0           -> VOLUME-PRESERVING
+    Every one of the record's tower maps therefore has ZERO or
+    NEGATIVE-INFINITE net volume growth per step, AT EVERY POINT,
+    as an identity rather than as a fact about some orbit.
+
+N4 — ON THE RECORD'S OWN POINT AND ORBIT (P0 = (2, 2, 2-omega)):
+    level 0: det J_T = -1
+    level 1: det J_T = -1
+    level 2: det J_T = -1
+    level 3: det J_T = -1
+    the determinant does not drift along the orbit — it cannot,
+    because it is a constant polynomial.
+
+N5 — THE VERDICT (the preregistered fork):
+  No tower map has |det J| > 1 anywhere.  ==> OUTCOME I-B.
+  ROW 2's FIRST PROBE RETURNS A STRUCTURAL OBSTRUCTION, NOT A STALL:
+    * e-folds count the logarithm of a VOLUME RATIO.  The record's tower
+      has log|det| = 0 identically (T, sigma) or det = 0 identically (L).
+      So the e-fold count is not "unavailable pending a computation" — it
+      is IDENTICALLY ZERO or undefined, and no choice of coordinates,
+      depth-grading or entropy can change a determinant identity.
+    * a spectral TILT needs a preferred sign of growth across modes.
+      Volume preservation with reciprocal eigenvalue pairs (sigma^2:
+      phi^2 and phi^-2, product exactly 1) supplies expansion and
+      contraction in exactly compensating measure — which is precisely
+      S002/B124's banked "reciprocal-closed, two-headed time" finding,
+      NOW WITH ITS MECHANISM: the closure is forced by det = 1.
+  PROPOSED GRADE CHANGE for the cosmology ledger's row 2: from MISSING
+  (no dedicated arc) to a PROVED NEGATIVE with the mechanism named —
+  the object cannot inflate because its tower is measure-preserving by
+  identity.  This is the same SHAPE as the scale-torsor no-go (no
+  dimensionful rate) but a DIFFERENT and independent theorem: it forbids
+  the dimensionless volume growth too.
+
+A SHARPENING THE RECORD SHOULD CARRY (this cell's second finding):
+  memo 90 types the expansion FORM as object-side, "ratio phi per tick".
+  That is TRUE and UNCHANGED — but sigma has det = -1, so the phi is a
+  stretch in ONE direction against a 1/phi contraction in the other.
+  THE RECORD'S EXPANSION IS A SHEAR, NOT A DILATION: anisotropic, with
+  zero net volume change.  Any reading of memo 90 as an isotropic
+  FRW-like expansion is wrong, and the LEAP-1 payment (which asserts the
+  FORM is object-side) inherits this caveat: what is object-side is a
+  volume-preserving shear form, which is NOT what an FRW scale factor is.
+  Filed here so the payment cannot drift into claiming more than it buys.
+  FENCE: this cell tests NET VOLUME GROWTH, which is what e-folds and
+  tilts measure.  It does not claim the object is dynamically trivial —
+  it has positive entropy log phi (S045) and a genuine Anosov flow
+  (B721); those are SHEAR entropies, and shear is not expansion.
+  Gate 5 untouched.

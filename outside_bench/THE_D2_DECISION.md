@@ -257,3 +257,26 @@ statement, not a retrofit. And the sharpest witness is **(1,7) vs (2,7)**:
 **~21%** of the distance from chance to coherence. **Not "the census
 nearly supported it." It did not. The ladder did.** This addendum is the
 only mutation.
+
+### ADDENDUM 3 (2026-08-29) — **CONFIRMED: the payment is no longer provisional**, and one caveat arrives from elsewhere
+Shown the authority flag, both options and the one-edit reversal, the
+owner replied **"do as you recommend."** That is an **informed
+confirmation** — unlike the first "go", it was given with the ambiguity
+named and the alternative on the table. **LEAP-1 is PAID**, under
+**SCOPE-1a** (defensible) and **SCOPE-1b** (not established, separately
+priced), with all refuters armed and weld-book addendum 6's override
+paragraph standing. **PROVISIONAL is lifted.**
+
+Also adopted from cc: **the ladder result is banked standalone**
+(`THE_LADDER_RESULT.md`) — 29 rungs, decoupled from LEAP-1 entirely, so
+it survives unchanged if the payment is ever reversed.
+
+⚠ **A CAVEAT ON WHAT THE PAYMENT BUYS, discovered after signing** (memo
+132, working the ranked remainder): memo 90's expansion **FORM** is
+object-side — true and unchanged — but **σ has det = −1**, so the φ is a
+stretch in one direction against a 1/φ contraction in the other.
+**The record's expansion is a SHEAR, not a DILATION:** anisotropic, zero
+net volume change. **What LEAP-1 puts object-side is a volume-preserving
+shear form, which is not what an FRW scale factor is.** Filed at the point
+of discovery so the payment cannot drift into claiming more than it buys.
+This addendum is the only mutation.
