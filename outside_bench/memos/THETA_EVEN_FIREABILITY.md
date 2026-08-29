@@ -85,3 +85,33 @@ than the ledger assumes.** Named, not claimed, not run.
 
 **Fence.** The shot is not fired, no measured value is touched, and the
 licensed-row ledger is unchanged. Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-29) — THE STAKES WERE OVERSTATED (memo 136), and one pre-work item is now DISCHARGED
+- **⚠ Correction to P4.** This memo leaned on I3's word **"irreversible"**
+  and called firing it *"spending an irreversible resource."* **The
+  consumption ledger's own governing note is weaker**, and it is **the
+  owner's own catch (2026-08-19)**: *"the consumption ledger books
+  **contact pairings under seals, not rows-forever**"* — with the worked
+  precedent **B1075**, where the tones row, though marked CONSUMED, had
+  its kind-correct moduli pairing seal afterwards *"with the second-shot
+  status priced."* **Firing the mirror row would spend that PAIRING, not
+  the row forever.** **The F-B verdict is unchanged** — the shot is still
+  not fireable because **u is unpinned** — but the cost of a bad shot is
+  **a spent pairing plus second-shot pricing on any re-pose**: real, but
+  not total.
+- **One of the four pre-work items is now DISCHARGED:** the
+  **contact-quantity kind-row adjudication** (memo 136). Its result
+  sharpens the election rather than easing it — the mirror row's
+  **independent content is exactly three values** {¼, φ/4, 1/(4φ)},
+  because **5 of its 8 magnitudes are the tone magnitudes** and the tones
+  row is consumed; and the only kind-admissible pairing **discards the
+  sign**, which is the row's distinguishing structure.
+- **Three pre-work items remain outstanding:** the even-channel AC6 run,
+  R7's look-elsewhere ledger, and the T_m non-commuting frame problem.
+  **u remains unpinned** — and the ledger names how it was meant to
+  arrive: *"only AFTER a constructed Λ pins u from field data (AC2's
+  redaction test; **never a fit**)."* **Λ is derived (B1070/B1071); AC2's
+  redaction test has not been run.** That is the sharpest statement of
+  the blocker: not "u is missing", but **"u's pinning step was never
+  executed."**
+This addendum is the only mutation.
