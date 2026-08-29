@@ -139,3 +139,43 @@ not-forced directive applied to its most important instance.
 execute the moment 5A returns." Pay iff monotone; non-monotone
 refutes the joint LEAP-1+W1 package and the choice becomes AMS-clock
 XOR HT-clock. This addendum is the only mutation.
+
+### ADDENDUM 4 (2026-08-29) — THE D2 GATE RAN AND FIRED NEITHER BRANCH; the scope question is MEASURED and the two readings are NOT symmetric (memo 130)
+Addendum 3 signed **"pay iff monotone."** B1197 (PROVED, controls
+two-sided) returned **SPLIT**: the (1,n) ladder monotone over 29 rungs,
+the 78-closing census not (15 violations), every p ≥ 2 family violating
+internally. **Neither signed branch fires**, so the rule as written
+cannot execute. Memo 130 measures the two readings on B1197's own data
+rather than arbitrating between them:
+- **The variable reading is refuted more strongly than reported, and by
+  a law banked BEFORE the run.** B289's sign law — B1197's own positive
+  control at **156/156** — gives CS(p,−q) = −CS(p,q) at the **same
+  volume**, so one volume carries two opposite CS values for all 39
+  mirror pairs: **signed CS was never a function of Vol.** |CS| is
+  already the repair, and the repair fails too — seven closings inside a
+  volume window of width **0.005149** carry |CS| spanning **0.143940**
+  (28× faster variation), at the near-cusp end. *"The same clock up to
+  monotone reparameterization"* **requires a function**; this fails
+  **single-valuedness**, not merely monotonicity.
+- **No weaker version survives:** near-cusp restriction never cleans the
+  census (Vol ≥ 1.95 leaves 5 of 13), and the global relation is weak
+  (15 of 38 against a null of 19.0 ± 1.8; Kendall τ = −0.174).
+- **The trajectory reading is cleaner than reported.** The ladder is
+  **not post-hoc**: B289 independently names it *the scale ladder*, and
+  **this book's own addendum 2, written before the run**, preregistered
+  it as the test with the census as the *extension*.
+- **The effective sample is 39, not 78** — the sign law doubles every
+  point. (cc's 78 is correct as a count of closings.)
+**CONSEQUENCE FOR THE DECISION SHEET.** D2 reduces to one question —
+*is a clock identified along one realized history, or between two
+variables on the space of possible histories?* — because **the second is
+dead either way**. Options are priced in `THE_D2_DECISION.md`; the
+bench recommends **Option A: pay LEAP-1 with the scope premise written
+in as its own line and a refuter armed** (the SP-1 shape), on the ground
+that declining or holding would take its authority from a test nothing
+could have passed. **Option D (reformulate the variable) is closed;
+Option C (hold) is now a decision to hold permanently, since no further
+run can break the tie.** **LEAP-1's own price is untouched** — the
+identification remains unproven and B721's tracial result still forces an
+imported external weight. **The decision itself remains the owner's and
+is not taken here.** This addendum is the only mutation.
