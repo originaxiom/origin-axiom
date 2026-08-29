@@ -1,24 +1,24 @@
 R1 — the two anatomies, from primary:
-    kill_graph: 769 closure records
-    CANONICAL face labels (15): ['axioms', 'being', 'cascade', 'character-variety', 'children', 'congruence-tower', 'coupled-double', 'emittance-eigenvalues', 'emittance-lengths', 'hearing', 'infinite-hecke', 'meeting', 'mtc-overlay', 'none', 'sln-tower']
-    atlas: 1095 probes, 19 lexicon MOTIFS
+    kill_graph: 772 closure records
+    CANONICAL face labels (16): ['axioms', 'being', 'cascade', 'character-variety', 'children', 'congruence-tower', 'coupled-double', 'emittance-eigenvalues', 'emittance-lengths', 'hearing', 'infinite-hecke', 'meeting', 'mtc-overlay', 'none', 'sln-tower', 'value']
+    atlas: 1108 probes, 19 lexicon MOTIFS
       ['amphichiral_cp', 'apolynomial', 'dickson_tower', 'eisenstein', 'figure_eight', 'firewall', 'five_web', 'golden', 'hyperbolicity_split', 'kappa', 'lorentzian', 'markov_cubic', 'metallic', 'quasicrystal', 'symplectic', 'torsion', 'trace_map', 'wrt_quantum', 'z3_generation']
     NAME-OVERLAP: 0 (none — the CHANGELOG is right)
 
-    *** DATA-QUALITY FINDING, filed: 8 of the 23 distinct
+    *** DATA-QUALITY FINDING, filed: 8 of the 24 distinct
     `faces_consulted` values are FREE-TEXT PROSE, not face labels —
     whole sentences with citations pasted into a categorical field.
     Example (truncated): B1134 (the relay naming the 64 as the value target); B1138 (the fork z=0 IS the invariant-...
     They are excluded below; the field needs a schema check.
 
-R2 — THE JOIN: 653 arcs carry BOTH a face and a motif.
-    (kill_graph ids: 769 · atlas ids: 1095)
+R2 — THE JOIN: 654 arcs carry BOTH a face and a motif.
+    (kill_graph ids: 772 · atlas ids: 1108)
 
-R3 — THE CONTINGENCY TABLE (13 faces x 19 motifs; 205 nonzero cells of 247 possible = 83.0% filled):
+R3 — THE CONTINGENCY TABLE (14 faces x 19 motifs; 211 nonzero cells of 266 possible = 79.3% filled):
 
                         amphic apolyn dickso eisens figure firewa five_w golden hyperb  kappa lorent markov metall quasic symple torsio trace_ wrt_qu z3_gen
 axioms                       0      0      0      0      1      0      0      1      0      0      0      0      0      0      0      0      0      0      0
-being                      148     36     37    245    195    224     11    189     12     66     62     20    108     19     51    120    137     87     91
+being                      149     36     37    246    195    224     11    189     12     67     62     21    109     19     51    120    138     87     91
 children                    37     10      7     56     62     51      2     42      9     18     14      6     28      2     14     47     37     14     24
 congruence-tower            15      1      2     48     33     63      5     58      0     16     10      3     47      3      6     53     30     27     21
 coupled-double              22      6      1     36     13     44      1     46      2     12     10      2     31      8      8     22     24     12     15
@@ -30,11 +30,12 @@ meeting                     36     17      8     44     53     59      7     55 
 mtc-overlay                 51     15      5     60     54     88      6     94      6     36     21      1     53      7      5     43     39     74     17
 none                         1      0      1      2      1      3      0      2      0      1      0      1      2      0      1      2      1      1      1
 sln-tower                   19     17     59     44     58     34      0     51      1     19     17     12     75      6     25     20     67     11     10
+value                        1      0      0      1      0      0      0      0      0      1      0      1      1      0      0      0      1      0      0
 
 R4 — THE VERDICT (criterion fixed in advance):
     face                     arcs  motifs  top-motif share
     axioms                      2       2           50.0%
-    being                    1858      19           13.2%
+    being                    1864      19           13.2%
     children                  480      19           12.9%
     congruence-tower          441      18           14.3%
     coupled-double            315      19           14.6%
@@ -46,29 +47,30 @@ R4 — THE VERDICT (criterion fixed in advance):
     mtc-overlay               675      19           13.9%
     none                       20      14           15.0%
     sln-tower                 545      18           13.8%
+    value                       6       6           16.7%
 
     motif                    arcs   faces   top-face share
-    amphichiral_cp            418      12           35.4%
+    amphichiral_cp            420      13           35.5%
     apolynomial               126      10           28.6%
     dickson_tower             143       9           41.3%
-    eisenstein                697      12           35.2%
+    eisenstein                699      13           35.2%
     figure_eight              620      13           31.5%
     firewall                  756      12           29.6%
     five_web                   47       8           29.8%
     golden                    772      13           28.5%
     hyperbolicity_split        50       8           26.0%
-    kappa                     290      12           33.4%
+    kappa                     292      13           33.2%
     lorentzian                208      10           29.8%
-    markov_cubic               82       9           35.4%
-    metallic                  555      12           29.7%
+    markov_cubic               84      10           34.5%
+    metallic                  557      13           29.6%
     quasicrystal               94       8           45.7%
     symplectic                151      10           33.8%
     torsion                   455      12           26.4%
-    trace_map                 528      12           27.5%
+    trace_map                 530      13           27.4%
     wrt_quantum               360      12           25.8%
     z3_generation             248      11           36.7%
 
-    faces concentrated (>=80%) on one motif: 0/13
+    faces concentrated (>=80%) on one motif: 0/14
     motifs concentrated (>=80%) on one face: 0/19
     ==> VERDICT: ORTHOGONAL AXES
 

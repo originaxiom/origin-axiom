@@ -47,11 +47,25 @@ L5 — THE CONSERVATION GATES (the reason rank is the wrong instrument):
     t3-CONSERVATION GATE: all 45 nonzero C triples have t3 summing to 0: PASS
     COLOUR-CONSERVATION GATE: every nonzero C triple has colour weight summing to 0: PASS
     Hu components carry t3 = [-1, 1], Hd components t3 = [-1, 1] — ONE DOUBLET EACH.
-    => t3-conservation forces the Hu x Hd block ANTIDIAGONAL, so its
-       rank lies in {0, 2}: RANK 1 IS IMPOSSIBLE.  The observed block is
-       [[0,1],[-1,0]] — the SU(2) epsilon tensor, nondegenerate.
-    => colour-conservation likewise forces the D x Dc block to be a
-       permutation matrix: rank in {0, 3}, i.e. the SU(3) delta.
+    => t3-conservation forces the Hu x Hd block ANTIDIAGONAL.
+    *** CORRECTION (BENCH ERROR #13), caught by CODEX and upheld: this
+        cell originally concluded 'antidiagonal => rank in {0,2}, rank 1
+        IMPOSSIBLE'.  THAT IS A NON-SEQUITUR — an antidiagonal block
+        [[0,b],[c,0]] with exactly ONE nonzero entry has RANK 1, and it
+        conserves t3 perfectly.  Cartan conservation does NOT exclude
+        rank 1.  WHAT DOES: FULL SU(2) INVARIANCE — the invariant pairing
+        of two doublets to a singlet is UNIQUE up to scale (eps^{ab}), so
+        the block must be lambda*[[0,1],[-1,0]], giving rank 0 or 2 and
+        never 1.  THE VERDICT IS UNCHANGED (the observed block IS eps, and
+        the count of invariant functionals is still ONE); the STATED
+        REASON was too weak and is repaired here.  codex's wording is the
+        correct one: 'full SU(2), rather than merely Cartan conservation,
+        forces the lambda block to rank zero or two'.
+    The observed block is [[0,1],[-1,0]] — the SU(2) epsilon tensor.
+    => colour-conservation likewise constrains the D x Dc block; by the
+       SAME correction, it is FULL SU(3) invariance (the unique delta^i_j
+       contraction), not Cartan colour-weight conservation alone, that
+       forces rank in {0, 3}.  The observed block is the delta.
 
 L6 — THE VERDICT against B1206's cut ledger:
     memo 80's banked row reproduced exactly: N1 -> 2 nonzero, N2 -> 0 nonzero.

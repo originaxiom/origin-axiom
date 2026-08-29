@@ -54,3 +54,27 @@ check** upstream. Two of the 15 remaining labels (`cascade`,
 **Fence.** This is repository metadata, not an object claim: the join
 covers only arcs present in both artifacts, and arcs missing a face or
 a motif are outside it. Gate 5 untouched.
+
+### ⚠ ADDENDUM 1 (2026-08-29) — NUMBERS CORRECTED under the pinned source (codex's floating-ref catch); the VERDICT is unchanged
+codex's evidence-contract audit charged that *"multiple outside scripts
+depend on **floating Git refs**"*. **Correct, and this memo is the proof.**
+Its certificate read `origin/main` — a **moving** ref — so the banked
+output no longer matches a re-run. Re-run against the now-**pinned commit**
+(main @ B1212, `3c58527b`):
+
+| | banked | at the pin |
+|---|---|---|
+| kill_graph closure records | 769 | **772** |
+| canonical face labels | 15 | **16** (new: `value`) |
+| arcs carrying both | 653 | **654** |
+| contingency table | 13 × 19 | **14 × 19** |
+| nonzero cells | 205 of 247 = 83.0% | **211 of 266 = 79.3%** |
+
+**THE VERDICT IS UNCHANGED AND SURVIVES CLEANLY: ORTHOGONAL AXES** —
+**0/14** faces and **0/19** motifs concentrated at the ≥80% criterion.
+The data-quality finding on `faces_consulted` also stands.
+
+**All figures in this memo should now be read from the pinned re-run.**
+The certificate is fixed at the source (`certificates/_oa_source.py`), so
+this class of drift cannot recur in this lane. This addendum is the only
+mutation.

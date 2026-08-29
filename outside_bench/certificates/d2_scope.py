@@ -45,13 +45,9 @@ measured physical value enters and no clock identification is asserted.
 """
 import os, json, random, itertools, statistics, subprocess
 
-REPO = os.environ.get("OA_REPO", os.path.abspath(
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")))
-REF = os.environ.get("OA_REF", "origin/main")
-PATH = "frontier/B1197_clock_coherence/verification/b4_global.json"
-r = subprocess.run(["git", "-C", REPO, "show", f"{REF}:{PATH}"],
-                   capture_output=True, text=True)
-DATA = json.loads(r.stdout) if r.returncode == 0 else json.load(open(os.path.join(REPO, PATH)))
+import _oa_source as OA          # PINNED source (codex evidence-contract fix)
+DATA = OA.primary_json(
+    "frontier/B1197_clock_coherence/verification/b4_global.json")
 rows = DATA["rows"]
 TOL = 1e-9
 CUSP = 2.029883212819

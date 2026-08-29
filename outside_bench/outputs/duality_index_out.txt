@@ -1,6 +1,6 @@
 D1 — THE CENSUS (mechanical, from primary; no hand-written list):
-    primary documents mentioning a duality: 141
-    '<X> duality' phrase occurrences: 238 across 49 distinct heads
+    primary documents mentioning a duality: 143
+    '<X> duality' phrase occurrences: 243 across 51 distinct heads
     the named dualities the corpus actually carries (count >= 2):
         74  s-duality
         50  self-duality
@@ -16,10 +16,12 @@ D1 — THE CENSUS (mechanical, from primary; no hand-written list):
          3  rt-duality
          3  transpose-duality
          3  aubry-duality
+         3  serre-duality
          2  reciprocal-duality
          2  kernel/image-duality
          2  milnor-duality
          2  closed-sol/cusped-hyperbolic-duality
+         2  internal-duality
          2  proliferates-duality
          2  chirality-duality
          2  u-duality

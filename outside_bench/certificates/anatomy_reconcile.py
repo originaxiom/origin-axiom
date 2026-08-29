@@ -35,18 +35,11 @@ Gate 5 untouched (repository metadata only; no object claim).
 """
 import json, collections, os, subprocess
 
-REPO = os.environ.get("OA_REPO", os.path.abspath(
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")))
-REF = os.environ.get("OA_REF", "origin/main")
+import _oa_source as OA          # PINNED source (codex evidence-contract fix)
 def primary(path):
-    """Read a banked artifact from the repository itself — the named ref
-    (origin/main, the record's primary) first, the worktree only as a
-    fallback — so this cell reproduces without scratch files."""
-    r = subprocess.run(["git", "-C", REPO, "show", f"{REF}:{path}"],
-                       capture_output=True, text=True)
-    if r.returncode == 0:
-        return json.loads(r.stdout)
-    return json.load(open(os.path.join(REPO, path)))
+    """Read a banked artifact at the PINNED COMMIT (was origin/main, a
+    moving ref -- codex's audit charged this and was right)."""
+    return OA.primary_json(path)
 
 KG = primary("frontier/B738_pathfinder_compiler/kill_graph.json")
 AT = primary("scripts/atlas/atlas_data.json")

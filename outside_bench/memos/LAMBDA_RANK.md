@@ -94,3 +94,29 @@ again.
 **Fences.** Zero/nonzero patterns, ranks and counts only; nothing here
 asserts that any coupling takes any value or that the λ-term must
 vanish. Gate 5 untouched.
+
+### ⚠ ADDENDUM 1 (2026-08-29) — BENCH ERROR #13, caught by CODEX and UPHELD: the exclusion of rank 1 needs FULL SU(2), not Cartan conservation
+codex's audit of B1205–B1208 states: *"**full SU(2), rather than merely
+Cartan conservation, forces the lambda block to rank zero or two**."*
+**They are right and this memo was wrong.**
+
+This memo argued: t₃-conservation ⟹ the Hu × Hd block is antidiagonal ⟹
+**rank ∈ {0,2}, rank 1 impossible.** **The last step is a non-sequitur.**
+An antidiagonal block [[0,b],[c,0]] with **exactly one** nonzero entry has
+**rank 1** — and it conserves t₃ perfectly. Verified: (b,c) = (1,0) and
+(0,1) both give rank 1. **Cartan conservation does not exclude rank 1.**
+
+**What does:** full **SU(2)** invariance. The invariant pairing of two
+doublets to a singlet is **unique up to scale** (ε^{ab}), so the block must
+be λ·[[0,1],[−1,0]] — rank 0 or 2, never 1.
+
+**The verdict is unchanged:** the observed block *is* ε, and the count of
+gauge-invariant functionals is still **one**. **The stated reason was too
+weak**, and is repaired in the certificate. The same repair applies to the
+colour block: it is full **SU(3)** invariance (the unique δ^i_j
+contraction), not Cartan colour-weight conservation, that forces rank
+∈ {0,3}.
+
+**Credit: codex.** This is the second time an outside seat has corrected
+this bench on a *reason* while leaving the *result* standing — the pattern
+worth keeping. This addendum is the only mutation.

@@ -62,3 +62,20 @@ the ledger (111) and the fence theorem (109) each reached from their
 own direction. Four instruments, one statement — evidence that the bit
 is a fact about the record rather than an artefact of any instrument.
 Gate 5 untouched.
+
+### ⚠ ADDENDUM 1 (2026-08-29) — CENSUS NUMBERS CORRECTED under the pinned source (codex's floating-ref catch)
+Same defect as memo 126's: the census read `origin/main`, a **moving**
+ref. Re-run at the **pinned commit** (main @ B1212, `3c58527b`):
+
+| | banked | at the pin |
+|---|---|---|
+| primary documents mentioning a duality | 141 | **143** |
+| `<X> duality` occurrences | 238 | **243** |
+| distinct heads | 49 | **51** |
+
+**Nothing else moves.** The operation table, the κ-invariance identities,
+the irremovability theorem and the one-external-class verdict are computed
+from the object's own arithmetic, not from the corpus, and are therefore
+**independent of the ref entirely** — which is the right way for a theorem
+to sit. Only §2's corpus census was ref-dependent. This addendum is the
+only mutation.

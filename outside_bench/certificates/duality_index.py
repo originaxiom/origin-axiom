@@ -57,14 +57,10 @@ import os, re, subprocess, collections
 from fractions import Fraction as Fr
 import sympy as sp
 
-REPO = os.environ.get("OA_REPO", os.path.abspath(
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")))
-REF = os.environ.get("OA_REF", "origin/main")
-
-# ============================== D1: THE CENSUS
+import _oa_source as OA          # PINNED source (codex evidence-contract fix)
+REF = OA.REF
 def git(*args):
-    return subprocess.run(["git", "-C", REPO, *args],
-                          capture_output=True, text=True).stdout
+    return OA._git(*args, check=False)
 
 files = [l for l in git("grep", "-il", "dualit", REF, "--", "*.md").splitlines() if l]
 PAT = r"[A-Za-z0-9_'()/-]+[ -]dualit(y|ies)"   # POSIX ERE: no (?:...)

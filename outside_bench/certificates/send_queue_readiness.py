@@ -28,14 +28,8 @@ Gate 5 untouched: repository metadata only.
 """
 import json, glob, re, collections
 
-arcs = {}
-for p in glob.glob("/tmp/av/**/arc_verdict.json", recursive=True):
-    try:
-        v = json.load(open(p, encoding="utf-8"))
-    except Exception:
-        continue
-    if isinstance(v.get("id"), str):
-        arcs[v["id"]] = v
+import _oa_source as OA          # PINNED source (codex fix)
+arcs = OA.arc_verdicts()
 
 def num(a):
     m = re.match(r"^B(\d+)$", a or "")

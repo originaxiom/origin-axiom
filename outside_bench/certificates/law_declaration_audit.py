@@ -46,15 +46,8 @@ Gate 5 untouched: repository metadata only; no object claim.
 """
 import os, json, re, glob, collections
 
-AV = os.environ.get("OA_ARCVERDICTS", "/tmp/av")
-arcs = {}
-for p in glob.glob(os.path.join(AV, "**", "arc_verdict.json"), recursive=True):
-    try:
-        v = json.load(open(p, encoding="utf-8"))
-    except Exception:
-        continue
-    if isinstance(v.get("id"), str):
-        arcs[v["id"]] = v
+import _oa_source as OA          # PINNED source (codex fix)
+arcs = OA.arc_verdicts()
 print(f"A1 — CORPUS LOADED: {len(arcs)} arcs with a parseable verdict file.")
 assert len(arcs) > 1000
 
