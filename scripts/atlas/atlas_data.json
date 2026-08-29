@@ -4368,12 +4368,57 @@
     "B801",
     "B833",
     "B836",
+    "B844",
     "L154"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "dead",
    "domain": "dynamics"
+  },
+  "B1208": {
+   "slug": "cross seat harvest",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B148",
+    "B289",
+    "B299",
+    "S5",
+    "S6",
+    "V64"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 23,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1209": {
+   "slug": "lee verification",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "symplectic",
+    "apolynomial"
+   ],
+   "refs": [
+    "B67"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dormant",
+   "domain": "topology"
   },
   "B120": {
    "slug": "tower determination",
@@ -4402,6 +4447,100 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1210": {
+   "slug": "paper spine sweep",
+   "motifs": [
+    "eisenstein"
+   ],
+   "refs": [
+    "B727",
+    "B862",
+    "B864",
+    "B892",
+    "B904",
+    "B928",
+    "B950",
+    "B951",
+    "B953",
+    "B976",
+    "B978",
+    "B991",
+    "P3"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1211": {
+   "slug": "declaration gap",
+   "motifs": [
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "B760",
+    "B844",
+    "P3"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "open",
+   "domain": "dynamics"
+  },
+  "B1212": {
+   "slug": "two replies",
+   "motifs": [
+    "trace_map",
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B721",
+    "S6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1213": {
+   "slug": "claim base rebuilt",
+   "motifs": [],
+   "refs": [
+    "B991"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B1214": {
+   "slug": "creates law reaudit",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B393",
+    "B557",
+    "B727",
+    "B885",
+    "B886",
+    "B910",
+    "B918",
+    "B952",
+    "B991",
+    "B996",
+    "B997"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B121": {
