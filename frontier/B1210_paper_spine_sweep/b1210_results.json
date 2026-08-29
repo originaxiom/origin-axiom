@@ -1,0 +1,60 @@
+{
+ "arc": "B1210",
+ "question": "does the P3 spec reflect the current state to the last bit?",
+ "answer": "NO -- measured, then repaired",
+ "coverage": {
+  "arcs_in_last_ten_days": 85,
+  "cited_by_spec": 11,
+  "law_creating_arcs_in_corpus": 48,
+  "cited_by_spec_of_those": 1
+ },
+ "instrument": {
+  "pool_size": 442,
+  "first_pass_claim_scope": {
+   "pool_flagged": 229,
+   "spec_citations_flagged": 15,
+   "status": "MOSTLY NOISE",
+   "falsifying_spot_checks": [
+    "B1159 cites B727's genericity, does not withdraw it",
+    "B978 CONFIRMS B862/B864 -- it records B950/B976 wrongly declaring them absent"
+   ]
+  },
+  "second_pass_clause_scope": {
+   "window_chars": 90,
+   "pool_flagged": 79,
+   "spec_citations_flagged": 5,
+   "status": "REPORTABLE"
+  }
+ },
+ "findings": [
+  {
+   "id": "a",
+   "target": "the Z6 global form",
+   "was_cited": "B862",
+   "now_also": "B1080",
+   "why": "B862 is conditional on the cascade's conditions; B1080 confirms independently and extends -- uniform over six Weyl realizations, row 1 giving Z/6 x Z/2"
+  },
+  {
+   "id": "b",
+   "target": "the cascade's landing on su(3)+su(2)+u(1)^3",
+   "was": "listed among the FORCED results",
+   "now": "moved to the RECOGNITION TABLE",
+   "source": "B951",
+   "reason": "the landing is the A2+A1 Levi subalgebra of e6 (14 = 6+8, semisimple 11, centre 3 -- exactly B892's three numbers); arriving there is Borel-de Siebenthal 1949 / Dynkin 1952",
+   "second_row": "B953 -- skipping SU(5) is skipping the rank reduction; the unsheddable units are U(1)_psi and U(1)_chi",
+   "significance": "the correction a referee would have made, on the paper's most exposed claim"
+  }
+ ],
+ "produced": [
+  "papers/P3_THE_PAPER/CLAIM_CANDIDATES.md",
+  "SPEC.md corrected in three places"
+ ],
+ "claim_pool_distribution": {
+  "observer": 20,
+  "value_wall": 10,
+  "object": 6,
+  "forced_chain": 6,
+  "the_wall": 3,
+  "unassigned": 3
+ }
+}

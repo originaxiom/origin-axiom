@@ -37,12 +37,21 @@ exactly what had to be assumed, and it is less than you expect.*
 ## 2. The three movements
 
 **I — FORCED.** The object supplies the adjoint half of a grand-unified breaking: an E₆ boundary
-with the build proved isomorphic to M(𝕆,ℂ) (B882/B904); the measurement cascade landing on
-su(3)⊕su(2)⊕u(1)³ (B892, independently re-verified B961); the **global ℤ₆ form** [SU(3)×SU(2)×U(1)]/ℤ₆
-**derived** (B862) — resolving an ambiguity *the Standard Model itself does not fix*; **hypercharge
-as the unique gaugeable U(1)** in the chain's abelian sector, direction only (B864); and the
-**termination theorem** — the cascade halts at the SM because the SM is the terminal registerable
-algebra (B863), with every proper descent killing registerability while the SM stays chiral.
+with the build proved isomorphic to M(𝕆,ℂ) (B882/B904); the **global ℤ₆ form**
+[SU(3)×SU(2)×U(1)]/ℤ₆ **derived** (B862, and independently confirmed *and extended* at **B1080** —
+uniform over six Weyl realizations, with row 1's full algebra giving ℤ/6 × ℤ/2) — resolving an
+ambiguity *the Standard Model itself does not fix*; **hypercharge as the unique gaugeable U(1)** in
+the chain's abelian sector, direction only (B864); and the **termination theorem** — the cascade
+halts at the SM because the SM is the terminal registerable algebra (B863), with every proper
+descent killing registerability while the SM stays chiral.
+
+> **⚠ CORRECTED BY THE SWEEP (B1210).** An earlier draft of this section listed *"the measurement
+> cascade landing on su(3)⊕su(2)⊕u(1)³"* among the forced discoveries. **B951 deflates that
+> headline**: the landing is exactly the **A₂+A₁ Levi subalgebra** of e₆, and arriving there from E₆
+> is **Borel–de Siebenthal (1949) / Dynkin (1952)** — classical, not a discovery. It moves to the
+> **recognition table**. What survives as forced is the *chain's termination* and the *global form*,
+> not the *arrival*. This is precisely the correction a referee would have made, and it is the
+> single most important thing the sweep caught.
 
 **II — WITHHELD.** Not "not yet found": proved. **V-3** is exhaustive — 16 object periods against 22
 SM targets, no object period is an SM ratio; natural object invariants are disjoint too (B1129). Ten
@@ -99,7 +108,11 @@ cover letter.
 
 Every item here is labelled **reproduced, not predicted** in the paper itself:
 sin²θ_W = 3/8 at GUT level · the E₆ ⊃ SO(10) ⊃ SU(5) chain · anomaly cancellation over the 16 ·
-the 27 = 16+10+1 decomposition · Mostow rigidity's scale-freedom. **What is not standard**: the ℤ₆
+the 27 = 16+10+1 decomposition · Mostow rigidity's scale-freedom · **the landing algebra
+su(3)⊕su(2)⊕u(1)³ as the A₂+A₁ Levi of e₆ — Borel–de Siebenthal / Dynkin, added by the B1210 sweep
+on B951's deflation** · **the rank-reduction location**: skipping SU(5) is skipping the rank
+reduction, and the two units the cascade cannot shed are U(1)_ψ and U(1)_χ, the standard E₆ extra
+abelian directions (B953). **What is not standard**: the ℤ₆
 global form *derived* rather than assumed; the termination theorem; the exhaustive value-disjointness;
 the observer's one-bit pricing with its κ law.
 
@@ -160,6 +173,21 @@ currency addenda.
   citation and costs us nothing.
 - **The archive layer** (never counted as papers): DOI'd repo snapshot at submission; the kill graph
   exported as a dataset appendix; the companion index mapping every paper claim → arc → test lock.
+
+## 10b. The claim pool is SWEPT, not remembered (B1210)
+
+This spec was drafted from the thesis as held in mind, and the sweep measured the cost: it cited
+**11 of the 85 arcs banked in its own last ten days** and **1 of the corpus's 48 law-creating arcs**.
+`CLAIM_CANDIDATES.md` beside this file is the mechanical counterpart — every `creates_law = true`
+arc with a PROVED/NEGATIVE verdict, grouped by the section it would serve, with supersession flags.
+**Regenerate it whenever the corpus moves** (`frontier/B1210_paper_spine_sweep/verification/`).
+
+The sweep's own instrument needed correcting mid-run and that is worth carrying: a first pass
+matched verbs anywhere in an arc's claim and flagged **15 of 24** spec citations as
+extended/corrected/withdrawn — mostly noise, because an arc claim is one long sentence about many
+things (it read B1159 as *withdrawing* B727 when it cites it, and B978 as withdrawing B862 when it
+is the arc that *confirms* it). Clause-scoped matching — the verb within 90 characters of the
+reference — gives **5 of 24**, and those five are real. **Report the second number.**
 
 ## 11. The build plan
 

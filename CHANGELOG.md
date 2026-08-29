@@ -1,5 +1,42 @@
 # Changelog
 
+## B1210 (2026-08-29): THE PAPER-SPINE SWEEP — the spec was written from memory, and the corpus says so
+
+The owner asked whether the P3 spec reflects the current state *to the last bit*. **Measured rather
+than asserted, and the answer was no.** The spec, drafted from the thesis as this seat holds it,
+cited **11 of the 85 arcs banked in its own last ten days** and **1 of the corpus's 48 law-creating
+arcs**. A spine assembled from memory reproduces the memory, not the record — the inverse of the
+accretion hazard the spec itself had warned about one day earlier.
+
+**The instrument needed correcting mid-run, and that is the useful part.** A first pass matched
+verbs anywhere in an arc's claim and flagged **229** pool arcs and **15 of 24** spec citations as
+extended/corrected/withdrawn. Spot-checking the two most alarming killed the statistic: **B1159 was
+read as withdrawing B727 when it cites its genericity**, and **B978 as withdrawing B862/B864 when it
+is the arc that confirms them**. An arc claim is one long sentence about many things. Rescoped to
+**clause scope** (the verb within 90 characters of the reference), the numbers fall to **79** and
+**5 of 24** — and *that* is the reportable number, with the discarded one kept beside its falsifiers.
+
+**Two findings change the paper.** (a) The **ℤ₆ derivation was cited on the weaker footing**: B862
+is conditional on the cascade's own conditions, while **B1080** confirms it independently and
+**extends** it — ℤ/6 uniform over six Weyl realizations, row 1's full algebra giving ℤ/6 × ℤ/2. Both
+are now cited. (b) **The one that matters**: the spec listed *"the cascade landing on
+su(3)⊕su(2)⊕u(1)³"* among the **forced** results, and **B951 deflates exactly that headline** — the
+landing is the **A₂+A₁ Levi subalgebra** of e₆ (14 = 6+8, semisimple part 11, centre 3 — *exactly
+B892's three numbers*), and arriving there from E₆ is **Borel–de Siebenthal 1949 / Dynkin 1952**.
+**It moves to the recognition table**; what survives as forced is the chain's *termination* and the
+*global form*, not the *arrival*. B953 adds a second recognition row (skipping SU(5) is skipping the
+rank reduction; the unsheddable units are U(1)_ψ and U(1)_χ). **This is precisely the correction a
+referee would have made, on the paper's most exposed claim, in the genre where that exposure is
+fatal** — caught before a draft existed.
+
+**Produced**: `papers/P3_THE_PAPER/CLAIM_CANDIDATES.md` — all 48 law-creating arcs grouped by the
+section they would serve, supersession flags attached, **disposition column shipped empty because it
+is an editorial call**. Its distribution is itself a finding: **20 of 48 land in the observer
+section**, where the paper's weight genuinely sits. Locks test_b1210 (6). **Fences**: the pool is
+complete for its criterion, which is not "everything the paper might cite" (the remaining ~660 PROVED
+arcs are not swept); the detector reports *lexical* relations, so five flags means five pairs **to
+read**, three of which are confirmations on their face.
+
 ## B1209 (2026-08-29): THE LEE VERIFICATION — three questions answered from the source, and the hoped-for bridge to the observer's bit is CLOSED
 
 **R52-3 discharged**, and the **E37 CITED/UNVERIFIED** grade B1198 carried is paid: the paper was
