@@ -32,6 +32,7 @@ The banking seat integrates these cells independently; this branch never merges 
 | R026 | `certificates/r026_yukawa_determinant_frame/determinant_frame.py` | exact ordered Euler eigenframe, determinant comparison and sparse local connecting formula for the norm-308 down/lepton evaluator; the `H3(O_Y)` trace and Serre tails remain open | VERIFIED / RELAYED |
 | R027 | `certificates/r027_toric_top_trace/toric_top_trace.py` | exact marked `H2(K_dP6)` class and cyclic dual trace, with a normalized 384-simplex product trace on the 36-chart cover of `dP6 x dP6`; the hypersurface connecting image and Serre tails remain open | VERIFIED / RELAYED |
 | R028 | `certificates/r028_toric_chart_frames/toric_chart_frames.py` | exact all-chart ray ordering, common Laurent frames, `C12` chart action and 18/18 residue-orientation census; characteristic-zero `Phi`/Bezout data remain open | VERIFIED / RELAYED |
+| R029 | `documents/program-question-map/validate.py`; `documents/program-question-map/evidence/PROGRESS_BANK_2026-08-30_WAVE7.md` | Wave-7 canonical 186-question map; main through B1217 and outside last-chain reconciled, including the newly typed L173 distinctive-differential refutation | VERIFIED / RELAYED |
 
 Every new cell must add its memo, self-contained certificate, captured output, and relay before it
 is cited outside this branch.

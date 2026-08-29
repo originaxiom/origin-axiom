@@ -16,7 +16,7 @@ ALLOWED = {
 EXPECTED_COUNTS = {
     "OPEN": 21,
     "PROVED": 70,
-    "REFUTED": 55,
+    "REFUTED": 56,
     "CONDITIONAL": 15,
     "EXTERNAL_BLOCKER": 22,
     "EMPIRICAL": 2,
@@ -41,7 +41,7 @@ data = json.loads(REGISTRY.read_text(encoding="utf-8"))
 rows = data["items"]
 ids = [row["campaign_id"] for row in rows]
 known = set(ids)
-assert len(rows) == 185
+assert len(rows) == 186
 assert len(ids) == len(known)
 assert all(re.fullmatch(r"OA-C\d{4}", item) for item in ids)
 for row in rows:
@@ -68,7 +68,7 @@ for row in rows:
             if target is not None:
                 assert target.exists(), f"{row['campaign_id']} missing {reference}"
 
-print("question_map_rows=185")
+print("question_map_rows=186")
 print("question_map_statuses=" + json.dumps(EXPECTED_COUNTS, sort_keys=True))
 print("question_map_open=" + json.dumps(sorted(EXPECTED_OPEN)))
 print("QUESTION MAP INTEGRITY: PASS")
