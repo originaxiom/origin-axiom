@@ -1,0 +1,62 @@
+A1 — the queue was built at B1179; the corpus has banked 33 arcs above it.
+
+A2 — PER-BAR STALENESS (arcs above B1179 that name the bar's subject):
+    [STALE] Q1 (****) SEAM-A Gate 2 (the prize crossing)
+            touched by 8 post-queue arcs: B1183, B1194, B1195, B1196, B1198, B1200, B1201, B1209
+    [STALE] Q2 (***) J3(O) Beilinson regulators
+            touched by 2 post-queue arcs: B1198, B1209
+    [READY] Q3 (***) the B491 seam form
+    [READY] Q4 (**) Cappell-Miller order of vanishing
+    [READY] Q5 (**) B165 complexified hyperbolicity
+    [READY] Q6 (*) the closed-form k (rider)
+
+    ==> 2 of 6 bars are STALE: Q1, Q2
+
+A3 — THE DECISIVE CASE: Q1, the queue's own four-star item.
+    B1198: THE SPECIALIST BAR'S LITERATURE HALF RETRIEVED (WebSearch returned to this bench today; on the first search against SEAM-A, B707's THIRD named-but-nev...
+    B1201: THE LEE VERIFICATION CORRECTS B1198, AND THE CROSS-SEAT HARVEST CLOSES CLEAN. R52-3, THE READING (full v1 text, sections 7.3-7.5 + Appendix A, 345k ch...
+    B1209: THE LEE VERIFICATION (R52-3 discharged; the E37 CITED/UNVERIFIED grade B1198 carried is paid -- the paper was OBTAINED AND READ on this bench, not cit...
+    The queue's Q1 status line reads: "FLOOR (B1156); the a-priori
+    MISMATCH refuted; the full/Arakelov row carries Vol as the Borel
+    regulator; the one bar is the cusped extension."
+    SINCE THEN, on this same bar: the Lee paper was OBTAINED AND READ
+    on-bench (B1209, the CITED/UNVERIFIED grade paid), the admissible
+    tangential base point was answered FROM THE SOURCE and found
+    UNIQUE not free (B1201 correcting B1198), and a hoped-for bridge
+    to the observer's bit was CLOSED.
+    => sending Q1 as written would hand a specialist a status line
+       that omits 8 of our own subsequent arcs, INCLUDING ONE THAT
+       KILLED A BRIDGE WE HAD HOPED FOR.  That is not a small edit:
+       it misstates what we already know, and it cannot be recalled.
+
+A4 — THE VERDICT AND THE ASK.
+  THE HOLD IS RELEASED — recorded, and the owner's reversal of their own
+  2026-08-27 decision box is theirs to make.  NOTHING IS BLOCKED BY THIS
+  BENCH.  But two of the queue's own rules survive the release, and one
+  finding is added:
+   (1) THE SEND IS THE OWNER'S ACT UNDER THE OWNER'S NAME (the queue's
+       mechanics).  This bench does not transmit; it prepares.
+   (2) NOTHING LEAVES WITHOUT A PER-ITEM WORD (the queue's own rule).  A
+       blanket release does not supply six.
+   (3) THE QUEUE IS STALE WHERE IT MATTERS MOST.  Q1 — the single
+       four-star item, "the one live crossing" — has had four arcs land
+       on it since the queue was written (8 by the sweep), one of
+       which closed a bridge.
+       Its ask must be REWRITTEN before it goes anywhere.
+  RECOMMENDED SEQUENCE, cheapest first:
+   a. REWRITE Q1's status line from B1198/B1201/B1209 (the ask NARROWS:
+      the literature half is partly done in-house now, so the specialist
+      is being asked something sharper than before — which makes it a
+      BETTER send, not a worse one).
+   b. Re-check Q2's status against B1209's surviving half ("an outside
+      motive over our field whose Beilinson regulator is our complex
+      volume") — that is Q2's own subject and may have moved too.
+   c. Then take the six per-item decisions in one pass.
+  ONE THING RECORDED WITHOUT RELITIGATING IT: the owner's original reason
+  for the hold was sequencing — "we will craft another paper ... after we
+  exhaust the math."  The paper is currently mid-flight WITH A KNOWN
+  DEFECT (memo 133: its claim base reads a field 89% of settled arcs
+  never filled).  Stated once, because it bears on sequencing; the
+  decision remains the owner's and this bench proceeds either way.
+  FENCE: nothing was sent, no address was touched, no external contact of
+  any kind was made by this cell.  Gate 5 untouched.
