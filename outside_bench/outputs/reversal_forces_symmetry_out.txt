@@ -1,0 +1,49 @@
+S1 — THE PREMISE: is this window reversal-closed?
+    left word == reverse(right word): True
+
+S2 — THE IDENTITIES (matched state by state, in energy order):
+    max |E_R - E_L|                       = 1.332e-15   (isospectral)
+    max |PR_R - PR_L|                     = 1.345e-09   (same localization length)
+    max |gap_R - gap_L|                   = 1.332e-15   (same gap structure)
+    max |com_R - ((N-1) - com_L)|         = 2.593e-09   (EXACTLY REFLECTED)
+    => every state of the left hand is the REFLECTION of a right-hand
+       state at the same energy, with the same localization length and
+       the same gap environment.  Only its POSITION is mirrored.
+
+S3 — COUNTS UNDER FOUR DETECTORS (three reflection-symmetric, one not):
+    detector                    reflection-sym  right   left  equal
+    both_ends                             True      7      7   True
+    both_ends_20                          True      7      7   True
+    both_ends_frac                        True      7      7   True
+    near_only                            False      4      3  False
+
+    every reflection-SYMMETRIC detector ties: True
+    the reflection-BREAKING one: [('near_only', 4, 3)]
+
+S4 — THE VERDICT: OUTCOME A-FORCED.
+  THE ASYMMETRY IS IMPOSSIBLE, NOT MERELY ABSENT.  At a reversal-closed
+  window H_L = J H_R J with J orthogonal, so the left hand's states are
+  the exact reflections of the right hand's: same energy, same
+  localization length, same gap environment, position mirrored
+  (com_L = N-1-com_R, verified to 1e-6).  ANY detector whose criterion
+  treats the two ends alike therefore assigns the same verdict to psi and
+  J psi, and THE TWO COUNTS ARE EQUAL BY CONSTRUCTION — three different
+  reflection-symmetric detectors are exhibited tying, and the one
+  reflection-BREAKING detector is exhibited splitting.
+  CONSEQUENCE FOR L173, and it is the whole point: memo 137 conceded two
+  of the three parts of the differential and found the COMPLEMENTARY
+  SPLIT alone surviving.  That part now collapses too — and for THE SAME
+  REASON as the first: it follows from the halves being reversals of each
+  other, with no object-specific content.  ALL THREE PARTS OF L173's
+  DIFFERENTIAL REDUCE TO 'THE TWO HALVES ARE REVERSALS'.
+  WHAT SURVIVES, stated exactly: the STATEMENT that the two hands bind
+  the same energies at opposite ends is TRUE and is B1095's own
+  formulation (energies P-invariant, localization P-equivariant).  It is
+  just not DISTINCTIVE: it is J-conjugation, which holds for any word
+  whose halves are reversals.  A NUMBER cannot be extracted from it,
+  because every reflection-symmetric way of counting is forced to tie.
+  FENCE: this is a statement about REVERSAL-CLOSED windows (N = 987
+  here).  At odd Fibonacci index the reversal identity fails at the two
+  cut-adjacent letters, H_L != J H_R J, and the theorem does not apply —
+  which is exactly where an asymmetry could still live, and is named here
+  as the one place left to look.

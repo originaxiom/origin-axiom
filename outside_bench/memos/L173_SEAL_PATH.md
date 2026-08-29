@@ -111,3 +111,24 @@ strengthened**; its *number* is not robust. **The gating question is no
 longer "build the detector" but "which detector is correct, and is any
 asymmetry left once both ends are counted?"** This addendum is the only
 mutation.
+
+### ⚠ ADDENDUM 2 (2026-08-29) — THE DIFFERENTIAL IS NOW FULLY REDUCED (memo 143)
+This memo's §M3 said the **complementary split alone survives** both
+reduction arguments. **It does not.** memo 143 proves the asymmetry is
+**impossible, not absent**: at a reversal-closed window **H_L = J H_R J**,
+so every left state is the exact reflection of a right state — same
+energy, same localization length, same gap environment,
+**com_L = N−1−com_R verified to 2.6 × 10⁻⁹**. **Any detector treating the
+two ends alike therefore ties by construction**, exhibited on three
+independent reflection-symmetric detectors (all 7–7) against one
+reflection-breaking detector (4–3).
+
+**So all three parts of L173's differential reduce to "the two halves are
+reversals of each other."** B1095's *formulation* stands and is exhibited
+perfectly; it is simply **not distinctive**, and **no number can be
+extracted from it.**
+
+**The one place left to look, and it is now the only one:** at **odd**
+Fibonacci index the reversal identity fails at the two cut-adjacent
+letters, **H_L ≠ J H_R J**, and the theorem does not apply. That is where
+an asymmetry could still live. This addendum is the only mutation.
