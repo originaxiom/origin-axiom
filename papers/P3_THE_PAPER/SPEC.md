@@ -269,3 +269,49 @@ written from the B862–B1080 band** and missed the strongest current statements
 - **§5 gains the tenth negative reached by structure rather than search (B1140)**: the 64-dimensional
   complement has **invariant content zero**, so no abelian charge can organise there at all.
 - **The abstract was corrected** — it previously implied the object forces the content.
+
+---
+
+## THE TWO ADVERSARIAL PASSES (2026-08-30) — eleven repairs applied
+
+Two independent hostile reads landed the same day: cloud's memo 148 (six findings) and a five-thread
+full-repo sweep (11 agents, ~1.1M tokens). **All eleven repairs are applied.** Both passes agreed on
+the diagnosis, which is the finding to carry forward:
+
+> **The computations are right and the text did not describe them.** *"From outside it's
+> indistinguishable from not having done the work."*
+
+**The three that could have been fatal**, each verified on this bench before repair:
+
+1. **The theorem turned on one wrong word.** $m^2+4$ is the **level** $D/m^2$, not the conductor
+   ($\mathrm{tr}(R^mL^m) = m^2+2$, discriminant $m^2(m^2+4)$). Under the conductor reading the
+   uniqueness claim is **false** — $m = 4, 11, 29$ all reach $\Q(\sqrt5)$. Now stated on the level,
+   with the false reading exhibited so no reader has to guess which was meant.
+2. **§7 claimed a completeness it did not have.** It said *"every input"* while omitting the genesis
+   assumptions — including **two forks our own ledger grades FRAGILE**, whose discarded siblings are
+   the Gieseking manifold (m004's own orientation double cover) and a Sol-geometry torus on which a
+   dynamical face survives. A new §2.1 tables them; §7 now says *"every post-object input."*
+3. **§6's κ paragraph was the very species §2 rules out.** $\kappa(A,M) = \mathrm{tr}[A,M]-2$ is
+   universal for any $\mathrm{SL}(2)$ pair — verified 400/400 here — so its recurrence is forced by
+   the shortness of the catalogue, exactly as the E₆ recurrence is. Rewritten as a **self-applied**
+   instance of the paper's own rule: we record the coincidence and claim nothing from it.
+
+**And one that was worse for sitting where it sat**: *"the proof is an equivariance"* is **vacuous at
+$|G| = 2$** (both bijections are automatically equivariant, 2 of 2) — two paragraphs above the
+paper's own withdrawal of a different vacuous criterion. Restated so the content is the free,
+non-collapsed condition it actually rests on.
+
+**Strengthened**: the sibling shares the **exact volume**, not just the field (both
+$2.0298832128\ldots$; only the cusp shape separates them — computed here); the orientation
+obstruction holds **83 of 83** family-wide; *"exhaustive"* is now **quantified** ($16\times22$,
+$23\times22$, a 216-cell grid against 18 targets with a 384-cell matched null); the **Koide-type
+near-miss** is reported — five significant figures, four pre-committed instruments, all failed —
+because a negative half with no near-miss reads as a search never run.
+
+**Downgraded honestly**: §5's extended-regulator sentence now says **reported, not verified** —
+B1217 had typed that run CITED-unreproduced 31 minutes before the paragraph was written.
+
+**Still outstanding**: no bibliography (the paper has **zero** citations); §§8–10 got no adversarial
+attention from either pass; falsifier 1 was never MB12-tested; and the sweep's own verdict on what
+remains buried — **the flag-ignoring read has still not been run over the 1033 PROVED/NEGATIVE arcs**,
+which is the same pathology one band over.
