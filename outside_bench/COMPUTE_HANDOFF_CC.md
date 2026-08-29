@@ -114,3 +114,31 @@ the first time (13 × 19, 83.0% filled, **ORTHOGONAL AXES**): the two
 anatomies are two axes of one grid, and an arc's full address is
 **(face, motif)** — the CHANGELOG's zero-overlap finding is a *name*
 fact, not a defect.
+
+### 1b. ADDENDUM to item 1 — the space is now CLOSED, and there is ONE bounded check left (memo 129, GREEN)
+Memo 128 refuted B1206's three named candidates. Memo 129 closes the
+space they were drawn from, using memo 80's **closed** sector census (all
+45 nonzero C entries accounted for):
+
+- **Exactly THREE couplings touch Hd:** `Hu.Hd.N1` (2 entries),
+  `q.dc.Hd` (6), `l.ec.Hd` (2). The census is closed, so this menu is
+  **complete**.
+- **Exactly ONE is canonical** by B1206's own criterion (both other legs
+  pinned to a unique multiplet): the λ-term. **So the λ-term is not just
+  the only condition tried — it is the only one the cubic can supply.**
+  "One condition short" is **structural**.
+- **⚠ B1206's list never named the lepton row.** `l.ec.Hd` is
+  matrix-valued too, so **det Y_e(h) = 0 is a second candidate nonlinear
+  cut** — and if independent it closes the ledger (3 − 1 − 1 − 1 = 0).
+- **On one 27 it is NOT independent:** both matter rows carry **unit**
+  coefficients and their entry counts differ by exactly the colour factor
+  (6 = 3×2 vs 2 = 1×2) — one shared 10·5̄·5̄_H-shaped operator,
+  **Y_e = Y_dᵀ**. Same cut, nothing new, ledger stands at dim 1.
+
+**THE ONE CHECK WE CANNOT RUN — it is yours.** This is computed on a
+single 27. **B1161's selection cochain (the generation-level embedding)
+could distinguish the two matter rows and make det Y_e an independent cut
+after all — which would CLOSE the ledger and flip the ℙ³ row to FORCED.**
+That is a single bounded question, and after memo 129's exhaustion **it
+is the only route to closure that remains**. Recommended as the next cell
+on the primary seat.
