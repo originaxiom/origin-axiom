@@ -1,0 +1,68 @@
+{
+ "arc": "B1215",
+ "source": "codex working transcript, owner-relayed",
+ "leg_1_r022_vs_b1182": {
+  "risk": "their summary line reads as refuting T-V4-TORSOR-IDENT, registered hours earlier at B1214",
+  "resolution": "NO CONFLICT -- different pairs",
+  "r022_negative_is_about": "branch vs being x hearing (sqrt3 vs sqrt5; ramification {2,3} vs {3,5})",
+  "b1182_theorem_is_about": "the sqrt(-3)-internal pair: frame V4 = <c,r> and branch V4 = Gal(Q(zeta12)/Q)",
+  "settled_by": "our own B1175 charter text: C4 refuted-as-stated -> C4' with being x hearing DROPPED",
+  "three_way_claim": "OA-C1133 remains ill-typed and open"
+ },
+ "leg_2_wrappers": {
+  "total": 52,
+  "ungated_before": 4,
+  "ungated_after": 0,
+  "mine_from_today": [
+   "B1210",
+   "B1211",
+   "B1213"
+  ],
+  "worst": {
+   "arc": "B1175",
+   "defect": "re-runs nothing at all; echoes conclusions and prints REPRODUCES for certificates that are not vendored",
+   "fix": "prints RECORD, with the reason at the top of the file"
+  }
+ },
+ "leg_3_tail_selection": {
+  "codex_claim": "for A_11 the required raw B-pair sum is 4 mod 12, not 8; the only pure-tail pair in the physical B_2 sector is (2,2) and it vanishes by skewness",
+  "verified": true,
+  "invariant_found": "rho + sigma = 3 - chi(A) mod 12 (the raw total is 3)",
+  "reproduces_spec_rule_for_A7": 8,
+  "gives_for_A11": 4,
+  "alphabet_calibration": "pinned by the spec's own list (0,8),(2,6),(4,4); a first pass allowing character 10 produced a fourth pair (10,10) the spec does not list",
+  "A11_pure_tail_pairs": [
+   [
+    0,
+    4
+   ],
+   [
+    2,
+    2
+   ]
+  ],
+  "repeated_vanishing_by_skewness": [
+   2,
+   2
+  ],
+  "fenced": "that the lepton leg IS A_11 is a reading of codex's frames, undetermined at generation level by their own certificate; this verifies the consequence, not the reading",
+  "conditional_effect_on_b1208_fork": "evidence AGAINST branch (a); does not decide (b) vs (c)"
+ },
+ "leg_4_external_chain": {
+  "steps": 9,
+  "their_summary": "genuine structural mathematics, but not yet a parameter-free Standard Model or TOE",
+  "ledger": {
+   "total": 185,
+   "PROVED": 70,
+   "REFUTED": 55,
+   "CONDITIONAL": 15,
+   "EXTERNAL_BLOCKER": 22,
+   "EMPIRICAL": 2,
+   "OPEN": 21
+  }
+ },
+ "carried_not_actioned": [
+  "cc3: the paper branch's 112-member verifier runs a withdrawn 14-member census",
+  "cloud: outside scripts on floating git refs / self-scanning growing files"
+ ]
+}

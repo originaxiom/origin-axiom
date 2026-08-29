@@ -1,0 +1,33 @@
+unswept substantive non-instrument arcs: 541
+JOINT TOP BAND (strength >= 4, proximity >= 3, no process markers): 1
+    II withheld     1
+
+top 25 by joint score:
+  B968    PROVED    s=6 p=8 [I forced] THE SM VERDICT CRYSTALLISED (owner directive, before the programme turns to cosmology, g
+  B1183   PROVED    s=3 p=11 [III observer] THE ONE-CLASS THEOREM (cell 2 of the remaining-math queue; B1174's hatch 1; B1169's S1 l
+  B1194   PROVED    s=6 p=7 [III observer] THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lense
+  B1201   PROVED    s=8 p=6 [III observer] THE LEE VERIFICATION CORRECTS B1198, AND THE CROSS-SEAT HARVEST CLOSES CLEAN. R52-3, THE
+  B1184   PROVED    s=6 p=8 [III observer] THE QUINE SYNTHESIS -- SELF-NAMING WITHOUT SELF-SIGNING (the S4 rung dispositioned; the 
+  B986    NEGATIVE  s=7 p=2 [III observer] THE B500 DEPTH-5 REOPEN ATTEMPTED AND THE METHOD KILLED BY ITS OWN CONTROL -- L145a STAY
+  B1148   PROVED    s=5 p=8 [III observer] THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRO
+  B1189   PROVED    s=3 p=8 [III observer] THE CLOSE-LOOP BATCH 1 (the grand-computation campaign's first five cells, each adversar
+  B1150   PROVED    s=8 p=2 [I forced] THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA: cloud memos 52-53 (origin/outside-
+  B1014   PROVED    s=6 p=4 [I forced] THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM S
+  B1078   PROVED    s=6 p=2 [III observer] THE GAUGE-SELECTION OBSERVATION (the nature-supplies-the-gauge successor's first computa
+  B1199   PROVED    s=6 p=6 [II withheld] THE REGISTER READS + L188 CLOSED (three cells, each graded at what survived its two adve
+  B1203   NEGATIVE  s=6 p=4 [III observer] TWO PROBES, BOTH NEGATIVE FOR THE PROPOSER. PROBE 1 -- c-EQUIVARIANCE AS A FORCING FILTE
+  B1015   PROVED    s=3 p=5 [II withheld] THE ANCHOR DECLARATION, SEALED (R11 STEP 0, BINDING ON EVERY FUTURE CROSSING): A1 = l, t
+  B1081   PROVED    s=3 p=5 [I forced] THE HYDROGEN AUDIT (the inverse chain run as computation; verifier HOLDS after its own d
+  B1174   NEGATIVE  s=3 p=9 [III observer] THE Z/2-IDENTIFICATION CELL (R50-3; the register's Q1 = B1169's S1, double-discovered by
+  B1182   PROVED    s=5 p=8 [III observer] C4' RESOLVED POSITIVE (the cell the three-seat convergence specified; run on the owner's
+  B1204   PROVED    s=5 p=6 [I forced] THE SHAPE OF A FORCING THEOREM, read off the record's own successful forcings. The owner
+  B1077   PROVED    s=4 p=3 [II withheld] THE INTRINSIC LAYER IS SPLIT (the physics-first probe pair; both cells' adversarial veri
+  B1165   NEGATIVE  s=4 p=5 [II withheld] THE TERMINAL GRAVITY PROBE (sec-E), owner-directed to a typed close. THE FIREWALL VERDIC
+  B1190   PROVED    s=4 p=5 [I forced] THE CLOSE-LOOP BATCH 2 (the hard cells; 1/5 survived its own lenses -- the refutations a
+  B1200   PROVED    s=3 p=8 [III observer] ONE POLYNOMIAL, THREE FACES -- the saddle, the founding obstruction, and the boundary st
+  B935    NEGATIVE  s=5 p=1 [I forced] THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's fir
+  B1191   PROVED    s=5 p=5 [III observer] THE CLOSE-LOOP BATCH 3 -- THE GRAND COMPUTATION v0 LANDS (docs/GRAND_COMPUTATION_v0.md):
+  B866    PROVED    s=3 p=3 [I forced] VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTL
+
+wrote deep_sweep.json
+VERIFIED

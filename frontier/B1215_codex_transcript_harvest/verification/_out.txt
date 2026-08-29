@@ -1,0 +1,37 @@
+spec: raw characters (7, 6, 2) sum to 3 mod 12
+      shifted (8, 4, 0) sum 0 mod 12  (the spec: (8,4,0), sum 0)
+
+=== THE SELECTION RULE, read off the invariant rather than copied ===
+  A_7:  rho + sigma = 3 - 7 = 8 mod 12
+  A_11:  rho + sigma = 3 - 11 = 4 mod 12
+  => the A_7 case reproduces the spec's stated rule EXACTLY, so the reading is right,
+     and A_11 requires 4 mod 12. CODEX'S ARITHMETIC IS CONFIRMED.
+
+=== THE PURE-TAIL PAIRS, per case ===
+  A_7 (need 8): pure-tail pairs [(0, 8), (2, 6), (4, 4)]
+           repeated (vanish by skewness): [(4, 4)]
+           => matches the spec's own list (0,8),(2,6),(4,4). Instrument validated.
+  A_11 (need 4): pure-tail pairs [(0, 4), (2, 2), (8, 8)]
+           repeated (vanish by skewness): [(2, 2), (8, 8)]
+
+WHAT THIS ESTABLISHES, and what it does not
+
+  CONFIRMED, from the spec's own arithmetic: the selection rule is NOT a constant 8 -- it is
+  rho + sigma = 3 - chi(A) mod 12, which gives 8 for the A_7 (down) leg and 4 for an A_11 leg.
+  The rule CANNOT be copied unchanged between legs with different A-characters. Codex's
+  correction to their own R024 is arithmetically right.
+
+  CONFIRMED: on the spec's own even-character alphabet, the A_11 case's pure-tail pairs are
+  (0,4) and (2,2), and (2,2) is REPEATED -- so it vanishes by the same skewness that killed
+  (4,4) in the down case. If the physical B_2 sector admits only (2,2), as codex reports, the
+  lepton leg has NO surviving pure-tail contribution.
+
+  NOT CONFIRMED, and fenced: that the lepton leg IS A_11. That is a reading of codex's frames,
+  which are not on this bench and which their own certificate leaves UNDETERMINED at the
+  generation level. This cell verifies the CONSEQUENCE of that reading, not the reading.
+
+  CONSEQUENCE FOR B1208's FORK, stated conditionally: IF the lepton leg is A_11, then its tail
+  structure differs from the down leg's -- which is evidence AGAINST branch (a) (same tensor)
+  and toward (b) or (c). It does not decide between them, because the connecting (non-tail)
+  contributions are untouched here.
+VERIFIED

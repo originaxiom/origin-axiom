@@ -12590,3 +12590,44 @@ reproducibility debt, and the registry's lock column now **says so** rather than
 absences were **deliberately not mass-set** — that would be the over-declaration flood in reverse —
 and **B1213's union criterion stands**. The field is now honest where examined and honestly blank
 where not. Locks test_b1214 (6).
+## B1215 (2026-08-29): THE CODEX TRANSCRIPT HARVEST — a registered theorem protected, four dishonest wrappers fixed, a stalled lead carried
+
+Harvested from codex's working transcript (owner-relayed), not their commits alone.
+
+**R022 does NOT refute B1182, and the boundary needed pinning.** Their transcript summarises R022 as
+*"the original three-way field-labelled identification is **false**"* — which, read alone, looks like
+a refutation of **T-V4-TORSOR-IDENT**, a theorem this bench registered **hours earlier**. It is not:
+R022's negative is **branch vs being × hearing** (separated by √3 vs √5 and ramification {2,3} vs
+{3,5}), while B1182's theorem is the **√−3-internal pair** — frame V₄ = ⟨c,r⟩ and branch
+V₄ = Gal(ℚ(ζ₁₂)/ℚ). **Our own record settles it**: B1175's charter text reads *"C4 REFUTED-AS-STATED
+→ **C4′** (the √−3-internal pair; **being × hearing DROPPED**)"* — B1182 **is** C4′, the pair that
+survived R022's negative. The three-way claim stays ill-typed and open.
+
+**Their wrapper flag is real, and three of the four were mine from today.** Of **52** `reproduce.sh`
+wrappers, **4 printed REPRODUCES with no gate on the computation's own output** — asserting success
+on the process exiting 0 rather than on the computation asserting anything. B1210, B1211 and B1213
+were written by this seat **in the same session that banked B1207's lesson about instruments that
+cannot fail**. **The fourth is worse**: B1175's wrapper **re-runs nothing at all**, echoing
+conclusions for certificates that live on codex's branch and are not vendored. It now prints
+**RECORD**, with the reason in the file — *a reproducer that reproduces nothing is worse than no
+reproducer, because it answers the question it was never asked.* **Ungated now: 0.**
+
+**And their stalled lead is carried one step.** Their last finding before quota, uncertified by them:
+*the tail-selection equation cannot be copied from the quark leg to the lepton leg — for A₁₁ the
+required raw B-pair sum is 4 mod 12, not 8.* **Checked here from the spec's own numbers and
+confirmed**: the invariant is the raw total (7+6+2 ≡ 3), so **ρ + σ ≡ 3 − χ(A) mod 12**, which
+**reproduces the spec's own stated rule (8) for A₇** and gives **4** for A₁₁ — the rule is not a
+constant. The instrument is **calibrated by the spec, not chosen**: a first pass allowing character
+10 produced a fourth A₇ pair (10,10) the spec doesn't list, so the alphabet runs 0…8 and the spec's
+list pins it. On that alphabet A₁₁ gives **(0,4) and (2,2)** — and **(2,2) is repeated, so it vanishes
+by the same skewness that killed (4,4)** in the down case. **Fenced**: that the lepton leg *is* A₁₁ is
+a reading of frames not on this bench, undetermined at generation level by codex's own certificate —
+this verifies the **consequence**, not the reading. Conditionally, it is **evidence against branch
+(a)** of B1208's fork and does not decide (b) vs (c).
+
+**Their nine-step SM chain is adopted as an external reading** — *"genuine structural mathematics,
+but not yet a parameter-free Standard Model or TOE"* — which is our position, and worth more to the
+paper written by a hostile-audit seat than by us. Their ledger types **185 questions: 70 PROVED, 55
+REFUTED, 15 CONDITIONAL, 22 EXTERNAL_BLOCKER, 2 EMPIRICAL, 21 OPEN.** Carried, not actioned: cc3's
+paper-branch verifier still running a withdrawn 14-member census, and cloud's floating-ref scripts.
+Locks test_b1215 (5).

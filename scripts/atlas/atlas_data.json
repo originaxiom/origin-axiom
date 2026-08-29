@@ -4543,6 +4543,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1215": {
+   "slug": "codex transcript harvest",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "V4"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B121": {
    "slug": "monodromy grading",
    "motifs": [
