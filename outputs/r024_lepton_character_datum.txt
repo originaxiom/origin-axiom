@@ -1,0 +1,8 @@
+retained_branch_rows=[(4, 0, 3, 0, 4), (8, 0, 3, 0, 4)]
+coarse_character_ec=0
+coarse_character_l=0
+abstract_admissible_tail_pairs=[(0, 8), (2, 6), (4, 4)]
+frame_level_lepton_pair=UNDETERMINED
+b1208_three_way_fork=UNRESOLVED
+scope=no Cech representative, cyclic/Serre map, nonzero entry, determinant, or physical Yukawa
+R024 LEPTON CHARACTER DATUM: PASS

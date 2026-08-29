@@ -1,0 +1,10 @@
+NORM-953: alpha=-26-theta+2theta^2 has exact norm 953;
+  f mod 953=(x-372)(x^2+372x+187), and alpha vanishes at x=372. PASS
+P5-RELATION: theta^2-2 has (v_P,v_Q)=(0,1);
+  outside row uses v_P+2v_Q=2, but the class coefficient is v_P-v_Q=-1. DEFECT
+PRINCIPAL-WITNESSES: all eight prime ideals below the Minkowski bound have
+  exact norm generators and discriminating valuations; with B1093's maximal-order gate, h(K)=1. PASS
+GRAMMAR-DISC48: wrong-sign b sends the m004 relator to [[-1,0],[-4,-1]];
+  corrected b satisfies it, but baBAABab is nonperipheral; bABaaBAb is peripheral. REFUTED
+GOLDEN-REVERSER: DR(v_u)=(9-4sqrt5)v_s and DR(v_s)=(9+4sqrt5)v_u. PASS
+R023 OUTSIDE-TIP HOSTILE AUDIT: PASS

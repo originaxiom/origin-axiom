@@ -1,0 +1,11 @@
+primitive_classes=745
+classes_by_length=[1, 2, 3, 6, 9, 18, 30, 56, 99, 186, 335]
+word_sets_byte_level_equal=True
+unit_prime_trace3_selector=['LR']
+sl2_f5_order=120
+sl2_f5_conjugacy_class_sizes=[1, 1, 12, 12, 12, 12, 20, 20, 30]
+shadow_classes_represented=9
+multivalued_shadow_classes=0
+trace2_value_count=3
+trace3_value_count=3
+R023 B1199 SELECTION RECHECK: PASS

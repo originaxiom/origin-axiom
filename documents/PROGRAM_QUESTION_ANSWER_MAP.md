@@ -1,10 +1,10 @@
 # Origin Axiom programme question–answer map
 
-**As of:** 2026-08-27
+**As of:** 2026-08-29
 
-**Canonical questions:** 154
+**Canonical questions:** 185
 
-**Registry SHA-256:** `f08a25af04444674bc4791869fb10c75a364750aba4e0e6cdc9b343a4b2eb19e`
+**Registry SHA-256:** `380f0d0a586da715feb3e70f5b2098a62f24c2aec0cee6a350fde2f1cb925955`
 
 This is the durable, source-linked map of every canonical question currently registered by
 the independent closure campaign. It distinguishes a proved narrow theorem from a broader
@@ -24,18 +24,18 @@ programme has answered it affirmatively.
 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \
   --markdown documents/PROGRAM_QUESTION_ANSWER_MAP.md \
-  --as-of 2026-08-27
+  --as-of 2026-08-29
 ```
 
 ## Status dashboard
 
 | status | count | meaning |
 |---|---:|---|
-| `OPEN` | 11 | Registered and typed, but its stated closure test has not yet been executed. |
-| `PROVED` | 60 | A type-correct proof or reproducible exact computation establishes the scoped claim. |
-| `REFUTED` | 47 | A proof, counterexample, or exact negative computation defeats the scoped claim. |
-| `CONDITIONAL` | 14 | The claim follows only after the named underived input is assumed. |
-| `EXTERNAL_BLOCKER` | 20 | The required construction or theorem is absent; the unblock condition is explicit. |
+| `OPEN` | 21 | Registered and typed, but its stated closure test has not yet been executed. |
+| `PROVED` | 70 | A type-correct proof or reproducible exact computation establishes the scoped claim. |
+| `REFUTED` | 55 | A proof, counterexample, or exact negative computation defeats the scoped claim. |
+| `CONDITIONAL` | 15 | The claim follows only after the named underived input is assumed. |
+| `EXTERNAL_BLOCKER` | 22 | The required construction or theorem is absent; the unblock condition is explicit. |
 | `EMPIRICAL` | 2 | Only bounded numerical or observational evidence is available. |
 | `OUT_OF_SCOPE` | 0 | A declared scope rule excludes the question from this campaign. |
 
@@ -43,19 +43,22 @@ python3 documents/program-question-map/render.py \
 
 | domain | questions |
 |---|---:|
-| `arithmetic` | 9 |
+| `arithmetic` | 12 |
 | `carrier` | 3 |
-| `flavor` | 8 |
-| `framework` | 6 |
-| `genesis` | 2 |
-| `geometry` | 35 |
+| `cosmology` | 1 |
+| `dynamics` | 4 |
+| `flavor` | 10 |
+| `framework` | 15 |
+| `genesis` | 3 |
+| `geometry` | 36 |
+| `gravity` | 1 |
 | `lie` | 28 |
-| `physics_interface` | 5 |
+| `physics_interface` | 6 |
 | `process` | 1 |
-| `qft` | 9 |
-| `spectrum` | 12 |
-| `vacuum` | 25 |
-| `values` | 11 |
+| `qft` | 11 |
+| `spectrum` | 13 |
+| `vacuum` | 26 |
+| `values` | 15 |
 
 ## Complete index
 
@@ -144,9 +147,9 @@ python3 documents/program-question-map/render.py \
 | [OA-C1064](#oa-c1064) | `EXTERNAL_BLOCKER` | `values` | Does the object uniquely select an arithmetic Albert-associated scheme or motive, a motivic class and regulator normalization, and a physical functor taking that regulator to a normalized held-out Standard-Model observable? | Not yet. Arithmetic Albert algebras, twisted Cayley planes, norm varieties and motivic regulators are legitimate mathematical objects, but the current programme selects none of them and supplies no class or observable map. This is a new construction program, not an unperformed scalar calculation and not a present critical-path shortcut. |
 | [OA-C1065](#oa-c1065) | `PROVED` | `lie` | Is the exactly constructed E6-invariant cubic on the 27 one-dimensional up to scale and covariant under the selected semilinear beat? | Yes. Two independent exact computations give a 45-dimensional weight-zero cubic ansatz, rank 44 under all E6 root equations, hence a one-dimensional invariant line. All 72 root generators and six Cartans annihilate the normalized 45-term cubic. For the fixed linearization Omega=exp(q rho(E)) o gal, exact coefficient comparison gives C(Omega v)=gal(C(v)). The scalar is not canonical under Omega -> lambda Omega: it changes by lambda^3. |
 | [OA-C1066](#oa-c1066) | `PROVED` | `lie` | Does the specified rational map T act consistently on every vector of both spin-two quintuplets and the full colored sector of the banked 64-dimensional complement? | Yes. The exact rational map T has rank eight on the relevant sl3 basis, intertwines the bracket on every basis pair, maps both five-level spin-two strings bijectively, and passes all 54 colored-root actions with 3 exchanged with bar3. This is the full finite-basis computation requested by the row. |
-| [OA-C1067](#oa-c1067) | `OPEN` | `lie` | Does the specified semilinear beat Sigma preserve the banked 64-dimensional complement, and what exact action does it induce on its spin-two and colored summands? | Open. Memo 33 closes the distinct rational-T computation and records selected-frame Sigma intersections, but it does not apply the semilinear Sigma to a complete 64-dimensional basis, certify preservation, or compute its square there. The operator distinction remains load-bearing. |
+| [OA-C1067](#oa-c1067) | `REFUTED` | `lie` | Does the specified semilinear beat Sigma preserve the banked 64-dimensional complement, and what exact action does it induce on its spin-two and colored summands? | No. R020 applies the principal semilinear Sigma to an exact Killing-orthogonal 64 basis in the source-locked B1140 compact-color frame. The images of the full 64, both five-dimensional spin-two strings and the colored 54 all leave the 64, so no restricted action exists. Sigma squared also leaves the 64, while the ambient identity Sigma^2=exp(ad E_principal) holds on all 78 Chevalley basis vectors. The result is selected-frame; covariance across all 24 B1140 hits is not claimed. |
 | [OA-C1068](#oa-c1068) | `PROVED` | `geometry` | What exact integral matrix does the selected Gieseking beat induce on the marked peripheral homology basis of m004? | Yes. A SHA-pinned standalone exact calculation reconstructs mu=A and lambda=bABaaBAb over Q(q), proves beat(mu)=mu and beat(lambda)=lambda^-1, and solves equality with every peripheral normal form mu^r lambda^s algebraically rather than by a word cutoff. The induced matrix is diag(1,-1), with determinant -1 and order 2. The same certificate reproduces the distinct infinite-order fiber action and its square. |
-| [OA-C1069](#oa-c1069) | `OPEN` | `physics_interface` | Does the Gieseking manifold admit the proposed Pin-minus structures, and what is their exact restriction map to spin structures on its orientable double cover m004? | Open. The exact group-abelianization calculation now gives H1(N)=Z<t>, a=b=2t and proves that the nontrivial cover character does not extend; the induced linear restriction in H1(-;F2) is zero. This is only the arithmetic linear part. No geometric Pin-minus obstruction computation or affine-torsor origin is certified, so the full question remains open. |
+| [OA-C1069](#oa-c1069) | `PROVED` | `physics_interface` | Does the Gieseking manifold admit the proposed Pin-minus structures, and what is their exact restriction map to spin structures on its orientable double cover m004? | Yes. R021 gives H1(N;Z)=Z<t> with a=b=2t, H1(M;Z)=Z<a=b>, H^2(N;F2)=0 and hence vanishing Pin-minus obstruction in the stated convention. Both Pin-minus and spin torsors have two elements, while p^*:H^1(N;F2)->H^1(M;F2) is zero, so affine restriction is constant onto one deliberately unnamed spin structure. Naming that image is separated as OA-C1140. |
 | [OA-C1070](#oa-c1070) | `PROVED` | `lie` | Is the omega-one parity clause redundant once the E6 weighted Dynkin characteristic is even, both on the accepted 20-row census and by a general lattice argument? | Yes. Exact re-tabulation gives nine even/projective rows among the locked 20 and no mismatch. More generally, if a weighted-Dynkin characteristic c=A t is even and H is integral in the E6 coroot lattice, invertibility of the E6 Cartan matrix modulo 2 forces t even, hence every 27 weight, including omega1, pairs evenly. The vector c=(2,0,0,0,0,0) shows why the integral-characteristic hypothesis is necessary: t1=8/3. |
 | [OA-C1071](#oa-c1071) | `REFUTED` | `lie` | Can the square of the invariant cubic C span the degree-four invariant component of the 27 representation? | No. The proposal defines C as a degree-three invariant. Its square is homogeneous of degree six, so it cannot span any degree-four subspace. The proposed degree-four cross-check is ill-typed independently of representation matrices. |
 | [OA-C1072](#oa-c1072) | `PROVED` | `lie` | What are the exact E6-invariant multiplicities in the homogeneous polynomial degrees one, two, three and four of the selected 27 representation? | Yes. An independent exact symmetric-power calculation using the locked 27 gives invariant multiplicities in degrees 1,2,3,4 equal to 0,0,1,0. At degree three the Cartan-zero basis has dimension 45 and the 1080 exact root equations have rank 44; all 72 roots and six Cartans annihilate the resulting 45-term cubic. |
@@ -180,13 +183,13 @@ python3 documents/program-question-map/render.py \
 | [OA-C1100](#oa-c1100) | `PROVED` | `lie` | In the fixed D5 x U(1)_psi frame, does the E6 cubic have only the 40 (16,16,10) and 5 (10,10,1) supports with conserved frame parity, while the selected beat mixes that grading on exactly 6 of 27 basis states but preserves the tested lock? | Yes. Exact E6 arithmetic gives 27=16_1+10_-2+1_4 and 45 cubic supports split as 40 (16,16,10) plus 5 (10,10,1), all conserving (-1)^q. The separately selected bridge grading differs. The beat mixes family class and parity on 6 of 27 basis columns, leaves 21 unmixed, and preserves the tested lock. OA-C1111--OA-C1113 add the exact clock census, anomaly sums and direction-level parity/lock fork; OA-C1125 exhausts the selected Z2 grading space and surviving psi torus, while OA-C1127 resolves the measured-hypercharge support labels. None turns the fixed frame into a physical dark sector or vacuum. |
 | [OA-C1101](#oa-c1101) | `REFUTED` | `geometry` | Does finite-cover nonuniqueness prove the literal claim that no function of normalized hyperbolic isometry type can distinguish a manifold from its finite covers? | No. Normalized hyperbolic volume is an isometry invariant and satisfies Vol(X_tilde)=d Vol(X) for a degree-d cover, so it distinguishes the covers and refutes the literal inference. The defensible physical statement is narrower: the normalized number does not provide an external conversion to SI length, area or volume. OA-C1029 remains the valid compactification-scale obstruction. |
 | [OA-C1102](#oa-c1102) | `REFUTED` | `geometry` | Is the Paper-IV list of fourteen orientable cusped census manifolds exhaustive for the declared Q(sqrt(-3)) shape-field family? | No. The source scan stops at zero-based census index 1200 in a 212641-entry census, and its paper verifier hardcodes the fourteen names without gating the field result. The manifold s955 at index 1256 is an explicit counterexample: all six regular tetrahedron shapes satisfy q^2-q+1=0, and its vendored exact gluing data pass six edge and two cusp equations, placing its shape field in Q(sqrt(-3)). |
-| [OA-C1103](#oa-c1103) | `OPEN` | `geometry` | Over the complete exactly certified Q(sqrt(-3)) cusped-census family, is H1=Z still the unique one of the seven declared elementary invariants that isolates m004? | Open. The fourteen-row sample cannot settle the universal claim because the family list is incomplete. The first exact counterexample to the list, s955, has H1=Z plus Z/20 and therefore does not itself settle whether another true family member shares H1=Z. Paper tip a6c35d0 adds a rounded first-cusp-shape observation over the same hard-coded fourteen members, but does not regenerate the full family, records only cusp zero and returns no Alexander data. OA-C1134 isolates the corrected exact cusp-shape question. |
+| [OA-C1103](#oa-c1103) | `REFUTED` | `geometry` | Over the complete exactly certified Q(sqrt(-3)) cusped-census family, is H1=Z still the unique one of the seven declared elementary invariants that isolates m004? | No. B1186 regenerates the Paper-IV shape-field family at declared census and denominator bounds and corrects its size to 112. The member o10_150700 is one-cusped, belongs to that family and has H1=Z, so H1=Z does not uniquely isolate m004. That single exact counterexample refutes the proposed seven-invariant separator claim; OA-C1134 keeps the stronger exact all-cusp comparison open because B1186's cusp-shape collisions were checked numerically rather than by an exact peripheral certificate. |
 | [OA-C1104](#oa-c1104) | `PROVED` | `geometry` | In the common absolute-convergence region, does the Ruelle Euler product for rho_m=Sym^(2m)(C^2) factor exactly as the product over j=-m,...,m of R(s-j,sigma_j)? | Yes. If a holonomy element has complex length L=l+i theta, Sym^(2m) has eigenvalues exp(jL), j=-m,...,m, and exp(jL)exp(-s l)=exp(i j theta)exp(-(s-j)l). Termwise multiplication therefore gives R_rho_m(s)=product_j R(s-j,sigma_j) in Re(s)>m+2. The paper checks m=0,...,4 on m004 to 5e-18 with three live controls; main independently re-derived it two ways. |
 | [OA-C1105](#oa-c1105) | `REFUTED` | `geometry` | Are the m004 local systems Sym^(2m)(C^2) acyclic for m>=1, so that the closed-manifold Fried value formula used in the proposed reflection derivation applies? | No. Exact Q(sqrt(-3)) computation gives (h0,h1,h2)=(0,1,1) for m=1,...,5, already refuting acyclicity; m=0 gives (1,1,0). The general peripheral mechanism is that the parabolic cusp fixes one line in every even symmetric power, planting cusp cohomology. The paper independently reproduced the result to n=40 and withdrew the numerical reflection predictions. |
 | [OA-C1106](#oa-c1106) | `EXTERNAL_BLOCKER` | `geometry` | What are the exact order of vanishing and leading Laurent coefficient at s=0 of the cusped complex-orthogonal torsion/Ruelle object for rho_m=Sym^(2m)(C^2) on m004? | Not yet. Because H^1 and H^2 are nonzero, the relevant Ruelle object has a nonzero order at s=0 rather than the finite acyclic value used by the withdrawn Fried step. Neither main nor the paper computes its leading Laurent coefficient; both route this to cusped Park/Pfaff or Cappell-Miller theory. |
 | [OA-C1107](#oa-c1107) | `EXTERNAL_BLOCKER` | `geometry` | Does the exact Park/Pfaff cusp, Borel-Serre and scattering correction for the declared twisted m004 torsion equal exp(-4m Vol(m004)/pi) under one fixed normalization? | Not yet. The volume damping is presently a structural target assembled from generic hyperbolic formulas. The closed-Fried shortcut is refuted, and the existing scalar scattering identity does not supply the spin-resolved cusped equation. |
 | [OA-C1108](#oa-c1108) | `EXTERNAL_BLOCKER` | `geometry` | Does a correctly completed twisted Ruelle function for the rho_m family on cusped m004 satisfy the required s-to-2-s functional equation including every cusp and scattering term? | Not yet. The exact Sym-power factorization does not provide analytic continuation or a functional equation. The current scalar determinant relation and positive-integer M-character products do not establish the negative-argument values needed by residue 2. |
-| [OA-C1109](#oa-c1109) | `EXTERNAL_BLOCKER` | `arithmetic` | Does a full Arakelov/archimedean arithmetic Chern-Simons construction over Q(sqrt(-3)) define a canonical normalized map from the finite order-six phase to Vol(m004), rather than merely placing both over the same Bloch/regulator class? | Not yet. B1156 verifies z^2-z+1=0 and 2D(z)=Vol(m004), and explains why a full Arakelov codomain can contain the real regulator, but constructs no finite-phase-to-volume map. B1159 correctly reframes Seam A as a wall in substance. OA-C1124 adds the orientation/sign obstruction and OA-C1136 separates the unrelated Calabi--Yau form phase. Arithmetic CS is typed by a field and Galois representation; m004 contributes a Bloch class, not an intrinsic finite CS action or heterotic selector. |
+| [OA-C1109](#oa-c1109) | `EXTERNAL_BLOCKER` | `arithmetic` | Does a full Arakelov/archimedean arithmetic Chern-Simons construction over Q(sqrt(-3)) define a canonical normalized map from the finite order-six phase to Vol(m004), rather than merely placing both over the same Bloch/regulator class? | Not yet. B1156 verifies z^2-z+1=0 and 2D(z)=Vol(m004), and explains why a full Arakelov codomain can contain the real regulator, but constructs no finite-phase-to-volume map. B1159 correctly reframes Seam A as a wall in substance. OA-C1124 adds the orientation/sign obstruction and OA-C1136 separates the unrelated Calabi--Yau form phase. B1198 retrieves Dong Uk Lee's arXiv:2502.11950; direct reading confirms the mixed-Tate-motive/regulator theorem and Appendix A's four figure-eight ideal-point checks. B1201 corrects B1198's marking account: because \|a1\|=1 here, the admissible tangent at each ideal point is unique. B1209 confirms this from the source and independently from the A-polynomial's four L-thin Newton-polygon edges, so the tangent torsor is trivial and cannot be the orientation bit. The augmented-character choice lambda versus lambda^-1, ideal point/local parameter, Bloch representative and augmented lift are still not jointly selected; the paper leaves motivic canonicity caveats, contains no Dedekind-zeta normalization and never maps the finite Kim/Artin-Verdier order-six phase to volume. It sharpens the literature side of the wall without supplying the requested comparison or a heterotic selector. |
 | [OA-C1110](#oa-c1110) | `REFUTED` | `values` | Does a preregistered corrected finite-height unfolding, including the omitted constant and oscillatory zero-count terms, account for the residual in the committed T=3000 zeta-times-L(chi_-3) spacing data? | No. Replacing the Wigner surmise by the exact sine-kernel Gaudin law leaves the two-component distance about 0.0244. The outside corrected-unfolding certificate was independently rerun: theta-exact and local-empirical variants leave zeta residuals about 0.0416/0.0406 and L residuals about 0.0502/0.0513. The proposed explanation therefore fails on the frozen finite data; this does not refute or prove an underlying asymptotic law. |
 | [OA-C1111](#oa-c1111) | `PROVED` | `lie` | In the fixed D5 x U(1)_psi frame on Psi=C^2 tensor 27, does the meridian clock have only the stated 16-to-10 and 1-to-16 transitions with the certified six-chain and cusp-fixed class census? | Yes. The bundled exact computation finds five chains with 16 bottoms and 10 tops plus one with singlet bottom and 16 top; carrier class sizes are 32/20/2 and locked counts 12/10/2. The joint cusp-fixed class projection/intersection pairs are 16:(7,1), 10:(10,5), 1:(1,0). |
 | [OA-C1112](#oa-c1112) | `PROVED` | `lie` | For the fixed branching 27=16_(+1)+10_(-2)+1_(+4), do the gravitational-U(1), cubic-U(1) and SO(10)^2-U(1) anomaly coefficients cancel exactly, with 10+1 carrying the negative of the 16 contribution? | Yes. Exact integer arithmetic gives sum dim*q=0, sum dim*q^3=0 and sum T*q=0 with T(16)=2 and T(10)=1. The 16 alone contributes 16 in the first two channels; 10+1 contributes -16. Main independently reproduces these sums. |
@@ -195,26 +198,57 @@ python3 documents/program-question-map/render.py \
 | [OA-C1115](#oa-c1115) | `OPEN` | `arithmetic` | Does the compatible zeta_3 embedding give uniform Habiro germ transport for every admissible prime, power and Taylor order with a correctly normalized valuation at each chosen local prime? | Open. B1158 states uniform transport, but its reproducer checks only splitting and exponents. R016 proves the corrected global-norm table on four levels; it neither quantifies over all levels nor isolates a single normalized local valuation. The universal quantifier therefore remains unproved and feasible rather than silently inherited. |
 | [OA-C1116](#oa-c1116) | `PROVED` | `lie` | Within the declared category {C^2 tensor V: V a nontrivial irreducible complex E6 module}, is the 54-dimensional carrier minimal up to the 27-versus-dual-27 tie? | Yes. Exact Weyl arithmetic enumerates all 84 dominant labels with coefficient sum at most three; every nontrivial dimension is at least 27 and equality occurs only at the two minuscule fundamentals. Standard dominance monotonicity extends the bound to all dominant weights, so tensoring by C^2 gives minimum 54 up to duality. |
 | [OA-C1117](#oa-c1117) | `OPEN` | `physics_interface` | Can the conditional heterotic witness's Wilson Z2, bundle parities and Higgs directions be placed in a common typed representation with the carrier lock, beat, clock and longitude, and if so do they preserve those operators? | Open. Outside tip 60bcf01d labels D1 paid, but its alignment_audit.py checks anomaly identities, dimensions and a stack hash; it loads no Wilson, bundle, Higgs, lock, beat, clock or longitude matrices and constructs no intertwiner. R017 versions the up-Yukawa proof but not this comparison. The declared closure criterion therefore remains unmet despite the semantic five-line alignment table. |
-| [OA-C1118](#oa-c1118) | `OPEN` | `spectrum` | In a precisely declared rank-three abelian charge sector with a complete candidate spectrum, does the anomaly Diophantine system uniquely select an SM-normalized hypercharge direction compatible with color and weak isospin? | Open. OA-C1121 proves that a selected trinification frame realizes the universal anomaly-ratio theorem after an SM-shaped 15-state subset and nonzero quark charge are imposed. OA-C1122 shows that, within a finite generic SM-visible alphabet, full anomalies plus rigidity select the minimal SM15/conjugate pair, but that alphabet is itself supplied and contains no object data. Neither result executes B892's distinct centralizer frame, includes the other twelve 27 states in a complete light-spectrum ledger, or selects frame, gauging and normalization. The stronger full-sector selector remains open. |
+| [OA-C1118](#oa-c1118) | `OPEN` | `spectrum` | In a precisely declared rank-three abelian charge sector with a complete candidate spectrum, does the anomaly Diophantine system uniquely select an SM-normalized hypercharge direction compatible with color and weak isospin? | Open. OA-C1121 proves that a selected trinification frame realizes the universal anomaly-ratio theorem after an SM-shaped 15-state subset and nonzero quark charge are imposed. OA-C1122 shows that, within a finite generic SM-visible alphabet, full anomalies plus rigidity select the minimal SM15/conjugate pair. B1170 independently confirms that this forcing is arena-generic: no object token enters the enumeration. The object-specific unpaid input is therefore the arena itself--a selected complete light spectrum and rank-three abelian sector--plus frame, gauging and normalization. The stronger full-sector selector remains open. |
 | [OA-C1119](#oa-c1119) | `PROVED` | `vacuum` | Does the exhaustive selected-D5 direction test yield exactly two SM-safe singlets, a four-dimensional joint Cartan torus, and loss of both the psi grading and carrier lock? | Yes. The independently rerun exact certificate finds precisely two SM-safe directions, states 1 and 17. Their joint Cartan stabilizer is four-dimensional and contains color, T3 and Y. Both directions are lock-odd; neither the psi grading nor the lock survives. Fifteen nontrivial root-lattice Z2 gradings remain and are separately classified by OA-C1125. |
 | [OA-C1120](#oa-c1120) | `REFUTED` | `physics_interface` | Does the fixed carrier admit a precisely graded odd operator Q satisfying the proposed Q^2=rho(meridian) relation and declared covariance conditions? | No. The independently rerun finite search finds no odd Q in either declared natural covariance class. Under pi1-equivariance, locked and unlocked irreducible spectra are disjoint, so no odd intertwiner exists. Under E6/gauge-equivariance, the commutant is gl2 tensor I27 and no such odd operator squares to the prescribed A2 tensor A27. The selected beat is even and semilinear, not the missing Q. |
 | [OA-C1121](#oa-c1121) | `PROVED` | `spectrum` | Within the selected trinification A2^3 frame, do all enumerated 27-derived SM-shaped 15-state assignments satisfying the four standard anomaly equations carry only the SM hypercharge ratios up to antitriplet exchange and overall scale? | Yes. The outside certificate gives 36 of 36 SM-ratio solutions in each of two color frames. R019 reproduces the exact E6/27 stack, extends the control to all three color slots and again finds 36 solutions, all SM-pattern, with no non-SM or multidimensional result. On the chiral branch Y_q is nonzero, the anomaly equations reduce universally to Y_l/Y_q=-3, Y_e/Y_q=6, (Y_u+Y_d)/Y_q=-2 and -18(Y_u/Y_q-2)(Y_u/Y_q+4)=0. If Y_q=0 is allowed, an additional vectorlike branch exists and is outside the claimed SM-ratio theorem. |
 | [OA-C1122](#oa-c1122) | `PROVED` | `spectrum` | Within the declared finite SM-visible representation alphabets, do the full gauge, mixed and global anomaly constraints plus chirality and rigidity select the SM 15-state content as the smallest solution up to conjugation? | Yes. The corrected exact scan examines 252 contents in the six-representation alphabet, kills 222 already by SU(3)^3, and leaves exactly the SM15 and its conjugate after the full system. Enlargements by adjoints and (3,3)-type representations leave 7 and 14 solutions respectively but no smaller one. The result is generic model-building arithmetic. The branch's arc_verdict.json is stale and still names the withdrawn 13-state counterexample; FINDINGS.md, results.json and steps 4--6 carry the corrected verdict. |
 | [OA-C1123](#oa-c1123) | `REFUTED` | `geometry` | Can a Galois-invariant datum of Q(zeta12) select one branch from the four surviving bundle and Wilson-line branches? | No. The exact branch action of Gal(Q(zeta12)/Q)=V4 is free and transitive. Every invariant function is therefore constant on all four branches, so none can select one. A non-Galois-invariant archimedean marking or extra observer choice is outside the theorem. |
-| [OA-C1124](#oa-c1124) | `REFUTED` | `geometry` | Does the unoriented amphichiral m004 object canonically select an orientation, a positive signed regulator volume, or one complex embedding of Q(sqrt(-3))? | No. m004 admits an orientation-reversing self-isometry. Complex conjugation exchanges the two embeddings and the Bloch--Wigner regulator changes sign, so an automorphism-invariant datum of the unoriented object cannot distinguish +Vol from -Vol. The positive volume magnitude is mirror-even and is not refuted. |
+| [OA-C1124](#oa-c1124) | `REFUTED` | `geometry` | Does the unoriented amphichiral m004 object canonically select an orientation, a positive signed regulator volume, or one complex embedding of Q(sqrt(-3))? | No. m004 admits an orientation-reversing self-isometry. Complex conjugation exchanges the two embeddings and the Bloch--Wigner regulator changes sign, so an automorphism-invariant datum of the unoriented object cannot distinguish +Vol from -Vol. Paper B8154 independently verifies on its chosen holonomy model that t^2 is a primitive cube root and u->u^2 is the conjugation/root swap; its prime-order subgroup argument removes shrinking the two-element symmetry as a nontrivial escape, but it supplies no preferred root. The positive volume magnitude is mirror-even and is not refuted. |
 | [OA-C1125](#oa-c1125) | `PROVED` | `spectrum` | Do the selected-chain centralizer and grading censuses leave no psi remnant, exactly fifteen nontrivial root-lattice Z2 gradings, and no all-matter-odd grading? | Yes. Independent reruns give joint torus exactly equal to the SM torus and surviving psi charges 1 and -2 with gcd one, hence no continuous or discrete psi remnant. Of 15 nontrivial root-lattice gradings, exactly one has the SM-torus shadow and 14 are additional; none is odd on all 15 multiplets and none is constant-odd on the psi-10 class. The z2 script's uc/dc labels are exchanged relative to the measured-Y texture script, but the counts are exchange-invariant. |
 | [OA-C1126](#oa-c1126) | `PROVED` | `spectrum` | Does every size-three orbit of the selected order-three trinification action cross the three distinct 9-blocks, making it a sector cycle rather than an intra-27 family index? | Yes. The exact census finds 36 order-three slot cyclers and nine size-three orbits. Every orbit crosses all three distinct trinification 9-blocks; none gives three copies within one block. Thus the selected Z3 is a sector cycle, not an intra-27 family index. |
-| [OA-C1127](#oa-c1127) | `PROVED` | `flavor` | Does the complete E6 cubic on the selected measured-hypercharge 27 roster have exactly the declared 45-support hypergraph? | Yes. The independently rerun exact certificate finds 45 supports, including six q-u^c-Hu, six q-d^c-Hd, two l-e^c-Hd and two S-Hu-Hd supports, together with exotic-mass and proton-decay-shaped supports. This is an algebraic support hypergraph only; it neither evaluates cup products nor selects physical fields or coefficients. |
-| [OA-C1128](#oa-c1128) | `PROVED` | `flavor` | In the selected E8 family-channel possibility space, do all complete three-by-three family matrices induced by the cubic have rank two with kernel equal to the Higgs-family direction? | Yes. The independently rerun certificate checks all 810 full-tensor family matrices. Every matrix has rank exactly two and kernel equal to the declared Higgs family, as expected from the epsilon-family factor. The result is a structural identity in a chosen E8 embedding, not a physical fermion mass matrix. |
+| [OA-C1127](#oa-c1127) | `PROVED` | `flavor` | Does the complete E6 cubic on the selected measured-hypercharge 27 roster have exactly the declared 45-support hypergraph? | Yes. The independently rerun exact certificate finds 45 supports, including six q-u^c-Hu, six q-d^c-Hd, two l-e^c-Hd and two S-Hu-Hd supports, together with exotic-mass and proton-decay-shaped supports. B1171 independently reruns the source certificate and stresses the discriminating fact: the object-level E6 tensor permits the six up-type supports while the conditional heterotic bundle cup product in OA-C1054 vanishes. These are different mechanisms, not one established value wall. |
+| [OA-C1128](#oa-c1128) | `PROVED` | `flavor` | In the selected E8 family-channel possibility space, do all complete three-by-three family matrices induced by the cubic have rank two with kernel equal to the Higgs-family direction? | Yes. The independently rerun certificate checks all 810 full-tensor family matrices. Every matrix has rank exactly two and kernel equal to the declared Higgs family, as expected from the epsilon-family factor. B1171 reproduces the result and registers the open comparison with the heterotic cup-product zero and the live E6 up-support. The result remains a structural identity in an observer-paid E8 possibility-space embedding, not a physical fermion mass matrix. |
 | [OA-C1129](#oa-c1129) | `PROVED` | `geometry` | In the declared finite cyclic-word ball for m004, do the holonomy traces lie in Z[omega] and exhibit the tested mirror-partner pattern? | Yes. The independently rerun computation enumerates 275 cyclic-word classes through length seven, with every trace in Z[omega]. Mirror pairing is certified for the 25-class inner ball through length four using a targeted search through length nine. It does not establish an all-word length-spectrum theorem. |
 | [OA-C1130](#oa-c1130) | `PROVED` | `spectrum` | Does exact ablation in the selected finite assignment space show that the mixed gravitational anomaly cuts the solutions while the cubic equation is redundant in the realized sector? | Yes. The independently rerun exact ablation shows that deleting the mixed gravitational anomaly enlarges the admissible spaces, while deleting the cubic equation changes no V0 count in the realized sector. This attributes constraint strength inside the frozen finite model; it is not a theorem that physical gravity creates hypercharge. |
-| [OA-C1131](#oa-c1131) | `OPEN` | `framework` | Is the programme's time-arrow datum already encoded by the oriented punctured-torus bundle and monodromy, or is it an independent observer-supplied discrete datum? | Open. B1164's corrected price ledger withdraws the claim that every observer freedom is archimedean, moves VEV choice to a finite place, treats sqrt(3) as field data rather than a free bit, and explicitly leaves the time-arrow classification unrun. No typed thermodynamic or causal arrow exists in the current carrier category. |
+| [OA-C1131](#oa-c1131) | `PROVED` | `framework` | Is the programme's time-arrow datum already encoded by the oriented punctured-torus bundle and monodromy, or is it an independent observer-supplied discrete datum? | Yes. B1182 proves the unique frozen C4-prime isomorphism (c,r,theta)->(k11,k7,k5). The programme's algebraic arrow is reversal r, hence the finite-place mod-four form-class leg k7, and is distinct from the archimedean orientation leg c. The object types the torsor leg; selecting a label on it remains observer-side. |
 | [OA-C1132](#oa-c1132) | `OPEN` | `qft` | Does a controlled m004-versus-nonarithmetic-m015 ablation show that the proposed spectral dynamics are generic while only the volume-to-L-value avatar is arithmetic-specific? | Open. B1165 proposes the comparison but does not run it. Existing Ruelle, torsion and Laplacian constructions are generic in type, while the m004 volume-to-Dedekind-L identity is arithmetic-specific and static. Neither side currently supplies a four-dimensional action. |
-| [OA-C1133](#oa-c1133) | `OPEN` | `framework` | Are the branch-selection, being-by-hearing and measurement V4 torsors equivariantly isomorphic with their three named actions and intended labels? | Open. B1166 contrasts sqrt(3)- and sqrt(5)-based presentations, but a bare free V4 torsor is abstractly unique and field names alone do not settle equivariant identity of the intended actions. The exact B1024 action and admissible label semantics have not been placed in one comparison object. |
-| [OA-C1134](#oa-c1134) | `OPEN` | `geometry` | Over the complete corrected exact Q(sqrt(-3)) cusped census, does the full cusp-shape datum uniquely isolate m004 up to conjugation? | Open. Paper tip a6c35d0 checks only the first cusp rounded to seven decimals on a hard-coded fourteen-manifold list; it neither regenerates the complete family nor includes the known missing s955 correction, and its Alexander-polynomial column is entirely None. The bounded observation is evidence, not closure. |
-| [OA-C1135](#oa-c1135) | `CONDITIONAL` | `framework` | Under the declared unoriented scale-free archimedean object, is every object-canonical datum exactly mirror-even and dimensionless? | Conditionally. B1168's examples establish useful necessary filters: an automorphism-odd sign cannot be canonical on an unoriented object, and an absolute dimensionful value cannot be extracted from scale-free data. They do not prove the converse or exhaust datum classes; analytic-torsion parity is explicitly fenced. Globally the observer ledger is adelic because the VEV choice is finite-place rather than archimedean. |
+| [OA-C1133](#oa-c1133) | `REFUTED` | `framework` | Are the branch-selection, being-by-hearing and measurement V4 torsors equivariantly isomorphic with their three named actions and intended labels? | No. R022 proves abstract regular-action equivalence and the sqrt(3)-versus-sqrt(5) field-label separator. In B1175 the charter author freezes named-action preservation as the intended category and adjudicates the original three-way claim false: branch selection and being-by-hearing are nonisomorphic. The productive rescope drops being-by-hearing; B1182 then proves the surviving branch-to-measurement C4-prime pair uniquely, recorded separately as OA-C1147. |
+| [OA-C1134](#oa-c1134) | `OPEN` | `geometry` | Over the complete corrected exact Q(sqrt(-3)) cusped census, does the full cusp-shape datum uniquely isolate m004 up to conjugation? | Open. B1186 regenerates a 112-member family at its declared census and denominator bounds and finds two one-cusped witnesses, o9_41001 and o9_41009, numerically sharing m004's 2*sqrt(3)i cusp shape. That is a sharp near-refutation, but the committed comparison casts cusp_info to complex and uses a 1e-6 tolerance; only tetrahedron shapes and gluing equations receive exact symbolic certification. The row therefore remains open until one witness receives an exact peripheral/cusp certificate. |
+| [OA-C1135](#oa-c1135) | `CONDITIONAL` | `framework` | Under the declared unoriented scale-free archimedean object, is every object-canonical datum exactly mirror-even and dimensionless? | Conditionally. B1168's examples establish useful necessary filters: an automorphism-odd sign cannot be canonical on an unoriented object, and an absolute dimensionful value cannot be extracted from scale-free data. B1169 restates awareness=mirror-even and choice=mirror-odd as a firewalled reading and explicitly asks for the missing completeness/map theorem; it supplies no such map. The converse, exhaustion of datum classes and analytic-torsion parity remain unsettled. Globally the observer ledger is adelic because the VEV choice is finite-place rather than archimedean. |
 | [OA-C1136](#oa-c1136) | `REFUTED` | `vacuum` | Do CS=0 and Mostow rigidity fix the U(1) phase of a Calabi--Yau holomorphic three-form, leaving only one positive real dilaton freedom? | No. No map from the three-manifold invariant to the Calabi--Yau canonical-bundle trivialization is supplied. Rescaling Omega by exp(i theta) leaves the m004 hyperbolic structure, CS=0 and Mostow rigidity unchanged, giving an explicit U(1) counterfamily. The claim that only an R+ physical dilaton remains therefore does not follow; even that physical interpretation assumes the heterotic functor. |
 | [OA-C1137](#oa-c1137) | `REFUTED` | `spectrum` | Does a degree-two trace field force representation or family multiplicities to lie only in {1,2}, thereby excluding multiplicity three? | No. Field degree constrains scalar embeddings and Galois structure, not the number of repeated summands. If V is any admissible module over Q(sqrt(-3)), then V direct-sum V direct-sum V is defined over the same degree-two field and has multiplicity three. B1161's stronger sentence is therefore false without an additional irreducibility or object-selection theorem; OA-C1126 supplies the actual selected-27 family census. |
+| [OA-C1138](#oa-c1138) | `PROVED` | `framework` | After erasing programme labels and allowing an automorphism of V4, are any two free transitive four-point V4 actions equivariantly isomorphic? | Yes. R022 enumerates the regular action: the identity has cycle type 1^4, each nonidentity element has 2^2 and no fixed point, and the permutation character decomposes as 1+chi_1+chi_2+chi_12. Choosing a basepoint identifies every such torsor with V4 acting on itself by translation. |
+| [OA-C1139](#oa-c1139) | `PROVED` | `framework` | If admissible maps must preserve the displayed quadratic-field and subfield annotations, are the branch-selection and being-by-hearing V4 presentations nonisomorphic? | Yes. R022 computes discriminants 144 and 225 from the three quadratic subfields. Q(zeta_12) ramifies only at {2,3}, while the being-by-hearing compositum includes Q(sqrt(5)) and ramifies at {3,5}; hence no field-annotation-preserving identification exists. B1175 authoritatively freezes field/named-label preservation as the intended category, discharging the former conditional antecedent. |
+| [OA-C1140](#oa-c1140) | `OPEN` | `physics_interface` | Is the unnamed spin structure in the constant Gieseking Pin-minus restriction image exactly the B1141 beat-selected holonomy sign lift? | Open. R021 proves that both Pin-minus structures restrict to one spin structure but the zero linear map cannot name the affine image. Deck generator t, tangent Pin data, the internal 2T center and semilinear holonomy are distinct objects. No explicit frame-lift comparison to B1141 exists. |
+| [OA-C1141](#oa-c1141) | `PROVED` | `framework` | Are the QP-4 self-closure obstruction, the mirror-odd orientation class and the E6 real-form fork bit images of one explicitly constructed Z2 class? | Yes. B1183 constructs a c-equivariant isomorphism between the QP-4 chord-sign torsor and the orientation torsor. Together with B1174's mirror=chirality=Gal(c) identification and the banked E6 real-form typing, the named obstruction classes are one nontrivial Z2 class. One basepoint choice trivializes the class across these faces; the finite k7 arrow remains a different bit. |
+| [OA-C1142](#oa-c1142) | `REFUTED` | `framework` | Does a typed object-native observer self-map exist with a fixed point that selects the mirror-odd orientation bit? | No. B1184 split-answers the quine. A census-scoped mirror-even self-name has a fixed point, but any object-native map that selected the mirror-odd sign would give an invariant section of the nontrivial c-torsor proved in B1183. Such a sign setter cannot exist. The requested conjunction is therefore false. |
+| [OA-C1143](#oa-c1143) | `EXTERNAL_BLOCKER` | `values` | Can a phason-controlled Aubry-Andre-Harper experiment measure the preregistered number of edge modes in a labelled gap well enough to distinguish the predicted counts five and six? | Not yet. B1171 adopts B8146's full-text audit: existing 13--28-waveguide demonstrations provide the phason knob but report qualitative localization, no mode count and no uncertainty or resolution for this observable. The experimental route is testable in principle but its readout does not presently exist. |
+| [OA-C1144](#oa-c1144) | `PROVED` | `flavor` | What exact typed maps, if any, relate the heterotic up-cup-product zero, the nonzero E6 up-type support and the rank-two E8 family-channel kernel? | Yes. B1185 proves the three mechanisms pairwise distinct by exact invariants: the heterotic up map has rank zero while the object E6 tensor has six nonzero supports; the first zero is selective whereas the E8 family kernel is universal rank two in all 810 channels; and the E8 family index has no object-level counterpart. There is no literal one-wall identification. OA-C1148 keeps the unevaluated heterotic down tail separate. |
+| [OA-C1145](#oa-c1145) | `OPEN` | `arithmetic` | Can the full OA-C1000 conductor-four reconstruction from m004 arithmetic through Q(zeta_12), the dP6 times dP6 fan and the published C12 action be reproduced by one self-contained certificate? | Open. OA-C1000 records the mathematical construction and two partial experiment scripts, but B1171's banking audit finds no single rerunnable artifact covering the complete zeta_12/dP6 reconstruction chain. This is a proof-provenance debt, not a retraction of the scoped theorem. |
+| [OA-C1146](#oa-c1146) | `CONDITIONAL` | `framework` | Across a complete typed observer-datum category, does availability of an arithmetic subgroup that breaks a continuous orbit exactly distinguish finite-label choices from full archimedean observer bits? | Conditionally. B1171 derives the current orientation/VEV split from two orbit-theorem escapes: the mirror remains an archimedean automorphism, while F4(R) can shrink to F4(Z) and leave finite orbits. It explicitly registers broader typing predictions; two examples do not prove the advertised iff or define a universal cost order. |
+| [OA-C1147](#oa-c1147) | `PROVED` | `framework` | After freezing the B1024 H1 quotient and branch labels, is there a unique label-preserving V4 isomorphism between the branch and measurement frames? | Yes. B1182 proves the unique isomorphism (c,r,theta)->(k11,k7,k5). The c leg is forced by the orientation/Galois result, r is the unique K-fixing reversal leg k7, and theta follows by the V4 group law. This is the valid two-frame replacement for the refuted original three-way claim OA-C1133. |
+| [OA-C1148](#oa-c1148) | `OPEN` | `flavor` | Can the normalized cyclic or Serre quasi-isomorphism over Q(zeta_12) be constructed exactly and used to evaluate the norm-308 down-type and lepton Yukawa cup products? | Open. B1185 closes only the pairwise distinction among the three suppression mechanisms. Its down-tail handoff names a characteristic-zero comparison T but the required certify_yukawa_down_tail_cech_308.sage load target is absent from the shared record. The outside one-27 calculation exactly finds one SU(2)-epsilon lambda invariant and one SU(3)-delta exotic invariant, and its finite H_d menu makes the down and lepton determinant cuts coincide only at that coefficient-shape level. B1208 leaves a generation-level three-outcome fork: the cuts may coincide, become independent, or the lepton operator may be absent. R024 answers the coarse character question only: on both retained Wilson branches e^c selects A_0 and l/H_d selects B_0, while the tail rule admits abstract pairs (0,8), (2,6), (4,4). The committed frames do not identify a lepton-specific generation pair, so coarse equality establishes none of the three outcomes. No branch-local characteristic-zero evaluator resolves the fork or reproduces the physical down/lepton map. |
+| [OA-C1149](#oa-c1149) | `OPEN` | `dynamics` | Can the continuous Powers weight lambda be placed or selected by an object-native arithmetic or dynamical construction rather than carried as an independent input? | Open. B1191 separates lambda from the sigma anchor but leaves it unplaced. B1192's correctness lens rejects the attempted Q(sqrt(5)) placement: the banked lambda is a free rational/Powers weight and no map ties it to the cat-map field. B1195 GC-22 proves only the narrow BTZ/KMS tautology: choosing a free BTZ mass and inverting q=exp(-2*pi/r_+) at lambda=0.4 reproduces B723's already defined modular period. The cell's own hostile lens marks survives=false, catches a ten-order numerical error in one control and rejects the inference from that one route to every object-native placement. B721 excludes the chosen tracial-core construction, not all possible maps. Placement remains open. |
+| [OA-C1150](#oa-c1150) | `OPEN` | `vacuum` | Does the surviving projective Higgs-line freedom reduce to already priced finite labels or one normalization, or does it add up to three independent continuous vacuum inputs? | Open. B1193 catches an error in the v0 input floor: the P3 Higgs line is not covered by the earlier multiplicity-one argument. Outside tip bc9d381d sharpens the test: its four Higgs slots have four distinct crystal weights, so the line reduces to a finite menu in that frame unless main's B0 block is torus-isotypic. B1195 GC-25 does not settle that comparison because its rational regular-representation stand-in assumes the action on the actual four-dimensional multiplicity space. B1205 cuts a generic P3 by a determinant cubic only to a surface, while a skew-slice control shows that such a determinant can vanish identically; no actual object tensor was evaluated. B1206/B1208 prove the lambda block is either rank zero or two by full SU(2) invariance and that the one-27 H_d menu has only one canonical functional, so those named routes do not add a cut. R024 shows e^c and l share coarse character zero on both retained branches but cannot identify their generation-level embeddings; B1208's same/independent/absent tensor fork therefore remains unresolved. The exact quotient and input dimension stay open. |
+| [OA-C1151](#oa-c1151) | `OPEN` | `gravity` | Does a genuine E6-lattice boundary character identify the stage's sigma normalization with the banked CFT or two-sixes structure and thereby delete sigma as an independent anchor? | Open. B1190 refutes the prior synthesis as a kind error. B1191 exhausts main's q-series fingerprint route and finds its only candidate fails the required kind/positivity map; the outside artifact survey extends that negative across its Habiro, zeta-count, dark-table and coupling holdings. Tip 9915068b constructs the generic level-one E6 lattice source exactly: an Eisenstein rank-three lattice with discriminant group F3, primaries {1,27,27bar}, vacuum opening 1,78,729 and 27 opening 27,378. It still supplies no normalized map from those characters to a record-side q-series and no identification with sigma. B1195 GC-23 rules out the tested raw/direct cusp Gram constructions, but its own hostile lens rejects the universal claim: interior, linking or Poincare-Lefschetz pairings can carry cross-cusp terms and were not classified. Its claimed tie through outside memo 100 also fails because OA-C1164 refutes that memo's Riley realization. The source object exists; the character-to-record bridge remains open. |
+| [OA-C1152](#oa-c1152) | `OPEN` | `framework` | For which heterogeneous grammar partners does simultaneous mirror realization define a nontrivial relational c-class, and does the grammar canonically force one such partner? | Open. B1192 proves a genuine relational mirror-odd class for exhibited heterogeneous norm-positive pairs, including the sqrt(3)-side partner, with two-sided controls. B1195 GC-24 survives narrowly as PARTIAL: the partner-unit-norm conjecture is false, and the bounded exact sweep supports gen_det=-kappa/g^2 with kappa the joint Fricke invariant and g the intersection-lattice saturation index; equal kappa=121 can yield opposite outcomes. No symbolic universal proof or exhaustive partner classification is supplied. The outside relational-kappa and first-beat certificates reproduce the exhibited pair and the all-word SL2 trace-polynomial law, but neither forces a grammar partner. The general classifier and selection rule remain open. |
+| [OA-C1153](#oa-c1153) | `OPEN` | `dynamics` | Do the volume-defined schedule and Chern-Simons or saddle-defined clock represent one coherently normalized time variable on their common domain? | Open. B1197 executes one sharply typed orientation-blind comparison. The selected (1,n) ladder is monotone for 29 rungs, but across the full 78-closing B289 census \|CS\| is not monotone in volume: 15 consecutive-order violations occur and every p>=2 family fails. OA-C1167 records that exact global proposal as REFUTED. Outside memo 130 and B1208 strengthen the negative: signed CS is already two-valued at fixed volume on all 156 mirror-paired rows, and even \|CS\| has a 541-fold spread-to-window witness. B1199 also rejects the proposed reconciliation of additive saddle periods with a multiplicative Reissner--Nordstrom ratio group as a type error. The parent remains open because trajectory selection is an extra premise, the owner's D2 scope choice is still expressly untaken, the alternate saddle clock is not compared and no normalized physical conversion is constructed. A monotone unselected subtrajectory is not a coherent clock theorem. |
+| [OA-C1154](#oa-c1154) | `OPEN` | `framework` | Is the outside branch-selection Z2 class exactly the finite frame-reversal leg r=k7 under the proved C4-prime isomorphism? | Open. B1182 types r=k7 within the frozen branch/measurement pair. The outside grammar certificate does not reach the carrier in the banked representation: its b-matrix has the opposite Riley sign and fails the m004 relator, recorded as OA-C1164. OA-C1165 preserves only the useful local fact that the exact reverser and golden Galois induce the same swap of two projective eigenlines. Its finite controls are not an exhaustive involution census, and no level-crossing map sends that outside branch torsor into the frozen k7 frame. The named identification remains open. |
+| [OA-C1155](#oa-c1155) | `REFUTED` | `spectrum` | Are B889's three pairwise distinguishable sectors canonically the trinification Z3 family orbit, so that they supply three physical generations rather than internal frames of one 27? | No. B1190 rejects GC-8's proposed identification: the B889 frames are the Galois S3 of an explicit external cubic, not the trinification Z3. B1196 GC-26 supplies the decisive carrier obstruction: every B891 foreign eigenspace has dimension 16 and its projector spreads across all three nine-dimensional trinification blocks, so it cannot equal any one block or any union of the 9+9+9 partition. The proposed canonical identification is refuted. This negative does not produce three chiral zero-mode copies; the parent physical-generation gate remains unclosed. |
+| [OA-C1156](#oa-c1156) | `OPEN` | `genesis` | Can the programme's Kolmogorov or invariant-prior principle select a unique object or basepoint rather than only a symmetry-invariant probability class? | Open. B1191 formalizes the proved finite piece: symmetry can fix the prior where it cannot fix a point, and recovers the forgotten F2/F8 locks. B1196 GC-27 is explicitly PARTIAL: it organizes finite-transitive, compact and non-normalizable examples and proves that the exhibited relational epsilon is conjugation-invariant, but gives no uniform Kolmogorov-complexity theorem and has not even typed a (T,G) pair for lambda. B1199 and R023 independently verify the full 745-class finite selection cochain and that its trace-three value is pointwise constant on each of the nine SL(2,F5) shadow classes; this is a complete finite readout, not a unique basepoint. The outside sufficiency test produces six distinct admissible sets from eight proposed predicates, gives A5 five competitors and finds that the proposed phi-stability gate is itself unforced and fails on A5. Paper B8154 removes only the vacuous proper-subgroup escape for a two-element root-swap action. OA-C0001's unrestricted encoding no-go remains an independent warning. The Selector is open. |
+| [OA-C1157](#oa-c1157) | `OPEN` | `cosmology` | Can the existing genesis, no-beginning, non-cancellation and Sakharov facts be assembled into a falsifiable cosmology specification that derives an initial condition and history rather than a metaphorical Big Bang? | Open. B1196 lands a useful eight-row COSMOLOGY_LEDGER and thereby completes the inventory subtask. B1208 independently strengthens one negative: for affine Cartan characters modulo n=2 through 6, no nontrivial character leaves at least 25 of the 27 weights neutral; the smallest charged set has size 11 and largest level set 16, with a planted-representation control succeeding. This closes only the ledger's tested character-level stabilizer route. It does not exclude broader abelian representations, nonabelian symmetry, kinematic mass-ordering stability or decay selection rules. No selected four-dimensional state space or action, transition law, calibrated scale/time, inflationary alternative, physical dark-matter candidate, baryogenesis rate, CMB spectrum or structure-formation history is derived. The ledger also must say two neutral slots per 27 rather than per physical generation, since the generation/4d-fermion realization is unproved. Documentation of missing dynamics is not cosmology closure. |
+| [OA-C1158](#oa-c1158) | `OPEN` | `values` | Does the object-normalized weak-mixing trace identity reproduce exactly at the independent full-tower prime 40639 after the required square-root convention transport? | Open. B895 proves the 40639 hypercharge direction and resolves the 17-versus-11 support discrepancy, but B919's distinct Weinberg-trace run remains one-prime. Its first attempted second-prime flag was caught as a silent substitution failure; the correctly substituted chain reaches the Y anchor but rational reconstruction returns None. The follow-up is explicitly registered and has no later closing arc through B1196. |
+| [OA-C1159](#oa-c1159) | `OPEN` | `values` | Does object-native arithmetic force the specific D2-twisted Hermitian gauge that carries the hierarchy rather than merely show that this twist is mirror-even and available? | Open. B928 proves that H_plus D2 is carried uniquely by the already specified composite phi*=tau o phi+ o phi- within its 128-representative census, while B923 proves only that the canonical gauge is generation-degenerate. B928 explicitly warns that the census alone does not pin D2: only 16 outer pairings are symmetric, and the other candidate Hermitian structures have not been tested for generation resolution. Outside memo 92 makes D2-tw mirror-even, but admissibility is not selection. The tip's proposed premise that physics must resolve generations therefore does not leave exactly one tested candidate. The physical gauge remains unforced. |
+| [OA-C1160](#oa-c1160) | `EXTERNAL_BLOCKER` | `qft` | Is there a type-correct specialization or correspondence between an E6 Seiberg-Witten curve and the banked m004 A-polynomial that supplies a nontrivial first step toward a four-dimensional lift? | Not yet. Outside tip bc9d381d exhausts the corpus and its cited construction lane: no E6 Seiberg-Witten-curve/state-integral construction exists to instantiate the comparison, the available dimension-six shadow leans mismatch, and B528 corrects the earlier nonabelian easy slice because T_K[4_1] is abelian at every rank. Main B1194 confirms no canonical 4d filling. The row is blocked on a new specialist mathematical construction, not an unrun in-repo calculation. |
+| [OA-C1161](#oa-c1161) | `REFUTED` | `qft` | Does the bare m004 arithmetic force the quartic phase, amplitude and associator fields required by the proposed Fibonacci-MTC Born-content construction? | No. B729 supplies that census. The object-native trace and Alexander data give Q(sqrt(-3)) and Q(sqrt(5)); the phase Q(zeta_5), amplitude Q(zeta_20)^+ and associator field appear only in imported Fibonacci-MTC data and have distinct quartic Galois/ramification types. The outside accounting is correct to price them as overlays, but they are already a theorem-level negative rather than an unclassified missing row. |
+| [OA-C1162](#oa-c1162) | `PROVED` | `arithmetic` | Is the class group of the discriminant-6237 cubic field trivial, making every prime above 953 principal? | Yes. B1093 proves O_K=Z[theta] for theta^3-12theta-5, discriminant 6237 and h(K)=h+(K)=1 by exhibiting principal generators for every prime ideal below the Minkowski bound. The B931 twist field is this same cubic field. Thus the outside accounting's item 'compute the class group to decide whether P1(953) is principal' is stale. The first outside relation harvest has a p=5 valuation bug and is excluded, but successor principal_witnesses.py gives a disjoint valid proof by explicit generators for all eight prime ideals below the Minkowski bound; R023 independently rechecks their norms and discriminating valuations. OA-C1163 separately records the norm-953 exhibit. |
+| [OA-C1163](#oa-c1163) | `PROVED` | `arithmetic` | Can one construct an explicit generator pi of the selected degree-one prime above 953 in the discriminant-6237 twist field? | Yes. Outside certificate class_group_953.py reproduces the discriminant, maximal order, source-field factor and small-prime splitting table, then exhibits alpha=-26-theta+2theta^2 with exact norm 953 in the sign convention f(theta)=theta^3-12theta+5. Because f mod 953 has one degree-one factor and one irreducible quadratic, this generates the unique degree-one prime above 953. Its separate class-number relation harvest has a p=5 valuation bug and is not evidence for this row; h=1 rests on B1093. Unit normalization and the full pipeline-free meaning question are separated as OA-C1166. |
+| [OA-C1164](#oa-c1164) | `REFUTED` | `geometry` | Does the outside grammar_disc48 certificate instantiate the banked m004 Riley representation and thereby prove that baBAABab is a peripheral longitude with discriminant-48 translation lattice? | No. The certificate uses b=[[1,0],[-omega,1]], while the banked Riley realization uses lower-left +omega. Its own matrices send the banked relator abABaBAbaB to [[-1,0],[-4,-1]] rather than the identity, and the script never checks that relator. After correcting the sign, baBAABab is not the banked longitude; the established peripheral word is bABaaBAb. The later form enumeration is valid for the asserted translation but cannot repair the failed representation/word gate. The advertised grammar-to-disc-48 closure is therefore refuted. |
+| [OA-C1165](#oa-c1165) | `PROVED` | `dynamics` | At the trivial fixed point of the declared trace-map dynamics, do the exact reverser and nontrivial Q(sqrt(5)) Galois automorphism induce the same swap of the two projective golden eigenlines? | Yes. Outside certificate gamma5_reverser.py proves DR(v_u)=(9-4sqrt(5))v_s and DR(v_s)=(9+4sqrt(5))v_u; the two factors are inverse golden units, and the stable and unstable eigenvectors are entrywise Galois conjugate. Thus the rational-linear reverser and field Galois induce the same permutation of these two projective eigenlines; they are not literally the same linear/semilinear map. Its short control list is not an exhaustive involution census. This is not a global thermodynamic arrow or the unpaid branch-to-r map. |
+| [OA-C1166](#oa-c1166) | `OPEN` | `values` | Does the explicit norm-953 generator admit an object-native unit normalization and a pipeline-free derivation explaining why that associate enters the hierarchy invariant? | Open. Class number one and alpha=-26-theta+2theta^2 prove existence and principality. The successor eight-witness proof removes the first certificate's method defect but still neither chooses a unit associate nor proves the downstream divisor equality in a pipeline-independent construction. Outside memos 102/103 sharpen the old gap to the arithmetic meaning of this single element rather than completing a physical explanation. |
+| [OA-C1167](#oa-c1167) | `REFUTED` | `dynamics` | Is the reduced orientation-blind quantity \|CS\| a globally monotone reparameterization of hyperbolic volume across the full B289 78-closing census? | No. B1197 and the independent R023 rerun find 78 unoriented hyperbolic closings, reproduce the Chern--Simons sign control on 156/156 oriented pairs and obtain 15 global monotonicity violations. Every fixed-p family from p=2 through p=8 contains a violation, while a shuffled control fires 36 times. The selected (1,n) ladder is monotone for 29 rungs, so only the global orientation-blind proposal is refuted; OA-C1153's signed/saddle and trajectory-selection question remains open. |
+| [OA-C1168](#oa-c1168) | `OPEN` | `framework` | Do asymmetric, noncommuting relations between unlike trace-model elements suffice to instantiate an operational occupant or observer, rather than merely form a large class of necessary-type candidates? | Open. Outside pattern_ladder.py reproducibly counts 13,120 reduced words through length eight, 180 trace values and an unordered-pair fraction satisfying noncommutation plus unequal trace that rises from 0.7481 to 0.9355 through depth five. These are free reduced words rather than proved conjugacy classes, and the code uses unordered combinations despite its ordered-pair wording. The later exact uniqueness test is an explicit counter-pressure: eight proposed predicates yield six distinct admissible sets, A5 retains five competitors, and the proposed phi-stability gate is both unforced and false on A5. Noncommutation and unequal trace are broad necessary-pattern tests; no map to an operational observer, feedback law, token selection or phenomenal state is constructed. The exact supply and nonuniqueness counts expose rather than close the sufficiency bridge. |
 
 ## Detailed answer records
 
@@ -242,7 +276,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** Yes. The marked order O_4=Z[2 sqrt(-3)] has ring class field H=Q(zeta_12); its two Eisenstein eigensummands give dP6 x dP6, and an explicit determinant-one basis change identifies multiplication by zeta_12 with the published A_N and twelve-cycle.
 - **Kind/domain:** `construction` / `arithmetic`
 - **Depends on:** [OA-C0003](#oa-c0003)
-- **Leads to:** [OA-C1001](#oa-c1001), [OA-C1009](#oa-c1009)
+- **Leads to:** [OA-C1001](#oa-c1001), [OA-C1009](#oa-c1009), [OA-C1145](#oa-c1145)
 - **Closure test:** Exact class-polynomial, integral-lattice, fan, and SL(4,Z) intertwiner certificates identifying the reconstructed action with the published C12 action.
 - **Falsifier:** A class-field computation yielding a different field/action, a nonintegral conjugacy, or failure of the twelve-ray product fan reconstruction.
 - **Scope:** Marked, oriented conductor-four figure-eight cusp and ambient toric reconstruction; not yet a chosen hypersurface or physical compactification.
@@ -314,7 +348,7 @@ python3 documents/program-question-map/render.py \
 ### OA-C1109 — `EXTERNAL_BLOCKER`
 
 - **Question:** Does a full Arakelov/archimedean arithmetic Chern-Simons construction over Q(sqrt(-3)) define a canonical normalized map from the finite order-six phase to Vol(m004), rather than merely placing both over the same Bloch/regulator class?
-- **Answer:** Not yet. B1156 verifies z^2-z+1=0 and 2D(z)=Vol(m004), and explains why a full Arakelov codomain can contain the real regulator, but constructs no finite-phase-to-volume map. B1159 correctly reframes Seam A as a wall in substance. OA-C1124 adds the orientation/sign obstruction and OA-C1136 separates the unrelated Calabi--Yau form phase. Arithmetic CS is typed by a field and Galois representation; m004 contributes a Bloch class, not an intrinsic finite CS action or heterotic selector.
+- **Answer:** Not yet. B1156 verifies z^2-z+1=0 and 2D(z)=Vol(m004), and explains why a full Arakelov codomain can contain the real regulator, but constructs no finite-phase-to-volume map. B1159 correctly reframes Seam A as a wall in substance. OA-C1124 adds the orientation/sign obstruction and OA-C1136 separates the unrelated Calabi--Yau form phase. B1198 retrieves Dong Uk Lee's arXiv:2502.11950; direct reading confirms the mixed-Tate-motive/regulator theorem and Appendix A's four figure-eight ideal-point checks. B1201 corrects B1198's marking account: because |a1|=1 here, the admissible tangent at each ideal point is unique. B1209 confirms this from the source and independently from the A-polynomial's four L-thin Newton-polygon edges, so the tangent torsor is trivial and cannot be the orientation bit. The augmented-character choice lambda versus lambda^-1, ideal point/local parameter, Bloch representative and augmented lift are still not jointly selected; the paper leaves motivic canonicity caveats, contains no Dedekind-zeta normalization and never maps the finite Kim/Artin-Verdier order-six phase to volume. It sharpens the literature side of the wall without supplying the requested comparison or a heterotic selector.
 - **Kind/domain:** `existence` / `arithmetic`
 - **Depends on:** [OA-C1045](#oa-c1045), [OA-C1053](#oa-c1053), [OA-C1075](#oa-c1075)
 - **Leads to:** [OA-C1002](#oa-c1002), [OA-C1007](#oa-c1007)
@@ -322,7 +356,7 @@ python3 documents/program-question-map/render.py \
 - **Falsifier:** A theorem that the completions admit no canonical comparison, or that every proposed comparison merely relabels the regulator without an m004-specific map, refutes this bridge.
 - **Scope:** The finite Kim/Artin-Verdier phase and archimedean Borel regulator of the figure-eight Bloch class. This is a narrowly specified mathematical comparison problem but an operational wall, not a physics door: even a positive comparison would not select a heterotic realization, a four-dimensional theory or an SM value.
 - **Aliases:** `B1156 SEAM-A floor`, `finite phase to archimedean volume`, `Arakelov arithmetic-CS bridge`
-- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1156_seam_a_gate2/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1156_seam_a_gate2/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1159_mssm_debt_ledger/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1159_mssm_debt_ledger/FINDINGS.md)
+- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1156_seam_a_gate2/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1156_seam_a_gate2/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1159_mssm_debt_ledger/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1159_mssm_debt_ledger/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/31b4915657dae92a5cebda8cb15fcd1177854d97/frontier/B1198_lee_motives_retrieval/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/31b4915657dae92a5cebda8cb15fcd1177854d97/frontier/B1198_lee_motives_retrieval/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/6bd7aeb8a6acb3fd4a1bb250d15f0e91c6fcf1a3/frontier/B1201_lee_verified_and_harvest/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/6bd7aeb8a6acb3fd4a1bb250d15f0e91c6fcf1a3/frontier/B1201_lee_verified_and_harvest/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/4526eb49214cdc3c038191870421f32d6819b79d/frontier/B1209_lee_verification/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/4526eb49214cdc3c038191870421f32d6819b79d/frontier/B1209_lee_verification/FINDINGS.md), [`https://arxiv.org/abs/2502.11950`](https://arxiv.org/abs/2502.11950)
 - **Deepest artifacts:** [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1156_seam_a_gate2/verification/reproduce.sh`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1156_seam_a_gate2/verification/reproduce.sh)
 
 <a id="oa-c1114"></a>
@@ -355,6 +389,51 @@ python3 documents/program-question-map/render.py \
 - **Sources:** [`../../../memos/HABIRO_ZETA3_EMBEDDING_SCOPE.md`](../memos/HABIRO_ZETA3_EMBEDDING_SCOPE.md), [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md)
 - **Deepest artifacts:** [`../../../certificates/r016_habiro_zeta3_embeddings.py`](../certificates/r016_habiro_zeta3_embeddings.py)
 
+<a id="oa-c1145"></a>
+### OA-C1145 — `OPEN`
+
+- **Question:** Can the full OA-C1000 conductor-four reconstruction from m004 arithmetic through Q(zeta_12), the dP6 times dP6 fan and the published C12 action be reproduced by one self-contained certificate?
+- **Answer:** Open. OA-C1000 records the mathematical construction and two partial experiment scripts, but B1171's banking audit finds no single rerunnable artifact covering the complete zeta_12/dP6 reconstruction chain. This is a proof-provenance debt, not a retraction of the scoped theorem.
+- **Kind/domain:** `computation` / `arithmetic`
+- **Depends on:** [OA-C1000](#oa-c1000)
+- **Leads to:** None.
+- **Closure test:** Ship a file-relative certificate that derives the ring class field, twelve-ray product fan, integral determinant-one intertwiner and action conjugacy from frozen inputs and reproduces from any checkout.
+- **Falsifier:** Failure of any derivation, a hidden preloaded target matrix or a certificate requiring untracked machine-local artifacts defeats the provenance closure.
+- **Scope:** Reproducibility and dual-homing of the already scoped arithmetic/toric construction. It does not derive a heterotic realization, hypersurface, bundle or vacuum.
+- **Aliases:** `B1171 construction-cert ask`, `zeta12 dP6 dual-homing`, `OA-C1000 provenance debt`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/72ace1cf91abae1be356b17e947c08894f255a8b/frontier/B1171_seam_harvest/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/72ace1cf91abae1be356b17e947c08894f255a8b/frontier/B1171_seam_harvest/FINDINGS.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1162"></a>
+### OA-C1162 — `PROVED`
+
+- **Question:** Is the class group of the discriminant-6237 cubic field trivial, making every prime above 953 principal?
+- **Answer:** Yes. B1093 proves O_K=Z[theta] for theta^3-12theta-5, discriminant 6237 and h(K)=h+(K)=1 by exhibiting principal generators for every prime ideal below the Minkowski bound. The B931 twist field is this same cubic field. Thus the outside accounting's item 'compute the class group to decide whether P1(953) is principal' is stale. The first outside relation harvest has a p=5 valuation bug and is excluded, but successor principal_witnesses.py gives a disjoint valid proof by explicit generators for all eight prime ideals below the Minkowski bound; R023 independently rechecks their norms and discriminating valuations. OA-C1163 separately records the norm-953 exhibit.
+- **Kind/domain:** `theorem` / `arithmetic`
+- **Depends on:** [OA-C1099](#oa-c1099)
+- **Leads to:** [OA-C1163](#oa-c1163)
+- **Closure test:** Prove the full ring of integers and class number by an exact Minkowski-bound ideal calculation, not a database citation, and identify the field used by the twist construction.
+- **Falsifier:** A nonprincipal ideal below the Minkowski bound or a nonisomorphic twist field refutes the claim.
+- **Scope:** The exact cubic field and ideal-class obstruction. Class number one does not canonically choose a generator or explain the physical relevance of 953.
+- **Aliases:** `B1093 class-number closure`, `disc-6237 class group`, `P1(953) principality`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/f8e839ca39671b1165bd247b93d2f90e20aab34e/frontier/B1093_route_a_arithmetic/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/f8e839ca39671b1165bd247b93d2f90e20aab34e/frontier/B1093_route_a_arithmetic/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/memos/PRINCIPAL_WITNESSES.md`](https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/memos/PRINCIPAL_WITNESSES.md)
+- **Deepest artifacts:** [`../../../certificates/r023_wave6_outside_hostile.py`](../certificates/r023_wave6_outside_hostile.py), [`../../../outputs/r023_wave6_outside_hostile.txt`](../outputs/r023_wave6_outside_hostile.txt), [`https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/certificates/principal_witnesses.py`](https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/certificates/principal_witnesses.py)
+
+<a id="oa-c1163"></a>
+### OA-C1163 — `PROVED`
+
+- **Question:** Can one construct an explicit generator pi of the selected degree-one prime above 953 in the discriminant-6237 twist field?
+- **Answer:** Yes. Outside certificate class_group_953.py reproduces the discriminant, maximal order, source-field factor and small-prime splitting table, then exhibits alpha=-26-theta+2theta^2 with exact norm 953 in the sign convention f(theta)=theta^3-12theta+5. Because f mod 953 has one degree-one factor and one irreducible quadratic, this generates the unique degree-one prime above 953. Its separate class-number relation harvest has a p=5 valuation bug and is not evidence for this row; h=1 rests on B1093. Unit normalization and the full pipeline-free meaning question are separated as OA-C1166.
+- **Kind/domain:** `computation` / `arithmetic`
+- **Depends on:** [OA-C1099](#oa-c1099), [OA-C1162](#oa-c1162)
+- **Leads to:** [OA-C1166](#oa-c1166)
+- **Closure test:** Identify the unique degree-one prime used by the twist and exhibit an element of exact norm 953 in the maximal order, with the field-identification and splitting gates checked.
+- **Falsifier:** A norm other than 953, a nonmaximal-order computation or selection of the degree-two prime refutes the exhibit.
+- **Scope:** Constructive principality of the degree-one 953 prime. It does not canonically choose a unit associate, explain why physics uses 953 or derive a measured parameter.
+- **Aliases:** `953 explicit generator`, `twist-prime divisor formula`, `B931 residual`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/certificates/class_group_953.py`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/certificates/class_group_953.py), [`https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/certificates/principal_witnesses.py`](https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/certificates/principal_witnesses.py)
+- **Deepest artifacts:** [`../../../certificates/r023_wave6_outside_hostile.py`](../certificates/r023_wave6_outside_hostile.py), [`../../../outputs/r023_wave6_outside_hostile.txt`](../outputs/r023_wave6_outside_hostile.txt), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/outputs/class_group_953_out.txt`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/outputs/class_group_953_out.txt)
+
 ## Domain: `carrier`
 
 <a id="oa-c0003"></a>
@@ -364,7 +443,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** Conditionally. Squaring the determinant-minus-one incidence gives RL, but letter-to-Dehn-twist, puncture, orientation, and mapping-torus operations are extra typed data.
 - **Kind/domain:** `construction` / `carrier`
 - **Depends on:** [OA-C0002](#oa-c0002)
-- **Leads to:** [OA-C0004](#oa-c0004), [OA-C1000](#oa-c1000), [OA-C1068](#oa-c1068), [OA-C1074](#oa-c1074), [OA-C1075](#oa-c1075), [OA-C1076](#oa-c1076), [OA-C1077](#oa-c1077), [OA-C1078](#oa-c1078)
+- **Leads to:** [OA-C0004](#oa-c0004), [OA-C1000](#oa-c1000), [OA-C1068](#oa-c1068), [OA-C1074](#oa-c1074), [OA-C1075](#oa-c1075), [OA-C1076](#oa-c1076), [OA-C1077](#oa-c1077), [OA-C1078](#oa-c1078), [OA-C1164](#oa-c1164)
 - **Closure test:** A unique natural functor from the admitted description category to oriented 3-manifold carriers.
 - **Falsifier:** Two inequivalent admissible carrier functors from the same substitution.
 - **Scope:** Current paper/repository carrier construction.
@@ -401,6 +480,85 @@ python3 documents/program-question-map/render.py \
 - **Aliases:** `Paper I period-two price`, `two-letter metallic relaxation`
 - **Sources:** [`../evidence/WAVE4_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE4_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/61a243c65f1a84c700e3c3d9755b11c30a5f0699/papers/series/paper1_characterization/main.tex`](https://github.com/originaxiom/origin-axiom/blob/61a243c65f1a84c700e3c3d9755b11c30a5f0699/papers/series/paper1_characterization/main.tex)
 - **Deepest artifacts:** None registered.
+
+## Domain: `cosmology`
+
+<a id="oa-c1157"></a>
+### OA-C1157 — `OPEN`
+
+- **Question:** Can the existing genesis, no-beginning, non-cancellation and Sakharov facts be assembled into a falsifiable cosmology specification that derives an initial condition and history rather than a metaphorical Big Bang?
+- **Answer:** Open. B1196 lands a useful eight-row COSMOLOGY_LEDGER and thereby completes the inventory subtask. B1208 independently strengthens one negative: for affine Cartan characters modulo n=2 through 6, no nontrivial character leaves at least 25 of the 27 weights neutral; the smallest charged set has size 11 and largest level set 16, with a planted-representation control succeeding. This closes only the ledger's tested character-level stabilizer route. It does not exclude broader abelian representations, nonabelian symmetry, kinematic mass-ordering stability or decay selection rules. No selected four-dimensional state space or action, transition law, calibrated scale/time, inflationary alternative, physical dark-matter candidate, baryogenesis rate, CMB spectrum or structure-formation history is derived. The ledger also must say two neutral slots per 27 rather than per physical generation, since the generation/4d-fermion realization is unproved. Documentation of missing dynamics is not cosmology closure.
+- **Kind/domain:** `construction` / `cosmology`
+- **Depends on:** [OA-C0017](#oa-c0017)
+- **Leads to:** None.
+- **Closure test:** Publish one typed cosmology ledger with state space, dynamics or transition law, scale and time inputs, inflation/dark-sector obligations and at least one discriminating observable, with every banked no-go respected.
+- **Falsifier:** Absence of equations of motion, a noncanonical four-dimensional lift, an imported scale or only retrospective numerical matches prevents cosmological closure.
+- **Scope:** A modern typed cosmology ledger for this programme. The object's internal Lambda=-1 and dimensionless tick do not by themselves give the observed four-dimensional cosmology.
+- **Aliases:** `B1194 cosmology ledger`, `X3-X5 blind region`, `initial-condition audit`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/docs/COSMOLOGY_LEDGER.md`](https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/docs/COSMOLOGY_LEDGER.md), [`https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1196_close_loop_batch5b/verification/batch5b_cells.json`](https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1196_close_loop_batch5b/verification/batch5b_cells.json), [`https://github.com/originaxiom/origin-axiom/blob/1f2a1012286ff00b86fca99395d07aae346ca69b/outside_bench/certificates/dm_census.py`](https://github.com/originaxiom/origin-axiom/blob/1f2a1012286ff00b86fca99395d07aae346ca69b/outside_bench/certificates/dm_census.py), [`https://github.com/originaxiom/origin-axiom/blob/b0d8f37c7205cf43520a0710f6b7c7c66634a0dc/frontier/B1208_cross_seat_harvest/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/b0d8f37c7205cf43520a0710f6b7c7c66634a0dc/frontier/B1208_cross_seat_harvest/FINDINGS.md)
+- **Deepest artifacts:** None registered.
+
+## Domain: `dynamics`
+
+<a id="oa-c1149"></a>
+### OA-C1149 — `OPEN`
+
+- **Question:** Can the continuous Powers weight lambda be placed or selected by an object-native arithmetic or dynamical construction rather than carried as an independent input?
+- **Answer:** Open. B1191 separates lambda from the sigma anchor but leaves it unplaced. B1192's correctness lens rejects the attempted Q(sqrt(5)) placement: the banked lambda is a free rational/Powers weight and no map ties it to the cat-map field. B1195 GC-22 proves only the narrow BTZ/KMS tautology: choosing a free BTZ mass and inverting q=exp(-2*pi/r_+) at lambda=0.4 reproduces B723's already defined modular period. The cell's own hostile lens marks survives=false, catches a ten-order numerical error in one control and rejects the inference from that one route to every object-native placement. B721 excludes the chosen tracial-core construction, not all possible maps. Placement remains open.
+- **Kind/domain:** `construction` / `dynamics`
+- **Depends on:** [OA-C0017](#oa-c0017)
+- **Leads to:** None.
+- **Closure test:** Define lambda in one typed dynamical category, derive its value or orbit from object data and prove uniqueness without importing a fitted thermal or measured parameter.
+- **Falsifier:** A family of equally admissible lambda values, or a proposed field assignment with no source map from the object, refutes intrinsic placement.
+- **Scope:** The declared continuous type-III/Powers parameter. It must not be confused with a Dirac or Laplace eigenvalue also denoted lambda.
+- **Aliases:** `B1193 lambda placement`, `Powers weight`, `type-III clock datum`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/0f1c627e5c290439e4f6eeb3723fb5d9f83195d7/docs/GRAND_COMPUTATION_v0.md`](https://github.com/originaxiom/origin-axiom/blob/0f1c627e5c290439e4f6eeb3723fb5d9f83195d7/docs/GRAND_COMPUTATION_v0.md), [`https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json`](https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1153"></a>
+### OA-C1153 — `OPEN`
+
+- **Question:** Do the volume-defined schedule and Chern-Simons or saddle-defined clock represent one coherently normalized time variable on their common domain?
+- **Answer:** Open. B1197 executes one sharply typed orientation-blind comparison. The selected (1,n) ladder is monotone for 29 rungs, but across the full 78-closing B289 census |CS| is not monotone in volume: 15 consecutive-order violations occur and every p>=2 family fails. OA-C1167 records that exact global proposal as REFUTED. Outside memo 130 and B1208 strengthen the negative: signed CS is already two-valued at fixed volume on all 156 mirror-paired rows, and even |CS| has a 541-fold spread-to-window witness. B1199 also rejects the proposed reconciliation of additive saddle periods with a multiplicative Reissner--Nordstrom ratio group as a type error. The parent remains open because trajectory selection is an extra premise, the owner's D2 scope choice is still expressly untaken, the alternate saddle clock is not compared and no normalized physical conversion is constructed. A monotone unselected subtrajectory is not a coherent clock theorem.
+- **Kind/domain:** `comparison` / `dynamics`
+- **Depends on:** [OA-C0017](#oa-c0017), [OA-C1124](#oa-c1124)
+- **Leads to:** [OA-C1167](#oa-c1167)
+- **Closure test:** Define both clocks as typed maps, fix orientation and normalization conventions, construct their comparison and test equality with a negative control.
+- **Falsifier:** Incompatible domains, opposite transformation laws or a nonconstant conversion factor refute one-clock coherence.
+- **Scope:** Internal dimensionless clock coordinates. Agreement would not calibrate seconds, produce a causal arrow or derive equations of motion.
+- **Aliases:** `B1193 Vol-CS coherence`, `two-clock comparison`, `clock-coherence run`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/0f1c627e5c290439e4f6eeb3723fb5d9f83195d7/docs/GRAND_COMPUTATION_LEDGER.md`](https://github.com/originaxiom/origin-axiom/blob/0f1c627e5c290439e4f6eeb3723fb5d9f83195d7/docs/GRAND_COMPUTATION_LEDGER.md), [`https://github.com/originaxiom/origin-axiom/blob/31b4915657dae92a5cebda8cb15fcd1177854d97/frontier/B1197_clock_coherence/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/31b4915657dae92a5cebda8cb15fcd1177854d97/frontier/B1197_clock_coherence/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/63c047059645fded83d8cdf4976139804df5c644/frontier/B1199_register_reads_and_L188/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/63c047059645fded83d8cdf4976139804df5c644/frontier/B1199_register_reads_and_L188/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/287e8f75efa34141dfb00ff2c30215cd50036ee5/outside_bench/THE_D2_DECISION.md`](https://github.com/originaxiom/origin-axiom/blob/287e8f75efa34141dfb00ff2c30215cd50036ee5/outside_bench/THE_D2_DECISION.md), [`https://github.com/originaxiom/origin-axiom/blob/b0d8f37c7205cf43520a0710f6b7c7c66634a0dc/frontier/B1208_cross_seat_harvest/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/b0d8f37c7205cf43520a0710f6b7c7c66634a0dc/frontier/B1208_cross_seat_harvest/FINDINGS.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1165"></a>
+### OA-C1165 — `PROVED`
+
+- **Question:** At the trivial fixed point of the declared trace-map dynamics, do the exact reverser and nontrivial Q(sqrt(5)) Galois automorphism induce the same swap of the two projective golden eigenlines?
+- **Answer:** Yes. Outside certificate gamma5_reverser.py proves DR(v_u)=(9-4sqrt(5))v_s and DR(v_s)=(9+4sqrt(5))v_u; the two factors are inverse golden units, and the stable and unstable eigenvectors are entrywise Galois conjugate. Thus the rational-linear reverser and field Galois induce the same permutation of these two projective eigenlines; they are not literally the same linear/semilinear map. Its short control list is not an exhaustive involution census. This is not a global thermodynamic arrow or the unpaid branch-to-r map.
+- **Kind/domain:** `theorem` / `dynamics`
+- **Depends on:** [OA-C1094](#oa-c1094), [OA-C1131](#oa-c1131)
+- **Leads to:** [OA-C1154](#oa-c1154)
+- **Closure test:** Differentiate the exact trace-map reverser, construct both eigenlines over Q(sqrt(5)) and prove their exchange up to nonzero field units; compare with entrywise field conjugation without identifying linear and semilinear maps.
+- **Falsifier:** Failure to exchange the two eigenspaces, or proportionality factors outside Q(sqrt(5)), refutes the scoped projective identification.
+- **Scope:** The derivative at one fixed point and the two golden eigendirections. The programme name gamma5 and any physical arrow-of-time interpretation are not proved by this local algebra.
+- **Aliases:** `outside memo 101`, `golden reverser`, `linearized time reversal`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/memos/GAMMA5_REVERSER.md`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/memos/GAMMA5_REVERSER.md)
+- **Deepest artifacts:** [`../../../certificates/r023_wave6_outside_hostile.py`](../certificates/r023_wave6_outside_hostile.py), [`../../../outputs/r023_wave6_outside_hostile.txt`](../outputs/r023_wave6_outside_hostile.txt), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/certificates/gamma5_reverser.py`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/certificates/gamma5_reverser.py)
+
+<a id="oa-c1167"></a>
+### OA-C1167 — `REFUTED`
+
+- **Question:** Is the reduced orientation-blind quantity |CS| a globally monotone reparameterization of hyperbolic volume across the full B289 78-closing census?
+- **Answer:** No. B1197 and the independent R023 rerun find 78 unoriented hyperbolic closings, reproduce the Chern--Simons sign control on 156/156 oriented pairs and obtain 15 global monotonicity violations. Every fixed-p family from p=2 through p=8 contains a violation, while a shuffled control fires 36 times. The selected (1,n) ladder is monotone for 29 rungs, so only the global orientation-blind proposal is refuted; OA-C1153's signed/saddle and trajectory-selection question remains open.
+- **Kind/domain:** `comparison` / `dynamics`
+- **Depends on:** [OA-C1153](#oa-c1153)
+- **Leads to:** None.
+- **Closure test:** Recompute the complete deduplicated closing census with one versioned Chern--Simons convention, require global monotonicity after volume ordering and demonstrate the detector with both a banked positive and a shuffled negative control.
+- **Falsifier:** One certified pair with increasing volume and increasing |CS| refutes global monotone reparameterization; a nonvacuous exhaustive census can close the scoped negative.
+- **Scope:** The mod-one absolute Chern--Simons convention on the full B289 Dehn-filling census. It does not choose a physical trajectory, orient time, test the alternate saddle clock or calibrate seconds.
+- **Aliases:** `B1197 global branch`, `orientation-blind Vol-CS census`, `clock-coherence narrowed negative`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/31b4915657dae92a5cebda8cb15fcd1177854d97/frontier/B1197_clock_coherence/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/31b4915657dae92a5cebda8cb15fcd1177854d97/frontier/B1197_clock_coherence/FINDINGS.md)
+- **Deepest artifacts:** [`../../../certificates/r023_b1197_clock_coherence.py`](../certificates/r023_b1197_clock_coherence.py), [`../../../outputs/r023_b1197_clock_coherence.txt`](../outputs/r023_b1197_clock_coherence.txt), [`https://github.com/originaxiom/origin-axiom/blob/31b4915657dae92a5cebda8cb15fcd1177854d97/frontier/B1197_clock_coherence/verification/b4_global.py`](https://github.com/originaxiom/origin-axiom/blob/31b4915657dae92a5cebda8cb15fcd1177854d97/frontier/B1197_clock_coherence/verification/b4_global.py)
 
 ## Domain: `flavor`
 
@@ -456,7 +614,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** Conditionally. At the exact height-308 stable bundle candidate, character arithmetic allows Sym2(C3) of dimension 6 and C3 tensor C3 of dimension 9, with no C12 texture zeros. R017 makes the primary up-type proof branch-local: H1(G_Y)=0 kills both matter images and H1(K1)=H2(K1)=0 lifts the Higgs input, so cup-product naturality forces the full 1x1806 map and the Wilson 1x6 slice to rank zero. Hu=C0 is one-dimensional, while B0 is a four-dimensional trivial module leaving an unselected P3 of Hd lines. The precursor campaign records exact 33-plus-5 down-sector presentation progress and a finite-field connecting-sector reduction to one missing 1x18 determinant/residue trace row, but that Sage chain stack is not branch-local. B1167 pays the up-type provenance debt but does not select the branch or Hd line. No completed Q(zeta12) down/lepton evaluator or P3 matrix pencil is versioned here.
 - **Kind/domain:** `computation` / `flavor`
 - **Depends on:** [OA-C1013](#oa-c1013), [OA-C1020](#oa-c1020)
-- **Leads to:** [OA-C0015](#oa-c0015), [OA-C1054](#oa-c1054), [OA-C1055](#oa-c1055)
+- **Leads to:** [OA-C0015](#oa-c0015), [OA-C1054](#oa-c1054), [OA-C1055](#oa-c1055), [OA-C1148](#oa-c1148)
 - **Closure test:** Construct a common exact multigraded toric Cech or hypercohomology model for A=H1(V), B=H1(Lambda2 V), C=H1(Lambda2 V*) and its multiplicative contraction maps to H3(O); restrict the evaluated tensors to k=4/8 Wilson sectors and either derive an Hd line or report the full P3 matrix pencil.
 - **Falsifier:** A chain-level calculation proving a claimed rank/texture false, or an argument based only on characters, an index, a vanishing gate, or an unselected Hd line while asserting a concrete Yukawa matrix.
 - **Scope:** The fixed norm hypersurface and exact height-308 (3,4) monad, descended with Wilson k=4 or k=8. This item concerns holomorphic cup products only; canonical matter metrics, moduli/vacuum selection, thresholds and RG evolution remain separate physical gates.
@@ -498,10 +656,10 @@ python3 documents/program-question-map/render.py \
 ### OA-C1127 — `PROVED`
 
 - **Question:** Does the complete E6 cubic on the selected measured-hypercharge 27 roster have exactly the declared 45-support hypergraph?
-- **Answer:** Yes. The independently rerun exact certificate finds 45 supports, including six q-u^c-Hu, six q-d^c-Hd, two l-e^c-Hd and two S-Hu-Hd supports, together with exotic-mass and proton-decay-shaped supports. This is an algebraic support hypergraph only; it neither evaluates cup products nor selects physical fields or coefficients.
+- **Answer:** Yes. The independently rerun exact certificate finds 45 supports, including six q-u^c-Hu, six q-d^c-Hd, two l-e^c-Hd and two S-Hu-Hd supports, together with exotic-mass and proton-decay-shaped supports. B1171 independently reruns the source certificate and stresses the discriminating fact: the object-level E6 tensor permits the six up-type supports while the conditional heterotic bundle cup product in OA-C1054 vanishes. These are different mechanisms, not one established value wall.
 - **Kind/domain:** `computation` / `flavor`
 - **Depends on:** [OA-C1020](#oa-c1020), [OA-C1100](#oa-c1100), [OA-C1121](#oa-c1121)
-- **Leads to:** None.
+- **Leads to:** [OA-C1144](#oa-c1144)
 - **Closure test:** Reconstruct the normalized E6 cubic, label every selected 27 state by the measured hypercharge roster, and classify all support triples exactly.
 - **Falsifier:** A missing or extra support, an inconsistent charge sum, or a different complete support count refutes the table.
 - **Scope:** The selected observer-paid E6 frame and measured-Y roster. Nonzero algebraic support is not a nonzero normalized physical Yukawa, a vacuum prediction, a hierarchy or a proton-decay rate.
@@ -513,16 +671,46 @@ python3 documents/program-question-map/render.py \
 ### OA-C1128 — `PROVED`
 
 - **Question:** In the selected E8 family-channel possibility space, do all complete three-by-three family matrices induced by the cubic have rank two with kernel equal to the Higgs-family direction?
-- **Answer:** Yes. The independently rerun certificate checks all 810 full-tensor family matrices. Every matrix has rank exactly two and kernel equal to the declared Higgs family, as expected from the epsilon-family factor. The result is a structural identity in a chosen E8 embedding, not a physical fermion mass matrix.
+- **Answer:** Yes. The independently rerun certificate checks all 810 full-tensor family matrices. Every matrix has rank exactly two and kernel equal to the declared Higgs family, as expected from the epsilon-family factor. B1171 reproduces the result and registers the open comparison with the heterotic cup-product zero and the live E6 up-support. The result remains a structural identity in an observer-paid E8 possibility-space embedding, not a physical fermion mass matrix.
 - **Kind/domain:** `computation` / `flavor`
 - **Depends on:** [OA-C1089](#oa-c1089)
-- **Leads to:** None.
+- **Leads to:** [OA-C1144](#oa-c1144)
 - **Closure test:** Enumerate every nonzero full-tensor family channel, construct the induced three-by-three matrices and certify their ranks and kernels exactly.
 - **Falsifier:** One declared channel of rank other than two or with a kernel not equal to the Higgs-family vector refutes the finite theorem.
 - **Scope:** The observer-paid A2^4-in-E8 possibility-space embedding and selected cubic channel. No three chiral zero modes, Higgs identification, physical mass, mixing angle or scale follows.
 - **Aliases:** `outside family rank`, `E8 family-matrix kernel`, `rank-two epsilon channel`
 - **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/memos/FAMILY_RANK.md`](https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/memos/FAMILY_RANK.md)
 - **Deepest artifacts:** [`https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/certificates/family_rank.py`](https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/certificates/family_rank.py)
+
+<a id="oa-c1144"></a>
+### OA-C1144 — `PROVED`
+
+- **Question:** What exact typed maps, if any, relate the heterotic up-cup-product zero, the nonzero E6 up-type support and the rank-two E8 family-channel kernel?
+- **Answer:** Yes. B1185 proves the three mechanisms pairwise distinct by exact invariants: the heterotic up map has rank zero while the object E6 tensor has six nonzero supports; the first zero is selective whereas the E8 family kernel is universal rank two in all 810 channels; and the E8 family index has no object-level counterpart. There is no literal one-wall identification. OA-C1148 keeps the unevaluated heterotic down tail separate.
+- **Kind/domain:** `comparison` / `flavor`
+- **Depends on:** [OA-C1054](#oa-c1054), [OA-C1127](#oa-c1127), [OA-C1128](#oa-c1128)
+- **Leads to:** None.
+- **Closure test:** Type each of the three maps and prove literal identity or pairwise independence using discriminating invariants; a broader common factorization must be posed separately.
+- **Falsifier:** The already observed nonzero E6 support versus zero heterotic cup map refutes literal identity of those two; a common mechanism requires a nontrivial typed factorization explaining that difference and the E8 kernel.
+- **Scope:** Pairwise independence of three algebraic mechanisms in their stated conditional frames. No mass value, hierarchy, family identification, broader universal factorization or physical Yukawa matrix is asserted.
+- **Aliases:** `B1171 L186`, `three Yukawa suppressions`, `support-zero-rank comparison`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/6bae72f460b539b40851fb8fb5cc3588f84faca8/frontier/B1185_yukawa_three_mechanisms/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/6bae72f460b539b40851fb8fb5cc3588f84faca8/frontier/B1185_yukawa_three_mechanisms/FINDINGS.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1148"></a>
+### OA-C1148 — `OPEN`
+
+- **Question:** Can the normalized cyclic or Serre quasi-isomorphism over Q(zeta_12) be constructed exactly and used to evaluate the norm-308 down-type and lepton Yukawa cup products?
+- **Answer:** Open. B1185 closes only the pairwise distinction among the three suppression mechanisms. Its down-tail handoff names a characteristic-zero comparison T but the required certify_yukawa_down_tail_cech_308.sage load target is absent from the shared record. The outside one-27 calculation exactly finds one SU(2)-epsilon lambda invariant and one SU(3)-delta exotic invariant, and its finite H_d menu makes the down and lepton determinant cuts coincide only at that coefficient-shape level. B1208 leaves a generation-level three-outcome fork: the cuts may coincide, become independent, or the lepton operator may be absent. R024 answers the coarse character question only: on both retained Wilson branches e^c selects A_0 and l/H_d selects B_0, while the tail rule admits abstract pairs (0,8), (2,6), (4,4). The committed frames do not identify a lepton-specific generation pair, so coarse equality establishes none of the three outcomes. No branch-local characteristic-zero evaluator resolves the fork or reproduces the physical down/lepton map.
+- **Kind/domain:** `computation` / `flavor`
+- **Depends on:** [OA-C1034](#oa-c1034), [OA-C1144](#oa-c1144)
+- **Leads to:** [OA-C0015](#oa-c0015)
+- **Closure test:** Ship the missing file-relative load target, construct the normalized comparison map without preloaded ranks, evaluate every declared down/lepton product and certify its rank and normalization with exact controls.
+- **Falsifier:** A type obstruction, noncanonical normalization, zero or rank different from the preregistered result refutes that proposed evaluator; a missing single-homed artifact withholds closure.
+- **Scope:** The conditional norm-308 heterotic witness and its holomorphic cup products. Even closure would not normalize physical masses, select a vacuum or supply RG evolution.
+- **Aliases:** `B1185 down evaluator`, `T-cal cyclic-Serre comparison`, `Yukawa down tail`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`../../../memos/LEPTON_CHARACTER_DATUM.md`](../memos/LEPTON_CHARACTER_DATUM.md), [`https://github.com/originaxiom/origin-axiom/blob/6bae72f460b539b40851fb8fb5cc3588f84faca8/frontier/B1185_yukawa_three_mechanisms/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/6bae72f460b539b40851fb8fb5cc3588f84faca8/frontier/B1185_yukawa_three_mechanisms/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/582c08d2c14017999fb55df2c2ca72fac0389cf5/outside_bench/memos/HD_EXHAUSTION.md`](https://github.com/originaxiom/origin-axiom/blob/582c08d2c14017999fb55df2c2ca72fac0389cf5/outside_bench/memos/HD_EXHAUSTION.md), [`https://github.com/originaxiom/origin-axiom/blob/b0d8f37c7205cf43520a0710f6b7c7c66634a0dc/frontier/B1208_cross_seat_harvest/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/b0d8f37c7205cf43520a0710f6b7c7c66634a0dc/frontier/B1208_cross_seat_harvest/FINDINGS.md)
+- **Deepest artifacts:** [`../../../certificates/r024_lepton_character_datum.py`](../certificates/r024_lepton_character_datum.py), [`../../../outputs/r024_lepton_character_datum.txt`](../outputs/r024_lepton_character_datum.txt)
 
 ## Domain: `framework`
 
@@ -572,49 +760,184 @@ python3 documents/program-question-map/render.py \
 - **Deepest artifacts:** `../experiments/verify_order3_differential_strominger.py`, `../experiments/verify_relative_secondary_cs.py`
 
 <a id="oa-c1131"></a>
-### OA-C1131 — `OPEN`
+### OA-C1131 — `PROVED`
 
 - **Question:** Is the programme's time-arrow datum already encoded by the oriented punctured-torus bundle and monodromy, or is it an independent observer-supplied discrete datum?
-- **Answer:** Open. B1164's corrected price ledger withdraws the claim that every observer freedom is archimedean, moves VEV choice to a finite place, treats sqrt(3) as field data rather than a free bit, and explicitly leaves the time-arrow classification unrun. No typed thermodynamic or causal arrow exists in the current carrier category.
+- **Answer:** Yes. B1182 proves the unique frozen C4-prime isomorphism (c,r,theta)->(k11,k7,k5). The programme's algebraic arrow is reversal r, hence the finite-place mod-four form-class leg k7, and is distinct from the archimedean orientation leg c. The object types the torsor leg; selecting a label on it remains observer-side.
 - **Kind/domain:** `uniqueness` / `framework`
 - **Depends on:** [OA-C0003](#oa-c0003), [OA-C1124](#oa-c1124)
-- **Leads to:** None.
+- **Leads to:** [OA-C1165](#oa-c1165)
 - **Closure test:** Define the time-arrow object and equivalence relation, construct its map to or from bundle orientation/monodromy and prove equivalence or independence without importing thermodynamic data.
 - **Falsifier:** An exact equivalence proves absorption; two models with the same oriented bundle data and opposite declared time arrows prove independence.
-- **Scope:** The topology/observer-price ledger only. A mapping-torus orientation is not automatically a physical thermodynamic, causal or cosmological arrow of time.
+- **Scope:** The programme's finite algebraic frame-reversal arrow only. This proves no thermodynamic, causal or cosmological arrow and supplies no entropy-producing dynamics.
 - **Aliases:** `B1164 time-arrow residue`, `observer-price time bit`, `bundle-orientation comparison`
-- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1164_cc_masterplan/ADDENDUM_price_reconciliation.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1164_cc_masterplan/ADDENDUM_price_reconciliation.md)
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/63a832252b3be5cd72820a7bfafab67ad4c7d998/frontier/B1182_c4prime_resolved/arc_verdict.json`](https://github.com/originaxiom/origin-axiom/blob/63a832252b3be5cd72820a7bfafab67ad4c7d998/frontier/B1182_c4prime_resolved/arc_verdict.json)
 - **Deepest artifacts:** None registered.
 
 <a id="oa-c1133"></a>
-### OA-C1133 — `OPEN`
+### OA-C1133 — `REFUTED`
 
 - **Question:** Are the branch-selection, being-by-hearing and measurement V4 torsors equivariantly isomorphic with their three named actions and intended labels?
-- **Answer:** Open. B1166 contrasts sqrt(3)- and sqrt(5)-based presentations, but a bare free V4 torsor is abstractly unique and field names alone do not settle equivariant identity of the intended actions. The exact B1024 action and admissible label semantics have not been placed in one comparison object.
+- **Answer:** No. R022 proves abstract regular-action equivalence and the sqrt(3)-versus-sqrt(5) field-label separator. In B1175 the charter author freezes named-action preservation as the intended category and adjudicates the original three-way claim false: branch selection and being-by-hearing are nonisomorphic. The productive rescope drops being-by-hearing; B1182 then proves the surviving branch-to-measurement C4-prime pair uniquely, recorded separately as OA-C1147.
 - **Kind/domain:** `theorem` / `framework`
 - **Depends on:** [OA-C1004](#oa-c1004), [OA-C1123](#oa-c1123)
-- **Leads to:** None.
+- **Leads to:** [OA-C1138](#oa-c1138), [OA-C1139](#oa-c1139), [OA-C1147](#oa-c1147)
 - **Closure test:** Write the three exact V4 actions on named sets, state the admissible label-preserving equivalences and construct an equivariant isomorphism or a complete invariant separating them.
 - **Falsifier:** An explicit equivariant named-action isomorphism closes equivalence; a proved invariant such as incompatible fixed-point or character data refutes it.
 - **Scope:** The three explicitly named finite V4 actions. Abstract unlabelled torsor isomorphism is automatic and is weaker than the programme's claimed identification.
 - **Aliases:** `B1166 C4 torsor comparison`, `three V4 torsors`, `named-action equivalence`
-- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1166_charter_attack/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1166_charter_attack/FINDINGS.md)
-- **Deepest artifacts:** None registered.
+- **Sources:** [`../../../memos/V4_NAMED_ACTION_AUDIT.md`](../memos/V4_NAMED_ACTION_AUDIT.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/ee38a87f48f40fa32e356f28d1eb4ea460d4de2f/frontier/B1175_charter_close_harvest/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/ee38a87f48f40fa32e356f28d1eb4ea460d4de2f/frontier/B1175_charter_close_harvest/FINDINGS.md)
+- **Deepest artifacts:** [`../../../certificates/r022_v4_torsors/v4_named_action_audit.py`](../certificates/r022_v4_torsors/v4_named_action_audit.py), [`../../../outputs/r022_v4_torsors.txt`](../outputs/r022_v4_torsors.txt)
 
 <a id="oa-c1135"></a>
 ### OA-C1135 — `CONDITIONAL`
 
 - **Question:** Under the declared unoriented scale-free archimedean object, is every object-canonical datum exactly mirror-even and dimensionless?
-- **Answer:** Conditionally. B1168's examples establish useful necessary filters: an automorphism-odd sign cannot be canonical on an unoriented object, and an absolute dimensionful value cannot be extracted from scale-free data. They do not prove the converse or exhaust datum classes; analytic-torsion parity is explicitly fenced. Globally the observer ledger is adelic because the VEV choice is finite-place rather than archimedean.
+- **Answer:** Conditionally. B1168's examples establish useful necessary filters: an automorphism-odd sign cannot be canonical on an unoriented object, and an absolute dimensionful value cannot be extracted from scale-free data. B1169 restates awareness=mirror-even and choice=mirror-odd as a firewalled reading and explicitly asks for the missing completeness/map theorem; it supplies no such map. The converse, exhaustion of datum classes and analytic-torsion parity remain unsettled. Globally the observer ledger is adelic because the VEV choice is finite-place rather than archimedean.
 - **Kind/domain:** `classification` / `framework`
 - **Depends on:** [OA-C0017](#oa-c0017), [OA-C1124](#oa-c1124)
-- **Leads to:** None.
+- **Leads to:** [OA-C1141](#oa-c1141), [OA-C1146](#oa-c1146), [OA-C1152](#oa-c1152)
 - **Closure test:** Define the complete class of admissible archimedean data, prove both necessity and sufficiency of mirror-evenness and dimensionlessness, and settle analytic-torsion parity under fixed normalization.
 - **Falsifier:** One canonical mirror-odd datum or canonical dimensionful datum of the same unoriented scale-free object refutes necessity; one mirror-even dimensionless datum lacking canonical definition refutes sufficiency.
 - **Scope:** Archimedean geometric data of the declared unoriented scale-free object only. This is a conditional classifier proposal, not a semantic completeness theorem or a statement about finite-place observer choices.
 - **Aliases:** `B1168 C5 classifier`, `archimedean parity-by-dimension law`, `mirror-even dimensionless test`
-- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1168_c5_investigation/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1168_c5_investigation/FINDINGS.md)
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/759f889c4f80c54ea09afc854f18b049a7b12b13/frontier/B1169_qualia_parity_synthesis/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/759f889c4f80c54ea09afc854f18b049a7b12b13/frontier/B1169_qualia_parity_synthesis/FINDINGS.md)
 - **Deepest artifacts:** None registered.
+
+<a id="oa-c1138"></a>
+### OA-C1138 — `PROVED`
+
+- **Question:** After erasing programme labels and allowing an automorphism of V4, are any two free transitive four-point V4 actions equivariantly isomorphic?
+- **Answer:** Yes. R022 enumerates the regular action: the identity has cycle type 1^4, each nonidentity element has 2^2 and no fixed point, and the permutation character decomposes as 1+chi_1+chi_2+chi_12. Choosing a basepoint identifies every such torsor with V4 acting on itself by translation.
+- **Kind/domain:** `theorem` / `framework`
+- **Depends on:** [OA-C1133](#oa-c1133)
+- **Leads to:** None.
+- **Closure test:** Construct a basepoint-and-group-isomorphism equivariant bijection and verify the regular cycle and character tables exactly.
+- **Falsifier:** Two free transitive four-point actions with inequivalent stabilizers, permutation characters or translation tables refute the abstract theorem.
+- **Scope:** Unlabelled regular finite actions only. It forgets field, Dynkin, carrier and semantic annotations and therefore does not close OA-C1133.
+- **Aliases:** `R022 abstract V4 theorem`, `regular four-point torsor equivalence`
+- **Sources:** [`../../../memos/V4_NAMED_ACTION_AUDIT.md`](../memos/V4_NAMED_ACTION_AUDIT.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md)
+- **Deepest artifacts:** [`../../../certificates/r022_v4_torsors/v4_named_action_audit.py`](../certificates/r022_v4_torsors/v4_named_action_audit.py)
+
+<a id="oa-c1139"></a>
+### OA-C1139 — `PROVED`
+
+- **Question:** If admissible maps must preserve the displayed quadratic-field and subfield annotations, are the branch-selection and being-by-hearing V4 presentations nonisomorphic?
+- **Answer:** Yes. R022 computes discriminants 144 and 225 from the three quadratic subfields. Q(zeta_12) ramifies only at {2,3}, while the being-by-hearing compositum includes Q(sqrt(5)) and ramifies at {3,5}; hence no field-annotation-preserving identification exists. B1175 authoritatively freezes field/named-label preservation as the intended category, discharging the former conditional antecedent.
+- **Kind/domain:** `implication` / `framework`
+- **Depends on:** [OA-C1133](#oa-c1133), [OA-C1138](#oa-c1138)
+- **Leads to:** None.
+- **Closure test:** Declare field/subfield preservation as part of the morphism category and prove a complete invariant separates the two annotated actions.
+- **Falsifier:** A field-annotation-preserving equivariant bijection, or rejection of field annotations from the intended morphism category, defeats the conditional conclusion.
+- **Scope:** The programme's now-frozen field-annotated named-action category. Abstract unlabelled regular V4 torsors remain isomorphic.
+- **Aliases:** `R022 field-labelled separator`, `sqrt3 versus sqrt5 V4 fence`
+- **Sources:** [`../../../memos/V4_NAMED_ACTION_AUDIT.md`](../memos/V4_NAMED_ACTION_AUDIT.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md)
+- **Deepest artifacts:** [`../../../certificates/r022_v4_torsors/v4_named_action_audit.py`](../certificates/r022_v4_torsors/v4_named_action_audit.py)
+
+<a id="oa-c1141"></a>
+### OA-C1141 — `PROVED`
+
+- **Question:** Are the QP-4 self-closure obstruction, the mirror-odd orientation class and the E6 real-form fork bit images of one explicitly constructed Z2 class?
+- **Answer:** Yes. B1183 constructs a c-equivariant isomorphism between the QP-4 chord-sign torsor and the orientation torsor. Together with B1174's mirror=chirality=Gal(c) identification and the banked E6 real-form typing, the named obstruction classes are one nontrivial Z2 class. One basepoint choice trivializes the class across these faces; the finite k7 arrow remains a different bit.
+- **Kind/domain:** `comparison` / `framework`
+- **Depends on:** [OA-C0017](#oa-c0017), [OA-C1124](#oa-c1124), [OA-C1135](#oa-c1135)
+- **Leads to:** None.
+- **Closure test:** Type all three obstructions in explicit source and target groups, construct commuting maps between them and prove equality of the resulting Z2 class rather than equality of slogans.
+- **Falsifier:** Different source groups with no natural comparison, a zero image on one leg, or two models agreeing on one obstruction and differing on another refute the one-bit identity.
+- **Scope:** Equality of the named mathematical obstruction torsors under global c. It neither constructs their physical closing acts nor identifies a semantic or conscious observer.
+- **Aliases:** `B1169 S1`, `qualia-parity cohomology map`, `one missing bit synthesis`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/b5fae722121d6a8fb009472c1ef2dece1e1727f3/frontier/B1183_one_class_theorem/arc_verdict.json`](https://github.com/originaxiom/origin-axiom/blob/b5fae722121d6a8fb009472c1ef2dece1e1727f3/frontier/B1183_one_class_theorem/arc_verdict.json)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1142"></a>
+### OA-C1142 — `REFUTED`
+
+- **Question:** Does a typed object-native observer self-map exist with a fixed point that selects the mirror-odd orientation bit?
+- **Answer:** No. B1184 split-answers the quine. A census-scoped mirror-even self-name has a fixed point, but any object-native map that selected the mirror-odd sign would give an invariant section of the nontrivial c-torsor proved in B1183. Such a sign setter cannot exist. The requested conjunction is therefore false.
+- **Kind/domain:** `construction` / `framework`
+- **Depends on:** [OA-C1124](#oa-c1124), [OA-C1141](#oa-c1141)
+- **Leads to:** None.
+- **Closure test:** Define the observer object, its self-map category and fixed-point equation, construct a nontrivial solution and prove that its image sets rather than assumes the orientation class.
+- **Falsifier:** A no-fixed-point theorem, multiple inequivalent fixed points selecting opposite bits, or a map that takes orientation as input refutes the selector.
+- **Scope:** The formal odd-sign selector is refuted. The weaker mirror-even census self-naming fixed point exists; neither statement implies physical consciousness.
+- **Aliases:** `B1169 S4`, `observer quine fixed point`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/d83ffd82cefb0d50c5712daeff8e66999fee19cb/frontier/B1184_quine_synthesis/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/d83ffd82cefb0d50c5712daeff8e66999fee19cb/frontier/B1184_quine_synthesis/FINDINGS.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1146"></a>
+### OA-C1146 — `CONDITIONAL`
+
+- **Question:** Across a complete typed observer-datum category, does availability of an arithmetic subgroup that breaks a continuous orbit exactly distinguish finite-label choices from full archimedean observer bits?
+- **Answer:** Conditionally. B1171 derives the current orientation/VEV split from two orbit-theorem escapes: the mirror remains an archimedean automorphism, while F4(R) can shrink to F4(Z) and leave finite orbits. It explicitly registers broader typing predictions; two examples do not prove the advertised iff or define a universal cost order.
+- **Kind/domain:** `classification` / `framework`
+- **Depends on:** [OA-C1135](#oa-c1135)
+- **Leads to:** None.
+- **Closure test:** Define the datum category and cost order, prove both directions of the orbit-breaker criterion, and exhaust finite and archimedean counterexamples beyond the current orientation/VEV cases.
+- **Falsifier:** An archimedean datum with a canonical arithmetic orbit breaker, or a finite-place datum whose admissible symmetry cannot be shrunk and costs a full continuous choice, refutes the classifier.
+- **Scope:** A proposed classifier of observer-choice type and cost. It neither removes the choices nor derives physical gravity, gauge breaking or parameter values.
+- **Aliases:** `B1171 adelic mechanism tests`, `orbit-breaker observer classifier`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/72ace1cf91abae1be356b17e947c08894f255a8b/frontier/B1164_cc_masterplan/ADDENDUM_adelic_mechanism.md`](https://github.com/originaxiom/origin-axiom/blob/72ace1cf91abae1be356b17e947c08894f255a8b/frontier/B1164_cc_masterplan/ADDENDUM_adelic_mechanism.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1147"></a>
+### OA-C1147 — `PROVED`
+
+- **Question:** After freezing the B1024 H1 quotient and branch labels, is there a unique label-preserving V4 isomorphism between the branch and measurement frames?
+- **Answer:** Yes. B1182 proves the unique isomorphism (c,r,theta)->(k11,k7,k5). The c leg is forced by the orientation/Galois result, r is the unique K-fixing reversal leg k7, and theta follows by the V4 group law. This is the valid two-frame replacement for the refuted original three-way claim OA-C1133.
+- **Kind/domain:** `theorem` / `framework`
+- **Depends on:** [OA-C1133](#oa-c1133), [OA-C1138](#oa-c1138)
+- **Leads to:** [OA-C1154](#oa-c1154)
+- **Closure test:** Freeze both four-point actions and their three named legs, enumerate all equivariant bijections and prove uniqueness under the declared labels.
+- **Falsifier:** No label-preserving bijection or two inequivalent admissible bijections refute uniqueness.
+- **Scope:** The two frozen finite V4 frames and their programme labels. It does not identify the discarded being-by-hearing frame or create a physical time arrow.
+- **Aliases:** `B1182 C4-prime`, `branch-measurement V4 isomorphism`, `time-arrow leg typing`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/63a832252b3be5cd72820a7bfafab67ad4c7d998/frontier/B1182_c4prime_resolved/arc_verdict.json`](https://github.com/originaxiom/origin-axiom/blob/63a832252b3be5cd72820a7bfafab67ad4c7d998/frontier/B1182_c4prime_resolved/arc_verdict.json)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1152"></a>
+### OA-C1152 — `OPEN`
+
+- **Question:** For which heterogeneous grammar partners does simultaneous mirror realization define a nontrivial relational c-class, and does the grammar canonically force one such partner?
+- **Answer:** Open. B1192 proves a genuine relational mirror-odd class for exhibited heterogeneous norm-positive pairs, including the sqrt(3)-side partner, with two-sided controls. B1195 GC-24 survives narrowly as PARTIAL: the partner-unit-norm conjecture is false, and the bounded exact sweep supports gen_det=-kappa/g^2 with kappa the joint Fricke invariant and g the intersection-lattice saturation index; equal kappa=121 can yield opposite outcomes. No symbolic universal proof or exhaustive partner classification is supplied. The outside relational-kappa and first-beat certificates reproduce the exhibited pair and the all-word SL2 trace-polynomial law, but neither forces a grammar partner. The general classifier and selection rule remain open.
+- **Kind/domain:** `classification` / `framework`
+- **Depends on:** [OA-C1124](#oa-c1124), [OA-C1135](#oa-c1135)
+- **Leads to:** None.
+- **Closure test:** Classify all admissible partner norm classes, compute the simultaneous-realizer torsors and prove both existence and uniqueness or state the residual partner choice.
+- **Falsifier:** Two inequivalent admissible partners carrying opposite or absent classes refute canonical forcing; a complete norm theorem can close the scoped classifier.
+- **Scope:** Finite relational Z2 classes for declared grammar pairs. An exhibited carrier for c does not make the unoriented object self-orienting.
+- **Aliases:** `B1192 relational bit`, `heterogeneous norm classification`, `relational c refinement`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/51516aae92910a522e25e8017cc6c5714f84873e/frontier/B1192_close_loop_batch4/arc_verdict.json`](https://github.com/originaxiom/origin-axiom/blob/51516aae92910a522e25e8017cc6c5714f84873e/frontier/B1192_close_loop_batch4/arc_verdict.json), [`https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json`](https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json), [`https://github.com/originaxiom/origin-axiom/blob/f6b96658b9edcf010b26579fe14b21fbeeabcb2b/outside_bench/memos/RELATIONAL_KAPPA.md`](https://github.com/originaxiom/origin-axiom/blob/f6b96658b9edcf010b26579fe14b21fbeeabcb2b/outside_bench/memos/RELATIONAL_KAPPA.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1154"></a>
+### OA-C1154 — `OPEN`
+
+- **Question:** Is the outside branch-selection Z2 class exactly the finite frame-reversal leg r=k7 under the proved C4-prime isomorphism?
+- **Answer:** Open. B1182 types r=k7 within the frozen branch/measurement pair. The outside grammar certificate does not reach the carrier in the banked representation: its b-matrix has the opposite Riley sign and fails the m004 relator, recorded as OA-C1164. OA-C1165 preserves only the useful local fact that the exact reverser and golden Galois induce the same swap of two projective eigenlines. Its finite controls are not an exhaustive involution census, and no level-crossing map sends that outside branch torsor into the frozen k7 frame. The named identification remains open.
+- **Kind/domain:** `comparison` / `framework`
+- **Depends on:** [OA-C1131](#oa-c1131), [OA-C1147](#oa-c1147)
+- **Leads to:** None.
+- **Closure test:** Version the branch action, map its generator into the frozen C4-prime frame and prove equality with k7 including all label conventions.
+- **Falsifier:** An image equal to c, theta or the identity, or convention-dependent nonuniqueness, refutes the proposed identification.
+- **Scope:** A finite label-identification across two banked programme frames. It creates neither a thermodynamic arrow nor a new physical bit.
+- **Aliases:** `B1193 branch-to-r`, `outside branch Z2`, `finite reversal identification`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/0f1c627e5c290439e4f6eeb3723fb5d9f83195d7/docs/GRAND_COMPUTATION_LEDGER.md`](https://github.com/originaxiom/origin-axiom/blob/0f1c627e5c290439e4f6eeb3723fb5d9f83195d7/docs/GRAND_COMPUTATION_LEDGER.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1168"></a>
+### OA-C1168 — `OPEN`
+
+- **Question:** Do asymmetric, noncommuting relations between unlike trace-model elements suffice to instantiate an operational occupant or observer, rather than merely form a large class of necessary-type candidates?
+- **Answer:** Open. Outside pattern_ladder.py reproducibly counts 13,120 reduced words through length eight, 180 trace values and an unordered-pair fraction satisfying noncommutation plus unequal trace that rises from 0.7481 to 0.9355 through depth five. These are free reduced words rather than proved conjugacy classes, and the code uses unordered combinations despite its ordered-pair wording. The later exact uniqueness test is an explicit counter-pressure: eight proposed predicates yield six distinct admissible sets, A5 retains five competitors, and the proposed phi-stability gate is both unforced and false on A5. Noncommutation and unequal trace are broad necessary-pattern tests; no map to an operational observer, feedback law, token selection or phenomenal state is constructed. The exact supply and nonuniqueness counts expose rather than close the sufficiency bridge.
+- **Kind/domain:** `sufficiency` / `framework`
+- **Depends on:** [OA-C1142](#oa-c1142), [OA-C1156](#oa-c1156)
+- **Leads to:** None.
+- **Closure test:** Define occupant or observer in a typed operational category, construct a map from the proposed relation class to systems with the required dynamics, memory, feedback or measurement acts, and prove sufficiency with passive and relabeling controls rather than naming a broad necessary pattern.
+- **Falsifier:** A type-eligible relation with no possible operational observer structure, or two indistinguishable eligible relations with different occupant status, refutes sufficiency of the proposed conditions.
+- **Scope:** The declared finite Riley trace model and an operational observer notion yet to be defined. It makes no theorem about phenomenal consciousness and supplies no four-dimensional physics or Standard-Model parameter.
+- **Aliases:** `outside pattern ladder`, `occupant sufficiency bridge`, `type-eligible seat gap`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/c82fff25ce5c284d1a7ae672aced6642d22d7a76/outside_bench/memos/PATTERN_LADDER.md`](https://github.com/originaxiom/origin-axiom/blob/c82fff25ce5c284d1a7ae672aced6642d22d7a76/outside_bench/memos/PATTERN_LADDER.md), [`https://github.com/originaxiom/origin-axiom/blob/7d4d3655506dba51858594374b06449a572e02f5/outside_bench/memos/UNIQUENESS_TEST.md`](https://github.com/originaxiom/origin-axiom/blob/7d4d3655506dba51858594374b06449a572e02f5/outside_bench/memos/UNIQUENESS_TEST.md)
+- **Deepest artifacts:** [`https://github.com/originaxiom/origin-axiom/blob/c82fff25ce5c284d1a7ae672aced6642d22d7a76/outside_bench/certificates/pattern_ladder.py`](https://github.com/originaxiom/origin-axiom/blob/c82fff25ce5c284d1a7ae672aced6642d22d7a76/outside_bench/certificates/pattern_ladder.py), [`https://github.com/originaxiom/origin-axiom/blob/7d4d3655506dba51858594374b06449a572e02f5/outside_bench/certificates/uniqueness_test.py`](https://github.com/originaxiom/origin-axiom/blob/7d4d3655506dba51858594374b06449a572e02f5/outside_bench/certificates/uniqueness_test.py)
 
 ## Domain: `genesis`
 
@@ -647,6 +970,21 @@ python3 documents/program-question-map/render.py \
 - **Aliases:** `description axiom`, `minimal-substitution theorem`
 - **Sources:** None registered.
 - **Deepest artifacts:** `../../physics_bridge/verify_bridge.py`
+
+<a id="oa-c1156"></a>
+### OA-C1156 — `OPEN`
+
+- **Question:** Can the programme's Kolmogorov or invariant-prior principle select a unique object or basepoint rather than only a symmetry-invariant probability class?
+- **Answer:** Open. B1191 formalizes the proved finite piece: symmetry can fix the prior where it cannot fix a point, and recovers the forgotten F2/F8 locks. B1196 GC-27 is explicitly PARTIAL: it organizes finite-transitive, compact and non-normalizable examples and proves that the exhibited relational epsilon is conjugation-invariant, but gives no uniform Kolmogorov-complexity theorem and has not even typed a (T,G) pair for lambda. B1199 and R023 independently verify the full 745-class finite selection cochain and that its trace-three value is pointwise constant on each of the nine SL(2,F5) shadow classes; this is a complete finite readout, not a unique basepoint. The outside sufficiency test produces six distinct admissible sets from eight proposed predicates, gives A5 five competitors and finds that the proposed phi-stability gate is itself unforced and fails on A5. Paper B8154 removes only the vacuous proper-subgroup escape for a two-element root-swap action. OA-C0001's unrestricted encoding no-go remains an independent warning. The Selector is open.
+- **Kind/domain:** `uniqueness` / `genesis`
+- **Depends on:** [OA-C0001](#oa-c0001), [OA-C0002](#oa-c0002)
+- **Leads to:** [OA-C1168](#oa-c1168)
+- **Closure test:** Define the admissible description category and prior, prove encoding and symmetry invariance, and show the selector has one equivalence class of minimizer without inserting the desired basepoint.
+- **Falsifier:** Two equally admissible minimizers or a theorem that invariance fixes only a measure and not a point refutes unique selection.
+- **Scope:** The declared restricted programme category. It cannot overturn the unrestricted description-language dependence already proved in OA-C0001.
+- **Aliases:** `grand-computation H5`, `Kolmogorov Selector`, `selector seal`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bb018041f2f9805fdd1c6328e89495c3373488c1/frontier/B1194_existence_audit/b1194_results.json`](https://github.com/originaxiom/origin-axiom/blob/bb018041f2f9805fdd1c6328e89495c3373488c1/frontier/B1194_existence_audit/b1194_results.json), [`https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1196_close_loop_batch5b/verification/batch5b_cells.json`](https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1196_close_loop_batch5b/verification/batch5b_cells.json), [`https://github.com/originaxiom/origin-axiom/blob/63c047059645fded83d8cdf4976139804df5c644/frontier/B1199_register_reads_and_L188/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/63c047059645fded83d8cdf4976139804df5c644/frontier/B1199_register_reads_and_L188/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/7d4d3655506dba51858594374b06449a572e02f5/outside_bench/memos/UNIQUENESS_TEST.md`](https://github.com/originaxiom/origin-axiom/blob/7d4d3655506dba51858594374b06449a572e02f5/outside_bench/memos/UNIQUENESS_TEST.md), [`https://github.com/originaxiom/origin-axiom/blob/a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4/frontier/B8154_mirror_is_c/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4/frontier/B8154_mirror_is_c/FINDINGS.md)
+- **Deepest artifacts:** [`../../../certificates/r023_b1199_selection_recheck.py`](../certificates/r023_b1199_selection_recheck.py), [`../../../outputs/r023_b1199_selection_recheck.txt`](../outputs/r023_b1199_selection_recheck.txt)
 
 ## Domain: `geometry`
 
@@ -1026,10 +1364,10 @@ python3 documents/program-question-map/render.py \
 - **Deepest artifacts:** [`../../../certificates/r014_paper4_counterexamples.py`](../certificates/r014_paper4_counterexamples.py)
 
 <a id="oa-c1103"></a>
-### OA-C1103 — `OPEN`
+### OA-C1103 — `REFUTED`
 
 - **Question:** Over the complete exactly certified Q(sqrt(-3)) cusped-census family, is H1=Z still the unique one of the seven declared elementary invariants that isolates m004?
-- **Answer:** Open. The fourteen-row sample cannot settle the universal claim because the family list is incomplete. The first exact counterexample to the list, s955, has H1=Z plus Z/20 and therefore does not itself settle whether another true family member shares H1=Z. Paper tip a6c35d0 adds a rounded first-cusp-shape observation over the same hard-coded fourteen members, but does not regenerate the full family, records only cusp zero and returns no Alexander data. OA-C1134 isolates the corrected exact cusp-shape question.
+- **Answer:** No. B1186 regenerates the Paper-IV shape-field family at declared census and denominator bounds and corrects its size to 112. The member o10_150700 is one-cusped, belongs to that family and has H1=Z, so H1=Z does not uniquely isolate m004. That single exact counterexample refutes the proposed seven-invariant separator claim; OA-C1134 keeps the stronger exact all-cusp comparison open because B1186's cusp-shape collisions were checked numerically rather than by an exact peripheral certificate.
 - **Kind/domain:** `computation` / `geometry`
 - **Depends on:** [OA-C1102](#oa-c1102)
 - **Leads to:** [OA-C1134](#oa-c1134)
@@ -1037,7 +1375,7 @@ python3 documents/program-question-map/render.py \
 - **Falsifier:** A second full-family invariant that uniquely isolates m004, or another family member with H1=Z, refutes the proposed uniqueness; an incomplete field census withholds closure.
 - **Scope:** The corrected full family and exactly the seven named elementary invariants. This is a feasible census computation, not an external theorem blocker.
 - **Aliases:** `Paper IV corrected family separator`, `full Eisenstein-shape census`, `seven-invariant uniqueness`
-- **Sources:** [`../../../memos/PAPER4_SCALE_FAMILY_AUDIT.md`](../memos/PAPER4_SCALE_FAMILY_AUDIT.md), [`../evidence/WAVE4_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE4_BRANCH_DELTA_AUDIT.md)
+- **Sources:** [`../../../memos/PAPER4_SCALE_FAMILY_AUDIT.md`](../memos/PAPER4_SCALE_FAMILY_AUDIT.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/1662dcb2ee6b7f2518cc55ce2409d455b2bb833f/frontier/B1186_family_is_112/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/1662dcb2ee6b7f2518cc55ce2409d455b2bb833f/frontier/B1186_family_is_112/FINDINGS.md)
 - **Deepest artifacts:** [`../../../certificates/r014_paper4_counterexamples.py`](../certificates/r014_paper4_counterexamples.py)
 
 <a id="oa-c1104"></a>
@@ -1134,7 +1472,7 @@ python3 documents/program-question-map/render.py \
 ### OA-C1124 — `REFUTED`
 
 - **Question:** Does the unoriented amphichiral m004 object canonically select an orientation, a positive signed regulator volume, or one complex embedding of Q(sqrt(-3))?
-- **Answer:** No. m004 admits an orientation-reversing self-isometry. Complex conjugation exchanges the two embeddings and the Bloch--Wigner regulator changes sign, so an automorphism-invariant datum of the unoriented object cannot distinguish +Vol from -Vol. The positive volume magnitude is mirror-even and is not refuted.
+- **Answer:** No. m004 admits an orientation-reversing self-isometry. Complex conjugation exchanges the two embeddings and the Bloch--Wigner regulator changes sign, so an automorphism-invariant datum of the unoriented object cannot distinguish +Vol from -Vol. Paper B8154 independently verifies on its chosen holonomy model that t^2 is a primitive cube root and u->u^2 is the conjugation/root swap; its prime-order subgroup argument removes shrinking the two-element symmetry as a nontrivial escape, but it supplies no preferred root. The positive volume magnitude is mirror-even and is not refuted.
 - **Kind/domain:** `uniqueness` / `geometry`
 - **Depends on:** [OA-C0003](#oa-c0003), [OA-C1045](#oa-c1045)
 - **Leads to:** [OA-C1135](#oa-c1135)
@@ -1142,7 +1480,7 @@ python3 documents/program-question-map/render.py \
 - **Falsifier:** An automorphism-invariant orientation or embedding selector would refute the obstruction.
 - **Scope:** The carrier regarded as an unoriented amphichiral hyperbolic object. Supplying an orientation externally changes the object and evades, rather than disproves, the no-selector theorem.
 - **Aliases:** `B1163 orientation obstruction`, `amphichiral W0 sign wall`, `regulator-sign selector`
-- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md)
+- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md), [`https://github.com/originaxiom/origin-axiom/blob/a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4/frontier/B8154_mirror_is_c/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4/frontier/B8154_mirror_is_c/FINDINGS.md)
 - **Deepest artifacts:** [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1163_w0_attempt/verification/reproduce.sh`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1163_w0_attempt/verification/reproduce.sh)
 
 <a id="oa-c1129"></a>
@@ -1164,7 +1502,7 @@ python3 documents/program-question-map/render.py \
 ### OA-C1134 — `OPEN`
 
 - **Question:** Over the complete corrected exact Q(sqrt(-3)) cusped census, does the full cusp-shape datum uniquely isolate m004 up to conjugation?
-- **Answer:** Open. Paper tip a6c35d0 checks only the first cusp rounded to seven decimals on a hard-coded fourteen-manifold list; it neither regenerates the complete family nor includes the known missing s955 correction, and its Alexander-polynomial column is entirely None. The bounded observation is evidence, not closure.
+- **Answer:** Open. B1186 regenerates a 112-member family at its declared census and denominator bounds and finds two one-cusped witnesses, o9_41001 and o9_41009, numerically sharing m004's 2*sqrt(3)i cusp shape. That is a sharp near-refutation, but the committed comparison casts cusp_info to complex and uses a 1e-6 tolerance; only tetrahedron shapes and gluing equations receive exact symbolic certification. The row therefore remains open until one witness receives an exact peripheral/cusp certificate.
 - **Kind/domain:** `computation` / `geometry`
 - **Depends on:** [OA-C1102](#oa-c1102), [OA-C1103](#oa-c1103)
 - **Leads to:** None.
@@ -1172,8 +1510,40 @@ python3 documents/program-question-map/render.py \
 - **Falsifier:** Another family member with the same full cusp-shape datum, or an incomplete/rounded census, refutes or withholds the uniqueness claim.
 - **Scope:** The complete corrected exact Eisenstein trace/shape-field family, every cusp and cusp shape up to conjugation. Cusp shape 2*sqrt(3)*i for m004 is mirror-fixed and cannot select orientation.
 - **Aliases:** `Paper IV cusp-shape extension`, `corrected Eisenstein family cusp census`, `s955-complete cusp test`
-- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/a6c35d083e9bd7610045093d682afce827034932/papers/series/paper4_what_cannot_be_supplied/verify/extended_census.py`](https://github.com/originaxiom/origin-axiom/blob/a6c35d083e9bd7610045093d682afce827034932/papers/series/paper4_what_cannot_be_supplied/verify/extended_census.py)
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/1662dcb2ee6b7f2518cc55ce2409d455b2bb833f/frontier/B1186_family_is_112/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/1662dcb2ee6b7f2518cc55ce2409d455b2bb833f/frontier/B1186_family_is_112/FINDINGS.md)
 - **Deepest artifacts:** None registered.
+
+<a id="oa-c1164"></a>
+### OA-C1164 — `REFUTED`
+
+- **Question:** Does the outside grammar_disc48 certificate instantiate the banked m004 Riley representation and thereby prove that baBAABab is a peripheral longitude with discriminant-48 translation lattice?
+- **Answer:** No. The certificate uses b=[[1,0],[-omega,1]], while the banked Riley realization uses lower-left +omega. Its own matrices send the banked relator abABaBAbaB to [[-1,0],[-4,-1]] rather than the identity, and the script never checks that relator. After correcting the sign, baBAABab is not the banked longitude; the established peripheral word is bABaaBAb. The later form enumeration is valid for the asserted translation but cannot repair the failed representation/word gate. The advertised grammar-to-disc-48 closure is therefore refuted.
+- **Kind/domain:** `repair` / `geometry`
+- **Depends on:** [OA-C0003](#oa-c0003), [OA-C1068](#oa-c1068)
+- **Leads to:** [OA-C1154](#oa-c1154)
+- **Closure test:** Verify the banked m004 relator in the exact matrices before searching words, then prove the claimed word is a nontrivial peripheral element and compute its translation lattice.
+- **Falsifier:** Failure of the banked relator in the certificate's matrices, or a nonperipheral claimed word after correcting the representation, refutes the certificate-level bridge.
+- **Scope:** The outside certificate's exact representation and claimed word. This does not refute the already banked discriminant-48 cusp lattice; it refutes the claimed derivation from that script and leaves the swap choice open.
+- **Aliases:** `outside memo 100`, `grammar-to-disc-48 closure`, `claimed longitude word baBAABab`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/memos/GRAMMAR_DISC48.md`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/memos/GRAMMAR_DISC48.md)
+- **Deepest artifacts:** [`../../../certificates/r023_wave6_outside_hostile.py`](../certificates/r023_wave6_outside_hostile.py), [`../../../outputs/r023_wave6_outside_hostile.txt`](../outputs/r023_wave6_outside_hostile.txt), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/certificates/grammar_disc48.py`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/certificates/grammar_disc48.py)
+
+## Domain: `gravity`
+
+<a id="oa-c1151"></a>
+### OA-C1151 — `OPEN`
+
+- **Question:** Does a genuine E6-lattice boundary character identify the stage's sigma normalization with the banked CFT or two-sixes structure and thereby delete sigma as an independent anchor?
+- **Answer:** Open. B1190 refutes the prior synthesis as a kind error. B1191 exhausts main's q-series fingerprint route and finds its only candidate fails the required kind/positivity map; the outside artifact survey extends that negative across its Habiro, zeta-count, dark-table and coupling holdings. Tip 9915068b constructs the generic level-one E6 lattice source exactly: an Eisenstein rank-three lattice with discriminant group F3, primaries {1,27,27bar}, vacuum opening 1,78,729 and 27 opening 27,378. It still supplies no normalized map from those characters to a record-side q-series and no identification with sigma. B1195 GC-23 rules out the tested raw/direct cusp Gram constructions, but its own hostile lens rejects the universal claim: interior, linking or Poincare-Lefschetz pairings can carry cross-cusp terms and were not classified. Its claimed tie through outside memo 100 also fails because OA-C1164 refutes that memo's Riley realization. The source object exists; the character-to-record bridge remains open.
+- **Kind/domain:** `construction` / `gravity`
+- **Depends on:** [OA-C0017](#oa-c0017)
+- **Leads to:** None.
+- **Closure test:** Construct a boundary character in the correct representation, prove its transformation and positivity properties, and derive the sigma normalization without matching unrelated q-series exponents or measured values.
+- **Falsifier:** Nonexistence of the required character or a normalization still containing a free scale refutes the deletion route.
+- **Scope:** The internal dimensionless sigma normalization. Even success would not derive a physical length unit or Newton constant in SI units.
+- **Aliases:** `L154`, `sigma deletion bridge`, `E6 boundary character`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/1e1aa1d0c04c61dcb2c0d99b08faf80f63021ae9/docs/GRAND_COMPUTATION_v0.md`](https://github.com/originaxiom/origin-axiom/blob/1e1aa1d0c04c61dcb2c0d99b08faf80f63021ae9/docs/GRAND_COMPUTATION_v0.md), [`https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/memos/E6_BOUNDARY.md`](https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/memos/E6_BOUNDARY.md), [`https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json`](https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json)
+- **Deepest artifacts:** [`https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/certificates/e6_boundary.py`](https://github.com/originaxiom/origin-axiom/blob/9915068bdb44f88e7cca06961d15c8cd0f7d1d0a/outside_bench/certificates/e6_boundary.py)
 
 ## Domain: `lie`
 
@@ -1328,19 +1698,19 @@ python3 documents/program-question-map/render.py \
 - **Deepest artifacts:** None registered.
 
 <a id="oa-c1067"></a>
-### OA-C1067 — `OPEN`
+### OA-C1067 — `REFUTED`
 
 - **Question:** Does the specified semilinear beat Sigma preserve the banked 64-dimensional complement, and what exact action does it induce on its spin-two and colored summands?
-- **Answer:** Open. Memo 33 closes the distinct rational-T computation and records selected-frame Sigma intersections, but it does not apply the semilinear Sigma to a complete 64-dimensional basis, certify preservation, or compute its square there. The operator distinction remains load-bearing.
+- **Answer:** No. R020 applies the principal semilinear Sigma to an exact Killing-orthogonal 64 basis in the source-locked B1140 compact-color frame. The images of the full 64, both five-dimensional spin-two strings and the colored 54 all leave the 64, so no restricted action exists. Sigma squared also leaves the 64, while the ambient identity Sigma^2=exp(ad E_principal) holds on all 78 Chevalley basis vectors. The result is selected-frame; covariance across all 24 B1140 hits is not claimed.
 - **Kind/domain:** `computation` / `lie`
 - **Depends on:** [OA-C1056](#oa-c1056)
 - **Leads to:** None.
 - **Closure test:** Apply the exact pair-field semilinear operator to a complete basis, certify preservation or mixing, decompose its action by the banked weights, and compare its square with the restricted tick action.
 - **Falsifier:** A single image outside the 64-dimensional complement refutes preservation; a certified action differing from the predicted swap refutes the stronger coherence reading.
-- **Scope:** The selected semilinear beat and 64-dimensional algebraic complement. Preservation is not a physical spin, locality or QFT theorem.
+- **Scope:** One source-locked B1140 compact-color representative, its selected semilinear beat and 64-dimensional algebraic complement. Frame-covariance, physical spin, locality and QFT do not follow.
 - **Aliases:** `outside-campaign A2 semilinear Sigma`, `beat on the spacetime 64`, `64-complement beat action`
-- **Sources:** [`../evidence/WAVE2_CAMPAIGN_INTAKE.md`](program-question-map/evidence/WAVE2_CAMPAIGN_INTAKE.md), [`https://github.com/originaxiom/origin-axiom/blob/0fe97f9070384d9a5a98c625b1b70131de2556f1/outside_bench/CAMPAIGN_CELLS.json`](https://github.com/originaxiom/origin-axiom/blob/0fe97f9070384d9a5a98c625b1b70131de2556f1/outside_bench/CAMPAIGN_CELLS.json)
-- **Deepest artifacts:** None registered.
+- **Sources:** [`../../../memos/BEAT64_PRINCIPAL_SCOPE.md`](../memos/BEAT64_PRINCIPAL_SCOPE.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md)
+- **Deepest artifacts:** [`../../../certificates/r020_beat64/r020_beat64_principal.py`](../certificates/r020_beat64/r020_beat64_principal.py), [`../../../outputs/r020_beat64_principal.txt`](../outputs/r020_beat64_principal.txt)
 
 <a id="oa-c1070"></a>
 ### OA-C1070 — `PROVED`
@@ -1529,7 +1899,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** Yes. For Q=ad(x16)^(-1)ad(x8) on the 48-dimensional image, the characteristic polynomial is one irreducible cubic to the sixteenth power. The exponent derives the jump 46-30=16. Its discriminant has squarefree part 77 and it acquires a root in K=Q[u]/(u^3-12u-5), identifying the generated field. Rational directions therefore remain at 30 while the cubic directions attain 46 after base change.
 - **Kind/domain:** `computation` / `lie`
 - **Depends on:** [OA-C1098](#oa-c1098)
-- **Leads to:** None.
+- **Leads to:** [OA-C1162](#oa-c1162), [OA-C1163](#oa-c1163)
 - **Closure test:** Restrict both commuting adjoint matrices to the relevant image, factor the exact characteristic polynomial, prove the cubic irreducible, derive the multiplicity sixteen, and identify its field.
 - **Falsifier:** A rational root, a different jump multiplicity, a nonisomorphic cubic field, or another exceptional direction outside the cubic locus refutes the scoped classification.
 - **Scope:** The fixed charge basis and distinguished two-plane. It is an arithmetic centralizer enhancement, not a selected physical scale or particle threshold.
@@ -1615,19 +1985,19 @@ python3 documents/program-question-map/render.py \
 - **Deepest artifacts:** `../tracks/GOLDEN_CLOUDSEAT_CLOSEOUT_AUDIT.md`, `../tracks/WAVE1_DELTA_ADJUDICATION.md`
 
 <a id="oa-c1069"></a>
-### OA-C1069 — `OPEN`
+### OA-C1069 — `PROVED`
 
 - **Question:** Does the Gieseking manifold admit the proposed Pin-minus structures, and what is their exact restriction map to spin structures on its orientable double cover m004?
-- **Answer:** Open. The exact group-abelianization calculation now gives H1(N)=Z<t>, a=b=2t and proves that the nontrivial cover character does not extend; the induced linear restriction in H1(-;F2) is zero. This is only the arithmetic linear part. No geometric Pin-minus obstruction computation or affine-torsor origin is certified, so the full question remains open.
+- **Answer:** Yes. R021 gives H1(N;Z)=Z<t> with a=b=2t, H1(M;Z)=Z<a=b>, H^2(N;F2)=0 and hence vanishing Pin-minus obstruction in the stated convention. Both Pin-minus and spin torsors have two elements, while p^*:H^1(N;F2)->H^1(M;F2) is zero, so affine restriction is constant onto one deliberately unnamed spin structure. Naming that image is separated as OA-C1140.
 - **Kind/domain:** `computation` / `physics_interface`
 - **Depends on:** [OA-C1056](#oa-c1056)
-- **Leads to:** None.
+- **Leads to:** [OA-C1140](#oa-c1140)
 - **Closure test:** Verify the relevant Pin-minus obstruction, compute the integral and mod-two homology from a checked group/cellular presentation, construct the covering restriction map, and identify the restricted spin torsor elements without choosing an unproved affine origin.
 - **Falsifier:** A nonzero Pin-minus obstruction, a different torsor rank, or a nonzero restriction linear part refutes the source prediction; ambiguity of affine origins blocks the stronger identification claim.
 - **Scope:** Pin-minus structures on the nonorientable Gieseking three-manifold and their restriction to the orientable cover. This alone is not a four-dimensional fermion construction.
 - **Aliases:** `outside-campaign A4`, `Gieseking Pin-minus torsor`, `Pin-to-spin restriction`
-- **Sources:** [`../evidence/WAVE2_CAMPAIGN_INTAKE.md`](program-question-map/evidence/WAVE2_CAMPAIGN_INTAKE.md), [`https://github.com/originaxiom/origin-axiom/blob/0fe97f9070384d9a5a98c625b1b70131de2556f1/outside_bench/CAMPAIGN_CELLS.json`](https://github.com/originaxiom/origin-axiom/blob/0fe97f9070384d9a5a98c625b1b70131de2556f1/outside_bench/CAMPAIGN_CELLS.json)
-- **Deepest artifacts:** None registered.
+- **Sources:** [`../../../memos/GIESEKING_PINMINUS_RESTRICTION.md`](../memos/GIESEKING_PINMINUS_RESTRICTION.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md)
+- **Deepest artifacts:** [`../../../certificates/r021_gieseking_pinminus/gieseking_pinminus_restriction.py`](../certificates/r021_gieseking_pinminus/gieseking_pinminus_restriction.py), [`../../../outputs/r021_gieseking_pinminus.txt`](../outputs/r021_gieseking_pinminus.txt)
 
 <a id="oa-c1090"></a>
 ### OA-C1090 — `REFUTED`
@@ -1674,6 +2044,21 @@ python3 documents/program-question-map/render.py \
 - **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/memos/SUSY_NO_GO.md`](https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/memos/SUSY_NO_GO.md)
 - **Deepest artifacts:** [`https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/certificates/susy_test.py`](https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/certificates/susy_test.py)
 
+<a id="oa-c1140"></a>
+### OA-C1140 — `OPEN`
+
+- **Question:** Is the unnamed spin structure in the constant Gieseking Pin-minus restriction image exactly the B1141 beat-selected holonomy sign lift?
+- **Answer:** Open. R021 proves that both Pin-minus structures restrict to one spin structure but the zero linear map cannot name the affine image. Deck generator t, tangent Pin data, the internal 2T center and semilinear holonomy are distinct objects. No explicit frame-lift comparison to B1141 exists.
+- **Kind/domain:** `comparison` / `physics_interface`
+- **Depends on:** [OA-C1069](#oa-c1069)
+- **Leads to:** None.
+- **Closure test:** Construct an explicit tangent-frame Pin-minus lift on m000, restrict it to a Spin(3) lift on m004, compare both named hyperbolic-holonomy lifts in one convention and identify the affine origin.
+- **Falsifier:** Restriction to the opposite named holonomy lift refutes the proposed identification; absence of a typed tangent-to-holonomy comparison withholds it.
+- **Scope:** A named comparison between a three-dimensional tangent spin structure and the two fixed holonomy lifts. It does not establish four-dimensional chirality or fermion dynamics.
+- **Aliases:** `R021 named Pin image`, `B1141 spin-lift comparison`
+- **Sources:** [`../../../memos/GIESEKING_PINMINUS_RESTRICTION.md`](../memos/GIESEKING_PINMINUS_RESTRICTION.md), [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md)
+- **Deepest artifacts:** [`../../../certificates/r021_gieseking_pinminus/gieseking_pinminus_restriction.py`](../certificates/r021_gieseking_pinminus/gieseking_pinminus_restriction.py)
+
 ## Domain: `process`
 
 <a id="oa-c1091"></a>
@@ -1715,7 +2100,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** Not yet. B1104 finds no canonical suspension section; filling is nonunique; S=-Vol*sigma is an on-shell value rather than a 4d gravitational action. B1157 and B1165 further classify the infinity-place constructions as generic spectral geometry: no 4d action, propagator or Ward identities are constructed. The exact Ruelle factorization OA-C1104 is mathematics, while OA-C1106--OA-C1108 remain specialist analytic residues. OA-C1132 registers the unrun arithmetic-versus-nonarithmetic ablation and OA-C1135 fences the proposed parity-by-dimension classifier.
 - **Kind/domain:** `construction` / `qft`
 - **Depends on:** [OA-C0003](#oa-c0003)
-- **Leads to:** [OA-C0007](#oa-c0007), [OA-C1062](#oa-c1062), [OA-C1106](#oa-c1106), [OA-C1107](#oa-c1107), [OA-C1108](#oa-c1108), [OA-C1120](#oa-c1120), [OA-C1132](#oa-c1132), [OA-C1135](#oa-c1135)
+- **Leads to:** [OA-C0007](#oa-c0007), [OA-C1062](#oa-c1062), [OA-C1106](#oa-c1106), [OA-C1107](#oa-c1107), [OA-C1108](#oa-c1108), [OA-C1120](#oa-c1120), [OA-C1132](#oa-c1132), [OA-C1135](#oa-c1135), [OA-C1149](#oa-c1149), [OA-C1153](#oa-c1153), [OA-C1157](#oa-c1157), [OA-C1160](#oa-c1160)
 - **Closure test:** A unique 4d spacetime/compactification, off-shell action, state space, and controlled quantum dynamics.
 - **Falsifier:** No-section/nonuniqueness or an on-shell number mislabeled as an action.
 - **Scope:** A physical Standard Model coupled to spacetime/gravity.
@@ -1828,6 +2213,36 @@ python3 documents/program-question-map/render.py \
 - **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1165_gravity_terminal/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1165_gravity_terminal/FINDINGS.md)
 - **Deepest artifacts:** None registered.
 
+<a id="oa-c1160"></a>
+### OA-C1160 — `EXTERNAL_BLOCKER`
+
+- **Question:** Is there a type-correct specialization or correspondence between an E6 Seiberg-Witten curve and the banked m004 A-polynomial that supplies a nontrivial first step toward a four-dimensional lift?
+- **Answer:** Not yet. Outside tip bc9d381d exhausts the corpus and its cited construction lane: no E6 Seiberg-Witten-curve/state-integral construction exists to instantiate the comparison, the available dimension-six shadow leans mismatch, and B528 corrects the earlier nonabelian easy slice because T_K[4_1] is abelian at every rank. Main B1194 confirms no canonical 4d filling. The row is blocked on a new specialist mathematical construction, not an unrun in-repo calculation.
+- **Kind/domain:** `comparison` / `qft`
+- **Depends on:** [OA-C0005](#oa-c0005), [OA-C0017](#oa-c0017)
+- **Leads to:** [OA-C0007](#oa-c0007)
+- **Closure test:** Specify the four-dimensional theory, Coulomb-branch parameters, curve/differential and the A-polynomial component, then construct a map preserving the relevant symplectic or period data with a nonarithmetic/control manifold comparison.
+- **Falsifier:** Dimension, genus, parameter or differential incompatibility refutes the proposed route; a visual polynomial resemblance cannot pass.
+- **Scope:** One sharply typed mathematical comparison toward a 4d lift. Even a positive curve map would not by itself give a local 4d action, spectrum, chirality or vacuum.
+- **Aliases:** `gravity S1`, `E6 Seiberg-Witten versus A-polynomial`, `4d lift first computation`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/THE_NINE_CELLS.md`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/THE_NINE_CELLS.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1161"></a>
+### OA-C1161 — `REFUTED`
+
+- **Question:** Does the bare m004 arithmetic force the quartic phase, amplitude and associator fields required by the proposed Fibonacci-MTC Born-content construction?
+- **Answer:** No. B729 supplies that census. The object-native trace and Alexander data give Q(sqrt(-3)) and Q(sqrt(5)); the phase Q(zeta_5), amplitude Q(zeta_20)^+ and associator field appear only in imported Fibonacci-MTC data and have distinct quartic Galois/ramification types. The outside accounting is correct to price them as overlays, but they are already a theorem-level negative rather than an unclassified missing row.
+- **Kind/domain:** `existence` / `qft`
+- **Depends on:** [OA-C0003](#oa-c0003), [OA-C0016](#oa-c0016)
+- **Leads to:** None.
+- **Closure test:** Derive Q(zeta_5), Q(zeta_20)^+ and the associator extension from a canonical m004 invariant without importing the Fibonacci modular tensor category.
+- **Falsifier:** A complete native-invariant census locating only the two quadratic fields and proving the quartics arise solely after the MTC import refutes native forcing.
+- **Scope:** The specific Fibonacci-MTC Born-content route. This does not prove that no other quantum-probability construction can exist.
+- **Aliases:** `B729 Born overlay decision`, `zeta5 phase`, `zeta20-real amplitudes`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/2f59628d60aa58f34fff98146da95ea22e95eed7/frontier/B729_amplitude_sector/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/2f59628d60aa58f34fff98146da95ea22e95eed7/frontier/B729_amplitude_sector/FINDINGS.md)
+- **Deepest artifacts:** None registered.
+
 ## Domain: `spectrum`
 
 <a id="oa-c0008"></a>
@@ -1837,7 +2252,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** No. B1033 retracts four internal threes; B876 is one vectorlike 16+bar16 pattern; E8 contains (27,3) and (bar27,bar3), and its sole A2 cannot be both electroweak and family. OA-C1126 exactly shows that the selected trinification order-three symmetry cycles three different 9-blocks rather than three gauge-identical copies inside one 27. OA-C1137 records the independent logical failure of using a degree-two trace field to bound multiplicity by two.
 - **Kind/domain:** `existence` / `spectrum`
 - **Depends on:** [OA-C0007](#oa-c0007), [OA-C0009](#oa-c0009)
-- **Leads to:** [OA-C0015](#oa-c0015), [OA-C1034](#oa-c1034), [OA-C1126](#oa-c1126), [OA-C1137](#oa-c1137)
+- **Leads to:** [OA-C0015](#oa-c0015), [OA-C1034](#oa-c1034), [OA-C1126](#oa-c1126), [OA-C1137](#oa-c1137), [OA-C1155](#oa-c1155)
 - **Closure test:** A zero-mode/cohomology/Dirac index yielding three independent gauge-isomorphic 27s.
 - **Falsifier:** A decomposition of one 27, a vectorlike pair, or a gauge-active triplet.
 - **Scope:** All family-count routes presently in the fetched repositories.
@@ -1909,7 +2324,7 @@ python3 documents/program-question-map/render.py \
 ### OA-C1118 — `OPEN`
 
 - **Question:** In a precisely declared rank-three abelian charge sector with a complete candidate spectrum, does the anomaly Diophantine system uniquely select an SM-normalized hypercharge direction compatible with color and weak isospin?
-- **Answer:** Open. OA-C1121 proves that a selected trinification frame realizes the universal anomaly-ratio theorem after an SM-shaped 15-state subset and nonzero quark charge are imposed. OA-C1122 shows that, within a finite generic SM-visible alphabet, full anomalies plus rigidity select the minimal SM15/conjugate pair, but that alphabet is itself supplied and contains no object data. Neither result executes B892's distinct centralizer frame, includes the other twelve 27 states in a complete light-spectrum ledger, or selects frame, gauging and normalization. The stronger full-sector selector remains open.
+- **Answer:** Open. OA-C1121 proves that a selected trinification frame realizes the universal anomaly-ratio theorem after an SM-shaped 15-state subset and nonzero quark charge are imposed. OA-C1122 shows that, within a finite generic SM-visible alphabet, full anomalies plus rigidity select the minimal SM15/conjugate pair. B1170 independently confirms that this forcing is arena-generic: no object token enters the enumeration. The object-specific unpaid input is therefore the arena itself--a selected complete light spectrum and rank-three abelian sector--plus frame, gauging and normalization. The stronger full-sector selector remains open.
 - **Kind/domain:** `computation` / `spectrum`
 - **Depends on:** [OA-C0013](#oa-c0013), [OA-C1112](#oa-c1112)
 - **Leads to:** [OA-C0012](#oa-c0012)
@@ -1917,7 +2332,7 @@ python3 documents/program-question-map/render.py \
 - **Falsifier:** No admissible solution, multiple inequivalent solutions, dependence on preloaded SM charges, or incompatibility with the color/weak ideals refutes intrinsic uniqueness.
 - **Scope:** A finite discrete selector test in B892's declared sector or another explicitly complete candidate sector. It must include every state treated as light and cannot assume an SM-shaped subset is the physical spectrum. It does not derive gauge fields or the running hypercharge coupling.
 - **Aliases:** `THE_MSSM_DEBT D2`, `L132 hypercharge Diophantine route`
-- **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`../../../memos/HYPERCHARGE_TRINIFICATION_SCOPE.md`](../memos/HYPERCHARGE_TRINIFICATION_SCOPE.md), [`https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/memos/HYPERCHARGE_FALLS_OUT.md`](https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/memos/HYPERCHARGE_FALLS_OUT.md), [`https://github.com/originaxiom/origin-axiom/blob/a6c35d083e9bd7610045093d682afce827034932/frontier/B8143_anomaly_lane/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/a6c35d083e9bd7610045093d682afce827034932/frontier/B8143_anomaly_lane/FINDINGS.md)
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`../../../memos/HYPERCHARGE_TRINIFICATION_SCOPE.md`](../memos/HYPERCHARGE_TRINIFICATION_SCOPE.md), [`https://github.com/originaxiom/origin-axiom/blob/a6592e7b487d8fae482c00cfb9ba994f4c15723f/frontier/B1170_arena_rescope/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/a6592e7b487d8fae482c00cfb9ba994f4c15723f/frontier/B1170_arena_rescope/FINDINGS.md)
 - **Deepest artifacts:** None registered.
 
 <a id="oa-c1121"></a>
@@ -2010,6 +2425,21 @@ python3 documents/program-question-map/render.py \
 - **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1161_frontier_sweep/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1161_frontier_sweep/FINDINGS.md)
 - **Deepest artifacts:** None registered.
 
+<a id="oa-c1155"></a>
+### OA-C1155 — `REFUTED`
+
+- **Question:** Are B889's three pairwise distinguishable sectors canonically the trinification Z3 family orbit, so that they supply three physical generations rather than internal frames of one 27?
+- **Answer:** No. B1190 rejects GC-8's proposed identification: the B889 frames are the Galois S3 of an explicit external cubic, not the trinification Z3. B1196 GC-26 supplies the decisive carrier obstruction: every B891 foreign eigenspace has dimension 16 and its projector spreads across all three nine-dimensional trinification blocks, so it cannot equal any one block or any union of the 9+9+9 partition. The proposed canonical identification is refuted. This negative does not produce three chiral zero-mode copies; the parent physical-generation gate remains unclosed.
+- **Kind/domain:** `comparison` / `spectrum`
+- **Depends on:** [OA-C0008](#oa-c0008), [OA-C1128](#oa-c1128)
+- **Leads to:** [OA-C0009](#oa-c0009)
+- **Closure test:** Construct the exact action on both three-element sets, identify their representation carriers and prove a label-preserving equivalence that produces three chiral copies rather than three views of one copy.
+- **Falsifier:** Different acting groups, an external cubic carrier, or one underlying 27 with no replicated zero modes refutes the physical-generation interpretation.
+- **Scope:** The B889/B891 finite carriers and generation-count interpretation. Three internal sectors are not three chiral zero modes without an explicit replication/index theorem.
+- **Aliases:** `grand-computation D2`, `generation-three adjudication`, `B889 frame trit`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/af8564bd38c7dababf649591339d06e99e9cbaf0/frontier/B1190_close_loop_batch2/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/af8564bd38c7dababf649591339d06e99e9cbaf0/frontier/B1190_close_loop_batch2/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1196_close_loop_batch5b/verification/batch5b_cells.json`](https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1196_close_loop_batch5b/verification/batch5b_cells.json)
+- **Deepest artifacts:** [`../../../certificates/r023_b1196_generation_obstruction.py`](../certificates/r023_b1196_generation_obstruction.py), [`../../../outputs/r023_b1196_generation_obstruction.txt`](../outputs/r023_b1196_generation_obstruction.txt)
+
 ## Domain: `vacuum`
 
 <a id="oa-c0011"></a>
@@ -2019,7 +2449,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** Not yet. B632 v0 has N=-6, Jordan rank 3 and F4 stabilizer, not the rank-1 Spin10 direction. A Kato-Yukie semistable pencil contains no rank-1 direction; for two rank-1 endpoints N(sA+tB) is identically zero. OA-C1113 gives the direction-level parity/lock fork, and OA-C1119 now closes the selected finite SM-safe direction census: exactly two directions pass, but both destroy the selected gradings. Neither result supplies a potential, an actual VEV, stability or an object-selected orbit.
 - **Kind/domain:** `existence` / `vacuum`
 - **Depends on:** [OA-C0007](#oa-c0007)
-- **Leads to:** [OA-C0012](#oa-c0012), [OA-C0014](#oa-c0014), [OA-C1113](#oa-c1113), [OA-C1119](#oa-c1119)
+- **Leads to:** [OA-C0012](#oa-c0012), [OA-C0014](#oa-c0014), [OA-C1113](#oa-c1113), [OA-C1119](#oa-c1119), [OA-C1150](#oa-c1150)
 - **Closure test:** An object-selected scalar sector and solved stable vacuum with the required rank drop.
 - **Falsifier:** Candidate lies in the wrong invariant orbit or only specifies an orbit/condition rather than a point and potential.
 - **Scope:** Known repo VEV shortcuts are refuted; F4(Z) pair-orbit and full potential remain open.
@@ -2387,6 +2817,21 @@ python3 documents/program-question-map/render.py \
 - **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1166_charter_attack/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1166_charter_attack/FINDINGS.md)
 - **Deepest artifacts:** None registered.
 
+<a id="oa-c1150"></a>
+### OA-C1150 — `OPEN`
+
+- **Question:** Does the surviving projective Higgs-line freedom reduce to already priced finite labels or one normalization, or does it add up to three independent continuous vacuum inputs?
+- **Answer:** Open. B1193 catches an error in the v0 input floor: the P3 Higgs line is not covered by the earlier multiplicity-one argument. Outside tip bc9d381d sharpens the test: its four Higgs slots have four distinct crystal weights, so the line reduces to a finite menu in that frame unless main's B0 block is torus-isotypic. B1195 GC-25 does not settle that comparison because its rational regular-representation stand-in assumes the action on the actual four-dimensional multiplicity space. B1205 cuts a generic P3 by a determinant cubic only to a surface, while a skew-slice control shows that such a determinant can vanish identically; no actual object tensor was evaluated. B1206/B1208 prove the lambda block is either rank zero or two by full SU(2) invariance and that the one-27 H_d menu has only one canonical functional, so those named routes do not add a cut. R024 shows e^c and l share coarse character zero on both retained branches but cannot identify their generation-level embeddings; B1208's same/independent/absent tensor fork therefore remains unresolved. The exact quotient and input dimension stay open.
+- **Kind/domain:** `classification` / `vacuum`
+- **Depends on:** [OA-C0011](#oa-c0011), [OA-C1034](#oa-c1034)
+- **Leads to:** [OA-C0014](#oa-c0014)
+- **Closure test:** Write the exact projective Higgs parameter space modulo all proved gauge, automorphism and normalization actions, then compute the dimension and identify every surviving input coordinate.
+- **Falsifier:** A positive-dimensional quotient refutes absorption into finite labels; a zero-dimensional quotient with a canonical orbit closes the extra input.
+- **Scope:** The already selected conditional Higgs sector. This is input accounting, not a derivation of electroweak symmetry breaking, its scale or the observed Higgs mass.
+- **Aliases:** `B1193 P3 correction`, `Higgs projective line`, `input-floor adjudication`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`../../../memos/LEPTON_CHARACTER_DATUM.md`](../memos/LEPTON_CHARACTER_DATUM.md), [`https://github.com/originaxiom/origin-axiom/blob/0f1c627e5c290439e4f6eeb3723fb5d9f83195d7/docs/GRAND_COMPUTATION_v0.md`](https://github.com/originaxiom/origin-axiom/blob/0f1c627e5c290439e4f6eeb3723fb5d9f83195d7/docs/GRAND_COMPUTATION_v0.md), [`https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json`](https://github.com/originaxiom/origin-axiom/blob/40916c36ddeb1eb1631097b3535c6a79a2658e23/frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json), [`https://github.com/originaxiom/origin-axiom/blob/6bd7aeb8a6acb3fd4a1bb250d15f0e91c6fcf1a3/frontier/B1205_the_dimension_ledger/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/6bd7aeb8a6acb3fd4a1bb250d15f0e91c6fcf1a3/frontier/B1205_the_dimension_ledger/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/b0d8f37c7205cf43520a0710f6b7c7c66634a0dc/frontier/B1208_cross_seat_harvest/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/b0d8f37c7205cf43520a0710f6b7c7c66634a0dc/frontier/B1208_cross_seat_harvest/FINDINGS.md)
+- **Deepest artifacts:** [`../../../certificates/r024_lepton_character_datum.py`](../certificates/r024_lepton_character_datum.py), [`../../../outputs/r024_lepton_character_datum.txt`](../outputs/r024_lepton_character_datum.txt)
+
 ## Domain: `values`
 
 <a id="oa-c0016"></a>
@@ -2396,7 +2841,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** Not yet. Natural period searches return negative; regulator identification remains unconstructed; sin^2(theta_W)=3/8 is the conditional GUT normalization, not the measured prediction. B1154 distinguishes arithmetic non-overlap from the independent cohomological up-Yukawa emptiness: two walls support the same structure-versus-values diagnosis, but neither supplies a number.
 - **Kind/domain:** `computation` / `values`
 - **Depends on:** [OA-C0007](#oa-c0007), [OA-C0014](#oa-c0014), [OA-C0015](#oa-c0015)
-- **Leads to:** [OA-C0018](#oa-c0018)
+- **Leads to:** [OA-C0018](#oa-c0018), [OA-C1158](#oa-c1158), [OA-C1161](#oa-c1161)
 - **Closure test:** A unique UV solution with stabilized moduli and a complete renormalized observable table.
 - **Falsifier:** Free continuous normalization/scale/modulus, post-hoc matching, or a missing threshold/RG map.
 - **Scope:** All SM gauge, Higgs, Yukawa, mixing, neutrino, and theta parameters.
@@ -2411,7 +2856,7 @@ python3 documents/program-question-map/render.py \
 - **Answer:** Empirical evidence only. No current repo value claim satisfies this strict endpoint criterion; several sealed crossings are negative.
 - **Kind/domain:** `empirical` / `values`
 - **Depends on:** [OA-C0016](#oa-c0016)
-- **Leads to:** None.
+- **Leads to:** [OA-C1143](#oa-c1143)
 - **Closure test:** Preregister an observable and uncertainty before comparison, then pass independent data.
 - **Falsifier:** Miss outside the preregistered band or a comparison used during model construction.
 - **Scope:** At least one genuinely held-out observable, followed by the full parameter table.
@@ -2553,6 +2998,66 @@ python3 documents/program-question-map/render.py \
 - **Aliases:** `B1158 C4 residual`, `finite-height unfolding suspect`, `Gaudin residual`
 - **Sources:** [`../evidence/WAVE5_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE5_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1158_cloud_wave2_harvest/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/bf580f45840d121a811d2b6606c48beac92c3057/frontier/B1158_cloud_wave2_harvest/FINDINGS.md), [`https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/memos/RESIDUAL_CHARACTERIZED.md`](https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/memos/RESIDUAL_CHARACTERIZED.md)
 - **Deepest artifacts:** [`https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/certificates/unfold_close.py`](https://github.com/originaxiom/origin-axiom/blob/60bcf01db966ae0b13f18c73c24845040b59fd98/outside_bench/certificates/unfold_close.py)
+
+<a id="oa-c1143"></a>
+### OA-C1143 — `EXTERNAL_BLOCKER`
+
+- **Question:** Can a phason-controlled Aubry-Andre-Harper experiment measure the preregistered number of edge modes in a labelled gap well enough to distinguish the predicted counts five and six?
+- **Answer:** Not yet. B1171 adopts B8146's full-text audit: existing 13--28-waveguide demonstrations provide the phason knob but report qualitative localization, no mode count and no uncertainty or resolution for this observable. The experimental route is testable in principle but its readout does not presently exist.
+- **Kind/domain:** `empirical` / `values`
+- **Depends on:** [OA-C0018](#oa-c0018)
+- **Leads to:** None.
+- **Closure test:** Commission a labelled-gap mode-count observable with declared site number, error model and held-out phason setting, then distinguish five from six without using the result in model construction.
+- **Falsifier:** A measured incompatible count refutes the prediction; inability to identify or count the modes keeps the test blocked rather than confirmed.
+- **Scope:** One preregistered condensed-matter analogue count. Passing it would test a structural prediction, not establish the Standard Model or its parameter table.
+- **Aliases:** `B8146 L173 readout`, `commissioned edge-mode count`, `5 versus 6 gap test`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/72ace1cf91abae1be356b17e947c08894f255a8b/docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md`](https://github.com/originaxiom/origin-axiom/blob/72ace1cf91abae1be356b17e947c08894f255a8b/docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1158"></a>
+### OA-C1158 — `OPEN`
+
+- **Question:** Does the object-normalized weak-mixing trace identity reproduce exactly at the independent full-tower prime 40639 after the required square-root convention transport?
+- **Answer:** Open. B895 proves the 40639 hypercharge direction and resolves the 17-versus-11 support discrepancy, but B919's distinct Weinberg-trace run remains one-prime. Its first attempted second-prime flag was caught as a silent substitution failure; the correctly substituted chain reaches the Y anchor but rational reconstruction returns None. The follow-up is explicitly registered and has no later closing arc through B1196.
+- **Kind/domain:** `computation` / `values`
+- **Depends on:** [OA-C0013](#oa-c0013), [OA-C1121](#oa-c1121)
+- **Leads to:** [OA-C0016](#oa-c0016)
+- **Closure test:** Transport the full 40639 tower and Y anchor under a versioned per-prime square-root convention, rationally reconstruct all three traces and reproduce Tr(T3^2)=3, Tr(Y^2)=5 and Tr(T3Y)=0 with a deliberately wrong-label control.
+- **Falsifier:** A different rational trace triple or failure after a correct convention transport refutes two-prime robustness; silently reusing the first prime withholds closure.
+- **Scope:** Robustness of the internal GUT-normalized structural relation sin^2(theta_W)=3/8. It is not the measured low-energy weak angle and does not perform RG running.
+- **Aliases:** `B919 second-prime debt`, `40639 Weinberg traces`, `two-prime 3/8 check`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/7a4447d78ce92d3db6e04152105cb841ca163657/frontier/B919_weinberg_traces/FINDINGS.md`](https://github.com/originaxiom/origin-axiom/blob/7a4447d78ce92d3db6e04152105cb841ca163657/frontier/B919_weinberg_traces/FINDINGS.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1159"></a>
+### OA-C1159 — `OPEN`
+
+- **Question:** Does object-native arithmetic force the specific D2-twisted Hermitian gauge that carries the hierarchy rather than merely show that this twist is mirror-even and available?
+- **Answer:** Open. B928 proves that H_plus D2 is carried uniquely by the already specified composite phi*=tau o phi+ o phi- within its 128-representative census, while B923 proves only that the canonical gauge is generation-degenerate. B928 explicitly warns that the census alone does not pin D2: only 16 outer pairings are symmetric, and the other candidate Hermitian structures have not been tested for generation resolution. Outside memo 92 makes D2-tw mirror-even, but admissibility is not selection. The tip's proposed premise that physics must resolve generations therefore does not leave exactly one tested candidate. The physical gauge remains unforced.
+- **Kind/domain:** `uniqueness` / `values`
+- **Depends on:** [OA-C1135](#oa-c1135)
+- **Leads to:** [OA-C0015](#oa-c0015)
+- **Closure test:** Enumerate every admissible Hermitian gauge in the fixed representation, state an object-native invariant independent of desired hierarchy output and prove that it uniquely selects D2-tw; then assemble B928, B923 and the mirror-parity result into one checked theorem.
+- **Falsifier:** A second equally admissible gauge, or a selector that references the target hierarchy, refutes forcing; mirror-evenness alone is insufficient.
+- **Scope:** Selection of the hierarchy-carrying Hermitian form in the fixed algebraic frame. It does not supply observed mass ratios, RG evolution or a physical vacuum.
+- **Aliases:** `B928 twist forcing`, `mirror-even hierarchy carrier`, `hierarchy selection theorem`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/da446a7569e5536c18d0ce1b4605b995d017d3b2/frontier/B928_d2_decode/arc_verdict.json`](https://github.com/originaxiom/origin-axiom/blob/da446a7569e5536c18d0ce1b4605b995d017d3b2/frontier/B928_d2_decode/arc_verdict.json), [`https://github.com/originaxiom/origin-axiom/blob/2d45267727fd34e1ff3f63b735075253b8e66eb5/outside_bench/memos/TWIST_PARITY.md`](https://github.com/originaxiom/origin-axiom/blob/2d45267727fd34e1ff3f63b735075253b8e66eb5/outside_bench/memos/TWIST_PARITY.md), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/THE_SELECTION_THEOREM.md`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/THE_SELECTION_THEOREM.md)
+- **Deepest artifacts:** None registered.
+
+<a id="oa-c1166"></a>
+### OA-C1166 — `OPEN`
+
+- **Question:** Does the explicit norm-953 generator admit an object-native unit normalization and a pipeline-free derivation explaining why that associate enters the hierarchy invariant?
+- **Answer:** Open. Class number one and alpha=-26-theta+2theta^2 prove existence and principality. The successor eight-witness proof removes the first certificate's method defect but still neither chooses a unit associate nor proves the downstream divisor equality in a pipeline-independent construction. Outside memos 102/103 sharpen the old gap to the arithmetic meaning of this single element rather than completing a physical explanation.
+- **Kind/domain:** `construction` / `values`
+- **Depends on:** [OA-C1162](#oa-c1162), [OA-C1163](#oa-c1163)
+- **Leads to:** None.
+- **Closure test:** Fix the unit orbit of norm-953 generators by an invariant independent of the desired hierarchy, transport the chosen element into the Hermitian divisor calculation and derive the 953 occurrence without preloading source eigenline coordinates.
+- **Falsifier:** Several unit associates with no object-native preference, or unavoidable dependence on the already computed hierarchy pipeline, refutes canonical explanation.
+- **Scope:** Canonicity and explanatory transport of the exact 953 element. It is not a measured mass ratio or parameter prediction.
+- **Aliases:** `953 pipeline-free residue`, `alpha unit normalization`, `B931 sharpened residue`
+- **Sources:** [`../evidence/WAVE6_BRANCH_DELTA_AUDIT.md`](program-question-map/evidence/WAVE6_BRANCH_DELTA_AUDIT.md), [`https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/memos/CLASS_GROUP_953.md`](https://github.com/originaxiom/origin-axiom/blob/bc9d381d0018cdc112ddac2373fe767ee4247531/outside_bench/memos/CLASS_GROUP_953.md)
+- **Deepest artifacts:** None registered.
 
 ## Reading the map correctly
 

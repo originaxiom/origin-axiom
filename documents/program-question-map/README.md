@@ -4,17 +4,17 @@ This directory is the shared, living source for the Codex seat's hostile closure
 `inventory/backbone.json`; never hand-edit the generated
 `../PROGRAM_QUESTION_ANSWER_MAP.md`.
 
-Wave-5 source locks:
+Wave-6 source locks:
 
 ```text
-origin/main                  bf580f45840d121a811d2b6606c48beac92c3057
-origin outside-bench ref    60bcf01db966ae0b13f18c73c24845040b59fd98
-origin paper branch         a6c35d083e9bd7610045093d682afce827034932
+origin/main                  4526eb49214cdc3c038191870421f32d6819b79d
+origin outside-bench ref    287e8f75efa34141dfb00ff2c30215cd50036ee5
+origin paper branch         a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4
 golden_gate handoff         6fc86147e553773335b665d6d460e1eaa77aaaf0
 ```
 
-Wave-5 canonical state after the overnight reconciliation: 154 rows; 60 `PROVED`, 47 `REFUTED`,
-14 `CONDITIONAL`, 20 `EXTERNAL_BLOCKER`, 2 `EMPIRICAL`, and 11 `OPEN`.
+Wave-6 canonical state: 185 rows; 70 `PROVED`, 55 `REFUTED`, 15 `CONDITIONAL`,
+22 `EXTERNAL_BLOCKER`, 2 `EMPIRICAL`, and 21 `OPEN`.
 
 ## Update loop
 
@@ -30,13 +30,13 @@ PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/validate.py
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \
   --markdown documents/PROGRAM_QUESTION_ANSWER_MAP.md \
-  --as-of 2026-08-27
+  --as-of 2026-08-29
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \
   --markdown documents/PROGRAM_QUESTION_ANSWER_MAP.md \
-  --as-of 2026-08-27 --check
+  --as-of 2026-08-29 --check
 ```
 
 `OPEN` is an honest nonterminal state.  `CONDITIONAL` and `EXTERNAL_BLOCKER` account for an
-obligation but do not count as parameter-free physical closure.  The latest hostile audit and
-eleven-item live queue are in `evidence/PROGRESS_BANK_2026-08-26_WAVE5.md`.
+obligation but do not count as parameter-free physical closure. The latest hostile audit and
+twenty-one-item live queue are in `evidence/PROGRESS_BANK_2026-08-28_WAVE6.md`.

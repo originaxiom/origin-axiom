@@ -1,0 +1,10 @@
+oriented_closings=156
+chern_simons_sign_control=156/156
+unoriented_closings=78
+selected_1n_ladder_monotone=True
+full_census_monotone=False
+full_census_violations=15
+families_p2_through_p8_each_nonmonotone=True
+shuffle_control_violations=36
+OA-C1153 FULL-COMMON-DOMAIN COHERENCE: REFUTED
+R023 B1197 CLOCK COHERENCE: PASS
