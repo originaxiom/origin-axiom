@@ -42,6 +42,14 @@ S5 — THE DECISIVE STRUCTURAL TEST: is |CS| a FUNCTION of Vol at all?
        fails for a reason STRICTLY STRONGER than non-monotonicity — it
        is not a reparameterization failure but a single-valuedness one.
 
+    S5c — THE STEEPEST PAIR (cc's witness, re-derived here; credited):
+      (1,7)  Vol=1.972460197  |CS|=0.071312429
+      (2,7)  Vol=1.972724673  |CS|=0.214517008
+      dVol = 0.000264476   d|CS| = 0.143204579
+      => 541.5x  — sharper than this cell's original 28x window witness,
+         and the sharpest in the census.  Two closings essentially AT THE
+         SAME VOLUME carry |CS| differing by a factor of three.
+
     S5b — THE ONE-LINE VERSION (cc's own control does the work).
     B289's sign law, which B1197 reproduces 156/156 as a POSITIVE CONTROL,
     says CS(p,-q) = -CS(p,q); and the mirror pair has the SAME volume.

@@ -157,6 +157,24 @@ print("       reparameterization' requires a function.  So the VARIABLE reading"
 print("       fails for a reason STRICTLY STRONGER than non-monotonicity — it")
 print("       is not a reparameterization failure but a single-valuedness one.")
 assert spread / dv > 10
+# S5c — the STEEPEST PAIR (cc's sharper witness, verified here and credited)
+import itertools as _it
+_best = None
+for _a, _b in _it.combinations(uniq, 2):
+    _dv = abs(_a["vol"] - _b["vol"]); _dc = abs(_a["abs_cs"] - _b["abs_cs"])
+    if _dv < 1e-9:
+        continue
+    if _best is None or _dc/_dv > _best[0]:
+        _best = (_dc/_dv, _a, _b)
+_r, _a, _b = _best
+print("\n    S5c — THE STEEPEST PAIR (cc's witness, re-derived here; credited):")
+print(f"      ({_a['p']},{_a['q']})  Vol={_a['vol']:.9f}  |CS|={_a['abs_cs']:.9f}")
+print(f"      ({_b['p']},{_b['q']})  Vol={_b['vol']:.9f}  |CS|={_b['abs_cs']:.9f}")
+print(f"      dVol = {abs(_a['vol']-_b['vol']):.9f}   d|CS| = {abs(_a['abs_cs']-_b['abs_cs']):.9f}")
+print(f"      => {_r:.1f}x  — sharper than this cell's original 28x window witness,")
+print("         and the sharpest in the census.  Two closings essentially AT THE")
+print("         SAME VOLUME carry |CS| differing by a factor of three.")
+assert _r > 500
 # S5b — the one-line version, using cc's OWN positive control as the instrument
 print("\n    S5b — THE ONE-LINE VERSION (cc's own control does the work).")
 print("    B289's sign law, which B1197 reproduces 156/156 as a POSITIVE CONTROL,")

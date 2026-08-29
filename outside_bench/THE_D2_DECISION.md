@@ -205,3 +205,55 @@ price sheet implied.
 and the clock identification stays unproven with B721's imported external
 weight intact. **A paid leap is a labeled premise, not a theorem.** This
 addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-29) — ⚠ THE AUTHORITY QUESTION, STATED OPENLY; and cc's two amendments, both upheld
+
+**⚠ THE SIGNATURE'S AUTHORITY IS UNCONFIRMED AND THE OWNER MUST SETTLE
+IT.** The bench recommended Option A; the owner replied **"go"**; the
+bench recorded that as the D2 signature and marked **LEAP-1 PAID**.
+cc flagged, correctly, that **"go" may have been a general continue
+rather than a D2 decision** — in which case *the ledger carries a payment
+on an authority the owner did not give.* The bench recorded the
+provenance verbatim precisely so this could be caught, and cc caught it.
+**Until the owner confirms, the payment is to be read as PROVISIONAL.**
+- **To confirm:** say so; addendum 5/6 stand as written.
+- **To reverse:** one edit — LEAP-1 returns to HELD, SCOPE-1a/1b are
+  struck, and `THE_CLOSURE_ROUTES` row D2 reverts. **Nothing else in the
+  record depends on it**, because every consequence was written as
+  premise-conditional (memo 131) rather than asserted.
+
+**cc reached the same option by a better argument, and it is adopted.**
+The bench's case was **eliminative** — the alternative was never
+satisfiable, so do not decline on it. cc is right that this shows only
+that *the gate returned nothing*; **"the test was void" is not a licence
+to pay.** The deciding argument is **positive**: a cosmological clock
+parameterizes **one realized history** by construction, so demanding
+single-valuedness across all Dehn closings is a **category error** —
+different closings are different universes, not different times of one
+universe. That is now the recorded ground for SCOPE-1a.
+
+**AMENDMENT 1 — SCOPE-1 was under-priced by one line; split.** It bundled
+*"coherence is required along a realized history"* (defensible, above)
+with *"the (1,n) ladder **is** that history"* (**not established** —
+§2's S6 shows only that the ladder was distinguished *in the record*
+before the run). Now **SCOPE-1a** and **SCOPE-1b**, each with its own
+refuters. **The bench under-priced this; cc caught it.**
+
+**AMENDMENT 2 — the override is recorded in the open.** The signed rule
+said *non-monotone ⟹ cannot both be paid*; **the census came back
+non-monotone and the payment proceeded.** §2's wording ("fired neither
+branch") was too soft. Weld book addendum 6 now carries the override as
+its **first** paragraph, so no reader finds "LEAP-1 PAID" without it.
+
+**Two facts verified from primary** (cc's, re-derived here): addendum 2
+was committed **13:30:33 UTC**, B1197 ran **19:49:17 UTC** — the
+trajectory reading **predates the run by 6h 19m** and is the original
+statement, not a retrofit. And the sharpest witness is **(1,7) vs (2,7)**:
+ΔVol = 0.000264476, Δ|CS| = 0.143204579 — **541.5×**, better than §2's
+28× window figure; adopted and credited.
+
+**The number that travels with the payment:** the census as *evidence* is
+**faint** — 15 violations against 19.0 ± 1.8 by chance, closing only
+**~21%** of the distance from chance to coherence. **Not "the census
+nearly supported it." It did not. The ladder did.** This addendum is the
+only mutation.

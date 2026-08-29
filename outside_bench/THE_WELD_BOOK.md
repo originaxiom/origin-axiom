@@ -235,3 +235,70 @@ forces an imported external weight**. **A paid leap is a labeled premise,
 not a theorem** — every consequence travels with its premise attached and
 dies with it if a refuter fires. Gate 5 untouched. This addendum is the
 only mutation.
+
+### ADDENDUM 6 (2026-08-29) — ⚠ **THE OVERRIDE, RECORDED IN THE OPEN**; and SCOPE-1 SPLIT because it was UNDER-PRICED BY ONE LINE (both amendments cc's, both upheld)
+cc reviewed the D2 signature independently, reached **the same option (A)**
+by a **different and better argument**, and returned two amendments. Both
+are correct and both are made here.
+
+#### ⚠ AMENDMENT 2 (taken first, because it is the one a future reader must not miss) — A PREREGISTERED GATE FIRED ITS REFUTATION BRANCH AND WAS OVERRIDDEN
+Addendum 2's two-outcome rule was explicit: **"non-monotone ⟹ LEAP-1 and
+W1 CANNOT both be paid."** **The census came back non-monotone. The
+payment went ahead anyway.** The ground for overriding is that the census
+instrument was **structurally unsatisfiable** — B289's sign law puts two
+opposite CS values at one volume, so signed CS was never a function of
+Vol, and the |CS| repair fails too. That reasoning is sound, **and it is
+still an override.** Addendum 5's phrasing ("fired neither branch") was
+too soft: under the census extension the **refutation branch fired**.
+**No reader may find "LEAP-1 PAID" in this book without finding this
+paragraph.** This programme has already been bitten by statements that
+were true when written and read later without their conditions.
+
+#### AMENDMENT 1 — SCOPE-1 bundled TWO premises; it is split, and the second is the weak one
+As written, SCOPE-1 said *"the Λ-conjugacy is required along a realized
+history."* cc's catch: that bundles a defensible premise with an
+unestablished one. **Upheld.** The line is replaced by two:
+- **SCOPE-1a — coherence is required along a realized history, not
+  between variables on the space of closings.** *Grounds:* a cosmological
+  clock parameterizes **one** realized history by construction; requiring
+  single-valuedness across all Dehn closings is a **category error** —
+  different closings are different universes, not different times of one
+  universe. (cc's positive argument, adopted; it is stronger than the
+  bench's eliminative one, which showed only that the gate returned
+  nothing — *"the test was void"* does **not** convert into a licence to
+  pay.) *Refuter:* exhibit a requirement in the AMS construction that
+  CS-time be a function on the **space** of solutions.
+- **SCOPE-1b — the (1,n) ladder IS that realized history. NOT
+  ESTABLISHED; priced as its own premise.** memo 130's S6 shows only that
+  the ladder was **distinguished in the record before the run** — which
+  is *not* the same as its being the realized cosmological trajectory.
+  **The bench under-priced this and cc caught it.** *Refuters:* exhibit a
+  second distinguished trajectory with different coherence behaviour; or
+  exhibit any banked ground identifying the physical history with a
+  different filling family; or show the identification requires frame
+  data the record cannot supply.
+
+#### TWO FACTS VERIFIED FOR THE RECORD (both cc's, both re-derived here)
+- **The trajectory reading is the ORIGINAL statement, not a retrofit.**
+  Addendum 2 was committed **2026-08-28 13:30:33 UTC**; B1197 ran
+  **2026-08-28 19:49:17 UTC** — **6h 19m later**. Addendum 2 states the
+  condition in trajectory form *first* ("along the (1,n) ladder, CS must
+  be monotone in Vol") and only then proposes the census as its "full
+  check". Verified from git.
+- **A sharper witness than the bench reported.** The steepest pair in the
+  census is **(1,7) vs (2,7)**: ΔVol = **0.000264476**, Δ|CS| =
+  **0.143204579** — **541.5×**. Two closings at essentially the same
+  volume carry |CS| differing by a factor of three. cc's number; adopted,
+  re-derived in `d2_scope.py` S5c, credited.
+
+#### THE ONE NUMBER THAT MUST TRAVEL WITH THE PAYMENT
+Read as **evidence** rather than as a gate, the census is **faint**: 15
+violations against **19.0 ± 1.8** expected by chance — it closes only
+**~21%** of the distance from chance to coherence. **The payment must
+never be remembered as "the census nearly supported it." It did not. The
+ladder did.**
+
+**Everything else in addendum 5 stands**, including its own two
+corrections (the CP sign is internal to the clock and adds no bit;
+matter-over-antimatter is doubly conditional). This addendum is the only
+mutation.

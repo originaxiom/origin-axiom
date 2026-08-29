@@ -69,3 +69,26 @@ it does not discharge one.**
 **Fences.** Geometry and counts only, all read from banked data; no
 measured value enters and no clock identification is asserted here.
 Gate 5 untouched.
+
+### ADDENDUM 1 (2026-08-29) — cc's sharper witness adopted, and the timestamp verified
+- **S5c, added to the certificate:** the **steepest pair** in the census
+  is **(1,7) vs (2,7)** — ΔVol = **0.000264476**, Δ|CS| = **0.143204579**,
+  a ratio of **541.5×**. Two closings at essentially the same volume carry
+  |CS| differing by a factor of three. **cc's witness**, re-derived here
+  and credited; it is sharper than this memo's original 28× window figure,
+  which stands but is no longer the best available.
+- **S6 strengthened by a verified timestamp:** weld-book addendum 2 was
+  committed **2026-08-28 13:30:33 UTC**; B1197 ran **2026-08-28 19:49:17
+  UTC** — the trajectory statement **predates the run by 6h 19m**. So the
+  ladder reading is the **original** form of the condition, with the
+  census proposed as its "full check", not a retrofit. cc's observation,
+  verified from git here.
+- **A framing correction to this memo's own argument.** This memo argued
+  **eliminatively** (the variable reading was never satisfiable, so do not
+  decline on it). cc is right that this establishes only that *the gate
+  returned nothing* — **it is not a licence to pay.** The deciding
+  argument is **positive** and belongs in the record: a cosmological clock
+  parameterizes **one realized history** by construction, so requiring
+  single-valuedness across all Dehn closings is a **category error**.
+  Adopted as the ground for SCOPE-1a.
+This addendum is the only mutation.
