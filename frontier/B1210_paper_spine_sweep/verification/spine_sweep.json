@@ -1,5 +1,5 @@
 {
- "corpus": 1111,
+ "corpus": 1113,
  "pool": [
   "B14",
   "B27",
@@ -439,10 +439,21 @@
   "B1162",
   "B1163",
   "B1164",
+  "B1169",
+  "B1171",
+  "B1174",
+  "B1175",
   "B1181",
+  "B1182",
+  "B1183",
+  "B1184",
   "B1185",
   "B1187",
-  "B1195"
+  "B1192",
+  "B1195",
+  "B1196",
+  "B1200",
+  "B1208"
  ],
  "law_creating": [
   "B282",
@@ -492,7 +503,14 @@
   "B1125",
   "B1126",
   "B1127",
-  "B1132"
+  "B1132",
+  "B1182",
+  "B1183",
+  "B1184",
+  "B1185",
+  "B1192",
+  "B1196",
+  "B1200"
  ],
  "on_surface_only": [
   "B14",
@@ -885,10 +903,14 @@
   "B1162",
   "B1163",
   "B1164",
+  "B1169",
+  "B1171",
+  "B1174",
+  "B1175",
   "B1181",
-  "B1185",
   "B1187",
-  "B1195"
+  "B1195",
+  "B1208"
  ],
  "spec_cited": [
   "B727",
@@ -919,7 +941,8 @@
   "B1200",
   "B1203",
   "B1206",
-  "B1208"
+  "B1208",
+  "B1210"
  ],
  "spec_citations_at_risk": {
   "B862": [
@@ -979,11 +1002,35 @@
     ]
    ]
   ],
+  "B1080": [
+   [
+    "B1210",
+    [
+     "confirm"
+    ]
+   ]
+  ],
   "B1129": [
    [
     "B1131",
     [
      "confirm"
+    ]
+   ]
+  ],
+  "B1183": [
+   [
+    "B1196",
+    [
+     "confirm"
+    ]
+   ]
+  ],
+  "B1200": [
+   [
+    "B1201",
+    [
+     "withdraw"
     ]
    ]
   ]
@@ -1697,6 +1744,15 @@
     "has multiplicity 1 (B884's banked grading) and the 16's SU(5)-singlet has multiplicity 1 (B1017's retraced charges), both re-verified exactly -- so given the derived chain (B994),"
    ]
   ],
+  "B1080": [
+   [
+    "B1210",
+    [
+     "confirm"
+    ],
+    "two footings -- B862 is 'conditional on exactly what the cascade is conditional on' while B1080 (later, law-creating) confirms it INDEPENDENTLY AND EXTENDS it, Z/6 uniform over six"
+   ]
+  ],
   "B1082": [
    [
     "B1115",
@@ -1840,6 +1896,42 @@
      "confirm"
     ],
     "e one withheld continuous datum). The observer's continuous freedom is R+ alone; confirms B1164's '2 discrete + 1 continuous' at the continuous slot. C4 (the three (Z/2)^2 presenta"
+   ]
+  ],
+  "B1174": [
+   [
+    "B1201",
+    [
+     "withdraw"
+    ],
+    "ed the object cannot supply' is WITHDRAWN AS STATED and the hoped Z/2- or V4-contact with B1174/B1182 is KILLED. THE SHAPE-MATCH SURVIVES, RELOCATED (the arc's positive finding): a"
+   ]
+  ],
+  "B1182": [
+   [
+    "B1201",
+    [
+     "withdraw"
+    ],
+    "object cannot supply' is WITHDRAWN AS STATED and the hoped Z/2- or V4-contact with B1174/B1182 is KILLED. THE SHAPE-MATCH SURVIVES, RELOCATED (the arc's positive finding): a genui"
+   ]
+  ],
+  "B1183": [
+   [
+    "B1196",
+    [
+     "confirm"
+    ],
+    "s sit on the non-normalizable side of the sharp boundary, which is WHY they are anchors); B1183 confirmed as the exact regime-one instance; AND THE DEEPEST PAYOFF CONFIRMED BY FRES"
+   ]
+  ],
+  "B1200": [
+   [
+    "B1201",
+    [
+     "withdraw"
+    ],
+    "mplete except exactly one bit, and the bit is c' is NO LONGER CITED BUT VERIFIED HERE and B1200's grade on that item is upgraded; two convergences named: their 'refuted B9 norm law"
    ]
   ]
  }

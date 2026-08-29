@@ -1,7 +1,7 @@
 # P3 — CLAIM CANDIDATES, swept from the corpus (B1210)
 
 **Generated, not remembered.** The P3 spec was drafted from the thesis as held in mind and
-cited **1 of the corpus's 48 law-creating arcs**. This ledger is the mechanical
+cited **1 of the corpus's 55 law-creating arcs**. This ledger is the mechanical
 counterpart: every arc with `creates_law = true` and a PROVED/NEGATIVE verdict, grouped by the
 section it would serve. **The grouping is a first pass by keyword; the disposition is an
 editorial call and is not made here.** Regenerate with `verification/spine_sweep.py` +
@@ -14,7 +14,7 @@ Disposition column to be filled as the paper is written: **IN** (a claim P3 make
 
 | arc | verdict | disposition | claim |
 |---|---|---|---|
-| `B1080` | PROVED | | THE GLOBAL FORM (2 agents; the verifier CONFIRMS the headline robustly and CAUGHT one claim pre-bank; DEFLATION: B862 banked the Z/6 kernel first — this arc confirms independently and extends): Gamma … |
+| `B1080` | PROVED | | THE GLOBAL FORM (2 agents; the verifier CONFIRMS the headline robustly and CAUGHT one claim pre-bank; DEFLATION: B862 banked the Z/6 kernel first — this arc confirms independently and extends): Gamma … **⚠ later: B1210 (confirm)** |
 | `B1082` | PROVED | | THE ORDER COMPARISON (2 agents; the verifier FAILED the first typing on the missing model-disclosure and PASSED the computational spine — this bank carries the corrected grade): the chain's forcing DA… **⚠ later: B1115 (extend)** |
 | `B1096` | NEGATIVE | | DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel vanishes identically -- U(1)^3, U(1)-grav, [SU(3)]^… |
 | `B1098` | PROVED | | THE NON-ABELIAN HATCH OPENS AT ITS FIRST STRATUM (W1 of the closing campaign; the pre-registered positive branch): all TWENTY sl2 conjugacy classes of e6 enumerated constructively (saturation vs the C… |
@@ -60,6 +60,12 @@ Disposition column to be filled as the paper is written: **IN** (a claim P3 make
 | `B1122` | PROVED | | L179 THE LIFT-BIT METER (a thesis cell, clean NEGATIVE): does the t-meter mechanism (free-of-one = forced-of-pair, B1113) extend to the spin lift bit (B1112)? PAIR-INVISIBLE -- NO. The lift's entire c… |
 | `B1125` | PROVED | | V-2 COMPACT COLOR (value-campaign cell, answering C-AR1): does any sign-lift give COMPACT su(3) color? NO over the LINEAR torsor, and the negative names its own successor. Exhaustive over 48 verified … |
 | `B1127` | PROVED | | V-2' THE ANTILINEAR COMPLETION (value-campaign cell; the owner's 'another-level measurer' for compact color): does the object's antilinear structure supply compact su(3) color? MATH (verified, determi… |
+| `B1182` | PROVED | | C4' RESOLVED POSITIVE (the cell the three-seat convergence specified; run on the owner's back-to-the-math GO). THE THEOREM: the sqrt(-3)-internal pair -- the frame V4 = <c,r> (chirality x reversal, B1… **⚠ later: B1201 (withdraw)** |
+| `B1183` | PROVED | | THE ONE-CLASS THEOREM (cell 2 of the remaining-math queue; B1174's hatch 1; B1169's S1 last rung). THE THEOREM: the QP-4 no-self-closure obstruction (B760: no object-native operation canonically signs… **⚠ later: B1196 (confirm)** |
+| `B1184` | PROVED | | THE QUINE SYNTHESIS -- SELF-NAMING WITHOUT SELF-SIGNING (the S4 rung dispositioned; the observer layer's four-rung table closes). THE CORRECTION FIRST: the register carried 'QP-1 (the quine) open' -- … |
+| `B1192` | PROVED | | THE CLOSE-LOOP BATCH 4 -- THE RELATIONAL BIT EXISTS (the campaign's crown positive, lens-scoped): for the heterogeneous pair (A, M1) = (the object [[2,1],[1,1]], the sqrt3-side partner [[2,3],[1,2]] -… |
+| `B1196` | PROVED | | CLOSE-LOOP BATCH 5B (the final three of the eight; all survive their lenses): (1) D2 ADJUDICATED DIFFERENT, computed directly -- B891's three foreign-16 eigenspaces spread ~5:6:5 across ALL THREE trin… |
+| `B1200` | PROVED | | ONE POLYNOMIAL, THREE FACES -- the saddle, the founding obstruction, and the boundary structure are the SAME Phi3 = u^2+u+1, and the map between them is c. THE CROSS-SEAT EVENT: cloud independently re… **⚠ later: B1201 (withdraw)** |
 
 ## §2 the object — arithmetic and geometry
 
@@ -79,6 +85,7 @@ Disposition column to be filled as the paper is written: **IN** (a claim P3 make
 | `B1084` | PROVED | | The flat G2 orbifold (C^2 x R^3)/G-hat (/G-hat/ = 96) EXISTS and is fully stratified -- ONE E6 locus (stabilizer exactly 2T) + THREE A1 families (orbits 6/12/12, stabilizers exactly Z2) + three order-… |
 | `B1087` | PROVED | | THE CHARGE COMPLEMENTARITY (the pre-registered OBSTRUCTED-O3 branch, a theorem): both theta-odd dial slots complete to exact Jacobson-Morozov sl2-triples in e6 and the AW-U(1) charge spectrum on the 2… |
 | `B1113` | PROVED | | THE t-METER (JORDAN_MEMO §B harvest, two-bench + banking-seat re-run, 12/12 exact incl. four 20-25-digit integers, certificate-free verifier): on the twisted double with theta-odd dial t in {0,1,2,ome… |
+| `B1185` | PROVED | | L186 ANSWERED -- THE THREE-MECHANISMS THEOREM: the record's three named Yukawa-suppression mechanisms are GENUINELY THREE, none identifiable with another, by three exact pairwise invariants: INV-1 ARE… |
 
 ## UNASSIGNED — needs an editorial call
 
@@ -96,7 +103,10 @@ Disposition column to be filled as the paper is written: **IN** (a claim P3 make
 | `B892` | `B951` (correct), `B953` (withdraw), `B967` (correct), `B1080` (confirm) | read before quoting |
 | `B904` | `B1077` (confirm), `B1131` (confirm) | read before quoting |
 | `B928` | `B1020` (confirm) | read before quoting |
+| `B1080` | `B1210` (confirm) | read before quoting |
 | `B1129` | `B1131` (confirm) | read before quoting |
+| `B1183` | `B1196` (confirm) | read before quoting |
+| `B1200` | `B1201` (withdraw) | read before quoting |
 
 *(Clause-scoped matching: the verb must sit within 90 characters of the reference. An
 earlier claim-scoped pass flagged 15 of 24 citations and was mostly noise — arc claims are

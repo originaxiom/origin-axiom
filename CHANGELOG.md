@@ -1,5 +1,51 @@
 # Changelog
 
+## B1211 (2026-08-29): THE DECLARATION GAP — the programme's newest theorems were invisible, because the gate reads a field the seat fills in
+
+Continuing B1210 into the **541 substantive arcs its criterion did not reach**. The finding was not a
+missing claim candidate: the ranked sweep surfaced *the programme's own most recent theorems* as
+unswept, which is impossible if the criterion is sound. Checking directly — **seven of the eight most
+recent observer-layer results (B1182, B1183, B1184, B1192, B1196, B1200, B1203) sit on NO registered
+synthesis surface**, and `THEOREM_REGISTRY.md`'s last row was **B1145**. The densest theorem cluster
+the programme has produced was registered nowhere.
+
+**The mechanism is sharper than B1207's.** `gate_theorem_registry` enforces *"declared
+`creates_law = true` ⇒ has a registry row"* — which catches **over**-declaration and is structurally
+blind to **under**-declaration. And the seat that writes the claim also writes the flag. This seat
+declared `creates_law = false` on an arc **titled THE ONE-CLASS THEOREM**, so no row was ever
+required, nothing surfaced it, B1210's mechanical pool could not see it, and only the memory-written
+spec carried it. **A gate that reads a self-declared field is only as good as the declaration — it is
+the seat's own judgement wearing a gate's uniform.**
+
+**The repair**: seven arcs corrected to `creates_law = true`, each with a **dated
+`creates_law_corrected` note** (claim, verdict and evidence untouched), and **seven
+THEOREM_REGISTRY rows landed in the same commit**, written as claim rows so they double as P3's
+evidence rows — the one-class theorem, the quine split verdict, the relational bit's existence,
+selector-freedom + the three-regime dichotomy, the Φ₃ three-faces law, the C4′ torsor identification,
+and the three-mechanisms theorem. **Two controls**: B1203 stays `false` on its own words (*"an
+interpretation joining banked facts, not a theorem"*) and B1204 stays `false` because it reads the
+*shape* of this record's forcings — a taxonomy of the corpus's arguments, not a new theorem about the
+object. A review that flipped everything it looked at would be a sweep, not a judgement.
+
+**The counter-check is installed and fired on installation.** `declaration_check.py` flags arcs whose
+claim talks like a theorem while the flag says otherwise, locked **forward-only from B1180**; it
+accepts **either** a flip **or** a dated recorded decision — **what it forbids is silence**. It caught
+**B1185** (a theorem — flipped, seventh row) and **B1204** (not one — reviewed and kept) immediately,
+neither of which this seat had re-read.
+
+**And the instrument needed its own scope correction, the third of that species today.** Its first
+pass **lost B1183 and B1200** because its disown-list contained *"cited, not"* and *"harvest"* — words
+that appear in the **fences** of genuine theorems, where an arc limits a *borrowed* computation rather
+than its own result. After B844's greedy regex and B1210's claim-scope matcher, the pattern is
+nameable: **lexical instruments over this corpus need clause- or region-scope**, because an arc claim
+is one long sentence carrying fenced material about many things.
+
+**The reusable finding**: B1210 concluded *a spine assembled from memory reproduces the memory*. This
+supplies the other half — **a spine assembled from a criterion reproduces the criterion**. The
+memory-written spec caught the observer theorems the pool structurally could not see; the pool caught
+the older forced material memory had smoothed over. **The paper needs both passes, and now has both.**
+Locks test_b1211 (5).
+
 ## B1210 (2026-08-29): THE PAPER-SPINE SWEEP — the spec was written from memory, and the corpus says so
 
 The owner asked whether the P3 spec reflects the current state *to the last bit*. **Measured rather
