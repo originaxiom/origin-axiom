@@ -1,0 +1,99 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+C rebuilt in-run: dim 1, 45 triples (memo 47 reproduced)
+ROSTER (labels by measured Y): SM15 q[9, 11, 13, 23, 24, 26] uc[4, 6, 8] dc[3, 5, 7] l[0, 2] ec[15]
+   H(+1/2) [14, 22], H(-1/2) [16, 18], D [10, 12, 25], Dc [19, 20, 21], neutrals [1, 17]
+Y-conservation gate: every nonzero C triple sums to Y=0 on the roster: PASS
+
+L1 — memo 80's cubic and roster rebuilt in-run (its own asserts re-run above).
+
+L2 — THE LAMBDA MATRIX  M[i][j] = C(N, Hu_i, Hd_j)   (Hu [14, 22], Hd [16, 18]):
+    N1 (state 1):
+        Hu=14:    0     1
+        Hu=22:   -1     0
+        nonzero entries: 2     RANK over Q: 2
+    N2 (state 17):
+        Hu=14:    0     0
+        Hu=22:    0     0
+        nonzero entries: 0     RANK over Q: 0
+
+L3 — THE FULL FORM ON THE DOCKET  B0 = Hu u Hd = [14, 22, 16, 18] (dim 4):
+    N1: symmetric True, RANK over Q: 4
+         14:    0     0     0     1
+         22:    0     0    -1     0
+         16:    0    -1     0     0
+         18:    1     0     0     0
+    N2: symmetric True, RANK over Q: 0
+         14:    0     0     0     0
+         22:    0     0     0     0
+         16:    0     0     0     0
+         18:    0     0     0     0
+
+L4 — B1206's CANDIDATE (i), the exotic-mass row  D.Dc.N  (D [10, 12, 25], Dc [19, 20, 21]):
+    N1: 3 nonzero entries, RANK over Q: 3
+        D=10:    0     1     0
+        D=12:    1     0     0
+        D=25:    0     0     1
+    N2: 0 nonzero entries, RANK over Q: 0
+        D=10:    0     0     0
+        D=12:    0     0     0
+        D=25:    0     0     0
+
+L5 — THE CONSERVATION GATES (the reason rank is the wrong instrument):
+    t3-CONSERVATION GATE: all 45 nonzero C triples have t3 summing to 0: PASS
+    COLOUR-CONSERVATION GATE: every nonzero C triple has colour weight summing to 0: PASS
+    Hu components carry t3 = [-1, 1], Hd components t3 = [-1, 1] — ONE DOUBLET EACH.
+    => t3-conservation forces the Hu x Hd block ANTIDIAGONAL, so its
+       rank lies in {0, 2}: RANK 1 IS IMPOSSIBLE.  The observed block is
+       [[0,1],[-1,0]] — the SU(2) epsilon tensor, nondegenerate.
+    => colour-conservation likewise forces the D x Dc block to be a
+       permutation matrix: rank in {0, 3}, i.e. the SU(3) delta.
+
+L6 — THE VERDICT against B1206's cut ledger:
+    memo 80's banked row reproduced exactly: N1 -> 2 nonzero, N2 -> 0 nonzero.
+    THE RANK B1206 ASKS FOR: rank of C(N1, Hu_., Hd_.) = 2
+    But the preregistered fork that maps that rank to a count of
+    conditions is MIS-SPECIFIED: by L5 its R-1 branch is EMPTY, so the
+    fork's two branches are 'impossible' and 'always' and it decides
+    nothing.  Rank in COMPONENT space measures the gauge contraction
+    tensor, not the number of conditions.
+    THE CORRECT COUNT — gauge-invariant functionals supplied:
+       lambda-term  N1 . eps^{ab} Hu_a Hd_b          :  ONE
+       exotic mass  N1 . delta^i_j D_i Dc^j          :  ONE
+    ==> B1206's candidate (iii) — its own named CHEAPEST closer — is
+        CLOSED NEGATIVELY, and closed for a STRUCTURAL reason rather
+        than by a count coming out small.  Candidate (i), the
+        exotic-mass row, is closed negatively by the same argument in
+        the same cell.  B1206's ledger STANDS at dim 1: the P^3 is
+        still exactly one condition short.
+
+WHAT REMAINS OF B1206's THREE CANDIDATES (stated, not overreached):
+  (i)   exotic-mass row D.Dc.N  — CLOSED NEGATIVELY here: one invariant
+        functional, and its rank 3 is the colour delta.
+  (ii)  doublet-triplet splitting — the record types it EXTERNAL and
+        colour-choice-dependent (B298/B299, banked and re-read for this
+        cell), so by B1206's own statement it cannot supply an object-side
+        condition: a clean negative.
+  (iii) the lambda-term's rank — CLOSED NEGATIVELY here, structurally.
+ALL THREE NAMED CANDIDATES ARE NOW NEGATIVE.  That does NOT prove no
+condition can exist — it proves the record's named routes are exhausted,
+which is a materially different and much stronger statement than "not yet
+found".  The honest consequence is that B1196's CLOSED-PERMANENT verdict
+on the P^3 is HARDENED, not overturned, and any future closer must come
+from a source none of the three candidates names.
+
+SCOPE, STATED RATHER THAN GLOSSED.  This cell computes on MEMO 80's
+roster, which counts STATES: Hu 2, Hd 2, Higgs docket 4 = 2 doublets.
+B1206's ledger leans on B1161's sector table Q/dc/Hd/Hu = 3/3/4/1, which
+counts GENERATION MULTIPLICITIES.  Those are different spaces, and
+B1206's cited datum comes from the first while its ledger is built on the
+second.  Under the second reading Hu is pinned and the lambda-term is one
+functional by construction — the SAME answer this cell reaches on the
+first, which is why the verdict is robust across the mismatch.  The
+mismatch itself is filed as a cross-source finding for the primary record;
+it does not change the count either way.
+Gate 5 untouched: zero/nonzero patterns, ranks and counts only.

@@ -59,3 +59,58 @@
 C1 (the VI.3(a) Weyl-law coefficient, derived symbolically + validated on the
 108-zero census) and C2 (the Habiro/cyclotomic tower for 4₁, exact in ℤ[ζ]).
 Results land as memos 38/39 on this branch.
+
+---
+
+## RELAY, 2026-08-29 — three items for the primary seat (from memos 126/127/128)
+
+### 1. B1206's cut ledger: candidates (i) and (iii) are CLOSED NEGATIVELY (memo 128, GREEN)
+B1206 named the λ-term's rank the **cheapest** closer of the ℙ³ ledger —
+*"if the underlying map has rank 2 rather than 1 the ledger closes
+immediately."* **Computed on memo 80's own construction (the source of
+B1206's cited row, imported verbatim): the rank IS 2 — and it does not
+close the ledger.**
+
+- memo 80's Hu is two states with **t₃ = −1 and +1**: the two SU(2)
+  components of **one doublet** ("Higgs docket 4 = 2 doublets").
+- **t₃-conservation gate**, proved over all 45 nonzero C triples: the
+  Hu × Hd block is forced **antidiagonal**, so its rank lies in **{0, 2}**
+  and **rank 1 is impossible**. The block is **[[0,1],[−1,0]]** — the
+  **SU(2) ε tensor**.
+- So rank 2 measures **the nondegeneracy of ε**, i.e. the gauge group,
+  not a second condition. **Gauge-invariant functionals supplied: ONE.**
+- **Candidate (i) falls the same way:** the **colour-conservation gate**
+  forces the D × Dᶜ block to be a permutation matrix (rank ∈ {0,3} — the
+  SU(3) δ). One invariant functional.
+- With **(ii)** typed EXTERNAL by B298/B299, **all three named candidates
+  are negative.** The ledger **stands at dim 1**; B1196's
+  CLOSED-PERMANENT verdict is **hardened, not overturned**.
+
+**⚠ Cross-source item to reconcile before the ledger is quoted again:**
+memo 80's roster counts **STATES** (Hu 2, Hd 2, docket 4 = 2 doublets);
+B1206's ledger leans on **B1161's 3/3/4/1**, which counts **GENERATION
+MULTIPLICITIES**. B1206's cited datum comes from the first, its ledger is
+built on the second. The count is the same under both readings — so the
+verdict is robust — but the two spaces should not be quoted as one.
+
+### 2. B1197 / D2: the run's own table already kills the middle reading
+B1197 returned SPLIT and routed the scope question to the owner as
+*trajectory vs variable*. A read of its own witnesses narrows it without
+arbitrating: **every p ≥ 2 family carries a within-family violation**,
+each exhibited in the FINDINGS table. So **per-family (stratified)
+coherence is refuted by the run's own data** — the intermediate reading
+is not available, and the owner's choice is genuinely binary: the single
+(1,n) trajectory, or nothing. Worth stating explicitly before D2 is
+signed.
+
+### 3. A schema check on `kill_graph.json` (memo 126)
+**8 of the 23 distinct `faces_consulted` values are free-text prose** —
+whole sentences with bank citations pasted into a categorical field
+(e.g. *"B1134 (the relay naming the 64 as the value target); B1138 …"*).
+They break any grouping over that field. Suggested: constrain
+`faces_consulted` to the canonical face vocabulary and move the prose to
+a notes field. Separately, memo 126 computed the face × motif grid for
+the first time (13 × 19, 83.0% filled, **ORTHOGONAL AXES**): the two
+anatomies are two axes of one grid, and an arc's full address is
+**(face, motif)** — the CHANGELOG's zero-overlap finding is a *name*
+fact, not a defect.
