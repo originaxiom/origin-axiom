@@ -40,16 +40,25 @@ physical value.  Paying a leap asserts a PREMISE, not a theorem.
 """
 import os, re, subprocess, collections
 
-BENCH = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+# PINNED BENCH SWEEP (codex's "self-scan growing files" charge, applied to
+# this lane).  The original swept the WORKTREE mid-turn, so its output was
+# not a function of ANY committed state -- no commit reproduces it.  The
+# sweep is now pinned to the commit at which the payment was made.
+PINNED_BENCH_REF = "38b5f578"        # "D2 signed: LEAP-1 paid under Option A"
+BENCH_GLOBS = ("outside_bench/*.md", "outside_bench/memos/*.md")
+REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                    "..", ".."))
 
 def sweep(pattern):
-    r = subprocess.run(["grep", "-rn", "--include=*.md", pattern, BENCH],
+    r = subprocess.run(["git", "-C", REPO, "grep", "-n", pattern,
+                        PINNED_BENCH_REF, "--", *BENCH_GLOBS],
                        capture_output=True, text=True)
     return [l for l in r.stdout.splitlines() if l.strip()]
 
 hits = sweep("LEAP-1")
-files = collections.Counter(l.split(":", 1)[0].split("/")[-1] for l in hits)
-print("P1 — THE MECHANICAL SWEEP (grep over the bench corpus, not memory):")
+files = collections.Counter(l.split(":")[1].split("/")[-1] for l in hits)
+print("P1 — THE MECHANICAL SWEEP (over the bench corpus AT A PINNED COMMIT,")
+print(f"     {PINNED_BENCH_REF} — the payment commit; not the live worktree):")
 print(f"    LEAP-1 occurrences: {len(hits)} across {len(files)} documents")
 for f, n in sorted(files.items(), key=lambda x: (-x[1], x[0])):
     print(f"        {n:3d}  {f}")
@@ -78,7 +87,11 @@ CONDITIONALS = [
 ]
 print("\nP2 — THE ENTRIES THAT CHANGE STATE (each located, each stated):")
 for path, what, before, after in CONDITIONALS:
-    assert os.path.exists(os.path.join(BENCH, path)), path
+    # existence verified AT THE PINNED COMMIT, not in the live worktree
+    _r = subprocess.run(["git", "-C", REPO, "cat-file", "-e",
+                         f"{PINNED_BENCH_REF}:outside_bench/{path}"],
+                        capture_output=True)
+    assert _r.returncode == 0, path
     print(f"    {path}")
     print(f"        {what}")
     print(f"        WAS   : {before}")

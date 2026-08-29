@@ -1,13 +1,15 @@
-P1 — THE MECHANICAL SWEEP (grep over the bench corpus, not memory):
-    LEAP-1 occurrences: 53 across 12 documents
-         13  THE_WELD_BOOK.md
-          9  THE_D2_DECISION.md
-          7  THE_OWNER_REGISTER.md
+P1 — THE MECHANICAL SWEEP (over the bench corpus AT A PINNED COMMIT,
+     38b5f578 — the payment commit; not the live worktree):
+    LEAP-1 occurrences: 74 across 13 documents
+         20  THE_WELD_BOOK.md
+         11  THE_D2_DECISION.md
+          8  LEAP1_PROPAGATION.md
+          8  THE_OWNER_REGISTER.md
+          6  TWO_PULSES.md
           5  THE_CLOSURE_ROUTES.md
           5  THE_SECOND_HALF.md
-          4  TWO_PULSES.md
+          3  INDEX.md
           2  D2_SCOPE.md
-          2  INDEX.md
           2  THE_GRAND_COMPUTATION.md
           2  THE_TWO_CAMPAIGNS.md
           1  THE_FULL_ACCOUNTING.md

@@ -65,3 +65,22 @@ forces an imported external weight**.
 **A paid leap is a labeled premise, not a theorem.** Every consequence
 travels with its premise attached and dies with it if a refuter fires.
 Gate 5 untouched.
+
+### ⚠ ADDENDUM 1 (2026-08-29) — P1's FIGURES CORRECTED; the original sweep was reproducible from NO commit (memo 140)
+The lane self-audit found this cell to be the **only genuine drift** among
+112 pairs — and the defect is sharper than "the corpus grew". **The
+original swept the live worktree mid-turn**, so its output was **not a
+function of any committed state**: **no commit reproduces "31 occurrences
+across 12 documents"**, because that count existed only between writes
+inside a single turn. **A certificate whose output no commit can
+reproduce is not a certificate.**
+
+**Fixed:** the sweep is pinned to **`38b5f578`** — the commit at which the
+payment was made. **P1 now reads 74 occurrences across 13 documents**, and
+the output is byte-identical across runs.
+
+**This memo's substance is untouched.** The P1 count was decorative
+(supporting *"the sweep is mechanical, not memory"*); the load-bearing
+content — the WAS/NOW state table and the two overstatement corrections
+**T1** and **T2** — does not depend on it. This addendum is the only
+mutation.
