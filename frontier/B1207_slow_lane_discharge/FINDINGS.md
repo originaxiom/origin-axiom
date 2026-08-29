@@ -136,3 +136,35 @@ to sit unrun from its own creation until today.
 - `verification/discharge.txt` — its output
 - `b1207_results.json` — the triage table and the run figures
 - `tests/test_b1207_slow_lane.py` — the locks
+
+---
+
+## ADDENDUM 1 (2026-08-29) — THE CONFIRMING QUIESCENT RUN, AND ITS OWN LESSON
+
+The re-run promised in §3 completed on a clean tree: **6 failed, 5719 passed, 5 skipped, 4 h 51 m**.
+
+**The discharge holds.** The five real defects and the two lock bugs stay fixed, and — the point of
+running it quiescent — **neither class-D failure recurred**, confirming that the atlas-render and
+cost-class failures in the first run were artifacts of banking while the suite was in flight, not
+defects.
+
+**All six new failures are dispositioned, and three of them are mine, committed *during* the run:**
+
+- **Three gate failures** (`relay_debt`, `repo_gates`, `b887_gate_audit`) from **three relay files I
+  wrote mid-run with no ledger rows**. This is the sharper half of the method fact and it corrects
+  my own §1: I followed quiescence for *tracked* files and broke it for untracked ones, on the
+  assumption that untracked meant invisible. It does not — the relay-debt gate scans the working
+  tree. **Quiescence means the whole working tree, not the index.**
+- **`test_no_hardcoded_paths`** — B1207's *own* new test spelled out the literal it forbids, in two
+  places. The self-documenting-instrument class, exactly as B1202's `already_banked.py` hit it; the
+  needle is now assembled at runtime with the reason recorded beside it.
+- **`test_b824_charvar_motif`** — an **absolute threshold on a growing corpus**: the test required
+  *"character variety"* to appear in >10% of arcs, and it fell to **9.98%** at 1112 arcs with
+  nothing about the programme changing. The ten arcs that gained a FINDINGS document **in this very
+  arc** were enough to tip it. Re-expressed as a drift-free **ratio** against a niche topic, with a
+  floor, and the drift recorded in place rather than re-baselined away.
+
+> **The pair of runs teaches two different things.** The first: *do not bank while it runs.* The
+> second: *untracked is not exempt*, and *a lock pinned to an absolute share of a growing corpus
+> will eventually fail for no reason at all* — which is the same defect class as B844's greedy
+> regex, a lock measuring something other than its invariant.

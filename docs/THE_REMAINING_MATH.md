@@ -77,6 +77,20 @@ one eight-day-old code bug fixed (B1113's verifier could not run at all), two dr
 dismissed, and a fourth class found by watching the tree (B1137's grid appended and triple-counted;
 B1113's paths overwritten). The slow lane is now a **review-cadence quiescent run** (WORKING_RULES).
 
+**R52-2 HEAD DISCHARGED (B1208, 2026-08-29)**: seven cross-seat results verified from main's own
+data — cloud memos 123/127/128/129/130, cc3's B8154, codex R021 — with two derivations corrected,
+one generalized, one self-catch (B1206's candidate (iii) was an MB12 violation of ours), and one
+convergence neither seat had seen (cloud's irremovability proof and our B1203 are one κ-identity
+read in two directions). **The one open datum is relayed to codex**: the ℤ/12 character of `l` and
+`eᶜ`, whose branch (b) would flip the ℙ³ row PERMANENT → FORCED. codex R020 is received-not-verified
+(it touches banked B1140) and named as the next cell.
+
+**THE PAPER (P3) — SPEC LANDED (owner-approved 2026-08-29)**: `papers/P3_THE_PAPER/SPEC.md`. The
+standing rule is amended by the owner's approval: **P3 is drafted in parallel with the remaining
+computations**, not after them, because the thesis does not depend on what is still open — the one
+live row (the ℙ³) is held open in the draft. Sequencing against cc3: their four-paper series went
+submission-ready 2026-08-28; **theirs first, ours cites them**.
+
 ## The cadence (why this is not ad hoc)
 
 One cell per owner **GO** → banked arc (FINDINGS + verdict + reproduce + test lock) → ledgers ×3 +

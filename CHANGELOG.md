@@ -1,5 +1,79 @@
 # Changelog
 
+## B1208 (2026-08-29): THE CROSS-SEAT HARVEST — seven results verified, three of them changed
+
+Seven results arrived from three seats while this bench was on instrument work. All seven verified
+**from main's own data**, and the verification changed three.
+
+**cloud memo 128 (the λ-term's rank) — CONFIRMED, derivation CORRECTED.** B1206's own named
+*cheapest* closer of the ℙ³ cut ledger is closed negatively: rank 1 is impossible for a
+doublet–doublet–singlet coupling, so the fork's branches were *"impossible"* and *"always"*. But the
+memo derives that from **t₃-conservation** — and antidiagonal support still admits rank 1 (witness
+here: `[[0,−3],[0,0]]`). t₃ is the **Cartan** only; the exclusion needs **full SU(2) invariance**,
+proved here independently (the invariant space of 2⊗2 is one-dimensional, spanned by ε, with
+`det = c²`), with a control showing a non-doublet H_u *would* admit rank 1. **Their result is
+representation-theoretic, not a weight accident — stronger than stated.**
+
+**cloud memo 129 (the H_d menu) — ADOPTED, and their one open check POSED.** Exactly three couplings
+touch H_d and exactly one is canonical, so *"one condition short"* is **structural**. Their §6 — the
+check they cannot run — is taken as far as this bench can: the object's construction grades by a
+**ℤ/12 character**, a *Wilson-line-type* breaking, so SM components of one SU(5) multiplet need not
+share a character and **the SU(5) relation does not settle it**. Posed to codex as a **three-outcome
+preregistered fork**: (a) same characters → ledger stands; (b) different → an independent cubic →
+**the ledger closes and the ℙ³ flips PERMANENT → FORCED**; (c) no triple satisfies the selection
+rule → **the lepton Yukawa is absent**. All three are results.
+
+**cloud memo 130 (D2's scope) — CONFIRMED on main's own B1197 rows, and STRONGER.** S5b holds
+**156/156**: every same-volume pair carries exactly opposite CS, so signed CS was never a function
+of Vol — the variable reading was refuted by B1197's *own* positive control. S5's window reproduces
+exactly (28.0×) and this bench finds a **541×** witness they did not report. **D2's scope remains
+the owner's call**; their Option-A recommendation is presented as theirs, not adopted.
+
+**cloud memo 123 (the dark-matter stabilizer census) — CONFIRMED entry-for-entry**, rebuilt on
+main's own 27-weight generator and strengthened to quantify over *every* charged set of size ≤ 2:
+zero stabilizers, min |charged| = 11, max level set 16 of 27 where ≥ 25 is needed; MB12 control
+fires (486 on a planted rep). **The cosmology ledger's row 4 closes at character level.**
+
+**cc3 B8154 (the mirror is c) — VERIFIED 6/6 with their controls**, and typed as **convergence, not
+novelty** (main had B1174/B1183). What they add is a **second independent route to Φ₃ — from the
+holonomy** — and the prime-order closure of Paper IV's Escape (i).
+
+**cloud memo 127 (the mirror is irremovable) — CONFIRMED, and it is B1203's identity read
+backwards.** The whole internal group satisfies `κ ∘ g = κ` **identically**, while `κ(P₀) = 1+ω` and
+`κ(gal P₀) = 2−ω` differ — so no internal operation absorbs the mirror. **The convergence neither
+seat saw**: B1203 banked *the founding climb preserves κ identically* (hence one bit, not a tower);
+memo 127 uses the **same invariance** for irremovability. **One identity, two directions — the
+internal group cannot change κ and the mirror does, so the mirror is precisely the operation the
+object cannot perform on itself**, which is *why* the bit is exactly one and external.
+
+**codex R021 (the Gieseking Pin⁻ restriction) — CONFIRMED and GENERALIZED**: rank-1 `H¹(N;F₂)`
+forces `H¹ = ⟨w₁⟩`, and the orientation double cover kills `w₁` by construction — so the theorem
+holds for **any** nonorientable manifold with rank-1 F₂ cohomology, the Gieseking being one
+instance. Control: at rank ≥ 2 the hypothesis genuinely bites. **codex R020 — RECEIVED, NOT
+VERIFIED**: it touches a banked claim (B1140), so the house rule verifies first; named as the next
+cell, and nothing in B1140 is re-graded.
+
+**And one of ours**: **B1206's candidate (iii) was an MB12 violation** — a discriminator proposed
+without checking its discriminating value was reachable, when the rule that would have caught it is
+this seat's own. Cloud found it. Banked as a self-catch, not absorbed. **B1206's ledger stands at
+dim 1**, all three candidates negative and their space closed; **B1196's CLOSED-PERMANENT verdict on
+the ℙ³ is hardened twice** and remains overturnable by exactly one named datum. Nothing weakens V-3;
+no value is claimed. Locks test_b1208 (9).
+
+**Also in this bank**: B1207's **confirming quiescent run landed** — 6 failed / 5719 passed /
+4 h 51 m — and its own six are dispositioned. Neither class-D drift failure recurred, confirming
+they were artifacts of banking mid-run. Three of the six were **mine, committed during the run**:
+relay files written with no ledger rows, which corrects B1207's own rule — *untracked is not
+invisible to the gates; quiescence means the whole working tree, not the index.* One was B1207's own
+test spelling the literal it forbids (the self-documenting-instrument class again). One was
+`test_b824`'s **absolute threshold on a growing corpus** — *"character variety"* fell to 9.98% of
+arcs with nothing about the programme changing, tipped by the ten FINDINGS documents B1207 itself
+added; re-expressed as a drift-free ratio. **And `papers/P3_THE_PAPER/SPEC.md` lands** (owner-approved):
+the full specification of THE PAPER — thesis, section architecture, the non-claims box, the
+recognition table, the falsifier matrix, ready-vs-gated, and the currency hazard that
+`docs/THE_SM_VERDICT.md` must not be distilled directly (its §1 table still says "three
+generations, structurally" while its own addenda 220 lines below re-scope the count).
+
 ## B1207 (2026-08-29): THE SLOW LANE'S FIRST FULL RUN, TRIAGED AND DISCHARGED
 
 The fifty OA_SLOW-gated files enumerated and launched at B1177 finished their **first-ever complete

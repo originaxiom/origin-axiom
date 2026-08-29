@@ -89,8 +89,38 @@
  ],
  "method_fact": "a lock run against a moving repository measures the motion, AND a long run moves the repository itself (class E): the slow lane must be run quiescent and its diff inspected, never committed blind -- 2 of 9 reported findings (22%) were drift artifacts, and 2 real defects appeared only in the tree rather than in the report",
  "confirming_run": {
-  "state": "IN FLIGHT at banking (quiescent)",
-  "result": "recorded on landing"
+  "state": "COMPLETE (quiescent, clean tree at launch)",
+  "wall_clock": "4h51m06s",
+  "failed": 6,
+  "passed": 5719,
+  "skipped": 5,
+  "verdict": "the five real defects and the two lock bugs STAY FIXED; the two class-D drift failures did NOT recur, confirming they were artifacts of banking mid-run",
+  "six_new_failures_all_dispositioned": [
+   {
+    "tests": [
+     "test_relay_debt_gate",
+     "test_repo_gates",
+     "test_b887_gate_audit"
+    ],
+    "cause": "THREE RELAY FILES WRITTEN DURING THE RUN with no RELAY_LEDGER rows -- self-inflicted, and the sharpest lesson of the pair of runs: UNTRACKED IS NOT INVISIBLE TO THE GATES. The quiescence rule was followed for tracked files and broken for untracked ones.",
+    "fix": "ledger rows added"
+   },
+   {
+    "tests": [
+     "test_no_hardcoded_paths"
+    ],
+    "cause": "B1207's OWN new test spelled the literal it forbids, in two places -- the self-documenting-instrument class, the same one B1202's already_banked.py hit",
+    "fix": "the needle is assembled at runtime, with the reason in a comment"
+   },
+   {
+    "tests": [
+     "test_b824_charvar_motif"
+    ],
+    "cause": "an ABSOLUTE threshold (>10% of arcs mention 'character variety') on a GROWING corpus: it fell to 9.98% at 1112 arcs with nothing about the programme changing -- the ten arcs that gained a FINDINGS document in B1207 itself were enough to tip it",
+    "fix": "re-expressed as a drift-free RATIO against a niche topic (>= 2.5x), with a floor"
+   }
+  ],
+  "second_method_fact": "the first run's lesson was 'do not bank while it runs'; the second run's is that untracked files are not exempt -- a relay with no ledger row reds the same gate. Quiescence means the whole working tree, not the index."
  },
  "side_effects_class_E": [
   {

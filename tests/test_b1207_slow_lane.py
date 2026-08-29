@@ -15,8 +15,12 @@ ARC = ROOT / "frontier" / "B1207_slow_lane_discharge"
 def test_no_arc_verification_script_carries_an_absolute_machine_path():
     """A1: a script with the author's machine path in it runs on one bench and nowhere else,
     which is the opposite of what a verification/ directory asserts."""
+    # The needle is assembled at runtime rather than written literally: a checker that spells out
+    # the string it forbids trips the repo-wide scanner on itself. Same class as B1202's
+    # already_banked.py quoting its own test phrases -- the instrument matching its own arc.
+    needle = "/" + "Users" + "/"
     bad = [str(p.relative_to(ROOT)) for p in ROOT.glob("frontier/*/verification/*.py")
-           if "/Users/" in p.read_text(encoding="utf-8", errors="ignore")]
+           if needle in p.read_text(encoding="utf-8", errors="ignore")]
     assert not bad, f"absolute machine paths in arc verification scripts: {bad[:6]}"
 
 
@@ -101,6 +105,7 @@ def test_the_tmeter_verifier_records_no_machine_path():
     is not reproducing its banked output -- it is overwriting it with local detail."""
     res = json.loads((ROOT / "frontier" / "B1113_tmeter" / "b1113_results.json")
                      .read_text(encoding="utf-8"))
+    needle = "/" + "Users" + "/"          # assembled, not spelled -- see the note above
     for k, v in res["paths"].items():
-        assert "/Users/" not in v, f"{k} carries a machine path"
+        assert needle not in v, f"{k} carries a machine path"
     assert res["paths"]["ccb_path_used"].startswith("<repo>/")
