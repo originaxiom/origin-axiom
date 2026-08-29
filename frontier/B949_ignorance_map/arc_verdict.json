@@ -3,7 +3,24 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "THE IGNORANCE MAP (owner directive: read the atlas toolset and sweep for what we miss). The atlas exposes seven query functions over 865 mined frontier probes (banked 573 / dead 218 / open 55 / dormant 19), with its own honesty note endorsed here: the trace map's 361 appearances are a TOOL selection-effect, not unity, and only kappa (211x) is a forced first integral. THE OBJECTIVE IGNORANCE RANKING, computed in full for all ELEVEN obstacle types (the built-in gaps() prints only the worst six): source_free 0/1 (0.0%), bridge_construction 5/14 (35.7%, with EIGHT dead), measure 59.4%, gauge_dict 60.8%, numerology 63.6%, spacetime_3p1 66.7%, cancellation 67.6%, observable 68.0%, units_scale 69.8%, particle_dict 74.7%, selector 75.0%. **bridge_construction is the real frontier -- the most-attempted-least-resolved type, where this programme's attempts go to die, and the table says so quantitatively.** THE source_free FINDING, AND THE CORRECTION TO THIS SEAT'S OWN READING: source_free is the 'from nothing' obstacle (lexicon triggers literally 'from nothing', 'not-nothing', 'no rule') -- the Origin Axiom itself, the thing the repository is named after -- and it has ZERO banked of ONE probe, that probe (B58 stage1, dead) being on inspection a KEYWORD MATCH on a trace-algebra cotangent-spectrum arc rather than a genuine attack. This seat was on the way to reporting 'the programme never worked its own founding question'. THAT WOULD HAVE BEEN WRONG and the record says so plainly: docs/UNIQUENESS_THEOREM.md states in its own status block that it is NOT a derivation of the substrate from nothing and that THAT DIRECTION IS MAPPED DEAD. So source_free = 0/1 is NOT an oversight but a correctly-recorded DEAD DIRECTION, and listing it as a gap would double-count a closed door. THE ACTUAL IGNORANCE IS ONE STEP TO THE SIDE: the programme owns a CONDITIONAL uniqueness theorem -- the minimal record axioms force A = LR = [[2,1],[1,1]] and from A the entire proven core P1-P16 follows -- whose axioms are explicitly 'motivated but not laws of nature': A1 the state space is Z^2 (a PAIR: not one, not three), A2 invertible over Z, A3 det = +1, A4 primitive one-channel unit shears (giving exactly L and R), A5 torsion-free closure, A6 minimality, plus A7 the residual L-before-R choice, described in the source as 'the smallest piece of inserted structure in the whole construction'. **What we are ignorant of is not why something rather than nothing -- that is dead -- but WHY THESE AXIOMS.** A5 and A6 are noted as two independent routes to the same conclusion, so the system is over-determined there, narrowing the ignorance to the rest. A NEW CONNECTION, REGISTERED NOT CLAIMED (L131): A7 is stated to be not eliminable by any matrix-level axiom, but B945 -- computed yesterday for an unrelated purpose -- found Stab_V(RL) = the FULL Klein group, so sigma, THE R<->L SWAP, FIXES THE OBJECT (sigma(RL) = LR, a cyclic rotation of RL). If A7's choice is exactly that swap, the smallest inserted structure inserts nothing the object can see and the construction has one fewer free input than claimed for it. Held at registered, not claimed, for two reasons both of them the programme's own: B945's honest limit is that it computes at WORD level and not in Isom(m004) (a word-level stabilizer realizes bundle symmetries but the converse is not established), and A7 may do its work somewhere the word level cannot see, which is precisely the right-object-wrong-level trap this repo catalogues. The discriminating computation has NOT been run. MOTIF STRUCTURE: the built-in gaps() returns no avoiding motif pairs and that is CORRECT, not a bug -- computed independently, the strongest avoidance among the 17 motifs with >= 60 probes is dickson_tower x z3_generation at ratio 0.729 of expectation (17 actual vs 23.3 expected) with nothing below it, so the corpus is well-mixed and no two major themes are strangers. THE HONEST RANKING: (1) A1-A6 and A7, the axioms everything rests on, deepest and attackable because conditional-theorem shaped rather than open-question shaped; (2) bridge_construction, the objective frontier by the atlas's own count; (3) the un-derived residue {13*421493, 17*1129} (L130) plus 953's origin (B931) and 5's (B937) -- a family the programme can SORT by Frobenius class but cannot DERIVE; (4) the observer's mechanism, newly OPEN as of B942/B948; (5) source_free, a recorded dead end and not ignorance.",
- "depends_on": ["B945", "B942", "B948", "B946", "B931", "B937"],
- "supersedes": null, "superseded_by": null,
- "authored_by": "cc banking seat, from the owner's sweep directive (2026-08-08)"
+ "depends_on": [
+  "B945",
+  "B942",
+  "B948",
+  "B946",
+  "B931",
+  "B937"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, from the owner's sweep directive (2026-08-08)",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "AUDIT/CENSUS/LEDGER \u2014 it measures or records the corpus rather than proving a proposition about the object",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

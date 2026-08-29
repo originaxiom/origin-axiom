@@ -3,8 +3,23 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "V-L3 DELIVERED, TWO THEOREMS (banking-verified, both paths): (1) THE ONE-CLASS THEOREM EXTENDS TO THE VALUE LAYER -- the hierarchy element V (minimal cubic 953^4 x^3 - 2^8 3^9 13*421493 x^2 + 2^21 3^8 17*1129 x - 2^32 3^11, exact, irreducible, disc kernel {7,11}, [1,2] over K with exact root certificate matching the solo section-LXV cubic digit-for-digit) satisfies [alpha_V] = C = [alpha_mu] WITH NO UNIT TWIST (four exact symbolic cube certificates, exhaustive chi_3 witnesses at all 9 twists) -- one class C for ALL FOUR matter/value cubics, vacuum = C^{-1}, vacuum + V = split; (2) THE OBSERVER'S-PLACE THEOREM -- H-B917-SPLIT answered YES: V's denominator ideal is (the degree-one place over 953)^4 EXACTLY (v_deg1 = -4, v_deg2 = 0; integrality at all other primes by the e_i-denominator lemma) -- the hierarchy's pole lives entirely on the unique degree-one place, and the three value primes play three distinct roles: 953 the pole, 421493 the trace-zero, 1129 the e2-zero of the V-residues (both congruences exact). Structural asymmetry banked: structure primes enter as NUMERATOR content (13^6, 19^6), the value prime as DENOMINATOR content (953^4, on the observer's place). The dispatcher's brief carried a wrong triple -- caught by the agent and adjudicated by the exact product law e3 = 27*2304^4/953^4. The pipeline link v_g^2 = HIER-roots stays numeric-certified (7.3e-88) pending V-L2.",
- "depends_on": ["B902", "B910", "B914", "B916", "B917"],
+ "depends_on": [
+  "B902",
+  "B910",
+  "B914",
+  "B916",
+  "B917"
+ ],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "computation agent + cc banking verification (2026-08-05)"
+ "authored_by": "computation agent + cc banking verification (2026-08-05)",
+ "creates_law": true,
+ "creates_law_corrected": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "why": "re-audit of the field before the paper's disposition pass; this arc's claim was read IN FULL and states a new general proposition proved here, not a verification, harvest, census or sealed decision",
+  "registry_row": "T-ONE-CLASS-VALUE",
+  "lock": "tests/test_b918_v.py"
+ }
 }

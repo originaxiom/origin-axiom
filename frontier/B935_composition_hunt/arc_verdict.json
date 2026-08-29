@@ -3,7 +3,22 @@
  "verdict": "NEGATIVE",
  "instrument": false,
  "claim_one_line": "THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's first well-posed form, answered NO): the closed whitelist of four forced compositions (R-conjugation; the polar/singular decomposition; both orderings GhatR and RGhat; the v-weight conjugation) yields exactly FOUR invariant triples MOST OF WHICH ARE FORCED TO COINCIDE -- eig(R^T Ghat R) = eig(Ghat) (orthogonal similarity, 4.6e-151), eig(D_v-conj) = eig(Ghat) (diagonal similarity, 1.5e-151), eig(GhatR) = eig(RGhat) (the AB/BA theorem, 3.1e-151), and all four singular-value sets identical: NO COMPOSITION IS INDEPENDENT, the premise dies by similarity rather than numerics. THE STRUCTURAL REASON: the S-A overlap matrix is RANK 2 -- its singular cubic has an EXACT ZERO root (det X2 = 0 exactly, likewise the v-conjugate), so one register direction has NO overlap with the A family, the composed eigen-triples are not descending-positive (the cascade index is UNDEFINED for them), ZERO compositions land in the [1.2,1.6] band, and the object's register mixing geometry has only TWO nonzero directions -- it cannot produce a three-term mixing cascade by this route at all. Two amendments logged (positivity assumed AGAIN -- the abort was the finding; the 1e-80 belt bar exceeding the sqrt-of-small precision floor, recalibrated to the house 1e-40 with 3.9e-76 achieved).",
- "depends_on": ["B923", "B928", "B929", "B930"],
- "supersedes": null, "superseded_by": null,
- "authored_by": "computation agent + cc amendments/banking (2026-08-07)"
+ "depends_on": [
+  "B923",
+  "B928",
+  "B929",
+  "B930"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "computation agent + cc amendments/banking (2026-08-07)",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "CORRECTION \u2014 it withdraws or repairs an earlier claim",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

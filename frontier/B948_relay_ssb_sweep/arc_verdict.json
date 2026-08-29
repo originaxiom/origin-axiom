@@ -3,7 +3,23 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "THE RELAY + THE DEAD-CLAUSE SWEEP. The solo seat EXECUTED rather than noted the obligation B946 flagged: on reading B942 it WITHDREW its own section LXXXI-AC5/AC6 ('the observer is built as the beta=1 SSB', and the philosophy-room line 'the acting is the cooling through beta=1'), both being downstream of the clause L113 killed, and recorded that THE OBSERVER'S MECHANISM IS NOW OPEN, NOT SETTLED -- right object, wrong level. It accepted all three B946 adjudications in full, including the one against itself (a new gate does not fix a SKIPPING problem; the fix is a required prereg field, which now exists here as the seal-provenance gate), withdrew the seed-Gram asymmetry on its own reasoning, and accepted the END_TO_END decline ('name a sentence or nothing'). A seat withdrawing two of its own sections on reading another seat's kill is integrate-don't-merge working in the direction that matters. THE SWEEP: anything still asserting B942's three retracted items would be a live claim resting on a dead one -- the burial failure mode in reverse. Result: knowledge/, philosophy/, speculations/ and story/ are CLEAN, the clause never leaked into the rooms, which is the notable half since the programme's recurring failure is speculation outliving the mathematics that licensed it. LAW_MAP's B723 row was STALE -- its caveat cited only the cc3 audit and B849/B851, predating the kill -- and is now SUPERSEDED, stating that chirality-as-Galois-label is retracted, the sheet-choice-as-SSB reading with it, beta=1 cooling is not an account of chirality, the values/torsor clause is UNEARNED (L124), and the mechanism is OPEN. THE MIXED CASE, handled by distinction rather than deletion: the pathfinder handoff carries TWO beta=1 lines needing different treatment -- B736-P2's obstruction ('the beta=1 SSB IS the pole of zeta_K at beta=1, an infinite-tower object absent at every finite congruence level') STANDS, because it is a mathematical fact that B942 cell 3(a) independently RE-VERIFIED to 6e-11 against the class-number formula, and deleting it would discard a verified result because a neighbouring claim died; while the Candidate-Zero reading that routes chirality through that SSB is downstream of the dead clause. Resolved with a dated header note, keeping the handoff as written: RETRACT THE CLAIM, KEEP THE THEOREM. Recorded as a STATE CHANGE and not a new result: the programme knows less than it thought about the observer and now says so where a reader looks first. STILL OWED ON BOTH SIDES: the presence side (solo sections LXXXIII-LXXXVI + XCII), two-prime, unread by any other seat, NOT discharged by this arc.",
- "depends_on": ["B946", "B942", "B723", "B736", "B721"],
- "supersedes": null, "superseded_by": null,
- "authored_by": "cc banking seat, from the solo seat's relay (2026-08-08)"
+ "depends_on": [
+  "B946",
+  "B942",
+  "B723",
+  "B736",
+  "B721"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, from the solo seat's relay (2026-08-08)",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

@@ -1,5 +1,41 @@
 # Changelog
 
+## B1214 (2026-08-29): THE `creates_law` RE-AUDIT — thirteen real laws recovered, 104 absences turned into decisions
+
+Owner-directed and correctly sequenced: B1213 fixed the **base** so it no longer depends on the
+field, but the disposition column was about to be filled against a corpus whose law-metadata is 89%
+missing. **The rule, fixed before adjudicating**: LAW = a *new general proposition proved here*;
+NOT LAW = a verification, harvest, audit, census, sealed-cell decision, ledger-write or correction —
+**even with theorem vocabulary**, which most of them have. That second clause is what keeps the
+registry from the ~600-row flood its designers avoided.
+
+**13 of 116, each read in full before flipping.** The most consequential is **B727 — THE GENERICITY
+THEOREM**: *"E₆ across three faces"* is forced by **one ADE classification**, so the recurrence is
+**generic, not evidence**; the sister m003 shares ℚ(√−3) without being the knot; **only the
+arithmetic atom survives.** It was **invisible to the registry**, and **any claim of
+object-specificity must clear it first — including the paper's.** With it: **B996** (McKay access
+generic across the metallic family — the companion negative, computed over *grammars*, the right
+population) and **B997** (the golden is the **unique** metallic grammar whose own-conductor shadow is
+a McKay group, **proved over an infinite family** — the specificity that *survives* the genericity,
+stated positively). Plus **B991** (hypercharge normalisation not derivable **in principle** — a
+theorem about the equations, holding for any U(1) in any theory), **B952**, **B885**, **B886**,
+**B910**/**B918**, **B393**, **B557**, **B1070**, **B1073**.
+
+**The other 104: absence became a decision.** Each carries a dated `creates_law_reviewed` recording
+*why not*, classified by kind. The census moves **true 55 → 68, false 57 → 137, absent 919 (89%) →
+828 (80%)**. **The asymmetry is declared**: the thirteen that passed were read in full; the 104 that
+failed were classified from their claim headlines — sound for a negative call, poor for a positive,
+so it runs the safe way.
+
+**Second finding**: **five of the thirteen laws have no dedicated test lock** (B991/B996/B997 covered
+only incidentally; **B1070 and B1073 have none at all**). A law-creating arc without a lock is a
+reproducibility debt, and the registry's lock column now **says so** rather than sitting blank.
+
+**What this does not change**: the claim base still must not depend on the field. The 828 remaining
+absences were **deliberately not mass-set** — that would be the over-declaration flood in reverse —
+and **B1213's union criterion stands**. The field is now honest where examined and honestly blank
+where not. Locks test_b1214 (6).
+
 ## B1213 (2026-08-29): THE CLAIM BASE REBUILT — the field the paper's base read is empty on 89% of the corpus
 
 Harvests cloud's R52-6 cold pass (memo 133), **verified entry-for-entry here**. B1211 corrected arcs

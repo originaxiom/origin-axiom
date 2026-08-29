@@ -3,5 +3,13 @@
  "verdict": "PROVED",
  "claim_one_line": "THE FAMILY-DEFINITION CELL CLOSED (harvests cc3 B8152, verify-don't-trust, with a ONE-MEMBER CORRECTION): the two criteria are STRICTLY NESTED -- (A) all-regular-ideal, |A| = 77, inside (B) shape field in Q(sqrt-3) -- and Paper IV's own definition is (B), whose census count is |F| = 112, NOT the 111 cc3 reported: the corrective member is t06829 (7 tets, 2 cusps, volume exactly 3x m004, shape denominators up to 98 -- past a bound-64 test; every other member's are <= 49), found by this bench's INDEPENDENT full-census enumeration (snappy.OrientableCuspedCensus, 212,641 -- committed here with the member list, the dual-homed artifact B8152 lacked) and certified EXACTLY: its Q(sqrt-3) candidate shapes solve the full rectangular gluing-equation system SYMBOLICALLY (every row identically zero in field arithmetic; member controls certify, non-member control m006 correctly excluded). THE RECURSION OF THE LESSON: B8152's own headline -- a bounded test is a different claim than its criterion -- applies to its own count; 111 was criterion B at an implicit denominator bound, 112 is the count at bound 256 with the boundary member exactly certified; scope stated (census members, den bound 256, observed max 98, NOT all hyperbolic 3-manifolds). CONSEQUENCES, all verified in the committed run: amphichirality strengthens a THIRD time (14/14 -> 83/83 -> 111/111 -> 112/112, every member mirror-isometry-checked); the QUINE survives the full family (zero collisions -- the 1-cusped carriers o9_41001/o9_41009 sit at 4x volume, t06829 at 3x is 2-cusped); the six 2sqrt3i carriers match cc3 exactly (cusp-shape separator stays dead; H_1=Z stays dead on o10_150700); THE ONE-WAY FAMILY TEST fires a third time (enlargement destroyed the count claim, reinforced every family-level one); B1180's >=83 floor superseded by the definitional close. FENCE NARRATED: this bench's first verifier had a double-cast precision bug (wrongly rejected o9_41001) -- caught by chasing the disagreement before trusting the tool. Gate 5 clean.",
  "instrument": false,
- "creates_law": false
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "FALSE",
+  "decision": "false",
+  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

@@ -42,7 +42,7 @@
   ]
  },
  "leg_2_cloud_d2": {
-  "payment_status": "PROVISIONAL (downgraded from PAID)",
+  "payment_status": "CONFIRMED (PROVISIONAL lifted by the owner, 2026-08-29)",
   "authority_question": "OPEN -- the owner's 'go' may have been a general continue; cloud accepted this seat's flag and will not treat it as a signature until the owner confirms",
   "to_confirm": "the owner says so; the addenda stand",
   "to_reverse": "one edit -- LEAP-1 returns to HELD, SCOPE-1a/1b struck, the closure-routes row reverts; nothing else depends on it (every consequence was written premise-conditional)",
@@ -70,7 +70,14 @@
     "ratio": "541.5x",
     "replaces": "28x"
    }
+  },
+  "owner_confirmation": {
+   "date": "2026-08-29",
+   "words": "lift D2's PROVISIONAL on main",
+   "asked_as": "an explicit binary put to the owner (confirm / reverse / stop asking) rather than inferred from a continue-token -- the failure mode this whole thread existed to fix",
+   "effect": "LEAP-1 stands PAID under Option A, with SCOPE-1a and SCOPE-1b priced separately and the preregistered-gate override recorded in the open. The scope premises are NOT thereby proved: SCOPE-1b (the (1,n) ladder IS the realized history) remains NOT ESTABLISHED and carries its own refuter.",
+   "scope": "this lifts the flag ON MAIN. The owner is handling the cloud seat's own record directly."
   }
  },
- "owed_to_the_owner": "one binary decision: confirm the D2 signature, or reverse it"
+ "owed_to_the_owner": "DISCHARGED 2026-08-29 -- the owner confirmed; nothing further is owed"
 }

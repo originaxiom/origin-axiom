@@ -3,7 +3,28 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "THE DYNAMICS & CHIRALITY SWEEP (owner directive: 'we might have all of it, maybe in the other faces, child or combinations'): NEITHER IS MISSING. Verdict-level census: chirality 102 arcs (70 PROVED / 32 NEGATIVE), dynamics 29 arcs (20 PROVED / 7 NEGATIVE / 2 OPEN). DYNAMICS IS A NAMED DYNAMICAL SYSTEM SEVERAL TIMES OVER: a transcendental positive-entropy Painleve-VI solution outside the algebraic Lisovyy-Tykhyy list (B317), a verified monodromy-preserving Schlesinger flow (B169), the EXACT law Delta = -(ln lambda_m/pi)^2 relating c=1 conformal dimension to squared topological entropy (B196), a golden-Anosov destination with Lyapunov 4 log phi (B416), a zero-entropy Sturmian symbolic face (B417), a closed-form dynamical zeta (B423), two distinct torsions golden(-5) vs Eisenstein(-3) (B425), and its own symmetric-to-broken flow via Dehn filling (B338) -- with the one biting negative that the object's clock is tracial II_1 with TRIVIAL modular flow (B721): it has dynamics, not intrinsic time. CHIRALITY HAS BEEN CONSTRUCTED, not merely sought: the theta-odd-twisted mirror-double has E6 reps with Zariski closure full E6(C) so its 27 is COMPLEX (B582), the switch is binary and identified (nonzero theta-odd => chiral, theta-even => vector-like, B576), a closing supplies it (all 31 sampled Dehn fillings chiralize, B432; minimal input slope +-5 => disc -283, B434), the chirality field is Q(sqrt-7) reached by BREAKING amphichirality (B316), a chirality-REGISTERING measurement is defined (B871), and the cascade TERMINATES at the SM because the SM is the terminal registerable algebra (B863). THE 32 WALLS ALL SAY ONE THING and it is not 'no chirality here' but 'chirality is NOT SELF-SUPPLIED' (B713/B760/B252/B849). THE RATIO-SHAPED LAWS THE DIRECTIVE ASKS FOR ALREADY EXIST AND HAD NEVER BEEN COLLECTED: B303 the CP SIGN is literally the sign of Chern-Simons (CS=0 <=> amphichiral) and B340 the CP PHASE arg kappa is extremal at pi/6 at the amphichiral cusp and decreases as 3.8*CS^2, SECOND ORDER IN CHIRALITY -- a dimensionless phase controlled by a dimensionless invariant, no value inserted. THE UNBANKED CONNECTION: B717's capstone lists TIME and CHIRALITY as separate closings from separate arcs, but B716's own probe 1 says the Anosov suspension has NO ARROW because of AMPHICHIRAL time-reversal -- the same amphichirality that blocks handedness. One unbroken involution appearing as two 'gaps' on two faces; a grep confirms this identification appears NOWHERE in frontier/, LAW_MAP or knowledge/. THE SCOPING COMPUTATION REFUSES TO LET IT BE ASSERTED: on phi = RL = [[2,1],[1,1]] the mirror (JphiJ = LR) is NOT equal to the inverse, and counting integer conjugators by determinant gives time-reversal {+1: 6, -1: 8} and mirror {+1: 8, -1: 6} -- BOTH involutions are realized by conjugators of BOTH determinants, so the matrix/GL(2,Z) level CANNOT separate them by orientation, which is exactly the discriminator the question turns on. The question must be posed at the MAPPING-CLASS/3-manifold level (the GHH anti-palindromic criterion, B134/B136/B613), where fiber- and base-orientation reversal are genuinely distinct Z/2's whose product is total orientation reversal. Registered as L126, not claimed -- the repo's own necessary-not-sufficient trap (abelianization is not a proxy; theta is trivial on the character variety) avoided rather than walked into. THE CHILDREN ARE A CLOSED DOOR, already banked negative twice: B443 (no emergence bar cleared, every floor numerator-forced or shared with 5_2) and B718 (arithmetically generic beyond H1=Z/p, no ADE skeleton), with B437 RETRACTED (the 'golden return' withdrawn as inheritance); the child's only role is to BE the closing (slope +-5), not to source structure. Also registered: L127 the entropy pair (Anosov 4 log phi vs Sturmian 0 -- same object, opposite ends; is there a ratio law in B196's shape?) and L128 the CP ratio chain re-posed BRANCH-SYMMETRICALLY under the B941 refinement before any comparison. MAP + one scoping negative. Gate 5 untouched.",
- "depends_on": ["B717", "B716", "B713", "B582", "B576", "B340", "B303", "B196", "B443", "B718"],
- "supersedes": null, "superseded_by": null,
- "authored_by": "cc banking seat, from the owner's sweep directive (2026-08-07)"
+ "depends_on": [
+  "B717",
+  "B716",
+  "B713",
+  "B582",
+  "B576",
+  "B340",
+  "B303",
+  "B196",
+  "B443",
+  "B718"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat, from the owner's sweep directive (2026-08-07)",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

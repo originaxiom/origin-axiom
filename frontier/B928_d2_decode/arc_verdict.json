@@ -3,7 +3,23 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "THE D2 DECODE (the Twist Crossing stage 1, sealed 5a7aa973 pushed ab34c5b7 before compute): OUTCOME FORCED VERBATIM -- THE HIERARCHY'S CARRIER IS CHARACTERIZED BY A BANKED EQUATION WITH NO RESIDUAL FREEDOM: D2 = +-rho_27(sigma_{chi-}), the second wall conjugation's sign character on the 27; equivalently H+D2 = H(phi*) with phi* = tau o phi+ o phi- (an involution, an automorphism on all 78^2 pairs, NOT C-compatible -- exactly explaining B916's no-pattern fact), THE UNIQUE census member carrying it; the three diagonals close the KLEIN GROUP {I, D2, D, D2 D} = the wall pair's 2-torsion in rho_27; the character form is the affine-shifted -(-1)^<a*,w> with a* = s(chi-) -- the unique hit among 128, the naive-character miss explained by the affine polarity; 11 = 8+3 REFUTED exactly (numerology). Q2 DERIVED from the characterization: both d-ratio minpolys coefficient-for-coefficient, the norm law with its minus sign FROM the affine polarity, HIER's four coefficients; the honest residue: why 953 itself stops at the atom-line coordinates. Q3 THE SHAPE SHEET, NONEMPTY, BLIND, EXACT: m_S and m_A in K with forced equalities (m_A+ = m_A-; (g,+) = (g,-) omega-free), THE NEW COLORED CUBE LAW N(det G^{-1}G') = -(953/2304)^3 exactly, the sum rule Tr(m_S) + Tr(t_oct) = 11 exact, numeric belt 2.1e-57. The FORCED prior WON (seven sealed: four overrules, three wins). STAGE 2 NOW AWAITS THE OWNER'S WORD AND NOTHING ELSE.",
- "depends_on": ["B900", "B907", "B912", "B916", "B923"],
- "supersedes": null, "superseded_by": null,
- "authored_by": "computation agent + cc banking rerun (2026-08-06)"
+ "depends_on": [
+  "B900",
+  "B907",
+  "B912",
+  "B916",
+  "B923"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "computation agent + cc banking rerun (2026-08-06)",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "AUDIT/CENSUS/LEDGER \u2014 it measures or records the corpus rather than proving a proposition about the object",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

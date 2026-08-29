@@ -3,8 +3,25 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "R1, THE SEALED NORM CELL DECIDES -- OUTCOME B, AND THE OBSTRUCTION IS EXACTLY THE COLORED SECTOR (prereg 93d420ea committed 878137e2 before compute; seal verified): the antilinear intertwiner J EXISTS and is unique up to one real scale -- H+- are integer +-1 signed-permutation symmetric matrices solved EXACTLY over Q with equivariance verified on all 78 generators for both wall conjugations -- and the canonical Hermitian form H on the 27 (normalized +1 on the first canonical vacuum line) has SIGNATURE (15,12), exactly the su(6)+su(2) K-type dimension split of e6(2) (fenced observation). THE VERDICT: all nine colorless 1-dim atoms are POSITIVE-DEFINITE with computed scales (1, 19.142..., 1.680...; pairs 53.079x2, 0.786x2, 3.089x2), ALL SIX colored 3-dim atoms are INDEFINITE with signature (1,2,0) each -- the colorless world is Euclidean, the colored world is Lorentzian, one cone per colored atom; none degenerate (margin 0.489 vs residuals < 1e-40). The sigma+- cross-check agrees on the whole readout with the PROVEN inner-twist relation H- = H+ D (D a charge-commuting diagonal involution) -- the seal's literal gate ruled satisfied in its invariant reading (logged ruling). THE DISCLOSED PRIOR LOST (fourth in a row). Per the seal: R2/R3 require a different construction -- the register's dated amendment executed at banking.",
- "depends_on": ["B883", "B889", "B893", "B898", "B901", "B906", "B907"],
+ "depends_on": [
+  "B883",
+  "B889",
+  "B893",
+  "B898",
+  "B901",
+  "B906",
+  "B907"
+ ],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "computation agent + cc banking verification (2026-08-05)"
+ "authored_by": "computation agent + cc banking verification (2026-08-05)",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 919 of 1031 settled arcs — 89%** —
+the field is **absent on 827 of 1031 settled arcs — 80%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (55) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 467 arcs.**
-The vocabulary criterion adds **39 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (68) ∪ on-a-synthesis-surface ∪ law-vocabulary (104) = 467 arcs.**
+The vocabulary criterion adds **37 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.47** on the corpus's own law vocabulary against
-**1.08** for the rest — **2.29×**. The criterion
+**2.78** on the corpus's own law vocabulary against
+**1.04** for the rest — **2.67×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -21,6 +21,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
+| `B952` | PROVED | L | | THE GUT REQUIREMENTS LEDGER + THE RANK OBSTRUCTION (theorem-grade). The second missing inventory is written: docs/GUT_REQUIREMENTS_LEDGER.md states the eleven rows any gr… |
+| `B991` | PROVED | L | | X11 CLOSED -- THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN PRINCIPLE, and that is a THEOREM ABOUT THE EQUATIONS rather than a limitation of the object. P0 quantifier… |
 | `B1080` | PROVED | L | | THE GLOBAL FORM (2 agents; the verifier CONFIRMS the headline robustly and CAUGHT one claim pre-bank; DEFLATION: B862 banked the Z/6 kernel first — this arc confirms inde… |
 | `B1082` | PROVED | L | | THE ORDER COMPARISON (2 agents; the verifier FAILED the first typing on the missing model-disclosure and PASSED the computational spine — this bank carries the corrected … |
 | `B1096` | NEGATIVE | L | | DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel vanishes identically … |
@@ -47,7 +49,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B925` | NEGATIVE | S | | THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object… |
 | `B950` | PROVED | S | | THE SM SPECIFICATION LEDGER (owner directive: we do not yet fully understand the SM as today's science understands it, in order to know what our side should provide). PRI… |
 | `B951` | PROVED | S | | L132 SCOUTED BEFORE COMPUTING (the seal-provenance gate's design-time prior-art grep, run at literature scale). VERDICT: the cell as posed would have produced a VACUOUS c… |
-| `B952` | PROVED | S | | THE GUT REQUIREMENTS LEDGER + THE RANK OBSTRUCTION (theorem-grade). The second missing inventory is written: docs/GUT_REQUIREMENTS_LEDGER.md states the eleven rows any gr… |
 | `B953` | PROVED | S | | E6 vs E4, AND THE TWO SEEDS (owner directive). 'E4' is real: in the E_n series (del Pezzo / M-theory convention) E5 = D5 = SO(10) rank 5 and E4 = A4 = SU(5) rank 4 -- EXA… |
 | `B954` | PROVED | S | | DO WE NEED BOTH BRANCHES TO UNIFY? YES, NECESSARILY -- and the question dissolves a misconception in B953's own framing. B953 described theta-even and theta-odd as 'two s… |
 | `B955` | PROVED | S | | L133 SCOUTED BEFORE COMPUTING (control PASSED: Hosotani 1983, CHSW 1985, Witten 1985, Slansky 1981 retrieved before any null). (1) MY OWN CANDIDATE IS REFUTED, AND THE RI… |
@@ -56,7 +57,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B970` | PROVED | S | | L134 WORKER CELL (banked in B978): the twelve exotic states per generation (27 = 16+10+1) given their quantum numbers under the cascade's Levi, plus the cascade's resolvi… |
 | `B976` | PROVED | S | | THE CASCADE RECOVERY -- eleven banked arcs the synthesis layer had forgotten. Prompted by the OWNER, who reported that work around B862 felt like the SM was almost clarif… |
 | `B978` | PROVED | S | | PHASE A BANKED -- four leads closed, one new mechanism, and the same failure a third time. DISPOSITIONS: L134 CLOSED, not an independent gap, since <S> != 0 IS E6 -> SO(1… |
-| `B991` | PROVED | S | | X11 CLOSED -- THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN PRINCIPLE, and that is a THEOREM ABOUT THE EQUATIONS rather than a limitation of the object. P0 quantifier… |
 | `B992` | PROVED | S | | X12 SETTLED AFFIRMATIVELY. Computed here: z_e6(su(3)+su(2)) INTERSECT Cartan is EXACTLY 3-DIMENSIONAL, and it is the Levi's centre u(1)^3 (the Levi contains the Cartan, s… |
 | `B993` | PROVED | S | | THE CORNERSTONE VERIFIED ON THIS BENCH: THE OBJECT-SPECIFIC ATOM IS GENERIC AT ROUGHLY 1 IN 3. cc3-s cornerstone synthesis returns NOT YET -- and not for want of theorems… |
 | `B994` | PROVED | S | | THE RULE-VARIATION TEST, NEVER ASKED BEFORE (B869 varied the STARTING GROUP, not the rule), RUN HERE -- AND THE ENDPOINT IS RULE-INDEPENDENT WHILE THE PATH IS NOT. Regist… |
@@ -76,7 +76,11 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
 | `B756` | NEGATIVE | L | | The general '5-inert and fibered implies golden' reading dies on five exact counterexamples; the Euler-product door closes, replaced by an exact iff-law.… |
+| `B885` | PROVED | L | | The inter-breaking dictionary on the 27 -- the same 27 graded by all three measurement frames, all pairwise tables computed obliquely. TWO STRUCTURAL LAWS, uniform across… |
+| `B918` | PROVED | L | | V-L3 DELIVERED, TWO THEOREMS (banking-verified, both paths): (1) THE ONE-CLASS THEOREM EXTENDS TO THE VALUE LAYER -- the hierarchy element V (minimal cubic 953^4 x^3 - 2^… |
+| `B997` | PROVED | L | | THE GOLDEN IS THE UNIQUE METALLIC GRAMMAR WHOSE OWN-CONDUCTOR SHADOW IS A McKAY GROUP -- proved, over an infinite family, at Tier 1, at the E8 end. P0: computes over the … |
 | `B1012` | PROVED | L | | TWO BRANCH RESULTS VERIFIED EXACTLY (integrate-don't-merge, cc3 branch at 59d9f26f, 66 commits past B921's harvest head), AND THE HARVEST REGISTERED SO NOTHING GOES SILEN… |
+| `B1073` | PROVED | L | | THE COMPOSITION GATE (the web seat's theorem 2026-08-15, bench-closed 2026-08-19 to a two-line law; convergent-independent with Track A, the web seat's timestamp prior on… |
 | `B1076` | NEGATIVE | L | | THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X ide… |
 | `B1088` | PROVED | L | | THE PARAMETER-FREE ACTION CARD (L174 C1): the object's 3d gravitational action is S = -Vol sigma on its own exact Lambda = -1 Einstein solution -- the k-coupling is DELET… |
 | `B1094` | PROVED | L | | THE RANK WALL GOES TWO-ROUTE (L167): B955's structural proof (H1 = Z cyclic => abelian holonomy centralizer contains a maximal torus) and B1079's exhaustive census (15,62… |
@@ -131,7 +135,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B874` | PROVED | S | | The measurement ladder, exact over Q on the banked B854 build: (1) the coordinate census of ALL 15 subtori of the 2T-torus C is a TWO-VALUE CLIFF -- Cent = 30 for the thr… |
 | `B883` | PROVED | S | | THE 27 REPRESENTATION built on the B854 Chevalley frame via the e7 3-grading -- the queue's top instrument gap closed with every sign inherited, none hand-fixed: e7 built… |
 | `B884` | PROVED | S | | The invariant cubic on the 27 and the SM-graded Yukawa-support table -- the B883 instrument's first product. THE CUBIC, EXACT: the unique e6-invariant in Sym^3(27) solved… |
-| `B885` | PROVED | S | | The inter-breaking dictionary on the 27 -- the same 27 graded by all three measurement frames, all pairwise tables computed obliquely. TWO STRUCTURAL LAWS, uniform across… |
 | `B893` | PROVED | S | | W7 OPENED + THE SIGNATURE OF C (M7) + THE WALL AT ALL ROOTS (M3): (1) the Chevalley involution of this build is omega(e_a)=e_{-a} with lattice character d==1 (global -1 i… |
 | `B898` | PROVED | S | | N3, THE EXACT SIGNATURE CENSUS (charpoly over Q + factorization + Sturm, no floats): ad(x8) and ad(x16) have IDENTICAL exact signatures {0^30, 48 real, 0 imaginary, 0 com… |
 | `B901` | PROVED | S | | N5, THE C-STABILIZER: (1) the continuous normalizer is trivial -- n(C) = z(C) = 12 (the floor), exact over Q: no element of e6 normalizes the measurement torus without ce… |
@@ -139,7 +142,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B907` | PROVED | S | | THE SEALED CELL DECIDES -- OUTCOME A: THE WALL IS REAL IN e6(2), AND ONLY THERE (the joint J1 with the solo seat's XLIX-L leg; prereg cd7aae3b committed f0450d71 BEFORE c… |
 | `B915` | NEGATIVE | S | | THE CROSSING (R4, owner-authorized, prereg 7a423aed committed 4c4531a6 BEFORE data contact): with the single input alpha_em(M_Z) and the object's banked gauge boundary (E… |
 | `B917` | PROVED | S | | THE VALUE ARC (handoff 7) VERIFIED at the firm layer: their suite reproduces end-to-end on this bench (the tau-intertwiner exact-tier PASS; the six-fold democracy at 45 d… |
-| `B918` | PROVED | S | | V-L3 DELIVERED, TWO THEOREMS (banking-verified, both paths): (1) THE ONE-CLASS THEOREM EXTENDS TO THE VALUE LAYER -- the hierarchy element V (minimal cubic 953^4 x^3 - 2^… |
 | `B923` | PROVED | S | | V-L2 CLOSED AT THE EXACT TIER + THE HIERARCHY-CARRIER DISCOVERY (banking-verified rerun 17 s, 65/65): (1) the six colored 3-dim atoms built EXACTLY over Mbar (h_col = the… |
 | `B924` | NEGATIVE | S | | R-INV CLOSED -- RIGIDITY COLLAPSE, ZERO NEW VALUES (banking-verified rerun; 108 exact table rows, all gates): the stage field Q(zeta_15) has EXACTLY three involutions (t … |
 | `B926` | PROVED | S | | THE CROSSING STUDY, LANE A (repo synthesis; the owner's understand-before-computing directive): the complete anatomy of the crossing problem from the banked record -- TWE… |
@@ -156,7 +158,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B981` | PROVED | S | | THE OBJECT IS NOT HYPERBOLIC-ONLY, and the sign-mismatch no-go built on that reading is WITHDRAWN. Prompted by the owner ('are you sure sure sure? did you verify the obje… |
 | `B985` | PROVED | S | | CC3-S RELATIONAL BATCH VERIFIED AND INTEGRATED (integrate-don-t-merge; nothing merged, load-bearing numbers re-derived on this bench first). CC3-S ONE FINDING, a MEASUREM… |
 | `B995` | NEGATIVE | S | | THE SEPARATING-AND-RARE CENSUS: SEALED OUTCOME A, AND THE INSTRUMENT VOIDED BY ITS OWN CONTROL. Prereg a356e987 sealed AND PUSHED before compute with the declared prior O… |
-| `B997` | PROVED | S | | THE GOLDEN IS THE UNIQUE METALLIC GRAMMAR WHOSE OWN-CONDUCTOR SHADOW IS A McKAY GROUP -- proved, over an infinite family, at Tier 1, at the E8 end. P0: computes over the … |
 | `B998` | PROVED | S | | THE AXIOM CHAIN-S LOCKS DO NOT LOCK IT: A CITED TEST THAT DOES NOT EXIST, AND THREE CLAIMS UNLOCKED. From cc3-s genesis-stratum audit of B1-B100, VERIFIED MECHANICALLY HE… |
 | `B1002` | PROVED | S | | B997-S OWED CHECK DISCHARGED: THE CONDUCTOR IDENTIFICATION IS RIGHT, AND CONDUCTOR NAMES TWO THINGS. B997 proved the golden is the UNIQUE metallic grammar whose own-condu… |
 | `B1003` | PROVED | S | | THE AXIOM PRICES ARE PAID: FIVE ROBUST, TWO FRAGILE -- AND B998 IS CORRECTED. B998 found THEOREM_LEDGER citing test_b749_genesis_forks.py as the lock for C1-C4 while that… |
@@ -171,7 +172,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1066` | NEGATIVE | S | | NEGATIVE — both inventory-forced relations decisively excluded by the CURRENT global fit (NuFIT 6.1, Nov 2025 data, both orderings, delta profiled over the full circle): … |
 | `B1068` | PROVED | S | | THE DESCENT INVENTORY (the field-masterplan W2, loop-until-dry, two adversarial lenses per verdict, 12 disputes bench-adjudicated, zero reversals): 31 canonical structure… |
 | `B1069` | PROVED | S | | THE HEARING BIOGRAPHY: Q(sqrt5) built exhaustively as a number field on new ground (the field-masterplan W3 cell, 9 agents 0 errors, exact throughout, two adversarial len… |
-| `B1073` | PROVED | S | | THE COMPOSITION GATE (the web seat's theorem 2026-08-15, bench-closed 2026-08-19 to a two-line law; convergent-independent with Track A, the web seat's timestamp prior on… |
 | `B1075` | NEGATIVE | S | | THE MODULI CROSSING (the fourth sealed crossing; sealed 64414dbf pre-execution, owner-worded; the kind-correct coupling-to-moduli pairing, never before contacted; execute… |
 | `B1128` | PROVED | S | | P-INSTRUMENT (value-probing wave, the crux cell V-3 left; against a sealed prereg): does a PRINCIPLED listener-map coupling read an SM value out of the object? INSTRUMENT… |
 | `B1129` | PROVED | S | | P-NATURALVALUES (value-probing wave, the 'all-around' cell; sealed prereg): are the object's OWN natural invariants physical, or disjoint from the SM too? NATURAL-VALUES-… |
@@ -188,6 +188,9 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
+| `B886` | PROVED | L | | THE MATTER PENCIL, all exact: P(x,lambda) = det(xI - rho(x8) - lambda rho(x16)) on the 27 factors over Q as F1^1 * F2^8, both cubic in x -- the 27 carries exactly SIX joi… |
+| `B910` | PROVED | L | | L3 DELIVERED -- THE ONE-CLASS THEOREM (multiagent round 1, banking-verified): the compact-pencil cubic kappa = 2771822592000 s^3 + 3033676800 s^2 - 56402640 s - 6859 (con… |
+| `B1070` | PROVED | L | | THE LISTENER DERIVATION (Track A of L166; 3 compute + 3 adversarial verifiers, every attack failed): the banked listener pair u3/u6 is DERIVED, not conventional -- on CP^… |
 | `B1083` | PROVED | L | | The founding K4-torsor's two bits are C (swap) and P (reversal) -- BOTH spendable choices; THE ARROW IS NOT A TORSOR BIT (all four orbit points are forward substitutions;… |
 | `B1085` | PROVED | L | | The free half is EDGE-OBSERVABLE and only edge-observable, re-derived with own code: the two hands of ONE cut of the golden Sturmian word at phase rho = alpha = 2-phi (ri… |
 | `B1086` | PROVED | L | | THE SPECTRUM LAW: h1(D_t;27) = 5 untwisted (= B1036's banked 5 = 3+2 blockwise, independently REBUILT here with own code) = 2 for ANY theta-odd dial (slots {4,8}, all t i… |
@@ -266,12 +269,10 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B861` | PROVED | S | | ONE principle -- maximal residual symmetry among REGISTERABLE options, registerable meaning the 27's generation stays chiral as a multiset with theta-odd abelian factors … |
 | `B868` | PROVED | S | | G6 CLOSED -- the three involutions separated at cascade level: the gate's C is the LINEAR outer involution lambda -> -w0(lambda) at every level (A4: Dynkin reversal, 5->5… |
 | `B871` | PROVED | S | | G5 CLOSED at the group layer -- the cascade's last owed definition is paid: a chirality-REGISTERING measurement is the B599 pairing datum (bra chi_R, theta-odd dial-neutr… |
-| `B886` | PROVED | S | | THE MATTER PENCIL, all exact: P(x,lambda) = det(xI - rho(x8) - lambda rho(x16)) on the 27 factors over Q as F1^1 * F2^8, both cubic in x -- the 27 carries exactly SIX joi… |
 | `B896` | PROVED | S | | M1, THE S3-HARMONIC ANALYSIS: (1) jointly aligned (block perms x Hungarian row assignment -- the fixed-row model's bimodal residue was a caught model error: rows permute … |
 | `B900` | PROVED | S | | N7, THE EXACT FRAME 1-COCYCLE: all four Pi-block label cubics (vacuum and octet, c8 and c16 -- each leading with 2197 = 13^3, each with squarefree disc part 77) are irred… |
 | `B903` | PROVED | S | | N2, THE SIGN LAW'S MECHANISM (load-bearing since B894): all six banked B581 quotients Delta_m are EXACTLY ANTI-PALINDROMIC (functional equation eps = -1 in every block, F… |
 | `B909` | PROVED | S | | THE FRAME ARC BANKED (handoff 6, sections XLIX-LVIII; the arc whose absence was the loss audit's most-urgent item): THE COMPACT MEASUREMENT THEOREM VERIFIED WITH THE CORR… |
-| `B910` | PROVED | S | | L3 DELIVERED -- THE ONE-CLASS THEOREM (multiagent round 1, banking-verified): the compact-pencil cubic kappa = 2771822592000 s^3 + 3033676800 s^2 - 56402640 s - 6859 (con… |
 | `B914` | PROVED | S | | R2'+R3' DELIVERED AND THE RATIO TABLE COLLAPSES TO ONE NUMBER (multiagent round 3, banking-verified): with the ENTIRE construction re-run on the banked B883 27 in one exa… |
 | `B916` | PROVED | S | | THE LAMBDA BRIDGE (dispatched to reconcile 2304/953 vs 1; the dispatching hypothesis REFUTED, both seats VINDICATED): the 27/27bar bridge S is Schur-unique and a SIGNED P… |
 | `B929` | PROVED | S | | THE THIRD CROSSING (Twist stage 2; prereg 672b5afb pushed c8421f14 BEFORE data contact; owner word at the registered gate): SEALED VERDICT HIT-SHAPE -- TIER 1 PASS: the b… |
@@ -297,7 +298,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1042` | PROVED | S | | PM3 / the trit morphism (sealed b8544786 pre-compute; exact Q(omega), the McKay graph COMPUTED not cited): JOINED -- the VEV-acceptance trit's Z/3 (B1030 #1, algebra-side… |
 | `B1063` | NEGATIVE | S | | THE B1027 REFRESH EXECUTES (the pre-committed re-run, zero freedom, against NuFIT 6.0 Table 1 read from the PDF on this bench): MISS in ALL FOUR variants against BOTH tar… |
 | `B1065` | PROVED | S | | O1 — SAME-CONFIRMED AT STATED PRICE (2.6-3.4 bits, both nulls named): C1 the B936 class map is equivariant over all 64 characters (tau-equivariance; all-flip descends +(1… |
-| `B1070` | PROVED | S | | THE LISTENER DERIVATION (Track A of L166; 3 compute + 3 adversarial verifiers, every attack failed): the banked listener pair u3/u6 is DERIVED, not conventional -- on CP^… |
 | `B1071` | PROVED | S | | THE SEALED LISTENER (sealed 2026-08-19 pre-compute; three independent re-implementations, no code reuse from the exploration cell, 0 errors): ALL THREE CLAIMS HOLD — C1 t… |
 | `B1072` | PROVED | S | | THE SILVER INSTRUMENT (5 agents, both adversarial lenses HOLD, the build re-derived 41/41 before use): SU(4)_2 built exactly — 10 primaries, kappa = 6, Sigma.Sigma-dagger… |
 | `B1079` | PROVED | S | | THE WILSON MENU AND THE SELECTOR'S SILENCE (the new seat's menu under verify-don't-trust; 3 agents, verifier HOLDS both halves on full independent re-derivation): all 15,… |
@@ -313,6 +313,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 |---|---|---|---|---|
 | `B282` | NEGATIVE | L | | Almost everything in the E₆ programme is generic to any hyperbolic knot; only the arithmetic atom (4₁ unique arithmetic knot, ℚ(√−3)↠2T) is the object'specific.… |
 | `B285` | PROVED | L | | The figure-eight's meridian-commutator trace is κ=u²+2=√3·e^{∓iπ/6}, so the phase magnitude π/6 is exact and forced by the Eisenstein field, while its sign is not.… |
+| `B727` | NEGATIVE | L | | 'E6 across three faces' is forced by one ADE classification, so the recurrence is generic not evidence; only the arithmetic atom pi1(m004) onto 2T survives.… |
 | `B730` | PROVED | L | | The object's forced quadratic faces close at exactly three — ℚ(√−3), ℚ(√5), ℚ(√−15) — a Klein four-group; ℚ(√−7) is an external stage.… |
 | `B739` | PROVED | L | | m004's continuous spectrum is character-rigid: one Eisenstein channel pulled back from the Bianchi base, scattering Λ_K(s−1)/Λ_K(s), carrying no level characters.… |
 | `B749` | PROVED | L | | The genesis axiom chain is priced by computation: F2/F3/F4/F7 ROBUST, F5 and F6 FRAGILE (the det −1 sibling is the Gieseking; closure keeps only the hearing face), and F8… |
@@ -346,7 +347,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B722` | PROVED | S | | The Kashaev resurgence's two phases carry being and hearing, and its trans-series is arithmetically rigid over Q(sqrt(-3)) with no free continuous parameter.… |
 | `B725` | PROVED | S | | The observer construction forces the Born rule's FORM and explains its quadratic degree as the c-swap's Galois order; Born CONTENT stays open.… |
 | `B726` | NEGATIVE | S | | The two bare quadratic faces do not close the Born gap: hearing Q(sqrt5) owns only the weights, while amplitudes and the interference phase need cyclotomic upgrades.… |
-| `B727` | NEGATIVE | S | | 'E6 across three faces' is forced by one ADE classification, so the recurrence is generic not evidence; only the arithmetic atom pi1(m004) onto 2T survives.… |
 | `B729` | NEGATIVE | S | | The Born amplitude field Q(sqrt(2+phi)) is not native: every native invariant yields only the two quadratic fields, so amplitudes, phase and associator are golden-MTC ove… |
 | `B746` | PROVED | S | | ESTABLISHED: the two-column law -- golden is FORCED on 10 of 12 structural floors while the voice floor carries zero golden markers and is pure Q(sqrt-3), so golden is th… |
 | `B785` | PROVED | S | | Three cc3 claims independently reproduced exactly (correspondence matrix, torsion = (phi^n - phi^-n)^2, Sym^d spectrum); the b769 chord mechanism excluded at the gate.… |
@@ -362,11 +362,11 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
+| `B557` | PROVED | L | | ESTABLISHED exactly: the escalator's coupling rule (C,D)=(M,M^2) is FORCED at rung 1 and a CHOICE above it (B517 intertwining forces C=p(M)), plus the explicit 8-letter c… |
 | `B1084` | PROVED | L | | The flat G2 orbifold (C^2 x R^3)/G-hat (/G-hat/ = 96) EXISTS and is fully stratified -- ONE E6 locus (stabilizer exactly 2T) + THREE A1 families (orbits 6/12/12, stabiliz… |
 | `B1087` | PROVED | L | | THE CHARGE COMPLEMENTARITY (the pre-registered OBSTRUCTED-O3 branch, a theorem): both theta-odd dial slots complete to exact Jacobson-Morozov sl2-triples in e6 and the AW… |
 | `B1113` | PROVED | L | | THE t-METER (JORDAN_MEMO §B harvest, two-bench + banking-seat re-run, 12/12 exact incl. four 20-25-digit integers, certificate-free verifier): on the twisted double with … |
 | `B1185` | PROVED | L | | L186 ANSWERED -- THE THREE-MECHANISMS THEOREM: the record's three named Yukawa-suppression mechanisms are GENUINELY THREE, none identifiable with another, by three exact … |
-| `B557` | PROVED | V | | ESTABLISHED exactly: the escalator's coupling rule (C,D)=(M,M^2) is FORCED at rung 1 and a CHOICE above it (B517 intertwining forces C=p(M)), plus the explicit 8-letter c… |
 | `B1151` | NEGATIVE | V | | THE LARGE-T GUE TEST (C4, the cloud's preregistered cell c4_gue_larget.py run on our i9 at T=3000, 5459 merged zeros): the preregistered single-GUE gate is NOT MET -- GUE… |
 | `B1157` | NEGATIVE | V | | WF-2 (the dynamics; the masterplan's 2nd workflow, 8 agents), sealed DECIDABLE-RESULT, banked as a productive NEGATIVE. THE FIREWALL VERDICT: the object supplies NO param… |
 | `B218` | PROVED | S | | Jones-index quantization selects golden as the unique metallic mean realizable as a unitary anyon (Fibonacci, d=2cos(pi/5)); all m>=2 exceed the index-4 wall.… |
@@ -404,10 +404,11 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
+| `B393` | PROVED | L | | Dark pairs annihilate termwise rather than by cancellation, with the exact law: s-darkness holds iff the 5-side never donates sqrt5 to an imaginary product.… |
 | `B734` | PROVED | L | | π₁(m004) reaches the geometric index 12 at level (2)³=(8), so the figure-eight knot group IS a congruence subgroup — three 2-adic levels deeper than its sister m003.… |
 | `B737` | NEGATIVE | L | | Candidate Zero dies at the crux: the ζ_K in the object's voice is the field's (vacuity plus object-deletion), though the exact identity φ_m004 = Λ_K(s)/Λ_K(s+1) survives.… |
+| `B996` | NEGATIVE | L | | THE GRAMMAR-LEVEL CONTROL: ACCESS TO THE McKAY GROUP IS GENERIC ACROSS THE METALLIC FAMILY. P0: a census of GRAMMARS (metallic words R^m L^m and their mod-N shadows in SL… |
 | `B1111` | PROVED | L | | THE W5 SCOPING (wave F7, cross-verified EXACTLY over Q(sqrt2) after the first verifier's rational-approximation bug was CAUGHT by disagreement with B1084's banked census … |
-| `B393` | PROVED | V | | Dark pairs annihilate termwise rather than by cancellation, with the exact law: s-darkness holds iff the 5-side never donates sqrt5 to an imaginary product.… |
 | `B875` | PROVED | V | | The solo seat's TRIALITY-TILING THEOREM verified on this seat's fully independent build, three legs in one reproducer: (1) skeleton at 30 digits -- kernels (46,46,46) at … |
 | `B48` | PROVED | S | | The SL(3) Fibonacci trace lift extends to the whole metallic family, with algebraic entropy log((m+sqrt(m^2+4))/2), invariant commutator trace pair, and certificate-backe… |
 | `B120` | PROVED | S | | The trivial-point tower is fixed by (n; trace, det) alone; the height-count closed form and the forced doubling range {2..n-3} are established.… |
@@ -510,7 +511,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B920` | PROVED | S | | THE REGISTER SWEEP (cc3 audit A2+A5, all 7 items, working-tree edits reviewed and accepted by the banking seat): (1) NORMSPLIT RECONCILED AND THE CONTRADICTION DEAD -- th… |
 | `B937` | PROVED | S | | THE GOLDEN ENTRY + THE 29 WHITELIST (118 checks, exact tier, no numerics): PART A -- THE GOLDEN FIELD DOES NOT ENTER: 5 is a residue characteristic only, decided four ind… |
 | `B967` | PROVED | S | | L139 EXECUTED -- THE RETRACTION SWEEP. Rule: retracting a claim does not retract its INSTANCES, so a retraction is NOT COMPLETE until its phrase is registered in docs/RET… |
-| `B996` | NEGATIVE | S | | THE GRAMMAR-LEVEL CONTROL: ACCESS TO THE McKAY GROUP IS GENERIC ACROSS THE METALLIC FAMILY. P0: a census of GRAMMARS (metallic words R^m L^m and their mod-N shadows in SL… |
 | `B1067` | PROVED | S | | The branch-resident Q(sqrt-3) class-field asset lands on main DOUBLE-REBUILT (22/23 claims re-derived independently on two declared-different routes; the 23rd is a repo-s… |
 | `B1101` | PROVED | S | | THE CERTIFICATION ENVELOPE ADOPTED (Review 47's methodology delta, owner-elected): during any certifying suite the working tree is read-only by convention -- scratchpad s… |
 

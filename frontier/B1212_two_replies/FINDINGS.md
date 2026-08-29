@@ -79,3 +79,32 @@ Codex's certificate is re-run, not re-derived — their Wilson-branch retention 
 extraction are cited. The coarse equalities are banked **as coarse equalities**; nothing here says
 the tensors agree. Cloud's D2 addenda are read from their commit and reported, not adjudicated: the
 authority question is the owner's, not this seat's.
+
+---
+
+## ADDENDUM 1 (2026-08-29) — THE OWNER CONFIRMS; PROVISIONAL LIFTED ON MAIN
+
+The binary this arc left open is answered. The owner's words, recorded verbatim because provenance
+is the whole point of this thread: **"lift D2's PROVISIONAL on main."**
+
+**LEAP-1 stands PAID** under Option A, with **SCOPE-1a** (coherence is required along a realized
+history) and **SCOPE-1b** (*the (1,n) ladder is that history*) priced as separate lines, and the
+override of the preregistered gate recorded in the open.
+
+**What the confirmation does not do**, stated so it cannot be read wider later:
+
+- It does **not** prove the scope premises. **SCOPE-1b remains NOT ESTABLISHED** and keeps its own
+  refuter; the ladder was shown *distinguished in the record before the run*, which is not the same
+  as *being the realized cosmological history*.
+- It does **not** discharge LEAP-1's original cost: no banked computation connects the object's tick
+  to a cosmological clock, and B721's tracial result still forces an imported external weight. **A
+  paid leap is a labelled premise, not a theorem.**
+- The census still came back **non-monotone** against the signed rule, and the payment proceeded on
+  the ground that the instrument was structurally unsatisfiable. That override stays first in the
+  record.
+
+**And the provenance is the point.** This confirmation was obtained by putting an explicit binary to
+the owner — confirm / reverse / stop asking — rather than by reading a continue-token as a signature.
+That is the exact failure this thread was opened to correct, and the correction held on the second
+occasion as well as the first. **Scope**: this lifts the flag on main; the owner is handling the
+cloud seat's own record directly.

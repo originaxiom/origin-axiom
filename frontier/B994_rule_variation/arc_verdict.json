@@ -18,5 +18,14 @@
  ],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "cc banking seat (2026-08-09), from cc3 RULE probe"
+ "authored_by": "cc banking seat (2026-08-09), from cc3 RULE probe",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "CORRECTION \u2014 it withdraws or repairs an earlier claim",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

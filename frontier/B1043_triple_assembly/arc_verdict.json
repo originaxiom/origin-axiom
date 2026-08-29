@@ -3,8 +3,26 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "PM2 / L157-4, the triple assembly (sealed 575ad81b pre-compute; the algebraic triangle graph-of-groups -- manifold cyclic welds of one-cusped pieces impossible, stated at seal; rho(t)=1 declared): h1(triple;27) = 10 = 7 connecting + 3 bulk. THE ENTRY GATE EARNED ITS KEEP: the first run HALTED on the script's h0(M)=0 shortcut -- the computation says h0(M;27) = 1 (the 27 carries an INVARIANT LINE under the solo group, a new banked fact; identification a lead candidate); with the sealed coker formula computed properly the double reproduces 5 = 2+3 and the gate passed. THE FORBID HOLDS, STRICTLY: F3 (>= 6, pinned pre-arc in the cosmogony amendment) gets 7 -- and the sealed DECOY D (>= 12, deliberately unbanked) FAILS, so the discrimination reading fires: the pass is INFORMATIVE, and R44-12 (the audit seat's decoy-forbid-control debt) is DISCHARGED at the first forbid-attacking pass as owed. THE CYCLE'S FINGERPRINT, typed: the triangle's difference pattern has rank 2 (kernel = diagonal), so the cyclic closure contributes EXACTLY h0(M) = 1 extra class beyond linear seam-scaling -- CREATION IS SUPERLINEAR, excess = b1(graph) x the invariant line; the frame forbade less-than-linear and the object answered more-than-linear-by-exactly-the-loop. W4 HALT-VOID with the door named: no 3-cells, the three-slot cup has no target on a 2-complex; the arity-matched PAIRING needs an H3-bearing three-body assembly -- THE CLOSED MIRROR-DOUBLE OF THE 3-FOLD CYCLIC COVER (the cover, struck from F3's referent by X5 for seam-count reasons, re-enters as the arity test's substrate). Prereg self-critique recorded (VOID-BY-DIMENSION was not a pre-registered outcome -- the MB12 family, caught in-arc). F3 adjudication firewalled to the cosmogony amendment; the mathematics banks as mathematics. Gate 5 clean.",
- "depends_on": ["B1036", "B1039", "B632", "B637", "B884", "B1042"],
+ "depends_on": [
+  "B1036",
+  "B1039",
+  "B632",
+  "B637",
+  "B884",
+  "B1042"
+ ],
  "supersedes": null,
  "superseded_by": null,
- "locks": ["tests/test_b1043_triple.py"]
+ "locks": [
+  "tests/test_b1043_triple.py"
+ ],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

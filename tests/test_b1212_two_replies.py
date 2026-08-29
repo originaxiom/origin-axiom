@@ -35,13 +35,17 @@ def test_the_fork_stays_open_and_the_P3_row_does_not_move():
     assert r["coarse_character_ec"] == 0 and r["coarse_character_l"] == 0
 
 
-def test_the_d2_payment_is_provisional_pending_the_owner():
-    """The one thing this seat must not quietly resolve."""
+def test_the_d2_confirmation_carries_its_provenance():
+    """The PROVISIONAL was lifted by the owner on 2026-08-29. What this locks is not the decision --
+    that is the owner's -- but that the decision was ASKED FOR and its words recorded, rather than
+    inferred from a continue-token. That inference is the failure this whole thread corrected."""
     d = _res()["leg_2_cloud_d2"]
-    assert d["payment_status"].startswith("PROVISIONAL")
-    assert d["authority_question"].startswith("OPEN")
-    assert "one edit" in d["to_reverse"]
-    assert _res()["owed_to_the_owner"].startswith("one binary decision")
+    assert d["payment_status"].startswith("CONFIRMED")
+    c = d["owner_confirmation"]
+    assert c["words"], "the confirmation must carry the owner's own words"
+    assert "binary" in c["asked_as"]
+    assert "NOT ESTABLISHED" in c["effect"], (
+        "confirming the payment must not silently promote SCOPE-1b")
 
 
 def test_scope_1b_is_recorded_as_not_established():
