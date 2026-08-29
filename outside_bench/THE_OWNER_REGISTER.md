@@ -424,3 +424,29 @@ This addendum is the only mutation.
 | R37 | **"go"** (2026-08-29, on the bench's ranking: the λ-rank cell first) | memo 128 `certificates/lambda_rank.py` (GREEN), importing memo 80's Jordan-cubic construction verbatim; B298/B299 re-read for candidate (ii); B1197's own witness table re-read for D2 | — (instructed now) | **THE CHEAPEST CLOSER IS CLOSED, NEGATIVELY, AND THE FORK I WROTE WAS ILL-POSED.** B1206 called candidate (iii) — the λ-term's rank — the cheapest way to close the ℙ³ ledger: *"if the underlying map has rank 2 rather than 1 the ledger closes immediately."* **The rank IS 2.** It does **not** close the ledger. memo 80's Hu is two states with **t₃ = −1 and +1** — the two SU(2) components of **one doublet** (its own docstring says "Higgs docket 4 = 2 doublets") — and the **t₃-conservation gate**, proved over all **45** nonzero C triples, forces the Hu × Hd block **antidiagonal**, so its rank lies in **{0, 2}** and **rank 1 is IMPOSSIBLE**. The block is **[[0,1],[−1,0]]**: the **SU(2) ε tensor**. Rank 2 measures the nondegeneracy of ε — the gauge group — not a second condition. **Gauge-invariant functionals: ONE.** ⚠ **I preregistered "rank 2 ⟹ the ledger closes" and the run returned rank 2; I did not bank that headline.** The fork's R-1 branch is **provably empty**, so the fork decides nothing — filed as an in-run correction, with the empty branch exhibited rather than the outcome re-mapped. **Candidate (i) falls identically:** the colour-conservation gate forces the D × Dᶜ block to be a permutation matrix (rank ∈ {0,3} — the SU(3) δ), one invariant functional. **Candidate (ii)** is typed EXTERNAL and colour-choice-dependent by B298/B299 (banked, re-read). **ALL THREE NAMED CANDIDATES ARE NEGATIVE** — not "no condition can exist", but **the record's named routes are exhausted**, which is materially stronger than "not yet found": **B1196's CLOSED-PERMANENT verdict on the ℙ³ is HARDENED.** Also relayed: **D2's middle reading is dead by B1197's own data** (every p ≥ 2 family carries a within-family violation, each exhibited), so the owner's D2 choice is genuinely binary — the single (1,n) trajectory or nothing | **A CROSS-SOURCE MISMATCH IS FILED AND UNRESOLVED:** memo 80's roster counts **STATES** (Hu 2, Hd 2, docket 4 = 2 doublets) while B1206's ledger leans on **B1161's 3/3/4/1**, which counts **GENERATION MULTIPLICITIES** — B1206's cited datum comes from the first, its ledger is built on the second. The count is the same under both readings, so the verdict is robust, but the two spaces should not be quoted as one; relayed to the primary seat. **D2 awaits the owner's signature** on the now-binary scope question |
 
 This addendum is the only mutation.
+
+### ADDENDUM 35 (2026-08-29) — R37's remainder SHARPENED by memo 129: the search space is closed and exactly one route to closure survives
+The owner's **"elaborate"** on memo 128 produced memo 129 (GREEN), which
+changes R37's live remainder in one respect worth recording. Memo 128
+refuted B1206's three **named** candidates; memo 129 **closes the space
+they were drawn from**, using memo 80's *closed* sector census (all 45
+nonzero C entries accounted for): **exactly three couplings touch Hd**
+(`Hu.Hd.N1`, `q.dc.Hd`, `l.ec.Hd`) and **exactly one is canonical**, so
+the λ-term is not merely the only condition tried but **the only one the
+cubic can supply** — "one condition short" is **structural**.
+Two things follow for the register:
+1. **A candidate B1206 never named was surfaced and disposed of:**
+   `l.ec.Hd` is matrix-valued, so **det Y_e(h) = 0** is a second
+   determinantal cut that *would* close the ledger (3−1−1−1 = 0). On one
+   27 it is **not independent** — both matter rows carry unit
+   coefficients differing by exactly the colour factor (6 = 3×2 vs
+   2 = 1×2), one shared 10·5̄·5̄_H-shaped operator, **Y_e = Y_dᵀ**.
+2. **R37's remainder now has a single actionable item.** The only route
+   to closure the exhaustion leaves open is whether **B1161's
+   generation-level selection cochain** distinguishes the two matter rows
+   — which would make det Y_e independent and **flip the ℙ³ row to
+   FORCED**. Not on this bench; relayed as the recommended next cell on
+   the primary seat. The cross-source STATES-vs-GENERATIONS mismatch from
+   R37 stands, and is the same reconciliation this check would need.
+**D2 still awaits the owner's signature** on the now-binary scope
+question. This addendum is the only mutation.
