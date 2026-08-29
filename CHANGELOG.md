@@ -1,5 +1,37 @@
 # Changelog
 
+## THE PAPER — the full draft is written (2026-08-30)
+
+Nine pages, **zero placeholders**, built in the order the spec prescribed: the **freedom ledger
+first** (the spine), then **what is generic** and **what is unique** — the sections that carry the
+paper — then the negative half and the observer, and **§4 *what is forced* last**, so it inherits the
+restrictions the earlier sections set.
+
+**§2 leads on the base rates**, before any positive claim: the $E_6$ recurrence is a graph identity
+(the four faces are one ADE classification, so the recurrence has probability 1 given one label); the
+entry surjection is admitted by **37.2%** of the first 400 one-cusped census manifolds, with **32.8%**
+admitting exactly two — the object's own count; the sibling shares the trace field without being the
+knot. **And the epistemic consequence is stated exactly**: this does not break the chain, which
+derives the object rather than selecting it — *it removes the endpoint's power to confirm the
+beginning.* The chain can be sound and the Standard Model still fail to corroborate it.
+
+**§3 states the two survivors**: arithmeticity (the unique arithmetic knot complement, so the trace
+field is distinguished where the scaffolding is not), and a **theorem proved over an infinite family**
+— the golden grammar is the unique metallic one whose modular shadow is of McKay type, because
+$|\mathrm{SL}(2,\mathbb{Z}/N)|$ is a binary-polyhedral order for exactly $N \in \{3,4,5\}$ (a proof
+via $|\mathrm{SL}(2,\mathbb{Z}/N)| \geq N^3/\zeta(2)$, which exceeds 120 for all $N \geq 6$) and the
+metallic conductor $m^2+4$ meets those at exactly one non-degenerate $m$.
+
+**Three things the corpus forced in that a first pass would have got wrong**: the arrival at the SM
+algebra sits in the **recognition table**, not the forced list (it is the $A_2{+}A_1$ Levi); §6 does
+**not** use the eigenline clause B1216 showed vacuous and does **not** claim the partner is canonical,
+carrying instead an explicit *"two supports we withdrew"* note; and §2 records **our own base-rate
+lag** as provenance.
+
+Gate 5 clean, no vendor tokens, no author line (the name goes in at submission — the owner's act).
+**Not submittable yet**: no bibliography, no verification appendix, the 467-row disposition still
+unfed into §§4–6, and no hostile read.
+
 ## THE PAPER — first draft lands and builds (2026-08-30)
 
 `papers/P3_THE_PAPER/main.tex` + `build.sh`. **Three pages, and it is not a paper yet** — what is

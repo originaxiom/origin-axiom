@@ -202,7 +202,7 @@ reference — gives **5 of 24**, and those five are real. **Report the second nu
 
 ---
 
-## STATUS (2026-08-30) — the draft exists and builds
+## STATUS (2026-08-30) — THE FULL DRAFT IS WRITTEN
 
 `main.tex` + `build.sh` land here. **It is 3 pages and it is not a paper yet** — what is written is
 the front matter that the blueprint says must come first, and nothing else:
@@ -222,3 +222,27 @@ reproducible with `./build.sh`.
 
 **Deliberately absent**: an author line. The repository's attribution rule keeps the owner's name out
 of tracked files; it goes in at submission, which is the owner's act.
+
+### Update, same day: all ten sections written
+
+`main.tex` is now **9 pages with zero `[Not yet written]` markers**, built in the order the spec
+prescribed — **the freedom ledger first**, then what is generic and what is unique (the sections that
+carry the paper), then the negative half and the observer, and **§4 *what is forced* last**, so that
+it inherits the restrictions the earlier sections establish.
+
+**Three things the corpus forced into the draft that a first pass would have got wrong:**
+
+1. **The arrival at the SM algebra is in the recognition table, not the forced list.** It is the
+   $A_2{+}A_1$ Levi — Borel–de Siebenthal / Dynkin. What survives as forced is the **termination**
+   and the **global form**.
+2. **§6 does not use the eigenline clause**, which B1216 showed is vacuous, and **does not claim the
+   partner is canonical**, which B1216 refuted. Both appear instead in an explicit *"two supports we
+   withdrew"* scope note.
+3. **§2 carries our own base-rate lag** as recorded provenance — the programme tested numerical
+   coincidences long before it tested its flagship structural claim.
+
+**Gate 5 clean** (no measured value appears; the abstract reports the misses as misses).
+**No author line** — the name goes in at submission, which is the owner's act.
+
+**What remains before submission**: the 467-row disposition feeding §§4–6 with per-claim citations;
+a bibliography (currently none); a referee-facing verification appendix; and a hostile read.
