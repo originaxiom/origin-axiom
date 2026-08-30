@@ -281,3 +281,33 @@ both hunts, the dynamics row decomposes with nothing missing in it:
 rows with **zero dedicated arcs** — dark matter, inflation, structure
 formation — each carrying only a first probe. §2's ranking is amended
 accordingly. This addendum is the only mutation.
+
+
+---
+
+### ADDENDUM 5 (2026-08-30) — CURRENCY PASS: §5's HEADLINE CONTRADICTS ADDENDUM 4, AND A1 IS UNDERSTATED
+
+Audited at main `89affd5b` (memo 153). **Addendum-only; nothing above is edited.**
+
+**1. This document contradicts itself, in the exact shape the paper's spec warns about.** §5 is
+headed *"THE ONE GAP THAT DOMINATES"* and says *"DYNAMICS is the gap … Only A1 is load-bearing."*
+**Addendum 4, 115 lines below, is headed "the dominant gap is now COSMOLOGY."** A reader of §5 never
+reaches it. This is the `THE_SM_VERDICT.md` defect — a table contradicted by its own addenda —
+committed here. **Read §5 as superseded by addendum 4.**
+
+**2. A1 (dynamics) is understated.** `B1157` (NEGATIVE, sealed DECIDABLE-RESULT) banks a
+**productive negative**: the object supplies **no parameter-free dynamical law at the archimedean
+infinity-place**, and every load-bearing ingredient is **generic to all finite-volume hyperbolic
+3-manifolds** — the story survives swapping `m004` for a non-arithmetic knot verbatim. So A1 is not
+one undifferentiated KIND A hole: it is **one route probed and closed negative, plus the rest
+unprobed.**
+
+**3. A3 (the E₆ boundary bridge) has moved.** `B1216`: σ is now *"one bridge missing, FULLY
+SPECIFIED, with a runnable pass/fail test and a documented EMPTY candidate set."* No longer
+"new mathematics, not retrieval" in the open-ended sense written above.
+
+**4. λ got worse, not better.** `B1216` withdraws the exhaustion and "excluded by TYPE" arguments,
+leaving λ with **no acceptance criterion at all**.
+
+**Confirmed still current:** A2's cosmology blind rows — and notably, `B1202` used those exact
+regions as its own *negative control*, so the MISSING claim there is explicitly admissible.

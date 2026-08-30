@@ -140,3 +140,29 @@ If the programme wants a feature, that is the door.
   be one condition short, and **there would still be no equation of motion anywhere**.
 - The mechanical sweep's 28/24 numbers are reported and **explicitly not used**. The join finding
   rests on the four-gate count, which is checkable by hand in one file.
+
+---
+
+## ADDENDUM (2026-08-30) — LINK 14 (DYNAMICS) CORRECTED
+
+The currency pass (memo 153) found one row of §1 understated, and it is the row I put to the owner
+twice as the biggest hole.
+
+§1 link 14 reads: **dynamics ❌ — "no equation of motion derived anywhere. Not a value problem. A
+different kind of object missing."** True of the record as a whole, **and incomplete.**
+
+`B1157` (NEGATIVE, sealed DECIDABLE-RESULT) banks a **productive negative** at the one place that
+was actually probed — the archimedean infinity-place, via analytic torsion and the Ruelle zeta:
+
+> *"the object supplies **NO parameter-free dynamical law at the archimedean infinity-place**"* —
+> with every load-bearing ingredient (the Sym-power factorization, `H¹ = H² = #cusps`, the
+> `exp(−4Vol/π)` damping) shown **generic to all finite-volume hyperbolic 3-manifolds**, using only
+> `SL(2,ℂ)` holonomy and volume and **never touching the arithmetic** — so *"the whole story
+> survives swapping m004 for a non-arithmetic knot verbatim."*
+
+**Corrected reading of link 14:** dynamics is **not one undifferentiated hole**. It is **one route
+probed and closed negative (🔒), plus the rest unprobed (❌)** — and the probed route came back
+**generic**, the `B996` lesson one place further out. That is a sharper statement and a slightly
+worse position than "we simply haven't looked."
+
+Nothing else in §1 changed. §2's four gates, §3's join defect and §4's four actions stand.

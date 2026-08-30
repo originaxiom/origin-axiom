@@ -219,3 +219,28 @@ three seats' statements (ε = −1 selector-free; the four probes are
 one bit, B1183; this build's count = 1) are one statement. S2/S3
 remain pending the cloud C6 check (coverage refinements to the spec
 land by addendum). This addendum is the only mutation.
+
+
+---
+
+### ADDENDUM (2026-08-30) — CURRENCY PASS: TWO ITEMS WERE STALE ON THE DAY THIS WAS WRITTEN
+
+Audited at main `89affd5b` (memo 153), using the corpus's own instrument
+`scripts/checks/already_banked.py` (`B1202`), which this document predates adopting and should
+have used. **Addendum-only; §2's list is not edited.**
+
+| §2 item | correction |
+|---|---|
+| **FENCED: "S4 (the quine) unbuilt"** | **WRONG WHEN WRITTEN.** `B1184` PROVED — *"THE QUINE SYNTHESIS … the S4 rung dispositioned."* And `B1184`'s own opening sentence corrects the identical staleness elsewhere: *"the register carried 'QP-1 (the quine) open' — STALE."* |
+| **5. the 953 class-group step — disc-6237** | **CLOSED AT PROOF GRADE EIGHT DAYS EARLIER.** `B1093`: `K = ℚ[x]/(x³−12x−5)`, disc 6237, **h(K) = 1 proved**, h⁺ = h = \|Cl/Cl²\| = \|Cl/Cl³\| = 1, every classical obstruction trivial |
+| **8. the (Vol,CS) clock-coherence run** | **RUN.** `B1197` — **SPLIT VERDICT**: the named primary test passes, the full census check fails |
+| **4. the ℙ³ adjudication** | **MATERIALLY MOVED.** `B1206`: **exactly one condition short** (3→2→1, points need 0); `B1208` closed all three named candidates |
+| **1. derived dynamics** | **UNDERSTATED.** `B1157` banks a *productive negative* at the archimedean infinity-place, with the ingredients shown generic to all finite-volume hyperbolic 3-manifolds. Not purely an open domain |
+| **2. S1 · 7. the r-supply bridge** | **CONFIRMED OPEN** — zero settled arcs match |
+
+**Not carried, and should be:** `B1216` leaves **λ with no acceptance criterion at all** (the
+exhaustion and "excluded by TYPE" arguments withdrawn).
+
+**The rule this document should have followed, adopted now:** no MISSING/OPEN/"never run" claim is
+admissible until `already_banked.py` has been run on its terms **and the searched terms are stated
+with the claim**. The terms for all thirteen items above are in `certificates/gap_docs_currency.py`.

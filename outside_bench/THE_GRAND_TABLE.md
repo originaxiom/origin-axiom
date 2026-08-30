@@ -98,3 +98,14 @@ NULL/DEAD's discipline (the direct reading, exhaustively eliminated);
 the sheet's STRUCTURAL rows (forced equalities, sum rule, norm laws)
 remain DELIVERED and untouched. Not a thesis-failure signal. This
 addendum is the only mutation.
+
+
+---
+
+### ADDENDUM (2026-08-30) — CURRENCY PASS
+
+Audited at main `89affd5b` (memo 153). **Addendum-only.** No MISSING row in this table was found
+already-banked by `scripts/checks/already_banked.py`; the staleness in the 2026-08-28 gap set is in
+`THE_FULL_ACCOUNTING.md` (two items stale at writing) and `THE_TOE_GAP.md` (§5 contradicted by its
+own addendum 4). Carried here so a reader of this table knows the sibling documents were corrected
+and this one was checked rather than assumed.

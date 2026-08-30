@@ -652,3 +652,26 @@ there touches Gate D.**
 **And the owner's confusion was earned:** the answer existed in three documents under three
 different taxonomies, none walking the chain in order. That is a record defect, not a reading
 failure.
+
+
+---
+
+## ADDENDUM 51 (2026-08-30) — ROW R53: "takeit"
+
+The owner taking the fourth item — the currency pass on this bench's own three gap documents.
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R53** | Currency-pass the gap documents. | **E1-SYSTEMIC: 6 of 13 items need correction, and two were stale on the day they were written** — the quine row against `B1184`, which had *already publicly corrected the identical staleness*, and the disc-6237 row against `B1093`, closed eight days earlier at proof grade. **The corpus had already built the instrument** (`scripts/checks/already_banked.py`, `B1202`) and installed the rule that no MISSING claim is admissible without running it and stating the terms. I had not run it. I have now, on my own claims. | memo 153 |
+
+**The one correction that reaches the owner:** I said twice this session that dynamics is the
+biggest hole — *"no equation of motion derived anywhere, a different kind of object missing."* True
+of the record as a whole, **incomplete**: `B1157` banks a productive negative at the one place
+actually probed, and every ingredient there is **generic to all finite-volume hyperbolic
+3-manifolds**. **Dynamics is one route probed and closed negative plus the rest unprobed** — and the
+probed route came back generic. Sharper, and slightly worse.
+
+**And the one this bench should feel:** `THE_TOE_GAP.md` §5 says *"DYNAMICS is the gap"* while its
+own addendum 4, 115 lines down, says *"the dominant gap is now COSMOLOGY."* That is **precisely** the
+defect the paper's spec §9 warns about in `THE_SM_VERDICT.md` — and memo 148 audited someone else's
+paper for currency while this sat in my own.
