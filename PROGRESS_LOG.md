@@ -12819,3 +12819,58 @@ condition short. **The same recipe explains both the success and the failure.**
 not a scan completed.
 
 Ten pages, still zero placeholders, Gate 5 clean.
+
+> *Filing correction (2026-08-30): the two entries below were first appended to `docs/progress/PROGRESS_2026-Q2.md`, which is a quarterly roll-off, not the live log. Caught by `log-changelog-paired`, whose lag check fired because the canonical file at the repo root had stopped being written — the exact defect shape B827 recorded. Moved here verbatim; the gate worked.*
+
+## B1218 — THE OPEN-CLAIM SWEEP (2026-08-30)
+
+**Owner-directed** (*"are u sure theyre not lost, make sure"* → *"run it"*). The hand-aimed pass
+found five locks called open that were already proved (THE_ROAD §§IX–X). This banks the
+instrument that finds them **without being aimed**: `scripts/checks/open_claim_sweep.py` extracts
+every current-openness assertion from the live normative surfaces and scans all 1122 arcs for a
+SETTLED arc that already decided it, IDF-ranked. 526 raw → 45 after the tautology, history-line
+and self-citation filters.
+
+**Bite control both directions (MB12):** positive 5/5 at rank #0; negative 0.00 against a 25.0
+bar. **Two stale rows repaired** in `docs/OPEN_LEADS.md`: **L175** (B1110 PROVED, "L175 CLOSES" —
+the fourth theorem in the gate's family exists, with a mechanism the row never asked for; *the
+same lock as Section X's, on a second surface*) and **L57** (B364 NEGATIVE — T-stability forces
+neither lift; B359/B363 also uncited). **Two adjudicated non-findings** stated rather than
+dropped (THE_SPINE's generated `B171 OPEN`; B921-6's different question).
+
+The instrument tripped its own lock on first run — fifth instance of the self-documenting class,
+fixed by the established `SELF` exclusion. The negative control failing **was the control
+working**.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---
+
+## Review 53 + THE PAPER's spine + Gate C (2026-08-30)
+
+**Review 53** (32 merges from anchor `8aa71f07`; eighteen arcs B1201–B1218). The window the record
+audited itself. THEOREM_REGISTRY +20 rows, **none of them new proofs** — theorems the corpus already
+held that no surface displayed. Branch inventory: all five unmerged refs classified. Protocol
+integrity: 18 sealed digests recomputed and matching, one E39 instance disclosed (mine). **New class
+E53 — surface non-propagation**, seven instances, with `scripts/checks/open_claim_sweep.py` as its
+standing instrument.
+
+**THE PAPER gains §3, the chain link by link.** All 43 links typed, independently recounted from
+`THEOREM_LEDGER.md` (26 theorem / 6 identity / 5 no-go / 4 axiom / 1 corollary / 1 census = 43, **39
+forced**). Claimed in the defensible form — *not* parameter-free, but **the parameters enumerated,
+typed, and located**: three axioms before the object, one after the algebra, and **across the twelve
+links from object to algebra, not one declared choice**. Adds the bridge ($M^2 = RL$), the boundary
+(the second field is bought at geometrization and nowhere earlier), and the doorway stated correctly
+(McKay at the hyperbolic end — *not* the retracted congruence-factoring reading). 14 → 16 pages.
+
+**Gate C CLOSED** by its own refutation condition (cloud's find, verified here; B323/B324 had been
+omitted from its Settled list). The generation question is **relocated, not answered** — B632's
+graded h¹=3 route is explicitly not blocked by B307 and its cell 2 is unrun. All five load-bearing
+"four named gates" references updated to three. **E53 instances #8–#9** added, including an
+independent same-day arrival at the same sub-mechanism from the cloud bench, and the finding that
+`doc_currency.py` covers 19 of 169 documents (11%) — the staleness detector passing vacuously.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---
+
