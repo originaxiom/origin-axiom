@@ -12907,3 +12907,18 @@ corroborates the paper's §3; B342 goes to the value-negative record, never the 
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## 2026-08-30 — B1220 THE PREMISE AUDIT: campaign Cells 1–3 were already answered
+
+All three math cells' premises stale; every banked answer **stronger** than the cell assumed. λ's
+gate exists in banked pieces and is failable both ways (λ fails its first hypothesis — no (T,G)
+read off D). The ℙ³ is CLOSED-PERMANENT, hardened twice, its one overturning datum blocked on codex
+R030 in flight. B632's cell-3 question was answered NEGATIVE by B1036 in August using cell 3's own
+MV method; the residual is the full V-valued assembly. Found en route: **B1196's verdict line
+contradicts its own GC-27 cell** on λ (dated addendum). THE PAPER's ℙ³ and λ rows corrected — both
+become *stronger* statements. Stop rule 1b added: audit each cell's premise, don't only sweep for
+orphans.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---

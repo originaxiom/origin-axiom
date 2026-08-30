@@ -1,5 +1,49 @@
 # Changelog
 
+## B1220 THE PREMISE AUDIT: all three math cells were already answered, and every answer is stronger (2026-08-30)
+
+Cells 1–3 of the publication campaign, **not run as designed, because none needed to be.**
+
+**Cell 0 reported its gate open, and that was correct but insufficient** — a distinction worth
+naming. Cell 0 sweeps *arcs → surfaces* and finds results that reached **no** surface; the arcs
+deciding Cells 1–3 are recent, cited and perfectly visible. What found them was running
+`already_banked.py` **on each cell's own premise**. Three cells, three hits, zero computation.
+
+**Cell 1 — λ's acceptance gate already exists**, unassembled. GC-15's unconditional half: anything
+expressible from the object must be invariant under the automorphisms the object fixes, that group
+**read off D, never chosen**; then three proved regimes (finite+transitive → unique counting measure
+at exactly log₂|T| bits; irrational rotation → Lebesgue; non-compact → none) plus B1196's boundary
+characterization, *prior-vs-point ill-typed exactly at Haar non-normalizability*. **Failable both
+ways by demonstration**: regime (i) accepts; λ **fails the first hypothesis** — no (T,G) read off D.
+
+**A contradiction inside a banked verdict line.** B1196's one-liner says σ and λ sit on the
+non-normalizable side *"which is WHY they are anchors"*; its own GC-27 cell says **opposite** sides
+and that **λ fails even the theorem's first hypothesis**, sealed **PARTIAL**. The summary overstates
+its cell in the direction that makes the record look finished — and the one-liner is what downstream
+surfaces quote. Dated addendum, not an edit.
+
+**Cell 2 — the ℙ³ is CLOSED-PERMANENT** (B1196), hardened twice (B1208: all three named candidates
+negative, the space closed). B1206's own "cheapest" candidate was **MB12-vacuous**, and B1208
+corrected the derivation — t₃-conservation is only the Cartan and admits the rank-1 witness
+`[[0,−3],[0,0]]`; the exclusion needs full SU(2) invariance. The one overturning datum is
+**blocked on codex R030, in flight** — scheduling, not mathematics.
+
+**Cell 3 — answered NEGATIVE in August**, by cell 3's own Mayer–Vietoris method: B1036, *"the double
+gains classes, not the symmetric pairing"*, symmetric support **empty in every cell of every
+block**, the solo antisymmetry wall extending through the seam. Two routes halted at sealed
+controls; two of five pre-registered silent failure modes **fired loudly** — the system working. The
+unrun residual is narrower: the full V-valued double assembly.
+
+**THE PAPER corrected on both rows.** The ℙ³ row moves from *"one condition short, whether a second
+exists reduces to a binary property"* to **closed permanently with the search exhausted on our side
+and one named datum outstanding**; the λ row moves from *"ungated, no acceptance criterion exists"*
+to **gated, with its first hypothesis unmet** — sharper and more falsifiable than conceding a gap.
+16 pages, clean build.
+
+**Methodological finding, now stop rule 1b:** a campaign must audit each cell's premise against
+`already_banked.py` before running it, not only sweep for orphans.
+
+
 ## CELL 0 — the reverse sweep: the gate discharges, and three homonym traps are declined (2026-08-30)
 
 **B1219**, the publication campaign's Cell 0, which **gates Cells 1–3**. `open_claim_sweep.py`

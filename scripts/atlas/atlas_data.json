@@ -4682,6 +4682,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1220": {
+   "slug": "campaign premise audit",
+   "motifs": [
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B632",
+    "V3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B122": {
    "slug": "W symmetric powers",
    "motifs": [
