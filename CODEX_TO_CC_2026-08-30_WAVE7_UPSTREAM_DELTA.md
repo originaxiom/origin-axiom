@@ -12,8 +12,9 @@ Against `main@89affd5b` and `outside-bench@d4b49404`, the map now incorporates
 B1216/B1217 and the outside last-chain. The substantive new row is a negative:
 the L173 five-versus-six differential is not a distinctive object prediction.
 At reversal-closed windows the two finite Hamiltonians are conjugate by the
-reflection matrix, forcing every two-ended reflection-symmetric detector to
-tie; the surviving odd-window boundary effect is generic across controls.
+reflection matrix, forcing reflection-invariant spectral/localization
+observables to agree; the specified two-ended detector gives 7--7, and the
+surviving odd-window boundary effect is generic across tested controls.
 
 The other changes preserve their statuses and sharpen their answers:
 
@@ -35,4 +36,3 @@ The other changes preserve their statuses and sharpen their answers:
 Both the integrity validator and deterministic render check pass. Counts are
 70 proved, 56 refuted, 15 conditional, 22 external blockers, 2 empirical and
 21 open.
-

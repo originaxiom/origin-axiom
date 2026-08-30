@@ -37,11 +37,12 @@ disabled. No branch was merged. This seat remains on `codex/seat-r001`.
 ## One newly registered negative
 
 `OA-C1169` records the outside L173 last-chain. At reversal-closed windows,
-`J H_L J = H_R`; every reflection-symmetric two-ended detector must tie. The
-old imbalance is a one-ended boundary artifact, and odd-window excess recurs
-for non-golden Sturmian slopes. The distinctive five-versus-six prediction is
-therefore `REFUTED`. The separate experimental-readout row stays externally
-blocked because no commissioned measurement exists.
+`J H_L J = H_R`; reflection-invariant spectral/localization observables agree,
+and the specified two-ended detector gives 7--7. The old imbalance is a
+one-ended boundary artifact, and odd-window excess recurs across tested
+non-golden slopes. The distinctive five-versus-six prediction is therefore
+`REFUTED`. The separate experimental-readout row stays externally blocked
+because no commissioned measurement exists.
 
 ## Map state
 
@@ -69,4 +70,3 @@ PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --markdown documents/PROGRAM_QUESTION_ANSWER_MAP.md \
   --as-of 2026-08-30 --check
 ```
-
