@@ -1,5 +1,5 @@
 ==============================================================================
-P3 HOSTILE READ -- main.tex @ 89affd5b (32190 chars)
+P3 HOSTILE READ -- main.tex @ 55dd173c (48120 chars)
 ==============================================================================
 
 ### H1 -- the displayed forcing of section 4 (CONFIRMATORY)
@@ -32,10 +32,10 @@ P3 HOSTILE READ -- main.tex @ 89affd5b (32190 chars)
        so the paper's stated 'chiral' filter excludes them --
        but the DISPLAYED derivation never says so: it parametrises
        the line by Y_q=1 with no remark that Y_q=0 was disposed of.
-    does the draft dispose of the Y_q=0 branch in the text? False
+    does the draft dispose of the Y_q=0 branch in the text? True
 
-  H1 relations OK: True | cubic OK: True | solutions OK: True | displayed derivation complete: False
-  OUTCOME: H1-DEFECT
+  H1 relations OK: True | cubic OK: True | solutions OK: True | displayed derivation complete: True
+  OUTCOME: H1-SOUND
 
 ### H2 -- the two survivors described twice (CONFIRMATORY)
 
@@ -75,8 +75,8 @@ P3 HOSTILE READ -- main.tex @ 89affd5b (32190 chars)
     Two distinct 'exactly two' results are juxtaposed as one.
   REPAIR: one clause distinguishing 'two surviving contents' from 'two rays on a
   fixed content', or drop one of the two counts.
-    section 4 says 'contents survive': False | names a conjugate CONTENT: False
-  OUTCOME: H2-CONFLATION
+    section 4 says 'contents survive': True | names a conjugate CONTENT: True
+  OUTCOME: H2-RESOLVED
 
 ### H3 -- Theorem 2.1's proof (BLIND)
 
@@ -130,10 +130,10 @@ P3 HOSTILE READ -- main.tex @ 89affd5b (32190 chars)
       56  3140      785     2              no
 
       metallic m>1 whose ORDER-CONDUCTOR is a McKay modulus: [(11, 5), (14, 5), (39, 5)]
-    does the draft distinguish the LEVEL from the field CONDUCTOR? False
+    does the draft distinguish the LEVEL from the field CONDUCTOR? True
 
   step 1 exact: True | bound exact: True | reading (b) leaves m=1 unique: False
-  OUTCOME: H3-GAP
+  OUTCOME: H3-COMPLETE
 
 ### H4 -- the abstract's ledger summary vs the section 7 table (CONFIRMATORY)
 
@@ -143,39 +143,36 @@ P3 HOSTILE READ -- main.tex @ 89affd5b (32190 chars)
     $\lambda$              | continuous, dimensionless
     $\PP(B_0)$             | $\leq 3$ continuous
     the chirality bit      | one $\Z/2$
+    the real-structure closing | one antilinear involution
     the arrow label        | one $\Z/2$, finite
     family, VEV, filling   | finite menus
 
-  counted: dimensionful=1  continuous-dimensionless=2  projective=1  discrete/finite=3  TOTAL ROWS=7
+  counted: dimensionful=1  continuous-dimensionless=2  projective=1  discrete/finite=3  TOTAL ROWS=8
 
   abstract's enumeration, verbatim:
     "...freedom ledger withone dimensionful unit that is external by design, two continuous dimensionless anchors, a
-projective line of Higgs data cut to within one condition of a point set, and two discrete labels ---
+projective line of Higgs data cut to within one condition of a point set, and three discrete label rows ---
 one of which is a relational invariant of a pair, belonging to neither relatum, and requiring no act
 of selection."
 
   abstract says: one dimensionful (True), two continuous dimensionless (True), a projective row (True), and TWO discrete labels.
   table has 3 discrete/finite rows, not 2.
-  abstract states 2 discrete rows; table has 3
-  the 3 discrete rows are: ['the chirality bit', 'the arrow label', 'family, VEV, filling']
-  DIRECTION OF THE ERROR: the abstract omits a ledger row, so it
-  UNDERSTATES the construction's freedom. The error is in the paper's favour,
-  in the abstract, in the sentence the paper calls its honest summary.
-  OUTCOME: H4-MISMATCH
+  abstract states 3 discrete rows; table has 3
+  OUTCOME: H4-MATCH
 
 ### H5 -- the falsifier matrix's referents against the body (CONFIRMATORY)
 
   term                 in falsifiers   defined/introduced in sections 1-8
-    anchored             yes             NO
-    odd-parity           yes             NO
-    correlation          yes             NO
+    anchored             no              NO
+    odd-parity           no              NO
+    correlation          no              NO
     registerable         yes             yes
     gaugeable            yes             yes
     bounded-height       no              yes
     projective Higgs     yes             yes
 
-  DANGLING (used in a falsifier, never introduced in the body): ['anchored', 'odd-parity', 'correlation']
-  OUTCOME: H5-DANGLING
+  DANGLING (used in a falsifier, never introduced in the body): []
+  OUTCOME: H5-GROUNDED
 
 ### H7 -- Gate 5 read of the draft (BLIND)
 
@@ -191,13 +188,13 @@ of selection."
       [TARGET-OF-NEGATIVE] ...ified relation, reproduced; the run to $M_Z$ misses at $16\sigma$. \end{nonclaim} \begin{nonclaim} that any dynamics, rate, or action is supplied. \end{nonclaim} \begin{nonclaim} that the ob
 
   every numeral appearing in section 4 (the paper's one explicit derivation):
-    ['1', '2', '3', '4', '6', '15', '18', '27', '72', '222', '252']
+    ['0', '1', '2', '3', '4', '5', '6', '10', '15', '18', '27', '72', '222', '252']
     all are integers: dimensions, multiplicities, counts and hypercharges in
     the integral normalisation. No measured value enters the derivation.
   OUTCOME: H7-CLEAN
 
 ==============================================================================
-SUMMARY: H1-DEFECT | H2-CONFLATION | H3-GAP | H4-MISMATCH | H5-DANGLING | H7-CLEAN
+SUMMARY: H1-SOUND | H2-RESOLVED | H3-COMPLETE | H4-MATCH | H5-GROUNDED | H7-CLEAN
 ==============================================================================
 
 ### H3 addendum -- 'conductor' against the PROGRAMME'S OWN usage

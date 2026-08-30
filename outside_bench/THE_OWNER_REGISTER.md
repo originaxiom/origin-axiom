@@ -692,3 +692,22 @@ the same branch. **This lane has repeatedly built by hand what it already had.**
 **Relayed to cc:** register the lane's documents in the currency gate's `LIVING` registry, and a
 question for the owner — whether the 94-commit branch lag should be closed. This seat did not merge
 `main`; that is a change to the lane's shape and is not its call.
+
+
+---
+
+## ADDENDUM 53 (2026-08-30) — ROW R55: "yes pleaee close the gap and digest verify"
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R55** | Close the branch lag; digest and verify. | **Merged, 99 commits, zero conflicts; lane now 0 behind main.** Verified: 2673 citations all resolve, 2766 files zero retraction violations, certificates re-run clean. **The digest: all six of memo 148's defects are repaired in the current draft** — H3 thoroughly, with the level/field-conductor distinction spelled out and the statement's falsity under the wrong reading stated outright. **Memo 149's drift is NOT repaired** after five adversarial passes, and neither is the zero-citation finding. | memo 155 |
+
+**Bench error #16, and the worst of the seven.** Re-run against the repaired draft, my own hostile-read
+certificate reported **four false positives out of six** — because H1 and H3 tested *mathematical
+invariants* true of every draft, and H2 and H4 *hardcoded the audited draft's wording*. **It was a
+snapshot analysis wearing the shape of a test.** Had I trusted it I would have told the owner six
+repairs had not happened. Repaired, parameterised by pin, and given a two-sided control: all six fire
+at the audit pin and clear at the current draft.
+
+**The sharpest thing learned:** five adversarial passes caught every defect *on the page* and none of
+the one that required reading *the corpus*. Adversarial reading and tracing are not substitutes.

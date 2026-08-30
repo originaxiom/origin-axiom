@@ -9,7 +9,8 @@ import re, subprocess, sys
 from fractions import Fraction
 import sympy as sp
 
-PIN = "89affd5b"
+import os as _os
+PIN = _os.environ.get("OA_PAPER_PIN", "89affd5b")  # audit pin; override to re-check a later draft
 TEX = subprocess.run(["git","show",f"{PIN}:papers/P3_THE_PAPER/main.tex"],
                      capture_output=True, text=True, cwd="/home/user/origin-axiom").stdout
 assert len(TEX) > 10000, "could not read the draft at the pin"
@@ -80,6 +81,11 @@ if sp.simplify(cube_zero) == 0:
     H1_complete = False
 else:
     H1_complete = True
+# BENCH ERROR #16 REPAIR: the cubic vanishing on Y_q=0 is a MATHEMATICAL INVARIANT and
+# fires for every draft. The defect is whether the TEXT disposes of the branch. Test that.
+H1_text = bool(re.search(r"Y_q *= *0", TEX)) and bool(re.search(r"vector-?like", TEX))
+H1_complete = H1_text
+print(f"    does the draft dispose of the Y_q=0 branch in the text? {H1_text}")
 print(f"\n  H1 relations OK: {H1_lin} | cubic OK: {H1_cube} | solutions OK: {H1_sols}"
       f" | displayed derivation complete: {H1_complete}")
 H1 = "H1-SOUND" if (H1_lin and H1_cube and H1_sols and H1_complete) else "H1-DEFECT"
@@ -123,7 +129,13 @@ print("""
     Two distinct 'exactly two' results are juxtaposed as one.
   REPAIR: one clause distinguishing 'two surviving contents' from 'two rays on a
   fixed content', or drop one of the two counts.""")
-H2 = "H2-CONFLATION"
+# BENCH ERROR #16 REPAIR: parse the draft rather than assert the audited draft's wording.
+_sec4 = TEX.split("What is forced")[1].split("What is withheld")[0] if "What is forced" in TEX else TEX
+_says_contents = bool(re.search(r"two\}? *contents survive|contents survive", _sec4))
+_names_conj = bool(re.search(r"conjugate content", _sec4))
+_still_lists_rays = bool(re.search(r"1,-4,2,-3,6|1,\s*-4,\s*2,\s*-3,\s*6", _sec4.replace("$","")))
+print(f"    section 4 says 'contents survive': {_says_contents} | names a conjugate CONTENT: {_names_conj}")
+H2 = "H2-CONFLATION" if not (_says_contents and _names_conj) else "H2-RESOLVED"
 print(f"  OUTCOME: {H2}")
 
 # ---------------------------------------------------------------- H3
@@ -193,7 +205,13 @@ for m in range(1,60):
         print(f"      {m:<3} {D:<9} {dK:<7} {f:<14} {'YES' if f in (3,4,5) else 'no'}{mark}")
 print(f"\n      metallic m>1 whose ORDER-CONDUCTOR is a McKay modulus: {hits}")
 H3_step2b = len(hits)==0
-H3 = "H3-COMPLETE" if (H3_step1 and bound_ok and H3_step2b) else "H3-GAP"
+# BENCH ERROR #16 REPAIR (third instance): H3_step2b is a MATHEMATICAL INVARIANT -- those
+# metallic m always have order-conductor 5 -- so it fired on every draft. The defect was
+# never the arithmetic; it was that the paper used an undefined, colliding word. Test THAT.
+_defines = bool(re.search(r"not its field conductor|is the \\emph\{level\}|:= *m\^2\+4", TEX)) \
+           and bool(re.search(r"level", TEX))
+print(f"    does the draft distinguish the LEVEL from the field CONDUCTOR? {_defines}")
+H3 = "H3-COMPLETE" if (H3_step1 and bound_ok and _defines) else "H3-GAP"
 print(f"\n  step 1 exact: {H3_step1} | bound exact: {bound_ok} | reading (b) leaves m=1 unique: {H3_step2b}")
 print(f"  OUTCOME: {H3}")
 
@@ -218,7 +236,13 @@ print(f"\n  abstract's enumeration, verbatim:\n    \"...freedom ledger with{led.
 print(f"\n  abstract says: one dimensionful ({n_dimful==1}), two continuous dimensionless"
       f" ({n_cont==2}), a projective row ({n_proj==1}), and TWO discrete labels.")
 print(f"  table has {n_discrete} discrete/finite rows, not 2.")
-H4 = "H4-MATCH" if n_discrete==2 else "H4-MISMATCH"
+# BENCH ERROR #16 REPAIR: the old cell hardcoded "2" (the audited draft's wording) and so
+# fired on ANY draft whose table has 3 rows, including a repaired one. Parse the abstract.
+_words = {"one":1,"two":2,"three":3,"four":4,"five":5,"six":6,"seven":7}
+_m = re.search(r"and (one|two|three|four|five|six|seven) discrete", abstract)
+n_abstract = _words.get(_m.group(1)) if _m else None
+print(f"  abstract states {n_abstract} discrete rows; table has {n_discrete}")
+H4 = "H4-MATCH" if n_abstract == n_discrete else "H4-MISMATCH"
 if H4=="H4-MISMATCH":
     disc=[a.strip() for a,b in cells if ("\\Z/2" in b or "finite" in b)]
     print(f"  the {n_discrete} discrete rows are: {disc}")
