@@ -164,10 +164,24 @@ that \emph{given} the object they select, the consequences in
 Two facts survive \S\ref{sec:generic}. Everything this paper claims is built on them and on nothing
 else.
 
-\paragraph{Arithmeticity.} Among knot complements, $m004$ is the \emph{unique} arithmetic one. This
-is a theorem of the literature, not of ours, and it is the reason the invariant trace field
-$\Q(\sqrt{-3})$ is distinguished where the group-theoretic scaffolding above it is not. Where our
-construction uses the object rather than its ADE shadow, it uses this.
+\paragraph{Arithmeticity --- and it is a statement about the class, not the manifold.} Among knot
+complements, $m004$ is the \emph{unique} arithmetic one. That is a theorem of the literature and it
+is true, but \textbf{we must be careful about what our construction actually consumes}, and it is not
+that uniqueness.
+
+What the chain buys is the \emph{invariant trace field} $\Q(\sqrt{-3})$ --- and a trace field is a
+\emph{commensurability-class} invariant, not a manifold invariant. The sibling $m003$ carries the
+same field and the same volume (\S\ref{sec:generic}); it is not separated from $m004$ by anything the
+chain purchases. Knot-ness enters exactly once, and as a \emph{discriminator} rather than a
+foundation: $H_1(m003) = \Z/5 \oplus \Z$ against $H_1(m004) = \Z$.
+
+\begin{scopenote}
+So the honest form of this paper's positive content is: \textbf{a theorem about the commensurability
+class of $\Q(\sqrt{-3})$, joined to a theorem about $E_6$ by a generic fact.} It is strong as a
+statement about the class and weak as a statement about $m004$ in particular, and we state it the
+first way. Uniqueness of the arithmetic knot complement is load-bearing at no step of the
+construction; we cite it because it is true and relevant, not because anything rests on it.
+\end{scopenote}
 
 \paragraph{A uniqueness at the level of grammars.} The second is ours, and it is a proof over an
 infinite family rather than a census.
@@ -239,10 +253,21 @@ audit of the executable statement of the argument confirms it. The uniqueness is
 alphabet-dependent: widening the alphabet to adjoints admits seven contents, and to a further
 bi-fundamental fourteen. \textbf{Minimality, not uniqueness, is the arena-independent part.}
 
-\paragraph{What the object contributes is the arena.} Two things, and they are not nothing: a rank-3
-abelian sector, realised in the object's own trinification frame as the abelian complement of three
+\paragraph{What the object contributes is the arena --- with one honest subtraction.} Two things: a
+rank-3 abelian sector, realised in a trinification frame as the abelian complement of three
 orthogonal $A_2$s among the $72$ roots; and the availability of a Standard-Model-shaped $15$-plet
 inside the $27$. Given those, the anomaly conditions do the rest.
+
+\begin{scopenote}
+We should not claim both as supplied. Our own source for the forcing states that \emph{which} $A_2$
+is colour, and the choice of an SM-shaped assignment, are \textbf{observer inputs} --- the theorem
+forces the hypercharge \emph{given} them. A later result reduces that choice to no free bits, but
+only by requiring Standard-Model compatibility, which is target knowledge and inadmissible by the
+standard \S\ref{sec:generic} sets for this paper; another prices the same choice at several bits with
+no selection mechanism. \textbf{Our sources do not agree here, and we adopt the weakest reading}: the
+frame and the shaping are inputs, and the arena is correspondingly smaller than the paragraph above
+would suggest.
+\end{scopenote}
 
 \paragraph{The forcing, explicitly.} On an SM-shaped $15$-plet the three linear conditions ---
 $[\mathrm{SU}(3)]^2Y$, $[\mathrm{SU}(2)]^2Y$ and $\mathrm{grav}^2 Y$ --- cut the five-dimensional
@@ -279,13 +304,26 @@ among $\{1,\Z_2,\Z_3,\Z_6\}$. Here it is fixed:
 $\bigl[\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)\bigr]/\Z_6$, with the kernel computed
 exactly and uniformly across six independent realisations of the relevant Weyl data. \textbf{This is
 the clearest positive result in the paper} --- a structural ambiguity the Standard Model does not fix,
-fixed --- and it is falsifiable in principle through line-operator spectra.
+fixed. \textbf{The derivation is standard}: the subalgebra exponentiates inside $\mathrm{SU}(5)$ to
+$S(\mathrm{U}(3)\times\mathrm{U}(2))$, whose kernel is $\Z_6$ --- which is why $\mathrm{SU}(5)$
+quantises hypercharge, and is decades old. What is not standard is that anything here \emph{selects}
+the embedding. The modern observation that the four quotients are experimentally near-indistinguish\-able
+is Tong's~\cite{tong}, cited, not ours.
 
 \paragraph{The cascade terminates, and the termination is the theorem.} The descent halts at the
 Standard Model algebra because that algebra is \emph{terminal} among the registerable ones: every
 proper further descent destroys registerability, while the Standard Model itself remains chiral. The
 criterion has a positive control --- other candidates fail it --- which is what makes ``it stops
 here'' a statement rather than an observation.
+
+\begin{scopenote}
+Two disclosures the source requires. First, \emph{registerable} means the generation stays
+\textbf{chiral} --- and chirality is one of the externally supplied rows of \S\ref{sec:ledger}, so
+the termination criterion is stated in terms of the observer's datum rather than the object's.
+Second, the underlying result fences itself: it is not exhaustive over exotic conformal embeddings,
+and it imports a menu-completeness claim whose stage-level formalisation is still owed. ``The
+termination is the theorem'' is true within those fences and not beyond them.
+\end{scopenote}
 
 \paragraph{And the adjoint cannot do matter.} What the object supplies is the adjoint half of the
 breaking, not the $27$ half, and there is a mechanism: the adjoint does not occur in
@@ -398,9 +436,11 @@ classification question; by the standard this paper set for itself in \S\ref{sec
 recurrence forced by the shortness of the catalogue is not evidence. We record the coincidence and
 claim nothing from it.
 
-\paragraph{It cannot be absorbed.} Every operation internal to the object --- letter exchange, word
-reversal, inversion, the lift signs, the Fricke twists --- preserves $\kappa$ \emph{identically}, as a
-polynomial identity rather than at a point. But $\kappa$ takes different values at the object's own
+\paragraph{It cannot be absorbed.} By \emph{internal} we mean the group \textbf{generated by}
+letter exchange, word reversal, inversion, the three lift signs and the two Fricke twists --- the
+qualifier matters, since without it the claim would be unfalsifiable by construction. Every element
+of that group preserves $\kappa$ \emph{identically}, as a polynomial identity rather than at a
+point, and the generating relation is closed under composition because each generator is. But $\kappa$ takes different values at the object's own
 point and at its mirror. No composition of internal operations can therefore carry one to the other:
 the mirror is precisely the operation the object cannot perform on itself. \textbf{This is why the
 bit is exactly one, and external.}
@@ -469,6 +509,14 @@ the chirality bit & one $\Z/2$ &
 \textbf{Relational and selection-free.} It is an invariant of a heterogeneous \emph{pair}, belonging
 to neither relatum, and arrives without any act of selection. What remains supplied is which pair:
 we show the partner is \emph{not} canonical, at both the field and the embedding level. \\[2pt]
+the real-structure closing & one antilinear involution &
+\textbf{External, and favourable.} Nothing above makes the gauge factors \emph{compact}, and this
+paper has spoken of $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$ throughout. Compactness
+arrives only from an \emph{antilinear} involution --- no linear twist delivers it --- and the
+object's own arithmetic mirror acts trivially on the rational colour layer, so \textbf{the mirror
+provably cannot supply it}. The closing costs one conjugation, and that single conjugation supplies
+the Lorentz signature and compact colour \emph{together}, the real form then being forced.
+Favourable, and still not ours. \\[2pt]
 the arrow label & one $\Z/2$, finite &
 \textbf{Closed, in the only available form.} A finite label; the seed is external, propagation
 internal. \\[2pt]
@@ -510,34 +558,52 @@ $E_6$, is standard structure theory.
 here.
 \item \textbf{The chain $E_6 \supset \mathrm{SO}(10) \supset \mathrm{SU}(5)$}, anomaly cancellation
 over the $16$, and the decomposition $27 = 16 + 10 + 1$. All standard.
+\item \textbf{The anomaly $\to$ hypercharge forcing of \S\ref{sec:forced}} --- three linear
+conditions to a line, then the cubic to $t = \pm3$. This is the classical one-generation
+hypercharge-anomaly computation and its two solutions are long known. \emph{We reproduce it; we do
+not claim it.} What our setting contributes is the arena it runs in --- and \S\ref{sec:forced} states
+how much of that arena is itself supplied.
+\item \textbf{The $\Z_6$ kernel computation}, as a consequence of the $\mathrm{SU}(5)$ embedding.
+\item \textbf{Homogeneity of the anomaly conditions in the abelian charge.} The normalisation no-go
+of \S\ref{sec:withheld} is that fact; what we add is only its statement as a property of the
+\emph{equations}, which is presentational rather than mathematical --- and the standard
+$\sqrt{5/3}$ normalisation is the same fact wearing different clothes.
 \item \textbf{Mostow rigidity's scale-freedom.} Standard, and the reason \S\ref{sec:withheld} can
 state the scale row as a theorem rather than a gap.
 \end{itemize}
 
-\noindent What is \emph{not} on this list, and to our knowledge is not standard: the derivation of the
-global form; the termination theorem; the exhaustive disjointness of the object's periods from the
-target set; the normalisation no-go stated as a property of the equations; and the pricing of the
-observer in \S\ref{sec:observer}.
+\noindent What is \emph{not} on this list, and to our knowledge is not standard: that anything in
+this setting \emph{selects} the $\mathrm{SU}(5)$ embedding whose kernel is $\Z_6$; the termination
+result, within the fences \S\ref{sec:forced} states; the exhaustive disjointness of the object's
+periods from the target set, at the counts given in \S\ref{sec:withheld}; and the pricing of the
+observer in \S\ref{sec:observer}. \textbf{Four items were moved off this list during revision}, each
+after a textbook precedent was found, and we offer that number as a better guide to the paper's
+novelty than any claim we could make for it.
 
 \section{Falsifiers}\label{sec:falsifiers}
 
-Each of the following would refute a specific claim of this paper, and for each we state the
-computation that settles it.
+Five of the following would refute a specific claim of this paper, and for each we state the
+computation that settles it. \textbf{The sixth is not a falsifier} --- it is an upgrade trigger, and
+we list it here rather than hide the asymmetry.
 
 \begin{enumerate}[leftmargin=1.6em,itemsep=3pt]
 \item \textbf{Exhibit an internal operation of the object that carries its point to its mirror.}
 This kills \S\ref{sec:observer}'s irremovability claim directly: we argue no composition of internal
 operations can do so, because all of them preserve an invariant that separates the two.
-\item \textbf{Exhibit a second admissible partner giving the opposite sign.} \S\ref{sec:observer}
-claims the class is well defined on the pair; a pair admitting both signs under the stated
-conditions would refute that, and would do so without touching the partner-canonicity question we
-have already conceded.
-\item \textbf{Exhibit a period of the object entering an algebraic relation with a target within the
-stated height and precision.} This kills \S\ref{sec:withheld}'s central negative.
+\item \textbf{Exhibit one pair --- a fixed field \emph{and} a fixed relative embedding --- admitting
+both signs.} The qualifier matters: \S\ref{sec:observer} already concedes that the outcome varies
+\emph{across} embeddings, so a reader who finds embedding-dependence has reproduced a conceded fact
+rather than refuted a claim. What would refute the claim is a single fixed pair carrying both.
+\item \textbf{Exhibit a period of the object entering an algebraic relation with a target} at
+degree $\le 3$ and height $\le 10^6$, at the working precision of \S\ref{sec:withheld}. This kills
+that section's central negative. \emph{The bounds are given here because a falsifier a reader cannot
+execute is a gesture}; earlier drafts stated none.
 \item \textbf{Exhibit a proper descent below the Standard Model algebra that remains registerable.}
 This kills the termination theorem.
-\item \textbf{Exhibit a second gaugeable abelian direction in the chain over chiral matter.} This
-kills the hypercharge-direction claim.
+\item \textbf{Exhibit a second gaugeable abelian direction over chiral matter, inequivalent to a
+relabelling of the content's field types.} The qualifier is essential and its absence was a defect:
+without it the paper refutes itself on page~6, since $(1,-4,2,-3,6)$ and $(1,2,-4,-3,6)$ are two
+distinct rays that coincide only after relabelling $u^c \leftrightarrow d^c$.
 \item \textbf{Supply the missing condition on the projective Higgs line.} This one does \emph{not}
 kill anything --- it \emph{upgrades} a row of the freedom ledger, and we name it here so that the
 asymmetry is visible. Should it be supplied, the row becomes a finite point set and not a unique
@@ -550,9 +616,13 @@ We end where the work stops.
 
 \paragraph{What a specialist would have to supply.} The remaining open rows of
 \S\ref{sec:ledger} are not vague. The $\sigma$ row needs one object: a graded character of a boundary
-chiral algebra at a stated central charge, meeting a short list of conditions --- a named module, the
-correct prefactor, non-negative integer coefficients, and an asymptotic growth recovering the right
-number of degrees of freedom, where the construction currently supplies one and needs six. The
+chiral algebra, meeting six stated conditions --- a named module of a named algebra at a
+\emph{pre-fixed} rational central charge; the correct $q^{h-c/24}$ prefactor rather than a shift
+chosen to fit; non-negative integer coefficients once that prefactor is stripped; the central charge
+equal to $6$ exactly; an asymptotic growth recovering six units where the construction supplies one;
+and \textbf{that it be the object's own datum rather than a model whose central charge happens to
+sum correctly}. The last is the anti-numerology clause and the one we would least want dropped.
+The third has a non-empty passing branch, checked, so the gate is not vacuous. The
 candidate set is presently empty, and we have documented the emptiness rather than left it implied.
 
 \paragraph{What has no gate at all.} The $\lambda$ row is weaker than that, and we say so. It is the
@@ -571,5 +641,34 @@ theory of everything. Three chiral generations are not derived. No unique four-d
 theory follows, and unrestricted uniqueness is refuted. There is no dynamics, no rate, and no action
 beyond the structural statements above. What there is, is a boundary --- drawn in both directions,
 with the negatives proved rather than reported, and with the residue priced.
+
+\begin{thebibliography}{9}\small
+\bibitem{bds} A.~Borel and J.~de~Siebenthal, \emph{Les sous-groupes ferm\'es de rang maximum des
+groupes de Lie clos}, Comment.\ Math.\ Helv.\ \textbf{23} (1949), 200--221.
+\bibitem{dynkin} E.~B.~Dynkin, \emph{Semisimple subalgebras of semisimple Lie algebras},
+Mat.\ Sbornik \textbf{30} (1952), 349--462.
+\bibitem{mostow} G.~D.~Mostow, \emph{Quasi-conformal mappings in $n$-space and the rigidity of
+hyperbolic space forms}, Publ.\ Math.\ IH\'ES \textbf{34} (1968), 53--104.
+\bibitem{reid} A.~W.~Reid, \emph{Arithmeticity of knot complements}, J.\ London Math.\ Soc.\ (2)
+\textbf{43} (1991), 171--184.
+\bibitem{maclachlanreid} C.~Maclachlan and A.~W.~Reid, \emph{The Arithmetic of Hyperbolic
+3-Manifolds}, Graduate Texts in Mathematics \textbf{219}, Springer, 2003.
+\bibitem{mckay} J.~McKay, \emph{Graphs, singularities, and finite groups}, Proc.\ Sympos.\ Pure
+Math.\ \textbf{37} (1980), 183--186.
+\bibitem{thurston} W.~P.~Thurston, \emph{The Geometry and Topology of Three-Manifolds}, Princeton
+lecture notes, 1978--80.
+\bibitem{nz} W.~D.~Neumann and D.~Zagier, \emph{Volumes of hyperbolic three-manifolds}, Topology
+\textbf{24} (1985), 307--332.
+\bibitem{fricke} R.~Fricke and F.~Klein, \emph{Vorlesungen \"uber die Theorie der automorphen
+Functionen}, Teubner, 1897.
+\bibitem{tong} D.~Tong, \emph{Line operators in the Standard Model}, JHEP \textbf{07} (2017) 104,
+arXiv:1705.01853.
+\bibitem{slansky} R.~Slansky, \emph{Group theory for unified model building}, Phys.\ Rep.\
+\textbf{79} (1981), 1--128.
+\bibitem{lee} D.~U.~Lee, \emph{Chern--Simons invariants of hyperbolic three-manifolds, mixed Tate
+motives, and motivic path torsor of augmented character varieties}, arXiv:2502.11950.
+\bibitem{snappy} M.~Culler, N.~M.~Dunfield, M.~Goerner and J.~R.~Weeks, \emph{SnapPy, a computer
+program for studying the geometry and topology of 3-manifolds}, \texttt{snappy.computop.org}.
+\end{thebibliography}
 
 \end{document}
