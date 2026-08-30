@@ -173,3 +173,28 @@ computation on the record.
 
 **Q7 and Q8 stand as drafted. Q10 is answered (memo 156). Q9 is withdrawn pending a rewrite around
 the live mechanism.**
+
+---
+
+## ADDENDUM 3 (2026-08-30) — Q7 SHOULD BE REWRITTEN BEFORE IT IS SENT
+
+Memo 160. **A standard tool was never tried: zero arcs in the corpus mention strong approximation**,
+and `B1099`'s literature floor read three orbit-*parametrisation* sources without reaching the
+group-theoretic one. The count of `G(ℤ)`-orbits inside a `G(ℚ)`-orbit is governed by the
+**stabilizer's class set**, which Kneser–Platonov makes **trivial** under three hypotheses.
+
+**Three of the five now hold or hold-conditionally**, one of them closed by the record itself:
+`B904`'s **Zorn (split) octonions over ℚ** force a split Albert algebra, hence split F₄ and Spin(8),
+hence **`H(ℝ)` non-compact**. And three facts converge on the identification — the dimension count
+gives exactly **28 = dim D₄**; `B904` already built **`tri(𝕆)`, dim 28, as an exact nullspace over
+ℚ**; and `K` is **totally real with Gal = S₃**, which is exactly a trialitarian twisting datum.
+
+**Two remain unverified and are the ask:** that the stabilizer of the object's own pair *is* that
+form of Spin(8), and that the orbit count equals its class set.
+
+**Rewrite Q7 as:** *the stabilizer appears to be a trialitarian form of Spin(8), twisted by our
+totally-real S₃ cubic field, over split octonions — is it, and does the orbit count equal its class
+set?* **A yes/no question with named hypotheses**, not a request to invent a theorem whose
+neighbours have been open since 2004.
+
+**Not sent. This bench does not conclude Route A crosses**, and `B990`'s unfavourable prior stands.

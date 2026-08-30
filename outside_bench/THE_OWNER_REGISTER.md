@@ -794,3 +794,18 @@ superseded. The last round found a **dead regex** that had been inert since I wr
 **The sweep found a third document carrying the stale quine claim** — `THE_CLOSURE_ROUTES.md`, one I
 had never audited. `L2-CLEAN` is true only **because this cell cleaned it**, which is what my
 declared prior said to expect.
+
+
+---
+
+## ADDENDUM 58 (2026-08-30) — ROW R60: "lets go for q7"
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R60** | Go for Q7. | **A standard tool was never tried: zero arcs in the corpus mention strong approximation** — the tool that governs exactly the count `B990` asks for. Three of its five hypotheses now hold, one closed by the record itself (`B904`'s **split** Zorn octonions ⟹ split Spin(8) ⟹ non-compact at ℝ). **Three facts converge on the identification:** the dimension count gives exactly **28 = dim D₄**; `B904` already built **tri(𝕆), dim 28, as an exact nullspace over ℚ**; and `K` is **totally real with Gal = S₃**, which is precisely a trialitarian twisting datum. **Two hypotheses remain unverified, and they are now the ask.** | memo 160 |
+
+**The fence, held.** This does **not** conclude Route A crosses. A dimension match is evidence, not
+an identification; three converging facts are not a proof; and `B990`'s unfavourable prior stands
+unrepudiated. **What changed is the shape of the question** — from *"invent a theorem whose
+neighbours have been open since 2004"* to a **yes/no with named hypotheses**. Q7 should be rewritten
+around it before it is sent.
