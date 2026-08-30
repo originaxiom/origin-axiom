@@ -1,5 +1,37 @@
 # Changelog
 
+## THE PUBLICATION CAMPAIGN opened — and a tenth E53 instance, mine, on the day I minted the class (2026-08-30)
+
+**`docs/PUBLICATION_CAMPAIGN.md`**: six cells for the six things standing between the programme and
+a publication-ready paper — λ's missing acceptance criterion, the ℙ³'s second condition, R53-3's
+unswept remainder, B632's genuinely-unrun cell, the referee-facing verification appendix, and the
+hostile read of the paper's new §3. Expectations are **pre-registered before any cell runs**,
+because B1216's pre-registration was wrong in an instructive way and that is only visible if the
+prediction is on the record first.
+
+**The ordering is earned, not preferred.** Cell 0 — the reverse sweep — runs first and gates the
+rest, because twice in one day this bench called something open that was already banked.
+
+**The second time is the correction in this commit.** The relayed claim that *B632's cell 2 is
+queued and unrun* was propagated into four surfaces without checking. **Cell 2 RAN 2026-07-15**,
+sealed prereg (sha `dc2be090`), verdict PROVED: C exactly unique in B575's basis (45
+zero-weight-sum triples, a 180-equation invariance system with a 1-dimensional solution space, all
+45 coefficients nonzero); the forced vev couples to **all three** generation slots with B_C
+block-diagonal — *the sl₂ prediction verified* — and c₀, c₄, c₈ all nonzero; the component census
+reproduces the triangle rules exactly (seven allowed present, three forbidden absent); Ω is nonzero
+on all three pairs, so **no generation-pair decouples**. The cell-1 "three diagonal values"
+prediction resolved **DISSOLVED-BY-OBSTRUCTION**.
+
+**The genuinely unrun cell is cell 3** — the *symmetric* texture on the **double** via
+Mayer–Vietoris, where h¹ = 5 rather than 3. The solo object carries only the antisymmetric half.
+
+**Where the record was, which is the whole lesson.** B632's own FINDINGS carries
+`## Cell 2 (queued, own prereg)` one section above `## CELL 2 (2026-07-15) …`, and the canonical
+`PROGRESS_LOG.md` has held the run since the day it happened. **E53 inside a single document, and
+inside the live log.** Corrected on all four surfaces it reached (OPEN_PROBLEMS, CHANGELOG,
+the cloud relay, the relay ledger), with the correction stated in place rather than silently.
+
+
 ## THE PAPER gains its spine, and Gate C closes (2026-08-30)
 
 **THE PAPER — the chain, link by link (new §3).** The owner's directive: *not-nothing → SM
@@ -37,8 +69,10 @@ is single-object.
 
 **It relocates the generation question rather than answering it**, and the doc says so: B632's
 h¹(M;27) = 3 is exact but **graded** (spins 0, 4, 8, *"not three interchangeable copies"*, stated at
-banking), explicitly *"NOT blocked by B307"*, and its cell 2 — a block-diagonality prediction
-registered before it runs — is **queued and unrun**. All **five** load-bearing "four named gates"
+banking), explicitly *"NOT blocked by B307"*, and its **cell 3** — the symmetric texture on the double via
+Mayer--Vietoris — is registered and unrun. *(Corrected 2026-08-30: this entry first said "cell 2 is queued
+ and unrun", relayed and not checked. Cell 2 RAN 2026-07-15 under a sealed prereg, PROVED —
+the tenth E53 instance, and mine, on the day I minted the class.)* All **five** load-bearing "four named gates"
 references updated to three (A, B, D); leaving any one would have reproduced the class.
 
 ## E53 gains instances #8–#9 — and an independent same-day arrival

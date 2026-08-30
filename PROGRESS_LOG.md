@@ -12874,3 +12874,21 @@ Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
 
+## 2026-08-30 — THE PUBLICATION CAMPAIGN opened; B632 cell-2 correction (the tenth E53 instance)
+
+Six cells (`docs/PUBLICATION_CAMPAIGN.md`) with pre-registered expectations: Cell 0 the reverse
+sweep (arcs→surfaces, discharging R53-3) which **gates the rest**; Cell 1 λ's acceptance gate (the
+deliverable is a *failable criterion*, not a value — the row is currently an MB12 vacuity inside our
+own ledger); Cell 2 the ℙ³'s second condition **by exhaustion** (expected: none, which would convert
+an open row into a proven no-go); Cell 3 B632's symmetric texture on the double; Cell 4 the
+referee-facing verification appendix (falsifier: any untraceable sentence is repaired or deleted);
+Cell 5 the hostile read of §3 **from both directions** — page and record, which this window proved
+are not substitutes.
+
+**Correction banked:** cell 2 was said to be unrun; it **ran 2026-07-15**, PROVED, under a sealed
+prereg. Tenth E53 instance, propagated by this bench on the day the class was minted. Cell 3 is the
+unrun one. Corrected on all four surfaces.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---
