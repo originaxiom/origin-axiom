@@ -1,0 +1,79 @@
+PASS chart 00 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 00 multiplier_terms=[266, 332, 331, 281, 323]
+PASS chart 01 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 01 multiplier_terms=[338, 421, 403, 353, 349]
+PASS chart 02 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 02 multiplier_terms=[342, 421, 411, 357, 421]
+PASS chart 03 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 03 multiplier_terms=[341, 422, 411, 356, 421]
+PASS chart 04 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 04 multiplier_terms=[337, 422, 404, 353, 348]
+PASS chart 05 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 05 multiplier_terms=[265, 331, 330, 281, 324]
+PASS chart 06 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 06 multiplier_terms=[361, 445, 375, 454, 437]
+PASS chart 07 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 07 multiplier_terms=[539, 637, 552, 692, 556]
+PASS chart 08 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 08 multiplier_terms=[354, 416, 370, 451, 436]
+PASS chart 09 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 09 multiplier_terms=[354, 417, 371, 452, 436]
+PASS chart 10 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 10 multiplier_terms=[538, 637, 555, 692, 556]
+PASS chart 11 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 11 multiplier_terms=[361, 445, 375, 454, 436]
+PASS chart 12 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 12 multiplier_terms=[393, 412, 495, 492, 470]
+PASS chart 13 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 13 multiplier_terms=[428, 445, 549, 554, 441]
+PASS chart 14 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 14 multiplier_terms=[357, 375, 447, 455, 434]
+PASS chart 15 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 15 multiplier_terms=[358, 375, 447, 455, 434]
+PASS chart 16 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 16 multiplier_terms=[429, 444, 549, 553, 442]
+PASS chart 17 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 17 multiplier_terms=[393, 412, 495, 494, 472]
+PASS chart 18 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 18 multiplier_terms=[393, 494, 495, 412, 472]
+PASS chart 19 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 19 multiplier_terms=[429, 554, 550, 445, 441]
+PASS chart 20 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 20 multiplier_terms=[361, 467, 453, 376, 439]
+PASS chart 21 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 21 multiplier_terms=[358, 456, 446, 375, 434]
+PASS chart 22 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 22 multiplier_terms=[427, 553, 550, 444, 442]
+PASS chart 23 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 23 multiplier_terms=[392, 493, 495, 412, 470]
+PASS chart 24 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 24 multiplier_terms=[360, 454, 375, 445, 437]
+PASS chart 25 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 25 multiplier_terms=[539, 693, 555, 637, 556]
+PASS chart 26 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 26 multiplier_terms=[354, 450, 371, 417, 435]
+PASS chart 27 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 27 multiplier_terms=[354, 452, 370, 416, 436]
+PASS chart 28 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 28 multiplier_terms=[369, 470, 382, 454, 381]
+PASS chart 29 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 29 multiplier_terms=[361, 453, 375, 445, 437]
+PASS chart 30 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 30 multiplier_terms=[266, 281, 331, 330, 324]
+PASS chart 31 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 31 multiplier_terms=[337, 352, 404, 422, 349]
+PASS chart 32 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 32 multiplier_terms=[342, 357, 411, 422, 420]
+PASS chart 33 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 33 multiplier_terms=[342, 357, 411, 421, 421]
+PASS chart 34 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 34 multiplier_terms=[378, 394, 443, 470, 389]
+PASS chart 35 integral generators reduce to a literal GF(1009) unit identity
+DATA chart 35 multiplier_terms=[266, 281, 332, 332, 323]
+PASS all 36 integral generator payloads reconstruct from the source-locked height-308 vector and toric frames
+DATA all36 gzip_sha256=2efb53af4467fedaef5177f348e2c278311c88f736e4ddb03b843c16271b081e
+CONTROL planted multiplier perturbation rejected on all 36 charts
+PASS exact C12 chart action has three length-12 orbits represented by 0,1,2
+RESULT GF(1009) selected four-Phi base locus is empty on all 36 toric charts
+THEOREM proper-image specialization promotes it to an empty Q(zeta_12) generic base locus
+SCOPE coverage only: no characteristic-zero Bezout multipliers, residue row, Yukawa value or Serre-tail map
