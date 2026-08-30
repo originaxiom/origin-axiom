@@ -198,3 +198,33 @@ set?* **A yes/no question with named hypotheses**, not a request to invent a the
 neighbours have been open since 2004.
 
 **Not sent. This bench does not conclude Route A crosses**, and `B990`'s unfavourable prior stands.
+
+---
+
+## ADDENDUM 4 (2026-08-30) — Q7 IS NOW WORTH SENDING, AT FOUR OF FIVE
+
+Memos 160–162. **Four of the five hypotheses are discharged**, one of them by direct computation:
+
+| hypothesis | closed by |
+|---|---|
+| `H(ℝ)` non-compact | `B904` — split Zorn octonions ⟹ split Spin(8) |
+| stabilizer algebra is D₄ | memo 161 — dim 28 by construction, rank 4, **simple** |
+| the object's own pair is regular | `B969` — étale pencil cubic, irreducible, returning K |
+| the group is **simply connected** | memo 162 — **triality**: `27 = 1+1+1+8v+8s+8c`, so `8s`/`8c` present |
+| **orbit count = class set** | **OPEN — the ask** |
+
+**The rewritten Q7:**
+
+> The stabilizer of the object's regular pair is a trialitarian **Spin(8)** — computed: the 27
+> breaks `1+1+1+8v+8s+8c`, so the spin representations are present — over **split** octonions, with
+> `K = ℚ[x]/(x³−12x−5)` totally real, `Gal = S₃`, `h(K) = 1`, and every classical obstruction proved
+> absent. **Does the count of `G(ℤ)`-orbits inside the `G(ℚ)`-orbit equal this stabilizer's class
+> set, and is that class set trivial by strong approximation?**
+
+**Why either answer pays, unchanged:** *yes* ⟹ `B990`'s orbit-to-point gap crosses and the
+rank-closing VEV direction moves from supplied to derived; *no* ⟹ Route A closes and *"the finite
+menu is terminal"* becomes a theorem instead of the assertion the paper currently makes.
+
+**Still not sent.** And the fences hold: this does **not** cross Route A, `B990`'s unfavourable prior
+stands, the **integral** group scheme over ℤ is a further gap named and not skipped, and a crossing
+would yield a **direction, never a value**.

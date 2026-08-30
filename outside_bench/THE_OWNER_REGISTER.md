@@ -827,3 +827,24 @@ construction (not subtraction), rank 4, and **simple** (every basis element's ce
 **Still open, and now sharper:** 𝔰𝔬(8) is compatible with Spin(8), SO(8) and PGO(8), and **only the
 simply connected form gives strong approximation.** Plus the orbit-count/class-set bijection. **Route
 A has not been shown to cross**, and `B990`'s unfavourable prior stands.
+
+
+---
+
+## ADDENDUM 60 (2026-08-30) — ROW R62: "go with your recomendations"
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R62** | B then A on Q7. | **Both closed, and Q7 is now at four of five.** **A (the triality test):** the 27 breaks `1+1+1+8v+8s+8c` — commutant dimension **12** at two primes, where SO(8) would give 18 — so the spin representations `8s`/`8c` are present and **the group is the simply connected Spin(8)**, exactly what strong approximation requires. **B (the pair):** `B969` pins it — the **vacuum 3-block**, whose pencil cubic is **μ = s³−12s−5, K's own defining polynomial**, irreducible and returning K 3-for-3, hence étale, hence a **regular** orbit — so memo 161's result applies to the object's own pair. | memo 162 |
+
+**My declared prior was wrong again, in the same direction:** I sealed `T3-UNPINNED` and the record
+had the pair. **Third time this session** that testing a predicted "not available" turned up banked
+material — it is becoming the most reliable thing this bench does.
+
+**The fences bind harder now, not less.** This does **not** cross Route A; the fifth hypothesis is
+the bijection the whole count rests on. `B990`'s unfavourable prior stands, stated with its reason.
+The **integral** group scheme over ℤ remains a named, unskipped gap. And a crossing would still give
+a **direction, never a value**.
+
+**Q7 is now worth sending, rewritten** — four hypotheses discharged, one named, answerable in a
+sitting. Not sent.
