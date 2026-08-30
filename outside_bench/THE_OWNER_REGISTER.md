@@ -616,3 +616,20 @@ we got, whar does itnsay about sm and physics"* — asked again, now of memos 14
 
 **The sentence the row exists for:** the most valuable thing found by auditing the paper was not a
 defect in the paper — it was **a route in the corpus the paper had lost**.
+
+
+---
+
+## ADDENDUM 49 (2026-08-30) — ROW R51: "how do we deal with it"
+
+**The owner's words**, asked of this bench's own closing sentence about the recovered route.
+
+| row | question | answer | where |
+|---|---|---|---|
+| **R51** | How do we deal with Route A? | **Not by computing it — the remaining piece is a theorem that does not exist, whose nearest neighbours have been open since 2004.** Two of its three layers are already done: the arithmetic obstructions are **proved absent** (h = h⁺ = \|Cl/Cl²\| = \|Cl/Cl³\| = 1) and the coarse orbit count is **closed positive and unique**. The one bar is the K-refined count for the basepoint-respecting group on the pair — typed NEEDS-SPECIALIST by the corpus itself. **So: Q7, drafted and NOT SENT; the paper stops calling it permanent (cc's call); and the cell this episode actually argues for — sweeping every residual the registers type specialist-shaped against Q1–Q6, because Route A surfaced by accident and the rest should surface by design.** | `THE_ROUTE_A_DISPOSITION.md` |
+
+**And the row carries a correction of mine.** I told the owner the route was *"a route in the corpus
+the paper had lost."* The corpus had not lost it — `OPEN_LEADS` L169, `OPEN_PROBLEMS` and
+`CAMPAIGN_STATUS` all track it, the middle one calling it *"the honest specialist-shaped residual."*
+I charged a defect in the paper to the record. The corrected finding is sharper: **the registers and
+the send queue are not joined.**

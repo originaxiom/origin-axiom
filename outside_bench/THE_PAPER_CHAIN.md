@@ -148,3 +148,30 @@ paper was not a defect in the paper — it was a route in the corpus the paper h
   running. **Memo 143 stands or is corrected on what it returns, and this document does not assume
   which.** Until it lands, §5 of the paper rests, at its sharpest point, on a result no committed
   certificate reproduces.
+
+
+---
+
+## ADDENDUM (2026-08-30) — §5's CLOSING SENTENCE CORRECTED
+
+This document closed on: *"The most valuable thing found by auditing the paper was not a defect in
+the paper — it was a route in the corpus the paper had lost."*
+
+**The second half is wrong and is corrected here rather than rewritten.** Exhausting the registers
+before proposing a disposition (`THE_ROUTE_A_DISPOSITION.md`) found Route A tracked accurately in
+**three** places: `OPEN_LEADS.md` L169 (dispositioned *"the counter identification remains the
+literature residual"*), `OPEN_PROBLEMS.md` (a paragraph headed *"the honest specialist-shaped
+residual"*, with all three primary references cited), and `CAMPAIGN_STATUS.md` (*"THE RANK WALL's
+sharpest known reduction"*). **The corpus did not lose it. I charged a defect in the paper to the
+record.**
+
+**The corrected sentence, which is sharper:** *the paper lost it, the corpus tracked it correctly,
+and the send queue never picked it up although the corpus had already typed it as a specialist
+question.* The gap is not memory — it is that **the registers and the queue are not joined**, and a
+residual `OPEN_PROBLEMS.md` calls specialist-shaped is absent from Q1–Q6.
+
+Everything else in this document stands, including the drift finding, the one-direction pattern, and
+the endgame statement. **Bench error #15 is now closed** (`memos/VOL_BASIS_PROBE.md` addendum): the
+432-cell grid returned, both arms reproduced exactly — control 117/117/0, extended 108/108/0 — and
+outcome V-NEG stands unchanged. The debt §6 left open is paid, and it was an error of banking, not
+of computation.
