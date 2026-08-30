@@ -232,11 +232,27 @@ CHIRALITY itself (B994's honest limit: registerability presupposes it).
 ## X. FINALIZATION RULE
 
 The map is FINAL when every [NAMED-OPEN] above is either [BANKED], [NEGATIVE], or
-[PROVEN-FREE]. Current open census: III.4 (three keys), III.5-minor, III.6 (two),
-IV.1-equivalences (zero-urgency), IV.2 (W5), V.3/VIII.2 (one gate), VI.3 (three
-residues — the audit seat's B8113 correction, held before this map landed),
-VIII.3-minor, plus L175 (the h = 0 locus) — **ten genuine open nodes (one carrying
-three residues), two minor, none unpriced, none untyped.** Every one has a named
+[PROVEN-FREE]. Current open census (corrected 2026-08-30): III.4 (**one key of three** — the wave
+killed the other two, B1109), III.5-minor, III.6 (two), IV.1-equivalences
+(zero-urgency), IV.2 (W5), V.3/VIII.2 (one gate), VI.3 (three residues — the audit
+seat's B8113 correction, held before this map landed), VIII.3-minor — **nine genuine
+open nodes (one carrying three residues), two minor, none unpriced, none untyped.**
+
+> **Census repair (2026-08-30, cc; same sweep as Section IX's).** Two stale entries,
+> both against arcs already banked. **(1) L175 (the h = 0 locus) is REMOVED — it is
+> CLOSED, not open.** B1110 (THE SPECTRAL CLUSTER) is **PROVED** and its F5 reads
+> *"L175 CLOSES"*: the h = 0 locus is a **word property** — six channels spanning every
+> listener sector share the identical 28-word set over 1364 words, separation 5×10⁹, no
+> borderline case — **and the mechanism was found**, the 28 being exactly the
+> diagonal-free weld matrices (max\|diag\| 1.2e-15 versus ≥0.30 for every other word,
+> fifteen orders of separation). Ten → nine. **(2) III.4 read "three keys" while the
+> node itself has read "[NAMED-OPEN ×1 of 3]" since B1109** — the frame-map key is dead
+> twice over and the other-color key by the diagonal lemma; only the A1/su(6) stratum
+> key stands. The census contradicted its own node on the same page.
+> **The pattern, named:** B1109's re-pricing reached node III.5 (correctly
+> [PROVEN-FREE], "1 BIT") but reached neither Section IX's ledger nor this census —
+> *one arc, three surfaces, one updated*. That is the burial mechanism in a single
+> instance, and it is the measured one (B1188/B985). Every one has a named
 next computation or a named external dependency. Nothing on this map is a mystery;
 everything is either done, priced, or pointed at.
 
