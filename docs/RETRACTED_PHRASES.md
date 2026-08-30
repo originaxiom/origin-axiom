@@ -105,3 +105,13 @@ Three phrases retracted in this window, registered with their treatment:
   truth). The counts (5-vs-6) conceded standard bulk–boundary content in kind.
 
 | "excess transitive reach" (of the Ω-DAG's 11σ deviation) | B1187/L190, 2026-08-28 | WRONG DIRECTION — d_MM above null ⟺ ordering fraction below null ⟺ a **DEFICIT** of transitive reach (more tree-like). Number and non-genericity verdict stand; the phrase is retired everywhere (corrected at B1188; consistent with B189's own 2026-06-23 in-file reading). Use: "reach-deficit structure." |
+
+**Currency (verified 2026-08-30, through B1219).** The B1188–B1219 window's retractions are
+registered below. They share one cause — **E53, surface non-propagation** (a banked result never
+reaching the surfaces that assert the opposite) — which makes this registry's founding rule bite
+harder than usual: *retracting a claim does not retract its instances*, and an E53 retraction's
+instances are, by construction, spread across surfaces nobody was reading.
+
+| "cell 2 is queued and unrun" (of B632's cup-product texture) | B1219 / the publication campaign, 2026-08-30 | **FALSE.** Cell 2 **ran 2026-07-15** under a sealed prereg (sha dc2be090), verdict PROVED: C exactly unique in B575's basis, the forced vev coupling to all three slots with B_C block-diagonal (the sl₂ prediction verified), the component census reproducing the triangle rules, and Ω nonzero on all three pairs. The genuinely unrun cell is **cell 3** (the symmetric texture on the double). Relayed in, propagated to four surfaces before checking, corrected same day. Where the record was: B632's own FINDINGS carries "## Cell 2 (queued, own prereg)" one section above "## CELL 2 (2026-07-15)…", and `PROGRESS_LOG.md` has held the run since the day it happened. |
+| "ten genuine open nodes" (THE_ROAD §X census) | Review 53, 2026-08-30 | **NINE.** L175 was counted open against B1110 (PROVED, "L175 CLOSES"). Aggravated by a test that **pinned the stale string**, so the lock enforced the error. |
+

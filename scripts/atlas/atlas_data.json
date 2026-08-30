@@ -4601,6 +4601,54 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1218": {
+   "slug": "open claim sweep",
+   "motifs": [],
+   "refs": [
+    "B171",
+    "B172",
+    "B173",
+    "B359",
+    "B363",
+    "B364",
+    "B921",
+    "B985",
+    "L175",
+    "L57"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1219": {
+   "slug": "reverse sweep",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "quasicrystal",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B26",
+    "B279",
+    "B293",
+    "B342",
+    "B551",
+    "B552",
+    "B603",
+    "B632",
+    "B769",
+    "B786",
+    "B985",
+    "L1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B121": {
    "slug": "monodromy grading",
    "motifs": [
@@ -4631,6 +4679,21 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1220": {
+   "slug": "campaign premise audit",
+   "motifs": [
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B632",
+    "V3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },

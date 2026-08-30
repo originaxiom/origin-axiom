@@ -1,5 +1,7 @@
 # LEAD REGISTER — the now-computable frontier (2026-07-04)
 
+> **Review 53 (2026-08-30, anchor `c0e9a4a0`).** **Two rows leave this register by discovery, not by work**: **L175** (the h = 0 locus) was closed by B1110 (PROVED, *"L175 CLOSES"* — the vanishing locus is a word property, with a mechanism the row never asked for) and had stayed listed open on two surfaces; **L57** was answered negatively by B364 (T-stability forces neither lift) with three settled arcs bearing on it and none cited. Both repaired. New standing rule (E53): an arc that closes a lead must name **every** surface asserting it open.
+
 > **Review 50 (2026-08-27):** this window registered **L185** (the qor5up residue umbrella), **L186** (three Yukawa mechanisms: one or three?), **L187** (the depth-closure backlog), **L188** (the selection-cochain six claims); **L171 CLOSED (MOOD)**; L173's precision column re-posed as a COUNT. Next lead: L189.
 > **Review 49 (2026-08-26):** this window registered **L182** (the three seams — SEAM-A the one live crossing), **L183** (the reproducer sweep), **L184** (the suite-collection lazy-fy). SEAM-Y closed MISMATCH; SEAM-A OPEN (gated on cc3's arithmetic-CS action).
 

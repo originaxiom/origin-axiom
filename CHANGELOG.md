@@ -1,5 +1,228 @@
 # Changelog
 
+## B1220 THE PREMISE AUDIT: all three math cells were already answered, and every answer is stronger (2026-08-30)
+
+Cells 1–3 of the publication campaign, **not run as designed, because none needed to be.**
+
+**Cell 0 reported its gate open, and that was correct but insufficient** — a distinction worth
+naming. Cell 0 sweeps *arcs → surfaces* and finds results that reached **no** surface; the arcs
+deciding Cells 1–3 are recent, cited and perfectly visible. What found them was running
+`already_banked.py` **on each cell's own premise**. Three cells, three hits, zero computation.
+
+**Cell 1 — λ's acceptance gate already exists**, unassembled. GC-15's unconditional half: anything
+expressible from the object must be invariant under the automorphisms the object fixes, that group
+**read off D, never chosen**; then three proved regimes (finite+transitive → unique counting measure
+at exactly log₂|T| bits; irrational rotation → Lebesgue; non-compact → none) plus B1196's boundary
+characterization, *prior-vs-point ill-typed exactly at Haar non-normalizability*. **Failable both
+ways by demonstration**: regime (i) accepts; λ **fails the first hypothesis** — no (T,G) read off D.
+
+**A contradiction inside a banked verdict line.** B1196's one-liner says σ and λ sit on the
+non-normalizable side *"which is WHY they are anchors"*; its own GC-27 cell says **opposite** sides
+and that **λ fails even the theorem's first hypothesis**, sealed **PARTIAL**. The summary overstates
+its cell in the direction that makes the record look finished — and the one-liner is what downstream
+surfaces quote. Dated addendum, not an edit.
+
+**Cell 2 — the ℙ³ is CLOSED-PERMANENT** (B1196), hardened twice (B1208: all three named candidates
+negative, the space closed). B1206's own "cheapest" candidate was **MB12-vacuous**, and B1208
+corrected the derivation — t₃-conservation is only the Cartan and admits the rank-1 witness
+`[[0,−3],[0,0]]`; the exclusion needs full SU(2) invariance. The one overturning datum is
+**blocked on codex R030, in flight** — scheduling, not mathematics.
+
+**Cell 3 — answered NEGATIVE in August**, by cell 3's own Mayer–Vietoris method: B1036, *"the double
+gains classes, not the symmetric pairing"*, symmetric support **empty in every cell of every
+block**, the solo antisymmetry wall extending through the seam. Two routes halted at sealed
+controls; two of five pre-registered silent failure modes **fired loudly** — the system working. The
+unrun residual is narrower: the full V-valued double assembly.
+
+**THE PAPER corrected on both rows.** The ℙ³ row moves from *"one condition short, whether a second
+exists reduces to a binary property"* to **closed permanently with the search exhausted on our side
+and one named datum outstanding**; the λ row moves from *"ungated, no acceptance criterion exists"*
+to **gated, with its first hypothesis unmet** — sharper and more falsifiable than conceding a gap.
+16 pages, clean build.
+
+**Methodological finding, now stop rule 1b:** a campaign must audit each cell's premise against
+`already_banked.py` before running it, not only sweep for orphans.
+
+
+## CELL 0 — the reverse sweep: the gate discharges, and three homonym traps are declined (2026-08-30)
+
+**B1219**, the publication campaign's Cell 0, which **gates Cells 1–3**. `open_claim_sweep.py`
+(B1218) runs **surfaces → arcs** and structurally cannot see a banked result that *no surface
+mentions at all* — there is no claim to match. This runs the other direction, **arcs → surfaces**,
+on two signals (id citation, high-IDF content coverage), off-surface only if both fail.
+
+**1032 settled arcs → 45 off-surface**: 29 SURFACE-IT, 10 INTERNAL, 6 SUPERSEDED. Against the
+expectation pre-registered before the run (*40–90, at least one bearing on Cells 1–3*): **45,
+inside the range at its low end.**
+
+**THE GATE VERDICT: Cells 1–3 are not blocked.** And the arc's real product is what it *declined* —
+**three homonym traps**, any one of which, taken on its name, would have redirected a cell onto a
+different object: **B603**'s "weight" is a Lie-algebra grading weight, not λ's von Neumann weight;
+**B26**'s "λ/h = 1" is a Fibonacci trace-map ratio, not the type III_λ modular parameter; **B551**'s
+"species word" (complexity ≈3n) is not the chain's golden word (Sturmian, n+1).
+
+**Three failures of my own, all caught before banking.**
+1. **The first run returned ZERO** against B1188's known 132 — `VERDICT_LEDGER` (1180 arcs),
+   `THE_SPINE` (979) and `CLOSED_DOORS` (528) are *generated per-arc enumerations* in which every
+   arc appears by construction. Being in a database dump is not being on a surface.
+2. **The positive control failed 0/5 — and the control was stale, not the instrument.** B1188's five
+   sharpest off-surface arcs are all now cited in `GRAND_COMPUTATION_LEDGER.md`, **which is B1188's
+   own remedy**. Concluded only after locating *which* surface cites each — "the control must be
+   wrong" is how a broken instrument gets waved through. Replaced with **planted controls that
+   cannot go stale** (0.42 flags / 1.00 clears).
+3. **The instrument was non-deterministic**: two runs gave 45 and 46 while six *in-process* calls
+   were identical. `toks()` returns a **set** and the score truncates to twelve terms, so on IDF
+   ties *which* twelve survive depends on `PYTHONHASHSEED`. Fixed by tie-breaking on the term; five
+   separate processes now agree. **A verifier that does not reproduce is worthless** — E52's own
+   class. The same latent tie-break was hardened in B1218.
+
+**Two findings surfaced.** **B551 corroborates the paper's new §3** (no rotation/winding mechanism
+can emit the ℚ(√φ) layer — it *requires* substitutive inflation order, exactly §3's framing).
+**B342** belongs on the value-negative record and must never enter the paper: it carries a measured
+comparison, and Gate 5 governs.
+
+`RETRACTED_PHRASES.md` gains the window's two retractions, both E53-caused. Lock
+`tests/test_b1219_reverse_sweep.py` (4), including a **cross-process determinism** test.
+
+
+## THE PUBLICATION CAMPAIGN opened — and a tenth E53 instance, mine, on the day I minted the class (2026-08-30)
+
+**`docs/PUBLICATION_CAMPAIGN.md`**: six cells for the six things standing between the programme and
+a publication-ready paper — λ's missing acceptance criterion, the ℙ³'s second condition, R53-3's
+unswept remainder, B632's genuinely-unrun cell, the referee-facing verification appendix, and the
+hostile read of the paper's new §3. Expectations are **pre-registered before any cell runs**,
+because B1216's pre-registration was wrong in an instructive way and that is only visible if the
+prediction is on the record first.
+
+**The ordering is earned, not preferred.** Cell 0 — the reverse sweep — runs first and gates the
+rest, because twice in one day this bench called something open that was already banked.
+
+**The second time is the correction in this commit.** The relayed claim that *B632's cell 2 is
+queued and unrun* was propagated into four surfaces without checking. **Cell 2 RAN 2026-07-15**,
+sealed prereg (sha `dc2be090`), verdict PROVED: C exactly unique in B575's basis (45
+zero-weight-sum triples, a 180-equation invariance system with a 1-dimensional solution space, all
+45 coefficients nonzero); the forced vev couples to **all three** generation slots with B_C
+block-diagonal — *the sl₂ prediction verified* — and c₀, c₄, c₈ all nonzero; the component census
+reproduces the triangle rules exactly (seven allowed present, three forbidden absent); Ω is nonzero
+on all three pairs, so **no generation-pair decouples**. The cell-1 "three diagonal values"
+prediction resolved **DISSOLVED-BY-OBSTRUCTION**.
+
+**The genuinely unrun cell is cell 3** — the *symmetric* texture on the **double** via
+Mayer–Vietoris, where h¹ = 5 rather than 3. The solo object carries only the antisymmetric half.
+
+**Where the record was, which is the whole lesson.** B632's own FINDINGS carries
+`## Cell 2 (queued, own prereg)` one section above `## CELL 2 (2026-07-15) …`, and the canonical
+`PROGRESS_LOG.md` has held the run since the day it happened. **E53 inside a single document, and
+inside the live log.** Corrected on all four surfaces it reached (OPEN_PROBLEMS, CHANGELOG,
+the cloud relay, the relay ledger), with the correction stated in place rather than silently.
+
+
+## THE PAPER gains its spine, and Gate C closes (2026-08-30)
+
+**THE PAPER — the chain, link by link (new §3).** The owner's directive: *not-nothing → SM
+structure, all findings, publication-ready.* The paper had every *kind* of claim organised and the
+**derivation itself** nowhere. It now carries the forty-three-link chain, each link typed —
+independently recounted here from `THEOREM_LEDGER.md`: **26 theorem / 6 identity / 5 no-go / 4 axiom
+/ 1 corollary / 1 census = 43, so 39 forced.**
+
+The claim is stated in the only form it survives a referee in: **not "parameter-free", but "the
+parameters are enumerated, typed, and located."** And where they sit is the result — **three axioms
+before the object exists** (inexhaustible description, geometric carrier, orientation), **one after
+the algebra is in hand** (the observer's closings), and **between the object and the algebra, across
+twelve consecutive links, not one declared choice.**
+
+Three things the paper had never stated, now in it: the **bridge** ($M^2 = RL$ — the golden
+substitution matrix squared *is* the object's monodromy, so the squaring *is* the orientation axiom
+and its discarded sibling is the manifold we double-cover, at exactly half the volume); the
+**boundary** (four pre-registered routes all fail — the second field is bought at geometrization and
+nowhere earlier); and the **doorway stated correctly** (the algebra is handed over at the hyperbolic
+curvature end by McKay — explicitly *not* the withdrawn congruence-level-factoring reading, which is
+false and was retracted). 14 → 16 pages, clean build, Gate 5 untouched.
+
+## Gate C — CLOSED by its own refutation condition
+
+Found by the cloud seat; **verified here on every load-bearing point**. Gate C's Settled list cited
+B307/B302/B321 and **omitted B323 and B324** — the two PROVED arcs that compute what the
+commensurator ℤ/3 actually does. With them the gate closes by its own written condition: B323 kills
+the trinification disjunct (the gauge ℤ/3 and the commensurator ℤ/3 are distinct); B324 exhibits a
+symmetric C₃ triple **on a single knot**, which B307 — already cited — forbids.
+
+One step made explicit in the doc, because B324 is more careful than a summary suggests: **B324
+declines to decide the matter question**, calling it *"the B307-walled multiplicity question
+itself"*. The closure therefore runs through B307 applying, which it does — the commensurator route
+is single-object.
+
+**It relocates the generation question rather than answering it**, and the doc says so: B632's
+h¹(M;27) = 3 is exact but **graded** (spins 0, 4, 8, *"not three interchangeable copies"*, stated at
+banking), explicitly *"NOT blocked by B307"*, and its **cell 3** — the symmetric texture on the double via
+Mayer--Vietoris — is registered and unrun. *(Corrected 2026-08-30: this entry first said "cell 2 is queued
+ and unrun", relayed and not checked. Cell 2 RAN 2026-07-15 under a sealed prereg, PROVED —
+the tenth E53 instance, and mine, on the day I minted the class.)* All **five** load-bearing "four named gates"
+references updated to three (A, B, D); leaving any one would have reproduced the class.
+
+## E53 gains instances #8–#9 — and an independent same-day arrival
+
+The cloud seat reached E53's sub-mechanism **from a different bench on the same day**, in their own
+words: *"An audit cell that hardcodes what it audited is a record of a reading, not an instrument."*
+Theirs **fired** where main's did not — their certificate reported **four false positives of six**
+(two cells testing invariants true of every draft, two hardcoding the wording they audited). Two
+independent arrivals in one day is what makes the class real rather than a local slip.
+
+**#9 is the most expensive instance recorded**: Gate C's omission had produced a drafted specialist
+question that would have **paid an outside expert to redo banked work**. And a companion finding
+reproduces on main — **`doc_currency.py`'s registry holds 19 documents against 169 in `docs/` + root
+(11% coverage)**, which is exactly why `doc-currency` sat green through the window in which Review 53
+found eight navigation views three reviews behind. *The detector for staleness was itself passing
+vacuously.* Credit for both to the cloud seat.
+
+Two relays sent (codex: R028 verified, R029 corroborating-not-new; cloud: the above). Suite 5745.
+
+
+## B1218 THE OPEN-CLAIM SWEEP: already_banked stops needing to be aimed (2026-08-30)
+
+The owner asked *"are u sure theyre not lost, make sure"*, then *"run it."* Aiming
+`already_banked.py` by hand at five rows found **five locks called open that were already
+proved** (THE_ROAD Sections IX and X). This banks the instrument that finds them without
+being aimed.
+
+**`scripts/checks/open_claim_sweep.py`** extracts every *current*-openness assertion from the
+live normative surfaces and scans all 1122 arcs for a SETTLED arc that already decided it,
+ranked by **shared-term IDF** — an unweighted count just surfaces whichever arc says "the
+object" most often. Three filters carry it from 526 raw hits to 45: the **tautology exclusion**
+(`views/VERDICT_LEDGER.md` is a *generated index of arcs*; every row matches its own arc by
+construction), **history lines** (a unit carrying CLOSED/PROVED/FALSIFIED is a record, not a
+live claim), and **self-citation** (a unit already naming the arc is not lost).
+
+**Bite control, both directions (MB12).** Positive **5/5** — each hand-found lock, phrased in
+the *surface's own words*, retrieves its resolving arc at rank #0. Negative — off-corpus text
+scores **0.00** against a 25.0 threshold. The instrument can report nothing, and does.
+
+**Two confirmed stale rows repaired in `docs/OPEN_LEADS.md`:**
+- **L175** read *"typed OPEN"* while **B1110 (PROVED) F5 reads "L175 CLOSES"** — the vanishing
+  locus **is** a word property, exactly the row's own success condition (six channels, identical
+  28-word set over 1364 words, separation 5×10⁹), so the fourth theorem in the gate's family
+  exists; and the **mechanism** was found, which the row never asked for (the 28 are exactly the
+  diagonal-free weld matrices, fifteen orders of separation). **This is the same lock as Section
+  X's, on a second surface the Section X repair did not touch.**
+- **L57** asks *"does the pairing geometry force a characteristic?"* — **B364 (NEGATIVE)** answers
+  it: T-stability forces **neither** lift; the two lifts are two polarizations and L57 becomes a
+  spin-structure question. B359 and B363 (both PROVED) also bear on the row. **It cited none of
+  the three.** *Not claimed*: that the re-posed spin-structure question is the same ℤ/2 B1141
+  assigns — that identification has not been computed.
+
+**Two candidates adjudicated as NON-findings, stated rather than quietly dropped:** THE_SPINE's
+`B171 OPEN` is ordinary succession (that view is *generated* from each arc's own verdict), and
+B921-6 asks whether spinor-Hejhal is *authorized*, which is not the question B1141 answers.
+
+**The instrument tripped its own lock** on first run — its FINDINGS quotes its own test phrase,
+so the negative control failed at 43.40. Fifth instance of the self-documenting-instrument class;
+fixed by the established `SELF` exclusion, quoting `already_banked.py`'s own rule (*"excluding it
+is honesty, not evasion"*). The failure **was the control working**.
+
+Lock `tests/test_b1218_open_claim_sweep.py` (4), including a check that the negative control
+scores ~0 rather than merely passing a loose bar.
+
+
 ## THE PAPER — currency pass: the draft was hostage to the older band, and is not now (2026-08-30)
 
 The owner's catch — *the paper must reflect the newest state and the strongest chain*. **Audited, and

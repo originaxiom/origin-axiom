@@ -1,5 +1,7 @@
 # The priced-doors campaign — every physics word, its price, and its computable next rung
 
+> **Review 53 (2026-08-30, anchor `c0e9a4a0`).** **Three doors were priced that were already paid.** The A2 stratum (≈4.3 bits), the hypercharge direction (≈4.17 bits — a straight double-count of the P bit listed beside it) and the spin lift (1 bit, hostile-verified assigned by B1141) were all carried as *free*. **≈8.5 bits of phantom freedom removed.** The lab-facing L173 door is further devalued: R029 and main's own B1095 agree the five-vs-six differential is **not** a distinctive object prediction (the (5,6) pair recurs at seven other grid points — recomputed here from B1095's artifact).
+
 > **Review 50 (2026-08-27):** the anomaly door re-priced by B1170 — the forcing package is ARENA-GENERIC ("the object supplies the arena; the anomalies supply the content"); what the object pays for is the ARENA (the rank-3 abelian sector + SM-shaped-15-plet availability). The adelic observer's two closings now carry their MECHANISM price (B1171: archimedean = a full bit, unshrinkable mirror; finite = a label, F₄(ℤ) orbits).
 > **Review 49 (2026-08-26):** **SEAM-A** (the heterotic axiom → the adelic ∞-place) is the priced crossing — Gate 1 met (codex's ζ₁₂=K(√3) ring class field), Gate 2 owed (cc3's arithmetic-CS action, NEEDS-SPECIALIST); the √3 hinge is banked but is not the axiom collapsing. SEAM-Y closed MISMATCH.
 

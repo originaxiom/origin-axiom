@@ -4642,29 +4642,31 @@ pre-push. Relay hygiene: every relay rowed same-commit; the cloud relay sent; **
 never be read into the cosmology ledger's dark-sector row.
 
 ### Action items (Review 52)
+
+*Closed at Review 53 (2026-08-30): R52-2 by B1208+B1217, R52-3 by B1201+B1209, R52-4 by B1207 (the OA_SLOW one-run, landed detached). R52-5 and R52-6 carried to R53-2 and R53-6, restated there.*
 - [x] R52-0: the carry audit (§0) — every R51 key dispositioned; gate green.
 - [x] R52-1: the finished-but-forgotten class raised to a **standing audit item** (§6), with the
   short-claim detector gap named (the ≥500-char floor).
-- [ ] R52-2: **THE HARVEST QUEUE** — cloud's six undigested commits (the fence/independence theorem,
+- [x] R52-2: **THE HARVEST QUEUE** — cloud's six undigested commits (the fence/independence theorem,
   the awareness verdict, the bit's ledger, the occupant's type incl. bench error #9 and the refuted
   B9 norm law, the first-beat law, the pattern ladder) + **codex R020/R021/R022**; and the CITED
   items owed a re-run: cloud's quine certificate (their memo 107, outcome Q1) and their memo-104
   boundary construction. (owner: banking seat; verify-don't-trust as always)
-- [ ] R52-3: **the Lee verification** (B1198's named step): read §7.4 + Appendix A and answer — is
+- [x] R52-3: **the Lee verification** (B1198's named step): read §7.4 + Appendix A and answer — is
   the admissible tangent-vector set a **torsor**, under what group (a ℤ/2 or V₄ is direct contact
   with B1174/B1182); does the 4₁ confirmation use the CS = 0 degeneracy B1195/GC-21 made exact; does
   the trace-field statement specialize to ℚ(√−3) as the seam needs. (owner: banking seat)
-- [ ] R52-4: **the instrument-debt tail** (ex-R51-4, ex-R50-5; lineage R49-3/R49-4 both DONE — B1178's 12x collection and B1177's reproducer sweep): the **OA_SLOW one-run** — now the
+- [x] R52-4: **the instrument-debt tail** (ex-R51-4, ex-R50-5; lineage R49-3/R49-4 both DONE — B1178's 12x collection and B1177's reproducer sweep): the **OA_SLOW one-run** — now the
   oldest instrument debt, twice killed by session end, to be run detached and landed; the R32 vacuity
   queue + R46-11 lock-shape sweep; the promotion-currency review; the toolbox extraction seed.
   (owner: banking seat, batched)
-- [ ] R52-5: **the cross-seat waits** (ex-R51-5, ex-R50-6, reduced): codex's **R023** (the 𝒯 evaluator + the
+- [>] R52-5: **the cross-seat waits** (ex-R51-5, ex-R50-6, reduced): codex's **R023** (the 𝒯 evaluator + the
   uncommitted load-target) + MC1 + the (α₂,α₄) dictionary + R018; cloud's **C6 completeness** (the
   interface-completeness precondition — the one thing standing between "every choice typed" and
   "provably every choice"); the B1169 verification (now two-seat). cc3's items are **closed by
   retirement** — including **R48-4** (their B8127 verify), which will not come and is hereby retired,
   not carried. (owners: the seats; cc harvests)
-- [ ] R52-6: **owner-electable** (ex-R51-6, ex-R50-7, under the standing HOLD): the cold pass over this window; the
+- [>] R52-6: **owner-electable** (ex-R51-6, ex-R50-7, under the standing HOLD): the cold pass over this window; the
   census's 31 category calls (with B1199's label-collision note attached); the L173 mode-COUNT seal
   path. **The θ-even designed crossing** (the last licensed contact row) and **the specialist
   send-queue** remain **HOLD by the owner's word** — released only by the owner. Plus the owner's
@@ -4674,3 +4676,212 @@ never be read into the cosmology ledger's dark-sector row.
 **Next review due after 20 merges from this anchor.**
 
 anchor-commit: `8aa71f07` (the B1200 bank, this window's last substantive commit before the review)
+
+## Review 53 — 2026-08-30 (merges 1–32 from Review 52; the window the record audited itself — and the surfaces were found holding seven locks open)
+
+**The window's shape, stated first.** Eighteen arcs (B1201–B1218), and the dominant theme is not
+new mathematics about the object — it is **the program auditing its own record and repeatedly
+finding it stale**: the paper spec written from memory (B1210), the newest theorems invisible to
+the gate (B1211), the claim base empty on 89% of the corpus (B1213), 104 `creates_law` absences
+turned into decisions (B1214), a vacuity found in our own record (B1216), and finally a sweep that
+found **seven locked results being asserted as open** (B1218 + the two repairs before it). The
+object did not move much this window. **The record moved a great deal, and mostly downward in its
+own estimation of what it had left open.**
+
+### 0. The loop (Review 52's action items)
+
+- **[x] R52-0** — carry audit, closed at R52.
+- **[x] R52-1** — finished-but-forgotten raised to a standing audit item. **Discharged beyond its
+  terms**: it now has an instrument (B1218) and, below, a ledger class (**E53**).
+- **[x] R52-2 THE HARVEST QUEUE** — discharged by **B1208** (seven cross-seat results verified from
+  main's own data, two of their derivations corrected) and **B1217** (nineteen commits, four
+  verifications, one evidence-contract gap). *New arrivals since — codex R028/R029 and the
+  outside-bench digest of 2026-08-30 — are **not** carried under this id; they are new work and
+  open R53-1.*
+- **[x] R52-3 the Lee verification** — **B1201** (corrects B1198) and **B1209** (the hoped-for
+  bridge to the observer's bit is CLOSED; the W0 bar stands unchanged). Answered on its own terms,
+  negatively, which is an answer.
+- **[x] R52-4 the instrument-debt tail** — **B1207**, the OA_SLOW one-run, finally landed detached
+  after two session-end deaths: nine triaged, **five real defects fixed, one eight days old**, and
+  a fourth defect class found by watching the tree.
+- **[>] R52-5 the cross-seat waits** → restated as **R53-2**. codex R023/MC1/R018 and cloud's **C6
+  completeness** remain the substantive outstanding items; C6 is still the one thing standing
+  between "every choice typed" and "provably every choice."
+- **[>] R52-6 owner-electable, under the standing HOLD** → restated as **R53-6**, unchanged. **The
+  θ-even designed crossing and the specialist send-queue remain HOLD by the owner's word.**
+
+### 1b. Branch inventory (B763 rule) — all five unmerged refs classified, both remotes identical
+
+| ref | last commit | class |
+|---|---|---|
+| `new-session-qor5up` | 2026-08-14 | **FROZEN-RECORD-CLOSED** — registry entry landed at B1173; residue tracked at L185. No action. |
+| `audit/b775-braver-questions` | 2026-08-14 | **FROZEN-RECORD** — 16 days quiescent, last commit a main-sync, no unharvested lane content. Registry row confirmed. |
+| `outside-bench` | **2026-08-30** | **LIVE** — new same-day digest. Routed to **R53-1**. |
+| `codex/seat-r001` | **2026-08-30** | **LIVE** — R028/R029 new since B1217. Routed to **R53-1**; R029's substance adjudicated below. |
+| `paper/structure-genesis-first` | 2026-08-29 | **LIVE** — cc3's Paper IV lane. Routed to **R53-1**. |
+
+Per *integrate-don't-merge*, no seat branch is merged; live lanes are harvested and re-banked under
+main's own numbers. **No unclassified unmerged ref** — the review is not blocked.
+
+### 2. The declared modulus (what this review can and cannot certify)
+
+**Read in full**: the eighteen window arcs' verdict lines; `THE_ROAD` §§III–X; `OPEN_LEADS` at the
+L57/L175 rows; codex R029's relay and its reconciliation ask; B1095's FINDINGS §1 and its ρ-sweep
+artifact. **Re-run on this bench, not trusted green**: the full suite (**5745 passed, 53 skipped,
+0 failed**, 61 min); all 28 governance gates; `seal-digests` (18 digests recomputed and matching);
+B1218's bite control both directions; and B1095's "seven other grid points" claim **recomputed from
+its own banked data** (7 occurrences of (5,6) across 144 points — confirmed). **Skimmed, not
+audited**: the outside-bench 2026-08-30 digest and cc3's Paper IV lane (both routed to R53-1);
+codex R028. **Cannot certify**: that the 45 remaining B1218 candidates contain no further lost
+lock — they were read and adjudicated as same-topic co-occurrence, which is a judgement, not a
+proof; and the ~973 PROVED/NEGATIVE arcs outside every screen remain unswept.
+
+### 3. Advancement
+
+**THEOREM_REGISTRY +20 rows** this window (B1211's 7 + B1214's 13) — and the manner matters more
+than the count: these were not new proofs, they were **theorems the corpus already held that no
+surface displayed**. B1211's diagnosis is the window's sharpest sentence: *the programme's newest
+theorems were invisible because the gate reads a field the seat fills in.*
+
+**Movement toward WALL/closure**: the ℙ³ row went 3 → 2 → **exactly one condition short**
+(B1205/B1206) and stopped there; the discrete freedom ledger closed one step further, to **exactly
+{C, P}** (below). **Stuck longest**: λ — still no acceptance criterion, unmoved across the whole
+window and explicitly the ledger's weakest row. **B1216's own score on the closure attempt —
+"zero rows deleted"** — is the honest headline for the parameter-free question this window.
+
+**Status exceeding evidence — one found and corrected.** `THE_ROAD` Section IX priced the A2
+stratum at ≈4.3 bits, the hypercharge direction at ≈4.17 bits, and the spin lift at 1 bit, all as
+*free*, against B1112, B1109+B1118 and B1141 respectively — the last hostile-verified two-bench on
+three engines. Section X counted L175 open against B1110 (PROVED, "L175 CLOSES") and read "three
+keys" where its own node on the same page read "×1 of 3". **≈8.5 bits of phantom freedom, and the
+discrete ledger is exactly {C, P}.** Repaired with dated notes at `5ec66cf0` / `55dd173c`.
+
+### 4. Error-class recurrence — E52 recurred, and a new class is minted
+
+**E52 (verifier-defect) recurred twice**, both self-caught: B1216 found **GC-16's eigenline clause
+MB12-vacuous** (every anti-conjugator swaps eigenlines by construction — no failing branch, so it
+supports nothing), the *second* MB12-vacuity in a fortnight after B1206's candidate iii; and
+B1207's slow lane found **B1113's verifier had never executed since banking** (a REPO_ROOT taking
+two path components where three were needed, live 8 days). The pattern B1216 named holds: *this
+seat's headline claims are getting checked; the sentences that prop them up are not.*
+
+**E46 (tree-freeze) did not recur.** **E39 (verdict-before-certificate) DID** — see §7.
+
+#### NEW CLASS — E53, surface non-propagation
+
+> **E53 — Surface non-propagation.** A result is banked, correct, findable, and cited nowhere it
+> is needed: the arc closes a question and **the live surfaces go on asserting it open**. Nothing
+> is lost, no instrument is wrong, no lock is missing — the failure is *purely* one of propagation,
+> and it is therefore invisible to every existing defence. Distinct from **E51** (retention: the
+> artefact was destroyed — here the record is complete), from **E40** (cached verification: the
+> instrument never re-ran — here no instrument is involved), and from **E50** (never reached).
+>
+> **Seven instances, one window**: the A2 stratum, the hypercharge direction and the spin lift, all
+> priced free in `THE_ROAD` §IX against B1112 / B1109+B1118 / B1141; **L175 counted open on two
+> separate surfaces** (§X and `OPEN_LEADS`) against B1110; III.4's key count contradicting its own
+> node; and L57's row asserting an open question that B364 (NEGATIVE) had answered, with three
+> settled arcs bearing on it and **none cited**.
+>
+> **The mechanism, caught in the act.** B1109's re-pricing reached node III.5 — correctly marked
+> `[PROVEN-FREE]`, "1 BIT" — and reached **neither** §IX's ledger **nor** §X's census. *One arc,
+> three surfaces, one updated.* And the L175 repair in §X did not touch the identical stale row in
+> `OPEN_LEADS`, which had to be found separately.
+>
+> **The aggravating sub-mechanism — a lock that PINS the stale assertion.** `test_the_road.py`
+> asserted the literal string `"ten genuine open nodes"`. L175 had been closed since 2026-08-21, so
+> **the test was enforcing the error** and would have failed anyone who corrected it. A string-pin
+> can only preserve what was true when it was written. This is not E38 (a lock failing when it
+> should not) nor E40 (passing over a cache): the lock passed, correctly, over content that was
+> wrong, and by passing made it harder to fix.
+>
+> **Cause is measured, not anecdotal**: B1188/B985 — the live instruments recover object-faces at
+> 79–100% and **relation-faces at 6–19%**, with **132 PROVED on-theme arcs absent from every live
+> surface**. Seven of them surfaced the moment anyone looked.
+>
+> **Standing fixes.** (1) `scripts/checks/open_claim_sweep.py` (**B1218**) — run before every review
+> and before writing "open" anywhere; bite-controlled both directions. (2) **An arc that closes a
+> lead must name every surface asserting it open**, not only its own FINDINGS — a propagation list
+> is part of the bank. (3) **Doc-pinning locks assert facts, not strings**: a lock pinning a count
+> or status must also pin *what decides it*, so the fact and its lock move together (see the
+> repaired `test_the_road.py`, which now asserts that if L175 is named at all it is named as closed).
+
+### 5. Provenance spot-sweep — clean
+
+No external-verification pretense in the window's public-facing files; the single README match is
+its own standing disclaimer. `THE PAPER` carries no author line and no measured physical value
+(**Gate 5 clean**); the `attribution`, `claims` and `framing` gates all return empty. New
+load-bearing terms this window (*arena/content split*, *surface non-propagation*) are glossed where
+introduced.
+
+### 6. The §5.1 promotion sweep
+
+**Nothing promoted to `CLAIMS.md`.** The window's strongest candidate — *the discrete freedom ledger
+is exactly {C, P}* — is a **composition** of B1118 and B1141 rather than a single banked arc, and
+per §5 a composition promotes only when a named arc states it. **Deferred with the blocker named**:
+it needs its own cell, which becomes **R53-4**. The ℙ³ row is one condition short and does not meet
+the bar. **THE PAPER** gained the discrete ledger it had entirely omitted, which is a paper change,
+not a promotion.
+
+### 7. Protocol integrity — one E39 instance, disclosed
+
+`seal-digests`: **18 sealed digests recomputed and matching**; hash-first order honoured in the
+window's seals; `seal-provenance` green.
+
+**One E39 (verdict-before-certificate) instance this window, mine, disclosed rather than found.**
+B1218 was pushed on the targeted gate set before the full suite finished; the suite then failed two
+tests (a `creates_law_reviewed` written as a bool where the schema is a dated dict, and the
+census-pinning assertion above). **Main was red for one commit**, repaired at `7c1e70de`, full suite
+now green at 5745. The standing rule already existed and was not followed: *the push gates on the
+suite's exit code for the exact committed tree.* The specific lapse worth recording is narrower than
+the rule — **the targeted set I chose did not include the test file covering the doc I had edited.**
+Standing addition: when a bank edits a governed doc, the targeted set must include that doc's own
+lock, not merely the arc's.
+
+### 8. Adjudication carried into this review — codex R029 (OA-C1169)
+
+R029 relays a new negative: *the L173 five-versus-six differential is not a distinctive object
+prediction*, the two finite Hamiltonians being conjugate by the reflection matrix at reversal-closed
+windows. **Verified, and the verdict is: already ours, and independently confirmed.** Main's
+**B1095** (banked 2026-08-20, PROVED) states the mechanism verbatim — *"the two half-line
+Hamiltonians are conjugate by the exchange matrix (J·H_R·J = H_L) and the spectra coincide to
+machine precision"* — **and** the conclusion: the (5,6) pair *"occurs at seven OTHER grid points
+besides α — the pair is not golden-unique"*, the counts being *"standard pumping content in kind."*
+Recomputed here from B1095's own artifact: **exactly 7 occurrences of (5,6) across 144 grid
+points.** So R029 is corroboration by an independent route, not new information for main — and it
+is **E53's own class seen from the other side**: a second seat re-derived, ten days later, a result
+main had banked and not surfaced where they would meet it.
+
+**One refinement of codex's phrasing, carried back to them.** "Every two-ended reflection-symmetric
+detector ties" is right but easy to over-read: only **19 of 144** grid points show the two hands'
+*counts* agreeing, and B1095's title is precisely *"the hand is only WHERE states live."* The
+spectrum ties; hand-resolved localization does not. The L173 observable (mode count in a labelled
+gap, per hand) is hand-resolved, so **what kills it is the non-uniqueness, not the conjugacy.**
+
+### Action items (Review 53)
+
+- [ ] R53-1: **the live-lane harvest** — codex **R028** (exact toric chart frames) and **R029**
+  (verified above; disposition OA-C1169 as CORROBORATING B1095 and relay the refinement); the
+  **outside-bench 2026-08-30 digest** ("six defects repaired, one drift standing, and my certificate
+  was not a test" — the last clause is E52-shaped and wants reading); cc3's Paper IV lane.
+  (owner: banking seat)
+- [>] R53-2: **the cross-seat waits** (carried from **R52-5**, ex-**R51-5**, ex-**R50-6**): codex
+  R023 + MC1 + R018; cloud's **C6 completeness**, still the one thing between "every choice typed"
+  and "provably every choice". (owners: the seats; cc harvests)
+- [ ] R53-3: **E53's unswept remainder** — B1218 sweeps the surfaces named in its `SURFACES` list;
+  the ~973 PROVED/NEGATIVE arcs outside every screen, and B1188's 132 off-surface arcs, remain
+  unswept. Extend the sweep from surfaces-to-arcs to arcs-to-surfaces (the reverse direction).
+  (owner: banking seat)
+- [ ] R53-4: **the {C, P} promotion cell** — bank the composition of B1118 and B1141 as a named arc
+  so the discrete ledger's closure can promote under §5. (owner: banking seat; blocker named in §6)
+- [ ] R53-5: **λ's acceptance gate** — the ledger's weakest row, unmoved this window and the only
+  row with *no* criterion at all. B1216's closure loop deleted zero rows; λ needs a gate written
+  before it can be attempted again. (owner: banking seat)
+- [>] R53-6: **owner-electable, under the standing HOLD** (carried from **R52-6**, ex-**R51-6**,
+  ex-**R50-7**; unchanged): the
+  θ-even designed crossing and the specialist send-queue remain **HOLD by the owner's word**;
+  the cold pass; the census's category calls; the L173 mode-COUNT seal path — *which R029 and
+  B1095 together now argue is not worth sealing as a distinctive prediction.*
+
+**Next review due after 20 merges from this anchor.**
+
+anchor-commit: `c0e9a4a0` (the B1218 bank, this window's last substantive commit before the review)

@@ -1,5 +1,7 @@
 # OPEN_PROBLEMS.md — the remaining gates (the honest specialist handoff)
 
+> **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The open census is **nine genuine nodes, not ten** — L175 is closed (B1110). III.4 carries **one key of three**, not three (B1109 killed the frame-map and other-color keys). Unchanged and honest: **λ has no acceptance criterion**, the ℙ³ is exactly one condition short, and cloud's **C6 completeness** remains the one thing between "every choice typed" and "provably every choice."
+
 > **Review 50 (2026-08-27):** SEAM-A's authoritative split — *walled-on-forcing* (OA-C1002) / *INDETERMINATE-on-sealing* (Gate 2, NEEDS-SPECIALIST); the "leaning MISMATCH" phrasing is retired. The specialist surface now has SIX named bars (SEAM-A Gate 2; J₃(𝕆) regulators; the B491 seam form; Cappell–Miller; torsion parity — queued at cc3; B165) — the outreach trigger has FIRED (B1161 exhaustion); the send-queue is the owner's (R50-7).
 > **Review 49 (2026-08-26):** the one live crossing is **SEAM-A's Gate 2** — a full Kim-style arithmetic-CS *action* of m004 on ℚ(√−3) (not just B708's linking form / B800's unnormalized Habiro series); NEEDS-SPECIALIST. codex's up-Yukawa=0 is resolved as a distinct cohomological wall (SEAM-Y MISMATCH), not our arithmetic disjointness.
 
@@ -159,7 +161,7 @@
 > `CLAIMS.md`). Written 2026-07-01, after the recontextualization audit + masterplan
 > (`RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md`) and the B315–B321 arc.
 >
-> **Freshness note (2026-07-05):** the four gates (A/S032-A in-sandbox; B/CRUX `T[4₁;E₆]`, C/multiplicity,
+> **Freshness note (2026-07-05; C CLOSED 2026-08-30 — see §C):** the four gates (A/S032-A in-sandbox; B/CRUX `T[4₁;E₆]`, C/multiplicity,
 > D/non-Hermitian DG — specialist) still stand as written. For the *live* frontier since this was written — the
 > value-boundary campaign (B326–B408), THE DESTINATION ATLAS (TW1–TW7, no bar cleared), and the running
 > **CHILD PROGRAM** (B435–B440, C0–C3: the three-tiered Inversion Law, the child's SL(2) vacuum book) — read
@@ -180,7 +182,7 @@ impose; it is a proven property of a value-free monad.
 structure is forced; the values are *provably not in the single object*. So the values can only enter through the
 object's **relations** — multiplicity (a second seed), the seam (a specific closing), or an external physics dictionary
 — none of which the single monad supplies. **This is not "one finite step from a TOE."** It is *a proven structural
-theorem with a proven value-firewall*, and four named gates where — if anywhere — values could cross, each needing tools
+theorem with a proven value-firewall*, and four named gates where — if anywhere — values could cross (**C closed 2026-08-30; three remain**), each needing tools
 the sandbox does not contain. Read §5 (the honest counterweight) before treating any single computation as "the last
 step."
 
@@ -197,7 +199,7 @@ different mechanism landing near the same trinification neighborhood. Whether th
 (B305's cascade one, B1098's holonomy one) are the *same* structural fact seen twice or two independent facts sharing
 a name is an unasked question as of B1101 — flagged, not answered, here.
 
-## The four gates
+## The gates (four as named; **C closed 2026-08-30 — three remain**)
 
 ### A — S032-A: the all-invariants no-forced-choice theorem (the one in-sandbox gate)
 
@@ -299,7 +301,38 @@ and the 3d-completion campaign's geometric `ω`, is an **unasked question as of 
 answered, exactly as GOVERNANCE §6.1(C) requires (absence of a reachable breach is not a proof of connection either).
 The exceptional-gauge state integral itself remains untouched; **NEEDS-SPECIALIST stands.**
 
-### C — Multiplicity → the generation count (the sharpened gate, with a refutation condition)
+### C — Multiplicity → the generation count — **CLOSED 2026-08-30 by its own refutation condition**
+
+> **CLOSED (2026-08-30; found by the cloud seat, verified on this bench).** This gate was answerable
+> from the record and had been for a long time. Its Settled list below cited B307/B302/B321 and
+> **omitted B323 and B324 — the two arcs that actually compute what the commensurator ℤ/3 does.**
+>
+> **B324 (PROVED)** computes the three images exactly in ℤ[ω] from explicit generators
+> (`g=[[0,−1],[1,−1]]`, `g³=I`): the cross-conjugate trace matrix is a ℤ/3-circulant with
+> `β−α = ω` exactly, eigenvalues `(7−√3i, 1, ω²)` — **the two subdominant eigenvalues are equal in
+> magnitude**, the circulant is *tautological* (forced by g-conjugation), and the three
+> "generations" are g-**conjugates**, hence share one character. **B323 (PROVED)** shows the ℤ/3 of
+> the E₆ gauge level and the ℤ/3 of the commensurator are **distinct** (π₁(4₁) has symmetry D₄ of
+> order 8; 3 ∤ 8).
+>
+> **Against the refutation condition, verbatim:** the first disjunct is **dead** — by B323 the three
+> images are *not* the trinification factors. The second disjunct **fires**: B324 establishes a
+> symmetric C₃ triple **on a single knot**, and B307 — already cited here — proves a single
+> hyperbolic knot cannot carry a symmetric C₃ three-generation trace field. The commensurator route
+> *is* single-object (B302 calls the ℤ/3 intrinsic to 4₁), so B307 applies and the images **fail to
+> be symmetric matter copies**. The gate closes by its own stated condition.
+>
+> **What this does NOT do — read this before citing the closure.** It does not answer the generation
+> question; it **relocates** it. B324 itself says the matter question *is* "the B307-walled
+> multiplicity question itself" and hands it back. The **live** route is B632: h¹(M;27) = 3 exactly
+> over ℚ(ω), but **GRADED** (spins 0, 4, 8) — *"not three interchangeable copies"*, stated at
+> banking — and 5 on the mirror double. B632's own FINDINGS record that this mechanism is
+> **"DIFFERENT from B302's commensurator ℤ/3 and NOT blocked by B307."** **Correction (2026-08-30, same day): the relayed claim that "cell 2 is queued and unrun" is WRONG, and this bench propagated it before checking — the tenth E53 instance, committed on the day the class was minted. CELL 2 RAN 2026-07-15** under a sealed prereg (sha `dc2be090`), verdict PROVED: the cubic invariant C is exactly unique in B575's basis (45 zero-weight-sum triples, a 180-equation invariance system with a 1-dimensional solution space, all 45 coefficients nonzero); the forced vev couples to **all three** generation slots with B_C block-diagonal — *the sl₂ prediction verified* — and c₀, c₄, c₈ all nonzero; the component census reproduces the triangle rules exactly (seven allowed present, three forbidden absent); and Ω: Λ²H¹(27) → H²(M;27\*) is nonzero on all three pairs, so **no generation-pair decouples**. The cell-1 prediction of *three diagonal values* was resolved **DISSOLVED-BY-OBSTRUCTION** (its object does not exist at class level on M), caught by the parallel audit seat. **The genuinely unrun cell is **cell 3** (the symmetric texture on the *double* via Mayer--Vietoris, registered with its own prereg, not run)** — the solo object carries the antisymmetric half; the symmetric half lives on the double, where h¹ = 5. *The mechanism of this error is worth recording: B632's own FINDINGS carries "## Cell 2 (queued, own prereg)" at one section and "## CELL 2 (2026-07-15) …" at the next — E53 inside a single document.*
+>
+> **Class**: an **E53** instance (surface non-propagation), and the most expensive one recorded — a
+> specialist question (Q9) had been drafted that would have paid an outside expert to redo banked
+> work; the cloud seat withdrew it on finding this. Their sealed prior said the gate would stand;
+> it did not, and they recorded that plainly.
 
 > **Review-37 update (2026-08-03, B866–B877).** O3 gained and lost a candidate in one window:
 > the object's three Galois-conjugate first-breaking charges (the First Measurement Theorem,
@@ -319,7 +352,10 @@ Neumann–Reid). **Does this intrinsic `ℤ/3` realize as three generations?**
 *symmetric copies of the 27*. It **closes** iff those three images are the trinification factors (color/L/R, B302/B305 —
 the *wrong* 3) or otherwise fail to be symmetric matter copies.
 **Settled.** The count-3 obstruction for one knot (B307); the `ℤ/3` located and *intrinsic* (B302); single-object
-self-realizability → 1 (B321). *Relational* self-realizability is the untested case.
+self-realizability → 1 (B321); **and — added 2026-08-30, the omission that kept this gate looking open — the
+commensurator's three images COMPUTED EXACTLY (B324: ℤ/3-circulant, degenerate subdominant eigenvalues, one shared
+character) and the four-level adjudication separating the gauge ℤ/3 from the commensurator ℤ/3 (B323).** *Relational*
+self-realizability was the untested case; the commensurator route is **single-object**, so B307 governs it.
 **Obstruction / tier.** The geometry → family-replication dictionary. **Specialist**, gated by B307; likely Sage
 (commensurator/orbifold) + the 3d-3d matter dictionary. This is a distinct gate from B — the CRUX does not resolve it.
 
@@ -351,7 +387,7 @@ numbers do not transfer.*
 
 ## The rank-wall hatch (2026-08-20) — adjacent to the four gates above, deliberately not counted as a fifth
 
-**This section is new at Review 47.** The corpus's "four named gates" count is cited repeatedly and is load-bearing
+**This section is new at Review 47.** The corpus's "four named gates" count is cited repeatedly and is load-bearing (**and became THREE on 2026-08-30 when C closed**)
 elsewhere (§6 below; the campaign memory). The rank-wall hatch is **not added to that count**, for a precise reason:
 gates A–D are each a single, self-contained, specialist-shaped QUESTION with a stated closing condition. The hatch is
 instead a **structural finding already partly computed in-house** (`docs/THE_LADDER.md` X19, X10, X33) whose ONE
@@ -417,7 +453,7 @@ Because a "one step from a TOE" reading is tempting and wrong, state it plainly:
 
 ## 6. The one-line state
 A rigorous structural theorem — *the object forces the form of physics, not its values, and this is a proven Galois-/
-amphichirality-theorem* — with four named gates (one in-sandbox hard theorem A; three specialist B/C/D) where values
+amphichirality-theorem* — with four named gates (one in-sandbox hard theorem A; three specialist B/C/D) — **C closed 2026-08-30, so three remain: A, B, D** — where values
 could only cross through the object's relations, not from the single monad. That is a genuine, bounded, honest frontier
 — and it is *not* a TOE one computation away. Nothing to `CLAIMS.md`; firewall intact.
 
