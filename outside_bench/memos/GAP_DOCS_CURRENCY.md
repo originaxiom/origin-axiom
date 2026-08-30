@@ -17,7 +17,7 @@ Certificate `certificates/gap_docs_currency.py`. Subject: `THE_TOE_GAP.md`,
 
 **And the finding that subsumes the rest: the corpus already had an instrument for this, and I did
 not run it.** `B1202` — *"THE ALREADY-BANKED CHECK — the finished-but-forgotten class gets an
-INSTRUMENT, not a promise"* — ships `scripts/checks/already_banked.py` and installed a
+INSTRUMENT, not a promise"* — ships `89affd5b:scripts/checks/already_banked.py` and installed a
 **WORKING_RULES** rule: *"no MISSING/OPEN/'never run'/'no successor' claim is admissible until the
 check has been run on its terms, and the SEARCHED TERMS ARE STATED WITH THE CLAIM."* My three
 documents assert dozens of MISSING claims and state no searched terms. **I have now run it on my
@@ -125,7 +125,7 @@ addendum has already moved the dominant-gap claim off it. Same row, two statuses
 here, as bench practice, in the corpus's own words:
 
 > **No MISSING / OPEN / "never run" claim leaves this bench until
-> `scripts/checks/already_banked.py` has been run on its terms, and the searched terms are stated
+> `89affd5b:scripts/checks/already_banked.py` has been run on its terms, and the searched terms are stated
 > with the claim.**
 
 Six detectors of mine have needed checking against themselves this session. This is the first time

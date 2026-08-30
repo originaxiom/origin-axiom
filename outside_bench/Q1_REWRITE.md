@@ -1,5 +1,5 @@
 # Q1 REWRITE — the SEAM-A Gate 2 send, restated from B1198/B1201/B1209
-## (outside bench, 2026-08-29; drafted at the owner's "write it", after memo 138 found Q1 stale by eight post-queue arcs. NOT SENT — the send is the owner's act under the owner's name, per the queue's own mechanics. This is a drop-in replacement for `docs/SPECIALIST_SEND_QUEUE.md`'s Q1 row plus the one-pager it would ship as.)
+## (outside bench, 2026-08-29; drafted at the owner's "write it", after memo 138 found Q1 stale by eight post-queue arcs. NOT SENT — the send is the owner's act under the owner's name, per the queue's own mechanics. This is a drop-in replacement for `89affd5b:docs/SPECIALIST_SEND_QUEUE.md`'s Q1 row plus the one-pager it would ship as.)
 
 **Why it needed rewriting.** The queue was built at B1179. Q1's status
 line still reads *"FLOOR (B1156); the a-priori MISMATCH refuted; the

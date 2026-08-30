@@ -87,7 +87,7 @@ transmitted. No address has been touched.** This is a drop-in row plus the one-p
 as, written to memo 140's standard — **tell the specialist what we closed ourselves**, which is the
 difference between a question and a fishing trip.
 
-### Drop-in row for `docs/SPECIALIST_SEND_QUEUE.md`
+### Drop-in row for `89affd5b:docs/SPECIALIST_SEND_QUEUE.md`
 
 > | **Q7** | **Route A's counter** (the ledger-reducing crossing) | For basepoint-fixed E₆ acting on the pair 27 ⊕ 27̄ with cubic étale algebra K as the classifying datum, is there a Bhargava–Gross/Thorne-style stabilizer-cohomology count of the **integral** orbits inside a fixed **rational** orbit — and what does it give for K = ℚ[x]/(x³−12x−5)? Status: arithmetic obstructions **proved absent** (B1093); coarse count **closed positive** and unique (B1099, Krutelevich Cor 16, det 5 squarefree); the pair forced independently from literature (Prop 12(i)) and physics (B1092/B1093/B1017); the K-refined count for the smaller group is the one bar. | arithmetic invariant theory (Bhargava–Gross / Thorne school); Freudenthal-triple classification (Krutelevich lineage) | **count = 1 ⇒ B990's orbit-to-point gap CROSSES and a freedom-ledger row converts from a supplied menu to a derived point; count > 1 or no such counter ⇒ Route A closes and "the finite menu is terminal" becomes a theorem instead of an assertion** | ★★★★ |
 

@@ -183,7 +183,7 @@ source** before being recorded — one sweep claim was false and is
 corrected at the end.
 
 **§6.1 — THE FINDING THAT RE-SPECIFIES ROUTE A2 (B1184, verbatim from
-`frontier/B1184_quine_synthesis/FINDINGS.md` on origin/main):**
+`89affd5b:frontier/B1184_quine_synthesis/FINDINGS.md` on origin/main):**
 
 > "S4's question ('does an observer self-map have a fixed point that
 > SETS the odd bit?') answers as a **SPLIT VERDICT**: the fixed point
@@ -261,7 +261,7 @@ convergence claims. **This is false.** Direct check:
 `git ls-tree -r --name-only origin/main` lists
 `frontier/B1188_grand_retrieval` through
 `frontier/B1196_close_loop_batch5b` **contiguously**, and
-`docs/GRAND_COMPUTATION_v0.md` exists. The sweep searched the local
+`89affd5b:docs/GRAND_COMPUTATION_v0.md` exists. The sweep searched the local
 working tree rather than the branch. **The cross-seat primaries are
 present and independently verifiable; no convergence claim is
 weakened.** (The bench's standing rule — verify a relayed claim

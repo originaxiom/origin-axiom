@@ -226,7 +226,7 @@ land by addendum). This addendum is the only mutation.
 ### ADDENDUM (2026-08-30) — CURRENCY PASS: TWO ITEMS WERE STALE ON THE DAY THIS WAS WRITTEN
 
 Audited at main `89affd5b` (memo 153), using the corpus's own instrument
-`scripts/checks/already_banked.py` (`B1202`), which this document predates adopting and should
+`89affd5b:scripts/checks/already_banked.py` (`B1202`), which this document predates adopting and should
 have used. **Addendum-only; §2's list is not edited.**
 
 | §2 item | correction |

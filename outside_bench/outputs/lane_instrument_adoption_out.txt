@@ -1,0 +1,17 @@
+=== F1 (after repair) ===
+backticked repo-path citations checked: 2479
+all resolve (repo-root or citing-file-relative)
+
+=== F3 retraction_sweep ===
+registered retracted phrases: 9
+tracked .md files swept: 2649
+live-claim violations: 0
+
+=== F2 doc_currency ===
+  doc-currency: 4 DECLARED DEBTS (visible, never silent) --
+    CLAIMS.md: B1082 vs B1142 (lag 60) -- declared 2026-08-09 (B984): 129 arcs stale. Gate 5 governs what may enter, not whether it is current; the cascade layer (B860-B873) is absent.
+    docs/GUT_REQUIREMENTS_LEDGER.md: B1102 vs B1142 (lag 40) -- declared 2026-08-09 (B984): 31 arcs stale, just over tolerance.
+    docs/THEOREM_LEDGER.md: B1082 vs B1142 (lag 60) -- declared 2026-08-09 (B984): 63 arcs stale.
+    docs/TOOLBOX.md: B370 vs B1142 (lag 772) -- declared 2026-08-09 (B984): 613 arcs stale. The owner's own protocol says read the toolset before any important probe, so this is the highest-priority debt on the board.
+  doc-currency: 1 frozen (visible opt-out): docs/TOOLBOX.md
+  doc-currency: ok (17 living documents current)

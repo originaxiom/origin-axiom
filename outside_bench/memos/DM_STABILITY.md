@@ -1,7 +1,7 @@
 # DARK MATTER'S STABILITY PROBE — the cosmology ledger's named first move, run: the object's forced gauge 2-torsion supplies NO stabilizer
 ## (outside bench memo 122, 2026-08-28; certificate `certificates/dm_stability.py`, GREEN; the owner's GO on the now-dominant gap)
 
-**The ledger's question, verbatim** (`docs/COSMOLOGY_LEDGER.md`, ROW 4):
+**The ledger's question, verbatim** (`89affd5b:docs/COSMOLOGY_LEDGER.md`, ROW 4):
 *"does any forced discrete symmetry of the object act as a stabilizing
 parity on N1 or N2 that forbids their decay channels into the
 visible"* — and *"the minimal requirement for ANY dark-matter
