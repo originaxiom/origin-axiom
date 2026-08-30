@@ -31,7 +31,15 @@ def test_proven_free_is_terminal_doctrine():
 
 
 def test_census_and_b8113_carried():
-    assert "ten genuine open nodes (one carrying" in FLAT
+    # Corrected 2026-08-30 from "ten" to "nine" (B1218's sweep): L175 was counted open
+    # while B1110 (PROVED) F5 reads "L175 CLOSES". Note what the old assertion was doing --
+    # it PINNED the stale count, so the test was holding the error in place rather than
+    # catching it. Hence the second assertion below, which checks a fact rather than a
+    # string: if L175 is named at all, it must be named as closed.
+    assert "nine genuine open nodes (one carrying" in FLAT
+    if "L175" in FLAT:
+        assert "L175 CLOSES" in FLAT or "L175 (the h = 0 locus) is REMOVED" in FLAT, \
+            "L175 is decided by B1110 (PROVED); the map must not re-list it as open"
     assert "three residues" in FLAT
     assert "torsion-to-determinant" in FLAT, "B8113 residue 2 must stay explicit"
     assert "OUTSIDE Pfaff's absolute-convergence abscissa" in FLAT, "residue 3"
