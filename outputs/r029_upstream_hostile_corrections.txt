@@ -1,0 +1,15 @@
+GATE_C order_three_intertwiner PASS
+GATE_C character_orbit_size=1 PASS
+GATE_C actual_carrier_dimension=2 required_three_copy_dimension=6
+GATE_C functorial_principal_carrier=27 required_three_copy_carrier=81
+GATE_D exact_full_trace_identity=lambda^2+2 PASS
+GATE_D allowed_lambda_on_chosen_branch={+w,-w} SIGN_NOT_SELECTED
+GATE_D both_kappa_branches_allowed_lambda={+w,-w,+wbar,-wbar}
+GATE_D externally_checked_upstream_blob=c35cf7f3fad3c637d5c38019409ed08083e4faa0
+GATE_D upstream_levels=(6,8,10) upstream_window=[-6,6]^2
+GATE_D finite_approximant_degrees {6: 21, 8: 55, 10: 144}
+GATE_D exact_in_window_interior_witnesses=(6,8,10) PASS
+GATE_D finite_sigma_has_nonempty_interior_by_FTA_and_continuity
+GATE_D finite_sigma_planar_box_dimension=2
+GATE_D reported_sub2_dimension_is_UNDER_RESOLUTION_NOT_A_THEOREM
+VERDICT GATE_C_ROUTE_REFUTED; GATE_D_EXACT_CORE_NARROWED; LIMIT_OPEN
