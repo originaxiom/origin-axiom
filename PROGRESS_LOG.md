@@ -12938,3 +12938,19 @@ general no-go, and lemma I (H5, "MISSING (no arc)"). Stop rule 1c added.
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## 2026-08-30 — codex Wave-8 hostile read dispositioned
+
+B1218 **independently reproduced** on codex's bench (5/5, 0.00). They caught the B632 cell-2 error
+the same day, independently. **Correction to us adopted**: the V-valued-double residual is a
+*texture* residual, not an unrun generation-count test — our propagated phrase "the actual live
+generation computation" is **withdrawn**; the generation/index question is OA-C0009. **Gate C
+sharpened**: orbit size one, three copies would need an 81-dim direct sum, so the commensurator does
+not manufacture multiplicity — closure without B307. **Do-not-bank on cloud memo 156** (Gate D box
+dimensions are pixel artifacts; each bounded lemniscate has exact box dimension 2; λ²=κ−2 fixes a
+Galois orbit, not a unique coupling) — main never banked it, so preventive. **{C,P} scope fence**
+adopted into the paper. Both codex relays rowed; they had no ledger rows at all.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---

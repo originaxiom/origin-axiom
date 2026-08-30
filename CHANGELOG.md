@@ -1,5 +1,46 @@
 # Changelog
 
+## codex's Wave-8 hostile read: B1218 reproduced elsewhere, one correction to us adopted, one do-not-bank caught in time (2026-08-30)
+
+The most useful inbound of the window, and it was sitting unread and unrowed.
+
+**B1218 independently REPRODUCED** from a clean archive of main: `REPRODUCES`, bite control 5/5 at
+rank zero, off-corpus negative 0.00. Our instrument works on someone else's bench.
+
+**They caught the B632 cell-2 error independently, the same day** — *"memo 157's sentence that cell 2
+is queued and unrun is stale and false in current main."* Two benches, one finding, neither reading
+the other.
+
+**A correction to us, adopted.** Per B632's own `REPAIR_ADJUDICATION.md`: h¹(M;27) = 3 means **one
+class in each inequivalent principal block** V(16)+V(8)+V(0) — *not three copies*; the
+invariant-section generator is **not** a dynamically selected VEV; and the V-valued-double residual
+is a **texture residual, not an unrun solo generation-count test**. So this bench's phrase *"the
+actual live generation computation on the record"* — relayed in from cloud and propagated by us — is
+**withdrawn**. The physical generation/index question is **OA-C0009**, not a B632 cell.
+
+**Gate C sharpened, and the sharper route adopted.** Over ℚ(ω)/(ω²−ω+1) the three labelled Riley
+representations are related on *both* generators by the exact order-three intertwiner, so their
+character-variety **orbit has size one** on one two-dimensional carrier; any functorial principal
+image remains **one** 27, and three copies would need an added **81-dimensional direct sum**.
+**The commensurator does not manufacture multiplicity** — the same closure without routing through
+B307 at all.
+
+**A do-not-bank that arrived before we could bank it.** On cloud's memo 156 (Gate D): the reported
+box dimensions `1.247, 0.951, 0.794` and "zero interior cells" are **pixel under-resolution
+artifacts** — the three x_n(E) are polynomials of degree 21/55/144, exact dyadic ℚ(ω) witnesses give
+|x_n| < 2, so continuity yields open neighbourhoods and each bounded lemniscate has **exact box
+dimension 2**. And λ² = κ−2 fixes a **Galois orbit** {±w, ±w̄}, not a unique coupling — `cmath.sqrt`
+was silently taking the principal branch. **Verified here: main never banked memos 156/157**, so this
+is preventive. *That λ is the spectral coupling, not the type III_λ modular parameter — the fourth
+homonym trap of the day, declined.*
+
+**A fence on our own {C,P} claim, adopted into the paper**: it is a scoped *discrete*-ledger theorem
+and removes no continuous, external field-theory, vacuum, scale or index input. The paper now states
+that before making the claim, rather than leaving it to be over-read.
+
+Both codex relays rowed — they had **no ledger rows at all**, so the debt gate could not see them.
+
+
 ## The owner re-probed Cell 1, and λ is PLACED: external BY THEOREM (2026-08-30)
 
 *"Should we reprobe? Maybe the cell solved it afterwards but didn't bank properly."* **It had, and
