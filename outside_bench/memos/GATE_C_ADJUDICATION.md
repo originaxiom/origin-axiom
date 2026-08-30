@@ -127,3 +127,21 @@ Q7–Q10.**
 - **No numerical coincidence of the integer 3 was used as evidence**, per the seal.
 - The prior I declared was wrong. Recorded plainly, because a seal whose prior is only ever
   vindicated is not doing any work.
+
+
+---
+
+## ADDENDUM (2026-08-30) — §3's FORWARD LOOK IS WRONG: CELL 2 WAS RUN
+
+**Bench error #17, corrected in memo 158.** §3 says `B632`'s cell 2 is *"queued and unrun"* and *"the
+actual live generation computation on the record."* **Both are false.** Cell 2 ran on 2026-07-15,
+was externally audited, passed 162/162 coboundary-descent checks, and its sealed gates caught a real
+failed run. `B1036` and `B1039` then extended it until the wall is **sector-complete on the double**,
+with the symmetric support **EXACTLY ZERO** in all fifteen pairs.
+
+**I read `B632`'s own forward-looking sentence as current state — the register, not the corpus —
+which is the very failure this memo charges Gate C with**, committed in its closing section.
+
+**§1, §2 and the G-1/G-2/G-3 outcomes are unaffected. The correction runs in the closing direction:**
+not "one route dead, another open", but **two routes worked and the symmetric-generation reading
+failing in both.**

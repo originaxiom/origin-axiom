@@ -753,3 +753,24 @@ on the record.**
 **Consequences: Q9 is withdrawn as drafted** (sending it would ask a specialist to redo banked work),
 and if the record closes Gate C its load-bearing *"four named gates"* count becomes **three**.
 Relayed to cc; this seat does not edit `OPEN_PROBLEMS.md`.
+
+
+---
+
+## ADDENDUM 56 (2026-08-30) — ROW R58: a correction owed on R57
+
+| row | correction | where |
+|---|---|---|
+| **R58** | **Memo 157's closing claim was wrong.** I told the owner `B632`'s cell 2 was *"queued and unrun"* and was *"the actual live generation computation on the record."* **It was run in July**, externally audited, 162/162 checks, with its sealed gates catching a genuine failed run — and `B1036`/`B1039` then extended it until the wall is **sector-complete on the double**, all fifteen symmetric pairs **exactly zero**. | memo 158 |
+
+**Bench error #17, and the least excusable.** I read `B632`'s own future-tense sentence as present
+state — **the register, not the corpus** — in a memo whose entire finding was that Gate C fails to
+cite the material answering it. The rule I adopted two memos earlier would have caught it in one
+command; I stated no searched terms, and running them now returns the arc at 7 of 7, top rank.
+
+**The correction runs in the closing direction.** Not "one route dead, another open" — **two routes
+worked, and the symmetric-generation reading failing in both.** Gate C's closure stands and is
+firmer; Q9 stays withdrawn.
+
+**Rule tightened:** *a future-tense sentence inside an arc is evidence about the day it was written
+and nothing else — before repeating one, list the arc's directory.*
