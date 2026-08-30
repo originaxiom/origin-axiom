@@ -1,5 +1,59 @@
 # Changelog
 
+## CELLS 4 AND 5: the referee appendix is generated and controlled, and the hostile read of §3 finds four things (2026-08-30)
+
+Both cells' premises audited first, per stop rule 1b: no appendix existed, and **§3 did not exist at
+codex's inspected ref** (it landed after), so it genuinely had no adversarial pass.
+
+### Cell 4 — the verification appendix, generated rather than written
+
+`scripts/checks/paper_provenance.py` maps every load-bearing paper claim to the record that
+establishes it and checks **mechanically**, per arc: that it exists, that its backing holds, that it
+ships a reproducer where claimed, and that a test lock names it. **21 claims, 22 claim–record pairs,
+0 defects.** The appendix in the paper is *generated* by it, and a lock asserts the paper's copy is
+not stale.
+
+**MB12: the generator can fail, and it did.** Its first run reported three defects — two paper
+claims resting on arcs whose own verdict is OPEN. Investigating showed the fault was **in my
+generator, not the paper**: it conflated *"the arc's verdict"* with *"is this claim's computation
+verified."* B1170 is verdict OPEN because its charter reconciliation is open, over an
+`independent_enumeration.py` that confirms 252/222/2 on this bench. Fixed by requiring each claim to
+**declare** its support type — `settled` (rides the verdict) or `computed` (the enquiry is open; the
+computation was re-derived and ships a script) — so the honest case and the sloppy case cannot be
+confused. An undeclared OPEN arc is still a defect.
+
+Honest detail the table surfaces rather than hides: **15 of 22 pairs have no standalone reproducer**
+— they re-run via their test locks in the suite. The appendix says so.
+
+### Cell 5 — the hostile read of §3, from both directions
+
+**Record read — three findings.**
+
+1. **B1003's claim line has the covering direction backwards**: *"the discarded child is
+   GIESEKING."* Gieseking is the **parent**. Computed here: Gieseking non-orientable at 1.0149…,
+   m004 orientable at 2.0298…, ratio exactly 2 — **m004 covers Gieseking**. `THEOREM_LEDGER` C5 has
+   it right; the arc's verdict line does not. *The identical error was live in the paper this
+   morning and corrected; finding it a second time in a banked verdict line says the slip is
+   systematic in how this pair is described, not a typo.* Dated addendum.
+2. **The ledger's own B998 lock-audit note is stale**: it asserts *"no F2 test… no F8 test — C4's
+   entire price"* and concludes C4 carries no in-repo lock. **B1003 wrote those locks**;
+   `tests/test_b1003_f2_f8_locks.py` exists and passes. The audit note asserted a gap its own remedy
+   had closed — **E53, inside the ledger that records it.** Superseded in place.
+3. **Two accountings were never reconciled**: §2.1 prices the entrance as seven forks (two fragile),
+   §3 as four axioms (three pre-object). They are the same cost — **the forks are how the axioms are
+   priced** (description ← two robust forks; carrier ← the four-way redundancy failure; orientation
+   ← the fragile fork; the observer's closings ← four forks of their own). Now stated in §3.
+
+**Page read — one finding, in my own text.** §3's scopenote still said *"two of those rows are not
+closed"* — written this morning, **stale since today's λ and ℙ³ corrections**. Rewritten to match:
+one row external by theorem, one closed permanently subject to a named datum, the rest finite labels.
+
+Also verified against the record and **holding**: the 43-link count and its exact type breakdown
+(26/6/5/4/1/1); that **C6–C17 contains zero AXIOM entries** — the "twelve links, not one declared
+choice" claim; and that "the squaring **is** the orientation axiom" is the ledger's own wording
+(C5: *"the monodromy is taken orientation-preserving (golden SQUARED)"*), not rhetoric. 17 pages.
+
+
 ## codex's Wave-8 hostile read: B1218 reproduced elsewhere, one correction to us adopted, one do-not-bank caught in time (2026-08-30)
 
 The most useful inbound of the window, and it was sitting unread and unrowed.

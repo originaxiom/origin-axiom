@@ -12954,3 +12954,20 @@ adopted into the paper. Both codex relays rowed; they had no ledger rows at all.
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## 2026-08-30 — CELLS 4 & 5: the referee appendix, and §3's hostile read
+
+**Cell 4**: `scripts/checks/paper_provenance.py` — 21 claims, 22 claim–record pairs, **0 defects**;
+the paper's appendix is generated from it and locked against staleness. The generator failed its own
+first run and the fault was mine (conflating arc verdict with claim verification); fixed by requiring
+each claim to declare `settled` vs `computed`. 15 of 22 pairs have no standalone reproducer — stated
+in the appendix, not hidden. **Cell 5**: record read found (1) B1003's verdict line has the covering
+direction backwards (Gieseking is the parent — computed: ratio exactly 2), (2) the ledger's B998
+lock-audit note is stale, asserting a gap B1003's own locks closed, (3) the fork and axiom
+accountings were never reconciled — the forks *price* the axioms. Page read found §3's scopenote
+stale since today's λ/ℙ³ corrections. Verified and holding: 43 links at 26/6/5/4/1/1, **zero AXIOM
+entries in C6–C17**, and "the squaring is the orientation axiom" as the ledger's own wording.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---
