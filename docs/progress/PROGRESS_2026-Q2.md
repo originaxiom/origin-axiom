@@ -4186,3 +4186,31 @@ working**.
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## Review 53 + THE PAPER's spine + Gate C (2026-08-30)
+
+**Review 53** (32 merges from anchor `8aa71f07`; eighteen arcs B1201–B1218). The window the record
+audited itself. THEOREM_REGISTRY +20 rows, **none of them new proofs** — theorems the corpus already
+held that no surface displayed. Branch inventory: all five unmerged refs classified. Protocol
+integrity: 18 sealed digests recomputed and matching, one E39 instance disclosed (mine). **New class
+E53 — surface non-propagation**, seven instances, with `scripts/checks/open_claim_sweep.py` as its
+standing instrument.
+
+**THE PAPER gains §3, the chain link by link.** All 43 links typed, independently recounted from
+`THEOREM_LEDGER.md` (26 theorem / 6 identity / 5 no-go / 4 axiom / 1 corollary / 1 census = 43, **39
+forced**). Claimed in the defensible form — *not* parameter-free, but **the parameters enumerated,
+typed, and located**: three axioms before the object, one after the algebra, and **across the twelve
+links from object to algebra, not one declared choice**. Adds the bridge ($M^2 = RL$), the boundary
+(the second field is bought at geometrization and nowhere earlier), and the doorway stated correctly
+(McKay at the hyperbolic end — *not* the retracted congruence-factoring reading). 14 → 16 pages.
+
+**Gate C CLOSED** by its own refutation condition (cloud's find, verified here; B323/B324 had been
+omitted from its Settled list). The generation question is **relocated, not answered** — B632's
+graded h¹=3 route is explicitly not blocked by B307 and its cell 2 is unrun. All five load-bearing
+"four named gates" references updated to three. **E53 instances #8–#9** added, including an
+independent same-day arrival at the same sub-mechanism from the cloud bench, and the finding that
+`doc_currency.py` covers 19 of 169 documents (11%) — the staleness detector passing vacuously.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---
