@@ -1,5 +1,64 @@
 # Changelog
 
+## THE PAPER gains its spine, and Gate C closes (2026-08-30)
+
+**THE PAPER — the chain, link by link (new §3).** The owner's directive: *not-nothing → SM
+structure, all findings, publication-ready.* The paper had every *kind* of claim organised and the
+**derivation itself** nowhere. It now carries the forty-three-link chain, each link typed —
+independently recounted here from `THEOREM_LEDGER.md`: **26 theorem / 6 identity / 5 no-go / 4 axiom
+/ 1 corollary / 1 census = 43, so 39 forced.**
+
+The claim is stated in the only form it survives a referee in: **not "parameter-free", but "the
+parameters are enumerated, typed, and located."** And where they sit is the result — **three axioms
+before the object exists** (inexhaustible description, geometric carrier, orientation), **one after
+the algebra is in hand** (the observer's closings), and **between the object and the algebra, across
+twelve consecutive links, not one declared choice.**
+
+Three things the paper had never stated, now in it: the **bridge** ($M^2 = RL$ — the golden
+substitution matrix squared *is* the object's monodromy, so the squaring *is* the orientation axiom
+and its discarded sibling is the manifold we double-cover, at exactly half the volume); the
+**boundary** (four pre-registered routes all fail — the second field is bought at geometrization and
+nowhere earlier); and the **doorway stated correctly** (the algebra is handed over at the hyperbolic
+curvature end by McKay — explicitly *not* the withdrawn congruence-level-factoring reading, which is
+false and was retracted). 14 → 16 pages, clean build, Gate 5 untouched.
+
+## Gate C — CLOSED by its own refutation condition
+
+Found by the cloud seat; **verified here on every load-bearing point**. Gate C's Settled list cited
+B307/B302/B321 and **omitted B323 and B324** — the two PROVED arcs that compute what the
+commensurator ℤ/3 actually does. With them the gate closes by its own written condition: B323 kills
+the trinification disjunct (the gauge ℤ/3 and the commensurator ℤ/3 are distinct); B324 exhibits a
+symmetric C₃ triple **on a single knot**, which B307 — already cited — forbids.
+
+One step made explicit in the doc, because B324 is more careful than a summary suggests: **B324
+declines to decide the matter question**, calling it *"the B307-walled multiplicity question
+itself"*. The closure therefore runs through B307 applying, which it does — the commensurator route
+is single-object.
+
+**It relocates the generation question rather than answering it**, and the doc says so: B632's
+h¹(M;27) = 3 is exact but **graded** (spins 0, 4, 8, *"not three interchangeable copies"*, stated at
+banking), explicitly *"NOT blocked by B307"*, and its cell 2 — a block-diagonality prediction
+registered before it runs — is **queued and unrun**. All **five** load-bearing "four named gates"
+references updated to three (A, B, D); leaving any one would have reproduced the class.
+
+## E53 gains instances #8–#9 — and an independent same-day arrival
+
+The cloud seat reached E53's sub-mechanism **from a different bench on the same day**, in their own
+words: *"An audit cell that hardcodes what it audited is a record of a reading, not an instrument."*
+Theirs **fired** where main's did not — their certificate reported **four false positives of six**
+(two cells testing invariants true of every draft, two hardcoding the wording they audited). Two
+independent arrivals in one day is what makes the class real rather than a local slip.
+
+**#9 is the most expensive instance recorded**: Gate C's omission had produced a drafted specialist
+question that would have **paid an outside expert to redo banked work**. And a companion finding
+reproduces on main — **`doc_currency.py`'s registry holds 19 documents against 169 in `docs/` + root
+(11% coverage)**, which is exactly why `doc-currency` sat green through the window in which Review 53
+found eight navigation views three reviews behind. *The detector for staleness was itself passing
+vacuously.* Credit for both to the cloud seat.
+
+Two relays sent (codex: R028 verified, R029 corroborating-not-new; cloud: the above). Suite 5745.
+
+
 ## B1218 THE OPEN-CLAIM SWEEP: already_banked stops needing to be aimed (2026-08-30)
 
 The owner asked *"are u sure theyre not lost, make sure"*, then *"run it."* Aiming
