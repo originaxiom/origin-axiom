@@ -4162,3 +4162,27 @@ Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
 
+
+## B1218 — THE OPEN-CLAIM SWEEP (2026-08-30)
+
+**Owner-directed** (*"are u sure theyre not lost, make sure"* → *"run it"*). The hand-aimed pass
+found five locks called open that were already proved (THE_ROAD §§IX–X). This banks the
+instrument that finds them **without being aimed**: `scripts/checks/open_claim_sweep.py` extracts
+every current-openness assertion from the live normative surfaces and scans all 1122 arcs for a
+SETTLED arc that already decided it, IDF-ranked. 526 raw → 45 after the tautology, history-line
+and self-citation filters.
+
+**Bite control both directions (MB12):** positive 5/5 at rank #0; negative 0.00 against a 25.0
+bar. **Two stale rows repaired** in `docs/OPEN_LEADS.md`: **L175** (B1110 PROVED, "L175 CLOSES" —
+the fourth theorem in the gate's family exists, with a mechanism the row never asked for; *the
+same lock as Section X's, on a second surface*) and **L57** (B364 NEGATIVE — T-stability forces
+neither lift; B359/B363 also uncited). **Two adjudicated non-findings** stated rather than
+dropped (THE_SPINE's generated `B171 OPEN`; B921-6's different question).
+
+The instrument tripped its own lock on first run — fifth instance of the self-documenting class,
+fixed by the established `SELF` exclusion. The negative control failing **was the control
+working**.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---

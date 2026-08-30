@@ -1,0 +1,33 @@
+{
+  "arc": "B1218",
+  "instrument": "scripts/checks/open_claim_sweep.py",
+  "arcs_scanned": 1122,
+  "raw_hits_before_filters": 526,
+  "hits_after_filters": 45,
+  "threshold_idf": 25.0,
+  "filters": ["tautology (generated VERDICT_LEDGER index of arcs)",
+              "history lines (unit carries a resolution marker)",
+              "self-citation (unit already names the matching arc)",
+              "self-exclusion (the instrument's own arc)"],
+  "bite_control": {
+    "positive": {"cases": 5, "hits_at_rank_0": 5,
+                 "arcs": ["B1112", "B1109", "B1141", "B1110", "B1109"]},
+    "negative": {"off_corpus_max_score": 0.0, "bar": 6.0, "pass": true}
+  },
+  "confirmed_stale_rows_repaired": [
+    {"row": "L175", "surface": "docs/OPEN_LEADS.md", "was": "typed OPEN",
+     "decided_by": "B1110", "verdict": "PROVED",
+     "note": "F5 'L175 CLOSES'; word property, 28 words over 1364, separation 5e9; mechanism = diagonal-free weld matrices",
+     "second_surface_of_same_lock": "docs/THE_ROAD.md Section X"},
+    {"row": "L57", "surface": "docs/OPEN_LEADS.md", "was": "Open: does the pairing geometry force a characteristic?",
+     "decided_by": "B364", "verdict": "NEGATIVE",
+     "note": "T-stability forces neither lift; two polarizations; re-posed as a spin-structure question",
+     "supporting_uncited": ["B359", "B363"]}
+  ],
+  "adjudicated_non_findings": [
+    {"item": "THE_SPINE B171 OPEN", "reason": "view is GENERATED from the arc's own verdict; ordinary succession by B172/B173"},
+    {"item": "B921-6 spin fork", "reason": "asks whether spinor-Hejhal is authorized; B1141 answers which structure is selected -- different question; enrichment not closure"}
+  ],
+  "not_claimed": "that L57's re-posed spin-structure question is the same Z/2 B1141 assigns; boundary theta-characteristic vs 3-manifold spin structure not identified, computation not run",
+  "self_documenting_instrument_class": {"instance": 5, "first_run_negative_control": 43.4, "resolved_by": "SELF exclusion, per already_banked.py's exclude rule"}
+}

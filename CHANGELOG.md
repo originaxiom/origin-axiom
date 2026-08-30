@@ -1,5 +1,50 @@
 # Changelog
 
+## B1218 THE OPEN-CLAIM SWEEP: already_banked stops needing to be aimed (2026-08-30)
+
+The owner asked *"are u sure theyre not lost, make sure"*, then *"run it."* Aiming
+`already_banked.py` by hand at five rows found **five locks called open that were already
+proved** (THE_ROAD Sections IX and X). This banks the instrument that finds them without
+being aimed.
+
+**`scripts/checks/open_claim_sweep.py`** extracts every *current*-openness assertion from the
+live normative surfaces and scans all 1122 arcs for a SETTLED arc that already decided it,
+ranked by **shared-term IDF** — an unweighted count just surfaces whichever arc says "the
+object" most often. Three filters carry it from 526 raw hits to 45: the **tautology exclusion**
+(`views/VERDICT_LEDGER.md` is a *generated index of arcs*; every row matches its own arc by
+construction), **history lines** (a unit carrying CLOSED/PROVED/FALSIFIED is a record, not a
+live claim), and **self-citation** (a unit already naming the arc is not lost).
+
+**Bite control, both directions (MB12).** Positive **5/5** — each hand-found lock, phrased in
+the *surface's own words*, retrieves its resolving arc at rank #0. Negative — off-corpus text
+scores **0.00** against a 25.0 threshold. The instrument can report nothing, and does.
+
+**Two confirmed stale rows repaired in `docs/OPEN_LEADS.md`:**
+- **L175** read *"typed OPEN"* while **B1110 (PROVED) F5 reads "L175 CLOSES"** — the vanishing
+  locus **is** a word property, exactly the row's own success condition (six channels, identical
+  28-word set over 1364 words, separation 5×10⁹), so the fourth theorem in the gate's family
+  exists; and the **mechanism** was found, which the row never asked for (the 28 are exactly the
+  diagonal-free weld matrices, fifteen orders of separation). **This is the same lock as Section
+  X's, on a second surface the Section X repair did not touch.**
+- **L57** asks *"does the pairing geometry force a characteristic?"* — **B364 (NEGATIVE)** answers
+  it: T-stability forces **neither** lift; the two lifts are two polarizations and L57 becomes a
+  spin-structure question. B359 and B363 (both PROVED) also bear on the row. **It cited none of
+  the three.** *Not claimed*: that the re-posed spin-structure question is the same ℤ/2 B1141
+  assigns — that identification has not been computed.
+
+**Two candidates adjudicated as NON-findings, stated rather than quietly dropped:** THE_SPINE's
+`B171 OPEN` is ordinary succession (that view is *generated* from each arc's own verdict), and
+B921-6 asks whether spinor-Hejhal is *authorized*, which is not the question B1141 answers.
+
+**The instrument tripped its own lock** on first run — its FINDINGS quotes its own test phrase,
+so the negative control failed at 43.40. Fifth instance of the self-documenting-instrument class;
+fixed by the established `SELF` exclusion, quoting `already_banked.py`'s own rule (*"excluding it
+is honesty, not evasion"*). The failure **was the control working**.
+
+Lock `tests/test_b1218_open_claim_sweep.py` (4), including a check that the negative control
+scores ~0 rather than merely passing a loose bar.
+
+
 ## THE PAPER — currency pass: the draft was hostage to the older band, and is not now (2026-08-30)
 
 The owner's catch — *the paper must reflect the newest state and the strongest chain*. **Audited, and

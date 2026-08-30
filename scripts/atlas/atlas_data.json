@@ -4601,6 +4601,26 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1218": {
+   "slug": "open claim sweep",
+   "motifs": [],
+   "refs": [
+    "B171",
+    "B172",
+    "B173",
+    "B359",
+    "B363",
+    "B364",
+    "B921",
+    "B985",
+    "L175",
+    "L57"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B121": {
    "slug": "monodromy grading",
    "motifs": [
