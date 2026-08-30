@@ -44,7 +44,7 @@ no route is listed as "bench-runnable" and left unrun.
 | D1 | the selection theorem's ONE premise | adopt it (⟹ enters the price list as a LEAP-class entry, and the gauge selection becomes a theorem-with-one-premise) or demand its derivation (⟹ a new campaign with no known cell — the bench found none) |
 | D2 | LEAP-1 (H90) | **SIGNED 2026-08-29 — PAID as Option A under SCOPE-1, refuter (a) armed** (weld book add. 5; memos 130/131). memo 90's expansion-FORM conditional is asserted under premise; the RATE is untouched |
 | D3 | LEAP-2 | already PRICED to the branch bit (memo 94's two-branch law); closing = accepting that price or naming a new route past it — the bench exhausted the banked symmetry routes (memos 97/101) |
-| D4 | qualia S4 (the quine) | authorize the build (it is a construction project, not a verification; either seat could build once specified) — until then it stays "unbuilt" honestly |
+| D4 | qualia S4 (the quine) **[SUPERSEDED 2026-08-30 — B1184 dispositioned S4; this row is stale, see memo 159]** | authorize the build (it is a construction project, not a verification; either seat could build once specified) — until then it stays "unbuilt" honestly |
 
 ### E. Blocked at bars outside every seat (stated so nobody pretends otherwise)
 
@@ -200,7 +200,7 @@ important instance.
 
 ---
 
-**D4 — the S4 quine** (unbuilt; S1 fully proved B1183, S2/S3 pending
+**D4 — the S4 quine** **[SUPERSEDED 2026-08-30 — FALSE, B1184 dispositioned the S4 rung; memo 159]** (~~unbuilt~~; S1 fully proved B1183, S2/S3 pending
 cloud C6 = row E2; memo 37: self-report complete except the mirror
 bit; B1184: quine self-naming, half-answer).
 

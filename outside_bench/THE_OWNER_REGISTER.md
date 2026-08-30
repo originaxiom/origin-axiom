@@ -746,9 +746,9 @@ control refused it. The second correction — a mixed trace convention — is wh
 **redirects** it. `B632`'s cohomological count is *"DIFFERENT from B302's commensurator ℤ/3 and NOT
 blocked by B307"*, and it is the live route: **3 but graded** (1 abelian + 2 chiral, its own caveat
 at banking), **5 on the mirror double**. **Gate C asks about the mechanism that is dead, not the one
-that is alive.** `B632`'s cell 2 — the cup-product texture, with a falsifiable block-diagonality
-prediction already registered — is **queued and unrun, and is the actual live generation computation
-on the record.**
+that is alive.** **[SUPERSEDED 2026-08-30 — FALSE; see addendum 56 / memo 158: cell 2 was run 2026-07-15, externally audited, 162/162 checks, and the wall is sector-complete.]** ~~`B632`'s cell 2 — the cup-product texture, with a falsifiable block-diagonality
+prediction already registered — is queued and unrun, and is the actual live generation computation
+on the record.~~
 
 **Consequences: Q9 is withdrawn as drafted** (sending it would ask a specialist to redo banked work),
 and if the record closes Gate C its load-bearing *"four named gates"* count becomes **three**.
@@ -774,3 +774,23 @@ firmer; Q9 stays withdrawn.
 
 **Rule tightened:** *a future-tense sentence inside an arc is evidence about the day it was written
 and nothing else — before repeating one, list the arc's directory.*
+
+
+---
+
+## ADDENDUM 57 (2026-08-30) — ROW R59: the class becomes an instrument
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R59** | Continue. | **Built the instrument for my own repeated failure**, rather than writing the rule a third time — the corpus's own move at `B1202`. It flags a state claim ("unrun", "queued", "never built") when the same sentence names an arc whose **own directory contradicts it**. Two-sided control: flags memo 157 as first banked, clears the correction. | memo 159 |
+
+**It took four rounds, and every failure was the instrument's.** The most useful was the first: the
+negative control fired **and was right** — memo 157's wrong sentence was still standing, unmarked, in
+its body, with my correction a hundred lines below. **That is precisely the currency defect this
+bench charged two other documents with, committed by me the day before.** Fixed by marking the
+passage superseded *in place* — addendum-only forbids rewriting history, not marking a passage
+superseded. The last round found a **dead regex** that had been inert since I wrote it.
+
+**The sweep found a third document carrying the stale quine claim** — `THE_CLOSURE_ROUTES.md`, one I
+had never audited. `L2-CLEAN` is true only **because this cell cleaned it**, which is what my
+declared prior said to expect.

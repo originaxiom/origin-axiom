@@ -91,7 +91,7 @@ is dead, not the one that is alive.** Its current state on that live route:
 
 - **solo: 3, but graded** (1 abelian + 2 chiral), so not three symmetric generations;
 - **double: 5**, so the mechanism does not deliver 3 either;
-- `B632`'s **cell 2 (the cup-product texture) is queued and unrun**, with a *falsifiable prediction
+- **[SUPERSEDED 2026-08-30 — this sentence is FALSE; see memo 158. Cell 2 was run on 2026-07-15, externally audited, 162/162 checks.]** ~~`B632`'s cell 2 (the cup-product texture) is queued and unrun~~, with a *falsifiable prediction
   already registered before it runs* — the pairing is block-diagonal, so cross-block textures vanish
   identically.
 
