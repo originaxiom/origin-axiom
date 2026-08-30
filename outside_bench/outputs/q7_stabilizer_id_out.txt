@@ -1,0 +1,39 @@
+executing B575 stages 0-3 (exact e6-in-gl(27) build, its own gates)...
+    [    0.3s] G1a PASS: [e_i,f_j] = delta_ij h_i (diagonal = Dynkin labels)
+    [   55.8s] G1b PASS: bracket closure dim = 78 (basis pool 78)
+    [   72.5s] stage 1 complete: e6 in gl(27), coordinate solver ready
+    [   72.6s] G2a PASS: principal sl2 relations exact
+    [   75.6s] G2b PASS: adjoint blocks [23, 17, 15, 11, 9, 3] = (23,17,15,11,9,3)
+    [   77.0s] G3 PASS: the relator maps to the exact identity in E6 (end-to-end build check)
+    build done in 77.0s
+    e6 basis: 78 matrices, 27x27, entries in Q(sqrt-3)
+
+S-1  stabilizer of a pair (x in 27, y in 27*) as an EXACT nullspace
+     seed 11: dim = 28
+     seed 29 (control on 'generic'): dim = 28   same
+     OUTCOME: S1-28   (memo 160 predicted 28 by subtraction; this is by construction)
+
+S-2/S-3  the stabilizer's own structure, from its bracket
+     solving 378 brackets (antisymmetry), each verified on all 729 coords ...
+        row 0/28
+        row 7/28
+        row 14/28
+        row 21/28
+     bracket CLOSES in the span for all 784 pairs -- it is a subalgebra
+     rank (centraliser dim of a generic element) = 4
+     OUTCOME: S2-RANK4
+     centraliser dims across the basis: min 4, max 4
+     elements whose centraliser is >= 14 (a whole g2 factor would force this): 0
+     OUTCOME: S3-SIMPLE   (so(8) is simple; g2 (+) g2 is not)
+
+==============================================================================
+SUMMARY: S1-28 | S2-RANK4 | S3-SIMPLE
+
+FENCE (seal section 2), held:
+  * even S3-SIMPLE closes ONE hypothesis of five -- hypothesis 5 (orbit count = class set)
+    is untouched;
+  * this identifies a LIE ALGEBRA, not a GROUP SCHEME: so(8) is compatible with Spin(8),
+    SO(8) and PGO(8), and ONLY the simply connected Spin(8) gives strong approximation;
+  * B990's declared UNFAVOURABLE prior stands unrepudiated.
+
+==============================================================================

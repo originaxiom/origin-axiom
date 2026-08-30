@@ -809,3 +809,21 @@ an identification; three converging facts are not a proof; and `B990`'s unfavour
 unrepudiated. **What changed is the shape of the question** — from *"invent a theorem whose
 neighbours have been open since 2004"* to a **yes/no with named hypotheses**. Q7 should be rewritten
 around it before it is sent.
+
+
+---
+
+## ADDENDUM 59 (2026-08-30) — ROW R61: "qhst does it mean fo the sm"
+
+| row | question | answer | where |
+|---|---|---|---|
+| **R61** | What does the Q7 line mean for the SM? | **Directly, nothing — not one measured number moves.** It is *ledger* work. `B990`'s gap is that an orbit invariant cannot pick a point, and a VEV is only defined up to the unbroken group, so a canonical **integral** orbit would **be** a canonical VEV direction — which is exactly `B1017`'s *"FIVE RESOURCES, AND THE RANK CLOSING IS UNSOURCED"*, the interface's single remaining un-derived slot. A crossing would move **one input** from supplied to derived. **And even then it is a direction, never a number**, because `B991` proved the normalisation not derivable in principle. The SM's values stay where nine proved negatives put them. | memo 161 |
+
+**Today's actual result:** the stabilizer is **𝔰𝔬(8)**, computed exactly — 28-dimensional by
+construction (not subtraction), rank 4, and **simple** (every basis element's centraliser is exactly
+4; a 𝔤₂ factor would have forced one ≥ 14). Dimension alone could not have decided this, since
+𝔤₂⊕𝔤₂ shares its dimension, rank *and* root count. **Hypothesis 1 of five is closed.**
+
+**Still open, and now sharper:** 𝔰𝔬(8) is compatible with Spin(8), SO(8) and PGO(8), and **only the
+simply connected form gives strong approximation.** Plus the orbit-count/class-set bijection. **Route
+A has not been shown to cross**, and `B990`'s unfavourable prior stands.
