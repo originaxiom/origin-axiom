@@ -195,13 +195,39 @@ sealed miss, kept as boundary.**
 
 The full theory, in the proven sense, equals: **everything above marked [BANKED],
 plus this priced list of what is genuinely free, plus the named external
-suppliers.** Current census of the free: the torsor basepoint; C and P (2 bits, P now typed as the deflation mirror — B1118); the spin lift (1 bit, PAIR-INVISIBLE — B1122/L179, a central torsor no coupling reads, the deepest-located free bit); the
-A2 stratum (≈4.3 bits); the hypercharge direction among 18 (≈4.17 bits, orbit-lead
-pending); the ρ/phason intercept (the experiment's own dial — B8091: slope forced,
-intercept free); the 4d suspension (3 distinguished candidates, no section); the 4d
-filling (∞, none canonical); the scale (substrate-supplied). External suppliers
-named: the observer (the closing act), the substrate (the scale), CHIRALITY itself
-(B994's honest limit: registerability presupposes it).
+suppliers.** **Current census of the free (corrected 2026-08-30 — see the repair note below).**
+**DISCRETE: exactly {C, P} — two bits, both relational.** C = the chirality bit (the
+origin torsor, B1083); P = the deflation mirror (B1118). *Nothing else discrete is free.*
+CONTINUOUS / EXTERNAL: the torsor basepoint; the ρ/phason intercept (the experiment's own
+dial — B8091: slope forced, intercept free); the 4d suspension (3 distinguished candidates,
+no section); the 4d filling (∞, none canonical); the scale (substrate-supplied — and
+*within the family* a finite integer menu, not a continuum, per B1188's discrete ladder).
+External suppliers named: the observer (the closing act), the substrate (the scale),
+CHIRALITY itself (B994's honest limit: registerability presupposes it).
+
+> **Repair note (2026-08-30, cc — owner-prompted: "are you sure they're not lost").** This
+> census carried **three stale rows**, each corrected above against an arc already banked
+> **PROVED** that had never reached this surface.
+> **(1) The A2 stratum, priced ≈4.3 bits → 0.** B1112 (THE PROJECTIVE HATCH, three-way
+> convergence) proves A2 is the *unique* projective SM-compatible landing: the object's own
+> unlifted PSL(2,ℂ) geometry reaches it with **no inserted choice** — "SM-facing selection
+> ambiguity = 0 bits."
+> **(2) The hypercharge direction, priced ≈4.17 bits → 0 net.** B1109 (F4) re-prices it in
+> its own words — **"4.17 bits → 1 BIT"** (the 18 exact directions are exactly 2 orbits of 9
+> under W(A₂)×W(A₂)) — and B1118 then *names* that bit: it **is P**, the two orbits fused by
+> the mirror (the plain swap fuses 0). The old row was therefore a **straight double-count**
+> of a bit already listed in the same census.
+> **(3) The spin lift, priced 1 bit → 0.** B1141 (THE SPIN PAYMENT) is PROVED and
+> **hostile-verified two-bench on three independent engines** (own relator search, own exact
+> intertwiner rank, own norm-form and χ-parity proofs): the object's own beat selects the spin
+> structure, so the lift is **assigned, not free**. B1145 (SP-2) then closes the beat exactly
+> on the fermion-capable stratum's 27 over that selected lift. The 2026-08-25 re-census below
+> still tags this bit "ONE-BENCH, pending hostile verification" — **that verification *is*
+> B1141**, banked the same day; the tag simply never lifted.
+> **Net: ≈8.5 bits of phantom freedom removed, and B1118's "the ledger closes to exactly
+> {C, P, spin lift}" closes one step further — to {C, P}.** No arc after B1145 re-opens any of
+> the three (checked). The cause is the *measured* one, not a new error: B1188/B985 — the
+> live instruments recover object-faces at 79–100% but relation-faces at only 6–19%.
 
 ## X. FINALIZATION RULE
 
