@@ -12922,3 +12922,19 @@ orphans.
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## 2026-08-30 — λ IS PLACED: external by theorem (owner re-probe of Cell 1)
+
+The owner asked whether the cell had solved it and failed to bank properly. **It had.** B1195/GC-22
+(PROVED): the λ placement is DECIDED — P1 stands (λ = a second, independent, external continuous
+datum, distinct in kind from σ); P2 (λ from existing legs via KMS/BTZ) EXCLUDED by exact
+constructive computation, the bridge provably tautological against B723's own sealed output, the
+coincidence exhibited numerically. Forced by B721 (NEGATIVE, verified here): the object's own clock
+is tracial with **trivial modular flow** — no continuous clock datum to give. **λ is external by
+THEOREM.** This reconciles GC-27 with GC-22 rather than leaving them in tension. THE PAPER's λ row
+rewritten; it is now a proved boundary rather than the ledger's weakest entry. Remaining: lemma II's
+general no-go, and lemma I (H5, "MISSING (no arc)"). Stop rule 1c added.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---

@@ -1,5 +1,43 @@
 # Changelog
 
+## The owner re-probed Cell 1, and λ is PLACED: external BY THEOREM (2026-08-30)
+
+*"Should we reprobe? Maybe the cell solved it afterwards but didn't bank properly."* **It had, and
+B1220 was incomplete.**
+
+**B1195 / GC-22, verdict PROVED — "THE LAMBDA PLACEMENT IS DECIDED."** P1 stands: λ is a second,
+independent, **external** continuous datum of the total observer, **distinct in kind from σ**. P2
+(λ = f(existing legs) via KMS/BTZ) is **excluded by an exact constructive computation** — the bridge
+is provably **tautological**, reproducing B723's own already-sealed `T_mod = 2π/|log λ|` under a
+gravity-flavoured relabelling. The tautology is *exhibited numerically*: the sealed λ₀ = 2/5 gives
+r₊ = 2π/|log 0.4| = 6.85719618088, a number already in B723's probe output. GC-22 also records that
+it resolves **B1194's genuinely-missing item (2)**.
+
+**Forced by B721** (banked NEGATIVE, verified here): *"the object's own clock is tracial type II₁
+with **trivial modular flow**."* Δ = I. A tracial algebra has **no continuous clock datum to give**.
+
+**So λ is external by THEOREM, not by default** — a proved boundary, not an admission. And this
+**reconciles GC-27 with GC-22** instead of leaving them in tension: GC-27's "λ fails the theorem's
+first hypothesis, no (T,G) read off D" is not a gap awaiting work — **B721 explains why there is
+nothing to read off.**
+
+**THE PAPER's λ row rewritten accordingly**, and it is now the strongest row in the table rather
+than the weakest: from *"external and ungated, no acceptance criterion exists"* (this morning) →
+*"gated, first hypothesis unmet"* (B1220) → **"external by theorem: the object's modular flow is
+trivial, and the one import route is exactly tautological."** What is *not* proved — the general
+no-go that no invariant pair could ever be read off — is stated as unproved.
+
+**What remains, exactly:** lemma II in full generality (the general no-go), and lemma I, the uniform
+Kolmogorov selector-cost — which `GRAND_COMPUTATION_LEDGER` types independently as **"H5. the
+Kolmogorov Selector — MISSING (no arc)."**
+
+**The class, and it is mine.** Cell 0 swept for orphans; B1220 audited each cell's premise; **both
+missed this**, because GC-22 lives inside a batch arc's *cell record* — banked, PROVED, surfaced
+only as one clause of a long verdict line, and its own text names the ledger row it amends without
+that amendment ever landing. **Stop rule 1c: when a cell's finding amends a named surface row, the
+amend is part of the bank, not a note inside the cell.**
+
+
 ## B1220 THE PREMISE AUDIT: all three math cells were already answered, and every answer is stronger (2026-08-30)
 
 Cells 1–3 of the publication campaign, **not run as designed, because none needed to be.**
