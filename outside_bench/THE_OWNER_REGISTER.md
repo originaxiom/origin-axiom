@@ -633,3 +633,22 @@ the paper had lost."* The corpus had not lost it — `OPEN_LEADS` L169, `OPEN_PR
 `CAMPAIGN_STATUS` all track it, the middle one calling it *"the honest specialist-shaped residual."*
 I charged a defect in the paper to the record. The corrected finding is sharper: **the registers and
 the send queue are not joined.**
+
+
+---
+
+## ADDENDUM 50 (2026-08-30) — ROW R52: "fixit and proceed" + "what exactly we don't have on the chain"
+
+| row | question | answer | where |
+|---|---|---|---|
+| **R52a** | Fix the register-to-queue join. | **Measured in the corpus's own unit, because my keyword sweep produced numbers I could not defend and they are discarded.** The record names **four gates** where values could cross, types **three specialist** (B, C, D) plus the rank-wall hatch — and `SPECIALIST_SEND_QUEUE.md` contains **none of them**. Q1–Q6 are six real, adjacent, technical questions and not one of the four doors. Q8/Q9/Q10 drafted; **not sent.** | `THE_CHAIN_GAP.md` §3, `THE_GATE_SENDS.md` |
+| **R52b** | What exactly don't we have on the chain? | **We are parameter-free to the SM's *structure* and have *no* feature — and for measured values that is a theorem, not a gap: a value is exactly what a Galois orbit cannot be.** The chain doesn't thin out and stop; it **completes as structure and hits a firewall**, which is why there is no ragged edge to point at. Every absence sits at features: generations (not derived), Yukawas (one condition short), values (nine proved negatives), **dynamics (no equation of motion anywhere — a different *kind* of object missing)**. | `THE_CHAIN_GAP.md` §1 |
+
+**The row also carries a correction against this bench.** The record warned in advance that the
+Fibonacci-Hamiltonian machinery runs in the **Hermitian** regime and does not transfer to Gate D's
+non-self-adjoint case. That is the machinery memos 137 and 143–147 used. **Nothing this bench proved
+there touches Gate D.**
+
+**And the owner's confusion was earned:** the answer existed in three documents under three
+different taxonomies, none walking the chain in order. That is a record defect, not a reading
+failure.
