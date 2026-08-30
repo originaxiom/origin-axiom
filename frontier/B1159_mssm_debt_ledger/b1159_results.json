@@ -1,0 +1,49 @@
+{
+ "id": "B1159",
+ "title": "The object->MSSM debt-map: codex's conditional MSSM witness with every condition A-E typed and verified; the chain is NOT object-forced end-to-end (A imported/walled, B forced-given-A, C half-paid, D a wall, E withheld)",
+ "verdict": "OPEN (a reference/verdict arc -- the verified condition ledger). The answer to 'can the chain run object-forced to MSSM?' is NO, by theorems.",
+ "provenance_workflow": {
+  "name": "WF-3 the MSSM debt-ledger (owner-approved 'pay codex's conditional debt')",
+  "shape": "2 scope (codex off-branch witness + on-branch/main seams) -> 3 verify (links A+B / C+spectrum / D-wall) -> 1 assemble (the ledger)",
+  "agents": 6,
+  "subagent_tokens": 397456,
+  "verification_this_seat": "the two cleanest new facts re-derived on-bench (reproduce.sh -> REPRODUCES): OA-C1002 by multiplet count, and the E8 SU(3)-commutant branching. C's alphabet Pic_Q + D's mu_u=0 were re-run/re-derived by WF-3; height-308 cohomology is sage-certified off-branch (single-homed)."
+ },
+ "owner_correction_adopted": "The owner pressed: 'seam-a is a wall, not a door, no?' -- adopted. SEAM-A is a WALL in substance (link A un-forced at EVERY place: finite by OA-C1002, infinity by B1157 genericity + B1156 tautology-risk), a FLOOR only in strict-proof terms (the one finite-phase->Vol computation is unsealed, NEEDS-SPECIALIST, leaning MISMATCH). Either way it does NOT pay link A. The prior 'door' framing was over-optimistic and is withdrawn.",
+ "links": {
+  "A_heterotic": {
+   "type": "CRUX (IMPORTED)",
+   "object_forces": "NO",
+   "evidence": "OA-C1002 re-derived by multiplet count: same CY3 (h11,h21)=(1,4) -> IIA (vectors=1,hypers=5), IIB (vectors=4,hypers=2), het (N=1) = three inequivalent string realizations. Heterotic is a choice, 'not a property of the CY3'.",
+   "payment": "SEAM-A/B1156 -- the full/Arakelov arith-CS carries the Borel regulator of xi = Vol(4_1); refutes the a-priori codomain MISMATCH but does NOT construct the finite-phase->Vol map. NEEDS-SPECIALIST (Andersen-Hansen closed->cusped); dynamical route DEAD (B1157). FLOOR leaning WALL."
+  },
+  "B_which_E8": {
+   "type": "FORCED-GIVEN-CRUX",
+   "object_forces": "YES, conditionally (inherits A's non-payment)",
+   "evidence": "SU(3)-commutant in E8 = E6 (dim 78); in Spin(32)/Z2 = SO(26)xU(1) (dim 326); 78!=326 => McKay E6 selects E8xE8 only (re-derived; E8=248=78+8+81+81). Caveats: no functor identifies m004's McKay object with a heterotic bundle; E6 arrival is GENERIC (B727)."
+  },
+  "C_bundle": {
+   "type": "FORCED-GIVEN-CRUX, HALF-PAID",
+   "object_forces": "SPLIT",
+   "alphabet_PAID": "the character alphabet is object-forced with ZERO spectrum input: 12 rays = one regular C12 orbit, M the primitive Phi12 component, Pic_Q = {0,2,3,4,6,8,9,10} (arXiv:1112.1097 eq 2.7/3.12), answer-not-in-view. THIS is the bypass door's foothold.",
+   "branch_HALF_PAID": "the four-branch + Wilson selection needs two IMPORTED target-motivated rules P1 (primary basis Chat12=C4xC3) + P2 (hypercharge on the odd primary leg); codex's own selector: 'neither proves either imperative.' The sign-twist tau:n->n+6 gives an equally-faithful competitor; only trace-sign -2 vs +2 distinguishes, class-field data contain both signs. Galois V4 acts FREELY => single-branch uniqueness REFUTED, 11-dim moduli unselected.",
+   "spectrum": "3x(10+5bar), one Hu, one Hd, no triplet, no vector-like exotics, group (SU3xSU2xU1)/Z6, integral anomaly-free -- Gate-5-legal STRUCTURE (algebra level). Height-308 cohomology H0(Y,V)=0 sage-certified OFF-BRANCH."
+  },
+  "D_up_yukawa": {
+   "type": "WALL (proved obstruction, not a payable debt)",
+   "object_forces": "the object forces mu_u=0",
+   "evidence": "from 0->V->G_X->L->0, i:H1(V)->H1(G_X) is the ZERO map (H1(X,G_X)=0), so mu_u(a,b,c)=<i(a) cup i(b),c~>=0 -- basis/normalization/arithmetic-point INDEPENDENT (re-derived by hand + sage cert rank(mu_u)=0). Rank-jump dichotomy closes the escape. = SEAM-Y MISMATCH (B1154, PROVED), cohomological emptiness.",
+   "asymmetry": "the DOWN-Yukawa has no chain-level evaluator (a P^3 of unselected Hd lines) -- WITHHELD, not zero. Escape hatches need NEW data, not a discharge of this debt."
+  },
+  "E_tail": {
+   "type": "WITHHELD",
+   "object_forces": "NO -- the dimensionful no-go (B660/B666, LAW_MAP wall 10) forbids typing any dimensionful observable (moduli, SUSY breaking, EWSB, scales, RG). The observer's, not the object's."
+  }
+ },
+ "bifurcation": "STRUCTURAL chain (-> exact charged MSSM SPECTRUM) = A=>B=>C-spectrum: PAYABLE IFF A is paid; A provably NOT object-forced (OA-C1002) => a CONDITIONAL cohomological spectrum theorem, single unpaid premise A, modulo P1/P2 + unselected moduli. VALUE chain (-> Yukawas/masses) = WALL (D=SEAM-Y up-Yukawa=0) + WITHHELD (E). So 'object all the way to MSSM' = a conditionally-forced SPECTRUM on top of a proved WALL where the masses are. Structure forced (on A), values withheld -- the program's one verdict at the SM's doorstep. NOT object-forced end-to-end, NOT a breakthrough.",
+ "the_live_door_relocated": "Since A is walled, the heterotic ROUTE can't be object-forced. The live alternative is to BYPASS A: link C's character ALPHABET is already object-forced with no spectrum leak -- the foothold to derive the MSSM spectrum from E6 + the character rule as pure algebra, heterotic demoted to one dressing. What blocks it is C's branch selection (imported P1/P2 + free Galois action). The sharpest workable open question: can P1/P2 be replaced by an object-intrinsic principle, closing C's branch selection WITHOUT link A? -- not 'storm SEAM-A'.",
+ "provenance_debt_relayed": "The witness is single-homed off-branch (the branch carries only summaries). Codex to commit: D1 the height-308 bundle certificate (44-integer KZ vector, Euler-kernel/augmented-H0 kernel/rank-C372->C312/three-chart-ideal=[1]/char-zero local-freeness) + runner; D2 the character-rule/C12 bundle-selector derivation; D3 the Yukawa no-go chain-level evaluator. Relayed via CC_TO_CC3.",
+ "fences": "No firewall crossing -- a conditional cohomological SPECTRUM theorem, not a vacuum; Gate 5 clean (no mass/scale VALUE derived; spectrum = reps+charges = structure). Multiplet count + E8 branching own-verified; C-alphabet Pic_Q + D mu_u=0 re-run/re-derived by WF-3; height-308 cohomology + Strominger persistence sage-certified OFF-BRANCH single-homed (provenance debt, not leaned on). SEAM-A = B1156 FLOOR (leaning wall); OA-C1002/SEAM-Y main-verified.",
+ "gate5": "clean -- no Standard-Model quantity asserted as derived; the MSSM spectrum is structure (reps/charges), the masses hit the wall/are withheld.",
+ "routes": "Move 2 reframed: 'attack link A' -> 'SEAL SEAM-A as a wall' (B1156's finite-phase->Vol, but NEEDS-SPECIALIST so bench does scoping/relay not close). The live cell: replace C's P1/P2 with an object-intrinsic selection principle (the bypass door). Relay: the provenance debt D1/D2/D3 -> codex."
+}

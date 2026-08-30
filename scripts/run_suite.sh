@@ -5,9 +5,24 @@
 # investigated, never shipped. When in doubt, run --serial. A bank's final pre-commit suite may
 # use parallel ONLY once qualified (B1018) and unchanged in qualification-relevant ways since.
 #
-# Usage:  scripts/run_suite.sh [--serial] [extra pytest args...]
+# Modes (B1152, the cost-class remedy for cc3's B8139 — a lock never reached is a lock that
+# caught nothing; the full suite's collection alone is minutes, so give the inner loop a fast lane):
+#   scripts/run_suite.sh            full suite, parallel  (the pre-commit certificate)
+#   scripts/run_suite.sh --serial   full suite, serial    (the certificate of record)
+#   scripts/run_suite.sh --fast     full collection, skip @pytest.mark.slow tests (-m "not slow")
+#   scripts/run_suite.sh --changed  ONLY the tests the working-tree diff affects (fast inner loop;
+#                                   conservatively falls back to the full suite when it cannot bound
+#                                   the change — never a false green). See scripts/affected_tests.py.
+# --serial/--fast compose; --changed is standalone. Extra pytest args pass through.
 set -u
 cd "$(dirname "$0")/.."
-MODE="-n 12"
-if [ "${1:-}" = "--serial" ]; then MODE=""; shift; fi
-exec python3 -m pytest tests/ -q -p no:randomly $MODE "$@"
+if [ "${1:-}" = "--changed" ]; then shift; exec python3 scripts/affected_tests.py --run "$@"; fi
+MODE="-n 12"; MARK=()
+while :; do
+  case "${1:-}" in
+    --serial) MODE=""; shift;;
+    --fast)   MARK=(-m "not slow"); shift;;
+    *)        break;;
+  esac
+done
+exec python3 -m pytest tests/ -q -p no:randomly $MODE ${MARK[@]+"${MARK[@]}"} "$@"

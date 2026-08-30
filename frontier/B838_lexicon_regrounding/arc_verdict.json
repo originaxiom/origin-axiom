@@ -1,0 +1,7 @@
+{
+ "id": "B838",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "Lexicon re-grounding (retro-authored at R50-4): R35-7 TESTED AND DECLINED -- the pre-seal frequency diagnostic shows K023-K025 are syntheses, not topics; the called-for re-grounding yields no motif. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

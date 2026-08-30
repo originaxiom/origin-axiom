@@ -3,7 +3,23 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "THE GUT REQUIREMENTS LEDGER + THE RANK OBSTRUCTION (theorem-grade). The second missing inventory is written: docs/GUT_REQUIREMENTS_LEDGER.md states the eleven rows any grand unified theory must satisfy -- embedding and rank, anomaly freedom, matter fits, coupling unification (which the NON-SUSY SM FAILS), proton decay (Super-K tau(p->e+pi0) > 2.4e34 yr, which EXCLUDES MINIMAL SU(5) and forces M_GUT >~ 1e16 GeV), doublet-triplet splitting (a 1e14 tuning, unsolved in minimal models), fermion mass relations (m_b = m_tau roughly works while m_s = m_mu and m_d = m_e fail by ~3 and ~9), neutrino mass, monopoles (requiring inflation after breaking), baryogenesis via B-L, and an explicit breaking sector -- plus the E6 specifics: rank 6, the chain E6 > SO(10)xU(1)_psi > SU(5)xU(1)_chi xU(1)_psi, and 27 = 16 + 10 + 1 where the 10+1 are TWELVE EXOTIC STATES PER GENERATION that any model must make heavy and which the record does not address anywhere (a named gap, L134). THE RANK OBSTRUCTION, produced by writing row 1: rank(E6) = 6; rank(su(3)+su(2)+u(1)^3) = 2+1+3 = 6; rank(SM) = 2+1+1 = 4. THE SECOND MEASUREMENT PRESERVES RANK EXACTLY, and this is FORCED rather than incidental -- THE CENTRALIZER OF A SET OF SEMISIMPLE ELEMENTS CONTAINS A MAXIMAL TORUS AND THEREFORE HAS FULL RANK, and the measurement cascade computes centralizers of charges, i.e. of torus elements, SO EVERY MEASUREMENT IS RANK-PRESERVING AND NO NUMBER OF THEM CAN EVER REACH RANK 4. B950 recorded the dim-14-vs-12 gap and called it 'two steps away'; THAT WAS TOO GENTLE. The correct statement: the two extra U(1)s ARE THE UNBROKEN RANK AND THEY ARE UNBROKEN BY CONSTRUCTION, so reaching the Standard Model requires RANK REDUCTION -- precisely what a measurement cannot do. Rank reduction needs a genuine breaking mechanism (Higgs VEV, Wilson line / Hosotani flux, or orbifold projection), which is ledger requirement 11 and which the object does not supply. WHAT THIS EXPLAINS RETROACTIVELY: the three sealed crossings failed in three different ways, and the rank obstruction gives ONE structural reason to expect difficulty in all three -- they were comparing a RANK-6 structure against RANK-4 physics, nothing in the cascade had ever removed the two extra abelian directions, and no arc noticed because the target was never written down. This is NOT a retrofit excuse: the crossings were sealed, ran, and failed on their own stated criteria, and those verdicts stand exactly as banked; what changes is the DIAGNOSIS available afterwards, now structural rather than numerical. WHAT IT DOES NOT SAY: it does not refute the cascade (FMT/SMT stand, mathematics untouched and locked); it does not say the object cannot reach the SM, only that MEASUREMENT ALONE cannot, since measurement is a centralizer operation, and a breaking mechanism supplied from elsewhere is not excluded but simply NOT PRESENT; and it does not make the extra U(1)s unphysical -- in E6 descent they are the standard U(1)_chi, U(1)_psi directions with real Z' phenomenology (LHC bounds >~ 4-5 TeV), and whether the object's two extra directions ARE those is OPEN and part of L132's scouting. REGISTERED: L133 THE RANK-REDUCTION QUESTION -- does the object supply ANY rank-reducing structure (a natural VEV direction, a Wilson line from its own pi_1, an orbifold action), or is rank reduction an input it cannot provide? Now THE SINGLE MOST IMPORTANT STRUCTURAL QUESTION between the object and the SM, and PRIOR TO EVERY VALUE QUESTION -- with a candidate worth checking, since the object has a fundamental group and a cusp so Wilson lines/holonomy are natural here, and the banked literature map already records the centralizer-of-holonomy (Hosotani) route as one of the forced mechanisms for the unbroken subgroup. L134 THE TWELVE EXOTICS.",
- "depends_on": ["B950", "B892", "B915", "B925", "B929"],
- "supersedes": null, "superseded_by": null,
- "authored_by": "cc banking seat (2026-08-08)"
+ "depends_on": [
+  "B950",
+  "B892",
+  "B915",
+  "B925",
+  "B929"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc banking seat (2026-08-08)",
+ "creates_law": true,
+ "creates_law_corrected": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "why": "re-audit of the field before the paper's disposition pass; this arc's claim was read IN FULL and states a new general proposition proved here, not a verification, harvest, census or sealed decision",
+  "registry_row": "T-RANK-OBSTRUCTION",
+  "lock": "tests/test_b952_rank.py"
+ }
 }

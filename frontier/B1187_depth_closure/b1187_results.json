@@ -1,0 +1,25 @@
+{
+ "id": "B1187",
+ "arc": "L187 depth-closure sitting",
+ "verdict": "PROVED",
+ "dispositions": {
+  "B489": "CLOSED (B767 Binet, verified standing) -- registration was stale",
+  "TOMB-L255": "CLOSED (B767 Sym^d functor, verified standing) -- registration was stale",
+  "WALL-7": "CLOSED-mod-q all t: dim=0 at every t in 1..865, 8 patterns, q=1009 AND q=1999; B767 no-roots logic error corrected; K-exact route specified",
+  "B685": "EXTENDED 3x/4x: K=60, NC=240, ALL CHECKS PASS; v5=0 everywhere; 3-integrality theorem = the named remaining step",
+  "TOMB-L310": "RE-SCOPED CLOSURE: drift-artifact grounds stand; B189 'indistinguishable' clause REVERSED (z_L10=+11.2, structured trend); convergence inference retired; L190 minted",
+  "TOMB-L34": "CLOSED: profile slope stable 7 sizes x 2 windows w/ controls; B767's vacuous seeds + estimator artifact corrected",
+  "B500": "obstruction route REFUTED (etale deg-4 signature abundant from depth 5; depth 4 zero); census instrument banked; kill stays PROVISIONAL-at-depth-5; B502 witness = named next cell"
+ },
+ "corrections_of_prior_instruments": [
+  "B767 wall7 no-roots logic",
+  "B767 L34 vacuous seeds",
+  "B767 L34 estimator artifact",
+  "B189 C3 indistinguishable clause (30->100 seeds, per-level)"
+ ],
+ "my_bugs_caught": [
+  "l34 first harness empty-slice window (S==0 rows discarded, rebuilt)",
+  "wall7 first prime pick 2003 != 1 mod 3"
+ ],
+ "reproduces": "verification/reproduce.sh -> REPRODUCES (fast path; OA_SLOW=1 full sweeps)"
+}

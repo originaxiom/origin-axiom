@@ -1,0 +1,83 @@
+B1159 — THE OBJECT -> MSSM CONDITION LEDGER (verified debt-map)
+Chain under test: not-nothing -> m004 -> Q(sqrt-3) -> 2T -> E6 -> ... -> MSSM.
+Source: WF-3 (6 agents, verify-don't-trust against codex's off-branch witness + main's seams).
+Each link TYPED; the load-bearing algebra re-derived in-sandbox (see reproduce.sh).
+
+================================================================================
+LINK A — THE HETEROTIC / WORLDSHEET FRAMEWORK
+================================================================================
+TYPE: CRUX (IMPORTED).
+What: the axiom that the arithmetic class-field CY package IS the internal geometry of an
+      E8xE8 heterotic string (the CY3 read as 6 real dims carrying a 10D gauge factor).
+Object-forces-it? NO. OA-C1002 re-derived this run by MULTIPLET COUNT: the same CY3 with
+      (h11,h21)=(1,4) gives IIA (vectors=1, hypers=5), IIB (vectors=4, hypers=2), het (N=1) --
+      THREE inequivalent physical realizations of ONE CY3. Heterotic is a CHOICE, "an additional
+      physical premise, not a property of the CY3." A is a named import, not a theorem.
+Payment route: SEAM-A (B1156). The full/Arakelov arith-CS over closed Spec O_{Q(sqrt-3)}
+      (infinity-place in) carries a real archimedean summand = Borel regulator of xi=[e^{i pi/3}]
+      in K_3(Q(sqrt-3)) = Vol(4_1). This REFUTES the a-priori codomain MISMATCH but does NOT pay A.
+STATUS: FLOOR, leaning WALL. The single unsealed computation is the finite-phase->Vol MAP
+      (Andersen-Hansen closed->cusped) -- NEEDS-SPECIALIST, not benchable; on all evidence
+      (OA-C1002 finite + B1157 infinity-place genericity + B1156 tautology-risk) it is expected
+      to seal as MISMATCH. THE DYNAMICAL route is DEAD (B1157). => A is un-forced at every place.
+
+================================================================================
+LINK B — WHICH E8 (standard embedding)
+================================================================================
+TYPE: FORCED-GIVEN-CRUX (structural, exact conditional-elimination).
+Re-derived in-sandbox: SU(3)-commutant in E8 = E6 (dim 78); in Spin(32)/Z2 = SO(26)xU(1)
+      (dim 326); 78 != 326 => McKay E6 (from Q(sqrt-3)->2T) selects the E8xE8 fiber only.
+      (E8=248=78+8+81+81 consistent; both embeddings Dynkin index 1.)
+Caveats: (i) inherits A's non-payment; (ii) NO functor identifies m004's McKay object with a
+      heterotic gauge bundle; (iii) E6 arrival is GENERIC (B727, one ADE classification, P=1) --
+      the only object-specific residue is Q(sqrt-3)->2T.
+
+================================================================================
+LINK C — BUNDLE / BRANCH / WILSON LINE (the character rule)
+================================================================================
+TYPE: FORCED-GIVEN-CRUX, HALF-PAID -- the key nuance for the "bypass door".
+  * The character ALPHABET is OBJECT-FORCED and PAID: verified the input is the toric fan A_N
+    (from the cusp ring-class field), NOT the spectrum -- 12 rays = one regular C12 orbit, M the
+    primitive Phi12 component, Pic_Q = {0,2,3,4,6,8,9,10} (= arXiv:1112.1097 eq 2.7/3.12), ZERO
+    spectrum input. "Answer-not-in-view" confirmed. THIS is the bypass door's real foothold.
+  * The four-BRANCH + Wilson SELECTION is HALF-PAID: character-derived GIVEN two IMPORTED rules
+    P1 (primary basis Chat12=C4xC3) + P2 (hypercharge on the odd primary leg). Codex's own
+    selector: "neither proves either imperative." The sign-twist tau:n->n+6 maps the winning orbit
+    onto an equally-faithful competitor; only trace-sign -2 vs +2 distinguishes, and "the
+    class-field data contain both signs, no potential says choose -2." => TARGET-MOTIVATED.
+    Galois V4 acts FREELY on the four branches => single-branch uniqueness REFUTED; each branch
+    keeps an unselected 11-dim moduli family.
+  * The SPECTRUM (algebra level, Gate-5-legal STRUCTURE): 3x(10+5bar), one Hu, one Hd, no
+    triplet, no vector-like exotics, group (SU3xSU2xU1)/Z6, integral anomaly-free (12 delta=0,
+    torsion-free H^4). Height-308 bundle cohomology (H0(Y,V)=0) sage-certified OFF-BRANCH.
+
+================================================================================
+LINK D — A NONZERO UP-YUKAWA
+================================================================================
+TYPE: WALL (proved obstruction), NOT a payable debt.
+Re-derived by hand: from 0->V->G_X->L->0, i:H1(V)->H1(G_X) is the ZERO map (H1(X,G_X)=0), so
+      mu_u(a,b,c)=<i(a) cup i(b), c~>=0 -- basis/normalization/arithmetic-point-INDEPENDENT.
+      rank-jump dichotomy closes the escape (r=0 => up zero; r>0 => Hu ambient/zero OR >=2 Hu
+      breaking the exact one-Hu spectrum). "Vary coefficients to repair up while keeping one-Hu":
+      REFUTED. = SEAM-Y MISMATCH (B1154, PROVED): cohomological EMPTINESS, no SM number.
+Asymmetry: the DOWN-Yukawa has no chain-level evaluator (a P^3 of unselected Hd lines) -- WITHHELD,
+      not zero. Escape hatches (different monad/topology, extra vector-like Higgs, nonperturbative)
+      need NEW data -- a different object, not a discharge of this debt.
+
+================================================================================
+LINK E — MODULI / SUSY BREAKING / EWSB / SCALES
+================================================================================
+TYPE: WITHHELD. The dimensionful no-go (B660/B666, LAW_MAP wall 10) forbids typing any
+      dimensionful observable. No object-forced vacuum, SUSY-breaking sector, Kahler metric,
+      normalized Yukawa, absolute scale, or RG running. The observer's, not the object's.
+
+================================================================================
+NET
+================================================================================
+STRUCTURAL chain (-> exact charged MSSM SPECTRUM) = A => B => C-spectrum: PAYABLE IFF A is paid,
+  and A is provably NOT object-forced (OA-C1002); so it is a CONDITIONAL cohomological spectrum
+  theorem whose single unpaid premise is A, modulo P1/P2 + unselected moduli.
+VALUE chain (-> Yukawas/masses) = WALL (D=SEAM-Y up-Yukawa=0) + WITHHELD (E).
+=> "the object all the way to MSSM" = a conditionally-forced SPECTRUM on top of a proved WALL
+   where the masses are. Structure forced (on A), values withheld -- the program's one verdict,
+   instantiated at the Standard Model's doorstep. NOT a breakthrough, NOT object-forced end-to-end.

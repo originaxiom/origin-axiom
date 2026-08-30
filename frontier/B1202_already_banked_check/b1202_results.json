@@ -1,0 +1,19 @@
+{
+ "id": "B1202",
+ "arc": "the already-banked pre-flight check",
+ "verdict": "PROVED",
+ "instrument": "scripts/checks/already_banked.py",
+ "threshold": "settled-arc warning requires matches >= max(2, ceil(len(terms)/2))",
+ "positive_controls": {
+  "quine": "flagged (B762/B1184)",
+  "depth-closure": "flagged (B1187/B767)",
+  "genesis locks": "flagged (B1003/B998)",
+  "dark hyperbola": "flagged (B1199/B775/B778)"
+ },
+ "negative_controls": {
+  "inflation/reheating/e-folds": "clean",
+  "dark matter/relic/freeze-out": "clean"
+ },
+ "rule": "no MISSING/OPEN claim without running it; state the searched terms with the claim",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

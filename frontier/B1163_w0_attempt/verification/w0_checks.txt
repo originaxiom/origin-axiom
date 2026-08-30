@@ -1,0 +1,20 @@
+(1) THE GALOIS ORBIT IS EXACTLY {+Vol, -Vol} -- the free-orbit obstruction, analytically
+    2 Im Li2(e^{+i pi/3}) = 2.029883212819307250042405108549040571883
+    2 Im Li2(e^{-i pi/3}) = -2.029883212819307250042405108549040571883
+    => Bloch-Wigner is ODD under conjugation; the volume is 2-valued {+Vol,-Vol}.
+       The arithmetic free-orbit theorem (B1161) = this analytic two-valuedness = the
+       amphichirality CS=0 (m004 amphichiral): ONE obstruction, three views.
+
+(2) THE KASHAEV/VOLUME-CONJECTURE ASYMPTOTIC recovers Vol (R3, own-reproduced)
+    N=200: (2 pi/N) log J_N = 2.271019697  (-> Vol = 2.029883213)
+    N=400: (2 pi/N) log J_N = 2.166761366  (-> Vol = 2.029883213)
+    => leading exponential rate -> Vol; log-N exponent 3/2; constant 3^{-1/4}=|sqrt-3|^{-1/2}.
+    But feeding the honest finite datum 'a primitive 6th root of unity' outputs the ORBIT
+    {+Vol,-Vol}; selecting +Vol needs the archimedean inequality Vol>0 -- the missing marking.
+
+(3) R3 COEFFICIENT CORRECTION (verify-don't-trust catch inside the attempt)
+    R3 claimed a1 = -sqrt-3/108; the fitted 1/N coefficient forces a1 = -(11/216) sqrt-3
+    ratio (corrected/R3) = 11/2 = 11/2 (R3 dropped the quantum-dilog Euler-Maclaurin term)
+    both in Q(sqrt-3) => R3's load-bearing conclusion (leading Vol + Q(zeta_6) coeff field) survives.
+
+REPRODUCES

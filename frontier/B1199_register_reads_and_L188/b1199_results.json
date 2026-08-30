@@ -1,0 +1,22 @@
+{
+ "id": "B1199",
+ "arc": "the register reads + L188 closed",
+ "verdict": "PROVED",
+ "GC-29": {
+  "stale_flag": "R5's open step closed in-corpus at B775/B778 (lens-confirmed)",
+  "verification": "8 levels (p=23 new); lens rebuilt p=3,5,7 independently",
+  "controls": "2 of 3 survive; the corrupted-involution control WITHDRAWN",
+  "fence": "'dark' = Gauss-sum vanishing, NOT cosmological dark matter",
+  "omission": "B566-S1 never carried into the grand-computation ledger; row added"
+ },
+ "GC-30": {
+  "R6": "REFUTED by the lens (additive period count vs multiplicative RN ratio group) -- no note banked",
+  "R7": "NEGATIVE -- entanglement lives on a field disjoint from the meeting field",
+  "R8": "CONFIRMED as a pattern-level identity; pattern-vs-proof gap named"
+ },
+ "GC-31": {
+  "L188": "CLOSED -- six claims verified; C1 on the full 745-class family; C3's never-checked pointwise formula run and HOLDS EXACTLY"
+ },
+ "finished_but_forgotten_count": 4,
+ "reproduces": "verification/cells.json (three cells + all lens verdicts verbatim)"
+}

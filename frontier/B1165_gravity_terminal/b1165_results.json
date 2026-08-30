@@ -1,0 +1,63 @@
+{
+  "id": "B1165",
+  "arc": "the terminal gravity probe (sec-E), owner-directed to a typed close",
+  "verdict": "NEGATIVE",
+  "seal": "GENERIC-RHYME",
+  "one_line": "the observer's archimedean closing is CO-LOCATED with the object's gravitational sector at the infinity-place, NOT object-specifically identical to it -- gravity is the WHERE, generic in dynamics, with a single static arithmetic contact (Vol=L-value); the sec-E identification hypothesis is REFUTED",
+
+  "infinity_place_map": {
+    "what_the_gravity_sector_is": "M=m004=H^3/Gamma, Gamma in PSL(2,Z[omega]) Bianchi (K=Q(sqrt-3)); five invariants",
+    "a_Vol": "Vol=2.0298832128193072500424051085490405718833786150606 = the on-shell Lambda<0 3d-gravity (Einstein-Hilbert) action = Im of the SL(2,C) Chern-Simons complex volume, with CS=0 exactly by amphichirality (B1108); the whole action loads onto Vol",
+    "b_geodesic_length_spectrum": "the classical orbits (systole 1.087, DENSE / type III_1)",
+    "c_ruelle_selberg_zeta": "the 1-loop determinant / spectral partition function (Sym-power factorization R_{rho(m)}(s)=prod_j R(s-j,sigma_j))",
+    "d_ray_singer_torsion": "the graviton 1-loop (six twisted tau_m at E6 exponents, tau_1=-3, sign law (-1)^m)",
+    "e_laplacian_maass": "the quantum gravitational modes"
+  },
+
+  "identification_verdict_GENERIC_RHYME": {
+    "dynamics_b_to_e": "GENERIC-RHYME -- built from SL(2,C) holonomy + Vol only, never touching Q(sqrt-3)/E6/xi=[e^{i pi/3}] in K_3; survives a non-arithmetic-knot swap verbatim (B1157 three-seat; B850 DENSE/III_1 across arithmetic m003/m009 AND the non-arithmetic control m015=5_2)",
+    "arithmetic_contact_one_spot": "the STATIC scalar Vol=zeta_K(2)/L(chi_-3,2) avatar (B682/B1117), three-tier-bounded",
+    "tier_i_generic_in_form": "Borel regulator: every arithmetic manifold has Vol=rational.regulator of its OWN trace field -- reaching an L-value is generic; WHICH grammar is the specialness (B996/B1157)",
+    "tier_ii_object_specific_content": "the field is Q(sqrt-3), the number is the object's own zeta, m004 the UNIQUE arithmetic knot (Reid) -- a non-arithmetic knot cannot reproduce THIS",
+    "tier_iii_relabeling": "a re-labeling of one static real number -- no dynamics, EOM, propagator, or mechanism",
+    "orientation_generic": "the +Vol sign is a bare Z/2 every oriented 3-manifold carries (2 Im Li2(e^{-i pi/3})=-Vol exactly, Bloch-Wigner ODD)",
+    "scale_generic": "the C^x/dilaton is the dimensionful bit the scale-free object provably cannot emit",
+    "closing_is": "SUPPLIED-not-identified: the object hands the observer both the sign and the scale, but neither IS the object's gravity -- co-located at the infinity-place"
+  },
+
+  "own_verified_50dps": {
+    "Vol_2ImLi2": "2.0298832128193072500424051085490405718833786150606",
+    "Vol_3sqrt3_over2_L": "match to 1e-45",
+    "Vol_9sqrt3_zetaK2_over_pi2": "match to 1e-45",
+    "minus_Vol_check": "2 Im Li2(e^{-i pi/3}) = -2.0298832128193072500424051085490405718833786150606 (Bloch-Wigner ODD)",
+    "ablation_control": "m015=5_2, cubic trace field disc -23, NON-arithmetic (Reid: 4_1=m004 the unique arithmetic knot)"
+  },
+
+  "scale_wall": "CONFIRMED -- every gravitational-sector invariant is dimensionless (hyperbolic structure normalized to curvature -1); a Planck length / Newton G / absolute scale needs an external dimensionful input the scale-free object cannot supply (B660/B666, B167/B936); the scale wall is generic, the one object-specific contact (Vol=L-value) is orthogonal to it",
+
+  "definitional_fork_terminal": "Mostow rigidity makes the geometry a canonical invariant of the object (STRUCTURE side); the two archimedean markings that would complete the observer's closing are provably not self-suppliable -- the ORIENTATION (Vol two-valued, amphichirality makes self-orientation theorem-level impossible, B1163) and the SCALE (scale-free no-go); the fork terminates here: a Mostow-canonical structure object emitting dimensionless, un-oriented geometry, and an observer that is the archimedean closing (orientation + scale), co-located at the same infinity-place but generic -- a clean structure/observer boundary at the infinity-place, neither MATCH nor mystery",
+
+  "ablation_prediction_ME2": "swap m004 -> matched non-arithmetic knot (5_2, cubic disc -23): the whole dynamical sector (Ruelle zeta, torsion, Laplacian) reproduces verbatim while ONLY the Vol=L-value avatar breaks; an ablation finding a DYNAMICAL invariant that also tracks the arithmetic would OVERTURN GENERIC-RHYME toward MATCH -- the one experiment that could change the verdict",
+
+  "coordination": "cc-side (structure map + adversarial identification test + scale wall); cloud ME1 (geodesic spectrum) corroborates the genericity, cloud ME2 (gravity ablation) is the one live check that could overturn; to be folded in when they land",
+
+  "verification_note_for_review": "SnapPy's isometry_signature returned amphichiral=True even for the chiral 5_2 -- so the B1163 family-wide addendum's own 4/14 amphichirality spot-check was likely vacuous; that result rests on cc3's check_family.py (7/7) + m004's symmetry-group amphicheirality, not on the isometry_signature check",
+
+  "fences": "No dimensionful gravity value asserted as derived; only the dimensionless Vol and its L-value avatar (static geometric invariants). Structural rhyme (B1157) carried as the null throughout, survives everywhere in the dynamics, downgraded at exactly one point (Vol=L-value) to arithmetic-class-generic (Borel), not object-unique. The bench's twice-over-reached sec-E framing is adjudicated co-located-not-identified; MATCH not forced. No firewall crossing; Gate 5 clean.",
+
+  "reproduces": "verification/reproduce.sh -> REPRODUCES (Vol three ways to 50 dps; -Vol Bloch-Wigner odd; the m015=5_2 non-arithmetic ablation control cited)",
+
+  "gravity_charter_reconciliation": {
+    "addendum": "ADDENDUM_gravity_charter_reconciliation.md",
+    "trigger": "cloud's Wave-3 sec-E landed on origin/outside-bench (60bcf01d) right after B1165: THE_GRAVITY_CHARTER + memo 78 GRAVITY_LOAD_BEARING (ME2). Headline read as a possible conflict (cloud 'load-bearing' vs B1165 'generic'); verify-don't-trust resolved it NO-conflict",
+    "three_roles_of_gravity": {
+      "G1_anomaly_condition": "grav^2 Y = Tr(Y) = 0 (4d mixed gauge-gravitational): OBJECT-FORCED, LOAD-BEARING for the SM hypercharge (cubic redundant in-frame) -- cloud memo 78 / E2",
+      "G2_gravitational_sector": "the object's 3d sector (Vol, geodesic spectrum, Ruelle zeta, torsion, CS=0): object-forced as Mostow-canonical invariants but arithmetic-GENERIC in structure (survives m004->5_2); arithmetic enters at one static spot Vol=L-value -- B1165",
+      "G3_frame_data": "orientation (Z/2) + scale (R+), archimedean: OBSERVER-supplied, un-self-suppliable -- B1165 + B1163 / cloud E4/E5"
+    },
+    "resolution": "no conflict -- B1165's 'generic' was always scoped to the gravitational-sector DYNAMICS (G2), never to the anomaly condition (G1); the two are disjoint statements about different physics; together = the STRUCTURE/observer split applied to gravity itself",
+    "convergence": "cloud's G-IDENT ('observer contribution = frame data = the gravitational marking; every gravitational datum that is NOT frame data is object-forced') = B1165's 'co-located, not identified', independently derived; cloud's C5 definitional admission = B1165's definitional fork = the terminal boundary, verbatim",
+    "e2_own_verified_core": "all four SM anomaly conditions hold; grav^2 Y = Tr(Y) = 0 is a genuine mixed gauge-gravitational anomaly; the abstract {L1,L2,L3} nullspace is 2-dim (so abstractly the cubic IS needed) -> confirms cloud's 'cubic redundant' is a genuine IN-FRAME (object-27-realization) phenomenon, exactly memo 78; the exact in-frame counts (36/18) are cloud's realization, cited (reproduced-in-lane byte-identical), dual-homing deferred",
+    "effect_on_b1165": "STANDS, sharpened; seal GENERIC-RHYME correct for the identification; 'generic' scoped to the dynamics (G2) not the anomaly condition (G1); no headline withdrawn, one bounded; the sec-E close is now two-seat (cc B1165 + cloud charter), converging; B1165 (91be9bb8) is a new main anchor for cloud's charter to cite"
+  }
+}

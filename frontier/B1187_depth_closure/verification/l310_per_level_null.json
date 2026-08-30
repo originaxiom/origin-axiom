@@ -1,0 +1,48 @@
+{
+ "per_level": [
+  {
+   "L": 6,
+   "N": 9,
+   "omega": 2.076,
+   "null_mean": 2.519,
+   "null_std": 0.199,
+   "z": -2.22
+  },
+  {
+   "L": 7,
+   "N": 27,
+   "omega": 2.701,
+   "null_mean": 3.003,
+   "null_std": 0.107,
+   "z": -2.83
+  },
+  {
+   "L": 8,
+   "N": 76,
+   "omega": 3.277,
+   "null_mean": 3.408,
+   "null_std": 0.057,
+   "z": -2.3
+  },
+  {
+   "L": 9,
+   "N": 191,
+   "omega": 3.631,
+   "null_mean": 3.614,
+   "null_std": 0.027,
+   "z": 0.64
+  },
+  {
+   "L": 10,
+   "N": 474,
+   "omega": 3.936,
+   "null_mean": 3.782,
+   "null_std": 0.014,
+   "z": 11.16
+  }
+ ],
+ "verdict": {
+  "max_abs_z": 11.16,
+  "generic_at_every_level": false
+ }
+}

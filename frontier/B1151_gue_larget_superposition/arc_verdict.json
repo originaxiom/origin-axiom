@@ -1,0 +1,15 @@
+{
+ "id": "B1151",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "THE LARGE-T GUE TEST (C4, the cloud's preregistered cell c4_gue_larget.py run on our i9 at T=3000, 5459 merged zeros): the preregistered single-GUE gate is NOT MET -- GUE-consistent required p_GUE>0.01 but KS vs the GUE Wigner surmise gives D=0.13365 p=2.2e-85 (Poisson also rejected, D=0.156 p=2e-116; GUE closer than Poisson, D_GUE<D_Poisson; density gate PASSED exactly, 5459 vs 5458.0, |diff|=1.0<O(log T)=8; unfolded mean spacing 1.000072). HONEST NEGATIVE, banked as the preregistered outcome. The DISCRIMINATING computation (verification/gue_analysis.py, per-factor Weyl unfolding + KS on the committed raw zeros) locates the deviation: zeta alone D=0.040, L(chi_-3) alone D=0.049 -- the merged D=0.134 is ~3x each factor, so the non-GUE-ness lives in the MERGE. zeta_K = zeta * L(chi_-3) is a product L-function (the field Q(sqrt-3)'s Dedekind zeta, B737); its zeros are the UNION of two independent GUE spectra, which do not cross-repel -- the textbook 2-fold GUE SUPERPOSITION, which rejects single-GUE (excess small spacings) while Poisson stays rejected (each factor keeps its repulsion). The failure mode the handoff flagged as interesting (the density gate) PASSED; it is the spacing that carries the two-spectra structure. Fences: GUE is GENERIC (B1142) -- certifies the universality class at scale, never object-specificity; the superposition is likewise generic for any product of two L-functions; the per-factor ~0.04 residual is consistent with the Wigner-surmise-vs-exact-GUE gap + leading-order unfolding (clean confirmation = the Gaudin-distribution follow-up); no firewall crossing; Gate 5 untouched. Two-bench, owner-approved compute split; cloud seat credited. Raw zeros (the ~1.7h scan) committed for cheap re-analysis.",
+ "instrument": false,
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "FALSE",
+  "decision": "false",
+  "class": "SEALED DECISION \u2014 it resolves a preregistered question; the outcome is a decision on a cell, not a new general law",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
+}

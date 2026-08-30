@@ -11241,3 +11241,1581 @@ does not). GRAVITON BRIDGE DEAD (cc3 B8129/B8130): Ruelle Euler product purely g
 via the cusped functional equation → graviton (geodesic) and Lane C (cusp) meet nowhere; the graviton
 is two faces, the finale (B1140) independent. Routed to the kill-graph. Cloud seat credited. Gate 5
 untouched. Lock test_b1142_lane_c_cusp_spectrum.py.
+
+**2026-08-25 — SP-1 CLOSES (B1143): the physical B−L is a genuine fourth Cartan direction,
+confirmed two-bench with cloud memo 25.** Cloud memo 25, re-derived TWO-BENCH (own solve + span-membership
++ anomaly batteries on B1139's banked 27; cross-checked IDENTICAL to B1139's captured run). Solve:
+rank 5, nullity 1 → family c=[0,c1,0,−1/3,1,0] (β_L auto-redundant, β_R over-constrains); Tr(B−L)=0
+and Tr(B−L)³=0 whole family; all 27 physical. LOAD-BEARING: span{Y,T3R} + span{Y,T3R,T3L} both
+UNSOLVABLE (witnesses w·B−L=3/2, 3) → B−L a genuine 4th direction. **RECONCILIATION WITH MEMO 25 (reframed / B1144):**
+an earlier "correction to the cloud (vector = Y − T3L)" is WITHDRAWN — a cross-frame artifact. The naive c
+pinned to [0,−1,0,1/3,0,1] reads as Y − T3L in B1139's frame, but memo 25's own sp1_bl.py builds B−L in the
+closing's coordinates (physical on all 27, independent; verified in golden_gate). Two benches AGREE; correct
+family in this frame c=[0,c1,0,−1/3,1,0]. SP-3: 72 assignments, 1 table; batteries
+30/30 + 6/6 vanish; "36/36" FLAGGED. SP-4: FLAGGED (three-A₂ frame, not four; 2592 not established).
+The closing's Cartan content complete (Y,T3L,T3R,B−L). Cloud seat credited. Gate 5 untouched. Lock
+test_b1143_bl_fourth_cartan.py.
+
+**2026-08-25 — THE ADOPTION-LAYER CORRECTION (B1144):** four adoption-layer errors in the phase-III
+digest, from the cloud's CORPUS_ADOPTION_AUDIT (golden_gate d537790), verified here — three from the
+cloud's PRIMARY certs (golden_gate restored fetch-only via anon-HTTPS to the separate public repo).
+Math untouched. ① B1141's two ℚ(√−3) errata WITHDRAWN (memo's q=e^{iπ/3} basis correct; the durable
+convention map banked in TERMINOLOGY). ② B1138 cert note corrected (family_triplet E₈ Cartan
+symmetric/valid, 240 roots; verifier mis-transcribed). ③ B1140 single-homed debt reframed+cleared
+(golden_gate = separate public repo; cloud now pushes outside-bench to origin). ④ B1139 stale
+"open cell" tag fixed; B1143 "catch" WITHDRAWN (cross-frame artifact), B1143 amended; both benches
+find c₅=1. Bidirectional, primary-source-verified. Cloud seat credited. Gate 5 n/a. Lock
+test_b1144_adoption_audit.py.
+
+**2026-08-25 — SP-2 (B1145): the beat closes EXACTLY on the fermion-capable stratum's 27 over the
+selected lift; the last discrete spin-lift bit is assigned.** Sealed prereg c384dd3e (blind, before
+memo-29 contact). The odd A1/su(6) stratum's 27 is minuscule → 6 fundamental-2 doublets + 15
+singlets; the beat W=exp(q e), upstream of the embedding, closes functorially. Exact over ℚ(√−3):
+relator=+I, Ω²=A27, Ω A27 Ω⁻¹=A27, Ω B27 Ω⁻¹=ρ(B⁻¹ABA⁻¹B). Verified 3 ways (this bench blind + cloud
+sp2_seat.py reproduces + adversarial own-code sp2_independent.py, banked B1102/B883 only, ρ₂₇
+re-certified on 3003 brackets). **The exact algebra is the theorem.** CODEX-SHARPENED FENCE (its
+close-out audit re-ran all 46 cloud certs, confirmed this algebra, banked it as OA-C1056): the A1 is
+su(2) INTERNAL to E6 (centralizer su(6)), not the 4d Lorentz group — no Pin structure, no Dirac
+index, no 4d chirality, three generations NOT proved; "the generation's seat closes" is the
+program's THESIS reading, not a theorem. Fence: fermionic kinematics not dynamics. B1141 NEEDS-CERT
+dischargeable (beat trilogy now reachable). Cloud + codex credited. Gate 5 n/a. Lock
+test_b1145_sp2_fermion_seat.py.
+
+**2026-08-26 — THE CONVERGENCE CAMPAIGN (B1146 + B1147).** B1146 SEAM-B (own bench, exact): the
+2T-vs-A4 distinction is the object's own -I, visible on BOTH the 27 and the 78 for the minimal-A1
+stratum (adjoint 5-grading {-2:1,-1:20,0:36,1:20,2:1}, 40 odd dims => rho78(-I)!=I; rho27(-I)!=I);
+codex's "adjoint factors through A4" is a PRINCIPAL-sl2 artifact (grading 2*height, all even) —
+defused; link 2 stands; NUANCED-MATCH (seal corrected, verify-don't-trust on own prereg); converges
+with cloud memo 34. B1147 harvest: memos 30-40 reproduce-verified (11/11 certs byte-identical on our
+pyenv) — memo 32 "no mass term" theorem (27 has no invariant bilinear), memo 36 third spin
+derivation, memo 33 B1140 gluing discharged, memo 34 PROJECTIVE<=>EVEN (=B1146), memos 38-40 derived
+Weyl coeff / pi^2 law / the one germ. C3 large-ladder on our i9 (N<=4000, 120 dps): c0 anchor exact,
+c1/c2 NOT-RECOGNIZED at depth (honest negative). C4 large-T GUE grinding, banks separately. Cloud
+credited. Gate 5 untouched. Locks test_b1146_seam_b.py + test_b1147_clane_harvest.py.
+
+**2026-08-26 — THE CARRIER HARVEST (B1148).** Cloud memos 41-48 reproduce-verified (8/8 certs
+byte-identical on our pyenv; origin/outside-bench d3c99640). The batch reaches at the
+internal->spacetime bridge B1145/codex flagged unpaid: memo 45 (the only spinor -- 27/78 integer-spin
+under the Lorentz double, the ONLY spin-1/2 is the holonomy's C^2; bridge gap = one sharp question,
+no-go half exact), memo 46 (the carrier Psi=C^2 (x) 27 on 54x54, C_Psi=+1 on the 24 fermion slots =>
+matter sector = lift-independent sector, a spin-internal lock), memo 47 (the Yukawa SHAPE is a theorem,
+values behind Gate 5 -- flavor-sector structure-vs-values, the counterpart to codex's up-Yukawa
+no-go/SEAM-Y). memo 48 (the coupling is unique -- pi1 alone leaves 6615 invariant trilinears, the gauge
+cuts 6615->4->1 by direct full-tensor nullspace with NO symmetry assumed, the survivor automatically
+symmetric; Y=eps (x) C unique with no shape assumption, memo 47's factorized caveat discharged).
+memo 42 (the freedom ledger, 4 audited columns: object-forced 14, observer-priced 7,
+invisible 1=beat, open 5; ten value-negatives = column-membership). memo 41 (kappa=1+q meets the beat
+at sqrt-3), 43 (fixed-point twin on the cusped Fricke surface + Galois twin), 44 (the closing's mirror
+is inner, one Z/2 class; 3<->3bar-outer refuted). Plus codex R003 re-verified memo 30 (byte-identical +
+all-11-odd-rows; fence "beat = compatibility not selector" = B1146). Fences: kinematics/algebra only;
+the internal->spacetime bridge is NOT closed. Cloud + codex credited. Gate 5 untouched. Lock
+test_b1148_carrier_harvest.py.
+
+**2026-08-26 — THE MERIDIAN & LONGITUDE HARVEST (B1149).** Cloud memos 49-51 reproduce-verified (3/3
+self-contained stdlib-exact certs, rc=0 = every preregistered assert GREEN on our pyenv;
+origin/outside-bench 1544989d), memo 49's trace-3 arithmetic independently sympy-confirmed. The arc traces
+the carrier's peripheral (cusp Z^2) structure onto the matter grading. memo 49 (TRACE THREE): the atlas's
+golden (Q(sqrt5)) and Eisenstein (Q(sqrt-3)) ends are the UNIT (x^2-3x+1: det 1, disc 5) and RAMIFIED
+(X^2-3X+3: norm 3, disc -3) answers to ONE trace-3 form -- the object's clock (fiber substitution) and its
+conserved kappa=1+q, disc=9-4d; one meridian two clocks (phi^2 exponential on the fiber, nilpotency degree
+EXACTLY 3 on the carrier Psi=C^2(x)27); the beat fixes the golden and stirs only the Eisenstein pair
+[machine-caught error filed: nilpotency 4->3, corrected]. memo 50 (ODD STEPS ARE MATTER): N=rho_Psi(a)-I
+Jordan type 6 J3 (+) 15 J2 (+) 6 J1 (graded 27:21:6); the memo-46 lock IS clock-depth parity -- matter
+(24) = odd chains 6 J3 (+) 6 J1, unlocked (30) = even chains 15 J2, full depth 3 only in matter;
+beat-stable. memo 51 (THE LONGITUDE IS THE LOCK): rho_Psi(lambda) = C_Psi . (3-step unipotent) -- the
+semisimple part of the boundary curve on the carrier IS the lock; matter = the longitude's +1 eigenspace;
+the joint cusp-fixed space (dim 12) lies entirely in matter; meridian=clock, longitude=sign. Convergence:
+the 24-dim matter sector is now named by FOUR independent computations (memos 46/47/50/51). memo 49 flagged
+as a RECURRENCE_ATLAS two_ends annotation candidate (annotation landed). Fences: kinematics/algebra only;
+Gate 5 untouched; load-bearing 54-dim claims flagged for independent re-derivation, memo 49 already
+sympy-confirmed. Cloud credited. Lock test_b1149_meridian_longitude.py.
+
+**2026-08-26 — THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA (B1150).** Cloud memos 52-53
+reproduce-verified (2/2, rc=0 = every preregistered assert GREEN; origin/outside-bench 1544989d),
+memo 53's family=epsilon independently sympy-confirmed. memo 52 (THE YUKAWA READS THE CLOCK): the
+unique coupling Y=eps(x)C (memo 48) is supported on EXACTLY the 7 sl2-allowed depth blocks of the
+meridian grading (none of the 11 forbidden), every nonzero block odd total depth -- the
+representation-theoretic MAXIMUM (not a tautology: invariance forces the forbidden to vanish, not the
+allowed to survive); depth-3 matter self-couples via internal singlets, matter<->unlocked via
+doublets; closes the quartet memos 49-52. memo 53 (THE THREE-FAMILY YUKAWA, POSSIBILITY-SPACE cell,
+E8 NOT object-paid): in E8 the three-family Yukawa on G-3's triplet = eps_family (x) C_Jordan exactly;
+same-family (diagonal) couplings vanish by root arithmetic (no same-family zero-sum triple exists;
+decided at the root-lattice level); C_sym = the Jordan cubic (memo 48), family factor forced to eps
+(dim Inv_sl3(3x3x3)=1 antisymmetric). Kinematics only; Gate 5 untouched. Cloud credited. Lock
+test_b1150_yukawa_clock_and_family.py.
+
+**2026-08-26 — THE LARGE-T GUE TEST (B1151 / C4).** The cloud's preregistered spectral cell
+c4_gue_larget.py run on our i9 at T=3000 (5459 merged zeros of zeta_K = zeta * L(chi_-3); L-scan 6098s
+on 10 cores). PREREGISTERED GATE NOT MET -- single-GUE rejected (KS vs GUE Wigner surmise D=0.13365
+p=2.2e-85); density gate PASSED exactly (5459 vs 5458.0, |diff|=1.0 < O(log T)=8); unfolded mean
+spacing 1.000072; Poisson strongly rejected (D=0.156 p=2e-116), GUE closer than Poisson. HONEST
+NEGATIVE. The discriminating computation (per-factor Weyl unfolding on the committed raw zeros,
+verification/gue_analysis.py): zeta alone D=0.040, L(chi_-3) alone D=0.049 -- the merged D=0.134 is
+~3x each factor => the deviation lives in the MERGE, the 2-fold GUE SUPERPOSITION signature (zeta_K is
+a product L-function, the union of two independent GUE spectra that do not cross-repel; excess small
+spacings reject single-GUE while each factor keeps its own repulsion so Poisson stays rejected). The
+failure mode the handoff flagged as interesting (the density gate) PASSED; it is the spacing that
+carries the two-spectra structure. Fences: GUE is GENERIC (Montgomery/Katz-Sarnak, B1142) --
+certifies the universality class at scale, never object-specificity; the superposition is generic for
+ANY product L-function; the per-factor ~0.04 residual is consistent with the Wigner-surmise-vs-exact-
+GUE gap + leading-order unfolding (clean confirmation = the Gaudin-distribution follow-up); no
+firewall crossing; Gate 5 untouched. Raw zeros (the ~1.7h scan) + gue_analysis.py committed for cheap
+re-analysis. Two-bench compute split; cloud credited (the preregistered cell + gate). Lock
+test_b1151_gue_larget.py.
+
+**2026-08-26 — PROVENANCE CORRECTION (B1150 primary-source hash).** The B1150 entry above cites
+1544989d (memo 51's tip); memos 52-53 actually sit at 981f4c33 (the corpus-sync tip above it;
+1544989d lacks their certs). The arc's authoritative files (arc_verdict/results/FINDINGS/reproduce.sh)
+and the relay ledger are corrected to 981f4c33. No content was single-homed -- reachable at 981f4c33
+on origin + codeberg (the outside-bench mirror fast-forwarded). Caught by the post-push provenance
+check; the append-only logs keep their original text with this stamp.
+
+**2026-08-26 — THE COST FAILURE CLASS + THE FAST LANE (B1152).** Harvest of cc3's B8139
+(paper/structure-genesis-first 1f455266, integrate-don't-merge): cc3 named the 'cost' failure class --
+a lock that works, was never weakened, but is NEVER RUN because the suite is too expensive to reach it
+(their 4528-test suite takes 421s to COLLECT; runs killed by timeout); missing-FINDINGS drift ran 16
+arcs/5 days behind it. MAIN-BAND AUDIT (1043 arc_verdicts): CLEAN of all 4 drift classes (FINDINGS --
+B519 RETRACTED uses VERDICT.md, a convention already locked; instrument-bool; verdict vocabulary;
+negative routing 0 unrouted). cc3's drift band-local; main held because its suite gets RUN each bank,
+but main is on the same trajectory (collection >120s, full ~22min; this seat greened a tree by
+input-change analysis this session). REMEDY: the slow marker; scripts/affected_tests.py (a CONSERVATIVE
+changed-file selector -- a typical bank -> ~49 tests incl. the gate + negative-routing aggregates that
+caught B1151's routing; any unbounded change -> FULL fallback, never a false green); run_suite.sh
+--changed/--fast. Cost mechanism: pytest imports every test module before running any test, so
+module-level compute IS collection cost (-m 'not slow' cannot shrink it; single-file collect 1.17s vs
+full >120s = spread across files). E50 registered; the root lazy-fy of slow importers = L184. The full
+suite stays the certificate of record. cc3's email-on-a-public-surface flag (SUBMISSION_METADATA.md,
+their branch, deliberate arXiv act vs a standing lock) surfaced to the owner, not touched. Lock
+test_b1152_suite_cost_class.py.
+
+**2026-08-26 — THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS (B1153).** Cloud memos 54-55
+reproduce-verified (2/2, rc=0; origin/outside-bench 0c7f8b5a), memo 54 independently sympy-confirmed.
+memo 54 (THE PERIPHERAL IDENTITY): tr(ab^-1)=gal(kappa) is the RILEY RELATION in disguise -- S-3=P+(x^2-4),
+exact where the meridian is parabolic (P(2,z)=z^2-5z+7, both geometric characters), defect exactly x^2-4
+off it, the object's '3' = the cusp condition (a fourth TRACE THREE appearance); the trace map's FULL
+fixed locus is exactly 3 points (Groebner z^2(z^2+12): the kappa-pair + (0,0,0) non-reduced mult 2),
+closing codex OA-C1082/OA-C1083 + completing memo 43 (the mirror-free orbit still exactly the pair).
+memo 55 (THE SUPERPOSITION SPEAKS): B1151's C4 honest negative CLOSES POSITIVE -- on B1151's own
+committed data (main @ 522c7caa), the merged zeta_K spacing fits the 2-fold GUE superposition surmise at
+D=0.02400 (vs single-GUE 0.13359), below the factors' own residuals, 5.6x margin on the preregistered
+gate; control -- each factor rejects the superposition while fitting single-GUE. zeta_K's spacings see
+exactly its factorization zeta*L(chi_-3). ADOPTED (memo 54's codex Wave-3 corrections into B1148/B1149,
+math unchanged): antiunitary->semilinear (45/46/50); the carrier is 'a' not 'the minimal' one (46,
+OA-C1087); memo 43's fixed pair is 'a second' not 'the' (43, OA-C1082). Fences: PART I rational algebra,
+PART II interpolation+verify (traces polynomial coords CITED-standard + 40-sample + Groebner/Q); memo 55
+GENERIC (superposition expected for any product L-function; no object-specificity, no crossing); zeta
+file 2469 vs B1151 prose 2468 (immaterial). Gate 5 untouched. Cloud + codex credited. Lock
+test_b1153_peripheral_and_superposition.py.
+
+**2026-08-26 — B8140 ADOPTION (cc3's audit of B1152).** cc3 (paper/structure-genesis-first d87530f4)
+reproduced B1152's fast lane in-sandbox and found one SAFE cost bug: a relay-only diff fell back to the
+FULL suite (main()'s `if full or not sel` conflated 'nothing matched (inert)' with 'cannot bound') --
+the tool defeating itself on the commonest input (writing a relay). Fixed in scripts/affected_tests.py
+(FULL only if unmappable; sel empty AND full empty => NO TESTS AFFECTED, exit 0) + regression-locked
+(relay alone -> no tests; relay+arc -> the arc's tests; relay+script -> full). cc3 withdrew two of its
+own B8139 claims: the killed-run '73% / five failures' detail (the captured log was a truncated
+three-line fragment -- B1152 FINDINGS + results corrected in place; the PRINCIPLE stands, not the
+numbers) and a test_b1034_l154 failure (pre-existing on cc3's branch, not theirs; passes on main). A
+correction commit, no new arc; cc3 credited.
+
+**2026-08-26 — THE TWO OPEN SEAMS WALKED (B1154 SEAM-Y + B1155 SEAM-A).** The owner's "do them all": the
+two remaining sealed seams (THREE_SEAMS_PREREG; SEAM-B discharged in B1146), each walked to a banked
+outcome on COMMITTED evidence (codex's primary derivations are off-branch/unversioned at
+~/oa-audit-seat/ -- flagged as a provenance/single-homed debt, NOT leaned on). **B1154 SEAM-Y =
+MISMATCH**: is codex's up-Yukawa=0 the same fact as our period-value disjointness? NO -- two independent
+walls. codex's mu_u=0 is a COHOMOLOGICAL vanishing (cup product forced to 0 by H^1(X,G_X)=0, rank-0
+emptiness, field-independent, no SM number; the Q(zeta_12) arithmetic only selects which class is H_u);
+ours is an ARITHMETIC non-overlap (the object's regulator Q-algebra over Q(sqrt-3)/Q(sqrt5) misses every
+SM ratio -- B1137: 0/18, requires the SM target list). Emptiness != non-overlap; no bridge object; both
+confirm structure-not-values (two-routes-one-verdict). **B1155 SEAM-A (the prize) = INDETERMINATE,
+leaning MISMATCH**: Gate 1 (codex's zeta12=K(sqrt3)/dP6xdP6 = the ring class field of m004's conductor-4
+cusp order, B1067) SATISFIED; Gate 2 (cc3's FULL arithmetic-CS action of m004 on Q(sqrt-3)) NOT -- only
+partial (B708 linking form at F=Q; B800 unnormalized Habiro series; B682 dictionary; B905 cited).
+Runnable + banked: the sqrt3 hinge (own sympy) -- zeta12=(sqrt3+i)/2, zeta12^2=(1+sqrt-3)/2 so
+K subset Q(zeta12), sqrt3=2 zeta12-i so Q(zeta12)=K(sqrt3), sqrt|disc K|=sqrt3; the SAME sqrt3 is codex's
+finite-place ring-class generator AND our archimedean odd-order datum (Vol=9 sqrt3 zeta_K(2)/pi^2,
+C1=(11/108)sqrt3 pi C0) -- a REAL finite<->archimedean adelic pairing over the one field K, but NOT the
+heterotic axiom collapsing. Leans MISMATCH on 3 banked facts: B1108 (arith-CS is finite/torsion, CS=0,
+lacks Vol), OA-C1045 (codex's CS is a torsion phase), OA-C1002 (codex's OWN refutation: heterotic is an
+added premise, not a CY3 property). The seal waits on Gate 2 (NEEDS-SPECIALIST). No firewall crossing;
+Gate 5 untouched. Locks test_b1154_seam_y.py, test_b1155_seam_a.py.
+
+**2026-08-26 — REVIEW 49 (the decadal review, window B1135-B1155, ~22 merges since R48/79e513a9).** HOT
+(this seat), per-cell independent checks banked as the work landed; a COLD fresh-eyes pass carried R49-6.
+Every harvested memo reproduce-verified (rc=0), the interpretively-driving claims independently
+cross-checked (memo 49 trace-3 sympy, memo 53 sl3, memo 54 Riley sympy, C4 per-factor, SEAM-A sqrt3
+hinge). SELF-AUDIT -- six in-window errors, all caught + corrected before/at push (the discipline held):
+B1143 over-claim withdrawn; B1150 primary-source hash mis-cite (1544989d vs 981f4c33) corrected
+post-push (9440f3fd); the run_suite.sh set -u empty-array crash (macOS bash 3.2) caught by the suite +
+regression-locked; the affected_tests relay-only full-suite fall-back (cc3 B8140) fixed + regression-
+locked; the seam arcs' absolute machine path caught by R28-9, fixed to ~/; cc3's withdrawn '73%/five
+failures' adopted (B1152 corrected). ACTION: cc3's B8141 the artifact class -- 5 harvest tests
+(b1147/1148/1149/1150/1153) read the gitignored verification/reproduce.log (fail on a clean checkout) ->
+rerouted to assert on the COMMITTED runner (reproduce*.sh); reproduction-happened evidence stays in
+test_all_*_reproduced (committed results.json). SEAM-Y=MISMATCH, SEAM-A=INDETERMINATE (Gate 2 the live
+crossing). Provenance debt: codex's primary derivations off-branch/unversioned (R49-1, commit-to-branch).
+Carried: R49-2 (SEAM-A Gate 2, cc3's arith-CS action, NEEDS-SPECIALIST), R49-3 (L184 collection lazy-fy),
+R49-4 (L183 reproducer sweep), R49-7 (papers). anchor-commit 29b09993.
+
+## 2026-08-26 — B1156: SEAM-A Gate 2 sharpened by WF-1 (the masterplan's first workflow); the a-priori MISMATCH REFUTED; a precise FLOOR
+
+The roadmap masterplan (5-workflow campaign, task #296) opened. **WF-1 (SEAM-A Gate 2)** ran 10 agents
+(3 scouts → gap synthesis → 2 attempts (assemble / structural) → 3 adversarial refuters → seal; 422k
+subagent tokens). Seal = **FLOOR**. Verify-don't-trust before banking: re-computed the archimedean anchor
+own-code (`frontier/B1156_seam_a_gate2/verification/reproduce.sh` → REPRODUCES: z²−z+1=0,
+2·D(e^{iπ/3})=2.02988321281930725=SnapPy Vol(4₁) to 15 digits, V″=√−3) and re-verified B1108's
+archimedean-door concession against its committed text before trusting the refutation.
+
+**Result — B1155's "leaning MISMATCH" WITHDRAWN.** The a-priori MISMATCH ("arith-CS is torsion-valued
+(1/n)ℤ/ℤ, so it cannot reach Vol") was **refuted (2 of 3 lenses)**: a theorem about the **finite μ_n
+truncation only** (Artin–Verdier), secured solely by *defining* arith-CS to be the finite row. The
+**full/Arakelov-compactified** arithmetic CS over closed Spec O_F=ℤ[√−3] (∞-place included) carries a
+**real archimedean summand = the Borel regulator of ξ=[e^{iπ/3}]∈K₃(ℚ(√−3)) = Vol** — codomain contains
+ℝ, the wall is truncation-dependent (echoes B1108). MATCH not sealable either (no map finite-phase→Vol
+constructed). **Category correction:** arith-CS is a functional of a field+Galois rep, not "of m004"; the
+one ξ has three completions (archimedean→Vol, finite→torsion, p-adic→GSWZ), and **B800 is the p-adic one,
+not the finite Kim action**. **The one open bar:** extend Andersen–Hansen's proved root-of-unity↔Vol
+crossing from closed surgeries on 4₁ to the cusped m004; two specialist sub-bars (object: stationary-phase/CS
+bridge with content when CS=0 by amphichirality, B1108's unwalked door; codex: the marked H³ basis/period/Ω
+normalization OA-C1045/C1053 record ABSENT). The ASSEMBLE attempt's v3(100)=147→GSWZ-146 reconciliation was
+refuted (inconsistent prefactor) — a p-adic normalization item, quarantined, not banked. Updates L182 +
+the OPEN_LEADS currency line. Codex data off-branch (provenance debt). No firewall crossing; Gate 5
+untouched. Locks `tests/test_b1156_seam_a_gate2.py` (8 tests). Next in the masterplan: WF-2 (the dynamics).
+
+## 2026-08-26 — B1157: WF-2 (the dynamics) — the ∞-place dynamical law is STRUCTURAL RHYME; the closed-Fried antecedent for cc3's B8142b is REFUTED
+
+WF-2 (the masterplan's 2nd workflow, 8 agents: 3 scope/verify → gap → attempt → 2 adversarial refuters →
+seal; 453k tokens) asked whether the object supplies a parameter-free dynamical law at the archimedean
+∞-place. Mid-run cc3 pushed **B8142/B8142b** (the Sym-power Ruelle zeta / analytic torsion; "the graviton's
+factors sit inside the analytic torsion") — the exact frontier — so WF-2 **harvested + independently
+verified** it (no duplication; cc3 credited) rather than recomputing. Seal = **DECIDABLE-RESULT**, banked as
+a **productive NEGATIVE**.
+
+Verify-don't-trust before banking: re-verified the acyclicity mechanism (Sym²ᵐ of the parabolic = single
+Jordan block → 1-dim invariant line, own sympy m=1..5), the (0,1,1)/(1,2,1) cohomology assembly, and the
+Vol/damping numerics (exp(−4Vol/π)=0.07543170680114986) — all in `verification/reproduce.sh` → REPRODUCES;
+and confirmed B581 (Menal-Ferrer–Porti even sym-powers ⇒ H1=#cusps) corroborates.
+
+**Firewall verdict = STRUCTURAL RHYME (not crossed).** Every ingredient (the Sym-power factorization,
+H1=#cusps, the exp(−4Vol/π) damping) is generic to all finite-volume hyperbolic 3-manifolds — holonomy +
+volume only, never the arithmetic; the story survives swapping m004 for a non-arithmetic knot verbatim (the
+B996 lesson at the ∞-place). "Graviton in the torsion" is a rep-label, not dynamics. Vol "coincidence" =
+Vol(M)=Vol(M). **Decidable math (useful to cc3):** H\*(m004;Sym²ᵐℂ²) is never acyclic (H1=H2=#cusps=1 for
+m≥1), so cc3's B8142b reflection stays conditional — closed-Fried refuted; the live framework is cusped
+Park/Pfaff / Cappell–Miller complex-orthogonal torsion. Relayed to cc3: the exact_check.py line-39 crash
+(non-fatal). Bank-grade (cc3 credited): the Sym-power factorization. kill_graph: the "∞-place dynamical law
+crosses the firewall" node killed. Gate 5 clean; no firewall crossing. Locks
+`tests/test_b1157_dynamics_null.py` (8 tests). Next in the masterplan: WF-3 (MSSM + provenance relays).
+
+## 2026-08-26 — B1158: Cloud WAVE-2 + codex R009–R014 backlog harvest (owner directive: constantly check the three seats)
+
+The owner directed constant monitoring of cloud/codex/cc3. Standing monitors armed (bbtols2ly cloud+codex,
+bosx28lrf cc3; saved to memory). The immediate sweep found a real backlog: cloud's whole **WAVE-2**
+(10-cell residue queue, memos 56–69) + **codex R009–R014** (Paper I–IV audits). A backlog-harvest workflow
+(8 agents: 2 scope → 5 verify → 1 triage; verify-don't-trust read-only on the branches, cross-checked both
+seats against each other + against main) digested it → **B1158**.
+
+Verify-don't-trust before banking: the two clean survivors re-derived on-bench (`reproduce.sh` → REPRODUCES)
+— the anomaly identity (27=16₊₁⊕10₋₂⊕1₊₄ anomaly-free all three channels; 16 anomalous; dark block=−(16))
+and the Habiro prime-splitting (p=5 inert f=2 / p=7 split g=2; coherence⇔p^r≡1 mod 3).
+
+**Three survivors banked, scoped:** (1) the **exact Gaudin law closes B1151's surmise-error hatch** (p-value
+collapse robust; residual quarantined — leading-order unfolding the sole suspect; codex R009 corroborates);
+(2) the **anomaly integer identity** (the "dark sector required" headline quarantined as conditional); (3)
+the **Habiro ζ₃ germ corrected** (mechanism solved; cloud credited, correction ours). **Two convergences:**
+codex R011 corroborates B1157 (two-routes-one-verdict on the ∞-place NULL; B1157 addendum added); codex R012
+≡ cloud ANOMALY_PAYMENT (consistent). **Codex R010–R014 relayed to cc3** (paper-facing, owner-gated; incl.
+R014 refuting Paper-IV's scale theorem + 14-family via witness s955). No firewall crossing; Gate 5 clean.
+Locks `tests/test_b1158_cloud_wave2_harvest.py` (9 tests). Backlog cleared; masterplan resumes at WF-3.
+
+## 2026-08-26 — B1159: the object→MSSM debt-map (WF-3, owner-approved); + the owner's "SEAM-A is a wall" correction adopted
+
+Owner approved "pay codex's conditional debt, chain to MSSM," then pressed "seam-a is a wall, not a door,
+no?" — conceded and adopted. WF-3 (6 agents: 2 scope → 3 verify → 1 assemble) read codex's off-branch MSSM
+witness (readable locally) + re-derived the load-bearing algebra in-sandbox, banking the verified A–E
+condition ledger → **B1159**. Two clean facts own-verified (`reproduce.sh` → REPRODUCES): OA-C1002 by
+multiplet count (same CY3 → IIA (1,5)/IIB (4,2)/het — three string theories, so **link A is imported**), and
+the E₈ SU(3)-commutant branching (E₆(78) vs SO(26)×U(1)(326) → E₈×E₈).
+
+**Verdict:** the chain is **not object-forced end-to-end**. A (heterotic) = CRUX/imported/**walled** (SEAM-A
+un-forced at every place — the "door" framing withdrawn; a FLOOR only in strict-proof, the finite-phase→Vol
+payment NEEDS-SPECIALIST + leaning MISMATCH); B forced-given-A (E₆ generic, B727); C **half-paid** (the
+character alphabet object-forced with zero spectrum input — the bypass foothold; the branch selection needs
+imported P1/P2 + free Galois action); D **WALL** (up-Yukawa=0, SEAM-Y B1154, re-derived); E **withheld**
+(scale no-go). **Bifurcation:** structural chain → exact charged MSSM *spectrum* payable iff A paid (a
+conditional cohomological spectrum theorem); value chain → Yukawas/masses hits the wall + withheld. So the
+object gives a **conditionally-forced spectrum on top of a proved wall where the masses are** — structure
+forced (on A), values withheld. **The live door relocated:** bypass A — replace C's P1/P2 with an
+object-intrinsic principle (derive the spectrum from E₆ + character rule as algebra). Move 2 reframed: seal
+SEAM-A as a wall (B1156, NEEDS-SPECIALIST → scoping/relay). Provenance debt D1/D2/D3 relayed to codex
+(commit the off-branch witness). No firewall crossing; Gate 5 clean. Locks
+`tests/test_b1159_mssm_debt_ledger.py` (10 tests).
+
+## 2026-08-26 — B1160: hypercharge falls out (cloud memo 70 / L132), verified
+
+Cloud banked memo 70 (7f4f6db7); owner forwarded it "always verify." Load-bearing theorem re-derived
+independently on-bench (`reproduce.sh` → REPRODUCES): on an SM-shaped 15-plet, the four anomaly conditions
+force the SM hypercharge, unique up to scale + u^c↔d^c, zero non-SM — the cubic factors to −18(t−3)(t+3) →
+t=±3 → (1,−4,2,−3,6) and its relabel. Cloud realized it in the object's rank-3 abelian sector
+(trinification frame): 36 assignments, all SM, zero non-SM, second frame identical. **Pays hypercharge
+CONTENT** (link from "whole embedding observer-paid" → "existence observer-paid, content forced by integer
+arithmetic"); sharpens B1159 link C (addendum). Does NOT pay frame existence / SM-shaping (observer inputs);
+anomaly→hypercharge is standard GUT, the object-specific content is realization+uniqueness in u(1)³.
+Firewall: B950 typed L132 as structure-not-value (hypercharge ratios are derived structure) — Gate 5 clean.
+Cloud credited; object cert cited (needs cloud's stack). Cloud follow-up flagged: L132 in B892's centralizer
+frame (two-frame corroboration). Locks `tests/test_b1160_hypercharge_forced.py` (6 tests).
+
+## 2026-08-26 — B1161: the frontier sweep (compute-all-we-can); the bypass door IS SEAM-A
+
+Owner: "compute all we can, then review." Executed as a 6-cell frontier-sweep workflow (7 agents), each cell
+typed, load-bearing ones re-verified on-bench (`reproduce.sh` → REPRODUCES). **Headline unification:** the
+crown (force C's P1/P2 to derive the MSSM spectrum without heterotic) is NOT-FORCED, **proved irreducible**
+by the free-orbit theorem (V₄=Gal(H/ℚ) acts freely on the 4 branches, trivial stabilizers → no
+Galois-invariant selector; + 11-dim moduli). But the missing selector is exactly an **archimedean marking =
+SEAM-A's absent W₀** → the bypass door and SEAM-A are the **same obstruction**. Cells: P1/P2 NOT-FORCED
+(scoped positives: unique coprime CRT split, K-rational odd leg); L132-B892 CONVERGES (hypercharge
+dual-homed); SEAM-A-seal NEEDS-SPECIALIST (the PSLQ sealer is **vacuous** — own-verified PSLQ live [recovers
+B682] but rational-vs-Vol=None for claim+controls; SEAM-A stays the Arakelov/W₀ FLOOR); down-Yukawa
+BENCHABLE/WITHHELD (the down coupling is object-forced+present as a 3×3×4 tensor, unlike μ_u=0 absent);
+generation-index NULL (degree-2 Galois ℤ/2 → never 3; object = ONE generation, the "3" external). The
+computable frontier is **exhausted** (2 proved irreducibilities + 2 walls + 1 specialist bar + 1
+buildable-unbuilt artifact). Gate 5 clean. Feeds the review. Locks `tests/test_b1161_frontier_sweep.py`
+(9 tests). cc3 pushed B8143 mid-run (independent corroboration of B1160 + a shaping-fence witness) — queued.
+
+## 2026-08-26 — B1162: the MSSM-debt closure (cloud D1–D5) + the height-308 witness verified on-bench
+
+Owner: "didn't you finish WF-3's MSSM witness?" — correct, I'd relayed it. Finished here. **The witness
+verified on our bench** (Sage; sage IS available at ~/.local/bin/sage): codex's height-308 cert re-run —
+H0(Y,V)=0 (augmented-kernel dim 6), the C372→C312 rank gate = 312 surjective (H1=0), char-0 local freeness
+certified (`witness_sage.txt`); minimality/stability fences carried; now **dual-homed**, not single-homed.
+Then **cloud's 5/5 MSSM-debt closure** (memos 71–75) integrated + cross-checked: D1 (alignment — B1159 aligns
+zero-contradictions; discriminant −18(u−2)(u+4) own-verified = our −18(t−3)(t+3)), D2 (hypercharge = B1160),
+D3 (unique SM breaking chain — 2 of 27 SM-safe, cited), D4 (one generation — confirms B1161), D5 (**SUSY
+NO-GO** — no supercharge, cited), + memo 73 (the C4 residual = finite-height statistics, confirms B1158).
+**Synthesis:** the object forces a complete SM STRUCTURE (spine, carrier, unique Yukawa, hypercharge, unique
+breaking chain, one generation) and WALLS the dynamics/values (SUSY no-go, up-Yukawa=0, values free,
+heterotic imported + the missing W₀) — structure forced, dynamics+values withheld, now across the whole
+visible sector. Bank-grade: the witness (sage), D1, D4=B1161, D2=B1160. Cited (cloud stack): D3, D5. Gate 5
+clean; no crossing. W₀ construction workflow still running. Locks `tests/test_b1162_mssm_debt_closure.py`
+(8 tests).
+
+## 2026-08-26 — B1163: the W₀ construction attempt — the one obstruction is a definitional datum; the object is amphichiral and refuses to supply it
+
+Owner: "can we specialize ourselves and do the missing archimedean W?" Attempted (WF W₀-construct, 3 routes,
+adversarial verify). **Seal = PARTIAL:** no W₀ constructed; the obstruction reduced to ONE datum — an
+object-canonical archimedean embedding ℚ(√−3)↪ℂ = an **orientation** of m004 = +Vol over −Vol, which every
+marking smuggles. **One obstruction, three views** (own-verified): free-orbit theorem (arithmetic) =
+{+Vol,−Vol} two-valuedness (analytic, Bloch–Wigner odd under conjugation) = amphichirality CS=0 (geometric —
+the object doesn't break z↔z̄). **The object provably refuses the choice.** Validates the meditation: (A) the
+absence is the observer's role (orientation = the observer's bit, same as chirality/branch); (B) a **scale
+wall, not a value wall** (R2: the CY3 Ω canonical up to ℂ^× scale — ratios forced, scale withheld). Exact bar
+is **DEFINITIONAL** (is Mostow-canonical structure object or observer?); the specialist route collapses onto
+the same admission. Bank-grade own-verified: Vol from the Kashaev asymptotic (volume conjecture reproduced),
+the {+Vol,−Vol} orbit, the a1=−(11/216)√−3 correction (verify-don't-trust inside the attempt), R2 det=+1/H³.
+Firewall CLEAN, no crossing, no W₀ claimed; Gate 5 clean. Locks `tests/test_b1163_w0_attempt.py` (8 tests).
+
+## 2026-08-26 — B1164: cc's part of the A–E masterplan (parallel to cloud's five; MC1→codex)
+
+Owner relayed cloud's §A–§E division of labor + GO. cc's three cells, own-verified, two verify-don't-trust
+corrections. **MA2:** the observer freedom = **2 discrete + 1 continuous** bits (branch-V₄=(ℤ/12)^×=(ℤ/2)²
+discrete × ℂˣ scale) — **corrects my meditation "one bit"** (orientation = one leg of V₄); **corrects the
+workflow's √5 guess** (ℚ(ζ₁₂) subfields = √−3, √3, √−1 — no √5; bit 2 = √3, the B1155 hinge; √5/E₈ hearing is
+the separate two-ended structure). **MD1:** the firewall classifier pinned — STRUCTURE iff dimensionless AND
+forced (provenance the discriminator), zero corpus exceptions, decompose compounds (hypercharge
+direction/scale split), outcome-independent (sin²θ_W=3/8 through a 16σ miss), falsifier = the value campaign
+→ **principled, §D settled.** **ME3:** the phase-trivial marking does NOT break the orbit (phase
+Galois-invariant/μ₆-torsion; orientation archimedean/mirror-odd) → prunes cloud's W₀ to modulus-only. **§E:**
+everything the observer supplies is archimedean (∞-place = where gravity lives) → observer freedom = a
+candidate for the gravitational marking (placement, not the identification — the §E hypothesis). Residues
+flagged (single-torsor; observer=gravity). Own-verified. Gate 5 clean; no crossing. cloud's five + codex MC1
+still running. Locks `tests/test_b1164_cc_masterplan.py` (8 tests).
+
+## B1165 (2026-08-26) — the terminal gravity close (§E): GENERIC-RHYME, gravity is the WHERE
+The owner-directed terminal probe of gravity, run to a typed close. **Verdict NEGATIVE, seal GENERIC-RHYME:**
+the observer's archimedean closing is CO-LOCATED with the object's gravitational sector at the ∞-place, NOT
+object-specifically identical — the §E identification hypothesis is refuted. Adjudicated adversarially (the
+bench over-reached on this framing twice this session; MATCH not forced). The ∞-place map (5 invariants: Vol
+= the on-shell Λ<0 3d-gravity action = Im SL(2,ℂ) CS complex volume, CS≡0 by amphichirality; geodesic length
+spectrum; Ruelle/Selberg zeta = 1-loop; Ray–Singer torsion = graviton 1-loop; Laplacian/Maass). **The
+dynamics is GENERIC-RHYME** — holonomy+Vol only, survives m004→non-arithmetic-knot verbatim (B1157 three-seat;
+B850 across the non-arithmetic control m015=5₂). **The arithmetic enters at exactly one non-dynamical spot** —
+the static scalar Vol=(3√3/2)L(χ₋₃,2)=9√3·ζ_K(2)/π² (own-verified three ways to 50 dps,
+2.0298832128193072500424051085490405718833786150606), three-tier-bounded (generic-in-form by Borel;
+object-specific only in *which* grammar, m004 the unique arithmetic knot per Reid; a re-labeling, no
+mechanism). Both archimedean data generic: orientation (+Vol sign, Bloch–Wigner odd, a bare ℤ/2) + scale
+(ℂˣ/dilaton, the dimensionful bit the scale-free object cannot emit) → SUPPLIED-not-identified. **Scale wall
+CONFIRMED** (every sector invariant dimensionless; B660/B666/B167/B936). **The definitional fork = the
+terminal boundary** (B1163): a Mostow-canonical structure object emitting dimensionless, un-oriented geometry,
+and an observer that is the archimedean closing — co-located at the same ∞-place but generic. Sits on the
+adelic observer (B1164 price reconciliation): §E is the archimedean half. Predicts cloud ME2 (ablation): swap
+m004→5₂ reproduces the whole dynamical sector, breaks only the Vol=L-value avatar; a dynamical invariant that
+also tracked the arithmetic would overturn toward MATCH — the one live check. **§E CLOSED (terminal).** Review
+note: SnapPy's `isometry_signature` returns amphichiral=True for the chiral 5₂, so the B1163 family-wide 4/14
+spot-check was likely vacuous (that result rests on cc3's check_family.py 7/7 + m004's symmetry-group
+amphicheirality). Own-verified; kill_graph routed (genericity, companion to B1157/B1163); Gate 5 clean. Locks
+tests/test_b1165_gravity_terminal.py (10 tests).
+
+## B1166 (2026-08-26) — cc's attack on cloud's GRAVITY_CHARTER: C3 verified, C4 refutation-candidate
+Cloud relayed THE_GRAVITY_CHARTER (origin/outside-bench 60bcf01d), the §E identification as preregistered
+falsifiable sub-claims, assigning **C3** + **C4** to cc (C5 owner, C6 cloud). Verdict OPEN. **C3 (one dilaton
+ℝ⁺, not two moduli) = VERIFIED:** the phase pin — CS(m004)≡0 (own-verified 1.8e-15; amphichirality B1163) ⇒
+complex volume real ⇒ no free U(1) phase; residual = discrete μ₆ (roots of unity in K=ℚ(√−3), cloud's E1
+exhibited); + no second modulus (Mostow rigidity: complete structure unique, 1 cusp frozen). ⇒ ℂˣ=ℝ⁺×U(1),
+U(1) object-paid, ℝ⁺ the withheld scale; observer continuous freedom = ℝ⁺ alone (confirms B1164 "2 discrete +
+1 continuous"). **C4 (three (ℤ/2)² one torsor) = REFUTATION-CANDIDATE:** the free-orbit torsor is √3-flavored
+(B1161 V₄=Gal(ℚ(ζ₁₂)/ℚ), disc 144, only 2,3 ramify, subfields {√−3,√3,√−1}), being×hearing is √5-flavored
+(B926 W11: hearing=ℚ(√5)); √5 ∉ ℚ(ζ₁₂) (own-verified) ⇒ as torsors "with named actions" (C4's clause) the
+(branch, being×hearing) pair is not isomorphic; C4 as stated is refuted for that pair, held at candidate
+pending cloud's intent + the B1024 frame-V₄ leg. Relayed to cloud + codex; not kill_graph-routed (candidate).
+Own-verified; Gate 5 clean. Locks tests/test_b1166_charter_attack.py (6 tests).
+
+## B1167 (2026-08-26) — two-seat harvest: codex R017 pays SEAM-Y provenance; cc3's cusp separator is orientation-blind
+Owner-approved integrate-don't-merge harvest. **(A) codex R017** (b7faffef) closes the SEAM-Y up-Yukawa
+provenance debt (B1154/B1159-D1/R49-1): the two height-308 primary derivations + certs are branch-local.
+Own-verified: the C₁₂ Wilson character arithmetic (every MSSM operator C₁₂-neutral ⇒ C₁₂ permits up=Sym²(ℂ³)
+dim 6, not a texture zero); both certs reproduce byte-identical (μ_u domain 1806, rank 0; exact 1×6 zero;
+OA-C1055 one-Higgs no-go). The vanishing μ_u=0 is codex's cohomological naturality (H¹(G_Y)=0), FENCED as
+codex's typed input (needs the Sage/BCDD stack). Conclusion already B1154; D1 up-sector PAID. **(B) cc3
+B8138-extended** adds the cusp shape as a 2nd object-level separator (m004=2√3 i, unique in the 14-manifold
+ℚ(√−3) family, reproduced). cc's answer to cc3's handed question ("does a modulus orient?"): NO — 2√3 i is
+purely imaginary (rectangular cusp), mirror-fixed (−conj(τ)=τ), orientation-blind ⇒ does NOT supply W₀. B1163
+STRENGTHENED: two object-level separators, both orientation-blind; the object still refuses to self-orient.
+C5 seed: the object supplies a canonical archimedean MODULUS (2√3 i, √3-flavored) but withholds the
+orientation. Relayed codex + cc3. Own-verified; Gate 5 clean. Locks tests/test_b1167_seat_harvest.py (6).
+
+## B1168 (2026-08-27) — the C5 investigation: the ∞-place object/observer boundary is a MIRROR-PARITY × DIMENSION law, not a choice
+Owner-directed ("C5 is not just a choice, investigate further"). The charter framed C5 (is m004's Mostow
+structure object- or observer-data?) as a definitional admission; the investigation finds it is DECIDABLE.
+Classify each ∞-place datum by mirror-parity + dimension (own-verified): Vol mirror-even; CS mirror-odd
+(complex volume conjugates, CS(M̄)=−CS(M); CS≡0 amphichiral); cusp shape 2√3 i mirror-fixed/even (−τ̄=τ);
+lengths mirror-even. THE DECIDER: object-canonical IFF mirror-even AND dimensionless (well-defined on the
+un-oriented, scale-free object); the observer supplies the mirror-odd completion (orientation, which fixes
+every odd sign) + the dimensionful scale. ⇒ C5 is a law, not a choice: the Mostow structure IS object-data
+(its even/dimensionless part = the whole geometry), and this does NOT refute G-IDENT — the charter's binary
+is a false dichotomy (object-data geometry + observer frame are compatible). Investigable via B1167's cusp
+shape (a 2nd mirror-even object-canonical archimedean datum, √3-flavored, tying to the disc-144/ℚ(ζ₁₂) hinge
+B1166). Converges: cloud's C6 promoted to the C5 decider; firewall MD1 at the ∞-place. Fenced+relayed to cc3
+(analytic-torsion parity; WebSearch exhausted). Completeness = C6's standing lane ⇒ OPEN. Own-verified; Gate 5
+clean. Locks tests/test_b1168_c5_investigation.py (9).
+
+## B1169 (2026-08-27) — the qualia/parity synthesis: this week's four arcs fold back into the observer-closure spine
+Owner-directed ("run it, all seats to verify"). SOLID core (own-verified + banked-cited): the parity facts
+(B1168); the Markov blanket IS the cusp torus (S072) with canonical shape 2√3 i (B1167), mirror-even ⇒ the
+blanket that sees everything (QP-2 FLAT, B761) is aware-but-choiceless; four independent probes converge on
+"the object cannot self-close" (QP-4 NO-HATCH, B1163, B1168/C5, B1134/5); the arithmetic ties to σ's root
+(μ₆ in ℚ(√−3), √3 in the cusp; σ: a→ab,b→a eigenvalue φ, conserved κ). THE DECIDABLE NAMING: "awareness
+without choice" becomes a parity dictionary — AWARENESS = mirror-even (blanket sees it), CHOICE = the
+mirror-odd orientation the object lacks; the missing choice IS the mirror-odd orientation bit. Connection: the
+choice = chirality (B1164) = the E₆(−26)/E₆(−14) fork (B1134/5) ⇒ SM structure + gravity (∞-place); disjoint
+from values (5 routes) + dynamics (generic); NOT the MSSM matter/VEV (finite closing). FIREWALLED reading (the
+full unification qualia=C5-parity=structure/observer is a chain, not one theorem) with a 4-rung
+speculation→calculation table (S2 = cloud's C6 the key promotable rung). Prepared for three-seat verification.
+Reclaims the qualia/σ spine flagged recessive. Own-verified; Gate 5 clean. Locks
+tests/test_b1169_qualia_parity_synthesis.py (7).
+
+## B1170 (2026-08-27) — THE ARENA RESCOPE: the anomaly forcing is arena-generic; charter G1 bounded; B1160 strengthened
+The lose-nothing sweep's highest-risk item closed. cc3's B8143 (4-commit chain; their own mid-chain
+correction — the omitted [SU(3)]³ killed their 13-state counter-witness) + codex's R019 rescope the gravity
+charter's G1/E2. Over the SM-visible 5-field alphabet: 252 contents, 222 killed by [SU(3)]³ alone, exactly
+TWO rigid+chiral+anomaly-free survivors (the SM 15-plet (1/6,−2/3,1/3,−1/2,1) + conjugate), ZERO object
+tokens in any equation; uniqueness alphabet-dependent (adjoints→7, (3,3)→14), minimality not. R019: the
+universal reduction (Yl/Yq=−3, Ye/Yq=6, (Yu+Yd)/Yq=−2, cubic −18(Yu/Yq−2)(Yu/Yq+4)) "independently of E₆".
+Verified three ways on-bench: independent own-code enumeration (Fraction elimination + explicit cubic, no
+sympy.solve) confirms 252/222/2; cc3's lane re-run; R019 byte-identical. THE RESCOPE: G1 = load-bearing
+IN-DERIVATION (kept; memo 78's ablation untouched) / object-specificity DROPPED — "THE OBJECT SUPPLIES THE
+ARENA; THE ANOMALIES SUPPLY THE CONTENT" (the B996 lesson one level down). The object's contribution = the
+rank-3 abelian sector + SM-shaped-15-plet availability (B1160's realization; B1160 STRENGTHENED). B1165's
+addendum gains a dated §2; cloud relay requests the charter's filed addendum + flags the C-namespace
+collision. cc3+codex credited; novelty none claimed (scoping only). Gate 5 clean. Locks
+tests/test_b1170_arena_rescope.py (7) + test_b1165 +1.
+
+## B1171 (2026-08-27) — THE SEAM HARVEST: five cross-seat results in one sitting
+(1) cc3 B8144 → the adelic MECHANISM (orbit-theorem escape pair; orientation: mirror genuine ⇒ full bit;
+VEV: F₄(ℤ) finite orbits ⇒ finite label, Krutelevich cited) banked with the main-side lock + 2 preregistered
+typing tests; own-verified vs all banked costs + the paid spin bit; time's-arrow instrument queued. (2) cc3
+B8145 → L171 CLOSED (MOOD); cc spot-verified 4/4 by own fetch; reason moved (KMS-traciality; B721
+complementary). (3) cc3 B8146 → L173 precision NEGATIVE; the prereg re-posed by ADDENDUM-BESIDE (sealed sha
+untouched): commission a mode-count observable ("the program supplies the KNOB, not the READOUT"). (4) cloud
+memos 80/82 byte-identical on-bench: the up-Yukawa SHAPE EXISTS on the object (SEAM-Y = the dressing's wall,
+proven different facts); 810/810 family matrices rank 2, kernel = the Higgs family; L186 registered (three
+Yukawa mechanisms: one or three?). (5) codex R015/R016 adopted (B1153 grade-note; B1158 fence-note) + two
+asks (R018 gap; ζ₁₂/dP₆ cert). All seats credited. Gate 5 clean. Locks tests/test_b1171_seam_harvest.py (8).
+
+## B1172 (2026-08-27) — THE TRIGGER + THE BACKLOG + THE REGISTER
+The relay-debt gate was silently DEAD (frozen stamp-clock since 08-09; stale swallowed; seat-blind regex —
+the MC1 unrowed-assignment was this defect live; dateless exemption). All four repaired same-commit as the
+triage; stale now FAILS unless ESCALATED-by-name; new lock test_relay_debt_gate.py. Backlog triaged:
+p3_complete (36d) → L187 (the 7 EXPOSED depth-closure backlog); selection-cochain (24d) → L188; MANIFEST
+dated+escalated; the nine 08-09 rows pre-escalated — finding THE RETENTION-GAP EVENT (E51): the nine relay
+FILES lost from the tree, on no reachable branch; rows are the only record ("the ledger preserved ROWS;
+nothing preserved the untracked FILES"). Fixes: sender-branch dual-homing now standard; re-send ask to cc3.
+O3 executed (MC1 row, formally codex's); 2 cloud rows backfilled; MSSM row repaired; fab2849b accept
+recorded. The sweep's register banked verbatim (Wave-2/3 queues; the review-carry leak = R50's opening
+item). Instrument arc; Gate 5 clean. Locks test_b1172 (6) + test_relay_debt_gate (6).
+
+## B1173 (2026-08-27) — THE DIGEST PARTIAL-CLOSE (O4): 13 NOT-REACHED → L185; qor5up released
+The stalled B1060 digest CLOSED-PARTIAL: 45 dispositioned / 13 NOT-REACHED (the ledger's own honesty
+vocabulary, not a new token), each → L185 (umbrella residue; denominator stays 58; rows reopenable under new
+arcs). The stale "→L165+" renumber collision fixed (→L185+; main's L165–L184 were minted after it was
+written). qor5up: FROZEN-RECORD-PENDING → FROZEN-RECORD-CLOSED (append-only registry note; R47-3 + R48-5
+discharged before Review 50 opens). OPEN_LEADS stamp corrected (next lead L189). test_b1060_digest pins the
+closed state. Nothing lost. Gate 5 clean. Locks test_b1173 (3). WAVE 1 + O3 + O4 COMPLETE (B1170–B1173).
+
+## Review 50 (2026-08-27) — the decadal review over B1156–B1173; the carry-leak audit; the gate now enforces continuity
+§0: the carry chain leaked while green (R47 dumped R46-5/6/7/11 onto "R47-10"; R49 named none of R48-4…10);
+the gate extended with _carry_leaks (from R46 on; unit-locked) — its first run found SIX more broken keys
+(R46-3/5, R47-6/7/8/9); all TEN dispositioned by key; content lost twice (R48-4=B8127 → R50-6; R46-6/11
+specifics → subsumed). §2: the window's errors (two over-reaches seat-caught+corrected; the vacuous
+isometry_signature check; E51; gate-caught slips) — none reached a remote uncorrected. §4 authoritative:
+SEAM-A = walled-on-forcing / INDETERMINATE-on-sealing ("leaning MISMATCH" retired); bypass-door≡SEAM-A →
+SUPPORTED-CONJECTURAL (B1161 addendum; the ℤ/2 cell settles); arena/content; the parity law; the qualia
+naming. §6: b775 registry landed (R48-5 FULLY discharged). README → R50/B1173. Items R50-0…7 (3 [x] at
+open). Anchor 8ee77957. Locks tests/test_review_carry_gate.py (5).
+
+## B1174 (2026-08-27) — the ℤ/2-identification cell (R50-3): NOT ONE TORSOR — ONE SHARED INVOLUTION
+Verdict NEGATIVE (the literal four-way identification refuted) with the proved substance: c = the mirror
+(reversed-m004 traces = conjugates ⇒ the mirror IS c on K) = chirality (B942's quotient) = the shared c-leg
+of both V₄'s — branch (k=11 = c the ORIENTATION leg; k=7 fixes K = B1067's form-class swap = census bit 2;
+exact mod-Φ₁₂ with asserts) and meeting (Gal(ℚ(√−3,√5)/ℚ)). Refutations exact: the value torsor's √5 swap
+(c TRIVIAL on real fields — the parity law at the field level: c nontrivial iff imaginary); the genus-ℤ/2
+of ℚ(√−15) (fixes √−15 ⇒ both-flip leg; c moves √−15). Consequences: B1169-S1 partially promoted (QP-4-class
+the remaining rung, hatched); B1166-C4 constructively resolved ("share the c-leg"; relayed cloud+codex);
+B1161 sharpened; S068 row 1 closed; B1164 census grounded leg-by-leg. Bug self-caught by hand-check before
+banking (subs-on-non-Symbol; MB12 class). kill_graph routed. R50-3 [x]. Gate 5 clean. Locks test_b1174 (8).
+
+## B1175 (2026-08-27) — THE CHARTER-CLOSE HARVEST: cloud Addendum 1 + codex R020/R021/R022
+Cloud filed the charter's Addendum 1 (every row moved: G-IDENT re-typed per B1165, accepted; C1+arena
+adopted; C3 VERIFIED; C4 REFUTED-AS-STATED by the author → C4′ = the √−3-internal pair with R022's frozen
+data, being×hearing dropped; C5 SUPERSEDED BY THE LAW → G-IDENT′ = mirror-ODD-or-DIMENSIONFUL + finite VEV
+= observer, even∧dimensionless = object; C6 load-bearing). Codex R020/R021/R022 all re-run BYTE-IDENTICAL
+(standalone): R022 the V₄ audit (separator exact; three-way ILL-TYPED until frozen; B1024 carrier typed,
+conjugation-coordinate fence); R020 Σ(V64)⊄V64 (cloud-scoped different-operator); R021 the Gieseking Pin⁻
+restriction CONSTANT (p*=0; one m004 spin structure does NOT extend; non-identification residual honored).
+Composition with B1174: C4′ = one bounded question (c↦conjugation class; θ=cr↦K-fixing-type leg). Charter
+reconciled three-seat. Gate 5 clean. Locks test_b1175 (5).
+
+## B1176 (2026-08-27) — THE RECORD-SURFACE WAVE (R50-4)
+The portfolio landed in-repo (papers/PORTFOLIO_2026-08-27.md: core trio P1/P2/P3 + satellites; P/PC
+disambiguation — 3 P-generations, 4 P5 senses, README's PC-only scope the root cause; per-artifact
+dispositions). 13 retro arc_verdicts (B58_stage1, B834–B845 band, B89 PROVED, B89T NEG under shared id;
+P3_depth_exposure exempt-by-name; B838/B840 kill-routed vacuity). The rooms repair (S074 the APEX doctrine +
+philosophy/13 scoreboard addendum). L189 (the 8 genesis-chat candidates owned; U_e + quasinormal the real
+gaps). L110/L113 annotated in place. The overloaded-symbol registry in TERMINOLOGY (C×4, κ×3, P5×4).
+Gate 5 clean. Locks test_b1176 (5).
+
+## B1177 (2026-08-27) — THE INSTRUMENT BUNDLE (R50-5)
+L183: the reproducer debt cut 176→21 (two-stage heuristic: test-locks + root scripts ARE runners; the 21
+committed; rule = runner ships with the next touch, no retro mass-authoring). L184 diagnosed (178.41 s /
+5556 collection; per-file sweep + the first-ever OA_SLOW run launched → ADDENDUM_measurements on landing).
+The R32 vacuity queue RUN: 4449 / 0 no-assert / 0 tautology / 84 informational. The LAW_MAP debt paid
+(4 rows: B1042 trit morphism; B1043 superlinear creation + invariant line + THE ARITY VOID §E wall). The
+promotion scope-check (zero B909/B952 rows confirmed; pass = named residue). The toolbox extraction seed +
+doc_currency watches TOOLBOX_LIVE. Instrument arc; Gate 5 clean. Locks test_b1177 (5).
+
+## B1178 (2026-08-27) — L184 EXECUTED: the collection lazy-fy (178 s → 15 s, 12×)
+The diagnosis was surgical: 2 files = the whole cost (b371's module-level REPORT=run() at 156.95 s = 88% of
+the entire collect; cc2_r5's 300-line lock script at 36.05 s). THE CACHED-RUNNER MOVE: body →
+functools.lru_cache'd getter, frontier import deferred inside; compute at first test execution, zero at
+collection. Outcomes preserved (5/5 post-fix; 277.88 s execution = the same compute, paid where it belongs).
+CERTIFIED: full collection 178.41 → 15.14 s (5587 tests). The E50 root fix, same-day as its diagnosis.
+B1177's ADDENDUM_measurements landed (the per-file table committed; OA_SLOW launched-not-complete, honest).
+Instrument arc. Locks test_b1178 (2).
+
+## B1179 (2026-08-27) — R50-7's GO-able halves: the papers relay + the specialist send-queue
+(1) The papers relay sent to cc3's assembly (the R48-11→R49-7 lineage discharged): 7 paper-grade results
+since their freeze (the parity law/G-IDENT′; the arena rescope; the shared involution; the gravity close +
+adelic mechanism; the charter reconciliation; the Pin⁻ constraint; the complete value verdict) + the
+portfolio as shared architecture + formulation recs + hazards informational (R014 vs Paper IV). (2) The
+specialist send-queue built + PRESENTED (docs/SPECIALIST_SEND_QUEUE.md; the trigger fired at B1161): six
+bounded bars (SEAM-A Gate 2 ★★★★; J₃(𝕆); B491 seam form; Cappell–Miller; B165; the k-rider), each with
+honest status + the stated refutation risk + the owner decision box; torsion-parity excluded (cc3-internal
+first); mechanics: per-item SEND/HOLD/REFRAME, owner's act + name, sends rowed so the gate ages them. The
+June brief staleness-passed. Review 50 fully executed cc-side. Gate 5 clean. Locks test_b1179 (4).
+
+## B1180 (2026-08-27) — cc3's B8147 adopted: the family was ≥83, not 14; both separators dead; main corrected
+cc3's retraction verified witness-by-witness on this bench (o10_150700: H₁=ℤ single-cusped 5×Vol all-regular;
+the four 2√3·i carriers; s955 = R014's corrected witness). Main addenda: B1167(B) separator RETRACTED
+(orientation-blindness untouched); B1163 family-wide re-scoped (amphichirality at ≥83 unchecked; core
+theorem untouched — never used the family). Corrected conclusion: NO tested elementary invariant separates
+m004 in the true family ⇒ the W₀-refusal STRONGER for a better reason. R014 adjudicated (conclusion
+confirmed, witness corrected). Unaffected: B1168/B1169/B1174/the send-queue. The membership-criterion
+residue relayed to cc3. Gate 5 clean. Locks test_b1180 (4).
+
+## B1181 (2026-08-27) — the amphichirality debt closed (83/83) + the one-way family test law + the owner's direction
+cc3 closed B1180's residue: 83/83 amphichiral on the corrected family, zero exceptions/undecided —
+spot-verified here 5/5 by mirror-isometry (incl. o10_150700, o10_150684, t12840, s955; NOT the vacuous
+signature route). "Right in substance, wrong only in count." B1163's family-wide W₀ obstruction: 4-of-14 →
+83-of-83; no-sibling-escape far more robust. THE ONE-WAY FAMILY TEST → LAW_MAP §G (family growth only hurts
+object-level claims, only helps family-level ones; a family is a CLAIM, never a setting). THE OWNER'S
+DIRECTION recorded: all sends HOLD (decision box marked); the paper crafted owner+cc after the math is
+exhausted; cc3's papers stay as insight; priority = the remaining mathematics to a full ToE. Gate 5 clean.
+Locks test_b1181 (3).
+
+## B1182 (2026-08-27) — C4′ RESOLVED POSITIVE: the unique iso (c,r,θ)→(k11,k7,k5); the arrow typed FINITE
+The √−3-internal pair (frame V₄ vs branch V₄) is ONE named-action torsor by the UNIQUE label-preserving
+iso: c→k11 (B1174); r→k7 FORCED by trace-reversal invariance (tr(w)=tr(w^rev) proved exactly, generic 2×2,
+6 words — reversal fixes K pointwise; k7 the unique K-fixing leg); θ→k5 (11·7≡5 mod 12). Self-correction:
+B1175's guess (θ K-fixing) wrong — r is the K-fixer. B1029 consistent (different module: values vs field —
+the pair forces the iso). THE ARROW TYPED FINITE-PLACE (B8144's instrument, first execution: r's leg = the
+mod-(4) arithmetic form-class swap, finite orbits ⇒ escape-(1) available) — the orientation = the sole
+archimedean bit; the adelic observer leg-by-leg: c=archimedean orientation | r=finite label | θ=value-kernel
+| ℝ⁺ | VEV. Residual: the (α₂,α₄) dictionary (codex). Gate 5 clean. Locks test_b1182 (4).
+
+## B1183 (2026-08-27) — THE ONE-CLASS THEOREM: QP-4's obstruction = the orientation obstruction (one class)
+Cell (2): the QP-4 chord-sign obstruction (B760) and the orientation obstruction (B1163) are THE SAME
+ℤ/2-torsor class under the one global involution c. Proof exact: the chord arithmetic ({ζ₅,ζ₅⁴},
+x²−(1/φ)x+1, ε²=−I); one involution through restrictions (c|K=Gal gen; c|ℚ(ζ₅)=σ₄ fixing √5; c|ℝ trivial);
+the sign-carrier lemma (Im f(ω̄)=−Im f(ω)); the equivariant map ⇒ iso; same nontriviality source (c an
+automorphism of the object). Consequences: B1169-S1 FULLY PROMOTED (four probes = one bit, proved; only
+S2/S3 cloud + S4 quine remain); B1161's label → PROVED-AS-DECOMPOSED (archimedean c-leg = SEAM-A's W₀ =
+QP-4's class, one proved class; + the finite k7/arrow label, separate); the qualia promotion arc complete.
+B760's computations cited; classes identified, not acts. Gate 5 clean. Locks test_b1183 (5).
+
+## B1184 (2026-08-27): THE QUINE SYNTHESIS — SELF-NAMING WITHOUT SELF-SIGNING (S4 split-answered; the observer table's cc-rungs close)
+
+The quine cell (B1169's S4). **The correction first**: the register's "QP-1 open" was STALE — B762 ran the
+quine and PROVED it (m004 the unique 1-cusped census manifold by volume→shape; the emitted word a
+SELF-NAME). **The B8147 stress-test, bench-verified**: the quine SURVIVES the family retraction by its own
+filters — o10_150700 excluded by volume (ratio exactly 5), the four 2√3i carriers by the 1-cusped filter,
+m003 by shape (ω ≠ 2ω); B762 was census-scoped from the start (the one-way family test honored avant la
+lettre). **The new computation**: every letter of the self-name is mirror-EVEN (volume, cusp shape, CM
+disc, residue, palette orders) = exactly the B1168 parity law's object side — the name contains NO odd
+letter; the sign is unutterable in it. **The synthesis theorem**: QP-1 (can name) + QP-4/B1183 (cannot
+sign; the missing sign IS c's one class) ⇒ NAMING and CHOOSING are complementary — the object says WHO it
+is, never WHICH WAY it is. S4 answers as a SPLIT VERDICT: the fixed point exists for the name, provably
+not for the sign. The observer table: S1 PROVED, S4 SPLIT-ANSWERED, S2/S3 cloud's C6. Gate 5 clean. Locks
+test_b1184 (3).
+
+## B1185 (2026-08-27): L186 CLOSED — THE THREE-MECHANISMS THEOREM (genuinely three) + the down-Yukawa evaluator's benchable half
+
+Owner's GO on the remaining-math queue. **The theorem**: the record's three named Yukawa-suppression
+mechanisms are GENUINELY THREE — INV-1 arena (the same up-coupling is rank 0 in the heterotic dressing —
+codex R017's certs RE-RUN PASS on this bench, the exact 1×6 zero — vs 6-nonzero on the object channel:
+one mechanism cannot both kill and allow the same coupling); INV-2 rank+selectivity (rank 0 +
+sector-asymmetric vs rank exactly 2 + sector-universal 810/810); INV-3 index space (the family-rank
+kernel is a FAMILY direction — an index the object provably lacks, generation-NULL degree-2 — while the
+object channel kills nothing, up 6/6 down 6/6). The one-costume direction falsified exactly. Synthesis
+(fenced): three LAYERS (dressing/object/E8-fence), restoration costs typed wall / continuous-ℙ³ (the down
+READOUT — C12 proved trivial on B₀, so purely continuous) / finite-3-label — the B1182 rhyme. **The
+evaluator's benchable half built exactly**: mod-12 bookkeeping reconciled (raw (7,6,2)+once-applied shifts
+=(8,4,0)), the 36-entry census 18+9+6+3=3×3×4, the tail rule ρ+σ≡8 → {(0,8),(2,6),(4,4)}, and THE SKEW
+ZERO — the repeated 1-dim (4,4) channel vanishes EXACTLY over ℚ(ζ₁₂): the down block's first
+theorem-grade char-0 statement. The remaining half (the cyclic/Serre 𝒯) = codex's declared single next
+artifact — commissioned (R023 relay); their audit's uncommitted load-target flagged (E51 class). Gate 5
+clean. Locks test_b1185 (4).
+
+## B1186 (2026-08-27): the family-definition cell CLOSED — THE FAMILY IS 112 (cc3's B8152 harvested, verified, and corrected by one member)
+
+cc3 ran THE_REMAINING_MATH cell 2 within the hour of the queue doc's push (B8152: criteria nested,
+family = 111). Verified here by INDEPENDENT full-census enumeration (own code, committed —
+the dual-homed artifact their arc lacked; same census, 212,641): nestedness CONFIRMED (|A| = 77
+all-regular, A ⊊ B, Paper IV's definition is B) — **but |B| = 112, not 111**. The corrective member:
+**t06829** (7 tets, 2 cusps, volume exactly 3×m004), shape denominators to **98** (all others ≤ 49) —
+past cc3's implicit bound; certified EXACTLY (its ℚ(√−3) candidates solve the full gluing-equation
+system symbolically; controls behave). THE RECURSION OF THE LESSON: B8152's own headline — a bounded
+test is a different claim than its criterion — applied to its own count; scope stated (census, den
+bound 256). Consequences, all verified in the committed run: **amphichirality 112/112** (third
+strengthening); **the quine survives the full family** (zero collisions); the six 2√3i carriers match;
+both separators stay dead; the one-way family test fires a THIRD time. Fence narrated: this bench's
+first verifier had a double-cast precision bug (wrongly rejected o9_41001) — caught by chasing the
+disagreement before trusting the tool. Reply relayed to cc3 (Paper IV → 112 with the bound stated).
+Gate 5 clean. Locks test_b1186 (3).
+
+## B1187 (2026-08-28): L187 CLOSED — the depth-closure sitting; the verifiers re-verified
+
+All seven dispositioned. THE REGISTRATION CORRECTION: "none executed" was stale — B767 had already
+STABILIZED B489 (Binet, all n) + TOMB-L255 (Symᵈ functor, all d); verified standing. NEW CLOSURES:
+**TOMB-L34** (B742's own one-cut-profile design: slope a(N) stable across 7 sizes N=233..4181 × 2
+word windows, big-N [0.139, 0.210]; controls discriminate — random 0.022, periodic 0.000; two B767
+defects corrected: the vacuous "3 seeds" and the S/log L estimator artifact) and **WALL-7 mod-q at
+ALL t** (dim=0 at every nondegenerate t ∈ {1..865}, all 8 patterns, q = 1009 AND 1999, ~25s/prime
+via GF(q) reduction of the exact machinery; B767's "no-roots" logic error corrected — its 18 exact
+points gave generic-t over K; all-t root exclusion is the new step, mod two primes; K-exact route
+specified). RE-SCOPED: **TOMB-L310** — the kill stands on drift-artifact grounds, but B189's
+"indistinguishable from null" clause REVERSES at per-level 100-seed statistics (z_L10 = +11.2; the
+Ω-DAG has structured excess reach → L190). EXTENDED: **B685** at K=60/n≤240, ALL CHECKS PASS
+(3-integrality = the named remaining theorem). REFUTED-ROUTE: **B500**'s depth-uniform mod-2
+exclusion cannot exist — the new étale census instrument (GF(16) fixed schemes, det(J−I), Frobenius
+orbits) shows the child's 2-inert signature ABUNDANT from depth 5 (depth 4: zero — matching the
+clean depth-4 hunt); kill stays PROVISIONAL; B502 witness → L191. META for Review 51: three cells
+turned on prior-instrument defects + one clause reversed under better statistics — verify-the-
+verifier joins the checklist. Locks test_b1187 (5).
+
+## Review 51 (2026-08-28): the decadal review over B1174–B1187 — the verify-the-verifier window
+
+Anchored at 411fb260 (B1187). The window: the observer-layer closure (B1174/B1182/B1183/B1184 — S1
+proved, S4 split, the adelic observer typed leg-by-leg), the R50 execution wave (B1175–B1179), the
+family thread settled at 112 (B1180/B1181/B1186), the three-mechanisms theorem + the evaluator's
+benchable half (B1185), and the depth-closure sitting (B1187). **E52 filed** (the VERIFIER-DEFECT
+class: five instances across two seats; the review checklist gains VERIFY-THE-VERIFIER + cc3's
+verified-vs-used sweep); **THE MOD-q CERTIFICATE MOVE** banked as §G method-law; WORKING_RULES gains
+the two-sided-control / estimator-measures-the-claim / statistics-carry-resolution rules. All R50
+carries dispositioned (R50-4 DONE; R50-5 part-done, tail → R51-4; R50-6 → R51-5 updated with R023;
+R50-7 re-dispositioned under the owner's standing HOLD). Next: R51-3 = L188. Counter reset; next
+review due after 20 merges.
+
+## B1188 (2026-08-28): THE GRAND-COMPUTATION RETRIEVAL — Phase 0 of the observer campaign; THE DISCRETE LADDER; the ledger
+
+Owner-directed ("no superficial observer work — close this forever; sweep the repo first"). Six
+parallel lenses over 1092 verdicted arcs. **The observer theory largely EXISTS and was off-surface**
+(the B723 apparatus — external weight = the closer's clock entry; B766/B733's rank-exactly-3
+saturated menu; B717's emergence map; B725's Born-form theorem; B566-S4's
+measurement-of-measurement collapse), with the burial's cause MEASURED (B985: relation-faces
+recovered at 6–19% vs object-faces 79–100%) and 132 PROVED on-theme arcs absent from every live
+surface. **THE DISCRETE LADDER (new)**: all 112 family members on the INTEGER lattice of
+V_reg = Vol(m004)/2, rungs {2,4,5,6,7,8,9,10}, zero exceptions, bite control passing — within the
+family the scale choice is a FINITE MENU; the continuum residue is the one anchor ℓ (B1015/B1025:
+ONE unit + two bits + finite labels). **The buried prize retrieved**: L154 (σ=1) — one named bridge
+from converting the last continuous dimensionless input to OUTPUT. One own error caught and fixed
+(L190: reach DEFICIT, not excess). Deliverable: `docs/GRAND_COMPUTATION_LEDGER.md` with the
+B766-vs-B1083 arrow contradiction registered, the sign row's relational seeds retrieved (the
+TWISTED double, c-as-swap, the exchange-sector split), and the θ-even last-licensed crossing HELD
+FOR OWNER ELECTION. Locks test_b1188 (4).
+
+## B1189 (2026-08-28): THE CLOSE-LOOP BATCH 1 — five cells, adversarially verified; the golden-unit killer; the ladder deeper than commensurability
+
+The campaign's first close batch (15 tiered agents; 4/5 survive cleanly, the fifth's lone refutation a
+verifier boolean slip with confirming text). **GC-1 (PARTIAL)**: the 112 ladder independently verified
+(zero failures; 24-manifold bite) with the mechanism EXACT — Vol(m004) = 12·Vol_orb (4.3e-50) — and the
+one-class framing REFUTED: **11 members provably NOT arithmetic (incl. t06829) yet on-lattice: the
+lattice is DEEPER than commensurability** (multiples-of-3·Vol_orb sharpness named open). **GC-2
+(NEGATIVE, the crown)**: the twisted double's pair-datum (H₁ ℤ/5) is mirror-EVEN — **the golden unit's
+norm −1 supplies both-sign conjugators** (centralizer = ±φⁿ; J det +1, K=Jφ det −1 both conjugate
+A→A⁻¹) — the object's own arithmetic forbids its self-coupling from orienting it; two-sided control
+bites (the norm-+1 √3 unit gives a single-signed coset); **the door narrows to heterogeneous couplings
+with a norm-criterion**. **GC-3 (PROVED)**: the three ticks = three OPERATIONS on ONE generator A₁=RL;
+B766-vs-B1083 RECONCILED (different invariants, different objects); B293≡memo-51 JOINED. **GC-4
+(PROVED)**: the reach deficit DEEPENS to z≈49–59 under degree-preserving nulls, 81% localized to the
+two longest terminal jumps, and **the charpoly-LOCALITY law** named + tested (ρ=−0.61, p<1e-16).
+**GC-5 (PROVED)**: L63 CLOSED as c; L114 adjudicated (no contradiction — two questions, two spaces);
+L120 re-posed; B279/B769 confirmed with locks. Ledger rows updated in place. Locks test_b1189 (3).
+
+## B1190 (2026-08-28): CLOSE-LOOP BATCH 2 — the hard cells; the loop kills its own syntheses (1/5 survives)
+
+GC-6 (L154): the arithmetic all verified lens-independently (the (E₆)₁ characters rebuilt via an
+independent E₈→E₆ projection) but the fingerprint synthesis REFUTED — a KIND ERROR (q-prefactor
+exponents matched against conformal weights, no bridge map) + an untested universal quantifier;
+L154 stays one-bridge-missing with the next attempt's instrument typed. GC-7 (the assembly): the
+never-run completeness check RUNS AND CLOSES — five adelic legs, zero orphans; γ₅'s place-typing
+and B723's weight-λ reconciliation named as the residues; the realizer requirements typed. GC-8:
+B891's no-tension reading plausible, mechanism unproven (a false third-cell support caught). GC-9:
+**rank-4 non-abelian proper centralizers EXIST** (su(3)⊕su(3), so(7)⊕u(1) from the raw bracket);
+the complex-clause de-graded. GC-10: the 4d replication theorem verified — 4d costs no new bit
+beyond c — but the route mints no new geometry (finite tick ⇒ trivial product). Every refutation
+archived verbatim beside its cell. Locks test_b1190 (2).
+
+## B1191 (2026-08-28): CLOSE-LOOP BATCH 3 — THE GRAND COMPUTATION v0 LANDS
+
+`docs/GRAND_COMPUTATION_v0.md`: the universe in the object's own units — arena+clock in ticks of
+A₁; the meter with the whole family as integers in V_reg and S(member n) = −n·V_reg·σ (zero free
+constants; the meter identities dual-verified at 50/60 dps); the forced content; the dimensionless
+coupling shapes; the typed input slots; the deletion schedule — completed at banking with the
+completeness lens's six omitted rows. **THE END-STATE INPUT LIST: ℓ + the relational c-bit + finite
+labels + σ (one bridge) + the λ-placement.** Cells: **GC-12** — the L154 fingerprint route DEAD
+honestly (one q-series in the whole record; fails the kind-map); the bridge's remaining object
+exactly typed. **GC-13** — γ₅ typed and closed as the SIXTH assembly leg (finite-place √5-swap,
+exact Galois table); λ distinct-not-placed. **GC-14** — D3 CLOSES: both rank-4 centralizers
+ALL-complex under the correct criterion. **GC-15** — the Selector's proved piece formalized with a
+proved B1183 correspondence; F2/F8 already banked (B1003 — finished-but-forgotten strikes the lock
+registry), F3 drafted green. Locks test_b1191 (3).
+
+## B1192 (2026-08-28): CLOSE-LOOP BATCH 4 — THE RELATIONAL BIT EXISTS
+
+**The campaign's crown positive (lens-scoped)**: for the heterogeneous pair (the object A, the
+√3-side partner M₁) the simultaneous mirror is realizable in GL₂(ℤ) ONLY with orientation reversal
+— the realizer module is rank 1 ({±X₀}, det −1, single-signed; Z(A)∩Z(M₁)={±I}) — so **ε(A,M₁)=−1
+is a well-defined mirror-odd dimensionless ℤ/2 class of the PAIR, and X₀ induces the nontrivial
+Galois element on both spectral fields simultaneously: the class RESTRICTS TO c** (43/43 exact
+checks; trace-invisible 340/340 — purely relational; two-sided controls incl. the homogeneous
+no-bit recovery and a norm-−1 partner's correctly-absent bit; a second norm-+1 partner carries the
+bit in torsor form). The lens's quantifier correction adopted: proved for the exhibited pairs; the
+general norm-classification is the refinement cell. **Rows F2/H1: the closer's bit-supply has its
+first realized instance — a coupling within the grammar CAN carry c.** Also: GC-17 the arrow stays
+supplied at probe depth; GC-18 λ adjudicated (archived); GC-19 the boundary-character routes typed
+(volume route excluded cleanly); GC-20 the F3 lock green + B891's mechanism re-derived. Locks
+test_b1192 (2).
+
+## B1193 (2026-08-28): THE TWO CAMPAIGNS RECONCILED — the floor amended; the founding-bit identity recorded
+
+The owner's directive ran through both seats blind; the runs CONVERGE (λ = THE residue per both;
+the arrow's external-≠-c seed with interlocking halves; one clock generator; the meter ×3; the V₄
+legs ×3 seats). Both catches adopted: **the v0 floor AMENDED** (our B1185 ℙ³ line, not covered by
+I5's argument — the end-state list gains the ℙ³ adjudication, two-outcome cell named) and the old
+2+1 count a two-seat-established undercount. THE MERGED OPEN CORE = the run-order: λ · ℙ³ · L154 ·
+twist-forcing · (Vol,CS) coherence · branch↦r. Five travelers harvest-queued. **THE FOUNDING-BIT
+IDENTITY** (the owner's long-standing question, answered from the record): A7's one-bit residue =
+the K₄ basepoint taken by writing a→ab, b→a = the ℤ/2 that transports as c = the relational class
+of an asymmetric pair — the bit is carried by asymmetric relation at every level, from the two
+letters at the origin to the two objects at the coupling. Locks test_b1193 (3).
+
+## B1194 (2026-08-28): THE EXISTENCE AUDIT — the exact missing list, exhaustion-verified
+
+Six lenses under the owner's rule (no 'missing' without exhausting the repo). HAVE: twelve rows.
+PROVABLY-CANNOT: eight walls, each naming where the ingredient lives instead. **GENUINELY MISSING:
+EIGHT items** — SEAM-A's door · λ · L154's boundary character · the relational-bit classification ·
+the ℙ³ adjudication · D2 · the Selector seal · **THE COSMOLOGY LEDGER** (dark matter / inflation /
+the initial condition: the one blind region, zero dedicated modern arcs — the named first move
+never made). The big bang itself: answered structurally (genesis chain priced; no-beginning proved;
+the bang = the onset of non-cancellation, κ−2 = ω²; the Sakharov gate present, no-rate honest). The
+object's own Λ = −1 PROVED; the measured Λ = a value-wall question. Locks test_b1194 (2).
+
+## B1195 (2026-08-28): BATCH 5A — three of the eight closed or decided; the bit's law IS the founding invariant
+
+**SEAM-A SHARPENED** (Z = (ω/√−3)·2sinh(Vol/2π); the saddle equation is u²+u+1=0 — the founding
+quadratic; the ζ₁₂ hinge into H = K(√3); lens-scoped). **λ PLACED** (P1: a second external
+continuous datum; the KMS/BTZ reduction proved tautological — both seats' top residue DECIDED; the
+count = σ and λ). **The E₆ cusp route dead structurally** (orthogonal-sum Grams vs indecomposable
+E₆); cloud's algebraic boundary object is the living half; the q-series map remains. **THE LAW
+(GC-24, survives): the relational bit is governed by κ(A,M) — the program's own founding Fricke
+invariant** (gen_det = −κ/g²): the existence obstruction and the observer-bit criterion are ONE
+invariant. **The ℙ³ line PERMANENT** (the frame V₄ proved trivial on B₀ — the floor's 3 continuous
+parameters stand definitively). Missing list: 3/8 closed or decided, 2 sharpened. Locks test_b1195.
+
+## B1196 (2026-08-28): BATCH 5B — the eight-item missing list FULLY DISPOSITIONED
+
+**D2 ADJUDICATED DIFFERENT, computed** (the projector mass spreads 5:6:5 across all three
+trinification blocks — B891's sectors are a distinct cubic-carrier structure; the wall untouched;
+the census-31 tag exposed as a label collision). **THE SELECTOR RESOLVED** (three-regime dichotomy,
+a theorem per regime; σ and λ sit on the non-normalizable side — WHY they are anchors) — and the
+deepest payoff confirmed fresh: **THE RELATIONAL BIT IS SELECTOR-FREE** (ε conjugation-invariant,
+8/8) — the observer's one bit arrives as invariant pair-data, no selection act; B1192 + B1183 + the
+prior-vs-point theorem close into one statement of what an observer costs. **THE COSMOLOGY LEDGER
+CREATED** (`docs/COSMOLOGY_LEDGER.md`, 395 lines — the blind region's surface, every row banked-
+sourced, first probes named). The eight: 1 sharpened · 2 closed · 3 halved · 4 law-found ·
+5 closed-permanent · 6 closed · 7 resolved · 8 created. Locks test_b1196 (3).
+
+## B1197 (2026-08-28): THE CLOCK-COHERENCE RUN (route B4, the D2 gate) — SPLIT
+
+Executed the moment 5A returned, per standing instruction. **The named primary test PASSES**: the
+(1,n) ladder over 29 rungs has Vol strictly increasing (→ Vol_cusp) with |CS| strictly decreasing
+(→ 0). **The full census check FAILS**: globally across B289's 78 closings |CS| is not
+non-increasing (15 violations), and every family p ≥ 2 carries an exhibited within-family violation.
+Instrument controlled two-sidedly: the sweep reproduces B289's census size (78) and its banked sign
+law (156/156), and a shuffle control shows the detector bites (36). **Two catches narrated**: the
+first run used the wrong census (the 112-family, not the closings), and the corrected run's first
+pass hit a vacuity trap (empty census ⇒ `all()` = True) — caught by printed counts; a guard is
+committed. **D2's consequence**: neither declared outcome fires cleanly — on the trajectory reading
+(the record's own distinguished cusp-approaching path) the joint LEAP-1+W1 package survives and is
+payable; on the global/variable reading it is refuted and the choice becomes AMS XOR HT. The scope
+choice is the owner's, now made on data. Locks test_b1197 (3).
+
+## B1198 (2026-08-28): THE SPECIALIST BAR'S LITERATURE HALF — B707's never-run "Lee's motives" test retrieved
+
+WebSearch returned to this bench; the first search against SEAM-A found B707's **third named
+bridge test** had its object in hand. **Lee (arXiv:2502.11950, Feb 2025)**: for any finite-volume
+hyperbolic 3-manifold, a **mixed Tate motive over the invariant trace field whose Beilinson
+regulator is the PSL₂(ℂ) CS invariant = the complex volume**, Hodge-realized on a **path torsor
+between the geometric point and a tangential base point at an ideal point**. Three facts B707 did
+not have: **the appendix confirms the conjecture for 4₁ — our object**; **the tangential base point
+is NOT canonical** ("any tangent vector satisfying the condition"); and the paper's own caveat that
+the motivic path torsor is hypothetical for non-rational curves. **The convergence**: the outside's
+state of the art supplies a marking at the cusp **by choice, not derivation** — an independent
+instance of the shape our record proved from the inside. Our half computed fresh (40 dps): Vol =
+(3√3/2)L(χ₋₃,2) = 9√3ζ_K(2)/π², complex volume = π²/6 + i·Vol to 2.3e−41. **Fences (E37 on myself)**:
+abstract + automated HTML read only — the mathematics is CITED/UNVERIFIED, and "tangential base
+point ≈ W₀" is a HYPOTHESIS, not a theorem; it does not supply W₀. Verification step named
+(§7.4 + Appendix A: is the tangent-vector set a torsor, under what group; does 4₁'s case use CS=0).
+Locks test_b1198 (3).
+
+## B1199 (2026-08-28): THE REGISTER READS + L188 CLOSED — a fourth finished-but-forgotten, a refuted reconciliation, a first-ever check
+
+**GC-29 (R5)**: the "buried live law" was buried, but its *openness* is stale — **B775/B778 already
+banked the all-p symbolic proof** (lens-confirmed), three weeks after the flag. The law
+independently re-verified at **8 levels** (p = 23 new); two of three negative controls survive, the
+third **withdrawn** after failing the lens. **Fence**: "dark" = Gauss-sum vanishing, *not*
+cosmological dark matter. Ledger omission closed (S1 → new row G3). **This is the campaign's fourth
+finished-but-forgotten instance — the class is systemic.** **GC-30**: R6's two-clock reconciliation
+**REFUTED by the lens** (integer periods are λⁿ+λ⁻ⁿ−2 with λ = (3+√5)/2 — the argument conflated the
+additive period count with the multiplicative Radon–Nikodym ratio group); **no note banked**, the
+question returns to open with its defect named. R7 closes **NEGATIVE** (the entanglement's field is
+disjoint from the meeting field); R8 **CONFIRMED** as a pattern-level identity. **GC-31: L188 CLOSED**
+— the queue's oldest standing row: six claims verified with independent code, C1 on the **full
+745-class family** (unit-det + prime-conductor + trace-3 select the same single class, zero
+mismatches), and **the addendum's own never-checked C3 pointwise formula run for the first time —
+it HOLDS EXACTLY.** Locks test_b1199 (3).
+
+## B1200 (2026-08-28): ONE POLYNOMIAL, THREE FACES — the saddle, the founding obstruction, and the boundary are Φ₃, and the map between them is c
+
+Cloud independently reproduced this bench's **κ-law** and **selector-freedom**, and returned a
+cross-link we had not named: **Φ₃(κ − 2) = 0**. Verified here exactly (identically mod Φ₃, not just
+at the roots). **FACE 1** the saddle of the object's own partition function (B1195/GC-21, derived
+knowing nothing of κ); **FACE 2** the founding obstruction κ − 2 = u², |κ − 2| = 1 (B309/B518);
+**FACE 3** the boundary structure M² + M + I = 0 (cloud memo 104, rebuilt abstractly). **The saddle
+set IS {κ − 2, its conjugate}** — the same two numbers. **This bench's addition: the linking map is
+u ↦ u², which on the primitive cube roots is the swap — the Galois generator c itself.** So the
+existence audit's item 1 (SEAM-A's saddle) and item 4 (the bit's law) are **ONE INVARIANT**: the
+polynomial whose vanishing is the founding frustration is the polynomial whose roots are where the
+amplitude is stationary. Also harvested (CITED): **cloud's quine build landed on OUTCOME Q1 — "the
+bit is c" — exactly B1184's prediction**; Q2 did not fire, so B1183 stands. Cloud's other six
+commits and codex R020–R022 fetched and queued. Locks test_b1200 (2, the identity re-derived in the
+test itself).
+
+## B1201 (2026-08-28): THE LEE VERIFICATION CORRECTS B1198; the cross-seat harvest closes clean
+
+**The verification we named three days ago ran, and it came back against us.** The tangential base
+point is **NOT free for 4₁ — it is unique** (|a₁| = 1 at all four ideal points, from the appendix's
+own data): B1198's "the outside chooses the marking we proved the object cannot supply" is
+**withdrawn as stated**, and the hoped ℤ/2-contact is killed. **Appendix A makes no use of CS = 0 or
+amphichirality** — Lee's stated reason for 4₁ is *arithmeticity*. **But the shape-match survives,
+relocated**: a genuine ℤ/2 *is* required — at the **augmented variety's double cover, λ vs λ⁻¹**,
+which on our side is the mirror's own action (B716). That is the corrected hypothesis, and it is
+better located than the original. **New**: the paper has **no Dedekind-zeta normalization**, so the
+bridge to our Vol = 9√3ζ_K(2)/π² is **absent from the literature** — a named gap, not an unread
+page. A minor slip in the paper found and reported. **Harvests**: codex R020/R021/R022 reproduce
+byte-identically, none contradicts main (R021 adds a new open spin-bit constraint); cloud's seven
+reproduce and **the quine certificate re-runs clean — outcome Q1 verified here, B1200's CITED debt
+paid**. Two independent convergences: their refuted norm law is *our same-day* GC-24 correction
+re-derived without contact, and their first-beat κ is exactly GC-24's κ − 2. Locks test_b1201 (3).
+
+## B1202 (2026-08-28): THE ALREADY-BANKED CHECK — the finished-but-forgotten class gets an instrument
+
+The owner's standing instruction ("we don't have X" is never terminal) was violated **four times**,
+always the same way: a *register* row said open while the *corpus* held the proof — the quine
+(B762), L187's stabilizations (B767), the F2/F8 locks (B1003), R5's law (B775/B778). Review 52
+raised it to an audit item; **an audit item is not an instrument**. `scripts/checks/already_banked.py`
+scans every arc verdict AND every nested FINDINGS.md (where B775/B778 lived), ranks by term
+coverage, and exits non-zero when a settled arc matches a real share of the query. **The threshold
+is the design**: a first version flagged any one-word overlap — an instrument that cries wolf gets
+ignored, which is how the misses happened. **Controls two-sided**: all four historical misses
+flagged at top rank; both genuine blind regions (inflation/reheating; dark-matter/relic) clean.
+**An artifact found by its own controls and recorded**: writing this arc broke its negative control
+— the FINDINGS quote the control phrases, so the check matched its own documentation; fixed with
+`--exclude=`, and noted because the trap waits for any self-documenting instrument. **The rule**
+(WORKING_RULES): no MISSING/OPEN claim without running it, and **state the searched terms with the
+claim**. Locks test_b1202 (2).
+
+## B1203 (2026-08-28): TWO PROBES, BOTH NEGATIVE FOR THE PROPOSER — and the new check's first live catch
+
+**Probe 1 — c-equivariance as a forcing filter: REFUTED, cut of exactly zero.** Cloud's enumerator
+re-run here (**W₁ = 11,720 reproduced independently**); all 17 tier-1 atoms are real, c fixes reals,
+the ops preserve reality ⇒ **11,720 of 11,720 retained**. The structural reason is the useful part:
+the menu already lies wholly inside the c-even class (B1168), and *requiring what every candidate
+satisfies selects nothing.* **Probe 2 — climbing a→ab, b→a one level up (the owner's question)**:
+read literally the climb is (X,Y) → (XY,X), i.e. (x,y,z) → (z,x,xz−y), and **κ is preserved
+identically at every rung** (six verified; the whole K₄ of founding rules; bite controls
+discriminate). So **the climb is a symmetry of the founding obstruction, not a generator** — which
+is *why* three banked results say "one level then fixed" (the second beat adds no invariant;
+measurement-of-measurement collapses once; the quine's external bits = exactly 1). **Honest**: the
+identity is **already banked at B148** (the Dehn twists preserve κ; classical Fricke) — only the
+reading is new. **The instrument's first live catch**: B1202's `already_banked.py` surfaced B148
+*before* this was banked as new — the fifth instance of the class prevented, on its own author,
+within the hour. **What both leave**: the forcing theorem cannot be c-equivariance nor iteration —
+both are symmetries the class respects — so **it must break a symmetry, not impose one.** Locks
+test_b1203 (2).
+
+## B1204 (2026-08-29): THE SHAPE OF A FORCING THEOREM — failable, not symmetric; nonlinear when it must cut a continuum
+
+The owner asked whether the record's prior **symmetry breakings** supply the value arm's missing
+forcing principle. They do — but the lesson is in what actually **forced**, and there are exactly two
+families: **classification + membership** (E₆ via McKay; the breaking chain 2-of-27; the tone set —
+the menu is finite *before* the test) and **consistency/cancellation** (hypercharge via anomalies).
+**Both failable; neither a symmetry.** The instructive anatomy, re-derived: B1160's three **linear**
+anomaly conditions cut the 5-dim charge space only to a **line** — **it was the CUBIC [Y]³ that cut
+the line to points** (−18(t−3)(t+3) ⇒ t = ±3). So B1203's "break a symmetry" sharpens to: **a
+forcing theorem is a FAILABLE condition, and to cut a continuum its decisive step is NONLINEAR** —
+linear/symmetry conditions cut *dimension*, only nonlinear ones cut to *points*. That is exactly why
+our two candidates died: both were symmetries the class already satisfies (MB12 — a criterion that
+cannot fail cannot select). **Proposal, labelled**: the object's own cubic is the unique Sym³(27)
+invariant (B884, nullspace dim 1) and it lives *at the coupling*, where E1 says the values live —
+the cell is whether a cubic, failable condition on the object+closer coupling exists that a value-map
+can fail. Locks test_b1204 (2).
+
+## B1205 (2026-08-29): THE CUBIC CELL RUN — the cubic exists and is failable, but it cuts one dimension of three
+
+B1204's prescribed cell, run. **The cubic is real**: the down block is 3×3×4, so Y_d(h) is linear in
+the Higgs direction and **det Y_d(h) is a genuine failable cubic form on the ℙ³** — exactly the
+shape asked for, at exactly where row E1 puts the values. **Then the counting kills it**: one
+equation cuts one dimension, so {det = 0} is a cubic *surface* (3 → 2), its singular locus is
+**empty** (5/5 samples smooth; classically generic determinantal cubics are), and rank ≤ 1 is empty
+by codimension. **THE DIMENSION LEDGER**: B1160 worked because **three linear anomaly conditions did
+four dimensions of work first**, leaving a line for the cubic to cut to points — the cubic did *one*
+dimension. The ℙ³ has **no linear conditions at all**, and that is **proved, not missing**:
+B1195/GC-25 established every banked symmetry acts trivially on B₀. **So the conclusion inverts the
+prescription — the missing ingredient is not the nonlinear condition but the LINEAR cuts**, and the
+two results lock together: GC-25's permanence is upgraded from "the floor carries three parameters"
+to **"a B1160-style forcing provably cannot reach them."** B1204 amended, not discarded: the recipe
+is linear-then-nonlinear, and the program has only the second half. Locks test_b1205 (2).
+
+## B1206 (2026-08-29): THE ℙ³ IS EXACTLY ONE CONDITION SHORT
+
+B1205 left the frontier *"are there any linear conditions at all?"* — **yes, and there is exactly
+one.** The cubic's **1·10·10** term becomes a **linear functional on B₀** whenever its other two legs
+are *pinned*: **H_u is 1-dimensional** (pinned automatically) and, of the 27's two neutrals, memo
+80's measured λ-term row (**N₁ → 2 entries, N₂ → 0**) says **only one couples**. So the object
+supplies **exactly one canonical linear functional** — the λ-term C(N₁, H_u, ·). **The cut ledger**:
+ℙ³ dim 3 → (1 linear) dim 2 → (det Y_d = 0, B1205) dim 1; points need 0. **The forcing falls exactly
+one condition short.** That converts B1205's unbounded "the linear cuts are missing" into a bounded,
+checkable gap: **one more independent condition flips the row from PERMANENT to FORCED**. Three named
+candidates, the cheapest being **the λ-term's rank on B₀** — if it is 2 rather than 1 the ledger
+closes immediately, and that is precisely a datum codex's commissioned 𝒯 evaluator (R023) settles.
+Fenced as a *count of available structure*, not a physics claim. Locks test_b1206 (2).
+
+## B1207 (2026-08-29): THE SLOW LANE'S FIRST FULL RUN, TRIAGED AND DISCHARGED
+
+The fifty OA_SLOW-gated files enumerated and launched at B1177 finished their **first-ever complete
+run**: **9 failed, 5702 passed, 5 skipped, 4 h 45 min**. All nine triaged. **Five are real defects,
+all mine, all invisible to the fast lane**: thirteen arc verification scripts carrying **absolute
+machine paths** (agent-written scripts copied in during the close-loop batches — a script that runs
+on one bench and nowhere else is the opposite of what a `verification/` directory asserts); **ten
+arcs with a verdict and no findings document** (B1176–B1179, B1181–B1183, B1194–B1196 — the exact
+mirror of B1176's thirteen retro verdicts, committed by the same seat two days later); and **two
+NEGATIVE arcs unrouted** in the kill graph (B1203, B1205 — B801's backlog rebuilding within four days
+of the pass that cleared it). **Two were the locks' own bugs**: B844's ID strip was greedy-to-a-colon,
+so a *colon-free* carried item had its whole reason eaten and was then flagged for having no reason —
+the lock manufacturing the defect it hunts; and B1034's L154 allowed-set predated the campaign, whose
+three new surfaces each state the **adjudication** (NO-EXHIBIT / one-bridge-missing / route-dead)
+rather than asserting the join, so they are admitted **conditionally** under a new test. **One was a
+real code bug eight days old**: B1113's t-meter verifier took two dirnames where three were needed,
+resolving its root to `frontier/` and doubling every join — **the verifier has not executed once
+since it was banked**. **Two were casualties of the run itself** (atlas render, cost-class drift):
+both pass in isolation; arcs were banked *while* the 4 h 45 min suite was in flight.
+
+Then a **fourth class the report could not contain**, found by watching the tree because these
+defects *succeed* silently: B1137's PSLQ grid was opened in **append** mode with no resume logic, so
+every re-run added another 216 cells — this bench held **648 = 3 × 216** — and the aggregator
+re-derived `M_grid_cells = 432`, **halving the Šidák α off multiplicity that was never tested**. The
+grid is gitignored, so nothing surfaced until the *fast* test re-aggregated it into the tracked
+report. Fixed at both ends; the banked report is **reproduced exactly** from the restored grid and
+the `DISJOINT` verdict never moved — the error ran in the *conservative* direction, which is why no
+lock caught it. Plus B1113's verifier overwriting hand-sanitized `<repo>/…` placeholders with this
+bench's absolute paths, and two arcs rewriting tracked results with per-run timings.
+
+**THE METHOD FACT**: *a lock run against a moving repository measures the motion, and a long run
+moves the repository itself.* The slow lane must be run **quiescent**, with its diff inspected and
+never committed blind. **THE CLASS, which is the point**: three of the five real defects were
+committed by the seat that had just built or just used the corresponding instrument, so the lesson is
+not vigilance — vigilance is what failed — but that **a gate only works where it is reached**. The
+slow lane becomes a review-cadence quiescent run, which is precisely how it came to sit unrun from
+its own creation until today. No arc's mathematics is re-adjudicated. Locks test_b1207 (9).
+
+## B1208 (2026-08-29): THE CROSS-SEAT HARVEST — seven results verified, three of them changed
+
+Seven results arrived from three seats while this bench was on instrument work. All seven verified
+**from main's own data**, and the verification changed three.
+
+**cloud memo 128 (the λ-term's rank) — CONFIRMED, derivation CORRECTED.** B1206's own named
+*cheapest* closer of the ℙ³ cut ledger is closed negatively: rank 1 is impossible for a
+doublet–doublet–singlet coupling, so the fork's branches were *"impossible"* and *"always"*. But the
+memo derives that from **t₃-conservation** — and antidiagonal support still admits rank 1 (witness
+here: `[[0,−3],[0,0]]`). t₃ is the **Cartan** only; the exclusion needs **full SU(2) invariance**,
+proved here independently (the invariant space of 2⊗2 is one-dimensional, spanned by ε, with
+`det = c²`), with a control showing a non-doublet H_u *would* admit rank 1. **Their result is
+representation-theoretic, not a weight accident — stronger than stated.**
+
+**cloud memo 129 (the H_d menu) — ADOPTED, and their one open check POSED.** Exactly three couplings
+touch H_d and exactly one is canonical, so *"one condition short"* is **structural**. Their §6 — the
+check they cannot run — is taken as far as this bench can: the object's construction grades by a
+**ℤ/12 character**, a *Wilson-line-type* breaking, so SM components of one SU(5) multiplet need not
+share a character and **the SU(5) relation does not settle it**. Posed to codex as a **three-outcome
+preregistered fork**: (a) same characters → ledger stands; (b) different → an independent cubic →
+**the ledger closes and the ℙ³ flips PERMANENT → FORCED**; (c) no triple satisfies the selection
+rule → **the lepton Yukawa is absent**. All three are results.
+
+**cloud memo 130 (D2's scope) — CONFIRMED on main's own B1197 rows, and STRONGER.** S5b holds
+**156/156**: every same-volume pair carries exactly opposite CS, so signed CS was never a function
+of Vol — the variable reading was refuted by B1197's *own* positive control. S5's window reproduces
+exactly (28.0×) and this bench finds a **541×** witness they did not report. **D2's scope remains
+the owner's call**; their Option-A recommendation is presented as theirs, not adopted.
+
+**cloud memo 123 (the dark-matter stabilizer census) — CONFIRMED entry-for-entry**, rebuilt on
+main's own 27-weight generator and strengthened to quantify over *every* charged set of size ≤ 2:
+zero stabilizers, min |charged| = 11, max level set 16 of 27 where ≥ 25 is needed; MB12 control
+fires (486 on a planted rep). **The cosmology ledger's row 4 closes at character level.**
+
+**cc3 B8154 (the mirror is c) — VERIFIED 6/6 with their controls**, and typed as **convergence, not
+novelty** (main had B1174/B1183). What they add is a **second independent route to Φ₃ — from the
+holonomy** — and the prime-order closure of Paper IV's Escape (i).
+
+**cloud memo 127 (the mirror is irremovable) — CONFIRMED, and it is B1203's identity read
+backwards.** The whole internal group satisfies `κ ∘ g = κ` **identically**, while `κ(P₀) = 1+ω` and
+`κ(gal P₀) = 2−ω` differ — so no internal operation absorbs the mirror. **The convergence neither
+seat saw**: B1203 banked *the founding climb preserves κ identically* (hence one bit, not a tower);
+memo 127 uses the **same invariance** for irremovability. **One identity, two directions — the
+internal group cannot change κ and the mirror does, so the mirror is precisely the operation the
+object cannot perform on itself**, which is *why* the bit is exactly one and external.
+
+**codex R021 (the Gieseking Pin⁻ restriction) — CONFIRMED and GENERALIZED**: rank-1 `H¹(N;F₂)`
+forces `H¹ = ⟨w₁⟩`, and the orientation double cover kills `w₁` by construction — so the theorem
+holds for **any** nonorientable manifold with rank-1 F₂ cohomology, the Gieseking being one
+instance. Control: at rank ≥ 2 the hypothesis genuinely bites. **codex R020 — RECEIVED, NOT
+VERIFIED**: it touches a banked claim (B1140), so the house rule verifies first; named as the next
+cell, and nothing in B1140 is re-graded.
+
+**And one of ours**: **B1206's candidate (iii) was an MB12 violation** — a discriminator proposed
+without checking its discriminating value was reachable, when the rule that would have caught it is
+this seat's own. Cloud found it. Banked as a self-catch, not absorbed. **B1206's ledger stands at
+dim 1**, all three candidates negative and their space closed; **B1196's CLOSED-PERMANENT verdict on
+the ℙ³ is hardened twice** and remains overturnable by exactly one named datum. Nothing weakens V-3;
+no value is claimed. Locks test_b1208 (9).
+
+**Also in this bank**: B1207's **confirming quiescent run landed** — 6 failed / 5719 passed /
+4 h 51 m — and its own six are dispositioned. Neither class-D drift failure recurred, confirming
+they were artifacts of banking mid-run. Three of the six were **mine, committed during the run**:
+relay files written with no ledger rows, which corrects B1207's own rule — *untracked is not
+invisible to the gates; quiescence means the whole working tree, not the index.* One was B1207's own
+test spelling the literal it forbids (the self-documenting-instrument class again). One was
+`test_b824`'s **absolute threshold on a growing corpus** — *"character variety"* fell to 9.98% of
+arcs with nothing about the programme changing, tipped by the ten FINDINGS documents B1207 itself
+added; re-expressed as a drift-free ratio. **And `papers/P3_THE_PAPER/SPEC.md` lands** (owner-approved):
+the full specification of THE PAPER — thesis, section architecture, the non-claims box, the
+recognition table, the falsifier matrix, ready-vs-gated, and the currency hazard that
+`docs/THE_SM_VERDICT.md` must not be distilled directly (its §1 table still says "three
+generations, structurally" while its own addenda 220 lines below re-scope the count).
+
+## B1209 (2026-08-29): THE LEE VERIFICATION — three questions answered from the source, and the hoped-for bridge to the observer's bit is CLOSED
+
+**R52-3 discharged**, and the **E37 CITED/UNVERIFIED** grade B1198 carried is paid: the paper was
+**obtained and read on this bench** (78pp), not cited from an abstract.
+
+**Q1 — the admissible tangent-vector set IS a torsor, under ℤ/|a₁|, and for our object that group is
+TRIVIAL.** Lee states the count directly — *"in general, there are several (i.e. as many as |a₁|)
+choices for a tangent vector ∂/∂z"* — and his Appendix A computes **a₁ = +1, −1, +1, −1** at the four
+ideal points of 4₁, all four satisfying his Conjecture 7.4.2. **Not taken on trust**: a₁ and b₁ are
+the orders of vanishing of the meridian and longitude, so **(a₁, b₁) is a primitive edge vector of
+the Newton polygon of the A-polynomial** — main's own **B67**. Computing that polygon gives edges
+(4,−1), (4,1), (−4,1), (−4,−1), hence (a₁,b₁) = (−1,4), (1,4), (1,−4), (−1,−4): **every edge is
+L-thin, so |a₁| = 1 at every ideal point**, with boundary slopes ±4 matching the figure-eight's known
+values. The structural reason is now ours: *the A-polynomial's Newton polygon is thin in L.*
+
+**The consequence is a clean negative.** The torsor group is trivial — **not ℤ/2, not V₄** — so there
+is **no contact** between Lee's choice-of-base-point and the programme's orientation bit
+(B1174/B1182/B1183). B1198's identification of it as *"the outside instance of the missing
+archimedean marking"* **fails, with a stated mechanism rather than as an absence**, and **B1201's
+withdrawal is confirmed from the source** — now double-sourced. Routed to the kill graph in this same
+commit, with a hatch that names the two-line reopening check (any manifold whose A-polynomial is not
+L-thin has a genuinely nontrivial torsor there).
+
+**Q2 — the 4₁ confirmation does NOT use the CS = 0 degeneracy.** Appendix A runs on Hikami's
+Neumann–Zagier potential on the deformation curve, evaluated by dilogarithm identities, with limits
+**±4ζ(2) = ±2π²/3**. B1195/GC-21's degeneracy plays no role, so that contact point closes too. The one
+genuine adjacency: Hikami's curve is obtained by **the saddle point method**.
+
+**Q3 — the trace field specializes exactly, with no special-casing.** Theorem 2 places the motive in
+`Ext¹_{MT(k(M))}(ℚ(0), ℚ(2))` over the **invariant trace field k(M)** — and for m004 that field **is
+ℚ(√−3)**. The construction lands over the programme's own field by its general statement.
+
+**What remains**: the **positive half stands and is the valuable half** — an outside, published mixed
+Tate motive over ℚ(√−3) whose Beilinson regulator is our complex volume, with 4₁ a verified appendix
+case. And **the W₀ bar stands unchanged**: Lee does not supply SEAM-A's missing archimedean marking,
+because for our manifold there is nothing free there at all. A narrower and more useful state than
+"the reading list is in hand." Locks test_b1209 (5).
+
+## B1210 (2026-08-29): THE PAPER-SPINE SWEEP — the spec was written from memory, and the corpus says so
+
+The owner asked whether the P3 spec reflects the current state *to the last bit*. **Measured rather
+than asserted, and the answer was no.** The spec, drafted from the thesis as this seat holds it,
+cited **11 of the 85 arcs banked in its own last ten days** and **1 of the corpus's 48 law-creating
+arcs**. A spine assembled from memory reproduces the memory, not the record — the inverse of the
+accretion hazard the spec itself had warned about one day earlier.
+
+**The instrument needed correcting mid-run, and that is the useful part.** A first pass matched
+verbs anywhere in an arc's claim and flagged **229** pool arcs and **15 of 24** spec citations as
+extended/corrected/withdrawn. Spot-checking the two most alarming killed the statistic: **B1159 was
+read as withdrawing B727 when it cites its genericity**, and **B978 as withdrawing B862/B864 when it
+is the arc that confirms them**. An arc claim is one long sentence about many things. Rescoped to
+**clause scope** (the verb within 90 characters of the reference), the numbers fall to **79** and
+**5 of 24** — and *that* is the reportable number, with the discarded one kept beside its falsifiers.
+
+**Two findings change the paper.** (a) The **ℤ₆ derivation was cited on the weaker footing**: B862
+is conditional on the cascade's own conditions, while **B1080** confirms it independently and
+**extends** it — ℤ/6 uniform over six Weyl realizations, row 1's full algebra giving ℤ/6 × ℤ/2. Both
+are now cited. (b) **The one that matters**: the spec listed *"the cascade landing on
+su(3)⊕su(2)⊕u(1)³"* among the **forced** results, and **B951 deflates exactly that headline** — the
+landing is the **A₂+A₁ Levi subalgebra** of e₆ (14 = 6+8, semisimple part 11, centre 3 — *exactly
+B892's three numbers*), and arriving there from E₆ is **Borel–de Siebenthal 1949 / Dynkin 1952**.
+**It moves to the recognition table**; what survives as forced is the chain's *termination* and the
+*global form*, not the *arrival*. B953 adds a second recognition row (skipping SU(5) is skipping the
+rank reduction; the unsheddable units are U(1)_ψ and U(1)_χ). **This is precisely the correction a
+referee would have made, on the paper's most exposed claim, in the genre where that exposure is
+fatal** — caught before a draft existed.
+
+**Produced**: `papers/P3_THE_PAPER/CLAIM_CANDIDATES.md` — all 48 law-creating arcs grouped by the
+section they would serve, supersession flags attached, **disposition column shipped empty because it
+is an editorial call**. Its distribution is itself a finding: **20 of 48 land in the observer
+section**, where the paper's weight genuinely sits. Locks test_b1210 (6). **Fences**: the pool is
+complete for its criterion, which is not "everything the paper might cite" (the remaining ~660 PROVED
+arcs are not swept); the detector reports *lexical* relations, so five flags means five pairs **to
+read**, three of which are confirmations on their face.
+
+## B1211 (2026-08-29): THE DECLARATION GAP — the programme's newest theorems were invisible, because the gate reads a field the seat fills in
+
+Continuing B1210 into the **541 substantive arcs its criterion did not reach**. The finding was not a
+missing claim candidate: the ranked sweep surfaced *the programme's own most recent theorems* as
+unswept, which is impossible if the criterion is sound. Checking directly — **seven of the eight most
+recent observer-layer results (B1182, B1183, B1184, B1192, B1196, B1200, B1203) sit on NO registered
+synthesis surface**, and `THEOREM_REGISTRY.md`'s last row was **B1145**. The densest theorem cluster
+the programme has produced was registered nowhere.
+
+**The mechanism is sharper than B1207's.** `gate_theorem_registry` enforces *"declared
+`creates_law = true` ⇒ has a registry row"* — which catches **over**-declaration and is structurally
+blind to **under**-declaration. And the seat that writes the claim also writes the flag. This seat
+declared `creates_law = false` on an arc **titled THE ONE-CLASS THEOREM**, so no row was ever
+required, nothing surfaced it, B1210's mechanical pool could not see it, and only the memory-written
+spec carried it. **A gate that reads a self-declared field is only as good as the declaration — it is
+the seat's own judgement wearing a gate's uniform.**
+
+**The repair**: seven arcs corrected to `creates_law = true`, each with a **dated
+`creates_law_corrected` note** (claim, verdict and evidence untouched), and **seven
+THEOREM_REGISTRY rows landed in the same commit**, written as claim rows so they double as P3's
+evidence rows — the one-class theorem, the quine split verdict, the relational bit's existence,
+selector-freedom + the three-regime dichotomy, the Φ₃ three-faces law, the C4′ torsor identification,
+and the three-mechanisms theorem. **Two controls**: B1203 stays `false` on its own words (*"an
+interpretation joining banked facts, not a theorem"*) and B1204 stays `false` because it reads the
+*shape* of this record's forcings — a taxonomy of the corpus's arguments, not a new theorem about the
+object. A review that flipped everything it looked at would be a sweep, not a judgement.
+
+**The counter-check is installed and fired on installation.** `declaration_check.py` flags arcs whose
+claim talks like a theorem while the flag says otherwise, locked **forward-only from B1180**; it
+accepts **either** a flip **or** a dated recorded decision — **what it forbids is silence**. It caught
+**B1185** (a theorem — flipped, seventh row) and **B1204** (not one — reviewed and kept) immediately,
+neither of which this seat had re-read.
+
+**And the instrument needed its own scope correction, the third of that species today.** Its first
+pass **lost B1183 and B1200** because its disown-list contained *"cited, not"* and *"harvest"* — words
+that appear in the **fences** of genuine theorems, where an arc limits a *borrowed* computation rather
+than its own result. After B844's greedy regex and B1210's claim-scope matcher, the pattern is
+nameable: **lexical instruments over this corpus need clause- or region-scope**, because an arc claim
+is one long sentence carrying fenced material about many things.
+
+**The reusable finding**: B1210 concluded *a spine assembled from memory reproduces the memory*. This
+supplies the other half — **a spine assembled from a criterion reproduces the criterion**. The
+memory-written spec caught the observer theorems the pool structurally could not see; the pool caught
+the older forced material memory had smoothed over. **The paper needs both passes, and now has both.**
+Locks test_b1211 (5).
+
+## B1212 (2026-08-29): TWO REPLIES — the decisive datum does not exist in the frames, and D2's payment is PROVISIONAL
+
+Both of this morning's relays answered the same day.
+
+**codex R024 — the ℤ/12 lepton character. THE FORK STAYS OPEN, and that is the answer.** Their
+certificate **re-runs on this bench** from their own committed inputs: retained Wilson branches
+`k = 4, 8`, with `eᶜ` selecting `A₀` and `l`/`H_d` selecting `B₀`, so **both coarse characters are
+zero**. But coarse equality does **not** identify the lepton and down tensors, and the committed
+frames **do not identify the physical generation-level representatives** with a lepton-specific tail
+pair. So B1208's three-way fork is **UNRESOLVED** — neither same-tensor, nor the independent cubic
+that would have flipped the ℙ³ **PERMANENT → FORCED**, nor an absence theorem. **This is still a
+result**: it converts *"we do not know"* into **"the record does not contain the datum"**, and names
+the object that would supply it — a frame-level identification of the generation representatives,
+which is the 𝒯 evaluator's own territory (R023), still uncommissioned in its load-bearing half.
+**The ℙ³ row stands at dim 1**; B1196's CLOSED-PERMANENT verdict is neither hardened nor overturned.
+Banked: the two coarse equalities. Not banked: anything about the lepton tensor's independence.
+
+**cloud — D2's payment DOWNGRADED TO PROVISIONAL, both of this bench's amendments upheld.** The
+authority question is **open and is the owner's**: the bench recommended Option A, the owner replied
+*"go"*, and the bench recorded that as the D2 signature and marked LEAP-1 PAID. This seat flagged
+that the *"go"* may have been a general continue; **cloud accepted the flag and downgraded the
+payment** until the owner confirms. *To confirm*: say so. *To reverse*: **one edit**, and nothing
+else moves, because every consequence was written premise-conditional. They also **replace their
+deciding argument with ours and say so** — their case was eliminative (*the alternative was never
+satisfiable*), and they adopt this seat's objection that this shows only that **the gate returned
+nothing**, recording the **positive** argument as SCOPE-1a's ground: a cosmological clock
+parameterizes **one realized history**, so demanding single-valuedness across all Dehn closings is a
+**category error**. **Amendment 1 upheld** — SCOPE-1 split into SCOPE-1a and **SCOPE-1b** (*the (1,n)
+ladder IS that history* — **not established**). **Amendment 2 upheld** — the override of the
+preregistered gate is now the weld-book addendum's **first** paragraph, so no reader reaches
+"LEAP-1 PAID" without it. Two of this bench's primary facts were re-derived on theirs: the
+preregistration at **13:30:33 UTC** vs the run at **19:49:17 UTC** (a **6 h 19 m** lead — the
+trajectory reading is the original statement, not a retrofit), and the **541.5×** witness, **adopted
+and credited**, replacing their 28× figure.
+
+**Owed to the owner: one binary decision** — confirm the D2 signature or reverse it. Locks
+test_b1212 (4).
+
+## B1213 (2026-08-29): THE CLAIM BASE REBUILT — the field the paper's base read is empty on 89% of the corpus
+
+Harvests cloud's R52-6 cold pass (memo 133), **verified entry-for-entry here**. B1211 corrected arcs
+whose `creates_law` flag was **wrong**; cloud asked whether the instance was a class and found the
+larger mode: the field is **ABSENT ENTIRELY on 919 of 1031 settled arcs — 89%**. A sweep reading it
+treats *declared false* and *never declared* identically, as "not a law". **Two distinct failure
+modes, and B1211 fixed the rarer one**: a mis-declaration is a wrong call, an absent field is **no
+call ever made**. Their two-sided control reproduced before adopting the criterion — declared-law
+arcs score **2.47** on the corpus's own law vocabulary against **1.08** for the rest, **2.29×** (they
+report 2.20×); the void branch is in the code on both benches.
+
+**This bench sharpens the diagnosis.** Their decisive exhibit **B991** — PROVED, `instrument: false`,
+`creates_law` absent, claiming *"THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN PRINCIPLE, and
+that is a THEOREM ABOUT THE EQUATIONS"* — **was already inside B1210's 442-arc pool**, reached by a
+synthesis surface. **The leak was the rendering, not the pool**: `CLAIM_CANDIDATES.md` listed only
+the flag-derived subset (48, later 55) while the pool behind it held 442. **The pool was wider than
+the page** — which matters, because filling the field 919 times would not have fixed the document.
+
+**The rebuild**: POOL = declared-law ∪ on-a-synthesis-surface ∪ law-vocabulary = **467 arcs**, the
+vocabulary criterion contributing **39 that neither the flag nor any surface reaches**. The page now
+renders all 467, **tiered** (L declared / S on a surface / V vocabulary-only) so an editor sees why
+each arc is present; the disposition column stays empty. The section distribution moves the paper's
+centre of gravity visibly — **118 observer · 108 withheld · 49 forced · 46 object · 37 wall · 109
+unassigned**: the negative and observer halves together are **four times** the forced half, which is
+what the thesis says, now in the evidence base and not only in the prose.
+
+**THE PATTERN THIS CLOSES — three passes, three blind spots, each found by someone other than its
+author.** B1210: a spine written from memory reproduces the memory. B1211: a spine written from a
+criterion reproduces the criterion, and a gate reading a self-declared field is only as good as the
+declaration. B1213: a criterion reading a field most of the corpus never filled reproduces the
+filling, not the corpus. **No single pass was sufficient and none of the three authors caught their
+own** — an argument for the three-seat design rather than for more care. B1210 carries a dated
+supersession addendum. Locks test_b1213 (6).
+
+## B1214 (2026-08-29): THE `creates_law` RE-AUDIT — thirteen real laws recovered, 104 absences turned into decisions
+
+Owner-directed and correctly sequenced: B1213 fixed the **base** so it no longer depends on the
+field, but the disposition column was about to be filled against a corpus whose law-metadata is 89%
+missing. **The rule, fixed before adjudicating**: LAW = a *new general proposition proved here*;
+NOT LAW = a verification, harvest, audit, census, sealed-cell decision, ledger-write or correction —
+**even with theorem vocabulary**, which most of them have. That second clause is what keeps the
+registry from the ~600-row flood its designers avoided.
+
+**13 of 116, each read in full before flipping.** The most consequential is **B727 — THE GENERICITY
+THEOREM**: *"E₆ across three faces"* is forced by **one ADE classification**, so the recurrence is
+**generic, not evidence**; the sister m003 shares ℚ(√−3) without being the knot; **only the
+arithmetic atom survives.** It was **invisible to the registry**, and **any claim of
+object-specificity must clear it first — including the paper's.** With it: **B996** (McKay access
+generic across the metallic family — the companion negative, computed over *grammars*, the right
+population) and **B997** (the golden is the **unique** metallic grammar whose own-conductor shadow is
+a McKay group, **proved over an infinite family** — the specificity that *survives* the genericity,
+stated positively). Plus **B991** (hypercharge normalisation not derivable **in principle** — a
+theorem about the equations, holding for any U(1) in any theory), **B952**, **B885**, **B886**,
+**B910**/**B918**, **B393**, **B557**, **B1070**, **B1073**.
+
+**The other 104: absence became a decision.** Each carries a dated `creates_law_reviewed` recording
+*why not*, classified by kind. The census moves **true 55 → 68, false 57 → 137, absent 919 (89%) →
+828 (80%)**. **The asymmetry is declared**: the thirteen that passed were read in full; the 104 that
+failed were classified from their claim headlines — sound for a negative call, poor for a positive,
+so it runs the safe way.
+
+**Second finding**: **five of the thirteen laws have no dedicated test lock** (B991/B996/B997 covered
+only incidentally; **B1070 and B1073 have none at all**). A law-creating arc without a lock is a
+reproducibility debt, and the registry's lock column now **says so** rather than sitting blank.
+
+**What this does not change**: the claim base still must not depend on the field. The 828 remaining
+absences were **deliberately not mass-set** — that would be the over-declaration flood in reverse —
+and **B1213's union criterion stands**. The field is now honest where examined and honestly blank
+where not. Locks test_b1214 (6).
+## B1215 (2026-08-29): THE CODEX TRANSCRIPT HARVEST — a registered theorem protected, four dishonest wrappers fixed, a stalled lead carried
+
+Harvested from codex's working transcript (owner-relayed), not their commits alone.
+
+**R022 does NOT refute B1182, and the boundary needed pinning.** Their transcript summarises R022 as
+*"the original three-way field-labelled identification is **false**"* — which, read alone, looks like
+a refutation of **T-V4-TORSOR-IDENT**, a theorem this bench registered **hours earlier**. It is not:
+R022's negative is **branch vs being × hearing** (separated by √3 vs √5 and ramification {2,3} vs
+{3,5}), while B1182's theorem is the **√−3-internal pair** — frame V₄ = ⟨c,r⟩ and branch
+V₄ = Gal(ℚ(ζ₁₂)/ℚ). **Our own record settles it**: B1175's charter text reads *"C4 REFUTED-AS-STATED
+→ **C4′** (the √−3-internal pair; **being × hearing DROPPED**)"* — B1182 **is** C4′, the pair that
+survived R022's negative. The three-way claim stays ill-typed and open.
+
+**Their wrapper flag is real, and three of the four were mine from today.** Of **52** `reproduce.sh`
+wrappers, **4 printed REPRODUCES with no gate on the computation's own output** — asserting success
+on the process exiting 0 rather than on the computation asserting anything. B1210, B1211 and B1213
+were written by this seat **in the same session that banked B1207's lesson about instruments that
+cannot fail**. **The fourth is worse**: B1175's wrapper **re-runs nothing at all**, echoing
+conclusions for certificates that live on codex's branch and are not vendored. It now prints
+**RECORD**, with the reason in the file — *a reproducer that reproduces nothing is worse than no
+reproducer, because it answers the question it was never asked.* **Ungated now: 0.**
+
+**And their stalled lead is carried one step.** Their last finding before quota, uncertified by them:
+*the tail-selection equation cannot be copied from the quark leg to the lepton leg — for A₁₁ the
+required raw B-pair sum is 4 mod 12, not 8.* **Checked here from the spec's own numbers and
+confirmed**: the invariant is the raw total (7+6+2 ≡ 3), so **ρ + σ ≡ 3 − χ(A) mod 12**, which
+**reproduces the spec's own stated rule (8) for A₇** and gives **4** for A₁₁ — the rule is not a
+constant. The instrument is **calibrated by the spec, not chosen**: a first pass allowing character
+10 produced a fourth A₇ pair (10,10) the spec doesn't list, so the alphabet runs 0…8 and the spec's
+list pins it. On that alphabet A₁₁ gives **(0,4) and (2,2)** — and **(2,2) is repeated, so it vanishes
+by the same skewness that killed (4,4)** in the down case. **Fenced**: that the lepton leg *is* A₁₁ is
+a reading of frames not on this bench, undetermined at generation level by codex's own certificate —
+this verifies the **consequence**, not the reading. Conditionally, it is **evidence against branch
+(a)** of B1208's fork and does not decide (b) vs (c).
+
+**Their nine-step SM chain is adopted as an external reading** — *"genuine structural mathematics,
+but not yet a parameter-free Standard Model or TOE"* — which is our position, and worth more to the
+paper written by a hostile-audit seat than by us. Their ledger types **185 questions: 70 PROVED, 55
+REFUTED, 15 CONDITIONAL, 22 EXTERNAL_BLOCKER, 2 EMPIRICAL, 21 OPEN.** Carried, not actioned: cc3's
+paper-branch verifier still running a withdrawn 14-member census, and cloud's floating-ref scripts.
+Locks test_b1215 (5).
+## B1216 (2026-08-29): THE PARAMETER-CLOSURE LOOP, RUN 1 — zero rows deleted, one gate written, one regression, one refutation
+
+The owner-directed masterplan, run as a 9-agent loop (~686k subagent tokens, 20 min). **The
+pre-registration was wrong, and instructively**: this bench predicted C3 and C1 could close while C2
+and C4 could only sharpen. In fact **C1 closed *negatively* and enlarged its own row, C3 did not
+close, C2 failed adversarial review, and C4 delivered exactly as predicted** — so the cell predicted
+least likely to move is the only one that did.
+
+**THE FINDING THAT MATTERS MOST IS A VACUITY IN OUR OWN RECORD.** The C1 verifier asked that a clause
+be *struck* for want of a computation; the adjudicator **ran the computation instead**, and the
+outcome was worse than striking. **B1192/GC-16's supporting clause** — *"X₀ acts as the Galois
+generator on BOTH spectral fields, so the class restricts to c"* — **is MB12-vacuous**. For hyperbolic
+P ∈ SL₂(ℤ) the eigenvalues are {λ, 1/λ} and the Galois conjugate of λ over ℚ(tr P) **is** 1/λ, so any
+X with XPX⁻¹ = P⁻¹ carries P's λ-eigenline to its own 1/λ-eigenline — **every anti-conjugator swaps
+them, by construction**, exhibited here for a **det X = +1** case, the mirror-**even** type the record
+calls dead. **The det = −1 sign result is untouched** and still discriminates. **Second MB12-vacuity
+in a fortnight, both in supporting clauses rather than headlines** — the headlines are getting
+checked; the sentences propping them up are not.
+
+**C1 refutes the masterplan's own closure route for the c-bit.** The √3-partner is not canonical at
+**two** levels: norm-+1 holds for **30 of 37** fields scanned (81% — generic, not fine-tuned), and —
+previously unflagged — even at the *same* field, conjugating the partner within its GL₂(ℤ)-class
+gives **22/60 DIRECT(det = −1) versus 38 TORSOR**. The killer: DIRECT(−1) is exhibited for **disc 13,
+a genuine norm-(−1) field**, so **norm +1 is not necessary**. The control holds the line: a
+204-embedding √2 scan yields **never** DIRECT(−1), so the sign is field-specific but **does not track
+the unit-norm dichotomy GC-2/GC-16 proposed**.
+
+**C3 did not close the ℙ³ — it reduced it to one binary lookup with both branches proved**: do the
+SU(5) components feeding the down and lepton legs carry the **same** ℤ/12 characters? SAME ⇒
+`det Y_e ≡ det Y_d` identically ⇒ **dim 1 with certainty**; DIFFERENT ⇒ an independent cubic ⇒
+**dim 0**. **And it corrected B1215**: the A₁₁ enumeration missed **(8,8)**, also ≡ 4 mod 12 and also
+a repeated direction — corrected count **2 surviving (down) vs 1 (lepton)**; the conclusion stands,
+the enumeration did not.
+
+**C2 was refuted by its own verifier, correctly.** It claimed a theorem-shaped exhaustion while its
+sources say otherwise verbatim — B850: *"CONDITIONAL on the cited reduction"*; B721: *"a genuine
+bridge **in the literature**"*. **What survives**: ℚ(√−3) has unit rank 0, so its regulator is
+identically 1 — dead by textbook fact. **λ is now worse-documented than before the run.**
+
+**C4 is the only forward motion**: σ moves to *"one bridge missing, fully specified, with a runnable
+pass/fail test and a documented empty candidate set"* — the object named (χ_∂ at **c = 6**) under a
+six-clause gate including the **Cardy 6-vs-1** quantifier, with B672 re-derived from scratch
+confirming K3's failure is genuine and its pass-branch non-empty.
+
+**GOAL TEST: NO.** σ passes the second disjunct; **λ blocks** (no gate exists at all) and **the ℙ³
+blocks** (one lookup away is not closed). **And the caveat recorded in advance**: *dim 0 is a finite
+point set* — if the ℙ³ closes, the row becomes a **finite label**, joining B990's closed category.
+**It does not become a unique prediction.** Locks test_b1216 (5).
+## B1217 (2026-08-30): THE SEAT INTEGRATION — nineteen commits harvested, four verifications, one evidence-contract gap
+
+Discharges the integration debt: **codex 2 commits + their R027 lead, cloud 17, cc3 none.** Per
+*integrate-don't-merge*, nothing merged.
+
+**codex R026 — VERIFIED.** Their certificate runs here with identical output, and two cores were
+re-derived from first principles: **W:11 is the direct sum of the selected ray characters** (35 ≡ 11),
+and **B + W + G = 24 ≡ 0 mod 12 — the three determinant characters cancel**, which *is* the
+equivariance the frame requires and which they report as three numbers **without flagging it as the
+consistency check**; controls (6,11,8), (5,11,7), (6,10,7) all fail, so it isn't automatic. The wedge
+sign is **+1** by inversion count with a parity control. **Δ_G is built — component 1 of 3**, with
+their scope carried verbatim: the H³ trace is still needed for all 18 connecting entries and the
+Serre map for tails, so **B1208's fork remains open**.
+
+**codex R027's simplification — CONFIRMED, and it matters.** An 8-triangle factor cycle whose
+Eilenberg–Zilber cross product gives at most **8² × 6 = 384** product simplices: 384 confirmed here,
+**the 6 is exactly C(4,2), the (2,2)-shuffle count**, and the degrees work — 2-cycle × 2-cycle is a
+**4-cycle**, the right degree for an H⁴ class. It replaces a 432-open refinement with an explicit
+finite cycle. **A lead, not a delivered result**; component 2 of 3, theirs to run.
+
+**codex R025** independently confirms B1215's law and makes the physical block explicit as
+**A₁₁ × B₂ × B₂**, its only pure-tail term zero by skewness — their scope line carried.
+
+**cloud's V-NEG — verified at both checkable points, against our own data.** Their hygiene pre-step
+**runs here** against B1137's own `basis.py` and reproduces exactly (3 volume directions independent,
+**0 dropped**, Vol **computed** from Li₂). Their gating control is confirmed entry-for-entry against
+our banked report: **117 raw / 117 involves_V / 0 involves_regulator**. And their 117 → 108
+explanation **holds from our side** — |Vub| carries `raw_found = 9` with **decisive column 0**, so
+dropping those cells masks no hit.
+
+**THE EVIDENCE-CONTRACT GAP.** The extended run — the headline itself — is **not reproducible as
+committed**: `vol_basis_extended.py` contains the **basis builder**, only an unrelated staleness
+re-check carries the `involves_regulator` gate, and their memo names no path (re-checked at head
+`7ff41915`). Typed **CITED**, with both checkable sub-claims **CONFIRMED**. **What is missing is the
+artifact, not the argument** — the decisive column is 0 in both columns of their own table. Relayed;
+their branch, their call.
+
+**Harvested and typed**: cosmology **rows 2 and 8 are one missing object** (log of a volume ratio /
+exponent w.r.t. a scale factor); row 8's growth is exponential-class so **no exponent exists to
+compare whatever its value**, and there is no scale factor to differentiate against, banked twice;
+row 7 split honestly. The proposed *"expansion"* is **determinant-one shear, not FRW volume
+expansion**. **Governance**: both hold releases were **owner-authorized** and both handled with
+restraint — the θ-even crossing was released and **not fired** (four sufficient reasons; **the
+licensed row is unspent**), and the send-queue release was taken with two surviving rules plus a
+readiness audit finding **Q1 stale by eight arcs because of our B1209**, now rewritten.
+
+**Cross-seat propagation worth recording**: cloud's `q2_staleness_recheck.py` **cites B1210
+explicitly** — *"exactly the instrument shape B1210 caught itself on"* — and they re-checked their own
+keyword detector before acting on it, catching a real false positive. Third seat, same lesson.
+
+**One repair to our own lock**: the L154 drive-by-mention lock tripped on **B1207's FINDINGS**, which
+*documents the repair of that very lock* and so quotes its criterion — **the third
+self-documenting-instrument instance this week** — and on **`docs/THEOREM_REGISTRY.md`**, which
+B1214 populated with theorem rows. Both admitted with the conditional test intact: a registration
+surface is the last place that lock should bar discussion. Locks test_b1217 (5).
+## THE PAPER — first draft lands and builds (2026-08-30)
+
+`papers/P3_THE_PAPER/main.tex` + `build.sh`. **Three pages, and it is not a paper yet** — what is
+written is the front matter the blueprint requires first, and nothing else is faked:
+
+- **The abstract, in the anti-dismissal shape.** It opens on **what is generic** — the $E_6$
+  recurrence forced by one ADE classification, the census surjection rate, the sibling sharing the
+  trace field — then states the surviving specificity (the unique arithmetic knot complement), and
+  **reports the misses before any positive claim**: the $16\sigma$ run to $M_Z$, three generations
+  not derived, no unique four-dimensional theory.
+- **The non-claims box**, seven entries, placed early by design.
+- **The freedom ledger** — written first, per the build order, because it is the spine. All seven
+  input rows with honest statuses, plus two scope notes: one naming $\lambda$ and the $\mathbb{P}^3$
+  as the two rows neither derived nor gated, and one **recorded in advance** that a future
+  $\mathbb{P}^3$ closure yields a *finite point set*, not a unique prediction.
+
+Every other section is an explicit `[Not yet written]` marker rather than filler. The PDF is a build
+product (gitignored); the source and `build.sh` are tracked. **No author line** — the attribution
+rule keeps the owner's name out of tracked files, and it goes in at submission, which is their act.
+
+**What this is not**: publication-ready. The PDFs in `papers/tex/` and `papers/flagship/` are the
+superseded June/July generation and are not this paper.
+## THE PAPER — the full draft is written (2026-08-30)
+
+Nine pages, **zero placeholders**, built in the order the spec prescribed: the **freedom ledger
+first** (the spine), then **what is generic** and **what is unique** — the sections that carry the
+paper — then the negative half and the observer, and **§4 *what is forced* last**, so it inherits the
+restrictions the earlier sections set.
+
+**§2 leads on the base rates**, before any positive claim: the $E_6$ recurrence is a graph identity
+(the four faces are one ADE classification, so the recurrence has probability 1 given one label); the
+entry surjection is admitted by **37.2%** of the first 400 one-cusped census manifolds, with **32.8%**
+admitting exactly two — the object's own count; the sibling shares the trace field without being the
+knot. **And the epistemic consequence is stated exactly**: this does not break the chain, which
+derives the object rather than selecting it — *it removes the endpoint's power to confirm the
+beginning.* The chain can be sound and the Standard Model still fail to corroborate it.
+
+**§3 states the two survivors**: arithmeticity (the unique arithmetic knot complement, so the trace
+field is distinguished where the scaffolding is not), and a **theorem proved over an infinite family**
+— the golden grammar is the unique metallic one whose modular shadow is of McKay type, because
+$|\mathrm{SL}(2,\mathbb{Z}/N)|$ is a binary-polyhedral order for exactly $N \in \{3,4,5\}$ (a proof
+via $|\mathrm{SL}(2,\mathbb{Z}/N)| \geq N^3/\zeta(2)$, which exceeds 120 for all $N \geq 6$) and the
+metallic conductor $m^2+4$ meets those at exactly one non-degenerate $m$.
+
+**Three things the corpus forced in that a first pass would have got wrong**: the arrival at the SM
+algebra sits in the **recognition table**, not the forced list (it is the $A_2{+}A_1$ Levi); §6 does
+**not** use the eigenline clause B1216 showed vacuous and does **not** claim the partner is canonical,
+carrying instead an explicit *"two supports we withdrew"* note; and §2 records **our own base-rate
+lag** as provenance.
+
+Gate 5 clean, no vendor tokens, no author line (the name goes in at submission — the owner's act).
+**Not submittable yet**: no bibliography, no verification appendix, the 467-row disposition still
+unfed into §§4–6, and no hostile read.
+## THE PAPER — currency pass: the draft was hostage to the older band, and is not now (2026-08-30)
+
+The owner's catch — *the paper must reflect the newest state and the strongest chain*. **Audited, and
+it was half true.** §6 was already current (it carried B1216's same-day corrections); **§§4–5 were
+written from the B862–B1080 band** and missed the strongest current statements. Repaired, and the
+repair makes the paper both newer and **more honest**:
+
+**§4 is now organised around the arena/content split** (B1170, three-seat reconciled): over the
+SM-visible five-field alphabet there are **252 candidate contents, 222 killed by the colour condition
+alone, and exactly two survivors** — the SM 15-plet and its conjugate — **with zero object tokens
+anywhere in the computation.** The paper can no longer imply the object forces the content. *The
+object supplies the arena; the anomalies supply the content.* The abstract was corrected to match, as
+it previously implied otherwise.
+
+**B1160's forcing is stated explicitly and was re-derived on this bench**: the three linear conditions
+cut the 5-dimensional charge space to a line ($Y_l = -3Y_q$, $Y_e = 6Y_q$, $Y_u + Y_d = -2Y_q$), then
+the cubic evaluates to $-18(t-3)(t+3)$ — so $t = \pm 3$ and nothing else, giving exactly
+$(1,-4,2,-3,6)$ and $(1,2,-4,-3,6)$: the Standard Model and its $u^c \leftrightarrow d^c$
+relabelling, **zero non-SM solutions**.
+
+**And the internal echo is now the section's scope note** — genuinely the newest mathematics
+(B1204/B1205/B1206): *three linear cuts to a line, then one cubic to points* is the anatomy of every
+successful forcing in the construction, and **it is exactly what the ℙ³ row lacks**. There we have the
+cubic and a proof that no symmetry supplies the linear conditions, which is why the row stands one
+condition short. **The same recipe explains both the success and the failure.**
+
+**§5 gains the tenth negative reached by structure rather than by search** (B1140): the
+64-dimensional complement of the fork's subalgebra decomposes into four irreducibles with
+**invariant content zero**, so no abelian charge can organise there at all — an obstruction exhibited,
+not a scan completed.
+
+Ten pages, still zero placeholders, Gate 5 clean.

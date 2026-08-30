@@ -1,0 +1,10 @@
+{
+ "id": "B1178",
+ "arc": "L184 executed (the collection lazy-fy)",
+ "verdict": "OPEN",
+ "diagnosis": "surgical: 2 files = the whole cost (156.95 s + 36.05 s of module-level compute at collection); rest <= 7.7 s",
+ "fix": "THE CACHED-RUNNER MOVE: body -> functools.lru_cache'd getter, frontier import deferred inside; compute at first test execution",
+ "certified": "collection 178.41 s -> 15.14 s (12x, 5587 tests); outcomes preserved 5/5 (277.88 s execution unchanged-in-total)",
+ "fences": "The OA_SLOW run remains in flight (addendum states launched-not-complete). Gate 5 clean.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

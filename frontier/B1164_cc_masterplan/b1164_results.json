@@ -1,0 +1,35 @@
+{
+ "id": "B1164",
+ "title": "cc's part of the A-E masterplan: the observer freedom is 2 discrete + 1 continuous bits (all archimedean), the firewall is principled+falsifiable (sec-D settled), and the phase route to W0 is closed (pruned to modulus-only)",
+ "verdict": "OPEN. cc's 3 masterplan cells (MA2/MD1/ME3) + the sec-E gravity placement; own-verified with 2 corrections. Runs parallel to cloud's 5 + codex MC1.",
+ "MA2_observer_bit_census": {
+  "count": "2 DISCRETE + 1 CONTINUOUS. The observer freedom = the missing archimedean marking W0 = a point of (H->C), H=Q(zeta12)=K(sqrt3) (disc 144, Gal=V4). V4 = (Z/2)^2 discrete x C^x continuous.",
+  "bit1_orientation": "sqrt-3 -- chirality-insertion = orientation = the +Vol/-Vol sign, ONE Z/2, theorem-anchored (B1163: amphicheiral => mirror-fixed => un-self-suppliable; Bloch-Wigner odd).",
+  "bit2_sqrt3": "sqrt3 -- the sqrt3 hinge (B1155: Q(zeta12)=K(sqrt3), sqrt|disc K|=sqrt3).",
+  "bit3_continuous": "the C^x scale/dilaton (B1163 sec-B: ratios forced, scale withheld).",
+  "correction_to_meditation": "cc's meditation sec-A said 'one bit' (orientation). UNDERCOUNT: the branch-selection V4 (B1161 free orbit) is (Z/2)^2 -- orientation is ONE LEG, not the whole. Own-verified: (Z/12)^x={1,5,7,11}=V4 => 2 discrete bits.",
+  "correction_to_workflow": "verify-don't-trust: the MA2 agent guessed bit2=sqrt5 ('hearing') and flagged it unproven. WRONG -- the 3 quadratic subfields of Q(zeta12) are Q(sqrt-3), Q(sqrt3), Q(sqrt-1); sqrt5 is NOT among them. The sqrt5/E8 'hearing' end is the SEPARATE two-ended structure (E6/Q(sqrt-3) <-> E8/Q(sqrt5)), not a subfield of this ring class field. bit2 = sqrt3.",
+  "residue_unproven": "whether the branch-V4 (B1161), the being x hearing V4 (B713), and the measurement torsor H^1=(Z/2)^2 (B1024) are LITERALLY one torsor -- three d=2 presentations, isomorphism unchased. Flagged, not banked."
+ },
+ "MD1_firewall_pin": {
+  "classifier": "for each banked datum d: dim(d) in {dimensionful, dimensionless}; prov(d) in {forced (group theory/arithmetic/anomaly, no fit to a measured number), fitted}. d is STRUCTURE iff dim=dimensionless AND prov=forced; VALUE iff dimensionful OR fitted.",
+  "discriminator": "PROVENANCE (dimensionlessness necessary-not-sufficient: 18/19 SM params are dimensionless ratios).",
+  "corpus_test": "tested against the whole corpus, ZERO exceptions (STRUCTURE: E6=M(O,C), the gauge algebra, Z6 form, generation count, hypercharge DIRECTION, sin^2 theta_W=3/8 tree, the arithmetic C0-C4; VALUE: hypercharge normalization/g', all 19 SM params, sin^2 theta_W at M_Z, CKM, the scales).",
+  "borderline_rule": "decompose compound objects: hypercharge = {direction: anomaly-forced dimensionless = STRUCTURE} + {normalization/g': homogeneous scale = VALUE}. Own-verified: [U(1)]^3 under Y->lambda*Y is homogeneous (lambda^3) -- fixes the ray (direction), leaves the scale free.",
+  "outcome_independent": "sin^2 theta_W=3/8 stayed STRUCTURE through a 16sigma downstream miss at M_Z (B915). An outcome-fitted line would have demoted it.",
+  "falsifier": "the firewall breaks iff a banked datum is prov=forced AND (dimensionful OR equals a measured SM parameter by derivation). Standing test = the value campaign (B1124-B1137: 0/18, Koide B1131 a proven coincidence). The line survived by structure, not stipulation => PRINCIPLED, not movable. DISCHARGES meditation sec-D."
+ },
+ "ME3_phase_orbit_split": {
+  "verdict": "does-NOT-break-orbit. A phase-trivial marking leaves the free V4 orbit intact, selects NO branch. Prunes cloud's W0 search to modulus-only.",
+  "place_separation_own_verified": "z=e^{i pi/3} is a primitive 6th root (z^6=1, arg/2pi=1/6): the CS phase is torsion in mu_6 (FINITE place). The orientation is the SIGN of Bloch-Wigner (ARCHIMEDEAN, mirror-odd, D(z)=-D(zbar)); the two orientation branches carry identical torsion + opposite volume-sign, so fixing the phase leaves the Z/2 undetermined.",
+  "arithmetic": "a phase-trivial condition is Galois-INVARIANT => constant across all 4 branches => zero selectivity.",
+  "relay_to_cloud": "cloud's beat-conjugation relay (the phase object-forced = 0 / amphichiral CS) is CONFIRMATORY, not orbit-breaking. After it lands, cloud's W0 search should be RE-SCOPED to modulus-only (the orientation Z/2 + the C^x scale). The phase route is closed."
+ },
+ "secE_gravity_placement": {
+  "signal": "everything the observer supplies is ARCHIMEDEAN (infinity-place) data (the orientation bit -- Bloch-Wigner the archimedean regulator, +Vol/-Vol at the real embedding H->C; the C^x scale/dilaton -- the modulus of the same marking) while everything the object forces is finite-place/torsion (the CS phase, mu_6) or place-independent structure. The infinity-place is where the metric/volume/gravity live.",
+  "conclusion": "the observer's freedom = the data at the archimedean place = a CANDIDATE for exactly the gravitational marking. PLACEMENT established.",
+  "not_banked": "the IDENTIFICATION 'observer scale+orientation = the gravitational data' is the sec-E HYPOTHESIS this contribution FEEDS, NOT a banked result. cloud's ME1 (geodesic spectrum) + ME2 (gravity ablation) attack it. Residue: split C^x = R+ x U(1) (dilaton + axion?)."
+ },
+ "fences": "No firewall crossing; Gate 5 clean (only Galois/dimension/torsion/regulator facts; no measured value asserted as derived). Own-verified: the V4 count + the sqrt3 correction, the hypercharge homogeneity, the ME3 place-separation. The single-torsor identification (MA2) and the observer=gravity identification (sec-E) are explicitly UNPROVEN residues -- flagged, fed to seats, not banked.",
+ "routes": "Meditation: sec-A CORRECTED (2+1 bits, D2=sqrt3 not sqrt5); sec-D SETTLED (firewall principled+falsifiable); sec-E placement established (observer=archimedean; the gravity identification the live hypothesis). Relays: MD1 classifier = the corpus commitment (pinned here); ME3 -> cloud (re-scope W0 to modulus-only); MA2 single-torsor residue -> the disc-144 isomorphism seat. cloud's 5 + codex MC1 still running; cc verifies as they land."
+}

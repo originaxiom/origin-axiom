@@ -191,3 +191,41 @@ of them at gate time — latest-row-per-path, corrections-by-append supersede); 
 collision, fold-forward (one commit, one suite), never a stale certificate re-run.
 Evidence and error classes: E45–E48; the adoption record is B1101.
 
+
+## Currency note (2026-08-27, at head B1183) — two rules this window added to the standing set
+
+- **Sender-branch dual-homing (E51, B1172):** every seat-to-seat relay is committed on the SENDER's own
+  branch at send time (the `relays/` subdirectory pattern); the untracked channel alone preserves nothing —
+  nine files were lost with only their ledger rows surviving. The relay-debt gate now ages every lane.
+- **A family is a CLAIM, never a setting (the one-way family test, B8147/B1181):** any enumerated family a
+  result quantifies over is itself a claim — verify completeness or state the bound. Enlarging a family can
+  only hurt object-level claims and only help family-level ones.
+
+**Verify the verifier (E52, Review 51).** A stabilization or control run re-verifies its INSTRUMENT
+before trusting its verdict: does the seed actually enter? does the estimator measure the stated
+claim? does the logic prove the stated quantifier? Controls are TWO-SIDED — a known-positive
+recovery AND an independent enumeration/complement (the one-sided control is how B8152's undercount
+survived). A statistics claim carries its resolution: an N-seed null only speaks to deviations
+larger than its own std (B189's 30-seed "indistinguishable" reversed at 100 seeds per level).
+
+
+**Run the already-banked check before claiming anything is missing (B1202).** No MISSING / OPEN /
+"never run" / "no successor" claim is admissible until `scripts/checks/already_banked.py` has been
+run on its terms, and the searched terms are stated alongside the claim. The class this closes cost
+the program four repetitions (the quine, the depth-closure stabilizations, the genesis locks, the
+dark-hyperbola proof) — in every case the register said open while the corpus held the proof.
+A flagged hit means *read that arc first*; a clean result licenses the claim **for the terms
+searched**, which is what must be written.
+
+
+**Run the slow lane quiescent, once per review (B1207).** `OA_SLOW=1` reaches fifty test files the
+fast lane never executes; its first complete run — 4 h 45 min, taken more than a week after the
+suite was enumerated — returned nine failures of which **five were real defects and one was eight
+days old**. Two rules follow from how it ran. (1) **Quiescent**: bank nothing while it is in flight.
+A lock run against a moving repository measures the motion — two of the nine findings were arcs
+banked mid-run, a 22 % false-positive rate bought for nothing. (2) **Inspect its diff, never commit
+it blind**: a long run *moves the repository itself*. This one appended 216 duplicate cells to a
+gitignored grid (tripling it, halving a Šidák α off untested multiplicity) and overwrote a tracked
+results file's sanitized placeholders with the bench's absolute paths. Both were silent successes,
+absent from the run's own report. The standing lesson is the reach, not the vigilance: **a gate only
+works where it is reached**, so reaching it has to be scheduled like any other work.

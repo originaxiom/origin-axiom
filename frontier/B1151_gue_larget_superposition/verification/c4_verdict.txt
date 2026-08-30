@@ -1,0 +1,9 @@
+zeta zeros (reused, no recompute): 2468   to t=2998.96
+L(chi_-3) parallel scan on 10 cores, step 0.05 ...
+L(chi_-3) zeros: 2991   (6098s parallel)
+zeta zeros: 2468   L(chi_-3) zeros: 2991   merged: 5459
+density gate: observed 5459 vs smooth N(T) = 5458.0  (|diff|=1.0, should be O(log T)=8.0)
+unfolded mean spacing = 1.000072 (gate: within 0.01 of 1)
+KS vs GUE Wigner surmise: D = 0.13365  p = 2.216e-85
+KS vs Poisson:            D = 0.15617  p = 1.976e-116
+VERDICT (against the preregistered gate): PREREGISTERED GATE NOT MET — report honestly

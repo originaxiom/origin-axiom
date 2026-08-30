@@ -195,22 +195,64 @@ sealed miss, kept as boundary.**
 
 The full theory, in the proven sense, equals: **everything above marked [BANKED],
 plus this priced list of what is genuinely free, plus the named external
-suppliers.** Current census of the free: the torsor basepoint; C and P (2 bits, P now typed as the deflation mirror — B1118); the spin lift (1 bit, PAIR-INVISIBLE — B1122/L179, a central torsor no coupling reads, the deepest-located free bit); the
-A2 stratum (≈4.3 bits); the hypercharge direction among 18 (≈4.17 bits, orbit-lead
-pending); the ρ/phason intercept (the experiment's own dial — B8091: slope forced,
-intercept free); the 4d suspension (3 distinguished candidates, no section); the 4d
-filling (∞, none canonical); the scale (substrate-supplied). External suppliers
-named: the observer (the closing act), the substrate (the scale), CHIRALITY itself
-(B994's honest limit: registerability presupposes it).
+suppliers.** **Current census of the free (corrected 2026-08-30 — see the repair note below).**
+**DISCRETE: exactly {C, P} — two bits, both relational.** C = the chirality bit (the
+origin torsor, B1083); P = the deflation mirror (B1118). *Nothing else discrete is free.*
+CONTINUOUS / EXTERNAL: the torsor basepoint; the ρ/phason intercept (the experiment's own
+dial — B8091: slope forced, intercept free); the 4d suspension (3 distinguished candidates,
+no section); the 4d filling (∞, none canonical); the scale (substrate-supplied — and
+*within the family* a finite integer menu, not a continuum, per B1188's discrete ladder).
+External suppliers named: the observer (the closing act), the substrate (the scale),
+CHIRALITY itself (B994's honest limit: registerability presupposes it).
+
+> **Repair note (2026-08-30, cc — owner-prompted: "are you sure they're not lost").** This
+> census carried **three stale rows**, each corrected above against an arc already banked
+> **PROVED** that had never reached this surface.
+> **(1) The A2 stratum, priced ≈4.3 bits → 0.** B1112 (THE PROJECTIVE HATCH, three-way
+> convergence) proves A2 is the *unique* projective SM-compatible landing: the object's own
+> unlifted PSL(2,ℂ) geometry reaches it with **no inserted choice** — "SM-facing selection
+> ambiguity = 0 bits."
+> **(2) The hypercharge direction, priced ≈4.17 bits → 0 net.** B1109 (F4) re-prices it in
+> its own words — **"4.17 bits → 1 BIT"** (the 18 exact directions are exactly 2 orbits of 9
+> under W(A₂)×W(A₂)) — and B1118 then *names* that bit: it **is P**, the two orbits fused by
+> the mirror (the plain swap fuses 0). The old row was therefore a **straight double-count**
+> of a bit already listed in the same census.
+> **(3) The spin lift, priced 1 bit → 0.** B1141 (THE SPIN PAYMENT) is PROVED and
+> **hostile-verified two-bench on three independent engines** (own relator search, own exact
+> intertwiner rank, own norm-form and χ-parity proofs): the object's own beat selects the spin
+> structure, so the lift is **assigned, not free**. B1145 (SP-2) then closes the beat exactly
+> on the fermion-capable stratum's 27 over that selected lift. The 2026-08-25 re-census below
+> still tags this bit "ONE-BENCH, pending hostile verification" — **that verification *is*
+> B1141**, banked the same day; the tag simply never lifted.
+> **Net: ≈8.5 bits of phantom freedom removed, and B1118's "the ledger closes to exactly
+> {C, P, spin lift}" closes one step further — to {C, P}.** No arc after B1145 re-opens any of
+> the three (checked). The cause is the *measured* one, not a new error: B1188/B985 — the
+> live instruments recover object-faces at 79–100% but relation-faces at only 6–19%.
 
 ## X. FINALIZATION RULE
 
 The map is FINAL when every [NAMED-OPEN] above is either [BANKED], [NEGATIVE], or
-[PROVEN-FREE]. Current open census: III.4 (three keys), III.5-minor, III.6 (two),
-IV.1-equivalences (zero-urgency), IV.2 (W5), V.3/VIII.2 (one gate), VI.3 (three
-residues — the audit seat's B8113 correction, held before this map landed),
-VIII.3-minor, plus L175 (the h = 0 locus) — **ten genuine open nodes (one carrying
-three residues), two minor, none unpriced, none untyped.** Every one has a named
+[PROVEN-FREE]. Current open census (corrected 2026-08-30): III.4 (**one key of three** — the wave
+killed the other two, B1109), III.5-minor, III.6 (two), IV.1-equivalences
+(zero-urgency), IV.2 (W5), V.3/VIII.2 (one gate), VI.3 (three residues — the audit
+seat's B8113 correction, held before this map landed), VIII.3-minor — **nine genuine
+open nodes (one carrying three residues), two minor, none unpriced, none untyped.**
+
+> **Census repair (2026-08-30, cc; same sweep as Section IX's).** Two stale entries,
+> both against arcs already banked. **(1) L175 (the h = 0 locus) is REMOVED — it is
+> CLOSED, not open.** B1110 (THE SPECTRAL CLUSTER) is **PROVED** and its F5 reads
+> *"L175 CLOSES"*: the h = 0 locus is a **word property** — six channels spanning every
+> listener sector share the identical 28-word set over 1364 words, separation 5×10⁹, no
+> borderline case — **and the mechanism was found**, the 28 being exactly the
+> diagonal-free weld matrices (max\|diag\| 1.2e-15 versus ≥0.30 for every other word,
+> fifteen orders of separation). Ten → nine. **(2) III.4 read "three keys" while the
+> node itself has read "[NAMED-OPEN ×1 of 3]" since B1109** — the frame-map key is dead
+> twice over and the other-color key by the diagonal lemma; only the A1/su(6) stratum
+> key stands. The census contradicted its own node on the same page.
+> **The pattern, named:** B1109's re-pricing reached node III.5 (correctly
+> [PROVEN-FREE], "1 BIT") but reached neither Section IX's ledger nor this census —
+> *one arc, three surfaces, one updated*. That is the burial mechanism in a single
+> instance, and it is the measured one (B1188/B985). Every one has a named
 next computation or a named external dependency. Nothing on this map is a mystery;
 everything is either done, priced, or pointed at.
 

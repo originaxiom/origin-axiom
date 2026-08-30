@@ -70,9 +70,11 @@ enters 3×" is NOT "the object forces 3 generations."
 
 All four re-derived independently, own code, no discrepancy (details: the fork ladder + torsor;
 the 0/1/8 ladder with E₇ pure-Cartan + E₈ sandwich; the Y 9+9/9-6-1/partition + the 3/9
-self-correction; the family triplet on a correct E₈). **Cert note (relayed to cloud seat):**
-`family_triplet.py`'s transcribed E₈ Cartan matrix is asymmetric (invalid simply-laced) — the
-verifier built correct E₈ data independently and the RESULT stands; the cloud cert should be
-corrected (result unaffected).
+self-correction; the family triplet on a correct E₈). **Cert note (CORRECTED B1144, 2026-08-25):**
+an earlier note claimed `family_triplet.py`'s E₈ Cartan matrix was asymmetric/invalid. Read from
+golden_gate primary source it **is symmetric and valid** (CARTS['E8']; 240 roots, dim 248,
+self-asserted — which an invalid matrix cannot pass); the verifier's `memo15_family_triplet.py`
+**mis-transcribed** it and built its own correct E₈ out of caution — a transcription artifact on
+the verifying side, not a defect in the source. Result stands.
 
 Cloud seat credited. Gate 5 untouched.

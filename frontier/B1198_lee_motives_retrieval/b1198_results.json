@@ -1,0 +1,28 @@
+{
+ "id": "B1198",
+ "arc": "the Lee-motives retrieval (B707 test 3, literature half)",
+ "verdict": "OPEN",
+ "paper": {
+  "ref": "arXiv:2502.11950",
+  "author": "Dong Uk Lee",
+  "date": "2025-02-17",
+  "read": "abstract + automated HTML summary ONLY -- mathematics NOT read",
+  "grade": "CITED / NEEDS-VERIFICATION (E37)"
+ },
+ "retrieved_facts": [
+  "appendix confirms the conjecture for 4_1 -- our object",
+  "the tangential base point is NOT canonical ('any tangent vector satisfying the condition')",
+  "paper's own caveat: for non-rational curves the motivic path torsor is a hypothetical object"
+ ],
+ "own_computation": {
+  "Vol": "2.029883212819307250042405108549",
+  "identities": [
+   "(3sqrt3/2)L(chi_-3,2)",
+   "9 sqrt3 zeta_K(2)/pi^2"
+  ],
+  "complex_volume_residual": "2.3e-41 (CS = 0)"
+ },
+ "hypothesis_not_theorem": "tangential base point ~ W0 (shape-match; the verification decides)",
+ "verification_step": "read 7.4 + Appendix A: (a) is the tangent-vector set a torsor and under what group; (b) does 4_1's confirmation use CS=0/amphichirality; (c) does the trace-field statement specialize to Q(sqrt-3) as the seam needs",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES (our half only)"
+}

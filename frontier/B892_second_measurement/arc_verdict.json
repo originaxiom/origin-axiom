@@ -11,5 +11,14 @@
  ],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "cc banking seat verifying the solo seat (2026-08-05)"
+ "authored_by": "cc banking seat verifying the solo seat (2026-08-05)",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

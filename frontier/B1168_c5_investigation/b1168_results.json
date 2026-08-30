@@ -1,0 +1,35 @@
+{
+  "id": "B1168",
+  "arc": "the C5 investigation (owner-directed): is m004's Mostow structure object- or observer-data?",
+  "verdict": "OPEN",
+  "headline": "the object/observer boundary at the infinity-place is NOT a definitional choice -- it is a MIRROR-PARITY x DIMENSION law",
+
+  "parity_facts_own_verified": {
+    "Vol_mirror_even": "Vol(M)=Vol(mirror)=2.0298832128 -> EVEN (orientation-independent magnitude)",
+    "CS_mirror_odd": "complex volume conjugates under mirror -> CS(M-bar)=-CS(M); CS=1.8e-15=0 (amphichiral)",
+    "cusp_shape_mirror_fixed": "tau=2sqrt3 i; -conj(tau)=tau -> EVEN (fixed); B1167",
+    "length_spectrum_mirror_even": "geodesic lengths orientation-independent -> EVEN (systole 1.087070)"
+  },
+
+  "the_decider": "an archimedean datum is OBJECT-canonical IFF mirror-EVEN AND dimensionless (= well-defined on the un-oriented, scale-free object). The OBSERVER supplies the complement: the mirror-ODD completion (the orientation bit, which once chosen fixes the sign of every odd datum -- CS, torsion sign, complex-volume phase) + the DIMENSIONFUL scale",
+
+  "classification": {
+    "object": ["Vol (even, dimensionless)", "cusp shape 2sqrt3 i (even, dimensionless)", "length spectrum (even, dimensionless)", "|analytic torsion| (even, dimensionless)"],
+    "observer": ["orientation +-Vol (odd)", "Chern-Simons (odd; =0 amphichiral)", "torsion sign (odd)", "scale/dilaton (dimensionful, scale-free no-go)"]
+  },
+
+  "c5_resolution": "C5 is settled by a law, not a choice. The Mostow structure IS object-data (its mirror-even/dimensionless part = the entire geometry: Vol, cusp shape, spectra). This does NOT refute G-IDENT/the adelic place-split; the charter's binary ('object-data => G-IDENT fails') is a FALSE DICHOTOMY -- the geometry being object-data is compatible with the frame (orientation+scale) being observer-data, since the frame is exactly the mirror-odd + dimensionful complement. The object reaches the infinity-place with all its even/dimensionless canonical data; the observer supplies only what the object provably cannot self-supply (orientation via amphichirality B1163, scale via the scale-free no-go)",
+
+  "what_made_it_investigable": "B1167's cusp-shape separator: a SECOND mirror-even object-canonical archimedean datum (2sqrt3 i, sqrt3-flavored). One datum (Vol) can't reveal a law; two can. The sqrt3 also ties the infinity-place geometry to the disc-144/Q(zeta12) ring-class hinge (B1166) -- finite and archimedean object-data share the same sqrt3",
+
+  "convergences": {
+    "cloud_C6": "C6 (mirror-even=frame-free, mirror-odd=needs orientation) is PROMOTED from a completeness CHECK to the C5 DECIDER -- same parity, now answering C5",
+    "firewall_MD1": "MD1 (STRUCTURE iff dimensionless AND forced) at the infinity-place, with 'forced' sharpened to 'mirror-even' (forced-without-an-orientation-choice)",
+    "B1165_G_split": "G2 (gravitational sector) = the mirror-even dimensionless object-data; G3 (frame) = the mirror-odd orientation + dimensionful scale; B1168 is the DECIDER behind the split"
+  },
+
+  "adelic_thesis_refinement": "not 'finite=object, archimedean=observer' but 'object = mirror-even and dimensionless at BOTH places; observer = the odd + dimensionful completion' -- a cleaner statement of the place-split",
+
+  "fences": "core own-verified + textbook (CS(M-bar)=-CS(M); orientation-reversal conjugates the complex volume). FENCED + relayed to cc3 (WebSearch budget exhausted -- no literature sweep, per owner 'relay to cc3 if no websearch'): the exact mirror-parity of the Ray-Singer/Cappell-Miller analytic torsion (cloud memo 81 claims mirror-odd) -- enriching example, NOT load-bearing. The COMPLETENESS of the law (every archimedean datum classifies even/odd x dim) is cloud's C6 standing check, not exhaustively proven here -> verdict OPEN. No firewall crossing; Gate 5 clean.",
+  "reproduces": "verification/reproduce.sh -> REPRODUCES (Vol even; CS odd/=0; cusp shape fixed; lengths even; the decider)"
+}

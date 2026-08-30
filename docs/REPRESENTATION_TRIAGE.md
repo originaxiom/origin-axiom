@@ -70,3 +70,14 @@ row and a CAMPAIGN_STATUS citation, and the representation sweep
 PENDING set is unchanged; this read does not discharge it. (The one
 correction this window — B1123's forcedness doorway, error E37 — is
 recorded in `docs/RETRACTIONS.md` and `docs/ERROR_LEDGER.md`, not here.)
+
+## Currency read — 2026-08-28 (B1188, the grand-computation retrieval)
+
+The six-lens sweep re-measured this surface's own blind spot: **the ≥500-char `claim_one_line`
+floor structurally cannot see one-sentence claims** — the five sharpest off-surface
+observer/closure arcs (B279 spin-vs-orientation, B552 the conserved ℤ/11 along the observer flow,
+B769 the abelian (ℤ/2)³ closing group, B786 the ι torsor generator, B293 the peripheral symplectic
+clock) are all invisible to it. The 13 PENDING rows below are unchanged across three currency
+reads (08-13, 08-21, this one) — they ride into the campaign's GC-5 register-repair cell rather
+than a fourth passive read. Detector fix owed: a short-claim lane (drop the floor for arcs whose
+id appears in zero live surfaces, regardless of claim length).

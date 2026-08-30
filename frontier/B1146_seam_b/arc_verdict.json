@@ -1,0 +1,15 @@
+{
+ "id": "B1146",
+ "verdict": "PROVED",
+ "claim_one_line": "SEAM-B (own-bench, exact; first of the three sealed seams, THREE_SEAMS_PREREG sha256 e699ebc79c06a823): the 2T-vs-A4 distinction is the object's own -I (the 2T center), visible on BOTH the 27 and the 78 for the object's fermion-capable minimal-A1 stratum -- codex's '\u00a79: the principal action on adjoint E6 factors through A4, so it cannot distinguish 2T from A4' is a PRINCIPAL-sl2 ARTIFACT that does NOT apply to the object. Discriminating fact (rho(-I)=exp(i*pi*ad h) acts as (-1)^w; nontrivial iff an odd weight is present): the minimal-A1 adjoint(78) ad(h) spectrum = {-2:1,-1:20,0:36,1:20,2:1} (the standard minimal-nilpotent 5-grading, 40 odd dims => rho78(-I)!=I) and the 27 = {-1:6,0:15,1:6} (12 odd => rho27(-I)!=I); the principal sl2 grading = 2*height, all even => rho78(-I)=I (codex's claim reproduced, and shown principal-specific). So the object's stratum distinguishes 2T from A4 on matter AND gauge -- the selection is OVER-DETERMINED and codex's indistinguishability worry is DEFUSED; link 2 of the chain (Q(sqrt-3)->2T->E6) stands. NUANCED-MATCH: the sealed clean-MATCH ('the adjoint kills the object's -I, only the 27 sees it') was too clean and is CORRECTED -- the adjoint does NOT kill the object's -I (it carries odd weights) -- a verify-don't-trust catch on my OWN prereg. The beat (B1141) is the spin-selection of the lift of a genuinely present -I. Converges with cloud memo 34 (A5 parity lemma: PROJECTIVE <=> EVEN ORBIT, adjoint-only condition -- the 27's parity tracks the adjoint's), to be cross-credited when memo 34 harvests. Reuses only banked B1102 machinery (load_ccb+build_27); ad(h) exactly diagonal in the Chevalley basis; no golden_gate import. Gate 5 n/a. Codex credited.",
+ "instrument": false,
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "FALSE",
+  "decision": "false",
+  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "arc": "B1208",
+ "kind": "harvest (verify-don't-trust); five external results, main-side verification",
+ "legs": [
+  {
+   "leg": 1,
+   "source": "cloud memo 128 (lambda_rank)",
+   "outcome": "CONFIRMED + DERIVATION CORRECTED",
+   "their_cert_reruns_here": true,
+   "correction": "t3-conservation gives antidiagonal support, which admits rank 1 (witness [[0,-3],[0,0]]); the exclusion needs full SU(2) invariance",
+   "independent_proof": "invariant space of 2x2 under su(2) is 1-dimensional, spanned by epsilon; det = c^2",
+   "control": "non-doublet Hu (t3 = [-1,-1]) DOES admit rank 1"
+  },
+  {
+   "leg": 2,
+   "source": "cloud memo 129 (hd_exhaustion)",
+   "outcome": "ADOPTED; their open check POSED",
+   "fork": {
+    "a": "same ZZ/12 characters -> same tensor -> ledger stands at dim 1",
+    "b": "different characters -> independent cubic -> LEDGER CLOSES, P^3 PERMANENT -> FORCED",
+    "c": "no triple satisfies rho+sigma = 8 mod 12 -> the lepton Yukawa is ABSENT"
+   },
+   "decisive_datum": "the ZZ/12 character assignment of l and e^c in codex's height-308 frames",
+   "caveat_found": {
+    "claim": "B1185: census 18+9+6+3 -> 36 = 3x3x4 're-derived exactly'",
+    "fact": "the census admits three factorizations: (3,4,3), (3,12,1), (9,4,1)",
+    "status": "corroborated by the census, sourced from the spec's index ranges + B1161",
+    "downstream_effect": "none"
+   }
+  },
+  {
+   "leg": 3,
+   "source": "cloud memo 130 (d2_scope)",
+   "outcome": "CONFIRMED ON MAIN'S OWN ROWS, STRONGER",
+   "S5b": {
+    "same_volume_pairs_with_opposite_CS": "156/156",
+    "witness_vol": 1.977609277375,
+    "witness_cs": [
+     -0.07057736,
+     0.07057736
+    ],
+    "sum": 1.4e-17,
+    "source_control": "B289's sign law = B1197's own positive control"
+   },
+   "S5": {
+    "memo_window": 0.005149,
+    "memo_spread": 0.14394,
+    "memo_ratio": "28.0x",
+    "reproduced": true,
+    "stronger_witness": {
+     "window": 0.000264,
+     "spread": 0.143205,
+     "ratio": "541x"
+    }
+   },
+   "owner_item": "D2's scope choice remains the owner's; their Option-A recommendation presented, not taken"
+  },
+  {
+   "leg": 4,
+   "source": "cloud memo 123 (dm_census)",
+   "outcome": "CONFIRMED ENTRY-FOR-ENTRY, STRONGER FORM",
+   "built_on": "main's own B299 _weights_27 generator, not their code",
+   "strengthening": "quantified over EVERY charged set of size <= 2, so the negative holds for any identification of the neutrals",
+   "table": {
+    "2": {
+     "stabilizers": 0,
+     "min_charged": 11,
+     "max_level_set": 16
+    },
+    "3": {
+     "stabilizers": 0,
+     "min_charged": 12,
+     "max_level_set": 15
+    },
+    "4": {
+     "stabilizers": 0,
+     "min_charged": 11,
+     "max_level_set": 16
+    },
+    "5": {
+     "stabilizers": 0,
+     "min_charged": 11,
+     "max_level_set": 16
+    },
+    "6": {
+     "stabilizers": 0,
+     "min_charged": 11,
+     "max_level_set": 16
+    }
+   },
+   "threshold": "a stabilizer needs a level set of >= 25 of 27",
+   "mb12_control": {
+    "planted_rep": "25 neutral + 2 charged",
+    "stabilizers_found": 486
+   },
+   "ledger_effect": "cosmology ledger row 4 CLOSES at character level"
+  },
+  {
+   "leg": 5,
+   "source": "cc3 B8154 (mirror is c)",
+   "outcome": "VERIFIED 6/6 WITH THEIR CONTROLS",
+   "adds": "a second independent route to Phi_3 (from the holonomy, not the partition function) and the prime-order closure of Paper IV's Escape (i)",
+   "controls_reproduced": [
+    "u -> u^3 is the identity on cube roots, not the swap",
+    "vacuity tracks primality: |G| = 4,6,8,9 admit proper subgroups"
+   ]
+  },
+  {
+   "leg": 6,
+   "source": "cloud memo 127 (fence theorem addendum 3)",
+   "outcome": "CONFIRMED ENTRY-FOR-ENTRY + A CONVERGENCE NEITHER SEAT HAD SEEN",
+   "identity": "kappa o g = kappa identically in Z[x,y,z] for the whole internal group",
+   "ops_verified": [
+    "letter swap",
+    "word reversal",
+    "inversion",
+    "lift sign a",
+    "lift sign b",
+    "lift sign both",
+    "Fricke tau_a",
+    "Fricke tau_b",
+    "B1203's founding climb"
+   ],
+   "control": "x -> x^2 - 2 moves kappa by (x-2)(x+1)(x^2+x-yz-2)",
+   "separation": {
+    "kappa_P0": "1 + omega",
+    "kappa_gal_P0": "2 - omega",
+    "shared_minimal_polynomial": "X^2 - 3X + 3"
+   },
+   "internal_dualities_fixing_P0": "2 of 8 (the letter swap alone)",
+   "convergence": "B1203's NEGATIVE (the climb conserves kappa, hence one bit not a tower) and memo 127's irremovability proof are ONE identity read in two directions: the internal group cannot change kappa, the mirror does, so the mirror is exactly the operation the object cannot perform on itself"
+  },
+  {
+   "leg": 7,
+   "source": "codex R021 (gieseking_pinminus_restriction)",
+   "outcome": "CONFIRMED AND GENERALIZED",
+   "generalization": "for ANY nonorientable manifold with H^1(-;F2) of rank 1, the Pin- restriction to the orientation double cover is constant (rank 1 forces H^1 = <w1>, and p^* w1 = 0 on the orientation cover by construction)",
+   "control": "at rank >= 2 classes other than w1 need not die, so the hypothesis is load-bearing",
+   "residual_carried": "the constant image is unnamed; naming it needs their tangent-frame Pin- lift and the comparison with B1141's beat-selected sign -- their requested open child"
+  },
+  {
+   "leg": 8,
+   "source": "codex R020 (beat64 principal)",
+   "outcome": "RECEIVED, NOT YET VERIFIED",
+   "reason": "it refutes a preservation property of a banked claim (B1140); the house rule verifies before anything moves. Re-derivation named as the next cell.",
+   "their_own_scope": "an algebraic preservation refutation for this selected representative, not a 24-hit covariance theorem or a physical claim",
+   "b1140_regraded": false
+  },
+  {
+   "leg": 9,
+   "source": "this bench",
+   "outcome": "SELF-CATCH",
+   "finding": "B1206's candidate (iii) violated MB12 -- a discriminator whose discriminating value was unreachable; the rule that would have caught it is this seat's own"
+  }
+ ],
+ "net": {
+  "B1206_ledger": "STANDS at dim 1; all three named candidates negative, their space closed",
+  "P3_row": "CLOSED-PERMANENT hardened twice; overturnable by exactly one named datum (fork b)",
+  "cosmology_row_4": "CLOSED at character level",
+  "V3": "untouched",
+  "values_claimed": 0,
+  "observer_layer": "a second disjoint irremovability proof, with its mechanism identified as B1203's own kappa identity",
+  "memos_verified": 6,
+  "sources_verified": 7,
+  "sources_received_unverified": 1
+ }
+}

@@ -1,0 +1,11 @@
+linear anomaly solution: {Yd: -2*Yq - Yu, Ye: 6*Yq, Yl: -3*Yq}
+cubic (Yq=1) = -18*(t - 3)*(t + 3)
+cubic=0 => t = [-3, 3]
+   t=-3: (Yq:Yu:Yd:Yl:Ye) = (1, -4, 2, -3, 6)   SM
+   t=3: (Yq:Yu:Yd:Yl:Ye) = (1, 2, -4, -3, 6)   SM (uc<->dc)
+SM (1,-4,2,-3,6) four anomalies: [0, 0, 0, 0] -> all zero: True
+
+=> SM hypercharge is the UNIQUE anomaly-consistent Y on an SM-shaped 15-plet
+   (up to scale + uc<->dc). memo 70: realized in the object's rank-3 abelian
+   sector -- 36 assignments, all SM, zero non-SM (cloud's trinification cert).
+REPRODUCES

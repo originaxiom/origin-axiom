@@ -1,0 +1,82 @@
+{
+ "arc": "B1211",
+ "question": "the ~660 PROVED arcs B1210's criterion did not reach -- what does the paper's spine miss there?",
+ "answer": "the miss is not a claim candidate but a REGISTRATION GAP: the programme's most recent theorem cluster is invisible to every registered surface AND to the mechanical sweep, because the seat under-declared creates_law and the gate reads that declaration",
+ "deep_sweep": {
+  "unswept_substantive_non_instrument": 541,
+  "scored_on_two_axes": [
+   "result-strength",
+   "thesis-proximity"
+  ],
+  "note": "the ranked list surfaced the programme's own recent theorems as UNSWEPT, which is what exposed the registration gap"
+ },
+ "registration_gap": {
+  "checked": [
+   "B1182",
+   "B1183",
+   "B1184",
+   "B1192",
+   "B1195",
+   "B1196",
+   "B1200",
+   "B1203"
+  ],
+  "observer_arcs_on_no_registered_surface": 7,
+  "only_one_registered": "B1195 (SM_SPECIFICATION_LEDGER)",
+  "registry_last_row_before": "B1145",
+  "mechanism": "gate_theorem_registry enforces 'declared creates_law=true => has a registry row'. It cannot see an arc that declares false. The seat that writes the claim also writes the flag, so the gate inherits the seat's judgement -- including its under-declaration. A GATE THAT READS A SELF-DECLARED FIELD IS ONLY AS GOOD AS THE DECLARATION."
+ },
+ "repair": {
+  "flipped_to_true": [
+   "B1182",
+   "B1183",
+   "B1184",
+   "B1192",
+   "B1196",
+   "B1200",
+   "B1185"
+  ],
+  "each_with": "a dated creates_law_corrected note; claim/verdict/evidence untouched",
+  "registry_rows_added": 7,
+  "control": [
+   {
+    "arc": "B1203",
+    "decision": "STAYS false",
+    "why": "it disowns theorem status in its own words -- 'an interpretation joining banked facts, not a theorem'"
+   },
+   {
+    "arc": "B1204",
+    "decision": "STAYS false",
+    "why": "it reads the SHAPE of the record's own forcings -- a taxonomy of this corpus's arguments, not a new theorem about the object; it uses theorem-grade language ABOUT theorems, which is what tripped the lexical check"
+   }
+  ],
+  "found_by_the_new_lock_not_by_re_reading": [
+   "B1185",
+   "B1204"
+  ]
+ },
+ "counter_check": {
+  "instrument": "verification/declaration_check.py",
+  "corpus_candidates": 26,
+  "lock": "forward-only from B1180 (history is never flipped); the older band is recorded here",
+  "accepts": "either creates_law=true OR a dated creates_law_reviewed decision; what the lock forbids is SILENCE -- an arc that talks like a theorem and never says why it is not one",
+  "fired_immediately_on_installation": [
+   "B1185",
+   "B1204"
+  ]
+ },
+ "instrument_corrections": {
+  "first_pass_lost": [
+   "B1183",
+   "B1200"
+  ],
+  "cause": "a global disown-list containing 'cited, not' and 'harvest' -- words that appear in the FENCES of genuine theorems, where an arc limits a BORROWED computation rather than its own result",
+  "fix": "strong self-limits only, and only in the HEADLINE region (first 400 chars) where an arc states what it is",
+  "pattern": "THIRD scope failure of the same species in one session (B844's greedy regex, B1210's claim-scope matcher, this): lexical instruments over this corpus need clause or region scope, because an arc claim is one long sentence carrying fenced material about many things"
+ },
+ "fences": {
+  "detector_is_lexical": "it screens, it does not adjudicate -- it caught 3 of the 6 arcs judged by reading (B1182/B1183/B1184) and missed B1192/B1196/B1200, whose claims state their results without the word THEOREM",
+  "complementarity": "the memory-written spec caught the observer theorems the mechanical pool missed, and the pool caught the older forced material the spec missed -- neither alone is sufficient, which is the reusable finding",
+  "not_claimed": "coverage of the remaining unswept arcs as paper claim candidates"
+ }
+}

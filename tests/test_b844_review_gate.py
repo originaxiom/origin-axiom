@@ -50,6 +50,14 @@ def test_carried_items_state_WHY_they_are_carried():
     t = REV.read_text(encoding="utf-8")
     carried = re.findall(r"^- \[>\] (R[\d-]+[^\n]*)", t, re.M)
     assert carried, "no carried items found"
+    # The prefix strip must remove the ID and its separator ONLY. An earlier form used
+    # `^R[\d-]+[^:]*:?` -- greedy up to a colon -- so a colon-free item had its entire reason
+    # eaten by the strip and was then flagged for having no reason: the lock's own regex
+    # manufacturing the defect it hunts (first seen 2026-08-29, on two items that each read
+    # "R49-N -> folded into R50-M (...)"). Bounded here; the bare-ID control below still fires.
+    _ID = r"^R[\d-]+\s*[:\u2192\u2014-]?\s*"
     bare = [c[:60] for c in carried
-            if len(re.sub(r"^R[\d-]+[^:]*:?\s*", "", c).strip()) < 25]
+            if len(re.sub(_ID, "", c).strip()) < 25]
     assert not bare, f"carried items with no substantive reason: {bare}"
+    # MB12: the strip must still expose a bare ID, or the lock passes over anything.
+    assert len(re.sub(_ID, "", "R99-9").strip()) < 25

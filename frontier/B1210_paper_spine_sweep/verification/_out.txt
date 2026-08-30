@@ -1,0 +1,17 @@
+corpus: 1116 arcs with verdicts
+claim pool: 456  (law-creating 68, on a synthesis surface 456)
+pool arcs with a later arc that extends/corrects/withdraws/confirms them: 84
+
+P3 spec cites 30 arcs that exist: ['B727', 'B862', 'B863', 'B864', 'B882', 'B892', 'B897', 'B904', 'B928', 'B951', 'B953', 'B961', 'B978', 'B1033', 'B1080', 'B1126', 'B1129', 'B1138', 'B1140', 'B1159', 'B1183', 'B1184', 'B1192', 'B1195', 'B1196', 'B1200', 'B1203', 'B1206', 'B1208', 'B1210']
+OF THOSE, 8 have a later arc that extends/corrects/withdraws them:
+  B862 <- B1080 (extend/confirm)
+  B892 <- B951 (correct); B953 (withdraw); B967 (correct); B1080 (confirm)
+  B904 <- B1077 (confirm); B1131 (confirm)
+  B928 <- B1020 (confirm)
+  B1080 <- B1210 (confirm)
+  B1129 <- B1131 (confirm)
+  B1183 <- B1196 (confirm)
+  B1200 <- B1201 (withdraw)
+
+wrote spine_sweep.json
+VERIFIED

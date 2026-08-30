@@ -1,0 +1,6 @@
+(1) the QUINE stands post-B8147: o10_150700 excluded (5x vol); the four 2sqrt3i carriers excluded
+    (multi-cusped); m003 excluded (shape omega). Census-scoped, correctly stated in B762.
+(2) the emitted name {volume, cusp shape, CM disc, residue, palette counts} is mirror-even
+    letter-by-letter = exactly the parity law's OBJECT side (B1168). No odd letter exists in it.
+(3) SELF-NAMING WITHOUT SELF-SIGNING: QP-1 QUINE (can name) + B1183 ONE-CLASS (cannot sign; the
+    missing sign IS c's class). Naming and choosing are proved complementary. REPRODUCES

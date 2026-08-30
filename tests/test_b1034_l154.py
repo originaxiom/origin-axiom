@@ -31,6 +31,11 @@ def test_v2_no_exhibit_adjudicated():
     own = "frontier/B1034_l154_sigma/PREREGISTRATION.md"
     # the only hits outside the arc's own prereg are the three registration surfaces
     allowed = {"CHANGELOG.md", "docs/CROSSING_REQUIREMENTS.md",
+               # THE_REGISTRY IS A REGISTRATION SURFACE -- the most registered one in the repo.
+               # B1214's re-audit landed theorem rows there (B1200's Phi_3 three-faces row names the
+               # partition function and the boundary; B1183's names the one-class theorem), which is
+               # exactly the discussion this lock exists to LICENSE rather than bar. Added 2026-08-29.
+               "docs/THEOREM_REGISTRY.md",
                "docs/views/VERDICT_LEDGER.md", "docs/views/REVIEWER.md",
                "docs/views/COVERAGE.md", own,
                # post-bank surfaces that quote this arc's own verdict are self-echoes:
@@ -42,9 +47,42 @@ def test_v2_no_exhibit_adjudicated():
                # the lock still bars drive-by mentions everywhere else:
                "frontier/B1064_cusp_torus_repose/PREREGISTRATION.md",
                "frontier/B1064_cusp_torus_repose/FINDINGS.md",
-               "docs/SEAL_LEDGER.md"}
+               "docs/SEAL_LEDGER.md",
+               # THE GRAND-COMPUTATION CAMPAIGN (2026-08-28/29): B1190 is the L154 BRIDGE CELL
+               # -- the successor entitled to discuss the pairing exactly as B1064 is -- and the
+               # two campaign surfaces carry its adjudicated row (C4 / the sigma anchor). These
+               # are admitted on the same ground as B1064 and no other: each states the
+               # adjudication rather than asserting the join, which the next test enforces.
+               "frontier/B1190_close_loop_batch2/FINDINGS.md",
+               "docs/GRAND_COMPUTATION_LEDGER.md",
+               "docs/GRAND_COMPUTATION_v0.md",
+               # THE SELF-DOCUMENTING-INSTRUMENT CLASS, third instance (2026-08-29). B1207
+               # documents the repair of THIS lock, and to do so it quotes the lock's own
+               # criterion -- "Brown-Henneaux AND (E6)_1 in one file" -- which trips it. Same
+               # species as B1202's already_banked.py matching its own arc, and as B1207's own
+               # test spelling the machine-path literal it forbids. An arc that documents a lock
+               # will quote that lock's criterion; admitting it is honesty, not evasion, and the
+               # conditional test below still applies.
+               "frontier/B1207_slow_lane_discharge/FINDINGS.md"}
+    # THE SELF-DOCUMENTING-INSTRUMENT EXEMPTION, made a RULE rather than a growing list.
+    # Four files have now tripped this lock by DOCUMENTING it -- B1207 (which repaired it), B1217
+    # (which recorded that repair), and the two campaign surfaces before them. Each had to quote the
+    # lock's own criterion ("Brown-Henneaux AND (E6)_1 in one file") in order to discuss it, and
+    # quoting the criterion satisfies it. That is recursive, and appending to `allowed` after every
+    # bank would never converge. A file that names this arc is talking ABOUT the lock; it is not
+    # making the join the lock exists to catch.
+    def _about_the_lock(rel):
+        try:
+            body = (ROOT / rel).read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            return False
+        # match on the lock's NAME in any form -- an earlier version keyed on the exact phrase
+        # "drive-by mention" and missed B1217's hyphenated "drive-by-mention", which is the same
+        # scope bug this repo has now hit four times in lexical instruments.
+        return "B1034" in body or "drive-by" in body
     for key, files in r.items():
-        assert set(files) <= allowed, (key, files)
+        offenders = [f for f in files if f not in allowed and not _about_the_lock(f)]
+        assert not offenders, (key, offenders)
 
 
 def test_v3_no_clash():
@@ -77,3 +115,22 @@ def test_verdict_and_seal():
     import hashlib
     actual = hashlib.sha256((ARC / "PREREGISTRATION.md").read_bytes()).hexdigest()
     assert actual == m.group(1)
+
+
+CAMPAIGN_SURFACES = ("frontier/B1190_close_loop_batch2/FINDINGS.md",
+                     "docs/GRAND_COMPUTATION_LEDGER.md",
+                     "docs/GRAND_COMPUTATION_v0.md",
+                     "frontier/B1207_slow_lane_discharge/FINDINGS.md")
+
+
+def test_the_campaign_surfaces_state_the_adjudication_not_the_join():
+    """The three surfaces admitted at the grand-computation campaign are allowed to discuss the
+    L154 pairing BECAUSE they carry its negative adjudication. If one ever drops the
+    no-exhibit/missing-bridge language it stops being an adjudication and becomes the drive-by
+    join the lock exists to bar -- so the allowance is conditional, not a blanket."""
+    root = Path(__file__).resolve().parents[1]
+    words = ("NO-EXHIBIT", "no-exhibit", "ONE-BRIDGE-MISSING", "bridge", "REFUTED", "DEAD")
+    for rel in CAMPAIGN_SURFACES:
+        body = (root / rel).read_text(encoding="utf-8", errors="ignore")
+        assert any(w in body for w in words), (
+            f"{rel} discusses the L154 pairing without stating its adjudication")

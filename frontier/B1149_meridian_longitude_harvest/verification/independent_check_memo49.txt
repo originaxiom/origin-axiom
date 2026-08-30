@@ -1,0 +1,5 @@
+INDEPENDENT CHECK (sympy, distinct from the cert Fraction code) -- memo 49 arithmetic core
+kappa=1+q  minpoly: x**2 - 3*x + 3 | trace 3 norm 3 disc -3 -> Eisenstein/ramified
+substitution charpoly: x**2 - 3*x + 1 | trace 3 det 1 disc 5 -> golden/unit
+(3+sqrt5)/2 == phi^2 : True
+UNIFICATION: both monic trace-3; disc=9-4d; d=1(unit)->5, d=3(ramified)->-3  CONFIRMED

@@ -1,0 +1,7 @@
+{
+ "id": "B1178",
+ "verdict": "OPEN",
+ "claim_one_line": "L184 EXECUTED (the collection lazy-fy; the E50 cost class's root fix, promised as 'the named next sitting' and delivered same-day). THE DIAGNOSIS WAS SURGICAL, NOT STRUCTURAL: the per-file sweep (1063 files) found TWO files carrying the whole cost -- test_b371_two_state_sector.py at 156.95 s (a module-level REPORT=run() executing ~157 s of exact computation AT COLLECTION -- 88% of the suite's entire 178.41 s collect) and test_cc2_r5_adopted.py at 36.05 s (a 300-line module-level lock script); everything else <= 7.7 s (~4.3 s interpreter+conftest baseline). THE FIX (the E50 remedy pattern, now named THE CACHED-RUNNER MOVE): each body moved into a functools.lru_cache'd _report()/_run() with the frontier-engine import DEFERRED inside it -- the compute runs once at first TEST EXECUTION (total cost unchanged when the tests actually run; ZERO at collection). OUTCOMES PRESERVED: both files 5/5 pass post-fix (277.88 s execution = the same compute, now paid where it belongs). THE CERTIFIED WIN: full-suite collection 178.41 s -> 15.14 s (12x; 5587 tests) -- the fast lane's collection tax is gone and the full certificate-of-record suite is routinely collectable. The B1177 measurements addendum landed in the same sitting (the per-file table committed; the OA_SLOW first-ever run continues -- launched, not yet complete, no phantom green). Instrument arc; test-outcome-preserving by construction and by the 5/5 re-run; Gate 5 clean.",
+ "instrument": true,
+ "creates_law": false
+}

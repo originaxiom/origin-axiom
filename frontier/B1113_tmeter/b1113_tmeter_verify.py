@@ -54,7 +54,13 @@ T0 = time.time()
 # --------------------------------------------------------------------------
 # 0. locations -- env-overridable, documented defaults
 # --------------------------------------------------------------------------
-REPO_ROOT = os.environ.get("B1113_REPO_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# The file sits at <root>/frontier/<arc>/, so the root is THREE dirnames up. Two was
+# banked here on 2026-08-21 and made REPO_ROOT the frontier/ dir itself, which doubled
+# the "frontier/" in every join below; only the OA_SLOW-gated verifier exercised it, so
+# the defect stood until the first full slow run (2026-08-29).
+REPO_ROOT = os.environ.get(
+    "B1113_REPO_ROOT",
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 CCB_PATH = os.environ.get(
     "B1113_CCB_PATH",
     os.path.join(REPO_ROOT, "frontier/B1102_exact_hypercharge_solve/e6_bracket_vendored.py"),
@@ -858,8 +864,13 @@ out = {
     },
     "memo_number_cross_check": memo_match,
     "paths": {
-        "ccb_path_used": CCB_PATH,
-        "cert_reference_path": CERT_PATH_INFO,
+        # Recorded RELATIVE to the repo root, and the cert reference elided: the banked results
+        # file carried "<repo>/..." placeholders that had been sanitized by hand, so every re-run
+        # of this verifier rewrote a tracked file with the running machine's absolute paths.
+        # A verifier must reproduce its banked output, not dirty the tree with bench detail.
+        "ccb_path_used": "<repo>/" + os.path.relpath(CCB_PATH, REPO_ROOT),
+        "cert_reference_path": ("<session-cert>" + CERT_PATH_INFO[len(CERT_PATH):]
+                                if CERT_PATH else CERT_PATH_INFO),
     },
 }
 

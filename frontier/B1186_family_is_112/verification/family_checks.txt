@@ -1,0 +1,5 @@
+counts: |B| = 112, |A| = 77, B\A = 35; six 2sqrt3i carriers; amphichirality 112/112;
+        zero quine collisions; all nine named witnesses members. (committed enumeration)
+EXACT: t06829's Q(sqrt-3) shapes solve the gluing equations SYMBOLICALLY (den 98 -- past
+       a bound-64 test); controls behave. THE FAMILY IS 112 at census scope, den bound 256.
+REPRODUCES

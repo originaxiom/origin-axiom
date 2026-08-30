@@ -1,5 +1,8 @@
 # OPEN_PROBLEMS.md — the remaining gates (the honest specialist handoff)
 
+> **Review 50 (2026-08-27):** SEAM-A's authoritative split — *walled-on-forcing* (OA-C1002) / *INDETERMINATE-on-sealing* (Gate 2, NEEDS-SPECIALIST); the "leaning MISMATCH" phrasing is retired. The specialist surface now has SIX named bars (SEAM-A Gate 2; J₃(𝕆) regulators; the B491 seam form; Cappell–Miller; torsion parity — queued at cc3; B165) — the outreach trigger has FIRED (B1161 exhaustion); the send-queue is the owner's (R50-7).
+> **Review 49 (2026-08-26):** the one live crossing is **SEAM-A's Gate 2** — a full Kim-style arithmetic-CS *action* of m004 on ℚ(√−3) (not just B708's linking form / B800's unnormalized Habiro series); NEEDS-SPECIALIST. codex's up-Yukawa=0 is resolved as a distinct cohomological wall (SEAM-Y MISMATCH), not our arithmetic disjointness.
+
 *Review 48 (2026-08-22, anchor 79e513a9): the value-IDENTIFICATION problem (does any object period equal an SM number?) is CLOSED — NEGATIVE, exhaustive (V-3/B1126 + the wave B1128–B1131): the object's arithmetic is disjoint from the SM's numbers on periods, natural forms, the coupling, and the sharpest coincidence. The SUCCESSOR open problem: **values as REGULATORS** (not periods) of the higher classes in the forced J₃(𝕆) domain (B1134) — firewalled until computed (R48-3). B1134 also CLOSED B1114's open Lorentz-plus-compact-color question (one conjugation into E₆(−26)=M(𝕆,ℂ)). See docs/progress/REVIEWS.md Review 48.*
 
 *Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
@@ -534,3 +537,20 @@ and §6's addenda, and §7's buried-results ledger together carry B1083–B1101 
 include B1100's falsification-and-rescope of B959 and B1101's certification-envelope adoption, both dated
 2026-08-20 after this note was first written). `docs/THE_LADDER.md`'s companion rewrite (same doc-wave) carries the
 rung-graded structural detail this file cites rather than repeats.
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the observer layer's cc-rungs CLOSED (S1 proved
+B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); the three Yukawa
+mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
+dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
+The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
+standing word).*
+
+*Review 52 currency (2026-08-28, anchor 8aa71f07): THE GRAND COMPUTATION CAMPAIGN closed its first
+full arc. The universe is now stated in the object's own units (`docs/GRAND_COMPUTATION_v0.md`);
+every observer input is typed with its supplier (ℓ + the relational c-bit + finite labels + σ + λ +
+the ℙ³ line); **the observer's one bit is constructed, governed by the founding invariant κ, and
+selector-free**; the existence audit's eight missing items are all dispositioned; and the saddle,
+the founding obstruction and the boundary are proved to be one polynomial Φ₃ with c as the map
+between its faces. Missing in kind: a forcing theorem for the value arm, and the cosmological
+dynamics (`docs/COSMOLOGY_LEDGER.md` is the new surface). cc3 retired; cloud ran the same directive
+independently and converged.*

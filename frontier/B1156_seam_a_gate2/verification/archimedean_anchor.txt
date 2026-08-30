@@ -1,0 +1,7 @@
+z                = (0.5 + 0.866025403784438646763723170753j)
+z^2 - z + 1      = 0.0  (0 => primitive 6th root; geometric shape of m004)
+D(e^{i pi/3})    = 1.01494160640965362502120255427   (= Borel regulator of xi in K_3(Q(sqrt-3)))
+2*D = Vol(4_1)   = 2.02988321281930725004240510855
+matches SnapPy Vol(4_1)=2.029883212819307... : True
+V'' (1-loop)     = sqrt(-3) = (0.0 + 1.73205080756887729352744634151j)
+REPRODUCES

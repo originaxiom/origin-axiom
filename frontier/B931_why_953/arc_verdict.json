@@ -3,7 +3,21 @@
  "verdict": "PROVED",
  "instrument": false,
  "claim_one_line": "WHY 953 -- THE DERIVATION CHAIN + THE HONEST MAP (53/53 exact): 2304 IS DERIVED -- 2304^2 = 2^16 3^4 is exactly the {2,3}-part of lc(mu) = 2304^2 5^2 7^3 11, the twist's poles living only over the primes where K is arithmetically singular (2 splits [1,2], 3 totally ramified; disc K = 3^4 7 11 with the resolvent Q(sqrt77) itself); 953 IS TRACED TO ITS BIRTH -- it appears NOWHERE upstream (no eigenline coordinate, no adjugate minor, no untwisted norm, no whitelist invariant; the candidate whitelist declared and exhausted, all negative) and is BORN in the twisted-form resultant (the interference q' = q - 2 q_flip between the charge-equivariant norm and the flip overlap); THE DIVISOR MAP: (d_S) = P1(953)^2 Q1(2)^-4 Q2(2)^-6 p3^-4 and (d_A) = P2(953)^1 ... -- the S-family twist vanishes DOUBLY at the DEGREE-ONE place over 953 (the observer's place, the same place carrying V's pole, re-derived) while the A-family vanishes SIMPLY at the degree-two place; the banked equal norm law -(953/2304)^2 is a norm-level coincidence of two DISTINCT ideals (N(P1^2) = N(P2) = 953^2), fingerprinted by the disc ratios. WHAT 953 IS: the residue characteristic of the unique prime of K where the flip mass m degenerates to EXACTLY 1/2 -- the twist's critical prime; the full level structure banked (m = 0 at 20417473 resp. 29*72869; m = 1/2 at 953; m = infinity at {2,3} only). The pipeline-free closed form for the INTEGER 953 remains the registered open with the whitelist exhausted.",
- "depends_on": ["B916", "B918", "B928"],
- "supersedes": null, "superseded_by": null,
- "authored_by": "computation agent + cc banking (2026-08-06)"
+ "depends_on": [
+  "B916",
+  "B918",
+  "B928"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "computation agent + cc banking (2026-08-06)",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "decision": "false",
+  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+ }
 }

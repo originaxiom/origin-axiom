@@ -1,0 +1,21 @@
+{
+ "id": "B1205",
+ "arc": "the cubic cell: the dimension ledger",
+ "verdict": "NEGATIVE",
+ "the_cubic_exists": "det Y_d(h) is a genuine failable cubic form on the P^3 (deg 3, not identically zero)",
+ "what_it_cuts": {
+  "det=0": "a cubic SURFACE, dim 3 -> 2",
+  "singular locus": "EMPTY (5/5 samples smooth)",
+  "rank<=1": "empty by codimension (4 > 3)"
+ },
+ "dimension_ledger": {
+  "B1160": "5-dim --3 linear (4 dims of work)--> LINE --cubic--> POINTS",
+  "P^3": "dim 3 --NO linear conditions (GC-25 proved)--> dim 3 --cubic--> dim 2"
+ },
+ "conclusion": "the missing ingredient is the LINEAR cuts, not the nonlinear condition",
+ "amendment_to_B1204": "the full recipe is linear-then-nonlinear; the program has the second half only",
+ "requirement_stated": "three conditions LINEAR in h, from a consistency requirement (no symmetry supplies them -- GC-25)",
+ "gc25_upgraded": "from 'the floor carries 3 params' to 'a B1160-style forcing provably cannot reach them'",
+ "named_not_run": "when codex's T lands: check whether the object's own det Y_d vanishes identically (SKEW ZERO / rank-2 law make it worth checking)",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

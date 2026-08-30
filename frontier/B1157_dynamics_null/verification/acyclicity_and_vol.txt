@@ -1,0 +1,26 @@
+(A) ACYCLICITY OF H*(m004; Sym^{2m}) -- via the peripheral invariant line
+    m004 has ONE cusp; peripheral pi_1 = <mu,lambda>=Z^2, both PARABOLIC
+    (regular unipotent). Sym^{2m} of a regular unipotent is a single Jordan
+    block of size 2m+1 => exactly a 1-dim invariant line, SHARED by mu,lambda.
+
+    m | dimV=2m+1 | H0(T^2)=dim joint-inv | H1(T^2)=2*H0 | H1(M)=half | (H0,H1,H2)(M)
+    0 |     1     |         1          |      2       |    1     |   (1, 1, 0)
+    1 |     3     |         1          |      2       |    1     |   (0, 1, 1)
+    2 |     5     |         1          |      2       |    1     |   (0, 1, 1)
+    3 |     7     |         1          |      2       |    1     |   (0, 1, 1)
+    4 |     9     |         1          |      2       |    1     |   (0, 1, 1)
+    5 |    11     |         1          |      2       |    1     |   (0, 1, 1)
+
+    => H* is NEVER acyclic (H1=H2=#cusps=1 for all m>=1). The closed-manifold
+       Fried hypothesis rho(m) acyclic is REFUTED. Triply corroborated:
+       deformation dim H1(M;Ad)=1 (m004's unique cusp); Menal-Ferrer-Porti even
+       symmetric powers => H1=#cusps (banked B581); Fox calculus (WF-2 attempt).
+
+(B) VOL IS THE SAME SCALAR ON BOTH SIDES -- the tautology, not a crossing
+    Vol(4_1)          = 2*D(e^{i pi/3}) = 2.029883212819307250042405
+    B1156 uses Vol as: the Borel/Bloch-Wigner REGULATOR of xi (archimedean summand)
+    B8142b uses Vol as: the geodesic-flow DAMPING exp(-4m Vol/pi)
+    exp(-4 Vol/pi)    = 0.07543170680114986480320179  (B8142b: 0.0754)
+    Both are functions of the ONE hyperbolic structure => Vol(M)=Vol(M).
+
+REPRODUCES

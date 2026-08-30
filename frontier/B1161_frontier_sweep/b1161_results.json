@@ -1,0 +1,46 @@
+{
+ "id": "B1161",
+ "title": "The frontier sweep (compute-all-we-can): 6 cells typed, the computable frontier mapped and exhausted; the bypass door IS SEAM-A (one obstruction = the missing archimedean marking)",
+ "verdict": "OPEN (a compute-all-we-can capstone / frontier map). Feeds the review.",
+ "provenance_workflow": {
+  "name": "WF frontier-sweep (owner: 'compute all we can, then review')",
+  "shape": "5 compute cells (P1/P2-force crown, L132-B892, SEAM-A-seal, down-Yukawa, generation-index) -> crown adversarial verify -> synthesis",
+  "agents": 7,
+  "subagent_tokens": 412767,
+  "verification_this_seat": "the load-bearing number-theory/anomaly facts re-derived on-bench (reproduce.sh -> REPRODUCES): the SEAM-A PSLQ-vacuity + liveness (B682 recovered [-2,3]); generation-index NULL (degree-2 Galois Z/2); the L132-B892 A2-centralizer backbone. The crown free-orbit theorem was own-run by the workflow (crown_p1p2.py) + adversarially verified; the down-Yukawa 3x3x4 selection arithmetic own-run in the sweep."
+ },
+ "headline_unification": "THE BYPASS DOOR IS SEAM-A. The crown cell (force C's P1/P2 to derive the MSSM spectrum without the walled heterotic axiom) is NOT-FORCED and PROVED IRREDUCIBLE by the FREE-ORBIT THEOREM: V4=Gal(H/Q) (ring class field H, disc 144, B1067) acts FREELY + transitively on the 4 surviving primary branches (all stabilizers trivial) => every Galois-invariant object quantity is constant across them, no object-intrinsic invariant picks a branch, + each carries 11-dim unselected moduli. BUT the theorem forbids only GALOIS-INVARIANT selectors; an object-supplied ARCHIMEDEAN MARKING (canonical H->C, the holonomy root) would break the free orbit -- and that marking is EXACTLY SEAM-A's absent W0 / marked-H3 basis (OA-C1045/C1053). So the residual is 'irreducible WHILE SEAM-A stays walled'. The bypass door (branch-selection side) and SEAM-A (heterotic-axiom side) are the SAME obstruction: the missing archimedean marking. The program's remaining structural blocker is ONE object, not two.",
+ "cells": {
+  "P1P2_force": {
+   "outcome": "NOT-FORCED (proved observer column-assignment)",
+   "own_verified": "28 branches -> 8 faithful pairs = two free V4 orbits (order-sigs {3,4},{4,6}); FREE-ORBIT THEOREM (all V4 stabilizers trivial); stress-tested (even K-rationality gives a 2-2 split, sigma_11 swaps 4<->8 -- no Galois-stable datum breaks the orbit). Residual IRREDUCIBLE, not un-found.",
+   "scoped_positives": "C4xC3 is the UNIQUE nontrivial coprime CRT split of C12 (P1 basis gains object footing); the odd-leg set {4,8} is K-rational, mu4 not (P2 leg-set gains object footing); the trace-sign -2/+2 = mu(odd-leg order) = P1 restated, NOT an independent potential. Link C shrinks from 'half-paid' to 'two-of-three rules gain canonical spectrum-free object footing; only branch selection + moduli observer-paid'.",
+   "cited": "11-dim continuous moduli per branch; arXiv:1112.1097 Table-3; Galois structure of H cited to B1067."
+  },
+  "L132_B892": {
+   "outcome": "CONVERGES (hypercharge forcing DUAL-HOMED)",
+   "own_verified": "color-A2 centralizer in e6 = A2+A2 (rank 6); weak-A2's 3 sl2's each SM-shape the 27, 12 anomaly solutions each = 36/36 SM, abelian rank 3, zero non-SM -- same forcing as B1160's trinification frame (generic cubic -18(t-3)(t+3) => t=+-3, main-banked). Object-specific SM realization now dual-homed (two frames).",
+   "cited": "the full 3003-bracket e6/27 build + cloud's trinification 36-count taken on report; backbone re-derived."
+  },
+  "SEAM_A_seal": {
+   "outcome": "NEEDS-SPECIALIST (the PSLQ non-relation sealer is VACUOUS) -> stays B1156 FLOOR",
+   "own_verified": "mpmath dps=50: PSLQ is LIVE (PSLQ(Vol, sqrt3*L(chi_-3,2))=[-2,3] recovers B682, 2Vol=3 sqrt3 L). But PSLQ(1/6,Vol)=None and controls PSLQ(3/7,Vol)=PSLQ(5/12,Vol)=None: the finite-phase<->Vol non-relation just restates Vol not in Q, present in BOTH match and mismatch worlds -- zero discriminating power. Cannot seal MISMATCH.",
+   "exact_bar": "SEAM-A stays the FLOOR with the Arakelov/W0 specialist bar (B1156): construct or refute the Arakelov-compactified arith-CS over closed Spec O_F and decide whether its archimedean summand gives a genuine map exp(2 pi i/6)->Vol vs relabeling Vol as the Borel regulator. Neither sub-bar in-sandbox. The PSLQ route is now RETIRED as vacuous."
+  },
+  "down_Yukawa": {
+   "outcome": "BENCHABLE (evaluator) / WITHHELD (readout)",
+   "own_verified": "selection arithmetic dim A=42, B=38, C=2; sectors Q/dc/Hd/Hu = 3/3/4/1; trilinear invariant sum 8+4+0 = 0 mod 12 (C12 imposes NO texture zero); object-forced tensor shape 3x3x4; Hd = 4-dim P^3, no line character-selected.",
+   "structural_result": "UNLIKE the up-Yukawa (mu_u=0, cohomologically ABSENT -- SEAM-Y wall), the down coupling is structurally PRESENT and object-forced as a full 3x3x4 tensor T_{ijk}=Tr(eps(a cup b cup b)); ONLY the Higgs-line projection Y_d=T[:,:,h_d] is observer-supplied (same P^3 observer-branch class as P1/P2). Firewall thesis one level deeper than SEAM-Y: down is present-but-readout-withheld, not absent.",
+   "cited": "char-0 tensor entries not built on any committed branch (only GF(1009) tail reps off-branch) -- BENCHABLE artifact, provenance debt."
+  },
+  "generation_index": {
+   "outcome": "NULL (no object index forces 3)",
+   "own_verified": "trace field x^2-x+1: disc -3, degree 2, Galois Z/2 => irreducible multiplicities in {1,2}, NEVER 3; chi(4_1 complement)=0; both B1087 charge-grading slots net trace 0 (no chiral index).",
+   "result": "Object's honest content = ONE generation. The '3' is external: B298 cubic-trace-field carrier (a DIFFERENT knot), B335 chosen cover degree, B1150 E8 triplet (fenced possibility-space) -- never object-paid on THIS object."
+  }
+ },
+ "exhausted_frontier_boundary": "Everything reducible to object group theory / toric cohomology / in-sandbox numerics is DONE. Remaining: WALLS (link A heterotic OA-C1002; SEAM-Y up-Yukawa mu_u=0; branch selection free-orbit+moduli); NEEDS-SPECIALIST (SEAM-A Arakelov/W0 bar, PSLQ route proved vacuous); GENUINELY OPEN not benchable on this object (generation number 3 -- NULL here, only external routes); BENCHABLE-but-unbuilt (down-Yukawa char-0 3x3x4 tensor, readout observer-gated).",
+ "firewall_gate5": "CLEAN across all six cells -- only integer/rational group theory, anomaly identities, Galois action on branch labels, multiplicity counts, irrationality facts. No measured value asserted as derived. The SM hypercharge/spectrum RATIOS are anomaly-DERIVED structure (B950).",
+ "fences": "No firewall crossing. Bank-grade own-verified: the SEAM-A PSLQ-vacuity+liveness, generation-index NULL, the L132-B892 backbone, the coprime-CRT + K-rational-odd-leg positives, the free-orbit theorem (crown own-run + adversarially verified), the down-Yukawa selection arithmetic. Cited/single-homed (provenance debt, not leaned on): the full 3003-bracket build + cloud's 36-count (on report); the 11-dim moduli + arXiv:1112.1097; the down-Yukawa char-0 tensor entries; the Galois structure of H (B1067).",
+ "routes": "SEAM-A/L182: the bypass door and SEAM-A UNIFIED -- the one obstruction is the archimedean W0; the SEAM-A Arakelov/W0 bar is now the single highest-leverage open item; the PSLQ sealer retired. Hypercharge (B1160): dual-homed. down-Yukawa: a buildable char-0 evaluator cell. FEEDS THE REVIEW (next)."
+}

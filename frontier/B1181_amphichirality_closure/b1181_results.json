@@ -1,0 +1,12 @@
+{
+ "id": "B1181",
+ "arc": "the amphichirality debt closed (83/83) + the one-way family test law",
+ "verdict": "OPEN",
+ "closure": "83/83 amphichiral (cc3), spot-verified 5/5 here by mirror-isometry incl. both separator-killers + s955",
+ "typing": "right in substance, wrong only in count -- the opposite failure mode from the separators",
+ "consequence": "B1163 family-wide W0 obstruction: 4-of-14 -> 83-of-83; no-sibling-escape far more robust",
+ "method_law": "THE ONE-WAY FAMILY TEST (LAW_MAP sec-G): family growth only hurts object-level claims, only helps family-level ones; a family is a CLAIM, never a setting",
+ "residue": "the membership-criterion definition (relayed)",
+ "fences": "The 83/83 full sweep is cc3's (their cert); the 5-sample here uses mirror-isometry (not the vacuous signature route). Gate 5 clean.",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

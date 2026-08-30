@@ -1,0 +1,25 @@
+{
+ "id": "B1193",
+ "arc": "the two campaigns reconciled",
+ "verdict": "PROVED",
+ "convergences": [
+  "lambda THE residue (both seats)",
+  "arrow external, not c (interlocking halves)",
+  "one clock generator",
+  "meter x3",
+  "V4 legs x3 seats"
+ ],
+ "catches": {
+  "theirs_adopted": "v0 floor amended (P^3 line, two-outcome cell)",
+  "ours_adopted": "2+1 was an undercount (two-seat finding)"
+ },
+ "merged_core": [
+  "lambda",
+  "P^3-vs-floor",
+  "L154 bridge",
+  "twist-forcing",
+  "(Vol,CS) coherence",
+  "branch->r"
+ ],
+ "founding_bit_identity": "A7 = K4 basepoint (B1083) = transports as c (L63) = relational class of an asymmetric pair (B1192)"
+}

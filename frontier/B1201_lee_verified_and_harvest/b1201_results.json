@@ -1,0 +1,34 @@
+{
+ "id": "B1201",
+ "arc": "the Lee verification + the cross-seat harvest",
+ "verdict": "PROVED",
+ "lee": {
+  "a_tangent_vectors": "mu_{|a1|}-set; |a1| = 1 at all four ideal points of 4_1 -> UNIQUE, not Z/2, not V4",
+  "b_appendix_uses_CS0": false,
+  "b_lee_stated_reason": "arithmeticity (his footnote 20)",
+  "c_trace_field": "general, formally specializes; but NO Dedekind-zeta normalization in the paper -- the bridge is ABSENT from the literature",
+  "relocated_hypothesis": "the genuine Z/2 is the augmented variety's double cover: lambda vs lambda^-1 = the mirror's action (B716) -- plausibly c",
+  "slip_found": "Case-3 parenthetical: mod 4(2 pi i)^2 should be mod (2 pi i)^2 (exact, minor)"
+ },
+ "b1198_correction": {
+  "stands": "the appendix confirms 4_1",
+  "withdrawn": [
+   "the base point is non-canonical (unique for 4_1)",
+   "the 4_1 case leans on CS=0/amphichirality"
+  ]
+ },
+ "codex": {
+  "R020": "ADOPT -- targets an operator main never asserted",
+  "R021": "ADOPT -- new open spin-bit constraint",
+  "R022": "ADOPT -- already absorbed into B1182"
+ },
+ "cloud": {
+  "reproduce": "7/7 byte-identical",
+  "quine_cert": "RE-RUNS CLEAN -- Q1 verified here, CITED debt paid",
+  "convergences": [
+   "their refuted B9 norm law = our same-day GC-24 scope correction, independently",
+   "their first-beat kappa = GC-24's kappa - 2, computed"
+  ]
+ },
+ "reproduces": "verification/cells.json"
+}

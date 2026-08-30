@@ -1,0 +1,11 @@
+DATA candidate key = 308
+DATA norm = 308
+DATA exact-six kernel labels = (0, 2, 6, 8, 9, 10)
+RESULT exact global augmented-kernel dimension = 6; H0(V)=0
+RESULT Phi-induced C372->C312 quotient rank mod 1009 = 312
+RESULT C372->C312 is surjective over Q(zeta_12); H1(K1*)=0
+CHECK chart orbit unit ideal: True
+CHECK chart orbit unit ideal: True
+CHECK chart orbit unit ideal: True
+RESULT characteristic-zero local freeness: certified via good-fiber properness argument
+RESULT minimality: heuristic only; stability: unproved

@@ -13,5 +13,14 @@
  ],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "cc banking seat (2026-08-09), from the owner-s grammar-level redirection"
+ "authored_by": "cc banking seat (2026-08-09), from the owner-s grammar-level redirection",
+ "creates_law": true,
+ "creates_law_corrected": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "why": "re-audit of the field before the paper's disposition pass; this arc's claim was read IN FULL and states a new general proposition proved here, not a verification, harvest, census or sealed decision",
+  "registry_row": "T-GOLDEN-CONDUCTOR-UNIQUE",
+  "lock": "NO DEDICATED LOCK (covered incidentally by tests/test_b1028_freedom_ledger.py)"
+ }
 }

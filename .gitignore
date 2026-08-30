@@ -88,3 +88,9 @@ data-*-batch-*/
 !frontier/*/stageA/journals/*.jsonl
 chronicle_raw*
 
+
+# THE PAPER's build product -- rebuild with papers/P3_THE_PAPER/build.sh
+papers/P3_THE_PAPER/*.pdf
+papers/P3_THE_PAPER/*.aux
+papers/P3_THE_PAPER/*.log
+papers/P3_THE_PAPER/*.out

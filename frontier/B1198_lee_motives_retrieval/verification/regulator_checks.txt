@@ -1,0 +1,6 @@
+Vol(m004) = 2.029883212819307250042405108549 (40 dps)
+  = (3 sqrt3/2) L(chi_-3,2)  = 9 sqrt3 zeta_K(2)/pi^2   [both exact to 1e-30]
+  complex volume: 2R(e^{i pi/3}) = pi^2/6 + i Vol  [residual 2.3e-41] -- CS = 0
+This is the L-value/regulator side of the identity Lee's mixed Tate motive
+realizes motivically over the invariant trace field K = Q(sqrt-3). OUR HALF, computed.
+REPRODUCES

@@ -1,5 +1,7 @@
 # Origin Axiom
 
+> **State — Review 50 (2026-08-27), head B1173.** The window closed the gravity thread two-seat (**B1165 GENERIC-RHYME** — the observer's archimedean closing is co-located with, not identical to, the object's gravitational sector), made the object/observer boundary **decidable** (**B1168, the mirror-parity law**: object-canonical iff mirror-even ∧ dimensionless), gave the adelic observer its **mechanism** (the orbit-escape pair, B1171), named the qualia "choice" as the mirror-odd orientation (B1169), and **rescoped the anomaly forcing as arena-generic** (B1170: "the object supplies the arena; the anomalies supply the content" — B1160 strengthened). SEAM-A stands as *walled-on-forcing / INDETERMINATE-on-sealing* (Gate 2 NEEDS-SPECIALIST). Structure forced; values disjoint (five routes); dynamics generic; the closing observer-supplied — now with the boundary drawn by a law, not a preference.
+
 A claim-bounded, reproducible investigation of the **Origin Axiom** — the idea that
 existence is a *frustrated cancellation*: a remainder left when an attempt to cancel to
 nothing cannot complete.
@@ -411,3 +413,20 @@ day: it is where `docs/COMPUTE_THE_PROGRAM.md`, `docs/THE_FRAMEWORK.md`, `docs/T
 `docs/THE_CAMPAIGN.md` and the banking protocol were assembled into the standing pre-compute set
 cited throughout this page. The full review-by-review record, Review 1 through the current Review
 47 (2026-08-20), is `docs/progress/REVIEWS.md`.*
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the observer layer's cc-rungs CLOSED (S1 proved
+B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); the three Yukawa
+mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
+dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
+The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
+standing word).*
+
+*Review 52 currency (2026-08-28, anchor 8aa71f07): THE GRAND COMPUTATION CAMPAIGN closed its first
+full arc. The universe is now stated in the object's own units (`docs/GRAND_COMPUTATION_v0.md`);
+every observer input is typed with its supplier (ℓ + the relational c-bit + finite labels + σ + λ +
+the ℙ³ line); **the observer's one bit is constructed, governed by the founding invariant κ, and
+selector-free**; the existence audit's eight missing items are all dispositioned; and the saddle,
+the founding obstruction and the boundary are proved to be one polynomial Φ₃ with c as the map
+between its faces. Missing in kind: a forcing theorem for the value arm, and the cosmological
+dynamics (`docs/COSMOLOGY_LEDGER.md` is the new surface). cc3 retired; cloud ran the same directive
+independently and converged.*

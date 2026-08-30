@@ -1,0 +1,5 @@
+(1) tr(w) = tr(w^rev) exactly, generic 2x2, 6 words to length 5 (the classical transposition
+    anti-automorphism fact, verified) => REVERSAL r FIXES THE TRACE FIELD K POINTWISE.
+(2) k7 is the UNIQUE nontrivial branch leg fixing K pointwise; k11 = c (B1174); k5 fixes i.
+(3) c->k11 (forced, B1174), r->k7 (forced, (1)+(2)), theta=cr->k5; 11.7=5 mod 12: a genuine V4 iso.
+C4' RESOLVED POSITIVE; the arrow (r) -> k7 = the arithmetic form-class swap => FINITE-PLACE. REPRODUCES

@@ -1,0 +1,38 @@
+{
+ "sealed_prereg_sha256": "c384dd3e069e6963",
+ "prereg_sealed_before_answer_and_before_memo29_contact": true,
+ "verdict": "SP-2 GREEN (algebraic matching, exact): the beat closes on the odd A1 stratum's 27 over the beat-selected lift; the last discrete spin-lift bit is assigned. The physical-generation reading is THESIS-level, not a theorem (codex-sharpened).",
+ "stratum": "minimal nilpotent A1, reductive centralizer su(6); 27-weights {-1:6,0:15,+1:6} ODD (B1112's fermion-capable row)",
+ "minuscule_decomposition": "27 = 6*(fundamental 2) + 15*(singlet) under the root-sl2 (E27^2=F27^2=0)",
+ "field": "Q(sqrt-3), q=e^{i pi/3}, q^2=q-1, gal:(a,b)->(a+b,-b); all identity checks EXACT (no floats)",
+ "identities_exact": {
+  "relator_abABaBAbaB_is_identity": true,
+  "C_neq_I": true,
+  "C_sq_eq_I": true,
+  "C_commutes_A27": true,
+  "C_commutes_B27": true,
+  "hinge_a_Omega2_eq_A27": true,
+  "hinge_b_Omega_A27_conj_eq_A27": true,
+  "hinge_c_Omega_B27_conj_eq_rho_wB": true
+ },
+ "verified_three_independent_ways": [
+  "this bench BLIND: the minuscule => fundamental-2 inheritance mechanism, from the sealed prereg before memo-29 contact",
+  "cloud sp2_seat.py re-run from golden_gate PRIMARY source: reproduces every identity exactly",
+  "independent own-code ADVERSARIAL (verification/sp2_independent.py): banked B1102/B883 only, rho27 re-certified on all 3003 brackets; non-vacuity checks pass (wrong relator words != I; C-centrality a real 32/40 constraint; E27^2=F27^2=0)"
+ ],
+ "the_theorem": "the exact algebraic closure: the last discrete spin-lift bit (B1122) is ASSIGNED, on-object, consistent with the fermion-capable stratum's INTERNAL structure",
+ "does_NOT_establish": [
+  "the A1 is su(2) INTERNAL to E6 (centralizer su(6)), NOT the 4d Lorentz group",
+  "its +-1 parity is an internal quantum number, NOT a 4d Weyl spinor",
+  "no Pin structure is constructed",
+  "no Dirac operator or index",
+  "no 4d chirality",
+  "three physical generations are NOT proved",
+  "the ten-word inner-modification exhaustiveness (taken on the memo's say-so)"
+ ],
+ "physical_generation_reading": "THESIS-level (the object's-geometry -> physics identification), NOT a theorem; whether the internal assignment is the SPACETIME fermion seat is the unpaid bridge (E6(-26) spacetime branch, B1140). Sharpened by the codex seat's close-out audit (banked there as OA-C1056).",
+ "fences": "fermionic KINEMATICS not dynamics (a Dirac operator/action stays unpaid); a rep-level closure not a field theory; no SM value enters",
+ "b1141_needs_cert_status": "dischargeable from the now-reachable golden_gate beat trilogy (gieseking_beat.py/beat_descent.py/sigma27.py) + the hardened intertwiner cert (all four sign-twisted targets)",
+ "credits": ["cloud seat (memo 29 + hardened cert)", "codex seat (the sharpened fence, OA-C1056)"],
+ "gate5": "n/a (topology/representation theory, no SM value)"
+}

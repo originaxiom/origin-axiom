@@ -1,0 +1,11 @@
+PROBE 1 -- does c-equivariance cut MENU-1's tier-1 menu?
+  all 17 tier-1 atoms are REAL; c = complex conjugation fixes every one;
+  {+,-,*,/,sqrt} preserve reality => EVERY menu value is c-fixed.
+  the filter retains 11720 of 11720: A CUT OF EXACTLY ZERO. Proposal REFUTED at tier 1.
+
+PROBE 2 -- does climbing a->ab,b->a one level up add an invariant?
+  kappa preserved identically at rungs 1..6 (and by the whole K4 of founding rules).
+  bite controls: (X,Y)->(X^2,Y) and ->(XY,XY) do NOT preserve kappa -- the test discriminates.
+  SOURCE: this is B148's banked fact (the Dehn twists tau_a, tau_b preserve kappa),
+  re-derived here in the substitution's own coordinates. NOT a new theorem.
+REPRODUCES

@@ -1,0 +1,107 @@
+{
+ "arc": "B1216",
+ "run": {
+  "agents": 9,
+  "subagent_tokens": 685599,
+  "duration_min": 20,
+  "cells": 4,
+  "survived_verification": 3
+ },
+ "score": "zero rows deleted, one gate written, one regression, one refutation",
+ "prereg_vs_actual": {
+  "predicted_could_close": [
+   "C1",
+   "C3"
+  ],
+  "predicted_sharpen_only": [
+   "C2",
+   "C4"
+  ],
+  "actual": {
+   "C1": "closed NEGATIVELY, enlarged its own row",
+   "C3": "did not close; sharpened to one binary lookup",
+   "C2": "failed adversarial review",
+   "C4": "delivered as predicted -- the only forward motion"
+  },
+  "lesson": "the cell predicted least likely to move is the only one that did"
+ },
+ "corrections_to_our_own_record": [
+  {
+   "target": "B1192/GC-16 supporting clause",
+   "finding": "MB12-VACUOUS -- every anti-conjugator swaps the eigenlines by construction; exhibited for a det +1 (mirror-even, dead) case",
+   "untouched": "the det = -1 sign result, which does discriminate",
+   "pattern": "second MB12-vacuity in a fortnight; both in SUPPORTING CLAUSES, not headlines"
+  },
+  {
+   "target": "B1215 tail enumeration",
+   "finding": "missed (8,8), which also satisfies 16 = 4 mod 12",
+   "corrected_count": {
+    "down_surviving": 2,
+    "lepton_surviving": 1
+   },
+   "conclusion_status": "UNCHANGED -- the lepton leg has strictly fewer"
+  }
+ ],
+ "goal_test": {
+  "met": false,
+  "passes": [
+   "sigma"
+  ],
+  "blocks": [
+   "lambda",
+   "the P^3"
+  ],
+  "out_of_scope": [
+   "l -- dimensionful, permanent boundary, correctly typed"
+  ],
+  "outside_goal": "the c-bit REGRESSED"
+ },
+ "advance_caveat": "dim 0 is a FINITE POINT SET: if the P^3 closes, the row converts from continuous to finite label and joins B990's already-closed category. It does NOT become a unique prediction.",
+ "replan": [
+  "R1 retrieve the Z/12 character assignment (highest leverage; codex holds it), then test ideal membership rather than assuming generic independence",
+  "R2 write the lambda gate -- it blocks because it is UNGATED, not unclosed",
+  "R3 compute the III-type or declare a permanent citation boundary",
+  "R4 the dM linking pairing (GC-23's obstruction is intersection-only)",
+  "R5 doublet-triplet splitting as external",
+  "R6 the sign invariant as a theorem"
+ ],
+ "cells": [
+  {
+   "cell": "C1-partner-canonicity",
+   "outcome": "NEGATIVE",
+   "refuted": false,
+   "finding": "The sqrt(3)-partner is NOT object-forced to be unique, and the admissible-partner family is large at two nested levels. Level 1 (field): the norm-+1 admission test is satisfied by the great majority of real quadratic fields (30/37=81% in a direct scan, and known-infinite by standard density results) \u2014 'norm+1' is the generic condition, not a fine-tuned one. Level 2 (embedding, previously unflagged in this repo's record): even fixing the EXACT SAME field used in B1192's headline pair (disc 12, sqrt3), conjugating the partner matrix within its own GL2(Z)-class while holding the object A fixed changes the outcome \u2014 of 60 sampled relative embeddings, 22 reproduce the headline DIRECT(det=-1) result and 38 fall into a qualitatively different TORSOR regime (no integral realizer exists at all: the pair is GL2(Z)-inequivalent to its own mirror, not merely mirror-odd). The identical DIRECT(det=-1) outcome (single-signed, GL2(Z)-realized, restricting to c the same way M1's does) was independently exhibited and verified for THREE further, distinct discriminants under suitable embedding: disc 21 (17/36 samples), disc 15 (13/36), and disc 13 (23/120) \u2014 the last a genuine norm-(-1) field (fundamental unit 18+5*sqrt(13), norm -1, the same 'self-coupling-killed' type as A's own golden field), directly refuting norm+1 as a necessary condition for the heterogeneous DIRECT(-1) outcome once embedding freedom is admitted. Conversely, a wide 204-embedding scan of the norm-(-1) sqrt(2) control (GC-16's own dead control) reproduced ONLY DIRECT(+1) (mirror-even, dead) or TORSOR \u2014 never DIRECT(-1) \u2014 showing the achievable sign is a field-specific invariant that does not track the unit-norm dichotomy GC-2/GC-16 proposed. Net: 'which pair' is supplied at two levels (field and embedding), neither pinned down by the stated admission criterion, and the criterion itself (norm+1) is shown non-discriminating by a direct counterexample (disc 13). This is exactly the base-rate/generic-to-any-hyperbolic-pair failure mode this repo has hit before (B727/B993/B996); MB12 is satisfied because the search had a real chance of returning 'unique' (it did not fail to find alternatives) and did not.",
+   "remaining_object": null,
+   "overreach": "One real overclaim, narrower than the cell's core result: the write-up states the DIRECT(det=-1) outcome for the three new discriminants (13, 21, 15) was 'verified' as 'restricting to c the same way M1's does.' I grepped every script in /tmp/c1_probe/ for eigenline/Galois-restriction computation (eigen, restrict, Galois, sqrt(13)/(21)/(15) symbolic work) and found none \u2014 only the determinant/mirror-realizability (DIRECT vs TORSOR) profile was actually recomputed for those three fields (other_field_search.py, full_scan_d13.py, verify_d13_witness.py all stop at X0*A*X0^-1==A^-1 / X0*M*X0^-1==M^-1 and det checks). The 'restricts to c' property \u2014 the specific eigenline-swap-on-both-fields computation that made M1's instance physically relevant in B1192 GC-16 \u2014 was never independently rederived for disc 13/15/21. This clause should be struck or the eigenline computation added before the finding is banked; it does not undermine the field-level and embedding-level non-uniqueness claims, which rest only on the (fully reproduced) DIRECT/TORSOR determinant classification."
+  },
+  {
+   "cell": "C2-lambda-quantization",
+   "outcome": "NEGATIVE",
+   "refuted": true,
+   "finding": "\u03bb is NOT arithmetically quantized by any object invariant, and the negative is theorem-shaped, not merely unfound: (a) the \"regulator of \u211a(\u221a\u22123)\" candidate the cell asked about is structurally degenerate \u2014 Dirichlet's unit theorem gives \u211a(\u221a\u22123) unit rank 0, so its regulator is identically 1 for every imaginary quadratic field, supplying no continuous quantity to quantize with; (b) Vol/geodesic-length/Ruelle-Selberg candidates all fail for a common structural reason \u2014 every construction the object's own finite-covolume arithmetic naturally supports lands in one of exactly two Connes types, both of which structurally exclude a periodic III_\u03bb: the Liouville/Anosov-suspension route gives tracial II_1 (\u0394=I, no clock at all \u2014 verified to 1e-41), and the Patterson\u2013Sullivan/geodesic route (the object's own genuine type-III construction) gives III_1 (ergodic/aperiodic, no discrete period to read off \u2014 confirmed two independent ways, B721 \u00a7III and B850's length-spectrum density); getting III_\u03bb requires departing from BOTH of the object's own canonical invariant measures, i.e. importing exactly the external, non-canonical weight B723 already names; (c) no collapse \u03bb=r or \u03bb=\u03b35 is available by TYPE, not just by absence of a found map: r and \u03b35 are finite (\u2124/2 and an 8-element Galois table respectively) while \u03bb is asserted and remains a genuine continuum modulus \u2014 a finite label cannot be the source of a continuum parameter without contradicting the record's own \"\u03bb stays as free/unpinned as \u03c3\" conclusion. The one concrete constructive attempt on record (the BTZ/KMS reduction, B1195/GC-22) independently confirms this by exhibiting the map as a tautological relabeling of B723's own formula, informationless as a derivation \u2014 though its \"excludes the whole category\" claim is itself an overclaim the record's own hostile-verification pass already flagged, so I report GC-22's conclusion at its true, narrower strength (excludes one strawman construction) rather than repeating the overclaim.",
+   "remaining_object": null,
+   "overreach": "\"confirmed two independent ways, B721 \u00a7III and B850's length-spectrum density\" for the object's III_1 outcome \u2014 both cited sources are literature-citations/conditional-and-explicitly-not-sandbox-verified, not independent computed confirmations; also the (c) \"excluded by TYPE\" language overstates what a finite/continuum cardinality mismatch can actually rule out."
+  },
+  {
+   "cell": "C3-lepton-independence",
+   "outcome": "SHARPENED",
+   "refuted": false,
+   "finding": "The entire C3 question collapses to exactly one external, binary, computable-elsewhere fact, which this bench isolates but cannot itself evaluate: do the SU(5) components feeding the down leg (Q via the A-slot, d^c via the B_6-slot) and the lepton leg (e^c via the A-slot, L via the same B-slot, sharing one 5bar-Higgs doublet) carry the SAME internal Z/12 characters, or DIFFERENT ones, in codex's height-308 construction? If SAME (fork a): proved here that det Y_e(h) is not merely correlated with but IDENTICALLY EQUAL to det Y_d(h) as a polynomial (transpose-invariance of det, shape-generic, sympy-verified) -- the lepton determinant supplies literally zero new cut, and B1206's ledger stays stuck at dim 1 with certainty, not just plausibility. If DIFFERENT (forks b/c, the A_11 reading B1215 relays from codex): the lepton tensor is a genuinely independent tensor (not a fixed linear image of T_d), so det Y_e is generically an algebraically independent cubic (also sympy-verified) and the ledger would close to dim 0 -- and the tail-pair count evidence, corrected here (2 surviving down-pairs vs exactly 1 lepton-pair, not B1215's incomplete enumeration but the same conclusion), is consistent with and mildly reinforces \"different.\" Neither this bench nor cloud's holds the actual character assignment; codex's own certificate calls it undetermined at generation level. So: NOT closable here. The adjudication of cloud memo 129 vs B1215 is not \"who is right\" -- both are conditional readings of one un-verified geometric fact, and this cell's contribution is sharpening what that fact is and proving what each of its two answers would force with certainty, plus a small correctness fix to B1215's tail-pair search that leaves its conclusion intact.",
+   "remaining_object": null,
+   "overreach": "Two instances, both narrative/framing rather than result-level: (1) Part 1's transpose-determinant identity is narrated as a tensor-specific 'shape-generic 3x3x4' sympy verification when it is actually the fully generic det(M)=det(M^T) fact true for any square matrix regardless of shape or entries -- true but dressed with unneeded computational machinery. (2) Part 2 is framed as an independent re-derivation 'from the committed spec... rather than from B1215's prose,' but the general formula rho+sigma=(3-chi(A)) mod 12 and its application to chi(A)=7 and chi(A)=11 already appear verbatim in B1215's own FINDINGS.md, so this is substantially a re-verification of B1215's existing derivation, not a fresh bypass of it; the only new content is the caught-but-non-load-bearing (8,8) pair."
+  },
+  {
+   "cell": "C4-boundary-character",
+   "outcome": "SHARPENED",
+   "refuted": false,
+   "finding": "**1. THE EXACT SPECIFICATION of the missing object.**\n\nThe bridge needs a single object, call it \u03c7_\u2202 \u2014 the graded character of the AdS\u2083-boundary chiral algebra realized as the T[m004] cusp CFT \u2014 meeting ALL of the following simultaneously (this is the full kind-map, sharpened past B1191's K1\u2013K3 with the modular-weight and 6-vs-1 clauses spelled out):\n\n- **(K1) Named module.** \u03c7_\u2202 must be (or provably reduce to) the character of a stated highest-weight module M of a stated chiral algebra \ud835\udd0a at a stated central charge c. \"Stated\" means c is a specific rational number fixed independently of \u03c7_\u2202 itself (not read off after the fact).\n- **(K2) Correct prefactor.** \u03c7_\u2202(q) = q^{h\u2212c/24}\u00b7(non-negative integer power series in q), where h is M's own conformal weight under \ud835\udd0a's own Sugawara/quantization \u2014 not an arbitrary exponent shift chosen to make a match work.\n- **(K3) Non-negativity, the vacuity check.** Stripped of the q^{h\u2212c/24} prefactor, every coefficient must be a non-negative integer (graded dimension count). This is definitional and is the single cheapest necessary-condition test \u2014 apply it FIRST to any candidate, before K1/K2, because it kills candidates for free.\n- **(K4) The target central charge is fixed, not free.** c must equal 6 exactly \u2014 this is the whole content of \"proving the stage CFT is (E\u2086)\u2081\": c((E\u2086)\u2081) = 78/13 = 6 and c_BH = 6\u03c3, so \u03c3=1 is EQUIVALENT to accepting a c=6 \u03c7_\u2202 as the object's own boundary datum. A candidate at any other c is not a competitor for this slot regardless of how well it otherwise fits.\n- **(K5) The 6-vs-1 Cardy quantifier.** Independent of any exact character match, \u03c7_\u2202's asymptotic growth (Cardy formula, or the finite-N growth-rate estimator already built in GC-6) must recover c_eff \u2192 6, i.e. SIX independent cusp-boson units of high-temperature entropy. The one object-side construction that is banked and typed at the cusp (B262's T[4\u2081]: one U(1) gauge + one U(1)_m flavor on the single cusp) supplies exactly ONE such unit. So the object as currently understood is short by a factor of 6, and any candidate for \u03c7_\u2202 must explain WHERE the other five units live (five more cusps, an internal quantum number with 6-fold multiplicity, a non-abelian enhancement of the existing U(1) \u2014 the object doesn't yet name it).\n- **(K6) It must be the object's own datum, not imported.** \u03c7_\u2202 has to arise from the m004 cover/family's own arithmetic (its cusp shape field \u211a(\u221a\u22123), its holonomy, its Chern\u2013Simons/WRT data, its cover lattice) \u2014 not a WZW model picked because its central charge happens to sum to 6. B1195/GC-23 shows the most literal candidate route (E\u2086 realized as a boundary lattice Gram of some cover's cusp-torus H\u2081) is basis-independently obstructed for the intersection/Euclidean pairing (cusp boundaries are always orthogonal direct sums, E\u2086 is indecomposable) \u2014 though the verify-lens correctly flags this as NOT a universal exclusion, since the Poincar\u00e9\u2013Lefschetz linking pairing on \u2202M (relevant to any CS-level construction) was never computed and is not generically block-diagonal. That linking-pairing computation is itself a concrete, currently-unrun sub-task that could either reopen or finally close the lattice route.\n\n**2. THE SURVEY.** Repo-wide search (this session, `grep -rIl` across `frontier/` and `docs/` for q-series/q-expansion/theta/character/WZW/Cardy/Kac\u2013Moody/Habiro/Rogers-Ramanujan/eta-quotient/partition-function/Eisenstein terms, cross-checked bank-by-bank for anything post-dating B1191) turns up nothing beyond what B1191/GC-12 already catalogued. Restating that survey's dispositions, each with its exact failure reason:\n\n- **B672's weight-5 doublet** (comp1=q^{2/5}\u00b7(q;q)_\u221e^9\u00b7N1, comp2=q^{3/5}\u00b7(q;q)_\u221e^9\u00b7N2, N1,N2 built from Rogers\u2013Ramanujan G,H) \u2014 the ONLY genuine banked object-side formal q-power series in the repo. FAILS K3: independently reproduced here \u2014 comp1=[1,\u22129,26,\u22124,...], comp2=[1,\u221210,36,\u221239,...], both negative at the very first nontrivial term. Its apparent K2-level match (bare prefactor exponents 2/5, 3/5 rewriting to the exact Lee-Yang/(2,5)-model leading exponents \u22121/60, 11/60 after removing an \u03b7^10=(q;q)_\u221e^10 cofactor) is real arithmetic but moot \u2014 K3 already disqualifies the item, and B685's own banked verdict separately shows the RR/denominator-5 structure was never object-derived in the first place (it required an assumed, not object-derived, Nahm datum A=2).\n- **B441 (WRT invariants \u03c4_r)** \u2014 discrete algebraic-number evaluations in \u211a(\u03b6_{4r}) per odd r; no q-variable, no series exists. NOT-COMPARABLE (wrong kind, not a near-miss).\n- **B384/B1116 (Kashaev \u27e84\u2081\u27e9_N tower)** \u2014 N-indexed algebraic-number sequences / an asymptotic growth rate recovering the hyperbolic volume; not a q-power series of a graded module. NOT-COMPARABLE.\n- **B240 (golden colored-Jones integrality)** \u2014 a 4-number table at one fixed root of unity q=e^{2\u03c0i/5}; no series in a formal q. NOT-COMPARABLE.\n- **B685/B800/B839 (GSWZ Habiro/state-integral \u03a6(\u0127)\u03a6(\u2212\u0127))** \u2014 perturbative expansion in \u0127 around a hyperbolic saddle; arithmetic content is 3-adic valuations of denominators; no stated central charge, no conformal weight. NOT-COMPARABLE.\n- **B1090 (Andersen\u2013Kashaev quantum state integral)** \u2014 a continuum quantum-dilogarithm integral over a real parameter; no q-expansion at all. NOT-COMPARABLE.\n- **B854/B866 (E\u2086 centralizer bracket / S\u2083 charge cubic)** \u2014 pure Lie-bracket and discrete-invariant computations; zero q-series content (confirmed by reading both FINDINGS.md in full). A previously-flagged false lead, now closed.\n- **B762 (self-naming Hecke palette {1,2,8})** \u2014 discrete arithmetic invariant tuple, not a q-series. NOT-COMPARABLE.\n- **The E\u2086-lattice cusp-Gram route (B1195/GC-19, GC-23)** \u2014 not a q-series candidate at all but the nearest STRUCTURAL near-miss for K6: an attempt to source E\u2086's rank-6 lattice directly from a cover's boundary geometry. CHECK-FAILS at the reach searched (0/10 three-cusp 112-family members match E\u2086's determinant 3, though 14/30 individual per-cusp determinants hit exactly 3) and structurally for the natural (Euclidean/intersection) pairing \u2014 but the verify-lens correctly holds this open pending the untested linking-pairing construction, so it is PARTIAL, not a closed exclusion.\n\nNo other candidate \u2014 new or old \u2014 anywhere in `frontier/` or `docs/` is even syntactically a q-series with graded structure. **The survey is confirmed current and exhaustive to this session's independent check: zero candidates pass K3, let alone the full K1\u2013K6 stack.**\n\n**3. THE PASS/FAIL GATE (pre-written for any future candidate).** Given a claimed \u03c7_\u2202(q):\n  Step 0 (cheapest, run first): strip the stated prefactor q^{h\u2212c/24}; if any coefficient of the remaining series is negative or non-integer at any order computed \u2014 REJECT (K3 fails, stop; do not proceed to K1/K2/K4/K5).\n  Step 1: confirm c is stated independently of \u03c7_\u2202 and equals 6 exactly (K4) \u2014 if c is chosen post-hoc to fit, REJECT.\n  Step 2: confirm h equals the module's own Sugawara/quantized conformal weight under the named \ud835\udd0a at that c (K2) \u2014 if h is a free-fit exponent, REJECT.\n  Step 3: confirm \ud835\udd0a/M are named and independently attested (K1) \u2014 an ad hoc \"series that happens to work\" without an identified algebra is REJECTED as numerology regardless of numeric fit.\n  Step 4: confirm \u03c7_\u2202 is derived from the object's own cover/cusp/holonomy/CS data (K6), not imported from an external CFT chosen for its central charge \u2014 cite the exact derivation.\n  Step 5: run the Cardy/finite-N growth estimator (already coded in GC-6) on \u03c7_\u2202 and confirm c_eff \u2192 6 (K5), and state explicitly which cusp(s)/mechanism supply the missing 5 units beyond B262's one.\n  A candidate passing all five steps CLOSES L154's remaining bridge and converts \u03c3 from an input to a derived quantity (deletes one row from the input floor). A candidate failing any step is logged with the step number and reason, exactly as B672 is logged here as a Step-0 failure.",
+   "remaining_object": null,
+   "overreach": "The label \"SHARPENED\" packages mostly-cited prior content (K4 c=6, K5 Cardy 6-vs-1, K6's E6-lattice cite) alongside one genuinely fresh but redundant computation (a third independent re-derivation of B672's coefficients, already done twice before). This is closer to a synthesis/formalization pass than a new discovery, though the claim does not misrepresent this -- it explicitly marks each piece as CITED vs COMPUTED."
+  }
+ ],
+ "survived": [
+  "C1-partner-canonicity",
+  "C3-lepton-independence",
+  "C4-boundary-character"
+ ]
+}

@@ -1,11 +1,19 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Review 52 currency (2026-08-28, anchor 8aa71f07):** the grand-computation campaign — L188 CLOSED (B1199); **L190's direction corrected** (reach DEFICIT, B1188); the eight-item existence-audit list dispositioned (B1194–B1196); the Φ₃ unification (B1200). Next lead: **L192**.
+>
+> **Review 51 currency (2026-08-28, anchor 411fb260):** in-window: **L186 CLOSED (THREE — B1185)**; **L187 CLOSED (B1187**, the depth-closure sitting; E52 filed); **L190–L191 registered** (Ω's structured non-genericity; the B502 witness). Next lead: **L192**.
+>
+> **Review 50 currency (2026-08-27):** in-window: **L171 CLOSED (MOOD** — CLPW verified 8/8 by cc3, 4/4 spot-verified here; the reason moved to KMS/B721-complementary); **L173's precision column re-posed as a COUNT** (the mode-count observable commissioned, addendum-beside); **L185–L188 registered** (the qor5up residue; the three Yukawa mechanisms; the depth-closure backlog; the selection-cochain six claims). Next lead: **L192** (L190–L191 registered 2026-08-28, B1187). The register's Wave-3 head is the ℤ/2-identification cell (R50-3).
+
+> **Review 49 currency (2026-08-26):** all three seams walked (L182) — SEAM-B discharged, SEAM-Y MISMATCH, **SEAM-A the one live crossing**, now **sharpened to a precise FLOOR** by B1156 (WF-1): the a-priori MISMATCH is refuted (a finite-truncation theorem, not a codomain wall — the full/Arakelov arith-CS carries Vol as the Borel regulator); the one open bar is the finite-phase→Vol map (Andersen–Hansen closed→cusped, NEEDS-SPECIALIST). **B1157** (WF-2 the dynamics): the ∞-place "dynamical law" reading is **structural rhyme** (firewall upheld — generic to any hyperbolic 3-manifold, never the arithmetic); the decidable substance is that H\*(m004;Sym²ᵐ) is never acyclic, refuting the closed-Fried antecedent of cc3's B8142b (its reflection stays conditional; cusped Park/Pfaff is the live framework). L183 (reproducer sweep) + L184 (collection lazy-fy) are the standing hygiene leads.
+
 *Review 48 (2026-08-22, anchor 79e513a9): value campaign CLOSED (disjoint on periods; **B1134 THE SIMULTANEOUS CLOSING** banked). NEW live leads: **(R48-3) values-as-regulators** — compute the reachable-untested regulators (ζ_K(3), ζ_K(4), the rank-1 ℚ(√−3) ladder; ζ_F(3), E₈ end) in the FORCED J₃(𝕆) domain (B1134's 64 fixed dimensions), sealed vs SM ratios (firewalled); **(R48-2) the golden-meridian LAW_MAP scoping** — verify cc3's B8124/B8126 (the tone-third is a for-any-φ identity) and narrow T-GOLDEN-MERIDIAN to the off-tone (w_x, w_z) components. See docs/progress/REVIEWS.md Review 48.*
 
 *Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
 
 
-*Review 47 currency (2026-08-20, anchor 61499dfe): the lead register reviewed at the window's close — L79 closed (B1086); L167–L170 all closed (the harvest); L171–L173 registered with L173 differential-first; L174's C1–C4 banked; THE HATCH row updated (B1098; B1100 running with the reality check per the audit seat's B959 flag). As of 2026-08-19: L167–L170 REGISTERED (the audit-seat harvest queue — every entry re-derives under a main-band arc before use, integrate-don't-merge; the seat's own branch numbers its twins L166/L167, alias table disambiguates); main's next lead L175 (L171–L174 registered 2026-08-19). Prior: L166 REGISTERED 2026-08-18 (the listener map — `docs/LISTENER_MAP_SPEC.md`; answered within 48h, see its STATUS ADDENDUM). Prior: L160 closed (B1041); the digest renumbers qL155–qL166 at B1060 (qL-numbers are the branch's — the alias table disambiguates); stamp history: refreshed 2026-08-14 (was stale at L161 since Review 45).*
+*Review 47 currency (2026-08-20, anchor 61499dfe): the lead register reviewed at the window's close — L79 closed (B1086); L167–L170 all closed (the harvest); L171–L173 registered with L173 differential-first; L174's C1–C4 banked; THE HATCH row updated (B1098; B1100 running with the reality check per the audit seat's B959 flag). As of 2026-08-19: L167–L170 REGISTERED (the audit-seat harvest queue — every entry re-derives under a main-band arc before use, integrate-don't-merge; the seat's own branch numbers its twins L166/L167, alias table disambiguates); main's next lead **L189** (L171–L174 registered 2026-08-19). Prior: L166 REGISTERED 2026-08-18 (the listener map — `docs/LISTENER_MAP_SPEC.md`; answered within 48h, see its STATUS ADDENDUM). Prior: L160 closed (B1041); the digest renumbers qL155–qL166 at B1060 (qL-numbers are the branch's — the alias table disambiguates); stamp history: refreshed 2026-08-14 (was stale at L161 since Review 45).*
 
 A registry of **open leads**: directions named but not yet run, ranked by value and tractability. This is a
 *pointer file*, not a results file — nothing here is a claim, nothing promotes to `../CLAIMS.md`. Each lead is a
@@ -508,7 +516,7 @@ fix (every named open gets a row or it evaporates).
 | **L70 — THE REOPENED SELECTOR** *(reg. as "L59", renumbered)* | Along the θ-odd deformations (u₄ first): the Zariski closure of the deformed representation — and does the 27 become complex under it? Exponent arithmetic gives exactly two chiral destinations: **D₅ and A₅** (the only subalgebras with exponents ⊇ {1,4}). If D₅: the chiral 16 becomes holonomy-visible for the first time. Method: extend the B575 machinery to second order (the correction certificates exist), compute the closure's Lie algebra as the smallest bracket-closed subspace containing sl₂ + the u₄-image. | MATH | ★★★★ | **CLOSED-POSITIVE (B576, 2026-07-14): the closure lattice = F₄-substrata ∪ {full e₆}; θ-odd activation forces full E₆ (all six channels nonzero, exact) where the 27 is CHIRAL; θ-even stays vector-like. The D₅/A₅ scenario was a framing error (not block-sums). Succeeded by the pre-existing L53 (Massey; machinery exists) and L71.** **B577 NOTE: B265 had ALREADY proved the density dichotomy over ℚ — B576 is the completeness upgrade (block-sum lattice + forcing + parity-converse).** |
 | **MERGED into the pre-existing L53** (third-order Massey — the row below already scoped it with the B352 machinery) | Beyond second order: Massey obstructions or the Porti-style smoothness theorem for the E₆ principal composition (the SL(n) proof's boundary/duality argument transferred). Closes B575/B576's standing caveat; also the PC26 verification gate. | MATH | ★★★ | OPEN — first in the queue |
 | **L71 — what ARE the θ-odd deformations?** *(reg. as "L61", renumbered; NOTE: B270 banked "deformations are cusp deformations" — start there)* | The deformed reps are not discrete faithful. Their geometric meaning (Dehn-surgery-adjacent? complex-projective structures? quasi-Fuchsian-like family?), and whether the object's own σ-coupling (the orientation residue) singles out a preferred θ-odd direction — the physics-side question, firewalled. | MATH | ★★★ | OPEN |
-| **L63 — Q-C transport (SHARPENED by B578-D2: the deliverable is the constructed transport MAP from the B469 residue object into the E₆ structure — elimination arguments do not discharge it; a potential in-lineage conflict flagged by the verifier must be resolved in the same pass)** | Does the B469/B303 orientation residue transport through the GEOMETRIC holonomy as c or as θ? (C5QC quarantined: tautology on the wrong object; the honest computation is open.) | MATH | ★★★ | OPEN (B570/B571) |
+| **L63 — Q-C transport (SHARPENED by B578-D2: the deliverable is the constructed transport MAP from the B469 residue object into the E₆ structure — elimination arguments do not discharge it; a potential in-lineage conflict flagged by the verifier must be resolved in the same pass)** | Does the B469/B303 orientation residue transport through the GEOMETRIC holonomy as c or as θ? (C5QC quarantined: tautology on the wrong object; the honest computation is open.) | MATH | ★★★ | **CLOSED (B1174/B1182, adjudicated B1189/GC-5): the residue transports as c, not θ** — the mirror acts on traces as conjugation on K (c = Gal(K/ℚ)'s generator, the orientation leg); θ = k5, the value-kernel — a different leg. Was: OPEN (B570/B571) |
 | **L64 — V2 Fox-calculus H¹** *(note: B575's G4 gates ARE an exact Fox-calculus recomputation of the six dims — the second method exists; what remains is the MFP citation for PC25)* | Independent second method for H¹ = 6 + the θ-grading (Fox calculus / Menal-Ferrer–Porti route) — the PC25 strengthener. | MATH | ★★ | OPEN (B572/B573) |
 | **L65 — V3 orbits ↔ three 16s** | Do B299's triality orbits correspond to three 16s of Spin(10) under G_SM (not just abstract ℤ₃ orbits)? Note: lives on the Spin(10) side of the unpaid weld. | MATH | ★★ | OPEN (B572) |
 | **L66 — V5 global duality — CLOSED (B578-D10): the biconditional holds for reductive G with descent obstruction Ĥ⁰(Gal, Z(G)) = ℤ/gcd(2,N); for E₆ (Z=μ₃) TRIVIAL — unconditional. The PC25/PC26 citation theorem exists.** | The global gap⟺chirality theorem with the Galois-descent fine print (C2 banked the SL(2,ℂ) biconditional; the global version open). | MATH | ★★ | OPEN (B570-C2) |
@@ -667,7 +675,7 @@ condition that let the whole Maass thread run unconnected for four arcs.*
 
 > **Review 34 (2026-07-30)** — bearing on lead selection: the (face, motif) plane is **saturated** (B808), so absence from it is not a gap; and the atlas lexicon is **frozen at 2026-07-01** (B806), so absence from the atlas is not evidence of absence.
 
-> **L110 — the CS↔θ_QCD dictionary has NO registered obligation set (opened 2026-07-30, B812).**
+> **L110 — the CS↔θ_QCD dictionary has NO registered obligation set (opened 2026-07-30, B812).** *(ID-COLLISION NOTE, B1176/R50-4: this CLOSED lead shares its number with the LIVE Maass row "the parent r₂-above-10 question" in the R32-8 table above — two distinct leads, one id; read "L110-CSθ" here vs "L110-Maass" there; no renumbering, per append-only.)*
 > B812's map found θ_QCD = 0 to be its **most advanced** target: dimensionless (no scale needed), it
 > supplies the *symmetric point* rather than a fitted value, **amphichirality is genuinely
 > manifold-level** (m003 is not a knot), and **`CS = 0` is computed and banked** (B286/B289/B303).
@@ -740,8 +748,8 @@ clause, not the whole normalisation.
 ### Re-registrations from the cc3 loss audit (2026-08-05) — dropped forward obligations, each one row
 | id | lead | source | status |
 |---|---|---|---|
-| L113 | **The BC/CMR successor question** — is the β=1 system a BC/CMR-type system for K = ℚ(√−3)? The sole load-bearing assumption behind the level mismatch; if YES, B723's central identification fails unconditionally. cc3's branch holds the ℚ(√−3) groundwork (ray class mod (4) = ℤ/2; the Bianchi-BC verified negative + its structural reason). | B851 §3; phantom B858 | **RESOLVED 2026-08-07 by B942 — OUTCOME YES; the kill condition EXECUTED** |
-| L114 | **The ι-status question (H-B787-IOTA), promoted** — decides whether the torsor measurement and the FMT measurement are one object; cc3's τ-parity prototype (L111) is the instrument. | B787; audit A3 | OPEN — cc3 assigned (their D4) |
+| L113 | **The BC/CMR successor question** *(ID-COLLISION NOTE, B1176/R50-4: this 2026-08-05 re-registration collided with the earlier L113 = cc's B798 algebraicity/100-digit box, which remains OPEN in the R32-8 table; read "L113-BC" here [RESOLVED by B942] vs "L113-alg" there [OPEN]; the B921-4 "COVERED: = L113" pointer refers to THIS row, L113-BC.)* — is the β=1 system a BC/CMR-type system for K = ℚ(√−3)? The sole load-bearing assumption behind the level mismatch; if YES, B723's central identification fails unconditionally. cc3's branch holds the ℚ(√−3) groundwork (ray class mod (4) = ℤ/2; the Bianchi-BC verified negative + its structural reason). | B851 §3; phantom B858 | **RESOLVED 2026-08-07 by B942 — OUTCOME YES; the kill condition EXECUTED** |
+| L114 | **The ι-status question (H-B787-IOTA), promoted** — decides whether the torsor measurement and the FMT measurement are one object; cc3's τ-parity prototype (L111) is the instrument. | B787; audit A3 | OPEN — cc3 assigned (their D4)  **ADJUDICATED (B1189/GC-5): B786 (the OBJECT's self-dual torsor — rank unconditionally 3, ι≡θ there) and B787 (the AMBIENT SL(3) variety — ι a genuine 4th involution) answer DIFFERENT questions; no contradiction. The real question (is ι a MEASUREMENT operation) stays open, correctly cc3-assigned.**|
 | L115 | **The a_π census** — Cell 2's CM-vs-construction discriminator (~10 primes, density-½). | cc3 branch cell2 | OPEN — cc3 assigned (their D3) |
 | L116 | **The Steil 1999 read** (IMA 109, 617–641) — class labels for the lift question. | registered source, never read | OPEN |
 | L117 | **Parity census + J-normalization** — Cell 1's remaining piece. | cc3 branch | OPEN |
@@ -1872,9 +1880,9 @@ prereg (CROSSING_REQUIREMENTS R1–R11 + the twelve as rows; the location clause
 
 | lead | statement | falsifiable shape | priority |
 |---|---|---|---|
-| **L171 — the CLPW crossed-product bridge** | B721's banked negative (the object+observer algebra is tracial type II₁, trivial modular flow, thermal time fails on the identity) may be the FINGERPRINT of an observer-included algebra: Chandrasekaran–Longo–Penington–Witten (2022–23) show the observer crossed product converts de Sitter's type III to type II — II₁ for the static patch, with the tracial state as the maximum-entropy equilibrium. The bridge arc maps our observer-coupling algebra onto the CLPW construction. **MATCH/MOOD typed IN ADVANCE (the trap: hyperfinite II₁ is unique, so a coarse structural match is near-vacuous): MATCH requires a non-generic contact — what our crossed product is over, where B1040's machinery lands on their observer clock; anything less is MOOD and banks as consistent-not-distinctive.** WebFetch arXiv 2206.10780 + successors. | The typed MATCH criteria either exhibit or fail; either banks. | ★★★ (cheap; publishable contact surface if MATCH) |
+| **L171 — the CLPW crossed-product bridge** | B721's banked negative (the object+observer algebra is tracial type II₁, trivial modular flow, thermal time fails on the identity) may be the FINGERPRINT of an observer-included algebra: Chandrasekaran–Longo–Penington–Witten (2022–23) show the observer crossed product converts de Sitter's type III to type II — II₁ for the static patch, with the tracial state as the maximum-entropy equilibrium. The bridge arc maps our observer-coupling algebra onto the CLPW construction. **MATCH/MOOD typed IN ADVANCE (the trap: hyperfinite II₁ is unique, so a coarse structural match is near-vacuous): MATCH requires a non-generic contact — what our crossed product is over, where B1040's machinery lands on their observer clock; anything less is MOOD and banks as consistent-not-distinctive.** ~~WebFetch arXiv 2206.10780 + successors~~ **CLOSED (MOOD) 2026-08-27, B1171:** cc3's B8145 verified the B8093 typing against the CLPW source **8/8** (eq. 24 Π=Θ(q), eq. 25 Tr 1=1 verbatim; observer clock H_obs=q≥0 on L²(ℝ₊); ρ_max=1) — cc spot-verified 4/4 by independent fetch. MOOD stands **with the reason moved**: the successor (arXiv 2308.03663) drops the ergodicity engine, so B8093's disanalogy (a) is CLPW-scoped; the disanalogy *relocates* — the successor's engine is KMS-traciality, and **B721 places our tracial state complementary to, not inside, the KMS torsor**. Banks as consistent-not-distinctive, exactly per this row's own pre-typing. | The typed MATCH criteria either exhibit or fail; either banks. | ~~★★★~~ **CLOSED (MOOD; B8145 + B1171)** |
 | **L172 — the golden-gate dictionary** | The figure-eight braid as the golden gate: verify Jones(4₁; e^{2πi/5}) = 1−√5 in-sandbox; then type the torsor→device dictionary — which gates and which asymmetries a Fibonacci-anyon device can natively realize (forced vs free as universality/magic-state statements). Ties to the banked κ-quasicrystal bridge and the golden TQFT family. | The Jones value is exact; each dictionary row is a theorem-or-counterexample. | ★★ (cheap first arc) |
-| **L173 — the edge-prediction prereg SPEC** **SEALED 2026-08-21 (B1106; docs/EDGE_PREREG_SPEC.md; digest in SEAL_LEDGER; C-GEN run+passed pre-seal; the owner's D-2/D-3 executed — the aperiodic unseal RESOLVED: two crossings, one apparatus; the tone lane is L178).** *(DISCIPLINE ADDED 2026-08-20, the audit seat's warning adopted + B1095's computation: the prereg's FIRST paragraph must state what gap labeling + bulk–boundary already force for the same configuration and where we differ, BEFORE any comparison — B724 transposed to the experimental lane; the differential's computed content: the cross-hand mirror-isospectral split, not the counts)* | B1085's ρ-scan as a preregistered laboratory prediction for photonic/polariton Fibonacci chains (topological pumping scans the cut phase ρ directly): the prediction is the FUNCTION ρ ↦ edge content, gap-labeled (IDS values in the Fibonacci gaps), two hands = the two sides of one cut. SPEC ONLY until the aperiodic design's owner-pending unseal resolves whether this and the trace-map-RG channel (Kohmoto exact RG; critical exponents menu-shaped, kind-correct) are the same crossing. | Each (ρ, gap) cell predicts a definite edge count/energy; a chain measurement decides it. | ★★★★ (the laboratory road; GATED on the owner's aperiodic unseal for the seal step) |
+| **L173 — the edge-prediction prereg SPEC** **SEALED 2026-08-21 (B1106; docs/EDGE_PREREG_SPEC.md; digest in SEAL_LEDGER; C-GEN run+passed pre-seal; the owner's D-2/D-3 executed — the aperiodic unseal RESOLVED: two crossings, one apparatus; the tone lane is L178).** *(DISCIPLINE ADDED 2026-08-20, the audit seat's warning adopted + B1095's computation: the prereg's FIRST paragraph must state what gap labeling + bulk–boundary already force for the same configuration and where we differ, BEFORE any comparison — B724 transposed to the experimental lane; the differential's computed content: the cross-hand mirror-isospectral split, not the counts)* | B1085's ρ-scan as a preregistered laboratory prediction for photonic/polariton Fibonacci chains (topological pumping scans the cut phase ρ directly): the prediction is the FUNCTION ρ ↦ edge content, gap-labeled (IDS values in the Fibonacci gaps), two hands = the two sides of one cut. SPEC ONLY until the aperiodic design's owner-pending unseal resolves whether this and the trace-map-RG channel (Kohmoto exact RG; critical exponents menu-shaped, kind-correct) are the same crossing. | Each (ρ, gap) cell predicts a definite edge count/energy; a chain measurement decides it. | ★★★★ (the laboratory road; GATED on the owner's aperiodic unseal for the seal step) **· PRECISION COLUMN RE-POSED 2026-08-27 (B1171, from cc3's B8146 NEGATIVE):** the banked prediction is a **COUNT** (ρ ↦ edge content, 5-vs-6 at ρ=α), not an energy — so "what energy resolution is standard" was mis-posed; the anchor (arXiv 1403.7124: 13–28 waveguides, ~π/6 phason steps, no error bars, qualitative mode-ID) is *"a demonstration paper, not metrology."* **The program supplies the KNOB (the phason = our intercept), not the READOUT.** The spec's §4 R6 is re-posed by addendum-beside (`docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md`): commission a **mode-count observable in a labelled gap** (enough sites to separate 5 from 6), not a resolution threshold. |
 
 ## L174 — THE 3D COMPLETION CAMPAIGN (registered 2026-08-19 at the owner's election; full treatment and exploration)
 
@@ -1968,4 +1976,168 @@ relay-debt gate does this accounting one layer up (`docs/RELAY_LEDGER.md`); **no
 layer**. THE CELL: a gate that scans banked arcs' FINDINGS/verdicts for cited artifacts not present
 in the working tree (hence not on either remote after push) and lists them as debts until resolved.
 Not urgent here (memo 26 + Lane C were NOT banked — no debt incurred; the rule is prospective).
-cc3 credited. ★★ (hygiene/provenance, not math).
+**RESOLVED (B1144, 2026-08-25):** the reachability gap that motivated this is closed — golden_gate
+is a *separate public repo* (invisible only because this checkout's key is origin-axiom-scoped; now
+reachable fetch-only via anonymous HTTPS), and the cloud now pushes `outside-bench` to
+origin, so cited artifacts are fetchable. The push-before-cite rule stands as the prospective guard;
+the "debt" framing on 449ece8 is cleared. cc3 credited. ★★ (hygiene/provenance, not math).
+
+## L182 — THE THREE SEAMS: the make-or-break crossings, sealed and named (registered 2026-08-26; source `frontier/B1146_seam_b/THREE_SEAMS_PREREG.md`, sha e699ebc79c06a823)
+
+**STATUS UPDATE (2026-08-26) — all three seams now WALKED:** SEAM-B **DISCHARGED** (B1146, the −I on 27 & 78). SEAM-Y **RESOLVED = MISMATCH** (B1154: codex's up-Yukawa=0 is a cohomological emptiness, ours an arithmetic non-overlap — two independent walls, both confirming structure-not-values). SEAM-A (the prize) **INDETERMINATE = OPEN** (B1155: Gate 1 met, **Gate 2 — the full arithmetic-CS action of m004 — the missing gate**; the √3 hinge banked). **The one live crossing is SEAM-A.** Provenance debt flagged: codex's primary derivations are off-branch/unversioned.
+
+**SHARPENED (2026-08-26, B1156 — WF-1 adversarial workflow, 10 agents):** SEAM-A Gate 2 is now a **precise FLOOR**, and B1155's "leaning MISMATCH" is **withdrawn**. The a-priori MISMATCH — "arith-CS is torsion-valued (1/n)ℤ/ℤ, so it cannot reach the real transcendental Vol" — was **refuted (2 of 3 lenses)**: it is a theorem about the **finite μ_n-coefficient truncation only** (Artin–Verdier), secured solely by *defining* arith-CS to be that truncation. The **full/Arakelov-compactified** arithmetic CS over the closed Spec O_F=ℤ[√−3] (∞-place included) carries a **real archimedean summand = the Borel regulator of ξ=[e^{iπ/3}]∈K₃(ℚ(√−3)) = Vol** — the codomain contains ℝ; the wall is truncation-dependent (this *echoes* B1108, re-verified). MATCH is not sealable either (no map finite-phase→Vol is constructed). Category correction: arith-CS is a functional of a **field + Galois rep**, not "of m004"; the one class ξ has three completions (archimedean→Vol, finite→torsion, p-adic→GSWZ), and **B800 is the p-adic one, not the finite Kim action**. **The one open bar** is now named exactly: extend **Andersen–Hansen**'s proved root-of-unity↔Vol crossing from closed Dehn surgeries on 4₁ to the **cusped** m004, and decide whether the archimedean summand gives a genuine map sending codex's finite order-6 phase to Vol vs merely relabeling Vol as the regulator — two specialist sub-bars: (i) object side (a stationary-phase/CS bridge with content when CS=0 by amphichirality, B1108's unwalked door); (ii) codex side (the marked H³ basis/period/Ω normalization OA-C1045/C1053 record as ABSENT). Still NEEDS-SPECIALIST — but a sharp bar, not a leaning negative.
+
+**THE ∞-PLACE DYNAMICS TYPED (2026-08-26, B1157 — WF-2, 8 agents):** the *dynamical/spectral* reading of the ∞-place (the geodesic-flow Ruelle zeta, the analytic torsion — cc3's B8142/B8142b "the graviton's factors sit inside the analytic torsion") is **STRUCTURAL RHYME, NOT a crossing** (firewall upheld). All of it — the Sym-power factorization R_{ρ(m)}(s)=∏R(s−j,σ_j), H1=H2=#cusps, the exp(−4Vol/π) damping — is **generic to any finite-volume hyperbolic 3-manifold** (holonomy + volume only, never ℚ(√−3)/E₆/ξ); the story survives swapping m004 for a non-arithmetic knot verbatim (B996's "reaching E₆ is generic" at the ∞-place). The Vol shared by B1156 (regulator) and B8142b (damping) is the tautology Vol(M)=Vol(M). **Decidable substance (own-verified, useful to cc3):** H\*(m004;Sym²ᵐℂ²) is **never acyclic** ((0,1,1) for m≥1; Sym²ᵐ of the parabolic peripheral holonomy = a single Jordan block → a 1-dim invariant line shared by μ,λ → H0(T²)=1 → half-lives-half-dies → H1=H2=#cusps=1; triply corroborated incl. B581), so the **closed-Fried antecedent of cc3's B8142b is refuted** — its reflection formula stays conditional, and the live framework is the **cusped Park/Pfaff / Cappell–Miller complex-orthogonal** torsion (ρ(m) orthogonal-not-unitary). Residue-2's sharpened bar: (i) the leading Laurent coefficient at s=0 in that orthogonal torsion; (ii) the Park/Pfaff cusp correction as an equation = exp(−4m·Vol/π) (φ(s)=Λ_K(s−1)/Λ_K(s) in hand); (iii) the s↔2−s functional equation. Relayed to cc3 (incl. the exact_check.py line-39 crash).
+
+The prereg (three-bench, sealed) names the three load-bearing crossings the chain
+not-nothing→…→SM structure→the values now rests on. **SEAM-B** (2T = the object's own
+beat/−I) is DISCHARGED — B1146 (the −I visible on the 27 AND the 78) + cloud memo 34
+(PROJECTIVE⟺EVEN). Two remain OPEN, and they are the campaign's highest prize:
+
+- **SEAM-Y — the up-Yukawa ≡ the value wall.** Codex's independent result: the up-type
+  Yukawa is forced to **0** by the same disjointness that makes the ten SM values
+  non-derivable (the object supplies the coupling SHAPE — B1148 memos 47/48 — never the
+  value). The seam: is codex's up-Yukawa=0 the SAME theorem as the value-negatives, or a
+  distinct no-go? Typed before running; a MATCH links the flavor sector to the value wall.
+- **SEAM-A — heterotic = the archimedean ∞-place (THE PRIZE).** The adelic thesis
+  (Vol = 9√3·ζ_K(2)/π²) reads the finite places as the arithmetic and the ∞-place as the
+  physics; the conjecture is that the heterotic string on the object's data IS the
+  archimedean completion. Codex's conditional MSSM-spectrum sketch lives here. **Wholly
+  unrun; a crossing needs a derivation + a null test** — the L46 firewall binds (structural
+  rhyme is the null hypothesis; same E₈ algebra ≠ same role).
+
+Also registered: **codex's five §9 challenges** to SEAM-B (each a sharpening/stress-test of
+the beat=−I identification; the principal-sl2 blindness one already defused as off-target in
+B1146). ★★★★★ (the two open seams are the make-or-break of the whole chain). GATED: SEAM-A is
+reading- and derivation-gated; nothing here promotes to CLAIMS.
+
+## L183 — THE REPRODUCER SWEEP: arcs banked as results with no code in the tree (registered 2026-08-26; cc3's cross-band suggestion, c1dc81c3)
+
+cc3, drafting the paper series, found **B8129 and B8130 banked as `results.json` with no
+reproducer in the tree** — a numerical claim that would have shipped with no script. They
+wrote one independently from the banked method description, promoted the bite control to an
+ABORT, and recorded a ~3% spread from the banked value rather than tuning to match (|R|
+agreed to four decimals). Their suggestion, adopted: **sweep more widely than one band —
+how many arcs across the repo are banked as results with no reproducer?** The cell: enumerate
+frontier arcs whose verdict cites a numerical result, check for a runnable script in the arc
+dir, list the gaps as debts — the single-homed-content gate (L181) one layer down: not "is it
+on a remote" but "can it be re-run at all." Cheap to enumerate; each gap is then a
+re-derivation task. ★★★ (reproducibility hygiene; the paper lane makes it load-bearing). Note:
+this seat's recent band (B1143–B1148) ships reproducers — B1148 8/8, B1146 `seam_b.py`, B1145
+`sp2_independent.py` — so the sweep's yield is expected in older arcs.
+
+## L184 — THE SUITE COLLECTION LAZY-FY: make even the FULL suite collect fast (registered 2026-08-26, B1152; the root fix behind the fast-lane remedy)
+
+B1152 gave the inner loop a changed-file fast lane, but the **root** cost stands: pytest imports every
+test module before running any test, so module-level computation in test files runs at **collection**,
+and the sum is **>120 s** on main (cc3: 421 s). The cell: identify the slowest module-level importers
+(a per-file collection sweep names them) and move their compute into fixtures / functions (lazy), so
+collection drops to seconds and even the full certificate-of-record suite becomes routinely runnable.
+Mechanical, per-file, **test-outcome-preserving** (each file's own tests re-run to confirm). Closes the
+**E50** cost class at the root rather than only routing around it. ★★★ (program health — a suite that
+gets run is the only lock that catches anything).
+
+## L186 — CLOSED: THREE (B1185, 2026-08-27). THE THREE YUKAWA-SUPPRESSION MECHANISMS: one or three? (registered 2026-08-27, B1171)
+
+The record now carries **three distinct, named Yukawa-suppression mechanisms — none identified with
+another**: (1) **SEAM-Y** — cc's/codex's bundle-cohomology wall (μ_u = 0 at height-308: H¹(G_Y)=0
+naturality, the heterotic *dressing*; B1154/B1159/B1167); (2) **the object channel's live up-shape** —
+cloud memo 80, verified here: the unique invariant coupling on the physical roster gives the up-type
+Yukawa **6 nonzero entries** — the object's kinematics *allows* what the dressing *forbids*, so the two
+walls are **proven different facts**; (3) **the rank-2 hole** — cloud memo 82, verified here: in the E8
+family triplet (possibility-space fence), all **810/810** family matrices have rank exactly 2 with kernel =
+the Higgs's own family — one exactly-massless family per coupling, *which* family priced to the
+observer/vacuum. **The lead: are these one mechanism wearing three costumes, or genuinely three?** A
+falsifiable identification (a map carrying one suppression to another, or a proof of distinctness) either
+way banks. Priority ★★★ (touches SEAM-Y, the masslessness ledger, and the E8 fence at once; each pairwise
+comparison is a bounded cell).
+
+**CLOSED (B1185): GENUINELY THREE** — three exact pairwise invariants: INV-1 arena (the same
+up-coupling rank 0 in the dressing vs 6-nonzero on the object channel); INV-2 rank+selectivity
+(0 + sector-asymmetric vs exactly-2 + sector-universal 810/810); INV-3 index space (the family
+index is external to the object — generation-NULL, degree-2 trace field). The identification
+direction falsified. Residue (fenced, organizing): three layers, restoration costs typed
+wall / continuous-ℙ³ (down readout; C12 trivial on B₀) / finite-3-label — the B1182 rhyme.
+
+## L187 — CLOSED (B1187, 2026-08-28). THE DEPTH-CLOSURE BACKLOG (registered 2026-08-27, B1172; source: cc3's P3 depth-exposure stratum)
+
+cc3's P3 re-adjudication of 21 depth-flagged P1 negatives left **7 EXPOSED — genuine open gaps where the
+kill is underproved** (not wrong): B489 (absence-at-depth, n=1..8 only vs universal claim), B500 (depth≥6
+unswept; **doubly-owed** — it is also R28-6's finishing task, depth-uniform d_K=−283), B685 (kind-mismatch,
+pointwise to n=60/order 20), TOMB-L255 (value-mismatch, n=2..13 sketch), TOMB-L310 (genericity, L≤10
+5-point inference), TOMB-L34 (genericity, one N two seeds), WALL-7 (zero-intertwiner, twisted 3-point only).
+**Named stabilization paths exist for each; none requires new mathematics; none has been executed.** The
+cell shape: per item, run the named stabilization; each either upgrades the kill to proved-at-depth or
+reopens it honestly. ★★★ (the honest residual of the whole P1 negative corpus; each item bounded).
+
+**CLOSED (B1187): all seven dispositioned.** The registration was stale — B767 had already closed
+B489 (Binet, all n) + TOMB-L255 (Symᵈ functor, all d). New: **TOMB-L34 CLOSED** (profile slope
+stable, 7 sizes × 2 windows, controls discriminate; two B767 instrument defects corrected);
+**WALL-7 CLOSED-mod-q at all t** (866 points × 8 patterns × q ∈ {1009, 1999}; B767's no-roots
+logic corrected; the K-exact route named); **TOMB-L310 re-scoped closure** (drift grounds stand;
+B189's "indistinguishable" clause REVERSED — 11σ at L10 → L190); **B685 extended 3×/4×**
+(K=60/n≤240 all-pass; 3-integrality = the named remaining theorem); **B500's obstruction route
+refuted** (the mod-2 étale census: the 2-inert signature is abundant from depth 5; depth-4 zero;
+kill stays PROVISIONAL; the B502 field-level witness → L191).
+
+## L188 — THE SELECTION-COCHAIN SIX-CLAIM VERIFICATION (registered 2026-08-27, B1172; source: the B879 packet, 24-day debt escalated)
+
+cc3's first originated campaign (sealed prereg, 13 test locks, byte-identical rerun) delivered six claims
+that have sat unverified since 2026-07-17 — **the packet's own reconciliation addendum (2026-08-03) is the
+verification spec**: C1 = unit-det⇔prime-conductor extended from B664's one-parameter slice to the FULL
+745-class primitive family (bank as extension); C2 = strata-intersections across the full family (stands
+as-is); C3 = the {0,1/φ,1,φ,2} value-set verified complete-not-sampled to length 12 (DOWNGRADE to
+corroboration of B665 — the pointwise formula was never checked, no mod-5 column); C4–C6 per the addendum.
+The cell: verify-don't-trust each claim per its addendum disposition, bank under new numbers.
+★★ (bounded; the addendum already did the scoping honestly). Path
+`frontier/B879_selection_cochain/packet/`.
+
+
+## L185 — THE QOR5UP UNPORTED RESIDUE (umbrella; registered 2026-08-27, B1173 at the digest partial-close; owner-directed O4)
+
+The B1060 digest closed PARTIAL with **13 NOT-REACHED rows**, all readable at the frozen qor5up branch via
+`docs/CLOUD_ALIAS_TABLE.md`: lanes 3.1–3.5 (the law-siblings gate; the supersession gate; E37/E38 →
+ERROR_LEDGER; verdict_drop.py), 4.1–4.7 (the B408/B426 Galois restoration; B564-closed-B141; the
+claim-lines-overstate 5; metadata-vs-body 14→28; **the 15 absent reproducers**; the two-κ finding qL159; the
+shadow library, 227 files / cyclo_engine 56 importers), and 5.01–5.12 (the twelve cloud leads qL155–qL166;
+qL164 already owner-DECIDED; renumber at disposition = **L185+**, never the stale L165+). One umbrella row,
+not thirteen: nothing lost, nothing duplicated — any future sitting dispositions a row under a new arc and
+the denominator stays 58. The qor5up branch itself is **FROZEN-RECORD-CLOSED** (registry entry landed,
+R47-3/R48-5 discharged). ★★ (a queue pointer, not a computation; the two-κ and shadow-library rows are the
+likeliest early reopens).
+
+## L189 — THE GENESIS-CHAT HARVEST CANDIDATES, OWNED (registered 2026-08-27, B1176/R50-4; source: the gitignored local triage list `chronicle_raw/HARVEST_CANDIDATES.md` — private by the LEAK-NOTHING rule; only the mathematical TOPICS are named here)
+
+The genesis-era chat export's triage extracted **eight candidate-unbanked mathematical claims** that no
+tracked surface owned until now (the completeness critic's highest-value gap): (1) **U_e** — the
+charged-lepton diagonalization (blocks any PMNS comparison; zero repo hits); (2) **the quasinormal-mode
+channel** (tower→measurable; zero repo hits); (3) the Verlinde k=5..7 continuation (with 78=dim E₆ at k=5);
+(4) L(1,χ₅) on the ℤ-ladder; (5) the ζ₅ irrational-basepoint extension of B728; (6) the two-input
+(scale+chirality) boundary framing (now largely subsumed by B1164/B1168 — verify-then-close); (7) the
+s=1/48 parity-twisted pair vs the PC22 identity; (8) *(one further item on the private list, structural)*.
+Owner: the banking seat. The cell shape: per item, a bounded verify-or-register pass (bank, register as its
+own lead, or close-as-subsumed with the citation). ★★★ (U_e and the quasinormal channel are the two genuine
+physics-adjacent gaps in the record). Private source stays untracked; this row is the public owner.
+
+
+## L190 — THE Ω-DAG'S STRUCTURED NON-GENERICITY (registered 2026-08-28, B1187; source: the per-level matched-null test)
+
+B189's C3 called the Ω class-poset "indistinguishable from a matched random graded DAG" at 30 seeds.
+At 100 seeds per level the clause REVERSES: z(L=6..10) = (−2.2, −2.8, −2.3, +0.6, **+11.2**) — the
+full poset has a significant DEFICIT of transitive reach (d_MM 3.936 ABOVE null 3.782 ± 0.014 — higher d_MM = lower ordering fraction = more tree-like; direction corrected at B1188), and the
+z-trend is structured (below-null at small L, far above at L10). The kill (d_MM is a graded-poset
+artifact, not a spacetime dimension) is UNAFFECTED — the null still reproduces the ~4 to within 4%.
+The lead: WHAT is the Ω-DAG's reach-DEFICIT structure (more tree-like than its degree profile —
+which combinatorial law?), and does it carry object content? Bounded first cell: reach-profile
+statistics vs richer nulls (degree-preserving rewiring). ★★
+
+## L191 — THE B502 FIELD-LEVEL WITNESS (registered 2026-08-28, B1187; source: the mod-2 étale census)
+
+B502's parity conjecture ("every interaction-born field has 2 | d_K"; kill = ONE odd-disc witness)
+was preregistered but never run. The B1187 census refutes its exclusion power at the signature
+level (étale degree-4 closed points mod 2 are abundant from depth 5). The remaining bounded cell:
+pick one depth-5 signature word with a small eliminant, compute the exact eliminant (Sage), factor,
+compute d_K of a quartic factor — one odd d_K kills B502 clean; all-even across witnesses would
+revive it as a live conjecture with the census as its foil. **B398 airlock armed** (a d_K = −283 or
+field-iso hit = STOP, convene). ★★

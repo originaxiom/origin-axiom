@@ -1,4 +1,8 @@
+> **Review 50 currency (2026-08-27, B1173):** the gravity tier CLOSED two-seat (B1165 GENERIC-RHYME); the boundary tier now DECIDABLE (B1168 the mirror-parity law); the anomaly tier rescoped ARENA-GENERIC (B1170). The live ladder: the ℤ/2-identification cell (R50-3) → the record-surface wave (R50-4) → the instrument bundle (R50-5); the specialist rungs unchanged (SEAM-A Gate 2 the crossing).
+
 # Origin Axiom — Roadmap
+
+> **Review 49 currency (2026-08-26, B1155):** the two remaining seams walked — **SEAM-A** (heterotic = the archimedean ∞-place, the prize) is now the *one live crossing*, gated on cc3's full Kim-style arithmetic-CS action of m004 (NEEDS-SPECIALIST); **SEAM-Y resolved MISMATCH**. The suite gained a changed-file fast lane (B1152).
 
 *Review 48 (2026-08-22, anchor 79e513a9): the value campaign CLOSED — the object's arithmetic reproduces (five orders C₀–C₄, single-end ℚ(√−3)) but is DISJOINT from the SM's numbers on every route tested (V-3/B1126 + the wave B1128–B1131); "physics-shaped, not physics-valued." **B1134 THE SIMULTANEOUS CLOSING** banked: the observer's whole real-structure bill (Lorentz signature + compact color) is ONE conjugation, forced into the object's own E₆(−26)=M(𝕆,ℂ), closing the question B1114 flagged. Next frontier: the values-as-regulators door (R48-3, firewalled). See docs/progress/REVIEWS.md Review 48.*
 
@@ -327,3 +331,18 @@ names as the thing physics readings wait on. L91 obligations (1)–(3) are open.
 > **Navigation note found by this review:** there are **two roadmap files** — this one (the gated navigation view) and `docs/ROADMAP.md`. The gate tracks **this** one. Worth consolidating; recorded rather than silently left.
 
 *Review 47 currency (2026-08-20, anchor 61499dfe): this surface was refreshed at the Review-47 window's close — the wave B1083–B1099 (the four-language wall, the 3d completion's cards, THE HATCH at su(3)⊕su(3), the mirror-isospectral split, door 5's closure, Route A's decided stratum) is reflected in the campaign ledgers; the full narrative integration is the doc-reflection wave's mandate (R47-4), in flight.*
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the phase ladder's live rung is the
+remaining-math queue (`docs/THE_REMAINING_MATH.md`) — rows 0–3 DONE this window (observer layer ·
+three mechanisms · family = 112 · depth closure); next L188. E52 (verify-the-verifier) + THE MOD-q
+CERTIFICATE MOVE banked. ALL sends HOLD (owner's standing word).*
+
+*Review 52 currency (2026-08-28, anchor 8aa71f07): THE GRAND COMPUTATION CAMPAIGN closed its first
+full arc. The universe is now stated in the object's own units (`docs/GRAND_COMPUTATION_v0.md`);
+every observer input is typed with its supplier (ℓ + the relational c-bit + finite labels + σ + λ +
+the ℙ³ line); **the observer's one bit is constructed, governed by the founding invariant κ, and
+selector-free**; the existence audit's eight missing items are all dispositioned; and the saddle,
+the founding obstruction and the boundary are proved to be one polynomial Φ₃ with c as the map
+between its faces. Missing in kind: a forcing theorem for the value arm, and the cosmological
+dynamics (`docs/COSMOLOGY_LEDGER.md` is the new surface). cc3 retired; cloud ran the same directive
+independently and converged.*

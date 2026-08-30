@@ -5,11 +5,20 @@ import json, math, sys, os
 
 def load_jsonl(path):
     rows = []
+    # De-duplicate by cell identity (name, D, H). The writer used to append, so grids produced
+    # before B1207 can carry the same cell many times; counting a cell twice inflates
+    # M_grid_cells and deflates the Sidak alpha off multiplicity that was never tested.
+    seen = set()
     with open(path) as f:
         for line in f:
             line = line.strip()
             if line:
-                rows.append(json.loads(line))
+                r = json.loads(line)
+                k = (r.get('name'), r.get('D'), r.get('H'))
+                if k in seen:
+                    continue
+                seen.add(k)
+                rows.append(r)
     return rows
 
 def involves_regulator_from_row(r):

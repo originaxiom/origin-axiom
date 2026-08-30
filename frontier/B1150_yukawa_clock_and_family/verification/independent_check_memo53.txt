@@ -1,0 +1,4 @@
+INDEPENDENT CHECK (sympy joint-kernel, distinct from the cert) -- memo 53 FACT 7
+dim Inv_sl3(3 x 3 x 3) = 1 (expect 1)
+the unique invariant is totally ANTISYMMETRIC (= epsilon/Levi-Civita): True
+=> the family factor is FORCED to epsilon_family, independently CONFIRMED

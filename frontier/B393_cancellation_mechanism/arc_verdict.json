@@ -6,5 +6,14 @@
  "depends_on": [],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "W2-wave2-calibrated"
+ "authored_by": "W2-wave2-calibrated",
+ "creates_law": true,
+ "creates_law_corrected": {
+  "date": "2026-08-29",
+  "arc": "B1214",
+  "was": "ABSENT",
+  "why": "re-audit of the field before the paper's disposition pass; this arc's claim was read IN FULL and states a new general proposition proved here, not a verification, harvest, census or sealed decision",
+  "registry_row": "T-DARK-ANNIHILATION",
+  "lock": "tests/test_b393_mechanism.py"
+ }
 }

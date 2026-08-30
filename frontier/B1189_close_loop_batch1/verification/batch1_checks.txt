@@ -1,0 +1,7 @@
+== GC-2 THE GOLDEN-UNIT KILLER (exact, re-run here) ==
+   det(A-I)=-1, det(A+I)=5 (Z/5 pair datum); B=A-I is phi (B^2=B+I), det B = N(phi) = -1;
+   J (det +1) and K=JB (det -1) both conjugate A -> A^-1 => mirror-SELF-equivalent. NEGATIVE.
+   control M=[[2,3],[1,2]] (unit 2+sqrt3, norm +1): coset single-signed in-cell => the test BITES.
+== committed cell verdicts ==
+   five verdicts as banked; the 11 non-arithmetic members recorded in arithmeticity_test_output.json
+REPRODUCES

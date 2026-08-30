@@ -1,0 +1,4 @@
+o10_150700: H1=Z, 1 cusp, all-regular, Vol=5xVol(m004) -- the H1 separator is DEAD
+o10_150684/85/93 + t12840: each carries a 2sqrt3 i cusp -- the cusp-shape separator is DEAD (multi-cusped carriers)
+s955: H1=Z/20+Z, Vol=3xVol(m004) -- R014's witness corrected exactly as B8147 states
+REPRODUCES

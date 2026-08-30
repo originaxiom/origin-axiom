@@ -1,0 +1,282 @@
+[
+ {
+  "name": "m208",
+  "num_gens": 2,
+  "words_tested": 4,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o10_064767",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o10_107944",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 5.345529420184391e-51
+ },
+ {
+  "name": "o10_107945",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o10_107946",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 5.345529420184391e-51
+ },
+ {
+  "name": "o10_107947",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o10_107948",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 6.681911775230489e-51
+ },
+ {
+  "name": "o10_107949",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o10_143600",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o10_143601",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 5.345529420184391e-51
+ },
+ {
+  "name": "o10_143602",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o9_27787",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o9_40998",
+  "num_gens": 2,
+  "words_tested": 4,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o9_40999",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 2.1382117680737565e-50
+ },
+ {
+  "name": "o9_41000",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o9_41001",
+  "num_gens": 2,
+  "words_tested": 4,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o9_41002",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o9_41003",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 1.3376735369659504e-63
+ },
+ {
+  "name": "o9_41004",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 5.345529420184391e-51
+ },
+ {
+  "name": "o9_41005",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 2.6727647100921956e-51
+ },
+ {
+  "name": "o9_41006",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o9_41007",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 2.1382117680737565e-50
+ },
+ {
+  "name": "o9_41008",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "o9_41009",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 6.190321124596099e-62
+ },
+ {
+  "name": "s118",
+  "num_gens": 2,
+  "words_tested": 4,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "s119",
+  "num_gens": 2,
+  "words_tested": 4,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "s594",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "s595",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "s596",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 1.0691058840368783e-50
+ },
+ {
+  "name": "t06828",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 2.1382117680737565e-50
+ },
+ {
+  "name": "t06829",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 1.0691058840368783e-50
+ },
+ {
+  "name": "t11365",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "v2873",
+  "num_gens": 2,
+  "words_tested": 4,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 4.824396362828018e-62
+ },
+ {
+  "name": "v2874",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ },
+ {
+  "name": "v2875",
+  "num_gens": 3,
+  "words_tested": 15,
+  "shapes_ok": true,
+  "traces_integral": false,
+  "max_int_deviation": 0.0
+ }
+]

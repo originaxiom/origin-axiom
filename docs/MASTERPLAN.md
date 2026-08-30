@@ -1,5 +1,8 @@
 # THE MASTERPLAN — APPROVED (2026-07-04; owner sign-off received)
 
+> **Review 50 currency (2026-08-27, B1173):** the A–E masterplan EXECUTED (cc's cells B1164–B1169; the seam sitting B1170–B1173); the observer is ADELIC with a MECHANISM (the orbit-escape pair); Wave 1 + O3 + O4 complete. Next: R50-3 the ℤ/2 cell; the cross-seat waits (R50-6); the owner menu (R50-7).
+> **Review 49 currency (2026-08-26, B1155):** the carrier/coupling/peripheral harvest (cloud memos 41–55) + C4 + the two seams landed. Next specialist step: **SEAM-A Gate 2** — cc3's full arithmetic-CS action of m004 on ℚ(√−3) (the heterotic-axiom crossing). up-Yukawa=0 resolved as a *distinct* wall (SEAM-Y MISMATCH).
+
 *Review 48 (2026-08-22, anchor 79e513a9): the value campaign CLOSED (arithmetic reproduces at five orders C₀–C₄, single-end; disjoint from the SM's numbers on every route — "physics-shaped, not physics-valued"); **B1134 THE SIMULTANEOUS CLOSING** banked (the observer's whole real-structure bill is ONE conjugation, forced into the object's own E₆(−26)=M(𝕆,ℂ)). Next frontier: the values-as-regulators door (R48-3). See docs/progress/REVIEWS.md Review 48.*
 
 *Review 46 (2026-08-13): the sweep-and-audit window — the novelty sweep ran whole (19 rows: twelve provably-standard, six = ONE K-structure at MECHANISM KNOWN / CONTENT UNMATCHED); the owner's cost re-frame corrected both seats' segment-measure; the Part-0 audit completed same-day (prices REAL + genesis locks 8/8; the two-checklist reconciliation, four gaps now rules; zero-dials true-by-construction, 7/7 twin-verified). The m = 5 blind protocol closed (A8 exact both benches; A2 twin; A5 certified-once deterministically). The fourth crossing CLOSED (B1063, one-shot spent). The gravity lane's B1064 sealed and answered O3. The cloud's Review 1 processed: its species has ONE main instance (B946, the corpus's oldest, repaired verified); their class = E40 (the port-assigns-numbers rule after two E-collisions in one day). Eleven disclosed errors, zero mathematics — the protocol survived its own authors. R45-9's forced disposition: B1024's three controls are the next sealed cell (B1065). See docs/progress/REVIEWS.md Review 46, anchor 9c0fd129.*
@@ -280,3 +283,20 @@ comparison). Standing open gate on any physics reading: **L91**, obligations (1)
 > **Review 41 — 2026-08-09.** The masterplan's governance layer gained a **surface** check: every gate until now verified *arcs*, none verified whether the documents a reader forms their picture from still describe the programme. `doc-currency` (B984) closes that, and the decadal review now certifies currency **room by room** (B988, protocol step 7).
 
 *Review 47 currency (2026-08-20, anchor 61499dfe): this surface was refreshed at the Review-47 window's close — the wave B1083–B1099 (the four-language wall, the 3d completion's cards, THE HATCH at su(3)⊕su(3), the mirror-isospectral split, door 5's closure, Route A's decided stratum) is reflected in the campaign ledgers; the full narrative integration is the doc-reflection wave's mandate (R47-4), in flight.*
+
+*Review 51 currency (2026-08-28, anchor 411fb260): the observer layer's cc-rungs CLOSED (S1 proved
+B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); the three Yukawa
+mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
+dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
+The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
+standing word).*
+
+*Review 52 currency (2026-08-28, anchor 8aa71f07): THE GRAND COMPUTATION CAMPAIGN closed its first
+full arc. The universe is now stated in the object's own units (`docs/GRAND_COMPUTATION_v0.md`);
+every observer input is typed with its supplier (ℓ + the relational c-bit + finite labels + σ + λ +
+the ℙ³ line); **the observer's one bit is constructed, governed by the founding invariant κ, and
+selector-free**; the existence audit's eight missing items are all dispositioned; and the saddle,
+the founding obstruction and the boundary are proved to be one polynomial Φ₃ with c as the map
+between its faces. Missing in kind: a forcing theorem for the value arm, and the cosmological
+dynamics (`docs/COSMOLOGY_LEDGER.md` is the new surface). cc3 retired; cloud ran the same directive
+independently and converged.*

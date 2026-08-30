@@ -1,0 +1,5 @@
+INDEPENDENT CHECK (sympy, distinct from the cert) -- memo 54
+S-3-(P+(x^2-4)) = 0 (0 => tr(ab^-1)+kappa = 3+(tr a-2)(tr a+2), the peripheral identity)
+P(2,z) = z**2 - 5*z + 7 (the two geometric characters)
+fixed-locus elim z^2(z^2+12) roots: {-2*sqrt(3)*I: 1, 2*sqrt(3)*I: 1, 0: 2} => 3 points, scheme length 4 (kappa-pair + non-reduced origin)
+=> memo 54 PART I identity + PART II fixed locus CONFIRMED independently

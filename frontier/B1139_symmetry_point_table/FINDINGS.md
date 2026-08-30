@@ -69,3 +69,8 @@ byte-identical → zero net repo change). The 27's weights built via own crystal
 vendored frame (no cross-module basis risk); the trinification e₆ = su(3)_c⊕su(3)_L⊕su(3)_R
 re-derived fresh (same recipe as banked B1134/B1135, every property re-checked). Cloud
 certificates read for spec only, never imported. Cloud seat credited. Gate 5 untouched.
+
+**Addendum-beside (B1144, 2026-08-25):** the "open cell SP-1 (memo 25)" tag above is **stale** —
+memo 25 had already closed SP-1 (physical B−L, fourth direction, c₅=1; golden_gate primary
+source), and B1143 confirmed it two-bench. The naive-B−L = 2(Y−T₃R) negative banked here remains
+correct; only the "open" tag was stale. See B1144.

@@ -1,0 +1,83 @@
+{
+ "arc": "B1212",
+ "leg_1_codex_r024": {
+  "question": "the Z/12 characters of l and e^c, and whether a triple satisfies rho+sigma = 8 mod 12",
+  "certificate_reruns_here": true,
+  "retained_wilson_branches": [
+   4,
+   8
+  ],
+  "selections": {
+   "e^c": "A_0",
+   "l": "B_0",
+   "H_d": "B_0"
+  },
+  "coarse_character_ec": 0,
+  "coarse_character_l": 0,
+  "abstract_admissible_tail_pairs": [
+   [
+    0,
+    8
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    4,
+    4
+   ]
+  ],
+  "repeated_pair_killed_by": "skewness",
+  "frame_level_lepton_pair": "UNDETERMINED",
+  "b1208_fork": "UNRESOLVED",
+  "why_it_is_still_a_result": "converts 'we do not know' into 'the record does not contain the datum', and names the object that would supply it: a frame-level identification of the generation representatives (the T evaluator's territory, R023)",
+  "p3_row": "stands at dim 1; B1196's CLOSED-PERMANENT neither hardened nor overturned",
+  "banked": [
+   "coarse character of e^c = 0",
+   "coarse character of l = 0"
+  ],
+  "not_banked": [
+   "any claim about the lepton tensor's independence"
+  ]
+ },
+ "leg_2_cloud_d2": {
+  "payment_status": "CONFIRMED (PROVISIONAL lifted by the owner, 2026-08-29)",
+  "authority_question": "OPEN -- the owner's 'go' may have been a general continue; cloud accepted this seat's flag and will not treat it as a signature until the owner confirms",
+  "to_confirm": "the owner says so; the addenda stand",
+  "to_reverse": "one edit -- LEAP-1 returns to HELD, SCOPE-1a/1b struck, the closure-routes row reverts; nothing else depends on it (every consequence was written premise-conditional)",
+  "deciding_argument": {
+   "theirs_was": "eliminative -- the alternative was never satisfiable",
+   "ours_adopted": "positive -- a cosmological clock parameterizes ONE realized history, so demanding single-valuedness across all Dehn closings is a category error",
+   "recorded_as": "SCOPE-1a's ground"
+  },
+  "amendment_1": {
+   "status": "UPHELD",
+   "effect": "SCOPE-1 split into SCOPE-1a and SCOPE-1b, each with its own refuters; SCOPE-1b (the ladder IS the realized history) is NOT ESTABLISHED"
+  },
+  "amendment_2": {
+   "status": "UPHELD",
+   "effect": "the override of the preregistered gate is the weld book addendum's FIRST paragraph"
+  },
+  "our_facts_re_derived_on_their_bench": {
+   "prereg_timestamp_utc": "2026-08-28 13:30:33",
+   "run_timestamp_utc": "2026-08-28 19:49:17",
+   "lead": "6h19m -- the trajectory reading is the original statement, not a retrofit",
+   "witness_adopted": {
+    "pair": "(1,7) vs (2,7)",
+    "dVol": 0.000264476,
+    "dabsCS": 0.143204579,
+    "ratio": "541.5x",
+    "replaces": "28x"
+   }
+  },
+  "owner_confirmation": {
+   "date": "2026-08-29",
+   "words": "lift D2's PROVISIONAL on main",
+   "asked_as": "an explicit binary put to the owner (confirm / reverse / stop asking) rather than inferred from a continue-token -- the failure mode this whole thread existed to fix",
+   "effect": "LEAP-1 stands PAID under Option A, with SCOPE-1a and SCOPE-1b priced separately and the preregistered-gate override recorded in the open. The scope premises are NOT thereby proved: SCOPE-1b (the (1,n) ladder IS the realized history) remains NOT ESTABLISHED and carries its own refuter.",
+   "scope": "this lifts the flag ON MAIN. The owner is handling the cloud seat's own record directly."
+  }
+ },
+ "owed_to_the_owner": "DISCHARGED 2026-08-29 -- the owner confirmed; nothing further is owed"
+}

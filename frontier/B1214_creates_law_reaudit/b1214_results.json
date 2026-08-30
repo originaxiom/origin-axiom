@@ -1,0 +1,57 @@
+{
+ "arc": "B1214",
+ "directive": "re-audit creates_law before filling the disposition column (owner)",
+ "rule": {
+  "law": "a NEW general proposition proved here -- law, theorem, no-go, exact characterization, uniqueness over a family",
+  "not_law": "verification, harvest, audit, census, sealed-cell decision, ledger-write, status, or correction -- even with theorem vocabulary"
+ },
+ "candidates_audited": 116,
+ "flipped_to_true": [
+  "B393",
+  "B557",
+  "B727",
+  "B885",
+  "B886",
+  "B910",
+  "B918",
+  "B952",
+  "B991",
+  "B996",
+  "B997",
+  "B1070",
+  "B1073"
+ ],
+ "recorded_false": 104,
+ "field_state": {
+  "before": {
+   "true": 55,
+   "false": 57,
+   "absent": 919,
+   "absent_pct": 89
+  },
+  "after": {
+   "true": 68,
+   "false": 137,
+   "absent": 828,
+   "absent_pct": 80
+  }
+ },
+ "most_consequential": {
+  "arc": "B727",
+  "why": "THE GENERICITY THEOREM -- 'E6 across three faces' is forced by ONE ADE classification, so the recurrence is generic not evidence; only the arithmetic atom survives. It was invisible to the registry, and ANY claim of object-specificity must clear it first, including the paper's."
+ },
+ "second_finding": {
+  "laws_without_a_dedicated_lock": [
+   "B991",
+   "B996",
+   "B997"
+  ],
+  "laws_with_no_lock_at_all": [
+   "B1070",
+   "B1073"
+  ],
+  "recorded_where": "the registry's lock column, explicitly, rather than left blank"
+ },
+ "asymmetry_declared": "the 13 that PASSED the rule were read in full; the 104 that failed it were classified from their claim headlines. A headline states the arc's thesis first, which is a sound basis for a negative call and a poor one for a positive -- so the asymmetry runs the safe way",
+ "deliberately_not_done": "the 828 arcs whose field is still absent were NOT mass-set; that would be the over-declaration flood in reverse. B1213's union criterion remains the paper's base"
+}

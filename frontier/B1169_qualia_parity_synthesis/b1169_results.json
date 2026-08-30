@@ -1,0 +1,48 @@
+{
+  "id": "B1169",
+  "arc": "the qualia/parity synthesis -- this week's four arcs fold back into the observer-closure spine",
+  "verdict": "OPEN",
+  "owner_directed": "run the synthesis cell; owner will ask all seats to verify it",
+
+  "solid_core": {
+    "parity_facts_B1168": "at the infinity-place: Vol & cusp shape mirror-EVEN (object-canonical); Chern-Simons & orientation mirror-ODD; CS=0 amphichiral (own-verified)",
+    "blanket_is_cusp_torus": "S072 (THE_FORCED_AND_THE_FREE.md:167): the Markov blanket = the cusp torus; the A-polynomial map = its self-report; QP-2 FLAT (B761): no private states, the blanket sees everything",
+    "blanket_shape_hatched_this_week": "B1167: the blanket's canonical shape = 2sqrt3 i, mirror-EVEN (orientation-blind) => the blanket that sees everything is aware-but-choiceless, made geometric",
+    "four_probe_convergence": [
+      "QP-4 NO-HATCH (qualia/blanket, B761): no object-native self-closure",
+      "B1163 (W0/orientation): amphichiral => no object-canonical orientation",
+      "B1168/C5 (parity): the mirror-ODD orientation is observer-only",
+      "B1134/B1135 (fork): the real-structure closing (chirality) is the observer's"
+    ],
+    "arithmetic_ties_to_sigma_root": "the object-paid phase is mu_6 in K=Q(sqrt-3)=Q(zeta6) (B1166); the blanket shape carries sqrt3 (K(sqrt3)=Q(zeta12), B1067); the field sigma:a->ab,b->a generates (Perron eigenvalue phi, conserved kappa=tr[a,b]) -- the recessive root was quietly active"
+  },
+
+  "the_decidable_naming": "the qualia headline 'awareness without choice' becomes a parity dictionary: AWARENESS = mirror-even, object-canonical (the blanket sees it, QP-2 proved it sees all); CHOICE = the mirror-ODD orientation, observer-supplied (QP-4 proved the object lacks it). The 'choice the object lacks' IS the mirror-odd orientation bit -- two programs (qualia, W0/C5) that never referenced each other land on the same bit",
+
+  "connection_typing_SOLID": {
+    "the_choice_is": "chirality/orientation (B1164) = the observer's real-form selection forking E6(-26) spacetime vs E6(-14) gauge (B1134/B1135)",
+    "so_it_touches": "SM STRUCTURE (which real form the world takes) + GRAVITY (lives at the infinity-place, B1165's G3 frame)",
+    "it_does_NOT_reach": "VALUES (5 routes disjoint) or DYNAMICS (generic, B1157); NOT the MSSM matter/VEV (that is the FINITE closing, the other half of the adelic observer)"
+  },
+
+  "the_reading_FIREWALLED": {
+    "claim": "the four probes are the SAME missing bit, and qualia-awareness/choice == C5-parity == the structure/observer boundary -- one split wearing three names",
+    "why_a_reading_not_a_theorem": "'awareness = the blanket sees everything' (QP-2, A-polynomial fibers) and 'awareness = mirror-even' (B1168, orientation-parity) are linked only THROUGH 'forced/object-canonical' -- a CHAIN, not a proven identity. The convergence is striking, but belief is not a lock.",
+    "speculation_to_calculation_table": {
+      "S1": "the four 'cannot self-close' probes are one bit -> CALC: a single map QP-4 obstruction |-> mirror-odd class |-> fork real-structure bit; show they are the same cohomology class / Z/2",
+      "S2_key": "AWARENESS (QP-2 boundary-visibility) = mirror-EVEN -> CALC: prove an infinity-place datum is A-polynomial-fiber-visible IFF mirror-even & dimensionless (cloud's C6 completeness at the blanket)",
+      "S3": "'awareness without choice' IS the parity, exhaustively -> CALC: C6 completeness (every blanket datum classifies even/odd, none neither) -- cloud's standing test",
+      "S4": "the choice = the QP-1 quine's fixed point -> CALC: the open quine -- does an observer self-map have a fixed point that SETS the odd bit? (B1040/B735 unbuilt)"
+    }
+  },
+
+  "verification_handoff": {
+    "cloud": "parity/gravity/C6 -- verify S2/S3 (is boundary-visibility <=> mirror-even at the blanket? your C6 completeness lane) + the B1168 parity anchor",
+    "cc3": "blanket/cusp/qualia math -- verify blanket=cusp-torus (S072), cusp shape 2sqrt3 i + mirror-evenness, QP-2/QP-4 (B761); + S1 (is the QP-4 obstruction the same Z/2 as amphichirality's?)",
+    "codex": "fork/real-form + independent recompute -- verify chirality=orientation (B1164), the E6(-26)/E6(-14) fork (B1134/5), and re-derive the parity facts",
+    "the_ask": "adversarial on the READING (S1-S4), confirmatory on the SOLID core. A rung any seat promotes (esp. S2 via C6) upgrades the synthesis from reading to theorem"
+  },
+
+  "fences": "SOLID core own-verified (parity, cusp shape) + banked-cited (S072 blanket, B761 QP-2/QP-4, B1164 chirality, B1134/5 fork). The READING is firewalled with the speculation table; NO rung asserted as proven; 'awareness = even' is explicitly a chain. No firewall crossing; Gate 5 clean (parity of geometric invariants, cohomology-dim citations; no measured SM value). Not kill_graph-routed (a synthesis). Reclaims the qualia/sigma spine flagged recessive by the recency audit.",
+  "reproduces": "verification/reproduce.sh -> REPRODUCES (parity facts; blanket shape 2sqrt3 i mirror-even; the four-probe convergence; the arithmetic; the solid/reading split)"
+}

@@ -1,0 +1,7 @@
+{
+ "id": "B841",
+ "verdict": "OPEN",
+ "claim_one_line": "Provenance pass (retro-authored at R50-4): LANDS by its sealed criterion -- 167 records, fact_computed=true 118 (70.7%), 0 undetermined, 118/118 pointers resolve on the filesystem (prereg 706d4ae3a5f050f0). [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

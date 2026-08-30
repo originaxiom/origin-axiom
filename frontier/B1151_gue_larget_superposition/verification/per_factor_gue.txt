@@ -1,0 +1,4 @@
+zeta      : 2468 spacings mean=0.9999  KS vs GUE Wigner surmise: D=0.0401 p=0.000685
+L(chi_-3) : 2990 spacings mean=1.0000  KS vs GUE Wigner surmise: D=0.0487 p=1.357e-06
+merged (from c4_verdict.log): D=0.13365 p=2.216e-85  -- ~3x each factor => the deviation is the MERGE
+=> zeta_K = zeta . L(chi_-3): a 2-fold GUE superposition; single-GUE rejected BY superposition, not per-factor failure

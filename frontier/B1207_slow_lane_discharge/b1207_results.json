@@ -1,0 +1,160 @@
+{
+ "arc": "B1207",
+ "run": {
+  "suite": "OA_SLOW=1 pytest (the 50 gated files + the main band)",
+  "first_full_run": "2026-08-28/29",
+  "wall_clock": "4h45m",
+  "failed": 9,
+  "passed": 5702,
+  "skipped": 5,
+  "note": "the first complete execution since the shadow suite was enumerated at B1177"
+ },
+ "triage": [
+  {
+   "test": "tests/test_no_hardcoded_paths.py::test_no_absolute_machine_paths_in_py",
+   "class": "A1",
+   "real": true,
+   "files_fixed": 13,
+   "cause": "agent-written scripts copied into arc verification dirs without path normalization",
+   "fix": "root derived from each file's own location; B1187/B1188/B1189 still REPRODUCE"
+  },
+  {
+   "test": "tests/test_b810_wave1.py::test_no_verdict_exists_for_a_nonexistent_arc",
+   "class": "A2",
+   "real": true,
+   "arcs": 10,
+   "fix": "findings authored verdict-primary, stamped"
+  },
+  {
+   "test": "tests/test_b817_wave2.py::test_writer_safety_no_verdict_without_a_findings_document",
+   "class": "A2",
+   "real": true,
+   "arcs": 10,
+   "fix": "same"
+  },
+  {
+   "test": "tests/test_b833_negative_routing.py::test_the_backlog_b801_predicted_is_now_CLEARED",
+   "class": "A3",
+   "real": true,
+   "arcs": [
+    "B1203",
+    "B1205"
+   ],
+   "fix": "routed with kill_form, fact_computed, hatch, priority"
+  },
+  {
+   "test": "tests/test_b844_review_gate.py::test_carried_items_state_WHY_they_are_carried",
+   "class": "B1",
+   "real": false,
+   "cause": "greedy ID strip ate colon-free reasons whole",
+   "items_flagged": 2,
+   "items_scanned": 127,
+   "fix": "bounded strip + bare-ID control asserted"
+  },
+  {
+   "test": "tests/test_b1034_l154.py::test_v2_no_exhibit_adjudicated",
+   "class": "B2",
+   "real": false,
+   "cause": "allowed set predates the grand-computation campaign",
+   "admitted": [
+    "frontier/B1190_close_loop_batch2/FINDINGS.md",
+    "docs/GRAND_COMPUTATION_LEDGER.md",
+    "docs/GRAND_COMPUTATION_v0.md"
+   ],
+   "fix": "conditional admission + a new test requiring the adjudication language"
+  },
+  {
+   "test": "tests/test_b1113_tmeter.py::test_verifier_reruns_certificate_free",
+   "class": "C",
+   "real": true,
+   "age_days": 8,
+   "banked": "2026-08-21",
+   "cause": "REPO_ROOT took 2 dirnames where the file's depth needs 3; every join doubled frontier/",
+   "fix": "depth 3; 4/4 pass"
+  },
+  {
+   "test": "tests/test_atlas.py::test_render_regenerates_the_map",
+   "class": "D",
+   "real": false,
+   "passes_in_isolation": true,
+   "cause": "arcs banked while the 4h45m suite was in flight"
+  },
+  {
+   "test": "tests/test_b1152_suite_cost_class.py::test_main_band_clean_of_the_drift_classes",
+   "class": "D",
+   "real": false,
+   "passes_in_isolation": true,
+   "cause": "same"
+  }
+ ],
+ "method_fact": "a lock run against a moving repository measures the motion, AND a long run moves the repository itself (class E): the slow lane must be run quiescent and its diff inspected, never committed blind -- 2 of 9 reported findings (22%) were drift artifacts, and 2 real defects appeared only in the tree rather than in the report",
+ "confirming_run": {
+  "state": "COMPLETE (quiescent, clean tree at launch)",
+  "wall_clock": "4h51m06s",
+  "failed": 6,
+  "passed": 5719,
+  "skipped": 5,
+  "verdict": "the five real defects and the two lock bugs STAY FIXED; the two class-D drift failures did NOT recur, confirming they were artifacts of banking mid-run",
+  "six_new_failures_all_dispositioned": [
+   {
+    "tests": [
+     "test_relay_debt_gate",
+     "test_repo_gates",
+     "test_b887_gate_audit"
+    ],
+    "cause": "THREE RELAY FILES WRITTEN DURING THE RUN with no RELAY_LEDGER rows -- self-inflicted, and the sharpest lesson of the pair of runs: UNTRACKED IS NOT INVISIBLE TO THE GATES. The quiescence rule was followed for tracked files and broken for untracked ones.",
+    "fix": "ledger rows added"
+   },
+   {
+    "tests": [
+     "test_no_hardcoded_paths"
+    ],
+    "cause": "B1207's OWN new test spelled the literal it forbids, in two places -- the self-documenting-instrument class, the same one B1202's already_banked.py hit",
+    "fix": "the needle is assembled at runtime, with the reason in a comment"
+   },
+   {
+    "tests": [
+     "test_b824_charvar_motif"
+    ],
+    "cause": "an ABSOLUTE threshold (>10% of arcs mention 'character variety') on a GROWING corpus: it fell to 9.98% at 1112 arcs with nothing about the programme changing -- the ten arcs that gained a FINDINGS document in B1207 itself were enough to tip it",
+    "fix": "re-expressed as a drift-free RATIO against a niche topic (>= 2.5x), with a floor"
+   }
+  ],
+  "second_method_fact": "the first run's lesson was 'do not bank while it runs'; the second run's is that untracked files are not exempt -- a relay with no ledger row reds the same gate. Quiescence means the whole working tree, not the index."
+ },
+ "side_effects_class_E": [
+  {
+   "id": "E1",
+   "arc": "B1137",
+   "real": true,
+   "found_by": "watching the tree, not by the run's report",
+   "defect": "run_pool opened the grid with 'a' and the arc has no resume logic, so every re-run appended another 216 cells; this bench held 648 rows = 3 x 216",
+   "consequence": "aggregate re-derived M_grid_cells 216 -> 432 and halved the Sidak alpha (2.374e-4 -> 1.187e-4) off multiplicity that was never tested",
+   "why_no_lock_caught_it": "the error was in the conservative direction and the grid is gitignored",
+   "fix": "writer truncates; aggregator de-duplicates by (name, D, H); grid restored to 216 unique rows; banked final_report.json reproduced EXACTLY",
+   "verdict_moved": false
+  },
+  {
+   "id": "E2",
+   "arc": "B1113",
+   "real": true,
+   "defect": "the verifier recorded CCB_PATH raw, so its first successful re-run replaced the banked hand-sanitized '<repo>/...' placeholders with this bench's absolute paths",
+   "fix": "paths recorded repo-relative, cert reference elided, file normalized to the writer's own indent=2 so future runs converge",
+   "residual_variation": [
+    "runtime_seconds",
+    "cert-presence line"
+   ]
+  },
+  {
+   "id": "E3",
+   "arcs": [
+    "B1107",
+    "B1114"
+   ],
+   "real": true,
+   "fixed_here": false,
+   "defect": "tracked results rewritten with per-run timings only; reverted, not committed",
+   "recorded_as": "the slow lane cannot currently be run without dirtying the working tree"
+  }
+ ]
+}

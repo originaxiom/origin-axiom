@@ -1,3 +1,5 @@
+> **THE PORTFOLIO (canonical): `papers/PORTFOLIO_2026-08-27.md`** — the owner-ratified architecture (core trio P1–P3 + satellites P4–P8), the P/PC namespace disambiguation, and the per-artifact dispositions. This README documents the PC candidates registry only.
+
 # Papers
 
 Status: paper-candidate registry. This directory tracks possible papers,

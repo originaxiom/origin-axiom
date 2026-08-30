@@ -1,0 +1,14 @@
+{
+ "id": "B1180",
+ "arc": "cc3's B8147 family retraction adopted",
+ "verdict": "OPEN",
+ "retraction": ">=83 not 14 (lower bound; the 77-scan criterion vs trace-field criterion DIFFER per the six non-all-regular originals)",
+ "separators_dead_verified": "H1=Z: o10_150700 (single-cusped, 5x Vol, all-regular); cusp 2sqrt3 i: o10_150684/85/93 + t12840 (multi-cusped carriers)",
+ "main_corrections": "B1167(B) separator RETRACTED by addendum (orientation-blindness untouched); B1163 family-wide re-scoped (amphichirality at >=83 UNCHECKED; core theorem untouched)",
+ "conclusion_strengthened": "NO tested elementary invariant separates m004 in the true family => the W0-refusal is STRONGER for a better reason",
+ "r014_adjudicated": "conclusion CONFIRMED, witness corrected (s955: Z/20+Z, cusp omega, 3x Vol -- verified)",
+ "unaffected": "B1168 (the parity law), B1169 (the blanket's own modulus), B1174, the C4' chase, Q1-Q6 of the send-queue",
+ "residue": "the family's DEFINITION (membership criterion) -- relayed to cc3; family-wide amphichirality at >=83 unchecked",
+ "fences": "All named witnesses spot-verified here; the 77-count cited to cc3's scan (not re-run -- 212,641-manifold sweep; the witnesses suffice per the house standard). Gate 5 clean. Not kill_graph-routed on main (the retraction is cc3's arc; main's corrections are addenda).",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES"
+}

@@ -1,0 +1,37 @@
+{
+ "id": "B1197",
+ "arc": "the clock-coherence run (route B4, the D2 gate)",
+ "verdict": "PROVED",
+ "ladder": {
+  "rungs": 29,
+  "vol_monotone_increasing": true,
+  "abs_cs_monotone_decreasing": true,
+  "vol_range": [
+   1.398508884,
+   2.026719753
+  ],
+  "abs_cs_range": [
+   0.246607253,
+   0.016665127
+  ]
+ },
+ "census": {
+  "distinct_closings": 78,
+  "global_monotone": false,
+  "violations": 15,
+  "families_monotone": {
+   "p=1": true,
+   "p>=2": false
+  }
+ },
+ "controls": {
+  "census_size_reproduces_B289": 78,
+  "sign_law": "156/156",
+  "shuffle_detector_violations": 36
+ },
+ "catches": [
+  "wrong census (112-family) caught by re-reading the source",
+  "vacuity trap: empty census + all() = True, caught by printed counts; guard added"
+ ],
+ "d2_consequence": "SPLIT -- trajectory reading: payable; variable/global reading: refuted. The scope choice is the owner's."
+}

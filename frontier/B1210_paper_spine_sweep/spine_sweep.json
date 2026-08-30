@@ -1,0 +1,1841 @@
+{
+ "corpus": 1111,
+ "pool": [
+  "B14",
+  "B27",
+  "B48",
+  "B64",
+  "B120",
+  "B136",
+  "B161",
+  "B167",
+  "B173",
+  "B181",
+  "B186",
+  "B196",
+  "B204",
+  "B206",
+  "B210",
+  "B218",
+  "B224",
+  "B237",
+  "B238",
+  "B247",
+  "B248",
+  "B249",
+  "B250",
+  "B253",
+  "B259",
+  "B261",
+  "B266",
+  "B280",
+  "B282",
+  "B285",
+  "B286",
+  "B293",
+  "B294",
+  "B298",
+  "B299",
+  "B300",
+  "B303",
+  "B307",
+  "B309",
+  "B317",
+  "B333",
+  "B334",
+  "B340",
+  "B344",
+  "B347",
+  "B353",
+  "B358",
+  "B367",
+  "B399",
+  "B432",
+  "B434",
+  "B435",
+  "B437",
+  "B443",
+  "B444",
+  "B446",
+  "B448",
+  "B449",
+  "B451",
+  "B459",
+  "B463",
+  "B465",
+  "B466",
+  "B467",
+  "B468",
+  "B469",
+  "B470",
+  "B471",
+  "B472",
+  "B474",
+  "B479",
+  "B482",
+  "B488",
+  "B489",
+  "B490",
+  "B496",
+  "B497",
+  "B498",
+  "B500",
+  "B505",
+  "B507",
+  "B509",
+  "B510",
+  "B517",
+  "B518",
+  "B519",
+  "B521",
+  "B522",
+  "B524",
+  "B533",
+  "B534",
+  "B576",
+  "B581",
+  "B582",
+  "B584",
+  "B585",
+  "B587",
+  "B588",
+  "B591",
+  "B592",
+  "B593",
+  "B596",
+  "B598",
+  "B601",
+  "B604",
+  "B605",
+  "B607",
+  "B608",
+  "B611",
+  "B613",
+  "B615",
+  "B616",
+  "B617",
+  "B618",
+  "B620",
+  "B621",
+  "B624",
+  "B626",
+  "B631",
+  "B632",
+  "B637",
+  "B638",
+  "B639",
+  "B640",
+  "B641",
+  "B642",
+  "B643",
+  "B644",
+  "B645",
+  "B646",
+  "B647",
+  "B649",
+  "B650",
+  "B651",
+  "B654",
+  "B656",
+  "B657",
+  "B658",
+  "B660",
+  "B663",
+  "B664",
+  "B665",
+  "B670",
+  "B672",
+  "B674",
+  "B675",
+  "B680",
+  "B681",
+  "B683",
+  "B684",
+  "B685",
+  "B686",
+  "B687",
+  "B691",
+  "B692",
+  "B693",
+  "B694",
+  "B695",
+  "B696",
+  "B698",
+  "B699",
+  "B700",
+  "B702",
+  "B703",
+  "B704",
+  "B705",
+  "B706",
+  "B707",
+  "B708",
+  "B709",
+  "B710",
+  "B711",
+  "B712",
+  "B713",
+  "B714",
+  "B715",
+  "B716",
+  "B717",
+  "B718",
+  "B719",
+  "B720",
+  "B721",
+  "B722",
+  "B723",
+  "B724",
+  "B725",
+  "B726",
+  "B727",
+  "B728",
+  "B729",
+  "B730",
+  "B731",
+  "B732",
+  "B733",
+  "B734",
+  "B735",
+  "B736",
+  "B737",
+  "B739",
+  "B743",
+  "B746",
+  "B749",
+  "B753",
+  "B754",
+  "B756",
+  "B759",
+  "B760",
+  "B771",
+  "B780",
+  "B782",
+  "B785",
+  "B789",
+  "B790",
+  "B791",
+  "B794",
+  "B795",
+  "B797",
+  "B798",
+  "B800",
+  "B803",
+  "B837",
+  "B849",
+  "B851",
+  "B853",
+  "B854",
+  "B855",
+  "B856",
+  "B857",
+  "B859",
+  "B860",
+  "B861",
+  "B862",
+  "B863",
+  "B864",
+  "B865",
+  "B868",
+  "B869",
+  "B871",
+  "B873",
+  "B874",
+  "B876",
+  "B877",
+  "B882",
+  "B883",
+  "B884",
+  "B885",
+  "B886",
+  "B892",
+  "B893",
+  "B894",
+  "B896",
+  "B897",
+  "B898",
+  "B900",
+  "B901",
+  "B902",
+  "B903",
+  "B904",
+  "B906",
+  "B907",
+  "B908",
+  "B909",
+  "B910",
+  "B912",
+  "B914",
+  "B915",
+  "B916",
+  "B917",
+  "B918",
+  "B919",
+  "B920",
+  "B922",
+  "B923",
+  "B924",
+  "B925",
+  "B926",
+  "B928",
+  "B929",
+  "B930",
+  "B931",
+  "B932",
+  "B933",
+  "B936",
+  "B937",
+  "B939",
+  "B940",
+  "B941",
+  "B942",
+  "B944",
+  "B945",
+  "B946",
+  "B947",
+  "B948",
+  "B949",
+  "B950",
+  "B951",
+  "B952",
+  "B953",
+  "B954",
+  "B955",
+  "B956",
+  "B957",
+  "B959",
+  "B960",
+  "B961",
+  "B962",
+  "B963",
+  "B964",
+  "B967",
+  "B969",
+  "B970",
+  "B976",
+  "B978",
+  "B980",
+  "B981",
+  "B982",
+  "B985",
+  "B987",
+  "B990",
+  "B991",
+  "B992",
+  "B993",
+  "B994",
+  "B995",
+  "B996",
+  "B997",
+  "B998",
+  "B1000",
+  "B1002",
+  "B1003",
+  "B1004",
+  "B1005",
+  "B1006",
+  "B1009",
+  "B1010",
+  "B1011",
+  "B1012",
+  "B1016",
+  "B1017",
+  "B1018",
+  "B1019",
+  "B1020",
+  "B1024",
+  "B1025",
+  "B1026",
+  "B1027",
+  "B1028",
+  "B1029",
+  "B1032",
+  "B1033",
+  "B1036",
+  "B1039",
+  "B1040",
+  "B1041",
+  "B1042",
+  "B1043",
+  "B1060",
+  "B1062",
+  "B1063",
+  "B1064",
+  "B1065",
+  "B1066",
+  "B1067",
+  "B1068",
+  "B1069",
+  "B1070",
+  "B1071",
+  "B1072",
+  "B1073",
+  "B1074",
+  "B1075",
+  "B1076",
+  "B1079",
+  "B1080",
+  "B1082",
+  "B1083",
+  "B1084",
+  "B1085",
+  "B1086",
+  "B1087",
+  "B1088",
+  "B1091",
+  "B1092",
+  "B1093",
+  "B1094",
+  "B1095",
+  "B1096",
+  "B1097",
+  "B1098",
+  "B1099",
+  "B1100",
+  "B1101",
+  "B1102",
+  "B1103",
+  "B1104",
+  "B1106",
+  "B1107",
+  "B1109",
+  "B1110",
+  "B1111",
+  "B1112",
+  "B1113",
+  "B1114",
+  "B1115",
+  "B1116",
+  "B1117",
+  "B1118",
+  "B1119",
+  "B1120",
+  "B1122",
+  "B1123",
+  "B1124",
+  "B1125",
+  "B1126",
+  "B1127",
+  "B1128",
+  "B1129",
+  "B1130",
+  "B1131",
+  "B1132",
+  "B1133",
+  "B1134",
+  "B1135",
+  "B1136",
+  "B1137",
+  "B1138",
+  "B1139",
+  "B1140",
+  "B1141",
+  "B1142",
+  "B1143",
+  "B1144",
+  "B1145",
+  "B1160",
+  "B1161",
+  "B1162",
+  "B1163",
+  "B1164",
+  "B1181",
+  "B1185",
+  "B1187",
+  "B1195"
+ ],
+ "law_creating": [
+  "B282",
+  "B285",
+  "B730",
+  "B734",
+  "B737",
+  "B739",
+  "B749",
+  "B756",
+  "B1012",
+  "B1076",
+  "B1080",
+  "B1082",
+  "B1083",
+  "B1084",
+  "B1085",
+  "B1086",
+  "B1087",
+  "B1088",
+  "B1092",
+  "B1093",
+  "B1094",
+  "B1095",
+  "B1096",
+  "B1097",
+  "B1098",
+  "B1100",
+  "B1102",
+  "B1103",
+  "B1104",
+  "B1106",
+  "B1107",
+  "B1109",
+  "B1110",
+  "B1111",
+  "B1112",
+  "B1113",
+  "B1114",
+  "B1116",
+  "B1117",
+  "B1118",
+  "B1120",
+  "B1122",
+  "B1123",
+  "B1124",
+  "B1125",
+  "B1126",
+  "B1127",
+  "B1132"
+ ],
+ "on_surface_only": [
+  "B14",
+  "B27",
+  "B48",
+  "B64",
+  "B120",
+  "B136",
+  "B161",
+  "B167",
+  "B173",
+  "B181",
+  "B186",
+  "B196",
+  "B204",
+  "B206",
+  "B210",
+  "B218",
+  "B224",
+  "B237",
+  "B238",
+  "B247",
+  "B248",
+  "B249",
+  "B250",
+  "B253",
+  "B259",
+  "B261",
+  "B266",
+  "B280",
+  "B286",
+  "B293",
+  "B294",
+  "B298",
+  "B299",
+  "B300",
+  "B303",
+  "B307",
+  "B309",
+  "B317",
+  "B333",
+  "B334",
+  "B340",
+  "B344",
+  "B347",
+  "B353",
+  "B358",
+  "B367",
+  "B399",
+  "B432",
+  "B434",
+  "B435",
+  "B437",
+  "B443",
+  "B444",
+  "B446",
+  "B448",
+  "B449",
+  "B451",
+  "B459",
+  "B463",
+  "B465",
+  "B466",
+  "B467",
+  "B468",
+  "B469",
+  "B470",
+  "B471",
+  "B472",
+  "B474",
+  "B479",
+  "B482",
+  "B488",
+  "B489",
+  "B490",
+  "B496",
+  "B497",
+  "B498",
+  "B500",
+  "B505",
+  "B507",
+  "B509",
+  "B510",
+  "B517",
+  "B518",
+  "B519",
+  "B521",
+  "B522",
+  "B524",
+  "B533",
+  "B534",
+  "B576",
+  "B581",
+  "B582",
+  "B584",
+  "B585",
+  "B587",
+  "B588",
+  "B591",
+  "B592",
+  "B593",
+  "B596",
+  "B598",
+  "B601",
+  "B604",
+  "B605",
+  "B607",
+  "B608",
+  "B611",
+  "B613",
+  "B615",
+  "B616",
+  "B617",
+  "B618",
+  "B620",
+  "B621",
+  "B624",
+  "B626",
+  "B631",
+  "B632",
+  "B637",
+  "B638",
+  "B639",
+  "B640",
+  "B641",
+  "B642",
+  "B643",
+  "B644",
+  "B645",
+  "B646",
+  "B647",
+  "B649",
+  "B650",
+  "B651",
+  "B654",
+  "B656",
+  "B657",
+  "B658",
+  "B660",
+  "B663",
+  "B664",
+  "B665",
+  "B670",
+  "B672",
+  "B674",
+  "B675",
+  "B680",
+  "B681",
+  "B683",
+  "B684",
+  "B685",
+  "B686",
+  "B687",
+  "B691",
+  "B692",
+  "B693",
+  "B694",
+  "B695",
+  "B696",
+  "B698",
+  "B699",
+  "B700",
+  "B702",
+  "B703",
+  "B704",
+  "B705",
+  "B706",
+  "B707",
+  "B708",
+  "B709",
+  "B710",
+  "B711",
+  "B712",
+  "B713",
+  "B714",
+  "B715",
+  "B716",
+  "B717",
+  "B718",
+  "B719",
+  "B720",
+  "B721",
+  "B722",
+  "B723",
+  "B724",
+  "B725",
+  "B726",
+  "B727",
+  "B728",
+  "B729",
+  "B731",
+  "B732",
+  "B733",
+  "B735",
+  "B736",
+  "B743",
+  "B746",
+  "B753",
+  "B754",
+  "B759",
+  "B760",
+  "B771",
+  "B780",
+  "B782",
+  "B785",
+  "B789",
+  "B790",
+  "B791",
+  "B794",
+  "B795",
+  "B797",
+  "B798",
+  "B800",
+  "B803",
+  "B837",
+  "B849",
+  "B851",
+  "B853",
+  "B854",
+  "B855",
+  "B856",
+  "B857",
+  "B859",
+  "B860",
+  "B861",
+  "B862",
+  "B863",
+  "B864",
+  "B865",
+  "B868",
+  "B869",
+  "B871",
+  "B873",
+  "B874",
+  "B876",
+  "B877",
+  "B882",
+  "B883",
+  "B884",
+  "B885",
+  "B886",
+  "B892",
+  "B893",
+  "B894",
+  "B896",
+  "B897",
+  "B898",
+  "B900",
+  "B901",
+  "B902",
+  "B903",
+  "B904",
+  "B906",
+  "B907",
+  "B908",
+  "B909",
+  "B910",
+  "B912",
+  "B914",
+  "B915",
+  "B916",
+  "B917",
+  "B918",
+  "B919",
+  "B920",
+  "B922",
+  "B923",
+  "B924",
+  "B925",
+  "B926",
+  "B928",
+  "B929",
+  "B930",
+  "B931",
+  "B932",
+  "B933",
+  "B936",
+  "B937",
+  "B939",
+  "B940",
+  "B941",
+  "B942",
+  "B944",
+  "B945",
+  "B946",
+  "B947",
+  "B948",
+  "B949",
+  "B950",
+  "B951",
+  "B952",
+  "B953",
+  "B954",
+  "B955",
+  "B956",
+  "B957",
+  "B959",
+  "B960",
+  "B961",
+  "B962",
+  "B963",
+  "B964",
+  "B967",
+  "B969",
+  "B970",
+  "B976",
+  "B978",
+  "B980",
+  "B981",
+  "B982",
+  "B985",
+  "B987",
+  "B990",
+  "B991",
+  "B992",
+  "B993",
+  "B994",
+  "B995",
+  "B996",
+  "B997",
+  "B998",
+  "B1000",
+  "B1002",
+  "B1003",
+  "B1004",
+  "B1005",
+  "B1006",
+  "B1009",
+  "B1010",
+  "B1011",
+  "B1016",
+  "B1017",
+  "B1018",
+  "B1019",
+  "B1020",
+  "B1024",
+  "B1025",
+  "B1026",
+  "B1027",
+  "B1028",
+  "B1029",
+  "B1032",
+  "B1033",
+  "B1036",
+  "B1039",
+  "B1040",
+  "B1041",
+  "B1042",
+  "B1043",
+  "B1060",
+  "B1062",
+  "B1063",
+  "B1064",
+  "B1065",
+  "B1066",
+  "B1067",
+  "B1068",
+  "B1069",
+  "B1070",
+  "B1071",
+  "B1072",
+  "B1073",
+  "B1074",
+  "B1075",
+  "B1079",
+  "B1091",
+  "B1099",
+  "B1101",
+  "B1115",
+  "B1119",
+  "B1128",
+  "B1129",
+  "B1130",
+  "B1131",
+  "B1133",
+  "B1134",
+  "B1135",
+  "B1136",
+  "B1137",
+  "B1138",
+  "B1139",
+  "B1140",
+  "B1141",
+  "B1142",
+  "B1143",
+  "B1144",
+  "B1145",
+  "B1160",
+  "B1161",
+  "B1162",
+  "B1163",
+  "B1164",
+  "B1181",
+  "B1185",
+  "B1187",
+  "B1195"
+ ],
+ "spec_cited": [
+  "B727",
+  "B862",
+  "B863",
+  "B864",
+  "B882",
+  "B892",
+  "B897",
+  "B904",
+  "B928",
+  "B961",
+  "B1033",
+  "B1126",
+  "B1129",
+  "B1138",
+  "B1140",
+  "B1183",
+  "B1184",
+  "B1192",
+  "B1195",
+  "B1196",
+  "B1200",
+  "B1203",
+  "B1206",
+  "B1208"
+ ],
+ "spec_citations_at_risk": {
+  "B862": [
+   [
+    "B1080",
+    [
+     "extend",
+     "confirm"
+    ]
+   ]
+  ],
+  "B892": [
+   [
+    "B951",
+    [
+     "correct"
+    ]
+   ],
+   [
+    "B953",
+    [
+     "withdraw"
+    ]
+   ],
+   [
+    "B967",
+    [
+     "correct"
+    ]
+   ],
+   [
+    "B1080",
+    [
+     "confirm"
+    ]
+   ]
+  ],
+  "B904": [
+   [
+    "B1077",
+    [
+     "confirm"
+    ]
+   ],
+   [
+    "B1131",
+    [
+     "confirm"
+    ]
+   ]
+  ],
+  "B928": [
+   [
+    "B1020",
+    [
+     "confirm"
+    ]
+   ]
+  ],
+  "B1129": [
+   [
+    "B1131",
+    [
+     "confirm"
+    ]
+   ]
+  ]
+ },
+ "supersession": {
+  "B238": [
+   [
+    "B879",
+    [
+     "confirm"
+    ],
+    "ATION under B665/B666 (counts 188/153/249/147/8 confirmed; 10 rows recomputed with main's B238/B664 machinery at 2e-15; NOT a new law, NOT pointwise -- the addendum's self-downgrad"
+   ],
+   [
+    "B1103",
+    [
+     "extend"
+    ],
+    "arc, outside-session theorem rebanked after two-engine verification): on the banked B593/B238 instrument extended to the free group {a,A,b,B}, the theta-odd coupling factorizes h("
+   ]
+  ],
+  "B248": [
+   [
+    "B253",
+    [
+     "correct"
+    ],
+    "Sage-verified that E6 is the only chirality-capable (complex-fundamental) end of the B248 transition, and corrected B252's overstated 'cannot source asymmetry'."
+   ]
+  ],
+  "B259": [
+   [
+    "B980",
+    [
+     "withdraw"
+    ],
+    "exactly with Lambda=-1) STAND UNTOUCHED; only wall #5's QGAP justification is withdrawn. B259 did flag the defect ('4d combo') but in a parenthesis while the conclusion travelled"
+   ]
+  ],
+  "B299": [
+   [
+    "B1033",
+    [
+     "confirm"
+    ],
+    "AME dies. V2 (the orbit-channel identity): DISTINCT, DECLARED PRIOR WRONG AND RECORDED -- B299's (theta,phi) transported through both diagram bijections reproduces the nine free 3-"
+   ]
+  ],
+  "B303": [
+   [
+    "B1020",
+    [
+     "confirm"
+    ],
+    "xact JUNO exclusion; B936/B928 det-ratios and K-norm re-verified in B1016; B923 carriers; B303 CS = 0); every SM-side kind and RG ranking a CLASSICAL INPUT, cited not derived. THE"
+   ]
+  ],
+  "B309": [
+   [
+    "B1010",
+    [
+     "confirm"
+    ],
+    ". SCOPE: an audit arc; no new mathematics about the object; the restored laws' content is B309/B518/B592-B856's, re-verified not re-derived; Gate 5 untouched."
+   ]
+  ],
+  "B437": [
+   [
+    "B944",
+    [
+     "withdraw"
+    ],
+    "r shared with 5_2) and B718 (arithmetically generic beyond H1=Z/p, no ADE skeleton), with B437 RETRACTED (the 'golden return' withdrawn as inheritance); the child's only role is to"
+   ]
+  ],
+  "B518": [
+   [
+    "B1010",
+    [
+     "confirm"
+    ],
+    "PE: an audit arc; no new mathematics about the object; the restored laws' content is B309/B518/B592-B856's, re-verified not re-derived; Gate 5 untouched."
+   ]
+  ],
+  "B576": [
+   [
+    "B953",
+    [
+     "withdraw"
+    ],
+    "cited not re-derived, with the arithmetic checked in results.json; nothing is refuted -- B576, B714, B582, B892, B952 all stand; and whether some THIRD structure evades the dichot"
+   ]
+  ],
+  "B582": [
+   [
+    "B953",
+    [
+     "withdraw"
+    ],
+    "e-derived, with the arithmetic checked in results.json; nothing is refuted -- B576, B714, B582, B892, B952 all stand; and whether some THIRD structure evades the dichotomy (rank 4,"
+   ],
+   [
+    "B1086",
+    [
+     "extend"
+    ],
+    "a-odd twist buys full-E6 closure (sweep CLOSED at t in {1,2,omega}, dim 78, both slots -- B582 extends) at the price 5->2 and what survives is vector-like -- B582's CHIRAL was clos"
+   ]
+  ],
+  "B592": [
+   [
+    "B1010",
+    [
+     "confirm"
+    ],
+    "n audit arc; no new mathematics about the object; the restored laws' content is B309/B518/B592-B856's, re-verified not re-derived; Gate 5 untouched."
+   ]
+  ],
+  "B593": [
+   [
+    "B1103",
+    [
+     "extend"
+    ],
+    "rvest arc, outside-session theorem rebanked after two-engine verification): on the banked B593/B238 instrument extended to the free group {a,A,b,B}, the theta-odd coupling factoriz"
+   ]
+  ],
+  "B596": [
+   [
+    "B656",
+    [
+     "confirm"
+    ],
+    "The digest queue was confirmed independently: B596's multiplier table is exactly the conductor clock ord(A\u2081 mod 3\u03ba) (10/10 rows), and de"
+   ]
+  ],
+  "B647": [
+   [
+    "B1037",
+    [
+     "confirm"
+    ],
+    "orded under non-weakening. J2: the raw chain-level defects are present per banked triple (B647's defect law reconfirmed in passing) and the sealed class projection (alternating ove"
+   ]
+  ],
+  "B664": [
+   [
+    "B879",
+    [
+     "confirm"
+    ],
+    "under B665/B666 (counts 188/153/249/147/8 confirmed; 10 rows recomputed with main's B238/B664 machinery at 2e-15; NOT a new law, NOT pointwise -- the addendum's self-downgrade is"
+   ]
+  ],
+  "B665": [
+   [
+    "B879",
+    [
+     "confirm"
+    ],
+    "73,229}; joint 11); C3 the five-value set banked as a COMPLETE-FAMILY CORROBORATION under B665/B666 (counts 188/153/249/147/8 confirmed; 10 rows recomputed with main's B238/B664 ma"
+   ]
+  ],
+  "B684": [
+   [
+    "B1072",
+    [
+     "confirm"
+    ],
+    "ive relative to the odd sector); L149's cascade half: the machinery transplants verbatim, B684/G2's k = 1 row reproduces with a sharper mechanism (odd block forced to dimension 1),"
+   ]
+  ],
+  "B685": [
+   [
+    "B1187",
+    [
+     "confirm"
+    ],
+    "tired as non-verdict-bearing; the structured deviation registered as L190. THE EXTENSION: B685's v5(denominator)=0 kind-mismatch re-verified at object depth K=60 (was 20) and heari"
+   ]
+  ],
+  "B687": [
+   [
+    "B1010",
+    [
+     "withdraw"
+    ],
+    "s no-live-candidate adjudication NEVER WEIGHED IT, the coupling-form family being outside B687's atlas and B743's tower -- honest scope: B856's one SM reading (JUNO) was REFUTED ON"
+   ]
+  ],
+  "B695": [
+   [
+    "B1123",
+    [
+     "withdraw"
+    ],
+    "SL(2,5) = 2T x 2I -> McKay' doorway is WITHDRAWN -- level 15 is IRREDUCIBLE not factored (B695/E-3: the faces interfere, 59/60 primes falsify L-factorization), the CRT conflated le"
+   ]
+  ],
+  "B700": [
+   [
+    "B942",
+    [
+     "withdraw"
+    ],
+    "ASSUMED: the values/torsor clause is NOT refuted -- but it is NOT certified either, since B700/B701's simply-transitive torsor being THE CMR torsor has the same asserted-not-demons"
+   ],
+   [
+    "B1004",
+    [
+     "withdraw"
+    ],
+    "escape hatches closed) and B957 went further and REFUTED the identification, since every B700 torsor has structure group Z/2 and a group of order two is not the idele class group"
+   ]
+  ],
+  "B713": [
+   [
+    "B724",
+    [
+     "withdraw"
+    ],
+    "Recomputing every seeing-strategy item leaves only C1 sound (a restatement of B713); C2 blocked, C3/C5 refuted, C4 and the GGM path base-rate dead."
+   ]
+  ],
+  "B714": [
+   [
+    "B953",
+    [
+     "withdraw"
+    ],
+    "not re-derived, with the arithmetic checked in results.json; nothing is refuted -- B576, B714, B582, B892, B952 all stand; and whether some THIRD structure evades the dichotomy (r"
+   ]
+  ],
+  "B717": [
+   [
+    "B945",
+    [
+     "correct"
+    ],
+    "does NOT thereby supply a time arrow; the three named gaps do NOT collapse to one choice; B717's spine stands unamended with TIME and CHIRALITY as two separate closings. L126 CLOSE"
+   ],
+   [
+    "B1000",
+    [
+     "confirm"
+    ],
+    "five is supplied from outside, none is secretly internal, and NO FIFTH SECTOR APPEARS -- B717-s spine confirmed at sector level by an independent route; while the CAPSTONE NEEDS O"
+   ]
+  ],
+  "B723": [
+   [
+    "B957",
+    [
+     "withdraw"
+    ],
+    "inite group of order two is not the idele class group of Q(sqrt-3), so the identification B723 relied on is REFUTED, not merely unearned. THE FIELDS ARE MUTUALLY BLIND, computed he"
+   ],
+   [
+    "B1040",
+    [
+     "withdraw"
+    ],
+    "never consumes mu6's Z/3; B733's own ramified door (sqrt(-3)) carries ZERO observer bits; B723's Galois clauses EXCLUDED as retracted (B942/B957). V2: every step's TEMPLATE transpl"
+   ]
+  ],
+  "B743": [
+   [
+    "B1010",
+    [
+     "withdraw"
+    ],
+    "te adjudication NEVER WEIGHED IT, the coupling-form family being outside B687's atlas and B743's tower -- honest scope: B856's one SM reading (JUNO) was REFUTED ON KIND, so it is n"
+   ]
+  ],
+  "B794": [
+   [
+    "B920",
+    [
+     "correct"
+    ],
+    "ght about different objects; HINT_LEDGER row 7 amended (the hint SURVIVES at norm level), B794's FINDINGS gains the level-reconciliation blockquote append-only, the wrong lock repl"
+   ]
+  ],
+  "B797": [
+   [
+    "B878",
+    [
+     "extend"
+    ],
+    "erified stability/consistency/arithmetic, not a re-run; no completeness claim for the 43; B797's banked table NOT extended (locks stand); lambda_2's 27-digit run still cooking on t"
+   ]
+  ],
+  "B798": [
+   [
+    "B1007",
+    [
+     "withdraw"
+    ],
+    "ving duplicated B922 the same way five hours earlier. (2) THE COST CLAIM IS WITHDRAWN AND B798 STANDS IN FULL, INCLUDING ITS COST ESTIMATE. The first draft claimed B798's cost esti"
+   ]
+  ],
+  "B800": [
+   [
+    "B1156",
+    [
+     "withdraw"
+    ],
+    "-> REPRODUCES: z^2-z+1=0, 2*D(e^{i pi/3})=2.02988321281930725=Vol(4_1), V''=sqrt-3). The B800 v3(100)=147->GSWZ-146 reconciliation was refuted (inconsistent prefactor) -- a p-adic"
+   ]
+  ],
+  "B851": [
+   [
+    "B942",
+    [
+     "withdraw"
+    ],
+    "the Q case where conjugation genuinely IS in the symmetry group (-1 in Zhat*), exactly as B851 diagnosed. WHAT SURVIVES, ARGUED NOT ASSUMED: the values/torsor clause is NOT refuted"
+   ]
+  ],
+  "B856": [
+   [
+    "B1010",
+    [
+     "withdraw"
+    ],
+    "IT, the coupling-form family being outside B687's atlas and B743's tower -- honest scope: B856's one SM reading (JUNO) was REFUTED ON KIND, so it is not automatically live, but 're"
+   ],
+   [
+    "B1020",
+    [
+     "confirm"
+    ],
+    "aced to its banked arc before banking (B1011 tone/mirror/phase sets in Q(sqrt5)/Q(omega); B856 |h|^2 set and the exact JUNO exclusion; B936/B928 det-ratios and K-norm re-verified i"
+   ]
+  ],
+  "B862": [
+   [
+    "B1080",
+    [
+     "extend",
+     "confirm"
+    ],
+    "ts; the verifier CONFIRMS the headline robustly and CAUGHT one claim pre-bank; DEFLATION: B862 banked the Z/6 kernel first \u2014 this arc confirms independently and extends): Gamma = Z"
+   ]
+  ],
+  "B892": [
+   [
+    "B951",
+    [
+     "correct"
+    ],
+    "ynkin 1952. So ARRIVING at su(3)+su(2)+u(1)^3 from E6 IS NOT A DISCOVERY -- this deflates B892's headline a second time (B950 corrected 'the Standard Model algebra', which is dim 1"
+   ],
+   [
+    "B953",
+    [
+     "withdraw"
+    ],
+    "ved, with the arithmetic checked in results.json; nothing is refuted -- B576, B714, B582, B892, B952 all stand; and whether some THIRD structure evades the dichotomy (rank 4, compl"
+   ],
+   [
+    "B967",
+    [
+     "correct"
+    ],
+    "50), ordinary English used correctly in many places that a grep cannot distinguish, where B892's banner and the amended LAW_MAP row are the correct treatment. THAT ASYMMETRY IS THE"
+   ],
+   [
+    "B1080",
+    [
+     "confirm"
+    ],
+    "nding tested \u2014 the su(5) classic control (cyclic, generator (1,1,1/6), closure-verified), B892's cascade terminus across SIX independent Weyl realizations using only one of its thr"
+   ]
+  ],
+  "B904": [
+   [
+    "B1077",
+    [
+     "confirm"
+    ],
+    "st probe pair; both cells' adversarial verifiers HOLD on full independent rebuilds): from B904's bare norm form alone \u2014 Witt index 4 confirmed by exact diagonalization \u2014 the even C"
+   ],
+   [
+    "B1131",
+    [
+     "confirm"
+    ],
+    "g B1129's one flagged candidate. det phi = -2/3 re-confirmed EXACT this bench (78x78 from B904 stage4c_phi.pkl); it is a basis-change determinant on E6's rank-6 CARTAN (agent: 72-d"
+   ]
+  ],
+  "B908": [
+   [
+    "B914",
+    [
+     "confirm"
+    ],
+    "RE construction re-run on the banked B883 27 in one exact basis (the 27bar trap caught -- B908's handoff realization is the dual; the mirror relation h_S(x) -> h_S(-x) confirmed as"
+   ]
+  ],
+  "B909": [
+   [
+    "B1177",
+    [
+     "confirm"
+    ],
+    "B12 prereg method note). (6) THE PROMOTION SCOPE-CHECK (ex-R48-9): CLAIMS.md carries ZERO B909/B952 rows (confirmed) -- the promotion pass itself stays a named bounded residue, not"
+   ]
+  ],
+  "B915": [
+   [
+    "B919",
+    [
+     "withdraw"
+    ],
+    "flag retracted in place -- verify-don't-trust applied to this arc's own first artifact). B915's FINDINGS annotated to cite this arc; the remaining B909 debts still gate on cpen."
+   ],
+   [
+    "B1023",
+    [
+     "confirm"
+    ],
+    "th c = 6 sigma (arithmetic re-verified here). A2's permission rests on the unit freedom + B915's precedent alone pending L154, whose stakes are stated plainly: IF THE GRAVITATIONAL"
+   ]
+  ],
+  "B922": [
+   [
+    "B943",
+    [
+     "correct"
+    ],
+    "THE O3 GATE APPLIED RETROACTIVELY -- B922's priority sentence corrected. Review 40 found the asymmetry: B940's prereg invented"
+   ],
+   [
+    "B1007",
+    [
+     "withdraw"
+    ],
+    "this session of grepping claims instead of reading code, B1006's cell D having duplicated B922 the same way five hours earlier. (2) THE COST CLAIM IS WITHDRAWN AND B798 STANDS IN F"
+   ]
+  ],
+  "B923": [
+   [
+    "B1020",
+    [
+     "confirm"
+    ],
+    "2 set and the exact JUNO exclusion; B936/B928 det-ratios and K-norm re-verified in B1016; B923 carriers; B303 CS = 0); every SM-side kind and RG ranking a CLASSICAL INPUT, cited no"
+   ]
+  ],
+  "B928": [
+   [
+    "B1020",
+    [
+     "confirm"
+    ],
+    "mirror/phase sets in Q(sqrt5)/Q(omega); B856 |h|^2 set and the exact JUNO exclusion; B936/B928 det-ratios and K-norm re-verified in B1016; B923 carriers; B303 CS = 0); every SM-sid"
+   ]
+  ],
+  "B930": [
+   [
+    "B938",
+    [
+     "confirm"
+    ],
+    "mes are written by ONE generator only. Part A: the unity column's exact line confirmed as B930 found it (F cap W3)."
+   ]
+  ],
+  "B936": [
+   [
+    "B1020",
+    [
+     "confirm"
+    ],
+    "tone/mirror/phase sets in Q(sqrt5)/Q(omega); B856 |h|^2 set and the exact JUNO exclusion; B936/B928 det-ratios and K-norm re-verified in B1016; B923 carriers; B303 CS = 0); every S"
+   ],
+   [
+    "B1024",
+    [
+     "confirm"
+    ],
+    "dinate's class) reproduces two independent banked statements exactly -- chi- gives (0,0), B936's 'D2 is a coboundary', and all-minus gives (1,1), 'D carries the nonzero class'. THE"
+   ]
+  ],
+  "B937": [
+   [
+    "B941",
+    [
+     "withdraw"
+    ],
+    "ymmetrically by (the product law)/(the mixing geometry's 5-power -- NOT the golden field: B937 refuted that reading four independent ways, 5 is a residue characteristic and the exp"
+   ]
+  ],
+  "B940": [
+   [
+    "B943",
+    [
+     "correct"
+    ],
+    "PLIED RETROACTIVELY -- B922's priority sentence corrected. Review 40 found the asymmetry: B940's prereg invented the O3 gate (no priority word until the sweep reaches MathSciNet/zb"
+   ],
+   [
+    "B975",
+    [
+     "extend"
+    ],
+    "are all lattice/trace/mode-label quantities, with no eigenfunction real part ever taken. B940 STANDS. The PROSPECTIVE warning stands and is banked: if B940 is ever extended to use"
+   ]
+  ],
+  "B942": [
+   [
+    "B948",
+    [
+     "withdraw"
+    ],
+    "te-don't-merge working in the direction that matters. THE SWEEP: anything still asserting B942's three retracted items would be a live claim resting on a dead one -- the burial fai"
+   ],
+   [
+    "B1004",
+    [
+     "withdraw"
+    ],
+    "D THE MOST-MENTIONED ARC IN THE BAND IS ONE WHOSE CENTRAL CLAUSE WAS RETRACTED. THE LEAK: B942 retracted measurement = the beta=1 SSB (computed two ways, four escape hatches closed"
+   ],
+   [
+    "B1040",
+    [
+     "withdraw"
+    ],
+    "door (sqrt(-3)) carries ZERO observer bits; B723's Galois clauses EXCLUDED as retracted (B942/B957). V2: every step's TEMPLATE transplants verbatim to the mu2 sisters (values chan"
+   ]
+  ],
+  "B944": [
+   [
+    "B945",
+    [
+     "withdraw"
+    ],
+    "L(2,Z)-conjugacy), and no depth is claimed for the symmetry of W. CONSEQUENCE, WITHDRAWN: B944 section 3's suggestion that TIME and CHIRALITY are one unbroken Z/2 for this object,"
+   ]
+  ],
+  "B947": [
+   [
+    "B978",
+    [
+     "withdraw"
+    ],
+    "from a different direction without being told; L137 CLOSED REFUTED with no successor, and B947's pass/fail scoped as a property of a CHOSEN NORMALISATION of a cubic rather than of"
+   ]
+  ],
+  "B950": [
+   [
+    "B951",
+    [
+     "correct"
+    ],
+    ")+su(2)+u(1)^3 from E6 IS NOT A DISCOVERY -- this deflates B892's headline a second time (B950 corrected 'the Standard Model algebra', which is dim 14 not 12; this arc adds that th"
+   ]
+  ],
+  "B952": [
+   [
+    "B953",
+    [
+     "withdraw"
+    ],
+    "ith the arithmetic checked in results.json; nothing is refuted -- B576, B714, B582, B892, B952 all stand; and whether some THIRD structure evades the dichotomy (rank 4, complex rep"
+   ],
+   [
+    "B1177",
+    [
+     "confirm"
+    ],
+    "rereg method note). (6) THE PROMOTION SCOPE-CHECK (ex-R48-9): CLAIMS.md carries ZERO B909/B952 rows (confirmed) -- the promotion pass itself stays a named bounded residue, not sile"
+   ]
+  ],
+  "B957": [
+   [
+    "B1004",
+    [
+     "withdraw"
+    ],
+    "etracted measurement = the beta=1 SSB (computed two ways, four escape hatches closed) and B957 went further and REFUTED the identification, since every B700 torsor has structure gr"
+   ],
+   [
+    "B1040",
+    [
+     "withdraw"
+    ],
+    "(sqrt(-3)) carries ZERO observer bits; B723's Galois clauses EXCLUDED as retracted (B942/B957). V2: every step's TEMPLATE transplants verbatim to the mu2 sisters (values change as"
+   ],
+   [
+    "B1174",
+    [
+     "withdraw"
+    ],
+    "dependently). THE HYPOTHESIS AS POSED -- the four program Z/2's (B942 chirality/Gal(K/Q), B957 value torsor, B1168 mirror bit, S068 genus/breath) are ONE involution -- is REFUTED."
+   ]
+  ],
+  "B962": [
+   [
+    "B966",
+    [
+     "withdraw"
+    ],
+    "ich B964 PARTIALLY RETRACTED -- without saying so; now fixed, with the row recording that B962 was partly retracted, that this finding is among those that survive, and that the orb"
+   ]
+  ],
+  "B963": [
+   [
+    "B1017",
+    [
+     "correct"
+    ],
+    "UN-DERIVED SLOT. PROPAGATED IN THE SAME COMMIT: B963 FINDINGS banner; LAW_MAP twice (the B963 row and B1000's sharing-one-resource clause); THE_CLAIM section 1 corrected 4 to 5 ty"
+   ]
+  ],
+  "B964": [
+   [
+    "B965",
+    [
+     "correct"
+    ],
+    "VEV while adjoint VEVs are the measurement cascade and behave OPPOSITELY; corrected with B964's rule cited inline so the row now teaches the distinction it depends on. WHAT THIS S"
+   ]
+  ],
+  "B967": [
+   [
+    "B1004",
+    [
+     "withdraw"
+    ],
+    "had a cost -- B982 (seven file-drawer exemptions citing an audit that never named them), B967 (a retracted phrase left unregistered to avoid a false positive, at the price of five"
+   ]
+  ],
+  "B976": [
+   [
+    "B978",
+    [
+     "withdraw"
+    ],
+    "ependently flagged by the cell as 'a prior-art miss inside our own corpus', CORROBORATING B976 from a different direction without being told; L137 CLOSED REFUTED with no successor,"
+   ]
+  ],
+  "B994": [
+   [
+    "B1025",
+    [
+     "confirm"
+    ],
+    "ity 1 (B1017's retraced charges), both re-verified exactly -- so given the derived chain (B994), REP THEORY FIXES THE DIRECTIONS COMPLETELY and there is no continuous direction-cho"
+   ]
+  ],
+  "B997": [
+   [
+    "B1002",
+    [
+     "confirm"
+    ],
+    "ve terminology collision, and it is why the check looked open when the answer was banked. B997 used the SECOND, and m^2+4 reproduces it exactly (m=1 gives 5, m=2 gives 8), so B997-"
+   ]
+  ],
+  "B1000": [
+   [
+    "B1017",
+    [
+     "correct"
+    ],
+    "LOT. PROPAGATED IN THE SAME COMMIT: B963 FINDINGS banner; LAW_MAP twice (the B963 row and B1000's sharing-one-resource clause); THE_CLAIM section 1 corrected 4 to 5 typed external"
+   ]
+  ],
+  "B1009": [
+   [
+    "B1019",
+    [
+     "withdraw"
+    ],
+    "crimination lives at the word's OWN door and only there. C5, THE REPLACEMENT SENTENCE for B1009's withdrawn one: MATCHING THE SM CONFIRMS THE AXIOMS EXACTLY INSOFAR AS THE ENTRY IS"
+   ],
+   [
+    "B1035",
+    [
+     "withdraw"
+    ],
+    "ed hash-first from this bench: f0f336ce / 7ea68d34 exact): V1 the theta receipt CLOSED -- B1009's refusal accepted in full, nine sites withdrawn on the branch, the withdrawal STREN"
+   ]
+  ],
+  "B1012": [
+   [
+    "B1023",
+    [
+     "withdraw"
+    ],
+    "tification cell, cc's lane). BLOCKER 2, THE RUN'S FIRST TWO-SEAT FINDING: the T2 license 'B1012 proves the object cannot fix sigma' is WITHDRAWN on two verified grounds -- B1012 pr"
+   ]
+  ],
+  "B1016": [
+   [
+    "B1020",
+    [
+     "confirm"
+    ],
+    "56 |h|^2 set and the exact JUNO exclusion; B936/B928 det-ratios and K-norm re-verified in B1016; B923 carriers; B303 CS = 0); every SM-side kind and RG ranking a CLASSICAL INPUT, c"
+   ]
+  ],
+  "B1017": [
+   [
+    "B1025",
+    [
+     "confirm"
+    ],
+    "has multiplicity 1 (B884's banked grading) and the 16's SU(5)-singlet has multiplicity 1 (B1017's retraced charges), both re-verified exactly -- so given the derived chain (B994),"
+   ]
+  ],
+  "B1082": [
+   [
+    "B1115",
+    [
+     "extend"
+    ],
+    "AG edge consistent with the standard early->late freezing order, ZERO inversions (extends B1082; falsifier stated: any inverted edge kills the reading). THE FORK PUNCHLINE: gravity"
+   ]
+  ],
+  "B1083": [
+   [
+    "B1189",
+    [
+     "confirm"
+    ],
+    "ord(A1 mod 3kappa), table re-verified) -- a typed hierarchy, not a contest; B766-T7=T3 vs B1083 RECONCILED (different invariants on different objects: observer-menu Galois choice v"
+   ]
+  ],
+  "B1085": [
+   [
+    "B1095",
+    [
+     "correct"
+    ],
+    "entary split and its Fibonacci-parity breaking are what it does not speak of, and THAT is B1085's honest headline; B1085 + B1091 phrasing corrected in place, L173's prereg gains th"
+   ]
+  ],
+  "B1091": [
+   [
+    "B1095",
+    [
+     "correct"
+    ],
+    "rity breaking are what it does not speak of, and THAT is B1085's honest headline; B1085 + B1091 phrasing corrected in place, L173's prereg gains the differential-first requirement."
+   ]
+  ],
+  "B1116": [
+   [
+    "B1120",
+    [
+     "confirm"
+    ],
+    "dering; monomial ill-conditioning) caught+fixed before trusting any PSLQ. The value door (B1116) now has an ARITHMETIC KEY confirmed at two sub-leading orders; delivering a specifi"
+   ]
+  ],
+  "B1119": [
+   [
+    "B1125",
+    [
+     "correct",
+     "confirm"
+    ],
+    "one. DISCRIMINATING FACT (verified): the corrected ad-invariant form (<e_r,e_-r>=-1, the B1119 fix; live negative control confirms +1 fails ad-invariance) on the color A2 I2 is AL"
+   ]
+  ],
+  "B1120": [
+   [
+    "B1124",
+    [
+     "extend"
+    ],
+    "V-1 ALL-ORDERS ARITHMETIC (value-campaign cell; extends B1120/L180): does the Kashaev tower's trace-field arithmetic continue past C2? THE PARITY"
+   ]
+  ],
+  "B1124": [
+   [
+    "B1133",
+    [
+     "confirm"
+    ],
+    "m; numerator 278392949 PRIME, denominator 2^11*3^11*5^1); re-verified this bench matching B1124's independently-computed C4 pooled to 30.77 digits (its pooled fit beat V-1's conser"
+   ]
+  ],
+  "B1128": [
+   [
+    "B1132",
+    [
+     "extend"
+    ],
+    "NULL ON THE WHOLE SPHERE + THE GOLDEN MERIDIAN LAW (value-probe wave remainder B, closing B1128's fenced gap). (B) INSTRUMENT-NULL-FULL-SPHERE: extended B1128's listener map off th"
+   ]
+  ],
+  "B1129": [
+   [
+    "B1131",
+    [
+     "confirm"
+    ],
+    "a real bridge or a coincidence? NO-BRIDGE -- the instrument was built and FAILED, closing B1129's one flagged candidate. det phi = -2/3 re-confirmed EXACT this bench (78x78 from B9"
+   ]
+  ],
+  "B1130": [
+   [
+    "B1133",
+    [
+     "confirm"
+    ],
+    "caught (PSLQ noise floor via negative control; an L180-class precision bug via the B1124+B1130 cross-check; a PSLQ blind spot found via continued fractions, confirmed across 8 bas"
+   ]
+  ],
+  "B1141": [
+   [
+    "B1144",
+    [
+     "withdraw"
+    ],
+    "anon-HTTPS read to the separate golden_gate repo). THE MATH IS UNTOUCHED in all four. (1) B1141's two Q(sqrt-3) 'errata' WITHDRAWN: the memo writes in the q=e^{iPi/3} basis (minpol"
+   ]
+  ],
+  "B1143": [
+   [
+    "B1144",
+    [
+     "withdraw"
+    ],
+    "e-bench to origin. (4) B1139's 'SP-1 open cell' tag was stale (memo 25 had closed it) and B1143's 'load-bearing correction to the cloud's vector (=Y-T3L)' is WITHDRAWN as a cross-f"
+   ]
+  ],
+  "B1161": [
+   [
+    "B1162",
+    [
+     "confirm"
+    ],
+    "tes quark->lepton->antiquark WITHIN a generation, 3-ness only in E8's (3,27)) -- confirms B1161 generation-NULL. D5 (memo 71) SUSY NO-GO -- the carrier admits no supercharge (3 def"
+   ]
+  ],
+  "B1163": [
+   [
+    "B1180",
+    [
+     "correct"
+    ],
+    "INDNESS answer untouched -- purely imaginary => mirror-fixed is a fact about m004 alone); B1163's family-wide addendum re-scoped (amphichirality at >=83 UNCHECKED by any seat -- an"
+   ]
+  ],
+  "B1164": [
+   [
+    "B1166",
+    [
+     "confirm"
+    ],
+    "e one withheld continuous datum). The observer's continuous freedom is R+ alone; confirms B1164's '2 discrete + 1 continuous' at the continuous slot. C4 (the three (Z/2)^2 presenta"
+   ]
+  ]
+ }
+}

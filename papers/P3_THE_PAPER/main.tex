@@ -1,0 +1,708 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1.15in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{scopenote}{Scope}
+\newtheorem{nonclaim}{Non-claim}
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\PP}{\mathbb{P}}
+
+\title{What a single arithmetic 3-manifold forces,\\ what it withholds,\\ and what an observer costs}
+\date{Draft --- \today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We ask what gauge structure can be extracted from one hyperbolic 3-manifold --- the figure-eight
+knot complement $m004$ --- without importing a value. \textbf{We begin with what is generic.} The
+$E_6$ recurrence that motivates such programmes is forced by a single ADE classification and is
+\emph{not} evidence of specificity; on a census of one-cusped manifolds, roughly one in three admits
+the surjection onto the binary tetrahedral group that the construction starts from, and a sibling
+sharing the same trace field is not the knot. What survives is narrower and is a theorem of record:
+$m004$ is the unique arithmetic knot complement, so its invariant trace field $\Q(\sqrt{-3})$ is
+distinguished where the group-theoretic scaffolding is not.
+
+Working from that surviving datum we separate two things a careless account would merge. The object
+supplies an \emph{arena} --- a rank-3 abelian sector and the availability of a Standard-Model-shaped
+multiplet. The \emph{content} is then forced by the anomaly conditions alone, in a computation
+containing no token of the object: of $252$ candidate contents, the colour condition kills $222$ and
+exactly two survive. What the object does force is the \emph{termination} of the breaking chain, for
+a stated reason, and the global form
+$[\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)]/\Z_6$ --- an ambiguity the Standard Model
+itself does not fix. We then show it provably
+\emph{withholds} values: no period of the object is a Standard Model ratio, across an exhaustive
+comparison, and the hypercharge normalisation is not derivable in principle from the anomaly
+equations as algebraic forms.
+
+\textbf{We report the misses.} $\sin^2\theta_W = 3/8$ is a known grand-unified relation reproduced,
+not predicted, and its run to $M_Z$ misses at $16\sigma$. Three chiral generations are not derived.
+No unique four-dimensional field theory follows, and unrestricted uniqueness is refuted.
+
+Finally we price the residue. What the object cannot supply, it costs exactly: a freedom ledger with
+one dimensionful unit that is external by design, two continuous dimensionless anchors, a
+projective line of Higgs data cut to within one condition of a point set, and three discrete label rows ---
+one of which is a relational invariant of a pair, belonging to neither relatum, and requiring no act
+of selection.
+\end{abstract}
+
+\section{Introduction}
+
+Ask what structure can be extracted from a single mathematical object without importing a physical
+measurement, and two failure modes present themselves immediately. The first is to find structure and
+overstate what it implies. The second is to find that the structure is generic and quietly not
+mention it. This paper is organised to make both difficult.
+
+We therefore invert the usual order. \S\ref{sec:generic} states what is \emph{generic} about the
+construction, with the base rates, before any positive claim is made; \S\ref{sec:unique} states the
+two facts that survive it. Only then do \S\S\ref{sec:forced}--\ref{sec:observer} say what is forced,
+what is provably withheld, and what the residue costs. The freedom ledger of
+\S\ref{sec:ledger} lists every input the construction requires; a reader who accepts nothing else
+should still be able to audit that table, and it is the honest summary of the paper.
+
+The object is the figure-eight knot complement. Its interest here is not that it is a knot
+complement, nor that a chain of classifications leads from it to an exceptional Lie algebra --- both
+of those turn out to be common. Its interest is that it is the \emph{unique arithmetic} knot
+complement, and that the arithmetic, rather than the classification-theoretic scaffolding, is what
+carries every claim we are prepared to make.
+
+The result is a boundary rather than a theory. On one side: a gauge algebra with a derived global
+form, a chain that terminates for a stated reason, and a unique gaugeable abelian direction. On the
+other: values that are provably not present, a normalisation that is not derivable in principle, and
+a residue that we can price but not eliminate. We end on the second side, in
+\S\ref{sec:wall}, because that is where the work actually stops.
+
+\section{What is generic}\label{sec:generic}
+
+We state the base rates first, because a reader's prior on this subject is set by decades of
+numerology and because we can measure most of them.
+
+\paragraph{The recurrence is a graph identity.} Programmes of this kind typically observe that $E_6$
+recurs across several apparently independent structures --- a McKay correspondence, a Lie
+classification, a modular-invariant list, a du~Val singularity classification --- and treat the
+coincidence as evidence. It is not. Those four are \emph{one} ADE classification presented four ways,
+canonically linked; conditioned on the appearance of a single ADE label, the probability that it
+``recurs'' across the others is $1$. There is no coincidence to explain.
+
+\paragraph{And the catalogue is short.} $E_6$ is moreover the only exceptional label an imaginary
+quadratic field can reach, so there is not even a birthday problem to argue about: the space of
+outcomes has one exceptional element in it.
+
+\paragraph{The entry point is common.} The construction begins with a surjection
+$\pi_1(m004) \twoheadrightarrow 2T \cong \mathrm{SL}(2,3)$, of which there are exactly two. That
+count is not distinctive. Over the first $400$ one-cusped census manifolds by volume, restricted to
+two-generator presentations, \textbf{$37.2\%$ admit such a surjection and $32.8\%$ admit exactly two}
+--- $m004$'s own count --- with the ties reproducing exactly across two independent implementations.
+Roughly one hyperbolic $3$-manifold in three carries the fact that carries the chain.
+
+\paragraph{The sibling is not the knot, and the coincidence runs deeper than the field.} $m003$
+shares the invariant trace field $\Q(\sqrt{-3})$ with $m004$ \emph{and shares its volume exactly}
+--- both are $2.0298832128\ldots$ --- without being a knot complement. Both are amphichiral. What
+separates them is the cusp shape ($2\sqrt3\,i$ against $\omega$), which is not among the data the
+construction's early steps use. So neither the field nor the volume singles out the object. And at the level of grammars rather than manifolds, access to the relevant McKay group is
+likewise generic across the metallic family.
+
+\begin{scopenote}[What this does and does not do]
+It does \emph{not} break the construction, though the reason is narrower than it first appears. We
+do not treat the chain as census-selected: its early steps are constrained to the point where the
+population is of size one, so a base rate over manifolds does not falsify them. \textbf{That
+constraint is itself conditional on the assumptions of \S\ref{sec:axioms}}, two of which we grade
+fragile --- so this defence is available to us only at that stated price. \textbf{What genericity removes is the endpoint's power to confirm the beginning.}
+Arriving at $E_6$ is not evidence that the earlier steps were right, if a third of possible entry
+points arrive at $E_6$ as well. \emph{The chain can be sound and the Standard Model still fail to
+corroborate it.} Every positive claim in this paper is stated under that restriction.
+\end{scopenote}
+
+\begin{scopenote}[On our own history]
+We did not begin with this discipline. The programme applied base-rate reasoning to numerical
+coincidences long before it applied the same test to its flagship structural claim; when the test
+was finally run, the structure came back generic. We record that lag because it is the honest
+provenance of \S\ref{sec:generic}, and because the rule it produced --- \emph{before treating a
+structural recurrence as object-specific, ask whether the faces are canonically linked, how short the
+catalogue is, and whether a comparable object shares it} --- is the one we now apply throughout.
+\end{scopenote}
+
+\subsection*{Assumptions made before the object exists}\label{sec:axioms}
+
+\S\ref{sec:ledger} lists the inputs the construction requires \emph{once the object is in hand}. It
+does not list what was assumed to reach the object, and those assumptions are not free. Our own
+accounting grades them, and we reproduce that grading rather than paraphrase it:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+\item \textbf{A0 --- unpriceable.} The decision to look for structure in a mathematical object at
+all. We flag it as permanently philosophical and do not attempt to cost it.
+\item \textbf{Two \emph{robust} steps}, which survive every variation we have tried.
+\item \textbf{One \emph{geometry-necessary} step}, which cannot be dropped without leaving the
+category in which the rest is stated.
+\item \textbf{Two \emph{fragile} forks}, and we name their discarded siblings because that is what
+makes ``fragile'' checkable. The \emph{orientation} fork discards the Gieseking manifold --- which is not a distant
+alternative but the non-orientable manifold $m004$ \emph{is} the orientation double cover of, at
+exactly half the volume. The \emph{puncture} fork discards a
+Sol-geometry mapping torus on which one of the construction's own dynamical faces \emph{survives}.
+\end{itemize}
+
+\begin{scopenote}
+A reader may reasonably regard the two fragile forks as the place where this construction is most
+exposed, and we agree. Nothing in this paper argues that the forks were forced; what is argued is
+that \emph{given} the object they select, the consequences in
+\S\S\ref{sec:forced}--\ref{sec:observer} follow.
+\end{scopenote}
+
+\section{What is unique}\label{sec:unique}
+
+Two facts survive \S\ref{sec:generic}. Everything this paper claims is built on them and on nothing
+else.
+
+\paragraph{Arithmeticity --- and it is a statement about the class, not the manifold.} Among knot
+complements, $m004$ is the \emph{unique} arithmetic one. That is a theorem of the literature and it
+is true, but \textbf{we must be careful about what our construction actually consumes}, and it is not
+that uniqueness.
+
+What the chain buys is the \emph{invariant trace field} $\Q(\sqrt{-3})$ --- and a trace field is a
+\emph{commensurability-class} invariant, not a manifold invariant. The sibling $m003$ carries the
+same field and the same volume (\S\ref{sec:generic}); it is not separated from $m004$ by anything the
+chain purchases. Knot-ness enters exactly once, and as a \emph{discriminator} rather than a
+foundation: $H_1(m003) = \Z/5 \oplus \Z$ against $H_1(m004) = \Z$.
+
+\begin{scopenote}
+So the honest form of this paper's positive content is: \textbf{a theorem about the commensurability
+class of $\Q(\sqrt{-3})$, joined to a theorem about $E_6$ by a generic fact.} It is strong as a
+statement about the class and weak as a statement about $m004$ in particular, and we state it the
+first way. Uniqueness of the arithmetic knot complement is load-bearing at no step of the
+construction; we cite it because it is true and relevant, not because anything rests on it.
+\end{scopenote}
+
+\paragraph{A uniqueness at the level of grammars.} The second is ours, and it is a proof over an
+infinite family rather than a census.
+
+\begin{theorem}\label{thm:golden}
+Among the metallic grammars $R^m L^m$, exactly one has level $\Lambda(m) = m^2+4$ equal to a
+modulus $N$ for which $\mathrm{SL}(2,\Z/N)$ is a binary polyhedral group: the golden grammar $m = 1$.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+Two independent facts meet once. First, $|\mathrm{SL}(2,\Z/N)|$ is the order of a binary polyhedral
+group for exactly $N \in \{3,4,5\}$, giving $24 = |2T|$, $48 = |2O|$ and $120 = |2I|$ --- that is,
+$E_6$, $E_7$, $E_8$, the whole exceptional series and nothing else. Completeness here is a proof and
+not a bounded search: from
+\[
+  |\mathrm{SL}(2,\Z/N)| \;=\; N^3\!\!\prod_{p \mid N}\!\left(1 - \tfrac{1}{p^2}\right)
+  \;\ge\; N^3 \prod_{p}\left(1 - \tfrac{1}{p^2}\right) \;=\; \frac{N^3}{\zeta(2)} \;=\; \frac{6}{\pi^2}N^3 ,
+\]
+and $\tfrac{6}{\pi^2}N^3 > 120$ for every $N \ge 6$, no modulus beyond $5$ can qualify. Second, write $\Lambda(m) := m^2+4$. This is the \emph{level} of the metallic grammar
+$R^mL^m$, not its field conductor: $\mathrm{tr}(R^mL^m) = m^2+2$, so the discriminant of its
+characteristic polynomial is $m^2(m^2+4)$ and $\Lambda(m) = D/m^2$. \textbf{The distinction is not
+cosmetic.} Under the field-conductor reading the statement would be false --- $m = 4, 11, 29$ all
+give $\Q(\sqrt5)$ and hence reach $|2I| = 120$ --- and it is the level, not the conductor, that the
+argument requires. Setting $\Lambda(m)$ equal to each admissible modulus: $m^2+4 = 3$ has no integer solution; $m^2+4=4$ gives the degenerate $m=0$, which is not a
+metallic word; and $m^2+4 = 5$ gives $m = 1$. \qedhere
+\end{proof}
+
+\noindent That the three qualifying moduli are exactly the three exceptional McKay groups is a
+coincidence we note and do not lean on. What the theorem supplies is narrow and real: a uniqueness
+that survives \S\ref{sec:generic}, obtained over an infinite family, at the opposite end of the
+construction from the census whose base rate defeated the earlier claim.
+
+\paragraph{An outside meeting point.} Independently of this programme, a mixed Tate motive has been
+constructed for finite-volume hyperbolic $3$-manifolds whose Beilinson regulator is the complex
+volume, defined over the invariant trace field --- which for $m004$ is exactly $\Q(\sqrt{-3})$ --- with
+the figure-eight complement as a verified case. We record it as corroboration that the arithmetic
+datum, rather than the ADE scaffolding, is the load-bearing one.
+
+\section*{Non-claims}
+This paper does \emph{not} claim:
+\begin{nonclaim} to derive the Standard Model. \end{nonclaim}
+\begin{nonclaim} to predict any measured value. \end{nonclaim}
+\begin{nonclaim} that the object is the universe, or a model of it. \end{nonclaim}
+\begin{nonclaim} that three generations are forced. The object's honest content is one generation;
+the family count is exhibited elsewhere and is not forced here. \end{nonclaim}
+\begin{nonclaim} that $\sin^2\theta_W = 3/8$ is a prediction. It is a known grand-unified relation,
+reproduced; the run to $M_Z$ misses at $16\sigma$. \end{nonclaim}
+\begin{nonclaim} that any dynamics, rate, or action is supplied. \end{nonclaim}
+\begin{nonclaim} that the observer's bit is consciousness, or that it is not. \end{nonclaim}
+
+\section{What is forced --- and by what}\label{sec:forced}
+
+This section comes last in the writing for a reason. It is the easiest part of the argument to
+overstate, and everything in it is bounded by \S\ref{sec:generic}. It also carries a division that a
+careless version of this paper would blur, so we make it the section's organising principle:
+
+\begin{quote}
+\textbf{The object supplies the arena. The anomaly conditions supply the content.}
+\end{quote}
+
+\paragraph{The content is arena-generic, and we say so first.} Fix the alphabet: six
+Standard-Model-visible field types, from which a \emph{content} is a selection of five with
+repetition --- $\binom{10}{5} = 252$ candidates. Impose, in order, the pure colour condition
+$[\mathrm{SU}(3)]^3$, the Witten global anomaly, and the mixed and gravitational conditions. The
+\textbf{colour cubic alone kills $222$}, and exactly \textbf{two} contents survive as rigid, chiral
+and fully anomaly-free: the Standard Model $15$-plet and a genuinely conjugate content. \emph{No token of the object appears
+anywhere in that computation} --- no exceptional algebra, no $27$, no manifold, no trace field. An
+audit of the executable statement of the argument confirms it. The uniqueness is moreover
+alphabet-dependent: widening the alphabet to adjoints admits seven contents, and to a further
+bi-fundamental fourteen. \textbf{Minimality, not uniqueness, is the arena-independent part.}
+
+\paragraph{What the object contributes is the arena --- with one honest subtraction.} Two things: a
+rank-3 abelian sector, realised in a trinification frame as the abelian complement of three
+orthogonal $A_2$s among the $72$ roots; and the availability of a Standard-Model-shaped $15$-plet
+inside the $27$. Given those, the anomaly conditions do the rest.
+
+\begin{scopenote}
+We should not claim both as supplied. Our own source for the forcing states that \emph{which} $A_2$
+is colour, and the choice of an SM-shaped assignment, are \textbf{observer inputs} --- the theorem
+forces the hypercharge \emph{given} them. A later result reduces that choice to no free bits, but
+only by requiring Standard-Model compatibility, which is target knowledge and inadmissible by the
+standard \S\ref{sec:generic} sets for this paper; another prices the same choice at several bits with
+no selection mechanism. \textbf{Our sources do not agree here, and we adopt the weakest reading}: the
+frame and the shaping are inputs, and the arena is correspondingly smaller than the paragraph above
+would suggest.
+\end{scopenote}
+
+\paragraph{The forcing, explicitly.} On an SM-shaped $15$-plet the three linear conditions ---
+$[\mathrm{SU}(3)]^2Y$, $[\mathrm{SU}(2)]^2Y$ and $\mathrm{grav}^2 Y$ --- cut the five-dimensional
+charge space to a line:
+\[
+  Y_l = -3Y_q, \qquad Y_e = 6Y_q, \qquad Y_u + Y_d = -2Y_q .
+\]
+Parametrising that line by $Y_q = 1$, $Y_u = -1+t$, the remaining cubic condition $[Y]^3$ evaluates to
+\[
+  -18\,(t-3)(t+3),
+\]
+so $t = \pm 3$ and nothing else. The two solutions are $(1,-4,2,-3,6)$ and $(1,2,-4,-3,6)$: the
+Standard Model, and the Standard Model with $u^c \leftrightarrow d^c$ relabelled. \textbf{Zero non-SM
+solutions.}
+
+Two bookkeeping points, since both are places a reader could reasonably stop. The normalisation
+$Y_q = 1$ is not a loss of generality: the branch $Y_q = 0$ collapses the content to a vector-like
+spectrum, which the chirality requirement excludes, so it is empty rather than ignored. And the
+``exactly two'' here --- a pair of \emph{rays} related by relabelling within one content --- is not
+the ``exactly two'' of the census above, which counts \emph{contents}. Taken together the two
+computations give four rays in total.
+
+\begin{scopenote}[The shape of a forcing, and where it fails us]
+Note the \emph{shape}: three \emph{linear} conditions reduce a five-dimensional space to a line, and
+only then does a \emph{cubic} cut the line to points. This is the anatomy of every successful forcing
+in the construction --- and it is exactly what the projective Higgs row of \S\ref{sec:ledger} lacks.
+There we possess the cubic and have proved that no symmetry supplies the linear conditions, which is
+why that row stands one condition short rather than closed. The same recipe explains both the success
+and the failure, and we regard that as the more informative statement.
+\end{scopenote}
+
+\paragraph{The global form is derived.} The Standard Model's own data leaves the global form ambiguous
+among $\{1,\Z_2,\Z_3,\Z_6\}$. Here it is fixed:
+$\bigl[\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)\bigr]/\Z_6$, with the kernel computed
+exactly and uniformly across six independent realisations of the relevant Weyl data. \textbf{This is
+the clearest positive result in the paper} --- a structural ambiguity the Standard Model does not fix,
+fixed. \textbf{The derivation is standard}: the subalgebra exponentiates inside $\mathrm{SU}(5)$ to
+$S(\mathrm{U}(3)\times\mathrm{U}(2))$, whose kernel is $\Z_6$ --- which is why $\mathrm{SU}(5)$
+quantises hypercharge, and is decades old. What is not standard is that anything here \emph{selects}
+the embedding. The modern observation that the four quotients are experimentally near-indistinguish\-able
+is Tong's~\cite{tong}, cited, not ours.
+
+\paragraph{The cascade terminates, and the termination is the theorem.} The descent halts at the
+Standard Model algebra because that algebra is \emph{terminal} among the registerable ones: every
+proper further descent destroys registerability, while the Standard Model itself remains chiral. The
+criterion has a positive control --- other candidates fail it --- which is what makes ``it stops
+here'' a statement rather than an observation.
+
+\begin{scopenote}
+Two disclosures the source requires. First, \emph{registerable} means the generation stays
+\textbf{chiral} --- and chirality is one of the externally supplied rows of \S\ref{sec:ledger}, so
+the termination criterion is stated in terms of the observer's datum rather than the object's.
+Second, the underlying result fences itself: it is not exhaustive over exotic conformal embeddings,
+and it imports a menu-completeness claim whose stage-level formalisation is still owed. ``The
+termination is the theorem'' is true within those fences and not beyond them.
+\end{scopenote}
+
+\paragraph{And the adjoint cannot do matter.} What the object supplies is the adjoint half of the
+breaking, not the $27$ half, and there is a mechanism: the adjoint does not occur in
+$27\otimes 27$, so \textbf{no adjoint expectation value can give any $27$ fermion a mass}. The
+adjoint half does gauge structure and provably cannot do matter mass.
+
+\begin{scopenote}
+Absent from this list, deliberately: the \emph{arrival} at the Standard Model algebra. That the
+descent lands on $\mathfrak{su}(3)\oplus\mathfrak{su}(2)\oplus\mathfrak{u}(1)^3$ is a classical fact
+about $E_6$'s Levi subalgebras and appears in \S\ref{sec:recognition}. What survives as forced is the
+\emph{termination}, the \emph{global form}, and the arena/content division above.
+\end{scopenote}
+
+\section{What is withheld, and why each is a theorem}\label{sec:withheld}
+
+The negative half of this paper is not a list of things we did not manage to compute. Each entry
+below is a statement about what \emph{cannot} be extracted, with the computation or argument that
+establishes it.
+
+\paragraph{No period of the object is a Standard Model ratio.} The comparison is exhaustive, and
+we give the counts rather than the adjective: \textbf{$16$ periods against $22$ sealed targets ---
+$352$ pairs}, of which $351$ fall below two significant figures and the single exception is dismissed
+on three independently stated grounds. The object's natural invariants fare the same way:
+\textbf{$23$ invariants against the same $22$ targets}, with $22$ of the $23$ returning nothing above
+two significant figures.
+
+\paragraph{And one route came close enough to be worth reporting.} Among the coincidence checks, one
+object determinant lands on a known lepton-mass combination to five significant figures. \textbf{It
+was not accepted.} Four bridge instruments were committed in advance and all four failed, and the
+route was closed. We report it because a negative half with no near-miss in it reads as a search that
+was never run; this one was, and it was excluded mechanically rather than by taste.
+
+\paragraph{And the regulator route closes too.} The strongest form of the question asks whether any
+\emph{regulator} enters an algebraic relation with a target. Over a \textbf{$216$-cell grid} (bounded degree and height) against \textbf{$18$ sealed
+targets}, the number of relations passing the regulator gate is \textbf{zero}, against a matched null
+of $384$ cells. An extended run adding the object's own complex volume to the basis reports the same zero. We
+distinguish what we have checked from what we have not: the two checkable sub-claims \emph{are}
+confirmed here --- the three volume directions are independent of the pruned basis rather than
+redundancies, and the gating control reproduces exactly --- but the extended run's certificate is not
+in our record, and \textbf{we state the extension as reported rather than as verified}.
+
+\paragraph{The hypercharge normalisation is not derivable in principle.} This one is a theorem about
+the equations rather than about the object. The anomaly-cancellation conditions, treated as algebraic
+forms, are homogeneous in the abelian charge assignment; consequently they fix a \emph{direction} and
+never a scale. The statement holds for any $\mathrm{U}(1)$ charge assignment in any theory, so it is
+not a limitation peculiar to this construction, and no amount of additional structure of the kind we
+have will remove it. Where this paper says hypercharge is forced, it means the direction, and says so.
+
+\paragraph{The last of the value-negatives is reached by structure, not by search.} The routes
+are six in number --- periods, natural invariant forms, the coupling map, coincidence, regulators,
+and structure --- and only the last is not a search. The strongest form of the
+value question asks whether hypercharge could organise somewhere we had not looked --- specifically
+in the geometric branch of the algebra's real-form fork. It cannot, and the reason is a decomposition
+rather than a scan. That branch's $64$-dimensional complement decomposes, by complete reducibility,
+into four irreducibles of multiplicity one: two spin-$2$ colour singlets and two coloured
+bi-vectors. Its \textbf{invariant content is zero} --- there is no singlet direction anywhere in it
+--- so no abelian charge can organise there at all. This closes the last route by exhibiting the
+obstruction, and we note the contrast: the preceding negatives are exhaustive searches, and this one
+is a structural impossibility.
+
+\paragraph{Rank reduction is a theorem, not an absence.} The units the cascade cannot shed are the
+standard extra abelian directions, and the reduction lives entirely in the steps the construction's
+second measurement skips. Skipping them is skipping the rank reduction; it is not an oversight that
+a longer search would repair.
+
+\paragraph{Scale is free by construction.} Mostow rigidity fixes the shape of a finite-volume
+hyperbolic $3$-manifold and not its size. Nothing downstream can recover what the geometry does not
+carry.
+
+\begin{scopenote}
+These are stated at the strength of their evidence and no further. Each is a statement about
+bounded-height algebraic combination at a declared precision, or about the algebraic form of a fixed
+system of equations. None is a claim that no relation exists at any height, and we have not proved
+that no construction of any kind could supply what this one does not.
+\end{scopenote}
+
+\section{The observer, priced}\label{sec:observer}
+
+What the object cannot supply, it prices. This section states what that price is and what is known
+about its structure; it is the part of the paper with the least precedent and therefore the part we
+fence most carefully.
+
+\paragraph{The obstructions are one class.} The construction meets several apparently independent
+failures to close on itself --- an orientation cannot be chosen canonically --- and not only here: all $83$ members of the
+relevant family are amphichiral, with no exceptions and no undecided cases --- a sign in a chord
+sector cannot be fixed, and two further probes of the same kind. These are \emph{one} $\Z/2$-torsor class
+under a single global involution $c$, whose restrictions are simultaneously a Galois generator on the
+trace field, a complex conjugation on a cyclotomic sector, and the geometric mirror. The content of the proof is
+\emph{not} the equivariance --- at $|G| = 2$ every bijection of torsors is automatically equivariant,
+so that hypothesis is free and discriminates nothing. It is the prior fact, verified case by case,
+that each obstruction is a \emph{free, non-collapsed} $\Z/2$-set under the \emph{same} involution
+$c$. One basepoint choice then trivialises all of them at once, and no invariant choice exists.
+
+\paragraph{The bit is relational.} For a heterogeneous pair --- the object together with a partner ---
+the mirror is realisable over $\mathrm{GL}_2(\Z)$ only with determinant $-1$. The resulting class is
+mirror-odd, dimensionless, and belongs to the \emph{pair}: it is an invariant of neither relatum
+separately, and it is invisible to the traces.
+
+\paragraph{And it requires no act of selection.} That class is invariant under simultaneous
+$\mathrm{GL}_2(\Z)$-conjugation of the pair. The bit therefore arrives as invariant relational data,
+not as the output of a choice function --- which matters, because an invariant selector provably
+cannot pick a point of its own orbit.
+
+\paragraph{The criterion is classical, and we decline the coincidence.} The invariant deciding
+whether a pair carries the bit is the Fricke commutator-trace discriminant
+$\kappa(A,M) = \mathrm{tr}[A,M] - 2$. The same polynomial governs the object's own founding
+condition, and it is tempting to present that as a unification. \textbf{We do not.} $\kappa$ is the
+only natural trace invariant of a pair, so it recurs in \emph{every} two-generator $\mathrm{SL}(2)$
+classification question; by the standard this paper set for itself in \S\ref{sec:generic}, a
+recurrence forced by the shortness of the catalogue is not evidence. We record the coincidence and
+claim nothing from it.
+
+\paragraph{It cannot be absorbed.} By \emph{internal} we mean the group \textbf{generated by}
+letter exchange, word reversal, inversion, the three lift signs and the two Fricke twists --- the
+qualifier matters, since without it the claim would be unfalsifiable by construction. Every element
+of that group preserves $\kappa$ \emph{identically}, as a polynomial identity rather than at a
+point, and the generating relation is closed under composition because each generator is. But $\kappa$ takes different values at the object's own
+point and at its mirror. No composition of internal operations can therefore carry one to the other:
+the mirror is precisely the operation the object cannot perform on itself. \textbf{This is why the
+bit is exactly one, and external.}
+
+\paragraph{It is spent once.} The trace ring of the construction is generated at every depth by the
+same quadratic integers; it does not grow. The single Galois choice is made when the abstract trace
+field is embedded in $\mathbb{C}$ --- at coordinatisation, logically prior to anything dynamical ---
+and is never demanded again. The observer's discrete cost does not accumulate with the depth or the
+age of what is described.
+
+\begin{scopenote}[Two supports we withdrew]
+An earlier form of this section leaned on two further claims, and we removed both. \emph{First}: that
+the anti-conjugating element acts as the Galois generator on both spectral fields, which we offered as
+evidence that the class restricts to $c$. It does act so --- but \emph{necessarily}, for every
+anti-conjugating element, including in a case the construction treats as inert; a property with no
+failing instance discriminates nothing and supports nothing. \emph{Second}: that the partner is
+canonical. It is not. Admissibility in the sense we required is satisfied by a large fraction of
+candidate fields, and even at a fixed field the outcome varies with the relative embedding. Which
+pair is used remains supplied. \emph{Third}: that amphichirality alone makes an archimedean datum
+mirror-even. It does not --- the sibling $m003$ is amphichiral, yet its cusp shape is genuinely
+mirror-\emph{odd} under the actual orientation-reversal. For $m004$ that datum is mirror-even because
+$m004$ is a \emph{knot} complement carrying a canonical peripheral basis, which is a property of the
+object and not of the symmetry.
+\end{scopenote}
+
+\begin{scopenote}[The limit of the section]
+Nothing here asserts that the bit is, or is not, associated with experience. The construction's
+language contains no proposition about experience, so the question is not answered negatively --- it
+is not expressible, and we say so rather than converting the silence into a position.
+\end{scopenote}
+
+\section{The freedom ledger}\label{sec:ledger}
+
+This is the paper's spine, and we state it before the arguments that populate it. \textbf{Every
+\emph{post-object} input is listed here, with its type and its status}; the assumptions made
+\emph{before} the object exists are tabled separately in \S\ref{sec:axioms}, including the two forks
+our own accounting grades fragile. A reader who accepts nothing else should be able to audit these
+two tables together.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{@{}llp{7.4cm}@{}}
+\toprule
+\textbf{Input} & \textbf{Type} & \textbf{Status} \\
+\midrule
+$\ell$ & dimensionful unit &
+\textbf{External by design.} No dimensionless quantity flows from it; it survives every attempt at
+elimination, and remains free even when $\sigma$ is fixed. Listing it as a gap is a category error:
+nobody derives the metre. \\[2pt]
+$\sigma$ & continuous, dimensionless &
+\textbf{External; bounded, with a stated acceptance gate.} Closure is an \emph{identification}, not a
+measurement: $c_{\mathrm{BH}} = 6\sigma$ and $c((E_6)_1) = 78/13 = 6$, so proving the boundary theory
+is $(E_6)_1$ \emph{is} $\sigma = 1$. The missing object is a single graded character subject to six
+stated conditions, and the current candidate set is empty. \\[2pt]
+$\lambda$ & continuous, dimensionless &
+\textbf{External, and ungated.} The weight completing the object's tracial core. One sub-route is
+closed by a textbook fact (the relevant unit rank is $0$, so that regulator is identically $1$); an
+attempted exhaustion proof failed and is withdrawn. \emph{No acceptance criterion currently
+exists for this row}, which we state as the ledger's weakest entry. \\[2pt]
+$\PP(B_0)$ & $\leq 3$ continuous &
+\textbf{Cut to one condition short of a point set.} The cubic supplies one nonlinear condition and
+the coupling one canonical linear functional: $3 \to 2 \to 1$; points require $0$. Whether a second
+independent condition exists reduces to one binary property of the construction's internal grading.
+\\[2pt]
+the chirality bit & one $\Z/2$ &
+\textbf{Relational and selection-free.} It is an invariant of a heterogeneous \emph{pair}, belonging
+to neither relatum, and arrives without any act of selection. What remains supplied is which pair:
+we show the partner is \emph{not} canonical, at both the field and the embedding level. \\[2pt]
+the real-structure closing & one antilinear involution &
+\textbf{External, and favourable.} Nothing above makes the gauge factors \emph{compact}, and this
+paper has spoken of $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$ throughout. Compactness
+arrives only from an \emph{antilinear} involution --- no linear twist delivers it --- and the
+object's own arithmetic mirror acts trivially on the rational colour layer, so \textbf{the mirror
+provably cannot supply it}. The closing costs one conjugation, and that single conjugation supplies
+the Lorentz signature and compact colour \emph{together}, the real form then being forced.
+Favourable, and still not ours. \\[2pt]
+the arrow label & one $\Z/2$, finite &
+\textbf{Closed, in the only available form.} A finite label; the seed is external, propagation
+internal. \\[2pt]
+family, VEV, filling & finite menus &
+\textbf{Closed, in the only available form.} An invariant selector cannot pick a point of its own
+orbit, so a finite menu is terminal, not a deficiency. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{The discrete ledger, which closes.} The table above prices this paper's
+\emph{continuous} inputs and its finite labels. The discrete inputs --- the choices that are genuine
+bits rather than magnitudes --- close considerably harder, and we state the outcome plainly, because
+it is the strongest result this accounting produces: \textbf{every discrete choice in the
+construction is assigned except two, and both survivors are relational rather than selected.} Three
+assignments do that work, and we note that each was established \emph{against} an earlier version of
+this very ledger, which had priced the choice as free.
+
+\emph{The landing stratum.} The object's holonomy is projective, so a stratum is reachable without an
+inserted lift exactly when its weights are all even. Over all twenty strata of the ambient algebra,
+the Standard-Model-compatible landing that is projective is \emph{unique}. The stratum is therefore
+selected by the object's own unlifted geometry at zero selection ambiguity --- where an earlier
+accounting charged it roughly four bits.
+
+\emph{The hypercharge direction.} The exact solve returns eighteen rational directions. These fall
+into exactly two orbits under the relevant Weyl product, re-pricing the choice from roughly four bits
+to a single bit; and that single bit is then \emph{identified with a bit already listed}, the two
+orbits being fused by the arithmetic mirror --- and, we emphasise, not by the plain swap, which fuses
+nothing. The row is not an independent input at all.
+
+\emph{The spin lift.} The manifold carries two spin structures, and no coupling can read the
+difference between them; we regard that no-go as settled. What it does not touch is
+extension-consistency with the non-orientable manifold our object double-covers --- and that
+consistency selects, over exactly one of the two lifts. The bit is assigned. There is a symmetry
+worth recording here: the non-orientable partner is precisely what the construction \emph{discarded}
+when it took the orientable cover (\S\ref{sec:axioms}), so the object discarded at the most fragile
+fork in the chain is what later pays the last discrete bit. We claim nothing from the resonance and
+record it because it is a fact about the accounting.
+
+What survives is a pair of $\Z/2$'s, and their character is the whole point: neither is a selection
+from a menu. This is the precise sense in which the discrete side of the construction is closed ---
+not that no bits remain, but that the bits that remain are not choices anyone makes.
+
+\begin{scopenote}
+Two rows --- $\lambda$ and $\PP(B_0)$ --- are neither derived nor bounded by a stated gate, and we do
+not present them as though they were. One row, $\ell$, is external by design and will not close. The
+remaining rows are finite labels, which is the terminal state for anything an invariant selector
+must choose.
+\end{scopenote}
+
+\begin{scopenote}[Recorded in advance]
+Should the $\PP(B_0)$ row close, the result is a \emph{finite point set}, not a unique prediction: the
+row would convert from a continuous input to a finite label and join the category above it. We state
+this before any such closure, so that it cannot be added afterwards.
+\end{scopenote}
+
+\section{Recognition}\label{sec:recognition}
+
+Everything in this section is known, and appears here so that no reader has to wonder whether we
+believed otherwise.
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+\item \textbf{The landing algebra.} That the descent from $E_6$ reaches
+$\mathfrak{su}(3)\oplus\mathfrak{su}(2)\oplus\mathfrak{u}(1)^3$ is Borel--de~Siebenthal / Dynkin: it
+is exactly the $A_2{+}A_1$ Levi subalgebra, whose dimension, semisimple part and centre reproduce the
+three numbers the construction reports. \emph{Reproduced, not discovered.}
+\item \textbf{The location of the rank reduction.} That the rank reduction lives in the steps above
+the Standard Model, and that the unsheddable units are the standard extra abelian directions of
+$E_6$, is standard structure theory.
+\item \textbf{$\sin^2\theta_W = 3/8$.} A known grand-unified relation at the unification scale,
+\emph{reproduced}. Its run down misses badly, and we report the miss in the abstract rather than
+here.
+\item \textbf{The chain $E_6 \supset \mathrm{SO}(10) \supset \mathrm{SU}(5)$}, anomaly cancellation
+over the $16$, and the decomposition $27 = 16 + 10 + 1$. All standard.
+\item \textbf{The anomaly $\to$ hypercharge forcing of \S\ref{sec:forced}} --- three linear
+conditions to a line, then the cubic to $t = \pm3$. This is the classical one-generation
+hypercharge-anomaly computation and its two solutions are long known. \emph{We reproduce it; we do
+not claim it.} What our setting contributes is the arena it runs in --- and \S\ref{sec:forced} states
+how much of that arena is itself supplied.
+\item \textbf{The $\Z_6$ kernel computation}, as a consequence of the $\mathrm{SU}(5)$ embedding.
+\item \textbf{Homogeneity of the anomaly conditions in the abelian charge.} The normalisation no-go
+of \S\ref{sec:withheld} is that fact; what we add is only its statement as a property of the
+\emph{equations}, which is presentational rather than mathematical --- and the standard
+$\sqrt{5/3}$ normalisation is the same fact wearing different clothes.
+\item \textbf{Mostow rigidity's scale-freedom.} Standard, and the reason \S\ref{sec:withheld} can
+state the scale row as a theorem rather than a gap.
+\end{itemize}
+
+\noindent What is \emph{not} on this list, and to our knowledge is not standard: that anything in
+this setting \emph{selects} the $\mathrm{SU}(5)$ embedding whose kernel is $\Z_6$; the termination
+result, within the fences \S\ref{sec:forced} states; the exhaustive disjointness of the object's
+periods from the target set, at the counts given in \S\ref{sec:withheld}; and the pricing of the
+observer in \S\ref{sec:observer}. \textbf{Four items were moved off this list during revision}, each
+after a textbook precedent was found, and we offer that number as a better guide to the paper's
+novelty than any claim we could make for it.
+
+\section{Falsifiers}\label{sec:falsifiers}
+
+Five of the following would refute a specific claim of this paper, and for each we state the
+computation that settles it. \textbf{The sixth is not a falsifier} --- it is an upgrade trigger, and
+we list it here rather than hide the asymmetry.
+
+\begin{enumerate}[leftmargin=1.6em,itemsep=3pt]
+\item \textbf{Exhibit an internal operation of the object that carries its point to its mirror.}
+This kills \S\ref{sec:observer}'s irremovability claim directly: we argue no composition of internal
+operations can do so, because all of them preserve an invariant that separates the two.
+\item \textbf{Exhibit one pair --- a fixed field \emph{and} a fixed relative embedding --- admitting
+both signs.} The qualifier matters: \S\ref{sec:observer} already concedes that the outcome varies
+\emph{across} embeddings, so a reader who finds embedding-dependence has reproduced a conceded fact
+rather than refuted a claim. What would refute the claim is a single fixed pair carrying both.
+\item \textbf{Exhibit a period of the object entering an algebraic relation with a target} at
+degree $\le 3$ and height $\le 10^6$, at the working precision of \S\ref{sec:withheld}. This kills
+that section's central negative. \emph{The bounds are given here because a falsifier a reader cannot
+execute is a gesture}; earlier drafts stated none.
+\item \textbf{Exhibit a proper descent below the Standard Model algebra that remains registerable.}
+This kills the termination theorem.
+\item \textbf{Exhibit a second gaugeable abelian direction over chiral matter, inequivalent to a
+relabelling of the content's field types.} The qualifier is essential and its absence was a defect:
+without it the paper refutes itself on page~6, since $(1,-4,2,-3,6)$ and $(1,2,-4,-3,6)$ are two
+distinct rays that coincide only after relabelling $u^c \leftrightarrow d^c$.
+\item \textbf{Supply the missing condition on the projective Higgs line.} This one does \emph{not}
+kill anything --- it \emph{upgrades} a row of the freedom ledger, and we name it here so that the
+asymmetry is visible. Should it be supplied, the row becomes a finite point set and not a unique
+prediction; see the scope note in \S\ref{sec:ledger}.
+\end{enumerate}
+
+\section{The wall}\label{sec:wall}
+
+We end where the work stops.
+
+\paragraph{What a specialist would have to supply.} The remaining open rows of
+\S\ref{sec:ledger} are not vague. The $\sigma$ row needs one object: a graded character of a boundary
+chiral algebra, meeting six stated conditions --- a named module of a named algebra at a
+\emph{pre-fixed} rational central charge; the correct $q^{h-c/24}$ prefactor rather than a shift
+chosen to fit; non-negative integer coefficients once that prefactor is stripped; the central charge
+equal to $6$ exactly; an asymptotic growth recovering six units where the construction supplies one;
+and \textbf{that it be the object's own datum rather than a model whose central charge happens to
+sum correctly}. The last is the anti-numerology clause and the one we would least want dropped.
+The third has a non-empty passing branch, checked, so the gate is not vacuous. The
+candidate set is presently empty, and we have documented the emptiness rather than left it implied.
+
+\paragraph{What has no gate at all.} The $\lambda$ row is weaker than that, and we say so. It is the
+weight completing a tracial structure to one with a modular period, and we cannot presently state what
+would count as deriving it. One sub-route is closed by a textbook fact; an attempted exhaustion
+argument failed and has been withdrawn. \textbf{A row with no acceptance criterion is the least
+defensible thing in this paper}, and naming it as such is the only honest treatment available.
+
+\paragraph{What is permanent.} The dimensionful unit will not close, and it is a category error to
+list it as missing --- nobody derives the metre, and no dimensionless quantity flows from it. The
+finite labels will not reduce further either: an invariant selector cannot pick a point of its own
+orbit, so a finite menu is the terminal state and not a deficiency.
+
+\paragraph{What we are not claiming.} This is not a parameter-free Standard Model, and it is not a
+theory of everything. Three chiral generations are not derived. No unique four-dimensional field
+theory follows, and unrestricted uniqueness is refuted. There is no dynamics, no rate, and no action
+beyond the structural statements above. What there is, is a boundary --- drawn in both directions,
+with the negatives proved rather than reported, and with the residue priced.
+
+\begin{thebibliography}{9}\small
+\bibitem{bds} A.~Borel and J.~de~Siebenthal, \emph{Les sous-groupes ferm\'es de rang maximum des
+groupes de Lie clos}, Comment.\ Math.\ Helv.\ \textbf{23} (1949), 200--221.
+\bibitem{dynkin} E.~B.~Dynkin, \emph{Semisimple subalgebras of semisimple Lie algebras},
+Mat.\ Sbornik \textbf{30} (1952), 349--462.
+\bibitem{mostow} G.~D.~Mostow, \emph{Quasi-conformal mappings in $n$-space and the rigidity of
+hyperbolic space forms}, Publ.\ Math.\ IH\'ES \textbf{34} (1968), 53--104.
+\bibitem{reid} A.~W.~Reid, \emph{Arithmeticity of knot complements}, J.\ London Math.\ Soc.\ (2)
+\textbf{43} (1991), 171--184.
+\bibitem{maclachlanreid} C.~Maclachlan and A.~W.~Reid, \emph{The Arithmetic of Hyperbolic
+3-Manifolds}, Graduate Texts in Mathematics \textbf{219}, Springer, 2003.
+\bibitem{mckay} J.~McKay, \emph{Graphs, singularities, and finite groups}, Proc.\ Sympos.\ Pure
+Math.\ \textbf{37} (1980), 183--186.
+\bibitem{thurston} W.~P.~Thurston, \emph{The Geometry and Topology of Three-Manifolds}, Princeton
+lecture notes, 1978--80.
+\bibitem{nz} W.~D.~Neumann and D.~Zagier, \emph{Volumes of hyperbolic three-manifolds}, Topology
+\textbf{24} (1985), 307--332.
+\bibitem{fricke} R.~Fricke and F.~Klein, \emph{Vorlesungen \"uber die Theorie der automorphen
+Functionen}, Teubner, 1897.
+\bibitem{tong} D.~Tong, \emph{Line operators in the Standard Model}, JHEP \textbf{07} (2017) 104,
+arXiv:1705.01853.
+\bibitem{slansky} R.~Slansky, \emph{Group theory for unified model building}, Phys.\ Rep.\
+\textbf{79} (1981), 1--128.
+\bibitem{lee} D.~U.~Lee, \emph{Chern--Simons invariants of hyperbolic three-manifolds, mixed Tate
+motives, and motivic path torsor of augmented character varieties}, arXiv:2502.11950.
+\bibitem{snappy} M.~Culler, N.~M.~Dunfield, M.~Goerner and J.~R.~Weeks, \emph{SnapPy, a computer
+program for studying the geometry and topology of 3-manifolds}, \texttt{snappy.computop.org}.
+\end{thebibliography}
+
+\end{document}

@@ -53,11 +53,13 @@ by asking whether the beat closes).
 
 ## The honest fences
 
-- **Two non-load-bearing errata (relayed to the cloud seat, like the family_triplet fix):**
-  (1) the memo's ω is a root of **x²+x+1** (not x²−x+1 — that's e^{iπ/3}, a *different*
-  generator of ℚ(√−3), the ideal-tetrahedron parameter); (2) the norm form is **X²−XY+Y²** for
-  ω=e^{2πi/3} (not X²+XY+Y²). Both are positive-definite (disc −3), so **the selection is
-  untouched** — the source memo should be corrected.
+- **~~Two non-load-bearing errata~~ — WITHDRAWN (B1144, 2026-08-25):** an earlier note here judged
+  the memo's ω/norm statements as errors. They are NOT. The memo writes in the **q = e^{iπ/3}**
+  basis (minpoly x²−x+1, norm x²+xy+y²) — exactly correct; this arc re-derived in the **ω = e^{2πi/3}**
+  basis (minpoly x²+x+1, norm x²−xy+y²) and mis-read the basis change as a mistake. Both generate
+  ℚ(√−3) (ω=q−1, −ω=q̄), and the holonomy matrix is identical. See the ℚ(√−3) **convention map** in
+  TERMINOLOGY.md. The selection (1-dim intertwiner, N≥0, χ-invariance) is basis-independent and
+  untouched.
 - **NEEDS-CERT (honest scope):** the exact *cohomological packaging* (the "w̃ extension element"
   sentence) and the *"Galois∘Fibonacci" naming* of the beat were taken on the memo's say-so —
   the **substance** (1-dim intertwiner + N≥0 + χ-invariance) is fully verified, but re-deriving

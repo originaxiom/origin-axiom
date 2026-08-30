@@ -1,4 +1,4 @@
-# B1060 — THE DIGEST LEDGER (the cloud window, fixed denominator; DIGEST STATUS: OPEN)
+# B1060 — THE DIGEST LEDGER (the cloud window, fixed denominator; DIGEST STATUS: CLOSED-PARTIAL 2026-08-27, B1173)
 
 *cc banking seat, 2026-08-13. The adopted protocol's step 2: every row present
 BEFORE the first verification, every disposition EMPTY at open — cherry-picking is
@@ -73,34 +73,40 @@ resolver; q-citations throughout.*
 
 | row | item | disposition | grade | note |
 |---|---|---|---|---|
-| 3.1 | the law-siblings gate (+ its 3 measured miss-modes; 4% coverage honesty) | EMPTY | — | port = REBUILT on main |
-| 3.2 | the supersession gate (one-way graph) | EMPTY | — | port = REBUILT on main |
-| 3.3 | E37 self-measurement → main's ERROR_LEDGER | EMPTY | — | |
-| 3.4 | E38 progress-eroded threshold → main's ERROR_LEDGER | EMPTY | — | main's currency-metric repair cites it already |
-| 3.5 | verdict_drop.py (cc3's port; 28 candidates corpus-wide) | EMPTY | — | blocked on lane 0 |
+| 3.1 | the law-siblings gate (+ its 3 measured miss-modes; 4% coverage honesty) | NOT-REACHED | — | port = REBUILT on main · NOT-REACHED at partial-close (B1173) → tracked at L185|
+| 3.2 | the supersession gate (one-way graph) | NOT-REACHED | — | port = REBUILT on main · NOT-REACHED at partial-close (B1173) → tracked at L185|
+| 3.3 | E37 self-measurement → main's ERROR_LEDGER | NOT-REACHED | — | NOT-REACHED at partial-close (B1173) → tracked at L185 |
+| 3.4 | E38 progress-eroded threshold → main's ERROR_LEDGER | NOT-REACHED | — | main's currency-metric repair cites it already · NOT-REACHED at partial-close (B1173) → tracked at L185|
+| 3.5 | verdict_drop.py (cc3's port; 28 candidates corpus-wide) | NOT-REACHED | — | blocked on lane 0 · NOT-REACHED at partial-close (B1173) → tracked at L185|
 
 ## Lane 4 — the findings (each verify-first; several already part-verified on receipt)
 
 | row | item | disposition | grade | note |
 |---|---|---|---|---|
-| 4.1 | the B408/B426 Galois restoration (means exactly ½; RMS √51/10) | EMPTY | — | Vieta pre-verified on receipt; the full read owed |
-| 4.2 | B564-closed-what-B141-left-open | EMPTY | — | the law-siblings founding defect |
-| 4.3 | claim-lines-overstate (5 instances) | EMPTY | — | |
-| 4.4 | metadata-vs-body 14→28 (with cc3's distribution) | EMPTY | — | blocked on lane 0 |
-| 4.5 | the 15 absent reproducers (3 under CLAIMS promotions) | EMPTY | — | |
-| 4.6 | the two-κ finding (qL159) | EMPTY | — | vs main's TERMINOLOGY register |
-| 4.7 | the shadow library (227 files; cyclo_engine 56 importers) | EMPTY | — | |
+| 4.1 | the B408/B426 Galois restoration (means exactly ½; RMS √51/10) | NOT-REACHED | — | Vieta pre-verified on receipt; the full read owed · NOT-REACHED at partial-close (B1173) → tracked at L185|
+| 4.2 | B564-closed-what-B141-left-open | NOT-REACHED | — | the law-siblings founding defect · NOT-REACHED at partial-close (B1173) → tracked at L185|
+| 4.3 | claim-lines-overstate (5 instances) | NOT-REACHED | — | NOT-REACHED at partial-close (B1173) → tracked at L185 |
+| 4.4 | metadata-vs-body 14→28 (with cc3's distribution) | NOT-REACHED | — | blocked on lane 0 · NOT-REACHED at partial-close (B1173) → tracked at L185|
+| 4.5 | the 15 absent reproducers (3 under CLAIMS promotions) | NOT-REACHED | — | NOT-REACHED at partial-close (B1173) → tracked at L185 |
+| 4.6 | the two-κ finding (qL159) | NOT-REACHED | — | vs main's TERMINOLOGY register · NOT-REACHED at partial-close (B1173) → tracked at L185|
+| 4.7 | the shadow library (227 files; cyclo_engine 56 importers) | NOT-REACHED | — | NOT-REACHED at partial-close (B1173) → tracked at L185 |
 | 4.8 | their Review 1 (qB1054, DELIVERED at 8a4d70b4) | ACCEPTED-WEAK | RUN | 70 of 72 mechanical checks re-run GREEN on this bench (the 2 fails are their own R1-2 remote-state checks — environment-bound by construction, an honest caveat on "re-runnable anywhere"); the verdict-routing failure CONFIRMED digit-for-digit (31× PROVED vs atlas {banked 18 · dead 9 · dormant 1 · open 2}; body-scan 22/30 at a coarser filter); their headline RETRACTION mechanically re-verified (the corrected debt-register numbers hold on re-run) and judged SOUND (they read the declared scope and corrected against it). Their finding 0 (B946) confirmed on main and repaired; their class = E40. Full-content re-grade of the review's 543 lines: the remaining lane-4 read. Evidence: the audit report §2. |
 
-## Lane 5 — the 12 leads (qL155–qL166 → renumber to main L165+ at disposition)
+## Lane 5 — the 12 leads (qL155–qL166 → renumber to main **L185+** at disposition; B1173: the original 'L165+' instruction is STALE and COLLIDES — main's live L165–L184 were minted after it was written; the alias table disambiguates; the umbrella residue row is **L185**)
 
 | row | lead | disposition | grade | note |
 |---|---|---|---|---|
-| 5.01–5.12 | qL155 … qL166, one row each on their register's read | EMPTY | — | owner's calls flagged where their handoff says so; qL164 already DECIDED by the owner (topic clusters); qL166 = lane 0's question |
+| 5.01–5.12 | qL155 … qL166, one row each on their register's read | NOT-REACHED | — | owner's calls flagged where their handoff says so; qL164 already DECIDED by the owner (topic clusters); qL166 = lane 0's question · NOT-REACHED at partial-close (B1173) → tracked at L185|
 
 **Counts at open: 58 rows, 58 EMPTY, 0 filled. The digest gate (the lock) enforces
 structure and the disposition vocabulary now; the completion lock activates with
 the closing arc.**
+
+**PARTIAL-CLOSE (2026-08-27, B1173; owner-directed O4):** 45 rows dispositioned / **13 NOT-REACHED**
+(lanes 3.1–3.5, 4.1–4.7, 5.01–5.12) — typed with the ledger's own honesty vocabulary and tracked at
+**L185** (the umbrella residue lead). The qor5up branch is released to **FROZEN-RECORD-CLOSED** (the
+window's record stands frozen at its Review-1 state; the alias table remains the resolver). A future
+sitting may reopen any NOT-REACHED row by dispositioning it under a new arc; the denominator stays 58.
 
 **Running count (2026-08-14, fourth fill — LANE 1 COMPLETE): 14 EMPTY, 44 filled.
 All 30 cloud arcs dispositioned: 4 at REBUILT (1.01 the fork-twin same-seal cell; 1.06

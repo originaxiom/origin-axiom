@@ -1,3 +1,11 @@
+> **STALENESS PASS (2026-08-27, B1179/R50-7):** this June-era brief predates the program's current
+> specialist surface. Its two questions are largely OVERTAKEN: the trace-map→A-polynomial route is banked
+> (B67 era) and the SL(n) tower closed at B153/B154 (order-based exponent; the closed-form k the one
+> survivor). The June picks remain sensible *types* for the geometry/CS bars. **The CURRENT queue is
+> `docs/SPECIALIST_SEND_QUEUE.md`** — six named bars, owner-gated per item. The outreach TRIGGER has
+> formally fired (B1161: the computable frontier declared exhausted; the 2026-07-03 directive was
+> "outreach only at exhaustion").
+
 # Expert outreach — pick, rationale, draft
 
 **Date:** 2026-06-04. Exploratory/uncommitted. For consulting an external specialist on B67 +

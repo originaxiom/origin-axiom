@@ -1,0 +1,7 @@
+{
+ "id": "B836",
+ "verdict": "OPEN",
+ "claim_one_line": "Route-the-negatives (retro-authored at R50-4): 167 authored-NEGATIVE arcs absent from the kill graph routed (graph 217 -> 384, backlog zero) with every judgement field left unset; discharges B801/B833. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "B1167",
+  "arc": "two-seat harvest: codex R017 (SEAM-Y provenance) + cc3 B8138-extended (cusp-shape separator)",
+  "verdict": "OPEN",
+  "integrate_not_merge": "both seats credited; no merge; independent checks on-bench, cross-seat certs cited-from-branch",
+
+  "A_codex_r017_provenance": {
+    "debt": "B1154/B1159-D1/R49-1: codex's height-308 up-Yukawa proof was single-homed off-branch",
+    "closed_on": "codex/seat-r001 b7faffef -- two primary derivations + 2 self-contained certs now branch-local",
+    "character_arithmetic_own_verified": "at k=4 (Q=A8,u^c=A4,d^c=A4,L/e^c/H=A0) and k=8 (swap), every MSSM operator is C12-neutral (up Q.u^c.Hu=8+4+0=0 mod 12; down, lepton, mu likewise) => C12 imposes NO family texture zero; it permits up=Sym^2(C^3) dim 6",
+    "certs_reproduced": "verify_yukawa_cup_product_308_scope.py + verify_yukawa_exact_spectrum_no_go.py reproduced from b7faffef -> PASS, byte-identical (mu_u domain 1806, rank 0; Wilson-projected up matrix exact 1x6 zero; OA-C1055 one-Higgs no-go)",
+    "fenced_codex_input": "the vanishing mu_u=0 is codex's cohomological naturality (H^1(G_Y)=0 chain-level; Higgs lifts through H^1(K1)=H^2(K1)=0); needs the Sage/BCDD monad line-bundle cohomology stack -- codex's own scope, NOT re-derived here; the down/lepton Sage chain remains open",
+    "disposition": "the up-Yukawa=0 conclusion was already banked B1154 (two independent walls); R017 pays the PROVENANCE; D1 up-sector PAID"
+  },
+
+  "B_cc3_b8138_cusp_separator": {
+    "finding": "cc3 extended Paper IV's census 7->13 invariants; exactly one new object-level separator = the cusp shape; m004 = 2sqrt3 i ~ 3.4641 i, unique in the 14-manifold Q(sqrt-3) family",
+    "reproduced": "the family cusp-shape table reproduced on-bench (6 at sqrt3 i, 5 hexagonal, m207, m410, m004); m004 unique (all cusps, up to conj, nothing within 1e-6)",
+    "cc3_handed_question": "'whether it yields an orientation is your question, not mine -- a modulus is not an orientation'",
+    "cc_answer_ORIENTATION_BLIND": "NO. 2sqrt3 i is PURELY IMAGINARY (real part 1e-15, rectangular cusp torus); orientation-reversal acts tau->-conj(tau) and -conj(2sqrt3 i)=2sqrt3 i=tau => MIRROR-FIXED => the cusp shape carries no chirality (real part 0) => it does NOT supply W0",
+    "effect_on_b1163": "STRENGTHENED not overturned: TWO object-level separators (H1=Z, cusp shape), BOTH orientation-blind; the object still provably refuses to self-orient; the W0 route list is 2, both closed"
+  },
+
+  "C5_seed": "the cusp shape sharpens C5 (is m004's Mostow structure object- or observer-data?): the object DOES supply an object-canonical ARCHIMEDEAN datum -- the cusp modulus 2sqrt3 i, and it is sqrt3-flavored (ties the infinity-place cusp geometry to the disc-144/Q(zeta12) ring-class hinge, B1166/C3). So the archimedean place is NOT cleanly 'all observer': the object hands over the cusp MODULUS (object-canonical) and withholds only the ORIENTATION (mirror-fixed). Refines B1165's G3 (frame = orientation + scale observer-supplied) -> a canonical archimedean MODULUS is object-supplied. Carried to the owner-directed C5 investigation (task-tracked, afterward)",
+
+  "fences": "(A) the mu_u=0 vanishing is codex's cohomological typed input (fenced, needs the Sage stack); only the character arithmetic + cert reproduction are own-verified; the conclusion is B1154's, re-homed not re-litigated. (B) orientation-blindness rests on the standard tau->-conj(tau) action + m004's purely-imaginary shape (own-verified); cc3's family uniqueness reproduced. No firewall crossing; Gate 5 clean. Not kill_graph-routed (a harvest; nothing killed).",
+  "reproduces": "verification/reproduce.sh -> REPRODUCES (C12 character neutrality; cusp-shape family + m004=2sqrt3 i unique + mirror-fixed orientation-blindness)"
+}

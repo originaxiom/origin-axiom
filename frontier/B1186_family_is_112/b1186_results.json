@@ -1,0 +1,38 @@
+{
+ "id": "B1186",
+ "arc": "the family-definition cell: |F|=112, criteria nested (cc3 B8152 harvested + corrected)",
+ "verdict": "PROVED",
+ "counts": {
+  "census": 212641,
+  "A_all_regular": 77,
+  "B_shape_field_Qsqrt3": 112,
+  "B_not_A": 35,
+  "cc3_reported": 111
+ },
+ "corrective_member": {
+  "name": "t06829",
+  "tets": 7,
+  "cusps": 2,
+  "vol_over_m004": 3,
+  "max_shape_denominator": 98,
+  "certification": "exact symbolic solution of the gluing equations in Q(sqrt-3)"
+ },
+ "nested": "A strictly inside B; A\\B empty; Paper IV's definition is (B)",
+ "consequences": {
+  "amphichirality": "112/112 (third strengthening)",
+  "quine": "zero collisions -- B762/B1184 stand",
+  "carriers_2sqrt3i": [
+   "t12840",
+   "o9_41001",
+   "o9_41009",
+   "o10_150684",
+   "o10_150685",
+   "o10_150693"
+  ],
+  "one_way_family_test": "fires a third time (111 -> 112)"
+ },
+ "scope": "census members at shape-denominator bound 256 (observed max 98); not all hyperbolic 3-manifolds",
+ "self_caught_bug": "first verifier double-cast 212-bit shapes and wrongly rejected o9_41001; caught by chasing the cc3 disagreement",
+ "artifacts": "verification/family_census.py + family_census.json (the member list) -- the dual-homing B8152 lacked",
+ "reproduces": "verification/reproduce.sh -> REPRODUCES (OA_SLOW=1 for the full sweep)"
+}

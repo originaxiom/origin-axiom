@@ -1,0 +1,7 @@
+{
+ "id": "B835",
+ "verdict": "OPEN",
+ "claim_one_line": "Lock repairs (retro-authored at R50-4): the suite's 5 failures at 9b5fef46 sort into three kinds -- one real corpus drift (trace_map share crossed below its 0.45 floor to 0.449), two lock defects, two correctly-firing tripwires -- none a mislabelled verdict. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+ "instrument": false,
+ "creates_law": false
+}

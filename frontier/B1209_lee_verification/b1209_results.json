@@ -1,0 +1,51 @@
+{
+ "arc": "B1209",
+ "discharges": [
+  "R52-3",
+  "the E37 grade on B1198's Lee row"
+ ],
+ "source": {
+  "ref": "arXiv:2502.11950",
+  "author": "Dong Uk Lee",
+  "title": "Chern-Simons invariants of hyperbolic three-manifolds, mixed Tate motives, and motivic path torsor of augmented character varieties",
+  "obtained": "read on-bench (78pp), not cited from an abstract"
+ },
+ "answers": {
+  "Q1_torsor": {
+   "answer": "YES -- a torsor under Z/|a_1|",
+   "lee_quote": "in general, there are several (i.e. as many as |a_1|) choices for a tangent vector d/dz giving a_2 in (2pi i)Z",
+   "lee_appendix_values": [
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "independent_derivation": "Newton polygon of main's own A-polynomial (B67): edges (4,-1),(4,1),(-4,1),(-4,-1) -> (a_1,b_1) = (-1,4),(1,4),(1,-4),(-1,-4)",
+   "abs_a1_at_every_ideal_point": 1,
+   "boundary_slopes": [
+    -4,
+    4
+   ],
+   "group_for_m004": "TRIVIAL",
+   "contact_with_the_observer_bit": false,
+   "consequence": "not Z/2, not V_4: no contact with B1174/B1182/B1183; the 'outside instance of the missing archimedean marking' identification FAILS"
+  },
+  "Q2_cs_zero": {
+   "answer": "NO",
+   "mechanism_used_instead": "Hikami's Neumann-Zagier potential on the deformation curve, evaluated by dilogarithm identities",
+   "limits": "+-4*zeta(2) = +-2pi^2/3",
+   "genuine_adjacency": "Hikami's curve is obtained by the saddle point method"
+  },
+  "Q3_trace_field": {
+   "answer": "YES, exactly, with no special-casing",
+   "statement": "Ext^1_{MT(k(M))}(Q(0),Q(2)) over the invariant trace field k(M)",
+   "k_m004": "Q(sqrt-3)"
+  }
+ },
+ "net": {
+  "positive_half": "an outside published mixed Tate motive over Q(sqrt-3) whose Beilinson regulator is our complex volume; 4_1 a verified appendix case",
+  "negative_half": "Lee does not supply SEAM-A's missing archimedean marking",
+  "W0_bar": "UNCHANGED; one route closed with its reason named",
+  "b1201_status": "CONFIRMED FROM THE SOURCE (the B1198 withdrawal was correct)"
+ }
+}

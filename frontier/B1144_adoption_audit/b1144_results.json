@@ -1,0 +1,32 @@
+{
+ "trigger": "cloud CORPUS_ADOPTION_AUDIT.md (golden_gate d537790), relayed by the owner 2026-08-25",
+ "verification": "three of four confirmed from golden_gate PRIMARY certificates (reachable after restoring anon-HTTPS read to the separate golden_gate repo); point 3 empirical (both remotes checked)",
+ "point1_qsqrt3_basis": {
+  "verdict": "cloud right",
+  "fix": "B1141's two errata WITHDRAWN; the durable Q(sqrt-3) convention map banked in TERMINOLOGY.md",
+  "detail": "memo uses q=e^{iPi/3} (minpoly x^2-x+1, norm x^2+xy+y^2) -- correct; the 'errata' imposed the omega=e^{2Pi i/3} basis",
+  "primary_source_confirmed": true
+ },
+ "point2_family_triplet_cartan": {
+  "verdict": "cloud right",
+  "fix": "B1138 cert note CORRECTED (addendum): family_triplet.py CARTS['E8'] is symmetric and valid (240 roots, dim 248, self-asserted)",
+  "detail": "verifier memo15_family_triplet.py mis-transcribed the matrix -- a transcription artifact on the verifying side, not a source defect",
+  "primary_source_confirmed": true
+ },
+ "point3_single_homed_debt": {
+  "verdict": "two-sided (both partly right)",
+  "fix": "B1140 debt REFRAMED + CLEARED (OPEN_LEADS L181); push-before-cite rule stands",
+  "detail": "449ece8 on neither origin nor codeberg (true) but on golden_gate, a separate public repo the cloud reaches; durable fix = cloud pushes outside-bench to origin",
+  "primary_source_confirmed": "empirical"
+ },
+ "point4_bl_catch": {
+  "verdict": "cloud right",
+  "fix": "B1139 stale 'open cell' tag fixed (addendum); B1143 'load-bearing catch on the cloud (=Y-T3L)' WITHDRAWN as a cross-frame artifact and B1143 AMENDED",
+  "detail": "both benches independently find the physical B-L fourth direction c5=1; memo 25 (sp1_bl.py) builds it in the closing's coordinates, this bench in B1139's frame",
+  "primary_source_confirmed": true
+ },
+ "accepted_credits_that_stand": ["B8132 spin-count scope clause", "B991 sin^2thetaW=3/8 typing as a sharpening", "F-3 disposition of the B1118-2 flag"],
+ "math_changed": false,
+ "bidirectional": true,
+ "gate5": "n/a (bookkeeping/typing, no SM value)"
+}
