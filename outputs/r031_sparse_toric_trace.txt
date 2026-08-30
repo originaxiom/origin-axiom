@@ -1,0 +1,10 @@
+DATA exhaustive rejected support counts for sizes 1,2,3 = (20, 190, 1140)
+RESULT minimum normalized dP6 trace support = 4
+DATA sparse factor trace = [((0, 1, 2), Fraction(1, 4)), ((0, 2, 3), Fraction(1, 4)), ((0, 3, 4), Fraction(1, 4)), ((0, 4, 5), Fraction(1, 4))]
+RESULT sparse trace is an exact dual cycle and pairs with tau as 1
+RESULT sparse trace differs from R027 cyclic trace by an exact dual boundary
+DATA factor homology witness = [((0, 1, 2, 4), Fraction(-1, 4)), ((0, 1, 3, 5), Fraction(1, 4)), ((0, 1, 4, 5), Fraction(-1, 4)), ((0, 2, 3, 5), Fraction(-1, 4))]
+RESULT sparse product trace support = 96
+RESULT sparse product trace has zero boundary and pairs with tau x tau as 1
+CONTROL deleting one sparse triangle breaks the cycle or normalization
+SCOPE computation shrinks 384 trace simplices to 96; no Yukawa entry or rank is evaluated
