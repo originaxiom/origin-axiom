@@ -119,3 +119,28 @@ asking whether a specific door is open.
 **Priors, stated:** we hold no favourable prior on any of the three. Q9's own refutation condition
 was written by us before the question was posed, and two of its candidate routes are already
 tombstoned by us.
+
+---
+
+## ADDENDUM (2026-08-30) — THE OWNERSHIP TYPING WAS INHERITED, NOT TESTED
+
+The owner asked whether these are ours. **I had typed all four NEEDS-SPECIALIST because the corpus
+types them so — inherited, not tested**, which the standing rule forbids for a gap and equally for a
+gap's ownership. Tested now (`THE_GATE_OWNERSHIP.md`), with `already_banked.py` run on each gate's
+terms:
+
+- **Q8 (Gate B) and Q7 (Route A) confirmed NOT OURS** — a state integral that does not exist in
+  reach, and a theorem that does not exist at all.
+- **Q10 (Gate D) WAS OURS and is now done** — see memo 156. Its row should carry the three new
+  results: the coupling is **forced to `λ = ω`, a sixth root of unity**; the object's set is a
+  **fractal of box-dimension ≈ 0.8 with empty interior**, so the DG *shape* is present; and the
+  structure is **generic across same-modulus invariants**, which pre-empts the first question a
+  specialist would ask.
+- **Q9 (Gate C) is PARTLY OURS**, and there is banked material the gate's own *Settled* list does
+  not cite — `B323` (the two ℤ/3's are **distinct**), `B324` (commensurator-conjugate generations
+  give a ℤ/3-circulant with Eisenstein ω — *structure, not values*), `B632` (`h¹(M;27) = 3`),
+  `B1036` (`h¹(dbl;27) = 5 = 2+2+1`). **Adjudicating whether these open or close the gate's own
+  refutation condition is a bench cell, and it is not started.**
+
+Q7 and Q8 stand as drafted. Q9 should not be sent until that adjudication is run — sending a
+question whose answer may be partly banked is exactly the *finished-but-forgotten* failure.

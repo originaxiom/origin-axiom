@@ -711,3 +711,24 @@ at the audit pin and clear at the current draft.
 
 **The sharpest thing learned:** five adversarial passes caught every defect *on the page* and none of
 the one that required reading *the corpus*. Adversarial reading and tracing are not substitutes.
+
+
+---
+
+## ADDENDUM 54 (2026-08-30) — ROW R56: "are q7-q10 ours here? lets address them"
+
+| row | question | answer | where |
+|---|---|---|---|
+| **R56** | Are Q7–Q10 ours? | **Two of four have bench-doable parts, and I had reported all four as external.** I typed them NEEDS-SPECIALIST because the corpus does — inherited, not tested, which the standing rule forbids. **Q7 and Q8: confirmed not ours.** **Q9: partly ours**, and `already_banked` surfaced four arcs the gate's own *Settled* list never cites — it should not be sent until that is adjudicated. **Q10: was ours, and is now done.** | `THE_GATE_OWNERSHIP.md`, memo 156 |
+
+**Gate D's result.** The coupling is not chosen: the object's own invariant forces **λ = ω, a sixth
+root of unity, on the unit circle.** The control reproduces Damanik–Gorodetski from scratch — band
+counts **5, 8, 13, 21, 34, 55, 89**, every one a Fibonacci number. The object's set is a **fractal of
+box-dimension ≈ 0.8 with empty interior**, so the DG *shape* is there; and it is **generic** across
+same-modulus invariants — the object is the minimum of seven, recorded and not claimed.
+
+**And the thing the owner should know about how it was got:** the seal's binding control **fired
+three times** before the instrument was fit, once on a **vacuous pass** that would have reported
+nothing as something. Three times I had a runnable instrument producing confident output and the
+control refused it. The second correction — a mixed trace convention — is what produced the
+`λ = ω` identity, so **the correction was worth more than the cell's headline.**
