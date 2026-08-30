@@ -848,3 +848,25 @@ a **direction, never a value**.
 
 **Q7 is now worth sending, rewritten** — four hypotheses discharged, one named, answerable in a
 sitting. Not sent.
+
+
+---
+
+## ADDENDUM 61 (2026-08-30) — ROW R63: "lets continue"
+
+| row | finding | where |
+|---|---|---|
+| **R63** | **Memo 157 landed** — main closed Gate C by its own refutation condition. **The paper's drift is still there, and is now contradicted rather than merely unsupported:** it says the finite labels *"will not reduce further"* while the route that would reduce them stands at **four of five**. And **E53 has a mirror nobody hunts.** | memo 163 |
+
+**The mirror class, named here.** Review 53 named E53 — *banked results asserted as open* — and built
+two instruments; this lane built a third. **All three hunt the same polarity.** Nothing hunts
+*something open, asserted settled*. `open_claim_sweep.py` scans the paper and is structurally blind
+to this drift, because permanence is not openness. **And the mirror is the more dangerous polarity
+for a document meant for outsiders:** it makes the work look more finished than it is — which is
+exactly the one-directional tell memo 150 measured, six defects all in the paper's favour.
+
+**Named, not instrumented.** Building it is a real cell and this memo does not pretend to have done
+it.
+
+**Coverage relay, now three instruments deep:** none of them reads `outside_bench/`. Register the
+lane, or it stays invisible to the programme's own gates. This seat does not edit main.
