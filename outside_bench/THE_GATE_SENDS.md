@@ -144,3 +144,32 @@ terms:
 
 Q7 and Q8 stand as drafted. Q9 should not be sent until that adjudication is run — sending a
 question whose answer may be partly banked is exactly the *finished-but-forgotten* failure.
+
+---
+
+## ADDENDUM 2 (2026-08-30) — Q9 IS WITHDRAWN AS DRAFTED: ITS ANSWER IS BANKED
+
+The adjudication ran (memo 157). **Q9 must not be sent as written.** Its ask — *does the intrinsic
+ℤ/3 realize as three generations?* — is answerable **NO** from material already on the record:
+
+- **`B323`**: ℤ/3 exists only at the E₆ gauge level and the commensurator, **and they are distinct**
+  (level 1 has symmetry D₄ of order 8, and 3 ∤ 8) — so the images are **not** the trinification
+  factors, and the closing clause's *first* branch does not fire;
+- **`B324`**: the three commensurator images are **g-conjugates sharing the same character**, their
+  circulant is **tautological** (forced by the cyclic trace identity), and their eigenvalues are
+  **degenerate** — no hierarchy. They **fail to be symmetric matter copies**, which is the closing
+  clause's *second* branch;
+- **`B307`**: the wall `B324` hands the matter question back to.
+
+**Neither `B323` nor `B324` is cited in Gate C's own *Settled* list.** Sending Q9 would ask a
+specialist to redo banked work — the finished-but-forgotten failure at its most expensive.
+
+**If a generation question is to be sent, it is a different one.** The live mechanism is
+`B632`'s cohomological count — *"DIFFERENT from B302's commensurator ℤ/3 and NOT blocked by
+B307"* — where the number is **3 but graded** (1 abelian + 2 chiral, `B632`'s own caveat at
+banking) and **5 on the mirror double** (`B1036`). Its cell 2, the cup-product texture with a
+registered block-diagonality prediction, is **queued and unrun**, and is the actual live generation
+computation on the record.
+
+**Q7 and Q8 stand as drafted. Q10 is answered (memo 156). Q9 is withdrawn pending a rewrite around
+the live mechanism.**

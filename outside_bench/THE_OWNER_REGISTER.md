@@ -732,3 +732,24 @@ three times** before the instrument was fit, once on a **vacuous pass** that wou
 nothing as something. Three times I had a runnable instrument producing confident output and the
 control refused it. The second correction — a mixed trace convention — is what produced the
 `λ = ω` identity, so **the correction was worth more than the cell's headline.**
+
+
+---
+
+## ADDENDUM 55 (2026-08-30) — ROW R57: "do it" (Gate C's adjudication)
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R57** | Adjudicate Gate C. | **It closes — on material banked since `B324` that the gate's own Settled list never cited.** The commensurator ℤ/3's three images are g-conjugates **sharing the same character**, their circulant is **tautological**, their eigenvalues **degenerate**; and `B323` shows the commensurator ℤ/3 is **distinct** from the gauge one, so they are not the trinification factors either. Second branch of the closing clause fires. **My declared prior (the gate stands) was wrong.** | memo 157 |
+
+**The finding under the finding.** Closing the gate does **not** close the generation question — it
+**redirects** it. `B632`'s cohomological count is *"DIFFERENT from B302's commensurator ℤ/3 and NOT
+blocked by B307"*, and it is the live route: **3 but graded** (1 abelian + 2 chiral, its own caveat
+at banking), **5 on the mirror double**. **Gate C asks about the mechanism that is dead, not the one
+that is alive.** `B632`'s cell 2 — the cup-product texture, with a falsifiable block-diagonality
+prediction already registered — is **queued and unrun, and is the actual live generation computation
+on the record.**
+
+**Consequences: Q9 is withdrawn as drafted** (sending it would ask a specialist to redo banked work),
+and if the record closes Gate C its load-bearing *"four named gates"* count becomes **three**.
+Relayed to cc; this seat does not edit `OPEN_PROBLEMS.md`.
