@@ -1,5 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Review 53 (2026-08-30, anchor `c0e9a4a0`).** L175 **CLOSED** (B1110) and L57 **ANSWERED-AND-REPOSED** (B364), both found by `scripts/checks/open_claim_sweep.py` rather than by anyone suspecting them. Carried open: R53-2's cross-seat waits (codex R023/MC1/R018; cloud C6), R53-3's unswept remainder (~973 arcs outside every screen), R53-5 (**λ's acceptance gate** — the ledger's weakest row).
+
 > **Review 52 currency (2026-08-28, anchor 8aa71f07):** the grand-computation campaign — L188 CLOSED (B1199); **L190's direction corrected** (reach DEFICIT, B1188); the eight-item existence-audit list dispositioned (B1194–B1196); the Φ₃ unification (B1200). Next lead: **L192**.
 >
 > **Review 51 currency (2026-08-28, anchor 411fb260):** in-window: **L186 CLOSED (THREE — B1185)**; **L187 CLOSED (B1187**, the depth-closure sitting; E52 filed); **L190–L191 registered** (Ω's structured non-genericity; the B502 witness). Next lead: **L192**.

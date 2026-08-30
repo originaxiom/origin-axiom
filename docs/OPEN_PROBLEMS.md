@@ -1,5 +1,7 @@
 # OPEN_PROBLEMS.md — the remaining gates (the honest specialist handoff)
 
+> **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The open census is **nine genuine nodes, not ten** — L175 is closed (B1110). III.4 carries **one key of three**, not three (B1109 killed the frame-map and other-color keys). Unchanged and honest: **λ has no acceptance criterion**, the ℙ³ is exactly one condition short, and cloud's **C6 completeness** remains the one thing between "every choice typed" and "provably every choice."
+
 > **Review 50 (2026-08-27):** SEAM-A's authoritative split — *walled-on-forcing* (OA-C1002) / *INDETERMINATE-on-sealing* (Gate 2, NEEDS-SPECIALIST); the "leaning MISMATCH" phrasing is retired. The specialist surface now has SIX named bars (SEAM-A Gate 2; J₃(𝕆) regulators; the B491 seam form; Cappell–Miller; torsion parity — queued at cc3; B165) — the outreach trigger has FIRED (B1161 exhaustion); the send-queue is the owner's (R50-7).
 > **Review 49 (2026-08-26):** the one live crossing is **SEAM-A's Gate 2** — a full Kim-style arithmetic-CS *action* of m004 on ℚ(√−3) (not just B708's linking form / B800's unnormalized Habiro series); NEEDS-SPECIALIST. codex's up-Yukawa=0 is resolved as a distinct cohomological wall (SEAM-Y MISMATCH), not our arithmetic disjointness.
 
