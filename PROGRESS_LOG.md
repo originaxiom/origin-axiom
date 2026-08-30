@@ -12892,3 +12892,18 @@ unrun one. Corrected on all four surfaces.
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## 2026-08-30 — B1219 CELL 0: the reverse sweep; the gate discharges
+
+Campaign Cell 0. Arcs → surfaces, the direction B1218 cannot see. 1032 settled arcs → **45
+off-surface** (29 SURFACE-IT / 10 INTERNAL / 6 SUPERSEDED), inside the pre-registered 40–90 at its
+low end. **Cells 1–3 are not blocked.** Three homonym traps declined (B603 weight, B26 λ/h, B551
+species word) — the arc's real product. Three own-failures caught pre-bank: the generated-index
+tautology (first run returned zero), a **stale positive control** (B1188's five had been surfaced
+by B1188's own remedy — the fix working), and **cross-process non-determinism** from a
+PYTHONHASHSEED-dependent top-N truncation. Planted controls replace the decaying ones. B551
+corroborates the paper's §3; B342 goes to the value-negative record, never the paper.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---

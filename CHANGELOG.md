@@ -1,5 +1,46 @@
 # Changelog
 
+## CELL 0 — the reverse sweep: the gate discharges, and three homonym traps are declined (2026-08-30)
+
+**B1219**, the publication campaign's Cell 0, which **gates Cells 1–3**. `open_claim_sweep.py`
+(B1218) runs **surfaces → arcs** and structurally cannot see a banked result that *no surface
+mentions at all* — there is no claim to match. This runs the other direction, **arcs → surfaces**,
+on two signals (id citation, high-IDF content coverage), off-surface only if both fail.
+
+**1032 settled arcs → 45 off-surface**: 29 SURFACE-IT, 10 INTERNAL, 6 SUPERSEDED. Against the
+expectation pre-registered before the run (*40–90, at least one bearing on Cells 1–3*): **45,
+inside the range at its low end.**
+
+**THE GATE VERDICT: Cells 1–3 are not blocked.** And the arc's real product is what it *declined* —
+**three homonym traps**, any one of which, taken on its name, would have redirected a cell onto a
+different object: **B603**'s "weight" is a Lie-algebra grading weight, not λ's von Neumann weight;
+**B26**'s "λ/h = 1" is a Fibonacci trace-map ratio, not the type III_λ modular parameter; **B551**'s
+"species word" (complexity ≈3n) is not the chain's golden word (Sturmian, n+1).
+
+**Three failures of my own, all caught before banking.**
+1. **The first run returned ZERO** against B1188's known 132 — `VERDICT_LEDGER` (1180 arcs),
+   `THE_SPINE` (979) and `CLOSED_DOORS` (528) are *generated per-arc enumerations* in which every
+   arc appears by construction. Being in a database dump is not being on a surface.
+2. **The positive control failed 0/5 — and the control was stale, not the instrument.** B1188's five
+   sharpest off-surface arcs are all now cited in `GRAND_COMPUTATION_LEDGER.md`, **which is B1188's
+   own remedy**. Concluded only after locating *which* surface cites each — "the control must be
+   wrong" is how a broken instrument gets waved through. Replaced with **planted controls that
+   cannot go stale** (0.42 flags / 1.00 clears).
+3. **The instrument was non-deterministic**: two runs gave 45 and 46 while six *in-process* calls
+   were identical. `toks()` returns a **set** and the score truncates to twelve terms, so on IDF
+   ties *which* twelve survive depends on `PYTHONHASHSEED`. Fixed by tie-breaking on the term; five
+   separate processes now agree. **A verifier that does not reproduce is worthless** — E52's own
+   class. The same latent tie-break was hardened in B1218.
+
+**Two findings surfaced.** **B551 corroborates the paper's new §3** (no rotation/winding mechanism
+can emit the ℚ(√φ) layer — it *requires* substitutive inflation order, exactly §3's framing).
+**B342** belongs on the value-negative record and must never enter the paper: it carries a measured
+comparison, and Gate 5 governs.
+
+`RETRACTED_PHRASES.md` gains the window's two retractions, both E53-caused. Lock
+`tests/test_b1219_reverse_sweep.py` (4), including a **cross-process determinism** test.
+
+
 ## THE PUBLICATION CAMPAIGN opened — and a tenth E53 instance, mine, on the day I minted the class (2026-08-30)
 
 **`docs/PUBLICATION_CAMPAIGN.md`**: six cells for the six things standing between the programme and

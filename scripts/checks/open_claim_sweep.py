@@ -170,7 +170,7 @@ def sweep(min_score=25.0, top=3):
                 arcid = re.match(r"(B\d+)", name)
                 if arcid and arcid.group(1) in cited:
                     continue    # the unit already points at this arc: not lost
-                scored.append((s, name, d["verdict"], sorted(shared, key=lambda t: -idf.get(t, 0))[:6]))
+                scored.append((s, name, d["verdict"], sorted(shared, key=lambda t: (-idf.get(t, 0), t))[:6]))
             scored.sort(reverse=True)
             if scored and scored[0][0] >= min_score:
                 rows.append((scored[0][0], surf, unit, scored[:top]))

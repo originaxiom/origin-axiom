@@ -4621,6 +4621,34 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1219": {
+   "slug": "reverse sweep",
+   "motifs": [
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "quasicrystal",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B26",
+    "B279",
+    "B293",
+    "B342",
+    "B551",
+    "B552",
+    "B603",
+    "B632",
+    "B769",
+    "B786",
+    "B985",
+    "L1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B121": {
    "slug": "monodromy grading",
    "motifs": [
