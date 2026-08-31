@@ -12971,3 +12971,20 @@ entries in C6–C17**, and "the squaring is the orientation axiom" as the ledger
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## 2026-08-31 — THE SUBMISSION CAMPAIGN: S0–S5
+
+Premise audit found the paper's bibliography **decorative**: 12 of 13 bibitems never cited, invisible
+to the build because LaTeX does not warn on unused bibitems. **S1: 20 defects → 0** (14 entries, 14
+cited), with a gated MB12-controlled checker; terminology deliberately excluded from the appeal list
+so the instrument cannot train the author to add furniture. **S2**: two entries added only where the
+body leans on them, one deleted as furniture. **S3**: keywords, MSC 2020, arXiv categories, and a
+placeholder author block carrying a comment that it must be filled at submission (privacy rule).
+**S4**: a figure of the chain's shape — 43 links, 4 axioms, the axiom-free stretch shaded. **S5**:
+final hostile read commissioned from codex on the final text, six named targets including our own
+settled/computed invention and the covering direction we now assume we get wrong by default. **S6**:
+three items stay open and are stated in the paper.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---

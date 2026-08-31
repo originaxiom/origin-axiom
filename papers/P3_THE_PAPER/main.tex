@@ -5,6 +5,7 @@
 \usepackage{microtype}
 \usepackage{booktabs}
 \usepackage{enumitem}
+\usepackage{tikz}
 \usepackage[hidelinks]{hyperref}
 
 \newtheorem{theorem}{Theorem}[section]
@@ -20,6 +21,14 @@
 \newcommand{\PP}{\mathbb{P}}
 
 \title{What a single arithmetic 3-manifold forces,\\ what it withholds,\\ and what an observer costs}
+% ---------------------------------------------------------------------------
+% AUTHOR BLOCK -- deliberately a placeholder.
+% The repository is public and its privacy rule keeps the owner's name out of
+% tracked files, so the author, affiliation and acknowledgements are filled in
+% at submission, OUTSIDE the repo. This is not an oversight; removing this
+% comment without filling the block would ship an anonymous paper.
+\author{[author]\\ \small [affiliation]}
+% ---------------------------------------------------------------------------
 \date{Draft --- \today}
 
 \begin{document}
@@ -29,15 +38,13 @@
 We ask what gauge structure can be extracted from one hyperbolic 3-manifold --- the figure-eight
 knot complement $m004$ --- without importing a value. \textbf{We begin with what is generic.} The
 $E_6$ recurrence that motivates such programmes is forced by a single ADE classification and is
-\emph{not} evidence of specificity; on a census of one-cusped manifolds, roughly one in three admits
-the surjection onto the binary tetrahedral group that the construction starts from, and a sibling
+\emph{not} evidence of specificity; on a census of one-cusped manifolds~\cite{snappy,nz}, roughly one in three admits the
+surjection onto the binary tetrahedral group that the construction starts from, and a sibling
 sharing the same trace field is not the knot. What survives is narrower and is a theorem of record:
-$m004$ is the unique arithmetic knot complement, so its invariant trace field $\Q(\sqrt{-3})$ is
-distinguished where the group-theoretic scaffolding is not.
+$m004$ is the unique arithmetic knot complement~\cite{reid}, so its invariant trace field~\cite{maclachlanreid} $\Q(\sqrt{-3})$ is distinguished where the group-theoretic scaffolding is not.
 
 Working from that surviving datum we separate two things a careless account would merge. The object
-supplies an \emph{arena} --- a rank-3 abelian sector and the availability of a Standard-Model-shaped
-multiplet. The \emph{content} is then forced by the anomaly conditions alone, in a computation
+supplies an \emph{arena} --- a rank-3 abelian sector and the availability of a Standard-Model-shaped multiplet~\cite{slansky}. The \emph{content} is then forced by the anomaly conditions alone, in a computation
 containing no token of the object: of $252$ candidate contents, the colour condition kills $222$ and
 exactly two survive. What the object does force is the \emph{termination} of the breaking chain, for
 a stated reason, and the global form
@@ -57,6 +64,22 @@ projective line of Higgs data cut to within one condition of a point set, and th
 one of which is a relational invariant of a pair, belonging to neither relatum, and requiring no act
 of selection.
 \end{abstract}
+
+\medskip
+\noindent\footnotesize
+\textbf{Keywords.} arithmetic hyperbolic 3-manifold; figure-eight knot complement; invariant trace
+field; binary tetrahedral group; McKay correspondence; exceptional Lie algebra $E_6$; anomaly
+cancellation; hypercharge; modular theory; type III factor.
+
+\smallskip
+\noindent\textbf{MSC 2020.} Primary 57K32 (hyperbolic 3-manifolds); Secondary 11F06 (arithmetic
+groups), 17B25 (exceptional Lie algebras), 81T50 (anomalies in quantum field theory), 46L36
+(classification of factors).
+
+\smallskip
+\noindent\textbf{Suggested arXiv classification.} Primary \texttt{math.GT}; cross-list
+\texttt{hep-th}, \texttt{math.NT}.
+\normalsize
 
 \section{Introduction}
 
@@ -90,8 +113,7 @@ We state the base rates first, because a reader's prior on this subject is set b
 numerology and because we can measure most of them.
 
 \paragraph{The recurrence is a graph identity.} Programmes of this kind typically observe that $E_6$
-recurs across several apparently independent structures --- a McKay correspondence, a Lie
-classification, a modular-invariant list, a du~Val singularity classification --- and treat the
+recurs across several apparently independent structures --- a McKay correspondence~\cite{mckay}, a Lie classification, a modular-invariant list, a du~Val singularity classification --- and treat the
 coincidence as evidence. It is not. Those four are \emph{one} ADE classification presented four ways,
 canonically linked; conditioned on the appearance of a single ADE label, the probability that it
 ``recurs'' across the others is $1$. There is no coincidence to explain.
@@ -179,7 +201,7 @@ derivation. They sit at the two ends:
 word is realised on a geometric carrier; and \emph{orientation}, which our own accounting marks the
 most expensive of the three.
 \item \textbf{One after the algebra is in hand} --- the observer's closings.
-\item \textbf{Between the object and the algebra: none.} Across the twelve consecutive links running
+\item \textbf{Between the object and the algebra: none} (Figure~\ref{fig:chain}). Across the twelve consecutive links running
 from the manifold to the exceptional algebra there is \textbf{not one declared choice.}
 \end{itemize}
 
@@ -203,9 +225,41 @@ forks of their own. A reader who wants the cost in one number should take the ax
 wants to know how hard each was pushed should take the forks.
 \end{scopenote}
 
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[x=2.9mm,y=1mm]
+  % the axiom-free stretch, shaded
+  \fill[black!7] (5.5,-2.6) rectangle (17.5,2.6);
+  \draw[black!45] (5.5,-2.6) rectangle (17.5,2.6);
+  % the chain
+  \draw[thick] (0.6,0) -- (43.4,0);
+  \foreach \i in {1,...,43} \draw[black!55] (\i,-1.15) -- (\i,1.15);
+  % the four axioms
+  \foreach \i in {3,4,5,18} {
+    \draw[very thick] (\i,-2.15) -- (\i,2.15);
+    \fill (\i,0) circle (0.62mm);
+  }
+  \node[font=\scriptsize] at (4,5.4) {axioms 1--3};
+  \node[font=\scriptsize] at (4,3.6) {\emph{before the object}};
+  \node[font=\scriptsize] at (18,5.4) {axiom 4};
+  \node[font=\scriptsize] at (19.5,3.6) {\emph{the observer}};
+  \node[font=\scriptsize] at (11.5,-5.0) {\textbf{twelve links, no declared choice}};
+  \node[font=\scriptsize] at (11.5,-7.0) {object $\longrightarrow$ algebra};
+  \node[font=\scriptsize] at (0.6,-4.6) {$C_1$};
+  \node[font=\scriptsize] at (43.4,-4.6) {$C_{43}$};
+  \node[font=\scriptsize,align=center] at (34,5.0) {the Standard-Model-facing structure,\\ ending on a no-go};
+\end{tikzpicture}
+\caption{\small The chain's forty-three links, with each of the four axioms marked. The point is
+the \emph{shape}: the cost is not spread through the derivation but sits at the two ends, and the
+shaded stretch from the manifold to the exceptional algebra contains no declared choice at all.
+Thirty-nine links are forced. The chain terminates in a negative result, which we have not moved
+to the middle.}
+\label{fig:chain}
+\end{figure}
+
 \paragraph{The entrance: from ``not nothing'' to a word.} The first two links are borrowed
-mathematics, not ours. Morse--Hedlund fixes what an aperiodic sequence must cost in factor
-complexity; extremality in the Hurwitz sense then selects, by a single criterion, the golden case.
+mathematics, not ours. Morse--Hedlund~\cite{morsehedlund} fixes what an aperiodic sequence must cost in
+factor complexity; extremality in the Hurwitz sense~\cite{hurwitz} then selects, by a single criterion, the golden case.
 What this buys is modest and we say so: a distinguished \emph{word}, not yet a space. The step from
 the word to a space is the second axiom, and the step from a space to an \emph{oriented} space is
 the third.
@@ -238,8 +292,7 @@ turns a word into a hyperbolic manifold.
 \end{scopenote}
 
 \paragraph{The middle: twelve links and no choices.} What follows the manifold is where the
-derivation earns its keep, and it is the stretch with no axioms in it: the mapping torus is realised
-as the hyperbolic manifold; its intrinsic arithmetic forces its faces; the interface structure is
+derivation earns its keep, and it is the stretch with no axioms in it: the mapping torus is realised as the hyperbolic manifold~\cite{thurston}; its intrinsic arithmetic forces its faces; the interface structure is
 settled by an exhaustive census rather than a selection; congruence is established with its
 conventions named; character rigidity fixes the spectrum; and a chain of identities carries the
 structure through the weld to the exceptional algebra.
@@ -257,7 +310,7 @@ at.}
 \paragraph{The exit: the observer, then the wall.} The fourth axiom enters only here, after the
 algebra is in hand, and \S\ref{sec:observer} prices it. What follows it is the Standard-Model-facing
 structure --- the measurement layer, the magic-square isomorphism, the selection of the real form,
-the generation shape, the trace identities --- and the chain ends where this paper ends, on a no-go:
+the generation shape, the trace identities~\cite{fricke} --- and the chain ends where this paper ends, on a no-go:
 the crossing to measured values, sealed and negative.
 
 \begin{scopenote}[Recorded in advance]
@@ -498,8 +551,8 @@ standard extra abelian directions, and the reduction lives entirely in the steps
 second measurement skips. Skipping them is skipping the rank reduction; it is not an oversight that
 a longer search would repair.
 
-\paragraph{Scale is free by construction.} Mostow rigidity fixes the shape of a finite-volume
-hyperbolic $3$-manifold and not its size. Nothing downstream can recover what the geometry does not
+\paragraph{Scale is free by construction.} Mostow rigidity~\cite{mostow} fixes the shape of a finite-volume hyperbolic
+$3$-manifold and not its size. Nothing downstream can recover what the geometry does not
 carry.
 
 \begin{scopenote}
@@ -708,7 +761,7 @@ believed otherwise.
 
 \begin{itemize}[leftmargin=1.4em,itemsep=2pt]
 \item \textbf{The landing algebra.} That the descent from $E_6$ reaches
-$\mathfrak{su}(3)\oplus\mathfrak{su}(2)\oplus\mathfrak{u}(1)^3$ is Borel--de~Siebenthal / Dynkin: it
+$\mathfrak{su}(3)\oplus\mathfrak{su}(2)\oplus\mathfrak{u}(1)^3$ is Borel--de~Siebenthal\,/\,Dynkin~\cite{bds,dynkin}: it
 is exactly the $A_2{+}A_1$ Levi subalgebra, whose dimension, semisimple part and centre reproduce the
 three numbers the construction reports. \emph{Reproduced, not discovered.}
 \item \textbf{The location of the rank reduction.} That the rank reduction lives in the steps above
@@ -878,10 +931,14 @@ Functionen}, Teubner, 1897.
 arXiv:1705.01853.
 \bibitem{slansky} R.~Slansky, \emph{Group theory for unified model building}, Phys.\ Rep.\
 \textbf{79} (1981), 1--128.
-\bibitem{lee} D.~U.~Lee, \emph{Chern--Simons invariants of hyperbolic three-manifolds, mixed Tate
-motives, and motivic path torsor of augmented character varieties}, arXiv:2502.11950.
 \bibitem{snappy} M.~Culler, N.~M.~Dunfield, M.~Goerner and J.~R.~Weeks, \emph{SnapPy, a computer
 program for studying the geometry and topology of 3-manifolds}, \texttt{snappy.computop.org}.
+\bibitem{morsehedlund} M. Morse and G. A. Hedlund, \emph{Symbolic dynamics II: Sturmian
+trajectories}, Amer. J. Math. \textbf{62} (1940), 1--42.
+
+\bibitem{hurwitz} A. Hurwitz, \emph{Ueber die angen\"aherte Darstellung der Irrationalzahlen
+durch rationale Br\"uche}, Math. Ann. \textbf{39} (1891), 279--284.
+
 \end{thebibliography}
 
 \end{document}

@@ -1,5 +1,52 @@
 # Changelog
 
+## THE SUBMISSION CAMPAIGN: the bibliography was decorative, and four cells close (2026-08-31)
+
+`docs/SUBMISSION_CAMPAIGN.md` opened with the premise audit (stop rule 1b) and it paid immediately.
+
+**S0 — the finding, and it was submission-blocking.** **Twelve of the paper's thirteen `\bibitem`
+entries were never `\cite`d.** LaTeX prints unused bibitems *without a warning* — only an undefined
+`\cite` warns — so the build was clean and the document *looked* referenced. It was not:
+Morse–Hedlund, Hurwitz, Thurston, McKay, Mostow and Dynkin all appeared **by name in the prose with
+no citation attached**. *The E53 shape in a new place: a surface that exists, passes every automated
+check, and carries none of the content it appears to carry.*
+
+**S1 — citations. 20 defects → 0.** Every named appeal now points at a source; every source is used.
+`scripts/checks/paper_citations.py` is gated and MB12-controlled (a planted uncited bibitem and a
+planted citation-free appeal must both be reported; both are). **14 entries, 14 cited, zero
+orphans.** Pre-registered expectation was 8–15 uncited appeals and 12 orphans; actual 8 and 12.
+
+*One correction to my own instrument:* names used as standard **terminology** — "Weyl data",
+"Galois", "Jordan algebra" — are deliberately outside the appeal list. Demanding citations there
+would train the author to add furniture, which is the defect this cell exists to remove.
+
+**S2 — breadth, under a restriction rather than a licence.** Two entries added *only* where the body
+leans on them (Morse–Hedlund on factor complexity; Hurwitz on extremality). **One deleted** — the
+paper never used it, and a reference nothing points at is furniture.
+
+**S3 — mechanics.** Keywords, **MSC 2020** (primary 57K32; secondary 11F06, 17B25, 81T50, 46L36),
+suggested arXiv classification (`math.GT`, cross-list `hep-th`, `math.NT`), and a **deliberately
+placeholder author block** — the repo is public and its privacy rule keeps the owner's name out of
+tracked files, so author, affiliation and acknowledgements are filled in at submission, outside the
+repo. The placeholder carries a comment saying exactly that, so it cannot ship anonymous by accident.
+
+**S4 — one figure, and it earns its place.** The chain's *shape* is the paper's central structural
+claim and was prose-only: forty-three links, four axioms marked, the twelve-link axiom-free stretch
+shaded. A reader now sees in one glance what §3 spends two pages establishing.
+
+**S5 — the final hostile read commissioned** from codex, on the final text. Their Wave-8 read
+inspected main *before* §3 and the appendix existed. Six named targets, including two aimed at this
+bench's own habits: the appendix's `settled`/`computed` distinction (our invention, never reviewed)
+and every description of the Gieseking covering direction, **which we got backwards twice in one day
+and now assume we get wrong by default.**
+
+**S6 — what will not be fixed, and is stated in the paper instead:** λ's general no-go, the ℙ³'s
+single named datum (blocked on codex R030, in flight), the V-valued texture assembly. None blocks
+submission, because the thesis is that the boundary is *located and priced*, not closed.
+
+17 pages, clean build, no undefined references, Gate 5 untouched, privacy check clean.
+
+
 ## CELLS 4 AND 5: the referee appendix is generated and controlled, and the hostile read of §3 finds four things (2026-08-30)
 
 Both cells' premises audited first, per stop rule 1b: no appendix existed, and **§3 did not exist at
