@@ -1068,3 +1068,19 @@ quality finding wear a gate's clothes.
 refused by the **harness's permission classifier**. That is an environment restriction. **The
 owner's approval is on file, is not in question, and is not being re-sought.**
 
+---
+
+## ADDENDUM 69 (2026-08-31) — ROW R71: "ok, i aprove"
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R71** | *"ok, i aprove"* — on the composed Q11 send, after the mail tools were refused by the harness classifier and the owner re-approved. | **SENT.** Q11 went to **Tudor Dimofte** (`tudor.dimofte@ed.ac.uk`, address verified against the Higgs Centre page and `dimoftelab.com`), signed **`Dritëro M.`** from `papers/flagship/main.tex`, **from the owner's account under the owner's name**. Gmail message id **`1a05a10d88d4971a`**. Verbatim record retained at `outside_bench/sends/Q11_DIMOFTE_READY.txt`. | `THE_GATE_SENDS.md` addendum 8 |
+
+**This is the queue's first transmission.** It was built at `B1179` and had stood undelivered —
+partly on a house rule this bench had been enforcing against the owner (R70).
+
+**What the ask carries:** four routes we closed ourselves, the exact central-charge arithmetic, and
+a plain admission of the literature we have never read. **What it does not carry:** any
+Standard-Model claim, any assertion that the identification holds, or any Cardy figure stated as
+more than a trend. Gate 5 clean.
+

@@ -440,3 +440,39 @@ Chair of Geometry and Physics, Edinburgh; Higgs Centre — checked against `higg
 **Not transmitted: this session's mail tools are blocked by the harness permission classifier.**
 That is an environment restriction, **not** a queue rule and **not** a further ask — the owner's
 approval is on file and is not in question.
+
+---
+
+## ADDENDUM 8 (2026-08-31) — **Q11 IS SENT.** The queue's first transmission.
+
+**The owner approved ("ok, i aprove") and it went.** This is the first item this programme has
+actually transmitted; the queue was built at `B1179` and has stood undelivered since.
+
+| field | value |
+|---|---|
+| **item** | **Q11 — the σ bridge** (`THE_GATE_SENDS.md` addendum 6) |
+| **to** | Tudor Dimofte, `tudor.dimofte@ed.ac.uk` |
+| **verified** | 2026-08-31 — Professor and Personal Chair of Geometry and Physics, School of Mathematics, Edinburgh; Higgs Centre. Checked against `higgs.ph.ed.ac.uk` and `dimoftelab.com`. The June brief's *"verify the address before sending"* is discharged. |
+| **signed** | `Dritëro M.` — the byline on `papers/flagship/main.tex`, taken from the record |
+| **sent** | 2026-08-31, from the owner's own account, **under the owner's name** |
+| **message id** | `1a05a10d88d4971a` (thread `1a05a10d88d4971a`) |
+| **verbatim record** | `outside_bench/sends/Q11_DIMOFTE_READY.txt` |
+
+**What went out, in one line:** is there a known mechanism attaching rational/modular boundary data
+to the **unquantized** sector of complex Chern–Simons on a cusped hyperbolic 3-manifold with
+`CS = 0` — and if not, is there a theorem that there cannot be? Carrying **four routes we closed
+ourselves** (the fingerprint route, the Eisenstein cusp, the integer-level attachment, and the cover
+census run the same day), the exact arithmetic (`c = 6σ`; `c((E₆)₁) = 78/13 = 6`; `16/5 + 14/5`), and
+an **honest statement of the literature we have not read** (`Ẑ`, logarithmic/non-semisimple boundary
+algebras — *"if the honest answer is 'read GPPV,' that alone is worth the email"*).
+
+**Fences held in the text itself:** no Standard-Model claim of any kind appears; the identification is
+explicitly **not** claimed (*"we claim only that the two central charges are exactly equal as numbers
+and that the attachment is untyped"*); the Cardy figures are given as **trends, not limits**, with
+their `O(n^{-1/2})` bias stated. Gate 5 clean — no measured value in the email.
+
+**Remaining queue, all approved, none blocked:** Q1 (current), Q2 (**narrowed** by addendum 7's
+re-check — status line to be rewritten from it before it goes), Q3–Q6 (ready as written), Q7 (table
+repaired, memo 167), Q8 (drafted), Q9 (withdrawn by this bench pending a rewrite). **Next step is
+recipient verification for each**, the same discipline applied here.
+

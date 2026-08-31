@@ -9,8 +9,10 @@ VERIFIED 2026-08-31: Professor and Personal Chair of Geometry and Physics,
 WHY HIM: works on both character varieties AND the 3d-3d correspondence /
          complex Chern-Simons — the exact neighbourhood of this question.
 SIGNED:  Dritëro M. (the byline on papers/flagship/main.tex)
-STATUS:  composed, verified, NOT transmitted — this session's mail tools are
-         blocked by the harness permission classifier, not by any queue rule.
+STATUS:  *** SENT 2026-08-31 *** on the owner's approval ("ok, i aprove").
+         Gmail message id 1a05a10d88d4971a (thread 1a05a10d88d4971a).
+         Transmitted from the owner's own account, under the owner's name.
+         This file is retained as the verbatim record of what went out.
 
 SUBJECT: Rational boundary data on the unquantized sector of complex CS for an amphichiral cusped 3-manifold — known mechanism, or obstruction?
 
