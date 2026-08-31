@@ -4845,6 +4845,7 @@
   "B1229": {
    "slug": "the consistency turn",
    "motifs": [
+    "trace_map",
     "eisenstein",
     "z3_generation",
     "amphichiral_cp",
@@ -4901,6 +4902,26 @@
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1231": {
+   "slug": "identification discipline",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B813",
+    "L154"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
    "status": "dead",
    "domain": "arithmetic"
   },

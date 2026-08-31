@@ -229,3 +229,38 @@ gitignored grid (tripling it, halving a Šidák α off untested multiplicity) an
 results file's sanitized placeholders with the bench's absolute paths. Both were silent successes,
 absent from the run's own report. The standing lesson is the reach, not the vigilance: **a gate only
 works where it is reached**, so reaching it has to be scheduled like any other work.
+
+## Rule (2026-09-01, from the B1228/B1230 self-audit — adopted): THE IDENTIFICATION RULE
+
+**For any claim of the form "X here IS Y there": exhibit the MAP, then show it ACTS FAITHFULLY.**
+Matching orders, names, dimensions or numbers are **not** a connection.
+
+**The template is our own kill.** B1223 assembled V₄ (three quadratic faces) with S₃ (the classifying
+cubic's Galois group) and read it as D₄ triality. The groups matched. The arc died on one line —
+**"Direct is not semidirect"**: the S₃'s quadratic resolvent ℚ(√77) is disjoint from the faces, so
+the compositum is a *direct* product and the S₃ acts **trivially**. The map existed; the action did
+not.
+
+**Why this is not merely hygiene.** By **B1225** the object provably **cannot identify** — naming
+requires an outside. So an unearned identification is not a reasoning slip: it is an **observer
+input the ledger has never counted**. Consequence: *the input ledger's parameter count is a LOWER
+BOUND* until every identification in the chain is earned or priced. And the programme's own goal
+sharpens — **the listener map `u` IS an identification map**, performed implicitly and for free for
+two years; pricing it is the crossing cell.
+
+**The discipline, in practice:**
+1. Every identification an arc uses gets a row in `docs/IDENTIFICATION_LEDGER.md` — the two sides,
+   *map exhibited?*, *acts?*, status `EARNED | REFUTED | UNEARNED`, and for UNEARNED, what would earn it.
+2. Arcs declare them in `arc_verdict.json` (`identifications: [...]`), required from **B1231** on —
+   the same self-declaration pattern `gate_theorem_registry` already uses.
+3. `gate_identification_register` enforces **completeness, never judgment**: every declared
+   identification has a row, and the UNEARNED count may not **increase** against the baseline. It is
+   a **ratchet, not a blocker** — a hard block on UNEARNED would make the fastest path to green
+   *marking things EARNED*, pressuring the very judgment it protects (the B1222 shape, aimed at
+   ourselves). UNEARNED is the correct resting state for honest open work.
+4. `python3 scripts/checks/identification_audit.py` before claiming any cross-structure connection.
+
+**The counterpart, positive:** this programme succeeds when it **TYPES** and fails when it
+**IDENTIFIES**. Typing moves (B1226's parity × dimension boxes; B1227's value-group regimes;
+B1230/C-1's *over what field?*) have held. Identification moves have died — B813, B1223, and two of
+our own in a single session. When tempted to glue, classify instead.

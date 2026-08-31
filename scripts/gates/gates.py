@@ -986,7 +986,68 @@ def gate_theorem_registry():
     ok = not missing
     return ok, ("ok" if ok else f"creates_law arcs missing registry rows: {missing}")
 
+def gate_identification_register():
+    """B1231. The programme's dominant error mode is IDENTIFICATION -- gluing two structures whose
+    labels match, in different places, without a map. B813, B1223, and TWO of this bench's own in a
+    single session (B1228's pi_1-2T-vs-ALE-Gamma; B1230/C-5b's Z/3-vs-module-group, one cell later).
+    By B1225 the object CANNOT identify, so an unearned identification is an UNPRICED OBSERVER
+    INPUT and the parameter count is a lower bound until it is earned.
+
+    This gate enforces COMPLETENESS, NEVER JUDGMENT. It cannot tell whether a map acts; it only
+    enforces that the question was asked and answered somewhere a reader can find it:
+      (a) every identification an arc DECLARES has a row in docs/IDENTIFICATION_LEDGER.md;
+      (b) the UNEARNED count may not INCREASE against docs/IDENTIFICATION_BASELINE.json.
+
+    A RATCHET, not a blocker -- deliberately. A hard block while anything is UNEARNED would make the
+    fastest path to green MARKING THINGS EARNED, pressuring exactly the judgment the gate protects
+    (the B1222 shape, turned on ourselves), and would deadlock unrelated work behind a research
+    question. UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red
+    nothing. But a NEW unearned identification reds the suite at creation -- which is precisely when
+    2026-08-31's two would have been caught.
+    """
+    import glob as _glob
+    import json as _json
+    led = os.path.join(ROOT, "docs", "IDENTIFICATION_LEDGER.md")
+    base = os.path.join(ROOT, "docs", "IDENTIFICATION_BASELINE.json")
+    if not os.path.exists(led):
+        return False, "docs/IDENTIFICATION_LEDGER.md missing (B1231 register)"
+    text = _read("docs/IDENTIFICATION_LEDGER.md")
+    rows, unearned = [], 0
+    for line in text.splitlines():
+        m = re.match(r"\|\s*(I-\d+)\s*\|(.*)", line)
+        if not m:
+            continue
+        cells = [c.strip().replace("*", "") for c in m.group(2).split("|")]
+        st = next((c for c in cells if c in ("EARNED", "REFUTED", "UNEARNED")), "?")
+        rows.append(m.group(1))
+        unearned += (st == "UNEARNED")
+    problems = []
+    # (a) declared-but-unregistered
+    for f in sorted(_glob.glob(os.path.join(ROOT, "frontier", "*", "arc_verdict.json"))):
+        try:
+            d = _json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        for ident in (d.get("identifications") or []):
+            ref = ident.get("row") if isinstance(ident, dict) else str(ident)
+            if ref not in rows:
+                problems.append(f"{d.get('id')}: declares {ref!r}, no ledger row")
+    # (b) the ratchet
+    if os.path.exists(base):
+        try:
+            b = _json.load(open(base, encoding="utf-8")).get("unearned")
+        except Exception:
+            b = None
+        if b is not None and unearned > b:
+            problems.append(f"UNEARNED increased {b} -> {unearned}: a new identification was made "
+                            f"without being earned. Earn it, or register what would earn it and "
+                            f"raise the baseline DELIBERATELY with a dated reason.")
+    ok = not problems
+    return ok, ("ok" if ok else problems[:5])
+
+
 GATES = {
+    "identification-register": gate_identification_register,
     "framing": gate_framing,
     "claims": gate_claims,
     "firewall-oneway": gate_firewall_oneway,

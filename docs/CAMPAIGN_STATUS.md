@@ -1,5 +1,22 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-01, B1231 — THE IDENTIFICATION DISCIPLINE: the dominant error mode, named,
+instrumented and ratcheted — applied first to this bench's own two failures)**: **the programme
+succeeds when it TYPES and fails when it IDENTIFIES.** B813, **B1223** (the template — *"Direct is
+not semidirect"*: the map existed, the action was trivial), and **two of ours from 2026-08-31, one
+cell apart**. By **B1225 the object cannot identify**, so an unearned identification is an **unpriced
+observer input** and **the parameter count is a LOWER BOUND** — and the listener map **`u` IS an
+identification map**, performed for free for two years. Delivered: the rule (`WORKING_RULES.md`),
+`docs/IDENTIFICATION_LEDGER.md` (**EARNED 3 — the chain's real spine** / REFUTED 2 / UNEARNED 2), the
+instrument, the `identifications` schema field from B1231, and **`gate_identification_register` — a
+ratchet verified to bite**. **The instrument's recall limit is asserted in its own selftest: it would
+NOT have caught the error it was built for**, so declaration is the mechanism and detection a lossy
+net. Sweep A+B over all 1,179 arcs → 61 candidates, **52 BARE**; Phase C queued. **Citation debt
+discharged and it deflated the σ headline**: MMS proved and sharpened but **ℓ = 0 only**;
+**Anderson–Moore/Vafa is a PHYSICS-ARGUMENT, unread, and does not automatically cover a CS boundary
+— finiteness of primaries must be independently established.** B1229's "robust core" **is not
+robust**; fenced in place. σ now carries **three conditionals, none stated when banked**.
+
 **LATEST (2026-08-31, B1230 — THE CONSISTENCY CAMPAIGN RUN 1: IT REFUTED ITS OWN HEADLINE'S SUPPORT
 AND CAME BACK STRONGER)**: owner asked for a proper campaign; charter `docs/CONSISTENCY_CAMPAIGN.md`
 with stop rules declared before any cell ran. **C-1 base-field audit → OVER-COUNTED**: σ was counted

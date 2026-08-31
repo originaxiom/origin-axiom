@@ -13077,3 +13077,21 @@ fixed by stating it, not by widening the allowlist.
 Verdict OPEN. No row deleted, no map exhibited, σ = 1 not established. Gate 5 intact.
 
 ---
+
+## 2026-09-01 — B1231: THE IDENTIFICATION DISCIPLINE
+
+**Succeeds when it TYPES, fails when it IDENTIFIES.** B813, B1223 (the template), and two of ours
+one cell apart. By B1225 the object cannot identify, so an unearned identification is an **unpriced
+observer input** — the parameter count is a **lower bound**. Corollary: **`u` is an identification
+map.**
+
+Rule + register (EARNED 3 / REFUTED 2 / UNEARNED 2) + instrument + `identifications` schema field +
+**ratchet gate, verified to bite**. The instrument's recall limit is asserted in its own selftest:
+it would **not** have caught the error it was built for. Sweep A+B over all 1,179 arcs → 61
+candidates, 52 BARE; Phase C queued.
+
+**Citations:** MMS proved (Mason 2018) and sharpened, but ℓ = 0 only. **Anderson–Moore/Vafa is a
+physics-argument, unread, and does not automatically cover a CS boundary** — B1229's "robust core"
+is not robust; fenced.
+
+---

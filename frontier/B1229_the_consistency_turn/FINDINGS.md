@@ -93,6 +93,28 @@ adjudication explicitly rather than letting the pairing read as an assertion of 
 
 Admitted to B1034's allowlist on the same ground as B1064 and B1190: it states the adjudication.
 
+## VERIFIED 2026-09-01 — the "robust core" is CONDITIONAL (B1231's citation check)
+
+This arc called RCFT rationality its **robust core** and used it as a premise. Verification
+(`frontier/B1231_identification_discipline/CITATION_VERIFICATION_2026-09-01.md`) found:
+
+- **Anderson–Moore's hypotheses are modular invariance AND finitely many primaries**, and the grade
+  is **PHYSICS-ARGUMENT**, not theorem (the rigorous version is Dong–Li–Mason 2000 under
+  *different* hypotheses — Zhu-rationality plus C₂-cofiniteness, provably inequivalent to "finitely
+  many primaries", per Gaberdiel–Kausch).
+- Explicitly: **a general Chern–Simons-boundary chiral algebra is not automatically covered;
+  finiteness of primaries must be independently established, not assumed.** This arc assumed it.
+- **MMS holds and is genuinely proved** (Mason 2018 completed MMS's incomplete 1988 argument); every
+  central charge confirmed exactly; E₆'s two-character status confirmed with a *better* reason
+  (identical full characters via the outer automorphism, not merely equal h). **But the seven-value
+  list is ℓ = 0 only** — nonzero-Wronskian two-character theories are separate additional
+  classifications, so the menu of 7 is not the whole menu.
+
+**Corrected status of this arc's headline:** σ ∈ ℚ is **conditional** on an unestablished finiteness
+and holds at physics-argument grade even when granted; the 7-value menu is ℓ = 0 only; and the ℤ/3
+cut to one entry rests on identification **I-7, registered UNEARNED**. Three conditionals, none
+stated when banked.
+
 ## Fences
 
 - The 7-value list assumes **two characters, vanishing Wronskian index**. Drop it and the menu grows

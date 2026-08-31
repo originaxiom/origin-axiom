@@ -1,5 +1,48 @@
 # Changelog
 
+## THE IDENTIFICATION DISCIPLINE — the programme's dominant error mode, named and ratcheted (2026-09-01)
+
+Owner-approved plan, applied **first** to this bench's own two failures.
+
+**The diagnosis: this programme succeeds when it TYPES and fails when it IDENTIFIES.** Every
+identification failure has one shape — two structures whose labels match, in *different places*,
+joined without a map: **B813** (CS = θ_QCD, dead on type), **B1223** (the template — the map existed,
+the action was trivial: *"Direct is not semidirect"*), and **two of ours from 2026-08-31, one cell
+apart** (B1228's π₁-2T ≡ ALE Γ; B1230/C-5b's ℤ/3 ≡ the boundary module group, inside the computation
+presented as the *stronger* recovery). Against that, every success was a typing move.
+
+**Why it is not hygiene.** By **B1225 the object cannot identify** — naming requires an outside. So
+an unearned identification is an **observer input the ledger never counted**, and **the parameter
+count is a LOWER BOUND** until each is earned. It also sharpens the goal: **the listener map `u` IS
+an identification map**, performed for free for two years.
+
+**Delivered:** the rule in `WORKING_RULES.md`; `docs/IDENTIFICATION_LEDGER.md` (EARNED 3 — *the
+chain's real spine* — REFUTED 2, UNEARNED 2); `scripts/checks/identification_audit.py`; the
+`identifications` declaration, schema-locked from B1231; and **`gate_identification_register`, a
+ratchet verified to bite** — a new UNEARNED row reds the suite, which is when yesterday's two would
+have been caught. Not a hard block, deliberately: that would make the fastest path to green *marking
+things EARNED*.
+
+**The instrument's limit, asserted in its own selftest rather than hidden:** the wide net gave 272
+candidates, overwhelmingly false; the narrow net gives 61 with good precision **but misses the bare
+"X IS Y" form — exactly how C-5b's error was phrased.** *The instrument built to catch my error would
+not have caught my error.* Detection is a lossy net; **declaration is the mechanism.**
+
+**Sweep (A+B, all 1,179 arcs):** 61 candidates — 3 mapped, 6 typed, **52 BARE** needing judgment.
+Phase C scoped by that, queued not run.
+
+**The citation debt discharged — and it deflated the headline.** **MMS holds and sharpens** (Mason
+2018 completed MMS's *incomplete* 1988 argument; every central charge exact; E₆'s two-character
+status confirmed via **identical full characters**, a better reason than banked) — **but the
+seven-value list is ℓ = 0 only.** **Anderson–Moore/Vafa deflates**: neither paper could be read; the
+hypotheses are modular invariance **and finitely many primaries**; the grade is **PHYSICS-ARGUMENT,
+not theorem**; and *a Chern–Simons-boundary chiral algebra is not automatically covered — finiteness
+must be independently established, not assumed.* **B1229 assumed it and called it the robust core.
+It is not robust.** Fenced in place.
+
+**Net:** σ's headline carries **three conditionals, none stated when banked**. Nothing deleted,
+nothing exhibited, σ = 1 still retracted.
+
 ## THE CONSISTENCY CAMPAIGN, RUN 1 — it refuted its own headline's support, and the result got stronger (2026-08-31)
 
 Owner: *"continue, craft a campaign and do it properly."* Charter: `docs/CONSISTENCY_CAMPAIGN.md` —

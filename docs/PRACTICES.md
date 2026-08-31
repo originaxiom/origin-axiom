@@ -709,6 +709,26 @@ window candidate.
    differential, not the raw counts, is the prediction.
 
 
+- **The `identifications` declaration + `identification-register` gate, a RATCHET
+  (2026-09-01; B1231, from this bench's own two failures in one session).** The
+  programme's dominant error mode is IDENTIFICATION — gluing two structures whose
+  labels match, in different places, without a map (B813; B1223, whose one-line kill
+  *"Direct is not semidirect"* is the template; and B1228 + B1230/C-5b, committed one
+  cell apart). By **B1225 the object CANNOT identify**, so an unearned identification
+  is an **unpriced observer input** and the parameter count is a lower bound until it
+  is earned. Rule: `identifications: [...]` declared in `arc_verdict.json` (required
+  from B1231 on), a row per identification in `docs/IDENTIFICATION_LEDGER.md`, and
+  `gate_identification_register` enforcing **completeness, never judgment** — every
+  declared identification has a row, and the UNEARNED count may not **increase**
+  against `docs/IDENTIFICATION_BASELINE.json`. **Deliberately a ratchet, not a
+  blocker:** a hard block while anything is UNEARNED would make the fastest path to
+  green *marking things EARNED*, pressuring the very judgment the gate protects (the
+  B1222 shape, turned on ourselves), and would deadlock unrelated work behind a
+  research question. UNEARNED is the correct resting state for honest open work.
+  Tool: `scripts/checks/identification_audit.py` — and its recall is **partial by
+  design and asserted as such in its own selftest**: it finds explicit correspondence
+  claims, *not* bare assertions, so it would NOT have caught the very error it was
+  built for. Declaration is the mechanism; detection is a lossy net.
 - **The `creates_law` declaration + `theorem-registry` gate (2026-08-21; R48-F1's
   response, the audit seat's sharpening adopted verbatim).** THEOREM_REGISTRY's
   standing same-PR rule went unenforced for 179 arcs because no gate read it. The
