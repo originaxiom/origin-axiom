@@ -1,5 +1,21 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1222 — A UNIFICATION PROPOSED AND KILLED THE SAME DAY)**: stepping back from
+the corpus, ~65 arcs were noticed to *prove a vanishing* (CS = 0, Δ = I, ∂S/∂k ≡ 0, θ trivial, the
+mirror trivial, invariant content zero, symmetric support empty). Proposed thesis: each is forced by
+a **symmetry**, the object was selected for **canonicity**, canonicity *is* symmetry — so **the
+selection is the obstruction**, and the freedom ledger is the object's symmetry group itemised.
+**Three kill conditions named before any test. All three run. REFUTED.** The decisive one: over the
+first 400 one-cusped orientable census manifolds, **r(|Sym|, H₁-torsion) = +0.50** where the thesis
+predicts negative — |Sym|=2 gives 19.5% with torsion, |Sym|=4 gives 87.2%. *More* symmetry carries
+*more* content. (The premise was wrong too: m003 is not less symmetric than m004 — both |Sym|=8,
+both amphichiral — and its cusp is the **hexagonal** ω, the most symmetric torus.) Tests 1 and 2
+return 6/10 and 7/10 with real counterexamples: the regulator is 1 by **Dirichlet's unit rank**, a
+signature fact not a symmetry; ℓ and σ are *missing data*, not broken symmetries. **What survives is
+what was never in doubt** — amphichirality does force CS = 0, traciality does force Δ = I — but they
+do not instance one law. Symmetry does not destroy content; it **redistributes** it.
+
+
 **LATEST (2026-08-31, B1221 — THE CRUX ANSWERED, AGAINST US)**: the prior-art dossier
 (`docs/PRIOR_ART_DOSSIER_ENTRANCE_AND_EXIT.md`) found that the programme's four strongest structural
 claims — B997, B1002, B1019, B994 — had **never been through the novelty gate** (B994/B1002 appear
