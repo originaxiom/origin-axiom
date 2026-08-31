@@ -166,3 +166,42 @@ probed and closed negative (🔒), plus the rest unprobed (❌)** — and the pr
 worse position than "we simply haven't looked."
 
 Nothing else in §1 changed. §2's four gates, §3's join defect and §4's four actions stand.
+
+---
+
+## ADDENDUM 2 (2026-08-30) — CURRENCY PASS: THREE ROWS MOVED
+
+Audited at main `HEAD` per memo 153's adopted rule — `already_banked.py` run on each row's terms,
+**terms stated with the claim**. Addendum-only; §1's table is not edited.
+
+**1. λ — the row this document called the weakest — HAS A GATE NOW.**
+*Terms: `lambda acceptance gate derivable invariant measure`.* §0 and §1 say λ has **"no acceptance
+criterion at all."* **Stale.** `B1220` Cell 1 assembled it from banked pieces (`B1191` GC-15 +
+`B1196` GC-27):
+
+> **λ is derivable from the object iff a pair `(T,G)` can be READ OFF `D` — never chosen — and `T`
+> falls in a regime admitting a normalizable `G`-invariant measure.**
+
+**Failable in both directions by demonstration**, which was exactly what was missing: regime (i)
+(T finite, G transitive) *accepts* with the cost priced at `log₂|T|` bits; and **it currently
+REJECTS**, because no `(T,G)` pair has been read off `D` for λ. Main now states the consequence:
+**λ is placed — *external by theorem*, not by default.**
+
+**Corrected reading:** λ is no longer *"the ledger's weakest entry, with no criterion."* It has a
+criterion, the criterion is failable both ways, and **it rejects** — which is a *better* position
+than having none, and a different one.
+
+**2. THE FOUR GATES ARE NOW THREE.**
+*Terms: `four named gates values could cross`.* §2 presents four. `OPEN_PROBLEMS.md` now reads
+**"C closed 2026-08-30; three remain: A, B, D"** — Gate C closed **by its own refutation condition**,
+on memo 157's adjudication. **§2's table stands as history; the live count is three.**
+
+**3. ℙ(B₀) — still one condition short, and now HARDENED.**
+*Terms: `P^3 exhaustion second condition candidates closed`.* `B1220` Cell 2: `B1208` got there
+first — *"B1206's ledger STANDS at dim 1, all three of its named candidates are now negative, and
+**the space they were drawn from is closed**"*; `B1196` types it **"5 CLOSED-PERMANENT (the P3
+floor)", hardened twice**. **One live overturner remains and is named:** `B1208`'s preregistered
+three-outcome fork on whether the **lepton leg** admits a character.
+
+**Unchanged:** dynamics (already corrected in memo 155's addendum); generations (closed, and
+`B1220` Cell 3 confirms the symmetric texture negative); the value negatives; scale.

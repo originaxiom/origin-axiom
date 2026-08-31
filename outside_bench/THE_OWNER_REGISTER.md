@@ -896,3 +896,26 @@ failed discriminators the honest move was to report rather than start a fifth.**
 **And a lesson that applies to every control this bench has built:** *control passing is not
 instrument working* — a two-sided control on a **synthetic** positive can pass while the real
 positive is missed, because the synthetic positive was written by the same hand as the detector.
+
+
+---
+
+## ADDENDUM 63 (2026-08-30) — ROW R65: the currency pass, and a design handed over
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R65** | Currency-pass `THE_CHAIN_GAP.md`. | **Three rows moved.** **λ has a gate now** — `B1220` assembled it from banked pieces, it is failable both ways, and **it rejects**; main states the consequence as *λ is placed, external by theorem*. **The four gates are three** (C closed on memo 157's adjudication). **ℙ(B₀) is hardened twice** — all three candidates negative, the space they came from closed, one named overturner left. | memo 165 |
+
+**The λ correction runs against my own framing.** I twice told the owner λ was the ledger's weakest
+row *because it had no acceptance criterion*. It has one, and it **rejects** — **a gate that says no
+is a result; no gate is a gap.** Better position, different position.
+
+**And the pass handed me what memo 164 was missing.** `B1220` found *"the summary overstates its own
+cell"* inside a banked verdict line — **a mirror-class instance, found by pairing a summary against
+its own source**, not by corpus-wide term matching. That is the substrate memo 164 lacked: memo 164
+asked an open-ended question whose signal the drift removes; **a paired comparison asks a closed one,
+with both texts in hand and no retrieval step that can fail.** The corpus stores both halves for all
+1122 arcs.
+
+**Registered as the successor cell, deliberately not started** — memo 164 stopped after four failed
+discriminators, and a fifth in the same sitting was exactly what it declined to do.
