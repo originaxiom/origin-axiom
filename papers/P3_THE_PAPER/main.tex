@@ -54,8 +54,9 @@ itself does not fix. We then show it provably
 comparison, and the hypercharge normalisation is not derivable in principle from the anomaly
 equations as algebraic forms.
 
-\textbf{We report the misses.} $\sin^2\theta_W = 3/8$ is a known grand-unified relation reproduced,
-not predicted, and its run to $M_Z$ misses at $16\sigma$. Three chiral generations are not derived.
+\textbf{We report the misses.} $\sin^2\theta_W = 3/8$ is a known grand-unified relation reproduced, not predicted; the \emph{joint}
+$(\sin^2\theta_W, \alpha_s)$ desert fit run to $M_Z$ misses at $16\sigma$, and that miss is
+$\alpha_s$-dominated --- $\sin^2\theta_W$ itself lands within about $1\sigma$ of the measured value. Three chiral generations are not derived.
 No unique four-dimensional field theory follows, and unrestricted uniqueness is refuted.
 
 Finally we price the residue. What the object cannot supply, it costs exactly: a freedom ledger with one dimensionful unit that is external by design; two continuous dimensionless anchors, of which one is external \emph{by theorem} --- the object's own modular flow is trivial, so it has no continuous clock to give, and the one route that would import that datum from structure already in hand is exactly tautological; a projective line of Higgs data closed permanently one condition short of a point set, the candidates for that condition having been computed and returned negative; and three discrete label rows ---
@@ -121,9 +122,17 @@ outcomes has one exceptional element in it.
 
 \paragraph{The entry point is common.} The construction begins with a surjection
 $\pi_1(m004) \twoheadrightarrow 2T \cong \mathrm{SL}(2,3)$, of which there are exactly two. That
-count is not distinctive. Over the first $400$ one-cusped census manifolds by volume, restricted to
-two-generator presentations, \textbf{$37.2\%$ admit such a surjection and $32.8\%$ admit exactly two}
---- $m004$'s own count --- with the ties reproducing exactly across two independent implementations.
+count is not distinctive. Over the first $400$ one-cusped census manifolds by volume, \textbf{$37.2\%$ admit such a
+surjection and $32.8\%$ admit exactly two} --- $m004$'s own count. A second, independent
+implementation returns $36.2\%$ and $31.0\%$ on the same census. \textbf{We report both, and we do
+not yet know which is right}: what reproduced \emph{exactly} between them is the tie list
+($m003$, $m007$, $m022$, $m026$, $m027$, $m029$, $m030$, $m033$, $m034$, $m036$), not the rates, and
+a discrepancy of one to two percentage points in a finite exhaustive enumeration normally means one
+of the two has a defect. The population also needs stating more carefully than we have stated it:
+$28$ of the $400$ carry presentations with more than two generators, and the percentages above are
+not reconstructible from a denominator of $372$. Until that is settled the base rate should be read
+as \emph{roughly one in three}, which is all the genericity argument actually needs, and not as a
+figure to three significant digits.
 Roughly one hyperbolic $3$-manifold in three carries the fact that carries the chain.
 
 \paragraph{The sibling is not the knot, and the coincidence runs deeper than the field.} $m003$
@@ -351,15 +360,25 @@ modulus $N$ for which $\mathrm{SL}(2,\Z/N)$ is a binary polyhedral group: the go
 \end{theorem}
 
 \begin{proof}[Proof sketch]
-Two independent facts meet once. First, $|\mathrm{SL}(2,\Z/N)|$ is the order of a binary polyhedral
-group for exactly $N \in \{3,4,5\}$, giving $24 = |2T|$, $48 = |2O|$ and $120 = |2I|$ --- that is,
-$E_6$, $E_7$, $E_8$, the whole exceptional series and nothing else. Completeness here is a proof and
+Two independent facts meet once. First, $\mathrm{SL}(2,\Z/N)$ \emph{is} a binary polyhedral group for exactly $N \in \{3,5\}$:
+$\mathrm{SL}(2,\Z/3) \cong 2T$ and $\mathrm{SL}(2,\Z/5) \cong 2I$, giving $E_6$ and $E_8$.
+\textbf{The case $N=4$ is an order coincidence and not an isomorphism, and we flag it rather than
+count it}: $|\mathrm{SL}(2,\Z/4)| = 48 = |2O|$, but the reduction
+$\mathrm{SL}(2,\Z/4) \to \mathrm{SL}(2,\Z/2) \cong S_3$ has kernel $\cong (\Z/2)^3$, in which every
+element is an involution, so $\mathrm{SL}(2,\Z/4)$ has \emph{seven} elements of order two. Every
+binary polyhedral group embeds in the unit quaternions, where $-1$ is the unique involution. Hence
+$\mathrm{SL}(2,\Z/4) \not\cong 2O$, and it is not binary polyhedral at all. \emph{This is precisely
+the short-catalogue coincidence this paper's own method section refuses to treat as evidence, and we
+were caught treating it as evidence here.} Completeness here is a proof and
 not a bounded search: from
 \[
   |\mathrm{SL}(2,\Z/N)| \;=\; N^3\!\!\prod_{p \mid N}\!\left(1 - \tfrac{1}{p^2}\right)
   \;\ge\; N^3 \prod_{p}\left(1 - \tfrac{1}{p^2}\right) \;=\; \frac{N^3}{\zeta(2)} \;=\; \frac{6}{\pi^2}N^3 ,
 \]
-and $\tfrac{6}{\pi^2}N^3 > 120$ for every $N \ge 6$ (at $N=6$ already $131.3 > 120$), no modulus beyond $5$ can qualify. The two small moduli are disposed of directly: $|\mathrm{SL}(2,\Z/1)| = 1$ and $|\mathrm{SL}(2,\Z/2)| = 6$, neither of which is $24$, $48$ or $120$. So the list $N \in \{3,4,5\}$ is complete, with no case left unexamined. Second, write $\Lambda(m) := m^2+4$. This is the \emph{level} of the metallic grammar
+and $\tfrac{6}{\pi^2}N^3 > 120$ for every $N \ge 6$ (at $N=6$ already $131.3 > 120$), no modulus
+beyond $5$ can even reach the required order. The two small moduli are disposed of directly:
+$|\mathrm{SL}(2,\Z/1)| = 1$ and $|\mathrm{SL}(2,\Z/2)| = 6$. So the admissible list is
+$N \in \{3,5\}$, complete, with no case left unexamined. Second, write $\Lambda(m) := m^2+4$. This is the \emph{level} of the metallic grammar
 $R^mL^m$, not its field conductor: $\mathrm{tr}(R^mL^m) = m^2+2$, so the discriminant of its
 characteristic polynomial is $m^2(m^2+4)$ and $\Lambda(m) = D/m^2$. \textbf{The distinction is not
 cosmetic.} Under the field-conductor reading the statement would be false --- $m = 4, 11, 29$ all
@@ -368,8 +387,8 @@ argument requires. Setting $\Lambda(m)$ equal to each admissible modulus: $m^2+4
 metallic word; and $m^2+4 = 5$ gives $m = 1$. \qedhere
 \end{proof}
 
-\noindent That the three qualifying moduli are exactly the three exceptional McKay groups is a
-coincidence we note and do not lean on. What the theorem supplies is narrow and real: a uniqueness
+\noindent Only two moduli qualify, not three, so there is no three-way coincidence here to note or to
+decline --- and the $N=4$ near-miss is a caution rather than a pattern. What the theorem supplies is narrow and real: a uniqueness
 that survives \S\ref{sec:generic}, obtained over an infinite family, at the opposite end of the
 construction from the census whose base rate defeated the earlier claim.
 
@@ -765,8 +784,10 @@ three numbers the construction reports. \emph{Reproduced, not discovered.}
 the Standard Model, and that the unsheddable units are the standard extra abelian directions of
 $E_6$, is standard structure theory.
 \item \textbf{$\sin^2\theta_W = 3/8$.} A known grand-unified relation at the unification scale,
-\emph{reproduced}. Its run down misses badly, and we report the miss in the abstract rather than
-here.
+\emph{reproduced}. The \emph{joint} $(\sin^2\theta_W,\alpha_s)$ desert fit run down misses at $16\sigma$, and the
+miss is $\alpha_s$-dominated; $\sin^2\theta_W$ alone lands within about $1\sigma$ of the measured
+value. We name which quantity fails, here and in the abstract, because a miss attributed to the
+wrong observable is worse than no disclosure.
 \item \textbf{The chain $E_6 \supset \mathrm{SO}(10) \supset \mathrm{SU}(5)$}, anomaly cancellation
 over the $16$, and the decomposition $27 = 16 + 10 + 1$. All standard.
 \item \textbf{The anomaly $\to$ hypercharge forcing of \S\ref{sec:forced}} --- three linear
