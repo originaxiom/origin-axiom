@@ -4697,6 +4697,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1221": {
+   "slug": "global form path independence",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B862",
+    "B994"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B122": {
    "slug": "W symmetric powers",
    "motifs": [

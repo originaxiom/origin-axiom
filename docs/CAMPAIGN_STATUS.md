@@ -1,5 +1,22 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1221 — THE CRUX ANSWERED, AGAINST US)**: the prior-art dossier
+(`docs/PRIOR_ART_DOSSIER_ENTRANCE_AND_EXIT.md`) found that the programme's four strongest structural
+claims — B997, B1002, B1019, B994 — had **never been through the novelty gate** (B994/B1002 appear
+zero times in the sweep ledger). It isolated one decidable crux: **B862 forces the SM's global form
+to ℤ₆, resolving an ambiguity the SM's own data cannot; ℤ₆-given-SU(5) is known since 1980; so is
+ℤ₆ obtained on B994's chains that never enter SU(5)?** **B1221 answers YES** — the kernel is a
+property of an (algebra, representation) pair, not of a path; computed from the 27's content alone
+it is exactly ℤ₆, cyclic, generator (ω,−1,e^{2πi/6}), with SU(5) appearing nowhere, and MB12
+controls returning 72 and 18 on other content so the outcome discriminates. **And that is precisely
+why it is not new**: path-independence *explains* the 1980 result by showing the SU(5) embedding was
+never doing the work. **Entry 4 → KNOWN.** The programme's contribution sits upstream, in delivering
+the content — which THE PAPER's §5 already prices as an input. Also this window: B997's N=4 clause
+corrected by dated addendum (SL(2,ℤ/4) ≇ 2O — seven involutions against one; B1019 owned the
+refuting test and it was never turned on that case), and the paper's "unfalsifiable by experiment"
+note **retracted** as false (B862's global form is falsifiable in principle via line operators).
+
+
 **LATEST (2026-08-30, B1219–B1220 — THE PUBLICATION CAMPAIGN'S FIRST TWO CELLS)**: **B1219 Cell 0, the reverse sweep** (arcs → surfaces, the direction `open_claim_sweep` structurally cannot see): 1032 settled arcs → **45 off-surface** (29 SURFACE-IT / 10 INTERNAL / 6 SUPERSEDED), inside the pre-registered 40–90; **three homonym traps declined** (B603's Lie-algebra grading weight ≠ λ's von Neumann weight; B26's Fibonacci trace-map λ/h ≠ the type III_λ parameter; B551's species word ≠ the chain's golden word) — the arc's real product. Three own-failures caught pre-bank: the generated-index tautology (first run returned zero), a **stale positive control** (B1188's five sharpest had been surfaced by B1188's own remedy — the fix working), and **cross-process non-determinism** from a PYTHONHASHSEED-dependent truncation. **B1220 THE PREMISE AUDIT: all three math cells were already answered, every answer stronger than the cell assumed.** Cell 1 — **λ's gate already exists** in banked pieces (GC-15's read-off-D invariance + the three regimes + B1196's *prior-vs-point ill-typed exactly at Haar non-normalizability*); it is failable both ways, and **λ fails its first hypothesis** (no (T,G) read off D). Cell 2 — the ℙ³ is **CLOSED-PERMANENT** (B1196), hardened twice (B1208, all three candidates negative, the space closed); the sole overturning datum is **blocked on codex R030, in flight**. Cell 3 — **answered NEGATIVE in August** by B1036, using cell 3's own Mayer–Vietoris method: *"the double gains classes, not the symmetric pairing"*, symmetric support **empty in every cell of every block**; the unrun residual is narrower (the full V-valued assembly). **Also found: B1196's verdict line contradicts its own GC-27 cell** on λ (dated addendum, not an edit). Methodological finding, now stop rule 1b: **a campaign must audit each cell's premise, not only sweep for orphans** — three cells, three hits, zero computation. THE PAPER's ℙ³ row and λ row corrected accordingly.
 
 

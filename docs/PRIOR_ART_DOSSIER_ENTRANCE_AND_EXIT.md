@@ -109,7 +109,12 @@ spectra. It is the programme's only claim with an experimental handle.
 > $\mathrm{SU}(5)$ embedding rather than assume it** — and in particular whether a selection
 > grounded in the arithmetic of an invariant trace field has been proposed before.
 
-**Verdict:** ☐ pending
+**Verdict:** ☑ **KNOWN** — settled by B1221 (2026-08-31). Z6 *is* path-independent: computed from
+the 27's content alone, with SU(5) appearing nowhere, so every chain yields it. **That is why it is
+not new** — the kernel is fixed by the matter representation, and the Z6-invariance of the SM's
+content is the standard fact. Path-independence explains the 1980 result rather than superseding it.
+The programme's contribution is upstream, in delivering the content — which §5 already prices as an
+input.
 
 ---
 
