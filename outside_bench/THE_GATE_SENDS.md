@@ -228,3 +228,47 @@ menu is terminal"* becomes a theorem instead of the assertion the paper currentl
 **Still not sent.** And the fences hold: this does **not** cross Route A, `B990`'s unfavourable prior
 stands, the **integral** group scheme over ℤ is a further gap named and not skipped, and a crossing
 would yield a **direction, never a value**.
+
+---
+
+## ADDENDUM 5 (2026-08-31) — Q7's HYPOTHESIS TABLE REPAIRED. STILL FOUR OF FIVE, NOW FOUR PROVED.
+
+**Addendum 4's table above is SUPERSEDED by this one** (not edited — it stands as the record of what
+would have been sent). It listed *the object's own pair is regular* as one of the five hypotheses. It
+is not one: it is a real result (`B969`) that licenses applying a **generic** stabilizer result to the
+**object's own** pair, and it belongs under the identification row. In its slot, **`ℚ-simple` was
+missing** — a genuine hypothesis of Kneser–Platonov, typed `HOLDS-CONDITIONALLY` in memo 160 and
+never closed. Memo 167 audits and repairs both.
+
+| # | hypothesis | state | closed by |
+|---|---|---|---|
+| 1 | the group is **simply connected** | **CLOSED** | memo 162 — triality, `8s`/`8c` present |
+| 2 | **ℚ-simple** | **CLOSED** | **memo 167** — centroid dim 1 (two primes) + Killing form rank 28/28 ⟹ **central simple** ⟹ absolutely simple |
+| 3 | `H(ℝ)` **non-compact** | **CLOSED** | `B904` — split Zorn octonions ⟹ split Spin(8) |
+| 4 | the stabilizer **is a form of Spin(8)** | **CLOSED** | algebra **D₄ proved** in memo 167 (memo 161 had a necessary-condition test); group form memo 162; applicability to the object's own pair `B969` + memo 162 T-3 |
+| 5 | **orbit count = the stabilizer's class set** | **OPEN — the ask** | Borel–Serre / Bhargava, needing `G(ℤ)` class number one and a coherent integral model |
+
+**What changed in the substance, and it is in the sendable direction:** hypothesis 2 goes from
+*assumed, on a condition (outerness) irrelevant to it* to **proved**; hypothesis 4's algebra half goes
+from *consistent with D₄* to **forced** — `28` is the dimension of no simple Lie algebra but `D₄`,
+and central simplicity rules out both `𝔤₂ ⊕ 𝔤₂` and `Res_{L/F}(𝔤₂)`, the second of which reproduces
+every number memo 161 measured and had never been excluded.
+
+**The rewritten Q7, one clause stronger:**
+
+> The stabilizer of the object's regular pair is a trialitarian **Spin(8)** — the 27 breaks
+> `1+1+1+8v+8s+8c`, so the spin representations are present, and the stabilizer algebra is **central
+> simple of dimension 28, hence D₄**, computed rather than matched by dimension — over **split**
+> octonions, with `K = ℚ[x]/(x³−12x−5)` totally real, `Gal = S₃`, `h(K) = 1`, and every classical
+> obstruction proved absent. **Does the count of `G(ℤ)`-orbits inside the `G(ℚ)`-orbit equal this
+> stabilizer's class set, and is that class set trivial by strong approximation?**
+
+**One documentation fix owed before sending:** two different fields are written `K` in this chain —
+`B575`'s class for **ℚ(√−3)** and Route A's cubic **ℚ[x]/(x³−12x−5)**. `B1002`'s standing rule
+applies (*any future arc using the word must say which*). Memo 167 §4 establishes there is **no
+mathematical mismatch** — B575's e₆ basis is rational in all 56862 entries, so the chain's arithmetic
+is over ℚ — but the naming should be disambiguated before a specialist reads it.
+
+**Still not sent.** Fences unchanged: this does **not** cross Route A, `B990`'s unfavourable prior
+stands unrepudiated, the **integral group scheme over ℤ** remains a named and unclosed gap, and a
+crossing would yield **a direction, never a value**.

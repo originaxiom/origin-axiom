@@ -77,3 +77,25 @@ No measured value entered. Exact linear algebra over ℚ(√−3) throughout. Th
 the run feasible (inverting one independent coordinate block once, instead of a 729-row elimination
 per bracket) **preserved the full-span verification** — every bracket is still checked on all 729
 coordinates, so closure is proved and not assumed.
+
+---
+
+## ADDENDUM (2026-08-31) — `S3-SIMPLE` WAS A NECESSARY CONDITION, NOT A SIMPLICITY PROOF
+
+**Marked in place, not rewritten.** This memo reports the stabilizer **SIMPLE**. The test behind that
+word is: no basis element has centraliser dimension ≥ 14, *"which a whole `g₂` factor would force"* —
+a **necessary condition against one named alternative** (`𝔤₂ ⊕ 𝔤₂` over the same field), not a proof
+that the algebra has no proper ideal. The certificate's inline comment scopes it correctly; the
+verdict label and this memo's prose do not. **Bench error #19.**
+
+**The alternative the test cannot see:** for `L/F` quadratic, `Res_{L/F}(𝔤₂)` has `F`-dimension **28**
+and generic centraliser `F`-dimension **4** — it reproduces *every number measured here*. The test was
+built against a direct sum **over F**, where one whole factor centralises another; a Weil restriction
+has no such F-factor, so the premise does not apply to it and it was never excluded.
+
+**The conclusion was true and is now proved.** Memo 167 computes the **centroid**: dimension **1** at
+`p = 100003` and `p = 1000003`, with the **Killing form rank 28 of 28** exactly. Semisimple with
+trivial centroid ⟹ **central simple**; central simple of dimension 28 ⟹ **type D₄ uniquely**, since
+no other simple Lie algebra has dimension 28. So `S3-SIMPLE`'s verdict **stands**, `S1-28` and
+`S2-RANK4` are **reproduced** (same seed, dim 28, all 378 brackets re-verified on all 729
+coordinates), and the identification is upgraded from *consistent with D₄* to **forced**.

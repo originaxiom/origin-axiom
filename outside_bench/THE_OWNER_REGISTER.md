@@ -949,3 +949,33 @@ cell verdict, cell caveats — for **9 arcs of 1122 (0.8%)**. Mechanising this c
 an instrument problem but a **records** problem. Offered, **not pressed**; this seat does not edit
 main. **`B1220`'s finding stands on its own evidence**, found by reading, and two failed detectors
 say nothing against it.
+
+---
+
+## ADDENDUM 65 (2026-08-31) — ROW R67: audit the Q7 hypothesis ledger
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R67** | *"go"* — audit the Q7 hypothesis ledger before Q7 is sent. | **Q7 is at four of five, and it was right by accident.** `ℚ-simple` was in memo 160's five and **absent** from memo 162's tally and from the **drafted send**; what sat in its slot was *pair regularity*, which is not a hypothesis of the theorem. And `ℚ-simple` had only ever been conditioned — on **outerness**, which is **irrelevant to it**. **Now CLOSED by computation:** the stabilizer's **centroid has dimension 1** (`p = 100003` and `p = 1000003`) and its **Killing form has rank 28 of 28** exactly ⟹ **central simple** ⟹ absolutely simple ⟹ ℚ-simple. **28 is the dimension of no simple Lie algebra but D₄**, so memo 161's identification is upgraded from a necessary-condition test to a **proof**. | memo 167 |
+
+**Bench error #19.** Memo 161 reported the stabilizer **SIMPLE**; its test was *no basis element has
+centraliser dimension ≥ 14*, a necessary condition against `𝔤₂ ⊕ 𝔤₂`. It does not exclude
+`Res_{L/F}(𝔤₂)`, which has F-dimension **28** and generic centraliser F-dimension **4** — it
+reproduces every number memo 161 measured. The conclusion was true; the label outran the evidence,
+and the gap closed in one computation.
+
+**A declared prior lost, and the finding shrinks with it.** I sealed **B-TWO-FIELDS** and told the
+owner there might be a base-field mismatch — memos 161/162 over ℚ(√−3), Route A over ℚ. **All 56862
+entries of B575's e₆ basis are rational.** There is **no mismatch**; that statement is withdrawn.
+What survives is a naming collision (two fields written `K`), a documentation fix under `B1002`'s
+standing rule, owed before the send.
+
+**What the send gains:** hypothesis 2 goes from *assumed on the wrong condition* to **proved**, and
+hypothesis 4's algebra half from *consistent with* to **forced**. `THE_GATE_SENDS.md` addendum 5
+carries the repaired table. **Still not sent — the send is the owner's act, per item.**
+
+**And the shape of both defects is the class of the previous cell:** a summary claiming more than the
+record under it, found **by reading**, one memo after two detectors failed to find its kind
+mechanically. **When a count survives a revision, check that its contents did** — four was stable
+across memos 160→162 while two of its rows changed underneath it.
+

@@ -70,6 +70,15 @@ fence closes — **from banked material neither memo had cited.**
 
 **One hypothesis remains, and it is the genuinely specialist one.**
 
+> **[SUPERSEDED 2026-08-31 by memo 167 — this table is not the theorem's hypothesis list.]** It lists
+> *the object's own pair is regular* as a hypothesis; it is not one (it is what licenses applying a
+> **generic** stabilizer result to the object's own pair, and belongs under the identification row).
+> In its slot, **`ℚ-simple` is missing** — a genuine Kneser–Platonov hypothesis, typed
+> `HOLDS-CONDITIONALLY` in memo 160 and never closed here. Memo 167 **closes it by computation**
+> (centroid dim 1 at two primes, Killing form rank 28/28 ⟹ central simple ⟹ absolutely simple ⟹
+> ℚ-simple) and **repairs the table**. The count **four of five stands**; two of its four rows did
+> not. Repaired table: `THE_GATE_SENDS.md` addendum 5.
+
 ---
 
 ## 4. THE FENCES — and they bind harder now, not less
