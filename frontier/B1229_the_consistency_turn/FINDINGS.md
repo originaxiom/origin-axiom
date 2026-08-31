@@ -77,6 +77,22 @@ then predicts the rest."*
 **End-state if the two candidates land:** `ℓ` + bits and finite labels — **zero continuous
 dimensionless parameters.** Not claimed now.
 
+## L154's adjudication, stated (this arc does NOT exhibit the map)
+
+**B1034 owns L154's status and it is unchanged by anything here: the map-hunt is NO-EXHIBIT.**
+This arc pairs Brown–Henneaux with (E₆)₁ — the exact pairing B1034's lock guards — so it states the
+adjudication explicitly rather than letting the pairing read as an assertion of the join:
+
+- **c = 6 is NOT derived here.** Nothing in this arc exhibits a map from the object to a boundary
+  chiral algebra. B1228's retraction of σ = 1 stands in full.
+- What this arc does is **quantize the MENU** that σ can be drawn from — a statement about the
+  *codomain*, not about the map. The menu is discrete because RCFT central charges are rational;
+  the ℤ/3 cuts it; **no bridge is built.**
+- The bridge remains L154's, **UNDECIDED**, with the join unobstructed and one banked bridge
+  statement (c_BH = 6σ, c((E₆)₁) = 6, both exact) — and an exhibited map still owed.
+
+Admitted to B1034's allowlist on the same ground as B1064 and B1190: it states the adjudication.
+
 ## Fences
 
 - The 7-value list assumes **two characters, vanishing Wronskian index**. Drop it and the menu grows

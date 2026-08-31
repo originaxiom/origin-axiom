@@ -1,0 +1,32 @@
+{
+ "c6_solutions": [
+  {
+   "G": "A2",
+   "k": 9,
+   "n_primaries": 55
+  },
+  {
+   "G": "A6",
+   "k": 1,
+   "n_primaries": 7
+  },
+  {
+   "G": "D6",
+   "k": 1,
+   "n_primaries": 4
+  },
+  {
+   "G": "E6",
+   "k": 1,
+   "n_primaries": 3
+  }
+ ],
+ "after_Z3_cut": [
+  {
+   "G": "E6",
+   "k": 1
+  }
+ ],
+ "correction": "the Z/3 does the discriminating, not the two-character restriction",
+ "b1229_headline_support_restated": true
+}

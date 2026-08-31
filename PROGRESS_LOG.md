@@ -13062,3 +13062,18 @@ named (the ℙ³ via Cardy finiteness; λ via KMS periodicity). Map amended §6b
 Verdict OPEN — a program opened, no row closed. Gate 5 intact.
 
 ---
+
+## 2026-08-31 — B1230: THE CONSISTENCY CAMPAIGN, RUN 1
+
+Charter `docs/CONSISTENCY_CAMPAIGN.md`, stop rules declared first. **C-1** base-field audit →
+**OVER-COUNTED**: σ counted as a continuum, two rows state no field. Binding rule established —
+every continuous count states its field (ℚ vs ℚ(ζ₁₂) is 4d−1 vs d−1). **C-5** → **refuted B1229**:
+c = 6 has four solutions, not one (at level 1, c = rank). **C-5b** → recovery, stronger: the object's
+own ℤ/3 cuts four to one, restriction-free — K6 satisfied by the object's datum.
+
+**The gate caught B1229** pairing Brown–Henneaux with (E₆)₁ without stating L154's adjudication;
+fixed by stating it, not by widening the allowlist.
+
+Verdict OPEN. No row deleted, no map exhibited, σ = 1 not established. Gate 5 intact.
+
+---

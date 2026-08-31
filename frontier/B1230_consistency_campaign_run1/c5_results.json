@@ -1,0 +1,28 @@
+{
+ "scanned": 168,
+ "distinct_c": 141,
+ "sigma_1_solutions": [
+  {
+   "G": "A2",
+   "k": 9,
+   "c": "6"
+  },
+  {
+   "G": "A6",
+   "k": 1,
+   "c": "6"
+  },
+  {
+   "G": "D6",
+   "k": 1,
+   "c": "6"
+  },
+  {
+   "G": "E6",
+   "k": 1,
+   "c": "6"
+  }
+ ],
+ "discrimination_survives": false,
+ "robust_core": "c rational for any RCFT => sigma discrete, independent of MMS"
+}

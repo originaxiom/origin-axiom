@@ -4851,7 +4851,8 @@
     "wrt_quantum"
    ],
    "refs": [
-    "B727"
+    "B727",
+    "L154"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
@@ -4885,6 +4886,22 @@
    "obstacle": "units_scale",
    "obstacle_conf": 3,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1230": {
+   "slug": "consistency campaign run1",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B727",
+    "K6",
+    "L154"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B123": {

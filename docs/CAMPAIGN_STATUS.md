@@ -1,5 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1230 — THE CONSISTENCY CAMPAIGN RUN 1: IT REFUTED ITS OWN HEADLINE'S SUPPORT
+AND CAME BACK STRONGER)**: owner asked for a proper campaign; charter `docs/CONSISTENCY_CAMPAIGN.md`
+with stop rules declared before any cell ran. **C-1 base-field audit → OVER-COUNTED**: σ was counted
+as a *continuum* where consistency gives a finite menu, and **two rows state no field at all**.
+Binding rule: **every continuous-parameter count must state the field it is taken over** — over ℚ a
+d-dim ℚ(ζ₁₂)-space reports 4d−1 parameters where the object has d−1. **C-5 → REFUTED B1229**: drop
+the two-character restriction and **c = 6 has FOUR solutions** (A₂@9, A₆@1, D₆@1, E₆@1) — at level 1,
+c = rank. **C-5b → recovery on a better footing**: primary counts 55/7/4/**3**, so the **object's own
+ℤ/3** cuts four to one *restriction-free* — K6 satisfied by the object's own datum, which is stronger
+than what B1229 claimed. **And B1034's lock caught B1229** pairing Brown–Henneaux with (E₆)₁ without
+stating L154's adjudication; fixed by **stating the adjudication**, not by widening the allowlist.
+**C-2 next**: codex's ℤ/12 character assignment decides whether the ℙ³ is three parameters or zero.
+Verdict **OPEN** — no row deleted, no map exhibited.
+
 **LATEST (2026-08-31, B1229 — THE CONSISTENCY TURN: THE METHOD WAS WRONG, NOT THE OBJECT)**: owner
 asked for a completely other approach and for research. **§6's deletion schedule asks the object to
 SELECT — the one thing B1225 proves impossible**, which is why B1216 got zero deletions from nine

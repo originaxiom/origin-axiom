@@ -1,5 +1,38 @@
 # Changelog
 
+## THE CONSISTENCY CAMPAIGN, RUN 1 — it refuted its own headline's support, and the result got stronger (2026-08-31)
+
+Owner: *"continue, craft a campaign and do it properly."* Charter: `docs/CONSISTENCY_CAMPAIGN.md` —
+six two-outcome cells with stop rules declared **before** any ran (no cell may claim a row DELETED;
+every continuous count states its field; `already_banked` before every novelty claim; cited ≠
+verified). Three cells ran.
+
+**C-1, the base-field audit → OVER-COUNTED** (it could have returned CLEAN). σ was counted as a
+**continuum** where consistency gives a finite menu, and **two more rows state no field at all** (the
+ℙ³ Higgs line, λ). **The binding rule: every continuous-parameter count must state the field it is
+taken over.** A count over ℚ of a d-dimensional ℚ(ζ₁₂)-space reports **4d−1** parameters where the
+object has **d−1** — three spurious ones at d = 1.
+
+**C-5, the robustness cell → REFUTED B1229's stated support.** Drop the two-character restriction and
+scan all simply-laced (G,k), k ≤ 12: **c = 6 has FOUR solutions**, not one — A₂@9, and A₆, D₆, E₆ all
+at level 1. Obvious in hindsight: **at level 1, c = rank**, so every rank-6 simply-laced algebra gives
+6. B1229's "σ = 1 selects E₆ uniquely" was leaning on the restriction.
+
+**C-5b, the recovery, on a better footing.** The ℤ/3 cut was never the restriction. Primary counts:
+55, 7, 4, **3** — so **the object's own ℤ/3** (ℚ(√−3), the trinification) cuts four to **one**,
+restriction-free. The corrected statement is **stronger**: c = 6 has four solutions and *the object's
+own arithmetic* selects E₆ alone — exactly what **K6** demanded.
+
+**And the gate caught me.** B1229's FINDINGS paired Brown–Henneaux with (E₆)₁ — the pairing B1034's
+lock guards — **without stating L154's adjudication**, so it read as asserting the join. Suite red on
+`test_v2_no_exhibit_adjudicated`. **The fix was not to widen the allowlist:** B1229 now states the
+adjudication (NO-EXHIBIT stands; *"c = 6 is NOT derived here"*; the arc quantizes the **menu**, i.e.
+the codomain, not the map; B1228's retraction stands), and only then is admitted on B1064/B1190's
+ground with a dated reason.
+
+**Next: C-2** — codex's ℤ/12 character assignment decides identity-vs-scalar on B₀, hence whether the
+ℙ³ is three continuous parameters or **zero**.
+
 ## THE CONSISTENCY TURN — the method was wrong, not the object (2026-08-31)
 
 Owner: *"we have to think of completely other approach, be brave go bold"* / *"step back and back and
