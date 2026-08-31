@@ -160,6 +160,29 @@ THEN an order-three cut may be applied.
 All three antecedents are open.  `sigma=1` remains open; even `sigma` being a
 finite label is not presently established.
 
+## Post-send scope note on outside-bench Q11
+
+The outside bench sent Q11 to Tudor Dimofte immediately before this audit was
+committed, from a branch whose mainline merge-base predates B1224--B1230.  The
+email is a legitimate bounded request for a mechanism or obstruction, but two
+sentences must not be imported back into the programme as established facts:
+
+1. For `m004`, `CS=0` is an independently verified contingent datum.
+   Amphichirality alone implies only `2 CS=0` in the value group; B1224/B1226
+   exhibit amphichiral manifolds at the nonzero two-torsion value `1/4`.
+   Therefore the email's causal phrase “because m004 is amphichiral, CS=0” is
+   false even though its conclusion for `m004` is true.
+2. A construction of some boundary invariant would not by itself fix
+   `sigma`.  It would still have to prove a finite/selective boundary category,
+   identify the relevant central charge with `6 sigma`, and type the nominated
+   `E6` datum into that category.  B1230's four WZW solutions already show that
+   `c=6` alone does not select `E6_1` inside its own stated class.
+
+Likewise, `CS=0` makes the displayed classical geometric saddle action blind
+to `k`; it does not by itself prove that the full quantum theory has no
+integer-level sector.  These are record corrections only.  No unsolicited
+follow-up communication is authorized or required by this audit.
+
 Question-map disposition: update `OA-C1151` but retain `OPEN`; add a new
 question-map row for the RCFT-boundary applicability question, also `OPEN`.
 

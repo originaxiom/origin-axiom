@@ -56,6 +56,25 @@ object trinification Z/3 -> boundary fusion/simple-current Z/3.
 
 No one of these arrows is presently exhibited.
 
+## Fresh outside-branch reconciliation
+
+After the cell was computed, `fresh/claude/outside-bench@2e4f11f6` recorded
+that Q11 had already been sent to Tudor Dimofte from a branch based before
+B1224--B1230.  Please carry two post-send fences into the banked addendum:
+
+- `m004` has `CS=0`, but B1224/B1226 prove that amphichirality supplies only
+  `2 CS=0`; the email's implication “amphichiral therefore zero” is not the
+  theorem.
+- locating rational/modular boundary data would open the bridge, not
+  automatically fix `sigma`; finite selection and the typed `E6` attachment
+  would remain separate arrows.
+
+The same distinction applies to level language: the displayed classical
+saddle is `k`-blind at `CS=0`, which is weaker than proving that the quantum
+theory contains no integer-level sector.  The email itself remains a bounded
+expert question and asserts no Standard-Model result.  This note requests a
+record correction only, not an unsolicited external follow-up.
+
 ## Artifacts
 
 - `memos/RCFT_CONSISTENCY_SCOPE.md`
