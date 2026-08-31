@@ -346,3 +346,45 @@ stand on the input floor); the three Yukawa suppression mechanisms are genuinely
 with the 𝒯 evaluator commissioned; the observer-side spec rows now route through
 `docs/GRAND_COMPUTATION_v0.md` §5/§9 (the typed input slots + the floor amendment) rather than
 this ledger alone.
+
+## Currency read 2026-08-31 (head B1226) — §A4's flat count is a CATEGORY ERROR
+
+Owner, this window: *"we need to count for four forces first, including gravity, then Higgs boson,
+then leptons and quarks. i think were doing a category error on our expectations and the way were
+saying 19 sm parameters or 26 sm parameters if they were all same category."* **The correction is
+adopted, and §A4's heading — "the free parameters — 19 in the minimal SM" — is the error in place.**
+
+Typed by this programme's own law (**B1168**: object-canonical ⟺ β-even ∧ dimensionless), the 28
+parameters (19 minimal + 7 neutrino + G, Λ) are **four different kinds of thing with four different
+suppliers**:
+
+| box | n | members | who supplies it |
+|---|---|---|---|
+| **A** β-even, pure | 6 | CKM angles, PMNS angles | **NOBODY** — **B1225** proves the object *cannot select* within its canonical class |
+| **B** scale-anchored | 3 | g₁, g₂, g₃ — dimensionless but *running*, so they need a renormalisation point | **READER** — B811's H128 kill, on kind |
+| **C** dimensionful | 16 | 9 charged-fermion masses, v, m_H, 3 ν masses, **G, Λ** | **READER** — the scale wall |
+| **D** **β-odd** | **3** | **θ_QCD, δ_CKM, δ_PMNS** | **OBJECT CONSTRAINS** — amphichirality forces a ℤ/2 (**B1224**): a *bit*, not a value |
+
+Two consequences this ledger must carry:
+
+1. **Gravity is not an omission from a list of 19.** It is **two more members of box C** — the box
+   that was already the reader's. Adding it changes no verdict, which is itself the point: the
+   category, not the count, is what determines who supplies a parameter.
+2. **The structure is not in this table at all**, because it is not numeric — gauge group, reps,
+   generation count, hypercharges, the Higgs slot. That is the part the programme **derived**
+   (§C), and the flat count obscures it by listing derived structure and undetermined numbers as
+   one undifferentiated "19."
+
+**The live delta (B1226).** Box D is the only box with an object-side output, and **every probe ever
+fired into it demanded a continuous value**: B1027 (δ₁₃ = 120°/240°, MISS 11.4σ/38.0σ), B1137
+(algebraic combinations over 18 sealed targets, DISJOINT), B813 (CS = θ_QCD, REFUTED ON TYPE).
+**3/3 asked for a value; 0/3 asked the bit.** A bit cannot answer a value question, so those three
+negatives measure the **type mismatch**, not the object. §D5's "honest state of the value layer"
+should be read with that distinction: box A is closed *by proof*, boxes B and C *by the scale wall*,
+and box D was never actually tested. Registered **L192**, not banked — Gate 5 absolute, no phase
+derived, and B813's refutation of the value *dictionary* stands untouched.
+
+Also this window: the scale wall's **reason** is corrected (B1226 cell 1) — `blind-to-k` is
+equivalent to `CS ≡ 0`, i.e. to the object's complex volume being **real**, and **not** to
+amphichirality (m003 is amphichiral with CS = ¼; m208 is chiral with CS = 0). The wall stands for
+m004; it is a contingent datum, not a symmetry theorem.

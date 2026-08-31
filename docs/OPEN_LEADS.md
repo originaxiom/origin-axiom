@@ -2154,3 +2154,26 @@ pick one depth-5 signature word with a small eliminant, compute the exact elimin
 compute d_K of a quartic factor — one odd d_K kills B502 clean; all-even across witnesses would
 revive it as a live conjecture with the census as its foil. **B398 airlock armed** (a d_K = −283 or
 field-iso hit = STOP, convene). ★★
+## L192 — THE TYPE-MATCHED QUESTION IN THE β-ODD BOX (registered 2026-08-31, B1226; source: the SM-parameter typing)
+
+B1226 typed the SM's 28 parameters by our own law (B1168) into four boxes. Box A (β-even, pure) is
+**closed by proof** — B1225: the object cannot select. Boxes B and C are the reader's by the scale
+wall. **Box D — β-odd, dimensionless: θ_QCD, δ_CKM, δ_PMNS — is the only box where the object has an
+output at all**, and that output is `CS`, forced 2-torsion by amphichirality (B1224): **one bit**.
+
+Every probe ever fired into box D demanded a *continuous value* from that bit-valued channel —
+B1027 (δ₁₃ = 120°/240°, MISS 11.4σ/38.0σ), B1137 (algebraic combinations, DISJOINT), B813 (CS =
+θ_QCD, REFUTED ON TYPE). **3/3 asked for a value; 0/3 asked the bit.** Those negatives measure the
+type mismatch, not the object.
+
+The unasked, type-matched question: **does the object's ℤ/2 fix the CP-conservation BIT** — whether
+a phase sits at a CP-even point — as opposed to any phase magnitude? **B303 already sits at bit
+level** ("the CP sign is literally the sign of Chern-Simons", PROVED) and was never connected to
+these three negatives.
+
+**Before anything is run**: (a) B813's type audit must be re-read as the *governing theorem* — it
+refuted the value dictionary, and any bit-level construction must state why it does not re-enter the
+coefficient slot B813 closed; (b) the criterion must be able to FAIL in both directions (MB12) —
+a bit that cannot come out "CP-violating" is vacuous, and m003's `CS = ¼` is the natural bite
+control, being the sibling that sits at the other element; (c) Gate 5 stays absolute — the object
+side must be computed before any measured value is named. ★★★

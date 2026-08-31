@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1226 — THE β-ODD BOX: A BANKED CHAIN BREAKS, AND THE ONE LIVE CHANNEL WAS
+ALWAYS ASKED THE WRONG QUESTION)**: owner named a **category error** in how we count SM parameters;
+following B1224's undrawn consequence hit the same thing. **B1012's `blind-to-k ⟺ CS = 0 ⟺
+amphichiral` is refuted at the second link in both directions** — m003/m135/m207 are amphichiral with
+CS = ¼, m208 is chiral with CS = 0. The scale wall **stands for m004** but its reason is corrected
+from a symmetry theorem to a contingent datum; cleanly, **blind-to-k ⟺ the complex volume is real**.
+Six surfaces corrected (two THEOREM rows in `THE_CLAIM.md`) — **E53 from a same-day bank**. Typed by
+**B1168**, the 28 parameters split **6/3/16/3**: box A closed by **B1225**, B and C the reader's, and
+**box D (θ_QCD, δ_CKM, δ_PMNS) the only box with an object-side output** — a **ℤ/2, one bit** (B1224).
+**Every probe ever fired into box D demanded a continuous value: 3/3 (B1027, B1137, B813); 0/3 asked
+the bit.** Those negatives measure the type mismatch, not the object. **B303** already sits at bit
+level and was never connected. **L192 registered**, not banked — Gate 5 absolute, no phase derived.
+
 **LATEST (2026-08-31, B1225 — THE PROGRAMME'S MOST-CITED OPEN ITEM CLOSES, BY PROOF)**: owner asked
 what is hiding that would force the top breakthrough. **Nothing is** — and the reason is one line
 from our own law. MENU-1 held that the value arm needs *"a forcing theorem that selects one map

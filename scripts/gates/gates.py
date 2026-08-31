@@ -203,6 +203,26 @@ def gate_arc_verdicts():
 
 # --- gate: attribution hygiene -------------------------------------------------------------
 _TOK = base64.b64decode(b"Y2xhdWRl").decode()          # encoded so this file passes itself
+# B1226: the gate enforced ONE name out of the set the rule names, so "Anthropic", "Opus",
+# "sonnet" and "fable" sat in tracked files looking clean. Word-bounded so ordinary English
+# ("philanthropic", "ineffable", "magnum opus") cannot red the gate.
+_VENDOR_TOKS = tuple(base64.b64decode(b).decode() for b in
+                     (b"Y2xhdWRl", b"YW50aHJvcGlj", b"b3B1cw==", b"c29ubmV0", b"ZmFibGU="))
+_VENDOR_RE = re.compile(r"\b(" + "|".join(_VENDOR_TOKS) + r")\b", re.I)
+
+
+def _load_attr_baseline():
+    """B1226 ratchet: the pre-existing occurrences are FROZEN, not forgiven. The gate reds on
+    any new file and on any INCREASE in an existing one, so the footprint can only shrink.
+    Clearing the backlog means editing append-only history — an owner decision, not a gate's."""
+    try:
+        with open(os.path.join(ROOT, "docs", "ATTRIBUTION_BASELINE.json")) as fh:
+            return json.load(fh).get("frozen", {})
+    except Exception:
+        return {}
+
+
+_ATTR_BASELINE = _load_attr_baseline()
 ATTR_EXEMPT_PREFIXES = ("legacy/", ".claude/", "audit/",
                         # preserved forensic review artifacts (hash-pinned; quote seat transcript
                         # paths verbatim as provenance pins — editing them would break their seals)
@@ -224,8 +244,9 @@ def gate_attribution():
         if not rel.endswith((".md", ".py", ".txt", ".json", ".yml", ".yaml", ".toml")):
             continue
         try:
-            if _TOK in _read(rel).lower():
-                hits.append(rel)
+            n = len(_VENDOR_RE.findall(_read(rel)))
+            if n > _ATTR_BASELINE.get(rel, 0):
+                hits.append(f"{rel} ({n} vendor tokens, baseline {_ATTR_BASELINE.get(rel, 0)})")
         except Exception:
             continue
     rc2, author = _git("log", "-1", "--format=%an")

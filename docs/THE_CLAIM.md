@@ -26,8 +26,8 @@ owner's directive: state the theorem we have, not the theory we lack.*
 > | endpoint **rule-independence** — all six registerable selection functions end at the SM | **THEOREM** | B994 |
 > | matter mass in the **cubic** (27³ ⊃ 16·16·10), the doublet in the 10 ⊂ 27 | **THEOREM** | B978 · B884 · B987 |
 > | the **chiral (trinification) anatomy** of the 27 — *adjudicated B1033: the su(3)′ index is chiral structure, not generation structure; the generation COUNT returns to the open-inputs side against B280/B298's standing walls* | **STRUCTURAL (re-scoped)** | B897 · B928 · B1033 |
-> | θ-structure: CS = 0, forced by amphichirality | **THEOREM** | B303 |
-> | **no dimensionful quantity — by theorem, not failure** (∂S/∂k = −CS ≡ 0: blindness to the level *is* amphichirality) | **THEOREM** | B811 · B1012 |
+> | θ-structure: CS = 0 — amphichirality forces CS into ℤ/2 = {0, ¼}, and *this* object sits at 0 | **THEOREM** | B303 · B1224 · B1226 |
+> | **no dimensionful quantity — by theorem, not failure** (∂S/∂k = −CS ≡ 0, i.e. the object's complex volume Vol + i·CS is **real**). *Corrected B1226: this is NOT a symmetry theorem — m003 is amphichiral with CS = ¼, m208 is chiral with CS = 0. The conclusion stands for m004; the blindness is contingent on which element of the symmetry-given ℤ/2 the object occupies.* | **THEOREM** | B811 · B1012 · B1226 |
 >
 > A STRUCTURAL grade is a named debt inside a closed proof, not a hole in an open one. **This
 > theorem is closed: every arrow is banked, and the non-derived remainder is exactly the

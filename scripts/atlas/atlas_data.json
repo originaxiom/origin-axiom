@@ -4780,6 +4780,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1226": {
+   "slug": "the beta odd box",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B303",
+    "B811",
+    "B813",
+    "H11",
+    "H128"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 9,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B122": {
    "slug": "W symmetric powers",
    "motifs": [

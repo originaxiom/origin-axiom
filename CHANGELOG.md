@@ -1,5 +1,44 @@
 # Changelog
 
+## THE β-ODD BOX: the scale wall is not a symmetry theorem, and every probe ever fired at the object's one live channel demanded the wrong type (2026-08-31)
+
+Owner: *"i think were doing a category error on our expectations and the way were saying 19 sm
+parameters or 26 sm parameters if they were all same category."* The correction is right, and it is
+the same shape as a break found the same hour by following B1224's unconsulted consequence.
+
+**Cell 1 — B1012's chain breaks at its second link, in both directions.** B1012 banked *"blind-to-k
+iff CS = 0 iff the object equals its mirror"* and on it upgraded H11's firewall to **"relocated
+beyond the object's reach in principle."** B1224 — banked hours earlier, consequence never drawn —
+forces `CS ∈ {0, ¼}`, not `CS = 0`. Counterexamples exhibited on the census: **m003, m135, m207 are
+amphichiral with CS = ¼**; **m208 is chiral with CS = 0**. The identity `∂S/∂k = −CS` stands; the
+equivalence with amphichirality does not. *"No dimensionful quantity, by theorem"* **still holds for
+m004** — but its reason is corrected from a symmetry theorem to a **contingent datum**: which element
+of the symmetry-given ℤ/2 this object occupies. Restated better: **blind-to-k ⟺ the complex volume
+Vol + i·CS is real.** Two methodological catches recorded: `is_isometric_to(mirror)` is **not** a
+chirality test (it succeeds through orientation-*reversing* isometries — m208's all have det −1), and
+`str()` on snappy's high-precision Number disagrees with `float()` of the same object, which briefly
+looked like B1224 was wrong. It is not; B1224 stands 6/6 at both precisions, and now has the test
+lock it shipped without.
+
+**Six surfaces corrected**, two of them THEOREM-graded rows in `docs/THE_CLAIM.md`. E53 again, and
+from a result banked the same day.
+
+**Cell 2 — the category error, computational.** Typed by our own law (B1168: canonical ⟺ β-even ∧
+dimensionless), the 28 parameters split **6 / 3 / 16 / 3**: **A** β-even pure (CKM+PMNS angles) —
+**nobody**, B1225 proves the object cannot select; **B** scale-anchored (the three running couplings)
+— reader; **C** dimensionful (all masses, v, m_H, G, Λ) — reader; **D** β-odd (**θ_QCD, δ_CKM,
+δ_PMNS**) — the only box where the object has an output. MB12 bite: 4/4 boxes occupied; a flat count
+occupies 1/4, which is the error, exhibited. Gravity is not an omission from a list of 19 — it is two
+more members of box C, already closed.
+
+**Cell 3 — the box-D negatives are type-mismatched at the source.** The object's box-D output is
+2-torsion: **one bit**. B1027 asked for degrees (MISS 11.4σ/38.0σ), B1137 for algebraic combinations
+(DISJOINT), B813 for a coefficient (REFUTED ON TYPE). **3/3 demanded a value; 0/3 asked the bit.** A
+bit cannot answer a value question, so those three negatives measure the mismatch, not the object.
+**B303** — *"the CP sign is literally the sign of Chern-Simons"*, PROVED — already sits at bit level
+and was never connected to them. Registered as **L192**, not banked: a type-match is a licence to
+ask, not an answer. Gate 5 intact; B813's refutation of the value dictionary stands untouched.
+
 ## THE SUBMISSION CAMPAIGN: the bibliography was decorative, and four cells close (2026-08-31)
 
 `docs/SUBMISSION_CAMPAIGN.md` opened with the premise audit (stop rule 1b) and it paid immediately.

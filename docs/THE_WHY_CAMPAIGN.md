@@ -61,7 +61,7 @@ output — the freedom ledger needs the record current.**
 |---|---|
 | X14 (L98 one-organ, scoped 2026-08-09) | **→ Lane II** (a mechanism question; runs after II-1) |
 | X16 residue (face positives; the cascade face holds ONE arc) | **→ Lane IV** (= the handoff's R2 repair) |
-| X25 | **DONE in substance** (B1012 discharged the normalisation; the CS = 0 / π²/5 contrast absorbed into the k-blindness equivalence) |
+| X25 | **DONE in substance** (B1012 discharged the normalisation; the CS = 0 / π²/5 contrast absorbed into the k-blindness equivalence — whose second link is corrected by B1226) |
 | X26 (L81c, the sister's trace −3 play) | **→ Lane III-3** (an inventory candidate: a second exact-value source) |
 | X27 (L105 cross-row control) | **LARGELY SUPERSEDED by B1019** (the own-door census IS the cross-row control); residue → Lane I-2's population |
 | X28 (curvature-sign transition) | **DECLINED for this campaign** — firewalled hook, no current consumer; stays on OPEN_LEADS |

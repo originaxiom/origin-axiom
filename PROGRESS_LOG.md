@@ -12988,3 +12988,26 @@ three items stay open and are stated in the paper.
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## 2026-08-31 — B1226: THE β-ODD BOX
+
+Owner's category correction (*"19 sm parameters or 26 ... if they were all same category"*) met a
+consequence-check on B1224 that nobody had run, and they were the same finding.
+
+**The break.** B1012's `blind-to-k ⟺ CS = 0 ⟺ amphichiral` fails at the second link **both ways** —
+m003/m135/m207 (amphichiral, CS = ¼) and m208 (chiral, CS = 0). The scale wall **stands for m004**
+but is **contingent**, not a symmetry theorem: `blind-to-k ⟺ the complex volume is real`. Six
+surfaces corrected, two THEOREM-graded in `THE_CLAIM.md`. Two tool traps recorded —
+`is_isometric_to(mirror)` is not a chirality test, and snappy's HP `str()` disagrees with `float()`.
+B1224 re-verified 6/6 and given the lock it shipped without.
+
+**The typing.** 28 parameters → **6/3/16/3** across four boxes with four suppliers. Box A closed by
+B1225; boxes B and C the reader's; **box D — θ_QCD, δ_CKM, δ_PMNS — the only box with an object-side
+output**, and that output is a **bit**.
+
+**The diagnosis.** 3/3 probes ever fired into box D demanded a continuous value from a bit-valued
+channel; 0/3 asked the bit. Their negatives measure the type mismatch. **L192 registered** with its
+governing theorem (B813), its MB12 bite control (m003 at the other element of the ℤ/2), and Gate 5
+restated. Nothing promoted to `CLAIMS.md`; no CP phase derived; firewall intact.
+
+---

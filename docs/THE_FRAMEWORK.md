@@ -322,7 +322,7 @@ Each line below is a *theorem with a named cause*, not an absence.
 >
 > | line | sort | why |
 > |---|---|---|
-> | **scale** (ℓ, k) | **boundary + specification** | "what is α_s(M_Z)?" presupposes a renormalisation point the object lacks; and the object is **provably blind to k** (∂S/∂k = −CS = 0, B1012) |
+> | **scale** (ℓ, k) | **boundary + specification** | "what is α_s(M_Z)?" presupposes a renormalisation point the object lacks; and the object is **provably blind to k** (∂S/∂k = −CS = 0, B1012 — contingent on CS = 0, *not* on amphichirality: B1226) |
 > | **rank / the 27-VEV** | **specification, with a hatch** | *"an input in every framework and canonical nowhere"* on the old, toral routes — and, as of B1098, no longer the whole story (below) |
 > | **the 6d type J** | **specification** | free in every class-S construction; the object at least names E₆/E₈ at its ends |
 > | **time's arrow** | **boundary, probably** | the modular flow is canonical (Tomita–Takesaki); only its *direction* is free — a bit, not a mechanism |
