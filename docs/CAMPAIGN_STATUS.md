@@ -1,5 +1,20 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1228 — S1 RUN AT LAST; THE DELETION SCHEDULE IS A DAG, AND THE WALL IS THE
+MECHANISM)**: owner named the illiteracy — *"supplied externally"* written as if the supplier sits
+outside existence — and it was exactly why **row 8 (J, closer = S1) sat orphaned from row 1 (σ, the
+ledger's own "BURIED PRIZE")**. B1216 spent nine agents on row 1 for zero deletions, reading
+`GRAND_COMPUTATION_v0` §6 as a checklist. **S1, unrun since B1025 I4, ran.** `c(J₁) = rank(J)` 9/9;
+**π₁(m004) ↠ 2T verified on-bench** (48 surjections of 72; control 5₂ = 0); the "six cusp-boson
+units" are six **Cartan directions**, not six cusps; σ = 1 discriminates to **E₆ uniquely** among
+nine simply-laced types (A₂ shares 3 primaries AND T-order 12, still gives ⅓); **K1 named**: (E₆)₁,
+vacuum module, c = 6. **THE NEW PIECE**: the level is **forced by inventory** — the object supplies a
+lattice and provably no `k` (CS = 0 ⇒ ∂S/∂k ≡ 0; CS = 0 forced by B1224/B1227), and only level 1
+needs no level datum — so *"the firewall relocated beyond the object's reach"* is the **mechanism
+that pins σ**, not the obstacle. **σ = 1 RETRACTED in-session**: the geometric PSL(2,ℂ) CS action's
+boundary WZW is A₁ (rank 1 = the one cusp-boson unit); E₆ arrives from McKay on 2T. Row 1 moves from
+*empty candidate set* to *unique named candidate*, one identification left. Verdict **OPEN**.
+
 **LATEST (2026-08-31, B1227 — ONE THEOREM, TWO REGIMES; THE CRACK WAS ALREADY CLOSED BY THE
 RECORD)**: owner asked to stop the paper and crystallise. **The theorem**: for an amphichiral object
 the mirror is a *self*-isometry, so a mirror-odd invariant obeys `2·I = 0` in its value group —

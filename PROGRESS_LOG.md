@@ -13029,3 +13029,21 @@ arcs, which is a failure mode the surface sweeps do not currently look for.
 Nothing promoted to `CLAIMS.md`; no value derived; firewall intact.
 
 ---
+
+## 2026-08-31 — B1228: S1 RUN (the schedule is a DAG)
+
+Owner directed the run and named the illiteracy that had blocked it: *"supplied externally"* read as
+*outside existence*. **Row 8 supplies row 1** — B1216's nine agents deleted zero rows reading §6 as
+a checklist.
+
+**Established:** `c(J₁)=rank(J)` 9/9; **π₁(m004) ↠ 2T** on-bench (48/72, control 5₂=0); K5's shape
+(six Cartan directions, not six cusps); K6 discrimination (σ=1 ⟺ E₆, uniquely among nine); K1 named
+((E₆)₁, vacuum, c=6). **New:** the level is forced by **inventory** — no k available, and only
+level 1 needs none; the MB12 control shows blindness is what pins σ. The wall is the mechanism.
+
+**Retracted in-session:** σ = 1 is NOT established — the geometric CS action's boundary WZW is A₁,
+and E₆ comes from elsewhere. Verdict OPEN; the arc's own test reds the suite if anyone upgrades it.
+
+Nothing promoted to `CLAIMS.md`; Gate 5 intact.
+
+---

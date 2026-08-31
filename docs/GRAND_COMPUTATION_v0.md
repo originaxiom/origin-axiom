@@ -215,6 +215,20 @@ place-typing and the λ-vs-r-vs-γ₅ time ambiguity, both carried above as open
 | 10 | D3's complex clause | re-grade | apply **B1100's exact complex-witness** to the two exhibited rank-4 centralizers (su(3)⊕su(3), so(7)⊕u(1)) with an exclusion-side control (a known-real subrep must return "real") | B1190/GC-9 |
 | 11 | the Selector (H5) | formalization | **the Kolmogorov-Selector cell** + the B998 lock repair (C1–C4 effectively unlocked; F2/F3/F8 untested) — batch-2 remainder | ledger H5 |
 
+**§6a — THE SCHEDULE IS A DAG, NOT A CHECKLIST (B1228, 2026-08-31).** Rows 1 and 8 are listed above
+as independent. **They are not: row 8 is row 1's supplier.** Row 1's blockers K5 (the Cardy 6-vs-1)
+and K6 ("the object's own datum, not a WZW that happens to give 6") are questions about *which type
+J governs the boundary* — which is exactly what row 8's S1 decides. B1216 ran nine agents at row 1
+and deleted zero rows while reading this table as a checklist. **S1 has now been run (B1228):** the
+level-1 identity `c(J₁) = rank(J)` (9/9), the nomination π₁(m004) ↠ 2T verified on-bench (48
+surjections; control 5₂ = 0), σ = 1 discriminating uniquely to E₆ among nine simply-laced types, and
+**the level forced by inventory** — the object supplies a lattice and provably no `k` (CS = 0 ⇒
+∂S/∂k ≡ 0), and only level 1 needs no level datum. **Row 1 is NOT deleted:** the boundary WZW of the
+*geometric* PSL(2,ℂ) Chern–Simons action is type A₁ (rank 1 — the "one cusp-boson unit"), while E₆
+arrives from McKay on 2T. The remaining identification — **nominated type or geometric connection?** —
+is L154's bridge, now with a unique named target ((E₆)₁, vacuum module, c = 6) instead of an empty
+candidate set. **Reading rule added: before working a row, check which other row supplies it.**
+
 **The end-state this schedule points at:** if row 1 lands and rows 2–5 close, the entire input
 list is **ℓ (one external unit, by design) + the c-bit (relational, heterogeneous) + finite
 labels** — everything else in the universe-in-own-units is object-computed. Row 7 is the floor

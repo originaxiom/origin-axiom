@@ -1,5 +1,47 @@
 # Changelog
 
+## S1 RUN AT LAST — the deletion schedule is a DAG, and the wall turns out to be the mechanism (2026-08-31)
+
+Owner: *"run it… I told you we have it all, except someone who could read it properly. who is
+literate enough not to say 'it's supplied externally' as if it sits outside universe."*
+
+**The reading that unlocked it.** *"Supplied externally"* is our bookkeeping for *"not derivable
+from this object in isolation."* Written as though the supplier sits **outside existence**, it stops
+the search — and that is how row 8 got orphaned from row 1. `GRAND_COMPUTATION_v0` §6 lists σ (the
+ledger's own *"C4, THE BURIED PRIZE"*) and J (*"closer = S1, a computation, not a preference"*) as
+independent rows. **Row 8 is row 1's supplier.** B1216 threw nine agents at row 1 and deleted zero
+rows because the schedule was read as a checklist. Same shape B1227 named this morning: a lost
+**edge**, not a lost result.
+
+**S1, unrun since B1025 I4, ran.** The simply-laced level-1 identity `c(J₁) = rank(J)` verified 9/9;
+the nomination **π₁(m004) ↠ 2T** verified on-bench by brute force over SL(2,3)² — **48 surjections
+of 72 homs**, with a control that bites (5₂ gives zero); **K5's shape answered** (the "six
+cusp-boson units" are six **Cartan directions** — (E₆)₁ is the E₆ root-lattice CFT); **K6
+discriminating** (σ = 1 for exactly one of nine types; A₂ shares 3 primaries *and* T-order 12 and
+still gives ⅓); **K1 named** — (E₆)₁, vacuum module, c = 6, modules {1, 27, 27̄}, with every
+arithmetic cross-check passing (ℤ/3 ↔ trinification ↔ ℚ(ζ₃); T-order 12 ↔ the map's mod-12
+bookkeeping; the 27 already the SM carrier).
+
+**The new piece, and the inversion.** A WZW needs `(J, k)`. The object supplies J and **provably no
+k** — CS = 0 ⟹ ∂S/∂k ≡ 0 (B1012/B1088), with CS = 0 forced by amphichirality (B1224/B1227, today).
+A level-1 simply-laced WZW **is the root-lattice VOA**, determined by the lattice alone; every k > 1
+needs a level the object cannot give. **So k = 1 is forced by inventory, not chosen** — and the MB12
+control shows the blindness is load-bearing (k=2 → σ=13/7, k=3 → σ=13/5). **The wall the record
+files as "the firewall relocated beyond the object's reach in principle" is the MECHANISM that pins
+σ, not the obstacle.**
+
+**The retraction, made in-session before anything was banked.** I first reported the chain "closes
+end to end" and gave **σ = 1**. It does not. `S = −CS·k − Vol·σ` is the Chern–Simons action **of the
+geometric PSL(2,ℂ) connection**, whose boundary WZW is type A₁, rank 1 — which *is* the "one
+cusp-boson unit"; E₆ arrives from a different structure. "Default-J vs nominated-J" diagnoses the
+gap without closing it, and asserting otherwise is precisely the K6 error. Dimension check run
+(B980 records a withdrawn chain of this shape, killed on dimensions): c and σ are both
+dimensionless, so that mode doesn't apply. **σ is not deleted.**
+
+**Net:** row 1 goes from a *documented empty candidate set* to a **unique named candidate** with the
+level forced and the arithmetic matched, and one identification left — **nominated type or geometric
+connection?** The map gains a reading rule: *before working a row, check which other row supplies it.*
+
 ## ONE THEOREM, TWO REGIMES — and the crack we opened this morning was already closed by the record (2026-08-31)
 
 Owner: *"forget the paper now. we need to figure out, we need to crystalize."*

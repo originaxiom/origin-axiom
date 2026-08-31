@@ -4814,6 +4814,34 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1228": {
+   "slug": "S1 the nomination",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B727",
+    "B980",
+    "B993",
+    "B996",
+    "K1",
+    "K5",
+    "K6",
+    "L154",
+    "S1"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B122": {
    "slug": "W symmetric powers",
    "motifs": [
