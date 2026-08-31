@@ -1,5 +1,84 @@
 # Changelog
 
+## codex's Wave-8 hostile read: B1218 reproduced elsewhere, one correction to us adopted, one do-not-bank caught in time (2026-08-30)
+
+The most useful inbound of the window, and it was sitting unread and unrowed.
+
+**B1218 independently REPRODUCED** from a clean archive of main: `REPRODUCES`, bite control 5/5 at
+rank zero, off-corpus negative 0.00. Our instrument works on someone else's bench.
+
+**They caught the B632 cell-2 error independently, the same day** — *"memo 157's sentence that cell 2
+is queued and unrun is stale and false in current main."* Two benches, one finding, neither reading
+the other.
+
+**A correction to us, adopted.** Per B632's own `REPAIR_ADJUDICATION.md`: h¹(M;27) = 3 means **one
+class in each inequivalent principal block** V(16)+V(8)+V(0) — *not three copies*; the
+invariant-section generator is **not** a dynamically selected VEV; and the V-valued-double residual
+is a **texture residual, not an unrun solo generation-count test**. So this bench's phrase *"the
+actual live generation computation on the record"* — relayed in from cloud and propagated by us — is
+**withdrawn**. The physical generation/index question is **OA-C0009**, not a B632 cell.
+
+**Gate C sharpened, and the sharper route adopted.** Over ℚ(ω)/(ω²−ω+1) the three labelled Riley
+representations are related on *both* generators by the exact order-three intertwiner, so their
+character-variety **orbit has size one** on one two-dimensional carrier; any functorial principal
+image remains **one** 27, and three copies would need an added **81-dimensional direct sum**.
+**The commensurator does not manufacture multiplicity** — the same closure without routing through
+B307 at all.
+
+**A do-not-bank that arrived before we could bank it.** On cloud's memo 156 (Gate D): the reported
+box dimensions `1.247, 0.951, 0.794` and "zero interior cells" are **pixel under-resolution
+artifacts** — the three x_n(E) are polynomials of degree 21/55/144, exact dyadic ℚ(ω) witnesses give
+|x_n| < 2, so continuity yields open neighbourhoods and each bounded lemniscate has **exact box
+dimension 2**. And λ² = κ−2 fixes a **Galois orbit** {±w, ±w̄}, not a unique coupling — `cmath.sqrt`
+was silently taking the principal branch. **Verified here: main never banked memos 156/157**, so this
+is preventive. *That λ is the spectral coupling, not the type III_λ modular parameter — the fourth
+homonym trap of the day, declined.*
+
+**A fence on our own {C,P} claim, adopted into the paper**: it is a scoped *discrete*-ledger theorem
+and removes no continuous, external field-theory, vacuum, scale or index input. The paper now states
+that before making the claim, rather than leaving it to be over-read.
+
+Both codex relays rowed — they had **no ledger rows at all**, so the debt gate could not see them.
+
+
+## The owner re-probed Cell 1, and λ is PLACED: external BY THEOREM (2026-08-30)
+
+*"Should we reprobe? Maybe the cell solved it afterwards but didn't bank properly."* **It had, and
+B1220 was incomplete.**
+
+**B1195 / GC-22, verdict PROVED — "THE LAMBDA PLACEMENT IS DECIDED."** P1 stands: λ is a second,
+independent, **external** continuous datum of the total observer, **distinct in kind from σ**. P2
+(λ = f(existing legs) via KMS/BTZ) is **excluded by an exact constructive computation** — the bridge
+is provably **tautological**, reproducing B723's own already-sealed `T_mod = 2π/|log λ|` under a
+gravity-flavoured relabelling. The tautology is *exhibited numerically*: the sealed λ₀ = 2/5 gives
+r₊ = 2π/|log 0.4| = 6.85719618088, a number already in B723's probe output. GC-22 also records that
+it resolves **B1194's genuinely-missing item (2)**.
+
+**Forced by B721** (banked NEGATIVE, verified here): *"the object's own clock is tracial type II₁
+with **trivial modular flow**."* Δ = I. A tracial algebra has **no continuous clock datum to give**.
+
+**So λ is external by THEOREM, not by default** — a proved boundary, not an admission. And this
+**reconciles GC-27 with GC-22** instead of leaving them in tension: GC-27's "λ fails the theorem's
+first hypothesis, no (T,G) read off D" is not a gap awaiting work — **B721 explains why there is
+nothing to read off.**
+
+**THE PAPER's λ row rewritten accordingly**, and it is now the strongest row in the table rather
+than the weakest: from *"external and ungated, no acceptance criterion exists"* (this morning) →
+*"gated, first hypothesis unmet"* (B1220) → **"external by theorem: the object's modular flow is
+trivial, and the one import route is exactly tautological."** What is *not* proved — the general
+no-go that no invariant pair could ever be read off — is stated as unproved.
+
+**What remains, exactly:** lemma II in full generality (the general no-go), and lemma I, the uniform
+Kolmogorov selector-cost — which `GRAND_COMPUTATION_LEDGER` types independently as **"H5. the
+Kolmogorov Selector — MISSING (no arc)."**
+
+**The class, and it is mine.** Cell 0 swept for orphans; B1220 audited each cell's premise; **both
+missed this**, because GC-22 lives inside a batch arc's *cell record* — banked, PROVED, surfaced
+only as one clause of a long verdict line, and its own text names the ledger row it amends without
+that amendment ever landing. **Stop rule 1c: when a cell's finding amends a named surface row, the
+amend is part of the bank, not a note inside the cell.**
+
+
 ## B1220 THE PREMISE AUDIT: all three math cells were already answered, and every answer is stronger (2026-08-30)
 
 Cells 1–3 of the publication campaign, **not run as designed, because none needed to be.**

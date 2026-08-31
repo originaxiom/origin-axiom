@@ -12922,3 +12922,35 @@ orphans.
 Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
 
 ---
+
+## 2026-08-30 — λ IS PLACED: external by theorem (owner re-probe of Cell 1)
+
+The owner asked whether the cell had solved it and failed to bank properly. **It had.** B1195/GC-22
+(PROVED): the λ placement is DECIDED — P1 stands (λ = a second, independent, external continuous
+datum, distinct in kind from σ); P2 (λ from existing legs via KMS/BTZ) EXCLUDED by exact
+constructive computation, the bridge provably tautological against B723's own sealed output, the
+coincidence exhibited numerically. Forced by B721 (NEGATIVE, verified here): the object's own clock
+is tracial with **trivial modular flow** — no continuous clock datum to give. **λ is external by
+THEOREM.** This reconciles GC-27 with GC-22 rather than leaving them in tension. THE PAPER's λ row
+rewritten; it is now a proved boundary rather than the ledger's weakest entry. Remaining: lemma II's
+general no-go, and lemma I (H5, "MISSING (no arc)"). Stop rule 1c added.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---
+
+## 2026-08-30 — codex Wave-8 hostile read dispositioned
+
+B1218 **independently reproduced** on codex's bench (5/5, 0.00). They caught the B632 cell-2 error
+the same day, independently. **Correction to us adopted**: the V-valued-double residual is a
+*texture* residual, not an unrun generation-count test — our propagated phrase "the actual live
+generation computation" is **withdrawn**; the generation/index question is OA-C0009. **Gate C
+sharpened**: orbit size one, three copies would need an 81-dim direct sum, so the commensurator does
+not manufacture multiplicity — closure without B307. **Do-not-bank on cloud memo 156** (Gate D box
+dimensions are pixel artifacts; each bounded lemniscate has exact box dimension 2; λ²=κ−2 fixes a
+Galois orbit, not a unique coupling) — main never banked it, so preventive. **{C,P} scope fence**
+adopted into the paper. Both codex relays rowed; they had no ledger rows at all.
+
+Nothing promoted to `CLAIMS.md`; P1–P16 untouched; firewall intact.
+
+---
