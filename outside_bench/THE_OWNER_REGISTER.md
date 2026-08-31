@@ -914,8 +914,38 @@ is a result; no gate is a gap.** Better position, different position.
 cell"* inside a banked verdict line — **a mirror-class instance, found by pairing a summary against
 its own source**, not by corpus-wide term matching. That is the substrate memo 164 lacked: memo 164
 asked an open-ended question whose signal the drift removes; **a paired comparison asks a closed one,
-with both texts in hand and no retrieval step that can fail.** The corpus stores both halves for all
-1122 arcs.
+with both texts in hand and no retrieval step that can fail.** ~~The corpus stores both halves for
+all 1122 arcs.~~ **[SUPERSEDED 2026-08-31 by addendum 64 / memo 166 — this sentence names the wrong
+second half. `B1220` compared the verdict line against its own CELL RECORD (`verification/
+batch5b_cells.json:GC-27`), not against `FINDINGS.md`, and `B1196`'s `FINDINGS.md` repeats the
+overstatement verbatim. The corpus stores machine-readable cell records for **9** arcs, not 1122.
+Filed as bench error #18.]**
 
 **Registered as the successor cell, deliberately not started** — memo 164 stopped after four failed
 discriminators, and a fifth in the same sitting was exactly what it declined to do.
+
+
+---
+
+## ADDENDUM 64 (2026-08-31) — ROW R66: build the paired-summary check
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R66** | *"go for it."* — build the successor to memo 164's mirror detector, on the paired-summary substrate B1220 demonstrated by hand. | **BUILT, NOT ADOPTED — the second one.** Both arms return **`P1-USELESS`**, and the seal makes P-1 binding. The **sealed** substrate (`claim_one_line` vs `FINDINGS.md`) was **the wrong second half** (bench error #18) and flags **434 of 1121 arcs**, both negatives firing. The **repaired** substrate (vs the arc's own cell records) at first reported `P1-DISCRIMINATES` — and that pass was **empty**: `B990` and `B1202` have **zero** cell records, so they cannot fire at any parameter setting. It also **flags 9 of the 9 arcs in its domain** and **misses B1220's actual pair**, the two sentences sharing exactly one token — `lambda`, df **290/1122 = 25.8%** against a declared **25%** cutoff. | memo 166 |
+
+**Bench error #18, and its shape is the class under audit.** Memo 165 summarised B1220's finding and
+**dropped the detail the finding turned on** — that the limitation lives in the *cell record*, not in
+`FINDINGS.md`. That is a paired-summary defect, committed by this bench, in the memo proposing the
+paired-summary detector.
+
+**A third way a control can lie, distinct from the two already on this record.** Memo 164: a
+**synthetic positive**. Memo 156 (Gate D): a **vacuous pass**, zeros satisfying "monotone and small".
+Now: a **substrate-mismatched negative** — a control drawn from outside the domain the instrument
+runs on, whose silence says nothing. All three are one sentence at different angles: **control
+passing is not instrument working.**
+
+**The finding that outlasts the instrument:** the corpus stores machine-readable per-cell records —
+cell verdict, cell caveats — for **9 arcs of 1122 (0.8%)**. Mechanising this check is therefore not
+an instrument problem but a **records** problem. Offered, **not pressed**; this seat does not edit
+main. **`B1220`'s finding stands on its own evidence**, found by reading, and two failed detectors
+say nothing against it.

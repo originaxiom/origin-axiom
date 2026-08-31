@@ -56,3 +56,39 @@ fifty.
 - **If the sweep does not survive adjudication, the verdict is NOT ADOPTED** — the same outcome memo
   164 took, and taking it twice is cheaper than shipping a detector that cries wolf.
 - Gate 5 untouched: text only.
+
+---
+
+## ADDENDUM (2026-08-31) — OUTCOME: **P1-USELESS on both arms. NOT ADOPTED.**
+
+Recorded against the sealed cells, in the seal, without editing anything above it.
+
+**P-1 — the control · declared `P1-DISCRIMINATES`, returned `P1-USELESS` on both arms.**
+
+- **The sealed substrate was the wrong second half (bench error #18).** §0 quotes `B1220` as
+  comparing the verdict line against *"its own **cell record** GC-27"*, and §2 then named the pair as
+  `arc_verdict.json` vs `FINDINGS.md`. `B1196`'s `FINDINGS.md` **repeats the overstatement verbatim**
+  and carries no limitation about λ, so the sealed pairing could not catch its own sealed instance at
+  any parameter setting. Run anyway, as sealed: it flags **434 of 1121 arcs (39%)** and **both
+  negatives fire** (`B990` 5, `B1202` 12).
+- **The repaired substrate's apparent pass was empty.** Pairing against the arc's own machine-readable
+  cell records, the positive flagged and both negatives stayed silent — because **`B990` and `B1202`
+  hold zero cell records** and cannot fire at any setting. A negative drawn from outside the
+  instrument's domain is not a control. It also flags **9 of the 9 arcs in its domain**.
+- **Neither arm caught B1220's actual pair.** Both halves are present and each passes its own marker
+  test; they share **exactly one content token — `lambda`, df 290/1122 = 25.8%** — against the
+  declared **25%** distinctiveness cutoff. Missed by **9.5 arcs of document frequency**. Loosening the
+  cutoff to 0.50 catches it and takes the sweep to **1262 pairs over 9 arcs (~140 per arc)**, against
+  the declared prior of *"a handful, not dozens."*
+
+**P-2 — the sweep · NOT RUN**, on either arm. The seal makes P-1 binding, and no flag from either arm
+is reported as a finding.
+
+**The fence in §3 is honoured as written:** *"if the sweep does not survive adjudication, the verdict
+is NOT ADOPTED — taking it twice is cheaper than shipping a detector that cries wolf."* It did not get
+as far as adjudication. **NOT ADOPTED.**
+
+**What the cell found instead, and it is computed:** the corpus stores machine-readable per-cell
+records for **9 arcs of 1122 (0.8%)**. The paired-summary check is a **records** problem before it is
+an instrument problem. Full account: `outside_bench/memos/THE_PAIRED_SUMMARY_CHECK.md`; output
+vendored at `outside_bench/outputs/paired_summary_check_out.txt`.
