@@ -4766,6 +4766,20 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1225": {
+   "slug": "no canonical selector",
+   "motifs": [
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B721"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B122": {
    "slug": "W symmetric powers",
    "motifs": [

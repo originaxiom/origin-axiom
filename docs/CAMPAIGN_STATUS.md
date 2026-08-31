@@ -1,5 +1,23 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1225 — THE PROGRAMME'S MOST-CITED OPEN ITEM CLOSES, BY PROOF)**: owner asked
+what is hiding that would force the top breakthrough. **Nothing is** — and the reason is one line
+from our own law. MENU-1 held that the value arm needs *"a forcing theorem that selects one map
+before looking; that theorem does not exist; it is the single thing standing between the programme
+and a computed SM number."* **B1225: it is impossible in the form sought.** With G = Stab_Aut(D)|_T
+**read off D** (GC-15), and the menu built from **object-canonical** atoms (B1168: canonical ⟺
+β-even ∧ dimensionless), G fixes every atom and hence **all 11,720 values** — the action is
+**trivial**, not transitive, so every subset is invariant and nothing is selected. This generalises
+**B1203's exactly-0-of-11,720 cut** from c to *every* symmetry readable off the object: **invariance
+cannot distinguish among invariants.** One law explains six stuck rows — MENU-1 (G-trivial), the CS
+bit (β-odd ⇒ the reader's), the finite menus (no point of one's own orbit), ℙ³ (regime ii: a prior,
+never a point), ℓ/σ (regime iii: ill-typed), λ (B721: nothing to read off). **Closes** the search for
+a forcing theorem built from the object's symmetries — by proof, not exhaustion — and explains why
+two years of value-matching yielded ten honest negatives. **Does not close** whether a selector
+exists on β-odd or dimensionful data: that is the reader's column, and the Heartbeat Atlas's thesis
+reached from the other side. Registered **T-NO-CANONICAL-SELECTOR**.
+
+
 **LATEST (2026-08-31, B1223 + B1224 — A COINCIDENCE KILLED, AND A GATE CAUGHT KILLING A POSITIVE)**:
 **B1223** assembled a correspondence buried across three seats — the object's V₄ of quadratic faces
 (B730) and its S₃ cubic field (cloud) versus Z(Spin(8)) = V₄ and Out(D₄) = S₃ = triality, with the
