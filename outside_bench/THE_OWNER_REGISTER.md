@@ -979,3 +979,30 @@ record under it, found **by reading**, one memo after two detectors failed to fi
 mechanically. **When a count survives a revision, check that its contents did** — four was stable
 across memos 160→162 while two of its rows changed underneath it.
 
+---
+
+## ADDENDUM 66 (2026-08-31) — ROW R68: step back, find the essence
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R68** | *"take a step back back back, or dig deep deep deep… I think we've been circulating around the very essence… but we fail the final kick."* | **You are right, and the corpus already wrote it down.** `B1025`'s floor, carried in `GRAND_COMPUTATION_v0` §5: **"ONE unit + TWO bits + acceptances. No continuous dimensionless input remains anywhere except A2 = σ."** The deletion schedule ranks σ **row 1**. `c = 6σ` (Brown–Henneaux) and `c((E₆)₁) = 78/13 = 6` are both exact, so **σ = 1 iff the object's boundary CFT has `c = 6`** — and `B1190`/GC-6 types the gap exactly: **six cusp-boson units where `T[4₁]` supplies one, because the object has one cusp.** **The programme's whole remaining continuous content is the difference between 1 and 6.** | memo 168 |
+
+**The fresh-eyes idea I had, and the corpus had already killed it.** `(E₆)₁` is six free bosons on
+the E₆ lattice; E₆ is a rank-3 ℤ[ω]-lattice; the object's ring is ℤ[ω]. So perhaps the 6 is one cusp
+counted in the right ring. **`B486`, the 11th kill, refutes exactly that conflation:** the cusp is
+`ℤ + 2√−3·ℤ`, **rectangular, CM disc −48**, not the hexagonal disc −3; shortest-vector multiplicity
+**2**, not 6. Dead before I thought of it — the standing rule earning its keep a third time today.
+
+**The one thing I think is new, and it is an inference, not a theorem.** `B1190`/GC-6 types the σ gap
+as a **cusp count**. `B139` banks *"coupling count = cusp count; an n-cusped object has n U(1)s."*
+`ROADMAP_TOE` carries **multi-cusp** as its own row, *"NEEDS-SPECIALIST — genuinely new mathematics."*
+**⇒ the σ bridge and the multi-cusp wall are the same wall, tracked as two.** Six cusps is a
+*sufficient* route, not a proved necessary one, and `B1064`'s obstruction is not lifted.
+
+**And the finding that should sting.** Computed over `docs/SPECIALIST_SEND_QUEUE.md`: 6 rows,
+**zero** occurrences of `L154`, `σ`, `Cardy`, `central charge`, `multi-cusp`, `boundary CFT`,
+`Brown–Henneaux`, `(E₆)₁`. **The row the programme's own schedule ranks first is not in the queue.**
+Q7 at four of five converts one input row and yields *a direction, never a value*; **σ converts the
+only continuous input into an output.** This bench has been sharpening the second-most valuable open
+row — this session included.
+
