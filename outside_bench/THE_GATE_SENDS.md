@@ -402,3 +402,41 @@ non-semisimple VOA / boundary chiral algebras; AdS₃–CFT₂ for cusped quotie
 - Gate 5: no measured physical value enters anywhere; σ is symbolic throughout.
 
 **NOT SENT. The send is the owner's act, per item.**
+
+---
+
+## ADDENDUM 7 (2026-08-31) — Q2's OVERDUE RE-CHECK, done; and the Q11 send composed
+
+**The owner approved every item ("all aproved. you have my words on all"). Two things were owed as
+WORK, not as permission, and this addendum discharges them.**
+
+### Q2 — re-checked against `B1209`, the check memo 138 recommended and nobody ran
+
+**`B1209` verified on-bench** that Lee (arXiv:2502.11950) Thm 2 constructs, **for any complete
+finite-volume hyperbolic 3-manifold, a mixed Tate motive over the invariant trace field whose
+Beilinson regulator is the complex volume** — and m004's invariant trace field **is** ℚ(√−3), so it
+lands over our field **by the general statement, with no special-casing**, with 4₁ as a confirmed case.
+
+**What that does to Q2's status line, which currently reads only *"the rational ladder is DISJOINT
+(B1137); Tier B was explicitly NEEDS-SPECIALIST"*:**
+
+> **The volume-regulator half is no longer open — it is in hand from the literature and verified
+> here.** What remains open is strictly the **exceptional-domain (Tier B)** half: whether the
+> regulators of the 64 fixed dimensions of the forced `M(𝕆,ℂ)` closing reach any of the 18 sealed
+> targets, against `B1137`'s rational-ladder disjointness.
+
+**Q2 is therefore NARROWER than the queue says, and sendable** — the same shape of improvement memo
+140 found for Q1: telling the specialist what we closed ourselves. **Its status line should be
+rewritten before it goes** and this addendum is the source for that rewrite.
+
+### Q11 — composed, recipient verified, not transmitted
+
+`outside_bench/sends/Q11_DIMOFTE_READY.txt` carries the finished email verbatim.
+**Recipient verified 2026-08-31:** Tudor Dimofte, `tudor.dimofte@ed.ac.uk`, Professor and Personal
+Chair of Geometry and Physics, Edinburgh; Higgs Centre — checked against `higgs.ph.ed.ac.uk` and
+`dimoftelab.com`, discharging the June brief's *"verify the address before sending"*.
+**Signed `Dritëro M.`**, the byline on `papers/flagship/main.tex` — taken from the record, not invented.
+
+**Not transmitted: this session's mail tools are blocked by the harness permission classifier.**
+That is an environment restriction, **not** a queue rule and **not** a further ask — the owner's
+approval is on file and is not in question.

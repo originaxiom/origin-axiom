@@ -1,0 +1,55 @@
+READY TO SEND — Q11 → Tudor Dimofte
+====================================
+TO:      tudor.dimofte@ed.ac.uk
+VERIFIED 2026-08-31: Professor and Personal Chair of Geometry and Physics,
+         School of Mathematics, University of Edinburgh; member of the Higgs
+         Centre for Theoretical Physics. Confirmed against higgs.ph.ed.ac.uk
+         and dimoftelab.com. (The June brief's instruction to verify before
+         sending is discharged.)
+WHY HIM: works on both character varieties AND the 3d-3d correspondence /
+         complex Chern-Simons — the exact neighbourhood of this question.
+SIGNED:  Dritëro M. (the byline on papers/flagship/main.tex)
+STATUS:  composed, verified, NOT transmitted — this session's mail tools are
+         blocked by the harness permission classifier, not by any queue rule.
+
+SUBJECT: Rational boundary data on the unquantized sector of complex CS for an amphichiral cusped 3-manifold — known mechanism, or obstruction?
+
+---------------------------------------------------------------------------
+
+Dear Professor Dimofte,
+
+I run a small, self-governed mathematics project, and I am writing for a bounded expert read on one question squarely in your area. I would much rather be told "that is in [reference]" than keep rediscovering things, and a one-line answer would be worth a great deal to us.
+
+THE SETUP
+
+m004 (the figure-eight complement), complex Chern-Simons. Because m004 is amphichiral, CS = 0 exactly, so in S = -CS*k - Vol*sigma the k-dependence vanishes identically (dS/dk = 0). The integer-quantized sector is deleted and only the unquantized term survives.
+
+WHAT WE WANT TO ATTACH, AND WHY
+
+We have an exact numerical coincidence we cannot type. Brown-Henneaux (with G = 1/4sigma, l = 1) gives c = 6*sigma, while c((E6)_1) = 78/13 = 6, and the conformal embedding SU(3)_2 x (G2)_1 in (E6)_1 splits it as 16/5 + 14/5 = 6, with the branching arithmetic exact (h(3bar)+h(7) = 4/15+2/5 = 2/3; 21+6 = 27; 8+14+56 = 78). If the "stage" CFT could be identified with the AdS3 boundary CFT of the object's own quotient, sigma would be forced to 1 — which in our framework removes its last free continuous parameter. We do not claim that identification. We claim only that the two central charges are exactly equal as numbers and that the attachment is untyped.
+
+WHAT WE HAVE ALREADY CLOSED, so you do not spend time on a dead route
+
+1. The fingerprint route is dead. A full survey of our banked object-side q-series finds exactly one (a weight-5 doublet that rewrites exactly as Lee-Yang (2,5) characters times eta^10). A two-sided exponent test reads: object {0, 2/5, 3/5} against (E6)_1 {3/4, 5/12} = empty, with (E8)_1 {2/3} as a working exclusion control. The (E6)_1 signature is absent from everything we hold.
+
+2. The Cardy count is measured. The (E6)_1 vacuum character's c_eff runs toward 6 while a u(1)/eta^-1 control runs toward 1 (finite-size bias O(n^-1/2), so these are trends, not limits). c = 6 is six cusp-boson units; the abelian T[4_1] (one cusp) supplies one.
+
+3. The Eisenstein-cusp hope is dead. m004's cusp lattice is Z + 2*sqrt(-3)*Z — rectangular, CM discriminant -48, not the hexagonal -3; shortest-vector multiplicity 2, not 6.
+
+4. Covers do not help. 38 covers of m004 through degree 8: none has six cusps (the cusp count caps at 3 and does not grow with degree), and every one has CS = 0 to machine precision, as CS(M~) = d*CS(M) forces. Going upstairs restores neither the cusps nor the quantized level.
+
+THE QUESTION
+
+Is there a known mechanism attaching rational or modular boundary data — a genuine character, as opposed to WRT-type tau_r in Q(zeta_r) data — to the UNQUANTIZED sector of complex Chern-Simons on a cusped hyperbolic 3-manifold with CS = 0?
+
+Concretely: does T[m004] admit a boundary vertex algebra, half-index, or Z-hat-type invariant carrying a character with effective central charge 6? And if not — is the obstruction general (does amphichirality kill such a character outright), or does it only kill the integer-level attachment we attempted?
+
+Either answer is useful to us. A mechanism would fix our last continuous parameter; a theorem that none can exist would settle the matter permanently the other way, which we would equally like to know.
+
+I should say plainly that Z-hat invariants and logarithmic or non-semisimple boundary algebras are the obvious tools here and that we have simply not read that literature. If the honest answer is "read GPPV," that alone is worth the email.
+
+Happy to send the full working — exact computations, code, and the negative results above — on request.
+
+With thanks for your time,
+
+Dritëro M.
