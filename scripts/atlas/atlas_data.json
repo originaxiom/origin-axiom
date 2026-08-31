@@ -4732,6 +4732,40 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1223": {
+   "slug": "triality correspondence",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B730",
+    "B904"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1224": {
+   "slug": "amphichiral cs torsion",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B303"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B122": {
    "slug": "W symmetric powers",
    "motifs": [

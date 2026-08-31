@@ -1,5 +1,22 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1223 + B1224 — A COINCIDENCE KILLED, AND A GATE CAUGHT KILLING A POSITIVE)**:
+**B1223** assembled a correspondence buried across three seats — the object's V₄ of quadratic faces
+(B730) and its S₃ cubic field (cloud) versus Z(Spin(8)) = V₄ and Out(D₄) = S₃ = triality, with the
+dimension cascade landing on 28 = dim tri(𝕆) (B904, exact nullspace over ℚ). **Refuted in one
+computation**: disc K = 6237 has squarefree part **77**, so the S₃'s quadratic resolvent ℚ(√77) is
+disjoint from the faces — the compositum is V₄ **×** S₃, a *direct* product, while triality needs
+V₄ **⋊** S₃. The action does not match, and the action is the whole content of triality. **B1224,
+owner-prompted (*"make sure our gates are not killing positives"*) — they were.** B1222's decisive
+test used **H₁ torsion**, an observable the symmetry⇒vanishing thesis never mentions. Re-run on
+**Chern–Simons**, the quantity the mechanism names: amphichiral 0.500 vs non-amphichiral 0.0025 —
+**a factor of ~200 in the predicted direction** — and sharper than the thesis said: **amphichirality
+forces CS to be 2-TORSION, exactly {0, ¼}, six of six**. This **sharpens B303** (CS = 0 is the
+special case m004 occupies) and gives a **second separator of the sister pair**: m004 at 0, m003 at
+¼. B1222's NEGATIVE is superseded, not deleted — its other two tests stand, so the thesis is
+partially supported and not established.
+
+
 **LATEST (2026-08-31, B1222 — A UNIFICATION PROPOSED AND KILLED THE SAME DAY)**: stepping back from
 the corpus, ~65 arcs were noticed to *prove a vanishing* (CS = 0, Δ = I, ∂S/∂k ≡ 0, θ trivial, the
 mirror trivial, invariant content zero, symmetric support empty). Proposed thesis: each is forced by
