@@ -1,5 +1,21 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1229 — THE CONSISTENCY TURN: THE METHOD WAS WRONG, NOT THE OBJECT)**: owner
+asked for a completely other approach and for research. **§6's deletion schedule asks the object to
+SELECT — the one thing B1225 proves impossible**, which is why B1216 got zero deletions from nine
+agents. Physics uses **consistency**, not derivation; the repo had **0 files on "modular
+bootstrap"**. **Robust core:** a Chern–Simons boundary is a rational CFT ⇒ c rational
+(Anderson–Moore/Vafa) ⇒ via c = 6σ (B1088) **σ is rational — the "continuous anchor" is not
+continuous**. **Sharp:** MMS's *complete* two-character classification is the Deligne–Cvitanović
+series (7 models, 0 < c < 8) ⇒ σ ∈ {1/6, 1/3, 7/15, 2/3, 13/15, 1, 7/6}, and the object's own ℤ/3
+(ℚ(√−3), trinification) cuts it to **σ ∈ {1/3, 1} — ONE BIT. ℝ⁺ → 7 → 2, and J never enters.** The
+**c-bit is re-typed as the modular-invariant choice** (diagonal vs charge-conjugate), independently
+reproducing **B1184's self-naming-without-self-signing**; **ℓ is a calibration, not a parameter**;
+two candidates named (ℙ³ via Cardy finiteness, λ via KMS). **The thesis:** the observer's inputs are
+the data of a modular-invariant boundary CFT — which is why the object cannot supply them and why
+they are still not arbitrary: *consistency classifies the menu where the object cannot pick.*
+Verdict **OPEN**.
+
 **LATEST (2026-08-31, B1228 — S1 RUN AT LAST; THE DELETION SCHEDULE IS A DAG, AND THE WALL IS THE
 MECHANISM)**: owner named the illiteracy — *"supplied externally"* written as if the supplier sits
 outside existence — and it was exactly why **row 8 (J, closer = S1) sat orphaned from row 1 (σ, the

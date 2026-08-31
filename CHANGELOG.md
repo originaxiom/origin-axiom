@@ -1,5 +1,38 @@
 # Changelog
 
+## THE CONSISTENCY TURN — the method was wrong, not the object (2026-08-31)
+
+Owner: *"we have to think of completely other approach, be brave go bold"* / *"step back and back and
+back and back and search research."*
+
+**The diagnosis.** `GRAND_COMPUTATION_v0` §6 is a **deletion schedule** — kill a row by *deriving* it
+from the object, which is exactly what **B1225 proves the object cannot do**. That is why B1216 spent
+nine agents on row 1 for zero deletions. **Physics has never reduced a parameter count by
+derivation**; it uses **consistency conditions**. Measured gap: `modular bootstrap` → **0 tracked
+files**, `conformal bootstrap` → 1, `constructor theory` → 0.
+
+**The robust core.** Anderson–Moore/Vafa: in any **rational** CFT, c and every h are rational. A
+Chern–Simons boundary *is* rational. With `c = 6σ` (B1088): **σ is rational.** The "one continuous
+dimensionless anchor" is not continuous.
+
+**The sharp version.** Mathur–Mukhi–Sen completely classify two-character RCFTs with vanishing
+Wronskian index — the **Deligne–Cvitanović series**, seven models, 0 < c < 8. So
+**σ ∈ {1/6, 1/3, 7/15, 2/3, 13/15, 1, 7/6}**; the object's own **ℤ/3** keeps only A₂ and E₆:
+**σ ∈ {1/3, 1} — one bit.** ℝ⁺ → 7 → 2. **And J never enters** — which matters, because the
+literature says the 6d type is a free label and B1228's nomination carried a type error.
+
+**The ledger, re-typed.** The **c-bit is the modular-invariant choice** (diagonal vs
+charge-conjugate — a ℤ/2 for a ℤ/3 fusion ring), which reproduces **B1184's self-naming-without-
+self-signing from an independent direction. Labels are Cardy states. λ is a KMS weight. ℓ is a
+calibration, not a parameter.** The **ℙ³** row gets the sharpest unrun test: Cardy states are finite,
+so a continuum of boundary data cannot all be consistent.
+
+**The thesis:** the observer's input list is exactly the data of a **modular-invariant boundary
+CFT**, plus one calibration. That is *why* the object cannot supply it and why it is still not
+arbitrary — **consistency classifies the menu even where the object cannot pick.** B1225 untouched.
+End-state if the two candidates land: **ℓ + bits and finite labels, zero continuous dimensionless
+parameters.** Not claimed now; verdict OPEN.
+
 ## S1 RUN AT LAST — the deletion schedule is a DAG, and the wall turns out to be the mechanism (2026-08-31)
 
 Owner: *"run it… I told you we have it all, except someone who could read it properly. who is

@@ -1,0 +1,62 @@
+{
+ "rows": [
+  {
+   "row": "sigma (A2)",
+   "is": "the ONE continuous dimensionless anchor, c = 6*sigma",
+   "condition": "RCFT rationality (Anderson-Moore/Vafa: c, h rational) + MMS two-character classification",
+   "result": "QUANTIZED: R+ -> 7 (Deligne series) -> 2 with the object's Z/3. sigma becomes ONE BIT.",
+   "grade": "COMPUTED"
+  },
+  {
+   "row": "the c-bit",
+   "is": "chirality; proved NOT self-supplied (B713/B760 NO-HATCH, B1183, B1184)",
+   "condition": "the classification of MODULAR INVARIANTS of the boundary CFT",
+   "result": "TYPED: for a Z/3 fusion ring the invariants are diagonal vs CHARGE-CONJUGATE -- a Z/2. The c-bit IS the modular-invariant choice. Matches B1184 exactly: the theory names itself (the fusion ring) but cannot SIGN (which invariant). Not deleted -- EXPLAINED.",
+   "grade": "STRUCTURAL"
+  },
+  {
+   "row": "the r-label (arrow)",
+   "is": "one Z/2 seed, finite-place (B1182)",
+   "condition": "the T-matrix / the modular group's action; T has finite order (12 for E6)",
+   "result": "CANDIDATE: the arrow as a choice of square root / branch of T. Finite by modularity, which already matches 'finite-place'. Not computed here.",
+   "grade": "OPEN"
+  },
+  {
+   "row": "lambda (the weight)",
+   "is": "completes the tracial II_1 to type III_lambda; 'the closer's clock'",
+   "condition": "the KMS condition / Tomita-Takesaki modular flow -- the SAME word 'modular', and not a pun: the modular automorphism group is what a state's weight generates",
+   "result": "CANDIDATE, and the strongest lead here: lambda is a KMS parameter, and for a RATIONAL boundary the modular flow is periodic -- which would make lambda a finite label too.",
+   "grade": "OPEN"
+  },
+  {
+   "row": "the P^3 line",
+   "is": "up to 3 continuous parameters (B1193 floor amendment; C12-trivial on B_0)",
+   "condition": "UNITARITY of the boundary CFT + the finite number of primaries",
+   "result": "CANDIDATE: a continuous family of boundary conditions is constrained by Cardy's condition (boundary states = a finite set for a RCFT). Cardy states are FINITE -- so a P^3 of them cannot all be consistent boundary states.",
+   "grade": "OPEN -- and this is the sharpest unrun test"
+  },
+  {
+   "row": "ell (A1)",
+   "is": "the ONE dimensionful unit -- the metre-to-ours wire",
+   "condition": "NONE -- and correctly so: a unit is not a number. No consistency condition can fix a unit; it is the single calibration the map's row 7 calls the permanent floor.",
+   "result": "PERMANENT: not a parameter, a calibration.",
+   "grade": "CLOSED-BY-TYPE"
+  },
+  {
+   "row": "family / VEV labels",
+   "is": "finite menus (B1025 I5)",
+   "condition": "the finite set of primaries / Cardy boundary states of the boundary CFT",
+   "result": "ALREADY FINITE; consistency would say WHICH finite set, i.e. re-derive the menu.",
+   "grade": "STRUCTURAL"
+  }
+ ],
+ "grades": {
+  "COMPUTED": 1,
+  "STRUCTURAL": 2,
+  "OPEN": 2,
+  "OPEN -- and this is the sharpest unrun test": 1,
+  "CLOSED-BY-TYPE": 1
+ },
+ "thesis": "the observer's input list = the data of a modular-invariant boundary CFT",
+ "method": "bootstrap: ask consistency, not the object"
+}

@@ -13047,3 +13047,18 @@ and E₆ comes from elsewhere. Verdict OPEN; the arc's own test reds the suite i
 Nothing promoted to `CLAIMS.md`; Gate 5 intact.
 
 ---
+
+## 2026-08-31 — B1229: THE CONSISTENCY TURN
+
+Owner asked for a completely different approach and for research, not computation. The method was
+the problem: §6 is a **deletion** schedule, asking the object to do what B1225 forbids.
+
+**Robust core:** rational CFT ⇒ c rational (Anderson–Moore/Vafa) ⇒ **σ rational**. **Sharp:** MMS's
+complete two-character classification = the Deligne series ⇒ σ ∈ 7 values ⇒ the object's ℤ/3 cuts to
+**{1/3, 1}, one bit**. J never enters. The c-bit is typed as the **modular-invariant choice**,
+independently reproducing B1184. ℓ is re-typed as a **calibration, not a parameter**. Two candidates
+named (the ℙ³ via Cardy finiteness; λ via KMS periodicity). Map amended §6b with a reading rule.
+
+Verdict OPEN — a program opened, no row closed. Gate 5 intact.
+
+---

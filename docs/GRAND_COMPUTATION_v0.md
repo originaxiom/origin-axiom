@@ -215,6 +215,21 @@ place-typing and the λ-vs-r-vs-γ₅ time ambiguity, both carried above as open
 | 10 | D3's complex clause | re-grade | apply **B1100's exact complex-witness** to the two exhibited rank-4 centralizers (su(3)⊕su(3), so(7)⊕u(1)) with an exclusion-side control (a known-real subrep must return "real") | B1190/GC-9 |
 | 11 | the Selector (H5) | formalization | **the Kolmogorov-Selector cell** + the B998 lock repair (C1–C4 effectively unlocked; F2/F3/F8 untested) — batch-2 remainder | ledger H5 |
 
+**§6b — DELETION IS NOT THE ONLY MOVE: THE CONSISTENCY TURN (B1229, 2026-08-31).** This schedule
+asks the OBJECT to supply each row — the one thing **B1225 proves it cannot do**. Physics reduces
+parameter counts by **consistency conditions**, not derivations. Applied here: the boundary of a
+Chern–Simons theory is a **rational** CFT, so by Anderson–Moore/Vafa its central charge is
+**rational**, and via `c = 6σ` **σ is rational — not a continuum**. Sharpening with the complete
+Mathur–Mukhi–Sen two-character classification (= the Deligne–Cvitanović series, seven models,
+0 < c < 8): **σ ∈ {1/6, 1/3, 7/15, 2/3, 13/15, 1, 7/6}**, and the object's own ℤ/3 (ℚ(√−3),
+trinification) cuts that to **σ ∈ {1/3, 1} — one bit**. **J never enters.** The same move types the
+other rows: the **c-bit is the modular-invariant choice** (diagonal vs charge-conjugate — matching
+B1184's *self-naming without self-signing*), **labels are Cardy states**, **λ is a KMS weight**, and
+**ℓ is a calibration, not a parameter**. The ℙ³ row gets a named test (Cardy states are finite, so a
+continuum of boundary data cannot all be consistent). **Reading rule added: before trying to DELETE a
+row, ask what CONSISTENCY says about it — a classified finite menu plus a picker is already a
+parameter-free theory with one calibration.**
+
 **§6a — THE SCHEDULE IS A DAG, NOT A CHECKLIST (B1228, 2026-08-31).** Rows 1 and 8 are listed above
 as independent. **They are not: row 8 is row 1's supplier.** Row 1's blockers K5 (the Cardy 6-vs-1)
 and K6 ("the object's own datum, not a WZW that happens to give 6") are questions about *which type
