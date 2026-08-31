@@ -1,0 +1,7 @@
+PASS rationality alone permits arbitrarily large finite subsets of (0,1) and rational midpoints
+RESULT Gal(Q(zeta_3)/Q) order = 2 != trinification/simple-current order 3
+RESULT simply-laced WZW solutions of c=6 = [('A2', 9), ('A6', 1), ('D6', 1), ('E6', 1)]
+SCOPE that four-entry result is WZW-class exhaustive, not RCFT exhaustive
+CONTROL a rational-c family already exceeds the four-entry WZW menu: size = 21
+RESULT no arithmetic identification maps trace-field, trinification and fusion Z/3 data
+R031B RCFT consistency-scope controls: PASS
