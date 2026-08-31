@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**772 recorded closures — of which 605 are CLASSIFIED by mechanism and
+**774 recorded closures — of which 607 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -59,6 +59,8 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `symmetry-cannot-select (both candidates are satisfied by, or conserved along, the admissible class -- a cut of exactly zero and an identically conserved invariant)` | 1 |  |
 | `dimension-count (one cubic cuts one of three dimensions; the missing ingredient is the LINEAR cuts, whose absence is separately PROVED by GC-25's every-banked-symmetry-is-trivial-on-B_0)` | 1 |  |
 | `trivial-torsor (the freedom exists in general at size |a_1| and is exactly ZERO for this manifold; the group is named, not merely absent)` | 1 |  |
+| `premise refuted by population test, with the correlation coming out at the OPPOSITE SIGN to the prediction. Three kill conditions were named in advance; test 3 was decisive. The premise failed first: m003 is not less symmetric than m004 (both |Sym|=8, both amphichiral, same volume), its cusp is the hexagonal omega = e^{i pi/3}, the MOST symmetric torus, and it carries the Z/5 torsion m004 lacks. Census of the first 400 one-cusped orientable manifolds: |Sym|=2 -> 19.5% carry H1 torsion (n=261); |Sym|=4 -> 87.2% (n=133); Pearson r(|Sym|, has-torsion) = +0.50 where the thesis requires NEGATIVE.` | 1 |  |
+| `arithmetic disjointness of the ACTION, not of the pieces. Both groups are generic (any three quadratic fields with square discriminant product form a V4 by genus theory; almost every cubic field has Gal = S3), so the isomorphisms alone are the short-catalogue coincidence this programme refuses. The discriminating question is whether S3 permutes V4's involutions FAITHFULLY. Computed: disc K = 6237 = 3^4 * 7 * 11, squarefree part 77, so the S3's own quadratic resolvent is Q(sqrt77) -- NOT among the three faces. The compositum is therefore the DIRECT product V4 x S3 and the S3 acts on the faces TRIVIALLY. Triality requires the semidirect V4 x| S3 = S4. Direct is not semidirect.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

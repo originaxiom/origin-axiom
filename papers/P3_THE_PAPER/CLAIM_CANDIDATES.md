@@ -183,6 +183,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1143` | PROVED | S | | SP-1 CLOSES: the physical B-L is a genuine FOURTH Cartan direction, CONFIRMED TWO-BENCH with cloud memo 25 (both build B-L as a Cartan functional from the forced targets;… |
 | `B1144` | PROVED | S | | THE ADOPTION-LAYER CORRECTION: four adoption-layer errors in the phase-III digest (B1138-B1143), from the cloud's CORPUS_ADOPTION_AUDIT (golden_gate d537790), verified on… |
 | `B1187` | PROVED | S | | L187 THE DEPTH-CLOSURE SITTING -- the seven under-proved kills dispositioned, each on its named stabilization, with the verifiers themselves re-verified. THE REGISTRATION… |
+| `B1225` | PROVED | L | | T-NO-CANONICAL-SELECTOR -- no symmetry readable off the object can select within its own canonical class. With G = Stab_Aut(D)|_T read off D (GC-15/B1191) and the menu built from object-canonical atoms (B1168), G fixes every atom, so the action on all 11,720 values is TRIVIAL, not transitive: invariance cannot distinguish among invariants. MENU-1's forcing theorem is impossible in the form sought |
+| `B1226` | PROVED | L | | T-BETA-ODD-IS-BIT-VALUED -- the SM parameter count is a CATEGORY ERROR (owner). Typed by B1168 the 28 parameters split 6/3/16/3 into four boxes with four suppliers; the beta-odd box (theta_QCD, delta_CKM, delta_PMNS) is the only one with an object-side output, and that output is a Z/2 -- one BIT. All 3 probes ever fired there (B1027, B1137, B813) demanded a continuous value. Also breaks B1012's blind-to-k <=> amphichiral in both directions (m003, m208) |
 
 ## §6 the observer — one bit, priced (118)
 
@@ -357,6 +359,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B931` | PROVED | S | | WHY 953 -- THE DERIVATION CHAIN + THE HONEST MAP (53/53 exact): 2304 IS DERIVED -- 2304^2 = 2^16 3^4 is exactly the {2,3}-part of lc(mu) = 2304^2 5^2 7^3 11, the twist's … |
 | `B1064` | NEGATIVE | S | | O3 — OBSTRUCTED-AT-TORUS, the obstruction named exactly on two independent banked legs: (1) the object amphichirality DELETES the quantized sector of its own boundary act… |
 | `B1136` | PROVED | S | | THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-fie… |
+| `B1224` | PROVED | L | | T-CS-TORSION -- amphichirality forces the Chern-Simons invariant to be 2-TORSION, not zero: CS = -CS so 2CS = 0, admissible values exactly {0, 1/4}. Verified 6/6 on the census (m004/m136/m206 at 0; m003/m135/m207 at 1/4). Recovered from B1222, which a gate had killed using H1 torsion -- the wrong observable for a Chern-Simons thesis |
 
 ## §10 the wall — what a specialist must supply (37)
 
