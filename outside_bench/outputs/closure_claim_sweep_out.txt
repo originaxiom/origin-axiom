@@ -1,0 +1,182 @@
+==============================================================================
+M-1  TWO-SIDED CONTROL -- binding; the instrument is void without it
+==============================================================================
+corpus: 1122 arcs, 106 carrying a LIVE-ROUTE signal (verdict OR text) -- the pool this hunts
+
+==============================================================================
+POSITIVE CONTROL -- must FLAG (Route A is live): 1 permanence claims with a strongly-matching OPEN arc
+==============================================================================
+
+[  29.6] outside_bench/_ctrl_pos.md   (best CLOSING arc scores 18.8 -- the route outranks it)
+  CLAIM: - The finite labels will not reduce further either: an invariant selector cannot pick a point of its own orbit, so a finite menu is the terminal state and not a deficiency. The rank-closing 
+    -> [  29.6] PROVED B962   shared: pick, further, menu, vev, orbit, finite
+    -> [  24.1] PROVED B990   shared: pick, integral, vev, orbit, direction, invariant
+    -> [  18.3] PROVED B968   shared: pick, vev, orbit, finite, direction
+corpus: 1122 arcs, 106 carrying a LIVE-ROUTE signal (verdict OR text) -- the pool this hunts
+
+==============================================================================
+NEGATIVE CONTROL -- must NOT flag (scale is permanent, correctly): 0 permanence claims with a strongly-matching OPEN arc
+==============================================================================
+
+==============================================================================
+CONTROL: positive 1, negative 0  =>  M1-DISCRIMINATES
+==============================================================================
+corpus: 1122 arcs, 106 carrying a LIVE-ROUTE signal (verdict OR text) -- the pool this hunts
+
+==============================================================================
+M-2  SWEEP: 25 permanence claims with a strongly-matching OPEN arc
+==============================================================================
+
+[  91.8] papers/P3_THE_PAPER/main.tex   (best CLOSING arc scores 65.4 -- the route outranks it)
+  CLAIM: \begin{scopenote} No row in this table is now merely conceded. $\lambda$ is external \emph{by theorem} --- a tracial algebra has no continuous clock to give --- with the one available import
+    -> [  91.8] PROVED B1220   shared: expressible, ill-typed, regimes, measure, cost, chosen
+    -> [  57.8] PROVED B990   shared: stating, unproved, anything, worth, merely, chosen
+    -> [  53.1] OPEN   B1208   shared: selector, general, once, datum, state, external
+
+[  76.0] papers/P3_THE_PAPER/main.tex   (best CLOSING arc scores 50.8 -- the route outranks it)
+  CLAIM: \paragraph{The hypercharge normalisation is not derivable in principle.} This one is a theorem about the equations rather than about the object. The anomaly-cancellation conditions, treated 
+    -> [  76.0] PROVED B991   shared: anomaly-cancellation, limitation, derivable, equations, homogeneous, normalisation
+    -> [  41.7] OPEN   B1214   shared: equations, derivable, normalisation, theory, principle, hypercharge
+    -> [  38.9] PROVED B976   shared: homogeneous, derivable, normalisation, conditions, hypercharge, abelian
+
+[  74.7] papers/P3_THE_PAPER/main.tex   (best CLOSING arc scores 54.7 -- the route outranks it)
+  CLAIM: \begin{scopenote}[Two supports we withdrew] An earlier form of this section leaned on two further claims, and we removed both. \emph{First}: that the anti-conjugating element acts as the Gal
+    -> [  74.7] OPEN   B1216   shared: restricts, supports, mirror-even, partner, failing, embedding
+    -> [  58.3] OPEN   B1208   shared: generator, instance, acts, datum, carrying, makes
+    -> [  46.1] PROVED B985   shared: relative, required, m003, property, instance, acts
+
+[  73.7] papers/P3_THE_PAPER/main.tex   (best CLOSING arc scores 64.0 -- the route outranks it)
+  CLAIM: Working from that surviving datum we separate two things a careless account would merge. The object supplies an \emph{arena} --- a rank-3 abelian sector and the availability of a Standard-Mo
+    -> [  73.7] OPEN   B1170   shared: 222, contents, 252, token, arena, force
+    -> [  64.1] OPEN   B1208   shared: multiplet, comparison, kills, breaking, reason, datum
+    -> [  53.6] PROVED B976   shared: termination, derivable, normalisation, conditions, times, model
+
+[  69.8] outside_bench/COMPUTE_HANDOFF_CC.md   (best CLOSING arc scores 28.3 -- the route outranks it)
+  CLAIM: - **Decisive exhibit, not a borderline call: B991** — PROVED, non-instrument, `creates_law` **absent**, claiming in its own words *"THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN PRINCIPL
+    -> [  69.8] OPEN   B1213   shared: pool, claiming, creates_law, b991, exhibit, call
+    -> [  56.7] OPEN   B1214   shared: creates_law, b991, call, equations, derivable, normalisation
+    -> [  26.2] OPEN   B1211   shared: non-instrument, pool, creates_law, words, about, theorem
+
+[  66.6] outside_bench/INDEX.md   (best CLOSING arc scores 41.5 -- the route outranks it)
+  CLAIM: | 125 | memos/CANCELLATION_RESIDUE.md | certificates/cancellation_residue.py | THE CANCELLATION RESIDUE VALUED AND PROPAGATED (the owners "go" on the thinnest thread; PC04 — status STALLED, 
+    -> [  66.6] OPEN   B1208   shared: 1+omega, opposite, operations, vanish, omega^2, founding
+    -> [  49.4] PROVED B1220   shared: using, status, opposite, records, off, results
+    -> [  36.1] OPEN   B1206   shared: answers, vanish, yes, left, memo, itself
+
+[  61.2] outside_bench/THE_PAPER_CHAIN.md   (best CLOSING arc scores 34.9 -- the route outranks it)
+  CLAIM: **The gap is unchanged by this chain, and it is the freedom ledger.** `ℓ` will not close and it is a category error to count it. `σ` is gated with an empty candidate set. **`λ` has no accept
+    -> [  61.2] OPEN   B1216   shared: acceptance, least, away, category, gated, calls
+    -> [  39.4] PROVED B1220   shared: acceptance, empty, unchanged, condition, says, candidate
+    -> [  34.8] OPEN   B1208   shared: short, unchanged, condition, candidate, ledger, count
+
+[  60.2] outside_bench/THE_OWNER_REGISTER.md   (best CLOSING arc scores 53.5 -- the route outranks it)
+  CLAIM: | **R50** | Conclusion of the paper chain, against the ultimate goal. | **We probed the account, not the object — and no physics moved.** The mathematics survives every check; six defects sh
+    -> [  60.2] PROVED B1220   shared: permanent, total, visible, reads, unchanged, condition
+    -> [  57.2] OPEN   B1208   shared: permanent, touches, unchanged, conclusion, condition, positive
+    -> [  47.8] OPEN   B1216   shared: goal, permanent, b990, freedom, conclusion, result
+
+[  55.8] docs/MASTERPLAN.md   (best CLOSING arc scores 29.1 -- the route outranks it)
+  CLAIM: > ## STATE AT REVIEW 45 (2026-08-13) — the two-layer review form adopted > > Decisions D1–D3: non-merging seats review their own branches (the qor5up Review 1 commissioned); > main reviews t
+    -> [  55.8] OPEN   B1173   shared: b1060, alias, qor5up, renumber, opens, digest
+    -> [  30.2] OPEN   B1208   shared: permanent, branches, main, harvest, state, adopted
+    -> [  27.6] PROVED B1220   shared: permanent, opens, branches, campaign, written, direction
+
+[  55.0] docs/THE_SM_VERDICT.md   (best CLOSING arc scores 25.4 -- the route outranks it)
+  CLAIM: | **hypercharge is the UNIQUE gaugeable U(1)** in the chain's abelian sector | **DERIVED** (B864): ψ, χ anomalous over chiral matter; b = c = 0 forced. *Direction only — normalisation is hom
+    -> [  55.0] PROVED B976   shared: gaugeable, anomalous, b864, homogeneous, derivable, normalisation
+    -> [  49.2] PROVED B991   shared: gaugeable, anomalous, b864, homogeneous, derivable, normalisation
+    -> [  17.9] OPEN   B1214   shared: derivable, normalisation, hypercharge, unique, forced
+
+[  54.2] papers/P3_THE_PAPER/main.tex   (best CLOSING arc scores 37.1 -- the route outranks it)
+  CLAIM: The result is a boundary rather than a theory. On one side: a gauge algebra with a derived global form, a chain that terminates for a stated reason, and a unique gaugeable abelian direction.
+    -> [  54.2] PROVED B991   shared: gaugeable, derivable, normalisation, work, theory, principle
+    -> [  45.6] PROVED B976   shared: gaugeable, derivable, normalisation, work, global, abelian
+    -> [  40.2] PROVED B968   shared: work, theory, principle, reason, global, abelian
+
+[  49.4] docs/OPEN_LEADS.md   (best CLOSING arc scores 38.9 -- the route outranks it)
+  CLAIM: | W2.9 | **the concatenation-kill test** (the two-block word-trace lead, upgraded) | Seam/boundary | the two-block word `R^{m₁}L^{m₁}R^{m₂}L^{m₂}` is a SINGLE manifold built from the pair's 
+    -> [  49.4] OPEN   B1208   shared: 6/6, manifold, multiplicity, kills, acts, lift
+    -> [  44.3] OPEN   B1216   shared: blocks, direct, fully, kills, words, acts
+    -> [  41.3] PROVED B1220   shared: gluing, rotation, direct, boundary, seam, inside
+
+[  49.2] docs/THE_FRAMEWORK.md   (best CLOSING arc scores 22.0 -- the route outranks it)
+  CLAIM: | **hypercharge = the unique gaugeable U(1)** | **DERIVED (B864)** — ψ, χ anomalous over chiral matter; b = c = 0 forced. *Direction only; normalisation is homogeneous and not derivable* |
+    -> [  49.2] PROVED B991   shared: gaugeable, anomalous, b864, homogeneous, derivable, normalisation
+    -> [  46.0] PROVED B976   shared: gaugeable, anomalous, b864, homogeneous, derivable, normalisation
+    -> [  17.9] OPEN   B1214   shared: derivable, normalisation, hypercharge, unique, forced
+
+[  48.4] docs/OPEN_LEADS.md   (best CLOSING arc scores 39.5 -- the route outranks it)
+  CLAIM: | W2.4 | **B368 — the cover-tower pairing (premise corrected)** | Generations | **the equal-trace premise is REFUTED (verified exactly):** `R⁴L⁴` is NOT `SL(2,ℤ)`-conjugate to `(RL)³` despit
+    -> [  48.4] OPEN   B1208   shared: primitive, cover, manifold, carry, mod, tower
+    -> [  47.3] PROVED B1220   shared: premise, extends, pairing, mod, generation, seam
+    -> [  39.1] PROVED B1190   shared: partner, cover, generations, unit, cells, wall
+
+[  48.4] outside_bench/THE_SUFFICIENCY_QUESTION.md   (best CLOSING arc scores 32.3 -- the route outranks it)
+  CLAIM: - **A2 — CLOSURE / FIXED POINT.** Occ = those relations that can host the record's own self-description — a relation is occupied iff it supports the quine. **The record uniquely has this ins
+    -> [  48.4] OPEN   B1208   shared: short, duality, proper, function, classical, relation
+    -> [  31.3] PROVED B968   shared: strong, reason, element, closure, choice, exists
+    -> [  30.2] PROVED B990   shared: concrete, function, argument, reason, built, exists
+
+[  44.9] outside_bench/THE_ROUTE_A_DISPOSITION.md   (best CLOSING arc scores 33.5 -- the route outranks it)
+  CLAIM: | **1** | **The paper stops calling it permanent.** §7's *family/VEV/filling* row and §8's *What is permanent* must not read "terminal, not a deficiency / will not reduce further". The repai
+    -> [  44.9] PROVED B1220   shared: assertion, permanent, better, stronger, reported, reads
+    -> [  36.9] OPEN   B1208   shared: permanent, stronger, memo, absent, makes, read
+    -> [  32.1] OPEN   B1210   shared: editorial, referee, assertion, clause, absent, read
+
+[  42.1] docs/OPEN_LEADS.md   (best CLOSING arc scores 40.6 -- the route outranks it)
+  CLAIM: | **L34** | **The character variety's Weil zeta over `𝔽_p`** — point-counts / the zeta function of the figure-eight (and metallic) character variety over finite fields: the arithmetic of the
+    -> [  42.1] OPEN   B1208   shared: novelty, non-abelian, function, variety, classical, fix
+    -> [  33.4] PROVED B962   shared: touched, asserted, fields, complete, finite, recorded
+    -> [  32.4] NEGATIVE B986   shared: unchecked, intrinsic, polynomial, fields, irreducible, primes
+
+[  40.7] outside_bench/COMPUTE_HANDOFF_CC.md   (best CLOSING arc scores 17.2 -- the route outranks it)
+  CLAIM: **The ask, and it is cheap:** **re-audit the field before the disposition column is filled.** Filling dispositions over an incomplete pool bakes the omission into the paper permanently and i
+    -> [  40.7] OPEN   B1213   shared: b1210, filled, pool, call, disposition, filling
+    -> [  30.6] OPEN   B1214   shared: re-audit, filled, call, disposition, column, before
+    -> [  14.8] OPEN   B1172   shared: ask, column, ledger, nothing
+
+[  40.1] outside_bench/THE_CHAIN_GAP.md   (best CLOSING arc scores 31.7 -- the route outranks it)
+  CLAIM: | 9b | hypercharge **normalisation** | 🔒 | **not derivable in principle** — the anomaly conditions are homogeneous, so they fix a direction and never a scale. True in *any* theory |
+    -> [  40.1] PROVED B991   shared: homogeneous, derivable, normalisation, conditions, theory, principle
+    -> [  32.2] PROVED B976   shared: homogeneous, derivable, normalisation, conditions, anomaly, hypercharge
+    -> [  24.6] OPEN   B1214   shared: derivable, normalisation, theory, principle, true, hypercharge
+
+[  35.1] outside_bench/THE_GATE_SENDS.md   (best CLOSING arc scores 27.7 -- the route outranks it)
+  CLAIM: **Why either answer pays, unchanged:** *yes* ⟹ `B990`'s orbit-to-point gap crosses and the rank-closing VEV direction moves from supplied to derived; *no* ⟹ Route A closes and *"the finite m
+    -> [  35.1] PROVED B1220   shared: currently, assertion, unchanged, makes, finite, direction
+    -> [  27.9] OPEN   B1216   shared: b990, moves, instead, finite, direction, closes
+    -> [  23.2] OPEN   B1208   shared: moves, unchanged, menu, makes, closes, route
+
+[  35.0] papers/P3_THE_PAPER/main.tex   (best CLOSING arc scores 29.3 -- the route outranks it)
+  CLAIM: \paragraph{What is permanent.} The dimensionful unit will not close, and it is a category error to list it as missing --- nobody derives the metre, and no dimensionless quantity flows from i
+    -> [  35.0] PROVED B962   shared: pick, further, nobody, derives, menu, orbit
+    -> [  26.3] OPEN   B1212   shared: paragraph, permanent, category, either, error, cannot
+    -> [  25.5] OPEN   B1208   shared: permanent, selector, derives, menu, state, invariant
+
+[  34.6] papers/P3_THE_PAPER/main.tex   (best CLOSING arc scores 30.5 -- the route outranks it)
+  CLAIM: \paragraph{The exit: the observer, then the wall.} The fourth axiom enters only here, after the algebra is in hand, and \S\ref{sec:observer} prices it. What follows it is the Standard-Model-
+    -> [  34.6] PROVED B968   shared: layer, generation, after, measurement, algebra, measured
+    -> [  28.1] OPEN   B1159   shared: hand, no-go, selection, crossing, algebra, wall
+    -> [  26.3] PROVED B1148   shared: no-go, fourth, selection, shape, values, trace
+
+[  33.5] outside_bench/THE_AWARENESS_VERDICT.md   (best CLOSING arc scores 26.3 -- the route outranks it)
+  CLAIM: - THE COMPLETE CHOICE INVENTORY IS BANKED (the census + v0 + trichotomy): discrete — c, the branch bit, r's swap, γ₅; continuous — σ, λ, ℓ; vacuum — the ℙ³'s three parameters (closed-permane
+    -> [  33.5] OPEN   B1208   shared: b1196, closed-permanent, menu, swap, memo, census
+    -> [  24.4] OPEN   B1212   shared: b1196, closed-permanent, else, census, nothing, forced
+    -> [  20.9] PROVED B962   shared: parameters, menu, complete, choice, nothing, forced
+
+[  32.7] outside_bench/THE_PAPER_CHAIN.md   (best CLOSING arc scores 25.6 -- the route outranks it)
+  CLAIM: That is, as far as this chain can see, **the only live route currently visible for *reducing* a freedom-ledger row rather than proving it irreducible** — and the paper had written it off as 
+    -> [  32.7] PROVED B1093   shared: kato-yukie/bhargava, integral, quantity, orbits, counts, owed
+    -> [  29.0] PROVED B1220   shared: currently, permanent, visible, off, written, residual
+    -> [  25.1] OPEN   B1208   shared: narrow, permanent, residual, had, route, chain
+
+[  28.5] docs/MASTERPLAN.md   (best CLOSING arc scores 21.5 -- the route outranks it)
+  CLAIM: B413: the tower-measure is FLAT (|L(χ)| = mass, Gauss-sum phases) — outcome (b), no scale genesis. The object generates no scale through any channel. Phase 5's SCALE ambitions are closed; on
+    -> [  28.5] PROVED B1220   shared: lever, residual, outcome, scale, remains, branch
+    -> [  22.1] OPEN   B1161   shared: walls, residual, remains, branch, coupling, honest
+    -> [  18.5] OPEN   B1208   shared: lever, residual, remains, coupling, content
+
+OUTCOME: M2-FINDINGS
+FENCE: a flag is a prompt to READ, never a verdict. It says only that an OPEN arc
+bears on a permanence claim -- the judgement stays human-side.

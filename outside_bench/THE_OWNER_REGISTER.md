@@ -870,3 +870,29 @@ it.
 
 **Coverage relay, now three instruments deep:** none of them reads `outside_bench/`. Register the
 lane, or it stays invisible to the programme's own gates. This seat does not edit main.
+
+
+---
+
+## ADDENDUM 62 (2026-08-30) — ROW R64: "build the mirror class"
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R64** | Build the mirror-class detector. | **Built, and NOT ADOPTED.** Four designs, each killed by the binding control or by adjudication. Its control passes; its sweep does not survive reading (5 of top 5 false); **and it misses the one real instance it was built for.** | memo 164 |
+
+**The reason it misses is the finding.** The paper's permanence claim names `B990`'s *lemma* —
+invariant selector, orbit, point — and **never names the route it forecloses** (integral orbits,
+`G(ℤ)`, the VEV direction). **A drifted permanence claim characteristically omits the vocabulary of
+the route it forecloses, so the drift and the undetectability have the same cause.**
+
+That also explains why three seats all built for the *other* polarity: an open claim **names** what
+is open and is detectable by construction; a closed claim **need not name what it closes**. The
+mirror class is not merely unhunted — on this substrate it is **structurally harder to hunt.**
+
+**What would work:** route-level records, not arc-level. `OPEN_LEADS.md` and `OPEN_PROBLEMS.md` are
+the corpus's nearest existing route registers. **That is a different instrument, and after four
+failed discriminators the honest move was to report rather than start a fifth.**
+
+**And a lesson that applies to every control this bench has built:** *control passing is not
+instrument working* — a two-sided control on a **synthetic** positive can pass while the real
+positive is missed, because the synthetic positive was written by the same hand as the detector.
