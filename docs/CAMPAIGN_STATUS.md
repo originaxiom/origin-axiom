@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-08-31, B1227 — ONE THEOREM, TWO REGIMES; THE CRACK WAS ALREADY CLOSED BY THE
+RECORD)**: owner asked to stop the paper and crystallise. **The theorem**: for an amphichiral object
+the mirror is a *self*-isometry, so a mirror-odd invariant obeys `2·I = 0` in its value group —
+`ℝ/½ℤ` gives `{0, ¼}` (**B1224**, 6/6, non-vacuous because m003/m135/m207 sit at ¼) and `ℝ`, being
+torsion-free, gives **exactly 0**, which is the step **B1225** needed and lacked. **The consequence**:
+B1225's hypothesis weakens from *the 17 atoms are object-canonical* — which this bench could not
+check, the list being cloud's — to *the 17 atoms are **real***, which **B1203 already verified here**.
+This morning's addendum called that gap *"precisely where a surviving selector could hide"*; it is
+closed, and nothing blocks on cloud. **Claimed as a CONSOLIDATION, not a discovery** (the arc's lock
+enforces it): the argument is B1224's generalised, and what was actually missing was an **EDGE** —
+B1183, B1203 and B1225 sat adjacent, unconnected. E53 in its purest form: *not a lost result, a lost
+edge*, and no instrument yet hunts supports that never found their claim.
+
 **LATEST (2026-08-31, B1226 — THE β-ODD BOX: A BANKED CHAIN BREAKS, AND THE ONE LIVE CHANNEL WAS
 ALWAYS ASKED THE WRONG QUESTION)**: owner named a **category error** in how we count SM parameters;
 following B1224's undrawn consequence hit the same thing. **B1012's `blind-to-k ⟺ CS = 0 ⟺

@@ -1,5 +1,34 @@
 # Changelog
 
+## ONE THEOREM, TWO REGIMES — and the crack we opened this morning was already closed by the record (2026-08-31)
+
+Owner: *"forget the paper now. we need to figure out, we need to crystalize."*
+
+**The theorem.** For an amphichiral object the mirror μ is a *self*-isometry, so any mirror-odd
+invariant obeys `I(M) = −I(M)`, i.e. **`2·I(M) = 0` in its value group**. The torsion of that group
+decides the rest: `ℝ/½ℤ` gives `{0, ¼}` — that is **B1224** — while `ℝ`, being torsion-free, gives
+**exactly 0**, which is precisely the step **B1225** needed and did not have. Two arcs banked hours
+apart are one statement read in two value groups.
+
+**What it fixes.** B1225 assumed the 17 menu atoms are *object-canonical* (mirror-even ∧
+dimensionless), and this morning's addendum recorded that as unverifiable here — the atom list is
+cloud's — and named it *"precisely where a surviving selector could hide."* The theorem deletes the
+mirror-even half: **real + amphichiral ⇒ mirror-even, for free.** B1225 now needs only that the
+atoms are **real**, which **B1203 verified on this bench**. The crack closes against a strictly
+weaker hypothesis than the one it was opened against, and nothing blocks on cloud any more.
+
+**Stated honestly: a consolidation, not a discovery.** The argument is B1224's own, generalised; a
+3-manifold topologist would call it immediate. What was missing was the **edge** — B1183 (`c` is one
+global involution, `c|ℝ` trivial), B1203 (atoms real) and B1225 sat adjacent in the record with no
+link between them, while an addendum called the question open. **E53 in its purest form: not a lost
+result, a lost edge.** The sweep instruments (B1218/B1219) hunt claims that lost their support;
+nothing yet hunts supports that never found their claim.
+
+**Also this window:** the suite caught two banks from earlier the same day that had gone unrouted
+and unpooled (B1222/B1223 kill-graph rows; B1224/B1225/B1226 claim-pool rows), and `27a7ac43`
+certified clean — 5779 passed, real exit code captured rather than read through a pipe, after an
+earlier certificate returned a false green.
+
 ## THE β-ODD BOX: the scale wall is not a symmetry theorem, and every probe ever fired at the object's one live channel demanded the wrong type (2026-08-31)
 
 Owner: *"i think were doing a category error on our expectations and the way were saying 19 sm

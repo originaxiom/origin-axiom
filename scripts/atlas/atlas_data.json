@@ -4802,6 +4802,18 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1227": {
+   "slug": "one theorem two regimes",
+   "motifs": [
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B122": {
    "slug": "W symmetric powers",
    "motifs": [

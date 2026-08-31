@@ -13011,3 +13011,21 @@ governing theorem (B813), its MB12 bite control (m003 at the other element of th
 restated. Nothing promoted to `CLAIMS.md`; no CP phase derived; firewall intact.
 
 ---
+
+## 2026-08-31 — B1227: ONE THEOREM, TWO REGIMES
+
+The crystallisation sitting. **The theorem:** amphichirality makes the mirror a *self*-isometry, so
+every mirror-odd invariant satisfies `2·I = 0` in its value group — `ℝ/½ℤ` (torsion) gives `{0,¼}`
+= **B1224**; `ℝ` (torsion-free) gives `0` = **B1225's missing keystone**. One statement, two groups.
+
+**Consequence:** B1225's hypothesis weakens from *the atoms are object-canonical* to *the atoms are
+real*, and B1203 verified reality here. The 2026-08-31 addendum's crack is closed on-bench; the
+relay to cloud stands but blocks nothing.
+
+**Novelty is claimed as consolidation, not discovery** — and the arc's own test enforces that, so an
+upgrade to a discovery claim is a regression. The missing thing was an **edge** between three banked
+arcs, which is a failure mode the surface sweeps do not currently look for.
+
+Nothing promoted to `CLAIMS.md`; no value derived; firewall intact.
+
+---

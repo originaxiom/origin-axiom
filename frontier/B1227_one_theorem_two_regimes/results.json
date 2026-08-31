@@ -1,0 +1,25 @@
+{
+ "theorem": "mirror-odd + amphichiral => 2*I = 0 in the value group A",
+ "regime_torsion": {
+  "A": "R/(1/2)Z",
+  "result": "{0, 1/4}",
+  "arc": "B1224",
+  "witness": {
+   "m004": "0",
+   "m003": "1/4",
+   "m136": "0",
+   "m135": "1/4",
+   "m206": "0",
+   "m207": "1/4"
+  }
+ },
+ "regime_torsion_free": {
+  "A": "R",
+  "result": "0",
+  "arc": "B1225 keystone"
+ },
+ "b1225_hypothesis_before": "atoms are OBJECT-CANONICAL (mirror-even and dimensionless)",
+ "b1225_hypothesis_after": "atoms are REAL and dimensionless (reality verified by B1203 on this bench)",
+ "novelty": "CONSOLIDATION, not discovery -- the argument is B1224's, generalised. What was missing was the connection: B1183 (c is one global involution, c|R trivial) and B1203 (atoms real) already sat beside B1225 without being joined.",
+ "still_owed": "the atom LIST is cloud's; only the count 11720 and 'all 17 real' were reproduced here"
+}

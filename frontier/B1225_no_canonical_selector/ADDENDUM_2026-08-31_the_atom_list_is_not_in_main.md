@@ -45,3 +45,24 @@ Until then the arc's headline should be read with its hypothesis attached.
 *Recorded because the pattern is the day's pattern: a load-bearing input that exists as a number
 rather than as a thing, and stays invisible until someone asks the simplest possible question about
 it.*
+
+---
+
+## CLOSED, same day, by B1227 — and the answer was already in the record
+
+The crack named above — *"if even one atom is not Aut(D)-invariant... that is precisely where a
+surviving selector could hide"* — **is closed**, and not by cloud sending the list.
+
+**B1227's theorem:** for an amphichiral object the mirror is a *self*-isometry, so any mirror-odd
+invariant `I` satisfies `2·I = 0` in its value group. The atoms are **real**, and `ℝ` is
+torsion-free, so a mirror-odd atom would have to be **zero**. Hence every nonzero atom is
+mirror-even, *for free*.
+
+So B1225's step 2 does not need "the atoms are object-canonical". It needs only "**the atoms are
+real**" — which **B1203 verified on this bench** when it re-ran cloud's enumerator (11,720
+reproduced; *"all 17 atoms real"*).
+
+**What this addendum got wrong.** It treated an unverifiable *list* as an unverifiable *property*.
+The property was already banked, one arc away. The residual exposure is not "enumerate 17 atoms and
+audit each for β-parity and dimension" — it is the single question *are they real*, already answered.
+Relay `CC_TO_CLOUD_2026-08-31_SEND_THE_SEVENTEEN_ATOMS.md` stands, but nothing now blocks on it.
