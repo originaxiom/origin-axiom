@@ -111,6 +111,15 @@ its own row:
 > **⇒ INFERENCE (mine, from `B1190`/GC-6 + `B139`, stated with the reasoning visible and NOT banked
 > by any arc): "six cusp-boson units" is a CUSP-COUNT requirement. The σ bridge and the multi-cusp
 > wall are the same wall, and the corpus tracks them as two.**
+>
+> **[CORRECTED 2026-08-31, SAME DAY, by memo 169 — this inference is WRONG as an identification of
+> the operative wall, and the computation says so twice.** A cover census (`certificates/cusp_six_census.py`,
+> 38 covers of `m004` to degree 8): **no cover has six cusps** — max cusps by degree is
+> 1,1,2,**3**,2,**3**,2, capping at 3, so the six-cusp route is not even available — **and every
+> cover has `CS ≡ 0`** (`|CS| ≤ 8.7e-16`, as `CS(M̃) = d·CS(m004)` forces), so six cusps **would not
+> help** if they existed. **The operative wall is `B1064`'s deleted quantized sector, not the cusp
+> count.** The cusp count was a symptom. Corrected against my own memo of the same morning, per the
+> seal's pre-commitment.]**
 
 **Fences on that inference, because it is the load-bearing sentence of this memo:**
 

@@ -1006,3 +1006,36 @@ Q7 at four of five converts one input row and yields *a direction, never a value
 only continuous input into an output.** This bench has been sharpening the second-most valuable open
 row — this session included.
 
+---
+
+## ADDENDUM 67 (2026-08-31) — ROW R69: pose it
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R69** | *"lets pose it."* — pose the σ bridge as a specialist ask. | **Posed as `Q11` (`THE_GATE_SENDS.md` addendum 6), NOT SENT — and posing it properly killed my own framing first.** A sealed cover census (38 covers of `m004` to degree 8) returns **`C1-NO-SIX`** *against my declared prior* — **no six-cusped cover exists, max cusps caps at 3** — and **`C2-ALL-ZERO`**: every cover has `CS ≡ 0` (`|CS| ≤ 8.7e-16`), as `CS(M̃) = d·CS(m004)` forces. **So six cusps are unavailable AND would not help.** | memo 169 |
+
+**The correction I pre-committed to, honoured.** Memo 168 §4 — written this morning — inferred *"the
+σ bridge and the multi-cusp wall are the same wall."* **That is wrong as an identification of the
+operative wall.** The cusp count was a symptom; **`B1064`'s deleted quantized sector is the disease**
+(amphichirality ⟹ `CS = 0` ⟹ `∂S/∂k ≡ 0`, and `(E₆)₁` is quantized-sector content). Memo 168 is
+corrected in place. **The seal is what caught it** — had I drafted the ask straight from the memo,
+the ask would have carried the wrong wall to a specialist.
+
+**What Q11 asks, after four routes we closed ourselves** (the fingerprint route `B1191`/GC-12; the
+Eisenstein cusp `B486`; the integer-level attachment `B1064`; **the cover route, today**):
+
+> **Is there a known mechanism attaching rational/modular boundary data to the UNQUANTIZED sector of
+> complex Chern–Simons on a cusped hyperbolic 3-manifold with `CS = 0` — and if not, is there a
+> theorem that there cannot be?**
+
+**And the literature gap it carries, terms stated:** the DGG 3d-3d lineage is well read (49 files),
+but `Ẑ`/`Z-hat`, `homological block`, `GPPV`, `Putrov`, `false theta`, `logarithmic CFT`,
+`boundary vertex algebra`, `half-index` are at **zero occurrences across all 1122 arcs and all
+docs** — and those are the tools that produce the *genuine boundary character* GC-6 says is missing.
+
+**Either answer pays, and the "no" pays too:** yes ⇒ `σ = 1` and nothing continuous remains;
+**no, with a theorem ⇒ σ is a permanent anchor by theorem** — which is where the paper's *"terminal"*
+language actually belongs, instead of on the label menus that Route A contests.
+
+**NOT SENT.** Q11 joins Q7–Q10 awaiting your per-item word.
+

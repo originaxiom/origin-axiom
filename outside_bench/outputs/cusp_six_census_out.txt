@@ -1,0 +1,67 @@
+base m004 : cusps 1  vol 2.0298832128193069  CS 1.350e-16
+units     : V_reg = Vol/2 = 1.0149416064096535   Vol_orb = Vol/12 = 0.1691569344016089
+searching covers to degree 8
+
+  degree 2: 1 covers
+  degree 3: 1 covers
+  degree 4: 2 covers
+  degree 5: 4 covers
+  degree 6: 11 covers
+  degree 7: 9 covers
+  degree 8: 10 covers
+
+==============================================================================
+C-1  CUSP COUNTS BY DEGREE
+==============================================================================
+     degree 2: 1cusp x1
+     degree 3: 1cusp x1
+     degree 4: 1cusp x1  2cusp x1
+     degree 5: 1cusp x1  2cusp x2  3cusp x1
+     degree 6: 1cusp x4  2cusp x7
+     degree 7: 1cusp x5  3cusp x4
+     degree 8: 1cusp x3  2cusp x7
+
+     covers with EXACTLY SIX cusps: 0
+
+     MAX cusps achievable, by degree (the datum the ask needs):
+       degree 2: max cusps = 1
+       degree 3: max cusps = 1
+       degree 4: max cusps = 2
+       degree 5: max cusps = 3
+       degree 6: max cusps = 2
+       degree 7: max cusps = 3
+       degree 8: max cusps = 2
+     OUTCOME: C1-NO-SIX   (searched to degree 8)
+
+==============================================================================
+C-2  DOES ANY COVER RESTORE THE QUANTIZED SECTOR?  (CS != 0)
+==============================================================================
+     covers examined                : 38
+     covers with |CS| > 1e-09        : 0
+     max |CS| over all covers       : 8.662e-16
+     OUTCOME: C2-ALL-ZERO
+     => CS(M~) = d*CS(m004) = 0 on every cover examined: d/dk S == 0 SURVIVES the cover,
+        the quantized sector stays deleted, and B1064's route (a) VIA COVERS is CLOSED.
+        Six cusps are AVAILABLE and DO NOT HELP.
+
+==============================================================================
+C-3  THE VOLUME LEDGER (banked units)
+==============================================================================
+     deg name                   cusps    vol/V_reg  vol/Vol_orb
+       2 m004~cyc~0                 1       4.0000      24.0000
+       3 m004~cyc~0                 1       6.0000      36.0000
+       4 m004~cyc~0                 1       8.0000      48.0000
+       4 m004~irr~1                 2       8.0000      48.0000
+       5 m004~cyc~0                 1      10.0000      60.0000
+       5 m004~irr~1                 2      10.0000      60.0000
+       5 m004~irr~2                 3      10.0000      60.0000
+       6 m004~cyc~1                 1      12.0000      72.0000
+       6 m004~irr~0                 2      12.0000      72.0000
+       7 m004~cyc~2                 1      14.0000      84.0000
+       7 m004~irr~3                 3      14.0000      84.0000
+       8 m004~cyc~1                 1      16.0000      96.0000
+       8 m004~irr~3                 2      16.0000      96.0000
+
+==============================================================================
+SUMMARY: C1-NO-SIX | C2-ALL-ZERO
+==============================================================================

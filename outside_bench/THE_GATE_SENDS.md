@@ -272,3 +272,133 @@ is over ℚ — but the naming should be disambiguated before a specialist reads
 **Still not sent.** Fences unchanged: this does **not** cross Route A, `B990`'s unfavourable prior
 stands unrepudiated, the **integral group scheme over ℤ** remains a named and unclosed gap, and a
 crossing would yield **a direction, never a value**.
+
+---
+
+## ADDENDUM 6 (2026-08-31) — **Q11: THE σ BRIDGE.** The programme's only continuous input, posed.
+
+**Drafted on the owner's "lets pose it". NOT SENT.** This is the row `GRAND_COMPUTATION_v0.md` §6
+ranks **first** in its own deletion schedule and which `docs/SPECIALIST_SEND_QUEUE.md` does not
+contain (memo 168, computed: zero occurrences of `L154`, `σ`, `Cardy`, `central charge`,
+`multi-cusp`, `boundary CFT`, `Brown–Henneaux`, `(E₆)₁` across all six queue rows).
+
+**Priority: ★★★★★ — higher than Q1.** Q1 is *"the one live crossing"*; Q11 is the one row whose
+answer removes the last continuous dimensionless freedom from the framework, in either direction.
+
+---
+
+### What is at stake, in one paragraph
+
+The framework's audited input list (`B1025`, carried in `GRAND_COMPUTATION_v0` §5) is: **one
+dimensionful unit ℓ** (external by design — nobody derives the metre), **two ℤ/2 bits**, **finite
+label menus**, and **exactly one continuous dimensionless number, σ**. The action is `S = −Vol·σ`
+with **zero free dimensionless constants**. If σ is fixed, the framework has **no continuous freedom
+left at all**.
+
+### The arithmetic that makes σ = 1 a candidate — all exact, all banked
+
+| fact | value | source |
+|---|---|---|
+| Brown–Henneaux, `G_N = 1/(4σ)`, `ℓ = 1` | **`c = 6σ`** (symbolic) | `B1012`, `B1088` |
+| the action | `S = −CS·k − Vol·σ`, **`CS = 0` exact**, so `∂S/∂k ≡ 0` | `B1012`; `2R(e^{iπ/3}) = π²/6 + i·Vol` verified to 60 dps |
+| level-1 E₆ | **`c((E₆)₁) = 78/13 = 6`** exactly | `B254`, `B1190`/GC-6 V1 |
+| the conformal embedding `SU(3)₂ × (G₂)₁ ⊂ (E₆)₁` | `16/5 + 14/5 = 6`; `h(3b)+h(7) = 4/15+2/5 = 2/3`; `21+6 = 27`; `8+14+56 = 78` | `B1190`/GC-6 V1, exact in sympy |
+
+**⇒ if the "stage" CFT is the AdS₃ boundary CFT of the object's own quotient, `6σ = 6` and `σ = 1`,
+and the last continuous input converts from anchor to output.**
+
+### What WE closed ourselves — so nobody spends an hour on a route we already killed
+
+1. **The fingerprint route is dead, and we killed it.** `B1191`/GC-12: a full survey of every banked
+   object-side series finds exactly one q-series (`B672`'s weight-5 doublet) and it **fails the
+   kind-map's non-negativity**. A two-sided exponent instrument (exact mod-1 fractions) reads:
+   object `{0, 2/5, 3/5}` vs `(E₆)₁ {3/4, 5/12}` → **EMPTY**; vs a deliberately-absent `(E₈)₁ {2/3}`
+   → **EMPTY** (exclusion control fires correctly); doublet vs the split pair → **FIRES** `{2/5, 3/5}`.
+   So the *split-pair* fingerprint is partially present (`B672`'s doublet rewrites exactly as
+   Lee–Yang `(2,5)` characters × `η¹⁰`, with the Rogers–Ramanujan/Fibonacci ratio) but the
+   **`(E₆)₁` signature is provably absent from everything we have banked.**
+2. **The Cardy count is measured**: `χ₀`'s `c_eff` runs 5.03 (n=10) → 5.44 (n=29) toward **6**, with
+   a `u(1)/η⁻¹` control running 0.50 → 0.74 toward **1**. `c = 6` is six cusp-boson units; the
+   banked `T[4₁]` (`B262`: U(1) gauge + U(1)_m flavour, **one cusp**) supplies **one**.
+   *(GC-6's own caveat carried: `O(n^{-1/2})` bias — the 6-vs-1 separation is clear, the limits are
+   trends.)*
+3. **The Eisenstein-cusp route is dead, and we killed it in 2026.** `(E₆)₁` is six free bosons on the
+   E₆ lattice, and E₆ is a rank-3 ℤ[ω]-lattice while the object's ring is ℤ[ω] — so one might hope
+   the 6 is one cusp counted over ℤ[ω]. **`B486` refutes it:** `m004`'s cusp is `ℤ + 2√−3·ℤ`,
+   **rectangular**, the CM point of **disc −48**, not the hexagonal disc −3; shortest-vector
+   multiplicity **2**, not 6.
+4. **The cover route is dead, and we killed it today** (`certificates/cusp_six_census.py`, 38 covers
+   of `m004` to degree 8, SnapPy): **no cover has six cusps** — max cusps by degree is
+   `1,1,2,3,2,3,2`, capping at **3** — **and every cover has `CS ≡ 0`** (`|CS| ≤ 8.7e-16`, exactly as
+   `CS(M̃) = d·CS(m004)` forces). Volumes are exactly `2d·V_reg = 12d·Vol_orb`, reproducing the
+   banked meter with no residual. **So covers neither supply the cusps nor restore the quantized
+   level.**
+
+### THE ASK — and it is `B1064`'s route (b), the only door left
+
+`B1064` (verdict NEGATIVE, outcome **O3 — OBSTRUCTED-AT-TORUS**) names the obstruction exactly:
+
+> *"the object's amphichirality deletes the quantized sector of its own boundary action
+> (`CS = 0 ⟹ ∂S/∂k ≡ 0`), and rational `(E₆)₁` data is quantized-sector content; the surviving
+> unquantized sector carries no banked chiral algebra."*
+
+and types the missing mechanism as **(a)** restore a quantized boundary sector the amphichirality
+does not delete — *"none is known, and `B1012`'s identity says none can come from the object's own
+action"*, **and now, per item 4 above, none comes from its covers either** — or **(b)** attach
+rational data to an **unquantized** sector.
+
+> ## **Is there a known mechanism attaching rational / modular boundary data to the UNQUANTIZED sector of complex Chern–Simons theory on a cusped hyperbolic 3-manifold with `CS = 0` — and if there is not, is there a theorem that there cannot be?**
+
+**Concretely, three sub-questions, any one of which is an answer:**
+
+- **(i)** For `T[m004]`, is there a boundary vertex algebra / half-index / `Ẑ`-type invariant carrying
+  a genuine **character** — as opposed to the WRT-style `τ_r ∈ ℚ(ζ_r)` data we have banked — whose
+  effective central charge is **6**?
+- **(ii)** Does amphichirality (`CS = 0`) obstruct such a character **in general**, or only obstruct
+  the *integer-level* attachment we tried?
+- **(iii)** If a character exists, does the `SU(3)₂ × (G₂)₁` split appear in it? We have a partial
+  fingerprint — `B672`'s doublet carries exactly `{2/5, 3/5} = {h(7 of (G₂)₁), h(8 of SU(3)₂)}` with
+  the RR/Fibonacci ratio — and **no typing of it as a partition-function-level object.** That typing
+  is the priced remaining object.
+
+### Why either answer pays — and the "no" pays too
+
+- **YES** ⇒ `σ = 1`, and the framework's **only continuous dimensionless input converts from anchor
+  to output.** The input list becomes: one unit nobody derives, two bits, finite menus. Nothing
+  continuous remains.
+- **NO, with a theorem** ⇒ **σ is a permanent anchor by theorem**, and the input list is then
+  *provably* final. That is a strictly stronger statement than the framework currently makes, and it
+  is the honest counterpart of the paper's *"terminal"* language — which at present is asserted in
+  the wrong place (about the finite label menus, which `Route A` contests) rather than here, where it
+  might actually be true.
+- **MISTYPED** ⇒ the Brown–Henneaux/stage identification is not the right frame and `L154` dissolves
+  rather than resolves. Also an answer, and we would rather know.
+
+### The literature floor, stated with its gap
+
+**Read:** the DGG 3d-3d lineage is well covered in the corpus (`3d-3d` 49 files, `Dimofte` 30,
+`Gukov` 30, `Gaiotto` 21), `B262`'s `T[4₁]`, `B441`'s WRT typing, `B1034`'s stage-attachment search
+(*"no hit"*), `B715`'s real-form exclusion.
+
+**NOT read — zero occurrences anywhere in 1122 arcs and all docs:** `Ẑ`/`Z-hat`, `homological block`,
+`GPPV`, `Putrov`, `false theta`, `logarithmic CFT`, `boundary vertex algebra`, `half-index`.
+**These are exactly the tools that produce "a genuine boundary character", which is precisely the
+object GC-6 says is missing.** We are not claiming they solve it. We are stating plainly that the
+one family of methods aimed at this question has never been read by this programme — the same shape
+of finding as memo 160's *"zero arcs mention strong approximation"*, which took Q7 from *"not ours"*
+to four of five.
+
+### Who
+
+3d-3d correspondence / complex Chern–Simons; quantum topology of `Ẑ`-invariants; logarithmic and
+non-semisimple VOA / boundary chiral algebras; AdS₃–CFT₂ for cusped quotients.
+
+### The fences we are holding, stated to the specialist
+
+- We do **not** claim `σ = 1`. We claim the two central charges are exactly equal as numbers and that
+  the attachment is untyped.
+- `B1064`'s O3 stands; this ask is *its* named route (b), not a challenge to it.
+- `B990`'s unfavourable prior on the *other* open route (Route A / Q7) is unrelated and unaffected.
+- Gate 5: no measured physical value enters anywhere; σ is symbolic throughout.
+
+**NOT SENT. The send is the owner's act, per item.**
