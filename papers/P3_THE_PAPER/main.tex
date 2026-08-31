@@ -5,6 +5,7 @@
 \usepackage{microtype}
 \usepackage{booktabs}
 \usepackage{enumitem}
+\usepackage{longtable}
 \usepackage{tikz}
 \usepackage[hidelinks]{hyperref}
 
@@ -29,7 +30,7 @@
 % comment without filling the block would ship an anonymous paper.
 \author{[author]\\ \small [affiliation]}
 % ---------------------------------------------------------------------------
-\date{Draft --- \today}
+\date{Draft of 2026-08-31}
 
 \begin{document}
 \maketitle
@@ -433,7 +434,9 @@ bi-fundamental fourteen. \textbf{Minimality, not uniqueness, is the arena-indepe
 
 \paragraph{What the object contributes is the arena --- with one honest subtraction.} Two things: a
 rank-3 abelian sector, realised in a trinification frame as the abelian complement of three
-orthogonal $A_2$s among the $72$ roots; and the availability of a Standard-Model-shaped $15$-plet
+orthogonal $A_2$s among the $72$ roots --- the rank-3 abelian directions are the complement of
+the $A_2{+}A_1$ Levi, not of the three $A_2$s, whose span is already of maximal rank and whose
+complement is therefore trivial; and the availability of a Standard-Model-shaped $15$-plet
 inside the $27$. Given those, the anomaly conditions do the rest.
 
 \begin{scopenote}
@@ -629,8 +632,8 @@ field is embedded in $\mathbb{C}$ --- at coordinatisation, logically prior to an
 and is never demanded again. The observer's discrete cost does not accumulate with the depth or the
 age of what is described.
 
-\begin{scopenote}[Two supports we withdrew]
-An earlier form of this section leaned on two further claims, and we removed both. \emph{First}: that
+\begin{scopenote}[Three supports we withdrew]
+An earlier form of this section leaned on three further claims, and we removed all three. \emph{First}: that
 the anti-conjugating element acts as the Galois generator on both spectral fields, which we offered as
 evidence that the class restricts to $c$. It does act so --- but \emph{necessarily}, for every
 anti-conjugating element, including in a case the construction treats as inert; a property with no
@@ -658,9 +661,10 @@ This is the paper's spine, and we state it before the arguments that populate it
 our own accounting grades fragile. A reader who accepts nothing else should be able to audit these
 two tables together.
 
-\begin{table}[h]
-\centering\small
-\begin{tabular}{@{}llp{7.4cm}@{}}
+\begingroup\small
+\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}
+llp{7.4cm}@{}}
 \toprule
 \textbf{Input} & \textbf{Type} & \textbf{Status} \\
 \midrule
@@ -714,8 +718,9 @@ family, VEV, filling & finite menus &
 \textbf{Closed, in the only available form.} An invariant selector cannot pick a point of its own
 orbit, so a finite menu is terminal, not a deficiency. \\
 \bottomrule
-\end{tabular}
-\end{table}
+\end{longtable}
+\endgroup
+
 
 \paragraph{The discrete ledger, which closes.} The table above prices this paper's
 \emph{continuous} inputs and its finite labels. The discrete inputs --- the choices that are genuine
@@ -834,7 +839,7 @@ execute is a gesture}; earlier drafts stated none.
 This kills the termination theorem.
 \item \textbf{Exhibit a second gaugeable abelian direction over chiral matter, inequivalent to a
 relabelling of the content's field types.} The qualifier is essential and its absence was a defect:
-without it the paper refutes itself on page~6, since $(1,-4,2,-3,6)$ and $(1,2,-4,-3,6)$ are two
+without it the paper refutes itself in \S\ref{sec:observer}, since $(1,-4,2,-3,6)$ and $(1,2,-4,-3,6)$ are two
 distinct rays that coincide only after relabelling $u^c \leftrightarrow d^c$.
 \item \textbf{Supply the missing condition on the projective Higgs line.} This one does \emph{not}
 kill anything --- it \emph{upgrades} a row of the freedom ledger, and we name it here so that the
@@ -897,39 +902,55 @@ Two kinds of backing appear, and we distinguish them rather than letting one pas
 \textbf{Settled} means the establishing result is itself closed --- proved, or a negative --- and
 the claim rides on that. \textbf{Computed} means the establishing work sits inside an enquiry whose
 \emph{own} wider question remains open, while the specific computation the claim uses was
-re-derived independently and ships a script that re-runs it. Two claims are of the second kind and
-are marked as such; they are not presented as settled.
+re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled.
 
 Every row is covered by an automated check that runs with the rest of the test suite. The table
 below is \emph{generated} from that check rather than written by hand, and the check is itself
 adversarially controlled: a claim pointed at a non-existent result must be reported, and it is.
 
+\smallskip
+\noindent\textbf{Two limitations of this appendix, stated rather than left to be discovered.}
+An earlier version carried a section number against each row. It was a hand-written literal, never
+validated against the document, and it was wrong for about half the rows once a section was
+inserted --- in the one table whose purpose is that nothing is taken on the map's word. We could not
+derive it reliably, so we removed it: the claim text identifies the row, and a wrong pointer is
+worse than none. Second, ``lock'' below means a test that names the establishing result; it does not
+yet mean a test that re-asserts the specific number quoted in this paper's body. Strengthening that
+is work in progress, and until it is done the column should be read as \emph{traceability}, not as
+independent re-derivation.
+
+\smallskip
+\noindent\textbf{Where to find them.} The records, scripts and test locks referred to here are in
+the public repository \texttt{github.com/originaxiom/origin-axiom} (mirror:
+\texttt{codeberg.org/originaxiom/origin-axiom}). A ``script'' is a \texttt{verification/reproduce.sh}
+inside the named record; a ``lock'' is a file under \texttt{tests/} that runs with the suite.
+
 \begin{center}\small\begin{tabular}{@{}clll@{}}\toprule
-\textbf{\S} & \textbf{Claim} & \textbf{Backing} & \textbf{Re-runs by} \\ \midrule
-2 & E6 recurrence is one ADE classification -- a graph identity, not an ob & settled & lock \\
-2 & the census base rate against which any recurrence must be judged & settled & lock \\
-2.1 & seven genesis forks: five robust or geometry-necessary, two fragile an & settled & lock \\
-3 & the chain is 43 links, 39 of them forced; axioms only at the two ends & settled & lock \\
-3 & the golden substitution matrix squared is the object's monodromy (M\^{}2  & settled & lock \\
-3 & the combinatorial carrier reaches only Q(sqrt5); Q(sqrt-3) is bought a & settled & lock \\
-3 & the exceptional algebra is handed over at the hyperbolic end by McKay, & settled & lock \\
-4 & 252 SM-visible contents, 222 killed by the colour cubic alone, exactly & computed (enquiry open) & script + lock \\
-4 & the forcing package is arena-generic: no object token appears in it & computed (enquiry open) & script + lock \\
-6 & the hypercharge line is cut by three linear conditions, then the cubic & settled & script + lock \\
-7 & the landing stratum is selected, not chosen: A2 is the unique projecti & settled & lock \\
-7 & the eighteen hypercharge directions are two orbits: 4.17 bits re-price & settled & lock \\
-7 & that one bit IS P, the two orbits fused by the arithmetic mirror & settled & lock \\
-7 & the spin lift is assigned by the object's own beat, not free & settled & lock \\
-7 & the P\^{}3 is closed permanently, one condition short of a point set & settled & lock \\
-7 & ...and that closure is hardened by an independent cross-seat pass & computed (enquiry open) & script + lock \\
-7 & lambda is external by theorem: the object's own clock is tracial, triv & settled & lock \\
-7 & an external weight completes the tracial core to type III\_lambda & settled & lock \\
-7 & compactness needs an antilinear involution; one conjugation buys Loren & settled & lock \\
-5 & no object period is an SM ratio (the value negative, exhaustive) & settled & lock \\
-9 & the mirror-isospectral split: the two hands share their spectrum exact & settled & lock \\
+\textbf{Claim} & \textbf{Backing} & \textbf{Re-runs by} \\ \midrule
+E6 recurrence is one ADE classification -- a graph identity, not an object-specific fact & settled & lock \\
+the census base rate against which any recurrence must be judged & settled & lock \\
+seven genesis forks: five robust or geometry-necessary, two fragile and named & settled & lock \\
+the chain is 43 links, 39 of them forced; axioms only at the two ends & settled & lock \\
+the golden substitution matrix squared is the object's monodromy (M\^{}2 = RL) & settled & lock \\
+the combinatorial carrier reaches only Q(sqrt5); Q(sqrt-3) is bought at geometrization & settled & lock \\
+the exceptional algebra is handed over at the hyperbolic end by McKay, not chosen & settled & lock \\
+252 SM-visible contents, 222 killed by the colour cubic alone, exactly two survivors & computed (enquiry open) & script + lock \\
+the forcing package is arena-generic: no object token appears in it & computed (enquiry open) & script + lock \\
+the hypercharge line is cut by three linear conditions, then the cubic fixes t = +-3 & settled & script + lock \\
+the landing stratum is selected, not chosen: A2 is the unique projective SM landing & settled & lock \\
+the eighteen hypercharge directions are two orbits: 4.17 bits re-price to one & settled & lock \\
+that one bit IS P, the two orbits fused by the arithmetic mirror & settled & lock \\
+the spin lift is assigned by the object's own beat, not free & settled & lock \\
+the P\^{}3 is closed permanently, one condition short of a point set & settled & lock \\
+...and that closure is hardened by an independent cross-seat pass & computed (enquiry open) & script + lock \\
+lambda is external by theorem: the object's own clock is tracial, trivial modular flow & settled & lock \\
+an external weight completes the tracial core to type III\_lambda & settled & lock \\
+compactness needs an antilinear involution; one conjugation buys Lorentz and colour together & settled & lock \\
+no object period is an SM ratio (the value negative, exhaustive) & settled & lock \\
+the mirror-isospectral split: the two hands share their spectrum exactly & settled & lock \\
 \bottomrule\end{tabular}\end{center}
 
-\noindent\footnotesize All 22 claim--record pairs carry a test lock; 4 additionally
+\noindent\footnotesize All 21 claims below (over 22 claim--record pairs) carry a test lock; 4 additionally
 ship a standalone re-running script. Nothing in this table is asserted by the appendix itself: each
 row's status is read from the record at generation time, and a row whose backing failed any check
 would appear as a defect rather than as a row.

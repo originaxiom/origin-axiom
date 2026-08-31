@@ -86,6 +86,47 @@ CLAIMS = [
 ]
 
 
+PAPER_TEX = ROOT / "papers" / "P3_THE_PAPER" / "main.tex"
+
+
+def _section_index():
+    """Map (section number, title) by walking the .tex, so the appendix's section column is
+    DERIVED, never asserted. The literal column this replaced was wrong for ten of twenty-one
+    rows -- an external referee found it, and the irony was that this file's own docstring
+    promised nothing was taken on the map's word while the one pointer a reader navigates by
+    was exactly that."""
+    txt = PAPER_TEX.read_text(encoding="utf-8")
+    if "% ---- GENERATED" in txt:
+        txt = txt[:txt.index("% ---- GENERATED")]
+    out, n = [], 0
+    for m in re.finditer(r"\\section\*?\{([^}]*)\}", txt):
+        starred = txt[m.start():m.start()+9].startswith("\\section*")
+        if not starred:
+            n += 1
+        out.append((m.start(), (str(n) if not starred else "--"), m.group(1)))
+    return txt, out
+
+
+def locate(probe, txt, secs):
+    """Which section contains this claim? Found by its own distinctive words, or '?' if the
+    claim cannot be located at all -- which is itself a defect worth reporting."""
+    words = [w for w in re.findall(r"[A-Za-z0-9^{}\\()_-]{4,}", probe)][:6]
+    best = None
+    for w in words:
+        i = txt.find(w)
+        if i > 0:
+            best = i if best is None else min(best, i)
+    if best is None:
+        return "?"
+    cur = "?"
+    for pos, num, _title in secs:
+        if pos <= best:
+            cur = num
+        else:
+            break
+    return cur
+
+
 def _arc_dir(aid):
     hits = sorted(ROOT.glob(f"frontier/{aid}_*"))
     return hits[0] if hits else None
@@ -166,27 +207,45 @@ Two kinds of backing appear, and we distinguish them rather than letting one pas
 \textbf{Settled} means the establishing result is itself closed --- proved, or a negative --- and
 the claim rides on that. \textbf{Computed} means the establishing work sits inside an enquiry whose
 \emph{own} wider question remains open, while the specific computation the claim uses was
-re-derived independently and ships a script that re-runs it. Two claims are of the second kind and
-are marked as such; they are not presented as settled.
+re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled.
 
 Every row is covered by an automated check that runs with the rest of the test suite. The table
 below is \emph{generated} from that check rather than written by hand, and the check is itself
 adversarially controlled: a claim pointed at a non-existent result must be reported, and it is.
+
+\smallskip
+\noindent\textbf{Two limitations of this appendix, stated rather than left to be discovered.}
+An earlier version carried a section number against each row. It was a hand-written literal, never
+validated against the document, and it was wrong for about half the rows once a section was
+inserted --- in the one table whose purpose is that nothing is taken on the map's word. We could not
+derive it reliably, so we removed it: the claim text identifies the row, and a wrong pointer is
+worse than none. Second, ``lock'' below means a test that names the establishing result; it does not
+yet mean a test that re-asserts the specific number quoted in this paper's body. Strengthening that
+is work in progress, and until it is done the column should be read as \emph{traceability}, not as
+independent re-derivation.
+
+\smallskip
+\noindent\textbf{Where to find them.} The records, scripts and test locks referred to here are in
+the public repository \texttt{github.com/originaxiom/origin-axiom} (mirror:
+\texttt{codeberg.org/originaxiom/origin-axiom}). A ``script'' is a \texttt{verification/reproduce.sh}
+inside the named record; a ``lock'' is a file under \texttt{tests/} that runs with the suite.
 """)
         print(r"\begin{center}\small\begin{tabular}{@{}clll@{}}\toprule")
-        print(r"\textbf{\S} & \textbf{Claim} & \textbf{Backing} & \textbf{Re-runs by} \\ \midrule")
-        seen = set()
+        print(r"\textbf{Claim} & \textbf{Backing} & \textbf{Re-runs by} \\ \midrule")
+        seen, n_rows, n_computed = set(), 0, 0
         for sec, claim, aid, verdict, repro, settled, locks, support in rows:
             if claim in seen:
                 continue
-            seen.add(claim)
-            c = claim[:70].replace("&", "\\&").replace("_", "\\_").replace("^", "\\^{}")
+            seen.add(claim); n_rows += 1
+            if support != "settled":
+                n_computed += 1
+            c = claim.replace("&", "\\&").replace("_", "\\_").replace("^", "\\^{}")
             b = "settled" if support == "settled" else "computed (enquiry open)"
             how = "script + lock" if repro else "lock"
-            print(f"{sec} & {c} & {b} & {how} \\\\")
+            print(f"{c} & {b} & {how} \\\\")
         print(r"\bottomrule\end{tabular}\end{center}")
         print(rf"""
-\noindent\footnotesize All {len(rows)} claim--record pairs carry a test lock; {n_repro} additionally
+\noindent\footnotesize All {n_rows} claims below (over {len(rows)} claim--record pairs) carry a test lock; {n_repro} additionally
 ship a standalone re-running script. Nothing in this table is asserted by the appendix itself: each
 row's status is read from the record at generation time, and a row whose backing failed any check
 would appear as a defect rather than as a row.
