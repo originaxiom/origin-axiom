@@ -1,0 +1,148 @@
+{
+  "schema": "oa-r033-identification-ratchet-snapshot-v1",
+  "source_commit": "8f0cda3d",
+  "source_commit_label": "origin/main B1231",
+  "sources": {
+    "b1231_findings": {
+      "path": "frontier/B1231_identification_discipline/FINDINGS.md",
+      "git_blob_sha1": "4927b9081f619c5225566de0a62264ac9093df98",
+      "excerpts": [
+        "the listener map `u` IS an identification map",
+        "performed implicitly and for free for two years",
+        "Pricing it *is* the crossing cell.",
+        "7 audited rows",
+        "UNEARNED 2",
+        "Phase C is scoped by this result rather than by a guess — **queued, not run**."
+      ]
+    },
+    "b1231_verdict": {
+      "path": "frontier/B1231_identification_discipline/arc_verdict.json",
+      "git_blob_sha1": "1d7a6067c7e35f7b6cc007cb0fec2a62fc17041b",
+      "declared_identification_rows": [
+        "I-6",
+        "I-7"
+      ]
+    },
+    "identification_ledger": {
+      "path": "docs/IDENTIFICATION_LEDGER.md",
+      "git_blob_sha1": "326f3955b6c9490a4950e20b1909a015ecc27c52",
+      "rows": {
+        "I-1": "EARNED",
+        "I-2": "EARNED",
+        "I-3": "EARNED",
+        "I-4": "REFUTED",
+        "I-5": "REFUTED",
+        "I-6": "UNEARNED",
+        "I-7": "UNEARNED"
+      },
+      "identifications": {
+        "I-1": "2T to E6 (McKay)",
+        "I-2": "SL(2,Z) trace-map action to N=2* class-S S-duality",
+        "I-3": "Vol(m004) to (3sqrt3/2)L(chi_-3,2)",
+        "I-4": "CS(m004) to theta_QCD",
+        "I-5": "V4 semidirect S3 to D4 triality",
+        "I-6": "pi1(m004) quotient 2T to the 6d type's ALE Gamma",
+        "I-7": "the object's Z/3 to the boundary CFT's module group"
+      }
+    },
+    "identification_baseline": {
+      "path": "docs/IDENTIFICATION_BASELINE.json",
+      "git_blob_sha1": "53af822e5a974df603f44e90e8751847e14e0634",
+      "unearned": 2,
+      "total_rows": 7
+    },
+    "b1231_test": {
+      "path": "tests/test_b1231_identification.py",
+      "git_blob_sha1": "c2b5477d31f60da4afba46177eeabd4ea0684ead",
+      "excerpts": [
+        "A NEW unearned identification must red the gate",
+        "assert base[\"unearned\"] == live"
+      ]
+    },
+    "identification_gate": {
+      "path": "scripts/gates/gates.py",
+      "git_blob_sha1": "47e845f8b57aef843476d69932009c21f446c59c",
+      "excerpts": [
+        "UNEARNED increased",
+        "raise the baseline DELIBERATELY with a dated reason"
+      ]
+    }
+  },
+  "admitted_but_unregistered": {
+    "id": "listener-u",
+    "source": "B1231",
+    "status_in_source": "unpriced identification map",
+    "ledger_row": null
+  },
+  "phase_c_candidates": [
+    {
+      "id": "legacy-type-acceptance",
+      "arc": 1025,
+      "path": "frontier/B1025_input_derivability/FINDINGS.md",
+      "git_blob_sha1": "da6214dce6129ee14ab870f74c85128456f5bc59",
+      "side_a": "the m004 arithmetic/McKay E6 nomination and A-polynomial",
+      "side_b": "the six-dimensional type input and its Seiberg-Witten curve",
+      "missing": "construct the type acceptance and SW-curve/A-polynomial map",
+      "source_scope": "S1's unrun identification",
+      "audit_status": "NEEDS_PHASE_C"
+    },
+    {
+      "id": "legacy-cohomology-matter",
+      "arc": 1089,
+      "path": "frontier/B1089_matter_card/FINDINGS.md",
+      "git_blob_sha1": "ba8f0b93a545481f045c92a2737b97001a68b288",
+      "side_a": "H^1 classes of the 27 local system",
+      "side_b": "physical matter modes",
+      "missing": "exhibit and verify the AW/CS mode map rather than cite the dictionary",
+      "source_scope": "CITED, not a corpus theorem",
+      "audit_status": "NEEDS_PHASE_C"
+    },
+    {
+      "id": "legacy-color-hypercharge-frame",
+      "arc": 1102,
+      "path": "frontier/B1102_exact_hypercharge_solve/FINDINGS.md",
+      "git_blob_sha1": "16df38b29a6d560b3c10c9af20388dfef5a068df",
+      "side_a": "the banked 6Y cascade frame",
+      "side_b": "a simultaneous color-commuting SM-product frame at the A2 landing",
+      "missing": "exhibit a reconciling frame map, test another color identification within the centralizer, or move to and exhaust another stratum",
+      "source_scope": "exact local obstruction; three follow-ups open",
+      "audit_status": "NEEDS_PHASE_C"
+    },
+    {
+      "id": "legacy-internal-spacetime-spin",
+      "arc": 1145,
+      "path": "frontier/B1145_sp2_fermion_seat/FINDINGS.md",
+      "git_blob_sha1": "bbfc235ced367c9294c02e72907506abd6039c24",
+      "side_a": "the internal E6 A1 lift selected by the beat",
+      "side_b": "a four-dimensional spacetime fermion/generation seat",
+      "missing": "construct the Lorentz/Pin or spin bundle, Dirac operator and index map",
+      "source_scope": "physical-generation reading is thesis-level; bridge unpaid",
+      "audit_status": "NEEDS_PHASE_C"
+    },
+    {
+      "id": "legacy-boundary-bulk-spin",
+      "arc": 1218,
+      "path": "frontier/B1218_open_claim_sweep/FINDINGS.md",
+      "git_blob_sha1": "b2b61f9dcaa526d559ac75eab73681d217c51968",
+      "side_a": "a boundary theta-characteristic",
+      "side_b": "the m004 spin structure selected in B1141",
+      "missing": "construct the boundary-to-bulk tangent-frame/holonomy comparison",
+      "source_scope": "related but not identified; computation absent",
+      "audit_status": "NEEDS_PHASE_C"
+    },
+    {
+      "id": "legacy-generation-yukawa",
+      "arc": 1212,
+      "path": "frontier/B1212_two_replies/FINDINGS.md",
+      "git_blob_sha1": "c8bcdece09547a291e63cc92193a632ea346ac3a",
+      "supporting_arc": 1208,
+      "supporting_path": "frontier/B1208_cross_seat_harvest/FINDINGS.md",
+      "supporting_git_blob_sha1": "861ce76d732dc579bbc48e8c358c6d465ca5d2df",
+      "side_a": "coarse C12 character blocks",
+      "side_b": "physical generation-level lepton and down Yukawa representatives",
+      "missing": "construct the exact Cech/Serre representatives and trace map",
+      "source_scope": "same/different/absent tensor fork remains open",
+      "audit_status": "NEEDS_PHASE_C"
+    }
+  ]
+}

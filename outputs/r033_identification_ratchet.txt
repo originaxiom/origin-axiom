@@ -1,0 +1,9 @@
+PASS B1231 seed ledger = 7 rows (3 earned, 2 refuted, 2 unearned)
+PASS B1231 itself admits listener map u is an unpriced identification
+PASS listener map u has no row in the seven-row ledger
+PASS registering that admitted debt gives 3 UNEARNED > baseline 2
+CONTROL an EARNED addition preserves the count; resolving a debt lowers it
+DATA legacy Phase-C candidates typed, not adjudicated = 6
+RESULT green count 2 is a seed state, not a complete identification census
+RESULT registering the admitted listener debt requires a deliberate dated baseline migration
+SCOPE inventory correction only; no candidate is promoted and no bit count follows
