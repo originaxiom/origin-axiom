@@ -1,0 +1,7 @@
+{
+ "exact_63_match": true,
+ "scalar_is_minus_identity": true,
+ "theta_is_permutation": true,
+ "class_sizes_are_products": true,
+ "max_word_len": 17
+}

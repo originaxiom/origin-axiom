@@ -21,7 +21,7 @@ object-side comparison was designed, so nothing needed to be HELD.
   normalization (defined mod 1/2 on oriented cusped manifolds); "CS ∈ 2-torsion"
   means 2·CS ≡ 0 in ℝ/(1/2)ℤ, i.e. CS ∈ {0, 1/4}, matching B1224/B1227's usage.
 - **Matrix conventions:** shears L = [[1,1],[0,1]], R = [[1,0],[1,1]]; the unsquared
-  golden matrix M = [[1,1],[1,0]] (det = −1); M² = [[2,1],[1,1]] = RL (re-verified here,
+  golden matrix M = [[1,1],[1,0]] (det = −1); M² = [[2,1],[1,1]] (the monodromy A; written "RL" as a matrix product R·L per LAW_MAP GC-3, "LR" in the word-order convention of UNIQUENESS_THEOREM — an E23-class two-convention collision in the corpus, flagged in VERIFICATION.md) (re-verified here,
   `reverify_gieseking.txt`). The record's LR-vs-RL order convention (A7 of
   `docs/UNIQUENESS_THEOREM.md`) is untouched by this audit.
 - **"Orientation consumes"** is judged against the relabel target: orientation as
@@ -71,7 +71,7 @@ BLOCKED.
 **Independent re-verification of the decisive geometric facts** (`reverify_gieseking.txt`,
 run in this cell with SnapPy): m000 nonorientable; vol(m000) = 1.01494160641 =
 ½·vol(m004) = ½·2.0298832128; orientation_cover(m000) ≅ m004 (`is_isometric_to` True);
-H₁(m000) = H₁(m004) = ℤ; CS(m004) = 1.35e−16 ≈ 0; det M = −1, M² = RL = [[2,1],[1,1]].
+H₁(m000) = H₁(m004) = ℤ; CS(m004) = 1.35e−16 ≈ 0; det M = −1, M² = [[2,1],[1,1]] (the monodromy A; written "RL" as a matrix product R·L per LAW_MAP GC-3, "LR" in the word-order convention of UNIQUENESS_THEOREM — an E23-class two-convention collision in the corpus, flagged in VERIFICATION.md).
 
 ## 4. The evidence table
 
@@ -114,7 +114,7 @@ B1003.
   (whose mapping torus is m000, hyperbolic, vol ½·vol(m004), dilatation φ — B749/F5,
   re-verified here) and its square (m004, dilatation φ²). The continued-fraction
   combinatorics of C1–C2 has the det −1 step as its PRIMITIVE period (one CF step matrix
-  has det −1; M² = RL) — so the pre-squaring object is the one the combinatorics hands
+  has det −1; M² = A = [[2,1],[1,1]], convention note above) — so the pre-squaring object is the one the combinatorics hands
   over, and the squaring is a choice made at C5 and nowhere earlier. **The chain runs to
   a well-defined hyperbolic object BEFORE the orientation choice.** C6 (Thurston/Riley,
   monodromy [[2,1],[1,1]]) is the oriented representative's realization, after the

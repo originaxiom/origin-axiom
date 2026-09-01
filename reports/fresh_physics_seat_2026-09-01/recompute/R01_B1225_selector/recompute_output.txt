@@ -1,0 +1,49 @@
+== 1. Aut(D) recomputed independently (snappy, D = m004) ==
+  snappy: symmetry_group(m004) = D4, order = 8, amphichiral = True
+  => 4 orientation-preserving, 4 orientation-reversing elements
+
+== 2. The 17 tier-1 atoms (the ONLY committed list: B1203 reproduce.sh) ==
+  count = 17; non-real atoms = []
+  atoms moved by ANY of the 8 elements of Aut(D): []  (exact sympy check)
+
+== 3. Are {+,-,*,/,sqrt} G-equivariant? (symbolic, exact) ==
+  c(a + b) - (c(a) + c(b)) = 0
+  c(a - b) - (c(a) - c(b)) = 0
+  c(a * b) - (c(a) * c(b)) = 0
+  c(a / b) - (c(a) / c(b)) = 0
+  sqrt on NONNEGATIVE reals: c(sqrt(x)) - sqrt(x) = 0  -> equivariant AND fixed
+  sqrt on a NEGATIVE real: c(sqrt(-2)) - sqrt(-2) = -2*sqrt(2)*I  (NOT zero)
+  => B1225 step 5 as literally stated ('sqrt is G-equivariant') holds only on
+     the reality-preserving domain; the theorem's conclusion survives because
+     every MENU VALUE is real (B1203), and c fixes every real regardless of route.
+
+== 4. Menu closure from the atoms; full Aut(D)-orbit of every value ==
+  |atoms| = 17, |closure depth 1| = 761, |closure depth 2| = 300004 (hit 300k cap; true depth-2 is larger)
+  banked W1 = 11720: neither depth equals it — the tier rule that yields
+  exactly 11,720 is cloud's enumerator, NOT committed on this bench (ADDENDUM).
+
+  orbit check, numeric at 40 dps, ALL depth-1 closure values, all group elements:
+    non-real (hence c-movable) depth-1 values: 0 of 761
+  exact symbolic orbit check on the complete single-op stratum:
+    stratum size = 1173; values moved by any of the 8 group elements: 0
+  => THE ACTION OF THE FULL Aut(D) (hence of G = Stab_Aut(D)|_T, a subgroup)
+     ON EVERY VALUE BUILT FROM THE ATOMS IS TRIVIAL: every orbit is a fixed
+     point; every subset of the menu is G-invariant; invariance selects nothing.
+
+== 5. CONTROL: plant a beta-odd (mirror-odd) atom; the instrument must bite ==
+  reality assert now catches: ['PLANT_i_sqrt2']
+  planted-menu (all +,* pairs): 69 values MOVED by the mirror, 579 fixed — e.g. [1 + sqrt(2)*I, sqrt(2)*I]
+  an invariance filter on the planted menu cuts 69 of 648:
+  NONZERO. The instrument CAN find a nontrivial action / nonzero cut when one
+  exists; the zero cut on the real menu is therefore a finding, not blindness.
+
+== 6. Summary of the recomputed facts ==
+  Aut(D) order (snappy, independent): 8; orientation-reversing: 4
+  action on values factors through {1, c}; all 17 committed atoms exactly real;
+  ops equivariant (sqrt only on nonnegatives); complete single-op stratum
+  (1173 exact values) pointwise fixed by all 8 elements;
+  depth-1 numeric closure all real. TRIVIAL ACTION: reproduced.
+  W1 = 11720 itself: NOT reproducible from committed files (enumerator is
+  cloud-side; ADDENDUM + relay ledger confirm). Triviality is depth/tier-
+  independent, so the banked conclusion follows for ANY menu inside the real
+  closure of these atoms.

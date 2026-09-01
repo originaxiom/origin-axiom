@@ -29,7 +29,7 @@ hyperbolic, vol 1.0149… = ½·vol(m004), dilatation φ, shape field ℚ(√−
 ## Closing #0 (was A6 / C5 / fork F5)
 
 > **The observer orients: chooses a sheet of the orientation double cover.**
-> Equivalently: squares the monodromy (M → M² = RL = [[2,1],[1,1]]), passes m000 → m004,
+> Equivalently: squares the monodromy (M → M² = [[2,1],[1,1]] (the monodromy A; written "RL" as a matrix product R·L per LAW_MAP GC-3, "LR" in the word-order convention of UNIQUENESS_THEOREM — an E23-class two-convention collision in the corpus, flagged in VERIFICATION.md)), passes m000 → m004,
 > dilatation φ → φ². This is a closing in the B717 sense (the object supplies the
 > incompleteness — it provably cannot self-orient, B1163; the observer supplies the
 > bit), the same act-type as the chirality bit (B713), the P-bit (B1083), and prior to

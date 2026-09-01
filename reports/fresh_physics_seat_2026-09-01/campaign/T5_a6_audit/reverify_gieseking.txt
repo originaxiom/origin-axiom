@@ -5,4 +5,4 @@ vol m000: 1.01494160641  vol m004: 2.0298832128
 orientation_cover(m000) isometric to m004: True
 H1 m000: Z  H1 m004: Z
 CS(m004): 1.3498693 E-16
-M=[[1,1],[1,0]] det: -1  M^2: [[2, 1], [1, 1]]  (= RL = [[2,1],[1,1]])
+M=[[1,1],[1,0]] det: -1  M^2: [[2, 1], [1, 1]]  (= A = [[2,1],[1,1]]; see convention note in FINDINGS.md)

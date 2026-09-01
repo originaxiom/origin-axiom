@@ -1,0 +1,685 @@
+{
+ "linear_line": {
+  "Yd": "-2*Yq - Yu",
+  "Ye": "6*Yq",
+  "Yl": "-3*Yq"
+ },
+ "cubic_on_line_factored": "18*Yq*(2*Yq - Yu)*(4*Yq + Yu)",
+ "cubic_full_factor_is_-18*Yq*(Yu+4Yq)*(Yu-2Yq)": true,
+ "cubic_at_Yq1_Yu=-1+t": "-18*(t - 3)*(t + 3)",
+ "matches_banked_-18(t-3)(t+3)": true,
+ "t_roots": [
+  "-3",
+  "3"
+ ],
+ "solutions_(Yq,Yu,Yd,Yl,Ye)": [
+  [
+   "1",
+   "2",
+   "-4",
+   "-3",
+   "6"
+  ],
+  [
+   "1",
+   "-4",
+   "2",
+   "-3",
+   "6"
+  ]
+ ],
+ "SM_times_6": [
+  "1",
+  "-4",
+  "2",
+  "-3",
+  "6"
+ ],
+ "Yq0_branch": {
+  "linear_solution_at_Yq0": {
+   "Yd": "-Yu",
+   "Ye": "0",
+   "Yl": "0"
+  },
+  "cubic_identically_zero_on_branch": true,
+  "family": "(0, s, -s, 0, 0) for all s",
+  "charge_multiset": "{+s x3, -s x3, 0 x9}: symmetric under Y -> -Y (U(1) acts vector-like on the multiset of charges)",
+  "doublets_all_neutral": true,
+  "invariant_mass_bilinear": "e^c e^c: (1,1,Y=0)^2 is gauge invariant -> not fully chiral"
+ },
+ "census_total": 252,
+ "killed_by_SU3_cubed": 222,
+ "color_safe": 30,
+ "per_content": [
+  {
+   "content": [
+    "A(3,2)",
+    "A(3,2)",
+    "B(3b,2)",
+    "B(3b,2)",
+    "E(1,2)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": [
+    "6",
+    "-6",
+    "-5",
+    "5",
+    "0"
+   ],
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "A(3,2)",
+    "B(3b,2)",
+    "B(3b,2)",
+    "F(1,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "A(3,2)",
+    "B(3b,2)",
+    "D(3b,1)",
+    "D(3b,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": [
+    "6",
+    "-6",
+    "0",
+    "6",
+    "-6"
+   ],
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "B(3b,2)",
+    "B(3b,2)",
+    "C(3,1)",
+    "C(3,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": [
+    "0",
+    "-6",
+    "6",
+    "6",
+    "-6"
+   ],
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "B(3b,2)",
+    "C(3,1)",
+    "D(3b,1)",
+    "E(1,2)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "B(3b,2)",
+    "C(3,1)",
+    "D(3b,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "B(3b,2)",
+    "E(1,2)",
+    "E(1,2)",
+    "E(1,2)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "B(3b,2)",
+    "E(1,2)",
+    "E(1,2)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "B(3b,2)",
+    "E(1,2)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "B(3b,2)",
+    "F(1,1)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "C(3,1)",
+    "D(3b,1)",
+    "D(3b,1)",
+    "D(3b,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "D(3b,1)",
+    "D(3b,1)",
+    "E(1,2)",
+    "E(1,2)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "D(3b,1)",
+    "D(3b,1)",
+    "E(1,2)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [
+    {
+     "charges": [
+      "1",
+      "-4",
+      "2",
+      "-3",
+      "6"
+     ],
+     "nonzero": true,
+     "vector_like": false,
+     "massable": false
+    },
+    {
+     "charges": [
+      "1",
+      "2",
+      "-4",
+      "-3",
+      "6"
+     ],
+     "nonzero": true,
+     "vector_like": false,
+     "massable": false
+    },
+    {
+     "charges": [
+      "0",
+      "1",
+      "-1",
+      "0",
+      "0"
+     ],
+     "nonzero": true,
+     "vector_like": false,
+     "massable": true
+    }
+   ],
+   "continuum": false,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null
+  },
+  {
+   "content": [
+    "A(3,2)",
+    "D(3b,1)",
+    "D(3b,1)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "B(3b,2)",
+    "C(3,1)",
+    "C(3,1)",
+    "C(3,1)",
+    "D(3b,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "B(3b,2)",
+    "C(3,1)",
+    "C(3,1)",
+    "E(1,2)",
+    "E(1,2)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "B(3b,2)",
+    "C(3,1)",
+    "C(3,1)",
+    "E(1,2)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [
+    {
+     "charges": [
+      "1",
+      "-4",
+      "2",
+      "-3",
+      "6"
+     ],
+     "nonzero": true,
+     "vector_like": false,
+     "massable": false
+    },
+    {
+     "charges": [
+      "1",
+      "2",
+      "-4",
+      "-3",
+      "6"
+     ],
+     "nonzero": true,
+     "vector_like": false,
+     "massable": false
+    },
+    {
+     "charges": [
+      "0",
+      "1",
+      "-1",
+      "0",
+      "0"
+     ],
+     "nonzero": true,
+     "vector_like": false,
+     "massable": true
+    }
+   ],
+   "continuum": false,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null
+  },
+  {
+   "content": [
+    "B(3b,2)",
+    "C(3,1)",
+    "C(3,1)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "C(3,1)",
+    "C(3,1)",
+    "D(3b,1)",
+    "D(3b,1)",
+    "E(1,2)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": [
+    "6",
+    "-6",
+    "-5",
+    "5",
+    "0"
+   ],
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "C(3,1)",
+    "C(3,1)",
+    "D(3b,1)",
+    "D(3b,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "C(3,1)",
+    "D(3b,1)",
+    "E(1,2)",
+    "E(1,2)",
+    "E(1,2)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "C(3,1)",
+    "D(3b,1)",
+    "E(1,2)",
+    "E(1,2)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "C(3,1)",
+    "D(3b,1)",
+    "E(1,2)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 2,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": 2
+  },
+  {
+   "content": [
+    "C(3,1)",
+    "D(3b,1)",
+    "F(1,1)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "E(1,2)",
+    "E(1,2)",
+    "E(1,2)",
+    "E(1,2)",
+    "E(1,2)"
+   ],
+   "null_dim": 4,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 4 params"
+  },
+  {
+   "content": [
+    "E(1,2)",
+    "E(1,2)",
+    "E(1,2)",
+    "E(1,2)",
+    "F(1,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "E(1,2)",
+    "E(1,2)",
+    "E(1,2)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "E(1,2)",
+    "E(1,2)",
+    "F(1,1)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "E(1,2)",
+    "F(1,1)",
+    "F(1,1)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 3,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 3 params"
+  },
+  {
+   "content": [
+    "F(1,1)",
+    "F(1,1)",
+    "F(1,1)",
+    "F(1,1)",
+    "F(1,1)"
+   ],
+   "null_dim": 4,
+   "rays": [],
+   "continuum": true,
+   "irrational_rays": false,
+   "chiral_massless_point_in_continuum": null,
+   "continuum_dim": "cubic hypersurface in 4 params"
+  }
+ ],
+ "strict_survivors": [
+  {
+   "content": [
+    "A(3,2)",
+    "D(3b,1)",
+    "D(3b,1)",
+    "E(1,2)",
+    "F(1,1)"
+   ],
+   "chiral_massless_rays": [
+    [
+     "1",
+     "-4",
+     "2",
+     "-3",
+     "6"
+    ],
+    [
+     "1",
+     "2",
+     "-4",
+     "-3",
+     "6"
+    ]
+   ]
+  },
+  {
+   "content": [
+    "B(3b,2)",
+    "C(3,1)",
+    "C(3,1)",
+    "E(1,2)",
+    "F(1,1)"
+   ],
+   "chiral_massless_rays": [
+    [
+     "1",
+     "-4",
+     "2",
+     "-3",
+     "6"
+    ],
+    [
+     "1",
+     "2",
+     "-4",
+     "-3",
+     "6"
+    ]
+   ]
+  }
+ ],
+ "strict_survivor_count": 2,
+ "loose_isolated_chiral_count": 2,
+ "continuum_with_chiral_massless_point": [
+  [
+   "A(3,2)",
+   "A(3,2)",
+   "B(3b,2)",
+   "B(3b,2)",
+   "E(1,2)"
+  ],
+  [
+   "A(3,2)",
+   "A(3,2)",
+   "B(3b,2)",
+   "D(3b,1)",
+   "D(3b,1)"
+  ],
+  [
+   "A(3,2)",
+   "B(3b,2)",
+   "B(3b,2)",
+   "C(3,1)",
+   "C(3,1)"
+  ],
+  [
+   "C(3,1)",
+   "C(3,1)",
+   "D(3b,1)",
+   "D(3b,1)",
+   "E(1,2)"
+  ]
+ ]
+}

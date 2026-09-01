@@ -108,3 +108,36 @@ identification candidates, digested each · S10 legacy/ + story/knowledge re-che
 against final state · S11 cross-seat lanes (codex/cloud/cc3 branch heads) where reachable.
 
 S2–S4 launch now; the rest ride the loop as batches complete.
+
+---
+
+## Batch 1 — DISPOSITIONED (2026-09-01; all five verifiers CONFIRMED)
+
+T1 **BLOCKED-productively** (the (3,4,1) sequence reconstructed from committed data; the
+27-entry annihilation criterion proved exactly; spread instrument replicated with bite
+0.000/4.834; the missing datum typed: the 27 coupling values of the (A₇,B₆,B₂) block are
+committed nowhere — the E51 `.sage` debt). T2 **DESIGN-SEALED** (m004 → CP-EVEN, m003 →
+CP-ODD bite; 0/12 chiral controls on {0,¼}; comparison HELD for owner election). T3
+**PASS** (Theorem A + Corollary B at theorem strength; 40/40 sweep at 1e−64; 15/15 chiral
+bite; + **Conjecture C**: 120/120 covers at CS = 0 exactly, never ¼ — unproved, kill =
+one cover at ¼). T4 **PARTIAL** (criterion = the survival hypothesis, Georgi 1979 /
+Barbieri–Nanopoulos 1980, sharpest Fonseca 2015 — KNOWN and must be cited; the
+terminality + rule-independence conjunction NOT FOUND, bounded — the surviving novelty
+candidate). T5 **FEASIBLE** (class (a) axiom-consumers EMPTY over 1394 files; the
+RL/LR label defect fixed with an explicit convention note — the defect traces to a
+genuine two-convention collision in the corpus itself: UNIQUENESS_THEOREM's "A = LR"
+vs LAW_MAP GC-3's "A₁ = RL", both = [[2,1],[1,1]] under their own conventions; flagged
+for the owner as an E23 registry candidate).
+
+**Owner-election items from batch 1:** (1) fire or hold T2's sealed one-bit comparison
+(spends an L192-licensed row); (2) adopt T5's PROPOSAL.md (the label fix is applied);
+(3) unblock T1 by committing the 27 connecting-block values (codex's row / the .sage
+artifact); (4) the corpus RL/LR convention collision → TERMINOLOGY row.
+
+## Batch 2 (launching): T8a novelty-propagation list (cheap tier) · T8b terminality
+draft vs Fonseca · T9 the L154 kind-map survey (corpus-wide boundary-character search).
+T6 held armed on T1's unblock; T7 = election item above.
+
+## Resource rule (owner-directed): mechanical/reader work runs on cheap agents (low
+effort); computing/judging/verifying cells run at full strength; nothing delegated
+that compromises the task; inline work stays inline.
