@@ -219,10 +219,14 @@ gates + doc tests run.
 ## Sweep set 2 + the recovery event (2026-09-01)
 
 **Three of the four single-homed artifacts RECOVERED from branches** (S11): the
-W1 = 11,720 enumerator + 17-atom list (`origin/claude/outside-bench:
+W1 = 11,720 enumerator (`origin/claude/outside-bench:
 outside_bench/certificates/menu_width.py` — copied to `recovered_artifacts/`,
 **re-run on this bench: reproduces 11,720 exactly**, upgrading R01's missing clause to
-verified and factually correcting B1225's ADDENDUM "on no branch"); B1217's V-NEG
+verified). *Corrected 2026-09-01 (banking seat):* the **17-atom list itself was never
+branch-only — it is present on main in B1203's cert
+(`frontier/B1203_two_probes/verification/reproduce.sh`, 89affd5b, 08-30); the search that
+missed it looked at branches instead of the arc's own verification directory.* Only the
+enumerator's tier rule was single-homed to outside-bench; B1217's V-NEG
 certificate (same branch); and **all nine E51 "UNRECOVERABLE-FINAL" relay files exist
 with verified content at the root of `origin/audit/b775-braver-questions`** — the E51
 finality rows are false as written (owner action: reopen E51 as RECOVERED). Only the

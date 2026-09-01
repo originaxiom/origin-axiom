@@ -57,6 +57,12 @@ the mechanical reason the campaign's own branch searches (batches 1–3) could s
 
 ### 2a. The 17-atom list — **FOUND on `claude/outside-bench`** (highest-value find)
 
+> *Corrected 2026-09-01 (banking seat's correction, adopted):* the list is **present on main** in B1203's cert
+> (`frontier/B1203_two_probes/verification/reproduce.sh`, 89affd5b, 2026-08-30) — the search that missed it looked
+> at branches instead of the arc's own verification directory. The outside-bench file is a second, provenanced copy
+> plus the tier-rule enumerator; only the enumerator was single-homed. R2 below is re-typed accordingly: the
+> "on NO branch" claim was wrong on main first, on outside-bench second.
+
 `outside_bench/certificates/menu_width.py` (committed `a1d99957`, **2026-08-28**, "MENU-1 run —
 W1 = 11720") contains the explicit list, twice: in the frozen-protocol docstring with per-atom
 provenance ("1, 2, 3 (grammar constants); 11 (the sum rule, B928); 12 (Vol = 12 Vol_orb, B1188;

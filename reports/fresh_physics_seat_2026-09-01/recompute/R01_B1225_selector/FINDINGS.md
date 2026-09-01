@@ -136,6 +136,14 @@ committed list, or that dict is an unprovenanced stand-in — in which case B120
 committed either. My triviality result is indifferent to WHICH reals the atoms are;
 the reality premise's provenance is not.
 
+> **Resolved 2026-09-01 (banking seat's correction, adopted).** The dict in B1203's `reproduce.sh` IS the real
+> MENU-1 list: it agrees atom for atom with the provenanced `ATOMS` array in
+> `origin/claude/outside-bench:outside_bench/certificates/menu_width.py` (a1d99957, 2026-08-28). So the list is
+> **present on main in B1203's cert; the search that missed it looked at branches instead of the arc's own
+> verification directory.** Step 2 is thereby verified directly (all 17 real, dimensionless, nonzero ⇒ mirror-even).
+> What is single-homed to outside-bench is only the *tier rule* (the enumerator), not the atoms.
+> Finding filed as `frontier/B1225_no_canonical_selector/ADDENDUM_2026-09-01_the_atom_list_is_on_main.md`.
+
 ## Gate 5
 
 No measured Standard Model value used anywhere (atoms are the committed integers/
