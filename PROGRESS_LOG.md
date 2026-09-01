@@ -13112,3 +13112,36 @@ conflated observer-supplied values with representational choices. **Routes aroun
 Fenced: codex's exact connecting-block computation is still running; only the algebra is verified.
 
 ---
+
+## 2026-09-01 — B1233: the external audit
+
+15 confirmed, 7 refuted, one defect found in **our** record. Confirmed: the golden **dilogarithm
+partition** of ζ(2) into 3/5 + 2/5; Λ(m) = Lagrange²; the **void as a (2,1) saddle** above a
+quaternionic global minimum; the Riley value = our B285; 2 inert in both ends, split in the meeting.
+Refuted: j(m004 cusp) ≠ 0 (that's **m003's**); the q = 1 "cutoff"; **k = 1 by minimality** (the error
+B1232 retracted hours earlier); quartic-vs-quadratic; and the **observer-bit = class-group**
+identification, dead by Galois — conjugation fixes √5, the class generator flips both. **I-8
+REFUTED.** Our own defect: a **κ convention split** between paper and frontier; harmonization owed.
+
+Convergence: two seats, one day, one boundary — **the deriving machinery is arithmetic, and
+arithmetic cannot emit a continuum.**
+
+---
+
+## 2026-09-01 — B1234: the walls trace to A6
+
+Eight walls, one join: **the mirror is a self-isometry**. And that is **forced by the construction** —
+orientation double covers are amphichiral **40/40 (100%)** against a **3.0%** base rate; m004 **is**
+Gieseking's cover. The arithmetic survives A6's removal: **48 surjections onto 2T, identical**, same
+trace field.
+
+**A6 ⇒ double cover ⇒ amphichiral ⇒ every wall.** P019 labels A6 an axiom, B749 priced its fork
+FRAGILE — and nobody connected it to the walls. *The walls are properties of a choice at link 6.*
+
+Not claimed: that dropping A6 yields values (it may break the tools — CS, complex volume and SL(2,ℂ)
+rep theory all use orientation).
+
+Also: the κ collision row (five meanings, omitted from a register that covered five other symbols)
+and I-9 UNEARNED with a deliberate, hand-raised ratchet baseline.
+
+---

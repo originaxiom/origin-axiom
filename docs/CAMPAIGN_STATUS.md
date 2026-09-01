@@ -1,5 +1,42 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-01, B1234 — THE WALLS TRACE TO A6: THE SQUARING BUYS ORIENTABILITY AND COSTS
+EVERY VALUE)**: owner asked whether a wrong sub-branch built the walls. **It did, and the branch is
+named.** Eight banked walls all pass through one upstream fact — **the mirror is a self-isometry**,
+i.e. amphichirality. **And amphichirality is forced by the construction, not found in the object**:
+orientation double covers are amphichiral **40 of 40 = 100%** against a **3.0%** base rate among
+orientable 1-cusped manifolds; **m004 IS the orientation cover of the Gieseking manifold** (isometry
+verified, volume ratio 2). **And the arithmetic does not need A6**: π₁(Gieseking) ↠ 2T with **48
+surjections, identical to m004's**, same disc −3 class, same trace field ℚ(√−3) — so trace field →
+2T → McKay → E₆ runs without the squaring. **A6 ⇒ double cover ⇒ amphichiral ⇒ all eight walls.**
+P019 labels A6 `[AXIOM]` and B749 priced fork F5 **FRAGILE**, naming the Gieseking — **the record
+priced the choice and never connected it to the walls.** *The walls are properties of a choice made
+at link 6, not of "the minimal something."* **NOT claimed**: that dropping A6 makes values derivable
+— CS, the complex volume and SL(2,ℂ) rep theory all *use* orientation, so it may break the tools.
+Also landed: the **κ collision row** (five meanings; the register that covered conductor/level/θ-even/
+σ/π-6 had omitted the repo's most-used symbol) and **I-9 UNEARNED** with the ratchet baseline raised
+deliberately by hand.
+
+**LATEST (2026-09-01, B1233 — THE Z-AI AUDIT: 15 CONFIRMED, 7 REFUTED, ONE REAL DEFECT IN OUR OWN
+RECORD)**: owner — *take every letter seriously, verify never trust*. Everything recomputed here.
+**CONFIRMED**: the **Rogers dilogarithm partition** L(1/φ) = (3/5)ζ(2), L(1/φ²) = (2/5)ζ(2), summing
+to ζ(2) exactly — the golden grammar splits a weight-2 period into **forced rational weights**;
+Λ(m) = m²+4 is the **square of the Lagrange number**; Jones 4cos²(π/5) = φ²; the Fricke identity;
+**the void (2,2,2) is a (2,1) saddle** while (0,0,0) is the global minimum at κ = −4; the Riley value
+√3·e^{±iπ/6} = **our banked B285**; the Markoff stratum = 3× Markov triples; h(−15) = 2 with **2
+inert in both ends and splitting only in the meeting field**; j(√−3) = 54000. **REFUTED**:
+j(m004's cusp) ≠ 0 — it is 2.8×10⁹, and **j = 0 is m003's**, smuggled in by an "(or ω)"; the "q = 1
+cutoff → 744" (j diverges there); "k = 1 by minimality" — **the default-from-absence error B1232
+retracted two hours earlier**; the disc −15 j-values are **quadratic, not quartic**; and the headline
+**"the observer's bit IS the ideal class of ℚ(√−15)" — REFUTED by Galois**: conjugation fixes √5 and
+flips √−3, the class generator flips **both** — different elements, and B1174 already unified our
+four ℤ/2's as c. Registered **I-8 REFUTED**. **THE ONE REAL DEFECT, THEIRS TO CLAIM**: a **κ
+convention split** — the paper (§7, line 696) uses κ = tr − 2, the frontier record uses κ = tr raw;
+**harmonization owed**. **CONVERGENCE**: their *consistency forces the discrete* and this bench's
+independent same-day finding are one result — **every derived item is discrete/rational/torsion,
+every underived one continuous, zero exceptions** — because **the deriving machinery is arithmetic,
+and arithmetic cannot emit a continuum.**
+
 **LATEST (2026-09-01, B1232 — CODEX R031A/R031B VERIFIED ON THIS BENCH; THREE RETRACTIONS; AND A
 THIRD COLUMN)**: owner said *verify everything, trust nothing*, so codex's certs were **re-run here**
 and the positive lemma **re-derived independently**. **RETRACTED: (1) σ ∈ ℚ establishes nothing —

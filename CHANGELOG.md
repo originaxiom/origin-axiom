@@ -1,5 +1,78 @@
 # Changelog
 
+## THE WALLS TRACE TO A6 — the squaring buys orientability and costs every value (2026-09-01)
+
+Owner: *"maybe at some point we followed a wrong sub-branch on our math, that built the walls around
+us... the thing here is not whether our idea derives reality but whether we're clever enough to see
+how."* Tested, not assumed — and it holds.
+
+**The join.** Eight banked walls — k-blindness, CS = 0, chirality-not-self-supplied, the external CP
+sign, the naming wall, box D, the trivial value-kernel, no-forced-choice — **all** pass through one
+upstream fact: **the mirror is a self-isometry of the object.** That is amphichirality.
+
+**And amphichirality is forced by the construction, not found in the object.** Orientation double
+covers of the non-orientable cusped census: **40 of 40 amphichiral — 100%.** Control: the base rate
+among orientable 1-cusped manifolds is **6 of 200 — 3.0%.** m004 **is** the orientation cover of the
+Gieseking manifold (isometry verified, volume ratio exactly 2).
+
+**And the arithmetic does not need it.** π₁(Gieseking) ↠ 2T with **48 surjections — identical to
+m004's** — in the same disc −3 commensurability class, hence the same trace field ℚ(√−3). The route
+trace field → 2T → McKay → E₆ runs **without** the squaring.
+
+> **A6** (*take M², the orientable one*) ⇒ orientation double cover ⇒ amphichiral ⇒ **all eight
+> walls.**
+
+**P019 already labels A6 `[AXIOM]`; B749 already priced fork F5 FRAGILE, naming the det −1 sibling
+as the Gieseking. The record priced the choice and never connected it to the walls** — the same
+lost-edge class as B1227. **The walls are properties of a choice made at link 6, not of "the minimal
+something," and the record has read them as the latter for two years.**
+
+**Not claimed:** that dropping A6 makes values derivable. Chern–Simons, the complex volume and the
+SL(2,ℂ) representation theory all *use* orientation — dropping A6 may **break the tools** rather than
+open a door. That is now the live question, and it is sharp.
+
+**Also this window:** the **κ collision row** lands in TERMINOLOGY — κ names **at least five**
+quantities, and the register that already covered conductor/level/θ-even/σ/π-6 had omitted the
+repo's most-used symbol. Found by an external audit; **not an error in either document, a collision
+that was undocumented.** And **I-9** registers an external proposal (B155's (ℤ/2)² glue ≡ the genus
+V₄) as **UNEARNED**, raising the ratchet baseline **deliberately, by hand, with the discriminator
+recorded** — the genus group of disc −15 has order **2, not 4**, and the glue is lattice data while
+Gal is field data.
+
+## THE Z-AI AUDIT — 15 confirmed, 7 refuted, and one real defect in our own record (2026-09-01)
+
+Owner: *"where z-ai is wrong and where is right — take every letter seriously — verify never trust."*
+Nothing accepted on report; everything recomputed here.
+
+**Confirmed (30+ digits or symbolically exact).** The **Rogers dilogarithm partition** —
+L(1/φ) = π²/10 = (3/5)ζ(2), L(1/φ²) = π²/15 = (2/5)ζ(2), summing to **ζ(2) exactly**: the golden
+grammar splits a weight-2 period into two **forced rational weights**. **Λ(m) = m²+4 is the square of
+the Lagrange number** of the metallic ratio. Jones 4cos²(π/5) = φ². The Fricke identity. **The void
+(2,2,2) is a (2,1) saddle at κ = 0, and (0,0,0) is the global minimum at κ = −4** — the void is not
+the ground state. The Riley value √3·e^{±iπ/6} — **which is our banked B285**. The Markoff stratum's
+integer points = 3× Markov triples. h(−3) = 1, h(5) = 1, **h(−15) = 2**, and **2 is inert in both
+ends but splits only in the meeting field**. j(√−3) = 54000.
+
+**Refuted.** *"For m004's cusp τ = 2√3i (or ω), so j = 0"* — **j(2√−3) = 2.8×10⁹**; j = 0 is
+**m003's** cusp, and the parenthetical smuggled the sister in. *"At the q = 1 cutoff j → 744"* — j
+**diverges** at q = 1. *"k = 1 by minimality"* — **the default-value-from-absence error B1232
+retracted two hours earlier**. The disc −15 j-values are **quadratic, not quartic** (their own sum
+and product refute it). And the headline — *"the observer's bit IS the ideal class of ℚ(√−15)"* —
+**refuted by Galois**: complex conjugation fixes √5 and flips √−3; the class generator flips **both**.
+Different elements, and **B1174 already unified our four ℤ/2's as c**. Registered **I-8 REFUTED**.
+
+**The one real defect, and it is theirs to claim: a κ convention split inside our own repo.** The
+paper (`main.tex:696`) defines κ = tr[A,M] − 2; the frontier record (B285, B126, B330, B131) uses
+κ = tr[A,B] raw. Founding value **ω** under one, **2+ω = √3·e^{iπ/6}** under the other. **Harmonization
+owed.**
+
+**The convergence worth recording.** Their *"consistency forces the discrete; the continuous is the
+residue"* and this bench's independent finding the same day are one result: **every derived item in
+our record is discrete, rational or torsion; every underived one is continuous — zero exceptions
+either way.** And the mechanism is now sayable: **the deriving machinery is arithmetic** — anomaly
+cancellation gives integers, kernels give finite groups, amphichirality gives torsion, trace
+identities give rationals — **and arithmetic cannot emit a continuum.**
+
 ## CODEX R031A/R031B VERIFIED HERE — three retractions, and a third column the programme did not have (2026-09-01)
 
 Owner: *"verify everything, trust nothing."* Codex's certs were **re-run on this bench**, not cited;
