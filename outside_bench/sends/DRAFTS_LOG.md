@@ -9,6 +9,32 @@ is the only one to use under this instruction.
 
 ---
 
+## HOUSE STYLE (owner's instruction, 2026-08-31)
+
+> *"make the emails seam wrriten by human, not ai"*
+
+**All seven drafts were rewritten as letters.** What was cut and why — the tells were real:
+
+- **ALL-CAPS section headers** (`THE SETUP`, `WHAT WE DO NOT CLAIM`) — nobody writes a cold email
+  to a colleague with headers. Gone; the same content is now prose.
+- **Identical architecture across all seven.** This was the worst of it: mathematicians in adjacent
+  fields talk, and seven letters with the same skeleton would read as generated the moment any two
+  were compared. **Each letter now has its own shape and length** — Andersen's is short because he
+  wrote the thing being asked about; Gannon's leads with the striking fact; Thorne's opens by
+  admitting it's a cold email.
+- **The tidy symmetric "why either answer pays" block.** Real people say *"that would suit me as well
+  as a positive one"* in passing, mid-paragraph.
+- **The quarantined `WHAT WE DO NOT CLAIM` section.** **Every fence is still there** — it is now said
+  the way a person says it (*"I should be honest that I don't expect the count to be 1"*,
+  *"that's a guess from the shape of the problem rather than anything I derived"*, *"I'd very likely
+  get it wrong"*). **Nothing was softened to sound casual.**
+- **Corporate "we"** where one person is writing. Now first-person singular throughout.
+
+**`Q11` to Dimofte went out in the old style and cannot be recalled.** Noted so a later seat does not
+wonder why one sent letter reads differently from the seven drafts.
+
+---
+
 ## SENT (one item, before the draft-only instruction)
 
 | item | to | when | id |
