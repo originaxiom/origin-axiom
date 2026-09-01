@@ -1,0 +1,8 @@
+PASS mixed-dual 27=(15,1)+(bar6,2_E) has dimension 27
+PASS unique internal-SU6 joint match Y6 = (-1/3,-1/3,-1/3,1/2,1/2,0)
+CONTROL charge histogram alone admits a false positive rejected by joint reps
+CONTROL external-SU2_E abstract match is not an unbroken centralizer gauge factor
+CONTROL diagonal weak contains a triplet absent from the target
+RESULT A1/SU6 branch reproduces the full joint SM-shaped E6 27 exactly
+DATA commuting block-scalar rank = 2: hypercharge plus one extra U1
+SCOPE compatibility theorem; A1 selection, extra-U1 breaking, physical matter/spin, chirality, generations, dynamics and values remain open

@@ -1,0 +1,41 @@
+{
+  "schema": "oa-r035-a1-su6-sm-branching-sources-v1",
+  "source_commit": "864c6b758e2bbd0e0921f5e36af47df68b3c99ca",
+  "sources": {
+    "b254": {
+      "path": "frontier/B254_uniqueness_chain/FINDINGS.md",
+      "git_blob_sha1": "975cd957c678f4d6ca99c989b4a18de424d0a1a0",
+      "fact": "the SU6 x SU2 branching of the E6 27 is standard representation theory; its physical SM reading was firewalled"
+    },
+    "b1098": {
+      "path": "frontier/B1098_nonabelian_hatch/FINDINGS.md",
+      "git_blob_sha1": "80682625d94d1d7fa5cfa61fd867d70a2e7aa29d",
+      "fact": "the minimal A1 stratum has centralizer su6 of rank 5 and is SM-compatible with one extra u1"
+    },
+    "b1102": {
+      "path": "frontier/B1102_exact_hypercharge_solve/FINDINGS.md",
+      "git_blob_sha1": "16df38b29a6d560b3c10c9af20388dfef5a068df",
+      "fact": "the frozen 27-state hypercharge target has multiplicities 6,6,4,3,3,2,2,1"
+    },
+    "b1109": {
+      "path": "frontier/B1109_selection_cluster/FINDINGS.md",
+      "git_blob_sha1": "347288f3039fbb455f48878b612aa1d77bf6058d",
+      "fact": "the A2 branch's exact charge target cannot commute with color for factor or diagonal color"
+    },
+    "b1112": {
+      "path": "frontier/B1112_projective_hatch/FINDINGS.md",
+      "git_blob_sha1": "390fbb4c033e78dffdde843ecfcdf75e4fd51275",
+      "fact": "A1 is the nonprojective SM-compatible landing and the text references an F2 MATCH-UP-TO-FRAME result"
+    },
+    "b1139": {
+      "path": "frontier/B1139_symmetry_point_table/FINDINGS.md",
+      "git_blob_sha1": "74d05d28fbd364c636bd8cdb04116a77e8843659",
+      "fact": "the banked 27-state table fixes the standard joint color, weak and hypercharge assignment refining B1102's charge multiset"
+    },
+    "b1145": {
+      "path": "frontier/B1145_sp2_fermion_seat/FINDINGS.md",
+      "git_blob_sha1": "bbfc235ced367c9294c02e72907506abd6039c24",
+      "fact": "the beat-selected internal lift closes on the odd A1 27, while the 4d physical-spin map remains unearned"
+    }
+  }
+}
