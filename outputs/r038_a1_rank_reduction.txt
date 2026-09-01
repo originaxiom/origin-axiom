@@ -1,0 +1,6 @@
+PASS compact action kernel in SU(6) alone has dimension 24 and rank 4 = SU(5)
+PASS full-product stabilizer algebra is u(5); cover preimage U(5), E6 image U(5)/C2
+PASS VEV is Y-neutral, breaks pure X, and preserves diagonal (2Y+5X,-5T_E)
+RESULT 27 -> 10_2 + 5_-4 + bar5_-6 + bar5_4 + 1_0 + 1_10
+NEGATIVE one decomposable VEV is not D-flat; moment norms are 5/6 and 1/2
+SCOPE SU(2)_E-as-holonomy gives conditional SU(6)->SU(5); no zero mode, VEV selection, SUSY vacuum or physical matter map

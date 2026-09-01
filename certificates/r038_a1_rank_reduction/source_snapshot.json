@@ -1,0 +1,26 @@
+{
+  "schema": "oa-r038-a1-rank-reduction-sources-v1",
+  "source_commit": "b92644283529b5b82334f9863b4a90ed0c1c9204",
+  "sources": {
+    "r035_certificate": {
+      "path": "certificates/r035_a1_su6_sm_branching/a1_su6_sm_branching.py",
+      "git_blob_sha1": "ebdada2ca9ff7e86cd26fb62c49d7b90fad1d5f1",
+      "fact": "the exact mixed-dual A1/SU6 branching and the Y6 embedding"
+    },
+    "r035_memo": {
+      "path": "memos/A1_SU6_EXACT_SM_BRANCHING.md",
+      "git_blob_sha1": "fef6a4448406c039d84569848904ad8f103760b4",
+      "fact": "SU2_E is the holonomy A1 and SU6 is its unbroken gauge centralizer"
+    },
+    "b1098_findings": {
+      "path": "frontier/B1098_nonabelian_hatch/FINDINGS.md",
+      "git_blob_sha1": "80682625d94d1d7fa5cfa61fd867d70a2e7aa29d",
+      "fact": "the minimal A1 stratum has SU6 centralizer at rank five"
+    },
+    "b964_findings": {
+      "path": "frontier/B964_vev_correction/FINDINGS.md",
+      "git_blob_sha1": "ec8211515297e9ca76e0910056f111e25446d914",
+      "fact": "the programme's named missing operation is a rank-reducing 27 VEV, with representation typing mandatory"
+    }
+  }
+}
