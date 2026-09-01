@@ -6,17 +6,24 @@ proved here — that is the evaluating seat's job.
 ## Coverage modulus (exact)
 
 - **File:** `CHANGELOG.md`, 12,956 lines, ~1.2 MB, 774 `##` entries spanning 2026-06-03 → 2026-09-01.
-- **Read END-TO-END, every line, in 33 contiguous chunks** (lines 1–12,956, no gaps, no skipped
-  ranges). Verified continuity by offset bookkeeping; the heading map (all 774 headings) was
-  extracted first and used as a completeness check.
+- **Read END-TO-END this session, every line, in 37 contiguous chunks** (lines 1–12,956, no gaps),
+  newest-first in priority: the full heading map (all 774 headings) was extracted first and used as
+  a completeness check; chunk offsets were tracked so no range was skipped.
+- **Provenance note:** a prior draft of this digest was found already on disk (evidently from an
+  interrupted earlier run of the same sweep). It was NOT trusted: every claim in it was re-checked
+  against this session's own full read; the coverage section was rewritten to this run's actual
+  bookkeeping; one red flag was softened (Γ₄₁ level — the record does hold a "different
+  filtrations" disposition) and one new red flag was added (B152 → B1012, found only by reading the
+  June tail).
 - Depth was uniform-in-lines but not uniform-in-attention: the newest band (B1216–B1232, lines
   1–860) and the paper-facing band (2026-08-29 → 08-31) were read closely against the live board;
   the July trace-map/monoid era and the `[Unreleased]` tail (June 2026, B48–B352) were read fully
   but digested at arc-level granularity.
-- **Not done here:** no cross-check against `PROGRESS_LOG.md`, arc directories, or test locks; live
-  surfaces consulted were only `docs/CAMPAIGN_STATUS.md` (top ~8 entries) and
-  `papers/P3_THE_PAPER/SPEC.md` (first ~60 lines) plus the P3 draft-related changelog entries
-  themselves. Any claim below about "the paper" is about the paper *as the changelog describes it*.
+- **Live surfaces consulted:** `docs/CAMPAIGN_STATUS.md` top ~110 lines (through the B1225
+  paragraph — enough to verify the stacked-LATEST contradiction claims verbatim) and
+  `papers/P3_THE_PAPER/SPEC.md` (first ~60 lines + a grep for the "one bit" claim). **Not done
+  here:** no cross-check against `PROGRESS_LOG.md`, arc directories, or test locks. Any claim below
+  about "the paper" is about the paper *as the changelog and SPEC describe it*.
 
 ## Structural facts about the file itself (version-boundary mechanics)
 
@@ -86,11 +93,11 @@ any, is not restated). **This is an open question the digest hands to the evalua
 - **Owner directives recorded only in prose:** all specialist sends HOLD, per-item owner approval
   (B1179/B1181); "the paper will be crafted owner+cc after the math is exhausted"; privacy rule —
   owner's name/email never in tracked files (author block deliberately placeholder at submission
-  prep, B-submission-campaign S3); cc3's branch carries the owner's personal email on
+  prep, submission campaign S3); cc3's branch carries the owner's personal email on
   `SUBMISSION_METADATA.md` — surfaced to owner, deliberately untouched (B1152).
 - **The D2/LEAP-1 authority question is still the owner's**: cloud downgraded the payment to
   PROVISIONAL because the owner's "go" may have been a general continue; "owed to the owner: one
-  binary decision" (B1212). I found no later changelog entry recording that decision.
+  binary decision" (B1212). No later changelog entry records that decision.
 - **The θ-even crossing (the last licensed value crossing) is RELEASED and UNSPENT** (B1217): the
   hold was owner-authorized, released, and deliberately not fired — the licensed row remains
   unspent. Easy to lose; it is a live one-shot resource.
@@ -115,40 +122,47 @@ any, is not restated). **This is an open question the digest hands to the evalua
 
 ## Contradictions / tensions with the current live board (B1216–B1232 era)
 
-1. **Stacked LATEST entries preserve superseded headlines without inline strikes.** The board's
-   B1229 paragraph still displays "σ ∈ {1/3, 1} — ONE BIT. ℝ⁺ → 7 → 2" and B1228's "the level is
-   forced by inventory… the mechanism that pins σ"; both are retracted two paragraphs above
-   (B1231/B1232). Same for B1230's "C-5b recovery… the object's own ℤ/3 cuts four to one —
-   stronger than what B1229 claimed," which B1231/B1232 indict (unearned identification;
-   ℤ/2-as-ℤ/3 conflation). The board is newest-first so a full read is safe, but any citation of
-   the B1228/B1229/B1230 paragraphs in isolation propagates retracted content. This mirrors the
-   repo's own E53/RETRACTED_PHRASES failure mode, now on its most prominent surface.
+1. **Stacked LATEST entries preserve superseded headlines without inline strikes** (verified
+   verbatim on the board this sweep). The board's B1229 paragraph still displays "σ ∈ {1/3, 1} —
+   ONE BIT. ℝ⁺ → 7 → 2" and B1228's "the level is **forced by inventory**… the **mechanism that
+   pins σ**"; both are retracted two paragraphs above (B1231/B1232). Same for B1230's "C-5b
+   recovery… the object's own ℤ/3 cuts four to one — stronger than what B1229 claimed," which
+   B1231/B1232 indict (unearned identification; ℤ/2-as-ℤ/3 conflation). The board is newest-first
+   so a full read is safe, but any citation of the B1228/B1229/B1230 paragraphs in isolation
+   propagates retracted content. This mirrors the repo's own E53/RETRACTED_PHRASES failure mode,
+   now on its most prominent surface.
 2. **B1216's "C4 delivered as predicted" (σ one-bridge-missing with a runnable gate at χ_∂, c = 6)**
    is quietly hollowed by B1231's citation-debt finding (the c = 6 gate leaned on MMS-at-ℓ=0 and
    an unread Anderson–Moore/Vafa). The board does not annotate the B1216 paragraph.
-3. **Congruence level of Γ₄₁ / m004:** B734 banked "m004 IS congruence at level (2)³ = (8),
-   correcting B731" (with a "Serre-defying… pending external literature cross-check" caveat I never
-   saw discharged); B794 later banked "Γ₄₁ is congruence of level **exactly (4)**" (Γ(4) ⊆ Γ₄₁,
-   Γ(2) ⊄ Γ₄₁). E23 rules that level claims must name their filtration, and Chat-1 reconciled the
-   *indices* (6 vs 12 in different quotients), but I found no entry reconciling **(8) vs (4)** as
-   levels by name. Possible dangling discrepancy between two PROVED-grade banked entries.
+3. **Congruence level of Γ₄₁ / m004 — dispositioned but never closed by name:** B734 banked "m004
+   IS congruence at level (2)³ = (8), correcting B731" (with a "Serre-defying… pending external
+   literature cross-check" caveat never seen discharged); B794 later banked "Γ₄₁ is congruence of
+   level **exactly (4)**" (Γ(4) ⊆ Γ₄₁, Γ(2) ⊄ Γ₄₁). The record *does* hold a disposition: the
+   owner-directed context re-read (2026-07-30 era) records the three answers as "different
+   filtrations" per E23 and flags a "DISCREPANCY REQUIRING RESOLUTION"; Chat-1's review then
+   resolved the *index* arithmetic (Z ∩ H = {±I}; PSL-index 6 and SL/{±I}-index 12 both correct in
+   their own groups; E23 strengthened to a three-group rule). What the changelog never carries is a
+   single by-name statement that "(8) in the PSL filtration" and "(4) in the SL-kernel filtration"
+   are both final and compatible — the two PROVED-grade level claims still read as contradicting
+   each other when hit in isolation.
 4. **B1012's "blind-to-k ⟺ CS = 0 ⟺ amphichiral"** was refuted at its second link by B1226
    (m003/m135/m207: amphichiral, CS = ¼; m208: chiral, CS = 0; corrected law: blind-to-k ⟺ complex
    volume real). Six surfaces were corrected, but the B1012 changelog entry itself (and every
    intermediate entry that quotes "relocated beyond the object's reach in principle" — e.g. B1228's
-   own text) carries no banner.
+   own text) carries no banner. See also red flag 6 below: the refuting counterexample was already
+   banked in June.
 
 ## Staleness / divergence vs the P3 paper (as of its last recorded touch, 2026-08-31)
 
 The paper's last changelog-recorded state is the submission campaign (17 pages, S0–S6,
 2026-08-31) — i.e., it **predates B1231 and B1232 entirely**. Specific exposure:
 
-- **"Prices the observer at exactly one bit"** (SPEC §0 one-sentence claim). The record around it:
-  B1164 census = 2 discrete + 1 continuous bits (V₄, not one bit); B1015/B1188 end-state = one
-  unit ℓ + bits + finite labels; and B1231 now makes every parameter count a **lower bound** until
-  identifications are earned. Whether the paper's "one bit" is the defensible c-bit-only reading or
-  an overclaim is for the evaluating seat; the spec sentence as written is in tension with the
-  record's own later typing.
+- **"Prices the observer at exactly one bit"** (SPEC §0 one-sentence claim; verified in the SPEC
+  this sweep). The record around it: B1164 census = 2 discrete + 1 continuous bits (V₄, not one
+  bit); B1015/B1188/B1191 end-state = one unit ℓ + bits + finite labels; and B1231 now makes every
+  parameter count a **lower bound** until identifications are earned. Whether the paper's "one bit"
+  is the defensible c-bit-only reading or an overclaim is for the evaluating seat; the spec
+  sentence as written is in tension with the record's own later typing.
 - **The ℙ³ row.** Paper (per B1220/B1230-era corrections): "closed permanently, one named datum
   outstanding, blocked on codex R030." B1232 now claims the row dissolves *differently* — the
   three coordinates are representational, spread-0 under an annihilating coupling, "count the
@@ -160,17 +174,17 @@ The paper's last changelog-recorded state is the submission campaign (17 pages, 
   record a post-B1232 paper pass.
 - Historical paper corrections that DID land and should be checked as still present: the
   A₂+A₁-Levi deflation (B951/B1210 — "the landing" moved to the recognition table; the SPEC carries
-  the ⚠-corrected block), arena/content split (252/222/2, zero object tokens — B1170), B862+B1080
-  dual citation for ℤ₆, λ external-by-theorem (B721/GC-22), Gieseking covering direction (got
-  backwards twice in one day; "now assume we get wrong by default").
+  the ⚠-corrected block, verified this sweep), arena/content split (252/222/2, zero object tokens —
+  B1170), B862+B1080 dual citation for ℤ₆, λ external-by-theorem (B721/GC-22), Gieseking covering
+  direction (got backwards twice in one day; "now assume we get wrong by default").
 
 ## Red flags (each: locus + why suspicious)
 
-1. **CHANGELOG lines 8–24 vs 84–186 (B1232 vs B1229/B1228):** retracted headlines ("σ one bit";
+1. **CHANGELOG lines 1–186 (B1232 vs B1229/B1228):** retracted headlines ("σ one bit";
    "k = 1 forced") stand un-bannered in their original entries and on the live board's
    corresponding paragraphs — the repo's own named failure mode (E53 / retraction-not-propagated,
    B1004) recurring at the record's very top, in its highest-visibility band.
-2. **Anderson–Moore/Vafa (B1229 entry, line ~129):** a load-bearing literature step that was
+2. **Anderson–Moore/Vafa (B1229 entry):** a load-bearing literature step that was
    **cited, never read** ("neither paper could be read" — B1231), underpinning the entire σ∈ℚ
    move. Asserted-not-computed in the strict sense; now fenced, but every intermediate surface
    that repeated "σ is rational" between 08-31 and 09-01 inherited an unread citation.
@@ -182,26 +196,38 @@ The paper's last changelog-recorded state is the submission campaign (17 pages, 
    (3,4,1) sequence, lepton connecting block) — the board and changelog both fence this, but the
    "first closure mechanism that does not require the naming wall to fall" headline is currently
    supported on this bench by algebra + two retrieval certs only.
-5. **Γ₄₁ congruence level (8) vs (4)** — B734 vs B794, no by-name reconciliation of the *level*
-   found in the record (see above).
-6. **B1217 evidence-contract gap:** cloud's V-NEG *headline* run is "not reproducible as
+5. **Γ₄₁ congruence level (8) vs (4)** — two PROVED-grade banked entries that contradict each other
+   on their face; dispositioned as "different filtrations" (E23 + the context re-read + Chat-1's
+   index reconciliation) but never closed by a by-name statement reconciling both *level* values;
+   B734's own "pending external literature cross-check" caveat was never seen discharged (see
+   Contradictions item 3).
+6. **NEW (from the June tail): B1012's equivalence was refutable from the corpus's own banked data
+   2.5 months before it fell.** **B152 (2026-06-11)** ran a 240-manifold census and banked "exactly
+   one converse counterexample (**m208, chiral with CS = 0**) — CS-2-torsion is **necessary but not
+   sufficient**." **B1012 (2026-08-10)** then banked "blind-to-k ⟺ CS = 0 ⟺ amphichirality" as an
+   equivalence, and it stood — quoted upward into H11's "relocated beyond the object's reach in
+   principle" and into B1228 — until **B1226 (2026-08-31)** re-exhibited m208 (plus m003/m135/m207
+   at CS = ¼) via B1224's undrawn consequence. B1226 credits B1224, not B152: the record itself has
+   not named this as an E53/lost-edge instance, though it is one — the killing datum sat banked in
+   the June tail the whole time.
+7. **B1217 evidence-contract gap:** cloud's V-NEG *headline* run is "not reproducible as
    committed" (typed CITED, artifact missing). If any live surface treats the extended V-NEG as
    verified, it overstates.
-7. **The B653 JUNO "OUTCOME A" (sin²θ₁₂ = 1/(2φ))** was later reclassified
+8. **The B653 JUNO "OUTCOME A" (sin²θ₁₂ = 1/(2φ))** was later reclassified
    VALID-AS-LETTER / **VOID-AS-HELD-OUT-CONFIRMATION** and B1066 then *exhausted* the licensed
    contact surface with a 4.7σ exclusion of sin²θ₁₂ and 3.4σ on |U_e1| = φ/2. Any narrative reuse
    of the B653 "hit" without the void reclassification is a live hazard (the changelog handles it
    correctly; downstream summaries may not).
-8. **"Level (4)/(8)" aside, the record's own meta-warning generalizes:** B1216 — MB12-vacuities are
-   migrating into *supporting clauses*; B1231 — the detection instrument for the dominant error
-   mode misses the bare "X IS Y" phrasing by design. The evaluating seat should treat one-line
-   verdict summaries (the exact genre of this file) as the least-audited layer, per B1220's own
-   finding that "the one-liner is what downstream surfaces quote" and can contradict its own cell
-   (B1196/GC-27 instance).
-9. **Format break + [Unreleased] inversion** (lines 7538, 10899): mechanical, but it means any
-   tooling or reader that parses the file by Keep-a-Changelog conventions silently mis-orders two
-   months of history.
-10. **Unspent one-shots and undischarged owner decisions live only in prose:** the θ-even crossing
+9. **The record's own meta-warning generalizes:** B1216 — MB12-vacuities are migrating into
+   *supporting clauses*; B1231 — the detection instrument for the dominant error mode misses the
+   bare "X IS Y" phrasing by design. The evaluating seat should treat one-line verdict summaries
+   (the exact genre of this file) as the least-audited layer, per B1220's own finding that "the
+   one-liner is what downstream surfaces quote" and can contradict its own cell (B1196/GC-27
+   instance).
+10. **Format break + [Unreleased] inversion** (lines 7538, 10899): mechanical, but it means any
+    tooling or reader that parses the file by Keep-a-Changelog conventions silently mis-orders two
+    months of history.
+11. **Unspent one-shots and undischarged owner decisions live only in prose:** the θ-even crossing
     (released, unfired), the D2 signature confirmation, the L192 bit-level box-D license
     (registered, not banked). None of these are contradictions, but they are decisions/dispositions
     a live board reader would not reconstruct.
@@ -209,7 +235,7 @@ The paper's last changelog-recorded state is the submission campaign (17 pages, 
 ## Era map (for orientation, one line each)
 
 - **Jun 2026 ([Unreleased] tail, B48–B352):** metallic trace maps, SL(n) tower, A-polynomials;
-  founding refutations kept visible (cotangent formulas, B192 parity law, PC13).
+  founding refutations kept visible (cotangent formulas, B192 parity law, PC13); B152's CS census.
 - **Jul 1–14:** commensurability/class-level deflation (B727/B803 lineage), P5 withdrawal, the
   E₆ 27 built (B883/B904), measurement theorems (B874–B897), the cascade (B859–B873).
 - **Jul 15–19:** θ-odd sector, chiral play, hearing law, fiber-functor torsors (B700s), Kim/
