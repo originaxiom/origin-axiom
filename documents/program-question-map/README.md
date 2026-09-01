@@ -4,17 +4,18 @@ This directory is the shared, living source for the Codex seat's hostile closure
 `inventory/backbone.json`; never hand-edit the generated
 `../PROGRAM_QUESTION_ANSWER_MAP.md`.
 
-Wave-6 source locks:
+Wave-9 source locks:
 
 ```text
-origin/main                  4526eb49214cdc3c038191870421f32d6819b79d
-origin outside-bench ref    287e8f75efa34141dfb00ff2c30215cd50036ee5
+origin/main                  6ea67db72ae51efaf2024cd6903702491e17d105
+origin outside-bench ref    2e4f11f673f328c275a795f8da778f7d31b9fe43
 origin paper branch         a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4
 golden_gate handoff         6fc86147e553773335b665d6d460e1eaa77aaaf0
+codex R031A/R031B           734845a7a38ac6dbdbebc24b6465d084a98f72d7
 ```
 
-Wave-6 canonical state: 185 rows; 70 `PROVED`, 55 `REFUTED`, 15 `CONDITIONAL`,
-22 `EXTERNAL_BLOCKER`, 2 `EMPIRICAL`, and 21 `OPEN`.
+Wave-9 canonical state: 201 rows; 75 `PROVED`, 61 `REFUTED`, 15 `CONDITIONAL`,
+22 `EXTERNAL_BLOCKER`, 2 `EMPIRICAL`, and 26 `OPEN`.
 
 ## Update loop
 
@@ -30,13 +31,13 @@ PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/validate.py
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \
   --markdown documents/PROGRAM_QUESTION_ANSWER_MAP.md \
-  --as-of 2026-08-29
+  --as-of 2026-09-01
 PYTHONDONTWRITEBYTECODE=1 python3 documents/program-question-map/render.py \
   --source documents/program-question-map/inventory/backbone.json \
   --markdown documents/PROGRAM_QUESTION_ANSWER_MAP.md \
-  --as-of 2026-08-29 --check
+  --as-of 2026-09-01 --check
 ```
 
 `OPEN` is an honest nonterminal state.  `CONDITIONAL` and `EXTERNAL_BLOCKER` account for an
 obligation but do not count as parameter-free physical closure. The latest hostile audit and
-twenty-one-item live queue are in `evidence/PROGRESS_BANK_2026-08-28_WAVE6.md`.
+twenty-six-item live queue are in `evidence/PROGRESS_BANK_2026-09-01_WAVE9.md`.
