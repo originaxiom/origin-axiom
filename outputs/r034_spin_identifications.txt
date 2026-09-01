@@ -1,0 +1,7 @@
+PASS B1145 exact internal beat/A1 closure is preserved
+PASS B1145 itself separates internal A1 from 4d Lorentz spin
+PASS B1218 itself says boundary theta is not identified with B1141 spin
+CONTROL a map without faithful action remains UNEARNED
+RESULT I-8 internal-A1 to 4d-spacetime-spin = UNEARNED
+RESULT I-9 boundary-theta to bulk/observer-spin = UNEARNED
+SCOPE two legacy identifications; no algebraic theorem is retracted
