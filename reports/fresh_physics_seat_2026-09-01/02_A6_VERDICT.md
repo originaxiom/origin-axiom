@@ -119,7 +119,11 @@ has not taken — and my residual recommendation — is the **relabeling itself*
 first closing, object → class/Gieseking, amphichirality → theorem-of-the-construction),
 which shortens the axiom count at the entrance from three to two plus one closing, and
 converts the 83/112-member amphichirality census from evidence into an instance of a
-one-line theorem.
+one-line theorem. *[Corrected 2026-09-01, after Ring R2 cell R20: that census is FALSE as banked —
+B1186's instrument was orientation-blind; the orientation-aware count is 38/112 (R2_REPORT §5,
+D5), and the 112 family is not a family of double covers, so the theorem applies to m004 and to
+the covers, not to the family. The sentence's point — amphichirality of m004 is forced, not
+observed — stands; its census support does not.]*
 
 ## Pre-registered falsifiers of this verdict (stated before I computed)
 

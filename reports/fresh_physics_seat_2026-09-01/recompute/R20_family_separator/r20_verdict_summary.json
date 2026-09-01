@@ -1,0 +1,76 @@
+{
+ "cell": "R20_family_separator (Ring R2)",
+ "date": "2026-09-01",
+ "blind_first_record": {
+  "read_before_own_code": [
+   "frontier/B1136_genericity_on_the_wins/FINDINGS.md lines 1-100 (claim + banked table only)",
+   "frontier/B1186_family_is_112/FINDINGS.md lines 1-60 (claim + banked numbers only)"
+  ],
+  "read_after_blind_runs": [
+   "frontier/B1136_genericity_on_the_wins/verify_genericity.py + b1136_results.json",
+   "frontier/B1186_family_is_112/verification/family_census.json + family_census.py",
+   "frontier/B1224_amphichiral_cs_torsion/FINDINGS.md (CS lines) + kappa_cs.py"
+  ]
+ },
+ "verdicts": {
+  "B1136_separator_table_six_of_seven_rows": "MATCH (exact sharer sets)",
+  "B1136_unique_separator_h1_is_Z_at_14_scope": "MATCH (and robust: survives corrected amphichirality and 21-member scope)",
+  "B1136_family_exactly_14": "DISCREPANCY at stated scope: verify_genericity.py breaks at census index 1200; s955-s961 (indices 1256-1262) satisfy the criterion; true <=6-tet count is 21; superseded by B1186's 112 (all 21 in members_B); cause is truncation, not the criterion conflation B1186 named",
+  "B1136_CS0_row_vs_B1224": "MATCH with note: m003 never in banked CS=0 set; my own CS(m003)=+0.25 confirms B1224's 1/4; no separator status changes",
+  "B1186_family_112": "MATCH set-identical (my independent sweep of 212641, exact sympy certification of every member)",
+  "B1186_regular_A_77_nested": "MATCH set-identical, A subset B, 35 non-regular",
+  "B1186_t06829": "MATCH (max den 98 next 49, vol exactly 3x Vol(m004), 2 cusps, exact gluing certification True) \u2014 typo: has 8 tets, not 7",
+  "B1136_B1186_amphichirality_family_wide": "VACUITY + DISCREPANCY: banked instrument (reverse_orientation + is_isometric_to) cannot fail (returns True for chiral m015/m016/m019); orientation-aware tests (self-isometry cusp-map det = -1, and symmetry_group().is_amphicheiral(), agreeing on all 112, calibrated on 7 knowns) give 38/112 amphichiral; within banked 14 only 6: m003,m004,m203,m206,m207,s596",
+  "B1224_2torsion_on_corrected_set": "MATCH: all 38 truly-amphichiral members have CS in {0, 1/4} mod 1/2, zero violators (law FAILS on vacuous set, e.g. chiral m202 CS=1/12)",
+  "volume_integer_ladder": "MATCH: all 112 at n*V_gie (V_gie=Cl2(pi/3)=1.0149416064...), n in {2,4,5,6,7,8,9,10}; banked 14 at {2,4,5}; ladder dist {2:2,4:7,5:5,6:12,7:4,8:31,9:4,10:47}"
+ },
+ "planted_controls": {
+  "certifier_rejects_wrong_shapes": true,
+  "drop_m003_makes_3_separators": [
+   "h1_is_Z",
+   "volume",
+   "tets"
+  ],
+  "plant_m015_kills_h1_separator": true,
+  "m006_negative_excluded": true,
+  "t06829_planted_positive_found_by_sweep": true,
+  "amph_calibration": {
+   "amphichiral_knowns": [
+    "m003",
+    "m004",
+    "m135",
+    "m136",
+    "m206",
+    "m207"
+   ],
+   "chiral_knowns": [
+    "m015",
+    "m016",
+    "m019"
+   ]
+  }
+ },
+ "corrected_family14_amphichiral": [
+  "m003",
+  "m004",
+  "m203",
+  "m206",
+  "m207",
+  "s596"
+ ],
+ "corrected_family14_chiral": [
+  "m202",
+  "m208",
+  "m410",
+  "m412",
+  "s118",
+  "s119",
+  "s594",
+  "s595"
+ ],
+ "h1Z_members_at_112_scope": [
+  "m004",
+  "o10_150700"
+ ],
+ "amphichiral_count_112_corrected": 38
+}

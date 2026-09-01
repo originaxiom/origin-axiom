@@ -1,0 +1,31 @@
+== banked instrument (reverse_orientation + is_isometric_to) vs orientation-aware test ==
+m015   banked=True  amphicheiral=False CS=0.346796
+m016   banked=True  amphicheiral=False CS=0.263463
+m019   banked=True  amphicheiral=False CS=0.352219
+m202   banked=True  amphicheiral=False CS=0.083333
+s118   banked=True  amphicheiral=False CS=0.083333
+m208   banked=True  amphicheiral=False CS=0.0
+m004   banked=True  amphicheiral=True  CS=0.0
+m003   banked=True  amphicheiral=True  CS=0.25
+
+== 112 family == amphichiral: 38
+  amphichiral=False CS=0.0 : 22
+  amphichiral=False CS=0.083333 : 5
+  amphichiral=False CS=0.125 : 1
+  amphichiral=False CS=0.166667 : 11
+  amphichiral=False CS=0.208333 : 2
+  amphichiral=False CS=0.25 : 16
+  amphichiral=False CS=0.291667 : 2
+  amphichiral=False CS=0.333333 : 7
+  amphichiral=False CS=0.375 : 2
+  amphichiral=False CS=0.416667 : 5
+  amphichiral=False CS=0.458333 : 1
+  amphichiral=True CS=0.0 : 25
+  amphichiral=True CS=0.25 : 13
+H1=Z members: [('m004', True, 0.0, 2), ('o10_150700', False, 0.416667, 10)]
+
+== o10_150700 == 1 cusp; Z ; tets 10 ; vol/V_gie 10.0
+  CS = -0.0833333 ; amphicheiral: False ; symmetry group: Z/2
+  is a 5-fold cover of m004: False
+  is a 10-fold orientable cover of m000: False
+  5-fold covers of m004 (H1, amphichiral, CS): [('Z/11 + Z/11 + Z', True, 0.0), ('Z/2 + Z + Z', False, 0.0), ('Z + Z + Z', True, 0.0), ('Z/2 + Z + Z', False, 0.0)]

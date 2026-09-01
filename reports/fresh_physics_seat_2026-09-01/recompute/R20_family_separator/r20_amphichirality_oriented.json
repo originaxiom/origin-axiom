@@ -1,0 +1,450 @@
+{
+ "m003": [
+  true,
+  true
+ ],
+ "m004": [
+  true,
+  true
+ ],
+ "m202": [
+  false,
+  false
+ ],
+ "m203": [
+  true,
+  true
+ ],
+ "m206": [
+  true,
+  true
+ ],
+ "m207": [
+  true,
+  true
+ ],
+ "m208": [
+  false,
+  false
+ ],
+ "m410": [
+  false,
+  false
+ ],
+ "m412": [
+  false,
+  false
+ ],
+ "s118": [
+  false,
+  false
+ ],
+ "s119": [
+  false,
+  false
+ ],
+ "s594": [
+  false,
+  false
+ ],
+ "s595": [
+  false,
+  false
+ ],
+ "s596": [
+  true,
+  true
+ ],
+ "s955": [
+  true,
+  true
+ ],
+ "s956": [
+  false,
+  false
+ ],
+ "s957": [
+  true,
+  true
+ ],
+ "s958": [
+  false,
+  false
+ ],
+ "s959": [
+  false,
+  false
+ ],
+ "s960": [
+  true,
+  true
+ ],
+ "s961": [
+  true,
+  true
+ ],
+ "v2873": [
+  false,
+  false
+ ],
+ "v2874": [
+  false,
+  false
+ ],
+ "v2875": [
+  false,
+  false
+ ],
+ "v3551": [
+  false,
+  false
+ ],
+ "t06828": [
+  false,
+  false
+ ],
+ "t06829": [
+  true,
+  true
+ ],
+ "t11365": [
+  false,
+  false
+ ],
+ "t12833": [
+  false,
+  false
+ ],
+ "t12834": [
+  false,
+  false
+ ],
+ "t12835": [
+  false,
+  false
+ ],
+ "t12836": [
+  false,
+  false
+ ],
+ "t12837": [
+  false,
+  false
+ ],
+ "t12838": [
+  true,
+  true
+ ],
+ "t12839": [
+  true,
+  true
+ ],
+ "t12840": [
+  true,
+  true
+ ],
+ "t12841": [
+  true,
+  true
+ ],
+ "t12842": [
+  true,
+  true
+ ],
+ "t12843": [
+  false,
+  false
+ ],
+ "t12844": [
+  false,
+  false
+ ],
+ "t12845": [
+  false,
+  false
+ ],
+ "o9_27787": [
+  false,
+  false
+ ],
+ "o9_40998": [
+  false,
+  false
+ ],
+ "o9_40999": [
+  false,
+  false
+ ],
+ "o9_41000": [
+  false,
+  false
+ ],
+ "o9_41001": [
+  false,
+  false
+ ],
+ "o9_41002": [
+  false,
+  false
+ ],
+ "o9_41003": [
+  false,
+  false
+ ],
+ "o9_41004": [
+  false,
+  false
+ ],
+ "o9_41005": [
+  false,
+  false
+ ],
+ "o9_41006": [
+  false,
+  false
+ ],
+ "o9_41007": [
+  false,
+  false
+ ],
+ "o9_41008": [
+  false,
+  false
+ ],
+ "o9_41009": [
+  false,
+  false
+ ],
+ "o9_44249": [
+  false,
+  false
+ ],
+ "o10_064767": [
+  false,
+  false
+ ],
+ "o10_107944": [
+  false,
+  false
+ ],
+ "o10_107945": [
+  false,
+  false
+ ],
+ "o10_107946": [
+  false,
+  false
+ ],
+ "o10_107947": [
+  false,
+  false
+ ],
+ "o10_107948": [
+  false,
+  false
+ ],
+ "o10_107949": [
+  false,
+  false
+ ],
+ "o10_143600": [
+  false,
+  false
+ ],
+ "o10_143601": [
+  true,
+  true
+ ],
+ "o10_143602": [
+  true,
+  true
+ ],
+ "o10_150683": [
+  false,
+  false
+ ],
+ "o10_150684": [
+  true,
+  true
+ ],
+ "o10_150685": [
+  true,
+  true
+ ],
+ "o10_150686": [
+  false,
+  false
+ ],
+ "o10_150687": [
+  false,
+  false
+ ],
+ "o10_150688": [
+  true,
+  true
+ ],
+ "o10_150689": [
+  false,
+  false
+ ],
+ "o10_150690": [
+  false,
+  false
+ ],
+ "o10_150691": [
+  false,
+  false
+ ],
+ "o10_150692": [
+  false,
+  false
+ ],
+ "o10_150693": [
+  true,
+  true
+ ],
+ "o10_150694": [
+  false,
+  false
+ ],
+ "o10_150695": [
+  true,
+  true
+ ],
+ "o10_150696": [
+  true,
+  true
+ ],
+ "o10_150697": [
+  false,
+  false
+ ],
+ "o10_150698": [
+  false,
+  false
+ ],
+ "o10_150699": [
+  false,
+  false
+ ],
+ "o10_150700": [
+  false,
+  false
+ ],
+ "o10_150701": [
+  false,
+  false
+ ],
+ "o10_150702": [
+  false,
+  false
+ ],
+ "o10_150703": [
+  false,
+  false
+ ],
+ "o10_150704": [
+  true,
+  true
+ ],
+ "o10_150705": [
+  false,
+  false
+ ],
+ "o10_150706": [
+  true,
+  true
+ ],
+ "o10_150707": [
+  true,
+  true
+ ],
+ "o10_150708": [
+  true,
+  true
+ ],
+ "o10_150709": [
+  false,
+  false
+ ],
+ "o10_150710": [
+  true,
+  true
+ ],
+ "o10_150711": [
+  false,
+  false
+ ],
+ "o10_150712": [
+  false,
+  false
+ ],
+ "o10_150713": [
+  false,
+  false
+ ],
+ "o10_150714": [
+  false,
+  false
+ ],
+ "o10_150715": [
+  false,
+  false
+ ],
+ "o10_150716": [
+  true,
+  true
+ ],
+ "o10_150717": [
+  true,
+  true
+ ],
+ "o10_150718": [
+  true,
+  true
+ ],
+ "o10_150719": [
+  false,
+  false
+ ],
+ "o10_150720": [
+  false,
+  false
+ ],
+ "o10_150721": [
+  false,
+  false
+ ],
+ "o10_150722": [
+  true,
+  true
+ ],
+ "o10_150723": [
+  true,
+  true
+ ],
+ "o10_150724": [
+  false,
+  false
+ ],
+ "o10_150725": [
+  true,
+  true
+ ],
+ "o10_150726": [
+  false,
+  false
+ ],
+ "o10_150727": [
+  true,
+  true
+ ],
+ "o10_150728": [
+  true,
+  true
+ ],
+ "o10_150729": [
+  true,
+  true
+ ]
+}
