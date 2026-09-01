@@ -28,6 +28,16 @@ ADM = E.ADM
 C = E.C
 D = 78
 
+# --- validate the exact structure of the Killing form that the combinatorial
+# signature relies on: Cartan block 24*A (positive definite), root sector
+# kappa(e_a, e_{-a}) = +24, everything else zero.
+_Bexp = np.zeros((D, D), dtype=np.int64)
+_Bexp[:6, :6] = 24 * E.A
+for _r in E.ROOTS:
+    _Bexp[6 + E.RIDX[_r], 6 + E.RIDX[E.NEG[_r]]] = 24
+assert np.array_equal(B, _Bexp), "Killing form structure differs from assumption"
+ADMF = ADM.astype(np.float64)  # exact fast path (all intermediates << 2^53)
+
 def log(*a):
     print(*a, flush=True)
 
@@ -212,13 +222,16 @@ def theta_matrix(p, s, Wm):
     return M
 
 def full_bracket_failures(M):
-    """number of basis pairs (i<=j) where theta fails [Mx,My]=M[x,y]; exact."""
-    T1 = np.tensordot(M, ADM, axes=(1, 1))       # (a,i,c)
-    LHS = np.tensordot(T1, M, axes=(2, 0))       # (a,i,d) = (M adm_i M)[a,d]
+    """number of basis elements i where theta fails ad(Me_i) = M ad(e_i) M
+    (M involutive), equivalent to the full 3003-pair bracket check; exact
+    (float64 used only as a fast exact-integer carrier: entries are products of
+    bounded ints, all partial sums < 2^53)."""
+    Mf = M.astype(np.float64)
+    T1 = np.tensordot(Mf, ADMF, axes=(1, 1))     # (a,i,c)
+    LHS = np.tensordot(T1, Mf, axes=(2, 0))      # (a,i,d) = (M adm_i M)[a,d]
     LHS = np.transpose(LHS, (1, 0, 2))           # (i,a,d)
-    RHS = np.tensordot(M, ADM, axes=(0, 0))      # (i,a,d) = sum_k M[k,i] adm_k
+    RHS = np.tensordot(Mf, ADMF, axes=(0, 0))    # (i,a,d) = sum_k M[k,i] adm_k
     diff = (LHS != RHS)
-    # translate to per-column-pair failures: condition per i is ad(Me_i)=M ad(e_i) M^{-1}
     return int(diff.any(axis=(1, 2)).sum())
 
 def literal_3003_check(M):
@@ -348,8 +361,10 @@ def exact_form_signature(M, sub_basis=None):
     Vm = colspace((np.array(Mres, dtype=object) - I))
     def gram(Vecs, sign):
         k = len(Vecs)
-        G = [[sign * sum(Vecs[a][i] * Fraction(int(Bres[i][j])) * Vecs[b][j]
-                         for i in range(d) for j in range(d)) for b in range(k)]
+        BresF = [[Fraction(int(Bres[i][j])) for j in range(d)] for i in range(d)]
+        BV = [[sum(BresF[i][j] * Vecs[b][j] for j in range(d)) for i in range(d)]
+              for b in range(k)]  # k x d
+        G = [[sign * sum(Vecs[a][i] * BV[b][i] for i in range(d)) for b in range(k)]
              for a in range(k)]
         return G
     res = [0, 0, 0]

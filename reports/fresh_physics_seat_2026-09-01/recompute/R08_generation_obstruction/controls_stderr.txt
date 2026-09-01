@@ -1,0 +1,41 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+free(): double free detected in tcache 2
+------------------------------------------------------------------------
+/usr/local/lib/python3.11/dist-packages/cypari/_pari.cpython-311-x86_64-linux-gnu.so(+0x1549e8)[0x7f6a129549e8]
+/usr/local/lib/python3.11/dist-packages/cypari/_pari.cpython-311-x86_64-linux-gnu.so(+0x154a46)[0x7f6a12954a46]
+/usr/local/lib/python3.11/dist-packages/cypari/_pari.cpython-311-x86_64-linux-gnu.so(+0x167a26)[0x7f6a12967a26]
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7f6a14645330]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7f6a1469eb2c]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7f6a1464527e]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xdf)[0x7f6a146288ff]
+/lib/x86_64-linux-gnu/libc.so.6(+0x297b6)[0x7f6a146297b6]
+/lib/x86_64-linux-gnu/libc.so.6(+0xa8ff5)[0x7f6a146a8ff5]
+/lib/x86_64-linux-gnu/libc.so.6(+0xab55f)[0x7f6a146ab55f]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_free+0x7e)[0x7f6a146addce]
+/usr/local/lib/python3.11/dist-packages/cypari/_pari.cpython-311-x86_64-linux-gnu.so(gunclone+0x80)[0x7f6a134a95c0]
+/usr/local/lib/python3.11/dist-packages/cypari/_pari.cpython-311-x86_64-linux-gnu.so(+0x15596f)[0x7f6a1295596f]
+python3[0x52d613]
+/usr/local/lib/python3.11/dist-packages/cypari/_pari.cpython-311-x86_64-linux-gnu.so(+0x155885)[0x7f6a12955885]
+python3[0x52d613]
+/usr/local/lib/python3.11/dist-packages/cypari/_pari.cpython-311-x86_64-linux-gnu.so(+0x155885)[0x7f6a12955885]
+python3[0x51fe57]
+python3(_PyEval_EvalFrameDefault+0x4860)[0x5408d0]
+python3[0x60ff5d]
+python3(PyEval_EvalCode+0x98)[0x60f708]
+python3[0x62ec7c]
+python3[0x62af26]
+python3[0x63f7c7]
+python3(_PyRun_SimpleFileObject+0x199)[0x63ee29]
+python3(_PyRun_AnyFileObject+0x4f)[0x63eb9f]
+python3(Py_RunMain+0x2e7)[0x639877]
+python3(Py_BytesMain+0x2d)[0x60098d]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7f6a1462a1ca]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7f6a1462a28b]
+python3(_start+0x25)[0x600815]
+------------------------------------------------------------------------
+Unhandled SIGABRT: An abort() occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------

@@ -1,0 +1,793 @@
+{
+  "N": 500,
+  "degree_histogram": {
+    "2": 19,
+    "3": 32,
+    "4": 40,
+    "5": 46,
+    "6": 42,
+    "7": 53,
+    "8": 32,
+    "9": 36,
+    "10": 42,
+    "11": 24,
+    "12": 30,
+    "13": 10,
+    "14": 6
+  },
+  "num_degree3": 32,
+  "cubics": [
+    {
+      "name": "m006",
+      "degree": 3,
+      "poly": "2*x^3 - 35*x^2 + 42*x - 157",
+      "nfdisc": -59,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m007",
+      "degree": 3,
+      "poly": "x^3 + 128*x + 512",
+      "nfdisc": -59,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m015",
+      "degree": 3,
+      "poly": "x^3 - 64*x + 512",
+      "nfdisc": -23,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m016",
+      "degree": 3,
+      "poly": "x^3 - 16*x^2 - 81*x - 317",
+      "nfdisc": -23,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m017",
+      "degree": 3,
+      "poly": "x^3 - 26*x^2 + 417*x - 3037",
+      "nfdisc": -23,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m034",
+      "degree": 3,
+      "poly": "x^3 - 38*x^2 + 417*x - 1877",
+      "nfdisc": -31,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m035",
+      "degree": 3,
+      "poly": "x^3 + 37*x^2 - 313*x + 1087",
+      "nfdisc": -44,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m036",
+      "degree": 3,
+      "poly": "x^3 - 6*x^2 + 8*x - 106",
+      "nfdisc": -44,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m037",
+      "degree": 3,
+      "poly": "4*x^3 - 88*x^2 + 428*x - 613",
+      "nfdisc": -44,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m038",
+      "degree": 3,
+      "poly": "2*x^3 - 6*x^2 - 2*x - 41",
+      "nfdisc": -44,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m039",
+      "degree": 3,
+      "poly": "x^3 + 14*x^2 + 968*x + 2636",
+      "nfdisc": -44,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m040",
+      "degree": 3,
+      "poly": "16*x^3 - 768*x^2 + 7076*x - 137851",
+      "nfdisc": -44,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m045",
+      "degree": 3,
+      "poly": "8*x^3 - 255*x^2 + 2385*x - 29349",
+      "nfdisc": -107,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m046",
+      "degree": 3,
+      "poly": "x^3 + 17*x^2 - 85*x + 2192",
+      "nfdisc": -107,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m146",
+      "degree": 3,
+      "poly": "4*x^3 - 74*x^2 + 482*x - 2039",
+      "nfdisc": -104,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m147",
+      "degree": 3,
+      "poly": "x^3 - 8*x^2 + 135*x + 1298",
+      "nfdisc": -104,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m148",
+      "degree": 3,
+      "poly": "4*x^3 - 9*x^2 - 84*x + 3356",
+      "nfdisc": -104,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m149",
+      "degree": 3,
+      "poly": "4*x^3 - 9*x^2 - 84*x + 3356",
+      "nfdisc": -104,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m168",
+      "degree": 3,
+      "poly": "2*x^3 - 71*x^2 + 2470*x - 30188",
+      "nfdisc": -59,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m188",
+      "degree": 3,
+      "poly": "2*x^3 - 98*x^2 + 2626*x - 28653",
+      "nfdisc": -76,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m292",
+      "degree": 3,
+      "poly": "16*x^3 + 212*x^2 - 284*x + 52795",
+      "nfdisc": -83,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m293",
+      "degree": 3,
+      "poly": "x^3 - 26*x^2 + 292*x + 512",
+      "nfdisc": -83,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m294",
+      "degree": 3,
+      "poly": "x^3 - 22*x^2 + 228*x - 2624",
+      "nfdisc": -83,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m295",
+      "degree": 3,
+      "poly": "16*x^3 - 692*x^2 + 12788*x - 105251",
+      "nfdisc": -83,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m303",
+      "degree": 3,
+      "poly": "8*x^3 - 468*x^2 + 13975*x - 176456",
+      "nfdisc": -116,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m304",
+      "degree": 3,
+      "poly": "x^3 + 16*x^2 - 1024*x + 16384",
+      "nfdisc": -116,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m305",
+      "degree": 3,
+      "poly": "x^3 + 16*x^2 - 1024*x + 16384",
+      "nfdisc": -116,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m306",
+      "degree": 3,
+      "poly": "8*x^3 - 324*x^2 + 4491*x - 34371",
+      "nfdisc": -116,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m307",
+      "degree": 3,
+      "poly": "32*x^3 + 312*x^2 - 12848*x + 171343",
+      "nfdisc": -116,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m366",
+      "degree": 3,
+      "poly": "x^3 - 61*x^2 + 908*x - 7839",
+      "nfdisc": -31,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m367",
+      "degree": 3,
+      "poly": "3*x^3 - 133*x^2 + 1869*x - 9427",
+      "nfdisc": -31,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    },
+    {
+      "name": "m376",
+      "degree": 3,
+      "poly": "2*x^3 - 88*x^2 + 1952*x - 20357",
+      "nfdisc": -44,
+      "signature": [
+        1,
+        1
+      ],
+      "galois_order": 6,
+      "galois": "S3",
+      "disc_is_square": false
+    }
+  ],
+  "num_C3_cubics": 0,
+  "num_sig_1_1": 32,
+  "errors": [
+    {
+      "name": "m129",
+      "error": "DEGREE_DISAGREE(2,1)"
+    },
+    {
+      "name": "m130",
+      "error": "DEGREE_DISAGREE(2,1)"
+    },
+    {
+      "name": "m228",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "m248",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "m256",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "m266",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "m267",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "m299",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "m363",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "m397",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "m401",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s021",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s027",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s030",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s035",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s037",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s039",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s042",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s043",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s044",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s045",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s046",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s047",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s051",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s053",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s054",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s055",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s058",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s059",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s060",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s061",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s062",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s063",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s066",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s067",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s068",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s069",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s070",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s071",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s072",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s073",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s074",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s075",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s076",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s077",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s078",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s079",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s094",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s095",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s098",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s099",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s100",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s101",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s103",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s104",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s105",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s106",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s107",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s109",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s110",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s111",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s112",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s113",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s114",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s136",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s138",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s141",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s143",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s150",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s157",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s159",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s162",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s164",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s168",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s172",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s176",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s177",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s178",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s180",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s182",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s186",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s189",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s190",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s191",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s192",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s193",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s195",
+      "error": "ALGDEP_FAIL"
+    },
+    {
+      "name": "s197",
+      "error": "ALGDEP_FAIL"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+==============================================================================
+ROUTE A -- direct retrieval, WIDER than T1/s4 (value rows under any name)
+==============================================================================
+  assigned 1x18 / T_connecting rows: 1 raw hit(s)
+    - frontier/B807_vocabulary_unification/joint.py:100 [false positive (prose/coincidence)]
+        "print(f"  populated (face, motif) pairs P       : {P}  of 11 x 18 = 198 possible")"
+  numeric connecting-row vectors: 0 raw hit(s)
+  Tr_{Y,Omega} implementations (code): 3 raw hit(s)
+    - frontier/B1185_yukawa_three_mechanisms/b1185_results.json:10 [false positive (prose/coincidence)]
+        ""commissioned": "T_cal = (Delta_G, Tr_(Y,Omega), S) over Q(zeta_12) -- codex's declared single next "
+    - frontier/B1139_symmetry_point_table/b1139_results.json:38 [false positive (prose/coincidence)]
+        ""Tr_Y","
+    - frontier/B1195_close_loop_batch5a/verification/batch5a_cells.json:76 [false positive (prose/coincidence)]
+        ""A non-symmetry (dynamical) reduction route remains open and unbuilt: codex's commissioned T_cal = ("
+  Delta_G implementations (code): 0 raw hit(s)
+  assigned tail-cocycle value vectors: 0 raw hit(s)
+  -> RECEIPT A: every raw hit adjudicated a false positive (shown above with its line);
+     no committed code or data file assigns any evaluator component or value row.
+     (The probe DID fire on 4 raw hits and each was inspected -- the instrument has teeth.)
+
+==============================================================================
+ROUTE B -- git history and all branches (NEW vs T1: the working tree is not the record)
+==============================================================================
+  branches examined: ['claude/physics-seat-evaluation-8dkbrl', 'main', 'remotes/origin/claude/physics-seat-evaluation-8dkbrl', 'remotes/origin/main']
+  certify_yukawa_down_tail_cech_308.sage: in-history=False  in-any-branch-tree=False
+  certify_yukawa_down_obstruction_308.sage: in-history=False  in-any-branch-tree=False
+  evaluate_yukawa_down_connecting_308.py: in-history=False  in-any-branch-tree=False
+  YUKAWA_DOWN_CONNECTING_EVALUATOR_308.md: in-history=False  in-any-branch-tree=False
+  attempt_yukawa_cech_308.sage: in-history=False  in-any-branch-tree=False
+  verify_marked_pseudoinverse_cech.sage: in-history=False  in-any-branch-tree=False
+  -> RECEIPT B: none of the six evaluator artifacts was EVER committed on any branch;
+     the E51 single-homing debt is not a deletion -- the files never entered this record.
+
+==============================================================================
+ROUTE C -- implement T_cal on the banked frames: typed input/requirement audit
+==============================================================================
+  REQUIRED by the committed formula (each checked present-as-requirement in M1/M2):
+    [ABSENT from committed code/data] Phi (the 44-coordinate height-308 map, exact coefficients)
+        needed because: s_alpha = e_a/Phi_a needs Phi's coefficients on every chart
+    [ABSENT from committed code/data] the norm hypersurface f (exact)
+        needed because: Omega_Y = Res_Z(Omega_Z/f); the unit ideal (f,Phi_1..Phi_12)=(1)
+    [ABSENT from committed code/data] the ordered twelve-ray Cox frame + ordered six-Euler frame
+        needed because: Delta_G : det(G) ~= L 'must induce a fixed comparison' in these frames
+    [ABSENT from committed code/data] local splittings s_alpha / theta_{alpha,beta} on the 432 refined opens
+        needed because: the connecting cocycles a_i, b_j are built from theta
+    [ABSENT from committed code/data] H0(L) sections c_i and H0(K) sections k_j (the chosen 3+2 connecting basis)
+        needed because: a_i = delta(s c_i), b_j = delta r(k_j)
+    [ABSENT from committed code/data] the 672x33 connecting representative matrix (good prime), lifted to char 0
+        needed because: [M1]: 'constructs a 672 x 33 representative matrix' -- on codex's seat only
+    [ABSENT from committed code/data] the C18 -> C21 matrix D (whose coker defines the tail basis e_r)
+        needed because: tail rows are elements of (coker D)^*
+    [ABSENT from committed code/data] the Serre chain map S : (coker D)^* -> Z1(U,E) and the h_r solved from delta h_r = p(e_r)
+        needed because: bhat_r = e_r - delta r(h_r); needed for the 9 tail6/conn entries of the 27
+    [ABSENT from committed code/data] Delta_G's certified alpha-independence + equivariant phase
+        needed because: 'this independence and its equivariant phase must be certified'
+    [ABSENT from committed code/data] the normalized trace Tr_{Y,Omega} : H3(O_Y) -> K
+        needed because: the final scalar; fixes the K^x normalization
+  SUPPLIED by the committed tree (5 classes, all value-inert):
+    [labels only -- value-inert] character multiplicities (2,4,3,3,2,3,2,3,2,3,3,3) + tail labels (0,2,4,6,8)
+    [index bookkeeping -- value-inert] the census 36 = 18+9+6+3 and the column indices (B6: 17,18; B2: 6,7,8)
+    [support constraints -- value-inert] the selection rule rho+sigma = 8 (mod 12) and the skew (4,4) zero
+    [dimensions/zeros of OTHER maps -- value-inert] rank facts (C18->C21 rank 16; 33+5; mu_u=0)
+    [coordinates IN AN UNCOMMITTED BASIS (the e_* of C^21 and D itself are absent) -- value-inert alone] the spec's tail-row coordinate strings (e_0-e_11; e_2-4e_17-6e_18; rows 2,4,8)
+  -> RECEIPT C: all 10 value-determining inputs of T_cal are absent; the committed
+     supplies are character/index/rank bookkeeping. The evaluator cannot be instantiated.
+
+==============================================================================
+ROUTE D -- rebuild the geometry itself from committed selection data
+==============================================================================
+  The ambient is partially specified in-tree (12 rays = one regular C12 orbit; Pic_Q from
+  arXiv:1112.1097 eq 2.7/3.12 -- B1159). But the height-308 POINT is a selected member of
+  a monad family: 'DATA candidate key = 308 / norm = 308' (B1162 witness transcript) names
+  the selection, and no committed file carries (i) the enumeration/search algorithm, (ii)
+  the ordering that makes 'key = 308' well-defined, or (iii) the 44 coefficients themselves.
+  committed code/data files defining the candidate enumeration: 0
+  -> RECEIPT D: the object's defining polynomial data is reconstructible from NOTHING in
+     this tree; 'norm = 308' is a name, not a construction. Route terminates.
+
+==============================================================================
+ROUTE E -- squeeze the PARTIAL frame data (the spec's committed tail-row coordinates)
+==============================================================================
+  M2 commits five tail-row coordinate strings (runtime source of truth): tail0 = e_0-e_11,
+  tail6 = e_2-4e_17-6e_18, rows 2,4,8 as in the regenerated markdown. These are honest
+  committed numbers -- but they are coordinates of functionals ON coker(D) expressed in the
+  basis dual to an UNCOMMITTED presentation: without D (18->21 matrix) and the e_* meaning
+  (which Cox monomial each e_i is), no cocycle can be reassembled. Formally: for ANY
+  candidate value assignment to the 27 entries, there exists a choice of the uncommitted
+  data (D, frames, Delta_G, trace) consistent with these strings -- shown constructively in
+  g2 (the freedom group acts transitively enough; the strings constrain only the tail
+  sector's presentation, not the connecting values). Route terminates: value-inert alone.
+
+G1 VERDICT: the 27 values CANNOT be computed from committed data. Every route ends at a
+typed absence, not at a hard computation: the record contains the evaluator's SPEC and the
+block's BOOKKEEPING, but zero value-determining inputs. -> proceed to g2: prove the
+underdetermination as a theorem (two-model independence + the freedom group).

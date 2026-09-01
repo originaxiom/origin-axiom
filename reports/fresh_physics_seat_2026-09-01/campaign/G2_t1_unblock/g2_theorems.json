@@ -1,0 +1,17 @@
+{
+ "theorem_A": "two committed-legal models, opposite fork branches -- independence",
+ "theorem_B": {
+  "raw_lie_dim": 30,
+  "redundant_scalars": 3,
+  "effective_dim": 27,
+  "generic_orbit_dim": 27,
+  "invariant": "vanishing of all 27 conn entries",
+  "not_invariant": "the 27 values themselves; the 9 tail values"
+ },
+ "bites": [
+  "selection violation caught",
+  "symmetric pair caught",
+  "skew(4,4) plant caught",
+  "non-parabolic tail->conn leak breaks invariance (group boundary sharp)"
+ ]
+}

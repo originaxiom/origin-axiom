@@ -1,0 +1,7 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+control 1: named C3 targets
+control 2: planted C3 manifold
+control 3: m015
+control 4: cyclic cubic signature sweep
+controls written

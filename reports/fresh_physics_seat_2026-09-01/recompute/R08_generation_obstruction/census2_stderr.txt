@@ -1,0 +1,11 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  ...50 done
+  ...100 done
+  ...150 done
+  ...200 done
+  ...250 done
+  ...300 done
+  ...350 done
+  ...450 done
+  ...500 done

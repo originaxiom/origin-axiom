@@ -1,0 +1,74 @@
+==============================================================================
+[1] the allowed space = K^36, shown structurally (not just sampled):
+==============================================================================
+  K1 (selection rho+sigma=8): every one of the 12 (j,k) channels has 6+2=8 -- 0 equations;
+  K2 (antisymmetry): pairs an entry with its MIRROR (B2,B6)-block image, never with another
+     block entry (label 6 != 2, and no slot pair occurs in both orders) -- 0 equations;
+  K3 (skew (4,4) zero): the repeated tail-4 channel is not in this block -- 0 equations.
+  => the committed constraints impose ZERO polynomial relations among the 36 entries:
+     the allowed space is the full affine K^36. (Constraint support disjoint from block.)
+
+==============================================================================
+[2] codim(annihilates) inside the allowed space -- instrument with planted controls:
+==============================================================================
+  planted control {M1=0}: Jacobian rank = 9 (expect 9)
+  planted control {det M0=0} at a rank-2 point: Jacobian rank = 1 (expect 1)
+  ANNIHILATION locus {27 conn entries = 0}: Jacobian rank = 27 -> codim 27, dim 9;
+  the 9 remaining dims are exactly the surviving tail-family observable Ybar[i,j].
+
+==============================================================================
+[3] THE FORCING CENSUS -- does any committed constraint force a conn entry nonzero?
+==============================================================================
+  - selection rule rho+sigma=8 [M2]:
+      a PERMISSION (support), saturated by the block; T=0 satisfies it
+  - antisymmetry / skew (4,4) zero [M2,B1185]:
+      forces a zero OUTSIDE the block; T=0 satisfies it
+  - 'C12 imposes no family texture zero' (B1161/B1167):
+      permission again -- permits nonzero, forces nothing
+  - mu_u = 0 exact (R017/[M1]):
+      a fact about the OTHER map (Sym^2 A x C); shares no entry with mu_d
+  - C18->C21 rank 16 / 33+5 / 672x33 [M1]:
+      dimensions of B's presentation, not values of T
+  - Kodaira-Spencer rank 10 [M1]:
+      [M1] verbatim: 'not a proof that mu_d varies' -- moduli, not entries
+  - lambda-term row N1->2 nonzero (memo 80/B1206):
+      a DIFFERENT coupling on a DIFFERENT arena (object channel); B1185 INV-1 forbids transport
+  - B1205 det cubic 'genuine failable cubic':
+      computed over the tensor's SHAPE (B1206 fence) -- genericity, not a value claim
+  - Hoppe stability / local freeness gates [M1]:
+      existence gates for DEFINING mu_d; impose nothing on its values
+  - E8 rank-2 family law (memo 82/B1185):
+      fenced NON-IMPORTABLE by B1185 INV-3 (family index not object-internal); conditional analysis in [4] -- and even imported it does not force a conn entry (witness W1 below)
+  WITNESS (g2 Theorem A): T_ann (all 27 = 0) satisfies every committed constraint -->
+  NO committed constraint forces a nonzero connecting entry. FORCED-NONZERO is NOT available;
+  B1232's fork cannot be resolved to OBSTRUCTED by the committed record alone.
+  (Symmetric check: T_obs shows it cannot be resolved to ANNIHILATES either.)
+
+==============================================================================
+[4] CONDITIONAL layer -- importing the E8 rank-2 family law (LABELED, fenced):
+==============================================================================
+  Import fence: B1185 INV-3 proves the family index is not object-internal; this layer is
+  therefore CONDITIONAL bookkeeping, not a claim about the object. Weak form: det Y(t) == 0
+  identically in t (rank <= 2 everywhere). Strong form: rank EXACTLY 2 at the physical point.
+  det Y(t) as a polynomial in t: 20 coefficients, each cubic in the 36 entries
+  at a generic common-left-kernel point: all 20 coefficients vanish; Jacobian rank = 10
+  -> the variety is smooth of dim 26 there (component dim 26 = 4x6 + 2, codim 10).
+  W1 (ANNIHILATING branch): conn=0, tail matrix rank 2 -> in the variety, rank exactly 2
+     at EVERY splitting. The law does not exclude annihilation.
+  W2 (OBSTRUCTED branch): common-left-kernel point, conn entries nonzero = True,
+     rank Y(t*) = 2 at a sample splitting -> in the variety, generically rank 2.
+  => EVEN THE IMPORTED LAW LEAVES BOTH FORK BRANCHES OPEN (W1, W2 both committed-legal +
+     law-compatible). It does NOT resolve the fork.
+  annihilation INSIDE the variety = {conn=0, det(tail)=0}: Jacobian rank 28 -> dim 8;
+  codim inside the 26-dim component = 18.
+  DERIVED FALSIFIABLE CONSEQUENCE: rank-law + annihilation => det(tail observable) = 0.
+  If codex's values land ANNIHILATING with det(Ybar) != 0, the imported law is refuted for
+  this block -- a free forward-looking test, at no cost to the committed record.
+  STRONG form note: rank exactly 2 forces Ybar != 0 (the OBSERVABLE nonzero) -- it still
+  does not force any of the 27 conn entries nonzero (W1).
+
+G3 VERDICT: allowed space = K^36 (0 committed equations on the block); annihilation locus
+codim 27 (dim 9 = the surviving observable); NO committed constraint forces a nonzero
+connecting entry (fork NOT resolvable to OBSTRUCTED without codex's values) and none forces
+annihilation; the conditional E8 layer cuts to a codim-10 variety, keeps both branches open,
+and adds one falsifiable cross-check (det Ybar = 0 under annihilation).

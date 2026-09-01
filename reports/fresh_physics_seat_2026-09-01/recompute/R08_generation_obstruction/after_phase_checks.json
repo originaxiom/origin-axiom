@@ -1,0 +1,10 @@
+{
+  "disc_x3_x2_1_poldisc": "-23",
+  "nfdisc_theirs": "-23",
+  "nfdisc_mine": "-23",
+  "m015_fields_isomorphic": true,
+  "m004_3fold_covers": [
+    "Z/4 + Z/4 + Z"
+  ],
+  "m004_3fold_cover_count": 1
+}

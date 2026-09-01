@@ -1,0 +1,54 @@
+{
+ "cell": "G2_t1_unblock",
+ "date": "2026-09-01",
+ "verdict": "UNDERDETERMINED-PROVED",
+ "forced_nonzero_check": {
+  "result": false,
+  "meaning": "no committed constraint forces any of the 27 connecting entries nonzero; B1232's fork is NOT resolvable to OBSTRUCTED (nor ANNIHILATES) by the committed record alone",
+  "witnesses": [
+   "T_ann (all 27 = 0, committed-legal)",
+   "T_obs (one entry = zeta_12, committed-legal)"
+  ]
+ },
+ "computation_attempt": {
+  "values_computable_from_committed_data": false,
+  "routes": [
+   "A direct retrieval (4 hits, all adjudicated false positives)",
+   "B git history + all branches (artifacts never committed)",
+   "C evaluator instantiation (10/10 value-determining inputs absent)",
+   "D geometry reconstruction (no enumeration algorithm/coefficients)",
+   "E partial tail-row strings (basis-relative, value-inert)"
+  ]
+ },
+ "theorem_A": "two-model independence: the committed record is consistent with both fork branches",
+ "theorem_B": {
+  "freedom_group": "GL(A7) x P(B6) x P(B2) x K^x / scalar torus",
+  "raw_dim": 30,
+  "effective_dim": 27,
+  "generic_orbit_dim": 27,
+  "invariant": "vanishing of all 27 conn entries",
+  "gauge_variant": "the 27 values themselves; the 9 tail values",
+  "boundary_bite": "non-parabolic tail->conn leak breaks the invariance"
+ },
+ "conditional_analysis": {
+  "allowed_space": "full K^36 (0 committed equations on the block)",
+  "annihilation_codim": 27,
+  "annihilation_dim": 9,
+  "E8_layer": {
+   "fence": "B1185 INV-3: non-importable; run as labeled conditional",
+   "variety_dim_at_common_kernel": 26,
+   "codim": 10,
+   "both_branches_survive": true,
+   "annihilation_codim_inside": 18,
+   "derived_test": "law + annihilation => det(Ybar)=0"
+  }
+ },
+ "commissioning_spec": "COMMISSIONING_SPEC.md (I1-I6, gates G1-G6, minimal fork-deciding subset I1+I2+I5+I6a)",
+ "gate5": "clean",
+ "mb12_bites": 7,
+ "fences": [
+  "synthetic models labeled",
+  "E8 import conditional",
+  "27-vs-9 flag routed to codex, not resolved"
+ ]
+}

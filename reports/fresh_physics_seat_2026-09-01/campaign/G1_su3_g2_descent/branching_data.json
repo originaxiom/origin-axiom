@@ -1,0 +1,10 @@
+{
+ "all_verified_by": "dimension sum + per-factor Dynkin-index sum (see results.json)",
+ "diagonals": "A2xA2: 3x3=6+3b, 3x3b=8+1; A1xA1: Clebsch-Gordan",
+ "g2_to_su2_principal": "7 = 7; 14 = 3+11 (x=28)",
+ "g2_to_su2su2": "7 = (2,2)+(1,3); 14 = (3,1)+(1,3)+(2,4) (x=(1,3))",
+ "g2_to_su3": "7 = 3+3b+1; 14 = 8+3+3b (x=1)",
+ "step1": "27 of E6 under su(3)_2+g2_1:  27 = (3,7) + (6b,1)",
+ "su3_to_so3_principal": "3 = 3; 6 = 5+1; 8 = 5+3 (x=4)",
+ "su3_to_su2u1": "3 = 2+1; 6 = 3+2+1; 8 = 3+2+2+1 (x=1)"
+}

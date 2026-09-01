@@ -1,0 +1,10 @@
+{
+ "routes": {
+  "A_direct_retrieval": "no value artifact",
+  "B_git_history_all_branches": "never committed on any branch",
+  "C_evaluator_from_frames": "all 10 value-determining inputs absent",
+  "D_geometry_reconstruction": "no enumeration algorithm or coefficients",
+  "E_partial_frame_data": "committed tail-row strings are basis-relative, value-inert alone"
+ },
+ "conclusion": "VALUES-NOT-COMPUTABLE-FROM-COMMITTED-DATA"
+}

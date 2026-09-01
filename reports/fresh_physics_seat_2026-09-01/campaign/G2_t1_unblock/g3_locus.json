@@ -1,0 +1,23 @@
+{
+ "allowed_space": "full K^36 -- zero committed equations on the block",
+ "annihilation": {
+  "codim": 27,
+  "dim": 9,
+  "surviving": "the 3x3 tail observable Ybar"
+ },
+ "forced_nonzero": false,
+ "forced_annihilation": false,
+ "conditional_E8_layer": {
+  "import_fence": "B1185 INV-3 (non-importable; run as labeled conditional)",
+  "variety_local_dim": 26,
+  "codim": 10,
+  "both_branches_survive": true,
+  "annihilation_codim_inside": 18,
+  "derived_test": "annihilation + law => det(Ybar) = 0"
+ },
+ "controls": [
+  "{M1=0} codim 9 recovered",
+  "{det M0=0} codim 1 recovered",
+  "common-left-kernel point lies in variety, smooth dim 26"
+ ]
+}

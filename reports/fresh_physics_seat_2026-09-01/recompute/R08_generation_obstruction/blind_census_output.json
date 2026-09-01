@@ -1,0 +1,11 @@
+{
+  "N": 500,
+  "degree_histogram": {
+    "2": 500
+  },
+  "num_degree3": 0,
+  "cubics": [],
+  "num_C3_cubics": 0,
+  "num_sig_1_1": 0,
+  "errors": []
+}

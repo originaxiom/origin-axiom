@@ -1,0 +1,63 @@
+{
+  "C3_conductor_7": {
+    "poly": "x^3 + x^2 - 2*x - 1",
+    "nfdisc": 49,
+    "signature": [
+      3,
+      0
+    ],
+    "galois_order": 3,
+    "galois": "A3",
+    "disc_is_square": true
+  },
+  "C3_conductor_9": {
+    "poly": "x^3 - 3*x + 1",
+    "nfdisc": 81,
+    "signature": [
+      3,
+      0
+    ],
+    "galois_order": 3,
+    "galois": "A3",
+    "disc_is_square": true
+  },
+  "C3_conductor_13": {
+    "poly": "x^3 + x^2 - 4*x + 1",
+    "nfdisc": 169,
+    "signature": [
+      3,
+      0
+    ],
+    "galois_order": 3,
+    "galois": "A3",
+    "disc_is_square": true
+  },
+  "planted_C3_manifold": {
+    "status": "OK",
+    "poly": "x^3 + 3*x^2 - 193*x - 587",
+    "nfdisc": 49,
+    "signature": [
+      3,
+      0
+    ],
+    "galois_order": 3,
+    "galois": "A3",
+    "disc_is_square": true
+  },
+  "m015_5_2_knot": {
+    "status": "OK",
+    "poly": "x^3 - 64*x + 512",
+    "nfdisc": -23,
+    "signature": [
+      1,
+      1
+    ],
+    "galois_order": 6,
+    "galois": "S3",
+    "disc_is_square": false
+  },
+  "all_cyclic_cubics_conductor_lt_200": {
+    "count": 127,
+    "all_totally_real": true
+  }
+}

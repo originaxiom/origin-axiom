@@ -1,0 +1,2330 @@
+{
+ "algebra_validation": {
+  "antisym": true,
+  "jacobi_pair_failures": 0,
+  "ef_h_ok": true,
+  "all_N_pm1": true
+ },
+ "induced_factor_perms": [
+  [
+   0,
+   1,
+   2
+  ],
+  [
+   0,
+   2,
+   1
+  ],
+  [
+   1,
+   0,
+   2
+  ],
+  [
+   1,
+   2,
+   0
+  ],
+  [
+   2,
+   0,
+   1
+  ],
+  [
+   2,
+   1,
+   0
+  ]
+ ],
+ "B1134": {
+  "color=FC(default)": {
+   "n_swappers": 48,
+   "n_swappers_W": 24,
+   "pair_count": 480,
+   "lifts_per_swapper": [
+    8,
+    16
+   ],
+   "color_sig_histogram": {
+    "(4, 4)": 216,
+    "(0, 8)": 24,
+    "(5, 3)": 240
+   },
+   "chi_by_color_sig": {
+    "(4, 4)": [
+     6
+    ],
+    "(0, 8)": [
+     -26
+    ],
+    "(5, 3)": [
+     2
+    ]
+   },
+   "n_hits": 24,
+   "hits": [
+    {
+     "swapper_index": 0,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 0,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 0,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 0,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 1,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 1,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 1,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 1,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 2,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 2,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 2,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 2,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 13,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 13,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 13,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 13,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 14,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 14,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 14,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 14,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 20,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 20,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 20,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 20,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    }
+   ],
+   "n_distinct_hit_swappers": 6
+  },
+  "color=FA": {
+   "n_swappers": 48,
+   "n_swappers_W": 24,
+   "pair_count": 480,
+   "lifts_per_swapper": [
+    8,
+    16
+   ],
+   "color_sig_histogram": {
+    "(4, 4)": 216,
+    "(0, 8)": 24,
+    "(5, 3)": 240
+   },
+   "chi_by_color_sig": {
+    "(4, 4)": [
+     6
+    ],
+    "(0, 8)": [
+     -26
+    ],
+    "(5, 3)": [
+     2
+    ]
+   },
+   "n_hits": 24,
+   "hits": [
+    {
+     "swapper_index": 6,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 6,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 6,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 6,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 8,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 8,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 8,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 8,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 10,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 10,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 10,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 10,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 12,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 12,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 12,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 12,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 19,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 19,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 19,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 19,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 23,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 23,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 23,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 23,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    }
+   ],
+   "n_distinct_hit_swappers": 6
+  },
+  "color=FB": {
+   "n_swappers": 48,
+   "n_swappers_W": 24,
+   "pair_count": 480,
+   "lifts_per_swapper": [
+    8,
+    16
+   ],
+   "color_sig_histogram": {
+    "(4, 4)": 216,
+    "(0, 8)": 24,
+    "(5, 3)": 240
+   },
+   "chi_by_color_sig": {
+    "(4, 4)": [
+     6
+    ],
+    "(0, 8)": [
+     -26
+    ],
+    "(5, 3)": [
+     2
+    ]
+   },
+   "n_hits": 24,
+   "hits": [
+    {
+     "swapper_index": 3,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 3,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 3,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 3,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 9,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 9,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 9,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 9,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 10,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 10,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 10,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 10,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 12,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 12,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 12,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 12,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 16,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 16,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 16,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 16,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 21,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 21,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 21,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    },
+    {
+     "swapper_index": 21,
+     "in_W": true,
+     "chi": -26,
+     "global_sig": [
+      26,
+      52
+     ],
+     "double_sig": [
+      3,
+      3,
+      0
+     ],
+     "exact_global_crosscheck": [
+      26,
+      52,
+      0
+     ],
+     "exact_color_crosscheck": [
+      0,
+      8,
+      0
+     ],
+     "literal_3003_failures": 0,
+     "color_roots_fixed_by_swapper": 0
+    }
+   ],
+   "n_distinct_hit_swappers": 6
+  }
+ },
+ "B1135": {
+  "n_preservers": 128,
+  "n_preservers_W": 64,
+  "total_conjugations": 2000,
+  "W_side_count": 1000,
+  "W_side_chis": [
+   6
+  ],
+  "W_side_slotsigs": [
+   "[(5, 3), (5, 3), (5, 3)]"
+  ],
+  "flip_side_count": 1000,
+  "flip_by_compact_count": {
+   "0": 729,
+   "1": 243,
+   "2": 27,
+   "3": 1
+  },
+  "flip_chi_by_compact_count": {
+   "0": [
+    2
+   ],
+   "1": [
+    -14
+   ],
+   "2": [
+    2
+   ],
+   "3": [
+    -78
+   ]
+  },
+  "flip_slot_marginals": [
+   {
+    "(4, 4)": 900,
+    "(0, 8)": 100
+   },
+   {
+    "(4, 4)": 900,
+    "(0, 8)": 100
+   },
+   {
+    "(4, 4)": 900,
+    "(0, 8)": 100
+   }
+  ],
+  "flip_slot_sig_set": [
+   "(0, 8)",
+   "(4, 4)"
+  ],
+  "flip_joint_factorizes": true,
+  "compact_dims_seen": [
+   36,
+   38,
+   46,
+   78
+  ],
+  "physics_row_all_chi_minus14": true,
+  "physics_row_count": 243,
+  "physics_row_noncompact_slot_sigs": [
+   "(4, 4)"
+  ]
+ },
+ "controls": {
+  "antipodal_n_involutive_lifts": 64,
+  "omega": {
+   "chi": -78,
+   "slots": [
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     8
+    ]
+   ],
+   "exact_global": [
+    0,
+    78,
+    0
+   ],
+   "double_sig": [
+    0,
+    3,
+    3
+   ],
+   "literal_3003_failures": 0
+  },
+  "antipodal_family_chis": [
+   -78,
+   -14,
+   2
+  ],
+  "omega_found": true,
+  "identity_chi": 6,
+  "identity_exact": [
+   42,
+   36,
+   0
+  ],
+  "fake_form": {
+   "chi": -10,
+   "in_checksum_set": false,
+   "bracket_failures": 72,
+   "exact_crosscheck": [
+    34,
+    44,
+    0
+   ]
+  },
+  "random_exact_crosschecks": [
+   {
+    "combinatorial": [
+     [
+      40,
+      38
+     ],
+     [
+      5,
+      3
+     ]
+    ],
+    "exact": [
+     [
+      40,
+      38,
+      0
+     ],
+     [
+      5,
+      3,
+      0
+     ]
+    ],
+    "agree": true
+   },
+   {
+    "combinatorial": [
+     [
+      40,
+      38
+     ],
+     [
+      5,
+      3
+     ]
+    ],
+    "exact": [
+     [
+      40,
+      38,
+      0
+     ],
+     [
+      5,
+      3,
+      0
+     ]
+    ],
+    "agree": true
+   },
+   {
+    "combinatorial": [
+     [
+      42,
+      36
+     ],
+     [
+      4,
+      4
+     ]
+    ],
+    "exact": [
+     [
+      42,
+      36,
+      0
+     ],
+     [
+      4,
+      4,
+      0
+     ]
+    ],
+    "agree": true
+   },
+   {
+    "combinatorial": [
+     [
+      42,
+      36
+     ],
+     [
+      4,
+      4
+     ]
+    ],
+    "exact": [
+     [
+      42,
+      36,
+      0
+     ],
+     [
+      4,
+      4,
+      0
+     ]
+    ],
+    "agree": true
+   },
+   {
+    "combinatorial": [
+     [
+      42,
+      36
+     ],
+     [
+      4,
+      4
+     ]
+    ],
+    "exact": [
+     [
+      42,
+      36,
+      0
+     ],
+     [
+      4,
+      4,
+      0
+     ]
+    ],
+    "agree": true
+   },
+   {
+    "combinatorial": [
+     [
+      42,
+      36
+     ],
+     [
+      4,
+      4
+     ]
+    ],
+    "exact": [
+     [
+      42,
+      36,
+      0
+     ],
+     [
+      4,
+      4,
+      0
+     ]
+    ],
+    "agree": true
+   },
+   {
+    "combinatorial": [
+     [
+      42,
+      36
+     ],
+     [
+      4,
+      4
+     ]
+    ],
+    "exact": [
+     [
+      42,
+      36,
+      0
+     ],
+     [
+      4,
+      4,
+      0
+     ]
+    ],
+    "agree": true
+   },
+   {
+    "combinatorial": [
+     [
+      40,
+      38
+     ],
+     [
+      5,
+      3
+     ]
+    ],
+    "exact": [
+     [
+      40,
+      38,
+      0
+     ],
+     [
+      5,
+      3,
+      0
+     ]
+    ],
+    "agree": true
+   }
+  ]
+ },
+ "checksum": {
+  "all_chis_in_set": true,
+  "witnessed": [
+   -78,
+   -26,
+   -14,
+   2,
+   6
+  ],
+  "n_evaluations": 3505
+ }
+}

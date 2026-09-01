@@ -1,0 +1,55 @@
+==============================================================================
+[1] CHK instrument bites (MANDATORY planted cases -- each constraint failable):
+==============================================================================
+  CHK(conforming single entry): PASS
+  CHK(PLANT selection violation (1+4=5)): FAIL -- K1 selection: entry (i=0,('c', 1, 0),('c', 4, 0)) nonzero in a rho+sigma=5%12 channel
+  CHK(PLANT symmetric pair): FAIL -- K2 antisymmetry: T[0,('c', 6, 0),('c', 2, 0)] + T[0,('c', 2, 0),('c', 6, 0)] != 0
+  CHK(PLANT nonzero skew-(4,4) diagonal): FAIL -- K2 antisymmetry: T[1,('t', 4, 0),('t', 4, 0)] + T[1,('t', 4, 0),('t', 4, 0)] != 0
+  -> the checker DECIDES: conforming passes, each planted violation is caught by name.
+  -> and the committed SKEW ZERO is a THEOREM of the checker (K2 => K3 in char 0),
+     reproduced as the planted known case: the one committed exact entry-level zero.
+
+==============================================================================
+[2] THEOREM A -- two models, both committed-legal, opposite fork branches:
+==============================================================================
+  CHK(T_ann (27 conn entries = 0, generic K tails)): PASS
+  CHK(T_obs (single conn entry = zeta_12)): PASS
+  spread(T_ann): 0 nonzero deviations over 54 exact (i,j,t) probes -> P^3 INVISIBLE
+  spread(T_obs): 6 nonzero deviations (e.g. z/3) -> P^3 VISIBLE
+  => THEOREM A: the committed constraints admit BOTH an annihilating and an obstructing
+     model; B1232's fork is formally INDEPENDENT of the committed record. In particular
+     no committed constraint forces a nonzero connecting entry (T_ann is a witness), and
+     none forces annihilation (T_obs is a witness).
+
+==============================================================================
+[3] THEOREM B -- the freedom group G: dimension, orbit, invariance, sharp boundary
+==============================================================================
+  raw Lie dims: gl3(A)=9, p(B6)=7, p(B2)=13, scale=1 -> total 30
+  generic-block orbit dimension = rank of the 30x36 linearized action = 27
+  stabilizer of a generic block: dim 3 (the redundant scalar torus:
+    mu_A*I_A + mu_6*I_6 + mu_2*I_2 + lam acts by (mu_A+mu_6+mu_2+lam); 3 relations)
+  confirmed exactly: the three scalar-difference directions annihilate EVERY block.
+  25 random G-elements on T_ann: all 27 conn entries stay 0 = True; tail VALUES moved = True
+  on T_obs one G-element changes 9 of the 27 conn VALUES (they are NOT invariant);
+  the PROPERTY 'all 27 vanish' is invariant (parabolic preserves conn; checked above).
+  BITE: the non-parabolic element (g[3,0]=1, tail->conn leak) makes 9 conn entries
+  of the transformed T_ann NONZERO -- outside G the 'annihilates' property is NOT stable, so
+  G is exactly the filtration-preserving group; the committed filtration is load-bearing.
+
+==============================================================================
+[4] Consequence for the committed tail-row strings (closing g1 route E):
+==============================================================================
+  The spec's five committed coordinate strings describe the PRESENTATION of coker(D)^*
+  (the tail sector's basis data). Both models of THEOREM A leave that presentation data
+  untouched -- they assign block VALUES, not presentations -- so for any fixed strings both
+  models remain committed-legal. The strings constrain the 27 connecting values not at all.
+
+G2 VERDICT: UNDERDETERMINED, PROVED at two layers.
+  ABSOLUTE layer (Thm A): the committed record is CONSISTENT WITH BOTH fork branches --
+    the 27 values are underdetermined not merely up to gauge but up to everything: the
+    admissible set is the full K^36 block (g3 verifies no constraint cuts it).
+  FRAME layer (Thm B): even granting codex's frames-up-to-committed-identifications, the
+    values are determined only up to the 27-dimensional group G (9+7+13+1-3); a generic
+    G-orbit in the 36-dim block is 27-dimensional, the 27 values are gauge-variant, and
+    the annihilation PROPERTY is the invariant -- so the fork QUESTION is well-posed and
+    its ANSWER requires exactly the normalization data listed in the commissioning spec.
