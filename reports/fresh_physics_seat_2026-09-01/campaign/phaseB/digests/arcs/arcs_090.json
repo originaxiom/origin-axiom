@@ -1,0 +1,116 @@
+{
+ "batch": "arcs_090",
+ "arcs": [
+  {
+   "arc": "B921_branch_harvest",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/HARVEST_MANIFEST.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B921.txt",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/cell2_hecke_gate.py",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/cell2_hecke_gate.txt",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/cell3_spin_fork.py",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/cell3_spin_fork.txt",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/loss_audit/THE_LOSS_LEDGER.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B792_maass_m004_eigenvalues/sm_comparison_certified.txt",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B792_maass_m004_eigenvalues/certify_mode_count.py",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B792_maass_m004_eigenvalues/sector_projection_test.py",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B792_maass_m004_eigenvalues/weyl_scattering_check.py",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict.md"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B792_maass_m004_eigenvalues/length_spectrum_m003.json (head/tail/wc: 2471 lines, m003 length spectrum cutoff 6.0, geodesics with mult up to 40)",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict3.md (grep only, C2-C7 excerpt read)",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md (grep only, line 94 read)",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_novelty_research.md (grep only, line 23 read)"
+   ],
+   "files_listed_only": [
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/CELL9_RUNG1_PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/CELL9_RUNG1_PREREGISTRATION_v2.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/CELL9_RUNG1_PREREGISTRATION_v3.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/MASTERPLAN.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/MASTERPLAN_FORWARD.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/WAVE1_PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict2.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_born_content.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/loss_audit/loss_audit_branch_delta.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/loss_audit/loss_audit_general_register.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/loss_audit/loss_audit_observer_thread.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/context_sweep/sweep_banked_arcs_B793_B797.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/context_sweep/sweep_changelog_history.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/context_sweep/sweep_error_protocol.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/context_sweep/sweep_leads_doors.md",
+    "/home/user/origin-axiom/frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/context_sweep/sweep_status_spine.md"
+   ],
+   "claim_of_record": "verdict: PROVED. claim_one_line: 'THE BRANCH HARVEST STAGE 1 (cc3 audit Part B): all 30 load-bearing files harvested from origin/audit/b775-braver-questions (head d8f95511) with branch paths preserved, every copy sized and non-empty; ALL FOUR SEAL HASHES VERIFIED AS FULL SHA256 MATCHES (the prereg chain 8424a335/da516046/3ba81779/169e9042 -- sealed copies byte-identical); 31 machine-path occurrences scrubbed in 7 non-sealed copies with a per-file scrub log; the Wave-1 negatives secured ...; HARVEST_MANIFEST.md with the full table + THE 30-ITEM CARRIED-FORWARD ENUMERATION, routed into OPEN_LEADS at banking ... The branch-death risk is ENDED for the load-bearing corpus; the full-corpus stage 2 ... remains optional.'",
+   "log_says": "PROGRESS_LOG 2026-08-06 (THE MEANTIME WAVE BANKED): 'all 30 load-bearing files off the branch with FOUR full sha256 seal matches, 31 path scrubs logged, the Wave-1 negatives and the three load-bearing reports secured, and the 30-item carried-forward enumeration ROUTED into OPEN_LEADS at banking (4 covered, 26 opened)'; later entries (B943 2026-08-07, B999 2026-08-09, B1218 2026-08-30, REVIEWS.md Review 41) reference B921 only as a tracking anchor (open lead B921-17, B921-6) or as an example of the 'preserved files, not findings' failure pattern, not as a re-adjudication of B921's own content.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Four SEAL_LEDGER sha256 hashes (8424a335, da516046, 3ba81779, 169e9042) verified as full matches between branch blobs and on-disk harvested copies",
+     "where": "HARVEST_MANIFEST.md §2",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full sha256 digests are printed in the manifest and the harvested files sit on disk at the given paths; a stranger can `git show <branch>:<path> | sha256sum` and compare to the harvested copy directly (method is stated explicitly)."
+    },
+    {
+     "what": "Cell 2 Hecke validation gate FAILS (0/10 relations pass at 5%) -> ABORT of level-(4) Hecke doublet surgery",
+     "where": "harvested/frontier/B796_coupling_campaign/cell2_hecke_gate.py + cell2_hecke_gate.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Script and its printed output witness are both committed and self-consistent (I re-traced the eigen-relation logic against the printed numbers), but the script imports hejhal_m004.py from frontier/B792_maass_m004_eigenvalues which is NOT part of this harvest -- reproduction depends on a file outside this arc's committed set (presumed to exist on main, not verified here)."
+    },
+    {
+     "what": "Cell 3 spin fork: rho1=(A,B) is non-Lie under BOTH named trace conventions (trace pattern (2,-2)) => discrete Dirac spectrum => spinor-Hejhal instrument authorized",
+     "where": "harvested/frontier/B796_coupling_campaign/cell3_spin_fork.py + .txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Self-contained sympy script with no external file dependencies; committed .txt output matches what re-tracing the code by hand predicts (checked: rho1 under C1 -> non-Lie, rho1 under C2 -> non-Lie, matching the FINDINGS.md claim exactly)."
+    },
+    {
+     "what": "sm_comparison_certified.txt: CLEAN NULLS -- no SM observable (sin^2 theta_W, sin^2 theta_12/23, delta_CP, m_s/m_d, m_c/m_b) is reachable from the 17-eigenvalue certified spectrum at 8-digit precision under a base-rate/surrogate control; 0/2 direct-match, 0/39 ratio candidates, 0 PSLQ relations pass",
+     "where": "harvested/frontier/B792_maass_m004_eigenvalues/sm_comparison_certified.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "This is a printed witness (stdout capture) of a run; the generating script itself is not among the harvested/listed files for this arc, so a stranger cannot re-run it from what B921 committed alone (though the underlying B792 arc presumably carries it on main)."
+    },
+    {
+     "what": "Mode-count certification / sector-projection / scattering-corrected Weyl completeness check generator scripts",
+     "where": "harvested/frontier/B792_maass_m004_eigenvalues/{certify_mode_count.py, sector_projection_test.py, weyl_scattering_check.py}",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Scripts are complete and committed, but each reads eigenvalues_final.json / scanD_refined.json / hejhal_m004.py / eigenvalues_final.py, none of which are part of this harvest (per HARVEST_MANIFEST §1 item (5) these are 'generators whose outputs main had banked without their scripts' -- the inputs are assumed to live on main outside this arc)."
+    },
+    {
+     "what": "cell9_sec16_verdict.md STOP verdict: the sealed Cell-9 rung-(i) prereg (seal da516046) has an arithmetically defective PSLQ tolerance (below the propagated noise floor for every box), a non-functional P3 displaced control ('no well exists' within 0.26 of any displaced start), an unvalidated Y=0.80 precondition asserted as fact, and an unsupported mult-2 harmlessness claim",
+     "where": "harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is itself a review document (arithmetic argument in prose, not re-run code) authored by a 'non-authoring §16 seat'; the manifest states v3 later 'verifies' v2/v3 progress on these defects, but I did not fully read verdict2.md/verdict3.md to confirm which of DEFECTS 1-4 were actually closed versus only partially addressed by C2-C8 (I only grepped verdict3.md's C7 line)."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false; no independent recompute/verification directory exists for this arc. The only 'belt' activity is the sha256 re-hash of the harvested copies against SEAL_LEDGER (an integrity check of file transfer, not a re-derivation of any physics content).",
+   "absence_claims": [
+    {"quote": "the B909 bank ... frontier/B909* DOES NOT EXIST (no dir, no FINDINGS, no test), while B915 (the crossing, the sealed 16sigma MISS in the README) CONSUMES the 3/8 as its boundary condition.", "where": "harvested/frontier/B796_coupling_campaign/loss_audit/THE_LOSS_LEDGER.md L1 (line ~13-16)"},
+    {"quote": "B851 §3: 'is B723's system BC/CMR-type for Q(sqrt-3)? -- now the SOLE load-bearing assumption.' Announced inside a six-task campaign (PROGRESS_LOG:9068, B858) -- no B858 directory exists; zero post-B851 occurrences.", "where": "harvested/frontier/B796_coupling_campaign/loss_audit/THE_LOSS_LEDGER.md L4 (line ~44-47)"},
+    {"quote": "NO Bost-Connes-type system exists on Bianchi groups / H^3 / any hyperbolic 3-manifold (multiple targeted searches; structural reason: no Shimura data for GL(2) over imaginary quadratic on the H^3 side; Maass forms lack the required algebraicity).", "where": "HARVEST_MANIFEST.md item 19 (§4, 'From second_round_cm_bost_connes.md')"},
+    {"quote": "If B796 needs KMS_infinity values to be periods of m004's own spectrum, that mathematics does not exist.", "where": "harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md:94"},
+    {"quote": "no completed end-to-end run exists on disk (C7).", "where": "harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict3.md:23"},
+    {"quote": "the sealed pass branch 'convergence to the displaced well' is impossible; no well exists.", "where": "harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict.md:60"},
+    {"quote": "Y = 0.80 appears in no validation artifact anywhere in the repo.", "where": "harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict.md:74"},
+    {"quote": "Harvest trace_norm_split.* (branch: frontier/B792_maass_m004_eigenvalues/trace_norm_split.{py,json,txt} -- NOT in this Stage-1 set)", "where": "HARVEST_MANIFEST.md §4 item 2 (from THE_LOSS_LEDGER L2)"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The three B792 generator scripts (certify_mode_count.py, sector_projection_test.py, weyl_scattering_check.py) and sm_comparison_certified.txt's own source script all depend on eigenvalues_final.json / scanD_refined.json / hejhal_m004.py that are not part of this harvest and were not located/verified in this read; the harvest note itself flags this as a known gap ('outputs on main, generators branch-only').", "where": "HARVEST_MANIFEST.md §1 item (5)-(6); certify_mode_count.py:24-29; sector_projection_test.py:50-56"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "The harvested cell9_sec16_verdict.md documents a STOP-severity review (4 defects: dead PSLQ tolerance, non-functional P3 control, unvalidated Y=0.80, unsupported mult-2 claim) against the sealed prereg chain that B921's own FINDINGS.md/arc_verdict.json describe only as '4/4 seal hashes verified... the chain's internal citations close' -- a reader of B921's claim_of_record alone would not learn that the sealed content it preserves was, per its own harvested verdict.md, arithmetically defective at seal time (v3's resolution status was not independently confirmed here; only grepped, not fully read).", "where": "harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict.md (whole file) vs FINDINGS.md line 15-16, 'the chain's internal citations close'"},
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "sm_comparison_certified.txt's PSLQ algebraicity test (Test 3-lite) is described as '8-digit; low-height only' and the file itself flags the 20+/50+-digit questions as 'open, untested, in both directions' -- the CLEAN NULLS verdict is scoped and should not be read as a general non-algebraicity result.", "where": "harvested/frontier/B792_maass_m004_eigenvalues/sm_comparison_certified.txt lines 56-78"},
+    {"kind": "OTHER", "detail": "This arc is a pure archival/registration act ('This is a harvest record. Nothing here is a claim; nothing to CLAIMS.md' -- HARVEST_MANIFEST.md line 13) yet carries a PROVED verdict and an 'instrument: true' arc_verdict.json; the PROVED status attaches to the harvest's own integrity (files copied, hashes match), not to any physics content of the harvested material, and a reader scanning verdict statuses alone could conflate the two.", "where": "arc_verdict.json line 3-5; HARVEST_MANIFEST.md line 13"}
+   ],
+   "seat_note": "B921 is a file-preservation/registration operation, not a physics computation; its own load-bearing claim (hash integrity of copied files) is cleanly reproducible, but it imports and re-presents several independently-computed physics results (the Hecke ABORT, the spin fork, the CLEAN NULLS SM-comparison null) whose generator scripts partly depend on files outside this arc's committed set. The most consequential item is that the harvested corpus itself contains a STOP-severity internal review of the sealed Cell-9 prereg chain that B921's summary claim does not surface, which downstream readers relying only on FINDINGS.md/arc_verdict.json would miss."
+  }
+ ]
+}

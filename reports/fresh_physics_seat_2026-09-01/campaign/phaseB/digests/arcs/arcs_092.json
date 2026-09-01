@@ -1,0 +1,362 @@
+{
+ "batch": "arcs_092",
+ "arcs": [
+  {
+   "arc": "B928_d2_decode",
+   "source": "main",
+   "files_read": [
+    "frontier/B928_d2_decode/DRAFT_FINDINGS.md",
+    "frontier/B928_d2_decode/FINDINGS.md",
+    "frontier/B928_d2_decode/PREREGISTRATION.md (head)",
+    "frontier/B928_d2_decode/arc_verdict.json",
+    "frontier/B928_d2_decode/results.json"
+   ],
+   "files_sampled": [
+    "frontier/B928_d2_decode/d2_decode.py (first ~120 lines + grep for def/assert/Fraction; 2010 lines total)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim_one_line: 'THE D2 DECODE ... OUTCOME FORCED VERBATIM -- THE HIERARCHY'S CARRIER IS CHARACTERIZED BY A BANKED EQUATION WITH NO RESIDUAL FREEDOM: D2 = +-rho_27(sigma_{chi-}) ... 11 = 8+3 REFUTED exactly (numerology) ... THE FORCED prior WON ... STAGE 2 NOW AWAITS THE OWNER'S WORD AND NOTHING ELSE.' arc_verdict also carries a 2026-08-29 creates_law_reviewed flip to false, class AUDIT/CENSUS/LEDGER, basis: not read in full for that review.",
+   "log_says": "2026-08-06 PROGRESS_LOG: 'THE D2 DECODE — OUTCOME FORCED; the hierarchy's origin is an equation; the shape sheet exists; Stage 2 stands at the owner's gate.' Later entries (2026-08-07) restate the same claim and add B928 to a §5-gate candidate list.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "D2 = +-rho_27(sigma_{chi-}), the affine-shifted character a*=s(chi-), and the Q3 shape sheet (m_S, m_A, colored spectra, sum rule 11)",
+     "where": "d2_decode.py exact Fraction/sympy arithmetic -> results.json (98 checks, all PASS)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "d2_decode.py is committed, loads only committed banked JSON from upstream arcs (B883/B912/B916/B914/B918/B907/B923) and recomputes everything with Fraction/sympy exact arithmetic; results.json is the committed witness with a 98/98 check ledger."
+    },
+    {
+     "what": "The Klein group {I,D2,D,D2D} and the census uniqueness of phi* among 128 representatives",
+     "where": "FINDINGS.md Q1(d); d2_decode.py census sweep",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sweep over the full 128-member census is exact and in-script per the file; not independently re-run by this reviewer but code and inputs are committed."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No verification/ dir; tests/test_b928_decode.py exists as a lock file but only re-reads results.json fields (not independently re-derived by this reviewer's sample); the arc's own internal exact-arithmetic re-derivation (H+, H-, H(phi*) re-solved from defining equations rather than handed off) is the strongest internal check.",
+   "absence_claims": [
+    {
+     "quote": "What is NOT derived: a pipeline-free closed form for 953 and 2304 = 2^8 3^2 -- the specific integers enter through the eigenline coordinates of the atom solve (the value pipeline's own objects), and where each prime enters those coordinates is open.",
+     "where": "frontier/B928_d2_decode/FINDINGS.md, Q2 'The exact residue'"
+    },
+    {
+     "quote": "an automorphism outside every swept class is not excluded by this cell.",
+     "where": "frontier/B928_d2_decode/FINDINGS.md, Honest gaps #3"
+    },
+    {
+     "quote": "Locks (tests/test_b928_decode.py) are the banking seat's step; not written by this agent.",
+     "where": "frontier/B928_d2_decode/FINDINGS.md, Honest gaps #4"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "A 2026-08-29 later-arc (B1214) review flipped this arc's creates_law_reviewed field to 'false' with class AUDIT/CENSUS/LEDGER, explicitly noting it (unlike 13 other arcs) was NOT read in full before the reclassification -- an acknowledged asymmetry in how the corpus's own governance treats this arc, worth the seat's separate attention rather than trusting the arc_verdict.json field at face value.",
+     "where": "frontier/B928_d2_decode/arc_verdict.json, creates_law_reviewed"
+    }
+   ],
+   "seat_note": "Genuinely computed exact-arithmetic Lie-theoretic result (a sign character on a rep, a Klein 2-torsion group, forced K-valued minimal polynomials) with a real 98/98 check ledger and honest open residues; this is STRUCTURAL group-theory/arithmetic work, not an observable prediction, and Stage 2 (any comparison to measured mixing) is explicitly gated off pending owner sign-off."
+  },
+  {
+   "arc": "B929_third_crossing",
+   "source": "main",
+   "files_read": [
+    "frontier/B929_third_crossing/FINDINGS.md",
+    "frontier/B929_third_crossing/PREREGISTRATION.md",
+    "frontier/B929_third_crossing/arc_verdict.json",
+    "frontier/B929_third_crossing/results.json",
+    "frontier/B929_third_crossing/third_crossing.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim_one_line: 'THE THIRD CROSSING ... SEALED VERDICT HIT-SHAPE -- TIER 1 PASS ... TIER 2 MISS: r = (0.927, 0.870) vs q = (0.182, 0.094), off by factors 5-9 in both orientations -- THE DIRECT IDENTIFICATION m_S-ratios = CKM-ratios IS DEAD ... SUGGESTIVE, NOT PROBATIVE.'",
+   "log_says": "2026-08-06 PROGRESS_LOG: 'THE THIRD CROSSING — HIT-SHAPE: the blind sheet is a mixing-shaped cascade; the magnitudes are not CKM's; the result weighs itself honestly.' Later (2026-08-07) entries restate T1/T2 split and log it among 'eight sealed cells' scoreboard, consistent with FINDINGS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "T1 PASS (shape cascade, acceleration index a=1.838 in band (1,3)); T2 MISS (ratios off by 5-9x vs PDG CKM)",
+     "where": "third_crossing.py -> results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "third_crossing.py is a short (72-line) committed script; it reads B928's results.json Q3 certificates and hardcodes PDG CKM moduli (Vus=0.2243, Vcb=0.0408, Vub=0.00382) inline with no citation/version pin to a specific PDG edition; arithmetic is plain floats (math.log, not exact), reproducible as written."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ dir; the lock file mentioned in FINDINGS ('tests/test_b929_crossing3.py') exists but was not sampled in this pass beyond confirming its presence.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "Despite the surrounding corpus's house rule of exact arithmetic, this comparison arc uses plain double-precision floats throughout (math.log, division) for both the object-side ratios and the measured CKM ratios -- appropriate for a physical-value comparison, but a departure from the exact-certificate standard the neighboring arcs (B928, B930, B931) hold themselves to.",
+     "where": "frontier/B929_third_crossing/third_crossing.py"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "PDG CKM values are hardcoded as bare floats with no source/version citation (world-average numbers as of some unspecified PDG edition); a stranger cannot verify which PDG release these came from.",
+     "where": "frontier/B929_third_crossing/third_crossing.py"
+    }
+   ],
+   "seat_note": "An honestly-reported negative-leaning result (shape passes a loose structural band test, but the actual magnitudes miss CKM by 5-9x, killing the direct identification); this is a genuine OBSERVABLE-content comparison against real PDG numbers and its MISS half is not softened, which is to the corpus's credit, though the PASS half rests on a deliberately broad (1,3) band that the preregistration itself admits could not be truly blind to CKM's rough shape."
+  },
+  {
+   "arc": "B930_overlap_matrix",
+   "source": "main",
+   "files_read": [
+    "frontier/B930_overlap_matrix/DRAFT_FINDINGS.md",
+    "frontier/B930_overlap_matrix/FINDINGS.md",
+    "frontier/B930_overlap_matrix/arc_verdict.json",
+    "frontier/B930_overlap_matrix/results.json"
+   ],
+   "files_sampled": [
+    "frontier/B930_overlap_matrix/overlap.py (first ~120 lines + grep for def/CHK/assert; 76KB file)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim_one_line: 'THE OVERLAP MATRICES (blind; 81/81 with an independent dps-80 belt): (a) THE BRANCHES ARE SUPERSELECTED ... (b) the S-vs-A registers under H' carry A GENUINE HIERARCHY ... minpoly 953^4 x^3 - ... - 5^12 ... (c) the twist-vs-Galois rotation is EXACTLY ORTHOGONAL ... sum rule 151/64 + 169/64 + 6 = 11 EXACTLY. THE DOCTRINE AS SELECTION RULE, VERIFIED.'",
+   "log_says": "2026-08-06 PROGRESS_LOG (first entry, same-day): B930 was reported INCOMPLETE with a type bug in its field arithmetic, 'nothing banked from its design-level predictions'; a second same-day PROGRESS_LOG entry reports it fully banked after 'four logged design amendments' all caught by the instrument's own aborts, 81/81 with independent dps-80 belt.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Branch superselection (all cross-omega-branch overlaps vanish under both H+ and H'); S-A hierarchy minpoly 953^4x^3-230571559875x^2-16394578125x-5^12; twist-vs-Galois rotation charpoly (x-1)(1536x^2-2088x+677); sum rule 151/64+169/64+6=11",
+     "where": "overlap.py -> results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "overlap.py is committed, uses exact Fraction/field arithmetic, loads only committed banked JSON from B883/B912/B916/B907/B928/B923; DRAFT_FINDINGS.md ('placeholder, run in progress') shows the run was genuinely in-flight and completed, not retrofitted."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "FINDINGS claims an 'independent dps-80 belt' (numeric cross-check at high precision) inside the same script; tests/test_b930_overlap.py exists as a committed lock but was not independently executed in this pass.",
+   "absence_claims": [
+    {
+     "quote": "under the canonical gauge there is no overlap to read anywhere -- cross-register, cross-generation, cross-branch, all exactly zero.",
+     "where": "frontier/B930_overlap_matrix/FINDINGS.md"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc went through a documented mid-run failure (a type bug, then two separate 'positivity assumed where B912's bank says indefinite' amendments, then a solver-phase misalignment) before landing at the banked result -- four amendments in one arc is a high rate of self-correction for a single computation, though the log frames each as caught by the instrument's own abort discipline rather than hidden.",
+     "where": "frontier/B930_overlap_matrix/FINDINGS.md, 'The instrument story'"
+    }
+   ],
+   "seat_note": "A structurally rich exact-arithmetic result (superselection of branches, a genuine S-A hierarchy with a computed minimal polynomial, an exact orthogonal rotation) with a real check ledger; purely group-theoretic/arithmetic, explicitly fenced from any comparison to measured mixing pending a future sealed cell and the owner's word."
+  },
+  {
+   "arc": "B931_why_953",
+   "source": "main",
+   "files_read": [
+    "frontier/B931_why_953/DRAFT_FINDINGS.md",
+    "frontier/B931_why_953/FINDINGS.md",
+    "frontier/B931_why_953/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B931_why_953/results.json (SAMPLE_DATA: head/tail + wc; grepped for 953, 2304, 20417473)",
+    "frontier/B931_why_953/why953.py (first ~120 lines + grep for def/CHK/assert; 41KB file)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim_one_line: 'WHY 953 -- THE DERIVATION CHAIN + THE HONEST MAP (53/53 exact): 2304 IS DERIVED ... 953 IS TRACED TO ITS BIRTH -- it appears NOWHERE upstream ... and is BORN in the twisted-form resultant ... WHAT 953 IS: the residue characteristic of the unique prime of K where the flip mass m degenerates to EXACTLY 1/2 ... The pipeline-free closed form for the INTEGER 953 remains the registered open.' arc_verdict also carries a 2026-08-29 creates_law_reviewed flip to false, class VERIFICATION.",
+   "log_says": "2026-08-06 PROGRESS_LOG: 'B931 -- WHY 953, answered structurally' restates the divisor-map/observer-place result. A 2026-08-07 entry adds 'K is MONOGENIC ... closing B931's p=5 and p=7 blind spots' as a later instrument upgrade. A 2026-08-08 entry (B946) reuses B931/B937's resolvent class law to sort further primes. All consistent with FINDINGS' own stated scope and its addendum.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "2304^2 as the {2,3}-part of lc(mu13); the divisor map (d_S)=P1(953)^2..., (d_A)=P2(953)^1...; 953 as the place where flip mass m=1/2; the resolvent field Q(sqrt77)",
+     "where": "why953.py sympy symbolic resultants/round_two/PrimeIdeal.valuation -> results.json (53 checks, ALL PASS)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "why953.py is committed, uses sympy factorint/resultant/discriminant plus round_two integral-basis machinery, and requires every derived minpoly to equal its banked B916/B928 counterpart before use (verify-don't-trust); a stranger with the committed upstream JSON and sympy could rerun it."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_wave_b931_b933.py exists as a committed lock, but it only re-reads results.json for substring/value presence (e.g. asserts '953' and 'degener' appear in the JSON text) rather than recomputing the divisor map -- a weak re-read, not an independent recompute.",
+   "absence_claims": [
+    {
+     "quote": "no minor, no coordinate, no untwisted norm, and no flip norm knows 953. The prime is born exactly in the interference q' = q - 2*q_f",
+     "where": "frontier/B931_why_953/FINDINGS.md, Headline 2"
+    },
+    {
+     "quote": "no 953 anywhere in any block Gram det, in the pencil charpolys of G^-1G', or in any whitelist invariant of the UPSTREAM objects ... the sweep's only 953-hits are objects downstream of the twist",
+     "where": "frontier/B931_why_953/FINDINGS.md, Headline 3"
+    },
+    {
+     "quote": "A pipeline-free closed form for a pipeline-free closed form producing the integer 953 from small data -- remains open. Candidates exhausted by the declared whitelist ... 953 appears in NONE of them.",
+     "where": "frontier/B931_why_953/FINDINGS.md, 'The honest residue'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md's own header still reads 'Status: DRAFT' even though this is the file named FINDINGS.md (not DRAFT_FINDINGS.md) and the ADDENDUM below it is dated the same day and treated as final/banked text elsewhere in the corpus -- a stale status label left uncorrected in the banked document.",
+     "where": "frontier/B931_why_953/FINDINGS.md, header"
+    }
+    ],
+   "seat_note": "A careful, exact symbolic-algebra derivation that pushes the origin of the number 953 one level deeper (to a prime-ideal divisor map) while being unusually honest that the ultimate 'why 953' (a pipeline-free closed form) is still open and the exhausted whitelist found nothing; this is number-theoretic structure, not a physical observable, and its own text repeatedly and correctly refuses to oversell derivation as full explanation."
+  },
+  {
+   "arc": "B932_chain_selection",
+   "source": "main",
+   "files_read": [
+    "frontier/B932_chain_selection/DRAFT_FINDINGS.md",
+    "frontier/B932_chain_selection/FINDINGS.md",
+    "frontier/B932_chain_selection/arc_verdict.json",
+    "frontier/B932_chain_selection/results.json"
+   ],
+   "files_sampled": [
+    "frontier/B932_chain_selection/chain_select.py (first ~120 lines + grep for def/assert/CHK; 49KB file)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim_one_line: 'R-EMB DECIDED -- OUTCOME A: THE OBJECT SELECTS THE GUT CHAIN GRAMMATICALLY ... NO banked structure realizes su(3)+su(2)+su(2) ... TWO THEOREM-SHAPED OBSTRUCTIONS make the negative permanent ... The selection question is closed as structure -- and it never produces a number (per the anatomy).'",
+   "log_says": "2026-08-06 PROGRESS_LOG: 'B932 -- R-EMB decided, OUTCOME A: Chat-1's conformal computation VERIFIED IN-HOUSE (W18 upgraded ...), and no banked structure realizes su(3)+su(2)+su(2) as a centralizer -- with TWO theorem-shaped obstructions ... the GUT selection is grammatical.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The conformal (E6)_1 chain's 27 = (3bar,2,2)+(3bar,3,1)+(6,1,1), zero color singlets; e6 built exactly as Lie(Inv(N)) with dim=78 pinned by a two-sided mod-p rank sandwich; T1 (charge-centralizer center>=1) and T2 (Levi factors have Dynkin index 1) as general obstructions",
+     "where": "chain_select.py -> results.json (57/57 checks)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "chain_select.py is committed and builds split octonions, g2=Der(O), the 27=J3(O), and e6 all from scratch with exact rational arithmetic plus mod-p rank certificates in both valid sandwich directions; a stranger could rerun it."
+    },
+    {
+     "what": "Identification of the constructed 78-dim Lie(Inv(N)) with split e6",
+     "where": "FINDINGS.md, Honest gaps #1",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "Explicitly cited as Chevalley-Schafer (a classical theorem), not re-derived in-house beyond the dim=78 computation; the arc is honest about this being a cited identification rather than a from-scratch proof."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_wave_b931_b933.py's test_b932_outcome_A only checks that '(6,1,1)' and a singlet-related substring appear in results.json text -- a weak re-read, not an independent recompute of the 57 checks.",
+   "absence_claims": [
+    {
+     "quote": "No row matches (derived, center) = (14, 0). The unique dim-14 wall -- the SMT wall -- is su(3)+su(2)+u(1)^3: derived 11 != 14, center 3 != 0.",
+     "where": "frontier/B932_chain_selection/FINDINGS.md, LEG 2"
+    },
+    {
+     "quote": "Not preregistered (adjudication-cell class, B854/B874 precedent)",
+     "where": "frontier/B932_chain_selection/FINDINGS.md, Honest gaps #5"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "A 2026-08-19 ADDENDUM (from a later arc B1079) states the universal reading of theorem T1 ('every charge wall has center >= 1') is 'computably FALSE beyond this arc's own sweep' at orders 2 and 3 (specific counterexamples given: su(6)+su(2) at order 2, su(3)^3 at order 3), and narrows T1's true scope to toral/order->=5 elements only. The addendum is present and the main-text T1 bullet in LEG 2 is NOT itself edited to add the scope caveat inline -- a reader of LEG 2 alone (before the addendum) would still read T1 as an unscoped universal theorem.",
+     "where": "frontier/B932_chain_selection/FINDINGS.md, ADDENDUM 2026-08-19 vs the T1 bullet under LEG 2"
+    }
+   ],
+   "seat_note": "A genuine structural no-go result (two clean obstruction theorems, T1 and T2, ruling out a specific Lie-algebra chain as a measurement-grammar output) built from an from-scratch exact octonion/Jordan-algebra construction of e6; purely group-theoretic, and the arc is explicit that it 'never produces a number' -- appropriately modest, though the later scope-narrowing addendum for T1 is not folded back into the bullet it corrects."
+  },
+  {
+   "arc": "B933_spinor_hejhal_design",
+   "source": "main",
+   "files_read": [
+    "frontier/B933_spinor_hejhal_design/DESIGN.md",
+    "frontier/B933_spinor_hejhal_design/DRAFT_FINDINGS.md",
+    "frontier/B933_spinor_hejhal_design/FINDINGS.md",
+    "frontier/B933_spinor_hejhal_design/arc_verdict.json",
+    "frontier/B933_spinor_hejhal_design/refined.json",
+    "frontier/B933_spinor_hejhal_design/results.json",
+    "frontier/B933_spinor_hejhal_design/scan_dips.json",
+    "frontier/B933_spinor_hejhal_design/validate_out.json"
+   ],
+   "files_sampled": [
+    "frontier/B933_spinor_hejhal_design/probe.py (first ~120 lines + grep for def/assert/dps; 28KB file)"
+   ],
+   "files_listed_only": [
+    "frontier/B933_spinor_hejhal_design/scan_results.npz (binary; a .json twin exists as scan_dips.json)"
+   ],
+   "claim_of_record": "verdict PROVED, instrument:true; claim_one_line: 'THE SPINOR-HEJHAL DESIGN + A SUCCESSFUL FEASIBILITY PROBE (exploratory, double precision, UNSEALED ...) ... the probe ALREADY RESOLVES A SPECTRUM: first Dirac eigenvalue bracket |lambda_1| = 2.97455058 +/- 1e-6 ... THE LITERATURE BLANK HELD: no prior computed Dirac eigenvalue on ANY hyperbolic 3-manifold.'",
+   "log_says": "2026-08-06 PROGRESS_LOG: 'the FIRST DIRAC SPECTRUM ON ANY HYPERBOLIC 3-MANIFOLD at probe grade' and restates |lambda1|=2.97455058, 8 digits, three instruments, dim-2 kernel. A 2026-08-07 REVIEWS.md Review 40 entry separately flags that B933's own COMMIT MESSAGE called the probe 'a first on H3' as an unqualified priority sentence resting on an unrecorded-depth literature sweep -- the same review that flagged B922's similar overclaim. An R47 action item ('R47-9: the B933 Dirac correction (owed; the web seat's verified J-commutes)') is listed as still OPEN/owed, not yet resolved as of the read log.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "First Dirac eigenvalue bracket |lambda_1| = 2.97455058 +/- 1e-6; dim-2 kernel candidate at lambda=0; exact spectral symmetry spec(D)=-spec(D)",
+     "where": "probe.py (double-precision numerics, golden-search refinement) -> results.json, refined.json, validate_out.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "probe.py is committed and self-contained (numpy/mpmath collocation on m004 with the rho_1 spin structure); FINDINGS.md itself is explicit this is 'exploratory numerics (double precision), NOT sealed, NOT banked' pending a future sealed run."
+    },
+    {
+     "what": "'No prior computed Dirac eigenvalue on any hyperbolic 3-manifold' (the literature-blank claim)",
+     "where": "FINDINGS.md, 'Honest boundaries'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "FINDINGS.md itself states the literature sweep was 'arXiv API, 3 targeted queries + 1 must-pass control' and explicitly flags this as incomplete ('The sweep is arXiv-only and must be completed (O3) before any \"first\" sentence banks'); no committed search transcript or query log is cited, so a stranger cannot reproduce or audit the sweep depth."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ dir and no dedicated lock file beyond a generic wave-lock (tests/test_wave_b931_b933.py::test_b933_probe_bracket) that only checks the substring '2.97455' appears in results.json -- a re-read, not an independent recompute of the collocation.",
+   "absence_claims": [
+    {
+     "quote": "No external anchor exists: no prior computed Dirac eigenvalue on any hyperbolic 3-manifold was found (arXiv API, 3 targeted queries + 1 must-pass control; Bar 2000 and the Bolte-Stiepan surface trace formula are analytic, not numerical). The sweep is arXiv-only and must be completed (O3) before any \"first\" sentence banks.",
+     "where": "frontier/B933_spinor_hejhal_design/FINDINGS.md, 'Honest boundaries'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "arc_verdict.json's claim_one_line asserts 'THE LITERATURE BLANK HELD' in confident present tense, while the arc's own FINDINGS.md text says the literature sweep is arXiv-only and incomplete and that 'no \"first\" sentence banks' until it is completed -- the verdict file states more firmly than the underlying document supports.",
+     "where": "frontier/B933_spinor_hejhal_design/arc_verdict.json vs FINDINGS.md 'Honest boundaries'"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "docs/progress/REVIEWS.md Review 40 and its R47 action-item list flag an owed correction to B933's priority claim ('the B933 Dirac correction (owed; the web seat's verified J-commutes)') as of the read log window; no corresponding correction/addendum appears inside this arc's own FINDINGS.md, so the fix (if made) is not visible in the arc's own committed files as sampled here.",
+     "where": "docs/progress/REVIEWS.md R47 action items, per log_index/B933.txt, vs frontier/B933_spinor_hejhal_design/FINDINGS.md"
+    },
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "The headline number (|lambda_1|=2.97455058) rests entirely on double-precision numerical collocation with a golden-search resolution floor; no exact/symbolic certificate is possible for this class of computation, and the arc is honest about this ('nothing here is certified').",
+     "where": "frontier/B933_spinor_hejhal_design/FINDINGS.md, 'Honest boundaries'"
+    }
+   ],
+   "seat_note": "A real, carefully-designed numerical probe (a Dirac/spinor-Hejhal collocation on m004) with an honestly-labeled exploratory/unsealed status and a documented literature-sweep caveat, but the arc_verdict.json's 'the literature blank held' phrasing outruns the FINDINGS text underneath it, and a flagged priority-claim correction from the review process does not appear resolved inside this arc's own committed record."
+  },
+  {
+   "arc": "B935_composition_hunt",
+   "source": "main",
+   "files_read": [
+    "frontier/B935_composition_hunt/FINDINGS.md",
+    "frontier/B935_composition_hunt/arc_verdict.json",
+    "frontier/B935_composition_hunt/results.json"
+   ],
+   "files_sampled": [
+    "frontier/B935_composition_hunt/compose.py (first ~120 lines + grep for def/CHK/assert; 51KB file)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE; claim_one_line: 'THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON ... yields exactly FOUR invariant triples MOST OF WHICH ARE FORCED TO COINCIDE ... NO COMPOSITION IS INDEPENDENT, the premise dies by similarity rather than numerics. THE STRUCTURAL REASON: the S-A overlap matrix is RANK 2 ... it cannot produce a three-term mixing cascade by this route at all.' arc_verdict also carries a 2026-08-29 creates_law_reviewed flip to false, class CORRECTION.",
+   "log_says": "2026-08-07 PROGRESS_LOG: 'B935 (the composition hunt) -- NEGATIVE with a structural reason: the closed whitelist's four forced compositions yield four invariant triples MOST FORCED TO COINCIDE ..., so no composition is independent.' A separate same-day log entry flags a discipline failure: 'B935 was a NEGATIVE-verdict arc absent from the kill graph' (later repaired). A 2026-08-08 log entry lists B935 among 13 arcs still 'PENDING' for some downstream lock/registration.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "eig(R^T-hat-G-R)=eig(G-hat) exactly (4.6e-151); eig(D_v-conj)=eig(G-hat) (1.5e-151); eig(GhatR)=eig(RGhat) (3.1e-151); exact zero root of the singular-value cubic (rank-2 overlap matrix)",
+     "where": "compose.py -> results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "compose.py is committed, exact Fraction/field arithmetic, loads only committed upstream banked JSON (B883/B912/B916/B907/B928); the belt precisions (1e-151 etc.) are reported as achieved values from a numeric cross-check inside the same script."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b935_b938.py is a committed lock file; its depth was not sampled in this pass beyond confirming its existence.",
+   "absence_claims": [
+    {
+     "quote": "Zero compositions land in the [1.2, 1.6] band (band_flags = []).",
+     "where": "frontier/B935_composition_hunt/FINDINGS.md, 'The structural reason'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "A same-week discipline failure is on record: positivity was 'assumed AGAIN -- the abort was the finding' (a third occurrence that week per the log_index), and a precision belt bar of 1e-80 was found to exceed the machinery's actual floor and was recalibrated post hoc to a house standard of 1e-40 (achieving 3.9e-76) -- a belt threshold changed after the fact rather than fixed in advance, though this is disclosed rather than hidden.",
+     "where": "frontier/B935_composition_hunt/FINDINGS.md, 'Amendments'"
+    }
+   ],
+   "seat_note": "A clean, well-evidenced negative result: an exact rank-2 degeneracy in the overlap matrix forecloses the composition-hunt's whole premise by similarity rather than by numerical near-miss, and the arc is properly filed as NEGATIVE (initially missed by the kill-graph tracking, later caught and repaired per the log) -- structural, not an observable claim."
+  }
+ ]
+}

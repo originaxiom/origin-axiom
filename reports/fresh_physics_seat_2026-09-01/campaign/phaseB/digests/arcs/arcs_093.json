@@ -1,0 +1,312 @@
+{
+ "batch": "arcs_093",
+ "arcs": [
+  {
+   "arc": "B936_cohomology_reading",
+   "source": "main",
+   "files_read": [
+    "frontier/B936_cohomology_reading/FINDINGS.md",
+    "frontier/B936_cohomology_reading/arc_verdict.json",
+    "frontier/B936_cohomology_reading/PREREGISTRATION.md",
+    "frontier/B936_cohomology_reading/ARTIFACT_HASHES.txt"
+   ],
+   "files_sampled": [
+    "frontier/B936_cohomology_reading/cohom.py (head 120 + grep def/assert/print/sympy/Fraction/==)",
+    "frontier/B936_cohomology_reading/results.json (head/tail/grep for -17/384, 953, 3129, PASS/FAIL)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED (verdict field) -- 'A SPLIT RESULT, REPORTED VERBATIM': the classification is exactly an H^1 story (G = X x| tau, H^1 = (Z/2)^2), D2 is a coboundary, D carries the nonzero class; BUT the sealed value corollary (C-C) FAILED -- the twist-norm law is NOT the discriminant/pencil invariant of the pair (H+,H'); no 953/2304 appear in the pair invariants.",
+   "log_says": "2026-08-07 log frames B936 as 'the classification IS H^1; the VALUES are what H^1 cannot see' and repeatedly cites it downstream (B1014, B1016, B1030, B1165) as establishing frame-relativity / value-invisibility; also notes 'the agent sealed its OWN prereg... then reported its central criterion FAILED and REFUSED to write the unification statement.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "128-member census closes as group G=X⋊<tau>, |G|=128, all 16384 products verified",
+     "where": "cohom.py stage [3]; results.json checks census_128_distinct_generator_maps, all_128_census_members_are_automorphisms_full_78sq_check",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact F2/Fraction arithmetic in committed cohom.py, banked inputs from B854/B883/B912/B916/B907/B928 all read from committed JSON, results.json regenerates byte-for-byte per ARTIFACT_HASHES.txt"
+    },
+    {
+     "what": "H^1(<tau>,X) = (Z/2)^2, four classes of four; [D2]=0 (coboundary, witness psi_0), [D]!=0",
+     "where": "cohom.py stages [4]-[Q-B]; results.json Z1_equals_X_tau_size_16, H1 checks",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact F2 linear algebra, independently re-derived by a second brute-force route noted in FINDINGS"
+    },
+    {
+     "what": "det(H'|W3)/det(H+|W3) = -17/384 (sealed criterion C-C FAILED against predicted -(953/2304)^2)",
+     "where": "results.json line ~487, 644-645; FINDINGS.md Q-C section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact rational arithmetic, cross-checked by a second, independently re-mixed basis and by a separate sympy-nullspace scratch script per FINDINGS -- both re-derivations reported inline, not as separate committed files"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The cell itself re-solves H+ and every H(phi) from their own invariance equations rather than trusting banked B912/B916 values (only comparing against them), and the failed criterion triggers an in-cell independent scratch re-derivation (different route: brute-force coset enumeration + sympy nullspaces) reported in FINDINGS but the scratch script itself is not a separate committed file -- it is described, not attached.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The 'independent re-derivation' of H^1 and the -17/384 refutation, described in FINDINGS.md as run in 'a separate scratch script,' is not itself a committed file in this arc's directory -- a stranger cannot re-run that specific verification route, only the primary cohom.py.",
+     "where": "FINDINGS.md 'Independent re-derivation (verify-don't-trust...)' paragraph"
+    }
+   ],
+   "seat_note": "This is a genuinely disciplined negative result: a sealed value corollary failed and the agent honored its own stop condition rather than writing a unification statement it could not support. The physics content (group cohomology of an E6 automorphism census) is pure structural mathematics with no measurable quantity attached."
+  },
+  {
+   "arc": "B937_golden_and_29",
+   "source": "main",
+   "files_read": [
+    "frontier/B937_golden_and_29/FINDINGS.md",
+    "frontier/B937_golden_and_29/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B937_golden_and_29/golden29.py (head 120 + grep def/assert/sympy/CHK/VERDICT)",
+    "frontier/B937_golden_and_29/results.json (head/tail/grep for pass:false/FAIL)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- Part A: the golden field (Q(sqrt5)) does NOT enter; 5 is a residue characteristic, decided four independent ways; the 953^4 lead in the mixing element is derived as N(P1^2 P2); THE OBSERVER-PLACE LAW: cross-generation mixing supported entirely on degree-two places, same-generation differs by exactly q1(5)^6*P1(953)^-2. Part B: 29 is COINCIDENCE (whitelist declared before compute, 2/84 hits, below look-elsewhere budget). Instrument upgrade: K is monogenic, K=Q[s]/(s^3-12s-5).",
+   "log_says": "2026-08-07 log: 'the golden field does NOT enter (5 is a residue characteristic, decided four ways...), the 953^4 lead IS derived..., and the arc's real find is THE OBSERVER-PLACE LAW.' 29: COINCIDENCE, whitelist declared before compute. A later self-catch entry (same day) flags that B941's first draft mis-named the 5^12 denominator 'the golden power' against this arc's finding, and records the correction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "K is monogenic: K = Q[s]/(s^3-12s-5), disc 6237=3^4*7*11, index 1, O_K=Z[s]",
+     "where": "golden29.py stage building monogenic_generator_found/monogenic_model_disc_equals_field_disc; results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy round_two search over integral basis, exact; gated against B931's banked disc"
+    },
+    {
+     "what": "5 is a residue characteristic not the golden field (Q(sqrt5) not a subfield of the Galois closure)",
+     "where": "golden29.py A6 checks; FINDINGS.md Part A section A6, four independent decisions",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact factorization/discriminant computations, decided four independent ways in the committed script"
+    },
+    {
+     "what": "29 is coincidence -- whitelist of 84 integers, 2 hits, below naive expectation 84/29≈2.9",
+     "where": "results.json whitelist_29_DECLARED_BEFORE_COMPUTE and partB section; FINDINGS Part B",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "whitelist declared and written to results.json before compute per WORKING_RULES discipline; every whitelist item computed in golden29.py"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Cross-model gate recomputes B931's divisors of d_S, d_A at 2,3,953 in the new monogenic model and checks place-by-place agreement; a separate p-adic Newton-lift belt (10/10 agree) is run inside the same committed script.",
+   "absence_claims": [
+    {
+     "quote": "no analogous derivation of the 5: 5 divides lc(mu13) to the second power and disc(h_S) to the second power, but not disc(K). Where the integer 5 comes from is this arc's open residue",
+     "where": "FINDINGS.md section A7 'The honest residue'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md's own header still reads '**Status:** DRAFT' while arc_verdict.json records verdict PROVED; the file is a stale label rather than a content contradiction (DRAFT_FINDINGS.md and FINDINGS.md are byte-identical apart from filename in this packet).",
+     "where": "frontier/B937_golden_and_29/FINDINGS.md line 6"
+    }
+   ],
+   "seat_note": "A well-disciplined negative-plus-positive result: the sealed whitelist protocol for the 29-coincidence question is a genuinely good practice, and the golden-field refutation self-corrects an earlier reading (B930) rather than compounding it. Pure arithmetic geometry, no measurable physical quantity."
+  },
+  {
+   "arc": "B938_unity_and_sign",
+   "source": "main",
+   "files_read": [
+    "frontier/B938_unity_and_sign/FINDINGS.md",
+    "frontier/B938_unity_and_sign/arc_verdict.json",
+    "frontier/B938_unity_and_sign/results.json"
+   ],
+   "files_sampled": [
+    "frontier/B938_unity_and_sign/unity_sign.py (head 120 + grep def/assert/CHK/FAIL)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'NO SWAP, COSET INVARIANT': D acts as the identity on the colorless register (m_S=m_A=0 exactly, all 12 flips colored); D2D carries D2's level song unchanged; the 7/11 resolvent split is a D2-coset datum, not a Klein invariant; orientation reversal moves only colored weight (tr W18: 6->10, flip rank 11->15). Part A: the unity column's exact line confirmed as B930 found it.",
+   "log_says": "2026-08-07 log frames B938 as 'composition RIGIDITY with a rank-2 reason; the 7/11 split is a D2-COSET datum,' and later entries (B939, B977) reuse 'D colorless-blind' as an established fact across three arcs.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "D fixes the colorless register pointwise (m_S=m_A=0 exactly); all 12 of D's flips are colored",
+     "where": "results.json B_D_acts_as_identity_on_W3_and_W6, B_D_flip_masses_exactly_zero",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact rational-arithmetic Klein-diagonal computation over the committed rep27/B854/B912/B916/B928 banked inputs, all checks pass"
+    },
+    {
+     "what": "7/11 resolvent split (11 at m=+1, 7^2 at m=-1) is a D2-coset datum, unchanged for D2D, degenerate for D",
+     "where": "results.json V_D2_pattern_11_at_plus1_7sq_at_minus1, V_no_swap_D2D_identical_D_degenerate, seven_eleven_953_valuations block",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact norm-factorization computed for all four Klein elements and both S/A families in results.json"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No separate verification/belt directory or independent re-derivation script beyond the single unity_sign.py instrument; results.json includes internal gate checks against banked B931 addendum values but no second independent route.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean, narrowly-scoped exact computation dividing labor between the two Klein generators on a colorless/colored register; no measurable quantity is produced, purely group-theoretic bookkeeping over the E6-derived 27."
+  },
+  {
+   "arc": "B939_klein_assembly",
+   "source": "main",
+   "files_read": [
+    "frontier/B939_klein_assembly/FINDINGS.md",
+    "frontier/B939_klein_assembly/arc_verdict.json",
+    "frontier/B939_klein_assembly/results.json"
+   ],
+   "files_sampled": [
+    "frontier/B939_klein_assembly/assembly.py (head 120 + grep def/assert/CHK/FAIL)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'THE SIX SHADOWS ARE NOT ONE GROUP': K4 (wall pair 2-torsion, inner) and W_frame (solo seat's frame group) are distinct subgroups of Aut(e6), overlapping in exactly {1, sigma_-1}; K4 does not act on the frame at all; W_frame is realized by C8=<phi+,sigma_c,sigma_-1>; the shared leg sigma_-1 is the frame-invisible wall twist D, the same element B938 found colorless-blind and B936 found carrying the nonzero H^1 class.",
+   "log_says": "2026-08-07 log: 'the six Klein shadows are NOT one group: K4 ... and W_frame ... are DISTINCT subgroups of Aut(e6) overlapping in exactly {1, sigma_-1}; K4 does not act on the frame at all; ... the shared leg is the frame-invisible one -- the wall twist D, the same element B938 found colorless-blind and B936 found carrying the nonzero class.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "K4 and W_frame(via C8) are distinct subgroups of Aut(e6) overlapping only in {1, sigma_-1}",
+     "where": "results.json K4_cap_C8_is_exactly_1_sigma_allminus, joint_group_is_Z2_to_the_4, verdict_sharp_pair",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "assembly.py execs the committed B854 build in an isolated namespace and computes exact group-theoretic checks (automorphism/involution/commutation/closure) on all generators; every check passes"
+    },
+    {
+     "what": "27-shadow map: sigma_-1 -> D (12 flips), sigma_chi- -> D2 (11 flips), sigma_c -> D_c (12 flips)",
+     "where": "results.json shadow_summary, shadow_sigma_* checks",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact rep27 diagonal computation, cross-checked against banked B928 flip counts (0,12,12,12 for {I,D,D_c,D_cD})"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Single committed instrument (assembly.py); no separate verification directory. States explicitly that 'the remaining pairwise maps ... each a future cell' are open.",
+   "absence_claims": [
+    {
+     "quote": "OPEN: the remaining pairwise maps (the two chiralities, the hemispheres, the pencils, the omega-branches) -- each a future cell",
+     "where": "FINDINGS.md 'What this closes and what it opens'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A focused, well-verified negative result refuting an over-general 'the six Klein groups are one' reading; scope is honestly limited to the single computable pair rather than overclaiming across all six shadows."
+  },
+  {
+   "arc": "B940_dirac_sealed",
+   "source": "main",
+   "files_read": [
+    "frontier/B940_dirac_sealed/FINDINGS.md",
+    "frontier/B940_dirac_sealed/arc_verdict.json",
+    "frontier/B940_dirac_sealed/PREREGISTRATION.md",
+    "frontier/B940_dirac_sealed/o3_results.json",
+    "frontier/B940_dirac_sealed/O3_PRIOR_ART.md (head 60)",
+    "frontier/B940_dirac_sealed/DRAFT_FINDINGS.md (diffed against FINDINGS.md)"
+   ],
+   "files_sampled": [
+    "frontier/B940_dirac_sealed/dirac_sealed.py (head 120 + grep def/assert/CHK/sha256/hashlib)",
+    "frontier/B940_dirac_sealed/results.json (head/tail/grep for the eigenvalue string)"
+   ],
+   "files_listed_only": [
+    "frontier/B940_dirac_sealed/scan_S1.npz (no .txt/.json twin needed -- raw scan data referenced from results.json)",
+    "frontier/B940_dirac_sealed/scan_S2.npz (same)"
+   ],
+   "claim_of_record": "PROVED -- OUTCOME A: a certified Dirac eigenvalue on a cusped hyperbolic 3-manifold (m004, spin structure rho_1), lambda_1 = 2.974550580, sealed criterion (B933 sec.10) passed on every element with honest total uncertainty ~3e-12; O3 prior-art gate stays CLOSED (MathSciNet unreachable, standard half-met) so no priority sentence is banked anywhere in the arc.",
+   "log_says": "2026-08-07 log: 'B940: THE SEALED DIRAC RUN -- OUTCOME A. A certified Dirac eigenvalue on a cusped hyperbolic 3-manifold, and the priority gate held shut on a half-met standard.' Later entries (B943, B946, B975) revisit and reaffirm B940: B975's render audit (cc3) finds a global-phase contamination defect in the SVD eigenvector but concludes 'B940 STANDS' since the eigenvalue itself does not depend on that phase; a prospective warning is banked for any future extension to pointwise eigenfunction values.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "lambda_1 = 2.974550580173186 (S1), agreeing across 4 independent instruments (two Y's, two seeds, two word-sets) to 8.15e-13, total honest uncertainty ~3e-12",
+     "where": "results.json refine/verdict stages; FINDINGS.md sections 2-3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "dirac_sealed.py is a committed, sha256-sealed (preregistration hash 6c513b06... verified before compute) instrument that imports the B933 probe machinery; results.json records every stage's numbers; hashes recorded for preregistration, DESIGN, and probe files"
+    },
+    {
+     "what": "sealed criterion passed on every element (two-Y bar, two seeds, P4 spread, P3 displaced-lambda control found nothing, gates G1/G2/G2b/assembly, +/- partner theorem)",
+     "where": "results.json verdict stage, table in FINDINGS.md section 3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "each element computed and gated in dirac_sealed.py with explicit numeric bars, with an honest note that the two-Y bar alone is not discriminating (P3 controls at 2.5/3.5/3.7 sat at or below the sealed bar as a bracket artifact) -- the conjunction, not any single test, does the certifying work"
+    },
+    {
+     "what": "O3 prior-art gate stays CLOSED (MathSciNet unreachable via auth wall; zbMATH/OpenAlex/arXiv/Semantic Scholar/INSPIRE reached)",
+     "where": "o3_results.json depth section; FINDINGS.md section 8",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "a literature sweep performed via live HTTP calls to external bibliographic APIs at the time of the run; the raw API responses are not committed as artifacts, only the panel's summary (o3_results.json) is -- a stranger cannot literally re-run the same web queries and get identical results years later, though the citations given (arXiv IDs) are independently checkable"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The arc itself contains a post-verdict 'qctl' control stage recomputing lambda_1 under a tightened Bessel quadrature (bit-identical result, diff=0.0), and G1 validates the operator against an independent mpmath finite-difference implementation -- both inside the same committed dirac_sealed.py.",
+   "absence_claims": [
+    {
+     "quote": "There is no external anchor for this number. Every check above is internal to this programme.",
+     "where": "FINDINGS.md section 7(a)"
+    },
+    {
+     "quote": "No numerically computed Dirac/spinor eigenvalue on ANY hyperbolic 3-manifold was found... Completing the sweep (MathSciNet/zbMATH-grade) is obligation O3",
+     "where": "FINDINGS.md section 7(b), quoting DESIGN sec.8 verbatim"
+    },
+    {
+     "quote": "What it did NOT reach: MathSciNet -- HTTP 302 to a subscription auth wall.",
+     "where": "FINDINGS.md section 8"
+    },
+    {
+     "quote": "MathSciNet not consulted; its review corpus overlaps zbMATH heavily but is not identical.",
+     "where": "o3_results.json residual_risk"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The O3 prior-art literature sweep (the basis for keeping/opening the priority gate) depends on live external web/API calls whose raw outputs are not committed to the repo; only the panel's narrative summary is. This is not the numerical result itself (which is fully reproducible from committed code) but is load-bearing for the 'first' framing discipline.",
+     "where": "frontier/B940_dirac_sealed/o3_results.json depth.sources_reached"
+    }
+   ],
+   "seat_note": "This is a mathematics arc (a Dirac operator eigenvalue on the hyperbolic 3-manifold m004) computed to high numerical confidence with genuinely careful discipline about certification bars and priority claims -- but it is NOT a physical observable in any sense; the thesis's own framing keeps it firmly on the mathematics side (Gate 5 untouched, no measured number contacted)."
+  },
+  {
+   "arc": "B941_branch_symmetric",
+   "source": "main",
+   "files_read": [
+    "frontier/B941_branch_symmetric/FINDINGS.md",
+    "frontier/B941_branch_symmetric/arc_verdict.json",
+    "frontier/B941_branch_symmetric/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE BRANCH-SYMMETRIC READING: every clean law the programme owns is already branch-symmetric (a norm/trace over the whole Galois orbit); the headline N(V)/N(W) = 2^32*3^11/5^12, with the numerator = 27*2304^4 (the product law's integer) and the 953s cancelling exactly between the hierarchy V and mixing overlap W; also N(d_S)=N(d_A) exactly.",
+   "log_says": "2026-08-07 log: 'B941: THE BRANCH-SYMMETRIC READING -- the owner's directive, computed: the observer's prime CANCELS in the ratio of whole-orbit norms.' A later same-day log entry documents a self-caught error: B941's first draft mis-named the 5^12 denominator 'the golden power,' contradicting B937's already-banked finding that the golden field does not enter; the log states this was corrected in the FINDINGS, arc verdict, masterplan amendment and CAMPAIGN_STATUS, and the mis-naming is deliberately left visible in the append-only log as its own case study.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "N(V)/N(W) = 2^32*3^11/5^12, with numerator = 27*2304^4",
+     "where": "results.json headline block",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "results.json presents the final symmetric-function table and headline as flat data with no accompanying committed script; the directory contains only FINDINGS.md, arc_verdict.json and results.json -- no .py instrument, no run log. `git log` shows this trio was committed together with no separate compute artifact. A stranger cannot regenerate results.json from anything in the repo; they can only trust the numbers as given."
+    },
+    {
+     "what": "the corrected reading that 5^12 is NOT 'the golden power' (superseding the arc's own first-draft mis-naming)",
+     "where": "FINDINGS.md Amendment section (2026-08-07, at Review 40)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the correction is a textual amendment appended to FINDINGS.md; the underlying arithmetic (N(V)/N(W)) is unchanged, only the interpretive label is corrected, and this correction is properly propagated (not a case of SUPERSEDED_UNMARKED, since the amendment IS present in this same FINDINGS.md and the arc_verdict.json wording also reflects the corrected reading)"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; no instrument script at all is committed for this arc -- results.json appears to have been produced by hand or an uncommitted scratch process, authored directly by 'cc (banking)' per arc_verdict.json rather than a computation-agent script.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "No .py instrument or run log is committed for this arc; results.json (the sole numeric artifact) cannot be regenerated by a stranger from anything in frontier/B941_branch_symmetric/. This is a stronger gap than the SAMPLE_CODE-mode arcs in this batch, all of which have a committed script.",
+     "where": "frontier/B941_branch_symmetric/ (directory listing: only FINDINGS.md, arc_verdict.json, results.json)"
+    }
+   ],
+   "seat_note": "The arithmetic itself (elementary symmetric functions of seven banked minimal polynomials, and the 953-cancellation) is plausible and consistent with claims banked in other arcs (B928, B930, B936, B916), but this arc alone among the batch has no committed reproduction script -- it is authored directly as banked-and-verdicted output, and the self-caught golden-power naming error shows the discipline did catch one mistake even without a formal instrument."
+  }
+ ]
+}

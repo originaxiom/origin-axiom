@@ -1,0 +1,383 @@
+{
+ "batch": "arcs_018",
+ "arcs": [
+  {
+   "arc": "B349_irregular_covers_galois",
+   "source": "main",
+   "files_read": ["frontier/B349_irregular_covers_galois/FINDINGS.md", "frontier/B349_irregular_covers_galois/arc_verdict.json", "frontier/B349_irregular_covers_galois/irregular_covers.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'Across all covers of the figure-eight through index 6 the census is a canonical multiset with every within-index invariant multiplicity collapsing to one isometry class, so no member is marked and no forced choice exists.'",
+   "log_says": "2026-07-01: B349 [VERIFIED, SnapPy] — census per index a canonical multiset; cyclic H1 torsion matches B350's SNF exactly; every within-index multiplicity collapses to one isometry class.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "cover census per index (index 4/5/6 homology multisets) and isometry-class collapse", "where": "irregular_covers.py via SnapPy 3.3.2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "SnapPy subgroup enumeration + is_isometric_to; test importorskip-gated on SnapPy but script is committed and runnable"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b349_irregular_covers_galois.py exists, gated on SnapPy import.",
+   "absence_claims": [
+    {"quote": "Index ≤ 6 is a **computational horizon, not a theorem**. The class \"all irregular covers\" stays formally open beyond it", "where": "frontier/B349_irregular_covers_galois/FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Honest bounded-index computation with explicit horizon caveat and a documented MB-guard (is_isometric_to orientation-blindness). Purely structural/topological, no observable named."
+  },
+  {
+   "arc": "B350_cyclic_cover_torsion_galois",
+   "source": "main",
+   "files_read": ["frontier/B350_cyclic_cover_torsion_galois/FINDINGS.md", "frontier/B350_cyclic_cover_torsion_galois/arc_verdict.json", "frontier/B350_cyclic_cover_torsion_galois/cyclic_cover_torsion.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'The cyclic-cover abelian torsion class carries no forced choice: orders are the Lucas ladder |L_2n-2|, the factor multiset is a symmetrizable Galois orbit, and the deck action is fixed-point-free for every n.'",
+   "log_says": "2026-07-01: B350 [VERIFIED, exact] — Lucas ladder orders, Galois-closed factor multiset, SNF torsion groups, deck action fixed-point-free uniformly in n. Also: probe renumbered from B347 to B350 after a probe-ID collision with main's B347 PR #424 (2026-07-02 note), and a 2026-07-24 entry notes B350's FINDINGS once cited a test under the old B347 number (pre-renumber hygiene issue, since fixed).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "|det(A^n - I)| = L_2n - 2 for n=2..8; Galois-orbit symmetric functions; SNF torsion groups; fixed-point-free deck action", "where": "cyclic_cover_torsion.py, exact sympy (integers, cyclotomics, SNF, lattice arithmetic)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy, no floats; test file present"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b350_cyclic_cover_torsion_galois.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Arc was renumbered B347->B350 mid-history due to an ID collision with a different (main-branch) B347; log shows a subsequent hygiene note that FINDINGS briefly cited a test under the stale B347 number. Worth checking the FINDINGS.md file currently committed does not still carry the stale test path.", "where": "log entries 2026-07-02 and 2026-07-24"}
+   ],
+   "seat_note": "Clean exact-integer computation with an honest MB8 caveat separating object-specific content (i)-(ii) from generic-knot mechanism (iv). Purely structural, no physical observable."
+  },
+  {
+   "arc": "B351_exact_e6_chevalley",
+   "source": "main",
+   "files_read": ["frontier/B351_exact_e6_chevalley/FINDINGS.md", "frontier/B351_exact_e6_chevalley/arc_verdict.json"],
+   "files_sampled": ["frontier/B351_exact_e6_chevalley/exact_e6.py"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'An exact integer Chevalley e6 (Jacobi verified on all 76,076 triples, the forced Cartan-return sign isolated) yields the principal sl2, exponents {1,4,5,7,8,11}, and theta with fixed f4=52 acting on exponent lines by (-1)^{m+1}.'",
+   "log_says": "2026-07-02: B351 confirmed by an independent second implementation (full Frenkel-Kac convention); 0 violations over 4000 random triples; failing family under +h_alpha convention exactly 1440 triples, matching digit-for-digit.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "76,076-triple Jacobi identity verification of exact-integer E6 Chevalley basis; principal sl2; exponent decomposition; diagram involution theta and its eigenvalues", "where": "exact_e6.py, pure python ints/Fractions", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sampled code confirms exact-integer root-system + cocycle construction with no floats; independently re-implemented per log and matched digit-for-digit"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b351_exact_e6_chevalley.py present; log records an independent second implementation cross-check.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Solid classical Lie-theory computation (standard Frenkel-Kac construction), exact and independently cross-verified. Explicitly firewalled as no-physics-claim; the geometric identification with the manifold's involution is left open by the arc itself (later closed in B353)."
+  },
+  {
+   "arc": "B352_cup_product_obstruction",
+   "source": "main",
+   "files_read": ["frontier/B352_cup_product_obstruction/FINDINGS.md", "frontier/B352_cup_product_obstruction/arc_verdict.json"],
+   "files_sampled": ["frontier/B352_cup_product_obstruction/cup_product.py"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'At dps 100 the second-order cup-product obstruction [z u z] vanishes in all six E6 exponent directions, including the {4,8} escape sector and its polarization mix, so the quadratic cone is the full 6-dim tangent.'",
+   "log_says": "2026-07-02: all six directions unobstructed at 2nd order; MB12 positive control gives 0.10-0.36 on random vectors; theta-parity signature confirms zeros are forced not accidental. 2026-07-03 (Promotion Audit): B352 explicitly HELD from promotion — 'their own FINDINGS describe evidence-not-proof; a future exact-core extraction pass is the named route.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "vanishing of second-order cup-product obstruction classes for all six E6 exponent directions, dps-100 mpmath", "where": "cup_product.py, ~12 min reproducer, tests/test_b352_cup_product_obstruction.py (fast tier always-on, full sweep behind OA_SLOW=1)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numerical (mpmath dps 100), not exact; FINDINGS itself states 'NOT established: integrability to all orders... exactness of the numbers... is numerical'"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Fast structural test always-on; full OA_SLOW sweep is a slow recompute gated behind an env var — a stranger running bare pytest gets only the fast tier, not the full 741s numeric sweep.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The FINDINGS.md itself explicitly tiers this as numerical (dps-100, 50+ orders of margin) and NOT a proof of smoothness/exactness; the arc's own text says 'it is not a surprise landing, and it is not a proof of smoothness.' The verdict.json nonetheless says PROVED, and the 2026-07-03 Promotion Audit explicitly held it back from promotion for exactly this reason (dps-100 computer-assisted class, evidence-not-proof).", "where": "frontier/B352_cup_product_obstruction/FINDINGS.md; log 2026-07-03 Promotion Audit entry"}
+   ],
+   "seat_note": "Verdict label PROVED sits awkwardly against the arc's own repeated numerical-not-proof framing and the log's explicit promotion-audit hold; treat as strong numerical evidence, not a theorem, exactly as the project's own audit trail already flagged. No physics observable, structural math only."
+  },
+  {
+   "arc": "B353_geometric_theta_identification",
+   "source": "main",
+   "files_read": ["frontier/B353_geometric_theta_identification/FINDINGS.md", "frontier/B353_geometric_theta_identification/arc_verdict.json", "frontier/B353_geometric_theta_identification/geometric_theta.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'The hyperelliptic involution induces exactly the E6 diagram involution theta on the tangent space at the principal-geometric representation, verified as an operator identity with explicit line-by-line gauge certificates.'",
+   "log_says": "2026-07-02: theta transported into geometric basis IS the block-scalar operator (residual 7e-102); commutes with holonomy Ad-image (2e-88); gauge certificates per line. Also a 2026-07-14 registry correction: 'the amphichiral involution is ANTILINEAR conj∘theta; the C-linear theta is the HYPERELLIPTIC involution, B353' — a wording fix, not a retraction of B353's result.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "operator-level identity theta = hyperelliptic involution on tangent space, gauge certificates per exponent line", "where": "geometric_theta.py, mpmath dps 100", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numerical at dps-100 precision floor (residuals 7e-102 to 3.6e-79); FINDINGS is explicit this is numerics-at-precision-floor, not integer-exact like B351"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b353_geometric_theta_identification.py present.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "Precision-floor mpmath (dps 100) treated as verified identity; 2026-07-03 Promotion Audit groups B353 with the 'dps-100 computer-assisted class' explicitly held from promotion pending 'exact-core extraction' — same caveat as B352.", "where": "log 2026-07-03 Promotion Audit entry"}
+   ],
+   "seat_note": "Well-controlled numerical identification (Schur's-lemma-motivated, cross-checked two ways) but still numerics at a precision floor rather than integer-exact proof; the project's own audit already tiers it as evidence pending exact-core extraction. No physical observable."
+  },
+  {
+   "arc": "B354_interface_pairing_certificates",
+   "source": "main",
+   "files_read": ["frontier/B354_interface_pairing_certificates/FINDINGS.md", "frontier/B354_interface_pairing_certificates/arc_verdict.json", "frontier/B354_interface_pairing_certificates/interface_certificates.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'Exact minimal-polynomial certificates for the (1,3) and (2,3) interface pair points, the strong-channel kill, the odd-prime-degree seam-null, and the law R^mL^m = I mod p iff p|m.'",
+   "log_says": "2026-07-02: cross-session ('Chat-2 solo') handoff integrated under verify-don't-trust; Gröbner-derived strong-channel kill, exact pair-point certificates matching B131's banked numeric forks on all 8 values, seam-null, divisibility law all independently re-derived in this repo.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Gröbner-basis strong-channel kill; exact minimal polynomials for (1,3)/(2,3) pair points; divisibility law", "where": "interface_certificates.py, exact sympy", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicitly re-derived in-repo (not merely imported from the cross-session handoff), exact sympy gates"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b354_interface_pairing_certificates.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IMPORTED", "detail": "FINDINGS.md itself flags an 'UNVERIFIED (not banked)' cross-session layer: 'the whole quantum layer waits on code + an independent conventions check' — the arc is careful to quarantine this, so this is a self-flagged rather than hidden import, but worth noting the arc's headline results depend on an upstream cross-session handoff whose quantum-layer claims remain unreproduced.", "where": "frontier/B354_interface_pairing_certificates/FINDINGS.md, 'Conditional / unverified' section"}
+   ],
+   "absence_claims_extra_note": "see absence_claims list",
+   "seat_note": "Good practice example: distinguishes exactly-reproduced results from an unverified cross-session quantum layer and quarantines the latter (registered as L56) rather than banking it. No physics value; pure arithmetic/character-variety structure."
+  },
+  {
+   "arc": "B355_weil_layer_independent",
+   "source": "main",
+   "files_read": ["frontier/B355_weil_layer_independent/FINDINGS.md", "frontier/B355_weil_layer_independent/arc_verdict.json"],
+   "files_sampled": ["frontier/B355_weil_layer_independent/weil_layer.py"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'With the Weil representation rebuilt at N=3,5,15 on conventions earned from the relations, all 605 gauge-invariant triple products are exactly real — the pre-registered phase aperture at level 15 is empty.'",
+   "log_says": "2026-07-02: W_N built from scratch with conventions earned (systematic (c,d,mu) search); campaign W1.1 registered in the same entry.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "605 gauge-invariant triple products all real (numpy sweep 0 nonreal at 1e-8, mpmath spot-check dps 40)", "where": "weil_layer.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-described as numerical for field recognitions (PSLQ) though construction gates and trace layer are exact-to-precision; FINDINGS explicitly separates the two tiers"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b355_weil_layer_independent.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "Field recognitions (quartic identification, discriminant classification) are PSLQ-based numerics with 'no claim of proof for minimal polynomials'; FINDINGS is explicit about this tier separation.", "where": "frontier/B355_weil_layer_independent/FINDINGS.md, 'Honest tiers' section"}
+   ],
+   "seat_note": "Careful convention-earning methodology (conventions selected by which relations they satisfy, not assumed) and honest tiering between exact gates and PSLQ recognition. No physics claim; pure representation-theoretic result about a specific arithmetic construction."
+  },
+  {
+   "arc": "B356_sigma_stability_scan",
+   "source": "main",
+   "files_read": ["frontier/B356_sigma_stability_scan/FINDINGS.md", "frontier/B356_sigma_stability_scan/arc_verdict.json"],
+   "files_sampled": ["frontier/B356_sigma_stability_scan/sigma_stability.py"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'Every SL(2,C)-factoring route forces a quaternionic self-dual 2 (det-lemma), and complex 27-dim assemblies with an invariant cubic exist only for A4 and 2T — the chirality window is exactly the Eisenstein omega.'",
+   "log_says": "2026-07-02: det-lemma verified across concretely-built groups with derived exactly-gated character tables; H104 chirality scan the headline result.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "det-lemma (quaternionic iff FS=-1), mod-3 blindness, H104 chirality scan counts (A4: 1089/1028, 2T: 71192/70262, others 0)", "where": "sigma_stability.py, character tables derived and exact-gated (row orthonormality, FS indicators)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "tables built concretely from groups and gated exactly; enumeration itself runs in floats with integer gates at 1e-6 (FINDINGS states values are 'comfortably exact-as-floats')"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b356_sigma_stability_scan.py present; FINDINGS notes the gates caught two real bugs during development (MB12 working as intended).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NO_TEST", "detail": "Minor: 'Not claimed: that any complex assembly embeds in E6' — this is a self-flagged scope limit (H103 remains open), not a defect, listed for completeness.", "where": "frontier/B356_sigma_stability_scan/FINDINGS.md, 'Honest tiers and scope'"}
+   ],
+   "seat_note": "Genuine finite-group representation-theory computation with real bugs caught by its own gates (good sign of honest verification); explicit that Sym3-invariance is necessary not sufficient for E6 embedding, leaving H103 open. Structural, no physics value asserted."
+  },
+  {
+   "arc": "B357_e6_boundary_restriction",
+   "source": "main",
+   "files_read": ["frontier/B357_e6_boundary_restriction/FINDINGS.md", "frontier/B357_e6_boundary_restriction/arc_verdict.json", "frontier/B357_e6_boundary_restriction/boundary_restriction.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'All six E6 deformation classes restrict nontrivially to the cusp (rank 6/6), the image is Lagrangian, and one universal tau = the cusp shape governs every block.'",
+   "log_says": "2026-07-02: rank 6/6 certified; Lagrangian image; universal-tau identity tau=-2sqrt(3)i matching cusp shape to 12 digits. IMPORTANT LATER CORRECTION (2026-07-03, 'depth-2 bending is theta-graded'): 'the universal-tau does NOT persist at depth 2; B357's identity is an order-1 rigidity, now sharply bounded' — the universal-tau claim is explicitly narrowed to leading (first) order only by a later probe. Also 2026-07-03 Promotion Audit holds B357 in the same dps-100 computer-assisted class as B352/B353/B370.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "rank(r)=6/6 boundary restriction, Lagrangian certificate, universal-tau identity (leading order only)", "where": "boundary_restriction.py, mpmath dps 60", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numerical at dps 60 with per-block residual floors; FINDINGS itself says the tau mechanism is 'stated but not formalized as a proof'"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b357_e6_boundary_restriction.py present.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B357's FINDINGS.md and arc_verdict.json describe the universal-tau identity as holding 'uniformly in m' with no order qualifier, but a later log entry ('depth-2 bending is theta-graded', 2026-07-03) reports the identity does NOT persist at depth 2 and calls it 'an order-1 rigidity, now sharply bounded.' B357's own committed FINDINGS/verdict.json carry no addendum or cross-reference recording this narrowing (superseded_by: null in arc_verdict.json), so a reader of B357 alone would take the tau identity as unconditional rather than leading-order-only.", "where": "frontier/B357_e6_boundary_restriction/FINDINGS.md vs log entry 'depth-2 bending is theta-graded' (undated PROGRESS_LOG.md entry near 2026-07-03)"},
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "2026-07-03 Promotion Audit explicitly groups B357 with the dps-100 computer-assisted class held from promotion ('evidence-not-proof').", "where": "log 2026-07-03 Promotion Audit entry"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "2026-07-13 log entry ('the cusp-boundary-condition reframe') separately notes B357 REFUTES a different proposed mechanism ('the cusp reduces E6->F4 by killing theta-odd directions') — this refutation is itself fine, but underscores that B357's FINDINGS is being cited/reinterpreted downstream in ways not reflected back into the arc file itself.", "where": "log entry 2026-07-13 'the cusp-boundary-condition reframe'"}
+   ],
+   "seat_note": "The headline universal-tau result is narrower than the arc's own text states once later work (depth-2 probe) is taken into account — a genuine DRIFT between what this arc's committed files claim and what the project's later record shows. No physics observable named; purely structural math."
+  },
+  {
+   "arc": "B358_seam_certification",
+   "source": "main",
+   "files_read": ["frontier/B358_seam_certification/FINDINGS.md", "frontier/B358_seam_certification/arc_verdict.json", "frontier/B358_seam_certification/cyclo_engine.py", "frontier/B358_seam_certification/seam_certification.py", "frontier/B358_seam_certification/C_canonical.json", "frontier/B358_seam_certification/C_theta.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'Exactly certified: sqrt(-15) appears in the Heisenberg-twisted theta pair sector (44 of 49 doubles) and vanishes identically in the canonical lift.'",
+   "log_says": "2026-07-02: escalation protocol ran as pre-declared (higher precision -> exact; second construction -> two); cross-session Par-inserted seam claim rebuilt in EXACT Fraction arithmetic over Q(zeta_60).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "sqrt(-15) coefficients in theta-lift pair invariants (44/49 doubles), zero in canonical lift (0/49)", "where": "cyclo_engine.py + seam_certification.py, exact Fraction arithmetic over Q(zeta_60); committed tables C_canonical.json, C_theta.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational arithmetic, tables committed as JSON, engine regenerable (~8 min per FINDINGS), independent dps-40 numeric spot-check documented"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b358_seam_certification.py present; committed C_canonical.json/C_theta.json are witness artifacts, not gitignored logs.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IMPORTED", "detail": "The originating claim (nonzero sqrt(-15) coefficients) came from a cross-session handoff and was here independently reconstructed and verified in exact arithmetic — the arc is explicit and careful about this provenance, which is good practice, but the underlying question ('is the theta characteristic forced or a choice', L57) remains open per the arc's own text.", "where": "frontier/B358_seam_certification/FINDINGS.md"}
+   ],
+   "seat_note": "A genuinely exact (Fraction-arithmetic, committed-table) computation with real escalation discipline (numeric claim upgraded to exact via two independent constructions). No physics content; the open forcing question (L57) is honestly flagged and drives the whole B359-B366 sub-arc that follows."
+  },
+  {
+   "arc": "B359_seam_form",
+   "source": "main",
+   "files_read": ["frontier/B359_seam_form/FINDINGS.md", "frontier/B359_seam_form/arc_verdict.json", "frontier/B359_seam_form/seam_form.py", "frontier/B359_seam_form/seam_form_theta.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'Exact seam readout: pair (1,3) is seam-dark and (2,3) carries an s-set disjoint from (1,2) — the theta-lift seam form is pair-specific and parity-selective.'",
+   "log_says": "2026-07-02: three independent exact paths to the (1,2) flagship; (1,3) golden x bronze seam-dark; (2,3) silver x bronze bright with disjoint s-set; pre-registered prediction for next run: (1,4) bright, (3,5) dark.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "exact s-values for (1,3) and (2,3) pairs, both lifts", "where": "seam_form.py, Fraction arithmetic over Q(zeta_60), committed seam_form_theta.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact arithmetic, committed artifact regenerable (~8 min), OA_SLOW lock for regeneration check"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b359_seam_form.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "FINDINGS.md itself is exemplary about tiering the 'parity selection rule' as an OBSERVED PATTERN (3 data points, one declared prediction), not a law — this is exactly the discipline the seat wants to see, flagged here as a positive rather than a defect.", "where": "frontier/B359_seam_form/FINDINGS.md, 'Honest tiers and scope'"}
+   ],
+   "seat_note": "The pre-registered-prediction discipline across this seam sub-arc (B359-B366) is genuinely good practice; this arc's own predictions get tested (and partly refuted) two steps later in B360/B367, which is the intended self-correcting design working as advertised."
+  },
+  {
+   "arc": "B360_seam_selection_rule",
+   "source": "main",
+   "files_read": ["frontier/B360_seam_selection_rule/FINDINGS.md", "frontier/B360_seam_selection_rule/arc_verdict.json", "frontier/B360_seam_selection_rule/seam_predict.py", "frontier/B360_seam_selection_rule/seam_predict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'Both pre-registered seam readings (even-seed and opposite-parity) are refuted in one exact run; only silver-selectivity survives as a six-point pattern.'",
+   "log_says": "2026-07-02: (3,5) DARK as predicted, but (1,4) DARK contra prediction (refuting 'contains even seed'); (2,4) BRIGHT (refuting 'opposite parity' too).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "exact brightness verdicts for (1,4), (3,5), (2,4)", "where": "seam_predict.py, exact Fraction arithmetic, committed seam_predict.json (~10 min regen)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same exact engine as B358/B359"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b360_seam_selection_rule.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A clean self-refutation of two prior hypotheses via a single pre-registered exact run — good scientific hygiene; 'silver-selectivity' survives only as a 6-point observed pattern, correctly not promoted to a law (and note this local pattern itself is later refuted by B367, see B361/B362 flags)."
+  },
+  {
+   "arc": "B361_seam_local_law",
+   "source": "main",
+   "files_read": ["frontier/B361_seam_local_law/FINDINGS.md", "frontier/B361_seam_local_law/arc_verdict.json", "frontier/B361_seam_local_law/seam_disc.py", "frontier/B361_seam_local_law/seam_disc.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'Across 8 pairs with zero counterexamples, a level-15 pair invariant carries sqrt(-15) exactly when it contains a seed elliptic at both 3 and 5 (m=2,7); the discriminator refutes H-min and leaves H-loc standing.'",
+   "log_says": "2026-07-02: (1,7) BRIGHT refutes H-min, (3,7) BRIGHT with value-echo to (2,3). CRITICAL FOLLOW-UP (2026-07-03, 'B367 step 0'): 'the completed table REFUTES the B361 local law at pair (3,4)' — (3,4) is bright with NO seed elliptic at both primes, killing the banked 'bright iff a both-elliptic seed' rule on its twelfth pair. Log explicitly states 'B361's row updated; its confirming pairs remain valid data.' A 2026-08-30 sweep entry (B1218) separately flags stale row L57 as 'B359/B363 also uncited' but does not mention the B361/B367 refutation status directly there.",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {"what": "the 'local law' (bright iff a doubly-elliptic seed present), based on 8 exact pairs", "where": "seam_disc.py, exact Fraction arithmetic, committed seam_disc.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact computation of the 8 tested pairs is reproducible and correct as far as it goes; the LAW as generalized from those 8 pairs is refuted by a 9th/12th pair one probe later"},
+    {"what": "generalization to a 'law' governing all pairs", "where": "frontier/B361_seam_local_law/FINDINGS.md, claim_one_line in arc_verdict.json", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the verdict.json still reads PROVED with 'zero counterexamples' and superseded_by:null, but the very next day's log entry ('B367 step 0') reports a counterexample at pair (3,4) that kills the rule; this refutation is not reflected in B361's own committed files"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b361_seam_local_law.py present and presumably still passes (it tests the 8 originally-computed pairs, not the falsified generalization).",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json for B361 has 'superseded_by': null and FINDINGS.md's own hedge ('stated as a law of the computed range, not proved') is present, but the claim_one_line still asserts 'zero counterexamples' unconditionally and PROVED — while the log shows the very next day's probe (B367) found a counterexample at pair (3,4) and the log explicitly says the law's row needed updating. The committed B361 FINDINGS/verdict were not updated with a superseded_by pointer or corrective addendum at the time of this digest read.", "where": "frontier/B361_seam_local_law/arc_verdict.json vs log entry 'B367 step 0 (continued): the completed table REFUTES the B361 local law at pair (3,4)' (2026-07-03)"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "B362 (next arc) explicitly extends and re-confirms the same now-refuted law to 11 pairs before the refutation is even logged; the refutation happened one day after B362 too, so both B361 and B362's PROVED verdicts stand uncorrected in their own committed files even though a documented counterexample exists in the project's own log.", "where": "log entries for B361, B362, and 'B367 step 0'"}
+   ],
+   "seat_note": "This is the single most load-bearing finding in the batch: the committed arc_verdict.json for B361 claims a proved law with zero counterexamples, but the project's own progress log shows that law was refuted by a later probe (B367, pair (3,4)) without B361's own files being corrected or cross-referenced — exactly the SUPERSEDED_UNMARKED pattern the seat is asked to catch."
+  },
+  {
+   "arc": "B362_seam_law_confirmations",
+   "source": "main",
+   "files_read": ["frontier/B362_seam_law_confirmations/FINDINGS.md", "frontier/B362_seam_law_confirmations/arc_verdict.json", "frontier/B362_seam_law_confirmations/seam_confirm.py", "frontier/B362_seam_law_confirmations/seam_confirm.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'All three pre-registered seam predictions hit exactly, extending the doubly-elliptic-seed brightness law to 11 pairs with zero counterexamples.'",
+   "log_says": "2026-07-02: (2,7) BRIGHT, (1,5) DARK, (4,5) DARK as predicted; law now stands at 11 exact pairs, zero counterexamples.",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {"what": "brightness verdicts for (2,7), (1,5), (4,5), extending the B361 local law", "where": "seam_confirm.py, exact Fraction arithmetic", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "each individual pair computation is exact and reproducible; the LAW they are said to confirm is the same one B367 later refutes"},
+    {"what": "'the local law now stands at 11 exact pairs, zero counterexamples'", "where": "frontier/B362_seam_law_confirmations/FINDINGS.md and arc_verdict.json claim_one_line", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the law this arc confirms was refuted the following day (2026-07-03, pair (3,4)) per the project's own log; B362's own files carry no correction, addendum, or superseded_by pointer"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b362_seam_law_confirmations.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "Same defect as B361: the individual pair computations are fine, but this arc's headline claim ('the law ... zero counterexamples') was refuted the next day by B367's pair (3,4). arc_verdict.json still reads PROVED with superseded_by:null.", "where": "frontier/B362_seam_law_confirmations/arc_verdict.json vs log entry 'B367 step 0' (2026-07-03)"}
+   ],
+   "seat_note": "Directly inherits B361's superseded-and-unmarked defect one probe later; the individual exact computations (which pairs are bright/dark) are presumably still correct, but the generalized 'law' language in both FINDINGS and verdict.json is stale as of the very next day's work and was never corrected in these committed files."
+  },
+  {
+   "arc": "B363_seam_lift_anatomy",
+   "source": "main",
+   "files_read": ["frontier/B363_seam_lift_anatomy/FINDINGS.md", "frontier/B363_seam_lift_anatomy/arc_verdict.json", "frontier/B363_seam_lift_anatomy/lift_torus.py", "frontier/B363_seam_lift_anatomy/lift_torus_scan.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'The seam is two-sided: Par-non-commutation is necessary, but all 225 one-sided twists and the one-slot theta lift are dark, so both slots need the theta class.'",
+   "log_says": "2026-07-02: seam mapped as a function on the lift torus; four configurations tested; Par-lemma and two-sidedness established. A 2026-08-30 sweep entry notes L57's row 'asserting an open question that B364 (NEGATIVE) had answered ... B359/B363 also uncited' — a hygiene note about cross-referencing, not a refutation of B363 itself.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "darkness of 225 one-sided Heisenberg twists and one-slot theta configurations; Par-non-commutation necessity lemma", "where": "lift_torus.py, double precision numerics (margins ~10 orders) plus exact anchors from B358/B359", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed scan artifact lift_torus_scan.json; FINDINGS explicit that the dark side is numerical (double precision) while the bright side is exact"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b363_seam_lift_anatomy.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Careful mixed-tier reporting (numerical darks vs exact brights clearly separated); the Par-non-commutation-is-necessary-but-not-sufficient result is a genuine, well-scoped structural finding with the open forcing question (L57) correctly left open."
+  },
+  {
+   "arc": "B364_theta_polarization",
+   "source": "main",
+   "files_read": ["frontier/B364_theta_polarization/FINDINGS.md", "frontier/B364_theta_polarization/arc_verdict.json", "frontier/B364_theta_polarization/theta_geometric.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'The control killed the conclusion: the square theta family is equally T-stable and carries the canonical lift's multiplier, so T-stability forces neither lift; the two lifts are two polarizations and L57 becomes a spin-structure question.'",
+   "log_says": "2026-07-02: tested whether the theta lift is 'the' geometric lift; control (square family) also T-stable, killing the intended conclusion; L57 reframed as a spin-structure/polarization question. A 2026-08-30 sweep (B1218) flags L57's OPEN_LEADS row as stale, since it still 'asserted an open question that B364 (NEGATIVE) had answered.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "T-stability of both triangular and square theta families with their respective multipliers", "where": "theta_geometric.py, analytic identities + numerics at ~1e-15", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "analytic lattice-shift identities plus numeric verification"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b364_theta_polarization.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This is a good-faith self-refutation ('the would-be conclusion was killed by its own control') documented transparently — noted as a positive example, not a defect. Separately, the 2026-08-30 sweep confirms downstream docs (OPEN_LEADS L57 row) had gone stale relative to this NEGATIVE verdict, an example of documentation drift outside this arc's own files.", "where": "frontier/B364_theta_polarization/FINDINGS.md; log 2026-08-30 B1218 entry"}
+   ],
+   "seat_note": "Transparent negative result with the conjectured mechanism explicitly labeled 'conjecture, not claimed' — good discipline; the arc correctly reframes rather than forces a positive conclusion."
+  },
+  {
+   "arc": "B365_polarization_signature",
+   "source": "main",
+   "files_read": ["frontier/B365_polarization_signature/FINDINGS.md", "frontier/B365_polarization_signature/arc_verdict.json", "frontier/B365_polarization_signature/s_side.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'S-closure fails for both polarizations (metaplectic level-30 doubling), refuting the pre-registered prediction; only a half-period vanishing signature survives as a discriminator.'",
+   "log_says": "2026-07-03: pre-registered closure prediction REFUTED by its own test (residuals ~0.63 for both); corrected Poisson algebra shows level-30 metaplectic doubling; half-period vanishing signature is the surviving signal.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "S-closure residuals for triangular/square theta families; half-period vanishing signature (exact zero at z=1/2 for triangular family)", "where": "s_side.py, q-series numerics at 1e-10 to 1e-21 floors", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "truncation-safe q-series with explicit precision floors; exact-zero vs genuine-small-value cleanly separated per FINDINGS"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b365_polarization_signature.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Another transparent self-refutation ('discipline note: the second self-refuted prediction of the campaign'); the puncture <-> z=1/2 identification is correctly left as an open target for B366/W2.2, not asserted here."
+  },
+  {
+   "arc": "B366_invariant_spin_sector",
+   "source": "main",
+   "files_read": ["frontier/B366_invariant_spin_sector/FINDINGS.md", "frontier/B366_invariant_spin_sector/arc_verdict.json", "frontier/B366_invariant_spin_sector/invariant_spin.py", "frontier/B366_invariant_spin_sector/s_transformation.py", "frontier/B366_invariant_spin_sector/s_transformation.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'The seam-bearing lift class contains the unique MCG-invariant spin sector and is S-closed at fixed modulus, while the canonical class exits: the lift is not a choice.'",
+   "log_says": "2026-07-03 (two entries): part 1 (invariant spin sector, exact lemmas) and part 2 (derived S-transformation closure dichotomy) both banked same day; a pre-registered naive S-mixing pattern FAILED and was superseded by the derivation ('the 4th failed-and-sharpened prediction of the arc').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "puncture lemma and spin lemma (exact, elementary group-action facts)", "where": "invariant_spin.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary finite-group-action facts, exact"},
+    {"what": "closed-form S-transformation formulas for triangular vs square theta families (closure dichotomy)", "where": "s_transformation.py, derived analytically then numerically verified to 7.1e-12/1.2e-10", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "FINDINGS explicit: 'no fits, no free parameters'; two independent test files (exact lemma tests + numeric-lock tests)"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b366_invariant_spin_sector.py (3 exact) and tests/test_b366_s_transformation.py (3 numeric locks) both present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The final forcing conclusion ('the theta lift is forced — not a choice') is explicitly scoped to a 'named premise' (pair states are level-15 theta functions carrying the standard Heisenberg/metaplectic action) that 'remains a named modeling assumption' — the arc itself is careful that this is conditional forcing within a stated model, not an unconditional theorem; flagged for completeness, not as a defect.", "where": "frontier/B366_invariant_spin_sector/FINDINGS.md, final section"}
+   ],
+   "physics_content_note": "structural/mathematical only, no observable named",
+   "seat_note": "The strongest and best-documented result in the B358-B366 seam sub-arc: two independent selectors (invariant spin sector + S-closure dichotomy) agree, with the conditioning premise explicitly named rather than hidden. All firewalled as non-physics per every arc in this sub-arc's own text."
+  }
+ ]
+}

@@ -1,0 +1,337 @@
+{
+ "batch": "arcs_089",
+ "arcs": [
+  {
+   "arc": "B914_ratio_table",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B914_ratio_table/DRAFT_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B914_ratio_table/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B914_ratio_table/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B914_ratio_table/ratio_table.py (head 120 lines + grep for def/assert/CHK; found exact-arithmetic K/N tower construction, CHK() harness aborts and writes UNSTABLE on any failing check)",
+    "/home/user/origin-axiom/frontier/B914_ratio_table/results.json (head/tail + grep for the quoted T value 4.7757813288521125...e-32, found at 3 places consistent with FINDINGS)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"R2'+R3' DELIVERED AND THE RATIO TABLE COLLAPSES TO ONE NUMBER... all six normalization-free colorless couplings T_ijk = |c_ijk|^2/(s_i s_j s_k) are EXACTLY EQUAL as one identity in the splitting field N: T = sigma_2(t_K)... T ~ 4.7758e-32... Gate 5 untouched -- no experimental number enters.\"",
+   "log_says": "PROGRESS_LOG 2026-08-05: \"MULTIAGENT ROUND 3 BANKED: B914 -- THE RATIO TABLE IS ONE NUMBER; R3-prime's colorless deliverable is COMPLETE\", banking-verified by a full rerun (52s, all checks); Review 39/40 list it among promotion candidates for the value-layer theorem cluster.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the six normalization-free colorless couplings T are exactly equal (all 15 pairwise ratios = 1), single algebraic number T ~ 4.7758e-32",
+     "where": "FINDINGS.md section 1; results.json (51/51 checks pass, T minpoly recorded)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "ratio_table.py is a self-contained committed script (imports only sympy/mpmath/numpy) that runs in ~52-60s and writes results.json; a companion test file tests/test_b914_table.py pins 51/51 checks + the T identity + minpoly. A stranger with the repo could rerun it."
+    },
+    {
+     "what": "the exact basis-reconciliation (B908's atom lines re-run on the banked B883 27, not the 27bar)",
+     "where": "FINDINGS.md section 0",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "asserted to be done exactly inside ratio_table.py itself, with certificates listed and checks visible in results.json"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b914_table.py exists at repo root and pins 51/51 checks, the all-equal-T identity, the minpoly, and the 35-digit scale reconciliation -- an independent lock file, not merely a re-read of results.json.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The colored sector enters only through a B913-\"sealed\" descriptive magnitude |det Gram|^{1/3} with mandatory tags; FINDINGS explicitly states this seal was adopted BEFORE any colored ratio existed specifically to prevent magnitude-shopping/retrofitting -- worth independent scrutiny of whether the seal genuinely predates knowledge of what would fit, since this arc's own text is the only source for that timing claim.",
+     "where": "FINDINGS.md section 4 and the log entry from 2026-08-07 (\"the B913 lock pincer\")"
+    }
+   ],
+   "seat_note": "This is a large, self-consistent piece of exact symbolic-algebra work with a genuine independent test lock and numeric cross-check at extreme precision; but the entire T=4.78e-32 number is pure group/representation-theoretic structure inside the object's own algebra -- no measured quantity of physics is compared here (Gate 5 explicitly not touched), so despite the volume of computation this is STRUCTURAL, not a physics prediction."
+  },
+  {
+   "arc": "B915_the_crossing",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B915_the_crossing/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B915_the_crossing/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B915_the_crossing/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B915_the_crossing/crossing.py",
+    "/home/user/origin-axiom/frontier/B915_the_crossing/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE -- \"the identification 'object boundary + pure SM desert' is DEAD... d = 15.97 sigma_tot -- SEALED OUTCOME MISS... THE DISCLOSED PRIOR WON for the first time in five sealed cells... every structural theorem stands.\"",
+   "log_says": "PROGRESS_LOG 2026-08-05: \"THE CROSSING -- sealed verdict MISS (d = 16.0 sigma); the desert dies, the structure stands, the prior wins its first\"; later entries (B925, B926, B929, THE_END_TO_END_CHAIN) repeatedly cite B915 as the first of three fired falsifiers, consistent figure (15.97/16 sigma) each time.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "d_min = 15.97 sigma (Euclidean), 14.63 sigma (max-component); MISS verdict against sealed d<=3 HIT criterion",
+     "where": "crossing.py (two-loop SM beta-function RGE run via scipy solve_ivp, PDG 2024 central values hardcoded), results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "crossing.py is a self-contained, committed script using only numpy/scipy; it reads no external data files (PDG numbers are hardcoded constants with citation in the docstring), and results.json records the full curve. A stranger could rerun it directly."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory or independent test/lock file was found among the listed arc files for B915 itself (unlike B914/B918); the FINDINGS text mentions \"locks in tests/test_b915_crossing.py\" but that file was not part of the sampled set here and its existence was not independently confirmed in this read.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md claims a lock file tests/test_b915_crossing.py exists but this digest did not verify its presence directly (not in the packet's file list); if absent this would be a MISSING_WITNESS/belt gap on an otherwise strong falsification test.",
+     "where": "FINDINGS.md \"Files\" section"
+    }
+   ],
+   "seat_note": "This is the strongest physics-content arc in the batch: a genuinely falsifiable, pre-registered, two-outcome test against real PDG measurements (alpha_em, sin^2(theta_W), alpha_s), and it reports a clean MISS at ~16 sigma -- a rare and creditable instance of the project reporting against itself rather than fitting. The registered follow-up (R4b, the D-chain thresholds) is explicitly NOT this cell and remains an open, unconfirmed hope."
+  },
+  {
+   "arc": "B916_lambda_bridge",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B916_lambda_bridge/DRAFT_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B916_lambda_bridge/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B916_lambda_bridge/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B916_lambda_bridge/results.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B916_lambda_bridge/bridge.py (not directly sampled by grep in this pass; DRAFT_FINDINGS/FINDINGS/results.json give a full account of the 53-check computation and its committed HANDOFF7 env-var dependency)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"the dispatching hypothesis REFUTED, both seats VINDICATED\": the 27/27bar bridge S is a Schur-unique signed permutation, the primitive cubic transports with t=1 exactly, but the two seats used two genuinely different invariant Hermitian structures (charge-equivariant H+ giving lambda=1, tau-twisted M giving lambda=2304/953), both exact and realization-independent; ratio is the field norm of the twist.",
+   "log_says": "PROGRESS_LOG 2026-08-05: \"THE LAMBDA BRIDGE -- the dispatching hypothesis refuted, both seats vindicated, and the value primes are the NORM ARITHMETIC OF THE H-TWIST\"; later arcs (B928 D2 decode, B946) build directly on B916's twist-norm law and D2 flip pattern; arc_verdict.json's own creates_law_reviewed field (dated 2026-08-29, arc B1214) OVERRULES the arc's earlier implicit law status: \"creates_law: false\" with basis \"VERIFICATION -- it re-derives or confirms a result stated elsewhere.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "27/27bar bridge S is a signed permutation (det S=1); primitive cubic transports with t=1 exactly; the two H's differ by an 11-of-27 sign-flip diagonal D2 (not a scalar)",
+     "where": "bridge.py -> results.json, 53 checks all pass",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The script requires a HANDOFF7 env var pointing at solo-seat pickle files (rep27.pkl, H27.pkl, cubic27.json, tauP.pkl) that are NOT part of this arc's own committed files -- they are \"solo handoff 7\" artifacts external to this directory. Without locating and confirming those files are committed elsewhere in the repo, a stranger cannot rerun bridge.py from B916's own directory alone."
+    },
+    {
+     "what": "lambda = 2304/953 (solo, tau-twisted H) vs lambda = 1 (banked, charge-equivariant H+), both exact",
+     "where": "results.json checks lambda_dual_exact_Hplus / lambda_dual_exact_Hprime",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "same HANDOFF7 dependency as above"
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "No verification/ dir found among B916's own files; the arc_verdict.json's own retroactive review (creates_law_reviewed, dated 2026-08-29, done by a different arc B1214) reclassified this arc's law status downward -- itself a form of after-the-fact belt/audit, but performed without a full read per its own stated basis (\"these were not [read in full]\").",
+   "absence_claims": [
+    {
+     "quote": "creates_law_reviewed... basis: \"classified from its own claim headline against the audit's rule... The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden.\"",
+     "where": "/home/user/origin-axiom/frontier/B916_lambda_bridge/arc_verdict.json (creates_law_reviewed.basis field)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "bridge.py's key inputs (solo handoff 7's rep27.pkl/H27.pkl/cubic27.json/tauP.pkl) are located via an environment variable HANDOFF7 and are not part of B916's own committed directory; whether they are committed anywhere in the repo (vs. living only in a session scratchpad, per B917's \"their suite outputs in the session scratchpad per relay discipline\") was not confirmed in this read.",
+     "where": "bridge.py docstring (\"Inputs:... solo handoff 7... dir given by the HANDOFF7 env var\")"
+    },
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "The arc's own law-status classification (creates_law: false) was performed by a later arc (B1214) that explicitly did NOT read this arc in full before flipping its classification, per its own stated basis field -- a downgrade made on a headline read, not a full audit.",
+     "where": "arc_verdict.json creates_law_reviewed field"
+    }
+   ],
+   "seat_note": "The mathematics of reconciling two apparently conflicting invariants via an explicit basis-change computation is a legitimate and well-instrumented piece of internal consistency-checking, but it is entirely about the project's own algebraic objects (two Hermitian forms on a 27-dim representation) with no contact with any measured quantity -- pure STRUCTURAL content, and its reproducibility from this arc's own directory alone is not established because the comparison inputs live outside it."
+  },
+  {
+   "arc": "B917_value_arc_verification",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B917_value_arc_verification/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B917_value_arc_verification/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"THE VALUE ARC (handoff 7) VERIFIED at the firm layer: their suite reproduces end-to-end on this bench... P9's product law CLOSED AT RECEIPT by pure integers... THIS SEAT'S NEW EXACT IDENTITY: ...lambda = 1 EXACTLY for all six couplings... lambda = 2304/953 vs lambda = 1 tension is driven to a single isolated question... dispatched as B916.\"",
+   "log_says": "PROGRESS_LOG 2026-08-05: \"the value arc verified at the firm layer; P9 closed at receipt; THE UNIMODULARITY IDENTITY lambda = 1; the bridge question isolated (B916 in flight)\" -- consistent wording and figures.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the solo seat's value-arc suite (tauP, norms/fulltab, belt100, perm_test, vhunt/p42/p456) reproduces end-to-end on this bench, including honest negatives",
+     "where": "FINDINGS.md \"The suite (rerun on this bench)\"",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "This arc has only two committed files (FINDINGS.md, arc_verdict.json) -- no code, no results.json, no data of its own. The FINDINGS text explicitly states \"Their suite outputs in the session scratchpad per relay discipline\" -- the reruns happened, but their outputs are NOT committed to the repo. A stranger reading only this directory has no instrument to rerun and no witness file to inspect; the entire arc is a narrative report of a verification session."
+    },
+    {
+     "what": "lambda = 1 exactly, all six couplings, in the canonical gauge (B914's exact environment)",
+     "where": "FINDINGS.md \"THE NEW IDENTITY\"",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This specific identity is stated to reuse B914's machinery (ratio_table.py, itself reproducible) but B917 does not commit its own script recomputing it under this framing -- it is asserted as a result of recomputation, not shipped as code in this directory."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "FINDINGS.md claims \"tests/test_b917_value_arc.py locks the instant checks and the lambda = 1 identity\" but no code or results file lives in this arc's own directory to inspect; existence of that lock file was not independently confirmed in this pass.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "The arc explicitly states its instrument outputs (the solo seat's rerun suite) live only \"in the session scratchpad per relay discipline\" -- not committed to the repo at all, so a stranger cannot reproduce or even inspect what was actually run beyond the narrative FINDINGS text.",
+     "where": "FINDINGS.md \"Files\" section"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "This arc directory contains only FINDINGS.md and arc_verdict.json -- no code, no results.json -- for a \"PROVED\" verdict resting on a rerun of external suite code and a new exact identity claim.",
+     "where": "packet file listing for B917 (n_files: 2)"
+    }
+   ],
+   "seat_note": "This arc is a verification narrative rather than a self-contained computation: its central positive claims (the suite reproduces, lambda=1 in the canonical gauge) are asserted from a rerun whose artifacts are not committed here, so a stranger cannot check the arc from its own directory -- reproducibility depends entirely on trusting the prose plus B914's separately-committed machinery."
+  },
+  {
+   "arc": "B918_v_kummer",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B918_v_kummer/DRAFT_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B918_v_kummer/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B918_v_kummer/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B918_v_kummer/independent_check.py",
+    "/home/user/origin-axiom/frontier/B918_v_kummer/results.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B918_v_kummer/v_kummer.py (not line-sampled with grep in this pass; the committed independent_check.py plus results.json give a corroborated account of the computation)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"V-L3 DELIVERED, TWO THEOREMS... (1) THE ONE-CLASS THEOREM EXTENDS TO THE VALUE LAYER... [alpha_V] = C = [alpha_mu] WITH NO UNIT TWIST... (2) THE OBSERVER'S-PLACE THEOREM... H-B917-SPLIT answered YES: V's denominator ideal is (the degree-one place over 953)^4 EXACTLY.\" creates_law: true, with a later (2026-08-29) creates_law_corrected note confirming the law registration (T-ONE-CLASS-VALUE, locked by tests/test_b918_v.py).",
+   "log_says": "PROGRESS_LOG 2026-08-05: \"V-L3 delivered, TWO THEOREMS -- the One-Class theorem spans the value layer, and THE OBSERVER'S-PLACE THEOREM (H-B917-SPLIT: YES)\" -- consistent with FINDINGS/verdict.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the hierarchy cubic HIER(x), its exact irreducibility, discriminant, and root V(rho) in K; four exact cube certificates [alpha_V]=[alpha_mu]=[alpha_gen]=[alpha_kappa]=C, vacuum=C^-1",
+     "where": "v_kummer.py -> results.json (\"exact tier\"); independent_check.py re-verifies gamma(V/mu) and one chi_3-witness via a separate sympy radical-arithmetic route (\"no shared code\")",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "v_kummer.py and independent_check.py are both committed in this directory and run in ~1s; the FINDINGS explicitly labels this tier \"exact\" and distinguishes it from the numeric-certified pipeline-identification claim below."
+    },
+    {
+     "what": "the identification of HIER's roots with the pipeline's v_g^2 (the atom-construction/belt100 chain's numeric output)",
+     "where": "FINDINGS.md \"The numeric anchor (stage 0)\", tier statement",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "FINDINGS.md states this rests on \"the relay pipeline (solo norms.py atom construction + belt100 coupling loop)\" whose belt regeneration (122s) \"lives in the session scratchpad per relay discipline -- driver b918_belt.py, output b918_belt_out.json\" -- explicitly NOT committed in this directory. The arc itself flags this identification as \"numeric-certified tier\" pending the registered \"V-L2 exactification\" floor, i.e. self-acknowledged as not yet fully exact."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "independent_check.py is a genuine second, independently-coded verification path (different arithmetic route, no shared code per its own docstring) for at least one of the cube certificates; FINDINGS also states tests/test_b918_v.py exists as a lock, later confirmed live by B1214's law-registration note.",
+   "absence_claims": [
+    {
+     "quote": "The 953-residue of the UNIT part of V at the observer's place (and whether the residues 617/107540/... carry structure) -- untouched.",
+     "where": "/home/user/origin-axiom/frontier/B918_v_kummer/FINDINGS.md \"Registered follow-ups\""
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "The belt regeneration driver (b918_belt.py) and its output (b918_belt_out.json), which the pipeline-identification claim (v_g^2 = HIER roots) rests on numerically, are stated to live only in the session scratchpad, not committed to the repo.",
+     "where": "FINDINGS.md \"Files\" section"
+    }
+   ],
+   "seat_note": "Distinguishes cleanly between an exact, independently-checked algebraic-number-theory result (the class/norm computations) and a numeric-certified pipeline link it explicitly flags as pending exactification -- a genuinely careful tiering, though the numeric leg's witness is not committed and this is purely a structural (arithmetic/Galois-theoretic) result with no measured physical quantity involved."
+  },
+  {
+   "arc": "B919_weinberg_traces",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B919_weinberg_traces/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B919_weinberg_traces/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B919_weinberg_traces/results.json",
+    "/home/user/origin-axiom/frontier/B919_weinberg_traces/traces.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"THE A1 DEBT DISCHARGED AT ITS HONEST TIER... sin^2(theta_W) = 3/8 at the object's normalization now has a standalone arc + lock... TIER: ONE-PRIME; the second prime (40639) is OPEN with diagnosis... TWO instrument errors self-caught before banking.\"",
+   "log_says": "PROGRESS_LOG 2026-08-05: \"the 3/8 debt discharged at its honest tier (audit A1); two instrument errors self-caught en route\" -- matches FINDINGS exactly, including the tier caveat and the two self-caught bugs.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Tr(T3^2)=3, Tr(Y^2)=5, Tr(T3.Y)=0 at prime 40123, giving sin^2(theta_W)=3/8, via rational reconstruction; consistent across 3 independent runs",
+     "where": "traces.py -> results.json (\"40123\" block)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "traces.py itself does no computation directly -- it is a thin driver that reads a Python source file cw.py from an environment-variable-specified directory (HANDOFF6_RUN, \"= the handoff-6 scripts run dir\"), patches a prime constant into it via string substitution, and subprocess-executes the patched copy. cw.py is NOT present in this arc's committed directory, so a stranger cannot rerun this arc from the committed files alone -- the actual trace-computation logic is external and unlocated in this read."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "FINDINGS states three independent runs agree (\"the solo handoff-6 original, the B906-era verification rerun, this arc's rerun\") and cites tests/test_b919_traces.py as a lock, though that file's contents were not read in this pass.",
+   "absence_claims": [
+    {
+     "quote": "the properly-substituted chain then fails at rational reconstruction (ratrec None) -- the per-prime sqrt-convention relabeling (solo section XLII pattern) needs handling in the Y-anchoring before the second prime can speak. Registered follow-up.",
+     "where": "/home/user/origin-axiom/frontier/B919_weinberg_traces/results.json (\"second_prime_status\")"
+    },
+    {
+     "quote": "an earlier two_prime=True flag in this file was WRONG for ~minutes before this correction",
+     "where": "/home/user/origin-axiom/frontier/B919_weinberg_traces/results.json (\"second_prime_status\")"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "traces.py's actual computational content (cw.py, the trace-computing script) is not in this arc's committed directory; it is fetched via the HANDOFF6_RUN environment variable pointing at an external \"handoff-6 scripts run dir\" not shown to be committed anywhere. A stranger with only this arc's files cannot reproduce the headline (3,5,0) trace result.",
+     "where": "traces.py (RUN = os.environ[\"HANDOFF6_RUN\"]; src = open(os.path.join(RUN, \"cw.py\")).read())"
+    },
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "The FINDINGS itself labels the result \"ONE-PRIME\" (a single modular-arithmetic prime, 40123, with rational reconstruction) rather than an exact-over-Q identity; the second prime needed for CRT-style confidence is explicitly open with an unresolved diagnosis.",
+     "where": "FINDINGS.md \"The honest tier + two self-catches\""
+    }
+   ],
+   "seat_note": "The self-reported instrument bugs (a silent double-run of one prime mislabeled as two, an earlier wrong flag retracted in minutes) are commendable transparency, but the headline sin^2(theta_W)=3/8 rests on a single prime's modular computation whose actual script (cw.py) lives outside this arc's committed files -- this is a load-bearing boundary-value input for the separately-negative B915 crossing test, so its one-prime, externally-sourced status deserves scrutiny before being treated as settled."
+  },
+  {
+   "arc": "B920_register_sweep",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B920_register_sweep/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B920_register_sweep/SWEEP_REPORT.md",
+    "/home/user/origin-axiom/frontier/B920_register_sweep/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED, instrument: true -- \"THE REGISTER SWEEP (cc3 audit A2+A5, all 7 items, working-tree edits reviewed and accepted by the banking seat)... All 20 gates green after the edits.\"",
+   "log_says": "PROGRESS_LOG 2026-08-06: \"THE MEANTIME WAVE BANKED... B920 the register sweep\" describing NORMSPLIT reconciliation, ROADMAP Tier-3 fixes, LAW_MAP orphan rows, etc. -- matches FINDINGS/SWEEP_REPORT closely.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "NORMSPLIT contradiction reconciled: trace-level 139/37/one-odd(7) vs norm-level 12-distinct/zero-odd, both seats right about different objects",
+     "where": "SWEEP_REPORT.md Item 1a; trace_norm_split.{py,json,txt} sha256-verified byte-identical copies from the cc3 branch",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "SWEEP_REPORT states the script was re-run locally in a scratch cwd against the branch's two length spectra and the figures reproduce exactly; the artifact was copied byte-faithfully with sha-256 hashes recorded, and a reconciled test (tests/test_b794_congruence.py, 5/5 passing) was substituted for the prior, now-retracted lock."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "SWEEP_REPORT.md is explicitly a documentation/governance-correction pass across many registry files (HINT_LEDGER, ROADMAP, LAW_MAP, COMMS_PROTOCOL, THEOREM_REGISTRY, RETRACTIONS, ERROR_LEDGER) rather than a new physics computation; its \"belt\" is largely re-reading and reconciling prior claims, with one genuine artifact rerun (NORMSPLIT).",
+   "absence_claims": [
+    {
+     "quote": "The origin of cc3's \"41 with five odd\" remains unreconstructed -- the cc3 branch's own context sweep... notes \"41 appears nowhere on cc3's branch\".",
+     "where": "/home/user/origin-axiom/frontier/B920_register_sweep/SWEEP_REPORT.md \"Honest gaps\" item 2"
+    },
+    {
+     "quote": "No claim about cc2's closure was written anywhere (asserted by the audit, no banked referent found).",
+     "where": "/home/user/origin-axiom/frontier/B920_register_sweep/SWEEP_REPORT.md \"Honest gaps\" item 6 / Item 4"
+    },
+    {
+     "quote": "Nothing was committed; all edits are working-tree only, awaiting the owner's/cc's banking pass",
+     "where": "/home/user/origin-axiom/frontier/B920_register_sweep/SWEEP_REPORT.md \"Honest gaps\" item 7"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "SWEEP_REPORT.md's own \"Honest gaps\" item 1 states that B794's frozen run artifacts (output.txt, verify_congruence.py comment) still repeat the pre-reconciliation \"12 vs 41\" figures and treat the five odd norms as m004-only, and were deliberately left unedited (preserved as historical record) -- meaning stale, superseded figures remain live in committed files with only a separate FINDINGS block noted as superseding.",
+     "where": "SWEEP_REPORT.md \"Honest gaps / judgement calls / residuals\" item 1"
+    }
+   ],
+   "seat_note": "This is a governance/bookkeeping arc (reconciling registry documents and one prior contradiction) rather than a physics result; its content is entirely internal record-keeping, and it is commendably explicit about what it did NOT fix (stale artifact files, un-reconstructed provenance, uncommitted edits pending a later banking pass)."
+  }
+ ]
+}

@@ -1,0 +1,1284 @@
+{
+  "batch": "tests_04",
+  "tests": [
+    {
+      "file": "/home/user/origin-axiom/tests/test_b275_witness.py",
+      "target_arcs": [
+        "B275"
+      ],
+      "what_it_locks": "Recomputes a witness_found() bool and checks relator residual < 1e-6, exp4_nonzero flag, provenance strings for e6_dense_by/rigorous_existence_by.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "1e-6 residual bound",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b276_zeta3_probe.py",
+      "target_arcs": [
+        "B276"
+      ],
+      "what_it_locks": "Recomputes Jones sequences at zeta_3/zeta_6 and checks integrality/period, ramification of prime 3, matching against module's own recorded ZETA3/ZETA6 sequences.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "jones_sequence(3)[:3] == b276.ZETA3['seq6'][:3] compares module output to a constant stored in the same module."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b277_4d_lift.py",
+      "target_arcs": [
+        "B277"
+      ],
+      "what_it_locks": "Recomputes fiber Euler characteristic, monodromy matrix/trace/det, pseudo-Anosov check, and asserts the two named missing inputs set.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b278_wall_map_v3.py",
+      "target_arcs": [
+        "B278"
+      ],
+      "what_it_locks": "Checks a hand-authored wall-status dict (consistency(), WALLS statuses, CRUX name, INPUT_REQUIRED_WALLS set, E6_BRIDGE length) sourced from the module's own literal data structures.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "Asserts against WALLS/CRUX/E6_BRIDGE dicts defined as literals inside wall_map_v3.py itself, not independently computed."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b279_spin_structure_bit.py",
+      "target_arcs": [
+        "B279"
+      ],
+      "what_it_locks": "Recomputes (via SnapPy-derived module) that the amphicheiral involution fixes 2 spin structures and is not physics-verified.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b280_2T_higher_spin.py",
+      "target_arcs": [
+        "B280"
+      ],
+      "what_it_locks": "Recomputes 2T (SL(2,3)) spin-1 and spin-3/2 multiplicities via GAP-derived module data and checks no triplet+singlet decomposition.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b281_crux_scoping.py",
+      "target_arcs": [
+        "B281"
+      ],
+      "what_it_locks": "Checks flags (EVERY_TYPE_GIVES_RANK, SETTLEABLE_IN_SANDBOX, LEVELS length) from a probe module scoping whether the E6 CRUX is sandbox-settleable.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b282_e6_arithmetic.py",
+      "target_arcs": [
+        "B282"
+      ],
+      "what_it_locks": "Recomputes SURJECTIONS_2T dict values for arithmetic vs non-arithmetic manifolds via SnapPy+GAP-derived module and checks object-specific vs generic fact lists.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b283_selfgen_scoping.py",
+      "target_arcs": [
+        "B283"
+      ],
+      "what_it_locks": "Checks flags/dicts (METALLIC_IS_SPECIAL, LEVELS states, META string) asserting the self-generation vein collapses; relies on module's own literal LEVELS dict.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "states = {v[0] for v in b283.LEVELS.values()} reads a dict of hand-set verdict strings defined in the same module."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b284_2T_component.py",
+      "target_arcs": [
+        "B284"
+      ],
+      "what_it_locks": "Recomputes relator residual and image order (24) for a 2T representation, and dim H^1 for both geometric and 2T reps via live functions.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "< 1e-10 residual, image_order==24",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b285_commutator_phase.py",
+      "target_arcs": [
+        "B285"
+      ],
+      "what_it_locks": "Recomputes symbolically (sympy) the commutator trace u^2+2 and the phase magnitude pi/6, sign-flip between conjugate roots.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b286_the_seam.py",
+      "target_arcs": [
+        "B286"
+      ],
+      "what_it_locks": "Recomputes number of exceptional Dehn fillings (10), that cusped CS=0, and that generic fillings are chiral, via a SnapPy-based module (verdict.py).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "EXCEPTIONAL_COUNT==10 (Thurston)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b287_distinguished_closing.py",
+      "target_arcs": [
+        "B287"
+      ],
+      "what_it_locks": "Recomputes Alexander/characteristic polynomial equality, checks a specific Regina string, torsion ladder [1,5,16,45], exceptional filling count 10, and firewall flags.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b288_arithmetic_filling_census.py",
+      "target_arcs": [
+        "B288"
+      ],
+      "what_it_locks": "Recomputes cusped trace field Q(sqrt-3) and re-checks (independently in-test) that none of 54 sample closed fillings' minpolys contain sqrt(-3); asserts N_ARITHMETIC==0.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b289_cp_sign_law.py",
+      "target_arcs": [
+        "B289"
+      ],
+      "what_it_locks": "Recomputes CS sign-law equality counts against N_HYPERBOLIC_CLOSINGS, empty amphichiral-preserving locus, and re-derives Galois phase flip via kappa_galois_flip().",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b290_core_scale_ladder.py",
+      "target_arcs": [
+        "B290"
+      ],
+      "what_it_locks": "Recomputes correction coefficient pi/sqrt(3) symbolically and compares (2e-3 tolerance) to a stored SnapPy-measured constant CORRECTION_COEFF_MEASURED.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "LOOSE_TOLERANCE",
+          "detail": "abs(float(coeff) - CORRECTION_COEFF_MEASURED) < 2e-3 comparing symbolic prediction to a SnapPy numeric measurement."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b291_scale_extremal.py",
+      "target_arcs": [
+        "B291"
+      ],
+      "what_it_locks": "Recomputes min-volume-closing checks (volume > Weeks volume, non-arithmetic minpoly, axis-stratification flags, systole 0) from a SnapPy+Regina module.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b292_multiplicity_2manifold.py",
+      "target_arcs": [
+        "B292"
+      ],
+      "what_it_locks": "Recomputes fiber Euler characteristic, tower trace sequence [3,6,11,18,27,38], and multiplicity/tripartite flags via a SnapPy-derived module.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "tower_traces == [3,6,11,18,27,38] (m^2+2)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b293_peripheral_clock.py",
+      "target_arcs": [
+        "B293"
+      ],
+      "what_it_locks": "Recomputes Goldman bracket symbolically (2z-xy) and Casimir property, checks stored NZ-frame flags and BF coupling constant.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b294_selection_verdict.py",
+      "target_arcs": [
+        "B294"
+      ],
+      "what_it_locks": "Checks all_probes_pass() dict keys/values equal True for 8 named prior arcs and several boolean synthesis flags defined in verdict.py.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "all_probes_pass() and the boolean flags are defined by the consolidation module itself, aggregating claims rather than independently recomputing them."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b295_ssb_gauge_status.py",
+      "target_arcs": [
+        "B295"
+      ],
+      "what_it_locks": "Recomputes that CP vacua (Eisenstein) are disjoint from potential critical points (golden) and that the potential is single-well, plus stop-gate flags.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b296_seam_arc_verification.py",
+      "target_arcs": [
+        "B296"
+      ],
+      "what_it_locks": "Checks a red-team verdict dict (all 'SURVIVES'), an EXTENDED_CHECKS dict with specific values (0 arithmetic over 174, min-vol slope (5,1)), and a novelty classification dict, all defined in verdict.py.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "REDTEAM_VERDICTS, EXTENDED_CHECKS, NOVELTY dicts are literal data in the module under test being asserted against itself."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b297_consolidation_v4.py",
+      "target_arcs": [
+        "B297"
+      ],
+      "what_it_locks": "Checks consistency() and structural literal dicts (WALLS, SEAM_ARC length, STRUCTURAL_THEOREM string, MATTER_MAP, CRUX, STOP_GATES) defined in wall_map_v4.py.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "WALLS/SEAM_ARC/MATTER_MAP/STOP_GATES are hand-authored consolidation dicts in the same module being asserted against themselves."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b298_generation_obstruction.py",
+      "target_arcs": [
+        "B298"
+      ],
+      "what_it_locks": "Recomputes trace-field degree/Galois order, 'all seven routes give 1 or 2', 3-fold cover count via a SnapPy-derived module, and checks obstruction flags.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b299_trinification_triality.py",
+      "target_arcs": [
+        "B299"
+      ],
+      "what_it_locks": "Recomputes Z3xZ3 structure (fixed dims, E6-lattice-preserving), orbit structure on 27 (free 9x3), and that an H-label-from-phi derivation fails.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b300_cross_chat_sm_attempt.py",
+      "target_arcs": [
+        "B300"
+      ],
+      "what_it_locks": "Recomputes E6+A2->E8 prime-3 glue identity, and a numeric ldS_over_lP ratio function at two inputs, plus dict/flag checks.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "0.3989 (k=3), 1e60 (k~1e122)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "LOOSE_TOLERANCE",
+          "detail": "abs(b300.ldS_over_lP(3) - 0.3989) < 1e-3 loose relative to unstated precision of underlying formula."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b301_chirality_filter_and_convergence.py",
+      "target_arcs": [
+        "B301"
+      ],
+      "what_it_locks": "Checks E6 chirality-filter set membership, retraction flags, and a hardcoded SEATS convergence structure defined in chirality_filter.py.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "SEATS/ALL_THREE_CONVERGE are declared inside the module being tested, asserting the module agrees with itself."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b302_multiplicity_hidden_z3.py",
+      "target_arcs": [
+        "B302"
+      ],
+      "what_it_locks": "Recomputes symmetry-group order (8), order-3 matrix/root-of-unity checks (sympy), commensurator cover index (~12), via a SnapPy+Sage-derived module.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "cover_index()-12 < 0.5",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b303_clock_is_the_cp_sign.py",
+      "target_arcs": [
+        "B303"
+      ],
+      "what_it_locks": "Recomputes cusped CS==0.0, ladder sign/decay behavior, and checks length of a firewalled-inputs list defined in clock_is_the_cp_sign.py.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b304_gauge_dynamics_skeleton.py",
+      "target_arcs": [
+        "B304"
+      ],
+      "what_it_locks": "Recomputes sin^2(theta_W)=3/8 (Fraction), beta-function AF-unification check, principal-grading mod-3 weight count (24), and E6 height-6 root orthogonality (refuting a prior SU(3) claim).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "sin2_theta_w()==3/8 (Georgi-Glashow)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b305_eisenstein_trinification_grading.py",
+      "target_arcs": [
+        "B305"
+      ],
+      "what_it_locks": "Recomputes E6 root mod-3/mod-6 component counts (9 and 3) confirming SU(3)^3 vs SU(2)^3 gradings via a Sage-verified module.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "m3==9, m6==3",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b306_principal_grading_cascade.py",
+      "target_arcs": [
+        "B306"
+      ],
+      "what_it_locks": "Recomputes E6 pseudo-Levi cascade mod-counts at N=3,5,6 and checks cascade dict entries and refutation flags for prior Chat-1 claims (Sage-verified).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b307_totally_real_obstruction.py",
+      "target_arcs": [
+        "B307"
+      ],
+      "what_it_locks": "Recomputes S3 factorization for 5_2's trace field, totally-real property of C3 cubics, and a census (32 cubic trace fields, 0 cyclic) via SnapPy+Sage module.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "N_CYCLIC_C3==0 of 32 cubic trace fields",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b308_yukawa_last_redoubt.py",
+      "target_arcs": [
+        "B308"
+      ],
+      "what_it_locks": "Checks cubic-invariant multiplicity (1) and a set of boolean flags about Yukawa forcing/hierarchy defined by yukawa_last_redoubt.py, largely asserting the module's own literal constants.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "Most asserted names (INTERGENERATION_HIERARCHY_FORCED, HIERARCHY_GATED_BY_GENERATION_THEOREM, etc.) are boolean constants set directly in the module, not derived from an independent calculation in the test."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b309_kappa_unification.py",
+      "target_arcs": [
+        "B309"
+      ],
+      "what_it_locks": "Recomputes kappa_facts() dict (abelian value 2, kappa-2==omega^2, modulus 1) and E6 uniqueness among exceptional groups (complex + center Z/3) from literal EXCEPTIONAL_CENTERS/EXCEPTIONAL_COMPLEX dicts.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b310_cascade_realization_exhausted.py",
+      "target_arcs": [
+        "B310"
+      ],
+      "what_it_locks": "Recomputes symbolic spacing gaps of cascade u-values [1/3,1/6,1/10,1/15] (sympy Rational) refuting equal-spacing conjecture, plus flag checks.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "spacing_gaps==[1/3,1/6,1/10,1/15]",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b311_cascade_branch_points.py",
+      "target_arcs": [
+        "B311"
+      ],
+      "what_it_locks": "Recomputes (sympy) A-polynomial discriminant factorization and branch-point/reducibility checks at specific roots (i, e^{i pi/3}, e^{i pi/4}).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b312_face_iv_houses_the_form.py",
+      "target_arcs": [
+        "B312"
+      ],
+      "what_it_locks": "Recomputes E6 exponent consistency, CIZ modular-invariant level (10) and diagonal-exponent match, CIZ exceptional level dict {E6:10,E7:16,E8:28}, and cyclotomic-field-containment check.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "CIZ levels E6:10,E7:16,E8:28",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b313_fibonacci_bridge_and_no_forced_choice.py",
+      "target_arcs": [
+        "B313"
+      ],
+      "what_it_locks": "Recomputes exact central-charge chain (9/5,14/5,6) via sympy Rationals and branching-refutation check (27=(7,3)+(1,6)); remaining assertions check literal flags from the module.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b314_galois_seals_face_iv.py",
+      "target_arcs": [
+        "B314"
+      ],
+      "what_it_locks": "Recomputes colored Jones values at zeta_5 for N=1..4 symbolically (sympy) matching a stated golden-Galois-orbit set and SU(2)_3 quantum dims.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "jones values {1,1-sqrt5,1-sqrt5,1}",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b315_e7_exclusion_vs_heterotic.py",
+      "target_arcs": [
+        "B315"
+      ],
+      "what_it_locks": "Recomputes chiral-capability trichotomy (E6/E7/E8), EXCEPTIONAL['E7']['fs']==-1 pseudoreality fact, trace-1 reachability list [-3,5], and obstruction-comparison flags.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b316_sqrt7_chirality_field.py",
+      "target_arcs": [
+        "B316"
+      ],
+      "what_it_locks": "Recomputes imaginary unimodular discriminant list [-4,-3], checks -7 passes congruence but is below the floor, and asserts chirality-field flags.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b317_painleve_transcendental.py",
+      "target_arcs": [
+        "B317"
+      ],
+      "what_it_locks": "Recomputes hyperbolicity (|lambda_m|>1) and positive entropy for m=1,2,3 and an exact dynamical degree (phi^2) via sympy; checks stale-claim flags.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b318_amphichiral_mechanism.py",
+      "target_arcs": [
+        "B318"
+      ],
+      "what_it_locks": "Recomputes the Galois-conjugation action of tau on sqrt(-3) (nontrivial) vs sqrt(5) (trivial) symbolically, and checks overclaim-correction flags.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b319_b176_woven_vs_single.py",
+      "target_arcs": [
+        "B319"
+      ],
+      "what_it_locks": "Checks monotonicity of a Hurwitz-constant function and a set of boolean flags (WOVEN_LADDER_IS_STANDALONE etc.) largely defined by the module itself, referencing an external reproduction script by name only.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "Standalone claim relies on 'reproduced: golden_privilege.py ALL CHECKS PASS' asserted as a stored boolean, not re-run by this test."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b320_chat1_three_points.py",
+      "target_arcs": [
+        "B320"
+      ],
+      "what_it_locks": "Recomputes group-order facts (firewall/generation group orders (2,3), rank of all-ones vs generic circulant, PSL(2,7) order 168, 2T/S4 involution counts, Heawood number 7).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b321_seam_geometry_adjudication.py",
+      "target_arcs": [
+        "B321"
+      ],
+      "what_it_locks": "Recomputes cusp-norm value (12) matching h(E6), primitivity check of (6,3), and Q-scaling triviality; remaining flags are literal module constants.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b322_value_hunt_filling_invariants.py",
+      "target_arcs": [
+        "B322"
+      ],
+      "what_it_locks": "Recomputes object_numberset() size (>5000 ratios) and re-runs a null_test() comparing SM-parameter match rate against random null distribution, checking p>0.05.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b323_four_levels_adjudication.py",
+      "target_arcs": [
+        "B323"
+      ],
+      "what_it_locks": "Recomputes object symmetry-group Z/3-absence, E6 Cartan determinant (3), and an omega-circulant eigenvalue ratio (~0.145) compared with 0.03 tolerance to a hardcoded number.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "0.145 (eigenvalue ratio), tol 0.03",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "LOOSE_TOLERANCE",
+          "detail": "abs(omega_circulant_ratio() - 0.145) < 0.03 is a ~20% relative tolerance band."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b324_omega_circulant_verified.py",
+      "target_arcs": [
+        "B324"
+      ],
+      "what_it_locks": "Recomputes g^3==I, exact circulant decomposition M=alpha*J+omega*P, and eigenvalue magnitudes squared [1,1,52] in Z[omega].",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "eigenvalue magnitudes^2 == [1,1,52]",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b325_z3_protection_refuted.py",
+      "target_arcs": [
+        "B325"
+      ],
+      "what_it_locks": "Checks irrep-distinctness flag, recomputes that a generic Z/3-invariant circulant splits light eigenvalues, and checks overlap magnitudes [1.0,1.0].",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b326_congruence_torsion.py",
+      "target_arcs": [
+        "B326"
+      ],
+      "what_it_locks": "Pure sympy computation (no frontier module import): discriminant of t^2-3t+1 == 5, coefficients mod 4, Smith normal form of a constructed matrix == diag(4,4), and eigenvalue/order checks for a companion matrix mod 4.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b327_mckay_branching_gate.py",
+      "target_arcs": [
+        "B327"
+      ],
+      "what_it_locks": "Recomputes principal_decomposition() spins {8,4,0}, character values (chi_g==0, chi_m1==27), and 2T conjugacy-class traces from an imported local module (mckay_branching_gate).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b329_mckay_branching_embeddings.py",
+      "target_arcs": [
+        "B329"
+      ],
+      "what_it_locks": "Recomputes character-table orthonormality sums, principal/trinification branchings of 27 under 2T with explicit dicts, and complex-character check for SU(3) 3-dim rep.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b330_s032a_galois_symmetrization.py",
+      "target_arcs": [
+        "B330"
+      ],
+      "what_it_locks": "Recomputes symmetric-function values for golden/Eisenstein Galois orbits, gcd invertibility mod 4, fixed-vector set, and a continuity check function.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b331_ambivalence_closure.py",
+      "target_arcs": [
+        "B331"
+      ],
+      "what_it_locks": "Recomputes ellipticity/ambivalence of the order-3 generation element, holomorphic/compact character values at 0, and complex central-character value.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b332_two_letters_two_ends.py",
+      "target_arcs": [
+        "B332"
+      ],
+      "what_it_locks": "Recomputes an identity (g=-RL^-1), product/ratio discriminants (3,5) and (-1,-3), and commensuration relation gag^-1==L.inv().",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b333_compositum_seam.py",
+      "target_arcs": [
+        "B333"
+      ],
+      "what_it_locks": "Recomputes sqrt5*sqrt(-3)==sqrt(-15) check, class numbers h(-15)=2 and h(-163)=1, and a null-test genericity function.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "class_number(-15)==2, class_number(-163)==1",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b334_seam_hilbert_class_field.py",
+      "target_arcs": [
+        "B334"
+      ],
+      "what_it_locks": "Recomputes splitting_law() classification into principal/non-principal lists, a form cross-check (0 mismatches), and a null-fraction test for prime 137 (bounded 0.4-0.65).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "LOOSE_TOLERANCE",
+          "detail": "0.4 < frac < 0.65 is a wide band around 0.5 used to argue 'coin flip, no SM content'."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b335_generation_symmetry_exact.py",
+      "target_arcs": [
+        "B335"
+      ],
+      "what_it_locks": "Recomputes exact volume ratio (3.0), geodesic multiplicities (3,3), cusp-shape modulus squared (12), and checks cover-group is not 2T.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "volume_ratio==3.0 exactly",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b336_chiral_sqrt15_hunt.py",
+      "target_arcs": [
+        "B336"
+      ],
+      "what_it_locks": "Recomputes real-Jones-at-zeta15 check, monodromy discriminant sets (excludes -15, includes 5 and 117), and commensurability/filling chirality checks against recorded SnapPy values.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b337_structure_xor_ordering.py",
+      "target_arcs": [
+        "B337"
+      ],
+      "what_it_locks": "Recomputes single-object spectrum [52,1,1], a multiplicity-overlap matrix exact match, ordering check, and metallic discriminants [5,32,117] for m=1,2,3.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "metallic_disc(1,2,3)==[5,32,117]",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b338_the_bridge_flow.py",
+      "target_arcs": [
+        "B338"
+      ],
+      "what_it_locks": "Checks three boolean/flag functions (flow_from_symmetric_to_broken, law_holds, PARAMETER_IS_EXTERNAL) from a module built on recorded SnapPy CS values (not recomputed live from SnapPy in-test).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b339_cs_flow_subleading.py",
+      "target_arcs": [
+        "B339"
+      ],
+      "what_it_locks": "Checks leading/even-coefficient flag functions and a rational constant C3==1/24 with TAU_SQ==12, from a module built on recorded values.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [
+        {
+          "value": "C3==1/24, TAU_SQ==12 (h(E6))",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b340_cp_phase_along_flow.py",
+      "target_arcs": [
+        "B340"
+      ],
+      "what_it_locks": "Checks three boolean flag functions (extremal CP phase, chirality lowering, second-order deviation) built on recorded numeric data.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b342_z3_trimaximal_symmetry.py",
+      "target_arcs": [
+        "B342"
+      ],
+      "what_it_locks": "Recomputes DFT-democracy magnitudes and Z3-invariance of magic column, then compares theta12 values from formulas to fixed literature numbers 35.72/34.34 within 0.1.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "theta12 TM2~35.72 deg, TM1~34.34 deg",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b343_exact_tbm_irreducibility.py",
+      "target_arcs": [
+        "B343"
+      ],
+      "what_it_locks": "Recomputes Klein-4 structure of 2-torsion, Z/3 cyclic action on the three Z/2 subgroups (irreducibility mod 2), and full-Klein TBM angle predictions (theta13=0, sin^2 theta12=1/3).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b344_deviation_symplectic_pairing.py",
+      "target_arcs": [
+        "B344"
+      ],
+      "what_it_locks": "Recomputes det==1 for trace maps m=1,2,3, and a reciprocal-pairing/Casimir check via sympy.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b345_z3_deviation_texture.py",
+      "target_arcs": [
+        "B345"
+      ],
+      "what_it_locks": "Recomputes deviation charge set {0,1,2}, an allowed/forbidden selection-rule pairing list, and independence from a prior exponent split (B265).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b346_cross_structure_map.py",
+      "target_arcs": [
+        "B346"
+      ],
+      "what_it_locks": "Checks two boolean functions asserting symplectic-conjugation equivalence and independence of E6-exponent grading from Z/3 charge.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b347_e6_tangent_gradings.py",
+      "target_arcs": [
+        "B347"
+      ],
+      "what_it_locks": "Recomputes (mpmath, dps 70) geometric/symrep residuals near machine floor, H^1 dimension per E6 exponent (all ==1, total==6==rank E6), amphichirality indicator, and hyperelliptic sign pattern matching (-1)^(m+1).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "residual thresholds 1e-50; total==6==rank(E6)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b348_bloch_class_galois.py",
+      "target_arcs": [
+        "B348"
+      ],
+      "what_it_locks": "Recomputes Galois-swap of Eisenstein roots, an exact seam identity 1-z0==conj(z0), symmetrizable orbit with sum 0 and volume match, orientation-sign kill, and cross-checks orbit value against origin_axiom.constants.VOL_FIG8 to 1e-12.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "orbit match to VOL_FIG8 within 1e-12",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b349_irregular_covers_galois.py",
+      "target_arcs": [
+        "B349"
+      ],
+      "what_it_locks": "Uses live SnapPy (skipped if unavailable) to recompute cyclic-cover torsion cross-validated against B350's stored SNF, cover census up to index 6 against an EXPECTED_CENSUS dict, and isometry-class multiplicities.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [
+        "pytest.importorskip('snappy') -- test is skipped entirely if the snappy package is not installed"
+      ],
+      "red_flags": [
+        {
+          "kind": "SKIP_IN_CI",
+          "detail": "pytest.importorskip('snappy') silently skips all tests in this file if SnapPy is not installed in the CI environment."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b350_cyclic_cover_torsion_galois.py",
+      "target_arcs": [
+        "B350"
+      ],
+      "what_it_locks": "Recomputes torsion orders for n=2..8 matching an exact literal dict and cross-checks against origin_axiom.topology.torsion_order; recomputes resultant identity, Galois-orbit symmetric functions, SNF groups, and fixed-point-free deck action up to n=5 (with a documented note that full n=6 brute force is skipped in the lock for speed).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "torsion_orders dict for n=2..8 (e.g. n=8:2205)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "Comment: 'nmax=5 in the lock (the n=6 brute-force count is ~100k lattice solves; the probe's __main__ still runs it)' -- the committed test intentionally does less than the full script."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b351_exact_e6_chevalley.py",
+      "target_arcs": [
+        "B351"
+      ],
+      "what_it_locks": "Recomputes exact integer Chevalley e6 structure constants, root system sizes (36 positive, 72 total), Jacobi identity violation count over 76,076 triples (must be 0), principal sl2 coefficients, exponent decomposition, and theta-involution fixed/minus dimensions (52/26).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "76076 Jacobi triples, 0 violations; fixed==52, minus==26",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b352_cup_product_obstruction.py",
+      "target_arcs": [
+        "B352"
+      ],
+      "what_it_locks": "Recomputes (mpmath dps 100) representation validity residuals, per-exponent H^1 line dimension nonzero-ness and H^2 functional shape, and a positive control pairing; the full second-order obstruction sweep (the actual banked B352 verdict) is gated behind OA_SLOW=1 and skipped by default.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "residual thresholds 1e-40, 1e-55",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [
+        "skipif(os.environ.get('OA_SLOW') != '1') -- full obstruction-vanishing sweep, the file's central claim, does not run in default CI"
+      ],
+      "red_flags": [
+        {
+          "kind": "SKIP_IN_CI",
+          "detail": "test_full_obstruction_sweep_all_directions_unobstructed (the test that actually checks 'every class vanishes at second order', i.e. the banked B352 verdict) only runs when OA_SLOW=1 is set; default test runs only validate machinery, not the claimed result."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b353_geometric_theta_identification.py",
+      "target_arcs": [
+        "B353"
+      ],
+      "what_it_locks": "Recomputes (mpmath dps 100) block-scalar residual for theta vs holonomy commutation, and per-exponent hyperelliptic eigenvalue/coboundary residual checks against machine-precision thresholds.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "thresholds 1e-60, 1e-40",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b354_interface_pairing_certificates.py",
+      "target_arcs": [
+        "B354"
+      ],
+      "what_it_locks": "Recomputes exact fixed-point-intersection sets, reproduces a specific banked fork [2,4]/[-4,-2] from B131, checks irreducible minpoly certificates, absence of quadratic subfield, and a divisibility law with worked examples.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "m2==[2,4], fork==[-4,-2] (banked B131/V120 numbers)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b355_weil_layer_independent.py",
+      "target_arcs": [
+        "B355"
+      ],
+      "what_it_locks": "Recomputes (mpmath dps 60) SL(2,Z/15) construction-relation gates, trace-table values across levels, pair-fingerprint counts (11 distinct values, 2 quartic roots), and a pre-registered 'triple reality' null test over 605 triples with 0 nonreal.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "605 triples, 0 nonreal (pre-registered null)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b356_sigma_stability_scan.py",
+      "target_arcs": [
+        "B356"
+      ],
+      "what_it_locks": "Recomputes mod-3 blindness divisibility in Z[omega], a determinant-lemma character-table check for 2T, an A4 assembly-count scan (1089/1028), and reality-theorem checks for S4/A5; a full 2T/2O/2I sweep with specific counts (71192/70262) is gated behind OA_SLOW=1.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "A4 assemblies 1089, complex 1028; 2T full sweep 71192/70262",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [
+        "skipif(os.environ.get('OA_SLOW') != '1') -- full 2T/2O/2I sweep skipped by default"
+      ],
+      "red_flags": [
+        {
+          "kind": "SKIP_IN_CI",
+          "detail": "test_full_sweep_slow (the full 2T assembly count 71192/70262) is gated behind OA_SLOW=1 and does not run by default."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b357_e6_boundary_restriction.py",
+      "target_arcs": [
+        "B357"
+      ],
+      "what_it_locks": "Recomputes (mpmath, module dps) peripheral commutation/parabolic-trace gates and per-exponent restriction rank/residual/tau-identity for m=1,4 in the default run; the full six-block Lagrangian-rank-6 claim runs only under OA_SLOW=1.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "|tau|=2*sqrt(3); rank==6 (full sweep, gated)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [
+        "skipif(os.environ.get('OA_SLOW') != '1') -- full six-exponent-block sweep (rank 6/6 Lagrangian claim) skipped by default"
+      ],
+      "red_flags": [
+        {
+          "kind": "SKIP_IN_CI",
+          "detail": "test_all_six_blocks_slow, which actually checks the 'Lagrangian certified (rank 6/6)' headline claim, is gated behind OA_SLOW=1; default CI only checks m=1,4."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b358_seam_certification.py",
+      "target_arcs": [
+        "B358"
+      ],
+      "what_it_locks": "Recomputes exact-fraction coefficient lookups from committed JSON tables (double_one on C_theta.json/C_canonical.json) for a handful of sample indices, and a numeric-guard cross-check; the full 240-entry count claims (theta_nonzero==49 etc.) are gated behind OA_SLOW=1.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [
+        {
+          "value": "FLAGSHIP fraction tuple; theta_nonzero==49, theta_seam==44 (gated)",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [
+        "skipif(os.environ.get('OA_SLOW') != '1') -- full 240-double readout skipped by default"
+      ],
+      "red_flags": [
+        {
+          "kind": "SKIP_IN_CI",
+          "detail": "test_full_counts_slow (the full readout counts 49/44/49/0) only runs under OA_SLOW=1; default run only spot-checks a handful of (a,b) pairs from the committed JSON."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b359_seam_form.py",
+      "target_arcs": [
+        "B359"
+      ],
+      "what_it_locks": "Compares fixed committed dict data (load_banked()) against hardcoded exact-Fraction expectations for two 39-entry tables; the full exact regeneration from source is gated behind OA_SLOW=1.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [
+        {
+          "value": "table lengths 39; seam value sets like {1/144,-1/144,1/288,-1/288}",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [
+        "skipif(os.environ.get('OA_SLOW') != '1') -- full exact regeneration (~8 min) skipped by default"
+      ],
+      "red_flags": [
+        {
+          "kind": "SKIP_IN_CI",
+          "detail": "test_full_regeneration_slow, which regenerates the banked tables from source and checks they match, is gated behind OA_SLOW=1; default run only checks the already-committed banked values against themselves."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b360_seam_selection_rule.py",
+      "target_arcs": [
+        "B360"
+      ],
+      "what_it_locks": "Compares load_banked() dict values against hardcoded seam/nonzero counts and value sets for specific (m,n) pairs; full exact regeneration gated behind OA_SLOW=1.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [
+        "skipif(os.environ.get('OA_SLOW') != '1') -- full exact regeneration (~10 min) skipped by default"
+      ],
+      "red_flags": [
+        {
+          "kind": "SKIP_IN_CI",
+          "detail": "test_full_regeneration_slow (regenerating and re-checking the banked predictions from source) is gated behind OA_SLOW=1."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b361_seam_local_law.py",
+      "target_arcs": [
+        "B361"
+      ],
+      "what_it_locks": "Compares load_banked() committed data against hardcoded seam counts/value sets for (1,7) and (3,7), and a hand-classified bright/dark set consistency check with a locally-defined 'qualifies' predicate.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "test_local_law_consistency_over_the_computed_range defines bright/dark sets and the qualifies() rule inline in the test itself, then checks its own rule against its own sets -- not an independent computation."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b362_seam_law_confirmations.py",
+      "target_arcs": [
+        "B362"
+      ],
+      "what_it_locks": "Compares load_banked() committed data against hardcoded seam counts/value sets for three pairs, and checks a hand-classified bright/dark consistency rule defined inline.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "test_law_at_eleven_pairs defines bright/dark/doubly_elliptic sets inline in the test and checks internal consistency of its own classification, not an independent recomputation."
+        }
+      ]
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b363_seam_lift_anatomy.py",
+      "target_arcs": [
+        "B363"
+      ],
+      "what_it_locks": "Reads a committed JSON scan artifact (lift_torus_scan.json, 225 entries) and checks all values are below 1e-6 plus the origin entry below 1e-10.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [
+        {
+          "value": "225 entries, threshold 1e-6/1e-10",
+          "provenance_stated": "yes"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b364_theta_polarization.py",
+      "target_arcs": [
+        "B364"
+      ],
+      "what_it_locks": "Recomputes a T-side identity residual via imported module function, and independently recomputes (in the test body, not imported) a triangular-family theta-transformation identity over j=0..14 to 1e-10.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b365_polarization_signature.py",
+      "target_arcs": [
+        "B365"
+      ],
+      "what_it_locks": "Recomputes minimum-over-j family values at specific half-period points, checking exact vanishing (<1e-15) for the triangular case and non-vanishing elsewhere, and vanishing at all four half-periods for the square case.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "/home/user/origin-axiom/tests/test_b366_invariant_spin_sector.py",
+      "target_arcs": [
+        "B366"
+      ],
+      "what_it_locks": "Checks three boolean lemma functions (puncture_lemma, spin_lemma, forcing_shape) imported from invariant_spin.py.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    }
+  ]
+}

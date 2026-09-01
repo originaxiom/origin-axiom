@@ -1,6 +1,6 @@
 # Arcs whose reader found the progress logs and the arc files in DRIFT or CONTRADICTION
 
-(30 arcs of 456 digested; NOT_IN_LOG = 185, CONSISTENT = 241)
+(47 arcs of 605 digested; NOT_IN_LOG = 208, CONSISTENT = 350)
 
 ## B123_arithmeticity_m1 (main) — CONTRADICTION
 
@@ -28,15 +28,21 @@
 
 ## B296_seam_arc_verification (main) — CONTRADICTION
 
-- **claim of record:** claim_one_line: 'Adversarial re-run of every seam-arc probe yields zero refutations and zero firewall leaks, strengthening B287 (homology-forced uniqueness), B288 (174 closings) and B291, with the classical math correctly attributed.' status: PROVED
-- **log says:** B855 (2026-08-02) found m003 IS amphichiral (is_amphicheiral()=True), directly contradicting VERDICTS.md's own line that m003 is a 'non-amphichiral control' used to argue the CS sign law is object-specific not a SnapPy artifact; also flagged (B289/B296's 164/164 m136, 168/168 m135 claims) as 'reportedly holding' and 'explicitly NOT verified in this arc — queued for independent recomputation'.
-- **reader note:** This is a self-graded red-team: the 'adversarial pass' and its 0-refutations tally are asserted constants, not a re-run reproducer, and the one falsifiable factual claim it leans on (m003 as a non-amphichiral control) is directly contradicted by a later arc's direct computation with no correction visible in these files.
+- **claim of record:** PROVED — Adversarial re-run of every seam-arc probe (B287-B295) yields zero refutations and zero firewall leaks, strengthening B287 (homology-forced uniqueness), B288 (174 closings) and B291, with the classical math correctly attributed.
+- **log says:** B855 (2026-08-02) found a correction directly against this arc: 'm003 IS amphichiral' contradicting VERDICTS.md's description of m003 as a 'non-amphichiral control' on the very line the CS-sign-law claim turns on. Separately B842 (2026-08-01) flagged this arc as mislabeled a face-attachment (methodology, not object physics) by the pre-existing corpus classifier.
+- **reader note:** This is a self-graded audit of the program's own prior claims, with the grading encoded as hardcoded pass/fail dict literals rather than recomputation — and a later log entry (B855) directly contradicts one of its load-bearing control claims (m003 amphichirality) with no correction recorded here. Pure math/reframe content; STRUCTURAL, not observable.
 
-## B300_cross_chat_sm_attempt (main) — CONTRADICTION
+## B361_seam_local_law (main) — CONTRADICTION
 
-- **claim of record:** claim_one_line: 'The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absent).' status: NEGATIVE
-- **log says:** B1000+B1001 (2026-08-09): 'Three incompatible counts existed and no arc reconciled them (B717: 4 · B300: 8 · sweep: ~8)' — sealed with declared prior 'OUTCOME B, >4 — expected to correct B717,' i.e. this arc's own 'eight external inputs' figure was one leg of an acknowledged three-way count mismatch, only reconciled ~40 days later.
-- **reader note:** The arc's central taxonomy claim (8 inputs -> 2 walls) is asserted prose, not a formal derivation, and its own input count was later flagged in the project's own progress log as one of three disagreeing counts across arcs that took roughly six weeks to reconcile — a genuine, log-attested inconsistency this arc's files do not disclose.
+- **claim of record:** verdict PROVED: 'Across 8 pairs with zero counterexamples, a level-15 pair invariant carries sqrt(-15) exactly when it contains a seed elliptic at both 3 and 5 (m=2,7); the discriminator refutes H-min and leaves H-loc standing.'
+- **log says:** 2026-07-02: (1,7) BRIGHT refutes H-min, (3,7) BRIGHT with value-echo to (2,3). CRITICAL FOLLOW-UP (2026-07-03, 'B367 step 0'): 'the completed table REFUTES the B361 local law at pair (3,4)' — (3,4) is bright with NO seed elliptic at both primes, killing the banked 'bright iff a both-elliptic seed' rule on its twelfth pair. Log explicitly states 'B361's row updated; its confirming pairs remain valid data.' A 2026-08-30 sweep entry (B1218) separately flags stale row L57 as 'B359/B363 also uncited' but does not mention the B361/B367 refutation status directly there.
+- **reader note:** This is the single most load-bearing finding in the batch: the committed arc_verdict.json for B361 claims a proved law with zero counterexamples, but the project's own progress log shows that law was refuted by a later probe (B367, pair (3,4)) without B361's own files being corrected or cross-referenced — exactly the SUPERSEDED_UNMARKED pattern the seat is asked to catch.
+
+## B362_seam_law_confirmations (main) — CONTRADICTION
+
+- **claim of record:** verdict PROVED: 'All three pre-registered seam predictions hit exactly, extending the doubly-elliptic-seed brightness law to 11 pairs with zero counterexamples.'
+- **log says:** 2026-07-02: (2,7) BRIGHT, (1,5) DARK, (4,5) DARK as predicted; law now stands at 11 exact pairs, zero counterexamples.
+- **reader note:** Directly inherits B361's superseded-and-unmarked defect one probe later; the individual exact computations (which pairs are bright/dark) are presumably still correct, but the generalized 'law' language in both FINDINGS and verdict.json is stale as of the very next day's work and was never corrected in these committed files.
 
 ## B872_coset_leg (main) — CONTRADICTION
 
@@ -94,9 +100,74 @@
 
 ## B299_trinification_triality (main) — DRIFT
 
-- **claim of record:** claim_one_line: 'The commuting (θ,φ) ℤ₃×ℤ₃ are inner E₆ lattice automorphisms acting freely on the 27 as nine 3-orbits — the trinification triality — so no φ-eigenvalue can grade the 27.' status: PROVED
-- **log says:** B565 (2026-07-13): 'B299's (theta,phi) IS Boyle's SO(8) triality (100% weight-level match)'; B578/B579 (2026-07-14): 'ω = B299's ℤ/3: VERIFIED' flagged as an attribution error ('not verified'; B578-D8 adjudicating), later B578-D8: 'B299's (θ,φ) on the 27 = {1:9, ω:9, ω²:9} exact' (moot/computed).
-- **reader note:** The E6/27-orbit computation itself is genuine and reproducible, but the two seed matrices are imported unverified from an external, non-audited repo, and the progress log attaches to this arc a much stronger claim (identity with Boyle's SO(8) triality) that the arc's own files never make or support.
+- **claim of record:** PROVED — The commuting (θ,φ) ℤ₃×ℤ₃ are inner E₆ lattice automorphisms acting freely on the 27 as nine 3-orbits — the trinification triality — so no φ-eigenvalue can grade the 27.
+- **log says:** B562 (2026-07-13): grounds 'P13 generations-via-triality (27 splits 9+9+9, the wrong 3)' in B298/B299. B565 (2026-07-14): 'B299's (theta,phi) IS Boyle's SO(8) triality (100% weight-level match)'. B579 (2026-07-14): correction — 'ω = B299's ℤ/3: VERIFIED' is flagged as NOT actually verified pending adjudication. B578 (2026-07-14): 'B299's (θ,φ) on the 27 = {1:9, ω:9, ω²:9} exact' (D8, adjudicated MOOT/computed).
+- **reader note:** The core linear-algebra computation (Z3xZ3 acting freely on the 27) is genuinely reproducible and well-scoped as a refutation of a specific external claim; but the provenance of the (θ,φ) matrices is imported/unverified and the log shows an unresolved verification dispute on the closely related ω-identity claim.
+
+## B300_cross_chat_sm_attempt (main) — DRIFT
+
+- **claim of record:** NEGATIVE — The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absent).
+- **log says:** B1000/B1001 (2026-08-09): 'Three incompatible counts existed and no arc reconciled them (B717: 4 · B300: 8 · sweep: ~8).' The log flags B300's own count of 8 external inputs as one of three mutually inconsistent counts across the repo, sealed for correction (declared prior 'expected to correct B717').
+
+## B309_kappa_unification (main) — DRIFT
+
+- **claim of record:** PROVED — Unified four banked faces (existence, geometry, matter, quantum) as one commutator trace kappa=tr[a,b] not equal 2, with kappa-2=omega^2 and E6 uniqueness verified.
+- **log says:** B1010 (2026-08-10): 'The κ-unification (B309/B518) — κ = tr[a,b] ... was in NEITHER consolidation: LAW_MAP cited it zero times, THE_FRAMEWORK contained zero κ.' B1200 (2026-08-28) later ties this κ to two other independently-derived faces ('FACE 1 the saddle ... FACE 2 the founding obstruction κ−2=u² ... FACE 3 the boundary structure').
+- **reader note:** The core algebraic identity (kappa=tr[a,b]=u^2+2, with the two evaluations at u=0 and u=omega) is trivially checkable and correctly framed as a consolidation rather than new physics; the exceptional-group-uniqueness fact is asserted from an uncommitted Sage session rather than shown.
+
+## B342_z3_trimaximal_symmetry (main) — DRIFT
+
+- **claim of record:** claim_one_line: "The object's Z/3 is the (standard) trimaximal symmetry, but its would-be TM2 prediction theta_12 = 35.7 degrees is disfavoured by data relative to TM1." status: NEGATIVE
+- **log says:** 2026-07-15 log: 'B322 ... and B342 (the ℤ/3-DFT circulant's TM2 already data-disfavored) were contextual prior art missing from B630's MB12'; 2026-08-30 log: 'B342 goes to the value-negative record, never the paper' — both consistent with the NEGATIVE verdict, but neither log entry notes that B343 (same batch) explicitly supersedes B342
+- **reader note:** B342's own content is an honest negative (TM2 disfavoured by data), but it is a superseded intermediate result whose own verdict record does not point forward to B343's correction — a reader of B342 alone would not know its TM2-vs-TM1 framing itself was retracted, not just its ranking.
+
+## B357_e6_boundary_restriction (main) — DRIFT
+
+- **claim of record:** verdict PROVED: 'All six E6 deformation classes restrict nontrivially to the cusp (rank 6/6), the image is Lagrangian, and one universal tau = the cusp shape governs every block.'
+- **log says:** 2026-07-02: rank 6/6 certified; Lagrangian image; universal-tau identity tau=-2sqrt(3)i matching cusp shape to 12 digits. IMPORTANT LATER CORRECTION (2026-07-03, 'depth-2 bending is theta-graded'): 'the universal-tau does NOT persist at depth 2; B357's identity is an order-1 rigidity, now sharply bounded' — the universal-tau claim is explicitly narrowed to leading (first) order only by a later probe. Also 2026-07-03 Promotion Audit holds B357 in the same dps-100 computer-assisted class as B352/B353/B370.
+- **reader note:** The headline universal-tau result is narrower than the arc's own text states once later work (depth-2 probe) is taken into account — a genuine DRIFT between what this arc's committed files claim and what the project's later record shows. No physics observable named; purely structural math.
+
+## B390_criterion_tensor (main) — DRIFT
+
+- **claim of record:** PROVED: 'Seam brightness is decided by the local theta models at q=3 and q=5 alone (12/12 plus an out-of-sample pass), with dark pairs attributed by an exact rank-2 pairing.'
+- **log says:** PROGRESS_LOG.md 2026-07-04 has exactly 1 entry confirming G1 (tensor identity 12/12), G2 (locality 12/12) and out-of-sample PASS ((2,5) predicted dark, verified dark) — matches session-1 FINDINGS; the session-3 attribution addendum is NOT separately logged.
+- **reader note:** The strongest arc in this batch methodologically — a real registered out-of-sample prediction that passed — but the progress log under-documents the arc's own later self-correction (the attribution redo), a minor DRIFT in the other direction (log says less than the arc established).
+
+## B393_cancellation_mechanism (main) — DRIFT
+
+- **claim of record:** PROVED: 'Dark pairs annihilate termwise rather than by cancellation, with the exact law: s-darkness holds iff the 5-side never donates sqrt5 to an imaginary product.' (verdict json also carries a creates_law_corrected block dated 2026-08-29.)
+- **log says:** PROGRESS_LOG.md log_index has only 1 entry, from a much later (2026-08-29) B1214 re-audit noting B393 as one of 'thirteen real laws recovered' during a creates_law audit — the original 2026-07-04-era banking entries for K1-STRONG and the product-field law are NOT present in the indexed log excerpts.
+- **reader note:** A methodologically careful arc that explicitly caught and fixed its own broken first instrument (subfield-coordinate spectra silently dropping content) via a bright-control sanity check before banking the real result; the log excerpt available here just happens to only capture a much later meta-audit mention, not the original work.
+
+## B397_last_census_facts (main) — DRIFT
+
+- **claim of record:** NEGATIVE: 'Both registered local forms of the (2,3) stabilizer are killed (no pointwise sigma_19-fixing, no power-relabel intertwiner) so the stabilization is aggregate, and the inter-model sigma_sqrt5 trace-conjugacy fails, being intra-model only.'
+- **log says:** PROGRESS_LOG.md 2026-07-04 (W-C session 1) is the only indexed entry mentioning B397, but it concerns a DIFFERENT claim (the class-group/Hilbert-class-field split-covariance prediction, 'σ_cl pairs slot↔−3block AND B382-face↔B397-face') than this arc's actual FINDINGS content (the (2,3) stabilizer kill and the sigma_sqrt5 trace-conjugacy correction) — the log entry appears to reference an earlier or different facet of B397 not present in this arc's file set.
+- **reader note:** Genuine negative results with mostly exact committed data, but one intermediate script (relabel_search.py) was run inline and never committed, so part of the exhaustive relabel-search claim is not independently reproducible by a stranger from the repository alone.
+
+## B399_wall_scale (main) — DRIFT
+
+- **claim of record:** PROVED: 'The seam's 1/12 recruits the golden boundary while the singles' 1/12 is purely generic; the singles tower refines rather than generates scale, and at the 1215 rung Σ=1 and e₂=−1/48 are exact.'
+- **log says:** e3 = cos(2pi/9)/864 EXACT later closes 'B399's wall-scale question' (2026-07-23 log entry); a review flags B399's second failed e3 attempt (Jul 9, UNSTABLE) never folded back into triple_id.json.
+- **reader note:** Genuinely computed multi-prime CRT reconstruction of a deep-tower value with an honest partial-result banner (e3 pending) at time of writing, but the verdict is PROVED despite an open sub-question, and the log shows the eventual e3 closure happened outside this arc's own committed files — a provenance gap a stranger cannot fully retrace from this directory alone.
+
+## B411_field_dictionary (main) — DRIFT
+
+- **claim of record:** NEGATIVE: 'The gamma-prime field dictionary is killed: it is multi-valued on generic cells and determines the field only on the boundary cells.'
+- **log says:** 2026-07-04: hint sweep (B411) — the local/emergent dichotomy; naive field-dictionary killed but localizes the direction, Pi_H is the boundary between local/derivable and emergent/aggregate layers. LATER (B418/TW4, 2026-07-04 same-day entry): B411's 'work upstairs' hope REFUTED — the mirror is not cell-local even in Q(zeta60).
+- **reader note:** A well-documented negative-with-payload: a naive dictionary hypothesis is killed but the failure mode is used to name the productive direction (Pi_H as local/emergent boundary); that follow-up hope is itself later refuted in an appended update within the same file, which is good (visible) practice even though the verdict JSON doesn't carry the update forward.
+
+## B412_tower_measure (main) — DRIFT
+
+- **claim of record:** PROVED: 'The single-seed tower is an exact mass-conserving refinement: each parent splits into a cyclotomic orbit summing to it, with trace-zero innovations (an Iwasawa-type measure).'
+- **log says:** 2026-07-04: 'what else' (B412) — the tower is a refining MEASURE (Iwasawa-type); exact: mass=1 frozen, parents split into cyclotomic orbits summing to them, innovations trace-zero. Also B741 (2026-07-21) provenance sweep LOCATES B412 as pointing to 'the B399/B408/B426 contraction chain, locked' rather than an independently reproducible cell.
+- **reader note:** This is a synthesis/reframing arc, not a computation: it restates already-banked numbers from four other arcs under a new organizing lens (Iwasawa-type measure) with zero independent code or test of its own — verdict PROVED is generous for a directional/interpretive finding with no dedicated reproducibility artifact.
+
+## B414_generation_structure (main) — DRIFT
+
+- **claim of record:** NEGATIVE: 'The Z/3-generations reading fails its privilege test: the object's core multiplicity is Z/2 (class number of Q(sqrt(-15))), and no canonical frame exists.'
+- **log says:** 2026-07-04: the structure reframe (S044/B414) — honest engagement with 'we have to see it'; same-day, B422 log entry notes 'B414's last in-object frame door closes; the frame is external.' A 2026-07-24 log entry notes 'B414-r re-decides on a non-vacuous gate' (a later re-decision).
+- **reader note:** The core finding (Z/3 is not the privileged multiplicity; Z/2 from the class group is) is a genuine, exact structural fact, well-connected to the earlier no-canonical-frame result; but a later log entry ('B414-r re-decides') suggests this arc's verdict may have been revisited elsewhere without an addendum appearing in this arc's own committed files — a provenance gap worth the seat's attention.
 
 ## B759_qp3_integration (main) — DRIFT
 
@@ -181,4 +252,34 @@
 - **claim of record:** PROVED (verdict text unedited) -- 'z(x1,y*) = su(3) (+) su(2) (+) u(1)^3 EXACTLY: two measurements of the object's own superselection charges take E6 to the Standard Model algebra, skipping SU(5).' FINDINGS.md itself now opens with a correction banner (added 2026-08-08 by arc B950): the mathematics (dim 14, derived 11, centre 3) is untouched, but the phrase 'the Standard Model algebra' overstates by two abelian factors -- su(3)+su(2)+u(1)^3 is 14-dimensional, the real SM gauge algebra su(3)+su(2)+u(1) is 12-dimensional with ONE abelian factor, not three.
 - **log says:** DRIFT/CONTRADICTION over time: the original 2026-08-05 log entry repeats the uncorrected 'take E6 to the Standard Model algebra' framing; later entries (B950 2026-08-08, B951 2026-08-08, B1210 2026-08-29) progressively deflate the claim further -- B951 shows the su(3)+su(2)+u(1)^3 landing is exactly the classified A2+A1 Levi subalgebra of e6 (Borel-de Siebenthal 1949/Dynkin 1952), i.e. not a novel discovery but arriving at a 77-year-old catalogued endpoint from a particular route; B1210 explicitly names this as the paper-spine sweep catching an overstated headline.
 - **reader note:** The raw computation (14/11/3, the wall's complex nature) is solid and independently reproduced elsewhere, but the arc's own verdict-of-record still carries an overstated headline ('the Standard Model algebra') that two later corrections (B950: dimension mismatch; B951: this is a 77-year-old classified Levi subalgebra, not a discovery) never propagated back into the verdict file itself -- a textbook SUPERSEDED_UNMARKED case worth flagging prominently.
+
+## B909_frame_arc (main) — DRIFT
+
+- **claim of record:** verdict PROVED: 'THE FRAME ARC BANKED... THE COMPACT MEASUREMENT THEOREM VERIFIED WITH THE CORRECTED INSTRUMENT -- at kappa's genuine roots, FIVE (root,prime) pairs including the fully-split 40039, the compact wall centralizer types uniformly dim z=30, derived>=28, z cap core=18, center 2: z=so(8)+u(1)^2... THE LAW_MAP SECTION-F PENDING ROW: ALL FOUR DEBTS PAID.'
+- **log says:** PROGRESS_LOG 2026-08-06: 'B909: THE FRAME ARC BANKED -- the CMT verified with the corrected instrument; the stale-septic catch; the LAW_MAP pending row paid whole. The arc whose absence was cc3's most-urgent audit item, closed.' But a LATER entry (2026-08-08, B958) states: 'B909's directory ships only cmt_correct.py and results.json, with no frame or M12 construction anywhere' and 'B909 verified [section LVIII] by RUNNING THE INCOMING MATERIAL, not by rebuilding on this bench' -- i.e. B909 did NOT independently construct the frame/M12, contrary to how 'verified' reads in the earlier banking entry. A still-later entry (2026-08-08, B978) found B958's premise itself wrong: 'the frame could not be rebuilt without the solo seat's definitions was FALSE -- the definitions were in CMT_DRAFT.md section 2, and B911 had already built the frame; I inspected B909 only' -- so the 'no independent construction anywhere' claim about the programme was itself an absence-claim error (conflating B909 with B911).
+- **reader note:** The claim of record rests on a script that cannot be run as committed (a corrupted open() call), and the project's own later audit trail disputes whether this arc did independent construction at all versus re-running inherited material -- a live, self-acknowledged uncertainty in the log that the arc's own FINDINGS/verdict do not reflect. Physics content is structural (Lie-algebra centralizer typing); no observable is named.
+
+## B933_spinor_hejhal_design (main) — DRIFT
+
+- **claim of record:** verdict PROVED, instrument:true; claim_one_line: 'THE SPINOR-HEJHAL DESIGN + A SUCCESSFUL FEASIBILITY PROBE (exploratory, double precision, UNSEALED ...) ... the probe ALREADY RESOLVES A SPECTRUM: first Dirac eigenvalue bracket |lambda_1| = 2.97455058 +/- 1e-6 ... THE LITERATURE BLANK HELD: no prior computed Dirac eigenvalue on ANY hyperbolic 3-manifold.'
+- **log says:** 2026-08-06 PROGRESS_LOG: 'the FIRST DIRAC SPECTRUM ON ANY HYPERBOLIC 3-MANIFOLD at probe grade' and restates |lambda1|=2.97455058, 8 digits, three instruments, dim-2 kernel. A 2026-08-07 REVIEWS.md Review 40 entry separately flags that B933's own COMMIT MESSAGE called the probe 'a first on H3' as an unqualified priority sentence resting on an unrecorded-depth literature sweep -- the same review that flagged B922's similar overclaim. An R47 action item ('R47-9: the B933 Dirac correction (owed; the web seat's verified J-commutes)') is listed as still OPEN/owed, not yet resolved as of the read log.
+- **reader note:** A real, carefully-designed numerical probe (a Dirac/spinor-Hejhal collocation on m004) with an honestly-labeled exploratory/unsealed status and a documented literature-sweep caveat, but the arc_verdict.json's 'the literature blank held' phrasing outruns the FINDINGS text underneath it, and a flagged priority-claim correction from the review process does not appear resolved inside this arc's own committed record.
+
+## B948_relay_ssb_sweep (main) — DRIFT
+
+- **claim of record:** verdict=PROVED; claim: relays the solo seat's response to B942 (withdrawal of two of its own sections downstream of the dead beta=1 clause), reports a dead-clause sweep across knowledge/philosophy/speculations/story (found CLEAN -- the retracted clause never leaked there) and one stale surface (docs/LAW_MAP.md's B723 row, now superseded); distinguishes a surviving theorem (B736-P2's zeta_K pole fact) from the dead claim it neighboured; records the observer's mechanism as newly OPEN.
+- **log says:** 4 entries corroborate the relay and sweep exactly as described; B1004 later finds the retraction still had NOT fully propagated corpus-wide (a retracted clause live in five places across the B500-B800 band), which this arc's 'rooms clean' finding did not anticipate since it only swept knowledge/philosophy/speculations/story, not the full arc corpus.
+- **reader note:** A pure record/editorial arc reporting an unwitnessed sweep as clean; the project's own later corpus-wide audit (B1004) found the retraction the sweep was chasing was in fact still live in five places, which this arc's narrower scope did not catch and did not flag as a limitation.
+
+## B949_ignorance_map (main) — DRIFT
+
+- **claim of record:** verdict=PROVED; claim: reads the atlas query tool over 865 mined frontier probes, ranks obstacle-type resolution rates, finds 'source_free' (the Origin Axiom itself) at 0/1 resolved but correctly recorded as a dead direction rather than a blind spot; identifies 'bridge_construction' (5/14, 8 dead) as the real objective frontier; registers L131 (is axiom A7 discharged by B945's Klein-group finding?) explicitly as NOT claimed, citing B945's own word-level limit as the reason for caution.
+- **log says:** 4 entries; B979 later closes L131 NEGATIVE, finding A7 IS load-bearing after all (the answer was already stated in section 5 of UNIQUENESS_THEOREM.md, which this arc did not read before registering L131) -- log calls this 'the fourth instance today of declaring open what is banked' across several arcs that day.
+- **reader note:** A useful self-correcting census (catching its own near-miss on 'source_free') but the registered L131 lead was itself an instance of the day's recurring failure mode (declaring open what the corpus already answered a section later in the same file), caught by a subsequent arc rather than this one.
+
+## B950_sm_spec_ledger (main) — DRIFT
+
+- **claim of record:** verdict=PROVED; claim: writes docs/SM_SPECIFICATION_LEDGER.md as the first inventory of what the Standard Model itself requires (gauge structure, Z/6 global form, 19/26/28 free parameters, forced-vs-measured split); catches on its first pass that the programme's own banked headline 'su(3)+su(2)+u(1)^3 = the Standard Model algebra' (B892) has dimension 14, not the SM's actual 12, an overstatement by two abelian factors; registers L132 (which u(1) is hypercharge).
+- **log says:** 11 entries, the most-cited item in this batch; log records this correction as opening the rank-obstruction line pursued through B952-B954, and separately (B978) records it as one of 'three instances in one day of declaring absent what already existed' (the global Z6 form B950 called 'not addressed' had in fact been derived by B862).
+- **reader note:** A valuable and correctly-caught overstatement in the programme's own headline result (14-dim algebra mislabeled 'the Standard Model algebra'), but the correcting document itself repeated the same absence-without-sweep error one section later, caught only by a subsequent arc the same day.
 

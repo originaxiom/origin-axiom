@@ -1,0 +1,1030 @@
+{
+  "batch": "tests_06",
+  "tests": [
+    {
+      "file": "tests/test_b461.py",
+      "target_arcs": [
+        "B461"
+      ],
+      "what_it_locks": "Borromean/Whitehead link volumes and homology via SnapPy census manifolds L6a4, m129.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "3.663862376708876 (one regular ideal octahedron volume)",
+          "provenance_stated": "no"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b462.py",
+      "target_arcs": [
+        "B462",
+        "B441"
+      ],
+      "what_it_locks": "phi_scan engine reproduces B441's WRT invariant; T^2 pairing vanishes at odd r (forced by antisymmetry); Masbaum p=-1 equals fig-8 colored Jones; Masbaum J_2 matches Knot Atlas 5_2 (mirror convention); kappa_diagonal fork-polynomial degrees match BANKED_SIZES; parabolic factor (x+2) present in every fork; sesquilinear=bilinear for amphichiral 4_1.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "BANKED_SIZES (imported dict from kappa_diagonal, not shown)",
+          "provenance_stated": "no"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "test_kappa_fork_sizes_match_b174 asserts degrees equal KD.BANKED_SIZES values read from the same module under test \u2014 the expected sizes are not independently stated in the test, only cross-checked internally."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b463.py",
+      "target_arcs": [
+        "B463"
+      ],
+      "what_it_locks": "Runs frontier centralizer.py as subprocess and checks its stdout literally contains the control dim (35), principal centralizer dim (0), a degree list, and 'ALL CHECKS PASS'.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "dim C=35 (control A1)",
+          "provenance_stated": "no"
+        },
+        {
+          "value": "dim C_e6(principal)=0",
+          "provenance_stated": "no"
+        },
+        {
+          "value": "[2, 8, 10, 14, 16, 22]",
+          "provenance_stated": "no"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b465.py",
+      "target_arcs": [
+        "B465"
+      ],
+      "what_it_locks": "Recomputes exact monodromy matrices mod p=61 (build/matmul/matpow), eigenvalue-multiplicity spectrum of M1 (8-4-3 split), scalar law M1^4, classical shadow orders, Galois split mod 3 vs QR, and a Chat-2 quadratic-form family (numpy, c-family unitarity/spectrum).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "P=61 (speed substitute for real modulus)",
+          "provenance_stated": "yes (comment: 'for speed')"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b466.py",
+      "target_arcs": [
+        "B466"
+      ],
+      "what_it_locks": "sigma action on SL(3) components (component map, fixed locus, geometric period-2 orbit on Gieseking curve, discriminant -3), and a hand-checked matrix identity for orientation-reversing half-monodromy.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b467.py",
+      "target_arcs": [
+        "B467"
+      ],
+      "what_it_locks": "Permutation-sign (parity) computation for linear maps; Fricke trace identity tr(A_mA_n) formula and refutation of a naive conductor law; corrected golden-ratio-family ratios; SnapPy check that 5_2(5,1) and 4_1(-5,1) are isometric with equal Chern-Simons.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "0.9813688289 (vol 4_1 Dehn-filled)",
+          "provenance_stated": "no"
+        },
+        {
+          "value": "0.670212 / 0.730965 (corrected ratios)",
+          "provenance_stated": "no, compared against Chat-1's rejected 0.6686/0.7346"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b468.py",
+      "target_arcs": [
+        "B468",
+        "B465",
+        "B467"
+      ],
+      "what_it_locks": "Exact determinant decomposition mod 61 (D, W1, W2, Par dets); class-size counting via Counter; slow crosstable/continents test importing adjudicate.py to recompute dark-point tiers and connected 'continents'.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "test_crosstable_uniform_dark_and_continents is @pytest.mark.slow \u2014 marker present, may be excluded by default test selection (not verified whether CI runs -m slow)."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b469.py",
+      "target_arcs": [
+        "B469",
+        "B465"
+      ],
+      "what_it_locks": "Two-register breath-law permutation-sign formula; symbolic Gieseking-family theorem X^2=A; sigma-lift exact identity mod p=61 pulled from B465's exact_engine; Br_n trace/charpoly identity plus phi^k metallic-ratio check.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b470.py",
+      "target_arcs": [
+        "B470",
+        "B465",
+        "B467"
+      ],
+      "what_it_locks": "Fibonacci-imbalance of letter towers; body-word balance/mirror via hierarchy_verify; exact P-QB word-trace law mod p=61; SnapPy volume/Chern-Simons check of manifold 'b++RL'.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "2.029883213 (vol b++RL)",
+          "provenance_stated": "no"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b471.py",
+      "target_arcs": [
+        "B471"
+      ],
+      "what_it_locks": "Symbolic uniqueness-theorem identity for Markov-like triple (x,y,z); Cohn matrix identities; chain trace recursion Fibonacci-like conservation (u_k^2 sum = product) and commutator-trace = -2 parabolicity; half-chain twisted Fricke recursion.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "[3,6,15,39] (trace sequence)",
+          "provenance_stated": "no"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b471_harvest.py",
+      "target_arcs": [
+        "B471"
+      ],
+      "what_it_locks": "Re-verifies (independently of the arc) the metallic commutator Fricke identity and that (1,2) is the unique parabolic metallic pair with 1<=m<n; explicitly notes prior-art attribution correction (Cohn 1955).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b472.py",
+      "target_arcs": [
+        "B472",
+        "B465"
+      ],
+      "what_it_locks": "Runs kq_verify.py subprocess, checks stdout for 'ALL CHECKS PASS'; separately recomputes exact parity-face values (Par-conjugated W1W2/W2W1 traces) mod p=61 and p=421 against powers of a 60th root of unity.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b474.py",
+      "target_arcs": [
+        "B474",
+        "B468"
+      ],
+      "what_it_locks": "Commutator-trace multiset over the torus (Counter histogram); gcd-factorization structure of kappa_q (36 gcd-classes each single-valued); an explicit two-character closed-form formula reproduced against cross_table's computed traces.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b476.py",
+      "target_arcs": [
+        "B476"
+      ],
+      "what_it_locks": "Runs span_verify.py subprocess and checks stdout for 'ALL CHECKS PASS' (span dimensions 49/5/13 per docstring, not independently asserted in the test itself).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "The test only checks the sentinel string 'ALL CHECKS PASS' in subprocess stdout \u2014 the specific claimed dims (49/5/13) are not independently asserted by the pytest file itself, only inside the external script."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b479_erratum.py",
+      "target_arcs": [
+        "B479"
+      ],
+      "what_it_locks": "Corrects a field-labeling erratum: verifies the d=5 quartic factors over Q(sqrt5) not Q(sqrt41) and the d=7 sextic stays irreducible over Q(sqrt-239); ties both integers to squarefree parts of discriminants (norms), not field generators.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "q5 = z^4-3z^3+7z^2-4z+4, E7 = z^6-5z^5+16z^4-25z^3+30z^2-12z+8",
+          "provenance_stated": "yes (derivation shown/recomputed)"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b496_tm_endomorphism.py",
+      "target_arcs": [
+        "B496"
+      ],
+      "what_it_locks": "Delegates most checks to verify_tm.check_T1/T2/T2_Fp/T4/T5/T7 boolean functions imported from frontier script (opaque booleans, not locally recomputed values), plus a local symbolic markov-surface substitution identity and Q1 mixed-semigroup boolean checks.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "Tests assert bare booleans returned by verify_tm.check_* / q1_mixed_semigroup.* functions defined in the same frontier arc under test; the test file does not independently recompute the underlying algebra, so a bug in verify_tm that always returns True would pass silently."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b497_monoid.py",
+      "target_arcs": [
+        "B497"
+      ],
+      "what_it_locks": "Same pattern as B496: delegates to verify_monoid.check_* and phase23_run boolean/dict-returning functions from the arc's own frontier code, plus one direct list-equality lock (Fibonacci degree ledger).",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [
+        {
+          "value": "[2, 3, 5, 8, 13, 21, 34, 55] (degree ledger)",
+          "provenance_stated": "no"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "Most asserts are `assert V.check_X()` / `assert P.sandwich_...()` calling boolean-returning functions in the arc's own verify_monoid.py / phase23_run.py \u2014 the test does not independently recompute the claims, only calls the arc's self-check functions."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b498_mixed.py",
+      "target_arcs": [
+        "B498"
+      ],
+      "what_it_locks": "Delegates entirely to verify_mixed.* functions (c1_classification, c1_lemma_MS, q1a_per_factor, c2_depth2, etc.) from the arc's own frontier module; one extra sympy check that a specific algebraic level value is present in returned 'levels'.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "All core asserts call V.<check_fn>() defined in the same B498 frontier arc \u2014 the pytest file trusts the arc's own verifier functions rather than recomputing independently."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b500_kill.py",
+      "target_arcs": [
+        "B500"
+      ],
+      "what_it_locks": "Reads hunt_results_d5.txt (committed text, not gitignored .log/.out) and asserts no forbidden substrings ('AIRLOCK','-283','isomorph',' HIT') appear outside the target-d_K line, and that word/line counts match a corrected 115-analyzed/35-unchecked census (141 logged, 26 bare TIMEOUT).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "150 planned words (3^5 minus non-covering)",
+          "provenance_stated": "yes, computed via itertools.product filter"
+        },
+        {
+          "value": "141 logged / 26 timeout / 115 analyzed / 35 unchecked",
+          "provenance_stated": "yes, derived from committed file's own line counts"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b504_b505.py",
+      "target_arcs": [
+        "B504",
+        "B505",
+        "B507"
+      ],
+      "what_it_locks": "Symbolic kappa=4lambda^2 trace identity for the coupling; high-precision (mpmath, dps=25) SVD-based reconstruction of a boundary parabolic map giving delta_M=2; Monte-Carlo (400k random quaternion samples) beta-gate/zero-crossing check; delta_geo parabolic recomputation; a delta-function identity check.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "test_b507_beta_gates_and_zero uses a fixed RNG seed (41) and loose tolerances (<0.01) on Monte-Carlo means over 400,000 samples \u2014 a statistical, not exact, lock."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b509.py",
+      "target_arcs": [
+        "B509",
+        "B510"
+      ],
+      "what_it_locks": "Symbolic elimination discriminant of a Markov-triple curve; hand-computed 2-torsion doubling on an explicit elliptic curve; Jacobian invariants I,J recomputed via classical formulas and used to argue j-invariants differ (not quadratic twists).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "j(40a1)=148176/25, j(40a3)=55296/5",
+          "provenance_stated": "no \u2014 asserted as known LMFDB-style facts, not derived in-file"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "j-invariant values 148176/25 and 55296/5 are hardcoded without derivation or citation in the test file \u2014 an IMPORTED/asserted external fact, not computed."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b511_d5.py",
+      "target_arcs": [
+        "B511",
+        "B174",
+        "B448"
+      ],
+      "what_it_locks": "Chebyshev fixed-trace control for m-power verbs; symbolic fixed-curve check for period-doubling verb at kappa=2; imports d3_wild_access from frontier and recomputes a Monte-Carlo accessibility/wild-mass measure with fixed n/steps.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "LOOSE_TOLERANCE",
+          "detail": "test_d3_wild_dynamically_suppressed asserts c>0.8 and w<0.15 from a stochastic 2000x1500-step simulation (_D3.accessibility) \u2014 thresholds are loose and simulation-seed dependence is not shown/fixed in the test."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b512.py",
+      "target_arcs": [
+        "B512"
+      ],
+      "what_it_locks": "High-precision (dps=25) SVD-based trace-map reconstruction distinguishing golden (order-6, 2T->E6) vs silver (order-8, not 2T) commutator classes; delta-square-at-Eisenstein-point check.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b513.py",
+      "target_arcs": [
+        "B513"
+      ],
+      "what_it_locks": "mpmath commutator-order-4 check at kappa=0 pointer point; symbolic Hessian-determinant identity showing signature surface is independent of kappa (cuts across kappa-level-sets).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b514.py",
+      "target_arcs": [
+        "B514",
+        "B511"
+      ],
+      "what_it_locks": "Refutes a golden-3d bootstrap via symbolic charpoly factorization (non-Pisot, two unit eigenvalues) and block-structure check (non-primitive matrix); Rauzy-dimension=degree-1 argument for golden (cannot inflate to 3d).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b515.py",
+      "target_arcs": [
+        "B515"
+      ],
+      "what_it_locks": "Symbolic derivation that beta=phi(1+sqrt(phi)) satisfies a specific quartic minimal polynomial and is a unimodular Pisot number containing sqrt5 (factors into two quadratics over Q(sqrt5)).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b516.py",
+      "target_arcs": [
+        "B516",
+        "B515"
+      ],
+      "what_it_locks": "Sweeps metallic ratios m=1..4 and shows only golden (m=1) gives a Pisot cubic-radical number, via minimal-polynomial root-magnitude check; a separate golden-specific inequality mechanism check.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b517.py",
+      "target_arcs": [
+        "B517",
+        "B515",
+        "B516"
+      ],
+      "what_it_locks": "Large battery of symbolic/numeric locks: commutant of F is span{I,F}; a specific factorization forces the golden quartic; exhaustive small-integer search shows uniqueness of the (F,F^2) factorization and of the Pisot (u,v)=(1,2) box; Perron eigenvector nesting identity; signature/Lyapunov/Stein-form computations across several candidate quartics (golden, x^4-x-1, tetranacci, etc.) showing signature (3,1) is generic, not golden-forced; exact rational Stein metric cone identity; Rauzy substitution left-properness and trivial symmetry group via brute-force permutation search.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "exact rational Stein metric G=(1/11)*[[12,-8,-5,-4],...]",
+          "provenance_stated": "yes, verified in-test via M^T G M - G = -I"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b518.py",
+      "target_arcs": [
+        "B518"
+      ],
+      "what_it_locks": "Symbolic trace-map universality (kappa-2=4lambda^2); face-generator identities (sigma^2=RL, traces/discriminants of RL and -RL^-1); numeric mixed-chain spectral-gap-label test using scipy eigh_tridiagonal distinguishing pure-Fibonacci (golden gap only), pure-Thue-Morse (dyadic gap only) and mixed chains (both).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "thr=0.03, near-threshold 0.01 (gap-detection tolerances)",
+          "provenance_stated": "no"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "LOOSE_TOLERANCE",
+          "detail": "test_B_mixed_chain_discriminator uses heuristic gap-detection thresholds (thr=0.03, near-match 0.01) on a finite-size (cap=6000) numeric spectrum \u2014 a qualitative/statistical lock, not exact."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b519.py",
+      "target_arcs": [
+        "B519",
+        "B518",
+        "B498"
+      ],
+      "what_it_locks": "Symbolic module-membership argument that golden and dyadic gap labels lie in distinct modules (Z+Zphi vs Z[1/2]); reuses B498's q1b_hand_proof_steps() boolean as the 'criticality unification' anchor.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "test_criticality_unification_structure asserts V.q1b_hand_proof_steps() from the B498 frontier module \u2014 reused verbatim as evidence for a different (B519) claim rather than independently re-derived."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b520.py",
+      "target_arcs": [
+        "B520",
+        "B507",
+        "B516"
+      ],
+      "what_it_locks": "Monte-Carlo Goldman-ergodic beta-function orbit average (numpy, fixed per-seed RNG) reproducing B507's zero at the pointer and rejecting a handoff correction at 0.7638; brute-force search over an 8x8 self-double block matrix showing no canonical Pisot coupling exists (ceiling); a BTZ-entropy arccosh/log identity (mpmath).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "LOOSE_TOLERANCE",
+          "detail": "test_beta_zero_at_pointer_not_0764 uses a stochastic orbit-average (_g) with loose bounds (<0.02, >0.2) over finite seeds/orbits/steps \u2014 not an exact reproduction."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b521.py",
+      "target_arcs": [
+        "B521"
+      ],
+      "what_it_locks": "Independently recomputed subset of an audit's 'gate-seal' claims: discriminant -15 arithmetic identity; Z/3 deck-transformation fixed-point-free check via companion matrix of Phi_3; E6 Dynkin-diagram automorphism group computed by brute-force permutation search over 6 nodes, confirmed |Aut|=2 (theta).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "Docstring explicitly states heavier CS/eta, SL(3), DG claims are NOT locked here and are only cited on the audit's separate machine-checked run \u2014 an explicit absence-of-lock note worth sweeping."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b522.py",
+      "target_arcs": [
+        "B522",
+        "B122",
+        "B503"
+      ],
+      "what_it_locks": "Symbolic character-generating-function closure identity across dimensions; carrier-dimension reconstruction formula matching Lawton embedding dims (3,9,15) for n=2,3,4; mu_d bookkeeping formula reproducing a doubled-Sym^2 wall at n=5; Cayley-Hamilton cutoff arm-range check.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "Docstring states the deep Luna/Procesi/BCH step is cited (not locked here) on the audit's separate B503 write-up \u2014 an explicit scope-limitation to sweep."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b524.py",
+      "target_arcs": [
+        "B524"
+      ],
+      "what_it_locks": "Free-group word-reduction/substitution engine reproduces dilatation asymmetry lambda(phi)!=lambda(phi^-1) purely via free reduction + growth-rate estimation (no train_track dependency), matched against the Perron root of the golden quartic; SnapPy-derived SL(3) boundary-unipotent minimal polynomials checked for squarefree discriminant set {-3,-7}; a trivial abelian-rank arithmetic fact for DGG gauge group.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "minpolys list for 4_1 SL(3) boundary-unipotent reps (x^2-x+1 etc.)",
+          "provenance_stated": "no \u2014 stated as '(snappy)' but not computed in this file"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "test_sl3_ptolemy_brings_in_sqrt_minus7 hardcodes four SL(3) minimal polynomials attributed to a separate SnapPy computation (higher_ptolemy.py, cited as self-asserting in its own reproducer) rather than recomputing them here \u2014 an IMPORTED value from another script not run by this test."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b526.py",
+      "target_arcs": [
+        "B526",
+        "B516"
+      ],
+      "what_it_locks": "Numeric (numpy) re-derivation from scratch of a tetrahedral Perron metric, an isotropy Stein no-go (signature check showing non-positive-definiteness after pullback), and non-normality argument distinguishing the obstruction from simple expansion (beta>1); exact numeric RG exponent values reproduced to 1e-12/1e-9.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "0.6303718738431496, 0.1848140630784252, 27.23662275649545 (RG exponents)",
+          "provenance_stated": "no \u2014 bare literals compared at 1e-9/1e-12 tolerance without independent symbolic derivation shown"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b527.py",
+      "target_arcs": [
+        "B527",
+        "B526"
+      ],
+      "what_it_locks": "Numeric re-derivation of a Stein-compatible metric cone: Lyapunov operator invertibility (6-dim cone), affine metric interior-Stein-compatibility vs B526's Perron-weighted metric NOT being Stein-compatible (explicit reconciliation/narrowing), Lorentzian completion and alpha-as-units rescaling identity.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b528.py",
+      "target_arcs": [
+        "B528"
+      ],
+      "what_it_locks": "Trivial arithmetic identities (N-c=1, K-1 ladder) pinning DGG gauge-rank bookkeeping for the figure-eight knot; docstring states the full gauge-group computation itself runs in a separate sage-env script (compute_gauge.py) not exercised by this test.",
+      "lock_type": "TAUTOLOGICAL",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "TAUTOLOGICAL",
+          "detail": "Both asserts are pure arithmetic on hardcoded small integers (N=2,c=1; K in {2,3,4,5}) with no external computation or import \u2014 cannot fail given the inputs stated in the file itself."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b529.py",
+      "target_arcs": [
+        "B529"
+      ],
+      "what_it_locks": "Numeric quantum-cellular-automaton coin-nesting cost tests showing the iSy coin nests generically for ANY substitution (degeneracy artifact, not golden-specific) and that the golden-angle coin does not robustly beat random controls (2/10 controls beat golden) \u2014 an explicit negative/refutation result for the arc's own QCA covariance claim.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "test_golden_angle_coin_not_robustly_golden_specific uses random.seed loop over seeds 5-14 (10 trials) with threshold beats<10 \u2014 a fixed small trial count for a claim about generic statistical behavior."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b530.py",
+      "target_arcs": [
+        "B530"
+      ],
+      "what_it_locks": "Very large (66 test functions, 1216 lines) 'natural history' movement-by-movement lock file; dynamically imports ~12 separate frontier .py modules via importlib.util.spec_from_file_location and recomputes each movement's claim in-process (golden breath/split, grammar census, symplectic form, convergence/chirality, firewall arithmetic, neutral census, Rauzy fractal subtile volumes, discrete spectrum, entropy, gap structure, prime-11 listening, false-kill corrections, corpse audit, QCA re-examination, three-fields, handoff verification, wall-crossing inventory, gap-opening curves) plus a separate induction/parity/F2-phase-map suite (return words, Parikh classes, nilpotency, five-return correspondence).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "File is exceptionally large (66 tests bundling ~30 distinct 'Movement' claims of the whole B530 arc into one module) \u2014 individual movement claims were not each separately itemized in this digest entry due to volume; flagged here for a follow-up closer read if any single movement is disputed."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b531.py",
+      "target_arcs": [
+        "B531"
+      ],
+      "what_it_locks": "Gap-opening-slope campaign (T1) via partial vs full tridiagonal eigendecomposition cross-validation, numerically-fit slope/ratio/parity/saturation constants to depth 9; a control substitution (Arnoux-Rauzy 4-letter) Pisot/primitivity/negative-eigenvalue/slope-convergence check (T2); Fourier-amplitude ordering and slope-proportionality and strongest-Bragg-peak checks (T3).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "0.1914, 0.1524, 1.2565, 0.1244, 0.1539, 0.139, 1.095, 2.821, 0.712, 0.772, 0.27, 1.9276 (numerically-fit slope/eigenvalue constants)",
+          "provenance_stated": "no \u2014 all are curve-fit numeric outputs from the same script, tolerances 0.001-0.01"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "LOOSE_TOLERANCE",
+          "detail": "Nearly every assert in this file compares a freshly-computed numeric slope/ratio against a hardcoded decimal with tolerance 0.001-0.01 (e.g. abs(s9[0]-0.1914)<0.001) \u2014 these constants were themselves derived by the same numerical procedure being tested (fit-then-lock), not from an independent closed form."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b532.py",
+      "target_arcs": [
+        "B532"
+      ],
+      "what_it_locks": "'Last Echo' interaction-grammar campaign: period-2-vs-period-3 spectral tests (gap-slope ratios, complex-eigenvalue argument/period, Fourier-phase convergence, quadratic correction c2) all via numeric fitting with loose tolerances; least-squares fixed-point search (scipy.optimize.least_squares, random restarts) for irreducible/trace-zero representations with Jacobian-kernel-dimension checks; projection-algebra tests (7 binary partitions, substitutivity, Pisot count) and a DAG/intrinsic-count structural census (I3, I4).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "_find_fp uses scipy least_squares with np.random.seed(seed) and up to 500 random restarts per call, `if result is None: continue` \u2014 tests silently pass over seeds where no fixed point is found (e.g. test_i1_fp_two_components only requires >=2 and >=3 hits out of 8 attempted seeds), so a partial failure to find fixed points does not fail the test."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b533.py",
+      "target_arcs": [
+        "B533"
+      ],
+      "what_it_locks": "Coupling-invariance battery (host fixture) checking eigenvalue universality, Perron eigenvalue universality, exactly-five orbit types and their counts, type-1=sigma identification, self-recovery/charpoly-matching, algebraic identities (beta reciprocal-sqrt-phi relation, discriminant -400, GL(4,Z) conjugacy, full/half-integer Z-mixing) and an explicit negative result that no Standard-Model mass/mixing ratio matches Q(tau) exactly.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b534.py",
+      "target_arcs": [
+        "B534"
+      ],
+      "what_it_locks": "Exact (integer/modular, zero floats) group-ring 'Dark Hyperbola' theorem: dark set equals {jl=-4 mod p} minus one point for p in {3,5,7,11,13}; survivor magnitude p^3; power-set magnitudes over Z[zeta_15] restricted to {0,1,3,5,15}; a darkness-density product crossing 0.5 exactly at prime 31; Lucas/Fibonacci tower-torsion determinant law and Smith normal form H1-torsion computation.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b534_b533_b120_harvest.py",
+      "target_arcs": [
+        "B534",
+        "B533",
+        "B120"
+      ],
+      "what_it_locks": "Re-verification harvest note: re-derives B534's Lucas determinant law and parity split, B533's sqrt(phi)/beta minimal-polynomial identities, and B120's height-count formula including an explicit guard reproducing a documented clause-ordering transcription bug at n=2.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "Docstring explicitly states B534/B533 are proved-in-arc THEOREMs while B120 carries no proof tag and banks only as a LAW ('exact on every computed instance') \u2014 a strength distinction the seat should track."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b535.py",
+      "target_arcs": [
+        "B535",
+        "B530"
+      ],
+      "what_it_locks": "Coupling-space census: imports listen_39_induction_engine from B530's frontier directory and recomputes a saturation census (6 Perron types / 7 canonical systems by length 6, last new type at length 5); a brute-force 17,280-lift search over letter-permutations of the substitution cutting to 8-then-2 survivors by bigram/6-gram language matching; verification the second survivor is exactly a conjugate a^-1(sigma)a; parametrized dictionary-recovery identities (tau=g(x) exactly, mod minimal polynomial) and degree-4 checks.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b535_factor_complexity.py",
+      "target_arcs": [
+        "B535"
+      ],
+      "what_it_locks": "Factor-complexity sequence of the 4-letter Fibonacci-like fixed point computed directly (brute force substring counting) to length 7; separately notes the count-only (not bijective) coincidence between 17 length-5 factor words and 17 algebraic dictionary components from B542.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b536.py",
+      "target_arcs": [
+        "B536"
+      ],
+      "what_it_locks": "Numeric (complex numpy) commutant-dimension computations for W1,W2 theta-lift operators at level 15 (dim 4, then dim 1 with parity op); CRT tensor-factorization check of U at levels 3x5; commutator eigenvalue tests distinguishing level-15 (+/-i*phi present) from level-5 (sqrt(phi) present, no i*phi); a parity-split count (8/7); a state-period-20 (not 6) claim via explicit simulation; dark-point-freeness genericity check for two states.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b537.py",
+      "target_arcs": [
+        "B537"
+      ],
+      "what_it_locks": "Symbolic derivation of a 'classical-surface phantom' (1,1,5) at c=22: level-correction arithmetic, elliptic-form completing-the-square reductions, a brute-force check that 24 is not represented by x^2+3y^2, a mod-3 obstruction on a discriminant family, a derivation matching detB to two target quadratics, and a bounded-search realizability check (Markov triples realizable, phantom triples not, within bound 500).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b538.py",
+      "target_arcs": [
+        "B538"
+      ],
+      "what_it_locks": "E8 Cartan-matrix Perron-eigenvector ladder recomputed via numpy eigh and compared to hardcoded decimal targets to 2e-6, with golden-ratio self-similarity ratios; control comparison against silver ratio and an E7-derived cosine value; a Jarlskog invariant computed from hardcoded PDG-style CKM/PMNS-like angle values and compared to a target 3.08e-5; a gap-label-disjointness check between golden and silver lattices.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "claim=[1, 1.6180340, 1.9890438, 2.4048672, 2.9562952, 3.2183405, 3.8911568, 4.7833861] (E8 ladder)",
+          "provenance_stated": "no \u2014 presented as known E8 mass-ratio spectrum, not independently derived/cited in file"
+        },
+        {
+          "value": "s12=0.2250, s13=0.00369, s23=0.04182, delta=1.144 (Jarlskog inputs)",
+          "provenance_stated": "no \u2014 no citation to PDG/experimental source given in file"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "test_jarlskog computes a real physical observable (Jarlskog invariant J\u22483.08e-5) from hardcoded mixing-angle values with no citation of source (PDG?) \u2014 an OBSERVABLE-content test whose input provenance is unstated."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b539.py",
+      "target_arcs": [
+        "B539"
+      ],
+      "what_it_locks": "Catalog-witness exact reductions mod minimal polynomial t^4-t^2-1 for five algebraic relation patterns; an E8-ladder positive control matched to phi within 1.5% (Coldea-style tolerance, named in comment); an explicit negative result that a 19-parameter Standard-Model constant list (hardcoded PDG-like masses/couplings) has ZERO relation hits at tolerance 1e-3 against the catalog's algebraic relation forms.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "m_e=0.51099895e-3, m_mu=0.1056583755, m_tau=1.77686, m_u=2.16e-3, m_d=4.67e-3, m_s=93.4e-3, m_c=1.27, m_b=4.18, m_t=172.69, m_W=80.3692, m_Z=91.1876, m_H=125.25, alpha=137.035999084, alpha_s=0.1180, sin2thetaW=0.23122, plus 0.22500/0.04182/0.00365 (CKM/mixing-like)",
+          "provenance_stated": "no \u2014 no PDG/source citation given in the file for these physical constants"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "test_sm_no_match_at_1e3 hardcodes 19 real Standard-Model observable values (particle masses, alpha_s, weak mixing angle, CKM-like ratios) with no citation of their experimental source \u2014 this is the batch's clearest OBSERVABLE-content test (comparing the thesis's algebraic catalog against real measured SM parameters), and its numeric inputs' provenance is unstated."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b540.py",
+      "target_arcs": [
+        "B540",
+        "B530"
+      ],
+      "what_it_locks": "Observer-flow fixed-point/graph-closure computation: imports canonical_codes from B530 and SYSTEMS/derive_prefix from B540's own frontier module; iteratively derives a flow map, checking sigma is a fixed point, the flow closes on exactly 12 nodes, and there are exactly 3 fixed points plus exactly one 2-cycle.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b542.py",
+      "target_arcs": [
+        "B542"
+      ],
+      "what_it_locks": "Exact symbolic (mod minimal polynomial t^4-t^2-1) verification that a 17-component 'dictionary' decomposes into two tau-ladders (tau^a(tau-1) for frequencies/lambda2; tau^a(tau-1)^2 for T4/T6 components), a specific pi-component identity, a tau^-5 component, and an exhaustive small-exponent search confirming every one of 17 listed components decomposes as +-tau^a(tau-1)^b*pi^{-1,0,1}.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b543.py",
+      "target_arcs": [
+        "B543",
+        "B530"
+      ],
+      "what_it_locks": "Numeric (scipy eigh_tridiagonal) gap-label extraction from a truncated (N=3000) substitution word under one coupling assignment, matched against dictionary frequency values to 3e-4; a golden-lattice-distance check confirming labels sit >1e-2 off Z+Z/phi (degree-4 signature); a coupling-invariance check across two different coupling assignments both hitting the same dictionary values.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [
+        "scipy = pytest.importorskip('scipy') (module-level; whole file skips if scipy absent)"
+      ],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b545.py",
+      "target_arcs": [
+        "B545"
+      ],
+      "what_it_locks": "Trivial arithmetic identity for a level classification; symbolic sp.maximum negative-definiteness check over all three coordinate slots; symbolic leading-coefficient extraction of a discriminant polynomial.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b546.py",
+      "target_arcs": [
+        "B546",
+        "B530"
+      ],
+      "what_it_locks": "Numeric Sturm/IDS (integrated density of states, continued-fraction recursion) computation at N=200,000 truncated substitution word, matched against dictionary frequency values at three specific energies to 5e-6.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [
+        "scipy = pytest.importorskip('scipy') (module-level)"
+      ],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b547.py",
+      "target_arcs": [
+        "B547"
+      ],
+      "what_it_locks": "Ghost-scanner classification: delegates classify/slot_realizable/all_hyperbolic to the arc's own frontier scanner.py module for Markov-triple realizability and 'ghost' classification of specific triples; one independent bounded brute-force search confirming an inert-prime norm-form obstruction (u^2-3v^2=7 has no solution up to 300).",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "SELF_REFERENTIAL_LOCK",
+          "detail": "test_markov_triples_realize, test_4_4_16_is_proved_all_hyperbolic_ghost, and test_small_ghosts_confirmed all call classify()/slot_realizable()/all_hyperbolic() defined in the arc's own frontier/B547_ghost_scanner/scanner.py \u2014 the classification logic under test is not independently re-derived here."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b548.py",
+      "target_arcs": [
+        "B548"
+      ],
+      "what_it_locks": "Small-case brute-force census (permutations of substitution images) showing Fibonacci, a non-Pisot period-doubling-like substitution, and a reducible substitution are each language-'un-hideable' (unique bigram-matching language), including an explicit counterexample to 'un-hideable implies Pisot'.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b549.py",
+      "target_arcs": [
+        "B549"
+      ],
+      "what_it_locks": "E7 Cartan-matrix Perron-eigenvector ladder first-ratio computed via numpy eigh and compared to a hardcoded decimal (1.285575) at 1e-5, checked discriminable from golden phi; a 'cosmic ratios null' test checking two named physical-sounding constants (5.3643, 6.12) are NOT close to the Z[tau] lattice.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "1.285575 (E7 first ratio)",
+          "provenance_stated": "no"
+        },
+        {
+          "value": "5.3643, 6.12 ('cosmic ratios', unnamed/uncited in file)",
+          "provenance_stated": "no \u2014 not identified what physical quantities these are"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "test_cosmic_ratios_null tests two bare numeric literals (5.3643, 6.12) labeled only 'cosmic constants' with no identification of what physical quantity they represent or where they come from \u2014 provenance entirely unstated."
+        }
+      ]
+    },
+    {
+      "file": "tests/test_b550.py",
+      "target_arcs": [
+        "B550",
+        "B111"
+      ],
+      "what_it_locks": "Refutes a 'Promotion-Sign Conjecture' by comparing its closed-form prediction against a hardcoded B111-locked tower value at n=3 (explicit mismatch), confirms an alternative 'meridian rule' reproduces the exact tower values at n=3,4, and shows the two rules coincide at n=6 but diverge in prediction at n=5.",
+      "lock_type": "COMPARES_TO_STORED",
+      "hardcoded_constants": [
+        {
+          "value": "TOWER_EXACT = {3: (0,1), 4: (1,1)} (imported/asserted as 'B111 locked')",
+          "provenance_stated": "yes, attributed to B111 but not recomputed in this file"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b551.py",
+      "target_arcs": [
+        "B551"
+      ],
+      "what_it_locks": "String-transformation checks on a large (n=40000) generated substitution word: case-folding produces 'aaa' (refuting a Fibonacci-word claim); an old/new coarse-graining is shown non-Sturmian via an explicit factor-complexity sequence; a radius-1 coloring rule is shown to determine species letters uniquely with exactly 7 windows.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b552.py",
+      "target_arcs": [
+        "B552"
+      ],
+      "what_it_locks": "Exact Smith-normal-form computation of I-M for the substitution's abelianization matrix, confirming cokernel Z/11; an explicit conserved mod-11 charge vector checked against the matrix action; a check that all substitution images individually carry the source letter's charge mod 11.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b553.py",
+      "target_arcs": [
+        "B553",
+        "B66"
+      ],
+      "what_it_locks": "Small arithmetic identities: metallic-monodromy determinant-torsion formula; Fibonacci odd-index subsequence matches a hardcoded list (Markoff-cluster claim, list itself generated in-file from the Fibonacci recursion so effectively self-consistent); a trivial n^2-1 vs n-1 dimension-vs-rank distinction for SL(5).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b554.py",
+      "target_arcs": [
+        "B554",
+        "B551",
+        "B545"
+      ],
+      "what_it_locks": "'Seven-station meditation': refutes a proposed species/bit-pair correspondence via defect counting and bigram ambiguity on a generated word; confirms gap labels are degree-4 (not degree-2) via minimal-polynomial degree check; confirms the tau^4-t^2-1 discriminant is exactly -400 with prime factors {2,5}; a smoke-level station6/7 check re-verifying the first three complexity values from B551.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b555.py",
+      "target_arcs": [
+        "B555"
+      ],
+      "what_it_locks": "Exact-to-1e-12 internal-consistency check of a frequency dictionary's algebraic laws (f_A=tau*f_a, f_a+f_b=tau^2*f_a, f_a=tau-1); a golden-lattice-distance check (>1e-2 off Z+Z/phi for all predicted labels); a silver-control disjointness check.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b556.py",
+      "target_arcs": [
+        "B556",
+        "B497"
+      ],
+      "what_it_locks": "Symbolic block-matrix 'escalator tower' construction: verifies T(F) exactly equals the abelianization matrix M4 of the substitution (not merely up to permutation); confirms charpoly degree-doubling (2,4,8,16) and irreducibility at each rung; a numeric lambda-law matching Perron eigenvalues of iterated block matrices against a closed-form recursive formula; a specific rung-2 Perron value matched to 1e-8.",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [
+        {
+          "value": "10.724751772 (rung-2 Perron eigenvalue)",
+          "provenance_stated": "no"
+        }
+      ],
+      "skip_conditions": [],
+      "red_flags": []
+    },
+    {
+      "file": "tests/test_b523.py",
+      "target_arcs": [
+        "B523"
+      ],
+      "what_it_locks": "Wrong-leap re-examination: numeric eigenvalue/determinant causal-type classification showing the four banked verbs (evolution, decimation, decimation-pd, TM/erasure) have four different causal types and only evolution is unimodular/gives a proper (3,1) cone; symbolic proof the handoff's claimed substitution is non-injective (det=0, two images collide) refuting its automorphism claim; a symbolic |gamma|=1/sqrt(phi) identity; symbolic verification a corrected substitution IS injective, abelianizes to the bootstrap matrix with matching charpoly = golden quartic, has det=-1, and is Perron-Frobenius primitive; a free-group word-reduction proof the corrected substitution is surjective (hence in Aut(F4) via Hopficity); and an explicit correction of a prior (chat-1) claim about an amphichiral involution J, replacing it with C=[[1,0],[-1,-1]], plus an Ad(C) eigenvalue/Killing-form signature computation showing amphichirality allows (3,1) OR (2,2), not a forced (3,1).",
+      "lock_type": "RECOMPUTES",
+      "hardcoded_constants": [],
+      "skip_conditions": [],
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "File explicitly documents and re-derives corrections of two prior errors (a broken 'handoff' substitution claimed to be an automorphism, and chat-1's wrong amphichiral involution J) \u2014 a good case of a lock catching an earlier mistake, not a red flag itself, but worth noting as evidence the lock chain is doing real work."
+        }
+      ]
+    }
+  ]
+}

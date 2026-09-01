@@ -1,0 +1,288 @@
+{
+ "A_fields": {
+  "m004": {
+   "volume": 2.029883212819307,
+   "cusps": 1,
+   "homology": "Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 - x + 1",
+    "disc": "-3",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "Q(sqrt-3) [golden, B210]"
+  },
+  "m003": {
+   "volume": 2.029883212819308,
+   "cusps": 1,
+   "homology": "Z/5 + Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 - x + 1",
+    "disc": "-3",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "Q(sqrt-3) [B803]"
+  },
+  "s776": {
+   "volume": 5.33348956689812,
+   "cusps": 3,
+   "homology": "Z + Z + Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 - x + 2",
+    "disc": "-7",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "Q(sqrt-7), vol 5.33349, 3 cusps = magic manifold [B142]"
+  },
+  "m009": {
+   "volume": 2.6667447834490603,
+   "cusps": 1,
+   "homology": "Z/2 + Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 - x + 2",
+    "disc": "-7",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "Q(sqrt-7), arithmetic, non-commensurable with m004 [B850]"
+  },
+  "m136": {
+   "volume": 3.6638623767088765,
+   "cusps": 1,
+   "homology": "Z/2 + Z/2 + Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 + 1",
+    "disc": "-4",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "Q(i) [silver, B210]"
+  },
+  "s464": {
+   "volume": 4.813819186103885,
+   "cusps": 1,
+   "homology": "Z/3 + Z/3 + Z",
+   "field": {
+    "degree": 8,
+    "poly": "x^8 + 6*x^6 - x^5 + 12*x^4 - 3*x^3 + 8*x^2 - x + 2",
+    "disc": "391728981",
+    "signature": [
+     0,
+     4
+    ],
+    "degrees_two_choices": [
+     8,
+     8
+    ]
+   },
+   "bank": "degree 8 (B210/B840 script) vs degree 6 (B578-D6 prereg) [bronze]"
+  },
+  "t03910": {
+   "volume": 5.573609112831136,
+   "cusps": 1,
+   "homology": "Z/4 + Z/4 + Z",
+   "field": {
+    "degree": 4,
+    "poly": "x^4 - x^3 - 2*x^2 - x + 1",
+    "disc": "-1156",
+    "signature": [
+     2,
+     1
+    ],
+    "degrees_two_choices": [
+     4,
+     4
+    ]
+   },
+   "bank": "degree 4 [m=4, B210]"
+  },
+  "b++RRL": {
+   "volume": 2.66674478344906,
+   "cusps": 1,
+   "homology": "Z/2 + Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 - x + 2",
+    "disc": "-7",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "Q(sqrt-7) [B146 RRL]"
+  },
+  "b++RLL": {
+   "volume": 2.6667447834490603,
+   "cusps": 1,
+   "homology": "Z/2 + Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 - x + 2",
+    "disc": "-7",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "Q(sqrt-7) [B146 RLL]"
+  },
+  "b+-RRL": {
+   "volume": 2.66674478344906,
+   "cusps": 1,
+   "homology": "Z/6 + Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 - x + 2",
+    "disc": "-7",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "(sign variant)"
+  },
+  "b+-RLL": {
+   "volume": 2.66674478344906,
+   "cusps": 1,
+   "homology": "Z/6 + Z",
+   "field": {
+    "degree": 2,
+    "poly": "x^2 - x + 2",
+    "disc": "-7",
+    "signature": [
+     0,
+     1
+    ],
+    "degrees_two_choices": [
+     2,
+     2
+    ]
+   },
+   "bank": "(sign variant)"
+  }
+ },
+ "B_bundles": {
+  "b++RL": {
+   "volume": 2.029883212819307,
+   "homology": "Z",
+   "is_m003": false,
+   "is_m004": true
+  },
+  "b+-RL": {
+   "volume": 2.029883212819307,
+   "homology": "Z/5 + Z",
+   "is_m003": true,
+   "is_m004": false
+  },
+  "b-+RL": {
+   "volume": 1.8319311883544376,
+   "homology": "Z/2 + Z",
+   "is_m003": false,
+   "is_m004": false
+  },
+  "b--RL": {
+   "volume": 1.8319311883544376,
+   "homology": "Z/2 + Z",
+   "is_m003": false,
+   "is_m004": false
+  },
+  "b++RLRL": {
+   "volume": 4.059766425638614,
+   "homology": "Z/5 + Z",
+   "is_m003": false,
+   "is_m004": false
+  },
+  "b+-RLRL": {
+   "volume": 4.059766425638615,
+   "homology": "Z/3 + Z/3 + Z",
+   "is_m003": false,
+   "is_m004": false
+  }
+ },
+ "B_common_cover": [
+  2,
+  "m003~cyc~0",
+  "m004~cyc~0"
+ ],
+ "C_covers": {
+  "2": {
+   "n_covers": 1,
+   "fields": {
+    "Q(sqrt-3)": 1
+   }
+  },
+  "3": {
+   "n_covers": 1,
+   "fields": {
+    "Q(sqrt-3)": 1
+   }
+  },
+  "4": {
+   "n_covers": 2,
+   "fields": {
+    "Q(sqrt-3)": 2
+   }
+  },
+  "5": {
+   "n_covers": 4,
+   "fields": {
+    "Q(sqrt-3)": 4
+   }
+  },
+  "6": {
+   "n_covers": 11,
+   "fields": {
+    "Q(sqrt-3)": 11
+   }
+  }
+ }
+}

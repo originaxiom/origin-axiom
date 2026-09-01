@@ -1,0 +1,407 @@
+{
+ "batch": "arcs_019",
+ "arcs": [
+  {
+   "arc": "B367_value_map",
+   "source": "main",
+   "files_read": [
+    "frontier/B367_value_map/FINDINGS.md",
+    "frontier/B367_value_map/PREREGISTRATION.md",
+    "frontier/B367_value_map/arc_verdict.json",
+    "frontier/B367_value_map/step0_report.json",
+    "frontier/B367_value_map/v3_report.json",
+    "frontier/B367_value_map/step0_exact_matrices.py (partial)",
+    "frontier/B367_value_map/v3_search.py (referenced, not deep-read)"
+   ],
+   "files_sampled": ["frontier/B367_value_map/step0_tables.json (referenced via step0_report.json cross-check)"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE — \"The exact six-pair s-matrices refute B361's local law at pair (3,4) and show the value map factors through no CRT-local data at level 15.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03 (3 entries): step 0 pre-registered checks all passed; the completed table REFUTES the B361 local law at (3,4); COMPLETE with V3 outcome (B) — value map not CRT-local. Matches FINDINGS/verdict exactly.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "six exact pair s-matrices over H=Q(sqrt5,sqrt-3), Sigma s^2 aggregates", "where": "step0_exact_matrices.py, step0_tables.json, step0_report.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure-Fraction script committed, report JSON records gate pass/fail booleans and exact value sets consistent with FINDINGS table"},
+    {"what": "V3 local-symbol product-formula search: true_pass false, 0/200 random tables pass", "where": "v3_search.py, v3_report.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "v3_report.json ({\"true_pass\": false, \"null_pass\": 0, \"null_total\": 200}) matches FINDINGS claim exactly; script committed"},
+    {"what": "refutation of B361's local law at pair (3,4)", "where": "FINDINGS.md §\"Step 0's own discovery\"", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "follows directly from the exact table computed in this arc"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b367_step0.py referenced (5 always-on from banked tables + 1 OA_SLOW regeneration) — not opened this pass but is a genuine independent-recompute lock per FINDINGS provenance line.",
+   "absence_claims": [
+    {"quote": "outcome (B): NO uniform CRT-local product formula at the declared complexity", "where": "frontier/B367_value_map/FINDINGS.md:5"},
+    {"quote": "the local law (B361) is REFUTED at pair (3,4)", "where": "frontier/B367_value_map/FINDINGS.md:45"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean negative result: a pre-registered arithmetic ansatz for a coefficient table is falsified with a non-vacuous null (0/200 random controls pass), which is exactly the right epistemic shape. No observable or physical quantity is named anywhere in this arc — it is pure number theory of a manifold-derived matrix."
+  },
+  {
+   "arc": "B368_cover_tower",
+   "source": "main",
+   "files_read": [
+    "frontier/B368_cover_tower/FINDINGS.md",
+    "frontier/B368_cover_tower/arc_verdict.json",
+    "frontier/B368_cover_tower/cover_tower.json",
+    "frontier/B368_cover_tower/concat_kill_shim.py",
+    "frontier/B368_cover_tower/cover_tower.py (referenced; not fully read)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"Cover pairing equals base pairing relabeled by the deck's exponent action (verified on all 240 cells); cyclic covers create no new seam values.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'W2.4/B368 premise corrected (verified): equal trace != same seed' — the original identification of the (RL)^3 cover with the m=4 seed is refuted by exact integer arithmetic (fixed-point forms give discriminant 5 vs 20); then 'B368 (W2.4, corrected scope) DONE' with the exact deck identity on all 240 cells. Matches FINDINGS which documents both the refutation and the corrected result.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "deck identity t_cover(a,b) = t_base(7a mod 20, b), all 240 cells exact", "where": "cover_tower.json (deck_identity_exact: true), FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cover_tower.py committed; result JSON records the exact exponent list and the boolean flags matching the FINDINGS claim"},
+    {"what": "primitive discriminants 5 vs 20 for (RL)^3 vs R^4L^4 refute the original m=4 identification", "where": "FINDINGS.md §'The corrected premise'", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the fixed-point binary-form computation is described but its script is not visible among this arc's 5 listed files (may live in an earlier arc's provenance, not verified here)"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "concat_kill_shim.py exposes the B369 single-seed readout construction reused here; tests/test_b368_cover_tower.py referenced but not opened this pass.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The arc's own headline is a correction of a prior identification claim (equal trace 18 does NOT mean same seed) that was apparently live before this arc reran the arithmetic; the correction is documented in-arc so nothing is unmarked here, but it shows a pattern of asserted identifications later needing exact recomputation to refute.", "where": "frontier/B368_cover_tower/FINDINGS.md §'The corrected premise'"}
+   ],
+   "seat_note": "Structural result about how cyclic fiber covers transform a discrete invariant (relabeling, not new content); explicitly labeled 'not a physics statement' in its own Gate-C reading, which is the right call — nothing observable is claimed."
+  },
+  {
+   "arc": "B369_concatenation_kill",
+   "source": "main",
+   "files_read": [
+    "frontier/B369_concatenation_kill/FINDINGS.md",
+    "frontier/B369_concatenation_kill/arc_verdict.json",
+    "frontier/B369_concatenation_kill/concat_kill.json",
+    "frontier/B369_concatenation_kill/concat_kill.py (referenced)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE — \"Concatenating two metallic blocks into one bundle makes the seam readout identically null in all six words, extending the single-object wall off the seed family.\"",
+   "log_says": "not directly in this batch's log_index for B369 aside from cross-references in B367/B368 logs; log_index/B368.txt shows the 'W2.4/B368 premise corrected' entry referencing B369 as an independent finer-than-spectrum instance, and the promotion-audit sweep flags 'B368/B369 mis-triaged NOT (pre-reform stamps read literally - re-read)' — a hygiene note, not a content contradiction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "6/6 concatenated words seam-null (zero sqrt-3, sqrt-15 components)", "where": "concat_kill.json (clean_sqrtm3_sqrtm15: true for all six words)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "concat_kill.json records the exact per-word readout vectors for all six words, each with clean_sqrtm3_sqrtm15 true, matching FINDINGS' '6/6 words seam-null' claim"},
+    {"what": "rotation acts on the Par-readout by the sqrt5-Galois involution", "where": "concat_kill.json (rotation_galois_identity: true)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "flag present in the committed JSON and the specific numeric example in FINDINGS matches the readout table for words 1+2 vs 2+1"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b369_concat_kill.py referenced (not opened). The failed cyclic-rotation gate is documented as a genuine design error rather than hidden.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A pre-registered prediction hit cleanly (6/6), and a failed consistency gate is honestly diagnosed as a design error rather than quietly dropped — good practice. Still purely arithmetic/algebraic; no physical observable named."
+  },
+  {
+   "arc": "B370_massey_depth2",
+   "source": "main",
+   "files_read": [
+    "frontier/B370_massey_depth2/FINDINGS.md",
+    "frontier/B370_massey_depth2/PREREGISTRATION.md",
+    "frontier/B370_massey_depth2/arc_verdict.json",
+    "frontier/B370_massey_depth2/massey.py",
+    "frontier/B370_massey_depth2/massey_legA.json (partial)",
+    "frontier/B370_massey_depth2/massey_legB.py (referenced)"
+   ],
+   "files_sampled": ["frontier/B370_massey_depth2/massey_legB.json (head/tail + grep for tau, 1.017, universal)"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"All six E6 tangent directions at the geometric representation are unobstructed to third order, and the universal-tau identity is strictly first-order.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03 (multiple entries): leg A done (all six directions unobstructed at third order, dps 100, 2.9h); leg B initially gate-blocked twice (bug localized, no verdicts read) then DONE with universal-tau strictly first order and theta-graded bending. A later entry (B578, 2026-07-14) reports the Massey step re-verified EXACTLY ('the third-order obstruction vanishes exactly in all six directions... B370's conditionality discharged'), upgrading the dps-100 computer-assisted result to exact. The promotion audit explicitly HELD B370 in the dps-100 computer-assisted class pending an 'exact-core extraction' pass (Review 1), and TOOLBOX.md is noted 618 reviews stale relative to B370 in a later review's doc-currency check.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "leg A: third-order Massey obstruction class norms 5-10 orders below each direction's own numerical gate floor, for all six exponent directions", "where": "massey_legA.json, massey.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "massey.py is a committed jet-arithmetic script (mpmath dps 100); massey_legA.json's per-direction class_norm/gate_P1/gate_P2 values match the FINDINGS table exactly"},
+    {"what": "leg B: universal-tau = -2sqrt(3)i at first order (spread 1.4e-63), depth-2 defect max relative 1.017, theta-graded bending (esc->esc 0.325 vs f4->f4 1.0)", "where": "massey_legB.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sampled JSON values (tau strings, tau_universal_spread, readout_theta_blocks) match FINDINGS numbers exactly (0.32539..., 0.9912..., 1.0, 0.326263...)"},
+    {"what": "'all-orders' smoothness of the E6 moduli", "where": "not claimed in FINDINGS — explicitly disclaimed", "kind": "UNCLEAR", "reproducible_from_committed": "n/a", "why": "FINDINGS explicitly states this is 'conditional by nature (higher orders untested — no smooth, period claim)'; a later log entry (B578) claims the third-order result is now EXACT, not merely dps-100 evidence, but that upgrade lives outside this arc's own committed files"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b370_massey.py referenced (both legs, from banked JSONs + gates) but not opened; this would be a re-read/gate-check lock on stored numbers rather than an independent recompute of the dps-100 pipeline.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md and arc_verdict.json both still describe the result as computer-assisted/conditional ('no smooth, period claim'), but the log_index shows a later arc (B578, 2026-07-14) claims the same third-order obstruction 'vanishes exactly' and that B370's conditionality is 'discharged'. Neither B370's FINDINGS nor its arc_verdict.json (this seat's snapshot) reflects that later exact upgrade — the older conditional framing stands uncorrected inside this arc's own files.", "where": "frontier/B370_massey_depth2/FINDINGS.md §'Honest limits'; cross-ref PROGRESS_LOG 2026-07-14 B578 entry"},
+    {"kind": "OTHER", "detail": "Promotion audit explicitly held this arc (with B352/B353/B357) as dps-100 computer-assisted pending a future 'exact-core extraction' pass; a later review flags TOOLBOX.md as 618-review-stale relative to B370 — a currency debt, not a content defect, but worth naming.", "where": "PROGRESS_LOG 2026-07-03 promotion-audit entry; Review 41 doc-currency section"}
+   ],
+   "seat_note": "The numerics are careful and self-gating (own-direction floor comparisons, MB12 random controls), but this is a dps-100 floating-point evidence claim dressed as 'PROVED' in arc_verdict.json — the arc's own FINDINGS is more honest about the conditionality than the terse verdict file is. Deformation theory of a character variety; no physical observable is named anywhere."
+  },
+  {
+   "arc": "B371_minimal_two_state_sector",
+   "source": "main",
+   "files_read": [
+    "frontier/B371_minimal_two_state_sector/FINDINGS.md",
+    "frontier/B371_minimal_two_state_sector/arc_verdict.json",
+    "frontier/B371_minimal_two_state_sector/slot_verification.py (referenced/partially reviewed)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"The level-15 quantization's two-dimensional {6,14} sector is exactly Weil-invariant, dihedrally irreducible, helicity-paired, and self-coupled by the seam at the rigid value.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'B371: the minimal two-state sector - verified, banked, promoted (P56, P57)' — a relayed cross-session probe answered the owner's 'can we compute a photon?' with NO at the physics level and a well-posed slot question at the math level. Matches FINDINGS' own firewall language verbatim.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "2-dim {a=6,14} sector invariant under full Weil image, dihedral irreducibility, helicity pairing tr(Shat)=0, metallic-shadow traces (1-phi), true parity J=Shat^2, Weyl identity J*Par = zeta6^-1 * XZ", "where": "FINDINGS.md items 1-6, slot_verification.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "described as 'every check an exact Fraction identity' in a committed script, independently re-verified from scratch against a relayed cross-session computation"},
+    {"what": "the sector couples to itself at the rigid seam value +-1/48", "where": "FINDINGS.md item 7, cross-checked against B367's banked (1,2) table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cross-references the exact table in step0_tables.json which is committed and independently readable"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Described as independently re-verified from scratch in this repo's own engine against a relayed cross-session pre-registration; tests/test_b371_two_state_sector.py referenced but not opened.",
+   "absence_claims": [
+    {"quote": "the originating question was \"can we compute a photon?\" and the answer is NO — no gauge field, spacetime, mass, or coupling exists in this mathematics (K020)", "where": "frontier/B371_minimal_two_state_sector/FINDINGS.md:5"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "Despite the explicit firewall disclaiming any real photon/gauge field, the arc's own vocabulary — 'helicity pairing', 'photon-shaped slot', 'parity', 'Weyl operator' — borrows physics nouns for a 2-dimensional invariant subspace identified purely because it is 2-dimensional and carries a Z/2-like involution (Shat^2=J). The type match (2-state, involution-swapped eigenlines) is being used as the entire warrant for physics-suggestive naming, even though the arc itself says this is firewalled and not a physics claim.", "where": "frontier/B371_minimal_two_state_sector/FINDINGS.md title and §3 'Helicity pairing'"}
+   ],
+   "seat_note": "This is a model example of correct self-discipline: the arc computes a genuine algebraic structure and explicitly states in its own title that the answer to 'can we compute a photon' is NO. The residual risk is readers downstream (or later arcs) dropping the firewall language and treating 'helicity pairing' as if it denotes actual particle helicity."
+  },
+  {
+   "arc": "B372_level45_sweeper",
+   "source": "main",
+   "files_read": [
+    "frontier/B372_level45_sweeper/FINDINGS.md",
+    "frontier/B372_level45_sweeper/PREREGISTRATION.md",
+    "frontier/B372_level45_sweeper/arc_verdict.json",
+    "frontier/B372_level45_sweeper/sweep45.py",
+    "frontier/B372_level45_sweeper/fp_engine.py (referenced)"
+   ],
+   "files_sampled": ["frontier/B372_level45_sweeper/sweep45.json (head)"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"The pre-registered null is refuted: all 144 nonzero pair cells at level 45 carry sqrt(-15) content and the seam's field grows to the 12-dim compositum.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'B372 (W2.7) DONE: the seam is a LEVEL-FAMILY phenomenon (null refuted); E16' — CRT/F_p engine, gate-anchored on the banked level-15 flagship (exact reproduction), 3 primes, held-out embeddings, zero identification failures. A later entry (2026-07-05) reports a Chat-2 verification derived a closed-form scale ratio from 'the banked B372 sweep45.json exact coefficients' — consistent downstream use. Matches FINDINGS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "pre-registered null refuted: all 144 nonzero (1,2)-pair cells at level 45 carry sqrt(-15)-type content; singles wall holds (only a=1,16,31,46 nonzero, each exactly 1/4)", "where": "sweep45.json, sweep45.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "CRT/F_p engine with 3 primes ≡1 mod 720, held-out-embedding verification per prime, hard gate against the banked level-15 flagship cell reproduced exactly before any level-45 number is read"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The pipeline is explicitly gated by re-deriving a banked level-15 cell before trusting the level-45 output (a genuine positive-control belt built into the same script); tests/test_b372_level45.py referenced (from JSON + an OA_SLOW full rerun) but not opened.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Well-designed: a pre-registered null (motivated by a real Gauss-sum heuristic) is stated before computing and then refuted by the data with a hard positive-control gate baked into the pipeline. Pure arithmetic of a Weil representation; no physical quantity is named."
+  },
+  {
+   "arc": "B373_level45_minimal_sector",
+   "source": "main",
+   "files_read": [
+    "frontier/B373_level45_minimal_sector/FINDINGS.md",
+    "frontier/B373_level45_minimal_sector/PREREGISTRATION.md",
+    "frontier/B373_level45_minimal_sector/arc_verdict.json",
+    "frontier/B373_level45_minimal_sector/kill_test.json",
+    "frontier/B373_level45_minimal_sector/kill_test.py (referenced)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"The pre-registered MOVED outcome hit VERBATIM (+-36 deg = 108/3, exponents a = +-6 of 60); the minimal sector is gapless.\" (Note: FINDINGS.md itself documents this MOVED reading was later corrected/refuted at the next rung, B374 — see below.)",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'B373 (PD1.1) the kill test: MOVED - gapless-trending; the relayed bet loses; E17' — exactly one invariant two-state sector at level 45, exponents {6,54}, quasi-energy 36 deg. A same-day follow-up log entry (also in this file's own log_index) records 'B374 (rung 3): the pinned-exponent law REFUTED' with the note 'B373's registered kill fired... B373's FINDINGS carries the refutation cross-reference.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "unique invariant 2-state sector at level 45: exponents {6,54} of ord(W1)=60, quasi-energy 36deg, tr(A1)=phi exactly", "where": "kill_test.json, kill_test.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "kill_test.json records the exact invariant_sectors list and exact Fraction sector_traces matching FINDINGS' stated tr(A1)=1/2+1/2 sqrt5"},
+    {"what": "the extrapolated 'gapless-trending, phase ~ 9pi/N -> 0' reading", "where": "FINDINGS.md §'The structural reading'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "this was an interpretive extrapolation from two data points (N=15,45), explicitly flagged in the arc's own text as 'CORRECTED same-day by B374' — it was never a computed fact, only a hypothesis, and the arc keeps the disproved hypothesis text in place with a correction note above it rather than deleting it"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "kill_test.py independently computes the level-45 census against a fresh exact criterion (dihedral invariance test across cross-prime confirmation); tests/test_b373_kill_test.py referenced, not opened.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json's claim_one_line ('the minimal sector is gapless') is the now-refuted extrapolation, not the surviving exact datum (exponents {6,54}, phase 36deg at N=45); the verdict-of-record therefore states a claim the arc's own FINDINGS.md immediately above it says was refuted at the next rung. This is not unmarked in FINDINGS (a correction note is present) but arc_verdict.json — the file this campaign treats as 'claim of record' — was not updated to drop the word 'gapless'.", "where": "frontier/B373_level45_minimal_sector/arc_verdict.json (claim_one_line) vs frontier/B373_level45_minimal_sector/FINDINGS.md §'The structural reading — CORRECTED same-day by B374'"}
+   ],
+   "seat_note": "Good process (pre-registered kill test, honest same-day correction when the next rung refuted the extrapolation), but the machine-readable verdict file was left carrying the now-dead 'gapless' framing while the prose FINDINGS was patched — a reader trusting only arc_verdict.json would be misled."
+  },
+  {
+   "arc": "B374_level135_rung",
+   "source": "main",
+   "files_read": [
+    "frontier/B374_level135_rung/FINDINGS.md",
+    "frontier/B374_level135_rung/arc_verdict.json",
+    "frontier/B374_level135_rung/rung135.json",
+    "frontier/B374_level135_rung/rung225.json",
+    "frontier/B374_level135_rung/rung75.json",
+    "frontier/B374_level135_rung/rung135.py (referenced)",
+    "frontier/B374_level135_rung/rung225.py (referenced)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE — \"The pinned-exponent law is refuted at level 135 and the sector-existence law itself dies at N=225; invariant sectors are a prime-power-tower property.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'B374 (rung 3): the pinned-exponent law REFUTED - the pentagon-pair oscillation' — level 135's unique invariant sector is {54,126}, phase +-108 deg again, ord 180, dihedral global, cross-prime confirmed. Matches FINDINGS exactly.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "level-135 unique invariant sector {54,126}, ord=180, phase 108deg, refuting B373's pinned-exponent extrapolation", "where": "rung135.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "rung135.json records prediction_hit: false, invariant_sectors [[54,126]], matching FINDINGS' table"},
+    {"what": "level-75 sector {25,75}, phase exactly 90deg (trace 0)", "where": "rung75.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "rung75.json records phase_deg_25: 90.0 matching FINDINGS"},
+    {"what": "level-225: NO invariant sector exists (existence law itself dies)", "where": "rung225.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "rung225.json records sectors: [] with cross_prime_confirmed: true, matching FINDINGS' 'THE EXISTENCE LAW DIES' claim"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Three separate rungs (135, 75, 225) each computed and cross-prime confirmed independently in the same session; tests/test_b374_rung135.py referenced but not opened.",
+   "absence_claims": [
+    {"quote": "N = 225: THE EXISTENCE LAW DIES (no invariant sector) ... none is invariant (cross-prime confirmed)", "where": "frontier/B374_level135_rung/FINDINGS.md:49"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely disciplined negative-result chain: three successive pre-registered predictions fail in a row (rung 135, then rung 75's weak form, then rung 225's existence itself), each honestly reported as a kill rather than reframed as a hit. This is the strongest kind of falsifiable process in the batch, applied to pure number theory."
+  },
+  {
+   "arc": "B375_four_qubit_compilation",
+   "source": "main",
+   "files_read": [
+    "frontier/B375_four_qubit_compilation/CIRCUIT.md",
+    "frontier/B375_four_qubit_compilation/FINDINGS.md",
+    "frontier/B375_four_qubit_compilation/arc_verdict.json",
+    "frontier/B375_four_qubit_compilation/circuit_simulation.json",
+    "frontier/B375_four_qubit_compilation/circuit_simulation.py (referenced)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"The level-15 algebra compiles exactly into two four-qubit primitives, and the declared interference protocol provably returns the banked seam invariants.\" (instrument: true)",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'B375 (PD1.3): the four-qubit compilation + the exact protocol theorem (P58)' — the algebra generated by two primitives (exact diagonal + exactly-unitary DFT), WR-hat from the primitives equals the banked generator as an identity, the 240-word Hadamard-test protocol reproduces the banked seam cells exactly. Matches FINDINGS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "UF*UF^dagger = I exactly; WR-hat = UF D-hat^-1 UF^dagger equals the banked generator; the declared 240-word Hadamard-test post-processing formula reproduces the banked seam cells exactly in simulation; kappa-word trace = 1", "where": "circuit_simulation.json, circuit_simulation.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "all four booleans/values in circuit_simulation.json (UF_unitary_exact, WR_from_primitives_exact, protocol_reproduces_banked_cells, kappa_word_trace [1,0,0,0]) are exact-arithmetic checks against previously banked step0_tables.json values"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This is a classical simulation of a proposed quantum circuit, not an execution on hardware — the arc explicitly firewalls that distinction ('running it on hardware is an owner decision outside this campaign's scope'). tests/test_b375_circuit.py referenced but not opened.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "instrument:true in arc_verdict.json is accurate in the narrow sense (a measurement PROTOCOL is specified) but the arc is entirely a classical simulation verifying that a proposed physical protocol would, in exact arithmetic, reproduce numbers already computed elsewhere; no physical hardware, noise model, or actual measurement exists. The 'Feasibility honestly' section is a genuine, appreciated self-disclosure that ~10^6 shots/word would be needed and no noise-robustness claim is made.", "where": "frontier/B375_four_qubit_compilation/CIRCUIT.md §'Feasibility honestly'"}
+   ],
+   "seat_note": "This is math dressed as an experimental proposal: a well-specified compilation and a correct exact-arithmetic self-consistency check, honestly labeled as unrun on hardware. It is not an observation of anything in nature and should not be cited as if a quantum measurement has occurred."
+  },
+  {
+   "arc": "B376_cat_map_recognition",
+   "source": "main",
+   "files_read": [
+    "frontier/B376_cat_map_recognition/FINDINGS.md",
+    "frontier/B376_cat_map_recognition/arc_verdict.json",
+    "frontier/B376_cat_map_recognition/pisano_identity.json",
+    "frontier/B376_cat_map_recognition/pisano_identity.py (referenced)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"The level tower's order obeys the Pisano identity ord(W1 at N)=pi(N)/2 at five levels, identifying the tower as the quantized golden cat map.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'B376 (R1): RECOGNITION HIT - the tower is the quantized golden cat map (P59)' — pi(N)/2 = ord(A1 mod N) = the measured Weil order at all five levels including the sector-less 225. A later review (Review 32, 2026-07-29) flags B376 as a 'buried significance' item linking to Hecke/arithmetic-quantum-chaos theory, not yet pursued. Matches FINDINGS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "ord(W1 @ N) = Pisano(N)/2 exactly at N=15,45,75,135,225 (orders 20,60,100,180,300)", "where": "pisano_identity.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pisano_identity.json records identity:true at all five levels with pisano/half/measured_weil_order fields agreeing exactly; the measured orders were independently established in B372-B374"},
+    {"what": "predicted orders 500/540/900 at N=375/405/675", "where": "pisano_identity.json (predicted_order fields, no 'identity' verification field)", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "these three entries carry only 'pisano' and 'predicted_order', no measured_weil_order or identity flag in this file — they are registered predictions, not yet confirmed computations within this arc's own committed data (confirmation appears to occur later in B377's acceptance duel, a separate arc)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "The arc explicitly states 'nothing about the seam is derived yet — that is Phase 2's job' and cites prior art (Hannay-Berry, Kurlberg-Rudnick) as the frame rather than claiming discovery; pisano_identity.py is short (seconds to run) and is itself the primary computation, so there is no separate verification layer beyond the script producing the JSON.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuine, well-cited recognition of an existing mathematical object (Hannay-Berry-style quantized cat map) inside this repo's construction, explicitly disclaiming any of Kurlberg-Rudnick's Hecke theory as newly derived. Sound practice: prior art is credited rather than absorbed as an original result."
+  },
+  {
+   "arc": "B377_existence_law_derivation",
+   "source": "main",
+   "files_read": [
+    "frontier/B377_existence_law_derivation/FINDINGS.md",
+    "frontier/B377_existence_law_derivation/PREDICTION_BEFORE_CENSUS.md",
+    "frontier/B377_existence_law_derivation/arc_verdict.json",
+    "frontier/B377_existence_law_derivation/acceptance_rungs.json",
+    "frontier/B377_existence_law_derivation/full_census_225.json",
+    "frontier/B377_existence_law_derivation/local_censuses.json",
+    "frontier/B377_existence_law_derivation/acceptance_rungs.py (referenced)",
+    "frontier/B377_existence_law_derivation/full_census_225.py (referenced)",
+    "frontier/B377_existence_law_derivation/local_censuses.py (referenced)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"The existence law is derived from exact local censuses (sector = line tensor doublet; doublets only at odd prime powers), reproducing all six banked level verdicts.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'B377 (D0+D1): the existence law DERIVED; the 225 prediction HIT; three rung[s]' predictions registered. A later closure-hygiene entry (2026-07-25) reports a DIFFERENT, later probe 'PD22' was WITHDRAWN because 'the headline existence law is falsified by the cell's own census once the L4 falsifiers N=363=3*11^2/605=5*11^2 enter the scan' — but the same entry says PD22's content 'duplicate[s] the prior-banked P63/B377/B391 (verified), uncited', i.e. PD22 is a separate, broader (p>=7) generalization attempt that failed, not a retraction of B377's own three-and-five-only law.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "225 census: no invariant 2-dim module in any multiplicity class (the registered-while-running prediction hit)", "where": "full_census_225.json, PREDICTION_BEFORE_CENSUS.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the prediction was registered in a committed file before the census ran, and full_census_225.json records the negative result"},
+    {"what": "the v2 existence law (doublets at odd prime powers only) reproduces all 5 banked rungs and passes 3/3 fresh acceptance predictions at N=375,405,675 (existence, phase, and order all correct at each)", "where": "acceptance_rungs.json, local_censuses.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "acceptance_rungs.json records nine sub-verdicts (existence+phase+order at three levels) all matching the pre-registered predictions in FINDINGS' acceptance duel table"},
+    {"what": "P63 promotion of the v2 law", "where": "FINDINGS.md §'ACCEPTANCE DUEL'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same acceptance_rungs.json backs this; an engineering trap (silent floor-division bug corrupting the 405 run under the wrong prime congruence) is documented and fixed in the same section, not hidden"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Held-out predictions registered before computation and then computed; a real bug (silent floor division truncating the order search) was caught and disclosed rather than silently patched. tests/test_b377_existence_law.py and tests/test_b377_acceptance.py referenced but not opened.",
+   "absence_claims": [
+    {"quote": "The full-multiplicity module-closure census at 225 found no invariant 2-dim module in any multiplicity class", "where": "frontier/B377_existence_law_derivation/FINDINGS.md:12"},
+    {"quote": "225 = 9*25: no doublet on either side => NONE", "where": "frontier/B377_existence_law_derivation/FINDINGS.md §'The v2 law'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "A separate, later probe (PD22, cited in PROGRESS_LOG 2026-07-25 but not present as a file in this arc's directory) attempted to generalize this law to primes p>=7 and was WITHDRAWN when N=363, N=605 falsified it under an undeclared selection effect (the p>=7-even clause was fit on 7^2, which happened to survive). This does not retract B377's own p in {3,5} law (which passed its own 3/3 held-out test), but readers should not conflate the two; PD22's failure is not visible from inside this arc's own committed files.", "where": "PROGRESS_LOG.md 2026-07-25 closure-hygiene entry (cross-referenced, not resident in this arc's directory)"}
+   ],
+   "seat_note": "One of the more rigorous derivation chains in the batch: predictions registered before computation, a real engineering bug caught and disclosed, and 3/3 held-out rungs passing with distinct phases each. The caveat is that the law's later attempted extension beyond {3,5} failed elsewhere (PD22) for reasons involving an undeclared selection effect — a useful reminder that these local existence laws are narrow and prime-specific, not general."
+  },
+  {
+   "arc": "B379_selection_rule_reduction",
+   "source": "main",
+   "files_read": [
+    "frontier/B379_selection_rule_reduction/FINDINGS.md",
+    "frontier/B379_selection_rule_reduction/arc_verdict.json",
+    "tests/test_b379_selection_rule.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"The pair kernel reduces to eigenframe geometry (13/13 cells) and closes to one number, the Galois-conjugate pair -(phi/6)sqrt(-3) and +(1/6phi)sqrt(-3).\"",
+   "log_says": "PROGRESS_LOG 2026-07-03: 'B379 (D3(b) opener): the reduction theorem + closed form VERIFIED; P60' — matches FINDINGS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the reduction theorem T1 (pair kernel = eigenframe geometry, verified on 13 cells) and closed form T2 (the two Galois-conjugate golden-unit constants)", "where": "FINDINGS.md §T1/T2; cross-checked in tests/test_b379_selection_rule.py's test_t2_traces_exact and test_rigid_rank1_sign_pattern", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the test file independently recomputes the two closed-form traces from scratch (rebuilds the theta matrices via build_theta_W, recomputes projectors, and asserts the exact tuple (0,0,-1/12,-1/12)) — a genuine recompute, not merely a re-read of stored JSON"},
+    {"what": "row 16 is Q(sqrt5)-dark (t(16,*) has zero sqrt-3/sqrt-15 components)", "where": "FINDINGS.md §'Row 16'; test_row16_sqrt5_dark asserts against B367's step0_tables.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "directly checked against the already-verified banked table from B367"},
+    {"what": "the Gram spectrum {1/576,1/576,1/768,23/19200} of the seam form (addendum)", "where": "FINDINGS.md addendum", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "described as verified 'by exact characteristic polynomial (Faddeev-LeVerrier over Q)' but no script or JSON for this specific computation exists among this arc's files (only FINDINGS.md and arc_verdict.json are present in the directory) or in the test file, which does not test the Gram spectrum"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b379_selection_rule.py genuinely recomputes T2's traces from the theta-matrix construction rather than just re-reading a stored JSON, which is a strong belt for that specific claim; the Gram-spectrum addendum has no visible reproducer at all.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "FINDINGS.md names 'reduction_verification.py' as the reproducer for this arc's headline results ('Reproducer: reduction_verification.py'), but no such file exists anywhere in the repository (confirmed by a repo-wide find). Only FINDINGS.md and arc_verdict.json are present in the arc's own directory; the surviving belt is the separate tests/test_b379_selection_rule.py, which recomputes only a subset (T2's two traces and the row-16/rank-1 sign-pattern facts), not the full T1 reduction-theorem claim across all 13 cells or the Gram-spectrum addendum.", "where": "frontier/B379_selection_rule_reduction/FINDINGS.md §'Provenance' (reproducer line); confirmed absent via repo-wide search"}
+   ],
+   "seat_note": "The T2 closed-form claim is genuinely re-derivable from committed code (the test file proves it), which is reassuring, but the arc cites a named reproducer script that does not exist in the repository and leaves the fuller T1 reduction theorem and the Gram-spectrum addendum without any independently runnable witness beyond the narrower test."
+  },
+  {
+   "arc": "B380_galois_covariance",
+   "source": "main",
+   "files_read": [
+    "frontier/B380_galois_covariance/FINDINGS.md",
+    "frontier/B380_galois_covariance/arc_verdict.json",
+    "tests/test_b380_galois_covariance.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"A new proven Galois symmetry sigma_31 holds on all six pair tables, the mirror is derived as conjugation, and a 16-element census maps where sqrt5-conjugacy fails.\"",
+   "log_says": "PROGRESS_LOG 2026-07-03/04: 'B380: the Galois covariance laws verified (P61); the F4 reciprocal duality' — matches FINDINGS. A later log entry (2026-07-05) extends the 'symmetries ARE Galois' framing to B369's rotation result and a new sigma_17 exchange law.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "sigma_31 fixes every cell of all six banked pair tables", "where": "FINDINGS.md R1; tests/test_b380_galois_covariance.py::test_sigma31_all_tables", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the test loads the banked step0_tables.json and directly checks the exact symmetry across all six tables, a genuine independent recompute against committed data"},
+    {"what": "the mirror law t(a,-b) = tau3(t(a,b)) on the (1,2) table", "where": "FINDINGS.md R2; test_mirror_is_tau3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "directly tested against the banked table"},
+    {"what": "the (2,3) table's stabilizer is exactly the 8-element sqrt5-fixing half-group {1,11,19,29,31,41,49,59}", "where": "FINDINGS.md R3; test_23_stabilized_by_sqrt5_fixing_halfgroup", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the test computes the stabilizer set from scratch by brute-force checking all c with gcd(c,60)=1 and c%5 in (1,4), and asserts the exact resulting list"},
+    {"what": "F4 reciprocal duality: ratio set {-4,-3/2,-2/3,-1/4} and equal Gram norms 49/115200", "where": "FINDINGS.md; test_f4_reciprocal_duality_and_equal_norm", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "directly tested and reproduced from the banked table"},
+    {"what": "16-Galois-element x 6-table census (R3's full pass/fail matrix)", "where": "FINDINGS.md §R3", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the full census over all 16 elements x 6 tables is described in prose but the committed test file only checks 2 of the 16 elements (31 and the sqrt5-fixing half-group for one table, 2,3) — the broader claim ('the eight sqrt5-flipping elements fail on every table') is not independently re-tested in the committed lock"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Unusually strong belt for a two-file arc: every numbered claim (R1, R2, part of R3, F4 duality) has a corresponding from-scratch assertion in tests/test_b380_galois_covariance.py against the banked B367 table, though the full 16x6 census is not fully covered by the lock.",
+   "absence_claims": [
+    {"quote": "the dilog-bridge NEGATIVE (no direct 1/48 <-> vol(4_1) identity; common Eisenstein root only)", "where": "frontier/B380_galois_covariance/FINDINGS.md:49"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "This arc has no standalone reproducer script in its directory but its lock file genuinely recomputes most of the headline claims from the banked exact table rather than merely re-reading stored numbers — a good instance of a thin arc folder being backed by a real independent check elsewhere in the repo."
+  },
+  {
+   "arc": "B381_twist_isolation",
+   "source": "main",
+   "files_read": [
+    "frontier/B381_twist_isolation/FINDINGS.md",
+    "frontier/B381_twist_isolation/PREREGISTRATION.md",
+    "frontier/B381_twist_isolation/arc_verdict.json",
+    "frontier/B381_twist_isolation/twist_isolation.json",
+    "frontier/B381_twist_isolation/twist_isolation.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"Theorem: the seam is nonzero exactly when the quantization carries the half-characteristic twist zeta15^(-j(j+1)/2); the two lifts are provably inequivalent.\"",
+   "log_says": "PROGRESS_LOG 2026-07-04: 'B381 (D2 COMPLETE): the seam is a twist invariant (P62)' — no intertwiner in the exhaustive natural family; the half-characteristic twist (cocycle exhibited) is structure. Matches FINDINGS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "no intertwiner exists in the declared natural family (X^m * diag(...) * P_sigma_c, all m,q,r mod 15, all Galois relabels c) between the theta lift and the canonical lift", "where": "twist_isolation.json (intertwiners: []), twist_isolation.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the search is exhaustive over the declared finite family but computed modulo a SINGLE prime p (not cross-prime CRT-reconstructed like sibling arcs B372/B374/B377); a non-match mod one prime does not strictly rule out a coincidental match failing to be exact over Q, though the family is small and structured enough that this is a minor methodological gap rather than a likely error"},
+    {"what": "commutant fact: Par commutes with the canonical image, not with the theta image; the diagonal defect delta(j) = zeta15^{-j(j+1)/2}", "where": "twist_isolation.json (par_commutes_canonical: true, par_commutes_theta: false, delta_halfchar: true)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same single-prime script, but this is a direct algebraic identity check (easier to trust than an existential non-existence search)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "tests/test_b381_twist.py referenced but not opened this pass; the arc's own script is the sole computation and runs mod a single prime rather than cross-prime reconstructed like most sibling arcs in this batch.",
+   "absence_claims": [
+    {"quote": "NONE intertwines the theta lift into the canonical lift", "where": "frontier/B381_twist_isolation/FINDINGS.md:11"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The exhaustive intertwiner search (twist_isolation.py) is computed modulo a single prime p rather than cross-prime CRT-verified as most sibling arcs in this batch (B372, B374, B377) declare as their standard practice; a non-existence result over GF(p) does not, strictly, guarantee non-existence over Q, though the finite structured family makes an accidental mod-p coincidence unlikely.", "where": "frontier/B381_twist_isolation/twist_isolation.py"}
+   ],
+   "seat_note": "The theorem statement (seam nonzero iff half-characteristic twist present) is a clean, falsifiable algebraic dichotomy and the commutant mechanism is a satisfying explanation; the one methodological wrinkle is that the non-existence search runs at a single prime rather than the multi-prime cross-check used elsewhere in this batch."
+  }
+ ]
+}

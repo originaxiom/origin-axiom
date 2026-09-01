@@ -1,0 +1,298 @@
+{
+"batch": "arcs_094",
+"arcs": [
+
+{
+"arc": "B942_l113_bc_falsifier",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b942_cells.py","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=NEGATIVE; claim: L113 THE BC/CMR FALSIFIER -- OUTCOME YES (a kill against the programme's own observer construction, executed): complex conjugation is NOT in Gal(K^ab/K), so chirality-as-Galois-label is RETRACTED; the values/torsor clause demoted to UNEARNED; the object's c-swap relocated to Gal(K/Q), arithmetic not thermal.",
+"log_says": "9 log entries: L113 fired and hit; B946/B948/B957/B1004/B1174 all treat this as the load-bearing retraction that propagated through the observer construction (B723 correction banner) and was independently corroborated by B957's later refutation of the values/torsor clause.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "complex conjugation c is not an element of Gal(K^ab/K)", "where": "b942_cells.py Cell 2 (symbolic + 14-layer cyclotomic membership test)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic argument plus explicit finite (Z/m)* membership computation for m in [3..255255], all committed in b942_cells.py with results.json values and a test lock tests/test_b942_l113.py"},
+ {"what": "beta=1 SSB IS the pole of zeta_K at s=1; agreement to 6e-11 with class-number formula", "where": "b942_cells.py Cell 3(a)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mpmath 40-digit computation of eps*zeta_K(1+eps) vs 2*pi/(6*sqrt3), committed with residuals in results.json"},
+ {"what": "no canonical Z/2 quotient of Gal(K^ab/K) exists (census 0,0,0,1,1,1,1,1,1,3,3,7,15,31)", "where": "b942_cells.py Cell 3(b)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit 2-rank count over the 14 cyclotomic layers, committed"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "tests/test_b942_l113.py locks seal integrity, each of the four cells' outcomes, and the kill-condition execution -- a genuine independent-of-narrative pytest lock over results.json.",
+"absence_claims": [
+ {"quote": "the string \"complex conjugation\" occurs zero times in the CMR paper", "where": "PREREGISTRATION.md"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "This is the strongest arc in the batch: a preregistered, sealed, hash-verified falsifier fired at the programme's own thermodynamic observer construction and computed exact group-membership facts that kill it. No physical observable is produced -- it is Galois-theoretic bookkeeping, but it is genuinely computed and the kill is executed rather than softened."
+},
+
+{
+"arc": "B943_maass_priority_correction",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","verify.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: retroactive O3-gate literature panel finds B922's priority sentence ('first 25-digit Maass eigenvalue on any hyperbolic 3-manifold') wrong on its precedent number (true precedent is 13 decimal places, not ~10) and on scope ('cusp form' and 'not inherited from parent' were undisclosed load-bearing qualifiers); B922's 25-decimal computation itself is untouched.",
+"log_says": "3 entries: O3 gate applied retroactively, B922's priority sentence corrected, precedent number refuted; later cited by B946/B967 as one of three items making the record 'move further negative'.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "index-12 relation between vol(m004) and vol(parent PSL(2,O3)) via Humbert's formula and zeta_K(2)", "where": "verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mpmath 30-digit computation committed, ratio comes out 12.0 to 1e-12, in results.json"},
+ {"what": "r=4.9000853730625... lies below the parent's Weyl-law spectral count (W_parent=0.336<1) so is not a pullback of a published parent eigenvalue", "where": "verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed Weyl-law screen; arc itself flags this as a screen not a theorem-grade exclusion (mesh scan only covers [6.4,7.35])"},
+ {"what": "the literature panel's 8-item bibliography and precedent figure of 13 decimals", "where": "FINDINGS.md / ../B922_lambda2_receipt/PRIOR_ART_MAASS.md (not read in this batch)", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "literature search results are asserted from an external panel process; not independently re-verifiable from committed code, only the two numerical facts above were verified in-sandbox"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "verify.py independently recomputes the index-12 and Weyl-screen facts rather than merely re-reading the panel's claims; tests/test_b943_priority.py referenced as lock (not read in full).",
+"absence_claims": [
+ {"quote": "Grunewald-Huntebrinker Table 3: unreachable (Project Euclid, EMIS, CiteSeerX all blocked or 404; no Wayback capture)", "where": "FINDINGS.md"},
+ {"quote": "MathSciNet: not reached (auth wall)", "where": "FINDINGS.md"}
+],
+"physics_content": "OBSERVABLE",
+"red_flags": [{"kind":"OTHER","detail":"the resolving 'not inherited from parent' claim is explicitly a Weyl-law screen, not a proof, and the arc says so plainly -- correctly flagged, not a defect, but worth noting a numeric result underwrites a priority claim without an exact bound.","where":"FINDINGS.md section 3"}],
+"seat_note": "Honest self-correction of an earlier priority overclaim, with the resolving numerical fact independently recomputed rather than merely accepted from the literature panel; the underlying 25-decimal Maass eigenvalue computation (B922) is not itself re-verified here."
+},
+
+{
+"arc": "B944_dynamics_chirality_sweep",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: neither dynamics nor chirality is missing from the programme (census of prior arcs: chirality 102 arcs/70 PROVED, dynamics 29 arcs/20 PROVED); the two 'gaps' may be one unbroken Z/2 (time-reversal vs mirror), registered not claimed after a scoping computation at the matrix/GL(2,Z) level came back undecided.",
+"log_says": "2 entries; the very next day's arc (B945) WITHDRAWS the unification hypothesis this arc raised in its section 3, calling it wrong about m004 specifically though not about the general phenomenon.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "census counts of PROVED/NEGATIVE verdicts across chirality-tagged and dynamics-tagged prior arcs", "where": "results.json (large arc-id/verdict list)", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "aggregated from other arcs' own arc_verdict.json files; reproducible by re-scanning the corpus, but no script is committed here to show how the census was built"},
+ {"what": "conjugator-count table (det+1: 6 vs 8; det-1: 8 vs 6) showing time-reversal and mirror are not the same GL(2,Z) involution but both realized by both determinants", "where": "FINDINGS.md section 4 (no committed script found in this arc's file set)", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "the arc lists no .py file among its 3 committed files; the conjugator-count computation is stated in prose and results.json only echoes summary claims, not the underlying enumeration"}
+],
+"belt": "UNCLEAR",
+"belt_note": "no verify.py/cells.py committed in this arc's directory; results.json holds only the census, not the group-theory scoping computation described in section 4.",
+"absence_claims": [
+ {"quote": "A grep confirms this identification appears nowhere in frontier/, docs/LAW_MAP.md or knowledge/", "where": "FINDINGS.md section 3"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind":"MISSING_WITNESS","detail":"the conjugator-counting computation (det+1/det-1 table) that decides the scoping question is described in prose with no committed script in this arc's file set to reproduce it.","where":"FINDINGS.md section 4"}],
+"seat_note": "A responsible census-and-scope arc that explicitly declines to claim its own unification hypothesis and registers it as a lead (L126) rather than a result; that hypothesis was withdrawn the very next day (B945), which is the correct behaviour, but this arc's own load-bearing scoping computation has no committed witness."
+},
+
+{
+"arc": "B945_l126_one_z2",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b945_cells.py","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=NEGATIVE; claim: L126 sealed test finds Stab_V(RL) = full Klein group -- time-reversal and chirality/mirror are INDEPENDENT symmetries of m004 (not one unbroken Z/2); B944's proposed unification is WITHDRAWN; census of 241 cyclic classes finds 18/31 amphichiral classes are in a 'locked' class (fixed only by the product) and m004 is in the escaping minority (13/31).",
+"log_says": "4 entries: L126 closed negative, unification withdrawn; B949 later leans on this arc's Klein-group finding to register L131 (hoping it discharges axiom A7), but B979 later closes L131 NEGATIVE because B945's result is word-level/class-level (LR and RL conjugate) while A7 lives at the based level, 'exactly where B945 is blind.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "Stab_V(RL) = full Klein group {1,rho,sigma,rho*sigma}; every metallic word R^mL^m (m=1..8) has full Klein stabilizer; census of 241 cyclic classes of length<=10 with stabilizer distribution 13/18/122/88", "where": "b945_cells.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit brute-force enumeration over cyclic words, committed with results.json and test lock tests/test_b945_l126.py"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "tests/test_b945_l126.py exists as a lock (verified present, not read line-by-line).",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A clean sealed-prereg computation that correctly overturns the previous day's speculative unification; the arc itself flags (honest limits section) that this is a word-level not isometry-level result, a caveat later vindicated when B979 uses exactly that gap to close a downstream lead negative."
+},
+
+{
+"arc": "B946_solo_handoff6",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","verify.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: solo handoff 6's section LXXXII (lambda-normalised symmetric table) verifies exactly (4/4) against this bench's independently computed B941 data; lambda=2304/953 shown FORCED (not assumed) by requiring the norm e3/lambda^4=27; new 'thinning law' registered (L130) that residual primes thin with degree and vanish at the norm; three adjudications on solo's requests answered; handoff flagged as behind on B940-B943 with B942 load-bearing against its own framing (sections LXXXI-AC5/AC6 downstream of the dead clause).",
+"log_says": "10 entries, the most of this batch. Log corroborates verification and adjudications, and separately records (docs/progress/REVIEWS.md, cloud seat's Review 1) a serious defect: 'B946's lock has asserted over four results.json keys its verify.py never produced, since B963, through every green suite ever pinned' -- a cached-verification failure mode (E-class) that persisted for many weeks before being caught.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "e1/lambda^4, e2/lambda^4, e3/lambda^4=27 exactly matching solo's RL2 table; disc/lambda^12 matches RL4, not 953-free", "where": "verify.py (RL2/RL4 blocks)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy exact-rational verification against ../B941_branch_symmetric/results.json, committed"},
+ {"what": "lambda=2304/953 is FORCED by e3/27, not assumed", "where": "verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy root extraction, exact"},
+ {"what": "Frobenius class table (6237|p) for residue primes and the 'mixed pair' finding used to bound L130's significance at base rate 1/4", "where": "verify.py, section headed 'section 8's amendment, NOW COMPUTED (restored by B1054 / Review 1)'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the script's own comment records that these four keys were asserted in results.json/locked by tests/test_b946_handoff6.py from B963 onward WITHOUT verify.py ever producing them -- a cached/self-referential lock that a later corpus-wide freshness sweep (B1054) caught when it failed to regenerate; the current verify.py now genuinely computes them, so the arc as it stands today is reproducible, but it was not for an extended period."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "verify.py now regenerates all keys tests/test_b946_handoff6.py asserts, per the in-file repair note; historically it did not (see red flag).",
+"absence_claims": [
+ {"quote": "The presence side (solo sections LXXXIII-LXXXVI, XCII) ... needs its own re-derivation, which is a separate cell and is not discharged by this arc", "where": "FINDINGS.md section 6"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind":"GITIGNORED_WITNESS","detail":"not gitignore-related; reclassify: this is a MISSING_WITNESS/self-referential-lock defect that persisted from B963 through many green test runs -- tests/test_b946_handoff6.py asserted four results.json keys (frobenius_class_of_residue_primes and the two mixed-class flags plus the base-rate) that verify.py never produced, until B1054's freshness sweep caught it. The defect is now repaired in the committed verify.py, but the failure mode (a lock validating a cache the instrument could not regenerate) stood undetected for weeks.","where":"verify.py inline comment; docs/progress/REVIEWS.md Review 1 (cloud seat)"}],
+"seat_note": "A genuinely computed cross-verification with a real convergence (two seats, two pipelines, same lambda), but its own commit history documents a textbook cached-verification failure (a green test suite asserting numbers the checked-in script could not reproduce) that survived for weeks -- exactly the kind of load-bearing-lock risk this seat is instructed to watch for, here caught and repaired by the project's own later audit."
+},
+
+{
+"arc": "B947_thinning_law",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b947_cells.py","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=NEGATIVE; claim: L130 sealed test finds the 'thinning law' (thin extreme coefficients, fat middle) is SPECIAL not universal: holds for 5/7 banked value families (V, W, d_S, d_A, m_S), fails for 2 (mu_charge, kappa_compact); pre-declared vacuity-exclusion set came back empty so exclusion could not have shaped the result; the 5/2 split along value-vs-pencil lines is flagged explicitly as POST-HOC (registered as L137, not claimed).",
+"log_says": "3 entries: L130 closed via B947, L137 registered as post-hoc and needing its own seal (later B978 closes L137 REFUTED, scoped as 'a property of a chosen normalisation of a cubic, not of the locus it describes').",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "per-family leading/constant/mid-only prime-support classification for 7 families, holds for 5 fails for 2", "where": "b947_cells.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy factorint over each family's minimal polynomial, committed with results.json and PREREGISTRATION sha, test lock present per FINDINGS section 7 (tests/test_b947... not independently opened in this pass)"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "banked-identity gate cross-check against B946's V-table factorisations, run inside the same pipeline before any new number was read (stated in FINDINGS, verifiable in b947_cells.py).",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A model example of seal discipline: the arc explicitly refuses to let its own prereg's imprecise gloss ('V is special') override what the 5/2 data actually shows, and separately flags the tempting post-hoc value/pencil split as unearned rather than banking it -- later vindicated when the downstream L137 seal (B978) refutes that very split."
+},
+
+{
+"arc": "B948_relay_ssb_sweep",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: relays the solo seat's response to B942 (withdrawal of two of its own sections downstream of the dead beta=1 clause), reports a dead-clause sweep across knowledge/philosophy/speculations/story (found CLEAN -- the retracted clause never leaked there) and one stale surface (docs/LAW_MAP.md's B723 row, now superseded); distinguishes a surviving theorem (B736-P2's zeta_K pole fact) from the dead claim it neighboured; records the observer's mechanism as newly OPEN.",
+"log_says": "4 entries corroborate the relay and sweep exactly as described; B1004 later finds the retraction still had NOT fully propagated corpus-wide (a retracted clause live in five places across the B500-B800 band), which this arc's 'rooms clean' finding did not anticipate since it only swept knowledge/philosophy/speculations/story, not the full arc corpus.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+ {"what": "the sweep of knowledge/, philosophy/, speculations/, story/ came back clean", "where": "FINDINGS.md section 2 table", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "no grep command, script, or witness file is committed in this arc's 2-file set (FINDINGS.md, arc_verdict.json only); the sweep's method and results are prose-only"}
+],
+"belt": "NONE",
+"belt_note": "no code, results.json, or test lock exists for this arc -- it is a pure editorial/record arc.",
+"absence_claims": [
+ {"quote": "the clause never leaked into the rooms", "where": "FINDINGS.md section 2"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind":"MISSING_WITNESS","detail":"the dead-clause sweep across four documentation trees is reported as a table of results with no committed grep output, script, or log to let a stranger reproduce the 'CLEAN' verdict.","where":"FINDINGS.md section 2"},{"kind":"LOG_DRIFT","detail":"the log later (B1004, 2026-08-09) finds the same B942 retraction still live in five places across the B500-B800 band despite this arc's claim that the sweep found the relevant rooms clean; the two sweeps had different scope (docs trees here vs the full arc corpus there) but the corpus-wide gap was not flagged by this arc.","where":"PROGRESS_LOG.md B1004 entry vs B948 FINDINGS.md section 2"}],
+"seat_note": "A pure record/editorial arc reporting an unwitnessed sweep as clean; the project's own later corpus-wide audit (B1004) found the retraction the sweep was chasing was in fact still live in five places, which this arc's narrower scope did not catch and did not flag as a limitation."
+},
+
+{
+"arc": "B949_ignorance_map",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: reads the atlas query tool over 865 mined frontier probes, ranks obstacle-type resolution rates, finds 'source_free' (the Origin Axiom itself) at 0/1 resolved but correctly recorded as a dead direction rather than a blind spot; identifies 'bridge_construction' (5/14, 8 dead) as the real objective frontier; registers L131 (is axiom A7 discharged by B945's Klein-group finding?) explicitly as NOT claimed, citing B945's own word-level limit as the reason for caution.",
+"log_says": "4 entries; B979 later closes L131 NEGATIVE, finding A7 IS load-bearing after all (the answer was already stated in section 5 of UNIQUENESS_THEOREM.md, which this arc did not read before registering L131) -- log calls this 'the fourth instance today of declaring open what is banked' across several arcs that day.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+ {"what": "corpus status counts (banked 573/dead 218/open 55/dormant 19) and per-obstacle resolution-rate table", "where": "results.json", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "figures are stated as output of scripts/atlas/query.py's gaps() and a manual full-table extension of it (the built-in only prints six); no script specific to this arc is committed in the file set (only FINDINGS.md, arc_verdict.json, results.json), so the exact reproduction command is not included here though the underlying tool (scripts/atlas/query.py) is presumably elsewhere in the repo"}
+],
+"belt": "UNCLEAR",
+"belt_note": "no verify.py/cells.py in this arc's own directory; the census depends on an external shared tool (scripts/atlas/query.py) not sampled in this pass.",
+"absence_claims": [
+ {"quote": "I was on the way to reporting 'the programme never worked its own founding question.' That would have been wrong", "where": "FINDINGS.md section 3"},
+ {"quote": "It is not a derivation of the substrate from nothing (that direction is mapped dead ...)", "where": "FINDINGS.md section 3, quoting docs/UNIQUENESS_THEOREM.md"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind":"LOG_DRIFT","detail":"B979 later shows this arc's own §4 read only as far as UNIQUENESS_THEOREM.md's §4 and missed §5, titled exactly 'The order choice is load-bearing (A7), not cosmetic' -- the answer to the very question L131 registered was already in the document this arc was reading.","where":"PROGRESS_LOG.md B979 entry"}],
+"seat_note": "A useful self-correcting census (catching its own near-miss on 'source_free') but the registered L131 lead was itself an instance of the day's recurring failure mode (declaring open what the corpus already answered a section later in the same file), caught by a subsequent arc rather than this one."
+},
+
+{
+"arc": "B950_sm_spec_ledger",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: writes docs/SM_SPECIFICATION_LEDGER.md as the first inventory of what the Standard Model itself requires (gauge structure, Z/6 global form, 19/26/28 free parameters, forced-vs-measured split); catches on its first pass that the programme's own banked headline 'su(3)+su(2)+u(1)^3 = the Standard Model algebra' (B892) has dimension 14, not the SM's actual 12, an overstatement by two abelian factors; registers L132 (which u(1) is hypercharge).",
+"log_says": "11 entries, the most-cited item in this batch; log records this correction as opening the rank-obstruction line pursued through B952-B954, and separately (B978) records it as one of 'three instances in one day of declaring absent what already existed' (the global Z6 form B950 called 'not addressed' had in fact been derived by B862).",
+"log_consistency": "DRIFT",
+"load_bearing": [
+ {"what": "su(3)+su(2)+u(1)^3 has dimension 14, not 12; SM gauge algebra has dimension 12 (one abelian factor)", "where": "FINDINGS.md section 2", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "trivial arithmetic (8+3+3=14 vs 8+3+1=12) restating standard group dimensions; no script needed or committed, correct on its face"}
+],
+"belt": "NONE",
+"belt_note": "purely a documentation/ledger arc (2 files: FINDINGS.md, arc_verdict.json); no code or results.json.",
+"absence_claims": [
+ {"quote": "No document enumerated the Standard Model's own content", "where": "FINDINGS.md section 1"},
+ {"quote": "the global form not addressed", "where": "FINDINGS.md section 4 table (later shown false by B978: B862 already derived it)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind":"LOG_DRIFT","detail":"B978 later finds the 'global Z6 form not addressed' claim in this arc's own scorecard was itself an instance of declaring absent what the corpus already had (B862 derives it) -- the same day's recurring failure mode this arc's own correction of B892 was meant to guard against.","where":"PROGRESS_LOG.md B978 entry"}],
+"seat_note": "A valuable and correctly-caught overstatement in the programme's own headline result (14-dim algebra mislabeled 'the Standard Model algebra'), but the correcting document itself repeated the same absence-without-sweep error one section later, caught only by a subsequent arc the same day."
+},
+
+{
+"arc": "B951_l132_scout",
+"source": "main",
+"files_read": ["FINDINGS.md","PRIOR_ART_HYPERCHARGE.md","arc_verdict.json"],
+"files_sampled": ["prior_art_hypercharge.json"],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: a design-time literature scouting panel finds L132 (does the object's own charges force hypercharge via anomaly cancellation) would be VACUOUS as posed -- E6 has no cubic Casimir so any complete-27 spectrum passes anomaly cancellation automatically; the target algebra su(3)+su(2)+u(1)^3 is exactly the classified A2+A1 Levi subalgebra of e6 (Borel-de Siebenthal 1949/Dynkin 1952), re-derived here (6+8=14, semisimple 11, centre 3, matching B892's numbers exactly); the su(5) centralizer argument for Y does not transplant to e6 (1-dim vs 9-dim centralizer); nearest prior art (Todorov 2021, JHEP 04(2021)164) does structurally the same move one algebra down (so(10)).",
+"log_says": "5 entries: 'the seal-provenance gate ... saved a day and a rediscovery'; B976/B993/B994/B1210 repeatedly cite this arc as the one that deflates B892's headline a second time and establishes the endpoint was catalogued 77 years ago.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "A2+A1 Levi subalgebra of e6 has dim 14, semisimple part 11, centre 3 (matching B892's three numbers exactly)", "where": "FINDINGS.md section 2 (Levi dimension formula rank+roots, re-derived by hand)", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "standard root-system arithmetic (A2+A1 has 6+2=8 roots, dim=rank+roots), correct and checkable by anyone with the E6 root system, but no script is committed -- it is arithmetic done in prose"},
+ {"what": "E6 has no symmetrised cubic Casimir (Okubo 1977), so complete-27 anomaly cancellation is automatically satisfied (13 U(1) conditions + mixed conditions + Witten parity all vanish identically)", "where": "FINDINGS.md section 1", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "cited to Okubo 1977 and to the panel's own computation; the panel's explicit vanishing computation is not included as a committed script or file in this arc's directory (only FINDINGS.md, a 39KB prior-art narrative, arc_verdict.json, and a large sampled JSON of search records)"},
+ {"what": "centralizer of su(3)+su(2) in su(5) is 1-dim, in e6 is 9-dim -- so the Georgi-Glashow-style argument does not single out Y in e6", "where": "FINDINGS.md section 3", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "standard Lie-theoretic fact, cited/stated, not independently recomputed with a committed script"}
+],
+"belt": "RE-READS",
+"belt_note": "this arc is a literature-scouting/prior-art panel (PRIOR_ART_HYPERCHARGE.md, 39KB) preceding computation -- it explicitly declines to compute L132 and instead re-reads and re-derives standard results to scope the question; no numerical code or results.json exists for it.",
+"absence_claims": [
+ {"quote": "MathSciNet NOT reached (302 auth wall) -- no claim rests on it", "where": "FINDINGS.md section 7"},
+ {"quote": "The Q3 null is NOT certified: ... Read it as 'not found by this sweep', never 'does not exist'", "where": "FINDINGS.md section 7"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind":"MISSING_WITNESS","detail":"the anomaly-vanishing computation (13 U(1) conditions plus mixed and Witten-parity checks on a complete 27) that grounds the vacuity claim is described in prose only; no script or results file computes it in this arc's committed set.","where":"FINDINGS.md section 1"}],
+"seat_note": "An unusually self-critical arc that deflates the programme's own headline result a second time by showing the E6-to-SM landing is 77-year-old classified Lie theory and that the nearest analogous derivation of Y already exists in the literature one algebra down; genuinely valuable epistemic hygiene, but its central technical claims (vacuity of the anomaly check, Levi dimension match) rest on cited/hand-derived facts rather than committed code."
+},
+
+{
+"arc": "B952_gut_ledger_rank",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: writes docs/GUT_REQUIREMENTS_LEDGER.md (eleven requirements any GUT must satisfy, including proton-decay exclusion of minimal SU(5) and the 12 exotic states per generation the record never addressed); proves theorem-grade that the measurement cascade is RANK-PRESERVING (centralizer of semisimple elements contains a maximal torus) so it structurally cannot reach the Standard Model's rank 4 from E6's rank 6 without an external breaking mechanism (Higgs VEV / Wilson line / orbifold) the object does not currently supply.",
+"log_says": "15 entries, the most heavily cited arc in this batch -- treated by B953/B954/B955/B959/B962/B963/B964 as the central structural obstruction the rest of that week's arcs work against or around; B964 later corrects that 'the object has no VEV' is false in general (adjoint VEVs exist) but explicitly states this does NOT disturb B952's rank obstruction, only sharpens its physical name.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "rank(E6)=6, rank(su3+su2+u1^3)=6, rank(SM)=4, deficit=2; measurement (centralizer of a torus element) is provably rank-preserving", "where": "results.json / FINDINGS.md section 2", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "the rank arithmetic is trivial and correct (2+1+3=6, 2+1+1=4); the theorem cited ('centralizer of semisimple elements contains a maximal torus') is standard Lie theory, stated not proved in situ; no script computes it -- results.json is a hand-typed summary object, and tests/test_b952_rank.py checks results.json's own hand-typed fields and FINDINGS.md's own prose strings rather than an independent derivation"}
+],
+"belt": "UNCLEAR",
+"belt_note": "tests/test_b952_rank.py exists but is a self-referential lock: it asserts the arithmetic in results.json (a hand-authored file, no generating script) and greps for required phrases in FINDINGS.md/GUT_REQUIREMENTS_LEDGER.md rather than independently recomputing anything.",
+"absence_claims": [
+ {"quote": "27 = 16 + 10 + 1 -- where the 10+1 are twelve EXOTIC states per generation ... The record does not address them anywhere: a named gap", "where": "FINDINGS.md section 1"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind":"SELF_REFERENTIAL_LOCK","detail":"results.json has no generating script (no .py file in the arc directory); its numbers are hand-typed standard-Lie-theory arithmetic, and tests/test_b952_rank.py locks against that same hand-typed file plus string-matches on FINDINGS.md prose rather than an independent computation.","where":"frontier/B952_gut_ledger_rank/ (no .py present); tests/test_b952_rank.py"}],
+"seat_note": "This is the pivotal 'rank obstruction' that the following week's arcs (B953, B954, B959) build directly on -- the underlying group theory (rank-preservation of centralizers, E6/SM rank counting) is correct and standard, but nothing in this arc's own committed files independently computes it; the numbers are typed by hand and locked by a test that checks the same hand-typed file."
+},
+
+{
+"arc": "B953_two_seeds_rank",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: E4=SU(5) is exactly the rank-4 E_n-series waypoint the object's own cascade skips, so 'skipping SU(5) is skipping the rank reduction'; the theta-even/theta-odd split of e6 (78=52+26) gives F4 (rank 4, all reps real, achiral -- where the geometric point sits per B576) versus E6-odd (rank 6, complex 27, chiral) as two branches with EXACTLY COMPLEMENTARY defects, so switching seeds is not a fix; the u(1)^3 identification with u(1)_Y+u(1)_chi+u(1)_psi is explicitly flagged as INFERRED not computed.",
+"log_says": "10 entries; B954 the very next arc corrects this arc's own framing (the 'two seeds' language implies a choice that does not exist, since the theta-odd part is only a module, not a closed algebra) while explicitly stating this 'refutes nothing' in B953.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "E_n series ranks (E5=SO(10) rank5, E4=SU(5) rank4); dim E6=78=52(F4)+26; rank F4=4; all F4 reps real", "where": "results.json (hand-authored, no .py)", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "standard, correct Lie-theory facts (Borel-de Siebenthal chain, F4 dimension/rank); no committed script, arithmetic and citations only, self-flagged in the arc's own honest-limits section as 'standard Lie theory, cited not re-derived'"},
+ {"what": "u(1)^3 = u(1)_Y + u(1)_chi + u(1)_psi", "where": "FINDINGS.md section 1", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "the arc itself states this is 'INFERRED from the rank bookkeeping, not computed' and 'not established here' -- an honest ASSERTED/inferred flag on a load-bearing identification"}
+],
+"belt": "UNCLEAR",
+"belt_note": "tests/test_b953_two_seeds.py locks the same hand-authored results.json fields and FINDINGS.md prose strings; no independent recomputation.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind":"SELF_REFERENTIAL_LOCK","detail":"no .py script in the arc directory; results.json is hand-typed and the test lock checks that same file plus FINDINGS.md string content.","where":"frontier/B953_two_seeds_rank/ (no .py present); tests/test_b953_two_seeds.py"},{"kind":"IDENTIFICATION_BY_TYPE","detail":"the object's abstract u(1)^3 is identified with the physically-named u(1)_Y, u(1)_chi, u(1)_psi purely because the counts match (three abelian factors, three named directions in the standard E6 descent) -- the arc itself calls this inferred, not computed, and flags it as testable only via L132's literature scouting (B951).","where":"FINDINGS.md section 1 and honest limits item 1"}],
+"seat_note": "Correctly self-labels its central identification as inferred rather than computed and is transparent about citing rather than re-deriving standard Lie theory; the 'complementary defects' finding (F4 achiral vs E6-odd chiral-but-wrong-rank) is a genuine and sharp structural point, later itself refined by B954's correction that the 'two seeds' framing is not quite right."
+},
+
+{
+"arc": "B954_both_branches",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict=PROVED; claim: both branches of the theta-grading are necessarily needed to unify -- the Z/2 grading forces [odd,odd]->even, so the theta-odd 26 is a module over F4, not a closed subalgebra, meaning there is no 'theta-odd world' to relocate into; chirality (living only in theta-odd) therefore requires the whole rank-6 e6, and theta itself -- the object's only manifest rank-reducer -- reduces rank precisely by deleting the odd part where chirality lives, i.e. by removing exactly what the reduction is needed for.",
+"log_says": "4 entries, all corroborating and citing this as strengthening/correcting B953's framing without refuting it, and as sharpening what L133 (rank-reduction-mechanism question) must exclude.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "bracket rules [even,even]->even, [even,odd]->odd, [odd,odd]->even force the odd 26 to be a module not a subalgebra; both branches together = e6 dim78 rank6", "where": "results.json (hand-authored, no .py)", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "correct, standard symmetric-space/Z2-graded-algebra fact for E6/F4; stated and hand-typed, not independently computed by a script, but mathematically elementary and checkable"}
+],
+"belt": "UNCLEAR",
+"belt_note": "tests/test_b951_b954.py locks the same hand-typed results.json fields plus FINDINGS.md prose strings for both B951 and B954 jointly; no independent computation.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind":"SELF_REFERENTIAL_LOCK","detail":"no .py script in the arc directory; results.json hand-typed, test lock checks that file and FINDINGS.md prose rather than recomputing anything.","where":"frontier/B954_both_branches/ (no .py present); tests/test_b951_b954.py"}],
+"seat_note": "A clean, correct symmetric-space observation (the odd part of a Z/2-graded Lie algebra is a module not a subalgebra) used to sharpen the programme's own rank-obstruction trap; mathematically sound but entirely hand-derived rather than computed, consistent with the whole B952-B954 mini-arc's pattern of asserted rather than machine-verified Lie theory."
+}
+
+]
+}

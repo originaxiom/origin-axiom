@@ -1,0 +1,356 @@
+{
+ "batch": "arcs_091",
+ "arcs": [
+  {
+   "arc": "B922_lambda2_receipt",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B922_lambda2_receipt/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B922_lambda2_receipt/PRIOR_ART_MAASS.md",
+    "/home/user/origin-axiom/frontier/B922_lambda2_receipt/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B922_lambda2_receipt/prior_art_maass.json",
+    "/home/user/origin-axiom/frontier/B922_lambda2_receipt/spot_checks.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'LAMBDA_2 RECEIVED AND BANKED -- THE SECOND MAASS CUSP FORM EIGENVALUE OF THE FIGURE-EIGHT COMPLEMENT TO 25 DECIMAL PLACES, improving the published precedent for a Maass eigenvalue on a quotient of H^3 from 13 decimal places (Aurich-Steiner-Then 2004) to 25, and NOT INHERITED from the parent Bianchi group PSL(2,O_3)... [CLAIM CORRECTED 2026-08-07 by B943, which applied the O3 gate retroactively: the original sentence claimed a priority on a sweep of unrecorded depth and misstated the precedent as ~10 digits; prior art was then FOUND -- PARTIAL, the mathematics untouched, and no priority word is banked because MathSciNet remains unreachable.]' r = 4.9000853730625213014795758, lambda = 1 + r^2 = 25.01083666330126855876589.",
+   "log_says": "2026-08-06 entry banks 'the first 25-digit Maass eigenvalue on any hyperbolic 3-manifold' unqualified; a later 2026-08-07 log entry (B943) records the retroactive correction: prior art FOUND (partial), the precedent number refuted from ~10 to 13 digits, and the 'cusp form'/pullback qualifiers added; B1006/B1007 log entries confirm the 25-digit value is object-level (not inherited) and that the underlying solver already existed on main since B922 (branch_cell9_rung1_v2.py, seal hash 169e9042).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "r = 4.9000853730625213014795758 (25-decimal Maass eigenvalue of m004), lambda = 1+r^2",
+     "where": "FINDINGS.md 'The number'; arc_verdict.json",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The 25-digit computation was run on cc3's separate sealed branch (58.1h, prereg 169e9042); the actual solver script (branch_cell9_rung1_v2.py) is not among this arc's committed files -- it is referenced as living under frontier/B878_maass_upper_window/ per a later log entry (B1007), outside this arc's directory. This arc's own committed spot_checks.py only recomputes arithmetic identity (1+r^2) and runs PSLQ spot-checks against the given r-string; it does not derive r from scratch."
+    },
+    {
+     "what": "Precedent number for prior H^3 Maass eigenvalue precision",
+     "where": "PRIOR_ART_MAASS.md / prior_art_maass.json",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "Value (13 decimal places, Aurich-Steiner-Then 2004) is taken from an external adversarial literature-panel sweep against bibliographic databases; no PDFs/sources are committed to the repo, only the panel's summary JSON/MD."
+    },
+    {
+     "what": "PSLQ spot-checks: no algebraic relation for r, lambda against 6 constants at 26 dps",
+     "where": "spot_checks.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "spot_checks.py is self-contained (mpmath, hardcoded r-string, explicit constants list), runs and prints results; a stranger can rerun it directly."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "spot_checks.py re-verifies arithmetic and runs independent PSLQ checks on the received value, but does not recompute r itself from the underlying eigenvalue solver (that lives off-arc, per B1007's log entry).",
+   "absence_claims": [
+    {
+     "quote": "MathSciNet remains unreachable",
+     "where": "FINDINGS.md correction banner"
+    },
+    {
+     "quote": "no priority word is banked because MathSciNet remains unreachable",
+     "where": "arc_verdict.json claim_one_line"
+    },
+    {
+     "quote": "NO PRIOR ART AT THE DEPTH SEARCHED -- with one sharp caveat below that the arc must absorb",
+     "where": "PRIOR_ART_MAASS.md VERDICT table, sub-question 3"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The actual 25-digit eigenvalue computation (58.1h sealed run) is not committed inside this arc's directory; the arc banks the number and independently spot-checks it, but the primary solver/witness is elsewhere on main (per a later log entry) and not part of this packet's file set.",
+     "where": "frontier/B922_lambda2_receipt/ (missing the solver script itself)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "This is a good example of proper self-correction: an initially overreaching priority claim ('first 25-digit Maass eigenvalue on any hyperbolic 3-manifold', '~10 digits precedent') was caught by an adversarial prior-art panel and the FINDINGS.md/arc_verdict.json were both updated in place with a correction banner -- not a case of SUPERSEDED_UNMARKED.",
+     "where": "FINDINGS.md correction banner; arc_verdict.json claim_one_line bracket"
+    }
+   ],
+   "seat_note": "The corrected claim (25-decimal Maass cusp-form eigenvalue on m004, not inherited from the parent Bianchi group) is a genuine, well-documented, self-corrected OBSERVABLE mathematical result; but its primary numerical witness is not committed inside this arc, so a stranger auditing only this directory cannot rerun the headline computation, only its downstream spot-checks."
+  },
+  {
+   "arc": "B923_exactification",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B923_exactification/DRAFT_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B923_exactification/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B923_exactification/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B923_exactification/results.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B923_exactification/exactify.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'V-L2 CLOSED AT THE EXACT TIER + THE HIERARCHY-CARRIER DISCOVERY (banking-verified rerun 17 s, 65/65)': the six colored 3-dim atoms built exactly over Mbar; disc = -231 w^2 puts the Kummer field Q(sqrt77,sqrt-3) inside the colored sector; CCC = 3!*lambda is an identity in both gauges (13824/953 tau-twisted, -6 canonical); the pipeline link v_g^2 = roots(HIER) is an identity (953^4*charpoly(V_ccl) = HIER exactly, matching B918's V(rho) coefficient-for-coefficient); DISCOVERY: the canonical gauge collapses the hierarchy to (x+3)^3, generation-degenerate -- the entire generation hierarchy is carried by the Hermitian twist D2, not the atoms/cubic.",
+   "log_says": "2026-08-06 'THE MEANTIME WAVE BANKED' entry: 'B923 (V-L2 CLOSED at the exact tier): the six colored atoms built exactly over Mbar -- the colored eigenvalue field is K(sqrt(-231))... CCC = 3!*lambda is an IDENTITY... the pipeline link is an IDENTITY... v_g^2 = roots(HIER) exactly.' Matches FINDINGS/verdict verbatim in substance.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "charpoly(Mc) = h_S*h_A*h_col^3; disc(h_col) = -231*w_c^2 (Kummer field appears in colored sector)",
+     "where": "exactify.py sections [1]-[?]; results.json 'h_col_ints','colored_quadratic_p/q'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exactify.py uses exact rational/sympy arithmetic (Fraction, sympy factorization) with staged CHK(name, ok) gates that abort-on-fail and dump results.json; results.json shows 65/65 checks PASS, and the file is runnable standalone (banked cell 27 rep, commuting charges, etc. all rebuilt from banked constants inline)."
+    },
+    {
+     "what": "CCC = 3!*lambda identity in both gauges; v_g^2 = roots(HIER) identity",
+     "where": "exactify.py; results.json 'CCC_canonical','CCC_tau_twisted','V_ccl_*'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same script, exact arithmetic checks (953^4*charpoly = HIER verified as polynomial identity), all captured in results.json with pass/fail per check."
+    },
+    {
+     "what": "Numeric identification of exact atoms to B912's atom labels; belt-anchor reproduction to 7.3e-88 floor",
+     "where": "FINDINGS.md 'Tier statement'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Explicitly flagged by the arc itself as 'Numeric tier (identification only)' -- dps 80 residuals against B912's banked 35-digit eigenvalues, which are external banked inputs from other arcs (B912/B918), not recomputed here from B912's own source."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "exactify.py itself performs staged re-verification of banked upstream instruments (rep27, commuting charges, H+ equivariance, the +-1 cubic, B914's cubic) before deriving new exact results -- the arc's own script functions as its own verification belt (65 CHK gates, abort-on-fail).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "DRAFT_FINDINGS.md and FINDINGS.md are byte-identical (diff empty) -- the arc is still titled/marked 'DRAFT -- exact tier for every verdict' in FINDINGS.md itself despite having a verdict file with status PROVED; the draft-status language was never removed from the promoted findings file.",
+     "where": "FINDINGS.md header line 'Status: computation subagent (for cc banking) · Status: DRAFT'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Honest gaps section (self-disclosed) notes: cross-realization transport for CCl/CCC is 'certified' rather than exactly proven end-to-end (a full exact mirror-pairing transport certificate remains open); the exact vanishing of 663 colored-involving non-coupling multisets rests on a numeric-certified scan (B914, clean 1e10 gap), not an exact identity; the factor 3! in CCC=3!*lambda is not representation-theoretically derived.",
+     "where": "FINDINGS.md 'Honest gaps' 1-3"
+    }
+   ],
+   "seat_note": "This is a genuinely reproducible exact-arithmetic computation (Fraction/sympy, 65 abort-on-fail gates, all pass) with honestly disclosed gaps; it is pure algebraic/group-theoretic structure with no measured observable attached, so STRUCTURAL only -- it makes no physical prediction by itself."
+  },
+  {
+   "arc": "B924_involution_couplings",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B924_involution_couplings/DRAFT_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B924_involution_couplings/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B924_involution_couplings/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B924_involution_couplings/inv_couplings.py",
+    "/home/user/origin-axiom/frontier/B924_involution_couplings/results.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'R-INV CLOSED -- RIGIDITY COLLAPSE, ZERO NEW VALUES': the stage field Q(zeta_15) has exactly three involutions (t=4,14,11, the V4 over Q(sqrt5)), and all three satisfy B593's second-order hearing law exactly with forced values coinciding with the banked theta value 1/(2phi)+i*sin(2pi/5)/sqrt5 -- no independent forced coupling exists on this face pair. Mechanism proven (psi0 real+C-symmetric with C central closes both parity channels). Bonus: the golden conjugation sqrt5->-sqrt5 has no involutive lift to the stage field. arc_verdict.json also carries a later 'creates_law_reviewed' (2026-08-29, B1214) classifying this as VERIFICATION not a new law.",
+   "log_says": "2026-08-06 'THE MEANTIME WAVE BANKED' entry: 'B924 (R-INV CLOSED, NEGATIVE with mechanism): the stage field has exactly three involutions and all three collapse to B593's theta value (108 exact rows...); the golden conjugation has NO involutive lift...; Chat-1's ~80-couplings estimate dies at its first pair.' Consistent with FINDINGS/verdict.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "All three field involutions (t=4,11,14) satisfy the hearing law exactly and collapse to B593's forced value; golden conjugation has no involutive lift",
+     "where": "inv_couplings.py Parts 0-2; results.json 'involution_atlas','headline','table' (108 rows)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "inv_couplings.py is self-contained (Fraction-based exact cyclotomic arithmetic over Q(zeta_15), explicit assert statements at each stage: S-hat symmetry, S-hat^2=r*C, [C,rho]=0, psi0 exact match, golden no-lift, parity theorem, per-row law/forced-value checks); results.json records the full 108-row table plus calibration numerics matching to 1e-12."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "inv_couplings.py runs a numeric 'calibration gate' first (reproducing the banked B593 pipeline at 1e-12) before proceeding to the exact symbolic stage -- functions as an internal belt against the upstream B593 result.",
+   "absence_claims": [
+    {
+     "quote": "Locks (`tests/`) not yet written; to be added at banking per repo practice.",
+     "where": "FINDINGS.md 'Honest gaps'"
+    },
+    {
+     "quote": "Chat-1's intended referent could not be located in the repo beyond the masterplan line.",
+     "where": "FINDINGS.md 'Honest gaps'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md states locks/tests were 'not yet written' at time of writing, but a test file (tests/test_b924_rigidity.py) now exists on main in the repo's top-level tests/ directory -- consistent with a later banking step, not a contradiction, but the FINDINGS.md text itself is stale on this point.",
+     "where": "FINDINGS.md 'Honest gaps'; /home/user/origin-axiom/tests/test_b924_rigidity.py (exists)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json carries a downstream 'creates_law_reviewed' entry (dated 2026-08-29, arc B1214) reclassifying this arc's status from an earlier unset/ABSENT state to explicitly 'false' (not a new law) -- this is a retroactive governance annotation appended to the verdict file rather than a mathematical correction; worth noting as an example of after-the-fact reclassification machinery operating across many arcs without individual review (self-described as an asymmetry: 'the thirteen arcs that PASSED the rule were read in full before flipping; these were not').",
+     "where": "arc_verdict.json 'creates_law_reviewed'"
+    }
+   ],
+   "seat_note": "A clean, self-contained exact-arithmetic negative result (no new independent coupling exists on this face pair) with an honestly stated field-level obstruction; purely structural group-theory/number-theory, no observable value produced, so no physics content beyond ruling out one avenue toward a future physical identification."
+  },
+  {
+   "arc": "B925_second_crossing",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B925_second_crossing/DRAFT_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B925_second_crossing/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B925_second_crossing/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B925_second_crossing/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B925_second_crossing/second_crossing.py",
+    "/home/user/origin-axiom/frontier/B925_second_crossing/results.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute)': OUTCOME B verbatim, stronger than the disclosed prior. Fact 1 (theorem-grade): the banked D3/D4 typings admit no unbroken su(2)_L above the banked color inclusion (chain provably not Pati-Salam). Fact 2: the D5 rung is index-1, demanding full unification at M5, whose required solution set is EMPTY (branch gaps 6.2-7.3 sigma). Fact 3: the E6 rung is RG-invisible; rho3 has no required value. The locked kill condition EXECUTES: Phases III-IV lose physics motivation.",
+   "log_says": "2026-08-06 entry: 'B925: THE SECOND CROSSING -- OUTCOME B, stronger than priced; the ladder refuses by its own algebra; the kill condition executes' -- matches FINDINGS/verdict verbatim including Facts 1-3 and the kill-condition language.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Part-0 calibration gate reproducing B915's desert curve bit-comparably (d_min=15.973772 sigma; triangle values to 1e-6 relative)",
+     "where": "FINDINGS.md 'Part 0'; second_crossing.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "second_crossing.py contains explicit check() calls with PASS/FAIL printing and results.json 'part0' section recording the reproduced numbers."
+    },
+    {
+     "what": "C(su3_c,su4)=u(1)_{B-L}, C(su3_c,so8)=u(1)^2 (obstruction to unbroken su(2)_L, i.e. not Pati-Salam)",
+     "where": "second_crossing.py 'centralizer_nullity_modp'/'cert_centralizer'; results.json 'algebra'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact rational arithmetic with explicit commuting-member certification plus mod-p nullity upper bound, both directions certified as claimed; script runnable standalone with 26/26 checks."
+    },
+    {
+     "what": "Required M5 solution set empty (three branches all >6 sigma away from consistency)",
+     "where": "FINDINGS.md 'Fact 2' table; second_crossing.py RGE routines ('run','meet','invalpha_at')",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "One/two-loop RGE integration explicit in script, matched against PDG-input alpha values; sigma computation and branch table match results.json 'part1'."
+    },
+    {
+     "what": "sin^2(theta_W)=3/8 exact re-derivation from Tr T3^2=3, Tr(Y/2)^2=5, Tr T3Y=0 on the 27",
+     "where": "FINDINGS.md 'required-scale table'; second_crossing.py trace routines",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact trace computation over the banked 27 representation, part of the same script."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Part 0 explicitly recomputes/reproduces B915's prior desert-curve result as a calibration gate before the arc's own new computation; a dedicated test file (tests/test_b925_crossing2.py) exists on main for seal-integrity locks.",
+   "absence_claims": [
+    {
+     "quote": "no required M5 exists.",
+     "where": "FINDINGS.md 'Fact 2'"
+    },
+    {
+     "quote": "The ladder does not demand a top scale: rho_3 = M5/MU has no required value.",
+     "where": "FINDINGS.md 'Fact 3'"
+    },
+    {
+     "quote": "M_U/M_Pl: recorded as the free interval -- no number to bank.",
+     "where": "FINDINGS.md 'Fact 3'"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Honest gaps section discloses that the su(2)_L-obstruction certificates rest on banked typings (B909/B877) not recomputed inside the abstract e6(2) build itself, and that 'complete reps at every rung' plus the X-charge pattern rely on banked structure from other arcs (B883/B914) rather than a from-scratch re-derivation in this cell -- a chain-of-trust dependency the arc itself flags rather than hides.",
+     "where": "FINDINGS.md 'Honest gaps' 1, 3, 4"
+    }
+   ],
+   "seat_note": "A properly preregistered (sealed before computation), exact-plus-RGE negative result with a genuine falsifiable design (two named outcomes, anti-shopping menu) that correctly executes a locked kill condition against Phases III-IV of the programme -- a rare, well-conducted null result rather than a positive claim, and it names measured PDG couplings as inputs to a real RG computation, so OBSERVABLE."
+  },
+  {
+   "arc": "B926_crossing_anatomy",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B926_crossing_anatomy/ANATOMY.md",
+    "/home/user/origin-axiom/frontier/B926_crossing_anatomy/EXECUTIVE.md",
+    "/home/user/origin-axiom/frontier/B926_crossing_anatomy/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B926_crossing_anatomy/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true: 'THE CROSSING STUDY, LANE A': a repo-synthesis anatomy of the object-to-measured-values crossing problem. Twenty-two banked walls in four groups jointly kill every mechanism tried/proposed (invariant scales, desert running B915, internal thresholds B925, deformation spinors B429, conformal-chain matter, direct value matching B706/B736, external import B905). The unkilled region is the RELATIONAL layer (B916 values as observer-relation norms, B923 hierarchy in twist D2, 3/8 exact boundary, the invisible 12, R-EMB open). Sharpens the problem and proposes a six-shape menu (M0 null default through M5 residue frontier) plus the 'Hemisphere Check' protocol amendment.",
+   "log_says": "2026-08-06 entry: 'B926: THE CROSSING STUDY, Lane A -- twenty-two walls, one sharpened problem, a six-shape menu with the null as standing default; the HEMISPHERE CHECK adopted.' Matches. REVIEWS.md Review 39 also records 'Protocol amendment (2026-08-06, from B926's autopsy): THE HEMISPHERE CHECK'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Twenty-two banked walls jointly kill every crossing mechanism tried/proposed",
+     "where": "ANATOMY.md / FINDINGS.md (identical, 29357 bytes each)",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is a synthesis/literature-review of prior arcs' banked results (B905, B909, B915, B916, B919, B923, B925 etc.), not a new computation -- it aggregates and re-asserts conclusions from other arcs. Its accuracy depends entirely on those other arcs and on the completeness of the sweep of the banked record itself (self-flagged as an honest gap)."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Pure synthesis document over already-banked arcs; no independent computation, no verification/ directory.",
+   "absence_claims": [
+    {
+     "quote": "the object's own rung is su(4)+u(1)^3.",
+     "where": "EXECUTIVE.md point 12 area (paraphrase of B925 dependency, restated as fact)"
+    },
+    {
+     "quote": "no prior art carries generation structure in a Hermitian/frame twist",
+     "where": "EXECUTIVE.md and cross-referenced in B927 FINDINGS.md (attributed jointly to B905 + Lane B)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json sets 'instrument: true' for what is explicitly a synthesis/literature-review arc over banked results, not a computational instrument -- the field's meaning appears inconsistent with the arc's actual content (no code, no results.json, no computation performed here).",
+     "where": "arc_verdict.json 'instrument': true"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Self-disclosed honest gap: 'W18 needs in-house re-verification (R-EMB's first leg); the off-register-negatives caveat (the wall list is a claim about the READ record); the priors are readings, not probabilities' -- i.e. the 22-wall completeness claim depends on the completeness of a manual sweep of the banked record, not an automated/exhaustive check.",
+     "where": "arc_verdict.json claim_one_line closing sentence"
+    }
+   ],
+   "seat_note": "A synthesis document, not a computation -- its force rests entirely on the correctness of the cited upstream arcs (B915, B925, B923, etc.); read together with them it is a reasonable structural map, but standing alone it establishes nothing new and should not be treated as independent corroboration of those arcs' claims."
+  },
+  {
+   "arc": "B927_crossing_study_verdict",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B927_crossing_study_verdict/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B927_crossing_study_verdict/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B927_crossing_study_verdict/laneB_panel_report.txt"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true: 'THE CROSSING STUDY'S VERDICT' -- Lane A (B926 anatomy) x Lane B (a 106-agent adversarially-verified literature panel). Genre base rate: exactly one marginal conditional advance-prediction of a measured constant from constrained mathematics survives scrutiny in 20 years (Shaposhnikov-Wetterich Higgs mass, self-downgraded). The closest-relative NCG spectral Standard Model had its one advance prediction FALSIFIED and repairs only retrodictively, with couplings as inputs -- and its rescue route (Pati-Salam with a tuned scale) is exactly what B925 proved this object's algebra does not contain. RULING: seals stay closed, M0 (mathematics-only) stands as the doubly-grounded default.",
+   "log_says": "2026-08-06 entry: 'B927: THE CROSSING STUDY CLOSES -- the two lanes meet; the null holds the field doubly grounded; the twist alone and warned.' Reproduces the Shaposhnikov-Wetterich and spectral-SM falsification claims verbatim. Consistent.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Genre base rate: 'exactly ONE genuine advance prediction survives scrutiny' in the 2006-2026 literature (Shaposhnikov-Wetterich Higgs mass); spectral SM's Higgs prediction falsified and repaired retrodictively",
+     "where": "FINDINGS.md 'Lane B's verdict on the genre'; laneB_panel_report.txt",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "laneB_panel_report.txt is the output of an LLM-driven 'deep research harness' (106 fanned-out agents doing web search, source fetching, and pairwise/triple adversarial claim verification e.g. '3-0 checkmarks'); no source PDFs or raw citations are committed, only the harness's own claim-verification tallies and a synthesized summary. A stranger cannot rerun this to get the same literature sweep deterministically, and the 'adversarial verification' is LLM agents checking other LLM agents' claims, not independent human peer review or a citation database query the reader can replicate."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No independent recomputation or re-reading of the actual cited physics papers occurs in this arc; the literature panel's own internal cross-checking (agents verifying agents) is the only verification layer, and it is not committed in a form a human reader can independently audit beyond the tally counts and prompt/summary previews.",
+   "absence_claims": [
+    {
+     "quote": "Q3 (couplings-as-moduli), Q4 (non-desert routes to 0.231), Q5 (the cautionary corpus): NO claims survived adversarial verification -- the sections stand honestly unpopulated, which is itself a datum about the literature's state.",
+     "where": "FINDINGS.md 'Lane B's verdict on the genre'"
+    },
+    {
+     "quote": "3/8's biography stays ours to write (Q4 unpopulated): the literature holds no verified non-desert route from 3/8 to 0.231",
+     "where": "FINDINGS.md 'THE MEETING' point 4"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc's central evidentiary basis (the literature 'base rate' for the genre, and the specific claims about the spectral Standard Model and asymptotic-safety Higgs prediction) comes entirely from an LLM-run 'deep research harness' with LLM agents adversarially verifying other LLM agents' extracted claims (visible tallies like '3-0 checkmarks' in laneB_panel_report.txt), not from a human literature review or a reproducible citation-database query; this is IMPORTED evidence of a kind that is not independently reproducible by a stranger from the committed files (raw sources are not committed, only the harness's synthesized claims and verification counts).",
+     "where": "laneB_panel_report.txt (188k-char report, agentCount:106); FINDINGS.md attributes its physics-history claims to this panel"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json 'instrument: true' is set for what is a literature-synthesis verdict arc (no code, no results.json, no computation) -- same pattern seen in the paired arc B926.",
+     "where": "arc_verdict.json 'instrument': true"
+    }
+   ],
+   "seat_note": "The physics-history claims here (spectral SM Higgs falsification, asymptotic-safety Higgs prediction status) are well-known and plausible on their face, but the arc's own sourcing method -- an LLM deep-research harness self-verifying its own claims -- is not something a human reader can independently audit from the committed files, so treat the specific percentages/tallies as suggestive rather than as an independently reproducible literature review."
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+ "batch": "arcs_095",
+ "arcs": [
+  {
+   "arc": "B955_l133_scout",
+   "source": "main",
+   "files_read": [
+    "frontier/B955_l133_scout/FINDINGS.md",
+    "frontier/B955_l133_scout/PRIOR_ART_RANK_REDUCTION.md",
+    "frontier/B955_l133_scout/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B955_l133_scout/prior_art_rank_reduction.json"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line: L133 scouted (literature panel). My candidate (abelian Wilson lines) refuted -- knot complement has H1=Z so abelian holonomy preserves rank necessarily. Group theory is NOT the obstruction (E6->SU(5) via two 27 VEVs, rank 6->4, 27 stays complex, is standard). Standard non-toral route closed by cyclic-abelianization. Hatch open: pi_1(m004) has A4/D5/S5 images. Q4 (has anyone used a hyperbolic pi_1 as a Wilson-line GUT source) not found, not certified. Status: PROVED.",
+   "log_says": "B955 scouted L133; own candidate refuted; group theory not the obstruction; reframing (B956) independently confirmed; feeds directly into B959's later no-go (A4/D5/S5 rank measurements) and B962's later amendment of 'group theory is not the obstruction'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "every torus element of E6 of order <=6 has centralizer rank 6, no exceptions",
+     "where": "FINDINGS.md sec.1; prior_art_rank_reduction.json q1",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "described as 'certified in-sandbox by the panel' -- no committed script or witness file for this scan ships in the arc directory (only FINDINGS.md, a prior-art writeup, arc_verdict.json, and a JSON summary of conclusions); a stranger cannot rerun it from what is committed."
+    },
+    {
+     "what": "pi_1(m004) surjects onto A4, D5, S5 (exhaustive search)",
+     "where": "FINDINGS.md sec.3; prior_art_rank_reduction.json",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "stated as an 'exhaustive search' result with no script or data file committed in this arc's directory."
+    },
+    {
+     "what": "E6->SU(5) via two rank-1 27 VEVs preserves chirality (rank 6->4)",
+     "where": "FINDINGS.md sec.2",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "cited as standard GUT literature fact via the panel's literature scout, not independently derived or computed in this repo."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "This is a literature/panel scouting arc; no verification/ directory, no code artifact, no results reproduced by a second instrument.",
+   "absence_claims": [
+    {"quote": "No one appears to have used a hyperbolic 3-manifold's π₁ as a Wilson-line source for GUT", "where": "FINDINGS.md:77"},
+    {"quote": "\"not found by this sweep\", never \"does not exist\"", "where": "FINDINGS.md:85"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The central group-theory certifications ('every torus element of E6 order<=6 scanned, all centralizers rank 6'; exhaustive A4/D5/S5 surjection search) are described as 'certified in-sandbox' with no committed script, log, or data witness in the arc directory -- only narrative FINDINGS.md and a hand-typed conclusions JSON.", "where": "B955_l133_scout/FINDINGS.md sec.1,3"},
+    {"kind": "OTHER", "detail": "The arc is fundamentally a literature/citation-count exercise (an 'adversarial scouting panel'); its main content is IMPORTED prior-art rather than anything computed in this repo, though it is honest about that.", "where": "PRIOR_ART_RANK_REDUCTION.md"}
+   ],
+   "seat_note": "Useful, appropriately hedged literature triage, but its two load-bearing group-theory claims (E6 centralizer scan; A4/D5/S5 surjections) have no committed reproducible witness -- they were later independently recomputed by B959, which is the only reason they count as verified in this corpus."
+  },
+
+  {
+   "arc": "B956_l133_analysis",
+   "source": "main",
+   "files_read": [
+    "frontier/B956_l133_analysis/FINDINGS.md",
+    "frontier/B956_l133_analysis/arc_verdict.json",
+    "frontier/B956_l133_analysis/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line: L133 reframed as an intermediate-closure problem -- the object has two computed regimes (abelian torus data, rank 6, too big; Zariski-dense image, rank 0, too small) with the SM at rank 4 strictly between; B582's chirality construction provably overshoots to full E6; recurrence of the same rank-vs-chirality tension at two levels flagged as possibly a theorem. Status: PROVED (an analysis arc claiming no new mathematics).",
+   "log_says": "B956 analysed and reframed L133 as an intermediate-closure problem (repo half of a parallel literature+repo split with B955); repo sweep found Wilson-line/Hosotani machinery in no arc before this date and only 11 arcs mentioning a VEV at all; framing independently converged with B955's panel.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "abelian torus data centralizer = su(3)+su(2)+u(1)^3, rank 6 (from B892); Zariski-dense image centralizer = centre Z/3, rank 0 (from B582/B576)",
+     "where": "FINDINGS.md sec.2; results.json",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "explicitly assembled from banked results of other arcs (B892, B582, B576), not recomputed here; arc states plainly 'nothing here is computed about the object beyond assembling banked results'."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Pure analysis/reframing arc, self-described as computing nothing new; it is a repo sweep plus synthesis.",
+   "absence_claims": [
+    {"quote": "Wilson line / Hosotani / holonomy-breaking appears in NO arc written before today.", "where": "FINDINGS.md:11"},
+    {"quote": "Only 11 arcs mention a VEV at all.", "where": "FINDINGS.md:13 (implicit, table context)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": []
+   ,
+   "seat_note": "Honest, well-scoped synthesis arc that correctly flags its own claims as assembled rather than computed; its main value is naming a testable recurrence (chirality vs. rank tension) rather than asserting a result."
+  },
+
+  {
+   "arc": "B957_l124_torsor",
+   "source": "main",
+   "files_read": [
+    "frontier/B957_l124_torsor/FINDINGS.md",
+    "frontier/B957_l124_torsor/arc_verdict.json",
+    "frontier/B957_l124_torsor/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line: L124 CLOSED, NEGATIVE. B700's torsor has structure group Z/2 over a quadratic field; CMR's torsor is the infinite profinite idele class group of Q(sqrt-3); category difference, not a near-miss. Legendre symbols show the two fields are mutually blind. B723's construction placed both its chirality and values clauses one level too high, in the same direction (both actually land on Z/2 over a quadratic field). Status: NEGATIVE.",
+   "log_says": "B957/L124 closed negative: is B700's torsor the CMR torsor? No, and never close; routed into the kill graph; B723's correction banner amended to cover both clauses. Later cited in the B500-B800 sweep (B1004) as refuting a retracted clause ('measurement = the beta=1 SSB') that was found still live in five places.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "(-3|5) = -1 (5 inert in Q(sqrt-3)); (5|3) = -1 (3 inert in Q(sqrt5))",
+     "where": "FINDINGS.md 'the fields are not just different' section; results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Legendre symbol values are stated as 'computed here' but no script or witness file for the computation is committed in the arc directory (only FINDINGS.md/verdict/results.json narrative); the arithmetic is trivial enough to hand-check, but there is no committed artifact a stranger could re-run."
+    },
+    {
+     "what": "every B700 torsor has structure group Z/2 (generalizing from two cells)",
+     "where": "FINDINGS.md 'the verdict' table; results.json B700_torsors",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "cited from B700's own banked text/summary, not recomputed in this arc."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ dir; a reading-plus-two-Legendre-symbols arc, explicitly self-described as 'no preregistration, deliberately' and 'not a sealed run'.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The Legendre-symbol computation and the B700-generalization claim are both described as done ('computed here', 'B700's own summary generalises it') but the arc directory ships no script, only FINDINGS.md/verdict/results.json prose and a hand-copied JSON.", "where": "B957_l124_torsor/FINDINGS.md, results.json"}
+   ],
+   "seat_note": "A clean negative result (refutes an identification) with a useful cross-arc diagnosis (systematic one-level-too-high error), but the arithmetic that carries the refutation is asserted rather than shipped as reproducible code."
+  },
+
+  {
+   "arc": "B958_presence_scope",
+   "source": "main",
+   "files_read": [
+    "frontier/B958_presence_scope/FINDINGS.md",
+    "frontier/B958_presence_scope/arc_verdict.json",
+    "frontier/B958_presence_scope/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line: THE PRESENCE SIDE scoped; repo has NO independent construction of M12 ('the invisible 12') -- B909 verified section LVIII by running incoming material, not rebuilding. One necessary condition computed on own instrument: dim Z(su3_colour) in e6 = 16 (stacked ad-rank 62 of 78), consistent with the presence-side claim dim(M12)=12 <= 16. Full verification deferred (needs independent frame/floor/M12 build) as L135. Status: OPEN.",
+   "log_says": "B958 scoped the presence side; found repo never built the invisible 12 itself; checked one necessary condition on own e6 instrument (dim Z(su3_colour)=16, reproduced by B959 and B961 later on the same/an independently-built instrument); prompted registration of L135 (build the frame independently), discharged by B961.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "dim Z(su(3)_colour) in e6 = 16 (stacked ad-matrix rank 62 of 78)",
+     "where": "FINDINGS.md sec.2; results.json consistency_test_run",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed on frontier/B854_centralizer_exact/e6_centralizer.py (full Chevalley bracket table), a committed instrument; this exact number is independently re-derived from scratch in B961's frame.py self_test() and matches."
+    },
+    {
+     "what": "repo has no independent construction of M12/the frame; B909 verified by running incoming material only",
+     "where": "FINDINGS.md sec.1; results.json",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "an absence claim about the state of the repo, based on inspection of B909's directory contents (cmt_correct.py, results.json) rather than an exhaustive repo-wide search shown in this arc."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "dim Z(su(3)_colour)=16 is reproduced independently in B961 (frame.py self_test), which the arc itself anticipates as necessary follow-up.",
+   "absence_claims": [
+    {"quote": "The repo contains no independent construction of M12 (the \"invisible 12\").", "where": "FINDINGS.md:11"},
+    {"quote": "So the invisible 12 has never been independently constructed here.", "where": "FINDINGS.md:19"},
+    {"quote": "B958 found that the repo had NO INDEPENDENT CONSTRUCTION of M12 (the 'invisible 12')", "where": "frontier/B958_presence_scope/arc_verdict.json claim_one_line"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The absence claim ('no independent construction of the frame/M12') was later found FALSE by B978, which discovered the frame's definitions were already in CMT_DRAFT.md sec.2 and had already been built by B911 -- the log records this as 'the same failure a THIRD time' (a repeated pattern of absence claims made without a full repo sweep).", "where": "PROGRESS_LOG.md 2026-08-08 B978 entry, per log_index"}
+   ],
+   "seat_note": "Genuinely computed necessary-condition check (16>=12, on committed code, later cross-verified), but its central absence claim about the repo lacking an independent M12 build was subsequently shown false by B978 -- exactly the sweep-before-absence failure mode this seat is instructed to watch for."
+  },
+
+  {
+   "arc": "B959_nontoral_rank4",
+   "source": "main",
+   "files_read": [
+    "frontier/B959_nontoral_rank4/ADDENDUM_2026-08-20_RESCOPE_TO_TORAL.md",
+    "frontier/B959_nontoral_rank4/FINDINGS.md",
+    "frontier/B959_nontoral_rank4/PREREGISTRATION.md",
+    "frontier/B959_nontoral_rank4/arc_verdict.json",
+    "frontier/B959_nontoral_rank4/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line (UNCHANGED since 2026-08-08, NOT updated to reflect the addendum): OUTCOME NO-GO (simply connected form), sealed preregistration passed. Inner involutions (all 63 sign-gradings) fix full Cartan -> rank 6 always. Outer automorphism tau swaps 27<->27bar nodes so Fix(tau) makes the 27 self-dual/real -- closes F4 and C4 at once. A4/D5/S5 elementary-abelian rank <=2 -> toral by Steinberg (simply connected form) -> rank 6. 'The object cannot reach chiral matter at rank 4 by any centralizer construction' [this headline is superseded by the 2026-08-20 addendum below, but the verdict.json text itself still reads this way]. Status: NEGATIVE.",
+   "log_says": "B959/L133 outcome NO-GO: every route to rank 4 makes the 27 real (simply connected form); banked-identity gate passed (dim Z=16, reproduced on same instrument as B958); upgrades B952's 'closed by absence' toward 'closed by proof', with the adjoint-form hatch (discharged later by B960) as the honest remaining gap. Later (2026-08-20, per this arc's own addendum) the audit seat's state-the-relation flag plus B1098/B1100 opened a NILPOTENT stratum (non-simply-toral, A2-class continuous holonomy, centralizer su(3)+su(3) rank 4) that B959's Steinberg-torality argument never covered, and B1100 computed the 27 complex there -- so the headline is now re-scoped to 'every TORAL route'.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "all 63 inner sign-gradings of E6's root system fix the full Cartan (rank 6 always)",
+     "where": "FINDINGS.md sec.2; results.json cell2_inner_involutions",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "stated as 'all 63 sign-gradings were built' with no script committed in this arc's own directory; not obviously reusing B961's frame.py (which postdates it in the same day's sequence)."
+    },
+    {
+     "what": "E6 diagram automorphism tau=(5,1,4,3,2,0), order 2, swapping node pairs (0,5) and (2,4), computed from the Cartan matrix",
+     "where": "FINDINGS.md sec.3; results.json cell3_outer_route",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "described as computed from the Cartan matrix but no script ships in this arc's directory to reproduce it."
+    },
+    {
+     "what": "max elementary-abelian 2-rank/3-rank of A4, D5, S5: A4(2,1), D5(1,0), S5(2,1)",
+     "where": "FINDINGS.md sec.4; results.json cell4_hatch_ranks",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "no committed script in the arc directory; described as 'measured here'."
+    },
+    {
+     "what": "dim Z(su(3)_colour)=16 banked-identity gate",
+     "where": "FINDINGS.md sec.1; results.json cell1_gate",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicitly reproduced from B958's/B961's committed e6_centralizer.py instrument."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory in this arc; all the group-theory computations (63 gradings, tau, A4/D5/S5 ranks) are asserted as done with no committed script in this specific arc folder, though the general e6 instrument exists elsewhere (B854/B961).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's claim_one_line and 'superseded_by': null still assert the unqualified headline ('no centralizer construction whatsoever ... can produce chiral matter') even though the arc's own 2026-08-20 ADDENDUM explicitly re-scopes this to 'every TORAL route' after B1098/B1100 found a working nilpotent-stratum counter-route (centralizer su(3)+su(3), rank 4, 27 computed complex). The verdict.json machine-readable record was never updated to reflect the addendum.", "where": "frontier/B959_nontoral_rank4/arc_verdict.json (superseded_by:null) vs ADDENDUM_2026-08-20_RESCOPE_TO_TORAL.md"},
+    {"kind": "MISSING_WITNESS", "detail": "The three central group-theory computations (63 inner sign-gradings, the tau diagram automorphism, the A4/D5/S5 elementary-abelian rank table) have no committed script in this arc's own directory despite being described as computed 'here'.", "where": "B959_nontoral_rank4/FINDINGS.md sec.2-4"}
+   ],
+   "seat_note": "A carefully self-scoped no-go with an honestly-named remaining hatch (adjoint form), later shown by the arc's own addendum to have an additional hatch (nilpotent stratum) that actually opens -- but the machine-readable verdict record was never corrected, so any downstream row citing B959's unqualified claim_one_line is citing a claim the arc's own later addendum contradicts."
+  },
+
+  {
+   "arc": "B960_l136_adjoint",
+   "source": "main",
+   "files_read": [
+    "frontier/B960_l136_adjoint/FINDINGS.md",
+    "frontier/B960_l136_adjoint/arc_verdict.json",
+    "frontier/B960_l136_adjoint/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line: L136 CLOSED -- the adjoint-form hatch closes itself. det(Cartan matrix of E6)=3 -> centre of simply-connected form is Z/3; omega_1 (27's highest weight) not in root lattice, so centre acts nontrivially on the 27; adjoint form E6/Z3 has no 27 at all. Therefore the simply connected form is FORCED wherever the 27 (matter) lives, so B959's torality argument applies unconditionally and 'B959's no-go is complete within the centralizer class: no centralizer construction ... can produce chiral matter at the SM's rank.' Status: NEGATIVE.",
+   "log_says": "B960/L136: the adjoint-form hatch closes itself; B959's no-go is now complete; LAW_MAP wall row upgraded from 'scope: simply connected' to 'unconditional within the centralizer class'. Discharges the single hatch B959 left open. Not contradicted in the log excerpt shown, but note B959's own later (2026-08-20) addendum found a DIFFERENT, non-adjoint-form hatch (the nilpotent stratum) that B960 never addresses and that undermines B960's 'no-go is complete' headline.",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {
+     "what": "det(Cartan matrix of E6) = 3",
+     "where": "FINDINGS.md 'the answer' table; results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "stated as computed, no script in this arc's directory; standard fact easily checkable but no committed witness here."
+    },
+    {
+     "what": "omega_1 (27's h.w.) not in the E6 root lattice; omega_2, omega_4 are",
+     "where": "FINDINGS.md 'the answer' table; results.json fundamental_weights_in_root_lattice",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the lattice-membership computation is described as run here but no script ships in the arc directory."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No preregistration or verification dir; arc explicitly self-describes as an 'open-and-shut reading', not a sealed run.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "This arc's headline claim ('B959's no-go is complete within the centralizer class: no centralizer construction ... can produce chiral matter') is contradicted by B959's own later (2026-08-20) addendum, which records that B1098/B1100 opened a DIFFERENT hatch (a nilpotent-stratum, non-toral centralizer of rank 4 with the 27 computed complex) that B960's argument (about elementary-abelian subgroups and the adjoint form specifically) never closes. B960's directory carries no addendum or correction acknowledging this, and arc_verdict.json still reads 'complete'.", "where": "frontier/B960_l136_adjoint/arc_verdict.json vs frontier/B959_nontoral_rank4/ADDENDUM_2026-08-20_RESCOPE_TO_TORAL.md"}
+   ],
+   "seat_note": "A tidy closing of the specific hatch it names (adjoint-form elementary-abelian rank-2 subgroups), but its 'complete' headline over-generalizes beyond what it actually closed, and was later falsified by a different route (nilpotent stratum) without B960 itself ever being corrected."
+  },
+
+  {
+   "arc": "B961_frame_instrument",
+   "source": "main",
+   "files_read": [
+    "frontier/B961_frame_instrument/FINDINGS.md",
+    "frontier/B961_frame_instrument/arc_verdict.json",
+    "frontier/B961_frame_instrument/results.json",
+    "frontier/B961_frame_instrument/frame.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line (verdict PROVED, instrument:true): THE FRAME INSTRUMENT -- frame.py provides ad(v), killing(), centralizer(S), killing_perp(S), derived(S) as exact operations over e6, wrapping B854's Chevalley structure constants. self_test() reproduces four banked numbers from scratch: Killing form symmetric, rank 78 (nondegenerate); dim Z(su3_colour)=16 (matches B958); A2+A1 Levi dim/derived/centre = 14/11/3 (matches B892, B951); Killing-perp of Cartan = 72 = 78-6. First run of derived() had a real sympy rref() pivot-column/row indexing bug (silently wrong-dimensional space), caught by the banked-number gate. Does not attempt to guess/reconstruct the solo seat's frame/floor/M12 (deliberately deferred).",
+   "log_says": "B961/L135: THE FRAME INSTRUMENT built on this bench, its own self-test caught a real bug in it; reproduces four banked numbers (rank 78, dim Z=16, Levi 14/11/3, perp-of-cartan 72); explicitly does NOT guess the solo seat's frame/floor/M12, deferring that -- and this deferral was later shown wrong by B978, which found the solo seat's frame definitions already existed in CMT_DRAFT.md sec.2 (already built by B911) and that B958/B961 never checked before deferring.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "Killing form of e6: symmetric, rank 78 (nondegenerate)",
+     "where": "FINDINGS.md sec.3; results.json killing_symmetric/killing_rank; frame.py killing()/self_test()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "frame.py is committed, exact-arithmetic (Fraction/sympy) code with a self_test() function producing exactly this results.json; a stranger can rerun `python3 frame.py` (long-running; not rerun here due to time budget, but the code and stated output are consistent)."
+    },
+    {
+     "what": "dim Z(su3_colour) in e6 = 16",
+     "where": "FINDINGS.md sec.3; results.json; frame.py self_test()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "independently rebuilt from scratch via centralizer(); matches B958's value computed on the same underlying e6_centralizer.py library but via a different (frame.py) wrapper code path with its own self_test."
+    },
+    {
+     "what": "A2+A1 Levi: dim 14, derived(Levi) dim 11, centre dim 3",
+     "where": "FINDINGS.md sec.3-4; results.json; frame.py a2_a1_levi()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed via derived()/centralizer() on the committed Chevalley basis; matches B892/B951's banked numbers, and the arc documents catching and fixing a real indexing bug in its own derived() before this number was trusted."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This IS the belt/recompute arc for B958's and B892's numbers: it independently rebuilds e6 tooling from scratch and cross-checks four previously-banked numbers, catching a real bug along the way.",
+   "absence_claims": [
+    {"quote": "B958 found that the repo had NO INDEPENDENT CONSTRUCTION of the frame or of M12: B909 verified section LVIII by RUNNING INCOMING MATERIAL, not by rebuilding.", "where": "FINDINGS.md:10"},
+    {"quote": "That is the first time; before today they were only ever checked by running incoming code.", "where": "FINDINGS.md:43"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The deferral rationale ('reconstructing their frame wrongly would produce a false verification or a false refutation') is repeated from B958 without re-checking it; B978 subsequently found this premise false -- the solo seat's frame/floor/M12 definitions already existed in the repo (CMT_DRAFT.md sec.2, built by B911) and were simply not looked for by B958/B961.", "where": "per log_index B961.txt, PROGRESS_LOG.md 2026-08-08 B978 entry"}
+   ],
+   "seat_note": "This is the strongest arc in the batch on the reproducibility axis: real committed exact-arithmetic code, a self_test cross-checking four independently-sourced banked numbers, and a documented real bug caught by that cross-check -- genuine belt discipline, though the instrument still imports its base structure constants from B854 rather than deriving the Chevalley basis itself."
+  },
+
+  {
+   "arc": "B962_vev_scout",
+   "source": "main",
+   "files_read": [
+    "frontier/B962_vev_scout/FINDINGS.md",
+    "frontier/B962_vev_scout/PRIOR_ART_VEV.md",
+    "frontier/B962_vev_scout/arc_verdict.json",
+    "frontier/B962_vev_scout/prior_art_vev.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line (verdict PROVED): THE VEV PICTURE SCOUTED. VEV direction is always an input, no framework derives it (standard fact, panel-verified). [PARTIALLY RETRACTED banner at top of FINDINGS.md, added by B964, covering two claims: '27-VEV route stops one step short' (scope error -- true for 27-only breaking, false in general since the 78/adjoint contains a 24) and 'the object does not supply a VEV' (false -- the object supplies adjoint VEVs, which ARE the measurement cascade)]. Surviving: F4 = generic-27-VEV-stabilizer unification; OP^2 homogeneity (no canonical VEV over R/C); the arithmetic exception (Kato-Yukie cubic etale algebras, L138); certified Elkies-Gross null.",
+   "log_says": "B962: the VEV picture scouted; the missing VEV is universal (not a defect of this object); the route stops one step short (LATER found by B964 to be a scope error); F4 wall IS the generic VEV; only opening is arithmetic (L138). B964 partially retracted two of its claims the same day; B966's scope-gate found a FOURTH violation on its calibration run -- the F4 row in LAW_MAP cited B962 without noting the partial retraction (now fixed).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "27 -> 10+5+5bar+5bar+1+1 under SU(5), no 24 present",
+     "where": "FINDINGS.md sec.2; prior_art_vev.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "described as 're-derived in-sandbox by the panel', no script committed in the arc directory; branching rule is standard and easily checkable by hand but no committed witness ships."
+    },
+    {
+     "what": "27's three nonzero Jordan-rank orbits, stabilizers F4 (rank3, generic), Spin(10) (rank1, closed)",
+     "where": "FINDINGS.md sec.3",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "cited from the octonionic-plane/Jordan-algebra literature (Freudenthal, Tits, Miyasaka-Yokota), not computed in this repo."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Literature scouting panel arc; retraction banner is present (properly marked) but nothing here is independently recomputed on this bench.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "arc_verdict.json's stored 'verdict' field for this arc is still 'PROVED' and its claim_one_line text was not edited to reflect the two claims B964 retracted the same day; only the FINDINGS.md file carries a retraction banner. A reader consuming arc_verdict.json programmatically (e.g. LAW_MAP generation) would see the pre-retraction claim text.", "where": "frontier/B962_vev_scout/arc_verdict.json vs FINDINGS.md retraction banner"},
+    {"kind": "FITTED_VALUE", "detail": "None found beyond the corrected scope error -- flagged instead under RETRACTION_NOT_PROPAGATED.", "where": "n/a"}
+   ],
+   "seat_note": "A useful literature synthesis whose own title asserted two claims later shown wrong the same day (one a real scope error, one substantively false); the FINDINGS.md-level correction is well marked, but the corpus's own scope-audit machinery (B966) needed a second pass to catch a LAW_MAP row still citing the unretracted version, illustrating how fragile propagation of retractions is in this project."
+  },
+
+  {
+   "arc": "B963_tau_double_duty",
+   "source": "main",
+   "files_read": [
+    "frontier/B963_tau_double_duty/FINDINGS.md",
+    "frontier/B963_tau_double_duty/arc_verdict.json",
+    "frontier/B963_tau_double_duty/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line (verdict PROVED): tau (E6's unique nontrivial diagram automorphism, order 2, computed here) both certifies the 27 is complex (via cited fact w0=-tau) and is the only rank-reducing involution (all 63 inner sign-gradings fix the full Cartan, computed here) -- one resource, not an uncertainty principle (rejected as an analogy: discrete Frobenius-Schur reality type, no trade-off curve). Scope correction: 'no intermediate regime' is NOT a general statement -- only holds for deformations containing the principal sl2, not for finite-image (A4/D5/S5) representations; conclusion survives by B959's independent torality argument instead. [Later CORRECTED 2026-08-10 by B1017: the 'chirality and rank compete for one budget' corollary is RETRACTED as a category slip -- the cascade's actual rank reduction is by VEVs, not involutions, so the resource count is five, not four.]",
+   "log_says": "B963: tau does double duty; uncertainty analogy rejected; scope correction caught by owner's 'are we rushing?'. B967's retraction sweep (L139) registered B963's 'no intermediate regime' as one of the retracted phrases needing a sweep. B1017 (2026-08-10) retracts the arc's own compete-corollary as a category slip (VEV vs involution) while its two core theorems (tau<=>complex; tau is the only rank-reducing involution) stand -- corrected in-place at the top of FINDINGS.md.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "E6 diagram automorphism tau=(5,1,4,3,2,0), order 2, node swaps (0,5) and (2,4)",
+     "where": "FINDINGS.md sec.1; results.json computed_here",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "described as computed but no script committed in this arc directory (same object as B959/B960's tau, likely the same underlying computation, not re-shown here)."
+    },
+    {
+     "what": "all 63 inner sign-gradings of E6's root system fix the full Cartan",
+     "where": "FINDINGS.md sec.1; results.json inner_sign_gradings_tested",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "same number/claim as B959 sec.2; no script in this arc's own directory; consistent with a shared upstream computation but not independently re-verified here."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ dir; results.json cites the same 63-gradings and tau computation as B959/B960 without a fresh independent check.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's stored claim_one_line still asserts the full original argument including the now-retracted 'compete for one budget' corollary language, without reflecting the 2026-08-10 (B1017) correction; only FINDINGS.md carries the correction banner inline at the top.", "where": "frontier/B963_tau_double_duty/arc_verdict.json vs FINDINGS.md correction banner"}
+   ],
+   "seat_note": "The two core group-theory facts (tau's uniqueness/order, all-inner-gradings-fix-Cartan) are solid and reused correctly elsewhere, but the arc's own interpretive corollary was wrong and had to be retracted five days later -- a reminder that the 'uncertainty principle' framing this arc explicitly rejected still leaked into a wrong 'compete for a budget' framing that needed its own correction."
+  },
+
+  {
+   "arc": "B964_vev_correction",
+   "source": "main",
+   "files_read": [
+    "frontier/B964_vev_correction/ADDENDUM_2026-09-01_PROPOSAL_refile_PROVED.md",
+    "frontier/B964_vev_correction/FINDINGS.md",
+    "frontier/B964_vev_correction/arc_verdict.json",
+    "frontier/B964_vev_correction/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.json: verdict = \"RETRACTED\" (NOTE: this arc withdraws no claim of its OWN -- it only withdraws claims made by B962, B952, B959, B960 -- and its own 2026-09-01 addendum, filed by this same fresh-physics-seat campaign, argues this label is a PRACTICES violation and should be PROVED with supersedes populated). claim_one_line: two corrections -- (1) B962's 'the 27-VEV route stops one step short' is a scope error, since the 78/adjoint DOES contain a 24 (78->45+16+16bar+1 under SO(10), 45->24+10+10bar+1 under SU(5)); (2) 'the object does not supply a VEV' (banked in B952/B959/B960, echoed B962) is FALSE -- an adjoint VEV's unbroken group is exactly its centralizer, so the measurement cascade IS an adjoint Higgs mechanism; the object supplies the rank-preserving adjoint half and lacks only the rank-reducing 27 half.",
+   "log_says": "B964: two corrections on the owner's challenge ('are we sure? i think were getting smth wrong') -- the measurement cascade IS an adjoint Higgs mechanism. Widely cited downstream (B965 audit, B966 gate calibration, B967 retraction sweep, B978's mass-mechanism synthesis) as a correctly-reasoned and important correction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "78 (adjoint) of E6 contains a 24 via 78->45+16+16bar+1 (SO(10)) and 45->24+10+10bar+1 (SU(5))",
+     "where": "FINDINGS.md 'error 1'; results.json error_1",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "standard branching rules cited/quoted, not computed in this repo; used to correct B962's scope error."
+    },
+    {
+     "what": "an adjoint VEV's unbroken group = the centralizer/stabilizer of that VEV under the adjoint action",
+     "where": "FINDINGS.md 'error 2'; results.json error_2",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes (as a definitional/group-theory fact, not a numeric computation)",
+     "why": "this is a standard Lie-theory definitional identity (stabilizer=centralizer for the adjoint action), stated correctly, not something requiring code -- but it is asserted/argued in prose, no witness needed for a definitional claim."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "A correction/reasoning arc; no code, no verification/ dir; correctness rests on standard Lie-theory facts stated correctly.",
+   "absence_claims": [
+    {"quote": "`docs/CLAIMS.md` does not exist.", "where": "ADDENDUM_2026-09-01_PROPOSAL_refile_PROVED.md:23 (the propagation-gap paragraph -- itself later corrected in the same file's own CORRECTION section)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The 2026-09-01 addendum to THIS arc is a proposal filed by the fresh-physics-seat campaign itself (this seat's own earlier work), arguing arc_verdict.json's verdict field ('RETRACTED', supersedes:null) mislabels an arc that proves a positive reframing and withdraws only OTHER arcs' claims, per docs/PRACTICES.md's own rule (B818) that RETRACTED applies only to an arc withdrawing its own headline. As of this read, arc_verdict.json is UNCHANGED (still RETRACTED) -- the proposal is filed but not yet actioned by the owner/banking seat.", "where": "frontier/B964_vev_correction/arc_verdict.json (verdict:RETRACTED) vs ADDENDUM_2026-09-01_PROPOSAL_refile_PROVED.md"},
+    {"kind": "OTHER", "detail": "The addendum's own first-pass absence claim ('docs/CLAIMS.md does not exist') was made without a full sweep and was itself corrected later the same day within the same file, once a sweep found the actual claims registry lives at root CLAIMS.md / core/claims / papers/*/CLAIMS.md.", "where": "ADDENDUM_2026-09-01_PROPOSAL_refile_PROVED.md, its own CORRECTION section"}
+   ],
+   "seat_note": "The correction's physics content is sound (adjoint VEV = centralizer is standard and correctly applied), but the arc's own ledger status is disputed by this campaign's earlier work, and as read, the dispute is unresolved -- VERDICT_LEDGER still likely files this under RETRACTED per the note in the addendum."
+  },
+
+  {
+   "arc": "B965_lawmap_scope_audit",
+   "source": "main",
+   "files_read": [
+    "frontier/B965_lawmap_scope_audit/FINDINGS.md",
+    "frontier/B965_lawmap_scope_audit/arc_verdict.json",
+    "frontier/B965_lawmap_scope_audit/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line (verdict PROVED): mechanical scan of LAW_MAP's 165 claim rows against each cited arc's own verdict for scope markers absent from the row. Result: 5 rows flagged, 0 written before the audit date, all 5 written that same day, 3 needed real fixes (an inference stated as fact; cited standard facts presented as established here; bare 'VEV' used where B964's rank-preserving/rank-reducing distinction was needed). Diagnosis: the arcs themselves are honestly scoped; qualifiers are lost in the LAW_MAP compression step. Registers L139 (retraction sweeps) and L140 (a scope gate).",
+   "log_says": "B965: the LAW_MAP scope audit, 165 rows, 5 flagged, all five written today, 3 real fixes; commissioned by the owner after B964. Directly produces B966's scope gate (L140) via calibration.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "165 LAW_MAP rows audited, 5 flagged, 3 fixed, 0 pre-existing rows flagged",
+     "where": "FINDINGS.md sec.2; results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "described as a 'mechanical' keyword scan over docs/LAW_MAP.md against each cited arc's verdict, but no script for this scan is committed in this arc's own directory -- it is described in prose (the marker list) rather than shipped as reusable code, though B966 later formalizes an equivalent gate in scripts/gates/gates.py."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ dir here; the equivalent mechanism is only later formalized as a committed gate in B966.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NO_TEST", "detail": "The audit's own scan procedure (165 rows against 17 scope markers) is described narratively but not committed as a script in this arc's directory; B966 formalizes a related gate afterward, but the audit's own 165/5/3 counts have no committed reproducible artifact from this arc alone.", "where": "B965_lawmap_scope_audit/FINDINGS.md sec.1-2"}
+   ],
+   "seat_note": "This is a governance/audit arc about the corpus's own compression discipline rather than physics; its finding (qualifiers die in summarization, not in the underlying arcs) is a useful methodological result but carries no physical content and its own scan is not committed as reusable code within this arc."
+  },
+
+  {
+   "arc": "B966_scope_gate",
+   "source": "main",
+   "files_read": [
+    "frontier/B966_scope_gate/FINDINGS.md",
+    "frontier/B966_scope_gate/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict.claim_one_line (verdict PROVED): L140 executed -- a LAW_MAP row citing an arc whose verdict carries >=4 scope markers must itself carry >=1 scope marker; registered as gate `lawmap-scope` in scripts/gates/gates.py plus a docs/PRACTICES.md row. Calibrated against B965: flags all 3 rows B965 fixed, passes the row B965 adjudicated correct, and on its FIRST calibration run finds a 4th violation B965's manual audit missed (the F4 row citing B962 without noting B964's partial retraction). Non-vacuity demonstrated by deleting/restoring a qualifier and observing the gate fail/pass.",
+   "log_says": "B966/L140: the first gate aimed at claim scope, and it caught a fourth violation on its calibration run; both halves of the owner-identified gap (compression leak, retraction-instance leak) now have machinery (lawmap-scope / retraction-sweep).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "gate `lawmap-scope` flags LAW_MAP rows citing an arc with >=4 scope markers in its verdict but <1 in the row itself; found a 4th violation (F4 row / B962-B964 retraction) on first run",
+     "where": "FINDINGS.md 'calibration' and 'non-vacuity' sections",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the gate is stated to live in scripts/gates/gates.py (a committed, presumably version-controlled and CI-run script), and its non-vacuity is demonstrated by an explicit fail/pass toggle test described in the arc, i.e. a genuine reproducible mechanism rather than a one-off narrative claim."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The gate is calibrated by re-running against B965's manually-adjudicated set and matching it exactly, which is itself a form of cross-check/recompute.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The gate is explicitly keyword-based and self-limits to LAW_MAP only; the arc itself states CAMPAIGN_STATUS, README and PROGRESS_LOG headlines carry the same compression risk and are not covered, and that the gate enforces presence of a marker, not its correctness ('a human still has to read').", "where": "FINDINGS.md 'honest limits' sec.2,4"}
+   ],
+   "seat_note": "A well-built and honestly-scoped governance instrument (real code, demonstrated non-vacuity, calibrated against a prior manual audit) but purely a corpus-hygiene tool with no physical content of its own; its stated coverage gap (CAMPAIGN_STATUS/README/PROGRESS_LOG uncovered) is exactly the kind of channel through which the B959/B960/B962/B963/B964 verdict-vs-addendum drifts documented elsewhere in this batch could persist unflagged."
+  }
+ ]
+}

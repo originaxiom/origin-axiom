@@ -1,0 +1,10 @@
+omega_1: orbit size 27, orbit == -orbit: False, -(w0 omega_i) = omega_[6]
+omega_2: orbit size 72, orbit == -orbit: True, -(w0 omega_i) = omega_[2]
+omega_3: orbit size 216, orbit == -orbit: False, -(w0 omega_i) = omega_[5]
+omega_4: orbit size 720, orbit == -orbit: True, -(w0 omega_i) = omega_[4]
+omega_5: orbit size 216, orbit == -orbit: False, -(w0 omega_i) = omega_[3]
+omega_6: orbit size 27, orbit == -orbit: False, -(w0 omega_i) = omega_[1]
+27 = orbit(omega_1): 27 weights; its negative is orbit(omega_6) = 27-bar: True ; 27 self-dual: False
+78 = adjoint: 72 nonzero weights (roots) + 6 zero weights; roots closed under negation: True -> self-dual (real)
+=> B252 MATCH: 27 is complex (dual = 27-bar = orbit of omega_6, the diagram-flipped weight), 78 is real; -w0 acts as the diagram automorphism 1<->6, 3<->5.
+   Reality type: E6 has no pseudoreal irreps (all self-dual irreps are real since -w0 != 1 and the Frobenius-Schur indicator is +1 for the fixed weights) — not checked here, not claimed by B252.

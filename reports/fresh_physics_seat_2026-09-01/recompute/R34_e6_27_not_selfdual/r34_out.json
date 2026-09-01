@@ -1,0 +1,45 @@
+{
+ "omega_1": {
+  "orbit_size": 27,
+  "self_conjugate_orbit": false,
+  "dual_of": [
+   6
+  ]
+ },
+ "omega_2": {
+  "orbit_size": 72,
+  "self_conjugate_orbit": true,
+  "dual_of": [
+   2
+  ]
+ },
+ "omega_3": {
+  "orbit_size": 216,
+  "self_conjugate_orbit": false,
+  "dual_of": [
+   5
+  ]
+ },
+ "omega_4": {
+  "orbit_size": 720,
+  "self_conjugate_orbit": true,
+  "dual_of": [
+   4
+  ]
+ },
+ "omega_5": {
+  "orbit_size": 216,
+  "self_conjugate_orbit": false,
+  "dual_of": [
+   3
+  ]
+ },
+ "omega_6": {
+  "orbit_size": 27,
+  "self_conjugate_orbit": false,
+  "dual_of": [
+   1
+  ]
+ },
+ "verdict": "MATCH"
+}

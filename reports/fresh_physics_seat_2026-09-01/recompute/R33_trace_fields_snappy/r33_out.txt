@@ -1,0 +1,34 @@
+== A. invariant trace fields (shape fields) of the named manifolds ==
+  m004     vol 2.0298832128 cusps 1 H1 Z              field deg 2 Q(sqrt-3) disc -3 sig [0, 1]   [bank: Q(sqrt-3) [golden, B210]]
+  m003     vol 2.0298832128 cusps 1 H1 Z/5 + Z        field deg 2 Q(sqrt-3) disc -3 sig [0, 1]   [bank: Q(sqrt-3) [B803]]
+  s776     vol 5.3334895669 cusps 3 H1 Z + Z + Z      field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7), vol 5.33349, 3 cusps = magic manifold [B142]]
+  m009     vol 2.6667447834 cusps 1 H1 Z/2 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7), arithmetic, non-commensurable with m004 [B850]]
+  m136     vol 3.6638623767 cusps 1 H1 Z/2 + Z/2 + Z  field deg 2 Q(i) disc -4 sig [0, 1]   [bank: Q(i) [silver, B210]]
+  s464     vol 4.8138191861 cusps 1 H1 Z/3 + Z/3 + Z  field deg 8 x^8 + 6*x^6 - x^5 + 12*x^4 - 3*x^3 + 8*x^2 - x + 2 disc 391728981 sig [0, 4]   [bank: degree 8 (B210/B840 script) vs degree 6 (B578-D6 prereg) [bronze]]
+  t03910   vol 5.5736091128 cusps 1 H1 Z/4 + Z/4 + Z  field deg 4 x^4 - x^3 - 2*x^2 - x + 1 disc -1156 sig [2, 1]   [bank: degree 4 [m=4, B210]]
+  b++RRL   vol 2.6667447834 cusps 1 H1 Z/2 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7) [B146 RRL]]
+  b++RLL   vol 2.6667447834 cusps 1 H1 Z/2 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7) [B146 RLL]]
+  b+-RRL   vol 2.6667447834 cusps 1 H1 Z/6 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: (sign variant)]
+  b+-RLL   vol 2.6667447834 cusps 1 H1 Z/6 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: (sign variant)]
+  magic manifold check: s776 volume vs 3-chain link (magic) 5.3334895670 and Borromean 7.3277247: 5.3334896
+== B. m003 vs m004 (B781/B803/B777) ==
+  isometric: False ; volumes 2.029883212819 2.029883212819 ; H1 Z/5 + Z Z ; symmetry groups Z/2 + Z/4 D4
+  bundle b++RL    vol 2.0298832128 H1 Z            = m003? False  = m004? True
+  bundle b+-RL    vol 2.0298832128 H1 Z/5 + Z      = m003? True  = m004? False
+  bundle b-+RL    vol 1.8319311884 H1 Z/2 + Z      = m003? False  = m004? False
+  bundle b--RL    vol 1.8319311884 H1 Z/2 + Z      = m003? False  = m004? False
+  bundle b++RLRL  vol 4.0597664256 H1 Z/5 + Z      = m003? False  = m004? False
+  bundle b+-RLRL  vol 4.0597664256 H1 Z/3 + Z/3 + Z = m003? False  = m004? False
+  tr(RL) = 3, tr(-RL) = -3, tr((RL)^2) = 7 ; |2 - tr| : RL -> 1, -RL -> 5, (RL)^2 -> 5
+  => m003 = b+-RL: monodromy -RL, trace -3 (B781 MATCH); the trace-+7 candidate (RL)^2 is the double cover of m004, vol 4.059766, not m003
+  covers per degree: m003 {2: 1, 3: 1, 4: 2}  m004 {2: 1, 3: 1, 4: 2} ; first common cover: (2, 'm003~cyc~0', 'm004~cyc~0')
+== C. figure-eight covers to degree 6: invariant trace field (B235) ==
+  degree 2: 1 covers, fields {'Q(sqrt-3)': 1}
+  degree 3: 1 covers, fields {'Q(sqrt-3)': 1}
+  degree 4: 2 covers, fields {'Q(sqrt-3)': 2}
+  degree 5: 4 covers, fields {'Q(sqrt-3)': 4}
+  degree 6: 11 covers, fields {'Q(sqrt-3)': 11}
+  (theorem: the invariant trace field is a commensurability invariant, so all covers share Q(sqrt-3); the computation confirms the theorem, it is not evidence beyond it)
+== D. m009 vs m004 (B850): non-commensurable iff different invariant trace field for arithmetic cusped manifolds ==
+  m009 field Q(sqrt-7) vs m004 Q(sqrt-3) -> fields differ -> NOT commensurable (arithmetic cusped: commensurable iff same invariant trace field)
+done 1s

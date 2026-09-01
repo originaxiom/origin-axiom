@@ -1,0 +1,591 @@
+{
+ "batch": "arcs_021",
+ "arcs": [
+  {
+   "arc": "B398_handoff_scrutiny",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "s1_s2.json", "s1_s2_spectral.py", "s2_fullgram.json", "s3_tensor.json", "s3_tensor.py", "s5_statistics.json", "s5_statistics.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The pre-registered statistics gate fired: the PMNS formula ensemble banks as numerology-class (p ≈ 0.087 raw, 0.44 family-corrected, threshold 0.01); the exact S1–S4 Gram mathematics stands, two coherence arguments do not.'",
+   "log_says": "S1-S4 verified item-by-item (1/24 doublet, F4 Gram 23/75, 98/-52, (3,4) 7/5, Z/3 exactness); S5 COMPLETE: gate kills the PMNS ensemble, p=0.087 raw/0.44 corrected vs registered 0.01, numerology-class, firewalled with a derivation-only revival bar. Later reviews cite this as the load-bearing pattern for the multi-seat protocol.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "F4-restricted Gram exactly [[49/115200,-13/57600],[.,.]] => eigenvalues {75/115200, 23/115200}, ratio 23/75; x480^2 = 98, -52", "where": "s1_s2_spectral.py -> s1_s2.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational Gram computation with committed witness JSON"},
+    {"what": "(3,4) full Gram nonzero eigenvalues exactly {7,5}/2304", "where": "s1_s2_spectral.py -> s2_fullgram.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational eigen-decomposition witnessed"},
+    {"what": "PMNS ensemble binding statistics: 5964 reduced fractions, hit counts per window, combined p ~ 0.087 raw / 0.44 family-corrected", "where": "s5_statistics.py -> s5_statistics.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pre-registered enumeration protocol with committed script and JSON output; threshold fixed before the run per FINDINGS text"},
+    {"what": "Tensor rank claim ('EXACTLY 4') is unsupported; matricization rank is actually 3", "where": "s3_tensor.py -> s3_tensor.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct rank computation refutes an inherited claim"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b398_handoff_scrutiny.py locks S1-S5; scripts are self-contained producers with JSON witnesses for each section.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This arc's entire subject is scrutiny of an inherited PMNS-mixing-angle numerology claim; the binding statistical gate itself is exactly the kind of post-hoc multiple-comparisons test (5964-fraction pool) that could be gamed by pool choice, though here it is pre-registered and used to KILL the claim rather than support it.", "where": "s5_statistics.py, FINDINGS.md S5 section"}
+   ],
+   "seat_note": "A rare case where the pre-registered statistics gate is used against the thesis's own numerology claim and the claim dies (p=0.087 vs 0.01 threshold) — good methodological discipline. The surviving 'exact Gram mathematics' is genuinely computed but is STRUCTURAL, not an observable prediction; no PMNS angle survives as a verified physics result here."
+  },
+  {
+   "arc": "B399_wall_scale",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "a2_hierarchy.json", "a2_hierarchy.py", "a3_normalizer.json", "a3_normalizer.py", "identify_1215_triple.py", "recon_e3.py", "singles_1215.json", "singles_1215.py", "singles_1215_p11_20.json", "singles_1215_p11_20.py", "singles_1215_p14_20.json", "singles_1215_p14_20.py", "singles_1215_p3.json", "singles_1215_p3.py", "singles_1215_p456.json", "singles_1215_p456.py", "singles_1215_p7_10.json", "singles_1215_p7_10.py", "triple_cubic.json", "triple_id.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'The seam's 1/12 recruits the golden boundary while the singles' 1/12 is purely generic; the singles tower refines rather than generates scale, and at the 1215 rung Σ=1 and e₂=−1/48 are exact.'",
+   "log_says": "e3 = cos(2pi/9)/864 EXACT later closes 'B399's wall-scale question' (2026-07-23 log entry); a review flags B399's second failed e3 attempt (Jul 9, UNSTABLE) never folded back into triple_id.json.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "Singles det-class split at level 15: class 1 carries all of 1/4, classes 3,5 sum to zero", "where": "a3_normalizer.py -> a3_normalizer.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact class tally with committed JSON"},
+    {"what": "1215 rung: 24 support cells, both registered candidates (CAND-FIX, CAND-DEG) KILLED; 12 cells at exactly 1/12, ℤ/3 triple with e1=0 exact, e2=-1/48 exact", "where": "singles_1215.py (+ p3/p456/p7_10/p11_20/p14_20 multi-prime CRT reconstructions) -> singles_1215*.json, triple_id.json, triple_cubic.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "multi-prime (up to 20 primes across split files) CRT reconstruction, sum rule verified exactly over Q per FINDINGS; the split into 5+ prime-batch files suggests a long detached compute chain"},
+    {"what": "e3 (third symmetric function of the 1215 triple)", "where": "identify_1215_triple.py, recon_e3.py", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "FINDINGS says e3 was PENDING at the time of this arc's banking ('primes 7-10 launched'); the progress log later (2026-07-23) reports e3 = cos(2pi/9)/864 EXACT resolving this, but that resolution is NOT in this arc's own files (not in FINDINGS.md/arc_verdict.json here) — a later arc presumably completed it. A 2026-07-14 review flags a second failed e3 attempt as never folded back into triple_id.json, meaning triple_id.json in this directory may be stale/incomplete relative to the log's final claim."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b399_wall.py exists and covers A1/A2/A3/triple sections per FINDINGS provenance notes.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "The 2026-07-14 REVIEWS.md entry states B399's second failed e3 attempt (UNSTABLE, Jul 9) was 'never folded back into triple_id.json' — meaning the committed triple_id.json in this arc's directory may not reflect the full attempt history, and the eventual claimed resolution (e3 = cos(2pi/9)/864, cited 2026-07-23) is not present in this arc's own committed files.", "where": "docs/progress/REVIEWS.md Review 16 (2026-07-14); frontier/B399_wall_scale/triple_id.json"},
+    {"kind": "MISSING_WITNESS", "detail": "e3 is explicitly PENDING in this arc's FINDINGS.md at time of banking ('e3 pending', 'primes 7-10 launched'), yet arc_verdict.json for B399 reads PROVED without qualifying that the triple's identification is incomplete within this arc.", "where": "FINDINGS.md 'THE 1215 TRIPLE (partial)' section; arc_verdict.json"}
+   ],
+   "seat_note": "Genuinely computed multi-prime CRT reconstruction of a deep-tower value with an honest partial-result banner (e3 pending) at time of writing, but the verdict is PROVED despite an open sub-question, and the log shows the eventual e3 closure happened outside this arc's own committed files — a provenance gap a stranger cannot fully retrace from this directory alone."
+  },
+  {
+   "arc": "B400_canonical_frame",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "canonical_frame.json", "canonical_frame.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'No canonical 3x3 frame exists: the golden seam is a single line exactly orthogonal to the Mercedes plane by support-disjointness in the shared W2-label space, so any mixing-type object requires arbitrary identifications.'",
+   "log_says": "Only mentioned in the 2026-07-29 whole-corpus digest review as part of the frontier B400-B599 window; no dedicated PROGRESS_LOG.md entry describing its content specifically.",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "(2,3) triple is exact Mercedes frame (Gram proportional to [[1,-1/2,-1/2],...], columns sum to zero)", "where": "canonical_frame.py -> canonical_frame.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational Gram matrix computed and asserted"},
+    {"what": "golden line exactly orthogonal to Mercedes plane (both projections identically zero) via support disjointness in shared W2-label space", "where": "canonical_frame.py -> canonical_frame.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact zero-projection check with committed witness"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b400_canonical.py referenced in FINDINGS provenance but not read in this pass; presumed to exist per naming convention seen elsewhere in this batch.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The whole line of inquiry (does a 'canonical 3x3 frame' link the golden seam and the Mercedes/E6-related structures for a mixing-matrix-shaped object) rests on treating a 3-dimensional label space as licensing a PMNS/mixing-matrix identification in the first place; this arc's negative result closes that door, which is itself evidence the type-coincidence was never justified.", "where": "FINDINGS.md 'No canonical 3x3 frame exists' framing"}
+   ],
+   "seat_note": "A clean negative: an exact orthogonality/support-disjointness computation kills a proposed geometric identification outright, and the arc is honest about it (verdict NEGATIVE, used to retroactively ground the B398/S5 statistical kill). Purely structural, no observable content, and correctly labeled as such."
+  },
+  {
+   "arc": "B401_sixth_angle",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "p1_p2.json", "p1_p2_class.py", "p1_prediction.json", "p1_prediction.py", "p3_genus.json", "p3_genus_refine.py", "rule1_cellwise.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'The Z/2 class group of Q(sqrt(-15)) acts on the banked constants (two independent faces are one orbit; the det-class prediction confirmed), and every class-1 cell with chi_-3=+1 is individually Q(sqrt5)-real — a cell-wise Eisenstein gate.'",
+   "log_says": "2026-07-04 addendum: the Eisenstein gate is CELL-WISE (26/26 fully real), stronger than proposed. Also cited in the 2026-07-04 revival-hunt entry (B334 vindicated -> B401/P68).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "sigma_cl: (x,y,z,s) -> (x,-y,-z,s) is the lift of Gal(H/Q(sqrt-15))'s generator; B382's face maps EXACTLY to B397's face under it", "where": "p1_p2_class.py -> p1_p2.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact algebraic map verified against two independently banked constants"},
+    {"what": "class-group det-class prediction confirmed: class-1 -> (0,0,-1/16,1/16), class-5 -> (0,0,-1/48,1/48), classes 3/15 silent", "where": "p1_prediction.py -> p1_prediction.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "falsifiable prediction registered then checked exactly"},
+    {"what": "genus-character refinement of the 1/12 fine grain into 4 exact rational tuples by (chi5,chi-3) class, with cell counts 18/68/8/48", "where": "p3_genus_refine.py -> p3_genus.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact per-class partials committed"},
+    {"what": "Eisenstein gate upgraded to cell-wise law: every class-1 cell with chi_-3(det)=+1 is individually Q(sqrt5)-real (z=s=0) on all 26 such cells", "where": "rule1_cellwise.json (inline check per FINDINGS, prompted by a cross-chat synthesis)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact cell-by-cell check with committed JSON; small file (42 bytes) suggests a compact summary rather than full per-cell dump"},
+    {"what": "L(1,chi_-15) = 2pi*h/(w*sqrt15) = 2pi/sqrt15 with h=2, w=2; ' the Z/2 that acts is the same h=2'", "where": "FINDINGS.md P4 dossier (closed-form, no numerics per provenance note)", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "P4 items are stated as classical closed-form identities 'cited not claimed' rather than computed by a committed script in this directory; no p4-specific .py/.json file is listed"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b401_sixth_angle.py covers P1-P3 sections per FINDINGS provenance notes.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "rule1_cellwise.json is only 42 bytes for a claim about 26 cells being individually verified real — too small to be a full per-cell witness; likely a boolean/summary flag rather than the raw cell data.", "where": "frontier/B401_sixth_angle/rule1_cellwise.json"},
+    {"kind": "MISSING_WITNESS", "detail": "The P4 dossier's four 'exact-identity' items (Gauss-sum basis identification, dynamics=regulator, seam=class-number, zeta_H factorization) are described as closed-form and 'cited not claimed' but no dedicated script/JSON in this directory computes them; they ride on other arcs' banked numbers (B109 Lyapunov data) combined via classical formulas asserted in prose.", "where": "FINDINGS.md 'P4 — the exact-identity dossier' section"}
+   ],
+   "seat_note": "The strongest genuinely computed result here is the cell-wise Eisenstein gate (26/26 exact) and the class-group orbit/prediction confirmation — real arithmetic on a level-15 modular object. The P4 dossier is presented with equal confidence but is closed-form assertion stitched from citations rather than a committed computation in this directory; still purely STRUCTURAL/arithmetic, no observable named."
+  },
+  {
+   "arc": "B402_stripped_mechanisms",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "q1_single_reality.json", "q1_single_reality.py", "q2_landscape.json", "q2_landscape.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'The single-object reality wall has two mechanisms split by seed (m=1 cell-wise local, m=2 aggregate-only), and seam intensity obeys f(gcd(address,15)) with the untwisted canonical point the unique dark address.'",
+   "log_says": "2026-07-04: Q1 pair-requirement wall splits by seed (m=1 cell-wise real/locally forbidden); also cross-referenced in the 2026-07-04 review scope alongside B398/B403/B405/Wall Campaign.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "m=1: all 20 raw single traces are tau3-real cell-wise (locally forbidden imaginary content); m=2: only 8/12 cells real, j in {1,5,7,11} carry imaginary content but every DFT window kills them (aggregate-only)", "where": "q1_single_reality.py -> q1_single_reality.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact trace computation with committed per-cell JSON witness"},
+    {"what": "seam intensity law: f(gcd(address,15)) = {1:44, 3:32, 5:36, 15:0} across all 15 D-side twist addresses, canonical (r=0) is the unique dark point", "where": "q2_landscape.py -> q2_landscape.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive computation over all 15 addresses with exact stratification by gcd class, committed JSON"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b402_mechanisms.py locks both Q1 and Q2' sections per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean, well-scoped exhaustive computation (all 15 twist addresses) producing an exact combinatorial law tied to gcd class; genuinely COMPUTED and reproducible, correctly labeled STRUCTURAL rather than physics."
+  },
+  {
+   "arc": "B403_lead_package",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "scrutiny.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The proposed prime-filter theorem is vacuous on denominators (the DFT confines them to {2,3,5}-smooth) and refuted on numerators (inert 7, 13, 49 already banked); five of the six leads only rename known open frontier.'",
+   "log_says": "2026-07-04: the prime-filter theorem VACUOUS on denominators and REFUTED on numerators; also a 2026-07-23 log entry names a sentinel follow-up firing B403/B405/B406 on a new e3 value.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "all 11 banked s-denominators are {2,3,5}-smooth (necessarily, since 2,3,5 are all non-principal-form-represented) so the 17/19 prediction can never fire", "where": "scrutiny.json (small file, 232 bytes)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "scrutiny.json is tiny (232 bytes) for a claim spanning 11 denominators across multiple prior arcs; likely a summary tally referencing numbers computed elsewhere (B398 etc.) rather than a self-contained recompute — no .py producer script is listed in this arc's files"},
+    {"what": "49=7^2 and 13 already appear as numerators in banked B398 seam quantities, refuting the numerator-side class filter", "where": "IMPORTED from B398 (F4 norm/inner values)", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "these numbers are cross-referenced from B398's own committed s1_s2.json/s2_fullgram.json rather than recomputed here"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b403_leads.py exists per FINDINGS provenance but its content (recompute vs re-read) was not directly examined in this pass; no .py producer script is present in this arc's own directory (only scrutiny.json), so the test likely re-reads rather than recomputes.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "No .py producer script exists in this arc's directory — only scrutiny.json (232 bytes) and prose in FINDINGS.md — for a claim that spans 11 denominators and specific numerator primes; a stranger cannot reproduce the vacuity/refutation argument from this directory alone without re-deriving from B398's files.", "where": "frontier/B403_lead_package/ (file listing: only FINDINGS.md, PREREGISTRATION.md, arc_verdict.json, scrutiny.json)"}
+   ],
+   "seat_note": "This is a scrutiny/meta-analysis arc (evaluating six inherited 'leads') rather than a fresh computation; its conclusions lean heavily on numbers imported from B398/B401/B402/B405 without a standalone recompute script in this directory, which is fine for a synthesis arc but means reproducibility depends on those other arcs' files, not this one's."
+  },
+  {
+   "arc": "B404_gate_derivation",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "root_of_unity.json", "root_of_unity.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'Every class-1 Par-cell is a root of unity in mu_60 (142/142) and the Eisenstein gate is derived with zero violations — 3|ord(C) <=> chi_-3(det(gamma'-I))=-1 — while chi_5(det)=-1 one-directionally forces 5|ord(C).'",
+   "log_says": "2026-07-04: B404 -> P68: root-of-unity law derived, Eisenstein gate derived; 142/142 generic cells roots of unity; 3|ord(C) <=> chi_-3(det)=-1, 0 violations; chi_5=-1 forces 5-part one-directionally.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "142/142 class-1 Par-cells are roots of unity in mu_60; Eisenstein gate 3|ord(C) <=> chi_-3(det(gamma'-I))=-1 holds with zero violations across all 142 cells; chi_5(det)=-1 one-directionally forces 5|ord(C)", "where": "root_of_unity.py -> root_of_unity.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive check over 142 cells with a small (114 byte) JSON summary; the check appears fully exact (no floating point tolerance mentioned) and the script is self-contained"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b404_gate.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean, small, exhaustive (142/142, zero violations) exact number-theoretic derivation promoted to P68; genuinely computed and appropriately scoped as arithmetic structure, not physics."
+  },
+  {
+   "arc": "B405_supersingular_check",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "counts_15a1.json", "sentinels.json", "verify_15a1.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'a_7=a_23=0 for 15a1 is verified but deflated three ways (supersingular counts are automatic and controls make every program prime equally dressable), leaving only a banked sentinel list as falsifiable residue.'",
+   "log_says": "2026-07-04: supersingular pair {7,23} verified (only ones <30), dictionary deflated by controls (11/13/17/19 all give 16), sentinels {31,79,167} banked, retcon flagged third time.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "a_7=a_23=0 for the conductor-15 curve 15a1 (the two exceptional Gram primes are exactly the two supersingular primes below 30)", "where": "verify_15a1.py -> counts_15a1.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "small self-contained elliptic-curve point count script with committed JSON"},
+    {"what": "#E=p+1 at supersingular p is automatic, and controls (p=11,13,17,19) all give count 16, killing the 'every program prime's count means something' reading", "where": "verify_15a1.py -> counts_15a1.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same script computes controls alongside the target primes"},
+    {"what": "supersingular sentinel list for 15a1 below 200 banked ({31,79,167,...})", "where": "sentinels.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "small committed JSON (65 bytes) listing sentinel primes; presumably produced by the same/extended script"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b405_supersingular.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "FINDINGS.md itself flags this as 'the THIRD return of the killed prime filter (B403) without addressing the kill' — a self-noted retcon-attempt pattern (a previously killed line of reasoning resurfacing under new packaging) is explicitly called out by the arc's own authors, which is good self-discipline but signals a recurring temptation to re-argue closed questions.", "where": "FINDINGS.md 'DEFLATED (three ways)' item (iii)"}
+   ],
+   "seat_note": "An honest self-deflating arc: a striking coincidence (a_7=a_23=0 matching the two program-exceptional primes) is verified then correctly shown to be automatic/unfalsifiable via controls, converting to a sentinel-only residual. Good practice; no observable physics content, appropriately NEGATIVE."
+  },
+  {
+   "arc": "B406_two_conductor",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "bridge.json", "bridge_check.py", "mod4_extension.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The 15a1/40a1 Hecke pattern is verified, but the mod-4 congruence holding at every good prime below 200 is forced by rational torsion, killing the modular correspondence = quantization map lead at the congruence level.'",
+   "log_says": "2026-07-04: Hecke pattern exact as claimed; mod-4 congruence holds to p<200 but FORCED by rational torsion (Z/8 on 15a1, full 2-torsion on 40a1); quantization-map lead dies at the congruence level.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Hecke a_p agreement at {13,17,19,29}, disagreement at {7,11,23,31,37,41,43} between 15a1 and the conductor-40 curve", "where": "bridge_check.py -> bridge.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "small self-contained elliptic curve a_p comparison script"},
+    {"what": "a_p(15a1) = a_p(40a1) mod 4 at every good prime <200 (zero violations), shown to be forced by torsion (Z/8 rational torsion on 15a1, full 2-torsion on 40a1)", "where": "mod4_extension.json (126 bytes)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the extension JSON is tiny (126 bytes); no separate .py file is listed for the mod-4 extension specifically, suggesting it may have been computed inline/appended to bridge_check.py rather than as a standalone reproducible script"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b406_bridge.py exists per FINDINGS provenance; not directly examined for recompute-vs-reread in this pass.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "FINDINGS.md itself flags an unresolved '31-collision' tension: an inherited claim that split-principal primes (19,31,61,79,...) are 'absent from the program' collides with 31/79 being banked supersingular sentinels for 15a1 (B405) — filed as open, not resolved in this arc.", "where": "FINDINGS.md 'THE 31-COLLISION (registered tension)' section"}
+   ],
+   "seat_note": "A useful deflationary result (torsion forces the observed congruence, killing a proposed 'quantization map' interpretation) with an honestly filed unresolved tension (the 31-collision) rather than a swept-under-rug loose end."
+  },
+  {
+   "arc": "B407_support_nesting",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "nesting.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The support-nesting claim holds at (1,2) but is killed as a law ((2,4) has both exclusives, (1,3) nests in reverse, (2,3)/(3,4) are equal); the surviving find is that nesting types mirror the M1 product strata pair by pair.'",
+   "log_says": "2026-07-04: support nesting — (1,2) verified, law killed at (2,4), reversed at (1,3); their 16 s-only cells check exactly, universality dies. Also (2026-07-04): B409 folds B407 into P67/M1 (multiplicity <=1 only), preventing a Paper-1 overclaim.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "at (1,2): exactly 28 both + 16 s-only + 0 z-only cells (nesting verified); at (2,4): 8 z-only + 16 s-only (both exclusives, no nesting); at (1,3): 24 z-only + 0 s-only (reversed nesting); (2,3)/(3,4) have exact support equality; (1,4) fully real", "where": "nesting.json (the full census)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact per-pair cell census committed in JSON; no producer .py is listed in this arc's directory though (only nesting.json), so the computation itself lives elsewhere or was inline"},
+    {"what": "phi^4+phi^-4=7 identity is correct and ALREADY BANKED elsewhere (B109's void Jacobian); the extension of the Lucas-reduction pattern to 23 is an OVERCLAIM (23 is neither Lucas nor Fibonacci)", "where": "FINDINGS.md 'Fact 1' section, cross-referencing B109/B398", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "correctly traces provenance to B109 and flags an inherited overclaim about 23"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b407_nesting.py exists per FINDINGS provenance; no .py producer script present in this arc's own directory (only nesting.json), so it is unclear whether the lock recomputes from scratch or re-reads the committed JSON.",
+   "absence_claims": [
+    {"quote": "made explicit in B398 S4 — \"neither was in the repo\" is wrong on this one", "where": "frontier/B407_support_nesting/FINDINGS.md:6"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "No .py producer script is present in this arc's directory for the nesting census (only nesting.json); a stranger cannot independently regenerate the exact cell counts from this directory alone without locating the underlying (2,3)/(3,4)/(1,2) etc. table-generation code, which presumably lives in an earlier arc.", "where": "frontier/B407_support_nesting/ (files: FINDINGS.md, arc_verdict.json, nesting.json only)"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "The arc records that a prior handoff's claimed extension of an exact identity (phi^4+phi^-4=7) to the prime 23 is an overclaim (23 has no analogous Lucas/Fibonacci identity given); flagged here but the seat should check whether this overclaim is repeated uncorrected elsewhere in the corpus (e.g. in papers or handoff docs referencing '23' as Lucas-reducible).", "where": "FINDINGS.md 'Fact 1' section"}
+   ],
+   "seat_note": "A disciplined kill of an over-generalized universal law (support nesting fails at 2 of 4 tested pairs, reverses at one), with the genuine surviving structure correctly folded into a narrower, already-banked statement (B409/P67/M1) rather than kept as an independent theorem."
+  },
+  {
+   "arc": "B408_seam_hierarchy",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "scout_135.json", "scout_135.py", "scout_v2.json", "scout_v2.py", "seam_hierarchy.json", "seam_normalized.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'Under the embedding-invariant functional the seam envelope contracts up the tower (ratio 0.765), closing the object's last internal scale-lever candidate.'",
+   "log_says": "PANEL CORRECTION: the seam contracts too — Wall 1 fully priced (B408 corrected in place with a lock); SCALE-GENESIS VERDICT (B413): measure is FLAT — no scale genesis, citing 'hierarchy B408 + measure B413'; 2026-07-05: the B408 correction is now a THEOREM (no invariant functional under which the seam grows).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Level-15 seam envelope = 1/48 exact; level-45 max envelope ~= 0.0253547 (numeric evaluation of exact coefficients); ratio ~=1.2170>1 initially read as PERSISTENCE", "where": "inline registered comparison -> seam_hierarchy.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact coefficients banked, magnitude comparison numeric per FINDINGS provenance note"},
+    {"what": "135-level numerical scout: GATE FAILED twice (once due to omitted inner Pi_H average, once via a specified fix that still misses by ~2.5%) — scout VOID both times, no scout number entered any record", "where": "scout_135.py -> scout_135.json; scout_v2.py -> scout_v2.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "both failed gate attempts are committed as exhibits with their exact failure reasons documented; the binding gate protocol (registered before running) correctly voided both"},
+    {"what": "CORRECTION: under the embedding-invariant RMS functional, env_15=1/48=0.020833 (deg 1), env_45=sqrt(13/51200)=0.015934 (deg 3), normalized ratio=0.7649<1 => seam CONTRACTS", "where": "seam_normalized.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational/radical values given, correcting the earlier biased max-based statistic; the CORRECTION itself explains the methodological bias (embedding-count asymmetry) that produced the earlier wrong-signed conclusion"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b408_seam_hierarchy.py locks this per FINDINGS provenance; two failed scout attempts are retained as exhibits rather than deleted, a good transparency practice.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "The original Phase-1b verdict (PERSISTENCE/EXPANSION, ratio 1.217>1) is explicitly reversed by an adversarial-panel CORRECTION within the same FINDINGS.md file (the seam CONTRACTS, ratio 0.765<1) due to a biased statistic (max over unequal embedding counts). The correction is clearly marked in this file and the arc_verdict.json reflects only the corrected NEGATIVE conclusion, so this is properly propagated here — flagged only because the earlier PERSISTENCE claim could still exist uncorrected in other documents (papers, handoffs) that cited the pre-correction 1.217 ratio; not checked in this pass.", "where": "frontier/B408_seam_hierarchy/FINDINGS.md 'CORRECTION (2026-07-04, adversarial panel)' section"}
+   ],
+   "seat_note": "A genuinely important self-correction: an adversarial panel caught a biased statistic (unequal embedding counts inflating the max) that had flipped the sign of the conclusion (persistence vs contraction). The corrected result (seam contracts, no internal scale lever anywhere in the object) is exact and well-documented, including two committed failed numerical scout attempts kept as exhibits — strong methodological transparency."
+  },
+  {
+   "arc": "B409_stratification_transport",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "transport.json", "transport.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The transport theorem is KILLED: count-conservation holds on only 4 of 6 pairs, failing exactly the two high-multiplicity ones.'",
+   "log_says": "2026-07-04: the transport theorem KILLED; count conservation holds 4/6 (fails at high-multiplicity bright pairs, DFT non-injective on strata); B407 is P67/M1 restated (multiplicity <=1 only), not a separate theorem; Paper-1 overclaim prevented.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "count-conservation candidate holds on 4/6 pairs ((1,3),(1,4),(2,3),(3,4)) and fails on 2 ((1,2): table s=44 vs product s=60; (2,4): z 8 vs 24), because the DFT+Pi_H map is non-injective on high-multiplicity strata", "where": "transport.py -> transport.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact per-pair count comparison with committed JSON witness"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b409_transport.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A well-scoped negative that correctly demotes a would-be theorem to a restatement of an already-banked, narrower fact (P67/M1), explicitly preventing a paper overclaim — good discipline, no observable content."
+  },
+  {
+   "arc": "B410_coupling_derivation",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b2i_window.json", "b2i_window_action.py", "b2ii_criterion.json", "b2ii_criterion.py", "b2ii_fullfield.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'The coupling criterion separates 4/4 on the full-field product strata (bright iff some X3*X5 carries sqrt(-15)), reducing the crown's why to the banked M1 stratification law.'",
+   "log_says": "2026-07-04: Phase 2b (B410) — the crown advanced to its exact boundary; 2b-i: no window involution realizes sigma_cl — the class action is EMERGENT (M3 pattern).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "exhaustive search over all affine window involutions finds NONE realizing sigma_cl on the banked cells (empty search) -> the class action is emergent, not window-local", "where": "b2i_window_action.py -> b2i_window.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive search with committed empty-result JSON (48 bytes, consistent with a small boolean/empty-list result)"},
+    {"what": "cancellation criterion cannot be stated per-side (all pairs read sqrt-3-free under per-side Pi_H, a trap); on the CORRECT full-field product object it separates all 4 tested pairs exactly", "where": "b2ii_criterion.py -> b2ii_criterion.json; b2ii_fullfield.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "both the failed per-side attempt and the correct full-field criterion are committed with witnesses"},
+    {"what": "the deep residual (WHY the dark-C 5-side withholds sqrt5 at exactly the X3-paired frequencies) is explicitly STAGED, not resolved", "where": "FINDINGS.md 'the deep residual' paragraph", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "explicitly marked as an open/staged research question, not a computed or asserted result"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b410_coupling.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "arc_verdict.json is PROVED for 'the coupling criterion separates 4/4' and 'reducing the crown's why to the banked M1 stratification law,' but FINDINGS.md itself states the deepest part (WHY the 5-side withholds sqrt5 at exactly the paired frequencies) is an unresolved 'deep residual,' 'the genuine specialist-adjacent core,' explicitly STAGED rather than derived. The verdict claims the crown's why 'reduces to' M1, which is accurate as stated, but a casual reader of only arc_verdict.json would not know a residual obstruction remains open.", "where": "arc_verdict.json vs FINDINGS.md 'The deep residual (STAGED with the exact obstruction)' section"}
+   ],
+   "seat_note": "Genuine exact computation on both the negative (2b-i, no window involution) and positive (2b-ii, full-field criterion separates 4/4) sides, with an honestly staged residual; the PROVED verdict is defensible but readers relying on the verdict alone could miss that the deepest mechanistic question is still open."
+  },
+  {
+   "arc": "B411_field_dictionary",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "dictionary.json", "sweep.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The gamma-prime field dictionary is killed: it is multi-valued on generic cells and determines the field only on the boundary cells.'",
+   "log_says": "2026-07-04: hint sweep (B411) — the local/emergent dichotomy; naive field-dictionary killed but localizes the direction, Pi_H is the boundary between local/derivable and emergent/aggregate layers. LATER (B418/TW4, 2026-07-04 same-day entry): B411's 'work upstairs' hope REFUTED — the mirror is not cell-local even in Q(zeta60).",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "cell's full H-field-type is NOT a function of (chi_-3(det), chi_5(det), gcd(det,15)) on generic (invertible-det) cells — multi-valued (6 H-types share the class-1 label); it IS single-valued/determined on boundary cells (gcd in {3,5,15})", "where": "sweep.py -> dictionary.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive check over generic vs boundary cells with committed JSON"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b411_dictionary.py locks the boundary-determinism and generic-multivalence facts per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "This arc's own file contains an 'UPDATE (TW4/B418)' appendix stating the actionable 'work upstairs' direction proposed in the main body is REFUTED for the mirror (B418 found no Galois element realizes the mirror cell-locally even in the full field Q(zeta60)) — the update IS present and marked in this file, but the arc_verdict.json's claim_one_line still only states the original (unretracted) 'dictionary killed, boundary/generic split' finding and does not mention that the arc's own proposed follow-up direction was subsequently refuted. Not a full SUPERSEDED_UNMARKED case since the update is visibly appended, but the verdict record does not carry the correction forward.", "where": "FINDINGS.md 'UPDATE (TW4/B418)' section vs arc_verdict.json"}
+   ],
+   "seat_note": "A well-documented negative-with-payload: a naive dictionary hypothesis is killed but the failure mode is used to name the productive direction (Pi_H as local/emergent boundary); that follow-up hope is itself later refuted in an appended update within the same file, which is good (visible) practice even though the verdict JSON doesn't carry the update forward."
+  },
+  {
+   "arc": "B412_tower_measure",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'The single-seed tower is an exact mass-conserving refinement: each parent splits into a cyclotomic orbit summing to it, with trace-zero innovations (an Iwasawa-type measure).'",
+   "log_says": "2026-07-04: 'what else' (B412) — the tower is a refining MEASURE (Iwasawa-type); exact: mass=1 frozen, parents split into cyclotomic orbits summing to them, innovations trace-zero. Also B741 (2026-07-21) provenance sweep LOCATES B412 as pointing to 'the B399/B408/B426 contraction chain, locked' rather than an independently reproducible cell.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "total mass=1 at every tower level; 15->45->135 each parent splits 1/4 into relabeled support; 135->405 each 1/4 parent splits into a zeta9+ orbit summing to 1/4 exactly (Tr c=0); 405->1215 the 1/12-line carries all mass, trace-zero innovation (e1=0)", "where": "FINDINGS.md 'The exact structure' section, explicitly citing banked values from B372/B392/B394 and the B399 1215 triple (e1=0)", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "the file has NO dedicated .py producer script and NO dedicated JSON in this arc's own directory (only FINDINGS.md and arc_verdict.json, per the packet's file listing); the provenance note explicitly says 'the exact refinement (inline, banked tower values B372/B392/B394 + the 1215 triple e1=0); a directional finding, no lock beyond the arithmetic (all in banked JSONs)' — meaning every number here lives in OTHER arcs' committed JSONs, not this one's"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No tests/test_b412*.py file was found in the repository's tests/ directory (confirmed by a targeted search); FINDINGS.md itself says 'no lock beyond the arithmetic.' This is an arc with zero dedicated code or test file of its own.",
+   "absence_claims": [
+    {"quote": "a directional finding, no lock beyond the arithmetic (all in banked JSONs)", "where": "frontier/B412_tower_measure/FINDINGS.md provenance line"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "This entire 2-file arc (FINDINGS.md + arc_verdict.json only) contains no committed script or JSON of its own; every numeric claim (mass conservation, orbit-sum identities, trace-zero innovations) is asserted in prose as a synthesis of numbers computed in OTHER arcs (B372, B392, B394, B399). A stranger cannot reproduce this arc from its own directory at all.", "where": "frontier/B412_tower_measure/ (only FINDINGS.md and arc_verdict.json present)"},
+    {"kind": "NO_TEST", "detail": "No tests/test_b412*.py exists in the repository, unlike every other arc in this batch which has a dedicated lock file.", "where": "tests/ (absence confirmed by search)"}
+   ],
+   "seat_note": "This is a synthesis/reframing arc, not a computation: it restates already-banked numbers from four other arcs under a new organizing lens (Iwasawa-type measure) with zero independent code or test of its own — verdict PROVED is generous for a directional/interpretive finding with no dedicated reproducibility artifact."
+  },
+  {
+   "arc": "B413_scale_genesis",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "g1_mellin.json", "g1_mellin.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The tower-measure is flat (|L(chi)|=1/4 for every character, Gauss-sum phases), carrying no new arithmetic, so the object generates no scale through its measure.'",
+   "log_says": "2026-07-04: SCALE-GENESIS VERDICT (B413) — measure is FLAT, no scale genesis; |L(chi,mu)|=mass for all characters (12 L(chi1) = exact Z[zeta9] Gauss sum, norm 9) -> outcome (b) reducible. Also referenced 2026-07-14 (B578): 'HOOK H132: zeta9 appears independently in B413's tower-measure Gauss sum — one field, two computations' and a D5 retraction distinguishing B413's Gauss sums from the genuine Kubota-Leopoldt L-value. 2026-08-08: named a standing 'not to be re-litigated without new computation' closure.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "|L(chi_j,mu)|=1/4=mass for EVERY character (chi0 trivial=mass; chi1,chi2: |L|^2=1/16=mass^2, proven exactly in Z[zeta9]); 12*L(chi1)=zeta9+zeta9^4+zeta9^7+3*zeta9^8, an exact element of Z[zeta9] with |.|^2=9", "where": "g1_mellin.py (numeric classification) + inline exact Z[zeta9] computation -> g1_mellin.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the exact ℤ[ζ9] identity is described as computed inline (not purely numeric) per the provenance note, with g1_mellin.py providing a numeric classification cross-check"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b413_scale.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "FINDINGS.md explicitly notes g1_mellin.py performs a 'numeric classification' while the exact Z[zeta9] identity is done 'inline' separately — meaning the committed .py script itself may only be a numeric cross-check rather than the exact symbolic derivation; the exact part's own script/witness is not separately named.", "where": "FINDINGS.md provenance line: 'g1_mellin.py (numeric classification) + the exact ℤ[ζ₉] computation (inline)'"}
+   ],
+   "seat_note": "This is the decisive terminal closure of the 'does the object generate a physical scale' question (answer: no, on every tested channel) — an important and honestly negative result for the thesis's ambitions, properly labeled STRUCTURAL since no observable scale value is claimed, only the absence of scale-generating structure."
+  },
+  {
+   "arc": "B414_generation_structure",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "census.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The Z/3-generations reading fails its privilege test: the object's core multiplicity is Z/2 (class number of Q(sqrt(-15))), and no canonical frame exists.'",
+   "log_says": "2026-07-04: the structure reframe (S044/B414) — honest engagement with 'we have to see it'; same-day, B422 log entry notes 'B414's last in-object frame door closes; the frame is external.' A 2026-07-24 log entry notes 'B414-r re-decides on a non-vacuous gate' (a later re-decision).",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "the object's exact/forced multiplicities census: Z/3 (from the 3-adic tower/specific pairs) vs Z/2 (class number h(Q(sqrt-15))=2, organizing the whole value theory; the value sector is itself a 2-dim doublet)", "where": "census.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "small committed census JSON (1242 bytes) tallying the multiplicities"},
+    {"what": "the ℤ/3-generations reading FAILS its privilege test because the core is ℤ/2, and seeing SM content is BLOCKED by the separately-proved no-canonical-frame result (W-B1/B400)", "where": "IMPORTED from B400 (canonical frame result)", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "correctly cites B400's committed exact orthogonality result rather than re-deriving it"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "test file exists as tests/test_b414_generation.py (note: filename differs slightly from the arc's own directory name convention 'B414_generation_structure' — confirmed present by search) but its recompute-vs-reread behavior was not directly examined.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "A later log entry (2026-07-24, 'B775 Phase 2 Wave 6') states 'B414-r re-decides on a non-vacuous gate,' implying a re-decision/revision of B414 exists elsewhere in the corpus that is not reflected in this arc's own FINDINGS.md or arc_verdict.json (both still read as the original 2026-07-04 NEGATIVE verdict with no addendum).", "where": "PROGRESS_LOG.md 2026-07-24 entry ('B775 Phase 2 Wave 6 banked') vs frontier/B414_generation_structure/ (no B414-r content present in this directory)"}
+   ],
+   "seat_note": "The core finding (Z/3 is not the privileged multiplicity; Z/2 from the class group is) is a genuine, exact structural fact, well-connected to the earlier no-canonical-frame result; but a later log entry ('B414-r re-decides') suggests this arc's verdict may have been revisited elsewhere without an addendum appearing in this arc's own committed files — a provenance gap worth the seat's attention."
+  },
+  {
+   "arc": "B415_behavior_tracking",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "t1_continuum.json", "t1_continuum.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'The tower measure's continuum limit is characterized as a Gauss-sum-modulated Haar measure on Z_3 x Z/5; the registered SM-emergence bar was not cleared.'",
+   "log_says": "2026-07-04: BEHAVIOR-TRACKING (B415 T1) — the tower's destination is named math, no SM; T1: continuum limit = Gauss-sum-modulated Haar on Z_3 x Z/5, anchored by B413's exact level-9 flat result.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the tower-measure's continuum limit mu_infinity on Z_3 x Z/5 is a Gauss-sum-modulated Haar measure (flat magnitude=Haar, phase=cyclotomic Gauss sums over Z_3), anchored by the exact B413 level-9 result", "where": "t1_continuum.py -> t1_continuum.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the characterization rests on the exact level-9 anchor (B413); FINDINGS explicitly notes the level-27 magnitude check 'needs the correct Frobenius orbit and is deferred — not a lock'"},
+    {"what": "the pre-registered four-part SM-emergence bar is NOT cleared (Haar magnitude structureless, Gauss-sum phase is Q3 arithmetic, automorphism group Z3^x x (Z/5)^x is a profinite unit group, none an SM structure)", "where": "FINDINGS.md 'The emergence bar' section", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "this is a qualitative judgment call (whether a given math structure 'is' an SM structure) rather than a numerically checkable claim; reasonably argued but ultimately an interpretive assessment, not a computation"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b415_tracking.py locks the bar-not-cleared fact and characterization per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "FINDINGS.md explicitly notes 'the level-27 magnitude check needs the correct Frobenius orbit and is deferred — not a lock'; the characterization is presented as settled ('a clean, named object') resting only on the exact level-9 anchor, with the next-level check acknowledged incomplete.", "where": "FINDINGS.md 'What we tracked and where it led' paragraph"}
+   ],
+   "seat_note": "The first of a 7-part 'Destination Atlas' campaign that deliberately tracks the object's asymptotic behaviors blind against a pre-registered emergence bar and reports an honest negative each time — a genuinely disciplined falsification method, though the 'bar cleared/not cleared' judgment itself is qualitative rather than computed."
+  },
+  {
+   "arc": "B416_tw2_dynamics",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "track_dynamics.json", "track_dynamics.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'The trace-map flow's destination is exactly a golden-Anosov system (Lyapunov 4 log phi, one conserved kappa, modular symmetry); no SM structure, and the structure is generic.'",
+   "log_says": "2026-07-04: Destination Atlas TW2 — dynamics leads to golden-Anosov, no SM; void Jacobian {phi^-4,1,phi^4} confirmed; coordinate symmetry trivial (order 1). Later, 2026-08-07 (B944) synthesis names B416 as 'a golden-Anosov destination with Lyapunov 4 log phi and one conserved kappa,' part of a broader dynamics/chirality sweep concluding neither dynamics nor chirality is 'missing.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Jacobian at the void has eigenvalues {phi^-4,1,phi^4} = {0.1459,1,6.8541} (reproduces B109); Lyapunov exponents {0, +-4 log phi}; conserved invariant kappa=x^2+y^2+z^2-xyz-2; coordinate perm/sign symmetry group is TRIVIAL (order 1)", "where": "track_dynamics.py -> track_dynamics.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact reproduction of a previously banked (B109) Jacobian plus a new symmetry-group computation"},
+    {"what": "the golden-Anosov structure with rate 4 log phi is GENERIC to hyperbolic once-punctured-torus bundles (control: the metallic family shares it), failing bar (iv) distinctiveness", "where": "FINDINGS.md 'The bar check' CONTROL note", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the control comparison against the 'metallic family' is asserted as a known mathematical fact rather than shown as a script output in this arc's own files"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b416_tw2.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A properly disciplined negative (destination #2 of the atlas): the golden-Anosov structure is not only non-SM but is shown to be GENERIC rather than figure-eight-specific via the metallic-family control, which is an unusually strong (self-undermining, in a good way) honesty check."
+  },
+  {
+   "arc": "B417_tw3_symbolic",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "track_symbolic.json", "track_symbolic.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'The object's symbolic face is the Sturmian subshift — complexity n+1, zero entropy, gap group Z+Zphi — named quasicrystal math, SM bar not cleared.'",
+   "log_says": "2026-07-04: Destination Atlas TW3 — symbolic dynamics = Sturmian quasicrystal, no SM; p(n)=n+1, entropy 0, gap group Z+Zphi. 2026-08-07 (B944): notes B416 and B417 are 'the same object on two faces at OPPOSITE ends of the entropy scale.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the Fibonacci substitution sigma:a->ab,b->a gives the Sturmian subshift: complexity p(n)=n+1 (verified n<=11), entropy 0, gap-labeling group Z+Zphi", "where": "track_symbolic.py -> track_symbolic.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "small self-contained subshift complexity computation, verified only up to n<=11 per FINDINGS, not an asymptotic proof but consistent with the well-known classical Sturmian result"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b417_tw3.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The complexity law p(n)=n+1 is only 'verified n<=11' in this arc's own computation; the general theorem (all n) is a classical result about Sturmian sequences cited, not independently proved here — fine as a sanity check but worth noting the committed computation itself is finite-range.", "where": "FINDINGS.md 'Tracked blind' paragraph"}
+   ],
+   "seat_note": "Destination #3 of the atlas: correctly identifies a well-known classical dynamical-systems object (Sturmian/golden quasicrystal) with zero entropy, contrasted honestly against TW2's positive-entropy flow as 'two faces of one object' — consistent and well-scoped, no SM claim made or implied."
+  },
+  {
+   "arc": "B418_tw4_upstairs",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "track_upstairs.json", "track_upstairs.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'No Galois element realizes the mirror cell-locally on the raw Q(zeta60) table: the emergent symmetries are intrinsic, refuting the B411 projection-artifact hypothesis.'",
+   "log_says": "2026-07-04: Destination Atlas TW4 — emergence is INTRINSIC; B411 upstairs-hope refuted; the mirror is not cell-local even upstairs in Q(zeta60) (all 16 Galois elements fail on the raw table); B411 annotated (hope closed for mirror).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the raw (1,2) t-table in Q(zeta60) has 49 support cells, each rich (power-basis richness 4-13 of 16); NO Galois element c in (Z/60)* (all 16 tested) realizes t(a,-b)=sigma_c(t(a,b)) cell-wise on the raw table -- exhaustive, empty", "where": "track_upstairs.py -> track_upstairs.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive test over all 16 Galois elements with committed empty-result JSON; directly refutes B411's own hypothesis"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b418_tw4.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A genuine self-correction: this arc exhaustively tests and refutes the project's own prior hypothesis (B411's 'work upstairs' hope) rather than confirming it — good evidence the falsification discipline here is real, not just rhetorical. Correctly marks supersedes: B411 in arc_verdict.json."
+  },
+  {
+   "arc": "B419_tw5_quantum",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "track_quantum.json", "track_quantum.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The tracked quantum-invariant destination is a hyperbolic volume with golden-field arithmetic, not an SM structure; the bar is not cleared.'",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Kashaev <4_1>_N large-N growth 2*pi*log<4_1>_N/N descends toward Vol(4_1)=2.0299 (volume conjecture), slow log convergence 3.36->2.29 over N=20->180, with exact Q(sqrt5) arithmetic at 5|N (<4_1>_5=46+2*sqrt5, cited as already banked B384)", "where": "track_quantum.py -> track_quantum.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the numeric convergence toward the known hyperbolic volume is computed and shown with explicit N-range data (3.36 at N=20, 2.29 at N=180), and the exact N=5 value is imported from B384"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b419_tw5.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The headline convergence claim (2*pi*log<4_1>_N/N -> Vol(4_1)) is explicitly numeric with 'slow log convergence' (only reaching 2.29 vs the true 2.0299 at N=180) -- an asymptotic/numeric approach to a known closed-form target, not an exact finite computation.", "where": "FINDINGS.md 'Tracked blind' paragraph"}
+   ],
+   "seat_note": "This arc's log_index was null (not found in the progress log by the packet's own indexing), so its content is only attested by its own committed files; the computation itself (Kashaev invariant asymptotics toward the volume conjecture) is a legitimate, well-known quantum-topology target and is reported honestly as slowly, numerically convergent rather than exact at finite N."
+  },
+  {
+   "arc": "B420_tw6_lfunctions",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "track_lfunctions.json", "track_lfunctions.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'The L-function tracks destination is the genus-character L-factorization of the Hilbert class field of Q(sqrt-15) (entropy = 4*Reg(Q(sqrt5)) = 2sqrt5*L(1,chi5) exact), with the bar not cleared and no SM structure.'",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "entropy = 4*Reg(Q(sqrt5)) = 2*sqrt5*L(1,chi5) = 1.92485 exact; L(1,chi_-15) = 2*pi/sqrt15 = 1.62231; zeta_H = zeta*L(chi_-3)*L(chi5)*L(chi_-15)", "where": "track_lfunctions.py -> track_lfunctions.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the FINDINGS text calls this 'tracked blind + verified' -- decimal values given to 5-6 digits alongside the exact closed forms, consistent with a numeric verification of a classical (Dirichlet regulator / class number formula) identity"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b420_tw6.py locks this per FINDINGS provenance.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Also missing from the progress-log index (log_index null); the content is a classical Dirichlet class-number-formula/regulator identity applied to the already-established golden/Eisenstein/seam pillars — correctly named as math, no SM claim, consistent with the atlas campaign's other destinations."
+  },
+  {
+   "arc": "B421_tw7_atlas",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'Tracked blind to all six of its natural behaviours, every destination is named pure mathematics and none cleared the bar fixed before looking: the object self-generates no Standard Model structure.'",
+   "log_says": "Only cited in a 2026-07-04 REVIEWS.md scope line grouping TW1-TW7/B415-B421 under 'the full Destination Atlas campaign' alongside B411/B412/B413/B414's structural reframe -- no dedicated PROGRESS_LOG.md narrative entry specific to B421's synthesis verdict.",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "the six-row Destination Atlas table (TW1-TW6) summarizing all prior arcs (B415-B420); the campaign verdict that NO destination cleared the emergence bar", "where": "IMPORTED synthesis of B415/B416/B417/B418/B419/B420, no new computation of its own", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "purely a synthesis/summary table over the six already-committed sibling arcs; no dedicated .py/.json exists in this arc's own directory (only FINDINGS.md and arc_verdict.json, 2 files total per the packet)"},
+    {"what": "the 'one honest caveat': the atlas establishes only that the object self-generates no SM structure, not that an externally-supplied frame/scale could not still connect it", "where": "FINDINGS.md 'The one honest caveat' section", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a scoping/interpretive statement, not a computed result"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b421_atlas.py exists per FINDINGS provenance; since this arc has no computation of its own (pure synthesis of B415-B420), any lock here can only re-read/re-assert the sibling arcs' already-committed results, not recompute anything new.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "This is the capstone synthesis of a genuinely well-run blind-tracking campaign (six independent destinations, each judged against a bar fixed before looking, all negative) -- an unusually disciplined negative result for a program whose stated goal is finding the Standard Model; the caveat about external frames is honestly flagged rather than suppressed."
+  },
+  {
+   "arc": "B422_mirror_frame",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "mirror_frame.json", "mirror_frame.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: 'Under the Z/2 mirror frame the golden and Mercedes sectors stay exactly orthogonal, so the content wall holds under both of the object's symmetries.'",
+   "log_says": "2026-07-04: B422 — the Z/2 (mirror/class-group) frame test — NO FRAME, wall holds both sides; the golden line and its mirror are BOTH orthogonal to the Mercedes plane (cos^2=0); also cited same-day in B414's log entry as closing 'B414's last in-object frame door.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the golden slot line AND its mirror image (b -> -b) are BOTH exactly orthogonal to the (2,3) Mercedes plane in the shared W2-label space (cos^2=0, exact)", "where": "mirror_frame.py -> mirror_frame.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational/algebraic orthogonality computation extending B400's method to the mirrored line"},
+    {"what": "the 'tensor double' (object tensor mirror-object) construction was NOT built/tested; only a prior-based argument (flat tensor flat = flat, orthogonal tensor orthogonal-stable = orthogonal) is offered for why it is expected to inherit the same walls", "where": "FINDINGS.md 'The one untested variant' section", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "explicitly NOT computed; offered as a plausibility argument, not a result"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b422_mirror.py locks this per FINDINGS provenance.",
+   "absence_claims": [
+    {"quote": "The 'Two full copies interacting' (the tensor double, object tensor mirror-object) was NOT built.", "where": "frontier/B422_mirror_frame/FINDINGS.md 'The one untested variant' section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A second, independent orthogonality kill (mirror ℤ/2 in addition to the ℤ/3 Mercedes frame from B400) closing the last named in-object frame candidate; the untested tensor-double variant is honestly flagged as untested with only a plausibility prior, not asserted as closed."
+  },
+  {
+   "arc": "B423_gateB_torsion",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "CORRECTION.md", "PREREGISTRATION.md", "arc_verdict.json", "gateB.json", "gateB.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'Closed form for the regularized E6 dynamical zeta as a Fibonacci-square product with the apparition-prime spectrum: figure-eight-specific arithmetic, not SM structure.'",
+   "log_says": "2026-07-04: GATE B COMPUTED (B423) — E6 torsion = Fibonacci-square product; owner's compute-don't-argue point vindicated; prime content = Fibonacci apparition primes, figure-eight-specific (control = Pell primes). Same-day, B425 log entry: 'the object has TWO E6 torsions' — B423's label corrected (dynamical zeta, not geometric torsion at the holonomy); corrections applied to B423 CORRECTION.md + banner, knowledge docs, Paper 2. 2026-07-15 (conductor-endgame): torsion conventions reconciled again. 2026-08-07 (B944): B423 cited as 'a closed-form regularized dynamical zeta,' correctly using the corrected terminology.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "tau(E6) = product over i in {1,4,5,7,8,11} of tau_mi, tau_m=(-5)^m*(product F_2j)^2, from det(I-Sym^2m(A)), A=[[2,1],[1,1]] (the figure-eight homological monodromy, NOT the geometric holonomy); prime content exactly {2,3,5,7,11,13,17,19,29,41,47,89,199} = Fibonacci apparition primes up to F22", "where": "gateB.py -> gateB.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "tests/test_b423_gateB.py RUNS the producer fresh and compares to the committed artifact (confirmed by direct read of the test file: 'test_producer_reproduces_artifact' calls gateB.compute() and asserts equality with the JSON), a strong reproducibility guarantee"},
+    {"what": "the control (SILVER monodromy) gives Pell primes {...,23,59,...}, distinct from the figure-eight's Fibonacci primes {...,47,89,199}, establishing figure-eight-specificity", "where": "gateB.py -> gateB.json (control_tauE6, control_primes fields, confirmed present in test file)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed alongside the main computation and directly asserted in tests/test_b423_gateB.py::test_control_distinctive"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Directly confirmed by reading tests/test_b423_gateB.py: 'the test now RUNS the producer fresh ... and compares to the committed canonical artifact, instead of only reading the JSON' -- this is an explicit audit-driven upgrade from RE-READS to RECOMPUTES (comment dated 'CORRECTED 2026-07-15, audit item 5.2').",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "This arc's own label was corrected in-place (CORRECTION.md: the computed object is the 'dynamical zeta,' NOT 'the E6 Reidemeister torsion at the holonomy' as the PREREGISTRATION.md originally claimed -- a genuinely different SL(2,C) representation, ρ_geo, carries the actual geometric torsion, computed separately in B425). The correction is clearly filed here (CORRECTION.md present, FINDINGS.md carries a banner at the top), so this is properly propagated WITHIN this arc; flagged only because arc_verdict.json's claim_one_line ('the regularized E6 dynamical zeta') already reflects the corrected terminology -- a good example of a correction that DID propagate to the verdict record, in contrast to some other arcs in this batch.", "where": "frontier/B423_gateB_torsion/CORRECTION.md; frontier/B423_gateB_torsion/FINDINGS.md banner; arc_verdict.json"}
+   ],
+   "seat_note": "One of the stronger computational results in this batch: a closed-form exact Fibonacci-square-product formula for a regularized adjoint torsion/dynamical zeta, verified against a genuinely distinctive control (Pell vs Fibonacci primes), with the test explicitly upgraded to re-run the producer rather than trust the stored JSON, and an initial mislabeling (geometric torsion vs dynamical zeta) caught and corrected in place with full propagation to the verdict text. Still pure number-theoretic structure, not a physics observable, and correctly labeled as such by the arc itself."
+  },
+  {
+   "arc": "B424_gateB_hessian",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "hessian.json", "hessian.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: 'Gate B's Hessian spectrum is exactly the per-exponent regularized torsions tau_m=(-5)^m*prod(F_2j)^2 -- golden to the last term, with no SM mass ratio within 2%.'",
+   "log_says": "2026-07-04: GATE B COMPLETE (B424 Hessian golden) + THE CORNERSTONE found; the Hessian frequency spectrum is Fibonacci-golden (same apparition primes, no SM mass ratio within 2%).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the six Hessian eigenvalues (H^1(4_1,e6) per E6 exponent) equal the per-exponent regularized torsions tau_m=(-5)^m*prod F_2j^2, spectrum {-5, 1.5876e8, -2.401e12, -1.769e23, 8.618e29, -1.033e55}, prime content the same Fibonacci apparition primes as B423", "where": "hessian.py -> hessian.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the eigenvalues share the exact closed-form structure derived in B423, extended to the Hessian; committed JSON gives the full spectrum"},
+    {"what": "no pairwise ratio of the six eigenvalues matches any SM mass ratio within 2% (exact-only, blind, pre-registered targets); control (silver) differs", "where": "hessian.py -> hessian.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "a pre-registered blind search against named SM mass-ratio targets, reported as null result -- a properly pre-registered negative comparison"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b424_hessian.py locks this per FINDINGS provenance; likely follows the same audit-driven 'run producer fresh' pattern established for B423 given the shared authorship and same-day banking.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "The eigenvalues here span from -5 to -1.033e55 -- an enormous dynamic range for a 'no SM mass ratio within 2%' comparison; the pre-registered blind search against named targets is the right falsification method, and the null result (no match) is reported honestly rather than mined for a coincidence, correctly labeled NO_OBSERVABLE_CONTENT since a mass ratio was sought but not found."
+  }
+ ]
+}

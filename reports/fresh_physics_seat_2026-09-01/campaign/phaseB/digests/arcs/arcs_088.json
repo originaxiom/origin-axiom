@@ -1,0 +1,152 @@
+{
+ "batch": "arcs_088",
+ "arcs": [
+  {
+   "arc": "B908_exactness_pin",
+   "source": "main",
+   "files_read": [
+    "DESIGN.md", "DRAFT_EXACT.md", "DRAFT_LEG3.md", "FINDINGS.md", "arc_verdict.json",
+    "leg2_results.json", "leg3_B_40123.json", "leg3_B_40639.json", "leg3_C.json",
+    "leg3_D_40123.json", "leg3_D_40639.json", "leg3_G.json", "leg3_K.json", "leg3_R.json",
+    "leg3_T.json", "leg3_V.json", "leg3_exact_results.json", "leg3_results.json (via test)",
+    "tests/test_b908_pin.py"
+   ],
+   "files_sampled": ["leg3_exact.py (head+grep)", "leg3_mechanism.py (head+grep)"],
+   "files_listed_only": ["leg3_state_40123.pkl", "leg3_state_40639.pkl", "leg3_state_40693.pkl", "leg3_state_40897.pkl", "leg3_state_40903.pkl", "leg3_state_40927.pkl", "leg3_state_40939.pkl"],
+   "claim_of_record": "verdict PROVED: two of three legs closed, leg3 mechanism banking-verified; CLOSED IN ROUND 2 (route a-direct): the four torus generators commute rationally on the 27, nine colorless atoms are joint eigenlines of one rational family; P_R = -P_C as exact 106-digit integers, v=0 identically, I=-1 EXACTLY, no height bound. creates_law reviewed 2026-08-29 (B1214): decided FALSE (class VERIFICATION, not a new law).",
+   "log_says": "PROGRESS_LOG 2026-08-05 round 2: 'B908 CLOSED: I=-1 EXACTLY... the tower field never enters the atom lines (mod-p reduction verified at all 7 primes, 252/252, then exact).' Matches FINDINGS/verdict.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "I = -1 exactly (v=0, P_R=-P_C as 106-digit exact integers)", "where": "leg3_exact.py -> leg3_exact_results.json (checks.v_is_0_exactly, I: \"-1\")", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "leg3_exact.py is committed, self-contained, uses Fraction/sympy exact arithmetic with explicit asserts at each derivation step (charpoly factorization, kernel dims, embedding matches at all 7 primes); results.json stores the exact P_R/P_C integers and matches the FINDINGS text digit-for-digit."},
+    {"what": "16-vs-4 gl9-stabilizer dichotomy and uniqueness of invariant cubic", "where": "leg3_T.json, leg3_mechanism.py phase T", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "leg3_T.json records exact integer/exact-Q results (det_stab_dim_Q:16, perm_stab_dim_Q:4, invariant_cubic_unique_Q:true) with named controls (random, permanent) recorded in the JSON."},
+    {"what": "identification of char-0 lines with the banked mod-p pipeline atoms at all 7 primes", "where": "leg3_exact_results.json checks.embeddings_match_all7primes (12/12 at each of 7 primes)", "kind": "COMPUTED", "reproducible_from_committed": "yes but conditioned", "why": "this rests on a 'standing leg-1 assumption' (stated explicitly in DRAFT_EXACT.md and DRAFT_LEG3.md) that the mod-p pipeline is the true reduction of the char-0 construction -- flagged honestly by the authors themselves as an assumption, not fully closed."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Two independent routes (mod-p multi-prime congruence in leg2/leg3_mechanism, and the char-0 exact construction in leg3_exact.py) cross-check the same I=-1 conclusion; a dedicated test file (test_b908_pin.py) asserts on the committed JSONs.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The identification of the char-0 configuration with the banked pipeline (leg 1's standing reduction assumption) is explicitly not fully closed -- 'the standing leg-1 reduction assumption... reduced to pure naming' per DRAFT_EXACT.md, i.e. the authors themselves flag it as needing only 1-of-7-primes verification, not a full proof; this is an honest self-flagged residual gap, not hidden.", "where": "B908_exactness_pin/DRAFT_EXACT.md sec 5 item 3"}
+   ],
+   "seat_note": "This is a genuinely well-instrumented arc: exact Fraction/sympy arithmetic, multiple independent cross-checks (mod-p congruence + char-0 construction), a real pytest lock reading the committed JSON, and an honestly-flagged residual assumption rather than an overclaim. Physics content is purely structural/combinatorial (a sign identity in a Leibniz-determinant construction on an internal 3x3 grid of algebraic 'atoms'); no measurable quantity is named."
+  },
+  {
+   "arc": "B909_frame_arc",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "cmt_correct.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'THE FRAME ARC BANKED... THE COMPACT MEASUREMENT THEOREM VERIFIED WITH THE CORRECTED INSTRUMENT -- at kappa's genuine roots, FIVE (root,prime) pairs including the fully-split 40039, the compact wall centralizer types uniformly dim z=30, derived>=28, z cap core=18, center 2: z=so(8)+u(1)^2... THE LAW_MAP SECTION-F PENDING ROW: ALL FOUR DEBTS PAID.'",
+   "log_says": "PROGRESS_LOG 2026-08-06: 'B909: THE FRAME ARC BANKED -- the CMT verified with the corrected instrument; the stale-septic catch; the LAW_MAP pending row paid whole. The arc whose absence was cc3's most-urgent audit item, closed.' But a LATER entry (2026-08-08, B958) states: 'B909's directory ships only cmt_correct.py and results.json, with no frame or M12 construction anywhere' and 'B909 verified [section LVIII] by RUNNING THE INCOMING MATERIAL, not by rebuilding on this bench' -- i.e. B909 did NOT independently construct the frame/M12, contrary to how 'verified' reads in the earlier banking entry. A still-later entry (2026-08-08, B978) found B958's premise itself wrong: 'the frame could not be rebuilt without the solo seat's definitions was FALSE -- the definitions were in CMT_DRAFT.md section 2, and B911 had already built the frame; I inspected B909 only' -- so the 'no independent construction anywhere' claim about the programme was itself an absence-claim error (conflating B909 with B911).",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "CMT typing at 5 (root,prime) pairs: dim z=30, derived>=28, z_cap_core=18, center=2", "where": "cmt_correct.py -> results.json cmt_typing", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "cmt_correct.py as committed contains a literal broken line: `exec(compile(open('os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'B854_centralizer_exact', 'e6_centralizer.py')').read(),'b854','exec'), globals())` -- the argument to open() is the LITERAL STRING of an unevaluated Python expression (quotes included), not a path. As committed this script cannot run (open() would look for a file named literally 'os.path.join(...)'). A stranger cannot reproduce results.json from this file as-is; it must have been corrupted post-hoc (plausibly by an automated path-scrubbing tool mentioned elsewhere in the progress log) or the results.json predates this corruption."},
+    {"what": "the corrected instrument replaces a retracted section-LIV septic wall polynomial that produced phantom roots", "where": "FINDINGS.md, cmt_correct.py comment line 7-9", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "same script-reproducibility issue as above; the claim of a caught bug is plausible and consistent with the narrative but the fix cannot be independently re-run from the committed file."}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "Called a 'verification' of the ledger's CMT claims, but per the project's OWN later self-audit (B958, then partially retracted by B978) this arc ran the retained incoming pipeline rather than rebuilding independently; separately, the committed script has a broken open() call and cannot be executed as-is, so results.json's reproducibility from source cannot be confirmed by a stranger today.",
+   "absence_claims": [
+    {"quote": "the repo contains NO INDEPENDENT CONSTRUCTION OF M12, the \"invisible 12\"", "where": "PROGRESS_LOG.md 2026-08-08 (B958 entry, quoting/paraphrasing B958's finding about B909)"},
+    {"quote": "B909's directory ships only cmt_correct.py and results.json, with no frame or M12 construction anywhere", "where": "PROGRESS_LOG.md 2026-08-08 (B958 entry)"},
+    {"quote": "B958/B961's claim that the frame could not be rebuilt without the solo seat's definitions was FALSE -- the definitions were in CMT_DRAFT.md section 2, and B911 had already built the frame; I inspected B909 only", "where": "PROGRESS_LOG.md 2026-08-08 (B978 entry)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The committed reproduction script cmt_correct.py contains a corrupted line where open() is passed the literal text of an os.path.join(...) expression instead of an evaluated path string; the script cannot execute as committed, so results.json cannot be regenerated by a stranger from the files in this arc.", "where": "B909_frame_arc/cmt_correct.py line 4"},
+    {"kind": "LOG_DRIFT", "detail": "The banking log entry (2026-08-06) reads as an independent verification ('the CMT verified with the corrected instrument'), but the project's own subsequent audit (B958, 2026-08-08) found the arc 'verified... by RUNNING THE INCOMING MATERIAL, not by rebuilding on this bench' with 'no frame or M12 construction anywhere' in the directory -- though a further entry (B978) muddies this by finding B958 itself wrongly conflated B909 with B911 on the frame-rebuild question, so the exact status of independent construction is unresolved in the log itself.", "where": "PROGRESS_LOG.md entries 2026-08-06, 2026-08-08 (B958), 2026-08-08 (B978)"}
+   ],
+   "seat_note": "The claim of record rests on a script that cannot be run as committed (a corrupted open() call), and the project's own later audit trail disputes whether this arc did independent construction at all versus re-running inherited material -- a live, self-acknowledged uncertainty in the log that the arc's own FINDINGS/verdict do not reflect. Physics content is structural (Lie-algebra centralizer typing); no observable is named."
+  },
+  {
+   "arc": "B910_kappa_class",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "DRAFT_FINDINGS.md", "arc_verdict.json", "independent_check.py"],
+   "files_sampled": ["kappa_class.py (head+grep)"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'L3 DELIVERED -- THE ONE-CLASS THEOREM... [alpha_mu]=[alpha_generic]=[alpha_kappa]=C and [alpha_vac]=C^{-1}... the full Z/3 multiplication table of the four classes is certified entry-by-entry.' creates_law_corrected 2026-08-29 (B1214): creates_law=true, registry_row T-ONE-CLASS-COMPACT.",
+   "log_says": "PROGRESS_LOG 2026-08-05 round 1: 'B910 (L3): THE ONE-CLASS THEOREM. The compact-pencil cubic kappa... splits [1,2] over K with an exact root certificate, and its Kummer element sits in EXACTLY the charge class... the full Z/3 multiplication table certified entry-by-entry with an independent sympy-radical re-verification PASSED at banking.' Matches FINDINGS/verdict exactly.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "[alpha_kappa]=[alpha_mu] via gamma3^3*alpha_kappa=alpha_mu, and gamma4^3=alpha_vac*alpha_kappa", "where": "kappa_class.py -> results.json; re-derived by independent_check.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "independent_check.py deliberately shares no code with kappa_class.py's 4-vector algebra, recomputes alpha_mu/alpha_kappa/alpha_vac via sympy radical arithmetic from scratch, and asserts the two cube identities plus the re-embedded non-cube chi_3 witness at p=37 all pass -- a genuine cross-checked exact certificate."},
+    {"what": "kappa irreducible, constant -19^3, disc squarefree kernel {7,11}, [1,2] split over K", "where": "kappa_class.py stage 0-1, asserted inline", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy exact factor_list/discriminant/irreducibility checks with explicit asserts (kc[-1]==-6859==-19**3, kern==[7,11], degs==[1,2], exact polynomial-remainder root certificate)."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "independent_check.py is a genuine independent re-derivation (different algebraic route: sympy radical arithmetic vs 4-vector arithmetic) rather than a re-read of stored numbers, so this borders RECOMPUTES; classified RE-READS only because it reuses stored kappa/mu coefficients and one stored non-cube witness value from results.json rather than rebuilding kappa from the e6 pencil itself.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Solid: exact symbolic algebra throughout, with a real independently-coded cross-check script that shares no logic with the primary computation and passes. Physics content is purely algebraic/structural (Kummer classes of cubic algebras arising from an internal Lie-theory pencil); no observable or measured value is claimed."
+  },
+  {
+   "arc": "B911_cmt_document",
+   "source": "main",
+   "files_read": ["CMT_DRAFT.md", "b854_rerun_results.json", "cmt_frame_check.py", "cmt_frame_results.json", "cmt_recompute2_results.json", "cmt_recompute_results.json"],
+   "files_sampled": ["cmt_recompute.py (not sampled in detail; results reviewed)"],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false in packet). CMT_DRAFT.md is explicitly a DRAFT: 'Nothing here is banked until S1 passes... Draft complete; awaiting the banking seat's suite rerun and S1 review.'",
+   "log_says": "not in log directly by arc-name in a dedicated entry; log_index shows only 1 mention: PROGRESS_LOG.md 2026-08-08 (B978) noting 'B911 had already built the frame' contradicting an earlier claim in B958/B961 that no independent frame construction existed.",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "compact wall typing so(8)+u(1)^2 at fresh prime 40829 (dim 30, derived 28, center 2), replicated at all 3 walls", "where": "cmt_recompute2.py/cmt_recompute_results.json (stage2, stage inline)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cmt_recompute.py/cmt_recompute2.py are committed with explicit exact/mod-p checks; results JSONs record concrete fresh-prime data (p=40829, distinct from every ledger prime) with stage flags true; CMT_DRAFT.md's own honest-tier table (sec 3) states this is mod-p evidence, NOT yet char-0 exact -- explicitly flagged as the 'top open belt.'"},
+    {"what": "frame Killing Gram diagonal, signature (2,2), det a rational square, norm squarefree kernels 13/19", "where": "cmt_frame_check.py -> cmt_frame_results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cmt_frame_check.py execs the banked B854 build and computes the exact Fraction-valued Killing Gram; results match stated values in CMT_DRAFT.md exactly (det, per-charge norms, squarefree kernels)."},
+    {"what": "the D4-uniqueness import (so(8) as unique 28-dim rank<=4 algebra) is INCOMPLETE as recorded in the solo ledger", "where": "CMT_DRAFT.md sec 5", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "the arc itself flags this as an open import needing a citation pin (I-4, G2+G2 non-embedding in e6) or a direct computation -- self-disclosed gap, not silently assumed."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This arc is itself an independent-recomputation exercise against solo-seat ledger claims (cmt_recompute.py/cmt_recompute2.py/cmt_frame_check.py), explicitly tiered as mod-p evidence vs exact per §3's own table; it is a DRAFT awaiting banking review, not itself a verified belt for a prior claim.",
+   "absence_claims": [
+    {"quote": "the CMT has not yet had that pass -- it is the top open belt", "where": "B911_cmt_document/CMT_DRAFT.md sec 3, referring to exact (as opposed to mod-p) verification of compact wall dims"},
+    {"quote": "W_frame = Z2xZ2 (FS4); J1a involution-genericity ... not recomputed", "where": "B911_cmt_document/CMT_DRAFT.md sec 3 table, row 'W_frame / J1a'"},
+    {"quote": "The full-78 compact degeneration beyond the core (ledger NU3 part B) -- never computed", "where": "B911_cmt_document/CMT_DRAFT.md sec 7 item 5"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This is an unbanked DRAFT (no FINDINGS.md, no arc_verdict.json) whose content was nonetheless treated in a later arc's log entry (B909, and the B978 correction) as though it settled facts about frame construction; the packet's has_findings/has_verdict flags are both false, correctly signalling its provisional status, but downstream log entries reference it inconsistently (see B909's log_consistency note above).", "where": "B911_cmt_document/CMT_DRAFT.md header ('DRAFT for S1 banking review... Nothing here is banked until S1 passes')"}
+   ],
+   "seat_note": "A genuinely careful self-auditing document -- it explicitly separates exact from mod-p-only claims, flags an incomplete import (G2+G2 exclusion) rather than silently assuming it, and lists ten open belts by name; but it never received a verdict file in this packet and its downstream citation history (B909, B958, B978) shows real confusion about which arc actually built the frame independently. Physics content is structural (E6 centralizer/Lie-algebra typing under an internal charge pencil); no observable named."
+  },
+  {
+   "arc": "B912_norm_cell",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "DRAFT_FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json"],
+   "files_sampled": ["norm_cell.py (head+grep)", "results.json (keys/verdict only)"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'OUTCOME B, AND THE OBSTRUCTION IS EXACTLY THE COLORED SECTOR... signature (15,12)... all nine colorless 1-dim atoms are POSITIVE-DEFINITE with computed scales... ALL SIX colored 3-dim atoms are INDEFINITE with signature (1,2,0) each... THE DISCLOSED PRIOR LOST (fourth in a row).' creates_law reviewed 2026-08-29 (B1214): decision FALSE, class VERIFICATION.",
+   "log_says": "PROGRESS_LOG 2026-08-05 round 2: 'B912, the sealed norm cell (R1): OUTCOME B, and the obstruction is structured. The antilinear intertwiner J exists and is unique up to one real scale... the canonical Hermitian form on the 27 has SIGNATURE (15,12) -- exactly the su(6)+su(2) K-type dimension split of e6(2) (fenced, banked as structure).' Consistent with FINDINGS/verdict.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "J exists uniquely; H+/H- integer +-1 signed-permutation symmetric matrices exactly solving (S)", "where": "norm_cell.py stage 2-3 -> results.json (H_plus/H_minus entries), sealed prereg step 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "norm_cell.py performs an exact rational linear-algebra solve (fractions.Fraction) with CHK() assertions gating each step and dumping partial results.json on failure; the prereg was sealed BEFORE compute (hash committed) which is a genuine anti-post-hoc-tuning discipline."},
+    {"what": "signature of H on the 27 is (15,12); colored atoms indefinite (1,2,0), colorless atoms positive-definite", "where": "norm_cell.py -> results.json signature_H_normalized_exact, atoms, outcome_B_where", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "raw signature by exact cycle count (12 two-cycles + 3 fixed slots), the normalization sign-flip and per-atom Gram computed with residual bars stated (margin 0.489 vs residuals <1e-40)."},
+    {"what": "the nine colorless scale values (e.g. 19.142020743905498523723..., 1.6803202716718931117598...)", "where": "DRAFT_FINDINGS.md sec 4 table; results.json", "kind": "COMPUTED", "reproducible_from_committed": "unknown/partial", "why": "these are stated as '35-digit values... dps 60' certified numerics, not exact rationals or algebraic closed forms -- i.e. high-precision floating-point-derived certified digits, not exact symbolic values (unlike B908/B910's exact Fraction certificates). This is flagged by the authors as 'certified' rather than 'exact' in sec 7's honest-scope note."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Both wall involutions sigma+/sigma- computed independently end-to-end and cross-checked to agree on the declared readout (<1e-40 relative), with a proven matrix-level relation H-=H+.D explaining the residual literal-proportionality mismatch rather than dismissing it.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The nine colorless 'scale' values and six colored |det Gram|^(1/3) magnitudes are reported only as dps-60 certified floating-point numerics (e.g. 19.142020743905498523723...), not as exact rational/algebraic closed forms -- unlike sibling arcs in this batch (B908, B910) which close their headline claims with exact Fraction/sympy certificates. The arc's own sec 7 concedes this ('35-digit-certified... not exact').", "where": "B912_norm_cell/DRAFT_FINDINGS.md sec 4, sec 7"}
+   ],
+   "seat_note": "A well-disciplined sealed-prereg design (hash committed before compute, explicit two-outcome criteria) that genuinely overturned its own stated prior for the fourth time in a row -- a good discipline signal; but the headline numeric scales that would feed downstream physics identification are certified floats, not exact algebraic numbers, so any later claim treating those nine numbers as exact should be checked against this arc's own honest-scope caveat."
+  },
+  {
+   "arc": "B913_r3c_design",
+   "source": "main",
+   "files_read": ["DESIGN_DISPOSITION.md", "PREREGISTRATION.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false). Explicit disposition: 'DESIGN-ONLY, CONSUMED. No computation was performed or is owed under this ID.' This is by the cell's own sealed text: 'This design seal is the cell's entire content; no computation follows under this ID.'",
+   "log_says": "PROGRESS_LOG 2026-08-07 (two entries): describes B913 as 'a sealed, ledgered preregistration with no report' initially misfiled as FINDINGS.md (tripping the arc-verdicts gate) then as VERDICT.md (tripping B819's nonstandard-layout lock); resolved by renaming to DESIGN_DISPOSITION.md so 'neither lock claims it.' Consistent with the arc's own account.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the sealed choice of colored magnitude |det Gram|^{1/3} with mandatory (1,2,0) signature tag, made before any colored ratio existed", "where": "PREREGISTRATION.md 'THE SEALED CHOICE'", "kind": "ASSERTED", "reproducible_from_committed": "yes (as a design choice, not a computation)", "why": "this is explicitly a pre-registered DESIGN decision, not a computed result -- the arc contains no computation to verify or reproduce; the magnitude values it cites (1867.69 etc.) were computed elsewhere (B912) and only referenced here."}
+   ],
+   "belt": "NONE",
+   "belt_note": "Design-only cell; nothing to recompute or re-read. The governance mechanism itself (two competing locks pulling opposite ways, resolved by a new disposition-file convention) is documented as a real self-correction, not glossed over.",
+   "absence_claims": [
+    {"quote": "This design seal is the cell's entire content; no computation follows under this ID.", "where": "B913_r3c_design/PREREGISTRATION.md 'Files' section, quoted verbatim in DESIGN_DISPOSITION.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Genuinely a design-only cell honestly labeled as such, with an interesting governance repair story (two anti-burial locks pulling opposite directions, correctly identified as a feature not a bug) rather than a physics or mathematics claim; nothing to evaluate as a computation."
+  }
+ ]
+}
