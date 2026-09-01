@@ -65,3 +65,46 @@ to this directory and pushed; batch 2 drafted from what survives.
 
 Batch results arrive → verify → commit/push → report to owner → launch next batch.
 A fallback check-in is armed (send_later) so a hung batch cannot silently stall the loop.
+
+---
+
+## Ring R — THE RECOMPUTATION CAMPAIGN (owner-directed, 2026-09-01: "a proof doesn't
+necessarily mean a proof; compute every load-bearing proof")
+
+The record's own error ledger grounds the directive: E52 (verifier-defect — five instances
+in one window), E40 (cached verification), E27 (disconnected verdicts), B1232 (three
+same-week retractions of banked claims). Lock-suite green is necessary, not sufficient.
+
+**Discipline per cell:** BLIND-FIRST — re-derive with own code *before* reading the arc's
+verification scripts; then diff against the banked value; report MATCH / DISCREPANCY
+(with the numbers) / VACUITY (the banked check could not have failed) / BLOCKED (missing
+datum, typed). Two-sided controls mandatory. Outputs to
+`reports/fresh_physics_seat_2026-09-01/recompute/`.
+
+**R1 (launching now), the ten most load-bearing proofs:**
+B1225 (no-canonical-selector) · B1011/B1032 (McKay tensor 2T×2I + type law) ·
+B1160 (anomaly-forced hypercharge) · B994/B863 (termination + rule-variation) ·
+B862/B1080 (ℤ₆ kernel) · B1134 (simultaneous closing, (0,8):24 at χ=−26) ·
+B952/B955 (rank wall) · B298/B307 (generation obstruction) ·
+scale cluster (Hom(G,ℝ⁺)=0 ×6 + B1088: CS=0, Vol=9√3·ζ_K(2)/π², c=6σ twice) ·
+B1102/B1109 (exact hypercharge: 18 directions, 2 orbits).
+
+**R2 (queued):** B1183 (one-class) · B1141 (spin payment) · B904 (magic square, 3003
+brackets) · B884 (the cubic, 45 monomials) · B892 (SMT) · B1120/B1133 (Kashaev tower) ·
+B1126/B1137 (value scans, re-run of the committed sealed instruments only) · B1003
+(genesis forks) · B725 (Born form) · B1136 (family separator).
+
+## Ring S — THE INTERNALIZATION SWEEPS (≥10, owner-directed)
+
+Each sweep = a distinct lens over the corpus, producing structured digests to
+`reports/fresh_physics_seat_2026-09-01/internalization/`, which this seat then reads and
+adjudicates (judgment never delegated). The roster:
+S1 full verdict/claim-line census (done inline) · S2 law-creating arc FINDINGS bodies ·
+S3 lock-code vacuity audit (E27/E40 hunting beyond the record's own sweeps) ·
+S4 PROGRESS_LOG + CHANGELOG chronological digest · S5 speculations-vs-bank contradiction
+sweep · S6 papers: all drafts + scrutiny rounds · S7 remaining unread docs/ files ·
+S8 E53 hunt (surfaces asserting open/free vs banked closures) · S9 the 52 BARE
+identification candidates, digested each · S10 legacy/ + story/knowledge re-check
+against final state · S11 cross-seat lanes (codex/cloud/cc3 branch heads) where reachable.
+
+S2–S4 launch now; the rest ride the loop as batches complete.
