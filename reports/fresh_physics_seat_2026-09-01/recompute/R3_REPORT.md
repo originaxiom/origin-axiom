@@ -500,3 +500,13 @@ Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   2-isogenous class-mate [0,0,0,−32,64] (j = 55296/5), not 40a1 itself — B211's curve-level identification is
   off by an isogeny, harmless for L-values. The null table mixes the ω₁ and 2ω₁ period conventions between its
   40a2 and 40a3 rows. No observable content.
+- **Trace-field / commensurability rows (B142, B146, B210, B235, B307, B781, B803, B840, B850; readers:
+  IMPORTED / ASSERTED / reproducible-no) — CLOSED, all MATCH** by `R33_trace_fields_snappy/` (SnapPy polished
+  shapes + PARI algdep, no Sage; shape field = invariant trace field for cusped manifolds): s776 = magic manifold
+  (vol 5.3334895669, ℚ(√−7)); m009 and both RRL/RLL bundles ℚ(√−7); m136 ℚ(i); t03910 degree 4; **bronze s464
+  degree 8 with an explicit octic — B840's "6 vs 8 UNRESOLVED" resolves for the script, against the B578-D6
+  prereg**; m003 ≅ b+−RL (monodromy −RL, trace −3; the trace-+7 candidate is m004's double cover); m003 and
+  m004 have isometric double covers (commensurability witness); B235's 19 covers to degree 6 all ℚ(√−3)
+  (a theorem, checked); B307's census: 32 cubic invariant trace fields in 500, all signature (1,1), 0 cyclic.
+- **B252 "27 complex, 78 real" (reader: Sage-only) — CLOSED, MATCH** by `R34_e6_27_not_selfdual/` from the
+  Cartan matrix alone (−w₀ = diagram flip 1↔6, 3↔5).

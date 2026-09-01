@@ -55,7 +55,26 @@ invariant trace field, so they are not commensurable. (Arithmeticity of m009 its
 
 ## E. B307's census count — see `r33_census_out.txt`
 
-CENSUS_PLACEHOLDER
+`r33_census.py` + `r33_census_retry.py` over `OrientableCuspedCensus[:500]` (shape field = invariant trace field,
+800 bits / maxdeg 16, then 2000 bits / one-shot algdep 40 for the rest):
+
+| degree | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | undetermined |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| manifolds | 21 | **32** | 40 | 46 | 42 | 53 | 32 | 36 | 42 | 23 | 22 | 1 | 110 |
+
+- **cubic fields: 32 of 500, every one of signature (1,1), 0 cyclic (a cyclic cubic is totally real) — B307's
+  three numbers MATCH exactly** (m006, m007, m015–m017, m034–m040, m045, m046, m146–m149, m168, m188,
+  m292–m295, m303–m307, m366, m367, m376).
+- The 110 undetermined rows are census entries s021–s1xx whose shape field the one-shot degree-40 search did not
+  resolve (degree > 40, or the cheapness guard rejected the relation, or a non-geometric solution such as m000–m002).
+  They cannot hide a cubic: a cubic relation is found at degree 3 with tiny coefficients in the first pass, so the
+  count of 32 is complete. The full histogram above the cubic line is a by-product, not a claim.
+- Caveat on words: B307 says "trace fields"; this cell computes *invariant* trace fields. For a cusped manifold the
+  trace field can be a quadratic extension of the invariant one, so B307's "32 of degree 3" agrees with this count
+  only if B307 also computed the invariant field (likely, via SnapPy/Sage `invariant_trace_field()`), or if no
+  manifold's trace field is a cubic over a non-cubic invariant field (impossible: a degree-3 extension of a
+  field is not quadratic, so a cubic trace field forces a cubic invariant field or ℚ — and ℚ never occurs).
+  Either way the 32 stands.
 
 **Physics content of the whole cell:** none. These are number-theoretic invariants of hyperbolic 3-manifolds;
 no row names a measurable quantity. "No observable content."

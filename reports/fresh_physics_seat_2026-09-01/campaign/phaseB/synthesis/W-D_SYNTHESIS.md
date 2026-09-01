@@ -25,7 +25,7 @@ The seat verified the three sharpest at the source:
 |---|---|---|---|
 | **B361_seam_local_law** | `arc_verdict.json`: "Across 8 pairs with zero counterexamples, a level-15 pair invariant carries √−15 exactly when it contains a seed elliptic at both 3 and 5"; `superseded_by: null` | B367_value_map FINDINGS §"Step 0's own discovery: **the local law (B361) is REFUTED at pair (3,4)**" (same day, 2026-07-03) | `frontier/B367_value_map/FINDINGS.md` l.45; `frontier/B361_seam_local_law/arc_verdict.json` **[verified]** |
 | **B259_gravity_brick_wall_map** | FINDINGS wall #5 row: golden k=3 → GΛ=2π, "122 orders from observation" (l.42–46); verdict claim: "one theorem, one 122-order gap, three open gaps" | `PROGRESS_LOG.md` l.9436 (B980): "**Verdict: RETRACTED.** B259's wall #5 chain — golden k=3 → via Smolin/Kodama …" (two stacked conflations, a dropped ħ) | **[verified]**; the arc's own files carry no retraction |
-| **B892_second_measurement** | FINDINGS now opens with a B950 correction banner (su(3)⊕su(2)⊕u(1)³ is 14-dimensional, the SM gauge algebra is 12; "overstates by two abelian factors") | log entries B950/B951 deflate further: the landing is the classified A2+A1 Levi subalgebra of e6 (Borel–de Siebenthal/Dynkin), not a discovery | FINDINGS banner **[verified]**; verdict-file wording: see note below |
+| **B892_second_measurement** | FINDINGS now opens with a B950 correction banner (su(3)⊕su(2)⊕u(1)³ is 14-dimensional, the SM gauge algebra is 12; "overstates by two abelian factors") | log entries B950/B951 deflate further: the landing is the classified A2+A1 Levi subalgebra of e6 (Borel–de Siebenthal/Dynkin), not a discovery | FINDINGS banner **[verified]**; `arc_verdict.json` still reads "z(x1,y*) = su(3)+su(2)+u(1)^3 EXACTLY: two measurements of the object's own charges take E6 to the SM algebra, skipping SU(5)", status PROVED, `superseded_by: null` **[verified]** |
 
 The pattern the readers name most often is the same one: **the correction lives in a later arc or in the
 log, and the earlier arc's verdict file is never touched** (`SUPERSEDED_UNMARKED` 48, `RETRACTION_NOT_PROPAGATED`
@@ -62,7 +62,7 @@ all with committed scripts that run on this bench without Sage:
 | R31 | B208 radicand ∣ WRT period, m ≤ 300 000 | MATCH (0 failures; proof re-read) |
 | R32 | B213 elliptic periods of 40a1 + null table | MATCH on L(E,1)/ω₁ = 1/2; torsion is ℤ/2×ℤ/2 not ℤ/4; ∏c_p = 4 not 8; L(E,1) misquoted 7.5e−5; Mahler measure misquoted 5.1e−4 and not equal to L(E,1); Φ = 0 is the 2-isogenous class-mate, not 40a1 |
 | R33 | B142/B146/B210/B235/B781/B803/B840/B850 trace fields, m003/m004 | all MATCH; bronze s464 field is degree 8 (B840's "unresolved 6 vs 8" resolves for the script); m003/m004 share a double cover; B235's table is a theorem check |
-| R33c | B307 census: 32 cubic fields of 500, all (1,1), 0 cyclic | CENSUS_PLACEHOLDER |
+| R33c | B307 census: 32 cubic fields of 500, all (1,1), 0 cyclic | MATCH exactly (32, all (1,1), 0 cyclic; 110 of 500 shape fields undetermined above degree 40, none of which can be cubic) |
 | R34 | B252 E6 27 complex / 78 real | MATCH (textbook) |
 
 Physics content of all five: none. Each is arithmetic or representation theory of the object; none names a
