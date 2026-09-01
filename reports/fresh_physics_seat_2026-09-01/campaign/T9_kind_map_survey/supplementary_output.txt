@@ -1,0 +1,176 @@
+==========================================================================
+G4 SUPPLEMENTARY CENSUS RUN — entries the independent sweep found
+==========================================================================
+
+PART A: independent (E6)_1 planted-character check
+--------------------------------------------------------------------------
+[A] direct enumeration: boxes +-6/+-7 agree on norms 0..9 (saturation)
+[A] Theta_E6 direct (independent code): [1, 72, 270, 720, 936]
+[A] chi head from direct theta: [1, 78, 729, 4382, 19917]
+[A] PASS: planted character head (1, 78, 729, 4382, 19917) confirmed against a fresh direct lattice construction
+
+PART B: bite controls re-armed in this supplementary run
+--------------------------------------------------------------------------
+--- CTRL plant-valid: (E6)_1 vacuum character (independent build)
+    location: constructed in this script (fresh enumeration + fresh glue)
+    notes: must PASS K-i..K-iv or this run's verdicts are void
+    K-i: PASS (series on q^(-1/4) + Z_>=0 grid, 601 terms)
+    K-ii: PASS (all 601 stripped coefficients non-negative integers)
+    K-iii: PASS (banked c = 6 = 6 exactly)
+    K-iv: PASS (c_eff ~= 5.996 in six-unit band [4.5,7.5]; 599 terms; sqrt-const A=6.2813 vs 2*pi=6.2832)
+    K-v: N/A (planted control; clause stipulated for machinery test)
+    VERDICT: PASS
+
+--- CTRL 6-vs-1: one cusp boson 1/(q;q)
+    location: constructed in this script
+    notes: must FAIL K-iv in the ONE-UNIT band
+    K-i: PASS (series on q^(-1/24) + Z_>=0 grid, 601 terms)
+    K-ii: PASS (all 601 stripped coefficients non-negative integers)
+    K-iii: PASS (banked c = 6 = 6 exactly)
+    K-iv: FAIL (c_eff ~= 0.999: ONE cusp-boson unit, the T[4_1] value — the Cardy 6-vs-1 clause bites)
+    K-v: N/A (planted control; clause stipulated for machinery test)
+    VERDICT: FAIL (first failed: K-iv)
+
+--- CTRL plant-invalid: seeded random non-negative series
+    location: constructed in this script (seed 20260901)
+    notes: must PASS K-ii and FAIL K-iv
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 601 terms)
+    K-ii: PASS (all 601 stripped coefficients non-negative integers)
+    K-iii: PASS (banked c = 6 = 6 exactly)
+    K-iv: FAIL (c_eff ~= 0.005: neither six units nor one)
+    K-v: N/A (planted control; clause stipulated for machinery test)
+    VERDICT: FAIL (first failed: K-iv)
+
+[BITE] controls bite in this run: True
+
+PART C: supplementary entries (missed by CENSUS.md), adjudicated
+--------------------------------------------------------------------------
+[C] B674 Molien doublet loaded: 120 exact Q(sqrt5) coefficients; M itself has coefficient 3/2 + 1/2*sqrt5 at n=0 — NOT a rational integer (irrational, in Z[phi]): the raw doublet fails K-ii at n=0 by inspection; its two rational avatars M+M' and (M-M')/sqrt5 are run through the kind-map below
+[C] A5 invariant Hilbert series recomputed exactly, head matches banked cell: [1, 0, 1, 0, 1, 0, 2, 0, 2, 0, 3, 0, 4, 0, 4, 1]
+[C] A5 theta-odd twisted Molien recomputed exactly, head matches banked cell: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[C] B683 (q;q)^{-3/5} recomputed exactly; divided-power law v5(den c_n) = n + v5(n!) spot-verified at n = 1, 5, 10
+--- SUPP-1 Lee-Yang chi_1 = q^{11/60} G(q) (YL convention, banked c=-22/5)
+    location: frontier/B677_morning_packet/generation_leg/g1_tube/g1_run_log.txt (candidate T2; conventions banked with c and h)
+    notes: (2,5) minimal-model character as committed corpus artifact; stage-side (Lee-Yang CFT data), like census class A4
+    K-i: PASS (series on q^(11/60) + Z_>=0 grid, 361 terms)
+    K-ii: PASS (all 361 stripped coefficients non-negative integers)
+    K-iii: FAIL (banked c = -22/5 != 6)
+    K-iv: FAIL (c_eff ~= 0.400: neither six units nor one)
+    K-v: FAIL (IMPORTED: constructed from external data — a model whose central charge happens to fit is the anti-numerology clause's exact target)
+    VERDICT: FAIL (first failed: K-iii)
+
+--- SUPP-2 Lee-Yang chi_tau = q^{-1/60} H(q) (YL convention, banked c=-22/5)
+    location: same g1_tube artifact
+    notes: second (2,5) character
+    K-i: PASS (series on q^(-1/60) + Z_>=0 grid, 361 terms)
+    K-ii: PASS (all 361 stripped coefficients non-negative integers)
+    K-iii: FAIL (banked c = -22/5 != 6)
+    K-iv: FAIL (c_eff ~= 0.400: neither six units nor one)
+    K-v: FAIL (IMPORTED: constructed from external data — a model whose central charge happens to fit is the anti-numerology clause's exact target)
+    VERDICT: FAIL (first failed: K-iii)
+
+--- SUPP-3 Fibonacci chi_1 = q^{-7/60} G(q) (FIB convention, banked c=14/5)
+    location: same g1_tube artifact (second banked convention)
+    notes: same series, other banked (c, h) reading
+    K-i: PASS (series on q^(-7/60) + Z_>=0 grid, 361 terms)
+    K-ii: PASS (all 361 stripped coefficients non-negative integers)
+    K-iii: FAIL (banked c = 14/5 != 6)
+    K-iv: FAIL (c_eff ~= 0.400: neither six units nor one)
+    K-v: FAIL (IMPORTED: constructed from external data — a model whose central charge happens to fit is the anti-numerology clause's exact target)
+    VERDICT: FAIL (first failed: K-iii)
+
+--- SUPP-4 B674 Molien avatar M+M' (trace sum, 120 banked terms)
+    location: frontier/B674_generation_leg/w2_step3/coefficients_both_conjugates.json
+    notes: raw M has irrational coefficient 3/2 + sqrt5/2 at n=0 (fails K-ii by inspection); this rational avatar carries the sign structure
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 120 terms)
+    K-ii: FAIL at n=1: coefficient -4 (negative)
+    K-iii: UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)
+    K-iv: MOOT (K-ii already fails; growth of a signed series is not a character growth)
+    K-v: PASS (object-side: constructed from m004/its family data)
+    VERDICT: FAIL (first failed: K-ii)
+
+--- SUPP-5 B674 Molien avatar (M-M')/sqrt5 (theta-odd, 120 banked terms)
+    location: same JSON
+    notes: the STEP3_VERDICT diagnostic stream
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 120 terms)
+    K-ii: FAIL at n=1: coefficient -2 (negative)
+    K-iii: UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)
+    K-iv: MOOT (K-ii already fails; growth of a signed series is not a character growth)
+    K-v: PASS (object-side: constructed from m004/its family data)
+    VERDICT: FAIL (first failed: K-ii)
+
+--- SUPP-6 B774 A5 invariant Hilbert/Molien series (untwisted)
+    location: frontier/B774_chord_pass/cells/CP-A5-molien/{compute.py,output.txt} (recomputed exactly here, head 16/16 match)
+    notes: icosahedral invariant ring; A5 is stage apparatus, not m004 data
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 361 terms)
+    K-ii: PASS (all 361 stripped coefficients non-negative integers)
+    K-iii: UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)
+    K-iv: FAIL (c_eff ~= 0.000: neither six units nor one)
+    K-v: FAIL (IMPORTED: constructed from external data — a model whose central charge happens to fit is the anti-numerology clause's exact target)
+    VERDICT: FAIL (first failed: K-iii)
+
+--- SUPP-7 B774 A5 theta-odd twisted Molien M_odd(t)
+    location: same cell (closed form banked; recomputed exactly here)
+    notes: the chord-pass 5-adic test object
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 361 terms)
+    K-ii: PASS (all 361 stripped coefficients non-negative integers)
+    K-iii: UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)
+    K-iv: FAIL (UNDERPOWERED: 71 terms < 200; c_eff ~= 0.000, not six-unit)
+    K-v: FAIL (IMPORTED: constructed from external data — a model whose central charge happens to fit is the anti-numerology clause's exact target)
+    VERDICT: FAIL (first failed: K-iii)
+
+--- SUPP-8 2T Molien series (1+t^12)/((1-t^6)(1-t^8)) (B267/B1068)
+    location: frontier/B267_e6_coherence/FINDINGS.md; frontier/B1068_descent_inventory/w2_full_results.json ('the ONE genuine q-series that 2T supplies')
+    notes: E6 Kleinian singularity C^2/2T coordinate ring; 2T is the arc's arithmetic-route group — provenance read generously as object-side so the kill lands on a computed clause
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 361 terms)
+    K-ii: PASS (all 361 stripped coefficients non-negative integers)
+    K-iii: UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)
+    K-iv: FAIL (UNDERPOWERED: 177 terms < 200; c_eff ~= 0.000, not six-unit)
+    K-v: PASS (object-side: constructed from m004/its family data)
+    VERDICT: FAIL (first failed: K-iii)
+
+--- SUPP-9 B1068 Hilbert series 1/(1-t^3) (order-3 character rep)
+    location: frontier/B1068_descent_inventory/w2_full_results.json
+    notes: the parity-falsifier control series banked in B1068
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 361 terms)
+    K-ii: PASS (all 361 stripped coefficients non-negative integers)
+    K-iii: UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)
+    K-iv: FAIL (UNDERPOWERED: 120 terms < 200; c_eff ~= 0.000, not six-unit)
+    K-v: PASS (object-side: constructed from m004/its family data)
+    VERDICT: FAIL (first failed: K-iii)
+
+--- SUPP-10 B683 divided-power series (q;q)_inf^{-3/5}
+    location: frontier/B683_arithmetic_ledger/verify_divided_power.py (theorem cell; coefficients recomputed exactly here)
+    notes: the F-stream denominators' engine; genuinely object-side
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 61 terms)
+    K-ii: FAIL at n=1: coefficient 3/5 (non-integer)
+    K-iii: UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)
+    K-iv: MOOT (K-ii already fails; growth of a signed series is not a character growth)
+    K-v: PASS (object-side: constructed from m004/its family data)
+    VERDICT: FAIL (first failed: K-ii)
+
+--- SUPP-11 B739 Q(sqrt-3) ideal-count series 1 + sum #ideals(n) q^n
+    location: frontier/B739_character_rigidity/b739_probe_out.txt (a_n = sum_(d|n) chi_-3(d), verified there to n=1500; recomputed here to n=400)
+    notes: Q(sqrt-3) is the object's (invariant) trace field: read object-side; weight-1 theta-type growth (divisor-bounded)
+    K-i: PASS (series on q^(0) + Z_>=0 grid, 401 terms)
+    K-ii: PASS (all 401 stripped coefficients non-negative integers)
+    K-iii: UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)
+    K-iv: FAIL (UNDERPOWERED: 121 terms < 200; c_eff ~= 0.004, not six-unit)
+    K-v: PASS (object-side: constructed from m004/its family data)
+    VERDICT: FAIL (first failed: K-iii)
+
+==========================================================================
+SUPPLEMENTARY TALLY: 11 entries, 0 kind-map passes
+  FAIL  SUPP-1 Lee-Yang chi_1 = q^{11/60} G(q) (YL convention, banked c=-22/5)  [K-iii]
+  FAIL  SUPP-2 Lee-Yang chi_tau = q^{-1/60} H(q) (YL convention, banked c=-22/5)  [K-iii]
+  FAIL  SUPP-3 Fibonacci chi_1 = q^{-7/60} G(q) (FIB convention, banked c=14/5)  [K-iii]
+  FAIL  SUPP-4 B674 Molien avatar M+M' (trace sum, 120 banked terms)  [K-ii]
+  FAIL  SUPP-5 B674 Molien avatar (M-M')/sqrt5 (theta-odd, 120 banked terms)  [K-ii]
+  FAIL  SUPP-6 B774 A5 invariant Hilbert/Molien series (untwisted)  [K-iii]
+  FAIL  SUPP-7 B774 A5 theta-odd twisted Molien M_odd(t)  [K-iii]
+  FAIL  SUPP-8 2T Molien series (1+t^12)/((1-t^6)(1-t^8)) (B267/B1068)  [K-iii]
+  FAIL  SUPP-9 B1068 Hilbert series 1/(1-t^3) (order-3 character rep)  [K-iii]
+  FAIL  SUPP-10 B683 divided-power series (q;q)_inf^{-3/5}  [K-ii]
+  FAIL  SUPP-11 B739 Q(sqrt-3) ideal-count series 1 + sum #ideals(n) q^n  [K-iii]
+controls bite in this run: True
+CANDIDATE-FOUND among supplementary entries: NO

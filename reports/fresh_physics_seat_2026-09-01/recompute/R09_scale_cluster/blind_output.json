@@ -1,0 +1,77 @@
+{
+  "groups": {
+    "Gal(L/Q(i))": {
+      "order": 4,
+      "derived_order": 1,
+      "abelianization_order": 4,
+      "hom_to_Rplus": "0 (finite -> torsion-free R+)"
+    },
+    "2I=SL(2,5)": {
+      "order": 120,
+      "derived_order": 120,
+      "abelianization_order": 1,
+      "hom_to_Rplus": "0 (finite -> torsion-free R+)"
+    },
+    "PSL(2,7)": {
+      "order": 168,
+      "derived_order": 168,
+      "abelianization_order": 1,
+      "hom_to_Rplus": "0 (finite -> torsion-free R+)"
+    },
+    "2I x Z/3": {
+      "order": 360,
+      "derived_order": 120,
+      "abelianization_order": 3,
+      "hom_to_Rplus": "0 (finite -> torsion-free R+)"
+    },
+    "SL(2,3)": {
+      "order": 24,
+      "derived_order": 8,
+      "abelianization_order": 3,
+      "hom_to_Rplus": "0 (finite -> torsion-free R+)"
+    },
+    "SL(2,Z/15)": {
+      "order": 2880,
+      "abelianization_order": 3,
+      "method": "CRT product SL(2,3) x SL(2,5), verified bijective hom",
+      "hom_to_Rplus": "0 (finite -> torsion-free R+)"
+    },
+    "W(E6)": {
+      "order": 51840,
+      "abelianization_order": 2,
+      "method": "perm closure on 72 roots; ab via det + conjugacy of reflections",
+      "hom_to_Rplus": "0 (finite -> torsion-free R+)"
+    }
+  },
+  "control": {
+    "note": "Hom(G,R+)=0 rests only on |G|<inf + R+ torsion-free; SL(2,3) has |G^ab|=3 so Hom(SL(2,3), Z/3) != 0 -- the instrument distinguishes; Hom(Z, R+) != 0 (exp), so finiteness is load-bearing."
+  },
+  "vol_m004": {
+    "way1_4Lambda_pi6": "2.0298832128193072500424051085490405718833786150606",
+    "way2_9sqrt3_zetaK2_over_pi2": "2.0298832128193072500424051085490405718833786150606",
+    "diff_ways": "6.22e-61",
+    "banked": "2.029883212819307250042405108549",
+    "diff_banked": "4.06e-32",
+    "L_chi_minus3_2": "0.781302412896486296867187429624092356365134336545285"
+  },
+  "snappy": {
+    "vol": "2.029883212819307250042405108549040571883378615060599584034978214",
+    "cs": "-1.15452259602766544080996621238116765275056749202684967339 E-65",
+    "cs_convention": "snappy chern_simons(): defined mod 1/2, normalization vol+i*2*pi^2*CS = complex volume"
+  },
+  "brown_henneaux": "6*sigma",
+  "sugawara": {
+    "dim": 78,
+    "h_dual": 12,
+    "k": 1,
+    "c": "6",
+    "highest_root_marks": [
+      1,
+      2,
+      2,
+      3,
+      2,
+      1
+    ]
+  }
+}
