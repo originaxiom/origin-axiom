@@ -1,0 +1,12 @@
+[27] built: 27 weights, all multiplicity 1; dim check (Weyl): 27
+[27] unordered zero-sum weight triples: 45
+[27] any triple with a repeated index? False
+[27] ordered zero-sum triples: 270
+[Sym^3] total dim: 3654
+[Sym^3] decomposition (highest weight, multiplicity, dim):
+    (3, 0, 0, 0, 0, 0) x 1  dim 3003
+    (1, 0, 0, 0, 0, 1) x 1  dim 650
+    (0, 0, 0, 0, 0, 0) x 1  dim 1
+[Sym^3] multiplicity of trivial rep  =  dim Inv(Sym^3 27) = 1
+[control] Sym^2(27) decomposition: [((2, 0, 0, 0, 0, 0), 1), ((0, 0, 0, 0, 0, 1), 1)]  -> trivial mult: 0
+[planted control] dim Inv(Sym^3(27+27bar)) = 2 (must be > 1 for the method to be able to fail)

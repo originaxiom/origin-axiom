@@ -1,0 +1,29 @@
+[cubic] monomials: 45  coefficient set: [-1, 1]  squarefree: True
+[stab] diagonal-block nullspace dim: 24
+[stab] cyclic-block   nullspace dim: 27
+[stab] anticyc-block  nullspace dim: 27
+[stab] TOTAL dim of stabilizer algebra of I in gl(27): 78 (e6 = 78)
+[stab] all 78 generators annihilate I exactly: True
+[stab-control] ansatz dA<-B, dB<-A alone: nullspace dim: 0 (expect 0)
+[sl3^3] 24 generators annihilate I exactly: True
+[frame] weight-zero cubic monomials: 45  squarefree: True
+[unique] nullspace dim of invariance system (78 gens, weight-zero cubics): 1
+[unique] support: 45 / 45  coefficient values: [-1, 1]
+[unique] reconstructed nullvector equals det+det+det-tr cubic up to overall scale: True  scale: -1
+[control] nullspace dim under sl3^3 only (24 gens): 4 (must be > 1)
+[cells] pieces: {'D': 3, 'Q': 6, 'd0': 2, 'd1': 2, 'd2': 2, 's0': 1, 's1': 1, 's2': 1, 't0': 3, 't1': 3, 't2': 3}  count: 11
+[cells] total unordered piece-triples: 286
+[cells] cells hit by the cubic (coupled): 11  -> zeros: 275
+    cell ('D', 'Q', 'Q')  sizes (3, 6, 6)  #monomials: 6
+    cell ('D', 's0', 't0')  sizes (1, 3, 3)  #monomials: 3
+    cell ('D', 's1', 't1')  sizes (1, 3, 3)  #monomials: 3
+    cell ('D', 's2', 't2')  sizes (1, 3, 3)  #monomials: 3
+    cell ('Q', 'd0', 't0')  sizes (2, 3, 6)  #monomials: 6
+    cell ('Q', 'd1', 't1')  sizes (2, 3, 6)  #monomials: 6
+    cell ('Q', 'd2', 't2')  sizes (2, 3, 6)  #monomials: 6
+    cell ('d0', 'd1', 's2')  sizes (1, 2, 2)  #monomials: 2
+    cell ('d0', 'd2', 's1')  sizes (1, 2, 2)  #monomials: 2
+    cell ('d1', 'd2', 's0')  sizes (1, 2, 2)  #monomials: 2
+    cell ('t0', 't1', 't2')  sizes (3, 3, 3)  #monomials: 6
+[cells] cells allowed by the 6 Cartan charges alone: 11
+[cells] charge-allowed == coupled support: True

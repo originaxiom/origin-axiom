@@ -1,0 +1,4 @@
+Control 1 PASS: explicit nontrivial chi: SL(2,3) -> mu_3 in C*, multiplicative on all 576 pairs; nontrivial on 16/24 elements.
+Control 2 PASS: phi(n)=2^n is a nontrivial hom Z -> R+ (exact); finiteness of G is load-bearing.
+Control 3 PASS: x^3=1 has 3 solutions in C but only x=1 in R+; the vanishing is carried by torsion-freeness of R+, not by the instrument.
+ALL CONTROLS PASS

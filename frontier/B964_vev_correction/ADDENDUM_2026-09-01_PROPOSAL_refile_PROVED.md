@@ -32,3 +32,14 @@ B960 l.55; `docs/LAW_MAP.md` l.269 (B952 row, pre-B964 wording; l.230–233 are 
 4. Regenerate VERDICT_LEDGER (B964 leaves `## RETRACTED`).
 
 Filed as R3_REPORT **F1**. No computation is involved; nothing in B964's content is disputed.
+
+## CORRECTION (2026-09-01, later the same day; owner's rule "sweep the repo before concluding we don't have something")
+
+*"`docs/CLAIMS.md` does not exist"* (propagation-gap paragraph) was written without a sweep.
+Sweep (all seven remote heads, filename regex `CLAIMS`): `docs/CLAIMS.md` indeed exists on no
+head, **but the claims registry is the root `CLAIMS.md`** (231 lines; also `core/claims/{D4,
+P12, P15}.md`, `papers/P1_seam_form/CLAIMS.md`, `papers/P4_markov_stage/CLAIMS.md`). Those
+were then swept for B964 / B962 / B952 / B959 / B960 / "VEV": no hit in any of them, so the
+unpointed-site list above is unchanged — the root registry simply carries no VEV claim. The
+sentence should read: *"the claims registry (root `CLAIMS.md`, core/claims, papers/*/CLAIMS.md)
+carries no VEV claim, so it needs no pointer."*

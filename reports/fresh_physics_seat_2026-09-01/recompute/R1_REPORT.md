@@ -301,3 +301,28 @@ committed rank-wall scan in R07). What did not survive scrutiny is the *verifica
 layer*: one addendum table wrong (D1), two prose defects (D2, D4), one records conflict
 (D3), five-plus vacuous or echo-only locks (V1, V2, V5, P1), and three unwitnessed banked
 computations (P1). Ring R2 should carry both the queued ten and the typed gaps in §3.
+
+---
+
+## DATED CORRECTIONS (2026-09-01, later; owner's rule: sweep the repo before concluding an absence)
+
+Re-swept over all 7 remote heads + deleted-file history (`../sweeps/ABSENCE_SWEEP_LOG.md`).
+
+- **R03 / l.73 "Yq = 0 clause — UNBANKED (in no committed file)" — NARROWED.** True on main;
+  false repo-wide: `frontier/B8143_anomaly_lane/` on `paper/structure-genesis-first` (a31456d2,
+  never integrated) computes the third branch *"{Yq = 0, Yd = −Yu, Yl = Ye = 0} ← a ONE-PARAMETER
+  VECTOR-LIKE family"* and is the origin of B1170's 252/222/2 counts. R03's refinement of that
+  phrasing (vector-like as a U(1) multiset; the full gauge multiset is not literally vector-like,
+  Q unpaired) applies to B8143's wording too. B8143's own pointer "= B864's third line" does not
+  match B864's committed `results.json` (`uniqueness.forced = [{b:0,c:0}]` in the Q = aY+bχ+cψ
+  ansatz — no third line).
+- **R07 / l.118 "the panel's scan had no committed code" — STANDS**, scope clause: B1079's `v`
+  block confirms the checker code sat in a scratchpad (`e6_menu_*.py`, never committed);
+  `frontier/B796_coupling_campaign/h1_consumed/rank_wall_scope.py` on `audit/b775` is a
+  committed *class-scope* probe of the same wall (SnapPy, 3-rank of H₁ across m004's
+  commensurability class) — a different computation, worth citing beside B955.
+- **R04 / l.85 "no committed producing script, no test lock anywhere" (B994) — STANDS** on all
+  7 heads (`test_b994*` 0/0 everywhere; no `.py/.sh/.sage` under `frontier/B994_*`).
+- **R01 / l.46 "W1 = 11,720 NOT RECONSTRUCTABLE from any committed file" — STANDS on main,
+  NARROWED repo-wide** (enumerator `outside_bench/certificates/menu_width.py` on
+  `claude/outside-bench`; internalization INDEX #34 already records this).

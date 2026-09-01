@@ -1,0 +1,24 @@
+csign 1 jacobi defect 0
+Killing form: K(h1,h1)= 48  K(e_a1,e_-a1)= -24
+Killing form rank 78
+pi_B on I2 roots: {(-1, -2, -2, -3, -2, -1): (0, -1, 0, 0, 0, 0), (0, 1, 0, 0, 0, 0): (1, 2, 2, 3, 2, 1), (np.int64(-1), np.int64(-1), np.int64(-2), np.int64(-3), np.int64(-2), np.int64(-1)): (1, 1, 2, 3, 2, 1)}
+pi_mirror(hatch): [(0, 0, 0, 0, 0, 1), (0, 0, 0, 0, 1, 0)]
+antipodal/A: involutive automorphism lifts = 16
+antipodal/B: involutive automorphism lifts = 8
+permute/A: involutive automorphism lifts = 16
+permute/B: involutive automorphism lifts = 8
+TOTAL torsor size: 48
+COMPACT-COLOR HITS: 4
+   ('antipodal', 'A', (1, 1, 1, 1, 1, 1), (26, 52, 0), 2)
+   ('antipodal', 'A', (1, 1, -1, 1, -1, 1), (26, 52, 0), 2)
+   ('antipodal', 'A', (-1, 1, 1, 1, 1, -1), (26, 52, 0), 2)
+   ('antipodal', 'A', (-1, 1, -1, 1, -1, -1), (26, 52, 0), 2)
+antipodal/A chars Counter({2: 16}) I2 sigs Counter({(4, 4, 0): 12, (0, 8, 0): 4}) global Counter({(42, 36, 0): 12, (26, 52, 0): 4})
+antipodal/B chars Counter({2: 8}) I2 sigs Counter({(4, 4, 0): 8}) global Counter({(42, 36, 0): 8})
+permute/A chars Counter({6: 12, -26: 4}) I2 sigs Counter({(5, 3, 0): 16}) global Counter({(40, 38, 0): 16})
+permute/B chars Counter({6: 8}) I2 sigs Counter({(5, 3, 0): 8}) global Counter({(40, 38, 0): 8})
+antipodal/id family size: 64
+  globally compact (0,78): [((1, 1, 1, 1, 1, 1), (0, 78, 0), (0, 8, 0), 6)]
+  I2 compact among them: 16 of 64
+  I2 sig distribution: Counter({(4, 4, 0): 48, (0, 8, 0): 16})
+theta=identity (sigma=tau, split): global sig (42, 36, 0) I2 sig (5, 3, 0)

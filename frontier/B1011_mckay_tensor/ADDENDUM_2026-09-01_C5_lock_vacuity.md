@@ -37,3 +37,18 @@ that scope clause.
 **Proposal (owner / banking-seat action):** replace the literal-arithmetic lock with the
 cell-by-cell enumeration (or land the "incoming enumeration" it refers to), and add the scope
 clause to C6. Error-class: lock vacuity (same class as E27/E40).
+
+## CORRECTION (2026-09-01, later the same day; owner's rule "sweep the repo before concluding we don't have something")
+
+The sentence above *"Nothing committed enumerates the 2880 cells or evaluates a forcing
+criterion on them"* over-claims. Sweep (all seven remote heads, filenames `b1011`, content
+`forced|992|284|incoming enumeration`; deleted-file history): **`b1011_cells.py` does enumerate
+the 2880 elements of 2T × 2I** (`enumerate_group(p)`, mod-61 / mod-241 exact, `assert
+len(seen1) == len(seen2) == 2880`, conjugacy classes via `conj_classes`; exercised by
+`tests/test_b1011_mckay_tensor.py`). What no committed file on any head does is **evaluate a
+forcing criterion on those elements** — the only committed occurrences of 992 / 284 are the
+inclusion–exclusion literals in `b1011_match.py:139–142` and `tests/test_b1011_mckay_tensor.py:
+58–59`. The finding (V18: the C5 *lock* is literal arithmetic; the counts are right) is unchanged;
+the corrected sentence reads: *"the enumeration exists (`b1011_cells.py`); nothing committed
+evaluates a forcing criterion on it, so the 992 / 284 lock never touches the cells."* Same
+correction applies to R3_REPORT V18 wherever it repeats the original wording.

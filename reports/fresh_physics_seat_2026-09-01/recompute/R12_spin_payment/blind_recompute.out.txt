@@ -1,0 +1,50 @@
+== step 1: relator holds exactly, R(A,B) = +I ==
+R(A,B) = [[1, 0], [0, 1]]
+
+== step 2: relator census over the four sign pairs ==
+  R(+1A,+1B) = +I
+  R(+1A,-1B) = -I
+  R(-1A,+1B) = -I
+  R(-1A,-1B) = +I
+  -> exactly TWO SL(2,C) lifts: trivial and chi(a)=chi(b)=-1
+
+== step 3: H1 from abelianized relator ==
+  abelianized relator: 1*a + -1*b = 0  -> H1 = Z (a=b generator)
+
+== step 4: the beat as automorphism ==
+  rho(beat(a)) = [[1, 1], [0, 1]]
+  rho(beat(b)) = [[2, -1/2 + sqrt(3)*I/2], [1/2 + sqrt(3)*I/2, 0]]
+  R(beat(a),beat(b)) = +I
+  beat^2(a) == a A a^-1 : True
+  beat^2(b) == a B a^-1 : True
+
+== step 5: intertwiner system W*conj(rho(g)) - rho(beat(g))*W = 0, g in {a,b} ==
+  system: 8 equations x 4 unknowns; RANK = 3, NULLSPACE dim = 1
+
+== step 6: base intertwiner W0, det normalization, the self-consistent square ==
+  raw nullspace W: [[1, 1/2 - sqrt(3)*I/2], [0, 1]]  det = 1
+  det-normalized W0 = [[1, 1/2 - sqrt(3)*I/2], [0, 1]]  det = 1
+  W0 conj(A) W0^-1 == +rho(beat(a)): True
+  W0 conj(B) W0^-1 == +rho(beat(b)): True
+  W0 conj(W0) = [[1, 1], [0, 1]]
+  W0 conj(W0) == +A: True  == -A: False
+  -> the untwisted-lift square closes with sign +1
+
+== step 7: scaling argument -- the general beat implementation is lambda*W0 ==
+  untwisted: |lambda|^2 = +1  -> SOLVABLE
+  twisted:   |lambda|^2 = -1  -> IMPOSSIBLE
+
+== step 8: the twisted lift satisfies the SAME intertwiner equations ==
+  len(beat(a)) = 1  len(beat(b)) = 5  both odd: True
+  twisted system: rank = 3, nullspace dim = 1, same line as W0: True
+
+== step 9: chi beat-invariance, random-word check + parity argument ==
+  length parity preserved on 50/50 random free words
+
+== step 10: CONTROLS (planted positives / could-have-failed) ==
+  C1 fake beat (identity automorphism): rank = 4 (nullspace 0) -> rank-3 result is falsifiable
+  C2 planted W with W conj(W) = -I exists: True (so a '-' square is achievable in principle; m004's '+' is a fact, not a tautology)
+  lift (chi(a),chi(b)) = (+1,+1): EXTENDS (|lambda|^2 = 1)
+  lift (chi(a),chi(b)) = (-1,-1): KILLED (|lambda|^2 = -1 impossible)
+
+ALL BLIND CHECKS PASSED

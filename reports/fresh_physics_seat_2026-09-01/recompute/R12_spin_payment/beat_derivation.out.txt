@@ -1,0 +1,16 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+SL2C(aa) == +-SL2C(a) conj(SL2C(a)): True (dev 2.58e-17)
+target traces: (2, 2, 2.500000-0.866025j)
+generator pair in Gamma+ = <x=a0^2, z=a0 b0>: u='x', v='xZ'
+  traces: 2.000000+0.000000j, 2.000000-0.000000j, 2.500000-0.866025j
+  conjugacy P found with signs (+1,+1); smallest singular value 8.69e-16
+  conjugacy residual: 2.46e-15
+transported odd element W' = [[(-1-0j), (-0.5-0.866025j)], [(-0+0j), (-1+0j)]]
+  W' conj(A) W'^-1 = +a ;  W' conj(B) W'^-1 = +baB
+  Q = conj(W0^-1 W') = [[(-1+0j), (-0+1.732051j)], [(-0-0j), (-1-0j)]]
+  Q as +-word in A,B: None
+  -> Q not found as a short word; extensions may differ by a symmetry — inspect.
+
+DERIVED beat from m000 holonomy: a -> +a , b -> +baB
+BANKED beat:                      a -> +a , b -> +BabAb  (up to inner/sign)

@@ -1,0 +1,41 @@
+admissible (mult>=3) target values: [Fraction(-2, 3), Fraction(-1, 2), Fraction(-1, 3), Fraction(1, 6), Fraction(1, 3)]  (count 5) -> 625 assignments
+NUMBER OF EXACT SOLUTIONS: 18
+denominators occurring across all solution coords: [3, 6] (all divide 6: True)
+solutions with zero B-component: 0; with zero A-component: 0
+Y-neutral root count (unordered pairs, per ideal) over all solutions: [(1, 1)]
+  (each pair = 2 roots; claim 'exactly two Y-neutral roots, one per ideal' <=> (1,1) with a-triple, b-triple not all equal)
+all 36 Weyl moves preserve the 18-solution set: True
+ORBITS under W(A2)xW(A2): 2, sizes [9, 9]
+plain ideal swap maps solutions to solutions: 0/18
+swap-with-sign (a,b)->(-b,-a) maps solutions to solutions: 18/18
+swap-with-sign sends orbit-0 members OUT of orbit-0: 9/9
+banked representative coords ('1/6', '1/6', '2/3', '-1/3') in MY solution set (literal): False
+  ... its plain-swap image in my set: True
+  ... its negation in my set: True
+orbit 0: size 9, (sorted a-triple, sorted b-triple) signatures: a=('-1/3', '-1/3', '2/3') b=('-1/3', '1/6', '1/6')
+orbit 1: size 9, (sorted a-triple, sorted b-triple) signatures: a=('-1/6', '-1/6', '1/3') b=('-2/3', '1/3', '1/3')
+CONTROL-1: planted pure direction ('0', '0', '1/3', '1/6'); search returns 24 solutions; planted found: True
+CONTROL-2: planted mixed direction ('1/6', '-1/3', '1/3', '1/6'); search returns 36 solutions; planted found: True
+CONTROL-3: planted-target solution set splits into 2 orbit(s), sizes [18, 18]
+
+wrote r10_blind_results.json
+
+ALL 18 SOLUTIONS (a1,a2,b1,b2):
+   ('-1/3', '-1/3', '-1/3', '1/6')
+   ('-1/3', '-1/3', '1/6', '-1/3')
+   ('-1/3', '-1/3', '1/6', '1/6')
+   ('-1/3', '2/3', '-1/3', '1/6')
+   ('-1/3', '2/3', '1/6', '-1/3')
+   ('-1/3', '2/3', '1/6', '1/6')
+   ('-1/6', '-1/6', '-2/3', '1/3')
+   ('-1/6', '-1/6', '1/3', '-2/3')
+   ('-1/6', '-1/6', '1/3', '1/3')
+   ('-1/6', '1/3', '-2/3', '1/3')
+   ('-1/6', '1/3', '1/3', '-2/3')
+   ('-1/6', '1/3', '1/3', '1/3')
+   ('1/3', '-1/6', '-2/3', '1/3')
+   ('1/3', '-1/6', '1/3', '-2/3')
+   ('1/3', '-1/6', '1/3', '1/3')
+   ('2/3', '-1/3', '-1/3', '1/6')
+   ('2/3', '-1/3', '1/6', '-1/3')
+   ('2/3', '-1/3', '1/6', '1/6')

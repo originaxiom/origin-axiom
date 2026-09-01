@@ -1,0 +1,16 @@
+#id	content-regex	filename-regex
+A01_b994_generator	b994|rule_variation	b994|rule_variation
+A03_b1148_certs	b1148|carrier_harvest	b1148|carrier_harvest
+A04_b1011_forcing	incoming enumeration|forced counts|992 	b1011
+A05_claims_registry	adjoint higgs|supply a vev|supplies no vev	(^|/)CLAIMS\.md$
+A06_b955_panel_scan	b955|rank.?wall|l133.?scout	b955|rank_wall|l133
+A07_yq0_vectorlike	collapses to vector|Yq\s*=\s*0|Y_q\s*=\s*0	b1160|b1170
+A09_11720_tier_rule	11.?720|tier.?rule	b1225|selector|enumerat
+A10_cech_308_sage	cech_308|yukawa_down_tail|certify_yukawa|Φ.{0,20}44 coeff	\.sage$|cech|yukawa
+A11_bare_candidates	52 BARE|61 candidates|bare_identif	b1231|bare
+A12_S064_file	S064	S064
+A13_vneg_regulator	involves_regulator|V-NEG|vol_basis_extended	vol_basis|vneg|regulator
+A16_basis_hygiene	basis_hygiene|384.?cell|96/H|100/H	basis_hygiene|b1137
+A19_b994_test_lock	test_b994	test_b994
+A20_docs_progress_log	(^|/)docs/PROGRESS_LOG	docs/PROGRESS_LOG
+A21_c2_f3_test	F3 (lock|test)|test_.*_f3	_f3

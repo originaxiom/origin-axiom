@@ -103,3 +103,16 @@ text-asserting rather than re-executing.
 - `recompute_blind.py` -> `blind_output.json` (written before reading their verification)
 - `controls.py` -> `controls_output.json`; `controls2.py` -> `controls2_output.json`
 - `blind_err.txt`, `ctrl_err.txt`, `ctrl2_err.txt` (stderr logs)
+
+## CORRECTION (2026-09-01, later; owner's rule: sweep before concluding an absence)
+
+"UNBANKED — grepped FINDINGS, results JSONs, verification, locks: absent" was a main-only
+search. Repo-wide sweep (`../../sweeps/ABSENCE_SWEEP_LOG.md`, row A07): the Yq = 0 branch is
+computed in `frontier/B8143_anomaly_lane/` on `paper/structure-genesis-first` (a31456d2; FINDINGS
+l.68–71, results.json l.48–50, step1_core.py l.8, 48) as *"{Yq = 0, Yd = −Yu, Yl = Ye = 0} ← a
+ONE-PARAMETER VECTOR-LIKE family"*, never integrated to main. My characterization above (third
+cubic ray (0,s,−s,0,0); vector-like as a U(1) multiset, not literally vector-like as a gauge
+multiset) refines B8143's phrasing rather than supplying a first computation. B8143's claim that
+the branch "= B864's third line" is not supported by B864's committed results (no third line
+there). Verdict unchanged: on main the branch is silently discarded by B1160 and dropped as
+"sterile" by B1170.

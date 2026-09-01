@@ -1,0 +1,18 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+m004: 2.0298832128 Z orientable: True
+m000: 1.01494160641 Z orientable: False
+vol(m000) == vol(m004)/2 : True
+pi1(m004) generators: ['a', 'b'] relators: ['aaabABBAb']
+my trace triple: tr A=2.000000+0.000000j, tr B=2.000000+0.000000j, tr AB=2.500000-0.866025j
+MATCH inside snappy holonomy: u='ab', v='ba' with traces (-2.000000-0.000000j, -2.000000-0.000000j, 2.500000-0.866025j) — banked relator holds on (u,v); my (A,B) is snappy's discrete faithful rep up to conjugacy/mirror
+orientation_cover(m000): m000~(0,0) 2.02988321282
+cover isometric to m004: True
+degree-2 covers of m000: [(m000~cyc~0(0,0), True, 2.029883)]
+sigma g sigma^-1 checks:
+  W0 conj(A) W0^-1 - A: 0.0
+  W0 conj(B) W0^-1 - rho(beat(b)): 8.082545620880531e-16
+  sigma^2 = W0 conj(W0) - A: 0.0
+pi1(m000) generators: ['a', 'b'] relators: ['aabbAB']
+  det O31(a) = -1.000000  (-1 = orientation-reversing)
+  det O31(b) = -1.000000  (-1 = orientation-reversing)

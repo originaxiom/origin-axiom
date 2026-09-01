@@ -431,3 +431,31 @@ fix or rewrite B994's chains over the committed parent-keyed map and land a gene
 B1148's middle-rung prose (6615 → 9 → 1 in the full tensor, 4 under Sym³); relabel B964
 (H2) and re-word B267's claim line (H1); replace the B1011 lock; and schedule an interval-
 arithmetic pass on the SnapPy-dependent results before any of them is cited as a theorem again.
+
+---
+
+## DATED CORRECTIONS (2026-09-01, later the same day; owner's rule: sweep the repo before concluding an absence)
+
+Every "in no committed file / does not exist / nothing committed" sentence in this report was
+re-swept over all 7 remote heads and the deleted-file history
+(`../sweeps/ABSENCE_SWEEP_LOG.md`). Three sentences change; no verdict does.
+
+- **P2 (l.185, l.286) — CORRECTED.** "menus for parents SU(6)×SU(2), SU(3)³, Pati-Salam exist in
+  no committed file" → *no committed **output** keys them, but committed **code** generates them:
+  B869's engine (`frontier/B869_false_positive_control/false_positive_control.py`,
+  `all_descents`), never run for these parents and not used by B994.* Run here
+  (`../sweeps/p2_parent_menus_from_b869.py`): SU(3)³'s menu is {su(2)+su(3)+su(3)+u(1)} ×3 —
+  **no Pati-Salam and no SU(5)×U(1) rung**, which strengthens D10; all three cascade endpoints are
+  su(2)+su(3)+3u(1), which supports B994's endpoint claim on a subgroup basis. P3 stands.
+- **V18 (l.272–274) — NARROWED.** "Nothing committed enumerates cells or evaluates a forcing
+  criterion" → *`b1011_cells.py` **does** enumerate the 2880 elements (mod-61/241, asserted
+  count); nothing committed evaluates a forcing criterion on them, so the 992/284 lock never
+  touches the cells.* The vacuity verdict on the lock is unchanged.
+- **F1 (l.368) — CORRECTED (wording).** "`docs/CLAIMS.md` does not exist" is literally true and
+  misleading: the claims registry is root `CLAIMS.md` (231 lines) + `core/claims/{D4,P12,P15}.md`
+  + `papers/P1_seam_form/CLAIMS.md` + `papers/P4_markov_stage/CLAIMS.md`; none carries a
+  B964/B962/B952/B959/B960/VEV row (swept), so the refile touches none of them.
+- **R22 fence (l.292–293) — STANDS**, with a new provenance finding: B1148's
+  `reproduce_new.sh` cites `reproduce.log`/`our_uniqueness_chain.out`, which `.gitignore`
+  (`*.log`, `*.out`) makes uncommittable — the "8/8 REPRODUCE" statement is unwitnessed on every
+  head (B1148 addendum, appended section).

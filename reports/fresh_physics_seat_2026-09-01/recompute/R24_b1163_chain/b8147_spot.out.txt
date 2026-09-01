@@ -1,0 +1,3 @@
+o10_150700 blind True aware False CS 0.416667
+t12840 blind True aware True CS 0.0
+s955 blind True aware True CS 0.25

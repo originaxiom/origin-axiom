@@ -1,0 +1,24 @@
+targets: 18  sha256=e93efeaa132bf7c1a6e0a3a9d41a436ff03d2aea5f626a2b404a5ef8a317e101
+REAL grid: 216 cells -> results/real_grid.jsonl
+[real] 10/216  elapsed=48s  rate=0.209/s  eta=983s
+[real] 20/216  elapsed=91s  rate=0.219/s  eta=895s
+[real] 30/216  elapsed=131s  rate=0.229/s  eta=812s
+[real] 40/216  elapsed=177s  rate=0.225/s  eta=781s
+[real] 50/216  elapsed=229s  rate=0.218/s  eta=762s
+[real] 60/216  elapsed=282s  rate=0.212/s  eta=734s
+[real] 70/216  elapsed=332s  rate=0.211/s  eta=693s
+[real] 80/216  elapsed=399s  rate=0.201/s  eta=678s
+[real] 90/216  elapsed=455s  rate=0.198/s  eta=637s
+[real] 100/216  elapsed=516s  rate=0.194/s  eta=598s
+[real] 110/216  elapsed=563s  rate=0.195/s  eta=543s
+[real] 120/216  elapsed=598s  rate=0.201/s  eta=478s
+[real] 130/216  elapsed=625s  rate=0.208/s  eta=414s
+[real] 140/216  elapsed=678s  rate=0.206/s  eta=368s
+[real] 150/216  elapsed=707s  rate=0.212/s  eta=311s
+[real] 160/216  elapsed=723s  rate=0.221/s  eta=253s
+[real] 170/216  elapsed=740s  rate=0.230/s  eta=200s
+[real] 180/216  elapsed=775s  rate=0.232/s  eta=155s
+[real] 190/216  elapsed=793s  rate=0.240/s  eta=108s
+[real] 200/216  elapsed=810s  rate=0.247/s  eta=65s
+[real] 210/216  elapsed=826s  rate=0.254/s  eta=24s
+[real] 216/216  elapsed=834s  rate=0.259/s  eta=0s

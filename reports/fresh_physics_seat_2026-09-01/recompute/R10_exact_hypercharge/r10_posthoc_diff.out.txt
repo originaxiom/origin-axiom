@@ -1,0 +1,9 @@
+|mine| = 18, |banked| = 18
+literally equal: False
+banked == negation of mine: True
+banked == ideal-swap of mine: True
+my orbit 0 negated -> subset of banked set: True, size 9
+my orbit 1 negated -> subset of banked set: True, size 9
+banked representative ('1/6', '1/6', '2/3', '-1/3') in banked set: True
+its negation ('-1/6', '-1/6', '-2/3', '1/3') in my set: True
+projection to one ideal's Cartan: 7 classes (banked F1: 7), largest class size 9 (banked F1 double-kill: size-9 class; target max multiplicity 6; target needs 8 distinct values > 7)

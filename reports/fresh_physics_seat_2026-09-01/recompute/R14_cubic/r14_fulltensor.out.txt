@@ -1,0 +1,2 @@
+[27x27] decomposition: [((2, 0, 0, 0, 0, 0), 1, 351), ((0, 0, 1, 0, 0, 0), 1, 351), ((0, 0, 0, 0, 0, 1), 1, 27)]
+[27x27x27] dim Inv(full ordered tensor cube) = mult of 27bar in 27x27 = 1

@@ -1,0 +1,27 @@
+=== (a) the six groups ===
+Gal(L/Q(i))      |G|=     4  |[G,G]|=     1  |G^ab|=4
+2I=SL(2,5)       |G|=   120  |[G,G]|=   120  |G^ab|=1
+PSL(2,7)         |G|=   168  |[G,G]|=   168  |G^ab|=1
+2I x Z/3         |G|=   360  |[G,G]|=   120  |G^ab|=3
+SL(2,3)          |G|=    24  |[G,G]|=     8  |G^ab|=3
+SL(2,Z/15)       |G|=  2880  |G^ab|=3 (via CRT)
+W(E6)            |G|=51840  (#roots=72)
+W(E6)            |G^ab|=2 (det surjects, all reflections conjugate)
+
+=== (b) Vol(m004) ===
+way1  4*Lambda(pi/6)          = 2.0298832128193072500424051085490405718833786150606
+way2  9*sqrt3*zetaK(2)/pi^2   = 2.0298832128193072500424051085490405718833786150606
+  |way1-way2| = 6.22e-61
+banked (30 dps)               = 2.029883212819307250042405108549
+  |way1-banked| = 4.06e-32
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+snappy Vol(m004) = 2.029883212819307250042405108549040571883378615060599584034978214
+snappy CS(m004)  = -1.15452259602766544080996621238116765275056749202684967339 E-65
+
+=== (c) c = 6*sigma ===
+Brown-Henneaux c = 3l/(2G) with G = l/(4 sigma)  =>  c = 6*sigma
+#roots=72  dim E6=78  highest root coeffs=(1, 2, 2, 3, 2, 1)
+Coxeter h=12  dual Coxeter h_dual=12
+Sugawara c((E6)_1) = 78/13 = 6
+
+wrote blind_output.json

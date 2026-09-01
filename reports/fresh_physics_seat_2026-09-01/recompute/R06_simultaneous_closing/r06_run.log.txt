@@ -1,0 +1,26 @@
+BFS over W(E6)...
+|W| = 51840  -1 in W: False  elapsed 0.8
+A2^3 subsystem built, mutually orthogonal.
+union-preserving elements: 2592 induced factor-perms: [(0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0)]
+sum-pairs: 720
+[B1134 color=FC(default)] swappers: 48 (W: 24, coset: 24)
+  pairs=480 hist={(4, 4): 216, (0, 8): 24, (5, 3): 240}
+  chi by color sig: {(4, 4): {6}, (0, 8): {-26}, (5, 3): {2}}
+  distinct hit swappers: 6
+[B1134 color=FA] swappers: 48 (W: 24, coset: 24)
+  pairs=480 hist={(4, 4): 216, (0, 8): 24, (5, 3): 240}
+  chi by color sig: {(4, 4): {6}, (0, 8): {-26}, (5, 3): {2}}
+  distinct hit swappers: 6
+[B1134 color=FB] swappers: 48 (W: 24, coset: 24)
+  pairs=480 hist={(4, 4): 216, (0, 8): 24, (5, 3): 240}
+  chi by color sig: {(4, 4): {6}, (0, 8): {-26}, (5, 3): {2}}
+  distinct hit swappers: 6
+[B1135] factor-preserving involutions: 128 (W: 64, coset: 64)
+[B1135] total conjugations: 2000
+B1135 summary: {'n_preservers': 128, 'n_preservers_W': 64, 'total_conjugations': 2000, 'W_side_count': 1000, 'W_side_chis': [6], 'W_side_slotsigs': ['[(5, 3), (5, 3), (5, 3)]'], 'flip_side_count': 1000, 'flip_by_compact_count': {0: 729, 1: 243, 2: 27, 3: 1}, 'flip_chi_by_compact_count': {'0': [2], '1': [-14], '2': [2], '3': [-78]}, 'flip_slot_sig_set': ['(0, 8)', '(4, 4)'], 'flip_joint_factorizes': True, 'compact_dims_seen': [36, 38, 46, 78]}
+flip slot marginals: [{'(4, 4)': 900, '(0, 8)': 100}, {'(4, 4)': 900, '(0, 8)': 100}, {'(4, 4)': 900, '(0, 8)': 100}]
+controls...
+checksum: {'all_chis_in_set': True, 'witnessed': [-78, -26, -14, 2, 6], 'n_evaluations': 3505}
+controls: {'antipodal_n_involutive_lifts': 64, 'omega': {'chi': -78, 'slots': [[0, 8], [0, 8], [0, 8]], 'exact_global': (0, 78, 0), 'double_sig': (0, 3, 3), 'literal_3003_failures': 0}, 'antipodal_family_chis': [-78, -14, 2], 'omega_found': True, 'identity_chi': 6, 'identity_exact': (42, 36, 0), 'fake_form': {'chi': -10, 'in_checksum_set': False, 'bracket_failures': 72, 'exact_crosscheck': (34, 44, 0)}, 'random_exact_crosschecks': [{'combinatorial': [(40, 38), (5, 3)], 'exact': [[40, 38, 0], [5, 3, 0]], 'agree': True}, {'combinatorial': [(40, 38), (5, 3)], 'exact': [[40, 38, 0], [5, 3, 0]], 'agree': True}, {'combinatorial': [(42, 36), (4, 4)], 'exact': [[42, 36, 0], [4, 4, 0]], 'agree': True}, {'combinatorial': [(42, 36), (4, 4)], 'exact': [[42, 36, 0], [4, 4, 0]], 'agree': True}, {'combinatorial': [(42, 36), (4, 4)], 'exact': [[42, 36, 0], [4, 4, 0]], 'agree': True}, {'combinatorial': [(42, 36), (4, 4)], 'exact': [[42, 36, 0], [4, 4, 0]], 'agree': True}, {'combinatorial': [(42, 36), (4, 4)], 'exact': [[42, 36, 0], [4, 4, 0]], 'agree': True}, {'combinatorial': [(40, 38), (5, 3)], 'exact': [[40, 38, 0], [5, 3, 0]], 'agree': True}]}
+DONE 231.7 s
+EXIT: 0

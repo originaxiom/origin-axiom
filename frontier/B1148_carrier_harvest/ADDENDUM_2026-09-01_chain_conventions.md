@@ -35,3 +35,19 @@ the 27 is not defined in the committed tree. R22 pinned it blind (holonomy a = [
 b = [[1,0],[−ω,1]] over ℚ(ω); C² = the holonomy's fundamental) and confirmed it post-run.
 **Proposal (owner action):** land the certs on main so the arc's numbers have a generator in
 the committed tree.
+
+## ADDENDUM (2026-09-01, later; owner's rule "before you conclude we don't have something, sweep the repo first") — the runner's witnesses are gitignored
+
+Swept all 7 remote heads and the deleted-file history for `b1148|carrier_harvest`
+(`reports/fresh_physics_seat_2026-09-01/sweeps/ABSENCE_SWEEP_LOG.md`, row A03). The absence
+above **stands** (certs only under `outside_bench/certificates/` on `claude/outside-bench`), and
+the sweep surfaced one more provenance gap: `verification/reproduce_new.sh` l.7–10 names
+`reproduce.log` ("records the run done on THIS bench (2026-08-26): all certs REPRODUCE
+byte-identical") and `our_uniqueness_chain.out` ("6615 -> 4 -> 1") as its witnesses, and writes
+`../our_<cert>.out` per cert (l.16) — but `.gitignore` ignores `*.log` and `*.out` repo-wide, so
+none of those files can be committed under the names the runner gives them, and none is on any
+head. The "8/8 REPRODUCE" statement is therefore unwitnessed in the committed tree (E51 class).
+**Proposal:** have the runner write `.txt` (e.g. `our_<cert>_out.txt`, `reproduce_log.txt`) and
+commit them, or lift the ignore for `frontier/**/verification/`. (This seat hit the same
+`.gitignore` trap on its own run outputs and fixed it the first way — see
+`reports/fresh_physics_seat_2026-09-01/recompute/README.md`.)
