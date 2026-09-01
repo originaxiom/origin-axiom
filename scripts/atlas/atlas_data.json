@@ -4939,6 +4939,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1233": {
+   "slug": "zai audit",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "quasicrystal",
+    "lorentzian",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B126",
+    "B131",
+    "B285",
+    "B330",
+    "P019"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B123": {
    "slug": "arithmeticity m1",
    "motifs": [

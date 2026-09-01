@@ -13112,3 +13112,18 @@ conflated observer-supplied values with representational choices. **Routes aroun
 Fenced: codex's exact connecting-block computation is still running; only the algebra is verified.
 
 ---
+
+## 2026-09-01 — B1233: the external audit
+
+15 confirmed, 7 refuted, one defect found in **our** record. Confirmed: the golden **dilogarithm
+partition** of ζ(2) into 3/5 + 2/5; Λ(m) = Lagrange²; the **void as a (2,1) saddle** above a
+quaternionic global minimum; the Riley value = our B285; 2 inert in both ends, split in the meeting.
+Refuted: j(m004 cusp) ≠ 0 (that's **m003's**); the q = 1 "cutoff"; **k = 1 by minimality** (the error
+B1232 retracted hours earlier); quartic-vs-quadratic; and the **observer-bit = class-group**
+identification, dead by Galois — conjugation fixes √5, the class generator flips both. **I-8
+REFUTED.** Our own defect: a **κ convention split** between paper and frontier; harmonization owed.
+
+Convergence: two seats, one day, one boundary — **the deriving machinery is arithmetic, and
+arithmetic cannot emit a continuum.**
+
+---

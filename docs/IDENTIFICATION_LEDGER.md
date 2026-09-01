@@ -22,6 +22,7 @@ Status values: **EARNED** (map exhibited *and* acts) · **REFUTED** (tested, fai
 | I-5 | V₄ ⋊ S₃ ↔ D₄ triality | three forced quadratic faces (genus theory) | Gal of the classifying cubic, disc 6237 | ✔ | ✘ | **REFUTED** | B1223 | a cubic whose discriminant's squarefree part lies in {−3, 5, −15} — then the action could be faithful |
 | I-6 | π₁(m004) ↠ 2T ≡ the 6d type's ALE Γ | a quotient of the 3-manifold's π₁ | the orbifold group of the **transverse** ℂ² | ✘ | ✘ | **UNEARNED** | B1228 (+ addendum 2026-09-01) | a construction where the *same* 2T plays both roles — a map carrying the π₁ quotient to the transverse orbifold group |
 | I-7 | the object's ℤ/3 ≡ the boundary CFT's module group | trinification ℤ/3 · trace field ℚ(ζ₃) | \|P/Q\| of the boundary chiral algebra | ✘ | ✘ | **UNEARNED** | B1230 C-5b (+ addendum 2026-09-01) | show the trinification/Galois ℤ/3 *is* the group permuting {1, 27, 27̄}, not a same-order group elsewhere |
+| I-8 | the observer's ℤ/2 ≡ the ideal class of ℚ(√−15) | our c = mirror = chirality = Gal(K/ℚ) (B1174) | the class-group generator, Gal(H/ℚ(√−15)) | ✘ | ✘ | **REFUTED** | B1233 (external proposal, audited here) | dead as stated: in V₄ = Gal(ℚ(√−3,√5)/ℚ) complex conjugation **fixes √5** (real) and flips √−3, while the class generator fixes √−15 = √−3·√5 and so **flips both** — *different elements*. A live question remains: is the class bit a genuine FIFTH ℤ/2 the ledger has never priced? |
 
 ## Standing counts
 

@@ -1,5 +1,25 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-01, B1233 — THE Z-AI AUDIT: 15 CONFIRMED, 7 REFUTED, ONE REAL DEFECT IN OUR OWN
+RECORD)**: owner — *take every letter seriously, verify never trust*. Everything recomputed here.
+**CONFIRMED**: the **Rogers dilogarithm partition** L(1/φ) = (3/5)ζ(2), L(1/φ²) = (2/5)ζ(2), summing
+to ζ(2) exactly — the golden grammar splits a weight-2 period into **forced rational weights**;
+Λ(m) = m²+4 is the **square of the Lagrange number**; Jones 4cos²(π/5) = φ²; the Fricke identity;
+**the void (2,2,2) is a (2,1) saddle** while (0,0,0) is the global minimum at κ = −4; the Riley value
+√3·e^{±iπ/6} = **our banked B285**; the Markoff stratum = 3× Markov triples; h(−15) = 2 with **2
+inert in both ends and splitting only in the meeting field**; j(√−3) = 54000. **REFUTED**:
+j(m004's cusp) ≠ 0 — it is 2.8×10⁹, and **j = 0 is m003's**, smuggled in by an "(or ω)"; the "q = 1
+cutoff → 744" (j diverges there); "k = 1 by minimality" — **the default-from-absence error B1232
+retracted two hours earlier**; the disc −15 j-values are **quadratic, not quartic**; and the headline
+**"the observer's bit IS the ideal class of ℚ(√−15)" — REFUTED by Galois**: conjugation fixes √5 and
+flips √−3, the class generator flips **both** — different elements, and B1174 already unified our
+four ℤ/2's as c. Registered **I-8 REFUTED**. **THE ONE REAL DEFECT, THEIRS TO CLAIM**: a **κ
+convention split** — the paper (§7, line 696) uses κ = tr − 2, the frontier record uses κ = tr raw;
+**harmonization owed**. **CONVERGENCE**: their *consistency forces the discrete* and this bench's
+independent same-day finding are one result — **every derived item is discrete/rational/torsion,
+every underived one continuous, zero exceptions** — because **the deriving machinery is arithmetic,
+and arithmetic cannot emit a continuum.**
+
 **LATEST (2026-09-01, B1232 — CODEX R031A/R031B VERIFIED ON THIS BENCH; THREE RETRACTIONS; AND A
 THIRD COLUMN)**: owner said *verify everything, trust nothing*, so codex's certs were **re-run here**
 and the positive lemma **re-derived independently**. **RETRACTED: (1) σ ∈ ℚ establishes nothing —
