@@ -52,8 +52,13 @@ an E₆ embedding a known result (cf. Tong, "Line operators in the Standard Mode
 the global-form literature)? The fact that E₆ (simply connected, center ℤ₃) fixes the
 global form of its unbroken subgroup is group theory; which Γ results is a computation
 someone has likely done.
-**Status: PARTIAL** [argued: the mechanism is classical; the specific attribution needs a
-literature hour, not an expert].
+**Status: CLOSED — by the record itself, after this list was first written.** B1221
+(2026-08-31) ran the decisive computation the prior-art dossier isolated: the ℤ₆ kernel is
+a property of the (algebra, representation) pair — computed from the 27's content alone,
+SU(5) appearing nowhere, MB12 controls discriminating (72 and 18 on other content) — so it
+is obtained identically on the chains that never enter SU(5). **Verdict KNOWN** (the
+dossier's Entry 4 is marked so): path-independence *explains* the 1980 result. My PARTIAL
+was the right lean; the record finished it.
 
 ## Quantum topology / quantum modularity
 
@@ -64,9 +69,18 @@ N^{3/2} e^{N·Vol/2π} · 3^{−1/4} · (1 + Σ_k c_k (2πi/N)^k) with c_k in th
 3^{−1/4} = |disc|^{−1/4} unit — already established by Ohtsuki's asymptotic-expansion
 papers and/or Garoufalidis–Zagier quantum modularity (where the 4₁ expansion is the
 worked example)?
-**Status: PARTIAL** [cited-from-memory, MUST-VERIFY: 3^{−1/4} appears in the
-Garoufalidis–Zagier treatment of 4₁; the repo's B1120/B1133 should cite and diff against
-it before any novelty claim]. Expert: anyone in quantum modularity, one afternoon.
+**Status: CLOSED-AS-KNOWN-ADJACENT — verified on this bench by reading the source.**
+I obtained and read Garoufalidis–Zagier ("Knots, perturbative series and quantum
+modularity") directly. It contains, explicitly for 4₁: **A(0) = 3^{−1/4}** as the leading
+unit, and the full perturbative series **Φ(4₁)(h) with coefficients in
+ζ₈·δ^{−1/2}·ℚ(√−3)[[h]]** — i.e. trace-field arithmeticity of the subleading coefficients,
+including the |disc|^{−1/4} unit, is in the published literature. The repo's B1120/B1133
+"make-or-break POSITIVE" is therefore a **rediscovery/extension** (their specific
+C₁, C₂, C₃, C₄ rational values and the parity law are finer data than GZ print, but the
+arithmeticity *claim* is GZ's). Notably, THE_FRAMEWORK's adelic section cites GZ, but
+B1120/B1133's own FINDINGS do not diff against it locally — an E37-shaped citation gap
+worth one addendum before any external use. [computed-here: text extraction; grade —
+read-directly, not from memory.]
 
 **Q5. The level-15 theta/Weil computations (seam forms, P56–P68).**
 Precise form: on the 15-dimensional Weil representation of SL(2,ℤ/15) with the
@@ -119,10 +133,25 @@ This retires the census experiment and reframes the record's amphichirality moti
 | Q1 (2T/2I quotient asymmetry) | computational half closed; mechanism open | computed-here |
 | Q2 (family = commensurability class) | closed | computed-here + cited |
 | Q3′ (Reid rediscovery) | closed | cited |
-| Q4′ (ℤ₆ mechanism classical) | narrowed to literature-hour | argued |
+| Q4′ (ℤ₆ mechanism classical) | **closed — KNOWN, by the record's own B1221** | verified-in-repo |
+| Q4 (Kashaev arithmeticity vs. GZ) | **closed — KNOWN-adjacent, GZ read directly** | read-directly |
 | Q6 (observable content) | closed against the record; open as challenge | verified-in-repo |
 | Q8 (amphichirality forced) | closed | argued + computed-here |
-| Q3 (registerability rule novel?) | **open — highest value** | — |
-| Q4 (Kashaev arithmeticity vs. GZ) | open, must-verify before claims | cited-from-memory |
+| Q3 (registerability rule novel?) | **open — highest value** (dossier entries 2–3 unsearched) | — |
 | Q5 (Weil-rep novelty) | open | — |
 | Q7 (generation carrier) | open, with a stated physics prior | opinion |
+
+## Cross-reference: the record's own specialist queue (found on the second pass)
+
+`docs/SPECIALIST_SEND_QUEUE.md` (B1179) holds six bounded outward questions, all on owner
+HOLD. Overlaps with mine: their **Q1 (SEAM-A Gate 2 — Andersen–Hansen cusped extension /
+arithmetic-CS finite-phase→Vol)** is the record's ★★★★ and does not appear on my list
+because it is genuinely NEEDS-SPECIALIST and already sharply posed (B1156: the a-priori
+MISMATCH refuted, the Arakelov row carries Vol as the Borel regulator — I read and endorse
+the framing). Their Q3 (the B491 seam form) neighbors my Q5. One question the queue no
+longer needs: the Lee tangential-base-point question was closed *internally* by B1209
+(the torsor is trivial for m004 — |a₁| = 1 at all four ideal points), which is exactly the
+kind of self-specialization the seed asked me to attempt and the record performed on its
+own. My net addition to their queue after closures: **Q3 (registerability termination —
+prior-art entries 2–3), Q5 (finite Weil/theta novelty), Q7 (generation carrier as
+index-theoretic data)** — three questions, none duplicating theirs.

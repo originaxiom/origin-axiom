@@ -3,6 +3,25 @@
 *Deliverable 4: my own paper concept, built from what I verified, not a revision of the
 portfolio's. It is smaller than the programme hopes in one direction and larger in another.*
 
+***Second-pass repositioning:*** *after reading `papers/P3_THE_PAPER/main.tex` (2026-08-31)
+in full, roughly 80% of this concept — the boundary headline, genericity-first order,
+priced axioms, freedom-ledger spine, sealed negatives as theorems, the falsifier list —
+is already in the actual paper, independently arrived at. What remains distinctively mine,
+and what I would still contribute, reduces to three deltas:*
+
+1. ***Movement I as written below*** *(the object stated as the commensurability class /
+   Gieseking minimum, orientation as the first closing, and the a-priori amphichirality
+   theorem retiring the census) — absent from P3, and the one structural change that
+   simplifies its observer section rather than adding to it;*
+2. ***the ℤ₆ adjustment*** *— with B1221's KNOWN verdict, the "four non-classical
+   candidates" of point 3 below reduce to three (termination rule, hypercharge
+   realization, E₆(−26) closing), and the ℤ₆ row's value is the experimental handle, which
+   P3 already states;*
+3. ***the "smaller still" version at the end*** *— which is now, in effect, a description
+   of what P3 became; I keep it as written because it independently predicted the paper's
+   correct final shape from the evidence alone, which is itself a check that the evidence
+   determines the shape.*
+
 ## The reframing it rests on (all verified this bench or in-repo)
 
 1. The object is the **commensurability class of the Bianchi group PGL(2,ℤ[ω])** — the

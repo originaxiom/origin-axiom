@@ -70,6 +70,57 @@ the SL(2,ℂ) lift is a spin-structure choice) is the same move one storey up. C
 stops being a striking vanishing and becomes what it is: the value pinned by the deck
 involution.
 
+## Second pass: the verdict stress-tested against the record's newest arcs (B1224–B1232, R021)
+
+Run after the full corpus read, deliberately hunting the counter-case.
+
+**(1) "Every wall traces to amphichirality" — the seed's framing — is OVERBROAD, and I
+reject it explicitly.** My own wall-tracing over the full record:
+- Walls with genuine A6/mirror ancestry: the chirality/orientation underdetermination
+  (B713/B1163/B1183 — the one-class theorem), CS ∈ 2-torsion (B1224), the CP-sector
+  bit-structure (B303/L192), the c-as-swap motif.
+- Walls **without** mirror ancestry: the **scale wall** (Mostow rigidity + the scale-torsor
+  theorem Hom(G,ℝ⁺)=0 — no mirror anywhere in either proof); the **value walls** (the type
+  law B1032, the exhaustive disjointness B1126/B1129/B1137, and now B1225's selector
+  theorem, which is about invariance in general, not the mirror); the **generation
+  obstruction** (trace-field degree, B298/B307); the **rank wall** (semisimple centralizers
+  preserve rank, B952 — pure Lie theory).
+So A6 organizes the *chirality/CP corner* of the boundary, not the boundary. My verdict
+(A6 = the first closing, mislabeled) stands, but its blast radius is that corner.
+
+**(2) The record's own B1224–B1227 sharpen, and partly discipline, my amphichirality
+theorem.** Amphichirality forces a mirror-odd invariant to 2-torsion in its value group —
+{0, ¼} for CS in ℝ/½ℤ (m003, m135, m207 genuinely sit at ¼), exactly 0 in torsion-free ℝ
+(B1227). So my "CS = 0 is what the deck involution pins" needs the honest refinement:
+amphichirality alone pins CS only to {0, ¼}; that m004 sits at 0 rather than ¼ is a
+further fact (B1226 re-types the k-blindness wall onto "the complex volume is real" — a
+contingent datum of m004, and a second separator of the sister pair: m004 at 0, m003 at ¼).
+The a-priori theorem (orientation double covers are amphichiral) is untouched; what it
+buys downstream is 2-torsion, not vanishing. My falsifier-paragraph claim stands corrected
+in this one respect.
+
+**(3) What genuinely requires orientation — checked, and the record already works the
+Gieseking side.** CS, complex volume, spin-lift data need an orientation *as inputs of the
+oriented description* — consistent with the relabeling. Better: the record's spin payment
+already runs *through the non-orientable partner*: codex R021 (verified B1175) computes
+the **Gieseking Pin⁻ restriction** — exactly one of m004's two spin structures extends to
+m000 — and B1141's beat-selection plus the paper's own §ledger note ("the object discarded
+at the most fragile fork is what later pays the last discrete bit") make the discarded
+sibling load-bearing. This is my verdict's strongest corroboration from inside the record:
+the Gieseking manifold is not a rejected alternative but an active computational site, and
+treating m000/the class as the object with orientation as closing #1 matches how the
+mathematics is actually being used.
+
+**(4) Convergence note.** The P3 paper (2026-08-31 draft) now names the Gieseking sibling
+in its axiom pricing and grades orientation the most expensive fork; B1003 prices F5
+FRAGILE with "M² = RL" stated; P020's comparator discipline names Gieseking as the
+mandatory comparator. The record has moved to within one step of this verdict. The step it
+has not taken — and my residual recommendation — is the **relabeling itself** (axiom →
+first closing, object → class/Gieseking, amphichirality → theorem-of-the-construction),
+which shortens the axiom count at the entrance from three to two plus one closing, and
+converts the 83/112-member amphichirality census from evidence into an instance of a
+one-line theorem.
+
 ## Pre-registered falsifiers of this verdict (stated before I computed)
 
 - If the 2T surjection counts had differed between m000 and m004, or the shape fields had
