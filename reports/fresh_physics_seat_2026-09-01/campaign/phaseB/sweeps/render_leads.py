@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+"""Render the substantive LEADs of the W-E sweep compactly for the seat's hand verdicts:
+one block per lead with the claim quote, the terms, and the substantive hit paths (catch-all files removed).
+Usage: python3 render_leads.py [start] [count]  -> prints leads[start:start+count]."""
+import json, sys, csv
+recs = json.load(open('absence_sweep_paths.json'))
+rows = list(csv.DictReader(open('../synthesis/absence_claims.tsv'), delimiter='\t'))
+leads = [r for r in recs if r['status'] == 'LEAD']
+start = int(sys.argv[1]) if len(sys.argv) > 1 else 0; count = int(sys.argv[2]) if len(sys.argv) > 2 else 40
+for r in leads[start:start + count]:
+    q = rows[r['i']]['quote']
+    print('#%d [%s] %s' % (r['i'], r['arc'], r['where'].split('/')[-1][:50]))
+    print('   Q: %s' % q[:260].replace('\n', ' '))
+    print('   terms: %s | substantive hits %d (catch-all %d)%s' % (' '.join(r['terms']), len(r['substantive']), r['catchall_hits'], (' | DELETED: ' + ', '.join(r['deleted'])) if r['deleted'] else ''))
+    paths = r['substantive']
+    print('   hits: %s%s' % (' ; '.join(p.replace('frontier/', 'f/') for p in paths[:10]), ' ; ...' if len(paths) > 10 else ''))
