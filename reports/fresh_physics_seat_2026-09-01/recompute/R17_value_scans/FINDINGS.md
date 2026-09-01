@@ -124,4 +124,20 @@ the 216-cell scan adds no evidence about the SM values themselves.
 
 ## Appendix — B1137 re-run diff
 
-(appended after grid completion)
+(completed)
+
+Completed 2026-09-01, this bench (4 workers; real 216 cells in 834 s, null 400 cells in ~24 min).
+
+- `b1137_rerun/results/final_report.json` vs banked
+  `frontier/B1137_regulator_probe/results/final_report.json`: **DICT-IDENTICAL** (every field:
+  M_grid_cells=216, alpha_cell=2.3744e-4, all four null rates 0.0 at n=100, all 18 per-target
+  rows, overall_verdict=DISJOINT, dps_by_H={100:116, 1000:154, 10000:191, 1000000:267}).
+- Re-run real grid intermediate: 216 rows, found=117, involves_V=117, involves_regulator=0;
+  found distribution: alpha_s 12, |Vus| 12, |Vcb| 12, |Vub| 9, sin^2(th12) 12, sin^2(th23) 12,
+  sin^2(th13) 12, delta_CP 12, m_c/m_b 12, m_s/m_d 12 — matches the banked per_target table
+  exactly (and the arc's own "117 found cells" note in pslq_probe.py).
+- Second prose/artifact mismatch noted for the record: banked FINDINGS says "Only delta_CP and
+  m_s/m_d produced any stable, height-legal, within-1sigma relation"; the committed report
+  shows TEN targets with found=12 V-alone relations, and NONE of them (delta_CP and m_s/m_d
+  included) marked height-legal/stable/within-1sigma — the gate short-circuits at
+  involves_regulator before those checks run. Verdict-irrelevant; narrative imprecision only.

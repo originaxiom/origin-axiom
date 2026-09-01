@@ -1,0 +1,24 @@
+[PASS] dim H_0 = 1  got 1
+[PASS] dim H_1 = 3  got 3
+[PASS] dim H_2 = 5  got 5
+[PASS] dim H_3 = 7  got 7
+[PASS] dim H_4 = 9  got 9
+[PASS] dim H_5 = 11  got 11
+[PASS] dim H_6 = 13  got 13
+  l=0: survives=True  (ALL basis elements frame-constant)
+  l=1: survives=False  (ALL basis elements frame-NON-constant (exact witness rotations))
+  l=2: survives=True  (ALL basis elements frame-constant)
+  l=3: survives=False  (ALL basis elements frame-NON-constant (exact witness rotations))
+  l=4: survives=False  (ALL basis elements frame-NON-constant (exact witness rotations))
+  l=5: survives=False  (ALL basis elements frame-NON-constant (exact witness rotations))
+  l=6: survives=False  (ALL basis elements frame-NON-constant (exact witness rotations))
+[PASS] only l in {0,2} survive the frame constraint  surviving map = {0: True, 1: False, 2: True, 3: False, 4: False, 5: False, 6: False}
+[PASS] surviving dimension count 1 + 5 = 6 = dim Sym(3x3)  
+[PASS] symbolic: frame-sum of ANY quadratic form = tr(A) for ALL rotations  
+[PASS] planted positive: (x^2+y^2+z^2)^2 detected as SURVIVOR with frame-sum 3  values={3}
+[PASS] plant is degree 4 and non-harmonic (so the l=4 kill is doing real work)  
+[PASS] control: a generic l=4 harmonic is flagged NON-surviving (>=2 exact values)  7 distinct exact values
+[PASS] dim-2: h(n)=n_z^3 satisfies h(n)+h(-n)=const (=0) -- valid frame function  
+[PASS] dim-2: n_z^3 is not affine in n (not Tr(rho P)) -- Gleason genuinely needs dim>=3  
+
+PART B RESULT: ALL PASS

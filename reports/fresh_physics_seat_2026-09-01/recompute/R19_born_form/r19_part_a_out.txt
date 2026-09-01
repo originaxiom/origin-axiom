@@ -1,0 +1,21 @@
+[PASS] N_{C/R}(psi) = psi*c(psi) = x^2+y^2  norm2=x**2 + y**2
+[PASS] prod over Gal(C/R) of g(psi) equals |psi|^2  
+[PASS] degree of N_{C/R} = 2  deg=2
+[PASS] c-swap has order 2 (c(c(psi))=psi, c(psi)!=psi)  
+[PASS] p(z+1/z)*z^3 = 1+z+...+z^6  (so t=2cos(2pi/7) is a root)  lhs=z**6 + z**5 + z**4 + z**3 + z**2 + z + 1
+[PASS] p(2cos 2pi/7) ~ 0 numerically  |p|=-0E-172
+[PASS] p(sigma(t)) == 0 mod p(t)  (sigma permutes the roots)  
+[PASS] sigma^3 = id, sigma != id, sigma^2 != id  (swap order = 3)  sigma^2(t)=-t**2 - t + 1
+[PASS] N(xi) = xi * sigma(xi) * sigma^2(xi) is t-free (lands in Q)  N=x0**3 - x0**2*x1 + 5*x0**2*x2 - 2*x0*x1**2 - x0*x1*x2 + 6*x0*x2**2 + x1**3 - x1**2*x2 - 2*x1*x2**2 + x2**3
+[PASS] degree of cubic norm form = 3  deg=3
+[PASS] cubic norm form is homogeneous of degree 3  
+[PASS] cubic norm has integer coefficients  
+[PASS] resultant construction agrees with sigma-orbit product  
+[PASS] N(ab) = N(a)N(b) (multiplicativity spot check)  N(a)=-1, N(b)=97, N(ab)=-97
+
+degree-vs-swap-order table (computed):
+  Gal(C/R): order 2  -> norm form degree 2
+  cyclic cubic Q(2cos 2pi/7): order 3 -> norm form degree 3
+  cubic norm form: x0**3 - x0**2*x1 + 5*x0**2*x2 - 2*x0*x1**2 - x0*x1*x2 + 6*x0*x2**2 + x1**3 - x1**2*x2 - 2*x1*x2**2 + x2**3
+
+PART A RESULT: ALL PASS

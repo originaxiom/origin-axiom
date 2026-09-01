@@ -1,0 +1,31 @@
+{
+  "W1_factors_over_Qsqrt5": "(1, [(x**2 + 3, 1)])",
+  "W1_irreducible_over_Qsqrt5": true,
+  "W1_sqrt_of_minus3_in_Qsqrt5_solutions": "[]",
+  "W1_control_factors_over_Qsqrtm3": "(1, [(x - sqrt(3)*I, 1), (x + sqrt(3)*I, 1)])",
+  "W1_control_splits": true,
+  "W2_det_M": -1,
+  "W2_PF_eigenvalue_is_phi": true,
+  "W2_freqs": [
+    "-1/2 + sqrt(5)/2",
+    "3/2 - sqrt(5)/2"
+  ],
+  "W2_freqs_match_phim1_2mphi": true,
+  "W2_gap_label_generators_in_Zphi": true,
+  "W2_gap_labels_real": true,
+  "W2_group_is_all_of_Zphi": true,
+  "W3_constraints_solution": "[{p: q + s, r: q}]",
+  "W3_End_general_form": "Matrix([[q + s, q], [q, s]])",
+  "W3_End_equals_ZM": true,
+  "W3_M_charpoly": "x**2 - x - 1",
+  "W3_X2_eq_m3_solutions": "[]",
+  "W3_vacuity_control_squares_to_m3I": true,
+  "W3_control_not_cone_preserving": true,
+  "W4_M_in_GL2Z": true,
+  "W4_M_smith_normal_form": "Matrix([[1, 0], [0, 1]])",
+  "W4_SNF_of_M": "Matrix([[1, 0], [0, 1]])",
+  "W4_K0": "Z^2 (direct limit of isomorphisms), torsion-free",
+  "W4_K1": "0 (AF algebra)",
+  "W4_3torsion_present": false,
+  "W4_zeta3_in_End_solutions": "[]"
+}

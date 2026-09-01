@@ -213,3 +213,32 @@ bound, on this branch for owner merge review); G4 T9's owed census-completeness
 verification; G5 the full 60-file literal-flag enumeration (LITERAL-VERDICT vs
 LITERAL-RECORD vs COMPUTED). G1/G2 adversarially verified; G3 consistency-checked with
 gates + doc tests run.
+
+---
+
+## Sweep set 2 + the recovery event (2026-09-01)
+
+**Three of the four single-homed artifacts RECOVERED from branches** (S11): the
+W1 = 11,720 enumerator + 17-atom list (`origin/claude/outside-bench:
+outside_bench/certificates/menu_width.py` — copied to `recovered_artifacts/`,
+**re-run on this bench: reproduces 11,720 exactly**, upgrading R01's missing clause to
+verified and factually correcting B1225's ADDENDUM "on no branch"); B1217's V-NEG
+certificate (same branch); and **all nine E51 "UNRECOVERABLE-FINAL" relay files exist
+with verified content at the root of `origin/audit/b775-braver-questions`** — the E51
+finality rows are false as written (owner action: reopen E51 as RECOVERED). Only the
+B1185 codex GF(1009) tail remains genuinely missing (G2's commissioning spec covers it).
+
+**B1233 fetched and read** (remote main, the Z-AI audit): 15 confirmed / 7 refuted /
+one real defect — a κ convention split *inside the repo* (main.tex's κ = tr[A,M]−2 vs
+the frontier's κ = tr[A,B] raw; harmonization owed — the same two-convention species as
+T5's RL/LR find, now with a second instance). Its I-8 refutation (the class-group bit is
+a FIFTH ℤ/2, not c) and the convergence statement ("every derived item is discrete/
+rational/torsion; every underived item continuous; arithmetic cannot emit a continuum")
+are both consistent with this campaign's type-matched thesis — the latter is its
+sharpest known phrasing.
+
+**G1 scope propagated** to THE_CLAIM's rule-independence row and README (elected T4
+lane; LAW_MAP has no bare rule-independence row to patch). New owner items from set 2:
+E51 reopen; the κ harmonization; LAW_MAP:107/:146's un-bannered "CS=0 iff amphichiral"
+(B1226 propagation — not elected, listed); GC_v0's retracted σ-block fence; the
+"all sends HOLD" row (Q11 was in fact sent to Dimofte on the cloud lane).

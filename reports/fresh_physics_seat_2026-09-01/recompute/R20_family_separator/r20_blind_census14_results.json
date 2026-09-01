@@ -1,0 +1,611 @@
+{
+ "family": [
+  "m003",
+  "m004",
+  "m202",
+  "m203",
+  "m206",
+  "m207",
+  "m208",
+  "m410",
+  "m412",
+  "s118",
+  "s119",
+  "s594",
+  "s595",
+  "s596",
+  "s955",
+  "s956",
+  "s957",
+  "s958",
+  "s959",
+  "s960",
+  "s961"
+ ],
+ "family_size": 21,
+ "shapes": {
+  "m003": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "m004": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "m202": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "m203": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "m206": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "m207": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "m208": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/6",
+   "-1/2 + sqrt(3)*I/2",
+   "3/2 + sqrt(3)*I/2"
+  ],
+  "m410": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "m412": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "s118": [
+   "4/7 + 2*sqrt(3)*I/7",
+   "5/8 + sqrt(3)*I/8",
+   "3/2 + sqrt(3)*I/2",
+   "-1/2 + sqrt(3)*I/2",
+   "4/7 + 2*sqrt(3)*I/7",
+   "-1/2 + sqrt(3)*I/6"
+  ],
+  "s119": [
+   "3/4 + sqrt(3)*I/12",
+   "3/4 + sqrt(3)*I/4",
+   "5/7 + sqrt(3)*I/7",
+   "5/7 + sqrt(3)*I/7",
+   "3/2 + sqrt(3)*I/2",
+   "2*sqrt(3)*I/3"
+  ],
+  "s594": [
+   "1/2 + sqrt(3)*I/6",
+   "1/2 + sqrt(3)*I/2",
+   "sqrt(3)*I",
+   "3/4 + sqrt(3)*I/4",
+   "1 + sqrt(3)*I/3",
+   "sqrt(3)*I/3"
+  ],
+  "s595": [
+   "sqrt(3)*I/3",
+   "sqrt(3)*I",
+   "sqrt(3)*I",
+   "sqrt(3)*I/3",
+   "sqrt(3)*I/3",
+   "sqrt(3)*I"
+  ],
+  "s596": [
+   "sqrt(3)*I/3",
+   "sqrt(3)*I",
+   "sqrt(3)*I",
+   "sqrt(3)*I/3",
+   "sqrt(3)*I/3",
+   "sqrt(3)*I"
+  ],
+  "s955": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "s956": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "s957": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "s958": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "s959": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "s960": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ],
+  "s961": [
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2",
+   "1/2 + sqrt(3)*I/2"
+  ]
+ },
+ "table": [
+  {
+   "name": "m003",
+   "h1": "Z/5 + Z",
+   "elementary_divisors": [
+    5,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 2.029883212819308,
+   "tets": 2,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 0.2500000000000001,
+   "cs_is_zero": false
+  },
+  {
+   "name": "m004",
+   "h1": "Z",
+   "elementary_divisors": [
+    0
+   ],
+   "h1_is_Z": true,
+   "volume": 2.029883212819307,
+   "tets": 2,
+   "cusps": 1,
+   "torsion_free": true,
+   "amphichiral": true,
+   "cs": 1.3498693315439662e-16,
+   "cs_is_zero": true
+  },
+  {
+   "name": "m202",
+   "h1": "Z + Z",
+   "elementary_divisors": [
+    0,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 4.059766425638614,
+   "tets": 4,
+   "cusps": 2,
+   "torsion_free": true,
+   "amphichiral": true,
+   "cs": 0.08333333333333345,
+   "cs_is_zero": false
+  },
+  {
+   "name": "m203",
+   "h1": "Z + Z",
+   "elementary_divisors": [
+    0,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 4.059766425638615,
+   "tets": 4,
+   "cusps": 2,
+   "torsion_free": true,
+   "amphichiral": true,
+   "cs": 2.2497822192399436e-17,
+   "cs_is_zero": true
+  },
+  {
+   "name": "m206",
+   "h1": "Z/5 + Z",
+   "elementary_divisors": [
+    5,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 4.059766425638614,
+   "tets": 4,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 5.17449910425187e-16,
+   "cs_is_zero": true
+  },
+  {
+   "name": "m207",
+   "h1": "Z/3 + Z/3 + Z",
+   "elementary_divisors": [
+    3,
+    3,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 4.059766425638615,
+   "tets": 4,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 0.25000000000000044,
+   "cs_is_zero": false
+  },
+  {
+   "name": "m208",
+   "h1": "Z/10 + Z",
+   "elementary_divisors": [
+    10,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 4.059766425638614,
+   "tets": 5,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 6.749346657719831e-17,
+   "cs_is_zero": true
+  },
+  {
+   "name": "m410",
+   "h1": "Z/2 + Z",
+   "elementary_divisors": [
+    2,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 5.074708032048267,
+   "tets": 5,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": -0.12499999999999932,
+   "cs_is_zero": false
+  },
+  {
+   "name": "m412",
+   "h1": "Z/2 + Z + Z",
+   "elementary_divisors": [
+    2,
+    0,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 5.074708032048268,
+   "tets": 5,
+   "cusps": 2,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": -0.12500000000000006,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s118",
+   "h1": "Z/2 + Z",
+   "elementary_divisors": [
+    2,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 4.059766425638615,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 0.08333333333333337,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s119",
+   "h1": "Z/2 + Z",
+   "elementary_divisors": [
+    2,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 4.059766425638615,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": -0.0833333333333333,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s594",
+   "h1": "Z/2 + Z/4 + Z",
+   "elementary_divisors": [
+    2,
+    4,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 5.074708032048267,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 0.12500000000000017,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s595",
+   "h1": "Z/2 + Z/2 + Z",
+   "elementary_divisors": [
+    2,
+    2,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 5.074708032048268,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 1.3498693315439662e-16,
+   "cs_is_zero": true
+  },
+  {
+   "name": "s596",
+   "h1": "Z/2 + Z + Z",
+   "elementary_divisors": [
+    2,
+    0,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 5.074708032048267,
+   "tets": 6,
+   "cusps": 2,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 0.0,
+   "cs_is_zero": true
+  },
+  {
+   "name": "s955",
+   "h1": "Z/20 + Z",
+   "elementary_divisors": [
+    20,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 6.089649638457921,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 0.25000000000000067,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s956",
+   "h1": "Z/2 + Z/4 + Z",
+   "elementary_divisors": [
+    2,
+    4,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 6.089649638457921,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 2.362271330201941e-16,
+   "cs_is_zero": true
+  },
+  {
+   "name": "s957",
+   "h1": "Z/4 + Z",
+   "elementary_divisors": [
+    4,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 6.089649638457922,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 0.24999999999999986,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s958",
+   "h1": "Z/3 + Z",
+   "elementary_divisors": [
+    3,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 6.089649638457922,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": -0.08333333333333245,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s959",
+   "h1": "Z/3 + Z + Z",
+   "elementary_divisors": [
+    3,
+    0,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 6.089649638457921,
+   "tets": 6,
+   "cusps": 2,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": -0.16666666666666644,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s960",
+   "h1": "Z/2 + Z/10 + Z",
+   "elementary_divisors": [
+    2,
+    10,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 6.089649638457921,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 0.24999999999999994,
+   "cs_is_zero": false
+  },
+  {
+   "name": "s961",
+   "h1": "Z/4 + Z/4 + Z",
+   "elementary_divisors": [
+    4,
+    4,
+    0
+   ],
+   "h1_is_Z": false,
+   "volume": 6.089649638457922,
+   "tets": 6,
+   "cusps": 1,
+   "torsion_free": false,
+   "amphichiral": true,
+   "cs": 9.449085320807763e-16,
+   "cs_is_zero": true
+  }
+ ],
+ "shared_with_m004": {
+  "h1_is_Z": [],
+  "volume": [
+   "m003"
+  ],
+  "tets": [
+   "m003"
+  ],
+  "cusps": [
+   "m003",
+   "m206",
+   "m207",
+   "m208",
+   "m410",
+   "s118",
+   "s119",
+   "s594",
+   "s595",
+   "s955",
+   "s956",
+   "s957",
+   "s958",
+   "s960",
+   "s961"
+  ],
+  "torsion_free": [
+   "m202",
+   "m203"
+  ],
+  "amphichiral": [
+   "m003",
+   "m202",
+   "m203",
+   "m206",
+   "m207",
+   "m208",
+   "m410",
+   "m412",
+   "s118",
+   "s119",
+   "s594",
+   "s595",
+   "s596",
+   "s955",
+   "s956",
+   "s957",
+   "s958",
+   "s959",
+   "s960",
+   "s961"
+  ],
+  "cs_is_zero": [
+   "m203",
+   "m206",
+   "m208",
+   "s595",
+   "s596",
+   "s956",
+   "s961"
+  ]
+ },
+ "separators": [
+  "h1_is_Z"
+ ],
+ "V_gieseking": 1.0149416064096537,
+ "volume_over_Vgie": {
+  "m003": 2.000000000000001,
+  "m004": 1.9999999999999998,
+  "m202": 3.9999999999999996,
+  "m203": 4.000000000000001,
+  "m206": 3.9999999999999996,
+  "m207": 4.000000000000001,
+  "m208": 3.9999999999999996,
+  "m410": 4.999999999999999,
+  "m412": 5.0,
+  "s118": 4.000000000000001,
+  "s119": 4.000000000000001,
+  "s594": 4.999999999999999,
+  "s595": 5.0,
+  "s596": 4.999999999999999,
+  "s955": 5.999999999999999,
+  "s956": 5.999999999999999,
+  "s957": 6.0,
+  "s958": 6.0,
+  "s959": 5.999999999999999,
+  "s960": 5.999999999999999,
+  "s961": 6.0
+ }
+}

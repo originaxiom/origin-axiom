@@ -38,7 +38,9 @@ the content the kernel is computed from), **derives** the hypercharge direction
 *registerable* — meaning the 27's generation structure survives — algebra (B863; the
 criterion itself is the survival hypothesis of 1979–80 GUT theory — Georgi 1979,
 Barbieri–Nanopoulos 1980, theorem-grade in Fonseca 1504.03695 — so what is claimable is
-the terminality **plus** its rule-independence (B994), not the criterion). *(Corrected
+the terminality **plus** its rule-independence (B994) — scoped to the regular-maximal
+menus: the specials-inclusive menu's su(3)⊕g₂ branch is registerable and terminates at
+su(3), not the SM (cell G1, verified) — not the criterion). *(Corrected
 2026-09-01 — fresh-seat application of the owner's T4/T5 election; sources:
 reports/fresh_physics_seat_2026-09-01/campaign/)*
 
