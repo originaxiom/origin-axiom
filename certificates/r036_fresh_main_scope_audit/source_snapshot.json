@@ -1,0 +1,119 @@
+{
+  "schema": "oa-r036-fresh-main-scope-audit-sources-v1",
+  "source_commit": "a5138424e5712d11aad69d75fc921e3dbccae7fb",
+  "sources": {
+    "b1233_findings": {
+      "path": "frontier/B1233_zai_audit/FINDINGS.md",
+      "git_blob_sha1": "b24802b33dcd883ecd5775ab46381d8bee13aa8e",
+      "fact": "calls (0,0,0) the global minimum of K=x^2+y^2+z^2-xyz-4 without declaring a compact domain"
+    },
+    "b1233_audit": {
+      "path": "frontier/B1233_zai_audit/audit.py",
+      "git_blob_sha1": "fa71c05fcc9c394409da4fa8f95a153f6e03afd6",
+      "fact": "origin_is_global_min checks only K(0)=-4 and the positive Hessian; it never tests globality"
+    },
+    "b1233_verdict": {
+      "path": "frontier/B1233_zai_audit/arc_verdict.json",
+      "git_blob_sha1": "3ac7929abfbe6f666f5c9964f1787c5e7f40b1e2",
+      "fact": "grades the compound audit PROVED and states both global minimum and arithmetic-cannot-emit-a-continuum"
+    },
+    "b1234_findings": {
+      "path": "frontier/B1234_a6_built_the_walls/FINDINGS.md",
+      "git_blob_sha1": "51ce96cc1f4a24440cfafce772a1707b126a7487",
+      "fact": "the three exact cells are followed by the citation-level claim that all eight walls descend from A6"
+    },
+    "b1234_code": {
+      "path": "frontier/B1234_a6_built_the_walls/a6_built_the_walls.py",
+      "git_blob_sha1": "c5a1f23c4ba6005a0c5b16a08c2384de85c2ea1d",
+      "fact": "computes cover amphichirality, m000-to-m004 isometry and two surjection counts; same_trace_field is a literal string"
+    },
+    "b1234_results": {
+      "path": "frontier/B1234_a6_built_the_walls/results.json",
+      "git_blob_sha1": "48a958ac50c81e29994859244a21ba942975ee56",
+      "fact": "records 40/40, 6/200, the double cover and 48/48; no wall dependency graph or map restriction"
+    },
+    "b1234_verdict": {
+      "path": "frontier/B1234_a6_built_the_walls/arc_verdict.json",
+      "git_blob_sha1": "513d22002ce773eaff08f330e9c0f536607328dc",
+      "fact": "grades the compound A6 claim PROVED and declares no identifications"
+    },
+    "b1234_test": {
+      "path": "tests/test_b1234_a6.py",
+      "git_blob_sha1": "69990abf085b2ade5b3454fe67c68c1118d55d35",
+      "fact": "reruns only a smaller cover census and isometry, then reads committed surjection results"
+    },
+    "b1224_findings": {
+      "path": "frontier/B1224_amphichiral_cs_torsion/FINDINGS.md",
+      "git_blob_sha1": "89ba8c3e20f1f2b405e83862cd31b3c309d661f2",
+      "fact": "amphichirality forces CS only into {0,1/4}; m003, m135 and m207 are amphichiral at 1/4"
+    },
+    "b1226_findings": {
+      "path": "frontier/B1226_the_beta_odd_box/FINDINGS.md",
+      "git_blob_sha1": "dfc472371682c22bf5b17044aac2f99a6d86ba64",
+      "fact": "explicitly refutes CS=0 iff amphichiral and types m004's zero as contingent, not symmetry-forced"
+    },
+    "identification_ledger": {
+      "path": "docs/IDENTIFICATION_LEDGER.md",
+      "git_blob_sha1": "859f1b85f0a49679937e9599f15a64f133afc3f6",
+      "fact": "I-6 remains UNEARNED; the nine rows actually count 3 EARNED, 3 REFUTED, 3 UNEARNED while standing prose says 3,2,2"
+    },
+    "identification_baseline": {
+      "path": "docs/IDENTIFICATION_BASELINE.json",
+      "git_blob_sha1": "b1226569606b37e0efc89529ae0b0fd7a1ef4447",
+      "fact": "the machine baseline correctly records three UNEARNED rows"
+    },
+    "relay_ledger": {
+      "path": "docs/RELAY_LEDGER.md",
+      "git_blob_sha1": "c23bbb6ca0aad73dbe7b82805d9ba00f35654797",
+      "fact": "the B1233/B1234 relay row is inserted inside the two-column meaning table and the date header remains 2026-08-27"
+    }
+  },
+  "b1233_executable_assertions": [
+    "dilog_partition",
+    "lagrange_identity",
+    "jones_phi2",
+    "void_is_2_1_saddle",
+    "origin_is_global_min",
+    "riley_trace",
+    "markov_stratum",
+    "j_sqrt_m3_is_54000",
+    "two_splits_only_in_meeting",
+    "REFUTED_j_m004_is_zero",
+    "j_zero_is_m003_not_m004",
+    "REFUTED_disc15_j_is_quartic",
+    "H15_constant_is_NEGATIVE",
+    "REFUTED_class_bit_equals_c"
+  ],
+  "b1234_results_data": {
+    "orientation_covers_tested": 40,
+    "orientation_covers_amphichiral": 40,
+    "base_rate_num": 6,
+    "base_rate_den": 200,
+    "cover_is_m004": true,
+    "volume_ratio": 2.0,
+    "m000_surjections_onto_2T": 48,
+    "m004_surjections_onto_2T": 48,
+    "trace_field_computed": false,
+    "cover_restriction_map_computed": false,
+    "wall_dependency_graph_computed": false
+  },
+  "banked_amphichiral_cs_values": {
+    "m004": "0",
+    "m136": "0",
+    "m206": "0",
+    "m003": "1/4",
+    "m135": "1/4",
+    "m207": "1/4"
+  },
+  "identification_statuses": [
+    "EARNED",
+    "EARNED",
+    "EARNED",
+    "REFUTED",
+    "REFUTED",
+    "UNEARNED",
+    "UNEARNED",
+    "REFUTED",
+    "UNEARNED"
+  ]
+}

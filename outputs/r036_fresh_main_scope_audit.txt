@@ -1,0 +1,8 @@
+REFUTED B1233 global-minimum claim on R^3: K(10,10,10) = -704
+NARROW B1233 origin verdict: strict local minimum; compact trace-box global only if declared
+REFUTED universal slogan 'arithmetic cannot emit a continuum' by a Z-defined circle
+PRESERVED B1234 exact core: 40/40 covers, m000 cover=m004, 48/48 surjections
+REFUTED B1234 amphichirality-to-all-walls arrow: banked CS has both 0 and 1/4
+UNEARNED B1234 prose join: trace-field computation, cover-map inheritance and wall DAG absent
+PRESERVED I-6 debt: formal McKay label does not earn the physical transverse-ALE identification
+HYGIENE identification ledger actual counts = 3 EARNED / 3 REFUTED / 3 UNEARNED
