@@ -1,0 +1,213 @@
+{
+  "convention": "SnapPy chern_simons(), value group R/(1/2)Z, representatives in [0,1/2), TOL=1e-06",
+  "exhibits": [
+    {
+      "manifold": "m004",
+      "cs_raw_std": 1.3498693315439662e-16,
+      "cs_raw_hp": -1.1545225960276655e-65,
+      "cs_mod_half": 1.3498693315439662e-16,
+      "cs_mod_half_hp": 0.0,
+      "precision_agree": true,
+      "amphichiral": true,
+      "bit": "CP-EVEN"
+    },
+    {
+      "manifold": "m003",
+      "cs_raw_std": 0.2500000000000001,
+      "cs_raw_hp": 0.25,
+      "cs_mod_half": 0.2500000000000001,
+      "cs_mod_half_hp": 0.25,
+      "precision_agree": true,
+      "amphichiral": true,
+      "bit": "CP-ODD"
+    },
+    {
+      "manifold": "m136",
+      "cs_raw_std": -1.1248911096199718e-17,
+      "cs_raw_hp": 2.1647298675518728e-66,
+      "cs_mod_half": 0.0,
+      "cs_mod_half_hp": 2.1647298675518728e-66,
+      "precision_agree": true,
+      "amphichiral": true,
+      "bit": "CP-EVEN"
+    },
+    {
+      "manifold": "m135",
+      "cs_raw_std": 0.2500000000000001,
+      "cs_raw_hp": 0.25,
+      "cs_mod_half": 0.2500000000000001,
+      "cs_mod_half_hp": 0.25,
+      "precision_agree": true,
+      "amphichiral": true,
+      "bit": "CP-ODD"
+    },
+    {
+      "manifold": "m206",
+      "cs_raw_std": 5.17449910425187e-16,
+      "cs_raw_hp": -1.8881254955869112e-65,
+      "cs_mod_half": 5.17449910425187e-16,
+      "cs_mod_half_hp": 0.0,
+      "precision_agree": true,
+      "amphichiral": true,
+      "bit": "CP-EVEN"
+    },
+    {
+      "manifold": "m207",
+      "cs_raw_std": 0.2500000000000005,
+      "cs_raw_hp": 0.25,
+      "cs_mod_half": 0.2500000000000005,
+      "cs_mod_half_hp": 0.25,
+      "precision_agree": true,
+      "amphichiral": true,
+      "bit": "CP-ODD"
+    }
+  ],
+  "chiral_cs0_control": {
+    "manifold": "m208",
+    "cs_raw_std": 6.749346657719831e-17,
+    "cs_raw_hp": -5.291561898460133e-66,
+    "cs_mod_half": 6.749346657719831e-17,
+    "cs_mod_half_hp": 0.0,
+    "precision_agree": true,
+    "amphichiral": false,
+    "bit": "UNDEFINED-CHIRAL"
+  },
+  "chiral_controls": [
+    {
+      "manifold": "m006",
+      "cs_raw_std": -0.11413665304027383,
+      "cs_raw_hp": -0.11413665304027384,
+      "cs_mod_half": 0.3858633469597262,
+      "cs_mod_half_hp": 0.38586334695972613,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m007",
+      "cs_raw_std": -0.13586334695972618,
+      "cs_raw_hp": -0.13586334695972616,
+      "cs_mod_half": 0.3641366530402738,
+      "cs_mod_half_hp": 0.36413665304027387,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m009",
+      "cs_raw_std": -0.02083333333333337,
+      "cs_raw_hp": -0.020833333333333332,
+      "cs_mod_half": 0.47916666666666663,
+      "cs_mod_half_hp": 0.4791666666666667,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m010",
+      "cs_raw_std": 0.22916666666666657,
+      "cs_raw_hp": 0.22916666666666666,
+      "cs_mod_half": 0.22916666666666657,
+      "cs_mod_half_hp": 0.22916666666666666,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m011",
+      "cs_raw_std": -0.19183676637963115,
+      "cs_raw_hp": -0.19183676637963112,
+      "cs_mod_half": 0.30816323362036885,
+      "cs_mod_half_hp": 0.3081632336203689,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m015",
+      "cs_raw_std": -0.15320413329715185,
+      "cs_raw_hp": -0.15320413329715188,
+      "cs_mod_half": 0.3467958667028481,
+      "cs_mod_half_hp": 0.3467958667028481,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m016",
+      "cs_raw_std": -0.2365374666304851,
+      "cs_raw_hp": -0.2365374666304852,
+      "cs_mod_half": 0.26346253336951486,
+      "cs_mod_half_hp": 0.2634625333695148,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m017",
+      "cs_raw_std": 0.09679586670284814,
+      "cs_raw_hp": 0.09679586670284814,
+      "cs_mod_half": 0.09679586670284814,
+      "cs_mod_half_hp": 0.09679586670284814,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m019",
+      "cs_raw_std": -0.14778120745797735,
+      "cs_raw_hp": -0.14778120745797732,
+      "cs_mod_half": 0.35221879254202265,
+      "cs_mod_half_hp": 0.3522187925420227,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m022",
+      "cs_raw_std": -0.21310686681031593,
+      "cs_raw_hp": -0.21310686681031585,
+      "cs_mod_half": 0.28689313318968407,
+      "cs_mod_half_hp": 0.2868931331896841,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m023",
+      "cs_raw_std": 0.03689313318968422,
+      "cs_raw_hp": 0.03689313318968415,
+      "cs_mod_half": 0.03689313318968422,
+      "cs_mod_half_hp": 0.03689313318968415,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    },
+    {
+      "manifold": "m026",
+      "cs_raw_std": -0.07809324752276976,
+      "cs_raw_hp": -0.07809324752276976,
+      "cs_mod_half": 0.42190675247723025,
+      "cs_mod_half_hp": 0.42190675247723025,
+      "precision_agree": true,
+      "amphichiral": false,
+      "bit": "UNDEFINED-CHIRAL"
+    }
+  ],
+  "checks": {
+    "m004_cp_even": true,
+    "MB12_bite_m003_cp_odd": true,
+    "m208_cs_zero": true,
+    "m208_chiral_so_bit_undefined": true,
+    "generic_chiral_not_2torsion": true,
+    "n_chiral_controls": 12,
+    "n_chiral_in_torsion": 0,
+    "all_exhibits_2torsion": true,
+    "precision_agreement_everywhere": true
+  },
+  "object_side_bit": {
+    "m004": "CP-EVEN",
+    "m003": "CP-ODD"
+  },
+  "verdict_half1": "PASS"
+}

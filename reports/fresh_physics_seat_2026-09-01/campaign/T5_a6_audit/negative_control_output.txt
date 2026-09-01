@@ -1,0 +1,3 @@
+slice: docs/ERROR_LEDGER.md
+bite-control state on slice: {'chern-simons': False, 'spin': True, 'complex-volume': False, 'knot-in-s3': True, 'B1141': True}
+bite control FIRED (would exit 2, verdict DEGRADED): True

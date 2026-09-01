@@ -1,0 +1,11 @@
+[1] EXACT IDENTITY: Y[i,j](t) - Y[i,j](0) = sum_k t_k T[i,j,conn_k]  (all 9 family entries)
+[2] EQUIVALENCE: spread==0 over the splitting family  <=>  27 Higgs-connecting entries all 0;
+    a SINGLE nonzero conn entry already makes the observable depend on t (derivative = that entry).
+[3] UNIQUENESS: Ybar[i,j] = T[i,j,tail]; proj_T surjective => the factorisation is unique.
+[4] ZERO BRANCH (exact, Q(zeta_12)): 9 family entries x 25 exact splittings ->
+    deviation from the t=0 value is IDENTICALLY 0 after reduction mod z^4 - z^2 + 1. Spread = 0 exactly.
+[5] BITE (exact): setting the single conn entry T[0,0,conn_1] = zeta_12 makes the deviation
+    at splitting t=(1,0,0) equal zeta_12 itself (nonzero unit). The criterion FAILS both ways.
+
+S2 VERDICT: over Q(zeta_12), P^3-invisibility of the down observable is EXACTLY equivalent
+            to the vanishing of the 27 typed Higgs-connecting entries -- proved, with bite.

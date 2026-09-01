@@ -1,0 +1,16 @@
+{
+  "cell": "T1_third_column",
+  "date": "2026-09-01",
+  "verdict": "BLOCKED",
+  "missing_datum": "the 27 Higgs-connecting entries T[i,j,conn_k] of the selected (A_7,B_6,B_2) down block over Q(zeta_12) (or GF(1009)); equivalently the normalized evaluator T_cal=(Delta_G,Tr_{Y,Omega},S) commissioned to codex R023; the load-target certify_yukawa_down_tail_cech_308.sage is committed nowhere (E51 debt re-confirmed); codex seat /Users/dri/oa-audit-seat absent on this bench; the lepton three-good-primes transcript exists only as B1232 prose",
+  "delivered": {
+    "sequence_reconstructed": "0 -> C(3) -> V=B_0(4) -> T(1) -> 0 from committed ledger: conn multiplicities (2,4,3,3,2,3,2,3,2,3,3,3), Serre-dual tails (0,2,4,6,8), chi_-2 twist ONCE; matches R031A input 3Reg+chi_0+chi_11; B1232's fenced '(3,4,1) sequence' thereby verified from committed data",
+    "criterion_exact": "over Q(zeta_12): spread==0 over splitting family <=> the 27 conn entries vanish <=> unique factorization through T (sympy, mod z^4-z^2+1); fails both directions",
+    "spread_replication": {"b1232_rerun_annihilating": 0.0, "b1232_rerun_generic": 4.834, "real_shape_annihilating_max": 0.0, "real_shape_generic_bite_max": 15.76, "real_shape_generic_bite_entry00": 9.315, "single_conn_entry_spread": 6.136, "n_splittings": 2000},
+    "bite_control": "RUN and NONZERO -- not DEGRADED",
+    "no_symmetry_decides": "conn and tail of B_2 share raw chi_2 and C12 is trivial on B_0, so no banked character/selection rule can decide annihilation",
+    "up_channel": "ANNIHILATES vacuously (H_u=C_0 is 1-dim, outside B_0) and doubly (mu_u=0 exact committed theorem, cited)"
+  },
+  "flags": ["B1232 'nine-entry' prose vs committed 27-entry annihilation condition (9 = surviving tail family matrix) -- typed, not resolved", "E51 dual-homing debt still open"],
+  "gate5": "clean"
+}

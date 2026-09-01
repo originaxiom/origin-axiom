@@ -1,0 +1,72 @@
+files swept: 1394
+files with >=1 hit: 629
+total hit lines: 4648
+
+BITE CONTROL:
+  chern-simons in corpus: PRESENT
+  B1141 spin payment: PRESENT
+  complex volume: PRESENT
+  Reid / knot-in-S3: PRESENT
+  Gieseking: PRESENT
+
+TOP 60 FILES BY HIT COUNT:
+   276  docs/views/VERDICT_LEDGER.md  {'orientation': 39, 'orient-reversing': 7, 'sl2c-lift': 16, 'spin': 38, 'det-minus-1': 14, 'amphichiral': 58, 'chern-simons': 58, 'double-cover': 7, 'knot-in-s3': 11, 'complex-volume': 8, 'gieseking': 10, 'orientable': 10}
+   151  docs/progress/PROGRESS_2026-Q2.md  {'chern-simons': 38, 'spin': 5, 'orientation': 22, 'orient-reversing': 7, 'det-minus-1': 31, 'sl2c-lift': 9, 'knot-in-s3': 9, 'amphichiral': 25, 'orientable': 2, 'double-cover': 1, 'complex-volume': 2}
+   127  papers/VALIDATION_LEDGER.md  {'sl2c-lift': 12, 'chern-simons': 26, 'knot-in-s3': 9, 'det-minus-1': 23, 'spin': 13, 'amphichiral': 21, 'orientable': 2, 'orientation': 12, 'orient-reversing': 2, 'double-cover': 5, 'complex-volume': 2}
+   116  docs/CAMPAIGN_STATUS.md  {'chern-simons': 34, 'sl2c-lift': 8, 'amphichiral': 25, 'complex-volume': 5, 'orientable': 1, 'double-cover': 1, 'det-minus-1': 3, 'orientation': 16, 'spin': 15, 'gieseking': 4, 'knot-in-s3': 3, 'orient-reversing': 1}
+   115  docs/OPEN_LEADS.md  {'chern-simons': 38, 'amphichiral': 21, 'orientation': 19, 'sl2c-lift': 9, 'det-minus-1': 6, 'spin': 5, 'complex-volume': 1, 'knot-in-s3': 8, 'gieseking': 5, 'double-cover': 1, 'orient-reversing': 2}
+    83  papers/P4_markov_stage/PANEL_v1_findings.md  {'amphichiral': 23, 'orientation': 15, 'orient-reversing': 12, 'chern-simons': 10, 'det-minus-1': 5, 'spin': 2, 'sl2c-lift': 7, 'gieseking': 3, 'double-cover': 5, 'orientable': 1}
+    77  docs/views/THE_SPINE.md  {'sl2c-lift': 7, 'spin': 12, 'det-minus-1': 8, 'amphichiral': 20, 'orientation': 5, 'chern-simons': 13, 'double-cover': 2, 'knot-in-s3': 3, 'complex-volume': 1, 'gieseking': 4, 'orientable': 1, 'orient-reversing': 1}
+    59  docs/progress/REVIEWS.md  {'chern-simons': 16, 'sl2c-lift': 4, 'amphichiral': 17, 'orientation': 7, 'orient-reversing': 1, 'knot-in-s3': 2, 'det-minus-1': 1, 'gieseking': 2, 'spin': 8, 'complex-volume': 1}
+    55  docs/HINT_LEDGER.md  {'amphichiral': 14, 'chern-simons': 18, 'complex-volume': 2, 'sl2c-lift': 7, 'knot-in-s3': 5, 'double-cover': 1, 'orientation': 4, 'orient-reversing': 1, 'spin': 3}
+    51  papers/P3_THE_PAPER/CLAIM_CANDIDATES.md  {'amphichiral': 16, 'gieseking': 3, 'spin': 6, 'knot-in-s3': 1, 'orientation': 5, 'orient-reversing': 3, 'double-cover': 3, 'chern-simons': 9, 'det-minus-1': 2, 'sl2c-lift': 2, 'orientable': 1}
+    49  docs/LAW_MAP.md  {'sl2c-lift': 11, 'amphichiral': 13, 'spin': 2, 'det-minus-1': 1, 'chern-simons': 11, 'knot-in-s3': 5, 'orientation': 3, 'orient-reversing': 1, 'complex-volume': 1, 'gieseking': 1}
+    47  docs/THEOREM_REGISTRY.md  {'amphichiral': 9, 'orientation': 5, 'orientable': 3, 'det-minus-1': 4, 'gieseking': 5, 'm000': 1, 'double-cover': 2, 'sl2c-lift': 3, 'chern-simons': 6, 'knot-in-s3': 2, 'spin': 6, 'complex-volume': 1}
+    44  papers/P4_markov_stage/DRAFT_v7.md  {'orientation': 10, 'orient-reversing': 6, 'amphichiral': 12, 'orientable': 1, 'gieseking': 3, 'double-cover': 2, 'm000': 1, 'sl2c-lift': 2, 'det-minus-1': 1, 'chern-simons': 6}
+    44  papers/P4_markov_stage/DRAFT_v8.md  {'orientation': 10, 'orient-reversing': 6, 'amphichiral': 12, 'orientable': 1, 'gieseking': 3, 'double-cover': 2, 'm000': 1, 'sl2c-lift': 2, 'det-minus-1': 1, 'chern-simons': 6}
+    43  papers/P2_inversion_law/DRAFT_v2.md  {'orientation': 31, 'orient-reversing': 3, 'knot-in-s3': 4, 'chern-simons': 4, 'sl2c-lift': 1}
+    42  papers/P2_inversion_law/DRAFT_v3.md  {'orientation': 30, 'orient-reversing': 3, 'knot-in-s3': 4, 'chern-simons': 4, 'sl2c-lift': 1}
+    38  papers/P4_markov_stage/DRAFT_v5.md  {'amphichiral': 10, 'orientation': 8, 'orient-reversing': 5, 'orientable': 1, 'gieseking': 3, 'double-cover': 2, 'm000': 1, 'sl2c-lift': 3, 'chern-simons': 5}
+    37  docs/THE_FRAMEWORK.md  {'orientation': 3, 'orientable': 1, 'amphichiral': 8, 'knot-in-s3': 4, 'chern-simons': 11, 'sl2c-lift': 3, 'spin': 7}
+    37  papers/tex/P4_the_metallic_family.tex  {'orientation': 8, 'orient-reversing': 6, 'knot-in-s3': 1, 'amphichiral': 10, 'orientable': 1, 'gieseking': 3, 'm000': 1, 'double-cover': 2, 'sl2c-lift': 1, 'chern-simons': 4}
+    37  papers/P4_markov_stage/DRAFT_v6.md  {'orientation': 8, 'orient-reversing': 5, 'amphichiral': 9, 'orientable': 1, 'gieseking': 3, 'double-cover': 2, 'm000': 1, 'sl2c-lift': 2, 'det-minus-1': 1, 'chern-simons': 5}
+    36  papers/P4_markov_stage/DRAFT_v4.md  {'amphichiral': 10, 'orientation': 7, 'orient-reversing': 4, 'orientable': 1, 'gieseking': 3, 'double-cover': 2, 'm000': 1, 'sl2c-lift': 3, 'chern-simons': 5}
+    35  papers/P3_THE_PAPER/main.tex  {'knot-in-s3': 8, 'amphichiral': 4, 'orientation': 9, 'gieseking': 1, 'orientable': 6, 'double-cover': 3, 'complex-volume': 1, 'spin': 3}
+    35  papers/P4_markov_stage/DRAFT_v1.md  {'orientation': 6, 'orient-reversing': 4, 'knot-in-s3': 2, 'sl2c-lift': 4, 'orientable': 2, 'gieseking': 3, 'double-cover': 2, 'm000': 1, 'amphichiral': 6, 'chern-simons': 5}
+    34  frontier/B469_breath_campaign/FINDINGS.md  {'orientation': 10, 'orientable': 6, 'gieseking': 4, 'double-cover': 2, 'm000': 1, 'chern-simons': 7, 'amphichiral': 1, 'orient-reversing': 2, 'det-minus-1': 1}
+    33  papers/P4_markov_stage/DRAFT_v2.md  {'orientation': 6, 'orient-reversing': 4, 'sl2c-lift': 4, 'amphichiral': 8, 'orientable': 1, 'gieseking': 2, 'double-cover': 2, 'm000': 1, 'chern-simons': 5}
+    33  papers/P4_markov_stage/DRAFT_v3.md  {'orientation': 6, 'orient-reversing': 4, 'sl2c-lift': 4, 'amphichiral': 8, 'orientable': 1, 'gieseking': 2, 'double-cover': 2, 'm000': 1, 'chern-simons': 5}
+    32  docs/RELAY_LEDGER.md  {'amphichiral': 7, 'chern-simons': 4, 'spin': 6, 'orientation': 11, 'orientable': 1, 'knot-in-s3': 1, 'gieseking': 2}
+    29  frontier/B303_clock_is_the_cp_sign/FINDINGS.md  {'chern-simons': 19, 'amphichiral': 4, 'orientation': 6}
+    28  frontier/B152_cs_amphichirality_census/FINDINGS.md  {'chern-simons': 13, 'amphichiral': 13, 'orientable': 1, 'orientation': 1}
+    26  frontier/B1226_the_beta_odd_box/FINDINGS.md  {'amphichiral': 5, 'chern-simons': 16, 'orientable': 1, 'orientation': 1, 'orient-reversing': 1, 'det-minus-1': 1, 'complex-volume': 1}
+    26  docs/SEAL_LEDGER.md  {'sl2c-lift': 1, 'amphichiral': 7, 'chern-simons': 5, 'knot-in-s3': 6, 'spin': 3, 'gieseking': 2, 'orientation': 2}
+    25  frontier/B944_dynamics_chirality_sweep/FINDINGS.md  {'chern-simons': 6, 'amphichiral': 11, 'orientation': 6, 'orient-reversing': 1, 'det-minus-1': 1}
+    24  docs/GRAND_COMPUTATION_v0.md  {'gieseking': 1, 'chern-simons': 8, 'orientation': 5, 'orientable': 2, 'orient-reversing': 1, 'double-cover': 1, 'sl2c-lift': 2, 'knot-in-s3': 1, 'amphichiral': 1, 'spin': 2}
+    23  frontier/B1168_c5_investigation/FINDINGS.md  {'orientation': 13, 'orient-reversing': 1, 'amphichiral': 3, 'chern-simons': 3, 'complex-volume': 3}
+    23  frontier/B1197_clock_coherence/FINDINGS.md  {'chern-simons': 22, 'amphichiral': 1}
+    23  papers/metallic_one_object/PAPER.md  {'knot-in-s3': 5, 'sl2c-lift': 4, 'det-minus-1': 1, 'complex-volume': 4, 'double-cover': 2, 'amphichiral': 4, 'chern-simons': 3}
+    22  papers/tex/P2_the_inversion_law.tex  {'orientation': 13, 'knot-in-s3': 4, 'chern-simons': 4, 'orient-reversing': 1}
+    21  frontier/B128_symmetry_breaking_chirality/FINDINGS.md  {'chern-simons': 14, 'orientation': 3, 'amphichiral': 4}
+    21  frontier/B289_cp_sign_law/FINDINGS.md  {'chern-simons': 13, 'amphichiral': 6, 'orientation': 1, 'complex-volume': 1}
+    21  frontier/B467_family_residue_wall/FINDINGS.md  {'orientation': 9, 'gieseking': 3, 'orient-reversing': 3, 'det-minus-1': 1, 'chern-simons': 5}
+    21  frontier/B530_natural_history/FINDINGS.md  {'orientation': 20, 'sl2c-lift': 1}
+    21  docs/views/CLOSED_DOORS.md  {'amphichiral': 6, 'chern-simons': 5, 'spin': 3, 'orientable': 1, 'orientation': 2, 'orient-reversing': 2, 'complex-volume': 1, 'sl2c-lift': 1}
+    21  papers/P3_forcing_chain_residue/DRAFT_v4.md  {'orientation': 20, 'orient-reversing': 1}
+    21  papers/drafts/PC26_full_chain/PAPER.md  {'amphichiral': 12, 'knot-in-s3': 1, 'orientation': 2, 'orient-reversing': 1, 'gieseking': 4, 'double-cover': 1}
+    20  frontier/B144_interaction_chirality/FINDINGS.md  {'orientation': 8, 'chern-simons': 3, 'orient-reversing': 3, 'amphichiral': 5, 'det-minus-1': 1}
+    20  docs/STRATEGIC_SYNTHESIS.md  {'orientation': 8, 'chern-simons': 4, 'orient-reversing': 1, 'amphichiral': 4, 'knot-in-s3': 1, 'complex-volume': 2}
+    20  papers/P2_inversion_law/DRAFT_v1.md  {'knot-in-s3': 3, 'orientation': 12, 'chern-simons': 2, 'sl2c-lift': 1, 'orient-reversing': 2}
+    19  frontier/B1208_cross_seat_harvest/FINDINGS.md  {'chern-simons': 4, 'orientation': 3, 'spin': 5, 'gieseking': 3, 'orientable': 2, 'double-cover': 2}
+    19  papers/candidates/PC27_one_arithmetic_knot/PAPER.md  {'knot-in-s3': 10, 'sl2c-lift': 8, 'orientation': 1}
+    18  frontier/B146_b145_calibration/FINDINGS.md  {'amphichiral': 7, 'orientation': 5, 'chern-simons': 2, 'knot-in-s3': 4}
+    18  frontier/B849_order_parameter/FINDINGS.md  {'amphichiral': 7, 'chern-simons': 9, 'orientation': 2}
+    17  frontier/B1165_gravity_terminal/FINDINGS.md  {'sl2c-lift': 3, 'amphichiral': 4, 'chern-simons': 2, 'complex-volume': 2, 'knot-in-s3': 1, 'orientation': 5}
+    17  frontier/B1224_amphichiral_cs_torsion/FINDINGS.md  {'amphichiral': 8, 'chern-simons': 8, 'orientable': 1}
+    17  frontier/B127_chirality_arithmetic_naming/FINDINGS.md  {'chern-simons': 6, 'orientation': 2, 'orient-reversing': 1, 'amphichiral': 2, 'det-minus-1': 4, 'double-cover': 1, 'knot-in-s3': 1}
+    17  frontier/B145_forced_chirality/FINDINGS.md  {'amphichiral': 12, 'det-minus-1': 2, 'chern-simons': 2, 'knot-in-s3': 1}
+    17  frontier/B458_ethogram_e5_component_cs/FINDINGS.md  {'chern-simons': 12, 'complex-volume': 3, 'amphichiral': 2}
+    17  frontier/B711_two_z2_degeneration/FINDINGS.md  {'amphichiral': 11, 'sl2c-lift': 1, 'chern-simons': 5}
+    17  frontier/B813_cs_theta_type_audit/FINDINGS.md  {'chern-simons': 9, 'complex-volume': 2, 'sl2c-lift': 6}
+    17  papers/P2_trinity/PAPER.md  {'knot-in-s3': 14, 'sl2c-lift': 2, 'amphichiral': 1}
+    16  frontier/B318_amphichiral_mechanism/FINDINGS.md  {'amphichiral': 11, 'orientation': 1, 'orient-reversing': 1, 'chern-simons': 2, 'knot-in-s3': 1}

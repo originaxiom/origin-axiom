@@ -1,0 +1,31 @@
+[probe 1] the evaluator's load-target (flagged single-homed by B1185, E51 class):
+  mentions of the .sage load-target: 5 file(s)
+    - frontier/B1185_yukawa_three_mechanisms/b1185_results.json
+    - frontier/B1185_yukawa_three_mechanisms/FINDINGS.md
+    - frontier/B1212_two_replies/documents/program-question-map/evidence/YUKAWA_DOWN_RESIDUE_SPEC_308.md
+    - tests/test_b1185_three_mechanisms.py
+    - docs/RELAY_LEDGER.md
+  -> the .sage FILE itself committed anywhere: False
+[probe 2] codex's seat (B1232 re-ran their certs from a local path):
+  /Users/dri/oa-audit-seat/aud1t/codex-r023 exists on this bench: False (macOS path; this is a Linux container)
+[probe 3] any committed numeric/exact down-Yukawa entry value:
+  assigned T_connecting/T_ijk values: 0 file(s)
+  lepton connecting-block transcripts: 5 file(s)
+    - frontier/B1232_codex_r031_verified_and_three_columns/arc_verdict.json
+    - frontier/B1232_codex_r031_verified_and_three_columns/FINDINGS.md
+    - CHANGELOG.md
+    - docs/views/VERDICT_LEDGER.md
+    - docs/views/REVIEWER.md
+[probe 4] the two committed spec documents' own proof boundaries (verbatim):
+  YUKAWA_DOWN_RESIDUE_SPEC_308.md: "No numerical or exact `1 x 18` down-Yukawa row is present in the committed certificates.  The"
+  YUKAWA_DOWN_RESIDUE_SPEC_308.md: "- Not proved: any nonzero down-Yukawa entry, rank, texture, determinant, normalized residue, or"
+  YUKAWA_CUP_PRODUCTS_308.md: "toric residue/trace row.  Consequently no nonzero down entry or rank is yet"
+
+S4 VERDICT: BLOCKED, datum typed.
+  MISSING: the 27 Higgs-connecting entries T[i,j,conn_k] of the selected (A_7,B_6,B_2) block
+  (equivalently the normalized evaluator T_cal = (Delta_G, Tr_{Y,Omega}, S) over Q(zeta_12),
+  or at minimum codex's GF(1009) connecting-row values and the lepton three-good-primes
+  transcript). Looked in: all committed frontier/, docs/, tests/, papers/ trees (grep above);
+  codex's seat path (absent on this bench); the two committed spec documents, whose own proof
+  boundaries state the values are not committed. The (3,4,1) sequence and the decision
+  criterion are NOT missing -- s1/s2 supply them from committed data.

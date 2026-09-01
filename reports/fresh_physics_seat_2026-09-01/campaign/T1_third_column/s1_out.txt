@@ -1,0 +1,17 @@
+[1] connecting quotient dim 33, raw multiplicities (2, 4, 3, 3, 2, 3, 2, 3, 2, 3, 3, 3); 18->21 rank 16, coker 5
+[2] raw coker labels (0, 4, 6, 8, 10) --(Serre inverse phase)--> dual tail (0, 2, 4, 6, 8) : MATCHES [M1]
+[3] B_raw = 3 Reg + chi_1 + chi_2 ; twist by chi_-2 (ONCE) -> B_phys = 3 Reg + chi_0 + chi_11
+    == R031A's committed INPUT line, independently rebuilt from [M1]'s raw ledger.
+[4] THE SEQUENCE: 0 -> C -> V -> T -> 0 with dims (3,4,1)
+    C = B_2,conn (3-dim connecting part of the raw-chi_2 block)  [sub]
+    V = B_0     (4-dim physical-chi_0 Higgs block; P(B_0) = the P^3, K-rank 4 per R031A)
+    T = <bhat_2> (1-dim Serre-dual tail slot, raw label 2)        [quotient]
+    -> B1232's fenced '(3,4,1) sequence' EXISTS with exactly these dims, from committed data alone.
+[5] census {'conn/conn': 18, 'tail6/conn': 9, 'conn/tail2': 6, 'tail6/tail2': 3}: annihilation of C = vanishing of the 27 Higgs-connecting
+    entries (3 Q-families x 3 dc-families x 3 connecting Higgs directions); the surviving
+    observable is the 9-entry tail family matrix (= B1232's 'nine-entry tail' block).
+[6] CONTROLS BITE: chi_-3 twist FAILS the R031A match; skipping the Serre inverse phase gives
+    dim(raw-chi_2 block) = 3 (no (3,4,1)); double twist FAILS. The conventions are forced.
+
+S1 VERDICT: the (3,4,1) sequence is RECONSTRUCTED from committed ledger data;
+            annihilation of C == vanishing of 27 typed entries; observable = 9-entry tail block.
