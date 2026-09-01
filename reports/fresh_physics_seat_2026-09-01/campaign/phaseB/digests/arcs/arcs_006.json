@@ -1,0 +1,348 @@
+{
+ "batch": "arcs_006",
+ "arcs": [
+  {
+   "arc": "B122_W_symmetric_powers",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json"],
+   "files_sampled": ["probe.py (SAMPLE_CODE, first 120 lines + grep)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The tower equals Sym^n(W) + (Sym^{n-3}(W) - W) for W = V+1, a genuine GL(2)-module identity that unifies B121's external det=-1 action.\"",
+   "log_says": "Character layer h_a(x,y,1)=Σh_k verified in later reconciliation (B521/B522); interlude extensions (det-layer split, void-specificity) banked 2026-06-07 as annotations, no new ledger row.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "rho_n = Sym^n(W) + Sym^{n-3}(W) - 1 - V decomposes with multiplicity == mu_d, verified n=2..11", "where": "FINDINGS.md sec 1, probe.py w_identity_character()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy character computation in committed probe.py, explicit range n=2..11 stated"},
+    {"what": "GL(2)-module-iso holds symbolically in general (x,y), det-independent, n=2..8", "where": "FINDINGS.md sec 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic polynomial identity, range n=2..8 stated, in probe.py"},
+    {"what": "Sym^4(3-space)=15=dim sl(4), unique saturating order", "where": "FINDINGS.md corollaries", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct arithmetic check, exhaustive over small n"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false; no separate belt directory for this arc.",
+   "absence_claims": [
+    {"quote": "No functorial `Sym(W)→trace-ring` map was found", "where": "FINDINGS.md, 'Not a wall-bypass' section"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A clean, honestly-scoped algebraic repackaging (module-iso, not a new proof route) with physics readings explicitly firewalled; no observable content and none claimed."
+  },
+  {
+   "arc": "B123_arithmeticity_m1",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The figure-eight's regular triangulation shape e^{i pi/3} gives trace field Q(sqrt-3) and arithmeticity, offered as a third independent m=1 selection criterion.\" (banked SUPPORTED, not TESTED-POSITIVE, per FINDINGS itself)",
+   "log_says": "2026-06-08: banked V112 SUPPORTED. Later log entry (2026-06-08, same day, B125 heading): 'Overturns the B123/K009 third independent/unique m=1 arithmetic criterion, which mis-applied Reid 1991 (a knot theorem) to bundles.'",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {"what": "figure-eight regular-triangulation shape z^2-z+1=Phi_6, z0=e^{i pi/3}, trace field Q(sqrt-3)", "where": "probe.py figure_eight_shape_is_cyclotomic()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy computation, no external tooling needed"},
+    {"what": "figure-eight is the unique arithmetic knot complement; m>=2 metallic manifolds are non-arithmetic (as knots)", "where": "FINDINGS.md, citing Reid 1991", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "cited literature theorem, not computed; FINDINGS itself flags the m>=2 confirmation step as 'SnapPy/Magma-GATED... the repo has no trace-field classifier' at time of writing"},
+    {"what": "third independent m=1 selection criterion (arithmeticity, alongside systole and expansion threshold)", "where": "FINDINGS.md headline", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "This specific claim (that arithmeticity uniquely selects m=1) is explicitly overturned by B125 the same day in the log; the arc's own arc_verdict.json still lists superseded_by: null"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false.",
+   "absence_claims": [
+    {"quote": "the repo has no trace-field classifier", "where": "FINDINGS.md sec 'Status / honest scope', and probe.py docstring"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B123's own arc_verdict.json shows superseded_by: null and claim_one_line unchanged, but the project's own progress log (same day, 2026-06-08) records B125 as overturning exactly this claim ('the B123/K009 third independent/unique m=1 arithmetic criterion, which mis-applied Reid 1991'), and B125's arc_verdict.json carries supersedes: 'B123'. The retraction is one-directional (B125 -> B123) and not reflected back in B123's own verdict file, so a reader consulting B123 alone would not learn its headline claim is overturned.", "where": "B123/arc_verdict.json vs B125/arc_verdict.json and log_index/B125.txt line 1"}
+   ],
+   "seat_note": "The arc is careful to bank itself as SUPPORTED not TESTED-POSITIVE and names its own gated confirmation step, which is good discipline; but the headline 'third independent criterion' claim is overturned by B125 the same day and B123's own verdict file was never updated to say so."
+  },
+  {
+   "arc": "B124_time_reversal_reciprocity",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Reciprocal (lambda,1/lambda) eigenvalue pairing is a generic symplectic fact; exactly one residue is metallic-specific.\"",
+   "log_says": "2026-06-08: banked V113, generic symplectic reciprocal structure + det=-1 sign/chirality residue at the void fixed point {phi^2,-1,phi^-2}; explicitly says the physics 'two-headed time' interpretation is firewalled, not banked as physics.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "void Jacobian spectrum {phi^2,-1,phi^-2}, det=-1, reciprocal pair", "where": "probe.py void_reciprocal_time_reversal()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy symbolic differentiation and eigenvalue computation"},
+    {"what": "expanding count == contracting count exactly, every n=2..10, both det signs", "where": "probe.py tower_expanding_equals_contracting()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact combinatorial counting over explicit range, deterministic"},
+    {"what": "raw +-1 excess oscillates period-4, not floor(n/2); exact constant OPEN", "where": "probe.py pm1_excess_is_period4_not_floor()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit computation n=2..10, honestly flagged as not generalizing past n=4 for other bookkeeping"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Careful two-tier discipline (generic symplectic fact vs the one metallic-specific residue) with an honest correction of its own draft claim (exact constant is open, not floor(n/2)); no physics claimed beyond the firewalled interpretation."
+  },
+  {
+   "arc": "B125_snappy_arithmeticity",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"SnapPy invariant trace fields show arithmeticity selects m=1 (Q(sqrt-3)) and m=2 (Q(i)) and kills m>=3, overturning the unique-m=1 reading.\" Status TESTED-POSITIVE, supersedes: B123.",
+   "log_says": "2026-06-08: overturns K009/B123's 'exactly two arithmetic once-punctured-torus bundles' framing; later corrected again by B126 (global count is three commensurability classes, family-restricted statement); B147 further corrects loose paraphrase 'exactly two o-p-t bundles overall' (>=4 exist); B578-D6 (2026-07-14) reverts a wrong 'correction' to K3's field degree, restoring B125's original table.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "M_m^2 = R^m L^m, trace = m^2+2, verified exactly m=1..6", "where": "probe.py structural_identity()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure numpy exact-integer matrix computation, no external tooling"},
+    {"what": "m=1 kM=Q(sqrt-3), m=2 kM=Q(i), both arithmetic; m=3..6 non-arithmetic (degree>=4)", "where": "probe.py RECORD dict + live_arithmeticity(), FINDINGS.md sec 2", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "computed in-sandbox with SnapPy 3.3.2 + cypari 2.5.6 and recorded as a hardcoded RECORD dict in probe.py; the live recomputation function exists and is SnapPy-guarded (skips if absent) so a stranger without SnapPy installed only gets the hardcoded record, not an independent recomputation"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "probe.py's live_arithmeticity() re-derives the RECORD when SnapPy/cypari are importable; skips cleanly otherwise, so the committed record is the fallback of record, not always independently re-verified at run time.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "GITIGNORED_WITNESS", "detail": "The exact m>=3 field degrees are noted as precision-sensitive in reproduction (observed 4 or 8, canonical value 6) and this was later a live source of a wrong 'correction' (B571/B577) that was itself retracted (B578-D6); the underlying SnapPy/cypari run that produced the original table is not captured as a committed witness file beyond the RECORD dict, so the exact provenance of degree-6 for m=3 depended on rerunning with SnapPy, which is optional tooling not guaranteed present.", "where": "probe.py RECORD comment + FINDINGS.md sec 3, cross-referenced with log_index/B125.txt lines re B578"}
+   ],
+   "seat_note": "A genuine correction of a prior overclaim (B123), itself later corrected twice more (B126, B147) and defended once against a wrong re-correction (B578) — the correction chain is transparent and well-tracked in the log, a positive example of the discipline working."
+  },
+  {
+   "arc": "B126_ladder_to_physics",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Metallic rigidity propagates exactly two floors and then provably stops: no 3-manifold supplies the 2d-boundary data or the SUSY-breaking scale physics needs.\"",
+   "log_says": "2026-06-08: banked V115 with S029 (center-symmetry reading, POSTULATED, five kill conditions), P007 (the reframe). Log entry for B127 (same date) notes a citation-fix correction to B126's Floor-2 attribution (mis-attached Cho-Gang-Kim arXiv:2007.01532 -> corrected to Gang-Yonekura arXiv:1803.04009).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "H_1(M_m) = Z + (Z/m)^2, Smith normal form of M_m^2-I", "where": "probe.py homology_torsion()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy Smith normal form, m=1..7; SnapPy cross-check is guarded and optional"},
+    {"what": "kappa-degree over Q(z) = [1,1,3,3,7,6] for m=1..6, rational exactly for arithmetic members m=1,2", "where": "probe.py kappa_degree(), KAPPA_DEGREE_RECORD", "kind": "COMPUTED", "reproducible_from_committed": "partial", "why": "m=1..4 computed live via Groebner elimination in probe.py; m=5,6 are recorded from 'the longer run' (not re-derived live, no script shown for m=5,6), described honestly as 'family-specific observation, not a law'"},
+    {"what": "rigidity propagates exactly two floors then hits a nameable wall (3d->4d ceiling N=4 SYM/N=2*)", "where": "FINDINGS.md main body", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "argument built from cited literature theorems (Dimofte-Garoufalidis, Yoon, Gang-Yonekura, Kapustin-Witten, etc.), not from a committed computation; the in-house computed facts (A) and (B) support but do not by themselves establish the ladder-map conclusion"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false.",
+   "absence_claims": [
+    {"quote": "the repo has no trace-field classifier", "where": "probe.py docstring / FINDINGS.md sec 'Floor 1'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "The headline 'rigidity propagates exactly two floors, provably' is a literature-grounded argument stitched from many external citations plus two small in-house computations (A) and (B); it is a synthesis/survey conclusion, not itself a single computed or proved result, though the arc is honest about this ('literature-grounded').", "where": "FINDINGS.md 'The ladder map' section"}
+   ],
+   "seat_note": "An honest, well-cited negative result (ceiling is N=4 SYM, not the Standard Model) built mostly from literature synthesis rather than new computation; the two in-house facts are solid but narrow, and the arc is explicit that the big claim rests on citations, not new proof."
+  },
+  {
+   "arc": "B127_chirality_arithmetic_naming",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Chirality, topology and arithmetic each kill the physics-bridge claims (K-A through K-E tombstoned); the surviving content is the object's proper name as a KKT trace map.\"",
+   "log_says": "2026-06-08: banked M-1..M-4, the CS=0 achiral locus, the arithmetic trichotomy, the Fricke-Vogt naming (K010); a subtlety flagged and resolved — B124's algebraic tower P-parity vs B127's topological CS chirality are orthogonal and both stand.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "CS(M_m^2=R^mL^m) identically 0 for m=1..6 (SnapPy complex_volume, machine zero)", "where": "FINDINGS.md M-2", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as computed via SnapPy but the FINDINGS/README note the SnapPy recomputation is guarded/skips when absent; the packet did not include probe.py at full-read depth for this arc (only FINDINGS/README/verdict were in the batch's per-file list for B127, no probe.py entry present in packet)"},
+    {"what": "lambda_m<2 only for m=1, so only golden can be a quantum dimension", "where": "FINDINGS.md M-3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary arithmetic inequality, no external tooling needed"},
+    {"what": "arithmetic trichotomy: fusion->Q(sqrt(m^2+4)), manifold->imaginary quadratic, braiding->Q(zeta5), disjoint fields", "where": "FINDINGS.md M-4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "field-theoretic gcd argument, elementary once the constituent fields are established elsewhere (B125, standard cyclotomic facts)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false; note packet's file list for B127 did not include probe.py, so its exact code was not read for this digest (README describes it).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "probe.py for this arc was not in the packet's file list (only FINDINGS.md, README.md, arc_verdict.json were listed for B127 despite the packet showing 4 files for other arcs) -- verify this is not an omission before treating the arc as fully read; this digest's claims about probe.py content are inferred from README's description only.", "where": "packets/arcs_006.json arc entry for B127_chirality_arithmetic_naming lists FINDINGS.md/README.md/arc_verdict.json (probe.py listed at 12555 bytes but not confirmed read in this session — re-check)"}
+   ],
+   "seat_note": "A well-organized multi-pronged negative result (four independent kills of the physics-bridge claims) with a clean surviving positive (the KKT/Fricke-Vogt naming, explicitly scoped as emergent condensed-matter physics, not fundamental)."
+  },
+  {
+   "arc": "B128_symmetry_breaking_chirality",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json"],
+   "files_sampled": ["probe.py (SAMPLE_CODE, first 120 lines + grep)"],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The metallic structure permits but never forces symmetry breaking, and the torsion-to-gauge-group bridge is dead; the chirality recursion and ordering order-parameter survive.\"",
+   "log_says": "2026-06-08: banked M-A (chirality recursion, 15/15 SnapPy + structural reason), M-B, M-C, K-F tombstoned. Later (2026-06-09, B134): 'B128/K011 upgraded from computer-assisted (15/15) to PROVED.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "naive is_isometric_to(mirror) gives false positives on known-chiral m015/m016/m009; correct test is symmetry_group().is_amphicheiral()", "where": "probe.py CHIRALITY_CONTROLS, method_bug_live()", "kind": "COMPUTED", "reproducible_from_committed": "yes (if SnapPy present)", "why": "SnapPy-guarded live recomputation with hardcoded control record as fallback"},
+    {"what": "chirality recursion M-A: block-sequence reversal is cyclic rotation iff amphichiral, 15/15 SnapPy predictions across k<=4", "where": "probe.py RECURSION_ACHIRAL/RECURSION_CHIRAL + recursion_combinatorics()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure-combinatorics function seq_is_amphichiral() always runs unconditionally; SnapPy live check is guarded but the combinatorial rule itself is exact and reproducible without SnapPy; the 15/15 SnapPy-side confirmation is a hardcoded record, not always re-verified live"},
+    {"what": "torsion tracks periodicity not chirality (K-F tombstone), e.g. achiral doubles single-torsion, achiral periodic triples doubled", "where": "probe.py TORSION_TABLE, torsion_does_not_track_chirality()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "recorded as a hardcoded table from SnapPy computation; live SnapPy recomputation is guarded/optional"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "SnapPy-guarded live functions re-derive the hardcoded records when SnapPy is present; the pure-combinatorics facts (M-A rule, order parameter) run unconditionally without SnapPy.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "A method bug (naive is_isometric_to being orientation-blind, false-positiving on 3 known-chiral census knots) was caught and fixed within this same arc, and is documented as a REPRODUCIBILITY.md SCAN note so future runs don't repeat it — this is good practice, flagged here only because prior arcs (B127's CS=0 claims) are noted as still 'safe' under the old method but every future determination must use the corrected test.", "where": "FINDINGS.md 'Method bug' section"}
+   ],
+   "seat_note": "A disciplined self-correcting arc: catches its own method bug mid-stream, corrects the affected downstream claims, and states a clean central theorem (permits-but-never-forces) with honest 'strongly-supported conjecture' status for M-A prior to its B134 upgrade to proved."
+  },
+  {
+   "arc": "B129_sl3_tower_sealed",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json"],
+   "files_sampled": ["probe.py (SAMPLE_CODE, first 120 lines + grep)"],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The metallic SL(3) tower is SL(2) arithmetic in SL(3) clothing with zero fixed points escaping Q(sqrt-3), so climbing ranks acquires no new field or content.\"",
+   "log_says": "2026-06-08: banked V118, sixth firewall confirmation. Later (B137, 2026-06-09): 'B129's 0-escape conclusion STANDS (Q ⊂ Q(sqrt-3); a calibration, not a refutation).' B141 (2026-06-09): 'B129 preserved.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "S1a: principal Sym^2 metallic SL(3) rep is irreducible (algebra dim 9) with all traces in Q(sqrt-3), exact", "where": "probe.py principal_sl3_rep(), PRINCIPAL_TRACES", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy symbolic computation, self-contained"},
+    {"what": "S1b: 15-seed x 30-start off-sublocus scan finds 427 converged fixed points, max distance-to-Q(sqrt-3)=1.2e-6, 0 escapes beyond 1e-5", "where": "probe.py offsublocus_search(), S1B_SCAN record", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "scipy-guarded numerical root-find; the specific 427-point/15-seed run is recorded as a hardcoded number (S1B_SCAN dict), described honestly in FINDINGS as 'strong computational result, NOT a theorem'; a stranger without scipy gets only the recorded numbers, not a fresh scan"},
+    {"what": "silver bundle b++RRLL degree-2 covers reach (cusps,free_rank)=(2,2)", "where": "probe.py silver_covers()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy-guarded; skips cleanly if SnapPy absent, record stands as hardcoded fallback"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "scipy/SnapPy-guarded live recomputations of S1b and S2; S1a (exact sympy) always runs.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Two method bugs (inQ3 rational-detector rejecting pure rationals; finite/central masquerade under loose tolerance) are documented as caught and fixed in this same arc's own run, banked to REPRODUCIBILITY.md — a positive discipline note, flagged here for completeness since the load-bearing S1b conclusion depends on the fix being correctly applied.", "where": "FINDINGS.md 'Two method bugs' section"}
+   ],
+   "seat_note": "The exact S1a result (SL(2) data reparametrized in SL(3) clothing) is solid and self-contained; the S1b zero-escapes claim is honestly scoped as a computational distribution result (not a theorem) for m=1 only, with the theorem-version left as an open capstone (S031)."
+  },
+  {
+   "arc": "B130_no_forced_choice",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"No trace-ring invariant is both discretely multivalued and unsymmetrizable: kappa is free on the fixed locus, so a single seed cannot force any choice.\"",
+   "log_says": "2026-06-08: banked V119, seventh firewall form; K-G tombstoned (a killed false-positive from the handoff itself); co-researcher moduli-space framing banked in S032.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "kappa-elimination ideal empty for m=2,3,4 (symbolic Groebner) -> kappa free on fixed locus", "where": "probe.py kappa_elimination(), KAPPA_FREE_SYMBOLIC", "kind": "COMPUTED", "reproducible_from_committed": "partial", "why": "m=2 computed live in the script's main(); m=3,4 are described as 'verified in-sandbox; recorded' with runtimes noted (~80s, ~8s) but not executed live in main() by default -- a stranger rerunning main() only gets m=2 live, m=3/4 as hardcoded record unless they manually call kappa_elimination(3)/(4)"},
+    {"what": "m=5 numerical continuum: 259 distinct kappa values over [-2.0,343.4]", "where": "probe.py kappa_continuum_m5(), M5_CONTINUUM", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numpy-guarded Newton solve, self-contained function; runs live if numpy present, else uses recorded fallback"},
+    {"what": "K-G tombstone: sp.solve mislabeled continuous-curve degeneracies as isolated forced-choice points (a method bug in a prior handoff, caught here)", "where": "FINDINGS.md 'The tombstone' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "documented reasoning plus the corrected kappa-elimination-ideal method that replaces it"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false; the m=3,4 symbolic verification is described as done but not re-executed by the default script run (a thin spot, not a missing belt per se).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "m=3 and m=4 kappa-elimination results are stated as 'verified in-sandbox' with specific runtimes (m=3 ~80s) but the script's main() does not call kappa_elimination(3) or (4) live by default -- only m=2 runs live; the m=3/m=4 claims rest on a hardcoded dict (KAPPA_FREE_SYMBOLIC) whose provenance a stranger cannot directly re-trigger without editing the script.", "where": "probe.py main(), lines calling kappa_elimination(2) only, with a comment '(rerun kappa_elimination(3) / (4) to recompute live)'"}
+   ],
+   "seat_note": "A genuinely sharp, well-defined negative result (no forced choice in the invariant ring) with an honest scope limitation stated explicitly (only tested in trace-ring invariants, not proven for all possible invariants) and a self-caught false-positive (K-G) documented as a method-bug lesson."
+  },
+  {
+   "arc": "B131_two_seed_fork",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Gluing two distinct metallic seeds along cusp tori intersects their A-polynomial curves in finitely many points, collapsing the free kappa into a discrete internal fork.\"",
+   "log_says": "2026-06-09: banked V120, resolves S032-B (yes). Later (B134, 2026-06-09): 'B131 (R2): KNOWN, with a framing qualification' -- Kitano-Nozaki 2020 shows the mechanism is gluing-map-driven (not distinctness-driven); B131's math stands but its 'heterogeneity makes the choice' framing is identity-gluing-specific.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "(1,2) fork is exact: kappa in {-4,-2}, both irreducible", "where": "probe.py fork(1,2), verdict()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy solve on the two A-polynomial relations, self-contained"},
+    {"what": "A-poly relations m=1: kappa=trT^4-5trT^2+2 (=B67); m=2: kappa=trT^2-6 (=B69/V33)", "where": "probe.py apoly_relation(), FINDINGS.md sec 'A-polynomial curves'", "kind": "IMPORTED", "reproducible_from_committed": "partial", "why": "stated to reproduce prior arcs B67/B69 exactly; also independently re-derived here from explicit SL(2,C) matrices (verify_apoly_from_matrices, numpy-guarded, residual ~1e-14)"},
+    {"what": "(1,3) and (2,3) forks are numerical (6 and 4 values respectively)", "where": "probe.py FORKS dict", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "hardcoded numerical values in probe.py without a live root-finder shown for these in main(); described as 'numerical' honestly in FINDINGS but the exact Newton-solve script producing them is not visible in the sampled code"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "verify_apoly_from_matrices() independently re-derives the m=1,2 A-poly relations from explicit matrices (numpy-guarded); this counts as a genuine independent check for the exact (1,2) case.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B134's novelty audit found B131's headline framing ('heterogeneity makes the choice') to be scope-limited to the identity gluing specifically (Kitano-Nozaki 2020 shows a same-seed splice/swap gluing also forks) -- a qualification, not a full retraction, but B131's own arc_verdict.json (claim_one_line, supersedes/superseded_by both null) does not reflect this scoping; a reader of B131 alone would not learn the 'heterogeneity, not multiplicity' framing needs the identity-gluing caveat.", "where": "B131/arc_verdict.json vs B134/FINDINGS.md 'Reconciliations' section ('B131's math stands; its framing is qualified')"}
+   ],
+   "seat_note": "A solid, doubly-validated exact result for the (1,2) case, later found to be a known phenomenon in the literature (Kitano-Nozaki) with a scope-narrowing qualification on its 'heterogeneity, not multiplicity' framing that is not reflected in B131's own verdict file."
+  },
+  {
+   "arc": "B132_quantum_layer",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json"],
+   "files_sampled": ["probe.py (SAMPLE_CODE, first 120 lines + grep)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The SU(2)_k quantum layer: field content is word-spin-mod-4 quantum-group arithmetic, m=1 is uniquely coherent, vanishing period is |O_K^x|/2, and Lee-Yang is the native physics.\" (note: FINDINGS/README titles explicitly say 'CORRECTED by B133/V122')",
+   "log_says": "2026-06-09: initial banking (V121) noted stale-handoff reconciliation. Same-day follow-up (B133, V122): 'the same correction discipline applied to incoming handoffs, now flowing toward the repo' -- withdraws headline S7/S5 as sampling artifacts, tombstones K-H, adds guard MB6.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "eigenvalue field content m=1..7 at k=4 (S1c): m=1 pure Q(sqrt-3), m=2 fused Q(zeta12)", "where": "probe.py field_fusion()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained numpy SU(2)_k modular rep, eigenvalue-order method exact/precision-independent, no external tooling"},
+    {"what": "S7/S5 WITHDRAWN: field content and vanishing track word composition (mod 4), not chirality -- decisive control shows achiral words span all three fields", "where": "probe.py chirality_control(), field_content_by_composition()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the correction itself is computed and shown as a control table in the same probe.py, transparent in-file"},
+    {"what": "S8 Lee-Yang bridge: sigma_3 Galois conjugate sends d_tau=phi (Fibonacci) to -1/phi (Lee-Yang M(2,5))", "where": "probe.py lee_yang()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary Galois-conjugate arithmetic on standard modular data"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false; correction is embedded inline in the same file rather than a separate belt dir.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This is a positive example, not a violation: the arc's own README/FINDINGS titles explicitly flag '[CORRECTED by B133]' at the top, and the corrected probe.py file itself contains both the withdrawn claim and the correction inline (not hidden), with the tombstone K-H and guard MB6 documented. Flagged here only so the seat notes this as the cleanest self-correction pattern seen in the batch.", "where": "B132/FINDINGS.md line 1, B132/probe.py lines 13-24"}
+   ],
+   "seat_note": "The best-documented self-correction in this batch: the withdrawn claim, the artifact that caused it, and the decisive control that caught it are all visible in one file, with a named tombstone and a general reproducibility guard (MB6: reproduction is not interpretation)."
+  },
+  {
+   "arc": "B134_chirality_recursion_proved",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The chirality recursion is proved: a metallic-block bundle is amphichiral iff its block-length sequence is a cyclic palindrome, a corollary of Goodman-Heard-Hodgson 2008.\" supersedes: B128.",
+   "log_says": "2026-06-09: banked V123; novelty audit finds R1 (chirality recursion) partially-known (GHH mechanism, novel block-length lift), R2 (two-seed fork) known (Kitano-Nozaki), R3 (SU(2)_k field content) known/standard (Jeffrey 1992 etc).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "theorem: metallic-block bundle amphichiral iff block-length sequence is a cyclic palindrome (proved as GHH-2008 corollary)", "where": "probe.py lemma_exhaustive(), anti_palindromic()/seq_cyclic_palindrome()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the combinatorial lemma is verified exhaustively over 5460 cases (length<=6, entries<=4), self-contained pure-python, always runs"},
+    {"what": "GHH 2008 anti-palindromic <=> amphichiral (the underlying mechanism)", "where": "FINDINGS.md proof, citing Goodman-Heard-Hodgson arXiv:0801.4815", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "cited published theorem, not re-derived from scratch; the arc's contribution is the elementary lift to block-length sequences, honestly stated as such"},
+    {"what": "SnapPy three-way check: anti-palindromic == cyclic-palindrome == is_amphicheiral agree on 16 sample cases", "where": "probe.py snappy_threeway()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy-guarded, skips cleanly if absent"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The exhaustive combinatorial lemma is a self-verifying proof certificate that always runs; SnapPy is an optional independent cross-check on top.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B134's arc_verdict.json declares supersedes: 'B128', but B128's own arc_verdict.json (read in this batch) shows superseded_by: null and its original claim_one_line unchanged. This is an upgrade (computer-assisted 15/15 -> proved) rather than a contradiction, so the practical risk is lower than the B123/B125 case, but the pattern (supersedes field populated one-directionally, never reflected back in the superseded arc's own file) recurs across this batch and is worth flagging systematically.", "where": "B134/arc_verdict.json 'supersedes': 'B128' vs B128/arc_verdict.json 'superseded_by': null"}
+   ],
+   "seat_note": "A genuine and honestly-scoped proof (an elementary corollary of a cited published theorem, not claimed as a deep new result), with a useful novelty audit that correctly downgrades B131 and B132's earlier claims against prior literature."
+  },
+  {
+   "arc": "B135_lee_yang_m_specific",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"There is no metallic family of Lee-Yang realizations since only m=1 has lambda<2, and the golden bridge matches only at modular-data level.\"",
+   "log_says": "2026-06-09: banked together with B136; 'The Lee-Yang bridge is m=1-specific: only lambda_1=phi<2 is a quantum dimension ... no metallic family of Lee-Yang CFTs.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "lambda_m = (m+sqrt(m^2+4))/2 < 2 only for m=1", "where": "probe.py m_specificity()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary numpy arithmetic inequality check, self-contained"},
+    {"what": "sigma_3 Galois conjugate sends Fibonacci d_tau=phi to Yang-Lee d_tau=-1/phi; central charges +14/5 -> -22/5", "where": "probe.py fibonacci_vs_yang_lee()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "standard modular-data arithmetic (rank-2 S-matrix), computed directly and checked S^4=I"},
+    {"what": "match is at modular-data level only, NOT a full RCFT identification", "where": "FINDINGS.md D3, probe.py match_level string", "kind": "ASSERTED", "reproducible_from_committed": "n/a", "why": "an honest scope statement about what was NOT shown, not a computed positive claim"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false; no separate belt dir, self-contained numpy computation with no external gating.",
+   "absence_claims": [
+    {"quote": "NOT a full RCFT identification (no torus partition-function / character match; the framework's object is the hyperbolic, non-unitary complex-CS quantization, related to M(2,5) via the quantum dimension/fusion, not a proven RCFT equality)", "where": "FINDINGS.md D3"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "A clean, honestly-scoped negative-plus-modest-positive result: correctly narrows the Lee-Yang bridge to m=1 and explicitly declines to overclaim a full RCFT match; the cited Lee-Yang edge singularity (Peng et al. 2015) is real observed condensed-matter physics, counted here as OBSERVABLE only for that external citation, not for anything the framework itself measures."
+  },
+  {
+   "arc": "B136_general_amphichirality",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Any once-punctured-torus bundle is amphichiral iff its block-pair sequence is fixed by reverse-order-plus-component-swap up to cyclic rotation; the metallic recursion is the special case.\"",
+   "log_says": "2026-06-09: banked V125, generalizes B134's metallic recursion to all LR words; explicitly stated as GHH-2008 corollary, honest novelty = restatement, not a new 3-manifold theorem.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "theorem: bundle amphichiral iff block-pair sequence fixed by reverse+swap up to cyclic rotation", "where": "probe.py lemma_exhaustive(), pair_criterion()/anti_palindromic()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive combinatorial certificate over 7380 cases, self-contained pure python, always runs"},
+    {"what": "specializes to B134 on the metallic locus a_i=b_i", "where": "probe.py specializes_to_metallic()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct exhaustive check comparing pair_criterion against cyclic-palindrome test"},
+    {"what": "SnapPy three-way agreement on metallic and non-metallic words", "where": "probe.py snappy_threeway()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy-guarded, skips cleanly if absent"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Exhaustive combinatorial proof certificate always runs unconditionally; SnapPy is an optional cross-check.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A clean generalization with honestly-stated modest novelty (a restatement of GHH 2008's criterion in block-pair form, not a new 3-manifold theorem); the exhaustive combinatorial certificate is a genuinely reproducible proof of the lemma."
+  },
+  {
+   "arc": "B137_s031_sealing_m2",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The SL(3) sealing extends to silver m=2: zero irreducible off-sublocus fixed points escape Q(i), once the reducible-locus artifact is filtered out.\"",
+   "log_says": "2026-06-09: banked V126, extends B129's SL(3) sealing from m=1 to m=2, method note MB7. Later (2026-07-14, B578): a wrong in-place 'correction' to B137's own deferral reason about K3 (bronze field degree) was made (B571/B577), then reverted the same review cycle -- 'B137's original deferral stands.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "SL(3) tower sealed in K_m for m=1 (Q(sqrt-3)) and m=2 (Q(i)) among irreducible off-sublocus fixed points, 0 escapes, 2 seeds each", "where": "probe.py sealing_search(), SEALING_RECORD", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "scipy-guarded numerical root-find; the specific per-seed counts (irreducible count, escapes, reducible artifacts ignored) are hardcoded in SEALING_RECORD as a fallback when scipy is absent; a stranger without scipy only gets the recorded numbers, not a fresh search"},
+    {"what": "MB7 method note: reducible-locus points fake escapes unless filtered by irreducibility (algdim=9)", "where": "probe.py sealing_search() algdim() filter, FINDINGS.md 'method note' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the filter logic is transparent and reproducible in the same function; the artifact it fixes is documented with concrete numbers (m=2 faked ~15-20 escapes without the filter)"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "scipy-guarded live sealing_search(); the record stands as fallback if scipy is absent.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The FINDINGS.md 'Honest scope' section contains an inline correction fragment about K3 (bronze field degree) added after a later review cycle (B578) reverted a wrong intervening 'correction' (B571/B577) -- the fragment reads as a retroactive patch embedded mid-sentence in the original FINDINGS text ('A 2026-07-14 in-place correction... wrongly claimed... RETRACTED same day'), which is good in that the correction IS present and dated, but it is stylistically inserted into what reads as the original arc text rather than a clearly separated addendum/correction section.", "where": "FINDINGS.md, 'Honest scope' bullet on m>=3 needing non-quadratic K_m"}
+   ],
+   "seat_note": "A solid extension of B129's sealing result to m=2 with a genuinely useful method-bug catch (MB7, the reducible-locus artifact); the arc's own file was later the site of a wrong external correction that was caught and reverted by a subsequent review, and the revert is documented inline, though not as a cleanly separated addendum."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "batch": "arcs_071",
+ "arcs": [
+  {
+   "arc": "B774_chord_pass",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B774_chord_pass/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E9-equiv/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E9-equiv/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E5-chiral/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E5-chiral/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-010-tower/compute.py",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-010-tower/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-010-tower/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-169-cpsign/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-169-cpsign/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-S032A/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-S032A/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-D1-torsor/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-D1-torsor/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-A5-molien/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-A5-molien/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E8-mirror/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E8-mirror/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E6-B307/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E6-B307/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-011-crux/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-011-crux/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-067-fusion/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-067-fusion/results.json",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-W2-yukawa/output.txt",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-W2-yukawa/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B774.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B774_chord_pass/stageA_scan.json (head40+tail20+wc: 1465 lines, total_scanned=174, candidates=45, loadbearing=37)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/stageB_results.json (head40+tail20+wc: 171 lines)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E9-equiv/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E5-chiral/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-169-cpsign/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-S032A/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-D1-torsor/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-A5-molien/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E8-mirror/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-E6-B307/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-011-crux/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-067-fusion/compute.py (head30+grep)",
+    "/home/user/origin-axiom/frontier/B774_chord_pass/cells/CP-W2-yukawa/compute.py (head30+grep)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=PROVED; claim_one_line: 'Of 174 banked negatives, 129 are structurally immune and all 12 load-bearing chord-blind walls harden at theta-odd level — zero overturns.'",
+   "log_says": "PROGRESS_LOG 2026-07-23: 'the negatives base is SOUND ... the projection blind spot is real but NOT systemic'; Review 30 (2026-07-24) counts 129/174 structurally immune, 12/12 load-bearing walls hardened, cc3's independent audit and the H133 chord-suspect (B778) both concurring; a later R29-6 mutation test deliberately flipped B774's Stage-B all-harden result (HARDENS->OVERTURNED) and confirmed the lock FAILED as required (a robustness self-check on the audit apparatus, not a retraction of B774's own finding).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Stage A scan: 174 banked negatives classified, 129 structural/B766-immune (74%), 45 chord-blind (26%, dedup to 34), 12 promoted to Stage B",
+     "where": "stageA_scan.json (total_scanned=174, candidates=45, loadbearing=37; per-negative 'projection'/'chord_could_differ'/'priority' fields with prose rationale)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The 174-vs-129-vs-45 split is a taxonomic judgment call recorded as prose rationale per negative, not a machine-computed test; a stranger could re-read the rationale but cannot re-run a program that reproduces the classification (no compute.py for Stage A)."
+    },
+    {
+     "what": "Stage B: all 12 load-bearing chord-blind cells re-computed at theta-odd/chord level, verdict HARDENS for all 12, zero overturns",
+     "where": "stageB_results.json + cells/*/compute.py,output.txt,results.json (CP-E5-chiral, CP-W2-yukawa, CP-169-cpsign, CP-S032A, CP-E9-equiv, CP-D1-torsor, CP-A5-molien, CP-E8-mirror, CP-E6-B307, CP-011-crux, CP-067-fusion, CP-010-tower)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Each cell has a committed compute.py (sympy/mpmath/numpy, 'pyenv python3', stated re-runnable), an output.txt transcript, and a results.json witness; each embeds a per-cell 'verify_note' describing an independent rerun that reproduced results.json byte-identically. A stranger with the same env could re-run compute.py in each cell dir."
+    },
+    {
+     "what": "CP-E5-chiral: chiral index is a GENUINE zero (not even=odd cancellation), forced by [rho(A1),C]=0",
+     "where": "cells/CP-E5-chiral/results.json / compute.py asserts 1e-9 (line ~123,140,156,173-174) and reports commutator 5.37e-14, mixing terms ~1e-14",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Backed by numeric linear-algebra checks (rho built from Weyl/Kac-Peterson data, |W(E6)|=51840 exact) but 'IDENTICALLY zero' rests on floating-point tolerances (~1e-14), not an exact symbolic proof of the vanishing itself — see red flag NUMERIC_ONLY_NO_EXACT."
+    },
+    {
+     "what": "CP-S032A verify_note self-flags: the 'mirror_equals_conjugation' boolean checked in-cell is a tautology true for any invertible matrix, so 'verified m=1..4' overstates what was shown (though the underlying amphichirality claim is separately argued true)",
+     "where": "stageB_results.json CP-S032A verify_note, final paragraph",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes",
+     "why": "The verify pass itself catches and documents this as a non-material caveat rather than hiding it — a positive transparency signal, but it means one of the cell's stated 'verifications' does not actually discriminate the claim it was offered for."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "has_verification_dir=false; there is no separate belt/ directory, but every one of the 12 Stage-B cells carries an in-file 'verify_note' (an independent rerun + independent re-derivation, e.g. CP-169-cpsign recomputes the E6 27-branching from Bourbaki data from scratch) recorded in the same stageB_results.json — a re-read/re-derivation embedded in the arc's own output rather than an external, independently-authored belt.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "CP-E5-chiral's central 'chiral index is IDENTICALLY zero' claim is supported by floating-point residuals of order 1e-13 to 1e-14 (commutator 5.37e-14, mixing 1.04-1.05e-14) rather than an exact symbolic (Fraction/sympy) proof of vanishing; the assert thresholds (1e-9) are numeric tolerances, not exactness checks.",
+     "where": "cells/CP-E5-chiral/compute.py lines ~123,140,156,173-174; results.json path1_e6_level2 block"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Stage A's 174->129 structural / 45 chord-blind / 12-promoted classification is a prose-rationale judgment call (per-negative 'projection'/'chord_could_differ'/'priority' fields), not a computed procedure with a committed script; the campaign's headline '74% structurally immune' bound rests on this classification.",
+     "where": "stageA_scan.json (no compute.py accompanying Stage A; classification is narrative)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "CP-S032A's own verify_note admits one of its two claimed geometric checks ('mirror_equals_conjugation... verified m=1..4') is a tautology that holds for any invertible matrix and does not actually test the amphichirality claim it was offered to support; verdict is still judged HARDENS on the strength of the other, non-material-dependent argument (finite-orbit symmetrization).",
+     "where": "stageB_results.json CP-S032A verify_note"
+    }
+   ],
+   "seat_note": "This is a genuine methodological audit (re-testing the arc's own prior negatives at a finer theta-odd/chord level with an explicit anti-self-deception discipline, the 'W3-082c trap' for abelian-invariant-relabeled-as-chord), and the 12 Stage-B cells are backed by committed, re-runnable code and witnesses, which is unusually strong practice for this repo. It is entirely a self-consistency/robustness exercise over pre-existing group-theoretic and trace-field structure (no measurable physical quantity is computed or predicted here), and the one numeric-only 'identically zero' claim (CP-E5-chiral) would benefit from an exact symbolic proof rather than 1e-14-level floating-point evidence."
+  }
+ ]
+}

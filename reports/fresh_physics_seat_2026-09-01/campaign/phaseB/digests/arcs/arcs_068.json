@@ -1,0 +1,299 @@
+{
+ "batch": "arcs_068",
+ "arcs": [
+  {
+   "arc": "B766_measurement_torsor",
+   "source": "main",
+   "files_read": [
+    "frontier/B766_measurement_torsor/AUDIT_FINDINGS.md",
+    "frontier/B766_measurement_torsor/FINDINGS.md",
+    "frontier/B766_measurement_torsor/PREREGISTRATION.md",
+    "frontier/B766_measurement_torsor/arc_verdict.json",
+    "frontier/B766_measurement_torsor/audit_output.txt",
+    "frontier/B766_measurement_torsor/compute.py",
+    "frontier/B766_measurement_torsor/output.txt"
+   ],
+   "files_sampled": ["frontier/B766_measurement_torsor/audit_compute.py (first ~150 lines + summary in audit_output.txt)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The discrete measurement torsor has rank exactly 3 (conjugation, reversal, golden branch), saturating the banked menu; time's arrow and the basepoint bit are one choice.\"",
+   "log_says": "R29-5 owner-opened; cc3's independent audit re-derived all five action-table entries, RANK-SATURATED CONFIRMED with one derivation upgraded (matrix-level theta on T6, not trace-level). Later arcs (B786, 2026-07-25) flag that 'theta (reversal)' is trace-trivial at every rank and propose the trace-active involution is iota=inversion instead; B787 (2026-07-25) finds iota is a genuine 4th independent involution (rank 3->4, unconditional) that DE-WELDS T7 (time) from T3 (basepoint) — framed explicitly as EXTENDING B766, not overturning it, with B766's rank-3 observer menu stated to 'still stand.'",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "Action-table entries (FLIP/FIX of T1,T3,T4,T6,T7 under c, theta, gamma5, gamma3) and the resulting F2-rank = 3",
+     "where": "compute.py, output.txt; independently re-derived in audit_compute.py/audit_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact sympy computation over Q(sqrt5)/Q(sqrt-3), committed compute.py and audit_compute.py both present with matching printed output; central tests/test_b766_torsor.py and tests/test_b766_audit.py exist."
+    },
+    {
+     "what": "theta_flips_T6 = True",
+     "where": "compute.py line ~57 (hardcoded 'definitional: T6's axis IS the theta-odd sector's sign')",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes (subsequently backed by audit's matrix-level Sym^2 computation)",
+     "why": "The arc's own AUDIT_FINDINGS.md documents that this entry was originally hardcoded as 'definitional' rather than derived, and that a naive trace-level test would give the wrong answer (FIX); only the audit's Sym^2 derivative computation backs it with an actual derivation."
+    },
+    {
+     "what": "gamma3 = c on the closing axes",
+     "where": "compute.py CELL 2 + audit_compute.py A2",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Field-theoretic identity (complex conjugation restricted to Q(sqrt-3) equals the Galois automorphism of a CM field) verified symbolically in both compute.py and the independent audit."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "cc3's audit (audit_compute.py/audit_output.txt) is an independent re-derivation of every action-table entry with its own file, not merely a re-read of cc's output; central test files test_b766_torsor.py and test_b766_audit.py exist (17 locks claimed in AUDIT_FINDINGS.md, unverified count here).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The prereg requires every action-table entry to be 'an in-sandbox re-derivation, never cited,' but theta_flips_T6 was hardcoded as 'definitional' in the original compute.py rather than derived; the arc's own audit caught this and had to supply the missing derivation (Sym^2 matrix-level computation) after the fact.",
+     "where": "frontier/B766_measurement_torsor/compute.py:57; AUDIT_FINDINGS.md lines 13-30"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The 'physics' vocabulary here (measurement, choice, observer, time's arrow) is explicitly declared 'structural labels' under Gate 5-Q, not physical claims — this is a labeling exercise over Galois/group-theoretic structure of a hyperbolic 3-manifold's character variety, not a physical measurement theory.",
+     "where": "frontier/B766_measurement_torsor/PREREGISTRATION.md line 7"
+    }
+   ],
+   "seat_note": "The core F2-rank-3 computation is genuinely re-derived independently and looks solid as algebra; but the object being computed (a 'measurement torsor' closing physical existence via Galois involutions) is dressed in physics/observer language that Gate 5-Q itself disclaims as merely structural — later arcs (B786/B787) already revise which involution does the trace-active work, so the theta-generator identification here should not be read as final."
+  },
+  {
+   "arc": "B767_stabilizations",
+   "source": "main",
+   "files_read": [
+    "frontier/B767_stabilizations/ADDENDUM_b1187_corrections.md",
+    "frontier/B767_stabilizations/FINDINGS.md",
+    "frontier/B767_stabilizations/PREREGISTRATION.md",
+    "frontier/B767_stabilizations/arc_verdict.json",
+    "frontier/B767_stabilizations/output.txt",
+    "frontier/B767_stabilizations/results.json",
+    "frontier/B767_stabilizations/wall7_output.txt",
+    "frontier/B767_stabilizations/wall7_twisted_extension.py"
+   ],
+   "files_sampled": ["frontier/B767_stabilizations/compute.py (first ~120 lines equivalent covered via output.txt cross-check)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Two backlog gaps closed by all-level theorems (Binet: DGG rank 2n-1 for all n; Sym^d functoriality: the golden tower's spectral rank never climbs).\"",
+   "log_says": "cc3 delivered 2/6 stabilizations (B489, TOMB-L255) fully closed by all-n/all-d proofs; WALL-7, B685, TOMB-L310, TOMB-L34 EXTENDED not closed. B1187 (2026-08-28) later corrects three instrument defects in this arc (WALL-7's 'no roots' logic was wrong — only proves generic-t, not all-t; TOMB-L34's '3 seeds' was vacuous since no randomness is ever drawn; TOMB-L34's c_eff estimator was an artifact) and supplies the real all-t WALL-7 closure via mod-q reduction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "B489: torsion = (phi^n - phi^{-n})^2 > 0 for all n, DGG rank = 2n-1 for all n",
+     "where": "output.txt CELL 1; compute.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Binet identity + structural topology argument, SnapPy-verified n=1..16, exact algebra for all n; matches arc_verdict.json claim exactly."
+    },
+    {
+     "what": "TOMB-L255: Sym^d(M) eigenvalues = {(-1)^j phi^{d-2j}} for all d",
+     "where": "output.txt CELL 2; compute.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Functoriality of Sym^d verified symbolically d=1..12, generalized algebraically to all d; genuine theorem, not extrapolation."
+    },
+    {
+     "what": "WALL-7 twisted case dim=0 'at 18 distinct t values' out of 865 needed for a full generic-t proof",
+     "where": "wall7_output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Committed script wall7_twisted_extension.py, output matches; but the arc's own docstring conflated 'enough nonvanishing points' with an all-t proof — a defect corrected later in B1187 (this arc's ADDENDUM says so explicitly)."
+    },
+    {
+     "what": "TOMB-L34: 'stability across seeds ... 3 seeds' entropy scaling result",
+     "where": "output.txt CELL 6; results.json",
+     "kind": "FITTED",
+     "reproducible_from_committed": "unknown",
+     "why": "ADDENDUM_b1187_corrections.md states the '3 seeds' robustness claim was vacuous (np.random.seed set but no randomness ever drawn — deterministic tight-binding model) and the c_eff estimator was an artifact of the additive-constant fit; this defect is recorded only in a separate ADDENDUM file, not corrected in FINDINGS.md/output.txt themselves."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This is itself the stabilization/verification arc for an earlier backlog; B1187 later independently recomputes WALL-7 mod two primes and corrects TOMB-L34 — a genuine re-derivation, not merely a re-read.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "FINDINGS.md/output.txt/results.json still present the TOMB-L34 '3 seeds' stability claim and the WALL-7 'no-roots' interpolation logic as originally written; the correction lives only in a separate ADDENDUM file in the same directory, not inline in FINDINGS.md or reflected in output.txt/results.json themselves.",
+     "where": "frontier/B767_stabilizations/ADDENDUM_b1187_corrections.md vs FINDINGS.md and results.json (TOMB-L34, WALL-7 entries)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "TOMB-L34 uses a physics-flavored model (Fibonacci-chain tight-binding, entanglement entropy) that is genuinely computed, but its own arc's stated verdict ('EXTENDED — log class stable ... genericity confirmed') is now known (per the addendum) to rest on a broken robustness claim and a flawed estimator.",
+     "where": "frontier/B767_stabilizations/output.txt lines 192-229"
+    }
+   ],
+   "seat_note": "B489 and TOMB-L255 are genuine, reproducible algebraic closures; WALL-7 and TOMB-L34 in this arc are honestly labeled EXTENDED not STABILIZED, but even the EXTENDED evidence for TOMB-L34 later turns out to rest on a vacuous seed claim and a broken estimator — a defect this arc's own directory records but does not retract inline."
+  },
+  {
+   "arc": "B768_correspondence_crosstest",
+   "source": "main",
+   "files_read": [
+    "frontier/B768_correspondence_crosstest/AUDIT_FINDINGS.md",
+    "frontier/B768_correspondence_crosstest/CC3_FORKS_VERIFICATION.md",
+    "frontier/B768_correspondence_crosstest/FINDINGS.md",
+    "frontier/B768_correspondence_crosstest/PREREGISTRATION.md",
+    "frontier/B768_correspondence_crosstest/arc_verdict.json",
+    "frontier/B768_correspondence_crosstest/audit_compute.py",
+    "frontier/B768_correspondence_crosstest/audit_output.txt",
+    "frontier/B768_correspondence_crosstest/receipt_verifications.txt",
+    "frontier/B768_correspondence_crosstest/side_a_out.txt",
+    "frontier/B768_correspondence_crosstest/side_a_signatures.json",
+    "frontier/B768_correspondence_crosstest/side_a_signatures.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN — \"The received correspondence's mathematical skeleton is verified (T's eigenvalues {1,-1/phi}, no 'bb') and the candidate is admitted as documented-but-not-unique: one row (theta = binary agency) killed, uniqueness blocked, the rest undecided.\"",
+   "log_says": "Multi-receipt exchange: candidate provisionally admitted, then documented with citations (error caught: C7 tiebreaker rests on an over-read source), then four 'consequence forks' run via a 12-agent literature-search campaign that kills the theta=binary-agency row, and a distillation with three further corrections (error #40: wrong pair-frequency arithmetic). cc3's independent grading (receipt #6) confirms three of four fork verdicts and downgrades one ('strengthened' language) as overselling a citation.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "V1-V4: transition matrix T eigenvalues {1,-1/phi}; Fibonacci word transition frequencies match T; gamma3==c scope",
+     "where": "FINDINGS.md section 1; audit_compute.py/audit_output.txt A1-A4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact sympy + a 196418-letter empirical Fibonacci-word check, independently re-derived in audit_compute.py with matching numbers."
+    },
+    {
+     "what": "'The subdominant eigenvalue = the hearing amplitude' (V3): -1/phi numerically equals a banked trace value from a different arc (B753 add.2)",
+     "where": "FINDINGS.md V3; audit_output.txt A3",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is exactly the IDENTIFICATION_BY_TYPE pattern the seat is instructed to flag: two golden-ratio-valued quantities from unrelated computations are numerically equal, and the arc itself E20-flags it as 'mechanically UNLINKED' — the audit confirms only that the flag was correctly applied, not that any mechanism exists."
+    },
+    {
+     "what": "The entire 'phenomenological correspondence' matching (mathematical torsor axes <-> psychological/consciousness-studies categories: Agency, Feeling-of-Agency, depersonalization literature, meditation studies, autonoetic memory patient K.C.)",
+     "where": "FINDINGS.md receipts #1-#6; CC3_FORKS_VERIFICATION.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "This is not a physics or mathematics computation at all: it is a literature-matching exercise pairing group-theoretic structure (V4, involutions, torsor rank) against categories from cognitive-science papers on agency and self-experience (Synofzik, Ferroni, Haggard-Tsakiris, Berkovich-Ohana). No formal derivation links the math to the phenomenology; the whole apparatus is explicitly gated to stay out of 'CLAIMS' but nonetheless represents the closest thing to a numerology-style correspondence-hunt in this batch."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "audit_compute.py/audit_output.txt (13 tests claimed) independently re-derive V1-V4 and check the Side A signature table's lock references exist; CC3_FORKS_VERIFICATION.md is an independent literature re-check of the four consequence forks (not a bare re-read — it re-examines primary sources and catches a real overclaim in F1).",
+   "absence_claims": [
+    {"quote": "Zero literature citations in the package", "where": "frontier/B768_correspondence_crosstest/FINDINGS.md line 33"},
+    {"quote": "The uniqueness claim is UNVERIFIABLE AS DELIVERED: the 8-primitive / 18-assignment enumeration is not in the package.", "where": "frontier/B768_correspondence_crosstest/FINDINGS.md lines 37-38"},
+    {"quote": "The null (rule 2): STILL BLOCKED — the 18-assignment enumeration remains undelivered", "where": "frontier/B768_correspondence_crosstest/FINDINGS.md line 83"},
+    {"quote": "No literature documents the two-flips-cancel invariance.", "where": "frontier/B768_correspondence_crosstest/FINDINGS.md line 130 (receipt #3, F4)"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The V3 claim ('the subdominant eigenvalue = the hearing amplitude') is a bare numerical coincidence between two golden-ratio-valued quantities from unrelated computations, explicitly E20-flagged by the arc itself as mechanically unlinked — textbook type-coincidence licence-to-ask, correctly caught but still standing in the record as a named row.",
+     "where": "frontier/B768_correspondence_crosstest/FINDINGS.md V3; audit_output.txt A3"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The bulk of this arc is a correspondence-matching exercise between abstract group/Galois structure and categories drawn from consciousness/agency psychology literature (Synofzik, Ferroni, Haggard-Tsakiris, patient K.C.) — not physics. It carries real citation-checking discipline (a genuine over-read and a genuine arithmetic error, #40, were caught), but the underlying enterprise (matching mathematical torsor axes to phenomenological categories via literature review) has no measurable physical content and risks being read as evidence of consciousness/physics unification when it is a documented, falsifiable but non-physical exercise.",
+     "where": "frontier/B768_correspondence_crosstest/FINDINGS.md (whole file, esp. receipts #1-#6)"
+    },
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "Receipt #5 documents an arithmetic error (#40) in a previously-circulated 'unchallenged fact' about Fibonacci-word pair frequencies (claimed distribution summed to an impossible 1.236) that was caught only at this later stage — evidence that quantities were asserted/copied before being checked.",
+     "where": "frontier/B768_correspondence_crosstest/FINDINGS.md lines 186-191"
+    }
+   ],
+   "seat_note": "The mathematics (V1, V2, V4, discriminator gate logic) is genuinely and independently verified; but the arc's actual substance is a phenomenology-correspondence hunt using cognitive-science literature, explicitly not physics, and it self-identifies one of its own numeric matches (V3) as a mechanically-unlinked coincidence — this is the clearest IDENTIFICATION_BY_TYPE case in the batch and should not be treated as physical evidence of anything."
+  },
+  {
+   "arc": "B769_t1_structure",
+   "source": "main",
+   "files_read": [
+    "frontier/B769_t1_structure/FINDINGS.md",
+    "frontier/B769_t1_structure/PREREGISTRATION.md",
+    "frontier/B769_t1_structure/arc_verdict.json",
+    "frontier/B769_t1_structure/audit_compute.py",
+    "frontier/B769_t1_structure/audit_output.txt",
+    "frontier/B769_t1_structure/compute.py",
+    "frontier/B769_t1_structure/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"T1's fixedness under the closing group is forced because <c,theta,gamma_5> = (Z/2)^3 is abelian; T1's discrete part is a genuine 3-element frame torsor and the continuous relative position is gauge-fixed to angle 0 at the geometric point.\"",
+   "log_says": "The unmoved axis (T1) computed as a discrete 3-frame torsor; used downstream to argue the courier's 'T1 = Attention (continuous)' correspondence reading is not mathematically licensed, since B769 proves T1 is discrete with no continuous slot.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Unmovedness theorem: conjugation of the abelian closing group (Z/2)^3 on V4 is trivial, so any mover of T1 must be an outer automorphism of V4",
+     "where": "compute.py CELL 1; audit_compute.py A1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "One-line group theory fact (conjugation in an abelian group is trivial) verified by brute force over the 8-element group in both the original and the independent audit script."
+    },
+    {
+     "what": "T1's continuous modulus dies at the geometric point ('SPLIT-COMPATIBLE'/'ALIGNED')",
+     "where": "compute.py CELLS 3-4; output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact symbolic computation of an 8-coordinate SL(3) trace space and a tangent-plane derivative at the geometric point omega; the arc's own text documents catching and correcting a vacuity in its own first draft (the theta-odd coordinates vanish identically at the point, making an initial 'purely imaginary' claim vacuously true) before redirecting to the tangent space where the content is genuine — an honest in-cell self-correction."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "audit_compute.py/audit_output.txt independently re-derive all 4 cells, including re-flagging the same vacuity that cc's own FINDINGS.md already caught and corrected in-cell (\"cc's findings correctly identify the vacuity\" per the audit).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "This arc's main downstream use is to rule out a phenomenological correspondence (B768's 'T1 = Attention, continuous') on purely group-theoretic grounds — again the physics/phenomenology-matching pattern seen in B768, not a physical prediction.",
+     "where": "frontier/B769_t1_structure/FINDINGS.md 'Consequences' section"
+    }
+   ],
+   "seat_note": "This is a clean, self-correcting piece of group theory (the arc's own draft caught and fixed a vacuous-zero argument before publishing) with a genuine independent audit; the physics content is nil — it is an abstract statement about which automorphisms of (Z/2)^2 are realized, dressed as 'T1 structure.'"
+  },
+  {
+   "arc": "B770_closure_census",
+   "source": "main",
+   "files_read": [
+    "frontier/B770_closure_census/CENSUS.md",
+    "frontier/B770_closure_census/FINDINGS.md",
+    "frontier/B770_closure_census/PREREGISTRATION.md",
+    "frontier/B770_closure_census/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B770_closure_census/census.json (head/tail + wc -l = 6380 lines; spot-checked item shapes, counts field matches CENSUS.md/FINDINGS.md)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED (instrument arc) — \"The record's complete open surface is a verified 352-item census in six sealed states, with 16 candidate closures adversarially refuted back to LIVE.\"",
+   "log_says": "The census (87 agents, 0 errors, one mid-run repair for a dedup output-ceiling failure) classified 431 raw items -> 352 unique into six states (LIVE 225, EXTERNAL 50, CLOSED 39, STALE 27, CONSTITUTIVELY-OPEN 6, WALLED 5); later log entries (B820, 2026-07-30) report that arcs from B770 onward are found to be 'blind' (missed/miscategorized) at 12.2% vs 2.3% for earlier arcs, a 5.4x higher rate flagged as 'rotting, not merely outgrown.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "352-item classification into 6 states with the no-unearned-closure invariant (every CLOSED/WALLED/STALE row cites a verified discriminating fact)",
+     "where": "census.json (548KB, 352 item records); CENSUS.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "census.json is committed with per-item citation and adversarial-pass fields sampled here (e.g. OI-348-352 all show 'citation':'n/a','citation_verified':false, defaulted to LIVE per rule 2 rather than falsely marked closed) and cross-checks against CENSUS.md's summary counts exactly (225/50/39/27/6/5 = 352)."
+    },
+    {
+     "what": "16 candidate closures adversarially refuted back to LIVE",
+     "where": "CENSUS.md 'The 16 refuted closures' section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The refutation rationale for each item is given as free text (e.g. OI-108: 'never run anywhere in the repo') but this is a multi-agent workflow (wf_4f2f28dd-762) whose underlying agent transcripts are not part of the committed files sampled here — the census.json output is the artifact, but the LLM-agent classification process itself is not independently re-executable from this arc's committed files alone."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory and no independent audit_compute.py-style recompute exists for this arc within the packet; the only cross-check found is a later log entry (B820) reporting a 5.4x higher blind/error rate for arcs classified from B770 onward, which is itself a red flag about this class of arc, not a recompute of B770 specifically.",
+   "absence_claims": [
+    {"quote": "OI-108: RF2-continuation: the trace-field degree-law (deg 4->8->12 per rung — is there a law?) — never run anywhere in the repo.", "where": "frontier/B770_closure_census/CENSUS.md line 411"},
+    {"quote": "OI-290: Three enumerated computations in PORTRAIT.md:140-142 remain unrun anywhere in the repo.", "where": "frontier/B770_closure_census/CENSUS.md line 420"},
+    {"quote": "OI-307: R2 (B459/P1 seam sqrt(-15) selection rule): APPEARS-NOVEL / NEEDS-SPECIALIST, unresolved; no specialist note written (R1's exists, R2's does not)", "where": "frontier/B770_closure_census/CENSUS.md line 422"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "A later log entry (B820, 2026-07-30) reports that arcs classified/produced from B770 onward have a 12.2% 'blind' (error/miss) rate versus 2.3% for earlier arcs — a 5.4x jump described in the log itself as 'rotting, not merely outgrown.' This is a meta-level quality-control finding about the reliability of this and subsequent census-adjacent work, not specific to any single miscount found in this digest.",
+     "where": "PROGRESS_LOG.md entry 'B820 — the lexicon gate fired' (per log_index/B770.txt)"
+    },
+    {
+     "kind": "NO_TEST",
+     "detail": "This is a bookkeeping/instrument arc (arc_verdict.json marks instrument:true) whose 'proof' is a large multi-agent classification workflow; no independent recomputation of the classification exists in the sampled files, only a claim that tests/test_b770_census.py locks counts and the no-unearned-closure invariant (not verified here beyond the census.json spot-check).",
+     "where": "frontier/B770_closure_census/FINDINGS.md 'Integrity' section"
+    }
+   ],
+   "seat_note": "This is inventory/bookkeeping, not physics — it maps the project's own backlog of open questions, and its committed census.json is internally consistent with the summary docs on spot-check, but a later log entry (B820) explicitly flags a 5.4x higher error rate for this and later arcs, which is a genuine caution for the whole downstream corpus, not resolved within this arc's own files."
+  }
+ ]
+}

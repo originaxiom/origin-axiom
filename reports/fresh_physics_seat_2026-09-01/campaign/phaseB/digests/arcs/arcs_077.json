@@ -1,0 +1,314 @@
+{
+ "batch": "arcs_077",
+ "arcs": [
+  {
+   "arc": "B787_interaction_programme",
+   "source": "main",
+   "files_read": [
+    "frontier/B787_interaction_programme/ARTIFACT_HASHES.txt",
+    "frontier/B787_interaction_programme/FINDINGS.md",
+    "frontier/B787_interaction_programme/MASTERPLAN.md",
+    "frontier/B787_interaction_programme/PREREGISTRATION.md",
+    "frontier/B787_interaction_programme/arc_verdict.json",
+    "frontier/B787_interaction_programme/D4_e6_v4/compute.py (first 120 lines)",
+    "frontier/B787_interaction_programme/D4_e6_v4/output.txt",
+    "frontier/B787_interaction_programme/D4_e6_v4/results.json",
+    "frontier/B787_interaction_programme/D5_state_integral/compute.py (first 120 lines)",
+    "frontier/B787_interaction_programme/D5_state_integral/output.txt",
+    "frontier/B787_interaction_programme/D5_state_integral/results.json",
+    "frontier/B787_interaction_programme/D1_fox_calculus/compute.py (first 120 lines)",
+    "frontier/B787_interaction_programme/D1_fox_calculus/output.txt",
+    "frontier/B787_interaction_programme/D1_fox_calculus/output_results.json",
+    "frontier/B787_interaction_programme/iota_id/compute.py (first 120 lines)",
+    "frontier/B787_interaction_programme/iota_id/output.txt",
+    "frontier/B787_interaction_programme/iota_id/results.json",
+    "frontier/B787_interaction_programme/D3_newform_fib/compute.py",
+    "frontier/B787_interaction_programme/D3_newform_fib/output.txt",
+    "frontier/B787_interaction_programme/D2_r_matrix/compute.py",
+    "frontier/B787_interaction_programme/D2_r_matrix/output.txt",
+    "frontier/B787_interaction_programme/D6_habiro_fib/compute.py",
+    "frontier/B787_interaction_programme/D6_habiro_fib/output.txt",
+    "tests/test_b787_interaction.py (verified exists, head read)"
+   ],
+   "files_sampled": [
+    "D4_e6_v4/compute.py head-120",
+    "D5_state_integral/compute.py head-120",
+    "D1_fox_calculus/compute.py head-120",
+    "iota_id/compute.py head-120"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Inversion (iota) is an independent 4th involution raising the torsor rank 3->4 unconditionally, de-welding time's arrow from the basepoint bit; all six doors MISS.\"",
+   "log_says": "PROGRESS_LOG 2026-07-25: 'B787 — THE INTERACTION PROGRAMME: 1 HIT, 6 MISS, complete' — 16-agent solo multiagent campaign, each door compute->adversarial-verify + completeness critic + synthesis, base-rate honesty the first law (Chat-1 record 1-for-21). B817 (2026-07-30) notes B786's claim was written to stop at its own content instead of reaching into B787's later 4th-involution refinement — i.e. downstream ledger work references B787's rank-4 result as real.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "iota (inversion) is a 4th independent generator of the involution torsor (rank 3->4), via A5-ambivalence (T3 fixed) + monodromy inversion (T7 flipped)",
+     "where": "iota_id/compute.py + output.txt, sections C/D/F; locked in tests/test_b787_interaction.py::test_iota_id_A5_ambivalence_and_rank_4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy.combinatorics computation of A5 conjugacy classes and monodromy eigenvalues, self-checked with asserts, re-derived in a committed test file."
+    },
+    {
+     "what": "D2: braiding self-overlap Born number is exactly V4-invariant with floor sin^2(36deg)=(5-sqrt5)/8, placing JUNO (0.30902) and |S_tautau|^2 (0.27639) both structurally below reach",
+     "where": "D2_r_matrix/compute.py + output.txt, steps 1-2; locked in tests/test_b787_interaction.py::test_d2_born_floor_below_juno_and_theorem",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact sympy symbolic algebra with sqrtdenest verification, floor identity proved and independently locked."
+    },
+    {
+     "what": "D4: Aut(E6 Dynkin)=Z/2, V4 does not embed, tau-parity split {1,5,7,11}/{4,8} forced, torsion U_m(3/2)=F_(2m+2)",
+     "where": "D4_e6_v4/compute.py + output.txt sections 0-7",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "brute-force permutation search over 720 perms, Coxeter-element eigenvalue computation, exact sympy; self-asserting."
+    },
+    {
+     "what": "D1: sigma_mirror = a^-1.sigma.a exactly (inner conjugate); every Fox observable lies in the trace ring",
+     "where": "D1_fox_calculus/compute.py + output.txt steps 0-8",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact integer group-ring arithmetic over F2, verified at two independent SL(3) reps."
+    },
+    {
+     "what": "D3: a_{F_n} of 15.a newform is generic (no closed form/recursion/periodicity beyond Hecke)",
+     "where": "D3_newform_fib/compute.py (sage), output.txt; independent point-count cross-check of a_p for 22 good primes",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "uses sage EllipticCurve('15a1').anlist plus a from-scratch naive point count that matches for all tested p; requires SageMath to reproduce."
+    },
+    {
+     "what": "D5: state-integral V(u)/Z(u) at programme points are unremarkable; Vol(4_1) recovered exactly at u=0 only",
+     "where": "D5_state_integral/compute.py + output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mpmath high-precision (dps=30) Faddeev quantum dilogarithm, validated via functional equation before use (residual 1.6e-30); direct-vs-residue cross-check included."
+    },
+    {
+     "what": "D6: Habiro c_n at Fibonacci indices (verified to the 110-digit c_89) generic, no recurrence, no r-stream link",
+     "where": "D6_habiro_fib/compute.py + output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact big-integer polynomial truncation arithmetic, self-check against hand-computed c_0..c_4."
+    },
+    {
+     "what": "Phase-3 relabeling assessment: no recomputation forced on B759/B769/Wave-5",
+     "where": "FINDINGS.md section 3 row 'iota-relabeling propagated'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "FINDINGS.md itself states this was 'assessed' by cc in a Phase-3 pass but the referenced per-label reversal-vs-inversion recomputation on B759/B769/Wave-5 'was NOT run' (section 2, 'Relabeling trigger — ARMED, NOT PROPAGATED'). This is a judgment call recorded as text, not a committed computation for the three labels."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No separate verification/ directory, but every door's script re-derives its own intermediate facts (e.g. D1 cross-checks group-ring identity at two independent SL(3) reps; D3 cross-checks a_p by independent naive point count; D5 validates Phi_1 before use; D6 self-checks c_0..c_4 by hand). tests/test_b787_interaction.py independently locks the iota-id, D2, and D4 exact results.",
+   "absence_claims": [
+    {
+     "quote": "The relabeling is OWED and UNRESOLVED, not cleared and not propagated.",
+     "where": "FINDINGS.md line ~57 (section 2, 'Relabeling trigger')"
+    },
+    {
+     "quote": "a per-label reversal-vs-inversion recomputation that was NOT run",
+     "where": "FINDINGS.md line ~56"
+    },
+    {
+     "quote": "tests/test_b787_interaction.py (locks) | NOT DONE | The iota-id (exact structural theorem) and the D2/D4 exact identities are lock-eligible but no test was written.",
+     "where": "FINDINGS.md section 3 completion checklist, line ~96"
+    },
+    {
+     "quote": "The test-lock (tests/test_b787_interaction.py) is written.",
+     "where": "FINDINGS.md section 4, line ~123 — contradicts the section-3 checklist row above; file was independently verified to exist at tests/test_b787_interaction.py"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "FINDINGS.md section 3's completion checklist still says the test-lock is 'NOT DONE', while section 4 (later in the same file) says it 'is written' — an internal inconsistency in the banked document, not corrected in place. (The file does in fact exist and does lock the claims, so the newer statement is the accurate one, but the stale row was never struck or updated.)",
+     "where": "FINDINGS.md sections 3 and 4"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The Phase-3 relabeling propagation is recorded as settled ('DONE (assessed, no relabel forced)') in the completion checklist, but the same document's own prose says the underlying per-label recomputation 'was NOT run' — the checklist status overstates what was actually computed for that item.",
+     "where": "FINDINGS.md section 3 row 'iota-relabeling propagated' vs section 2"
+    }
+   ],
+   "seat_note": "This is one of the more disciplined arcs in the corpus: base-rate control stated up front, six numeric doors computed and MISSed cleanly with reproducible exact math (sympy/sage/mpmath, cross-checked), and the one HIT (iota as a 4th independent involution) is an honest group-theoretic/geometric structural fact, correctly scoped as extending rather than overturning the banked rank-3 result. No SM observable is claimed or computed; the physics content is purely structural (character-variety symmetries), and the arc itself is careful to say so."
+  },
+  {
+   "arc": "B789_theta_intertwiner",
+   "source": "main",
+   "files_read": [
+    "frontier/B789_theta_intertwiner/FINDINGS.md",
+    "frontier/B789_theta_intertwiner/arc_verdict.json",
+    "frontier/B789_theta_intertwiner/compute.py",
+    "frontier/B789_theta_intertwiner/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"An explicit intertwiner Q = S_iota * S_sd^{-1} conjugates transpose-with-reversal back to the Riley Sym^2 representation, which descends to pi_1(4_1); Q is rep-dependent.\"",
+   "log_says": "PROGRESS_LOG 2026-07-24: 'B789 — the explicit theta-intertwiner, harvested from the cc3 audit seat and approved... exhibits the conjugating matrix Q = S_iota.S_sd^-1 that carries rho o (transpose o reversal) to rho for the figure-eight rep, and derives it rather than guessing it.' REVIEWS.md Review 31 (2026-07-25): 'Every cc3 harvest this window was re-derived in-sandbox from scratch: B789 (the theta-intertwiner, plus a descent check cc3 had not run)... B789 makes this explicit and computable: theta is trace-invisible... and the intertwiner Q realising it lives at the matrix level, with the group-level identity proved FALSE by an abelian obstruction.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "V1: relator w=ab^-1a^-1b with wa=bw forces u^2+u+1=0, holds exactly at u=omega on SL(2) and Sym^2",
+     "where": "compute.py V1 block; output.txt V1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact sympy symbolic computation over Z[u], factored residual, self-verifying."
+    },
+    {
+     "what": "V2: rho_2 = transpose∘reversal DESCENDS to pi_1(4_1) (rho_2(wa)=rho_2(bw)), the arc's stated strengthening over cc3",
+     "where": "compute.py V2 block; output.txt V2",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "direct matrix identity check; FINDINGS.md documents a prior false-negative from a wrongly guessed relator, replaced by a brute-force search over short words — the correction is recorded, not hidden."
+    },
+    {
+     "what": "V3: Q = S_iota.S_sd^-1 intertwines rho_2 and rho_1 on generators and 10 random words",
+     "where": "compute.py V3 block; output.txt V3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit matrix computation with a random seed (11), reproducible."
+    },
+    {
+     "what": "V4/V5/V6 scoping facts: group-level transpose identity is false (abelian obstruction), Q is rep-dependent (fails on non-Riley pair), basis reconciliation of disc-form vs S_sd",
+     "where": "compute.py V4-V6; output.txt V4-V6",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "each scoping claim is a direct computed matrix check, not merely asserted."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No separate verification/ directory; the arc itself is presented as an independent re-derivation of a prior (cc3 audit seat) deliverable, with every claim recomputed from scratch rather than copied — this is itself a form of belt (a second seat's re-derivation), per the arc's own provenance note.",
+   "absence_claims": [
+    {
+     "quote": "cc's first pass used a guessed relator (w = b^-1aba^-1) and V2 came back False. The guess was wrong... Had the guessed relator been trusted, this arc would have reported \"rho_2 does not descend\" — a fabricated negative on a load-bearing check.",
+     "where": "FINDINGS.md, 'Method note' paragraph"
+    },
+    {
+     "quote": "There is no universal Q.",
+     "where": "FINDINGS.md, scoping fact 2"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A small, tightly self-contained, and unusually transparent arc: it documents its own near-miss (a wrongly guessed relator that would have produced a fabricated negative) and how it was caught, and explicitly scopes what the result does and does not establish (rep-dependent Q, no group-level transpose identity). Pure structural/representation-theoretic content, no physical observable is touched."
+  },
+  {
+   "arc": "B790_maass_adjudication",
+   "source": "main",
+   "files_read": [
+    "frontier/B790_maass_adjudication/ARTIFACT_HASHES.txt",
+    "frontier/B790_maass_adjudication/FINDINGS.md",
+    "frontier/B790_maass_adjudication/PREREGISTRATION.md",
+    "frontier/B790_maass_adjudication/arc_verdict.json",
+    "frontier/B790_maass_adjudication/compute.py",
+    "frontier/B790_maass_adjudication/compute_l3_powered.py",
+    "frontier/B790_maass_adjudication/compute_null_corrected.py",
+    "frontier/B790_maass_adjudication/compute_screening.py",
+    "frontier/B790_maass_adjudication/compute_surrogate_null.py",
+    "frontier/B790_maass_adjudication/output.txt",
+    "frontier/B790_maass_adjudication/output_null_corrected.txt",
+    "frontier/B790_maass_adjudication/output_null_v2.txt",
+    "frontier/B790_maass_adjudication/output_powered.txt",
+    "frontier/B790_maass_adjudication/output_screening.txt",
+    "frontier/B790_maass_adjudication/output_surrogate.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [
+    "frontier/B790_maass_adjudication/results.json",
+    "frontier/B790_maass_adjudication/results_null_corrected.json",
+    "frontier/B790_maass_adjudication/results_null_v2.json",
+    "frontier/B790_maass_adjudication/results_powered.json",
+    "frontier/B790_maass_adjudication/results_screening.json",
+    "frontier/B790_maass_adjudication/results_surrogate.json"
+   ],
+   "claim_of_record": "NEGATIVE — \"The Maass handoff's thesis is unsupported: LMFDB holds no Bianchi Laplace data, three tests are vacuous, and the valueless-object null stands.\"",
+   "log_says": "PROGRESS_LOG 2026-07-24: 'B790/B791 — the Maass numbering settled and the external bank verified... B788 stays with the external Gates 0-9R bank (renumbering it would break 62 artifact hashes); cc's adjudication becomes B790, a receipt, and the Weyl work banks as B791.' 'B790's separate finding (not principal congruence at level sqrt-3) stands and is now the weaker half of a sharper statement.' Reviews.md Review 32 (2026-07-29) situates B790 in the window B788(external bank)->B790(this receipt)->B789->B791->...",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Step 2: [PSL(2,O_3):Gamma_41] = 12 exactly by Humbert volume ratio; Gamma_41 surjects onto PSL(2,F_3)=A_4 (not principal congruence)",
+     "where": "compute.py Step 2 block; output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mpmath high-precision (dps=30) zeta_K(2) computation and exact modular-arithmetic orbit enumeration of the Riley holonomy image mod sqrt(-3); index=12.000000000000000 to 15 digits, self-asserted."
+    },
+    {
+     "what": "L1: m004 and m003 are NOT isospectral (differ in length spectrum despite equal volume)",
+     "where": "compute.py L1 block; output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "uses SnapPy (snappy.ManifoldHP('m004'/'m003').length_spectrum) — an external, non-trivial geometry library; reproducible only if SnapPy is available and version-stable, not verifiable purely from committed sympy/mpmath code."
+    },
+    {
+     "what": "L2/L2': every geodesic trace (134 for m004, 150 for m003, cutoff Re(l)<=5) lies exactly in Z[omega], worst deviation 2.6e-15; trace-norm multisets differ between m004 and m003 (mod-4 vs odd split)",
+     "where": "compute_l3_powered.py; output_powered.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "depends on SnapPy length-spectrum data as above; arithmetic verification (nearest-integer rounding of Z[omega] coefficients) is exact given that input. The mod-4/odd split is explicitly flagged in FINDINGS.md as 'an OBSERVATION on truncated data, not a law... has not been proved or checked for stability.'"
+    },
+    {
+     "what": "L3/L3'/L3'': base-rate-controlled SM-value matching on the length spectrum is a MISS after three iterations of null-model correction (uniform -> Weyl e^l -> corrected e^2l -> pool-matched empirical/gap-shuffle)",
+     "where": "compute_l3_powered.py, compute_null_corrected.py, compute_surrogate_null.py; output_powered.txt, output_null_corrected.txt, output_surrogate.txt, output_null_v2.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "each null-model script is committed with explicit random seeds (e.g. 20260728) and prints its own p-values; the ADDENDUM in FINDINGS.md documents that the first two null models were themselves wrong (density ~e^l instead of ~e^2l; a never-preregistered uniform null) and were corrected in later scripts — this self-correction chain is unusually transparent."
+    },
+    {
+     "what": "S1: lambda_1(m004) <= 51.014 by parent-spectrum injection from Grunewald-Huntebrinker 1996 Table 3",
+     "where": "compute_screening.py S1 block; output_screening.txt",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "the script's own comment states: 'PROVENANCE WARNING: transcribed from a secondary report of Table 3, NOT read off the primary source in-sandbox. Treated as UNVERIFIED and used for SCREENING ONLY.' This is an imported, unverified numeric list, explicitly flagged as such by the arc itself — a textbook case the seat should watch even though the arc self-flags it."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No separate verification/ directory, but the arc contains an unusually visible self-correction chain: compute.py's initial L3 (cutoff 2.0, 9 candidates) is superseded by compute_l3_powered.py (cutoff 5.0, 2555 candidates), whose naive base-rate estimate (E=40.88) is itself superseded by compute_surrogate_null.py (empirical nulls) and compute_null_corrected.py (fixing two further miscalibrated nulls, documented in the ADDENDUM as conceded errors), and again by output_null_v2.txt (pool-matched nulls). Each revision is kept, not overwritten.",
+   "absence_claims": [
+    {
+     "quote": "LMFDB has zero Laplace data for any Bianchi group; d=3 exists only at ~3 digits; m004 never computed",
+     "where": "FINDINGS.md verdict table, Step 1 row"
+    },
+    {
+     "quote": "For m004 itself: nothing. Recorded as NOT-COMPUTED, explicitly not non-existence — the discrete spectrum is provably infinite by the Weyl law.",
+     "where": "FINDINGS.md section 1"
+    },
+    {
+     "quote": "Hejhal-on-H^3 not in-sandbox; NEEDS-SPECIALIST after exhausting what is computable",
+     "where": "FINDINGS.md verdict table, Step 3 row"
+    },
+    {
+     "quote": "No mathematical discovery is claimed in this arc.",
+     "where": "FINDINGS.md, Headline paragraph"
+    },
+    {
+     "quote": "Step 3: superseded — see the separate note on the external Gates 0-9R bank. \"Blocked on data nobody has computed\" is wrong; the blocker is wall-clock and checkpointing.",
+     "where": "FINDINGS.md ADDENDUM, 'Net effect on the arc's verdict'"
+    },
+    {
+     "quote": "m004's eigenvalue channel is NOT untouchable: >=12 eigenvalues are KNOWN by inheritance from the parent group, at ~3 digits. Step 1's 'never computed' is CORRECTED to 'never computed DIRECTLY; ~1/12 inherited, at 3 digits'.",
+     "where": "output_screening.txt VERDICT section"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The rigorous-sounding S1 bound lambda_1(m004)<=51.014 rests on a numeric list (Grunewald-Huntebrinker Table 3 values) that the script's own comment says was transcribed from a secondary report, not read from the primary source in-sandbox, and is explicitly 'UNVERIFIED.' No committed artifact (PDF, table, or citation-checked transcription) lets a stranger verify these 12 numbers against the primary paper.",
+     "where": "compute_screening.py lines ~46-55; output_screening.txt S1"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Length-spectrum computations (L1, L2, L2', L3 family) depend on SnapPy, an external non-committed geometry package; the digest cannot independently confirm reproducibility of the 134/150 geodesic counts and their traces from the repo alone.",
+     "where": "compute.py, compute_l3_powered.py, compute_screening.py, compute_surrogate_null.py — all import snappy"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The arc's own ADDENDUM documents that its first-pass null-model calibration for the l_0/l_51~sin^2(theta_W) near-miss was wrong twice in a row (a never-preregistered uniform null, then a miscoded 'Weyl-matched' density using e^l instead of the correct e^2l for H^3), before a third, pool-matched pair of nulls (p=0.20, p=0.75) settled the MISS. This is disclosed transparently rather than hidden, but it shows how fragile a look-elsewhere-budget verdict can be to null-model choice — three different nulls gave p=1.000, p=0.005, and p=0.20-0.75 for the same nominal 'MISS'.",
+     "where": "FINDINGS.md ADDENDUM section C1; output_null_corrected.txt vs output_null_v2.txt"
+    }
+   ],
+   "seat_note": "An unusually self-critical arc: it exposes and corrects its own null-model errors in public rather than quietly re-running, and clearly separates VACUOUS (data-unavailable) from MISS (tested-and-negative) — exactly the discipline this seat looks for. The one genuine soft spot is the S1 lambda_1 upper bound, which imports an unverified secondary-source numeric table and is honestly flagged as screening-only, not a match test."
+  }
+ ]
+}

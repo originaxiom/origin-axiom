@@ -1,0 +1,164 @@
+{
+ "batch": "arcs_073",
+ "arcs": [
+  {
+   "arc": "B775_braver_questions",
+   "source": "audit/b775-braver-questions",
+   "files_read": [
+    "FINDINGS_FINAL.md",
+    "FINDINGS_PARALLEL.md",
+    "FINDINGS_THREE_MOVES.md",
+    "MASTERPLAN.md",
+    "v4_genericity_test.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false in packet metadata; this is an unmerged audit-branch delivery, not a banked arc with arc_verdict.json)",
+   "log_says": "PROGRESS_LOG frames B775 (2026-07-24) as 'cc3's Braver Questions folded (B777); V4-genericity green-lit' — the owner gave a directive ('give green light to cc3') and cc3's 7-phase 32-agent audit was renumbered B777 to avoid collision with main's own B775 (Phase-2 structural waves, a DIFFERENT arc reusing the same number). REVIEWS.md Review 30 attributes 'the T1-mover WALLED, gamma_5 derived, the mirror mechanism, the p-adic L-function, three courier frameworks tombstoned' to the main-branch B775, not to this audit-branch delivery.",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "V4 genericity test: 8 imaginary-quadratic-trace-field manifolds tested (SnapPy census + metallic/chiral bundles); m004, m003, m025, R^2L^2 have V4 (amphicheiral), while m009/m010/RRL/RLL have Galois-only Z/2",
+     "where": "FINDINGS_THREE_MOVES.md Move 1; v4_genericity_test.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The script v4_genericity_test.py is committed and would run (SnapPy+cypari), but no output.txt/results.json/log for the actual run is present in this arc's file set — the specific table of 8 manifolds in FINDINGS_THREE_MOVES.md cannot be checked against a committed witness from these files alone. (The independent re-run lives in the separate B777 belt file CC_VERIFY_V4GENERICITY.md, not in this arc.)"
+    },
+    {
+     "what": "'m004 unique minimum volume (Cao-Meyerhoff)' and 'Fibonacci/golden-ratio requires trace 3' claims used to argue m004-specificity beyond V4",
+     "where": "FINDINGS_THREE_MOVES.md Move 1, lines ~29-42",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "Cited as literature facts (Cao-Meyerhoff) and prior program results, not computed in this arc; no witness file here."
+    },
+    {
+     "what": "'c pinned at minimal self / ipseity' — philosophical/structural argument for which phenomenological primitive fills slot c",
+     "where": "FINDINGS_THREE_MOVES.md Move 2",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "Pure interpretive argument (Zahavi/Gallagher literature vs. structural collision with gamma_5); not a computation, explicitly Gate-5-Q interpretive per the companion B777 gate note."
+    },
+    {
+     "what": "Galois-vs-reversal gate (S1 rank-onset, S2 action-type, S3 solo-flip) — proposed discriminator between c and theta",
+     "where": "FINDINGS_THREE_MOVES.md Move 3",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "no",
+     "why": "Described as 'designed, no new math needed' and 'computable from existing data (B766, B759, B769)' but not actually run/verified in this arc — it is a proposal folded into Phase 3 per the B777 gate note, not a banked result."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "This arc's own directory carries no verification/ dir. The V4-genericity claim WAS independently re-verified, but that re-verification (CC_VERIFY_V4GENERICITY.md) lives in the sibling arc B777_braver_questions, not here.",
+   "absence_claims": [
+    {"quote": "No known candidate fills them.", "where": "FINDINGS_FINAL.md line 45, re: the theta-vacancy slot"},
+    {"quote": "No competing framework (IIT, GNW, ORCh-OR, HOT) subjects itself to this discipline.", "where": "FINDINGS_FINAL.md line 13"},
+    {"quote": "None of the three triadic T1 candidates (vedanā, Peirce, Husserl) cleanly match the S₃ generator-pair structure.", "where": "FINDINGS_FINAL.md line 45"},
+    {"quote": "The program has never tested whether its structural crown jewel is generic to the class.", "where": "FINDINGS_FINAL.md line 69"},
+    {"quote": "The computation has not been run.", "where": "FINDINGS_PARALLEL.md line 22, re: the enumeration survivor count"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "v4_genericity_test.py is committed but no output/log/results file for the run whose 8-manifold table is quoted in FINDINGS_THREE_MOVES.md is present in this arc's files; the actual witness for the quoted numbers is not co-located with the claim.", "where": "v4_genericity_test.py; FINDINGS_THREE_MOVES.md Move 1 table"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The entire consciousness<->mathematics correspondence this campaign audits (c, theta, gamma_5 mapped to phenomenological primitives) is explicitly conceded by the arc itself to be 'interpretive, not derived' — a structural/dimension match licensing an interpretation, not forcing one. The arc is unusually honest about this (Phase A finding), which is to its credit, but the underlying program-wide correspondence remains exactly this kind of coincidence-based identification.", "where": "FINDINGS_FINAL.md section 1, FINDINGS_PARALLEL.md section 1"},
+    {"kind": "OTHER", "detail": "This arc is an unmerged audit-branch product (cc3's own worktree) with no arc_verdict.json and no FINDINGS.md in the standard sense — it is a self-contained proposal/audit that was later 'folded' wholesale into B777 on main. Treating it as a settled arc would overclaim; its content only became load-bearing once B777 accepted specific pieces of it.", "where": "packet metadata (has_findings=false, has_verdict=false); cross-referenced against B777_braver_questions/CC_GATE_NOTE.md"}
+   ],
+   "seat_note": "This is a philosophical/consciousness-correspondence audit dressed in physics-adjacent vocabulary (Galois involutions, trace fields, SL(2,C) character varieties); the only piece with real mathematical content — the V4-genericity computation — is honestly caveated as unwitnessed here and was in fact independently re-run and confirmed by a separate seat (see B777). The rest (bridge status, theta vacancy, c's phenomenological grain) is admittedly interpretive and should not be read as physics."
+  },
+  {
+   "arc": "B776_b685_homework",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "PREREGISTRATION.md",
+    "arc_verdict.json",
+    "results.json",
+    "cells/B776-symprod/compute.py (first 120 lines + header docstring)",
+    "cells/B776-symprod/output.txt",
+    "cells/B776-symprod/results.json",
+    "cells/B776-r7/compute.py",
+    "cells/B776-r7/output.txt",
+    "cells/B776-r7/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [
+    "cells/B776-r7/tv_A.pkl",
+    "cells/B776-r7/tv_B.pkl"
+   ],
+   "claim_of_record": "claim_one_line: \"B685's Habiro leg is corroborated from first principles: the symmetrized product is pure-3 through order 50 with no 5 or 7 in any denominator.\"; status: PROVED",
+   "log_says": "PROGRESS_LOG: '2026-07-24 — B776 the B685 homework banked: B685 corroborated, upgraded to first-principles' (Chat-1's homework, both cells upheld). Review 30: 'B685 (B776) — the program's most load-bearing negative — corroborated AND upgraded from cited-by-title to reconstructed-in-cell to depth 105 (3^146@100 anchor reproduced from first principles); the B772 provenance flag closed.' Review 30 also records a mutation test (R29-6): 'B776's r7 v5-plateau ([0,0,1,1,1,2,2]->...2,3) — lock FAILED as required' (a deliberate perturbation test, not a real overturn). B784 audit: 'B776 (the B685 anchor) STANDS — the one item that is pure single-cell computation.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "r_7 = 212114205337147471/115579079884800 (den = 2^25*3^9*5^2*7, v5=2); v5 sequence r1..r7 = [0,0,1,1,1,2,2] plateaus (does not keep growing)",
+     "where": "cells/B776-r7/compute.py, output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "compute.py is committed, fully deterministic (mpmath dps=1200 Kashaev sums on two disjoint N-ladders + PSLQ), output.txt shows the actual run trace, results.json records the exact fraction and factorization. A stranger could delete tv_A.pkl/tv_B.pkl and rerun."
+    },
+    {
+     "what": "Symmetrised product Phi(h)Phi(-h) reconstructed from first principles via saddle-point/Wick expansion in Q(sqrt(-3)); pure-3 through order u^105 (3^146@100 anchor reproduced, 3^153@105); no literal 5^k/7^k in any denominator through order 105",
+     "where": "cells/B776-symprod/compute.py, output.txt (MM=105 run), results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "compute.py is a self-contained exact-arithmetic script (Fraction-based QS ring, no external numerics) with a documented re-run command (MM=105 python3 compute.py, ~25 min); output.txt shows the full denominator table through u^105 and the anchor-guard check passing."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "results.json's cell-level entries record an independent 'verify_note' for each cell (cc rerunning compute.py, deleting caches, re-factoring denominators by hand, testing sensitivity to a perturbed r7) — this is an in-arc verification pass, not a separate belt directory, but functions as one.",
+   "absence_claims": [
+    {"quote": "For the FIRST TIME in-repo, Φ(h)Φ(−h) was reconstructed FROM FIRST PRINCIPLES (not cited)", "where": "FINDINGS.md line 20"},
+    {"quote": "NO literal 5^k/7^k in ANY denominator at ANY computed order (0–50 complete; five_appears=FALSE)", "where": "FINDINGS.md line 28"},
+    {"quote": "the order-100 anchor (3¹⁴⁶@100) was NOT observed-complete in-cell — the order-105 run was still executing at the forced structured-output cutoff", "where": "FINDINGS.md lines 30-32 (later superseded by the ANCHOR CLOSED addendum, lines 57-66)"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "results.json top-level 'cells' array retains a stale sub-entry for B776-symprod with anchor_reproduced=false, five_appears=false and a note describing the anchor as not-yet-observed — this predates the MM=105 completion. The top-level JSON does carry a 'B784_RECORD_SYNC' field explicitly flagging this as stale and pointing to cells/B776-symprod/results.json (which correctly shows anchor_reproduced=true), so it is NOT an unmarked contradiction, but a reader trusting only the top-level results.json cell entry (rather than the B784_RECORD_SYNC pointer or the cell-level file) would be misled.", "where": "results.json (top-level) lines 17-28 vs. cells/B776-symprod/results.json"}
+   ],
+   "seat_note": "This is a genuine, well-witnessed computation: exact rational arithmetic in Q(sqrt(-3)), no floating-point contamination in the symmetrised-product leg, two independent re-verifications recorded, and a first-principles reconstruction replacing a prior cited-by-title claim. It is pure number theory (Habiro ring 3-integrality) with an explicit Gate-5-Q disclaimer that no physics claim is made; treat it as a solid negative-result corroboration, not as physics content."
+  },
+  {
+   "arc": "B777_braver_questions",
+   "source": "main",
+   "files_read": [
+    "CC_GATE_NOTE.md",
+    "CC_VERIFY_V4GENERICITY.md",
+    "FINDINGS_FINAL.md",
+    "FINDINGS_PARALLEL.md",
+    "FINDINGS_THREE_MOVES_cc3.md",
+    "MASTERPLAN.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_verdict=false in packet metadata; B777 is a 'gated fold' of an audit-branch delivery, not adjudicated via arc_verdict.json)",
+   "log_says": "PROGRESS_LOG: 'cc3's Braver Questions folded (B777); V4-genericity green-lit' — cc3 (a separate seat) delivered a 7-phase 32-agent audit on branch audit/b775-braver-questions; folded here as B777 to avoid colliding with main's own B775. 'THE CLOSURE MASTERPLAN banked + cc3's V4-genericity VERIFIED' — B777 extended, locked, mirrored. 'B781: the m003 sister-distinction closed... With B777+B781 the #1 falsifier (V4 genericity) is fully defused.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "V4-genericity independently re-verified: cc's own SnapPy re-computation of manifold volume/symmetry-group/amphicheirality for m004, m003, m025, m009, m010 matches cc3's table exactly (m004 vol 2.029883, D4, amphicheiral, V4; m003 same vol, Z/2+Z/4, amphicheiral, V4; m009/m010 vol 2.666745, Z/2+Z/2, not amphicheiral, Z/2-only)",
+     "where": "CC_VERIFY_V4GENERICITY.md lines 10-26",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "This is stated as cc's own independent SnapPy re-computation ('cc's independent SnapPy re-computation confirms it EXACTLY') but no script, output, or results file for this re-computation is committed in B777_braver_questions or referenced by path — it is a prose table with no witness file a stranger could rerun."
+    },
+    {
+     "what": "m004 vs m003: identical volume 2.029883 and both V4; the only known distinguishing structural feature is the symmetry group (D4 order-8 vs Z/2+Z/4) plus trace-3/Fibonacci downstream chain — the 'm003 sister-distinction' is a named, unclosed risk as of this arc",
+     "where": "CC_VERIFY_V4GENERICITY.md 'The honest residual' section",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Flagged by cc3 and confirmed by cc as an open risk in this arc; the log_index shows it was later closed by a different arc (B781), not resolved here."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "CC_VERIFY_V4GENERICITY.md is itself a second-seat independent verification of B775's V4-genericity claim (via SnapPy re-run per its prose), functioning as this arc's belt — but as noted above, the re-run itself left no committed script/output.",
+   "absence_claims": [
+    {"quote": "cc3 did NOT over-claim m004-uniqueness.", "where": "CC_VERIFY_V4GENERICITY.md, 'The honest residual' section"},
+    {"quote": "V4 + volume does NOT separate the figure-eight from its sister.", "where": "CC_VERIFY_V4GENERICITY.md line 30"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "cc's independent SnapPy re-verification of V4-genericity (the load-bearing check that 'defused the #1 falsifier') is reported only in prose in CC_VERIFY_V4GENERICITY.md; no script or output file for this specific re-run is present in B777_braver_questions, so the exact re-computation cannot be reproduced from these committed files alone.", "where": "CC_VERIFY_V4GENERICITY.md"},
+    {"kind": "OTHER", "detail": "All four MD files shared with B775 (FINDINGS_FINAL.md, FINDINGS_PARALLEL.md, FINDINGS_THREE_MOVES/_cc3.md, MASTERPLAN.md) are byte-identical copies (diff confirmed) of the unmerged audit-branch worktree content — B777 is a verbatim fold of an unmerged branch's deliverables plus two new cc-authored gate/verify notes, not independently-authored content.", "where": "diff against /tmp worktree audit_b775-braver-questions/frontier/B775_braver_questions/*"}
+   ],
+   "seat_note": "The one concretely checkable physics-adjacent claim (V4 is not generic to once-punctured-torus bundles with imaginary-quadratic trace field; it requires amphicheirality) was independently re-derived by a second seat and the topological facts (volume, symmetry group, amphicheirality) are standard SnapPy outputs that are plausible and specific, but no script/output backs this particular re-run in the committed files, so a stranger cannot mechanically reproduce cc's confirmation from B777 alone — only from the B775 script plus trust in cc's prose."
+  }
+ ]
+}

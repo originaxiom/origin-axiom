@@ -1,0 +1,195 @@
+{
+ "batch": "arcs_009",
+ "arcs": [
+  {
+   "arc": "B157_metallic_exponent",
+   "source": "main",
+   "files_read": [
+    "frontier/B157_metallic_exponent/FINDINGS.md",
+    "frontier/B157_metallic_exponent/arc_verdict.json",
+    "frontier/B157_metallic_exponent/PHASE2_FINAL.py",
+    "frontier/B157_metallic_exponent/k_table_final.py",
+    "frontier/B157_metallic_exponent/bronze_verify.py",
+    "frontier/B157_metallic_exponent/sl4_o4_empty.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [
+    "frontier/B157_metallic_exponent/metallic_construct.py",
+    "frontier/B157_metallic_exponent/r1_fig_sl3_o4_proof.py",
+    "frontier/B157_metallic_exponent/r3_k_mechanism.py"
+   ],
+   "claim_of_record": "verdict: NEGATIVE — 'The banked closed form k = 4 - m(o-3) is refuted by bronze counterexamples; only the order-determined, rank-independent exponent survives.' (arc_verdict.json)",
+   "log_says": "2026-06-17 progress log: banked FINDINGS+7 reproducers, corrected B154 FINDINGS+V146 in place (k=4-m(o-3) fit -> REFUTED banner), ledger V151; a later 2026-07-23 entry says Wave-2 'bank B157's grid honestly' (consistent, no new claim).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "k-table grid k(m,o) at SL(3), incl. bronze (m=3,o=4)->3 and (m=3,o=6)->1", "where": "k_table_final.py, bronze_verify.py (independent full-relation Newton path)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed numpy Newton scripts with explicit gates (irreducibility, full-relation residual, non-central longitude) print the k-values; two independent scripts agree"},
+    {"what": "figure-eight (m=1,o=4)->k=3 exact over Q(i)", "where": "FINDINGS.md Result 3, r1_fig_sl3_o4_proof.py (listed only, not opened)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "referenced as exact symbolic proof but script itself not read in this pass"},
+    {"what": "SL(4) {1,1,i,-i} locus empty (Lemma1 ideal membership + Lemma2 Burnside<16)", "where": "sl4_o4_empty.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed sympy Groebner-basis reduction (radical membership) plus a committed numpy Newton/Burnside-rank sweep, both re-run in this script"},
+    {"what": "the CORRECTION 2026-06-23 (Sage reproduces SL(3) cells; SL(5) o=5,m=1->k=2 reached by gauge-fixing)", "where": "FINDINGS.md, in-file CORRECTION appended after the original NEEDS-SPECIALIST update", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the correction narrates a Sage session and a gauge-fixed Newton result but no corresponding script is listed among this arc's committed files (points to a separate arc B198, not sampled here)"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "bronze_verify.py is explicitly an independent second code path (full un-eliminated relations, different Newton implementation) cross-checking k_table_final.py's results — a genuine internal belt-and-suspenders re-derivation, not just a re-read.",
+   "absence_claims": [
+    {"quote": "o=5,6 admit no irreducible SL(3) bundle reps (random Newton, 300–400 seeds) — inadmissible at SL(3)", "where": "FINDINGS.md line ~39"},
+    {"quote": "\"needs a real CAS (Singular/Macaulay2/Sage)\" ... Sage is installed in-environment", "where": "FINDINGS.md CORRECTION 2026-06-23, contradicting its own earlier NEEDS-SPECIALIST claim of unreachability"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md carries three layered updates in one file (original REFUTED result -> 'NEEDS-SPECIALIST' update -> CORRECTION saying the NEEDS-SPECIALIST mark was premature); the top banner/status line and arc_verdict.json still read only the original REFUTED claim and do not mention the SL(5) o=5 extension or the walked-back NEEDS-SPECIALIST claim, so a reader of the verdict alone would miss the corrected state.", "where": "FINDINGS.md lines 1-9 (banner) vs lines 94-108 (CORRECTION)"},
+    {"kind": "MISSING_WITNESS", "detail": "the CORRECTION's claimed SL(5) o=5,m=1->k=2 result (gauge-fixed Newton, 'certified to ~23 digits, 3 independent methods') has no script in this arc's committed file list — the witness lives in a different, unsampled arc (B198)", "where": "FINDINGS.md CORRECTION paragraph"}
+   ],
+   "seat_note": "This is careful, adversarially-checked character-variety math with an honest self-refutation of an earlier fit, which is exactly the right process; but the FINDINGS.md has become a palimpsest of corrections-on-corrections whose headline claim in arc_verdict.json is now stale relative to the file's own later text. No physics content is claimed and none should be inferred."
+  },
+  {
+   "arc": "B158_omega_tower_bridge",
+   "source": "main",
+   "files_read": [
+    "frontier/B158_omega_tower_bridge/FINDINGS.md",
+    "frontier/B158_omega_tower_bridge/arc_verdict.json",
+    "frontier/B158_omega_tower_bridge/bridge_audit.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: PROVED — 'Omega is the ABELIANIZED SPECTRAL IMAGE of the metallic trace-map tower: the bundle-monodromy characteristic polynomials are reciprocal factors of the integer Omega family (L18 resolved at the spectral level).'",
+   "log_says": "2026-06-17: 'the Omega<->tower bridge audit (L18); resolves L18'; banked FINDINGS+reproducer, OPEN_LEADS L18 -> resolved, ledger V152, 3-test lock. Also referenced by B159's log entry summarizing the metallic spectral image finding.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "(p-2)(q-2) = -2(m+1) factorization identity for chi_Omega", "where": "bridge_audit.py check 1 (sympy symbolic Vieta identity)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy symbolic algebra, self-contained, prints PASS/FAIL"},
+    {"what": "6 explicit (a,m) lattice points realize metallic monodromy charpolys x phase as Omega reciprocal factors on the live cone (signature 1,3)", "where": "bridge_audit.py check 2, explicit Rmat/Gmat instantiation + numpy eigvalsh signature check", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "matrices are explicit, charpoly match and signature computed directly in the script"},
+    {"what": "shears A=S03, C=S23 commute -> no faithful mechanism", "where": "bridge_audit.py check 3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "trivial explicit 4x4 integer matrix check"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Single reproducer script combines derivation and verification in one file; no separate independent re-derivation or belt directory for this arc.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "the arc explicitly notes the honest scope limit itself: 'a 2-parameter reciprocal quartic can be tuned to any (monodromy-trace, phase-trace) pair, so the existence of such a factorization is not surprising in itself' — a self-flagged risk of overclaiming that the FINDINGS.md handles well by scoping the claim to lattice-point + signature specifics, not existence alone.", "where": "FINDINGS.md 'Honest scope' paragraph"}
+   ],
+   "seat_note": "Tight, self-contained sympy/numpy verification of a genuinely narrow claim (spectral-only correspondence, explicitly not a faithful group-theoretic mechanism); the firewall note that signature (1,3) is algebraic inertia, not spacetime, is correctly stated and should be watched for erosion elsewhere in the repo."
+  },
+  {
+   "arc": "B159_omega_class_dag",
+   "source": "main",
+   "files_read": [
+    "frontier/B159_omega_class_dag/FINDINGS.md",
+    "frontier/B159_omega_class_dag/arc_verdict.json",
+    "frontier/B159_omega_class_dag/verify_gate2_dag.py",
+    "frontier/B159_omega_class_dag/omega_strict_full_class_nodes_L4_L10.csv"
+   ],
+   "files_sampled": [
+    "frontier/B159_omega_class_dag/omega_strict_full_class_edges_L4_L10.csv (head 40 + tail 20 + wc -l = 1766 lines)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: PROVED — 'The class-graded Omega strict-full DAG (L4-L10) is independently verified: all 474 classes reciprocal, whole cone rooted at the single golden-times-phase seed.'",
+   "log_says": "2026-06-17: cross-session 'gate2 class DAG export' (nodes/edges CSV + 1.16MB JSON) ingested to audit/omega_gate2/ (gitignored) and independently verified before banking; ledger V153, 6-test lock.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "level counts (classes/histories/matrices) for L4-L10 match an externally-supplied export", "where": "verify_gate2_dag.py PART 1, reading the committed node/edge CSVs", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "the raw class/edge data originated as a cross-session handoff (not derived in this arc's own code) but the CSVs actually used are committed in the repo, so a stranger can rerun PART 1 checks against them"},
+    {"what": "the same L4-L7 class/edge structure, re-derived from scratch with an independent from-scratch counter (no shared code with the export)", "where": "verify_gate2_dag.py PART 2, importing frontier/B156/independent_recount.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained exact-integer det-based enumeration, cross-checked against the CSV per-class (history,matrix) counts and edge multiplicities; exact match reported"},
+    {"what": "L8-L10 class structure claimed to 'rest on verified ground' by extension from the L4-L7 match", "where": "FINDINGS.md 'What was verified' PART 2 paragraph", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "L8-L10 themselves are NOT independently re-enumerated in this arc (PART 2 defaults to MAXLEVEL=7); the claim that they 'rest on verified ground' leans on B156's separate re-derivation of the aggregate history totals, not a fresh recount of the per-class structure at L8-L10"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "PART 2 of verify_gate2_dag.py is a genuine from-scratch re-enumeration (imports B156's independent_recount.py, 'never touched the export pipeline') that reproduces the imported CSV data for L4-L7; this is real de-risking of an externally-sourced dataset, though it stops at L7 not L10.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "GITIGNORED_WITNESS", "detail": "the full 1.16MB transition-DAG JSON (the primary cross-session export artifact) is retained only under audit/omega_gate2/, described as gitignored; only its SHA256 and the derived node/edge CSVs are committed, so a stranger cannot re-fetch the original export, only the CSVs and the from-scratch recount", "where": "FINDINGS.md 'Provenance' paragraph"},
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "the claim that L8-L10 class structure 'rests on verified ground' is a step beyond what PART 2 actually recomputes (L4-L7 only); L8-L10 classes are verified only via the imported CSV's internal conservation checks (PART 1), not an independent recount", "where": "FINDINGS.md PART 2 closing sentence; verify_gate2_dag.py default MAXLEVEL=7"}
+   ],
+   "seat_note": "Solid internal-consistency and conservation checks plus a genuine from-scratch partial re-derivation; the extrapolation from 'L4-L7 matches exactly' to 'L8-L10 rests on verified ground' is a reasonable inference but is asserted, not independently recomputed at those levels, and the primary export JSON is not reproducible from committed files."
+  },
+  {
+   "arc": "B160_quasicrystal_bridge_corroboration",
+   "source": "main",
+   "files_read": [
+    "frontier/B160_quasicrystal_bridge_corroboration/FINDINGS.md",
+    "frontier/B160_quasicrystal_bridge_corroboration/arc_verdict.json",
+    "frontier/B160_quasicrystal_bridge_corroboration/INDEP_verify.py",
+    "frontier/B160_quasicrystal_bridge_corroboration/bronze_indep.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [
+    "frontier/B160_quasicrystal_bridge_corroboration/kappa_symbolic.py",
+    "frontier/B160_quasicrystal_bridge_corroboration/make_sure.py",
+    "frontier/B160_quasicrystal_bridge_corroboration/fib_spectrum.py",
+    "frontier/B160_quasicrystal_bridge_corroboration/silver.py"
+   ],
+   "claim_of_record": "verdict: PROVED — 'The transfer-matrix form of kappa = 2 + lambda^2 is pinned symbolically, an independent bronze trace map is derived, and kappa=-2 gives the parabolic figure-eight cusp.'",
+   "log_says": "2026-06-17: a fresh cross-session worker with NO repo access re-derived kappa=tr[A,B]=2+lambda^2 -> Fibonacci-Hamiltonian -> Cantor spectrum from scratch under 'deliver physics' pressure and converged on the same bridge-not-crossing firewall; banked with 6 reproducers, ledger V154, 5-test lock.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "generic Fricke identity tr[A,B]=x^2+y^2+z^2-xyz-2 on random SL(2) pairs", "where": "INDEP_verify.py check 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic exact-rational check on 6 random pairs, self-contained"},
+    {"what": "metallic transfer-matrix identity tr[A,B]=2+lambda^2, E-independent", "where": "INDEP_verify.py check 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic simplify on explicit 2x2 matrices"},
+    {"what": "bronze (m=3) trace map derived via Cayley-Hamilton, matches matrices numerically, conserves Fricke invariant symbolically, and its spectrum measure decays geometrically (~0.719)", "where": "bronze_indep.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained sympy+numpy script deriving the trace map and checking it against explicit transfer matrices and a finite-grid spectral-measure estimate"},
+    {"what": "kappa=-2 <=> lambda=2i gives a parabolic (non-central) commutator = figure-eight cusp", "where": "INDEP_verify.py check 5", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit sympy substitution and matrix identity check"},
+    {"what": "golden/silver/bronze spectral measure -> 0 at distinct geometric rates (0.759/0.779/0.719)", "where": "FINDINGS.md table; fib_spectrum.py, silver.py (listed only, not opened)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the two golden/silver scripts backing these specific numeric ratios were not opened in this pass; bronze's own script (bronze_indep.py) was opened and does compute its ratio numerically via a finite-grid transfer-matrix scan (not a rigorous measure-zero proof, itself flagged NUMERIC in the verification ledger table)"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Explicitly framed as an independent from-scratch re-derivation of an already-banked result (K007/K010/B107/etc.), written to not import the handoff scripts; genuine belt-and-suspenders corroboration of prior arcs.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "the golden/silver/bronze spectral-measure decay rates (0.759/0.779/0.719) and the kappa<2 Cantor-persistence question are numeric/grid estimates, honestly labeled NUMERIC or OPEN in the arc's own verification-ledger table, not exact proofs — this is disclosed, not hidden", "where": "FINDINGS.md 'Verification ledger' table"}
+   ],
+   "seat_note": "Explicitly firewalled condensed-matter/character-variety mathematics (a real, established quasicrystal Hamiltonian), with the physics content structural (spectral/group-theoretic), not a claimed measurable prediction; the arc's own honesty about what stays open (Cantor persistence off the real axis, kappa=-2 'encoding' claim explicitly denied) is a good sign."
+  },
+  {
+   "arc": "B161_cancellation_locus_stratification",
+   "source": "main",
+   "files_read": [
+    "frontier/B161_cancellation_locus_stratification/FINDINGS.md",
+    "frontier/B161_cancellation_locus_stratification/arc_verdict.json",
+    "frontier/B161_cancellation_locus_stratification/cancellation_stratification.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: PROVED — 'The cancellation locus kappa=2 is codimension-1, measure-zero and spectrally trivial, while non-cancellation is generic and fractured; \"forced/empty\" is retired.'",
+   "log_says": "Only a generic 2026-07-01 catch-up entry ('B161-B325 ... firewalled, zero CLAIMS.md promotions') and a later 2026-08-12 entry about a downstream correction to speculations/S034 citing B161 as one of the two sources for a corrected wording ('generically does not / distance one', retiring 'cannot cancel').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "{kappa=2} is a codim-1 hypersurface (grad kappa != 0 at a sample point)", "where": "cancellation_stratification.py R1(a)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy symbolic gradient evaluation"},
+    {"what": "kappa is free on the phi_m fixed locus for m=2,4 (Groebner elimination ideal empty)", "where": "cancellation_stratification.py R1(b)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit lex Groebner basis computed and inspected for k-only generators in the script"},
+    {"what": "commuting SL(2) pairs are measure-zero (0/50000) and kappa spans a continuum", "where": "cancellation_stratification.py R1(c)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct numpy random sampling, N=50000, printed fraction and std"},
+    {"what": "kappa=2 (lambda=0) full AC band measure=4; kappa>2 spectral measure shrinks toward 0", "where": "cancellation_stratification.py R2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "finite-grid transfer-matrix trace scan, self-contained"},
+    {"what": "B156 endpoint entropy 0 (commuting cone) vs log 2 (wall-avoiding)", "where": "FINDINGS.md Result 2(c), cited as '[proved, cited]'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "explicitly imported from a separate arc (B156), not recomputed here; not sampled in this pass"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "FINDINGS.md explicitly states the script is 're-derived fresh (does NOT transcribe B130/B156)' and deliberately avoids the sp.solve method flagged elsewhere as buggy, using kappa-elimination + Jacobian rank instead — a genuine independent re-derivation of a prior result (B130's kappa-free claim) with a different method.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A carefully scoped, self-aware piece of math (explicit vacuity/null-test control included) that correctly separates 'the vacuum value is unconstrained' from 'the trivial value is atypical' and refuses to overclaim 'forced/empty' — the kind of internal discipline this seat wants to see, with no observable physics claimed."
+  },
+  {
+   "arc": "B162_kappa_sweep",
+   "source": "main",
+   "files_read": [
+    "frontier/B162_kappa_sweep/FINDINGS.md",
+    "frontier/B162_kappa_sweep/arc_verdict.json",
+    "frontier/B162_kappa_sweep/kappa_sweep.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: PROVED — 'Across the foliated kappa-sweep, kappa=2 is the unique fiber with positive-measure spectrum; every other kappa gives a zero-measure real or complex set.'",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "self-validation V1-V4 (Hermitian sanity, BC-robustness, size convergence, chiral symmetry) for the direct finite-chain diagonalization method", "where": "kappa_sweep.py, printed checks", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numpy eigenvalue computations with printed pass/fail and numeric tolerances"},
+    {"what": "kappa=2 (lambda=0) gives full-band measure ~4.000; kappa>2 gives Cantor-dust measure shrinking to 0.097 at lambda=2", "where": "kappa_sweep.py band_measure_1d finite-grid scan", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct finite-grid transfer-matrix trace evaluation, self-contained"},
+    {"what": "kappa<2 (lambda=i*mu) spectrum is 'thin' (2D box-count area shrinks with grid refinement) and lift-off max|Im E| ~ 0.91*mu", "where": "kappa_sweep.py area_2d function + printed loop", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit box-counting on finite eigenvalue sets from a finite Fibonacci-word Hamiltonian; explicitly caveated in FINDINGS.md as NOT a proof of true Cantor structure off the real axis"},
+    {"what": "kappa=-2 parabolic commutator = figure-eight cusp", "where": "kappa_sweep.py final symbolic check, imported reasoning from B160", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy symbolic re-check, same identity as B160's INDEP_verify.py"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Consolidates and re-runs the same symbolic kappa=-2 check already computed independently in B160's INDEP_verify.py, plus new numeric spectral-measure sweeps; the arc explicitly marks the kappa<2 'Cantor-persistence' as open/unproven, a good honesty signal, not a belt-directory recompute.",
+   "absence_claims": [
+    {"quote": "there is no ground-truth theorem off the real axis (the Damanik–Gorodetski horseshoe covers only the Hermitian kappa>2 regime)", "where": "FINDINGS.md 'Honest scope' section"},
+    {"quote": "Whether the kappa=-2 complex spectrum encodes the figure-eight hyperbolic geometry is not tested and not claimed", "where": "FINDINGS.md 'Honest scope' section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NO_TEST", "detail": "the log_index for this arc is null (not in the progress log at all), unlike its sibling arcs B160/B161; the finding is only traceable via its own FINDINGS.md/arc_verdict.json, not corroborated by any external progress-log entry sampled in this pass", "where": "packet log_index field = null"}
+   ],
+   "seat_note": "A numerically self-validated sweep (four internal sanity checks) with an explicitly honest scope statement about what remains unproven off the real axis; physics content is structural condensed-matter spectral theory, correctly firewalled from any fundamental-physics claim."
+  }
+ ]
+}

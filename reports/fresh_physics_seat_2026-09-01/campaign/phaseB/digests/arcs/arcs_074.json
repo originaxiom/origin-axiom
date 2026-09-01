@@ -1,0 +1,389 @@
+{
+ "batch": "arcs_074",
+ "arcs": [
+  {
+   "arc": "B778_cleanup",
+   "source": "main",
+   "files_read": [
+    "frontier/B778_cleanup/FINDINGS.md",
+    "frontier/B778_cleanup/PREREGISTRATION.md",
+    "frontier/B778_cleanup/arc_verdict.json",
+    "frontier/B778_cleanup/partial_results.json",
+    "frontier/B778_cleanup/cells/CL-W5100/compute.py (sampled)",
+    "frontier/B778_cleanup/cells/CL-W5100/output.txt",
+    "frontier/B778_cleanup/cells/CL-W5100/results.json",
+    "frontier/B778_cleanup/cells/CL-DARKHYP/compute.py",
+    "frontier/B778_cleanup/cells/CL-DARKHYP/output.txt",
+    "frontier/B778_cleanup/cells/CL-DARKHYP/results.json",
+    "frontier/B778_cleanup/cells/CL-W5139/compute.py (sampled)",
+    "frontier/B778_cleanup/cells/CL-W5139/output.txt",
+    "frontier/B778_cleanup/cells/CL-W5139/results.json",
+    "frontier/B778_cleanup/cells/CL-LATIN/CC_GALOIS_CROSSCHECK.md",
+    "frontier/B778_cleanup/cells/CL-LATIN/compute.py (sampled)",
+    "frontier/B778_cleanup/cells/CL-LATIN/output.txt",
+    "frontier/B778_cleanup/cells/CL-LATIN/results.json",
+    "frontier/B778_cleanup/cells/CL-H133/compute.py",
+    "frontier/B778_cleanup/cells/CL-H133/output.txt",
+    "frontier/B778_cleanup/cells/CL-H133/results.json",
+    "frontier/B778_cleanup/cells/CL-W4115/compute.py",
+    "frontier/B778_cleanup/cells/CL-W4115/output.txt",
+    "frontier/B778_cleanup/cells/CL-W4115/results.json",
+    "frontier/B778_cleanup/cells/CL-W3082/output.txt"
+   ],
+   "files_sampled": [
+    "frontier/B778_cleanup/cells/CL-W5100/compute.py",
+    "frontier/B778_cleanup/cells/CL-W5139/compute.py",
+    "frontier/B778_cleanup/cells/CL-LATIN/compute.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The cleanup wave resolved 7/7 cells: the N = p^2 dark-hyperbola law proved for all p, decorative checks stripped, and H133's death hardened.\"",
+   "log_says": "13 entries: opened as owner-directed 'fix everything'; completed 7/7 by direct computation (agent quota spent), a cross-arc unification found — but that unification was RETRACTED at B784 the same day; B784 also flagged 'B781, B778 supporting facts: OVERSTATED, corrections pending', later resolved by in-arc CORRECTIONS section; Review 30/31 log the partial-then-complete history and B1202 (2026-08-28) cites 'B775/B778 already banked the all-p symbolic proof' as an instance of the 'finished-but-forgotten' pattern (a register said open three weeks after the proof was actually banked).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "N=p^2 dark-hyperbola law: |T| spectrum exactly {0,1,sqrt(p),p}, proved all odd p by Gauss-sum diagonalization; exact-integer counts verified at p=3,5,7,11,13,17,19",
+     "where": "cells/CL-DARKHYP/compute.py, output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "compute.py is committed, self-contained (numpy+sympy), reruns deterministically; symbolic completed-square identities checked exactly in sympy; exact integer spectrum via cyclotomic-polynomial reduction (zero floats) cross-checked against an independent valuation classifier at 7 levels, plus a float-based independent adversarial check recorded in partial_results.json's upheld verify_note."
+    },
+    {
+     "what": "genus(A_3)=41 for the m=3 A-polynomial curve (metallic sequence 3,1,41)",
+     "where": "cells/CL-W5139/compute.py, output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "compute.py rebuilds F0, the (Z/2)^3 cover, and B=20 via an in-cell order estimator validated against three control functions of known divisor and a product-character self-consistency check; reruns in ~71-75s to reproduce genus=41 byte-identically per the arc's own claim."
+    },
+    {
+     "what": "D0 convergence at V=2 (golden 0.4562/0.4562 reproduced, silver 0.4645/0.4645 reproduced) after stripping a decorative parity check",
+     "where": "cells/CL-W5100/compute.py, output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "grid-free band-edge tracker with brute-force validation (n climbs to q, never exceeds); D0 sequence converges to within stated tolerance for both seeds, matching prior pins."
+    },
+    {
+     "what": "CL-H133: Z4=Tr rho(A1)=0 is a genuine structural zero (both parity sectors vanish, not a cancellation)",
+     "where": "cells/CL-H133/compute.py, output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "in-cell independent recompute of the E6 level-k Weil rep monodromy and its theta eigenspace decomposition; commutator/identity/gate residuals all ~1e-13-1e-17, both tr_odd and tr_even numerically 0 at k=4."
+    },
+    {
+     "what": "CL-W4115: essential adjoint content [3,21,108,525,2523] (not the previously-fabricated '7,815'); field-disjointness of chord/adjoint/charge towers (disc 12/21/5)",
+     "where": "cells/CL-W4115/compute.py, output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy resultant/discriminant computation, deterministic and re-runnable; the B784 audit later withdrew the content-sequence *argument* itself while leaving the field-disjointness mechanism and verdict standing (see FINDINGS 'B784 CORRECTIONS')."
+    },
+    {
+     "what": "CL-W3082: Sylow_2(Cl(-8899))=Z/2 (h=14=2*7, 2-rank=1, 4-rank=0)",
+     "where": "cells/CL-W3082/output.txt (results.json summarized in partial_results.json)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "unconditional form-enumeration class number plus PARI/gp cross-check, both recorded in output.txt; the loaded positive (Kim H^3 bridge) is explicitly NOT computed and is labeled NEEDS-SPECIALIST, so the EXTERNAL verdict itself rests on an admitted absence."
+    },
+    {
+     "what": "CL-LATIN: the amplitude set {A1,A2,A3} is not Galois-closed (minpoly 7x^3-7x^2+1 has roots {A1,A2,-A3}), so the non-current 2x2 Latin block is measured, not forced",
+     "where": "cells/CL-LATIN/compute.py, output.txt, results.json, CC_GALOIS_CROSSCHECK.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "in-cell exact/high-precision (mpmath 60 dps) rebuild of the E6_2 S-matrix and an explicit non-Latin 1-parameter family; two of the arc's own testers (cell + cc) share one premise (|.| is not Galois-equivariant) per the B784 correction narrowing the 'two independent routes' claim to 'two ways on one mechanism'."
+    },
+    {
+     "what": "cross-arc 'non-Galois motif' unifying P2W2-MIRROR / CL-LATIN / B779-R1",
+     "where": "FINDINGS.md 'COMPLETION' section, RETRACTED inline",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the arc's own text records this as retracted the same day by B784: '|.| is not a field automorphism' is trivially true of any field and not object-specific; the individual per-cell facts stand but the unifying claim does not."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No separate verification/ directory; partial_results.json carries in-line 'upheld'/'verify_note' fields for CL-DARKHYP and CL-W3082 (an adversarial-style re-check performed in the same pass), while CL-W5139/W5100/H133/W4115/LATIN were cc-self-verified (deterministic re-run + hand-check), a weaker but still re-run-based belt, honestly labeled as such in FINDINGS.md.",
+   "absence_claims": [
+    {
+     "quote": "the arithmetic-CS bridge to Kim's H^3 action is uncomputed, self-flagged NEEDS-SPECIALIST in LAW_MAP",
+     "where": "frontier/B778_cleanup/PREREGISTRATION.md:43-44 (also cells/CL-W3082/output.txt:41-45)"
+    },
+    {
+     "quote": "'adjoint 7,815' is NOT reproduced by any natural content of the essential adjoint t^2-5t+1 ... FABRICATED -> stripped.",
+     "where": "frontier/B778_cleanup/cells/CL-W4115/compute.py:8-9"
+    },
+    {
+     "quote": "CL-W4115: strip the fabricated \"adjoint 7,815...\" string ... Never ran. / CL-LATIN ... Never ran.",
+     "where": "frontier/B778_cleanup/FINDINGS.md:21-24"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "The 'cross-arc unification' claim (non-Galois motif across MIRROR/CL-LATIN/B779-R1) is retracted inline within FINDINGS.md itself, so the retraction IS propagated to the primary document; however arc_verdict.json's claim_one_line does not mention the retraction at all (it only covers the 7/7 resolution), so a reader of the verdict file alone would not learn about it.",
+     "where": "frontier/B778_cleanup/FINDINGS.md:49 vs arc_verdict.json"
+    },
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "The originally-banked W4-115c headline contained a fabricated 'adjoint 7,815' content string that this cleanup cell had to strip; this confirms fabricated/asserted numbers had previously entered a supposedly-computed claim chain undetected until a dedicated cleanup pass caught it.",
+     "where": "frontier/B778_cleanup/cells/CL-W4115/compute.py:6-9"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The B784 audit narrowed CL-LATIN's 'two independent routes' to 'cross-checked two ways on ONE mechanism' since both share the |.| non-Galois premise — a double-counting correction that stands in the FINDINGS text but the results.json/CC_GALOIS_CROSSCHECK.md files retain the original 'two independent routes' language uncorrected.",
+     "where": "frontier/B778_cleanup/FINDINGS.md:59 vs cells/CL-LATIN/CC_GALOIS_CROSSCHECK.md:19"
+    }
+   ],
+   "seat_note": "The genuinely computed cells (DARKHYP, W5139, W5100, H133) are solid exact/near-exact math with reproducible witnesses; the arc is also a useful case study in the corpus's own error-correction discipline, since it caught and stripped a fabricated numeric string (CL-W4115) that had survived into a prior 'RESOLVED-B' verdict. All content is pure number theory / representation theory (Gauss sums, character varieties, class groups) with no physical observable named anywhere in the arc."
+  },
+  {
+   "arc": "B779_convergence_probe",
+   "source": "main",
+   "files_read": [
+    "frontier/B779_convergence_probe/CC_GATE_NOTE.md",
+    "frontier/B779_convergence_probe/R1_galois_orbits.md",
+    "frontier/B779_convergence_probe/R2_mixing_crosscheck.md",
+    "frontier/B779_convergence_probe/R2_mixing_crosscheck.py",
+    "frontier/B779_convergence_probe/R3_scattering_assessment.md",
+    "frontier/B779_convergence_probe/R5_sl3_assessment.md",
+    "frontier/B779_convergence_probe/R6_maass_assessment.md",
+    "frontier/B779_convergence_probe/R6_maass_assessment.py",
+    "frontier/B779_convergence_probe/R7_functor_assessment.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false in the packet; CC_GATE_NOTE.md functions as the arc's summary document instead)",
+   "log_says": "1 entry: 'cc3 reported their state intact and delivered the R1-R7 convergence roadmap. Gated and folded under B779 (reserved for them).' The log also records the cross-arc 'non-Galois motif' (which included B779 R1) as later RETRACTED at B784.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "R1: Galois orbits on the F2^3 closing torsor — V4 acts with 2 orbits of size 4, orbit label = theta-coordinate",
+     "where": "R1_galois_orbits.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "the orbit computation is stated and its logic given in prose/table form (translation action on F2^3), but no compute.py/script is committed for R1 — a stranger cannot re-run it, only re-derive it by hand from the description; CC_GATE_NOTE.md states 'cc re-computed it exactly' but that recomputation is not itself a committed artifact distinct from the prose."
+    },
+    {
+     "what": "R2: six 'golden identities' connecting mixing number p=1/(phi*sqrt5) (B753) to torsion data tau_geo=-3, tau_dyn=-5 (B425)",
+     "where": "R2_mixing_crosscheck.py, R2_mixing_crosscheck.md",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "the six sympy asserts are genuinely computed and reproducible, but tau_geo=-3 and tau_dyn=-5 are hardcoded literals imported from B425 ('# geometric torsion from B425', '# dynamical torsion from B425') not recomputed in this cell; the identities are largely algebraic tautologies once p's definition and the two imported constants are fixed (e.g. sigma(p)=1-p follows immediately from p's Galois norm structure), so 'cross-check PASSED' overstates independence — it is confirming self-consistency of a definition, not an independent empirical convergence."
+    },
+    {
+     "what": "R3: continuous scattering matrix of m004 is generic (phi(s)=Lambda_K(s-1)/Lambda_K(s)), m004-specific arithmetic lives only in the discrete Maass spectrum at level (8)",
+     "where": "R3_scattering_assessment.md",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "explicitly an assessment of prior arcs (B737, B739), not a new computation in this arc; no code committed here, cites results banked elsewhere."
+    },
+    {
+     "what": "R5: SL(3) theta-coupling norm sqrt(3), coupling fraction 15/32, 5 cubic Hitchin directions transverse to V0",
+     "where": "R5_sl3_assessment.md",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "assessment of B71/B99/B101/B759/B769, no code in this arc."
+    },
+    {
+     "what": "R6'/R7: individual Maass eigenvalues at level (8) and the functor Loc(m004)->Hilb",
+     "where": "R6_maass_assessment.md, R6_maass_assessment.py, R7_functor_assessment.md",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "yes",
+     "why": "the arc is honest that these are BLOCKED — the committed R6_maass_assessment.py only computes length spectrum (via SnapPy) and Weyl asymptotics, explicitly stating 'no implementation exists in this repo' for the actual Maass eigenvalues; R7 is stated as an open conjecture with no code at all."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory, no independent re-run recorded for any of R1-R7; this is a self-contained assessment/roadmap document produced by 'cc3' and folded in by 'cc' with a gate note, not itself re-verified.",
+   "absence_claims": [
+    {
+     "quote": "Sage/Hejhal-class machinery unavailable.",
+     "where": "frontier/B779_convergence_probe/R3_scattering_assessment.md:89 (quoting B735)"
+    },
+    {
+     "quote": "No implementation exists in this repo or in standard SnapPy/SageMath.",
+     "where": "frontier/B779_convergence_probe/R6_maass_assessment.md:71"
+    },
+    {
+     "quote": "For weight-0 Maass forms (the target): ... No implementation exists in this repo.",
+     "where": "frontier/B779_convergence_probe/R6_maass_assessment.py:106-108"
+    },
+    {
+     "quote": "individual eigenvalues are NOT COMPUTED (R6' wall)",
+     "where": "frontier/B779_convergence_probe/R7_functor_assessment.md:29"
+    },
+    {
+     "quote": "No THEOREM connecting them",
+     "where": "frontier/B779_convergence_probe/R7_functor_assessment.md:61"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "R2's six 'golden identities' are largely algebraic consequences of the mixing number's own definition once the two literal torsion values -3 and -5 are fixed by hand; presenting them as a 'cross-check' between two independently-computed arcs (B753 quantum-topology, B425 classical-topology) risks reading definitional self-consistency as an empirical convergence — a type match (both quantities live in the same golden/Eisenstein number-theoretic ecosystem) is being read as physical significance ('the two-column law... appearing inside the mixing matrix itself').",
+     "where": "frontier/B779_convergence_probe/R2_mixing_crosscheck.py:41,50"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "R1's Galois-orbit computation and R3/R5's assessments have no committed script in this arc; the numbers and orbit structure are asserted in prose/markdown tables with no reproducible code path in this directory (they may exist upstream in B759/B766/B769/B737/B739, which this seat did not read in this pass).",
+     "where": "frontier/B779_convergence_probe/R1_galois_orbits.md, R5_sl3_assessment.md"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "R1's own writeup still frames itself partly around the now-retracted 'non-Galois motif' ('this is now the THIRD independent appearance of the same structural motif'), and while CC_GATE_NOTE.md carries the B784 retraction inline, R1_galois_orbits.md itself contains no retraction marker even though its content fed the retracted motif.",
+     "where": "frontier/B779_convergence_probe/CC_GATE_NOTE.md:36 vs R1_galois_orbits.md (no retraction note)"
+    }
+   ],
+   "seat_note": "This is a self-assessed roadmap, not a verified result: two genuinely new but under-witnessed computations (R1, R2), two 'already banked elsewhere' pointers (R3, R5) not re-verified here, and an honestly-declared wall (R6'/R7) that blocks the entire functor-construction program pending unavailable Hejhal-class software. No measurable prediction is made anywhere in this arc; it is exploratory structural bookkeeping."
+  },
+  {
+   "arc": "B780_galois_reversal_gate",
+   "source": "main",
+   "files_read": [
+    "frontier/B780_galois_reversal_gate/FINDINGS.md",
+    "frontier/B780_galois_reversal_gate/PREREGISTRATION.md",
+    "frontier/B780_galois_reversal_gate/arc_verdict.json",
+    "frontier/B780_galois_reversal_gate/compute.py",
+    "frontier/B780_galois_reversal_gate/output.txt",
+    "frontier/B780_galois_reversal_gate/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "RETRACTED — \"The c-versus-theta gate's verification and its 8-to-4 enumeration halving are retracted as vacuous: the signatures were hardcoded literals, not computed booleans.\"",
+   "log_says": "10 entries: originally banked as 'the Galois-vs-reversal gate built + verified (Phase-3's highest-value construction)'; the B784 audit (same day) retracted it as VACUOUS ('the signature tuples were literals and classify() mapped them by definition; nothing could fail'); the c-odd/theta-odd conflation is subsequently named a 'standing recurring class' (B780/B784/C21) and recurs as a named failure-mode reference at least three more times through B818, B868, and B1009 (2026-08-10), where an incoming cc3 claim is refused specifically because it rests on 'the repo's named recurring theta-conflation (B780 retracted...)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "S1/S2/S3 signature facts: theta trivial at SL(2) (tr(AB)=tr(BA)), c non-trivial (conj(2-omega)!=2-omega), theta acts by the permutation (1 4)(2 5)(3 8)(6 7) at SL(3), c is diagonal, c has a solo flip-axis (T4) and theta does not",
+     "where": "compute.py lines 22-72, output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "these individual sympy computations (trace symmetry, complex conjugation inequality, permutation involution check) are genuinely computed and reproducible, and the arc's own retraction explicitly affirms these upstream facts 'stand' and were 'already banked elsewhere' (B759/B766/B769)."
+    },
+    {
+     "what": "the 'gate' verdict itself (classify() correctly separates c from theta and rejects the swap) and the resulting 8->4 enumeration halving",
+     "where": "compute.py lines 76-133 (c_sig=(True,True,True), theta_sig=(False,False,False) are literal tuples fed into classify())",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes (reproduces the vacuous result, not a real theorem)",
+     "why": "the arc's own arc_verdict.json and FINDINGS.md retraction state plainly that c_sig/theta_sig are hardcoded literals rather than being derived from S1_discriminates/S2_discriminates/S3_discriminates (which ARE computed booleans, but never feed into classify()), so 'the gate rejects the swap' cannot fail by construction — the code runs and reproduces RESOLVED-A every time, but the result is circular, not a genuine test."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The retraction itself is the belt here: a subsequent audit (B784) re-read the compute.py logic (rather than re-running numbers) and caught that classify()'s inputs were disconnected from the computed discriminator booleans — a code-review-style catch, not a re-computation.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "classify(*c_sig) and classify(*theta_sig) are called on literal ground-truth tuples that were never derived from the S1/S2/S3 booleans computed above them in the same file; the 'swap fails' test (line 97: swap_c_in_theta_slot = classify(*c_sig)) is testing the SAME literal against the SAME classify() function that trivially maps it by definition — no computed fact could ever make the gate fail, which is exactly the vacuity the arc's own retraction names.",
+     "where": "frontier/B780_galois_reversal_gate/compute.py:88-104"
+    },
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The original (pre-retraction) FINDINGS.md and results.json headline claimed the gate 'halves the Phase-3 correspondence enumeration 8->4', a phenomenological/interpretive claim about which correspondence 'survives'; the actually-computed content (S1-S3 discriminating facts) supports only that c and theta are distinguishable objects, not that any enumeration is thereby halved — this gap is exactly what B784 retracted.",
+     "where": "frontier/B780_galois_reversal_gate/FINDINGS.md:39-44 (original, pre-retraction text) vs results.json 'RETRACTED_B784' field"
+    }
+   ],
+   "seat_note": "A clean example of the corpus's own error-correction process working as intended: the vacuous circular logic was caught and retracted the same day, and the retraction is prominently placed at the top of FINDINGS.md and mirrored in arc_verdict.json's verdict field (RETRACTED) and claim_one_line, so a reader checking only the verdict file gets the corrected picture. No physical observable is or was ever named in this arc — it is pure group-theoretic bookkeeping about which mathematical involution ends up labeled 'observer' versus 'geometry' in an interpretive scheme, decided in a separate priced axiom outside Gate 5-Q."
+  },
+  {
+   "arc": "B781_m003_sister",
+   "source": "main",
+   "files_read": [
+    "frontier/B781_m003_sister/FINDINGS.md",
+    "frontier/B781_m003_sister/PREREGISTRATION.md",
+    "frontier/B781_m003_sister/arc_verdict.json",
+    "frontier/B781_m003_sister/compute.py",
+    "frontier/B781_m003_sister/output.txt",
+    "frontier/B781_m003_sister/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"m004 is uniquely selected over its V4-sharing sister m003 by monodromy trace 3 (golden phi^2) and torsion-free H1, closing the V4 residual.\"",
+   "log_says": "5 entries: banked 2026-07-24 as 'the m003 sister-distinction closed (the V4 residual, the #1 falsifier fully defused)'; the SAME-DAY B784 audit flagged 'B781, B778 supporting facts: OVERSTATED, corrections pending' — resolved in-arc by the appended 'AUDIT UPGRADE (B784)' note; Review 31 (2026-07-25) confirms 'm003 sister-distinction (B781, V4 falsifier defused via |H1|=|2-tr|)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "H1(m004)=Z, H1(m003)=Z/5+Z (SnapPy homology)",
+     "where": "compute.py lines 5-8, output.txt line 3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed via snappy.Manifold(n).homology() with a hardcoded fallback string if snappy import fails; the output.txt shows the real snappy run succeeded (plink warning present, real values printed)."
+    },
+    {
+     "what": "m004 monodromy RL has trace 3, char poly x^2-3x+1 (golden phi^2), |2-tr|=1 => H1=Z",
+     "where": "compute.py lines 10-15",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "direct sympy matrix trace/charpoly computation, exact."
+    },
+    {
+     "what": "m003's monodromy trace is -3 (as opposed to the other candidate +7 consistent with |2-tr|=5)",
+     "where": "compute.py line 16 (tor3 = 5 hardcoded; tr3_candidates computed as [-3,7]) and FINDINGS.md's inline comment 'sister = -3'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no (in this cell)",
+     "why": "the compute.py script itself only narrows to the set {-3,7} via arithmetic and then the print statement asserts '(sister = -3)' without deriving which candidate is correct; FINDINGS.md's own 'AUDIT UPGRADE (B784)' section admits this directly: 'cc had only asserted -3 by convention, with the honest disjunction {-3,7}... B784 audit COMPUTED it: m003's monodromy is -RL, trace -3, established two ways' — but that computation is NOT in this arc's compute.py/output.txt/results.json, which still print/store the unproven assertion unmodified."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; the correcting computation (proving m003's monodromy is genuinely -RL) is described as having happened in the separate B784 audit arc, not committed here, so this arc's own files still contain the originally-asserted (not fully derived) trace value.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The committed compute.py/output.txt/results.json determine m003's trace only up to the two-element set {-3,7} (from |2-tr|=5) and then simply assert 'sister = -3' in a comment/print without deriving it; the arc's headline table nonetheless states 'monodromy trace ... -3, COMPUTED' as if derived here, when FINDINGS.md's own later section admits the derivation happened elsewhere (B784) and was not backfilled into this arc's committed script.",
+     "where": "frontier/B781_m003_sister/compute.py:16-21 vs FINDINGS.md:14,43"
+    },
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "FINDINGS.md documents the audit correction in its own 'AUDIT UPGRADE' section (so the FINDINGS text is not unmarked), but the underlying results.json and compute.py were never updated to reflect the corrected derivation — they still encode/print the pre-audit assertion as if final, so a reader of results.json alone (without FINDINGS.md's addendum) sees the unresolved candidate set silently collapsed to -3.",
+     "where": "frontier/B781_m003_sister/results.json:9 (\"m003_torsion_forces_trace_in\": [-3, 7]) alongside headline claiming trace=3 selection is settled"
+    }
+   ],
+   "seat_note": "The core distinguishing mechanism (|H1 torsion|=|2-tr(M)|, m004 uniquely trace 3 with torsion-free H1) is solid exact arithmetic/topology, and the arc's own text is unusually candid that its m003-trace claim outran its own computation until a later audit filled the gap — but that gap-fill was never backported into this arc's committed artifacts. Pure knot/manifold topology; no physical observable is named."
+  },
+  {
+   "arc": "B782_choice_incomputability",
+   "source": "main",
+   "files_read": [
+    "frontier/B782_choice_incomputability/FINDINGS.md",
+    "frontier/B782_choice_incomputability/PREREGISTRATION.md",
+    "frontier/B782_choice_incomputability/arc_verdict.json",
+    "frontier/B782_choice_incomputability/compute.py",
+    "frontier/B782_choice_incomputability/output.txt",
+    "frontier/B782_choice_incomputability/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The measurement torsor's 8 closings carry a free transitive (Z/2)^3-action (verified exhaustively), so it admits no equivariant section: no process internal to the object's symmetry group computes the choice of closing.\"",
+   "log_says": "5 entries: banked 2026-07-24 as 'the choice-incomputability wall minted (the capstone Phase-4 wall)'; Review 31 confirms it among the 'headline results' of Phase-2/Phase-4 closure; a later lead (L160, B1014/2026-08-12) notes one open compatibility question (theta <-> sqrt(-7) + B782 compatibility) still pending as of that later window.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the (Z/2)^3 translation action on itself (8 elements) is free and transitive, with zero G-fixed points",
+     "where": "compute.py lines 6-19, output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exhaustive brute-force check over all 8x8=64 (g,x) pairs via itertools.product, fully committed and re-runnable; the underlying group-theory fact (a group acting on itself by translation/the regular representation is always free and transitive) is elementary and true for any group, so the 'computation' is a correct but non-surprising verification of a structural triviality once the (Z/2)^3-on-itself model is assumed."
+    },
+    {
+     "what": "identification of 'the measurement torsor' (quantum-measurement outcome selection) with this abstract (Z/2)^3 regular G-set built from (c, theta, gamma5)",
+     "where": "FINDINGS.md and PREREGISTRATION.md, citing C20/B766 as the source of the torsor structure",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this arc does not itself construct or verify that the physical measurement-outcome set is genuinely a free (Z/2)^3-torsor — it imports that structure from B766/C20 (not read in this pass) and only computes the (elementary) group-theoretic consequence given that premise."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory or independent re-run recorded; single compute.py run, no adversarial check.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The arc firewalls its own interpretive content correctly in text ('the observer/Born interpretation is priced to C18, firewalled... No consciousness claim'), but the underlying move — reading an abstract regular-action-has-no-fixed-point fact (true for ANY nontrivial group acting on itself, not special to this object) as 'the object structurally cannot choose, so an observer is needed' — is exactly a dimension/structure-type coincidence being offered as physical necessity; the group-theoretic content computed here (freeness of a regular action) is a tautology once the (Z/2)^3-torsor premise (imported from B766/C20) is granted.",
+     "where": "frontier/B782_choice_incomputability/FINDINGS.md:14-25"
+    }
+   ],
+   "seat_note": "The arc is honest and well-disciplined about firewalling interpretation from the bare math (Gate 5-Q explicitly separates the no-go theorem from any observer/consciousness reading), which is good practice; but the computed content itself is a textbook triviality (a group's regular action on itself is always free and transitive) dressed as a 'capstone wall,' and its physical weight depends entirely on an imported premise (that measurement outcomes really form this torsor) not reverified here. No observable or numerical prediction appears anywhere in this arc."
+  }
+ ]
+}

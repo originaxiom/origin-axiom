@@ -1,0 +1,357 @@
+{
+ "batch": "arcs_008",
+ "arcs": [
+  {
+   "arc": "B150_class_s_coincidence",
+   "source": "main",
+   "files_read": [
+    "frontier/B150_class_s_coincidence/FINDINGS.md",
+    "frontier/B150_class_s_coincidence/README.md",
+    "frontier/B150_class_s_coincidence/arc_verdict.json",
+    "frontier/B150_class_s_coincidence/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The SL(2,Z) trace-map action on the Fricke character variety IS the N=2* class-S S-duality mapping-class action; tau-modularity and magnitude are only rhymes.",
+   "log_says": "B995 (2026-08-09) folds B150 into a 'common base' (Sigma_1,1 with SL(2,Z)) alongside A2/A3/A4 and B277; PROGRESS_2026-Q2 2026-06-10 entry matches FINDINGS verbatim; Review 32 (2026-07-29) flags B150 as 'primary-source verified, then immediately firewalled rather than pursued' — a candidate for further work, not actioned.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "kappa = tr[A,B] = lambda + lambda^-1 exactly (convention match between B148 kappa-coords and Allegretti-Shan's Fricke cubic a,b,c=-tr)",
+     "where": "frontier/B150_class_s_coincidence/probe.py lines 60-72 (re-imports B148 verify_* functions); FINDINGS.md sec1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "probe.py imports and re-runs B148's verify_metallic_trace_symbolic / verify_dehn_twists_preserve_kappa / verify_markov_slice_and_two_states; symbolic sympy checks, committed"
+    },
+    {
+     "what": "The physics identification itself (SL(2,Z) trace-map action IS the N=2* S-duality MCG action on the character variety, not merely on tau)",
+     "where": "FINDINGS.md sec1/sec3 comparison table, citing arXiv:2411.17378 (Allegretti-Shan), arXiv:0907.3987 (GMN), arXiv:0711.1579/0711.1727 (Cantat-Loray)",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "the FORCED tags rest entirely on cited prose from external papers, not on anything computed in this repo; the probe only re-asserts B148's anchor numbers and hard-codes the COMPARISON table's tags/text as Python dict literals — a stranger cannot verify the tag assignments without independently reading the four cited arXiv papers"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "probe.py imports B148's verification functions and re-runs them (a genuine re-check of B148's arithmetic anchors), but does not independently compute or test the class-S physics identification, which is asserted from cited literature.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The 'FORCED' tags for the group-theoretic identification with N=2* S-duality rest on quoting Allegretti-Shan's prose that the duality acts 'on the character variety itself ... not merely on the coupling tau' — this is the arc's own stated method (a 'binding distinction' to police exactly this risk), but the underlying evidence is still literature-cited convention-matching (same cubic, same group name, same generators) rather anything computed here; the arc's own honesty language ('honest nuance ... the literature does not single out the metallic family') concedes this.",
+     "where": "frontier/B150_class_s_coincidence/FINDINGS.md lines 61-64, 68-79"
+    }
+   ],
+   "seat_note": "This is a well-disciplined reading/scoping exercise that explicitly firewalls itself from claiming physical magnitude (states plainly 'even the FORCED part is mathematics ... it does not cross to physical magnitude'); the FORCED tags are literature-sourced identifications of symmetry structure, not new computation, and the arc is honest about that boundary throughout."
+  },
+  {
+   "arc": "B151_firewall_confirmation",
+   "source": "main",
+   "files_read": [
+    "frontier/B151_firewall_confirmation/FINDINGS.md",
+    "frontier/B151_firewall_confirmation/README.md",
+    "frontier/B151_firewall_confirmation/arc_verdict.json",
+    "frontier/B151_firewall_confirmation/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or volume-type invariant can source a physical scale.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-10 entry matches FINDINGS: firewall HOLDS, unification is a symmetry identity that terminates at the wall (V140); OPEN_LEADS L15 -> CONFIRMED.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "figure-eight complex_volume = 2.0298832128... - 1.1e-15i (Vol=2.0298832128, CS=0, amphichiral)",
+     "where": "frontier/B151_firewall_confirmation/probe.py lines 65-73 (figure_eight_complex_volume, SnapPy-gated, falls back to a recorded constant VOL_FIG8/CS_FIG8 if SnapPy is absent)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "SnapPy call is live and re-runnable when SnapPy is installed; the code also carries a hardcoded fallback constant, so an environment without SnapPy silently reports the same recorded number rather than failing"
+    },
+    {
+     "what": "The firewall verdict itself: 'the complex volume/CS invariant enters only as a dimensionless exponent, all dimensionful content in hbar/k and squashing radius' -- FIREWALL_HOLDS for all 3 sources",
+     "where": "probe.py lines 40-60 FIREWALL_READING list (hardcoded dict literals with 'exhibited_text': ''); FINDINGS.md table",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "this is explicitly a reading task per the arc's own framing ('a fact about how the primary sources assign units, not a sandbox computation'); the three FIREWALL_HOLDS tags are literal Python dict entries with no computation behind them and empty exhibited_text fields -- nothing here is machine-checked against the cited papers' actual text, only asserted by the author"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No independent verification instrument beyond re-running the SnapPy numeric anchor; the central claim (the firewall holding) is a literature reading with no counter-check.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The verdict() function computes FIREWALL_HOLDS purely by checking that no entry in a hand-written list has tag=='CROSSING' -- i.e., the test is vacuously true by construction unless the author had themselves written in a CROSSING row. There is no independent check of the literature claims; the 'test' the FINDINGS.md references only locks 'the honesty structure', not the substance.",
+     "where": "frontier/B151_firewall_confirmation/probe.py lines 76-88"
+    }
+   ],
+   "seat_note": "The arc is transparent that this is a reading task rather than computation, and the vanishing CS for the amphichiral figure-eight is a genuine (recomputed) numeric fact; but the decisive 'firewall holds' conclusion rests entirely on the author's own paraphrase of three papers with no exhibited primary text or independent check, so it should be read as an argued position, not a proof."
+  },
+  {
+   "arc": "B152_cs_amphichirality_census",
+   "source": "main",
+   "files_read": [
+    "frontier/B152_cs_amphichirality_census/FINDINGS.md",
+    "frontier/B152_cs_amphichirality_census/README.md",
+    "frontier/B152_cs_amphichirality_census/arc_verdict.json",
+    "frontier/B152_cs_amphichirality_census/census.json",
+    "frontier/B152_cs_amphichirality_census/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — A 240-manifold census confirms amphichiral implies 2-torsion Chern-Simons with zero violations, and exhibits m208 as the unique converse failure.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-11 entry: cross-session brief item F4, reproduced independently in-sandbox before banking; 3 tests passed.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Scan of SnapPy OrientableCuspedCensus[:240]: 7 amphichiral (m003,m004,m135,m136,m203,m206,m207), 0 necessity violations, 1 converse counterexample (m208, chiral, CS=0)",
+     "where": "frontier/B152_cs_amphichirality_census/probe.py lines 57-90 (scan/summarize functions); census.json committed output, rows verified against summary (m003 cs=0.25 amphichiral, m004 cs=8.999e-17 amphichiral, m208 not directly re-checked by this reader but its inclusion in converse_cs0_chiral is consistent with the summary)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "probe.py is a standalone runnable SnapPy scan that writes census.json directly; the committed census.json is the actual witness output, not merely asserted"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The FINDINGS.md states this reproduces a cross-session brief's proposal 'independently in-sandbox before banking' and the committed census.json is the fresh witness; a genuine caught-and-fixed bug (circular-mod proximity test for negative CS wrap-around) is documented.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "This is a clean, fully computed, low-dimensional-topology census with a committed witness file and an honestly reported converse failure (m208); no physics claim is made or implied, correctly labeled standalone."
+  },
+  {
+   "arc": "B153_degree_rank_degeneration",
+   "source": "main",
+   "files_read": [
+    "frontier/B153_degree_rank_degeneration/FINDINGS.md",
+    "frontier/B153_degree_rank_degeneration/README.md",
+    "frontier/B153_degree_rank_degeneration/arc_verdict.json",
+    "frontier/B153_degree_rank_degeneration/probe.py",
+    "frontier/B153_degree_rank_degeneration/n5_nonss_irreducible.py"
+   ],
+   "files_sampled": [
+    "frontier/B153_degree_rank_degeneration/n3_exact_endpoint.sage (not read; referenced in FINDINGS as exact-over-F_p Sage script, requires Sage to run)",
+    "frontier/B153_degree_rank_degeneration/sln_toolkit.py (not read directly; imported and used by probe.py, described as self-tested)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — degree=rank is rank-stratified: a rigid component at n=3, a measure-zero slice at n=4, and unrealized on any irreducible at n=5, correcting the earlier n=5 artifact. Supersedes B95.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-15 entry describes exactly this stratification plus two self-found corrections (n=5 det-t=0 drift artifact fixed, n=3 exact-over-F_p tangent corrected from numerical 14 to exact 10); PROGRESS_LOG 2026-07-03 promotion audit explicitly scoped B153 to 'excludes the numerical non-semisimple leg' when promoting to CLAIMS-tier.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "n=4 {1,1,w,w^2}: L=-M^4 exact, irreducible, A-free tangent dim 19 (SLICE)",
+     "where": "frontier/B153_degree_rank_degeneration/probe.py lines 26-40 (check_n4_slice)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed numpy script recomputes the residual, tangent dim, and irreducibility on every run and asserts specific values"
+    },
+    {
+     "what": "n=5 semisimple {1,1,1,-1,-1}: A^2=I forces B=tAt^-1 to be an involution for any t, so <A,B> is dihedral, hence every SL(5) rep is reducible",
+     "where": "frontier/B153_degree_rank_degeneration/probe.py lines 43-54 (check_n5_semisimple_dihedral); FINDINGS.md piece 3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the numeric check demonstrates the algebraic identity on a random t, and the underlying group-theory argument (A^2=I => B^2=I => dihedral) is a proof, stated and reproducible from committed code plus the accompanying proof sketch"
+    },
+    {
+     "what": "n=5 non-semisimple irreducible reps EXIST (2 Jordan-type families, Burnside rank 25 / Schur commutant dim 1 agree), but degree=rank fails on them (best matrix match ~2.5, i.e. not zero)",
+     "where": "frontier/B153_degree_rank_degeneration/n5_nonss_irreducible.py entire file (Newton solve, burnside_rank, commutant_dim, degree_rank_best_match, asserts total_irr>0 and best_dr>1.0)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "standalone runnable script with explicit numeric assertions; the FINDINGS.md correctly labels this leg NUMERICAL not proven, matching the file's own docstring"
+    },
+    {
+     "what": "n=3 {1,i,-i}: exact-over-F_p (3 primes) 2-component decomposition, dim-5 geometric component tangent 11 rigid/irreducible/L=+M^3; dim-3 reducible slice tangent 10",
+     "where": "n3_exact_endpoint.sage (NOT independently read by this reviewer; referenced in FINDINGS.md sec 'n=3 is a genuine component')",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the .sage file was listed as FULL mode but not opened in this pass; FINDINGS.md describes it as reproducible via Sage, and the claimed exact tangent values (11, 10) are explicitly flagged in FINDINGS.md as a self-caught correction from an earlier wrong numerical value (14), which is a good transparency sign, but this reader did not verify the sage script's content directly"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Unusually thorough self-correction history: two distinct bugs (n=5 det-t=0 Newton drift, n=3 numerical-vs-exact tangent mismatch) were caught and fixed in-session with corrected values banked and the wrong values struck through/annotated rather than silently replaced.",
+   "absence_claims": [
+    {
+     "quote": "the earlier 'numerical' slice-piece tangent 14 was wrong (exact value 10)",
+     "where": "frontier/B153_degree_rank_degeneration/FINDINGS.md line 47"
+    },
+    {
+     "quote": "The old '0/120, no irreducibles' was simply wrong (it missed the non-ss irreducibles).",
+     "where": "frontier/B153_degree_rank_degeneration/FINDINGS.md line 74"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "One of the more rigorous arcs in this batch: mixes proofs, exact algebra over finite fields, and clearly-labeled numerical evidence, with an explicit and credible self-audit trail; no physics content and none is claimed, correctly firewalled as standalone low-dimensional topology."
+  },
+  {
+   "arc": "B154_silver_bundle_foundation",
+   "source": "main",
+   "files_read": [
+    "frontier/B154_silver_bundle_foundation/FINDINGS.md",
+    "frontier/B154_silver_bundle_foundation/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B154_silver_bundle_foundation/probe.py",
+    "frontier/B154_silver_bundle_foundation/eig_structure.py",
+    "frontier/B154_silver_bundle_foundation/fig_exponent.py",
+    "frontier/B154_silver_bundle_foundation/fig_sl4_o4.py",
+    "frontier/B154_silver_bundle_foundation/silver_afree.py",
+    "frontier/B154_silver_bundle_foundation/silver_construct.py",
+    "frontier/B154_silver_bundle_foundation/silver_degree_rank.py",
+    "frontier/B154_silver_bundle_foundation/silver_exp3.py",
+    "frontier/B154_silver_bundle_foundation/silver_sublocus.py",
+    "frontier/B154_silver_bundle_foundation/silver_tracemap.sage"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — degree=rank generalizes beyond the figure-eight to the metallic family via the derived meridian mu=A^-m t, with the exponent order-determined rather than rank-determined.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-16 entry matches the meridian derivation; PROGRESS_2026-Q2 2026-06-17 entry (B157) explicitly states the closed form k=4-m(o-3) from this same arc's FINDINGS is REFUTED by bronze (m=3) data, with only the order-not-rank conclusion surviving.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "The metallic cusp meridian mu=A^-m t derived from the exact free-group identity phi_m([A,B])=A^m[A,B]A^-m; verified on silver bundle reps with ||[mu,[A,B]]||~1e-11",
+     "where": "FINDINGS.md 'The metallic cusp meridian' section; corroborated by silver_construct.py content",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "a free-group word-reduction identity plus a numeric residual check on constructed matrix reps, described as reproducible via silver_construct.py"
+    },
+    {
+     "what": "Closed-form exponent law k=4-m(o-3) fit to o in {3,4}, m in {1,2}",
+     "where": "FINDINGS.md 'A clean closed form fits every point' section, explicitly labeled 'empirical fit', and then superseded by the CORRECTION banner (2026-06-17, B157/V151): 'the closed form k=4-m(o-3) is REFUTED' with counterexamples at m=3",
+     "kind": "FITTED",
+     "reproducible_from_committed": "yes",
+     "why": "the fit itself is reproducible from the committed data points, but was explicitly refuted in a later arc (B157) with the correction banner properly appended in this same FINDINGS.md file"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The FINDINGS.md itself documents the correction in-place (a CORRECTION banner naming B157/V151 and the refuting bronze counterexamples), so the retraction is propagated within the file; however the arc_verdict.json claim_one_line still reads as fully standing ('the exponent order-determined rather than rank-determined') without flagging that the specific closed-form part of the same PROVED verdict was refuted.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json's verdict is still 'PROVED' with supersedes:'B153' and superseded_by:null even though the FINDINGS.md's own CORRECTION banner says the closed-form part of the claim (k=4-m(o-3)) is REFUTED by B157; the verdict JSON does not record that a piece of what it certified was later refuted, so a reader who only consults arc_verdict.json (as the campaign's claim-of-record convention instructs) would not learn of the refutation.",
+     "where": "frontier/B154_silver_bundle_foundation/arc_verdict.json (superseded_by: null) vs frontier/B154_silver_bundle_foundation/FINDINGS.md lines 109-115"
+    },
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "The closed-form k=4-m(o-3) was an empirical fit to only 2 values of m and 2 of o (a 2x2 grid), explicitly under-determined, and indeed failed once a third m was tried.",
+     "where": "frontier/B154_silver_bundle_foundation/FINDINGS.md lines 103-107"
+    }
+   ],
+   "seat_note": "The underlying meridian derivation is solid and the arc is commendably self-correcting in its own FINDINGS text, but the verdict file's status (PROVED, superseded_by:null) does not reflect that its own headline closed-form result was refuted one arc later, which is exactly the kind of drift the campaign's claim-of-record convention is meant to catch."
+  },
+  {
+   "arc": "B155_golden_phase_bridge",
+   "source": "main",
+   "files_read": [
+    "frontier/B155_golden_phase_bridge/FINDINGS.md",
+    "frontier/B155_golden_phase_bridge/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B155_golden_phase_bridge/golden_phase_bridge.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — An explicit SL(4,Z) matrix realizes figure-eight monodromy times an order-6 phase, with signature (1,3), discriminant -15 and (Z/2)^2 glue, all exact.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-16 entries match FINDINGS closely (independently re-derived, pure sympy, all checks PASS); later entries (B156, B158, B159, B746) build extensively on B155 as the 'Omega4' seed / 'golden x phase' canonical object across many downstream arcs, and Review 32 flags this among the 'buried significance' items worth further attention (not a correction).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "M_g in SL(4,Z), charpoly = (x^2-3x+1)(x^2-x+1) = figure-eight golden factor x order-6 phase factor; block split; nonderogatory (min poly = char poly); glue group (Z/2)^2 (sublattice index 4); invariant form signature (1,3), det=-15 mod squares",
+     "where": "frontier/B155_golden_phase_bridge/golden_phase_bridge.py (pure sympy, prints PASS for every check, per FINDINGS.md reproduction section)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit integer matrix and symbolic sympy checks fully committed and independently re-derived from an external handoff (FINDINGS.md states this was independently re-derived, not transcribed)"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "FINDINGS.md states the result was distilled from an external cross-session review/synthesis note and then 'independently re-derived here before banking (verify-don't-trust: a cross-session claim is corroboration, not validation)'.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The arc explicitly and correctly firewalls the temptation this flags: signature (1,3) is flagged in the arc's own 'Firewall' section as 'algebraic inertia of a symmetric bilinear form ... NOT spacetime, NOT a Lorentzian metric, NOT time' -- a genuinely careful self-caution rather than an actual overreach, but noted here because signature-(1,3) numerology recurs heavily in the downstream program (B746 'golden ledger') and is exactly the kind of dimension-coincidence this seat is asked to flag on sight."
+    }
+   ],
+   "seat_note": "A clean, exact, well-firewalled arithmetic result (an explicit integer matrix with verified algebraic invariants); the arc itself pre-empts the physics temptation by stating plainly that (1,3) signature here is bilinear-form inertia, not spacetime, and that no CLAIMS.md content is generated."
+  },
+  {
+   "arc": "B156_omega_strict_full_cone",
+   "source": "main",
+   "files_read": [
+    "frontier/B156_omega_strict_full_cone/FINDINGS.md",
+    "frontier/B156_omega_strict_full_cone/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B156_omega_strict_full_cone/independent_recount.py",
+    "frontier/B156_omega_strict_full_cone/omega_independent_verify.py",
+    "frontier/B156_omega_strict_full_cone/opus_wall_entropy_verify.py",
+    "frontier/B156_omega_strict_full_cone/tc1_tc4_verify.py",
+    "frontier/B156_omega_strict_full_cone/tc2_reciprocity_verify.py",
+    "frontier/B156_omega_strict_full_cone/verify_fib_blocks.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L10 counts reconfirmed.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-16/06-17 entries match FINDINGS in detail (Phase 1 re-derivation, then a completion pass after a source-chat cross-check that surfaced TC-1/TC-4 and fixed the entropy value from earlier lower bounds to the final log 2); later B158/B159 build on and independently re-verify parts of B156 (B159 explicitly re-uses B156's own independent_recount.py counter for a from-scratch check).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Core R/G algebra for R_{a,m}, G_{a,m} at n=4: det R=1, palindromic charpoly, R^T G R=G, det G=-delta/(m+1), signature (1,3) on live cone rigorously (Sylvester pivot certificate, not sampled)",
+     "where": "frontier/B156_omega_strict_full_cone/omega_independent_verify.py (16/16 checks, symbolic sympy)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "fresh symbolic sympy derivation explicitly stated to not import the handoff's own scripts"
+    },
+    {
+     "what": "TC-2 (strict-full implies reciprocal char poly); the handoff's own stated general identity was found circular and corrected in-place",
+     "where": "frontier/B156_omega_strict_full_cone/tc2_reciprocity_verify.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "symbolic re-derivation plus adversarial control cases (non-reciprocal matrices with no invariant form), with the correction documented as a caught circularity in the imported handoff material"
+    },
+    {
+     "what": "Strict-full survivor counts L4-L10 (96, 672, 3840, 20928, 105312, 521904, 2488080)",
+     "where": "frontier/B156_omega_strict_full_cone/independent_recount.py, cross-checked against a separate handoff brute-force script found to over-count (per-class instead of per-matrix)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "an independent, fresh-code exact-det-based counter re-derives every level and the FINDINGS.md documents catching a real bug in the imported handoff's own brute-force script (it over-counted L5/L6 using per-class rather than per-matrix classification)"
+    },
+    {
+     "what": "TC-1 (Omega_4 = B155's golden x phase object is the unique minimal strict-full seed at L=4) and TC-4 (orientation no-go: relabel-closed ensembles have zero net Pfaffian residual)",
+     "where": "frontier/B156_omega_strict_full_cone/tc1_tc4_verify.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exhaustive enumeration over 144 strongly-connected L4 histories plus a symbolic sign-law proof for the Pfaffian relabeling"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This is one of the most heavily belted arcs in the batch: every one of six theorems has a dedicated fresh-code reproducer explicitly stated not to import the handoff's own scripts, plus a documented real bug caught in the imported source material (the over-counting brute-force script) and a documented circularity fix in a stated general identity.",
+   "absence_claims": [
+    {
+     "quote": "the two strict-full shears A=S03 and C=S23 commute ... so the map R->A, L->C cannot faithfully represent the noncommutative trace-map monodromy",
+     "where": "frontier/B156_omega_strict_full_cone/FINDINGS.md lines 104-107 (Scope section: 'the stronger reading ... is false as a mechanism')"
+    },
+    {
+     "quote": "Full Ω endpoint entropy | OPEN | Finite growth observed, no all-depth proof.",
+     "where": "frontier/B156_omega_strict_full_cone/FINDINGS.md line 155 (firewall claim-boundary table)"
+    },
+    {
+     "quote": "U/V free semigroup | REFUTED | Relation appears at depth 7.",
+     "where": "frontier/B156_omega_strict_full_cone/FINDINGS.md line 157"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "arc_verdict.json's creates_law_reviewed field (dated 2026-08-29, arc B1214) records that this arc was later re-classified from 'was: ABSENT' to a formal decision that it does NOT create a new law/proposition ('the law, if any, belongs to the source') because it is fundamentally a VERIFICATION of imported handoff material, not a novel derivation -- notably, the review basis states this arc (unlike 13 others that passed) was NOT read in full before that classification, an asymmetry the review itself discloses.",
+     "where": "frontier/B156_omega_strict_full_cone/arc_verdict.json creates_law_reviewed field"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The signature (1,3) recurs here (as in B155) as a candidate physics-suggestive numerology (paired with an explicit, correct firewall that it is bilinear-form inertia, not spacetime) and the arc explicitly flags its own risk that a stronger unification reading ('Omega IS the trace-map tower') is false as a mechanism -- a self-correction worth noting given how heavily downstream arcs (B158, B159, B746) lean on the Omega/B155 object as a canonical seed."
+    }
+   ],
+   "seat_note": "Technically the most rigorously re-derived and self-critical arc in this batch (catches a real over-counting bug and a circular-identity error in imported material), but per its own later meta-review (B1214) it is fundamentally VERIFICATION of an external handoff's claims rather than a new law, and its firewall table candidly lists several OPEN or REFUTED sub-claims (full endpoint entropy open, U/V free semigroup refuted) alongside the PROVED ones -- no physics content is claimed and the arc is careful to say so throughout."
+  }
+ ]
+}

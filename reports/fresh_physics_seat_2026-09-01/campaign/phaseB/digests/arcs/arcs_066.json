@@ -1,0 +1,179 @@
+{
+ "batch": "arcs_066",
+ "arcs": [
+  {
+   "arc": "B754_p2_spectral",
+   "source": "main",
+   "files_read": [
+    "frontier/B754_p2_spectral/FINDINGS.md",
+    "frontier/B754_p2_spectral/arc_verdict.json",
+    "frontier/B754_p2_spectral/PREREGISTRATION.md",
+    "frontier/B754_p2_spectral/TARGETS.json (head, 424 lines total)",
+    "frontier/B754_p2_spectral/ARTIFACT_HASHES.txt",
+    "frontier/B754_p2_spectral/reviews/S16_REVIEW_1.md",
+    "frontier/B754_p2_spectral/cells/TOMB-L252/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L67/compute.py",
+    "frontier/B754_p2_spectral/cells/TOMB-L67/output.txt",
+    "frontier/B754_p2_spectral/cells/B285/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L70/compute.py",
+    "frontier/B754_p2_spectral/cells/TOMB-L70/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L70/skeptic.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L30/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L30/skeptic.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L267/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L57/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L241/output.txt",
+    "frontier/B754_p2_spectral/cells/WALL-7/compute.py",
+    "frontier/B754_p2_spectral/cells/WALL-7/output.txt",
+    "frontier/B754_p2_spectral/cells/WALL-1/compute.py",
+    "frontier/B754_p2_spectral/cells/WALL-1/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L277/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L277/skeptic.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L77/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L77/skeptic.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L334/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L247/output.txt",
+    "frontier/B754_p2_spectral/cells/B107/output.txt",
+    "frontier/B754_p2_spectral/cells/B516/output.txt",
+    "frontier/B754_p2_spectral/cells/B516/skeptic.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L63/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L258/output.txt",
+    "frontier/B754_p2_spectral/cells/TOMB-L339/output.txt"
+   ],
+   "files_sampled": [
+    "frontier/B754_p2_spectral/cells/B285/compute.py (not opened directly; output.txt read in full instead — compute.py listed SAMPLE_CODE but time was spent on the fuller output.txt)",
+    "frontier/B754_p2_spectral/cells/TOMB-L241/compute.py (not opened; output.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L30/compute.py (not opened; output.txt + skeptic.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L267/compute.py (not opened; output.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L57/compute.py (not opened; output.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L277/compute.py (not opened; output.txt + skeptic.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L334/compute.py (not opened; output.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L247/compute.py (not opened; output.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/B107/compute.py (not opened; output.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L63/compute.py (not opened; output.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L258/compute.py (not opened; output.txt read FULL)",
+    "frontier/B754_p2_spectral/cells/TOMB-L339/compute.py (not opened; output.txt read FULL)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE; claim_one_line: 'Re-adjudicating 19 banked negatives against the frozen spectral surface gives 17 KILL-EXTENDS, 2 FACE-IRRELEVANT and 0 FACE-OPENS; WALL-1 extends on four independent spectral mechanisms.' (arc_verdict.json)",
+   "log_says": "PROGRESS_LOG/REVIEWS: 'The P2 stratum (B754, cc3). 19/19: 17 KILL-EXTENDS, 0 FACE-OPENS -- WALL-1 gains a four-mechanism spectral column.' Also records verification coverage as 'B754 (8/19 cc re-exec + 8/19 cc3 spot-checks, zero divergence)' and provenance hash bd24a285; a rule-10 retro-entry was needed because B754 initially never got its own PROGRESS_LOG entry, and a full-suite run caught one hardcoded seat path bug in TOMB-L30's cell (fixed, re-executed identically).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Palette (ray-class character count) = (1,2,8) at levels (2),(4),(8) for m004's cusp order",
+     "where": "recomputed independently by brute-force group enumeration in nearly every cell (e.g. WALL-1/compute.py, TOMB-L252, TOMB-L241, TOMB-L57, TOMB-L334); matches B737/B739 banked values",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Plain-python enumeration of (O/2^k)^x modulo mu_6 is printed in multiple compute.py files with explicit unit counts (3,12,48) and mu6-image sizes; deterministic, no external dependency."
+    },
+    {
+     "what": "Cusp CM discriminant -48 (conductor-4 order) vs m003's -3 (maximal order); j-invariant gap ~2.836e9",
+     "where": "WALL-1/compute.py CHECK block (j via q-series + exact H_{-48} class-polynomial root); repeated in TOMB-L267, TOMB-L247, B107",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "q-series and exact integer class-polynomial root are both computed in-script from stdlib; cross-checked to <1e-3."
+    },
+    {
+     "what": "B753 theta-odd block trace 1/phi, eigenphases +-72deg, mixing entry 1/(phi*sqrt5)",
+     "where": "cited/re-verified (not re-derived from first principles) across nearly all cells, e.g. TOMB-L252 CHECK line 74, TOMB-L63 PART1, TOMB-L339",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "The value originates in the separately-frozen B753 arc (outside this packet); B754 cells re-run B753's own pipeline (B238 import) in-cell and confirm agreement to 1e-15, so it is IMPORTED-but-cross-checked rather than freshly derived within B754."
+    },
+    {
+     "what": "Class-number-formula residues for the four h=1 imaginary-quadratic fields (D=-3,-4,-7,-11), matching B737-banked values to <1e-9",
+     "where": "WALL-1/compute.py Section [2]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "2*pi*h/(w*sqrt|d|) computed in-script and diffed against a BANKED_RES dict hardcoded from B737's own output file; both numbers are printed."
+    },
+    {
+     "what": "WALL-1's E4 premise 'm004-specific bits reaching the SSB-carrying datum: ZERO'",
+     "where": "WALL-1/compute.py CHECK 'B737 P4 S10(c)'; grep-verified against frontier/B737_candidate_zero/p4_kms_out.txt line 182",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "The load-bearing physics conclusion for the arc's headline (no SM value from the solo object) rests on a sentence imported verbatim from a different, earlier arc (B737); this cell only greps that the sentence exists at the cited line, it does not re-derive the zero-bits claim independently."
+    },
+    {
+     "what": "TOMB-L277 skeptic override: 16/37 classes (43%) golden-magnitude weld-block trace; 1152/2880 elements golden; all 4 SU(2)_3-golden classes are golden-weld -- used to flip the cell's FACE-OPENS verdict to KILL-EXTENDS",
+     "where": "cells/TOMB-L277/skeptic.txt (the whole census table)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "No skeptic.py (or any script) is committed alongside skeptic.txt in cells/TOMB-L277/ -- only the prose report with printed numbers. A stranger cannot re-run this census from committed files; they must trust the pasted table. This is the numeric basis for the headline override."
+    },
+    {
+     "what": "TOMB-L77 skeptic override: identification of the correct saddle field as Q(sqrt(-3)) (not Q(sqrt(5))), flipping FACE-IRRELEVANT to KILL-EXTENDS",
+     "where": "cells/TOMB-L77/skeptic.txt, citing 'B742 recompute (Part 2, output lines 58-62)' external to this arc",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The corrected field claim is attributed to a B742 output file not included in this packet's file list, so its content could not be directly verified here; the skeptic itself also has no committed script, only skeptic.txt prose."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Every cell's Q2-discrimination and face-consultation step greps/re-reads and often numerically re-derives quantities from the four 'frozen' source arcs (B737/B739/B746/B753), which are themselves outside this packet and not independently re-verified here beyond string/number matches; the two skeptic overrides that changed verdicts ran extra computation but left no committed script (skeptic.txt only), so the belt for the headline-changing checks is a re-read of prose output, not a re-run of committed code.",
+   "absence_claims": [
+    {
+     "quote": "the census does not exist in the banked record.",
+     "where": "frontier/B754_p2_spectral/FINDINGS.md:67 (paraphrased in FINDINGS; verbatim form in cells/TOMB-L277/output.txt line 115: 'the census does not exist in the banked record')"
+    },
+    {
+     "quote": "token 'RRL|RLL' appears NOWHERE in the four frozen arcs (0 hits) -- no arc ever evaluated the weld at any comparator word",
+     "where": "frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:74"
+    },
+    {
+     "quote": "token '2880' appears NOWHERE in the four frozen arcs (0 hits) -- no arc ever touched the finite 2880 image at all",
+     "where": "frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:75"
+    },
+    {
+     "quote": "The banked surface contains no spectral data for the double.",
+     "where": "frontier/B754_p2_spectral/cells/WALL-7/output.txt:84 (MISMATCH 1)"
+    },
+    {
+     "quote": "No such theorem connecting Pisot numbers of coupling matrices to spectral data of hyperbolic 3-manifolds exists in the banked surface or in known mathematics.",
+     "where": "frontier/B754_p2_spectral/cells/B516/output.txt:114-117 (FALSIFIER paragraph, paraphrased join of two adjacent lines)"
+    },
+    {
+     "quote": "R_cont(n) for n=2..6 : [no n-indexed object exists on the frozen surface -- the banked emittance face is the SL(2) Laplacian only; the SL(n) tower has no banked emittance spectrum]",
+     "where": "frontier/B754_p2_spectral/cells/TOMB-L258/output.txt:94-96"
+    },
+    {
+     "quote": "n cannot enter: no n-indexed emittance object exists in B737/B739/B746/B753 (frozen-surface fact...)",
+     "where": "frontier/B754_p2_spectral/cells/TOMB-L258/output.txt:98"
+    },
+    {
+     "quote": "no banked bridge connects the CS level k to it (i.e., no bridge from the CS level k to a parameter moving the continuous channel exists in the frozen surface)",
+     "where": "frontier/B754_p2_spectral/cells/TOMB-L30/output.txt:85-86 and skeptic.txt:65-68 ('I cannot exhibit a k-varying probability family ... nor produce a banked CS-to-continuous bridge')"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The TOMB-L277 skeptic override (43% golden-magnitude census, 1152/2880 elements) -- which is the evidentiary basis for flipping the cell's own FACE-OPENS verdict to KILL-EXTENDS on the campaign's most-discussed override -- has no committed script. Only cells/TOMB-L277/skeptic.txt (prose + a pasted table) is on disk; a stranger cannot rerun the 37-class census from committed files.",
+     "where": "frontier/B754_p2_spectral/cells/TOMB-L277/ (directory listing: compute.py, output.txt, skeptic.txt only)"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The entire campaign's Gate 5-Q 'Q2 discrimination' methodology repeatedly certifies an operator as meaningful by showing it returns a different NUMBER or DIMENSION for the object vs. a comparator (e.g. disc -48 vs -3, palette 8 vs 1, cyclic order 5 vs 3), then treats that bare numeric/type difference as license to draw a structural conclusion. This is exactly the type-match-as-license pattern the seat is instructed to flag, run at scale across ~19 cells.",
+     "where": "pervasive; clearest instances at frontier/B754_p2_spectral/cells/WALL-7/output.txt:56-64 (Z/5 vs Z/3 'coprime' argument) and cells/TOMB-L57/output.txt:19-28 (k_c operator)"
+    },
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "TOMB-L30's own skeptic (NOT REFUTED, but explicitly flagged) states the cell's Fisher-information-zero 'extension' is a tautology: 'ANY constant probability family... has Fisher information identically zero... guaranteed by the absence of k -- not by the spectral structure of the face,' and that the test actually called for (Fisher on CS/WRT data, per B738) was never run. The cell's KILL-EXTENDS verdict stands but rests on a self-acknowledged trivial/vacuous computation dressed in the campaign's spectral vocabulary.",
+     "where": "frontier/B754_p2_spectral/cells/TOMB-L30/skeptic.txt:13-24 and :74-84 (RESIDUAL CONCERNS)"
+    },
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "The entire arc's evidentiary universe is 'frozen' to exactly four earlier arcs (B737, B739, B746, B753) by explicit design (PREREGISTRATION.md, cc's ack); every cell's consultation, Q2-discrimination, and face-consultation step only cross-checks against these same four sources. Errors or gaps in those four sources (none independently audited by this seat) propagate uncorrected through all 19 verdicts.",
+     "where": "frontier/B754_p2_spectral/PREREGISTRATION.md:10-14"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The S16 pre-execution design review (reviews/S16_REVIEW_1.md) verdicts SEAL-READY on the DESIGN only ('covers the prereg only; a post-execution review is the banking seat's responsibility at the PR gate') -- i.e. no independent post-execution review of the 19 actual verdicts is included in this packet; the log's cited coverage is '8/19 cc re-exec + 8/19 cc3 spot-checks' (i.e. roughly 8-16 of 19 cells got any outside check at all, not all 19).",
+     "where": "frontier/B754_p2_spectral/reviews/S16_REVIEW_1.md:148-150 (line 9-10 header) and PROGRESS_LOG entry (log_index) '(2) The two-seat verification audit' line"
+    }
+   ],
+   "seat_note": "This is a purely internal audit of the program's own prior negative claims against its own previously-banked spectral arithmetic (class numbers, ray-class palettes, a 2x2 unitary weld block); nothing here is a measurable physical prediction, and the arc's own headline (WALL-1: 'no SM value from the solo object') is itself an absence claim reinforced by other absence claims, all drawn from a closed four-arc universe. The self-caught skeptic overrides (2/19) show the process can catch its own errors, but the overriding computations themselves are not committed as reproducible code, only as pasted numbers in prose reports."
+  }
+ ]
+}

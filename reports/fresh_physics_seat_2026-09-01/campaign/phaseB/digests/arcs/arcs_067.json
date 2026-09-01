@@ -1,0 +1,330 @@
+{
+"batch": "arcs_067",
+"arcs": [
+{
+"arc": "B755_carried_recomputes",
+"source": "main",
+"files_read": [
+"frontier/B755_carried_recomputes/FINDINGS.md",
+"frontier/B755_carried_recomputes/PREREGISTRATION.md",
+"frontier/B755_carried_recomputes/arc_verdict.json",
+"frontier/B755_carried_recomputes/cell1_b140_genus2.py",
+"frontier/B755_carried_recomputes/cell1_out.txt",
+"frontier/B755_carried_recomputes/cell3_b685_gswz.py",
+"frontier/B755_carried_recomputes/cell3_out.txt",
+"frontier/B755_carried_recomputes/cells245.py",
+"frontier/B755_carried_recomputes/cells245_out.txt",
+"frontier/B755_carried_recomputes/rv4_independent_algebra.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"All five carried banked negatives had their discriminating facts recomputed in-repo (genus-2 chiral witness, the 1/4 null, GSWZ pure-3 through u^5, B720's two halves, S019 by dimension): 5/5 located, no kill flipped.\"",
+"log_says": "PROGRESS_LOG 2026-07-22: 5/5 LOCATED-BY-RECOMPUTE (R27 carried block closed); REVIEWS.md Review 28 corroborates cell-by-cell; consistent throughout, including a later reader-bias audit (B817) noting B755 was one of only two arcs (of 15) to draw any reader disagreement (11:1).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Genus-2 twister bundle 'abcDef': vol 5.4611931991..., 2*CS=+0.01192 (chiral, matches mirror-flip)", "where": "cell1_b140_genus2.py + cell1_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "deterministic snappy/twister script with fixed word list, output committed and matches script logic exactly"},
+{"what": "GSWZ Kashaev-invariant coefficients r1..r5 (11/24, 697/1152, 724351/414720, ...) and symmetrized-series pure-3 expansion matching eq(2) exactly", "where": "cell3_b685_gswz.py + cell3_out.txt + rv4_independent_algebra.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mpmath 420-dps Richardson extrapolation + PSLQ recognition + exact sympy series algebra, all in one script; independently reproduced by a from-scratch Fraction check (rv4_independent_algebra.txt)"},
+{"what": "1/4 null test against B752's 25-value PDG table restricted to (0.1,0.6): 1/4 hits 0 targets at both 2% and 5% windows", "where": "cells245.py + cells245_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "targets and code committed, deterministic; comparator set (1/e,1/phi,1/pi,40 seeded randoms) also computed in the same script"},
+{"what": "B720 Q(zeta3)/Q(i) linear disjointness (resultant degree 4) and Markov-quiver mutation class size 1", "where": "cells245.py cell 4 + cells245_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy resultant/discriminant and a brute-force mutation-closure enumeration, both in committed code"},
+{"what": "S019 Fisher(D(I)) = 16/(m^2(m^2+4)) > 0 for all m>0; \"no Lorentzian emergence from Fisher-on-k\" holds by dimension for any 1-parameter family", "where": "cells245.py cell 5 + cells245_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic recomputation of a cited proxy quantity plus a trivial dimension-counting argument stated, not just cited"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "This arc IS itself a belt/verification exercise over five previously-banked NOT-LOCATED facts; it also carries its own VERIFICATION ADDENDUM with out-of-sample predictions (N=12345, N=9973) and a second independent series-algebra check, i.e. a belt-within-a-belt.",
+"absence_claims": [
+{"quote": "The missing module at bank time (twister) is present in the current env.", "where": "frontier/B755_carried_recomputes/FINDINGS.md:11"},
+{"quote": "the sweep's condition: the chat-1 set is not in-repo, so the set must be preregistered", "where": "frontier/B755_carried_recomputes/PREREGISTRATION.md:17"},
+{"quote": "The source (arXiv:2412.04241...) was re-read directly; the re-read RESOLVED the banked extraction's internal inconsistency", "where": "frontier/B755_carried_recomputes/FINDINGS.md:34-36"},
+{"quote": "The tombstone's kill citation was BROKEN (archive/PHYSICS_RESONANCES.md has no Fisher content)", "where": "frontier/B755_carried_recomputes/FINDINGS.md:70-71"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "This is one of the more carefully self-checked arcs in the batch: exact-arithmetic GSWZ recomputation, out-of-sample prediction, and an independently re-derived series check all land in committed, deterministic scripts with matching output — no physics value is claimed, only arithmetic/hyperbolic-geometry facts and a null-test on SM ratios used purely as a discriminant, per the arc's own Gate-5 note."
+},
+{
+"arc": "B756_remaining_doors",
+"source": "main",
+"files_read": [
+"frontier/B756_remaining_doors/FINDINGS.md",
+"frontier/B756_remaining_doors/arc_verdict.json",
+"frontier/B756_remaining_doors/PREREG_REMAINING_DOORS.md",
+"frontier/B756_remaining_doors/REDACTION_RECORD.md",
+"frontier/B756_remaining_doors/SEALS.txt",
+"frontier/B756_remaining_doors/SYNTHESIS_CC2.md",
+"frontier/B756_remaining_doors/cc_verify_door2.py",
+"frontier/B756_remaining_doors/cc_verify_door6_p4_rerun.txt",
+"frontier/B756_remaining_doors/cc_verify_m51_m32.py"
+],
+"files_sampled": ["frontier/B756_remaining_doors/RAW_WORKFLOW_OUTPUT.json (head/tail/wc; grepped for FINDINGS-quoted numbers 697,21,12,32 — all present and consistent)"],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — \"The general '5-inert and fibered implies golden' reading dies on five exact counterexamples; the Euler-product door closes, replaced by an exact iff-law.\" (creates_law: true)",
+"log_says": "PROGRESS_LOG/REVIEWS 28: refutation banked with 6 counterexamples across two seats, Euler-product closed by exact iff-law with defect (1-sqrt5)/2, L108 minted; R28-9 erratum notes a later path-sweep over-reached into this arc's hash-pinned redacted raw log and was restored/re-recorded.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "5 exact counterexamples to '5-inert ∧ fibered ⇒ golden(disc-5)' (m009/m010 disc-7 field, m022/m023 disc-697 field, m039/m040 disc -44 field, M32 disc 3173, M51 disc -453683), all totally 5-inert and fibered but non-golden", "where": "RAW_WORKFLOW_OUTPUT.json (cc2's original workflow, IMPORTED into this arc) + cc's own cc_verify_door2.py / cc_verify_m51_m32.py recomputation of 3 of 5 plus a 6th independent example", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cc_verify_door2.py (Sage/SnapPy/PARI, exact ideal factorization) is committed and its printed structure (ITF degree, field disc, 5-splitting) matches the FINDINGS text for m022/m009/m039; cc2's own workflow for the remaining is only in RAW_WORKFLOW_OUTPUT.json, itself imported (IMPORTED, not independently re-derived by cc for M32/M51 baseline, though cc later rebuilt M51/M32-variant independently)"},
+{"what": "Exact iff-law a_m*a_n=a_mn (gcd(mn,5)=1) iff chi_2(m)=+1 or chi_2(n)=+1, defect (1-sqrt5)/2 in the both-nonresidue case", "where": "SYNTHESIS_CC2.md (cc2's derivation, cited as sympy-proved with a 60-pair stress test) — the underlying compute script is NOT among this arc's committed files", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "the arc's own committed files (cc_verify_door2.py, cc_verify_m51_m32.py, cc_verify_door6_p4_rerun.txt) verify DOOR2 and DOOR6 only; no committed script here reproduces the DOOR3 iff-law derivation or its 60-pair stress test — it is asserted via SYNTHESIS_CC2.md and RAW_WORKFLOW_OUTPUT.json, both cc2 seat products relayed and hash-verified but not independently re-run by cc within this arc's files"},
+{"what": "DOOR6 P4 sector-split re-execution: (tr_odd,tr_even)(23)=(1,0) exactly, eps=+1 the unique global sign reproducing the banked 8-rung ladder, p4_results.json byte-identical to cc2's banked file", "where": "cc_verify_door6_p4_rerun.txt", "kind": "COMPUTED", "reproducible_from_committed": "no (script itself not included; only its stdout log is committed)", "why": "the file is an output log (a *.txt witness), not the executing script; a stranger has the numbers and the byte-identity claim but not the reproducing code within this arc's directory"}
+],
+"belt": "RE-READS",
+"belt_note": "cc independently re-executed DOOR2 (3/5 counterexamples + a 6th of its own construction) and DOOR6 (full P4 rerun, byte-identical) from scratch; DOOR3's iff-law and DOOR4's obstruction rest on cc2's relayed workflow, verified by hash (SEALS.txt) but not independently re-computed by cc in this arc's files.",
+"absence_claims": [
+{"quote": "cc2's Register framing was wrong (owned in their synthesis: the generating function is mod-5, not level-15 — Register erratum theirs)", "where": "frontier/B756_remaining_doors/FINDINGS.md:25-26"},
+{"quote": "the identity was never established", "where": "frontier/B756_remaining_doors/FINDINGS.md:42 (quoting cc2's DOOR4 residual question)"},
+{"quote": "grep-verified absent from B739–B754", "where": "frontier/B756_remaining_doors/PREREG_REMAINING_DOORS.md:8 (describing the four Register doors as unpicked-up)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "GITIGNORED_WITNESS", "detail": "cc_verify_door6_p4_rerun.txt is a stdout witness for a rerun script that is not itself committed in this arc's directory; the reproducing code lives elsewhere/was not carried, so the byte-identical claim cannot be checked from these files alone.", "where": "frontier/B756_remaining_doors/cc_verify_door6_p4_rerun.txt"},
+{"kind": "OTHER", "detail": "The raw workflow log required a redaction (banned AI-model tokens) and a second transform layer (path sweep); the file went through original→redact→sweep with three different hashes, tracked carefully in REDACTION_RECORD.md — process is transparent but shows how much hand-editing this artifact underwent before landing in the repo.", "where": "frontier/B756_remaining_doors/REDACTION_RECORD.md"}
+],
+"seat_note": "DOOR2's refutation of the general '5-inert and fibered implies golden' law is solidly cross-checked (independent Sage recompute of 3/5 counterexamples plus a 6th new one); DOOR3's headline iff-law and DOOR6's numeric ladder rest more heavily on relayed/hash-verified cc2 artifacts than on code committed inside this arc."
+},
+{
+"arc": "B757_two_z3_identity",
+"source": "main",
+"files_read": [
+"frontier/B757_two_z3_identity/FINDINGS.md",
+"frontier/B757_two_z3_identity/PREREGISTRATION.md",
+"frontier/B757_two_z3_identity/arc_verdict.json",
+"frontier/B757_two_z3_identity/compute.py",
+"frontier/B757_two_z3_identity/output.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — \"The two Z/3's are never the same element (deck reps are torsion-free), and the mod-4 coincidence is conjugacy-forced, carrying zero information.\"",
+"log_says": "PROGRESS_LOG/REVIEWS 28: L108 DISSOLVED, matching FINDINGS exactly (torsion-freeness theorem; one conjugacy class among the 8 order-3 elements of GL(2,Z/4)); a later arc (B1042, 2026-08-12) is logged as \"B757-shape refuted\" in a different, unrelated context (a distinct trit/SL(2,5) computation) — not a retraction of B757 itself.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "g^3=I, charpoly(g)=Phi_3 exactly for B302's g=[[0,-1],[1,-1]]", "where": "compute.py cell 1 + output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy matrix arithmetic, deterministic, output matches"},
+{"what": "companion(Delta mod 4) equals g mod 4 entry-for-entry: [[0,3],[1,3]]", "where": "compute.py cell 2 + output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact modular arithmetic in committed script"},
+{"what": "|GL(2,Z/4)|=96, 8 order-3 elements forming exactly 1 conjugacy class", "where": "compute.py cell 3 (brute force over all 256 4-tuples, filtered to determinant units) + output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive brute-force enumeration and conjugation check, fully deterministic and committed"}
+],
+"belt": "NONE",
+"belt_note": "Single self-contained compute.py with all three cells; no separate independent re-derivation or belt/ directory present for this arc.",
+"absence_claims": [
+{"quote": "the identity was never established", "where": "frontier/B757_two_z3_identity/PREREGISTRATION.md:4 (quoting cc2's DOOR4 residual)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A clean, fully exact, brute-force-verified group-theory dissolution of a coincidence between two Z/3 actions; the E20 guard (declared before computing) correctly anticipated and confirmed that a mod-4 coincidence in a 96-element group with only one order-3 conjugacy class carries essentially no information."
+},
+{
+"arc": "B758_theorem_ledger",
+"source": "main",
+"files_read": [
+"frontier/B758_theorem_ledger/FINDINGS.md",
+"frontier/B758_theorem_ledger/PREREGISTRATION.md",
+"frontier/B758_theorem_ledger/arc_verdict.json"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — \"Consolidated the forced core into an 18-link THEOREM_LEDGER with every link labeled and every axiom priced; the chain cites and asserts nothing new.\"",
+"log_says": "PROGRESS_LOG/REVIEWS 28-29: consistent — 18-link ledger with 6 genesis + 9 structure + 2 no-go + 1 unpriced-axiom links, docs/THEOREM_LEDGER.md as deliverable; no new computation claimed.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "docs/THEOREM_LEDGER.md — 18 labeled links, 12 cited lock files (55 tests)", "where": "docs/THEOREM_LEDGER.md (not in this arc's files; only referenced)", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "This arc's own directory contains only FINDINGS/PREREG/verdict — no compute.py or output; the deliverable (the ledger file itself) lives outside frontier/B758_theorem_ledger/ and was not part of this read, so the claim that all 12 cited locks are present and green cannot be checked from this arc's files alone"}
+],
+"belt": "NONE",
+"belt_note": "This is explicitly a consolidation/bookkeeping arc (\"a VIEW of the bank\"), not a computation; it has no compute.py, output.txt, or verification directory of its own.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The arc's stated deliverable (docs/THEOREM_LEDGER.md, the 18-link spine and its 12 lock-file pointers) is not among the files in this arc's own directory and was not read as part of this digest; the FINDINGS' claim of '12 lock files cited, all present, all collecting (55 tests)' is unverified from what this arc committed locally.", "where": "frontier/B758_theorem_ledger/FINDINGS.md:9"}
+],
+"seat_note": "This is a pure editorial/consolidation arc with no independent physics or math content of its own — its entire value rides on the correctness of the 18 links it cites, which were not re-examined here; treat it as a pointer, not new evidence."
+},
+{
+"arc": "B759_qp3_integration",
+"source": "main",
+"files_read": [
+"frontier/B759_qp3_integration/FINDINGS.md",
+"frontier/B759_qp3_integration/FORENSIC_SEAL_RECORD.md",
+"frontier/B759_qp3_integration/PREREGISTRATION.md",
+"frontier/B759_qp3_integration/arc_verdict.json",
+"frontier/B759_qp3_integration/compute.py",
+"frontier/B759_qp3_integration/output.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"The theta-odd and theta-even sectors couple at SL(3)=Sym^2 but not at SL(2), with off-block norm sqrt3 = sqrt|disc Q(sqrt-3)|.\"",
+"log_says": "PROGRESS_LOG 2026-07-22 logs INTEGRATED as banked; however the SAME-DAY log entry for B764 (2026-07-22) states the general 'coupling = sqrt(d) for trace field Q(sqrt(-d))' law asserted here (FINDINGS section 'The discriminant law') was tested out-of-family at 5_2 and FAILED, replaced same-run by a corrected pair-separation law — this correction is not reflected anywhere in B759's own FINDINGS.md.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+{"what": "SL(2) trace map off-block = 0 (DISSOCIATED); SL(3)=Sym^2 off-block norm^2=60, total norm^2=128, coupling fraction 15/32; adjoint off-block norm 3*sqrt(2)/2", "where": "compute.py Parts 1-4 + output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy symbolic differentiation at u=omega plus a numpy numerical cross-check, both in the committed script, matching output exactly"},
+{"what": "The discriminant law: 'for a manifold with trace field Q(sqrt(-d)), the Sym^2 off-block norm = sqrt(d)' stated as a general law", "where": "compute.py Part 7 + FINDINGS.md 'The discriminant law' section", "kind": "FITTED", "reproducible_from_committed": "yes (the m004 instance is exact), but the GENERALIZATION beyond m004/m003 was never tested in this arc", "why": "only one trace field (Q(sqrt-3)) is exercised in this compute.py; the 'general law' language extrapolates from a single data point and was falsified the same day by a sibling arc (B764) using a different knot (5_2) — this arc's own FINDINGS still states the general law without qualification"}
+],
+"belt": "NONE",
+"belt_note": "No dedicated verification/ directory; Q2 controls (theta-fixed-locus check, m003 comparator) are inside the same compute.py rather than an independent belt.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "B759's FINDINGS.md states as a general law 'for a manifold with trace field Q(sqrt(-d)), the coupling is sqrt(d)' — this was tested out-of-family at 5_2 by B764 (same day, 2026-07-22) and found to FAIL, with a corrected pair-separation law substituted. B759's own FINDINGS.md carries no addendum or correction pointer to B764; a reader of B759 alone would take the false general law at face value.", "where": "frontier/B759_qp3_integration/FINDINGS.md lines 46-56 ('The discriminant law' section)"},
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "The interpretive framing ('theta-odd = chord/hearing', 'theta-even = sum/being', 'the object's voices couple where it lives') layers a philosophical narrative over a bare Jacobian off-block computation; the numeric content (coupling fraction 15/32, norm sqrt3) is real and exact, but the physics-sounding vocabulary is program-internal metaphor, not measured or predicted physics.", "where": "frontier/B759_qp3_integration/FINDINGS.md throughout"}
+],
+"seat_note": "The core linear-algebra computation (off-block Jacobian norms at SL(2)/SL(3)/adjoint) is exact and correctly cross-checked numerically, but the arc's own headline generalization ('coupling = sqrt(d) for any imaginary-quadratic trace field') was falsified the same day by B764 without B759's FINDINGS being updated — a live, uncorrected overclaim sitting in the banked record."
+},
+{
+"arc": "B760_qp4_closure",
+"source": "main",
+"files_read": [
+"frontier/B760_qp4_closure/FINDINGS.md",
+"frontier/B760_qp4_closure/FORENSIC_SEAL_RECORD.md",
+"frontier/B760_qp4_closure/PREREGISTRATION.md",
+"frontier/B760_qp4_closure/arc_verdict.json",
+"frontier/B760_qp4_closure/output.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — \"No object-native operation (Galois, MCG powers, C, tau, coupling sign) canonically signs the theta-odd chord sector: the object cannot close itself.\"",
+"log_says": "PROGRESS_LOG entries (2026-07-22 onward through B1183, 2026-08-27) consistently describe this as 'the object cannot chirally sign itself' / 'registerability IS chirality, which B713/B760 prove the object does not supply' and later fold it into a one-class theorem (B1183) identifying the QP-4 obstruction with an orientation obstruction — treated as a stable, reused result, not contradicted.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Weld block B is SU(2) with eigenvalues {zeta_5, zeta_5^4} (72-degree rotation), B^5=I, and no candidate operation (Galois, MCG powers, charge conjugation, amphicheiral involution, QP-3 coupling sign) canonically breaks the pairing", "where": "output.txt Parts 1-8 (compute.py itself was NOT in this arc's file list — only its stdout is committed)", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "compute.py is referenced ('cd frontier/B760_qp4_closure && python compute.py') in FINDINGS.md but is not among the files provided for this arc (only FORENSIC_SEAL_RECORD.md, FINDINGS.md, PREREGISTRATION.md, arc_verdict.json, output.txt were listed) — the reproducing script was not read/verified here"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ directory; Q2 controls are embedded in the same run (output.txt Part 9).",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "compute.py, the script FINDINGS.md explicitly instructs a reader to rerun ('Output is byte-identical on rerun'), was not present among this arc's listed files in the packet, so this digest could not verify the code producing output.txt.", "where": "frontier/B760_qp4_closure/FINDINGS.md:71-76 (Reproduction section) vs. packet file list for B760_qp4_closure"},
+{"kind": "OTHER", "detail": "FORENSIC_SEAL_RECORD.md documents that the sealed PREREGISTRATION.md was edited post-seal to insert its own hash string, and the gate had to reconstruct the original hash by subtracting the inserted line; flagged in-repo as a 'convention trap' (never write the hash into the sealed file) — a transparent but real seal-integrity wobble.", "where": "frontier/B760_qp4_closure/FORENSIC_SEAL_RECORD.md"},
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "The interpretive overlay ('awareness without choice', 'the object cannot close itself', S072 Layer-3) is philosophical narrative wrapped around a genuine Galois-orbit/eigenvector-canonicity argument; the math (no real eigenvector of a non-half-integer rotation) is correct and elementary, but 'awareness' is not a measured or defined physical quantity anywhere in this arc.", "where": "frontier/B760_qp4_closure/FINDINGS.md throughout"}
+],
+"seat_note": "The underlying claim — a 2x2 unitary with eigenphases +-72 degrees has no Galois-canonical real eigenvector — is a correct and essentially elementary fact about rotations and cyclotomic fields, verified numerically in output.txt; but this digest could not confirm the exact reproducing script since compute.py itself was not supplied with this arc's file list."
+},
+{
+"arc": "B761_qp2_private",
+"source": "main",
+"files_read": [
+"frontier/B761_qp2_private/FINDINGS.md",
+"frontier/B761_qp2_private/PREREGISTRATION.md",
+"frontier/B761_qp2_private/arc_verdict.json",
+"frontier/B761_qp2_private/compute.py",
+"frontier/B761_qp2_private/output.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"fiber_dim(n)=0 at every rank: each deformation direction is visible from the cusp torus, so the object has no private states.\"",
+"log_says": "Only one late log mention (B1169, 2026-08-27) folds this in as a solid, own-verified result ('the blanket that sees everything (QP-2 FLAT, B761) is aware-but-choiceless') — consistent with FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "dim H^1(Sym^2k)=1 for k=1,2,3 (double-checked against B264's independent mpmath Fox-calculus module) and boundary-restriction rank=1 per block, giving fiber_dim(n)=0 for n=2,3,4", "where": "compute.py Parts 1-6 + output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes (self-contained numpy method fully reproducible); the B264 cross-check and B357 cross-validation depend on IMPORTING external modules (B264_e6_character_variety, B357_e6_boundary_restriction) not included in this arc's files", "why": "the script's Method A is self-contained and deterministic; Methods B and C dynamically import other arcs' Python modules by path, so full reproduction requires those other arcs' files to also be present and unchanged"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Explicit double/triple-method cross-validation design with an in-script HALT mechanism that stops before issuing a verdict on any disagreement; an initial convention bug (checking v[0] instead of v[last]) was caught by this very mechanism and is disclosed in FINDINGS.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "'Private states' / 'Markov blanket sees everything' is interpretive language mapped onto a cohomology-dimension-counting fact (H^1 of the adjoint representation restricted to the boundary torus); the math is sound but the physics/cognitive-science vocabulary is metaphorical, not measured.", "where": "frontier/B761_qp2_private/FINDINGS.md throughout"}
+],
+"seat_note": "Methodologically the strongest of the QP-sequence arcs: genuine double-method cross-validation with a hard HALT gate that actually caught and disclosed a real convention bug before any verdict was issued — good practice, though the result still rests partly on externally-imported modules not included in this arc's own files."
+},
+{
+"arc": "B762_qp1_self_naming",
+"source": "main",
+"files_read": [
+"frontier/B762_qp1_self_naming/FINDINGS.md",
+"frontier/B762_qp1_self_naming/PREREGISTRATION.md",
+"frontier/B762_qp1_self_naming/arc_verdict.json",
+"frontier/B762_qp1_self_naming/compute.py",
+"frontier/B762_qp1_self_naming/output.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"m004 is the unique 1-cusped census manifold with its spectral dataset (volume plus cusp shape), so the emitted word is a self-name.\"",
+"log_says": "PROGRESS_LOG (2026-07-22) banks QUINE consistent with FINDINGS; later entries (B1184, B1202, Review 51 — all 2026-08-27/28) explicitly correct a STALE register belief that 'QP-1 open' had persisted elsewhere in the project's bookkeeping even though B762 had already proved it — a register/record drift, not a contradiction of B762 itself.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Census sweep of 203,123 one-cusped SnapPy census manifolds: exactly 2 volume matches to m004 (m003, m004); cusp-shape comparison isolates m004 uniquely (m003 differs by |shape diff|=2.65)", "where": "compute.py + output.txt Parts 1-8", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "full deterministic SnapPy census scan with printed intermediate counts (203123 1-cusped, 2 volume matches, 1 cusp-shape match) and a broader disc=-3 sweep (10 Eisenstein-shape manifolds at other volumes, all integer-multiple covers) — well-documented, exact reproduction path"}
+],
+"belt": "NONE",
+"belt_note": "Single compute.py covering the full census sweep and controls; no separate verification directory, though the 'double-method' design (volume+shape vs. trace-field-disc) is built into the one script.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "'Self-naming', 'quine', 'voice is a self-name' is narrative framing over a straightforward census-uniqueness search (does any other 1-cusped manifold share m004's volume and cusp shape); the uniqueness result itself is a real, exact computation but the self-referential/cognitive language is metaphor, not physics.", "where": "frontier/B762_qp1_self_naming/FINDINGS.md throughout, especially the 'four-fork summary' and closing paragraph"}
+],
+"seat_note": "The census-uniqueness claim is a genuine, exactly reproducible computation over the full 203K-manifold SnapPy census with a sensible sister-manifold control (m003); the 'self-naming'/'quine' interpretive vocabulary carries no additional physics content beyond that uniqueness fact."
+},
+{
+"arc": "B763_branch_reconciliation",
+"source": "main",
+"files_read": [
+"frontier/B763_branch_reconciliation/FINDINGS.md",
+"frontier/B763_branch_reconciliation/arc_verdict.json"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"Branch-reconciliation sweep classified and disposed every unmerged ref, establishing that no conclusions were lost, and minted one standing rule.\"",
+"log_says": "PROGRESS_LOG/REVIEWS: consistent — the branch-inventory rule (B763 rule) is repeatedly invoked and applied in many later reviews (29, 43-48, 53) as an ongoing housekeeping check, always cited as the origin of the standing rule.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Full git-branch inventory classification: 6 stale refs pruned, 3 frozen-record branches registered, 1 live branch (b666-addendum1) verified fully superseded file-by-file and closed", "where": "frontier/B763_branch_reconciliation/FINDINGS.md", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "This is a git-repository administrative audit (branch listing and classification), not a mathematical computation; no script or command output is committed in this arc's directory to let a stranger reproduce the branch inventory as it stood at the time — it is a narrative record of a one-time housekeeping action"}
+],
+"belt": "NONE",
+"belt_note": "No compute.py/output.txt/verification directory — this is a git-hygiene/process arc, not a math arc.",
+"absence_claims": [
+{"quote": "the priors were ON MAIN. The exposure was real but structural: this seat reads main + gate-arrivals only, so an unmerged branch carrying unbanked conclusions WOULD have been invisible", "where": "frontier/B763_branch_reconciliation/FINDINGS.md:43"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Pure repository-hygiene/process arc with no mathematical or physics content; its value is procedural (a standing branch-inventory rule for future reviews), not evidentiary."
+},
+{
+"arc": "B764_c19_comparator",
+"source": "main",
+"files_read": [
+"frontier/B764_c19_comparator/FINDINGS.md",
+"frontier/B764_c19_comparator/PREREGISTRATION.md",
+"frontier/B764_c19_comparator/arc_verdict.json",
+"frontier/B764_c19_comparator/compute.py",
+"frontier/B764_c19_comparator/output.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"C19's sqrt|disc K| form breaks at 5_2; the corrected general law — off-block equals the geometric Riley pair's separation |u - ubar| — verified to 40 digits.\"",
+"log_says": "PROGRESS_LOG/REVIEWS 29: consistent — describes this as the chain's first self-correction, LAW-BREAKS at 5_2, corrected pair-separation law found and verified same-run.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Control: m004 off-block reproduces sqrt(3) (B759's value) exactly; Prediction: 5_2 off-block = 2.614283, NOT sqrt(23)=4.795832 as C19 predicted", "where": "compute.py + output.txt (first two sections)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy computation over both Riley polynomials (u^2+u+1 and u^3+u^2+2u+1), deterministic and matches output.txt"},
+{"what": "Corrected law: off-block=|u_geo-conj(u_geo)|; (z-zbar)^2*[(z-r)(zbar-r)]^2 = disc(-23) verified to 40 digits; off-block * |(z-r)(zbar-r)| = sqrt(23)", "where": "output.txt, section 'THE CORRECTION, EXACT' (appears twice, the first attempt ending in a Python TypeError traceback, the second succeeding)", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "compute.py as committed ends after the two offblock_at_roots() calls for m004 and 5_2 — it contains NO code computing the factorization identity, the 40-digit verification, or the corrected pair-separation law shown in output.txt's 'THE CORRECTION, EXACT' sections; that additional output (including a visible traceback from a failed float() cast) was evidently produced by an uncommitted interactive follow-up, so the arc's most important finding (the corrected general law) cannot be reproduced by running the committed compute.py"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ directory; the arc's own two-part structure (control + prediction) functions as an internal Q2b comparator test against B759, but the load-bearing correction itself is not in the committed script.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "output.txt contains a whole extra section ('THE CORRECTION, EXACT', run twice, once ending in an uncaught Python TypeError traceback) with no corresponding code in the committed compute.py — the 40-digit verification of the corrected pair-separation law that FINDINGS.md presents as the arc's key result is not reproducible from the files as committed.", "where": "frontier/B764_c19_comparator/output.txt lines 29-54 vs. frontier/B764_c19_comparator/compute.py (ends at line 47)"}
+],
+"seat_note": "This is a genuinely valuable falsification-and-correction episode (a same-day self-correction of B759's overclaimed general law), but ironically the corrected law's own 40-digit verification — the arc's real payoff — is not reproducible from the committed compute.py, which stops short of computing it; a stranger running the script gets only the control+prediction failure, not the fix."
+},
+{
+"arc": "B765_p3_depth",
+"source": "main",
+"files_read": [
+"frontier/B765_p3_depth/FINDINGS.md",
+"frontier/B765_p3_depth/PREREGISTRATION.md",
+"frontier/B765_p3_depth/arc_verdict.json",
+"frontier/B765_p3_depth/output.txt",
+"frontier/B765_p3_depth/results.json"
+],
+"files_sampled": ["frontier/B765_p3_depth/compute.py (first 120 lines read + grep for def/assert/print/==; hand-coded per-target elif branches for all 21 targets confirmed present)"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"21 depth-flagged banked kills adjudicated: 8 depth-closed, 6 held by the spectral face, 7 genuinely underproved relative to their universal claims.\"",
+"log_says": "PROGRESS_LOG/REVIEWS 28-29: consistent — 'the hunt completes (B765): P1 earned / P2 spectral / P3 depth; the depth-closure backlog named (7 items, not wrong — underproved).'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Per-target classification of 21 P1-banked negatives into DEPTH-CLOSED (8) / DEPTH-HELD (6) / DEPTH-EXPOSED (7), reading data from frontier/B742's kill_graph.json and bprime_annotations.json", "where": "compute.py (per-target elif branches, e.g. lines 139-284) + results.json", "kind": "ASSERTED", "reproducible_from_committed": "yes (mechanically — the script runs deterministically over committed JSON inputs), but the classifications themselves (has_universal_step, gap_description) are hand-authored per target inside the elif branches, not derived by a general algorithm from the depth_note text", "why": "Method A is described in PREREGISTRATION.md as parsing depth_note text automatically, but the actual compute.py hard-codes a separate elif branch with a pre-written verdict and gap_description for each of the 21 named targets — this is closer to a documented expert judgment call per target than an automated, generalizable classifier, though it is transparent about its inputs and reasoning"}
+],
+"belt": "NONE",
+"belt_note": "No separate verification directory; Method A and Method B cross-validation is built into the single compute.py, with an explicit HALT mechanism (not triggered: halt=false in results.json).",
+"absence_claims": [
+{"quote": "n=1..8 checked; claim universal; no induction/stabilization proof", "where": "frontier/B765_p3_depth/results.json (B489 entry)"},
+{"quote": "depth>=6 unswept; no depth-uniform obstruction proved", "where": "frontier/B765_p3_depth/results.json (B500 entry)"},
+{"quote": "None requires new mathematics — all are finite-extension or induction proofs within the existing framework. But none has been executed.", "where": "frontier/B765_p3_depth/FINDINGS.md:97-98"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "An unusually candid, self-critical meta-audit that explicitly names 7 of the program's own banked negatives as 'underproved, not disproved' with a stated but unexecuted stabilization backlog; the classification logic, while transparent, is hand-coded per target rather than a generic algorithm, so it should be read as documented expert judgment rather than an independently-checkable computation."
+}
+]
+}

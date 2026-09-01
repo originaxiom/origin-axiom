@@ -1,0 +1,953 @@
+{
+ "batch": "arcs_001",
+ "arcs": [
+  {
+   "arc": "B32_selector_axiom_audit",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B32_selector_axiom_audit/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B32_selector_axiom_audit/README.md",
+    "/home/user/origin-axiom/frontier/B32_selector_axiom_audit/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B32_selector_axiom_audit/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The A1-A7-plus-exchange chain does not select I=1/4; the missing ingredient is isolated as the A-sector self-similarity selector S1. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "S1 selector needed to get I=1/4, lambda/h=1",
+     "where": "probe.py asserts selected_i == Rational(1,4) given S1 assumption",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes",
+     "why": "probe.py runs symbolic algebra confirming the conditional derivation, but S1 itself is stated as an assumption not derived from A1-A7"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; probe.py is the only computation, self-contained sympy asserts.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Honest negative result: clearly separates what the axiom chain proves from what remains assumed (S1); no red flags found."
+  },
+  {
+   "arc": "B33_sl_n_trace_tower",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B33_sl_n_trace_tower/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B33_sl_n_trace_tower/README.md",
+    "/home/user/origin-axiom/frontier/B33_sl_n_trace_tower/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B33_sl_n_trace_tower/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "SL(2) and SL(3) trace-map Jacobian spectra decompose exactly as symmetric powers of the half-step eigenvalues (Sym^2; Sym^3+Sym^2+trivial). | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "SL(2)/SL(3) trace-map spectra = symmetric-power decomposition",
+     "where": "probe.py section [1],[2] sympy factor/assert checks",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "polynomial identities are checked symbolically and reproducible, but only rank 2 and 3 are verified; general SL(n) is only a target extrapolation (section [3])"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; single probe.py performs the sympy checks.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json states verdict PROVED with claim restricted to SL(2)/SL(3), but FINDINGS.md and probe.py both explicitly print/assert 'Verdict: STALLED' because 'a general SL(n) theorem is not derived' -- the verdict file and the findings/probe text disagree on overall arc status even though the underlying computed content (rank 2/3 only) is consistent.",
+     "where": "B33 arc_verdict.json field 'verdict':'PROVED' vs FINDINGS.md '## Verdict **STALLED**' and probe.py 'print(\"Verdict: STALLED\")'"
+    }
+   ],
+   "seat_note": "The rank-2/rank-3 symmetric-power decomposition is a real, reproducible computation, but the arc's own verdict.json says PROVED while its FINDINGS.md and probe.py output both say STALLED for the general claim -- readers relying only on arc_verdict.json (the 'claim of record') would overstate what was shown."
+  },
+  {
+   "arc": "B34_goldman_wp_quotient_naturality",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B34_goldman_wp_quotient_naturality/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B34_goldman_wp_quotient_naturality/README.md",
+    "/home/user/origin-axiom/frontier/B34_goldman_wp_quotient_naturality/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B34_goldman_wp_quotient_naturality/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The central-sign action is Poisson for the Fricke-Goldman bracket, so the sign quotient is natural and the anti-Poisson half-step descends. | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "central-sign action is Poisson; half-step map is anti-Poisson",
+     "where": "probe.py sections [1]-[3], symbolic bracket checks with asserts",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit symbolic Poisson-bracket computation with assertions; reproducible from probe.py alone"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json verdict is PROVED but FINDINGS.md and probe.py both state 'Verdict: STALLED' -- 'Goldman/WP naturality supports the quotient but does not derive the selector', because the Poisson structure applies to all I-surfaces and does not select I=1/4.",
+     "where": "B34 arc_verdict.json 'verdict':'PROVED' vs FINDINGS.md '## Verdict **STALLED**'"
+    }
+   ],
+   "seat_note": "The Poisson-bracket naturality computation itself checks out symbolically, but again the verdict.json label (PROVED) contradicts the arc's own stated conclusion (STALLED, does not select I=1/4) -- a reader trusting only the verdict file would think more was derived than was."
+  },
+  {
+   "arc": "B35_topology_cusp_marking_route",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B35_topology_cusp_marking_route/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B35_topology_cusp_marking_route/README.md",
+    "/home/user/origin-axiom/frontier/B35_topology_cusp_marking_route/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B35_topology_cusp_marking_route/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The half-step action on central signs has order 3 over F_2, explaining the order-3 projective return via lift-sign topology. | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "half-step action on sign characters (Z/2)^2 has order 3, matching projective period-3 return",
+     "where": "probe.py [1],[2] mod2_matrix_power checks and orbit assertion",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "small explicit finite computation (matrix mod 2, orbit enumeration), fully reproducible"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json says PROVED, but FINDINGS.md and probe.py both conclude 'Verdict: STALLED' -- 'the sign-character cycle contains no invariant-surface parameter... does not select I=1/4'.",
+     "where": "B35 arc_verdict.json 'verdict':'PROVED' vs FINDINGS.md '## Verdict **STALLED**'"
+    }
+   ],
+   "seat_note": "The order-3 sign-cycle computation is a small, correct, reproducible finite check, but it does not bear on the selector question the campaign cares about, and the verdict.json label overstates this relative to the arc's own findings text."
+  },
+  {
+   "arc": "B36_fibonacci_renormalization_route",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B36_fibonacci_renormalization_route/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B36_fibonacci_renormalization_route/README.md",
+    "/home/user/origin-axiom/frontier/B36_fibonacci_renormalization_route/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B36_fibonacci_renormalization_route/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Fibonacci renormalization route only reuses the B26 selector; it yields no independent derivation of lambda/h=1, and gap-label controls fail to distinguish I=1/4. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "gap-labeling residuals for several lambda/h values (0.5,1.0,sqrt5,4.0) all pass the same tolerance",
+     "where": "probe.py gap_control()/best_gap_label_residual(), asserts control.matches==control.count and max_residual<5e-3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "numeric eigenvalue computation (scipy eigh_tridiagonal) on Fibonacci word of length index 16, fully in probe.py, reproducible; but only a numeric/tolerance-based check, no exact witness for the eigenvalues"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; relies on scipy numerics with a fixed word_index=16 and tolerance 5e-3 rather than exact arithmetic.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "The gap-label control that is supposed to show non-selectivity of I=1/4 relies entirely on floating-point eigenvalues and an ad hoc 5e-3 residual tolerance over 4 sampled coupling values -- not an exact or exhaustive argument.",
+     "where": "probe.py functions eigenvalues(), best_gap_label_residual(), gap_control()"
+    }
+   ],
+   "seat_note": "Correctly negative (no independent selection of lambda/h=1), but the supporting numerical gap-labeling test is a coarse floating-point tolerance check over only 4 sample couplings, not a rigorous argument that no coupling is distinguished."
+  },
+  {
+   "arc": "B37_operational_feedback_quarantine",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B37_operational_feedback_quarantine/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B37_operational_feedback_quarantine/README.md",
+    "/home/user/origin-axiom/frontier/B37_operational_feedback_quarantine/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B37_operational_feedback_quarantine/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Under fixed operational definitions the trace map has feedback and an invariant but fails the self-model criterion, quarantining awareness-adjacent readings. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "trace map has a nonlinear (feedback) component and an exactly preserved invariant, but does not explicitly reference an invariant variable I (fails 'self-model')",
+     "where": "probe.py sections [1]-[3]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "symbolic checks on the fixed trace-map formula; straightforward and reproducible"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "This is a terminology/definitions housekeeping arc (quarantining awareness/consciousness language), not a physics result; the computation is trivial and the value is entirely in explicitly disclaiming metaphysical over-reach, which is good practice."
+  },
+  {
+   "arc": "B38_tangent_return_arithmetic_filter",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B38_tangent_return_arithmetic_filter/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B38_tangent_return_arithmetic_filter/README.md",
+    "/home/user/origin-axiom/frontier/B38_tangent_return_arithmetic_filter/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B38_tangent_return_arithmetic_filter/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Requiring integer minimal hyperbolic trace on the tangent return gives mu=3 and I=1/4, but the needed inheritance of the arithmetic filters is unproven. | OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "mu=3 selects I=1/4 given integer/minimal-trace and torsion-one closure assumptions",
+     "where": "probe.py sections [2]-[4], sympy solve/assert",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the arithmetic derivation is exact and reproducible; the arc itself flags that the premise (inheritance of filters by the tangent return) is not proven"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean conditional result: correctly labels itself CONDITIONAL/OPEN rather than claiming a derivation; verdict.json and FINDINGS.md agree here."
+  },
+  {
+   "arc": "B39_tangent_lattice_naturality",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B39_tangent_lattice_naturality/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B39_tangent_lattice_naturality/README.md",
+    "/home/user/origin-axiom/frontier/B39_tangent_lattice_naturality/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B39_tangent_lattice_naturality/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Tangent-lattice integrality leaves an infinite discrete family c^2=(m+2)/4; the projective quotient alone derives no canonical lattice and does not select m=3. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "integrality of companion-matrix trace gives infinite family c^2=(m+2)/4",
+     "where": "probe.py sections [1]-[3]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "straightforward symbolic algebra, fully reproducible"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Correctly negative control showing the quotient alone underdetermines the lattice; verdict and findings agree."
+  },
+  {
+   "arc": "B40_filter_reuse_audit",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B40_filter_reuse_audit/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B40_filter_reuse_audit/README.md",
+    "/home/user/origin-axiom/frontier/B40_filter_reuse_audit/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B40_filter_reuse_audit/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Audit finds S1 is not derived from the A1-A7 core: it is conditional on a newly named, underived assumption T1 (filter inheritance). | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "classification of derived vs conditional vs not-derived status for S1/T1 chain",
+     "where": "probe.py sections [1]-[3]",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes",
+     "why": "the classification itself is a bookkeeping/audit statement (dict of strings), not a mathematical derivation; the accompanying algebra (mu=3 => I=1/4) is computed but the overall audit conclusion is an editorial judgment"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Useful, honest bookkeeping arc that names the missing assumption T1 explicitly rather than hiding it; appropriately labeled CONDITIONAL/NEGATIVE."
+  },
+  {
+   "arc": "B41_projective_orbit_census",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B41_projective_orbit_census/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B41_projective_orbit_census/README.md",
+    "/home/user/origin-axiom/frontier/B41_projective_orbit_census/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B41_projective_orbit_census/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "A bounded projective census shows the B26 period-3 orbit is the simplest one-parameter family, but c stays free, so it does not select I=1/4. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "bounded census over small rational seeds {-1,0,1}^3 finds periods 1 and 3 present",
+     "where": "probe.py [1] itertools.product census, [2] exact coordinate-axis family",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "small brute-force enumeration, exact via Fraction, reproducible; but the census is bounded to 3 seed values per coordinate so 'simplest orbit' claims are only within that small search space"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The census that supports 'B26 orbit is simplest' only searches seeds in {-1,0,1}^3 (27 points), a very small bounded space; the generality of 'simplest nontrivial family' is not established beyond this.",
+     "where": "probe.py section [1], seeds = [Fraction(-1), Fraction(0), Fraction(1)]"
+    }
+   ],
+   "seat_note": "Correctly negative on the selector question; the supporting 'simplicity' claim rests on a tiny 27-point bounded search, so should not be over-read as a general orbit classification."
+  },
+  {
+   "arc": "B42_variational_selector_controls",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B42_variational_selector_controls/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B42_variational_selector_controls/README.md",
+    "/home/user/origin-axiom/frontier/B42_variational_selector_controls/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B42_variational_selector_controls/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Natural variational quantities of the tangent return (eigenvalue, torsion proxy, discriminant) are monotone on I>0 with no intrinsic stationary point at I=1/4. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "mu, torsion proxy, discriminant are monotone in I; only a circularly-constructed functional has a stationary point at I=1/4",
+     "where": "probe.py [1]-[3], sympy diff/solve/assert",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact symbolic derivatives, reproducible"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean negative control that also explicitly demonstrates the circularity trap (building I=1/4 into the functional) rather than falling into it -- good practice."
+  },
+  {
+   "arc": "B43_markov_fricke_arithmetic_route",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B43_markov_fricke_arithmetic_route/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B43_markov_fricke_arithmetic_route/README.md",
+    "/home/user/origin-axiom/frontier/B43_markov_fricke_arithmetic_route/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B43_markov_fricke_arithmetic_route/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Markov-Fricke discriminant route reaches I=1/4 only after assuming an integer-trace filter; without it the discriminant is continuous with no arithmetic minimum. | OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Delta=5 is the smallest nonsquare discriminant among integer hyperbolic traces mu=3..11, selecting I=1/4",
+     "where": "probe.py [1]-[3]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "small explicit finite search (trace 3..11) plus symbolic algebra, reproducible; correctly conditioned on the integer-trace assumption"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Consistent, appropriately conditional result; verdict.json (OPEN) and FINDINGS.md (CONDITIONAL) agree in substance."
+  },
+  {
+   "arc": "B44_topological_torsion_route",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B44_topological_torsion_route/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B44_topological_torsion_route/README.md",
+    "/home/user/origin-axiom/frontier/B44_topological_torsion_route/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B44_topological_torsion_route/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Torsion-one closure |det(M-I)|=1 selects mu=3 and hence I=1/4, conditional on the tangent return inheriting a mapping-torus torsion interpretation. | OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "|det(M-I)|=1 forces mu=3 on positive hyperbolic branch, giving I=1/4",
+     "where": "probe.py [1]-[2]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact symbolic solve, reproducible; correctly conditioned on interpretive assumption"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Consistent conditional derivation; verdict and findings agree (OPEN/CONDITIONAL)."
+  },
+  {
+   "arc": "B45_renormalization_fixed_point_route",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B45_renormalization_fixed_point_route/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B45_renormalization_fixed_point_route/README.md",
+    "/home/user/origin-axiom/frontier/B45_renormalization_fixed_point_route/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B45_renormalization_fixed_point_route/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The projective return gives the Lucas hierarchy (lambda/h)^2=L_n-2; lambda/h=1 is selected only if the primitive sector is treated as ground state. | OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Lucas hierarchy (lambda/h)^2 = L_n-2 for n=2,4,6,...: values 1,5,16,45,121",
+     "where": "probe.py [1] trace(f**n) computation",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact symbolic matrix power/trace computation, reproducible; the 'primitive=ground state' framing is an interpretive choice, correctly flagged as an assumption"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Honestly conditional; the Lucas hierarchy numbers are real and reproducible, but selecting n=2 as 'ground state' is acknowledged as an assumption rather than a derivation."
+  },
+  {
+   "arc": "B46_rank_stability_controls",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B46_rank_stability_controls/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B46_rank_stability_controls/README.md",
+    "/home/user/origin-axiom/frontier/B46_rank_stability_controls/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B46_rank_stability_controls/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The selected quadratic t^2-3t+1 divides the SL(3) trace-lift Jacobian while t^2-4t+1 does not: higher rank is consistent with S1 but does not derive it. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "polynomial division: t^2-3t+1 divides SL(3) char poly exactly, t^2-4t+1 does not",
+     "where": "probe.py [1]-[2] sp.div with domain=QQ",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact polynomial division, reproducible; SL(3) char poly is asserted/imported from B27 rather than re-derived here"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; the SL(3) 'known char' polynomial is taken as given (imported from B27), not rebuilt.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IMPORTED",
+     "detail": "The SL(3) trace-lift Jacobian characteristic polynomial used as the reference ('known SL(3) char') is hard-coded from a prior arc (B27) rather than recomputed in this probe.",
+     "where": "probe.py: sl3_char = sp.factor((t - 1) * (t + 1) * (t**2 - 4 * t - 1) * (t**2 - 3 * t + 1) * (t**2 + t - 1))"
+    }
+   ],
+   "seat_note": "A correct, exact divisibility check, but it depends on an imported polynomial from B27 that is not re-derived or cross-checked here, so the arc's stability claim inherits any error in that import."
+  },
+  {
+   "arc": "B47_s1_verdict_ledger",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B47_s1_verdict_ledger/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B47_s1_verdict_ledger/README.md",
+    "/home/user/origin-axiom/frontier/B47_s1_verdict_ledger/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B47_s1_verdict_ledger/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Ledger verdict: lambda/h=1 is conditional, not derived; the strongest honest statement is T1 -> S1, with T1 itself underived by the framework. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "campaign-wide summary table over B38-B46 verdicts",
+     "where": "probe.py verdicts dict, hard-coded",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the verdicts dict is manually transcribed from the other arcs' own README status lines rather than programmatically pulled from their files, so a stranger cannot mechanically reproduce it without re-reading each arc; it is however consistent with what B38-B46 report"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc functions as a summary/ledger over B38-B46 rather than doing independent computation; instrument:true in arc_verdict.json.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-labeled honest ledger (marked instrument:true) that correctly concludes S1/lambda-h=1 is conditional on the underived T1 -- this is the campaign's own admission that the central selector I=1/4 is not derived from the axioms."
+  },
+  {
+   "arc": "B48_sl3_metallic_trace_maps",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B48_sl3_metallic_trace_maps/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B48_sl3_metallic_trace_maps/README.md",
+    "/home/user/origin-axiom/frontier/B48_sl3_metallic_trace_maps/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B48_sl3_metallic_trace_maps/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The SL(3) Fibonacci trace lift extends to the whole metallic family, with algebraic entropy log((m+sqrt(m^2+4))/2), invariant commutator trace pair, and certificate-backed integer fixed-line splitting. | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "trace-map recurrence formula, entropy formula, c=3/c=1 Jacobian block factorizations, integer fixed-line splitting over -120<=c<=120, 1<=m<=120, SU(3) diagonal slice",
+     "where": "probe.py check_trace_map_formula, check_entropy, check_c3_jacobian, check_c1_jacobian, check_integer_classification, check_su3_slice",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit exhaustive certificate checks over a stated finite rectangle, with a --deep flag for a larger rectangle; result codes returned per-check and printed OK/FAIL, reproducible by running probe.py"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "probe.py itself is the certificate runner; no separate verification/ directory but the checks are exhaustive over the audited rectangle and can be deepened via --deep.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json states verdict PROVED, but FINDINGS.md's own '## Verdict' section and README.md both say NEEDS_VALIDATION ('The integer splitting classification is certificate-backed over an audit rectangle. It is not yet treated as an independently reviewed human proof.'); the PROVED label in the machine-readable claim-of-record overstates the arc's own self-assessment.",
+     "where": "B48 arc_verdict.json 'verdict':'PROVED' vs FINDINGS.md '## Verdict\\n\\n```text\\nNEEDS_VALIDATION\\n```'"
+    }
+   ],
+   "seat_note": "Real, substantial, exhaustive-over-a-finite-rectangle computation (not merely asserted), but the arc_verdict.json PROVED label contradicts the arc's own FINDINGS/README which say NEEDS_VALIDATION and explicitly flag the splitting classification as certificate-backed rather than an independently reviewed proof."
+  },
+  {
+   "arc": "B49_sl3_certificate_proof_hardening",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B49_sl3_certificate_proof_hardening/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B49_sl3_certificate_proof_hardening/README.md",
+    "/home/user/origin-axiom/frontier/B49_sl3_certificate_proof_hardening/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B49_sl3_certificate_proof_hardening/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PC12's proof architecture is explicit and partly machine-checked, but is not promoted to a proven claim. | OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "universal splitting criterion, square-gap propagation lemma, finite strip exclusions for 4<=c<=14 and -11<=c<=-2",
+     "where": "probe.py check_universal_splitting_criterion, check_square_gap_propagation_lemma, check_positive_finite_strip, check_negative_strip",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit finite-range machine checks plus a stated lemma/mechanism (square-gap propagation) for the remaining infinite ranges (c>=15, c<=-12), which is described as still needing 'clean' prose, i.e. not yet a complete human-reviewable proof for all c"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "probe.py runs the finite-strip and lemma checks directly; header explicitly prints 'PC12 remains NEEDS_VALIDATION'.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Consistent arc: verdict.json (OPEN) matches FINDINGS/README/probe self-description (NEEDS_VALIDATION, proof architecture not yet a proven claim) -- a good example of honest incremental proof-hardening without over-claiming."
+  },
+  {
+   "arc": "B50_pc12_proof_draft_assembly",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B50_pc12_proof_draft_assembly/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B50_pc12_proof_draft_assembly/README.md",
+    "/home/user/origin-axiom/frontier/B50_pc12_proof_draft_assembly/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Assembles PC12 into a five-theorem internal draft-note skeleton, completing the path from certificates through proof modules to a paper candidate. | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "existence of papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE_SKELETON.md",
+     "where": "FINDINGS.md 'Result' section; confirmed present on disk (verified: directory listing shows DRAFT_NOTE_SKELETON.md and later DRAFT_NOTE.md)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes",
+     "why": "this is a documentation-assembly task, not a computation; the file's existence is directly checkable and was confirmed"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No probe.py in this arc (only 3 files); it is a writing/assembly task, not a computational one.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json says PROVED for what is purely an editorial assembly task ('Can the B48/B49 governed evidence be assembled into an internal theorem-note skeleton'); FINDINGS.md and README.md both say the arc's own status is NEEDS_VALIDATION and explicitly 'not yet DRAFTABLE'. PROVED is a category mismatch for a task with no mathematical content to prove.",
+     "where": "B50 arc_verdict.json 'verdict':'PROVED' vs FINDINGS.md '## Verdict\\n\\n```text\\nNEEDS_VALIDATION\\n```'"
+    }
+   ],
+   "seat_note": "This is bookkeeping (assembling an existing draft-note skeleton file), not a physics or math result; verdict.json labels it PROVED which is a category error given the arc is explicitly about paper-drafting logistics, not a proof."
+  },
+  {
+   "arc": "B51_sl3_symbolic_m_factorization",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B51_sl3_symbolic_m_factorization/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B51_sl3_symbolic_m_factorization/README.md",
+    "/home/user/origin-axiom/frontier/B51_sl3_symbolic_m_factorization/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B51_sl3_symbolic_m_factorization/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "With m symbolic the c=3 fixed-line Jacobian commutes with the exchange involution and block-diagonalizes into two 4-dim sectors with SymPy-verified characteristic polynomials. | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "symbolic 8x8 Jacobian J(m) commutes with exchange involution P; block-diagonalizes with characteristic polys (t-1)(t+1)(t^2-(m^2+2)t+1) and (t^2+mt-1)(t^2-(m^3+3m)t-1)",
+     "where": "probe.py check_derivative_sequences, check_exchange_block_diagonalization, check_symbolic_charpolys",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "fully symbolic in m (not a bounded numeric scan), SymPy expands the difference to zero -- an actual proof, not a certificate over a finite range"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "probe.py performs the full symbolic verification directly; no separate verification/ dir needed since m is kept as a free symbol.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "This is the strongest arc in the B48-B57 mini-campaign: a genuine symbolic (all-m) proof rather than a bounded numeric certificate, and its PROVED verdict is consistent with FINDINGS/README/probe."
+  },
+  {
+   "arc": "B52_multichannel_fibonacci_bridge_control",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B52_multichannel_fibonacci_bridge_control/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B52_multichannel_fibonacci_bridge_control/LITERATURE.md",
+    "/home/user/origin-axiom/frontier/B52_multichannel_fibonacci_bridge_control/README.md",
+    "/home/user/origin-axiom/frontier/B52_multichannel_fibonacci_bridge_control/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B52_multichannel_fibonacci_bridge_control/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The naive three-channel Fibonacci tight-binding model gives a 6x6 symplectic doubled-phase cocycle, not SL(3): the PC12 physics dictionary fails. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "3-channel Fibonacci tight-binding transfer matrices are 6x6 symplectic (det=1, preserve symplectic form), not 3x3 SL(3); PC12's order-3 recursion fails on them while the order-6 Cayley-Hamilton recursion holds",
+     "where": "probe.py check_transfer_group, check_position_space_not_closed, check_commuting_control_decomposes_to_sl2, check_trace_recursion_mismatch",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit numeric matrix construction and checks with stated tolerances (1e-10, 1e-8), reproducible from probe.py; a literature scan (LITERATURE.md) independently corroborates the negative result with 5 cited sources"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "probe.py runs the numeric transfer-matrix checks directly; LITERATURE.md is a genuine literature scan with citations, a good practice for a negative-control arc.",
+   "absence_claims": [
+    {
+     "quote": "I found no source in this scan where a three-channel Fibonacci tight-binding model yields an SL(3) transfer matrix whose trace-map renormalization is the PC12 T_m.",
+     "where": "B52 LITERATURE.md, Conclusion section"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely useful negative control: it correctly identifies that a naive multichannel Fibonacci Hamiltonian model does not realize the PC12 SL(3) structure, backed by both computation and a real literature review; no physics claim is made or oversold."
+  },
+  {
+   "arc": "B54_general_c_exchange_structure",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B54_general_c_exchange_structure/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B54_general_c_exchange_structure/README.md",
+    "/home/user/origin-axiom/frontier/B54_general_c_exchange_structure/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B54_general_c_exchange_structure/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Exchange commutation [J(m,c),P]=0 holds with c symbolic, generalizing the c=3 block-diagonalization to the entire fixed line; records the c=1 Eisenstein/golden twins. | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "[J(m,c),P]=0 for symbolic c, checked for m=1,2,3; c=1 twin polynomials; m=1 cyclotomic sweep c=-1..3",
+     "where": "probe.py (not read in full text here but referenced by FINDINGS/README; symbolic checks per FINDINGS 'Exact Results')",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "symbolic in c but only checked for three specific m values (m=1,2,3), so the all-c claim for general m beyond the tested cases relies on the stated structural argument (P-equivariance of the trace map) rather than exhaustive symbolic-m verification"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; probe.py not separately re-read in this pass beyond FINDINGS/README description (file listed in packet but content inferred from FINDINGS.md's explicit statement of what was verified).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The 'general-c' claim is verified only for m=1,2,3 (not symbolic m); FINDINGS.md itself notes the clean cyclotomic sweep is 'm=1-specific'. The verdict.json headline ('generalizing... to the entire fixed line') could be read as broader than the m=1,2,3-checked scope.",
+     "where": "B54 README.md 'What It Checks' -- '[J(m,c), P] = 0 for symbolic c (m=1,2,3)'"
+    }
+   ],
+   "seat_note": "A real structural generalization (c now symbolic rather than fixed at 3) but the m-generality is only spot-checked at m=1,2,3 with a structural (P-equivariance) argument filling the gap, not full symbolic-in-both-m-and-c verification; correctly notes the figure-eight discriminant match is 'a structural echo, not promoted to a claim.'"
+  },
+  {
+   "arc": "B55_c1_fixed_line_structure",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B55_c1_fixed_line_structure/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B55_c1_fixed_line_structure/README.md",
+    "/home/user/origin-axiom/frontier/B55_c1_fixed_line_structure/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B55_c1_fixed_line_structure/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The c=1 fixed-line sector structure is settled for all m: the symmetric sector is mod-4 (Phi_6/Phi_4/parabolic at m=0 mod4) and the antisymmetric sector is universally (t-1)(t+1)(t^2-mt-1). | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "mod-4 classification of symmetric sector, universal antisymmetric factor (t-1)(t+1)(t^2-mt-1)",
+     "where": "FINDINGS.md 'Exact Results'; 'Proved per residue class with m symbolic', cross-checked numerically m=1..12",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "symbolic per residue class (mod 4) plus numeric cross-check for m=1..12; a genuine general-m proof by case split, reproducible from probe.py"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; numeric cross-check to m=12 supplements the per-residue-class symbolic proof.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Consistent, well-scoped result; correctly self-corrects an earlier B54 approximation ('odd->Phi_6, even->Phi_4' corrected to the true mod-4 structure) and explicitly flags the figure-eight resemblance as coincidental, deferring to B56's negative control."
+  },
+  {
+   "arc": "B56_figure_eight_invariant_surface",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B56_figure_eight_invariant_surface/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B56_figure_eight_invariant_surface/README.md",
+    "/home/user/origin-axiom/frontier/B56_figure_eight_invariant_surface/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B56_figure_eight_invariant_surface/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The figure-eight / I=1/4 bridge is dead: diagonal reps give I in {4, -17/2 +/- 7sqrt5/2}, and the c=1 Eisenstein match is cyclotomic coincidence. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "diagonal-locus Fricke-Vogt invariant values {4, -17/2+-7sqrt5/2} never equal 1/4; figure-eight tetrahedron shape solves a disjoint complex equation",
+     "where": "FINDINGS.md 'Exact Results'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact algebraic computation (cubic roots, invariant evaluation), reproducible; explicitly scoped as a negative control for a specific hypothesized bridge"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "An exemplary negative control: explicitly kills a tempting numerological coincidence (figure-eight shape matching c=1 Eisenstein factor) by showing it does not connect to I=1/4, while carefully preserving the separate, narrower gluing-equation discriminant echo as a recorded (not promoted) observation."
+  },
+  {
+   "arc": "B57_general_m_splitting",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B57_general_m_splitting/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B57_general_m_splitting/README.md",
+    "/home/user/origin-axiom/frontier/B57_general_m_splitting/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B57_general_m_splitting/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Classifies integer splitting of the antisymmetric fixed-line quartic for m=1..6 (c=1,3 universal plus m-dependent extras) and kills the class-number coincidence. | PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "integer splitting sets for m=1..6 over c in [-120,120]; c=1,3 universal splitting points",
+     "where": "FINDINGS.md 'Exact Results'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exhaustive scan over a stated finite rectangle (c in -120..120) for m=1..6 only -- a bounded certificate, not a proof for all m; general-m universality of c=1,3 is stated as fact but only demonstrated up to m=6"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; bounded scan (m=1..6, c in [-120,120]).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The claim 'c=1 and c=3 are universal splitting points (every m)' is demonstrated only for m=1..6 via bounded scan, not proven for all m symbolically (contrast with B51's fully symbolic-in-m proof at c=3, which does back the c=3 universality; the c=1 universal claim in FINDINGS.md is not separately given a symbolic-m proof in this arc, though B55 does supply that for c=1).",
+     "where": "FINDINGS.md 'Universal: c=1 and c=3 split for every m'"
+    }
+   ],
+   "seat_note": "Good self-critical practice (explicitly kills the earlier class-number-h(Q(sqrt-15))=2 coincidence as m grows), but the 'universal for every m' framing for c=1 in this arc's own text is a generalization from a m=1..6 bounded scan; the symbolic backing for c=1 actually comes from the separate B55 arc, not from B57 itself."
+  },
+  {
+   "arc": "B58_phaseA",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B58_phaseA/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B58_phaseA/B62_STATUS.md",
+    "/home/user/origin-axiom/frontier/B58_phaseA/CANDIDATE_A_D.md",
+    "/home/user/origin-axiom/frontier/B58_phaseA/NILPOTENT_LIMIT_TEST.md",
+    "/home/user/origin-axiom/frontier/B58_phaseA/PARITY_N6.md",
+    "/home/user/origin-axiom/frontier/B58_phaseA/SMOOTH_POINT_TEST.md",
+    "/home/user/origin-axiom/frontier/B58_phaseA/SYM_DECOMPOSITION.md",
+    "/home/user/origin-axiom/frontier/B58_phaseA/_q_engine.py",
+    "/home/user/origin-axiom/frontier/B58_phaseA/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B58_phaseA/nilpotent_limit_test.py",
+    "/home/user/origin-axiom/frontier/B58_phaseA/phaseA_results.json",
+    "/home/user/origin-axiom/frontier/B58_phaseA/sym_decomposition.py"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B58_phaseA/jacobian_closure.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "The n=5 char(M^2) shortfall is the pinv-limit CONSTRUCTION, not an F_p non-canonicity artifact: three independent computations of the pinv-limit all return a2=1. | NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "n=3 and n=4 exact modular Jacobian factorizations match B65's a_d=(1,1,1,1)",
+     "where": "FINDINGS.md section (a), phaseA_results.json 'n=3','n=4' entries",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact finite-field (F_p) computation, prime-stable over 3 large primes {2000003,2000029,2000039}, with committed engine jacobian_closure.py and committed witness phaseA_results.json"
+    },
+    {
+     "what": "n=5 gate FAILS: computed a_2=1 vs expected a_2=2, localized to the char(M^2)/e_2=tr(Lambda^2 A) even-k sector",
+     "where": "FINDINGS.md section (b)-(c)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "same exact engine, converged and prime-stable across L=12,16,20; a genuine, reproducible negative/method-limitation result, not asserted"
+    },
+    {
+     "what": "a_2=2 is correct (established via B62's structural opposition-involution argument, not via the pinv-limit)",
+     "where": "FINDINGS.md 'Method-limitation, not a refutation'; B62_STATUS.md sections 1-6",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "B62_STATUS.md itself flags that B62's height-2 rule is 'verified-match... not proven' and that the identification of the Lie-theoretic \u03b8-split with the dynamical Jacobian multiplicities is an unproven bridge (an explicit stated gap); the a_2=2 'ground truth' this arc treats as correct is therefore itself only a verified-candidate, not a proof"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "jacobian_closure.py is an independent exact F_p engine (not a re-read of prior results); cross-validated against B65's exact symbolic result and B66's real MP-pinv, and validated by a separate exact-Q engine (_q_engine.py) at n=3.",
+   "absence_claims": [
+    {
+     "quote": "the power-assignment at heights other than 2 is not derived here.",
+     "where": "B58_phaseA/B62_STATUS.md:16"
+    },
+    {
+     "quote": "There is no explicit f(n,d) in B62 for d\u22602",
+     "where": "B58_phaseA/B62_STATUS.md:37"
+    },
+    {
+     "quote": "not a symbolic proof.",
+     "where": "B58_phaseA/FINDINGS.md:91"
+    },
+    {
+     "quote": "So the picture is a prettier description of the single-block part, not a proof across the barrier",
+     "where": "B58_phaseA/NILPOTENT_LIMIT_TEST.md:22"
+    },
+    {
+     "quote": "construction is a different, non-Kostant object that is not derived; it does not revive the",
+     "where": "B58_phaseA/SYM_DECOMPOSITION.md:184"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "This arc is exceptionally well-documented method-limitation research (real exact-arithmetic computation, prime-stability checks, explicit STOP-do-not-patch discipline, a UPDATE correction embedded at the top of FINDINGS.md dated after the original), i.e. it exemplifies good practice rather than a red flag; flagged here only to note it depends on B62's own not-yet-proven identification (see load_bearing item 3) for its baseline 'expected' a_2=2, so the overall SL(n) multiplicity tower (a_d row) is still an unproven structural conjecture beyond n<=4, not a theorem.",
+     "where": "B58_phaseA/B62_STATUS.md sections 1-3"
+    }
+   ],
+   "seat_note": "This is a rigorous, exact, prime-stable computation with a genuine and well-localized negative result (method fails specifically at a doubly-degenerate eigenspace at n=5); its self-discipline (STOP rule, embedded correction header, explicit distinguishing of 'construction fails' from 'claim is false') is a model for the rest of the campaign, though the underlying a_d=2,2,1,1,1 'ground truth' it measures against is itself only B62's verified-candidate, not a proof."
+  },
+  {
+   "arc": "B58_sl4_tower_test",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B58_sl4_tower_test/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B58_sl4_tower_test/README.md",
+    "/home/user/origin-axiom/frontier/B58_sl4_tower_test/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B58_sl4_tower_test/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "This sub-arc's headline -- 'the prediction cannot be tested numerically' -- is NEGATED: the negatives hunt built the epsilon-extrapolated pinv-ratio route and B745 cross-verified it with five independent checks and a working negative control. | RETRACTED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "original claim: SL(4) 7-factor tower prediction is untestable numerically because the fixed-line point is the degenerate identity representation",
+     "where": "FINDINGS.md body (below the correction header)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the degeneracy argument (d tr(W)~1e-10, d^2 tr(W)~50) is numerically demonstrated in this arc's own probe.py, but the arc's headline conclusion built on it was later retracted by external work (B742/B745), not by this arc's own files"
+    },
+    {
+     "what": "retraction: SL(4) prediction IS numerically testable via an epsilon-extrapolated pinv-ratio route, cross-verified by two other seats (B742, B745)",
+     "where": "FINDINGS.md correction header at top",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "the correcting computation (B742's route, B745's 5 independent checks) lives outside this arc's own committed files (in B742/B745, not sampled in this packet); this digest cannot verify it directly from the files read here"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "This arc's own probe.py demonstrates only the degeneracy of the representation map at the identity; the superseding computation is external (B742/B745), not present in this arc's directory.",
+   "absence_claims": [
+    {
+     "quote": "the ambient SL(4,C) trace-map construction, which is not built here.",
+     "where": "B58_sl4_tower_test/FINDINGS.md, 'Verdict' section"
+    },
+    {
+     "quote": "That construction is not built here (it is a substantial trace-identity computation).",
+     "where": "B58_sl4_tower_test/README.md, 'Why The Prediction Is Not Tested Here'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "This is actually a well-propagated retraction (the correction is prominently placed at the very top of FINDINGS.md with a clear NEGATED marker and the arc_verdict.json verdict is updated to RETRACTED) -- flagged here as a check, not a failure: the retraction chain is properly visible in this arc's own committed files.",
+     "where": "B58_sl4_tower_test/FINDINGS.md top header; arc_verdict.json 'verdict':'RETRACTED'"
+    }
+   ],
+   "seat_note": "A textbook example of a correctly propagated retraction (clear header, updated arc_verdict.json, original text preserved below with the correction on top), but the superseding positive computation itself lives in sibling arcs (B742, B745) not included in this packet, so this digest cannot independently verify the new SL(4) result -- only that the retraction of the old negative claim is properly recorded."
+  }
+ ]
+}

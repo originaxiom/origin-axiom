@@ -1,0 +1,361 @@
+{
+ "batch": "arcs_002",
+ "arcs": [
+  {
+   "arc": "B58_stage1",
+   "source": "main",
+   "files_read": [
+    "frontier/B58_stage1/FINDINGS.md",
+    "frontier/B58_stage1/arc_verdict.json",
+    "frontier/B58_stage1/cotangent_spectrum.json",
+    "frontier/B58_stage1/step1_cotangent.py",
+    "frontier/B58_stage1/step2_sym2k.py",
+    "frontier/B58_stage1/sym2k_diagnostic.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "B58 stage-1 (retro-authored at R50-4; the arc was exploratory and uncommitted-by-design at the time): the brief's cotangent-dimension premise is REFUTED -- the exact mod-p cotangent spectrum of the two-traceless-matrix trace algebra gives 9/30/>=111 at n=3/4/5 (matching Teranishi-Dokovic), so '3n^2-10n+11' and the excess '2(n-2)(n-3)' both fail. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.] | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "cotangent dims 9 (n=3), 30 (n=4), >=111 (n=5, partial) for the two-traceless-matrix trace algebra, matching Teranishi/Dokovic published counts", "where": "frontier/B58_stage1/cotangent_spectrum.json, step1_cotangent.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact mod-p linear algebra in committed step1_cotangent.py, writes committed cotangent_spectrum.json; prime-stable for n=3,4 across 3 primes, single-prime only for n=5 (explicitly flagged PARTIAL/best-effort, K=1100, Lmax=11, not full)"},
+    {"what": "Sym^2k Kostant/coupled decomposition does not match the tower (kill #25 multiplicity side)", "where": "frontier/B58_stage1/sym2k_diagnostic.json, step2_sym2k.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy symbolic computation, self-contained, writes committed json"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "no test_b58_stage1.py entry checked but a belt test file (tests/test_b58_stage1.py) exists in the repo tree; not read here, so this is a title-only observation, not a verified belt.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "n=5 cotangent dim '111' is explicitly a lower bound (partial_best_effort=true, single prime, deg<=11 truncation, generator count still rising at top degree) yet is reported in the FINDINGS.md table without a qualifier flag distinguishing it from the exact n=3/4 entries at first glance (the caveat is present in prose but the headline table lists it as if peer to 9 and 30).", "where": "frontier/B58_stage1/FINDINGS.md lines 14-26"}
+   ],
+   "seat_note": "This is pure commutative-algebra/invariant-theory computation (dimensions of generator spaces of a trace ring) with no physical observable attached; it is presented purely as a correction to an internal formula (brief's 3n^2-10n+11), which the arc itself flags as refuted by its own exact computation -- a healthy self-correction, not inflation."
+  },
+  {
+   "arc": "B59_sl4_factorization",
+   "source": "main",
+   "files_read": [
+    "frontier/B59_sl4_factorization/FINDINGS.md",
+    "frontier/B59_sl4_factorization/README.md",
+    "frontier/B59_sl4_factorization/arc_verdict.json",
+    "frontier/B59_sl4_factorization/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Determines the SL(4) fixed-line spectrum numerically (five char(M^k), a new sign sector char(-M^2), degree-3 parity), refuting PC12's (n^2-1-parity)/2 prediction. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "SL(4) fixed-line Jacobian spectrum factors as char(M^-1).char(M).char(M^2).char(M^3).char(M^4).char(-M^2).(t-1)^2(t+1)", "where": "frontier/B59_sl4_factorization/probe.py (check_sl4_factorization, max match 0.0101)", "kind": "COMPUTED", "reproducible_from_committed": "yes but NUMERIC ONLY", "why": "finite-difference extrapolation eps->0 at double precision, matched to target roots within tolerance 0.03; self-described as 'numerical (~3-4 digits), method-validated -- not a symbolic proof'"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no tests/test_b59*.py file found in tests/ directory listing (checked); probe.py's own run_checks() function is the only verification, run as __main__, not wrapped in a separate pytest belt.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "verdict label is 'PROVED' in arc_verdict.json despite FINDINGS.md/README.md both explicitly stating 'This is numerical (~3-4 digits), method-validated -- not a symbolic proof.'", "where": "frontier/B59_sl4_factorization/arc_verdict.json line 3 vs FINDINGS.md line 52"},
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "arc_verdict.json's verdict field says 'PROVED' but the claim_one_line and all prose describe a numerical/method-validated result, not a proof; 'PROVED' as the verdict enum value overstates the actual epistemic status the arc itself repeatedly disclaims.", "where": "frontier/B59_sl4_factorization/arc_verdict.json"}
+   ],
+   "seat_note": "Standalone Lie-theory/character-variety numerics; the arc is admirably candid in its own prose about being numerical-only, but the arc_verdict.json 'PROVED' tag is a mismatch worth flagging systemically across this whole B58-B69 family, since several of these arcs share the same pattern."
+  },
+  {
+   "arc": "B60_sln_tower",
+   "source": "main",
+   "files_read": [
+    "frontier/B60_sln_tower/FINDINGS.md",
+    "frontier/B60_sln_tower/README.md",
+    "frontier/B60_sln_tower/arc_verdict.json",
+    "frontier/B60_sln_tower/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Establishes the empirical cross-n tower map for n=3,4: M-powers climb and densify, a sign sector appears at n=4, and the parity block grows. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "cross-n factorization map for n=3,4 (powers, sign sectors, parity degree)", "where": "frontier/B60_sln_tower/probe.py check_sl3_validation/check_sl4_regression", "kind": "COMPUTED", "reproducible_from_committed": "yes but NUMERIC ONLY", "why": "same double-precision extrapolation method as B59, self-described 'numerical, method-validated -- not a symbolic proof'"},
+    {"what": "SL(5) unresolved at double precision, cond(Dx)~1e11 'barrier'", "where": "frontier/B60_sln_tower/probe.py check_sl5_conditioning_barrier", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "condition-number measurement is computed and printed; but this specific conclusion (a genuine conditioning wall) is later retracted by B61 as a misdiagnosis (rank-23 coordinate defect, not a precision wall)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no tests/test_b60*.py file found in tests/ listing; verification is only the inline run_checks() in probe.py.",
+   "absence_claims": [
+    {"quote": "SL(5) (24-dim) does not resolve at double precision: cond(Dx) ~ 1e11.", "where": "frontier/B60_sln_tower/FINDINGS.md line 9 (and README.md line 45)"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "arc_verdict.json says PROVED though findings explicitly say 'numerical, method-validated for n=3,4; SL(5) unresolved... The cross-n map is an empirical structure, not a symbolic theorem.'", "where": "frontier/B60_sln_tower/arc_verdict.json vs FINDINGS.md line 63"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "B60's own FINDINGS.md/README.md were updated in-place with a '> Update (B61)' block correcting the SL(5) conditioning-wall diagnosis, but the arc_verdict.json claim_one_line for B60 was not updated to mention this correction at all -- a reader of only arc_verdict.json would not learn the SL(5) barrier claim was later diagnosed as a coordinate-system defect.", "where": "frontier/B60_sln_tower/arc_verdict.json (no mention of B61 correction) vs FINDINGS.md lines 51-57"}
+   ],
+   "seat_note": "The self-correcting update notice embedded in FINDINGS.md/README.md is good practice, but leaving the arc_verdict.json claim unrevised while the underlying diagnosis changed is exactly the kind of drift the retraction-propagation flag exists to catch, even though here it is a minor honest walk-back (numerics limitation, not a substantive result reversal)."
+  },
+  {
+   "arc": "B61_sl5_high_precision",
+   "source": "main",
+   "files_read": [
+    "frontier/B61_sl5_high_precision/FINDINGS.md",
+    "frontier/B61_sl5_high_precision/README.md",
+    "frontier/B61_sl5_high_precision/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B61_sl5_high_precision/probe.py (first 120 lines + grepped def/assert/print/mpmath/== hits)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "ESTABLISHED: B60's SL(5) 'conditioning wall' was a rank-23 forward-word coordinate defect, and inverse-word coordinates at dps=60 resolve 22 of 24 multipliers onto the Cayley-Hamilton catalog. UNSETTLED: the remaining 2 modes and any symbolic proof -- this is high-precision numerics, not a proof. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "B60's forward-word coordinate set is rank 23 not 24 (a genuine null direction, misread as conditioning wall)", "where": "frontier/B61_sl5_high_precision/FINDINGS.md section 1, probe.py svd_pinv at dps=60", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "high-precision mpmath SVD; committed probe.py and tests/test_b61_sl5.py exist"},
+    {"what": "22 of 24 SL(5) multipliers resolve to the Cayley-Hamilton catalog using inverse-word coordinates", "where": "frontier/B61_sl5_high_precision/probe.py compute_sl5", "kind": "COMPUTED", "reproducible_from_committed": "yes but NUMERIC ONLY", "why": "high-precision (dps=60) numerical extrapolation matched to catalog roots (worst resolved mode ~2e-5); explicitly 'NOT a symbolic proof'"},
+    {"what": "remaining 2 modes are a genuine method limit (gauge-dependent, scatter across seeds), not a numerical artifact", "where": "FINDINGS.md section 4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the scatter across 5 seeds is reported with explicit numbers (2.89,0.90 / 1.43,0.35 / -5.06,0.55 / complex pair / 1.50,-0.17), a genuine negative result about method limits"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b61_sl5.py exists (confirmed present in tests/ directory listing) and is referenced by name in FINDINGS.md/README.md as 'fast checks'; not read in full here.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "arc_verdict.json verdict 'PROVED' for a result the arc's own FINDINGS.md calls 'high-precision numerics, not a proof' and 'UNSETTLED' for 2 of 24 modes.", "where": "frontier/B61_sl5_high_precision/arc_verdict.json vs FINDINGS.md line 4"},
+    {"kind": "OTHER", "detail": "arc_verdict.json's authored_by field notes 'W1-pilot; corrected by B834 (24 readers, two panels, unanimous)' -- meaning this verdict itself was corrected by a later downstream review process (B834), but this digest run had no access to B834 to see what was corrected.", "where": "frontier/B61_sl5_high_precision/arc_verdict.json line 11"}
+   ],
+   "seat_note": "One of the more scientifically honest arcs in this batch -- it identifies its own earlier misdiagnosis (B60), fixes it, and then honestly characterizes a real remaining limitation (fixed-line rank-loss making the last 2 modes gauge-dependent) rather than papering over it."
+  },
+  {
+   "arc": "B62_opposition_involution",
+   "source": "main",
+   "files_read": [
+    "frontier/B62_opposition_involution/FINDINGS.md",
+    "frontier/B62_opposition_involution/README.md",
+    "frontier/B62_opposition_involution/arc_verdict.json",
+    "frontier/B62_opposition_involution/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The exchange involution is the opposition involution theta=-w0; its height-2 root-space split identifies the 2 unresolved SL(5) modes as char(M^2), completing the degree-24 factorization. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "theta=-w0 eigenspace split on height-2 root space of A_{n-1} for n=3,4,5 gives (2,0),(2,2),(4,2)", "where": "frontier/B62_opposition_involution/probe.py theta_split/height2_sectors", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact combinatorics on root pairs, deterministic, no numerics; reproduces SL(3)/SL(4) known cases exactly"},
+    {"what": "the 2 unresolved SL(5) modes ARE char(M^2) (not char(-M^2))", "where": "FINDINGS.md item 4, check_residual_sign", "kind": "ASSERTED (numerically corroborated, not proved)", "reproducible_from_committed": "yes", "why": "the identification rests on (a) an exact but unproven convention that fixed roots go to the +1/symmetric sector, calibrated empirically off SL(3) ('the convention is fixed empirically by SL(3)'), and (b) a numerical sign corroboration using single-seed residual data (2.890, 0.898) hardcoded as literal constants in probe.py rather than recomputed live -- this is IDENTIFICATION_BY_TYPE-adjacent: the height-2 dimension count matching is used to identify which Cayley-Hamilton factor occupies the 2 missing dimensions, without an independent derivation of the root-to-factor correspondence at heights other than 2."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b62_opposition_involution.py exists in the tests/ listing; not read here.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The 'convention' that fixed roots belong to the theta+1 (symmetric) sector is explicitly stated in probe.py's own docstring as 'fixed empirically by SL(3)' -- i.e. calibrated to reproduce one known answer, then applied to predict SL(5). The arc itself is honest about this ('not proved... only the height-2 sign/direct split') but it is a genuine risk that the labeling convention was reverse-engineered from the one case it needed to match.", "where": "frontier/B62_opposition_involution/probe.py lines 77-83"},
+    {"kind": "OTHER", "detail": "check_residual_sign in probe.py hardcodes the seed-20 residual value (2.890, 0.898) as a literal mp.mpf string rather than recomputing it from B61's method live -- so this 'check' cannot fail/regress if B61's underlying numbers ever changed, and is not independently reproducible from this file alone (the comment says 'B61 data').", "where": "frontier/B62_opposition_involution/probe.py lines 160-163"},
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "arc_verdict.json says PROVED but the arc's own FINDINGS.md/README.md both say 'Recorded as a live structural result, not a theorem' / 'not a symbolic proof.'", "where": "frontier/B62_opposition_involution/arc_verdict.json vs FINDINGS.md line 65"}
+   ],
+   "seat_note": "The root-system combinatorics (theta_split) is exact and clean, but the crucial step -- assigning which Cayley-Hamilton factor lives in which theta-eigenspace -- rests on an empirically-fit convention plus a hardcoded numerical corroboration constant; calling this PROVED in arc_verdict.json is not supported even by the arc's own careful prose."
+  },
+  {
+   "arc": "B63_sl4_symbolic_m",
+   "source": "main",
+   "files_read": [
+    "frontier/B63_sl4_symbolic_m/FINDINGS.md",
+    "frontier/B63_sl4_symbolic_m/README.md",
+    "frontier/B63_sl4_symbolic_m/arc_verdict.json",
+    "frontier/B63_sl4_symbolic_m/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The SL(4) metallic fixed-line Jacobian factors over Z[m] into Dickson factors char(M^k) with m-independent structure, L_k=tr(M^k). | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "L_k(m) polynomials (L_2=m^2+2, L_3=m^3+3m, L_4=m^4+4m^2+2) match tr(M^k) exactly, symbolically", "where": "frontier/B63_sl4_symbolic_m/probe.py check_symbolic_structure, Lk_poly", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy Lucas recurrence, a genuine symbolic identity, not fitted"},
+    {"what": "each factor's eigenvalue sum at m=1..6 equals the exact integer tr(M^k), and interpolation recovers the exact Z[m] polynomial", "where": "probe.py verify_multi_m, interpolate_Lk, factor_sums", "kind": "COMPUTED (numeric spectrum) then FITTED (polynomial interpolation over 6 points, degree<=4, claimed over-determined)", "reproducible_from_committed": "yes but relies on numeric spectrum inputs", "why": "the spectrum itself at each m is from the same high-precision mpmath extrapolation method as B59-B61 (numerical, not symbolic); the polynomial fit is over-determined (6 points, degree 4) which is a legitimate rigor argument, but the base data feeding the fit is numerical, so the overall claim of 'computer-assisted symbolic' proof rests on numerics at the input stage"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b63_sl4_symbolic_m.py exists in tests/ listing.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "FITTED_VALUE", "detail": "The claimed 'exact' Z[m] polynomial factorization is derived by interpolating numerically-computed eigenvalue sums across m=1..6 (degree-4 polynomial fit to 6 points, i.e. only 2 points of over-determination) rather than by a from-scratch symbolic derivation; the arc is honest that this is 'computer-assisted... not the hand-built Procesi trace ring', but arc_verdict.json's 'PROVED' does not convey that the underlying data points are numeric extrapolations at finite precision (max-match grows to ~0.2 absolute at m=6).", "where": "frontier/B63_sl4_symbolic_m/FINDINGS.md lines 55-65, probe.py verify_multi_m"},
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "arc_verdict.json says PROVED; FINDINGS.md itself repeatedly says 'computer-assisted... Not a hand-built trace-ring proof.'", "where": "frontier/B63_sl4_symbolic_m/arc_verdict.json vs FINDINGS.md line 5"}
+   ],
+   "seat_note": "Genuinely clever route (using an a-priori degree bound from tr(M^k) to make numeric-point interpolation rigorous rather than a mere curve-fit), and the degree-bound argument is sound in principle; still, this is reconstruction from numerics, and the verdict label PROVED across this whole family systematically outruns the arcs' own careful hedging."
+  },
+  {
+   "arc": "B64_parity_mechanism",
+   "source": "main",
+   "files_read": [
+    "frontier/B64_parity_mechanism/FINDINGS.md",
+    "frontier/B64_parity_mechanism/README.md",
+    "frontier/B64_parity_mechanism/arc_verdict.json",
+    "frontier/B64_parity_mechanism/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The k(alpha) sector-assignment is proven symbolically: even-|k| char(M^k) is P-symmetric, odd-|k| P-antisymmetric, via depth-n CH plus Dickson parity. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "SL(3) full symbolic-m Jacobian block-diagonalizes under P into symmetric=(t-1)(t+1)char(M^2), antisym=char(M^-1)char(M^3)", "where": "frontier/B64_parity_mechanism/probe.py sl3_sectors, check_sl3_parity_mechanism", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy symbolic algebra on a closed-form derivative sequence, self-contained, no numerics"},
+    {"what": "Dickson parity L_k(-m)=(-1)^k L_k(m) for k=1..6", "where": "probe.py check_dickson_parity", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic identity"},
+    {"what": "SL(4) sector assignment (even-k to symmetric, odd-k to antisymmetric) applied to B63's factorization", "where": "probe.py check_sl4_sector_assignment", "kind": "COMPUTED (Dickson-parity check) but the underlying SL(4) factorization it is applied to is B63's numerically-reconstructed one, not independently symbolic here", "reproducible_from_committed": "yes for the parity check itself; the factorization it explains is imported from B63", "why": "this check only verifies L_k(-m) parity for the labels asserted -- it does not independently derive the SL(4) factorization, it assumes B63's (itself numeric-derived) factor list as given (IMPORTED)"},
+    {"what": "the Lambda^2 obstruction is 'localized' -- full symbolic SL(4) Jacobian needs the 6-dim exterior square, not just fundamental depth-4", "where": "probe.py check_lambda2_obstruction", "kind": "COMPUTED (a Newton identity verification) plus ASSERTED (the broader claim that this is the complete obstruction)", "reproducible_from_committed": "the Newton identity itself yes; the completeness of 'this is the only obstruction' is not independently verified here", "why": "the check only confirms tr(W^2)=(trW)^2-2e2(W), a standard identity; it does not prove no other obstruction exists"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b64_parity_mechanism.py exists in tests/ listing.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The SL(4) sector-assignment claim in this arc rests on B63's factorization, which is itself a numerically-reconstructed (not from-scratch symbolic) result (see B63 entry); B64's own verdict of PROVED for the SL(4) part therefore inherits B63's numeric-input status even though B64 badges its own SL(3) piece as full symbolic proof.", "where": "frontier/B64_parity_mechanism/FINDINGS.md lines 47-53 vs B63 FINDINGS.md"}
+   ],
+   "seat_note": "The SL(3) parity-mechanism derivation is a genuine, clean, fully symbolic result (block-diagonalization under a commuting involution) -- the strongest arc in this batch on rigor grounds for its SL(3) claim; the SL(4) extension is honest about resting on B63's less-rigorous input."
+  },
+  {
+   "arc": "B65_sl4_symbolic_jacobian",
+   "source": "main",
+   "files_read": [
+    "frontier/B65_sl4_symbolic_jacobian/FINDINGS.md",
+    "frontier/B65_sl4_symbolic_jacobian/README.md",
+    "frontier/B65_sl4_symbolic_jacobian/arc_verdict.json",
+    "frontier/B65_sl4_symbolic_jacobian/compute.py",
+    "frontier/B65_sl4_symbolic_jacobian/probe.py",
+    "frontier/B65_sl4_symbolic_jacobian/jacobian_m.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The full 15x15 SL(4) fixed-line Jacobian J(m) is fixed exactly over Z[m] and its char poly factors directly into the seven Dickson factors. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "the full 15x15 J(m) matrix as an exact rational-polynomial-in-m matrix (committed jacobian_m.json)", "where": "frontier/B65_sl4_symbolic_jacobian/compute.py, jacobian_m.json", "kind": "COMPUTED numerically then RECONSTRUCTED (rational reconstruction from mpmath dps=50 numerics at m=1..7, interpolated as degree<=4 polynomials, verified over-determined on 7 points vs the 5 needed)", "reproducible_from_committed": "yes -- jacobian_m.json is committed and probe.py loads and re-verifies it without recomputing", "why": "entries are reconstructed rationals from finite-precision numerics (worst reconstruction error ~7e-5 at m=7); this is legitimate over-determined interpolation (a real rigor argument) but the base data is numeric, not derived from first principles (the trace ring construction remains open per the arc's own text)"},
+    {"what": "char(J(m)) factors exactly over Z[m] into the 7 Dickson factors, verified symbolically for m=1,2,3 and matching B63/B64/B59", "where": "probe.py run_checks, verify_charpoly_at", "kind": "COMPUTED (exact sympy factor() applied to the reconstructed J(m))", "reproducible_from_committed": "yes", "why": "sp.factor(J.charpoly()) is exact symbolic algebra given J(m); the caveat is entirely in whether J(m) itself is correctly reconstructed from numerics upstream"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b65_sl4_symbolic_jacobian.py exists in tests/ listing; probe.py also has its own run_checks() with 3 numeric-m spot checks.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The FINDINGS.md itself is careful: 'Computer-assisted but rigorous... Not the hand-built Procesi trace ring.' Yet arc_verdict.json again labels this PROVED without qualification, continuing the pattern across the B58-B69 family where the verdict enum outruns the arc's own hedged prose.", "where": "frontier/B65_sl4_symbolic_jacobian/arc_verdict.json vs FINDINGS.md lines 48-56"},
+    {"kind": "OTHER", "detail": "FINDINGS.md notes 'a rank check showed single-block V + Lambda^2 traces span only 12 of 15 character-variety dimensions, so genuine mixed two-block words are unavoidable' -- i.e. the arc itself documents that a from-scratch symbolic derivation is NOT available with the tools built so far in this campaign, and the reconstruction-from-numerics route was chosen specifically because the honest symbolic route is blocked.", "where": "frontier/B65_sl4_symbolic_jacobian/FINDINGS.md lines 21-24"}
+   ],
+   "seat_note": "This is the strongest form of computer-assisted evidence in the SL(4) sub-thread (a full matrix reconstruction with over-determination, not just a spectrum match), and the arc's honesty about what remains open (the hand-built trace ring) is good; but it is still built on numeric input and should not be labeled PROVED at the same tier as an actual from-scratch symbolic derivation."
+  },
+  {
+   "arc": "B66_sl6_tower",
+   "source": "main",
+   "files_read": [
+    "frontier/B66_sl6_tower/FINDINGS.md",
+    "frontier/B66_sl6_tower/README.md",
+    "frontier/B66_sl6_tower/VALIDATION.md",
+    "frontier/B66_sl6_tower/arc_verdict.json",
+    "frontier/B66_sl6_tower/gauge.py",
+    "frontier/B66_sl6_tower/probe.py",
+    "frontier/B66_sl6_tower/second_m.py",
+    "frontier/B66_sl6_tower/validate.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "At SL(6) the |k|=3 Dickson multiplicity is exactly 2, refuting the max(n-d,1) multiplicity formula for the tower. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "mult(|k|=3)=2 at SL(6), refuting max(n-d,1)=3", "where": "frontier/B66_sl6_tower/probe.py main() KEY TEST", "kind": "COMPUTED", "reproducible_from_committed": "yes but NUMERIC ONLY (high precision dps=60)", "why": "high-precision mpmath extrapolation; matched directly to catalog roots"},
+    {"what": "theta-split sector dims 9/6/5=35 confirmed exact", "where": "probe.py theta_split, sector_prediction", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure root-system combinatorics, exact"},
+    {"what": "the mult=2 result is stress-tested robust across 2 word sets, 2 seeds, 3 values of m, and reproduces the known/proven SL(3)/SL(4)/SL(5) results under the identical pipeline", "where": "VALIDATION.md Tasks 1,3,4; validate.py, second_m.py, gauge.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "genuinely independent stress-tests (different word set via QR-pivot auto-selection, m=2/3 substitution, seed-stability/condition-number diagnostics) with concrete numeric outputs; this is the most thoroughly cross-validated arc in the batch"},
+    {"what": "exact-over-Q reconstruction is NOT achievable for n=6 (honest negative)", "where": "VALIDATION.md Task 2, gauge.py Task 2 output", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "||dt0(seed20)-dt0(seed24)||_max = 7.3e3, directly measured, showing the Jacobian is not seed-canonical -- a genuine, well-supported negative finding, not an assertion"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b66_sl6_tower.py exists; additionally the arc contains its own independent recomputation scripts (validate.py runs the SAME pipeline on SL(3..6) as a regression check against known/proven lower-n results, second_m.py and gauge.py are genuine independent stress tests) -- this is the most robust belt in the batch.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "Even here the honest framing ('numerical, not a symbolic proof') is undercut somewhat by arc_verdict.json's terse claim_one_line, though this is the mildest case in the batch since the verdict is 'NEGATIVE' (a refutation), which does not require the same standard of proof as a positive claim, and the arc's own text is unusually careful (9 of 35 modes explicitly flagged gauge-corrupted, not silently dropped).", "where": "frontier/B66_sl6_tower/FINDINGS.md line 3 vs arc_verdict.json"}
+   ],
+   "seat_note": "This is the best-practice arc in the batch: a falsifiable prediction (max(n-d,1) vs saturation at 2), multiple independent stress tests including recovery of known lower-n cases under the identical pipeline, explicit honesty about which of the 35 modes are gauge-corrupted (9/35) versus resolved (26/35), and a documented honest negative (no exact-over-Q reconstruction exists). Pure math, no physical observable."
+  },
+  {
+   "arc": "B67_figure_eight_apolynomial",
+   "source": "main",
+   "files_read": [
+    "frontier/B67_figure_eight_apolynomial/FINDINGS.md",
+    "frontier/B67_figure_eight_apolynomial/README.md",
+    "frontier/B67_figure_eight_apolynomial/arc_verdict.json",
+    "frontier/B67_figure_eight_apolynomial/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The figure-eight A-polynomial is reproduced exactly from the metallic SL(2,C) trace map's fixed locus, matching Cooper-Long literally. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "derived A(M,L) equals the published Cooper-Long (1996) A-polynomial of the figure-eight knot, up to a monomial unit (literal equality)", "where": "frontier/B67_figure_eight_apolynomial/probe.py derived_A_polynomial, cooper_long, and the ratio check", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy symbolic elimination (resultant), then exact symbolic comparison to a hardcoded literal transcription of the published Cooper-Long polynomial -- this IS an exact symbolic proof, not a numeric match, and the arc_verdict.json PROVED label is actually supported here"},
+    {"what": "the monodromy construction and the intermediate identity kappa=tr(t)^4-5tr(t)^2+2 are exact symbolic derivations, with a numeric spot-check (~1e-15) as a sanity check only", "where": "probe.py build_rep, ML_at, main()", "kind": "COMPUTED (symbolic derivation of the identity; numeric check is a secondary sanity test, not load-bearing for the final equality)", "reproducible_from_committed": "yes", "why": "the final A(M,L)=Cooper-Long comparison is a symbolic sp.simplify(ratio) check, not a numeric tolerance match"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b67_figure_eight_apolynomial.py exists in tests/ listing (confirmed present).",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The published Cooper-Long A-polynomial is hardcoded as a literal sympy expression in cooper_long() rather than fetched/verified against an external source in this run; the digest cannot independently confirm this transcription matches the actual 1996 paper (a stranger reproducing this would need to trust the transcription, or verify it against the literature separately). This is a minor point since Cooper-Long's polynomial is a well-known, widely reproduced object in knot theory (also independently reproduced e.g. via SnapPy in other parts of the repo, not read here).", "where": "frontier/B67_figure_eight_apolynomial/probe.py lines 68-71"}
+   ],
+   "seat_note": "This is the cleanest, most genuinely PROVED result in the batch: an exact symbolic derivation matching a known, independently-published invariant literally, not merely numerically. It is standalone knot-theory/character-variety mathematics with explicitly no physics content and no claim on the wider project, which is exactly the right scope for the strength of evidence."
+  },
+  {
+   "arc": "B68_aj_conjecture",
+   "source": "main",
+   "files_read": [
+    "frontier/B68_aj_conjecture/FINDINGS_E.md",
+    "frontier/B68_aj_conjecture/cyclotomic_numeric.py",
+    "frontier/B68_aj_conjecture/exact_recursion.py",
+    "frontier/B68_aj_conjecture/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false in packet; only FINDINGS_E.md exists, no arc_verdict.json)",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "no homogeneous q-holonomic recursion of order<=3, Q-degree<=4 exists for the figure-eight colored Jones at generic |q|=1 (confirms V52's 'no order-2' result independently, numerically)", "where": "frontier/B68_aj_conjecture/cyclotomic_numeric.py nullspace_dim, main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the null-space computation via SVD at generic |q|=1 is well-conditioned and reproducible; this is a genuine, honest negative result"},
+    {"what": "no exact order-2 recursion exists with Q-degree<=2 (meridian-degree<=4) -- an exact (not merely numeric) sub-result", "where": "frontier/B68_aj_conjecture/exact_recursion.py order2_recursion_exists", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy linsolve over Q(q) for the Q-degree-2 case terminates and gives a trivial-only solution; higher Q-degree (>=4) is explicitly stated as computationally intractable in-house (sympy linsolve does not complete), an honest documented limitation, not a silent gap"},
+    {"what": "the colored Jones is q-holonomic with minimal recursion order 2 (matching A's L-degree), annihilating J_N for N=2..5", "where": "frontier/B68_aj_conjecture/probe.py minimal_recursion_order", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numeric SVD null-space detection with a clean singular-value gap criterion; residuals reported explicitly per N"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b68_cyclotomic_numeric.py, tests/test_b68_exact_recursion.py both exist in the tests/ listing; probe.py itself is explicitly labeled 'SHELVED / NOT PROMOTED... Kept here as a labeled exploratory probe only -- no ledger claim.'",
+   "absence_claims": [
+    {"quote": "the exact recursion|_{q=1}=A identity is NOT newly established here", "where": "frontier/B68_aj_conjecture/exact_recursion.py lines 18-19"},
+    {"quote": "the exact figure-eight quantum A-polynomial recursion |_{q=1} = A identity remains a literature theorem (Garoufalidis-Le), not re-derived in-house", "where": "frontier/B68_aj_conjecture/FINDINGS_E.md line 40"},
+    {"quote": "the exact identity 'recursion|_{q=1} = A' is a proven theorem for the figure-eight (Le; Garoufalidis), but A has only even M-powers => the quantum convention is M_rec = q^N = (meridian)^2, and rewriting A there gives L-degree 2 / M_rec-degree 4. Extracting the exact q=1 limit needs the exact q-deformed recursion... near q=1 the numeric nullspace is ill-conditioned", "where": "frontier/B68_aj_conjecture/probe.py lines 21-26"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "An unusually honest, well-documented negative result: the arc explicitly declines to claim it re-derived a known theorem (Garoufalidis-Le), reports exactly where the in-house symbolic solve becomes computationally intractable, and confirms an earlier negative (V52) via an independent numeric method rather than papering over the earlier failure. No arc_verdict.json exists for this arc (matching the packet's has_verdict=false), which is itself consistent with the arc's own 'no ledger claim' framing -- appropriate, not a gap to flag."
+  },
+  {
+   "arc": "B69_metallic_apoly_family",
+   "source": "main",
+   "files_read": [
+    "frontier/B69_metallic_apoly_family/FINDINGS.md",
+    "frontier/B69_metallic_apoly_family/NOVELTY_CHECK.md",
+    "frontier/B69_metallic_apoly_family/arc_verdict.json",
+    "frontier/B69_metallic_apoly_family/cusp_extend_m56.py",
+    "frontier/B69_metallic_apoly_family/metallic_apoly_family.py",
+    "frontier/B69_metallic_apoly_family/metallic_meridian.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The metallic trace-relation curve family F_m extends the figure-eight A-polynomial, with cusps at torsion values 2cos(pi/k), k in {3..m+2}, k=m mod 2, verified m=1..6. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "F_m main components for m=1,2,4 (exact rational functions kappa(x)) and m=3 (degree-2 curve)", "where": "frontier/B69_metallic_apoly_family/metallic_apoly_family.py Fmain, cusp3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy symbolic elimination; m=1 independently PROVED via B67, m=2 cross-checked against separately-committed V33; m=3,4 not independently cross-checked outside this arc"},
+    {"what": "cusp-torsion law verified m=1..6 (cusps at x=2cos(pi/k) for a specific k-set per m)", "where": "cusp_extend_m56.py cusp_poly, kset (for m=5,6); metallic_apoly_family.py for m=1..4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic factorization and minimal-polynomial divisibility test; a genuine exact computation, not numeric"},
+    {"what": "novelty of the cusp-torsion law", "where": "frontier/B69_metallic_apoly_family/NOVELTY_CHECK.md", "kind": "ASSERTED (a literature-based judgment call, with an explicit caveat that the primary source PDF could not be parsed for a line-by-line check)", "reproducible_from_committed": "no -- this is a literature-review conclusion, not a computation", "why": "NOVELTY_CHECK.md's own text: 'the Baker-Petersen PDF would not parse for a line-by-line check of whether the exact 2cos(pi/k) cusp statement appears verbatim; but the framework... is unambiguously established for this family, so no novelty claim is warranted regardless' -- this is a reasoned but not fully verified literature claim"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "no tests/test_b69*.py file found in the tests/ listing (checked: test_b69_metallic_meridian.py exists, but not one for metallic_apoly_family.py or cusp_extend_m56.py specifically); NOVELTY_CHECK.md functions as a documentary audit of an earlier 'handoff' script rather than a computational belt.",
+   "absence_claims": [
+    {"quote": "Novelty: NOT established... Whether the metallic-family packaging is new vs implicit in twist-knot A-polynomial work (Hoste-Shanahan) needs a literature check before any novelty claim.", "where": "frontier/B69_metallic_apoly_family/FINDINGS.md lines 51-54"},
+    {"quote": "metallic_family.py -- referenced by the handoff but absent from the bundle (flagged).", "where": "frontier/B69_metallic_apoly_family/FINDINGS.md line 37"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "NOVELTY_CHECK.md (same arc directory, same date) explicitly RETRACTS/downgrades the arc's own novelty framing: 'the cusp-torsion law is NOT new... B69 is re-labeled STANDARD_REPACKAGE: a verified... computer-assisted observation that is a special case of the Baker-Petersen / Culler-Shalen theory... drop any novelty framing.' Yet arc_verdict.json's claim_one_line makes no mention of this downgrade and reads as if the result is an original contribution ('extends the figure-eight A-polynomial... verified m=1..6'), with no cross-reference to NOVELTY_CHECK.md's STANDARD_REPACKAGE verdict.", "where": "frontier/B69_metallic_apoly_family/NOVELTY_CHECK.md (full file) vs frontier/B69_metallic_apoly_family/arc_verdict.json"},
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "arc_verdict.json verdict is PROVED for the whole family, but per FINDINGS.md only m=1 is independently PROVED (via B67); m=2..6 are 'computer-assisted VERIFIED', and novelty of the general pattern is explicitly disclaimed.", "where": "frontier/B69_metallic_apoly_family/arc_verdict.json vs FINDINGS.md lines 8, 45, and NOVELTY_CHECK.md"}
+   ],
+   "seat_note": "This arc contains the single clearest example in the batch of the SUPERSEDED_UNMARKED pattern: a same-arc, same-day companion document (NOVELTY_CHECK.md) explicitly downgrades the result to 'not novel, standard theory' and the arc's own arc_verdict.json was never revised to reflect that, so a reader who only checks arc_verdict.json would come away believing this is an original PROVED contribution rather than a correct-but-standard re-derivation."
+  }
+ ]
+}

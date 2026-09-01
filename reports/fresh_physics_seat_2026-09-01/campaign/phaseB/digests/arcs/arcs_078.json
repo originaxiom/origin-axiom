@@ -1,0 +1,218 @@
+{
+ "batch": "arcs_078",
+ "arcs": [
+  {
+   "arc": "B791_weyl_completeness",
+   "source": "main",
+   "files_read": [
+    "frontier/B791_weyl_completeness/FINDINGS.md",
+    "frontier/B791_weyl_completeness/arc_verdict.json",
+    "frontier/B791_weyl_completeness/PROVENANCE_ALERT.md",
+    "frontier/B791_weyl_completeness/GATE8R2_PREREGISTRATION.md",
+    "frontier/B791_weyl_completeness/output_correction.txt",
+    "frontier/B791_weyl_completeness/output_weyl.txt",
+    "frontier/B791_weyl_completeness/results.json",
+    "frontier/B791_weyl_completeness/results_correction.json",
+    "frontier/B791_weyl_completeness/sector_count_correction.py",
+    "frontier/B791_weyl_completeness/verify_bank_structure.py",
+    "frontier/B791_weyl_completeness/weyl_budget.py",
+    "frontier/B791_weyl_completeness/ARTIFACT_HASHES.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Independently verified the B788 Maass bank and corrected the Weyl completeness criterion to dim(V_i) x W(T) per sector, dissolving the claimed live defect.\"",
+   "log_says": "B791 re-derives the bank's structural claims from raw generators alone and confirms all of them, including that the V1+V5+V6 decomposition is FORCED by a central fixed-point-free involution rather than fitted (PROGRESS_LOG 2026-07-24); a later correction (B943, 2026-08-07) independently reproduces W_parent(7.072004187)=1.0103372 'reproducing B791's own W = 1.010 from scratch', confirming the arc's numbers rather than contradicting them.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Bank structural claims (image order 1920, transitivity, commutant dim 3, orbital sizes [12,12,120], <chi,chi>=3, decomposition V1+V5+V6) re-derived from the bank's own 4 generator permutations",
+     "where": "verify_bank_structure.py, FINDINGS.md §1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "The script explicitly requires an environment variable B788_BANK pointing at the external B788_maass_spectrum_programme's outputs/coset_action.json, which the script's own header states is 'NOT vendored into this repo'. A stranger with only this repo checked out cannot run it."
+    },
+    {
+     "what": "Weyl budget W = Vol(PSL(2,O3)\\H^3)/(6pi^2) = 0.002856530136 and the per-sector criterion dim(V_i)*W(T), plus the 12*W = Vol(m004)/(6pi^2) consistency check",
+     "where": "weyl_budget.py, sector_count_correction.py, results.json, results_correction.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Pure mpmath computation from the Dedekind zeta L-value, self-contained, outputs written to committed JSON; independently checkable by re-running the .py files."
+    },
+    {
+     "what": "lambda_1(parent) = 51.014 (Grunewald-Huntebrinker 1996 Table 3), used as GATE8R2's original PASS target",
+     "where": "PROVENANCE_ALERT.md, GATE8R2_PREREGISTRATION.md",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "Traced to a research subagent's unverifiable claim to have read a paywalled paper; PROVENANCE_ALERT.md documents the primary source could not be retrieved (Project Euclid serves only a JS shell). Later 'corroborated' (not verified) by a different arc's (B792) independent computation to 4-5 significant figures — corroboration explicitly distinguished from verification in the same file. The primary is still unread as of this arc."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No verification/ directory; the arc's own re-derivation from the bank's raw generator data functions as a belt for the bank's summary claims, but that re-derivation itself depends on an external, unvendored artifact (B788_BANK) so a stranger cannot run it from this repo alone.",
+   "absence_claims": [
+    {"quote": "cc did **not** re-run or re-implement the Hejhal linear algebra (Gates 6–8R), the parent-control reproduction (r = 24.5033416406…), or Gate 8 vs 8R remediation equivalence.", "where": "FINDINGS.md §6"},
+    {"quote": "No m004-relative eigenvalue exists in the bank: Gate 9 is blocked by its own guard (15/16 checks pass) and Gate 9R is `INTERRUPTED WITHOUT RESULT ARTIFACT`.", "where": "FINDINGS.md §6"},
+    {"quote": "The primary is still unread, and the search window was supplied by cc, so this is targeted corroboration rather than blind confirmation.", "where": "PROVENANCE_ALERT.md RESOLUTION section"},
+    {"quote": "Project Euclid serves a JS shell to curl (HTTP 200, text/html, 1.1 kB). A direct full-text fetch returns: \"the actual full text and tables are not accessible… subscription-restricted material.\"", "where": "PROVENANCE_ALERT.md §1"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "verify_bank_structure.py, the arc's independent structural verification, requires an external unvendored directory (B788_BANK env var) not present in this repo; a stranger cannot reproduce the check as committed.", "where": "verify_bank_structure.py lines 13-22"},
+    {"kind": "OTHER", "detail": "The arc's central load-bearing literature number (lambda_1(parent)=51.014) originated from a research subagent's false claim to have read a paywalled PDF; this was flagged 'possibly model-fabricated' then downgraded to 'corroborated' by a different computation, but never verified against the primary. The whole GATE8R2 sequence (and B793) still rests on this unverified secondary transcription.", "where": "PROVENANCE_ALERT.md"},
+    {"kind": "OTHER", "detail": "FINDINGS.md documents two internal errors in this same arc (a factor-of-dim(V_i) mistake in the completeness criterion, and a distinct-vs-with-multiplicity mismatch, 'THE MULTIPLICITY TRAP') both corrected in-place with the erroneous derivation left visible above a correction banner — handled transparently, not concealed, but shows the arc's headline claims changed direction twice within one day.", "where": "FINDINGS.md §5b, top banner"}
+   ],
+   "seat_note": "This is careful, transparent bookkeeping on an external, unvendored bank (self-correcting twice in one day about its own arithmetic), but it is pure spectral/representation-theoretic structure with no physical observable named or predicted — it is instrument work for a later SM-comparison gate, not itself physics content."
+  },
+  {
+   "arc": "B792_maass_m004_eigenvalues",
+   "source": "audit/b775-braver-questions",
+   "files_read": [
+    "FINDINGS.md",
+    "SM_COMPARISON_PREREGISTRATION.md",
+    "certify_mode_count.py",
+    "eigenvalues_final.json",
+    "eigenvalues_final.py (not read directly; referenced via imports)",
+    "eigenvalues_final.txt",
+    "groundwork.txt",
+    "mod4_trace_law_proof.py",
+    "mod4_trace_law_proof.txt",
+    "mode_count_certification.json (referenced, not opened directly)",
+    "refine_scanD.py (not opened; scanD_refined.json read instead)",
+    "sector_projection_test.py",
+    "sector_projection_results.txt",
+    "sm_comparison_tests.py",
+    "sm_comparison_certified.txt",
+    "sm_comparison_results.txt",
+    "step2_bianchi_index.txt",
+    "trace_norm_split.txt",
+    "weyl_scattering_check.txt",
+    "hejhal_m004.py (first 120 lines + grep)",
+    "length_spectrum.json (head 40 lines)",
+    "scanD_refined.json (head 40 lines)"
+   ],
+   "files_sampled": [
+    "hejhal_m004.py",
+    "length_spectrum.json",
+    "length_spectrum_m003.json (not opened this pass — time-budget)",
+    "scanD_refined.json"
+   ],
+   "files_listed_only": [
+    "scanA_results.npz",
+    "scanB_results.npz",
+    "scanC_results.npz",
+    "scanD_results.npz",
+    "scanE_results.npz",
+    "scanF_results.npz",
+    "scanG_results.npz"
+   ],
+   "claim_of_record": "no verdict file (has_verdict: false; no arc_verdict.json in this arc's directory)",
+   "log_says": "PROGRESS_LOG (2026-08-01, B845/B846): 'B792 is NOT in main' — it is cc3's own arc on a branch that never merges to main; citing it as if it were in main is flagged as a class of error. Main harvested only a partial subset (6 eigenvalues, later completed to 17, to r=9.84) with per-eigenvalue diagnostic fields explicitly marked 'NOT IN MAIN — absent rather than fabricated'. Review 36 separately notes a reviewer's claim of '43 eigenvalues to r=13.5 belonging to B792' is itself wrong — main has 17 to r=9.84.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "First six (later seventeen) Maass cusp-form eigenvalues of m004 computed via a from-scratch Hejhal/Then collocation solver, e.g. r=3.93891686, lambda=16.515066 (mult 2) through r=9.83711622, lambda=97.768855 (mult 2)",
+     "where": "hejhal_m004.py, eigenvalues_final.json, scanD_refined.json, groundwork.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Fully self-contained Python (numpy/mpmath) computation from the Riley holonomy matrices; two independent collocation heights (Y=0.75, Y=0.62) cross-checked to ~1e-9, second mode-count certification (margin 21 vs 27) to <1e-6; all inputs and code are committed on this branch."
+    },
+    {
+     "what": "lambda(parent ground state) = 51.013243, r = 7.07200419, matching literature-secondary lambda=51.014 to 4-5 sig figs — used to 'corroborate' B791's disputed literature value",
+     "where": "eigenvalues_final.json, groundwork.txt line 27",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Independently computed via the same solver, and the S-invariance test (7e-10 deviation vs O(1) for newforms) gives strong internal evidence it is the Bianchi-inherited old form; however groundwork.txt's own line still reads 'transcription VERIFIED' — an overclaim later explicitly walked back by cc in B791/PROVENANCE_ALERT.md to 'corroboration, not verification' (see SUPERSEDED_UNMARKED flag)."
+    },
+    {
+     "what": "Clean null: 'no SM value is reachable from this spectral set at 8-digit precision' (Tests 1-3, PSLQ algebraicity, ratio-matching) against 18 banked PDG targets",
+     "where": "sm_comparison_tests.py, sm_comparison_certified.txt, SM_COMPARISON_PREREGISTRATION.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Pre-registered protocol (sealed docstring extracted verbatim into SM_COMPARISON_PREREGISTRATION.md) with surrogate-null base-rate gating (0.02); re-run on the mode-count-certified spectral set after an uncertified dry-run was retracted and relabeled. Script and target file (frontier/B743_rung1_widened/pdg_targets.json) are committed."
+    },
+    {
+     "what": "Congruence Theorem 1 (Gamma(4) <= Gamma_41, level exactly 4) and Theorem 2 (all m004 geodesic trace norms avoid 1 mod 4) via finite BFS in SL(2,Z[w]/4)",
+     "where": "mod4_trace_law_proof.py / .txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Small finite-group computation, no external dependencies, fully committed and reproducible; matches B791's coset-image order 1920 exactly as an independent cross-check."
+    },
+    {
+     "what": "cc's standing prediction that r=8.8634 hides a second parent (V1) eigenvalue inside a multiplicity-2 eigenspace",
+     "where": "sector_projection_test.py, sector_projection_results.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Nullspace-projection test with built-in controls (all below-ground-state eigenspaces must show no parent direction; 7.072 must; both hold) explicitly REFUTES the prediction (dev_min=1.1 vs required <1e-3) — a negative result reported plainly rather than suppressed."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No verification/ subdirectory; the arc's own two-height / two-mode-count stability checks and controlled negative tests (sector_projection_test.py's built-in controls) function as an internal belt, but there is no separate independent-instrument re-derivation of these eigenvalues within the arc itself (cross-arc: B795 is cited elsewhere in the log as independently verifying 7/7, but that arc was not in this packet).",
+   "absence_claims": [
+    {"quote": "No exceptional eigenvalues λ < 1 anywhere in (0.8, 10).", "where": "FINDINGS.md §'THE FULL WINDOW r<10'"},
+    {"quote": "No old (Bianchi) form in (7.3, 10) — now PROVEN at eigenspace level", "where": "FINDINGS.md §'THE FULL WINDOW r<10'"},
+    {"quote": "Open action: reading the actual Experiment. Math. 5(1) 57–80 Table 3 (the other ~35 values).", "where": "FINDINGS.md §'THE r = 7.0720 EIGENVALUE'"},
+    {"quote": "B792 is NOT in main -- it is cc3's arc and cc3 never merges, so citing it as if it were here is the phantom's own class", "where": "PROGRESS_LOG.md 2026-08-01 (B845), quoted verbatim in log_index/B792.txt"},
+    {"quote": "the review seat repeated a companion number (\"43 eigenvalues to r = 13.5\") that belongs to cc3's B792, which is not in main -- main has 17, to r = 9.84", "where": "docs/progress/REVIEWS.md Review 36, quoted in log_index/B792.txt"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This entire arc directory lives only on branch audit/b775-braver-questions, not on main; main's harvested version (per the progress log) has fewer eigenvalues and drops several per-eigenvalue diagnostic fields. The packet's 'source' field ('audit/b775-braver-questions') confirms this is being read off a worktree, not the trunk the thesis's other claims build on.", "where": "packet source field; log_index/B792.txt (B845 entry)"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "groundwork.txt and sector_projection_results.txt (raw stdout artifacts) still literally say 'transcription VERIFIED' for the 51.014 parent value; this phrasing is explicitly retracted in FINDINGS.md's own header ('This section previously said transcription VERIFIED — the durable statement is weaker') and in B791/PROVENANCE_ALERT.md. The retraction is visible in FINDINGS.md itself so this is a frozen-log artifact, not an active uncorrected claim, but a reader consulting groundwork.txt alone would be misled.", "where": "groundwork.txt line 27; sector_projection_results.txt line 27"},
+    {"kind": "NO_TEST", "detail": "No arc_verdict.json exists for this arc (has_verdict: false in the packet), so there is no single sealed claim-of-record to audit against — the reader must reconstruct the arc's status entirely from FINDINGS.md prose.", "where": "packet metadata"}
+   ],
+   "seat_note": "The Maass-eigenvalue computation itself is genuinely observable-shaped (named quantities r, lambda with numerical values, cross-checked two ways) and the SM-comparison test is honestly a clean null rather than a fitted hit — good practice; but the arc is not in main, so none of it currently supports any claim made on the trunk, and the physics content (a spectral-geometry eigenvalue set) has no measurable connection to any observed physical quantity beyond the explicitly-reported null."
+  },
+  {
+   "arc": "B793_gate8r2a_parent_localisation",
+   "source": "main",
+   "files_read": [
+    "frontier/B793_gate8r2a_parent_localisation/ARTIFACT_HASHES.txt",
+    "frontier/B793_gate8r2a_parent_localisation/FINDINGS.md",
+    "frontier/B793_gate8r2a_parent_localisation/GATE8R2A_PREREGISTRATION.md",
+    "frontier/B793_gate8r2a_parent_localisation/arc_verdict.json",
+    "frontier/B793_gate8r2a_parent_localisation/bank_hash_baseline_post.json",
+    "frontier/B793_gate8r2a_parent_localisation/bank_hash_baseline_pre.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so 'parent-validated' is unearned.\"",
+   "log_says": "Only mentioned in passing in Review 32's window list ('B793 (the external bank's V1 control is bracket-refinement, not detection)') and in the id-collisions gate note (a documented two-way B793 id collision). No separate log entry states more than the arc's own files support.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The B788 bank's V1 solver uses scipy minimize_scalar(method='bounded') over a 2e-4-wide window centred on the literature value, which always returns a point and cannot count roots or detect absence of an eigenvalue",
+     "where": "FINDINGS.md 'The finding' section, quoting build_gate8_v1_control.py / GATE8R_PROTOCOL.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is a code-reading finding (inspection, not execution) about an EXTERNAL bank's solver; the arc explicitly did not run the solver (custody protocol only copies it out and inspects), so 'reproducible' would require access to the same external, unvendored B788 bank as B791."
+    },
+    {
+     "what": "Bank ARTIFACT_HASHES verification: 84 verified, 0 mismatches, both before and after the custody procedure (bank left unmodified)",
+     "where": "bank_hash_baseline_pre.json, bank_hash_baseline_post.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "Hash check against the external B788 bank's own ARTIFACT_HASHES.txt; the bank itself is not vendored in this repo, so a stranger cannot re-run the verification, though the pre/post hash-count match is itself committed evidence of custody discipline."
+    },
+    {
+     "what": "10 of the bank's own hash-listed files (its lock tests, e.g. test_b788_maass_gate8_v1_control.py) are MISSING from the delivered archive",
+     "where": "bank_hash_baseline_pre.json 'unresolved' list; FINDINGS.md 'Separate observation'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "Observed against the external delivered zip, which is not part of this repo; the missing-file list is recorded here but the archive itself cannot be re-inspected from committed files."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; this arc is itself a critical/adversarial inspection of another arc's (B788's, external) solver rather than a positive claim needing its own belt — the custody hash-check (pre/post) is the closest thing to a belt and it is present and committed.",
+   "absence_claims": [
+    {"quote": "The solver has never demonstrated it can find an eigenvalue whose location it was not given.", "where": "FINDINGS.md 'What Gate 8R's headline actually establishes'"},
+    {"quote": "The 10 unresolved hash entries are the bank's own lock tests (`../../tests/test_b788_maass_*.py`). They are absent from the delivered zip.", "where": "FINDINGS.md 'Separate observation on the delivered archive'"},
+    {"quote": "it means no seat can currently re-run the bank's own tests.", "where": "FINDINGS.md 'Separate observation on the delivered archive'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This arc is itself a red-flag-finding arc about a different (external, unvendored) arc's methodology: it demonstrates that a widely-cited 'parent-validated, 10-digit agreement' result (Gate 8R, from the external B788 bank) was internal optimiser convergence inside a supplied 2e-4 window, not independent eigenvalue detection. This is exactly the kind of methodological problem the seat should flag upstream wherever B788's Gate 8R claim is cited as validation.", "where": "FINDINGS.md whole document"},
+    {"kind": "GITIGNORED_WITNESS", "detail": "The bank's own regression/lock tests are documented as literally absent from the delivered archive (not merely gitignored) — stronger than the standard *.log/*.out gitignore pattern, since here the tests themselves were never shipped, meaning no one, inside or outside this repo, can currently run B788's own test suite.", "where": "bank_hash_baseline_pre.json unresolved list"}
+   ],
+   "seat_note": "This is a strong, well-evidenced negative result: it shows a headline claim elsewhere in the programme (B788 Gate 8R's parent validation) rested on an optimiser that cannot fail, and it is careful enough to distinguish this from a refusal or cost objection. No physical observable is involved; this is pure methodology audit of a spectral-geometry solver."
+  }
+ ]
+}

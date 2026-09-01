@@ -1,0 +1,363 @@
+{
+ "batch": "arcs_007",
+ "arcs": [
+  {
+   "arc": "B138_s031_principal_lemma",
+   "source": "main",
+   "files_read": [
+    "frontier/B138_s031_principal_lemma/FINDINGS.md",
+    "frontier/B138_s031_principal_lemma/README.md",
+    "frontier/B138_s031_principal_lemma/arc_verdict.json",
+    "frontier/B138_s031_principal_lemma/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The principal Sym^{n-1} image of an SL(2) rep over K is a trace-map fixed point with all traces in K, for every n; the converse stays open. | PROVED",
+   "log_says": "B775 Phase 2 Wave 6 (2026-07-24) calls this 'a new all-n THEOREM (B138, S031a sealing SL(3)->SL(4))'; the Q2 progress entry describes it more precisely as principal-image PROVED + SL(4) obstruction + object-clarification.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "Sym^{n-1} of metallic SL(2) fixed point has all word-traces in K_m, n=2..5, m=1,2", "where": "probe.py principal_image_seals()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, runs unconditionally, prints per-n/per-field table"},
+    {"what": "SL(4) sealing/escape evidence", "where": "FINDINGS.md (2)", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "explicitly stated as NOT obtained (intractable in-session); an honest negative, not a computed result"}
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false; no separate belt directory; probe.py is the sole computation and doubles as its own check (also run via tests/test_b138...).",
+   "absence_claims": [
+    {"quote": "SL(4) sealing evidence was **not obtained**.", "where": "frontier/B138_s031_principal_lemma/FINDINGS.md:32"},
+    {"quote": "the merged B124–B137 untouched", "where": "frontier/B138_s031_principal_lemma/FINDINGS.md:5"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "B775 progress-log entry (2026-07-24) labels this 'a new all-n THEOREM'; the arc itself proves only the principal-direction half and states the converse (all-n, all exotic points excluded) is explicitly OPEN. The log overstates.", "where": "PROGRESS_LOG.md 2026-07-24 vs frontier/B138_s031_principal_lemma/FINDINGS.md:20"}
+   ],
+   "seat_note": "A clean, reproducible half-proof (Sym-power is Z-defined, so field-membership is trivial) honestly paired with a stated computational obstruction at SL(4); the one problem is a later progress-log entry inflating it to a full theorem, which the arc's own text does not support."
+  },
+  {
+   "arc": "B139_firewall_cartography",
+   "source": "main",
+   "files_read": [
+    "frontier/B139_firewall_cartography/FINDINGS.md",
+    "frontier/B139_firewall_cartography/README.md",
+    "frontier/B139_firewall_cartography/arc_verdict.json",
+    "frontier/B139_firewall_cartography/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Multiplicity cannot supply the SM's simple non-abelian factor or irreducible chirality: the mirror preserves every computed invariant except the Chern-Simons sign. | NEGATIVE",
+   "log_says": "Banked three Chat-2 informatory calculations as cartography of the firewall (chirality articulation verified, MB9 guard, open lead B139-G on the genus ladder, unrun).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "mirror monodromy = M^T, so trace/char-poly/Perron-field equal for 6 chiral + 4 achiral words", "where": "probe.py mirror_trace_equality()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact, unconditional"},
+    {"what": "SnapPy CS-flip / volume-invariance / H1-invariance control", "where": "probe.py cs_flip_live()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy-gated; skips cleanly if absent, so reproducibility depends on the environment having SnapPy installed (not verified in this read)"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "probe.py itself is described as the re-run of the 'load-bearing calc' from a prior Chat-2 session; no separate verification/ dir.",
+   "absence_claims": [
+    {"quote": "NOT a proof that no invariant distinguishes a chiral bundle from its mirror", "where": "frontier/B139_firewall_cartography/FINDINGS.md:36"},
+    {"quote": "Registered in `../../docs/OPEN_LEADS.md` (tag **B139-G**); unrun.", "where": "frontier/B139_firewall_cartography/FINDINGS.md:52"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "The trace-equality is a one-line algebraic fact (mirror = transpose) correctly verified and honestly caveated as blocked only at standard invariants; genus-ladder open lead B139-G is properly flagged unrun here (later closed by B140, checked separately)."
+  },
+  {
+   "arc": "B140_compute_reconciliation",
+   "source": "main",
+   "files_read": [
+    "frontier/B140_compute_reconciliation/FINDINGS.md",
+    "frontier/B140_compute_reconciliation/README.md",
+    "frontier/B140_compute_reconciliation/arc_verdict.json",
+    "frontier/B140_compute_reconciliation/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The chirality firewall is genus-general (the genus-2 escape hope is refuted by the orientation-reversal theorem), and phi-discrete versus phi-squared-bundle is the principled split. | NEGATIVE",
+   "log_says": "Closes B139-G (genus-general chirality firewall via the orientation-reversal theorem), reframes S031, sharpens B138's phi vs phi^2 mechanism, records R^mL^m identity + bundle trace fields. A later entry (B755, 2026-07-22) reports the genus-2 mirror CS-flip 'WITNESSED at last' via twister.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "metallic incidence N=[[m,1],[1,0]] has det=-1, N^2=R^mL^m, tr(N^2)=m^2+2, m=1..4", "where": "probe.py incidence_facts()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact, unconditional"},
+    {"what": "phi-fixed SL(2)/SL(3) loci: unique irreducible point (0,0,0)/Sym^2(0,0,0) is rational", "where": "probe.py phi_fixed_sl2(), sym2_of_000_is_rational()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy solve, exact"},
+    {"what": "genus-2 chiral twister illustration + its CS numeric", "where": "probe.py genus_general_live()", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "FINDINGS.md explicitly calls this a 'soft spot': twister/Sage absent in-sandbox at the time this arc ran; closure is stated to rest on the general theorem, not this numeric"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Explicitly a reconciliation pass re-deriving prior claims in-sandbox before banking; no dedicated verification/ dir.",
+   "absence_claims": [
+    {"quote": "the genus-2 illustration (twister) and the trace-field computation both need modules/Sage absent here", "where": "frontier/B140_compute_reconciliation/FINDINGS.md:18"},
+    {"quote": "In-sandbox `trace_field_gens` needs Sage; recorded from the prior banks.", "where": "frontier/B140_compute_reconciliation/FINDINGS.md:71"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Sound reconciliation: the det=-1/phi-vs-phi^2 mechanism is exact sympy and the genus-generality rests on a cited standard theorem, with the one numeric gap (genus-2 CS) honestly flagged and, per the log, later filled by a separate arc (B755) rather than silently left open."
+  },
+  {
+   "arc": "B141_s031_split",
+   "source": "main",
+   "files_read": [
+    "frontier/B141_s031_split/FINDINGS.md",
+    "frontier/B141_s031_split/README.md",
+    "frontier/B141_s031_split/ADDENDUM_MECHANISM_CORRECTION_2026-08-13.md",
+    "frontier/B141_s031_split/arc_verdict.json",
+    "frontier/B141_s031_split/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The phi-fixed principal tower is reducible for all n>=3 by Q8 finiteness, while the phi-squared geometric tower stays irreducible in Q(sqrt-3): finiteness versus density splits S031. | PROVED",
+   "log_says": "Splits S031 into S031a (phi-fixed, reducible, Q8) and S031b (phi^2-geometric, irreducible, dense fig-8). A later log entry (2026-08-13, 'the port bank') records: 'B141's mechanism corrected by addendum-beside (SL(2,3) counterexample re-derived from scratch).'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Q8 rep of (0,0,0), order 8, max irrep dim 2, so Sym^{n-1} reducible for n>=3 (alg-dim table n=2..7)", "where": "probe.py phi_fixed_tower_reducible(), q8_group_order()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy algebra-dim BFS, exact"},
+    {"what": "fig-8 phi^2-geometric tower is irreducible n=2..5, traces in Q(sqrt-3)", "where": "probe.py phi2_tower_irreducible()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact"},
+    {"what": "SL(3) phi-fixed locus is entirely reducible (60/60, no irreducible found)", "where": "probe.py phi_fixed_search_sl3()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numeric least_squares search with fixed seed; explicitly labeled CONJECTURE, finite-sample, not a proof"},
+    {"what": "'Finite image => reducible tower' (the stated Item-3 mechanism)", "where": "FINDINGS.md Item 3 / README.md", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the addendum shows this general implication is FALSE (SL(2,3)=2T is finite yet has an irreducible Sym^2); FINDINGS.md/README.md/arc_verdict.json still state the finiteness mechanism as the takeaway without an inline correction"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Third reconciliation pass in a chain (B138->B140->B141); no dedicated verification/ dir; the ADDENDUM_MECHANISM_CORRECTION file is a later independent re-derivation of a caught defect, filed 'beside' the sealed FINDINGS rather than editing it.",
+   "absence_claims": [
+    {"quote": "Rigorous path is symbolic elimination of the phi-fixed system (the same target as the SL(4) elimination route)", "where": "frontier/B141_s031_split/FINDINGS.md:53"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "The ADDENDUM (2026-08-13) explicitly retracts Item 3's stated mechanism ('finite image => reducible tower' is false in general; counterexample SL(2,3)=2T). FINDINGS.md, README.md, and arc_verdict.json's claim_one_line still state the finiteness-vs-density mechanism as the conclusion, with no inline correction pointing to the addendum (the addendum is a separate file, not merged into the sealed text). The bottom-line conclusion (Q8 tower reducible for n>=3) survives, but the stated general principle does not.", "where": "frontier/B141_s031_split/ADDENDUM_MECHANISM_CORRECTION_2026-08-13.md:7-19 vs frontier/B141_s031_split/FINDINGS.md:36-43 and arc_verdict.json:4"}
+   ],
+   "seat_note": "The concrete Q8-reducibility computation is solid and exact, but the arc's own headline explanatory mechanism ('finiteness implies reducibility') was later shown false by a documented counterexample, and the sealed FINDINGS/verdict files were never edited to reflect it -- a reader of just those files would still believe the wrong general law."
+  },
+  {
+   "arc": "B142_klein4_and_magic_cartography",
+   "source": "main",
+   "files_read": [
+    "frontier/B142_klein4_and_magic_cartography/FINDINGS.md",
+    "frontier/B142_klein4_and_magic_cartography/README.md",
+    "frontier/B142_klein4_and_magic_cartography/arc_verdict.json",
+    "frontier/B142_klein4_and_magic_cartography/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "A Klein-4 argument proves the principal phi-fixed stratum reducible without any search, and the s776 Borromean/SU(3) enhancement claim fails on three counts. | PROVED",
+   "log_says": "Item A upgrades B141 Item-4's principal case from conjecture to rigorous proof (Klein-4 argument); Item B bank the s776 cartography as tombstone K-I + guard MB10; a later log entry (2026-07-13, Probation Campaign B562) confirms 'the SL(3) phi-fixed locus is ENTIRELY REDUCIBLE' extends B142.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Klein-4 lemma: two involutions with involution product commute => principal phi-fixed stratum reducible", "where": "probe.py klein4_lemma_symbolic()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy rewriting identity, exact, plus a concrete instance verification"},
+    {"what": "s776 = magic manifold (not Borromean rings), vol 5.33349, trace field Q(sqrt-7), 3-chain link not Brunnian", "where": "probe.py factual_correction()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy-gated; not re-run in this read, but the values are concrete and specific enough to be a real computation rather than an assertion"},
+    {"what": "s776 SL(3,C) Ptolemy variety has 14 obstruction classes, geometric component dim 6", "where": "probe.py sl3_ptolemy_object()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Sage-gated; the 'honest object' is only partially instantiated (size reported), not solved -- the SU(3) content question stays open per FINDINGS Item C"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "reconfirms a numerical search (78/78 vs handoff's 80/80) as a cross-check of the new rigorous proof; no dedicated verification/ dir.",
+   "absence_claims": [
+    {"quote": "The full SL(3) φ-fixed locus (all eigenvalue strata) stays CONJECTURE", "where": "frontier/B142_klein4_and_magic_cartography/FINDINGS.md:20"},
+    {"quote": "Solving it fully is a separate tool-gated thread (MB10/S033)", "where": "frontier/B142_klein4_and_magic_cartography/probe.py:187"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The corrected item explicitly documents a prior claim that rested on 'SL(2,C) character-variety complex dim (2, a symmetry slice) = rank(SU(3))' -- a dimension coincidence between an SL(2,C) object and an SU(3) Lie-algebra rank, banked here as a negative/tombstone precisely because it was such a coincidence (guard MB10). Recorded because the seat's own methodology flags this pattern class.", "where": "frontier/B142_klein4_and_magic_cartography/FINDINGS.md:36-39"}
+   ],
+   "seat_note": "The Klein-4 upgrade is a genuinely rigorous one-line proof, well verified; the magic-manifold correction is a good self-critical catch of exactly the bit/type-coincidence error this seat is meant to watch for, and it is banked as a warning (MB10) rather than glossed over."
+  },
+  {
+   "arc": "B143_interaction_feasibility",
+   "source": "main",
+   "files_read": [
+    "frontier/B143_interaction_feasibility/FINDINGS.md",
+    "frontier/B143_interaction_feasibility/README.md",
+    "frontier/B143_interaction_feasibility/arc_verdict.json",
+    "frontier/B143_interaction_feasibility/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The algebraic trace venue is structurally mirror-blind, so the chirality-of-interactions campaign cannot run there and needs orientation-sensitive topological tooling not yet installed. | NEGATIVE",
+   "log_says": "Strategic synthesis banked (3-voice) + Campaign-1 feasibility scope; the venue verdict: algebraic (trace) venue is mirror-blind to chirality-(ii), RIGOROUS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "mirror preserves trace for metallic words/compositions (seeds 1,2,3) in the (kappa,trT) coordinates B131 uses", "where": "probe.py algebraic_venue_is_mirror_blind()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact"},
+    {"what": "topological (JSJ) venue is not SnapPy-tractable, needs Regina (not installed)", "where": "probe.py topological_venue()", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "an honest tooling-gap statement, not a computation; Regina absence is reported directly"},
+    {"what": "'588 irreducible reps' claim from an AI-assisted review is not reproducible; falsifiable Massey-product part dead for s776", "where": "FINDINGS.md item 4 / probe.py verify_588_claim()", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the 588 count itself is stated as not reproducible without the source method -- an honest absence, not re-derived here"}
+   ],
+   "belt": "NONE",
+   "belt_note": "A feasibility/scoping arc; no computation to independently re-verify beyond the trace-blindness fact, which is self-contained.",
+   "absence_claims": [
+    {"quote": "the '588 irreducible reps' count is not reproducible without the source method", "where": "frontier/B143_interaction_feasibility/FINDINGS.md:27"},
+    {"quote": "Regina is not installed.", "where": "frontier/B143_interaction_feasibility/FINDINGS.md:24"},
+    {"quote": "whether the two-seed interaction *has* such a realization is itself a construction question (open)", "where": "frontier/B143_interaction_feasibility/FINDINGS.md:25"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A careful scoping document that correctly identifies its own venue is mirror-blind before spending effort in it, and honestly reports a missing tool (Regina) and an unreproducible external claim rather than papering over them."
+  },
+  {
+   "arc": "B144_interaction_chirality",
+   "source": "main",
+   "files_read": [
+    "frontier/B144_interaction_chirality/FINDINGS.md",
+    "frontier/B144_interaction_chirality/README.md",
+    "frontier/B144_interaction_chirality/arc_verdict.json",
+    "frontier/B144_interaction_chirality/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Cusp-glued composites are mirror-closed (verified GL(2,Z) identity), so seed-heterogeneity cannot break R-L symmetry; the naive chirality-crack targets are vacuous. | NEGATIVE",
+   "log_says": "Campaign 1 at the bottleneck; firewall extends structurally (MB12) + redirect toward a chirally-asymmetric input.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "mirror-closure identity: h2*phi*h1^-1 is in GL(2,Z) for sampled h1,h2,phi", "where": "probe.py mirror_closure_identity()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy over a finite sample (6 combinations), exact per-case check; the general algebraic argument (det preserved) is stated as always true"},
+    {"what": "the metallic pieces b++RL, b++RRLL are amphichiral (premise for the identity to apply)", "where": "probe.py pieces_are_amphichiral()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy-gated; falls back to recorded B128 values if SnapPy absent"},
+    {"what": "explicit closed cusp-glued composite build in Regina", "where": "probe.py regina_build_attempt()", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "explicitly reported as not in-session-tractable; the structural argument is said to stand without this build"}
+   ],
+   "belt": "NONE",
+   "belt_note": "the one-instance Regina gate is an honest attempted verification that failed to complete; no separate verification/ dir.",
+   "absence_claims": [
+    {"quote": "identifying the two boundary tori by a specified `φ` is not a single Regina call... explicit closed-composite certification is not in-session-tractable", "where": "frontier/B144_interaction_chirality/FINDINGS.md:38"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "The mirror-closure identity is a clean finite GL(2,Z) verification of an algebraic fact stated to hold in general, and the arc is candid that the explicit topological build (the strongest possible check) could not be completed in-session, resting instead on the algebraic argument alone."
+  },
+  {
+   "arc": "B145_forced_chirality",
+   "source": "main",
+   "files_read": [
+    "frontier/B145_forced_chirality/FINDINGS.md",
+    "frontier/B145_forced_chirality/README.md",
+    "frontier/B145_forced_chirality/arc_verdict.json",
+    "frontier/B145_forced_chirality/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Chirality cannot be forced: over the catalogued once-punctured-torus bundles the canonical/minimal locus coincides with the self-mirror (amphichiral) family. | NEGATIVE",
+   "log_says": "Campaign 1' — chirality cannot be forced (canonicity <=> self-mirror); parity is contingent. A later log entry (B146) states B145 is 'sound but over-scoped', and a further entry (B147) states 'B145's arithmeticity arm is REFUTED OUTRIGHT — arithmetic chiral o-p-t bundles exist'.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "GHH criterion (anti-palindromic) matches SnapPy is_amphicheiral on all 39 catalogued bundles", "where": "probe.py catalog()/analyze()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy/Sage-gated (trace-field degree needs Sage); not re-run here"},
+    {"what": "'every quadratic-trace-field bundle is amphichiral / no arithmetic chiral o-p-t bundle'", "where": "FINDINGS.md bullet 4 / probe.py bundle_trace_fields (non-invariant trace field)", "kind": "FITTED", "reproducible_from_committed": "unknown", "why": "used the non-invariant trace field rather than the arithmeticity-relevant invariant trace field; the arc's own successor (B146/B147) shows this specific claim is false when the correct (invariant) field is used"},
+    {"what": "the metallic family R^mL^m is entirely self-mirror; genuinely chiral sample words are not", "where": "probe.py metallic_all_self_mirror()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "unconditional combinatorial check, sound and unaffected by the later correction"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no dedicated verification/ dir; the catalog itself is the computation, later found methodologically flawed on one arm by B146/B147.",
+   "absence_claims": [
+    {"quote": "not a theorem that *every* conceivable canonicity principle forces amphichirality", "where": "frontier/B145_forced_chirality/FINDINGS.md:43"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B145's FINDINGS.md, README.md, and arc_verdict.json all still state as a load-bearing fact 'every quadratic-trace-field (arithmetic-candidate) bundle is amphichiral -- there is no arithmetic chiral o-p-t bundle' (and cite it as part of 'the strongest canonicity implies amphichirality'). B146 (same batch) documents this arm as refuted-as-stated (wrong trace field used) and B147 documents it as refuted outright (RRL/RLL are fully arithmetic and chiral). None of B145's own files (FINDINGS/README/arc_verdict) were edited to retract or flag this; a reader of B145 alone would believe the false claim. (Note: B146/B147 as separate arcs do correctly supersede it -- this is a within-B145 uncorrected residue, not a project-wide silence.)", "where": "frontier/B145_forced_chirality/FINDINGS.md:32-33 and arc_verdict.json:4-5, vs frontier/B146_b145_calibration/FINDINGS.md:22-38 and frontier/B147_arithmetic_chiral_bundle/FINDINGS.md"},
+    {"kind": "LOG_DRIFT", "detail": "B145's arc_verdict claim_one_line ('the canonical/minimal locus coincides with the self-mirror family') is stated without qualification; the surviving justification after B146/B147 rests only on the volume/palindromic arms, not the arithmeticity arm this same claim implicitly leaned on.", "where": "frontier/B145_forced_chirality/arc_verdict.json:4"}
+   ],
+   "seat_note": "The combinatorial (metallic-is-self-mirror) half of B145 is solid, but its arithmetic-arm claim was built on the wrong trace field and is refuted by its own immediate successors -- and critically, B145's own FINDINGS/README/verdict files were never patched to reflect that, unlike B141's ADDENDUM pattern which at least sits beside the file."
+  },
+  {
+   "arc": "B146_b145_calibration",
+   "source": "main",
+   "files_read": [
+    "frontier/B146_b145_calibration/FINDINGS.md",
+    "frontier/B146_b145_calibration/README.md",
+    "frontier/B146_b145_calibration/arc_verdict.json",
+    "frontier/B146_b145_calibration/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "B145's arithmeticity arm and its 'forced implies self-mirror' slogan are refuted; the surviving statement is the orientation-independence dichotomy. | NEGATIVE",
+   "log_says": "A scrutiny pass (independently reproduced) found B145 sound but over-scoped; calibrates the conclusion, states the chirality-fork dichotomy (B1), and finds the arithmetic arm refuted as stated (A5).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "RRL=[[3,2],[1,1]] is det-1, Pisot (trace 4), and chiral -- axioms permit chirality", "where": "probe.py part_a_facts()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact"},
+    {"what": "RRLLRL is amphichiral with non-symmetric monodromy [[12,7],[5,3]] -- symmetric is sufficient not necessary", "where": "probe.py part_a_facts() A4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact"},
+    {"what": "invariant trace field of RRL/RLL is imaginary-quadratic Q(sqrt-7), refuting B145's non-invariant-field claim", "where": "probe.py arithmetic_arm()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy+Sage-gated; not re-run in this read but reported as a specific catalog scan result"},
+    {"what": "M and mirror agree on orientation-independent invariants (vol/H1/trace field), CS flips", "where": "probe.py dichotomy_witness()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy/Sage-gated witness for chiral words RRL, RRRL"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "explicitly a scrutiny/calibration pass on B145; re-derives Part-A facts and identifies the specific bug (non-invariant vs invariant trace field) rather than merely re-asserting.",
+   "absence_claims": [
+    {"quote": "harden 'arithmetic => amphichiral for o-p-t bundles' from empirical ... toward a theorem via the finiteness/classification ... Attempt below; honest fallback = strengthened-empirical + conditional theorem.", "where": "frontier/B146_b145_calibration/probe.py:28-30"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely useful self-correction: it isolates and names the exact methodological bug in B145 (non-invariant vs invariant trace field) and derives a sharper, better-supported dichotomy in its place, correctly leaving one question open for B147 rather than overclaiming a fix."
+  },
+  {
+   "arc": "B147_arithmetic_chiral_bundle",
+   "source": "main",
+   "files_read": [
+    "frontier/B147_arithmetic_chiral_bundle/FINDINGS.md",
+    "frontier/B147_arithmetic_chiral_bundle/README.md",
+    "frontier/B147_arithmetic_chiral_bundle/arc_verdict.json",
+    "frontier/B147_arithmetic_chiral_bundle/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The chiral mirror pair RRL/RLL is fully arithmetic (Q(sqrt-7), integral traces, integer Bianchi ratio), so arithmetic chiral bundles exist. | PROVED",
+   "log_says": "B146 left one residue (is RRL/RLL fully arithmetic); B147 applies the full Maclachlan-Reid criterion and finds yes -- the arithmetic arm collapses, firewall survives via the B146 dichotomy.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "RRL/RLL traces are algebraic integers (monic minimal polynomials via pari algdep)", "where": "probe.py integral_traces()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "runs under plain pyenv (SnapPy+cypari); not re-executed here, but the method (monic-polynomial test, actual-degree leading coefficient) is concretely specified and a real bug in an earlier version is documented as caught (leading coeff must be read at actual, not search, degree)"},
+    {"what": "independent volume/Bianchi-covolume cross-check: vol(RL)/covol=12, vol(RRLL)/covol=12, vol(RRL,RLL)/covol=3", "where": "probe.py VOLUME_BIANCHI_RATIOS (recorded, computed under sage-python separately)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "explicitly stated as run under a separate sage-python process and recorded as a constant in this pyenv-only probe.py, not independently re-derivable from this file alone"},
+    {"what": "arithmetic o-p-t bundle scan (len<=7) finds exactly 4 arithmetic bundles: RL, RRLL, RRL, RLL", "where": "probe.py arithmetic_scan()", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy+cypari-gated scan, not re-run here"}
+   ],
+   "belt": "NONE",
+   "belt_note": "the Bianchi-covolume cross-check functions as an independent-method belt for the integral-traces result, but it is recorded as a constant rather than committed as a live secondary script within this arc's files.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The volume/Bianchi-covolume cross-check (the 'independent confirmation' of arithmeticity) is stated to run under a separate sage-python process, but no such secondary script is among the arc's committed files (only probe.py, which is pyenv-only and hardcodes the ratios as a dict, VOLUME_BIANCHI_RATIOS). A stranger cannot reproduce this specific check from the committed files alone -- they would need to reconstruct the sage-python script from the prose description.", "where": "frontier/B147_arithmetic_chiral_bundle/probe.py:145-150"}
+   ],
+   "seat_note": "The integral-traces computation is well-specified with a documented self-caught bug fix (a good verify-don't-trust sign), and it is a genuinely load-bearing correction of B145; the one gap is that the claimed independent cross-check (Bianchi covolume) lives only as a hardcoded recorded value, not a reproducible committed script."
+  },
+  {
+   "arc": "B148_kappa_fricke_metallic",
+   "source": "main",
+   "files_read": [
+    "frontier/B148_kappa_fricke_metallic/FINDINGS.md",
+    "frontier/B148_kappa_fricke_metallic/README.md",
+    "frontier/B148_kappa_fricke_metallic/arc_verdict.json",
+    "frontier/B148_kappa_fricke_metallic/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "kappa = 4*I_FV + 2 pinned exactly, and the metallic monodromies are genuinely the SL(2,Z) mapping-class action on the character variety. | PROVED",
+   "log_says": "A physics-boundary scrutiny pass reframed the project's core question as the cosmological-constant problem; a later entry (B1203, 2026-08-28) confirms 'the identity is already banked at B148' when re-surfaced, and notes an automated instrument caught a would-be duplicate.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Fricke commutator identity tr(ABA^-1B^-1)=x^2+y^2+z^2-xyz-2, kappa=4*I_FV+2 under half-trace convention", "where": "probe.py verify_fricke_commutator(), verify_kappa_4I_plus_2()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact, unconditional, all 16 checks reported pass/fail"},
+    {"what": "tr(R^mL^m)=m^2+2 symbolic in m; Dehn twists preserve kappa; kappa=-2 is the Markov surface containing both (3,3,3) and (0,0,0)", "where": "probe.py verify_metallic_trace_symbolic(), verify_dehn_twists_preserve_kappa(), verify_markov_slice_and_two_states()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact"},
+    {"what": "the physics/cosmological-constant motivation and the class-S coincidence question", "where": "FINDINGS.md §0, §4", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "explicitly labeled POSTULATED/firewalled and left as an open reading task, not a computation"}
+   ],
+   "belt": "NONE",
+   "belt_note": "arc itself styled as an independent re-derivation ('verify-don't-trust on a handoff'); every claim re-proved symbolically in probe.py rather than inherited, functioning as its own belt.",
+   "absence_claims": [
+    {"quote": "The dimensional argument is strong but is formally *an absence*, not a cited no-go theorem; its decisive primary-source confirmation is the OPEN reading task §4.B.", "where": "frontier/B148_kappa_fricke_metallic/FINDINGS.md:19"},
+    {"quote": "even a positive result is mathematics ... It does not cross the firewall", "where": "frontier/B148_kappa_fricke_metallic/FINDINGS.md:76"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "The mathematics (kappa/Fricke-Vogt identity, SL(2,Z) MCG action) is cleanly re-derived and exact; the physics framing (cosmological-constant residue) is properly quarantined as POSTULATED and the arc is explicit that its own key dimensional no-go argument is an absence-of-citation, not a proven theorem -- a good model of the discipline this seat wants to see."
+  },
+  {
+   "arc": "B149_sl4_ideal_completeness",
+   "source": "main",
+   "files_read": [
+    "frontier/B149_sl4_ideal_completeness/FINDINGS.md",
+    "frontier/B149_sl4_ideal_completeness/README.md",
+    "frontier/B149_sl4_ideal_completeness/arc_verdict.json",
+    "frontier/B149_sl4_ideal_completeness/classify_fp.py",
+    "frontier/B149_sl4_ideal_completeness/decompose.py",
+    "frontier/B149_sl4_ideal_completeness/decomposition.json",
+    "frontier/B149_sl4_ideal_completeness/irreducibility_fp.json",
+    "frontier/B149_sl4_ideal_completeness/probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "B89's posited family is the complete irreducible component for spectrum {1,1,w,w2}, making M^4=L unconditional on the genuine locus. | PROVED",
+   "log_says": "H1 (refocused): B89's family is the COMPLETE irreducible component; M4=L unconditional on the irreducible locus; a later entry (B775, 2026-07-24) flags a stale path reference to this arc's directory name in a downstream paper.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "B89's posited family lies in the variety V(I) of the generic 10-quadratic defining ideal", "where": "probe.py b89_family_lies_in_variety()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy substitution + reduction mod w^2+w+1, exact"},
+    {"what": "Q=0 stratum forces reducibility (span(e2,e3) invariant)", "where": "probe.py q_zero_forces_reducible()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy, exact, exhibited on a generic block-lower-triangular t"},
+    {"what": "ideal decomposition by gauge-rank of Q (rank 2 / 1 / 0 strata, minimal primes, per-component M^4=L membership)", "where": "decompose.py + decomposition.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sage-python primary decomposition, output committed as decomposition.json (13750 bytes), re-runnable via documented sage-python command"},
+    {"what": "exact Burnside irreducibility classification over F_p (two primes): decisive cell (irreducible & M^4!=L) = 0", "where": "classify_fp.py + irreducibility_fp.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed witness JSON at prime 1000003 shows per-stratum counts (rankQ2: 12 irr&M4=L, 0 elsewhere with irreducible reps); script documents and fixes a prior invalid test (Schur commutant) in favor of the correct Burnside algebra-dim test"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "classify_fp.py is an independent, methodologically-corrected re-verification (exact over F_p, replacing an invalid floating-point commutant test) of the symbolic decomposition in decompose.py/decomposition.json; both are committed with witness JSON.",
+   "absence_claims": [
+    {"quote": "the H1 handoff's 'numerically-coaxed artifact' premise does not apply", "where": "frontier/B149_sl4_ideal_completeness/FINDINGS.md:4"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "One of the more rigorously verified arcs in this batch: an explicit ideal decomposition plus an independent exact-over-F_p irreducibility classification (with a documented methodology bug caught and fixed -- Schur commutant is invalid for non-semisimple reps) and committed witness JSON that a stranger could re-check."
+  }
+ ]
+}

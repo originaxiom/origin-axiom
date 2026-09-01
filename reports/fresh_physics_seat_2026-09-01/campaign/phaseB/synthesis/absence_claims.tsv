@@ -1,0 +1,234 @@
+arc	source	where	quote
+B1_gluing_chern_simons	main	frontier/B1_gluing_chern_simons/README.md:51-55	It does NOT: produce the Chern-Simons action, or its level k; distinguish 2+1 gravity from any other flat-SL(2,R)-connection theory; supply a curvature 2-form whose vanishing is the dynamical content of F = 0.
+B3_regge_complex	main	frontier/B3_regge_complex/README.md:27	The 4D Regge complex — not a defined construction.
+B3_regge_complex	main	frontier/B3_regge_complex/README.md:35	"""stacking figure-eight slices by the monodromy A"" ... names no 4-manifold and no 4-cell."
+B5_wheeler_dewitt	main	frontier/B5_wheeler_dewitt/README.md:689	It does NOT resolve the cosmological-constant problem — it restates it.
+B9_fusion_scattering	main	frontier/B9_fusion_scattering/FINDINGS.md:26	There is no functor here, only a shared characteristic polynomial.
+B13_trace_map_character_variety	main	frontier/B13_trace_map_character_variety/FINDINGS.md:111	it does not derive physical `3+1`, matter content, gravity, or awareness.
+B13_trace_map_character_variety	main	frontier/B13_trace_map_character_variety/README.md:79	additional dictionary that is not derived here.
+B14_half_step_square_root_selector	main	frontier/B14_half_step_square_root_selector/FINDINGS.md:97	structure or an inserted operation is not derived here.
+B15_trace_map_invariant_controls	main	frontier/B15_trace_map_invariant_controls/FINDINGS.md:79	dictionary to awareness, physical coupling, and phase semantics is not derived
+B16_record_swap_status	main	frontier/B16_record_swap_status/FINDINGS.md:41	Therefore `P` is not currently a theorem of the substrate.
+B16_record_swap_status	main	frontier/B16_record_swap_status/FINDINGS.md:63	exchange symmetry itself is not derived from A1-A6.
+B19_exchange_half_step_axiom_audit	main	frontier/B19_exchange_half_step_axiom_audit/FINDINGS.md:33	but this condition itself is not derived from A1-A6.
+B21_spacetime_wp_dictionary	main	frontier/B21_spacetime_wp_dictionary/FINDINGS.md:12	No physical metric, units, causal cone, or Einstein equation is derived.
+B23_bkl_gravity_controls	main	frontier/B23_bkl_gravity_controls/FINDINGS.md:16	No explicit dictionary from `(u,v,w)` to Misner variables `(beta_+, beta_-,Omega)` or to Kasner/BKL variables is derived here.
+B24_anyon_quantum_bridge	main	frontier/B24_anyon_quantum_bridge/README.md:19	no derived rule mapping that `5` to `k+2`.
+B24_anyon_quantum_bridge	main	frontier/B24_anyon_quantum_bridge/FINDINGS.md:16	the shift from `5` to `k+2` is not derived.
+B25_fibonacci_spectrum_anchor	main	frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md:22	coupling is not derived from A1-A6 plus exchange symmetry.
+B27_sl3_fibonacci_trace_lift	main	frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md:64-65	it does not derive a physical dictionary. Particle/antiparticle language is not promoted.
+B29_hierarchy_normalization_controls	main	frontier/B29_hierarchy_normalization_controls/FINDINGS.md:42	it does not derive a physical spectrum.
+B52_multichannel_fibonacci_bridge_control	main	B52 LITERATURE.md, Conclusion section	I found no source in this scan where a three-channel Fibonacci tight-binding model yields an SL(3) transfer matrix whose trace-map renormalization is the PC12 T_m.
+B58_phaseA	main	B58_phaseA/B62_STATUS.md:16	the power-assignment at heights other than 2 is not derived here.
+B58_phaseA	main	B58_phaseA/B62_STATUS.md:37	There is no explicit f(n,d) in B62 for d≠2
+B58_phaseA	main	B58_phaseA/FINDINGS.md:91	not a symbolic proof.
+B58_phaseA	main	B58_phaseA/NILPOTENT_LIMIT_TEST.md:22	So the picture is a prettier description of the single-block part, not a proof across the barrier
+B58_phaseA	main	B58_phaseA/SYM_DECOMPOSITION.md:184	construction is a different, non-Kostant object that is not derived; it does not revive the
+B58_sl4_tower_test	main	B58_sl4_tower_test/FINDINGS.md, 'Verdict' section	the ambient SL(4,C) trace-map construction, which is not built here.
+B58_sl4_tower_test	main	B58_sl4_tower_test/README.md, 'Why The Prediction Is Not Tested Here'	That construction is not built here (it is a substantial trace-identity computation).
+B60_sln_tower	main	frontier/B60_sln_tower/FINDINGS.md line 9 (and README.md line 45)	SL(5) (24-dim) does not resolve at double precision: cond(Dx) ~ 1e11.
+B68_aj_conjecture	main	frontier/B68_aj_conjecture/exact_recursion.py lines 18-19	the exact recursion|_{q=1}=A identity is NOT newly established here
+B68_aj_conjecture	main	frontier/B68_aj_conjecture/FINDINGS_E.md line 40	the exact figure-eight quantum A-polynomial recursion |_{q=1} = A identity remains a literature theorem (Garoufalidis-Le), not re-derived in-house
+B68_aj_conjecture	main	frontier/B68_aj_conjecture/probe.py lines 21-26	the exact identity 'recursion|_{q=1} = A' is a proven theorem for the figure-eight (Le; Garoufalidis), but A has only even M-powers => the quantum convention is M_rec = q^N = (meridian)^2, and rewriting A there gives L-degree 2 / M_rec-degree 4. Extracting the exact q=1 limit needs the exact q-deformed recursion... near q=1 the numeric nullspace is ill-conditioned
+B69_metallic_apoly_family	main	frontier/B69_metallic_apoly_family/FINDINGS.md lines 51-54	Novelty: NOT established... Whether the metallic-family packaging is new vs implicit in twist-knot A-polynomial work (Hoste-Shanahan) needs a literature check before any novelty claim.
+B69_metallic_apoly_family	main	frontier/B69_metallic_apoly_family/FINDINGS.md line 37	metallic_family.py -- referenced by the handoff but absent from the bundle (flagged).
+B70_trace_ring	main	frontier/B70_trace_ring/FINDINGS.md:67	"The optimistic ""one generator closes it"" is refuted (the content is genuinely two-index past (1,1))"
+B70_trace_ring	main	frontier/B70_trace_ring/FINDINGS.md:80	labeled computer-assisted structural characterization, not PROVEN. Proven core untouched.
+B71_sl3_apoly	main	frontier/B71_sl3_apoly/FINDINGS.md:44	No Magma/Sage/internet needed.
+B71_sl3_apoly	main	frontier/B71_sl3_apoly/FINDINGS.md:125	No clean closed A-variety form exists ... their eliminated Groebner basis is 141 polynomials
+B71_sl3_apoly	main	frontier/B71_sl3_apoly/v0_geometric.py:70-71	=> NO clean monomial relation is constant on V0; the geometric A-variety is a large ideal (no tidy form)
+B73_sl4_apoly	main	frontier/B73_sl4_apoly/probe.py:21-23	a direct numerical fixed-locus search for SL(4) bundle reps at candidate root-of-unity A-spectra ... found NONE
+B73_sl4_apoly	main	frontier/B73_sl4_apoly/probe.py:20	the SL(4) trace map (B48 is SL(3) only)
+B73_sl4_apoly	main	frontier/B73_sl4_apoly/probe.py:23-24	so the degree-4 / j=1728 hypotheses are UNTESTED here; recorded as open, not claimed
+B74_higher_spin_grading	main	frontier/B74_higher_spin_grading/FINDINGS.md:68-69	There is NO computation making the metallic eigenvalues L_k a W_N CFT / higher-spin mode spectrum
+B74_higher_spin_grading	main	frontier/B74_higher_spin_grading/FINDINGS.md:69	the full Dickson tower is a strictly richer object than the W_N spin list
+B74_higher_spin_grading	main	frontier/B74_higher_spin_grading/FINDINGS.md:26	W_N (sl, not gl) has no spin-1
+B75_metallic_degree_rank	main	frontier/B75_metallic_degree_rank/FINDINGS.md:50-51	no clean Dehn-filling component found at n=3 across a broad sweep of 61 product-1 finite-order spectra
+B75_metallic_degree_rank	main	frontier/B75_metallic_degree_rank/FINDINGS.md:57-58	the metallic m≠1 test at n=4 ... is OPEN. The n-axis discriminator is already covered at m=1
+B76_cusp_quantum_group	main	frontier/B76_cusp_quantum_group/FINDINGS.md:36	For m≥2 there is no unitary fusion category — no metallic-anyon / MTC family.
+B76_cusp_quantum_group	main	frontier/B76_cusp_quantum_group/FINDINGS.md:43-45	NO categorical lift (SPECULATIVE-ANALOGY). There is no MTC/TQFT realization of the metallic family (V28): no functor from the metallic-bundle cusps to a modular tensor category for m≥2.
+B77_degree_rank_mechanism	main	frontier/B77_degree_rank_mechanism/FINDINGS.md:29-31	The meridian eigenvalues eig(mu)=eig(t) ... are generic and vary continuously across the component ... not roots of unity, not metallic, and not the fixed Dickson char(M^n) roots
+B78_degree_rank_n5	main	frontier/B78_degree_rank_n5/FINDINGS.md:29-30	the irreducible principal Dehn-filling rep is not numerically locatable this way
+B78_degree_rank_n5	main	frontier/B78_degree_rank_n5/FINDINGS.md:33	The decisive n=5 third point is OPEN — neither confirmed nor refuted.
+B79_mn_table	main	frontier/B79_mn_table/FINDINGS.md:22-26	no clean Dehn-filling component for the m=2 bundle at n=3 — over odd-order spectra ... a broad 61-spectrum sweep ... and a fresh 63-spectrum even-order sweep ... the component itself is not numerically locatable
+B79_mn_table	main	frontier/B79_mn_table/FINDINGS.md:28-29	the phi_m^2 n=4 Dehn-filling spectra ... were not located
+B80_sl4_adproof	main	frontier/B80_sl4_adproof/FINDINGS.md:24-25	B70 tried the symbolic-m eps-series pinv-limit directly over Q[m] and stalled at SL(4) (L=12)
+B81_sl5_adproof	main	frontier/B81_sl5_adproof/FINDINGS.md:26-27	the ε-series pinv-limit does not produce a well-defined characteristic polynomial — m-interpolation is invalid and the CRT reconstruction cannot be applied
+B82_consolidation	main	frontier/B82_consolidation/FINDINGS.md:66	Verdict: there is no physics here.
+B82_consolidation	main	frontier/B82_consolidation/FINDINGS.md:68-69	the physics-probing chapter is closed; future runs should not re-litigate these kills without genuinely new evidence
+B83_sln_apolynomial	main	frontier/B83_sln_apolynomial/FINDINGS.md:24	the principal SL(5) component is not numerically locatable (B78)
+B83_sln_apolynomial	main	frontier/B83_sln_apolynomial/FINDINGS.md:41-42	The full derivation of why the principal component's slope equals the rank is deferred
+B84_sl5_gauge_barrier	main	frontier/B84_sl5_gauge_barrier/FINDINGS.md:35	No numerical gauge-fix, θ-split, or seed-averaging can recover the SL(5) tower from the pinv-limit.
+B85_tower_lynchpin	main	frontier/B85_tower_lynchpin/FINDINGS.md:34-35	Numerical routes are DEAD (B84/V67): the ε-series pinv-limit does not converge canonically at the char(M^2)^2 sector
+B85_tower_lynchpin	main	frontier/B85_tower_lynchpin/FINDINGS.md:51	No numerical or representation shortcut remains
+B86_unification_synthesis	main	frontier/B86_unification_synthesis/FINDINGS.md:34	The external check cannot be closed here (the standing rule is no external contact)
+B86_unification_synthesis	main	frontier/B86_unification_synthesis/FINDINGS.md:45	no promotion to CLAIMS.md without the GOVERNANCE §5 gate; EXPERT_OUTREACH.md dormant
+B87_m3_genus	main	FINDINGS.md line 56-58 (2026-07-09 addendum)	the exact solve needs Magma (or the Ptolemy database), neither available in-session
+B87_m3_genus	main	FINDINGS.md line 61-63	The SL(2,ℂ) A-polynomial genus for m ≥ 2 remains a genuine open edge
+B88_sl4_census	main	FINDINGS.md lines 33-36	true completeness needs the symbolic Fix(T_1²) (the B71 route at rank 4 ... not a numerical search
+B96_geometry_invariants	main	FINDINGS.md line 33-34	SnapPy's exact adjoint torsion requires Sage (unavailable standalone)
+B96_geometry_invariants	main	FINDINGS.md line 34-35	a from-scratch Dimofte–Garoufalidis 1-loop invariant did not calibrate to the known τ₁=−3, τ₂=−16 here, so it is not reported as a number
+B98_geometric_jacobian	main	FINDINGS.md line 14-15	We had never computed the Jacobian spectrum there.
+B105_n5_wall_and_convergence	main	FINDINGS.md 'Conclusion (honest)' and README.md	the explicit n≥5 catalog is OPEN
+B105_n5_wall_and_convergence	main	probe.py docstring CONVERGENCE section	This stage SETS UP the thesis; it does NOT attempt that proof.
+B105_n5_wall_and_convergence	main	FINDINGS.md Correction B	There is NO mathematical boundary
+B106_dehn_filling_anatomy	main	FINDINGS.md intro	the third class, never computed, where degree=rank lives
+B106_dehn_filling_anatomy	main	FINDINGS.md D3	**Exhaustiveness** over *all* rank-4 spectra needs the symbolic `Fix(T₁²)` (the B71 route at rank 4) — **open**
+B107_physics_connection_audit	main	B109_trace_map_dynamics/LITERATURE_L5.md Task 4 (cross-referenced by B107/B109 arc)	the specific power relation `Mⁿ = L`... was not found stated in the published literature as of this search
+B109_trace_map_dynamics	main	LITERATURE_L5.md Task 4	the specific power relation `Mⁿ = L`... **was not found stated in the published literature** as of this search
+B109_trace_map_dynamics	main	LITERATURE_L5.md Task 4	Verify-don't-trust caveat: a negative literature search is not a proof of novelty; flagged for a specialist read before any published novelty claim.
+B110_off_locus_sector	main	FINDINGS.md 'the answer' section	there is no figure-eight SL(3) irreducible rep off the forced locus: the off-locus sector is **EMPTY for 4₁ at SL(3)**
+B110_off_locus_sector	main	FINDINGS.md honest scope section	The broader S011 fork — off-principal **multichannel** content at **higher rank** or for **other manifolds** — is **not** settled here and stays **OPEN**
+B115_higher_generality	main	FINDINGS.md #5	there is **no SL(4) figure-eight character-variety classification** (the SL(3) one is Heusener-Muñoz-Porti arXiv:1505.04451; no SL(4) analogue exists in the literature)
+B115_higher_generality	main	FINDINGS.md #4	this needs a **genus-2 SL(n) character-variety construction not in the repo**
+B117_interleaving	main	FINDINGS.md 'Path 4' section	n=6 is gauge-corrupted, so this is a consistency check, not a decisive test
+B119_mk_scalar_mechanism	main	FINDINGS.md 'the brave k=n attempt' section	the principal Dehn-filling rep does **not exist irreducibly** (B95 — at n=5 the forced spectrum {1,1,1,-1,-1} has A^2=I -> dihedral -> reducible; at n>=6 no finite-order spectrum of the forced shape)
+B120_tower_determination	main	FINDINGS.md S3+S5 section (correcting a prior handoff's absence claim)	and its 'no closed form' claim is wrong — a closed form does exist, once the h=n height is counted
+B122_W_symmetric_powers	main	FINDINGS.md, 'Not a wall-bypass' section	No functorial `Sym(W)→trace-ring` map was found
+B123_arithmeticity_m1	main	FINDINGS.md sec 'Status / honest scope', and probe.py docstring	the repo has no trace-field classifier
+B126_ladder_to_physics	main	probe.py docstring / FINDINGS.md sec 'Floor 1'	the repo has no trace-field classifier
+B135_lee_yang_m_specific	main	FINDINGS.md D3	NOT a full RCFT identification (no torus partition-function / character match; the framework's object is the hyperbolic, non-unitary complex-CS quantization, related to M(2,5) via the quantum dimension/fusion, not a proven RCFT equality)
+B138_s031_principal_lemma	main	frontier/B138_s031_principal_lemma/FINDINGS.md:32	SL(4) sealing evidence was **not obtained**.
+B138_s031_principal_lemma	main	frontier/B138_s031_principal_lemma/FINDINGS.md:5	the merged B124–B137 untouched
+B139_firewall_cartography	main	frontier/B139_firewall_cartography/FINDINGS.md:36	NOT a proof that no invariant distinguishes a chiral bundle from its mirror
+B139_firewall_cartography	main	frontier/B139_firewall_cartography/FINDINGS.md:52	Registered in `../../docs/OPEN_LEADS.md` (tag **B139-G**); unrun.
+B140_compute_reconciliation	main	frontier/B140_compute_reconciliation/FINDINGS.md:18	the genus-2 illustration (twister) and the trace-field computation both need modules/Sage absent here
+B140_compute_reconciliation	main	frontier/B140_compute_reconciliation/FINDINGS.md:71	In-sandbox `trace_field_gens` needs Sage; recorded from the prior banks.
+B141_s031_split	main	frontier/B141_s031_split/FINDINGS.md:53	Rigorous path is symbolic elimination of the phi-fixed system (the same target as the SL(4) elimination route)
+B142_klein4_and_magic_cartography	main	frontier/B142_klein4_and_magic_cartography/FINDINGS.md:20	The full SL(3) φ-fixed locus (all eigenvalue strata) stays CONJECTURE
+B142_klein4_and_magic_cartography	main	frontier/B142_klein4_and_magic_cartography/probe.py:187	Solving it fully is a separate tool-gated thread (MB10/S033)
+B143_interaction_feasibility	main	frontier/B143_interaction_feasibility/FINDINGS.md:27	the '588 irreducible reps' count is not reproducible without the source method
+B143_interaction_feasibility	main	frontier/B143_interaction_feasibility/FINDINGS.md:24	Regina is not installed.
+B143_interaction_feasibility	main	frontier/B143_interaction_feasibility/FINDINGS.md:25	whether the two-seed interaction *has* such a realization is itself a construction question (open)
+B144_interaction_chirality	main	frontier/B144_interaction_chirality/FINDINGS.md:38	identifying the two boundary tori by a specified `φ` is not a single Regina call... explicit closed-composite certification is not in-session-tractable
+B145_forced_chirality	main	frontier/B145_forced_chirality/FINDINGS.md:43	not a theorem that *every* conceivable canonicity principle forces amphichirality
+B146_b145_calibration	main	frontier/B146_b145_calibration/probe.py:28-30	harden 'arithmetic => amphichiral for o-p-t bundles' from empirical ... toward a theorem via the finiteness/classification ... Attempt below; honest fallback = strengthened-empirical + conditional theorem.
+B148_kappa_fricke_metallic	main	frontier/B148_kappa_fricke_metallic/FINDINGS.md:19	The dimensional argument is strong but is formally *an absence*, not a cited no-go theorem; its decisive primary-source confirmation is the OPEN reading task §4.B.
+B148_kappa_fricke_metallic	main	frontier/B148_kappa_fricke_metallic/FINDINGS.md:76	even a positive result is mathematics ... It does not cross the firewall
+B149_sl4_ideal_completeness	main	frontier/B149_sl4_ideal_completeness/FINDINGS.md:4	the H1 handoff's 'numerically-coaxed artifact' premise does not apply
+B153_degree_rank_degeneration	main	frontier/B153_degree_rank_degeneration/FINDINGS.md line 47	the earlier 'numerical' slice-piece tangent 14 was wrong (exact value 10)
+B153_degree_rank_degeneration	main	frontier/B153_degree_rank_degeneration/FINDINGS.md line 74	The old '0/120, no irreducibles' was simply wrong (it missed the non-ss irreducibles).
+B156_omega_strict_full_cone	main	frontier/B156_omega_strict_full_cone/FINDINGS.md lines 104-107 (Scope section: 'the stronger reading ... is false as a mechanism')	the two strict-full shears A=S03 and C=S23 commute ... so the map R->A, L->C cannot faithfully represent the noncommutative trace-map monodromy
+B156_omega_strict_full_cone	main	frontier/B156_omega_strict_full_cone/FINDINGS.md line 155 (firewall claim-boundary table)	Full Ω endpoint entropy | OPEN | Finite growth observed, no all-depth proof.
+B156_omega_strict_full_cone	main	frontier/B156_omega_strict_full_cone/FINDINGS.md line 157	U/V free semigroup | REFUTED | Relation appears at depth 7.
+B157_metallic_exponent	main	FINDINGS.md line ~39	o=5,6 admit no irreducible SL(3) bundle reps (random Newton, 300–400 seeds) — inadmissible at SL(3)
+B157_metallic_exponent	main	FINDINGS.md CORRECTION 2026-06-23, contradicting its own earlier NEEDS-SPECIALIST claim of unreachability	"""needs a real CAS (Singular/Macaulay2/Sage)"" ... Sage is installed in-environment"
+B162_kappa_sweep	main	FINDINGS.md 'Honest scope' section	there is no ground-truth theorem off the real axis (the Damanik–Gorodetski horseshoe covers only the Hermitian kappa>2 regime)
+B162_kappa_sweep	main	FINDINGS.md 'Honest scope' section	Whether the kappa=-2 complex spectrum encodes the figure-eight hyperbolic geometry is not tested and not claimed
+B754_p2_spectral	main	frontier/B754_p2_spectral/FINDINGS.md:67 (paraphrased in FINDINGS; verbatim form in cells/TOMB-L277/output.txt line 115: 'the census does not exist in the banked record')	the census does not exist in the banked record.
+B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:74	token 'RRL|RLL' appears NOWHERE in the four frozen arcs (0 hits) -- no arc ever evaluated the weld at any comparator word
+B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:75	token '2880' appears NOWHERE in the four frozen arcs (0 hits) -- no arc ever touched the finite 2880 image at all
+B754_p2_spectral	main	frontier/B754_p2_spectral/cells/WALL-7/output.txt:84 (MISMATCH 1)	The banked surface contains no spectral data for the double.
+B754_p2_spectral	main	frontier/B754_p2_spectral/cells/B516/output.txt:114-117 (FALSIFIER paragraph, paraphrased join of two adjacent lines)	No such theorem connecting Pisot numbers of coupling matrices to spectral data of hyperbolic 3-manifolds exists in the banked surface or in known mathematics.
+B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L258/output.txt:94-96	R_cont(n) for n=2..6 : [no n-indexed object exists on the frozen surface -- the banked emittance face is the SL(2) Laplacian only; the SL(n) tower has no banked emittance spectrum]
+B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L258/output.txt:98	n cannot enter: no n-indexed emittance object exists in B737/B739/B746/B753 (frozen-surface fact...)
+B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L30/output.txt:85-86 and skeptic.txt:65-68 ('I cannot exhibit a k-varying probability family ... nor produce a banked CS-to-continuous bridge')	no banked bridge connects the CS level k to it (i.e., no bridge from the CS level k to a parameter moving the continuous channel exists in the frozen surface)
+B755_carried_recomputes	main	frontier/B755_carried_recomputes/FINDINGS.md:11	The missing module at bank time (twister) is present in the current env.
+B755_carried_recomputes	main	frontier/B755_carried_recomputes/PREREGISTRATION.md:17	the sweep's condition: the chat-1 set is not in-repo, so the set must be preregistered
+B755_carried_recomputes	main	frontier/B755_carried_recomputes/FINDINGS.md:34-36	The source (arXiv:2412.04241...) was re-read directly; the re-read RESOLVED the banked extraction's internal inconsistency
+B755_carried_recomputes	main	frontier/B755_carried_recomputes/FINDINGS.md:70-71	The tombstone's kill citation was BROKEN (archive/PHYSICS_RESONANCES.md has no Fisher content)
+B756_remaining_doors	main	frontier/B756_remaining_doors/FINDINGS.md:25-26	cc2's Register framing was wrong (owned in their synthesis: the generating function is mod-5, not level-15 — Register erratum theirs)
+B756_remaining_doors	main	frontier/B756_remaining_doors/FINDINGS.md:42 (quoting cc2's DOOR4 residual question)	the identity was never established
+B756_remaining_doors	main	frontier/B756_remaining_doors/PREREG_REMAINING_DOORS.md:8 (describing the four Register doors as unpicked-up)	grep-verified absent from B739–B754
+B757_two_z3_identity	main	frontier/B757_two_z3_identity/PREREGISTRATION.md:4 (quoting cc2's DOOR4 residual)	the identity was never established
+B763_branch_reconciliation	main	frontier/B763_branch_reconciliation/FINDINGS.md:43	the priors were ON MAIN. The exposure was real but structural: this seat reads main + gate-arrivals only, so an unmerged branch carrying unbanked conclusions WOULD have been invisible
+B765_p3_depth	main	frontier/B765_p3_depth/results.json (B489 entry)	n=1..8 checked; claim universal; no induction/stabilization proof
+B765_p3_depth	main	frontier/B765_p3_depth/results.json (B500 entry)	depth>=6 unswept; no depth-uniform obstruction proved
+B765_p3_depth	main	frontier/B765_p3_depth/FINDINGS.md:97-98	None requires new mathematics — all are finite-extension or induction proofs within the existing framework. But none has been executed.
+B768_correspondence_crosstest	main	frontier/B768_correspondence_crosstest/FINDINGS.md line 33	Zero literature citations in the package
+B768_correspondence_crosstest	main	frontier/B768_correspondence_crosstest/FINDINGS.md lines 37-38	The uniqueness claim is UNVERIFIABLE AS DELIVERED: the 8-primitive / 18-assignment enumeration is not in the package.
+B768_correspondence_crosstest	main	frontier/B768_correspondence_crosstest/FINDINGS.md line 83	The null (rule 2): STILL BLOCKED — the 18-assignment enumeration remains undelivered
+B768_correspondence_crosstest	main	frontier/B768_correspondence_crosstest/FINDINGS.md line 130 (receipt #3, F4)	No literature documents the two-flips-cancel invariance.
+B770_closure_census	main	frontier/B770_closure_census/CENSUS.md line 411	OI-108: RF2-continuation: the trace-field degree-law (deg 4->8->12 per rung — is there a law?) — never run anywhere in the repo.
+B770_closure_census	main	frontier/B770_closure_census/CENSUS.md line 420	OI-290: Three enumerated computations in PORTRAIT.md:140-142 remain unrun anywhere in the repo.
+B770_closure_census	main	frontier/B770_closure_census/CENSUS.md line 422	OI-307: R2 (B459/P1 seam sqrt(-15) selection rule): APPEARS-NOVEL / NEEDS-SPECIALIST, unresolved; no specialist note written (R1's exists, R2's does not)
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/FINDINGS_WAVE2.md:26 (W2-149 row)	"the claimed ""12 genuine FAILUREs"" negative-control run exists nowhere in the artifacts. Carry: actually run the control."
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/FINDINGS_WAVE2.md:24 (W2-270 row)	"compute.py's verdict branch can only emit RESOLVED-A/B — ""UNRESOLVED"" appears nowhere — and the run never reached depths 9–11. The reported UNRESOLVED was the agent's prose, not the script's output."
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:24 (W3-270r row)	output truncated at depth 9 again; never reached 10–11; no results.json — the SAME Wave-2 defect.
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:26 (W3-150r row)	compute.py has no VERDICT logic — RESOLVED-A is agent prose, not script output.
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:28 (W3-078 row)	the verdict branch can't emit RESOLVED-B (self-fulfilling).
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:29 (W3-084 row)	it never gates on whether the 1-collar actually FORCES the border (the decisive K-theory check).
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/FINDINGS_WAVE4.md:20 (W4-115 row)	no law relates cover-torsion to charge tower e_n at trace level (n=5 hit isolated).
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/FINDINGS_WAVE4.md:28 (W4-139 row)	"the ""genus ≥ 1"" lower bound is asserted in prose, never computed (needs the birational Fxz→G step)."
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/cells/OI-148/output.txt:7	e3's exact closed form remains UNRESOLVED -- that is OI-031's question, not this cell's; this cell's verdict does not depend on it.
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/wave5_results.json (W5-017r discriminating_fact field)	"W4-017r's compute.py never calls its solver on class 3 ... yet its printed ""SCOPE (computed, not assumed)"" narrative claimed ""verified in-cell: a class-3 isolated point yields a generator of degree 10 with height >1e8"" -- a fabricated assertion"
+B771_phase1_wave1	main	frontier/B771_phase1_wave1/cells/W3-149r/output.txt:36	"the fabricated ""12 genuine FAILUREs"" claim's ... nowhere-appearing"
+B772_negatives_adequacy	main	frontier/B772_negatives_adequacy/FINDINGS.md:15-16	No negative in the corpus has ever computed a chord-level analog of its own target and found THAT also empty.
+B772_negatives_adequacy	main	frontier/B772_negatives_adequacy/audit_results.json:354 (what_we_miss)	NO cell in the corpus has yet computed a chord-level / non-abelian / framing-sensitive analog of its own target and found THAT also empty
+B772_negatives_adequacy	main	frontier/B772_negatives_adequacy/audit_results.json:346 (recompute_list, W3-067 entry); also line 89	the fix W4-067r is still UNTRACKED/un-re-gated in git
+B773_chord_recompute	main	frontier/B773_chord_recompute/FINDINGS.md:49-51 (W3-067c entry)	the certification covers only tr(a), not the full trace field ⟨tr a, tr b, tr ab⟩ the cell's own docstring names
+B773_chord_recompute	main	frontier/B772_negatives_adequacy/audit_results.json:89 (W3-067 rationale, carried into B773's prereg for W3-067c)	No exact Sage/Groebner trace-field certification was run as a cross-check.
+B775_phase2_wave1	main	FINDINGS_WAVE3.md:15 (P2W3-H4)	there is no object-native reason the figure-eight is uniquely minimal along arithmeticity — that is Reid's separate deep theorem
+B775_phase2_wave1	main	FINDINGS_WAVE2.md:15 (P2W2-PERLETTER)	no non-arbitrary per-letter hearing weight is forced: the hearing amplitude factors as q(RL)=θ_fund·q(L) with the per-letter split a FREE knob
+B775_phase2_wave1	main	FINDINGS_WAVE2.md:14 (P2W2-DARKBRIGHT)	a verified EFFECTIVE bright/dark test exists, but no closed-form seed criterion
+B775_phase2_wave1	main	FINDINGS.md:16 (P2-D5)	the courier's T4 item is not a property of THIS object
+B775_phase2_wave1	main	cells/P2-AABB/output.txt:35-36	NO native involution -- a<->b is not a sigma-automorphism ... the case bit {a,A} is imported (not in sigma's alphabet)
+B775_phase2_wave1	main	FINDINGS_WAVE4.md:13 (P2W4-L38)	no forced tiny number
+B775_phase2_wave1	main	FINDINGS_WAVE4.md:29	Every terminal state represented; no forced positives survived.
+B775_braver_questions	audit/b775-braver-questions	FINDINGS_FINAL.md line 45, re: the theta-vacancy slot	No known candidate fills them.
+B775_braver_questions	audit/b775-braver-questions	FINDINGS_FINAL.md line 13	No competing framework (IIT, GNW, ORCh-OR, HOT) subjects itself to this discipline.
+B775_braver_questions	audit/b775-braver-questions	FINDINGS_FINAL.md line 45	None of the three triadic T1 candidates (vedanā, Peirce, Husserl) cleanly match the S₃ generator-pair structure.
+B775_braver_questions	audit/b775-braver-questions	FINDINGS_FINAL.md line 69	The program has never tested whether its structural crown jewel is generic to the class.
+B775_braver_questions	audit/b775-braver-questions	FINDINGS_PARALLEL.md line 22, re: the enumeration survivor count	The computation has not been run.
+B776_b685_homework	main	FINDINGS.md line 20	For the FIRST TIME in-repo, Φ(h)Φ(−h) was reconstructed FROM FIRST PRINCIPLES (not cited)
+B776_b685_homework	main	FINDINGS.md line 28	NO literal 5^k/7^k in ANY denominator at ANY computed order (0–50 complete; five_appears=FALSE)
+B776_b685_homework	main	FINDINGS.md lines 30-32 (later superseded by the ANCHOR CLOSED addendum, lines 57-66)	the order-100 anchor (3¹⁴⁶@100) was NOT observed-complete in-cell — the order-105 run was still executing at the forced structured-output cutoff
+B777_braver_questions	main	CC_VERIFY_V4GENERICITY.md, 'The honest residual' section	cc3 did NOT over-claim m004-uniqueness.
+B777_braver_questions	main	CC_VERIFY_V4GENERICITY.md line 30	V4 + volume does NOT separate the figure-eight from its sister.
+B778_cleanup	main	frontier/B778_cleanup/PREREGISTRATION.md:43-44 (also cells/CL-W3082/output.txt:41-45)	the arithmetic-CS bridge to Kim's H^3 action is uncomputed, self-flagged NEEDS-SPECIALIST in LAW_MAP
+B778_cleanup	main	frontier/B778_cleanup/cells/CL-W4115/compute.py:8-9	'adjoint 7,815' is NOT reproduced by any natural content of the essential adjoint t^2-5t+1 ... FABRICATED -> stripped.
+B778_cleanup	main	frontier/B778_cleanup/FINDINGS.md:21-24	"CL-W4115: strip the fabricated ""adjoint 7,815..."" string ... Never ran. / CL-LATIN ... Never ran."
+B779_convergence_probe	main	frontier/B779_convergence_probe/R3_scattering_assessment.md:89 (quoting B735)	Sage/Hejhal-class machinery unavailable.
+B779_convergence_probe	main	frontier/B779_convergence_probe/R6_maass_assessment.md:71	No implementation exists in this repo or in standard SnapPy/SageMath.
+B779_convergence_probe	main	frontier/B779_convergence_probe/R6_maass_assessment.py:106-108	For weight-0 Maass forms (the target): ... No implementation exists in this repo.
+B779_convergence_probe	main	frontier/B779_convergence_probe/R7_functor_assessment.md:29	individual eigenvalues are NOT COMPUTED (R6' wall)
+B779_convergence_probe	main	frontier/B779_convergence_probe/R7_functor_assessment.md:61	No THEOREM connecting them
+B783_observer_ground_zero	audit/b775-braver-questions	B3_c_test.txt:24	The level distinction has NO formal definition as a Z/2
+B783_observer_ground_zero	audit/b775-braver-questions	B3_c_test.txt:59-60	All three formalizations fail. The level distinction is NOT a well-defined Z/2 involution on the pointer's state space.
+B783_observer_ground_zero	audit/b775-braver-questions	B3_c_test.txt:122	THE RESOLUTION: c HAS NO WORD-LEVEL COUNTERPART
+B783_observer_ground_zero	audit/b775-braver-questions	B3_c_test.txt:186	The honest conclusion: c has NO word-level pointer counterpart.
+B783_observer_ground_zero	audit/b775-braver-questions	FINDINGS.md:39	c has NO word-level counterpart
+B783_observer_ground_zero	audit/b775-braver-questions	FINDINGS.md:46	B749 F8 independently forbids it: Q(√-3) is born at hyperbolization.
+B783_observer_ground_zero	audit/b775-braver-questions	C1_synthesis.txt:22-23	"P16.3 (level distinction = c): REFUTED. No formal Z/2 involution definition exists for ""level distinction."""
+B783_observer_ground_zero	audit/b775-braver-questions	C2_adversarial.txt:192	For level = c: B3 shows NO structural content. Not even a definition exists.
+B783_observer_ground_zero	audit/b775-braver-questions	C2_adversarial.txt:46-48	No permutation works because: ... c cannot appear at the word level in ANY slot (B749 F8).
+B784_trace_map_intertwining	audit/b775-braver-questions	FINDINGS.md:16	The observer programme closes 0 bits at the trace level.
+B784_trace_map_intertwining	audit/b775-braver-questions	FINDINGS.md:84	No matrix operation at the geometric point can reach γ₅.
+B784_trace_map_intertwining	audit/b775-braver-questions	FINDINGS.md:67 (section '4. P784.5 FAIL: no √3 in the C decomposition')	Neither is √3.
+B784_trace_map_intertwining	audit/b775-braver-questions	FINDINGS.md:167	no such S exists (verified: nullity 0 at 5 random SL(3) trials)
+B784_trace_map_intertwining	audit/b775-braver-questions	FINDINGS.md:353	No trace-map dynamics can detect either θ or ι.
+B784_trace_map_intertwining	audit/b775-braver-questions	FINDINGS.md:328	No word-level operation produces a non-trivial action on traces.
+B784_trace_map_intertwining	audit/b775-braver-questions	iota_torsor_position.txt:61	No inner S exists at generic SL(3): iota is OUTER on W1/W2.
+B784_trace_map_intertwining	audit/b775-braver-questions	A3_sym2_trace_computation.txt:229 (PART 7 Schur's-lemma claim)	there is NO R in SL(3) with R.Sym^2(w).R^{-1} = Sym^2(w^R) for all w
+B785_cc3_gate_harvest	main	FINDINGS.md line 24	This is a sample, not a generic proof (which needs many more points — the entry-degree and minor-degree bounds disagree, 53 vs 865, worth reconciling).
+B785_cc3_gate_harvest	main	FINDINGS.md lines 25-26	not independently re-run here (requires the B575 infrastructure and ~36 s/point)
+B785_cc3_gate_harvest	main	FINDINGS.md line 30	"The b769 / C21 ""tangent frames align → chord = c⊕θ"" mechanism did NOT pass"
+B786_torsor_theta_iota	main	FINDINGS.md line 8	reversal is trace-trivial at every rank
+B786_torsor_theta_iota	main	FINDINGS.md lines 35-36	its S = diag(1,−1,1) does not intertwine (I flagged it). The rank-4 claim is CONDITIONAL on cc3's corrected S
+B787_interaction_programme	main	FINDINGS.md line ~57 (section 2, 'Relabeling trigger')	The relabeling is OWED and UNRESOLVED, not cleared and not propagated.
+B787_interaction_programme	main	FINDINGS.md line ~56	a per-label reversal-vs-inversion recomputation that was NOT run
+B787_interaction_programme	main	FINDINGS.md section 3 completion checklist, line ~96	tests/test_b787_interaction.py (locks) | NOT DONE | The iota-id (exact structural theorem) and the D2/D4 exact identities are lock-eligible but no test was written.
+B787_interaction_programme	main	FINDINGS.md section 4, line ~123 — contradicts the section-3 checklist row above; file was independently verified to exist at tests/test_b787_interaction.py	The test-lock (tests/test_b787_interaction.py) is written.
+B789_theta_intertwiner	main	FINDINGS.md, 'Method note' paragraph	"cc's first pass used a guessed relator (w = b^-1aba^-1) and V2 came back False. The guess was wrong... Had the guessed relator been trusted, this arc would have reported ""rho_2 does not descend"" — a fabricated negative on a load-bearing check."
+B789_theta_intertwiner	main	FINDINGS.md, scoping fact 2	There is no universal Q.
+B790_maass_adjudication	main	FINDINGS.md verdict table, Step 1 row	LMFDB has zero Laplace data for any Bianchi group; d=3 exists only at ~3 digits; m004 never computed
+B790_maass_adjudication	main	FINDINGS.md section 1	For m004 itself: nothing. Recorded as NOT-COMPUTED, explicitly not non-existence — the discrete spectrum is provably infinite by the Weyl law.
+B790_maass_adjudication	main	FINDINGS.md verdict table, Step 3 row	Hejhal-on-H^3 not in-sandbox; NEEDS-SPECIALIST after exhausting what is computable
+B790_maass_adjudication	main	FINDINGS.md, Headline paragraph	No mathematical discovery is claimed in this arc.
+B790_maass_adjudication	main	FINDINGS.md ADDENDUM, 'Net effect on the arc's verdict'	"Step 3: superseded — see the separate note on the external Gates 0-9R bank. ""Blocked on data nobody has computed"" is wrong; the blocker is wall-clock and checkpointing."
+B790_maass_adjudication	main	output_screening.txt VERDICT section	m004's eigenvalue channel is NOT untouchable: >=12 eigenvalues are KNOWN by inheritance from the parent group, at ~3 digits. Step 1's 'never computed' is CORRECTED to 'never computed DIRECTLY; ~1/12 inherited, at 3 digits'.
+B791_weyl_completeness	main	FINDINGS.md §6	cc did **not** re-run or re-implement the Hejhal linear algebra (Gates 6–8R), the parent-control reproduction (r = 24.5033416406…), or Gate 8 vs 8R remediation equivalence.
+B791_weyl_completeness	main	FINDINGS.md §6	No m004-relative eigenvalue exists in the bank: Gate 9 is blocked by its own guard (15/16 checks pass) and Gate 9R is `INTERRUPTED WITHOUT RESULT ARTIFACT`.
+B791_weyl_completeness	main	PROVENANCE_ALERT.md RESOLUTION section	The primary is still unread, and the search window was supplied by cc, so this is targeted corroboration rather than blind confirmation.
+B791_weyl_completeness	main	PROVENANCE_ALERT.md §1	"Project Euclid serves a JS shell to curl (HTTP 200, text/html, 1.1 kB). A direct full-text fetch returns: ""the actual full text and tables are not accessible… subscription-restricted material."""
+B792_maass_m004_eigenvalues	audit/b775-braver-questions	FINDINGS.md §'THE FULL WINDOW r<10'	No exceptional eigenvalues λ < 1 anywhere in (0.8, 10).
+B792_maass_m004_eigenvalues	audit/b775-braver-questions	FINDINGS.md §'THE FULL WINDOW r<10'	No old (Bianchi) form in (7.3, 10) — now PROVEN at eigenspace level
+B792_maass_m004_eigenvalues	audit/b775-braver-questions	FINDINGS.md §'THE r = 7.0720 EIGENVALUE'	Open action: reading the actual Experiment. Math. 5(1) 57–80 Table 3 (the other ~35 values).
+B792_maass_m004_eigenvalues	audit/b775-braver-questions	PROGRESS_LOG.md 2026-08-01 (B845), quoted verbatim in log_index/B792.txt	B792 is NOT in main -- it is cc3's arc and cc3 never merges, so citing it as if it were here is the phantom's own class
+B792_maass_m004_eigenvalues	audit/b775-braver-questions	docs/progress/REVIEWS.md Review 36, quoted in log_index/B792.txt	"the review seat repeated a companion number (""43 eigenvalues to r = 13.5"") that belongs to cc3's B792, which is not in main -- main has 17, to r = 9.84"
+B793_gate8r2a_parent_localisation	main	FINDINGS.md 'What Gate 8R's headline actually establishes'	The solver has never demonstrated it can find an eigenvalue whose location it was not given.
+B793_gate8r2a_parent_localisation	main	FINDINGS.md 'Separate observation on the delivered archive'	The 10 unresolved hash entries are the bank's own lock tests (`../../tests/test_b788_maass_*.py`). They are absent from the delivered zip.
+B793_gate8r2a_parent_localisation	main	FINDINGS.md 'Separate observation on the delivered archive'	it means no seat can currently re-run the bank's own tests.
+B795_eigenvalue_verification	main	/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B795.txt line 5 (PROGRESS_LOG.md 2026-07-24)	Seventeen eigenvalues of m004 now exist where the literature had none, mode-count certified to 5.4e-9 and independently re-derived by cc in B795
+B795_eigenvalue_verification	main	/home/user/origin-axiom/frontier/B795_eigenvalue_verification/FINDINGS.md lines 68-69	Also unaddressed here: the mode-count certification cc3 still owes (max |Δr| between mode counts), which sets the floor on every tolerance its SM comparison can honestly use.
+B795_eigenvalue_verification	main	/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B795.txt line 21 (REVIEWS.md Review 36)	eigenvalues_final.json carried 6 of the 17 its own table certifies — a silent third-of-a-spectrum for any machine reader.

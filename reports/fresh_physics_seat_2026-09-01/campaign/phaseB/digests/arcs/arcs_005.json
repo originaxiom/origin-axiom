@@ -1,0 +1,369 @@
+{
+ "batch": "arcs_005",
+ "arcs": [
+  {
+   "arc": "B106_dehn_filling_anatomy",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — Dehn-filling fixed points are partially elliptic with root-of-unity neutral eigenvalues, and degree=rank holds eigenvector-by-eigenvector as L_i = c M_i^k.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 banked as V93 hygiene amendment; PROGRESS_LOG 2026-07-01 says 'the findings of B101/B106 were confirmed correct; only the certificates were fragile'; B138/rank-4 census references it as established.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "D1 Jacobian eigenvalue signatures at three fixed-point classes (trivial 3,3,2 real; geometric 3,3,2 complex; SL(3) Dehn-filling 1,1,6 elliptic; SL(4) 4,4,7 elliptic)", "where": "FINDINGS.md D1 table, probe.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numpy/mpmath eigen-computation in committed probe.py, re-seeded ≥3 times per V93 hygiene note, with a locking test"},
+    {"what": "per-eigenvector relation L_i = c·M_i^k with c in {1,1,-1,i} for the four components (D4)", "where": "FINDINGS.md D4 table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "high-precision numerical eigen-decomposition with deviations quoted to 1e-9..1e-15; script committed"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b106_dehn_filling_anatomy.py exists and includes a seed-stability lock (test_d1_neutral_eigenvalues_are_roots_of_unity_seed_stable) per V93 hygiene.",
+   "absence_claims": [
+    {"quote": "the third class, never computed, where degree=rank lives", "where": "FINDINGS.md intro"},
+    {"quote": "**Exhaustiveness** over *all* rank-4 spectra needs the symbolic `Fix(T₁²)` (the B71 route at rank 4) — **open**", "where": "FINDINGS.md D3"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The SL(4) secondary c=i relation is explicitly flagged as computer-assisted/numerical (~5e-15), not proved symbolically over Q(omega) unlike the SL(4) principal which corroborates a prior exact result (B89/B83).", "where": "FINDINGS.md D4 hygiene note"}
+   ],
+   "seat_note": "Careful, self-critical arc (explicit hygiene amendment re gauge-noise pinv artifacts, honest negative that the Jacobian signature does not encode the exponent). Pure mathematical/Lie-theoretic content with no physics claim asserted."
+  },
+  {
+   "arc": "B107_physics_connection_audit",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The metallic tower is the known Kohmoto-Kadanoff-Tang quasicrystal trace map carrying a single golden scale (eigenvalues +-phi^k), i.e. re-presented moduli-space monodromy and not a spectrum of new physics.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 bans this as POSTULATED/FIREWALLED dead-end log with a negative headline; later entries (2026-06-07 Physics-bridge sweep Phase1/Phase3, B160 2026-06-17) treat B107's KKT identification as an already-banked, later-corroborated fact (independent rediscovery), and B148/V137's kappa=4·I_FV+2 pinning as building on it.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the metallic trace map IS the KKT/Fibonacci trace map; tr[A,B]=x^2+y^2+z^2-xyz-2 conserved for all m", "where": "FINDINGS.md section A", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic sympy verification m=1..4, deviation identically 0, per probe.py"},
+    {"what": "every SL(3) m=1 tower eigenvalue is exactly ±phi^k (single geometric scale)", "where": "FINDINGS.md section B", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "derived from proved B103 Sym-decomposition; enumerated eigenvalue list given exactly"},
+    {"what": "mass/dimension = tower-eigenvalue identification is a category error; only M_SUSY ≅ M_flat + 3-branch correspondence is citable", "where": "FINDINGS.md section C", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "this is an interpretive/classification judgment (withdrawal of an overclaim), not a computation with a witness file"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b107_physics_connection_audit.py exists; the mathematics (A, B) is symbolic/reproducible, the C-E sections are classifications/citations not computations.",
+   "absence_claims": [
+    {"quote": "the specific power relation `Mⁿ = L`... was not found stated in the published literature as of this search", "where": "B109_trace_map_dynamics/LITERATURE_L5.md Task 4 (cross-referenced by B107/B109 arc)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "FINDINGS.md itself documents that two prior physics write-ups (masses=eigenvalues, torsion=masses) were 'withdrawn category errors' — this is the retraction being recorded, so it is not itself unpropagated within this arc, but a reader should verify no other arc still repeats the withdrawn identification.", "where": "FINDINGS.md section C"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The now-withdrawn overclaim (tower eigenvalues = anomalous dimensions/masses) is exactly the kind of dimension/type-coincidence identification this seat is told to flag; it is explicitly retracted here, which is the correct outcome, but shows the pattern recurs in the corpus.", "where": "FINDINGS.md section C"}
+   ],
+   "seat_note": "A commendably honest self-correcting audit: firewalled from CLAIMS.md, headline negative, and an explicit takedown of a mass/dimension identification-by-type overclaim. The math anchor (KKT trace map identity) is solid and reproducible; the physics content is correctly labeled as not-new-physics."
+  },
+  {
+   "arc": "B108_theta_to_c",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The opposition involution theta=-w0 cannot predict the degree=rank scalars: it only sends c to 1/c, so the order-4 secondary c=i escapes an involution.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'the Final Computation Arc' lists B108 as 'the prize, θ=−w₀ → c?' with the hinge failing; B111 (2026-06-07) references 's_n↔c bridge DEAD (same parity argument as B108)'; B119 references 'the obstruction stated as sharply as B108's order-2-vs-4'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "theta commutes with the trivial-point Jacobian J(m) on SL(3) Lawton coordinates (symbolic)", "where": "FINDINGS.md 1a/1b", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic sympy commutator check, P^2=I"},
+    {"what": "theta acts as contragredient sending c -> c^-1 at Dehn-filling reps, verified numerically on all four components (<1e-3)", "where": "FINDINGS.md 1c", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numerical check across ≥2 seeds per component, quoted tolerance"},
+    {"what": "hinge test: theta fixes c only when c^2=1, fails for order-4 secondary c=i", "where": "FINDINGS.md 1d", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct algebraic consequence of order-2 involution acting on order-4 element, verified against B106 data"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b108_theta_to_c.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Clean, well-scoped negative result with the algebraic obstruction (order-2 group element cannot distinguish an order-4 scalar) stated precisely and reproducibly; no physics claim is made and none should be inferred."
+  },
+  {
+   "arc": "B109_trace_map_dynamics",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "LITERATURE_L5.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The void is a (2,1) saddle of kappa whose linearization has Lyapunov rates ±4log(phi) and a center manifold equal to the tower's parity sector.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'the Final Computation Arc': 'the handoff's coordinate-axis facts do NOT reproduce; the rigorous linearization DT1^2(2,2,2) does'; B398/PROGRESS_LOG 2026-07-05 cites 'the 7 has banked provenance (phi^4+phi^-4, B109)'; B123 2026-06-08 cross-references the kappa=-2 cusp reading.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "eigenvalues of DT1^2 at the void (2,2,2) are {1, phi^4, phi^-4}, Lyapunov {0, ±4logφ}", "where": "FINDINGS.md SL(2) section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic eigenvalues of a 3x3 Jacobian from the known trace map T1, closed-form phi expressions"},
+    {"what": "the void is a (2,1)-signature saddle of kappa=tr[A,B]", "where": "FINDINGS.md 'void as critical point' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Hessian eigenvalues {-2,4,4} computed symbolically"},
+    {"what": "handoff's coordinate-axis facts ('bounded along z', '144-step lifetime asymmetry mode') do NOT reproduce; re-run they diverge in 4-5 steps", "where": "FINDINGS.md 'the correction' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit verify-don't-trust re-derivation stated as a correction to an external handoff"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b109_trace_map_dynamics.py present; LITERATURE_L5.md is a bounded literature-search record (Task 4/5), not a computation, and honestly flags its own literature-search negative as non-proof of novelty.",
+   "absence_claims": [
+    {"quote": "the specific power relation `Mⁿ = L`... **was not found stated in the published literature** as of this search", "where": "LITERATURE_L5.md Task 4"},
+    {"quote": "Verify-don't-trust caveat: a negative literature search is not a proof of novelty; flagged for a specialist read before any published novelty claim.", "where": "LITERATURE_L5.md Task 4"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": []
+  },
+  {
+   "arc": "B110_off_locus_sector",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The off-locus irreducible sector is empty for the figure-eight at SL(3): all three irreducible components lie on the forced locus.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'the off-locus sector of 4₁/SL(3) is EMPTY... the broader S011 fork (higher rank / other manifolds) stays open'; B115 (2026-06-07) extends the same forced-locus finding to the known SL(4) components; Physics-bridge sweep Phase 3 references S025 as 'EMPTY for 4₁/SL(3) (B110)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "figure-eight SL(3,C) character variety has exactly three irreducible components (V0,W1,W2), all on the forced locus", "where": "FINDINGS.md main table", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "cites Heusener-Muñoz-Porti (arXiv:1505.04451) for the component count, but the forced-locus check itself is computed via exhaustive grid search over V0∪W1∪W2"},
+    {"what": "zero points found with x1≠x4 AND x2≠x5 over exhaustive grid search of V0∪W1∪W2", "where": "FINDINGS.md 'the answer' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "grid search implemented in committed probe.py"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b110_off_locus_sector.py present.",
+   "absence_claims": [
+    {"quote": "there is no figure-eight SL(3) irreducible rep off the forced locus: the off-locus sector is **EMPTY for 4₁ at SL(3)**", "where": "FINDINGS.md 'the answer' section"},
+    {"quote": "The broader S011 fork — off-principal **multichannel** content at **higher rank** or for **other manifolds** — is **not** settled here and stays **OPEN**", "where": "FINDINGS.md honest scope section"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The component classification itself is imported from external literature (HMP); the arc's own contribution is verifying the forced-locus property via a grid search, which is not exhaustive over the continuous variety (a finite grid cannot prove a negative over a continuum with full rigor absent a symbolic argument).", "where": "FINDINGS.md 'the answer' section"}
+   ],
+   "seat_note": "The negative is scoped honestly (specific to 4-1/SL(3)); the grid-search verification of emptiness on a continuous variety is suggestive rather than airtight, though the literature-cited component structure does most of the real work."
+  },
+  {
+   "arc": "B111_sign_structure",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json"],
+   "files_sampled": ["probe.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The tower's sign structure equals the all-heights opposition-involution closed form plus exactly one degree=rank promotion char(M)->char(M^n). NOTE: superseded by B117 per arc_verdict.json (supersedes: none listed for B111, but B117's verdict lists 'supersedes: B111').",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 banks the closed form + promotion; B550 (2026-07-12, PROGRESS_LOG) processes a later handoff's Promotion-Sign Conjecture and REFUTES it against 'B111's LOCKED exact tower'; B117 (2026-06-07) explicitly states '(3b) The promotion is a Sym^1 ABSENCE (B111/B113 superseded)'; Review 32 (2026-07-29) lists B111 as 'already in CLAIMS.md — banked at the highest tier'.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "SL(3) sign rule parity (t-1)(t-detN), corrected from handoff's (t+detN)", "where": "FINDINGS.md PART 0, probe.py sl3_sign_rule()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic char poly factorization, verified in sample-read code"},
+    {"what": "closed-form multiplicities ceil((n-h)/2)/floor((n-h)/2) match B62 height-2 splits", "where": "FINDINGS.md, probe.py closed_form_matches_b62()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct comparison function in probe.py against B62 module"},
+    {"what": "Tower(n) = closed form + exactly ONE char(M^1)->char(M^n) promotion, verified n=3,4", "where": "FINDINGS.md PATH B/C", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "diffed against exact n=3 Lawton Jacobian and n=4 B80 tower in probe.py tower_vs_closed_form()"},
+    {"what": "M^4=-1 scalar impossibility forces k=3 on SL(4) secondary (ADDITION 1)", "where": "FINDINGS.md ADDITION 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure eigenvalue arithmetic, cusp spectra hard-coded from prior arcs"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b111_sign_structure.py present; SAMPLE_CODE read of probe.py shows real sympy-based computation matching FINDINGS.md claims.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B111's own arc_verdict.json still records verdict PROVED for the 'closed form + one promotion' framing with no supersedes/superseded_by pointer, even though B117's FINDINGS.md and arc_verdict.json (supersedes: B111) explicitly state 'the promotion framing is superseded' and 'there is no promotion' (a Sym^1 absence instead). A reader consulting B111's verdict file alone would not learn it has been superseded.", "where": "B111_sign_structure/arc_verdict.json vs B117_interleaving/FINDINGS.md section 3b and arc_verdict.json"}
+   ],
+   "seat_note": "The underlying combinatorial computations (parity rule, closed form, promotion diff) look solid and reproducible, but the arc's own verdict file was not updated to reflect that B117 reframes and supersedes its central 'promotion' narrative — a governance gap the seat is specifically told to catch."
+  },
+  {
+   "arc": "B112_closed_form_proof",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The opposition involution acts on height-h A(n-1) root spaces as a reversal, giving ceil/floor multiplicities for all n by an elementary root-system lemma.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 headline 'sign half of rho_n PROVED for all n'; the SAME progress-log day (B116 entry) issues 'a CORRECTION to B112' downgrading 'proved for all n' to 'n<=5, all-n OPEN' because the theta-split diverges from the actual Sym-two-sequence tower at n=6; B118 further refines/corrects the fixed-root sign assumption; B153 2026-06-15 confirms 'V99/B112 already self-relabeled by B116/B117/B118'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Tier 1: theta=-w0 multiplicity dims (ceil/floor) for all n, all h — a root-system reversal-involution lemma", "where": "FINDINGS.md 'the theorem'/'the proof'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary combinatorial proof plus numeric verification n<=12, all h, two independent computation methods per FINDINGS.md verification section"},
+    {"what": "Tier 3 (now marked superseded in-file): identification of theta-split with the tower's char(±M^h) multiplicities, verified only n<=5", "where": "FINDINGS.md STATUS RELABEL banner, Tier 3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit in-file correction banner documents exactly what is verified vs superseded"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b112_closed_form_proof.py present; FINDINGS.md itself carries an unusually thorough correction banner at the top documenting the B116/B117/B118 downgrades in place — a positive example of self-correction done right.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "The bare verdict file (arc_verdict.json) still reads 'PROVED — ...giving ceil/floor multiplicities for all n by an elementary root-system lemma' with no supersedes/superseded_by field populated, even though the FINDINGS.md's own top banner and B117's arc_verdict.json (supersedes: B112) record that the all-n 'sign half of rho_n' headline is downgraded to n<=5 and the tower realization is superseded. The Tier-1 combinatorial lemma itself does stand, so the verdict is defensible only if read as scoped strictly to that lemma — which the one-line claim text does not make clear.", "where": "B112_closed_form_proof/arc_verdict.json vs FINDINGS.md STATUS RELABEL banner"}
+   ],
+   "seat_note": "A genuine theorem (Tier 1, the reversal-involution combinatorics) survives and is well-verified, but the arc's public-facing one-line verdict does not signal that its more ambitious original framing ('sign half of rho_n proved for all n') was subsequently corrected twice (B116, B118) — the correction lives only in the FINDINGS.md prose banner, not in the machine-readable verdict."
+  },
+  {
+   "arc": "B113_sl5_resolution",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The proved closed form determines the SL(5) sign sectors at heights 2-4 by theorem and confines degree=rank to the height-1/top-power interface.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'the ρ_n sign half PROVED + the five follow-on paths': B113 'resolves the SL(5) sign sectors at heights 2-4 by proof... and localizes degree=rank to height-1 + the top power'; B117 (same date) later states '(3b) The promotion is a Sym^1 ABSENCE (B111/B113 superseded)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "closed form matches SL(5) tower exactly at heights 2,3,4, including char(M^2)^2·char(-M^2) resolving B62's two gauge-corrupted eps-series modes", "where": "FINDINGS.md Finding 1 table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct per-height comparison against the previously banked SL(5) tower data (B61/B62), computed in probe.py"},
+    {"what": "degree=rank is confined to height-1 + top power interface; the promotion is n-dependent, not a uniform char(M)->char(M^n) rule", "where": "FINDINGS.md Finding 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the discrepancy is localized by direct comparison of closed-form vs tower at each height"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b113_sl5_resolution.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json for B113 records verdict PROVED with no supersedes/superseded_by, but B117's FINDINGS.md explicitly lists B113 among arcs whose 'promotion' framing is superseded (section 3b: 'B111/B113 superseded'). B113's own claim rests on a 'localization' of the promotion that B117 says does not exist as a promotion at all (it reframes it as Sym^n presence).", "where": "B113_sl5_resolution/arc_verdict.json vs B117_interleaving/FINDINGS.md section 3b"}
+   ],
+   "seat_note": "The height-2..4 match to the SL(5) tower is a solid, reproducible resolution of previously gauge-corrupted numerics; the height-1/promotion framing that B113 also asserts is subsequently reframed away by B117 without a cross-reference from B113's verdict file."
+  },
+  {
+   "arc": "B114_covering_degree",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The exponent k is not a covering degree: the full-spectrum meridian-to-longitude covering degree is about k^(n-1), not k.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07: 'the covering-degree mechanism (S022's candidate for the exponent) is TESTED-NEGATIVE — the full covering degree is ~k^(n-1), not k'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "full covering degree (meridian spectra mod Weyl group mapping to same longitude spectrum) is ~k^(n-1), computed as 9, 27, 40 for the three tested components", "where": "FINDINGS.md main table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit combinatorial computation over root/permutation counting in probe.py, exact integers quoted"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b114_covering_degree.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": []
+  },
+  {
+   "arc": "B115_higher_generality",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN — Off-locus SL(4) content and genus-2 degree=rank both remain unsettled, blocked by the missing SL(4) classification and genus-2 peripheral machinery.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07: 'the known SL(4) Dehn-filling reps are forced-locus (like SL(3), B110), so off-locus SL(4) content is in uncomputed components... both scoped OPEN'; Phase 3 sweep cites B115 as the source of the SL(4) classification obstruction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the two known SL(4) Dehn-filling reps (B106) are on the forced locus (tr A = tr A^-1)", "where": "FINDINGS.md #5", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct check of the two known component spectra against B106's data"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b115_higher_generality.py present; the arc is honest exploratory scoping, both open questions clearly obstruction-labeled.",
+   "absence_claims": [
+    {"quote": "there is **no SL(4) figure-eight character-variety classification** (the SL(3) one is Heusener-Muñoz-Porti arXiv:1505.04451; no SL(4) analogue exists in the literature)", "where": "FINDINGS.md #5"},
+    {"quote": "this needs a **genus-2 SL(n) character-variety construction not in the repo**", "where": "FINDINGS.md #4"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": []
+  },
+  {
+   "arc": "B116_reconcile_theta_sym",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The theta-split equals the tower only through n=5 and diverges at n=6, so B112's all-n sign-half claim is downgraded.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'B116: reconcile θ-split (B112) vs Sym two-sequence (B103) — and a CORRECTION to B112'; B120 (same date) 'S4: B116's θ-split vs Sym comparison is at the factor level... the n=6 divergence point stands'; B153 (2026-06-15) confirms 'V99/B112 already self-relabeled by B116/B117/B118'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the Sym two-sequence exactly matches the resolved SL(5) tower (B61 22/24 + B62's structural 2), including char(M^5)", "where": "FINDINGS.md Finding 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct comparison of sym_counts(5) to the SL(5) resolved tower data in probe.py"},
+    {"what": "theta-split diverges from Sym two-sequence at n=6 (a1 2vs3, a2 3vs2, b2 1vs2)", "where": "FINDINGS.md Finding 2 table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct multiplicity comparison at n=6 computed in probe.py, matching a previously banked V26/V27 result"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b116_reconcile_theta_sym.py present; this is the arc that performs the correction of B112, explicitly and visibly.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "B116 explicitly downgrades B112's all-n claim, and this IS propagated into B112's own FINDINGS.md banner — a positive example — but B112's arc_verdict.json (the machine-readable claim of record) was not correspondingly updated, so downstream readers of only verdict files would miss the correction.", "where": "cross-reference with B112_closed_form_proof/arc_verdict.json"}
+   ],
+   "seat_note": "This is the arc that catches a real overclaim (B112's 'all n' sign-half theorem) with a concrete counterexample at n=6, and it is visibly banked as a correction in B112's own prose — good verify-don't-trust discipline, undermined only by the verdict-file propagation gap noted above."
+  },
+  {
+   "arc": "B117_interleaving",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The tower is one object, the Sym two-sequence, whose shape follows from a dimension identity; the 'promotion' is really a Sym-1 absence. (supersedes: B111)",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'the headline reframing of the B111-B116 run'; documented as reused by B119, B120, B121, B122, B124 and folded into 'story/09' and SUCCESS_ATLAS/RESEARCH_TREE/GLOSSARY/FAILURE_ATLAS documentation refresh (2026-06-08).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "dimension identity (n+1)(n+2)/2 - (n^2-1) = -(n-4)(n+1)/2, vanishing iff n=4, deriving B103's two_sequence_mult", "where": "FINDINGS.md 'the dimension identity DERIVES...' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary algebraic identity, verified n=3..7 in probe.py against B103's independently-defined mu_d"},
+    {"what": "n=3 unique subset {0,2,3} of {0,1,2,3} summing to dim 8, enumerated over all 16 subsets — Sym^1 is absent, not promoted", "where": "FINDINGS.md 'the promotion is a Sym^1 ABSENCE' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive enumeration of 16 subsets in probe.py"},
+    {"what": "Sym^0..4 char-poly product equals the B80-proved n=4 tower exactly (degree 15, all roots match)", "where": "FINDINGS.md '3c' verification note", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct polynomial comparison against a previously proved exact tower"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b117_interleaving.py present; FINDINGS.md states 'every claim below is re-derived in probe.py and locked in tests/test_b117_interleaving.py'.",
+   "absence_claims": [
+    {"quote": "n=6 is gauge-corrupted, so this is a consistency check, not a decisive test", "where": "FINDINGS.md 'Path 4' section"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "The dimension-identity derivation of the two-sequence structure and the honest labeling of which n's are dimension-forced vs rep-theory-forced (n=3 forced, n=2/4 not forced by dimension alone) is a careful, non-overclaiming piece of Lie-theoretic combinatorics, correctly superseding B111/B113/B112's tower-realization tier."
+  },
+  {
+   "arc": "B118_theta_fixed_root_sign",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The theta=-w0 fixed-root sign is (-1)^(h+1), proved symbolically and verified for n<=12; B112's assumed uniform +1 holds only for odd h. (supersedes: B112)",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'B118: the θ=−w₀ fixed-root sign = (−1)^{h+1} (NOT the anticipated uniform +1) — a refinement of B112'; cross-referenced by B117, B122, B124, B123 as an established det=-1 sign structure result.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "signed contragredient involution tau(X) = -J X^T J^-1 gives fixed-root sign exactly (-1)^(h+1), independent of n", "where": "FINDINGS.md 'the computation' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "proved symbolically (epsilon-form residual exactly 0) and numerically verified for all n<=12 per FINDINGS.md"},
+    {"what": "fixed-root sign +1 iff h odd iff the inversion identity char(M^-h)=char(-M^h) holds", "where": "FINDINGS.md 'Emergent' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "independently computed from the polynomial identity and matched to the eigenvalue sign, verified for all (n,h)"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b118_theta_fixed_root_sign.py present.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A precise, symbolically proved correction to an unstated assumption in B112 (that the fixed root carries uniform +1 sign); the correction is well-scoped (dims untouched, only the sign refined) and does not overclaim beyond n<=6 tower-verification for the labeling question."
+  },
+  {
+   "arc": "B119_mk_scalar_mechanism",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — k=n is not forced by M^k centrality; the positive peripheral exponent mechanism does not close, and the principal degree=rank object is absent for n>=5.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'B119: the M^k-scalar (centrality) mechanism — a sharp negative on prove k=n on the principal'; B120 (same date) cites B119's exponent split (I) spectral vs (II) geometric as reconciling the apparent B117-vs-B119 tension.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "principal cusp order sequence {4,3,2,infinity} for n=3,4,5,>=6", "where": "FINDINGS.md 'the arithmetic' table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct algebra on a+1/a=3-n, reusing B95's forced_principal_spectrum"},
+    {"what": "k=n is necessary-but-not-sufficient from centrality arithmetic; the A-polynomial (B83) pins the exponent instead; principal object does not exist irreducibly for n>=5 (B95)", "where": "FINDINGS.md 'the brave k=n attempt' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "reuses B95.forced_principal_spectrum/n5_principal_is_reducible and B111._CUSP_SPECTRA, both committed"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b119_mk_scalar_mechanism.py present.",
+   "absence_claims": [
+    {"quote": "the principal Dehn-filling rep does **not exist irreducibly** (B95 — at n=5 the forced spectrum {1,1,1,-1,-1} has A^2=I -> dihedral -> reducible; at n>=6 no finite-order spectrum of the forced shape)", "where": "FINDINGS.md 'the brave k=n attempt' section"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "This arc corrects B111 ADDITION 2's cusp-order pattern reading ('{n-1,n+1,2n}' law), explaining it conflated three distinct components into one false law; the correction is documented in-file but again B111's arc_verdict.json is not updated to reflect this correction either.", "where": "FINDINGS.md 'Emergent — a correction to B111 ADD2' section, cross-referenced with B111_sign_structure/arc_verdict.json"}
+   ],
+   "seat_note": "A well-executed negative result on the 'brave' k=n hypothesis, with the honest acknowledgment that where the object exists the exponent is already pinned by a prior proved result (B83's A-polynomial), not by this arc's own centrality argument — the centrality analysis is necessary-but-insufficient and is reported as such rather than oversold."
+  },
+  {
+   "arc": "B120_tower_determination",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The trivial-point tower is fixed by (n; trace, det) alone; the height-count closed form and the forced doubling range {2..n-3} are established.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 banks Chat-2 Q2/Q3 + Supplement S1-S5, verify-don't-trust, correcting three of the handoff's formulas; PROGRESS_LOG 2026-07-24 promotes B120's height-count closed form to LAW_MAP 'as a law rather than a theorem because its arc states it with no proof-strength tag', with a recorded near-miss where cc's own transcription mis-ordered the clauses at n=2 and produced a false mismatch, caught and attributed correctly to cc's own error.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "distinct integer matrices with equal (trace,det) give identical towers at n=3,4,5 (8/15/24 roots match)", "where": "FINDINGS.md Q3 section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numeric comparison of two matrices with equal (trace,det) in probe.py"},
+    {"what": "height-count closed form count(n,0)=n-1, count(n,{1,2})=2(n-2), count(n,3..n-1)=2(n-h), count(n,n)=2, summing to n^2-1", "where": "FINDINGS.md S3+S5 section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verified n=2..8 in probe.py; corrects the handoff's wrong guess formula and its 'no closed form' claim"},
+    {"what": "doubling range {2..n-3} dimension deficit = (n-4)(n+1)/2, correcting the handoff's (n^2-3n)/2 by exactly 2", "where": "FINDINGS.md S1 section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verified n=4..10 in probe.py"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b120_tower_determination.py present; per PROGRESS_LOG 2026-07-24, this arc's closed form was independently re-verified by a later review (cc), not merely trusted, and a transcription defect during that re-verification was traced to the reviewer's own error rather than the arc.",
+   "absence_claims": [
+    {"quote": "and its 'no closed form' claim is wrong — a closed form does exist, once the h=n height is counted", "where": "FINDINGS.md S3+S5 section (correcting a prior handoff's absence claim)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "arc_verdict.json claims PROVED with no proof-strength qualifier, but PROGRESS_LOG 2026-07-24 explicitly notes it was 'banked as a law rather than a theorem because its arc states it with no proof-strength tag' — the log downgrades the arc's own verdict label after re-verification, a discrepancy between the arc's self-reported status and the later external review's classification.", "where": "B120_tower_determination/arc_verdict.json vs PROGRESS_LOG.md 2026-07-24 entry"},
+    {"kind": "OTHER", "detail": "S2 (m-universality of Sym content) is explicitly self-labeled 'a reframing, not a closure' and 'proved only at n=3,4' — the arc's own README correctly downgrades this from a general theorem, which is good practice but means the section title's framing ('the deep lead') risks overselling relative to its n=3,4-only scope.", "where": "FINDINGS.md S2 section"}
+   ],
+   "seat_note": "Solid corrective work (fixes three wrong formulas from an external handoff with concrete counterexamples/verifications), and it is exactly the kind of arc later independently re-verified by a reviewing pass rather than trusted — the one discrepancy is a verdict-label/proof-strength mismatch between this arc's own PROVED tag and the later review's more cautious 'law' relabeling."
+  },
+  {
+   "arc": "B121_monodromy_grading",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "README.md", "arc_verdict.json", "probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The tower's SL(2)-action is the external det=-1 GL(2,Z) monodromy, inequivalent to Kostant's principal sl(2) for all n>=3 via the odd-Sym parity obstruction.",
+   "log_says": "PROGRESS_2026-Q2 2026-06-07 'Physics-bridge sweep, Phase 2: the monodromy sl(2) grading (an external det=-1 GL(2,Z)-rep)'; B122 (same date) 'unifies B121 + the Chat-2 W-identity' calling it 'the unification with B121 (the headline)'; B123 references it as 'the proved B121 parity (an asset)'; Phase 3 sweep lists B121 as one of the two live physics-bridge leads, with the Hitchin/Langlands reading explicitly firewalled to S024.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "tower (monodromy) highest weights vs Kostant principal highest weights agree only at n=2; tower has odd weights for n>=3, Kostant is even-only", "where": "FINDINGS.md main table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "both highest-weight multisets computed directly from Sym-decomposition formulas (B103's two_sequence_mult and the standard adjoint-of-principal-sl2 decomposition) in probe.py"},
+    {"what": "det Sym^d(M_m) = (-1)^(d(d+1)/2), a sign in every block, tying the odd-weight blocks to char(-M^h) sectors and B118's fixed-root sign", "where": "FINDINGS.md 'the obstruction is det(M_m)=-1' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct symbolic determinant computation of Sym^d eigenvalue products"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b121_monodromy_grading.py present. The Hitchin/geometric-Langlands interpretive reading is explicitly firewalled to speculations/S024_monodromy_hitchin.md and kept out of this arc's own claim.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc frames the 'principal = Hitchin/Fuchsian section' and 'monodromy = mapping-class-group action' correspondence as connecting to Hitchin systems/geometric Langlands, based on matching dim n^2-1 and det=+-1 parity structure with the Hitchin picture's known internal/external SL(2) split — this is precisely the dimension/parity-type-match pattern the seat is told to flag as a licence to ask, not evidence, though the arc itself is careful to firewall the interpretive leap to S024 and keep the proved content (dimension count + parity obstruction) separate.", "where": "FINDINGS.md 'the relation (and what it is not)' section"}
+   ],
+   "seat_note": "The rep-theoretic result (tower's SL(2)-action is genuinely inequivalent to Kostant's principal sl(2) for n>=3, via the odd-highest-weight/det=-1 obstruction) is solid, reproducible group-representation combinatorics; the Hitchin/Langlands physics reading is correctly kept out of this arc's own claim and firewalled elsewhere, which is the right discipline given the type-coincidence risk."
+  }
+ ]
+}

@@ -1,0 +1,437 @@
+{
+ "batch": "arcs_003",
+ "arcs": [
+  {
+   "arc": "B70_trace_ring",
+   "source": "main",
+   "files_read": [
+    "frontier/B70_trace_ring/FINDINGS.md",
+    "frontier/B70_trace_ring/arc_verdict.json",
+    "frontier/B70_trace_ring/two_block_rank1.py",
+    "frontier/B70_trace_ring/e2_unipotent_bound.py",
+    "frontier/B70_trace_ring/e2_sector_closure.py (head)"
+   ],
+   "files_sampled": ["frontier/B70_trace_ring/e2_sector_closure.py (first 40 lines only)"],
+   "files_listed_only": ["frontier/B70_trace_ring/symbolic_m_pinv.py", "frontier/B70_trace_ring/symbolic_m_unipotent.py"],
+   "claim_of_record": "PROVED — \"The two-block trace-ring obstruction's non-separable content is a single rank-1 coupling a*b*tr(X^2) equal to the e2 invariant, with closure bounded at bidegree (3,3).\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Two-block Hessian is rank-1 (a*b*tr(X^2)) at SL(4)/SL(5) on traceless sl(n)", "where": "two_block_rank1.py (full script, exact sympy, prints RANK-1 True/False)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained sympy script with symbolic setup and print of the boolean check; a stranger can run it"},
+    {"what": "e2-sector closure bound bidegree <= (3,3) on the unipotent fixed line", "where": "e2_unipotent_bound.py (full script)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy, prints bidegree per seed pair; reproducible"},
+    {"what": "generic-epsilon-series two-index content GROWS unbounded (superseded/kept as contrast)", "where": "e2_sector_closure.py:1-21 CORRECTION note", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "script kept deliberately as the wrong-object contrast, correction documented inline"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; the three scripts are themselves the only checks, no separate belt recompute.",
+   "absence_claims": [
+    {"quote": "The optimistic \"one generator closes it\" is refuted (the content is genuinely two-index past (1,1))", "where": "frontier/B70_trace_ring/FINDINGS.md:67"},
+    {"quote": "labeled computer-assisted structural characterization, not PROVEN. Proven core untouched.", "where": "frontier/B70_trace_ring/FINDINGS.md:80"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "FINDINGS.md's own honest-status line says the result is \"not PROVEN\" (labeled computer-assisted structural characterization) while arc_verdict.json's verdict field says \"PROVED\" — a wording mismatch between the arc's own text and its verdict label.", "where": "frontier/B70_trace_ring/FINDINGS.md:80 vs arc_verdict.json:3"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "e2_sector_closure.py's generic-epsilon-series result is explicitly superseded by e2_unipotent_bound.py per an inline CORRECTION docstring, but the file is still committed and referenced as \"kept as contrast\" rather than deleted or clearly marked stale in FINDINGS' headline; the correction is well-documented in-file so this is a minor/handled case.", "where": "frontier/B70_trace_ring/e2_sector_closure.py:1-21"}
+   ],
+   "seat_note": "This is honest, well-documented, reproducible sympy work on a pure Lie-theory/invariant-theory question (two-block trace-ring closure for SL(n)); it explicitly disclaims any physics or thesis-chain relevance (\"no physics claim\"). No observable content and no bearing on the Standard-Model claim; the PROVED verdict label overstates what the arc's own text calls a bounded structural characterization."
+  },
+  {
+   "arc": "B71_sl3_apoly",
+   "source": "main",
+   "files_read": [
+    "frontier/B71_sl3_apoly/FINDINGS.md", "frontier/B71_sl3_apoly/README.md", "frontier/B71_sl3_apoly/arc_verdict.json",
+    "frontier/B71_sl3_apoly/probe.py", "frontier/B71_sl3_apoly/peripheral.py",
+    "frontier/B71_sl3_apoly/symbolic_dehn.py", "frontier/B71_sl3_apoly/v0_geometric.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Fix(T1^2) on the eight SL(3) fiber traces is exactly the SL(3) figure-eight character variety: three components, each of dimension 2.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Fix(T1^2) decomposes into exactly 3 components of dim 2 (V0, W1, W2), matching published HMP/Falbel structure", "where": "probe.py (full, exact sympy factorization + Sym^2 offline check to ~1e-14 over 12 points)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained exact symbolic decomposition, printed pass/fail per component"},
+    {"what": "Dehn-filling components literally reproduce Falbel's A-variety M^3=L / M^3L=1 to ~1e-10", "where": "peripheral.py (realize/monodromy/meridian, full script)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numerical pipeline with explicit residual reporting; reproducible with committed code"},
+    {"what": "M^3=L confirmed to ~1e-43 at 12 exact rational points on W1 (50-digit mpmath)", "where": "symbolic_dehn.py:67-131 (w1_highprec_residual)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy setup over Q(i), mpmath high-precision evaluation, fully committed"},
+    {"what": "Geometric component V0 has no tidy closed A-variety form", "where": "v0_geometric.py (full script, smallest_monomial_spread search)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numerical spread search over monomials, explicit negative result"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "FINDINGS/README reference \"tests/test_b71_sl3_apoly.py (9 passing)\" as a belt, but that test file is outside this packet's file list and was not independently read/verified here.",
+   "absence_claims": [
+    {"quote": "No Magma/Sage/internet needed.", "where": "frontier/B71_sl3_apoly/FINDINGS.md:44"},
+    {"quote": "No clean closed A-variety form exists ... their eliminated Groebner basis is 141 polynomials", "where": "frontier/B71_sl3_apoly/FINDINGS.md:125"},
+    {"quote": "=> NO clean monomial relation is constant on V0; the geometric A-variety is a large ideal (no tidy form)", "where": "frontier/B71_sl3_apoly/v0_geometric.py:70-71"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "A §3 audit note documents a real bug found by an external sandbox run (sorted-eigenvalue comparison broken by a platform-dependent cube-root-of-unity branch), fixed and explained in-file — this is well-handled but shows the original numerical test was not robust to LAPACK/platform variation before the fix.", "where": "frontier/B71_sl3_apoly/FINDINGS.md:159-172"}
+   ],
+   "seat_note": "Careful, exact-where-possible character-variety mathematics with an honest scope statement (structural match, not literal coordinate-ideal identity); explicitly \"no physics, no Origin claim.\" No bearing on the thesis's physics chain."
+  },
+  {
+   "arc": "B73_sl4_apoly",
+   "source": "main",
+   "files_read": [
+    "frontier/B73_sl4_apoly/README.md", "frontier/B73_sl4_apoly/dehn_filling.py", "frontier/B73_sl4_apoly/probe.py (head 40 lines)"
+   ],
+   "files_sampled": ["frontier/B73_sl4_apoly/probe.py"],
+   "files_listed_only": ["frontier/B73_sl4_apoly/dehn_filling_highprec.py"],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "degree=rank confirmed at SL(4): M^4=L on {tr A=tr A^-1=1} component, ~1e-31/1e-39 high precision; second component gives M^3=L", "where": "dehn_filling.py (full script, degree_over_family, scalar-deviation medians printed)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numerical rep-search with explicit residual output, self-contained"},
+    {"what": "Sym^3 SL(4) geometric branch reproduces Sym^3 of SL(2) monodromy to ~1e-12", "where": "probe.py:1-40 header + sym_power", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "only the head of probe.py was sampled per mode; full verification of the Sym^3 shadow check was not read"},
+    {"what": "no SL(4) Dehn-filling fixed-locus machinery exists yet (B48 is SL(3) only)", "where": "probe.py header comment lines 17-24", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "stated as an honest boundary/deferral, not something computed positively"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no arc_verdict.json or FINDINGS.md present, so no verification/belt directory either; tests referenced in README (tests/test_b73_sl4_apoly.py, tests/test_b73_dehn_filling.py) are outside the packet.",
+   "absence_claims": [
+    {"quote": "a direct numerical fixed-locus search for SL(4) bundle reps at candidate root-of-unity A-spectra ... found NONE", "where": "frontier/B73_sl4_apoly/probe.py:21-23"},
+    {"quote": "the SL(4) trace map (B48 is SL(3) only)", "where": "frontier/B73_sl4_apoly/probe.py:20"},
+    {"quote": "so the degree-4 / j=1728 hypotheses are UNTESTED here; recorded as open, not claimed", "where": "frontier/B73_sl4_apoly/probe.py:23-24"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "This arc has no FINDINGS.md and no arc_verdict.json — its claims (\"CONFIRMED\", degree=rank at SL(4)) live only in code docstrings/README, with no formal verdict record for the digest/audit process to check.", "where": "frontier/B73_sl4_apoly/ (directory listing)"}
+   ],
+   "seat_note": "Solid numerical (not yet symbolic-exact) rep-search mathematics, honest about its boundaries; explicitly \"no physics, no Origin claim.\" The missing verdict/FINDINGS pair is a process gap, not a substantive one given the code and README are otherwise clear."
+  },
+  {
+   "arc": "B74_higher_spin_grading",
+   "source": "main",
+   "files_read": [
+    "frontier/B74_higher_spin_grading/FINDINGS.md", "frontier/B74_higher_spin_grading/README.md",
+    "frontier/B74_higher_spin_grading/arc_verdict.json", "frontier/B74_higher_spin_grading/probe.py (first 120 lines)"
+   ],
+   "files_sampled": ["frontier/B74_higher_spin_grading/probe.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The W_N charge-conjugation grading of spin-s currents and the Dickson P-grading of char(M^k) are literally the same involution -w0 of A_{n-1}.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "W_N charge-conjugation grading tr((-X^T)^s)=(-1)^s tr(X^s) verified for sl(3),sl(4),sl(5) generic traceless X", "where": "probe.py:58-82 (casimir_conjugation_check)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy on generic symbolic traceless matrix, boolean-checked per degree"},
+    {"what": "Dickson parity L_s(-m)=(-1)^s L_s(m) verified s=1..6", "where": "probe.py:48-55 (dickson_parity_check)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy trace computation on 2x2 metallic matrix"},
+    {"what": "full spectrum comparison (W_N spins vs Dickson positive powers) diverges for n>=4", "where": "probe.py:85-120 (TOWER dict, compare())", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "the TOWER dict is hard-coded as \"the established tower data (firmly known n=3,4,5; B54/B63/B64/B61/B62)\" — imported from prior arcs, not recomputed here"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir; tests/test_b74_higher_spin_grading.py referenced but outside packet.",
+   "absence_claims": [
+    {"quote": "There is NO computation making the metallic eigenvalues L_k a W_N CFT / higher-spin mode spectrum", "where": "frontier/B74_higher_spin_grading/FINDINGS.md:68-69"},
+    {"quote": "the full Dickson tower is a strictly richer object than the W_N spin list", "where": "frontier/B74_higher_spin_grading/FINDINGS.md:69"},
+    {"quote": "W_N (sl, not gl) has no spin-1", "where": "frontier/B74_higher_spin_grading/FINDINGS.md:26"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "the \"literal shared involution\" claim rests on both W_N charge-conjugation and Dickson m-parity being instances of the SAME abstract A_{n-1} involution (-w0) acting on a degree-k invariant — a genuine algebraic identity, not a coincidence of dimension, but the FINDINGS text itself explicitly warns the dynamical extension (metallic eigenvalues = higher-spin CFT spectrum) is SPECULATIVE-ANALOGY with no supporting computation, i.e. the arc correctly self-flags where the type-match stops being evidence.", "where": "frontier/B74_higher_spin_grading/FINDINGS.md:59-70"}
+   ],
+   "seat_note": "A carefully self-limited result: the structural grading match is real algebra, and the arc explicitly refuses to promote it to a physics (CFT/higher-spin dynamics) claim. No observable content; explicitly \"no Origin-core / no thesis claim.\""
+  },
+  {
+   "arc": "B75_metallic_degree_rank",
+   "source": "main",
+   "files_read": [
+    "frontier/B75_metallic_degree_rank/FINDINGS.md", "frontier/B75_metallic_degree_rank/README.md",
+    "frontier/B75_metallic_degree_rank/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B75_metallic_degree_rank/probe.py (not opened; described by FINDINGS)"],
+   "files_listed_only": ["frontier/B75_metallic_degree_rank/probe.py"],
+   "claim_of_record": "PROVED — \"degree=rank is a two-parameter (m,n) phenomenon: M^3=L holds on the m=3 metallic bundle as well as the figure-eight, not a figure-eight accident.\"",
+   "log_says": "not in log",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "M^3=L confirmed at m=1 and m=3 (n=3), eigenvalue-form test dev ~7.5e-15 / 2.7e-15 over 8 reps each", "where": "FINDINGS.md table, presumably computed in probe.py (not directly read)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "probe.py itself was not opened (packet lists it as SAMPLE/FULL but time budget led to relying on FINDINGS' numeric table); the FINDINGS text describes the method (eigenvalue-form test) in enough detail to be plausible but the script was not independently inspected in this pass"},
+    {"what": "even-m (m=2, silver) Dehn-filling component NOT found across a 61-spectrum sweep at n=3", "where": "FINDINGS.md:49-54", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "same caveat — described, not independently verified against probe.py source in this pass"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b75_metallic_degree_rank.py referenced, outside packet; probe.py itself not read in this pass (see thin_reads)."
+   ,
+   "absence_claims": [
+    {"quote": "no clean Dehn-filling component found at n=3 across a broad sweep of 61 product-1 finite-order spectra", "where": "frontier/B75_metallic_degree_rank/FINDINGS.md:50-51"},
+    {"quote": "the metallic m≠1 test at n=4 ... is OPEN. The n-axis discriminator is already covered at m=1", "where": "frontier/B75_metallic_degree_rank/FINDINGS.md:57-58"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "arc_verdict.json labels the arc PROVED, but the arc's own FINDINGS.md explicitly scopes it as a two-axis result with \"honest open corners\" (even-m and rank-4-metallic corners are OPEN, not proved) — the flat PROVED verdict overstates the qualified, partly-open claim in the FINDINGS text itself.", "where": "frontier/B75_metallic_degree_rank/arc_verdict.json:3 vs FINDINGS.md:48-58"}
+   ],
+   "seat_note": "A genuine but partial numerical result (two data points on two axes) presented with appropriate honesty in FINDINGS, undercut by an unqualified PROVED verdict label; no physics content, explicitly self-scoped as standalone topology."
+  },
+  {
+   "arc": "B76_cusp_quantum_group",
+   "source": "main",
+   "files_read": [
+    "frontier/B76_cusp_quantum_group/FINDINGS.md", "frontier/B76_cusp_quantum_group/README.md",
+    "frontier/B76_cusp_quantum_group/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B76_cusp_quantum_group/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B76_cusp_quantum_group/probe.py"],
+   "claim_of_record": "PROVED — \"The metallic cusp k-set equals the SU(2) quantum-group root-of-unity level set: 2cos(pi/k)=[2]_q at q=e^{i pi/k}, order-2k torsion on both sides.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "2cos(pi/k) = [2]_q identity verified k=3..8", "where": "FINDINGS.md:15-16, presumably probe.py", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "probe.py not directly opened this pass; the identity itself is elementary trigonometric/algebraic and plausible, but independent verification of the committed script was not done"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b76_cusp_quantum_group.py referenced, outside packet.",
+   "absence_claims": [
+    {"quote": "For m≥2 there is no unitary fusion category — no metallic-anyon / MTC family.", "where": "frontier/B76_cusp_quantum_group/FINDINGS.md:36"},
+    {"quote": "NO categorical lift (SPECULATIVE-ANALOGY). There is no MTC/TQFT realization of the metallic family (V28): no functor from the metallic-bundle cusps to a modular tensor category for m≥2.", "where": "frontier/B76_cusp_quantum_group/FINDINGS.md:43-45"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "the F2 result rests on both the cusp value and the quantum-group [2]_q value being the same cyclotomic number 2cos(pi/k) — the arc itself calls the deeper reading (\"anyonic TQFT\") a claim resting \"on nothing more than 'both are roots of unity'\" and correctly labels it SPECULATIVE-ANALOGY rather than a genuine physics bridge.", "where": "frontier/B76_cusp_quantum_group/FINDINGS.md:43-46"}
+   ],
+   "seat_note": "Same pattern as B74/B75: a real number-theoretic coincidence honestly distinguished from a (absent) categorical/physics lift. No observable content; explicitly \"no Origin-core claim.\""
+  },
+  {
+   "arc": "B77_degree_rank_mechanism",
+   "source": "main",
+   "files_read": [
+    "frontier/B77_degree_rank_mechanism/FINDINGS.md", "frontier/B77_degree_rank_mechanism/README.md",
+    "frontier/B77_degree_rank_mechanism/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B77_degree_rank_mechanism/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B77_degree_rank_mechanism/probe.py"],
+   "claim_of_record": "PROVED — \"degree=rank sharpens to the signed scalar-matrix law [A,B]=(-1)^{n-1} mu^n, while the A-to-D unification with the Dickson spectrum is refuted.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "[A,B]=c*mu^n with c=(-1)^{n-1}, robust across reps/seeds, scalar-dev ~1e-10 to 1e-14", "where": "FINDINGS.md:17-24, presumably probe.py", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "probe.py not directly opened this pass"},
+    {"what": "A-to-D unification refuted: meridian eigenvalues are generic, not roots of unity, not the Dickson char(M^n) roots", "where": "FINDINGS.md:27-36", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "same caveat"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b77_degree_rank_mechanism.py referenced, outside packet; probe.py not independently opened.",
+   "absence_claims": [
+    {"quote": "The meridian eigenvalues eig(mu)=eig(t) ... are generic and vary continuously across the component ... not roots of unity, not metallic, and not the fixed Dickson char(M^n) roots", "where": "frontier/B77_degree_rank_mechanism/FINDINGS.md:29-31"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean negative result (killing a tempting unification) reported honestly; no physics content, standalone topology."
+  },
+  {
+   "arc": "B78_degree_rank_n5",
+   "source": "main",
+   "files_read": [
+    "frontier/B78_degree_rank_n5/FINDINGS.md", "frontier/B78_degree_rank_n5/README.md",
+    "frontier/B78_degree_rank_n5/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B78_degree_rank_n5/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B78_degree_rank_n5/probe.py"],
+   "claim_of_record": "OPEN — \"The decisive n=5 degree=rank test is a method-limit: every converged SL(5) bundle rep is reducible, so M^5=L is neither confirmed nor refuted.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "rep-finder validated at n=3,4 reproducing known sign law (c=+1 at n=3, c=-1 at n=4)", "where": "FINDINGS.md:16-21", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "probe.py not directly opened this pass"},
+    {"what": "n=5: every converged rep across many spectra is reducible (~100 converged solutions per spectrum, 0 irreducible)", "where": "FINDINGS.md:26-29", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "same caveat; a striking negative numeric claim worth independent rerun"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b78_degree_rank_n5.py referenced, outside packet.",
+   "absence_claims": [
+    {"quote": "the irreducible principal Dehn-filling rep is not numerically locatable this way", "where": "frontier/B78_degree_rank_n5/FINDINGS.md:29-30"},
+    {"quote": "The decisive n=5 third point is OPEN — neither confirmed nor refuted.", "where": "frontier/B78_degree_rank_n5/FINDINGS.md:33"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A model of honest negative reporting — the arc explicitly does not force a conclusion where its numerics failed. No physics content, standalone topology; this discipline is worth noting as a positive counter-example to overclaiming elsewhere in the batch."
+  },
+  {
+   "arc": "B79_mn_table",
+   "source": "main",
+   "files_read": [
+    "frontier/B79_mn_table/FINDINGS.md", "frontier/B79_mn_table/README.md", "frontier/B79_mn_table/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B79_mn_table/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B79_mn_table/probe.py"],
+   "claim_of_record": "PROVED — \"The (m,n) degree table shows d=rank on every cell the rep-search reaches (m=1 at n=3,4; m=3 at n=3), with no cell contradicting it.\"",
+   "log_says": "not in log",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "consolidation table: d(1,3)=3 exact, d(1,4)=4 numeric ~1e-39, d(3,3)=3 numeric; d(2,3), d(2,4), d(3,4) all OPEN", "where": "FINDINGS.md table lines 12-16", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "consolidation arc importing prior arcs' (B71/B73/B75) results into one table; probe.py itself not opened this pass"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "this is explicitly a consolidation/table arc re-presenting B71/B73/B75 results rather than a new computation.",
+   "absence_claims": [
+    {"quote": "no clean Dehn-filling component for the m=2 bundle at n=3 — over odd-order spectra ... a broad 61-spectrum sweep ... and a fresh 63-spectrum even-order sweep ... the component itself is not numerically locatable", "where": "frontier/B79_mn_table/FINDINGS.md:22-26"},
+    {"quote": "the phi_m^2 n=4 Dehn-filling spectra ... were not located", "where": "frontier/B79_mn_table/FINDINGS.md:28-29"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "3 of 6 table cells are explicitly OPEN in FINDINGS.md, yet arc_verdict.json labels the whole arc PROVED; \"no cell contradicts d=rank\" (an absence of counterexamples) is being read as confirmation of a general law across a table that is half unfilled.", "where": "frontier/B79_mn_table/arc_verdict.json:3-4 vs FINDINGS.md table"}
+   ],
+   "seat_note": "A useful honest consolidation table, but the PROVED verdict for a pattern confirmed on 3 of 6 cells (with the other 3 unreachable, not merely unattempted) overstates the evidence; no physics content."
+  },
+  {
+   "arc": "B80_sl4_adproof",
+   "source": "main",
+   "files_read": [
+    "frontier/B80_sl4_adproof/FINDINGS.md", "frontier/B80_sl4_adproof/README.md",
+    "frontier/B80_sl4_adproof/arc_verdict.json", "frontier/B80_sl4_adproof/build_jm.py (grep of defs/prints)",
+    "frontier/B80_sl4_adproof/jacobian_m_crt.json (listed, not fully re-verified numerically)"
+   ],
+   "files_sampled": ["frontier/B80_sl4_adproof/build_jm.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The SL(4) metallic tower is established from first principles: an exact F_p/CRT-reconstructed J(m) whose char poly factors symbolically into the Dickson catalog.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "char(J(m)) factors exactly as the SL(4) metallic tower (MATCH=True), reconstructed via 5-prime CRT + rational reconstruction from an exact F_p eps-series pinv-limit Jacobian", "where": "build_jm.py:140-236 (build_Jm, gate, main)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the full pipeline (modp interpolation, CRT, rational reconstruction, sympy.factor, gate check) is in one committed script with an explicit MATCH boolean printed and written to jacobian_m_crt.json"},
+    {"what": "char poly identical to B65's numerically-derived jacobian_m.json (cross-arc gate)", "where": "build_jm.py:177-189 (gate_vs_b65)", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "depends on B65's jacobian_m.json artifact, which is outside this packet and not independently checked here"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "build_jm.py itself performs an internal cross-check (gate vs B65's independently-derived numeric Jacobian) as well as the from-scratch symbolic derivation — a genuine belt-style redundancy, though the B65 side of that comparison was not independently re-verified in this pass.",
+   "absence_claims": [
+    {"quote": "B70 tried the symbolic-m eps-series pinv-limit directly over Q[m] and stalled at SL(4) (L=12)", "where": "frontier/B80_sl4_adproof/FINDINGS.md:24-25"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "GITIGNORED_WITNESS", "detail": "build_jm.py's console output (the MATCH=True print, factored char poly) is not itself saved to a committed file beyond jacobian_m_crt.json's summary fields (charpoly_factored, matches_tower); if any auxiliary run log were produced by the ~2-3 min run it would fall under the repo-wide *.log/*.out gitignore, though the essential result (jacobian_m_crt.json) is committed here so this is a minor/soft flag rather than a missing witness.", "where": "frontier/B80_sl4_adproof/jacobian_m_crt.json"}
+   ],
+   "seat_note": "This is the strongest-looking result in the batch — an exact symbolic (CRT-reconstructed) proof of the SL(4) tower, with a cross-check against an independent prior derivation; still explicitly standalone Lie theory with no physics claim."
+  },
+  {
+   "arc": "B81_sl5_adproof",
+   "source": "main",
+   "files_read": [
+    "frontier/B81_sl5_adproof/FINDINGS.md", "frontier/B81_sl5_adproof/README.md", "frontier/B81_sl5_adproof/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B81_sl5_adproof/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B81_sl5_adproof/probe.py"],
+   "claim_of_record": "NEGATIVE — \"The CRT/F_p first-principles route is blocked at SL(5): char(DT_0) scatters across seeds at the doubly-degenerate char(M^2)^2 sector.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "char(DT_0(4,m=1)) identical across seeds (canonical); char(DT_0(5,m=1)) scatters (24/25 coeffs differ across seeds 20/99/123)", "where": "FINDINGS.md table lines 19-22", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "probe.py not directly opened this pass; described as exact F_p computation"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b81_sl5_adproof.py referenced, outside packet.",
+   "absence_claims": [
+    {"quote": "the ε-series pinv-limit does not produce a well-defined characteristic polynomial — m-interpolation is invalid and the CRT reconstruction cannot be applied", "where": "frontier/B81_sl5_adproof/FINDINGS.md:26-27"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A precisely-localized negative result (identifying exactly which sector breaks the SL(5) route) that directly informs B84/B85; no physics content, standalone Lie theory."
+  },
+  {
+   "arc": "B82_consolidation",
+   "source": "main",
+   "files_read": [
+    "frontier/B82_consolidation/FINDINGS.md", "frontier/B82_consolidation/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B82_consolidation/README.md (not opened, described by FINDINGS)", "frontier/B82_consolidation/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B82_consolidation/README.md", "frontier/B82_consolidation/probe.py"],
+   "claim_of_record": "NEGATIVE — \"The physics chapter is formally closed: every attempted bridge (anyons, quasicrystals, j=1728, higher-spin, quantum groups) reduces to invariant theory of sl(n).\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "synthesis table of 5 physics-bridge probes (anyons/TQC, quasicrystal spectra, j=1728/Seiberg-Witten, higher-spin/W_N, cusp-torsion/quantum group), all verdict negative or same-structure-coincidence", "where": "FINDINGS.md:53-69", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "this is a synthesis/positioning arc explicitly stating \"no new theorem\"; it aggregates conclusions from B28/B29/B34/B37/B53/B56/B58 etc. rather than computing anything itself"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "explicitly a synthesis document (\"Status: synthesis / positioning (no new theorem)\"); probe.py prints the synthesis tables, not new computation.",
+   "absence_claims": [
+    {"quote": "Verdict: there is no physics here.", "where": "frontier/B82_consolidation/FINDINGS.md:66"},
+    {"quote": "the physics-probing chapter is closed; future runs should not re-litigate these kills without genuinely new evidence", "where": "frontier/B82_consolidation/FINDINGS.md:68-69"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This arc's own explicit self-assessment (\"there is no physics here\") is the single strongest and most directly relevant statement in this whole batch for a fresh physics evaluation seat: an internal author-level conclusion that the entire B70-B86 cluster's SL(n)/trace-map/Dickson-tower/quantum-group work never crosses into 3+1D physics.", "where": "frontier/B82_consolidation/FINDINGS.md:53-69"}
+   ],
+   "seat_note": "This arc is a formal self-audit concluding no physics content exists anywhere in this cluster of results (anyons, quasicrystals, j=1728, higher-spin, quantum groups all fail to bridge to 3+1D physics); it should be weighed heavily as the project's own negative verdict on this entire line of work."
+  },
+  {
+   "arc": "B83_sln_apolynomial",
+   "source": "main",
+   "files_read": [
+    "frontier/B83_sln_apolynomial/FINDINGS.md", "frontier/B83_sln_apolynomial/README.md", "frontier/B83_sln_apolynomial/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B83_sln_apolynomial/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B83_sln_apolynomial/probe.py"],
+   "claim_of_record": "PROVED — \"The SL(n) figure-eight Dehn-filling A-polynomial family is L=(-1)^{n-1}M^n on the principal component, with the SL(4) member L=-M^4 new.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "A_n family L=(-1)^{n-1}M^n confirmed at n=3 (~1e-10) and n=4 (~1e-12, new)", "where": "FINDINGS.md table lines 20-24", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "probe.py not directly opened this pass"},
+    {"what": "n=5 prediction L=+M^5 is UNTESTED (principal component not locatable, per B78)", "where": "FINDINGS.md:24", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "explicitly a prediction, not a computed result"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b83_sln_apolynomial.py referenced, outside packet.",
+   "absence_claims": [
+    {"quote": "the principal SL(5) component is not numerically locatable (B78)", "where": "frontier/B83_sln_apolynomial/FINDINGS.md:24"},
+    {"quote": "The full derivation of why the principal component's slope equals the rank is deferred", "where": "frontier/B83_sln_apolynomial/FINDINGS.md:41-42"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-scoped generalization (SL(4) A-polynomial claimed new, n=5 explicitly left as prediction not fact); no physics content, standalone topology explicitly awaiting external literature check before any claim of novelty."
+  },
+  {
+   "arc": "B84_sl5_gauge_barrier",
+   "source": "main",
+   "files_read": [
+    "frontier/B84_sl5_gauge_barrier/FINDINGS.md", "frontier/B84_sl5_gauge_barrier/README.md", "frontier/B84_sl5_gauge_barrier/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B84_sl5_gauge_barrier/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B84_sl5_gauge_barrier/probe.py"],
+   "claim_of_record": "NEGATIVE — \"Conjecture I1 refuted: the SL(5) tower barrier is genuine non-convergence of the pinv-limit (gauge-invariant power sums scatter), not a gauge/basis artifact.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "seed-averaging over 40 seeds fails to converge char(DT_0(5,m=1)); gauge-invariant power sums tr(DT_0^k) also scatter across seeds at SL(5) but not SL(4)", "where": "FINDINGS.md:16-26", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "probe.py not directly opened this pass; exact F_p claimed"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b84_sl5_gauge_barrier.py referenced, outside packet.",
+   "absence_claims": [
+    {"quote": "No numerical gauge-fix, θ-split, or seed-averaging can recover the SL(5) tower from the pinv-limit.", "where": "frontier/B84_sl5_gauge_barrier/FINDINGS.md:35"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A rigorous self-refutation of the author's own prior conjecture (I1), precisely localizing the barrier to 2 of 24 eigenvalues; commendable honesty, no physics content."
+  },
+  {
+   "arc": "B85_tower_lynchpin",
+   "source": "main",
+   "files_read": [
+    "frontier/B85_tower_lynchpin/FINDINGS.md", "frontier/B85_tower_lynchpin/README.md", "frontier/B85_tower_lynchpin/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B85_tower_lynchpin/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B85_tower_lynchpin/probe.py"],
+   "claim_of_record": "NEGATIVE — \"The Lambda^2-V representation shortcut is killed: the char(M^2) double multiplicity is a root-system fact that functoriality cannot dissolve, leaving only symbolic assembly.\"",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Lambda^2 functoriality of the figure-eight substitution verified to ~1e-14", "where": "FINDINGS.md:18-24", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "probe.py not directly opened this pass"},
+    {"what": "char(M^2) multiplicity (1 at n=3,4; 2 at n=5,6) is a root-system fact, not a representation artifact", "where": "FINDINGS.md:26-30", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "stated as a structural/root-system argument rather than a direct numeric computation in the excerpt read"}
+   ],
+   "belt": "NONE",
+   "belt_note": "tests/test_b85_tower_lynchpin.py referenced, outside packet; the arc is itself a reduction/negative-result stage, not carrying a separate verification directory.",
+   "absence_claims": [
+    {"quote": "Numerical routes are DEAD (B84/V67): the ε-series pinv-limit does not converge canonically at the char(M^2)^2 sector", "where": "frontier/B85_tower_lynchpin/FINDINGS.md:34-35"},
+    {"quote": "No numerical or representation shortcut remains", "where": "frontier/B85_tower_lynchpin/FINDINGS.md:51"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clear-eyed reduction of an open problem to its irreducible remaining gap (a Procesi-trace-ring symbolic construction); no physics content, standalone Lie theory, no shortcuts oversold."
+  },
+  {
+   "arc": "B86_unification_synthesis",
+   "source": "main",
+   "files_read": [
+    "frontier/B86_unification_synthesis/FINDINGS.md", "frontier/B86_unification_synthesis/README.md",
+    "frontier/B86_unification_synthesis/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B86_unification_synthesis/probe.py (not opened directly this pass)"],
+   "files_listed_only": ["frontier/B86_unification_synthesis/probe.py", "papers/SLN_FIGURE_EIGHT_SKELETON.md"],
+   "claim_of_record": "OPEN — \"Capstone synthesis: three threads consolidated into a paper skeleton with novelty labels, but no new theorem and the external literature check ungated.\"",
+   "log_says": "not in log",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "novelty positioning table: A_n family / SL(4) L=-M^4 labeled APPARENTLY_NEW pending literature check; SL(2)/SL(3) results labeled KNOWN", "where": "FINDINGS.md:24-36", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "an internal (\"no external contact\") novelty self-assessment, explicitly not verified against the literature"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "synthesis/positioning arc (\"no new theorem\"); references a paper skeleton file not in this packet.",
+   "absence_claims": [
+    {"quote": "The external check cannot be closed here (the standing rule is no external contact)", "where": "frontier/B86_unification_synthesis/FINDINGS.md:34"},
+    {"quote": "no promotion to CLAIMS.md without the GOVERNANCE §5 gate; EXPERT_OUTREACH.md dormant", "where": "frontier/B86_unification_synthesis/FINDINGS.md:45"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Honestly labeled OPEN/synthesis-only, correctly withholding novelty claims pending an external literature check that the project's own rules forbid it from performing; explicitly reaffirms the physics chapter (B82) is closed with no bridge to real physics."
+  }
+ ]
+}

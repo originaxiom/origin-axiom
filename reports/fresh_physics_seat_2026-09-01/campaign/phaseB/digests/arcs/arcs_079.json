@@ -1,0 +1,133 @@
+{
+ "batch": "arcs_079",
+ "arcs": [
+  {
+   "arc": "B794_congruence_level4",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B794_congruence_level4/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B794_congruence_level4/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B794_congruence_level4/output.txt",
+    "/home/user/origin-axiom/frontier/B794_congruence_level4/results.json",
+    "/home/user/origin-axiom/frontier/B794_congruence_level4/trace_norm_split.json",
+    "/home/user/origin-axiom/frontier/B794_congruence_level4/trace_norm_split.py",
+    "/home/user/origin-axiom/frontier/B794_congruence_level4/trace_norm_split.txt",
+    "/home/user/origin-axiom/frontier/B794_congruence_level4/verify_congruence.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"Re-derived from scratch: the figure-eight group is congruence of level exactly (4), and every trace norm is 0 or 3 mod 4, refuting the narrower norm-split claim.\" status: PROVED",
+   "log_says": "PROGRESS_LOG 2026-07-24: Gamma_41 is a congruence subgroup of level (4), mod-4 trace law proved; REVIEWS Review 32 (2026-07-29): naming correction (true PSL order 960, not 1920) promoted into the record along with Z ∩ H = {±I}.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "|SL(2,Z[w]/4)|=3840, |H mod4|=320/160, index 12 => Gamma(4)<=Gamma_41 (Theorem 1)",
+     "where": "verify_congruence.py lines 41-74; output.txt Step A-C; results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained brute-force group closure over Z[w]/4 with no external dependency, run in-file, results.json + output.txt are the committed witnesses; a stranger can re-run verify_congruence.py directly."
+    },
+    {
+     "what": "|H mod 2|=10, index 6 != 12 => Gamma(2) not<=Gamma_41, level exactly (4) (Theorem 2 part)",
+     "where": "verify_congruence.py lines 76-82; output.txt Step C tail",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "same script, same closure objects reduced mod 2; reproducible."
+    },
+    {
+     "what": "trace norms mod 4 of H are {0,3}, 1 absent => Theorem 2 (trace law)",
+     "where": "verify_congruence.py lines 84-93; output.txt Step D",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact modular arithmetic over the finite closure H, fully committed and reproducible."
+    },
+    {
+     "what": "trace-level reconciliation figures (139 m004-only traces, 37 norms, one odd norm 7 via traces 3+w/2-w; m003-only 180 traces all == 1 mod 4; shared 231 traces) used in the 2026-08-06 addendum to restate the norm-split claim",
+     "where": "FINDINGS.md lines 60-73 (LEVEL RECONCILIATION addendum); trace_norm_split.py/.json/.txt",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "FINDINGS.md itself states this script/data was \"copied byte-faithfully from the cc3 branch and re-run\" for this amendment, not independently re-derived from scratch the way verify_congruence.py was; it is reproducible (script + data committed) but its provenance is an import, not an independent construction, unlike the arc's headline theorems."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verify_congruence.py is explicitly built from scratch with no shared source against cc3's B792 script (Gate 5-Q independent re-derivation); the trace_norm_split.* trio is a copied-and-rerun artifact from cc3's branch used only for the later reconciliation, not an independent recompute of that specific claim.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json's claim_one_line still reads \"refuting the narrower norm-split claim,\" but FINDINGS.md's own later addendum (dated 2026-08-06, headed 'LEVEL RECONCILIATION') concludes the opposite for the norm-level statement: 'The hint H-B788-NORMSPLIT ... therefore SURVIVES at its own level.' The verdict record was not updated to reflect the addendum that supersedes part of its own one-line claim.",
+     "where": "arc_verdict.json line 4 vs FINDINGS.md lines 60-73"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md documents that an earlier reconciliation pass ('the earlier 41 with five odd') itself conflated trace-level and norm-level counts before being corrected again on 2026-08-06 — a claim that was revised twice within the same file, underscoring that the figures quoted by the log (e.g. PROGRESS_LOG's flat 'mod-4 trace law PROVED') do not carry the nuance that the law is trace-level absolute but norm-level only for m004-exclusive norms sharing structure with m003.",
+     "where": "FINDINGS.md lines 51-73"
+    }
+   ],
+   "seat_note": "The two headline theorems (congruence level exactly 4; trace-norm law {0,3} mod 4) are exact, finite, self-contained modular-arithmetic computations that a stranger can rerun byte-for-byte from verify_congruence.py alone — the strongest kind of witness in this batch. But the narrative built on top of them (what it means for the earlier B790 norm-split hint) was revised twice in the same FINDINGS.md and the terse arc_verdict.json one-liner was never brought into line with the final revision, so a reader trusting only the verdict record would get the wrong version of the norm-split conclusion."
+  },
+  {
+   "arc": "B795_eigenvalue_verification",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B795_eigenvalue_verification/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B795_eigenvalue_verification/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B795_eigenvalue_verification/collocation_verify.py",
+    "/home/user/origin-axiom/frontier/B795_eigenvalue_verification/collocation_verify_hitrunc.py",
+    "/home/user/origin-axiom/frontier/B795_eigenvalue_verification/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"All seven of cc3's m004 Maass eigenvalues are reproduced by an independently written collocation solver with displaced controls (7/7 confirmed).\" status: PROVED",
+   "log_says": "PROGRESS_LOG 2026-07-24: cc built an independent collocation solver (no shared source, every free parameter different) and confirmed 7/7 against displaced controls, including the parent ground state at 54x; PROGRESS_LOG 2026-08-01 and REVIEWS Review 36 restate '7/7 independently verified on this seat's own instrument, not a re-run' and separately flag that eigenvalues_final.json (a different arc, B797) carried only 6 of the 17 certified eigenvalues.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "sigma_min(r) collocation test confirms all 7 claimed eigenvalues via displaced controls (ratios 3.7x-54.0x)",
+     "where": "collocation_verify.py (full script); collocation_verify_hitrunc.py; output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "both solver scripts are complete, self-contained (own pullback, own K_ir via trapezoid quadrature, own dual-lattice mode set), and output.txt is the committed witness of both runs (initial 90x112 run described in FINDINGS as vacuous, then the fixed 3x-overdetermined run, then the high-truncation run) — a stranger can rerun collocation_verify.py directly to reproduce the printed table."
+    },
+    {
+     "what": "the sector identification of r=8.863405356 (parent Bianchi ground state vs Gamma_41-relative) is explicitly NOT established by this arc",
+     "where": "FINDINGS.md lines 60-66 (\"Scope\" section)",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "FINDINGS.md itself disclaims this: sigma_min confirms existence only, not sector; that determination is attributed to a different arc (cc3's S-invariance test), not reproduced or checked here."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "collocation_verify.py is stated to share no source with cc3's B792 solver and differs in height, mode count, pullback word bound, and sample count — a genuine independent re-derivation, not a re-run of cc3's code; two of its own construction bugs (vacuous rank-deficient run; insufficient Bessel truncation) are documented and corrected in the same FINDINGS.md.",
+   "absence_claims": [
+    {
+     "quote": "Seventeen eigenvalues of m004 now exist where the literature had none, mode-count certified to 5.4e-9 and independently re-derived by cc in B795",
+     "where": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B795.txt line 5 (PROGRESS_LOG.md 2026-07-24)"
+    },
+    {
+     "quote": "Also unaddressed here: the mode-count certification cc3 still owes (max |Δr| between mode counts), which sets the floor on every tolerance its SM comparison can honestly use.",
+     "where": "/home/user/origin-axiom/frontier/B795_eigenvalue_verification/FINDINGS.md lines 68-69"
+    },
+    {
+     "quote": "eigenvalues_final.json carried 6 of the 17 its own table certifies — a silent third-of-a-spectrum for any machine reader.",
+     "where": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B795.txt line 21 (REVIEWS.md Review 36)"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The log (Review 36) reports that a downstream file, eigenvalues_final.json, carries only 6 of the 17 eigenvalues its own table certifies — a defect adjacent to, though not inside, this arc's own directory; readers relying on B795's '7/7 confirmed' headline without also seeing this log line would not know the broader spectral inventory has a data-completeness gap.",
+     "where": "log_index/B795.txt line 21, referencing an artifact outside this arc's directory (not independently verified by this reader in this pass)"
+    },
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "The claim of existence for r=8.863405356 rests on cc's own collocation instrument, whose truncation parameters were tuned upward specifically because the first choice nearly produced a false negative for that same value (documented candidly in FINDINGS.md as error (2)); the fix is well-documented but the eigenvalue's confirmation and the instrument's calibration were adjusted together in the same arc.",
+     "where": "FINDINGS.md lines 49-58"
+    }
+   ],
+   "seat_note": "This is a genuine independent numerical re-derivation with an honest, well-instrumented displaced-control methodology, and the arc candidly reports its own two construction bugs (a vacuous rank-deficient matrix and an under-truncated Bessel sum) rather than hiding them, which is a real strength. Physics content is OBSERVABLE only in the narrow sense of confirming spectral values exist; the FINDINGS.md itself is explicit that sector assignment (which eigenvalue is the Standard-Model-relevant parent mode) is not decided here."
+  }
+ ]
+}

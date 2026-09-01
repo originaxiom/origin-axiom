@@ -1,0 +1,95 @@
+{
+  "batch": "arcs_075",
+  "arcs": [
+    {
+      "arc": "B783_observer_ground_zero",
+      "source": "audit/b775-braver-questions",
+      "files_read": [
+        "A1_tracking_computation.py",
+        "A2_torsor_construction.txt",
+        "B1_theta_test.txt",
+        "B2_gamma5_test.txt",
+        "B3_c_test.txt",
+        "C1_synthesis.txt",
+        "C2_adversarial.txt",
+        "FINDINGS.md",
+        "MASTERPLAN.md",
+        "PREREGISTRATION.md"
+      ],
+      "files_sampled": [
+        "A1_tracking_computation.txt (head 40 / tail 20 / wc -l=768; grepped F_18 len=6765 and the Fibonacci-number position table 1,2,3,5,8,13,...,377 -- both confirmed present and matching FINDINGS.md)"
+      ],
+      "files_listed_only": [],
+      "claim_of_record": "no verdict file (has_verdict: false; no arc_verdict.json present in directory)",
+      "log_says": "docs/progress/REVIEWS.md Review 32 (2026-07-29, anchor 605d211b): 'R32-14: cc3 closure survey — B783 harvested as B802 (headline negative independently confirmed)'. Review 31 (2026-07-25) only notes B783/B784 stay on cc3's branch.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "Fibonacci words F_0..F_18 and position maps; reversal-swap test (parent(sigma,i)==child(sigma_mirror,i)) with zero mismatches for k=3..8 and multi-step trajectories to k=15",
+          "where": "A1_tracking_computation.py (script) / A1_tracking_computation.txt (output, 768 lines, sha not recorded)",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Full script is committed, plain Python with no external deps beyond math; output file is committed and independently spot-checked here (F_18 length 6765, Fibonacci-number trajectory table 1,2,3,5,8,...,377 both match FINDINGS.md exactly). A stranger can re-run the script."
+        },
+        {
+          "what": "F_2^3 = <c, theta, gamma_5> torsor: flip-table, rank-onset (S1/S2/S3) discriminators, T1/T6 relations, field-visibility filtration",
+          "where": "A2_torsor_construction.txt",
+          "kind": "IMPORTED",
+          "reproducible_from_committed": "unknown",
+          "why": "A2 states it is 'assembled from' B766, B780, B769, B759, B711, B712, K021, B749 -- none of those source arcs' files are in this packet, so the flip-table and onset claims are asserted here as already-established facts, not re-derived. Whether those upstream arcs themselves computed them from committed witnesses was not checked in this digest pass."
+        },
+        {
+          "what": "gamma_5 = reversal + complement on the cutting sequence (rotation-angle test, 'Test 4: 50/50 position match'), and the frequency-swap test (d(a)=1/phi <-> 1/phi^2)",
+          "where": "B2_gamma5_test.txt sections 1-2 (lines ~36-76)",
+          "kind": "ASSERTED",
+          "reproducible_from_committed": "no",
+          "why": "B2 says these were 'verified computationally' but no script implementing the cutting-sequence/rotation test or the 'Test 4' comparison is present among the 11 committed arc files -- A1_tracking_computation.py does not contain rotation-angle or cutting-sequence code. The frequency-invariance-under-reversal claim ('verified for F_2 through F_11') is also asserted without a visible script or the raw digit-by-digit output."
+        },
+        {
+          "what": "'Independent verification' of the theta reversal-swap result",
+          "where": "B1_theta_test.txt line 4: 'Independent verification: scratchpad/theta_verify2.py, theta_verify3.py.'",
+          "kind": "UNCLEAR",
+          "reproducible_from_committed": "no",
+          "why": "Neither theta_verify2.py nor theta_verify3.py is among the 11 files in this arc directory (not in the packet's file list). The claim of independent reproduction rests on files not committed to this arc."
+        }
+      ],
+      "belt": "RE-READS",
+      "belt_note": "No verification/ directory exists (has_verification_dir: false). C2_adversarial.txt functions as an internal adversarial re-read of A1/A2/B1/B2/B3's claims (attacks A-G) rather than an independent re-computation; it does not re-run the Python. B1's cited 'independent verification' scripts are absent from the committed files, so the strongest re-check present is C2's prose critique, not a rerun.",
+      "absence_claims": [
+        {"quote": "The level distinction has NO formal definition as a Z/2", "where": "B3_c_test.txt:24"},
+        {"quote": "All three formalizations fail. The level distinction is NOT a well-defined Z/2 involution on the pointer's state space.", "where": "B3_c_test.txt:59-60"},
+        {"quote": "THE RESOLUTION: c HAS NO WORD-LEVEL COUNTERPART", "where": "B3_c_test.txt:122"},
+        {"quote": "The honest conclusion: c has NO word-level pointer counterpart.", "where": "B3_c_test.txt:186"},
+        {"quote": "c has NO word-level counterpart", "where": "FINDINGS.md:39"},
+        {"quote": "B749 F8 independently forbids it: Q(√-3) is born at hyperbolization.", "where": "FINDINGS.md:46"},
+        {"quote": "P16.3 (level distinction = c): REFUTED. No formal Z/2 involution definition exists for \"level distinction.\"", "where": "C1_synthesis.txt:22-23"},
+        {"quote": "For level = c: B3 shows NO structural content. Not even a definition exists.", "where": "C2_adversarial.txt:192"},
+        {"quote": "No permutation works because: ... c cannot appear at the word level in ANY slot (B749 F8).", "where": "C2_adversarial.txt:46-48"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "MISSING_WITNESS",
+          "detail": "B1_theta_test.txt cites 'Independent verification: scratchpad/theta_verify2.py, theta_verify3.py' but neither file is present among the arc's 11 committed files; the independent-check claim cannot be reproduced from what is committed.",
+          "where": "B1_theta_test.txt:4"
+        },
+        {
+          "kind": "MISSING_WITNESS",
+          "detail": "B2's central 'gamma_5 = reversal + complement' result (rotation-angle test, cutting-sequence 'Test 4: 50/50 position match', frequency-invariance check 'for F_2 through F_11') is described as computed but no script producing it is in the committed directory -- A1.py does not implement it.",
+          "where": "B2_gamma5_test.txt:47-49,71-77"
+        },
+        {
+          "kind": "CLAIM_EXCEEDS_COMPUTATION",
+          "detail": "B1 declares P16.1 (tracking=theta) 'CONFIRMED... Confidence: HIGH' based on a word-level algebraic identity (sigma_mirror = R.sigma.R), but the arc's own adversarial pass (C2 Attack B) shows no trace-map intertwining was demonstrated between this word-level theta and the character-variety theta of A2 -- 'they share a name but not a demonstrated mathematical connection.' The HIGH-confidence label in B1 is not walked back to reflect this gap even though C2 (same arc) identifies it as the second-strongest attack.",
+          "where": "B1_theta_test.txt:167-177 vs C2_adversarial.txt:70-105"
+        },
+        {
+          "kind": "IDENTIFICATION_BY_TYPE",
+          "detail": "The entire proposal-#16 framework identifies pointer 'binary choices' (direction, tracking, level) with the F_2^3 torsor generators (theta, gamma_5, c) chiefly because both sides are Z/2-valued; the arc's own Attack D ('Bit-type coincidence is not structure') calls two of the three assignments 'numerological or worse' precisely on these grounds.",
+          "where": "C2_adversarial.txt:164-197 (Attack D)"
+        }
+      ],
+      "seat_note": "This is one of the more self-critical arcs in the corpus: it preregisters, computes exactly, and then adversarially kills its own proposal (1/5, cumulative 1/20), correctly isolating a real word-combinatorics lemma (reversal swaps parent/child tracking, exact and reproducible) from unsupported torsor-correspondence claims. No physical observable is named anywhere; the entire exercise is Fibonacci-word/character-variety group theory, and the one surviving 'result' is honestly flagged by the arc's own adversarial pass as an analogy, not a proven functorial map."
+    }
+  ]
+}

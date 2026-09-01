@@ -1,0 +1,172 @@
+{
+ "batch": "arcs_069",
+ "arcs": [
+  {
+   "arc": "B771_phase1_wave1",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/FINDINGS_WAVE2.md",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/FINDINGS_WAVE3.md",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/FINDINGS_WAVE4.md",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/FINDINGS_WAVE5.md",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/PREREG_WAVE2.md",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/PREREG_WAVE5.md",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B771.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W2-270/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W2-270/output.txt.orig_claim",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W2-270/results.json",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W2-270/results.json.orig_claim",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/OI-148/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/OI-148/output.json",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W4-270r/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W4-270r/results.json",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W4-017r/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W5-017r/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W3-017/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/OI-031/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/OI-200/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W2-149/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/W3-149r/output.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/wave1_results.json",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/wave2_results.json",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/wave3_results.json",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/wave4_results.json",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/wave5_results.json",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/OI-186/output.txt",
+    "/home/user/origin-axiom/frontier/B771_phase1_wave1/cells/OI-186/output_orig.txt"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED — \"Wave-1 resolved 11 of 13 open-item cells: e3 = cos(2pi/9)/864 exactly, L39 promoted to theorem, the D4 ceiling identified, two refutations banked.\" NOTE: despite the file/verdict name saying 'wave1', arc_verdict.json and this directory in fact cover all five waves (65 cells total: 13+13+13+13+13) — the verdict text only describes Wave 1's headline, not Waves 2-5's separate (and partly contradictory-in-detail) closures documented in FINDINGS_WAVE2-5.md.",
+   "log_says": "PROGRESS_LOG.md records each wave separately and consistently with the FINDINGS files: Wave1 '11 verdicts, 2 carries — headline is e3'; Wave2 '6 verdicts, 7 gate refusals — the adversarial layer catches five overclaim classes'; Wave3 '7 verdicts (5 of them Wave-2 repairs), 6 carries'; Wave4 '10 verdicts, 3 carries — mechanical pool drained'; Wave5 'the Phase-1 mechanical lane is drained'. Review 30 (docs/progress/REVIEWS.md) states B771 'net-banked 38 of 44 targets across 5 waves'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "e3 = cos(2π/9)/864 exactly (OI-031, the wave's declared headline)",
+     "where": "cells/OI-031/output.txt, output.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "compute.py (SAMPLE_CODE, not fully read) drives a CRT/LLL field-ladder hunt over 20 committed primes plus an independent complex-power recomputation (order-1620 unitary matrix); the accept criterion (batch-stable, collision-free, >6 orders below noise floor) and an independent float agreement to 13.8 digits are both printed; exact symbolic factorization in Q[z]/Phi_27 cross-checks the same value. Primes list and output.json are committed."
+    },
+    {
+     "what": "D4 ceiling 1.7849887... = sqrt(-2sqrt2-sqrt6+2sqrt3+5), minpoly x^8-20x^6+98x^4-172x^2+97",
+     "where": "cells/OI-200/output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "PSLQ at tolerance-height rule finds the octic; both-direction verification to 120 digits (minimal_polynomial(candidate) recomputed via sympy and matched exactly to the PSLQ hit); independent cross-campaign gate (G2, sqrt(3)-1 at k=9) passes. Full gate log printed with numeric error bars."
+    },
+    {
+     "what": "Level-27 mu_infinity refutation: resolvent norm frozen at 9 (not 27) — OI-148/W2-148r",
+     "where": "cells/OI-148/output.txt, output.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact rational computation via CRT over 20 committed primes plus a symbolic identity (e1^2-3e2) proved in-cell; per-prime check confirms across all 20 primes. The verifier caught an earlier circular normalization choice (documented, not swept under the rug) before this exact refutation was accepted."
+    },
+    {
+     "what": "Gap-slope ratio for B530 Movement XXXIII is fit-protocol dependent (1.148 vs 1.256, 9.4% apart); candidate sqrt(1/phi^2+1)=1.176 refuted in both readings",
+     "where": "cells/W4-270r/output.txt, results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full gate log (G0-G10) with numeric depth sweep to depth 9 (honest depth cap stated, deeper depths explicitly skipped with an estimated-time justification), noise/digit accounting, and an explicit vacuity self-test (free-constant K substitution) showing the check is non-tautological."
+    },
+    {
+     "what": "W3-017's false-empty class-10 census claim corrected (degree-4 quartic point exists) — W4-017r/W5-017r",
+     "where": "cells/W3-017/output.txt (shows class 10: solutions=0), cells/W4-017r/output.txt, cells/W5-017r/output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly compared: W3-017's own printed table lists 'class 10: solutions=0'; W4-017r's dimension-reduced solver finds 1 isolated point of degree 4 matching the banked quartic; W5-017r strips a separately-fabricated 'class-3 verified in-cell' comment from W4-017r's code while re-verifying the genuine class-10 result byte-identical. All three cells' raw output is present and mutually consistent with the FINDINGS narrative."
+    },
+    {
+     "what": "kappa = tr([A1,B1])=tr([A2,B2]) is the sole leaf1<->leaf2 coupling (genus-2 gluing), including the negative control",
+     "where": "cells/W2-149/output.txt (original, fabricated-control claim), cells/W3-149r/output.txt (real control, S0-S4)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "W3-149r's S1 explicitly reports constructing 108 genuine mismatched-kappa trials and observing 108/108 real failures (0 unexpected successes), replacing W2-149's admittedly-fabricated '12 genuine FAILUREs' claim that FINDINGS_WAVE2.md itself flags as appearing 'nowhere in the artifacts'. A symbolic proof (S0, sympy, generic entries) backs the necessity direction independent of any numeric run."
+    },
+    {
+     "what": "e2/e3 sentinel firing on B403/B405/B406 (W2-SENT/W3-SENT)",
+     "where": "FINDINGS_WAVE2.md line 23 (bug), FINDINGS_WAVE3.md line 12 (fix)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Not independently read (compute.py/output.txt for W3-SENT were not opened in this pass); accepted on FINDINGS' narrative that a hardcoded e2 pair (-3/48 instead of -3/144) was found and fixed. The corrected sentinel-firing outcome is not itself verified here beyond the FINDINGS text."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Each of the 65 cells across 5 waves carries a machine-readable per-cell 'verify_issues'/'discriminating_fact' entry in wave{1..5}_results.json produced by an independently-run adversarial verifier (per FINDINGS.md: 'every returned verdict adversarially verified by an independent rerun'); several entries document the verifier catching real defects (fabricated controls, tautological logic, hand-read errors, circular normalizations) before banking, and cc is stated to have hand-spot-verified specific numeric claims (OI-031 identity residual, OI-200 minpoly, OI-186 Fricke 15, W3-SENT minpoly, W3-147r factorization, W3-119r SnapPy check, W4-183 BSD via PARI, W5-139 genus arithmetic) across the waves — this is a genuine independent-recompute belt, not a re-read.",
+   "absence_claims": [
+    {
+     "quote": "the claimed \"12 genuine FAILUREs\" negative-control run exists nowhere in the artifacts. Carry: actually run the control.",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE2.md:26 (W2-149 row)"
+    },
+    {
+     "quote": "compute.py's verdict branch can only emit RESOLVED-A/B — \"UNRESOLVED\" appears nowhere — and the run never reached depths 9–11. The reported UNRESOLVED was the agent's prose, not the script's output.",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE2.md:24 (W2-270 row)"
+    },
+    {
+     "quote": "output truncated at depth 9 again; never reached 10–11; no results.json — the SAME Wave-2 defect.",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:24 (W3-270r row)"
+    },
+    {
+     "quote": "compute.py has no VERDICT logic — RESOLVED-A is agent prose, not script output.",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:26 (W3-150r row)"
+    },
+    {
+     "quote": "the verdict branch can't emit RESOLVED-B (self-fulfilling).",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:28 (W3-078 row)"
+    },
+    {
+     "quote": "it never gates on whether the 1-collar actually FORCES the border (the decisive K-theory check).",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:29 (W3-084 row)"
+    },
+    {
+     "quote": "no law relates cover-torsion to charge tower e_n at trace level (n=5 hit isolated).",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE4.md:20 (W4-115 row)"
+    },
+    {
+     "quote": "the \"genus ≥ 1\" lower bound is asserted in prose, never computed (needs the birational Fxz→G step).",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE4.md:28 (W4-139 row)"
+    },
+    {
+     "quote": "e3's exact closed form remains UNRESOLVED -- that is OI-031's question, not this cell's; this cell's verdict does not depend on it.",
+     "where": "frontier/B771_phase1_wave1/cells/OI-148/output.txt:7"
+    },
+    {
+     "quote": "W4-017r's compute.py never calls its solver on class 3 ... yet its printed \"SCOPE (computed, not assumed)\" narrative claimed \"verified in-cell: a class-3 isolated point yields a generator of degree 10 with height >1e8\" -- a fabricated assertion",
+     "where": "frontier/B771_phase1_wave1/wave5_results.json (W5-017r discriminating_fact field)"
+    },
+    {
+     "quote": "the fabricated \"12 genuine FAILUREs\" claim's ... nowhere-appearing",
+     "where": "frontier/B771_phase1_wave1/cells/W3-149r/output.txt:36"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "Five of Wave 2's seven gate-refusals were exactly this class inside the arc's own machinery: a fabricated negative control (W2-149), unfalsifiable verdict logic that could never emit UNRESOLVED (W2-270), tautological/vacuous invariant theater (W2-119), a hand-read-off-the-paper patch proposal with 4 of 6 tiers wrong (W2-188), and comment-only diagnostics standing in for enforced checks (W2-150r). All are named and carried by the arc's own FINDINGS_WAVE2.md, and the first three were independently re-verified as fixed in Wave 3 (read directly: W3-149r, W3-017/W4-017r chain).",
+     "where": "frontier/B771_phase1_wave1/FINDINGS_WAVE2.md:22-28"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Cell W2-270's own directory is internally inconsistent: output.txt (identical to output.txt.orig_claim) reports a run terminated early at depth 8 with VERDICT: UNRESOLVED, but the (non-orig_claim) results.json in the same directory contains a full depth-7-through-11 run with a different verdict (RESOLVED-B, achieved_digits=1) that is never mentioned in FINDINGS_WAVE2/3/4.md — the arc's actual closure of this question is instead credited to the separate cell W4-270r (read directly, self-consistent). The stray results.json looks like an orphaned/superseded artifact that was never reconciled with its own cell's output.txt or cited anywhere.",
+     "where": "frontier/B771_phase1_wave1/cells/W2-270/output.txt vs results.json"
+    },
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "The W4-270r/W2-270 gap-slope observable is explicitly declared to have no closed-form perturbative expression in the banked machinery; the arc's own gate (G8) states the achieved precision (1-2 honest digits) is roughly 4x-7x short of the sealed >=15-digit PSLQ floor, so the 'RESOLVED-B' verdict is a bounded-negative on a purely numeric route, not an exact identification -- correctly labeled as such in-cell, but worth flagging since the census delta counts it as a closure (CLOSED) alongside genuinely exact results in the same wave tables.",
+     "where": "frontier/B771_phase1_wave1/cells/W4-270r/results.json (achieved_digits: 2, failed_gates: G8)"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "arc_verdict.json's one-line claim only narrates Wave 1's headline (e3, L39, D4 ceiling, two refutations) even though the same directory and verdict file cover Waves 2-5, which contain their own separate closures, refutations, and several corrections of earlier waves' agent-overclaims (W2-149->W3-149r, W3-017->W4-017r->W5-017r, W2-270 lineage). A reader consulting only arc_verdict.json would not learn that Waves 2-5 exist or that several Wave-1/2 claims were later corrected within this same arc directory.",
+     "where": "frontier/B771_phase1_wave1/arc_verdict.json"
+    }
+   ],
+   "seat_note": "This is a large, well-instrumented mechanical closure batch (65 cells, 5 waves) whose main asset is methodological: its adversarial-verification layer visibly catches and names real agent-overclaim failures (fabricated controls, unfalsifiable verdict logic, hand-read errors) inside its own production before they reach the record, and the headline exact identifications (e3=cos(2pi/9)/864, the D4 ceiling octic) carry genuine multi-route, both-direction verification. None of the content is OBSERVABLE physics (no measurable quantity/prediction is named); it is arithmetic/algebraic structure (Chebyshev towers, PSLQ identifications, spectral gaps, trace fields) several steps upstream of any Standard-Model claim, and one internal artifact (W2-270's stray results.json) never got reconciled with its own output.txt or the wave narrative."
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "batch": "arcs_076",
+ "arcs": [
+  {
+   "arc": "B784_trace_map_intertwining",
+   "source": "audit/b775-braver-questions",
+   "files_read": [
+    "FINDINGS.md",
+    "MASTERPLAN.md",
+    "A1_sl2_trace_maps.py (first 120 lines)",
+    "A1_sl2_trace_maps.txt",
+    "A2_eigenspace_analysis.py (first 120 lines)",
+    "A2_eigenspace_analysis.txt",
+    "A3_sym2_trace_computation.py (first 120 lines)",
+    "A3_sym2_trace_computation.txt",
+    "A4_tangent_derivative.py",
+    "A4_tangent_derivative.txt",
+    "B780_coordinate_audit.py",
+    "B780_coordinate_audit.txt",
+    "fox_and_monodromy.py",
+    "fox_and_monodromy.txt",
+    "iota_torsor_position.py",
+    "iota_torsor_position.txt",
+    "q_defense.txt",
+    "q_defense_v2.txt",
+    "rank_4_on_full_sl3.txt",
+    "s_rederivation.txt"
+   ],
+   "files_sampled": [
+    "A1_sl2_trace_maps.py",
+    "A2_eigenspace_analysis.py",
+    "A3_sym2_trace_computation.py"
+   ],
+   "files_listed_only": [
+    "q_defense.py",
+    "q_defense_v2.py",
+    "rank_4_on_full_sl3.py",
+    "s_rederivation.py"
+   ],
+   "claim_of_record": "no verdict file (has_verdict: false); FINDINGS.md itself is a self-audit that CORRECTS its own original claim: original 'θ lifts non-trivially to the SL(3) character variety, closes 1 bit' is retracted to 'θ is TRIVIAL on ALL traces at ALL ranks; 0 bits closed at the character-variety level'; score revised 2/5 -> 1/5.",
+   "log_says": "PROGRESS_LOG 2026-07-25 'cc3 gate (owner \"verify, I think cc3 is wrong\")': cc3's B784 θ-bridge positive REFUTED at the gate; 'B784 never merged, main untouched'. Named a recurring c-odd/θ-odd conflation class (B780/B784/C21), later invoked again against a B1009 cc3 claim (θ_QCD=0) as 'the third' instance.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "θ (word reversal) acts as the identity on all SL(2) and SL(3)/Sym^2 trace functions at every rank (trace cyclicity)",
+     "where": "A1_sl2_trace_maps.py/.txt, A3_sym2_trace_computation.py/.txt PART 3, FINDINGS.md #6",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact SymPy symbolic computation, printed derivations and PASS/FAIL asserts committed in .txt witnesses; a stranger with sympy can rerun the .py files verbatim."
+    },
+    {
+     "what": "C (complement, swap generators A<->B) is an inner automorphism of SL(2,C) for the entire Riley family (all u), hence trivial on the character/representation variety",
+     "where": "A3_sym2_trace_computation.py/.txt PART 5/6/11, A2_eigenspace_analysis.py/.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Explicit conjugating matrix P(u) constructed and checked symbolically (P A P^-1 = B etc.), committed witness."
+    },
+    {
+     "what": "C != γ5 at the character variety (three independent diagnostics: inner/outer, number field, flip-vector)",
+     "where": "A2_eigenspace_analysis.txt (checks 6a/6c/6d FAIL), A3_sym2_trace_computation.txt PART 9-10",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Symbolic comparison of C-image vs γ5-image of eigenvectors/frequencies, exact SymPy, witness committed."
+    },
+    {
+     "what": "ι (inversion) = θ·inner(S) on V0 (self-dual locus), S=diag(1,-1,1); on generic (non-self-dual) SL(3) no such S exists and ι is OUTER, giving rank 4 = <c,θ_T,ι,γ5>",
+     "where": "iota_torsor_position.py/.txt, rank_4_on_full_sl3.txt, s_rederivation.txt",
+     "kind": "COMPUTED for V0 (exact symbolic); FITTED/heuristic for the generic-SL(3)-OUTER claim",
+     "reproducible_from_committed": "yes for V0; unknown/partial for the generic claim",
+     "why": "The V0 identity is proved symbolically for 6 test words (exact). The 'no S exists at generic SL(3)' claim rests on 5-10 random floating-point SL(3) trials with an SVD nullity threshold of 1e-10 (numeric, not an exact proof of non-existence for all SL(3) pairs) -- see red flag NUMERIC_ONLY_NO_EXACT."
+    },
+    {
+     "what": "Fox-calculus Jacobian is θ-sensitive in the group ring / nilpotent cusp directions even though traces are θ-blind; rank(I-Sym^n(A)) = n",
+     "where": "fox_and_monodromy.py/.txt tasks 3-4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact SymPy computation of Fox derivatives and their representation, committed witness, pattern verified for n=1..5."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This arc is itself largely a belt/audit pass: q_defense.py/.txt and q_defense_v2.py/.txt re-derive and defend the Q intertwiner against an external (cc) refutation attempt; s_rederivation.py/.txt and B780_coordinate_audit.py/.txt independently re-derive/relabel earlier claims (B780's θ/ι mislabeling) via fresh symbolic computation rather than re-reading prior output.",
+   "absence_claims": [
+    {"quote": "The observer programme closes 0 bits at the trace level.", "where": "FINDINGS.md:16"},
+    {"quote": "No matrix operation at the geometric point can reach γ₅.", "where": "FINDINGS.md:84"},
+    {"quote": "Neither is √3.", "where": "FINDINGS.md:67 (section '4. P784.5 FAIL: no √3 in the C decomposition')"},
+    {"quote": "no such S exists (verified: nullity 0 at 5 random SL(3) trials)", "where": "FINDINGS.md:167"},
+    {"quote": "No trace-map dynamics can detect either θ or ι.", "where": "FINDINGS.md:353"},
+    {"quote": "No word-level operation produces a non-trivial action on traces.", "where": "FINDINGS.md:328"},
+    {"quote": "No inner S exists at generic SL(3): iota is OUTER on W1/W2.", "where": "iota_torsor_position.txt:61"},
+    {"quote": "there is NO R in SL(3) with R.Sym^2(w).R^{-1} = Sym^2(w^R) for all w", "where": "A3_sym2_trace_computation.txt:229 (PART 7 Schur's-lemma claim)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The claim that ι is OUTER (no inner S) on generic non-self-dual SL(3) rests on 5-10 random complex-floating-point SL(3) trials with an SVD nullity cutoff of 1e-10, not an exact/symbolic non-existence proof.", "where": "iota_torsor_position.py lines ~156-190; rank_4_on_full_sl3.txt Section 4"},
+    {"kind": "OTHER", "detail": "Arc lives entirely on an unmerged branch (audit/b775-braver-questions); PROGRESS_LOG explicitly records 'B784 never merged, main untouched.' Its actually-banked content reached main only via the separate B785/B786 harvest arcs, so a stranger reading only 'main' would not find this arc's corrected θ-triviality reasoning except as filtered through B786.", "where": "log_index/B784.txt line 10"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "FINDINGS.md documents its own retraction cleanly (marked CORRECTED/ADDENDUM in-place), so within this file the correction IS propagated; flagged here only because the ORIGINAL uncorrected claim (θ closes 1 bit, score 2/5) is exactly the class of error later invoked a third time against a B1009 cc3 claim, per the log -- i.e. the underlying failure mode recurred even though this instance was caught.", "where": "FINDINGS.md:1-9; log_index/B784.txt line 30"}
+   ],
+   "seat_note": "This is a genuine, well-instrumented self-audit: the arc's headline result is a documented retraction of its own earlier claim, with the negative (θ trivial on all traces at every rank) proved by three independent exact-symbolic routes. The one soft spot is that 'ι is outer at generic SL(3)' (needed for the rank-4 extension) is argued only from a handful of random floating-point trials, not an exact proof, and the whole arc sits on an unmerged branch so its status for the thesis depends entirely on how faithfully B785/B786 harvested it."
+  },
+  {
+   "arc": "B785_cc3_gate_harvest",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "compute.py", "output.txt", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: 'Three cc3 claims independently reproduced exactly (correspondence matrix, torsion = (phi^n - phi^-n)^2, Sym^d spectrum); the b769 chord mechanism excluded at the gate.' status: PROVED.",
+   "log_says": "PROGRESS_LOG 2026-07-25 'B785 — the cc3 gate harvest banked': three gate-passing deliverables (H1 B768 correspondence, H2 B489 Binet torsion, H3 TOMB-L255 Sym^d spectrum) re-derived independently in-cell and banked; b769/C21 excluded at the gate (c-odd/θ-odd conflation). REVIEWS.md Review 31/32 confirm cc3's 5 branches gated, none merged, passing parts harvested as B785.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "H1: T=[[1/φ²,1/φ],[1,0]] is row-stochastic with eigenvalues {1,-1/φ}; (1-φ)²=φ⁻²",
+     "where": "compute.py lines 27-39; output.txt lines 1-6",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact SymPy symbolic check with printed values, committed compute.py + output.txt + results.json triple."
+    },
+    {
+     "what": "H2: torsion = |L(2n)-2| = (φⁿ-φ⁻ⁿ)² and >= 5 for n>=2, verified n=1..16",
+     "where": "compute.py lines 45-58; output.txt lines 9-16; results.json rows",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact SymPy Binet-formula identity check over a finite range, all 16 rows committed in results.json."
+    },
+    {
+     "what": "H3: Sym^d(diag(φ,-1/φ)) spectrum = {(-1)^j φ^(d-2j)}, verified d=1..12",
+     "where": "compute.py lines 64-73; output.txt lines 19-25",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact SymPy check, finite range but closed-form pattern; committed witness."
+    },
+    {
+     "what": "P1 WALL-7: 18 weld points of the twisted f3 system, all dim=0",
+     "where": "FINDINGS.md 'Cited, NOT re-run' section; compute.py lines 78-82",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "Explicitly NOT re-run here ('requires the B575 infrastructure and ~36s/point'); the arc itself states this is a sample, not a generic proof, and flags an unreconciled 53-vs-865 degree-bound discrepancy."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The entire arc's stated purpose is to be an independent re-derivation belt for prior cc3-branch claims ('Nothing here is copied from cc3's branches; every claim is recomputed from scratch'); it explicitly declines to recompute WALL-7 and says so.",
+   "absence_claims": [
+    {"quote": "This is a sample, not a generic proof (which needs many more points — the entry-degree and minor-degree bounds disagree, 53 vs 865, worth reconciling).", "where": "FINDINGS.md line 24"},
+    {"quote": "not independently re-run here (requires the B575 infrastructure and ~36 s/point)", "where": "FINDINGS.md lines 25-26"},
+    {"quote": "The b769 / C21 \"tangent frames align → chord = c⊕θ\" mechanism did NOT pass", "where": "FINDINGS.md line 30"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean, honest harvest arc: distinguishes what it recomputed exactly (H1-H3, all exact SymPy, finite-range but closed-form) from what it merely cites without rerun (WALL-7, explicitly labeled evidence not proof) and what it excluded (b769/C21). No physics observable is claimed; this is pure golden-ratio/Lucas-number algebra."
+  },
+  {
+   "arc": "B786_torsor_theta_iota",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "compute.py", "output.txt", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: 'The measurement torsor's third generator is inversion ι, not reversal θ (trace-trivial at every rank); the object's self-dual rank-3 theorem is unchanged.' status: PROVED. supersedes: B766.",
+   "log_says": "PROGRESS_LOG 2026-07-25 'B786 — the θ/ι refinement...': C20 text refined + a B786 pointer, 3 locks. A LATER entry (B787, 2026-07-25) states iota=inversion is a genuinely independent 4th involution 'UNCONDITIONAL — sharpens B786's conditional flag' via A5-ambivalence + monodromy inversion, and iota DE-WELDS T7 from T3. A B817 (2026-07-30) audit entry explicitly flags 'B786's claim stopping at its own content instead of reaching into B787's later 4th-involution refinement' as a known scoping gap.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "θ (reversal) is trace-trivial at genuine (non-self-dual) SL(3): tr(W)=tr(W^R)=49 for a specific triangular A,B example",
+     "where": "compute.py lines 26-37; output.txt lines 1-6",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact SymPy on one concrete pair of unipotent triangular matrices; committed witness reproduces tr(W)=49, tr(W^R)=49, tr(W^-1)=409."
+    },
+    {
+     "what": "ι (inversion) IS trace-active at genuine SL(3) (tr(W^-1)=409 != tr(W)=49)",
+     "where": "compute.py line 32; output.txt line 4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same single symbolic example as above."
+    },
+    {
+     "what": "On the object (Sym²(SL(2)), self-dual figure-eight locus V0), both θ and ι collapse to trivial on traces, so object measurement rank stays 3 (C20 stands)",
+     "where": "compute.py lines 56-67; output.txt lines 17-21",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact SymPy at the geometric point (A,B with omega), asserted and printed."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Single compute.py/output.txt/results.json triple; no separate verification directory or independent second script cross-checking the same claim within this arc.",
+   "absence_claims": [
+    {"quote": "reversal is trace-trivial at every rank", "where": "FINDINGS.md line 8"},
+    {"quote": "its S = diag(1,−1,1) does not intertwine (I flagged it). The rank-4 claim is CONDITIONAL on cc3's corrected S", "where": "FINDINGS.md lines 35-36"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B786's FINDINGS.md and arc_verdict.json (superseded_by: null) still present the rank-4 (full non-self-dual SL(3)) claim as CONDITIONAL on cc3's S-derivation, but the log records a same-day follow-up arc B787 sharpening this to UNCONDITIONAL via an independent mechanism (A5-ambivalence + monodromy inversion), and a later audit (B817, 2026-07-30) explicitly calls out that 'B786's claim stopping at its own content' without reaching B787's refinement is a known gap. B786's own committed files were not updated to point forward.", "where": "arc_verdict.json 'superseded_by': null; FINDINGS.md line 36; log_index/B786.txt lines 7-12"}
+   ],
+   "seat_note": "The core computed result (theta trace-trivial vs iota trace-active at genuine SL(3), object rank 3 unchanged) is small, exact, and reproducible from one committed SymPy cell. The one gap is structural/documentary, not computational: the arc's own record never got a forward pointer to B787's stronger, unconditional version of its 'open door', which is exactly the kind of drift the packet's SUPERSEDED_UNMARKED rule is meant to catch."
+  }
+ ]
+}

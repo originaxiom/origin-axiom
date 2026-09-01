@@ -1,0 +1,184 @@
+{
+ "batch": "arcs_070",
+ "arcs": [
+  {
+   "arc": "B772_negatives_adequacy",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B772_negatives_adequacy/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B772_negatives_adequacy/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B772_negatives_adequacy/audit_results.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: 'Audit of 14 banked negatives: only 4 are load-bearing; the corpus is seam-independent but systematically probes the trace projection its own thesis calls blind.' status: verdict=NEGATIVE, instrument=true",
+   "log_says": "PROGRESS_LOG 2026-07-23: 'B772: the negatives adequacy audit (owner's are we computing properly?) Answer computed, not asserted.'; REVIEWS.md Review 30 credits B772/B774 with 'the blind-projection finding (E26), one real overturn (W4-304...), and then the chord-pass proved it ISOLATED'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "14-negative classification (4 ROBUST / 7 PROVISIONAL / 2 NEEDS-DEEPER-LEVEL / 1 CONTENT-FREE) across 4 axes (kind, resolution, level/projection, input mechanism)",
+     "where": "audit_results.json rows[] (355 lines, sampled head+tail), FINDINGS.md table",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is an adversarial-classifier narrative audit (14 LLM-agent classifications + synthesis), not a numeric computation with a machine-checkable witness; each row's rationale cites prior arcs' computed facts but the classification itself (ROBUST/PROVISIONAL/etc.) is a judgment call recorded in JSON, not derived by a script a stranger could rerun to get the same labels."
+    },
+    {
+     "what": "OI-146 PART-1a defect: vol_m004/vol_orbifold = 12 by algebraic construction regardless of L (tautology), and reuse of a known-buggy mpmath nsum (0.7725 vs true ~0.7813; 2.007... vs true SnapPy 2.0299)",
+     "where": "audit_results.json (OI-146 row, 'vol_m004/vol_orbifold = 12 EXACTLY... unfalsifiable tautology')",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "The algebraic cancellation is derived symbolically and independently checked in B773's OI-146-fix cell (see below); this arc correctly identifies it as a real, reproducible defect in an already-banked file."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir=false; the arc is itself a meta-audit of other arcs, not independently re-verified by a separate belt process within this arc; its findings were acted on (and partly checked) by the sibling arc B773.",
+   "absence_claims": [
+    {
+     "quote": "No negative in the corpus has ever computed a chord-level analog of its own target and found THAT also empty.",
+     "where": "frontier/B772_negatives_adequacy/FINDINGS.md:15-16"
+    },
+    {
+     "quote": "NO cell in the corpus has yet computed a chord-level / non-abelian / framing-sensitive analog of its own target and found THAT also empty",
+     "where": "frontier/B772_negatives_adequacy/audit_results.json:354 (what_we_miss)"
+    },
+    {
+     "quote": "the fix W4-067r is still UNTRACKED/un-re-gated in git",
+     "where": "frontier/B772_negatives_adequacy/audit_results.json:346 (recompute_list, W3-067 entry); also line 89"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "audit_results.json is a 14-agent adversarial-classification exercise producing narrative verdicts (ROBUST/PROVISIONAL/etc.); there is no script that reproduces the ROBUST/PROVISIONAL/NEEDS-DEEPER-LEVEL labels from raw data — a stranger can check the underlying arithmetic in the cited cells but not regenerate this arc's own classification table.",
+     "where": "frontier/B772_negatives_adequacy/audit_results.json"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The arc itself functions as an internal error-audit (a 'belt' on prior arcs) rather than a first-order physics result; it correctly surfaces that only 4/14 banked 'negatives' (non-existence results) are currently load-bearing, meaning much of the program's non-existence census rests on under-resolved or projection-blind computations.",
+     "where": "frontier/B772_negatives_adequacy/FINDINGS.md"
+    }
+   ],
+   "seat_note": "This is honest, well-conducted internal auditing (structural/methodological, no observable), and its central finding — that most banked 'negative' results were computed only in a trace/character projection the program's own thesis (B766) calls blind to the live theta-odd sector — is a legitimate and important self-critique. It does not itself add or subtract SM-physics content; it recalibrates confidence in earlier negatives, four of which (OI-173, OI-186, W2-148r, W2-237) it certifies as load-bearing and ten of which it does not."
+  },
+  {
+   "arc": "B773_chord_recompute",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W4-304c/output.txt",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W4-304c/results.json",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W3-067c/output.txt",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W4-115c/output.txt",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/OI-146-fix/output.txt",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W3-082c/output.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/chord_results.json",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W4-304c/compute.py (head+grep)",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W3-067c/compute.py (head+grep)",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W4-115c/compute.py (head+grep)",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/OI-146-fix/compute.py (head+grep)",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W3-082c/compute.py (head+grep)",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W3-067c/results.json (keys+verdict)",
+    "/home/user/origin-axiom/frontier/B773_chord_recompute/cells/W3-082c/results.json (keys+verdict)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"The banked level-45 'pair-sector identically zero' wall was a projection artifact: the isolated theta-odd readout is 1/4, reproduced three independent ways.\" status: verdict=PROVED, instrument=false, supersedes='W4-304'",
+   "log_says": "PROGRESS_LOG 2026-07-23 'B773: the chord re-computation OVERTURNS a banked negative': 'The owner's are we computing properly question now has a concrete, verified answer: NO — at least once, provably.' REVIEWS.md Review 30: 'one real overturn (W4-304, the theta-odd sector carried tr_odd=1/4 the trace read as zero)... W3-082c false chord-positive caught (B773)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "W4-304c: at level 45, target rows {6,54} have par_trace=0 but tr_odd(theta-odd/chord sector)=1/4 (with tr_even=1/4, plain=1/2) — a genuine cancellation, not absence",
+     "where": "cells/W4-304c/output.txt lines 3-14; cells/W4-304c/results.json (exact Fraction '1/4' entries, stage2_n45)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Committed compute.py (fp_engine-based exact modular/CRT arithmetic over Z/N, no floats for the discriminating fact), committed output.txt and results.json with exact Fraction values; reproduced with a second disjoint prime seed and an explicit P_odd=(I-P)/2 projector, both matching (385899 both ways per output.txt line 7)."
+    },
+    {
+     "what": "Level-135 extension of the same target rows: 'odd nonzero cells on ±6 rows=0/72... declared-12dim-basis-holds=False (basis inadequate at 135 -> exact read deferred, mod-p detection stands)'",
+     "where": "cells/W4-304c/output.txt line 21; results.json level_family_extension_n135",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Honestly reported as inconclusive (basis inadequate) rather than a second confirmed hit; FINDINGS.md does not surface this caveat, describing the extension only implicitly ('extend the level-family past 2 rungs' as a preregistered goal) — the actual level-135 result is a non-result, not further corroboration of the level-45 overturn."
+    },
+    {
+     "what": "W3-082c: 8-rank (loaded/triple-Massey invariant) varies {0,1,2} across the charge tower while the 4-rank (trace/pairwise) baseline is constant (2,2); original (11,809) pair reframes to the class-group fact Sylow_2(Cl(-8899))=Z/2",
+     "where": "cells/W3-082c/output.txt (full run log); results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Uses sympy form-enumeration (unconditional) plus PARI (GRH, external tool via subprocess) cross-checked on small cases; 57/85 triples skipped as 'beyond in-sandbox feasibility' (|D| up to 1e57) — the swept set is real but partial by construction."
+    },
+    {
+     "what": "W3-082c originally claimed loaded-level 'light-up' (RESOLVED-A) but the bridge lemma (8-rank ≡ Kim's arithmetic-CS action) is CITED, not proved — self-flagged NEEDS-SPECIALIST",
+     "where": "FINDINGS.md lines 32-45; PREREGISTRATION.md line 15",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "The Kim-CS/Morishita/Redei bridge lemma is asserted (compute.py docstring, not derived in-cell); FINDINGS.md itself downgrades this cell's positive to 'the loaded-level positive is NOT established.'"
+    },
+    {
+     "what": "W4-115c: non-abelian (twisted Alexander) cover-torsion refinement moves off Q(sqrt5), 11-divisibility periods for abelian/chord/adjoint/charge towers are pairwise incompatible (5,10,12,3) -> wall hardens (RESOLVED-B)",
+     "where": "cells/W4-115c/output.txt (full)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Fox-calculus twisted Alexander polynomials computed and verified two ways (d/da==d/db); charge-side 11-periodicity earned to n=10 by direct mod-11 determinant and independently reproduced by eigenvalue tracking to n=13."
+    },
+    {
+     "what": "W4-115c headline/results.json embeds an 'adjoint 7,815...' odd-n content sequence that does not match the actually computed sequence",
+     "where": "cells/W4-115c/results.json line 143 (headline text) vs cells/W4-115c/output.txt line 51 ('b=5 Q(sqrt21) : [1, None, None, None, None, None, None, None]')",
+     "kind": "FITTED",
+     "reproducible_from_committed": "no",
+     "why": "FINDINGS.md self-flags this exact defect ('the headline embeds a fabricated adjoint 7,815... content string. Carry: strip the fabrication'); confirmed here — the actual computed odd-n sequence for the adjoint tower is almost entirely None (not a perfect square) at n=2..8, so the numbers '7,815' in the headline are not traceable to any printed intermediate value in output.txt. This is a genuine fabricated numeric string inside a nominally computed results.json, carried forward unresolved (RESOLVED-B verdict stands pending the fix)."
+    },
+    {
+     "what": "OI-146-fix: replaces vacuous PART-1a tautology with a genuinely L-dependent ratio (verified to move under a 10% perturbation of L: 12.0 -> 10.909...), confirmed ratio=12 via SnapPy's independent hyperbolic-volume solver plus a closed-form Hurwitz-zeta/Clausen route",
+     "where": "cells/OI-146-fix/output.txt (full)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "compute.py imports mpmath (zeta, clsin, polylog) directly and (per FINDINGS/PREREGISTRATION) calls SnapPy's Manifold('m004').volume(); a stranger needs SnapPy installed to reproduce the load-bearing non-vacuity witness, otherwise reproducible from committed formulas alone."
+    },
+    {
+     "what": "W3-067c: 2-block composite chord trace field is an exact irreducible degree-14 non-cyclotomic polynomial, not matching quantum Q(zeta12) fusion field -> wall hardens (RESOLVED-B) but only for tr(a), not the full trace field <tr a, tr b, tr ab> the cell's own docstring names",
+     "where": "cells/W3-067c/output.txt (full)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "PSLQ-based minimal-polynomial extraction (mpmath) at two independent precisions, degree-14 irreducibility and non-cyclotomic status verified symbolically; FINDINGS.md explicitly flags the scope gap (only tr(a) certified, not the full trace field) as VERIFY-FAILED/carried."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "has_verification_dir=false and no separate belt/ directory exists, but FINDINGS.md reports several cells as 'RESOLVED-*, VERIFY-FAILED' (W3-082c downgraded from RESOLVED-A to NEEDS-SPECIALIST; W3-067c and W4-115c marked RESOLVED-B/VERIFY-FAILED pending further certification) — an adversarial verification pass evidently occurred but its own process/output is not committed as a separate reproducible artifact, only summarized narratively in FINDINGS.md.",
+   "absence_claims": [
+    {
+     "quote": "the certification covers only tr(a), not the full trace field ⟨tr a, tr b, tr ab⟩ the cell's own docstring names",
+     "where": "frontier/B773_chord_recompute/FINDINGS.md:49-51 (W3-067c entry)"
+    },
+    {
+     "quote": "No exact Sage/Groebner trace-field certification was run as a cross-check.",
+     "where": "frontier/B772_negatives_adequacy/audit_results.json:89 (W3-067 rationale, carried into B773's prereg for W3-067c)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "W4-115c's results.json headline text contains a fabricated numeric content-sequence ('adjoint 7,815...') that does not correspond to any value the compute.py run actually printed (output.txt shows the adjoint odd-n sequence is almost entirely undefined/None); the arc's own FINDINGS.md flags this but the cell's RESOLVED-B verdict and results.json are left uncorrected pending a future carry.",
+     "where": "frontier/B773_chord_recompute/cells/W4-115c/results.json:143; frontier/B773_chord_recompute/FINDINGS.md:52-55"
+    },
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The level-135 extension attempted for W4-304c did not confirm a second nonzero chord hit; it returned an inconclusive 'basis inadequate' result (declared_basis_holds=False), yet FINDINGS.md's headline for W4-304 reads as an unqualified, closed overturn without surfacing that the level-family extension (a preregistered part of the test) did not go through.",
+     "where": "frontier/B773_chord_recompute/cells/W4-304c/output.txt:21; frontier/B773_chord_recompute/cells/W4-304c/results.json (level_family_extension_n135); FINDINGS.md headline section"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "W3-082c's original RESOLVED-A relied on a bridge lemma equating the 8-rank of a class group with Kim's arithmetic-Chern-Simons H^3 action purely by naming/citation, not derivation in-cell; the arc's own verify pass caught this and downgraded the cell to NEEDS-SPECIALIST, illustrating exactly the type-coincidence risk this seat watches for.",
+     "where": "frontier/B773_chord_recompute/FINDINGS.md:32-45; cells/W3-082c/compute.py docstring lines ~1-25"
+    }
+   ],
+   "seat_note": "This is a genuinely disciplined re-computation wave: it produced one real, exactly-verified overturn (W4-304's theta-odd trace value 1/4, reproduced by two independent methods) and caught its own false positive (W3-082c) with equal rigor — a rare instance of symmetric self-correction. All content is structural (trace fields, class-group ranks, twisted Alexander polynomials); nothing here names a measurable physical observable or SM parameter value, and one cell (W4-115c) still carries an uncorrected fabricated numeric string in its banked results."
+  }
+ ]
+}

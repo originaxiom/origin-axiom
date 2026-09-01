@@ -1,0 +1,637 @@
+{
+ "batch": "arcs_000",
+ "arcs": [
+  {
+   "arc": "B1_gluing_chern_simons",
+   "source": "main",
+   "files_read": ["frontier/B1_gluing_chern_simons/README.md", "frontier/B1_gluing_chern_simons/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "log(A) = (log phi^2/sqrt5)(H+2(E+F)); frame-to-spin ratio d/a=2; torsion coeff=0", "where": "probe.py computation_1_frame_spin_decomposition", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numeric logm check to 2.8e-16 and symbolic sympy check are in probe.py, runnable"},
+    {"what": "gluing identity S_A = ext[S_L-F_R+m*s] holds; extremised (m,s)=(q,Q-q)", "where": "probe.py computation_2_gluing_is_composition", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic check calling origin_axiom.gluing module, imports external module not shown here"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; probe.py is the only check and is self-contained but not independently re-verified elsewhere in this arc",
+   "absence_claims": [
+    {"quote": "It does NOT: produce the Chern-Simons action, or its level k; distinguish 2+1 gravity from any other flat-SL(2,R)-connection theory; supply a curvature 2-form whose vanishing is the dynamical content of F = 0.", "where": "frontier/B1_gluing_chern_simons/README.md:51-55"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Honest, well-scoped negative-adjacent result: exact algebra (frame/spin decomposition, holonomy composition) is real but explicitly does not reach the Chern-Simons action or gravity. No overclaim detected."
+  },
+  {
+   "arc": "B2_moduli_evolution",
+   "source": "main",
+   "files_read": ["frontier/B2_moduli_evolution/README.md", "frontier/B2_moduli_evolution/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "handoff claim (M,L)->(M^2L,ML) does NOT preserve figure-eight A-polynomial (nonzero remainder on polynomial division)", "where": "probe.py computation_2_test_curve_invariance", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy exact polynomial division, self-contained in probe.py"},
+    {"what": "continuum limit exp(t log A) returns A at t=1", "where": "probe.py computation_3_continuum_limit", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy check"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py, no independent recheck script",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This probe is itself a falsification of an earlier handoff-document claim; it is a clean negative result properly flagged in the text, not a red flag against this arc.", "where": "frontier/B2_moduli_evolution/README.md:206-216"}
+   ],
+   "seat_note": "A disciplined negative result: the handoff's stronger claim about A-polynomial invariance is tested directly and found false, while the weaker linear-flow claim is exact. Good example of self-correction in the project."
+  },
+  {
+   "arc": "B3_regge_complex",
+   "source": "main",
+   "files_read": ["frontier/B3_regge_complex/README.md", "frontier/B3_regge_complex/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "figure-eight complement has 2 regular ideal tetrahedra, 2 edge classes, 4 face classes, 1 cusp (Thurston, standard fact)", "where": "probe.py NUM_TETRAHEDRA etc, hardcoded constants", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "these counts are stated as 'verifiable in SnapPy' but SnapPy is not run in this probe -- the numbers are hardcoded literature facts, not computed here"},
+    {"what": "3D Regge deficit per edge = 0 (zero-deficit at complete hyperbolic structure)", "where": "probe.py regge_edge_check", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy arithmetic from the hardcoded constants above; exact given those inputs"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no SnapPy run committed; the triangulation data is asserted from literature, not independently recomputed in-repo",
+   "absence_claims": [
+    {"quote": "The 4D Regge complex — not a defined construction.", "where": "frontier/B3_regge_complex/README.md:27"},
+    {"quote": "\"stacking figure-eight slices by the monodromy A\" ... names no 4-manifold and no 4-cell.", "where": "frontier/B3_regge_complex/README.md:35"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The claimed triangulation data (2 tetrahedra, 2 edge classes, 4 face classes) is asserted as 'verifiable in SnapPy' but no SnapPy computation is committed; a stranger cannot reproduce these specific counts from this repo alone, only the downstream deficit arithmetic.", "where": "frontier/B3_regge_complex/probe.py:421-428"}
+   ],
+   "seat_note": "The 3D layer's exactness rests on literature-imported triangulation counts, not an in-repo computation; the report is honest that the 4D step is undefined, which is the main and correctly-stated finding."
+  },
+  {
+   "arc": "B4_bkl_gutzwiller",
+   "source": "main",
+   "files_read": ["frontier/B4_bkl_gutzwiller/README.md", "frontier/B4_bkl_gutzwiller/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "figure-eight orbit (trace 3, word LR) is the shortest primitive modular-billiard orbit; length 4 log phi", "where": "probe.py gutzwiller_sum", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "brute-force enumeration up to word length 10 in probe.py, exact"},
+    {"what": "figure-eight share of Gutzwiller orbit sum = 37.8% (numerical, up to trace 17)", "where": "probe.py gutzwiller_sum, main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numeric sum truncated to orbits up to trace 17, printed and reproducible; explicitly labelled Numerical not exact"},
+    {"what": "Kasner exponents at u=phi form geometric progression with ratio phi", "where": "probe.py kasner_at()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic-equivalent numeric check"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no separate recheck; single probe.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The headline 37.8% Gutzwiller share is a numerical truncation (orbits up to trace 17), not a closed-form/exact result, and is explicitly caveated as 'leading' not 'selected' with ratio to next orbit only ~1.13 -- a fragile margin.", "where": "frontier/B4_bkl_gutzwiller/README.md:527-538"}
+   ],
+   "seat_note": "This is the project's own most self-flagged material; the honesty of the caveats (every Kasner solution satisfies vacuum Einstein equations; BKL is only near-singularity) is a genuine strength, and no claim is promoted despite a suggestive numeric coincidence."
+  },
+  {
+   "arc": "B5_wheeler_dewitt",
+   "source": "main",
+   "files_read": ["frontier/B5_wheeler_dewitt/README.md", "frontier/B5_wheeler_dewitt/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "H=0 constraint reduces to r^2-r-1=0, solutions phi and -1/phi", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy solve, exact and trivial"},
+    {"what": "Lambda = 2*pi^2/Vol(4_1) ~= 9.724 (Planck units), ~10^120 times observed cosmological constant", "where": "probe.py main(), uses origin_axiom.constants.VOL_FIG8", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "depends on VOL_FIG8 constant imported from origin_axiom.constants, not shown in this probe; the ~10^120 comparison to the observed Lambda is an order-of-magnitude claim not itself computed symbolically here"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification dir; probe is explicitly framed as documenting a dead-adjacent path, not asserting a result",
+   "absence_claims": [
+    {"quote": "It does NOT resolve the cosmological-constant problem — it restates it.", "where": "frontier/B5_wheeler_dewitt/README.md:689"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Lambda estimate is off by ~10^120 from the observed cosmological constant and is explicitly logged as sharing the failure mode of two previously-killed claims (D1, D2); this is a correctly self-flagged dead end, not a live red flag against current claims.", "where": "frontier/B5_wheeler_dewitt/README.md:687-696"}
+   ],
+   "seat_note": "This is genuinely OBSERVABLE-adjacent (a numerical cosmological-constant prediction) but the probe itself states it is wrong by 120 orders of magnitude and recorded only as a documented dead end -- appropriately not promoted."
+  },
+  {
+   "arc": "B6_field_equation",
+   "source": "main",
+   "files_read": ["frontier/B6_field_equation/FINDINGS.md", "frontier/B6_field_equation/README.md", "frontier/B6_field_equation/arc_verdict.json", "frontier/B6_field_equation/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Euler-Lagrange equation of the derived potential is box-tau + kappa(tau^2-tau-1)=0, with critical points phi (stable) and -1/phi (unstable); the field-theoretic lift is a CHOICE, not forced. | status: OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "dV/dtau = kappa(tau^2-tau-1) matches golden expression exactly (P16 fact)", "where": "probe.py main(), assert sp.simplify(dV - golden) == 0", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy assertion runnable in-repo, though it imports origin_axiom.mobius (KAPPA, potential) not shown"},
+    {"what": "tau=0 is not a solution (V'(0)=-kappa != 0)", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct symbolic evaluation"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir; single probe.py is the only check",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Verdict is honestly OPEN/STALLED and the arc itself names the kinetic-term/dimension/field-interpretation choices as inserted, not derived -- correctly disclosed, not a flag against the arc.", "where": "frontier/B6_field_equation/FINDINGS.md:30-37"}
+   ],
+   "seat_note": "Clean example of the project's own force-vs-target distinction: the potential is exact (P16) but promoting it to a field theory is explicitly labeled a choice, not a derivation. No overreach found."
+  },
+  {
+   "arc": "B7_fisher_kpp_creation",
+   "source": "main",
+   "files_read": ["frontier/B7_fisher_kpp_creation/FINDINGS.md", "frontier/B7_fisher_kpp_creation/README.md", "frontier/B7_fisher_kpp_creation/arc_verdict.json", "frontier/B7_fisher_kpp_creation/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Gradient flow of the exact golden potential is Fisher-KPP and converges to phi, but the dynamics and diffusion constant are inserted. | status: OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "finite-difference integration of reaction-diffusion eq converges to tau=phi to |err|~3.6e-11", "where": "probe.py run(), main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numpy finite-difference scheme with fixed seed-free deterministic parameters, printed and asserted err<1e-6 in-repo"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no independent verification script; numerical only",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The core convergence-to-phi result is numerical finite-difference only; the reaction term itself is exact (P16) but the dynamics/D are explicitly stated as inserted, and 'creation spreading' is called suggestive not derived.", "where": "frontier/B7_fisher_kpp_creation/FINDINGS.md:212-216"}
+   ],
+   "seat_note": "Honestly scoped: the exact part (reaction term) is small; the headline 'creation spreading' narrative rests on an inserted first-order dissipative dynamics and an undetermined diffusion constant D."
+  },
+  {
+   "arc": "B8_particle_spectrum",
+   "source": "main",
+   "files_read": ["frontier/B8_particle_spectrum/FINDINGS.md", "frontier/B8_particle_spectrum/README.md", "frontier/B8_particle_spectrum/arc_verdict.json", "frontier/B8_particle_spectrum/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The near-miss m/g is symbolically shown to equal sqrt(5/(4 log phi)), not phi, so the golden-ratio coincidence is killed. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "mass^2 = kappa*sqrt(5) exact (P16); m/g = sqrt(5/(4 log phi)) exact closed form, NOT equal to phi (|m/g-phi|~0.0063)", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic assert abs(ratio-ratio_closed)<1e-12, and numeric comparison to phi printed"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py, no separate recheck",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-disciplined negative result explicitly killing a numerology near-miss (m/g vs phi) before it could be inflated -- exactly the kind of self-correction the governance model calls for."
+  },
+  {
+   "arc": "B9_fusion_scattering",
+   "source": "main",
+   "files_read": ["frontier/B9_fusion_scattering/FINDINGS.md", "frontier/B9_fusion_scattering/README.md", "frontier/B9_fusion_scattering/arc_verdict.json", "frontier/B9_fusion_scattering/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Fibonacci fusion and the cubic vertex only share the polynomial tau^2-tau-1; no fusion-to-scattering map exists. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "cubic coefficient of V(phi+eps) expansion equals kappa/3 exactly", "where": "probe.py main(), assert sp.simplify(cubic_coeff - KAPPA/3)==0", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy series expansion and assertion"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [
+    {"quote": "There is no functor here, only a shared characteristic polynomial.", "where": "frontier/B9_fusion_scattering/FINDINGS.md:26"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc itself names and rejects the temptation to read a shared polynomial (tau^2-tau-1 appearing in both the Fibonacci fusion rule and the field-theory cubic vertex) as a derived equivalence -- a self-caught type-match that the arc correctly refuses to promote.", "where": "frontier/B9_fusion_scattering/README.md:565-569"}
+   ],
+   "seat_note": "The weakest of the B6-B9 family by its own admission: it only observes that two independently-exact facts share a polynomial, and explicitly refuses to call this a fusion-to-scattering correspondence."
+  },
+  {
+   "arc": "B13_trace_map_character_variety",
+   "source": "main",
+   "files_read": ["frontier/B13_trace_map_character_variety/FINDINGS.md", "frontier/B13_trace_map_character_variety/README.md", "frontier/B13_trace_map_character_variety/arc_verdict.json", "frontier/B13_trace_map_character_variety/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The punctured-torus trace-map linearization at (1,1,1) contains the A-sector as an exact rank-2 lattice-conjugate block with Fricke-Vogt preserved. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Jacobian of trace map at (1,1,1) has charpoly (t+1)(t^2-3t+1); rank-2 restriction M is GL(2,Z)-conjugate to A; full block basis det=5", "where": "probe.py sections [1]-[2]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy matrix algebra with explicit asserts, self-contained"},
+    {"what": "Fricke-Vogt invariant I(x,y,z) exactly preserved by T; Cayley cubic singular tetrahedron with edge 2*sqrt(2); Hessian eigenvalues -2,4,4", "where": "probe.py sections [3]-[5]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic checks"},
+    {"what": "A-sector appears in symmetric-square lift iff det(M)=-1 and tr(M)=+/-1 (genericity control)", "where": "probe.py section [10]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit family of matrices tested plus a bounded closed-form search"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no separate verification/ dir; single probe.py is both the derivation and its own check",
+   "absence_claims": [
+    {"quote": "it does not derive physical `3+1`, matter content, gravity, or awareness.", "where": "frontier/B13_trace_map_character_variety/FINDINGS.md:111"},
+    {"quote": "additional dictionary that is not derived here.", "where": "frontier/B13_trace_map_character_variety/README.md:79"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json labels the overall verdict 'PROVED', but the probe's own printed output and FINDINGS.md/README.md both conclude 'Verdict: STALLED' for the physics-relevant question; a reader consuming only arc_verdict.json status would see 'PROVED' with no hint that the arc calls itself STALLED at the interpretation boundary.", "where": "frontier/B13_trace_map_character_variety/arc_verdict.json:3 vs frontier/B13_trace_map_character_variety/probe.py:450"}
+   ],
+   "seat_note": "The exact character-variety algebra is real and carefully controlled against over-reading (e.g. the A-sector belongs to the half-step F not direct A). But labeling this arc PROVED in the machine-readable verdict while every prose document says STALLED is a status-label mismatch worth normalizing before any downstream aggregation."
+  },
+  {
+   "arc": "B14_half_step_square_root_selector",
+   "source": "main",
+   "files_read": ["frontier/B14_half_step_square_root_selector/FINDINGS.md", "frontier/B14_half_step_square_root_selector/README.md", "frontier/B14_half_step_square_root_selector/arc_verdict.json", "frontier/B14_half_step_square_root_selector/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b. | status: PROVED, supersedes: B13",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "F=LP is the unique GL(2,Z) square root of A up to sign (F, -F only)", "where": "probe.py sections [1]-[3]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Cayley-Hamilton derivation plus a bounded brute-force search over [-5,5]^4 confirming exhaustively"},
+    {"what": "B(a,b) has integer orientation-reversing square root iff a=b", "where": "probe.py section [4]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic derivation with integrality argument"}
+   ],
+   "belt": "NONE",
+   "belt_note": "the bounded brute-force search in section [3] functions as an internal cross-check, but there is no separate belt/verification directory",
+   "absence_claims": [
+    {"quote": "structure or an inserted operation is not derived here.", "where": "frontier/B14_half_step_square_root_selector/FINDINGS.md:97"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json says PROVED but probe.py's own final print and FINDINGS.md both say 'Verdict: STALLED' at the status of the record-swap P; same PROVED/STALLED label mismatch pattern as B13.", "where": "frontier/B14_half_step_square_root_selector/arc_verdict.json:3 vs frontier/B14_half_step_square_root_selector/probe.py:735"}
+   ],
+   "seat_note": "Clean, fully exact algebra (Cayley-Hamilton uniqueness proof plus brute-force cross-check) narrows B13's finding usefully, but the arc still concludes P (the record-swap) is not itself derived from the base axioms -- the same PROVED/STALLED labeling tension recurs."
+  },
+  {
+   "arc": "B15_trace_map_invariant_controls",
+   "source": "main",
+   "files_read": ["frontier/B15_trace_map_invariant_controls/FINDINGS.md", "frontier/B15_trace_map_invariant_controls/README.md", "frontier/B15_trace_map_invariant_controls/arc_verdict.json", "frontier/B15_trace_map_invariant_controls/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The proposed Fibonacci coupling lambda=sqrt(5) is rejected under the Fricke-Vogt normalization, and the naive continuum proxy violates the invariant. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "diagonal linearization charpoly (mu+2)(mu^2+(1-2c)mu+(1-2c)); only c=0,1 are actual trace-map fixed points, c=1/2 is not", "where": "probe.py sections [2]-[3]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy jacobian/charpoly and fixed-point solve"},
+    {"what": "Fibonacci coupling lambda=1 (not sqrt(5)) from I(1,1,3/2)=1/4 under this invariant normalization; sqrt(5) requires a different, rejected convention", "where": "probe.py section [6]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy substitution and solve"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [
+    {"quote": "dictionary to awareness, physical coupling, and phase semantics is not derived", "where": "frontier/B15_trace_map_invariant_controls/FINDINGS.md:79"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc explicitly rejects an interpretive labeling scheme (I=-1 -> nothing, I=0 -> awareness, I=1/4 -> existence) as unearned semantics attached to invariant-surface values purely by numeric coincidence -- itself a caught instance of the type-match trap.", "where": "frontier/B15_trace_map_invariant_controls/FINDINGS.md:806-812"}
+   ],
+   "seat_note": "A useful negative-control arc: it directly falsifies a proposed sqrt(5) coupling under the stated normalization and explicitly refuses interpretive phase labels for invariant surfaces (nothing/awareness/existence) as unearned."
+  },
+  {
+   "arc": "B16_record_swap_status",
+   "source": "main",
+   "files_read": ["frontier/B16_record_swap_status/FINDINGS.md", "frontier/B16_record_swap_status/README.md", "frontier/B16_record_swap_status/arc_verdict.json", "frontier/B16_record_swap_status/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The record-swap P is unique up to sign as the primitive-pair exchange involution, forced by (LX)^2=A but not by axioms A1-A6. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "P is unique up to sign among involutions X with X L X^-1 = R (bounded search over [-6,6]^4)", "where": "probe.py section [2]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive bounded integer search with sympy, explicit assert"},
+    {"what": "weaker conditions (det=-1 & X^2=I alone; time-reversal X A X^-1=A^-1) leave many candidates, not just P", "where": "probe.py section [6]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit counterexample counts printed and asserted > 2"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py; the multiple bounded searches function as mutual cross-checks within the same file",
+   "absence_claims": [
+    {"quote": "Therefore `P` is not currently a theorem of the substrate.", "where": "frontier/B16_record_swap_status/FINDINGS.md:41"},
+    {"quote": "exchange symmetry itself is not derived from A1-A6.", "where": "frontier/B16_record_swap_status/FINDINGS.md:63"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json status is PROVED, matching the narrow claim about uniqueness of P given an exchange axiom, but the overarching print/FINDINGS verdict is STALLED because the exchange axiom itself is admitted, not derived -- same recurring PROVED/STALLED framing gap as B13/B14.", "where": "frontier/B16_record_swap_status/arc_verdict.json:3 vs frontier/B16_record_swap_status/probe.py:1338"}
+   ],
+   "seat_note": "Precisely delimits what is and is not forced: P is uniquely forced conditional on an exchange-symmetry axiom that is honestly labeled as still an axiom, not a theorem of A1-A6."
+  },
+  {
+   "arc": "B17_alternation_persistence_selector",
+   "source": "main",
+   "files_read": ["frontier/B17_alternation_persistence_selector/FINDINGS.md", "frontier/B17_alternation_persistence_selector/README.md", "frontier/B17_alternation_persistence_selector/arc_verdict.json", "frontier/B17_alternation_persistence_selector/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Same-record repetition is parabolic and the LPLP=A spelling is not a new uniqueness theorem under the existing selection filters. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "L^n, R^n are parabolic (trace 2) for n=1..7", "where": "probe.py section [1]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy trace computation"},
+    {"what": "original filters select exactly LR, RL at length 2; adding P to alphabet just gives new spellings (LPLP=A) of already-selected sectors", "where": "probe.py sections [2]-[3]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive enumeration over words up to length 4"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Correctly deflates a potential over-claim: adding the swap P to the alphabet does not create a new uniqueness theorem, only a new spelling of an already-selected result."
+  },
+  {
+   "arc": "B18_trace_lift_functoriality",
+   "source": "main",
+   "files_read": ["frontier/B18_trace_lift_functoriality/FINDINGS.md", "frontier/B18_trace_lift_functoriality/README.md", "frontier/B18_trace_lift_functoriality/arc_verdict.json", "frontier/B18_trace_lift_functoriality/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Fibonacci trace map is the canonical functorial trace lift of the half-step automorphism, with Fricke-Vogt preserved and parity resolving at the A level. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "half-trace map T(x,y,z)=(z,x,2xz-y) is exactly the half-trace-coordinate form of the full-trace automorphism map for phi_F(a)=ab,phi_F(b)=a", "where": "probe.py sections [1]-[2]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic substitution/simplify check"},
+    {"what": "A-level trace map = T_F^2; charpoly at (1,1,1) is (t-1)(t^2-7t+1), resolving parity -1 to +1", "where": "probe.py sections [4]-[5]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy charpoly comparison"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json PROVED vs probe.py/FINDINGS 'Verdict: STALLED' framing mismatch, same recurring pattern as B13/B14/B16 across this batch.", "where": "frontier/B18_trace_lift_functoriality/arc_verdict.json:3 vs frontier/B18_trace_lift_functoriality/probe.py:330"}
+   ],
+   "seat_note": "Establishes the trace map used in B13-B17 is a canonical functorial construction, not an ad hoc eigenvalue coincidence -- a real, well-verified algebraic gate, but it explicitly gates nothing physical."
+  },
+  {
+   "arc": "B19_exchange_half_step_axiom_audit",
+   "source": "main",
+   "files_read": ["frontier/B19_exchange_half_step_axiom_audit/FINDINGS.md", "frontier/B19_exchange_half_step_axiom_audit/README.md", "frontier/B19_exchange_half_step_axiom_audit/arc_verdict.json", "frontier/B19_exchange_half_step_axiom_audit/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Three exchange conditions have identical solution sets giving exactly plus/minus P, while four weaker formulations leave many candidates. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "three formulations ({X^2=I,XLX^-1=R}, {X^2=I,XAX^-1=RL}, (LX)^2=A) all give exactly {P,-P} in a bounded search over [-8,8]^4", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive bounded integer search, asserted equal sets"},
+    {"what": "weaker formulations (plain det=-1 involution, time-reversal) leave >2 candidates", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit count asserted >2"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py, bounded search",
+   "absence_claims": [
+    {"quote": "but this condition itself is not derived from A1-A6.", "where": "frontier/B19_exchange_half_step_axiom_audit/FINDINGS.md:33"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A careful minimality audit of which exact conditions force P; correctly stops short of claiming the winning condition itself is derived rather than assumed."
+  },
+  {
+   "arc": "B20_operational_awareness_test",
+   "source": "main",
+   "files_read": ["frontier/B20_operational_awareness_test/FINDINGS.md", "frontier/B20_operational_awareness_test/README.md", "frontier/B20_operational_awareness_test/arc_verdict.json", "frontier/B20_operational_awareness_test/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The trace map has invariant-memory and feedback but never reads its invariant, failing the operational self-model criterion. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "trace map preserves I exactly (memory); z-update state-dependent (feedback); update rule has no independent I parameter (no explicit read)", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy exact check plus explicit substitution test showing no dependence on invariant value c"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "The arc frames operational 'awareness'/'memory'/'self-model' definitions purely in terms of invariant-preservation and state-dependence of a discrete dynamical system, then tests its own construction against its own definitions; the definitions are the arc's own choice and the negative outcome (no self-model) is honestly reported, but the entire exercise risks being a closed loop testing a system against criteria authored for that system.", "where": "frontier/B20_operational_awareness_test/README.md:515-521"}
+   ],
+   "seat_note": "Correctly and explicitly disclaims consciousness/qualia claims; concludes the trace map fails its own operational self-model bar. No observable physics content; purely a definitional/structural exercise."
+  },
+  {
+   "arc": "B21_spacetime_wp_dictionary",
+   "source": "main",
+   "files_read": ["frontier/B21_spacetime_wp_dictionary/FINDINGS.md", "frontier/B21_spacetime_wp_dictionary/README.md", "frontier/B21_spacetime_wp_dictionary/arc_verdict.json", "frontier/B21_spacetime_wp_dictionary/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Under the Goldman/Weil-Petersson bracket from Fricke-Vogt, the half-step trace map is anti-Poisson and its square is Poisson. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "half-step trace map is anti-Poisson under the Goldman bracket induced by grad(I); its square is Poisson", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic bracket computation with explicit asserts for all coordinate pairs"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [
+    {"quote": "No physical metric, units, causal cone, or Einstein equation is derived.", "where": "frontier/B21_spacetime_wp_dictionary/FINDINGS.md:12"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json PROVED vs probe.py/FINDINGS narrative 'Verdict: STALLED' -- same recurring label-scope mismatch as other B1x/B2x arcs in this batch (six such cases: B13,B14,B16,B18,B21,B27,B28,B30).", "where": "frontier/B21_spacetime_wp_dictionary/arc_verdict.json:3 vs frontier/B21_spacetime_wp_dictionary/probe.py:705"}
+   ],
+   "seat_note": "Real symplectic-geometry result (anti-Poisson/Poisson structure), but the arc's own title question ('does this produce spacetime?') is answered no, explicitly and directly."
+  },
+  {
+   "arc": "B22_spectrum_genericity_controls",
+   "source": "main",
+   "files_read": ["frontier/B22_spectrum_genericity_controls/FINDINGS.md", "frontier/B22_spectrum_genericity_controls/README.md", "frontier/B22_spectrum_genericity_controls/arc_verdict.json", "frontier/B22_spectrum_genericity_controls/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The -1 parity eigenvalue is generic for all orientation-reversing symmetric-square lifts, killing any special parity-particle reading. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "for every M in GL(2,Z) with det=-1, symmetric-square charpoly divisible by (t+1); the t^2-3t+1 A-sector occurs only when det=-1, tr=+/-1", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive bounded search over [-5,5]^4 with explicit sp.rem divisibility asserts"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc is itself a rejection of a type-match temptation: it tests and rejects reading the generic -1 eigenvalue as carrying special particle/gauge content, precisely because it is generic across all orientation-reversing matrices, not special to the half-step.", "where": "frontier/B22_spectrum_genericity_controls/FINDINGS.md:719-726"}
+   ],
+   "seat_note": "A useful genericity control that correctly kills a potential over-reading (parity=-1 as meaningful particle content) by showing it is a generic feature, not special to the half-step F."
+  },
+  {
+   "arc": "B23_bkl_gravity_controls",
+   "source": "main",
+   "files_read": ["frontier/B23_bkl_gravity_controls/FINDINGS.md", "frontier/B23_bkl_gravity_controls/README.md", "frontier/B23_bkl_gravity_controls/arc_verdict.json", "frontier/B23_bkl_gravity_controls/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The exact perturbation expansion at (1,1,1) isolates the single nonlinear term 2uw, but no BKL/Misner dictionary is derived. | status: OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "perturbation expansion of T at (1,1,1): (u,v,w)->(w,u,2u-v+2w+2uw); only nonlinear term is 2uw", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy expansion and explicit assert against expected form"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [
+    {"quote": "No explicit dictionary from `(u,v,w)` to Misner variables `(beta_+, beta_-,Omega)` or to Kasner/BKL variables is derived here.", "where": "frontier/B23_bkl_gravity_controls/FINDINGS.md:16"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A minimal, honest isolation of a single nonlinear term with an explicit and correct disclaimer that no gravity/BKL variable dictionary exists; low content, but not overclaimed."
+  },
+  {
+   "arc": "B24_anyon_quantum_bridge",
+   "source": "main",
+   "files_read": ["frontier/B24_anyon_quantum_bridge/FINDINGS.md", "frontier/B24_anyon_quantum_bridge/README.md", "frontier/B24_anyon_quantum_bridge/arc_verdict.json", "frontier/B24_anyon_quantum_bridge/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Fibonacci anyon level k=3 is not selected by the framework; the shift from discriminant 5 to k+2 is underived. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "2*cos(pi/(k+2))=phi holds only at k=3 for k in 1..10", "where": "probe.py main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy trig simplification checked over a finite range"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [
+    {"quote": "no derived rule mapping that `5` to `k+2`.", "where": "frontier/B24_anyon_quantum_bridge/README.md:19"},
+    {"quote": "the shift from `5` to `k+2` is not derived.", "where": "frontier/B24_anyon_quantum_bridge/FINDINGS.md:16"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The numeric coincidence k+2=5 matching the discriminant 5 elsewhere in the project is exactly the bit-vs-value type-match the seat's rules flag; the arc correctly refuses to accept it as a derivation and marks the level k=3 as inserted, not selected.", "where": "frontier/B24_anyon_quantum_bridge/README.md:15-19"}
+   ],
+   "seat_note": "Correctly identifies and rejects a numerology-style coincidence (k+2=5 matching the discriminant 5) as insufficient to derive the Fibonacci anyon level; k=3 remains an external input from standard SU(2)_k theory."
+  },
+  {
+   "arc": "B25_fibonacci_spectrum_anchor",
+   "source": "main",
+   "files_read": ["frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md", "frontier/B25_fibonacci_spectrum_anchor/README.md", "frontier/B25_fibonacci_spectrum_anchor/arc_verdict.json", "frontier/B25_fibonacci_spectrum_anchor/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Finite Fibonacci-Hamiltonian approximants at lambda/h=1 match gap labels and land on I=1/4, but the coupling stays MOTIVATED, not derived. | status: OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "finite Fibonacci-Hamiltonian tridiagonal approximants (word index up to 20) show box-counting slope near 0.75 mid-scale, and top gaps match golden gap-labeling to residual <5e-4", "where": "probe.py analyze_approximant(), main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit scipy eigh_tridiagonal diagonalization and box-counting/gap-label residual asserts, all in-repo and runnable"},
+    {"what": "REFINED (later addendum): bandwidth-decay ratio ~0.8711(4); box-counting dimension NOT converged, bracketed [0.78,0.93], Aitken ~0.86", "where": "README.md addendum '2026-06-11, review-session'", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "described as 'numbers reproduced in-session' from a cross-session run; no committed script/witness for this refined estimate is present in the files read (only the original probe.py, which targets 0.75, not this refined bracket)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "the addendum explicitly is a numeric refinement done in a separate session with no committed script producing the refined [0.78,0.93] bracket or the 0.8711 ratio -- these numbers are not reproducible from what is in this arc's directory",
+   "absence_claims": [
+    {"quote": "coupling is not derived from A1-A6 plus exchange symmetry.", "where": "frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md:22"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The README addendum's refined dimension estimate (bracket [0.78,0.93], Aitken ~0.86, bandwidth-decay ratio 0.8711(4)) is stated as 'numbers reproduced in-session' with no committed script in this directory that produces them; probe.py only computes and asserts a dimension near 0.75, not the refined bracket.", "where": "frontier/B25_fibonacci_spectrum_anchor/README.md:88-100"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md still states 'Mid-scale box-counting slopes are near 0.75' without any correction note, even though the README's own later addendum revises this to a not-converged range [0.78,0.93] (Aitken ~0.86) -- a materially different estimate that FINDINGS.md does not reflect.", "where": "frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md:13-15"}
+   ],
+   "seat_note": "The only arc in this batch with genuine OBSERVABLE content (a spectral/energy-gap structure with numbers), but the load-bearing dimension estimate has drifted between the committed probe (0.75) and an uncommitted later refinement (0.78-0.93) without FINDINGS.md being updated, and the refined numbers lack a reproducible witness in this directory."
+  },
+  {
+   "arc": "B26_lambda1_derivation_attempt",
+   "source": "main",
+   "files_read": ["frontier/B26_lambda1_derivation_attempt/FINDINGS.md", "frontier/B26_lambda1_derivation_attempt/README.md", "frontier/B26_lambda1_derivation_attempt/arc_verdict.json", "frontier/B26_lambda1_derivation_attempt/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The proposed period-3 derivation of lambda/h=1 fails: (0,0,c) only half-returns, and the literal T^6 quadratic is t^2-27t+1. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "T^3(0,0,c)=(0,0,-c) (half-return, not literal period-3); literal T^6 charpoly at selected c^2=5/4 is (t-1)(t^2-27t+1), not the A-sector t^2-3t+1", "where": "probe.py sections [1]-[3]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy orbit iteration and jacobian/charpoly asserts"},
+    {"what": "Lucas hierarchy (lambda/h)^2 = L_n-2 = 1,5,16,45,121,... under the projective half-return criterion", "where": "probe.py section [5]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy trace(F^n) computation, asserted against literal list"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py, internally self-correcting (computes then rejects its own initial derivation attempt)",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This is a self-correcting negative arc: it computes a proposed lambda/h=1 derivation via a literal period-3 orbit, finds the orbit is actually a sign-flipping half-return (period 6), and explicitly rejects the naive full-return version as giving a different, non-matching surface (I=-3/4). The correction is committed and consistent, not a hidden retraction.", "where": "frontier/B26_lambda1_derivation_attempt/README.md:426-440"}
+   ],
+   "seat_note": "A model of the discipline this project claims to follow: an exact computation that looked like it might derive lambda/h=1 is checked against the literal (not sign-quotiented) return and found insufficient, downgrading the status from 'derived' to 'motivated'."
+  },
+  {
+   "arc": "B27_sl3_fibonacci_trace_lift",
+   "source": "main",
+   "files_read": ["frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md", "frontier/B27_sl3_fibonacci_trace_lift/README.md", "frontier/B27_sl3_fibonacci_trace_lift/arc_verdict.json", "frontier/B27_sl3_fibonacci_trace_lift/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The exact eight-dimensional SL(3) Fibonacci trace lift retains the A quadratic sector and splits into symmetric/antisymmetric inverse-trace blocks. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "8D SL(3) trace-map polynomial formula verified against direct random SL(3,R) matrix substitution (5 random seeds, error <1e-8)", "where": "probe.py main() section [2]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numpy random matrix construction and numeric cross-check against the symbolic polynomial map, with fixed seeds 1000-1004"},
+    {"what": "fixed-point Jacobian charpoly = (t-1)(t+1)(t^2-4t-1)(t^2-3t+1)(t^2+t-1); eigenvalues match phi^3,phi^2,phi,1,-1,1/phi,1/phi^2,1/phi^3", "where": "probe.py main() section [3]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy charpoly plus numeric eigenvalue check to 1e-9"},
+    {"what": "commutator trace swap under one half-step: tr([sigma(a),sigma(b)])=tr([a,b]^-1)", "where": "probe.py main() section [5]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numeric verification with 5 random seeds, error <1e-8"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "the probe includes both a symbolic derivation AND an independent numeric cross-check via random SL(3) matrices, functioning as its own belt/verification within the same file",
+   "absence_claims": [
+    {"quote": "it does not derive a physical dictionary. Particle/antiparticle language is not promoted.", "where": "frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md:64-65"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json PROVED vs probe.py's own final print 'Verdict: STALLED' -- same recurring label-scope gap as other arcs in this batch.", "where": "frontier/B27_sl3_fibonacci_trace_lift/arc_verdict.json:3 vs frontier/B27_sl3_fibonacci_trace_lift/probe.py:889"}
+   ],
+   "seat_note": "Best-verified arc in the batch: symbolic derivation cross-checked numerically against random SL(3) matrices. The 8-coordinate symmetric/antisymmetric split is real, but the README explicitly disclaims any particle/antiparticle physics reading -- a discipline worth noting given the coordinates' names (x_i = tr(a), tr(a^-1), etc.) invite exactly that reading."
+  },
+  {
+   "arc": "B28_projective_quotient_legitimacy",
+   "source": "main",
+   "files_read": ["frontier/B28_projective_quotient_legitimacy/FINDINGS.md", "frontier/B28_projective_quotient_legitimacy/README.md", "frontier/B28_projective_quotient_legitimacy/arc_verdict.json", "frontier/B28_projective_quotient_legitimacy/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The trace map is equivariant under central-lift sign actions preserving Fricke-Vogt, making B26's sign flip legitimate while the antipodal map is not. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "trace map is equivariant under central sign action S(sa,sb); Fricke-Vogt invariant unchanged under S", "where": "probe.py sections [1]-[2]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy residual asserts over all 4 sign combinations"},
+    {"what": "global antipodal map is NOT a central sign action for generic points, and changes I by 4xyz", "where": "probe.py section [4]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit test at point (2,3,5) plus symbolic delta_I computation"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json PROVED vs probe.py/FINDINGS 'Verdict: STALLED' recurring mismatch; also note this arc PROVED-labels only that the sign flip is legitimate as a lift-choice, while the deeper claim (that the projective quotient criterion is the right physical selector) remains admittedly a 'bridge criterion, not something derived from A1-A7'.", "where": "frontier/B28_projective_quotient_legitimacy/FINDINGS.md:940-943"}
+   ],
+   "seat_note": "Legitimately rescues B26's sign-flip identification as a well-defined central-lift ambiguity rather than an ad hoc trick, and correctly distinguishes it from the (rejected) generic antipodal map."
+  },
+  {
+   "arc": "B29_hierarchy_normalization_controls",
+   "source": "main",
+   "files_read": ["frontier/B29_hierarchy_normalization_controls/FINDINGS.md", "frontier/B29_hierarchy_normalization_controls/README.md", "frontier/B29_hierarchy_normalization_controls/arc_verdict.json", "frontier/B29_hierarchy_normalization_controls/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Lucas hierarchy and its normalization are exact; the projective half-return selector itself remains underived. | status: OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "(lambda/h)^2 = L_n-2 hierarchy = 1,5,16,45,121,320 for n=2..12 (projective criterion)", "where": "probe.py section [2]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy trace(F^n) computation with explicit assert against literal list"},
+    {"what": "finite Fibonacci Hamiltonian spectra at lambda/h=1,sqrt(5),4 all pass top-10 gap-labeling residual<5e-3", "where": "probe.py section [4]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "scipy eigh_tridiagonal diagonalization at word_index=16, explicit assert top_gap_matches==10"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [
+    {"quote": "it does not derive a physical spectrum.", "where": "frontier/B29_hierarchy_normalization_controls/FINDINGS.md:42"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "Cleanly separates the exact Lucas-hierarchy algebra from the underived projective selection rule and from the physical-spectrum question; the gap-labeling control across multiple hierarchy values is a genuine reproducibility strength."
+  },
+  {
+   "arc": "B30_projective_state_space",
+   "source": "main",
+   "files_read": ["frontier/B30_projective_state_space/FINDINGS.md", "frontier/B30_projective_state_space/README.md", "frontier/B30_projective_state_space/arc_verdict.json", "frontier/B30_projective_state_space/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Fibonacci trace map descends polynomially to canonical PSL sign-quotient coordinates (u,v,w,r), where the half-return becomes a literal period-3 orbit. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "quotient coordinates (u,v,w,r)=(x^2,y^2,z^2,xyz) are central-sign invariant and satisfy r^2=uvw; the trace map descends polynomially to (u,v,w,r)->(w,u,4uw-4r+v,2uw-r)", "where": "probe.py sections [1]-[3]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy residual asserts"},
+    {"what": "in quotient coords, the B26 half-return becomes literal period-3: Q^3(0,0,c^2,0)=(0,0,c^2,0), but I=c^2-1 is left free (no selection of I=1/4)", "where": "probe.py sections [4]-[5]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy iteration and assert"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc_verdict.json PROVED vs probe.py/FINDINGS narrative 'Verdict: STALLED' -- same recurring mismatch pattern.", "where": "frontier/B30_projective_state_space/arc_verdict.json:3 vs frontier/B30_projective_state_space/probe.py:1474"}
+   ],
+   "seat_note": "Nicely resolves the B26/B28 sign-ambiguity by moving to genuinely canonical PSL coordinates where the previously-awkward sign flip becomes a literal period-3 orbit, but explicitly confirms the quotient alone still leaves I (hence lambda/h) unselected."
+  },
+  {
+   "arc": "B31_primitive_projective_return_selector",
+   "source": "main",
+   "files_read": ["frontier/B31_primitive_projective_return_selector/FINDINGS.md", "frontier/B31_primitive_projective_return_selector/README.md", "frontier/B31_primitive_projective_return_selector/arc_verdict.json", "frontier/B31_primitive_projective_return_selector/probe.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Projective period-3 return holds for every c, so primitive return alone selects no invariant surface without the extra A-sector matching rule. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "T^3(0,0,c)=(0,0,-c) holds for every c (not just the selected one); I=c^2-1 is left as a free one-parameter family absent extra rule", "where": "probe.py sections [1]-[2]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy iteration"},
+    {"what": "adding the extra A-sector matching rule uniquely selects c^2=5/4, I=1/4, (lambda/h)^2=1; higher matches (F^4,F^6,F^8) give a hierarchy not a unique answer", "where": "probe.py sections [3]-[4]", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy solve and trace(F^n) computation"}
+   ],
+   "belt": "NONE",
+   "belt_note": "single probe.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "The cleanest statement in the B25-B31 family of exactly what selects lambda/h=1: not the projective return by itself (which is generic to any c) but an additional, admittedly ad hoc A-sector matching rule -- correctly not promoted as a derivation."
+  }
+ ]
+}
