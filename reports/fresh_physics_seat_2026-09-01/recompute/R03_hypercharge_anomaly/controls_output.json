@@ -1,0 +1,61 @@
+{
+ "A_cubic_without_grav": "Ye**3 - 72*Yq**3 - 36*Yq**2*Yu - 18*Yq*Yu**2",
+ "A_nonSM_solutions_found_when_grav_dropped": [],
+ "A_control_pass": false,
+ "B_census_total_7letters": 462,
+ "B_color_safe": 66,
+ "B_rigid_chiral_survivors_with_adjoint": 4,
+ "B_new_nonSM_survivors": [
+  {
+   "content": [
+    "A(3,2)",
+    "D(3b,1)",
+    "D(3b,1)",
+    "E(1,2)",
+    "G(8,1)"
+   ],
+   "rays": [
+    [
+     "1",
+     "13/5",
+     "-1",
+     "-3",
+     "-3/5"
+    ],
+    [
+     "1",
+     "-1",
+     "13/5",
+     "-3",
+     "-3/5"
+    ]
+   ]
+  },
+  {
+   "content": [
+    "B(3b,2)",
+    "C(3,1)",
+    "C(3,1)",
+    "E(1,2)",
+    "G(8,1)"
+   ],
+   "rays": [
+    [
+     "1",
+     "13/5",
+     "-1",
+     "-3",
+     "-3/5"
+    ],
+    [
+     "1",
+     "-1",
+     "13/5",
+     "-3",
+     "-3/5"
+    ]
+   ]
+  }
+ ],
+ "B_control_pass": true
+}
