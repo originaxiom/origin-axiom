@@ -242,3 +242,48 @@ lane; LAW_MAP has no bare rule-independence row to patch). New owner items from 
 E51 reopen; the κ harmonization; LAW_MAP:107/:146's un-bannered "CS=0 iff amphichiral"
 (B1226 propagation — not elected, listed); GC_v0's retracted σ-block fence; the
 "all sends HOLD" row (Q11 was in fact sent to Dimofte on the cloud lane).
+
+---
+
+## OWNER ELECTION (2026-09-01, later): "T2 — HOLD. Do not fire. The row stays unspent, and the question closes as already answered."
+
+**Acted on verbatim.** T2's sealed design is **HOLD-CLOSED**: not fired, the L192-licensed row
+retained unspent. The owner's grounds, each verified against the arc before I edited anything:
+B303 (CP sign = sign of CS, cusped object at CS = 0 — signless, so the object does not determine
+the bit); B285 (π/6 magnitude forced, sign not); B289 (CS(p,−q) = −CS(p,q), the sign set by the
+oriented closing slope); B295 (NEGATIVE — no internal symmetry-breaking mechanism); and **B1234**
+(banked today on `origin/main`, read here: amphichirality 100%-forced by the orientation double
+cover, 40/40 against a 3.0% base rate; m004 is Gieseking's cover; 48 = 48 surjections onto 2T
+with and without A6). The CP bit's undeterminedness is therefore an A6 artifact, with the
+mechanism now banked — which is exactly what T2's object-side computation (m004 CS ≡ 0 CP-EVEN,
+m003 CS ≡ ¼ CP-ODD) showed without spending the row.
+
+**L192 closed** in `docs/OPEN_LEADS.md` in the house form (heading + dated closure paragraph,
+original registration left unedited beneath). The T2 cell directory is unchanged except for a
+dated disposition note at the head of its FINDINGS.
+
+**B1234 vs this seat's A6 verdict — reconciled, one caveat.** B1234 is, computationally, the
+T3 theorem of this campaign banked from the owner's seat with two-sided controls; its eight-wall
+join (k-blindness, CS = 0, chirality, CP sign, the naming wall via B1168's *mirror-even*
+definition of canonical, box D, θ = c·r, no-forced-choice) sits inside the corner my
+stress-test (02_A6_VERDICT §"Second pass" (1)) assigned to the mirror. It does **not** claim the
+scale wall, the generation obstruction, or the rank wall — so "every wall traces to A6" remains
+overbroad as a sentence, and B1234's own title ("THE WALLS") should be read as "these eight".
+B1234's "does not establish" paragraph (dropping A6 may break the tools) is answered in this
+seat's verdict: orientation re-enters as the observer's first closing, and the tools live on the
+oriented description — nothing breaks. Both readings agree A6 is a choice, not a fact of the
+object.
+
+**Standing five-line escalation template** (owner-set; governs any future request to fire a
+licensed row — "a request missing (2) or (3) comes back unfired"):
+1. which bit exactly, and its computed object-side value;
+2. the `already_banked` output pasted, not "I checked";
+3. both outcomes pre-declared bankable (MB12 both ways);
+4. what the row buys that the record lacks;
+5. the seat's own recommendation with its reason.
+Caution recorded with it: "it's only one bit" does not make a row cheap; a bit-vs-value type
+match is a licence to *ask*, not evidence.
+
+**Standing delegation rule** (owner): T5/T1/T4-class work — mechanical relabeling, committing
+computed-not-fitted values (git-reversible), registering a documented collision — does not need
+the owner's seat; that it was blocked on election was a process defect, now fixed.

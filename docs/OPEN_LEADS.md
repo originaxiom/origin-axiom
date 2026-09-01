@@ -2154,7 +2154,32 @@ pick one depth-5 signature word with a small eliminant, compute the exact elimin
 compute d_K of a quartic factor — one odd d_K kills B502 clean; all-even across witnesses would
 revive it as a live conjecture with the census as its foil. **B398 airlock armed** (a d_K = −283 or
 field-iso hit = STOP, convene). ★★
-## L192 — THE TYPE-MATCHED QUESTION IN THE β-ODD BOX (registered 2026-08-31, B1226; source: the SM-parameter typing)
+## L192 — CLOSED AS ALREADY ANSWERED (owner election 2026-09-01; answered by B303, mechanism B1234). THE TYPE-MATCHED QUESTION IN THE β-ODD BOX (registered 2026-08-31, B1226; source: the SM-parameter typing)
+
+**CLOSED (owner election, 2026-09-01; recorded by the outside physics seat): the bit-level
+question was already answered — negatively — by B303, and B1234 now supplies the mechanism.**
+The question registered below ("does the object's ℤ/2 fix the CP-conservation BIT?") was
+decided when B303 banked *the CP sign is the sign of the Chern–Simons clock* with the cusped
+object at `CS = 0` — a value with **no sign**, so the object does not determine the bit. The
+sign is set by the oriented closing slope (B289: `CS(p,−q) = −CS(p,q)`, all 78 slopes, two
+methods); the magnitude π/6 is forced and the sign is not (B285); no internal
+symmetry-breaking mechanism supplies it (B295, NEGATIVE). What the record lacked until today
+was *why* the object sits at the signless point: **B1234** — amphichirality is 100%-forced by
+the orientation double cover (40/40 covers against a 3.0% census base rate; m004 *is* the
+cover of Gieseking), so the CP bit's undeterminedness is an A6 artifact of the same class as
+the other walls in B1234's join, not a property of "the minimal something". The outside seat's
+T2 cell (`reports/fresh_physics_seat_2026-09-01/campaign/T2_cp_bit/`) computed the object side
+without spending the licensed row — m004 `CS ≡ 0` (CP-EVEN point), sister m003 `CS ≡ ¼`
+(the (b)-clause bite control, CP-ODD), standard and high precision agreeing — which confirms
+the channel is bit-valued and non-vacuous and that m004's answer is "the object sits at the
+CP-even point and cannot supply the sign". **The licensed row stays unspent**; the sealed
+design is retained, never executed. Re-ask only by naming a *different* object-side quantity
+with its computed value, under the standing five-line escalation template
+(`reports/fresh_physics_seat_2026-09-01/CAMPAIGN_TYPE_MATCHED.md`, T2 disposition). Gate 5
+was never approached: no measured value was named on either side. Clauses (a)–(c) below stand
+as the governing constraints on any re-ask.
+
+*Original registration follows, unedited.*
 
 B1226 typed the SM's 28 parameters by our own law (B1168) into four boxes. Box A (β-even, pure) is
 **closed by proof** — B1225: the object cannot select. Boxes B and C are the reader's by the scale

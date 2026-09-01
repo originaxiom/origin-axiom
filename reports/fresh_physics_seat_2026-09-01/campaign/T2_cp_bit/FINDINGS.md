@@ -1,6 +1,11 @@
 # T2_cp_bit — L192's object side computed; the sealed comparison written and HELD
 
 **Outside evaluation seat, campaign cell T2, 2026-09-01. Verdict: DESIGN-SEALED.**
+
+> **DISPOSITION (owner election, 2026-09-01, later): HOLD-CLOSED — not fired; licensed row
+> retained unspent; L192 closed in `docs/OPEN_LEADS.md` as already answered (B303, negative)
+> with B1234's mechanism attached. The sealed design below is a record, not a queue item.
+> Re-ask only under the five-line template in `../../CAMPAIGN_TYPE_MATCHED.md`.**
 **Gate 5: no measured Standard Model value appears anywhere in this cell** — scripts, results,
 design, or this file. The comparison in `SEALED_DESIGN.md` is written and **HELD**, never executed.
 
