@@ -13095,3 +13095,20 @@ physics-argument, unread, and does not automatically cover a CS boundary** — B
 is not robust; fenced.
 
 ---
+
+## 2026-09-01 — B1232: codex R031A/R031B verified here; three retractions; the third column
+
+Owner: verify everything, trust nothing. Certs **re-run on this bench**; the lemma **re-derived**.
+
+**Retracted:** σ ∈ ℚ as a reduction (**ℚ is dense** — the "robust core" was empty); k = 1 from
+absence (**underdetermination, never a default**); my C-2 Outcome B (**B₀ = 4χ₀, I₄, K-rank 4 not
+1** — I inferred a module structure from dim 4 = φ(12), the exact error B1231 names). I-7 sharpened:
+Gal(ℚ(ζ₃)/ℚ) is **order 2**, so part of it conflated ℤ/2 with ℤ/3.
+
+**Gained:** **count the image, not the source.** At dims (3,4,1), an annihilating coupling gives
+observable spread 0.000 over 2000 splittings vs 4.83 generic. **Three columns**, not two — the repo
+conflated observer-supplied values with representational choices. **Routes around B1225.**
+
+Fenced: codex's exact connecting-block computation is still running; only the algebra is verified.
+
+---

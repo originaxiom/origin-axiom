@@ -1,5 +1,43 @@
 # Changelog
 
+## CODEX R031A/R031B VERIFIED HERE — three retractions, and a third column the programme did not have (2026-09-01)
+
+Owner: *"verify everything, trust nothing."* Codex's certs were **re-run on this bench**, not cited;
+the positive lemma was **re-derived independently** with its own controls.
+
+**Retraction 1 — σ ∈ ℚ establishes nothing. ℚ is dense in ℝ.** B1229 called RCFT rationality its
+*robust core* and wrote *"not a continuum."* A dense set is not a discrete one. Codex's control,
+re-run here: *rationality alone permits arbitrarily large finite subsets of (0,1)*. **The core was
+not weakly grounded — it was empty.** A plain logical error.
+
+**Retraction 2 — "no receiver for k ⇒ k = 1" is a default from absence.** B1228's level-forcing was
+the one piece I said survived. It does not. Adopted law: **absence of a typed receiver means
+quotient-invariance or underdetermination; never a default value.**
+
+**Retraction 3 — C-2 resolves to Outcome A, and my "dimension tell" was the error B1231 names.**
+`B_0 exponents = (0,0,0,0)`, C12 acts by **I₄**, **K-rank 4 not 1**, controls biting. The identity
+*is* a scalar — but the scalar is **1**, so B₀ is a ℚ-module, not a ℚ(ζ₁₂)-module. I matched dim 4
+with φ(12) = 4 and inferred structure from two numbers agreeing — **inside the analysis that
+motivated the discipline against exactly that.**
+
+**Correction 4 — I-7 was worse than unearned:** Gal(ℚ(ζ₃)/ℚ) has **order 2**. C-5b listed the trace
+field as a source of ℤ/3. Part of I-7 **conflated a ℤ/2 with a ℤ/3**.
+
+**The positive, and it is the important part.** *"No canonical Higgs line" does not imply "three
+physical Higgs parameters" — the project has been treating a space of representatives as a space of
+physical parameters.* Re-derived here at dims (3,4,1): a coupling annihilating C gives observable
+spread **0.000** across 2000 splittings; a generic one gives **4.83**. **Three coordinates, zero
+observable parameters.** The test: **count the image, not the source.**
+
+**This corrects B1226's typing — there are three columns**: forced structure · genuine
+observer-supplied values · **representational choices that disappear from observables**. And it
+**routes around B1225 without contradicting it**: no invariant can *select* a point of ℙ³, and
+quotient invariance says selection is never needed. The first closure mechanism that does not
+require the naming wall to fall.
+
+**Fenced:** the lepton connecting block's vanishing and the (3,4,1) sequence are codex's exact
+computations, still running. This arc verifies the **algebra** and the two retrieval certs only.
+
 ## THE IDENTIFICATION DISCIPLINE — the programme's dominant error mode, named and ratcheted (2026-09-01)
 
 Owner-approved plan, applied **first** to this bench's own two failures.

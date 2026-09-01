@@ -4925,6 +4925,20 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1232": {
+   "slug": "codex r031 verified and three columns",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "observable",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B123": {
    "slug": "arithmeticity m1",
    "motifs": [

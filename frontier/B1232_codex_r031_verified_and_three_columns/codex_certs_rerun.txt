@@ -1,0 +1,17 @@
+INPUT B = 3 Reg_C12 + chi_0 + chi_11
+RESULT B_0 generator exponents = (0, 0, 0, 0)
+RESULT marked C12 generator acts on B_0 by I_4 = zeta_12^0 I_4
+RESULT after base change to K=Q(zeta_12): B_0 = K^4 and P(B_0) = P^3_K
+RESULT after an archimedean embedding: P^3_C (complex dimension 3)
+CONTROL primitive scalar rank-one orbit = (1, 5, 7, 11) != four copies of chi_0
+CONTROL Q-linear charpolys: (t-1)^4 != Phi_12(t)=t^4-t^2+1
+CONTROL Res_K/Q(K^4) has Q-dimension 16 ; the isolated identity block also admits Q^4
+ANSWER primitive root on B_0: none; K-rank: 4, not 1
+R031A B_0 character/base-field retrieval: PASS
+PASS rationality alone permits arbitrarily large finite subsets of (0,1) and rational midpoints
+RESULT Gal(Q(zeta_3)/Q) order = 2 != trinification/simple-current order 3
+RESULT simply-laced WZW solutions of c=6 = [('A2', 9), ('A6', 1), ('D6', 1), ('E6', 1)]
+SCOPE that four-entry result is WZW-class exhaustive, not RCFT exhaustive
+CONTROL a rational-c family already exceeds the four-entry WZW menu: size = 21
+RESULT no arithmetic identification maps trace-field, trinification and fusion Z/3 data
+R031B RCFT consistency-scope controls: PASS

@@ -1,5 +1,21 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-01, B1232 — CODEX R031A/R031B VERIFIED ON THIS BENCH; THREE RETRACTIONS; AND A
+THIRD COLUMN)**: owner said *verify everything, trust nothing*, so codex's certs were **re-run here**
+and the positive lemma **re-derived independently**. **RETRACTED: (1) σ ∈ ℚ establishes nothing —
+ℚ IS DENSE IN ℝ**, so B1229's "robust core" was not weakly grounded but **empty**; **(2) "no receiver
+for k ⇒ k = 1"** is a default-value inference from absence (adopted law: *absence of a typed receiver
+means quotient-invariance or underdetermination, never a default*); **(3) C-2 resolves to OUTCOME A**
+— B₀ exponents (0,0,0,0), C12 acts by **I₄**, **K-rank 4 not 1** — and my "dim 4 = φ(12)" tell was
+**the exact identification error B1231 names, committed inside the analysis that motivated the
+discipline**. **I-7 sharpened**: Gal(ℚ(ζ₃)/ℚ) is **order 2**, so part of it conflated a ℤ/2 with a
+ℤ/3. **THE POSITIVE**: *a space of representatives is not a space of physical parameters* — at dims
+(3,4,1) an annihilating coupling gives observable spread **0.000** across 2000 splittings vs **4.83**
+generic. **COUNT THE IMAGE, NOT THE SOURCE.** This corrects B1226's typing to **THREE columns**
+(forced structure / observer-supplied values / **representational choices that vanish**) and
+**routes around B1225 without contradicting it** — selection is never needed. Fenced: codex's exact
+connecting-block computation is still running; only the algebra is verified here.
+
 **LATEST (2026-09-01, B1231 — THE IDENTIFICATION DISCIPLINE: the dominant error mode, named,
 instrumented and ratcheted — applied first to this bench's own two failures)**: **the programme
 succeeds when it TYPES and fails when it IDENTIFIES.** B813, **B1223** (the template — *"Direct is
