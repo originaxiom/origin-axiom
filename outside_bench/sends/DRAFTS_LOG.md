@@ -19,42 +19,69 @@ Verbatim record: `outside_bench/sends/Q11_DIMOFTE_READY.txt`.
 
 ---
 
-## IN DRAFTS — composed, recipient researched, **awaiting the owner's send**
+## IN DRAFTS — composed, **awaiting the owner's send**
 
-| item | to | address status | draft id | msg id |
+**Address verified** (checked this session against the person's own institution/department page):
+
+| item | to | draft id | msg id |
+|---|---|---|---|
+| **Q7 — Route A / integral orbits** | **Jack Thorne**, `thorne@dpmms.cam.ac.uk` — Kuwait Professor of Number Theory & Algebra, DPMMS Cambridge | `r667423517285828338` | `1a05b8467c156de0` |
+| **Q1 — SEAM-A Gate 2** | **Jørgen Ellegaard Andersen**, `jea@sdu.dk` — Professor, Head of the Centre for Quantum Mathematics, SDU. **He is the "A" in Andersen–Hansen: the ask goes to its own author.** | `r1656145960915783272` | `1a05b8d197101f18` |
+
+**Address needs YOUR confirmation before sending** — one candidate, not certain:
+
+| item | to | why flagged | draft id | msg id |
 |---|---|---|---|---|
-| **Q7 — Route A / integral orbits** | **Jack Thorne**, `thorne@dpmms.cam.ac.uk` | **VERIFIED** — Kuwait Professor of Number Theory & Algebra, DPMMS Cambridge (`maths.cam.ac.uk`, `dpmms.cam.ac.uk`) | `r667423517285828338` | `1a05b8467c156de0` |
-| **Q3 — the B491 seam form** | **Terry Gannon**, `tjgannon@ualberta.ca` | **CHECK BEFORE SENDING** — two addresses surface, `tjgannon@ualberta.ca` (current) and `tgannon@math.ualberta.ca` (older). Drafted to the first; **confirm on his department page before you send.** | `r-8184297143157010156` | `1a05b84baf477cd5` |
+| **Q3 — the B491 seam form** | **Terry Gannon**, `tjgannon@ualberta.ca` | **two addresses surface** — this one and an older `tgannon@math.ualberta.ca`. Drafted to the current-looking one. **Confirm on his department page.** | `r-8184297143157010156` | `1a05b84baf477cd5` |
 
-**Why these two, and why these people.**
-- **Q7 → Thorne.** Route A's named gap *is* the Bhargava–Gross/Thorne stabilizer-cohomology transfer;
-  he is the literature we could not get past. The draft carries what we closed ourselves — `h(K) = 1`
-  with the Minkowski work explicit, determinant 5 squarefree via Krutelevich Cor 16, the stabilizer
-  **identified** (dim 28 by construction; centroid 1 + Killing rank 28 ⟹ central simple ⟹ **D₄
-  forced**, which also excludes `Res_{L/F}(𝔤₂)`; commutant 12 not 18 ⟹ **simply connected**; the
-  object's own pair regular via its pencil cubic = K's defining polynomial) — and asks **only the
-  fifth hypothesis**: does the orbit count equal the stabilizer's class set. **`B990`'s unfavourable
-  prior is stated in the email, with its reason.**
-- **Q3 → Gannon.** The outreach brief names him primary type-match and calls this exhibit *"the lead
-  exhibit for any first contact"* — fully self-contained and checkable from a laptop in minutes. The
-  draft states the object in native language, gives the exact witness
-  `t(0,4) = −1/48 − (1/80)√5 − (1/48)√−3 + (1/48)√−15`, lists the banked structure (non-locality,
-  finer-than-spectrum, Galois covariance, cover equivariance), and **asks whether it is known** —
-  novelty is the question, not the claim.
+**Recipient field deliberately left EMPTY** — the person is identified in the draft's own opening
+block, but **no address was confirmable from this machine** (public search did not return one and the
+egress proxy blocks the department pages). **I did not guess an address for a real person.** Each
+draft opens with a bracketed block naming the intended recipient and why; **delete that block before
+sending.**
 
-**Fences held in both:** no Standard-Model claim; no physics claim; each says plainly what we do
-**not** assert; each offers the exact working on request. Gate 5 clean — no measured value in either.
+| item | intended recipient (named in the draft) | draft id | msg id |
+|---|---|---|---|
+| **Q8 — Gate B, the `T[4₁;E₆]` crux** | a 3d-3d specialist **other than Dimofte**, who already has Q11 — the brief names **Gukov's group** and the **Gang–Yamazaki / Terashima–Yamazaki** lineage | `r7373359908195091086` | `1a05b8d60d710cba` |
+| **Q2 — J₃(𝕆) Beilinson regulators** | **Alexander Goncharov** (Yale) — polylogarithms, regulators, Arakelov motivic complexes | `r1866070633817661341` | `1a05b8db68ff2aa4` |
+| **Q4 — Cappell–Miller order of vanishing** | **Werner Müller** (Bonn) — his GAFA 2020 and J. Geom. Anal. 2021 papers are exactly the cusped setting | `r7865600470961527096` | `1a05b8dffb97fc33` |
+| **Q5 — complexified hyperbolicity** | the **Cantat–Loray** lineage (IRMAR / Rennes) — both have written on dynamics on character varieties of the once-punctured torus | `r8928946916564439964` | `1a05b8e40f419c51` |
+
+### What each draft carries
+
+Every one is written to memo 140's standard — **tell the specialist what we closed ourselves**, so
+nobody spends an hour on a route we already killed:
+
+- **Q7** — `h(K) = 1` with the Minkowski work explicit; determinant 5 squarefree via Krutelevich Cor
+  16; the stabilizer **identified** (dim 28 by construction; centroid 1 + Killing rank 28 ⟹ central
+  simple ⟹ **D₄ forced**, which also excludes `Res_{L/F}(𝔤₂)`; commutant 12 not 18 ⟹ **simply
+  connected**; the object's own pair regular). Asks **only the fifth hypothesis**. `B990`'s
+  unfavourable prior is stated in the email **with its reason**.
+- **Q1** — Lee's Thm 2 read on-bench, not cited second-hand; **`|a₁| = 1` at all four ideal points**
+  re-derived from our own A-polynomial, so the tangential-base-point torsor is trivial and gives
+  nothing; the CS = 0 contact closed too. Says plainly that Lee's Conj. 7.4.2 is still a conjecture.
+- **Q3** — states the object in native language with the exact witness
+  `t(0,4) = −1/48 − (1/80)√5 − (1/48)√−3 + (1/48)√−15`, then **asks whether it is known**. Novelty is
+  the question, not the claim.
+- **Q8** — reports our own **refutation** of the "three breaking scales" reading relayed to us
+  (`dim H¹ = 6 = rank E₆`, uniform — that spectrum was G₂⊕A₂, not E₆) and two sub-paths we closed
+  negative. Says the fold is forced but **the chain stops at F₄**.
+- **Q2** — states our **negative** result first (216-cell exact grid, 18 targets sealed by hash
+  before the search, extended basis, no hit) and asks **only** the exceptional tier.
+- **Q4** — asks three sharp questions and admits the cusp-correction shape is **our guess, not a
+  derivation**, and that we do not have the analytic machinery in-house.
+- **Q5** — asks only whether the off-axis question is **decidable**, so we know whether to pursue it;
+  Q6 rides along in one sentence as explicitly *not worth your time on its own*.
+
+**Fences held in all seven:** no Standard-Model claim; no physics claim; each states what we do
+**not** assert; each offers the exact working and code on request; each says a negative answer is as
+useful as a positive one. **Gate 5 clean — no measured value in any of them.**
 
 ---
 
-## STILL TO COMPOSE — approved, not yet drafted, each needing a recipient decision
+## NOT DRAFTED
 
-| item | state | recipient question |
-|---|---|---|
-| **Q1** — SEAM-A Gate 2 | current (memo 140 rewrite) | arithmetic-CS (Kim school) vs quantum-topology (Andersen–Hansen lineage) — **two different people, and the ask reads differently to each** |
-| **Q2** — J₃(𝕆) Beilinson regulators | **narrowed** by `THE_GATE_SENDS` addendum 7 — the volume-regulator half is closed by `B1209`/Lee; only Tier B remains. **Status line still needs rewriting from that before it goes.** | a K-theory / Beilinson-regulator specialist; no name in the brief |
-| **Q4** — Cappell–Miller order of vanishing | ready | analytic-torsion / Ruelle-zeta specialist; no name in the brief |
-| **Q5** — B165 complexified hyperbolicity | ready | Cantat–Loray school, named as a school not a person |
-| **Q6** — closed-form k | **rider on Q3/Q5, not a standalone send** (the queue says so) | — |
-| **Q8** | drafted in `THE_GATE_SENDS` | recipient not yet chosen |
-| **Q9** | **withdrawn by this bench** pending a rewrite around the live mechanism | — |
+- **Q6** — a rider on Q3/Q5 by the queue's own design, folded into Q5's closing line. Not a send.
+- **Q9** — **withdrawn by this bench** pending a rewrite around the live mechanism. Sending it as
+  written would put a question to a specialist that our own `B632`/`B1036`/`B1039` work has moved
+  past.
