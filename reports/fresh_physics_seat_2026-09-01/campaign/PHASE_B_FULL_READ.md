@@ -93,3 +93,16 @@ by relay under integrate-don't-merge.
 ## Progress
 
 - 2026-09-01: packets built (`phaseB/MANIFEST.json`); W-A, W-B, W-C launched.
+- 2026-09-01 (evening): all three reader workflows died on the session limit (reset 22:50 UTC) with 39 arc
+  packets, 11/11 log chunks and 2 test packets landed; resumed from cache at 22:58 UTC (script copied to
+  `phaseB/workflow_phaseB_readers.js`, same run ids). `rollup.py` extended with the test lock-type column.
+- W-E executor written (`phaseB/sweeps/sweep_batch.py`): every absence claim the readers extracted is swept over
+  all 7 remote heads and the ever-deleted-file corpus (15 materialised files). First full pass (425 claims): 341
+  LEAD / 15 GENERIC / 50 NO_HIT / 19 UNSWEEPABLE — the LEAD rate was an artefact of `CHANGELOG.md` and the
+  progress logs echoing every claim (239 of 341 leads had CHANGELOG.md in their top paths). Second pass
+  separates those catch-all files into a DOC_ECHO status and stores the full substantive hit list
+  (`absence_sweep_paths.json`); verdicts are written by the seat on the substantive LEADs only.
+- Reader flags turned into recompute cells the same evening: R31 (B208, MATCH), R32 (B213, MATCH with four
+  corrections and one provenance finding), R33 (eight trace-field/commensurability rows, all MATCH; bronze
+  degree 8 resolves B840; m003/m004 common double cover), R34 (B252 E6 27/78, MATCH). See
+  `recompute/R3_REPORT.md` dated closures.

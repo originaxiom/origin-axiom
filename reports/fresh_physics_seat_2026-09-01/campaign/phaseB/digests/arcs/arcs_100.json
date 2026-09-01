@@ -1,0 +1,580 @@
+{
+ "batch": "arcs_100",
+ "arcs": [
+  {
+   "arc": "B979_L131_A7",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE; claim: L131 -- IS A7 DISCHARGE-ABLE? NO: A7 is load-bearing; the answer was already banked in section 5 of the same document (UNIQUENESS_THEOREM.md) B949 was reading when it registered the lead. Positive content: A7 isolates to one binary choice where phi (vs -phi or phi^2) enters.",
+   "log_says": "B979 -- L131: A7 is load-bearing (and section 5 of the same document already said so); fourth instance that day of declaring open what is banked.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "LR/RL SL(2,Z)-conjugate via P=[[0,1],[1,0]]; three sector Mobius fixed-point polynomials distinct; golden roots phi, -1/phi", "where": "results.json verified_here block", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "results.json states booleans (LR_RL_conjugate_by_P: true etc.) but no script/code file is included in this arc's file set to reproduce the computation; only the assertions are committed."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; no committed script for this arc; results.json gives only boolean outcomes, not raw computation.",
+   "absence_claims": [
+    {"quote": "the fourth time today this seat declared open or absent something already banked", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "results.json asserts computed booleans (three_polys_distinct, LR_RL_conjugate_by_P, golden_poly_roots) with no accompanying script in the arc directory to reproduce them.", "where": "B979/results.json"}
+   ],
+   "seat_note": "Pure Teichmuller/arithmetic bookkeeping about an axiom's discharge-ability; no measurable prediction. The self-correcting culture (open-and-shut readings, naming its own prior errors) is a genuine positive, but the load-bearing polynomial computation is asserted in results.json without a committed script."
+  },
+  {
+   "arc": "B980_k3_conflation",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED (as auditor, verdict label corrected from initial RETRACTED per B818's rule); claim: the chain 'k=3 -> G*Lambda=2pi -> Planck-scale Lambda -> 122 orders from observation' is WITHDRAWN as a statement about this object, on dimensional grounds (G*Lambda dimensionless only in d=4) and provenance grounds (k=3 comes from the anyon/Jones thread, not gravity); the object's real gravitational quantity is B250's complex volume Vol(4_1)=6*Lobachevsky(pi/3), CS=0 exactly by amphichirality.",
+   "log_says": "the k=3 -> GLambda=2pi chain rests on two stacked conflations (a NEGATIVE retracted); B259 wall #5's QGAP justification withdrawn, walls 1-4 and Einstein theorem stand.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "[G_d]=L^(d-2) dimensional analysis; G*Lambda dimensionless only in d=4", "where": "results.json cell1_dimensions", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "simple dimensional-analysis arithmetic, verifiable by hand from the stated Einstein-Hilbert action; values given exactly (integers)."},
+    {"what": "Vol(4_1) = 6*Lobachevsky(pi/3) = 2.0298832128193072500424051081... matching known value to 28 digits", "where": "results.json cell3_complex_volume", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited as matching a known literature value and as computed 'here', but no script is included in this arc directory; the underlying computation is attributed to B250, an earlier arc not included in this packet."},
+    {"what": "6pi/3 = 2pi exactly", "where": "results.json cell2_chain", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "trivial arithmetic identity, self-verifying."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is itself an auditor re-reading B259's chain and correcting its own first-draft error (compact SU(2) vs noncompact) before commit -- a genuine self-correction, but no independent numerical script is committed in this directory; the complex-volume figure is imported from B250.",
+   "absence_claims": [
+    {"quote": "The '122 orders from observation' is not a failure of the object. The object never made that prediction.", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "Arc notes 'This seat quoted GLambda=2pi to the owner as a live result earlier today' before retracting it -- an example of a claim reaching a human before verification; the arc itself performs the correction, which is the intended remedy, but flags how easily an unverified number propagates.", "where": "B980/FINDINGS.md"}
+   ],
+   "seat_note": "A genuine, well-reasoned retraction of a Planck-scale/cosmological-constant claim (122-orders-of-magnitude problem) that the repo now correctly disclaims as never having been the object's own prediction; the dimensional argument is checkable by hand, but the complex-volume figure is imported rather than freshly computed in this arc's own files."
+  },
+  {
+   "arc": "B981_two_ended_correction",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED (verdict label corrected from initial RETRACTED); claim: the object is NOT hyperbolic-only -- a prior claim that 'the object's Einstein solution has Lambda=-1<0, sign wrong vs observed dark energy' is withdrawn as a category error (H^3 Riemannian vs AdS Lorentzian, no canonical Wick rotation) and because B248 proves a cone-angle family spanning hyperbolic/Euclidean/spherical curvature. No solution to the cosmological-constant problem is claimed; the sign-transition surface is registered but explicitly firewalled as a hook, not a result.",
+   "log_says": "the object is hyperbolic is a half-face reading (a false no-go, withdrawn); fifth instance that day of declaring absent what the repo held, and a dismissal (the more dangerous kind).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "cone-angle sweep giving hyperbolic/Euclidean/spherical curvature ends at alpha=0, 2pi/3, pi", "where": "FINDINGS.md table citing B248", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited from B248, an earlier arc not in this packet; not recomputed here."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is a correction/withdrawal of an in-session (never-tracked-file) claim, verified by grepping that the wrong claim never entered a tracked file; the positive content (cone-angle family) is imported from B248/B250/B261/B253/B249, not recomputed.",
+   "absence_claims": [
+    {"quote": "there is still no solution to the cosmological-constant problem here: no derivation of Lambda's value (the cone angle alpha is a free parameter -- B962's homogeneity lesson again)", "where": "FINDINGS.md"},
+    {"quote": "It reached the owner but never entered a tracked file -- verified by grep before writing this.", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "explicitly names and firewalls a 'hook' (universe sits just past the Euclidean transition on the positive side) with no preregistration or two-outcome criterion, flagging its own numerology risk -- good discipline, worth noting as a place a future overclaim could occur.", "where": "B981/FINDINGS.md"}
+   ],
+   "seat_note": "A correct and disciplined retraction of a category error (Riemannian vs Lorentzian, canonical Wick rotation), but the positive content leans entirely on imported results (B248/B250) not re-verified in this arc; still no cosmological-constant value is derived."
+  },
+  {
+   "arc": "B982_file_drawer_exemption_defect",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: the file-drawer lock's exemption list in tests/test_b837_file_drawer.py is partly unearned -- 7 of 12 exempted preregs cited an audit (B837) that names only 5; 3 of those 7 rest on a numbering collision with a parallel seat's differently-named arcs sharing the same B501-B503 numbers. Dispositions given per arc (B501/B502 genuine file-drawer; B503 owner-gated, correctly unfired; B506 reported by B507 not B837; B473/B565/B570 unverified debt).",
+   "log_says": "a gate is only as good as the provenance of its exemptions; the file-drawer lock exempted twelve sealed preregs as audited in B837, which names five of them; three of the seven unsupported exemptions rest on a numbering collision.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "12 exempted preregs vs 5 actually named in B837 FINDINGS; numbering collision B501-B503 between main and audit seat", "where": "results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "a grep-verifiable claim over committed FINDINGS.md and test file content; results.json lists the exact exempted, named, and not-named sets."}
+   ],
+   "belt": "NONE",
+   "belt_note": "Governance/text-provenance check, not a numeric computation; no verification/ directory needed for this kind of claim, and the content (grep-checkable citations) is inherently reproducible by re-reading the cited files.",
+   "absence_claims": [
+    {"quote": "An exemption whose justification cannot be grepped is a silent hole", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "the root defect is arcs from two different seats sharing the same numeric ID (B501-B503) being conflated by a citation that matched on number alone rather than full arc name -- a textbook type/ID coincidence used as evidence.", "where": "B982/FINDINGS.md, citing B521"}
+   ],
+   "seat_note": "Pure repository governance; no physics content. Valuable as a case study of the corpus's own self-correction machinery finding a genuine gate defect (citation provenance never verified)."
+  },
+  {
+   "arc": "B983_grounding",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true; claim: builds three governance artefacts (COMPUTE_THE_PROGRAM.md defining the quantifier discipline, THE_LADDER.md with 30 negatives-as-rungs graded BLIND/HOLE/BROKEN/BOUNDED/OPEN, WORKING_RULES.md section 0) in response to five same-day instances of declaring open/absent what the repo already held.",
+   "log_says": "the grounding: COMPUTE_THE_PROGRAM.md defines the term; THE_LADDER.md maps the negatives as 32 graded rungs; WORKING_RULES.md section 0 binds both.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [],
+   "belt": "NONE",
+   "belt_note": "Governance/instrument-building arc; nothing to recompute. Its own text calls its ladder grades 'a snapshot, not a theorem' and explicitly warns that BLIND grades are under-counted (cc3's 49% recall control).",
+   "absence_claims": [
+    {"quote": "if X is not there, X has not been checked, and the honest sentence is 'not checked' -- not 'absent'.", "where": "FINDINGS.md"},
+    {"quote": "A rung graded BLIND may yet have an arc nobody found -- which is exactly why the grade means 'not checked' and never 'absent.'", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "log entry says THE_LADDER.md maps '32 graded rungs' while this arc's own FINDINGS.md and arc_verdict.json say '30 rungs' -- a numeric discrepancy between the log summary and the banked arc text (later log entries in other arcs, e.g. B988/B989, also reference '30'/'32' inconsistently, suggesting the count changed after B983 but the log line for B983 itself does not match B983's own file).", "where": "PROGRESS_LOG.md vs B983/FINDINGS.md"}
+   ],
+   "seat_note": "This is the corpus's meta-governance instrument, not a physics result -- it exists entirely to prevent the seat from re-declaring banked results as absent, and explicitly states it 'proves nothing about the object.'"
+  },
+  {
+   "arc": "B984_banking_protocol",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true; claim: builds BANKING_PROTOCOL.md (4 parts) and doc-currency (gate 25/25), which found real staleness on first run (TOOLBOX.md 613 arcs behind, CLAIMS.md 129, THEOREM_LEDGER.md 63, GUT_REQUIREMENTS_LEDGER.md 31); applies P3 to the owner's named chain finding X31 Markov blanket (0 arcs, conflation hazard with 'Markov triples') and X32 feedback mechanism (2 arcs, effectively unbuilt) as ladder rungs.",
+   "log_says": "the banking protocol + doc-currency, the first gate that checks SURFACES not arcs; ROADMAP_TOE.md wrong for a month, THE_SM_VERDICT.md shipped missing eleven of twelve cascade arcs.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "doc-currency lag counts: TOOLBOX.md B370 (613 behind), CLAIMS.md B854 (129), THEOREM_LEDGER.md B920 (63), GUT_REQUIREMENTS_LEDGER.md B952 (31)", "where": "FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "a committed script (doc-currency gate) mechanically computes newest-citation lag against the newest arc; explicitly described as a first-run mechanical output."}
+   ],
+   "belt": "NONE",
+   "belt_note": "Governance instrument; the arc itself says the currency measure is 'deliberately crude' -- a prompt to read, not a proof of staleness.",
+   "absence_claims": [
+    {"quote": "X31 -- MARKOV BLANKET: 0 arcs, in no document.", "where": "FINDINGS.md"},
+    {"quote": "X32 -- FEEDBACK MECHANISM: 2 arcs, named by the owner as very important, effectively unbuilt.", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Later log entry (B989/Review 41) shows the Markov-blanket coverage count self-inflated from 0 to 2 purely because B984/B988 (the arcs recording the absence) were then themselves grep-matched as 'Markov' hits -- 'registering a gap creates hits for the gap' -- a measurement-instrument self-reference bug flagged and annotated, not fully fixed at the source.", "where": "B989/FINDINGS.md, downstream of B984"}
+   ],
+   "seat_note": "Repository governance instrument with no physics content of its own; documents genuine, mechanically-verified document staleness (TOOLBOX.md 613 arcs behind) as a real defect."
+  },
+  {
+   "arc": "B985_cc3_relational_integration",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: verifies and integrates cc3's finding that the corpus's instruments recover object-named faces well (79-100%) but relation-named faces poorly (6-19%); falsifies L73's closure (m003, m004's sister, has H1 torsion 5, not trivial, refuting a claim that abelian invisibility is a property of 'the object'); torsion table verified 6/6 exact via SnapPy; base rate reproduced (63.2%/48.5% vs cc3's 60.8%/47.8%) on a 30,000-manifold sample; three taxonomy rulings made (character-variety admitted as twelfth face, observer as axis not face, physics-door as boundary label not face).",
+   "log_says": "cc3's relational batch verified and integrated; our instruments hold objects and relations fall through them; verified 6/6 here -- m003 has torsion 5, falsifying L73.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "torsion table: m004 H1=Z torsion 1; m003/m206 torsion 5; m136 torsion 4; m129 excluded (2 cusps); m135 torsion 8, all via snappy 3.3.2 homology read directly", "where": "FINDINGS.md torsion table", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as computed 'on this bench' with a named tool version (SnapPy 3.3.2) but no script file is included among this arc's committed files -- FINDINGS.md and arc_verdict.json only, no results.json or .py witness."},
+    {"what": "base-rate 63.2%/48.5% on a 30,000-manifold volume-ordered sample of trivial torsion", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "no script committed in this arc's directory to reproduce the 30,000-manifold census sweep; numbers are stated as reproduced but the reproducing code is absent from the packet."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This is itself a verification arc re-deriving cc3's numbers before acting on them ('integrate-don't-merge'), but the arc's own committed files (FINDINGS.md, arc_verdict.json only) contain no script -- the computation is asserted, not witnessed in this directory.",
+   "absence_claims": [
+    {"quote": "the eleven faces describe what the object is NOT", "where": "FINDINGS.md"},
+    {"quote": "an agent marked L63 REOPEN by quoting B578's 'L63 stays OPEN' while missing B666, which constructs the demanded map 36/36 exact", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the torsion table and 30,000-manifold base-rate sweep are described as computed on this bench but no script or raw output file (results.json, .py, .txt) is present in this arc's own directory among the files provided.", "where": "B985 directory (only FINDINGS.md + arc_verdict.json committed)"}
+   ],
+   "seat_note": "A genuine and important falsification (L73's torsion-invisibility claim dies on its own sister manifold m003), but the numeric witnesses for both the torsion table and the 30,000-manifold base rate are not committed alongside this arc's FINDINGS -- a stranger cannot reproduce the numbers from this directory alone."
+  },
+  {
+   "arc": "B986_b500_stragglers",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "fp_reopen.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE (method); claim: attempted mod-p reopen of B500's 35 unchecked depth-5 words; computed eliminants at degree 6450-7896 (real instrument gain) but the decisive root-existence test is vacuous (its own control shows ~70% of random polynomials pass at these degrees, so 'all 9 have a root' carries zero information). L145a stays OPEN.",
+   "log_says": "the B500 reopen attempted; my own method killed by its own control -- the mod-p route does compute the eliminants but the decisive test is vacuous.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "9/35 stragglers give eliminant degrees 6450-7896 with a root in F_p^4 at both inert primes (5, 19); 26 degenerate; control: 28/40, 29/40, 33/40 random polynomials pass the same test", "where": "fp_reopen.py, run via 'sage-python fp_reopen.py 2'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "a full committed sage script (fp_reopen.py) implements the eliminant computation and the has_root_in_Fp4 test; the FINDINGS.md gives the exact reproduce command."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "fp_reopen.py is a committed, runnable script; the arc immediately ran its own MB12 control (random-polynomial pass rate) against its own instrument and killed the method inside the same file -- exemplary self-control discipline.",
+   "absence_claims": [
+    {"quote": "L145a stays OPEN, now with a sharper statement of what closing it requires", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A model negative result: a real computational gain (eliminants at previously-overflowing degrees) reported honestly alongside the discovery that the decisive test built on it has no statistical power -- fully reproducible from the committed fp_reopen.py script."
+  },
+  {
+   "arc": "B987_X8_higgs_doublet",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: X8 ('where does the Higgs doublet come from') is not a hole -- B884 already computed it (the so(10)-vector 10 subset of 27 carries two (1,2) doublets plus two colour triplets, verified by dimension count 1+10+16=27); no tension with B978 (which scopes only the adjoint, matter mass comes from the cubic 27^3 containing 16.16.10); doublet-triplet splitting is BOUNDED as an external input (B298/B299).",
+   "log_says": "X8, the top rung, dissolves; the doublet is the 10 subset of 27 (B884); no tension with B978; residue = doublet-triplet splitting, bounded as external.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "27 -> [1 | 3,3,2,2 | 6,3,3,2,1,1] grading; dimension check 1+10+16=27", "where": "FINDINGS.md, citing B884", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "the underlying enhancement-point grading computation is attributed to B884, an earlier arc not included in this packet; this arc verifies only the arithmetic sum 1+10+16=27, which is trivial."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This is a synthesis/reading arc (P3 grep-the-claim protocol) rather than a fresh computation; its load-bearing content is imported wholesale from B884 and B978.",
+   "absence_claims": [
+    {"quote": "The cascade is an adjoint Higgs mechanism (B964); ... No arc addresses where the doublet comes from. -- The last sentence is false.", "where": "FINDINGS.md, quoting a prior over-broad claim"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "This resolves an apparent gap by synthesis of two already-banked arcs rather than new computation; a genuinely useful catch of a false absence claim, but its physics content (Higgs doublet embedding) rests entirely on B884's algebra, imported not re-verified here."
+  },
+  {
+   "arc": "B988_review_currency",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true; claim: adds Step 7 (four parts) to the decadal review protocol requiring room-by-room document-currency certification, so a review cannot pass silently over a stale surface; names X31 Markov blanket and X32 feedback mechanism as ladder rungs from applying the named-chain check.",
+   "log_says": "the decadal review now certifies document currency, room by room; the review protocol had six steps and every one checked arcs or gates.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [],
+   "belt": "NONE",
+   "belt_note": "Pure protocol/governance document; nothing computational to verify.",
+   "absence_claims": [
+    {"quote": "ROADMAP_TOE.md stated the position as 'the kinematic/symmetry frame is forced arithmetic' for a month after B862/B863/B864 made that false", "where": "FINDINGS.md"},
+    {"quote": "THE_SM_VERDICT.md shipped omitting eleven of twelve cascade-closure arcs and contradicting two banked results (Z6 and hypercharge)", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Governance-only arc documenting that a wrong roadmap survived a month of prior reviews -- a genuinely useful process fix but zero physics content of its own."
+  },
+  {
+   "arc": "B989_false_freeze",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true; claim: docs/PRACTICES.md was falsely reported as 'frozen' by the doc-currency gate because its own text documenting the freeze marker matched the marker regex; fixed by tightening detection to line-initial; names 'mention-vs-use' as a general failure mode of text-matching gates, found twice in one day in two independent gates.",
+   "log_says": "the document that explained the opt-out had opted itself out; docs/PRACTICES.md reported as frozen; it was not.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "regex fix from matching anywhere to line-initial (^\\s*<!--)", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "a one-line, concretely stated regex fix; trivially verifiable by inspecting the gate script."}
+   ],
+   "belt": "NONE",
+   "belt_note": "One-line governance bugfix; nature of the fix makes a dedicated belt unnecessary.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [{"kind": "OTHER", "detail": "arc explicitly documents a second self-inflating measurement bug at the data layer (Markov-blanket coverage count rising from 0 to 2 purely because the arcs recording the gap were grep-matched) -- 'registering a gap creates hits for the gap', flagged rather than fixed at the root.", "where": "B989/FINDINGS.md"}],
+   "seat_note": "A well-diagnosed governance-tooling bug (mention-vs-use conflation in text-matching gates); no physics content."
+  },
+  {
+   "arc": "B990_X10_orbit_scope",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: the 'canonical orbit is not a canonical VEV' gap is structural, not evidential -- an orbit invariant is by definition constant on its orbit and so cannot pick a canonical point within it; exactly two routes exist (shrink the group Q->Z, or add non-G-invariant structure); the concrete next computation (counting G(Z)-orbits inside the G(Q)-orbit) is proposed with an explicitly UNFAVOURABLE stated prior. X10 rung stays OPEN, sharpened not closed.",
+   "log_says": "X10: the orbit-to-point gap is structural, not evidential; L138 fired (the object's canonical pair returns K, 3/3), and its limit is now explained rather than caveated.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [],
+   "belt": "NONE",
+   "belt_note": "Purely conceptual/structural theorem argument (orbit invariants cannot distinguish points within an orbit) -- no numeric computation performed here; the arc proposes a future computation rather than executing one.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean structural theorem (class functions cannot select representatives) with an honestly-stated unfavourable prior for the proposed next step; no VEV direction is derived, so the X10 rung genuinely remains open as claimed."
+  },
+  {
+   "arc": "B991_X11_normalisation",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; creates_law true (T-Y-NORMALISATION-NOGO, corrected into the registry 2026-08-29, no dedicated lock, covered only incidentally); claim: hypercharge normalisation is not derivable in principle from anomaly-cancellation equations because every condition (SU(3)^2 U(1), SU(2)^2 U(1), U(1)-grav, [U(1)]^3) is homogeneous in q, so the solution set is a cone through the origin, never isolated points -- a property of anomaly cancellation as such, not a limitation of this object; direction Y is separately derivable (B864).",
+   "log_says": "X11 CLOSED: the hypercharge normalisation is not derivable in principle; verified symbolically -- under q -> lambda*q the anomaly conditions scale as lambda^1,1,1,3, all homogeneous, so the solution set is a cone.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "homogeneity degrees of the four anomaly conditions under q->lambda*q: degree 1,1,1,3", "where": "FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary symbolic algebra (each condition is a homogeneous polynomial in the charge q of the stated degree), verifiable by hand from the stated formulas Sum q_i T_i, Sum q_i W_i, Sum d_i q_i, Sum d_i q_i^3."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The homogeneity fact was previously cited (B951) rather than computed; this arc computes it symbolically -- a short, hand-verifiable derivation, no script needed or given.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NO_TEST", "detail": "the creates_law re-audit (B1214, 2026-08-29) notes this law has 'NO DEDICATED LOCK (covered incidentally by tests/test_b1028_freedom_ledger.py)' -- a load-bearing law promoted to the theorem registry with no dedicated test.", "where": "B991/arc_verdict.json, creates_law_corrected block"}
+   ],
+   "seat_note": "A clean, general, hand-verifiable no-go theorem (hypercharge normalisation cannot be derived from anomaly cancellation alone, for any theory) -- honestly scoped as a statement about the equations rather than the object, but promoted to a formal law without its own dedicated lock."
+  },
+  {
+   "arc": "B992_X12_u1_triple",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: X12 settled -- computed dim(centralizer of su(3)+su(2) in e6) = 9, dim(Cartan) = 6, dim(centralizer INTERSECT Cartan) = 9+6-12 = 3, which equals the Levi's centre; span(Y, chi, psi) equals that 3-dimensional intersection, discharging B953's flagged inference. First (naive) attempt using the full 9-dim centralizer failed and is recorded as informative.",
+   "log_says": "X12 SETTLED: the second measurement's u(1)^3 is span(Y, chi, psi); B953 had flagged its own gap as inferred, not established.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "dim Levi=14, dim derived su(3)+su(2)=11, dim centralizer z_e6(su(3)+su(2))=9, levi_centre_dim (from selftest)=3", "where": "results.json", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "results.json states these dimension counts as computed 'on the B961 frame' but no script (.py) is committed in this arc's own directory to reproduce the Lie-algebra computation; it references an internal function 'a2_a1_levi' and a 'selftest' not included here."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory or script present among this arc's three committed files (FINDINGS.md, arc_verdict.json, results.json); the Lie-algebra dimension counts are asserted, not witnessed by code in this packet.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the e6 Cartan/Levi/centralizer dimension computation is reported with specific numbers (9, 6, 3, 14, 11) but no committed script is present in this arc's directory to reproduce it; results.json references an unincluded function 'a2_a1_levi' and 'selftest'.", "where": "B992/results.json"}
+   ],
+   "seat_note": "A clean and well-structured algebra result (identification of the u(1)^3 generators with a specific Cartan intersection) with an instructive negative-first-attempt recorded, but the numeric Lie-algebra dimension counts are not accompanied by a reproducible script in this arc's own files."
+  },
+  {
+   "arc": "B993_cornerstone_verified",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: verifies cc3's finding that the pi_1(m004) -> 2T surjection-count atom is generic (not object-specific) -- reproduced exactly 2 surjections for m004 (matching B266); base rate 37.2%/32.8% on 400 census manifolds (vs cc3's 36.2%/31.0%); Reid-uniqueness is load-bearing at zero steps; object-specificity, if it exists, lives at the group level (Gamma itself) not the field level; three corrections to the seat's own documents (exotics count is 11 not 12; B978-vs-cubic was never a real tension; rule-variation axis was never asked before B994).",
+   "log_says": "the cornerstone verified, and it has no object under it; cc3's cornerstone synthesis returned NOT YET, and the load-bearing number was re-derived here before acceptance.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "48 raw surjective homomorphisms pi_1(m004)->2T / |Aut(2T)|=24 = exactly 2, matching B266", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "described as computed via 'brute-force enumeration over generator images with relator checks and a subgroup-generation test' but no script file is among this arc's two committed files (FINDINGS.md, arc_verdict.json)."},
+    {"what": "base rate 37.2%/32.8% over first 400 one-cusped census manifolds by volume", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "same as above -- no script or results.json committed in this directory to reproduce the census sweep."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This is a verification/integration arc ('integrate-don't-merge') explicitly re-deriving cc3's numbers before acceptance, but no script is committed alongside FINDINGS.md/arc_verdict.json in this directory to let a stranger reproduce either the surjection count or the 400-manifold base rate.",
+   "absence_claims": [
+    {"quote": "\"Never addressed\" is false for the exotics -- B951, B962 and B970 addressed them.", "where": "FINDINGS.md"},
+    {"quote": "The rule-variation axis was NEVER ASKED.", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "both the surjection reproduction (48/24=2) and the 400-manifold base-rate computation are described in detail with exact percentages but no script or raw-output file is present among this arc's committed files.", "where": "B993 directory (FINDINGS.md + arc_verdict.json only)"}
+   ],
+   "seat_note": "An important negative-for-object-specificity result (the atom carrying the whole E6 chain occurs in roughly 1 in 3 hyperbolic 3-manifolds, so it is a property of the commensurability class not of m004 specifically), correctly scoped, but neither of its two headline computations is accompanied by a committed, reproducible script in this arc's own directory."
+  },
+  {
+   "arc": "B994_rule_variation",
+   "source": "main",
+   "files_read": ["ADDENDUM_2026-09-01.md", "ADDENDUM_2026-09-01_witness_chain_and_provenance.md", "FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: registerable options per step are [3,2,1]; enumerating every registerable-respecting selection function over B861's menus gives six chains, all ending at the SM; the assumed half of B861's rule ('maximal residual symmetry') does not do the landing -- registerability (derived) does. The endpoint is forced by chirality, which the object provably does not supply (B713/B760 negatives); so 'given E6 and given chirality, six paths land on the SM' -- two named external inputs. Grade: REPRODUCED not DERIVED, Tier 1.",
+   "log_says": "the rule-variation test, never asked before, comes back favourable; registerable options [3,2,1]; six chains, all six ending at the SM.",
+   "log_consistency": "CONSISTENT (as of the original 2026-08-09 banking; superseded in part by two same-day-batch 2026-09-01 addenda not yet reflected in the log)",
+   "load_bearing": [
+    {"what": "six reachable chains, all ending at SM, including the exhibited 'SU(3)^3 -> Pati-Salam -> SM' and 'SU(3)^3 -> SU(5)xU(1) -> SM' chains", "where": "FINDINGS.md, results.json all_reachable_chains", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the endpoint claim (registerable-per-step [3,2,1], 6 chains all ending SM) is confirmed reproducible from B861's committed results.json by the 2026-09-01 addendum's own recompute script (recompute_r27.py); but the addendum also shows two of the six listed chains are group-theoretically IMPOSSIBLE as printed (su(4) cannot inject into su(3)^3; su(5) cannot inject into su(3)^3) -- a 'positional menu application' artefact, not a real subgroup chain."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Two 2026-09-01 addenda (from a fresh physics seat, per this task's own campaign) recompute the endpoint claim from B861's committed results.json (confirms it) and independently verify by Lie-algebra rank argument that the printed 'SU(3)^3 -> Pati-Salam -> SM' and 'SU(3)^3 -> SU(5)xU(1) -> SM' witness chains are not real subgroup chains -- a genuine defect in the exhibited witness, corrected in the addendum but NOT in FINDINGS.md or arc_verdict.json's claim_one_line/results.json, which still list all six chains including the two void ones as if valid.",
+   "absence_claims": [
+    {"quote": "no menu for parents SU(6)xSU(2), SU(3)^3 or Pati-Salam exists in any committed file", "where": "ADDENDUM_2026-09-01_witness_chain_and_provenance.md section 2/3, later corrected in section 5 of the same addendum after a repo sweep found a committed generator (B869) that had simply never been run for these parents"},
+    {"quote": "No generating script for this arc's results.json exists anywhere in the repo", "where": "ADDENDUM_2026-09-01_witness_chain_and_provenance.md section 3 (P3), stands after the sweep"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "the arc's own FINDINGS.md, arc_verdict.json claim_one_line, and results.json's all_reachable_chains list all six chains -- including 'SU(3)^3 -> Pati-Salam -> SM' and 'SU(3)^3 -> SU(5)xU(1) -> SM' -- as valid reachable chains, but a same-day addendum proves both are group-theoretically void (su(4), dim 15, and su(5), dim 24, being simple cannot inject into the non-simple su(3)^3). The addendum stands beside, not inside, the banked FINDINGS/results.json, so a reader of only FINDINGS.md or results.json still sees the uncorrected six-chain claim.", "where": "B994/results.json all_reachable_chains vs ADDENDUM_2026-09-01_witness_chain_and_provenance.md section 2"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "the original error is described by the addendum as 'positional menu application' -- a step-k menu keyed only by position, applied to whichever parent occupies that slot, regardless of whether that parent's group actually admits the cited subgroup.", "where": "B994/ADDENDUM section 2"}
+   ],
+   "seat_note": "A physically important claim (E6->SO(10)->SU(5)->SM endpoint is robust to the choice of ranking rule, given chirality as an external input) whose headline (all-six-chains-reach-SM) survives independent recomputation, but two of the six explicitly displayed witness chains in the still-live FINDINGS.md/results.json are group-theoretically impossible as stated -- caught by a same-day addendum that has not propagated into the primary banked files."
+  },
+  {
+   "arc": "B995_separating_and_rare",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "census.py", "results.json", "separation.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE (instrument voided); claim: sealed prereg (pushed before compute) declared prior OUTCOME B; sealed run returned OUTCOME A (alex_coeffs and cover3_torsions both separate m004 from B855's five family members and are rare, 0.10% and 4.40%); but an unplanned post-hoc control shows the conjunction is ill-posed -- rarity mathematically implies near-automatic separation against a 5-element set (P~99.5%/79.9% by chance), and the rarity measure asked the wrong question (19.3%/17.6% of the population is unique in these invariants at all). Both stand; the instrument is adjudicated non-discriminating; the Tier-2 question remains untouched, not answered.",
+   "log_says": "the census ran as sealed, returned A, and its own control voided the instrument.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "8 invariants computed for m004 and 5 family members via SnapPy (h1_torsion, alex_coeffs, isom_order, systole, cover2/3_torsions); base rate over first 1000 one-cusped census manifolds", "where": "census.py, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "a complete, committed, runnable script (census.py, 'sage-python census.py') with a stated pre-registration hash (a356e987...) pushed before compute; results.json gives every raw value per manifold."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "census.py is a fully committed, runnable script implementing the sealed protocol exactly as pre-registered; the arc's own post-hoc control (rarity-implies-separation, uniqueness-fraction) is computed and recorded in results.json's control_post_hoc block.",
+   "absence_claims": [
+    {"quote": "NOT established: that no separating-and-rare invariant exists. The instrument failed; the question is untouched.", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "An exemplary pre-registered-and-sealed negative result: the seal was honored (outcome A reported even against the declared prior), and the instrument's own statistical flaw (rarity implies separation against a small comparison set) was caught and reported rather than concealed, with a fully committed reproducible script."
+  },
+  {
+   "arc": "B996_grammar_control",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE; creates_law true (T-MCKAY-ACCESS-GENERIC, corrected into registry 2026-08-29, no dedicated lock); claim: |SL(2,Z/N)| for N=2..9 is 6,24,48,120,144,336,384,648; N=3 is the only modulus where SL(2,Z/N) is the McKay group 2T; metallic shadows mod 3 for m=1..7 give order 24 (=2T) for all m not divisible by 3 -- 5 of 7 metallic words reach 2T, so access to E6 is generic across the metallic grammar family, not specific to the golden (m=1). L105's own-conductor formulation is a different, un-refuted statement.",
+   "log_says": "the E6 arrival is generic across grammars too; access to E6 shared by two thirds of the grammars; L105's own-conductor claim is a different statement and not refuted.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "|SL(2,Z/N)| for N=2..9: 6,24,48,120,144,336,384,648; metallic shadow mod 3 for m=1..7: order 24 for m not div by 3, order 1 for m div by 3", "where": "FINDINGS.md tables", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "these group-order computations are elementary and in-principle hand-checkable (|SL(2,Z/N)| has a standard formula), but no script is included among this arc's two committed files to show the specific 'shadow subgroup generated by R^m and L^m' computation."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory or script present among the two committed files (FINDINGS.md, arc_verdict.json); the group-theoretic computation is stated as done but not witnessed by committed code.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the metallic-shadow-mod-3 subgroup order computation is reported precisely (24 for 5 of 7 words) but no script is present in this arc's own directory.", "where": "B996 directory (FINDINGS.md + arc_verdict.json only)"},
+    {"kind": "NO_TEST", "detail": "creates_law re-audit notes 'NO DEDICATED LOCK (covered incidentally by tests/test_b1009_verification.py)' for this promoted law.", "where": "B996/arc_verdict.json creates_law_corrected"}
+   ],
+   "seat_note": "An important negative control (undermines the claim that reaching E6/McKay group is specific to the golden grammar; it is generic to 5 of 7 metallic words at this fixed modulus) but the group-order computation has no committed script in this arc's directory."
+  },
+  {
+   "arc": "B997_golden_conductor_uniqueness",
+   "source": "main",
+   "files_read": ["ADDENDUM_2026-08-31_N4_is_an_order_coincidence.md", "FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; creates_law true (T-GOLDEN-CONDUCTOR-UNIQUE, corrected into registry 2026-08-29, no dedicated lock); claim: proves (via |SL(2,Z/N)| >= (6/pi^2)N^3 > 120 for N>=6) that |SL(2,Z/N)| is a McKay-group order for exactly N in {3,4,5}, and that the metallic conductor m^2+4 meets a McKay order at exactly one m (m=1, the golden, giving m^2+4=5=2I). Original claim_one_line also asserted N=3,4,5 correspond to the full exceptional McKay series 2T/2O/2I i.e. E6/E7/E8 'and nothing else' -- this last part is WRONG per the same-batch addendum.",
+   "log_says": "the golden is the unique metallic grammar whose own-conductor shadow group IS a McKay group; supplies the uniqueness B666 asserted but did not compute.",
+   "log_consistency": "CONSISTENT for the surviving core claim (uniqueness at m=1); DRIFT for the E7/N=4 clause, which the log (and un-updated arc_verdict.json claim_one_line) still implicitly carries but which is now known false",
+   "load_bearing": [
+    {"what": "|SL(2,Z/N)| >= (6/pi^2)N^3 > 120 for N>=6, proving completeness of {3,4,5}", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "a short, exact number-theoretic bound derivable by hand from the standard |SL(2,Z/N)| product formula and the zeta(2) Euler product; no script needed, self-verifying arithmetic."},
+    {"what": "SL(2,Z/4) has order 48, 7 involutions, 0 elements of order 8 -- therefore SL(2,Z/4) is NOT isomorphic to 2O (which has 1 involution, 12 elements of order 8)", "where": "ADDENDUM_2026-08-31_N4_is_an_order_coincidence.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the addendum states this was 'recomputed here by direct construction' with a results file 'reports/.../embedding_check.txt' referenced but not included among this arc's own three committed files."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The 2026-08-31 addendum is itself a re-verification that catches the arc's own N=4/E7 order-coincidence error using an existing instrument (B1019's involution-count discriminator, applied here for the first time to N=4); it explicitly states the arc's claim_one_line still contains the uncorrected E7 flourish.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's claim_one_line still reads '|SL(2,Z/N)| is a McKay-group order for EXACTLY N in {3,4,5} -- 24=2T->E6, 48=2O->E7, 120=2I->E8 ... the whole exceptional series and nothing else', which the addendum explicitly refutes (SL(2,Z/4) is order 48 but is NOT isomorphic to 2O -- it has 7 involutions vs 2O's 1, and 0 elements of order 8 vs 2O's 12). The addendum's own header says 'Not an edit' and the claim_one_line in the primary banked verdict file is unchanged.", "where": "B997/arc_verdict.json claim_one_line vs ADDENDUM_2026-08-31_N4_is_an_order_coincidence.md"},
+    {"kind": "NO_TEST", "detail": "creates_law re-audit notes 'NO DEDICATED LOCK (covered incidentally by tests/test_b1028_freedom_ledger.py)'.", "where": "B997/arc_verdict.json creates_law_corrected"}
+   ],
+   "seat_note": "The surviving core theorem (m=1, golden, is the unique metallic word whose own-conductor shadow reaches a McKay group, landing at 2I/E8) is a clean, hand-checkable arithmetic uniqueness proof; but the still-live arc_verdict.json claim_one_line asserts a false three-way E6/E7/E8 coincidence that a same-corpus addendum has already refuted using the corpus's own instrument, and that correction has not propagated into the primary claim text."
+  },
+  {
+   "arc": "B998_genesis_locks",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true; claim: THEOREM_LEDGER.md cites tests/test_b749_genesis_forks.py as locking forks F3+F7 for the axiom chain C1-C4, but the file actually tests only F4-F7 -- F3 does not exist as a test, and neither does F2 (C3's only real price) or F8 (C4's entire price). So C1, C2, C4 are effectively unlocked in-repo (though C1/C2 are classical theorems whose truth does not depend on the repo's own test file), and C3 is locked only by an unrelated fork. Corrected in THEOREM_LEDGER.md; no new gate added (checking 'does a cited test test the cited thing' requires parsing intent).",
+   "log_says": "not in log (no log_index entry file was found/read for B998 in the packet's phaseB/log_index directory listing captured; this seat's bash pass did not surface a B998.txt in the earlier per-arc grep runs)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "tested={F4,F5,F6,F7}, cited={F3,F4,F7}, cited_but_absent={F3}", "where": "results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "a direct, grep-verifiable comparison between the test file's actual coverage and THEOREM_LEDGER.md's citation; reproducible by any reader inspecting both files."}
+   ],
+   "belt": "NONE",
+   "belt_note": "A citation-vs-content audit (governance), not a numeric computation; inherently reproducible by grep, no dedicated script needed beyond the comparison already given.",
+   "absence_claims": [
+    {"quote": "there is no F3 test", "where": "FINDINGS.md"},
+    {"quote": "cc3's fuller reading ... there is no F2 test -- C3's only real price -- and no F8 test -- C4's entire price", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "identifies that the repo's central axiom chain (C1-C4, from which the whole downstream construction proceeds) has its formal test locks cite a file that does not test what is claimed -- 3 of 4 axioms effectively unlocked in-repo at the time of writing (though B1003 later found the underlying computations for F2/F8 do exist without a proper assertion-level lock).", "where": "B998/results.json"}
+   ],
+   "seat_note": "A serious governance finding on the corpus's own foundational axiom chain (C1-C4): the cited test file does not test what THEOREM_LEDGER.md claims it does. Correctly scoped as not falsifying the classical theorems (C1, C2) but flagging that the record overstated in-repo verification -- later partially superseded by B1003's finding that the underlying F2/F8 computations do exist, just without proper test-level locks."
+  },
+  {
+   "arc": "B1000_input_count",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: sealed prereg (pushed before compute) declared prior OUTCOME B (>4 expected); sweep of corpus's own external-input phrases across 19 arcs gives 25 raw hits, deduplicated to 8 distinct inputs, classified into 5 CLOSINGS (chirality, 27-VEV/rank reduction, dimensionful anchor, 4d lift, time/arrow) and 3 ARTIFACTS (6d type, filling slope, P5 menu completeness); B717's 'four incompletenesses' is right as a sector count but wrong as a closing count -- charge needs two independent closings (chirality and rank-reducing VEV), which B963 proves compete for the same resource (tau).",
+   "log_says": "the external-input reconciliation; sealed and pushed before compute with declared prior OUTCOME B, >4, expected to correct B717; this is the first quantitative test of the observer-coupling doctrine.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "25 raw sweep hits across 19 arcs, deduplicated to 8 distinct referents, classified 5 closings / 3 artifacts, with every merge and classification recorded before totalling", "where": "results.json referents/classification blocks", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the sweep method (grep for named phrases across arc_verdict.json claim lines) and its full referent/classification tables are given in results.json, in principle reproducible by re-running the same grep against the corpus."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "A pre-registered corpus-level reconciliation sweep, sealed before compute, with results.json giving the full referent list and per-item classification -- a text-sweep rather than a numeric computation, but its method and raw hits are fully recorded.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A disciplined, pre-registered reconciliation of the corpus's own scattered external-input claims (five closings for four incompletenesses, with charge needing two), correctly and honestly framed as a self-consistency check on the corpus's own doctrine rather than a physics derivation."
+  },
+  {
+   "arc": "B1001_four_digit_blindspot",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true; claim: two instrument bugs surfaced when B1000 (first four-digit arc ID) landed -- (1) atlas.py's regex B\\d{1,3} silently skipped B1000, fixed to B\\d{1,4}; (2) a measured-frequency test floor (FREQ[trace_map]/N > 0.40) was about to fail by dilution alone (0.3991 at N=917) for the third time, having already been widened once (0.45->0.40); floors demoted to loose sanity bands and three ordering claims promoted to load-bearing instead (trace_map>kappa, figure_eight>trace_map, golden>figure_eight, all holding with wide margins at N=917).",
+   "log_says": "the first four-digit arc was invisible to the atlas; caught by atlas-fresh on the day B1000 landed; widened to four digits, and a repo-wide sweep found no other three-digit cap.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "measured frequencies at N=917: golden 0.5725, figure_eight 0.4340, trace_map 0.3991, kappa 0.2377", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as measured by a committed test (test_atlas.py) but that script is not among this arc's own two committed files; the specific N=917 figures are asserted here, not shown as raw script output in this directory."}
+   ],
+   "belt": "NONE",
+   "belt_note": "This is a self-diagnosed instrument bug (regex cap, and a floor that would have needed re-fitting); no dedicated script is included in this arc's two files, though the underlying test (test_atlas.py) is named and described as pre-existing elsewhere in the repo.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "FITTED_VALUE", "detail": "arc's own text documents that a measured-frequency threshold had already been silently widened once before (0.45 to 0.40, described in the test's own docstring as 'purely by dilution') and was about to be widened a third time -- explicitly named as 'fitting, not testing' by the arc itself, and remedied by demoting the floors to loose sanity bands. Flagged and fixed here, but documents that the pattern occurred twice before being caught.", "where": "B1001/FINDINGS.md"}
+   ],
+   "seat_note": "A well-caught pair of instrument bugs; the frequency-floor issue is a textbook case of a threshold quietly becoming a moving target as the corpus grows, self-diagnosed and corrected by demoting to structural orderings instead of absolute floors."
+  },
+  {
+   "arc": "B1002_conductor_reconciled",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: discharges B997's owed check (was 'conductor=m^2+4' proved canonical?) by finding that 'conductor' names two distinct quantities in adjacent banked laws (B675's cusp-order conductor: golden 4, silver 2; B666's shadow modulus: golden 5, silver 8) and B997 used the second, correctly. B675's quantization-index law supplies the mechanism: golden's gcd(4,5)=1 gives an isomorphic reduction, silver's gcd(2,8)=2 gives a ramified one -- explaining why golden's shadow IS the McKay group and silver's is not.",
+   "log_says": "B997's owed check discharged, and conductor turns out to name two things; the corpus already held the definition and uses the word for two different quantities in adjacent laws.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "gcd(4,5)=1 (golden, isomorphism) vs gcd(2,8)=2 (silver, ramified), per B675's quantization-index law", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "trivial gcd arithmetic, self-verifying and stated exactly."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "A synthesis/reconciliation arc joining three previously-unconnected banked laws (B666, B675, B997) that had never cited each other; the core gcd arithmetic is trivial and self-verifying, but the identification of B675's 'cusp order conductor' and B666's 'shadow modulus' figures is imported from those earlier arcs, not recomputed here.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "documents a live terminology collision ('conductor' names two distinct quantities across adjacent banked laws, B675 and B666, neither citing the other) -- a corpus-hygiene issue rather than an error in either individual result, but a reminder that cross-arc terminology was not checked before this reconciliation.", "where": "B1002/FINDINGS.md"}
+   ],
+   "seat_note": "A genuine and useful disambiguation discharging a previously-flagged open condition in B997, strengthening that uniqueness result with an independent mechanism (ramification), though most of the numeric content (the 4,5,2,8 figures themselves) is imported from earlier arcs rather than freshly computed here."
+  },
+  {
+   "arc": "B1003_axiom_prices",
+   "source": "main",
+   "files_read": ["ADDENDUM_2026-08-30_covering_direction.md", "FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim: corrects B998's characterization (F2 and F8 were computed by B749, just not test-asserted -- the gap was in the locks not the work); reports the axiom chain's seven forks price at five ROBUST/GEOMETRY-NECESSARY and two FRAGILE (F5 orientation, F6 puncture); F2 (A2's price) shown robust via Cayley-Hamilton eigenvalue argument (pseudo-Anosov count 0 for the whole periodic-trace family); F8 (A5's price) shown geometry-necessary via four pre-registered redundancy witnesses all failing (the combinatorial carrier sees only Q(sqrt5), not Q(sqrt-3)). New locks written (test_b1003_f2_f8_locks.py). Original claim_one_line also states 'the discarded child is GIESEKING' -- WRONG per same-batch addendum (Gieseking is the parent, m004 the double cover, verified by exact volume ratio 2.0).",
+   "log_says": "the axiom prices are PAID and now LOCKED; five ROBUST, two FRAGILE; corrects B998, which is mine.",
+   "log_consistency": "CONSISTENT for the fork-pricing core claim; DRIFT for the covering-direction detail, which the log (mirroring the arc) still states backwards",
+   "load_bearing": [
+    {"what": "Cayley-Hamilton over det=1 traces in {-2..2} gives orders 3/4/6, infinite order at tr=+-2, max|eigenvalue|=1 exactly => pseudo-Anosov count 0 for entire family", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as computed symbolically 'whole' but no script file is among this arc's committed files (ADDENDUM, FINDINGS.md, arc_verdict.json only) -- reproducibility depends on B749's own compute.py, cited but not included in this packet."},
+    {"what": "Gieseking (m000) volume 1.0149416064, m004 volume 2.0298832128, ratio exactly 2.000000 -- so m004 is the orientation double cover of Gieseking", "where": "ADDENDUM_2026-08-30_covering_direction.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the addendum states this was 'run on this bench' with exact figures given, but no script accompanies it in this arc's directory; the volumes are standard SnapPy outputs, in principle independently checkable."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is a correction of B998 (which itself corrected a governance gap); the same-batch addendum is a further correction catching a covering-direction error the arc shares with an earlier version of THE PAPER's section 2.1 -- explicitly noted as a systematic, recurring slip in how this manifold pair is described.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's claim_one_line still states 'the discarded child is GIESEKING', which the same-batch addendum explicitly refutes with a computed volume ratio (Gieseking is the PARENT, m004 the double cover). The addendum notes THEOREM_LEDGER.md's C5 entry already has the direction right, so the arc's own verdict text disagrees with the corpus's other record of the same fact -- and per a later progress-log entry (2026-08-30, Cell 5), this error was still uncorrected in the banked verdict line as of that later read.", "where": "B1003/arc_verdict.json claim_one_line vs ADDENDUM_2026-08-30_covering_direction.md"},
+    {"kind": "MISSING_WITNESS", "detail": "the F2 Cayley-Hamilton eigenvalue argument and the addendum's Gieseking/m004 volume-ratio computation are both described as run/computed but neither has an accompanying script in this arc's own directory.", "where": "B1003 directory"}
+   ],
+   "seat_note": "A useful correction-of-a-correction (clarifying that F2/F8 were computed, just not locked by tests) with a genuine new axiom-pricing result (two of seven forks are load-bearing, five are cheap), but the arc's own headline text still gets a basic geometric fact (which manifold is parent vs child in the orientation double cover) backwards, a same-batch addendum notwithstanding, and per the log this error was still live weeks later."
+  },
+  {
+   "arc": "B1004_ssb_leak",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, instrument true; claim: a retracted clause ('measurement = the beta=1 SSB', retracted by B942 and further refuted by B957 -- every B700 torsor has structure group Z/2, mutually blind from Q(sqrt-3)'s idele class group) was still asserted live in 5 surfaces (two LAW_MAP.md rows including one inheriting it AS AN AXIOM, B725's FINDINGS, B948's FINDINGS, and RETRACTED_PHRASES.md itself which deliberately did not register the phrase to avoid a false-positive collision with B723's own correction banner). All five corrected. Separately widens the relay-debt gate's pattern, surfacing 9 more invisible handoff/proposal artifacts, 4 already past the 21-day escalation threshold.",
+   "log_says": "the B500-B800 sweep: a retracted clause live in five places; B942 retracted measurement=the beta=1 SSB; B957 refuted it; B946 recorded the obligation; B948 reported it had superseded the stale LAW_MAP row -- it had not.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "band measurement: B500-B799 has 260 verdicted arcs (164 PROVED, 86 NEGATIVE, 6 OPEN, 4 RETRACTED); 234 cited somewhere, 26 cited nowhere", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as a sweep/measurement of the B500-B799 band but no script is included among this arc's two committed files."}
+   ],
+   "belt": "NONE",
+   "belt_note": "A sweep-and-correction governance arc; no dedicated verification directory, though the fix (5 surfaces corrected) is itself directly checkable by re-reading the named files.",
+   "absence_claims": [
+    {"quote": "docs/RETRACTED_PHRASES.md -- the phrase was DELIBERATELY NOT REGISTERED", "where": "FINDINGS.md"},
+    {"quote": "the one artifact that went unadopted today (README_ARC_PROPOSAL.md) was invisible to the relay-debt gate, because the pattern matched only CC3_TO_CC_<date>_*", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "a retracted/refuted physics identification ('measurement = the SSB') was found still live as an inherited axiom in LAW_MAP.md's Born-rule row, and in a live use in B725_born_rule/FINDINGS.md, for an unspecified period after both B942's retraction and B957's stronger refutation, because the retraction-sweep gate had been deliberately (if reasonably) told not to watch for that exact phrase.", "where": "B1004/FINDINGS.md, citing LAW_MAP.md and B725_born_rule/FINDINGS.md"}
+   ],
+   "seat_note": "A serious and well-documented case of a refuted physics claim (an identification between measurement and a spontaneous-symmetry-breaking transition) surviving in the corpus's Born-rule derivation chain as an unmarked axiom after its own retraction; the fix here is real but this is exactly the class of failure the seat is instructed to watch for."
+  },
+  {
+   "arc": "B1005_falsifier2",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE; claim: WHAT_WOULD_COUNT's falsifier 2 (23rd of 23 enumerated dimensionless invariants, Koide, needing to fall) has fired -- three independent banked results kill Koide (B686: Q=2/3 is a parametrization tautology; B703: theta_0=0.2222296(83) rad is 0.89 sigma from 2/9, the crude 7-sigma claim refuted, and firewalled as a post-hoc convention-framed fit; B743: zero gated hits over the whole real algebraic tower). Scoped honestly: fires for the enumerated space, not 'in principle'. Redirects programme deliverable to 'the boundary theorem' (what the Q(sqrt-3) commensurability class forces and provably cannot).",
+   "log_says": "falsifier 2 has FIRED: Tier 2 has no live candidate; the 23rd has fallen three independent ways, all banked before today.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "theta_0 = 0.2222296(83) rad, 0.89 sigma from 2/9", "where": "FINDINGS.md, citing B703", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "this specific measured/fitted angle with error bar is attributed entirely to B703, an earlier arc not included in this packet; not recomputed or independently re-verified here."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "A status/synthesis arc over three already-banked results (B686, B703, B743); no new computation performed, the arc explicitly states 'No new mathematics; the arcs cited were all banked before today.'",
+   "absence_claims": [
+    {"quote": "Tier 2 has no live candidate.", "where": "FINDINGS.md, distinguished explicitly from the stronger overclaim 'Tier 2 is unreachable'"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "This is the arc with the clearest OBSERVABLE physics content in the batch (Koide angle theta_0=0.2222296(83) rad vs the predicted 2/9, 0.89 sigma) but the measurement itself is wholly imported from B703, not verified here; the arc's honest scoping (enumerated-space falsifier, not in-principle) is a model of correct epistemic hygiene."
+  }
+ ]
+}

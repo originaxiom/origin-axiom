@@ -1,0 +1,491 @@
+{
+"batch": "arcs_022",
+"arcs": [
+
+{
+"arc": "B425_geometric_torsion",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","geometric_torsion.json","geometric_torsion.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The geometric holonomy torsion is rational/Eisenstein (adjoint -3), a different object from B423's golden dynamical zeta (-5) — the object has two torsions. | PROVED",
+"log_says": "The object has TWO E6 torsions (cross-chat catch verified and banked); B423's label corrected; the D1 B425-row upgraded [CITED]->[COMPUTED] at B598.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"geometric adjoint torsion = -3 (disc Q(sqrt-3)) vs dynamical zeta -5","where":"geometric_torsion.py -> geometric_torsion.json","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact CRT/rational-reconstruction script committed with json witness and a lock test (tests/test_b425_geometric_torsion.py) confirmed present on disk"},
+ {"what":"sqrt(-3) present in Fox matrix (mpmath 120-digit) but cancels in every determinant","where":"geometric_torsion.py eisenstein_presence()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"mpmath 120-dps computation with relerr and trace_im recorded in json"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Cross-validates against three independently banked results (V30, V31, and this bud's own trivial-rep Alexander sanity check); no separate verification/ dir but a dedicated lock test exists.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A genuinely computed, exact, reproducible arithmetic result (two distinct Reidemeister-type torsions with different discriminants) with an honest correction of a prior mislabeling; firewalled from physics claims and correctly so — this is number theory of a hyperbolic 3-manifold, not an SM structure."
+},
+
+{
+"arc": "B426_scale_lever_closed_form",
+"source": "main",
+"files_read": ["FINDINGS.md","ADDENDUM_BOUNDARY_2026-08-14.md","arc_verdict.json","closed_form.json","closed_form.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The seam-envelope ratio has the exact cubic closed form (3a^2+4a-1)/10, and every Galois-invariant functional of its orbit is <1 — no invariant growth. | PROVED",
+"log_says": "Chat-2's G1 handoff VERIFIED exact against banked B372 coefficients; B426 later repaired (boundary p*=5.5932; two phrases retracted; two-referent scale-wall note) at 2026-08-14.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+ {"what":"env45/env15 = (3a^2+4a-1)/10, minpoly 1000x^3-1500x^2+360x-19","where":"closed_form.py -> closed_form.json","kind":"COMPUTED","reproducible_from_committed":"yes","why":"symbolic sympy derivation from banked B372 sweep45.json, exhaustive 144-cell scan committed"},
+ {"what":"'every Galois-invariant functional of the orbit is <1' (contraction theorem)","where":"FINDINGS.md line 27; arc_verdict.json claim_one_line","kind":"ASSERTED","reproducible_from_committed":"no","why":"the ADDENDUM_BOUNDARY_2026-08-14.md (same directory) explicitly retracts this as FALSE (counterexamples e1=3/2>1, M6=1.0134>1 computed there) and gives the true boundary p*<5.5932, yet FINDINGS.md and arc_verdict.json were never edited to remove the false universal claim"}
+],
+"belt": "RE-READS",
+"belt_note": "ADDENDUM is a same-arc correction from a later consolidation-branch re-verify (cc, 2026-08-14), computed from the banked minpoly independently — but it sits beside, not inside, the sealed FINDINGS/verdict files.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"SUPERSEDED_UNMARKED","detail":"FINDINGS.md still asserts 'every Galois-invariant functional of the orbit is <1' and arc_verdict.json's claim_one_line repeats it verbatim, even though the arc's own ADDENDUM_BOUNDARY_2026-08-14.md proves this false and gives the exact boundary p*=5.5932...; a reader of FINDINGS.md or the verdict alone would not learn the claim was retracted.","where":"FINDINGS.md:27; arc_verdict.json:4; ADDENDUM_BOUNDARY_2026-08-14.md:7-17"}
+],
+"seat_note": "The closed-form computation is solid and reproducible, but the arc's headline claim of record is a retracted overclaim left standing in the two files a reader consults first — a real correction was made and filed, but not propagated into the sealed verdict."
+},
+
+{
+"arc": "B427_cpt_exchange_trace",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","cpt_trace.json","cpt_trace.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Exchange of the two seam slots acts by the Galois element sigma_17, which fixes sqrt(-15); the projector-trace corollary is corrected to symmetrized/antisymmetrized sectors. | PROVED",
+"log_says": "B427 — the twisted exchange trace: Chat-1's base identity TRUE, corollary CORRECTED, and the correction is a discovery. Q-multiplicities {57,56,56,56} verified combinatorially.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"Q eigenvalue multiplicities {57,56,56,56} on C^225","where":"cpt_trace.py q_multiplicities()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"finite permutation-orbit count, exact combinatorics, committed with json output"},
+ {"what":"C' = sigma_17(C), sigma_17 fixes sqrt(-15)","where":"cpt_trace.py seam_traces()/galois_exchange_elements()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact cyclotomic arithmetic via B358's cyclo_engine and B367's theta matrices, both banked dependencies"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir; relies on a lock test (tests/test_b427_cpt_trace.py, not in this packet) and imported machinery from B367/B358.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "Clean finite-group/Galois-theory computation with an honest correction of an imported claim (Chat-1's tr(Q^3 A)=tr(QA) step); firewalled correctly as algebra, not physics, despite the 'CPT' label which is acknowledged as a bare historical name."
+},
+
+{
+"arc": "B428_upstairs_spin_walls",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","spin_walls.json","spin_walls.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Two upstairs spin walls: E6 level 1 gives Z/3 anyons and zero fermions, and the principal sl2 makes all E6 content integer-spin. | NEGATIVE",
+"log_says": "B428 — the two upstairs spin walls, three-seat cross-validated. E6 level 1 = Z/3 Eisenstein anyon theory (no theta=-1, zero fermions); principal sl2 all-integer-spin.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"E6 level-1 primaries h={0,2/3,2/3}, zero fermions","where":"spin_walls.py level1_modular_data()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sympy computation from the Cartan matrix, no free parameters; explicitly flagged as standard prior art"},
+ {"what":"27 under principal sl2 = Sym16+Sym8+Sym0 = [17,9,1], all odd dims (bosonic)","where":"spin_walls.py principal_grades_27()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact Weyl-orbit peeling, cross-checked against Chat-2's independent weight-poset route and the in-session S049 computation (three-seat agreement claimed but only this bud's own script is in the packet)"}
+],
+"belt": "RE-READS",
+"belt_note": "Claims three-seat cross-validation (Chat-2 weight-poset + in-session S049) but only this bud's own independent computation is present in the reviewed files; S049 itself not read in this batch.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"IDENTIFICATION_BY_TYPE","detail":"'Anyons not fermions' and the SL(2,C)=Spin(3,1) bosonic/spinorial dictionary rest on a Sym-parity type-match (even Sym block = integer spin = tensorial/bosonic under SL(2,C)); the arc itself flags this is not a physics claim, but the type-coincidence is exactly what licenses the later child-program's spin-statistics framing throughout B429/B430.","where":"FINDINGS.md wall-2 paragraph; spin_walls.py header comment"}
+],
+"seat_note": "Two clean, forced negatives (no fermions in the object's only forced structures) computed by exact Lie-theoretic and modular-category methods; correctly firewalled, though the spin/bosonic language is a labeled analogy the whole child program later leans on."
+},
+
+{
+"arc": "B429_bosonic_rigidity",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","rigidity.json","rigidity.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "First-order rigidity: no first-order deformation of the object's E6 structure produces spinorial matter — the one geometric direction stays sl2-factored/bosonic and the five intrinsic directions leave the sl2 locus entirely. | NEGATIVE",
+"log_says": "B429–B434: the interface arc; B429 the bosonic verdict along B347's E6 moduli.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"H^1(sl2, Sym^{2m})=0 for all six E6-exponent blocks (Whitehead rigidity)","where":"rigidity.py h1_sl2_sym_is_zero()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact symbolic cocycle-vs-coboundary solve, per block, committed with json output"},
+ {"what":"dim H^1(pi_1, Sym^{2m})=1 per exponent","where":"rigidity.py comment; cites B347 lock test_b347","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"this figure is taken from B347, not recomputed here; B347 not in this packet so its own reproducibility is not verified in this pass"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir in this arc; depends on an imported figure from B347 not re-verified here.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "The Whitehead-rigidity leg is exactly and reproducibly computed; the overall theorem also leans on one imported (not re-derived here) dimension count from B347, which is a minor but real IMPORTED dependency."
+},
+
+{
+"arc": "B430_sl2_landscape",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","sl2_landscape.json","sl2_landscape.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Fermionic sl2 embeddings exist in E6's landscape, but the object forces only the principal bosonic one, so the fermion door is closed as a derivation. | NEGATIVE",
+"log_says": "B429–B434 interface arc (B430 the sl2 landscape) — no separate detail beyond the group summary line.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"root sl2: 27 = 6 doublets + 15 singlets (spinorial content exists)","where":"sl2_landscape.py root_sl2()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact weight-poset computation from the E6 Cartan matrix"},
+ {"what":"principal sl2: all-even eigenvalues (bosonic), reused from B428","where":"sl2_landscape.py principal_sl2()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"self-contained recomputation in this script, not merely cited"}
+],
+"belt": "NONE",
+"belt_note": "No verification dir; standard branching flagged as prior art by the arc itself.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A clean, honest 'priced but unforced' negative: fermionic content exists mathematically in E6 but only as a free choice the object's own structure does not make, correctly not promoted to physics."
+},
+
+{
+"arc": "B431_seam_spatial_split",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","spatial_split.json","spatial_split.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The seam's boundary-torus support law confirmed exactly (120 active/120 dark, gated by y = 0 mod 3); two value-level readings corrected as artifacts. | PROVED",
+"log_says": "B429–B434 interface arc (B431 the seam spatial split) — no separate detail beyond group summary; a later entry (2026-07-05) notes 'two value-level readings of the spatial split' were corrected.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"120 active/120 dark cells; y=0 mod 3 all dark; x=0 mod 10 all dark; 34 orbits sizes {2:24,4:2,8:8}","where":"spatial_split.py compute()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact Q(zeta60) Fourier transform over a finite grid, using banked B367/B358 exact-arithmetic machinery, json witness matches script output exactly"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir; self-corrects two of its own value-level misreadings within the same FINDINGS (parity partners conjugate not equal; 34 orbits not 18) — an example of in-arc self-correction rather than external belt.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A precise finite exact-arithmetic computation with its own internal corrections properly recorded in the same document; firewalled as 'a theta-model invariant,' correctly not read as physical space."
+},
+
+{
+"arc": "B432_filling_chirality",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","filling_chirality.json","filling_chirality.sage"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "All 31 sampled hyperbolic Dehn fillings make the amphichiral object chiral: the interface mechanism is confirmed, though slope selection stays free input. | PROVED",
+"log_says": "ALL fillings of the parent are chiral — the interface is chiral-sourced — yet the forced +-5 output exits Q(sqrt-15); later (B944/B945) reaffirms B432 as one of two separate 'closings' (chirality, not time) that do not collapse to one.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"31/31 sampled Dehn fillings of 4_1 have generic (non-{0,1/2}) Chern-Simons, hence chiral","where":"filling_chirality.sage, using snappy volume()/chern_simons()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"script runs snappy numerically (floating point, not exact) over a p/q grid, output matches filling_chirality.json exactly; reproducible given snappy but the underlying quantities (vol, CS) are floating-point, not exact arithmetic"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir; the arc itself notes 'B432's first merge carried a broken JSON caught by its own lock' per the progress log (B944/B945 entries), i.e. an earlier version had an error caught by test infrastructure.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"NUMERIC_ONLY_NO_EXACT","detail":"Chern-Simons invariants and volumes for all 31 fillings are computed by SnapPy floating-point routines (chern_simons(), volume()) rather than exact/certified arithmetic; the chirality classifier uses a 1e-8 threshold on floating CS values.","where":"filling_chirality.sage lines 17-21"}
+],
+"seat_note": "An honest, bar-conscious negative-leaning result (mechanism confirmed, forcing not established since slope is free input); the numeric (not exact) nature of the underlying SnapPy computation is a minor but real caveat given the arc's own precision discipline elsewhere in the campaign."
+},
+
+{
+"arc": "B433_3d3d_calibration",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","calibration.sage"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The DGG elimination for m004 returns exactly the Cooper-Long A-polynomial times its sign-twist, verifying Coulomb branch = SL(2) character variety. | PROVED",
+"log_says": "B433 the 3d-3d DGG calibration (eliminant = -A_CL(M,L)*A_CL(M,-L), pinned at SL(2)); B741 notes B433's provenance traces to the B426 scale wall + B561 L50 crux; one process deviation logged (a lock fix landed via direct conflict-resolution merge to main, per B741).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"DGG elimination ideal for m004 factors exactly as -A_CL(M,L)*A_CL(M,-L)","where":"calibration.sage","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sage Groebner elimination over QQ; the FINDINGS notes a lock test (tests/test_b433_calibration.py) that locks the factorization in pure sympy without needing snappy/sage at test time"},
+ {"what":"leg 2 (Dimofte-Garoufalidis 1-loop = torsion -3)","where":"FINDINGS.md 'DEFERRED'","kind":"UNCLEAR","reproducible_from_committed":"no","why":"explicitly deferred, not computed in this arc"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Two fully independent routes (triangulation/DGG vs trace-map/B67) land on the same curve, and three wrong conventions were tested and shown to fail divisibility — an in-arc convention control.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A solid exact algebraic-geometry verification with a real convention control (three wrong conventions fail); correctly names the unfinished second leg (Dimofte-Garoufalidis 1-loop) as deferred rather than papering over it."
+},
+
+{
+"arc": "B434_slope_selection",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","mey2.sage","slope5.sage","slope5b.sage"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The object's exceptional-slope boundary forces slope +-5 as minimal chirality input, whose output is the Meyerhoff manifold with new arithmetic (disc -283). | PROVED",
+"log_says": "B434 slope selection: +-5 = the boundary of the maximal exceptional set {0,+-1,...,+-4}; the forced child = the Meyerhoff manifold 4_1(5,1), H1=Z/5, trace field x^4-x-1, disc -283, CS unit +-0.077038.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"exceptional slopes of 4_1 are exactly {0,+-1,...,+-4}; slope +-5 is first hyperbolic","where":"slope5.sage/slope5b.sage via snappy volume()/solution_type()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"direct SnapPy numeric filling scan; standard/known fact (stated as the KNOWN maximal exceptional set) but independently re-verified here"},
+ {"what":"trace field x^4-x-1, disc -283, S4, no quadratic subfield","where":"mey2.sage using sage algdep/NumberField","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact algebraic-number computation over QQ; a lock test (tests/test_b434_slope_selection.py, pure-sympy) locks the disc/irreducibility/S4 result"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The lock test recomputes the field-theoretic facts in pure sympy independent of snappy/sage.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"No committed .json witness file for this arc's numeric outputs (only three .sage scripts); the exact vol/CS/trace-field numbers quoted in FINDINGS.md are not backed by a committed machine-readable output file in this directory, unlike most sibling arcs.","where":"frontier/B434_slope_selection/ (directory listing: only mey2.sage, slope5.sage, slope5b.sage, FINDINGS.md, arc_verdict.json — no .json data file)"}
+],
+"seat_note": "The forcing argument (topological boundary of the exceptional set) is genuine and the field arithmetic is exact and locked, but the arc is the first in this batch without a committed JSON output artifact — a stranger must re-run the sage scripts to see the raw numbers rather than reading a static witness."
+},
+
+{
+"arc": "B435_child_founding",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","founding.json","founding.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The (5,1) child has H1 = Z/5 and exactly 25 = 5^2 nontrivial abelian E6 vacua (26 including the trivial one), derived from the 75 Kac solutions modulo the free Z/3 centre action. | PROVED",
+"log_says": "B435 (C0) the Child Program founding: H1=Z/5; the abelian E6 vacuum count derived: 25 nontrivial (=5^2) + 1 trivial = 26; later corrected (#562) — the 'birthmark' (Z/5) and golden-prime framing are NUMERATOR-FORCED not inheritance.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"75 Kac solutions, 0 rotation-fixed, 25 orbits (5^2), 17 mod S3","where":"founding.py kac_solutions()/orbits_mod_rotation()/orbits_mod_S3()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact integer combinatorics, brute-force enumerated, committed with matching json"}
+],
+"belt": "NONE",
+"belt_note": "No verification dir; the FINDINGS.md itself carries the CORRECTION banner (#562) retracting the 'birthmark' framing while keeping the counts.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "The correction is properly propagated into FINDINGS.md itself (not left dangling elsewhere), a good practice example; the raw Kac-vacuum count is simple, exact, reproducible combinatorics."
+},
+
+{
+"arc": "B436_child_identity",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","identity.json","c1_card.sage","c1hp.sage","c1z.sage"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The child's volume equals 12 times the Borel zeta expression for disc -283 to 64 digits; the '-283 equals figure-eight fingerprint' reading is corrected to a class property. | PROVED",
+"log_says": "B436 (C1) the child's identity card: the Borel identity EXACT (vol = 12*|d|^{3/2}*zeta_K(2)/(4pi^2)^3 to |ratio-12|=4.5e-64); CS not identified (honest open residue).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"|vol/pred - 12| = 4.52e-64 (Borel identity)","where":"c1z.sage using snappy ManifoldHP + sage NumberField.zeta_function()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact-precision (260-bit) numeric identity, json output matches script; a genuine multi-precision numerical verification, not an exact symbolic proof but overwhelming precision"},
+ {"what":"'arithmetically special child' -> corrected to 'special vs generic, class-shared with 5_2'","where":"FINDINGS.md body text","kind":"COMPUTED","reproducible_from_committed":"yes","why":"the correction itself is drawn from B438's later foreign-control computation, correctly cross-referenced and integrated in this same FINDINGS.md"}
+],
+"belt": "NONE",
+"belt_note": "No dedicated verification/ dir; correction from B438 is properly cited in-place.",
+"absence_claims": [
+ {"quote":"CS not identified — honest ... No small rational (best cheap candidate 103/1337 fails at 3.5e-8); no closed form claimed.","where":"FINDINGS.md lines 17-21"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"SUPERSEDED_UNMARKED","detail":"FINDINGS.md still uses the phrase '−283 field is shared with 5₂, so it is a commensurability-class property' — language B855 (2026-08-02, quoted verbatim inside sibling arcs B438/B440/B443) explicitly retracts as WRONG (4_1 is the unique arithmetic knot complement, so nothing is commensurable with it; the correct framing is non-commensurable coincidence at slope 5 only). B436's own FINDINGS.md was never updated with this correction, unlike B438/B440/B443 which each carry the B855 correction banner.","where":"frontier/B436_child_identity/FINDINGS.md lines 4-5,33-37; contrast frontier/B438_foreign_control/FINDINGS.md:3, frontier/B440_foreign_vacuum_control/FINDINGS.md:3, frontier/B443_child_atlas/FINDINGS.md:3"}
+],
+"seat_note": "The Borel volume identity is a genuinely striking, well-verified high-precision numerical fact; but the arc still carries the withdrawn 'commensurability' terminology that its own sibling arcs (B438/B440/B443) have since corrected, so a reader of B436 alone gets outdated vocabulary."
+},
+
+{
+"arc": "B437_child_abelian_book",
+"source": "main",
+"files_read": ["FINDINGS.md","abelian_book.json","abelian_book.py","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The child's 'golden return' is withdrawn as inheritance: the trefoil control shows Q(sqrt5) is slope-5-forced, leaving only generic or class-shared content. | RETRACTED",
+"log_says": "B437 (C2) — the abelian torsion book + the Inversion Law: the golden return RETRACTED as inheritance (numerator-forced, trefoil control); B818 confirms this arc correctly self-retracts its own headline (one of six that correctly did so, per B818's audit of 8 RETRACTED verdicts).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"total abelian torsion = Lucas-square law L_p^2 (child 121=11^2, sibling 841=29^2)","where":"abelian_book.py total_torsion()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sympy resultant computation, asserted and json-witnessed"},
+ {"what":"golden trace 3+sqrt5/5 in Q(sqrt5), and trefoil(5,1) gives the SAME field","where":"abelian_book.py golden_trace(); FINDINGS.md CORRECTION section","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact modular-arithmetic trace computation plus a numeric cross-check; the trefoil control computation itself is described in prose but not included as a separate committed script in this arc's file list"}
+],
+"belt": "RE-READS",
+"belt_note": "The verdict.json itself records the retraction and the Inversion Law upgrade to three tiers, citing B438; properly self-documents its own history of two corrections (its own retraction, then B438's further sharpening).",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"SUPERSEDED_UNMARKED","detail":"FINDINGS.md still uses 'commensurability class'/'commensurability-shared' language throughout (e.g. 'a commensurability class — the value records the parent's own Alexander data', 'THE INVERSION LAW ... sharpened by B438 ... commensurability-shared') that the later B855 correction (verbatim, in B438/B440/B443) explicitly retracts as wrong (4_1 is the unique arithmetic knot complement — nothing is commensurable with it). This arc's own FINDINGS.md carries no B855 correction banner.","where":"frontier/B437_child_abelian_book/FINDINGS.md lines 20-22,52-60"}
+],
+"seat_note": "A genuine self-correcting arc (correctly RETRACTED verdict per B818's own audit) whose surviving Lucas-square law is solid exact number theory; but like B436 it still carries the pre-B855 'commensurability' vocabulary that its sibling arcs have since dropped."
+},
+
+{
+"arc": "B438_foreign_control",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","foreign_control.json","foreign_control.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The missing foreign control shows 4_1 and 5_2 share both the −283 exit field and the torsion value 121: nothing about the child is figure-eight-unique. | NEGATIVE (supersedes B436)",
+"log_says": "B438 — the missing FOREIGN control: nothing about the child is figure-eight-UNIQUE (the July-5 audit's decisive finding); B855 (2026-08-02) later corrects the 'commensurability' label as WRONG within this same file.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"4_1(5,1) and 5_2(5,1) both give trace field x^4-x-1 disc -283, both torsion value 121","where":"foreign_control.py","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact resultant/algdep computation over precomputed SnapPy generator values hardcoded in the script (16-digit floats used as algdep input, not re-derived from scratch in this script — a minor IMPORTED input), asserted and json-witnessed"}
+],
+"belt": "RE-READS",
+"belt_note": "The arc itself carries its own later correction banner (B855, 2026-08-02) at the very top of FINDINGS.md, properly retracting the 'commensurability' framing in place rather than leaving it stale — a model of how corrections should be recorded.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"The GENERATORS dict in foreign_control.py hardcodes 16-digit floating-point SnapPy generator values (e.g. -0.24812606280262192) rather than deriving them in-script from a committed SnapPy computation; a stranger cannot verify these 16-digit values were correctly transcribed without independently re-running SnapPy on each named manifold.","where":"foreign_control.py lines 40-45"}
+],
+"seat_note": "This is the campaign's best-practice example: a correction (B855) is placed at the top of the very file being corrected, in the same arc, immediately visible — contrast with B436/B437 whose stale language was never touched."
+},
+
+{
+"arc": "B439_sl2_vacuum_book",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","vacuum_book.json","vacuum_book.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The child's SL(2,C) vacuum quartic gives 4 irreducible vacua in the -283 trace field, with the unforced slope-7 control giving 6 vacua in a different field. | PROVED",
+"log_says": "B439 (C3) the child's SL(2,C) vacuum book: 4 irreducible vacua all in the -283 field; CONFIRMED by the independent adversarial review (Review 3) as matching a from-scratch recomputation.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"Q5(t) = (t+2)(t^4-3t^3+t^2+3t-1), 4 irreducible vacua, disc -283; quartic root = child's own trace field alpha^3-alpha^2","where":"vacuum_book.py vacuum_trace_poly()/quartic_is_child_trace_field()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sympy polynomial algebra from the banked Cooper-Long A-polynomial, with an internal assert-based reproduce-gate, json-witnessed"}
+],
+"belt": "RE-READS",
+"belt_note": "The arc's own verdict is explicitly HELD pending the foreign control, and it says so honestly ('the Inversion-Law verdict is HELD pending 5_2(5,1)'s spectrum') — this is then resolved in B440, which the FINDINGS.md correctly forward-references.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A model of appropriately incomplete reporting: the arc computes what it can exactly, explicitly declines to draw the tier-3 conclusion until the foreign control (B440) runs, and is independently confirmed by an adversarial from-scratch recompute per the progress log."
+},
+
+{
+"arc": "B440_foreign_vacuum_control",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","verdict.json","charvar.json","charvar.sage","verify.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "4_1 and 5_2 both have exactly 4 irreducible vacua in the same −283 field: no figure-eight-unique feature, and the golden inversion was a chart artifact. | NEGATIVE",
+"log_says": "B440 (C3 foreign control COMPLETE): 4_1=4 vacua in -283 field, 5_2=6 vacua (2 golden + 4 in -283); B440 CORRECTION (same day, adversarial decadal review) refutes the 'golden inversion' sub-claims, both fixed in place; B855 (2026-08-02) further retracts the 'commensurability' label.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"4_1: 4 irreducible vacua all -283; 5_2: 4 irreducible (-283, same field) + 2 reducible golden abelian; 6_1: 11; 3_1: 5","where":"charvar.sage build()/elimination_ideal(); verify.py irreducible_split()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact convention-free character-variety elimination from pi_1 via sage; cross-validated against B439's independently-derived A-polynomial quartic (matches exactly, two different methods)"},
+ {"what":"golden abelian characters are UNIVERSAL for all four K(5,1) manifolds","where":"verify.py golden_abelian_is_universal()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact abelianization exponent-sum check over Z/5, computed from snappy relators"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Two independent within-arc corrections are recorded (the same-day adversarial review's refutation of the 'golden inversion', and B855's later retraction of the 'commensurability' label), both placed as banners at the top of FINDINGS.md — properly propagated in-place.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A textbook example of the campaign's discipline working as designed: a striking prior-confirming result (the 'golden inversion') was caught by adversarial review on the same day it was banked, and the corrected, cleaner negative stands with both corrections visible in the same file."
+},
+
+{
+"arc": "B441_child_wrt",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","field_content.json","field_content.py","wrt.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The child 4_1(5,1)'s WRT field is exactly Q(zeta_r), identical to the surgery skeleton at every r, so its sqrt5/sqrt-3/sqrt-15 content is forced, not the object-specific. | NEGATIVE",
+"log_says": "B441 (C5) the child's WRT/quantum invariant: field content is surgery-forced (Bin 3); tool validated (tau(S3)=1, amphichirality — caught 2 build bugs before any result); Review 4 (2026-07-05) independently re-implemented C5 from scratch with an exact cyclotomic engine and confirmed.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"Field(tau_r(4_1(5,1))) == Field(tau_r(L(5,1))) at every r tested (7,9,11,13,15,21)","where":"field_content.py child_field_is_forced()/stabilizer()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"mpmath 45-dps Galois-twist stabilizer computation, tool independently validated by amphichirality + Kashaev match; json-witnessed"},
+ {"what":"validation (1) tau_r(S^3)=1 is STRUCTURALLY TAUTOLOGICAL, does not catch bugs","where":"wrt.py header comment, self-correction","kind":"COMPUTED","reproducible_from_committed":"yes","why":"an honest self-correction embedded directly in the tool file, explaining which of two claimed validations actually did the work"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Review 4 (2026-07-05) independently re-implemented C5 with a from-scratch exact cyclotomic-arithmetic engine (zero floating point) per the progress log — genuine independent belt confirmation, though that reimplementation is not itself in this packet.",
+"absence_claims": [],
+"physics_content": "OBSERVABLE",
+"red_flags": [],
+"seat_note": "Rated OBSERVABLE because WRT is explicitly named the Chern-Simons partition function and the arc computes and reports a specific numeric field/value comparison at the deepest physics-touching channel of the campaign — but the result is a clean, well-controlled negative (surgery-forced field content), not a physical prediction, and the arc is careful to say so throughout."
+},
+
+{
+"arc": "B442_child_e6_lift",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","e6_lift.json","e6_lift.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The child's composite E6 data is a function of the -283 vacua and commensurability-shared with 5_2, adding no figure-eight-specific structure (Bin 3). | NEGATIVE",
+"log_says": "B442 (C4) — the E6 lift of the child's vacua: composite data is -283-forced (Bin 3); Review 4 independently re-implemented C4 from scratch with an exact cyclotomic-arithmetic engine.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"E6 adjoint character at child vacua = -1116x^3+1844x^2+1767x-741; at 5_2 vacua a different element of the same field; Galois sum over child vacua = 5201 (rational)","where":"e6_lift.py e6_char_at_vacua()/galois_invariant_sum()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sympy polynomial-remainder computation, hardened (per FINDINGS.md review note) from a fragile nsimplify(re(N(...))) to an exact companion-matrix trace method; json-witnessed"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Explicit review note: 'the galois_invariant_sum was hardened from a fragile nsimplify(re(N(...))) to the exact companion-matrix trace of chi (same value, airtight method)' — a genuine methodological tightening recorded in place.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "The composite-level E6 lift computation is exact and honestly bounded (the intrinsically-E6 residue beyond the principal composites is explicitly named as an uncomputed specialist boundary, not glossed over)."
+},
+
+{
+"arc": "B443_child_atlas",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","child_atlas.json","child_atlas.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The child program cleared no emergence bar: every floor is numerator-forced or shared with 5_2, and nothing figure-eight-unique was found. | NEGATIVE",
+"log_says": "B443 (C6) THE CHILD ATLAS: the campaign synthesis + verdict; THE CHILD PROGRAM COMPLETE, forced/unsought/control pass but exact-SM fails at every floor (named mathematics, not SM structure); B855/B858 later withdraw the 'commensurability' polarity in this arc, correction banner present at top of this file.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"7-floor synthesis table: bars_cleared=0, figure_eight_unique_features=0","where":"child_atlas.py FLOORS/any_bar_cleared()/verdict()","kind":"COMPUTED","reproducible_from_committed":"yes","why":"this is a synthesis/bookkeeping script that hardcodes the bar-status table from the prior seven arcs (B435-B442) rather than recomputing their content; its 'computation' is an aggregation, and the underlying per-floor truth values are IMPORTED from those arcs, not independently re-derived here"}
+],
+"belt": "RE-READS",
+"belt_note": "Carries the B855 correction banner at top (same pattern as B438/B440); re-reads and aggregates rather than recomputing prior arcs.",
+"absence_claims": [
+ {"quote":"no bar cleared. ... figure-eight-UNIQUE — NONE FOUND, at any floor.","where":"FINDINGS.md lines 33,37"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"OTHER","detail":"child_atlas.py's FLOORS list is a hand-typed dict literal (bar=dict(forced=True, unsought=True, exact_sm=False, control=True) for every single floor) rather than a computation that reads B435-B442's own verdict.json files programmatically; the 'assert' at the end only checks internal consistency of this hardcoded table, not that it accurately reflects the cited arcs. A transcription error in this table would not be caught by the script itself.","where":"child_atlas.py lines 45-61"}
+],
+"seat_note": "The synthesis verdict (no bar cleared anywhere, hypothesis falsified) is well-supported by the individually-read source arcs B435-B442 in this same batch, so the aggregation appears accurate — but the aggregation script itself is not a live cross-check against those files, only a hardcoded restatement."
+},
+
+{
+"arc": "B444_sl3_field_control",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","sl3_ptolemy.json","extract_ptolemy.py","sl3_field_control.sage"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "5_2's SL(3) elimination fields (cubic, quartic, sextic) differ from 4_1's quadratics, but the separation is inherited from SL(2) arithmeticity — distinguished, not a fingerprint. | NEGATIVE",
+"log_says": "B444 Sage pipeline live, used as one of three independent verifications (with FGKRT arXiv:1412.4711, Deraux-Falbel arXiv:1303.7096) that Q(sqrt-7) is a STAGE not a 4th face (B730 log entry, 2026-07-20).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"4_1's boundary-unipotent SL(3) reps lie in Q(sqrt-3) and Q(sqrt-7) (all quadratic); 5_2's require Q(sqrt5) plus cubic/quartic/sextic fields","where":"extract_ptolemy.py (snappy Ptolemy variety) -> sl3_field_control.sage (sage elimination_ideal)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact Groebner-basis elimination over QQ from the committed sl3_ptolemy.json equation system; the arc explicitly notes this reproduces a KNOWN published result (Falbel 2008, matched by Heusener-Muñoz-Porti arXiv:1505.04451)"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir; the arc's honesty rests on citing the literature match (Falbel 2008) rather than an internal recompute belt.",
+"absence_claims": [
+ {"quote":"On magma: not required and not installed. Magma ... proprietary, license-only — no Homebrew/pip/apt formula exists.","where":"FINDINGS.md lines 83-86"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A careful, self-limiting negative that explicitly refutes the tempting 'SL(3) rung to 3 generations' framing floated by a collaborator handoff, correctly identifying that the field separation is inherited from lower-rank arithmeticity, not new content, and crediting the known 2008 literature result rather than claiming novelty."
+},
+
+{
+"arc": "B445_e6_h1_control",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","e6_h1_hp.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "dim H^1(pi_1, ad E6) = 6 for the figure-eight and identically for 5_2, so the E6 deformation count is universal, not a fingerprint. | NEGATIVE",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"H^1(pi_1, ad E6 rho_0) = 6 = rank(E6) for BOTH 4_1 and 5_2, block by block (Sym^2,8,10,14,16,22)","where":"e6_h1_hp.py H1_block(), run at mpmath dps=60","kind":"COMPUTED","reproducible_from_committed":"yes","why":"high-precision numerical rank/SVD computation with an explicit precision-sensitivity warning (double precision gives the WRONG answer for high blocks); script is self-contained and directly executable"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir and no json output file committed (only the .py script) in this arc; the 60-digit precision requirement is documented as load-bearing (double precision silently fails) which raises the reproducibility bar somewhat.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"No json (or any) committed output file for this arc's numbers; FINDINGS.md's results table (H1=6 per knot, per-block rank gaps >=10^25) must be reproduced by re-running e6_h1_hp.py — there is no static witness a stranger can inspect without executing a precision-critical (dps=60) mpmath computation that the arc itself warns gives silently wrong answers at lower precision.","where":"frontier/B445_e6_h1_control/ (directory: only FINDINGS.md, arc_verdict.json, e6_h1_hp.py — no results json)"}
+],
+"seat_note": "A careful and self-aware negative (explicitly corrects a prior handoff's wrong representation choice and a false nonzero-implies-fingerprint dichotomy), but this arc has no log_index entry and no committed data witness, so its numeric claims rest entirely on a precision-critical script that must be trusted to re-run correctly."
+},
+
+{
+"arc": "B446_thermo_d1_tower_moments",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","pipeline.py","run_log.txt"],
+"files_sampled": ["results.json"],
+"files_listed_only": [],
+"claim_of_record": "Derived and out-of-sample verified the fixed-cofactor tower moment law N*Var = S5(m)*C3 (golden 3/8, silver 5/8); every channel launders to banked arithmetic. | PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"KR reproduce-gates: N*Var->1.00 (0.9959/1.0008/0.9995 at N=241/1201/2003), m4/m2^2->2.00 (1.929/2.020/2.003)","where":"pipeline.py run_level()/main() -> results.json gates_prime_gold; run_log.txt","kind":"COMPUTED","reproducible_from_committed":"yes","why":"numeric (float64/numpy) quantized-cat-map eigenbasis computation; results.json sampled matches run_log.txt exactly for all quoted numbers (N=241,1201,2003 rows verified byte-for-byte against FINDINGS.md table)"},
+ {"what":"tower law N*Var=3/8 (golden) exactly at N=15,45,135,405,1215, out-of-sample at N=3645 (predicted and measured 0.375000)","where":"pipeline.py tower loop -> results.json tower_gold; run_log.txt tower section","kind":"COMPUTED","reproducible_from_committed":"partial","why":"N=15..1215 are in the committed results.json/run_log.txt sampled; N=3645 (the specific out-of-sample claim in FINDINGS.md) does NOT appear in run_log.txt or in the sampled results.json (which stops at N=1215 for the gold tower) — the packet's committed artifacts do not show the N=3645 run"},
+ {"what":"silver control C3=3/4 (shared), S5=5/6, tower N*Var=5/8 measured at N=45,135,405","where":"pipeline.py silver loop -> results.json 'silver'; run_log.txt silver section","kind":"COMPUTED","reproducible_from_committed":"yes","why":"matches run_log.txt and results.json tail exactly (N=405 kurt=3.658978016048699 confirmed in both)"},
+ {"what":"lit-gate: fixed-cofactor tower regime is APPARENTLY-UNWRITTEN (novel), per adversarial full-text search of KR/Kelmer/Olofsson/KRR/KORS/Bhakta-Shparlinski","where":"FINDINGS.md NEW-MATH paragraph","kind":"ASSERTED","reproducible_from_committed":"no","why":"a literature-search claim; no committed search transcript or bibliography file is included in this arc's files, so the novelty claim cannot be independently checked from the committed artifacts alone"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "FINDINGS.md explicitly states 'the 2026-07-06 review pilot was NOT trusted' and the whole pipeline is an independent rebuild from scratch that reproduces the pilot's numbers as a control, not a citation of the pilot.",
+"absence_claims": [
+ {"quote":"no paper treats matrix-element moments at any mixed composite N, and none works the tower direction p fixed, k→∞ ... believed unwritten.","where":"FINDINGS.md NEW-MATH paragraph"},
+ {"quote":"Double-precision (numpy) gives the wrong answer here — the high blocks' rank collapses ... Recorded as a cautionary control", "where":"cross-reference note in B445's FINDINGS.md, directly relevant to this arc's own float64 pipeline"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"NUMERIC_ONLY_NO_EXACT","detail":"The entire pipeline (Weil quantization, Hecke desymmetrization, moments, SFF) is float64/numpy, not exact arithmetic; several exact-looking constants (e.g. C3=3/4, S5=1/2, N*Var=3/8) are read off numerically to 4-7 decimal places (e.g. 0.7500000, 0.3750000) rather than proven in closed form by symbolic computation in this arc, though FINDINGS.md frames them as 'derived' via a CRT/Galois-rationality argument stated in prose, not verified symbolically in the committed code.","where":"pipeline.py (entire file uses numpy float64/complex128); FINDINGS.md 'THE LEMMA' section items 1-4"},
+ {"kind":"MISSING_WITNESS","detail":"FINDINGS.md's headline out-of-sample claim ('out-of-sample at N=3645, predicted 0.375000, measured 0.375000') is not present in the committed run_log.txt or in the sampled results.json (both stop the gold tower at N=1215); the N=3645 run, if it exists, left no witness in this arc's committed files.","where":"frontier/B446_thermo_d1_tower_moments/run_log.txt (tower section ends at N=1215); results.json (sampled: gold tower section not shown to include 3645)"}
+],
+"seat_note": "A well-disciplined arc (explicit prereg, distrust of a prior pilot, real controls) whose exact-arithmetic derivation of the moment law is stated in prose/lemma form but the committed executable pipeline itself is floating-point; the specific N=3645 out-of-sample number quoted as the clinching evidence is not visible in the committed run_log or the sampled JSON, so it could not be directly confirmed by this reader in the sampled portion."
+}
+
+]
+}

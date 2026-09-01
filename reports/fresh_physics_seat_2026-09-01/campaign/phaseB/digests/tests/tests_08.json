@@ -1,0 +1,1386 @@
+{
+ "batch": "tests_08",
+ "tests": [
+  {
+   "file": "tests/test_b585_listener_law.py",
+   "target_arcs": [
+    "B585"
+   ],
+   "what_it_locks": "Recomputes SU(3)_k Weil monodromy traces and checks the theta-odd 'two-tone' law, kappa=20 collision, silver-refutation counterexample, and clock orders vs banked values.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "-1/phi at kap=5,10",
+     "provenance_stated": "yes"
+    },
+    {
+     "value": "clock order 10@k=5, 60@k=10",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b586_round3_handoff.py",
+   "target_arcs": [
+    "B586"
+   ],
+   "what_it_locks": "Recomputes E6 level-2 Weyl-Weil monodromy and checks S^2=+C, tr_odd=+1, and compares per-pair chirality amplitudes to a PAIR_AMPS dict of hardcoded complex numbers.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "0.13151189+0.57619122j (and 2 more PAIR_AMPS)",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "PAIR_AMPS bank is a hardcoded dict with no derivation/citation in the test; compared only to values recomputed by the same stage() fixture (same code path), a partial self-referential check."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b587_weil_mechanism.py",
+   "target_arcs": [
+    "B587"
+   ],
+   "what_it_locks": "Recomputes the Weyl-twisted Weil factorization Z=(1/6)sum sign(w)tr(...) and checks decomposition identity vs B238, LAW-O re-derivation, golden closed form at kap=5, silver 7-tone, bronze kap=10 cancellation, and conductor-menu integer values.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b588_sector_exchange.py",
+   "target_arcs": [
+    "B588"
+   ],
+   "what_it_locks": "Recomputes A1-level Weil data (rank-1) and checks S^2=parity, decomposition identity vs B238, -1 not in W(A2), golden closed form at kappa'=5, and Legendre-symbol sign oscillation off the 5-locus.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b589_pair_amplitudes.py",
+   "target_arcs": [
+    "B589"
+   ],
+   "what_it_locks": "Checks a CLOSED analytic formula for E6_2 pair amplitudes (sine-kernel with 14th-root phases) against a BANKED dict of decimal numbers from B586, plus sum=1, moduli-match-sine-kernel, and a cubic identity on r2.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [
+    {
+     "value": "BANKED = {27:0.1315...+0.576j, ...}",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "BANKED values are hardcoded decimals with no citation of where they came from beyond 'B586' in the docstring; not re-derived from source in this file."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b58_stage1.py",
+   "target_arcs": [
+    "B58"
+   ],
+   "what_it_locks": "Recomputes n=3 cotangent spectrum dimension (=9) and Sym^2k spectral tags via committed step1/step2 scripts; reads a committed cotangent_spectrum.json to lock the n=4=30 Djokovic value and the refuted brief formula=19; full n=4 recompute is gated behind RUN_SLOW.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "n=4 cotangent dim 30 (Djokovic)",
+     "provenance_stated": "yes"
+    },
+    {
+     "value": "refuted brief formula 3n^2-10n+11 = 19",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [
+    "RUN_SLOW env var required for full n=4 recompute (~40s); otherwise skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_n4_recompute_dim_30 skipped unless RUN_SLOW=1 set"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b591_chord_manifold.py",
+   "target_arcs": [
+    "B591"
+   ],
+   "what_it_locks": "Recomputes Smith normal forms of A1/A2/A3 matrices to check H1 torsion = conductors, an Alexander-polynomial identity Delta(-1)=5, that the twisted double is a homology sphere, and (if snappy installed) a branched double cover of 4_1 has H1 with Z/5.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "test_branched_double_cover_snappy uses pytest.importorskip('snappy') \u2014 silently skipped if snappy is absent."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b592_mirror_listener.py",
+   "target_arcs": [
+    "B592"
+   ],
+   "what_it_locks": "Recomputes SU(3)_2 monodromy plus an R-matrix/Jones-polynomial pipeline; checks theta-odd channel vanishing, C-twist absorption, Theta-reality, and reproduces Jones polynomials of 4_1/5_2/8_17-adjacent braids from first-principles R-matrices.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b593_round4_hearing.py",
+   "target_arcs": [
+    "B593"
+   ],
+   "what_it_locks": "Recomputes second-order hearing-law perturbation theory on SU(3)_2 stage and R-matrix Jones-polynomial checks; the exact symbolic sympy amplitude test (test_v1_exact_symbolic_amplitude) is gated behind OA_SLOW.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required for test_v1_exact_symbolic_amplitude"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_v1_exact_symbolic_amplitude skipped unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b594_e6_hearing.py",
+   "target_arcs": [
+    "B594"
+   ],
+   "what_it_locks": "Recomputes E6_2 monodromy and checks state-independence of the second-order hearing law, and that per-pair coefficients match a closed sine-kernel formula (not a bank of decimals this time), plus trace/order checks.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b595_dictionary.py",
+   "target_arcs": [
+    "B595"
+   ],
+   "what_it_locks": "Recomputes SU(3)_k odd-blocks and checks det(I-B_odd) equals powers of phi (spectral bridge), a dimension constraint, and (separately) that the E6_2 fixed achiral direction gives coefficient exactly -1.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b596_cat_map.py",
+   "target_arcs": [
+    "B596"
+   ],
+   "what_it_locks": "Recomputes SU(3)_k clock orders and classical matrix orders mod m to lock specific counterexample rows refuting a proposed 'clock=classical order' divisibility law, plus rows where it happens to hold.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b597_d1.py",
+   "target_arcs": [
+    "B597"
+   ],
+   "what_it_locks": "Reads a committed six_torsions_results.json and computes weighted-degree torsion invariants from stored polynomial coefficients, checking theta-odd/even torsion widths are pairwise distinct.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "|tau_4|=260736, |tau_8|=100636318520821923840",
+     "provenance_stated": "yes (from six_torsions_results.json)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b598_lemma.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Runs lemma_cell.py as a subprocess (gated OA_SLOW, ~12min) and greps stdout for symmetric-J, forced/not-forced block counts, and two specific big-integer weld values.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "m=4: <v0,b2v0>_J=(-536479695357+536483888640w)",
+     "provenance_stated": "yes (computed by subprocess)"
+    }
+   ],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "entire module skipped (allow_module_level=True) unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b598_p0.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Recomputes the Kashaev sum growth rate at N=400 and Richardson-extrapolates the 1-loop constant, comparing to 3^(-1/4) and a fixed VOL literal constant.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "VOL=2.029883212819307250042405108549 (mpf literal)",
+     "provenance_stated": "no (imported as bare literal, not derived here)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b598_p1.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Gated OA_SLOW; loads l51_obstruction.py module data and recomputes Fox calculus / cohomology for the m=1 cusp block, checking H1 dimension=1 and exact rational cocycle values for the longitude/meridian.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b598_step1_exact.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Runs peripheral_certificate_exact.py as subprocess and greps output for symbolic peripheral certificate facts (relator equation, commute/exp-sum/group-equal, unit c).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b598_step4a.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~30min); runs step4a_domain.py subprocess and asserts 6-block uniform cohomology-dimension picture via stdout grep counts.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b598_step4b.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~1h); runs step4b_responses.py subprocess and asserts bending-direction/rank/theta-odd-support facts and two large banked integer values via stdout grep.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "+2096640 and -536481792000 (banked constants checked in subprocess output)",
+     "provenance_stated": "yes (computed by subprocess)"
+    }
+   ],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b598_step6.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~10min); runs step6_exact_stage_v2.py subprocess and checks symbolic-identity/sign-branch verdict counts via stdout grep; docstring records that the v1 script's sympy attempt gave false NONZEROs.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "docstring documents a prior version (v1) computing this incorrectly (false nonzero) \u2014 a log-vs-code contradiction worth tracking, resolved by v2 per docstring."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b598_step7.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~20min); runs step7_g1_finite.py subprocess and greps stdout for mod-p closure dimension table matching f4=52/e6=78 at theta-even/odd dial slots.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b598_step9.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~2h); runs step9_independent_p1.py subprocess (a from-scratch construction, per docstring) and greps stdout for gate passes and a block-dims list.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b598_steps35.py",
+   "target_arcs": [
+    "B598"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~25min); runs steps3and5.py subprocess and greps stdout for a universal ratio across 6 blocks, Schur-uniqueness, rank, and parity-zero counts.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b599_alg.py",
+   "target_arcs": [
+    "B599"
+   ],
+   "what_it_locks": "Gated OA_SLOW; execs l51_obstruction.py source into a namespace and recomputes nilpotency orders, L1-parity-zero, and a t^2 Lagrange-interpolation witness coefficient (-536481792000) directly from re-derived matrices.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "-536481792000 (t^2 witness, re-derived via Lagrange interpolation)",
+     "provenance_stated": "yes (computed in test)"
+    }
+   ],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b599_selection_rule.py",
+   "target_arcs": [
+    "B599"
+   ],
+   "what_it_locks": "Recomputes SU(3)_2 ingredient commutation relations and then a Monte-Carlo random-configuration sweep (120 trials, seeded) checking a theta-parity selection rule (odd total parity forces amplitude to zero).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b600_cc2_locks.py",
+   "target_arcs": [
+    "B600"
+   ],
+   "what_it_locks": "Self-contained from-scratch rebuild of E6 level-4 modular data (Weyl group, S/T matrices) and locks 8 sub-claims L1-L8: primary/theta counts, two EXACT-arithmetic (cyclotomic-polynomial) zero traces, matrix orders, magnitude arithmetic against Q(sqrt2)+rational sets and two quartic minpolys, ladder context Z=+1 at k=1..3, and an l73 lemma about det/gcd.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "Z4=Tr(rho(A1))=0 exactly (cyclotomic reduction, no floats)",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b600_level_ladder.py",
+   "target_arcs": [
+    "B600"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~5min); runs verify_level4.py subprocess and greps stdout for primary counts at levels 1-4 and Z=0/Tr(Theta rho)=0 at level 4.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b601_pairing_law.py",
+   "target_arcs": [
+    "B601"
+   ],
+   "what_it_locks": "Runs pairing_law_scan.py subprocess (no OA_SLOW gate) and greps stdout for a machinery gate, conjugation-closure scan across 7 levels, and a 14-point trace-law grid all passing True.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b603_isotropy.py",
+   "target_arcs": [
+    "B603"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~15min); runs isotropy_mechanism.py subprocess and greps stdout for weight-purity, forced-zero identities at all 6 blocks, simple currents, and Z3-charge assignments.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b604_rosetta.py",
+   "target_arcs": [
+    "B604"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~20min); runs rosetta_blocks.py subprocess and greps stdout for a root/pair census and a MIXED-verdict count (8) at ambiguous heights.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b605_door2.py",
+   "target_arcs": [
+    "B605"
+   ],
+   "what_it_locks": "Runs door2_involution.py subprocess (no explicit OA_SLOW gate here) and greps stdout for relator gates, glide-involution families, a zero-lift census, SnapPy isometry group order/type, and a Gieseking-manifold identification.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b606_norm_bridge.py",
+   "target_arcs": [
+    "B606"
+   ],
+   "what_it_locks": "Runs b606_cells.py subprocess and greps stdout for a minimal polynomial identity, an E6_2 amplitude norm-product identity (60-digit certificate), and an all-fail NF-1 scan result.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b607_charge_table.py",
+   "target_arcs": [
+    "B607"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~20min); runs charge_table.py subprocess and greps stdout for exact PURE/MIXED bicharge census counts and cross-check values against B604.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b608_rosetta_gsm.py",
+   "target_arcs": [
+    "B608"
+   ],
+   "what_it_locks": "Gated OA_SLOW (~20min); runs rosetta_gsm.py subprocess and greps stdout for a full-census gate pass and class-mixed pair counts, cross-checked against B604 values.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required, else module-level skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "module-level skip unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b609_sealed_values.py",
+   "target_arcs": [
+    "B609"
+   ],
+   "what_it_locks": "Runs b609_e3_spectra.py subprocess (fast, ~1min, ungated) and greps stdout for dim/trace gates; separately reads a committed e1_output.txt text file and greps it for PASS lines and specific values, without recomputing E1 (E1's own heavy recompute lives in an OA_SLOW-gated script not invoked here).",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "test_e1_pins only reads a committed .txt output file (e1_output.txt) with string-match asserts; the heavy E1 computation itself is never actually executed by this test."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b610_m136_weld.py",
+   "target_arcs": [
+    "B610"
+   ],
+   "what_it_locks": "Runs m136_weld_scan.py subprocess and checks a 15-row scan table for conjugation-closure-failure, unit-modulus, and one omega-value spot-check.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b611_two_laws.py",
+   "target_arcs": [
+    "B611"
+   ],
+   "what_it_locks": "Runs two_laws_test.py subprocess for a conjugation-closure scan across 15 levels/words (both predictions FAILED per docstring), plus a separate direct numpy recomputation confirming golden eigenvalues are exact 5th roots of unity.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b612_pairing_chirality.py",
+   "target_arcs": [
+    "B612"
+   ],
+   "what_it_locks": "Runs pairing_chirality.py subprocess; NOTE the script itself asserts a sealed law and exits nonzero by design (returncode != 0 expected), and the test pins the resulting closure-set data from stdout, documenting the sealed prediction FAILED (LAW VIOLATED).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "test explicitly expects nonzero returncode ('the sealed verdict is FAIL by design'); unusual pattern worth flagging even though intentional and documented."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b613_closure_theorem.py",
+   "target_arcs": [
+    "B613"
+   ],
+   "what_it_locks": "Runs closure_theorem.py subprocess and greps stdout for axiom-pass counts, conjugation-identity pass counts (16), identity-failure counts (12), and an overall verified verdict string.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b615_comparison.py",
+   "target_arcs": [
+    "B615"
+   ],
+   "what_it_locks": "Runs b615_comparison.py subprocess and greps stdout for a design hash, MATCH@1e-2 tier counts, a Sidak-corrected p-value, and an 'AMBIGUOUS' verdict string.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "design hash 9a189f49; Sidak-corrected p=0.0775",
+     "provenance_stated": "yes (computed by subprocess)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b616_heldout.py",
+   "target_arcs": [
+    "B616"
+   ],
+   "what_it_locks": "Runs b616_heldout.py subprocess and greps stdout for a design hash, a sign-pattern match, a coarse-tier match count (2 of 378), and a STILL-AMBIGUOUS verdict.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b617_sign_law.py",
+   "target_arcs": [
+    "B617"
+   ],
+   "what_it_locks": "Runs sign_law_theorem.py subprocess and greps stdout for a symbolic PROVED verdict, 3 banked-value checks, and a Fibonacci-face verification.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b618_conductor.py",
+   "target_arcs": [
+    "B618"
+   ],
+   "what_it_locks": "Runs conductor_test.py subprocess and greps stdout for the sqrt(21)-bearing level list and a PASS prediction verdict.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b619_a5_bridge.py",
+   "target_arcs": [
+    "B619"
+   ],
+   "what_it_locks": "Runs a5_bridge.py subprocess and greps stdout for computed group-element orders and a REFUTED verdict.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b61_sl5.py",
+   "target_arcs": [
+    "B61"
+   ],
+   "what_it_locks": "Fast unit checks of an SVD-pseudoinverse numerical-stability property, matrix exponential vs scipy, an SL(3) high-precision cross-check, and that a 24-word SL(5) coordinate set is full-rank; the heavier SL(4)/SL(5) resolutions run only in the probe's __main__, not here.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b620_conductor_mechanism.py",
+   "target_arcs": [
+    "B620"
+   ],
+   "what_it_locks": "Runs conductor_mechanism.py subprocess and greps stdout for symbolic reflection formula, interpolation proof, and 4 specific bearing/silent rows for sqrt(5)/sqrt(21) membership.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b622_silver_exterior.py",
+   "target_arcs": [
+    "B622"
+   ],
+   "what_it_locks": "Pure sympy symbolic identities: phi^6 = 9+4sqrt5, an exterior-adjoint torsion identity, and a fig-8 calibration cross-ratio identity \u2014 all algebraic tautologies verified via simplify()==0.",
+   "lock_type": "TAUTOLOGICAL",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "TAUTOLOGICAL",
+     "detail": "Each assert is sp.simplify(expr)==0 on a purely algebraic identity in golden-ratio/sqrt terms with no external data \u2014 true by construction of the algebra, not an empirical or structural check of any arc output."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b629_interaction_values.py",
+   "target_arcs": [
+    "B629"
+   ],
+   "what_it_locks": "Checks a sealed markdown file's SHA256 hash is recorded in an artifact ledger, then independently recomputes (sympy/mpmath, 60-digit precision) E6_2 hearing-matrix unitarity/trace/order, diagonal sine-kernel values, golden-frame closed forms, and a 1-loop RGE running check against three hardcoded sealed target triples at three scales.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "three (lambda, alpha_i triple) RGE targets, e.g. 3.8597e14:(40.048,44.238,40.865)",
+     "provenance_stated": "no (labelled 'sealed' but not cited to a source file/derivation in this test)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b62_opposition_involution.py",
+   "target_arcs": [
+    "B62"
+   ],
+   "what_it_locks": "Recomputes opposition-involution properties (involution, height-preservation) across n=3..7, height-2 sector splits reproducing SL3/SL4 towers and predicting SL5, golden roots of char(M^2), and a height-2 dimension formula.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b631_matrix_comparison.py",
+   "target_arcs": [
+    "B631"
+   ],
+   "what_it_locks": "Checks two sealed markdown files' hashes are in the artifact ledger, then recomputes a PMNS-vs-triality-matrix comparison statistic D_obs and tier counts from hardcoded PMNS mixing-angle inputs; a 10^6-sample seeded Monte-Carlo null reproduction is gated behind OA_SLOW.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "D_obs=0.13407059; s12,s23,s13 from sqrt(0.307),sqrt(0.546),sqrt(0.0220)",
+     "provenance_stated": "no (PMNS values are bare literals, not cited to a PDG source in this test)"
+    }
+   ],
+   "skip_conditions": [
+    "OA_SLOW env var required for test_seeded_null_reproduces_exactly"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "the 10^6-sample seeded-null reproduction test is skipped unless OA_SLOW=1"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b632_cell2.py",
+   "target_arcs": [
+    "B632"
+   ],
+   "what_it_locks": "Checks committed-file hashes (prereg, corrected code, failed-run transcripts) are in the artifact ledger and asserts specific verdict strings recorded in a REPAIR_ADJUDICATION.md; the exhaustive mathematical verifier subprocess run is gated behind OA_SLOW.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required for test_exhaustive_verifier"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_exhaustive_verifier (the actual mathematical recompute) is skipped unless OA_SLOW=1; other tests here only check stored transcripts/hashes"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b632_h1_27.py",
+   "target_arcs": [
+    "B632"
+   ],
+   "what_it_locks": "Checks a prereg hash is sealed and reads a committed cell1_output.txt for h^0/h^1/h^2 verdict strings and a decomposition-arithmetic check computed directly (spin dims sum to 27); the full exact rerun is gated behind OA_SLOW.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required for test_full_rerun"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_full_rerun is skipped unless OA_SLOW=1; test_banked_output only reads a stored .txt transcript"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b633_b634.py",
+   "target_arcs": [
+    "B633/B634"
+   ],
+   "what_it_locks": "Checks sealed-file hashes are recorded, then runs run_b615r.py and g1_conductor_identities.py as subprocesses and greps their stdout for headline p-values and a G1 PASS string.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b637_part1.py",
+   "target_arcs": [
+    "B637"
+   ],
+   "what_it_locks": "Checks a prereg hash, reads several committed output .txt/FINDINGS.md transcripts for dimension tables, gate verdicts, and specific exact rational/sqrt(-3) values across many sub-tests; the full exact rerun of the dimension table is gated behind OA_SLOW; also greps source code for a specific line (cells.append...) rather than testing behavior.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "OA_SLOW env var required for test_full_rerun"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_full_rerun skipped unless OA_SLOW=1; most sub-tests here read only committed .txt transcripts, not live recomputation"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "test_part2b_resolved asserts a literal source-code string is present in b637_threeform.py \u2014 checks the code text, not its behavior."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b638_b639.py",
+   "target_arcs": [
+    "B638/B639"
+   ],
+   "what_it_locks": "Checks sealed prereg hashes, reads committed output transcripts for cocycle/law/mu-match verdicts (including several FAILED verdicts documented as such), and independently solves (via sympy) the invariant-symmetric-pairing equations for an sl2 module to verify antidiagonal alternating-sign structure from first principles.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "multiple asserted verdicts are themselves negative/failure results (e.g. 'no invertible +lambda intertwiner', 'mu-match False') pinned from committed transcripts, not live recomputation."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b63_sl4_symbolic_m.py",
+   "target_arcs": [
+    "B63"
+   ],
+   "what_it_locks": "Loads probe.py and checks its own internal run_checks() pass, Lucas-polynomial identities, and a symbolic factorization matching a hardcoded B59 polynomial identity at m=1 and having degree 15.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "B59 degree-15 polynomial (product of 6 quadratics x (t-1)^2(t+1))",
+     "provenance_stated": "yes (cited to B59 in comment)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b640_hearing_group.py",
+   "target_arcs": [
+    "B640"
+   ],
+   "what_it_locks": "Checks a prereg hash is sealed and reads a committed b640_output.txt transcript for group-order, kernel-order, class-size, and trace-value strings.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "purely reads a committed .txt transcript; no live recomputation in this test file."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b641_b642.py",
+   "target_arcs": [
+    "B641/B642"
+   ],
+   "what_it_locks": "Checks sealed prereg hashes and reads committed output transcripts for Cayley-Klein form, absolute-tone identification, order counts, and character-table strings.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "purely reads committed .txt transcripts; no live recomputation."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b643.py",
+   "target_arcs": [
+    "B643"
+   ],
+   "what_it_locks": "Checks a prereg hash is sealed and reads a committed b643_output.txt transcript for cocycle-False verdicts and a BANKED OBSTRUCTION string.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "purely reads a committed .txt transcript."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b643_flip.py",
+   "target_arcs": [
+    "B643"
+   ],
+   "what_it_locks": "Reads committed b643_output.txt/FINDINGS.md/ARTIFACT_HASHES.txt transcripts for conjugator search, cocycle True/False verdicts, singular-matrix counts, and a flip-breaks-both-classes verdict string; also independently recomputes the sealed PREREGISTRATION.md's SHA256.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "most assertions read committed .txt transcripts rather than recomputing; only the hash check is a live computation."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b644_mckay.py",
+   "target_arcs": [
+    "B644"
+   ],
+   "what_it_locks": "Recomputes the SL(2,5) mod-5 group order (=120) and cat-map order (=10) from scratch, checks a golden-irreducible character table identity via sympy, and reads a committed b644_output.txt for kernel-mismatch/class-function verdicts plus a FINDINGS.md disclosure of a 'sealing error'; a separate test verifies all files under ARTIFACT_HASHES.txt still hash-match.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md text itself discloses 'sealing error, disclosed' and a NEEDS-SPECIALIST tag \u2014 an admitted provenance issue on this arc, worth surfacing to the absence/error sweep."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b645_dial_law.py",
+   "target_arcs": [
+    "B645"
+   ],
+   "what_it_locks": "Parses committed B637 output .txt files into a table of exact sympy Q(sqrt-3) values, then checks a universal cross-ratio law across 9 parsed datasets and a 13-divisibility pattern on the 'lit' subset \u2014 the values themselves come from parsing text files, not fresh recomputation, but the law-check arithmetic is live; also separately hash-verifies all files under ARTIFACT_HASHES.txt.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "underlying numeric values are regex-parsed out of B637's committed .txt transcripts rather than recomputed from source; the law itself is checked live on those parsed values."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b646_wave2.py",
+   "target_arcs": [
+    "B646"
+   ],
+   "what_it_locks": "Checks 8-character hash prefixes of eleven committed 'cc2_packets' files against a hardcoded SEALS dict, checks the packet archive matches a manifest except two disclosed patched files (verifying the patches are real, i.e. differ from the original), and reads FINDINGS.md for a formula string and a 7-value ladder tuple including a documented 'NO COLLISION' and 'NEEDS-SPECIALIST' tag.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'NEEDS-SPECIALIST' tag is asserted present in FINDINGS.md \u2014 an admitted unresolved item on this arc."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b647_cell1.py",
+   "target_arcs": [
+    "B647"
+   ],
+   "what_it_locks": "Reads committed b647_output.txt/FINDINGS.md text for dim/verdict strings, checks a sympy tautological arg() identity, and independently recomputes (via sympy, all inline hardcoded exact rational+sqrt(-3) constants) a 'defect law' relating stored Y and D values, plus a gauge-invariance identity in test_cell3_gauge_adjudication.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "large exact rationals e.g. dA1=54751534973459448941880/143 +...",
+     "provenance_stated": "no (hardcoded in the test with no citation to a source file)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Very large exact rational constants (dA1, dA2, dR1, dR2, Y values) are typed directly into the test with no reference to where they were computed or a committed source file \u2014 an identification-by-type/no-witness risk for these specific numbers even though the surrounding algebra is checked live."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b649_silver.py",
+   "target_arcs": [
+    "B649"
+   ],
+   "what_it_locks": "Loads committed JSON witness files (entries_L.json, letters27_L.json, sigma_matrix_L.json, silver_Y_L.json, cubic_rational.json) and recomputes, using a custom exact-arithmetic class over L=Q(s) with s^4=16+8s^2, group relators, peripheral traces, a 27-dim representation check, a sigma-matrix unitarity check, and a Y-form cross-ratio/13-and-211 divisibility pattern \u2014 all exact Fraction arithmetic, no floats; some sub-facts (stage3a/3b) are read from committed .txt transcripts rather than recomputed.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "test_stage3a_dimensions_banked and part of test_stage3bi_sigma_matrix read committed .txt transcript strings rather than recomputing."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b64_parity_mechanism.py",
+   "target_arcs": [
+    "B64"
+   ],
+   "what_it_locks": "Loads probe.py, checks its internal run_checks(), and via sympy checks Lucas-polynomial parity, SL(3) sector Dickson-product factorizations, symmetric-sector even-in-m/antisymmetric-odd-in-k parity, and that SL(4) depth-4 sequences are bounded-degree polynomials.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b650_types.py",
+   "target_arcs": [
+    "B650"
+   ],
+   "what_it_locks": "Runs types_checker.py subprocess and greps stdout for specific typed-tuple strings and an 'ILL-TYPED' absence check; checks a frozen-hash string is recorded and FINDINGS.md text about a disclosed revision; independently (sympy) verifies a wave-2 equivariance-wall claim (no intertwiner T conjugates As to At) by solving a linear system.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b651_wave3.py",
+   "target_arcs": [
+    "B651"
+   ],
+   "what_it_locks": "Checks 8-char hash prefixes of three committed finisher-queue files, independently recomputes (sympy, symbolic radicals) two trace-ratio identities from B649's entries_L.json using a fresh symbolic sqrt(4+4sqrt2) representation, and reads FINDINGS.md/ERROR_LEDGER.md text for an ERRATA disclosure and a 'DIED at r=23' note.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md is asserted to contain 'ERRATA' and a specific corrected value, and b646's FINDINGS.md is asserted to say 'DIED at r = 23' \u2014 both are admitted-error/discontinuation markers on these arcs."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b652_gateb.py",
+   "target_arcs": [
+    "B652"
+   ],
+   "what_it_locks": "Reads committed GRAMMAR_TABLE.md and GATE_B_VERDICT.md text for consistency between the two documents (same 'orbit size 2' phrase, cited theorem numbers) and asserts specific SM-value phrases are ABSENT from both documents; a labeling-strength check ensures a core-ratio row is marked CONVENTION not FORCED.",
+   "lock_type": "TAUTOLOGICAL",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "purely textual/documentary assertions on markdown files, not a mathematical or numeric recomputation; effectively checks the gate documents are internally consistent and honestly labeled, not that any physics/math result is correct."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b653_design.py",
+   "target_arcs": [
+    "B653"
+   ],
+   "what_it_locks": "Checks a design-document hash is sealed, recomputes (sympy) the prediction arithmetic 1/(2phi)=(sqrt5-1)/4 and a Galois-branch sign check, greps a design markdown for required phrase fragments, reads an ADJUDICATION.md for outcome/verdict phrases plus recomputes a z-score from hardcoded decimal inputs (0.3092, 0.0087), and checks an archived prediction file's hash and an addendum's reconciliation z-score.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "0.3092, 0.0087 decimal inputs used to recompute z=0.021035",
+     "provenance_stated": "no (bare literals in the test, not cited to source)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "ADJUDICATION.md/ADDENDUM text explicitly documents this prediction's provenance was 'FACTUALLY WRONG' and license 'SPENT' \u2014 an admitted retraction on this arc, asserted present rather than hidden."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b654_listening.py",
+   "target_arcs": [
+    "B654"
+   ],
+   "what_it_locks": "Recomputes an LCM-based period identity from a hardcoded divisor list, uses snappy to compute m136 cusp tetrahedra shapes at 212-bit precision and compares to exact target rationals, checks a golden character-table tone-multiplicity identity via sympy, checks two refutation facts (parity symmetry, silver det=8 not 7), and cross-checks a committed silver_Y_L.json against a q_area_output.txt transcript for a '2*conj(Y)' area-defect law (refuting a '4*conj(Y)' alternative).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b655_beta.py",
+   "target_arcs": [
+    "B655"
+   ],
+   "what_it_locks": "Pure-arithmetic sympy checks (rational arithmetic identities), a silver-matrix det/trace 'kill' check (det=8 not 7, trace^2-4=32 not 23, with an explicit brute-force search over t in -100..100 confirming no integer satisfies the false claim), a base-rate anchor-set hit-count computation, and reads FINDINGS.md for 'THREE KILLS'/'does NOT fire'/'Nothing banks' phrases.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b656_digest.py",
+   "target_arcs": [
+    "B656"
+   ],
+   "what_it_locks": "Recomputes (fresh code, independent of b238 for the order function) SU(3)_k clock order vs GL(2,Z/m) matrix order for 5 rows split into 'law' and 'anomaly-zone' rows, and independently builds the full Weyl group W(D4) (384 elements) to check a 'sign hears the discriminant' theorem at two test values t=5,7 against two odd-valuation-prime agreement counts.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b657_invariant_line.py",
+   "target_arcs": [
+    "B657"
+   ],
+   "what_it_locks": "Reads four committed JSON packet files (w0a_v0.json, w0b_blocks.json, portal_matrix.json, silver_portal.json) and checks stored fields directly (support indices, coordinates, block dims, verdict strings) plus one live sympy recomputation of the portal matrix's rank/determinant/block-diagonal structure from the stored matrix entries.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "most assertions (test_w0a_conflation_refuted, test_w0b_one_per_block, test_w2a_silver_form_match) read pre-computed JSON fields directly rather than recomputing them; only test_w1_portal_rank5_block_diagonal does a live linear-algebra check, and even that reads the matrix entries from the same JSON it's checking."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b658_order4.py",
+   "target_arcs": [
+    "B658"
+   ],
+   "what_it_locks": "Reads a committed b658_output.txt transcript for singular-matrix counts, conjugator tuples, and BROKEN/WALL-8 verdict strings \u2014 no live recomputation.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "entire test file only string-matches against a committed .txt transcript; no code is executed to reproduce the underlying computation."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b65_sl4_symbolic_jacobian.py",
+   "target_arcs": [
+    "B65"
+   ],
+   "what_it_locks": "Loads probe.py's committed jacobian_m.json-derived symbolic_jacobian(), checks its shape/degree, and verifies (sympy, exact) that its characteristic polynomial equals a target Dickson-product factorization, including a match to a hardcoded B59 polynomial at m=1.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "B59 degree-15 factorization (6 quadratics)*(t-1)^2(t+1)",
+     "provenance_stated": "yes (cited to B59)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b660_structure.py",
+   "target_arcs": [
+    "B660"
+   ],
+   "what_it_locks": "Recomputes (sympy factor_list over Q(sqrt-3)) an irreducibility check on two hardcoded large-rational cubic coefficients, and reads three committed JSON files (s2_results.json, s4_matrices.json) plus one markdown file for verdict strings (DEGENERATE-INDISTINGUISHABLE, ZERO, CONSISTENT-NOT-SELECTIVE).",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [
+    {
+     "value": "c1, c2 large exact rational+sqrt(-3) coefficients",
+     "provenance_stated": "no (hardcoded, cited only informally to 'verify_s2_cubic' in docstring)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "three of four tests just read stored JSON verdict fields (DEGENERATE-INDISTINGUISHABLE, ZERO) without independent recomputation."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b661_wave1.py",
+   "target_arcs": [
+    "B661"
+   ],
+   "what_it_locks": "Recomputes SU(3)_2 modular S-matrix moduli and checks they match golden quantum-dimension formula phi/D and 1/D, plus a small independent sympy eigenvalue correction check.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b662_wave1.py",
+   "target_arcs": [
+    "B662"
+   ],
+   "what_it_locks": "Reads several cell output/JSON files (cellA_output.txt PASS count, cellE_verdict.json, cellB/qblock_78.json) directly for verdict fields, but two sub-tests (cell C real-structure, cell D checkerboard parity) recompute exact-fraction identities live from JSON matrix/letter entries with no external library.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "three of five sub-tests (cellA, cellE, cellB) only read stored verdict strings/fields from committed files."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b662_wave2.py",
+   "target_arcs": [
+    "B662"
+   ],
+   "what_it_locks": "Recomputes live (exact Fraction arithmetic, from two persisted JSONs) a decisive identity that a sigma-matrix maps Y to conj(Y); recomputes an independent Molien-series-style character check (numpy/cmath) for a weight-5 mechanism; other sub-tests (cellF certificate, cellG period, cellH match) just read stored JSON/txt fields.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "test_cell_f_certificate_flags, test_cell_g_minimal_period, test_cell_h_fourth_wall_output only read stored JSON/txt fields without recomputation."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b663_bifocal.py",
+   "target_arcs": [
+    "B663"
+   ],
+   "what_it_locks": "Recomputes (exact Fraction arithmetic from a committed cubic_rational.json) a Jordan-algebra cubic-form evaluation at v0, giving support/coefficient/N(v0,v0,v0) values; reads a committed a2_table.json for gate pass counts; recomputes SU(3)_6 odd-block matrix-power order live via numpy; and does a sympy irrationality check on a quartic's roots.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b664_landscape.py",
+   "target_arcs": [
+    "B664"
+   ],
+   "what_it_locks": "Recomputes (sympy) golden trigonometric identities, then (numpy, from b238's SU(3)_2 stage) a closed-form trace formula across n=3..25, a refutation that quiet-and-real traces at n=12,18 are not the golden value, and exact 5th-root phase ratios.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b665_reconciliation.py",
+   "target_arcs": [
+    "B665"
+   ],
+   "what_it_locks": "Recomputes (numpy, from b238's SU(3)_2 stage) two 'same trace, different tone' counterexamples showing trace alone doesn't determine the hearing amplitude, plus a general reality check on two words giving tr_odd=1 exactly.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b666_wave1.py",
+   "target_arcs": [
+    "B666"
+   ],
+   "what_it_locks": "Reads six committed cell output/markdown files (TRIAGE_TABLE.md, b666c1_shadow_log.txt, cell3/4/6/S outputs) for verdict phrase presence (order 384, ALL GATES PASS, torsor, 610/610, etc.) \u2014 purely documentary/string checks, no recomputation.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "entirely string-presence checks against committed transcripts; no computation happens in the test itself."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b666_wave2.py",
+   "target_arcs": [
+    "B666"
+   ],
+   "what_it_locks": "Reads five committed cell output/JSON files for verdict phrases and boolean fields (class_antisymmetry_25of25, cup_surjective_rank5, CONFIRMS EXACT INTEGER count, revival-cell keyword presence) \u2014 purely documentary/string checks, no recomputation.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "entirely string/field-presence checks against committed transcripts and JSON; no computation happens in the test itself."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b666_wave3.py",
+   "target_arcs": [
+    "B666"
+   ],
+   "what_it_locks": "Reads four committed cell directories' .md/.txt files for keyword presence (slot-symmetric/SYMMETRIC, 2T, 312/312, F1) \u2014 purely documentary/string checks, no recomputation.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "entirely keyword-presence checks against committed transcripts; no computation happens in the test itself."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b669_track_h.py",
+   "target_arcs": [
+    "B669"
+   ],
+   "what_it_locks": "Reads two committed output .txt transcripts for a fig-8 control-reproduction verdict, BOUNDED counts, a REFUTED string, and an isometry-group fact, including one transcript explicitly documenting the control 'C1 fig-8 control reproduces banked...: False' for a 'wrong-object first pass' preserved on record.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "h1_output.txt is asserted to record a FAILING control (False) from an acknowledged 'wrong-object first pass', preserved rather than deleted \u2014 an admitted methodological error kept on record for this arc."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b66_sl6_tower.py",
+   "target_arcs": [
+    "B66"
+   ],
+   "what_it_locks": "Loads probe.py and validate.py; checks word-set structure, theta-split sector-count predictions (9,6,5) across the tower n=3..7, Dickson-Lucas coefficients, sympy symbolic Jacobian parity-factor identities for n=2, a k=3 root-value check, and a live numerical-differentiation full-rank(35) check via random perturbation of a generic SL(6) representation; the full 30-min numerical spectrum lives outside the suite.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b670_anatomy.py",
+   "target_arcs": [
+    "B670"
+   ],
+   "what_it_locks": "Reads verify_f4_dim52.py source text and two committed FINDINGS_CC2.md files for the presence of '52'/'CORRECTION'/'F4' strings \u2014 documentary checks, no execution of the verification script itself.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "test_f4_dim52_verified_here reads the SOURCE TEXT of verify_f4_dim52.py as a string (checking '52' appears in the code) rather than executing it to verify the claim \u2014 a much weaker check than running the script."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b671_extraction.py",
+   "target_arcs": [
+    "B671"
+   ],
+   "what_it_locks": "Recomputes (sympy, from a committed a2_results.json candidate-matrix JSON) symmetry/rank/invariant-ratio checks for two candidate matrices, confirming the ratios differ (a gauge-dependence finding), plus a documentary check that FINDINGS.md contains a specific fraction and the word 'independent'.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  }
+ ]
+}

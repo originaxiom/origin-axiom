@@ -1,0 +1,1312 @@
+{
+ "batch": "tests_09",
+ "tests": [
+  {
+   "file": "tests/test_b672_miniwave.py",
+   "target_arcs": [
+    "B672"
+   ],
+   "what_it_locks": "grep-checks frontier B672 cell markdown/text for the RR '301' match and the A4/sqrt5 branch dichotomy strings",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "assertion is presence of substrings in a stored artifact, not a recomputation of the RR match"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b674_route1.py",
+   "target_arcs": [
+    "B674"
+   ],
+   "what_it_locks": "reads cellES stored trace/mismatch json+txt and checks silence/MISS markers",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "TAUTOLOGICAL",
+     "detail": "line 12: `assert ... or True` is unconditionally true regardless of the phi/golden check"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b675_hcusp.py",
+   "target_arcs": [
+    "B675"
+   ],
+   "what_it_locks": "checks stored cell_output.txt/addendum markers for silver tau assignment; separately recomputes irreducibility/discriminant of a quartic-in-u polynomial",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b678_d4_annex.py",
+   "target_arcs": [
+    "B678"
+   ],
+   "what_it_locks": "reads d4_results_MERGED.json and checks no-growth flag, recomputes |Z| from stored re/im and compares to 1/phi and sqrt3-1 targets, and recomputes ceiling map from same rows",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b67_figure_eight_apolynomial.py",
+   "target_arcs": [
+    "B67"
+   ],
+   "what_it_locks": "loads probe.py and symbolically recomputes the SL(2) trace-map fixed locus, derives the A-polynomial and checks equality with Cooper-Long's, numerically verifies monodromy solutions vanish on it",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b680_meditation.py",
+   "target_arcs": [
+    "B680"
+   ],
+   "what_it_locks": "imports verify.py and recomputes the volume-as-L-value identity (mpmath, 40 dps) and the 5-inert-in-Eisenstein Hecke fact",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "2.029883212819307250",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b681_pretest.py",
+   "target_arcs": [
+    "B681"
+   ],
+   "what_it_locks": "imports pretest.py and recomputes v5 5-adic valuations of factorials/divided powers against a small lookup table",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "{1:1,10:12,40:49,80:99,119:146}",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b683_ledger.py",
+   "target_arcs": [
+    "B683"
+   ],
+   "what_it_locks": "recomputes 5-adic valuation of binomial coefficients, jacobi symbols, and a Mahler-measure/volume ratio via mpmath polylog",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "0.6461318944389010281872730214476127881445",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b684_loop7.py",
+   "target_arcs": [
+    "B684"
+   ],
+   "what_it_locks": "recomputes a degree-8 minimal polynomial root value and a Lucas-number determinant-product sequence",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b685_terminal.py",
+   "target_arcs": [
+    "B685"
+   ],
+   "what_it_locks": "recomputes the figure-eight shape discriminant (-3) and the exp(i pi/3) root; second test only checks that a sibling test file (test_b755_carried.py) exists and contains a named function string, as a stub-guard",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "test_gswz_powers_of_three does not recompute anything itself; it asserts a sibling test file exists and names a function, guarding a replacement that lives elsewhere"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b686_koide_firewall.py",
+   "target_arcs": [
+    "B686"
+   ],
+   "what_it_locks": "recomputes the Koide Q=2/3 tautology for arbitrary theta via mpmath, and separately computes the empirical lepton Koide ratio from hardcoded PDG masses",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "me=0.51099895, mmu=105.6583755, mtau=1776.86 (MeV)",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b687_koide_split.py",
+   "target_arcs": [
+    "B687"
+   ],
+   "what_it_locks": "recomputes h(27)=2/3 rational arithmetic and the empirical Koide 45-degree angle from hardcoded lepton masses",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "me=0.51099895, mmu=105.6583755, mtau=1776.86 (MeV)",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b689_meeting.py",
+   "target_arcs": [
+    "B689"
+   ],
+   "what_it_locks": "recomputes a_p Frobenius traces for an elliptic curve mod 3 and mod 5 by brute-force point counting, checks hardcoded genus values",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "genus={3:0,5:0,15:1}",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b68_cyclotomic_numeric.py",
+   "target_arcs": [
+    "B68"
+   ],
+   "what_it_locks": "imports cyclotomic_numeric.py and recomputes Habiro J_2 vs the figure-eight Jones polynomial at sample q, and nullspace dimensions of a recursion search over generic q",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b68_exact_recursion.py",
+   "target_arcs": [
+    "B68"
+   ],
+   "what_it_locks": "imports exact_recursion.py and recomputes colored Jones values symbolically (J_1=1, J_2 is a genuine Laurent polynomial)",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "module docstring states the full order-2 non-existence check (exact_recursion.main()) is 'too slow for CI' and not run here"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b690_asymmetry.py",
+   "target_arcs": [
+    "B690"
+   ],
+   "what_it_locks": "recomputes n+v3(n!) predicted values vs a hardcoded 'actual' dict and checks bounded defect",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "actual={2:3,3:3,4:5,5:5,100:146}",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b691_totient_root.py",
+   "target_arcs": [
+    "B691"
+   ],
+   "what_it_locks": "recomputes totient(3), totient(5) primality and two quadratic discriminant/root facts via sympy",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b693_inert5.py",
+   "target_arcs": [
+    "B693"
+   ],
+   "what_it_locks": "recomputes jacobi symbol and local-factor algebra to fix Hecke eigenvalue signs",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b694_e3a.py",
+   "target_arcs": [
+    "B694"
+   ],
+   "what_it_locks": "recomputes local Euler factor identity and irrationality of sqrt5",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b695_e3_close.py",
+   "target_arcs": [
+    "B695"
+   ],
+   "what_it_locks": "checks arithmetic identity among three hardcoded Atkin-Lehner sign literals (w_inf,w3,w5) picked to satisfy eps=+1",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "w_inf=-1, w3=+1, w5=-1",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the three sign values are hand-set literals, not derived from any computed L-function/Atkin-Lehner data in this test; the arithmetic consequence (eps=+1) follows trivially once they are fixed"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b696_golden_only.py",
+   "target_arcs": [
+    "B696"
+   ],
+   "what_it_locks": "loads a stored d3_results.json from an EXTERNAL path (a sibling 'cc2' clone under the user's home directory, not this repo) and computes a 3x3 minor rank of an obstruction-coordinate matrix; silently returns (no assertion) if that external file is absent",
+   "lock_type": "SKIPPED_OR_XFAIL",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "if os.path.exists(_SRC) is False the test body returns immediately with no assertion executed at all, and _SRC ('~/oa-seat-cc2/origin-axiom/...') is outside this repo -- in ordinary CI/clone environments this test silently passes vacuously"
+    },
+    {
+     "kind": "MISSING_TARGET",
+     "detail": "source data path is under an external '~/oa-seat-cc2/origin-axiom' clone, not under frontier/ in this repo"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b697_frobenius.py",
+   "target_arcs": [
+    "B697"
+   ],
+   "what_it_locks": "recomputes that phi equals a Gaussian period of 5th roots of unity via sympy simplify",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b698_the_meeting.py",
+   "target_arcs": [
+    "B698"
+   ],
+   "what_it_locks": "imports b698_legA.py and recomputes/compares mpmath volume, Mahler measure, BSD-related L-values, PSLQ independence checks, and class-number computations against constants computed inside the imported module",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "Vol=2.0298832128193072500424051085490 (mpmath, 45 dps)",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b699_two_object.py",
+   "target_arcs": [
+    "B699"
+   ],
+   "what_it_locks": "pure-python finite-field/group-closure computation: builds SL(2,5) and SL(2,F25) images from trace triples via brute-force orbit closure and checks group orders 120 and 15600",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b69_metallic_meridian.py",
+   "target_arcs": [
+    "B69"
+   ],
+   "what_it_locks": "imports metallic_meridian.py and recomputes the m=2 trace-map identity and checks the derived A-polynomial equals the stored m136 reference inside the same module",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b700_fiber_functor.py",
+   "target_arcs": [
+    "B700"
+   ],
+   "what_it_locks": "large sympy-only test: recomputes Galois-swap action on hardcoded 2I=SL(2,5) character rows (asserted 'sage-verified'), field-of-definition facts, V4 group law, PSL(2,7) analog, Gauss-sum discriminant identities, and an obstruction-logic function",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "character rows rA,rB for 2I and PSL(2,7) irreps",
+     "provenance_stated": "yes (comment: sage-verified)"
+    },
+    {
+     "value": "FS indicators (-1,-1)",
+     "provenance_stated": "yes (comment: sage-verified, ref_b701_phase2)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the character-row data and FS-indicator values that anchor several of the identity checks are imported literals labelled 'sage-verified' rather than recomputed by this test"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b702_metallic_hearing.py",
+   "target_arcs": [
+    "B702"
+   ],
+   "what_it_locks": "recomputes torsion/root-of-unity properties of golden vs silver swap eigenvalues and the p mod 4 audibility law via sympy",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b703_koide.py",
+   "target_arcs": [
+    "B703"
+   ],
+   "what_it_locks": "imports koide_q3.py and recomputes the sigma-distance of theta0 from 2/9 using mpmath and hardcoded ME/MMU/MTAU constants defined in that module",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b704_seam.py",
+   "target_arcs": [
+    "B704"
+   ],
+   "what_it_locks": "recomputes discriminants for stage primes, genus-group multiplication law (squarefree products), F2-vector-space dimension count, and the audibility-by-p-mod-4 typing",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b705_audibility.py",
+   "target_arcs": [
+    "B705"
+   ],
+   "what_it_locks": "recomputes the figure-eight Jones polynomial value at a 5th root of unity and checks it is real/golden, plus the p mod 4 audibility law",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b706_rung2.py",
+   "target_arcs": [
+    "B706"
+   ],
+   "what_it_locks": "recomputes a PSLQ search (mpmath) for low-height algebraic relations between the muon/electron mass ratio and sqrt5, checks a rational Cabibbo-candidate value, and a discrete-vs-continuous cardinality comparison",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "m_mu/m_e ~ 105.6583755/0.51099895000 (PDG masses)",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b708_kim_seam.py",
+   "target_arcs": [
+    "B708"
+   ],
+   "what_it_locks": "pure-python recomputation of quadratic-residue-based linking numbers and audibility-as-infinite-prime-linking identity, plus the squarefree meeting product",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b709_turok.py",
+   "target_arcs": [
+    "B709"
+   ],
+   "what_it_locks": "recomputes Lie-algebra positive-root counts to show 36 does not select E6 uniquely; recomputes hardcoded golden-ratio proximity checks against rung-4 mixing angles; recomputes hyperbolicity of a monodromy matrix; computes fixed-point sets of two Z/2 involutions symbolically to derive their opposite canonicity; asserts a dimensionless integer cannot fix a dimensionful mass scale",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring flags this test as replacing an earlier version whose spine ('turok_cpt_canonical == amphichirality_canonical') was a hardcoded-boolean self-comparison that could not fail (MB12-class); the current version computes fixed sets instead"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b70_e2_unipotent_bound.py",
+   "target_arcs": [
+    "B70"
+   ],
+   "what_it_locks": "imports e2_unipotent_bound.py and recomputes trace bidegree bounds for unipotent matrix words at several seeds, and a symbolic degree bound on unipotent matrix powers",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b70_symbolic_m_pinv.py",
+   "target_arcs": [
+    "B70"
+   ],
+   "what_it_locks": "imports symbolic_m_pinv.py, recomputes reference characteristic-polynomial factors for M^{-1},M^2,M^3 and checks the symbolic-m SL(3) Jacobian construction reproduces the tower at m=2",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring states the full n=3 gate (m=1..7) takes ~8 minutes and is not run in this test; only a single m=2 fast check is locked"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b70_symbolic_m_unipotent.py",
+   "target_arcs": [
+    "B70"
+   ],
+   "what_it_locks": "imports symbolic_m_unipotent.py and calls its internal validate() function at n=3,4 to check symbolic-m unipotent power expansions match direct matrix powers",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "validation logic lives entirely inside the imported module's validate() function, opaque to this test file"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b710_thimbles.py",
+   "target_arcs": [
+    "B710"
+   ],
+   "what_it_locks": "recomputes the hyperbolic volume via mpmath polylog and its purely-real saddle actions, a quartic saddle-point equation for an FRW lapse action and its complex roots, and a trivial orbit-count inequality",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b711_two_z2.py",
+   "target_arcs": [
+    "B711"
+   ],
+   "what_it_locks": "recomputes symbolic solutions of a character-variety curve at x=2, an involution-preserves-curve check, and the discriminant-based Galois-fixed-point locus",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring notes the amphichiral-involution test was rewired 2026-07-22 after an earlier version hardcoded yg without consulting CURVE, making it true for any yg of the same real part (an MB12-class defect); now recomputed from the curve"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b712_continuum.py",
+   "target_arcs": [
+    "B712"
+   ],
+   "what_it_locks": "recomputes reciprocal symmetry of a fixed A-polynomial, singular-point condition at (M,L)=(1,-1), and imaginary-quadratic cusp-shape minimal polynomial",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b713_chirality.py",
+   "target_arcs": [
+    "B713"
+   ],
+   "what_it_locks": "recomputes order/gcd facts about Isom(4_1)=D4, symbolic fiber of a character-variety curve and its Galois action, and a matrix anti-congruence witnessing amphichiral vs chiral Seifert forms",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b714_spine.py",
+   "target_arcs": [
+    "B714"
+   ],
+   "what_it_locks": "checks arithmetic sums/disjointness of hardcoded block-dimension and rung-range literals summarizing prior arcs' conclusions",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "blocks=(17,9,1)",
+     "provenance_stated": "no"
+    },
+    {
+     "value": "outright_negative={B631,B685,B706}; ambiguous_closed={B615,B616}",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "this file mostly re-asserts hand-picked summary numbers (17+9+1=27, 8%3!=0, rung ranges, arc-name-set disjointness) from other arcs rather than deriving them here; closest to a structural ledger-consistency check than a computation"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b715_native_gauge.py",
+   "target_arcs": [
+    "B715"
+   ],
+   "what_it_locks": "recomputes a norm computation over Q(sqrt5) (phi^5-1) and a gcd-based vacuity argument; checks non-reality of a hardcoded large-integer adjoint-trace value",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "tr = 37437270 + 38799960*sqrt(3)*I",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the large adjoint-trace integers (37437270, 38799960) are inserted as literals with no provenance in this test; only their non-reality is checked, which any nonzero imaginary coefficient would satisfy"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b716_time_gap.py",
+   "target_arcs": [
+    "B716"
+   ],
+   "what_it_locks": "recomputes conjugacy of a cat-map matrix to its inverse, discriminant of the trace-field minimal polynomial, and a dimension-count identity for SO(3); the final test compares two hardcoded volume literals",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "v_41=v_52=0.98136883",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "TAUTOLOGICAL",
+     "detail": "test_child_washes_out_the_being compares two identical hand-typed literal floats (0.98136883 vs 0.98136883) rather than computing each manifold's volume; cannot fail regardless of whether the underlying claim is true"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b717_observer_emergence.py",
+   "target_arcs": [
+    "B717"
+   ],
+   "what_it_locks": "recomputes cusp-shape real/imag parts, conjugacy of a monodromy matrix to its inverse, and quadratic-residue splitting facts at p=11; repeats the same hardcoded-literal volume comparison as B716",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "0.98136883 vs 0.98136883",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "TAUTOLOGICAL",
+     "detail": "test_child_washes_out_the_being again compares two identical hardcoded float literals (0.98136883==0.98136883), duplicating B716's non-computation"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b718_child.py",
+   "target_arcs": [
+    "B718"
+   ],
+   "what_it_locks": "recomputes irreducibility/discriminant of the invariant trace-field quartic x^4-x-1, SL(2,q) order formula at q=3,5,283, and a six-theorem slope inequality",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "arithmetic={(5,1):-283,(6,1):-59,(8,1):-31}",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b719_scale.py",
+   "target_arcs": [
+    "B719"
+   ],
+   "what_it_locks": "uses the live snappy library to build m003(-2,3), enumerate its covers up to degree 7, and check volume-multiplicativity, homology, and imaginary-quadratic class numbers via a from-scratch class-number-counting function",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b71_sl3_apoly.py",
+   "target_arcs": [
+    "B71"
+   ],
+   "what_it_locks": "imports probe.py/peripheral.py/symbolic_dehn.py and performs an extensive recomputation of the SL(3) figure-eight character variety: fixed-locus linear relations, Groebner-basis component decomposition, Sym^2 embedding, numeric monodromy realization/roundtrip on all three components, Dehn-filling A-variety matches, and meridian-longitude commutation",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b71_v0_geometric.py",
+   "target_arcs": [
+    "B71"
+   ],
+   "what_it_locks": "imports v0_geometric.py and recomputes that the geometric V0 component's peripheral data commutes but has no clean monomial A-variety relation",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b720_coupling_path.py",
+   "target_arcs": [
+    "B720"
+   ],
+   "what_it_locks": "imports cells.py from the replacement arc B830 and recomputes three discriminating facts (cyclotomic branch disjointness, Markov quiver finite-mutation-not-finite-type, flat-connection moduli finite-dimensionality) plus a positive control; final test greps FINDINGS.md for a 'part-computed, part-cited' label",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring explicitly states this test REPLACES an earlier label-lock (B828) that only asserted three hardcoded strings were pairwise distinct and could only fail by a literal-editing accident"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b721_thermal.py",
+   "target_arcs": [
+    "B721"
+   ],
+   "what_it_locks": "recomputes discriminant of the Alexander polynomial vs trace field, a Fibonacci/Lucas branched-cover homology-order sequence, base-field disjointness of an exact sequence, and a determinant/trace check for a modular-flow triviality claim",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b722_resurgence.py",
+   "target_arcs": [
+    "B722"
+   ],
+   "what_it_locks": "recomputes discriminants of two quadratics (being/hearing fields), a polynomial-factorization identity for the A-polynomial slice at L=1, and a mpmath saddle-point second-derivative value matching sqrt(-3)",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b723_observer.py",
+   "target_arcs": [
+    "B723"
+   ],
+   "what_it_locks": "recomputes determinant/trace of a cat-map matrix, spectrum-cardinality of a KMS weight at two lambda values, and structural tuple-inequality checks for phase labels and Jones index formula",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring notes the lam=1 collapse assertion used to be a literal self-comparison `{1}=={1}`; it is now built the same way as the lam=1/2 case, though the surrounding 'observer is a phase transition' and 'space is an inclusion' tests still rely on hand-labelled phase tuples rather than a computed phase transition"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b724_seeing.py",
+   "target_arcs": [
+    "B724"
+   ],
+   "what_it_locks": "checks arithmetic sums/set-cardinality of hardcoded block dims; computes log10 ratio of two hardcoded tau values against a target and margin; checks a discrete-vs-continuous cardinality inequality; intersects two hardcoded integer sets",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "tau={4:260736, 8:100636318520821923840}",
+     "provenance_stated": "no"
+    },
+    {
+     "value": "ggm={1,3,4,8,9,10,11,12,18,46,62,74,90,170,424,697,702,724351}; banked={3,260736,165110400,7983360}",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the tau-function values and the ggm/banked integer sets are inserted as literals with no derivation or citation in this test file"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b725_born.py",
+   "target_arcs": [
+    "B725"
+   ],
+   "what_it_locks": "recomputes the Born-form quadratic norm from a complex conjugation swap and contrasts with a cyclic-cubic order-3 case; recomputes antiunitarity/involution properties of a modular-conjugation operator via random numpy matrices; recomputes Gibbs-state Tr(rho P) weights vs a non-orthogonal counterexample; recomputes Gleason frame-function constancy for a Born vs a non-Born odd harmonic in dimension 2",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b726_hearing.py",
+   "target_arcs": [
+    "B726"
+   ],
+   "what_it_locks": "recomputes minimal polynomials/degrees of Fibonacci-MTC weight, amplitude, and F-symbol quantities over Q(sqrt5)-derived fields; recomputes the complex 5th-root-of-unity interference phase and contrasts with Q(sqrt5)'s total reality; recomputes a numeric counterexample to A^2=M~|psi|^2; recomputes commutator/off-diagonal/unitarity/Yang-Baxter facts for a Fibonacci braid representation",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b727_baserate.py",
+   "target_arcs": [
+    "B727"
+   ],
+   "what_it_locks": "recomputes the McKay graph adjacency/Perron-eigenvector for affine E6 and its Coxeter number; recomputes that the ordinary E6 Dynkin adjacency equals a CIZ E6 adjacency by construction; checks 2O/2I character traces are real quadratic (never a sub-datum of an imaginary-quadratic field); recomputes the 2-splits-mod-8 base rate over the 9 Heegner numbers; final test uses live snappy (skipped if unavailable) to compare m003/m004 volumes and homology",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "pytest.skip('snappy unavailable') if import snappy fails"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_sister_m003_ties_m004_field_but_is_not_a_knot skips entirely (pytest.skip) if the snappy package is not importable in the CI/test environment"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b728_stokes.py",
+   "target_arcs": [
+    "B728"
+   ],
+   "what_it_locks": "recomputes Galois-group order/cyclicity for Q(zeta5) and its unique quadratic subfield, the Klein-four structure of Q(sqrt-3,sqrt5), and the crux non-membership of zeta5 in that biquadratic compositum via distinct minimal polynomials",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b729_amplitude.py",
+   "target_arcs": [
+    "B729"
+   ],
+   "what_it_locks": "recomputes minimal polynomial/discriminant/Galois group for the amplitude field Q(sqrt(2+phi)) and the associator field Q(sqrt phi), contrasts their Galois types (C4 vs D4), and checks object-native fields' ramified-prime disjointness",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b730_faces_cosmos.py",
+   "target_arcs": [
+    "B730"
+   ],
+   "what_it_locks": "recomputes discriminants for the three Klein-four subfield generators and their product law; recomputes that adjoining sqrt(-7) explodes the group to (Z/2)^3; recomputes Galois-group orders for two child trace fields (quartic S4, cubic S3); final test uses live snappy (skipped if unavailable) to compare m004(5,1)'s volume/isometry to the Weeks and Thurston manifolds",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "pytest.skip('snappy unavailable') if import snappy fails"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_thurston_manifold_is_m004s_own_child_second_smallest_closed skips via pytest.skip when snappy is unavailable"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b732_out_a5.py",
+   "target_arcs": [
+    "B732"
+   ],
+   "what_it_locks": "pure-python from-scratch construction of F4 arithmetic and SL(2,F4)=A5, recomputes group order 60, counts order-5 elements and their trace classes, and checks Frobenius swaps the two 5-classes (outer automorphism)",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b733_observer_space.py",
+   "target_arcs": [
+    "B733"
+   ],
+   "what_it_locks": "pure-python F4/A5 construction recomputes Out(A5)=Z/2 via Frobenius trace-class swap; sympy recomputes the 3-irrep character field Q(sqrt5); recomputes Aut(Z[w])=Z/2 by counting roots of x^2+x+1; recomputes a saturating 2-rank sequence for units mod 2^k",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b734_m004_congruence.py",
+   "target_arcs": [
+    "B734"
+   ],
+   "what_it_locks": "pure-python construction of the Eisenstein-integer ring mod m and orbit closure of Riley generators, recomputes PSL image index at levels 2,4,8 against hardcoded ambient group orders (60,960,30720) and checks the level-8 jump",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "|PSL(2,O_3/m)| = 60, 960, 30720 for m=2,4,8",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b735_emittance.py",
+   "target_arcs": [
+    "B735"
+   ],
+   "what_it_locks": "uses live snappy (skipped if unavailable) to compute m004's length spectrum and checks traces lie in the Eisenstein integers Z[w]; checks cusp-openness/homology facts across m004 and its (5,1) filling",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "pytest.skip('snappy unavailable') in both tests"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "both tests in this file skip outright via pytest.skip if snappy is not importable"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b736_abc.py",
+   "target_arcs": [
+    "B736"
+   ],
+   "what_it_locks": "recomputes a zeta-residue formula for Q(sqrt-3) numerically, checks finiteness of a single congruence-level group order, recomputes an entire-function (no-pole) property of a truncated Dirichlet sum; checks odd real dimension of H^3 blocks a Shimura datum; recomputes a Sylvester-equation invertibility (Kronecker determinant) via numpy to show intertwiner T=0; final test asserts hardcoded zero-reduction counts for SM parameters",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "n_params=24, reductions=0, forced_values=0, discrete_constraints_on_SM=0",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "test_P3_zero_SM_parameters_reduced merely restates hardcoded zero counts (reductions=0 etc.) as the 'ledger'; nothing in the test computes these counts from the arc's actual claims, so it cannot detect if a future arc claims a reduction"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b737_candidate_zero.py",
+   "target_arcs": [
+    "B737"
+   ],
+   "what_it_locks": "uses live snappy (importorskip) plus mpmath to recompute a zeta-quotient residue identity against 2*sqrt3/volume, a Humbert covering-degree identity (=12), the exact class-number-formula SSB residue value, a CM Hilbert-class-polynomial cusp-shape check via kleinj, and a level-palette unit-group computation",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "pytest.importorskip('snappy') in two tests"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_voice_residue_equals_2sqrt3_over_volume and test_humbert_cover_index_12 both use pytest.importorskip('snappy'), which skips them if snappy is unavailable"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b739_rigidity.py",
+   "target_arcs": [
+    "B739"
+   ],
+   "what_it_locks": "recomputes a Fourier-restriction coset character-sum orthogonality relation; uses live snappy (importorskip) to recompute the residue-triangle identity and the covering-degree-12 relation; checks the single-cusp count of m004",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "pytest.importorskip('snappy') in two of three tests"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_residue_triangle_covering_invariant and test_single_cusp_single_channel both skip via pytest.importorskip('snappy') if unavailable"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b73_dehn_filling.py",
+   "target_arcs": [
+    "B73"
+   ],
+   "what_it_locks": "recomputes a Groebner basis for the SL(2) fixed-locus (single geometric component, no L=M^k hit) and imports dehn_filling.py to numerically realize SL(4) bundle representations and check M^4=L / M^3=L degree relations on two components",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b73_sl4_apoly.py",
+   "target_arcs": [
+    "B73"
+   ],
+   "what_it_locks": "imports probe.py and recomputes Sym^3 embedding into SL(4), numeric monodromy/meridian commutation, and the eigenvalue-shadow match to the Cooper-Long SL(2) monodromy up to a cube root of unity",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b740_grid.py",
+   "target_arcs": [
+    "B740"
+   ],
+   "what_it_locks": "recomputes a gcd-based grid-count of coprime (p,q) pairs (87=9+78); uses live snappy (importorskip) to check an amphichirality isometry shortcut on sample fillings; reads a stored completion output.txt for the 78/0-unresolved verdict text and a negative-hit-count check",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "pytest.importorskip('snappy') for the amphichirality test"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "test_amphichirality_shortcut_sample skips via pytest.importorskip('snappy') if unavailable"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b742_negatives_hunt.py",
+   "target_arcs": [
+    "B742"
+   ],
+   "what_it_locks": "reads a stored B58 recompute output.txt and its sha256 sidecar and checks hash integrity plus a substring marker (a 'transcript-assert fallback', per the docstring, rather than re-running the full computation); recomputes a mod-2-square tautology over a small integer range; recomputes SU(2)_k T-matrix root-of-unity facts; recomputes a Pisot dim-5 companion-matrix eigenvalue counterexample via numpy",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring explicitly labels test_b58_revival_sealed_recompute_reproduces a 'TRANSCRIPT-ASSERT FALLBACK (WORKING_RULES 7)': it checks a stored output file's hash and a substring rather than rerunning the underlying SL(4) computation, on the stated grounds that the full rerun takes minutes"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b745_revivals.py",
+   "target_arcs": [
+    "B745"
+   ],
+   "what_it_locks": "loads a stored jacobian_m.json data file and recomputes its m=1 characteristic polynomial against a symbolically-derived Fibonacci-matrix product target; recomputes an SL(3) fixed-line Jacobian characteristic polynomial from scratch; recomputes a discriminant-mod-2-square vacuity property over random polynomials; recomputes an elliptic-curve discriminant via b-invariants and a resultant-based discriminant extraction",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b746_golden_ledger.py",
+   "target_arcs": [
+    "B746"
+   ],
+   "what_it_locks": "recomputes three symbolic identities relating discriminant-5 quadratics, golden-ratio powers, and a chord/tower eigenvalue relation",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b747_b748_sweeps.py",
+   "target_arcs": [
+    "B747",
+    "B748"
+   ],
+   "what_it_locks": "checks sha256 hash of a shared sealed input json across both arcs, checks parity split counts of its rows; reads stored b747_out.txt/b747_closure_out.txt/b748_out.txt files and asserts exact tally/verdict substrings and control-line substrings",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring states the sweeps themselves 'run in the Sage env'; this pyenv test suite only locks the committed textual outputs and input-file integrity, not the sweep computation itself"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b749_f2_f8_locks.py",
+   "target_arcs": [
+    "B749"
+   ],
+   "what_it_locks": "recomputes eigenvalue moduli of a family of trace-2 SL(2,Z) matrices to show no pseudo-Anosov carrier (F2); recomputes the K0=Z+phi*Z multiplier-ring closure algebra for the golden Effros-Shen AF algebra; recomputes eigenvalue field of a Fibonacci substitution matrix; recomputes factorization of x^2+3 vs x^2-5 over Q(sqrt5) to show irreducibility (F8 witnesses)",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b749_genesis_forks.py",
+   "target_arcs": [
+    "B749"
+   ],
+   "what_it_locks": "recomputes that a det=-1 Fibonacci matrix squares to m004's monodromy exactly; recomputes a resultant-based field-distinctness check; recomputes singularity of a shadow-variant abelianization matrix and a fixed-eigenvector check; recomputes a continued-fraction/quadratic-equation proportionality argument for a metallic-slope non-match",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b74_higher_spin_grading.py",
+   "target_arcs": [
+    "B74"
+   ],
+   "what_it_locks": "imports probe.py and recomputes the W_N charge-conjugation Casimir sign-grading for sl(3,4,5), the Dickson-invariant parity involution, and the overlap/extras comparison between W_n spins and Dickson powers at n=3,4,5",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b750_lack_ledger.py",
+   "target_arcs": [
+    "B750"
+   ],
+   "what_it_locks": "loads ledger.json and checks verdict/class-count fields, that every entry's citation path exists on disk, that each class has a can_fail witness file present, and that an admission-rule exclusion example and id-uniqueness hold",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b751_adjudication.py",
+   "target_arcs": [
+    "B751"
+   ],
+   "what_it_locks": "recomputes two exact golden-ratio identities via sympy; recomputes a one-loop QCD running-coupling estimate at two energy scales from hardcoded alpha_s(MZ) and beta-0; reads a stored output.txt for verdict-line substrings; recomputes a Born-weight |amplitude|^2 identity",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "aMZ=0.1180, MZ=91.1876 (PDG-like inputs)",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b752_receipt.py",
+   "target_arcs": [
+    "B752"
+   ],
+   "what_it_locks": "recomputes a Cayley-Hamilton-style adjugate identity for 2x2 matrices; recomputes fixed points and stability (derivative) of a Mobius-like map; recomputes a corrected-holonomy matrix identity; reads a stored output.txt for verdict-line substrings",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b753_mixing.py",
+   "target_arcs": [
+    "B753"
+   ],
+   "what_it_locks": "recomputes several exact trigonometric/golden-ratio identities relating a hardcoded complex mixing element B00 to Born-weight and eigenphase quantities, including a sign-flip invariance check",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "B00 = 1/(2phi) + I*sin(2pi/5)/sqrt5 (the 'banked B593 element')",
+     "provenance_stated": "yes (comment cites B593)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b754_p2_spectral.py",
+   "target_arcs": [
+    "B754"
+   ],
+   "what_it_locks": "mostly asserts hardcoded numeric literals (CM discriminants -48/-3, residue formulas over 4 fields, palette sizes 1/2/8, golden-class counts 16/37 and 1152/2880, saddle-field facts) directly, with light arithmetic recombination; one test (test_b746_f11_golden_free) actually greps FINDINGS.md files in two frontier dirs for golden-related marker strings and asserts none are found, with a guard that files were scanned",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "golden_classes=16, total_classes=37, golden_elements=1152, total_elements=2880",
+     "provenance_stated": "no"
+    },
+    {
+     "value": "vol_m004=vol_m003=2.0298832128",
+     "provenance_stated": "no"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "several tests (test_tomb_l277_golden_weld_census, test_tomb_l77_saddle_field's disc constants, test_face_irrelevant_wall7's hardcoded equal volumes) assert on literal numbers with no derivation shown in this file, functioning more as regression pins on values computed elsewhere than as recomputations"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "docstring on test_b746_f11_golden_free documents that the PREVIOUS version of this test was vacuous twice over (counted matches then executed `pass` unconditionally, and referenced a nonexistent directory name so half its scan target was silently skipped) -- now repaired to actually assert"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b755_carried.py",
+   "target_arcs": [
+    "B755"
+   ],
+   "what_it_locks": "three of six tests read stored cell1_out.txt/cells245_out.txt/cell3_out.txt and assert exact substring matches (genus-2 witness text, 1/4-not-distinguished verdict, GSWZ gate fractions and eq(2) matches); the other three recompute a linear-disjointness resultant check plus a from-scratch Markov-quiver mutation-class-size-1 closure, a Fisher-information discriminant identity plus a TOMBSTONES.md citation-text check, and an independent from-scratch power-series verification of the same GSWZ coefficients using pure-Python Fraction arithmetic",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "test_verification_addendum_independent_algebra is a genuine from-scratch recomputation (via Fraction arithmetic) of the same coefficients that test_cell3_b685_gswz_gates_and_pure3 merely reads from cell3_out.txt, so the two together do cross-check, but the cell3/cell1/cell2 tests alone only compare to committed text"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b756_doors.py",
+   "target_arcs": [
+    "B756"
+   ],
+   "what_it_locks": "recomputes a golden-ratio algebraic-defect identity across four sign combinations; recomputes Alexander-polynomial discriminants for three monodromy traces to show none equal the golden discriminant 5; recomputes mod-5 factorization degrees for three number-field-defining polynomials to check total inertness; recomputes a Lucas-family discriminant and dilatation identity",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b757_two_z3.py",
+   "target_arcs": [
+    "B757"
+   ],
+   "what_it_locks": "recomputes order-3/characteristic-polynomial facts for a specific matrix, checks a mod-4 polynomial identity and matrix equality, and does a brute-force enumeration of GL(2,Z/4) to count order-3 elements and conjugacy classes",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b758_chain.py",
+   "target_arcs": [
+    "B758"
+   ],
+   "what_it_locks": "regex-parses docs/THEOREM_LEDGER.md to check the chain has exactly links C1..C43 with expected grade labels and PRICED-count thresholds, checks every referenced tests/*.py lock file exists on disk, and checks each AXIOM entry's nearby text contains 'PRICED'",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "this is a document-structure/pointer-integrity audit of a markdown ledger, not a mathematical recomputation; it verifies the ledger's own internal consistency and that cited lock files exist, not that the cited locks actually prove what the ledger claims"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b75_metallic_degree_rank.py",
+   "target_arcs": [
+    "B75"
+   ],
+   "what_it_locks": "imports probe.py and recomputes, via numeric degree_over_family sampling over random reps, that odd metallic bundles m=1,3 give a clean M^3=L relation at n=3 while k=2,4 do not, and that the eigenvalue-test convention anchors correctly for m=1",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b764_c19.py",
+   "target_arcs": [
+    "B764"
+   ],
+   "what_it_locks": "recomputes an off-diagonal-block/trace-derivative quantity from an explicit Riley representation and compares it to sqrt(disc) for a quadratic case and to 2*Im(root) for a cubic (5_2) case; recomputes the discriminant factorization identity from roots at 50-digit precision",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b766_audit.py",
+   "target_arcs": [
+    "B766"
+   ],
+   "what_it_locks": "recomputes several chirality/basepoint flip facts symbolically (conjugation on a character-variety curve, trace symmetry, Sym^2 matrix asymmetry, golden Galois swap on A5 characters), then derives a full set of (c,theta,gamma5) flip-vectors from these same computed objects and compares the derived dict to a hardcoded cc_vecs dict labelled as 'cc's banked literals'; also computes an F2-rank-3 Gaussian-elimination check on the derived vectors",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "cc_vecs={'T4':(1,0,0),'T6':(1,1,0),'T7':(0,0,1),'T3':(0,0,1)}",
+     "provenance_stated": "yes (labelled cc's banked literals, a cross-seat comparison)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring documents that the flip-vector tests used to be hand-typed literal-vs-literal comparisons (e.g. 'assert (0,0,1)==(0,0,1)') that could not fail regardless of the involutions' actual behavior; the current version derives every bit from computed objects before the cross-seat comparison"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b766_torsor.py",
+   "target_arcs": [
+    "B766"
+   ],
+   "what_it_locks": "recomputes chirality/time/chord facts as in B766_audit, then computes a rank-3 F2 matrix directly from three probe objects each moved by exactly one of (c, theta, gamma5) (conjugation on a Q(sqrt-3) probe, Sym^2 word-matrix reversal, golden Galois on phi), and finally recomputes at genuine SL(3) that reversal is trace-trivial while inversion is not (distinguishing theta from iota)",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "docstring states this file strengthens an earlier version (R31-4 audit) that had hardcoded the rank-3 flip vectors rather than computing them from generator action"
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b768_audit.py",
+   "target_arcs": [
+    "B768"
+   ],
+   "what_it_locks": "class-based sympy recomputation: row-stochasticity and eigenvalues (1, -1/phi) of a golden transition matrix; Fibonacci-word substring/ratio facts generated by a static word-substitution method; chirality/time-eigenvalue facts duplicated from B766; two final tests (test_row7_identity_exact and test_gamma5_inverts_monodromy) assert the identical algebraic identity (1-phi)^2 == 1/phi^2 under two different names",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "TAUTOLOGICAL",
+     "detail": "test_row7_identity_exact and test_gamma5_inverts_monodromy in TestDiscriminators are byte-identical assertions of the same fixed algebraic identity (1-phi)**2 - 1/phi**2 == 0, given two different narrative names ('row7 identity' vs 'gamma5 inverts monodromy'); as an algebraic identity on the constant phi it is unconditionally true and does not discriminate between the two claimed interpretations"
+    }
+   ]
+  }
+ ]
+}

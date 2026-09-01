@@ -1,0 +1,115 @@
+{
+ "batch": "arcs_097",
+ "arcs": [
+  {
+   "arc": "B971_L132_vacuity",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/PRIOR_ART_ANOMALY.md",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/WORK.md",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/e6_weight_route.py",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/e6_weight_route_out.json",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/e6_weight_route_out.txt",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/holonomy_probe.py",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/holonomy_probe_out.json",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/merge_work.py",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/nonvacuity_map.py",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/nonvacuity_map_out.json",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/prior_art_anomaly.json",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/su5_anomaly_verdict_out.txt",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/vacuity_probe.py",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/vacuity_probe_out.json",
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/work.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B971_L132_vacuity/su5_anomaly_verdict.py (first 120 lines read; body inspected further via grep-adjacent context, matches WORK.md derivation exactly)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: NEGATIVE. claim_one_line: 'L132 WORKER CELL (banked in B978): the anomaly check is VACUOUS on complete 27s, and the vacuity is TRIPLE -- reached independently by two mutually independent routes recomputed from scratch, and concordantly by the companion scout's 2047-subset map over the object's Levi. WORKER CELL: this directory is a Phase-A multiagent worker cell whose result was banked by B978; it is not a standalone arc and carries no independent claim.' depends_on: [B978]; superseded_by: B978.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "All four SM anomaly coefficients (grav, [U(1)]^3, [SU(3)]^2 Y, [SU(2)]^2 Y, [SU(3)]^3) vanish identically on the complete 27, computed two independent ways (SU(5) state-by-state construction in su5_anomaly_verdict.py, and E6 Weyl-orbit weight sums in e6_weight_route.py)",
+     "where": "su5_anomaly_verdict.py / su5_anomaly_verdict_out.txt; e6_weight_route.py / e6_weight_route_out.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Uses sympy.Rational / fractions.Fraction exact arithmetic, is committed with its output witness files (su5_anomaly_verdict_out.txt, e6_weight_route_out.json/.txt), and the WORK.md 'Reproduce' line names the exact commands (python su5_anomaly_verdict.py; python e6_weight_route.py; python merge_work.py)."
+    },
+    {
+     "what": "The 156 truncations of the 27 (out of 2047 non-empty subsets of the 11 Levi irreps) that admit a unique anomaly-free U(1), and the '1 out of 2047 is vacuous' uniqueness result",
+     "where": "PRIOR_ART_ANOMALY.md section 1(b); nonvacuity_map.py / nonvacuity_map_out.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exhaustive subset enumeration with exact sympy linear algebra, code and JSON output both committed; script is self-contained modulo the repo-relative E6 Cartan matrix it builds inline."
+    },
+    {
+     "what": "The centralizer of the principal sl(2) in e6 is 0-dimensional (no continuous commutant of the holonomy) and the E6 exponents 1,4,5,7,8,11",
+     "where": "holonomy_probe.py / holonomy_probe_out.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Derived from the Cartan matrix in-sandbox with an integer/rational computation; output JSON committed and matches the numbers quoted in PRIOR_ART_ANOMALY.md."
+    },
+    {
+     "what": "The E6->SO(10)xU(1)_psi->SU(5)xU(1)_chi branching PATTERN used to seed route 1's construction (which multiplet gets which psi/chi charge)",
+     "where": "su5_anomaly_verdict.py header comment; WORK.md section 0",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "n/a (explicitly labelled CITED)",
+     "why": "The file's own docstring states this branching pattern is 'CITED standard E6 group theory, not re-derived' in route 1; the cell is honest that this input is imported, and states route 2 (e6_weight_route.py) independently recomputes the same content from the Cartan matrix alone as a check -- so the load-bearing conclusion does not ultimately rest on the citation, but route 1 alone would not stand without it."
+    },
+    {
+     "what": "The physical claim that the object (m004 / the cascade construction) supplies no deletion/truncation operation on the 27, hence the anomaly check cannot acquire content -- based on citing B955 (knot-group abelianization argument) and B959 (finite images are toral)",
+     "where": "PRIOR_ART_ANOMALY.md section 3, table row 4",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This cell cites B955 §1/§3 and B959 rather than re-deriving them here; whether those arcs' claims are themselves computed/reproducible is outside this cell's files and was not checked in this read."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No verification/ subdirectory, but the cell itself is structured as two independently-coded recomputation routes (su5_anomaly_verdict.py and e6_weight_route.py) plus a third companion scout computation (vacuity_probe.py/nonvacuity_map.py/holonomy_probe.py) that is explicitly described as reaching the same verdict by a different instrument; merge_work.py checks the two main routes' outputs against each other post hoc.",
+   "absence_claims": [
+    {
+     "quote": "No literature search was run from this cell; the scout's §4 null remains uncertified.",
+     "where": "WORK.md section 7"
+    },
+    {
+     "quote": "It does not certify a literature null (§4).",
+     "where": "PRIOR_ART_ANOMALY.md section 5"
+    },
+    {
+     "quote": "Honest limit, stated first: no live search was reachable from this cell (the session's web-search budget was exhausted before it began). What follows is (i) in-repo prior art from a sweep that did reach INSPIRE, and (ii) recalled settings, flagged as such. The null is not certified.",
+     "where": "PRIOR_ART_ANOMALY.md section 4"
+    },
+    {
+     "quote": "No orbifold projection, no quotient, no boundary-condition truncation exists here.",
+     "where": "PRIOR_ART_ANOMALY.md section 3, table row 4"
+    },
+    {
+     "quote": "the record has the 27 (a module) and h1 = 3 (a multiplicity, explicitly corrected away from \"three copies\")",
+     "where": "PRIOR_ART_ANOMALY.md section 3, table row 2"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "Route 1's construction of the SU(5) hypercharge generator and the SO(10)/SU(5) branching of the E6 27 relies on citing the 'standard E6 group theory' branching pattern (labelled CITED in the script's own docstring) as the starting scaffold before checking it against a second route; the identification of which E6 weight-orbit direction is 'hypercharge' at all rests on matching to the known GUT branching shape rather than being forced by the object.",
+     "where": "su5_anomaly_verdict.py header docstring; WORK.md section 6"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "This cell's own verdict is that the headline anomaly check (L132) is VACUOUS -- i.e. it establishes a NEGATIVE / null result, correctly labelled NEGATIVE in arc_verdict.json. This is a case where the honest finding is 'this check carries no content,' which the cell reports clearly rather than inflating into a positive claim; noted here as good practice, not a flaw.",
+     "where": "arc_verdict.json; WORK.md section 5"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The cell explicitly scopes (does not retract) B864's headline 'hypercharge is the unique gaugeable U(1)' to being true only over an imported chiral 15 truncation, and states the truncation -- not the anomaly conditions -- carries all the selective power. FINDINGS.md for this cell does not restate this scope-note (by design, per its own stated writer-safety rule), so a reader who only reads FINDINGS.md/arc_verdict.json for B971 without following through to WORK.md would miss the scope-note on B864 entirely.",
+     "where": "WORK.md section 4; FINDINGS.md"
+    }
+   ],
+   "seat_note": "This is a genuinely clean piece of null-result mathematics: two independently coded routes plus a third scout computation agree exactly, all with exact-rational committed witnesses and explicit COMPUTED-vs-CITED labelling, and the cell is careful to state what it does NOT establish (no literature-null certification, no claim about the object supplying a truncation). The physics content is structural only (an anomaly-cancellation bookkeeping identity on E6/SO(10)/SU(5) representation theory) -- no observable or numerical prediction is made or claimed, and the cell's own conclusion is that the check in question is empty of content on this object's spectrum."
+  }
+ ]
+}

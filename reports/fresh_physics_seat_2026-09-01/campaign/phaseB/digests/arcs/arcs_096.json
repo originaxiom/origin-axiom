@@ -1,0 +1,252 @@
+{
+ "batch": "arcs_096",
+ "arcs": [
+  {
+   "arc": "B967_retraction_sweep",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B967_retraction_sweep/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B967_retraction_sweep/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- L139 EXECUTED: the retraction sweep. Retracting a claim does not retract its instances; a retraction is not complete until its phrase is in docs/RETRACTED_PHRASES.md and the sweep (scripts/checks/retraction_sweep.py, over all 2,210 tracked .md files) is clean. First run found 11 violations across 2,210 files, the important one being B962's own FINDINGS still asserting both claims B964 had retracted, in its title and two body sections, with no correction banner -- existed 4 hours before the sweeper existed.",
+   "log_says": "2026-08-08 PROGRESS_LOG.md entry matches FINDINGS/verdict verbatim (both halves of the gap now have machinery: lawmap-scope + retraction-sweep). A LATER entry (B1004, 2026-08-09) records that B967's deliberate non-registration of 'chirality = the extremal-KMS / Galois label' (reasoned as correct at the time) was later reversed: once registered as row 7, the sweep found two MORE instances that had been invisible while unregistered.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "11 violations found across 2,210 tracked .md files on first run, including B962's uncorrected title/body assertions of retracted B964 claims",
+     "where": "B967_retraction_sweep/FINDINGS.md sec 2; scripts/checks/retraction_sweep.py (not in this packet)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The sweep script itself is not included in this packet's files (only FINDINGS.md and arc_verdict.json were sampled), so the actual invocation/output was not independently re-run or witnessed here; the claim describes a script's behavior asserted in prose, not a committed log/output file in this arc's own directory."
+    },
+    {
+     "what": "Non-vacuity demonstration: planting a retracted phrase into docs/OPEN_PROBLEMS.md makes the sweep fire, removing it makes it clean, file restored byte-identical",
+     "where": "FINDINGS.md sec 3",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "No witness file (log/diff) of this before/after test is included in the arc's two files; described only in prose."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; no independent re-run of the sweep script witnessed within this packet's sampled files.",
+   "absence_claims": [
+    {
+     "quote": "**Registration is manual.** ... nothing enforces that a new retraction gets registered",
+     "where": "FINDINGS.md sec 5.3"
+    },
+    {
+     "quote": "`.md` only. Code comments and JSON verdict lines are not swept.",
+     "where": "FINDINGS.md sec 5.4"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The sweep script's own run output (the 11 violations, the plant/remove non-vacuity test) is not present among this arc's two committed files; the claim rests on prose description in FINDINGS.md/arc_verdict.json rather than a committed log or diff in this arc directory.",
+     "where": "B967_retraction_sweep/FINDINGS.md"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Later log entry (B1004) shows the arc's own reasoned decision not to register one phrase was subsequently reversed and cost two more invisible instances -- not a contradiction of B967's text (which states the decision and its rationale honestly) but a governance/process finding worth flagging as an evolving, not settled, instrument.",
+     "where": "PROGRESS_LOG.md B1004 (2026-08-09), per log_index/B967.txt"
+    }
+   ],
+   "seat_note": "This is pure documentation/governance tooling (a text-retraction linter), not physics; no observable or structural physics content. The self-admitted limits (phrase-exact only, manual registration, .md-only) are honestly stated, but the actual sweep output is not witnessed in this arc's committed files."
+  },
+  {
+   "arc": "B968_sm_verdict",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B968_sm_verdict/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B968_sm_verdict/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE SM VERDICT CRYSTALLISED: the product is docs/THE_SM_VERDICT.md (not included in this packet). One sentence: the object supplies the adjoint half of a GUT symmetry breaking and not the 27 half, and the 27 half is an input in every theory anyone has. Amended twice (recorded in-document): B976 corrected omission of 11 cascade-closure arcs and two wrong-status claims (Z6 form, hypercharge); B978 sharpened scope ('adjoint half' is about the path, and 78 not-subset-of 27(x)27 so no adjoint VEV masses a 27 fermion).",
+   "log_says": "PROGRESS_LOG.md 2026-08-08 entry matches the FINDINGS/verdict: owner directive to crystallise before turning to cosmology/gravity. A later MASTERPLAN v3 entry cites THE_SM_VERDICT.md's premise verbatim (adjoint half not 27 half).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "sin^2(theta_W) = 3/8 at tree/GUT level -- 'REPRODUCED not predicted'",
+     "where": "arc_verdict.json claim_one_line (referring to docs/THE_SM_VERDICT.md, not included in this packet)",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The actual target document THE_SM_VERDICT.md is not among this arc's two files; the verdict/findings here are a pointer to it, so the underlying derivation cannot be checked from what was read."
+    },
+    {
+     "what": "Three sealed crossings, three negatives (B915 MISS 16 sigma; B925 outcome B; B929 right shape wrong magnitude 5-9x) attributed to a value-layer frame-relativity (B936), not to the rank obstruction",
+     "where": "arc_verdict.json claim_one_line",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no (from this arc's own files)",
+     "why": "All cited from prior arcs (B915/B925/B929/B936); B968 itself is a synthesis document with no computation of its own included here."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Explicitly a synthesis/crystallization arc ('the product of this arc is a repository document, not an in-arc write-up'); no computation performed in this arc.",
+   "absence_claims": [
+    {
+     "quote": "the first version omitted eleven of the twelve cascade-closure arcs (B860-B873) and contradicted two banked results: it called the global Z6 form 'not addressed' (B862 derives it) and hypercharge 'OPEN' (B864 derived it...)",
+     "where": "FINDINGS.md sec (B976 amendment)"
+    },
+    {
+     "quote": "the arithmetic-27 idea exists in physics only in black-hole charge-orbit work and has NEVER touched a VEV",
+     "where": "arc_verdict.json claim_one_line"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The actual synthesis document docs/THE_SM_VERDICT.md, which is the entire substance of this arc, is not among the packet's files and was not read; all its content here is taken on the arc_verdict.json's own paraphrase.",
+     "where": "docs/THE_SM_VERDICT.md (not in packet)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "arc_verdict.json shows a later governance review (B1214, 2026-08-29) classified this arc's creates_law as false / VERIFICATION class, explicitly noting it and B969 were NOT read in full before that reclassification (asymmetry vs 13 other arcs that were read in full) -- flagged by the review itself, not hidden.",
+     "where": "arc_verdict.json creates_law_reviewed.basis"
+    }
+    ],
+   "seat_note": "A synthesis/bookkeeping arc summarizing prior results (mostly STRUCTURAL claims, one numeric reproduction sin^2theta_W=3/8 cited as reproduced not predicted); since the target document itself was not in this packet, the underlying arithmetic could not be checked here, only the arc's own account of it."
+  },
+  {
+   "arc": "B969_kato_yukie_verify",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B969_kato_yukie_verify/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B969_kato_yukie_verify/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B969_kato_yukie_verify/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- L138 FIRES: verified independently 3/3 that the object's canonical pair (the vacuum 3-block) has Kato-Yukie orbit invariant K (the field mu generates). All three published pencil cubics are irreducible over Q, have discriminant squarefree kernel {7,11} matching mu's own kernel, and mu acquires a root in Q[x]/P for all three, forcing Q[x]/P isomorphic to K exactly. Scope limit stated: an orbit is not a point, so this supplies a direction not a VEV. Also banks a correction from the verified party: ker R27(g14)=ker R27(g22) is the SAME 3-plane, so their 'independent control' was not independent.",
+   "log_says": "PROGRESS_LOG.md 2026-08-08 matches; a later entry (B978) states 'L137 does not undermine L138' via a gauge-invariance argument; B990/991 (2026-08-09) cite B969's fired result as basis for 'the orbit-to-point gap is STRUCTURAL, not evidential.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "All 3 pencil cubics irreducible over Q, squarefree discriminant kernel {7,11}, factor as [1,2] against mu, isomorphic to K",
+     "where": "results.json (mu, disc_mu=6237, cubics[] with poly/disc/squarefree_kernel/mu_factor_degrees/isomorphic_to_K)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results.json is a committed witness giving exact polynomials, exact discriminants, and computed kernel/factorization fields per cubic; a stranger with the same three published cubics could re-run the same checks (irreducibility, discriminant, mu-factoring)."
+    },
+    {
+     "what": "'the correction': ker R27(g14) = ker R27(g22), the same 3-plane, invalidating the solo seat's claimed independent control",
+     "where": "FINDINGS.md sec 3; results.json 'solo_correction_banked'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "This depends on the 'solo seat's' pair-construction/frame, which this arc explicitly says it does NOT have ('needs their frame') -- so this correction itself is not independently reproducible from this arc's own committed files."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This arc is itself a verification bench re-deriving the solo seat's published cubics and independently checking irreducibility/discriminant/isomorphism-to-K; results.json is the committed witness of that recomputation.",
+   "absence_claims": [
+    {
+     "quote": "the arithmetic-27 idea exists in physics only in black-hole charge-orbit work and has NEVER touched a VEV",
+     "where": "arc_verdict.json claim_one_line (carried over from B968/B962 context)"
+    },
+    {
+     "quote": "docs/SM_SPECIFICATION_LEDGER.md listed the global Z6 form as 'not addressed.' That is wrong.",
+     "where": "FINDINGS.md sec 5"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The central claim rests on a numeric/type match (squarefree kernel {7,11} and mu-factoring [1,2]) across exactly 3 sampled cubics from one pair source (the vacuum 3-block) -- a striking coincidence, but the arc itself narrows this from 'a pattern' to 'one well-controlled fact about one distinguished plane' after finding the solo seat's second control was not independent, which is the right epistemic move but underscores the result rests on a single, not-independently-varied, algebraic object.",
+     "where": "FINDINGS.md sec 1 and sec 3"
+    }
+   ],
+   "seat_note": "This is a genuine, well-witnessed recomputation (exact integer/polynomial arithmetic in results.json) showing a rational arithmetic invariant of a distinguished plane equals a specific number field K; the arc is careful to state twice that an orbit is not a VEV, so the physics content stays structural, not observable."
+  },
+  {
+   "arc": "B970_L134_exotics",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/PRIOR_ART_EXOTICS.md",
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/WORK.md",
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/exotics_charges.json",
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/exotics_charges.py",
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/prior_art_exotics.json",
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/run_log.txt",
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/work.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B970_L134_exotics/exotics_levi.py (first 120 lines + grep for def/assert/print/Fraction/== read; core routines: exact_inverse, cartan_elt_in, minuscule orbit build, all use Fraction and assert-checked)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- L134 worker cell (banked in B978, superseded_by B978 per its own arc_verdict): the twelve (eleven) exotic states per generation given quantum numbers under the cascade's Levi, plus the cascade's resolving power. Bounded structural computation, one 27, no generations/masses/couplings/values.",
+   "log_says": "PROGRESS_LOG.md B993/B994 (2026-08-09): confirms the cascade endpoint 'grade: REPRODUCED, Tier 1, predicting none of the 19 numbers' and explicitly CORRECTS the count: 'the exotics count is eleven, not twelve (10+1)'; also confirms 'never addressed' was false, citing B951/B962/B970.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "27 = 1(psi=+4) + 16(psi=+1) + 10(psi=-2), and the SO(10)xSU(5)xSM quantum-number table (D,H_u,H_d,D_bar,S), with psi/chi/Y each fixed by one normalization and the rest predicted",
+     "where": "WORK.md sec 1; exotics_levi.py PART 1 (Fraction-exact, assert-checked); run_log.txt psi_predicted/su5_grading blocks",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exotics_levi.py is committed, uses exact Fraction arithmetic, builds the E6 Cartan matrix and 27-weight orbit from scratch with asserts (len(roots)==72, len(W27)==27, minuscule check), and run_log.txt is a committed witness of the actual run output."
+    },
+    {
+     "what": "The A2+A1 Levi: 8 roots, dim 14, centre 3, 27 splits into 11 pieces with piece_dims [1,1,1,2,2,2,3,3,3,3,6], identical to B884's independently/numerically obtained piece_dims",
+     "where": "WORK.md sec 3.2; exotics_levi.json (not individually re-checked beyond head/tail sample of run_log.txt)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Committed script + committed JSON output (exotics_levi.json, run_log.txt) reproduce a result WORK.md says was previously obtained numerically at 30 digits elsewhere (B884) -- an independent exact cross-check, itself reproducible from the committed .py file."
+    },
+    {
+     "what": "dim Cent(psi) = 46, imported from B876 (numeric, 30 digits) -- 'if 46 is wrong, the join fails'",
+     "where": "WORK.md sec 3.3 and sec 4 'CITED / IMPORTED'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no (from this arc alone)",
+     "why": "Explicitly stated as imported from B876, not recomputed here; this arc only builds an independent certificate (exhaustive Borel-de Siebenthal subset search) that ANY dim-46 centralizer must be so(10)+u(1), but does not itself re-derive the 46 from the object's construction."
+    },
+    {
+     "what": "Exactly three so(10)-inducing directions above the Levi, found by bounded integer search |h|<=25, corroborated by orbit-stabiliser on the relative Weyl group S3 (order 6 of 51840 elements)",
+     "where": "WORK.md sec 3.4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Computed via committed script with an explicit search-box stability check (stable under |h|<=8,15,25) and a second, algebraically independent orbit-stabiliser cross-check; WORK.md itself flags this as 'a bounded integer search... not a theorem.'"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "WORK.md sec 0 grepped and cross-checked against prior arcs (B884, B876, B881) before computing, explicitly labeling reproduction vs new work; sec 4 gives a clean COMPUTED-vs-CITED ledger with honest boundaries. This is itself a verification-style cell (re-derives B884's numeric result exactly via a different, symbolic method) rather than a first assertion.",
+   "absence_claims": [
+    {
+     "quote": "N1 -- no computed cell. grep -rl \"exotic|leptoquark|diquark|Dbar\" over every *.py in [the repo, per PRIOR_ART_EXOTICS.md's certified-null framing]",
+     "where": "PRIOR_ART_EXOTICS.md sec 1.2 (certified null, paraphrased header; full grep scope stated in file)"
+    },
+    {
+     "quote": "docs/GUT_REQUIREMENTS_LEDGER.md ... marks them 'not addressed anywhere in the record -- absent, a named gap.'",
+     "where": "PRIOR_ART_EXOTICS.md sec 1.1 table"
+    },
+    {
+     "quote": "PROGRESS_LOG.md, docs/THE_SM_VERDICT.md, docs/OPEN_LEADS.md, frontier/B952_gut_ledger_rank/FINDINGS.md all four repeat 'twelve exotic states per generation ... the record has never addressed them'",
+     "where": "PRIOR_ART_EXOTICS.md sec 1.1 table"
+    },
+    {
+     "quote": "Whether the S3 / three-so(10) structure is already in the E6 model-building literature was not checked this session (no literature was read...)",
+     "where": "WORK.md 'HONEST BOUNDARIES'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json's claim_one_line still says 'the twelve exotic states per generation' as the headline count, while WORK.md (same arc, sec 1.4) and the later PROGRESS_LOG entry (B993/B994) both establish the correct count is ELEVEN (10+1), with twelve being a different count of a different thing (beyond a 15-fermion SM generation, including nu^c which sits inside the 16). The arc's own FINDINGS.md title even writes 'THE TWELVE (ELEVEN)' -- the correction is present in-arc but the verdict's one-line summary was not updated to reflect it.",
+     "where": "B970_L134_exotics/arc_verdict.json claim_one_line vs WORK.md sec 1.4"
+    },
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "The scout script exotics_charges.py explicitly fits psi and chi on a 'strict subset of blocks' and fits Y's coefficients 'on the 16 only' before checking the rest -- a fit-then-predict methodology which is disclosed and is stronger evidence than a pure fit, but is still fitting, not a pure derivation, for the initial normalization.",
+     "where": "exotics_charges.py docstring, lines 17-21"
+    }
+   ],
+   "seat_note": "This is the most rigorously self-documented cell in the batch: exact-arithmetic, assert-checked, committed scripts and JSON witnesses, an explicit COMPUTED-vs-CITED ledger, and honest scope statements (no VEV, no masses, one 27); content is entirely structural (group-theoretic quantum-number bookkeeping), with no measured value predicted."
+  }
+ ]
+}

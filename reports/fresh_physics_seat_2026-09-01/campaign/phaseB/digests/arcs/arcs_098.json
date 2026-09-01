@@ -1,0 +1,108 @@
+{
+ "batch": "arcs_098",
+ "arcs": [
+  {
+   "arc": "B972_L137_split",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B972_L137_split/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B972_L137_split/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/SCOUT.md",
+    "/home/user/origin-axiom/frontier/B972_L137_split/WORK.md",
+    "/home/user/origin-axiom/frontier/B972_L137_split/arithmetic_detail.py",
+    "/home/user/origin-axiom/frontier/B972_L137_split/arithmetic_detail_out.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/bounded_work.py",
+    "/home/user/origin-axiom/frontier/B972_L137_split/bounded_work_out.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/final_probe_out.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/t_probe_out.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/work.json"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B972_L137_split/pencil_coord.py (head/grep only)"
+   ],
+   "files_listed_only": [
+    "/home/user/origin-axiom/frontier/B972_L137_split/enlarge_probe.py",
+    "/home/user/origin-axiom/frontier/B972_L137_split/final_probe.py",
+    "/home/user/origin-axiom/frontier/B972_L137_split/newton_probe.py",
+    "/home/user/origin-axiom/frontier/B972_L137_split/newton_probe_out.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/pencil_coord_out.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/scout.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/t_newton.py",
+    "/home/user/origin-axiom/frontier/B972_L137_split/t_newton_out.json",
+    "/home/user/origin-axiom/frontier/B972_L137_split/t_probe.py"
+   ],
+   "claim_of_record": "verdict=OPEN; claim_one_line: \"L137 SCOUT CELL (banked in B978): is B947's value/pencil split a real, pre-statable partition? SCOUTING ONLY -- nothing sealed, nothing banked, no verdict claimed against any criterion; the post-hoc status of the split is exactly why L137 still requires its own sealed cell. WORKER CELL: this directory is a Phase-A multiagent worker cell whose result was banked by B978; it is not a standalone arc and carries no independent claim.\" superseded_by: B978, depends_on: B978.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "T (B914's colorless coupling invariant) fails B947's coefficient-support pattern: |P_lead| >= 4 (SCOUT.md) / >= 5 (WORK.md), |P_const| = 5, and fails invariantly under any pencil-style rescaling (F >= 6 in SCOUT.md, F >= 7 in WORK.md)",
+     "where": "SCOUT.md secs 2.1/4; WORK.md secs 0/2.2(a); t_probe.py -> t_probe_out.json; arithmetic_detail.py -> arithmetic_detail_out.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "t_probe.py reads B914's own banked minpoly from frontier/B914_ratio_table/results.json, verifies T is a root (residual 1.34e-54), checks content=1, and factors coefficients directly in-script with sympy; output json matches the prose numbers exactly (lead_support_lower_bound=4, P_const=[2,3,5,7,11]). The 4-vs-5 and 6-vs-7 discrepancy between SCOUT.md and WORK.md is an internal refinement (WORK.md's bounded_work/arithmetic_detail scripts extracted one more forced prime, 632041) rather than a contradiction, but neither document flags the earlier number as superseded."
+    },
+    {
+     "what": "All seven B941 families (plus new m_A, X_cross, u) are elements of one cubic field K = Q[s]/(s^3-12s-5)",
+     "where": "SCOUT.md sec 2.2; arithmetic_detail_out.json -> C_field/C_splitting",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mod-p splitting-type comparison at 128-138 primes, 0 mismatches, computed in-script; explicitly flagged as Chebotarev evidence not proof, and a genuine sympy failure (CoercionFailed on maximal_order/field_isomorphism) is reported rather than hidden."
+    },
+    {
+     "what": "Two of B888's four pencil cubics (vacuum-weight, generic-weight) FAIL at their banked coordinate but HOLD under a re-scaling t->t/c within their own pencil's gauge freedom",
+     "where": "WORK.md sec 2.2(b); enlarge_probe.py; pencil_coord_out.json (not directly read, only referenced)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Rebuilt from B888's own stored pencil_factors.json and gated on reproducing B888's banked squarefree discriminant 77 before use; witness normalisation given explicitly."
+    },
+    {
+     "what": "B947's own five/two verdict is independently reproduced from PREREGISTRATION.md's criterion, as a gate before this cell's own claims are trusted",
+     "where": "WORK.md sec 1 (GATE table); bounded_work_out.json -> GATE.B947_seven_reproduced/B947_5_2_split_reproduced",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "bounded_work_out.json shows per-family mine/banked/agree=true for all seven, matching prose; this is a genuine independent recomputation, not an import of B947's stated result."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No dedicated verification/ directory, but WORK.md's own gate section re-derives B946's V-table factorisation, B918's hier_cubic, and B947's 5/2 split from source arcs' committed results.json files as a precondition before trusting this cell's further claims -- functions as an internal belt even though the packet marks has_verification_dir=false.",
+   "absence_claims": [
+    {
+     "quote": "There is a naming difference in the record; there is no partition in the record. Re-partitioning B941's table into two classes is an act B947 performed, not one it inherited.",
+     "where": "SCOUT.md sec 1.1 / WORK.md sec 2.1"
+    },
+    {
+     "quote": "B911's CMT_DRAFT sec7 item 9 already registers the matching open question: \"with six cubics on one resolvent, a completeness question (is there a seventh pencil cubic in the frame, and must it share the resolvent?) -- register, do not chase.\"",
+     "where": "SCOUT.md sec 3.4"
+    },
+    {
+     "quote": "29 appears in no divisor computed in this cell except m_A's",
+     "where": "WORK.md sec 4, citing B937 sec T5"
+    },
+    {
+     "quote": "B947's statistic is not even COMPUTABLE for T without factoring a 174-digit cofactor",
+     "where": "t_probe_out.json -> note_computability"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "SCOUT.md gives T's |P_lead| >= 4 and F(T) >= 6; WORK.md (the later, more refined pass in the same directory) gives |P_lead| >= 5 and F(T) >= 7 for the same object T. Both numbers stand side by side in the same arc directory with no cross-reference marking the SCOUT.md figures as superseded by the WORK.md figures, though the conclusion (refutation) is unaffected either way.",
+     "where": "SCOUT.md sec 2.1 vs WORK.md sec 0/2.2(a)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The cell's own FINDINGS.md/arc_verdict.json record verdict OPEN and describe this as scouting-only with 'no verdict claimed against any criterion', but SCOUT.md's headline explicitly makes a strong recommendation ('L137 should be CLOSED... because the post-hoc observation it registers is REFUTED') and WORK.md issues an even sharper one ('CLOSE L137 AS UNSEALABLE'). The verdict file's text is technically consistent (scouting produces recommendations, not seals) but a reader skimming only arc_verdict.json would not learn that a full refutation argument, with a named counterexample (T), sits underneath.",
+     "where": "arc_verdict.json vs SCOUT.md headline / WORK.md sec 0"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "No test files or assert statements found in arithmetic_detail.py, bounded_work.py, or pencil_coord.py (grepped, none found); correctness rests on printed JSON output matching the prose narrative by eye, not on in-script self-checks (e.g. no assert on T_IS_A_ROOT before proceeding).",
+     "where": "arithmetic_detail.py, bounded_work.py, pencil_coord.py (grep -n assert, no hits)"
+    }
+   ],
+   "seat_note": "This is an unusually self-critical worker cell: it independently reproduces B947's own verdict from source before using it, names and computes an explicit counterexample (T) against the club's headline 'value/pencil' story, and flags its own gauge-dependence and computability problems rather than papering over them -- a genuine methodological positive. But it is purely arithmetic (cubic-field factorisation classification), carries no measurable physical quantity or prediction, and its status is muddied by an OPEN verdict file that undersells the strength of the refutation argument actually present in SCOUT.md/WORK.md."
+  }
+ ]
+}

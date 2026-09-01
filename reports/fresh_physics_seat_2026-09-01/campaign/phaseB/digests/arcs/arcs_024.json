@@ -1,0 +1,328 @@
+{
+ "batch": "arcs_024",
+ "arcs": [
+  {
+   "arc": "B461_relation_r2_borromean",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "census_full.py",
+    "census_log.txt", "run_rung2.py", "run_rung2.sh", "rung1_claims_sl2.py",
+    "rung23.sage", "rung23_log.txt", "rung2_log.txt", "rung2_perclass.sage",
+    "rung3_sl2.sage", "rung3_sl2_log.txt", "rung4_log.txt", "rung4_numeric.py",
+    "rung4b_log.txt"
+   ],
+   "files_sampled": ["ptolemy_systems.json (head/tail only, per SAMPLE_DATA)"],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — No Brunnian-specific manifold invariant emerged for the Borromean rings, and Q(sqrt(-7)) appears on an unrelated control, killing the cumulative sqrt(-7) reading.",
+   "log_says": "Log mentions this arc only tangentially (a later repair-wave note that a different wave item 'falsely reported census class 10 empty, contradicting B461') — no direct summary of B461's own verdict is given in the indexed excerpt.",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "vol(L6a4) = 2*v_oct, trace field Q(i), H1=Z^3", "where": "rung1_claims_sl2.py + FINDINGS Rung 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "snappy-based script committed, uses public manifold names, prints exact gate values"},
+    {"what": "SL(2) elimination: L6a4 field disc -1 (Q(i)), s776 field disc -7 (Q(sqrt-7)), m129 disc -1", "where": "rung3_sl2.sage / rung3_sl2_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Sage Groebner elimination with committed log output matching the FINDINGS table"},
+    {"what": "SL(3) per-class F_p dimension probes; L6a4 all 14 classes hit 20-min cap, s776 completes", "where": "rung2_perclass.sage / rung2_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes, modulo hardcoded macOS sage path in run_rung2.sh", "why": "log shows explicit TIMEOUT lines for every L6a4 class and completed dims for s776; run_rung2.sh hardcodes /Users/dri/... which would need editing on another machine"},
+    {"what": "numeric census: class 0 has 10 on-family solutions, class 5 has 31, isolated points in classes 3,6-11", "where": "census_full.py / census_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "seeded RNG (46100) committed in script, log matches script's print format exactly"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No separate verification/ directory, but the arc itself is a layered ladder (rung1-4) where each rung's exact-Sage output is checked against the numeric fallback and vice versa, and results are cross-checked against two controls (m129, s776) at every rung.",
+   "absence_claims": [
+    {"quote": "Field recognition at the isolated points FAILED at this precision (1e-12 Newton cannot support degree-10 PSLQ)", "where": "FINDINGS.md, Addendum"},
+    {"quote": "no Brunnian-specific manifold invariant emerged", "where": "FINDINGS.md, verdict summary / arc_verdict.json claim_one_line"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "run_rung2.sh hardcodes a macOS-specific sage binary path (/Users/dri/micromamba/envs/sage/bin/sage), a minor non-portability issue for a stranger reproducing on another machine (run_rung2.py has an env-var fallback so this is not fatal).", "where": "run_rung2.sh"}
+   ],
+   "seat_note": "A rigorous, honestly negative arc: an exact ladder (Groebner -> F_p probes -> numeric fallback) is run to its budget floor with two controls, and a tempting cumulative reading (sqrt(-7) recurring) is explicitly killed rather than banked. Purely structural (arithmetic class of a knot complement); no observable physical quantity is proposed or computed."
+  },
+  {
+   "arc": "B462_relation_r3_double",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "kappa_diagonal.py",
+    "masbaum.py", "payload.py", "phi_scan.py", "silver_control.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — Every exact structure in the figure-eight double launders through a class-generic mechanism (Kirby-Melvin, transpose invariance); no H1, and the quantum pairing ignores the classical fork.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "engine gate: WRT (Z,S,T) conventions reproduce B441's banked tau_r(4_1(5,1)) exactly at r=5,7,9,11 before any phi-scan value read", "where": "phi_scan.py, imports wrt from B441_child_wrt", "kind": "COMPUTED", "reproducible_from_committed": "yes, contingent on B441 arc dir", "why": "gate is printed and checked before proceeding in phi_scan.py __main__"},
+    {"what": "T^2 pairing = 0 at every odd r (Kirby-Melvin forced)", "where": "phi_scan.py / payload.py, FINDINGS phi-scan table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mpmath dps=30/40 numeric check with explicit deviation bound (<=1e-27) stated in FINDINGS"},
+    {"what": "kappa-diagonal per-word field factorizations (e.g. conductor-7 cubic at T^2/S, Q(sqrt5) at STS), gated against B174's banked fork sizes 9/10/16/32/32", "where": "kappa_diagonal.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy exact resultant/factor computation with an explicit gate assertion (line 72: assert fp is not None; gate = total_deg == BANKED_SIZES[word])"},
+    {"what": "silver (m=2) control: parabolic law confirmed, fig-8 fields (Q(sqrt5), conductor-7 cubic) do NOT recur", "where": "silver_control.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same machinery as kappa_diagonal.py with f(t)=t^2-6; asserted continuum-free (line 52)"},
+    {"what": "Masbaum cyclotomic-expansion formula for 5_2's colored Jones, three gates (G1/G2/G3) pass", "where": "masbaum.py", "kind": "COMPUTED / IMPORTED", "reproducible_from_committed": "yes", "why": "formula is transcribed from a cited paper (Fuji-Gukov-Sulkowski) and structurally self-checked (Habiro integrality assert) plus three numeric gates before payload use"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory and no committed .log/.out witness files for this arc's four scripts (kappa_diagonal.py, masbaum.py, payload.py, phi_scan.py, silver_control.py) even though a corresponding tests/test_b462.py exists in the repo's central tests dir; the numeric outputs quoted in FINDINGS (e.g. |H|-|B| = +33.17) are not backed by any committed run log in this arc directory.",
+   "absence_claims": [
+    {"quote": "no H1", "where": "FINDINGS.md, header and Verdict section"},
+    {"quote": "The fields do NOT transfer: silver gets ℚ(√21), a disc −59 cubic, two sextics — no ℚ(√5), no conductor-7 cubic.", "where": "FINDINGS.md, R3b section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "No .txt/.log/.out witness file committed for any of the four active scripts (kappa_diagonal.py, masbaum.py, payload.py, phi_scan.py); FINDINGS quotes precise numeric values (e.g. |H|=43.93, |H|-|B|=+33.17, dev<=3.6e-28) that a stranger cannot check against a committed run output, only by re-executing the scripts themselves (which is possible since the code is present, but the specific numbers in FINDINGS are not directly verifiable from a static file).", "where": "B462 directory listing; contrast with B461/B465/B468/B470/B471 which all carry *_log.txt/*_out.txt witnesses"}
+   ],
+   "seat_note": "A carefully mechanism-audited negative result (everything forced by Kirby-Melvin symmetry, transpose invariance, or amphichirality) with one exact new fact (the kappa-diagonal field data); the lack of any committed run log for the quoted numeric values is a real reproducibility gap even though the code itself looks sound and the exact-arithmetic parts (kappa_diagonal.py, silver_control.py) are self-verifying via assertions. Purely structural arithmetic; no measurable quantity proposed."
+  },
+  {
+   "arc": "B463_relation_r4_centralizer",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "centralizer.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The centralizer of the principal sl2 in e6 is exactly zero, so the banked E6 route's 4d commutant is finite -- no continuous gauge symmetry.",
+   "log_says": "Two log entries: (1) 2026-07-13 note that 'the centralizer at the cusp point was computed: B463 = 0 (the principal-composed rep IS the complete-structure/parabolic-meridian geometric rep = the cusp point)'; (2) a note that the L50 CRUX result is 'Consistent with B463 (principal centralizer=0)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "control gate: C_e6(long-root A1) = 35 = sl6 (reproduces banked B247)", "where": "centralizer.py, run() function", "kind": "COMPUTED", "reproducible_from_committed": "yes, depends on B351_exact_e6_chevalley/exact_e6.py which is present", "why": "exact Fraction-based Gaussian elimination on committed adjoint-rep data; assert-gated (ok &= dimC_long == 35)"},
+    {"what": "C_e6(principal sl2) = 0 exactly", "where": "centralizer.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same exact machinery; the joint-kernel computation is generic exact linear algebra, not fitted"},
+    {"what": "identification of the algebra centralizer=0 result with a finite GROUP centralizer = Z(E6) via Kostant's theorem", "where": "FINDINGS.md / PREREGISTRATION.md, 'lit-gate, not booked as computed'", "kind": "IMPORTED", "reproducible_from_committed": "n/a (cited, not computed)", "why": "explicitly flagged in the arc's own text as a citation, not a computed step -- an honest self-disclosure"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ dir and no committed log/out file for centralizer.py's run, though the script is short, exact, and self-checking via internal asserts printed as PASS/FAIL.",
+   "absence_claims": [
+    {"quote": "the group centralizer is FINITE (Kostant: = Z(E6), Z/3 simply-connected / trivial adjoint - LIT-GATE citation, not computed)", "where": "centralizer.py print statement / FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "No committed run output for centralizer.py; the arc's exact numeric claims (dim C = 35, dim C = 0, weight list {2,8,10,14,16,22}) rely on re-running the script rather than a checked-in log.", "where": "B463 directory (no *.txt/*.log/*.out)"}
+   ],
+   "seat_note": "A clean, narrowly-scoped exact Lie-algebra computation (joint kernel of ad(e,h,f) in E6) with an honest disclosure that the group-level interpretation (Kostant's theorem, Z(E6)) is cited, not computed; the physics conclusion ('no continuous 4d gauge symmetry from the principal lift') is explicitly scoped to one embedding and not overclaimed."
+  },
+  {
+   "arc": "B464_relation_verdict",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The Relation Campaign closes with no relational invariant escaping class-laundering in any computed cell; two named boundaries hold the only residue.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "campaign-level summary table aggregating R1(B460)/R2(B461)/R3(B462)/R4(B463)/R5(B451)", "where": "FINDINGS.md table", "kind": "IMPORTED", "reproducible_from_committed": "yes (via the cited child arcs)", "why": "this is a pure synthesis/roll-up document with no computation of its own -- it recites the verdicts of B460-B463, B451, none of which are independently re-verified here"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No computation; the file is a closing synthesis of five prior arcs and re-cites their verdicts without new machinery.",
+   "absence_claims": [
+    {"quote": "No relational invariant escaped class-laundering.", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A synthesis/closing document, not a computation; its claim of record is only as strong as the five child arcs it aggregates (B460-B463, B451), of which this batch verified B461, B462, B463 directly and found them well-supported. No new physics content of its own."
+  },
+  {
+   "arc": "B465_monodromy_intake",
+   "source": "main",
+   "files_read": ["ADDENDUM.md", "FINDINGS.md", "INTAKE.md", "arc_verdict.json", "c_family.py", "exact_engine.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The 8-4-3 monodromy spectrum is exact and fully derived from Fricke's tr(A1A2)=15 plus Egorov, and the SU(3)/SU(4) readings fail at the eigenspace level.",
+   "log_says": "Three log entries: (1) a later repair-wave note that 'B465-r re-committed the E4 universal it was repairing'; (2) that same repair item resolved as 'B465-r -- the false universal det(sigma-I)=5 at every level AND STAGE scoped to stage l=0'; (3) a REVIEWS.md line placing B465 in the residue-saga scope (B465-B471) alongside the Relation campaign.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "M(1) spectrum: eigenvalues zeta_60^{8,23,38,53}, multiplicities (4,4,3,4), scalar law M(1)^4 = zeta_60^32*I, cross-agreeing at p={61,421,541}", "where": "exact_engine.py, run(p) function", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact F_p arithmetic (three primes) with explicit CROSS-PRIME AGREEMENT assertion in __main__"},
+    {"what": "the Galois stabilizer of spec(Par.W1) = ker(c|3), giving Q(sqrt-3) as the spectrum's field of definition, split by c mod 3 not by Legendre/QR class", "where": "exact_engine.py C4/C6 c-scan", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same exact F_p engine; the c-scan loop computes distinct-eigenvalue counts per c exactly"},
+    {"what": "Chat-2's c-family (quadratic-form deformation) reproduces the 15/9 table exactly, split by (c|5)", "where": "c_family.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numpy/complex float implementation gated against an EXPECT dict hardcoded from the shuttled table, and unitarity/complementarity checked in-script"},
+    {"what": "REFUTATION of the SU(4)->SU(3) branching reading (no 8-dim invariant subspace exists; the '8' is a sum of two distinct 4-dim eigenspaces)", "where": "FINDINGS.md C8/C9 section, backed by exact_engine.py eigenspace dims", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "directly follows from the exact multiplicities (4,4,3,4) computed above"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Cross-prime agreement (three primes) built into exact_engine.py serves as an internal verification belt for every exact claim; the ADDENDUM further re-verifies a second seat's (Chat-2's) independent construction against the same table.",
+   "absence_claims": [
+    {"quote": "C4 (QR c -> 15 modes, NQR c -> 9): NOT REPRODUCED -- and cannot be true under any pure Galois twist", "where": "FINDINGS.md, 'The claims that did not survive' section"},
+    {"quote": "No 8-dim invariant subspace exists", "where": "FINDINGS.md, C8/C9 section"},
+    {"quote": "C5 (32 loops...) and C7 (dark points...): floating-point, constructions not shared.", "where": "FINDINGS.md, 'The claims that did not survive' section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "The progress log's mentions of 'B465-r' describe a later repair-wave item carrying a claim ('det(sigma-I)=5 at every level AND STAGE') that does not appear anywhere in this arc's committed FINDINGS/ADDENDUM/INTAKE files; either B465-r is a distinct downstream arc not included in this packet, or the correction target is missing from the files reviewed here. Flagged as drift between what the log discusses under the B465 label and what this arc's own files contain -- could not be resolved from the files in this batch.", "where": "log_index/B465.txt, entries 1-2"}
+   ],
+   "seat_note": "A rigorous, cross-prime-verified exact computation that explicitly refutes a hoped-for SU(3)/SU(4)/Pati-Salam physics reading at the eigenspace level rather than merely failing to match it -- a genuinely disciplined negative result. The log-index drift (B465-r) could not be resolved against this arc's own committed content and should be checked against whatever arc actually carries the 'det(sigma-I)=5' claim."
+  },
+  {
+   "arc": "B466_sigma_equivariant",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "sigma_action.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — Under sigma the SL(3) Dehn-filling components exchange while V0 is preserved with fixed line p=q; the whole sigma-story is the Gieseking deck action.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "sigma component map: V0->V0 (with involution p<->q), W1->W2, W2->W1", "where": "sigma_action.py, sigma_component_map()", "kind": "COMPUTED", "reproducible_from_committed": "yes, depends on B71_sl3_apoly/probe.py which is present", "why": "exact sympy symbolic comparison of substituted parametrizations, assert-gated in __main__"},
+    {"what": "sigma-fixed locus on V0 is exactly the line p=q, passing through the all-ones triple point", "where": "sigma_action.py, sigma_fixed_locus()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy solve, assert-gated"},
+    {"what": "geometric fiber characters x=(3+-sqrt(-3))/2 on B67 curve are swapped by sigma (x->x/(x-1)), identified with the banked B448 period-2 Q(sqrt-3) orbit", "where": "sigma_action.py, sl2_geometric_orbit()", "kind": "COMPUTED / IMPORTED (B448 identification)", "reproducible_from_committed": "yes", "why": "exact sympy solve for the swap; the identification with B448's orbit is an interpretive claim resting on a separately-banked arc"},
+    {"what": "sigma is orientation-reversing (det sigma_ab = -1), mapping torus is the Gieseking manifold (standard, cited)", "where": "sigma_action.py final assertion + FINDINGS Gate A/B discussion", "kind": "COMPUTED (det) / IMPORTED (Gieseking identification, cited to Gieseking)", "reproducible_from_committed": "yes for the det; the manifold identification is a literature citation"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ dir, no committed run log for sigma_action.py's output, though the script is short and self-asserting.",
+   "absence_claims": [
+    {"quote": "the hoped-for 'physics lives where the static geometry meets the dynamic monodromy': the geometric point is NOT on the fixed line", "where": "FINDINGS.md"},
+    {"quote": "W1/W2 do NOT descend individually -- they are swapped by the deck symmetry", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "No committed run output for sigma_action.py; FINDINGS quotes exact symbolic results that must be re-derived by executing the script rather than checked against a log.", "where": "B466 directory (no *.txt/*.log/*.out)"}
+   ],
+   "seat_note": "A clean adjudication of an external proposal (Chat-1's sigma-equivariant idea) that correctly identifies two of three proposed cells as already-closed theorems and computes the one genuinely open cell exactly; the E6-Hessian-zero conclusion is a fortiori from an already-banked zero, not new computation. Structural group-theory/arithmetic content only."
+  },
+  {
+   "arc": "B467_family_residue_wall",
+   "source": "main",
+   "files_read": [
+    "ADDENDUM_REGISTRY.md", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json",
+    "census.py", "det_check.py", "f1_ckm.py", "f2_parity.py", "f3_wall.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — Family, residue and wall converge on one Z/2 orientation bit: the CKM scan gives an earned zero and the only odd permutation is the orientation-reversing half-monodromy.",
+   "log_says": "Two entries: (1) 2026-08-02 note that a wrong-null audit found 'the genuine fact underneath is narrower and better -- at slope 5 ONLY, two non-commensurable parents give the same child, 4_1(5,1) = -5_2(5,1) (B467 f3_wall.py)'; (2) 2026-08-03 note that 'the commensurability label is withdrawn' for related arcs, but 'the arcs' computations stand' and re-affirms the same slope-5 fact.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "F1: 886-expression CKM scan gives ZERO hits on every target vs a ~0.35 null expectation (earned negative)", "where": "f1_ckm.py, main()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "fixed function class + fixed 10^4-trial null model committed in-script, printed per-target hit counts and null means"},
+    {"what": "H112 identity tr(A_mA_n)=(mn+1)^2+m^2+n^2+1 holds for 1<=m<=n<=6 but the pair-seam/conductor reading is refuted at (1,3)", "where": "f1_ckm.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact matrix trace computation with an explicit ident_ok check"},
+    {"what": "F2: exact permutation signs on (Z/15)^2 -- all orientation-preserving actions are +1, sigma (det -1) is -1", "where": "f2_parity.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact permutation-sign computation via cycle decomposition, printed per-map"},
+    {"what": "F3: 4_1(5,1) isometric to 5_2(5,1) (SnapPy certificate), CS flips sign between them (orientation-reversing merge)", "where": "f3_wall.py, census.py, banked anchor CS=+-0.07703818", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "SnapPy is_isometric_to plus chern_simons(), gated against a banked anchor value (B434) reproduced to 14 digits"},
+    {"what": "registry R2 determinants: det(D)=omega, det(Wr)=omega-bar, det(W1)=det(W2)=1, det(Par)=-1, resolving a cross-seat det contradiction as construction-identity", "where": "det_check.py, ADDENDUM_REGISTRY.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact F_p computation at two primes, assert-gated"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "F1's null-model design (10^4 random-triple comparison) is itself a built-in statistical belt against overreading a hit; F3's isometry claim is independently re-derived via census.py's own isometry certification and cross-checked against a separately-banked CS anchor (B434).",
+   "absence_claims": [
+    {"quote": "886 prereg'd expressions ... ZERO hits on every target", "where": "FINDINGS.md, F1 section"},
+    {"quote": "The metallic eigenvalue ratios do not encode CKM parameters at this complexity budget; the negative is earned, not assumed", "where": "FINDINGS.md, F1 section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "F1's whole design is an explicit attempt to guard against a bit-vs-value dimension-coincidence identification (metallic eigenvalue ratios 'looking like' CKM mixing parameters, the classic B428-lineage trap); the arc's own discipline (fixed function class, null model, HELD naming rule) is the correct response and the scan comes back null, so the identification-by-type temptation is explicitly tested and rejected rather than asserted.", "where": "PREREGISTRATION.md, Cell F1; FINDINGS.md F1 section"}
+   ],
+   "seat_note": "A disciplined three-cell adjudication of owner-proposed physics analogies (family ratios vs CKM, a parity residue, a surgery wall) that returns an earned null on the CKM scan and localizes the one surviving invariant to a classical orientation bit; genuinely negative results are reported as such rather than reframed as positive. Structural/arithmetic content; the CKM comparison is the only place this arc brushes an observable quantity, and it is reported as a clean miss."
+  },
+  {
+   "arc": "B468_z3_adjudication",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "adjudicate.py", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The claimed color-sees-darkness correlation is refuted exactly (dark splits 24/24/22); the det contradiction dissolves into two different operators; continents confirmed 8x15.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "det(D)=omega, det(Wr)=omega-bar (conj), det(W1)=det(W2)=1, resolving Chat-1 vs Chat-2's det contradiction as two different operator families", "where": "adjudicate.py, part1_dets()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact F_p arithmetic at two primes, assert-gated (assert dD == omega and ...)"},
+    {"what": "dark-tier x (x+2y mod 3) cross-table: dark distribution is (24,24,22), refuting the claimed 4x darkness correlation (34/9/10 was floating-point misclassification, with an already-wrong dark total of 53 vs exact 70)", "where": "adjudicate.py, exact_tiers()/part2_crosstable()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact tier classification via B459's machinery, printed as a full cross-table"},
+    {"what": "continents: exactly 8 connected components of 15 points each on the free tier (torus 4-adjacency), refuting Chat-1's float-based (36,37,25,15,3,3,1,1) topology", "where": "adjudicate.py, part3_continents()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact connected-components algorithm on exact tier data, explicit CONFIRMED/REFUTED print"},
+    {"what": "confinement rule refuted: 1798/4000 random tuples with nonzero color sum still give nonzero trace", "where": "adjudicate.py, part4_confinement()", "kind": "COMPUTED", "reproducible_from_committed": "yes (seeded numeric trial)", "why": "explicit trial count and violation count printed"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The entire arc is structured as an independent re-derivation of a second seat's (Chat-1's) floating-point claims using exact arithmetic, catching multiple errors in the incoming claims (tier misclassification, wrong dark total, wrong topology) -- itself functions as a verification belt on another party's work.",
+   "absence_claims": [
+    {"quote": "The rule as proposed does not exist (consistent with §1: the word family carries no ℤ/3 det-grading to enforce it).", "where": "FINDINGS.md, part 4"},
+    {"quote": "loses its empirical base entirely", "where": "FINDINGS.md, part 2 (re: the A4/neutrino downstream reading)"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "A model instance of adversarial cross-checking: an incoming claim of a 4x color-darkness correlation feeding into an A4/tribimaximal neutrino-mixing narrative is traced to a floating-point tier-misclassification bug and refuted in exact arithmetic, with the added observation that the A4-tribimaximal target itself is already experimentally excluded (theta_13 != 0, cited to Daya Bay 2012) -- a genuine observable-physics fact correctly used to close the door on a speculative identification."
+  },
+  {
+   "arc": "B469_breath_campaign",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md", "PHASE2A_RESULTS.md", "PREREGISTRATION.md", "PREREG_SIGMA_PARITY.md",
+    "arc_verdict.json", "br1_br2.py", "br3_orbit_fields.py", "br3_out.txt",
+    "br3_wave2.py", "br3_wave2_exact.py", "br_n_norm.py", "fiber_field.py",
+    "fiber_log.txt", "fix_pattern.py", "fix_pattern_log.txt", "geom_id.py",
+    "geom_id2.py", "geom_id2_log.txt", "geom_id_log.txt", "held_breath_ext.py",
+    "held_breath_mechanism.py", "held_breath_tower.py", "m2_cycle_log.txt",
+    "m2_cycletype.py", "m5_pattern_log.txt", "octic_log.txt", "octic_test.py",
+    "sigma_lift_check.py", "wave2_exact_log.txt", "wave2_log.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — Breath wave 1: the two-register residue equals (-1)^((N-1)/2) at four levels, and every metallic bundle double-covers a non-orientable bundle (X_m^2=A_m).",
+   "log_says": "Four entries, mostly cross-references from other arcs to B469 as a source of the 'residue = norm of the scale' fact and the sigma-bit/orientation-bit identification; one entry situates B469 in the residue-saga scope (B465-B471) as a campaign 'launched/advanced'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "BR1: quantum det(Par@N) and classical sign(sigma on (Z/N)^2) both equal (-1)^((N-1)/2) at N in {15,45,75,225}", "where": "br1_br2.py, FINDINGS BR1 section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "described as symbolic/exact ('ALL CHECKS PASS'); derivable Jacobi-character arithmetic, explicitly flagged as LAUNDERS not novel"},
+    {"what": "BR2: X_m^2=A_m, det X_m=-1 for all m symbolically; SnapPy gate at m=1 (Gieseking m000 orientation cover isometric to 4_1, volume ratio exactly 2)", "where": "br1_br2.py + FINDINGS BR2, gate noted as 'session log' not a committed file", "kind": "COMPUTED (symbolic part) / UNCLEAR (SnapPy gate, cited to 'session log' rather than a committed witness)", "reproducible_from_committed": "partial -- symbolic part yes; the SnapPy m=1 gate result is only attested via the Reproduce section's comment '(session log)', no committed .txt for it", "why": "Reproduce section literally says '# BR2 SnapPy gate: ... (session log)' -- a session log is not a repo artifact"},
+    {"what": "BR3 wave 2: exact component-level sigma_m action on Fix(sigma_m^2); m=1,2 fully swapped, m=3 has a sigma-fixed quadratic component (disc -7) plus a swapped octic, with the geometric fiber character identified numerically as lying on the swapped (non-geometric-pair) octic", "where": "br3_wave2_exact.py / wave2_exact_log.txt (exact part); octic_test.py / octic_log.txt (numeric identification, explicitly flagged 'Numerically certified; exact certification queued')", "kind": "COMPUTED (component structure, exact) / UNCLEAR (octic geometric-fiber identification, numeric only and its own committed log shows a crash)", "reproducible_from_committed": "the exact component-splitting part: yes (wave2_exact_log.txt matches script and claim); the octic numeric-ID part: NO -- see red flag", "why": "octic_log.txt (the only committed witness for octic_test.py) is a Python traceback (TypeError), not the successful numeric output FINDINGS describes"},
+    {"what": "BR-N: three exact statements -- X_m is the companion matrix of x^2-mx-1 so det=N(lambda_m); N=-1 frozen across the family including at same-field powers; norm-realization structurally impossible on the imaginary-quadratic (geometry) axis", "where": "br_n_norm.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic/exact algebra, explicitly labeled LAUNDERS/classical by the arc itself"},
+    {"what": "Phase 2a sigma-lift: conj(W(m,1)) = Par.WR_14^m.Par.D(m,14), verified exact at p=61,421 for m=1,2; P0-as-posed FALSIFIED first (naming collision self-caught), then re-derived", "where": "sigma_lift_check.py, PHASE2A_RESULTS.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit machine-precision verification numbers (1.26e-15, 2.34e-15) and an honest account of the initial falsification/self-correction"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No dedicated verification/ dir; the arc's own internal discipline (Phase 2a's falsifier-fired self-audit, catching two of its own errors before banking) functions as an informal belt, but not all cells reach the same standard -- BR2's SnapPy gate and the octic geometric-fiber claim rest on uncommitted or crashed witnesses respectively.",
+   "absence_claims": [
+    {"quote": "The similarity argument for finer structures is retracted", "where": "PHASE2A_RESULTS.md, point 5 (P5)"},
+    {"quote": "P0 AS POSED: FALSIFIED", "where": "PHASE2A_RESULTS.md, point 1"},
+    {"quote": "Numerically certified; exact certification queued.", "where": "FINDINGS.md, BR3 wave 2 section (re: the octic geometric-fiber identification)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "octic_log.txt, the only committed witness for octic_test.py, is a Python TypeError traceback (mpmath cannot construct an mpf from a complex value), not the successful numeric output that FINDINGS.md cites as its basis for identifying the geometric fiber character on the swapped octic component. FINDINGS explicitly flags this result as 'Numerically certified; exact certification queued' but the committed evidence for even the numeric certification shows a crash, not a pass.", "where": "octic_log.txt vs FINDINGS.md's BR3 wave 2 section"},
+    {"kind": "MISSING_WITNESS", "detail": "The BR2 SnapPy gate at m=1 (Gieseking m000 orientation-cover isometry to 4_1, volume ratio exactly 2) is cited in the Reproduce section only as '(session log)', i.e. not a file committed to the repo -- a stranger running the listed reproduce commands cannot check this specific claim from committed artifacts alone (though rf1_towers.py in the sibling B470 arc does independently print this same m000/4_1 relationship, which partially substitutes).", "where": "FINDINGS.md Reproduce section, BR2 line"},
+    {"kind": "OTHER", "detail": "m5_pattern_log.txt is a committed but empty (0-byte) witness file, consistent with the FINDINGS table's own honest 'm=5: pending (background)' entry -- not a false claim, but a placeholder file with no content that a naive reader might mistake for a completed run.", "where": "m5_pattern_log.txt"}
+   ],
+   "seat_note": "An unusually self-auditing arc (two documented self-catches in Phase 2a) with strong exact results at the algebraic level (BR1, BR2 symbolic, BR-N, the sigma-lift), but the one place it reaches toward identifying a genuine geometric/non-geometric structural split (the m=3 octic) rests on a numeric check whose only committed log shows the script crashing, not succeeding -- this specific claim should be treated as unverified from committed evidence pending a clean re-run."
+  },
+  {
+   "arc": "B470_reflection_campaign",
+   "source": "main",
+   "files_read": [
+    "BREATH_HIERARCHY.md", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json",
+    "c_identify.py", "c_identify_out.txt", "hierarchy_verify.py", "rf1_out.txt",
+    "rf1_towers.py", "rf2_fields.sage", "rf2_fields2.sage", "rf2_out.txt",
+    "rf2_out2.txt", "rf3_out.txt", "rf3_quantum.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The reflection campaign closed: level-2 trace fields escalate per rung and escape level-1 laundering, while the quantized determinant mirrors the Pisano rhythm.",
+   "log_says": "Log entries mostly cross-reference B470 as source material for other arcs (the chiral letter-tower cited in B571's two-chiralities dossier; a note that B570 found 'B470 row confused (exponent 5 is theta-even)'; Review 4 notes a correction was banked this window: 'the 52->2 root-witness contamination (B470)').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "RF0 gate: M(w2)=b++RL reproduces the figure-eight exactly (vol 2.0298832, CS=0, H1=Z)", "where": "rf1_towers.py / rf1_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed SnapPy-based script and matching committed output log"},
+    {"what": "LETTER tower chiral from n=3, BODY chain mirror-breath at every rung n=2..8 (CS=0 exactly)", "where": "rf1_towers.py / rf1_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed log shows exact per-rung vol/CS/H1/amph values matching FINDINGS table"},
+    {"what": "RF3 quantum tower: det(Par.W(w_n)) = -omega^{#L-#R} verified exactly for both alphabets, n<=10, at p=61", "where": "rf3_quantum.py / rf3_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed log shows PASS on every rung for both towers, matching FINDINGS"},
+    {"what": "RF2 trace-field tower: LETTER n=3,4,5 give degree 4/8/12 fields; BODY n=2 gives degree 14; higher rungs 'not found' at prec/degree caps (named boundary)", "where": "rf2_fields.sage/rf2_fields2.sage / rf2_out.txt/rf2_out2.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed Sage scripts and matching output logs, including the honest 'not found' lines for boundary cases"},
+    {"what": "corrected breath hierarchy: the general claim 'any word in a palindromic alphabet is word-mirror' is FALSE for k>=3 blocks (600 counterexamples found by an adversarial panel); only two-block products and chain rungs<=8 are proven/verified", "where": "BREATH_HIERARCHY.md, CORRECTION section", "kind": "COMPUTED (counterexample search)", "reproducible_from_committed": "yes for the correction itself; the counterexample search machinery is described but the 600-counterexample search script is not separately listed among the packet's files", "why": "the correction is explicit and dated, naming an adversarial panel process"},
+    {"what": "volume-per-letter constant c = 0.934082582797203... (28 digits), PSLQ-negative against a fixed dilogarithm basis", "where": "c_identify.py / c_identify_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed script and matching output log with explicit PSLQ negative result and an honest note that an earlier 'relation' was a known classical duplication identity, caught and discarded"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The hierarchy-verify script and the P4 adversarial-panel corrections function as an internal audit belt; no separate verification/ subdirectory exists.",
+   "absence_claims": [
+    {"quote": "for n>=5 (word length >= 13) SnapPy's Dirichlet construction fails at default precision -- the tower's systole/CS beyond n=4 needs verified/high-precision geometry, priced as the next step (not a result claimed here)", "where": "FINDINGS.md, RF5 section"},
+    {"quote": "no shared class in either tower", "where": "FINDINGS.md, RF2 section"},
+    {"quote": "PSLQ negative against {Lambda(pi/5), Lambda(2pi/5), Lambda(pi/3), Lambda(pi/10), Lambda(3pi/10), Catalan, pi log phi, pi^2/10}", "where": "FINDINGS.md, Addendum"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md's RF1 section still states, uncorrected, 'the theorem: metallic letters are revswap-palindromes, and any word in a palindromic alphabet is word-mirror (uv ~cyc vu)' -- but BREATH_HIERARCHY.md's own later CORRECTION section (dated 2026-07-08, same arc) explicitly retracts exactly this claim as FALSE in that generality for k>=3 blocks (600 counterexamples found), stating '\"Every metallic-word bundle is amphichiral\" is retracted as a theorem'. FINDINGS.md was not updated to reflect this retraction, so a reader of FINDINGS alone would carry the false general theorem forward.", "where": "FINDINGS.md line ~22-23 (RF1 section) vs BREATH_HIERARCHY.md CORRECTION section (same directory)"}
+   ],
+   "seat_note": "A large, mostly well-witnessed campaign (SnapPy/Sage scripts with matching committed logs at nearly every cell) that also self-corrected an over-general theorem via an adversarial panel -- but that correction lives only in the companion BREATH_HIERARCHY.md file and was never propagated back into FINDINGS.md's own summary table, which still states the retracted general claim as a theorem. This is exactly the kind of drift the seat's rules ask to be flagged."
+  },
+  {
+   "arc": "B471_chain_verification",
+   "source": "main",
+   "files_read": ["CHAIN_SCOUT_FINDINGS.md", "FINDINGS.md", "arc_verdict.json", "chain_verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — tr[A_m,A_n] = 2 - (mn(n-m))^2, so (golden, silver) is the unique metallic pair whose commutator is parabolic and closes the cusp.",
+   "log_says": "Three entries: (1) 2026-07-24 note that 'The B471 heredity conjecture is now a THEOREM (explicit lattice)'; (2) a Wave-6 note listing B471's 'metallic commutator trace identity with its iff that the golden-silver pair is the unique parabolic one' as one of four items re-verified and promoted to a theorem/law registry; (3) a Review 32 correction noting cc initially 'banked a classical result without its attribution' by presenting the identity as harvested, but that 'B471's own FINDINGS is scrupulous about this' -- explicitly citing Cohn 1955/Markov/Fricke as the classical source, with only the metallic-body READING as novel.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "tr[A_m,A_n] = 2 - (mn(n-m))^2 symbolic identity, closing at (m,n)=(1,2) uniquely (control values -34,-142,-254 for other pairs)", "where": "chain_verify.py, main() 'THE UNIQUENESS THEOREM' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy symbolic trace computation, asserted equal to the closed form (tr_comm == closed)"},
+    {"what": "Cohn identification: <A1,A2> = <g1,g2> = the commutator subgroup of PSL(2,Z) (Cohn 1955, cited)", "where": "chain_verify.py 'the Cohn identification' section", "kind": "COMPUTED (the group identity) / IMPORTED (Cohn's theorem itself, explicitly cited not claimed)", "reproducible_from_committed": "yes for the exact matrix identity; the theorem attribution is a literature citation, and the arc's own text is explicit about this ('lit-gate, cited not claimed')", "why": "sympy exact matrix equality checks"},
+    {"what": "chain laws: Fricke recursion, Markov cubic conserved, mod-60 state period 20, half-chain twisted Fricke law with breath-selects-field-form", "where": "chain_verify.py, later sections", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "all exact integer/sympy arithmetic with explicit checks"},
+    {"what": "CORRECTION: 'the alphabet is exactly the root locus' is false; the corrected statement is 'breathable traces are exactly the metallic traces t^2+2; family=locus iff narrow class number h+(m^2+4)=1', with an explicit counterexample (X'=[[3,5],[2,3]])", "where": "FINDINGS.md, final CORRECTIONS section", "kind": "COMPUTED (counterexample verified)", "reproducible_from_committed": "described as verified but the specific counterexample-verification script is not among this packet's listed files (only chain_verify.py is listed, and it is not clear this file contains the counterexample check)", "why": "the counterexample X' and its properties (det -1, tr 6, class number 2, no conjugator to A_6) are asserted in FINDINGS text but not visibly present in the one script file read"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This entire arc is a verification pass on a second seat's (Chat-2's) exploratory CHAIN_SCOUT_FINDINGS.md, re-deriving every claim in exact arithmetic and explicitly downgrading one (the heredity conjecture) and correcting two others (the trace-field vs scale-field conflation, the root-locus overgeneralization) via a named 'P4 adversarial panel' pass -- a strong, visible verification discipline.",
+   "absence_claims": [
+    {"quote": "the general lattice is IRREGULAR ... Recorded as the observed table; a clean law needs rank-of-apparition machinery (Lucas-style) -- named follow-up, not a conjecture bank.", "where": "FINDINGS.md, heredity conjecture section"},
+    {"quote": "'The alphabet is exactly the root locus' is FALSE in two escalating ways", "where": "FINDINGS.md, final CORRECTIONS section"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The FINDINGS.md CORRECTIONS section describes a specific counterexample matrix (X'=[[3,5],[2,3]], class number 2 argument, 'small search exhausted', 'the panel's genus-character obstruction makes it rigorous') whose verification script is not among the files listed for this arc in the packet (only chain_verify.py is present, and it implements the uniqueness theorem, Cohn identification, and chain laws, not visibly this counterexample check) -- the claim is plausible given the arc's overall rigor but could not be directly traced to a committed reproducer in this batch.", "where": "FINDINGS.md, final CORRECTIONS section vs chain_verify.py contents"}
+   ],
+   "seat_note": "A carefully self-correcting arc (two honest corrections to an incoming exploratory scout's claims, including a genuine theorem upgrade with closed-form proof and controls) that is explicit and scrupulous about literature attribution (Cohn 1955, Markov, Fricke) throughout, which the log's Review 32 entry confirms was later needed to correct a downstream harvesting error made by a different summarizing process -- the arc itself is not at fault. Purely structural/arithmetic; no measurable physical quantity is proposed."
+  }
+ ]
+}

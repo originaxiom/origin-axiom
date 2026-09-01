@@ -1,0 +1,15 @@
+CC3_TO_CC_2026-08-15_C28_RAMIFICATION_CORRECTION.md
+docs/PROGRESS_LOG.md
+docs/REVIEWS.md
+frontier/B1024_l153_bits/WORK_IN_PROGRESS.md
+frontier/B775_phase2_wave1/cells/P2W6-Z1-r/partial.json
+frontier/B775_phase2_wave1/cells/_verify_Z1/compute.py
+frontier/B775_phase2_wave1/cells/_verify_Z1/partial.json
+frontier/B788_maass_spectrum/FINDINGS.md
+outside_bench/GOLDEN_EXCESS_IN_PROGRESS.md
+outside_bench/SELF_AUDIT_IN_PROGRESS.md
+outside_bench/VOL_BASIS_RUN_IN_PROGRESS.md
+papers/REVIEW_RESPONSE_LEDGER.md
+papers/REVIEW_WORKFLOW.md
+papers/candidates/PC02_conditional_uniqueness/OUTREACH_KIT.md
+tests/test_b731_noncongruence.py

@@ -1,0 +1,357 @@
+{
+ "batch": "arcs_023",
+ "arcs": [
+  {
+   "arc": "B447_thermo_d2_mscan",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "burden_inversion.py",
+    "flagtests.py", "flagtests2.py", "flagtests2_log.txt", "flagtests3.py",
+    "flagtests3_log.txt", "flagtests_log.txt", "harness.py", "mscan_log.txt",
+    "mscan_results.json (listed only, not re-parsed beyond log)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"Every m-scan flag dissolved or laundered — the golden specific-heat offset is reproduced by a parameter-free 8-moment surrogate — no golden exceptionality.\"; status: verdict NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "three-regime transport gate (periodic beta=0.998, random 0.186, metallic 0.58-0.64)", "where": "mscan_log.txt, harness.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "harness.py runs and prints these numbers to mscan_log.txt; script is self-contained numpy"},
+    {"what": "C_peak_T flag survives 6 tests then is reproduced by 8-moment (K=4) Gauss-quadrature surrogate out-of-sample at 3 couplings", "where": "burden_inversion.py, flagtests.py/2/3 + logs", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "burden_inversion.py is a self-contained script building the moment surrogate via Lanczos and reruns the same LOO classifier; committed with reproduce instructions"},
+    {"what": "D0 golden 'exceptionality' dissolves under N-doubling / box-estimator drift (-0.072 shift)", "where": "flagtests.py, flagtests2 log (band method)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "box-counting and transfer-matrix band code included and run to produce the logged numbers"},
+    {"what": "prereg's cited anchor 'B163 D0 0.91/0.77' was actually B186's different (trace-map box) object and inapplicable", "where": "FINDINGS.md gate table footnote", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the correction is stated in FINDINGS but not independently re-verified against B163/B186 files within this arc; it is a cross-arc bibliographic claim taken on the author's word here"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "flagtests, flagtests2, flagtests3 and burden_inversion.py all independently rerun/stress-test the harness's flags (N-doubling, fit-form variation, band-method D0, V-scan) before the burden-inversion session; strong internal verification chain, no separate verification/ directory needed.",
+   "absence_claims": [
+    {"quote": "the box estimator cannot support an exceptionality claim", "where": "FINDINGS.md"},
+    {"quote": "No golden D₀ exceptionality survives at achievable resolution.", "where": "FINDINGS.md"},
+    {"quote": "a converged m-scan of D₀ needs an adaptive recursive band-edge tracker — named follow-up, not built here", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely disciplined negative result: a real-looking flag (golden specific-heat peak offset) is chased down and shown to be exactly reproduced by a parameter-free 8-moment class-arithmetic surrogate, out-of-sample at three couplings — the strongest form of 'laundered' claim I've seen in this batch, because the surrogate is exhibited and tested rather than merely asserted. No observable physical prediction is made; this is condensed-matter-flavored structural bookkeeping on a synthetic quasicrystal model, not a Standard-Model claim."
+  },
+  {
+   "arc": "B448_heartbeat_adjudication",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md", "arc_verdict.json", "chat2_reproduction.py", "orbit_fields.py (not directly cat'd, but orbit_log.txt read; description matches FINDINGS table)", "orbit_log.txt", "silver_control.py (not directly cat'd; silver_log.txt read)", "silver_log.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"The exact T_1 periodic-orbit field tower on the cusp locus kappa=-2 (the Markov surface) gives Q(sqrt-3) at period 2 and Q(sqrt-7) at period 4, with a silver control confirming the object-specific labels and no sqrt5 through period 7.\"; status: verdict PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "level-2 cocycle anchor M=[[75,46],[44,27]], D=2, sum=192, |D|/sum=1/96; exact period-2 heartbeat limit +0.010417735/-0.074495779", "where": "chat2_reproduction.py, prints ALL CHECKS PASS", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact-rational Fraction arithmetic in a short self-contained script; runnable as-is"},
+    {"what": "T1-periodic-orbit field tower on kappa=-2: period 2 -> Q(sqrt-3), period 4 -> Q(sqrt-7), period 5 -> irreducible quintic (NOT Q(sqrt5), refuting Chat-1's hypothesis)", "where": "orbit_log.txt (Groebner elimination output)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "orbit_log.txt shows the exact eliminant-factor computation output; orbit_fields.py is committed (not fully read line-by-line here, but its printed output matches FINDINGS table exactly)"},
+    {"what": "silver control: Fix(S) on kappa=-2 gives z^4+16 -> Q(zeta_8) matching banked B316 invariant trace field", "where": "silver_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "silver_control.py output logged directly, matches FINDINGS claim"},
+    {"what": "identification of these fields with 'the trace field' / 'the chirality field' (B147/B316/B444 mechanisms)", "where": "FINDINGS.md Part C", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "relies on banked results from other arcs (B147, B316, B444) not present in this packet; taken on the author's cross-reference"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "chat2_reproduction.py is itself an independent from-scratch reproduction (exact rationals) of an external chat's numeric claims, including deliberate genericity/control variants (symmetric matrix gives D=0, a different generator matrix gives a different 2-cycle) — a strong internal control structure.",
+   "absence_claims": [
+    {"quote": "√5 appears at NO period ≤ 7 — the golden field is dynamically absent from the hyperbolic-end orbit tower", "where": "FINDINGS.md"},
+    {"quote": "No new low-period fields; no H1.", "where": "FINDINGS.md"},
+    {"quote": "No ℚ(√−7).", "where": "FINDINGS.md, describing silver's double-beat"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "'the chirality field (B147/B316/B444) — its THIRD independent appearance' at period 4 rests on discriminant -7 recurring across different constructions; the arc itself flags the promiscuity risk via the silver control (small discriminants recur), which is good practice, but the naming ('the chirality field') still asserts a shared identity across three different computational mechanisms based on matching discriminant value.", "where": "FINDINGS.md Part C table and verdict paragraph"}
+   ],
+   "seat_note": "This is one of the more careful arcs: it runs its own silver control specifically to test whether small discriminants (i, sqrt(-3)) are promiscuous at low period (they are), which undercuts over-claiming the sqrt(-7) 'chirality field' identity even as the arc still leans on that label. All content is arithmetic/group-theoretic (trace fields of periodic orbits); no measurable physical quantity or prediction is stated."
+  },
+  {
+   "arc": "B449_forcing_boundary",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "conductor_law.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"The disc×disc seam formula is category-confused (5₂ and 6₁ are not fibered), so ℚ(√−15) is restored as the forced compositum of the object's geometry and dynamics ends; the in-family conductor law gives 15 (golden) and 8 (silver).\"; status: verdict PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "5_2 and 6_1 Alexander polynomials have leading coefficient 2 (not fibered), so the requested disc x disc falsification test is a non-sequitur for them", "where": "conductor_law.py check 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy leading-coefficient check on hardcoded Alexander polynomials, script runs standalone (no external log file provided but is short/deterministic sympy)"},
+    {"what": "Alexander(4_1) = charpoly of monodromy matrix [[2,1],[1,1]], discriminant 5", "where": "conductor_law.py check 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy computation, exact"},
+    {"what": "conductor law: golden compositum conductor 15 = lcm(3,5); silver conductor 8 = lcm(4,8), matched by B448's independently-produced z^4+16 -> Q(zeta_8) witness; bronze prediction level in {39,52}", "where": "conductor_law.py check 3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy ilcm/discriminant/factorint on hardcoded matrices, exact and self-contained"},
+    {"what": "bronze-family prediction (level in {39,52}) is REGISTERED, NOT RUN", "where": "FINDINGS.md item 4 bullet 3", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "explicitly stated as a future/untested prediction, not a completed computation -- correctly flagged as such by the arc itself"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No separate verification/ directory; conductor_law.py is a single reproduce-and-check script with no independent adversarial recompute of its own claims beyond the internal sympy asserts; the silver cross-check leans on B448's independently-run result (a form of cross-arc corroboration, not a dedicated belt).",
+   "absence_claims": [
+    {"quote": "5₂ is not fibered.", "where": "FINDINGS.md item 1"},
+    {"quote": "No fibration ⇒ no monodromy ⇒ no dynamics end ⇒ the formula's second factor names *nothing* for 5₂.", "where": "FINDINGS.md item 1"},
+    {"quote": "\"Level 161\" is not a failed prediction; it is a non-sequitur.", "where": "FINDINGS.md item 1"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "'disc(trace) x disc(Alexander)' is reinterpreted post hoc as 'disc(geometry) x disc(dynamics)' once the fig-8 case is shown to work, generalized to a 'conductor law' from exactly two confirmed data points (golden, silver) plus one registered-but-unrun bronze prediction; the pattern-fit is elegant but the inductive base is thin (n=2).", "where": "FINDINGS.md item 3-4"}
+   ],
+   "seat_note": "Good falsification discipline (the arc explicitly refuses to let a category error pass as a failed prediction), but the resulting 'conductor law' generalization rests on only two computed instances before the bronze test (registered, not run) would actually stress it; call it a plausible pattern awaiting its first real out-of-sample check, not yet a law. Purely arithmetic/knot-theoretic content, no physical observable."
+  },
+  {
+   "arc": "B451_thermo_d4_resonances",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "certify_counts.sage",
+    "certify_log.txt", "certify_real.sage", "certify_real2.sage", "certify_real2_log.txt",
+    "certify_real_log.txt", "extract_n6.sage", "gate_run.txt", "heavy_enum_log.txt",
+    "n6_points.txt", "orbits_certified.json", "orbits_heavy.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": ["resonances.py", "survivor_enum.py", "survivor_enum2.py (not individually read; their outputs are captured in the logs already read)"],
+   "claim_of_record": "claim_one_line: \"The trace map's leading Ruelle resonance equals the escape rate gamma = 0.4415, certified by three independent estimators after the banked 0.51 was shown to be an early-window artifact, with a certified primitive-orbit table to n=8.\"; status: verdict PROVED",
+   "log_says": "Progress log entries B850 and B852 (2026-08-02) state that B451 computed a HORSESHOE, that a uniformly hyperbolic system's pressure function is analytic BY THEOREM, and that B451's setup 'was structurally incapable' of finding a phase transition -- explicitly framed as a critique of what kind of question B451's instrument could ever answer, though the log also says this does NOT reopen B451's own escape-rate/spectral-gap numbers.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "corrected leading eigenvalue/escape rate gamma(lambda=3) = 0.445 +/- 0.006 (later refined to 0.4415 at N=8), replacing the banked B186 value 0.51 which is shown to be an early-window transient of B186's own estimator", "where": "certify_real2_log.txt, gate_run.txt, heavy_enum_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "multiple independently seeded/enumerated cycle-expansion runs are logged and agree to ~0.5%; B186's own code is described as rerun verbatim to confirm it reproduces 0.51 under its original (transient) window -- a real adversarial cross-check"},
+    {"what": "exact certified primitive-orbit table to n=8: {2:2, 4:1, 5:2, 6:3, 7:4, 8:5}, via sage Groebner degree/variety computation over AA", "where": "certify_counts.sage/certify_real2.sage + certify_real2_log.txt, orbits_certified.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sage scripts and their logs are both committed; the arc explicitly documents catching its own bug (an early 2-component ideal overcounting, corrected to the full 3-component + surface system in certify_real2.sage)"},
+    {"what": "n=8 second Ruelle resonance rate 0.705(8) (N-drift quoted as the uncertainty)", "where": "FINDINGS.md Addendum table", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the cycle-expansion-at-N=7/8 table numbers are stated in FINDINGS but the specific script producing that exact table (as opposed to the orbit counts) was not directly located/read in the file list provided (resonances.py listed but not opened here)"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Extensive self-adversarial recompute: direct 2D surface sampling as an independent estimator, B186's own code rerun verbatim to explain the discrepancy, and a from-scratch algebraic (Groebner/exact real-point) certification that caught and corrected an under-enumeration (one missing 6-orbit with huge multiplier |Lambda|=914.7) that the heavy numeric search had missed.",
+   "absence_claims": [
+    {"quote": "The subleading spectrum did not stabilize within the session budget", "where": "FINDINGS.md status line"},
+    {"quote": "no whitelist form suggests itself at this precision — recorded, not scanned", "where": "FINDINGS.md Addendum"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "Later progress-log entries (B850, B852) characterize B451's model as a uniformly hyperbolic horseshoe whose pressure function is analytic by theorem, meaning it 'could not have found a phase transition' -- a structural critique of what the computation could ever discover, framed by the log itself as NOT reopening B451's numeric results but as invalidating a broader inferential use of them; B451's own FINDINGS/PREREGISTRATION never engage this framing (they are about resonance-spectrum certification, not phase transitions per se), so a reader of B451 alone would not learn its instrument was later judged structurally incapable of the transition question.", "where": "log_index/B451.txt entries dated 2026-08-02, absent from B451_thermo_d4_resonances/FINDINGS.md"}
+   ],
+   "seat_note": "The gate-value correction chronicle (catching B186's own early-window bias, then re-certifying via independent algebra) is a genuinely strong verify-don't-trust example. But the later progress log casts real doubt on the broader interpretive frame this arc sits inside (a uniformly hyperbolic model cannot exhibit a phase transition by theorem) -- a caveat this arc's own files never surface, so a reader relying only on this directory would miss it."
+  },
+  {
+   "arc": "B452_ethogram_dictionary",
+   "source": "main",
+   "files_read": ["PREREGISTRATION.md", "ez_dryrun.py", "registry.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false; this is a preregistration/machinery-only arc that freezes the campaign's comparison registry and typed gates before any observation)",
+   "log_says": "One log mention (B837, 2026-07-30) references B452's result as reported inside B457 ('H0a EARNED; the campaign closes') and characterizes that filing-in-another-arc as a convention, not suppression -- consistent with B452 itself carrying no FINDINGS/verdict.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the two typed gates (EZ-1 specificity, EZ-2 correspondence) fire on planted signals and fail on random/common ones, plus the structural joint statistic cannot fire alone", "where": "ez_dryrun.py, independently rerun in this audit", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "ran python3 ez_dryrun.py directly in this session; it printed 'ALL GATES VALIDATED' matching the file's own design intent"},
+    {"what": "the frozen numeric registry (20 SM observables with 1-sigma windows) is imported wholesale from B398's s5_statistics.py", "where": "registry.py NUMERIC_TARGETS", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "the values are hardcoded here as a frozen copy; B398's original derivation is not part of this arc's files, so this arc cannot itself verify those central values/uncertainties, only that they are frozen consistently going forward"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; this is a launch-gate/dry-run arc by design (validating the EZ machinery on synthetic data before real observation), which is itself a form of self-testing rather than a belt on a separate claim.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "This is infrastructure, not a result: it defines and validates (via synthetic dry-run) the statistical gates the rest of the Ethogram campaign will use, and does so honestly (showing the gates both fire and fail as designed). No physics claim is made or should be expected here."
+  },
+  {
+   "arc": "B453_ethogram_e1_reproduction",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "covers.py", "covers_log.txt", "tests/test_b453.py (external, referenced by FINDINGS)"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"Ethogram E1 (reproduction): the child is IDENTICAL, not merely sharing invariants -- a sharpening of the banked record, with one honest UNDECIDED.\"; status: verdict PROVED",
+   "log_says": "One log mention (B568, 2026-07-14) lists 'reproduction-once (B453)' as one of 17 named organs/faculties in a later anatomy-census arc -- consistent summary, no additional claims beyond what B453 itself states.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "vol(Z/5 cover of child) = 5.000x vol(child) exactly = 4.906844; H1(child)=Z/5; no positive-b1 cover found at degrees <=6 (UNDECIDED-AT-DEGREE-6)", "where": "covers.py, covers_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "covers.py is a short self-contained SnapPy script; covers_log.txt shows its actual run output matching FINDINGS exactly"},
+    {"what": "4_1(5,1) is rigorously isometric to 5_2(5,1) (SnapPy is_isometric_to=True), and the Z/5 cover's homology is Z/11+Z/11 with |prod Delta(4_1)(zeta_5^k)|=121=Lucas(5)^2, matching a 6_1 control at 961=31^2", "where": "tests/test_b453.py (external file, located and read)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "found and read tests/test_b453.py directly: it contains exactly the claimed asserts (is_isometric_to, homology string, sympy exact evaluation of the Alexander-polynomial product = 121) -- these key claims are NOT in the arc's own directory but ARE committed and reproducible elsewhere in the repo, exactly as FINDINGS says to check"},
+    {"what": "'SnapPy enumerates ALL covers, not just cyclic: none at degrees 2,3,4,6' for the child", "where": "FINDINGS.md E1b, corroborated implicitly by absence of printed output at those degrees in covers_log.txt and explicit test_no_other_low_index_covers in test_b453.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "test_b453.py explicitly asserts len(M.covers(k))==0 for k in (2,3,4,6), directly confirming this claim"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No dedicated verification/ subdirectory, but the load-bearing identity/Lucas-launder claims live in a committed shared tests/test_b453.py file that independently re-derives them (isometry check + independent sympy Alexander-product computation), functioning as a lock/belt outside the arc's own folder.",
+   "absence_claims": [
+    {"quote": "The child's π₁ has exactly ONE proper subgroup of index ≤ 6", "where": "FINDINGS.md E1b"},
+    {"quote": "no positive-b1 cover found at degrees ≤ 6 (UNDECIDED-AT-DEGREE-6)", "where": "covers_log.txt"},
+    {"quote": "the child not only carries no parent-unique marks, it cannot even be assigned a parent", "where": "FINDINGS.md E1-SHARPENING"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean example of the load-bearing claims (isometry, Lucas torsion) living in a shared tests/ file rather than the arc directory -- a filing convention, not suppression, and I verified the test file exists and actually performs the claimed checks. The 'no heredity' framing is a colorful gloss on a real, exactly-verified group-theoretic/topological fact; no physical observable is claimed."
+  },
+  {
+   "arc": "B454_ethogram_e2_closure",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "closure.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"Closure lemma proved: every word trace of any SL(2) representation of ⟨a,b⟩ lies in ℤ[x,y,z], so at the object's seed the word channel can never leave ℚ(√−3), with the collapse verified non-vacuous.\"; status: verdict PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Fricke/Cayley-Hamilton trace identity tr(UV)=tr(U)tr(V)-tr(UV^-1) verified symbolically on generic SL(2) matrices, giving by induction that every word trace lies in Z[x,y,z]", "where": "closure.py lemma_symbolic()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic verification, self-contained, deterministic"},
+    {"what": "the matrix-entry field is strictly bigger than the trace field (b^2-sb+1 does not split over Q(sqrt-3)), so the per-word collapse into Q(sqrt-3) is a genuine, non-vacuous cancellation, verified exactly in an explicit quotient ring for 55 prefix traces at level 8 and 1001 control words", "where": "closure.py entry_field_strictly_bigger(), scan(), controls()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Fraction-based ring arithmetic, no floats; script prints ALL CHECKS PASS and matches FINDINGS' quoted counts (55/55, 1001/1001)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory, but the deliverable is a proved lemma plus exact symbolic/rational verification within the single script -- the proof structure itself is the check, and a pytest lock is named (../../tests/test_b454.py, not in this packet).",
+   "absence_claims": [
+    {"quote": "the word channel cannot leave its birth arithmetic", "where": "FINDINGS.md"},
+    {"quote": "the reason is class-generic", "where": "FINDINGS.md status line"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A genuine, checkable mathematical lemma (Fricke trace identity + induction) correctly and honestly labeled as class-generic (true for any 2-generator SL(2) system, not a distinguishing feature of this object); the exact non-vacuity check (entry field strictly bigger than trace field) is a nice piece of intellectual honesty preventing the lemma from being oversold as trivial. No physics content."
+  },
+  {
+   "arc": "B455_ethogram_e3_response",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "run_log.txt", "integrate.py (first 120 lines + wc)", "homeostasis.py (line count only, described in FINDINGS)"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"The homeostasis card dies by exact computation (kappa is conserved along perturbed orbits, so no restoring response exists), while the finite E3 continuation is a quantified engine boundary priced beyond the prereg ceiling.\"; status: verdict NEGATIVE",
+   "log_says": "One log mention (B568, 2026-07-14) lists 'no pain (B455 homeostasis re[tired])' among 17 organs/faculties in a later census arc -- consistent gloss, no added claims.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the E3 engine gates FAILED twice (relator residual 1.4e39 both times) and the failure was diagnosed as pure float64 dynamic-range collapse (per-block expm matches known traces to 10+ digits through m=8, but the m=11 block's norm reaches 7e22, dwarfing float64 precision) rather than a wrong engine", "where": "run_log.txt, integrate.py (build + gate logic in first 120 lines)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "run_log.txt is the actual captured stdout of integrate.py showing GATE i/ii results and the failure exactly as narrated; the block-wise diagnosis (trace match through m=8) is asserted in FINDINGS as a definitive diagnostic step but the specific per-block trace-match numbers are not shown verbatim in run_log.txt (the log stops at 'ENGINE GATES FAILED - no runs'), so that specific 10-digit-match claim is not directly visible in the captured log I read"},
+    {"what": "homeostasis retirement: kappa is conserved EXACTLY (exact rationals) along perturbed Markov-point orbits at epsilon in {1/10, 1/100} over 12 steps -- no restoring response, no homeostasis mechanism exists", "where": "homeostasis.py (not read in full; described by FINDINGS and the 28-line wc)", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "homeostasis.py's content was not directly read line-by-line in this pass (only its line count, 28), so the exact-rational conservation claim is taken from FINDINGS' description rather than independently confirmed by me"},
+    {"what": "the sound finite-continuation route (mpmath dps>=50 Newton) is priced at ~3h/iteration, over budget, and a chord-Newton alternative at ~3h per direction x 6 directions -- both named but NOT run", "where": "FINDINGS.md item 4", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "explicitly stated as an unrun cost estimate, not a computation; correctly flagged by the arc itself as a named, not executed, boundary"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No dedicated verification/ directory; the arc's own internal engine-gate design functions as its self-check (it refused to proceed twice rather than reporting a spurious result), which is good practice but not an independent second-script belt.",
+   "absence_claims": [
+    {"quote": "No float64 representation runs this continuation", "where": "FINDINGS.md item 3"},
+    {"quote": "No restoring response exists (conservative dynamics, no transverse attractor)", "where": "FINDINGS.md homeostasis section"},
+    {"quote": "the organism has no homeostasis because it has no dissipation", "where": "FINDINGS.md homeostasis section"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "homeostasis.py's exact-rational conservation-of-kappa claim (the arc's one clean positive/negative result) was not directly read in full in this pass -- only its FINDINGS description and line count were examined, so I cannot personally attest the script performs the claimed exact check; this is a thin_read on my part, not necessarily a defect in the arc.", "where": "homeostasis.py"}
+   ],
+   "seat_note": "Commendably honest engineering: the prereg's engine gates fired twice and blocked two unsound runs rather than the arc reporting a garbage 1e39 residual as a result; the finite-response question is left as a named, priced-out boundary rather than papered over. No physics observable is claimed either way."
+  },
+  {
+   "arc": "B456_ethogram_e4_catalog",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "kashaev_signatures.json", "catalog.py", "catalog_frozen.json (sha256 field independently checked)"],
+   "files_sampled": ["catalog_frozen.json (full read via python json.load plus head/tail; 28372 lines)"],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"Freezes (sha256 8a80b0f5...) a catalog of 21 typed object behaviors together with null catalogs from seeded random words, Thue-Morse, foreign knots and silver, with adjudication explicitly deferred to EZ/B457.\"; status: verdict OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "catalog_frozen.json's committed sha256 (8a80b0f5...) matches the hash of its own payload", "where": "catalog_frozen.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "independently recomputed via python3 in this audit session (loading the file and reading its embedded sha256 field); catalog.py's own hashing logic (json.dumps sort_keys=True then sha256) was also read and matches how the file was evidently built"},
+    {"what": "21 object behaviors encoded as typed signatures, assembled from banked results across B446-B459", "where": "catalog.py OBJECT_CATALOG list", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "each signature is a hardcoded tuple summarizing a prior arc's result (e.g. cover-torsion-lucas ints=(11,11,121)); this arc does not itself recompute those source facts, it packages them -- correctly labeled by the arc as an assembly step, not new computation"},
+    {"what": "Kashaev invariant small-integer values {1,5,13,27,89} at N in {1,2,3,4,6}, corrected in-session from an earlier (wrong) '5-divisibility law' framing", "where": "kashaev_signatures.json", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the json file states the values and the correction note but the generating script for these Kashaev-invariant numbers is not present in this arc's file list, so I could not directly verify how kashaev_4_1 values were computed"}
+   ],
+   "belt": "NONE",
+   "belt_note": "This is a freeze/assembly arc by design; its own re-hash-on-rebuild is its verification mechanism (adjudication is explicitly deferred to B457), which I independently confirmed matches.",
+   "absence_claims": [
+    {"quote": "No physics language anywhere.", "where": "FINDINGS.md"},
+    {"quote": "small-N integers {1,5,13,27,89} at N in {1,2,3,4,6} are a small-N phenomenon (NOT a 5-divisibility law - corrected in-session)", "where": "kashaev_signatures.json note field"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A well-disciplined data-freezing step: catalog.py's hashing procedure was independently checked and matches the committed file exactly, which is exactly the kind of committed-and-reproducible artifact this seat wants to see before any comparison-to-physics gate runs on it."
+  },
+  {
+   "arc": "B457_ethogram_ez_verdict",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "gates.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"Both preregistered gates fail on the frozen ethogram catalog (EZ-2: 6 hits vs null mean 4.0, p=0.168; 0 of 3 structural predicates), so H0a is earned — the behavior catalog is class-generic or whitelist-laundered.\"; status: verdict NEGATIVE",
+   "log_says": "One log mention (B837, 2026-07-30) cites B457 as the destination arc where B452's result was reported ('H0a EARNED; the campaign closes'), treating that as a filing convention not suppression.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "gates.py asserts h==data['sha256'] against B456's committed catalog_frozen.json before running any gate", "where": "gates.py top-level assert", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct hash re-verification of the upstream frozen file, using the same B452 registry.py machinery already independently exercised in this audit"},
+    {"what": "EZ-2 numeric correspondence gate: 29 numbers entered, 6 hits vs null mean 3.99 (p99=8), p=0.168 -- DOES NOT FIRE", "where": "FINDINGS.md gates section, produced by gates.py calling registry.ez2_correspondence", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "gates.py and registry.py (both read/exercised in this audit -- registry.py's ez2_correspondence was executed live for B452) are self-contained and deterministic given the frozen catalog and fixed RNG seed"},
+    {"what": "structural predicates: 0 of 3 satisfied", "where": "FINDINGS.md, gates.py calling structural_joint", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same registry.py machinery, deterministic given the frozen catalog and null sets"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "gates.py explicitly re-verifies B456's freeze hash before proceeding (a direct chain-of-custody check across arcs), which functions as a belt on the upstream artifact even though there is no separate verification/ directory in this arc itself.",
+   "absence_claims": [
+    {"quote": "No correspondence with the frozen 20-observable registry beyond chance", "where": "FINDINGS.md EZ-2 line"},
+    {"quote": "no {8,3,1}, no definite CP", "where": "FINDINGS.md structural predicates line"},
+    {"quote": "NO H1.", "where": "FINDINGS.md status line"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "This is the campaign-closing gate and it is a genuine negative result run against real Standard-Model observables (PMNS/CKM angles, alpha, mass ratios) with a stated null distribution and binding p<0.01 threshold that was NOT met (p=0.168) -- the strongest form of a null result the seat can ask for, and it is reproducible end-to-end from committed files."
+  },
+  {
+   "arc": "B458_ethogram_e5_component_cs",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "component_cs.py", "cs_log.txt",
+    "m015_log.txt", "m015_numeric.py"
+   ],
+   "files_sampled": [
+    "ptolemy_data/m004__sl3_c0.magma_out", "ptolemy_data/m004__sl3_c1.magma_out",
+    "ptolemy_data/m015__sl3_c0.magma_out", "ptolemy_data/m015__sl3_c1.magma_out"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"Every non-geometric SL(3) component of the figure-eight, including the Q(sqrt-7) pair, has complex volume 0 + i*0, while the 5_2 control is generically nonzero - there is no internal component-level asymmetry to decompose.\"; status: verdict NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "m004 (fig-8): geometric Sym^2 pair complex volume +-8.1195... = 4*Vol(4_1) exactly; the Q(sqrt-7) V1/V2 conic pair and an obs-1 Q(sqrt-3) pair all have complex volume 0+i*0 to ~1e-15", "where": "component_cs.py, cs_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cs_log.txt is the direct captured stdout of component_cs.py, showing each branch's minpoly, discriminant, and complex volume; matches FINDINGS table exactly"},
+    {"what": "5_2 control: geometric pair +-11.312488 = 4*Vol(5_2) exactly (gate); multiple non-geometric components with nonzero CS (e.g. +-0.4810, +-0.6580, ...)", "where": "m015_numeric.py, m015_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "m015_log.txt is direct captured stdout of m015_numeric.py (multi-start Newton + PtolemyCoordinates), matches FINDINGS table exactly; note component_cs.py's own attempt at m015 (in cs_log.txt) produced NO output at all for m015 (silently empty), meaning the actual m015 control data came entirely from the separate m015_numeric.py fallback script, consistent with the arc's stated 'database bypass' but worth noting the two scripts are not interchangeable"},
+    {"what": "interpretive claim that the fig-8's zero 'launders' via (i) banked total amphichirality and (ii) the Q(sqrt-7) components being Falbel's known spherical-CR (PU(2,1)) representations", "where": "FINDINGS.md verdict section", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "this is a literature/mechanism identification (Falbel's CR representations) asserted as the reason for the zero, not itself computed or checked against a citation in this arc's files"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "component_cs.py (exact-solution branches) and m015_numeric.py (independent multi-start numerical Newton) are two different solution methods cross-checked against the same known Sym^2-volume gate (4*Vol exactly) before the zero/nonzero contrast is read; a real methodological control.",
+   "absence_claims": [
+    {"quote": "The Ptolemy database is currently broken server-side (autoindex lists the files; direct GET 404s; Wayback lacks them", "where": "FINDINGS.md Machinery section"},
+    {"quote": "there is no internal asymmetry to decompose", "where": "FINDINGS.md verdict"},
+    {"quote": "there is no observable for a 'ℤ/2³ = C×P×T' to couple", "where": "FINDINGS.md verdict"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The committed ptolemy_data/*.magma_out files (all four, ~142KB each) are not actual Magma/Ptolemy output data -- they are Wayback Machine 'not archived' HTML error pages (verified: head shows '<!DOCTYPE html>...<title>Wayback Machine</title>'). They are consistent with FINDINGS' own statement that the database/Wayback retrieval failed, and grep confirms no script in this arc actually reads ptolemy_data/, so nothing load-bearing depends on them -- but the misleadingly-named files (*.magma_out containing HTML 404 pages) could confuse a future reader who assumes they are real solution data.", "where": "ptolemy_data/m004__sl3_c0.magma_out and 3 siblings"}
+   ],
+   "seat_note": "The zero-vs-nonzero contrast between the figure-eight and the 5_2 control is a clean, reproducible, cross-method-verified computation, and the arc is careful to treat the fig-8's zero as expected/known geometry (amphichirality + real-form CR representations) rather than a discovery. The stray Wayback-404 files masquerading as data are cosmetic clutter, not a computational problem, since nothing in the pipeline actually reads them."
+  },
+  {
+   "arc": "B459_klein_four_verification",
+   "source": "main",
+   "files_read": ["ADDENDUM.md", "FINDINGS.md", "arc_verdict.json", "pair_control.py (not directly cat'd; its log was read)", "pair_control_log.txt", "patterns_log.txt", "verify_patterns.py (first ~60 lines)"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"The dual-torus vanishing patterns are verified exactly (120/20/20/10/70, 5 of 16) and identified as the five-subfield lattice of ℚ(√5,√−3), with two new exact facts: no partial vanishing, and the purely-√−15 pattern is absent.\"; status: verdict PROVED",
+   "log_says": "One log mention (Review 4, 2026-07-05, docs/progress/REVIEWS.md) lists 'B459's earlier (1,2)-specific overreach' among a set of corrected errors -- directly consistent with, and predating/paralleling, the arc's own ADDENDUM correcting its (1,2)-pair-specific 'one uniform law, 240/240' overreach to the pair-dependent picture.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "exact FT of the four genus-channel coordinates over the dual torus Z/20 x Z/12 gives exactly 5 of 16 vanishing patterns with counts 120/70/20/20/10, matching the addendum bit-for-bit", "where": "verify_patterns.py, patterns_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "patterns_log.txt is direct captured output of verify_patterns.py, using exact cyclotomic (Fraction) arithmetic per the script header; the counts, law checks (Law 1 PASS, Law 2 PASS), and subfield-lattice-equality check all print explicitly and match FINDINGS"},
+    {"what": "the (1,2)-pair table is NOT universal: within-level pair control shows every pair (1,2),(1,3),(2,3),(2,4),(3,4) has its own distinct table, and (1,3) even breaks the subfield-lattice SHAPE", "where": "pair_control_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pair_control_log.txt directly shows five distinct tables including the non-lattice (1,3) case, matching the ADDENDUM's table exactly"},
+    {"what": "ADDENDUM correction: B459's own 'one uniform law, 240/240' claim was itself (1,2)-pair-specific overreach, later corrected in the same document", "where": "ADDENDUM.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "this is a self-correction visible in the committed ADDENDUM.md itself, and the arc_verdict.json claim_one_line reflects the corrected (not the original overreached) picture -- no SUPERSEDED_UNMARKED issue here since the correction is folded into the same banked verdict"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "pair_control.py independently reruns the same extraction across five different seed pairs specifically to test (and ultimately refute) the arc's own earlier universality claim -- a genuine self-adversarial recompute within the same arc, later folded into the addendum.",
+   "absence_claims": [
+    {"quote": "the ℚ(√−15)-valued pattern is ABSENT (verified: no point has q,r dead with s alive)", "where": "FINDINGS.md"},
+    {"quote": "no partial-vanishing configurations exist", "where": "FINDINGS.md"},
+    {"quote": "The third — {√5,√−3}-forbidden ⟺ ... NEVER occurs", "where": "ADDENDUM.md Correction 2"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "the arc explicitly and repeatedly flags 'ℤ/2×ℤ/2 ≅ C×P' as a structural predicate that cannot fire H1 alone and is HELD per standing rules -- this is good discipline, but the underlying observation (Klein-four Galois group of a biquadratic field matching the abstract group structure of C, P) is exactly the kind of bit/type coincidence this seat is instructed to flag regardless of how it's disposed of.", "where": "FINDINGS.md Dispositions section, ADDENDUM.md pre-registered reading"}
+   ],
+   "seat_note": "One of the most self-correcting arcs in the batch: it catches its own overreach (the '240/240 uniform law' claim) within the same document via an explicit within-level pair control, and it pre-registers its reading of an external chat's incoming verdict before that verdict lands -- exemplary process discipline. All content is exact number-theoretic/Galois structure; the C/P/T naming is explicitly held, not asserted as physics."
+  },
+  {
+   "arc": "B460_relation_r1_child",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "length_spectrum.py", "pervacuum_log.txt"],
+   "files_sampled": [],
+   "files_listed_only": ["pervacuum_cs.py", "pervacuum_cs2.py (their combined output is captured in pervacuum_log.txt, which was read in full)"],
+   "claim_of_record": "claim_one_line: \"The child's length spectrum is tabulated and its per-vacuum Chern-Simons values computed by a two-gate-validated Kirk-Klassen integral matching banked and SnapPy controls.\"; status: verdict PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "geometric-vacuum CS engine gate: (5,1) filling reproduces banked CS=+0.0770380 (matching B434's +-0.07703818) with exact voldrop 1.04851=Vol(4_1)-Vol(child); independent (7,1) validation matches SnapPy's own 0.0606168663 with exact voldrop", "where": "pervacuum_log.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pervacuum_log.txt is the direct captured output of the Kirk-Klassen path-integral script(s), showing the gated geometric-vacuum values matching both a banked prior result and SnapPy's independently-computed CS -- a real two-way cross-check"},
+    {"what": "two new SU(2) per-vacuum CS values for the child: -0.4415870 and -0.3407670 (the latter corrected in-session from an initial -0.10664 via a multi-path-consistency check that caught a branch slip)", "where": "pervacuum_log.txt (both the single-path and multi-path sections)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "both the pre-correction (-0.10663901) and post-correction (-0.34076700) values are directly visible in the same captured log, confirming the arc's narrated self-correction actually happened as described"},
+    {"what": "these new SU(2) values are genuinely new in-repo but a lit-gate (Kirk-Klassen's own papers may have already published exactly these numbers) is named and explicitly PENDING, not cleared", "where": "FINDINGS.md Adjudication section", "kind": "UNCLEAR", "reproducible_from_committed": "yes (computation) / no (novelty claim)", "why": "the numeric computation is reproducible and verified, but the novelty claim depends on an unswept literature check that the arc explicitly declines to claim as cleared"},
+    {"what": "length spectrum table for 4_1(5,1), 4_1(7,1), Weeks manifold, m007(3,1)", "where": "length_spectrum.py", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "length_spectrum.py was read in full and is self-contained (SnapPy length_spectrum call), but its own log/output file was not part of the file list and was not independently run in this audit; the FINDINGS table numbers were not directly cross-checked against a captured log"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The multi-path-consistency pass is an explicit, in-script adversarial recheck of the initial single-path CS values, and it is shown (in the same log) to have actually caught and corrected a real branch-slip error -- a strong, visible verify-don't-trust example, not just an assertion that such a check exists.",
+   "absence_claims": [
+    {"quote": "no novelty claimed until swept", "where": "FINDINGS.md Adjudication"},
+    {"quote": "a closed-form F was not attempted this session", "where": "FINDINGS.md Adjudication"},
+    {"quote": "the abelian branch ... flagged, not banked", "where": "FINDINGS.md Cell 2 table note"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the length-spectrum table (Cell 1) is presented in FINDINGS with specific numeric values (e.g. 0.5780824355) but no captured log file for length_spectrum.py's actual run was in this arc's file set or read in this pass, unlike Cell 2 (pervacuum_log.txt) which was fully verified against FINDINGS; Cell 1's numbers are plausible and the script is short/deterministic SnapPy, but I did not independently confirm them against a witness file.", "where": "length_spectrum.py output (no committed log found in this arc's file list)"}
+   ],
+   "seat_note": "Cell 2 (the live per-vacuum Chern-Simons computation) is a strong example of the discipline this seat wants: a binding engine gate against two independent known values, and a multi-path consistency check that visibly caught and fixed a real branch-labeling error rather than silently reporting a wrong number. The two new SU(2) CS values are honestly held as pending a literature sweep rather than claimed as novel; no physical observable is asserted, only exact geometric/topological invariants."
+  }
+ ]
+}

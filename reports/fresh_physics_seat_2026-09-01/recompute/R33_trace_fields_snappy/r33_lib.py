@@ -49,3 +49,27 @@ def shape_field(M, bits=1000, maxdeg=16):
 
 def field_name(poly):
     return {'x^2 - x + 1': 'Q(sqrt-3)', 'x^2 + 1': 'Q(i)', 'x^2 - x + 2': 'Q(sqrt-7)', 'x^2 + 2': 'Q(sqrt-2)', 'x^2 - x + 3': 'Q(sqrt-11)'}.get(poly, poly)
+
+
+def shape_field_oneshot(M, bits=2000, deg=40):
+    """for high-degree fields: one algdep at degree `deg`, factor, keep the irreducible factor vanishing at w
+    that passes the cheapness guard (a genuine degree-d relation has coefficients far below 10^(digits/(d+1)))."""
+    digits = int(bits * 0.3); pari.set_real_precision(digits)
+    zs = [z.gen for z in polished_tetrahedra_shapes(M, bits_prec=bits)]
+    tol = pari(10) ** (-int(digits * 0.5))
+    got = []
+    for C in (C1, C2):
+        w = sum(c * z for c, z in zip(C, zs))
+        p = pari.algdep(w, deg)
+        best = None
+        for f, _ in zip(*pari.factor(p)):
+            d = int(pari.poldegree(f))
+            if d < 1 or abs(pari.subst(f, 'x', w)) > tol: continue
+            H = max(abs(int(c)) for c in pari.Vec(f))
+            if (d + 1) * len(str(H)) > digits * 0.5: continue
+            if best is None or d < int(pari.poldegree(best)): best = f
+        got.append(best)
+    if got[0] is None or got[1] is None: return None
+    d0, d1 = int(pari.poldegree(got[0])), int(pari.poldegree(got[1]))
+    f = got[0] if d0 >= d1 else got[1]; deg_ = int(pari.poldegree(f))
+    return dict(degree=deg_, poly=str(f), disc='skipped', signature=None, degrees_two_choices=[d0, d1])

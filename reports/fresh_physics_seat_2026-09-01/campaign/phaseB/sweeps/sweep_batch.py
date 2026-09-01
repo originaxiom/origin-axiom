@@ -24,13 +24,23 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SYN = os.path.join(HERE, '..', 'synthesis')
 DEL = os.path.join(HERE, 'deleted_corpus')
 SEAT = 'reports/fresh_physics_seat_2026-09-01'
+# catch-all files: they echo every claim ever made (a hit there means "the claim was logged", never "the thing exists")
+CATCHALL_EXACT = {'CHANGELOG.md', 'PROGRESS_LOG.md', 'CLAIMS.md', 'ROADMAP.md', 'GOVERNANCE.md', 'README.md', 'TERMINOLOGY.md',
+                  'REPRODUCIBILITY.md', 'AUDIT_REPORT.md', 'ARCHITECTURE.md', 'PROVENANCE.md', 'METHOD.md', 'WORKING_RULES.md',
+                  'docs/PROGRESS_LOG.md', 'docs/REVIEWS.md'}
+CATCHALL_PREFIX = ('docs/progress/', 'docs/reviews', 'documents/', 'legacy/', 'CC_TO_', 'CC3_TO_', 'outside_bench/')
+def is_catchall(p):
+    return p in CATCHALL_EXACT or p.startswith(CATCHALL_PREFIX) or p.endswith(('PROGRESS_LOG.md', 'REVIEWS.md', 'CHANGELOG.md'))
 
+ENV = dict(os.environ, LC_ALL='C', LANG='C')   # byte-wise case folding: git grep -i is many times faster than under UTF-8
 def git(*a, check=True):
-    r = subprocess.run(['git', '-C', ROOT] + list(a), capture_output=True, text=True)
+    r = subprocess.run(['git', '-C', ROOT] + list(a), capture_output=True, text=True, env=ENV)
     if check and r.returncode not in (0, 1): raise RuntimeError(r.stderr[:300])
     return r.stdout
 
-HEADS = [h.strip() for h in git('branch', '-r').splitlines() if 'HEAD' not in h]
+HEADS = [h.strip() for h in git('branch', '-r').splitlines() if 'HEAD' not in h and 'physics-seat-evaluation' not in h]
+# the seat's own head is main + reports/fresh_physics_seat_2026-09-01/ (excluded from every hit anyway); grepping it only
+# re-scans main plus this seat's multi-MB sweep/digest files — dropped from the head list (its tree is not evidence)
 
 # ---------------- deleted corpus (materialise once) ----------------
 def build_deleted_corpus():
@@ -110,7 +120,7 @@ def main():
     rows = list(csv.DictReader(open(os.path.join(SYN, 'absence_claims.tsv'), encoding='utf-8'), delimiter='\t'))
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
     if limit: rows = rows[:limit]
-    out_rows, leads = [], []
+    out_rows, leads, allrec = [], [], []
     for i, r in enumerate(rows):
         ts = terms(r['quote'])
         exclude = arc_dir(r['where'], r['arc'])
@@ -121,27 +131,34 @@ def main():
             ps = sweep_head(h, ts, exclude)
             per_head[h.replace('origin/', '')] = len(ps)
             for p in ps: allpaths[p] += 1
-        dl = sweep_deleted(ts)
-        top = [p for p, _ in allpaths.most_common(5)]
-        status = 'NO_HIT' if not (allpaths or dl) else ('GENERIC' if len(allpaths) > 40 and not dl else 'LEAD')
+        dl = [d for d in sweep_deleted(ts) if not is_catchall(d)]
+        subst = collections.Counter({p: n for p, n in allpaths.items() if not is_catchall(p)})
+        echo = len(allpaths) - len(subst)
+        top = [p for p, _ in subst.most_common(8)]
+        if not (allpaths or dl): status = 'NO_HIT'
+        elif not (subst or dl): status = 'DOC_ECHO'
+        elif len(subst) > 40 and not dl: status = 'GENERIC'
+        else: status = 'LEAD'
+        allrec.append(dict(i=i, arc=r['arc'], where=r['where'], terms=ts, status=status, substantive=sorted(subst), catchall_hits=echo, deleted=dl))
         out_rows.append((r['arc'], r['source'], r['where'], ' '.join(ts), status,
-                         json.dumps(per_head, separators=(',', ':')), ' | '.join(top + ['DELETED:' + d for d in dl]), r['quote']))
+                         json.dumps(per_head, separators=(',', ':')), ' | '.join(top + ['DELETED:' + d for d in dl]) + (' | +%d catch-all' % echo if echo else ''), r['quote']))
         if status == 'LEAD':
-            leads.append((r, ts, per_head, top, dl, len(allpaths)))
+            leads.append((r, ts, per_head, top, dl, len(subst)))
         if i % 25 == 0: print('%d/%d  leads so far %d' % (i, len(rows), len(leads)), flush=True)
+    json.dump(allrec, open(os.path.join(HERE, 'absence_sweep_paths.json'), 'w'), indent=0)
     with open(os.path.join(HERE, 'absence_sweep.tsv'), 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(['arc', 'source', 'where', 'terms', 'status', 'hits_per_head', 'top_paths', 'quote'])
         for row in out_rows: w.writerow([re.sub(r'\s+', ' ', str(x)) for x in row])
     with open(os.path.join(HERE, 'absence_sweep_hits.md'), 'w', encoding='utf-8') as f:
         f.write('# W-E absence sweep — LEADS (co-occurrence hits outside the claiming arc; verdicts are the seat\'s, below each)\n\n')
-        f.write('claims swept %d, leads %d, generic (>40 files, phrase too common to mean anything) %d, no-hit %d, unsweepable %d. Heads: %s. Deleted corpus: %s files.\n\n' % (
-            len(rows), len(leads), sum(1 for r in out_rows if r[4] == 'GENERIC'), sum(1 for r in out_rows if r[4] == 'NO_HIT'), sum(1 for r in out_rows if r[4] == 'UNSWEEPABLE'),
+        f.write('claims swept %d, leads %d, doc-echo (hits only in changelog/progress-log/claims-type catch-all files) %d, generic (>40 substantive files) %d, no-hit %d, unsweepable %d. Heads: %s. Deleted corpus: %s files.\n\n' % (
+            len(rows), len(leads), sum(1 for r in out_rows if r[4] == 'DOC_ECHO'), sum(1 for r in out_rows if r[4] == 'GENERIC'), sum(1 for r in out_rows if r[4] == 'NO_HIT'), sum(1 for r in out_rows if r[4] == 'UNSWEEPABLE'),
             ', '.join(h.replace('origin/', '') for h in HEADS), len([x for x in os.listdir(DEL) if not x.startswith('_')])))
         for r, ts, ph, top, dl, n in sorted(leads, key=lambda x: -x[5]):
             f.write('## %s (%s) — %s\n' % (r['arc'], r['source'], r['where']))
             f.write('> %s\n\n' % re.sub(r'\s+', ' ', r['quote']))
-            f.write('- terms: `%s`; distinct hit files across heads: %d; per head: %s%s\n' % (' '.join(ts), n, ph, ('; DELETED: ' + ', '.join(dl)) if dl else ''))
+            f.write('- terms: `%s`; distinct substantive hit files across heads: %d; per head (all hits): %s%s\n' % (' '.join(ts), n, ph, ('; DELETED: ' + ', '.join(dl)) if dl else ''))
             f.write('- top: %s\n' % ', '.join('`%s`' % p for p in top))
             f.write('- **verdict:** _(seat)_\n\n')
     print('done: %d claims, %d leads' % (len(rows), len(leads)))

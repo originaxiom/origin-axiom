@@ -1,0 +1,215 @@
+{
+ "batch": "tests_13",
+ "tests": [
+  {
+   "file": "tests/test_sl4_dehn_filling_paper.py",
+   "target_arcs": ["papers/sl4_dehn_filling"],
+   "what_it_locks": "Text-grep guard on the paper's prose (framing phrases, no AI-model names, figure PDFs exist) — not the math.",
+   "lock_type": "SMOKE",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "OTHER", "detail": "test_honest_framing asserts presence of hedging phrases like 'open', 'NEEDS-SPECIALIST' in prose; this locks wording, not a derivation."}]
+  },
+  {
+   "file": "tests/test_sl4_factorization.py",
+   "target_arcs": ["frontier/B59_sl4_factorization"],
+   "what_it_locks": "Runs probe.run_checks() (all ok) and reproduces B55's SL(3) fixed-line spectrum via probe.fixed_line_spectrum as a credibility anchor, matching a hardcoded target list within 0.02.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [{"value": "target=[1.0,-1.0,phi^2,1/phi^2, roots of r^2+r-1, roots of r^2-4r-1]", "provenance_stated": "yes"}],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "LOOSE_TOLERANCE", "detail": "test_method_reproduces_sl3_ground_truth uses tolerance < 0.02 on _max_match"}]
+  },
+  {
+   "file": "tests/test_sl4_tower_test.py",
+   "target_arcs": ["frontier/B58_sl4_tower_test"],
+   "what_it_locks": "Runs probe.run_checks(); separately proves symbolically (sympy factor) that r^4-4r^3+6r^2-4r+1=(r-1)^4, i.e. the identity recursion is a quadruple root.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_sln_tower.py",
+   "target_arcs": ["frontier/B60_sln_tower"],
+   "what_it_locks": "Runs probe.run_checks(); asserts probe.check_sl5_conditioning_barrier().ok, documenting (per comment) that cond(Dx) > 1e8 makes SL(5) unresolvable in double precision — an obstruction/negative result, not a positive computation.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "OTHER", "detail": "test_sl5_conditioning_is_a_barrier only asserts a boolean flag from the probe module; the numeric threshold 1e8 lives in probe.py, not re-verified here."}]
+  },
+  {
+   "file": "tests/test_snapdata.py",
+   "target_arcs": ["origin_axiom.constants (VOL_FIG8, CS_FIG8, CS_SISTER)"],
+   "what_it_locks": "First compares VOL_FIG8/CS_FIG8/CS_SISTER to hardcoded literals; then genuinely recomputes VOL_FIG8 independently via the dilogarithm (Im(Li2(e^{i*pi/3}))) to 1e-12; remaining 4 tests are SnapPy cross-checks that pytest.importorskip if snappy is absent.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {"value": "VOL_FIG8=2.0298832128 (tol 1e-9)", "provenance_stated": "yes"},
+    {"value": "CS_FIG8=0.0", "provenance_stated": "yes"},
+    {"value": "CS_SISTER=0.25", "provenance_stated": "yes"}
+   ],
+   "skip_conditions": ["pytest.importorskip('snappy') in 4 of 6 tests: skipped if snappy not installed"],
+   "red_flags": [{"kind": "SKIP_IN_CI", "detail": "4/6 tests (SnapPy volume/homology/Chern-Simons/amphichirality/sister-volume crosschecks) silently skip when the snappy package is unavailable in the test environment."}]
+  },
+  {
+   "file": "tests/test_spectral_curve_coulomb.py",
+   "target_arcs": ["frontier/physics_probes/spectral_curve_coulomb_test.py"],
+   "what_it_locks": "Symbolically recomputes I,J,j from y^2=M^4-aM^2+1, verifies J=0 solutions are exactly {0,6,-6} and j=1728 there, and that j is non-constant (a is the only modulus) so j=1728 is isolated, not generic (a=3 gives j!=1728).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [{"value": "1728", "provenance_stated": "yes"}],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_stale_absence_lock.py",
+   "target_arcs": ["docs/*, README.md, CLAIMS.md, frontier/B1079_wilson_menu, frontier/B1076_coboundary_sweep"],
+   "what_it_locks": "Pure string-presence/absence lock over ~15 docs: asserts dozens of hardcoded anchor phrases and 'currency stamp' counts remain present, and specific overclaim phrases stay absent, per a named 2026-08-19 sweep.",
+   "lock_type": "TAUTOLOGICAL",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "TAUTOLOGICAL", "detail": "Every assertion is 'anchor string in _read(file)' or 'phrase not in _read(file)' against prose the same commit controls — this locks that nobody edits the docs' wording, not any computed or physical fact."}]
+  },
+  {
+   "file": "tests/test_sweep2_facts.py",
+   "target_arcs": ["docs/LITERATURE_SWEEP2_2026-07-13.md"],
+   "what_it_locks": "Recomputes Legendre symbols (809,11) and (-11,809) to confirm the linking number claim; and asserts a hardcoded dict {1:2,2:8,3:32} of 'our' arboreal tower orders equals a conjectured formula 2^(2n+1), separately checking against 2^(2^k-1) for k=1,2 and index-4 collapse at k=3.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {"value": "ours={1:2,2:8,3:32}", "provenance_stated": "no"}
+   ],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "OTHER", "detail": "The dict `ours` (Galois tower orders, including the depth-3 order-32 'census' value) is hand-entered with no pointer in this file to where it was computed; test_arboreal_tower_alignment compares it to a self-consistent formula, so agreement is largely guaranteed by how the formula was fit to these 3 points."}]
+  },
+  {
+   "file": "tests/test_t2_golden_cm.py",
+   "target_arcs": ["T2 golden CM (docs, unspecified)"],
+   "what_it_locks": "Computes a resultant of a hardcoded modular polynomial jmin (H_-48) against a hardcoded j-t relation and checks the resultant has degree 12, is irreducible, and its leading/trailing coefficient is 5^30.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [{"value": "jmin = J^2 - 2835810000*J + 6549518250000 (banked H_-48 from 'T1')", "provenance_stated": "yes (cites T1, not reproduced here)"}],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "OTHER", "detail": "jmin is imported as a 'banked' constant from another arc (T1) rather than derived in this file — the resultant computation is real, but rests on an unverified imported input."}]
+  },
+  {
+   "file": "tests/test_the_road.py",
+   "target_arcs": ["docs/THE_ROAD.md, frontier/*"],
+   "what_it_locks": "Checks every B-numbered arc cited in THE_ROAD.md (except B8xxx) has a matching frontier/ directory (>=25 citations); checks 5 state markers present; checks specific doctrinal phrases and a corrected census count ('nine genuine open nodes') plus conditional handling of L175 status.",
+   "lock_type": "TAUTOLOGICAL",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "OTHER", "detail": "Existence-of-arc-directory check (test_every_cited_main_arc_exists) is a real structural check; the remaining tests are string-presence locks on prose, effectively tautological against the doc's own content."}]
+  },
+  {
+   "file": "tests/test_thermo.py",
+   "target_arcs": ["origin_axiom.statistics (z_count, z_trace), origin_axiom.algebra (L,R)"],
+   "what_it_locks": "Recomputes z_count(N)=2^N and z_trace(N)=3^N+1 both from closed-form functions and independently by brute-force word enumeration (products of L/R matrices) for N up to 8-13; symbolically verifies the log-growth thresholds log2, log3 via sympy limit/simplify.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_torsion.py",
+   "target_arcs": ["origin_axiom.topology (torsion_growth_rate, torsion_order), origin_axiom.constants (PHI_SQ)"],
+   "what_it_locks": "Compares torsion_order(n) for n=1..5 to hardcoded Lucas-number values {1,5,16,45,121}; checks torsion_growth_rate(40) converges to log(phi^2) within 1e-3 and that the rate is monotonically increasing and bounded above by the target.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [{"value": "{1:1,2:5,3:16,4:45,5:121} (Lucas L_{2n}-2)", "provenance_stated": "yes (formula stated in docstring)"}],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "LOOSE_TOLERANCE", "detail": "torsion_growth_rate convergence tolerance is 1e-3, and only checked at n=40 (not derived independently of the module under test)."}]
+  },
+  {
+   "file": "tests/test_trace_selector_c5.py",
+   "target_arcs": ["docs/TRACE_SELECTOR_THEOREM.md, origin_axiom.algebra (A, F_FIB, char_poly)"],
+   "what_it_locks": "Given assumption T1 (explicitly stated as NOT tested here, conditional), recomputes symbolically that mu=4I+2, that the minimal positive hyperbolic integer trace is 3 and that |2-mu|=1 forces mu in {1,3} with only 3 hyperbolic, that this fixes I=1/4 and lambda/h=1, and that the resulting quadratic matches char_poly(A); also verifies a Lucas hierarchy (1,5,16,45,121,320) is generated from F_FIB powers (not hardcoded Lucas numbers) and matches P8's torsion_order.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [{"value": "documented=[1,5,16,45,121,320]", "provenance_stated": "yes (cross-checked against F_FIB computation in same test)"}],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "OTHER", "detail": "File's own docstring states T1 is 'a chosen assumption and is NOT tested here' — the entire lock is explicitly conditional on an unverified premise."}]
+  },
+  {
+   "file": "tests/test_trifocal.py",
+   "target_arcs": ["trifocal / silver theorem / 15A8 (docs, unspecified)"],
+   "what_it_locks": "Symbolic identities (silver ratio delta relation, an 8th-degree polynomial substitution/convention bridge), the discriminant/j-invariant of a specific quartic model matching -1/15, and a brute-force a_p Frobenius-trace comparison across 3 curve models (Weierstrass, two quartics) at 12 primes, matching a hardcoded target sequence.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [{"value": "target=[0,-4,-2,2,4,0,-2,0,-10,10,4,8] (a_p at primes 7..47)", "provenance_stated": "no (no citation to where this target sequence came from, e.g. LMFDB class 15a)"}],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "OTHER", "detail": "target a_p sequence for 'class-15a' has no provenance citation in-file (no LMFDB reference); the brute-force ap_w/ap_q computations are genuinely independent and real, but validated against an unsourced literal."}]
+  },
+  {
+   "file": "tests/test_uniqueness_theorem.py",
+   "target_arcs": ["docs/UNIQUENESS_THEOREM.md, origin_axiom.algebra (A,L,R), origin_axiom.constants (PHI)"],
+   "what_it_locks": "Explicitly conditional on axioms A1-A6 (stated in docstring, not tested); given the axioms, symbolically derives mixed-closure form B(a,b), its det/trace/torsion formulas, brute-force checks the 12x12 grid for the unique torsion-free hyperbolic point (1,1)->A, verifies eigenvalues are phi^2/phi^-2, and shows LR vs RL are SL(2,Z)-conjugate but give different Mobius fixed-point polynomials.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "OTHER", "detail": "Docstring states this 'does NOT promote C1 to proven' and remains conditional on unverified axioms A1-A6 — the algebra is real but the underlying claim is explicitly not established by this test."}]
+  },
+  {
+   "file": "tests/test_v4_genericity.py",
+   "target_arcs": ["B777 extension / cc3 (SnapPy manifold census)"],
+   "what_it_locks": "If snappy is installed, checks amphicheirality and symmetry group strings for 5 named manifolds (m004,m003,m025,m009,m010) against a hardcoded expected dict, and that m004/m003 share volume.",
+   "lock_type": "SKIPPED_OR_XFAIL",
+   "hardcoded_constants": [{"value": "expected={'m004':(True,'D4'), 'm003':(True,'Z/2 + Z/4'), 'm025':(True,'Z/6'), 'm009':(False,'Z/2 + Z/2'), 'm010':(False,'Z/2 + Z/2')}", "provenance_stated": "no (asserted as known facts, no citation)"}],
+   "skip_conditions": ["skipif not HAVE (snappy import failed) -> entire test skipped"],
+   "red_flags": [{"kind": "SKIP_IN_CI", "detail": "Whole test is skipped if snappy is unavailable; this is the only test in the file and it is the sole verification of the V4-genericity claim."}]
+  },
+  {
+   "file": "tests/test_verdict_body_agreement.py",
+   "target_arcs": ["frontier/B1*/FINDINGS.md, frontier/B1*/arc_verdict.json"],
+   "what_it_locks": "For arcs B1060+, checks that if FINDINGS.md's Verdict header says STALLED/NEEDS_VALIDATION, arc_verdict.json must not simultaneously say PROVED (a metadata-consistency gate, forward-only); second test checks at least 3 B106x arcs have both files to scan (non-vacuity).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_w2_molien_cell.py",
+   "target_arcs": ["frontier/B674_generation_leg/w2_molien_cell"],
+   "what_it_locks": "Checks 5 named artifact files exist and W2_CELL_STATUS.md contains 'LOCKED'; separately verifies golden-ratio trig/algebraic identities symbolically; checks step_ii_support.md contains the strings '2/5' and '3/5'.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "SELF_REFERENTIAL_LOCK", "detail": "test_artifacts_present_and_step_iii_locked and test_support_landing_recorded only check that specific arc-produced markdown files contain expected strings ('LOCKED', '2/5', '3/5') — the file being checked is the arc's own claimed output, not independently recomputed."}, {"kind": "OTHER", "detail": "Line 22: 'assert ... != 0 or True' is a vacuous assertion that always passes regardless of the left side."}]
+  },
+  {
+   "file": "tests/test_w2_step3_kill.py",
+   "target_arcs": ["frontier/B674_generation_leg/w2_step3"],
+   "what_it_locks": "Checks STEP3_VERDICT.md contains 'KILLED-AT-(iii)' and '5-adic' (self-referential to the arc's own stated verdict); separately recomputes a q-series product expansion coefficient (3/5) and checks phi^2 is irrational and phi^2*phi^-2=1.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [{"kind": "SELF_REFERENTIAL_LOCK", "detail": "test_verdict_banked reads the arc's own STEP3_VERDICT.md and asserts it contains the arc's own claimed verdict string — this cannot fail unless someone edits the file, and does not independently establish the kill result."}]
+  },
+  {
+   "file": "tests/test_w3_support_stop.py",
+   "target_arcs": ["W3 support pre-test (docs, unspecified)"],
+   "what_it_locks": "Verifies a modular pairing fact (tau: a/5 -> (5-a)/5 preserves pairs {2,3},{1,4}) and numerically recomputes a dilogarithm identity giving c_eff = 2/5 to 1e-20 precision via mpmath.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_wave_b931_b933.py",
+   "target_arcs": ["frontier/B931_why_953", "frontier/B932_chain_selection", "frontier/B933_spinor_hejhal_design"],
+   "what_it_locks": "test_b931_2304_derivation_anchor recomputes factorint of a hardcoded literal 500716339200 and checks its {2,3}-part; the other three tests only check that specific strings/substrings ('953', '(6,1,1)', '2.97455') appear inside each arc's own results.json.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [
+    {"value": "lc = 500716339200", "provenance_stated": "no (literal introduced with no derivation pointer)"},
+    {"value": "2.97455 (B933 probe bracket)", "provenance_stated": "no"}
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "test_b931_953_level_structure, test_b932_outcome_A, test_b933_probe_bracket each load results.json produced by the arc itself and grep for a substring the arc itself wrote — no independent recomputation."},
+    {"kind": "OTHER", "detail": "test_b932_outcome_A's singlet check ('assert \"singlet\" in t.lower() or \"no lepton\" in t.lower() or \"0\" in t') is nearly vacuous: '0' in t will match almost any JSON containing any digit 0 anywhere."}
+   ]
+  },
+  {
+   "file": "tests/test_zimm_bragg.py",
+   "target_arcs": ["origin_axiom.algebra (A), origin_axiom.statistics (zimm_bragg_matrix)"],
+   "what_it_locks": "Checks zimm_bragg_matrix(2,1/2)==A; then solves symbolically for (s,sigma) forcing the matrix identity and shows (2,1/2) is the unique solution; checks 0<sigma<1 and sigma not << 1/100 (weak cooperativity, stated as an honest limitation vs typical proteins).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  }
+ ]
+}
