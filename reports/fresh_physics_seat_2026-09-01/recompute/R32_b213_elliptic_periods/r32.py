@@ -122,21 +122,20 @@ say('  j-invariants of the 40a class members: %s ; Phi-curve j in class: %s' % (
 out['phi_is_40a1'] = dict(conductor=Ncv, j=str(jcv), j_40a1=str(E.j()), same_j=bool(jcv == E.j()), class_js=cls_j, j_in_40a_class=str(jcv) in cls_j)
 say('  => Phi = 0 is an elliptic curve of conductor 40, ISOGENOUS to 40a1 (same isogeny class, same L-function) but a DIFFERENT curve %s'
     % ('(j matches member %d)' % cls_j.index(str(jcv)) if str(jcv) in cls_j else '(j not in class!)'))
-# independent Mahler-measure check: brute 2-D torus integral of log|Phi| (no Jensen)
-def integrand(t, s_):
-    x = mp.exp(1j * t); z = mp.exp(1j * s_)
-    return mp.log(abs(z * z - (x * x + 1) * z + (2 * x * x - 1)))
-m2 = mp.quad(lambda t: mp.quad(lambda s_: integrand(t, s_), [0, mp.pi, 2 * mp.pi]), [0, mp.pi / 2, mp.pi, 3 * mp.pi / 2, 2 * mp.pi]) / (4 * mp.pi ** 2)
-say('  m(Phi) by direct 2-D torus integral: %s  (Jensen value %s; agree: %s)' % (mp.nstr(m2, 12), mp.nstr(mah, 12), abs(m2 - mah) < 1e-8))
-out['mahler']['direct_2d'] = float(m2)
-# is the bank's 0.7417527 the Mahler measure of a DIFFERENT normalisation?  try the z-monic-in-x form and the B211 polynomial variants
-cands = {'z^2-(x^2+1)z+2x^2-1 (B213)': lambda x, z: z*z - (x*x+1)*z + 2*x*x - 1,
-         'x^2(z-2) - (z^2-z-1)': lambda x, z: x*x*(z-2) - (z*z - z - 1),
-         'z^2-(x+1)z+2x-1 (u=x^2)': lambda x, z: z*z - (x+1)*z + 2*x - 1}
+# independent Mahler-measure check: brute 2-D torus integral of log|P| in double precision (scipy), no Jensen
+from scipy.integrate import dblquad
+import numpy as _np
+def m2d(P):
+    f = lambda s_, t: _np.log(abs(P(_np.exp(1j * t), _np.exp(1j * s_))))
+    v, err = dblquad(f, 0, 2 * _np.pi, 0, 2 * _np.pi, epsabs=1e-9, epsrel=1e-9)
+    return v / (4 * _np.pi ** 2), err
+cands = {'z^2-(x^2+1)z+2x^2-1 (B213 Phi)': lambda x, z: z*z - (x*x+1)*z + 2*x*x - 1,
+         'x^2(z-2)-(z^2-z-1) (same curve, other monic form)': lambda x, z: x*x*(z-2) - (z*z - z - 1),
+         'z^2-(u+1)z+2u-1 (u = x^2, the genus-0 shadow)': lambda x, z: z*z - (x+1)*z + 2*x - 1}
 for nm, P in cands.items():
-    v = mp.quad(lambda t: mp.quad(lambda s_: mp.log(abs(P(mp.exp(1j*t), mp.exp(1j*s_)))), [0, mp.pi, 2*mp.pi]), [0, mp.pi/2, mp.pi, 3*mp.pi/2, 2*mp.pi]) / (4*mp.pi**2)
-    say('  m[%s] = %s' % (nm, mp.nstr(v, 12)))
-    out['mahler'][nm] = float(v)
-
+    v, err = m2d(P)
+    say('  m[%s] = %.9f (+- %.1e) by direct 2-D torus integral' % (nm, v, err))
+    out['mahler'][nm] = v
+say('  Jensen value for Phi: %s ; direct 2-D: %.9f ; bank 0.7417527164660' % (mp.nstr(mah, 12), out['mahler']['z^2-(x^2+1)z+2x^2-1 (B213 Phi)']))
 json.dump(out, open(HERE + '/r32_out.json', 'w'), indent=1, default=str)
 open(HERE + '/r32_out.txt', 'w').write('\n'.join(lines) + '\n')

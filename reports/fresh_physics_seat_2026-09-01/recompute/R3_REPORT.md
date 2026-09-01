@@ -484,4 +484,19 @@ re-swept over all 7 remote heads and the deleted-file history
   permute/A result. Verdict on B1127 unchanged: MATCH; the compact-referenced alternative does not rescue
   a compact colour from the mirror.
 
-Numbering note: cells are R01–R30; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
+Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
+
+## DATED CLOSURES (2026-09-01, evening) — Phase B reader flags turned into cells
+
+- **B208 "300 000 re-audit" (reader flag CLAIM_EXCEEDS_COMPUTATION) — CLOSED, MATCH** by
+  `R31_b208_radicand_divides_period/`: squarefree(m²+4) | m(m²+4)/gcd(m²+4,4) for every m ≤ 300 000
+  (0 failures; v₂(m²+4) ∈ {2,3} for even m as the proof needs); the bank's two-line proof re-read and correct.
+  The flag stands as a witness gap only: the committed script asserts to m = 200.
+- **B213 "Higgs-side periods" (reader: IMPORTED, reproducible unknown, Sage-gated) — CLOSED, MATCH with
+  corrections** by `R32_b213_elliptic_periods/` (PARI, no Sage): L(E,1)/ω₁ = 1/2 to 25 digits and the nine-curve
+  null table reproduced; **but** torsion is ℤ/2×ℤ/2 not ℤ/4, ∏c_p = 4 not 8 (the 8 folds in the two real
+  components), L(E,1) is misquoted by 7.5e−5, the Mahler measure m(Φ) is misquoted by 5.1e−4 (recomputed
+  0.742264063…, two methods) and is not equal to L(E,1) nor a rational multiple of L′(E,0); and Φ = 0 is the
+  2-isogenous class-mate [0,0,0,−32,64] (j = 55296/5), not 40a1 itself — B211's curve-level identification is
+  off by an isogeny, harmless for L-values. The null table mixes the ω₁ and 2ω₁ period conventions between its
+  40a2 and 40a3 rows. No observable content.

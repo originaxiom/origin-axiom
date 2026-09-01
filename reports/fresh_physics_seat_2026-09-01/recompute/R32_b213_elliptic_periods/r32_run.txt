@@ -1,0 +1,57 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+== 40a1 ==
+  conductor = 40
+  disc_sign = 1
+  omega1 = 1.4844124734223865
+  Omega = 2.968824946844773
+  L1 = 0.7422062367111932
+  L_over_Omega = 0.25
+  torsion = 4
+  torsion_structure = [2, 2]
+  tamagawa_product = 4
+  analytic_rank = 0
+  j = 148176/25
+  has_cm = False
+  bsd_prediction = 0.25
+  L_over_Omega_exact_guess = 1/4
+  MATCH bank (cond 40, rank 0, tors 4, non-CM, j 148176/25, Omega 1.48441247342, L 0.74228113889, L/Omega = 1/2): True
+  NOTE: bank Omega 1.48441 = omega_1 (least real period, Sage omega() default); BSD real period = 2*omega_1 = 2.9688249468 since Delta>0.
+        L(E,1)/omega_1 = 0.5000000000000000000000000 ; with Omega_BSD: L/Omega = 1/4 = (2 components)*(prod c_p=4)/|T|^2 ... bank wrote prod c_p = 8
+  torsion structure: [2, 2]  (bank: Z/4; full rational 2-torsion (x+1)(x+2)(x-3) forces Z/2 x Z/2)
+  L(E,1): bank 0.7422811388969421 vs PARI 0.7422062367111932  (diff 7.49e-05; Sage lseries().at1() is a truncated sum)
+  BSD: prod c_p / |T|^2 = 4 / 16 = 1/4  vs L/Omega 0.250000000000000000000000000000
+== null test: L(E,1)/Omega over B213's rank-0 curves ==
+  11a1 cond 11 rank 0 sign(D)=-1  L/omega_1 = 1/5  L/Omega_BSD = 1/5 = c_p/|T|^2 1/5  (bank 1/5, omega_1 convention) match=True
+  14a1 cond 14 rank 0 sign(D)=-1  L/omega_1 = 1/6  L/Omega_BSD = 1/6 = c_p/|T|^2 1/6  (bank 1/6, omega_1 convention) match=True
+  15a1 cond 15 rank 0 sign(D)=+1  L/omega_1 = 1/4  L/Omega_BSD = 1/8 = c_p/|T|^2 1/8  (bank 1/4, omega_1 convention) match=True
+  17a1 cond 17 rank 0 sign(D)=-1  L/omega_1 = 1/4  L/Omega_BSD = 1/4 = c_p/|T|^2 1/4  (bank 1/4, omega_1 convention) match=True
+  19a1 cond 19 rank 0 sign(D)=-1  L/omega_1 = 1/3  L/Omega_BSD = 1/3 = c_p/|T|^2 1/3  (bank 1/3, omega_1 convention) match=True
+  20a1 cond 20 rank 0 sign(D)=-1  L/omega_1 = 1/6  L/Omega_BSD = 1/6 = c_p/|T|^2 1/6  (bank 1/6, omega_1 convention) match=True
+  21a1 cond 21 rank 0 sign(D)=+1  L/omega_1 = 1/4  L/Omega_BSD = 1/8 = c_p/|T|^2 1/8  (bank 1/4, omega_1 convention) match=True
+  24a1 cond 24 rank 0 sign(D)=+1  L/omega_1 = 1/4  L/Omega_BSD = 1/8 = c_p/|T|^2 1/8  (bank 1/4, omega_1 convention) match=True
+  37b1 cond 37 rank 0 sign(D)=+1  L/omega_1 = 2/3  L/Omega_BSD = 1/3 = c_p/|T|^2 1/3  (bank 2/3, omega_1 convention) match=True
+  40a isogeny class: 4 curves (from ellisomat)
+    [-7, -6]  L/omega_1 = 0.500000000000000 = 1/2  |T|=4 prod c_p=4
+    [-32, 64]  L/omega_1 = 0.500000000000000 = 1/2  |T|=4 prod c_p=2
+    [13, -34]  L/omega_1 = 0.500000000000000 = 1/2  |T|=4 prod c_p=8
+    [-107, -426]  L/omega_1 = 1.000000000000000 = 1  |T|=2 prod c_p=2
+  class values ['1', '1/2'] ; bank says 40a2 -> 1, 40a3 -> 1/4 : present = False
+== Mahler measure of Phi(x,z) = z^2 - (x^2+1) z + (2x^2-1) ==
+  m(Phi) = 0.742264063232416   (bank 0.7417527164660; L(E,1) = 0.7422062367112; Omega/2 = 1.4844124734224)
+  |m(Phi) - L(E,1)| = 5.783e-05  -> NOT equal (B213 itself says only "~"); relative gap 7.79e-05
+== is Phi = 0 the curve 40a1?  (B211 identification imported by B213) ==
+  curve w^2 = (z-2)(z^2-z-1): conductor 40, j = 55296/5 ; j(40a1) = 148176/25 ; same = False
+  j-invariants of the 40a class members: ['148176/25', '55296/5', '237276/625', '132304644/5'] ; Phi-curve j in class: True
+  => Phi = 0 is an elliptic curve of conductor 40, ISOGENOUS to 40a1 (same isogeny class, same L-function) but a DIFFERENT curve (j matches member 1)
+/usr/local/lib/python3.11/dist-packages/scipy/integrate/_quadpack_py.py:1286: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  quad_r = quad(f, low, high, args=args, full_output=self.full_output,
+  m[z^2-(x^2+1)z+2x^2-1 (B213 Phi)] = 0.742266957 (+- 2.9e-04) by direct 2-D torus integral
+  m[x^2(z-2)-(z^2-z-1) (same curve, other monic form)] = 0.742266957 (+- 2.9e-04) by direct 2-D torus integral
+  m[z^2-(u+1)z+2u-1 (u = x^2, the genus-0 shadow)] = 0.742267196 (+- 4.8e-08) by direct 2-D torus integral
+  Jensen value for Phi: 0.742264063232 ; direct 2-D: 0.742266957 ; bank 0.7417527164660
