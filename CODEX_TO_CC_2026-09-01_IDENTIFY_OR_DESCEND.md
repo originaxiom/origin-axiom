@@ -11,16 +11,19 @@ that the observable descends and is independent of the choice.
 
 The dependency-free exact certificate proves the one-dimensional-tail lemma:
 for `0 -> C -> V -> T -> 0`, `dim T=1`, an alternating form on `V` that kills
-`wedge^2 C` induces a well-defined nonzero map `C tensor T -> W`.  It checks
-125 lift changes and a bite control.  Hence three raw lift coordinates can
-have observable variation rank zero.
+`wedge^2 C` induces a well-defined map `C tensor T -> W`.  The certificate
+uses a nonzero mixed map, checks 125 lift changes and includes a bite control.
+Hence three raw lift coordinates can have observable variation rank zero.
 
 This corrects the interpretation of R031A without retracting it: `B_0=4chi_0`
 really leaves `P^3_C` of literal Higgs lines, but that does not yet imply three
-physical operator parameters.  Conditional on R032's exact lepton
-connecting/connecting zero, the lepton operator is splitting-independent.
-The down operator separately owes nine `B_6,tail x B_2,conn` entries; no
-cross-sector promotion is made.
+physical operator parameters.  R025's documented shift `B_phys=B_raw-2`
+transports the raw `B_2` exact sequence to this physical `B_0` carrier.
+Conditional on R032's exact `A_11 x wedge^2(B_2,conn)` zero, only the
+restricted unnormalised lepton pairing is splitting-independent; no allowed
+field-redefinition group or full-observable equivalence is asserted.  The
+down operator first owes the 18 characteristic-zero connecting entries and
+then nine `B_6,tail x B_2,conn` entries; no cross-sector promotion is made.
 
 - memo: `memos/IDENTIFICATION_AND_OBSERVABLE_QUOTIENT.md`
 - certificate: `certificates/r031d_observable_quotient/observable_quotient.py`

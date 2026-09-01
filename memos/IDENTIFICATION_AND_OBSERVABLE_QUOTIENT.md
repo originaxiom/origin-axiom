@@ -16,9 +16,10 @@ modes:
    choice of map or lift.
 
 If neither is done, the remaining input is the image of the typed choice
-space in invariant observables, modulo field redefinitions.  It is not the
-dimension of a convenient presentation space, and it is not the number of
-rows in an identification ledger.
+space in invariant observables, modulo only the equivalences that have
+actually been declared and proved to act.  It is not the dimension of a
+convenient presentation space, and it is not the number of rows in an
+identification ledger.
 
 ## Exact quotient lemma
 
@@ -61,34 +62,40 @@ P(B_0) = P^3_C
 ```
 
 of Higgs lines.  It does **not** follow that the holomorphic theory has three
-physical parameters.  The long exact sequence has the typed form
+physical parameters.  R025 documents the physical character shift
+`B_phys=B_raw-2`; tensoring by that one-dimensional character keeps the
+carrier and exact sequence fixed, so raw `B_2` is the physical `B_0` carrier
+in this block.  The long exact sequence has the typed form
 
 ```text
 0 -> B_2,conn -> B_2 -> B_2,tail -> 0,
 dim =             3       4          1.
 ```
 
-If R032's characteristic-zero computation proves that the lepton tensor
-vanishes on `wedge^2(B_2,conn)`, the lemma makes the lepton operator factor
-canonically through
+Put `C=(B_2,conn)_phys` and `T=(B_2,tail)_phys`.  If R032's
+characteristic-zero computation proves, for every `A_11`/`e^c` leg, that the
+lepton tensor vanishes on `wedge^2(C)`, the lemma makes its restriction with
+the lepton `B` leg in `C` factor canonically through
 
 ```text
-B_2,conn tensor B_2,tail.
+C tensor T.
 ```
 
 Changing the representative of a nonzero tail/Higgs class by any connecting
-vector then leaves that operator unchanged.  The `P^3` remains a real
-presentation space, but its three lift directions on the open stratum
-`P^3 - P(B_2,conn)` are field-redefinition artifacts for this holomorphic
-observable.  The pure-connecting boundary is a separate zero stratum, and a
-nonzero mixed lepton tensor may still survive.  Thus this layer can reduce a
-three-dimensional continuum to a finite stratification without selecting a
-canonical line.
+vector then leaves **that restricted, unnormalised holomorphic pairing**
+unchanged.  If the induced mixed map is nonzero, the open stratum
+`P^3-P(C)` maps to one point of the projectivised operator space; if it is
+zero, the whole restricted pairing is zero.  The pure-connecting boundary
+maps to zero for this pairing.  This is a descent statement, not yet a field
+redefinition: eliminating a physical choice requires an allowed basis-change
+group and descent of every claimed observable, including metrics and
+normalisation.
 
-The down operator needs one additional condition: besides the already tested
-`B_6,conn tensor B_2,conn` block, its
-`B_6,tail tensor B_2,conn` block must vanish before it descends in the Higgs
-factor.  Those nine entries are the precise obstruction.  This distinction
+The down operator requires characteristic-zero vanishing on **all** vectors
+in its other `B_6` leg.  R032 is adjudicating the 18 scalar entries in
+`A_7 tensor B_6,conn tensor B_2,conn`; even if those vanish, the nine entries
+in `A_7 tensor B_6,tail tensor B_2,conn` are the remaining descent
+obstruction.  Neither block is treated as proved here.  This distinction
 prevents the lepton lemma from being silently promoted to the down sector.
 
 ## Consequence for “parameter free”
@@ -97,7 +104,7 @@ The correct closure object is not a list of canonical source data.  It is the
 map
 
 ```text
-typed realizations / field redefinitions  -->  invariant SM observables.
+typed realizations / proved equivalences  -->  invariant SM observables.
 ```
 
 Parameter freedom is the dimension and component structure of its image.
@@ -111,8 +118,9 @@ input.
 
 This cell is exact linear algebra and parameter-accounting discipline.  It
 does not assume that R032's finite-field zeros lift to characteristic zero,
-does not construct the Serre-tail map, and does not supply matter metrics,
-canonical normalization, masses or mixings.
+does not construct the Serre-tail map or an allowed field-redefinition group,
+and does not supply matter metrics, canonical normalization, masses or
+mixings.
 
 ## Reproduce
 
