@@ -124,3 +124,38 @@ cover of m004/m000 — three bounded owner-electable cells, both outcomes bankab
 Row unspent. L192 closed as answered by B303 with B1234's mechanism. Any future licensed-row request from
 this seat will come in the owner's five-line form (exact bit + computed value; `already_banked` output
 pasted; both outcomes pre-declared bankable; what the row buys; own recommendation).
+
+## 8. The Ring R3 diff table (sent the same way as R2's) — added after the ring closed
+
+`reports/fresh_physics_seat_2026-09-01/recompute/R3_REPORT.md` §1 (cells R21–R28), §2 (findings
+D9–D12, V15–V19, P2–P3), §4 (HELD re-reads H1/H2 → G1, F1), §0 (this seat's own adjudication:
+own SnapPy re-run of the D9 witness rows; rank arguments for D10 re-done by hand; D11's 9-vs-4
+reasoned independently). Score 6 MATCH / 1 PARTIAL / 1 DISCREPANCY / 0 BLOCKED. Lead with:
+
+- **D9** — B1163's `ADDENDUM_family_denominator_B8147.md` "83 of 83 CLOSED, spot-verified 5/5"
+  used the orientation-blind instrument; **o10_150700 is chiral, CS = 5/12 (≡ −1/12)**, H₁ = ℤ.
+  t12840 (CS 0) and s955 (CS ¼) are genuinely amphichiral. Headline (m004 amphichiral, CS = 0)
+  survives; every family-wide strengthening falls. Addendum-beside for you to re-bank:
+  `frontier/B1163_w0_attempt/ADDENDUM_2026-09-01_B8147_83of83_withdrawn.md`.
+- **D10** — B994's exhibited chain `SU(3)^3 -> Pati-Salam -> SM` is not a chain of subgroups
+  (su(4) simple, dim 15 > 8: no nonzero hom into su(3)³; su(5) likewise). Positional menu
+  application; menus for three parents were never committed (P2); no generator for B994's
+  `results.json` (P3). Endpoint claim reproduces. Addendum-beside:
+  `frontier/B994_rule_variation/ADDENDUM_2026-09-01_witness_chain_and_provenance.md`.
+- **D11** — B1148 memo 48's "6615 → 4 → 1" mixes conventions; full ordered tensor gives
+  6615 → **9** → 1 (Sym³ gives 4); theorem unchanged. Certs are on `origin/claude/outside-bench
+  @ d3c99640` only. `frontier/B1148_carrier_harvest/ADDENDUM_2026-09-01_chain_conventions.md`.
+- **V18** — B1011's C5 lock asserts `8·120+24·2−8·2 == 992` with literals; R26 supplies the
+  cell-by-cell enumeration (992/284 MATCH). `frontier/B1011_mckay_tensor/ADDENDUM_2026-09-01_C5_lock_vacuity.md`.
+- **D12** — B1080 "six Weyl realizations" names five valid A2+A1 subsets; all ten give ℤ/6.
+  `frontier/B1080_global_form/ADDENDUM_2026-09-01_six_realizations_prose.md`.
+- **G1 / F1 — proposals only, owner's grading acts:** B267's `claim_one_line` "are the same
+  Lie object" → "are of the same Lie type" (`frontier/B267_e6_coherence/ADDENDUM_2026-09-01_PROPOSAL_claim_line_wording.md`);
+  B964 RETRACTED → PROVED with `supersedes` per PRACTICES B818 / Boundary rule 1
+  (`frontier/B964_vev_correction/ADDENDUM_2026-09-01_PROPOSAL_refile_PROVED.md`).
+
+All MATCH headlines (6615/4/1, 4-of-48, ℤ/6 and ℤ/5, 992/284, the six 2√3i carriers and the
+empty quine, 6/200, five Kashaev coefficients to 67+ digits) reproduce from blind own code;
+per-cell artifacts under `recompute/R2x_*/`. R3 §3 lists the typed gaps and who can close them
+(all owner-side: land B1148 certs, commit B994 menus/generator, replace the B1011 lock, name
+B1234's base-rate slice). Nothing here is banked by this seat.
