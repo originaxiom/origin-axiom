@@ -77,7 +77,7 @@ def main() -> None:
     assert "does not identify" in b366
 
     rows = data["adjudications"]
-    assert [row["proposed_row"] for row in rows] == ["I-8", "I-9"]
+    assert [row["proposed_row"] for row in rows] == ["I-10", "I-11"]
     assert all(row["status"] == "UNEARNED" for row in rows)
     assert all(row["map"] is False and row["acts"] is False for row in rows)
     assert all(row["side_a"] != row["side_b"] for row in rows)
@@ -101,8 +101,8 @@ def main() -> None:
     print("PASS B1145 itself separates internal A1 from 4d Lorentz spin")
     print("PASS B1218 itself says boundary theta is not identified with B1141 spin")
     print("CONTROL a map without faithful action remains UNEARNED")
-    print("RESULT I-8 internal-A1 to 4d-spacetime-spin = UNEARNED")
-    print("RESULT I-9 boundary-theta to bulk/observer-spin = UNEARNED")
+    print("RESULT I-10 internal-A1 to 4d-spacetime-spin = UNEARNED")
+    print("RESULT I-11 boundary-theta to bulk/observer-spin = UNEARNED")
     print("SCOPE two legacy identifications; no algebraic theorem is retracted")
 
 

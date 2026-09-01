@@ -71,8 +71,12 @@ still needs the 4d Lorentz Spin/Pin construction above.
 
 | row | identification | map | acts | status |
 |---|---|---:|---:|---|
-| I-8 | odd internal A1 lift = physical 4d spacetime spin | no | no | **UNEARNED** |
-| I-9 | boundary theta-characteristic = bulk/observer physical spin | no | no | **UNEARNED** |
+| I-10 | odd internal A1 lift = physical 4d spacetime spin | no | no | **UNEARNED** |
+| I-11 | boundary theta-characteristic = bulk/observer physical spin | no | no | **UNEARNED** |
+
+The identifiers were advanced from the original branch-local proposal `I-8/I-9`
+after B1233--B1234 occupied those rows on `main`; this is a numbering correction,
+not a change of mathematical verdict.
 
 These are legacy discoveries from pre-B1231 arcs. Per R033, registering them
 requires a deliberate dated baseline migration; hiding them to keep the seed

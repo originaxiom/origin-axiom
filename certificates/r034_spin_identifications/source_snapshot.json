@@ -79,7 +79,7 @@
   },
   "adjudications": [
     {
-      "proposed_row": "I-8",
+      "proposed_row": "I-10",
       "identification": "odd internal A1 spin lift equals physical 4d spacetime spin",
       "side_a": "beat-selected SL2/E6 internal odd-A1 lift acting on the 27",
       "side_b": "Spin(3,1) or Pin(3,1) tangent lift and Lorentz Weyl/Dirac action",
@@ -90,7 +90,7 @@
       "earning_test": "construct a 4d filling or suspension, its tangent Spin/Pin lift, and a faithful equivariant map from the internal A1 doublet to a Lorentz spin representation; add a Dirac index for chirality or generations"
     },
     {
-      "proposed_row": "I-9",
+      "proposed_row": "I-11",
       "identification": "boundary theta-characteristic equals bulk or observer physical spin",
       "side_a": "triangular or square theta polarization on the shared boundary torus",
       "side_b": "the beat-selected tangent spin class of m004 and ultimately 4d Lorentz Spin/Pin",
