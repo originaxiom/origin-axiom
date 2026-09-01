@@ -1,0 +1,26 @@
+{
+  "schema": "oa-r039-a4-2t-lift-torsor-sources-v1",
+  "source_commit": "f024f0f8c47ad13928c4feaeb0c255d84b301fed",
+  "sources": {
+    "r037_certificate": {
+      "path": "certificates/r037_a6_2t_restriction/a6_2t_restriction.py",
+      "git_blob_sha1": "94c689bcd67c1a2c623a50298aa97da20c4a481a",
+      "fact": "the exact m000-to-m004 restriction of 2T quotient maps"
+    },
+    "r037_memo": {
+      "path": "memos/A6_2T_QUOTIENT_RESTRICTION.md",
+      "git_blob_sha1": "7ea2a8e7589a978a4dc95e9e5f2383fbe2ff9c06",
+      "fact": "one m004 2T quotient class extends and the other is its central H1 twist"
+    },
+    "r034_memo": {
+      "path": "memos/SPIN_IDENTIFICATIONS_PHASE_C.md",
+      "git_blob_sha1": "2369294edb50468d5b3bd40d6ea2e790bb0a629f",
+      "fact": "finite/internal lift data are not yet a physical four-dimensional spin identification"
+    },
+    "b1141_findings": {
+      "path": "frontier/B1141_spin_payment/FINDINGS.md",
+      "git_blob_sha1": "c8c4f67f9705a16fdc5e6d675c4281d173f5a87e",
+      "fact": "the Gieseking extension selects one of the two geometric SL2C holonomy lifts"
+    }
+  }
+}

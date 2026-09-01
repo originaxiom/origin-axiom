@@ -1,0 +1,6 @@
+PASS m000 and m004 each have one A4 quotient class: 24 surjections
+PASS every A4 surjection has exactly two lifts through 2T=Spin(3) preimage
+RESULT A4 restriction m000->m004 is bijective on all 24 maps
+RESULT exactly one of each m004 map's two 2T lifts extends over m000
+RESULT the parent H^1 bit restricts to zero; the cover's second lift is nonextendable
+SCOPE finite Spin(3)->SO(3) representation torsor only; no tangent, 4d Lorentz or beat-chi identification
