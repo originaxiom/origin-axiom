@@ -43,7 +43,7 @@ orientation-preserving (golden SQUARED). Price computed (B749/F5 FRAGILE): the d
 det −1 sibling IS the Gieseking manifold — m004's own orientation double cover parent
 (dilatation φ upstairs, φ² down; dual sealed routes + cc's third isometry route).
 **Orientation = choosing the child of the parent.** Lock: same file.
-*(Annotation 2026-09-01 — ADOPTED RE-TYPING per the owner's 2026-09-01 election: orientation is
+*(Annotation 2026-09-01 — ADOPTED RE-TYPING per the owner's 2026-09-01 election — verbatim "T5, T1, T4 green. act" against the batch-1 election list, where T5 = "adopt T5's PROPOSAL.md" (A6 → closing #0), T4 = the prior-art corrections, T1 = commit the 27 connecting-block values; T2 was NOT elected: orientation is
 re-typed as **the observer's closing #0** (B717 act-type, the same move as the chirality bit B713 and
 the P-bit B1083, prior to both) rather than an object-side axiom — the object m000 exists before any
 orientation is chosen (B749/F5), and it provably cannot self-orient (B1163). Evidence: the T5 audit's
@@ -53,7 +53,7 @@ every hyperbolic orientation double cover is amphichiral with mirror self-isomet
 involution (deck involution + Mostow), so mirror-odd invariants are 2-torsion a priori — m004's
 amphichirality and the 83-cover census become instances, not discoveries. The [AXIOM] label above is
 retained on this surface pending the ledger-wide relabeling; the F5 FRAGILE pricing is re-read as the
-closing's derivation, not a fork-price. (fresh-seat application of the owner's T4/T5 election;
+closing's derivation, not a fork-price. (fresh-seat application of the owner's 2026-09-01 election — verbatim "T5, T1, T4 green. act" against the batch-1 election list, where T5 = "adopt T5's PROPOSAL.md" (A6 → closing #0), T4 = the prior-art corrections, T1 = commit the 27 connecting-block values; T2 was NOT elected;
 sources: reports/fresh_physics_seat_2026-09-01/campaign/))*
 
 **C6 [THEOREM — Thurston/Riley; banked realization].** The mapping torus of the

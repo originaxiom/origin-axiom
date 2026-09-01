@@ -41,7 +41,7 @@ Barbieri–Nanopoulos 1980, theorem-grade in Fonseca 1504.03695 — so what is c
 the terminality **plus** its rule-independence (B994) — scoped to the regular-maximal
 menus: the specials-inclusive menu's su(3)⊕g₂ branch is registerable and terminates at
 su(3), not the SM (cell G1, verified) — not the criterion). *(Corrected
-2026-09-01 — fresh-seat application of the owner's T4/T5 election; sources:
+2026-09-01 — fresh-seat application of the owner's 2026-09-01 election — verbatim "T5, T1, T4 green. act" against the batch-1 election list, where T5 = "adopt T5's PROPOSAL.md" (A6 → closing #0), T4 = the prior-art corrections, T1 = commit the 27 connecting-block values; T2 was NOT elected; sources:
 reports/fresh_physics_seat_2026-09-01/campaign/)*
 
 **What the object will not do, by a run of theorems rather than a run of bad luck, is

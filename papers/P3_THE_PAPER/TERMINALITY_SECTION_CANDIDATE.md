@@ -7,7 +7,7 @@ the regular-maximal menus until that computation runs; G1's result either extend
 rule-independence to the full menu or exhibits the first non-SM registerable endpoint,
 and either way this section's quantifier is then updated before integration. Adopted into
 the paper only by the owner; placement here adopts nothing by itself.
-*(fresh-seat application of the owner's T4/T5 election; sources:
+*(fresh-seat application of the owner's 2026-09-01 election — verbatim "T5, T1, T4 green. act" against the batch-1 election list, where T5 = "adopt T5's PROPOSAL.md" (A6 → closing #0), T4 = the prior-art corrections, T1 = commit the 27 connecting-block values; T2 was NOT elected; sources:
 reports/fresh_physics_seat_2026-09-01/campaign/T8_terminality_draft/ — copied verbatim
 below, WITH its scope correction.)*
 

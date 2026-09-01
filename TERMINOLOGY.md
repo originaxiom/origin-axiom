@@ -621,4 +621,4 @@ pointer says "LAW_MAP GC-3" — the row lives in the grand-computation ledger) w
 *matrix-product* convention (R·L, rightmost factor acts first). Both are correct for one object; naked
 "LR"/"RL" without the convention is the E23 hazard — UNIQUENESS_THEOREM's own §"LR vs RL" shows the Möbius
 polynomials differ by the order (τ²−τ−1 vs τ²+τ−1). Say WHICH convention, every time. *(fresh-seat
-application of the owner's T4/T5 election; sources: reports/fresh_physics_seat_2026-09-01/campaign/)*
+application of the owner's 2026-09-01 election — verbatim "T5, T1, T4 green. act" against the batch-1 election list, where T5 = "adopt T5's PROPOSAL.md" (A6 → closing #0), T4 = the prior-art corrections, T1 = commit the 27 connecting-block values; T2 was NOT elected; sources: reports/fresh_physics_seat_2026-09-01/campaign/)*
