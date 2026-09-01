@@ -1,0 +1,638 @@
+{
+ "batch": "arcs_109",
+ "arcs": [
+  {
+   "arc": "B1093_route_a_arithmetic",
+   "source": "main",
+   "files_read": [
+    "frontier/B1093_route_a_arithmetic/FINDINGS.md",
+    "frontier/B1093_route_a_arithmetic/arc_verdict.json",
+    "frontier/B1093_route_a_arithmetic/robustness_checks.py"
+   ],
+   "files_sampled": [
+    "frontier/B1093_route_a_arithmetic/routeA_verify.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- ROUTE A'S ARITHMETIC (L169, own-code exact re-derivation, no PARI): for K=Q[x]/(x^3-12x-5), disc=6237=3^4*7*11, Z[theta]=O_K (Dedekind at 3 plus alternate-lift robustness), h(K)=1 PROVED (Minkowski bound, 8 prime ideals of norm<=bound exhibited principal with generators), units N=+1/-1 by three routes, sign map rank 3 surjective (h+ = h = 1 conditional only on h=1); every obstruction candidate for Route A's integral-orbit count is trivial; owed residual: identifying which Kato-Yukie/Bhargava quantity counts integral orbits.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "disc(f)=6237=3^4*7*11 and Dedekind's criterion at p=3 (Z[theta]=O_K)",
+     "where": "routeA_verify.py ITEM 1; robustness_checks.py CHECK A (alternate lift)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy-based exact computation, cross-checked with an independent alternate-lift convention in a separate script; self-contained, no external files."
+    },
+    {
+     "what": "h(K)=1 via Minkowski bound + Kummer-Dedekind factorization of all primes <=17, all 8 ideals exhibited principal with explicit generators",
+     "where": "routeA_verify.py ITEM 2-3; robustness_checks.py CHECK C (numeric cross-validation of every generator's norm)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact sympy computation with an independent numeric (mpmath, 50 digits) cross-check of every generator's norm against the exact integer norm form; runnable as-is."
+    },
+    {
+     "what": "signature map surjectivity / rank-3 row reduction over F2 (h+ = h)",
+     "where": "routeA_verify.py ITEM 4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact linear algebra over F2 on unit sign vectors, self-contained."
+    },
+    {
+     "what": "unit fundamentality (used only to justify sign vectors as genuine units, not load-bearing per FINDINGS' own admission)",
+     "where": "FINDINGS.md item 3",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "FINDINGS states fundamentality is 'ASSUMED-FROM-SOURCE' and explicitly argues it no longer matters for the surjectivity argument -- flagged honestly by the arc itself, not a hidden gap."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "robustness_checks.py independently re-derives Dedekind's criterion via an alternate lift and cross-validates every class-number generator numerically against the exact norm form -- a genuine second code path, not a re-read of stored output.",
+   "absence_claims": [
+    {
+     "quote": "the robustness check the source never ran",
+     "where": "FINDINGS.md item 1"
+    },
+    {
+     "quote": "identifying WHICH Kato-Yukie/Bhargava-type quantity actually counts integral orbits in this correspondence is the owed step",
+     "where": "FINDINGS.md 'The residual, unchanged and honestly owed'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean, genuinely reproducible exact-arithmetic computation (sympy+mpmath only, no external number-theory library) with an honest, explicitly-flagged residual (which orbit-counting theorem applies) left open rather than papered over -- this is what a well-run arithmetic lock should look like."
+  },
+  {
+   "arc": "B1094_two_route_wall",
+   "source": "main",
+   "files_read": [
+    "frontier/B1094_two_route_wall/FINDINGS.md",
+    "frontier/B1094_two_route_wall/arc_verdict.json",
+    "tests/test_b1094_two_route.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE RANK WALL GOES TWO-ROUTE (L167): B955's structural proof (H1=Z cyclic => abelian holonomy centralizer contains a maximal torus) and B1079's exhaustive census (15,624 five-torsion elements, nine rows, every row rank 6) reach the wall via no shared step; both routes assume ABELIAN holonomy; non-abelian holonomy is the single live hatch.",
+   "log_says": "R47 action items log the promotion 'B955's wall THEOREM -> two-route THEOREM (B1094)' -- consistent with the arc's own claim.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the join itself (two step-disjoint routes to the same wall)",
+     "where": "FINDINGS.md 'The join'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this arc is explicitly a synthesis/join of two prior banked arcs (B955, B1079); no new computation is claimed or present in this arc's own directory (it holds only FINDINGS.md + arc_verdict.json)."
+    },
+    {
+     "what": "kill-graph node carries the two-route + hatch + faces_consulted language",
+     "where": "tests/test_b1094_two_route.py test_kill_node_carries_two_route_and_hatch",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "test reads frontier/B738_pathfinder_compiler/kill_graph.json and asserts the exact strings are present -- reproducible, but only proves the paperwork was updated, not the underlying math."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "the arc's own dir has no code; the lock (tests/test_b1094_two_route.py) checks that the kill-graph JSON and B1079's verdict file carry the right strings/numbers -- a bookkeeping check, not a re-derivation of the census or the structural proof themselves.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "the arc directory contains zero computation of its own -- it is entirely a prose join of two prior arcs (B955, B1079) plus a bookkeeping test that only checks that JSON strings match. The 'PROVED' verdict rests wholly on citations to work performed elsewhere.",
+     "where": "frontier/B1094_two_route_wall/ (dir listing: only FINDINGS.md, arc_verdict.json)"
+    }
+   ],
+   "seat_note": "The underlying physics claim (rank preservation under abelian holonomy, two independent routes) may well be sound given B955 and B1079, but this arc itself supplies no independent evidence -- it is a synthesis note dressed as a PROVED verdict, and its lock only checks metadata strings."
+  },
+  {
+   "arc": "B1095_mirror_isospectral",
+   "source": "main",
+   "files_read": [
+    "frontier/B1095_mirror_isospectral/FINDINGS.md",
+    "frontier/B1095_mirror_isospectral/arc_verdict.json",
+    "frontier/B1095_mirror_isospectral/rho_sweep_counts.json",
+    "tests/test_b1095_mirror_isospectral.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE MIRROR-ISOSPECTRAL SPLIT: at reversal-closed windows (even Fibonacci index N=987,2584) the left hand's word IS the reversed right hand's word letter-for-letter, forcing exact isospectrality (max diff 1.3e-15 over 2584 eigenvalues); 11 boundary-capable energies shared, split 5 vs 6 (odd-family parity remainder); at odd index the reversal fails at exactly 2 cut-adjacent letters and isospectrality breaks (0.147); gap labeling verified; (5,6) pair not golden-unique -- occurs at 7 of 144 grid points.",
+   "log_says": "PROGRESS_LOG and REVIEWS.md (Review 53) both independently recompute and confirm the '7 occurrences of (5,6) across 144 grid points' claim on-bench, and REVIEWS.md refines that only 19/144 points show the hands' counts agreeing (not just the (5,6) pair) -- consistent with, and slightly sharper than, this arc's own text.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "reversal identity holds exactly at N=987, fails at exactly sites {0,1} at N=1597",
+     "where": "tests/test_b1095_mirror_isospectral.py test_reversal_identity_at_987_and_failure_at_1597",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained numpy/scipy computation from the Fibonacci/golden-ratio Sturmian sequence definition; independently re-run here and it matches (see digest notes)."
+    },
+    {
+     "what": "exact isospectrality at N=987 (max diff <1e-12) and eleven-energy 5/6 complementary split",
+     "where": "tests/test_b1095_mirror_isospectral.py test_exact_isospectrality_at_987, test_eleven_shared_energies_split_5_6",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "uses scipy.linalg.eigh_tridiagonal on the constructed sequence; fully self-contained and rerunnable."
+    },
+    {
+     "what": "the (5,6) pair occurs at exactly 7 of 144 rho-sweep grid points; 19/144 points have equal left/right counts",
+     "where": "rho_sweep_counts.json (data); FINDINGS.md section 3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "I recomputed both counts directly from the committed rho_sweep_counts.json (144 rows) and got exactly 7 and 19 respectively, matching FINDINGS.md and the REVIEWS.md log's independent recomputation."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b1095_mirror_isospectral.py independently reconstructs the Sturmian sequence and full eigenproblem from the mathematical definition (not from stored output) and asserts the same numeric facts; this digest additionally recomputed the (5,6)/equal-count grid statistics directly from the committed JSON and both matched exactly.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "One of the stronger arcs in this batch: exact machine-precision computation, a genuine from-scratch test lock, and an unusual degree of self-correction (explicitly revises B1085's and B1091's prior phrasing in place, with the correction dated and reasoned) -- this is quasicrystal spectral theory (Sturmian/Fibonacci Hamiltonians), interesting structurally but not tied to any measurable Standard-Model observable."
+  },
+  {
+   "arc": "B1096_anomaly_layer",
+   "source": "main",
+   "files_read": [
+    "frontier/B1096_anomaly_layer/FINDINGS.md",
+    "frontier/B1096_anomaly_layer/arc_verdict.json",
+    "tests/test_b1096_anomaly_layer.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE -- DOOR 5 SHUT STRUCTURALLY: over the object's DERIVED 16, every anomaly channel (U(1)^3, U(1)-grav, [SU(3)]^2U(1), [SU(2)]^2U(1), SU(2)-Witten, (B-L)^3, (B-L)-grav) vanishes identically, where the imported chiral 15 gives -1/-1 on the last two; the Z6 congruence 6Y=4*triality+3*duality (mod 6) is the unique solution by exhaustion over 36 pairs; a layer that vanishes identically cannot supply a ratio.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the full anomaly table (16 vs 15) computed exact with Fraction arithmetic, and the unique (a,b)=(4,3) solution by exhaustive search",
+     "where": "tests/test_b1096_anomaly_layer.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained exact-Fraction computation from the hardcoded hypercharge/generation table; test_z6_congruence_unique_4_3 brute-forces all 36 (a,b) pairs -- I traced the logic and it is a genuine closed-form exhaustive check, fully reproducible with no external dependency."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b1096_anomaly_layer.py recomputes the entire anomaly table and the Z6-congruence search from a hardcoded charge table -- a real from-scratch computation, not a re-read of stored JSON (the arc dir itself holds no code, only FINDINGS+verdict).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "the arc directory itself (frontier/B1096_anomaly_layer/) contains no code -- only FINDINGS.md and arc_verdict.json. The claimed re-derivation lives entirely in tests/test_b1096_anomaly_layer.py, which is real and does re-derive the table, but a reader following only the arc dir (as instructed) would see no computation at all; the FINDINGS text over-describes what the arc directory itself holds.",
+     "where": "frontier/B1096_anomaly_layer/ (directory listing)"
+    }
+   ],
+   "seat_note": "The exact anomaly-cancellation computation is genuine and reproducible (verified by tracing tests/test_b1096_anomaly_layer.py), and the framing -- a completely anomaly-free particle content cannot supply a hoped-for ratio -- is an honest, non-oversold structural conclusion; note the hypercharge and B-L assignments fed into the table are themselves the program's own prior assignments (imported), not independently derived here."
+  },
+  {
+   "arc": "B1097_first_step_losses",
+   "source": "main",
+   "files_read": [
+    "frontier/B1097_first_step_losses/FINDINGS.md",
+    "frontier/B1097_first_step_losses/arc_verdict.json",
+    "tests/test_b1097_first_step_losses.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE FIRST STEP'S LOSSES re-derived: a->ab and a->ba have identical incidence matrices (order-loss), det M=-1 -> det M^2=+1 (sign-loss, forced by orientability), phi_1-I=M exact; JOIN ONE: a prior arc's falsifiable prediction ('a wall should appear exactly where a construction needs to distinguish M from M^2') had already fired in B1095's even/odd Fibonacci-index isospectrality breaking; JOIN TWO: order-loss=P/hand bit, sign-loss=orientability/Breath tick, the arrow=neither (structural).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "identical incidence matrices for a->ab vs a->ba (order-loss) and the bite control a->aab differing",
+     "where": "tests/test_b1097_first_step_losses.py test_order_loss_and_bite_control",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "trivial, self-contained, directly verifiable matrix construction."
+    },
+    {
+     "what": "det M=-1, det M^2=+1, M^2-I=M",
+     "where": "tests/test_b1097_first_step_losses.py test_sign_loss_and_phi1_minus_I",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "elementary 2x2 linear algebra, self-contained numpy."
+    },
+    {
+     "what": "'the fired prediction wall exists' -- re-derives only a miniature analog (N=13,21,34,55) of the reversal-parity effect, NOT a re-derivation of B1095's actual claim",
+     "where": "tests/test_b1097_first_step_losses.py test_the_fired_prediction_wall_exists",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed but the test's own comment admits it substitutes a small-N miniature for the actual claim ('B1095's lock carries the numbers') -- the JOIN ONE narrative (that this is confirmation of a genuinely independent, blind, already-fired prediction) rests on B1095, not on anything new here."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "test file recomputes the core linear-algebra facts and a small illustrative version of the parity effect; the headline 'prediction fired' claim is not independently re-verified at the scale B1095 claims (N=987/1597) within this arc's own lock -- it borrows B1095's numbers by reference.",
+   "absence_claims": [
+    {
+     "quote": "the circle (intercept) and ray (unit) were NEVER THERE",
+     "where": "FINDINGS.md section 1"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "JOIN ONE's dramatic framing ('a registered falsifiable prediction, confirmed blind') is a narrative built by composing two other arcs (an unnamed source arc's stated prediction, and B1095's computation); this arc's own lock only checks a small toy version (N up to 55), not the actual prediction-confirming numbers.",
+     "where": "FINDINGS.md 'JOIN ONE'; tests/test_b1097_first_step_losses.py test_the_fired_prediction_wall_exists"
+    }
+   ],
+   "seat_note": "The elementary matrix facts are trivially correct and reproducible; the more interesting 'prediction fired blind' story is a compositional narrative resting on B1095 and an earlier arc's text, not on new computation in this arc -- worth remembering when weighing how much independent evidence 'JOIN ONE' actually supplies."
+  },
+  {
+   "arc": "B1098_nonabelian_hatch",
+   "source": "main",
+   "files_read": [
+    "frontier/B1098_nonabelian_hatch/FINDINGS.md",
+    "frontier/B1098_nonabelian_hatch/arc_verdict.json",
+    "frontier/B1098_nonabelian_hatch/b1098_a2_triple.json",
+    "frontier/B1098_nonabelian_hatch/b1098_results.json",
+    "frontier/B1098_nonabelian_hatch/b1098_sl2_strata.py",
+    "tests/test_b1098_nonabelian_hatch.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE NON-ABELIAN HATCH OPENS AT ITS FIRST STRATUM: all 20 sl2 conjugacy classes of e6 enumerated constructively (saturating the cited Bala-Carter count), every centralizer dim/rank/type matching the standard table; the A2 class (principal sl2 of one trinification factor) leaves exactly su(3)+su(3) at rank 4 (SM-compatible, zero extra u(1)s); A1 gives su(6) (rank 5, one extra u(1)); 2A1 (so(7)+u(1)) excluded; the other 17 fall below rank 4. ADDENDUM: re-scopes a prior arc's headline ('every route to rank 4 makes the 27 real') to 'every TORAL route', since this stratum is continuous/nilpotent-generated, not toral.",
+   "log_says": "REVIEWS.md R47: 'THE HATCH row (B1098 -- the trinification remnant; MECHANISM-grade pending B1100's matter-content match)' and explicitly 'NOT promoted beyond its fences ... promotion review AFTER B1100' -- consistent with the arc's own stated fences (class-choice priced, matter-content deferred).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the 20-class enumeration (dims/ranks/types matching Bala-Carter) and the A2 class's dim=16/rank=4 centralizer",
+     "where": "b1098_sl2_strata.py; b1098_results.json (20 entries); tests/test_b1098_nonabelian_hatch.py test_saturation_and_the_two_landings",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "b1098_sl2_strata.py hardcodes CERT = os.environ.get('B1098_CERT_PATH', '(scratchpad)/cloud_handoff/certificates/twisted_double.py') -- I searched the entire repo for this file (find . -iname twisted_double.py) and it does NOT exist anywhere in the committed tree. The e6 Chevalley-bracket machinery this script depends on to build the algebra is therefore not committed. The stored results (b1098_results.json, b1098_a2_triple.json) are present and the non-live parts of the test pass by reading them, but the actual generating computation cannot be re-run by a stranger from this repo alone."
+    },
+    {
+     "what": "live re-verification of the A2 triple's Chevalley relations and 16-dim centralizer nullspace",
+     "where": "tests/test_b1098_nonabelian_hatch.py test_a2_triple_relations_and_centralizer_live (marked @pytest.mark.slow)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "this test explicitly does `cert = os.environ.get('B1098_CERT_PATH'); if not cert or not os.path.exists(cert): pytest.skip(...)` -- i.e. in the committed repo state (no such env var set, no such file present) this test SKIPS rather than running. The arc's central live check is therefore not actually exercised by the repo's own test suite as committed."
+    },
+    {
+     "what": "the density lemma (rho non-elementary => Zariski-dense image, hence centralizer of composed holonomy = centralizer of the sl2-triple)",
+     "where": "FINDINGS.md section 2",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "cites a standard fact (CITED-grade) plus a previously-banked numeric fact (tr[A,B] != 2); the citation itself is not re-derived here but is a standard theorem, reasonably treated as background math."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "the committed test suite reads the stored JSON for its headline assertions and SKIPS the one test that would live-recompute the centralizer from the e6 bracket machinery, because the certificate file (CERT path) that machinery depends on is not present in the repository.",
+   "absence_claims": [
+    {
+     "quote": "no dynamical mechanism selecting A2 is claimed",
+     "where": "FINDINGS.md section 4, item 1"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "the e6 Chevalley-bracket certificate file that b1098_sl2_strata.py (and the arc's own live-recomputation test) depends on -- default path '(scratchpad)/cloud_handoff/certificates/twisted_double.py' -- does not exist anywhere in the committed repository. The live-recomputation test consequently pytest.skips rather than passing. Only the pre-computed JSON outputs are checked by the passing tests. A stranger cloning this repo cannot reproduce the class enumeration end-to-end.",
+     "where": "frontier/B1098_nonabelian_hatch/b1098_sl2_strata.py line 31; tests/test_b1098_nonabelian_hatch.py test_a2_triple_relations_and_centralizer_live"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the 2A1 exclusion argument concedes it cannot distinguish type b3 from its dual c3 for one row using dim+rank+simplicity alone, and instead argues the exclusion holds under either reading -- an honestly-flagged type-identification gap, not hidden, but a real instance of the type-vs-value licensing pattern this seat is asked to watch for.",
+     "where": "FINDINGS.md section 5, 'Verifier's honest caveat'"
+    }
+   ],
+   "seat_note": "The mathematical content (sl2-classification of E6 nilpotent orbits reaching a trinification-shaped su(3)+su(3) at rank 4) is a serious structural result if the underlying e6 bracket computation is trusted, but as committed this repo cannot actually re-run that computation -- the certificate the script needs is missing, and the one test designed to catch that gap quietly skips instead of failing loudly, which understates the reproducibility gap to a casual test-suite reader."
+  },
+  {
+   "arc": "B1099_route_a_counter",
+   "source": "main",
+   "files_read": [
+    "frontier/B1099_route_a_counter/FINDINGS.md",
+    "frontier/B1099_route_a_counter/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN -- ROUTE A'S COUNTER: literature floor located (no theorem found counting G(Z)-orbits inside a G(Q)-orbit for the (E6,27) space with cubic K as classifying datum); two upgrades: (1) the full norm-preserving group's integral orbit at determinant 5 (squarefree) is unique by a cited theorem plus a squarefree check; (2) the pair 27+27bar is proved necessary from the literature side (a cited proposition shows the full group is transitive on norm level sets, never seeing K) -- the K-refined count for the smaller group is named as frontier mathematics, unproved anywhere reached; NEEDS-SPECIALIST.",
+   "log_says": "REVIEWS.md R47: 'Read in full this window: every FINDINGS banked B1067-B1099' -- a blanket statement of coverage, not a specific claim about B1099's content.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "determinant 5 is squarefree (6237=3^4*7*11, 5 does not divide disc)",
+     "where": "FINDINGS.md 'Locks'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "a trivial exact arithmetic check, described as such by the arc itself ('trivial exact assertions')."
+    },
+    {
+     "what": "the literature floor itself -- no counting theorem exists for this exact configuration in the literature searched",
+     "where": "FINDINGS.md sections 1-3",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this is a claim about the state of the published literature (Krutelevich, Thorne, Bhargava-Gross), not a computation; the arc names specific theorem numbers and quotes verbatim, but a stranger cannot 'reproduce' a literature survey from committed files -- there is no committed script, only prose citing external papers."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no code in this arc; it is entirely a literature-reading exercise. Nothing to recompute or re-read on-bench.",
+   "absence_claims": [
+    {
+     "quote": "No theorem in the literature searched counts G(Z)-orbits inside a G(Q)-orbit for the (E6, 27) or (E6, 27\u2295 27\u0304) space with the cubic algebra K as the classifying datum.",
+     "where": "FINDINGS.md section 1"
+    },
+    {
+     "quote": "the neighboring Freudenthal cases (D6/32, E7/56) are explicitly logged OPEN in that paper",
+     "where": "FINDINGS.md section 1"
+    },
+    {
+     "quote": "unproved anywhere we could reach",
+     "where": "FINDINGS.md section 1"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "This is a well-disciplined literature-floor arc: it explicitly labels its conclusion OPEN/NEEDS-SPECIALIST rather than inflating a reading exercise into a proof, and its absence claims about the literature are exactly the kind that should be independently checked by someone with direct access to the cited papers (Krutelevich math/0411104, Thorne, Bhargava-Gross 1206.4774) -- I have not verified those citations against the source papers myself."
+  },
+  {
+   "arc": "B1100_landing_content",
+   "source": "main",
+   "files_read": [
+    "frontier/B1100_landing_content/FINDINGS.md",
+    "frontier/B1100_landing_content/arc_verdict.json",
+    "frontier/B1100_landing_content/b1100_exact_table.json",
+    "frontier/B1100_landing_content/b1100_exact_table.py",
+    "frontier/B1100_landing_content/b1100_float_pass.py",
+    "frontier/B1100_landing_content/b1100_hypercharge.json",
+    "frontier/B1100_landing_content/b1100_hypercharge.py",
+    "tests/test_b1100_landing_content.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE LANDING'S MATTER CONTENT: the joint weight table at the A2 landing computed exactly, sl2 multiset {+2:6,0:15,-2:6} = trinification branching; THE 27 IS COMPLEX, witnessed by a multiplicity-3 weight class whose negation class has multiplicity 0 -- falsifying a prior arc's headline ('every route to rank 4 makes the 27 real') beyond its toral scope; hypercharge: bijective form excluded exact, collapse form established at float grade and generically (hit at trial 0), exact value-match named as residual (later paid by B1102).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the exact joint weight table (sum=27, sl2 multiset {-2:6,0:15,2:6}) and the negation-asymmetry witness for complexity of the 27",
+     "where": "b1100_exact_table.py; b1100_exact_table.json; tests/test_b1100_landing_content.py test_exact_table_tiles_and_branches, test_the_27_is_complex_with_witness",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "b1100_exact_table.py hardcodes CERT='cloud_handoff/certificates/twisted_double.py' with NO env-var override or fallback (unlike b1098_sl2_strata.py which at least offers B1098_CERT_PATH); this file does not exist anywhere in the committed repo (confirmed by search). The committed test only reads the already-produced b1100_exact_table.json, so the test passes, but the generating computation itself cannot be re-run from this repo as committed."
+    },
+    {
+     "what": "the collapse-form hypercharge pattern hit at trial 0 (float grade)",
+     "where": "b1100_hypercharge.py; b1100_hypercharge.json; tests/test_b1100_landing_content.py test_collapse_pattern_hit",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "same missing-CERT dependency as above; also explicitly labeled by the arc itself as 'float grade', with the exact solve deferred as a named residual (paid later by B1102)."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1100_landing_content.py reads the already-computed JSON files (b1100_exact_table.json, b1100_hypercharge.json) and checks specific fields; it does not re-run either b1100_exact_table.py or b1100_hypercharge.py, both of which depend on the same missing CERT file identified in B1098.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "b1100_exact_table.py and b1100_hypercharge.py both hardcode CERT='cloud_handoff/certificates/twisted_double.py' with no fallback; this file is absent from the committed repository (same missing dependency flagged in B1098). A stranger cannot regenerate b1100_exact_table.json or b1100_hypercharge.json from source; the committed test only re-reads the stored JSON.",
+     "where": "frontier/B1100_landing_content/b1100_exact_table.py line 8; b1100_hypercharge.py line 9"
+    }
+   ],
+   "seat_note": "Same missing-certificate reproducibility gap as B1098 and inherited downstream by this arc's exact computations; the arc's own honesty about the hypercharge match being 'float grade, not identification' is good practice, and B1102 later closes exactly that residual with a self-contained vendored e6 module -- worth noting the corpus eventually fixed this class of gap for the hypercharge question specifically, even though B1098/B1100's own generating scripts remain unreproducible as committed."
+  },
+  {
+   "arc": "B1101_certification_envelope",
+   "source": "main",
+   "files_read": [
+    "frontier/B1101_certification_envelope/FINDINGS.md",
+    "frontier/B1101_certification_envelope/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE CERTIFICATION ENVELOPE (governance adoption): during any certifying suite run the working tree is read-only by convention (scratchpad staging, staged-state gate checks, piped digests with a recompute-gate backstop, fold-forward on collision); adopted into WORKING_RULES based on three same-window process-failure instances all caught by an existing exact-tree gate.",
+   "log_says": "REVIEWS.md Review 48: 'B1101 (the certification envelope) had no dedicated lock -> tests/test_b1101_certification_envelope.py added' -- confirms the arc initially lacked a lock and one was added later; consistent with, and slightly extends, the arc's own record.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the governance rule itself (read-only working tree during certifying suites) and its justification by three cited process-failure instances",
+     "where": "FINDINGS.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this is a process/governance adoption, not a physics or math computation -- there is no code to run; its evidence is described as 'the window's three instances, each caught by the existing gate layer', which I have not independently traced to specific commits."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "governance/process arc; no computation, no lock in the arc's own directory (a lock was added later per the log, external to this arc dir).",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Pure repository-governance/process content (how commits and CI gates should behave during a certifying run) with zero physics or mathematics claim -- correctly marked instrument:true, creates_law:false; not something this physics seat can meaningfully evaluate beyond noting it is out of scope for the thesis's substantive claims."
+  },
+  {
+   "arc": "B1102_exact_hypercharge_solve",
+   "source": "main",
+   "files_read": [
+    "frontier/B1102_exact_hypercharge_solve/FINDINGS.md",
+    "frontier/B1102_exact_hypercharge_solve/PREREGISTRATION.md",
+    "frontier/B1102_exact_hypercharge_solve/arc_verdict.json",
+    "frontier/B1102_exact_hypercharge_solve/b1102_RUNLOG.md",
+    "frontier/B1102_exact_hypercharge_solve/b1102_common.py",
+    "frontier/B1102_exact_hypercharge_solve/b1102_ideal_split.py",
+    "frontier/B1102_exact_hypercharge_solve/b1102_intermediate.json",
+    "frontier/B1102_exact_hypercharge_solve/b1102_results.json",
+    "frontier/B1102_exact_hypercharge_solve/e6_bracket_vendored.py",
+    "frontier/B1102_exact_hypercharge_solve/test_ideal_split_synthetic.py"
+   ],
+   "files_sampled": [
+    "frontier/B1102_exact_hypercharge_solve/b1102_adapted_basis.py",
+    "frontier/B1102_exact_hypercharge_solve/b1102_solve.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE EXACT HYPERCHARGE SOLVE AT THE LANDING: the banked 6Y multiset {1/6x6,1/3x6,-1/2x4,-2/3x3,-1/3x3,0x2,1/2x2,1x1} is carried EXACTLY by the A2 landing's rank-4 Cartan via 18 isolated rational directions (provably complete 5^4=625-assignment search); no color-commuting direction achieves it (0 of 18 pure on either su(3) ideal, 36/36 root-level checks negative) -- hypercharge-valued but not SM-product-structured; su(2) side passes (6 doublets + 15 singlets, no triplets); 18-point uniqueness (~4.17 bits, no order-36 symmetry confirmed); the e6 bracket module is vendored in-arc and re-certified (self-contained, not dependent on the missing external CERT file used by B1098/B1100).",
+   "log_says": "PROGRESS_LOG.md: 'B1102; the residual paid, both ways' and multiple later arcs (B1118, B1138, B1139, B1140) explicitly reuse 'banked e6 (B1102)' as their sole imported dependency, describing independent two-bench re-derivations built on top of it -- strongly consistent with, and extends, the arc's own claim that it made the e6 machinery self-contained and reusable.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the e6 root system, Chevalley bracket, and 27-representation, vendored in-arc with sha256 provenance and re-certified against all C(78,2) Chevalley pairs",
+     "where": "e6_bracket_vendored.py; b1102_common.py load_ccb()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the module is fully committed in-tree (not an external path), self-contained (sympy only), and the arc re-certifies it in-arc via verify_27_is_a_rep over all Chevalley pairs -- this genuinely fixes the missing-witness problem seen in B1098/B1100 by vendoring the dependency."
+    },
+    {
+     "what": "the ideal split of the 16-dim centralizer into two 8-dim simple ideals",
+     "where": "b1102_ideal_split.py; test_ideal_split_synthetic.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "validated first on a synthetic sl3+sl3 problem with a known ground truth and a fully mixed random basis (the 'hard case'), before being applied to the real e6 data -- a genuine methodological safeguard, and the synthetic test is committed and runnable."
+    },
+    {
+     "what": "the 18 exact rational hypercharge-matching directions and the exhaustive 5^4=625-assignment completeness argument",
+     "where": "b1102_solve.py (sampled); b1102_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "FINDINGS.md gives an explicit run command (~12s, fully exact) and the completeness argument (4 of 15 weight classes are +-basis vectors of size 3, giving a bounded 5^4 search) is a genuine combinatorial completeness proof, not a sample; I did not execute the ~12s run myself (out of scope: 'do not run long computations'), but the logic and the committed intermediate/results JSON are consistent and traceable through the sampled code."
+    },
+    {
+     "what": "the banked 6Y hypercharge multiset used as the target",
+     "where": "FINDINGS.md 'THE PRIZE FIRST'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the target multiset is explicitly stated to be 'the same license B1100 ran under' -- B950's banked INTEGER ASSIGNMENT, not a measured physical value; the arc itself flags 'Gate 5 untouched' meaning no physical measurement enters. This is correctly treated as structural, not observational, but it does mean the whole exercise fits a pre-chosen integer target rather than deriving hypercharge ab initio."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "b1102_RUNLOG.md documents fresh end-to-end re-runs (twice, from staging and in-tree) with byte-identical outputs, plus an independently-transcribed re-derivation by 'the banking seat's own code' of all 18 directions and the no-pure-direction fact -- a genuine multi-pass verify-don't-trust chain, and later arcs (B1118, B1138-B1140) reuse this arc's e6 as their sole import, exercising it further.",
+   "absence_claims": [
+    {
+     "quote": "An order-36 symmetry lead (which would organize the 18 into orbits) was not confirmed \u2014 named open, not claimed.",
+     "where": "FINDINGS.md 'Uniqueness (C2)'"
+    },
+    {
+     "quote": "B1100's cubic-CRootOf fallback (named in the prereg) was never needed.",
+     "where": "FINDINGS.md 'Fences and honest notes'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the target 6Y multiset being matched is itself a prior integer assignment (B950's banked hypercharge values), not a first-principles derivation nor a measured value -- the exercise proves an existence/uniqueness fact about matching a pre-chosen target inside the Cartan, which is a legitimate structural result but should not be read as 'hypercharge is derived from nothing'; the arc itself is careful to say 'Gate 5 untouched' (no measured value), so this is a licensed use, correctly disclosed, not a hidden overclaim.",
+     "where": "FINDINGS.md 'THE PRIZE FIRST'; PREREGISTRATION.md 'Prior state'"
+    }
+   ],
+   "seat_note": "This is a genuinely well-run exact-computation arc: it fixes the missing-dependency problem seen upstream (B1098/B1100) by vendoring and re-certifying the e6 module in-arc, runs a real combinatorial-completeness search rather than a sample, and is honest about a float-measure tension with a prior arc that it flags but does not silently resolve; the physics content is structural (matching a pre-assigned integer target inside a Lie-algebra Cartan), not a derivation of the hypercharge values from nothing."
+  },
+  {
+   "arc": "B1103_being_gate",
+   "source": "main",
+   "files_read": [
+    "frontier/B1103_being_gate/FINDINGS.md",
+    "frontier/B1103_being_gate/arc_verdict.json",
+    "frontier/B1103_being_gate/b1103_exact_engine.py",
+    "frontier/B1103_being_gate/b1103_float_engine.py",
+    "frontier/B1103_being_gate/check_being_gate_vendored.py",
+    "tests/test_b1103_being_gate.py (existence check only)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE BEING GATE (harvest arc, theorem and first proof from an outside session, rebanked after independent two-engine verification): h(w)=zeta3^(p-q) x (Q(zeta5) element) for words w on {a,A,b,B} acting through the SU(3)_2 modular rep, with p,q the abelianized exponents; hence h(w) in Q(zeta5) iff p-q=0 mod 3, or h(w)=0 (28 of 1364 length<=5 words vanish); verified 1364/1364 exact by an independently rebuilt zeta_60 engine AND by the vendored outside certificate (negative-controlled); the commutator subgroup lies entirely in the Q(zeta5) locus (252/252 census); kappa=tr[a,b] is structurally invisible to the being phase.",
+   "log_says": "PROGRESS_LOG.md: '2026-08-21 (B1103; the gate harvested).' -- a bare acknowledgment, consistent with, not exceeding, the arc's own framing as a harvest/rebanking of an outside result.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the theorem statement and first proof (factorization h(w)=zeta3^(p-q) x Q(zeta5))",
+     "where": "FINDINGS.md 'THE THEOREM'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicitly attributed to 'an OUTSIDE SESSION' relayed by the owner -- the arc is honest that this is not this bench's own original derivation, but a harvested result. It is reproducible because the theorem's own proof shape is included and two independent engines (own + vendored) both verify it in-repo."
+    },
+    {
+     "what": "1364/1364 exhaustive verification by the banking seat's own zeta_60 integer-arithmetic engine, instrument rebuilt from cited Kac-Peterson formulas",
+     "where": "b1103_exact_engine.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained integer-coefficient arithmetic mod a cyclotomic polynomial, no external file dependency found in the sampled code; a genuine independent re-implementation, not a re-read."
+    },
+    {
+     "what": "the vendored outside certificate, inspected for hardcoded-pass shortcuts and negative-controlled (modulus 3->2 correctly produces 2 drifts at 484/1364)",
+     "where": "check_being_gate_vendored.py",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "vendored in full with a stated sha256 and explicitly inspected for conditional-exit/hardcoded-pass hazards before being trusted -- a real due-diligence step, and the file runs standalone (sympy only)."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "two independent code paths (own zeta_60 engine + the inspected vendored certificate) both re-derive the full 1364-word factorization/gate result and agree exactly, including on which 28 words vanish; this is a strong verify-don't-trust chain for a harvested (not originally-derived-here) theorem.",
+   "absence_claims": [
+    {
+     "quote": "'Eight of nine letters appear' is census-definition-dependent and UNREPRODUCED",
+     "where": "FINDINGS.md 'Flags carried honestly'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IMPORTED",
+     "detail": "the theorem's discovery and first proof originate outside this repository's own sessions ('an outside session'); while the re-verification here is genuine and independent (two engines), the underlying mathematical insight/proof strategy is not this bench's own work -- correctly disclosed as a 'harvest arc', not hidden, but worth flagging per the seat's mandate to distinguish computed-here from imported.",
+     "where": "FINDINGS.md header: 'the theorem and its first proof are an OUTSIDE SESSION's'"
+    }
+   ],
+   "seat_note": "An unusually transparent harvest arc: it names its outside origin explicitly, inspects the imported certificate for common cheating patterns (hardcoded pass, missing negative control) before trusting it, and backs it with an independently rebuilt verification engine -- good epistemic hygiene for imported results; the physics content (a number-theoretic/representation-theoretic gate on a modular representation) is structural, with no measurable observable named."
+  },
+  {
+   "arc": "B1104_fourd_suspension",
+   "source": "main",
+   "files_read": [
+    "frontier/B1104_fourd_suspension/FINDINGS.md",
+    "frontier/B1104_fourd_suspension/PREREGISTRATION.md",
+    "frontier/B1104_fourd_suspension/arc_verdict.json",
+    "frontier/B1104_fourd_suspension/b1104_results.json",
+    "frontier/B1104_fourd_suspension/b1104_selection.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE 4D SUSPENSION SELECTION TEST: NO-SECTION: over the complete 8-element symmetry group of m004 (MCG=Isom=D4, Mostow rigidity cited), no infinite-order element exists so the founding suspension move cannot repeat one dimension up (C1 fail, informatively); the centrality filter selects exactly one element (the central involution) while the orientation-reversing filter selects exactly two (reflections e4,e6) -- disjoint, empty joint intersection (C2, no canonical fourth dimension); both tick-selected reflections give non-orientable 4-manifolds with orientation double cover M x S^1 (C3 pass); the cusp action is non-faithful (kernel Z/2), so the computation ran on the abstract multiplication table, self-certified as a homomorphism.",
+   "log_says": "PROGRESS_LOG.md: '2026-08-21 (B1104; the fourth dimension declines to be named).' -- a bare, consistent gloss of the arc's own NO-SECTION conclusion.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the complete 8-element symmetry-group table (orders, conjugacy classes, det/orientation character, H1 of each suspension) and the theta-filter/tick-filter disjointness",
+     "where": "b1104_selection.py; b1104_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained script that imports the standard `snappy` library and Manifold('m004'), asserting n==8 isometries and checking the cusp-map-vs-abstract-table homomorphism property before use; FINDINGS.md gives an explicit ~10s run command; SnapPy is an external but standard, publicly available library (not a project-internal missing file), so this is reproducible given a standard scientific-Python environment."
+    },
+    {
+     "what": "MCG(m004) = Isom(m004) = D4 (finite)",
+     "where": "FINDINGS.md 'C1'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "cited as Mostow rigidity (CITED-grade, standard theorem) combined with the SnapPy-computed isometry group; the citation itself is not re-derived but is a well-established theorem, and the group order/structure is independently confirmed by the computation (n==8 assertion)."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "b1104_selection.py performs its own SnapPy computation of the isometry group and self-certifies the cusp-matrix-vs-abstract-table map as a homomorphism before using it downstream -- a genuine from-scratch computation with a documented instrument caveat (cusp action is not faithful) rather than an assumed shortcut.",
+   "absence_claims": [
+    {
+     "quote": "No infinite-order suspension of M exists",
+     "where": "FINDINGS.md 'C1'"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Careful low-dimensional-topology computation with an explicitly documented instrument subtlety (the cusp representation is not faithful, kernel Z/2, so the abstract multiplication table rather than cusp matrices alone had to be used, and this was self-certified before use) -- the arc is explicit that 'no cosmological or physical reading is claimed', which is the correct and honest scope for a pure mapping-class-group/no-section result."
+  },
+  {
+   "arc": "B1105_wall_scope",
+   "source": "main",
+   "files_read": [
+    "frontier/B1105_wall_scope/FINDINGS.md",
+    "frontier/B1105_wall_scope/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE WALL'S SCOPE AUDIT: the four languages proving a headline chirality-address theorem (PD/count-pairing, AW/non-isolation, completion-kernel, charge/holonomy) are stated side by side with their exact quantified domains; the domains are pairwise different and no banked result derives any language from another; a prior presentation's claim that the four proofs were 'shown to be one fact' is corrected in place to 'four independent theorems, one conclusion' -- framed as an epistemic upgrade (independent convergence is stronger evidence than one proof told four ways), not a retreat.",
+   "log_says": "PROGRESS_LOG.md: '2026-08-21 (B1105 + B1106; the seal and the humility, one bank).' -- consistent with the arc's self-description as a corrective/humbling scope audit.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the entire audit is a re-reading of four ALREADY-BANKED arcs (B1086, B1084, B1083, B1087) to state their exact quantified scope; no new computation is performed",
+     "where": "FINDINGS.md header: 'no new computation \u2014 a scope audit'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "the arc explicitly states every row is 'verifiable by reading the cited arc' -- this is a documentation/scope-correction exercise, honestly labeled as such (instrument:true, creates_law:false in the verdict), not a hidden re-derivation."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "no code in this arc; its entire content is a cross-reference table over four prior arcs' stated domains, with a correction applied to two framework documents (TERMINOLOGY.md, THE_FRAMEWORK.md).",
+   "absence_claims": [
+    {
+     "quote": "NO banked result derives any language from another",
+     "where": "FINDINGS.md 'THE FINDING'"
+    },
+    {
+     "quote": "the 'one fact' identity is an observed convergence of conclusions, not a proven equivalence of statements",
+     "where": "FINDINGS.md 'THE FINDING'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A model instance of self-correction: the arc exists specifically to walk back an over-strong prior claim ('shown to be one fact' -> 'four independent theorems, one conclusion') at the owner's own initiative, and frames the walk-back correctly as strengthening rather than weakening the evidence base (independent convergence beats a single proof in four costumes) -- this is exactly the kind of scope discipline the seat should reward, though it also confirms that a a prior corpus presentation had, in fact, overstated an equivalence that was never proven."
+  }
+ ]
+}

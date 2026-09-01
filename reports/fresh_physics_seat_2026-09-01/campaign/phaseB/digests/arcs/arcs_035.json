@@ -1,0 +1,219 @@
+{
+ "batch": "arcs_035",
+ "arcs": [
+  {
+   "arc": "B598_l85_campaign",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/C4_ZERO_ADJUDICATION.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/CAMPAIGN.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/HANDOFF_ADJUDICATION.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/P1_ERRATUM.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/P2_MAP.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/P3_OUTCOME.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/STEP8_P3_PREREG.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/STEP8_P3_PREREG_AMENDMENT1.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/STEP8_P3_PREREG_AMENDMENT2.md",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/lemma_cell.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/lemma_cell_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p0_c1_baseline.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p1_cusp_table.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p1_cusp_table_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p2_original_gateA_failure.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p2_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p2_quantization_arrow.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p3_v1_mirror_swap.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p3_v1_vacuous_run.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p3_v1prime_copy_exchange.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p3_v1prime_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p3_v2_level10.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p3_v2_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p3_v3_e62_rank.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/p3_v3_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/peripheral_certificate.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/peripheral_certificate_exact.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/peripheral_certificate_exact_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step4a_domain.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step4a_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step4b_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step4b_responses.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step6_exact_stage.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step6_exact_stage_v2.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step6_v2_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step7_g1_finite.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step7_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step9_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/steps3and5.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/steps3and5_output.txt",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/verify_word_independence.py",
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/verify_word_independence_output.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B598_l85_campaign/step9_independent_p1.py (first ~50 lines + docstring + grep for def/assert/print patterns; class Q3 arithmetic verified as hand-rolled exact ring, not imported from l51 stack)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The Kashaev baseline is computed (growth = Vol/2pi, 1-loop constant 3^-1/4) and the exact six-block cusp table built, with the true longitude word corrected.\"",
+   "log_says": "10 log entries trace the campaign start (owner: 'do it properly; precompute everything') through P0/P1/the longitude correction/steps 1,4,6,7,8,9 to a cc2-verified bonus identifying the universal H1 slope -2*sqrt(-3) as the cusp modulus; consistent with the files read.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "P0: Kashaev invariant growth rate = Vol(4_1)/2pi (dev 1.15e-41) and 1-loop constant r_inf = 3^(-1/4) (dev 8e-12, nearest competitor 24% off)",
+     "where": "p0_c1_baseline.py (committed, runnable, mpmath dps=40) + FINDINGS.md P0 section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script is self-contained (mpmath only), asserts the growth gate, and prints a candidate-list nearest-match for the 1-loop constant. FINDINGS.md itself discloses the self-consistency caveat: the growth-rate gate uses the measured prefactor, so this is a CALIBRATION against known asymptotics, not an independent derivation -- honestly labeled as such in-arc."
+    },
+    {
+     "what": "P1 cusp table: dim H1(pi_K;V_m)=1 and exact peripheral values xi(mu), xi(lambda) at all 6 blocks, Q(sqrt-3)-arithmetic",
+     "where": "p1_cusp_table.py + p1_cusp_table_output.txt; corrected per P1_ERRATUM.md after the longitude word error",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Fox-calculus solve over an exact model with a committed, hashed output file; the original (wrong) longitude run is preserved for comparison (p2_original_gateA_failure.txt), and the corrected table is independently reproduced by step9_independent_p1.py with no shared code."
+    },
+    {
+     "what": "Universal boundary ratio I_lambda/I_mu = -2*sqrt(-3) at all six blocks",
+     "where": "steps3and5.py / steps3and5_output.txt, reproduced by step9_independent_p1.py (step9_output.txt)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Two independent pipelines (shared model vs clean-room E6-Cartan-matrix rebuild) agree exactly on the integer/quadratic-irrational value; this is the strongest evidentiary item in the arc."
+    },
+    {
+     "what": "27-27bar intertwiner J: Schur-unique, invertible, untwisted form has dimension 0",
+     "where": "steps3and5.py + lemma_cell.py, output steps3and5_output.txt / lemma_cell_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact linear algebra over Q(sqrt-3) with printed verdicts per gate; asserts present in lemma_cell.py (7 asserts)."
+    },
+    {
+     "what": "STEP6: three E6_2 pair amplitudes are symbolic cyclotomic identities in Q(zeta_84)",
+     "where": "step6_exact_stage_v2.py / step6_v2_output.txt; v1 (step6_exact_stage.py) preserved as an honest failed attempt (sympy denesting failure)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact group-ring reduction mod cyclotomic polynomial Phi_84 to zero remainder, plus a numeric sign-branch gate at 1e-30 (achieved ~1e-41); the v1 failure is kept on disk, a good transparency practice."
+    },
+    {
+     "what": "STEP7 (G1-FINITE): the theta-odd-twisted mirror-double amalgam generates e6(C), dim 78, at finite t=1; closes a previously-open provenance hole (B582's dial-map code was NEVER COMMITTED, per P1_ERRATUM.md AMENDMENT)",
+     "where": "step7_g1_finite.py / step7_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mod-p rank certificates at two independent primes (10009, 10039) agreeing, which certifies equality with the field-rank upper bound (78); genuinely closes a documented absence (the prior G1 code was never committed)."
+    },
+    {
+     "what": "P3 outcome: OUTCOME B -- 'the semiclassical map exists at golden kappa=5 as a structural correspondence, with the recorded defect that the pairing is golden-special' (V1' PASS, V2 FAIL, V3' PASS)",
+     "where": "P3_OUTCOME.md, STEP8_P3_PREREG.md + two hashed amendments, p3_v1prime_output.txt / p3_v2_output.txt / p3_v3_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Genuinely preregistered-and-sealed (SHA-256 hashes in ARTIFACT_HASHES.txt before each cell ran), with one real failure (V2, disclosed) and two amendments that are honestly justified using only pre-seal facts (not post-hoc rescue of the actual run outputs) -- a rare, well-documented case of pre-registration discipline actually followed, including admitting the sealing was imperfect twice (V1 vacuous op, V3 unsatisfiable clause)."
+    },
+    {
+     "what": "P2's headline framing 'the arrow is quadratic; P3 matches at order two; B599 is the classical side of P3'",
+     "where": "FINDINGS.md P2 section (\"the arrow is quadratic\"); arc_verdict.json status PROVED (silent on this)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This framing was RETRACTED the same day (2026-07-15) per PROGRESS_LOG.md's 'THE FRESHNESS ADDENDUM (D1-D10) ADOPTED; the quadratic-arrow verdict RETRACTED' (D2: 'no map was constructed to have an order'). The retraction IS recorded inside this arc's own P1_ERRATUM.md ('SECOND AMENDMENT'), but FINDINGS.md's main narrative and P2 section header still read 'the arrow is quadratic' uncorrected, and arc_verdict.json carries no caveat. A reader who reads only FINDINGS.md (the file this seat is told to read first) would not learn the framing was retracted."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No verification/ subdirectory, but committed pytest locks exist for every major step (tests/test_b598_p0.py, test_b598_p1.py, test_b598_step1_exact.py, test_b598_step4a.py, test_b598_step4b.py, test_b598_step6.py, test_b598_step7.py, test_b598_step9.py, test_b598_steps35.py, test_b598_lemma.py) and step9 is an explicit from-scratch independent reproduction of step1/P1's table -- a genuine second pipeline, not merely a re-read.",
+   "absence_claims": [
+    {
+     "quote": "the ROUND1_TRANSCRIPT bank has a provenance hole; this is why chat-2 had to ask for its longitude convention ... the closure dimension to \"the G1-computed dial map\" -- whose code was NEVER COMMITTED",
+     "where": "P1_ERRATUM.md:41-42"
+    },
+    {
+     "quote": "The finite-t existence of the chiral play is NOT independently certified in-repo",
+     "where": "P1_ERRATUM.md:44"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "FINDINGS.md's P2 section header ('the arrow is quadratic') and the flow into 'P3 RESOLVED ... OUTCOME B' are written as if the quadratic-arrow framing stands, but PROGRESS_LOG.md records that framing (including 'B599 is the classical side of P3') as explicitly RETRACTED the same day. The retraction is recorded only in P1_ERRATUM.md's 'SECOND AMENDMENT' subsection, not propagated into FINDINGS.md's main text or arc_verdict.json.",
+     "where": "FINDINGS.md (P2 section, P3 RESOLVED section) vs P1_ERRATUM.md SECOND AMENDMENT vs PROGRESS_LOG.md 2026-07-15 'THE FRESHNESS ADDENDUM'"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The 1-loop constant identification picks the nearest of seven ad hoc constructed candidate closed forms (3^(-1/4), 2pi/3^(3/4), etc.) to the Richardson-extrapolated numeric constant; the match is decisive (8e-12 vs 24% for next-best) so the identification is well-supported, but the method itself (construct candidates, take nearest) is a fitting procedure worth flagging on principle.",
+     "where": "p0_c1_baseline.py lines 56-69"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "P3's V2 cell (level-independence at kappa=10) FAILED decisively (conjugate-pair criterion false; amplitudes -0.011+0.0036i vs +0.235+0.076i, not conjugates) and this is honestly reported as the 'recorded defect' driving OUTCOME B rather than OUTCOME A. This is a case of a real, disclosed negative result, not a red flag against the arc -- noted here because it materially limits the claim (the map is 'golden-special', not general).",
+     "where": "p3_v2_output.txt; P3_OUTCOME.md"
+    }
+   ],
+   "seat_note": "This is one of the more rigorous arcs in the corpus -- exact arithmetic, hashed pre-registration with two amendments justified only on pre-seal facts, an independent from-scratch reproduction (step9), and an honest disclosed failure (V2) driving a downgraded outcome (B, not A). Its one real defect is bookkeeping: the same-day retraction of the 'quadratic arrow' framing is buried in an amendment file and never reaches FINDINGS.md's headline narrative or the arc_verdict.json status."
+  },
+  {
+   "arc": "B599_selection_rule",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B599_selection_rule/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B599_selection_rule/ITEM6_FINITE_T_ADJUDICATION.md",
+    "/home/user/origin-axiom/frontier/B599_selection_rule/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B599_selection_rule/r4b_extraction.py",
+    "/home/user/origin-axiom/frontier/B599_selection_rule/r4b_extraction_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"A Theta-homogeneous pairing vanishes unless the number of theta-odd factors is even (C central, C^2=1), subsuming seven banked results; the algebraic face was recomputed in-repo and matched every expected lock.\"",
+   "log_says": "13 log entries: the stage-face theorem banked 2026-07-14; B599-ALG upgraded from relayed-pending to in-repo recomputed 2026-07-15; then critically, the SAME DAY the 'quadratic-arrow / B599-is-classical-side-of-P3' framing is RETRACTED (FRESHNESS ADDENDUM D2); later (Aug 2026) B599 becomes structurally load-bearing for the SM-selection cascade (B860, B861, B862, B871, B873) as \"a B599 pairing datum\" and \"a B599-legal chirality measurement.\"",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "The theta-parity selection rule: an evaluation with odd total theta-parity vanishes (C central, C^2=1, two-line proof) + 300 random SU(3)_2 configurations all exactly zero for odd total",
+     "where": "FINDINGS.md 'The theorem (stage face)'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The proof is a clean two-line algebraic argument (asserted as a proof, plausible and generic in kind), but the 300-random-configuration numerical verification script/output is not among this arc's committed files (not in the files list for this packet) -- the stage-face computation itself is not directly witnessed in this arc's directory."
+    },
+    {
+     "what": "B599-ALG: L0 (Omega not dot-symmetric), ord(v4)=5, ord(v8)=3, L1 zeros at m=4,8, Im-order starting at t^2 for 5 words x 2 slots, witnesses +2096640 (m=4/b2) and -536481792000 (m=8/b2), weld-only twist-twist identity",
+     "where": "r4b_extraction.py (0 asserts -- print-only script) + r4b_extraction_output.txt; locked separately by tests/test_b599_alg.py (which DOES assert: test_l0_not_dot_symmetric, test_nilpotency_orders, test_l1_parity_zeros, test_t2_witness_and_weld_identity_m8)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "r4b_extraction.py itself is chat-2's relayed script (originally produced outside this repo during a 'sandbox outage', explicitly flagged in FINDINGS.md as NOT present in this repository until re-run here) and carries zero asserts of its own, but the separately committed pytest lock (test_b599_alg.py) does assert on its exact outputs, so the numbers are independently enforced in-repo, not merely printed and trusted."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b599_selection_rule.py and tests/test_b599_alg.py both exist and assert on exact values; the algebraic face is explicitly an 'UPGRADE from relayed-pending to in-repo recomputed' -- a documented instance of exactly the kind of import discipline this seat is meant to check for, done correctly.",
+   "absence_claims": [
+    {
+     "quote": "Chat-2's algebraic proof cites their in-session artifacts (route_exact.json, r4b_extraction.py; ...) produced during their sandbox outage and NOT present in this repository. Per verify-don't-trust these are registered as claims awaiting either their artifact delivery or in-repo recomputation",
+     "where": "FINDINGS.md 'The algebraic face — RELAYED-PENDING (not banked)'"
+    },
+    {
+     "quote": "The general-k graded-trace bookkeeping is flagged by chat-2 itself as to-be-written — registered.",
+     "where": "FINDINGS.md, same section"
+    },
+    {
+     "quote": "Item 4 (the frozen 20-word tables) is one TESTW extension away — queued (chat-2's sandbox or a later slot here).",
+     "where": "FINDINGS.md 'B599-ALG' section"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "PROGRESS_LOG.md records, the same day B599-ALG was banked, that the framing 'B599 is the classical side of P3' was explicitly RETRACTED as part of the FRESHNESS ADDENDUM (D2). This arc's own FINDINGS.md and arc_verdict.json contain no trace of that retraction at all -- unlike B598 (which at least records it in P1_ERRATUM.md), B599's files as read here are entirely silent on the correction. A reader of this arc alone would not learn that its stated relationship to P3 was retracted.",
+     "where": "PROGRESS_LOG.md 2026-07-15 'THE FRESHNESS ADDENDUM' vs B599_selection_rule/FINDINGS.md (no mention)"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The stage-face theorem's central empirical support (300 random Theta-homogeneous SU(3)_2 configurations, all odd-total pairings exactly zero) is stated in FINDINGS.md but no script or output file for that specific verification appears among this arc's committed files.",
+     "where": "FINDINGS.md 'The theorem (stage face)'"
+    },
+    {
+     "kind": "NO_TEST",
+     "detail": "r4b_extraction.py, the script that produces the arc's headline exact witnesses, has zero asserts of its own (print-only); correctness enforcement lives entirely in a separately-committed test file, which is fine, but the delivered script itself is not failure-enforcing.",
+     "where": "r4b_extraction.py (0 matches for 'assert')"
+    }
+   ],
+   "seat_note": "The core algebraic content (a central involution forcing parity zeros) is a clean, generically-true structural fact and its numeric witnesses are exactly locked by committed tests -- solid. But this arc later becomes heavily load-bearing for the SM-selection cascade (B860-B873, treating 'a B599 pairing datum' as an established primitive) while carrying an unpropagated same-day retraction of its stated relationship to the P3 comparison; downstream users citing B599 should know that linkage was retracted, not merely superseded quietly."
+  }
+ ]
+}

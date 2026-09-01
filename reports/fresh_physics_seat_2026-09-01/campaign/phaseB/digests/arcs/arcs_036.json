@@ -1,0 +1,579 @@
+{
+ "batch": "arcs_036",
+ "arcs": [
+  {
+   "arc": "B600_level_ladder",
+   "source": "main",
+   "files_read": [
+    "frontier/B600_level_ladder/FINDINGS.md",
+    "frontier/B600_level_ladder/arc_verdict.json",
+    "frontier/B600_level_ladder/verify_level4.py",
+    "frontier/B600_level_ladder/verify_level4_output.txt",
+    "frontier/B600_level_ladder/packet/CAMPAIGN.md",
+    "frontier/B600_level_ladder/packet/FINDINGS.md",
+    "frontier/B600_level_ladder/packet/INTEGRATION_HASHES.txt",
+    "frontier/B600_level_ladder/packet/LIT_GATE.md",
+    "frontier/B600_level_ladder/packet/README_PACKET.md",
+    "frontier/B600_level_ladder/packet/scripts/engine.py",
+    "frontier/B600_level_ladder/packet/outputs/L73_ONE_PAGER.md",
+    "frontier/B600_level_ladder/packet/outputs/P0_REPORT.md",
+    "frontier/B600_level_ladder/packet/outputs/P1_FREEZE_HASHES.txt",
+    "frontier/B600_level_ladder/packet/outputs/level4_readouts.json",
+    "frontier/B600_level_ladder/packet/scripts/p2_certify.py (partial/grep)",
+    "frontier/B600_level_ladder/packet/scripts/p3_verdict.py (partial/grep)",
+    "frontier/B600_level_ladder/packet/scripts/p_proof_lock.py (partial/grep)",
+    "frontier/B600_level_ladder/packet/proposed_locks/test_cc2_level_ladder.py (partial/grep)"
+   ],
+   "files_sampled": [
+    "frontier/B600_level_ladder/packet/scripts/engine.py (first 120 lines + grep def/assert)"
+   ],
+   "files_listed_only": [
+    "frontier/B600_level_ladder/packet/outputs/level4_blocks.npz"
+   ],
+   "claim_of_record": "verdict claim_one_line: 'Z₄ = Tr ρ4(A₁) = 0 and Tr(Θρ4) = 0 at E₆ level 4 (κ=16), reproduced in an independent pipeline and certified exactly in the integrated packet, so H133 dies at its own registered gate.'; status: NEGATIVE",
+   "log_says": "B600: cc2's level-ladder campaign adjudicated, H133 TESTED-NEGATIVE, verified independently in-repo; the cc2 packet later integrated with hashes verified and locks GREEN.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Z₄ = Tr ρ₄(A₁) = 0 and Tr(Θρ₄) = 0 at E₆ level 4",
+     "where": "verify_level4.py / verify_level4_output.txt (independent pipeline, 1e-10); packet/scripts/engine.py + p2_certify.py (exact mod-Φ₁₉₂ integer certificate)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "both an independent float pipeline (committed script + committed output) and the imported packet's exact-integer certificate are committed in-repo with hashes recorded; engine.py has hard-stop gates reproducing banked k=1..3 exactly before the new rung."
+    },
+    {
+     "what": "the E₆ level-4 odd-block arithmetic (ℚ(√2) import, rationals {4/3,8/3,4,16/3}, two quartics)",
+     "where": "packet/FINDINGS.md; packet/outputs/P1_FREEZE_HASHES.txt",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "imported from seat cc2's packet (external to this repo's own build) but hashes verified on arrival and integrated in-repo; recomputable via packet/scripts/p3_verdict.py and p3b_unidentified.py."
+    },
+    {
+     "what": "PRED-4 Pisano-clock congruence law (ord divides ord(A1 mod ord T_k))",
+     "where": "packet/LIT_GATE.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "cited as an established theorem (Bantay 2003; Ng-Schauenburg 2010; Dong-Lin-Ng 2015) via an AI literature sweep, not independently re-derived or proof-checked in this repo; the exact ord(T_k) values are computed, but the cited theorem itself is taken on faith from secondary AI-search synthesis."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verify_level4.py is an independent from-scratch reimplementation (generalizing the c3 builder to arbitrary level) that reproduces the packet's headline result to 1e-10, distinct from the packet's own exact-certificate scripts; both are committed.",
+   "absence_claims": [
+    {
+     "quote": "nothing in the corpus had level 4",
+     "where": "frontier/B600_level_ladder/packet/FINDINGS.md:36"
+    },
+    {
+     "quote": "The E₆ subfield ladder computation is NOT FOUND.",
+     "where": "frontier/B600_level_ladder/packet/LIT_GATE.md:13"
+    },
+    {
+     "quote": "No published evaluation for any exceptional G exists.",
+     "where": "frontier/B600_level_ladder/packet/LIT_GATE.md:15"
+    },
+    {
+     "quote": "Exact level-independent constancy Tr ρ_k = +1 is NOT-FOUND anywhere.",
+     "where": "frontier/B600_level_ladder/packet/LIT_GATE.md:16"
+    },
+    {
+     "quote": "No table or closed form for E₆ found — our exact per-level ord(T) values are computed, not citable.",
+     "where": "frontier/B600_level_ladder/packet/LIT_GATE.md:18"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "packet/outputs/*.log files referenced repeatedly as the source of verbatim numbers (P4_TOWERS.log, P2_CERTIFY.log, P3_VERDICT.log, P3B_UNIDENTIFIED.log, P_PROOF_LOCK.log) are not in the packet's files list provided to this seat and are the *.log/*.out gitignored pattern; the digest could not verify their contents directly, only the summarized numbers in FINDINGS.md/README.",
+     "where": "frontier/B600_level_ladder/packet/README_PACKET.md:38"
+    }
+   ],
+   "seat_note": "This is a rigorous, well-instrumented negative result (H133 killed) with genuine exact-integer certificates and an honest, atypically thorough literature-gate step; it carries no SM observable, only pure modular/arithmetic structure of the stage-side object, so it says nothing about physics beyond internal consistency of the formalism."
+  },
+  {
+   "arc": "B601_pairing_law",
+   "source": "main",
+   "files_read": [
+    "frontier/B601_pairing_law/FINDINGS.md",
+    "frontier/B601_pairing_law/arc_verdict.json",
+    "frontier/B601_pairing_law/pairing_law_scan.py",
+    "frontier/B601_pairing_law/pairing_law_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'trace(B_odd)(kappa) = [5|kappa]/phi - [4|kappa] holds exactly on 14 kappa-points including two registered discriminating predictions, and coincides with B587's LAW-O, making the odd trace law stage-universal.'; status: PROVED",
+   "log_says": "B601: the V2 defect refined — the pairing is spectral at all levels; THE TRACE LAW; LAW-O is stage-universal; the naive diagonal multiset closes only at kappa=5.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "trace(B_odd)(κ) = [5|κ]/φ − [4|κ] on 14 κ-points including 2 pre-registered discriminating predictions (κ=16,40)",
+     "where": "pairing_law_scan.py lines 113-138; pairing_law_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script computes trace(B_odd) via a float pipeline (numpy, 1e-8 tolerance) and asserts the formula on all 14 points; the two predictions (κ=16,40) were pre-registered in the script's own comment/docstring before being checked, giving genuine predictive weight, but the underlying test is numeric only (float, no exact/algebraic proof of the formula)."
+    },
+    {
+     "what": "the spectrum of B_odd is conjugation-closed at every level (basis-independent), diagonal multiset closed only at κ=5",
+     "where": "pairing_law_scan.py lines 93-112; pairing_law_output.txt lines 3-15",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "directly computed via eigenvalues/characteristic polynomial with float tolerance checks; reproducible from committed code."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No separate verification/belt directory for this arc; the single script itself contains a machinery gate (k=2 banked diagonal check) but there is no independent re-implementation.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "The trace law is verified only to 1e-8 float precision across all 14 kappa points; no exact/symbolic (Fraction, sympy exact) certificate is given for the formula itself, despite the arc calling it 'THE TRACE LAW' and status PROVED.",
+     "where": "frontier/B601_pairing_law/pairing_law_scan.py:132-137"
+    }
+   ],
+   "seat_note": "A clean, honest structure-refinement with a real held-out prediction test, but it is float-verified only and is pure stage-side arithmetic (no SM content); the PROVED verdict label is stronger language than the underlying numeric-tolerance evidence alone would justify without the predictive framing."
+  },
+  {
+   "arc": "B602_value_bridge",
+   "source": "main",
+   "files_read": [
+    "frontier/B602_value_bridge/FINDINGS.md",
+    "frontier/B602_value_bridge/arc_verdict.json",
+    "frontier/B602_value_bridge/NORM_PREREG.md",
+    "frontier/B602_value_bridge/b602_n0_jgram.py (referenced, not separately opened)",
+    "frontier/B602_value_bridge/n0_output.txt",
+    "frontier/B602_value_bridge/n1_output.txt",
+    "frontier/B602_value_bridge/n2_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'No declared structural normalization carries even the phase — all X1 cells fail with residual exactly −π/15 and all X2 cells fail — so the outcome is D-norm: the naive value bridge does not exist.'; status: NEGATIVE",
+   "log_says": "B602 RESOLVED: D-norm — the naive value bridge does not exist; the residuals are the finding; the phase lattice gap is one unit of 2π/30.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "g₄ = g₈ = 0 exactly (J-isotropy of the bent states)",
+     "where": "n0_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "output shown as exact zero (0+0w); script b602_n0_jgram.py committed though not separately opened by this reader in full."
+    },
+    {
+     "what": "X1 phase residual exactly −π/15 (classical −2π/3 vs stage −3π/5)",
+     "where": "n1_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the pre-run field-degree argument (tan(π/15) has degree 4, incompatible with ℚ(√−3)) was registered before running and the residual matches exactly; output committed."
+    },
+    {
+     "what": "X2 magnitude residual exact fraction 1455/2194752821534 = (3·5·97)/(2·7·13²·31·607·49297)",
+     "where": "n2_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact rational computed and printed; the prime factorization is fully shown, so reproducible from committed data/scripts."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; single-pass sealed run with pre-registered order (N0->N1->N2) serving as its own discipline instead of an independent re-check.",
+   "absence_claims": [
+    {
+     "quote": "g_m ... has never been computed; it is a pre-comparison classical quantity",
+     "where": "frontier/B602_value_bridge/NORM_PREREG.md:39-40"
+    },
+    {
+     "quote": "No declared structural normalization carries even the phase. The naive value bridge does not exist",
+     "where": "frontier/B602_value_bridge/FINDINGS.md:50-52"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A well-preregistered, honestly-reported negative result with exact rational residuals and a genuine pre-run falsifiable prediction (the field-degree obstruction) that was confirmed; no SM quantity is claimed or computed here, consistent with the firewall stated in the prereg."
+  },
+  {
+   "arc": "B603_isotropy_mechanism",
+   "source": "main",
+   "files_read": [
+    "frontier/B603_isotropy_mechanism/FINDINGS.md",
+    "frontier/B603_isotropy_mechanism/arc_verdict.json",
+    "frontier/B603_isotropy_mechanism/isotropy_mechanism.py",
+    "frontier/B603_isotropy_mechanism/isotropy_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'Weight purity of the Omega-null state v0 makes every bent state v_m*v0 weight-homogeneous of weight 2m and hence J-isotropic at every block, so all single-generator L1 contractions are weight-forced.'; status: PROVED",
+   "log_says": "B603: the isotropy law is a one-line theorem (v0 is weight-pure); the L1 label corrected; the E₆₂ center measured; g_m = 0 at ALL six blocks with a total mechanism.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "g_m = (v_m v0)^T J (v_m v0) = 0 at all six blocks m ∈ {1,4,5,7,8,11}, with the move-across identity verified exactly",
+     "where": "isotropy_mechanism.py lines 93-112 (exact Fraction/field arithmetic K); isotropy_output.txt lines 10-15",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed with exact field arithmetic (Fraction-based K type, not floats) via the l51_obstruction.py machinery imported and re-executed; each of the 6 blocks passes an exact is_zero() check and the move-across identity assertion."
+    },
+    {
+     "what": "v0 weight support = {0} (weight purity of the Omega-null state)",
+     "where": "isotropy_mechanism.py line 94-95; isotropy_output.txt line 7",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "directly computed from the null-space of Om via nullspace() (exact arithmetic) and printed; used as the theorem's key premise."
+    },
+    {
+     "what": "the E₆₂ quantum dimensions, simple currents (primaries 3,4), and Z3 center charges of the odd pairs ((2,1),(1,2),(1,2))",
+     "where": "isotropy_mechanism.py lines 114-177 (float pipeline, numpy); isotropy_output.txt lines 17-33",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed via a separate float-based modular-data build imported from B570_allowed_plays/c3_e6_level2_monodromy.py; numeric to ~1e-6/1e-9 tolerances, not exact, but fully reproducible from committed scripts."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No independent recomputation directory; the theorem's exact-arithmetic proof and its mechanical verification are the same script/run.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A genuine short structural theorem (weight-purity forces isotropy) backed by exact rational-field computation, not merely numerics, plus an honest supersession note narrowing an earlier 'genuine, not forced' label; pure representation-theoretic content, no observable physics."
+  },
+  {
+   "arc": "B604_rosetta_blocks",
+   "source": "main",
+   "files_read": [
+    "frontier/B604_rosetta_blocks/FINDINGS.md",
+    "frontier/B604_rosetta_blocks/arc_verdict.json",
+    "frontier/B604_rosetta_blocks/rosetta_blocks.py",
+    "frontier/B604_rosetta_blocks/rosetta_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'The pair-to-block assignment does not exist: at every ambiguous height both principal-block lines are genuine mixtures of both theta-odd pair combinations, dissolving the question and refuting the handoff's D5/16 table at h=2,3.'; status: NEGATIVE",
+   "log_says": "B604 (the Rosetta cell): the pair-to-block assignment DOES NOT EXIST; chat-1's table corrected — root data CONFIRMED, their D₅/16 table REFUTED at h=2,3 (three (D₅,D₅) pairs, not one; end-choice-invariant).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "36 positive roots, 12 theta-fixed + 12 pairs, heights [2,2,2,2,1,1,1,1]; theta-gates pass",
+     "where": "rosetta_blocks.py lines 51-125, 176-187; rosetta_output.txt lines 2-4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed exactly (Fraction-based K arithmetic) with hard assert gates; reproduces chat-1's V1 claim as a verification, not an import."
+    },
+    {
+     "what": "at h=1..4 both V8 and V16 lines are exact MIXTURES of both pair-combinations, with explicit integer coefficients (e.g. h=4: -1*o1+1*o2 and -443520*o1-604800*o2)",
+     "where": "rosetta_blocks.py lines 229-260; rosetta_output.txt lines 9-17",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "solve_in() does exact linear-algebra (rational field) expansion in the pair-combination basis and prints exact coefficients; this is the arc's central refutation of the imported handoff claim."
+    },
+    {
+     "what": "the incoming handoff claim (chat-1's D5/16 table: 'every pair mixes D5 and 16 except one (D5,D5) at h=1')",
+     "where": "rosetta_blocks.py docstring lines 1-27; FINDINGS.md lines 9-19",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "chat-1's original handoff/table itself is not a committed file in this arc's directory (only referenced and then tested/refuted); the reader cannot independently see the original claim's provenance, only this arc's characterization and refutation of it."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc re-derives the root/pair structure from scratch (independent of chat-1's original computation) rather than reusing chat-1's numbers, functioning as its own verification of an external (imported) claim.",
+   "absence_claims": [
+    {
+     "quote": "the pair-to-block assignment DOES NOT EXIST",
+     "where": "frontier/B604_rosetta_blocks/FINDINGS.md:1"
+    },
+    {
+     "quote": "Chat-1's ask — \"which pair goes to V₈ and which to V₁₆\" — has no answer because no assignment exists",
+     "where": "frontier/B604_rosetta_blocks/FINDINGS.md:28-29"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The D5/16 labeling scheme and the 'gauge-matter mixing' physics reading are explicitly flagged in the arc's own text as chat-1's interpretation layered on top of pure subsystem/coset root-content math; the arc firewalls this but the labels (D5=gauge-like, 16=matter-like) still rest on a structural/type coincidence with Spin(10) GUT nomenclature, which is a licence to ask, not evidence of a physical identification.",
+     "where": "frontier/B604_rosetta_blocks/FINDINGS.md:40-45"
+    }
+   ],
+   "seat_note": "A careful, exact refutation of an imported (chat-1) claim, with the physics-suggestive D5/matter-16 framing explicitly quarantined as interpretation rather than banked math; the underlying computation is solid but the arc's own naming (D5, 16) still invites an SM reading that the math alone does not establish."
+  },
+  {
+   "arc": "B605_door2_involution",
+   "source": "main",
+   "files_read": [
+    "frontier/B605_door2_involution/FINDINGS.md",
+    "frontier/B605_door2_involution/arc_verdict.json",
+    "frontier/B605_door2_involution/door2_involution.py",
+    "frontier/B605_door2_involution/door2_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'Door 2 settled: the amphichiral involutions are FREE deck transformations, not reflections (Gieseking control).'; status: PROVED",
+   "log_says": "B605 (Door 2): the amphichiral involutions are FREE — Gieseking deck maps, not reflections; exact intertwiners over ℚ(√−3) for all four families; zero reflection-type and zero antipodal-type lifts found; m000 identified as the unique degree-2 cover base.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the two glide families (φ(a)=a, φ(a)=b) are exactly certified GLIDE type (τ² in Γ, no fixed point of that lift)",
+     "where": "door2_involution.py lines 115-175; door2_output.txt lines 4,6",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy exact symbolic solve + exact classify() function; output matches script logic directly."
+    },
+    {
+     "what": "the two remaining families (φ(a)=A, φ(a)=B) are 'order-4 elements exactly matching D4's coset structure' per FINDINGS",
+     "where": "FINDINGS.md lines 30-32 vs door2_output.txt lines 5,7 (classify() returns 'OTHER: S=...' for both, not a named order-4 classification)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the committed script's classify() function returns 'OTHER' (unrecognized type) for these two families — it never labels them 'order-4' in its printed output; FINDINGS.md's characterization of them as clean order-4 elements matching D4 is not directly traceable to any printed assertion or gate in the committed run, so a stranger cannot verify this specific claim from the committed output alone."
+    },
+    {
+     "what": "the Gamma-lift census to word length 6 finds ZERO reflection-type and ZERO antipodal-type lifts in all four families",
+     "where": "door2_involution.py lines 177-217; door2_output.txt lines 10-17",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "numeric census (1e-9 tolerance) over an explicit bounded word-length-6 search, exactly as printed; the script itself calls this 'not a proof of freeness by itself' (an honest scope limit stated in FINDINGS)."
+    },
+    {
+     "what": "m000 (Gieseking) is the unique degree-2 cover base of 4_1, volume exactly half, non-orientable, 1 tetrahedron",
+     "where": "door2_involution.py lines 218-244; door2_output.txt lines 19-25",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed via SnapPy (an external library, but committed script directly calls it and asserts volume/orientability/cover-membership); this is the step FINDINGS relies on to convert the bounded census into an exact claim of freeness."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No separate verification directory; the SnapPy-based identification functions as the arc's own closing check rather than an independent re-derivation.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "FINDINGS.md describes the phi(a)=A and phi(a)=B families as 'ORDER-4 elements, exactly matching D4's coset structure', but the committed script's own classify() function labels these same two cases 'OTHER' (unrecognized S matrix), never confirming an order-4 identification in its printed output.",
+     "where": "frontier/B605_door2_involution/FINDINGS.md:31-32 vs frontier/B605_door2_involution/door2_output.txt:5,7"
+    }
+   ],
+   "seat_note": "The glide-type classification for two of the four families is exact and well-certified, but the FINDINGS' order-4 claim for the other two families is not directly visible in the committed script's output (which prints 'OTHER'), so a stranger cannot fully reproduce that specific sub-claim from the artifacts given; the arc is pure 3-manifold/hyperbolic-geometry structure with no SM content."
+  },
+  {
+   "arc": "B606_norm_bridge",
+   "source": "main",
+   "files_read": [
+    "frontier/B606_norm_bridge/FINDINGS.md",
+    "frontier/B606_norm_bridge/arc_verdict.json",
+    "frontier/B606_norm_bridge/NORM_FORM_PREREG.md",
+    "frontier/B606_norm_bridge/b606_cells.py",
+    "frontier/B606_norm_bridge/cells_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'Outcome D-nf: no torsion-power normalization can close the value gauge, since tau_4's 97 and tau_8's 31*607*49297 have no partners in the hearing integers; the exact constants N(h3)=1/5 and 1/49 survive.'; status: NEGATIVE",
+   "log_says": "B606 RESOLVED: D-nf — no torsion-power normalization; the veins 1/5 and 1/49 banked; NF-0 green (minpoly(h3)=5x⁴+5x³+1, N(h3)=1/5 exact; E₆₂ amplitude norm-product = 1/49); NF-1 all-fail as predicted.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "N_{ℚ(ζ₅)/ℚ}(h₃) = 1/5 exactly, minpoly(h₃) = 5x⁴+5x³+1",
+     "where": "b606_cells.py lines 13-24; cells_output.txt line 1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed via sympy minimal_polynomial with an exact-equality assert gate; committed script and output match."
+    },
+    {
+     "what": "the E₆₂ amplitude norm-product = 1/49 exactly",
+     "where": "b606_cells.py lines 26-37; cells_output.txt line 2",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "verified to 60 decimal digits (< 1e-50 deviation) via sympy high-precision evaluation against the classical sine-product identity, asserted in the script."
+    },
+    {
+     "what": "no (k4,k8) with |k|<=3 satisfies the exact torsion-power identity N(c4)*tau8^k8 = N(c8)*tau4^k4",
+     "where": "b606_cells.py lines 39-59 (Fraction exact arithmetic); cells_output.txt line 3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exhaustive exact-Fraction search over the declared finite grid, printed with the exact residual fraction; fully reproducible."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Single-pass sealed run under a hashed prereg; no separate independent re-derivation.",
+   "absence_claims": [
+    {
+     "quote": "The naive torsion-power normalization route closes negative",
+     "where": "frontier/B606_norm_bridge/FINDINGS.md:44-45"
+    },
+    {
+     "quote": "N_{K/Q}(c4) = 4N4^2 ... has never been computed",
+     "where": "frontier/B606_norm_bridge/NORM_FORM_PREREG.md (implicit framing of NF-1 as genuinely new; not a verbatim 'never computed' sentence but registers novelty)"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A tight, exact-arithmetic negative result with an honest self-critique of a prior sealing lapse (the 'both outcomes live' MB12 note that should have been decided by prime-support inspection before sealing); no SM content, purely arithmetic norm-forms of stage/object quantities."
+  },
+  {
+   "arc": "B607_charge_table",
+   "source": "main",
+   "files_read": [
+    "frontier/B607_charge_table/FINDINGS.md",
+    "frontier/B607_charge_table/arc_verdict.json",
+    "frontier/B607_charge_table/charge_table.py",
+    "frontier/B607_charge_table/charge_table_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'In the θ-odd sector 22 of the 24 non-Cartan lines are bicharge-mixed; only the extremal tips wt=±16 with bicharge (1,1) are pure, so no subsystem/coset grading exists anywhere else.'; status: PROVED",
+   "log_says": "B607 (the charge table): the odd sector is charge-mixed except the two spinor tips — 22 of 24 non-Cartan lines MIXED; the only pure lines are V(m=8)'s extremal tips wt=±16 with bicharge (1,1); B604's h=4 coefficients reproduced (cross-check).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "exact bicharge census of all 26 odd lines: 22/24 non-Cartan MIXED, only wt=±16 PURE at (1,1)",
+     "where": "charge_table.py lines 237-320 (exact Fraction/field arithmetic, solve_in linear algebra); charge_table_output.txt lines 19-43",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact linear-algebra expansion in the pair-combination basis with explicit per-line bicharge sets printed; fully reproducible arithmetic (rational field, no floats)."
+    },
+    {
+     "what": "the h=4 coefficients (-443520, -604800) reproduce B604's banked values",
+     "where": "charge_table_output.txt line 5 vs B604's rosetta_output.txt line 12",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "cross-check confirmed: -443520*o1 + -604800*o2 in both arcs' outputs, verifying internal consistency across two independently-run scripts sharing the same underlying l51 machinery."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This script is essentially a re-run/extension of B604's rosetta_blocks.py (near-identical code structure) with an added charge-labeling layer; not an independently-designed re-derivation but does reproduce B604's numbers as an internal cross-check.",
+   "absence_claims": [
+    {
+     "quote": "the θ-odd (hearing) sector admits NO subsystem/coset grading anywhere except the two extremal spinor tips",
+     "where": "frontier/B607_charge_table/FINDINGS.md:30-31"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A solid exact-computation extension of B604 with a genuine cross-check reproducing shared numbers; the gauge/matter (bicharge) framing is explicitly firewalled as interpretation in the arc's own header, which is good discipline given the SU(5)/Spin(10)-suggestive language."
+  },
+  {
+   "arc": "B608_rosetta_gsm",
+   "source": "main",
+   "files_read": [
+    "frontier/B608_rosetta_gsm/FINDINGS.md",
+    "frontier/B608_rosetta_gsm/arc_verdict.json",
+    "frontier/B608_rosetta_gsm/LISTENING_CAMPAIGN_ADJUDICATED.md",
+    "frontier/B608_rosetta_gsm/rosetta_gsm.py (referenced structure identical to B604/B607 pattern; output examined)",
+    "frontier/B608_rosetta_gsm/rosetta_gsm_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'The E6 Rosetta table exists only in mixed form: 9 of the 12 odd-block pair-combos weld roots from different G_SM classes, with the weight-16 tips the unique class-pure (1,1,2) anchors.'; status: PROVED",
+   "log_says": "THE LISTENING CAMPAIGN registered (adjudicated); B608: the Rosetta Table banked — GATE G1 OPEN; C2 the 36-root census (classes product-consistent), C3 nine of twelve theta-odd pair-combos are CLASS-MIXED at the root level.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "C2: 36 positive roots census into 12 G_SM classes (su(3)=3, su(2)=1, charged classes sizes in {1,2,3,6})",
+     "where": "rosetta_gsm_output.txt lines 6-20",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "printed exact census with a PASS gate matching expected totals."
+    },
+    {
+     "what": "C3: 9 of 12 odd pair-combos are CLASS-MIXED at the root level (welding su3-root|su2-root and su3-root|charged-multiplet)",
+     "where": "rosetta_gsm_output.txt lines 22-32",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "printed exact per-pair class labels with a PASS gate on the total count (26 accounted); the arc's own text notes one accounting iteration had a double-counting bug caught and fixed in git history — a self-correction, not a hidden error."
+    },
+    {
+     "what": "the declared chain E6 ⊃ D5×U(1) ⊃ A4×U(1) ⊃ su(3)+su(2)+U(1)_Y, i.e. the SM gauge group as a subalgebra reduction",
+     "where": "FINDINGS.md lines 9-14",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes",
+     "why": "the group-theoretic branching itself (E6 to SU(5)-like subgroups) is standard Lie theory, computed here as an explicit node-deletion labeling from the Cartan matrix; the labeling of which nodes correspond to su(3)/su(2)/U(1)_Y is asserted by node-choice convention (declared, not derived from any physical requirement) — an IDENTIFICATION_BY_TYPE risk given the su(3)+su(2)+U(1) structural match to the SM gauge group."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Same l51-based machinery pattern as B604/B607, extended with G_SM class labels; internal cross-checks (C1-C3 gates) function as its own verification layer rather than an independent second pipeline.",
+   "absence_claims": [
+    {
+     "quote": "No single-torsion ↔ single-coupling identification exists even as a hypothesis.",
+     "where": "frontier/B608_rosetta_gsm/LISTENING_CAMPAIGN_ADJUDICATED.md:26"
+    },
+    {
+     "quote": "the Rosetta Stone exists only in MIXED form",
+     "where": "frontier/B608_rosetta_gsm/FINDINGS.md:45"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The chain E6 ⊃ D5×U(1) ⊃ A4×U(1) ⊃ su(3)+su(2)+U(1)_Y is labeled using exactly the SM gauge-group names (su(3), su(2), U(1)_Y); this labeling is a licence to ask whether the object's structure matches the Standard Model, not evidence that it does, since the arc's own firewall statement concedes 'the gauge/matter reading stays firewalled as interpretation.'",
+     "where": "frontier/B608_rosetta_gsm/FINDINGS.md:3-4,9-14"
+    }
+   ],
+   "seat_note": "The arithmetic (root census, class-mixing counts) is exact and well-gated, but the SM-suggestive naming of the subalgebra chain is doing real rhetorical work even though the arc explicitly disclaims any SM identification; a reader should treat 'su(3)+su(2)+U(1)_Y' here as a labeling convention, not a physics result, and the arc itself agrees."
+  },
+  {
+   "arc": "B609_sealed_values",
+   "source": "main",
+   "files_read": [
+    "frontier/B609_sealed_values/FINDINGS.md",
+    "frontier/B609_sealed_values/arc_verdict.json",
+    "frontier/B609_sealed_values/B609_PREREG.md",
+    "frontier/B609_sealed_values/SEALED_VALUE_TABLE.md",
+    "frontier/B609_sealed_values/b609_e1_fractions.py (grep def/assert)",
+    "frontier/B609_sealed_values/b609_e3_spectra.py (grep def/assert)",
+    "frontier/B609_sealed_values/e1_output.txt (referenced via SEALED_VALUE_TABLE.md summary)",
+    "frontier/B609_sealed_values/e3_output.txt (referenced via SEALED_VALUE_TABLE.md summary)"
+   ],
+   "files_sampled": [
+    "frontier/B609_sealed_values/b609_e1_fractions.py (grep only, not full read)",
+    "frontier/B609_sealed_values/b609_e3_spectra.py (grep only, not full read)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'The Phase-2 sealed value table is banked: exact Killing-class mixing fractions, hearing amplitudes and finite-order kappa spectra, hashed before any comparison exists.'; status: PROVED; instrument: true",
+   "log_says": "B609 (Phase 2): THE SEALED VALUE TABLE banked — gate G2 open; E1 exact Killing-class mixing fractions (V4's top exactly uniform 1/4x4 etc.); E3 new spectra at kappa=7,13 with integer palindromic char polys; all gates green. Note: B609's exploratory unit-modulus note later superseded by B611 per REVIEW 19 / B611 log entry.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "E1: exact Killing-class mixing fractions for all 12 odd lines (e.g. V4 top uniform 1/4 x4; V8 tip pure (1,1,2))",
+     "where": "SEALED_VALUE_TABLE.md lines 8-22; b609_e1_fractions.py (exact Fraction arithmetic, E1-a/E1-b gates)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact rational fractions with explicit sum-to-1 and tip-purity gates asserted in the committed script."
+    },
+    {
+     "what": "E3: new spectra at κ=7 (8th roots of unity minus ±1) and κ=13 (30 eigenvalues on 28th-root angles, integer palindromic char poly)",
+     "where": "SEALED_VALUE_TABLE.md lines 43-50; b609_e3_spectra.py (numpy eigenvalue computation, 1e-9 tolerance, conjugation-closure gate)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed numerically (float, 1e-9) with the integer char-poly coefficients verified to that tolerance; not an exact algebraic certificate but a well-gated numeric one."
+    },
+    {
+     "what": "the 'finite-order off golden' exploratory note (odd hearing form appears unit-modulus/finite-order at κ=4,7,13, non-unitary only at golden multiples)",
+     "where": "FINDINGS.md lines 32-38; SEALED_VALUE_TABLE.md lines 60-66",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicitly labeled 'Exploratory (no Phase-2 status)' by the arc itself, but per the log/REVIEW 19 entry this specific unit-modulus note was later found to conflate the listener's matrix element with the spectrum and was SUPERSEDED by B611; this arc's own FINDINGS.md and SEALED_VALUE_TABLE.md, as read, still carry the unsuperseded exploratory claim without a visible correction note in the files sampled by this seat."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Single sealed run under a hashed prereg (E1/E3 in parallel); no separate independent re-derivation directory present.",
+   "absence_claims": [
+    {
+     "quote": "the Killing-class fractions have NEVER been computed (E1 is genuinely new)",
+     "where": "frontier/B609_sealed_values/B609_PREREG.md:57-58"
+    },
+    {
+     "quote": "the κ=7/13 spectra are unknown (only their traces are banked...)",
+     "where": "frontier/B609_sealed_values/B609_PREREG.md:59-60"
+    },
+    {
+     "quote": "no channel↔line map was ever sealed beyond golden",
+     "where": "frontier/B609_sealed_values/SEALED_VALUE_TABLE.md:32"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "The B601 log_index entry for B611 states: 'B609's exploratory note conflated the listener's matrix element with the spectrum (superseded; sealed values untouched)' and REVIEW 19 confirms 'B609's exploratory unit-modulus note superseded by B611'. The files this seat read for B609 (FINDINGS.md, SEALED_VALUE_TABLE.md) still present the 'finite-order off golden ... law-candidate' exploratory claim without any visible correction/addendum pointing to B611 inside B609's own directory as sampled.",
+     "where": "frontier/B609_sealed_values/FINDINGS.md:32-38 (uncorrected in this arc's own files) vs the B601/B609 log_index entries citing B611's correction"
+    }
+   ],
+   "seat_note": "The sealed core values (E1 exact fractions, E3 numeric spectra with gates) are solid and well-hashed, but this arc's own exploratory unit-modulus note was later found wrong and superseded by B611 per the progress log, and that correction is not visible inside B609's own committed files as read by this seat -- a reader of B609 alone would not know its exploratory claim was retracted."
+  }
+ ]
+}

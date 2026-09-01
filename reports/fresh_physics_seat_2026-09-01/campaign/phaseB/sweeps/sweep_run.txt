@@ -17,3 +17,7 @@
 400/545  leads so far 263
 425/545  leads so far 282
 450/545  leads so far 301
+475/545  leads so far 316
+500/545  leads so far 336
+525/545  leads so far 353
+done: 545 claims, 367 leads

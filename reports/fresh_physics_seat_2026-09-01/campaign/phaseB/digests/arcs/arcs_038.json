@@ -1,0 +1,226 @@
+{
+"batch": "arcs_038",
+"arcs": [
+{
+"arc": "B629_interaction_values",
+"source": "main",
+"files_read": [
+"frontier/B629_interaction_values/FINDINGS.md",
+"frontier/B629_interaction_values/SEALED_INTERACTION_VALUES.md",
+"frontier/B629_interaction_values/arc_verdict.json",
+"frontier/B629_interaction_values/composites.py",
+"frontier/B629_interaction_values/composites2.py",
+"frontier/B629_interaction_values/exact_hearing.py",
+"frontier/B629_interaction_values/hp_hearing.py",
+"frontier/B629_interaction_values/run_sm_rge.py"
+],
+"files_sampled": [],
+"files_listed_only": ["frontier/B629_interaction_values/B_matrix.pkl", "frontier/B629_interaction_values/all_matrices.pkl"],
+"claim_of_record": "PROVED — \"The interaction-layer value bank: values sealed by hash, with NO comparison of any kind performed in this arc.\"",
+"log_says": "The interaction-round directive registered as binding: exactly ONE new comparison is authorized downstream (B630/B631); this arc only banks values (framework matrix B, golden 2x2 frame, composite inventory, RGE targets); two proposals (composite curve-fitting, object-scale re-running) explicitly DEFERRED.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "B (3x3 E6-level-2 odd hearing form) exactly unitary, eigenvalues {i,-i,-1}, closed form B_ij = A_k*zeta14^m", "where": "hp_hearing.py output, SEALED_INTERACTION_VALUES.md §1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "hp_hearing.py is committed, self-contained (mpmath+sympy, exact W(E6) integer data), runs and reproduces the printed 50-digit table and gate checks; test_b629_interaction_values.py exists as an independent recompute lock"},
+{"what": "B_odd(kappa=5) closed form, theta_frame = arctan(1/phi) exactly, |V21|^2=|h3|^2 identity, kappa=10 is 16x16 not 8x8", "where": "exact_hearing.py, SEALED_INTERACTION_VALUES.md §2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact_hearing.py is committed and self-contained (mpmath 80dps), correctly computes su3_data/odd_form and prints all quoted values"},
+{"what": "Composite inventory (~40 exact Rosetta-weighted values)", "where": "composites.py/composites2.py, SEALED_INTERACTION_VALUES.md §3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy scripts are committed and reproduce the exact fractions; explicitly sealed NOT-FOR-COMPARISON pending a structural derivation of which composition maps to which observable"},
+{"what": "Object-scale coupling RGE targets at Lambda_A/Lambda_B/mu_ref (PDG-2024 inputs, 1-loop and 2-loop running)", "where": "run_sm_rge.py, SEALED_INTERACTION_VALUES.md §4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "run_sm_rge.py is a self-contained RK4 integrator using hardcoded PDG-2024 central values (alpha_em, sin2thW, alpha_s) as literal floats, not fetched from any external source file — the PDG values themselves are ASSERTED (typed in) rather than pulled from a committed data file, though the running itself is genuinely computed"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "In-loop verification via tests/test_b629_interaction_values.py recomputes closed forms independently from sympy/mpmath exact arithmetic (per FINDINGS.md); this is a real committed reproducer, not just a re-read.",
+"absence_claims": [
+{"quote": "the |B_ij|² table as a MATRIX was never sealed anywhere", "where": "SEALED_INTERACTION_VALUES.md, MB12 section"},
+{"quote": "the off-diagonal golden entries ... are all NEW (never banked)", "where": "SEALED_INTERACTION_VALUES.md, MB12 section"},
+{"quote": "no matrix-level comparison has ever been computed in this program", "where": "COMPARISON_DESIGN.md §7 (referenced/anticipated by B629's framing of the one authorized comparison)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "OTHER", "detail": "The composite inventory (§3) and RGE targets (§4) are explicitly frozen as NOT-FOR-COMPARISON with no observable claimed here; this is disciplined but means this arc's SM-relevant content is entirely deferred/withheld pending future preregistrations that may never come.", "where": "SEALED_INTERACTION_VALUES.md §3, §4"}
+],
+"seat_note": "This is a genuinely computed, well-disciplined value-banking arc (exact closed forms with committed reproducers and a real recompute test) that explicitly refuses to draw any physics conclusion — the one open question is whether the deferred composite/RGE comparisons (§3/§4) will ever be run under a principled design, since as banked they carry no observable content."
+},
+{
+"arc": "B630_matrix_comparison_design",
+"source": "main",
+"files_read": ["frontier/B630_matrix_comparison_design/COMPARISON_DESIGN.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "no verdict file (no FINDINGS.md/arc_verdict.json; this arc is a preregistered design document only)",
+"log_says": "The one authorized comparison's design sealed AFTER the values (B629) and BEFORE any distance exists anywhere: source frozen = PDG 2024, alignment rule = min over 72 configurations, verdict statistic = min-alignment RMS with a 10^6-sample Haar-U(3) null (seed 20260715), locked verdict table (p thresholds).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "The design itself (source freeze, alignment rule, distance metric, null model, verdict table) — a protocol, not a numeric result", "where": "COMPARISON_DESIGN.md §0-§5", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "This is a preregistration document (methodology committed before any run); its content is a design choice, not a computation to reproduce — B631 is where the design is executed and hash-verified against this file"}
+],
+"belt": "NONE",
+"belt_note": "Pure design/preregistration document; no code or witness in this arc directory (the run happens in B631, which hash-verifies this file).",
+"absence_claims": [
+{"quote": "no matrix-level comparison has ever been computed in this program", "where": "COMPARISON_DESIGN.md §7 MB12 (\"Non-trivial\")"},
+{"quote": "D_obs is genuinely unknown at sealing (no distance has been evaluated...)", "where": "COMPARISON_DESIGN.md §7"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A disciplined preregistration (sealed before any distance existed, hash-gated in the follow-on run) — exactly the kind of pre-commitment that makes the subsequent B631 negative result credible rather than post-hoc."
+},
+{
+"arc": "B631_matrix_comparison",
+"source": "main",
+"files_read": [
+"frontier/B631_matrix_comparison/FINDINGS.md",
+"frontier/B631_matrix_comparison/MB13_RETRO_SWEEP.md",
+"frontier/B631_matrix_comparison/arc_verdict.json",
+"frontier/B631_matrix_comparison/b631_controls.py",
+"frontier/B631_matrix_comparison/b631_run.py",
+"frontier/B631_matrix_comparison/controls_output.txt",
+"frontier/B631_matrix_comparison/run_output.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — \"The 3x3 odd hearing form does not match PMNS at the 1% tier: 0/9 entries within 0.01, D = 0.134, Haar null p = 0.70.\"",
+"log_says": "D_obs = 0.13407 (min over 72 alignments), Haar-U(3) null (10^6 samples, seed 20260715) median 0.10218 — the object's circulant is FARTHER from the measured mixing table than a typical random unitary's; p_D = 0.700; 0/9 entries within 0.01 (null expects 0.77); robust across NuFIT-proxy table and delta_CP scan.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "D_obs = 0.13407059, p_D = 0.700004, 0/9 matches at both tiers", "where": "run_output.txt, b631_run.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "b631_run.py is committed, self-contained (numpy), hash-verifies both upstream seals before computing, and produces run_output.txt matching the FINDINGS.md numbers exactly; test_b631_matrix_comparison.py locks fast (seals+D_obs+0/9) and OA_SLOW (full seeded null reproduction)"},
+{"what": "Pipeline controls: C1 self-match D=0, C2 near-match power test (eps=0.02 -> p=0.00027), C3 Haar sampler matches Beta(1,2), C4 seed robustness, C5 loop-vs-vectorized consistency", "where": "controls_output.txt, b631_controls.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Committed self-contained script; genuinely demonstrates the null is discriminating (not a broken-pipeline vacuous zero) via an explicit positive-control detection at eps=0.02"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "test_b631_matrix_comparison.py re-runs the sealed computation (fast tier: seals+D_obs+0/9 counts; OA_SLOW: full 10^6-sample null reproduced exactly) — genuine independent recompute, not just a re-read.",
+"absence_claims": [
+{"quote": "no prior arc compared any object 3x3 moduli table to |U_PMNS|² — the held-out claim SURVIVES", "where": "MB13_RETRO_SWEEP.md, \"What the sweep found\""},
+{"quote": "No collision on the matrix-level comparison itself ... no prior arctan(1/φ) frame angle, no prior Latin-square/circulant closed form, no prior object-scale running (greps empty)", "where": "MB13_RETRO_SWEEP.md, \"What the sweep found\""}
+],
+"physics_content": "OBSERVABLE",
+"red_flags": [
+{"kind": "OTHER", "detail": "The addendum discloses that the MB13 retro-sweep (a required guard checking for prior related comparisons) was SKIPPED at initial sealing and only run retroactively after the owner flagged it — the design (B630) was sealed without this check even though the house standard required it before any prereg.", "where": "FINDINGS.md ADDENDUM point 2; MB13_RETRO_SWEEP.md \"The lapse\""}
+],
+"seat_note": "This is a clean, well-controlled negative result — the null hypothesis test is powered (demonstrated via an explicit positive control), the design was locked before the distance was computed, and the outcome (p=0.70, farther from PMNS than a typical random unitary) is honestly reported as STRUCTURED-NULL with a real stopping rule invoked."
+},
+{
+"arc": "B632_cubic_route",
+"source": "main",
+"files_read": [
+"frontier/B632_cubic_route/CELL2_PREREGISTRATION.md",
+"frontier/B632_cubic_route/FAILED_RUN_1.txt",
+"frontier/B632_cubic_route/FAILED_RUN_2.txt",
+"frontier/B632_cubic_route/FINDINGS.md",
+"frontier/B632_cubic_route/PREREGISTRATION.md",
+"frontier/B632_cubic_route/REPAIR_ADJUDICATION.md",
+"frontier/B632_cubic_route/arc_verdict.json",
+"frontier/B632_cubic_route/cell1_output.txt",
+"frontier/B632_cubic_route/cell2_output.txt",
+"frontier/B632_cubic_route/cell2_texture.py",
+"frontier/B632_cubic_route/h1_27_generations.py",
+"frontier/B632_cubic_route/verify_cell2_exhaustive.py"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"h¹(M;27_ρ)=3 exactly over ℚ(ω): a graded three-slot cohomological generation structure (spins 0,4,8) plus a canonical invariant vev.\"",
+"log_says": "Cell 1: h1(M;27)=3, THREE-generation cohomological multiplicity EXISTS (B308's gate opens). Cell 2: C unique, vev couples to all three slots, solo texture antisymmetric; corrected by external audit to Omega rank-2/kernel-1 (not 'full'); v0 relabeled 'invariant-section generator' not 'forced vev'; three H1 summands relabeled 'three inequivalent local-system modes' not 'generation slots' (explicitly: 'three copies of one representation is exactly what this is NOT').",
+"log_consistency": "DRIFT",
+"load_bearing": [
+{"what": "h^1(M;27_rho) = 3 (principal-sl2 decomposition 27=V(16)+V(8)+V(0); direct Fox calculus; block cross-check agrees)", "where": "h1_27_generations.py, cell1_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "h1_27_generations.py is committed, self-contained, exact arithmetic over Q(omega), reproduces cell1_output.txt including the Euler-characteristic gate PASS; tests/test_b632_h1_27.py locks it"},
+{"what": "The unique cubic invariant C (45 nonzero coefficients), B_C block-diagonal with c0,c4,c8 all nonzero, Omega rank 2 / kernel 1 (corrected from initial 'full antisymmetric' claim)", "where": "cell2_texture.py, cell2_output.txt, verify_cell2_exhaustive.py, REPAIR_ADJUDICATION.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cell2_texture.py is committed and reproduces the corrected cell2_output.txt; verify_cell2_exhaustive.py is a second, independently-coded exhaustive verifier (162/162 coboundary descent checks) adopted from the external audit seat and committed as the lock"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "verify_cell2_exhaustive.py is a genuinely independent, separately-coded re-derivation (not just a re-run of the same code) that caught and forced correction of an overstatement ('full antisymmetric' -> 'rank 2/kernel 1'); this is a strong belt example.",
+"absence_claims": [
+{"quote": "no arc has ever computed (i) the principal-sl2 decomposition of the 27 AS A LOCAL SYSTEM ... (ii) h¹(M; 27_ρ), (iii) the cup-product cubic texture on H¹(27)", "where": "PREREGISTRATION.md, MB13 sweep section"},
+{"quote": "C has never been built in any repo basis; Ω never computed anywhere", "where": "CELL2_PREREGISTRATION.md, MB12 section"},
+{"quote": "the 27-valued one is new; grep clean", "where": "CELL2_PREREGISTRATION.md, item 3 (Omega description)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's claim_one_line still reads 'a graded three-slot cohomological generation structure ... plus a canonical invariant vev' — but REPAIR_ADJUDICATION.md (in the same arc, same day) explicitly retracted this exact language: v0 relabeled from 'forced vev' to 'invariant-section generator' ('nothing selects it dynamically'), and the three H1 summands relabeled from 'generation slots'/'generation structure' to 'three inequivalent local-system modes' ('three copies of one representation is exactly what this is NOT — the physics-type check is open, not implied'). The verdict file was never updated to match the correction.", "where": "arc_verdict.json claim_one_line vs REPAIR_ADJUDICATION.md relabelings section"},
+{"kind": "RETRACTION_NOT_PROPAGATED", "detail": "FINDINGS.md's own cell-2 section header still says 'THE VEV COUPLES TO ALL THREE SLOTS' and 'the forced vev' language predates the CORRECTIONS section appended below it; a reader stopping at the cell-2 section (before the CORRECTIONS block) gets the superseded framing.", "where": "FINDINGS.md, cell-2 section header vs CORRECTIONS section at end of same file"},
+{"kind": "OTHER", "detail": "The first cell-2 run (FAILED_RUN_2.txt) silently overwrote a transcript that had recorded gate FAILUREs before repair — an audit-flagged hygiene defect (transcripts should never be overwritten); the corrected code's hash was also appended post-hoc rather than before the corrected run, violating the arc's own hash-before-rerun standard.", "where": "REPAIR_ADJUDICATION.md, items 2-3 and \"Process lessons banked\""}
+],
+"seat_note": "The underlying mathematics (h1=3, the cubic invariant, the alternating Omega of rank 2) appears genuinely computed with real independent verification, but the physics-facing framing in the arc_verdict.json and FINDINGS.md's own section headers still uses language ('generation structure', 'forced vev') that the arc's own later correction explicitly disowns as overstated — a stranger reading only the verdict file would get the retracted claim."
+},
+{
+"arc": "B633_b615r_integration",
+"source": "main",
+"files_read": [
+"frontier/B633_b615r_integration/DESIGN.md",
+"frontier/B633_b615r_integration/FINDINGS.md",
+"frontier/B633_b615r_integration/PACKET.md",
+"frontier/B633_b615r_integration/SEAL.txt",
+"frontier/B633_b615r_integration/arc_verdict.json",
+"frontier/B633_b615r_integration/run_b615r.py",
+"frontier/B633_b615r_integration/outputs/RUN_OUTPUT.txt"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — \"On scheme-stated, uncertainty-correct inputs the last SM residual dissolves (p = 0.078 becomes 0.145-0.62): every SM-facing comparison is null.\"",
+"log_says": "B633: B615-R integrated (VERDICT A — the last SM residual DISSOLVES); two seats converged from opposite directions.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Headline p_final = 0.1450 (variant c: new centrals + width correction), sensitivities c2=0.3152, c3=0.1450", "where": "outputs/RUN_OUTPUT.txt, run_b615r.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "run_b615r.py is committed and self-contained (Poisson-binomial exact tails, Sidak correction over grids); reproduces outputs/RUN_OUTPUT.txt exactly including all five variants (a,b,c,c2,c3); tests/test_b633_b634.py reruns it as a lock"},
+{"what": "The 217-pair object-side inventory itself (the numbers being tested against SM targets)", "where": "run_b615r.py (copied verbatim from b615_comparison.py per DESIGN.md)", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "DESIGN.md states the object-side inventory is 'copied verbatim from the in-repo b615_comparison.py' — this arc did not independently recompute those object values, it imported the prior arc's inventory and only changed the measured-target side (centrals/uncertainties/schemes)"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Independently-hashed runner (SEAL.txt hashes DESIGN.md and run_b615r.py before running); this seat's FINDINGS.md states an independent rerun reproduced the headline exactly; tests/test_b633_b634.py locks the rerun.",
+"absence_claims": [
+{"quote": "Neither statement has been a computation. This cell computes it.", "where": "DESIGN.md, \"The question\" section (re: the claim that uncertainty-awareness weakens significance, and that the result 'dissolves under NuFIT centrals' — both previously asserted, not computed)"}
+],
+"physics_content": "OBSERVABLE",
+"red_flags": [
+{"kind": "OTHER", "detail": "The remaining near-miss (sin^2 theta_12 vs 1/(2phi), 0.03 sigma) is explicitly and honestly priced as not evidential because the same +/-1 sigma window also contains four other candidate fractions from the program's own inventory (4/13, 8/25, 3/10, 225/692) — a good example of the arc correctly discounting a coincidence rather than banking it.", "where": "FINDINGS.md, \"The golden coincidence, priced honestly\" (implicit in PACKET.md's identical passage)"}
+],
+"seat_note": "A methodologically careful re-analysis (seat 4's advisory packet, verified in-sandbox by the main seat via independent hash-check and rerun) that correctly walks back an ambiguous prior result by fixing real defects (mixed schemes/scales, missing uncertainties) rather than by re-testing new data — this is exactly the kind of self-correction the campaign should reward, though the underlying 217-pair object inventory itself was inherited, not rebuilt, in this arc."
+},
+{
+"arc": "B634_conductor_chord",
+"source": "main",
+"files_read": [
+"frontier/B634_conductor_chord/ARTIFACT_HASHES.txt",
+"frontier/B634_conductor_chord/ERRATUM_1.md",
+"frontier/B634_conductor_chord/PREREGISTRATION.md",
+"frontier/B634_conductor_chord/g1_conductor_identities.py"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "no verdict file (no FINDINGS.md/arc_verdict.json present — this arc is a preregistration whose gates G2-G5 were superseded by its own erratum and never executed; only gate G1 was completed and its identities carried forward into other arcs, e.g. B635/B637)",
+"log_says": "B634 gates locked: G1 (conductor identities, computed exact: det(A1+I)=5=tr^2-4, H1(-A1 bundle)=Z+Z/5) PASS; G2-G5 (gluing existence, generation count on the double, the Yukawa table, the conductor read) queued but never run before ERRATUM_1 superseded them — 'the closed manifold restores permutation symmetry' (G4's premise) was found mathematically FALSE by graded commutativity, and the corrected target work moved to B637's prereg.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "det(A1+I)=5=tr^2-4; det(A1-I)=-1; SNF(A1+I)=diag(1,5) => H1(-A1 bundle)=Z+Z/5", "where": "g1_conductor_identities.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "g1_conductor_identities.py is committed, self-contained (sympy), asserts and prints exactly the quoted identities; ERRATUM_1.md confirms 'G1 (the conductor identities) STANDS as computed'"},
+{"what": "'The conductor selects kappa=5' (the working-principle framing)", "where": "PREREGISTRATION.md, \"THE WORKING PRINCIPLE\" section", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "ERRATUM_1.md explicitly corrects this: the banked law is only that the conductor GATES 5|kappa; kappa=5 itself is 'THE MINIMAL BEARING CHOICE, not a derived equality' — four proof obligations to upgrade choice to theorem were left open (registered as OPEN_LEADS L91), i.e. the headline framing of the prereg was walked back same-arc"}
+],
+"belt": "NONE",
+"belt_note": "g1_conductor_identities.py is a trivial sympy assertion script for G1 only; the more substantial gates (G2-G5) were never run in this arc (superseded before execution), so there is no belt for the arc's central ambition.",
+"absence_claims": [
+{"quote": "the boundary-double's cohomology: never computed (B580 G1 registered the mirror-double as the forced coupling; no H¹(D(M); ·) computation exists)", "where": "PREREGISTRATION.md, MB13 section"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "The prereg's central claim ('THE MIRROR IS THE SECOND AXIOM ... the mirror-twist's torsion conductor selects the stage: kappa=5 forced') is corrected by ERRATUM_1 in the same arc directory to a weaker claim (5 divides kappa is a gate; kappa=5 is a choice, not a forced equality) — but because there is no FINDINGS.md/arc_verdict.json for this arc, the uncorrected framing is what appears in the progress-log entry that opened the arc (PROGRESS_LOG.md 2026-07-15), and a reader of the log alone would carry the stronger, since-retracted claim.", "where": "PREREGISTRATION.md \"THE WORKING PRINCIPLE\" vs ERRATUM_1.md point 2"},
+{"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "G4's premise ('the closed manifold restores permutation symmetry [for the Yukawa]') was asserted in the prereg as an expected outcome but is mathematically false by graded commutativity (Koszul sign rule) on any closed oriented 3-manifold — caught before any G2-G5 computation ran, per ERRATUM_1 point 3.", "where": "PREREGISTRATION.md gate G4 vs ERRATUM_1.md point 3"}
+],
+"seat_note": "This arc is essentially a withdrawn hypothesis: only the trivial G1 identity (det(A1+I)=5) survived contact with review, while the arc's actual thesis (the mirror-double carries a forced, SM-relevant Yukawa texture at the golden stage) was retracted same-day by its own erratum and rerouted to B637 — a reader should treat B634 as superseded scaffolding, not a result."
+},
+{
+"arc": "B635_audit_integration",
+"source": "main",
+"files_read": ["frontier/B635_audit_integration/FINDINGS.md", "frontier/B635_audit_integration/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — \"The audit seat's computations were reproduced in-sandbox (all gates pass, 162/162 coboundary descents, h1(D;27)=2 at the full-E6 bends, the -A1 weld fails to descend) and every cross-seat packet verified on receipt.\"",
+"log_says": "The read-only audit's stop/go landed and EVERY load-bearing claim was verified in-sandbox before banking: exhaustive cell-2 verifier reproduces (Omega rank 2, kernel 1 — 'full' wording corrected); twisted-M-V table reproduces exactly (h1(D;27)=2 at full-E6 bends m=4,8 => the proposed closed triple is identically ZERO on the actual chiral weld); the -A1 weld FAILS peripheral compatibility.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "'verify_cell2_exhaustive.py ... ALL GATES PASS ... 162/162 exhaustive coboundary descents'", "where": "FINDINGS.md, \"The audit's computations, reproduced in-sandbox\"", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "The actual reproducer script (verify_cell2_exhaustive.py) is committed in the B632 directory, not B635 itself — B635 asserts it was rerun 'in-sandbox' but this arc's own directory contains no script or output file of its own; the claim depends entirely on B632's committed artifact"},
+{"what": "'The twisted Mayer-Vietoris reproducer: the dimension table reproduced exactly'", "where": "FINDINGS.md, \"The audit's computations, reproduced in-sandbox\"", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "No script or output file for this reproduction is committed anywhere in B635_audit_integration/ (the directory contains only FINDINGS.md and arc_verdict.json); the h1(D;27)=2 table is asserted as reproduced but the reproducing code is not in this arc and was not located among B635's files"}
+],
+"belt": "RE-READS",
+"belt_note": "B635 is a synthesis/integration arc with no code or witness files of its own (files_read = FINDINGS.md + arc_verdict.json only); its 'reproduced in-sandbox' claims lean entirely on scripts committed under other arcs (B632) or on external audit output not itself present in this directory.",
+"absence_claims": [
+{"quote": "no prior arctan(1/φ) frame angle, no prior Latin-square/circulant closed form, no prior object-scale running (greps empty)", "where": "referenced from B631's MB13_RETRO_SWEEP.md, restated/adjudicated in B635's item 5 discussion of the B631 structured-null"},
+{"quote": "the ℤ⊕ℤ/5 belongs to the Sol bundle M_Sol(−A₁), not to any complement double", "where": "FINDINGS.md, \"The audit's structural verdicts\" item 1 (implicitly an absence/correction claim about where the torsion does NOT live)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "This arc's directory (frontier/B635_audit_integration/) contains only FINDINGS.md and arc_verdict.json — no script, no output file, no test — for an arc whose central claim is 'every load-bearing claim was verified in-sandbox before banking.' The verification witnesses that do exist (verify_cell2_exhaustive.py) live under B632, not here, and no test file (tests/test_b635*.py) exists at all.", "where": "frontier/B635_audit_integration/ directory listing; absent tests/test_b635_*.py"},
+{"kind": "NO_TEST", "detail": "No committed test file references B635 (searched tests/ for b635; none found), unlike sibling arcs in this batch (B629, B631, B632, B633 all have dedicated or shared test files).", "where": "tests/ (absence)"}
+],
+"seat_note": "This arc functions as a narrative ledger entry consolidating claims verified elsewhere (mainly B632's exhaustive verifier and an external audit's Mayer-Vietoris table) rather than as an independent computation in its own right; its PROVED verdict rests on witnesses this seat could not locate inside B635's own directory."
+}
+]
+}
