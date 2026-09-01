@@ -77,3 +77,15 @@ shape and then confirmed against the cert; conjugacy of root-sl₂'s in e₆ mak
 
 - `r22_chain.py` / `r22_chain.out` — everything above, one run (~11 s).
 - Nothing outside this directory was modified. Gate 5: no measured SM values used anywhere.
+
+## ADDENDUM (2026-09-01, later the same day) — the "ℚ-exact / third-prime" gap of R3_REPORT §3 is closed
+
+Three further primes (`r22_chain_third_prime.py`, output `r22_third_prime.out.txt`): mod 2147483647, mod 1000003,
+mod 65537 the direct 19710×16470 system has rank **9855 → dim Inv = 6615** each time (8.8 s). Five primes now agree.
+
+Why no ℚ-exact elimination is needed for exactness: the matrix has integer entries, so for every prime
+rank_p ≤ rank_ℚ, hence dim_ℚ(null) ≤ 16470 − 9855 = 6615; and the exact sl₂ Clebsch–Gordan count (item (i) of the
+table, computed over ℚ from the decomposition Ψ = 6V₂+15V₁+6V₀, 27 = 6V₁+15V₀) gives dim_ℂ(null) = 6615 exactly;
+dim over ℚ of the nullspace of a rational matrix equals its dim over ℂ. Two-sided bound ⇒ **dim_ℚ = 6615 exactly**.
+The modular runs are therefore confirmations, not the proof; the proof is the bound plus the exact count. Verdict
+unchanged: MATCH.

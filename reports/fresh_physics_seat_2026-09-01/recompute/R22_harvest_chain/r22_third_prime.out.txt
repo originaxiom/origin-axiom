@@ -1,0 +1,31 @@
+cubic monomials in I: 45  coeffs: [-1, 1]
+stabilizer system: (2475, 729)
+dim stabilizer of I in gl(27) = 78  (expect 78 = dim e6)   t=1.3s
+su(3)^3 (24) sits inside the 78-dim stabilizer: OK
+weight-zero ORDERED triples in 27^3: 270  (banked 270); with repeats: 0
+Inv_{su3^3}(27 x 27 x 27) full ordered tensor : dim = 9
+Inv_{e6}   (27 x 27 x 27) full ordered tensor : dim = 1
+Inv_{su3^3}(Sym^3 27), 45 unordered triples   : dim = 4
+Inv_{e6}   (Sym^3 27)                          : dim = 1
+e6 full-tensor survivor automatically symmetric: True ; support 270 / 270 ; coefficient set [-1, 1]
+survivor / I ratio set (should be a single scalar): {1}  ; survivor support == support(I): True
+t=8.6s
+27 under the A1 (H-weights): {1: 6, -1: 6, 0: 15} => doublets: 6  singlets: 9
+   i.e. 27 = 6 x (2) + 15 x (1)   [B1145/B1148: 6 doublets + 15 singlets]
+Psi (54) H-weights: {2: 6, 0: 12, 1: 15, -2: 6, -1: 15}
+Psi =  {'V2': 6, 'V1': 15, 'V0': 6}  ; 27 = {'V1': 6, 'V0': 15}
+CHARACTER count dim Inv_{sl2}(Psi x Psi x 27) = 6615   (banked 6615)
+H-weight-zero unknowns in Psi x Psi x 27: 16470  of 78732
+equations: 19710  unknowns: 16470
+DIRECT full-tensor nullspace mod 2147483647 : rank 9855 -> dim Inv = 6615   (banked 6615)   t=8.8s
+DIRECT full-tensor nullspace mod 1000003 : rank 9855 -> dim Inv = 6615   (banked 6615)   t=8.8s
+DIRECT full-tensor nullspace mod 65537 : rank 9855 -> dim Inv = 6615   (banked 6615)   t=8.8s
+block-exact totals: pi_1(figure-eight holonomy) = 6615 ; 2T = 6615 ; sl2 = 6615
+control: Inv in V6 -- 2T 1 vs sl2 0 (the finite image WOULD differ at spin 3; our blocks stop at spin 5/2)
+su(3)^3: joint (pi_1/sl2 + gauge) DIRECT nullspace on Psi x Psi x 27: unknowns 540, eqs 6300 -> dim 9
+e6: joint (pi_1/sl2 + gauge) DIRECT nullspace on Psi x Psi x 27: unknowns 540, eqs 16020 -> dim 1
+e6 survivor antisymmetric under fermion (Psi<->Psi) exchange: True
+e6 survivor == eps (x) I (up to scale): True
+su(3)^3 joint survivors that are SYMMETRIC in the three 27 indices: 4  (memo-35-style Sym^3 count x eps)
+done t=11.8s
+exit=0
