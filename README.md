@@ -30,10 +30,17 @@ built explicitly over ℚ (B882, B904). A measurement cascade — proved to *be*
 Higgs mechanism, not merely analogous to one (B964) — carries E₆ down to a
 fourteen-dimensional, Standard-Model-shaped gauge algebra `su(3)⊕su(2)⊕u(1)³` — two
 steps from the SM's own twelve-dimensional algebra, not zero (`docs/SM_SPECIFICATION_LEDGER.md`
-§D1) — **derives** the global ℤ₆ form the
-Standard Model cannot fix about itself (B862), **derives** the hypercharge direction
+§D1) — **reproduces** the known global ℤ₆ form the
+Standard Model cannot fix about itself (B862; the kernel is path-independent and known
+since 1980 — B1221, Tong 1705.01853 for the ambiguity — the programme's part is supplying
+the content the kernel is computed from), **derives** the hypercharge direction
 (B864), and halts by a termination theorem at what is provably the terminal
-*registerable* — meaning the 27's generation structure survives — algebra (B863).
+*registerable* — meaning the 27's generation structure survives — algebra (B863; the
+criterion itself is the survival hypothesis of 1979–80 GUT theory — Georgi 1979,
+Barbieri–Nanopoulos 1980, theorem-grade in Fonseca 1504.03695 — so what is claimable is
+the terminality **plus** its rule-independence (B994), not the criterion). *(Corrected
+2026-09-01 — fresh-seat application of the owner's T4/T5 election; sources:
+reports/fresh_physics_seat_2026-09-01/campaign/)*
 
 **What the object will not do, by a run of theorems rather than a run of bad luck, is
 hand over a VALUE.** Seven sealed, powered comparisons against measured numbers have run

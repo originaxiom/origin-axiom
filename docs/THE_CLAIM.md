@@ -20,7 +20,7 @@ owner's directive: state the theorem we have, not the theory we lack.*
 > | output | grade | arc |
 > |---|---|---|
 > | the gauge algebra su(3)⊕su(2)⊕u(1)³, with u(1)³ **= span(Y, χ, ψ)** | **COMPUTED** | B892 · B992 |
-> | the **global form [SU(3)×SU(2)×U(1)]/ℤ₆** — *a choice the SM cannot make about itself* | **DERIVED** | B862 |
+> | the **global form [SU(3)×SU(2)×U(1)]/ℤ₆** — *a choice the SM cannot make about itself* *(regraded 2026-09-01: the kernel is a path-independent property of the (algebra, 27-content) pair and the answer is KNOWN — ℤ₆-given-SU(5) since 1980, Tong 1705.01853 for the ambiguity (B1221); the programme's contribution is upstream, in delivering the content the kernel is computed from — fresh-seat application of the owner's T4/T5 election; sources: reports/fresh_physics_seat_2026-09-01/campaign/)* | **REPRODUCED** *(was DERIVED)* | B862 · B1221 |
 > | the hypercharge **direction** (b = c = 0 forced; the normalisation impossible for everyone, by homogeneity) | **DERIVED / CLOSED** | B864 · B991 |
 > | termination of the cascade | **THEOREM** | B863 |
 > | endpoint **rule-independence** — all six registerable selection functions end at the SM | **THEOREM** | B994 |
