@@ -1,0 +1,59 @@
+========================================================================
+STEP 1: 27 of E6 under B861's four maximal options (u(1) stripped)
+  SO(10)xU(1) (alg dim 46)     dim= 27  chiral=True  [dim 27 OK]
+  SU(6)xSU(2) (alg dim 38)     dim= 27  chiral=True  [dim 27 OK]
+  Sp(8) (alg dim 36)           dim= 27  chiral=False  [dim 27 OK]
+  SU(3)^3 (alg dim 24)         dim= 27  chiral=True  [dim 27 OK]
+
+STEP 2: {16,10,1} of so(10) under the two options
+  SU(5)xU(1) (alg dim 25)      dim= 27  chiral=True  [dim 27 OK]
+  Pati-Salam (alg dim 21)      dim= 27  chiral=True  [dim 27 OK]
+
+STEP 3: 27-content at su(5) under the two options
+  SU(4)xU(1) (alg dim 16)      dim= 27  chiral=False  [dim 27 OK]
+  SM (alg dim 12)              dim= 27  chiral=True  [dim 27 OK]
+
+========================================================================
+B863 STEP 4: every proper descent of the SM (15-state generation)
+  control first: the SM itself on its own generation
+  SM (control)                 dim= 15  chiral=True  [dim 15 OK]
+  (a) su2->u1  [su3 left]      dim= 15  chiral=False  [dim 15 OK]
+  (b) su3->su2xu1 regular      dim= 15  chiral=False  [dim 15 OK]
+  (b') su3_1->su2_4 princ.     dim= 15  chiral=False  [dim 15 OK]
+  (c) abelianization           dim= 15  chiral=False  [dim 15 OK]
+  (a) multiset under su(3): {'su3.3': 2, 'su3.3b': 2, 'su3.1': 3}
+  (b') conformal check: emb index = 4  c(su3_1) = 2  c(su2_4) = 2  match: True
+
+  same four descents applied to the FULL 27-content at SM level:
+  (a) on 27                    dim= 27  chiral=False  [dim 27 OK]
+  (b) on 27                    dim= 27  chiral=False  [dim 27 OK]
+  (b') on 27                   dim= 27  chiral=False  [dim 27 OK]
+  (c) on 27                    dim= 27  chiral=False  [dim 27 OK]
+
+TERMINATION VERDICT: SM chiral=True; all four proper descents vector-like (both generation conventions): True
+
+========================================================================
+B994: enumerate EVERY registerable-respecting selection function
+registerable options per step: [3, 2, 1]
+number of selection-function chains: 6
+    SO(10)xU(1) -> SU(5)xU(1) -> SM
+    SO(10)xU(1) -> Pati-Salam -> SM
+    SU(6)xSU(2) -> SU(5)xU(1) -> SM
+    SU(6)xSU(2) -> Pati-Salam -> SM
+    SU(3)^3 -> SU(5)xU(1) -> SM
+    SU(3)^3 -> Pati-Salam -> SM
+all endpoints: {'SM'}  all SM: True
+  rule max-dim : SO(10)xU(1) -> SU(5)xU(1) -> SM
+  rule first   : SO(10)xU(1) -> SU(5)xU(1) -> SM
+  rule min-dim : SU(3)^3 -> Pati-Salam -> SM
+  rule last    : SU(3)^3 -> Pati-Salam -> SM
+
+========================================================================
+CONTROLS (the instrument CAN find the excluded thing when planted)
+  C1 planted chiral content {3,1} under su(3): chiral = True (must be True)
+  C2 planted vector-like 5+5b+1+1 under SM: chiral = False (must be False)
+  C2b 27-content minus the 10 (5+5b+5b+2x1): chiral = True (must be True -- net 5b unpaired)
+  C3 planted extra registerable step-3 option: chains = 12  endpoints = {'SM', 'FAKE-X'}  uniqueness broken: True
+  C4 conjugation involution + dim-preservation on all atoms: OK
+
+DONE (all exact integer/fraction arithmetic; no measured inputs)

@@ -141,3 +141,56 @@ T6 held armed on T1's unblock; T7 = election item above.
 ## Resource rule (owner-directed): mechanical/reader work runs on cheap agents (low
 effort); computing/judging/verifying cells run at full strength; nothing delegated
 that compromises the task; inline work stays inline.
+
+---
+
+## Batch 2 + partial Ring R1/S1 — DISPOSITIONED AS FAR AS THE SESSION LIMIT ALLOWED (2026-09-01)
+
+**Batch 2:** T8a LIST-COMPLETE (12 novelty-stale lines flagged with corrections, heaviest
+in main.tex and THE_CLAIM; 8 boundary lines confirmed already-correct). T8b DRAFT-COMPLETE
+but verifier **DEGRADED** with a genuine catch: the draft's menu definition silently
+widened part (ii)'s quantifier beyond B994's computed scope — **su(3)⊕g₂ (dim 22) is
+registerable, outside B861's menu, and its descent is computed nowhere in the corpus**
+(min-dim on a specials-inclusive menu would even prefer it over SU(3)³). Scope fix
+applied per the verifier's option (i); **the su(3)⊕g₂ descent = named batch-3 cell**
+(closing it either extends rule-independence to the full menu or exhibits the first
+non-SM registerable endpoint). T9 **EMPTY-CONFIRMED**: GC-12's census count REFUTED
+(~16 series-like objects, not one) but its operative content CONFIRMED at corpus scale —
+0/16 pass the five-condition kind-map, every failure on a named condition; the
+corpus-committed (E₆)₁ vacuum character passes K-i–K-iv (c_eff 5.996, A = 6.2813 vs
+2π = 6.2832) and fails ONLY the anti-numerology/provenance clause — reproducing B1228's
+one remaining identification from the inventory side. σ's anchor status hardened.
+T9's verifier died on the session limit; this seat re-ran the survey inline (identical
+modulo a trailing newline; all three bite controls live); the census-completeness
+adversarial sweep is QUEUED for after the reset.
+
+**Ring R1 (5 of 10 before the limit):** R02 McKay/2T×2I **MATCH** · R03 anomaly
+hypercharge **MATCH** · R04 termination enumeration **MATCH** · R05 ℤ₆ kernel **MATCH** ·
+R01 B1225 **PARTIAL** — the triviality core reproduces exactly (17/17 atoms fixed by all
+8 of D₄), but: the W1 = 11,720 cardinality is reconstructable from NO committed file
+(cloud-side enumerator; E51-adjacent), the banked step-5 equivariance claim is literally
+false without a domain restriction (c∘√ ≠ √∘c on negatives — benign, conclusion survives
+via all-atoms-real), no B1225-dedicated lock exists, and the honest typing is:
+**a definitionally-forced consequence with exactly ONE failable empirical premise (all
+menu values real), which the arc's own script does not check.** Cells R06–R10 + the R1
+report died on the session limit; QUEUED for resume.
+
+**Ring S set 1 (5 of 10 before the limit):** the sharpest finding of the whole turn —
+**S3a: ~60 June-era lock files (B252–B325 stratum) assert hand-written literal `True`
+flags imported from frontier modules** (3/3 spot-checks confirmed literal; the CL-LATIN
+E27 mechanism one indirection down), a class the record's own 2026-07-25 E27 mutation
+sweep was structurally blind to (it mutated aggregate-jsons; these flags live in module
+constants) and whose "0 genuine E27 remaining" claim never covered this stratum. The m–z
+stratum is largely clean (different era, 2 pure cache-locks of 51). S2 law-arc sweeps:
+B259's withdrawn Smolin-k chain and B266's falsified "only arithmetic manifolds surject"
+headline persist un-bannered in their FINDINGS bodies (E53-species); B952 carries the
+withdrawn "no VEV" phrasing with no banner (B962 got one, B952 did not); B959's re-scope
+lives in an addendum-beside its unmarked original. S4b changelog digest landed; S4a/S7/S9
++ the index died on the limit; QUEUED.
+
+**Resume plan:** at the session-limit reset (17:00 UTC; check-in armed 17:12 UTC), resume
+wf_13f17c36 (R1's five remaining cells + report, cached prefix) and wf_f7a1a747 (the four
+remaining sweeps + index), and run T9's census-completeness verifier. Batch 3 candidates
+after that: the su(3)⊕g₂ descent cell · the B252–B325 literal-flag audit at full
+enumeration (60 files → which are records vs locks) · R2's ten recomputations · sweeps
+S5/S6/S8/S10/S11.

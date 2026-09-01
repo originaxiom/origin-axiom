@@ -1,0 +1,40 @@
+--- SM 15-plet (banked y = 1,-4,2,-3,6) ---
+  continuous-U(1): |ker| = 6, closed = True, cyclic = True
+    elements: [(0, 0, '0'), (0, 1, '1/2'), (1, 0, '2/3'), (1, 1, '1/6'), (2, 0, '1/3'), (2, 1, '5/6')]
+    generators: [(1, 1, '1/6'), (2, 1, '5/6')]
+  mu_12 ambient:   |ker| = 6
+--- 16 = 15-plet + nu^c ---
+  continuous-U(1): |ker| = 6, closed = True, cyclic = True
+    elements: [(0, 0, '0'), (0, 1, '1/2'), (1, 0, '2/3'), (1, 1, '1/6'), (2, 0, '1/3'), (2, 1, '5/6')]
+    generators: [(1, 1, '1/6'), (2, 1, '5/6')]
+  mu_12 ambient:   |ker| = 6
+--- 10 of the 27 ---
+  continuous-U(1): |ker| = 6, closed = True, cyclic = True
+    elements: [(0, 0, '0'), (0, 1, '1/2'), (1, 0, '2/3'), (1, 1, '1/6'), (2, 0, '1/3'), (2, 1, '5/6')]
+    generators: [(1, 1, '1/6'), (2, 1, '5/6')]
+  mu_12 ambient:   |ker| = 6
+--- 27 = 16 + 10 + 1 ---
+  continuous-U(1): |ker| = 6, closed = True, cyclic = True
+    elements: [(0, 0, '0'), (0, 1, '1/2'), (1, 0, '2/3'), (1, 1, '1/6'), (2, 0, '1/3'), (2, 1, '5/6')]
+    generators: [(1, 1, '1/6'), (2, 1, '5/6')]
+  mu_12 ambient:   |ker| = 6
+--- adjoint-only (8,1,0)+(1,3,0)+(1,1,0) ---
+  continuous-U(1): INFINITE  (full U(1) circle survives for (a,b) in [(0, 0), (0, 1), (1, 0), (1, 1), (2, 0), (2, 1)])
+  mu_12 ambient:   |ker| = 72
+--- integer-charge only (L, e^c, nu^c) ---
+  continuous-U(1): |ker| = 18, closed = True, cyclic = False
+    elements: [(0, 0, '0'), (0, 0, '1/3'), (0, 0, '2/3'), (0, 1, '1/6'), (0, 1, '1/2'), (0, 1, '5/6'), (1, 0, '0'), (1, 0, '1/3'), (1, 0, '2/3'), (1, 1, '1/6'), (1, 1, '1/2'), (1, 1, '5/6'), (2, 0, '0'), (2, 0, '1/3'), (2, 0, '2/3'), (2, 1, '1/6'), (2, 1, '1/2'), (2, 1, '5/6')]
+  mu_12 ambient:   |ker| = 18
+--- 15-plet minus Q ---
+  continuous-U(1): |ker| = 6, closed = True, cyclic = True
+    elements: [(0, 0, '0'), (0, 1, '1/2'), (1, 0, '2/3'), (1, 1, '1/6'), (2, 0, '1/3'), (2, 1, '5/6')]
+    generators: [(1, 1, '1/6'), (2, 1, '5/6')]
+  mu_12 ambient:   |ker| = 6
+
+Banked generator (omega, -1, zeta_6) = (1,1,1/6) in kernel of 15-plet: True
+15-plet kernel: order 6 cyclic True ; (1,1,1/6) generates: True
+
+=== planted controls (exclusion sanity) ===
+15-plet with y(e^c)=5: |ker|=1
+Q + L only: |ker|=6
+15-plet + exotic (3,1,y=1): |ker|=3 [(0, 0, '0'), (1, 0, '2/3'), (2, 0, '1/3')]

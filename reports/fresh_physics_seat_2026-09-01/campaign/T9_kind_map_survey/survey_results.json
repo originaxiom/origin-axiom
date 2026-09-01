@@ -1,0 +1,288 @@
+{
+ "controls": [
+  {
+   "name": "CONTROL PLANT-VALID: (E6)_1 vacuum character  chi_0 = q^{-1/4} Theta_E6/(q;q)^6",
+   "conditions": {
+    "K-i": "PASS (series on q^(-1/4) + Z_>=0 grid, 601 terms)",
+    "K-ii": "PASS (all 601 stripped coefficients non-negative integers)",
+    "K-iii": "PASS (banked c = 6 = 6 exactly)",
+    "K-iv": "PASS (c_eff ~= 5.996 in six-unit band [4.5,7.5]; 599 terms; sqrt-const A=6.2813 vs 2*pi=6.2832)",
+    "K-v": "N/A (planted control; clause stipulated for machinery test)"
+   },
+   "verdict": "PASS",
+   "first_failed": null
+  },
+  {
+   "name": "CONTROL 6-vs-1: single cusp boson  1/(q;q) (T[4_1]'s one unit)",
+   "conditions": {
+    "K-i": "PASS (series on q^(-1/24) + Z_>=0 grid, 601 terms)",
+    "K-ii": "PASS (all 601 stripped coefficients non-negative integers)",
+    "K-iii": "PASS (banked c = 6 = 6 exactly)",
+    "K-iv": "FAIL (c_eff ~= 0.999: ONE cusp-boson unit, the T[4_1] value \u2014 the Cardy 6-vs-1 clause bites)",
+    "K-v": "N/A (planted control; clause stipulated for machinery test)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-iv"
+  },
+  {
+   "name": "CONTROL PLANT-INVALID: random bounded non-negative integer series",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 601 terms)",
+    "K-ii": "PASS (all 601 stripped coefficients non-negative integers)",
+    "K-iii": "PASS (banked c = 6 = 6 exactly)",
+    "K-iv": "FAIL (c_eff ~= 0.005: neither six units nor one)",
+    "K-v": "N/A (planted control; clause stipulated for machinery test)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-iv"
+  }
+ ],
+ "census": [
+  {
+   "name": "B672/B666 Y^(5)_2hat.comp1 = q^{2/5} (q;q)G(q) (q;q)^9",
+   "conditions": {
+    "K-i": "PASS (series on q^(2/5) + Z_>=0 grid, 401 terms)",
+    "K-ii": "FAIL at n=1: coefficient -9 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth) [diagnostic on |a_n|: c_eff ~= 0.017 from 399 terms]",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B672/B666 Y^(5)_2hat.comp2 = q^{3/5} (q;q)H(q) (q;q)^9",
+   "conditions": {
+    "K-i": "PASS (series on q^(3/5) + Z_>=0 grid, 401 terms)",
+    "K-ii": "FAIL at n=1: coefficient -10 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth) [diagnostic on |a_n|: c_eff ~= 0.000 from 399 terms]",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B672/B666 Y^(5)_2hat'.comp1 (eta^{24/5} quintic in F1,F2)",
+   "conditions": {
+    "K-i": "PASS (series on q^(1/5) + Z_>=0 grid, 60 terms)",
+    "K-ii": "FAIL at n=2: coefficient -108 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth) [diagnostic on |a_n|: c_eff ~= 6.491 from 58 terms]",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B672/B666 Y^(5)_2hat'.comp2 (eta^{24/5} quintic in F1,F2)",
+   "conditions": {
+    "K-i": "PASS (series on q^(4/5) + Z_>=0 grid, 60 terms)",
+    "K-ii": "FAIL at n=2: coefficient -378 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth) [diagnostic on |a_n|: c_eff ~= 0.833 from 58 terms]",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B666 F1 stream (rational modular-flavor stream)",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 42 terms)",
+    "K-ii": "FAIL at n=1: coefficient 3/5 (non-integer)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B666 F2 stream (rational modular-flavor stream)",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 42 terms)",
+    "K-ii": "FAIL at n=1: coefficient -2/5 (non-integer)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B724 GGM rotated 3D-index of 4_1: 1 - 8q - 9q^2 + 18q^3 + 46q^4 + 90q^5",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 6 terms)",
+    "K-ii": "FAIL at n=1: coefficient -8 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B364 triangular theta family f_1(0,tau), E(n)=n(n-1)/30, n=1 mod 15",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 22651 terms)",
+    "K-ii": "PASS (all 22651 stripped coefficients non-negative integers)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "FAIL (UNDERPOWERED: only 6 usable terms; cannot exhibit six-unit Cardy growth)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-iii"
+  },
+  {
+   "name": "B364 square theta family, E'(n)=n^2/15, n=1 mod 15",
+   "conditions": {
+    "K-i": "PASS (series on q^(1/15) + Z_>=0 grid, 14161 terms)",
+    "K-ii": "PASS (all 14161 stripped coefficients non-negative integers)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "FAIL (UNDERPOWERED: only 5 usable terms; cannot exhibit six-unit Cardy growth)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-iii"
+  },
+  {
+   "name": "B1190 (E6)_1 characters as corpus artifacts (Theta_E6/eta^6, vacuum)",
+   "conditions": {
+    "K-i": "PASS (series on q^(-1/4) + Z_>=0 grid, 601 terms)",
+    "K-ii": "PASS (all 601 stripped coefficients non-negative integers)",
+    "K-iii": "PASS (banked c = 6 = 6 exactly)",
+    "K-iv": "PASS (c_eff ~= 5.996 in six-unit band [4.5,7.5]; 599 terms; sqrt-const A=6.2813 vs 2*pi=6.2832)",
+    "K-v": "FAIL (IMPORTED: constructed from external data \u2014 a model whose central charge happens to fit is the anti-numerology clause's exact target)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-v"
+  },
+  {
+   "name": "B666 sextet row1 (F1^5+2F2^5)",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 20 terms)",
+    "K-ii": "FAIL at n=4: coefficient -5 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B666 sextet row2 (2F1^5-F2^5)",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 20 terms)",
+    "K-ii": "FAIL at n=9: coefficient -5 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B666 sextet row3 series of F1^4F2",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 20 terms)",
+    "K-ii": "PASS (all 20 stripped coefficients non-negative integers)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "FAIL (UNDERPOWERED: 16 terms < 200; c_eff ~= 0.000, not six-unit)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-iii"
+  },
+  {
+   "name": "B666 sextet row4 series of F1^3F2^2",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 20 terms)",
+    "K-ii": "PASS (all 20 stripped coefficients non-negative integers)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "FAIL (UNDERPOWERED: 14 terms < 200; c_eff ~= 0.000, not six-unit)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-iii"
+  },
+  {
+   "name": "B666 sextet row5 series of F1^2F2^3",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 20 terms)",
+    "K-ii": "FAIL at n=5: coefficient -1 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth) [diagnostic on |a_n|: c_eff ~= 0.000 from 15 terms]",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  },
+  {
+   "name": "B666 sextet row6 series of F1F2^4",
+   "conditions": {
+    "K-i": "PASS (series on q^(0) + Z_>=0 grid, 20 terms)",
+    "K-ii": "FAIL at n=1: coefficient -1 (negative)",
+    "K-iii": "UNTYPED-FAIL (no central-charge datum banked with the candidate: it does not present itself as a character of any chiral algebra)",
+    "K-iv": "MOOT (K-ii already fails; growth of a signed series is not a character growth)",
+    "K-v": "PASS (object-side: constructed from m004/its family data)"
+   },
+   "verdict": "FAIL",
+   "first_failed": "K-ii"
+  }
+ ],
+ "not_comparable": [
+  {
+   "name": "B441 WRT invariants tau_r(4_1(5,1))",
+   "location": "frontier/B441_child_wrt/FINDINGS.md",
+   "reason": "per-r algebraic numbers in Q(zeta_4r); no formal q-variable"
+  },
+  {
+   "name": "B384/B1116/B246 Kashaev <4_1>_N / J_N tower",
+   "location": "frontier/B384_kashaev_bridge/, B1116_asymptotic_channel/",
+   "reason": "N-indexed algebraic numbers at roots of unity + a growth rate (-> Vol); the Habiro sum does not converge as a formal power series"
+  },
+  {
+   "name": "B685/B800/B839 Habiro/GSWZ element Phi(h)Phi(-h)",
+   "location": "frontier/B800_habiro_integrality/FINDINGS.md",
+   "reason": "perturbative hbar-expansion around the hyperbolic saddle; content is 3-adic valuation of denominators; no graded character structure"
+  },
+  {
+   "name": "B1090 Andersen-Kashaev state integral",
+   "location": "frontier/B1090_partition_bridge/FINDINGS.md",
+   "reason": "continuum Faddeev quantum-dilogarithm integral over b; no q-expansion"
+  },
+  {
+   "name": "B240 golden colored-Jones values [N] J_N(4_1; e^{2pi i/5})",
+   "location": "frontier/B240_golden_jones_integrality/FINDINGS.md",
+   "reason": "a 4-number evaluation table at one root of unity"
+  },
+  {
+   "name": "B205 generic-q skein tower (quantum trace map, R_q^m L_q^m)",
+   "location": "frontier/B205_metallic_quantum_trace_map/FINDINGS.md",
+   "reason": "finite Laurent polynomials in q per word; no infinite graded expansion (B672 candidate C1, dead there with exact first mismatches)"
+  },
+  {
+   "name": "B737/B754 zeta-quotient spectral identities",
+   "location": "frontier/B737_candidate_zero/, B754_p2_spectral/",
+   "reason": "Selberg-type zeta data; no q-series"
+  },
+  {
+   "name": "B492 Verlinde fusion / boundary entropy",
+   "location": "frontier/B492_verlinde_boundary_lens/FINDINGS.md",
+   "reason": "fusion integers and quantum dimensions; no graded expansion"
+  },
+  {
+   "name": "B646/B1212 finite character tables (rho(A1) sectors; lepton character ledger)",
+   "location": "frontier/B646_wave2_integration/.../n1_character.py; frontier/B1212_two_replies/verification/",
+   "reason": "finite-group / finite-module character values; not q-graded"
+  },
+  {
+   "name": "B762 self-naming Hecke palette {1,2,8}; B854/B866 E6 centralizer cubics",
+   "location": "frontier/B762*/, B854*/, B866*/",
+   "reason": "discrete invariant tuples and Lie-bracket computations; no q-series (GC-12 already corrected this false lead)"
+  }
+ ],
+ "bite_ok": true,
+ "n_pass": 0
+}

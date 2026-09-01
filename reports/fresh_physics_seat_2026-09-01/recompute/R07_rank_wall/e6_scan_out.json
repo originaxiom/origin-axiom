@@ -1,0 +1,18 @@
+{
+ "n_roots": 72,
+ "dim": 78,
+ "scan_counts": {
+  "4": 4096,
+  "5": 15625,
+  "6": 46656
+ },
+ "semisimple_rank_histogram": {
+  "6": 389,
+  "5": 7074,
+  "4": 37314,
+  "3": 21600
+ },
+ "all_centralizers_rank6": true,
+ "a2a1_element": null,
+ "control_outer_fixed_rank": 4
+}

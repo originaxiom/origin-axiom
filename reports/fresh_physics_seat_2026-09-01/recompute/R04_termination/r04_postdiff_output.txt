@@ -1,0 +1,11 @@
+arcs' exact generation objects under MY instrument:
+  SU(5)xU(1)   chiral=True
+  Pati-Salam   chiral=True
+  SU(4)xU(1)   chiral=False
+  SM           chiral=True
+  difference multiset step2 SU(5) slice  self-conjugate: True  {('su5.5b',): 1, ('su5.1',): 1, ('su5.5',): 1}
+  difference multiset step2 PS slice     self-conjugate: True  {('su4.6', 'su2.1', 'su2.1'): 1, ('su4.1', 'su2.2', 'su2.2'): 1, ('su4.1', 'su2.1', 'su2.1'): 1}
+  difference multiset step3 SU(4) slice  self-conjugate: True  {('su4.4',): 1, ('su4.1',): 4, ('su4.4b',): 1}
+  difference multiset step3 SM slice     self-conjugate: True  {('su3.3b', 'su2.1'): 1, ('su3.1', 'su2.1'): 2, ('su3.3', 'su2.1'): 1, ('su3.1', 'su2.2'): 2}
+LEMMA HOLDS: every convention difference is a self-conjugate addition;
+full-27 and generation-slice conventions provably give identical verdicts.
