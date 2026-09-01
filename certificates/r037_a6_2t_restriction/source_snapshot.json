@@ -1,0 +1,31 @@
+{
+  "schema": "oa-r037-a6-2t-restriction-sources-v1",
+  "source_commit": "a5138424e5712d11aad69d75fc921e3dbccae7fb",
+  "sources": {
+    "b1234_findings": {
+      "path": "frontier/B1234_a6_built_the_walls/FINDINGS.md",
+      "git_blob_sha1": "51ce96cc1f4a24440cfafce772a1707b126a7487",
+      "fact": "m004 is the orientation double cover of m000 and both presentations have 48 surjections onto SL(2,3)"
+    },
+    "b1234_code": {
+      "path": "frontier/B1234_a6_built_the_walls/a6_built_the_walls.py",
+      "git_blob_sha1": "c5a1f23c4ba6005a0c5b16a08c2384de85c2ea1d",
+      "fact": "the source presentations are m000=<a,b|aabbAB> and m004=<a,b|aaabABBAb>"
+    },
+    "b1234_results": {
+      "path": "frontier/B1234_a6_built_the_walls/results.json",
+      "git_blob_sha1": "48a958ac50c81e29994859244a21ba942975ee56",
+      "fact": "the committed counts are 48 and 48, without restriction of the actual maps"
+    },
+    "b1208_findings": {
+      "path": "frontier/B1208_cross_seat_harvest/FINDINGS.md",
+      "git_blob_sha1": "861ce76d732dc579bbc48e8c358c6d465ca5d2df",
+      "fact": "exactly one m004 spin structure extends over m000, but its identity and comparison with the beat-selected lift remain open"
+    },
+    "identification_ledger": {
+      "path": "docs/IDENTIFICATION_LEDGER.md",
+      "git_blob_sha1": "859f1b85f0a49679937e9599f15a64f133afc3f6",
+      "fact": "I-6, identifying the manifold 2T quotient with the physical transverse ALE group, remains UNEARNED"
+    }
+  }
+}

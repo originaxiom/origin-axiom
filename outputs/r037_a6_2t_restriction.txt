@@ -1,0 +1,7 @@
+PASS 2T has order 24, center C2, abelianization C3 and Aut order 24
+PASS m000 and m004 each have 48 surjections = two Aut(2T) orbits
+PASS every m000 surjection restricts surjectively to the orientation subgroup
+RESULT restriction has 24 distinct images with fibre size two
+RESULT exactly one of m004's two 2T quotient classes extends over m000
+RESULT the nonextendable class is the unique central H^1 twist of the extendable class
+SCOPE abstract finite quotient only; no ALE, physical E6, spin or chirality identification
