@@ -459,3 +459,19 @@ re-swept over all 7 remote heads and the deleted-file history
   `reproduce_new.sh` cites `reproduce.log`/`our_uniqueness_chain.out`, which `.gitignore`
   (`*.log`, `*.out`) makes uncommittable — the "8/8 REPRODUCE" statement is unwitnessed on every
   head (B1148 addendum, appended section).
+
+## DATED CLOSURES (2026-09-01, later the same day) — three §3 gaps closed by computation
+
+- **Item 8 / item 23 (interval pass) — CLOSED for the hyperbolic-structure leg** by
+  `R29_interval_hyperbolicity/`: own Krawczyk certificate (mpmath 300-bit intervals, no Sage) on all 112
+  R23 members + m015/m016 controls, 114/114; **exact** ℚ(√−3) shapes for all 112 (fitted candidates satisfy
+  every gluing equation exactly and sit inside the uniqueness box); **exact** cusp moduli on all 183 cusps
+  with the seven 2√3i carriers reproduced name-for-name. Negative controls refuse 3_1/5_1/7_1 and perturbed
+  shapes. **Still open (Sage-only):** CS values, symmetry groups, isometry classes, hence the 38/112
+  amphichirality split — relay item for cc.
+- **Item 13's "ℚ-exact 6615 (cheap)" — CLOSED** by the R22 addendum: rank_p ≤ rank_ℚ for every p gives
+  dim_ℚ null ≤ 6615, the exact sl₂ Clebsch count gives 6615 ⇒ equality; five primes agree at rank 9855.
+- **"D4 order not re-verified" — CLOSED** by `R30_m004_symmetry_group/` (filed earlier today as "R26";
+  renumbered because R26 is B1080/B1011): SnapPy `symmetry_group()` order 8, amphichiral; o10_150700 order 2.
+
+Numbering note: cells are R01–R30; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.

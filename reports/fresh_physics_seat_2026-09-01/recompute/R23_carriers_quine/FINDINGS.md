@@ -85,3 +85,12 @@ Vol(m004) = 2.0298832128… (a mathematical constant), which I replaced by a 220
 - `r23_sweep.py`, `sweep_candidates.json` (112 names)
 - `r23_carriers.py`, `carriers_quine.json` (per-member volume ratio, cusp shapes raw and
   reduced, carrier flags, quine hits)
+
+## ADDENDUM (2026-09-01, later the same day) — claims (i) and (ii) made exact by R29
+
+`../R29_interval_hyperbolicity/` certifies (Krawczyk, 300-bit intervals) the complete hyperbolic structure
+on all 112 members and then shows the 1e-40 fits above are **exact**: the ℚ(√−3) candidates satisfy every
+gluing equation exactly and lie inside the uniqueness box (distance ≤ 3.9e-58). The cusp moduli of all 183
+cusps are then computed exactly over ℚ(√−3) (Neumann–Zagier derivative), agree strictly with snappy's
+`cusp_info` shapes, and after exact SL(2,ℤ) reduction equal 2√3i on exactly the seven cusps listed in (ii).
+The 220-bit volume ratios in (iii) remain numerical.

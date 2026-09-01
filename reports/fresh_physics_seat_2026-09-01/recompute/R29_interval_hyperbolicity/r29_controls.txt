@@ -1,0 +1,10 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+3_1      contains flat tetrahedra             -> verified=False K=True Im>0=False
+5_1      contains flat tetrahedra             -> verified=False K=True Im>0=False
+7_1      contains flat tetrahedra             -> verified=False K=True Im>0=False
+L6a1     all tetrahedra positively oriented   -> verified=True  K=True Im>0=True
+K12n242  all tetrahedra positively oriented   -> verified=True  K=True Im>0=True
+9_42     all tetrahedra positively oriented   -> verified=True  K=True Im>0=True
+m004     all tetrahedra positively oriented   -> verified=True  K=True Im>0=True
+perturbed m004 shapes: row-0 residual = 1.7321e-30 (gate is 1e-50)

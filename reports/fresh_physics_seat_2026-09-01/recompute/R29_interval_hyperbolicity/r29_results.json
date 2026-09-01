@@ -1,0 +1,7172 @@
+[
+ {
+  "name": "m003",
+  "verified": true,
+  "n_tet": 2,
+  "n_cusps": 1,
+  "rows": 4,
+  "chosen": [
+   0,
+   2
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 1,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.2289567968238765e-78
+   },
+   {
+    "row": 3,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.2289567968238765e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m004",
+  "verified": true,
+  "n_tet": 2,
+  "n_cusps": 1,
+  "rows": 4,
+  "chosen": [
+   0,
+   2
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 1,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 7.013383647499273e-78
+   },
+   {
+    "row": 3,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 7.013383647499273e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.01,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m202",
+  "verified": true,
+  "n_tet": 4,
+  "n_cusps": 2,
+  "rows": 8,
+  "chosen": [
+   1,
+   2,
+   4,
+   6
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 0,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 0.0
+   },
+   {
+    "row": 3,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.436251531078573e-78
+   },
+   {
+    "row": 5,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.2675357420396235e-78
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.3983607924682925e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.01,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m203",
+  "verified": true,
+  "n_tet": 4,
+  "n_cusps": 2,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   4,
+   6
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 2,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 8.18228092209843e-78
+   },
+   {
+    "row": 3,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 9.225293623998454e-78
+   },
+   {
+    "row": 5,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 8.18228092209843e-78
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 7.834793809043346e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.01,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m206",
+  "verified": true,
+  "n_tet": 4,
+  "n_cusps": 1,
+  "rows": 6,
+  "chosen": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 3,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.856254934185369e-77
+   },
+   {
+    "row": 5,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.525468225132323e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.01,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m207",
+  "verified": true,
+  "n_tet": 4,
+  "n_cusps": 1,
+  "rows": 6,
+  "chosen": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 3,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.1750093616857043e-77
+   },
+   {
+    "row": 5,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.485427509645193e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.01,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m208",
+  "verified": true,
+  "n_tet": 5,
+  "n_cusps": 1,
+  "rows": 7,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   5
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 4,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.164299936465608e-77
+   },
+   {
+    "row": 6,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 8.934189126471097e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m410",
+  "verified": true,
+  "n_tet": 5,
+  "n_cusps": 1,
+  "rows": 7,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   5
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   1,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 4,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.1286222838433029e-77
+   },
+   {
+    "row": 6,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 9.854949520757829e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m412",
+  "verified": true,
+  "n_tet": 5,
+  "n_cusps": 2,
+  "rows": 9,
+  "chosen": [
+   0,
+   1,
+   2,
+   5,
+   7
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 3,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 8.029083281632913e-78
+   },
+   {
+    "row": 4,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.1474614851359345e-77
+   },
+   {
+    "row": 6,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.0807272022445183e-77
+   },
+   {
+    "row": 8,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 9.942277469081109e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_064767",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   0,
+   -2,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   1,
+   -2,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 9.029270915618151e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.2019109199999546e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(-1.80585927490403309550193983058e-62 + 3.46410161513775458705489268301j)"
+ },
+ {
+  "name": "o10_107944",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   0,
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   1,
+   0,
+   -1,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.128597404058085e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 9.96647895142366e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.288675134594812882254574390251j)"
+ },
+ {
+  "name": "o10_107945",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.1878331220692198e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.600475753667104e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(-3.61829727212101348825525284815e-64 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_107946",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.5931835178063365e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 6.947606018549435e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.9907894904632506e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.993922070316348e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.571428571428571428571428571429 + 0.49487165930539351243641324043j)"
+ },
+ {
+  "name": "o10_107947",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   -1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 8.184170066617277e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 9.141105248399809e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.571428571428571428571428571429 + 0.49487165930539351243641324043j)"
+ },
+ {
+  "name": "o10_107948",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.589507873376348e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.924103129921473e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(-0.25 + 0.433012701892219323381861585376j)"
+ },
+ {
+  "name": "o10_107949",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.6571071831649685e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 7.867901794802615e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(-6.03049545353502248042542141359e-64 + 1.154700538379251529018297561j)"
+ },
+ {
+  "name": "o10_143600",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.8844655825011244e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.854749075120509e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(1.0 + 1.154700538379251529018297561j)"
+ },
+ {
+  "name": "o10_143601",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   -1,
+   -1,
+   1,
+   -1,
+   1,
+   -1,
+   -1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 2,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.375858390680729e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 2,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.2676488991744263e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.931564838887097e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.285854565809809e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.25 + 0.433012701892219323381861585376j)"
+ },
+ {
+  "name": "o10_143602",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.5693176843543994e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.09149070464957e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.415710326126878e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 7.409276342437484e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150683",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.5516393391870935e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.7640672087757065e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.004526380475369e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.479396335338215e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150684",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -2,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.2157467432455712e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.5927531332894075e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.714657503019243e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.513307960417115e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150685",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   -2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.5900191401612723e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.404180753256521e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.0276445682052015e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.3796789928689725e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.224335937870164e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.834087637019345e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150686",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.323065167831343e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.4929281885293024e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.563580200579905e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.7808318897780983e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150687",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 2,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.251970659097497e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.577243127826318e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.506500247570007e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.735693749637708e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.65183395595656e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.3335516298260731e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150688",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.626383910734734e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.8741187138003955e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150689",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 2,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.7321615108052395e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.856976292727128e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.1813810259731635e-76
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.809340557745173e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150690",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 4,
+  "rows": 18,
+  "chosen": [
+   0,
+   1,
+   3,
+   4,
+   5,
+   6,
+   10,
+   12,
+   14,
+   16
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 2,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.2519706590978898e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.1200583404091946e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.3540503750063386e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.3540503750063386e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.9771707453548566e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.2414379433533727e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.3335516298258566e-77
+   },
+   {
+    "row": 17,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.014469277886032e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150691",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.921318365247133e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.555142518541358e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.411781603604026e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.786079167988588e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150692",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   1,
+   -1,
+   0,
+   1,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.079216656192188e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.9883685246061214e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.332329559543336e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.813648460336969e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150693",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   1,
+   0,
+   1,
+   0,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.174906888312923e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.6547597935454527e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.793879023085662e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.2218247233590205e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150694",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.9951151950757014e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.8194689221312215e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150695",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   -1,
+   1,
+   1,
+   0,
+   0,
+   -1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.477274403032339e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 7.640760355236589e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150696",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   -1,
+   1,
+   1,
+   0,
+   0,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.477274403032339e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 6.454168589358468e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150697",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   -1,
+   0,
+   1,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.777638291643132e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.398394725657518e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150698",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 6.672199143376012e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2855130902124615e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150699",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   1,
+   -2,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.380672634881515e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.0089340040234426e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150700",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   -1,
+   0,
+   1,
+   0,
+   -1,
+   0,
+   -1,
+   -2,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.876039591430524e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.882021348061077e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150701",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   1,
+   -1,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.613661284467844e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 8.024845955456102e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150702",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.434503296652279e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.720511986534076e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.6992711389985866e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.5558602560325493e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.5589512515944227e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.040153563860122e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150703",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.494809166637632e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.618653591551498e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.689435691612627e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.488710207627766e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150704",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 4,
+  "rows": 18,
+  "chosen": [
+   0,
+   2,
+   3,
+   4,
+   5,
+   7,
+   10,
+   12,
+   14,
+   16
+  ],
+  "branch_k": [
+   1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 1,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 0.0
+   },
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.8469694084098073e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.3677279914447755e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.3003537508939723e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.8610192665521332e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.1603927322552984e-78
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.439366974876474e-77
+   },
+   {
+    "row": 17,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.9072496381949278e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150705",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   1,
+   0,
+   -1,
+   0,
+   0,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.2705357472326436e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.3672821534885005e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2434675103329373e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.2275703908029114e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150706",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.2705650366615668e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.9167052553669668e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.4140379454375211e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.118621223175452e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.09,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150707",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.156972076129422e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2885611690204937e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150708",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   -2,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.44104924137015e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.496778714791005e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 8.7348554031233e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.026052509363623e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150709",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   1,
+   -1,
+   1,
+   2
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.390395124594831e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.4054132377091355e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150710",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   -1,
+   1,
+   -1,
+   -1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.4012378075791906e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.618419225376933e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 7.591961250590792e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.816626883526309e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150711",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.474175907291188e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.337630620164459e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.3079982878188153e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.612060510815846e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150712",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.597280281028753e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.9438546356359665e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.7944732775215785e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 8.96331960440285e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150713",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -3
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.5562650694960984e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.3642135970815895e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150714",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.2336627089263605e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.8179789199543285e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150715",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.901021294050958e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.559094997145522e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.456782109173894e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2031885404646335e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150716",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   1,
+   0,
+   -1,
+   0,
+   0,
+   1,
+   -2
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.9437698060028655e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.613256312576734e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150717",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   8,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.403220203679652e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.794549173618903e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.365982876922801e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.2373269554442994e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.534061170582638e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.321597880750438e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150718",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   8,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.279324417151396e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.622749936148816e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.621158901491018e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.358663073784527e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.809643145290941e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.260461912528802e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150719",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   1,
+   0,
+   0,
+   1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.537312153074367e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.444249031855701e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.608182204832456e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2554778733062789e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150720",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   8,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.569992077598152e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.7885307794447644e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.244249982408776e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.401145263368566e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.091916368491013e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.1238120996457825e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150721",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   -1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.446816490845115e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.0893992024175208e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.488450326667653e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.549467736407877e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 6.8012478858371635e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.3551927795388085e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150722",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.4619056263413e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.2222795832670126e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.642279636691359e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.665996137832572e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.0438275783028596e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.9891677353674048e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150723",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.42718308240998e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.87299910677091e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.2928390058385906e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.713246908567427e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150724",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 1,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.0913371242768954e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.393307989118204e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150725",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.7619154374784482e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.7561399020641104e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.616503456926103e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.8497688945346304e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.93027654134898e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.1851936304138113e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150726",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 2,
+  "rows": 14,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10,
+   12
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   -1,
+   1,
+   0,
+   -1,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.7436727904610977e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.2844580249506995e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.0045971934118537e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.345126742804616e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.07,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150727",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 4,
+  "rows": 18,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   10,
+   12,
+   14,
+   16
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.810991732296669e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.684479176331876e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.905060818118386e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.2442876411833775e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.0036220792653935e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.4937984028803294e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.2605046583194562e-77
+   },
+   {
+    "row": 17,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.6928522823835314e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150728",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 3,
+  "rows": 16,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   10,
+   12,
+   14
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   -1,
+   1,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.9469460423105465e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.7403884140050054e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.0112602189820016e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.4076922739625359e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.268082414479101e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.458893230640443e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o10_150729",
+  "verified": true,
+  "n_tet": 10,
+  "n_cusps": 5,
+  "rows": 20,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   10,
+   12,
+   14,
+   16,
+   18
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   -1,
+   -1,
+   0,
+   -1,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.1607792503496018e-77
+   },
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.339144286106211e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.574724811852999e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.272358560372096e-77
+   },
+   {
+    "row": 9,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.5347547847215634e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.0536601152698372e-77
+   },
+   {
+    "row": 13,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.0678953148411179e-77
+   },
+   {
+    "row": 15,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.525163789155707e-77
+   },
+   {
+    "row": 17,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.527808126722338e-77
+   },
+   {
+    "row": 19,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2092868026897873e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o9_27787",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   1,
+   -1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.3454763104612278e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.830471218626619e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.75 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o9_40998",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.3197455704878908e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.4183328945174218e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o9_40999",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 2,
+  "rows": 13,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   9,
+   11
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.067815005088523e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.1475383703884463e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.9895137348997588e-77
+   },
+   {
+    "row": 12,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.5868323181485267e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.5 + 0.288675134594812882254574390251j)"
+ },
+ {
+  "name": "o9_41000",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.0215390482628556e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.16424908215923e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.428571428571428571428571428571 + 0.49487165930539351243641324043j)"
+ },
+ {
+  "name": "o9_41001",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.773905042579135e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.3157982542024156e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.06,
+  "shape0": "(0.857142857142857142857142857143 + 0.742307488958090268654619860645j)"
+ },
+ {
+  "name": "o9_41002",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.11781423565709e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.9720567226757855e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o9_41003",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 2,
+  "rows": 13,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   9,
+   11
+  ],
+  "branch_k": [
+   1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.9126762974225404e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.0232732716968644e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.208462376887467e-77
+   },
+   {
+    "row": 12,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.2697978266715728e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(-0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o9_41004",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.618438487235617e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.809979306659992e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(1.0 + 1.154700538379251529018297561j)"
+ },
+ {
+  "name": "o9_41005",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 2,
+  "rows": 13,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   9,
+   11
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.690779162033611e-77
+   },
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.6764569335892805e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.0020631736708754e-76
+   },
+   {
+    "row": 12,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.4044182396254656e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.785714285714285714285714285714 + 0.618589574131741890545516550538j)"
+ },
+ {
+  "name": "o9_41006",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1,
+   -2
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.8254546432755416e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.542600866089209e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.785714285714285714285714285714 + 0.618589574131741890545516550538j)"
+ },
+ {
+  "name": "o9_41007",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.484676792456033e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 6.596434452653174e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(1.0 + 0.577350269189625764509148780502j)"
+ },
+ {
+  "name": "o9_41008",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.2147353189581576e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.6274411548892474e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(-4.38581487529819816758212466443e-65 + 1.154700538379251529018297561j)"
+ },
+ {
+  "name": "o9_41009",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.62252683479461e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.0853147156002596e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "o9_44249",
+  "verified": true,
+  "n_tet": 9,
+  "n_cusps": 1,
+  "rows": 11,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 8,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.2007705834070938e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 8.784315437912211e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.05,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "s118",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -2
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.478963311908015e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.1405744296970893e-76
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.571428571428571428571428571429 + 0.49487165930539351243641324043j)"
+ },
+ {
+  "name": "s119",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.92725035474462e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.221082958467063e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.75 + 0.144337567297406441127287195125j)"
+ },
+ {
+  "name": "s594",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.2707492442343424e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.079089159589675e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(0.5 + 0.288675134594812882254574390251j)"
+ },
+ {
+  "name": "s595",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   1,
+   -2,
+   -1,
+   -1,
+   1,
+   1,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 6.415708965362934e-78
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.756357161416311e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(-6.57872231294729725137318699664e-65 + 0.577350269189625764509148780502j)"
+ },
+ {
+  "name": "s596",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 2,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   4,
+   6,
+   8
+  ],
+  "branch_k": [
+   1,
+   -2,
+   -1,
+   -1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 3,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.199810657496161e-77
+   },
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.2329930036236046e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2543840094964656e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2543840094964165e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(1.64468057823682431284329674916e-65 + 0.577350269189625764509148780502j)"
+ },
+ {
+  "name": "s955",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   0,
+   -1,
+   1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.3637134870186784e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.6396863840639149e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "s956",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   0,
+   -1,
+   1,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.7659327444587655e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.9113393406478604e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "s957",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   1,
+   -1,
+   0,
+   0,
+   -1,
+   1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 9.756247283208842e-78
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.4985770258197673e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "s958",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.5646897175712094e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.3627409711943202e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "s959",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 2,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   4,
+   6,
+   8
+  ],
+  "branch_k": [
+   1,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 3,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.9503471697391544e-77
+   },
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 8.915836395437219e-78
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2915190528545055e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.0192381098814128e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "s960",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   1,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.182426636994264e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.4277338594076734e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "s961",
+  "verified": true,
+  "n_tet": 6,
+  "n_cusps": 1,
+  "rows": 8,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   1,
+   -1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.759584021761311e-77
+   },
+   {
+    "row": 7,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.961212336011488e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.02,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t06828",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 1,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "branch_k": [
+   0,
+   -1,
+   1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 5.765852763392826e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.825145644170231e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(1.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t06829",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 2,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   10
+  ],
+  "branch_k": [
+   -2,
+   0,
+   1,
+   -1,
+   -1,
+   1,
+   1,
+   0,
+   0,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 9.164022567626593e-78
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.0554551380002554e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.3512856571986796e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 9.197710036535945e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(2.16666666666666666666666666667 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t11365",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 1,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.6691188415665482e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.6557343023849932e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12833",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 1,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "branch_k": [
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.5734346663073095e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.1145174918181038e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12834",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 1,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "branch_k": [
+   0,
+   0,
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.4040340484471665e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.870939590181709e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12835",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 1,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "branch_k": [
+   -1,
+   0,
+   1,
+   1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.8451370847595565e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.9490828153878825e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12836",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 2,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   -1,
+   1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.7712395960705275e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.0900888693920682e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.6481397000921157e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.092101757439363e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12837",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 1,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   -1,
+   1,
+   1,
+   0,
+   -1,
+   -1,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.554914436727168e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.005801721778674e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12838",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 1,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   1,
+   -1,
+   0,
+   -1,
+   0,
+   1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.884462905658367e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.3002547916027275e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12839",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 1,
+  "rows": 10,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   1,
+   -1,
+   0,
+   -1,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.7821616021078906e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.305211137375203e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12840",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 2,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   1,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.557082036326241e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.1345704196573807e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.4349585339690762e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.598021271351255e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12841",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 2,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   -2,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.9906405392417042e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.4668398599753363e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.7869300652566436e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.0476925925525638e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12842",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 2,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.6704359640550483e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.53646888632682e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.695905619169613e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.9718766554936066e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12843",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 2,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   -1,
+   1,
+   1,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.142690057008252e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.2357366910704856e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.3691802930688005e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.6442468328559467e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12844",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 2,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   -1,
+   1,
+   0,
+   -1,
+   0,
+   -1,
+   -1,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 5,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.377318891950736e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.2161210805887232e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.6131690442636764e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.5285094074811445e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "t12845",
+  "verified": true,
+  "n_tet": 8,
+  "n_cusps": 2,
+  "rows": 12,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   5,
+   6,
+   8,
+   10
+  ],
+  "branch_k": [
+   0,
+   -1,
+   -1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 4,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.5221497289297075e-77
+   },
+   {
+    "row": 7,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.046655532610006e-77
+   },
+   {
+    "row": 9,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 3.649945834286206e-77
+   },
+   {
+    "row": 11,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.4502778052778403e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "v2873",
+  "verified": true,
+  "n_tet": 7,
+  "n_cusps": 1,
+  "rows": 9,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 3.830936325445931e-77
+   },
+   {
+    "row": 8,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.4009184311517304e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(-0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "v2874",
+  "verified": true,
+  "n_tet": 7,
+  "n_cusps": 1,
+  "rows": 9,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 1.6041697235759706e-77
+   },
+   {
+    "row": 8,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.8370405839858124e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(-0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "v2875",
+  "verified": true,
+  "n_tet": 7,
+  "n_cusps": 1,
+  "rows": 9,
+  "chosen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7
+  ],
+  "branch_k": [
+   1,
+   -1,
+   -1,
+   -1,
+   -1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.4717636447345834e-77
+   },
+   {
+    "row": 8,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 2.7414344102285154e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.04,
+  "shape0": "(-0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "v3551",
+  "verified": true,
+  "n_tet": 7,
+  "n_cusps": 2,
+  "rows": 11,
+  "chosen": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   9
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 0,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 0.0
+   },
+   {
+    "row": 6,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 2.2553050031678144e-77
+   },
+   {
+    "row": 8,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 4.664456228339977e-77
+   },
+   {
+    "row": 10,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.021842714263513e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.03,
+  "shape0": "(0.5 + 0.866025403784438646763723170753j)"
+ },
+ {
+  "name": "m015",
+  "verified": true,
+  "n_tet": 3,
+  "n_cusps": 1,
+  "rows": 5,
+  "chosen": [
+   0,
+   1,
+   3
+  ],
+  "branch_k": [
+   0,
+   0,
+   -1,
+   0,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 2,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 7.936947960742938e-78
+   },
+   {
+    "row": 4,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 1.2444521849684544e-77
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.01,
+  "shape0": "(0.662358978622373012980454427239 + 0.562279512062301243899182144909j)"
+ },
+ {
+  "name": "m016",
+  "verified": true,
+  "n_tet": 3,
+  "n_cusps": 1,
+  "rows": 5,
+  "chosen": [
+   0,
+   1,
+   3
+  ],
+  "branch_k": [
+   0,
+   -1,
+   0,
+   -1,
+   0
+  ],
+  "krawczyk_contractive": true,
+  "im_positive": true,
+  "remaining_rows_ok": true,
+  "remaining": [
+   {
+    "row": 2,
+    "kind": "edge",
+    "D": 1,
+    "exact_F_over_pi_i": "0",
+    "contains_zero": true,
+    "diam": 4.2727795792084797e-78
+   },
+   {
+    "row": 4,
+    "kind": "longitude",
+    "contains_zero": true,
+    "diam": 5.224954998245365e-78
+   }
+  ],
+  "radius": "9.9999999999999992929287939988014500233064511906197367398133222223193004995110860615409765e-41",
+  "prec_bits": 300,
+  "seconds": 0.01,
+  "shape0": "(0.78492014549902663295569997906 + 1.30714127868204548049235257351j)"
+ }
+]

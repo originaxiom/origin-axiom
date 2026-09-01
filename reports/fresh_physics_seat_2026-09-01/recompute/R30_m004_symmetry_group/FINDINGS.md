@@ -1,4 +1,4 @@
-# R26 — Sym(m004) order and amphichirality (closes R3_REPORT §3 gap "D4 order not re-verified")
+# R30 (filed 2026-09-01 as "R26", renumbered: R26 was already B1080/B1011) — Sym(m004) order and amphichirality (closes R3_REPORT §3 gap "D4 order not re-verified")
 
 Date 2026-09-01. Independent SnapPy call, one line, nothing imported from the repo:
 
