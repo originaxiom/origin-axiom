@@ -321,6 +321,18 @@ No invariant may be transferred between these without an explicit map.
   (fiber orientation flip = chirality) — a discrete ℤ/2 closing bit, an item of the
   price. Any sentence saying only "σ" has not stated its subject (the D-iv clause,
   binding).
+- **"κ" names AT LEAST FIVE quantities** (found 2026-09-01 by an external audit, B1233 — and
+  the omission is the point: this register already covered conductor/level/θ-even/σ/π/6 while κ,
+  the repo's most-used symbol, was absent from it). The five: (i) **the raw commutator trace**
+  κ = tr[A,B] — B285 (√3·e^{±iπ/6}), B126, B330, B131, `frontier/README`, and B109 (*"κ=+2 is the
+  void; the parabolic/geometric cusp is κ=−2"*); (ii) **the Fricke commutator-trace DISCRIMINANT**
+  κ = tr[A,M] − 2 — `papers/P3_THE_PAPER/main.tex:696`, defined in-line and internally consistent
+  (a discriminant naturally carries the −2, since an SL(2) element is parabolic iff tr = ±2);
+  (iii) **the stage level** κ (an integer; the θ/Weil level, §"the stage"); (iv) **the conductor**
+  in clock(κ) = ord(A₁ mod 3κ); (v) **the compact pencil** κ (the wall cubic, constant −19³).
+  **Reading rule:** (i) and (ii) differ by exactly 2 — the void is κ=+2 under (i) and κ=0 under
+  (ii), and B1200's "κ−2 = u²" is stated in convention (i). Always say which. **Not an error in
+  either document; a collision that was undocumented.**
 - **"π/6" names TWO objects of OPPOSITE TYPE** (adjudicated by the audit seat's item 2,
   verified): (1) **arg κ = ∓π/6** — the meridian-commutator trace's phase at u = ω, a
   conjugation-invariant TRACE (no basis freedom exists; Test-1 clean by construction),

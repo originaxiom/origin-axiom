@@ -1,9 +1,19 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 2,
+ "unearned": 3,
  "rows": [
   "I-6",
-  "I-7"
+  "I-7",
+  "I-9"
  ],
- "total_rows": 7
+ "total_rows": 9,
+ "_baseline_raises": [
+  {
+   "date": "2026-09-01",
+   "from": 2,
+   "to": 3,
+   "row": "I-9",
+   "reason": "an EXTERNAL proposal registered UNEARNED rather than adopted silently. Raised deliberately, with the discriminator against it recorded in the row (the genus group of disc -15 has order 2, not 4; the glue is lattice data and Gal is field data). This is the ratchet working as designed: new unearned identifications must be raised by hand, never absorbed."
+  }
+ ]
 }

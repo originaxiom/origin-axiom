@@ -1,5 +1,22 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-01, B1234 — THE WALLS TRACE TO A6: THE SQUARING BUYS ORIENTABILITY AND COSTS
+EVERY VALUE)**: owner asked whether a wrong sub-branch built the walls. **It did, and the branch is
+named.** Eight banked walls all pass through one upstream fact — **the mirror is a self-isometry**,
+i.e. amphichirality. **And amphichirality is forced by the construction, not found in the object**:
+orientation double covers are amphichiral **40 of 40 = 100%** against a **3.0%** base rate among
+orientable 1-cusped manifolds; **m004 IS the orientation cover of the Gieseking manifold** (isometry
+verified, volume ratio 2). **And the arithmetic does not need A6**: π₁(Gieseking) ↠ 2T with **48
+surjections, identical to m004's**, same disc −3 class, same trace field ℚ(√−3) — so trace field →
+2T → McKay → E₆ runs without the squaring. **A6 ⇒ double cover ⇒ amphichiral ⇒ all eight walls.**
+P019 labels A6 `[AXIOM]` and B749 priced fork F5 **FRAGILE**, naming the Gieseking — **the record
+priced the choice and never connected it to the walls.** *The walls are properties of a choice made
+at link 6, not of "the minimal something."* **NOT claimed**: that dropping A6 makes values derivable
+— CS, the complex volume and SL(2,ℂ) rep theory all *use* orientation, so it may break the tools.
+Also landed: the **κ collision row** (five meanings; the register that covered conductor/level/θ-even/
+σ/π-6 had omitted the repo's most-used symbol) and **I-9 UNEARNED** with the ratchet baseline raised
+deliberately by hand.
+
 **LATEST (2026-09-01, B1233 — THE Z-AI AUDIT: 15 CONFIRMED, 7 REFUTED, ONE REAL DEFECT IN OUR OWN
 RECORD)**: owner — *take every letter seriously, verify never trust*. Everything recomputed here.
 **CONFIRMED**: the **Rogers dilogarithm partition** L(1/φ) = (3/5)ζ(2), L(1/φ²) = (2/5)ζ(2), summing

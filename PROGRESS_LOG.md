@@ -13127,3 +13127,21 @@ Convergence: two seats, one day, one boundary — **the deriving machinery is ar
 arithmetic cannot emit a continuum.**
 
 ---
+
+## 2026-09-01 — B1234: the walls trace to A6
+
+Eight walls, one join: **the mirror is a self-isometry**. And that is **forced by the construction** —
+orientation double covers are amphichiral **40/40 (100%)** against a **3.0%** base rate; m004 **is**
+Gieseking's cover. The arithmetic survives A6's removal: **48 surjections onto 2T, identical**, same
+trace field.
+
+**A6 ⇒ double cover ⇒ amphichiral ⇒ every wall.** P019 labels A6 an axiom, B749 priced its fork
+FRAGILE — and nobody connected it to the walls. *The walls are properties of a choice at link 6.*
+
+Not claimed: that dropping A6 yields values (it may break the tools — CS, complex volume and SL(2,ℂ)
+rep theory all use orientation).
+
+Also: the κ collision row (five meanings, omitted from a register that covered five other symbols)
+and I-9 UNEARNED with a deliberate, hand-raised ratchet baseline.
+
+---
