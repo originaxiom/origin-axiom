@@ -194,3 +194,22 @@ remaining sweeps + index), and run T9's census-completeness verifier. Batch 3 ca
 after that: the su(3)⊕g₂ descent cell · the B252–B325 literal-flag audit at full
 enumeration (60 files → which are records vs locks) · R2's ten recomputations · sweeps
 S5/S6/S8/S10/S11.
+
+---
+
+## OWNER ELECTION (2026-09-01): "T5, T1, T4 green. act. usage reset, continue full mode."
+
+Recorded and acted on. **T2's sealed CP comparison was NOT elected — it stays HELD.**
+Actions: (1) R1's five remaining recomputation cells + report RESUMED from cache
+(wf_13f17c36); (2) sweep set 1's four remaining sweeps + index RESUMED (wf_f7a1a747);
+(3) **Batch 3 launched** (wf_a1655e4f): G1 the su(3)⊕g₂ descent (T4-green; closes the
+T8b quantifier gap — with the sharp first check that g₂'s all-real representation theory
+may kill registerability at step 1); G2 the T1 unblock attempt (T1-green; compute the 27
+connecting values from committed data, or PROVE underdetermination by exhibiting the
+frame-freedom group, plus the conditional annihilation-locus analysis and a commissioning
+spec for codex); G3 the surface application (T5 adoption + T4/T8a's 12 corrections +
+terminality-draft placement — the campaign's first live-surface edits, house-discipline
+bound, on this branch for owner merge review); G4 T9's owed census-completeness
+verification; G5 the full 60-file literal-flag enumeration (LITERAL-VERDICT vs
+LITERAL-RECORD vs COMPUTED). G1/G2 adversarially verified; G3 consistency-checked with
+gates + doc tests run.

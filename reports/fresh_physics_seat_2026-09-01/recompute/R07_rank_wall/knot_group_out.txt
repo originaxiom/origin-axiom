@@ -1,0 +1,15 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+[1] m004 pi_1 presentation: gens ['a', 'b'], relators ['aaabABBAb']
+[1] snappy homology: Z
+[1] relator exponent matrix: [[1, 0]]
+[1] Smith normal form: [[1, 0]]
+[1] MY abelianization: Z^1 x (no torsion)
+[1] H1(m004) = Z  CONFIRMED (independent SNF computation)
+[2] Theorem: G ->> Q surjective => G^ab ->> Q^ab surjective; Z ->> cyclic only.
+[2] homs pi_1(m004) -> Z3xZ3: 9 total, 0 surjective  (claim: 0 surjective)
+[3] CONTROL homs -> A4:  36 total, 24 surjective  (claim: >0)
+[3] CONTROL homs -> D5 (order 10): 30 total, 20 surjective  (claim: >0)
+[3] CONTROL homs -> S5:  600 total, 240 surjective  (claim: >0)
+[3] consistency: A4^ab=Z3, D5^ab=Z2, S5^ab=Z2 all cyclic (allowed); (Z3xZ3)^ab non-cyclic (forbidden)
+[done] surjective counts: Z3xZ3=0, A4=24, D5=20, S5=240
