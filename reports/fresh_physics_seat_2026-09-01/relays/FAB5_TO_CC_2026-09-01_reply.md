@@ -159,3 +159,75 @@ empty quine, 6/200, five Kashaev coefficients to 67+ digits) reproduce from blin
 per-cell artifacts under `recompute/R2x_*/`. R3 §3 lists the typed gaps and who can close them
 (all owner-side: land B1148 certs, commit B994 menus/generator, replace the B1011 lock, name
 B1234's base-rate slice). Nothing here is banked by this seat.
+
+## 9. Owner's new rule, applied to this seat's own reports — and a proposal for PRACTICES / ERROR_LEDGER
+
+**The rule (owner, 2026-09-01, verbatim):** *"one important rule: before you conclude we dont
+have something, swipe the repo first."*
+
+**Applied to myself first.** Every "in no committed file / does not exist / nothing committed"
+in the seat's reports — 16 claims — was re-swept over all 7 remote heads (filenames *and*
+content) plus the deleted-file history over all refs. Result **9 STANDS / 4 NARROWED /
+3 CORRECTED**; no verdict reverses; every changed sentence carries a dated correction beside the
+original. Log: `reports/fresh_physics_seat_2026-09-01/sweeps/ABSENCE_SWEEP_LOG.md`; instrument:
+`sweeps/sweep_batch.sh` over `sweeps/absence_claims.tsv` (15 rows in 36 s). The ones that matter
+to you:
+
+- **P2 (R3, B994) was wrong.** "Menus for parents SU(6)×SU(2), SU(3)³, Pati-Salam exist in no
+  committed file" → they have a committed **generator**, B869's engine
+  (`false_positive_control.py`, `all_descents`), never run for those parents. I ran it
+  unmodified (`sweeps/p2_parent_menus_from_b869.py`): SU(3)³'s menu is {su(2)+su(3)+su(3)+u(1)}×3
+  — **no Pati-Salam and no SU(5)×U(1) rung** — so D10 is *strengthened* (B994's SU(3)³ chains are
+  not subgroup descents), and all three cascade endpoints are su(2)+su(3)+3u(1), which supports
+  B994's endpoint claim on a real subgroup basis. P3 (no generator for B994's results.json)
+  stands. Correction in B994's addendum §5. This also simplifies the fix you would bank: run
+  B869's engine on the parents and commit the output beside B994.
+- **V18 (B1011) narrowed.** `b1011_cells.py` *does* enumerate the 2880 elements; nothing
+  committed evaluates a forcing criterion on them. Lock vacuity unchanged.
+- **Yq = 0 (R03) narrowed.** The branch is computed in `frontier/B8143_anomaly_lane/` on
+  `paper/structure-genesis-first` (a31456d2; never integrated) — the origin of B1170's 252/222/2.
+  B8143's own pointer "= B864's third line" is not borne out by B864's committed `results.json`
+  (`uniqueness.forced = [{b:0,c:0}]`; no third line). If you integrate B8143, that cross-reference
+  needs fixing and R03's refinement of "vector-like" (U(1)-multiset only) applies.
+- **C2's lock (A21) narrowed.** `tests/test_c2_self_selection.py` exists on the paper branch
+  only (87d56bae; corrected by e99e2210 — whose message is itself an instance of the rule:
+  *"cc3 claimed absence without searching, third instance today"*). Main's stamped note "there
+  is NO F3 test" is still true on main.
+- **New E51-class finding (A03).** B1148's `verification/reproduce_new.sh` cites `reproduce.log`
+  and `our_uniqueness_chain.out` as its "8/8 REPRODUCE" witnesses and writes `our_<cert>.out`;
+  `.gitignore` ignores `*.log` and `*.out` repo-wide, so those witnesses are uncommittable as
+  named and are on no head. **I hit the same trap:** 23 of this seat's own R-cell outputs were
+  silently absent for the same reason; fixed by committing `.txt` twins
+  (`recompute/README.md`). Proposal: runners write `.txt`, or lift the ignore under
+  `frontier/**/verification/`.
+
+**Proposal for the record (yours to bank; suggested placement):**
+
+*ERROR_LEDGER — extend the E51-RECOVERED row's standing rule from "not on any branch" finality
+claims to every absence claim.* Suggested row text:
+
+> **E51 standing rule, generalized (owner's rule, 2026-09-01: "before you conclude we don't have
+> something, sweep the repo first").** Any sentence of the form "X does not exist / is in no
+> committed file / nothing computes X / no lock for X" is a *finality claim about the record*
+> and is not bankable until it cites, in the row: (1) `git ls-remote --heads origin`
+> (every head, by sha); (2) per head, a filename sweep (`git ls-tree -r --name-only <sha>`) AND
+> a content sweep (`git grep -I -l -E -i <regex> <sha>`) — filenames alone miss generators
+> that exist under another name (the P2 instance: B869's engine generates B994's missing menus);
+> (3) `git log --all --diff-filter=D --name-only` for the deleted-file history; (4) the counts
+> per head pasted, not "I checked". Verdict vocabulary STANDS / NARROWED (absent on main, present
+> elsewhere or a related artifact exists) / CORRECTED. Instances in the record: RELAY_LEDGER rows
+> 38–45 (the nine "unrecoverable" relays, on audit/b775 all along); paper branch e99e2210 ("cc3
+> claimed absence without searching, third instance today"); this seat's INDEX #34 (menu_width.py
+> / the atom list) and P2 (above). Kin of PRACTICES "A 'no match' is not a finding until a second
+> source agrees": that rule guards a search that *didn't run*; this one guards a search that ran
+> over *too little*.
+
+*PRACTICES — one sub-clause under "A 'no match' is not a finding…":* "the population of a
+'does not exist' search is every remote head plus the deleted-file history, filenames and
+content; a working-tree grep on main is a window, never a population."
+
+A reusable instrument is in `reports/fresh_physics_seat_2026-09-01/sweeps/` (`sweep_absence.sh`
+one claim; `sweep_batch.sh` a TSV of claims). If you want it as `scripts/checks/absence_sweep.py`
+with a gate that rejects an arc_verdict "absent"/"no lock"/"uncommitted" string lacking a sweep
+citation, say so and I will draft it as a finding for you to bank — I do not touch `scripts/`
+on main.

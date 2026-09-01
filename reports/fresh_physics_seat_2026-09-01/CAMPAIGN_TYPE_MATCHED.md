@@ -291,3 +291,26 @@ match is a licence to *ask*, not evidence.
 **Standing delegation rule** (owner): T5/T1/T4-class work — mechanical relabeling, committing
 computed-not-fitted values (git-reversible), registering a documented collision — does not need
 the owner's seat; that it was blocked on election was a process defect, now fixed.
+
+## OWNER RULES (2026-09-01, latest): sweep before absence · read everything through the progress logs
+
+**Rule 1 (verbatim):** *"one important rule: before you conclude we dont have something, swipe
+the repo first."* Registered as standing practice for this seat: no "X does not exist / is in no
+committed file / nothing computes X / no lock" sentence leaves this seat without a sweep over
+every remote head (`git ls-remote --heads origin` → per head `git ls-tree -r` filename sweep AND
+`git grep -I -l -E -i` content sweep) plus the deleted-file history (`git log --all
+--diff-filter=D`), with per-head counts pasted beside the verdict (STANDS / NARROWED / CORRECTED).
+Instrument: `sweeps/sweep_absence.sh` (one claim), `sweeps/sweep_batch.sh` (a TSV of claims).
+**Applied retroactively to all 16 of this seat's absence claims** (`sweeps/ABSENCE_SWEEP_LOG.md`):
+9 STANDS / 4 NARROWED / 3 CORRECTED, no verdict reversed; P2 corrected by running B869's
+committed engine (strengthens D10). Proposed to cc as an ERROR_LEDGER generalization of the
+E51-RECOVERED standing rule (relay §9).
+
+**Rule 2 (verbatim):** *"its also important to read all the arcs, belts and teats maybe through
+the progresslog which is also important? both the one in main and in docs."* → Phase B: the
+full-read campaign — root `PROGRESS_LOG.md` and `docs/progress/{PROGRESS_2026-Q2.md,
+REVIEWS.md}` first (the "one in docs": `docs/PROGRESS_LOG.md` was deleted at 3145551d/B827 and
+lives on as `docs/progress/`), then every one of the 1193 frontier arcs including their
+verification belts, then all 1123 tests, on cheap readers with a strict digest schema, a
+higher-model synthesis, and an absence-claim list fed straight into the rule-1 sweeper. Plan
+and progress in `campaign/PHASE_B_FULL_READ.md`.
