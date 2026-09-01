@@ -287,3 +287,26 @@ rule-independence to the full menu or exhibits the first non-SM registerable end
 both outcomes bankable, and until it runs, the theorem's honest scope is the restricted
 quantifier above. Minor notes M1/M2 (the level-1 vs forced-level phrasing in the special
 clause; Sp(8)'s classification) are folded into this same fence.
+
+---
+
+## G1 AMENDMENT (2026-09-01, same-day: the scope restriction is NECESSARY, by computation)
+
+The su(3)⊕g₂ descent has now been computed (fresh-seat cell G1, adversarially verified;
+`reports/fresh_physics_seat_2026-09-01/campaign/G1_su3_g2_descent/`). Result:
+**step 1 through su(3)⊕g₂ IS registerable** (27 = (3,7)⊕(6̄,1); chirality lives in the
+su(3) factor despite g₂'s all-real representations), and **every registerable-respecting
+chain through it — six maximal chains — terminates at su(3) (+ abelian dials) with
+generation content {3:7, 6̄:1}, which is NOT the Standard Model.** Consequences, now part
+of this section's honest statement:
+1. **The scope restriction above is the exact boundary of the true theorem, not a
+   caution**: on the specials-inclusive menu, min-dim selects su(3)⊕g₂ (dim 22 < 24) at
+   step 1 and never reaches the SM — wide rule-independence is REFUTED by computation.
+   Over B994's regular menus the theorem stands untouched, and max-dim (the banked rule)
+   is unaffected on either menu.
+2. **Part (i) sharpens: terminality is a property of the (algebra, content) pair, not the
+   algebra** — the SM algebra itself occurs as a NON-terminal intermediate node on the
+   su(3)⊕g₂ branch, with content {(3,2):2, (3,1):3, (6̄,1)} on which su(2)→u(1) stays
+   registerable.
+3. B873's "registerable but cannot win" is confirmed, and its descent — previously
+   computed nowhere — is now on record.
