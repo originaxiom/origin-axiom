@@ -1,0 +1,2 @@
+m=1..300000  failures: 0  []
+v2(m^2+4) for even m: [2, 3] (proof needs subset of {2,3})

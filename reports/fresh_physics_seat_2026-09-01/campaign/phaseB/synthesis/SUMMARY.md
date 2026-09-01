@@ -1,27 +1,30 @@
 # Phase B rollup summary (auto; re-run rollup.py after every landing)
 
-arcs digested 200/1310, red flags 463, absence claims 233, load-bearing claims 501 (of which not (COMPUTED, yes): 152), log entries 604, owner elections captured 91, tests 0.
+arcs digested 456/1310, red flags 1155, absence claims 425, load-bearing claims 1091 (of which not (COMPUTED, yes): 350), log entries 1054, owner elections captured 188, tests 180.
 
 ## red-flag kinds
 
-- OTHER: 75
-- IDENTIFICATION_BY_TYPE: 27
-- MISSING_WITNESS: 21
-- SUPERSEDED_UNMARKED: 20
-- NUMERIC_ONLY_NO_EXACT: 18
-- RETRACTION_NOT_PROPAGATED: 11
-- CLAIM_EXCEEDS_COMPUTATION: 11
-- LOG_DRIFT: 7
-- SELF_REFERENTIAL_LOCK: 6
-- GITIGNORED_WITNESS: 5
-- FITTED_VALUE: 4
-- NO_TEST: 3
-- IMPORTED: 2
+- OTHER: 140
+- MISSING_WITNESS: 60
+- IDENTIFICATION_BY_TYPE: 49
+- SUPERSEDED_UNMARKED: 38
+- NUMERIC_ONLY_NO_EXACT: 33
+- CLAIM_EXCEEDS_COMPUTATION: 21
+- RETRACTION_NOT_PROPAGATED: 20
+- LOG_DRIFT: 13
+- GITIGNORED_WITNESS: 13
+- NO_TEST: 13
+- SELF_REFERENTIAL_LOCK: 9
+- FITTED_VALUE: 5
+- IMPORTED: 3
+- CONTRADICTION: 2
 
 ## arcs with the most red flags
 
+- B796_coupling_campaign: 9
 - B775_phase2_wave1: 6
 - B754_p2_spectral: 5
+- B296_seam_arc_verification: 4
 - B771_phase1_wave1: 4
 - B783_observer_ground_zero: 4
 - B62_opposition_involution: 3
@@ -56,31 +59,32 @@ arcs digested 200/1310, red flags 463, absence claims 233, load-bearing claims 5
 - B156_omega_strict_full_cone: 2
 - B157_metallic_exponent: 2
 - B159_omega_class_dag: 2
-- B756_remaining_doors: 2
-- B759_qp3_integration: 2
-- B766_measurement_torsor: 2
-- B767_stabilizations: 2
+- B199_metallic_exponent_law: 2
+- B210_dual_mckay_hyperbolic: 2
 
 ## load-bearing kinds
 
-- COMPUTED / yes: 356
-- COMPUTED / unknown: 42
-- ASSERTED / no: 20
-- IMPORTED / no: 15
-- ASSERTED / unknown: 13
-- COMPUTED / no: 9
-- UNCLEAR / no: 9
-- ASSERTED / yes: 8
-- IMPORTED / unknown: 7
-- IMPORTED / yes: 7
-- COMPUTED / partial: 2
+- COMPUTED / yes: 745
+- COMPUTED / unknown: 83
+- ASSERTED / no: 49
+- ASSERTED / unknown: 44
+- IMPORTED / no: 42
+- IMPORTED / unknown: 36
+- COMPUTED / no: 17
+- ASSERTED / yes: 16
+- UNCLEAR / no: 12
+- IMPORTED / yes: 12
+- ASSERTED / n/a: 10
+- COMPUTED / partial: 5
+- FITTED / yes: 4
+- IMPORTED / partial: 3
 - FITTED / unknown: 2
-- FITTED / yes: 2
 - UNCLEAR / unknown: 2
+- COMPUTED / yes,: 2
 - COMPUTED / the: 1
 - IMPORTED / n/a: 1
 - COMPUTED/ASSERTED / partially: 1
-- IMPORTED / partial: 1
-- ASSERTED / n/a: 1
+- COMPUTED / yes/unknown: 1
+- ASSERTED/COMPUTED / partial: 1
 - FITTED / no: 1
 - UNCLEAR / yes: 1

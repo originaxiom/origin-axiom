@@ -1,0 +1,769 @@
+{
+ "batch": "arcs_083",
+ "arcs": [
+  {
+   "arc": "B854_centralizer_exact",
+   "source": "main",
+   "files_read": [
+    "frontier/B854_centralizer_exact/FINDINGS.md",
+    "frontier/B854_centralizer_exact/arc_verdict.json",
+    "frontier/B854_centralizer_exact/e6_centralizer.py",
+    "frontier/B854_centralizer_exact/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22]; refutes an incoming su(2)+u(1) 'electroweak' claim (misread K_e6|_C as K_C). | status: NEGATIVE",
+   "log_says": "B854 established the abelian centralizer and was used as the exact E6 build underlying B866/B874/B875/B883-4/B958/B961; log shows no drift from FINDINGS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Cent_e6(2T) = u(1)^4 (all six brackets of the four 2T-invariants vanish)",
+     "where": "e6_centralizer.py lines ~285-313; results.json all_brackets_vanish=true",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact-Q Chevalley E6 built and Jacobi-verified in-script (4000 random triples), invariants built by explicit averaging over 2T, brackets computed and printed/dumped to results.json."
+    },
+    {
+     "what": "K_C_rank = 0 (Killing form of C is degenerate/zero)",
+     "where": "e6_centralizer.py line 304 (hardcoded in the json dump, not from an independent rank call)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes",
+     "why": "Follows trivially and correctly from all_brackets_vanish=true (an abelian algebra has zero Killing form), but the script literally writes K_C_rank=0 as a constant rather than computing Kre for C's own adjoint action; low risk since it is a logical corollary of the computed brackets, not an independent claim."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b854_centralizer.py exists in the repo (verified present) as a lock/regression test; no separate verification/ directory inside the arc; B872/B958/B961/B866 addendum treat B854's build as the reference instrument and re-derive numbers from it independently (cross-arc belt).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean, well-controlled exact computation that refutes a prior numerical claim with a correct diagnosis of the error (restricted vs intrinsic Killing form); scope is honestly bounded to the principal sl2 embedding. Note: the arc's own 'carried forward' item (non-principal embeddings might give non-abelian centralizers) is investigated in scratch material bundled under B866 (see B866's red flags) rather than as its own arc."
+  },
+  {
+   "arc": "B855_wrong_null_audit",
+   "source": "main",
+   "files_read": [
+    "frontier/B855_wrong_null_audit/FINDINGS.md",
+    "frontier/B855_wrong_null_audit/arc_verdict.json",
+    "frontier/B855_wrong_null_audit/results.json",
+    "frontier/B855_wrong_null_audit/wrong_null.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The programme's genericity controls were family members: m003 is commensurable with m004 (index 12 in PSL(2,O_-3)); cc's proposed fix m129 is index 12 in PSL(2,O_-1), the SILVER's class-mate; the repo has no null non-commensurable with both rows. Also: m003 IS amphichiral (contradicting B296's 'non-amphichiral control'), and by Reid no knot complement is commensurable with 4_1, so B438/B440/B443's '4_1~5_2 commensurability class' claim is backwards. | status: PROVED",
+   "log_says": "B855 flagged as an open/carried item multiple times (B977/L143: 'the commensurability fact' PENDING); B858 applies two corrections from B855/B857 to the record; B995 later runs a related census whose own control voids the instrument -- log is consistent with B855's findings, no contradiction found.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "covol PSL(2,O_-3), covol PSL(2,O_-1) via Humbert's formula and L-function evaluation",
+     "where": "wrong_null.py lines 21-32 (L_chi, covolume functions), results.json covolumes",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mpmath-based numeric evaluation of the Dedekind zeta L-function to 30 digits; formula and code both committed."
+    },
+    {
+     "what": "index(m) = vol(m)/covolume(field) is exactly 12 for m004,m003,m136,m129,m135 and 24 for m206",
+     "where": "wrong_null.py lines 53-63; results.json panel[]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "SnapPy-computed volumes divided by the covolume, tolerance 1e-12; numeric (float/mpmath) not exact rational, but that is appropriate since the target ratio is transcendental."
+    },
+    {
+     "what": "m003 is amphichiral; m009/m015 are not",
+     "where": "wrong_null.py lines 65-70",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Direct call to SnapPy's symmetry_group().is_amphicheiral()."
+    },
+    {
+     "what": "No knot complement is commensurable with 4_1 (Reid's theorem)",
+     "where": "FINDINGS.md section 1; wrong_null.py lines 82-85",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Cited as a known theorem (Reid 1991), not reproved here; correctly used as a premise to indict B438/B440/B443's claim."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ subdirectory; single script + results.json; the arc itself functions as an audit/belt on OTHER arcs (B296, B438/B440/B443, B723) rather than having its own belt.",
+   "absence_claims": [
+    {
+     "quote": "the repo has no registered null non-commensurable with both.",
+     "where": "FINDINGS.md line 33"
+    },
+    {
+     "quote": "the programme has never had a valid control, so \"generic vs specific\" has essentially never been tested.",
+     "where": "FINDINGS.md line 100"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Self-reported bug in an earlier draft of this same script: a hardcoded class-value override of computed volumes would have forced every row to index 12 by construction; caught and fixed before banking, and the fix is documented in-code (a positive process note, not a live defect).",
+     "where": "wrong_null.py lines 55-57; FINDINGS.md section 4"
+    }
+   ],
+   "seat_note": "A genuinely valuable self-critical audit: pure number theory / hyperbolic geometry, not physics content, but it materially undermines several other arcs' genericity claims and correctly flags an inverted-polarity error (4_1~5_2 'commensurability') propagating through B438/B440/B443/CAMPAIGN_STATUS."
+  },
+  {
+   "arc": "B856_hearing_family_law",
+   "source": "main",
+   "files_read": [
+    "frontier/B856_hearing_family_law/FINDINGS.md",
+    "frontier/B856_hearing_family_law/arc_verdict.json",
+    "frontier/B856_hearing_family_law/results.json",
+    "frontier/B856_hearing_family_law/hearing_family.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The hearing coupling h = u+ M_odd(R^m L^m) u obeys a PERIOD-5 law across the metallic family, taking five exact golden-pentagonal values with |h|^2 in {1/(phi sqrt5), phi/sqrt5, 1}; the collapse from matrix-period-15 to form-period-5 is nontrivial; Re h is listener-invariant to 2e-16. The proposed sin^2(theta_12)/JUNO reading is REFUTED ON KIND (|h|^2 is the kind-correct quantity and is excluded at -2.35 sigma; the matching Re h is the wrong kind of quantity, in a 1-sigma window with >=17 natural candidates). | status: PROVED",
+   "log_says": "Log records B856 as CORRECTED IN PLACE the same day for five defects (two prior-art failures: the observer-invariance and tone values are B641's, not new); B977/L143 later lists 'the period-5 hearing law' among 13 arcs sitting at PENDING in the ledger; B1010-B1016 restore/re-anchor the underlying u+Mu coupling law and assign B856 to 'the coupling channel' vs B936's 'pair channel'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "h(m) values, |h|^2 in {1/(phi sqrt5), phi/sqrt5, 1}, period-5 vs matrix-period-15",
+     "where": "hearing_family.py lines 90-145; results.json rows[]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Numeric (numpy/cmath float, tolerances 1e-9/1e-12) computation on the SU(3)_2 modular data (imported from B238's su32_wrt.py); not exact rational/symbolic, though the golden-ratio target values are checked against closed-form expressions to 1e-12."
+    },
+    {
+     "what": "h(5) = -1 exactly; golden pair sums to 1",
+     "where": "results.json, hearing_family.py lines 110-116",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same numeric pipeline as above, floats to 1e-12 tolerance, not symbolic exactness despite the word 'exactly' in FINDINGS."
+    },
+    {
+     "what": "The observer-invariance (Re h constant across listener directions) and the five-tone census are B641's, not this arc's",
+     "where": "FINDINGS.md section 0, C1",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown (B641 not in this packet)",
+     "why": "Self-correction citing an external banked arc; not independently re-verified here."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; single script computing to m=20 and dumping results.json; the arc's own self-audit (section 0 CORRECTIONS) functions as an internal belt against prior-art double-counting.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "All h(m) and |h|^2 values are computed with numpy floats/tolerances (1e-9 to 1e-16), not exact symbolic/rational arithmetic, despite FINDINGS.md language like 'h(5) = -1 exactly' and 'the two golden ones sum to exactly 1'.",
+     "where": "hearing_family.py lines 90-145"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Arc self-reports a prior-art failure: the headline observer-invariance claim duplicates B641 (sixteen days earlier, at 44 more digits, over the whole group) and was 'read as new'; corrected in place same day.",
+     "where": "FINDINGS.md section 0, C1"
+    }
+   ],
+   "seat_note": "The refutation of the sin^2(theta_12)/JUNO identification is careful and correct as a kind-mismatch argument, and is the most physics-relevant content here; but the numerical (not exact) computation of a supposedly golden-ratio-exact coupling, plus documented double-counting of a prior arc's invariance result, both call for caution before treating any of this as load-bearing physics."
+  },
+  {
+   "arc": "B857_voice_splitting",
+   "source": "main",
+   "files_read": [
+    "frontier/B857_voice_splitting/FINDINGS.md",
+    "frontier/B857_voice_splitting/arc_verdict.json",
+    "frontier/B857_voice_splitting/results.json",
+    "frontier/B857_voice_splitting/voice_splitting.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "LAW_MAP's H-EAR clause (iii) SILENCE rested on a GREP over B737/B739 artifacts. Replaced by an exact fact: 5 is INERT in Q(sqrt-3) so a_K(5)=0 (the being voice cannot say 5); 3 is RAMIFIED (said at every power); the blindness is mutual (3 inert in Q(sqrt5)). But 5 SPLITS in Q(i) so the SILVER's voice CAN say 5 -- the phenomenon is a prime-splitting-type fact, not a property of voices; H-EAR (iii) over-generalizes. The real blind spot (Hecke eigenvalues of the 17 Gamma_41 newforms) remains uncomputed. | status: PROVED",
+   "log_says": "Log records B857 same-day alongside B856's corrections and cites the same absence-claim critique of B746/FINDINGS.md:30's grep; B858 applies the correction to the record; B957/L124 later re-derives the same field-inertness fact independently ('(-3|5)=-1 so 5 is inert in Q(sqrt-3)... the banked B857 fact re-derived').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Splitting type (ram/split/inert) of primes 2,3,5,7,...,23 in Q(sqrt-3), Q(i), Q(sqrt5); a_K(p) counts",
+     "where": "voice_splitting.py lines 28-49",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Elementary exact number theory using sympy.jacobi_symbol; deterministic, no floats."
+    },
+    {
+     "what": "3 is inert in Q(sqrt5) (mutual blindness)",
+     "where": "voice_splitting.py line 56",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same jacobi_symbol-based splitting() function."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; the arc itself functions as a belt/correction against B746's grep-based absence claim.",
+   "absence_claims": [
+    {
+     "quote": "Grep of the banked voice artifacts (B737/B739): zero golden markers.",
+     "where": "frontier/B746_golden_ledger/FINDINGS.md:30 (quoted in FINDINGS.md line 11)"
+    },
+    {
+     "quote": "H-EAR clause (iii) SILENCE states the golden is \"NEVER emitted through the object's solo continuous channel.\"",
+     "where": "docs/LAW_MAP.md (quoted in FINDINGS.md line 9)"
+    },
+    {
+     "quote": "Whether the 17 certified Maass newforms carry golden markers in their Hecke eigenvalues is a different question and remains uncomputed",
+     "where": "FINDINGS.md line 55"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Arc explicitly documents a case where an absence claim ('zero golden markers') rested on a grep over artifacts that predate the relevant discrete-spectrum arc (B797) by a week -- exactly the pattern this audit is instructed to sweep for.",
+     "where": "FINDINGS.md section 4"
+    }
+   ],
+   "seat_note": "A model of correct practice: replaces a grep-based absence claim with an exact arithmetic fact, and immediately narrows the fact's own scope rather than over-claiming (5 splits in Q(i), so the phenomenon is not general). Pure number theory, no physics observable."
+  },
+  {
+   "arc": "B859_sm_handoff_scrutiny",
+   "source": "main",
+   "files_read": [
+    "frontier/B859_sm_handoff_scrutiny/FINDINGS.md",
+    "frontier/B859_sm_handoff_scrutiny/arc_verdict.json",
+    "frontier/B859_sm_handoff_scrutiny/cascade_gate.py",
+    "frontier/B859_sm_handoff_scrutiny/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "VERIFIED: the Higgs-synthesis (OP) theorem exactly (OP=818626500*sqrt3 at the CM cusp shape, odd under the Cl(O_4)=Z/2 class-group swap). FOUND AN ERROR: the incoming handoff's cascade step-2 gate used h^v(D4)=7 (correct value 6), making the excluded SO(8)xU(1) option actually conformal at dim 29, breaking uniqueness as stated. REPAIRED by gating on chirality (-1 in W) instead of conformality: same winners survive uniquely, and the repair is framework-native. | status: PROVED; also creates_law_reviewed later (B1214, 2026-08-29) classified this arc as AUDIT/CENSUS/LEDGER, not a new law.",
+   "log_says": "Log confirms the OP theorem and the h-dual error/repair narrative in detail (2026-08-03 entry), and every subsequent cascade arc (B860-B873) treats B859's chirality-gate repair as the standing gate; B976 (2026-08-08) later finds B859-B865/B868-B873 were cited on ZERO of the five current synthesis surfaces for five days -- a documentation/propagation failure, not a content contradiction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "h^v(D4) = 6, not the handoff's 7; c(SO(8)_1 x U(1)) = 5 = c(SO(10)_1) so SO(8)xU(1) IS conformal",
+     "where": "cascade_gate.py lines 38-50",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact Fraction arithmetic (dim = rank*(h+1) identity) plus an independent free-fermion cross-check c=N/2 for SO(N)_1."
+    },
+    {
+     "what": "-1 in W(D4) (all reps of SO(8) real, no chiral matter) and Borel-de Siebenthal gives no A4 inside D4",
+     "where": "cascade_gate.py lines 29-31; FINDINGS.md section 3",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "minus1_in_W() is a hardcoded lookup table of standard Lie-theory facts (by family/rank), not derived from an explicit Weyl-group computation in this script; correct as stated but not independently re-derived from root data here."
+    },
+    {
+     "what": "OP = 818626500*sqrt3 at tau=2i*sqrt3, odd under Cl(O_4)=Z/2 swap",
+     "where": "FINDINGS.md section 1",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Verification is described as recomputation of an incoming handoff's j-function/CM-point identities to stated precision (5e-32, 2e-28), but the actual verifying script/witness for this specific numeric claim is not among this arc's committed files (only cascade_gate.py, which covers the h-dual gate repair, is present)."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is itself a scrutiny/verification pass on an incoming handoff (re-derives the OP theorem and re-checks the cascade gate); cascade_gate.py explicitly re-derives banked verdicts as a sanity check within the same run.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The OP theorem verification (818626500*sqrt3, precision claims to 1e-28/1e-32) is described in FINDINGS.md but no script computing it is among the four committed files in this arc directory -- only cascade_gate.py (the h-dual/chirality-gate repair) is present.",
+     "where": "frontier/B859_sm_handoff_scrutiny/ (file listing: only cascade_gate.py, FINDINGS.md, arc_verdict.json, results.json)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "-1-in-W(family,rank) is a hardcoded classification table in code, not computed from the group's own root/Weyl data in this script; correct textbook fact but ASSERTED rather than COMPUTED within this arc.",
+     "where": "cascade_gate.py lines 29-31"
+    }
+   ],
+   "seat_note": "A genuinely useful self-correcting arc (catches and fixes a dual Coxeter number error that would have broken the cascade's uniqueness claim) but the flagship OP theorem's own witness script is not in this arc's committed files, so a stranger cannot reproduce that half from what is here."
+  },
+  {
+   "arc": "B860_step3_bit",
+   "source": "main",
+   "files_read": [
+    "frontier/B860_step3_bit/FINDINGS.md",
+    "frontier/B860_step3_bit/arc_verdict.json",
+    "frontier/B860_step3_bit/results.json",
+    "frontier/B860_step3_bit/step3_bit.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The cascade's step-3 'trit' is a BIT (Borel-de Siebenthal: two-node removals on the A4 extended diagram give exactly {SU(4)xU(1), SM}); the bit maps to the theta-even sector (cores = B2's two BdS maximal-rank subalgebras); dial-stripped, the SU(4)-side generation collapses to vector-like while the SM-side stays chiral. Same-day addendum upgrades this to an exhibited intertwiner (SU(4) side) vs a Schur obstruction (SM side). The SM is selected uniquely under one NAMED, unproven premise: 'the selected option must be registerable by a measurement of the object.' | status: PROVED",
+   "log_says": "Log confirms this arc's joint (owner+seat) authorship and its role reducing the step-3 trit to a bit; subsequent arcs (B861 fused cascade, B978's L134/L132 closures) build directly on B860's dichotomy and treat the registerability premise as the surviving import; B1030 later notes 'the trit' has two referents (B860's bit vs a different Z/3) requiring disambiguation -- a naming risk, not a content contradiction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Borel-de Siebenthal two-node removals on the extended A4 5-cycle give exactly patterns [(3,),(2,1)]",
+     "where": "step3_bit.py lines 30-48",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Direct combinatorial enumeration over all 5-choose-2 node-pair removals on the cycle."
+    },
+    {
+     "what": "theta-splits (even/odd dims) for SU(5), SU(4)xU(1), SM, SU(3)xU(1)^2, via explicit numeric matrices",
+     "where": "step3_bit.py lines 52-97, 130-136",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "numpy QR/lstsq/eigvals numerical linear algebra with tolerances 1e-8 to 1e-10; not exact rational but robust for these small integer-eigenvalue cases."
+    },
+    {
+     "what": "The equivariant intertwiner J on Lambda^2(4) exists (SU(4) side) with equivariance deviation 4.6e-16, det=1; the SM side has a Schur-obstruction multiset mismatch",
+     "where": "step3_bit.py lines 173-227 (addendum)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Explicit construction and numerical equivariance check over 20 random complex matrices; the Schur side is a hand-verified multiset comparison, not machine-checked exhaustively."
+    },
+    {
+     "what": "the registerability premise ('the selected option must be registerable by a measurement of the object')",
+     "where": "FINDINGS.md section 4",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "n/a",
+     "why": "Arc itself explicitly labels this a named, unproven premise -- 'not yet a theorem' -- carried forward as an open item; this is the single load-bearing assumption the whole step-3 selection rests on."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; single script with an inline addendum function; self-scoped as exploratory/joint-session, not preregistered.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The central selection result depends on a premise the arc itself states is 'not yet a theorem' and 'one step from native' -- i.e. the SM's uniqueness at step 3 is conditional on an assumption about what counts as a legitimate physical measurement, not purely on computed algebra.",
+     "where": "FINDINGS.md section 4, section 6 ('What this arc does NOT establish')"
+    }
+   ],
+   "seat_note": "Careful, self-limiting mathematics (exact BdS enumeration plus a real intertwiner/Schur dichotomy) but the physics conclusion ('the SM is selected') hangs on one explicitly-flagged unproven premise about registerability -- the arc is honest about this, which is the main reason to trust the rest of it."
+  },
+  {
+   "arc": "B861_fused_cascade",
+   "source": "main",
+   "files_read": [
+    "frontier/B861_fused_cascade/FINDINGS.md",
+    "frontier/B861_fused_cascade/arc_verdict.json",
+    "frontier/B861_fused_cascade/results.json",
+    "frontier/B861_fused_cascade/fused_cascade.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "ONE principle (maximal residual symmetry among REGISTERABLE options, B860's criterion applied to the 27's generation content) selects E6 -> SO(10)xU(1) -> SU(5)xU(1) -> SM uniquely at every step. A first draft applied the test to COSETS and was self-caught as vacuous (every adjoint coset is multiset-self-conjugate); repaired using the generation as the uniform object. Remaining spine: menu completeness (P5) + one owed definition (registering as a B599 pairing datum). No values. | status: PROVED; later reviewed (B1214, 2026-08-29) and classified NOT A NEW GENERAL PROPOSITION (a result about a specific cell, not a law).",
+   "log_says": "Log confirms the fused-principle narrative and its dependence on B859/B860; B976 (2026-08-08) finds this arc (among B860-B873) was cited on ZERO of five current synthesis surfaces for five days -- a propagation gap the log treats as a process failure, not a retraction of content.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Branching content (multisets of su(n)/so(n) irreps under each candidate subgroup at each cascade step)",
+     "where": "fused_cascade.py lines 41-58 (STEPS table)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The representation-theoretic branching data (e.g. 27 of E6 under SO(10)xU(1) -> {16,10,1}; 16 under Pati-Salam -> {(4,2,1),(4bar,1,2)}) is hardcoded as literal Python tuples from standard Lie-theory tables, not derived from an explicit root-system/branching computation in this script. Standard textbook facts, but ASSERTED here rather than COMPUTED."
+    },
+    {
+     "what": "chiral() multiset-vs-conjugate comparison and the resulting unique winner at each step",
+     "where": "fused_cascade.py lines 30-34, 60-82",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Given the (asserted) branching tables, the chirality test itself and the max-dim winner selection are exact, deterministic Counter comparisons, fully reproducible from the committed script."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; the arc documents its own self-caught first-draft bug (vacuous coset-based test) as an internal check, but there is no independent re-derivation of the branching tables from first principles.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The representation-content menus at each cascade step (which irreps the 27/16/10+5bar decompose into under each candidate subgroup) are entered as hardcoded data matching standard GUT branching tables, not computed from an explicit embedding/root-system construction within this script -- a type-match against textbook group theory rather than an independent derivation.",
+     "where": "fused_cascade.py lines 41-58"
+    }
+   ],
+   "seat_note": "The logical machinery (chirality test, uniqueness argument, self-caught vacuity bug) is exact and well-documented; the underlying representation-branching data it operates on is imported textbook group theory presented as a literal table rather than derived, which is standard practice but worth flagging since the whole cascade's uniqueness rests on that table being complete and correct (acknowledged explicitly as the P5 menu-completeness import)."
+  },
+  {
+   "arc": "B862_global_form",
+   "source": "main",
+   "files_read": [
+    "frontier/B862_global_form/FINDINGS.md",
+    "frontier/B862_global_form/ADDENDUM_2026-08-12.md",
+    "frontier/B862_global_form/ADDENDUM_2026-09-01.md",
+    "frontier/B862_global_form/arc_verdict.json",
+    "frontier/B862_global_form/global_form.py",
+    "frontier/B862_global_form/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The cascade's step-3 winner, as a group inside SU(5), is S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6 (kernel computed exactly, order 6); resolves the SM's own Gamma in {1,Z2,Z3,Z6} ambiguity (Tong 1705.01853), calling this 'the first place in the programme where the selected structure outperforms the SM's own data.' | status: PROVED (verdict file NOT updated after the two addenda).",
+   "log_says": "Log (2026-08-03) records B862 exactly as the FINDINGS state it. B969 (2026-08-08) and B976 quote the 'outperforms the SM's own data' framing approvingly and note B862 was the ONE cascade arc (of B860-B873) that survived synthesis-layer citation. B1210 (2026-08-29) and the THE PAPER currency pass (2026-08-30) flag that sections of the paper draft were 'written from the B862-B1080 band' and needed correction against B1221's later path-independence finding -- consistent with the arc's own 2026-09-01 addendum.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "kernel of SU(3)xSU(2)xU(1) -> S(U(3)xU(2)) is exactly Z6 (all six sixth-root indices)",
+     "where": "global_form.py lines 24-49",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Direct numeric search over a=2*pi*k/12 checking det=1 conditions; small, exact-integer-valued result despite float implementation."
+    },
+    {
+     "what": "Gamma in {1,Z2,Z3,Z6} are all consistent with local SM physics",
+     "where": "FINDINGS.md line 10; global_form.py docstring",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Cited to Tong arXiv:1705.01853, not re-derived here."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; single small script.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "ADDENDUM_2026-09-01.md explicitly deflates two headline claims in the banked FINDINGS.md ('resolving a genuine structural ambiguity of the SM, for free' and 'the first place in the programme where the selected structure outperforms the SM's own data'), stating per B1221 that the Z6 form is path-independent and was 'known since 1980' so 'the selection framing adds nothing... and that is exactly why it is not new.' But arc_verdict.json's claim_one_line was NOT updated and still states the unscoped framing ('resolving a structural ambiguity the SM itself cannot') without any pointer to the addendum's correction.",
+     "where": "frontier/B862_global_form/arc_verdict.json (claim_one_line) vs ADDENDUM_2026-09-01.md lines 9-22"
+    }
+   ],
+   "seat_note": "The Z6-kernel computation itself is correct and exact, but the arc's most-quoted framing ('outperforms the SM's own data', 'for free') has been explicitly deflated by its own later addendum as literature-known and non-novel -- yet the verdict file a downstream reader would consult first still carries the un-deflated framing verbatim."
+  },
+  {
+   "arc": "B863_termination",
+   "source": "main",
+   "files_read": [
+    "frontier/B863_termination/FINDINGS.md",
+    "frontier/B863_termination/ADDENDUM_2026-09-01.md",
+    "frontier/B863_termination/arc_verdict.json",
+    "frontier/B863_termination/results.json",
+    "frontier/B863_termination/termination.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE TERMINATION THEOREM: the fused cascade halts at the SM because the SM is the terminal registerable algebra -- every proper descent (su(2)->u(1), su(3)->su(2)xu(1) regular, the genuine conformal embedding su(2)_4 in su(3)_1, full abelianization) kills registerability, while the SM itself stays chiral (positive control). | status: PROVED. 2026-09-01 addendum adds a prior-art anchor (Georgi 1979, Barbieri-Nanopoulos 1980, Fonseca 2015) for the registerability/survival-hypothesis criterion itself, scoping what remains novel to the specific SM-terminality computation plus B994's rule-independence.",
+   "log_says": "Log confirms the termination theorem's role closing the masterplan critic's G1, and its dependence chain B861->B863; B944 (2026-08-07) cites B863 approvingly as part of a chirality-construction sweep with no contradiction found.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Every proper descent of the SM generation (su(2)->u(1); su(3)->su(2)xu(1) regular; su(2)_4 in su(3)_1 principal-conformal; full abelianization) is vector-like/non-chiral, while the SM itself is chiral",
+     "where": "termination.py lines 39-64",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact Counter-based multiset chirality test (same pattern as B860/B861/B865) on hand-entered branching data for the specific descent multisets."
+    },
+    {
+     "what": "su(2)_4 in su(3)_1 is the genuine conformal embedding (c=2=c) with the 3 branching to the real triplet",
+     "where": "termination.py lines 52-53",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Central-charge Fraction arithmetic (c=3n/(n+h) formula); the branching pattern itself (3 -> triplet) is asserted/entered as data."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "2026-09-01 addendum functions as a prior-art belt check on the registerability criterion; the arc's own script re-derives the SM-side positive control alongside the descents.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean addendum practice here (contrast B862): the prior-art addendum scopes the claim precisely (what is claimable vs known) without contradicting the banked FINDINGS, and the FINDINGS/verdict are left correctly standing since the addendum only adds an anchor rather than deflating the result."
+  },
+  {
+   "arc": "B864_anomaly_ledger",
+   "source": "main",
+   "files_read": [
+    "frontier/B864_anomaly_ledger/FINDINGS.md",
+    "frontier/B864_anomaly_ledger/anomaly_ledger.py",
+    "frontier/B864_anomaly_ledger/arc_verdict.json",
+    "frontier/B864_anomaly_ledger/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE ANOMALY LEDGER (exact): over the full 27/16 every chain U(1) is anomaly-free; over the CHIRAL matter the dials psi, chi become anomalous (an anomalous U(1) cannot be gauged); UNIQUENESS: Q=aY+b*chi+c*psi anomaly conditions force b=c=0 exactly -- hypercharge is the UNIQUE gaugeable abelian direction, its cubic vanishing for free. Does NOT derive the re-anchoring itself. | status: PROVED",
+   "log_says": "Log confirms this exact narrative (2026-08-03) and records a significant process failure downstream: B976 (2026-08-08) finds a later ledger row called hypercharge 'OPEN, the sharpest available target' five days after B864 had derived it -- a documentation-currency failure, not a content contradiction with B864 itself.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Tr psi=0, Tr psi^3=0, [SO(10)]^2 psi=0 over the full 27; same for chi over the full 16",
+     "where": "anomaly_ledger.py lines 36-44",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact integer/Fraction arithmetic on a hardcoded generation-multiplet table (GEN list, lines 29-33) with explicit (dim, Y, chi, psi, T_SU3, T_SU2) quantum numbers per multiplet."
+    },
+    {
+     "what": "psi over the 16 (Tr=16,Tr^3=16,[SO(10)]^2=2) and chi over 10+5bar (Tr=5,Tr^3=125) are nonzero -- anomalous",
+     "where": "anomaly_ledger.py lines 47-51",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same exact arithmetic, different (truncated) multiplet set."
+    },
+    {
+     "what": "b=c=0 forced by the three linear anomaly conditions (grav, [SU3]^2, [SU2]^2)",
+     "where": "anomaly_ledger.py lines 54-68",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy.solve on exact symbolic linear equations built from the same GEN table; fully exact, no floats."
+    },
+    {
+     "what": "The GEN table itself (quantum numbers Y, chi, psi, T_SU3, T_SU2 per SM multiplet)",
+     "where": "anomaly_ledger.py lines 29-33",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes",
+     "why": "Standard SM/GUT quantum numbers entered as literal data; correct and checkable by hand, but not independently derived from a root-system computation within this script (consistent with the standard SM hypercharge assignments, matching sm_hypercharge_free() check which passes)."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; but the script's sm_hypercharge_free() function is itself an internal consistency check (all four Y-anomaly conditions vanish) that functions as a positive-control self-test.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "This is the strongest physics content in the batch: exact-rational derivation that hypercharge is the unique anomaly-consistent gaugeable direction, reproducing (and explaining the origin of) the textbook SM anomaly-cancellation 'miracle'. Fully reproducible from committed code; the underlying quantum-number table is standard and internally cross-checked."
+  },
+  {
+   "arc": "B865_padding_lemma",
+   "source": "main",
+   "files_read": [
+    "frontier/B865_padding_lemma/FINDINGS.md",
+    "frontier/B865_padding_lemma/arc_verdict.json",
+    "frontier/B865_padding_lemma/results.json",
+    "frontier/B865_padding_lemma/padding.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE PADDING LEMMA (proved, one line: adding self-conjugate content to a multiset never flips a chirality verdict; machine-verified on 2000 random multisets) + THE FULL-27 RERUN: every cascade step re-run with the entire descended 27 as ket gives identical verdicts/winners to B861's per-step re-anchored versions, so the referee's 'your ket changes at every step' attack closes. The dropped content is the anomaly ballast (B864) and lands in the nu_R slot. | status: PROVED",
+   "log_says": "Log confirms this closes the critic's G2 and feeds directly into B867's Sakharov-gate S1 (the nu_R/Majorana slot) and B860/B861's residue arguments; no contradiction found.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The padding lemma (M+S = conj(M)+S iff M=conj(M) for self-conjugate S)",
+     "where": "padding.py lines 90-93",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "One-line algebraic proof stated in-code, then machine-verified on 2000 random multiset trials (lines 43-62); genuinely exact combinatorics, deterministic Counter arithmetic."
+    },
+    {
+     "what": "Full-27 rerun: verdicts unchanged at every step (SU(5)xU(1) chiral, Pati-Salam chiral, SM chiral, SU(4)xU(1) vector-like)",
+     "where": "padding.py lines 65-99",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same exact Counter-based chirality test on explicitly listed full-27 branching multisets (hardcoded per-subgroup, as in B861)."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The full-27 rerun functions as its own belt: re-derives B861's per-step results under a different (non-truncated) ket and confirms agreement; the 2000-trial random check on the lemma is a machine-verification lock.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Arc self-reports a caught defect: a first-draft script built multisets from dict literals with duplicate keys, which silently collapse (later keys overwrite), giving wrong singlet counts in an earlier results.json -- no verdict was affected (singlets are self-conjugate, so the lemma itself guaranteed no verdict change), but the recorded data was wrong until rebuilt from lists.",
+     "where": "padding.py lines 76-79; FINDINGS.md section 5"
+    }
+   ],
+   "seat_note": "A genuinely proved, machine-verified combinatorial lemma (rare in this batch to see an actual proof plus exhaustive random check) used correctly to close a real referee objection; the self-reported dict-collapse bug is a good example of the repo's own error-catching process working."
+  },
+  {
+   "arc": "B866_charge_cubic",
+   "source": "main",
+   "files_read": [
+    "frontier/B866_charge_cubic/FINDINGS.md",
+    "frontier/B866_charge_cubic/arc_verdict.json",
+    "frontier/B866_charge_cubic/support_2T_third_route/README.md",
+    "frontier/B866_charge_cubic/support_2T_third_route/results.json",
+    "frontier/B866_charge_cubic/support_2T_third_route/verify_a5.txt",
+    "frontier/B866_charge_cubic/support_2T_third_route/verify_ideals.txt",
+    "frontier/B866_charge_cubic/support_2T_third_route/verify_out.txt",
+    "frontier/B866_charge_cubic/support_2T_third_route/verify_group_fixed.py"
+   ],
+   "files_sampled": [
+    "frontier/B866_charge_cubic/support_2T_third_route/nonprincipal_2T.py (first 120 lines + grep of def/assert/print/sympy)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries exactly three distinguished lines, roots of an irreducible S3 cubic identical (up to rescaling) to the solo seat's mu; multiplicity 16 = the centralizer jump 30->46; common kernel/nullities all reproduced exactly. TYPE so(10)+u(1) CONFIRMED on this seat's own leg (same-day addendum): derived-algebra dim 45, center dim 1 at a 55-digit root. Coset 16+16bar and the 'three generations' reading remain the solo seat's leg / a signature, not a mechanism. | status: PROVED",
+   "log_says": "Log describes this as a flagship two-seat, two-build 'First Measurement Theorem' (B866+B872+B874+B875+B877), promoted to the ledger as P69 (2026-08-04) with exact arithmetic throughout and no floating point in any clause -- consistent with the FINDINGS. Log also separately records B894 asking whether B866's mu and the knot-side torsion tower share primes (support identity found, exponents unrelated) -- a related but distinct question, not a contradiction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The cubic 500716339200t^3 - 159667200t^2 - 28224t + 1, irreducible over Q with Galois group S3, matches the solo seat's mu up to rescaling",
+     "where": "FINDINGS.md section 2 (this arc's own det-polynomial script is not itself in the packet's file list for this arc, only the support/verify scripts and results are)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes (via the independent support scripts)",
+     "why": "Exact rational interpolation from 50 rational points, described in FINDINGS; the discriminant factorization (2^32*3^10*5^2*7^3*11*13^6, non-square) is stated as exact."
+    },
+    {
+     "what": "TYPE check: derived algebra dim 45, center dim 1 at the enhancement root -> so(10)+u(1)",
+     "where": "FINDINGS.md section 2a",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Described as computed at a '55-digit root' with a '15-order spectral gap' -- i.e. a high-precision NUMERIC (not exact rational) root refinement, not committed as a separate witness script in this arc's file list."
+    },
+    {
+     "what": "Non-principal 2T embeddings in E6 give NON-ABELIAN centralizers for most orbits (e.g. dim Cent=4, dim[C,C]=3 for labels 121011 and 001010; dim Cent=35,16,14,11,etc for others)",
+     "where": "support_2T_third_route/results.json orbits[]; verify_out.txt line 2-3; nonprincipal_2T.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact-Q enumeration of all 729 candidate weighted Dynkin diagrams, certified sl2-triples, and exact bracket/rank computation of the centralizer's derived subalgebra for each orbit; this is genuinely rigorous exact-Q code."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This entire arc IS a from-scratch independent recomputation of the solo seat's B866 claim on this seat's own B854 build, using a different method (det-of-pencil-minor vs pencil division); the support directory additionally provides a THIRD independent route (verify_group_fixed.py, building actual group elements rho(g) rather than character theory or invariant transport) -- unusually strong belt coverage for this batch.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The support_2T_third_route/ directory (README says 'supporting scratch, no new claims') contains a full exact census of non-principal 2T-in-E6 embeddings showing MOST non-principal orbits give NON-ABELIAN centralizers -- including at least two orbits (121011, 001010) with dim Cent(2T)=4 and dim[C,C]=3, i.e. structurally su(2)+u(1)-shaped, the exact algebra B854 refuted for the PRINCIPAL embedding. This directly and substantively answers B854's own 'carried forward' open question (non-principal embeddings might yield a non-abelian centralizer) but sits in unbanked scratch material with no arc_verdict.json or FINDINGS.md, so this finding is not tracked as an arc, has no verdict, and would be easy to miss.",
+     "where": "support_2T_third_route/verify_out.txt lines 2-3; results.json orbits (many entries with abelian:false)"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "This arc's own det-polynomial script (the primary instrument computing the S3 cubic and the 46-dim TYPE check) is not among the files listed for this arc in the packet -- only FINDINGS.md, arc_verdict.json, and the support_2T_third_route/ subdirectory (a different, independent route) are present.",
+     "where": "frontier/B866_charge_cubic/ (file listing has no e.g. charge_cubic.py or similar primary script)"
+    }
+   ],
+   "seat_note": "Unusually well-corroborated (three independent routes to the same centralizer structure) but the arc's own primary computation script is absent from the committed files reviewed here, and \u2014 more importantly \u2014 supporting scratch material in the same directory computes non-abelian centralizers for non-principal 2T embeddings, directly bearing on B854's scoped-away 'no non-abelian gauge algebra' claim, yet carries no verdict or FINDINGS and is easy to overlook."
+  },
+  {
+   "arc": "B867_sakharov_gate",
+   "source": "main",
+   "files_read": [
+    "frontier/B867_sakharov_gate/FINDINGS.md",
+    "frontier/B867_sakharov_gate/arc_verdict.json",
+    "frontier/B867_sakharov_gate/results.json",
+    "frontier/B867_sakharov_gate/sakharov_gate.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE SAKHAROV GATE (structural preconditions only, explicitly NOT the asymmetry itself): all three baryogenesis preconditions are structurally present -- S1 (B-violation: the SM-step coset IS the X,Y content, 12=12), S2 (CP violation possible: first N with a physical KM phase is 3, matching B866's S3 triple, inheriting its signature-not-mechanism caveat), S3 (departure from equilibrium: exact Galois-conjugate potential values, one-time self-consuming transition). No asymmetry, rate, temperature, or epoch computed. | status: PROVED",
+   "log_says": "Log confirms this is from the owner's direct question and is explicitly scoped as structural-only, not a value computation; B977/L143 lists the Sakharov gate among 13 PENDING carried items in the ledger -- a synthesis-currency gap, not a contradiction of the content.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "S1: su(5)-coset dim 24-12=12 = dim[(3,2)+(3bar,2)]=12 (X,Y boson content)",
+     "where": "sakharov_gate.py lines 31-37",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Trivial exact integer arithmetic on hardcoded dimensions."
+    },
+    {
+     "what": "S2: physical KM phase count (N-1)(N-2)/2 for N=1..5; first N with a phase is 3",
+     "where": "sakharov_gate.py lines 40-46",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact integer formula, standard particle-physics counting (CKM/PMNS phase counting), reproducible."
+    },
+    {
+     "what": "S3: V(phi)/kappa = -(7+5sqrt5)/12 < 0, barrier (5sqrt5-7)/12 > 0, exact Galois conjugates",
+     "where": "sakharov_gate.py lines 49-62",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact sympy symbolic evaluation of a stated cubic potential at phi and -1/phi; fully exact."
+    },
+    {
+     "what": "The transition 'consumes itself' (Dehn filling destroys the cusp, no re-equilibration channel)",
+     "where": "sakharov_gate.py line 61",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Cited to B737-P2/B852, not re-derived here."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; single small checklist script.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Honestly scoped throughout ('the stage, not the play' repeated explicitly) -- this is exactly the right way to present a structural-preconditions checklist without overclaiming a computed baryon asymmetry; S2's dependence on B866's unproven 'signature not mechanism' generations reading is correctly flagged as inherited, not resolved."
+  },
+  {
+   "arc": "B868_three_involutions",
+   "source": "main",
+   "files_read": [
+    "frontier/B868_three_involutions/FINDINGS.md",
+    "frontier/B868_three_involutions/arc_verdict.json",
+    "frontier/B868_three_involutions/results.json",
+    "frontier/B868_three_involutions/three_involutions.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "G6 CLOSED: the cascade's gate is the LINEAR outer involution lambda -> -w0(lambda) at every level (A4 Dynkin reversal, D5 spinor swap, E6 fold), realized as X->-X^T (A-type) or Ad(det=-1 reflection) (D-type); the ANTILINEAR involution c appears NOWHERE in the cascade (source-scanned) and enters only at layer 8 (the real form). The B780/B784/C21 theta/c conflation cannot recur at cascade level. | status: PROVED",
+   "log_says": "Log confirms this closes G6 and explicitly frames it as preventing a recurrence of a conflation error that 'has killed this programme THREE times' (B780, B784, C21); process note logged that from this arc on, banking commits are gated on a lock run after commit-on-red incidents including B861's and B867's -- consistent, no contradiction found.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "-w0 label maps: A4 reverses Dynkin labels (5<->5bar,10<->10bar); D5 swaps spinor nodes (16<->16bar)",
+     "where": "three_involutions.py lines 32-42",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Direct tuple manipulation matching stated Weyl-group facts for these specific small cases."
+    },
+    {
+     "what": "Fixed core of Ad(diag(1,...,1,-1)) on so(10) is so(9), dim 36 of 45",
+     "where": "three_involutions.py lines 44-49",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Direct combinatorial count of basis elements E_ij-E_ji fixed under the reflection; exact."
+    },
+    {
+     "what": "No complex conjugation of scalars appears anywhere in the cascade's code (B861/B863/B865)",
+     "where": "three_involutions.py lines 69-75",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "A literal text-scan (grep-equivalent) for the strings 'conjugate(' and '.conj()' in the three named source files; a legitimate but shallow absence check -- it proves those exact tokens are absent, not that no antilinear operation is implicitly present under a different name."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; the arc's own check (3) functions as a source-level self-audit rather than an independent belt.",
+   "absence_claims": [
+    {
+     "quote": "no complex conjugation of scalars appears anywhere in the cascade's code",
+     "where": "FINDINGS.md line 29 / three_involutions.py check (3)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The absence claim 'c appears nowhere in the cascade' is established by a plain string grep for 'conjugate(' and '.conj()' in three named files -- a real but narrow check (matches the seat's own stated methodology rule that a grep is not a proof of absence, though here the object being checked is the repo's own small codebase rather than an external mathematical fact, which somewhat mitigates the concern).",
+     "where": "three_involutions.py lines 69-75"
+    }
+   ],
+   "seat_note": "Correctly separates two involutions that had previously been conflated three times in this programme's history; the source-level absence check is a grep, which is exactly the kind of evidence this seat's methodology treats skeptically, though here it is checking the arc's own small, fully-visible codebase rather than reasoning about an external mathematical object."
+  },
+  {
+   "arc": "B869_false_positive_control",
+   "source": "main",
+   "files_read": [
+    "frontier/B869_false_positive_control/FINDINGS.md",
+    "frontier/B869_false_positive_control/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B869_false_positive_control/results.json (first ~60 lines)",
+    "frontier/B869_false_positive_control/false_positive_control.py (first 120 lines)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "G4 CLOSED: the false-positive control PASSES -- the cascade rule is NOT an SM-generator regardless of input. One generic engine (exterior-power labels, uniform BdS branching) re-derives every banked verdict internally, then runs 8+ starts: 21/31 rank<=8 simple algebras are dead at step 0 (E6 the unique exceptional chiral start); Lambda^2/spinorial family starts (su(5..8), so(10), E6) ALL funnel to the SM core (Georgi 1979 family reduction, prior art named); so(14) keeps an EXTRA su(2) (endpoint != SM); the su(6) Sym^2 family lands on su(3)+3u(1), no weak sector at all. Claim decomposes: object->E6+27 is NOT established by this cascade; 27-content+registerability->SM IS robust within that content class. | status: PROVED",
+   "log_says": "Log confirms G4 closure and the specific numbers (eligibility 21/31; so(14) and Sym^2 as the two negative-control cases); also cites this arc approvingly in a later review ('the Sym^2 negative control') with no contradiction found.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "21 of 31 rank<=8 simple algebras die at step 0 (chiral_capable=false), matching -1 in W (A1, all B, all C, D-even, G2, F4, E7, E8)",
+     "where": "results.json cell1.rows[]; false_positive_control.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes (partially reviewed, sample only)",
+     "why": "Sampled the first ~120 lines of the engine and the first ~60 lines of results.json; the eligibility census logic (chiral_capable per algebra) is present and consistent with the claimed 21/31 split, but the full endpoint-census code (branching/descent logic for D-type entries, the Sym^2 negative control) was not fully read in this pass (SAMPLE_CODE mode per the packet)."
+    },
+    {
+     "what": "so(14) keeps an extra su(2) (endpoint SM x su(2)); su(6) Sym^2 family lands on su(3)+3u(1)",
+     "where": "FINDINGS.md section 3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown (not fully verified in this sampled pass)",
+     "why": "Described in FINDINGS as computed by the same generic engine; the D-type/Sym^2-specific branching code was not inspected beyond the first 120 lines in this pass."
+    },
+    {
+     "what": "A canonicalization bug (Lambda^n(n)=Lambda^0(n) distinct labels) was caught by the E6 run itself and fixed",
+     "where": "false_positive_control.py lines 46-56; FINDINGS.md section 1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "The canon() function directly visible in the sampled code, addressing exactly the described bug."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The arc's stated purpose IS to re-derive every prior cascade arc's (B859-B865) verdict from one independent generic engine as an internal consistency check before running the new false-positive controls -- strong self-belt design, though only partially verified in this sampled read.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "This arc's results.json (14219 bytes) and false_positive_control.py (14734 bytes) were only sampled (first ~60/120 lines each per packet SAMPLE_CODE/mode), so the full endpoint-census logic for so(14) and the Sym^2 negative control -- the two cases doing the actual G4 falsifiability work -- was not directly inspected in this pass; the claim_of_record above rests on FINDINGS.md's description of that logic, not on this seat's own read of the code that produces it.",
+     "where": "frontier/B869_false_positive_control/ (packet mode: FULL for FINDINGS.md/arc_verdict.json, implicitly truncated for results.json/false_positive_control.py per this read)"
+    }
+   ],
+   "seat_note": "The design (one generic branching engine, run against multiple starts as a non-vacuity control) is the right shape of check for the vacuity worry it addresses, and the sampled code confirms the eligibility census and a genuine self-caught canonicalization bug; the two cases carrying the actual falsifiability weight (so(14), Sym^2) were not independently verified in this pass due to sampling depth."
+  }
+ ]
+}

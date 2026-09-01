@@ -1,0 +1,326 @@
+{
+"log": "docs/progress/REVIEWS.md",
+"part": 1,
+"entries": [
+{
+"date": "2026-08-09",
+"title": "Review 41 — merges 22-42 from Review 40; the first review under the extended protocol",
+"arcs": ["B979","B980","B981","B982","B983","B984","B985","B986","B987","B988","B989"],
+"established": "First review to run the new step-7 document-currency reading; found two gate bugs (a stale doc-currency freeze marker matched inside a code span, and the retraction-sweep firing on B983's own error table) and re-graded two ladder rungs (X31 Markov blanket coverage self-inflates; X32 feedback re-graded from BLIND to a mechanism-with-a-gap, per B20/B37).",
+"status_words": ["PROVED","NEGATIVE","RE-GRADED","WITHDRAWN","BUG FOUND AND FIXED"],
+"retractions": [{"what": "L77", "of_which_arc": "lead L77 (withdrawn during the 43-lead triage)"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": [
+"3847 passed / 35 skipped / 1 failed (56 min)",
+"25/25 green gates (three added this window, one added today)",
+"43 leads triaged with cc3 (29 STALE-CLOSED, 2 STALE-PREMISE, 12 LIVE)",
+"six OVER-WIDE closures given scope notes",
+"L145: 231 hatches, 220 scores, 167 UNTRIAGED",
+"doc-currency: 4 declared debts (CLAIMS.md lag 134, GUT_REQUIREMENTS_LEDGER lag 36, THEOREM_LEDGER lag 68, TOOLBOX.md lag 618)"
+],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"X31 Markov blanket — still 0 arcs, but a naive grep now returns 2: B984 and B988, the arcs that record its absence. Registering a gap creates hits for the gap, so the coverage measure self-inflates.\" (docs/progress/REVIEWS.md, Review 41 §7c)"},
+{"kind": "ABSENCE_CLAIM", "detail": "\"Six instances of one error class — declaring absent what was already banked (B950, B976, B974, B979, B981) — five caught by the owner and the sixth by the protocol.\" (Review 41, \"This window's character\")"},
+{"kind": "LOG_STRONGER_THAN_LIKELY", "detail": "The review states 'A document explaining the opt-out had opted itself out' about a doc-currency regex bug — framed with narrative flourish beyond the plain bug description."}
+]
+},
+{
+"date": "2026-08-09",
+"title": "Review 42 — 21 merges from ba43478a: the instruments window, and two absences the corpus refuted",
+"arcs": ["B989","B990","B991","B992","B995","B996","B997","B1000","B1002","B1005","B1006","B1007","B1008"],
+"established": "Two BLIND ladder rungs (X1 Born rule, X2 area-law/AdS) had computed arcs behind them and were re-graded SPLIT; two locks (test_b833, test_b806) had been red at HEAD before the window began, undetected because the ~55-minute full suite had not been run to completion; B1007 (arb-Maass attempt) was NEGATIVE and withdrew its own cost claim; B1008 superseded B806's 93.3% aggregate floor with epoch/density locks; the atlas measured as epoch-dependent and 14/14 recent-corpus concepts absent from its lexicon (L148 registered).",
+"status_words": ["NEGATIVE","PROVED","RE-GRADED SPLIT","WITHDRAWN","SUPERSEDED"],
+"retractions": [
+{"what": "B1007's own cost claim", "of_which_arc": "B1007 (arb-Maass attempt, NEGATIVE)"},
+{"what": "B806's 93.3% aggregate floor", "of_which_arc": "superseded by B1008"}
+],
+"owner_elections_verbatim": [
+"\"anything you say we don't have… is either in repo, or needs to be figured out\" (the owner's standing instruction, quoted in Review 42 §4)"
+],
+"numbers_claimed": [
+"suite: 3864 passed, 0 failed, 35 skipped (54:43); gates 26/26",
+"doc-currency: 4 declared debts (TOOLBOX.md lag 638, two reviews old)",
+"relay-debt: 8 banked, 0 declined, 18 open; 7 stale debts escalated by name",
+"X1: B725 — 'FORM forced (+ the quadratic explained), CONTENT open'",
+"atlas: 14/14 of the recent corpus's concepts have no word in it"
+],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"X1 — RE-GRADED SPLIT. B725 is cited in X1's own evidence column ... The rung read 'never asked' while citing an arc that asked.\" (Review 42 §4)"},
+{"kind": "ABSENCE_CLAIM", "detail": "\"X2 — RE-GRADED SPLIT ... B559 is a dedicated arc ... It was cited NOWHERE — not in the ladder, not in LAW_MAP.md.\" (Review 42 §4)"},
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "So the previously banked arc shipped with a red suite: test_b833 and test_b806 were both failing before this window's work began (Review 42 §3), meaning the state asserted by an earlier banking pass was wrong."},
+{"kind": "GITIGNORED_WITNESS", "detail": "Not directly stated in this entry but the recurring theme (memory 51 arcs stale, 'nothing measures it') suggests reproduction artifacts outside the repo's tracked surfaces; flagged for downstream cross-check."}
+]
+},
+{
+"date": "2026-08-11",
+"title": "Review 43 — merges 1-24 from Review 42; the switch-verification / fourth-crossing / WHY-campaign window",
+"arcs": ["B1009","B1010","B1011","B1019","B1024","B1027","B1028","B1029","B1030","B1034"],
+"established": "Memory-currency and L148 (atlas lexicon epoch-blindness) fixed; the McKay tensor law proved exact (ρ₆ ≅ (χ⊗V₂(2I)) ⊕ (V₂(2T)⊗V₂(2I)), 63/63 exact, B1011 THEOREM); frame bits d=2 banked PROVISIONAL (B1024); the phase exclusion (B1027) sealed; value-kernel B1029 SCOPE-fenced; B1034 UNDECIDED (SAME unobstructed/unexhibited). Four disclosed error instances all caught by standing rules; one new error class registered (E22, verdict-before-certificate).",
+"status_words": ["THEOREM","PROVISIONAL","SCOPE-fenced","UNDECIDED","PROVED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": [
+"McKay tensor law: ρ₆ ≅ (χ⊗V₂(2I)) ⊕ (V₂(2T)⊗V₂(2I)), 63/63 exact",
+"frame bits d = 2 (B1024, PROVISIONAL)",
+"three seals spot-verified byte-identical (c58c8a88 · e13d09a5 · 9a46975f)",
+"serial certificate GREEN 2026-08-12: 3967 passed, 54:15",
+"11/11 ladder quotes, 5/5 Task B anchors verified before harvest"
+],
+"red_flags": [
+{"kind": "FITTED_VALUE", "detail": "CLAIMS.md insertion deferred with the blocker named: CLAIMS.md is a declared currency debt (lag 176, B984) — placement into the promoted-claims surface postponed rather than resolved."},
+{"kind": "OTHER", "detail": "B1030 openly declared unsealed (a verification arc — the compute ran before any arc existed, stated in its own header) — a process gap disclosed rather than hidden."}
+]
+},
+{
+"date": "2026-08-12",
+"title": "Review 44 — merges 1-25 from Review 43; the odyssey / plan-execution / verification window",
+"arcs": ["B1031","B1032","B1033","B1034","B1035","B1036","B1037","B1038","B1039"],
+"established": "THE TYPE LAW (B1032, coupling outputs form a finite algebraic menu) and THE BLOCK-COUNT THEOREM (h¹(M;V) = #principal-sl₂ blocks, falsifier CONFIRMED by B1036's ad=6) banked; antisymmetry wall SECTOR-COMPLETE on the double (B632/B1036/B1039); L159 (the gerbe question) registered as reading-gated since the corpus's central structure (a non-neutral Tannakian category) had zero citations despite an owning arc (B700_fiber_functor). Seven disclosed error instances, including a new species 'the sweeper gets swept' (this bench dropped a leg of B704, the audit seat amplified the dropped version with zero greps).",
+"status_words": ["PROVED","THEOREM","DISTINCT","UNDECIDED","PROVED-negative","CHIRAL/DISTINCT/ORTHOGONAL"],
+"retractions": [
+{"what": "B1037 prior identification", "of_which_arc": "B1037 (DISTINCT, prior wrong, recorded in the open)"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": [
+"h¹(M;V) = #principal-sl₂ blocks; ad = 6 (B1036)",
+"multiplicity 5 = 2+2+1 (B1036)",
+"h¹ = ... via B1043 discussed next window",
+"six seals this window; three spot-verified byte-identical (874d9eee · a10ae240 · 6361f222)"
+],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"L159 (the gerbe question — the programme's central structure is a NON-NEUTRAL TANNAKIAN CATEGORY, cited zero times by a corpus owning B700_fiber_functor; reading-gated).\" (Review 44 §3)"},
+{"kind": "OTHER", "detail": "New species registered: \"the sweeper gets swept\" — this bench dropped B704's √−7 leg, the audit seat amplified the dropped version as 'the most valuable single line' with zero greps, caught only when the B704 grep ran (Review 44 §4)."}
+]
+},
+{
+"date": "2026-08-13",
+"title": "Review 45 — merges 1-20 from Review 44; the pattern-campaign / convergence / collision window",
+"arcs": ["B1040","B1041","B1042","B1043","B1044","B1060"],
+"established": "THE FOUR-ARRIVALS CONVERGENCE: four independently-designed results (the door B997/B1019, template/selection split B1040, trit field-descent B1042, Γ-ledger B1044 finding 0 of 20 derivation steps consume the group) converge on one shape; B1043's superlinear creation law and new fact h⁰(M;27)=1 banked; the aperiodic scale-factorisation direction recorded as OWNER-PENDING (not decided this review); B1024's PROVISIONAL banner escalated by name after being stuck two reviews.",
+"status_words": ["PROVED","UNDECIDED","CLOSED EMPTY","ESCALATED"],
+"retractions": [],
+"owner_elections_verbatim": [
+"D3 — the merge posture: DECIDED — integrate-don't-merge is the policy, now written: non-merging seats' work enters main ONLY by verified harvest under fresh IDs; flags harvested at relay; nothing merges. (It was the practice; it is now the rule.)",
+"D4 — the scale-factorisation direction (the aperiodic crossing): RECORDED as OWNER-PENDING, not decided here."
+],
+"numbers_claimed": [
+"h⁰(M; 27) = 1",
+"0 of 20 derivation steps consume the group (B1044, Γ-EMPTY)",
+"parallel suite 3970 → 3996 range across the window",
+"five seals this window (e358be1b · 165d8ef5 · b8544786 · 575ad81b · 0d8776d2)"
+],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"The three-seat observation ... this bench's six, the relay seat's twelve, and the cloud seat's twenty-four are the SAME PROFILE — retrieval/channel/drafting, zero mathematics. The corpus's arithmetic holds; its record-keeping is where every seat fails, identically.\" — a self-assessment worth flagging as a recurring systemic pattern, not resolved."},
+{"kind": "CLAIM_WITHOUT_ARC", "detail": "B1024's three amendment controls escalated by name as 'the oldest live PROVISIONAL banner' — two reviews stuck with no discharge yet in this entry (R45-9)."}
+]
+},
+{
+"date": "2026-08-13",
+"title": "Review 46 — the sweep-and-audit window: nineteen rows to one question, the cost re-frame, and a protocol that survived its own authors",
+"arcs": ["B1060","B1061","B1062","B1063","B1064","B1065","B1066"],
+"established": "The aperiodic election executed (L161 elected GO with control-first binding); B1062 THE BRIDGE CELL sealed and control-exhibited (A8 CONFIRMED via blind pre-registered decoy; A2 twin-derived at all five members; A5 CERTIFIED-ONCE, 18/18 full-triple, 60-digit); THE NOVELTY SWEEP (19/19 triaged, six arithmetic-consuming, all six consuming ONE K, an S₃ cubic with resolvent ℚ(√77)) closed with independent novelty candidates: ONE; THE COST RE-FRAME corrected both seats' prior conflation of a segment measurement with the whole chain; B946's lock found to have asserted over four results.json keys its verify.py never produced since B963, through every green suite ever pinned — repaired.",
+"status_words": ["GO","CONFIRMED","CERTIFIED-ONCE","SEALED","NEGATIVE","MECHANISM KNOWN / CONTENT UNMATCHED"],
+"retractions": [
+{"what": "the banking seat's 'cubic-cyclic' characterization", "of_which_arc": "corrected on-bench during the novelty sweep"},
+{"what": "the audit-bench's x-only retraction on A5", "of_which_arc": "stands on their side per B1062"}
+],
+"owner_elections_verbatim": [
+"L161 elected GO with control-first binding; L162 registered Krutelevich-gated three-valued; L163 the not-run; the provenance rule standing.",
+"the distillation proposal (lab + curated-repo split) is REGISTERED, PENDING the owner's go — nothing outward moves.",
+"the sweep PAUSES at the one K-question (moves only by the three named routes; external contact OWNER-ELECTION only)"
+],
+"numbers_claimed": [
+"A5 CERTIFIED-ONCE: 18/18 full-triple, deterministic, 60-digit",
+"THE NOVELTY SWEEP: 19/19 triaged, twelve layer-only, six arithmetic-consuming",
+"resolvent ℚ(√77) for the one K",
+"B1063: NuFIT 6.0 all-miss, decisive clause fired at 2.21×",
+"B946: four results.json keys asserted since B963, through every green suite"
+],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "\"B946's lock has asserted over four results.json keys its verify.py never produced, since B963, through every green suite ever pinned.\" — a cached/fabricated-looking verification standing undetected across many prior 'green' reviews; classic GITIGNORED/CACHED VERIFICATION defect (E40-shaped)."},
+{"kind": "ABSENCE_CLAIM", "detail": "\"both seats had measured B1044's segment and called it the chain; the end-to-end documents were read whole the same day; the chain's question is COST, not novelty.\" (THE COST RE-FRAME) — an owner-caught mischaracterization by both seats."},
+{"kind": "OTHER", "detail": "New rule adopted from this collision: \"E-numbers for branch-coined classes are assigned at the digest port, never on the branch\" after E39 was independently coined twice the same day for different meanings."}
+]
+},
+{
+"date": "2026-08-20",
+"title": "Review 47 — merges 1-46 from Review 46; THE CROSSING WEEK + THE HANDOFF WAVE + THE 3D COMPLETION + THE CLOSING CAMPAIGN'S PHASE 1 (includes an appended self-review continuation, undated, same window)",
+"arcs": ["B1064","B1065","B1066","B1067","B1068","B1069","B1070","B1071","B1072","B1073","B1074","B1075","B1076","B1080","B1083","B1086","B1088","B1094","B1095","B1098","B1100"],
+"established": "THE LISTENER WAS DERIVED, SEALED AND PROMOTED (B1070/B1071: u3/u6 = the unique Galois-fixed vertex pair, surviving two adversarial attacks); the composition gate banked (B1073); the fourth sealed crossing (B1075) executed as MISS at power; B1074/B1076 closed two structural lanes by their own computations (hierarchy coboundary-carried, invisible to H¹; no value-bearing coset invariant, the 77-signal killed by its own vacuity control); the owner caught this seat's one 'over-fence' (an unearned negative from a run that happened only because the owner pressed) — banked as a correction. A second self-review pass (undated continuation, same anchor window) reported five full-suite certificates green (4034-4057 passed) and one mis-transcribed seal hash (B1071 v2) repaired by an append-only correction row (E47 filed).",
+"status_words": ["SEALED","PROMOTED","MISS","NEGATIVE","THEOREM","DECIDED","OVER-FENCE"],
+"retractions": [
+{"what": "the over-fence ruling (an unearned negative)", "of_which_arc": "B1074's amendment; the run happened because the owner pressed"},
+{"what": "B1071 v2's seal hash", "of_which_arc": "mis-transcribed at write time; repaired with true digest f4af5002…, E47 filed"}
+],
+"owner_elections_verbatim": [
+"the owner caught this seat's one real over-fence (the cannot-seal ruling) — the run happened because they pressed; the correction is banked in B1074's amendment and in the kind table's reading note.",
+"Review 48 runs COLD (route to the audit seat at the owner's word...)"
+],
+"numbers_claimed": [
+"B1075: 18 comparisons priced; MISS-expected prior",
+"B1074: parity law exact over all sixteen structures",
+"B1086: spectrum law 5/2/5 (THEOREM-grade, L79 closed)",
+"suites 45/47/48/49/51: 4034/4039/4045/4048/4057 passed, zero failures",
+"B1071 v1 hash f0b7726d… verified; B1071 v2 true digest f4af5002…"
+],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"The window's governance headline: the owner caught this seat's one real over-fence (the cannot-seal ruling) — the run happened because they pressed.\" — a self-disclosed instance of the seat overstepping sealing protocol, caught externally by the owner, not by internal process."},
+{"kind": "OTHER", "detail": "\"B1071 v2's hash cell was MIS-TRANSCRIBED at write time (matched no version that ever existed; the file is git-witnessed unchanged since its creating commit; custody unaffected).\" — a load-bearing seal-ledger hash was simply wrong for a period."},
+{"kind": "LOG_STRONGER_THAN_LIKELY", "detail": "\"THE SUCCESSOR QUESTION is the week's sharpest object: nature supplies the gauge\" — grandiose framing language layered atop what the entry itself describes as one MISS result plus two structural closures."}
+]
+},
+{
+"date": "2026-08-22",
+"title": "Review 48 — the decadal review (COLD), window B1100-B1134",
+"arcs": ["B1100","B1101","B1119","B1124","B1125","B1126","B1127","B1128","B1129","B1130","B1131","B1132","B1133","B1134","B1137"],
+"established": "Three independent cold fresh-eyes agents (math/overclaim, gate/error-integrity, doc-reflection) re-derived load-bearing numbers rather than trusting cached results; math pass found ZERO confirmed findings (all numbers reproduced, including Vol(m004)=9√3·ζ_K(2)/π², Kashaev-tower denominators 108/7776/12597120/1813985280, det φ = −2/3, Koide's Q, the 39/43 forcedness census). B1134 THE SIMULTANEOUS CLOSING forced the observer's real-structure bill into E₆(−26)=M(𝕆,ℂ) via one conjugation, verified two-bench. B1137 (owner-directed) found 0/18 regulator/SM-ratio matches at base rate 0.0 across 216 cells + 384-cell matched null, closing the value question from the periods/regulators route (Tier B J₃(𝕆) Beilinson regulators still NEEDS-SPECIALIST).",
+"status_words": ["ZERO confirmed findings","PROVED","DISJOINT","NEGATIVE","NEEDS-SPECIALIST","VERIFIED"],
+"retractions": [],
+"owner_elections_verbatim": [
+"R48-3 ... (owner-directed): compute the reachable-and-untested regulators ... in the FORCED J₃(𝕆) domain; sealed scan against SM ratios, firewalled until computed (owner: banking seat) — DONE (B1137, DISJOINT): owner-directed"
+],
+"numbers_claimed": [
+"Vol(m004) = 9√3·ζ_K(2)/π² (Bloch-Wigner, 50 dps, exact identity)",
+"Kashaev-tower denominator factorizations: 108, 7776, 12597120, 1813985280",
+"det φ = −2/3 (78×78 exact-rational from B904's pickle)",
+"39/43 forcedness census (re-ran the checker)",
+"B1137: 0/18 involve a regulator, base rate 0.0, across 216 cells + 384-cell matched null",
+"~93% of arcs repo-wide lack an ARTIFACT_HASHES seal (pre-existing systemic gap, not window-specific)"
+],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"One sub-threshold observation (no ARTIFACT_HASHES seal on B1126-B1132) is a pre-existing systemic gap (~93% of arcs repo-wide), not window-specific — not actioned.\" (Review 48 §1) — a large fraction of the corpus's arcs are unsealed and this was explicitly not acted upon."},
+{"kind": "OTHER", "detail": "B1119 promised an error-ledger entry that was never filed (procedural gap #a in the gate/error-integrity cold pass), only caught by this review's own cold audit."}
+]
+},
+{
+"date": "2026-08-26",
+"title": "Review 49 — merges 1-22 from Review 48; the phase-III-tail + carrier/coupling/peripheral harvest + C4 + the cost class + the two seams",
+"arcs": ["B1135","B1137","B1138","B1139","B1140","B1141","B1142","B1143","B1144","B1145","B1146","B1147","B1148","B1149","B1150","B1151","B1152","B1153","B1154","B1155"],
+"established": "C4 banked an honest negative (single-GUE rejected, B1151) then closed POSITIVE via memo 55's 2-fold superposition of ζ·L(χ₋₃), independently confirmed by codex R009. SEAM-Y = MISMATCH (two independent walls both confirm structure-not-values); SEAM-A = INDETERMINATE leaning MISMATCH (Gate 1 met, Gate 2 — cc3's full arithmetic-CS action of m004 — the missing gate, NEEDS-SPECIALIST). A third failure-class (cc3's B8141: locks reading gitignored files pass on the author's machine but fail on a clean checkout) found and fixed across five harvest-arc tests. Self-audit disclosed six caught errors including a withdrawn overclaim (B1143) and a mis-cited primary-source hash (B1150).",
+"status_words": ["NEGATIVE","POSITIVE","MISMATCH","INDETERMINATE","WITHDRAWN","NEEDS-SPECIALIST"],
+"retractions": [
+{"what": "B1143's 'caught the cloud's error' over-claim", "of_which_arc": "B1143, withdrawn as a cross-frame artifact (memo 25 was right)"},
+{"what": "B1150's primary-source hash citation", "of_which_arc": "B1150, mis-cited 1544989d instead of 981f4c33; corrected 9440f3fd"},
+{"what": "cc3's own '73% / five failures' killed-run detail", "of_which_arc": "B1152, corrected in place as a truncated-log artifact"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": [
+"C4: single-GUE rejected (B1151); closed by memo 55 as 2-fold superposition of ζ·L(χ₋₃)",
+"SEAM-A Gate 1 (ζ₁₂=K(√3) ring class field) met; Gate 2 missing",
+"five harvest-arc tests rerouted from gitignored reproduce.log to committed reproduce*.sh runner"
+],
+"red_flags": [
+{"kind": "GITIGNORED_WITNESS", "detail": "\"cc3 named a third failure class: a lock that reads a gitignored file reports on the author's machine, not the code — on a clean checkout it fails, not skips. Five harvest-arc tests (test_b1147/1148/1149/1150/1153) read the gitignored verification/reproduce.log.\" (Review 49 §3) — direct instance of the GITIGNORED_WITNESS pattern this seat is instructed to flag."},
+{"kind": "ABSENCE_CLAIM", "detail": "\"The provenance debt (window-level). Both seams' codex gate-material lives off-branch and unversioned (~/oa-audit-seat/, not a git repo) — the verdicts were grounded in committed sources and do not lean on it, but this is a real single-homed debt (L181/L183).\" (Review 49 §5)"}
+]
+},
+{
+"date": "2026-08-27",
+"title": "Review 50 — merges 1-18 from Review 49; the masterplan loop + terminal gravity close + charter + qualia synthesis + lose-nothing campaign + seam sitting",
+"arcs": ["B1156","B1157","B1158","B1159","B1160","B1161","B1162","B1163","B1164","B1165","B1166","B1167","B1168","B1169","B1170","B1171","B1172","B1173","B1174"],
+"established": "THE CARRY-LEAK AUDIT found the review-carry chain had silently dropped items twice (R47's misrouted carry, R49 dropping seven of R48's carried items) because the gate checked for no open items in superseded blocks but never verified that a carried item actually recurs; a `_carry_leaks()` check was added and enforced retroactively from R46. Two self-audit over-reaches corrected: the SEAM-A 'leaning MISMATCH' re-lean (adopted from a leading question, later de-leaned) and B1164's 'everything the observer supplies is archimedean' claim (falsified by cc3's B8144 showing the VEV is finite; corrected to ADELIC). E51 (retention-gap: nine relay files lost) found and remedied. The parity law (B1168) and qualia naming (B1169) banked; gravity closed two-seat as the WHERE (B1165).",
+"status_words": ["FALSIFIED","CORRECTED","DECIDABLE","WALLED","INDETERMINATE","DONE","DISCHARGED"],
+"retractions": [
+{"what": "SEAM-A's 'leaning MISMATCH' phrasing", "of_which_arc": "retired; the cold audit's MODERATE correction adopted, split into WALLED vs INDETERMINATE"},
+{"what": "B1164's 'everything the observer supplies is archimedean' claim", "of_which_arc": "falsified by cc3's B8144 (the VEV is finite); corrected to ADELIC"},
+{"what": "L190's direction word 'excess'", "of_which_arc": "B1188 corrected it, retired into RETRACTED_PHRASES with a retraction row (noted here as carried from R51/R52 context)"}
+],
+"owner_elections_verbatim": [
+"the owner's 2026-08-27 standing direction (sends HOLD)",
+"ALL six send-queue items HOLD; THE PAPER owner+cc after the math is exhausted; cc3's papers stay insight; priority = the remaining mathematics"
+],
+"numbers_claimed": [
+"five full-suite certificates: suites 45/47/48/49/51 = 4034/4039/4045/4048/4057 passed (carried context)",
+"B1170 core re-derived: 252/222/2, no sympy.solve",
+"B1165's Vol computed three ways to 50 dps",
+"B1163: 4/14 amphichirality check flagged as likely vacuous (SnapPy isometry_signature bug)"
+],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "\"The review carry chain leaked twice while the gate stayed green: (a) R47 carried R46-6/7/11 '→ R47-10', but R47-10's content is a different item ... (b) R49 named none of R48-4/5/6/7/8/9/10 — seven carried items silently dropped.\" (Review 50 §0) — a direct, named contradiction/gap between this review and prior review entries R47 and R49."},
+{"kind": "OTHER", "detail": "\"A vacuous own-check: B1163's family-wide addendum spot-checked amphichirality via SnapPy's isometry_signature, which returns amphichiral=True even for the chiral 5₂ — the 4/14 check was likely vacuous.\" (Review 50 §2b) — MB12-class vacuity bug in a load-bearing spot-check."},
+{"kind": "OTHER", "detail": "\"E51, the retention-gap event (nine relay files lost; rows the only record)\" — a disclosed data-loss incident."}
+]
+},
+{
+"date": "2026-08-28",
+"title": "Review 51 — merges 1-17 from Review 50; the observer-layer closure + remaining-math queue's first three rows + verify-the-verifier window",
+"arcs": ["B1174","B1175","B1176","B1177","B1178","B1179","B1180","B1181","B1182","B1183","B1184","B1185","B1186","B1187"],
+"established": "The observer layer CLOSED at the cc-rungs: S1 PROVED (one shared involution, B1174; one ℤ/2 class, B1183); S4 SPLIT-ANSWERED (B1184: self-naming without self-signing). The family settled at exactly 112 members (B1186 corrected cc3's B8152 count of 111→112 by one member, exactly certified). Yukawa suppressions organized into THREE mechanisms (B1185). Register-vs-record drift named as a real recurring class: stale beliefs 'QP-1 open' (B762 had already proved it) and L187's 'none executed' (B767 had run six) both corrected. E52 (VERIFIER-DEFECT) filed after five instances across two seats.",
+"status_words": ["PROVED","CLOSED","SPLIT-ANSWERED","GENUINELY THREE","CORRECTED","EXACT"],
+"retractions": [
+{"what": "the register belief 'QP-1 open'", "of_which_arc": "B762 had already PROVED it; corrected in banking arcs"},
+{"what": "L187's 'none executed' belief", "of_which_arc": "B767 had run six; corrected"},
+{"what": "cc3's B8152 family count of 111", "of_which_arc": "corrected to 112 by B1186's independent enumeration"}
+],
+"owner_elections_verbatim": [
+"Mid-window the owner set the standing direction: ALL six send-queue items HOLD; THE PAPER owner+cc after the math is exhausted; cc3's papers stay insight; priority = the remaining mathematics — and the queue became VISIBLE (docs/THE_REMAINING_MATH.md)"
+],
+"numbers_claimed": [
+"THE FAMILY IS 112 (corrected from cc3's 111; boundary member t06829 exactly certified)",
+"amphichirality 14/14 → 83/83 → 112/112",
+"E52 filed: five instances across two seats (B767 x3, B189 x1, B8152 x1)",
+"collection time 178.4s → 15.1s via THE CACHED-RUNNER MOVE (B1178, L184)"
+],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"The stale register beliefs: 'QP-1 open' (B762 had PROVED it) and L187's 'none executed' (B767 had run six) — both corrected in the banking arcs; the register-vs-record drift class is real and the reviews are its backstop.\" (Review 51 §2f)"},
+{"kind": "OTHER", "detail": "\"The sympy subs-on-non-Symbol bug printed a wrong V₄ table (B1174) — caught by HAND-CHECKING k=11 ... The buggy python insert whose success message lied (B1181).\" — two silent-corruption bugs producing wrong tables/messages before catch."}
+]
+},
+{
+"date": "2026-08-28",
+"title": "Review 52 — merges 1-20 from Review 51; THE GRAND COMPUTATION CAMPAIGN: the observer built, the missing list dispositioned, two campaigns converged",
+"arcs": ["B1188","B1189","B1190","B1191","B1192","B1193","B1194","B1195","B1196","B1197","B1198","B1199","B1200"],
+"established": "Owner retired cc3 mid-window and ran the same directive independently through cloud, so this window's convergences are evidence-grade. THE EXISTENCE AUDIT (B1194) found HAVE x12, PROVABLY-CANNOT x8, MISSING=8, and all eight MISSING items were dispositioned. THE Φ₃ UNIFICATION (B1200) merged two audit items into one invariant. THE TWO CAMPAIGNS (B1193) converged independently on the same conclusions (λ as residue, one clock generator, meter three ways). Close-loop batch survival rates disclosed as low (4/5, 1/5, 3/5, 1/5, 1/5, 3/3) — 'a net killer, as designed.' Two self-caught vacuity bugs at the D2 gate (B1197): wrong census swept, then an empty-census vacuity trap silently returned True.",
+"status_words": ["PROVED","NEGATIVE","CLOSED","REFUTED","DISPOSITIONED","RETIRED"],
+"retractions": [
+{"what": "the swept census in the first D2-gate pass", "of_which_arc": "B1197, self-caught: wrong census (112-member family instead of Dehn closings) swept first"},
+{"what": "GC-30/R6's reconciliation", "of_which_arc": "refuted outright, no note banked, described as 'the better outcome'"}
+],
+"owner_elections_verbatim": [
+"under one owner directive — \"no superficial observer work: craft a plan and a campaign and close this forever\"",
+"Mid-window the owner retired cc3 (510b5247) and ran the same directive independently through cloud"
+],
+"numbers_claimed": [
+"batch survival rates: batch1 4/5, batch2 1/5, batch3 3/5, batch4 1/5, batch5A 1/5, batch5B 3/3",
+"THE DISCRETE LADDER: 112/112 on the V_reg integer lattice, mechanism exact at 4.3e-50",
+"THE RELATIONAL BIT: ε=-1 single-signed, trace-invisible 340/340",
+"THE EXISTENCE AUDIT: HAVE x12, PROVABLY-CANNOT x8, MISSING=8 (all 8 dispositioned)",
+"MENU-1: W1 = 11,720, median spacing 3.5e-5"
+],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"I first swept the wrong census (the 112-member shape-field family instead of the Dehn closings ...) and the corrected run then hit a vacuity trap (an empty census made all() return True and print 'MONOTONE' over nothing; caught only because the census size was printed alongside).\" (Review 52 §2a) — MB12-class vacuity bug recurring a third time by the log's own count."},
+{"kind": "OTHER", "detail": "\"A tiering slip the owner caught: batch 1 launched with all 15 agents inheriting the top model against the standing cost rule; stopped within a minute.\" — a cost-control violation caught by the owner, not the process."},
+{"kind": "LOG_STRONGER_THAN_LIKELY", "detail": "\"cc3 RETIRED with a full wind-down\" and framing of convergence as 'evidence-grade rather than self-confirming' — strong epistemic claim resting on the two seats having run the 'same directive blind', which is asserted rather than independently audited in this entry."}
+]
+},
+{
+"date": "2026-08-30",
+"title": "Review 53 — merges 1-32 from Review 52; the window the record audited itself — and the surfaces were found holding seven locks open",
+"arcs": ["B1201","B1205","B1206","B1207","B1208","B1209","B1210","B1211","B1213","B1214","B1216","B1217","B1218"],
+"established": "The dominant theme: the program auditing its own record and repeatedly finding it stale. THEOREM_REGISTRY gained 20 rows of theorems the corpus already held that no surface displayed (B1211's 7 + B1214's 13). Section IX of THE_ROAD had priced ≈8.5 bits of freedom as free that were already forced/settled (phantom freedom), repaired. A new error class E53 (surface non-propagation) was minted after seven same-window instances where a banked, correct result was cited nowhere it was needed and live surfaces kept asserting it open — including a lock (test_the_road.py) that pinned the literal string 'ten genuine open nodes' and so would have failed anyone who corrected the now-stale count. One E39 (verdict-before-certificate) instance occurred: B1218 was pushed before the full suite finished and the suite then failed two tests; main was red for one commit, repaired same day.",
+"status_words": ["PROVED","NEGATIVE","CLOSED","CORROBORATING","REPAIRED","ADJUDICATED"],
+"retractions": [
+{"what": "THE_ROAD §IX's 'free' pricing of the A2 stratum (~4.3 bits), hypercharge direction (~4.17 bits), and spin lift (1 bit)", "of_which_arc": "against already-settled B1112, B1109+B1118, B1141 respectively; repaired with dated notes"},
+{"what": "L175 counted open in two places (THE_ROAD §X and OPEN_LEADS)", "of_which_arc": "against B1110 (PROVED, 'L175 CLOSES'); repaired"},
+{"what": "test_the_road.py's literal-string pin 'ten genuine open nodes'", "of_which_arc": "was enforcing a stale/wrong fact after L175 closed 2026-08-21; repaired to assert the fact, not the string"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": [
+"full suite: 5745 passed, 53 skipped, 0 failed (61 min); 28 governance gates all green",
+"seal-digests: 18 sealed digests recomputed and matching",
+"B1095 recomputed: exactly 7 occurrences of (5,6) across 144 grid points",
+"only 19 of 144 grid points show the two hands' counts agreeing",
+"≈8.5 bits of phantom freedom found and repaired; discrete ledger exactly {C, P}",
+"B1188/B985: live instruments recover object-faces at 79-100%, relation-faces at 6-19%, 132 PROVED on-theme arcs absent from every live surface"
+],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "\"Status exceeding evidence — one found and corrected. THE_ROAD Section IX priced the A2 stratum at ≈4.3 bits, the hypercharge direction at ≈4.17 bits, and the spin lift at 1 bit, all as free, against B1112, B1109+B1118 and B1141 respectively ... ≈8.5 bits of phantom freedom.\" (Review 53 §3) — a direct contradiction between a standing document and already-banked arcs."},
+{"kind": "ABSENCE_CLAIM", "detail": "\"E53 — Surface non-propagation. A result is banked, correct, findable, and cited nowhere it is needed: the arc closes a question and the live surfaces go on asserting it open ... Seven instances, one window.\" (Review 53 §4, full definition)"},
+{"kind": "ABSENCE_CLAIM", "detail": "\"L57's row asserting an open question that B364 (NEGATIVE) had answered, with three settled arcs bearing on it and none cited.\" (Review 53 §4)"},
+{"kind": "OTHER", "detail": "\"test_the_road.py asserted the literal string 'ten genuine open nodes'. L175 had been closed since 2026-08-21, so the test was enforcing the error and would have failed anyone who corrected it.\" — a lock actively preventing correction of a known-stale fact (self-described as neither E38 nor E40, a new failure shape)."},
+{"kind": "OTHER", "detail": "\"One E39 (verdict-before-certificate) instance this window, mine, disclosed rather than found. B1218 was pushed on the targeted gate set before the full suite finished; the suite then failed two tests ... Main was red for one commit.\""},
+{"kind": "ABSENCE_CLAIM", "detail": "\"Cannot certify: that the 45 remaining B1218 candidates contain no further lost lock ... and the ~973 PROVED/NEGATIVE arcs outside every screen remain unswept.\" (Review 53 §2) — an explicit, large, acknowledged coverage gap."}
+]
+}
+]
+}

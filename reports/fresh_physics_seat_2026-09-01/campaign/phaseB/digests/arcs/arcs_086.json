@@ -1,0 +1,482 @@
+{
+ "batch": "arcs_086",
+ "arcs": [
+  {
+   "arc": "B884_yukawa_support",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md", "arc_verdict.json", "levi_charges.json", "levi_charges_r0.json",
+    "levi_charges_r1.json", "levi_charges_r2.json", "make_levi_charges.py",
+    "results.json", "yukawa_support.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- the invariant cubic on the 27 (unique e6-invariant in Sym^3(27), solved exactly over Q: 45 weight-zero triples, support 45/45, every coefficient +-1, nullspace dim exactly 1) and the SM-graded Yukawa-support table: a 7.7-order gap splits 11 coupled cells from 275 zeros, exactly the classic 27^3 > 16.16.10 + 1.10.10 SM-refined; addendum: the 11/286 charge-conserving triples equal the 11 coupled cells exactly (both directions) -- the support is purely charge-forced.",
+   "log_says": "Matches: B883+B884 built the 27 and the exact cubic; the addendum (masterplan W2) is logged as its own entry confirming charge-forcing; B895 confirms at a second prime.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the unique e6-invariant cubic on Sym^3(27): 45 weight-zero triples, nullspace dim 1, all coeffs +-1",
+     "where": "yukawa_support.py steps [1]-[2]; sympy exact nullspace over Q",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script reads rep27.json (external dependency on B883) and solves an exact linear system with sympy; deterministic, no randomness in this step"
+    },
+    {
+     "what": "the 7.7-order gap classifying 11 coupled cells vs 275 zero cells",
+     "where": "yukawa_support.py step [4]; results.json coupled/zero_triples",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "numeric (mpmath, 30-digit precision) but the script, random seed (31), and control values are all committed; gap sizes reported (charge_norm ~1e-21 to 1e-24 for zeros vs max_eval ~1e-12 to 1e-6 for coupled) are explicit in results.json"
+    },
+    {
+     "what": "the addendum's 11/286 charge-conserving-triple count",
+     "where": "FINDINGS.md Addendum",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "no script or JSON file in this arc's directory computes/stores the 286-cell charge-conservation count; the addendum states the result in prose only, no witness file listed"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir; B895 (a later arc) recomputes the 11-cell count at a second prime as an independent confirmation, but that lives in a different arc, not a belt inside B884 itself.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "the addendum's charge-conservation count (11/286) has no committed script or data file in the arc directory -- only asserted in FINDINGS.md prose",
+     "where": "B884_yukawa_support/FINDINGS.md Addendum section"
+    },
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "FINDINGS.md itself flags: 'An exact support proof (per-cell symbolic vanishing) is priced follow-up' -- the 11-vs-275 split is a 30-digit numeric gap classification, not an exact symbolic vanishing proof, honestly disclosed",
+     "where": "B884_yukawa_support/FINDINGS.md section 4"
+    }
+   ],
+   "seat_note": "The cubic and its 45/45 exact support are genuinely computed and reproducible; the SM-grading and coupling table are numeric with an honestly-disclosed precision caveat, and the magnitude hierarchy is explicitly NOT claimed -- a well-fenced structural result, no observable content."
+  },
+  {
+   "arc": "B885_interbreaking",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "interbreaking.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- two structural laws across all three Galois breaking-frame pairs: LAW 1 (each frame's 27-singlet lies entirely inside every other frame's 10-block, zeros at 1e-21 to 1e-26) and LAW 2 (no frame's 16 touches another frame's singlet, zeros at 1e-22); nonzero magnitudes are NOT S3-uniform and are recorded as computed, not claimed as symmetric.",
+   "log_says": "Matches FINDINGS/verdict closely; PROGRESS_LOG also flags the later creates_law_corrected addition (B1214, 2026-08-29): this arc's law status was originally ABSENT and later re-classified to carry a genuine registry law (T-INTERBREAKING-LAWS).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "LAW 1 / LAW 2 coarse 3x3 tables (zeros at 1e-21 to 1e-26)",
+     "where": "interbreaking.py; results.json coarse/coarse_dims",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script pulls B883/B884/B854 dependencies and computes numerically (mpmath 30 digits); results.json stores the exact per-pair numeric tables matching FINDINGS.md's quoted ranges"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir; the arc's own FINDINGS.md notes the laws are later promoted to exact theorems by a separate arc (B886), which functions as an independent re-derivation but is a different arc, not an in-arc belt.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json's 'creates_law_corrected' block records that this arc's law status was originally recorded as ABSENT and was only added retroactively on 2026-08-29 by a separate re-audit arc (B1214) -- the correction is present and dated in the verdict file, so this is properly marked, not unmarked; noting for completeness that the base claim_one_line text itself was never edited, only the metadata block was appended",
+     "where": "B885_interbreaking/arc_verdict.json creates_law_corrected"
+    }
+   ],
+   "seat_note": "Well-fenced structural result with numeric zeros at very small tolerances and an honest note that non-S3-uniform magnitudes are recorded, not claimed as symmetric; the arc's own text flags that an exact (non-numeric) proof is future work, later delivered by B886."
+  },
+  {
+   "arc": "B886_matter_pencil",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "matter_pencil.py", "results_stage1.json", "results_stage2.json", "stage2_laws.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- the matter pencil P(x,lambda)=det(xI-rho(x8)-lambda*rho(x16)) factors exactly over Q as F1^1*F2^8; six joint Pi-weights in two Galois orbits (mult 1, mult 8); B885's two laws upgraded from numerics to exact minimal-polynomial theorems (6/6 ordered pairs); a second, non-isomorphic cubic field discovered for the mult-1 (vacuum) orbit.",
+   "log_says": "Matches; log explicitly states 'THE TWO B885 LAWS ARE NOW THEOREMS ... superseding B885's 1e-26 numerics in strength' -- consistent supersession, properly flagged in both FINDINGS.md and the verdict.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "rho(x8), rho(x16) commute exactly; bivariate charpoly factors as F1^1 * F2^8 over Q",
+     "where": "matter_pencil.py line 57 assert comm == sp.zeros(27,27); results_stage1.json factor_structure",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit sympy assert on exact commutator, plus stored exact polynomial factors in results_stage1.json"
+    },
+    {
+     "what": "LAW 1 and LAW 2 as exact theorems, 6/6 ordered root pairs",
+     "where": "stage2_laws.py; results_stage2.json law1/law2 (all true)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results_stage2.json stores per-pair boolean verdicts (equals_10: true x6, equals_singlet: false x6), matching the FINDINGS claim exactly"
+    },
+    {
+     "what": "the mult-8 orbit's field isomorphic to K=Q[rho]/mu; mult-1 orbit's field NOT isomorphic to K",
+     "where": "results_stage2.json fields_match_K: [false, true]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy field_isomorphism call is exact; boolean pair stored matches the FINDINGS claim"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir in this arc; the arc itself functions as a belt/upgrade for B885's numeric laws.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely exact-arithmetic upgrade of B885's numerics, with committed sympy asserts and stored factorizations that a stranger could rerun; the 'octonion dimension 8 = weight multiplicity' framing is an observation, not an independently justified physical claim, but is presented as such rather than overclaimed."
+  },
+  {
+   "arc": "B887_gate_audit",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": ["audit_reports.json"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- R37-1 executed as a 37-agent workflow panel auditing all 19 governance gates; ~40 HIGH drift findings including two live-demonstrated holes (gate_framing's hardcoded 8-file list missed WORKING_RULES.md; gate_claims validated evidence paths only in the Proven slice); four repairs banked plus a new gate #20 (arc-verdicts) which immediately caught its own missing verdict file before this one was written; ~35 remaining HIGH findings queued for a future repair pass (R38).",
+   "log_says": "Single log entry matches the verdict closely: '37 agents, ~5.5 minutes wall ... two live-demonstrated holes ... four repairs ... gate #20'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "gate_framing blindness to WORKING_RULES.md; gate_claims Proven-slice-only scan; two live-demonstrated exploits, reverted",
+     "where": "audit_reports.json (sampled: head shows gate_knowledge_index, gate_id_collisions, gate_framing findings with concrete failure_demo text and file:line evidence)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "audit_reports.json (97KB, sampled head/tail) records concrete injected-and-reverted test scenarios with file:line citations (scripts/gates/gates.py line numbers); FINDINGS.md states the tree was 'verified clean afterward'"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "the arc's own design is a 37-agent adversarial panel (one agent per gate) plus an explicit verify stage on every HIGH finding -- an internal cross-check structure, though not a separate verification/ directory.",
+   "absence_claims": [
+    {"quote": "Review 37's B877 lesson had no gate at all (FINDINGS without a sibling verdict).", "where": "B887_gate_audit/FINDINGS.md section 1, item 4"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the audit itself sampled only the head and tail of a 660-entry (97KB) JSON of 37 agent reports for this digest -- the bulk of individual gate reports (the ~35 remaining HIGH findings referenced in section 3 of FINDINGS.md) were not independently re-read here, only the two ends of the file and the FINDINGS.md summary of them",
+     "where": "audit_reports.json (SAMPLE_DATA mode, not FULL)"
+    }
+   ],
+   "seat_note": "This is a governance/process arc, not a physics arc -- it audits the repo's own gate machinery rather than computing any physical or mathematical structure; its content is entirely about internal process integrity, appropriately scored NO_OBSERVABLE_CONTENT."
+  },
+  {
+   "arc": "B888_two_fields",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "pencil_factors.json", "results.json", "two_fields.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- three cubics (vacuum-weight field, generic-weight field = K, and mu itself) all share squarefree discriminant part 77 = 7*11, giving one quadratic resolvent Q(sqrt(77)) inside all three S3 Galois closures; an 'exponent echo' (unweighted observation) that the measured exponent pair (4,8) and unmeasured pair (7,11) partition the E6 exponents, with 77 built from the unmeasured pair.",
+   "log_says": "Matches closely; log also carries later addenda (2026-08-18) recording that the W4 formalization of the '77' observation turned out CIRCULAR as the bank stands, and that field discriminant work was part-paid later by B894's addendum.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "all three cubics irreducible, all discs positive, all sharing squarefree part 77",
+     "where": "results.json (generic_cubic, mu, vacuum_cubic disc_factorization and squarefree_part fields)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results.json stores the exact prime-power factorizations of all three discriminants; squarefree_part 77 for all three is directly checkable from the stored factorizations"
+    },
+    {
+     "what": "the exponent echo: measured pair (4,8), unmeasured pair (7,11), 7*11=77",
+     "where": "results.json exponent_echo string; FINDINGS.md section 2",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "explicitly labeled by the arc itself as 'an observation, unweighted... no mechanism claimed' -- arithmetic coincidence (4+7+8+11=exponents, 7*11=77) not independently derived from a mechanism in this arc's own script"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir; later arcs (B894, B902) partly re-derive/extend related quantities (field discriminant proper) but as separate arcs.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md's own later-dated inline update (2026-08-18) states the exponent-echo's proposed formalization (C77) is CIRCULAR as the bank stands ('the only twist-source is the enhancement triple, whose resolvent is K by construction') -- the arc's own text discloses this weakening, so it is not a hidden defect, but the 'exponent echo' remains an unweighted numerological observation with a later-confirmed lack of independent mechanism",
+     "where": "B888_two_fields/FINDINGS.md section 3, inline 2026-08-18 update"
+    }
+   ],
+   "seat_note": "The exact-arithmetic core (three discriminants sharing squarefree part 77) is well-supported and reproducible; the 'exponent echo' is honestly labeled as an unweighted numerology observation, and the arc's own later update confirms no independent mechanism was found for it."
+  },
+  {
+   "arc": "B889_canonical_dictionary",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "canonical_dictionary.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- the convention problem in B885's fine dictionary dissolves into B886's six canonical Pi-blocks (three vacuum lines dim 1, three generic blocks dim 8); the vacuum-to-frame map is a computed bijection; each frame's 12 SM pieces measured against the 6 canonical blocks give three 12x6 tables with identical zero-structure (26/72 per frame); a 'polarization observation' -- every SM multiplet ~99% aligned with a single canonical block, leakages of order 1e-2 to 1e-3 -- is recorded as fenced geometry, no physical mixing-parameter identification made.",
+   "log_says": "Matches closely.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "canonical block dims [1,1,1,8,8,8]; vacuum->frame bijection {0:2,1:0,2:1}",
+     "where": "canonical_dictionary.py line 81 print check against expected dims",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "script computes joint eigenspaces of rho(x8), rho(x16) and prints/asserts-by-inspection the expected [1,1,1,8,8,8] shape; frame map computed and printed"
+    },
+    {
+     "what": "26/72 zero cells per frame, identical across the three frames",
+     "where": "results.json (line 172 in script prints zero-cell counts per frame)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "script computes the 12x6 tables numerically and counts zero cells; consistent with FINDINGS.md's quoted 26/72"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir; downstream arc B896 partially re-analyzes the same tables from a different angle (S3-harmonic decomposition), functioning as an independent re-use rather than a belt.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "The polarization observation is explicitly fenced as basis-independent geometric overlap with no physical mixing-parameter claim -- an appropriately cautious framing for what could otherwise look like a fitted-value flag."
+  },
+  {
+   "arc": "B890_foreign_pair",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "foreign_pair.py", "results.json", "seal.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- sealed two-outcome prereg (seal ea66fc34..., verified unbroken at banking) asks whether the two foreign vacuum lines' 12-piece mass profiles are EQUAL or DISTINCT within each frame; result: DISTINCT in all three frames (max deviations 1.66e-4 to 1.05e-2), against the disclosed prior of EQUAL -- the disclosed prior was wrong and is banked as such.",
+   "log_says": "Matches exactly, including the explicit framing that the wrong prior is 'the prereg discipline doing exactly its job'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "DISTINCT verdict in all three frames, max deviations 1.054e-2, 1.657e-4, 1.724e-3",
+     "where": "foreign_pair.py lines 143-144 (verdict thresholds 1e-9/1e-6); results.json frames.0/1/2.max_dev",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results.json stores full 12-entry profile_a/profile_b vectors per frame and the max_dev/verdict computed from them with fixed, pre-registered thresholds (1e-9 EQUAL, 1e-6 UNSTABLE band, else DISTINCT); numbers in results.json match FINDINGS.md quotes exactly"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir, but the prereg-seal mechanism (SHA-256 of PREREGISTRATION.md in seal.txt, verified unchanged at banking time per FINDINGS.md) is itself a strong methodological safeguard against post-hoc outcome selection.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely well-designed preregistered two-outcome computation with committed seal, both outcomes banking, and an honestly reported wrong prior; the labeling of this as a 'mechanism candidate' for generations is appropriately fenced as candidate-not-mechanism in both FINDINGS.md and the verdict."
+  },
+  {
+   "arc": "B891_matter_extension",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "matter_extension.py", "results.json", "seal.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- sealed prereg (a08398c5..., verified unbroken) extends B890 to matter: are the two foreign 16-subspaces' mass profiles equal or distinct within each frame? Result: DISTINCT in all three frames (4.6e-3 to 1.17e-1), agreeing with the disclosed prior this time; a single observer registers three pairwise-distinguishable matter sectors on one 27. Mechanism-hood explicitly NOT decided.",
+   "log_says": "Matches; later log entries (B1190, B1192, B1196) revisit and partly re-derive B891's mechanism, one flagging 'a false third-cell support caught' during a later close-loop batch -- worth noting as downstream scrutiny, not a contradiction of this arc's own claim.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "DISTINCT verdict all three frames, max deviations 7.2e-3, 4.6e-3, 1.17e-1",
+     "where": "matter_extension.py lines 131-132 (thresholds); results.json frames.0/1/2.max_dev",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results.json stores full profile_a/profile_b 12-vectors per frame; numbers match FINDINGS.md exactly"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir in this arc itself; a much later arc (B1190/B1192, per log) revisits the mechanism question and reports 'a false third-cell support caught' -- suggesting downstream scrutiny found and corrected an over-reach built on top of B891, though B891's own DISTINCT numerical result is not disputed there.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Same careful prereg-seal methodology as B890; the arc explicitly states what is NOT decided (mechanism-hood, since the three 16s overlap rather than being direct summands) -- a well-fenced, non-overclaiming structural result."
+  },
+  {
+   "arc": "B892_second_measurement",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "wall_results.json", "wall_search.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED (verdict text unedited) -- 'z(x1,y*) = su(3) (+) su(2) (+) u(1)^3 EXACTLY: two measurements of the object's own superselection charges take E6 to the Standard Model algebra, skipping SU(5).' FINDINGS.md itself now opens with a correction banner (added 2026-08-08 by arc B950): the mathematics (dim 14, derived 11, centre 3) is untouched, but the phrase 'the Standard Model algebra' overstates by two abelian factors -- su(3)+su(2)+u(1)^3 is 14-dimensional, the real SM gauge algebra su(3)+su(2)+u(1) is 12-dimensional with ONE abelian factor, not three.",
+   "log_says": "DRIFT/CONTRADICTION over time: the original 2026-08-05 log entry repeats the uncorrected 'take E6 to the Standard Model algebra' framing; later entries (B950 2026-08-08, B951 2026-08-08, B1210 2026-08-29) progressively deflate the claim further -- B951 shows the su(3)+su(2)+u(1)^3 landing is exactly the classified A2+A1 Levi subalgebra of e6 (Borel-de Siebenthal 1949/Dynkin 1952), i.e. not a novel discovery but arriving at a 77-year-old catalogued endpoint from a particular route; B1210 explicitly names this as the paper-spine sweep catching an overstated headline.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "dim z(x1,y*) = 14, derived 11, centre 3 (i.e. su(3)+su(2)+u(1)^3, the A2+A1 Levi subalgebra of e6)",
+     "where": "FINDINGS.md section 1; locked by tests/test_b892_smt.py per the correction banner",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "this arc explicitly verifies a computation from a different ('solo') seat's tower end-to-end on this build; the three integers (14, 11, 3) are locked in a committed test, and later arcs (B961) re-derive them from scratch independently, strengthening reproducibility"
+    },
+    {
+     "what": "the wall (second-measurement charge) is complex, not real, at the split-frame root",
+     "where": "wall_search.py; wall_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "det14 evaluated numerically at 30 digits, sign positive => a^2<0 => a imaginary; a 120-point + golden-section real-line scan committed and stored in wall_results.json"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "explicitly a verification arc of a 'solo seat' tower, re-running their exact route end-to-end on this build; also cross-verified again by B961 from scratch later.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json's claim_one_line text still reads verbatim 'take E6 to the Standard Model algebra' -- the correction banner lives only in FINDINGS.md and a metadata field (creates_law_reviewed); the verdict's own headline sentence was never edited to reflect either the B950 dimension-count correction (14 vs 12) or the B951 finding that the endpoint is a 77-year-old catalogued Levi subalgebra, not a novel landing",
+     "where": "B892_second_measurement/arc_verdict.json claim_one_line"
+    },
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "the original claim ('takes E6 to the Standard Model algebra') is off by construction: the computed object is 14-dimensional with THREE abelian factors, while the real Standard Model gauge algebra su(3)+su(2)+u(1) is 12-dimensional with ONE abelian factor -- a category error between 'a Levi subalgebra containing the SM factors' and 'the SM algebra itself', caught two corrections later (B950, B951) but never repaired in this arc's own verdict file",
+     "where": "B892_second_measurement/arc_verdict.json vs B950/B951 per PROGRESS_LOG.md"
+    }
+   ],
+   "seat_note": "The raw computation (14/11/3, the wall's complex nature) is solid and independently reproduced elsewhere, but the arc's own verdict-of-record still carries an overstated headline ('the Standard Model algebra') that two later corrections (B950: dimension mismatch; B951: this is a 77-year-old classified Levi subalgebra, not a discovery) never propagated back into the verdict file itself -- a textbook SUPERSEDED_UNMARKED case worth flagging prominently."
+  },
+  {
+   "arc": "B893_omega_vs_measurement",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "omega_cell.py", "results.json", "signature_and_walls.py", "signature_results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- three cells: (1) the Chevalley involution omega is an automorphism (checked on 2000 exact bracket pairs) but transverse to the measurement torus C (none of x8,x14,x16,x22 is an omega-eigenvector); (2) signature census: measured plane (x8,x16) is entirely SPLIT (real ad-eigenvalues, 48 each), unmeasured (x14,x22) entirely COMPACT (imaginary, 66 each), with small float-borderline counts (1,1,7) flagged as tolerance noise; (3) the second-measurement wall is complex at all three Galois roots of mu (Galois-uniform).",
+   "log_says": "Matches; log notes a follow-up arc (B898) later makes cell 2's dichotomy exact, resolving the 'generic-complex' float borderlines as kernel noise -- consistent upgrade of the same claim, properly attributed to a different arc.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "omega automorphism check on 2000 exact bracket pairs; transversality to C",
+     "where": "omega_cell.py; results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit exact bracket-pair checks over Q(rho), committed script and results"
+    },
+    {
+     "what": "signature census 48-vs-0 (split) and 66-vs-0 (compact), small generic-complex counts (1,1,7)",
+     "where": "signature_and_walls.py; signature_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "float census (mpmath eigenvalues) with tolerance classing; the arc itself flags the small generic-complex counts as float-borderline, honestly disclosed rather than hidden"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir here; the arc's own float-census cell 2 is later made exact by a separate arc (B898, per log), functioning as an external belt rather than an in-arc one.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "the signature census (cell 2) is explicitly 'float census (mpmath eigenvalues, tolerance-classed)' with generic-complex float-borderline counts (1, 1, 7) at the tolerance edge -- honestly flagged in FINDINGS.md, later fully resolved exact by B898",
+     "where": "B893_omega_vs_measurement/FINDINGS.md Cell 2 header and note"
+    }
+   ],
+   "seat_note": "A methodologically careful arc that explicitly separates 'mathematics above is the claim' from a firewalled physics-reading paragraph, and honestly flags its own float-precision limitations rather than hiding them; the observer-reads-split-directions framing is correctly fenced as interpretation, not result."
+  },
+  {
+   "arc": "B894_meditation_trio",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "m4_bridge.json", "m4_bridge.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- (M4) support identity TRUE: the small-prime block (p<=13) of the adjoint torsion tau_ad equals supp(disc mu) = {2,3,5,7,11,13} exactly, but NO exponent identity holds (honest negative); none of tau_ad's 12 larger primes (17...160453) enters disc(mu). (M6 keystone) a four-column concordance: measured charges (x8,x16) <=> theta-odd exponents (4,8) <=> tau_m>0 <=> split ad-spectrum; unmeasured (x14,x22) <=> theta-even (7,11) <=> tau_m<0 <=> compact spectrum, with 7*11=77=shared resolvent. ADDENDUM (2026-08-18): a ramification-clause error is corrected in place -- the golden 5 is model-borne (5^2 in disc(mu) via the non-maximal model Z[t]/mu), not ramified in the true field discriminant disc K = 6237 = 3^4*7*11 (5 unramified, splitting [1,2]).",
+   "log_says": "Matches; the addendum is logged separately (2026-08-18 entry: 'the corrections bank: two audit-seat catches verified and landed') and explicitly credits an external audit seat's catch, independently bench-verified with sympy rather than trusting the audit seat's own script -- a clean correction-propagation example.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "support identity: smallblock(tau_ad) == supp(disc mu) = {2,3,5,7,11,13}",
+     "where": "m4_bridge.py main(); m4_bridge.json support_identity: true",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script uses hardcoded TAU values labeled '(banked B581 ... repo-official)' and DISC_MU '(B866)', both IMPORTED constants rather than recomputed in this script; the set-comparison itself is exact (sympy factorint) and reproducible from the committed numbers"
+    },
+    {
+     "what": "the addendum's corrected field discriminant disc K = 6237 = 3^4*7*11, monogenic model, 5 unramified",
+     "where": "FINDINGS.md Addendum 2026-08-18",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the addendum states the correction was 'verified on this bench by independent computation (sympy, exact; not the audit seat's script)' but no script file for this specific reduced-model computation appears among this arc's committed files (only m4_bridge.py, which implements the original M4 bridge, not the addendum's field-discriminant check) -- likely lives in a different arc/lock (test_c28_ramification.py) not included in this packet"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ dir; TAU and DISC_MU values are IMPORTED from B581 and B866 respectively rather than recomputed here, so this arc's own reproducibility depends on those upstream arcs' committed values being correct.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IMPORTED",
+     "detail": "TAU (B581 block torsions) and DISC_MU (B866 discriminant) are both hardcoded constants imported from other arcs' banked results rather than recomputed in this arc's script -- correct practice (avoids redundant recomputation) but means this arc's 'support identity' claim is only as trustworthy as those two upstream banked values",
+     "where": "B894_meditation_trio/m4_bridge.py TAU and DISC_MU constant definitions"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "the FINDINGS.md addendum's corrected field-discriminant computation (disc K = 6237, Dedekind criterion at 3) references a lock 'tests/test_c28_ramification.py' but no script performing this specific computation is present among this arc's committed files",
+     "where": "B894_meditation_trio/FINDINGS.md Addendum, Registry line"
+    }
+   ],
+   "seat_note": "A base-rate-honest arc (explicitly notes the six-smallest-primes coincidence is weak evidence alone, and that the converse -- no large tau_ad prime entering disc mu -- is what makes it non-vacuous) with a genuinely well-handled in-place correction of an earlier ramification error, credited to an external catch and independently re-verified rather than merely trusted."
+  },
+  {
+   "arc": "B895_27_suite",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "belt_project.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- four cells closing Phase-0 debts: (1) z6c exact color algebra su(3) with Casimir spectrum {0 x9, 4/9 x18}, tr(h^3)=0 on the triplet space (color content 3+3bar, vector-like); (2) z6d Z6-kernel readout at prime 40123 (9 singlets covered 9/9, 6 triplet cells covered 18/18); (3) belt639's initial 17-vs-11 anomaly at a second prime (40639) diagnosed and dissolved: 15 fine cells project to exactly 11 coarse (X1,Y) classes at both rng seeds, confirming B884's charge-forced 11-cell Yukawa support at a second prime; (4) solo-suite verdict tuples (hypercharge rank 3/4, G20 20/19/1, Z2 obstruction prod c=-1, texture 11=11) get dedicated locks.",
+   "log_says": "Single log entry matches closely.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "exact color Casimir spectrum {0 x9, 4/9 x18}, tr(h^3)=0 on triplet space",
+     "where": "results.json z6c_exact_color",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results.json stores the exact eigenvalues as rational strings ('0', '4/9') with multiplicities and the all_solo_gates:true flag"
+    },
+    {
+     "what": "belt639 projection: 17 fine allowed triples -> 11 coarse couplings at both seeds 7 and 11",
+     "where": "belt_project.py; results.json belt639 block",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results.json stores fine_allowed_seed7:17, fine_allowed_seed11:17, coarse_allowed_seed7:11, coarse_allowed_seed11:11, b884_confirmed:true, matching FINDINGS.md's quoted numbers exactly; script comment notes it needs an env var HANDOFF4_RUN pointing to a run dir from a 'solo seat' handoff to fully re-run from scratch"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "this arc IS itself a belt: it re-runs (with patched paths) a separate 'solo seat's' handoff-4 suite end-to-end on this build, and additionally recomputes the Yukawa-support cell count at a second, independently chosen prime (40639) with two rng seeds as a robustness check on B884.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "FINDINGS.md states belt_project.py requires setting HANDOFF4_RUN to 'the handoff-4 run dir' to re-run the full suite from scratch, and that the rest of the suite is 'the solo seat's handoff-4 scripts (patched paths), run in the session scratchpad' -- a session scratchpad run is not a committed reproducible path; a stranger cloning this repo cannot rerun the full belt without locating that external handoff-4 directory, which is not part of this arc's committed files",
+     "where": "B895_27_suite/FINDINGS.md 'Files' section"
+    }
+   ],
+   "seat_note": "The strongest of this batch's cross-checks: an independent second-prime, two-seed reproduction of B884's headline 11-cell Yukawa support, with the initial apparent 17-vs-11 discrepancy correctly diagnosed as a finer eigenspace classification rather than silently discarded or hand-waved."
+  },
+  {
+   "arc": "B896_s3_harmonics",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "s3_harmonics.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- S3-harmonic decomposition of B889's dictionary tables: (1) after correcting a caught model error (rows also permute under frame relabeling, not just blocks), the three tables jointly align into one table with trivial (frame-symmetric) fraction 0.99963 and standard (frame-breaking) fraction 3.72e-4, concentrated exactly in B889's leakage rows; (2) the sealed cells' (B890/B891) per-frame deviations are near-maximally frame-breaking (standard fraction 0.549 and 0.598 against a 2/3 bound); (3) the sign isotypic is absent from C^3=trivial+standard, so the banked Z2 commutation cocycle (prod c=-1, from B892) is identified as the sign class living in oriented pair data instead -- a placement theorem, not a new computation.",
+   "log_says": "Matches; a later arc (B900) resolves what it calls 'B896's sign puzzle' -- the frame-1 float best-fit permutations are shown to exactly equal an inter-orbit twist composition, confirming (not contradicting) B896's 0.99963 result under exact-grade re-derivation.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "trivial fraction 0.99963, standard fraction 3.72e-4, alignment via joint block-perm x Hungarian row-assignment solve",
+     "where": "s3_harmonics.py; results.json alignment block (residuals 0.0, 0.0167, 0.00046 per frame)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results.json stores per-frame singlet_perm/octet_perm/row_map/residual and the trivial/standard fractions are computed deterministically from the aligned B889 tables (float, on banked artifacts, as the arc's own status line states)"
+    },
+    {
+     "what": "sign isotypic absent from C^3 = trivial + standard; Z2 cocycle placed as the sign class in oriented pair data",
+     "where": "FINDINGS.md Result 3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "described as 'rep theory, exact' but the specific representation-theoretic argument (why C^3 has no sign component, and why oriented pair data carries it) is stated in FINDINGS.md prose without an obviously corresponding computed check in results.json; more a mathematical argument than a numeric result, so 'COMPUTED' is only partly apt"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "explicitly built on and re-analyzing banked artifacts from B889/B890/B891/B892 rather than fresh independent computation; a later arc (B900) further cross-checks the frame-1 permutation finding, functioning as an external belt.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "arc status line self-labels this as 'computed (float, on banked B889/B890/B891 artifacts; exact pass registered as follow-up)' -- the headline 0.99963/3.72e-4 split is float, not exact, and the arc itself registers the exact version as a to-do (N7), honestly disclosed",
+     "where": "B896_s3_harmonics/FINDINGS.md header status line"
+    }
+   ],
+   "seat_note": "A careful re-analysis that explicitly reports catching its own initial model error (fixed-row alignment giving a bimodal residue) before arriving at the joint block+row alignment; the physics-flavored language ('mixing-shaped') is fenced to isotypic decomposition of pre-existing structural numbers, not a claim about any measured mixing parameter."
+  }
+ ]
+}

@@ -1,0 +1,573 @@
+{
+"batch": "arcs_016",
+"arcs": [
+
+{
+"arc": "B296_seam_arc_verification",
+"source": "main",
+"files_read": ["FINDINGS.md","NOVELTY.md","VERDICTS.md","arc_verdict.json","verdict.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Adversarial re-run of every seam-arc probe yields zero refutations and zero firewall leaks, strengthening B287 (homology-forced uniqueness), B288 (174 closings) and B291, with the classical math correctly attributed.' status: PROVED",
+"log_says": "B855 (2026-08-02) found m003 IS amphichiral (is_amphicheiral()=True), directly contradicting VERDICTS.md's own line that m003 is a 'non-amphichiral control' used to argue the CS sign law is object-specific not a SnapPy artifact; also flagged (B289/B296's 164/164 m136, 168/168 m135 claims) as 'reportedly holding' and 'explicitly NOT verified in this arc — queued for independent recomputation'.",
+"log_consistency": "CONTRADICTION",
+"load_bearing": [
+{"what":"0 refutations, 0 firewall leaks across the red-team of B287-B295, SEAM-THESIS","where":"verdict.py lines 16-27 (REDTEAM_VERDICTS, N_REFUTED, N_FIREWALL_LEAKS)","kind":"ASSERTED","reproducible_from_committed":"no","why":"REDTEAM_VERDICTS is a hardcoded dict of string labels; there is no committed script that re-runs the B287-B295 reproducers and outputs these verdicts — the verdict() function only checks that hand-entered constants equal certain values, i.e. it is a self-consistency check on asserted claims, not a recomputation."},
+{"what":"B288 extended to |p|,|q|<=12, 174 closings, 0 arithmetic","where":"FINDINGS.md lines 13-14; verdict.py line 25 (EXTENDED_CHECKS)","kind":"ASSERTED","reproducible_from_committed":"no","why":"the '174 closings, 0 arithmetic' figure is stated and encoded as a constant (EXTENDED_CHECKS['B288_arithmetic_up_to_12']=0) but the sweep script that produced it is not in this arc's files."},
+{"what":"m003 is a 'non-amphichiral control' making the CS sign-law finding (0/38 vs 38/38) object-specific","where":"VERDICTS.md line 16","kind":"ASSERTED","reproducible_from_committed":"no","why":"this claim is later directly contradicted by B855's is_amphicheiral() computation (per log); no correction is present in the FINDINGS/VERDICTS files as read here."}
+],
+"belt": "RE-READS",
+"belt_note": "verdict.py encodes the red-team/novelty outcomes as constants and asserts internal-consistency booleans (REDTEAM_VERDICTS values, EXTENDED_CHECKS equalities); it does not re-run any of the B287-B295 reproducers itself.",
+"absence_claims": [
+{"quote":"the audit found no direct prior art this pass, so they are flagged conservatively (a fuller literature round is pending)","where":"NOVELTY.md line 18-19"},
+{"quote":"no prior work connecting a knot/3-manifold character-variety peripheral symplectic structure to the Kodama/Λ-as-time idea was found","where":"NOVELTY.md line 24 (table, claim 4b)"},
+{"quote":"the audit ... could not locate direct prior art for the three novel connections (3, 4b, 5)","where":"NOVELTY.md line 28-29"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"CONTRADICTION","detail":"VERDICTS.md's claim that m003 is a 'non-amphichiral control' (load-bearing for the CS-sign-law object-specificity argument) is contradicted by B855's later direct computation that m003 IS amphichiral; the FULL files read here show no correction.","where":"VERDICTS.md line 16; contradicted per log_index B855 2026-08-02"},
+{"kind":"SUPERSEDED_UNMARKED","detail":"the m003-control error stands uncorrected in the FULL FINDINGS/VERDICTS/verdict.py files sampled, even though the log shows it was identified and named as an error in a later arc (B855).","where":"B296 FINDINGS.md, VERDICTS.md"},
+{"kind":"MISSING_WITNESS","detail":"the '174 closings, |p|,|q|<=12, 0 arithmetic' extension is asserted as a constant with no committed reproducer script in this arc.","where":"verdict.py line 25"},
+{"kind":"SELF_REFERENTIAL_LOCK","detail":"verdict() only checks that hand-entered dict/constant values equal other hand-entered expected values (REDTEAM_VERDICTS all SURVIVES, NOVELTY set-equality) — proves internal bookkeeping consistency, not that the underlying red-team/novelty claims are true.","where":"verdict.py lines 47-58"}
+],
+"seat_note": "This is a self-graded red-team: the 'adversarial pass' and its 0-refutations tally are asserted constants, not a re-run reproducer, and the one falsifiable factual claim it leans on (m003 as a non-amphichiral control) is directly contradicted by a later arc's direct computation with no correction visible in these files."
+},
+
+{
+"arc": "B297_consolidation_v4",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","wall_map_v4.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Folds the seam arc B286–B296 into the five-wall map v4 and relocates the structural theorem to the seam, without settling any wall or the CRUX.' status: OPEN",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"five-wall status classification (DISSOLVED/REDUCED/OPEN->MECHANISM-AT-SEAM/CHARACTERIZED/QGAP)","where":"wall_map_v4.py lines 37-57 (WALLS dict)","kind":"ASSERTED","reproducible_from_committed":"no","why":"the wall statuses are prose judgments hand-encoded as dict values; consistency() only checks the dict has 5 keys with those exact status strings, not that the underlying physics assessment is correct."},
+{"what":"the structural theorem ('selective for own structure, catalogue for SM-values')","where":"wall_map_v4.py lines 60-65","kind":"ASSERTED","reproducible_from_committed":"unknown","why":"a summary restated from B294, cited not re-derived here."}
+],
+"belt": "NONE",
+"belt_note": "consistency() is a tautological check that the hand-written dicts have the expected keys/lengths/status-string set — it recomputes nothing about the object.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"SELF_REFERENTIAL_LOCK","detail":"consistency() checks only that WALLS has 5 entries with a specific status-string set and SEAM_ARC has 11 entries — this is bookkeeping over the arc's own prose, not a verification of any claim.","where":"wall_map_v4.py lines 86-90"}
+],
+"seat_note": "A pure documentation/consolidation arc restating prior banked claims as a Python dict; its 'verification' function checks only its own bookkeeping shape, so it adds no new evidentiary weight beyond the arcs it cites."
+},
+
+{
+"arc": "B298_generation_obstruction",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","generation_obstruction.py","verdict.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3.' status: NEGATIVE",
+"log_says": "B562 (probation, 2026-07-13): P13 'generations-via-triality' tombstoned, '27 splits 9+9+9, the wrong 3, grounded in B298/B299'; B987 (2026-08-09): doublet-triplet splitting 'BOUNDED as external (B298/B299)'; B1033 (2026-08-11): 'B280/B298's walls stand.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"figure-eight invariant trace field ℚ(√−3) is degree 2, disc -3, Galois group ℤ/2","where":"verdict.py lines 34-39 (trace_field_is_degree2, via sympy discriminant)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"sympy Poly/discriminant call is present and directly checkable by a stranger."},
+{"what":"3-fold covers of m004 (SnapPy): exactly 1 cover, H1=Z/4+Z/4+Z","where":"generation_obstruction.py lines 32-41 (snappy.Manifold('m004').covers(3))","kind":"COMPUTED","reproducible_from_committed":"yes","why":"real SnapPy call, though requires sage-python/SnapPy environment to run; code is committed and self-contained."},
+{"what":"seven-route multiplicity table (all give 1 or 2, never 3)","where":"verdict.py lines 14-22 (MULTIPLICITY_ROUTES)","kind":"ASSERTED","reproducible_from_committed":"no","why":"most of the seven entries (SU(3)_family in SU(6), mu_3 on the 27, trace-map fixed points) are cited to other banked arcs (B280, B299) rather than computed in this file; only two rows (H1/covers) are locally computed."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "verdict.py (pyenv) independently re-derives the trace-field-degree-2 fact via sympy, separate from generation_obstruction.py's sage/SnapPy cover count — a genuine second, independent check of the arithmetic core.",
+"absence_claims": [
+{"quote":"the number 3 appears everywhere as a value ... but never as a matter multiplicity","where":"FINDINGS.md lines 19-22"},
+{"quote":"the figure-eight does NOT force three generations","where":"generation_obstruction.py line 43 / verdict.py print statement"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "One of the cleaner arcs in this batch: the core arithmetic fact (degree-2 trace field) is genuinely computed and independently re-checked in two languages; the surrounding seven-route table leans on citations to other arcs rather than fresh computation, but the negative conclusion itself is well-supported."
+},
+
+{
+"arc": "B299_trinification_triality",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","trinification_triality.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The commuting (θ,φ) ℤ₃×ℤ₃ are inner E₆ lattice automorphisms acting freely on the 27 as nine 3-orbits — the trinification triality — so no φ-eigenvalue can grade the 27.' status: PROVED",
+"log_says": "B565 (2026-07-13): 'B299's (theta,phi) IS Boyle's SO(8) triality (100% weight-level match)'; B578/B579 (2026-07-14): 'ω = B299's ℤ/3: VERIFIED' flagged as an attribution error ('not verified'; B578-D8 adjudicating), later B578-D8: 'B299's (θ,φ) on the 27 = {1:9, ω:9, ω²:9} exact' (moot/computed).",
+"log_consistency": "DRIFT",
+"load_bearing": [
+{"what":"THETA, PHI form a commuting order-3, det-1 Z3xZ3 preserving a genuine E6 Cartan matrix (det 3)","where":"trinification_triality.py lines 32-59 (is_z3xz3, fixed_dims, preserves_E6)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"straight sympy Matrix algebra, self-contained, directly checkable."},
+{"what":"THETA, PHI matrices themselves (the specific 6x6 integer matrices)","where":"trinification_triality.py lines 32-36","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"the matrices are stated to come 'from the external exploration' (a separate, non-origin-axiom repo, 'origin-sm-dynamics') and are simply embedded as constants; their derivation is not reproduced here, only their algebraic properties are checked."},
+{"what":"θ, φ act freely on the 27 (9 orbits of size 3, zero fixed weights)","where":"trinification_triality.py lines 62-95 (orbit_structure_on_27, BFS weight generation)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"the 27-weight BFS and orbit computation is real, self-contained sympy/python code."}
+],
+"belt": "NONE",
+"belt_note": "no separate verdict.py in this arc's directory; the single file both computes and asserts its own verdict() with no independent re-check.",
+"absence_claims": [
+{"quote":"phi acts freely (no fixed weights), so there is NO per-weight phi-eigenvalue to grade the 27","where":"FINDINGS.md lines 20-21"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"LOG_DRIFT","detail":"the progress log (B565) attributes an additional, stronger identification — 'B299's (theta,phi) IS Boyle's SO(8) triality (100% weight-level match)' — that is not present anywhere in the FULL FINDINGS/code sampled for B299 itself; the arc's own files make no mention of Boyle or SO(8).","where":"log_index B565 2026-07-13 vs B299 FINDINGS.md/trinification_triality.py (silent on this)"},
+{"kind":"IDENTIFICATION_BY_TYPE","detail":"the log's '100% weight-level match' to Boyle's SO(8) triality is exactly the kind of numeric/dimension coincidence the seat is instructed to flag as a licence-to-ask rather than evidence, and it is not corroborated anywhere in this arc's own committed files.","where":"log_index B565"}
+],
+"seat_note": "The E6/27-orbit computation itself is genuine and reproducible, but the two seed matrices are imported unverified from an external, non-audited repo, and the progress log attaches to this arc a much stronger claim (identity with Boyle's SO(8) triality) that the arc's own files never make or support."
+},
+
+{
+"arc": "B300_cross_chat_sm_attempt",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","cross_chat_sm_attempt.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absent).' status: NEGATIVE",
+"log_says": "B1000+B1001 (2026-08-09): 'Three incompatible counts existed and no arc reconciled them (B717: 4 · B300: 8 · sweep: ~8)' — sealed with declared prior 'OUTCOME B, >4 — expected to correct B717,' i.e. this arc's own 'eight external inputs' figure was one leg of an acknowledged three-way count mismatch, only reconciled ~40 days later.",
+"log_consistency": "CONTRADICTION",
+"load_bearing": [
+{"what":"the ~8 external Column-B inputs collapse to exactly 2 walls","where":"FINDINGS.md lines 10-19; cross_chat_sm_attempt.py lines 38-42 (COLUMN_B_WALLS, N_COLUMN_B_WALLS=2)","kind":"ASSERTED","reproducible_from_committed":"no","why":"the 'eight inputs' and their compression to two walls is a prose/taxonomy judgment hand-encoded as a dict, not a derivation from a formal enumeration; the log shows the count of '8' was itself disputed against two other counts (B717's 4, a sweep's ~8) and unreconciled at the time this arc was written."},
+{"what":"E6+A2->E8 prime-3 glue: det(E6)*det(A2)/9=1=det(E8)","where":"cross_chat_sm_attempt.py lines 41,51,54-55","kind":"ASSERTED/COMPUTED","reproducible_from_committed":"partial","why":"the arithmetic check (9/9=1) is trivial and computed, but DET_E6=3, DET_A2=3, DET_E8=1 are hardcoded constants asserted rather than derived in this file."},
+{"what":"L_dS/l_P = sqrt(k/6pi); k=3 -> ~0.40, k~1e122 -> ~6e60","where":"cross_chat_sm_attempt.py lines 58-59","kind":"COMPUTED","reproducible_from_committed":"yes","why":"straightforward math.sqrt formula, exact and checkable, but conditional on an unverified external relation (G*Lambda=6pi/k, 'the Alexander relation') per the FINDINGS text."}
+],
+"belt": "NONE",
+"belt_note": "verdict() checks the hand-set N_COLUMN_B_WALLS==2 and re-evaluates the same trivial arithmetic formulas defined in the same file — no independent second computation.",
+"absence_claims": [
+{"quote":"No new forcing was found.","where":"FINDINGS.md line 45 (bolded)"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind":"CONTRADICTION","detail":"this arc's headline 'eight external inputs compress to two walls' framing rests on an '~8' input count that the progress log later records as one of three mutually incompatible counts (B717:4, B300:8, sweep:~8) needing reconciliation — the reconciliation (B1000/B1001) postdates this arc by ~40 days and is not reflected in these files.","where":"FINDINGS.md 'Column B is two walls, not eight'; log_index B1000+B1001 2026-08-09"},
+{"kind":"RETRACTION_NOT_PROPAGATED","detail":"no correction or forward-pointer to B1000/B1001 appears in the FULL FINDINGS.md/verdict.py read for this arc.","where":"B300 files as read"}
+],
+"seat_note": "The arc's central taxonomy claim (8 inputs -> 2 walls) is asserted prose, not a formal derivation, and its own input count was later flagged in the project's own progress log as one of three disagreeing counts across arcs that took roughly six weeks to reconcile — a genuine, log-attested inconsistency this arc's files do not disclose."
+},
+
+{
+"arc": "B301_chirality_filter_and_convergence",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","chirality_filter.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Complexity of the 27 filters E₆'s maximal subgroups to the chiral set {SO(10), SU(6)×SU(2), SU(3)³} — not a unique SO(10) — and the kept SU(3)³ is B299's trinification triality.' status: PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"the 27 of E6 is complex (27 != 27bar)","where":"chirality_filter.py lines 30-31 (TWENTYSEVEN_IS_COMPLEX=True, comment 'Sage-verified')","kind":"ASSERTED","reproducible_from_committed":"no","why":"stated as 'Sage: E6 fund rep dim 27, r != r.dual()' but no Sage code is present in this file to run; the fact is a hardcoded boolean."},
+{"what":"chirality filters E6's maximal subgroups to {SO(10)xU(1), SU(6)xSU(2), SU(3)^3}, rejects {F4, Sp(8)}","where":"chirality_filter.py lines 31-33","kind":"ASSERTED","reproducible_from_committed":"no","why":"branching-rule facts cited/hardcoded, not computed here."},
+{"what":"downgrade of 'stability forces SO(10)' to a set of 3 chiral options + explicit physics-input flag on chirality=stability","where":"FINDINGS.md lines 8-20","kind":"ASSERTED","reproducible_from_committed":"n/a","why":"a self-critical retraction of a prior overclaim, correctly and honestly labeled as a physics assumption rather than an object property; not a computed fact but a well-reasoned framing correction."}
+],
+"belt": "NONE",
+"belt_note": "no separate verification file; verdict() re-asserts the same hardcoded booleans/sets defined earlier in the file.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"MISSING_WITNESS","detail":"the load-bearing '27 is complex' Sage computation that the whole chirality filter rests on is referenced ('Sage-verified') but no Sage script is committed in this arc.","where":"chirality_filter.py lines 4,30"}
+],
+"seat_note": "The retraction of 'stability forces SO(10)' to a correctly-labeled physics-input framing is good discipline, but the arc's one concrete rep-theory fact (27 complex) is asserted rather than reproducible from what is committed here."
+},
+
+{
+"arc": "B302_multiplicity_hidden_z3",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","multiplicity_hidden_z3.py","verdict.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The order-3 symmetry absent from the torsion-free knot group lives in the commensurator PGL(2,O₋₃) as a hidden symmetry, with the figure-eight an index-12 cover of that orbifold.' status: PROVED",
+"log_says": "2026-07-02: mp.mp.dps global-state bug traced to B302 (lowering the shared mpmath precision, breaking a later arc's 1e-50 gate); fixed by making B302 raise-only. 2026-07-22 (B756/B757): the striking mod-4 coincidence between B302's order-3 element and B326's deck-torsion matrix is Sylow-forced/an artifact of B302's specific representative, not a deeper identity — dissolved cleanly (R28-7).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"Sym(m004) = D4 (order 8), knot group torsion-free","where":"multiplicity_hidden_z3.py lines 28-30 (snappy .symmetry_group())","kind":"COMPUTED","reproducible_from_committed":"yes","why":"direct SnapPy call, requires sage-python/SnapPy but code is committed and self-contained."},
+{"what":"the commensurator PGL(2,O_-3) has order-3 elements ([[0,-1],[1,-1]] and Eisenstein diag(w,1))","where":"multiplicity_hidden_z3.py lines 33-38; verdict.py lines 36-41","kind":"COMPUTED","reproducible_from_committed":"yes","why":"matrix-power identities checked directly in both Sage (Matrix over NumberField) and pyenv (sympy) versions — a genuine independent double-check."},
+{"what":"figure-eight is an index-12 cover of the minimal orbifold H^3/PGL(2,O_-3) (Riley)","where":"multiplicity_hidden_z3.py lines 41-54; verdict.py lines 51-56","kind":"COMPUTED","reproducible_from_committed":"yes","why":"covolume computed via an explicit Humbert-formula mpmath L-function sum (200000/100000 terms) in both files, giving index ~12 to within 0.5 — a real numeric computation, though truncated-series (not exact) and the two files use slightly different term counts (200000 vs 100000)."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "verdict.py (pyenv, sympy/mpmath) independently re-derives all three load-bearing facts from multiplicity_hidden_z3.py (sage-python) using a different toolchain — a genuine second computation, not just a re-read of constants.",
+"absence_claims": [
+{"quote":"the OBJECT has no order-3: Sym(m004) = D4 (order 8), and the knot group is TORSION-FREE","where":"multiplicity_hidden_z3.py lines 9-10; FINDINGS.md line 19"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"NUMERIC_ONLY_NO_EXACT","detail":"the index-12 cover claim rests on a truncated numeric L-function series (100000-200000 terms) rather than an exact/closed-form covolume computation, so the '~12, Riley' match is approximate (tolerance 0.5), not exact.","where":"multiplicity_hidden_z3.py lines 41-54; verdict.py lines 51-56"}
+],
+"seat_note": "A genuinely well-verified arc with real cross-toolchain recomputation of its three load-bearing facts; its one numeric weak point (a truncated-series covolume estimate) is honestly bounded (tolerance 0.5) rather than hidden."
+},
+
+{
+"arc": "B303_clock_is_the_cp_sign",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","clock_is_the_cp_sign.py","verdict.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Proved the CP sign is literally the sign of Chern-Simons (CS=0 amphichiral, definite sign per closing), reducing the one live forcing to two firewalled inputs.' status: PROVED",
+"log_says": "B944 (2026-08-07): 'B303 -- the CP SIGN is literally the sign of Chern-Simons (CS = 0 <=> amphichiral)' cited approvingly as one of several 'ratio-shaped laws [that] already exist' — consistent, no contradiction found.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"cusped m004 (amphichiral): CS = 0","where":"clock_is_the_cp_sign.py line 52 (snappy chern_simons())","kind":"COMPUTED","reproducible_from_committed":"yes","why":"direct SnapPy call, self-contained."},
+{"what":"CS(1,n) all same sign for n=4..15, CS(1,-n)=-CS(1,n), |CS|->0 as n->inf","where":"clock_is_the_cp_sign.py lines 38-48","kind":"COMPUTED","reproducible_from_committed":"yes","why":"a real loop of SnapPy Dehn-filling + chern_simons() calls."},
+{"what":"the specific CS_LADDER numeric table (e.g. CS(1,4)=-0.124428)","where":"verdict.py lines 16-17","kind":"IMPORTED","reproducible_from_committed":"partial","why":"verdict.py hardcodes numbers evidently copied from a run of clock_is_the_cp_sign.py rather than recomputing them itself with SnapPy; its 'verification' is only that the copied numbers are internally same-sign and decaying, not a fresh SnapPy run."}
+],
+"belt": "RE-READS",
+"belt_note": "verdict.py does not call SnapPy; it re-checks sign/decay properties of numbers that were themselves generated by clock_is_the_cp_sign.py and simply pasted in as constants.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"MISSING_WITNESS","detail":"verdict.py's CS_LADDER values are not independently regenerated from SnapPy in that file; they are copy-pasted from the sage-python script's output, so there is only one actual computation, presented twice.","where":"verdict.py lines 16-17"}
+],
+"seat_note": "The core CS-ladder computation is real and SnapPy-based; the honest 'reduces to two firewalled LEAP inputs' framing (CS=cosmological clock; the arrow is forced) is a good example of not overclaiming past what is computed."
+},
+
+{
+"arc": "B304_gauge_dynamics_skeleton",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","gauge_dynamics_skeleton.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Extended the forced set from kinematics into gauge dynamics (sin^2 theta_W=3/8, beta-signs, 24=|2T| grading count); refuted Chat-1's saddle-SU(3) claim.' status: PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"sin^2(theta_W) = Tr(T3^2)/Tr(Q^2) = 3/8 over one SM generation","where":"gauge_dynamics_skeleton.py lines 38-49","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact Fraction arithmetic over an explicit hand-listed SM-generation charge table, self-contained and checkable, though the input table itself (the SM's own quantum numbers) is asserted from known physics, not derived from the object."},
+{"what":"one-loop beta signs: SU(3),SU(2) asymptotically free, U(1) grows","where":"gauge_dynamics_skeleton.py lines 52-57","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact Fraction arithmetic, standard formula."},
+{"what":"# E6 adjoint weights with j==0 mod 3 (principal grading) = 24 = |2T|","where":"gauge_dynamics_skeleton.py lines 60-63","kind":"COMPUTED","reproducible_from_committed":"yes","why":"explicit sum over the B264 exponents {1,4,5,7,8,11}, self-contained arithmetic."},
+{"what":"E6 has exactly 3 mutually orthogonal height-6 positive roots (refuting Chat-1's SU(3) saddle claim)","where":"gauge_dynamics_skeleton.py lines 66-70 (E6_HEIGHT6_POSITIVE_ROOTS, comment 'Sage-verified')","kind":"ASSERTED","reproducible_from_committed":"no","why":"stated as Sage-verified but no Sage root-system code is present in this file — hardcoded constants."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc; verdict() re-checks the same locally-computed quantities, no separate independent recompute file.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"MISSING_WITNESS","detail":"the refutation of Chat-1's 'saddle SU(3)' claim depends on an E6-root-system fact (3 height-6 roots, mutually orthogonal, max height 11) asserted as Sage-verified with no committed Sage script.","where":"gauge_dynamics_skeleton.py lines 66-69"}
+],
+"seat_note": "The sin^2(theta_W)=3/8 and beta-sign computations are genuinely computed and exact; the arc is honest that this tier is generic-GUT (via any E6-containing GUT), not object-specific, which is the correct scoping."
+},
+
+{
+"arc": "B305_eisenstein_trinification_grading",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","eisenstein_trinification_grading.py","verdict.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Verified E6 to SU(3)^3 trinification grading at the Eisenstein eigenvalue omega, tying the object's sqrt(-3) arithmetic to the breaking; the saddle is SU(2)^3.' status: PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"at u=2pi i/3: 9 surviving E6 positive roots in 3 orthogonal components of 3 (A2^3=SU(3)^3)","where":"eisenstein_trinification_grading.py lines 34-58, 106-118 (Sage RootSystem)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"real Sage RootSystem('E6') + networkx connected-components code, requires sage-python but self-contained and reproducible."},
+{"what":"at u=i pi/3 (saddle): 3 surviving roots, mutually orthogonal (A1^3=SU(2)^3, not A2=SU(3))","where":"eisenstein_trinification_grading.py same functions, lines 122-127","kind":"COMPUTED","reproducible_from_committed":"yes","why":"same code path as above, genuinely computed."},
+{"what":"E6 positive-root height distribution {1:6,2:5,...,11:1}","where":"verdict.py line 14 (E6_HEIGHT_DIST, comment 'Sage-verified, B304')","kind":"IMPORTED","reproducible_from_committed":"no","why":"copied from an earlier arc's Sage output as a hardcoded dict; verdict.py's 'mod_counts()' re-derivation is arithmetic over this imported table, not a fresh root-system computation."}
+],
+"belt": "RE-READS",
+"belt_note": "verdict.py sums the imported E6_HEIGHT_DIST table by modulus rather than recomputing the E6 root system independently — a consistency check on cached numbers, not a second independent Sage run.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "The trinification-at-omega and saddle-refutation results follow from a genuine, reproducible Sage computation in the sage-python file; the pyenv 'verdict' companion is only a bookkeeping recheck of numbers copied from that run, not an independent verification."
+},
+
+{
+"arc": "B306_principal_grading_cascade",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","principal_grading_cascade.py","verdict.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Established the forced E6 principal-grading cascade N=1..6, with a left-right SM-containing group at N=5 and an SU(2)^3 saddle, not Chat-1's dim-14 window.' status: PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"the N=1..6 pseudo-Levi cascade (E6 -> SU(6)xSU(2) -> SU(3)^3 -> SU(3)^2xSU(2) -> left-right -> SU(2)^3)","where":"principal_grading_cascade.py lines 31-57 (Sage RootSystem cascade())","kind":"COMPUTED","reproducible_from_committed":"yes","why":"genuine Sage root-system + networkx computation, self-contained."},
+{"what":"N=5 SM-shaped point is the left-right group SU(3)xSU(2)_LxSU(2)_RxU(1)^2, dim 16, containing the SM","where":"principal_grading_cascade.py lines 62-69","kind":"COMPUTED","reproducible_from_committed":"yes","why":"same cascade computation; the SM-containment claim is a standard-physics reading of the computed centralizer, correctly flagged as needing external SU(2)_R breaking."},
+{"what":"N=5 = k+2 = the figure-eight's WRT level (k=3) coincidence flagged as a LEAP mixing two arithmetic ends","where":"FINDINGS.md lines 37-39","kind":"ASSERTED","reproducible_from_committed":"n/a","why":"an honestly-labeled numeric coincidence explicitly NOT claimed as forced — good discipline, matches IDENTIFICATION_BY_TYPE concern proactively."}
+],
+"belt": "RE-READS",
+"belt_note": "verdict.py sums an imported E6_HEIGHT_DIST table by modulus to re-derive the cascade component counts, rather than an independent Sage re-run.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"IDENTIFICATION_BY_TYPE","detail":"the arc itself proactively flags the N=5=k+2 numeric match to the figure-eight's WRT level as a mere coincidence/LEAP rather than forced, which is the correct discipline — noted here as a positive example, not a violation.","where":"FINDINGS.md lines 37-39"}
+],
+"seat_note": "A third clean saddle-refutation of Chat-1's recurring SU(3)-saddle claim (now refuted a third time across B304/B305/B306); the arc is unusually careful to separate the forced generic-E6 cascade from the one flagged numeric coincidence (N=5/level-3)."
+},
+
+{
+"arc": "B307_totally_real_obstruction",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","totally_real_obstruction.py","verdict.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Proved no hyperbolic knot can have a cyclic-cubic trace field (totally-real obstruction), closing the single-knot route to three symmetric generations; 32/32 census-confirmed.' status: PROVED",
+"log_says": "B632 (2026-07-15): found a DIFFERENT multiplicity mechanism (h¹(M;27)=3, cohomological) that B307 does 'NOT block' since it is cohomological not trace-field-based; Review 53 (2026-08-30): 'the generation question is relocated, not answered — B632's graded h¹=3 route is explicitly not blocked by B307'; a 2026-08-30 Wave-8 note further finds the commensurator route (B302) also does not manufacture multiplicity ('orbit size one, three copies would need an 81-dim direct sum ... closure without B307').",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"C3 (cyclic-cubic) fields are totally real; hyperbolic trace fields always have a complex place; hence no hyperbolic knot has a C3 trace field","where":"totally_real_obstruction.py lines 44-47 (theorem/proof); verdict.py lines 20-24","kind":"COMPUTED","reproducible_from_committed":"yes","why":"a genuine, checkable number-theoretic argument plus a sympy discriminant sanity check on 3 sample C3 fields; the logical theorem itself is elementary and correct as stated."},
+{"what":"census: of 500 cusped manifolds, 32 have degree-3 trace fields, all signature (1,1), 0 cyclic","where":"totally_real_obstruction.py lines 51-63 (census_cubic_scan, SnapPy)","kind":"COMPUTED","reproducible_from_committed":"partial","why":"the scan code itself is present and would produce the numbers if run (needs Sage+SnapPy), but verdict.py hardcodes N_CUBIC_TRACE_FIELDS=32, CUBIC_SIGNATURES={(1,1):32}, N_CYCLIC_C3=0 as constants copied from a prior run rather than re-running the scan."},
+{"what":"5_2's trace field x^3-x^2+1 has disc -23, Galois S3, splits 1+2 like the figure-eight","where":"totally_real_obstruction.py lines 66-69; verdict.py lines 31-37","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sympy discriminant, checked in both the sage-python and pyenv files."}
+],
+"belt": "RE-READS",
+"belt_note": "the theorem logic and the 5_2/C3-sample discriminant checks are genuinely recomputed in verdict.py (pyenv), but the headline census scan result (32 cubic fields, 0 cyclic, out of 500) is only re-asserted as a hardcoded constant, not rerun.",
+"absence_claims": [
+{"quote":"No hyperbolic knot can have a cyclic-cubic (C₃) trace field.","where":"FINDINGS.md line 16 (the theorem)"},
+{"quote":"zero are cyclic (C₃)","where":"FINDINGS.md line 22 (census)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"MISSING_WITNESS","detail":"the census-scan headline numbers (32/500, all (1,1), 0 cyclic) are asserted constants in verdict.py rather than freshly recomputed; the scan script exists but its output is not re-verified in this arc's second file.","where":"verdict.py lines 15-17"}
+],
+"seat_note": "The theorem (no hyperbolic knot has a C3 trace field) is a genuinely sound, checkable piece of number theory and the strongest single result in this batch; but the FINDINGS' framing that 'three generations, if arithmetic, come ONLY from multiplicity — the commensurator's hidden Z/3 (B302)' is narrower than the log shows: later arcs (B632's cohomological h1=3 route) explicitly note this theorem does not block other multiplicity mechanisms, and the commensurator route itself was later found not to manufacture multiplicity either — so the theorem's scope (closing the single-knot trace-field route only) should not be over-read as closing generation-multiplicity in general."
+},
+
+{
+"arc": "B308_yukawa_last_redoubt",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","verdict.py","yukawa_last_redoubt.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The inter-generation Yukawa hierarchy is not forced by the object: E6 fixes the coupling but not the texture, walled by the generation obstruction.' status: NEGATIVE",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"E6 cubic invariant 27x27x27->1 has multiplicity 1 (a unique Yukawa coupling)","where":"yukawa_last_redoubt.py lines 36-49 (Sage WeylCharacterRing)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"genuine Sage representation-theory computation, self-contained though requiring Sage."},
+{"what":"the inter-generation hierarchy is NOT forced (texture S_ij undetermined by E6)","where":"verdict.py lines 22-24","kind":"ASSERTED","reproducible_from_committed":"n/a","why":"a negative/scoping conclusion, correctly following from the positive fact that E6 fixes only the coupling constant, not a computed additional fact."},
+{"what":"CUBIC_INVARIANT_MULTIPLICITY=1 (recorded in verdict.py)","where":"verdict.py line 14","kind":"IMPORTED","reproducible_from_committed":"no","why":"copied from yukawa_last_redoubt.py's Sage output as a constant rather than recomputed in pyenv (Sage rep theory can't easily be re-verified in plain sympy, so this is an accepted limitation, but it is still not independently re-derived)."}
+],
+"belt": "RE-READS",
+"belt_note": "verdict.py records the Sage-computed cubic-invariant multiplicity as a constant and checks logical consistency of the forced/not-forced/walled classification; it does not itself perform representation theory.",
+"absence_claims": [
+{"quote":"the deepest dimensionless content — the flavor hierarchy — is the firewall's last redoubt","where":"FINDINGS.md line 39"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Honest negative result: the arc correctly separates what E6 group theory forces (a single coupling constant, m_b=m_tau at GUT scale, generic-GUT tier) from what it explicitly does not force (the 3x3 flavor texture), and clearly names the gating obstruction (B307) rather than overclaiming a derivation of Yukawa ratios."
+},
+
+{
+"arc": "B309_kappa_unification",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","kappa_unification.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Unified four banked faces (existence, geometry, matter, quantum) as one commutator trace kappa=tr[a,b] not equal 2, with kappa-2=omega^2 and E6 uniqueness verified.' status: PROVED",
+"log_says": "B1010 (2026-08-10): 'The κ-unification (B309/B518) ... was in NEITHER consolidation' — LAW_MAP cited it zero times, THE_FRAMEWORK contained zero mentions of kappa (a downstream documentation-consolidation gap, not a content contradiction). B1200 (2026-08-28) later reuses B309's kappa-2=omega^2 identity consistently as 'FACE 2' of a three-way polynomial unification.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"kappa(u)=u^2+2; kappa(0)=2 (P008's wall); kappa(omega)-2 = omega^2, |kappa(omega)-2|=1","where":"kappa_unification.py lines 39-50 (sympy)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sympy symbolic computation, self-contained and directly checkable."},
+{"what":"E6 is the unique exceptional group that is both complex (chirality) and has center Z/3","where":"kappa_unification.py lines 62-64 (EXCEPTIONAL_CENTERS, EXCEPTIONAL_COMPLEX dicts)","kind":"ASSERTED","reproducible_from_committed":"no","why":"standard textbook Lie-theory facts hardcoded as dicts, not derived computationally in this file (though they are well-known and low-risk)."},
+{"what":"this is explicitly a consolidation, not a discovery","where":"FINDINGS.md lines 3-6; kappa_unification.py lines 4-6","kind":"ASSERTED","reproducible_from_committed":"n/a","why":"an honest self-classification distinguishing genuine new computation from re-labeling of prior banked results (P008/S034/B161-163/B186/B286/B294/B285/B305/B306/B204/B218-230/B293)."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc, no separate independent recheck script; verdict() re-evaluates the same locally-defined kappa_facts() and hardcoded E6 dicts.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"OTHER","detail":"a downstream consolidation-loss: per the log, this banked result was cited zero times in either of the project's two main synthesis documents (LAW_MAP, THE_FRAMEWORK) for weeks, flagged in B1010 as 'the owner was right about the matter law' — a governance/documentation gap rather than a content error, but relevant to whether this result was actually load-bearing in the project's own synthesis at the time.","where":"log_index B1010 2026-08-10"}
+],
+"seat_note": "The core kappa-2=omega^2, |kappa-2|=1 identity is exact and cleanly computed; the arc is unusually self-aware in labeling itself a consolidation rather than new physics, and the log confirms this consolidation was itself later found to have been dropped from the project's own downstream synthesis for a time."
+},
+
+{
+"arc": "B310_cascade_realization_exhausted",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","cascade_realization_exhausted.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Killed the cascade's novelty: the E6 chain is standard Slansky, and the equal-pi-i/3 spacing and cusp-shape realization claims are false arithmetic.' status: NEGATIVE",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"cascade u-value gaps (units of pi i) are 1/3, 1/6, 1/10, 1/15 — not equal — refuting an 'equally-spaced pi i/3' claim","where":"cascade_realization_exhausted.py lines 37-50 (sympy Rational)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sympy Rational arithmetic, trivial and directly checkable."},
+{"what":"the trinification (N=3) eigenvalue omega is the figure-eight's own Eisenstein Riley root","where":"cascade_realization_exhausted.py line 58; cites B305/B285","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"cited to B305/B285 rather than re-derived here."}
+],
+"belt": "NONE",
+"belt_note": "the arithmetic refutation is self-contained and exact; no separate re-check file.",
+"absence_claims": [
+{"quote":"no new object-specific content beyond the banked omega","where":"cascade_realization_exhausted.py line 31 (CASCADE_MATH_EXHAUSTED)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A clean, self-correcting negative result (an equal-spacing arithmetic claim is refuted with exact rational arithmetic) that also transparently embeds a forward-pointing correction (a 'Refinement (B311, 2026-06-30)' section acknowledging its own 'no new content' was 'slightly too strong') directly in the FINDINGS text — good in-lineage discipline, though the correction is embedded prose rather than a separate ADDENDUM."
+},
+
+{
+"arc": "B311_cascade_branch_points",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","cascade_branch_points.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Trinification sits at a genuine irreducible A-polynomial branch point (upgrading B305), but N=2 is reducible and N>=4 off-curve, so the chain is not realized.' status: PROVED (supersedes B310)",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"the figure-eight A-polynomial discriminant factors exactly as (x-1)^2(x+1)^2(x^2-3x+1)(x^2+x+1)","where":"cascade_branch_points.py lines 40-49 (sympy.factor)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"real symbolic polynomial factorization, self-contained and checkable."},
+{"what":"N=2 (M=i) is a branch point but reducible (L=1, abelian); N=3 (M=e^{ipi/3}) is a branch point and irreducible (L=-1); N>=4 not branch points","where":"cascade_branch_points.py lines 52-93","kind":"COMPUTED","reproducible_from_committed":"yes","why":"the is_branch/is_reducible checks are direct sympy symbolic substitutions into the discriminant/longitude formulas."},
+{"what":"the A-polynomial coefficient formula A(M,L)=M^4L^2-(...)L+M^4 itself","where":"cascade_branch_points.py lines 34-38","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"cited to Cooper-Culler-Gillet-Long-Shalen; taken as given rather than independently derived from the figure-eight's triangulation in this file."}
+],
+"belt": "NONE",
+"belt_note": "single computational file, self-checking; no independent second recompute.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A genuinely exact and reproducible sympy computation that both confirms and sharply limits Chat-2's proposed claim (branch points real, but the chain is not a connected realization since N=2 lands on the reducible/abelian locus) — a good example of verify-don't-trust catching a partial overclaim."
+},
+
+{
+"arc": "B312_face_iv_houses_the_form",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","face_iv_houses_the_form.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Showed Face IV houses the same E6 as the content via the CIZ level-10 modular invariant, plus both arithmetic ends; the level itself is generic.' status: PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"E6 exponents {1,4,5,7,8,11} sum to 36 and are symmetric about h/2=6","where":"face_iv_houses_the_form.py lines 46-49","kind":"COMPUTED","reproducible_from_committed":"yes","why":"trivial arithmetic check, exact."},
+{"what":"Q(sqrt-3) embeds in Q(zeta_12): sqrt(-3)=1+2*zeta_12^4","where":"face_iv_houses_the_form.py lines 73-77 (sympy)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact symbolic identity check via sympy.simplify."},
+{"what":"the CIZ E6 exceptional modular invariant's diagonal labels {0,3,4,6,7,10} (shifted +1) are the E6 exponents","where":"face_iv_houses_the_form.py lines 42,61-63","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"cited to Cappelli-Itzykson-Zuber (1987); the diagonal labels are hardcoded from the literature, not derived from a modular-invariant classification computation in this file."},
+{"what":"the level (k=10, k=28) is generic to the ambient modular category, not object-specifically selected","where":"FINDINGS.md lines 30-33","kind":"ASSERTED","reproducible_from_committed":"n/a","why":"a correctly-scoped firewall statement rather than a computed fact — the arc is careful to distinguish the form (computed) from the level-selection claim (explicitly not object-specific)."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc; the internal checks are exact but there is no independent recompute of the CIZ classification itself.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"IDENTIFICATION_BY_TYPE","detail":"the arc leans on a numeric match (E6 exponents == CIZ diagonal labels+1, and Q(sqrt-3) sitting inside Q(zeta_12) because 3 divides 12) as evidence that Face IV 'houses the same E6' — these are real cyclotomic facts, but the paper is honest that the level itself is then explicitly generic, which correctly limits how much weight the coincidence can bear.","where":"FINDINGS.md lines 21-33"}
+],
+"seat_note": "The cyclotomic embedding and exponent-matching computations are exact; the arc is commendably careful to firewall the one place a numeric match could be over-read (the CIZ level itself being object-specific), correctly labeling it generic."
+},
+
+{
+"arc": "B313_fibonacci_bridge_and_no_forced_choice",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","fibonacci_bridge_and_no_forced_choice.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Refuted matter = Fibonacci anyons (27 branches to (7,3)+(1,6)) and the figure-eight is forced; the (G2)_1 bridge is real but generic.' status: NEGATIVE",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what":"central-charge chain SU(2)_3 (9/5) -> (G2)_1 (14/5) -> (E6)_1 (6) is exact","where":"fibonacci_bridge_and_no_forced_choice.py lines 40-57 (sympy Rational WZW formula)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact rational arithmetic on the standard WZW central-charge formula, self-contained."},
+{"what":"27 -> (7,3)+(1,6) under E6 ⊃ G2xSU(3), refuting 'matter=Fibonacci anyons' (27->7)","where":"fibonacci_bridge_and_no_forced_choice.py lines 60-62","kind":"ASSERTED","reproducible_from_committed":"no","why":"the check performed is only that dimensions sum correctly (7*3+1*6==27); this confirms a dimension count is consistent with the claimed branching but does not itself verify (compute) that E6 ⊃ G2xSU(3) actually decomposes the 27 into exactly (7,3)+(1,6) as opposed to some other combination also summing to 27 — a dimension-match, not a representation-theoretic derivation, in this file."},
+{"what":"m=1 has a non-metric selector (K009: the expansion threshold); heterogeneity (not multiplicity) creates a kappa-fork (S032-B/B131)","where":"FINDINGS.md lines 24-37","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"explicitly cited to the repo's other arcs (K009, K013, S032, B125, B131, B261) rather than re-derived here, as the FINDINGS text itself discloses ('the upstream facts are cited to the repo, not re-proved')."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc; central-charge computation is exact but self-contained, no independent second check.",
+"absence_claims": [
+{"quote":"'the figure-eight is forced' is FALSE in the strict sense","where":"FINDINGS.md line 40"},
+{"quote":"a SINGLE seed is a moduli space ... it parametrizes, it does not choose","where":"fibonacci_bridge_and_no_forced_choice.py lines 22-24"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"IDENTIFICATION_BY_TYPE","detail":"the refutation of 'matter=Fibonacci anyons' via '27 -> (7,3)+(1,6)' is verified in-file only by a dimension count (7*3+1*6==27), which is exactly a bit/dimension coincidence check rather than a computed group-theoretic branching — it is used here to refute an overclaim, which is a safer use, but the underlying branching-rule claim is imported from Slansky (1981), not computed."}
+],
+"seat_note": "A useful negative result (stripping an overclaimed 'matter=anyons' framing) built mostly from citations to other arcs plus one exact WZW central-charge computation; the FINDINGS text is commendably explicit that the upstream facts are cited, not re-proved, which is the correct disclosure."
+},
+
+{
+"arc": "B314_galois_seals_face_iv",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","galois_seals_face_iv.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Sealed the quantum no-forced-choice case: figure-eight colored-Jones/WRT values at zeta_5 form a golden Q(sqrt5) Galois orbit, hence symmetrizable, not forced.' status: PROVED",
+"log_says": "2026-07-01 (catch-up log): the structural-theorem arc (B231-B314) is summarized as 'mechanized as a Galois theorem: every discrete invariant is a Galois orbit of the object's own arithmetic' — consistent with B314's own framing; a 2026-07-13 note on a different arc (Klein-four route) separately observes B314's colored-Jones/Q(sqrt5) domain is 'the OTHER end' from a gamma-fixed Q(sqrt-3) sector, used correctly (not contradicted) as a domain distinction.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"J_2(4_1;q) matches the known figure-eight Jones polynomial q^-2-q^-1+1-q+q^2 (sanity check)","where":"galois_seals_face_iv.py lines 48-50","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact symbolic sympy check against a known, independently-verifiable classical invariant — a good internal sanity test."},
+{"what":"J_N(4_1;zeta_5) = {1, 1-sqrt5, 1-sqrt5, 1} for N=1..4, all in Q(sqrt5)","where":"galois_seals_face_iv.py lines 53-56, 87-89","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact symbolic evaluation of the Habiro colored-Jones sum at a 5th root of unity, using sp.nsimplify to identify the algebraic form."},
+{"what":"the golden Galois orbit {1-sqrt5,1+sqrt5} and SU(2)_3 quantum dimensions {1,phi,phi,1}","where":"galois_seals_face_iv.py lines 59-69","kind":"COMPUTED","reproducible_from_committed":"yes","why":"direct symbolic computation, exact."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc but the internal sanity check (J_2 against the known classical Jones polynomial) functions as a genuine, if partial, self-verification.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "One of the strongest arcs in this batch: real, exact symbolic computation of the colored Jones polynomial at a root of unity, with a built-in classical-invariant sanity check, correctly refining an over-broad prior claim (full cyclotomic Galois group down to the golden Z/2)."
+},
+
+{
+"arc": "B315_e7_exclusion_vs_heterotic",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","e7_exclusion_vs_heterotic.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Showed the object's E7 exclusion contains heterotic's E7-skip, with pseudoreality FS(56)=-1 the shared root among three independent obstructions.' status: PROVED",
+"log_says": "2026-07-01 catch-up log lists B315 as resolving H14 in the 'specialist-handoff arc (B315-B325)'; a separate 2026-07-01 entry ('the in-sandbox attack sweep') notes H14 (Target 4) is 'Already resolved by B315 — checked, not re-banked (no duplicate probe)' — consistent.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"E6/27 complex (FS=0), E7/56 pseudoreal (FS=-1), E8/248 real (FS=+1)","where":"e7_exclusion_vs_heterotic.py lines 34-38 (EXCEPTIONAL dict, comment 'Sage-verified in B234')","kind":"IMPORTED","reproducible_from_committed":"no","why":"the Frobenius-Schur indicators are cited to B234 (not in this packet) rather than re-derived; the file only encodes them as constants."},
+{"what":"trace-1 unimodular discriminants reach exactly {-3,5}; disc 8 (E7) needs even trace, first appearing at the 'silver bundle m=2'","where":"e7_exclusion_vs_heterotic.py lines 46-60","kind":"COMPUTED","reproducible_from_committed":"yes","why":"straightforward integer arithmetic, self-contained and exact."},
+{"what":"heterotic's E7-skip = non-chirality = one of the object's three independent E7-exclusion obstructions (shared root: pseudoreality)","where":"FINDINGS.md lines 20-36","kind":"ASSERTED","reproducible_from_committed":"n/a","why":"a synthesis/argument built on the imported FS facts plus the locally-computed discriminant-reachability fact; logically coherent but its Diophantine and FS legs are both imported from other arcs (B234), not independently re-derived here."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc; the discriminant arithmetic is self-checking, but the two other legs of the 'threefold obstruction' (Diophantine 48≠p(p²−1); FS=-1) are cited constants."
+,
+"absence_claims": [
+{"quote":"48 ≠ p(p²−1), no congruence quotient 2O ↔ SL(2,q)","where":"FINDINGS.md line 25"},
+{"quote":"disc 8 needs even trace... it appears only at the silver bundle m=2, not the figure-eight","where":"FINDINGS.md lines 26-27"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"MISSING_WITNESS","detail":"two of the three 'independent obstructions' underlying the headline claim (the Diophantine congruence-quotient fact and the FS=-1 pseudoreality fact) are imported from B234, not in this arc's committed files.","where":"e7_exclusion_vs_heterotic.py lines 34-38"}
+],
+"seat_note": "A well-reasoned synthesis that correctly distinguishes 'shares an obstruction with heterotic' from 'is the same obstruction as heterotic', but two of its three load-bearing exclusion facts are imported from another arc rather than independently reproducible from what is committed here."
+},
+
+{
+"arc": "B316_sqrt7_chirality_field",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","sqrt7_chirality_field.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'sqrt(-7) is the CHIRALITY field, not a metallic-ladder member: disc -7 is below the unimodular floor, and Q(sqrt-7) is reached by BREAKING amphichirality.' status: PROVED",
+"log_says": "B944 (2026-08-07): 'the chirality FIELD is Q(sqrt-7), reached by BREAKING amphichirality (B316)' — cited consistently as part of a broader chirality-sweep summary, no contradiction found.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"imaginary unimodular discs reachable by trace-t, det=±1 monodromy are exactly {-4,-3}","where":"sqrt7_chirality_field.py lines 26-33","kind":"COMPUTED","reproducible_from_committed":"yes","why":"trivial, exact integer arithmetic over a small finite range, self-contained."},
+{"what":"-7 passes the trace-1 congruence (-7≡1 mod 4) but is below the floor (-7<-4), hence unreachable by unimodular monodromy","where":"sqrt7_chirality_field.py lines 36-43","kind":"COMPUTED","reproducible_from_committed":"yes","why":"trivial arithmetic."},
+{"what":"Q(sqrt-7) IS realized elsewhere in the object's arithmetic, as the chirality field of the arithmetic RRL/RLL bundles (B147)","where":"FINDINGS.md lines 26-29","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"cited to B147 (verify-don't-trust confirmed per text, but not re-derived in this file's committed code)."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc; the floor/congruence arithmetic is trivial and self-checking; the cross-referenced B147 fact is imported.",
+"absence_claims": [
+{"quote":"ℚ(√−7) does not appear in the figure-eight's covers (≤deg 6, all keep ℚ(√−3)) or the metallic ladder","where":"FINDINGS.md lines 4-6 (quoting the earlier closure, B235)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A tidy, mostly self-contained arithmetic refinement of a previously-closed question (H32/B235); its one imported claim (Q(sqrt-7) as B147's chirality field) is not re-derived here but is consistent with the log's later summary."
+},
+
+{
+"arc": "B317_painleve_transcendental",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","painleve_transcendental.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Placed the object as a transcendental positive-entropy Painleve-VI solution (entropy 2 log lambda_m), outside the algebraic Lisovyy-Tykhyy list of finite orbits.' status: PROVED (supersedes P010)",
+"log_says": "B944 (2026-08-07) lists B317 among several named dynamical results ('a transcendental positive-entropy Painleve-VI solution OUTSIDE the algebraic Lisovyy-Tykhyy list (B317)') in a summary arguing dynamics is not a gap — consistent, no contradiction.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"metallic eigenvalues lambda_m are hyperbolic (|lambda_m|>1) for m=1,2,3, giving positive topological entropy 2*log(lambda_m)","where":"painleve_transcendental.py lines 30-47","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact sympy symbolic computation of eigenvalues and entropy, self-contained."},
+{"what":"the metallic elements are hyperbolic hence infinite (dense) orbits, so the solutions are transcendental (not in the algebraic Lisovyy-Tykhyy list)","where":"FINDINGS.md lines 13-20","kind":"ASSERTED","reproducible_from_committed":"n/a","why":"correctly follows logically from the computed hyperbolicity plus a cited classification theorem (Lisovyy-Tykhyy 2008), which is not re-derived/re-proved here, only cited."},
+{"what":"the Hitchin/Painleve-VI lens 'was already run' in B164/B169, correcting a stale claim in P010","where":"FINDINGS.md lines 6-9","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"cited to B164/B169 (not in this packet); this arc adds a placement on top, not a re-verification of B164/B169's content."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc; the eigenvalue/entropy computation is exact and self-checking, but the surrounding classification and prior-work claims are cited, not re-derived.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A tidy documentation correction (P010's 'unrun' claim was stale) combined with a genuinely exact entropy/dynamical-degree computation; correctly and explicitly keeps the dynamics' time as a firewalled dimensionless modulus rather than claiming physical time."
+},
+
+{
+"arc": "B318_amphichiral_mechanism",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","amphichiral_mechanism.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Split the firewall's two ends: the Eisenstein Z/2 is the geometric amphichiral involution (complex conjugation), the golden Z/2 is arithmetic-only with no geometric tau.' status: PROVED (supersedes B311)",
+"log_says": "B330 (2026-07-01) folds B318 into a broader no-forced-choice capstone ('folded B130+B314+B318'); B348 (2026-07-01) cites B318's 'geometric firewall in the Bloch group' as the mechanism killing a residual orientation sign — both consistent, no contradiction.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"complex conjugation acts nontrivially on sqrt(-3) (Eisenstein end) but trivially on sqrt(5) (golden end)","where":"amphichiral_mechanism.py lines 30-46","kind":"COMPUTED","reproducible_from_committed":"yes","why":"trivial but exact sympy conjugate() checks, self-contained and directly reproducible by a stranger."},
+{"what":"correction to B311: the golden A-polynomial discriminant factor x^2-3x+1 is definitional (the figure-eight's own monodromy eigenvalue quadratic), not a surprising coincidence","where":"FINDINGS.md lines 32-39","kind":"ASSERTED","reproducible_from_committed":"n/a","why":"a reasoned correction of a prior arc's overclaim (B311), logically argued but not itself a new computation beyond the trivial conjugation check."}
+],
+"belt": "NONE",
+"belt_note": "single-file arc; the core conjugation checks are trivial and exact, functioning as their own verification.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A small but genuinely correct and exact computation (which Galois action is realized by an actual geometric involution vs which is purely arithmetic) that properly narrows an earlier overclaim (Chat-1's 'tau symmetrizes every invariant') — good verify-don't-trust discipline with a clean, reproducible core fact."
+}
+
+]
+}

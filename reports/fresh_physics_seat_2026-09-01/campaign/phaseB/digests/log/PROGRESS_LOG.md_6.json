@@ -1,0 +1,374 @@
+{
+"log": "PROGRESS_LOG.md",
+"part": 6,
+"entries": [
+{
+"date": "2026-08-29",
+"title": "B1212 (2026-08-29): TWO REPLIES — the decisive datum does not exist in the frames, and D2's payment is PROVISIONAL",
+"arcs": ["B1212", "B1208", "B1196", "R023", "R024"],
+"established": "codex's certificate re-runs and shows both coarse ℤ/12 characters are zero, but this does not identify the lepton and down tensors, so B1208's three-way fork stays UNRESOLVED; cloud's D2 LEAP-1 payment is downgraded from PAID to PROVISIONAL pending owner confirmation of whether their 'go' meant the D2 signature.",
+"status_words": ["UNRESOLVED", "PERMANENT", "PROVISIONAL", "PAID", "DOWNGRADED", "CLOSED-PERMANENT", "upheld"],
+"retractions": [],
+"owner_elections_verbatim": ["the owner replied \"go\", and the bench recorded that as the D2 signature and marked LEAP-1 PAID"],
+"numbers_claimed": ["k = 4, 8", "13:30:33 UTC", "19:49:17 UTC", "6 h 19 m", "541.5×", "28×"],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"the decisive datum does not exist in the frames\" / \"the record does not contain the datum\" (title, lines 1,12)"},
+{"kind": "OTHER", "detail": "Owner confirmation of D2 payment status is an open governance item pending a binary owner decision."}
+]
+},
+{
+"date": "2026-08-29",
+"title": "B1213 (2026-08-29): THE CLAIM BASE REBUILT — the field the paper's base read is empty on 89% of the corpus",
+"arcs": ["B1213", "B1211", "B1210", "B991"],
+"established": "The creates_law field is entirely absent (not just mis-declared) on 919 of 1031 settled arcs (89%); rebuilt the claim pool as declared-law ∪ on-a-synthesis-surface ∪ law-vocabulary = 467 arcs, revealing B991 was already in B1210's pool but rendering only showed the flag-derived subset — the leak was the rendering, not the pool.",
+"status_words": ["PROVED", "CORRECTED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["919 of 1031 — 89%", "2.47", "1.08", "2.29× (they report 2.20×)", "467 arcs", "39", "118 observer", "108 withheld", "49 forced", "46 object", "37 wall", "109 unassigned", "four times", "48, later 55", "442"],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"the field is ABSENT ENTIRELY on 919 of 1031 settled arcs — 89%\" (line 43)"},
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "corrects B1211's fix as addressing only 'the rarer' failure mode, implying B1211's diagnosis was incomplete"}
+]
+},
+{
+"date": "2026-08-29",
+"title": "B1214 (2026-08-29): THE `creates_law` RE-AUDIT — thirteen real laws recovered, 104 absences turned into decisions",
+"arcs": ["B1214", "B1213", "B727", "B996", "B997", "B991", "B952", "B885", "B886", "B910", "B918", "B393", "B557", "B1070", "B1073"],
+"established": "Re-audited 116 candidate arcs against a fixed LAW definition; 13 are genuine laws (each read in full), including B727 (THE GENERICITY THEOREM: the E6 recurrence is forced by one ADE classification, so it is generic not evidence) and B991 (hypercharge normalisation not derivable in principle). The other 104 absences were classified (not mass-set) as non-laws from headlines only.",
+"status_words": ["PROVED", "true 55 → 68", "false 57 → 137", "absent 919 (89%) → 828 (80%)"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["13 of 116", "true 55 → 68", "false 57 → 137", "absent 919 (89%) → 828 (80%)", "five of the thirteen laws have no dedicated test lock", "104"],
+"red_flags": [
+{"kind": "OTHER", "detail": "The 104 non-laws were classified from claim headlines only, not read in full — an acknowledged asymmetry ('sound for a negative call, poor for a positive')."},
+{"kind": "CLAIM_WITHOUT_ARC", "detail": "B1070 and B1073 are law-creating arcs with 'none at all' for a dedicated test lock — a reproducibility debt flagged in the registry itself."}
+]
+},
+{
+"date": "2026-08-29",
+"title": "B1215 (2026-08-29): THE CODEX TRANSCRIPT HARVEST — a registered theorem protected, four dishonest wrappers fixed, a stalled lead carried",
+"arcs": ["B1215", "B1182", "B1175", "T-V4-TORSOR-IDENT", "R022", "B1208", "B1210", "B1211", "B1213", "B1207"],
+"established": "R022's negative (branch vs being×hearing) does not refute B1182/T-V4-TORSOR-IDENT (the √−3-internal pair); of 52 reproduce.sh wrappers, 4 asserted success on process exit-code rather than gating on the computation's own output (3 by this seat, 1 by B1175 which reproduces nothing at all); confirmed codex's stalled A11 lepton-leg finding (raw B-pair sum 4 mod 12 not 8) from the spec's own numbers, evidence against branch (a) of B1208's fork but not decisive between (b)/(c).",
+"status_words": ["REFUTED", "CONFIRMED", "PROVED", "REFUTED", "CONDITIONAL", "EXTERNAL_BLOCKER", "EMPIRICAL", "OPEN"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["52 wrappers", "4 printed REPRODUCES with no gate", "0 ungated now", "ρ + σ ≡ 3 − χ(A) mod 12", "4 for A11", "(0,4) and (2,2)", "185 questions: 70 PROVED, 55 REFUTED, 15 CONDITIONAL, 22 EXTERNAL_BLOCKER, 2 EMPIRICAL, 21 OPEN"],
+"red_flags": [
+{"kind": "OTHER", "detail": "'B1175's wrapper re-runs nothing at all, echoing conclusions for certificates that live on codex's branch and are not vendored' — a fabricated/dishonest reproduce.sh discovered in the committed repo (line 125-128)."},
+{"kind": "GITIGNORED_WITNESS", "detail": "reproduce.sh wrappers asserting success without gating output — a witness/verification integrity issue across 4 of 52 wrappers."}
+]
+},
+{
+"date": "2026-08-29",
+"title": "B1216 (2026-08-29): THE PARAMETER-CLOSURE LOOP, RUN 1 — zero rows deleted, one gate written, one regression, one refutation",
+"arcs": ["B1216", "B1192", "GC-16", "GC-2", "B1215", "B990", "B672"],
+"established": "9-agent loop testing C1-C4 masterplan cells; pre-registration wrong (C1 closed negatively and enlarged, C3 did not close, C2 refuted, C4 as predicted). Found B1192/GC-16's supporting clause is MB12-vacuous (every anti-conjugator swaps eigenlines by construction, det X=+1 case). C1 refutes masterplan's closure route: norm-+1 holds for only 30/37 fields (81%, generic not fine-tuned), and DIRECT(-1) exhibited for disc 13 shows norm+1 not necessary. C3 reduces ℙ3 to one binary lookup with both branches proved; corrects B1215's A11 enumeration (missed (8,8)) but conclusion stands. C2 refuted by its own verifier (sources say CONDITIONAL/literature-bridge, not exhaustion). C4 only forward motion: σ named object at c=6 with a runnable gate. GOAL TEST: NO.",
+"status_words": ["REFUTED", "PROVED", "CLOSED", "REGRESSION"],
+"retractions": [],
+"owner_elections_verbatim": ["The owner-directed masterplan, run as a 9-agent loop"],
+"numbers_claimed": ["~686k subagent tokens, 20 min", "30 of 37 (81%)", "22/60 DIRECT(det=-1) versus 38 TORSOR", "disc 13", "204-embedding √2 scan yields never DIRECT(-1)", "2 surviving (down) vs 1 (lepton)", "c = 6"],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "B1192/GC-16's supporting clause found MB12-vacuous; 'Second MB12-vacuity in a fortnight, both in supporting clauses rather than headlines'"},
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "corrects B1215's A11 enumeration for missing (8,8)"},
+{"kind": "OTHER", "detail": "C2 'claimed a theorem-shaped exhaustion while its sources say otherwise verbatim' — a claim contradicted by its own cited sources (B850, B721)"}
+]
+},
+{
+"date": "2026-08-30",
+"title": "B1217 (2026-08-30): THE SEAT INTEGRATION — nineteen commits harvested, four verifications, one evidence-contract gap",
+"arcs": ["B1217", "B1207", "B1208", "B1210", "B1211", "B1213", "B1137", "B1209", "B1175"],
+"established": "codex R026 verified (W:11 = direct sum of selected ray characters; B+W+G=24≡0 mod 12 equivariance check); R027's 8-triangle factor cycle confirmed (384 product simplices); R025 independently confirms B1215's law; cloud's V-NEG verified at both checkable points against own data (117 raw/117 involves_V/0 involves_regulator). THE EVIDENCE-CONTRACT GAP: cloud's extended run headline is not reproducible as committed — vol_basis_extended.py contains the basis builder not the gate, typed CITED not CONFIRMED for the headline itself.",
+"status_words": ["VERIFIED", "CONFIRMED", "CITED", "CONFIRMED (sub-claims)"],
+"retractions": [],
+"owner_elections_verbatim": ["both hold releases were owner-authorized"],
+"numbers_claimed": ["35 ≡ 11", "B+W+G=24≡0 mod 12", "8² × 6 = 384", "6 = C(4,2)", "117 raw / 117 involves_V / 0 involves_regulator", "117 → 108", "raw_found = 9", "decisive column 0"],
+"red_flags": [
+{"kind": "GITIGNORED_WITNESS", "detail": "'THE EVIDENCE-CONTRACT GAP... The extended run — the headline itself — is not reproducible as committed: vol_basis_extended.py contains the basis builder, only an unrelated staleness re-check carries the involves_regulator gate, and their memo names no path' (lines 227-230)"},
+{"kind": "ABSENCE_CLAIM", "detail": "'15 of 22 pairs have no standalone reproducer' referenced in same integration context (later entry, cross-check)"}
+]
+},
+{
+"date": "2026-08-30",
+"title": "THE PAPER — first draft lands and builds (2026-08-30)",
+"arcs": [],
+"established": "First 3-page draft of papers/P3_THE_PAPER/main.tex builds; contains only front matter (abstract in anti-dismissal shape, non-claims box, freedom ledger); every other section marked [Not yet written]; explicitly not publication-ready.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": ["No author line — the attribution rule keeps the owner's name out of tracked files, and it goes in at submission, which is their act."],
+"numbers_claimed": ["16σ run to M_Z", "seven entries (non-claims box)", "seven input rows"],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "'Every other section is an explicit [Not yet written] marker rather than filler.'"}
+]
+},
+{
+"date": "2026-08-30",
+"title": "THE PAPER — the full draft is written (2026-08-30)",
+"arcs": ["B1216"],
+"established": "Nine-page full draft with zero placeholders, built freedom-ledger-first; §2 states E6 recurrence has probability 1 given one label (37.2% of first 400 one-cusped census manifolds admit the entry surjection, 32.8% admit exactly two); §3 states two survivors: arithmeticity and the golden-grammar theorem over an infinite family; §6 avoids the eigenline clause B1216 showed vacuous.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["37.2%", "32.8%", "|SL(2,ℤ/N)| ≥ N³/ζ(2)", "exceeds 120 for all N ≥ 6", "N ∈ {3,4,5}"],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "'Not submittable yet: no bibliography, no verification appendix, the 467-row disposition still unfed into §§4–6, and no hostile read.'"}
+]
+},
+{
+"date": "2026-08-30",
+"title": "THE PAPER — currency pass: the draft was hostage to the older band, and is not now (2026-08-30)",
+"arcs": ["B1216", "B1170", "B1160", "B1204", "B1205", "B1206", "B1140"],
+"established": "Audit found §§4-5 were written from the older B862-B1080 band and missed current statements; repaired: §4 now states 252 candidate contents over 5-field alphabet, 222 killed by colour condition, exactly 2 survivors (SM 15-plet and conjugate) with zero object tokens; B1160's forcing re-derived (cubic -18(t-3)(t+3), t=±3, zero non-SM solutions); §5 gains B1140's tenth negative (64-dim complement decomposes with invariant content zero).",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": ["The owner's catch — the paper must reflect the newest state and the strongest chain."],
+"numbers_claimed": ["252 candidate contents", "222 killed", "exactly two survivors", "Y_l = -3Y_q, Y_e = 6Y_q, Y_u + Y_d = -2Y_q", "-18(t-3)(t+3)", "t = ±3", "(1,-4,2,-3,6) and (1,2,-4,-3,6)", "zero non-SM solutions", "64-dimensional complement", "four irreducibles"],
+"red_flags": [
+{"kind": "OTHER", "detail": "'The abstract was corrected to match, as it previously implied otherwise' — an acknowledged prior overstatement in the paper's own abstract."}
+]
+},
+{
+"date": "2026-08-30",
+"title": "B1218 — THE OPEN-CLAIM SWEEP (2026-08-30)",
+"arcs": ["B1218", "B1110", "B364", "B359", "B363"],
+"established": "Owner-directed sweep for stale 'open' claims found five locks called open that were already proved; banked scripts/checks/open_claim_sweep.py which scans 1122 arcs, 526 raw → 45 after filters. Bite control positive 5/5 at rank #0, negative 0.00 vs 25.0 bar. Repaired L175 (B1110 PROVED) and L57 (B364 NEGATIVE) in docs/OPEN_LEADS.md.",
+"status_words": ["PROVED", "NEGATIVE", "SETTLED"],
+"retractions": [],
+"owner_elections_verbatim": ["Owner-directed (\"are u sure theyre not lost, make sure\" → \"run it\")."],
+"numbers_claimed": ["1122 arcs", "526 raw → 45", "positive 5/5 at rank #0", "negative 0.00 against a 25.0 bar"],
+"red_flags": [
+{"kind": "OTHER", "detail": "The instrument (open_claim_sweep.py) 'tripped its own lock on first run — fifth instance of the self-documenting class' — a recurring class of self-referential instrument bug."}
+]
+},
+{
+"date": "2026-08-30",
+"title": "Review 53 + THE PAPER's spine + Gate C (2026-08-30)",
+"arcs": ["B1201", "B1218", "B323", "B324", "B632", "B307"],
+"established": "Review 53 audited 32 merges/18 arcs; THEOREM_REGISTRY +20 rows, none new proofs (theorems already held, not displayed) — new failure class E53 'surface non-propagation', 7 instances. THE PAPER gains §3 (43 links: 26 theorem/6 identity/5 no-go/4 axiom/1 corollary/1 census, 39 forced). Gate C CLOSED by its own refutation condition (B323/B324 had been omitted from Settled list); generation question relocated not answered (B632's cell 2 unrun).",
+"status_words": ["CLOSED", "PROVED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["32 merges", "18 arcs B1201–B1218", "+20 rows", "7 instances (E53)", "43 links (26/6/5/4/1/1)", "39 forced", "14 → 16 pages", "19 of 169 documents (11%)"],
+"red_flags": [
+{"kind": "OTHER", "detail": "'THEOREM_REGISTRY +20 rows, none of them new proofs — theorems the corpus already held that no surface displayed' — surface non-propagation established as a named failure class."},
+{"kind": "ABSENCE_CLAIM", "detail": "'doc_currency.py covers 19 of 169 documents (11%) — the staleness detector passing vacuously.'"}
+]
+},
+{
+"date": "2026-08-30",
+"title": "2026-08-30 — THE PUBLICATION CAMPAIGN opened; B632 cell-2 correction (the tenth E53 instance)",
+"arcs": ["B632"],
+"established": "Six-cell publication campaign opened with pre-registered expectations; correction banked that Cell 2 (ℙ3's second condition) was said unrun but actually ran 2026-07-15 PROVED under a sealed prereg — tenth E53 instance.",
+"status_words": ["PROVED"],
+"retractions": [{"what": "the claim that cell 2 was unrun", "of_which_arc": "campaign Cell 2 / B632-adjacent"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": [],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "'cell 2 was said to be unrun; it ran 2026-07-15, PROVED, under a sealed prereg. Tenth E53 instance, propagated by this bench on the day the class was minted.'"}
+]
+},
+{
+"date": "2026-08-30",
+"title": "2026-08-30 — B1219 CELL 0: the reverse sweep; the gate discharges",
+"arcs": ["B1219", "B1218", "B1188", "B603", "B26", "B551", "B342"],
+"established": "Reverse sweep of 1032 settled arcs → 45 off-surface (29 SURFACE-IT/10 INTERNAL/6 SUPERSEDED), within pre-registered 40-90 range; Cells 1-3 not blocked; three own-failures caught pre-bank including cross-process non-determinism from PYTHONHASHSEED-dependent truncation.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["1032 settled arcs", "45 off-surface (29/10/6)", "40–90"],
+"red_flags": [
+{"kind": "OTHER", "detail": "'cross-process non-determinism from a PYTHONHASHSEED-dependent top-N truncation' — a reproducibility bug in the sweep instrument itself, caught before banking."}
+]
+},
+{
+"date": "2026-08-30",
+"title": "2026-08-30 — B1220 THE PREMISE AUDIT: campaign Cells 1–3 were already answered",
+"arcs": ["B1220", "B1196", "B1036", "GC-27"],
+"established": "All three math cells' premises were stale; every banked answer already stronger than the cell assumed. λ's gate exists in banked pieces; ℙ3 is CLOSED-PERMANENT, hardened twice; B632's cell-3 answered NEGATIVE by B1036 already. Found B1196's verdict line contradicts its own GC-27 cell on λ (dated addendum).",
+"status_words": ["CLOSED-PERMANENT", "NEGATIVE"],
+"retractions": [{"what": "B1196's verdict line found self-contradictory with its own GC-27 cell", "of_which_arc": "B1196"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": [],
+"red_flags": [
+{"kind": "LOG_STRONGER_THAN_LIKELY", "detail": "'B1196's verdict line contradicts its own GC-27 cell on λ (dated addendum)' — an internal contradiction within a single arc's own record."},
+{"kind": "OTHER", "detail": "Stop rule 1b added: 'audit each cell's premise, don't only sweep for orphans' — a process correction after repeated staleness failures."}
+]
+},
+{
+"date": "2026-08-30",
+"title": "2026-08-30 — λ IS PLACED: external by theorem (owner re-probe of Cell 1)",
+"arcs": ["B1195", "GC-22", "GC-27", "B721", "B723"],
+"established": "Owner re-probe found the cell had in fact solved λ's placement: B1195/GC-22 (PROVED) — λ = a second independent external continuous datum; P2 (λ derivable from existing legs via KMS/BTZ) EXCLUDED by exact constructive computation showing the bridge is tautological against B723's own sealed output. Forced by B721 (NEGATIVE): the object's clock is tracial with trivial modular flow.",
+"status_words": ["PROVED", "EXCLUDED", "NEGATIVE"],
+"retractions": [],
+"owner_elections_verbatim": ["The owner asked whether the cell had solved it and failed to bank properly. It had."],
+"numbers_claimed": [],
+"red_flags": [
+{"kind": "OTHER", "detail": "'The owner asked whether the cell had solved it and failed to bank properly' — a banking/documentation failure that hid an already-solved result."}
+]
+},
+{
+"date": "2026-08-30",
+"title": "2026-08-30 — codex Wave-8 hostile read dispositioned",
+"arcs": ["B1218", "B632"],
+"established": "B1218 independently reproduced on codex's bench (5/5, 0.00). codex independently caught the B632 cell-2 error same day. Correction adopted: V-valued-double residual is a texture residual not an unrun generation-count test; prior phrase 'the actual live generation computation' withdrawn. Gate C sharpened: orbit size one means no multiplicity manufactured, closure without B307.",
+"status_words": ["WITHDRAWN", "CONFIRMED"],
+"retractions": [{"what": "the propagated phrase \"the actual live generation computation\"", "of_which_arc": "generation/index question, now OA-C0009"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["5/5, 0.00", "81-dim direct sum"],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "'our propagated phrase \"the actual live generation computation\" is withdrawn; the generation/index question is OA-C0009.'"},
+{"kind": "OTHER", "detail": "Do-not-bank on cloud memo 156 (Gate D box dimensions are pixel artifacts; λ²=κ−2 fixes a Galois orbit, not a unique coupling) — preventive, never banked."}
+]
+},
+{
+"date": "2026-08-30",
+"title": "2026-08-30 — CELLS 4 & 5: the referee appendix, and §3's hostile read",
+"arcs": ["B1003", "B998"],
+"established": "Cell 4: paper_provenance.py checks 21 claims/22 pairs, 0 defects; generator's own first run failed due to conflating arc verdict with claim verification, fixed. 15 of 22 pairs have no standalone reproducer, stated not hidden. Cell 5: found B1003's verdict line has the covering direction backwards (Gieseking is the parent, ratio exactly 2); B998's lock-audit note is stale; forks and axiom accountings never reconciled.",
+"status_words": [],
+"retractions": [{"what": "B1003's verdict line direction (covering direction was backwards)", "of_which_arc": "B1003"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["21 claims", "22 claim-record pairs", "0 defects", "15 of 22 pairs have no standalone reproducer", "ratio exactly 2", "43 links at 26/6/5/4/1/1", "zero AXIOM entries in C6–C17"],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "'15 of 22 pairs have no standalone reproducer — stated in the appendix, not hidden.'"},
+{"kind": "OTHER", "detail": "'B1003's verdict line has the covering direction backwards' and 'the ledger's B998 lock-audit note is stale, asserting a gap B1003's own locks closed' — two internal record defects found in same pass."}
+]
+},
+{
+"date": "2026-08-31",
+"title": "2026-08-31 — THE SUBMISSION CAMPAIGN: S0–S5",
+"arcs": [],
+"established": "Premise audit found the paper's bibliography decorative: 12 of 13 bibitems never cited (invisible to build since LaTeX doesn't warn on unused bibitems). S1 fixed 20 defects to 0 with a gated MB12-controlled checker; S2 pruned/added citations; S3 added metadata and placeholder author block; S4 added a chain-shape figure; S5 commissioned hostile read from codex; S6: three items stay open, stated in the paper.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["12 of 13 bibitems never cited", "20 defects → 0", "14 entries, 14 cited", "43 links, 4 axioms"],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "'the paper's bibliography decorative: 12 of 13 bibitems never cited, invisible to the build because LaTeX does not warn on unused bibitems.'"}
+]
+},
+{
+"date": "2026-08-31",
+"title": "2026-08-31 — B1226: THE β-ODD BOX",
+"arcs": ["B1226", "B1012", "B1224", "B1225", "B813", "L192"],
+"established": "B1012's blind-to-k ⟺ CS=0 ⟺ amphichiral fails at second link both ways (m003/m135/m207 amphichiral CS=1/4; m208 chiral CS=0); scale wall stands for m004 but is contingent not a symmetry theorem. 28 parameters typed 6/3/16/3 across four boxes; box D (θ_QCD, δ_CKM, δ_PMNS) is the only box with object-side output, and that output is a bit. 3/3 probes fired into box D demanded a continuous value from a bit-valued channel — a type mismatch diagnosis.",
+"status_words": ["PROVED", "THEOREM-graded"],
+"retractions": [],
+"owner_elections_verbatim": ["Owner's category correction (\"19 sm parameters or 26 ... if they were all same category\")"],
+"numbers_claimed": ["CS = 1/4", "CS = 0", "28 parameters → 6/3/16/3", "3/3 probes", "0/3 asked the bit"],
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "'3/3 probes ever fired into box D demanded a continuous value from a bit-valued channel; 0/3 asked the bit. Their negatives measure the type mismatch' — a documented type-mismatch identification error across multiple prior probes."},
+{"kind": "OTHER", "detail": "'is_isometric_to(mirror) is not a chirality test, and snappy's HP str() disagrees with float()' — two tool traps recorded."}
+]
+},
+{
+"date": "2026-08-31",
+"title": "2026-08-31 — B1227: ONE THEOREM, TWO REGIMES",
+"arcs": ["B1227", "B1224", "B1225", "B1203"],
+"established": "Amphichirality makes the mirror a self-isometry, so every mirror-odd invariant satisfies 2·I=0 in its value group: ℝ/½ℤ gives {0,1/4} (B1224); ℝ (torsion-free) gives 0 (B1225's missing keystone). B1225's hypothesis weakens from 'atoms are object-canonical' to 'atoms are real', verified by B1203.",
+"status_words": ["PROVED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["2·I = 0", "{0, 1/4}"],
+"red_flags": [
+{"kind": "OTHER", "detail": "'Novelty is claimed as consolidation, not discovery — and the arc's own test enforces that, so an upgrade to a discovery claim is a regression.' Explicit anti-overclaiming self-check."}
+]
+},
+{
+"date": "2026-08-31",
+"title": "2026-08-31 — B1228: S1 RUN (the schedule is a DAG)",
+"arcs": ["B1228", "B1216", "B1225"],
+"established": "Established c(J1)=rank(J) 9/9; π1(m004) ↠ 2T on-bench (48/72, control 5_2=0); K5's shape (six Cartan directions); K6 discrimination (σ=1 ⟺ E6, uniquely among nine); K1 named ((E6)_1, vacuum, c=6); level forced by inventory. RETRACTED IN-SESSION: σ=1 is NOT established — the geometric CS action's boundary WZW is A1, and E6 comes from elsewhere. Verdict OPEN.",
+"status_words": ["OPEN", "RETRACTED"],
+"retractions": [{"what": "σ = 1 (claimed established earlier in the same session)", "of_which_arc": "B1228"}],
+"owner_elections_verbatim": ["Owner directed the run and named the illiteracy that had blocked it: \"supplied externally\" read as \"outside existence\"."],
+"numbers_claimed": ["9/9", "48/72", "control 5_2 = 0", "six Cartan directions"],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "'Retracted in-session: σ = 1 is NOT established — the geometric CS action's boundary WZW is A1, and E6 comes from elsewhere. Verdict OPEN; the arc's own test reds the suite if anyone upgrades it.'"}
+]
+},
+{
+"date": "2026-08-31",
+"title": "2026-08-31 — B1229: THE CONSISTENCY TURN",
+"arcs": ["B1229", "B1225", "B1184"],
+"established": "Rational CFT ⇒ c rational (Anderson-Moore/Vafa) ⇒ σ rational; MMS's two-character classification = Deligne series ⇒ σ ∈ 7 values ⇒ object's ℤ/3 cuts to {1/3,1}, one bit. J never enters. c-bit typed as modular-invariant choice, independently reproducing B1184. Verdict OPEN — a program opened, no row closed.",
+"status_words": ["OPEN"],
+"retractions": [],
+"owner_elections_verbatim": ["Owner asked for a completely different approach and for research, not computation."],
+"numbers_claimed": ["σ ∈ 7 values", "{1/3, 1}"],
+"red_flags": []
+},
+{
+"date": "2026-08-31",
+"title": "2026-08-31 — B1230: THE CONSISTENCY CAMPAIGN, RUN 1",
+"arcs": ["B1230", "B1229"],
+"established": "C-1 base-field audit → OVER-COUNTED: σ counted as continuum, two rows state no field; binding rule established (every continuous count states its field). C-5 → refuted B1229: c=6 has four solutions not one at level 1. C-5b recovery: object's own ℤ/3 cuts four to one, restriction-free. Verdict OPEN, no row deleted, σ=1 not established.",
+"status_words": ["OVER-COUNTED", "REFUTED", "OPEN"],
+"retractions": [{"what": "B1229's claim that c=6 has one solution", "of_which_arc": "B1229"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["c = 6 has four solutions, not one"],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "'C-5 → refuted B1229: c = 6 has four solutions, not one (at level 1, c = rank).'"},
+{"kind": "OTHER", "detail": "'The gate caught B1229 pairing Brown–Henneaux with (E6)_1 without stating L154's adjudication' — a gate catching an earlier arc's insufficiently-justified pairing."}
+]
+},
+{
+"date": "2026-09-01",
+"title": "2026-09-01 — B1231: THE IDENTIFICATION DISCIPLINE",
+"arcs": ["B1231", "B813", "B1223", "B1225", "B1229"],
+"established": "Rule established: by B1225 the object cannot identify, so an unearned identification is an unpriced observer input — parameter count is a lower bound; 'u' is an identification map. Register (EARNED 3/REFUTED 2/UNEARNED 2) plus ratchet gate. Instrument's own selftest admits it would NOT have caught the error it was built for. Sweep over 1179 arcs → 61 candidates, 52 BARE. Anderson-Moore/Vafa flagged as a physics-argument, unread, not automatically covering a CS boundary — B1229's 'robust core' is not robust.",
+"status_words": ["EARNED", "REFUTED", "UNEARNED", "fenced"],
+"retractions": [{"what": "B1229's 'robust core' claim (Anderson-Moore/Vafa covering the CS boundary)", "of_which_arc": "B1229"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["EARNED 3 / REFUTED 2 / UNEARNED 2", "1,179 arcs", "61 candidates, 52 BARE"],
+"red_flags": [
+{"kind": "OTHER", "detail": "'The instrument's recall limit is asserted in its own selftest: it would not have caught the error it was built for.' — a self-acknowledged limitation of the verification instrument itself."},
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "'Anderson–Moore/Vafa is a physics-argument, unread, and does not automatically cover a CS boundary — B1229's \"robust core\" is not robust; fenced.'"}
+]
+},
+{
+"date": "2026-09-01",
+"title": "2026-09-01 — B1232: codex R031A/R031B verified here; three retractions; the third column",
+"arcs": ["B1232", "R031A", "R031B", "B1231"],
+"established": "codex's certs re-run and lemma re-derived. Three retractions: σ∈ℚ as a reduction (ℚ is dense, the 'robust core' was empty); k=1 from absence (underdetermination never a default); own C-2 Outcome B (B0=4χ0, K-rank 4 not 1 — inferred a module structure from dim 4=φ(12), the exact error B1231 names). Gained 'count the image not the source': annihilating coupling gives observable spread 0.000 over 2000 splittings vs 4.83 generic. Three columns not two — conflated observer-supplied values with representational choices.",
+"status_words": ["RETRACTED", "sharpened"],
+"retractions": [
+{"what": "σ ∈ ℚ as a reduction", "of_which_arc": "prior consistency-campaign reasoning (B1229-adjacent)"},
+{"what": "k = 1 from absence", "of_which_arc": "prior arc's inference"},
+{"what": "own C-2 Outcome B (B0 = 4χ0, I4, K-rank 4 not 1)", "of_which_arc": "this bench's own C-2 outcome"}
+],
+"owner_elections_verbatim": ["Owner: verify everything, trust nothing."],
+"numbers_claimed": ["dims (3,4,1)", "observable spread 0.000 over 2000 splittings vs 4.83 generic", "Gal(ℚ(ζ3)/ℚ) is order 2", "dim 4 = φ(12)"],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "three explicit retractions listed: σ∈ℚ as a reduction, k=1 from absence, and own C-2 Outcome B — 'I inferred a module structure from dim 4 = φ(12), the exact error B1231 names.'"}
+]
+},
+{
+"date": "2026-09-01",
+"title": "2026-09-01 — B1233: the external audit",
+"arcs": ["B1233", "B285", "I-8", "B1232"],
+"established": "External audit: 15 confirmed, 7 refuted, one defect found in own record. Confirmed: golden dilogarithm partition of ζ(2) into 3/5+2/5; Λ(m)=Lagrange²; void as a (2,1) saddle above quaternionic global minimum; Riley value = B285. Refuted: j(m004 cusp)≠0 (that's m003's); q=1 'cutoff'; k=1 by minimality (error B1232 retracted hours earlier); quartic-vs-quadratic; observer-bit=class-group identification dead by Galois (I-8 REFUTED). Own defect: κ convention split between paper and frontier.",
+"status_words": ["CONFIRMED", "REFUTED"],
+"retractions": [{"what": "k = 1 by minimality (re-flagged as refuted, matching B1232's retraction hours earlier)", "of_which_arc": "B1232-adjacent"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["15 confirmed, 7 refuted", "3/5 + 2/5"],
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "'the observer-bit = class-group identification, dead by Galois — conjugation fixes √5, the class generator flips both. I-8 REFUTED.' A dimension/type coincidence identification found refuted."},
+{"kind": "OTHER", "detail": "'Our own defect: a κ convention split between paper and frontier; harmonization owed.' Acknowledged unresolved internal inconsistency."}
+]
+},
+{
+"date": "2026-09-01",
+"title": "2026-09-01 — B1234: the walls trace to A6",
+"arcs": ["B1234", "A6", "P019", "B749"],
+"established": "The mirror is a self-isometry, forced by the construction: orientation double covers are amphichiral 40/40 (100%) against a 3.0% base rate; m004 is Gieseking's cover. A6 ⇒ double cover ⇒ amphichiral ⇒ every wall. Arithmetic survives A6's removal (48 surjections onto 2T, identical, same trace field). Not claimed: dropping A6 yields values (may break tools since CS/complex volume/SL(2,ℂ) rep theory all use orientation). Also: κ collision row (five meanings) and I-9 UNEARNED with hand-raised ratchet baseline.",
+"status_words": ["FRAGILE", "UNEARNED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["40/40 (100%)", "3.0% base rate", "48 surjections onto 2T"],
+"red_flags": [
+{"kind": "OTHER", "detail": "'the κ collision row (five meanings, omitted from a register that covered five other symbols)' — a naming-collision omission found in the record."}
+]
+}
+]
+}

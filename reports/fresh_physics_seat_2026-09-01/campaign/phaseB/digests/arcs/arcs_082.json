@@ -1,0 +1,544 @@
+{
+"batch": "arcs_082",
+"arcs": [
+{
+"arc": "B824_charvar_motif",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character variety' alone carrying 13.8%); it was reverted and B537 stays a recorded GAP. | NEGATIVE",
+"log_says": "Matches: B824 FAILED at 18.4% vs 15% ceiling, reverted; my declared worry (criterion 3 redundancy) was wrong, criterion 2 killed it.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Per-pattern corpus share (character variety 13.8%, total 18.4%)", "where": "FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Test file tests/test_b824_charvar_motif.py is cited but not included in this packet; the counting script/corpus itself is not shown, so a stranger cannot verify the 18.4%/13.8% figures from files read here."}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir; relies on a cited test file not sampled.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "MISSING_WITNESS", "detail": "Corpus-share percentages asserted without the counting script or corpus file in the read set; only the cited test filename is given.", "where": "FINDINGS.md:11,25"}],
+"seat_note": "This is a lexicon/instrument-maintenance arc (repo self-classification tooling), not a physics claim; it is a negative result honestly recorded, but the underlying regex/corpus counts are not independently reproducible from what was read here."
+},
+{
+"arc": "B825_markov_motif",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The Markov-cubic motif passes all three sealed criteria unchanged from B824 (hits B537, 8.3% corpus share, 75.8% inside trace_map), closing the last open GAP row in the blind-arc registry within the declared two-attempt cap. | PROVED",
+"log_says": "Matches: B825 SUCCEEDED at 8.3% (<=15% ceiling), 75.8% max containment (<90%); closes the last known lexicon gap (B537).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "8.3% corpus share (62/750), 75.8% containment in trace_map", "where": "FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Same class as B824: counting script/corpus not in read set; only tests/test_b825_markov_motif.py cited."}
+],
+"belt": "NONE",
+"belt_note": "No verification directory; relies on an uninspected test file.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "MISSING_WITNESS", "detail": "8.3%/75.8% figures asserted without the corpus/counting code being part of the sampled files.", "where": "FINDINGS.md:11"}],
+"seat_note": "Pure lexicon-instrument bookkeeping (this repo's internal motif-tagging system), explicitly not physics; the arc is self-aware about the difference between 'gap closed' and 'lexicon complete' which is a genuine epistemic strength."
+},
+{
+"arc": "B826_b519_verdict",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "B519's missing verdict was a filename gap, not a content gap - its VERDICT.md already carried its own correction - so B519 is tagged RETRACTED and the writer-safety invariant is widened to FINDINGS.md or VERDICT.md, prereg excluded. | PROVED",
+"log_says": "Matches: B826 gives B519 a RETRACTED verdict from its own VERDICT.md correction banner + B525; widens writer-safety invariant.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "B519's VERDICT.md already contains its own self-correction (B1 row struck through, re-marked LIVE)", "where": "FINDINGS.md:16-21", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "Quotes VERDICT.md but that file is not in the read set for this packet; content trusted at face value."},
+{"what": "B225 carries PROVED though B745 confirmed its 2-half kill vacuous, and B58 spans three directories -- left unresolved", "where": "FINDINGS.md:56-61 (Still carried)", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "explicit carried/open item, not resolved here"}
+],
+"belt": "NONE",
+"belt_note": "Governance/documentation-hygiene arc; no computational belt applicable.",
+"absence_claims": [
+{"quote": "carried no verdict at all", "where": "FINDINGS.md:8 (re B519_re_mining)"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Pure bookkeeping/governance fix (a filename convention bug in the repo's own verdict-tracking); zero physics content, correctly scoped as such."
+},
+{
+"arc": "B827_progresslog_recovery",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "37 progress-log entries went to an accidental shadow file over ten days because the pairing gate compared a frozen timestamp and had become incapable of failing; entries were recovered and two failing-capable checks installed. | PROVED",
+"log_says": "Matches closely: 37 entries B725->B826 recovered from a shadow docs/PROGRESS_LOG.md; gate log-changelog-paired had frozen and could never fail; two new checks installed. Later log entries (B830) correct B827's downstream claim of 'four duplicated authoritative filenames' to 'two'.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "37 shadow entries, span B725->B826, 0 present in canonical/roll-off log", "where": "FINDINGS.md table lines 8-13", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "A git-history/file diff claim; the actual before/after files or diff are not shown in this packet, only narrated."},
+{"what": "gate bug: ta (canonical log mtime) froze, so tb>=ta trivially held", "where": "FINDINGS.md:22-34", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "Code snippet shown is a paraphrase ('if tb < ta: fail'), not a diff of the actual gate script; the real gate file is not in the read set."}
+],
+"belt": "NONE",
+"belt_note": "Says negative controls were run (plant shadow file -> gate fails; remove -> passes) but the test file is only cited by name, not read.",
+"absence_claims": [
+{"quote": "of those, present in the canonical log or the Q2 roll-off | 0", "where": "FINDINGS.md:13"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "B827 asserts 'four duplicated authoritative filenames' found in one review; a later arc (B830, same batch) computes the true count is two and says B827's claim 'is wrong.' B827's own FINDINGS.md file as read here is not marked with this correction inline.", "where": "FINDINGS.md:64-73 vs B830_b720_recompute/FINDINGS.md:73-79"}
+],
+"seat_note": "Repo-hygiene incident report (progress-log file management), not physics; the self-correction chain (B827 claim corrected by B830) is handled transparently in the log but B827's own file is not retroactively annotated."
+},
+{
+"arc": "B830_b720_recompute",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","cells.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Computed the three previously cited classification facts: Q(zeta_3) and Q(i) intersect in Q (compositum degree 4), the Markov quiver is mutation-finite but not finite-type, and dim H^1 is finite (6 at E6). | PROVED",
+"log_says": "Matches: A1-A3 all held as predicted; B830 also deleted a fork (REVIEWS.md) and refuted its own generalization about ROADMAP.md being a duplicate, and corrected B731's stale revival_score from 10 to 0.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Q(zeta_3) cap Q(i) = Q, compositum degree 4", "where": "cells.py a1_branch_mismatch(), lines 13-49", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full sympy code shown; uses sp.minimal_polynomial on sqrt(-3)+i, straightforward and reproducible from this file alone."},
+{"what": "Markov quiver: mutation class size 1, finite-mutation, NOT finite-type; A3 positive control finite_type=True, class size 4", "where": "cells.py a2_markov_finite_mutation_not_finite_type(), lines 77-131", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full mutation-enumeration code with a positive control (A3 Dynkin quiver) included; genuinely runnable and falsifiable as written."},
+{"what": "dim H^1 = 6 at E6, 1 at SL(2) -> finite-dimensional moduli, no local DOF", "where": "cells.py a3_no_local_dof(), lines 135-154", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "The function literally hardcodes dim_H1_E6=6 and dim_H1_SL2=1 as comments citing 'CLAIMS E14 / B575' -- these are NOT computed in this file, they are imported constants from other arcs; the 'REFUTED' check is trivially true given the hardcoded ints."},
+{"what": "'Connes-Marcolli cosmic Galois group is mixed-Tate over Z[i]' (A4)", "where": "FINDINGS.md:45-53, PREREGISTRATION.md:37-43", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Explicitly and honestly declared as an uncomputed citation about another author's construction; not claimed as computed, which is a positive transparency signal."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "cells.py is itself a from-scratch recomputation of three previously-cited-only facts (replacing a label-lock on distinct strings); A3 however only recomputes the finiteness *check*, not the dim H^1 values themselves, which remain imported.",
+"absence_claims": [
+{"quote": "B720's only lock asserted three string literals were distinct — it verified that three different strings had been typed", "where": "FINDINGS.md:22-23"},
+{"quote": "Consequently the \"four duplicated authoritative filenames\" claim in B827 is wrong. The true count is two", "where": "FINDINGS.md:73-75"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "A3's 'no local DOF' conclusion rests on dim H^1=6 (E6) and 1 (SL2) being imported as bare integers from other arcs (B575/CLAIMS E14) rather than recomputed here; the file's own docstring calls them 'Banked, both locked elsewhere' -- a citation dressed as a computation cell alongside two genuinely computed cells.", "where": "cells.py:144-148"}
+],
+"seat_note": "A1 and A2 are genuine, reproducible, falsifiable computations (with positive controls) supporting a banked negative (B720); A3 is a bare re-assertion of previously banked numbers, not new computation, despite being presented in the same table as A1/A2 -- a reader skimming the table would not see this difference in evidentiary weight."
+},
+{
+"arc": "B832_verdict_wave3",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","calibration_ratings.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Wave 3's four-category calibration scored Fleiss κ=0.9305 (CI 0.83-1.00), passing the gate and refuting the seat's own prediction of a lower κ, and exposed a mixed-arc vocabulary gap behind 3 of 16 corpus disagreements. | PROVED",
+"log_says": "Matches: kappa=0.9305 (predicted 0.75-0.90, wrong); an execution error meant only 57 of 183 intended arcs were actually novel (126 already judged, hand-typed list error); 50 verdicts written net.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Fleiss kappa = 0.9305 on 16-arc, 12-reader, 4-category block; CI [0.8286,1.0]", "where": "FINDINGS.md:9-13; calibration_ratings.json raw data", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "calibration_ratings.json contains the full raw per-reader per-arc labels for all 16 arcs, so kappa is recomputable by a stranger from this file directly (assuming standard Fleiss kappa code, not included but the input data is)."},
+{"what": "Consistency vs corpus: 79.7% (153/192), 3 disagreements all unanimous/near-unanimous toward PROVED (B61, B556, B746)", "where": "FINDINGS.md:29-45", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Directly checkable against calibration_ratings.json plus known corpus verdicts for those 16 arcs (corpus verdicts not shown here but referenced as fixed prior labels)."},
+{"what": "Execution error: 183 sent, only 57 actually in frame, 126 already-judged retyped by mistake", "where": "FINDINGS.md:64-77", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "Self-reported process error; the actual id lists (/tmp/wave3_args.json vs what was sent) are not committed/shown."}
+],
+"belt": "RE-READS",
+"belt_note": "The calibration data itself is a re-read/reader-panel exercise (12 LLM/human readers independently re-reading 16 already-verdicted arcs blind); no independent recomputation belt beyond that.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "OTHER", "detail": "Wave 3's reader panel unanimously or near-unanimously overturned three corpus verdicts (B61, B556, B746) toward PROVED, but the arc explicitly declines to relabel them pending a vocabulary-rule change, deferring the correction to B834.", "where": "FINDINGS.md:55-62"}
+],
+"seat_note": "This is meta-level inter-rater-reliability instrumentation for the corpus's own verdict labels, not a physics result; the underlying raw ratings are committed and kappa is genuinely reproducible from calibration_ratings.json, which is a real strength for this class of arc."
+},
+{
+"arc": "B833_negative_routing",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "A direct count of 137 NEGATIVE-verdict arcs absent from the kill graph lands inside B801's estimated interval 55-168, and the '66% coverage' figure is shown to be an arc-level vs kill-level unit mismatch. | PROVED",
+"log_says": "Matches: B833 turns B801's estimate into a measurement (137 vs estimated 111, CI 55-168) and identifies the 66% vs 33.5% coverage figures as comparing different units (arc-level vs kill-level registers).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "206 NEGATIVE-verdict arcs, 137 absent from kill graph; kill_graph has 217 records: 172 arc ids + 45 non-arc keys; of 172, 69 NEGATIVE/56 PROVED/38 none/6 RETRACTED/3 OPEN", "where": "FINDINGS.md:14-42", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Described as a direct count over the repo's verdict/kill_graph records, but the actual kill_graph.json and verdict corpus are not part of this packet's read set -- the arithmetic is plausible but not independently checked here."}
+],
+"belt": "NONE",
+"belt_note": "No verification directory; purely a bookkeeping recount arc with cited test file only.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Registry-accounting arc (kill_graph vs verdict corpus reconciliation); the discovered unit-mismatch (arc-level vs kill-level denominators) is a genuinely useful catch of a stats-communication error, but nothing here is physics."
+},
+{
+"arc": "B834_wave3b",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","calibration_ratings.json (head)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Wave 3b (retro-authored at R50-4): kappa replicated on the same 16-arc block with a fresh 12-reader panel at kappa = 0.9300 (three measurements spanning 0.0012); B61/B556/B746 relabelled PROVED. | OPEN (retro-authored)",
+"log_says": "Matches: kappa=0.9300 replicates 0.9305/0.9312; B61,B556,B746 relabelled to PROVED with ESTABLISHED/UNSETTLED claim structure; coverage reaches 94.1% (756/803 arc ids), correcting a denominator error (759 vs 803) caught in the same arc.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "kappa=0.9300 on same 16-arc block, fresh panel", "where": "FINDINGS.md:6-18; calibration_ratings.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Raw per-reader ratings partially sampled (B74 differs from wave3a's B74 by one dissent) confirm this is an independently collected data file, not a copy; kappa recomputable from the committed json."},
+{"what": "756/803 = 94.1% coverage; corrects a self-caught denominator error (ledger said 756/759 = 99.6% of ATLAS population, not of arc ids on disk)", "where": "FINDINGS.md:66-73", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "The underlying ledger file and arc-id count on disk are not in the read set here."}
+],
+"belt": "RE-READS",
+"belt_note": "Same class as B832 -- a replication reader-panel wave, not an independent computational check.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "OTHER", "detail": "arc_verdict.json for B834 (and siblings B835-B840 in the same batch) carries a 'retro-authored 2026-08-27 (B1176, R50-4)' provenance note stating the arc predates the arc_verdict discipline and the verdict is reconstructed after the fact from FINDINGS.md rather than authored contemporaneously.", "where": "arc_verdict.json:4"}
+],
+"seat_note": "A genuine instrument replication (kappa reproduced to 4 decimal places across two independent panels) with a self-caught denominator bug; still pure meta-corpus bookkeeping, no physics content, and its verdict record is a later retro-construction rather than contemporaneous."
+},
+{
+"arc": "B835_lock_repairs",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Lock repairs (retro-authored at R50-4): the suite's 5 failures at 9b5fef46 sort into three kinds -- one real corpus drift (trace_map share crossed below its 0.45 floor to 0.449), two lock defects, two correctly-firing tripwires -- none a mislabelled verdict. | OPEN (retro-authored)",
+"log_says": "Matches: full suite returned 5 failed/3076 passed; sorted into corpus drift (trace_map <0.45), two lock defects (exact-string match broken by appended provenance; retraction-marker search limited to first 1500 chars), and two correctly-firing frame-gap tripwires.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "trace_map corpus share crossed 0.45 floor to 0.449; per-era breakdown table (trace_map 0.463->0.375, kappa 0.284->0.125, etc.)", "where": "FINDINGS.md:15-28", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Table presented as measured output of test_measured_frequencies_hold, but the underlying corpus/motif-count script is not in this packet."},
+{"what": "B702's retraction marker was at line 45, past a 1500-char read window", "where": "FINDINGS.md:44-51", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Specific and checkable claim about a file offset, but B702's file itself isn't read here to verify line 45."}
+],
+"belt": "NONE",
+"belt_note": "Diagnostic/test-suite triage arc; belt is the test suite itself (3076 passed/5 failed), not separately re-verified here.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "OTHER", "detail": "Widening the trace_map floor from an unstated prior value to 0.40 (a threshold the data itself moved below) risks becoming a threshold that 'follows the data' -- the arc explicitly acknowledges and tries to counter this by asserting an ORDERING invariant (trace_map > kappa) instead, but the floor-widening itself is exactly the failure mode Review 35 elsewhere calls out.", "where": "FINDINGS.md:30-34"}
+],
+"seat_note": "Test-suite maintenance arc (repo self-monitoring); its content is entirely about lock/gate hygiene, not physics; the widened-floor-vs-moved-data tension is self-flagged but not fully resolved."
+},
+{
+"arc": "B836_route_negatives",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Route-the-negatives (retro-authored at R50-4): 167 authored-NEGATIVE arcs absent from the kill graph routed (graph 217 -> 384, backlog zero) with every judgement field left unset; discharges B801/B833. | OPEN (retro-authored)",
+"log_says": "Matches: 167 arcs routed into kill_graph (217->384 records), backlog zero; fact_computed/kill_form/hatch/revival_score all deliberately left unset/None rather than guessed.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "167 arcs routed, graph 217->384", "where": "FINDINGS.md:8-13", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "kill_graph.json itself not part of the read set for this packet; count is asserted narratively."}
+],
+"belt": "NONE",
+"belt_note": "Registry bookkeeping; no independent verification directory.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A disciplined bookkeeping arc that explicitly refuses to fabricate judgement fields (fact_computed, kill_form) it cannot honestly fill in yet -- good epistemic practice, zero physics content."
+},
+{
+"arc": "B837_file_drawer_audit",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "File-drawer audit (retro-authored at R50-4): the count went 15 -> 0 -> 3 across three methods and only the last number came from READING -- the sealed-prereg-without-report population is 3, not 15. | OPEN (retro-authored)",
+"log_says": "Matches: 47 dirs w/o findings+verdict; 18 hold sealed PREREGISTRATION.md, 15 in seal ledger; three-pass audit converges on 3 genuinely unreported sealed preregs (B590 paused, B557 & B499 undisposed).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "3 unreported sealed preregs (B590, B557, B499) out of 24 ledgered-and-unfinished candidates in 803 arcs", "where": "FINDINGS.md:29-49", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "Result of reading each of 18 citing arcs' text by hand; the citing arcs themselves are not in this packet's read set to spot-check."}
+],
+"belt": "NONE",
+"belt_note": "Self-described as a manual reading exercise (grep+read), no automated re-verification belt.",
+"absence_claims": [
+{"quote": "B590's citation literally reads \"(bank pending — B590 paused by owner)\" — an admission that it is unreported", "where": "FINDINGS.md:24"},
+{"quote": "no result for B499 is stated anywhere", "where": "FINDINGS.md:36"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Governance audit of preregistration follow-through; the self-correcting three-pass methodology (15 -> 0 -> 3, each pass diagnosing the previous pass's error) is a good discipline example but carries no physics content."
+},
+{
+"arc": "B838_lexicon_regrounding",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Lexicon re-grounding (retro-authored at R50-4): R35-7 TESTED AND DECLINED -- the pre-seal frequency diagnostic shows K023-K025 are syntheses, not topics; the called-for re-grounding yields no motif. | NEGATIVE (retro-authored)",
+"log_says": "Matches: every distinctive K023-K025 term is either ambient (forcing/forced 41.9%) or absent (held slot 0.1%); no viable middle band for a new motif; closes a 5-review-carried item with a computed reason.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "term-frequency table: forcing/forced 41.9%, forces 13.6%, held slot 0.1%, two ingredients 0.1%, etc.", "where": "FINDINGS.md:17-27", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Corpus-frequency counting script/corpus not in the read set; numbers asserted, methodology (same as B824/B825's diagnostic) plausible but not independently checked here."}
+],
+"belt": "NONE",
+"belt_note": "No verification dir; relies on cited test file test_b838_regrounding.py, not sampled.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Lexicon-instrument scoping decision (whether new internal taxonomy layers need new motifs); purely a repo self-classification question, no physics."
+},
+{
+"arc": "B839_b685_residue",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","normalisation.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "B685 residue (retro-authored at R50-4): the non-3 denominator is an EXPANSION ARTIFACT -- (2n)! absorbs the entire non-3 denominator at every computed order, and no other member of the sealed family does (prereg 0bbdc9f5fcf96cb2). | NEGATIVE (retro-authored)",
+"log_says": "Matches: (2n)! clears the non-3 denominator exactly at every order n=2..14; eight of nine other family members fail; mechanism prediction (double factorial) was wrong -- single factorial wins; B685.fact_computed stays FALSE, only the GSWZ convention citation remains unread.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "(2n)! clears the non-3 denominator at n=2,4,6,8,10,12,14; all 8 other family members fail (first failures at n=2 or n=4)", "where": "normalisation.py: FAMILY dict and main() loop, lines 49-104", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "The full search script is committed and calls into B800's own phihat/K functions (imported, not modified) to rebuild coefficients; the family of 9 normalisations is a fixed, hardcoded, inspectable list; genuinely re-runnable by a stranger given B800's directory is also present."},
+{"what": "B800's 3-adic law v3~=1.428n -> 3^143 at n=100 vs B685's 3^146", "where": "FINDINGS.md:69-71", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Cited from B800, not recomputed in this arc's script."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "normalisation.py imports B800's own verified phihat/K components and re-derives the symmetrised series independently rather than trusting B800's printed output -- a genuine re-derivation belt.",
+"absence_claims": [
+{"quote": "B685.fact_computed stays FALSE — but its residue is now one literature line rather than a whole computation", "where": "FINDINGS.md:60"},
+{"quote": "GSWZ eq. (2) uses this normalisation\" remains cited, not read", "where": "FINDINGS.md:57"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "One of the stronger arcs in this batch: a genuinely committed, re-runnable search over a pre-sealed family of normalisations, with the author's own mechanism prediction (double factorial) explicitly falsified in favor of a different answer ((2n)!) -- this is real arithmetic verification with an honest kill branch, though it is about a mathematical q-series expansion, not a physical observable."
+},
+{
+"arc": "B840_close_loose_ends",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Loose ends (retro-authored at R50-4): three closed and one was a VACUOUS VERDICT -- B590's R1 printed SEALED because polish_mp built 9 complex trace equations (18 real) for 22 real unknowns, so escapes==0 held because nothing was ever tested. | NEGATIVE (retro-authored)",
+"log_says": "Matches: B590 R1's SEALED result was vacuous (underdetermined system caused every input to raise an exception, caught before the membership test, so escapes==0 spuriously); R2/V3 blind result stands (9 Phi-orbits, charge split 1/10/16, triple intersection 6); B557 was a filename artifact (results existed under other filenames); B499 genuinely never ran.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "R1's vacuous SEALED verdict traced to mdnewton needing a square system but polish_mp supplying 9 complex (18 real) equations for 22 real unknowns; exception counted and loop continued before membership test", "where": "FINDINGS.md:13-21", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Described as a diagnosed and fixed bug (three bugs fixed: underdetermined polish, 50-vs-70-digit truncation, double-precision control), but the actual before/after code and re-run outputs are not part of this packet's read set."},
+{"what": "R2/V3 blind result: 9 Phi-orbits size 3 on the 27, charge split 1/10/16 gate PASS, triple intersection 16^16^16=6, singlet orbit profile (1,16,16)", "where": "FINDINGS.md:9-11", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Presented as a delivered blind computation but no script or raw output file is in the read set here to check."},
+{"what": "Bronze trace field discrepancy: script computes degree 8, prereg quotes B578-D6 for degree 6 -- explicitly left UNRESOLVED", "where": "FINDINGS.md:36-38", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "Flagged as an open, unresolved numeric discrepancy (degree 8 computed vs degree 6 cited) and not adjudicated within this arc."}
+],
+"belt": "NONE",
+"belt_note": "No verification/ directory; the described bug-fixing (three independent bugs in a polynomial-solving pipeline) is narrated, not shown as a diff or re-run log here.",
+"absence_claims": [
+{"quote": "R1 was printing SEALED at m=3 on both seeds — and the verdict was empty", "where": "FINDINGS.md:13"},
+{"quote": "The directory holds a prereg and nothing else", "where": "FINDINGS.md:51 (re B499)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The R2/V3 'blind' physics-flavored result (orbit counts, charge splits, triple intersections on a 27) and the description of three independently-fixed bugs are both asserted narratively with no code/output file included in the packet to verify.", "where": "FINDINGS.md:9-21"},
+{"kind": "OTHER", "detail": "An unresolved numeric discrepancy is explicitly carried open: the script computes bronze trace field degree 8 while the prereg cites B578-D6 for degree 6, with no reconciliation attempted here.", "where": "FINDINGS.md:36-38"}
+],
+"seat_note": "The most physics-adjacent arc in this cluster (E6/27-representation orbit structure, charge splits) but it is presented purely narratively with no committed script/output in this packet, and it explicitly carries forward an unresolved degree-8-vs-degree-6 discrepancy -- worth a closer read of B590's actual code before trusting the R2/V3 numbers."
+},
+{
+"arc": "B841_provenance_pass",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Provenance pass (retro-authored at R50-4): LANDS by its sealed criterion -- 167 records, fact_computed=true 118 (70.7%), 0 undetermined, 118/118 pointers resolve on the filesystem (prereg 706d4ae3a5f050f0). | OPEN (retro-authored)",
+"log_says": "Matches: reader panel judges the 167 routed kills; 118 (70.7%) fact_computed=true, 100% pointer resolution on filesystem; author's own prediction of <=35% true was badly wrong; kill_form taxonomy tabulated (genericity 39, kind-mismatch 25, etc).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "167 records judged by 12 readers, 0 errors; fact_computed true 118/167 (70.7%); 118/118 pointers resolve on filesystem", "where": "FINDINGS.md:8-18", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Described as mechanically verified (every true-pointer checked against the filesystem), and a 10-record seeded sample was spot-read, but the full 167-record rated dataset and verification script are not in this packet's read set."},
+{"what": "10-record seeded sample: 9/10 point at genuine computation, 1 (B127) behind an optional-dependency import guard", "where": "FINDINGS.md:32-45", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "Spot-check narrated but the specific sampled records/pointers are not shown or independently checked here."}
+],
+"belt": "RE-READS",
+"belt_note": "Reader-panel provenance-tagging exercise with a mechanical pointer-resolution check as its safety belt (a form of automated re-verification of reader claims).",
+"absence_claims": [
+{"quote": "undetermined ... used zero times", "where": "FINDINGS.md:66"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A well-designed provenance-tagging instrument (fabrication is checkable via mandatory resolvable pointers) applied to the corpus's own kill-graph metadata; pure meta-bookkeeping, no physics, and a genuinely good design against the specific failure mode (fabricated fact_computed flags) it targets."
+},
+{
+"arc": "B842_face_attachment",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Face attachment (retro-authored at R50-4): the reader panel PASSES its sealed gate -- Fleiss kappa = 0.8732, CI [0.7388, 0.9603] vs gate 0.60; B806's keyword classifier (precision 0.45, +55% over-prediction) was a different instrument, not a contradiction. | OPEN (retro-authored)",
+"log_says": "Matches: kappa=0.8732 on 12-way judgement passes gate 0.60; existing kill-graph face attachments disagree with panel on 44% of the 16-arc calibration block (7/16); 673 records now carry a face (up from 166); 79 judged none.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Fleiss kappa=0.8732 on 16-arc 12-category calibration block, CI [0.7388,0.9603]", "where": "FINDINGS.md:8-13", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "calibration_ratings.json is listed as a file for this arc in other arcs (B832/B834) but was not included as a file for B842 in this packet -- so the raw per-reader labels this kappa is computed from are not in the read set for this specific arc."},
+{"what": "Consistency vs existing kill-graph attachment: 58.3% per judgement, 56.2% by panel mode; B296/B523 both 12/12 'none' against corpus attachments", "where": "FINDINGS.md:30-44", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Same as above -- underlying calibration data not in this arc's read set within this packet."}
+],
+"belt": "RE-READS",
+"belt_note": "Reader-panel classification instrument, same family as B832/B834's verdict-wave calibration.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The kappa=0.8732 and consistency percentages are load-bearing for the arc's PASS verdict but the packet did not include B842's calibration_ratings.json (unlike B832/B834 where it was included), so this specific arc's numbers could not be checked against raw data in this read.", "where": "FINDINGS.md:8-13"}
+],
+"seat_note": "Same meta-corpus taxonomy-tagging exercise as B832/B834 applied to 'face' (topic) attachment instead of verdict category; finds the EXISTING pre-calibration attachments in the kill graph disagree with a calibrated panel 44% of the time on two arcs the panel unanimously judged mislabeled -- a real internal-consistency finding about the corpus's own tagging, not physics."
+},
+{
+"arc": "B845_spectral_inventory",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Spectral inventory (retro-authored at R50-4): the 'spectral paper, finished and unshipped' carried through five reviews DOES NOT EXIST -- papers/ held no spectral paper at all; the review seat's correction was directionally right with numbers that do not match main. | OPEN (retro-authored)",
+"log_says": "Matches: no spectral paper anywhere; certified spectral results exist in B794/B795/B797; the 43-eigenvalues-to-r=13.5 claim likely refers to cc3's unmerged B792, not main's 17; main's own eigenvalues_final.json artifact (6 entries) disagreed with its own FINDINGS table (17 certified) until B846 completed it.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "B797: 17 certified Maass eigenvalues r=3.9389->9.8371, mode-count certified 664->900 modes, max|dr|=5.42e-9; n=6 identified as parent ground state, S-invariant to 7e-10 vs others breaking at order 1", "where": "FINDINGS.md:18-19", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Cited from B797 (a different arc, 'harvested from cc3'), not recomputed or re-verified in this arc; this arc only checks WHERE things live and whether documents/artifacts are internally consistent, not the underlying eigenvalue computation itself."},
+{"what": "B795: 7/7 independently re-verified on this seat's own instrument (distinct from B797's original computation)", "where": "FINDINGS.md:20", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Referenced as an existing verification receipt from a separate arc (B795), not re-run here."},
+{"what": "B797/eigenvalues_final.json carries 6 eigenvalues while its own FINDINGS table certifies 17 -- an internal artifact/prose mismatch", "where": "FINDINGS.md:42-48", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "A direct, checkable file-content discrepancy (JSON has 6 entries vs prose table's 17) that this arc discovered by reading; genuinely verifiable by anyone who opens both files, though neither is included in this packet's read set to double-check the specific count."}
+],
+"belt": "NONE",
+"belt_note": "This is an inventory/consistency audit of other arcs' outputs, not an independent recomputation of the spectral results themselves.",
+"absence_claims": [
+{"quote": "papers/ holds NO spectral paper at all", "where": "FINDINGS.md:9"},
+{"quote": "B792 is not in main. It is cc3's arc, and cc3 never merges", "where": "FINDINGS.md:23"},
+{"quote": "Harvest completeness UNVERIFIED", "where": "FINDINGS.md:62"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The arc explicitly documents that the committed machine-readable artifact (eigenvalues_final.json, 6 entries) contradicted its own FINDINGS.md prose table (17 certified) -- meaning a downstream consumer reading the JSON directly (not the prose) would get a silently truncated, wrong spectrum. Fixed by a later arc (B846) per the Carried section, but stands as a documented instance of a committed artifact disagreeing with the claim of record until patched.", "where": "FINDINGS.md:42-48"}
+],
+"seat_note": "A genuinely valuable self-audit catching a five-review-old phantom claim ('the spectral paper') and a real artifact/prose mismatch in a genuinely certified Maass-eigenvalue result (B794/B795/B797); the underlying spectral computation itself is not re-verified here, only its documentation and bookkeeping, and the 43-vs-17 discrepancy with an un-merged sister branch (cc3) is left explicitly unresolved and unverifiable from this repository."
+},
+{
+"arc": "B848_handoff_verification",
+"source": "main",
+"files_read": ["FINDINGS.md","RELAY_BACK.md","arc_verdict.json","results.json"],
+"files_sampled": ["verify_handoff.py (first 120 lines + grepped def/assert/sympy lines)"],
+"files_listed_only": [],
+"claim_of_record": "The incoming handoff bundle's arrow/amphichirality census reproduces exactly (6/6) by two independent methods, but its stated metallic mechanism proves the wrong half: symmetry supplies the det=+1 (amphichirality) conjugator, not the det=-1 one 'no arrow' needs, and LLRLRR=[[2,5],[5,13]] is a symmetric counterexample with an arrow; the conclusion survives via disc=m^2+4 and the metallic mean's norm -1, and the arrow is GENERIC (56.6% of cyclic classes by length 10), not rare. | PROVED",
+"log_says": "Matches closely: headline arrow/amphichirality census holds 6/6; the incoming bundle's symmetry-based mechanism for 'metallic families never have an arrow' is shown to prove amphichirality (det=+1) not absence-of-arrow (det=-1), with a symmetric counterexample (LLRLRR) already in its own table; conclusion rescued via disc=m^2+4/norm-(-1) mechanism; two propagation errors caught (17-vs-43 eigenvalues, Riley polynomial form) not fixed across all sibling documents in the incoming bundle.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "6/6 arrow/amphichirality census entries (LR, LLRR, LRR, LLRLR, LLRLRR, LLRRLR) match handoff via two independent methods (reduction-cycle det-form + box search)", "where": "verify_handoff.py: cycle_leads(), box_search(), census(); results.json census block", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full committed script implements both independent methods and results.json shows per-word matches_handoff=true for all 6; genuinely re-runnable and includes self-tests of the reduction-cycle instrument against known Pell examples (x^2-2y^2 etc, described in FINDINGS but not shown as code in the sampled first 120 lines)."},
+{"what": "Symmetric counterexample LLRLRR=[[2,5],[5,13]] refutes 'symmetric => no arrow'; metallic mean has norm -1 for all m=1..12, disc=m^2+4 exactly", "where": "results.json flag_symmetry_mechanism block; metallic array (m=1..12, all disc_is_m2p4=true)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Directly present in the committed results.json with per-m breakdown; a stranger can check disc=m^2+4 arithmetic by hand for each of the 12 rows shown."},
+{"what": "Base-rate table: arrow share climbs from 0% (length<=5) to 56.6% (length 10, 60/106 classes) -- arrow is GENERIC not rare", "where": "results.json base_rates array", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Raw counts (classes, arrow, non_amphichiral per length) committed in results.json; the enumeration method (base_rates(nmax=10) per grep of verify_handoff.py) is in the script though the exact loop body was not read in the sampled 120 lines."},
+{"what": "E6 dim-78 decomposition, GKY power sums, Lambda_K residue identities, Riley polynomial equivalence", "where": "results.json e6/gky/lambda_k/riley blocks", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "All shown as sympy/mpmath computations with exact or high-precision (1e-35 to 1e-41) numeric results in the committed JSON; grep confirms sympy.simplify/degree calls implementing these in the script."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "This entire arc IS a recomputation belt for an external handoff bundle -- two independent methods for the main census claim, explicit self-tests of the reduction-cycle instrument against known Pell-equation answers before applying it, and a positive/negative control structure throughout. One of the stronger belts seen in this batch.",
+"absence_claims": [
+{"quote": "The observer/SSB reframe... is NOT adjudicated here", "where": "FINDINGS.md:159-162"},
+{"quote": "phi_m004 = phi_orbifold was not re-derived", "where": "FINDINGS.md:163"},
+{"quote": "Not run: the SL(3) Euler-Jacobi test..., pr=(p+1)(q+1) on V0..., the foliation-algebra type (specialist...)", "where": "FINDINGS.md:165-167"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "RETRACTION_NOT_PROPAGATED", "detail": "The arc documents that the incoming bundle's own correction of the eigenvalue count (17, not 43) was recorded in only one of six delivered documents; four companion documents (reframe, master handoff, workplan) still state 43 at the time this arc was written. This is a defect IN the reviewed material that B848 catches, not in B848 itself, but the propagation gap is explicitly still open per RELAY_BACK.md.", "where": "FINDINGS.md:141-148; RELAY_BACK.md:56-73"}
+],
+"seat_note": "The strongest arc read in this batch on method: two independently-coded, cross-checked methods for the load-bearing arrow/amphichirality census, an instrument self-test against known Pell-equation answers, and a genuine correction of a claimed mechanism (symmetry proves the wrong determinant sign) backed by an exact number-theoretic argument (metallic mean norm -1). All figures traced to committed results.json. This is math about integer-matrix conjugacy and modular arithmetic invariants, not a physical observable -- STRUCTURAL, not OBSERVABLE."
+},
+{
+"arc": "B849_order_parameter",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The claimed beta=1 SSB has NO order parameter at the manifold level -- CS(m004)=0 and amphichirality forces every orientation-odd invariant to 2-torsion (nine chiral controls confirm the instrument sees nonzero) -- and the nominated candidate (chirality = complex conjugation) is at the WRONG LEVEL, lying in Gal(K/Q) rather than Gal(K^ab/K); CONDITIONAL on the acting-group identification, confirmed in B851. | NEGATIVE",
+"log_says": "Matches: CS(m004)=0 exactly (Chern-Simons); nine chiral manifolds return CS!=0 (positive control passes); five amphichiral manifolds all land on 2-torsion classes (0 or pi^2/2), with a self-caught implementation bug (code checked only ==0, prereg said 'zero-or-half-period', m003 was misflagged as a violation before the fix); Cell 4 confirms complex conjugation is in Gal(K/Q) not Gal(K^ab/K), CONDITIONAL on citation later confirmed by B851.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "CS(m004)=0 exactly (to 1.8e-15); 9 chiral manifolds (m015,m006,m007,m009,m010,m011,5_2,6_1,6_2) all CS!=0; 5 amphichiral manifolds (m004,4_1,m003,6_3,8_9) all land on {0, pi^2/2}", "where": "results.json cell1_2_panel array, cell3_lemma block", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full per-manifold CS values with symmetry_group and amphichiral flags are committed in results.json; presumably computed via SnapPy (not shown, order_parameter.py not read in full) but the panel data itself, including the positive control, is transparently laid out with exact numeric values to check."},
+{"what": "Complex conjugation does not fix K=Q(sqrt-3) (sends sqrt-3 to -sqrt-3), has order 2, lies in Gal(K/Q) not Gal(K^ab/K)", "where": "results.json cell4_level block", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Elementary and directly checkable field-theory fact, stated with its own boolean flags in the committed JSON (conjugation_in_Gal_K_over_Q=true, conjugation_in_Gal_Kab_over_K=false)."},
+{"what": "Gal(K^ab/K) is the acting group on extremal KMS states of the BC/CMR-type system (the premise Cell 4's LEVEL MISMATCH verdict rests on)", "where": "results.json cell4_level.citation_status; FINDINGS.md sec 4", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Explicitly and repeatedly flagged in the arc itself as 'DECLARED CITATION, NOT VERIFIED HERE' -- this seat did the right thing by not disguising a citation as a computation; later confirmed by B851's literature check, but even B851 leaves open whether the programme's own beta=1 system IS actually BC/CMR-type for Q(sqrt-3), which remains an unresolved in-repo assumption."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "order_parameter.py computes Chern-Simons invariants from scratch across a panel with an explicit non-vacuity positive control (9 chiral manifolds must return CS!=0); the arc also self-caught and fixed an implementation bug (Cell 3 checked ==0 instead of the sealed 'zero-or-half-period' criterion) via its own preregistration text.",
+"absence_claims": [
+{"quote": "the 370 geodesic lengths are not in main, the same phantom pattern as the 43 eigenvalues", "where": "FINDINGS.md:137"},
+{"quote": "Does not verify the Bost-Connes/CMR identification", "where": "FINDINGS.md:110"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc itself names the pattern: the reframe's chirality=order-parameter identification is diagnosed as importing intuition from the Q case (where Gal(Q^ab/Q) does contain complex conjugation via the cyclotomic character) into the K=Q(sqrt-3) case where the analogous group (Gal(K^ab/K)) is strictly smaller -- a right-object-wrong-level error the arc catches rather than commits, which is a strength, but the underlying physical claim being tested (chirality as a Galois-label order parameter for a beta=1 SSB) is itself only ever supported by a group/type coincidence in the source arc B723, not by an independent physical measurement.", "where": "FINDINGS.md:73-82 (B851 update section quoted inline)"}
+],
+"seat_note": "A methodologically careful negative result with a real positive control (Chern-Simons invariant computed and validated against 9 chiral manifolds before being applied to m004) and an honest CONDITIONAL flag on its literature-dependent step; still entirely a mathematical/group-theoretic argument about which Galois group a candidate order parameter belongs to, with no measurable physical quantity or predicted value -- STRUCTURAL, and it explicitly refuses to claim otherwise."
+},
+{
+"arc": "B850_length_spectrum_type",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The foliation-algebra question has a computable shadow via length-spectrum density, and it CLOSES the lead: m004, its sister m003 and a non-arithmetic control all return DENSE, giving type III_1 (CONDITIONAL on the cited ratio-set reduction) GENERICALLY for every cusped hyperbolic 3-manifold, so the internal-clock route says nothing object-specific. | NEGATIVE",
+"log_says": "Matches with an important addendum found within the same FINDINGS.md: section 4a (dated 2026-08-03, arc B858) CORRECTS Cell 4's multiplicity comparison after discovering m003 is commensurable with m004 (not a valid non-arithmetic control) and adds m009/m136 as genuine controls, reversing the original 'arithmetic > arithmetic > non-arithmetic' reading to 'm004 is not distinguished within the arithmetic class -- it is exceeded by m009'.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "m004, m003, m015 all verdict DENSE (length-spectrum ratios have >=1 irrational ratio by PSLQ, coefficient bound 1e6); systole positive control passes (1.08707014499574 vs known 1.087070144995)", "where": "results.json cell1, cell2_m004, cell3_controls", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Committed results.json shows exact PSLQ test outputs per manifold, systole match to 11 significant figures, and the full 12-ratio breakdown (n_rational/n_irrational) for each of 3 manifolds -- genuinely checkable given the same discrete-faithful-representation code."},
+{"what": "First published table said '0 rational' -- later found to be an artifact of a global mpmath precision setting (mp.mp.dps) being silently overwritten by another module; corrected via local workdps, verified identical at dps 15/25/40/60", "where": "FINDINGS.md:37-52", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "The bug-fix and multi-precision reproducibility check is narrated in FINDINGS.md but the actual before/after code diff is not shown or included in this packet's read set."},
+{"what": "Cell 4 (length-spectrum multiplicity) original result (m004 max=4 > m003=3 > m015=2, 'matching Vigneras') was ITSELF an artifact -- comparing distinct-traces-per-length (m004) against words-per-length (controls), inflating controls ~100x", "where": "FINDINGS.md:94-99", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "Bug and its effect narrated but not shown as code/diff; the committed results.json cell4_multiplicity block reflects only the FIXED comparison (m003/m015 controls), not the original buggy numbers, so the claimed original bug magnitude (602 vs 4) cannot be checked from files here."},
+{"what": "SECTION 4a (B858 correction, embedded in this FINDINGS.md): m009 (arithmetic, Q(sqrt-7), non-commensurable with m004) has max multiplicity 8, EXCEEDING m004's 4 -- so the original 'arithmetic > arithmetic > non-arithmetic' ordering does not survive", "where": "FINDINGS.md:103-130", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "This correction is narrated with a results table (m004=4, m003=3, m136=4, m009=8, m015=2) but the committed results.json in this packet was NOT updated to reflect it -- it still only contains the pre-correction cell4_multiplicity block with just m003/m015 as controls, not m009/m136. The corrected numbers exist only in prose."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Length-spectrum computation from an exact discrete-faithful representation over Z[omega], with a symbolically-verified relator and a positive-control systole match; genuine independent recomputation, though the committed results.json artifact was not kept in sync with the FINDINGS.md's later self-correction (section 4a / B858).",
+"absence_claims": [
+{"quote": "the 370 geodesic lengths are not in main, the same phantom pattern as the 43 eigenvalues", "where": "FINDINGS.md:137 (carried forward item 3)"},
+{"quote": "Does not state the type as computed. CONDITIONAL on a cited reduction", "where": "FINDINGS.md:149-150"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md's own section 4a (dated 2026-08-03) corrects the Cell 4 multiplicity ordering and explicitly says the original reading 'does not survive', but the committed results.json artifact in this same arc directory was NOT updated to include the corrected m009/m136 data -- it still shows only the superseded m003/m015-only comparison. A downstream reader consulting results.json rather than the full FINDINGS.md prose would see the old, now-retracted table.", "where": "results.json cell4_multiplicity block vs FINDINGS.md:103-130"},
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "The core reduction (dense length spectrum => type III_1 von Neumann algebra) is explicitly and repeatedly flagged by the arc itself as a DECLARED CITATION not verified in this sandbox, with a named specific weak point (cusp excursions / infinite invariant measure breaking the compact-Anosov transfer theorem) -- the arc is careful about this, but the physics interpretation (an operator-algebra type standing in for whether an SSB clock is 'spontaneous') still rests on an unverified type-theoretic identification.", "where": "FINDINGS.md:74-80"}
+],
+"seat_note": "A methodologically strong arc (real computation, positive control, explicit uncertainty flags) whose two headline numerical claims were each found buggy and corrected in-place -- and the SECOND correction (section 4a, from a later arc B858) was folded into this same FINDINGS.md but never propagated to the committed results.json, so the machine-readable record of this arc is now stale relative to its own prose."
+},
+{
+"arc": "B851_bc_litgate",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "B849's declared citation is CONFIRMED verbatim from the primary source: the Connes-Marcolli-Ramachandran system's symmetry group is the idele class group of K, acting freely and transitively on extremal KMS states, and Gal(K^ab/K) is the maximal abelian quotient of Gal(Kbar/K), so complex conjugation (which does not fix Q(sqrt-3)) is excluded; the conditional RELOCATES to whether the programme's system is BC/CMR-type and over which order. | PROVED",
+"log_says": "Matches: literature gate confirms B849's Cell 4 citation verbatim from Connes-Marcolli-Ramachandran math/0501424 in both directions (searched for and did not find any larger acting group or 'complex conjugation' in the source text); the conditional relocates to an in-repo question (is the programme's own system actually BC/CMR-type for Q(sqrt-3)?) rather than vanishing.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "CMR paper (math/0501424) quotes: acting group is idele class group I_K/K*, free-and-transitive on extremal KMS states, isomorphic to Gal(K^ab/K); 'complex conjugation' occurs zero times in the paper", "where": "FINDINGS.md:26-46", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "This is a literature-citation verification (quoting a third-party paper with line references) rather than an in-repo computation; the paper itself is not committed to the repo (declared explicitly: 'the source text is quoted, not vendored'), so a stranger must fetch the external PDF/arxiv paper to verify the quotes themselves, though the quotes are given with specific line numbers for checking."},
+{"what": "Whether the programme's own beta=1 system (B723) actually IS a BC/CMR-type system for Q(sqrt-3) -- named as the sole remaining load-bearing assumption, left open", "where": "FINDINGS.md:54-65, 93-98", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "Explicitly flagged as an unresolved in-repo question this arc does not attempt to answer; carried forward as an open item."}
+],
+"belt": "NONE",
+"belt_note": "A literature-verification gate (checking a citation against the primary source in both directions), not a computational belt; appropriately scoped and clearly labeled as such.",
+"absence_claims": [
+{"quote": "It does not show the programme's system is CMR's. That is now the open question", "where": "FINDINGS.md:87-88"},
+{"quote": "the string 'complex conjugation' occurs zero times in the CMR paper", "where": "FINDINGS.md:43-44"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc explicitly diagnoses its own risk: the reframe's chirality-as-order-parameter idea may be imported intuition from the well-known Q-case (where Gal(Q^ab/Q) via the cyclotomic character DOES contain complex conjugation) into the K=Q(sqrt-3) case where the analogous but distinct group does not -- a same-shape-different-object confusion the arc names directly as the likely source of the original claim's error.", "where": "FINDINGS.md:66-82"}
+],
+"seat_note": "A disciplined literature-verification arc (quoting the primary source with line numbers, searching in both confirming and refuting directions) that correctly refuses to let a confirmed citation resolve the underlying question -- it explicitly relocates the remaining uncertainty (is the programme's own system actually of this type?) rather than declaring victory; no physics content of its own, purely adjudicates a citation."
+},
+{
+"arc": "B852_parabolic_pressure",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","pressure.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "B451's transfer-operator instrument was structurally incapable of finding a phase transition: uniformly hyperbolic pressure is analytic (demonstrated, second differences 1e-9, doubling-map control exact to 1.3e-15), only the parabolic model shows a plateau, and inducing the parabolic point away (Gauss = Farey's jump transformation) destroys the transition -- an independent echo of B737-P2's Dehn-filling argument. NOT preregistered; footing is the exact positive control. | PROVED",
+"log_says": "Matches, including the arc's own explicit disclosure that it was NOT preregistered (numerics run exploratorily in scratch before write-up) and that this is a weaker epistemic footing than B849/B850, compensated for by an exact closed-form positive control (doubling map, error 1.3e-15).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Doubling-map transfer-operator pressure matches the exact closed form (1-s)log2 to worst error 1.3e-15 across s=0.2..2.0 (positive control)", "where": "pressure.py: DOUBLING branches, pressure(), main() print loop lines 105-116", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full committed, runnable script; the transfer-operator/Chebyshev-collocation method and the exact comparison are both directly in the file and reproducible by running it."},
+{"what": "Farey map (parabolic) shows a pressure plateau P~0 for s>=1, converging under grid refinement (n=32,48,64); doubling and Gauss models show no plateau", "where": "pressure.py FAREY/gauss_branches definitions, has_plateau(); FINDINGS.md table sec 3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Method fully in the script (Farey/Gauss branch definitions, pressure() computation); FINDINGS.md quotes the specific numeric grid-convergence values (e.g. s=1.2: -1.4e-3 -> -6.2e-4 -> -3.3e-4) which appear consistent with re-running the committed code, though the exact printed grid-refinement numbers were narrated in FINDINGS.md rather than present in a committed output file."},
+{"what": "Second differences of P for the hyperbolic (doubling) model are ~1e-9-1e-10 at s=0.6,0.9,1.0,1.1,1.4 -- i.e. P is analytic, no kink even where the parabolic model transitions", "where": "pressure.py second_difference(), main() print loop lines 117-123", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Directly implemented and printed by the committed script."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "This is itself an independent from-scratch numerical recomputation with an exact closed-form positive control; the arc is explicit and self-critical that it lacks preregistration, which the seat treats as a genuine epistemic weakness rather than hiding it.",
+"absence_claims": [
+{"quote": "It does NOT show m004's transition is at s=1, or at the programme's beta=1/s=2... m004's actual cross-section requires a complex continued-fraction algorithm over Z[omega]... which is a real build and is not attempted here", "where": "FINDINGS.md:92-96"},
+{"quote": "It does not establish genericity either way. One parabolic model was tested", "where": "FINDINGS.md:97-100"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "OTHER", "detail": "The arc is unsealed (not preregistered) by its own explicit declaration -- numerics were run exploratorily in scratch before the write-up existed. This is disclosed prominently and honestly, but per the seat's own rules elsewhere in this campaign (B852's own text: 'a preregistration authored after seeing results is worse than none'), this is a genuinely weaker evidentiary class than the sealed arcs (B849, B850) it sits beside, and the arc's own carried-forward list commits to sealing future related work (T3, T5, T7) rather than repeating this.", "where": "FINDINGS.md:5-9"}
+],
+"seat_note": "A clean, well-controlled numerical demonstration (exact closed-form positive control to 1e-15, explicit second-difference analyticity test) of a genuinely interesting mathematical point (uniformly-hyperbolic transfer operators cannot show phase transitions, so B451's earlier null result was guaranteed by model choice) -- but it is explicitly unsealed/unpreregistered, a real methodological gap the arc itself flags, and it explicitly disclaims any conclusion about m004's actual s=1/beta=1 transition location, which remains unbuilt."
+},
+{
+"arc": "B853_two_faces_ssb",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": ["relay_verify.py (first 120 lines + grepped def/assert/sympy lines)"],
+"files_listed_only": [],
+"claim_of_record": "The incoming Frob relay verifies (Fact 1 exactly; Fact 2 corrected to Frob_7 since 2 divides the conductor 4; Fact 3 confirmed and already banked), and the SSB ingredients are not missing but split across the object's two faces: the order parameter m=sqrt5/3, B6's derived potential, its Galois-conjugate vacua and critical values, and the thermodynamic barrier ALL live on the Q(sqrt5) hearing face and are FIXED by the Q(sqrt-3) involution that Cl(O_4)/Frob_7 acts by, while the object-specific class group (h=2 vs m003's h=1) lives on the being face. | PROVED",
+"log_says": "Matches: the seat's own citation error (mis-citing B711 by grep instead of reading) is recorded first; Fact 2 (Frob_2 generates the class group) is corrected to Frob_7 because 2 divides the cusp order's conductor 4, so Frob_2 is not even defined on Cl(O_4); overreach on Sakharov's second condition (B-violation vs departure from equilibrium) corrected.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Reduced forms of disc -48: both have b=0, CM points 2i*sqrt3 and 2i*sqrt3/3 are purely imaginary and fixed by complex conjugation (Fact 1)", "where": "relay_verify.py: reduced_forms(), cm_point(), conjugation_fixes(), main() FACT 1 block", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full sympy-based committed code for enumerating reduced binary quadratic forms and testing conjugation-fixedness; directly re-runnable."},
+{"what": "Conductor of disc -48 over Q(sqrt-3) is 4; gcd(2,4)=2 so Frob_2 is NOT in the domain of the Artin map Cl(O_f)=Gal(H_O/K); smallest legitimate generator is Frob_7 (nontrivial class represents 7,19,31,43)", "where": "relay_verify.py: conductor(), primes_represented(), main() FACT 2 block", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Directly computed via sympy/isprime in the committed script; a genuine, checkable correction of an inherited claim from another (external) source."},
+{"what": "h(-48)=2 (conductor 4 order) vs h(-3)=1 (maximal order) -- class numbers differ, so the symmetry is object-specific (Fact 3)", "where": "relay_verify.py: class_number(), main() FACT 3 block", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Direct computation via the same reduced_forms()/class_number() functions shown in the script."},
+{"what": "Order parameter m=sqrt5/3 is odd under Q(sqrt5) Galois conjugation but fixed under Q(sqrt-3) conjugation; B6 critical points phi/-1/phi swapped by Gal(sqrt5) and fixed by Gal(sqrt-3); critical values are exact Galois conjugates", "where": "relay_verify.py: two_faces() function (partially shown, lines 182-211)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Committed sympy code (gal5/gal3 conjugation functions, simplify-based equality checks) directly implements and outputs these boolean flags; genuinely checkable."},
+{"what": "B6's potential V(tau)=kappa(tau^3/3-tau^2/2-tau) is 'derived, not fitted'; two vacua phi,-1/phi are exact Galois conjugates with V(phi)=-1.515kappa<V(0)=0 and a barrier V(-1/phi)=+0.348kappa", "where": "FINDINGS.md:62-67", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Cited from a separate arc (B6), not re-derived here; this arc verifies consistency of its Galois-conjugacy properties but does not re-derive the potential itself from first principles within this file."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "relay_verify.py independently recomputes all three relayed facts from scratch using sympy rather than trusting the incoming document's prose, and explicitly catches and corrects both the incoming relay's error (Frob_2 not well-defined) and the seat's OWN prior citation error (mis-citing B711) -- a genuinely strong verification belt with self-correction on both sides.",
+"absence_claims": [
+{"quote": "NOT verified: that B6's potential is the free energy of any KMS transition (the relay's own document says 'connection unbuilt')", "where": "FINDINGS.md:107-108"},
+{"quote": "that trace 3 never occurs in Gamma_41 (searched words <=7, 82 distinct traces...) -- evidence, not proof", "where": "FINDINGS.md:109-110"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "The overall synthesis rests on placing SSB ingredients (order parameter, potential, vacua) that exist on a Q(sqrt5) 'face' and object-specificity (class group) that exists on a Q(sqrt-3) 'face' into a single narrative via B261's claim that 'one AJ operator carries both ends' -- explicitly flagged by the arc itself as 'an analogy and not a result... needs its own gate before it carries anything', so the synthesis's physical interpretation (that this is one coherent SSB mechanism) is presently a structural coincidence across two number fields rather than a demonstrated single mechanism.", "where": "FINDINGS.md:84-97"}
+],
+"seat_note": "The most careful and self-critical arc in this batch: it opens by naming its own prior citation error, corrects an inherited claim with an exact number-theoretic argument (class field theory conductor divisibility), and explicitly labels its unifying synthesis (the 'two faces' bridge via B261) as an unverified structural analogy rather than a result. All of this is number theory and hyperbolic-geometry structure (class groups, Galois conjugation, critical points of a cubic potential) with no measurable physical quantity attached -- STRUCTURAL, and the arc is unusually honest about the gap between structure and physics claim."
+}
+]
+}

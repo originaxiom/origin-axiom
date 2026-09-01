@@ -1,0 +1,315 @@
+{
+"batch": "arcs_011",
+"arcs": [
+{
+"arc": "B190_iterated_gluing",
+"source": "main",
+"files_read": ["frontier/B190_iterated_gluing/FINDINGS.md", "frontier/B190_iterated_gluing/arc_verdict.json", "frontier/B190_iterated_gluing/iterated_gluing.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixed points are non-monotone, the lone unique is trivial. | NEGATIVE",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "C1 fork-polynomial degree grows T^k=8+k, S=16, ST=32", "where": "iterated_gluing.py L65-83", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy resultant computation with explicit chk() assertions, self-contained, no external data"},
+{"what": "C2/C3 fixed-point counts and golden-field non-monotone sequence 0,0,2,0", "where": "iterated_gluing.py L85-114", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy solve() on explicit ideals, deterministic symbolic; script prints ALL CHECKS PASS"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The FINDINGS.md itself documents an in-batch adversarial re-verification (CORRECTION note) that redid C1/C3 via a second method (Groebner + Newton-homotopy + exact substitution) and changed the claim (degree vs count); this is a genuine independent recheck, not a mere re-read.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Clean self-contained sympy computation on an abstract trace-ring construction with an honestly documented in-batch correction (degree vs count conflation). No physical content; explicitly firewalled from CLAIMS.md."
+},
+{
+"arc": "B191_two_cusp_connector",
+"source": "main",
+"files_read": ["frontier/B191_two_cusp_connector/FINDINGS.md", "frontier/B191_two_cusp_connector/arc_verdict.json", "frontier/B191_two_cusp_connector/connector.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "A coupling 2-cusp connector propagates the kappa-constraint between leaves, so the selection mechanism nests past the pair-cap to N>=3, staying discrete and proliferating. | PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "chain-fork discreteness under a coupling connector vs continuum under identity connector", "where": "connector.py L55-92", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy resultant computation with explicit control (identity connector) built into the same script, ALL CHECKS PASS gate"}
+],
+"belt": "NONE",
+"belt_note": "No separate verification/ dir; the script's own control (identity connector) plays a belt-like role but is not an independent re-derivation.",
+"absence_claims": ["\"The true metallic 2-cusp 3-manifold connector -- a genuine dim-2-character-variety 2-cusp hyperbolic manifold with the right boundary coupling -- is NEEDS-SPECIALIST\" (frontier/B191_two_cusp_connector/FINDINGS.md:34-36)"],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Formal abstract trace-ring computation, explicitly not a literal 3-manifold construction (the geometric connector is honestly flagged NEEDS-SPECIALIST). No physics content, K010-bounded."
+},
+{
+"arc": "B192_sln_higher_rank",
+"source": "main",
+"files_read": ["frontier/B192_sln_higher_rank/FINDINGS.md", "frontier/B192_sln_higher_rank/arc_verdict.json", "frontier/B192_sln_higher_rank/sln_higher_rank.py", "log_index/B192.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The banked metallic Lyapunov-spectrum parity law (symmetric iff n even, metallic-special) is withdrawn -- an artifact of cherry-picked energies and a rigged control. | RETRACTED",
+"log_says": "PROGRESS_LOG.md 2026-07-30 (B818) confirms B192's own RETRACTED/REFUTED label is a correct self-withdrawal (not a false-positive flip); PROGRESS_2026-Q2.md 2026-06-23 cites the B192 parity-law refutation as the exemplar for a governance guardrail (K).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "D2 symmetry-defect table on cherry-picked vs fair energy grid, showing no even/odd parity", "where": "sln_higher_rank.py L70-80", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numpy QR-flag Lyapunov spectrum computed directly in-script with fixed RNG seed(7), asserted via chk()"},
+{"what": "D3 random-potential control matches metallic defect (not metallic-special)", "where": "sln_higher_rank.py L82-88", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same script, deterministic seed"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "This entire arc IS the recomputation/refutation of the original B192 claim (an internal verify-don't-trust correction cycle, described in detail in FINDINGS.md).",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "OTHER", "detail": "Textbook example of the corpus's own failure mode: an original claim was built on cherry-picked energies (1.3, 2.1, -1.7) and a mismatched dense-Gaussian control before being caught and retracted. Retraction is well-propagated here (verdict=RETRACTED, FINDINGS documents both original error and correction), but it is evidence the corpus is prone to this pattern elsewhere.", "where": "frontier/B192_sln_higher_rank/FINDINGS.md:10-34"}],
+"seat_note": "A genuine, well-documented self-correction: an entropy/spectrum 'parity law' claim is retracted after being shown to depend on cherry-picked energies and an apples-to-oranges control. No physics content; the retraction is properly propagated to the verdict file."
+},
+{
+"arc": "B193_sealing_field_scouts",
+"source": "main",
+"files_read": ["frontier/B193_sealing_field_scouts/FINDINGS.md", "frontier/B193_sealing_field_scouts/arc_verdict.json", "frontier/B193_sealing_field_scouts/sealing_scouts.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Chirality and the SU(2)_k eigenvalue field are independent (all four combinations occur), and field-fusion to Q(zeta12) is quantum while classical trace-fields stay disjoint. | PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "L8 chirality x field cross-table, all four combinations occur", "where": "sealing_scouts.py L37-77", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numpy SU(2)_k representation + eigenvalue-order field-detection code, small hardcoded word list; deterministic"},
+{"what": "L10 quantum field reaches compositum Q(zeta12), classical fields disjoint (degrees 2,2,4)", "where": "sealing_scouts.py L79-92", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy minimal_polynomial degree computation, exact"}
+],
+"belt": "NONE",
+"belt_note": "L5/L6 explicitly not run (deliberately NEEDS-SPECIALIST); no independent recheck beyond the script's own asserts.",
+"absence_claims": ["\"L5/L6 -- non-metallic SL(3) sealing: SCOPED NEEDS-SPECIALIST\" ... \"deliberately not rushed here\" (frontier/B193_sealing_field_scouts/FINDINGS.md:31-36)"],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Two clean small combinatorial/algebraic scouts, with the intricate third question honestly deferred as NEEDS-SPECIALIST citing the B192 lesson (cherry-picking caution). No physics content."
+},
+{
+"arc": "B196_entropy_conformal_dimension",
+"source": "main",
+"files_read": ["frontier/B196_entropy_conformal_dimension/FINDINGS.md", "frontier/B196_entropy_conformal_dimension/arc_verdict.json", "frontier/B196_entropy_conformal_dimension/entropy_dimension.py", "log_index/B196.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The metallic bundle monodromy's c=1 conformal dimension equals minus its squared topological entropy over 2pi: Delta = -(ln lambda_m/pi)^2, exact. | PROVED",
+"log_says": "2026-07-03 promotion audit HELD this arc back from promotion ('identities subsumed by E6; placement NEEDS-SPECIALIST'); 2026-08-07 B944 cites B196's Delta=-(ln lambda_m/pi)^2 law as one of several named dynamical-system facts about the object, used in a later dynamics/chirality sweep.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "C1 exact bridge identities lam+1/lam=sqrt(m^2+4), lam^2+1/lam^2=m^2+2", "where": "entropy_dimension.py L44-50", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy simplify() to exact zero, deterministic symbolic algebra"},
+{"what": "C2 Delta=-(h/2pi)^2 verified m=1..4 to 1e-30", "where": "entropy_dimension.py L55-67", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mpmath dps=40 numerical check with explicit residual tolerance, deterministic"}
+],
+"belt": "NONE",
+"belt_note": "No separate verification directory; the identities are exact/symbolic so a re-run reproduces the same output deterministically.",
+"absence_claims": ["\"The precise PVI channel placement (is this the time-monodromy weight or the fiber s-channel in the OPT->(0,4) dictionary?) is the one open detail -- NEEDS-SPECIALIST\" (frontier/B196_entropy_conformal_dimension/FINDINGS.md:36-37)"],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind": "IDENTIFICATION_BY_TYPE", "detail": "A CFT conformal dimension Delta is identified with a dimensionless, negative (non-unitary) quantity derived from topological entropy purely because the Painleve-VI/GIL dictionary formally assigns a Liouville momentum to any hyperbolic monodromy trace; the arc itself flags this forces 'no physical content' (dimensionless, non-unitary, no scale) and is firewalled from CLAIMS.md -- the identification is a structural/dictionary match, not a measured or derivable physical quantity.", "where": "frontier/B196_entropy_conformal_dimension/FINDINGS.md:33-38"}],
+"seat_note": "An exact, well-verified piece of character-variety/CFT-dictionary mathematics (dynamics-as-CFT-dimension); explicitly non-physical (dimensionless, negative/non-unitary, no scale) and the arc is honest about this. Log shows it was held from promotion for placement reasons, consistent with the FINDINGS' own hedging."
+},
+{
+"arc": "B197_figure_eight_volume_torsionfree",
+"source": "main",
+"files_read": ["frontier/B197_figure_eight_volume_torsionfree/FINDINGS.md", "frontier/B197_figure_eight_volume_torsionfree/arc_verdict.json", "frontier/B197_figure_eight_volume_torsionfree/volume_selection.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Among torsion-free positive-word bundles the figure-eight is the unique hyperbolic-volume minimum; the m003 volume tie is broken by torsion. | PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "C2 combinatorial min: LR unique min-trace(=3) among 2587 b++ necklaces to length 14", "where": "volume_selection.py L49-73", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure numpy/itertools enumeration, deterministic, no external dependency"},
+{"what": "C1/C3/C4 volumes, homology, Chern-Simons via SnapPy (b++LR=m004, m003 torsion tie, chiral CS=+-1/48)", "where": "volume_selection.py L75-111", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "gated on SnapPy being importable (`HAVE_SNAPPY`); if SnapPy is unavailable the script only prints recorded constants and skips the actual computation -- a stranger without SnapPy installed cannot independently verify C1/C3/C4, only C2"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "FINDINGS.md states this is a cross-session (chat2) claim 'independently re-derived here (verify-don't-trust -- own enumerator + SnapPy, not chat2's scripts)' -- a genuine independent recomputation, not merely re-reading chat2's numbers.",
+"absence_claims": ["\"the m003 same-volume manifold exists; the tie is broken only by the (motivated) torsion-free condition\" -- i.e. among ALL once-punctured-torus bundles no independent overdetermination exists (frontier/B197_figure_eight_volume_torsionfree/FINDINGS.md:60-61)", "\"[SnapPy unavailable -- C1/C3/C4 skipped; recorded: b++LR=4_1 vol 2.0298832128 ...]\" (frontier/B197_figure_eight_volume_torsionfree/volume_selection.py:109-111)"],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "OTHER", "detail": "SnapPy-gated: the numeric volume/homology/CS results (C1/C3/C4) are only actually computed if the SnapPy import succeeds; the script silently falls back to printing hardcoded recorded constants otherwise, so reproducibility of the headline numbers depends on an optional dependency being present.", "where": "frontier/B197_figure_eight_volume_torsionfree/volume_selection.py:109-111"}],
+"seat_note": "Honest, appropriately-scoped sharpening of an existing filter (P10): volume selects the figure-eight uniquely only given a torsion-free restriction, and the arc explicitly declines to claim independent overdetermination. Form-side pure topology, no physics."
+},
+{
+"arc": "B198_metallic_exponent_CAS",
+"source": "main",
+"files_read": ["frontier/B198_metallic_exponent_CAS/FINDINGS.md", "frontier/B198_metallic_exponent_CAS/arc_verdict.json", "frontier/B198_metallic_exponent_CAS/cert_sl5o5_rep.json", "frontier/B198_metallic_exponent_CAS/gauge_newton.py", "frontier/B198_metallic_exponent_CAS/meridian_order.py", "frontier/B198_metallic_exponent_CAS/mp_certificate.py", "frontier/B198_metallic_exponent_CAS/sage_groebner.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Gauge-fixed Newton breached the B157 wall: at SL(5), o=5, m=1 the metallic exponent is [A,B]=+mu^2 (k=2), certified to 23 digits. | PROVED (supersedes B157)",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "SL(5) o=5 m=1: k=2, s=+1, certified to ~23 digits (mp_certificate.py, dps=60)", "where": "mp_certificate.py + cert_sl5o5_rep.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the committed cert_sl5o5_rep.json is a ~40-digit-precision numeric representation used directly by tests; mp_certificate.py independently re-derives it via damped Gauss-Newton with printed convergence trace"},
+{"what": "SL3 o3->k=4, o4->k=3 exact over Q(zeta_o)", "where": "sage_groebner.py L59-73", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "requires sage-python (not the pyenv runner) to execute; the FINDINGS explicitly flags this as a separate tooling requirement, but the ideal/Groebner computation itself is exact and deterministic once Sage is available"},
+{"what": "Scope correction: [A,B]=mu^2 holds only on ~1% sublocus, not '305/305 unanimous' as originally claimed", "where": "frontier/B198_metallic_exponent_CAS/FINDINGS.md:46-55", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "correction is cross-referenced to and confirmed by the companion arc B199's independent grid; the original unanimity claim is documented as a filter artifact"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "FINDINGS.md documents that a first high-precision certificate attempt FAILED (a seed-selection bug), was caught and fixed -- an in-arc recomputation cycle; the arc is later itself corrected in scope by B199 (see SCOPE CORRECTION section).",
+"absence_claims": ["\"The exact symbolic proof over Q(zeta5) (primary decomposition, 25 vars) is not done -- see the residual. This is not [proved].\" (frontier/B198_metallic_exponent_CAS/FINDINGS.md:44-45)", "\"Sage primary decomposition stalls at SL(4) (16 vars) and the SL(5) ideal-dimension is itself heavy.\" (frontier/B198_metallic_exponent_CAS/FINDINGS.md:115-116)", "\"'Newton fails at SL(4)/SL(5).' -- ... The mark was written without checking\" describing the original B157 wall as a tooling artifact rather than a genuine mathematical obstruction (frontier/B198_metallic_exponent_CAS/FINDINGS.md:19-27)"],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "SUPERSEDED_UNMARKED", "detail": "B198's arc_verdict.json still reads verdict PROVED with claim_one_line asserting the k=2 result 'certified to 23 digits' without qualifying the scope; the scope correction (the identity holds only on a ~1% sublocus of the loxodromic component, not on the whole geometric component as B198's original FINDINGS implied) is recorded in B198's FINDINGS.md prose (added later) and in B199, but the verdict JSON's one-line claim does not carry the sublocus caveat.", "where": "frontier/B198_metallic_exponent_CAS/arc_verdict.json:4"}],
+"seat_note": "A genuinely computed, well-instrumented numeric result (k=2 at SL(5) o=5) with an honest, explicit self-correction of an initial overclaimed scope (whole-component unanimity revealed to be a ~1% sublocus, confirmed independently in B199); good verify-don't-trust discipline, though the verdict-file one-liner has not been updated to reflect the narrower scope."
+},
+{
+"arc": "B199_metallic_exponent_law",
+"source": "main",
+"files_read": ["frontier/B199_metallic_exponent_law/FINDINGS.md", "frontier/B199_metallic_exponent_law/arc_verdict.json", "frontier/B199_metallic_exponent_law/geom_grid.py", "frontier/B199_metallic_exponent_law/grid_driver.py", "frontier/B199_metallic_exponent_law/sublocus_genuine.py", "frontier/B199_metallic_exponent_law/grid_summary.json", "log_index/B199.txt"],
+"files_sampled": ["frontier/B199_metallic_exponent_law/workflow_result.json"],
+"files_listed_only": [],
+"claim_of_record": "No closed-form metallic exponent law k(o,m) exists (order collisions prove it); only the sign survives, and degree=rank is refuted at SL(5). | NEGATIVE",
+"log_says": "REVIEWS.md Review 32 (2026-07-29) mentions B199 only incidentally, as part of a full-corpus digest sweep across B1-B199; no substantive claim about B199's content is made in the log excerpt found.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "o=4/o=8 collision: both give k=3 at m=1 on the mu-infinite stratum, killing every k(o,m)/gcd-rule", "where": "grid_summary.json entries m1_o4_n3 (clean_frac 100%), m1_o8_n4 (clean_frac 46%)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "grid_summary.json is a committed data witness produced by grid_driver.py + geom_grid.py, both committed and runnable"},
+{"what": "Sublocus genuineness check: 59/60 loxodromic reps are NOT clean (O(1) exponent error), confirming the ~1% clean fraction is real structure not numerical noise", "where": "sublocus_genuine.py (full file)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained script with fixed RNG seed(0), deterministic thresholded classification, prints the diagnostic ratio directly"},
+{"what": "SL(5) exact-symbolic proof exhausted across 4 routes (R1-R4), all wall out at named computational limits (600s Groebner cap etc.)", "where": "workflow_result.json (multi-agent workflow output, 769 lines)", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the negative-exhaustion claims (Groebner non-termination, empty F_p Newton basin) are reported inside a large workflow_result.json produced by a 113-agent, ~4.5M-token workflow run; the underlying failed computations (e.g. Singular GB attempts that timed out) are not independently re-runnable from the repo as committed scripts -- only the consolidated JSON summary is committed, not raw logs of the failed attempts"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "FINDINGS.md states the o=4/o=8 collision and non-monotonicity were 'fully re-derived by CC this session' independent of the original workflow output, and the sublocus finding is explicitly framed as a correction of B198 'confirmed two independent ways' -- substantial recompute discipline for the deterministic parts; the Goal-B exact-symbolic exhaustion (Result C) rests on the multi-agent workflow's own unverifiable negative claims (see red flag).",
+"absence_claims": [
+"\"No route completed an exact proof\" (frontier/B199_metallic_exponent_law/FINDINGS.md:71)",
+"\"the first degrevlex Groebner basis at 25 variables ... does not terminate within 600s, over Q(zeta5) or F_p\" (frontier/B199_metallic_exponent_law/FINDINGS.md:76-78)",
+"\"F_p Newton has an empty basin (0 hits in 1500-4000 seeds) -> no exact F_p point could be produced\" (frontier/B199_metallic_exponent_law/FINDINGS.md:83-84)",
+"\"No source gives a uniform higher-n (n>=4) family or any metallic generalization\" (external-literature absence claim) (frontier/B199_metallic_exponent_law/FINDINGS.md:98)",
+"\"No source states the exact-periodicity-in-k of the SU(2)_k invariant as a theorem\" (external, re: B204 topic cited in B199's novelty discussion is not present here but analogous language appears) -- N/A, see B204 entry instead"
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The Goal-B 'exhausted 4 routes, all wall out' negative result (Result C) is reported only inside the consolidated workflow_result.json produced by a 113-agent automated workflow; the actual failed Groebner-basis attempts, timeouts, and empty-basin searches that back this negative claim are not committed as re-runnable scripts or raw logs, so a stranger cannot independently reproduce the exhaustion claim, only trust the summary JSON.", "where": "frontier/B199_metallic_exponent_law/workflow_result.json (consolidation section); FINDINGS.md:70-92"},
+{"kind": "SUPERSEDED_UNMARKED", "detail": "B199's own FINDINGS.md documents that B198's original claim of '305/305 unanimous k=2 on the geometric component' was a filter artifact and the true clean fraction is ~1%; B198's arc_verdict.json (see B198 entry) still states the claim without this qualifier, so the correction is recorded in B199 but not reflected in B198's verdict record.", "where": "frontier/B199_metallic_exponent_law/FINDINGS.md:49-61 vs frontier/B198_metallic_exponent_CAS/arc_verdict.json:4"}
+],
+"seat_note": "A rigorous negative result (no closed-form exponent law) backed by genuinely reproducible deterministic collision proofs (o=4/o=8), but the claimed exhaustive search for an exact SL(5) proof rests on an opaque multi-agent workflow artifact rather than committed, re-runnable failure logs."
+},
+{
+"arc": "B200_chat1_handoff_verification",
+"source": "main",
+"files_read": ["frontier/B200_chat1_handoff_verification/FINDINGS.md", "frontier/B200_chat1_handoff_verification/arc_verdict.json", "frontier/B200_chat1_handoff_verification/sturmian_interaction.py", "log_index/B200.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Of a cross-chat handoff only R2 survives verification: on-site is the unique finite-range interaction preserving the Fibonacci chain's Sturmian structure. | PROVED",
+"log_says": "REVIEWS.md Review 32 mentions B200 only incidentally in a full-corpus digest sweep; no substantive claim.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "R2: on-site preserves Sturmian complexity (p=L+1); NN (d=1) breaks it at p(4)=6", "where": "sturmian_interaction.py L18-51", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure combinatorial complexity-counting on an explicit Fibonacci word, deterministic asserts"},
+{"what": "R1 refutation: 2-body Hubbard ED shows t_eff formula out of regime at U=t (RMS=3.77, no band gap)", "where": "sturmian_interaction.py L60-100", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit N=13 exact-diagonalization numpy code with asserted thresholds"},
+{"what": "R3: independent level-spacing check does not reproduce the handoff's Poisson signature (got 0.64 not 0.386)", "where": "sturmian_interaction.py L104-131", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "report-only, no pass/fail gate, but numbers printed directly from a deterministic ED computation"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The entire arc is framed as an independent re-derivation ('verify-don't-trust') of a separate chat session's ('chat1') claims, using the author's own enumerator/ED code rather than trusting the handoff's scripts.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "RETRACTION_NOT_PROPAGATED", "detail": "Not quite a retraction-not-propagated case since B200 IS the retraction record for R1/R3, but note the arc_verdict.json labels the whole arc 'PROVED' while two of the three incoming claims (R1, R3) were refuted/not reproduced -- a reader skimming only the verdict file would not see that 2/3 of the reviewed material failed.", "where": "frontier/B200_chat1_handoff_verification/arc_verdict.json:3-4"}],
+"seat_note": "A careful verify-don't-trust exercise: catches a circular 'RMS=0' pseudo-verification and an out-of-regime perturbative formula in an incoming cross-chat claim, and independently fails to reproduce a third claim's specific numbers. Solid negative-result discipline, though the terse verdict label obscures how much of the handoff failed."
+},
+{
+"arc": "B201_silver_sl3_charvar",
+"source": "main",
+"files_read": ["frontier/B201_silver_sl3_charvar/FINDINGS.md", "frontier/B201_silver_sl3_charvar/arc_verdict.json", "frontier/B201_silver_sl3_charvar/charvar.sage", "log_index/B201.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The silver (m=2) SL(3) character variety Fix(T_2^2) has exactly four dimension-2 components, one more than the figure-eight's three. | PROVED",
+"log_says": "PROGRESS_LOG.md B1008 (2026-08-09) cites B201 only as a boundary marker for an atlas-coverage-epoch discussion ('coverage peaks at 0.995 in B201-400'), not a substantive re-check of its content.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "Fix(T_1^2) reproduces B71's 3 components (validation); Fix(T_2^2) gives 4 components incl. new comp3", "where": "charvar.sage (full file)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "requires sage-python to run (Sage's PolynomialRing/ideal/minimal_associated_primes); the exact Groebner decomposition is deterministic once Sage is available, but no committed data witness (e.g. a saved ideal dump) exists independent of re-running Sage"}
+],
+"belt": "NONE",
+"belt_note": "Part 2 (the peripheral A-variety extraction) is explicitly deferred/not banked after the author's own pipeline failed its validation gate on the figure-eight case; no further verification directory.",
+"absence_claims": ["\"Part 2 (DEFERRED, not banked): the per-component peripheral A-variety relations ... are not extracted here -- my quick peripheral pipeline failed its figure-eight M^3=L validation gate, so per verify-don't-trust nothing from it is banked\" (frontier/B201_silver_sl3_charvar/FINDINGS.md:6-8, 35-44)", "\"The correct next step (recorded, not run here): derive explicit 2-parameter parametrizations ...\" (frontier/B201_silver_sl3_charvar/FINDINGS.md:46-47)"],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Exact Groebner-basis character-variety classification (Part 1) with honest, explicit deferral of the more speculative peripheral-relation extraction (Part 2) after its pipeline failed the validation gate -- good verify-don't-trust behavior, though Part 1's reproducibility depends on having Sage available and no raw output is committed independent of re-running it."
+},
+{
+"arc": "B202_silver_avariety",
+"source": "main",
+"files_read": ["frontier/B202_silver_avariety/FINDINGS.md", "frontier/B202_silver_avariety/arc_verdict.json", "frontier/B202_silver_avariety/avariety.py", "frontier/B202_silver_avariety/reps.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "No silver SL(3) component carries a tidy A-variety relation [A,B]=c*mu^k, so the figure-eight's M^3=L is non-generic in the metallic family. | NEGATIVE",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "Gate: method recovers figure-eight W1->k=3, W2->k=-3, V0 no tidy form (validates the matexp method)", "where": "avariety.py L44-54", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the figure-eight_W1 reps used for the gate are dumped to reps.json and re-checked deterministically in the pyenv test"},
+{"what": "All 4 silver components: correct commuting meridian but matexp score O(1) (never <1e-6), no tidy relation", "where": "avariety.py L55-72; reps.json (silver entries)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "reps.json ships 3 silver reps used directly by the pyenv test; the sampling procedure (Sage variety(QQbar) on random affine slices) is itself only Sage-reproducible, but the shipped reps are a fixed committed witness"}
+],
+"belt": "RE-READS",
+"belt_note": "The pyenv test (tests/test_b202_silver_avariety.py, not read directly here but referenced) re-reads the shipped reps.json rather than re-running the Sage sampling; the Sage-side sampling itself is not independently re-verified within this arc.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A clean negative result: the figure-eight's tidy A-polynomial relation is shown to be non-generic across the silver family, using a gauge/ordering-invariant matrix-exponent method validated against the known figure-eight case. Pure character-variety mathematics, no physics."
+},
+{
+"arc": "B203_silver_components_classified",
+"source": "main",
+"files_read": ["frontier/B203_silver_components_classified/FINDINGS.md", "frontier/B203_silver_components_classified/arc_verdict.json", "frontier/B203_silver_components_classified/classify.py", "frontier/B203_silver_components_classified/comps.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "All four silver SL(3) components are irreducible with A, B and the meridian of infinite order (cusped-type), explaining B202's missing tidy relation. | PROVED",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "All 4 components: Burnside dim 9 (irreducible), order(A)/order(B)/order(mu) all infinite", "where": "classify.py (full file); comps.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "comps.json ships one (A,B) rep per component used by the pyenv test; the classification (Burnside closure rank, eigenvalue-order search) is a small deterministic numpy computation"}
+],
+"belt": "RE-READS",
+"belt_note": "As with B202, the pyenv fast-lock test re-reads the shipped comps.json rather than re-running the Sage variety sampling.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A tidy explanatory follow-up to B201/B202: identifies why no silver component gives a tidy A-variety relation (none is a finite-order-A Dehn-filling locus, unlike the figure-eight's W1). Coherent 3-arc chain (B201->B202->B203), no physics content."
+},
+{
+"arc": "B204_metallic_wrt_period",
+"source": "main",
+"files_read": ["frontier/B204_metallic_wrt_period/FINDINGS.md", "frontier/B204_metallic_wrt_period/NOVELTY.md", "frontier/B204_metallic_wrt_period/PROOF.md", "frontier/B204_metallic_wrt_period/arc_verdict.json", "frontier/B204_metallic_wrt_period/gauss_proof.py", "frontier/B204_metallic_wrt_period/period_law.py", "log_index/B204.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "A closed-form WRT level-period law holds for ALL once-punctured-torus bundles, with the metallic family as its diagonal; mechanism identified as Gauss-sum reciprocity. | PROVED",
+"log_says": "PROGRESS_LOG.md 2026-07-03 promotion audit records 'B204 cites the Jeffrey-1992 framework (novelty not claimed)'; 2026-07-04 sweep round 2 confirms 'B204=Jeffrey'92 ... cite-only'; 2026-07-14 (B587) and 2026-07-17 (B656) both cite B204's PROOF/period law as an established banked mechanism used as a building block elsewhere.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Exact period P=lcm(a,b)(4+ab)/gcd(4+ab,4), proved via Gauss-sum reciprocity (diagonal + cross terms)", "where": "gauss_proof.py (full file), PROOF.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "gauss_proof.py verifies every step as an exact identity (mpmath, dps=30) plus an exact integer-arithmetic closing lemma over a,b in 1..14, self-contained and deterministic, prints ALL CHECKS PASS"},
+{"what": "Numerical predict-then-confirm on 21 (a,b) cells + 12 metallic m, held-out cells all fundamental", "where": "period_law.py (full file)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure numpy, deterministic, self-check between two independent code paths (sum form vs explicit matrix form) agreeing to 1e-9"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The arc includes a full adversarial deep-research novelty pass (NOVELTY.md, 99 agents/17 sources) that included a direct primary-source read of Jeffrey 1992 to check the deep-research agents' claim rather than trusting them ('per verify the agents, scrutinize Jeffrey'); also documents a retracted misreading (an earlier guess that Jeffrey's formula was 'trace-only' was checked against the primary source and retracted).",
+"absence_claims": ["\"No source states the exact-periodicity-in-k of the SU(2)_k invariant as a theorem\" (frontier/B204_metallic_wrt_period/NOVELTY.md:36-37)", "\"a direct numerical re-implementation of the evaluated (4.8) did NOT reproduce |Z_k| ... an unresolved convention/normalization bug\" (frontier/B204_metallic_wrt_period/NOVELTY.md:88-91)", "\"Two prior-art clusters were NOT retrieved and are the highest-probability hiding places\" (frontier/B204_metallic_wrt_period/NOVELTY.md:61-63)"],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "One of the strongest arcs in this batch: an exact, proved closed-form period law with a genuinely rigorous reciprocity proof, plus unusually careful novelty hygiene (the deep-research claim was checked against the actual Jeffrey 1992 paper and a prior misreading was retracted in place). Pure quantum-topology arithmetic, explicitly firewalled from physics."
+},
+{
+"arc": "B205_metallic_quantum_trace_map",
+"source": "main",
+"files_read": ["frontier/B205_metallic_quantum_trace_map/FINDINGS.md", "frontier/B205_metallic_quantum_trace_map/NOVELTY.md", "frontier/B205_metallic_quantum_trace_map/arc_verdict.json", "frontier/B205_metallic_quantum_trace_map/quantum_trace_map.py", "log_index/B205.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The generic-q skein quantum trace map for the metallic family was constructed and verified in-sandbox (central element, quantum Dehn twists, q-Chebyshev structure). | PROVED",
+"log_says": "PROGRESS_LOG.md 2026-07-04 sweep round 2 records 'B205=skein-standard (both cite-only)', consistent with NOVELTY.md's own assessment that the machinery is known.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Omega central element commutes with X,Y,Z; classical limit reproduces Fricke commutator", "where": "quantum_trace_map.py L94-97, L141-160", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy symbolic computation with is_zero() checks on the sympy-simplified commutators, deterministic"},
+{"what": "R_q, L_q are genuine automorphisms (re-audited: negative controls X->2X, Y<->Z, X->X+Y correctly fail)", "where": "quantum_trace_map.py L130-138", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the FINDINGS/code comment explicitly documents an earlier bug (vacuous relation check) caught and fixed on re-audit, with the fix verified against negative controls"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The code comment at is_automorphism() documents a 're-audit fix, 2026-06-25' where an earlier version of the automorphism check was found to be vacuously true and was corrected -- a genuine in-arc self-catch of a bug, not merely re-reading.",
+"absence_claims": ["\"No full prior-art pass has been run on B205 (unlike B204's deep-research). The status below is the honest suspected position; the metallic-q-result novelty is UNCHECKED\" (frontier/B205_metallic_quantum_trace_map/NOVELTY.md:5)", "\"A ... 'quantum metallic mean' ... is NOT established here and is suspected already-known (MGO)\" (frontier/B205_metallic_quantum_trace_map/FINDINGS.md:35-37)"],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A carefully-scoped construction with a genuinely caught bug (a vacuous automorphism check fixed on re-audit) and honest novelty accounting (explicitly flags its own prior-art check as unrun, unlike the companion B204). No physics content, standard skein-algebra/DAHA machinery."
+},
+{
+"arc": "B206_golden_spin_cover_e8",
+"source": "main",
+"files_read": ["frontier/B206_golden_spin_cover_e8/FINDINGS.md", "frontier/B206_golden_spin_cover_e8/arc_verdict.json", "frontier/B206_golden_spin_cover_e8/golden_spin_cover.py", "log_index/B206.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The golden monodromy's mod-5 congruence shadow is SL(2,F5)=2I=McKay-E8, with the classical/quantum divide exactly the A5/2I spin double cover. | PROVED",
+"log_says": "PROGRESS_2026-Q2.md (2026-06-16, discussing arc B155) contains an incidental mention 'B206 = Omega_4, honestly scoped' about a different reciprocal-charpoly family reaching M_g's charpoly at a half-integer point -- this predates the golden-spin-cover arc's 2026-06-25 date and does not match its content; likely a different, unrelated use of the label 'B206' (or a since-renumbered forward reference) rather than a substantive comment on this arc.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "SL(2,F5) order 120, center order 2, 9 conjugacy classes; PSL(2,F5)=A5 order 60, 5 conjugacy classes", "where": "golden_spin_cover.py L91-133", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "brute-force enumeration of SL(2,F5) elements and conjugacy classes, self-contained pure-Python, asserted directly in-script"},
+{"what": "Monodromy generators <R,L> surject onto all of SL(2,F5) (BFS closure order 120), vs a single element RL giving only cyclic order 10", "where": "golden_spin_cover.py L70-82, L106-108", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit BFS closure computation over the finite group, deterministic"},
+{"what": "9 vs 5 irreps / affine E8 marks / sum-of-squares 120 and 60", "where": "golden_spin_cover.py L86-89", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the irrep dimension lists (DIMS_2I, DIMS_A5) are hardcoded as 'known McKay data' rather than computed from the group in-script; only the sum-of-squares identity (= group order) is checked against them, which is consistent with but does not independently derive the specific dimension multiset from first principles in this script"}
+],
+"belt": "NONE",
+"belt_note": "No separate verification directory; the arc's own FINDINGS documents a self-re-audit correcting an earlier overclaim ('only m=1,4/golden unique') to the correct broader statement (whole Lucas family shares the field, wider set shares the shadow).",
+"absence_claims": ["\"Novelty UNCHECKED: the golden<->E8 link is even known in physics (Coldea et al. 2010 ...) ... whether this specific metallic-monodromy -> conductor-5 -> 2I framing is recorded needs a prior-art pass (L26). Do not claim novelty.\" (frontier/B206_golden_spin_cover_e8/FINDINGS.md:53-56)"],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc identifies a finite congruence-quotient shadow group (SL(2,F5)) with 'McKay-E8' purely via McKay correspondence (finite subgroups of SU(2) <-> ADE Dynkin diagrams), and the arc itself explicitly and repeatedly flags this is NOT the physics E8 gauge group / heterotic-string E8 -- an unusually well-firewalled instance of a dimension/label coincidence (E8 the McKay label vs E8 the physical gauge group) that is exactly the kind of bit-vs-value type match this seat is told to flag as a license to ask, not evidence, even though the arc itself already does so honestly.", "where": "frontier/B206_golden_spin_cover_e8/FINDINGS.md:57-59"}],
+"seat_note": "A correct, self-audited finite-group computation (the golden monodromy's mod-5 shadow is genuinely SL(2,F5)=2I via McKay) with an unusually explicit and repeated firewall disclaimer that this is not the physics E8 gauge group -- exemplary hygiene on a naming coincidence that in a less careful arc could easily be oversold. Purely representation-theoretic/structural, no observable content."
+}
+]
+}

@@ -1,0 +1,312 @@
+{
+ "batch": "arcs_085",
+ "arcs": [
+  {
+   "arc": "B879_selection_cochain",
+   "source": "main",
+   "files_read": [
+    "frontier/B879_selection_cochain/FINDINGS.md",
+    "frontier/B879_selection_cochain/arc_verdict.json",
+    "frontier/B879_selection_cochain/results.json",
+    "frontier/B879_selection_cochain/verify_harvest.py",
+    "frontier/B879_selection_cochain/packet/CAMPAIGN_CLOSE.md",
+    "frontier/B879_selection_cochain/packet/DESIGN_DA.md",
+    "frontier/B879_selection_cochain/packet/HANDOFF_CC_SELECTION_COCHAIN.md",
+    "frontier/B879_selection_cochain/packet/PREREG_SCC.md",
+    "frontier/B879_selection_cochain/packet/SEALS.txt",
+    "frontier/B879_selection_cochain/packet/STATUS.md",
+    "frontier/B879_selection_cochain/packet/SYNTHESIS_DB.md",
+    "frontier/B879_selection_cochain/packet/w0c_inventory/INVENTORY.md",
+    "frontier/B879_selection_cochain/packet/w0c_inventory/search_log.md",
+    "frontier/B879_selection_cochain/packet/w0d_quantum_scout/SCOUT.md",
+    "frontier/B879_selection_cochain/packet/w0d_quantum_scout/quantum_probe.py",
+    "frontier/B879_selection_cochain/packet/w0d_quantum_scout/quantum_probe_output.txt",
+    "frontier/B879_selection_cochain/packet/w0d_quantum_scout/reading_log.md",
+    "frontier/B879_selection_cochain/packet/w2b_landscape/FINDINGS_CC3.md",
+    "frontier/B879_selection_cochain/packet/w0a_criteria/FINDINGS_RAW.md",
+    "frontier/B879_selection_cochain/packet/w2a_amalgam/FINDINGS_CC3.md",
+    "frontier/B879_selection_cochain/packet/w2a_amalgam/FINDINGS_RAW.md",
+    "frontier/B879_selection_cochain/packet/w2a_amalgam/w2a_results.json",
+    "frontier/B879_selection_cochain/packet/w0b_fields/FINDINGS_RAW.md",
+    "tests/test_b879_cochain.py"
+   ],
+   "files_sampled": [
+    "frontier/B879_selection_cochain/packet/w2b_landscape/w2b_landscape.py",
+    "frontier/B879_selection_cochain/packet/w2b_landscape/w2b_table.json",
+    "frontier/B879_selection_cochain/packet/w0a_criteria/w0a_criteria.py",
+    "frontier/B879_selection_cochain/packet/w0a_criteria/w0a_table.json",
+    "frontier/B879_selection_cochain/packet/w2a_amalgam/w2a_amalgam.py",
+    "frontier/B879_selection_cochain/packet/w0b_fields/w0b_fields.py",
+    "frontier/B879_selection_cochain/packet/w0b_fields/w0b_table.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- six claims verified with independent legs: C1 the collapse theorem (745 primitive classes enumerated independently, per-length exact; unit det(A-I) <=> tr=3 <=> {LR}); C2 the deflation strata (amphichiral 53; prime-fundamental-disc set exactly {5,13,17,29,37,53,173,229}; joint 11); C3 the five-value set banked as a COMPLETE-FAMILY CORROBORATION under B665/B666 (not a new law, not pointwise); C4 silver-unique entangled amphichirality (R^2L^2 at d=2); C5 field communality (d=5 x16 classes incl R^4L^4); C6 THE HEADLINE -- quantum amalgam wall + even-solo no-go: h1(D) [2,0,0,6]/[5,6,10,17] at kappa 4..7 reproduced live, no-go lemma verified by hand (A^-1-I=-A^-1(A-I) => solo term always even => classical 2+3 split unreachable).",
+   "log_says": "2026-08-03: B878+B879 two cc3 handoffs processed and banked under integrate-don't-merge; the quantum amalgam no-go verified; B879's C3 self-downgrade (its own 2026-08-03 reconciliation addendum) checked and confirmed accurate.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "745 primitive R/L necklace enumeration (per-length 1,2,3,6,9,18,30,56,99,186,335) and the tr=3<=>unit-det<=>prime-conductor collapse to {LR} alone",
+     "where": "packet/w0a_criteria/w0a_criteria.py + w0a_table.json; independently re-derived in verify_harvest.py and again in w0b_fields.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact integer arithmetic, no floats, cross-checked by Moreau's necklace formula and by three independently-written scripts (w0a, w0b, the banking seat's own verify_harvest.py) that all agree"
+    },
+    {
+     "what": "|tr_odd|^2 five-value family law (counts 188/153/249/147/8) over all 745 classes at SU(3)_2",
+     "where": "packet/w2b_landscape/w2b_landscape.py + w2b_table.json (exact Q(zeta_15) cyclotomic arithmetic); spot-checked in verify_harvest.py (10 random rows, worst dev 1.998e-15) and against banked B238 su32_wrt.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact cyclotomic field arithmetic (Fraction-based), committed script and full 745-row table; but the packet's own reconciliation addendum is explicit that this is a corroboration of an existing B665/B666 law, not an independent proof, and that the pointwise (per-word mod-5 shadow class) formula was never checked -- correctly flagged in both FINDINGS.md and the test file"
+    },
+    {
+     "what": "The quantum amalgam wall + even-solo no-go (C6): h1(D) primary [2,0,0,6], trivial-boundary [5,6,10,17] at kappa=4..7; MISMATCH vs classical 5",
+     "where": "packet/w2a_amalgam/w2a_amalgam.py + w2a_results.json; rerun and cross-checked in verify_harvest.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact cyclotomic-field arithmetic (self-contained Q(zeta_N) implementation over Fraction, not sympy/floats on the verdict path); float64 cross-checks recorded separately and agree; the no-go lemma (ker(A-I)=ker(A^-1-I)) is elementary and verified by hand in one line by two independent parties"
+    },
+    {
+     "what": "The choice of the amalgam's boundary/annulus term (T-boundary vs trivial) and the Mayer-Vietoris connecting maps being assumed zero",
+     "where": "packet/w2a_amalgam/FINDINGS_RAW.md sections 2-3",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "explicitly UNSURE-flagged by the authoring seat itself as a documented simplifying choice, not derived from a first-principles compatibility proof for the double-complex construction; the MISMATCH verdict holds under both variants so this does not change the C6 conclusion, but the model class itself (single-operator toy model discarding the full pi_1) is a modeling choice, not a proof that quantum cochains in general cannot reproduce 5"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b879_cochain.py asserts against the stored results.json/FINDINGS.md text (byte/value locks), it does not re-execute verify_harvest.py, w0a/w0b/w2a/w2b scripts, or recompute the underlying enumeration -- it is a regression lock on stored numbers, not an independent recompute.",
+   "absence_claims": [
+    {
+     "quote": "cc3's own reconciliation addendum: NONE of the six claims below are banked anywhere under any name (checked by content, not just title).",
+     "where": "packet/HANDOFF_CC_SELECTION_COCHAIN.md lines 12-14"
+    },
+    {
+     "quote": "M1. ... no frontier cell was found that states or verifies this corollary for the R^{n-2}L family explicitly.",
+     "where": "packet/w0c_inventory/INVENTORY.md lines 484-495 (Part C, MISSING)"
+    },
+    {
+     "quote": "M2. ... No dedicated frontier B-number/FINDINGS.md was found that computes or verifies either filter independently",
+     "where": "packet/w0c_inventory/INVENTORY.md lines 497-506"
+    },
+    {
+     "quote": "M4. ... No banked cell was found that tabulates conductor primality over general multi-block R/L words as a family-wide sweep",
+     "where": "packet/w0c_inventory/INVENTORY.md lines 517-526"
+    },
+    {
+     "quote": "a repo-wide search for \"quantum cochain\", \"tube algebra\", \"Hochschild\", \"categorified Fox\" turned up nothing prior to this cell",
+     "where": "packet/w0d_quantum_scout/SCOUT.md line 183"
+    },
+    {
+     "quote": "the repo has no prior discussion of Davydov-Yetter cohomology; a search for \"Ocneanu\", \"Davydov\", \"rigidity\" across the repo found the phrase only in an unrelated cell",
+     "where": "packet/w0d_quantum_scout/SCOUT.md lines 45-50"
+    },
+    {
+     "quote": "C6 GENUINE, the headline. Zero trace of the amalgam-wall/even-solo construction anywhere in the ~180 new entries.",
+     "where": "packet/HANDOFF_CC_SELECTION_COCHAIN.md line 49"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "This is a large (30-file) cross-seat harvest/reconciliation package (cc3 -> cc banking seat) preserved verbatim; the packet's own addendum downgrades 3 of 6 claims (C1, C2, C3) from 'independent new law' to 'extension/corroboration of existing banked law' -- an honest self-correction, not concealed, but it means the FINDINGS.md headline framing ('six claims verified') somewhat overstates independence for half the claims unless the reader continues to the reconciliation section.",
+     "where": "packet/HANDOFF_CC_SELECTION_COCHAIN.md lines 11-53"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "creates_law_reviewed (B1214, 2026-08-29) retroactively classified B879 as NOT a law-creating arc ('VERIFICATION -- it re-derives or confirms a result stated elsewhere'), and states plainly that this classification was NOT read in full before the decision, unlike 13 other arcs that were read in full -- an acknowledged asymmetry in review rigor for this specific arc.",
+     "where": "frontier/B879_selection_cochain/arc_verdict.json creates_law_reviewed.basis"
+    }
+   ],
+   "seat_note": "This is unusually well-documented cross-seat work: exact arithmetic throughout, independent re-derivations by three separate scripts, and the packet's own honest downgrade of three of six claims via a dated reconciliation addendum -- exactly the self-correction discipline the seat wants to see. The physics content is nil (pure combinatorics/number theory on SL(2,Z) words and a fusion-category cohomology no-go); C6's negative result (quantum cochains cannot reproduce the classical H^1=5 in this model class) is honestly reported as a wall, not spun as progress."
+  },
+  {
+   "arc": "B880_triality_signature",
+   "source": "main",
+   "files_read": [
+    "frontier/B880_triality_signature/FINDINGS.md",
+    "frontier/B880_triality_signature/arc_verdict.json",
+    "frontier/B880_triality_signature/results.json",
+    "frontier/B880_triality_signature/triality_signature.py",
+    "tests/test_b880_signature.py (existence checked)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- module-level magic-square signature computed on this build: so(8)=derived(core) dim 28 exactly; each triality sector splits [8,8] under a plane charge; Hom-matrix of the three sectors under so(8) is diag(4,4,4) with all six off-diagonal Homs = 0 (certificates <= 4e-27, certified generic-pair method); the three sectors are pairwise-inequivalent so(8)-modules -- exactly what M(O,C) requires. Queued capstone: explicit Barton-Sudbery basis isomorphism (later delivered as B904).",
+   "log_says": "2026-08-04: the module-level magic-square signature -- the three sectors are pairwise-inequivalent so(8)-modules, each an 8-pair under tri(C); the computational half of the M(O,C) identification (B882 the bibliographic half). Later (2026-08-05, B904): 'B880's priced gap paid in full' by an explicit exact Barton-Sudbery isomorphism (0 mismatches on 3003 pairs), upgrading the tiling from signature to theorem.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "dim so(8)=derived(core)=28; three 16-dim sectors pairwise-inequivalent so(8)-modules (all 6 cross-Homs=0, certificates <=4e-27; all 3 self-Homs=4)",
+     "where": "triality_signature.py (full script) + results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes, in the sense that the script and its exact inputs (B854's e6_centralizer.py, a Fraction-based exact build) are committed and the script is self-contained and runnable",
+     "why": "the E6/e8-type Cartan skeleton (INV[8], INV[16], the cubic root-finding polynomial) is built exactly via Fractions, but the eigenspace/kernel/Hom computations themselves are done in mpmath at 30 decimal digits with numeric SVD/eig calls and fixed tolerance thresholds (1e-14, 1e-18, 1e-22, 1e-26) -- so the verdict (Hom=0 vs Hom=4) rests on numerical certificates, not exact rational linear algebra, though the 'certify against all 28 generators' step is a real error-bound argument (candidate superset is exact from SVD nullspace, cert error <=4e-27 bounds the residual)"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b880_signature.py exists (confirmed present); not opened in full, but by the pattern of test_b879/test_b883 in this batch it almost certainly locks results.json values rather than re-executing the 30-dps mpmath computation.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "The headline zero/nonzero Hom-dimension distinctions (the entire triality-signature verdict) rest on mpmath floating-point SVD/eigendecomposition with fixed numeric tolerances (1e-14 to 1e-27), not exact rational or algebraic arithmetic, despite the underlying E6 data (INV[8], INV[16]) being exact Fractions. The 'certificate' step (checking a candidate kernel vector against all 28 generators) bounds the residual but does not eliminate the numeric-precision dependency of the initial SVD nullspace/eigenspace splits themselves.",
+     "where": "triality_signature.py lines 68-73 (kernel_basis, 1e-18 threshold), 104-108 (so8, 1e-14), 166-200 (hom_dim, 1e-16 nullspace thresholds)"
+    }
+   ],
+   "seat_note": "The math is internally consistent and the numeric tolerances are tight (certificates at 1e-27), but this is a floating-point verdict on a discrete yes/no question (module equivalence); the later B904 capstone (explicit exact isomorphism, 0 mismatches on 3003 pairs) is the actually load-bearing exact confirmation, and B880 should be read as a strong numeric preview of it, not itself an exact proof. Physics content is purely group-theoretic (so(8) module structure under the magic square); no measurable quantity is named."
+  },
+  {
+   "arc": "B881_coset_table",
+   "source": "main",
+   "files_read": [
+    "frontier/B881_coset_table/FINDINGS.md",
+    "frontier/B881_coset_table/arc_verdict.json",
+    "frontier/B881_coset_table/coset_table.py",
+    "frontier/B881_coset_table/results.json",
+    "tests/test_b881_coset_table.py (existence checked)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- the SM-graded coset commutation table (descent stage 2), scoped before running as the mediation skeleton (X/Y channels), NOT the Yukawa skeleton (needs the 27, named follow-up). All 28 nonzero cells single-target: 6 own-conjugate channels land in the unbroken 14; 22 cross-pairings each land in exactly one broken multiplet; 42 same-sign cells = 0 (3-grading verified on every cell) + 8 charge-mismatch zeros. Trap (third occurrence): K1-piece eigenbasis is complex non-orthogonal, so transpose-projections falsely showed every cell hitting all nine targets; fixed by solving in the full oblique eigenbasis.",
+   "log_says": "2026-08-04: descent stage 2 -- the SM-graded coset commutation table; 28 single-target channels; the oblique rule earned for the third time (scoped honestly before running as mediation skeleton, not Yukawa skeleton). Separately, 2026-08-08 (B977/L143): B881 ('descent stage 2') is listed among 13 arcs 'sitting at PENDING' in a gate for 'rows that were never written' -- appears to be a ledger/registration-row gap, not a challenge to the PROVED verdict itself.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "28 nonzero, single-target commutation cells (charge conservation exact, no leakage at 30 digits) vs 50 zero cells (42 same-sign + 8 mismatch)",
+     "where": "coset_table.py (full script, reuses B854 exact e6 basis then numeric mpmath grading/bracket evaluation) + results.json (table + zero_cells arrays)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes (script self-contained, reads only banked B854 e6_centralizer.py)",
+     "why": "committed script runs end to end from the banked exact Chevalley frame; however all grading, eigendecomposition, and bracket-projection steps are done in mpmath floating point with fixed thresholds (1e-8 to 1e-26), and the reported 'targets' ratios in results.json (e.g. 1.5, 1.35, 2.56, 0.911) are themselves uninterpreted floating-point norm ratios, not exact rational Clebsch-Gordan-type coefficients"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b881_coset_table.py exists (confirmed present, not opened); given the pattern elsewhere in this batch it is presumed to lock stored results.json values rather than re-execute the 30-dps mpmath pipeline.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "Same pattern as B880: exact Fraction-based E6 frame feeds a numeric mpmath eigendecomposition/grading pipeline with fixed tolerance thresholds; the single-target verdict (28 nonzero cells each hitting exactly one target) depends on cluster thresholds (e.g. 1e-8 relative norm cutoff at line ~325) rather than exact zero/nonzero algebra.",
+     "where": "coset_table.py lines 255-267 (cluster, 1e-8 threshold), 319-328 (per-cell target inclusion threshold 1e-8)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "PROGRESS_LOG (B977/L143, 2026-08-08) lists 'descent stage 2 (B881)' among 13 arcs that 'sit at PENDING' in a gate for rows that were never written to some downstream ledger/registration surface -- worth checking this does not indicate the PROVED verdict was never actually registered anywhere consumable, only that the row itself is logged as pending elsewhere.",
+     "where": "PROGRESS_LOG.md entry dated 2026-08-08, quoted in log_index/B881.txt"
+    }
+   ],
+   "seat_note": "The self-reported methodological trap (non-orthogonal eigenbasis defeating naive projection, caught for the third time and turned into a standing rule) is a genuine positive sign of internal quality control. As with B880, the headline 'single-target, no leakage' claim rests on floating-point thresholds rather than exact algebra, so treat the exactness language ('30 digits', 'exact') as numeric-precision confidence, not algebraic proof."
+  },
+  {
+   "arc": "B882_magic_square_naming",
+   "source": "main",
+   "files_read": [
+    "frontier/B882_magic_square_naming/FINDINGS.md",
+    "frontier/B882_magic_square_naming/arc_verdict.json",
+    "tests/test_b882_naming.py (existence checked)"
+   ],
+   "files_sampled": [
+    "frontier/B882_magic_square_naming/priorart_findings.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- the tiling has a classical name, M(O,C) (Freudenthal-Vinberg magic square): a 10-agent, five-angle prior-art workflow (search+verify, verbatim-quote discipline) confirms e6 = tri(O)+tri(C)+3x(O tensor C) = so(8)+u(1)^2+3x16 verbatim in Landsberg-Manivel, Barton-Sudbery 2003, and Elduque 2007 (whose Z/3-cyclic bracket law is the published prototype of the full S3 cyclic law here). Triality<->3-generations speculation traced to Ramond 1977 through Boyle/DVT/Furey (all postulate/speculate, none derives). Novelty scoped: the selection mechanism (superselection torus derives the frame with an exact S3 cubic), the descent's two-sided verdict, and the KMRT-framed arithmetic question.",
+   "log_says": "2026-08-04: the tiling named -- M(O,C), the magic square; the novelty scoped before the paper could overclaim. Cross-referenced repeatedly afterward (B904 capstone 2026-08-05, several 2026-08-19 entries referring to 'the three doors: the gauge-datum question, L154, B882' as an open item, and R47 action items still listing 'the door election... B882' as of 2026-08-20) -- suggesting B882's own open threads (the KMRT/trialitarian-structure conjecture) remained live and unresolved well past this arc's banking date.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "e6 = tri(O)+tri(C)+3x(O⊗C) matches the classical M(O,C) magic-square decomposition verbatim in the literature (Landsberg-Manivel, Barton-Sudbery, Elduque)",
+     "where": "priorart_findings.json (10-agent search+verify workflow, verbatim-quote discipline) + FINDINGS.md section 1",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this is a literature-identification claim, not a repo computation; the committed priorart_findings.json records search-agent claims with quotes and source citations, but the underlying verify-agent process (10 agents, web search) is not itself a reproducible artifact a stranger can rerun from this repo alone -- it depends on external paywalled sources, some of which FINDINGS.md itself flags as NOT retrieved verbatim ('the Barton-Sudbery Section 4.3 bracket page were NOT retrieved verbatim (paywall/decompression) -- flagged UNCONFIRMED')"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b882_naming.py exists (confirmed present, not opened); given the bibliographic nature of this arc's claim, a test here most plausibly checks FINDINGS.md text/citations rather than recomputing anything.",
+   "absence_claims": [
+    {
+     "quote": "no direct single-step branching table for E6 subset so(8)+u(1)+u(1) ... was located in any of the three fetched sources ... The direct composite branching ... is not present in any standard branching-rule table and is not a textbook/classical statement",
+     "where": "priorart_findings.json, final entry (\"UNCONFIRMED / not found\" claim)"
+    },
+    {
+     "quote": "Two branching-table claims and the Barton-Sudbery Section 4.3 bracket page were NOT retrieved verbatim (paywall/decompression) -- flagged UNCONFIRMED in the findings file",
+     "where": "FINDINGS.md section 4, line 60-62"
+    },
+    {
+     "quote": "One unattributed search snippet (an \"E6^L x E6^R, three triality-related ways\" paper, possibly arXiv 2508.10131) needs a proper read before the paper cites or contrasts it.",
+     "where": "FINDINGS.md section 4, line 63-64"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The core claim is a dimension/structure match (so(8)+u(1)^2+3x16, dim 78) between the repo's build and a classical named object (M(O,C)); FINDINGS.md itself records that a secondary source's competing claim ('tri(C)=so(3)') was caught purely by dimension arithmetic (28+3+48 != 78), which is exactly the kind of type-coincidence reasoning this seat is asked to flag as a license to ask, not evidence -- though in this case the repo's own check correctly used it to REJECT a wrong identification rather than accept one, which is the right use.",
+     "where": "FINDINGS.md section 1, line 17-18"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Multiple later log entries (2026-08-19, 2026-08-20/R47) still list 'B882' as one of several open 'doors' / unresolved questions well after this arc was banked as PROVED -- the PROVED verdict here covers only the naming/bibliography, not the deeper arithmetic conjecture (KMRT trialitarian structure over Q) the arc itself flags as 'a formalizable claim, queued' -- readers should not conflate the naming verdict with resolution of the open arithmetic question.",
+     "where": "PROGRESS_LOG.md entries dated 2026-08-19 (three entries) and REVIEWS.md Review 47 action items"
+    }
+   ],
+   "seat_note": "This arc is explicitly a literature-identification exercise (import, not computation) and is honest about its own gaps (paywalled sources, unconfirmed snippets); the physics content is a naming/bibliography exercise with no computation of its own beyond dimension bookkeeping. The genuinely load-bearing computational confirmation is elsewhere (B880's numeric signature, later B904's exact isomorphism)."
+  },
+  {
+   "arc": "B883_the_27",
+   "source": "main",
+   "files_read": [
+    "frontier/B883_the_27/FINDINGS.md",
+    "frontier/B883_the_27/arc_verdict.json",
+    "frontier/B883_the_27/results.json",
+    "frontier/B883_the_27/build_27.py",
+    "tests/test_b883_the27.py (existence checked)"
+   ],
+   "files_sampled": [
+    "frontier/B883_the_27/rep27.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- the 27 representation built on the B854 Chevalley frame via the e7 3-grading, every sign inherited (none hand-fixed): e7 built by exactly the B854 recipe (63 positive roots, dim 133; Jacobi exact on 1500 triples); epsilon-cocycle restricted to first six nodes identical to B854's, so e6-inside-e7 is B854's frame verbatim (3000 random structure-constant pairs exact); grading by 7th fundamental coweight gives (79,27,27); rho([x,y])=[rho x, rho y] verified on ALL 6084 basis pairs in exact integers; 27 distinct minuscule weights; validated against banked branching 27=1+10+16 (eigenvalue multiplicities [1,10,16] at the enhancement point).",
+   "log_says": "2026-08-04: B883+B884 -- the 27 representation built and verified exactly; the invariant cubic and SM-graded Yukawa-support table. Repeatedly reused and independently re-verified downstream (B886 pencil-weight factorization; B914 R3-prime caught the 27bar/27 duality trap and re-verified; B917 recomputed the invariant inside B914's exact environment; 2026-08-22 B1138/B1139 confirm rho27 re-certified on 3003 brackets by independently-built E8/e6 code, matching multiplicities [1,10,16]).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "e7 dim 133, 63 positive roots, Jacobi on 1500 random triples exact",
+     "where": "build_27.py steps [1]-[2] (integer arithmetic only)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "pure integer arithmetic, self-contained script, no floats in this step"
+    },
+    {
+     "what": "e6-inside-e7 == B854's frame verbatim (3000 random structure-constant pairs exact)",
+     "where": "build_27.py step [3] (uses Fraction, compares against B854's br() output)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact Fraction comparison against a committed dependency (B854/e6_centralizer.py); reads as a genuine independent check rather than an assumption, since the cocycle-restriction prediction was stated first and then verified"
+    },
+    {
+     "what": "rho([x,y]) = [rho(x), rho(y)] on all 6084 basis pairs, exact integers",
+     "where": "build_27.py step [5]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "pure integer matrix arithmetic (matmul over ints), full pairwise check with assert bad==0, no floating point in this verdict-path step"
+    },
+    {
+     "what": "validation eigenvalue multiplicities [1,10,16] at the enhancement point (rho(s1))",
+     "where": "build_27.py step [6]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes, though this validation step alone uses mpmath 30-dps numeric eigendecomposition (not exact), unlike steps [1]-[5]",
+     "why": "the representation itself (rep27.json, the instrument) is built and verified entirely in exact integers; only the final cross-check against the banked branching law uses numeric floating point (mpmath.eig with 1e-9 clustering), which is a reasonable place to accept numeric tolerance since it is a validation against an independently-banked (numeric) result, not the representation's own construction"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b883_the27.py exists (confirmed present, not opened); rep27.json (the instrument) has itself been reused and independently re-derived multiple times in later arcs (B886, B914, B917, B1138/B1139) by different code paths reaching the same multiplicities [1,10,16], which functions as a strong de facto RECOMPUTES-style belt across the wider repo even if the single committed test file itself is a value-lock.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "This is the cleanest arc in the batch: the representation-theoretic construction and its main verification (Jacobi, frame match, full homomorphism check) are exact integer arithmetic throughout, only the final sanity check against a previously-banked branching law drops to numeric precision, and independent downstream reuse across several later arcs corroborates the same numbers by different code. No physics observable is claimed; this is pure Lie-representation bookkeeping feeding later Yukawa/coupling work."
+  }
+ ]
+}

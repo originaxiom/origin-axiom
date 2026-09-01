@@ -1,0 +1,386 @@
+{
+"batch": "arcs_010",
+"arcs": [
+{
+"arc": "B172_combination_gap_resolution",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "combination_gap.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — Weaving two distinct metallic chains produces a real persistent spectral gap whose IDS is no single-frequency label — an interaction-born combination gap.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "IDS values at gap-center E*=2.389 for N=4000..128000, e.g. 0.6110000 at N=4000", "where": "combination_gap.py C1 / FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Sturm-count IDS sweep is in the committed script, self-validated against dense solver, prints ALL CHECKS PASS."},
+{"what": "label consistent with (3,-3)=0.6114613 to finite-size precision but NOT sharply certified (residual plateaus ~2e-4)", "where": "FINDINGS.md C1 honest-limit paragraph", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "FINDINGS honestly reports the method's own limit rather than overclaiming; script matches."}
+],
+"belt": "NONE",
+"belt_note": "has_verification_dir=false; no separate belt directory for this arc.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Self-consciously firewalled emergent condensed-matter math (metallic Schrödinger cocycle), explicitly marked NOT fundamental with nothing forwarded to CLAIMS.md; the FINDINGS text itself documents a verify-don't-trust correction (first draft overclaimed 'clean convergence,' rewritten to the hedged 'consistent with' claim) which is a good sign of internal discipline rather than a red flag."
+},
+{
+"arc": "B173_gaplabel_rank_reduction",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "gaplabel_rank.py", "log_index/B173.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — The woven two-seed gap-label group is rank 3 = 1+#distinct quadratic fields (PSLQ-certified), reducing B172's gap to the gap-labeling theorem.",
+"log_says": "Only mentions B173 in passing in a REVIEWS.md density-ranking list ('Top by density: ... B173 ...'); no substantive claim about content.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "PSLQ finds no integer relation among {1, α_g=1/φ, α_s=√2-1} (rank 3)", "where": "gaplabel_rank.py R1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mpmath pslq call is committed and runs at dps=50, maxcoeff=1e6; deterministic and reproducible."},
+{"what": "same-field control: PSLQ finds exact relation -1+2α1-α4=0 for m=1,4 (both Q(√5))", "where": "gaplabel_rank.py R2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed script, exact algebraic identity verified numerically to high precision."},
+{"what": "the gap-labeling theorem itself (Johnson-Moser 1982, Bellissard, Damanik-Fillman 2022) is cited, not proved in-repo", "where": "FINDINGS.md 'The reduction (KNOWN-THEOREM)'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "explicitly labeled a citable external theorem; repo does not re-derive it, correctly labeled as such."}
+],
+"belt": "NONE",
+"belt_note": "no verification dir; PSLQ self-check is the only internal validation.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Clean, honestly-scoped arithmetic result (PSLQ-certified rank-3 module) correctly distinguishing a cited theorem from the computed novelty; firewalled from physics claims throughout."
+},
+{
+"arc": "B174_gluing_map_landscape",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "gluing_landscape.py", "log_index/B174.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — Cusp-gluing two metallic bundles gives a continuum only on the curve-aligned locus; every other GL(2,Z) map forces a finite discrete kappa-fork.",
+"log_says": "PROGRESS_LOG.md 2026-07-02 (B354 entry) records a lineage correction: the golden/silver (1,2) fork with kappa in {-4,-2} is actually B131/V120 (banked earlier, with Kitano-Nozaki 2020 prior art per NOVELTY_AUDIT R2), not a novel finding of a different session's framing; notes 'B174 has the same-seed gluing landscape.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "fork sizes: identity=CONTINUUM, T=9, T^2=10, S=16, ST/TS/STS=32", "where": "gluing_landscape.py L1 / FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic resultant/factor computation is committed and produces exact polynomial degrees."},
+{"what": "V1 reproduces B131's (1,2) fork {-4,-2} exactly", "where": "gluing_landscape.py V1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic sympy solve, exact."}
+],
+"belt": "RE-READS",
+"belt_note": "V1/V2 explicitly re-validate prior arcs' B131/B134 results symbolically before extending to the landscape.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Low-dimensional topology/character-variety math, explicitly firewalled as emergent and non-fundamental; the log corroborates the underlying (1,2) fork's attribution and even records a lineage-correction episode, which is a healthy self-correcting signal rather than drift."
+},
+{
+"arc": "B175_collective_spectrum_predictivity",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "collective_predictivity.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — The woven collective spectrum is two-number predictable: frequencies fix every gap height exactly, couplings fix widths by an order-power law at weak coupling.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "gap heights match gap-labels to <2e-3 (max label-error 8e-5), seed-robust golden+silver & golden+bronze", "where": "collective_predictivity.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numpy/scipy eigvalsh_tridiagonal computation committed, deterministic seeds, prints numeric errors."},
+{"what": "order-2 width-law slope ~1.92-2.01 (converges to order at weak coupling); order-3 (2,1) slope 2.6->3 'not yet asymptotic'", "where": "collective_predictivity.py C2 / FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "log-lambda linear fit is committed and the FINDINGS text is honest that order-3 is not fully converged (a FITTED slope, not an exact integer)."},
+{"what": "strong-coupling saturation breaks the order-scaling (slope collapses to <1.0)", "where": "collective_predictivity.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same fitting method, stated as an honest bound rather than deleted."}
+],
+"belt": "NONE",
+"belt_note": "no verification/ directory; self-check via C5 null test embedded in the same script.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "the 'order-power law' slopes (1.92, 2.01, 2.6->3) are fitted numerical slopes toward integer orders, not exact/symbolic; the exact integer power is explicitly not confirmed (see also B178's honest admission that the power plateaus at ~1.7 and does not cleanly resolve to 2).", "where": "collective_predictivity.py C2, cross-checked against B178 FINDINGS.md"}],
+"seat_note": "An honest and well-controlled numerical result about spectral structure of a mathematical model (woven quasicrystal), not a physical measurement; the fitted (non-exact) power-law slopes are correctly flagged by the arc's own later companion B178 as saturation-limited, which is good internal auditing but means the 'law' is not numerically nailed to the claimed integer."
+},
+{
+"arc": "B176_golden_privilege",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "golden_privilege.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — Golden is genuinely privileged in the woven combination structure (dominates silver and bronze, not a bare-width artifact) but the ordering below it breaks.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "golden satellite ladder dominates silver and bronze ladders by ratio >2 in both cosine and Sturmian models, theta-averaged", "where": "golden_privilege.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed numpy computation, theta-averaged over 3 phase pairs, deterministic."},
+{"what": "not a bare-width artifact: ladder ratio (8.9x) >> principal-gap ratio (1.6x)", "where": "golden_privilege.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "control comparison computed in the same script."},
+{"what": "silver/bronze ordering breaks (ratio ~1, comparable, not monotone)", "where": "golden_privilege.py C4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same script; honest negative sub-result reported rather than suppressed."},
+{"what": "tie to project's P000 'phi maximally resists the trivial' anchor is explicitly marked a one-way [RHYME], not a derivation", "where": "FINDINGS.md 'Honest scope'", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "explicitly and correctly labeled non-derivational; this is exactly the kind of IDENTIFICATION_BY_TYPE the seat should watch, but here it is self-flagged rather than smuggled in."}
+],
+"belt": "NONE",
+"belt_note": "no verification dir.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "IDENTIFICATION_BY_TYPE", "detail": "the paper explicitly notes the P000 anchor-choice ('phi = maximally resists the trivial') and this arc's spectral golden-privilege are tied only by a shared property (phi extremal-irrational) — a rhyme, correctly firewalled one-way, but still worth flagging since it is exactly the pattern the seat watches for.", "where": "FINDINGS.md 'Honest scope' section, second bullet"}],
+"seat_note": "A genuinely controlled numerical test (with a bare-width control and theta-averaging) that both confirms and corrects a prior informal claim; the P000 rhyme is properly firewalled as non-derivational, which is the correct handling of a type-coincidence."
+},
+{
+"arc": "B177_metabolism_test",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "metabolism_test.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — The metabolism hypothesis is dead: kappa is conserved, gaps freeze, the trace map is reversible — the object is a horseshoe crystal, not a cell.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "Fricke-Vogt invariant I conserved to <1e-8 drift over 60 trace-map iterations", "where": "metabolism_test.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed numpy iteration, deterministic seed, drift printed."},
+{"what": "Sturmian gap width converges (freezes) across Fibonacci-length generations 233->2584, |Δw| shrinking to ~1e-4", "where": "metabolism_test.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "eigvalsh_tridiagonal computation is committed, values printed."},
+{"what": "trace map T invertible to 1e-12", "where": "metabolism_test.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct numeric check, committed."},
+{"what": "active kappa>2 Cantor/horseshoe (positive entropy) is CITED from B163/B165, not re-demoed here", "where": "metabolism_test.py C4 / FINDINGS.md", "kind": "IMPORTED", "reproducible_from_committed": "no (for this arc alone)", "why": "explicitly not re-computed in this script; script only checks a fixed point, and states honestly that divergence diagnostics were flagged unreliable by B165 so are deliberately not repeated here — a stranger reading only this arc's file cannot reproduce the horseshoe claim."}
+],
+"belt": "RE-READS",
+"belt_note": "cites B148/B130 (kappa conservation), B124 (mirror-even/no-arrow), B163/B165 (horseshoe) rather than recomputing them all; explicitly declines to re-demo a diagnostic flagged unreliable.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "OTHER", "detail": "this is a speculative 'is it alive' test framed in biological language (metabolism, cell, starvation) applied to a pure quasicrystal spectral-dynamics object; verdict is NEGATIVE and explicitly says nothing supports a life-claim or physics-claim, which is honest, but the framing itself (testing whether a mathematical object is 'alive') is far outside standard physics vocabulary.", "where": "FINDINGS.md throughout, especially the title and 'S035 register' framing"}],
+"seat_note": "A well-scoped negative result (a conservative dynamical system cannot be a self-maintaining 'cell') correctly relocating any life/metabolism claim external to the object; the C4 horseshoe claim is imported/cited rather than freshly computed here, so a reader of only this arc cannot verify it independently."
+},
+{
+"arc": "B178_perturbative_mechanism",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "perturbative_mechanism.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — One textbook perturbative mechanism underlies both the width law and the golden privilege; the per-frequency structure width~L1^n1 L2^n2 is confirmed contamination-robustly.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "index method vs window-max agree at weak coupling (both give w(2,1)<w(1,1))", "where": "perturbative_mechanism.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "both methods implemented and compared in the committed script."},
+{"what": "power-1 directions clean (~0.9-0.98); (2,1)/(1,2) carry a distinct higher power ~1.68/1.60, NOT the textbook-predicted exact 2", "where": "perturbative_mechanism.py C2 / FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicitly and honestly reported as a numeric plateau at ~1.7, not the theoretical integer 2 — the arc states the exact integer is 'textbook, not numerically confirmed' rather than claiming it was measured."},
+{"what": "golden Diophantine-amplification heuristic (dressing lead >> linear D-lead)", "where": "perturbative_mechanism.py C3", "kind": "FITTED", "reproducible_from_committed": "yes", "why": "explicitly labeled 'a plausible heuristic, not a derivation' in both the script docstring and FINDINGS."}
+],
+"belt": "RE-READS",
+"belt_note": "re-examines B175's window-max method against a new index method as a verify-don't-trust correction of the earlier arc's measurement technique.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "claim_one_line and verdict say 'PROVED' for a mechanism whose central quantitative prediction (integer power-law exponent = 2) the same script's own numerics show plateauing at ~1.7, explicitly not reaching 2; the FINDINGS text is honest about this ('NOT cleanly resolved to 2') but the verdict label PROVED sits atop an admittedly unconfirmed exact claim.", "where": "arc_verdict.json vs perturbative_mechanism.py C2 output"}],
+"seat_note": "A genuinely useful self-correction episode (catching a window-max contamination bug) with honest reporting of a numeric plateau short of the theoretical exponent; the PROVED verdict label is broader than what C2's own numbers establish, though the FINDINGS text itself is careful to qualify it."
+},
+{
+"arc": "B179_metallic_numbers_unified",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "metallic_unified.py", "log_index/B179.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — Every geometric/arithmetic number of a metallic seed is an exact function of the single root lambda_m, with three same-named parameters fenced off.",
+"log_says": "PROGRESS_LOG.md 2026-08-02 (B856 entry): 'B593 computed the coupling number h ... at the GOLDEN weld only ... The metallic family's bundle monodromy is the word R^m L^m, SL(2,Z) trace m^2+2, which is B179's banked metallic monodromy trace (3 golden, 6 silver, 11, ...)' — cites B179's trace formula as a banked, reused fact.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "all identities (alpha_m=1/lambda_m, trace M^2=m^2+2, discriminant=m^2+4, Hurwitz=1/sqrt(m^2+4), etc.) hold symbolically over Q(m)", "where": "metallic_unified.py U1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pure sympy symbolic simplification, exact and deterministic, committed."},
+{"what": "do-not-conflate boundary: Schrodinger coupling lambda, Fricke modulus lambda-tilde, and gap-labeling IDS are distinct from lambda_m", "where": "FINDINGS.md 'The honest boundary (MB12)'", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a conceptual/definitional claim, not itself a computation, but consistent with definitions used across cited arcs B175/B148/B178."}
+],
+"belt": "NONE",
+"belt_note": "pure symbolic consolidation; no separate verification dir needed given the exactness of the algebra.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Clean, exact symbolic algebra consolidating several prior arcs' numbers into one algebraic object, with an explicit and correct guard against conflating distinct same-named parameters (exactly the discipline the seat wants to see); the log confirms this trace formula is subsequently reused correctly downstream."
+},
+{
+"arc": "B180_two_faces_dictionary",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "two_faces.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — Kappa is literally one conserved quantity on both the character-variety and spectral faces, while cusp-gluing and potential-weaving are distinct-but-analogous operations.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "Dehn-twist trace maps conserve kappa exactly (symbolic)", "where": "two_faces.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic substitution and simplify, exact."},
+{"what": "kappa's value governs spectral type: 0 gaps at periodic value, >=5 gaps (Cantor) at coupling 1.5", "where": "two_faces.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numeric eigenvalue computation, committed and deterministic."},
+{"what": "cusp-gluing fork values and potential-weaving gap labels are of different mathematical type (trace values vs IDS fractions) and must not be conflated", "where": "two_faces.py C3 / FINDINGS.md fence", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "logically checked in-script (glue values < -1, weave label in (0,1))."}
+],
+"belt": "RE-READS",
+"belt_note": "re-derives and re-checks the kappa conservation and spectral-type link banked in prior K001/K010/K013/K014 knowledge items.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A careful conceptual disambiguation (identity vs analogy) backed by exact symbolic and numeric checks; correctly guards against the naive over-identification of trace-fork values with IDS gap-labels, which is precisely the kind of type-coincidence trap the seat watches for, handled well here."
+},
+{
+"arc": "B181_criticality_scale",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "criticality_scale.py", "log_index/B181.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — The criticality scale-door is closed: the metallic chain is permanently critical (zero Lyapunov, no transition), so it is scale-free rather than scale-generating.",
+"log_says": "Three log entries: (1) 2026-07-11 groups B181 (localization) with B507 (beta-zero) and B498 (driftless walk) as 'ONE critical-fixed-point theorem, three wordings, never joined'; (2) 2026-07-14 B571 repeats this unification claim and separately flags 'B507 has NO lock'; (3) 2026-07-14 B578 states 'B181 domain-disjoint (wording repaired)' as part of a correction — i.e. a later entry walks back the strong B181/B507/B498 unification framing.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+{"what": "Aubry-Andre transition: gamma~0 (extended) below lambda=2, gamma=ln(lambda/2) (localized) above, matches exact ln(3/2)=0.405 at lambda=3", "where": "criticality_scale.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "transfer-matrix Lyapunov computation committed, compared against the known closed form for Aubry-Andre."},
+{"what": "Fibonacci/metallic Lyapunov stays near 0 (0.006 to 0.021) at both weak and strong coupling — no transition", "where": "criticality_scale.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same transfer-matrix method, finite-N residual explicitly discussed as convergence toward the theorem's exact zero (Damanik-Lenz, cited)."},
+{"what": "criticality of metallic operator explains scale-freeness; a finite length appears only off the metallic class and remains dimensionless", "where": "FINDINGS.md C3", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "an interpretive synthesis built on the computed C1/C2 results, not itself a separate computation."}
+],
+"belt": "NONE",
+"belt_note": "no verification dir in this arc's own files; the log-recorded 'unification with B507/B498' is a cross-arc synthesis done elsewhere, not a belt check of B181 itself.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [{"kind": "LOG_DRIFT", "detail": "the progress log first claims B181+B507+B498 are 'ONE critical-fixed-point theorem, three wordings, never joined' (2026-07-11, repeated 2026-07-14) but a later 2026-07-14 entry (B578) walks this back, calling B181 'domain-disjoint (wording repaired)' — the unification claim about B181 specifically was corrected in the log itself, and this arc's own files contain no evidence of that later correction being reflected here.", "where": "log_index/B181.txt entries 1-2 vs entry 3 (PROGRESS_LOG.md 2026-07-14 B578)"}],
+"seat_note": "The Lyapunov-exponent computation cleanly and correctly distinguishes a permanently-critical metallic quasicrystal from the Aubry-Andre transition, giving genuine structural (localization-theory) content; however the cross-session log shows a substantive claim built on this arc (unifying it with B507/B498 into 'one theorem') was later retracted as 'domain-disjoint,' and that correction is not visible from B181's own files."
+},
+{
+"arc": "B182_multiplicity_selection",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "multiplicity_selection.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — Superposition of N distinct-field metallic units proliferates (gap-label rank 1+N to infinity) and never selects to a unique value.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "PSLQ confirms rank=1+N for N=2,3,4 distinct-field metallic units (m=1,2,3,5)", "where": "multiplicity_selection.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mpmath PSLQ at dps=50, deterministic, committed."},
+{"what": "same-field units (m=1,4, both Q(sqrt5)) add no rank, exact relation -1+2a1-a4=0", "where": "multiplicity_selection.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "PSLQ finds the exact relation and it is verified numerically to <1e-30."},
+{"what": "selection-to-unique is claimed to be a 'constraint' (gluing) phenomenon rather than a superposition one, and the constraint side's large-N generalization is NEEDS-SPECIALIST", "where": "FINDINGS.md 'The fence' section", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a conceptual claim built on cited B174/B131 results (already reviewed above), not independently re-derived here."}
+],
+"belt": "NONE",
+"belt_note": "no verification dir; PSLQ scan is the arc's own computation.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A clean, exact PSLQ-based negative result that honestly reports proliferation rather than selection, and correctly flags the untested 'constraint' alternative as NEEDS-SPECIALIST rather than quietly assuming it would work; good practice."
+},
+{
+"arc": "B183_open_collective_arrow",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "open_collective.py"],
+"files_sampled": [],
+"files_listed_only": ["tests/test_b183_open_collective_arrow.py (referenced, not opened)"],
+"claim_of_record": "PROVED — Opening the permanently-critical metallic chain gives a genuine irreversible spectrum at zero threshold, with g_c equal to the minimum Lyapunov exponent (localized control exact ln4).",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "metallic g_c approx 0.0010, min Lyapunov approx 0 (N=320); AA-localized g_c=1.367 matches exact ln4=1.386", "where": "open_collective.py C1/C2/C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Hatano-Nelson bisection on eigenvalues and Lyapunov transfer-cocycle computation, both committed and deterministic, checked against the exact closed form ln4."},
+{"what": "a naive staggered PT probe is a chiral-symmetry artifact and does not distinguish criticality (C0, a documented negative)", "where": "open_collective.py C0", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicitly computed and reported as a failed approach before the correct Hatano-Nelson diagnostic is used; good verify-don't-trust discipline."},
+{"what": "the threshold is dimensionless (lattice units) and the arrow is externally sourced, so scale stays external and the arrow is not self-generated", "where": "FINDINGS.md C4", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "an interpretive/firewall conclusion built on the computed C1-C3 results."}
+],
+"belt": "RE-READS",
+"belt_note": "reuses B181's min-Lyapunov/permanent-criticality result as the mechanism; also references a separate fast-lock test file (tests/test_b183_open_collective_arrow.py) not opened by this reader.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A carefully controlled non-Hermitian localization computation (Hatano-Nelson) with an honestly-recorded failed naive probe (C0) before the correct diagnostic; correctly and repeatedly emphasizes the arrow is externally sourced and dimensionless, avoiding overclaim into a physical arrow of time."
+},
+{
+"arc": "B184_symmetry_gauge_door",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "symmetry_gauge.py"],
+"files_sampled": [],
+"files_listed_only": ["tests/test_b184_symmetry_gauge_door.py (referenced, not opened)"],
+"claim_of_record": "NEGATIVE — No gauge group is forced by the collective: interaction of distinct-field units breaks the per-unit inflation symmetry and merely multiplies the SL(2,Z) dualities.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "each unit's companion matrix [[m,1],[1,0]] has det=-1 exactly for m=1,2,3, verified to 1e-40", "where": "symmetry_gauge.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mpmath at dps=60, exact algebraic identity, committed."},
+{"what": "distinct-field cross-product alpha1*alpha2 escapes span{1,a1,a2} (PSLQ->None); same-field product a1*a4=2-3a1 stays (PSLQ finds relation)", "where": "symmetry_gauge.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "PSLQ computation committed, deterministic, high precision."},
+{"what": "distinct lambda_m are multiplicatively independent (PSLQ on log-lambdas -> None)", "where": "symmetry_gauge.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "PSLQ committed and deterministic."},
+{"what": "'SL(2,Z) is a duality not a gauge group' is reused from B150/L14, not re-derived here", "where": "FINDINGS.md 'Scope/honesty'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "explicitly flagged as reused from a different arc (B150), not independently checked by this reader."}
+],
+"belt": "RE-READS",
+"belt_note": "reuses B182's distinct-field/cross-product-escape mechanism and B150's SL(2,Z)-is-a-duality verdict rather than rederiving them; consistent cross-reference.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A clean negative result computed via PSLQ, correctly distinguishing a real per-unit duality/self-similarity symmetry from a forced gauge group; the gauge-content-is-free-input conclusion is honestly stated as the answer to a fundamental-physics-relevant question (whether SM gauge structure could be forced) with a clear NO, which is valuable negative content for the thesis's gauge-derivation ambitions."
+},
+{
+"arc": "B185_constraint_selection",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "constraint_selection.py"],
+"files_sampled": [],
+"files_listed_only": ["tests/test_b185_constraint_selection.py (referenced, not opened)"],
+"claim_of_record": "NEGATIVE — Cusp-gluing selects continuum to discrete but never to a forced-unique value, and 1-cusp metallic units cap all-unit interaction at pairs. arc_verdict.json also carries a later 'creates_law_reviewed' field (dated 2026-08-29, arc B1214) recording the audit's decision that this arc does NOT create a new general law/proposition ('a result about a specific cell rather than a law'), and explicitly states this arc was NOT read in full before that classification (unlike 13 other arcs that were read in full first).",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "metallic once-punctured-torus bundle units have exactly 1 cusp (SnapPy live check, with a recorded fallback if SnapPy unavailable)", "where": "constraint_selection.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes/unknown", "why": "the script tries SnapPy live and falls back to a RECORDED dict {'4_1':1,'m003':1,'m004':1,'m136':1} if SnapPy import fails — reproducibility of the live check depends on SnapPy being installed in the run environment; the fallback is an ASSERTED prior value, not independently recomputed on that path."},
+{"what": "all-unit connected gluing caps at k=2 (pure graph-theoretic degree argument)", "where": "constraint_selection.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary integer inequality check, committed and deterministic."},
+{"what": "dimension count: closed gluings give dim 0 (finite kappa-fork), open gluings give dim 1 (still a curve)", "where": "constraint_selection.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "simple arithmetic dim_result function, committed."},
+{"what": "the kappa-fork 'multiplies under composition' and 'grows' is reused from B174, not recomputed here", "where": "FINDINGS.md C3/C4", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "explicitly stated as reusing B174's result rather than a new gluing computation in this arc."}
+],
+"belt": "RE-READS",
+"belt_note": "reuses B174's kappa-fork growth result and B182's proliferation framing rather than recomputing; SnapPy check has a conditional fallback path (see load_bearing note).",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "OTHER", "detail": "the arc_verdict.json contains an unusual retrospective self-audit field ('creates_law_reviewed', dated 2026-08-29) that explicitly states this specific arc's verdict was classified as NOT a new general law/proposition, and — more importantly — that the classifying audit admits it did NOT read this arc in full before making that determination, contrasting it with 13 other arcs that were read in full first. This is a self-disclosed asymmetry in review rigor for this specific arc, worth flagging as a genuine methodological gap even though the audit itself flagged it.", "where": "arc_verdict.json 'creates_law_reviewed' field"}],
+"seat_note": "A clean graph-theoretic/dimension-counting argument correctly distinguishing selection-to-discrete from selection-to-unique; separately, the arc_verdict.json's own admission that a later audit classified this arc's law-status without reading it in full is a notable, self-disclosed process gap that the seat should track across other arcs for the same pattern."
+},
+{
+"arc": "B186_hyperbolicity_certification",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "trace_map_hyperbolicity.py", "log_index/B186.txt"],
+"files_sampled": [],
+"files_listed_only": ["tests/test_b186_hyperbolicity_certification.py (referenced, not opened)"],
+"claim_of_record": "PROVED — The off-axis kappa<2 hyperbolicity hypothesis is certified by three independent diagnostics, the escape rate validated on the Damanik-Gorodetski-proven kappa>2 ground truth.",
+"log_says": "Two entries: (1) REVIEWS.md Review 4 (2026-07-05) lists a correction: 'B186's gamma (early-window bias -> 0.445(6) three-method)' among a batch of corrections; (2) REVIEWS.md Review 32 (2026-07-29) lists B186 among 'Top by density' arcs (a citation-count/activity ranking, not a content claim).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "escape rate gamma: DG-proven kappa>2 (lambda=3) gives gamma=0.51 (later corrected to asymptotic 0.445+/-0.006, see below); kappa=2 band gives gamma=0.00; off-axis kappa<2 gives gamma=0.18 and 0.33", "where": "trace_map_hyperbolicity.py C1 / FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed numpy survival-fraction fit; the FINDINGS.md itself documents an in-file CORRECTION (2026-07-08, B451) that the quoted gamma=0.51 was an early-window-biased estimate and the asymptotic value (established by 3 independent methods in a different arc, B451) is 0.445+/-0.006 — the correction is applied inline in this arc's own FINDINGS text, not left standing uncorrected."},
+{"what": "box-counting dimension of off-axis spectrum <1 and below the kappa=2 band's, for golden and silver seeds", "where": "trace_map_hyperbolicity.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed, deterministic box-counting algorithm."},
+{"what": "two local diagnostics (per-point |lambda_max(DT)| and bounded-orbit Lyapunov) do NOT cleanly separate and are explicitly discarded as recorded negatives", "where": "trace_map_hyperbolicity.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "honestly reported failed diagnostics rather than suppressed, matching a prior arc's (B165) warning."},
+{"what": "the rigorous off-axis uniform-hyperbolicity proof itself remains NEEDS-SPECIALIST; only numerical certification is claimed", "where": "FINDINGS.md C4", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "explicit and correct scoping of what is and is not established."}
+],
+"belt": "RE-READS",
+"belt_note": "explicitly re-validates the diagnostic against Damanik-Gorodetski ground truth (proven kappa>2 case) before applying it off-axis; also references B163's MST diagnostic and B165's prior failed attempt.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A genuinely well-controlled numerical-certification exercise (calibrate on known ground truth, then apply off-axis) that transparently documents its own precision correction inline (gamma=0.51 early-window vs 0.445 asymptotic) rather than leaving a stale number uncorrected; good practice, correctly scoped to remain NEEDS-SPECIALIST for the rigorous proof."
+},
+{
+"arc": "B187_interacting_open_collective",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "interacting_open.py"],
+"files_sampled": [],
+"files_listed_only": ["tests/test_b187_interacting_open_collective.py (referenced, not opened)"],
+"claim_of_record": "PROVED — Exact diagonalization shows the open metallic collective stays thresholdless at all interaction strengths, while the localized control keeps a finite protective threshold.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "metallic many-body g_c(U) stays approx 0 (0.035 down to 0.0002) across U=0..4 (L=14, 2 fermions); AA-localized g_c stays 0.82-1.27 across the same U range", "where": "interacting_open.py C1/C2, FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact diagonalization of the many-body Hamiltonian is committed and deterministic (small Hilbert space, L<=16, 2-3 fermions)."},
+{"what": "robustness across L=10,12,16 and 2-3 particles", "where": "interacting_open.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same ED method run at additional sizes, committed."},
+{"what": "the genuinely-interacting thermodynamic-N regime (large-N driven-dissipative/MBL) is explicitly NOT reached; ED caps at small N", "where": "FINDINGS.md 'Scope/honesty'", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "honest scope statement about the limits of exact diagonalization."}
+],
+"belt": "RE-READS",
+"belt_note": "extends B183's single-particle result and B181's criticality result to the many-body case via exact diagonalization.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A legitimate exact-diagonalization extension of B183 to interacting fermions, small but exact and reproducible at the sizes tested; honestly scoped to acknowledge the thermodynamic-limit gap as NEEDS-SPECIALIST rather than extrapolating past what ED can show."
+},
+{
+"arc": "B188_lindblad_dissipative",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "lindblad_gap.py"],
+"files_sampled": [],
+"files_listed_only": ["tests/test_b188_lindblad_dissipative.py (referenced, not opened)"],
+"claim_of_record": "NEGATIVE — Criticality gives no slow dissipative relaxation: the metallic Liouvillian gap matches the extended chain, decays with L, and is homogeneous in external rates.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "dephasing Liouvillian gap Delta(L) for metallic, AA-localized, periodic at L=6,10,14: e.g. metallic 0.605->0.078, AA-localized 0.0057->0.0011, periodic 0.560->0.108", "where": "lindblad_gap.py C1/C2/C3, FINDINGS.md table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed direct diagonalization of the L^2xL^2 Liouvillian superoperator, deterministic."},
+{"what": "exact homogeneity: Delta(sH,s*gamma)=s*Delta to 1e-6 for s=2,3", "where": "lindblad_gap.py C4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct numeric check of an algebraic scaling property, committed."},
+{"what": "genuinely-interacting many-body Lindblad dynamics remains NEEDS-SPECIALIST (single-particle sector only tested)", "where": "FINDINGS.md 'Scope/honesty'", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "honest scope disclosure."}
+],
+"belt": "RE-READS",
+"belt_note": "extends B183/B187's non-Hermitian arrow analysis to a genuinely dissipative (Lindblad) channel as the third of three open-system channels tested for this object.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A clean, well-controlled single-particle Lindblad computation that correctly inverts a naive intuition (criticality does not imply slow relaxation; localization does) and demonstrates exact scale-homogeneity directly rather than asserting it; honestly scoped to the single-particle sector."
+},
+{
+"arc": "B189_omega_causal_dimension",
+"source": "main",
+"files_read": ["ADDENDUM_b1187_null_reversal.md", "FINDINGS.md", "arc_verdict.json", "omega_causal_dimension.py", "log_index/B189.txt"],
+"files_sampled": [],
+"files_listed_only": ["tests/test_b189_omega_causal_dimension.py (referenced, not opened)"],
+"claim_of_record": "NEGATIVE — The Omega cone's Myrheim-Meyer dimension d~3.94 is a graded-DAG truncation artifact, reproduced by a random null — no emergent spacetime dimension. ADDENDUM (2026-08-28, B1187) reverses part of C3: at higher (per-level, 100-seed) statistics the full poset sits 11 sigma above the random-DAG null (not 'indistinguishable'), a structured excess registered as new lead L190; C1 and C2 and the overall verdict (graded-poset artifact, not spacetime dimension) are explicitly stated to STAND.",
+"log_says": "Two entries: (1) PROGRESS_LOG.md B1187 (2026-08-28) states the kill 'stands on drift-artifact grounds' but B189's 'indistinguishable from null' clause reverses at per-level 100-seed stats (z_L10=+11.2), re-scoped as TOMB-L310; (2) REVIEWS.md Review 51 (2026-08-28) lists B189 as one of five instances of a newly-filed 'VERIFIER-DEFECT class' (E52) across two seats, and notes the B189 clause was corrected 'via addendum-beside'.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "estimator calibrated on Minkowski sprinklings (d=2,3,4) matches Meyer closed form to <2%", "where": "omega_causal_dimension.py C0", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed sprinkling simulation and closed-form comparison, deterministic seed."},
+{"what": "full Omega poset (N=474) gives d_MM~3.94 (raw)", "where": "omega_causal_dimension.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "loads committed CSV data from a sibling arc (B159) and computes ordering fraction directly, deterministic."},
+{"what": "d_MM drifts monotonically with truncation level (2.08 to 3.94, no convergence)", "where": "omega_causal_dimension.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same committed script, direct computation across truncation levels."},
+{"what": "random graded-DAG null gives d_MM=3.78+/-0.01 (30 seeds); original text called Omega's 3.94 'indistinguishable', later corrected in-file to '~0.15 (~12 sigma) above'; ADDENDUM further corrects/refines this to a per-level 100-seed statistic showing an 11.2 sigma excess specifically at the deepest level with a structured (non-uniform) level trend, newly registered as L190", "where": "omega_causal_dimension.py C3 / FINDINGS.md (with in-file 2026-06-23 correction) / ADDENDUM_b1187_null_reversal.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the 30-seed null in the committed script is reproducible; the ADDENDUM's 100-seed per-level statistic (z sequence -2.2,-2.8,-2.3,+0.6,+11.2) is described but its underlying code/witness is not among this arc's committed files (it is attributed to a separate audit arc B1187), so the ADDENDUM's specific numbers are not independently reproducible from this arc's own files alone."}
+],
+"belt": "RE-READS",
+"belt_note": "explicitly calibrates the estimator on ground-truth Minkowski sprinklings (C0) before applying it to the non-Lorentzian Omega DAG — a genuine verify-don't-trust methodology; the arc has already undergone two rounds of correction (2026-06-23 inline, 2026-08-28 addendum) both of which are documented rather than hidden.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [{"kind": "OTHER", "detail": "this arc is cited in the progress log's newly-filed E52 'VERIFIER-DEFECT class' (five instances across two seats), meaning a prior verification pass on this exact arc's C3 null-control claim ('indistinguishable') was itself found defective at higher statistics; the correction is properly recorded via an addendum, but the episode illustrates that even a 30-seed statistical null-control claim in a firewalled, non-physics arc was insufficiently powered and had to be walked back twice (2026-06-23, then 2026-08-28).", "where": "ADDENDUM_b1187_null_reversal.md; log_index/B189.txt (Review 51, E52 VERIFIER-DEFECT class)"}],
+"seat_note": "The core drift-artifact argument (C1/C2: truncation-dependence) is solid and sufficient on its own to kill the 'Omega predicts d=4' over-read, which the ADDENDUM explicitly confirms stands; but the null-control claim (C3) needed two successive corrections to reach its final, more nuanced form (Omega is actually less manifold-like, with structured level-dependent excess, not merely 'indistinguishable'), a good illustration of why under-powered null controls in this repo deserve scrutiny even when the headline verdict survives."
+}
+]
+}

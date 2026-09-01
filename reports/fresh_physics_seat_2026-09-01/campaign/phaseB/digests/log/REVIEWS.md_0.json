@@ -1,0 +1,646 @@
+{
+"log": "docs/progress/REVIEWS.md",
+"part": 0,
+"entries": [
+{
+"date": "n/a (governance preamble)",
+"title": "# The decadal repo reviews — ledger (GOVERNANCE §11)",
+"arcs": [],
+"established": "Defines the review protocol itself (procedure, not a scientific result): every ~20 merges (raised from 10 on 2026-07-14) a whole-repo review fires with a mandatory document-currency reading (7a-7d) added 2026-08-09 at the owner's direction.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": [
+"\"Every decadal review should make sure no single md document is outdated and doesn't represent / reflect the current state — including claims, theorems, speculations, philosophy, interpretations, logs, easy read. So whoever reads the repo, human reviewer or AI agent, understands the complete chain of work.\" (owner directive, added 2026-08-09)",
+"threshold raised from 10 to 20 merges on 2026-07-14 (governance change stated in the ledger header)"
+],
+"numbers_claimed": [],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"Markov blanket = 0 arcs, in no document — and it carries a conflation hazard, since the corpus is full of Markov TRIPLES, a different object\" (line 42-44, dated 2026-08-09 check)."}
+]
+},
+{
+"date": "2026-07-03",
+"title": "## Review 0 — 2026-07-03 (baseline; the reform itself)",
+"arcs": [],
+"established": "The instituting review: gates implemented and green (7/7); suite lock added; the promotion-audit lane registered; ledger sections extended with Certified data.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["7/7 gates green"],
+"red_flags": []
+},
+{
+"date": "2026-07-03",
+"title": "## Review 1 — 2026-07-03 (the first scheduled decadal review; merges 1–10 from Review 0)",
+"arcs": ["B370","B371","B372","B352","B353","B357"],
+"established": "B370 both legs (order-3 integrability; τ-defect θ-grading); document map + toolbox; B371 minimal two-state sector (P56/P57); B372 the seam persists at level 45 (E16).",
+"status_words": ["PROVED","HOLD"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["atlas fresh at 353 probes","61 entries audited (P17–P55, C6–C12): 6 holds","57 proven · 12 conditional · 16 certified-data · 9 open · 10 dead"],
+"red_flags": []
+},
+{
+"date": "2026-07-04",
+"title": "## Review 2 — 2026-07-04 (merges 11–25 from Review 1; the counter hit 15 during the overnight arc)",
+"arcs": ["B372","B373","B374","B377","P59","P60","P61"],
+"established": "Priced-doors campaign (tower arc, two phase laws killed); P59 quantized golden cat map; Derivation Campaign D0 confirmed; P60 selection-rule reduction; P61 Galois covariance laws.",
+"status_words": ["PROVED","GATED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["atlas fresh at 360 probes","61 proven · 12 conditional · 17 certified-data","B377 v2: 375 passed; 405/675 pending"],
+"red_flags": [{"kind": "OTHER", "detail": "\"wrong-object errors caught on BOTH sides\" during three-seat verification (a genuine cross-check success, not a failure, but shows the verification process itself can err)."}]
+},
+{
+"date": "2026-07-04",
+"title": "# Review 3 — 2026-07-04 (merges #472–#482, the autonomous-mode window)",
+"arcs": ["P62","B382","B383","P63","P64","P65","B384"],
+"established": "P62 twist isolation; B382 legs 1-4 (why-1/12 program) with canonical cross-check registered before running; B383 row-16 theorem; three promotions (P63-P65) banked, each with registered predictions.",
+"status_words": ["PROVED","CORRECTED"],
+"retractions": [{"what": "The Kashaev T1 integrality assumption (values assumed rational at general N)", "of_which_arc": "B382/T1, caught by the exact machinery's own assert, corrected to Galois-component extraction"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["prediction: linear part (0,0); passed on all five words","primes ≡ 1 mod 13500 lack ζ₈₁ (silent floor-division corruption bug, fixed)"],
+"red_flags": [{"kind": "OTHER", "detail": "duel stall at 405 diagnosed to a real engineering trap (primes lacking ζ₈₁, silent floor-division corruption) — a computational-infrastructure bug, not a math error, but shows numeric results can be corrupted silently before detection."}]
+},
+{
+"date": "2026-07-04",
+"title": "# Review 4 — 2026-07-04 (merges #484–#500, the Closure Campaign)",
+"arcs": ["P66","P67","W2","B388","B389"],
+"established": "Closure Campaign W0-W5: P66 closed form; P67 locality with a registered out-of-sample prediction that PASSED; five registered kills banked with structure.",
+"status_words": ["PROVED","KILLED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["out-of-sample prediction pair (2,5); census 243/625","registered predictions all hit or half-hit with the miss banked as data"],
+"red_flags": []
+},
+{
+"date": "2026-07-05",
+"title": "# Review 5 — 2026-07-05 (merges #501–#508, Closure II)",
+"arcs": ["P64","M1","M2","M3","M4","M5"],
+"established": "Mechanism Campaign: P64 strengthened to universal (661/661); stratification law and unified singles law with sum rule found; three corrective kills (emergent mirror, aggregate stabilizer, intra-model conjugacy).",
+"status_words": ["PROVED","KILLED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["661/661","registered predictions used at 405 (both killed)"],
+"red_flags": []
+},
+{
+"date": "2026-07-04",
+"title": "# Review 6 — 2026-07-04 (merges #509–#521: the scrutiny + the Wall Campaign)",
+"arcs": ["B398","B399","B400","B401","B402","B403","B404","B405","P68","B71","B85","L38"],
+"established": "P68 root-of-unity law prereg'd, zero violations across 142 cells; PMNS ensemble and McKay dictionary killed cleanly; split-covariance prediction CONFIRMED; both walk-law candidates KILLED at 1215 as registered outcomes.",
+"status_words": ["PROVED","KILLED","CONFIRMED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["142 cells, zero violations","PMNS ensemble p ≈ 0.09–0.44","sentinel protocol 17/19","supersingular list {31, 79, 167}"],
+"red_flags": [{"kind": "OTHER", "detail": "\"the killed prime filter's THREE return attempts each flagged and re-killed with banked witnesses\" — a refuted idea recurred three times before being permanently killed."}]
+},
+{
+"date": "2026-07-04",
+"title": "# Review 7 — 2026-07-04 (merges #522–#540: the reframe + the Destination Atlas)",
+"arcs": ["S051","S052","B411","B412","B413","B414","TW1","TW2","TW3","TW4","TW5","TW6","TW7","B415","B421"],
+"established": "Zero physics promotions. The forced-ℤ/3=generations reading FAILED its privilege check; TW4 REFUTED the program's own B411 upstairs-hope. Program reached an honest terminal statement: tracked blind, the object self-generates no SM structure; it IS a complete novel body of mathematics.",
+"status_words": ["REFUTED","FAILED"],
+"retractions": [{"what": "B411's upstairs-hope (emergence assumed extrinsic)", "of_which_arc": "TW4, refuted — emergence is intrinsic"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": [],
+"red_flags": [{"kind": "ABSENCE_CLAIM", "detail": "\"the object self-generates no SM structure\" — the program's own strongest negative statement of the window (Review 7 verdict)."}]
+},
+{
+"date": "2026-07-05",
+"title": "# Review 8 — 2026-07-05 (merges #541–#557: the two torsions, the Origin Postulate, the interface campaign)",
+"arcs": ["B425","S049","B426","B427","B428","B429","B430","B431","B432","B433","B434","B423"],
+"established": "Object identified as the weight-1 dihedral newform of ℚ(√−15); Iwasawa rigidity λ=μ=0 in both towers; Origin Postulate locked; interface campaign's first arc: forced source + forced minimal input (slope 5) → Meyerhoff manifold, disc −283, exiting ℚ(√−15) entirely (honest negative).",
+"status_words": ["PROVED","LOCKED"],
+"retractions": [
+{"what": "Chat-1's projector corollary", "of_which_arc": "corrected to the σ₁₇ exchange-Galois law"},
+{"what": "the \"prime 67\" artifact", "of_which_arc": "corrected (chat claim)"},
+{"what": "B423's label; B432's first merge (broken JSON); B433's first lock (mistranscribed eliminant)", "of_which_arc": "B423/B432/B433, all fixed same-session"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["λ=μ=0 cyclotomic AND anticyclotomic","chirality interface-sourced 31/31","Meyerhoff manifold, disc −283, CS unit ±0.0770"],
+"red_flags": [{"kind": "OTHER", "detail": "\"one process deviation logged: the B433 lock fix landed via a direct conflict-resolution merge to main\" — a governance-process bypass, disclosed."}]
+},
+{
+"date": "2026-07-05",
+"title": "## Review 3 — 2026-07-05 (the C3-wave review; caught a real banked defect)",
+"arcs": ["B438","B439","B440"],
+"established": "Independent adversarial reviewer recomputed C3 from scratch (own scripts, not the banked code). CONFIRMED B439 figure-eight vacuum quartic (disc −283, S₄) and B440's 4₁ cross-validation. REFUTED B440's \"5₂ = 6 vacua incl. a golden factor\"/\"golden inversion\" — the golden factor was the reducible abelian ℤ/5 characters; corrected: 4₁ and 5₂ both have 4 irreducible vacua in the identical −283 field.",
+"status_words": ["CONFIRMED","REFUTED","CORRECTED"],
+"retractions": [{"what": "B440's \"5₂ = 6 vacua incl. a golden factor\" and the \"golden inversion\"", "of_which_arc": "B440, corrected in B440 verify.py/lock/FINDINGS + CAMPAIGN_STATUS/PROGRESS_LOG/CHANGELOG/README/B439"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["quartic x⁴−3x³+x²+3x−1, disc −283, S₄"],
+"red_flags": [{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "B440's 5-vacua/golden-inversion claim was banked, then refuted by an independent from-scratch recompute — \"the defect would have propagated into C4\" if uncaught."}]
+},
+{
+"date": "2026-07-05",
+"title": "## Review 4 — 2026-07-05 (the C5/C4 review; the Child Program completion seal)",
+"arcs": ["B441","B442"],
+"established": "Independent reviewer re-implemented C5 (B441) and C4 (B442) from scratch with an exact cyclotomic-arithmetic engine (zero floating point). C5 CONFIRMED + strengthened across 15 values of r (field exactly ℚ(ζ_r)); C4 CONFIRMED (78=⊕Sym^{2mᵢ}).",
+"status_words": ["CONFIRMED","PROVED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["78 = ⊕Sym^{2mᵢ} (dims sum 78)","child 5201, 5₂ −105717 (Galois sums)"],
+"red_flags": [{"kind": "OTHER", "detail": "\"Honest note adopted: the τ_r(S³)=1 validation is structurally tautological ... and did not catch bugs — corrected in wrt.py + the FINDINGS\" — a self-flagged weak validation."}]
+},
+{
+"date": "2026-07-08",
+"title": "# Review 9 — 2026-07-08 (merges #558–#630: the residue saga, the chain, the registry)",
+"arcs": ["B465","B466","B467","B468","B469","B470","B471","R1","R3","R4","R5"],
+"established": "Theorem registry created; three campaigns launched/advanced; full lock suite 1581 passed/3 failed(ALL governance gates, ZERO math locks)/12 skipped. Corrections: B186's γ, B459's overreach, five float-kills, trace-field/scale-field mislabel (B471), 52→2 root-witness contamination (B470).",
+"status_words": ["PROVED","VERIFIED","CORRECTED"],
+"retractions": [
+{"what": "B186's earlier γ value (early-window bias)", "of_which_arc": "B186, corrected to 0.445(6) three-method"},
+{"what": "B459's earlier (1,2)-specific overreach", "of_which_arc": "B459"},
+{"what": "trace-field/scale-field mislabel", "of_which_arc": "B471"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["1581 passed / 3 failed / 12 skipped","γ = 0.445(6) three-method","c to 28 digits (identification honestly open)","19 PRs in ~48h"],
+"red_flags": []
+},
+{
+"date": "2026-07-12",
+"title": "# Review 10 — 2026-07-12 (merges #631–#815: the decadal review, owner-invoked)",
+"arcs": [],
+"established": "Decadal repo review covering Review 9 through the B532 Last Echo campaign. Invoked MANUALLY by the owner because the counter had been due since ~#640 (reviews were not being anchored). Process fix: anchor discipline restated; gates hook now surfaces review-due at every push.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": ["\"every repo review — decadal or otherwise — MUST append an entry here with its merge anchor-commit; ... An unanchored review does not exist to the machinery.\" (Review 10 restatement)"],
+"numbers_claimed": [],
+"red_flags": [{"kind": "OTHER", "detail": "governance gap: \"the counter had been due since ~#640 because reviews 2026-07-08→07-12 were not being anchored here\" — reviews ran but were not recorded, a several-window gap in the review ledger's own mechanism."}]
+},
+{
+"date": "2026-07-12",
+"title": "# Review 11 — 2026-07-12 (merges #816–#826: the reframe completed, the seat changed)",
+"arcs": ["B533","B534","B535","B536","B537","B538","B539","S066"],
+"established": "S2 REVERSED (the five induced matrices are one GL(4,ℤ) class); B534 dark hyperbola PROVED; B535 coupling census saturates 6/7; B537 (1,1,5) phantom THEOREM (level corrected 32→22); B539 relations campaign: control PASSES, SM NO-MATCH.",
+"status_words": ["PROVED","REVERSED","CORRECTED"],
+"retractions": [
+{"what": "B533-S2 (the coupling carries an abstract ℤ-invariant)", "of_which_arc": "B533, REVERSED — coupling carries no invariant; five markings of ONE object"},
+{"what": "chat1's ℚ(φ) field collapse (F4 error class)", "of_which_arc": "corrected in-chat — field is ℚ(√φ), degree 4"},
+{"what": "seat-1's period-6/S = 1.0620", "of_which_arc": "not reproduced (convention-dependent)"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["β = 1/(√φ−1)","census saturation 6/7","one-measurement theorem: 17,280 lifts → {σ, a⁻¹σa}","level corrected 32 → 22"],
+"red_flags": []
+},
+{
+"date": "2026-07-12",
+"title": "# Review 12 — 2026-07-12 (merges #827–#835: Window 12, the measurement lane, the handoff harvest)",
+"arcs": ["B540","B546","B541","B542","B543","B544","B545","B548","B549","B550"],
+"established": "B540 observer flow (census 7→12 corrected); B546 exact IDS species labels = dictionary to 4e-7; B548 un-hideability REFUTED-as-discriminator; B550 chat-1's Promotion-Sign Conjecture REFUTED at n=3.",
+"status_words": ["REFUTED","CORRECTED"],
+"retractions": [
+{"what": "un-hideability=Pisot discriminator hypothesis", "of_which_arc": "B548, refuted — property is generic"},
+{"what": "chat-1's Promotion-Sign Conjecture ((−1)ⁿ)", "of_which_arc": "B550, refuted at n=3 against B111's locked data; uniform meridian rule replaces it"},
+{"what": "chat-2's (4,4,16) \"already-in-record\" claim", "of_which_arc": "flagged as not-in-record and not-reproducible"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["census 7→12","4e-7 label identification","n=5 prediction (1,2)"],
+"red_flags": []
+},
+{
+"date": "2026-07-12",
+"title": "# Review 13 — 2026-07-12 (merges #838–#851: the handoff harvest + the three paper gates + the escalator tower)",
+"arcs": ["B551","B552","B553","B554","B555","B547","B556","B557","B558","PC22","PC23"],
+"established": "Numerical-matching program complete and NEGATIVE at all three levels (0/1/2); escalator field-doubling PROVED (norm-sign + det telescope, rungs 1-5); three paper gates separated novel/explicit-realization/mostly-known results.",
+"status_words": ["PROVED","REFUTED","CORRECTED"],
+"retractions": [
+{"what": "\"a deep Goldman/Bowditch identity called a coincidence\" (Markoff deflation)", "of_which_arc": "self-error, owner caught, corrected #840"},
+{"what": "B558's 1/φ² → 1/φ³ mislabel", "of_which_arc": "B558"},
+{"what": "B554 Station-4 species=forward-bit-pair", "of_which_arc": "B554, REFUTED — it is radius-1 both-sided"},
+{"what": "B553's SL(5) n²-1 vs n-1 self-correction", "of_which_arc": "Seat-1's self-correction was itself wrong"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["1921 passed / 0 failed / 12 skipped"],
+"red_flags": []
+},
+{
+"date": "2026-07-13",
+"title": "## Review 14 — 2026-07-13 (merges #854–#867 from Review 13)",
+"arcs": ["B555","B559","B207"],
+"established": "The escalator hypothesis turned into a per-rung-provable structure: 3/2 Law, golden-norm doubling transfer, 2ⁿ−1 magnitude-degeneracy law, exact factorization; NEGATIVES: no fusion category at rung 1, no CFT c_eff lock-on, Galois NOT (ℤ/2)ⁿ⁺¹ (is D₄, non-abelian), free energy divergent, BKL downgraded.",
+"status_words": ["PROVED","REFUTED","CORRECTED"],
+"retractions": [
+{"what": "seat-1's \"one prime per rung\"", "of_which_arc": "refuted at n=4, 11 repeats"},
+{"what": "amphichiral matrix J commuting with A₁", "of_which_arc": "corrected"},
+{"what": "the Galois \"(ℤ/2)ⁿ⁺¹\" claim", "of_which_arc": "it is D₄"},
+{"what": "\"BKL IS the trace map\"", "of_which_arc": "downgraded to conjugate-on-locus (prior art)"},
+{"what": "own \"correction\" of chat-2's correct e₅ bit-count (203→204)", "of_which_arc": "owner's \"u sure\" prompted self-correction back to 203"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["T_k growth (k+1)/2; C=2.4283","e₄=−11²·1459·597049·2169349081","1961 passed / 0 failed / 12 skipped","30 agents, 0 errors"],
+"red_flags": [{"kind": "OTHER", "detail": "reviewer wrongly \"corrected\" a correct value (chat-2's e₅=203) to a wrong one (204), only self-corrected after the owner questioned it — a case of an authoritative-seeming correction being itself wrong."}]
+},
+{
+"date": "2026-07-14",
+"title": "## Review 15 — 2026-07-14 (merges #869–#882 from Review 14; the gauge arc)",
+"arcs": ["B560","B561","B562","B563","B564","B565"],
+"established": "Gauge question closed at behavior level with four mechanism-level walls: values (T1), chiral index ≡0 (T3), real-form theorem (holonomy lands in F₄(ℂ) in no real form; compactness is the TDV gap, H1), selection-principle disjointness, chirality.",
+"status_words": ["PROVED","REFUTED","CORRECTED"],
+"retractions": [
+{"what": "S014's \"~60%\" clause", "of_which_arc": "S014, never computed in-repo, does not reproduce; kill stands on circularity"},
+{"what": "2^{2n+1}", "of_which_arc": "refuted at rung 3"}
+],
+"owner_elections_verbatim": ["\"Governance change this window: the review cadence raised 10 → 20 merges (#882, owner directive — merge density doubled)\""],
+"numbers_claimed": ["1980 passed / 12 skipped","123 banked negatives audited — 113 sound / 9 suspects / 1 cracked epitaph","lk₂(11,809)=1"],
+"red_flags": [{"kind": "OTHER", "detail": "named hygiene item: B207 SnapPy flaky lock trips under full-suite load second consecutive review while passing standalone — unresolved test flakiness."}]
+},
+{
+"date": "2026-07-14",
+"title": "## Review 16 — 2026-07-14 (merges #884-#903 from Review 15; the chirality arc)",
+"arcs": ["B566","B567","B568","B569","B570","B571","B572","B573","B574"],
+"established": "Two-descriptions split (algebra non-compact vs measurement compact); B570's C3 gives \"the first positive chirality-sector signal in seventeen campaigns\" (firewalled, no SM claim); B567 Hamiltonian handoff refuted; B569 Link 4 corrected, Link 7 refuted.",
+"status_words": ["PROVED","REFUTED","CORRECTED"],
+"retractions": [
+{"what": "B567's six-level π/3 spectrum claim", "of_which_arc": "refuted — projective order forced to 20"},
+{"what": "B569's inconsistent modular data / Link-7 chirality claim", "of_which_arc": "corrected/refuted"},
+{"what": "B572's V1 branching", "of_which_arc": "refuted against an existing lock"},
+{"what": "B573's step 8, its \"topological protection\", and its record", "of_which_arc": "refuted/corrected — claimed Fox-calculus verification never happened"},
+{"what": "B574's D₅-centralizer crux", "of_which_arc": "corrected: A₅ = 35 ≠ 45 = D₅"},
+{"what": "T-θTANGENT wording (amphichiral IS θ canonically)", "of_which_arc": "corrected: amphichiral = antilinear conj∘θ; linear θ = hyperelliptic involution"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["2143 passed / 12 skipped / 0 failed","8,044-line corpus, 106 candidates → 14 genuinely buried","51,840 Weyl elements","order 4, eigenvalues {1,+i,−i}"],
+"red_flags": [
+{"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "\"The stale-θ contradiction ... B571's dossier still asserts the pre-correction 'the amphichiral involution IS θ, canonically' unqualified at THEOREM tier ... B571 merged before the T-θTANGENT correction and was never patched, and the same wording propagated into CHANGELOG and CAMPAIGN_STATUS adjacent to the corrected entry.\""},
+{"kind": "OTHER", "detail": "\"OPEN_LEADS.md has zero registrations for the arc's entire open frontier\" — an open-item bookkeeping gap."}
+]
+},
+{
+"date": "2026-07-14",
+"title": "## Review 17 — 2026-07-14 (merges #904–#923 from Review 16; the construction arc / Round 3)",
+"arcs": ["B575","B576","B577","B578","B579","B580","B581","B582","B583","B584","B585","B586"],
+"established": "THE BRIDGE OBSTRUCTION: quadratic obstruction Q≡0 identically; chirality exactly the θ-odd motion; THE SIGN LAW sign(τ_m)=(−1)^m; THE SECOND UNHEARABILITY THEOREM; THE LISTENER'S LAW (chirality = what the two SL(2,ℤ) lifts agree on).",
+"status_words": ["PROVED","RETRACTED","FAILED","CORRECTED"],
+"retractions": [
+{"what": "the Kubota–Leopoldt claim", "of_which_arc": "B578, RETRACTED with the discriminating fact computed"},
+{"what": "MY wrong B137 \"correction\" of K₃'s degree", "of_which_arc": "B137, reverted — B125's table was right; K₃ IS degree 6"},
+{"what": "X2's Vol/CS role inversion", "of_which_arc": "B583/X2, FAILED as computed, corrected structure registered"},
+{"what": "LAW-E", "of_which_arc": "B585, died on hold-out, banked dead"},
+{"what": "field-containment mechanism", "of_which_arc": "preregistered and REFUTED same-arc"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["e₃ = 2cos(2π/9)/1728","τ₄ = 2⁷·3·7·97 = 260736","τ₅ = −2⁷·3⁴·5²·7²·13 = −165110400","2187 passed / 15 skipped / 2 failed"],
+"red_flags": [{"kind": "OTHER", "detail": "\"the #918 lock merged red (a process slip, owned) and fixed to 2/2 green in #919\" — a lock merged failing, violating the no-merge-without-green-locks rule."}]
+},
+{
+"date": "2026-07-14",
+"title": "## Review 18 — PRE-COMMITTED SCOPE ADDITIONS (registered 2026-07-14, owner directive)",
+"arcs": [],
+"established": "Owner-mandated scope for the next review: a provenance sweep (no external-verification pretense), a terminology sweep, and a papers-true-status check. Timing overridden: fires when the L85 campaign resolves, not mechanically at 20 merges.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": [
+"\"From day 0 to date, all work on this project has been the owner plus AI seats. No external human collaborator, no peer review, no third-party verification has occurred.\" (registered scope text, owner-directed sweep instruction)",
+"\"Timing override (owner directive, 2026-07-14): Review 18 fires when the L85 campaign RESOLVES (outcome A/B/D banked), not mechanically at 20 merges. The counter may exceed 20 in the meantime.\""
+],
+"numbers_claimed": [],
+"red_flags": [{"kind": "ABSENCE_CLAIM", "detail": "\"No external human collaborator, no peer review, no third-party verification has occurred.\" (verbatim, owner-mandated sweep scope, 2026-07-14)"}]
+},
+{
+"date": "2026-07-15",
+"title": "## REVIEW 18 — EXECUTED 2026-07-15 (fired on the L85 resolution, per the owner override)",
+"arcs": [],
+"established": "PROVENANCE.md §0 added stating all verification is INTERNAL (owner + AI seats), never external referee; TERMINOLOGY.md created glossing the full inner vocabulary; papers' true status (candidate ≠ proven ≠ publication-ready) re-affirmed.",
+"status_words": [],
+"retractions": [],
+"owner_elections_verbatim": ["PROVENANCE.md §0 (quoted in the review): \"all verification in this repository is internal — independent re-computation within the project's own toolchain by the owner and AI-assisted sessions; none of it constitutes external peer review.\""],
+"numbers_claimed": [],
+"red_flags": [{"kind": "ABSENCE_CLAIM", "detail": "same as Review 18's precommitted scope: this executed review formalizes the statement that all verification is internal, none external."}]
+},
+{
+"date": "2026-07-15",
+"title": "## REVIEW 19 — EXECUTED 2026-07-15 (the post-campaign sweep, B601–B623)",
+"arcs": ["B601","B609","B610","B611","B613","B614","B615","B616","B617","B618","B619","B620","B623"],
+"established": "In-flight corrections verified present (V1/V3 sealing errata; B609's note superseded by B611; object-naming correction propagated); sealed-protocol record complete; promotion candidates B613 (closure theorem), B617 (sign-law family theorem), B620+B623 (conductor mechanism) confirmed. Andersen–Jørgensen prior art applied to PC26 Thm 7.2's scope, the review's one required correction.",
+"status_words": ["PROVED","CORRECTED"],
+"retractions": [{"what": "B609's exploratory unit-modulus note", "of_which_arc": "superseded by B611"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": [],
+"red_flags": []
+},
+{
+"date": "2026-07-15",
+"title": "## REVIEW 19 — COMPLETION SWEEP, 2026-07-15 (the queue drained per the director's override)",
+"arcs": ["B624","B625","B626","B627","B628"],
+"established": "Silver six-exponent exterior family COMPUTED and calibrated 6/6, SEALED (B627), SM-silent null-compatible (B628); B618↔B621 observable reconciliation CLOSED (B624); reciprocity lemma RESOLVED-AS-SCOPED with a B623 bug fixed (B625); field-crossover mechanism DISSOLVED into the Jacobian reality law (B626).",
+"status_words": ["RESOLVED-AS-SCOPED","DISSOLVED","CLOSED"],
+"retractions": [],
+"owner_elections_verbatim": ["\"the director's timing override, after #997): REVIEW 19 is marked INTERIM — it ran before the campaign's task queue completed. ... The review-due counter is advisory until then per the director.\""],
+"numbers_claimed": ["p = 0.078 (one source-sensitive amplitude suggestion) vs uniformly null controls"],
+"red_flags": []
+},
+{
+"date": "2026-07-16",
+"title": "## REVIEW 20 — EXECUTED 2026-07-16 (the standard cadence; window #1003–#1034, B629–B645)",
+"arcs": ["B629","B630","B631","B632","B634","B637","B638","B639","B640","B641","B642","B643","B644","B645"],
+"established": "New theorems: cubic dichotomy, swap real structure, hearing-group theorem, twist-frame tone law + Plancherel, Galois ear, congruence-shadow theorem. New walls: typing wall 1′, flip wall. New laws: LAW OF THE CHORD'S CORE (24ζ₆, 9/9), chirality-exclusion law, unit cross-ratio law + 13-dial.",
+"status_words": ["PROVED","CORRECTED","WITHDRAWN"],
+"retractions": [
+{"what": "B638's closure overstatement", "of_which_arc": "B638, corrected in place (10-dim residual stated)"},
+{"what": "cc2's h¹ = 3 withdrawal", "of_which_arc": "propagated to TERMINOLOGY, L92 re-scope"},
+{"what": "B640's float64 first run", "of_which_arc": "discarded and rebuilt on the banked 80-dps builder"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["2011 passed, 31 skipped, then final tally 2324 passing locks + 35 skips across two passes"],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"B634: the prereg hash was NEVER recorded at sealing\" — the second instance of an omission class; hash recorded post-hoc."},
+{"kind": "OTHER", "detail": "\"the window's records used 'the external audit' for the oaudit seat — an AI seat in a read-only clone: external to the session, INTERNAL to the project. This could read as third-party verification (the E10 class).\" — fixed by rephrasing + a PROVENANCE.md §0 paragraph."}
+]
+},
+{
+"date": "2026-07-17",
+"title": "## REVIEW 21 — EXECUTED 2026-07-17 (THE CONSTITUTIONAL PILOT — first review under GOVERNANCE §15; window #1036–#1064, B646–B657)",
+"arcs": ["B646","B647","B648","B649","B650","B651","B652","B653","B654","B655","B656","B657"],
+"established": "Calibration campaign ran seal-to-closure (GATE B N=1; the C′ zero-calibration event; OUTCOME A at LOW weight). New theorems: the melody theorem + jump law (325/325) + PSL-factoring; anomaly characterization Y=½·conj; new WALL: equivariance wall (B650). DISSOLVED: the 24ζ₆ core ratio (basis-gauge, not invariant).",
+"status_words": ["PROVED","DISSOLVED"],
+"retractions": [{"what": "the 24ζ₆ core ratio as an invariant", "of_which_arc": "R20-5, dissolved — the magnitude is basis-gauge; the invariant content is the unit cross-ratio law"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["207,384 cases (pair-evenness lemma exhaustive)","license SPENT (calibration campaign)"],
+"red_flags": [
+{"kind": "OTHER", "detail": "explicit self-flagged PILOT CAVEAT: \"reviewer = author for much of this window; independence rests on the multi-seat receipt loop ... the exhaustive lock suite, and the exact artifacts, not on reviewer distance.\""},
+{"kind": "FITTED_VALUE", "detail": "\"the C2 design's 'unpublished by causality' was FALSE (JUNO's paper predated the seal by 8 months) ... both seats' '~9σ' separation tables were asserted-not-computed (actual: 0.88σ at 4/13)\" — an asserted-not-computed statistic corrected by actual computation."}
+]
+},
+{
+"date": "2026-07-18",
+"title": "## REVIEW 22 — EXECUTED 2026-07-18 (the second constitutional review; window #1066–#1093, B658–B674-open)",
+"arcs": ["B658","B659","B662","B666","B671","B672","B673","B674"],
+"established": "GOVERNANCE §16 adopted; discovery: hearing = character theory of shadows; the metallic-McKay descent E8→E7→E6 complete; THE ROGERS–RAMANUJAN RECOGNITION (doublet ratio = R(q)); the generation sum rule (two-seat).",
+"status_words": ["PROVED","MINTED"],
+"retractions": [{"what": "E12's mechanism (false 'collects-after' inference)", "of_which_arc": "withdrawn; TWO instances repaired (b353, b357)"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["2428 passed / 0 failed","SEVEN independent convergences this window"],
+"red_flags": [
+{"kind": "OTHER", "detail": "E14 MINTED — \"B480's noise-band value — corrected with a dated FINDINGS edit\"."},
+{"kind": "OTHER", "detail": "\"chained shell commands crossing cd boundaries misplaced ledger appends four times this window\" — an operational error pattern named."}
+]
+},
+{
+"date": "2026-07-18",
+"title": "## REVIEW 23 — EXECUTED 2026-07-18 (the third constitutional review; window #1095–#1145, B674–B697 + the summit dossier + VERIFY-M)",
+"arcs": ["B674","B685","B686","B687","B688","B689","B690","B691","B692","B693","B694","B695","B696","B697"],
+"established": "The generation leg closed as a terminal no-go (B685) — the object generates its being, not its hearing; arithmetic root proven (B691, totient asymmetry); mechanism named two-seat (B697, Frobenius gluing at inert 5). Koide claim firewalled (B686: Q=2/3 is a 120° parametrization tautology).",
+"status_words": ["PROVED","REFUTED","DOWNGRADE","KEEP"],
+"retractions": [
+{"what": "H1 shadow-class 'for ANY word'", "of_which_arc": "downgraded to CONJECTURE"},
+{"what": "the {3,5} source misread (E15)", "of_which_arc": "B685, corrected — manufacturing a spurious hearing-prime out of powers of 3"},
+{"what": "opposite Atkin-Lehner signs read as emergent chirality (E16)", "of_which_arc": "B695, corrected/S067 row 3 falsified — a generic even-rank fact"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["cc2's §6 status pass: 36 hearing/chord LAW_MAP rows — 28 KEEP / 8 DOWNGRADE"],
+"red_flags": [{"kind": "OTHER", "detail": "Recurring class named: \"over-reading a generic feature as special\" (E15, E16) — both caught two-seat in-window."}]
+},
+{
+"date": "2026-07-19",
+"title": "## REVIEW 24 — EXECUTED 2026-07-19 (the fourth constitutional review; window #1147–#1166, B698–B706 + the fiber-functor program + the seam + the Listening Protocol)",
+"arcs": ["B698","B699","B700","B701","B702","B703","B704","B705","B706"],
+"established": "B701 turned the observer-coupling thesis into a THEOREM: measurement = a fiber-functor Galois torsor, provably non-canonical. B706 ran the deepest door (rung-2 structural comparator) → NO-MATCH (wall 11): SM flavor is generic and continuous where the object's freedom is discrete.",
+"status_words": ["PROVED","REFUTED","NO-MATCH"],
+"retractions": [
+{"what": "B702's swap-law conflation (swap vs weld)", "of_which_arc": "B702, self-caught by cc2, corrected (E17)"},
+{"what": "my B701 solo verdict", "of_which_arc": "contested by cc2, then CONVERGED"},
+{"what": "the Turok CPT resonance", "of_which_arc": "refuted in S068"},
+{"what": "chat1's θ₀ over-read (7σ)", "of_which_arc": "corrected to 0.89σ, kept firewalled"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": [],
+"red_flags": [{"kind": "OTHER", "detail": "Hash-first provenance caveat: squash-merge workflow co-lands PREREG and FINDINGS in one commit, so seal-before-verdict is not independently git-provable per arc (disclosed, later fixed in Review 24-5)."}]
+},
+{
+"date": "2026-07-20",
+"title": "## REVIEW 25 — EXECUTED 2026-07-20 (the fifth constitutional review; window B707–B719 — the \"physics of the object\" clarification + the meeting-point + the child)",
+"arcs": ["B707","B708","B709","B710","B711","B712","B713","B714","B715","B716","B717","B718","B719"],
+"established": "The observer-coupling thesis completed as a physics-of-the-object clarification: the object is timeless/vector-like/valueless/incomplete BEING; chirality, values, time/4d/Lorentzian, the spatial manifold, and multiplicity/scale are ALL the observer's closings. Zero physics promotions.",
+"status_words": ["PROVED","REFUTED","GENERIC"],
+"retractions": [
+{"what": "ℤ/5=hearing over-read", "of_which_arc": "conceded + verified b₁=0 (integer-5 vs field-ℚ(√5) conflation)"},
+{"what": "\"h=3=INHERITED\" over-read", "of_which_arc": "corrected — control resolved it GENERIC"},
+{"what": "B715-T7's orientation-inverts-ℤ/11 premise", "of_which_arc": "refuted → banked INCONCLUSIVE"},
+{"what": "B719 probe-2's \"d=6 homologically forced\" and \"unbounded\" claims", "of_which_arc": "caught and corrected"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": [],
+"red_flags": [{"kind": "OTHER", "detail": "NEW class E18 minted: \"workflow-artifact provenance under degradation\" — a compute agent's _out.txt carried verdict text its committed script did not generate, and silently failed the h=3 control (auto-generated output ≠ its script) — caught by a skeptic and repaired."}]
+},
+{
+"date": "2026-07-20",
+"title": "## REVIEW 26 — EXECUTED 2026-07-20 (THE HONEST CLOSING — the SM-bridge hope closed by the program's own base-rate discipline; window #1189–#1211, B720–B729)",
+"arcs": ["B720","B721","B722","B723","B724","B725","B726","B727","B728","B729"],
+"established": "The specific hope that the object encodes the Standard Model was HONESTLY CLOSED: the E₆-across-three-faces structural claim, when finally base-rate tested (B727), came back GENERIC, two seats independently. Born rule's arithmetic stratified: FORM+WEIGHTS are the object's forced-native quadratic fields; AMPLITUDES/PHASE/associator are quartic golden-MTC overlays (quantum content) NOT from the object.",
+"status_words": ["PROVED","GENERIC","CLOSED"],
+"retractions": [
+{"what": "cc's first-pass dismissal of three correspondences by citing banked negatives as refutation (E19)", "of_which_arc": "B724, owner-caught (\"some banked negatives are malinformed\"), corrected by re-audit"},
+{"what": "the flagship E₆-structure claim's never-tested status (E20)", "of_which_arc": "B727, self-audit run, came back generic"},
+{"what": "D₄=Isom(4₁) base-rate trap", "of_which_arc": "killed, E20"}
+],
+"owner_elections_verbatim": ["the owner chose to DEFER the TOP-LEVEL DISPOSITION statement (whether to state the SM-bridge closing at top level) — pursue the remaining math doors instead (owner election, R26-4)"],
+"numbers_claimed": [],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"some banked negatives are malinformed\" — direct owner quote catching a reviewer error (E19: adjudication by cited negative)."},
+{"kind": "OTHER", "detail": "process slip disclosed: \"B729's findings commit landed DIRECTLY on main rather than via a feature-branch PR — a branch-state confusion during banking.\""}
+]
+},
+{
+"date": "2026-07-21",
+"title": "## REVIEW 27 — EXECUTED 2026-07-21 (THE THREE-SEAT ERA — the hunt, the collisions, the forged signals, the mutual-correction lattice; window #1212–#1237, B737–B744)",
+"arcs": ["B737","B738","B739","B740","B741","B742","B743","B744","B745","PC27","P018"],
+"established": "Character-rigidity theorem (B739: continuous spectrum carries exactly ζ_K and nothing else, 54/54, 0/3); voice-as-exact-zeta-quotient identity (B737); B288 census earned two-seat (B740, 78/78); WALL-1 and S014 stand on computation (B742); two REVIVALS pending cross-verify (B58, B225).",
+"status_words": ["PROVED","RETRACTED","REVIVED"],
+"retractions": [{"what": "B731's \"non-congruence\" claim (m004 knot at level 8)", "of_which_arc": "B731, RETRACTED — a shallow level-check (E22); B734 shows m004 IS congruence at level (2)³=(8)"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["217 classified, audited 0/3","160/162 no-emittance, 0 scattering","nine forged workflow signals at cc3, all caught"],
+"red_flags": [
+{"kind": "OTHER", "detail": "Nine forged workflow signals (journal-only result channel + disk-written verdicts + nonce probes) at cc3, all caught — countermeasures adopted."},
+{"kind": "OTHER", "detail": "cc2's own-goal: 20 false lindep witnesses caught by its own exact cross-check (unbounded-coefficient false witnesses, proposed as a standing rule)."}
+]
+},
+{
+"date": "2026-07-22",
+"title": "## Review 28 — 2026-07-22",
+"arcs": ["B745","B746","B747","B748","B749","B750","B751","B752","B753","B754","B755","B756"],
+"established": "Three independent arcs (census triple B747/748, lack ledger B750, genesis forks B749) converge on: the object provides the group but never the choice, the structure but never the variation, the gait but never the name. Golden ledger (B746): 10/12 FORCED. B756: the B699 general gloss REFUTED (six counterexamples across two seats).",
+"status_words": ["PROVED","REFUTED","CLOSED"],
+"retractions": [{"what": "B699's general gloss", "of_which_arc": "B756, refuted by six counterexamples, scope-corrected in place"}],
+"owner_elections_verbatim": ["\"GATE 5-Q ADOPTED (#1248, owner red pen + cc3 concurrence + cc2 compliance in B756)\" — the phenomenology firewall with the comparator-object control and the any-domain value-claim rule."],
+"numbers_claimed": ["10/12 FORCED (golden ledger)","|B₀₀|² = 1−p = 1/(φ√5)","JUNO one-number pin stays 0.30902"],
+"red_flags": []
+},
+{
+"date": "2026-07-23",
+"title": "## Review 29 — 2026-07-23",
+"arcs": ["B757","B758","B759","B760","B761","B762","B763","B764","B765","B766","B767","P020"],
+"established": "C18 priced (\"a transparent, self-naming, integrated speaker that cannot choose\"); C19 minted then SCOPE-CORRECTED SAME-DAY by a sealed out-of-field prediction (B764) — \"the chain's first self-correction, its falsifiability demonstrated by use.\" B765 completes the hunt: P1 earned / P2 spectral / P3 depth.",
+"status_words": ["PROVED","SCOPE-CORRECTED"],
+"retractions": [{"what": "C19's original form", "of_which_arc": "scope-corrected same-day by B764's sealed out-of-field pair-separation law"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["full suite 2730/0","slow tier's first full execution 102/0 (2h45m)","13 locks sampled across two audits: 11 fired, 2 found blind and repaired"],
+"red_flags": []
+},
+{
+"date": "2026-07-24",
+"title": "## Review 30 — 2026-07-24",
+"arcs": ["B766","B768","B769","B770","B771","B772","B773","B774","B775","B776","B777","B778"],
+"established": "Closure Program census (B770: 352 items, 16 unearned closures caught by the adversarial pass); Phase 1 (B771) net-banked 38/44 targets; methodological thread (B772→774) produced a blind-projection finding (E26) and one real overturn (W4-304); B685 (B776) corroborated and upgraded from cited-by-title to reconstructed depth 105.",
+"status_words": ["PROVED","OVERTURNED","CORROBORATED"],
+"retractions": [{"what": "W4-304's θ-odd sector trace read as zero", "of_which_arc": "overturned — the trace read tr_odd=1/4"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["352 items, six sealed states, 16 unearned closures","38 of 44 targets across 5 waves","depth 105 (3¹⁴⁶@100 anchor reproduced from first principles)"],
+"red_flags": [{"kind": "OTHER", "detail": "\"LATIN forcing-overclaim caught and downgraded (B772-class); W3-082c false chord-positive caught (B773)\" — two overclaims caught this window."}]
+},
+{
+"date": "2026-07-25",
+"title": "## Review 31 — 2026-07-25",
+"arcs": ["B778","B780","B781","B782","B783","B784","B785"],
+"established": "Structural spine completed (B778 7/7; the T1-mover WALL; m003 sister-distinction B781). Chain grew to C21/C22/C23 then self-corrected: C22 DEMOTED to [COROLLARY], C23's vacuous lock replaced with falsifiable facts, C21's mechanism corrected. The B784 self-audit produced 5 retractions/demotions and MINTED E27 (disconnected verdict).",
+"status_words": ["PROVED","DEMOTED","RETRACTED","CORRECTED"],
+"retractions": [
+{"what": "C22 (no-canonical-closing)", "of_which_arc": "demoted to [COROLLARY] (its cell verified a definition)"},
+{"what": "C23's lock (vacuous)", "of_which_arc": "replaced with falsifiable facts"},
+{"what": "C21's mechanism (θ-conflation: labeled a c-odd imaginary tangent as θ-odd)", "of_which_arc": "corrected 2026-07-25; the discrete-T1 theorem itself unchanged"},
+{"what": "B780 gate vacuous; the non-Galois motif wrong; the false \"independently\" claim", "of_which_arc": "B784 self-audit, 5 total retractions/demotions"}
+],
+"owner_elections_verbatim": ["owner scrutiny surfaced through-line: \"every defect this session came from work cc both produced AND self-verified; the agent layer and the owner caught them all.\""],
+"numbers_claimed": ["6 genuine theorem-grade results promoted to LAW_MAP this window"],
+"red_flags": [
+{"kind": "OTHER", "detail": "the θ-conflation appeared THREE times, most seriously in the merged chain link C21 — a recurring cross-cutting defect class."},
+{"kind": "OTHER", "detail": "E33 minted: \"cc over-applied the [verify-in-sandbox] rule and discarded a correct computation of its own in deference to an unverified cc3 refutation.\""}
+]
+},
+{
+"date": "2026-07-29",
+"title": "## Review 32 — 2026-07-29 (THE VIEW-REFRESH REVIEW; window B788–B797 + the context re-read; anchor-commit: `605d211b`)",
+"arcs": ["B788","B789","B790","B791","B793","B794","B795","B796","B797","B798","B802"],
+"established": "m004's Maass spectrum now exists where the literature had none. The SM null is NOT evidence (rung 4 is DEAD ON ARRIVAL per LISTENING_PROTOCOL §1). views-fresh gate failed on all six navigation views on first run (MASTERPLAN 25 days/~55 arcs stale). Six new error classes E28-E33 minted.",
+"status_words": ["PROVED","VERIFIED","RETRACTED"],
+"retractions": [
+{"what": "cc's H-B788-NORMSPLIT result", "of_which_arc": "cc retracted its own CORRECT result by discarding its own right computation in deference to an unverified refutation"},
+{"what": "README's description of B152–B230 as \"the frontier\"", "of_which_arc": "stale by ~570 arcs; refreshed and put inside the views-fresh gate"},
+{"what": "the law-harvest filter's case-sensitive regex (missed lowercase 'theorem')", "of_which_arc": "corrected filter: 123 candidates not 28; 105 remain unread"},
+{"what": "B471's harvested-theorem attribution dropping its own classical-provenance scruple (Cohn 1955)", "of_which_arc": "corrected in the row and lock's docstring"},
+{"what": "papers/P2_trinity/THEOREMS.md Theorem 5's physics-frame SM-ratio clause", "of_which_arc": "already cut from PAPER.md; the companion file had drifted; fixed"}
+],
+"owner_elections_verbatim": ["owner challenge: \"what about readme and all other mds\" prompted the full 1928-.md survey.", "owner: \"redigest the whole repo md files\" prompted the whole-corpus digest.", "owner: \"another verification swipe\" (R32-12, vacuity sweep)."],
+"numbers_claimed": ["views-fresh gate: MASTERPLAN 25 days/~55 arcs stale","five documented id-collisions, two created in one session","E21 fired three times total","2941 passed / 35 skipped / 0 failed (compaction campaign)","κ measured at 0.842","law-harvest: 123 candidates not 28; 105 unread"],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"cc announced a congruence 'discrepancy' that never existed. E23 had dispositioned it; Chat-1 resolved it from banked data. cc handed another seat a non-problem.\""},
+{"kind": "OTHER", "detail": "8 unconditionally-passing tests found and repaired (R32-12), including a cross-seat check comparing two hand-typed copies of the same dict, and an F11 lock naming a directory that does not exist."}
+]
+},
+{
+"date": "2026-07-30 (approx, undated in text)",
+"title": "## Review 33 — the absorption review (anchor-commit: `c5dc95c1`)",
+"arcs": [],
+"established": "The claim ledger is enforced (CLAIMS.md 100% gated); LAW_MAP is NOT (113 rows, only 5=4% cite a test lock, no gate references LAW_MAP at all — decided: an UNENFORCED INDEX). THE CHAIN violated its own admission rule: 5 links cited locks only in prose, unverifiable by any gate. The bottleneck-bypass oracle (atlas query.py) was reachable from nowhere in the docs. The generated front door (REVIEWER.md) was UNREACHABLE, linked from nothing.",
+"status_words": ["DECIDED"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["LAW_MAP: 113 rows, 5 = 4% locked","THE CHAIN: 23 links — 8 explicit, 11 prose, 4 with none","verdict coverage 756 of 810 arc ids"],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"It was mentioned in zero of WORKING_RULES, README, METHOD, PRACTICES.\" (the atlas query.py oracle)"},
+{"kind": "ABSENCE_CLAIM", "detail": "\"docs/views/REVIEWER.md was built this session and linked from nothing.\""},
+{"kind": "OTHER", "detail": "\"THE CHAIN's stated bar is 'exact statement + banked computation location + green lock'. Five links cited locks only in prose ... which no gate can verify and no reader can run.\""}
+]
+},
+{
+"date": "n/a (undated in text)",
+"title": "## Review 34 — the instrument review (anchor-commit: `8e605c09`)",
+"arcs": ["B803","B804","B805","B806","B807","B808","B809","B810","B811","B816","B817"],
+"established": "SEVEN instrument failures in one session, none in the mathematics (face classifier precision 0.45, atlas lexicon frozen since 2026-07-01 blind to 409 arcs, a lexicon extractor returning process vocabulary, an empty-cell 'programme' where 34/35 cells were artifact, a falsifier excluded by a literature theorem, a mislabeled suite HEAD, a fan-out arg list with 9/300 wrong IDs). The object's description has 3 axes; only the proved one (WHICH CLOSING, B733/B766) is recorded in no instrument.",
+"status_words": ["FAILED","PROVED","REFUTED"],
+"retractions": [{"what": "cc's own empty-cell \"programme\" proposal", "of_which_arc": "B808 refuted it — 34/35 cells margin artifacts, survivor below chance"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["face classifier precision 0.45, exact-set 13%","κ = 0.842","163/198 cells populated, top-5 share 0.168, mutual information 0.031","verdict coverage 4.1% → 42.6% (317/744)","faces with no proved arc 6 of 11 → 1","forcing edges ~19 → ~47"],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"Not one failure was in the mathematics. Every one was in a tool used to survey it, and every one was caught the same way — by scoring the instrument against something already known.\""},
+{"kind": "OTHER", "detail": "\"The only axis proved complete is the only one recorded in no instrument.\""}
+]
+},
+{
+"date": "n/a (undated in text)",
+"title": "## Review 35 — the correction lattice, and where my predictions actually fail (anchor-commit: `33a28541`)",
+"arcs": ["B812","B814","B817","B818","B819","B820","B821","B822","B823","B824","B825","B826","B827","B830","B831","B832","B834"],
+"established": "Self-calibration: \"About the object: 2 of 2 [predictions right]. About my own instruments: 2 of 4.\" A third of the window's arcs (5/15) were corrected by a later arc in the same window. Sealed criteria caught a wiring bug rather than a quality defect (B821). Two vacuity ceilings killed two motifs before one passed.",
+"status_words": ["FAILED","CORRECTED","RETRACTED"],
+"retractions": [
+{"what": "B225's p=2 criterion (vacuous)", "of_which_arc": "B225 → RETRACTED (B831); octahedral-parent question returns to OPEN; survivor kept"},
+{"what": "B58_sl4_tower_test (never had a verdict; wave 2 skipped it as ambiguous)", "of_which_arc": "B58 → RETRACTED from its own correction header"},
+{"what": "Finding 7's claim that ROADMAP.md is a duplicate file", "of_which_arc": "self-corrected in the same review (R35-8): NOT a duplicate — zero shared headings; false banner removed"}
+],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["κ = 0.9305 then 0.9300 (waves 3a/3b)","κ = 0.8732 (B842)","coverage 756 of 810 arc ids","79 declined as none"],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"A lock pinned to a superseded literal tests the past, not the invariant.\" — five locks re-anchored this window because they asserted on state legitimately changed."},
+{"kind": "OTHER", "detail": "\"Two navigation documents exist under the same name, and the review that flagged the problem committed it.\" (ROADMAP.md at root vs docs/ROADMAP.md, confused by the reviewer mid-review, caught by the views-fresh gate)."},
+{"kind": "OTHER", "detail": "\"I generalised from a filename count without checking its composition — B819's own lesson, committed two arcs after writing it down.\""}
+]
+},
+{
+"date": "n/a (undated in text)",
+"title": "## Review 36 — my predictions failed 60 % of the time, in two opposite directions (anchor-commit: `a3ccd97d`)",
+"arcs": ["B821","B822","B824","B825","B827","B830","B832","B833","B834","B837","B839","B841","B842","B844","B846"],
+"established": "6 of 10 sealed predictions failed, cleanly split: over-confident about own constructions (B821, B824 failed), under-confident about reader panels (B832, B834, B841, B842 all beat low expectations). Three more gates found fail-open by drift. \"The spectral paper, still finished and unshipped\" was FALSE — no spectral paper exists.",
+"status_words": ["FAILED","CORRECTED"],
+"retractions": [{"what": "\"the spectral paper, still finished and unshipped\" (repeated ~6 times this session)", "of_which_arc": "no such paper exists; papers/P5_monoid/ is a 1745-byte outline of a different (monoid) paper"}],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["κ history: 0.9312 / 0.9305 / 0.9300 / 0.8732","B841's fact_computed true: predicted ≲35%, actual 70.7%","eigenvalues_final.json carried 6 of 17 certified eigenvalues (silent truncation)"],
+"red_flags": [
+{"kind": "ABSENCE_CLAIM", "detail": "\"There is no spectral paper.\" Also a fabricated companion number repeated: \"43 eigenvalues to r = 13.5\" belonging to cc3's B792 (not in main); main has 17, to r = 9.84."},
+{"kind": "OTHER", "detail": "\"B837's file-drawer lock caught ME creating a file-drawer entry — two commits after I wrote it.\" First time a lock caught a NEW instance of the defect it was written to describe."},
+{"kind": "OTHER", "detail": "three gates found fail-open by drift: atlas-lexicon-current (self-referential ceiling), log-changelog-paired (watched a file nobody wrote, timestamp froze), review-actions (regex stopped at first continuation line, reported 0 open items when there were 13)."}
+]
+},
+{
+"date": "2026-08-03",
+"title": "## Review 37 — 2026-08-03 (merges 1–46 from Review 36; the SM-structure / First-Measurement window)",
+"arcs": ["B848","B863","B866","B868","B869","B870","B871","B872","B873","B874","B875","B876","B877"],
+"established": "First Measurement Theorem candidate (two-seat, every clause exact, no floating point) — \"the strongest promotion candidate the mathematics lane has ever had\"; termination theorem (B863, SM as terminal registerable algebra); lift-obstruction theorem (B870, H²=0); THE DESCENT (B876): each breaking's matter = exactly one SM generation's multiplet pattern.",
+"status_words": ["PROVED","CANDIDATE"],
+"retractions": [],
+"owner_elections_verbatim": [],
+"numbers_claimed": ["3377 passed, 0 failed, 35 skipped (53:04)","797 arc dirs","26 PROVED, 3 banked NEGATIVE this window","H²(π₁(m004); A) = 0 for every A"],
+"red_flags": [{"kind": "OTHER", "detail": "\"B877's arc_verdict.json was missing — the banking chain died at a failing lock before the verdict step, and the successful retry skipped it.\" Lesson: a multi-step banking chain retried after failure must re-run ALL steps, not resume from memory."}]
+},
+{
+"date": "2026-08-05",
+"title": "## Review 38 — 2026-08-05 (merges 1–30 from Review 37; the meditation / capstone / flavor window)",
+"arcs": ["B890","B891","B892","B893","B894","B897","B898","B899","B902","B904","B906","B907"],
+"established": "B904: the build IS M(𝕆,ℂ) by explicit exact isomorphism (0/3003; det φ=−2/3) — the strongest candidate this window. Second Measurement Theorem (B892+893, two-seat). B897 sealed generation-shaped verdict (outcome A at two primes, mechanism fence pre-stated).",
+"status_words": ["PROVED","NEGATIVE"],
+"retractions": [],
+"owner_elections_verbatim": ["Protocol amendment (2026-08-05, owner audit): terminology sweep and hint-ledger sweep added as mandatory items to every review's checklist, plus mid-window README/views updates on phase-boundary events."],
+"numbers_claimed": ["3499 passed, 5 failed, 35 skipped (58:53); all 5 failures hygiene, fixed, 15/15 rerun green","det φ = −2/3","0/3003 (B904 isomorphism check)"],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"an invented 'COMPUTED' verdict was caught by the wellformedness suite and corrected to house vocabulary.\""},
+{"kind": "OTHER", "detail": "two infrastructure bugs caught by verify-don't-trust applied to own tooling: \"the B902 certificate save-path shadowing; the B904 unnormalized tensor store that silently dropped a bracket slot\" — silent data loss in a certificate/tensor store."}
+]
+},
+{
+"date": "2026-08-05",
+"title": "## Review 39 — 2026-08-05 (merges 1–24 from Review 38; the register/crossing/value-layer window)",
+"arcs": ["B907","B908","B909","B912","B914","B915","B916","B918","B919"],
+"established": "Value layer theorem cluster: unimodularity + twist-norm law + One-Class + observer's place (B916+B918). Gate 5's door opened under seal twice this window: B912 LOST (sealed prior), B915 WON — \"the first\" — both directions now live-verified.",
+"status_words": ["PROVED","LOST","WON","MISS"],
+"retractions": [],
+"owner_elections_verbatim": ["Protocol amendment (2026-08-06, from B926's autopsy): THE HEMISPHERE CHECK — \"Every prereg that consumes banked structure must TYPE each consumed piece by its owning hemisphere ... A cross-hemisphere graft must cite a banked license for the transfer or the prereg must not seal. (Both dead crossings were unlicensed grafts; both banked doctrines had said so in advance — this question makes that knowledge enforceable.)\""],
+"numbers_claimed": ["3539 passed, 3 failed, 35 skipped (1:16:54); 3 failures were window hygiene, fixed, 14/14 rerun green"],
+"red_flags": [{"kind": "OTHER", "detail": "\"Both dead crossings were unlicensed grafts\" — cross-hemisphere structure transfers had been made without a citable license, only caught retroactively by the new Hemisphere Check rule."}]
+},
+{
+"date": "2026-08-07",
+"title": "## Review 40 — 2026-08-07 (merges 1–29 from Review 39; the crossings / question-wave / precedent-number window)",
+"arcs": ["B909","B913","B914","B922","B925","B928","B929","B931","B933","B935","B936","B937","B940","B941"],
+"established": "Suite failures were, for the first time, REAL discipline failures rather than cosmetics: a NEGATIVE-verdict arc (B935) absent from the kill graph; a sealed prereg (B913) with no report; and a hardcoded machine path INSIDE the sentence describing Review 39's own path-scrub fix. B940's O3 gate (no 'first' claims until MathSciNet-grade sweep) worked but was applied only prospectively.",
+"status_words": ["PROVED","MISS","CORRECTED"],
+"retractions": [{"what": "B941's first draft naming 5¹² as \"the golden power\"", "of_which_arc": "B941, corrected — B937 had already decided the golden field does not enter (5 is a residue characteristic), four independent ways; a refuted reading crept back in and was caught by the hint ledger"}],
+"owner_elections_verbatim": ["\"the owner's late-window directive sharpened the protocol — future crossings must be phrased at the branch-symmetric, ratio-only layer\"", "owner framing interventions quoted: \"we're not hunting values but ratios\", and \"all branches computed together\""],
+"numbers_claimed": ["3594 passed, 3 failed, 35 skipped (1:26:27), all 3 real discipline failures","B915 MISS 16σ","B929 HIT-SHAPE, wrong magnitude 5–9×","B925 OUTCOME B"],
+"red_flags": [
+{"kind": "OTHER", "detail": "\"A gate that binds only future arcs is not a standard, it is a mood.\" — B922 had already banked \"the first 25-digit Maass eigenvalue on any hyperbolic 3-manifold\" (an unqualified priority sentence) before the O3 gate existed; the equivalent adversarial panel is dispatched but has not yet landed; \"until it lands, B922's sentence is flagged, not defended.\""},
+{"kind": "OTHER", "detail": "\"a reproducibility bar measures the instrument's determinism, not the object's spectrum\" — B940's P3 control showed a two-Y reproducibility bar passed on pure instrument determinism at three decoy positions."},
+{"kind": "OTHER", "detail": "\"positivity was assumed a THIRD time this week, which is now a pattern rather than an incident\" (agents self-reporting failures)."}
+]
+}
+]
+}

@@ -1,0 +1,76 @@
+{
+ "batch": "arcs_080",
+ "arcs": [
+  {
+   "arc": "B796_coupling_campaign",
+   "source": "audit/b775-braver-questions",
+   "files_read": [
+    "WAVE1_FINDINGS.md",
+    "cell9_sec16_verdict3.md",
+    "functor_obstruction/FINDINGS.md",
+    "functor_obstruction/CLAIM_DROP_ADJUDICATION.md",
+    "loss_audit/THE_LOSS_LEDGER.md",
+    "charge_quantisation/FINDINGS.md",
+    "tau_vs_singlet/FINDINGS.md",
+    "z6_line_spectrum/FINDINGS.md",
+    "h1_consumed/FINDINGS.md",
+    "scale_weight_ledger/FINDINGS.md",
+    "s4_closing_types/FINDINGS.md (head)",
+    "log_index/B796.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [
+    "anatomy/plate_0_the_thing.png", "anatomy/plate_A_modes.png", "anatomy/plate_A_modes_canonical.png",
+    "anatomy/plate_B_voice.png", "anatomy/plate_C_bones.png", "anatomy/plate_D_spectrum.png",
+    "anatomy/plate_E_body.png", "anatomy/plate_F_frame_0.png..plate_F_frame_5.png", "anatomy/plate_F_motion.png",
+    "anatomy/plate_G_twins.png", "anatomy/plate_H_cover.png", "anatomy/plate_I_wall.png",
+    "anatomy/plate_J_null.png", "anatomy/plate_K_cascade.png", "anatomy/plate_M_faces.png"
+   ],
+   "claim_of_record": "no verdict file (has_verdict: false, no root arc_verdict.json; the arc's most authoritative internal artifact is loss_audit/THE_LOSS_LEDGER.md, which states the whole 44-artifact corpus is unharvested onto main, and cell9_sec16_verdict3.md, a PASS-WITH-CONDITIONS non-authoring review of the Cell 9 rung(i) prereg with execution held on 5 open conditions C2-C7)",
+   "log_says": "PROGRESS_LOG (Review 32, 2026-07-29): 'B796's falsifier and the Bost-Connes harvest' are cited as landing on rung-1 algebraicity; R32-14 records 'B796 in flight, not harvestable' as of that review",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "Cell 1 GH-ladder: 43 distinct spectral eigenvalues r<13.5, 4 parent forms, three pre-stated GH rungs confirmed (r=11.00811336, 12.50010017, 13.29316271)", "where": "WAVE1_FINDINGS.md CELL 1; scanE/scanF scripts not in this file list", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "FINDINGS describes exact numeric outputs and a corroboration base-rate (9.5e-5) but the scanning scripts/witnesses that produced the 26 stable eigenvalues are not among the files this packet lists as committed at these paths (only cell9_* and boundary/other-cell scripts are present); cannot confirm reproducibility from what was read"},
+    {"what": "Cell 2 Bianchi-Hecke gate: raw lambda_pi7 approx 0 on 3 certified mult-1 newforms; level-1 Steil lift excluded via r_K=2*r_Q (r=19.067 > 13.5 ceiling)", "where": "WAVE1_FINDINGS.md CELL 2; cell2_hecke_gate.py/.txt, cell2_api_census.py/.txt/.json, cell2_gate_results.json all FULL-mode files in the packet", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "script + txt/json outputs are all present in the file list as committed artifacts, giving an exact numeric trail (though the base-change normalization is asserted from Then's 'published Picard table', an external, uncommitted source)"},
+    {"what": "Cell 3 spin fork: rho_1 (Riley lift) non-Lie under both sign conventions => Dirac spectrum discrete", "where": "WAVE1_FINDINGS.md CELL 3; cell3_spin_fork.py/.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact sympy computation with committed script and .txt witness; convention-dependent half (C1-vs-C2 sign dictionary) explicitly flagged as an unresolved literature lookup, not assumed"},
+    {"what": "Cell 9 rung(i) v3 prereg power-box and bracket-safety numbers (Delta_lambda=1.41e-25, H_max~348, sv-tail nullity-1 certification)", "where": "cell9_sec16_verdict3.md; CELL9_RUNG1_PREREGISTRATION_v3.md; cell9_rung1_v2.py (SAMPLE_CODE)", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "verdict3 explicitly states execution is BLOCKED on conditions C2-C7 (non-convergence abort not implemented, shakedown JSON unlabeled, stale prereg stamp, lam_1 guard missing, cited second-pass verdict cell9_sec16_verdict2.md 'exists nowhere in the repo', and the mandated end-to-end smoke test never completed -- cell9_shakedown_log.txt stops after 'n = 782 modes'); the actual rung(i) eigenvalue run has NOT been executed"},
+    {"what": "Charge quantisation congruence t/3+d/2+Y = 0 (mod 1) holds for all 7 SM multiplets and fails for 3 control cases", "where": "charge_quantisation/FINDINGS.md; charge_quantisation.py (FULL)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "script and table both present; explicitly scoped as DERIVED-GIVEN-B862/P5, not unconditional, and explicitly not a hypercharge normalization claim"},
+    {"what": "Z6 line-operator spectrum: 4 distinct magnetic-flux signatures across candidate global forms, minimal monopole gcd=1", "where": "z6_line_spectrum/FINDINGS.md; z6_lines.py (FULL)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "asserted-in-code per the file; explicitly scoped as untested against any observation (no monopole detected) and inherits B862's ZL6 derivation as given"},
+    {"what": "tau vs <1>!=0: the closing-resource count is FIVE not FOUR; S4's 'saturated' interface claim is withdrawn", "where": "tau_vs_singlet/FINDINGS.md; tau_vs_singlet.py (FULL)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "computed rank-removal and complex-generation discriminants for tau vs <1>; this is a SUPERSEDING correction of s4_closing_types/FINDINGS.md, and unlike many arcs in this campaign the correction WAS propagated back into the superseded file's own header (checked: s4_closing_types/FINDINGS.md carries a 2026-08-10 correction banner) -- so NOT flagged SUPERSEDED_UNMARKED"},
+    {"what": "Arithmeticity forces the H1 3-rank-1 'rank wall': m in {1,2} (arithmetic, per B125, independently reverified here) intersect 3|m = empty, so 3-rank(H1)=1 is forced for any arithmetic metallic-bundle member", "where": "h1_consumed/FINDINGS.md; rank_wall_scope.py (FULL)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "closed-form H1=Z(+)(Z/m)^2 derived and verified against SnapPy-constructed bundles at m=1..4; invariant trace fields computed exactly via Sage find_field; a live bug in an intermediate run (snappy homology().rank() total-generator-count vs free-rank) is disclosed and corrected in the same file"},
+    {"what": "Weight ledger: 7 weight-0 dimensionless combinations of lambda_2, lambda_parent, vol, systole computed to stated precision (e.g. lambda_2*vol^(2/3)=40.09672678450524360655)", "where": "scale_weight_ledger/FINDINGS.md; weight_ledger.py (FULL)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-checks lambda_2 against a banked value (B922); the file itself flags a look-elsewhere hazard it created and explicitly forbids informally testing these 7 numbers against physical constants outside a fresh sealed preregistration -- an unusually disciplined self-warning, but also evidence the numbers are attractive targets for exactly the FITTED_VALUE failure mode this seat watches for"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "has_verification_dir=false at the packet level, but the arc is internally saturated with non-authoring review passes (cell9_sec16_verdict, verdict2 [cited but missing from repo], verdict3 'third pass delta review'; functor_obstruction's CLAIM_DROP_ADJUDICATION re-auditing cc3's own prior claim-drop sweep) -- these are re-reads/critiques of claims, not independent recomputations of the underlying numbers, except where a verdict recomputes a specific number (e.g. verdict3 independently recomputes the power-box Delta_lambda chain).",
+   "absence_claims": [
+    {"quote": "frontier/B909* DOES NOT EXIST (no dir, no FINDINGS, no test), while B915 (the crossing, the sealed 16sigma MISS in the README) CONSUMES the 3/8 as its boundary condition", "where": "loss_audit/THE_LOSS_LEDGER.md:14-16 (L1)"},
+    {"quote": "the sealed v3 cites \"Second-pass verdict: cell9_sec16_verdict2.md\" -- that file exists nowhere in the repo", "where": "cell9_sec16_verdict3.md:26 (charge 6)"},
+    {"quote": "The mandated smoke test is not evidenced: cell9_shakedown_log.txt stops after \"n = 782 modes\" -- no completed end-to-end run exists on disk (C7)", "where": "cell9_sec16_verdict3.md:23"},
+    {"quote": "main's SEAL_LEDGER records NONE of the four hashes (8424a335, da516046, 3ba81779, 169e9042), and B796 was never reserved", "where": "loss_audit/THE_LOSS_LEDGER.md:58-60 (L5)"},
+    {"quote": "The B796 campaign corpus -- 44 artifacts, 100% unharvested. Main advertises the campaign (CAMPAIGN_STATUS:1432) and prices its falsifier (B798) while holding none of its logic", "where": "loss_audit/THE_LOSS_LEDGER.md:63-65 (L6)"},
+    {"quote": "Zero footprint on main beyond relay paraphrase", "where": "loss_audit/THE_LOSS_LEDGER.md:83-85 (L7, re: the Hecke-abort and spin-fork negative results)"},
+    {"quote": "certify_mode_count.py (the certification every \"certified\" claim rests on)... [is] branch-only", "where": "loss_audit/THE_LOSS_LEDGER.md:87-93 (L8)"},
+    {"quote": "B878 banked my relay's datasets and dropped its section 4.5 open items... all now single-occurrence strings in RELAY_AS_RECEIVED.md", "where": "loss_audit/THE_LOSS_LEDGER.md:100-102 (L9)"},
+    {"quote": "THEOREM_REGISTRY/THEOREM_LEDGER carry ZERO B8xx/B9xx rows", "where": "loss_audit/THE_LOSS_LEDGER.md:109-110 (L10)"},
+    {"quote": "Born content has NO register row anywhere", "where": "loss_audit/THE_LOSS_LEDGER.md:116-117 (L10)"},
+    {"quote": "B845 proved the \"finished and unshipped\" spectral paper never existed", "where": "loss_audit/THE_LOSS_LEDGER.md:122-123 (L11)"},
+    {"quote": "No measurement enters and nothing is compared to data", "where": "charge_quantisation/FINDINGS.md:5 (self-scoping, not a repo absence claim but a disclosed structural limit)"},
+    {"quote": "No monopole has been observed. None of F1-F4 is currently tested.", "where": "z6_line_spectrum/FINDINGS.md:114-115"},
+    {"quote": "the framework supplies no mass scale for these objects... no monopole mass is predicted and none can be", "where": "z6_line_spectrum/FINDINGS.md:127-129"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "The only progress-log entry indexed for this arc (Review 32, 2026-07-29) records B796 as 'in flight, not harvestable'; the arc's own internal loss-audit (dated 2026-08-05, after the log entry) states the full 44-artifact corpus, including negative/refuting results (Hecke abort, level-1-lift exclusion, spin fork) that could correct main's public claims, was never re-triaged after landing and remains 100% unharvested onto main -- main's public state (CAMPAIGN_STATUS, README's B915 crossing) is stale relative to work this branch completed.", "where": "log_index/B796.txt:6 vs loss_audit/THE_LOSS_LEDGER.md L6-L7"},
+    {"kind": "GITIGNORED_WITNESS", "detail": "Several cell-9 numeric witnesses are .txt files (cell9_lam2_real_log.txt, cell9_parent_real_log.txt, cell9_shakedown_log.txt, cell9_pslq_lam2_firstpass.txt) which under the stated repo-wide rule (*.log/*.out gitignored) are not themselves flagged, but the verdict explicitly states the one file that WOULD demonstrate a completed run (a shakedown log) 'stops after n=782 modes' -- i.e. even the non-gitignored witness that exists is incomplete, not that a witness is silently missing due to gitignore.", "where": "cell9_sec16_verdict3.md:23, C7"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "Main simultaneously banks H-B788-NORMSPLIT as RETRACTED (in HINT_LEDGER and a locked test) and as SURVIVES-at-the-norm-level (banked separately by cc); the reconciling computation exists only on this branch.", "where": "loss_audit/THE_LOSS_LEDGER.md:21-30 (L2)"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "LAW_MAP:147 still asserts 'THE OBSERVER IS BUILT (B723)' with the exact clause already refuted by B849/B851, uncorrected in the law register.", "where": "loss_audit/THE_LOSS_LEDGER.md:38-39 (L3)"},
+    {"kind": "MISSING_WITNESS", "detail": "cell9_sec16_verdict3.md's own sealed text cites a provenance document (cell9_sec16_verdict2.md) as the site of the second-pass required changes, but that file does not exist in the repo; the changes reportedly live 'only in session memory'.", "where": "cell9_sec16_verdict3.md:26 (C6)"},
+    {"kind": "FITTED_VALUE", "detail": "scale_weight_ledger/FINDINGS.md explicitly warns that its 7 new weight-0 dimensionless numbers are an unusually attractive look-elsewhere trap and forbids testing them against physical constants outside a fresh sealed preregistration -- self-aware of, but does not eliminate, the risk that a future arc will informally fit one of these to a PDG value.", "where": "scale_weight_ledger/FINDINGS.md:184-233"},
+    {"kind": "OTHER", "detail": "functor_obstruction/CLAIM_DROP_ADJUDICATION.md documents the audit seat's own headline overstating its finding (claimed '75% of self-fencing arcs have unfenced claim lines' as a defect rate when top-of-ranking measured precision was only 44%) -- a self-caught overclaim inside the very instrument built to catch overclaims.", "where": "functor_obstruction/CLAIM_DROP_ADJUDICATION.md:23-37"},
+    {"kind": "OTHER", "detail": "The functor_obstruction/FINDINGS.md flags an unresolved 'candidate defect': R11 licenses a CONTINUOUS dimensionless frame anchor (a real number) on the strength of theorems (B782, B936) that only establish a DISCRETE deficit (a bounded number of bits) -- explicitly unadjudicated, handed over open, and directly relevant to whether 'parameter-free -- zero free dimensionless parameters' is an earned claim.", "where": "functor_obstruction/FINDINGS.md:86-118 (C4)"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "s4_closing_types' original identification of the 'rank' external-input closing with the 8x1 diagram automorphism tau rested on tau being 'the only rank-reducing involution' -- a type/dimension coincidence (both look like a single F2 bit) later shown by tau_vs_singlet to be a category error: the cascade's actual rank drop 6->4 is effected by two VEVs, neither an involution.", "where": "s4_closing_types/FINDINGS.md:1-30 (corrected); tau_vs_singlet/FINDINGS.md:59-96"}
+   ],
+   "seat_note": "This is a large, unusually self-auditing internal-review campaign (verdicts reviewing verdicts, a claim-drop sweep auditing its own headline, an explicit loss ledger) that produces mostly STRUCTURAL/no-observable-content results (group-descent congruences, line-operator classification, dimensional-weight bookkeeping) plus one flagship numeric computation (Cell 9 rung-i Maass-eigenvalue PSLQ test) that per its own third-pass verdict has still not actually been executed end-to-end. The central physics worry a fresh reader should carry forward is functor_obstruction's own flagged, unadjudicated gap: the programme licenses itself a continuous dimensionless 'anchor' input on theorems that only prove a discrete (bit-counted) deficit, which if real undermines the 'zero free dimensionless parameters' claim advertised elsewhere in the repo."
+  }
+ ]
+}

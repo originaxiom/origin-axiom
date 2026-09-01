@@ -1,0 +1,2795 @@
+{
+ "log": "docs/progress/PROGRESS_2026-Q2.md",
+ "part": 0,
+ "entries": [
+  {
+   "date": "2026-05-22",
+   "title": "Consolidation: audit + Phase 0 governance",
+   "arcs": [],
+   "established": "Audited prior scattered repos; reconciled a claims ledger (10 proven, 4 conditional, 9 open, 10 dead); two contemporaneous self-assessments disagreed and the disciplined one was adopted as canonical.",
+   "status_words": [
+    "PROVEN",
+    "OPEN",
+    "DEAD",
+    "CONDITIONAL"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "10 proven",
+    "4 conditional",
+    "9 open",
+    "10 dead"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'two contemporaneous 2026-05-21 self-assessments disagree' — an optimistic handoff.md vs a disciplined Reality Check v1/V4 paper; disciplined line adopted as canonical (owner/governance judgment call, not computed)."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-22",
+   "title": "Legacy reorganization & repository consolidation",
+   "arcs": [],
+   "established": "Reorganized legacy material into legacy/; found an unaudited ~3.6GB genesis-era folder; created canonical GitHub repo and archived four prior repos.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'not yet audited in detail — flagged for a later pass' re the genesis-era 'e_origin axiom' folder (line ~58)."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-22",
+   "title": "Phase A: tested foundation",
+   "arcs": [
+    "P1-P10",
+    "C2",
+    "C3"
+   ],
+   "established": "Built src/origin_axiom package and tests locking claims P1-P10; suite green 33 passed 1 skipped; corrected a test asserting the wrong direction of torsion-growth convergence.",
+   "status_words": [
+    "PROVEN",
+    "CORRECTED"
+   ],
+   "retractions": [
+    {
+     "what": "a test assumed the mapping-torus torsion growth approaches log(phi^2) from above; corrected to 'from below'",
+     "of_which_arc": "P1-P10 test suite"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "33 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "self-correction logged per GOVERNANCE.md §6 — a wrong assumption caught mid-run, not an external red flag."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-22",
+   "title": "Phase B / probe B1: gluing vs. Chern-Simons flatness",
+   "arcs": [
+    "B1"
+   ],
+   "established": "Gluing identity log(A)=(log phi^2/sqrt5)(H+2(E+F)) verified numerically to 2.8e-16 vs scipy logm; frame/spin-connection ratio d/a=2 exactly; torsion component exactly 0. Does NOT produce the Chern-Simons action, level k, or distinguish 2+1 gravity from a generic flat connection.",
+   "status_words": [
+    "STALLED (implicit)",
+    "No claim promoted"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "log(A)=(log phi^2/sqrt5)*(H+2(E+F))",
+    "2.8e-16 (numerical check)",
+    "d/a=2",
+    "torsion=0 exactly"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Explicit non-claim: 'does not produce the Chern-Simons action, its level k, or anything distinguishing 2+1 gravity from a generic flat-connection theory' — STRUCTURAL math only, NO_OBSERVABLE_CONTENT physically."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-22",
+   "title": "Phase B / probe B2: monodromy action on the moduli space",
+   "arcs": [
+    "B2"
+   ],
+   "established": "Monodromy acts on (log M, log L) as linear map A with multipliers phi^2, phi^-2; falsified the handoff document's claim that A acts on the A-polynomial curve as (M,L)->(M^2 L, ML).",
+   "status_words": [
+    "REFUTED (of handoff claim)",
+    "No claim promoted"
+   ],
+   "retractions": [
+    {
+     "what": "handoff.md's claimed A-polynomial curve action (M,L)->(M^2 L,ML)",
+     "of_which_arc": "pre-repo handoff document, not a numbered arc"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "multipliers phi^2, phi^-2"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'the handoff document's claim ... is falsified — that substitution does not leave the figure-eight A-polynomial curve invariant (nonzero remainder)'. Refutes a claim from the pre-consolidation handoff, consistent with the audit's warning that handoff over-reaches."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-22",
+   "title": "Phase B / probe B3: figure-eight triangulation & the 4D Regge question",
+   "arcs": [
+    "B3"
+   ],
+   "established": "Figure-eight's 3D ideal triangulation Regge check: six pi/3 dihedral angles meet at each edge, sum 2pi, deficit 0 (exact). The handoff's 'Step 5A' (stacking figure-eight slices by A into a 4D Regge complex) is not a defined construction — no 4-manifold, no 4-simplices supplied.",
+   "status_words": [
+    "No claim promoted"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "deficit 0",
+    "six pi/3 dihedral angles",
+    "sum 2pi"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'the handoff's Step 5A ... is not a defined construction. It supplies no 4-manifold and no 4-simplices. The path 5A->5C->Einstein has an undefined first step.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Pattern noted across B1-B3: well-defined content is exact, but the bridge to 3+1 gravity 'rests on a step asserted but not constructed' — a repeated structural gap, not computation."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-22",
+   "title": "Session-3 integration: P11–P13 promoted, probes B4–B5 added",
+   "arcs": [
+    "P11",
+    "P12",
+    "P13",
+    "B4",
+    "B5"
+   ],
+   "established": "Promoted P11 (exact sl(2,R) decomposition of log A), P12 (figure-eight gluing equation factors Eisenstein x golden), P13 (isospectrality of [[1,2],[2,-1]] and G). Declined to promote a proposed 'P14' Kasner-at-u=phi claim as smuggling an unproven selection. Added frontier probes B4 (BKL/Gutzwiller/golden Kasner) and B5 (Wheeler-DeWitt Lambda estimate, ~1e120 off observation, dead-adjacent).",
+   "status_words": [
+    "PROVEN (P11-P13 promoted)",
+    "DECLINED (P14)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "d/a=2",
+    "antisymmetric (E-F)=0",
+    "Lambda=2pi^2/Vol estimate ~1e120 off observation",
+    "Gutzwiller leading term 37.8%",
+    "39 passed, 1 skipped",
+    "13 proven, 4 conditional, 9 open, 10 dead"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Explicit gate discipline: 'Declined for the proven core' the P14 Kasner-at-phi claim — 'Promoting it would smuggle an unproven selection into the proven core.'"
+    },
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "B5's Lambda estimate is off by ~10^120 from observation, recorded as a documented warning / dead-adjacent, not a fitted success."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-23",
+   "title": "Phase C kickoff: exhaustive survey of emergence-paths",
+   "arcs": [],
+   "established": "Reframed the project from validating one mechanism to systematically surveying 25 candidate 'emergence' mechanisms (E1-E20, P1-P5); scaffolded paths/ registry; selected first batch E14, E11, E5.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-23",
+   "title": "Phase C / probe E14 (categorical / initial-object): `STALLED`",
+   "arcs": [
+    "E14"
+   ],
+   "established": "All four standard formal characterizations of 'nothing' (set theory, category theory, type theory, HoTT) are well-defined and unique up to isomorphism, but none by itself forces emergence.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Verdict framed as bounding the rest of the program: pure formal characterization is necessary but insufficient — a structural (not physical) negative result."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-27",
+   "title": "Phase C / probe E11 (statistical / entropic): `STALLED`",
+   "arcs": [
+    "E11",
+    "E13"
+   ],
+   "established": "Exact combinatorics: P(empty)=2^-n; peak multiplicity C(n,n/2)~2^n/sqrt(n*pi/2); entropic pull ~n*log2 - 0.5*log(n*pi/2); for n=128, P(empty)=2.9e-39, pull~86.07. Counting is a selection mechanism inside a pre-existing configuration space+measure; it does not construct either.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "P(empty)=2^-n",
+    "n=128: P(empty)=2.9e-39, pull~86.07"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'The empty measure space (no sigma-algebra, no measure) does not even support the inequality 1<<2^n.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-27",
+   "title": "Phase C / probe E5 (quantum-physical / Vilenkin tunneling): `STALLED`",
+   "arcs": [
+    "E5"
+   ],
+   "established": "Exact result B(Lambda)=integral sqrt(V(a))da=1/Lambda in closed form, matches numeric quad to ~1.8e-14; amplitude exp(-2B) nonzero for any Lambda>0. STALLED because the result is artefactual to FRW topology/truncation/ordering/boundary choice and Lambda is input not derived; no meta-measure for 'probability of a universe' is supplied.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "B(Lambda)=1/Lambda",
+    "numeric vs analytic agreement ~1.8e-14"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'the framework the mechanism claims to produce is the framework it presupposes' — no meta-measure supplied for a genuine probability of universe-creation."
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Cross-batch synthesis: three orthogonal mechanism classes (E14 formal, E11 statistical, E5 quantum) all STALL the same way — 'force-vs-target asymmetry' — each smuggles an unstated input (meta-framework / configuration space+measure / FRW topology+Lambda+ordering+boundary choice)."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-27",
+   "title": "Session 3 synthesis: 2025 field theory ↔ 2026 algebraic skeleton; P15, P16 promoted; B6–B9 added",
+   "arcs": [
+    "P15",
+    "P16",
+    "B6",
+    "B7",
+    "B8",
+    "B9"
+   ],
+   "established": "Independently re-verified (sympy) Mobius action of A on H, generating vector field v(tau)=-kappa(tau^2-tau-1), and derived cubic potential V(tau) with minimum at phi. Promoted P15 (Mobius vector field) and P16 (derived potential). Frontier probes B6-B9 (field eq, Fisher-KPP wave, particle spectrum, fusion-scattering) added, all STALLED. Corrected an overreaching 'six faces' reading: the Mobius fixed-point polynomial is a based invariant of A=LR, not conjugacy-class invariant (K=LAL^-1 gives a different polynomial tau^2-3tau+1).",
+   "status_words": [
+    "PROVEN (P15,P16)",
+    "STALLED (B6-B9)",
+    "Correction to a too-strong reading"
+   ],
+   "retractions": [
+    {
+     "what": "'the Mobius fixed-point polynomial is a based invariant of A, not a conjugacy-class invariant' — corrects an over-strong 'six faces' claim",
+     "of_which_arc": "synthesis six-faces audit / P12-adjacent"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "kappa=2*log(phi^2)/sqrt5≈0.860818",
+    "mass^2=kappa*sqrt5",
+    "g=kappa",
+    "m/g=sqrt(5/(4 log phi))≈1.6117 (near-miss, NOT phi, delta≈0.0063)"
+   ],
+   "red_flags": [
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "B8's m/g≈1.6117 explicitly flagged as 'an honest near-miss, explicitly NOT phi (delta≈0.0063) — recorded under disclaimer so it is not later mistaken for a result (cf. D-class numerology).'"
+    },
+    {
+     "kind": "CLAIM_WITHOUT_ARC",
+     "detail": "B9 notes 'the cubic vertex and Fibonacci fusion share tau^2-tau-1, but no functor: analogous to != derived from.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-28",
+   "title": "Conditional uniqueness theorem (formalizes C1)",
+   "arcs": [
+    "C1"
+   ],
+   "established": "Wrote 7 axioms (A1-A7) and machine-checked algebra: mixed closure B(a,b) forces ab=1 hence A=LR, via torsion-free closure filter; 144 hyperbolic candidates collapse to 1 under the filter. The order convention (A7, LR vs RL) is load-bearing, not cosmetic — LR and RL are SL(2,Z)-conjugate but give different Mobius fixed-point polynomials. C1 stays conditional: axioms are motivated, not derived.",
+   "status_words": [
+    "CONDITIONAL"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "144 hyperbolic positives -> 1",
+    "det(B(a,b)-I)=-ab",
+    "66 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The uniqueness is explicitly 'up to order' and the entry states 'that single binary choice is the minimal inserted structure that selects the golden vacuum phi over its mirror' — an inserted convention, flagged honestly rather than derived."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-28",
+   "title": "Atlas/paper roadmap integration manifest",
+   "arcs": [],
+   "established": "Process/migration planning only; audited 116 canonical vs 2995 staging files, 36 same-hash overlaps, 23 same-path differences, 2936 staging-only files.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "116 comparable canonical files",
+    "2,995 comparable staging files",
+    "8,069 excluded artifacts",
+    "36 same-hash overlaps",
+    "23 same-path differences",
+    "2,936 staging-only files"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-28",
+   "title": "Research Atlas skeleton (R1)",
+   "arcs": [],
+   "established": "Public navigation docs added (atlas README, RESEARCH_TREE, AUDITOR_GUIDE, FAILURE_ATLAS, SUCCESS_ATLAS, GLOSSARY, SIMULATOR_ECOSYSTEM_MAP). No claims changed.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-28",
+   "title": "Paper-candidate registry (R2)",
+   "arcs": [
+    "PC02",
+    "PC04",
+    "PC06"
+   ],
+   "established": "Added papers/CANDIDATES.md tracking 10 candidate outputs; PC02 marked first ship target. No claims changed.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-28",
+   "title": "Quantum selector campaign synthesis (R3)",
+   "arcs": [
+    "PC01",
+    "PC02",
+    "PC04",
+    "PC06"
+   ],
+   "established": "Summarized a private quantum_selector_v1 campaign: 232 cycles, 50 mechanisms, 80 source-derived questions; verdicts 6 survives, 28 stalled, 8 killed, 8 needs-expertise. Strongest survivor: ordered noncommutative cancellation residue.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "232 cycles",
+    "50 unique mechanisms",
+    "80 source-derived questions",
+    "6 survives",
+    "28 stalled",
+    "8 killed",
+    "8 needs-expertise"
+   ],
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "Raw JSONL, scoreboards, source downloads, and run logs of this 232-cycle campaign are explicitly kept private/out of the repo ('without copying raw JSONL, scoreboards, source downloads, local path inventories, or run logs') — the campaign's own summary is the only committed witness."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-28",
+   "title": "PC02 external-review packet (R4)",
+   "arcs": [
+    "PC02"
+   ],
+   "established": "Added a review packet identifying the paper-grade missing lemma: H1(mapping torus of B)=Z + coker(B-I), torsion order |det(B-I)| when nonzero.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-28",
+   "title": "Noncommutative residue dossier (R5)",
+   "arcs": [
+    "PC04"
+   ],
+   "established": "Recorded the strict result LR-RL != 0 and LRL^-1R^-1 != I; the residue disappears in the commutative quotient. No-overclaim boundary stated.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'the two operations, order loop, substrate, field dictionary, unit scale, source law, and observable are not derived.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-28",
+   "title": "State-integral selector-gap dossier (R6)",
+   "arcs": [
+    "PC06"
+   ],
+   "established": "Organized the quantum-topology bridge as a precise missing-selector problem; states the needed theorem (a source-normalized quantum-dilog/Picard-Lefschetz result forcing nonzero relative-homology class).",
+   "status_words": [
+    "NEEDS_VALIDATION"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'no source-normalized thimble-intersection vector was constructed'; zero winding remains allowed; orientation remains unforced."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "Atlas/paper integration closure (R7)",
+   "arcs": [],
+   "established": "Roadmap closure; merge gate defined (clean branch, full suite, public-safety scan, no raw/private artifacts).",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-29",
+   "title": "Post-merge integration manifest cleanup",
+   "arcs": [],
+   "established": "Doc wording cleanup only after merging atlas-paper-integration-v1.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-29",
+   "title": "PC02 mapping-torus torsion lemma",
+   "arcs": [
+    "PC02"
+   ],
+   "established": "Proved the mapping-torus homology step via the Wang exact sequence: H1(M_B;Z)=Z+coker(B-I), and torsion order |det(B-I)| via Smith normal form when nonzero. For B(a,b)=LaRb this gives det(B-I)=-ab, forcing ab=1, a=b=1 over positive integers.",
+   "status_words": [
+    "PROVEN (lemma; C1 stays conditional)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "det(B(a,b)-I)=-ab"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-29",
+   "title": "PC02 validation brief",
+   "arcs": [
+    "PC02"
+   ],
+   "established": "Advanced PC02 readiness from EVIDENCE_EXISTS to NEEDS_VALIDATION.",
+   "status_words": [
+    "NEEDS_VALIDATION"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B13 trace-map character-variety probe",
+   "arcs": [
+    "B13"
+   ],
+   "established": "Computed punctured-torus trace map T(x,y,z)=(z,x,2xz-y) and Fricke-Vogt invariant I; Jacobian at (1,1,1) factors (t+1)(t^2-3t+1), a GL(2,Z) conjugate of A=[[2,1],[1,1]]; full basis determinant 5. Control: the x=z=1+eps family is NOT a fixed-point branch — only (0,0,0) and (1,1,1) are actual fixed points.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "Hessian eigenvalues -2,4,4",
+    "determinant 5",
+    "Jacobian char poly (t+1)(t^2-3t+1)"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Genericity control explicitly distinguishes 'the A-sector is the symmetric-square trace lift of the primitive half-step F, not of the direct monodromy A=F^2' — a careful control against a plausible misreading."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B14 half-step square-root selector",
+   "arcs": [
+    "B14",
+    "B13"
+   ],
+   "established": "Proved the only GL(2,Z) square roots of A are F and -F (Cayley-Hamilton argument). The half-step requirement alone does not select k=1; combined with torsion-free/minimality it does.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'this shifts the live question to the status of the record-swap P. If P is a legitimate pre-dynamical symmetry ... the half-step is forced up to sign. If not, it remains inserted.' — explicit dependence on an unresolved axiom."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B15 trace-map invariant controls",
+   "arcs": [
+    "B15"
+   ],
+   "established": "Naive vector-field proxy Jacobian on diagonal (c,c,c) gives char poly (mu+2)(mu^2+(1-2c)mu+(1-2c)); discriminant (2c-1)(2c+3). Correction: the proposed sqrt(5) coupling reading was wrong under the usual Fibonacci normalization — I(1,1,3/2)=1/4 gives lambda/h=+/-1, not sqrt(5); 'not accepted here'.",
+   "status_words": [
+    "STALLED",
+    "Correction"
+   ],
+   "retractions": [
+    {
+     "what": "a proposed sqrt(5)-coupling normalization reading",
+     "of_which_arc": "B15/trace-map normalization"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'the proposed sqrt(5) coupling requires a shifted convention and is not accepted here' — corrects a normalization error found within the same probe."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B16 record-swap symmetry status",
+   "arcs": [
+    "B16",
+    "B14"
+   ],
+   "established": "Bounded exact search: the only involutions swapping L,R in GL(2,Z) are P and -P. A1-A6 do not derive the exchange-symmetry requirement; P is forced only after adding a plausible but additional substrate-exchange axiom.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'A1-A6 do not derive the exchange-symmetry requirement.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "Trace-map/spectrum checkpoint and review-note package",
+   "arcs": [
+    "B26",
+    "PC02",
+    "PC11"
+   ],
+   "established": "B26: char(DT^3 at (0,0,c))=(t+1)(t^2-(4c^2-2)t+1); matching the A quadratic forces c^2=5/4, I=1/4, lambda/h=1 under a projective/sign-quotient criterion 'not derived from A1-A7'. Extension gives an exact Lucas hierarchy (lambda/h)^2=L_n-2.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "c^2=5/4",
+    "I=1/4",
+    "lambda/h=1",
+    "(lambda/h)^2=L_n-2=1,5,16,45,121,...",
+    "full-return I=-3/4, (lambda/h)^2=-3"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'this still depends on a projective/sign-quotient criterion that is not derived from A1-A7.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B27-B29 higher-rank and selector controls",
+   "arcs": [
+    "B27",
+    "B28",
+    "B29"
+   ],
+   "established": "B27: SL(3) Fibonacci trace lift eigenvalues phi^3,phi^2,-phi,1,-1,1/phi,1/phi^2,-1/phi^3; A quadratic survives but not promoted to particle/antiparticle physics. B28: central sign action compatible with half-step map. B29: two competing hierarchies for (lambda/h)^2 under different criteria.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "eigenvalues phi^3,phi^2,-phi,1,-1,1/phi,1/phi^2,-1/phi^3",
+    "(lambda/h)^2=L_n-2=1,5,16,45,121,320,...",
+    "alt hierarchy (lambda/h)^2=sqrt(L_n-2)-4"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'direct/inverse trace distinctions are not promoted to particle/antiparticle physics' — explicit refusal of an IDENTIFICATION_BY_TYPE temptation."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B30-B37 selector-first campaign",
+   "arcs": [
+    "B30",
+    "B31",
+    "B32",
+    "B33",
+    "B34",
+    "B35",
+    "B36",
+    "B37"
+   ],
+   "established": "B32 isolates the missing selector S1 precisely: 'the primitive projective return linearization must contain the original A quadratic sector t^2-3t+1.' A1-A7 plus exchange do not derive S1. B37: trace map does not satisfy an operational self-model/awareness criterion; that language stays outside the claims system.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'A1-A7 plus exchange get the trace-map setting; they do not derive S1.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "B37 explicitly quarantines awareness/religion/metaphysics-adjacent language from the claims system."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B38-B47 deep S1 campaign",
+   "arcs": [
+    "B38",
+    "B39",
+    "B40",
+    "B41",
+    "B42",
+    "B43",
+    "B44",
+    "B45",
+    "B46",
+    "B47"
+   ],
+   "established": "Isolated a named dependency T1 (tangent return inherits arithmetic persistence filters): T1 -> S1 -> I=1/4 -> lambda/h=1. B47 verdict ledger: S1 is conditional, not derived; T1 itself is not derived from A1-A7 plus exchange.",
+   "status_words": [
+    "CONDITIONAL (S1)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'T1 itself is not derived from A1-A7 plus exchange.' The chain lambda/h=1 rests entirely on this unproven T1."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "Conditional trace selector theorem (formalizes C5)",
+   "arcs": [
+    "C5"
+   ],
+   "established": "Packaged T1->S1->I=1/4->lambda/h=1 as conditional claim C5. Ledger updated: 15 proven, 5 conditional, 9 open, 10 dead.",
+   "status_words": [
+    "CONDITIONAL"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "I=1/4",
+    "lambda/h=1",
+    "mu=4I+2=3",
+    "15 proven, 5 conditional, 9 open, 10 dead"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'B39-B47 show that T1 itself is not derived from A1-A7 plus exchange. Validation should ask whether T1 is a theorem, a standard naturality/filter-inheritance principle, or an extra axiom.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-30",
+   "title": "PC11 validation packet and freeze preparation",
+   "arcs": [
+    "PC11",
+    "C5"
+   ],
+   "established": "PC11 readiness advanced to NEEDS_VALIDATION, blocked from stronger status until independent validation of T1.",
+   "status_words": [
+    "NEEDS_VALIDATION"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-30",
+   "title": "Reviewability and falsifiability workflow",
+   "arcs": [
+    "PC02",
+    "PC11"
+   ],
+   "established": "Replaced communication-oriented packets with repo-native validation artifacts and outcome-label taxonomy.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-30",
+   "title": "Falsifiability matrix and public-surface QA",
+   "arcs": [
+    "PC02",
+    "PC04",
+    "PC06",
+    "PC07",
+    "PC11"
+   ],
+   "established": "Added FALSIFIABILITY_MATRIX.md mapping candidates to status/missing object/kill-rescope condition; added a public-surface scan test to prevent stale communication artifacts leaking into docs.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B25 Fibonacci spectrum anchor",
+   "arcs": [
+    "B25"
+   ],
+   "established": "Finite Fibonacci Hamiltonian approximants at lambda/h=1: gap-labeling residuals below 5e-4 (validation only, not new). Box-counting mid-scale slope near 0.75, explicitly not promoted to exact Hausdorff dimension. lambda/h=1 is 'MOTIVATED, not derived.'",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "gap-label residuals <5e-4",
+    "mid-scale box-counting slope ~0.75",
+    "I0=1/4"
+   ],
+   "red_flags": [
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "'Without a derivation, it is not a falsifiable prediction of the core' — lambda/h=1 is used as input, motivated not derived, matching the pattern flagged throughout the B17-B47 campaign."
+    }
+   ]
+  },
+  {
+   "date": "2026-05-29",
+   "title": "B17-B24 half-step kernel campaign",
+   "arcs": [
+    "B17",
+    "B18",
+    "B19",
+    "B20",
+    "B21",
+    "B22",
+    "B23",
+    "B24"
+   ],
+   "established": "B18: trace map is functorial half-trace lift, STALLED at physical/semantic dictionary. B19: only P up to sign isolates the operational half-step. B24: SU(2)_3 compatible because 2cos(pi/(k+2))=phi only at k=3, but the level-selection rule remains inserted.",
+   "status_words": [
+    "STALLED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "B24: 2cos(pi/5)=phi at k=3 is a numeric coincidence used to motivate SU(2)_3 compatibility, but 'the level-selection rule remains inserted' — flagged as such."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-01",
+   "title": "B48 / PC12 metallic SL(3) trace-map intake",
+   "arcs": [
+    "B48",
+    "PC12"
+   ],
+   "established": "Curated a private SL3 metallic trace-map result as a governed artifact, extending B27's m=1 case to all m>=1 (family phi_m(a)=a^m b). Raw side-work bundles NOT copied into the repo; only distilled B48/PC12 material plus a checksum.",
+   "status_words": [
+    "NEEDS_VALIDATION"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "'raw side-work bundles, coordination artifacts, and private working notes were not copied. The public repo records only distilled B48/PC12 material plus a private-source checksum' — underlying computation not independently reproducible from the committed repo alone."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-01",
+   "title": "B49 PC12 proof-hardening",
+   "arcs": [
+    "B49",
+    "PC12"
+   ],
+   "established": "Decomposed the fixed-line integer splitting classification into reviewable proof modules (discriminant/parity criterion, families, exclusions for 4<=c<=14 and -11<=c<=-2). Narrows the remaining task from 'trust a certificate scan' to 'write proof text'.",
+   "status_words": [
+    "NEEDS_VALIDATION"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Explicitly narrows scope from computer-certificate scan to hand-proof text — an honest admission the earlier B48 result was certificate-assisted, not proved."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-01",
+   "title": "B50 PC12 proof-draft assembly",
+   "arcs": [
+    "B50",
+    "PC12"
+   ],
+   "established": "Organized B48/B49 into five theorem blocks; skeleton records proof status per block; not yet DRAFTABLE.",
+   "status_words": [
+    "NEEDS_VALIDATION"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-01",
+   "title": "B51 symbolic-m factorization and B52 bridge control",
+   "arcs": [
+    "B51",
+    "B52",
+    "PC12"
+   ],
+   "established": "B51: c=3 fixed-line Jacobian block verified with m formal (not just bounded integers), giving char polys (t-1)(t+1)(t^2-(m^2+2)t+1) and (t^2+mt-1)(t^2-(m^3+3m)t-1). B52: naive multichannel Fibonacci bridge tested — commuting control decomposes into SL(2) channels, generic control shows the PC12 SL(3) trace recursion FAILS while the expected order-6 Cayley-Hamilton recursion holds. No physics bridge found in literature scan.",
+   "status_words": [
+    "NEEDS_VALIDATION"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'No source found in this scan supplies the PC12 SL(3) physical dictionary.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "B52 explicitly records a negative result: the naive multichannel physics bridge FAILS the PC12 recursion, banked as a documented negative rather than left ambiguous."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-01",
+   "title": "B53 literature screen, B54 general-c structure, PC12 rescale, E21 quarantine",
+   "arcs": [
+    "B53",
+    "B54",
+    "PC12",
+    "E21"
+   ],
+   "established": "Literature screen: PC12 Thm 1-3 and exchange decomposition are STANDARD_REPACKAGE (Lawton; Baake-Grimm-Roberts; Bellon-Viallet); only the fixed-line integer splitting is APPARENTLY_NEW. PC12 rescaled from THEOREM_NOTE to COMPUTATIONAL_REPORT. E21: the 'self-evidencing closure' framing verified one exact-but-elementary fact (half-return char poly = char(M^2) at I=m^2/4); free-energy mapping is structural analogy, not derivation; no observable predicted. Verdict STALLED.",
+   "status_words": [
+    "STALLED (E21)",
+    "NEEDS_VALIDATION (PC12, rescaled down)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "c=1 twin polynomials: Eisenstein t^2-t+1, golden t^2-t-1, discriminants -3 and 5"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Honest downgrade: PC12 rescaled 'THEOREM_NOTE -> COMPUTATIONAL_REPORT' after a literature screen found most of it is standard-repackage, not new mathematics."
+    },
+    {
+     "kind": "CLAIM_WITHOUT_ARC",
+     "detail": "E21's framing (a cross-session, ambitious 'self-evidencing closure' mapping trace-map coupling onto variational free energy) is noted as coming from outside the governed probe system; an external 9-page draft (acknowledging AI platforms) was explicitly kept OUT of the repo pending a privacy-rule decision."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "PC02 draft-note reconciliation",
+   "arcs": [
+    "PC02",
+    "C1"
+   ],
+   "established": "Editorial merge of two parallel PC02 draft notes into one canonical DRAFT_NOTE.md; reproduction counts updated to 83 passed, 1 skipped.",
+   "status_words": [
+    "CONDITIONAL_THEOREM / NEEDS_VALIDATION (unchanged)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "83 passed, 1 skipped"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B55 c=1 general-m structure, B56 figure-eight kill, B57 splitting classification",
+   "arcs": [
+    "B55",
+    "B56",
+    "B57",
+    "PC12"
+   ],
+   "established": "B55 corrected an earlier reading (odd->Phi6/even->Phi4 was wrong; m≡0 mod 4 degenerates). B56: figure-eight <-> I=1/4 bridge is DEAD (I values {4, -17/2±7sqrt5/2} != 1/4); the c=1 Eisenstein resemblance to the figure-eight tetrahedron is a cyclotomic coincidence. B57: Hilbert-class-field coincidence h(-15)=2 vs m=1 is killed for m>=2. Suite 91 passed, 1 skipped.",
+   "status_words": [
+    "DEAD (B56)",
+    "RETRACTED (B55 correction)"
+   ],
+   "retractions": [
+    {
+     "what": "the earlier B54-era reading 'odd n->Phi6, even n->Phi4'",
+     "of_which_arc": "B54/B55 c=1 structure"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "91 passed, 1 skipped",
+    "w^3-2w^2-2w+1=(w+1)(w^2-3w+1)",
+    "I in {4,-17/2+7sqrt5/2,-17/2-7sqrt5/2}"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'This corrects the earlier odd->Phi6 / even->Phi4 reading (m≡0 mod 4 degenerates, not Phi4).'"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "B56 explicitly kills a numerology-style coincidence: 'the figure-eight <-> I=1/4 (self-evidencing) bridge is DEAD; the c=1 Eisenstein resemblance to the figure-eight tetrahedron shape ... is a cyclotomic coincidence.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "'The Hilbert-class-field coincidence (h(-15)=2 vs m=1) is killed for m>=2' — a second numerology kill in the same entry."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "E21 self-evidencing controls (Weil–Petersson identity, Aubry-duality kill)",
+   "arcs": [
+    "E21"
+   ],
+   "established": "Fisher information = Weil-Petersson coefficient shown exact but explicitly flagged by the session itself as possibly 'just calculus', not promoted. Aubry self-duality at lambda=m killed — vacuous fixed point of the duality map, no genuine self-duality for m>=2, no metal-insulator observable.",
+   "status_words": [
+    "STALLED",
+    "DEAD (Aubry-duality reading)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "F(m)=16/(m^2(m^2+4))"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'The session itself flags the Weil-Petersson reading as possibly just calculus; recorded, not promoted' — an honest self-deflation of an apparently elegant identity."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "Handoff triage; SL(n) factor-count tower recorded as a prediction",
+   "arcs": [
+    "PC12"
+   ],
+   "established": "Triaged a handoff of four items; three already integrated (not duplicated). One new item, SL(n) factor-count tower, recorded as an untested prediction confirmed only at n=2,3; n>=4 untested.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'n>=4 (SL(4): 7 factors) is untested and requires building the SL(4) trace map — a candidate future probe (B58+), explicitly not a claim.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B58 SL(4) factor-count tower test (attempt; NEEDS-EXPERTISE)",
+   "arcs": [
+    "B58"
+   ],
+   "established": "Confirmed the mechanism but hit an obstruction: the fixed-line point is a degenerate identity representation where traces are second-order, so a representation-based numerical Jacobian cannot recover the trace map. Testing the 7-factor prediction requires the full ambient SL(4,C) trace map, not built. Verdict NEEDS-EXPERTISE.",
+   "status_words": [
+    "NEEDS-EXPERTISE"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 93 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'the n=4 prediction is untested (neither confirmed nor refuted).'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B59 SL(4) fixed-line factorization (numerical; tower prediction refuted)",
+   "arcs": [
+    "B59",
+    "B58"
+   ],
+   "established": "Sidestepped B58's obstruction with a perturbed-representation method; SL(4) spectrum factors as char(M^-1)*char(M)*char(M^2)*char(M^3)*char(M^4)*char(-M^2)*(t-1)^2(t+1), REFUTING the naive 7-factor-plus-1-parity prediction. Numerical (~3-4 digits), method-validated, not a symbolic proof.",
+   "status_words": [
+    "REFUTED (the SL(n) tower conjecture as stated)"
+   ],
+   "retractions": [
+    {
+     "what": "the 'SL(n) factor-count tower' prediction '(n^2-1-parity)/2 char(M^k) factors' at n=4",
+     "of_which_arc": "PC12/handoff-triage prediction"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 95 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'This REFUTES the naive 7 char(M^k) + 1 parity prediction (actual: 3 parity + 5 char(M^k) + 2 from char(-M^2)).' Explicitly labeled numerical, not symbolic proof."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B60 SL(n) tower: cross-n structure map (n=3,4) + SL(5) barrier",
+   "arcs": [
+    "B60"
+   ],
+   "established": "Built cross-n structure map for n=3,4; SL(5) is unresolved — trace-coordinate differential conditioning ~1e11, beyond double precision; five numerical attempts all failed.",
+   "status_words": [
+    "STALLED (SL(5))"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "SL(5) cond~1e11",
+    "suite 97 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'five attempts failed'; documented as 'a reproducible conditioning fact', barrier not resolved in this entry."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B61 SL(5) high-precision factorization (barrier re-diagnosed; 22/24 resolved)",
+   "arcs": [
+    "B61",
+    "B60"
+   ],
+   "established": "B60's conditioning wall was a MISDIAGNOSIS — at dps 60 the system is rank 23 not 24 (rounding floor misread as ill-conditioning). Switching to inverse-word coordinates resolves 22/24 SL(5) multipliers to the catalog. Remaining 2-dim sector is a genuine method limit (gauge-dependent, pinv discontinuous at the degeneracy), not a numerical artifact.",
+   "status_words": [
+    "REVISED (B60 diagnosis corrected)"
+   ],
+   "retractions": [
+    {
+     "what": "B60's claim the SL(5) barrier is a conditioning wall (cond~1e11)",
+     "of_which_arc": "B60"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "22 of 24 SL(5) multipliers resolved",
+    "SL(3) reproduced to ~4e-14",
+    "SL(4) reproduced to ~3e-9"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'B60's SL(5) conditioning wall was a misdiagnosis.' The double-precision 'cond~1e11' reading is explicitly overturned."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "PC12 made review-ready for an external specialist",
+   "arcs": [
+    "PC12"
+   ],
+   "established": "Packaged PC12 for outside review with a polished DRAFT_NOTE, review packet, and bounded literature refresh; readiness NEEDS_VALIDATION -> READY_FOR_REVIEW. The actual specialist read remains the open step.",
+   "status_words": [
+    "READY_FOR_REVIEW"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 102 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'The actual specialist read is the user's hand-off and remains the open step.' No external validation has actually occurred despite the readiness label."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B62 opposition involution: the 2 unresolved SL(5) modes",
+   "arcs": [
+    "B62",
+    "B61"
+   ],
+   "established": "The B61 numerics genuinely cannot decide the 2 unresolved modes (spectral invariants scatter across seeds). Identified them via exact root-system combinatorics (opposition involution theta=-w0) as a second char(M^2) sector. A symbolic proof of the identification still needs the ambient SL(5,C) trace ring (open).",
+   "status_words": [
+    "Recorded as a live structural result, not proven"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "theta-eigenspace dims (2,0) n=3, (2,2) n=4, (4,2) n=5",
+    "eigenvalues phi^2=2.618..., 1/phi^2=0.382...",
+    "suite 107 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'a symbolic proof of the height decomposition needs the ambient SL(5,C) trace ring (B58's open task).'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B63 SL(4) fixed-line factorization over Z[m] (computer-assisted)",
+   "arcs": [
+    "B63",
+    "B58"
+   ],
+   "established": "Reports honestly that the hand-built SL(4) trace ring is harder than expected — requires multi-block Procesi machinery (documented, not built). Instead used high-precision numerics + exact interpolation over Z[m] to PROVE the SL(4) factorization for general m, m-independent power/sign/parity structure.",
+   "status_words": [
+    "PROVEN (computer-assisted symbolic, over Z[m])"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "L_2=m^2+2, L_3=m^3+3m, L_4=m^4+4m^2+2, L_{±1}=±m",
+    "max-match 3.4e-7 at m=1"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'That multi-block Procesi machinery is the real reason B58 is open. Documented, not built.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B64 parity mechanism: proof of the tower's k(α) sector assignment",
+   "arcs": [
+    "B64",
+    "B54",
+    "B62"
+   ],
+   "established": "Proved the P-symmetric/antisymmetric sector assignment (even|k| symmetric, odd|k| antisymmetric) via Cayley-Hamilton + contragredient + Dickson parity, full symbolic for SL(3); sector assignment (not full proof) for SL(4). Obstruction localized: needs the single-block Lambda^2 V (depth-6) trace ring piece.",
+   "status_words": [
+    "PROVEN (SL(3)); SECTOR-ASSIGNMENT (SL(4))"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B65 symbolic SL(4) Jacobian J(m), char poly factored over Z[m]",
+   "arcs": [
+    "B65",
+    "B64",
+    "B59"
+   ],
+   "established": "Direct symbolic factorization of the full SL(4) Jacobian over Z[m], matching B63/B64; m=1 reproduces B59. Honest status: computer-assisted in entry determination (high-precision numerics + exact over-determined reconstruction), exact symbolic algebra thereafter. Purist first-principles Procesi trace ring proof remains open.",
+   "status_words": [
+    "PROVEN (computer-assisted)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'The purist from-first-principles Procesi trace ring (B58; the mixed two-block machinery) remains the open item.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B66 SL(6) numerical tower: the |k|=3 multiplicity test (= 2)",
+   "arcs": [
+    "B66"
+   ],
+   "established": "Computed SL(6,C) 35-dim character variety row; resolved |k|=3 multiplicity=2, REFUTING the alternative 'max(n-d,1)' formula (which predicts 3 at n=6). Honest limit: only 26/35 multipliers resolve; 9 gauge-corrupted, so the full profile is not completely determined.",
+   "status_words": [
+    "REFUTED (max(n-d,1) formula)"
+   ],
+   "retractions": [
+    {
+     "what": "the alternative multiplicity-growth formula max(n-d,1) predicting 3 at n=6",
+     "of_which_arc": "the tower multiplicity-formula debate (B60-B65 line)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "|k|=3 multiplicity=2",
+    "26/35 resolve"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'|k|=3 multiplicity = 2, the same as SL(5) — it does NOT grow with n, refuting max(n-d,1).'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "Tower verification pass: SL(2) parity correction + B66 relabel",
+   "arcs": [
+    "B66",
+    "B33"
+   ],
+   "established": "Corrected an error: the SL(2)/n=2 identity-fixed-point Jacobian parity factor is (t+1), not (t-1) as previously stated in DRAFT_NOTE.md. Also relabeled B66's 'odd/even-k' bins as 'odd/even-height' (a labeling correction, result unaffected).",
+   "status_words": [
+    "CORRECTED"
+   ],
+   "retractions": [
+    {
+     "what": "DRAFT_NOTE.md's cross-n tower table listing n=2 parity block as 'none' / an implicit (t-1) parity error",
+     "of_which_arc": "the tower cross-n table (post-B33/B66)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'the DRAFT_NOTE.md cross-n tower table had listed the n=2 parity block as none (under-counting the 3-dim variety by the degree-1 factor); corrected to (t+1).'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B66 validation campaign: mult(|k|=3)=2 stress-tested four ways",
+   "arcs": [
+    "B66"
+   ],
+   "established": "Four independent checks confirm mult(|k|=3)=2 for SL(6): identical pipeline across SL(3..6), second/third m values, gauge-subspace seed-stability analysis, and an honest negative that no exact-over-Q reconstruction exists at SL(6) (unlike gauge-clean SL(4)).",
+   "status_words": [
+    "CONFIRMED (numerical, robust)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "mult(|k|=3)=1,1,2,2 for SL(3..6)",
+    "suite 131 passed"
+   ],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'there is no exact rational matrix to reconstruct — unlike gauge-clean SL(4) (B65). The intrinsic character-variety Jacobian is canonical, but computing it exactly is the ambient SL(6,C) Procesi trace ring — B58, still open.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "title": "B67: figure-eight A-polynomial from the trace-map fixed-point set",
+   "arcs": [
+    "B67"
+   ],
+   "established": "Derived the figure-eight knot's published A-polynomial (Cooper-Long 1996) exactly from the SL(2,C) trace map's fixed-point set: derived - Cooper-Long = 0 (literal equality). Cross-validates the trace-map tower work against an independent published invariant.",
+   "status_words": [
+    "PROVEN (exact, cross-validated)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "A(M,L) = M^4 L^2 + (-M^8+M^6+2M^4+M^2-1)L + M^4",
+    "suite 136 passed"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-03",
+   "title": "Closing the exploratory phase: B58 Stage 1 + overnight consolidation",
+   "arcs": [
+    "B58"
+   ],
+   "established": "Recorded a REFUTED scoping guess (cotangent dimension formula 3n^2-10n+11, never validated) as visible history rather than deleted. Cotangent route to a_d formally CLOSED as a failed shortcut. Overnight jobs: Job 4 SL(7) inconclusive; Job 2 SL(3) A-poly NO-GO; Job 6 AJ not promoted.",
+   "status_words": [
+    "REFUTED (cotangent scoping guess)",
+    "CLOSED (cotangent route)",
+    "NO-GO (Job 2)",
+    "INCONCLUSIVE (Job 4)"
+   ],
+   "retractions": [
+    {
+     "what": "the scoping guess that cotangent dimension = 3n^2-10n+11 (predicting 8,19,36)",
+     "of_which_arc": "B58 exploratory scoping"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "cotangent spectrum 9 (n=3), 30 (n=4), >=111 (n=5, PARTIAL)",
+    "excess=1,15,>=87"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'A scoping guess ... was never validated and is REFUTED by the Đoković cross-check; kept visible so it is not re-derived.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "An explicit 'forward guard' is banked to preempt a future misreading: any future entropy/spectral-weight probe must compute Sum|k| weight, NOT topological entropy — a documented anti-pattern warning."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-03",
+   "title": "Punch-list closeout (post-reaudit) + tracked PC12-refresh deferral",
+   "arcs": [
+    "B64",
+    "PC12"
+   ],
+   "established": "Requalified B64's Ledger V15 status from an overstated 'PROVEN (symbolic)' to the honest tiered statement (SL(3) proven, SL(4) sector-assignment, general n structural mechanism). Flagged PC12 candidate docs as stale (predate B58/B66/B67) but 'not contradictory' — a tracked deferral before any specialist hand-off.",
+   "status_words": [
+    "CORRECTED (B64 status label)"
+   ],
+   "retractions": [
+    {
+     "what": "the previously overstated status label 'PROVEN (symbolic)' for B64's general-n claim",
+     "of_which_arc": "B64"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Ledger V15 (B64) status requalified PROVEN (symbolic) -> PROVEN (symbolic, SL(3)); SECTOR-ASSIGNMENT (SL(4)); STRUCTURAL MECHANISM (general n) to match the honest B64 README.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-04",
+   "title": "B58 Phase A consolidation: merge, honest relabel, candidate `a_d` pinned",
+   "arcs": [
+    "B58",
+    "B65",
+    "B66"
+   ],
+   "established": "Built an exact (n^2-1) fixed-line Jacobian engine, validated at n=4, but WRONG at n=5 (returns a_2=1, not true 2) in EVERY field/precision tested (F_p random, F_p exact, real mpmath) — the pinv/ambient-Jacobian construction UNDER-COUNTS degenerate multiplicities, a construction-level bug not a precision ceiling. A prior 'exact-Q fix' hypothesis is explicitly refuted. Strategic fork (bank vs pursue full trace-ring proof) HELD for human decision.",
+   "status_words": [
+    "REFUTED (exact-Q fix hypothesis)",
+    "HELD (strategic fork)"
+   ],
+   "retractions": [
+    {
+     "what": "the hypothesis that the n=5 shortfall (a_2=1 vs true 2) is finite-field non-canonicity, fixable over exact Q",
+     "of_which_arc": "B58 Phase A engine"
+    }
+   ],
+   "owner_elections_verbatim": [
+    {
+     "what": "the strategic choice between banking the candidate a_d formula vs committing to the multi-session B58 trace-ring proof",
+     "of_which_arc": "B58 program"
+    }
+   ],
+   "numbers_claimed": [
+    "a_2=1 (wrong; true value 2)",
+    "defective cubic {-0.734,-0.734,2.695}"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'The exact-Q fix hypothesis was WRONG and is kept visible ... ALL give a_2=1. The cause is the pinv/ambient-Jacobian construction... UNDER-COUNTS degenerate multiplicities — wrong, not merely ceilinged, from n=5 in every field/precision.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "B62 explicitly downgraded from 'theorem' status to 'State 3 for full a_d, State 2 (verified candidate) for height-2 only' — B64 'proved the SECTOR, not the COUNT.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-04",
+   "title": "Phase 8: physics-paths sweep (robustly negative) + B68/B69/B70 + the trace-ring attack",
+   "arcs": [
+    "B68",
+    "B69",
+    "B70"
+   ],
+   "established": "Systematic sweep of every reachable physics anchor: 'the framework produces real mathematics ... but has NO CROSSING into fundamental — or even new quantum — physics; every reachable anchor is special to n=2/m=1 and does not generalize.' Two open real-physics targets closed negative: metallic anyons (categorifiable only at m=1) and SL(n) quasicrystal spectra (symplectic obstruction, SL(n)=Sp only at n=2).",
+   "status_words": [
+    "DEAD (metallic anyons, SL(n) quasicrystal spectra)",
+    "STANDARD_REPACKAGE (B69 cusp law)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'the framework produces real mathematics (low-dim topology/number theory/1D condensed matter) but has no crossing into fundamental — or even new quantum — physics.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "'Novelty check: STANDARD_REPACKAGE — the cusp law is the known Baker-Petersen ideal-point structure ... not new' — an internally-flagged non-novelty."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-05",
+   "title": "open-paths sweep (V43–V52) + the comprehensive Paths A–F mandate (V53–V59)",
+   "arcs": [
+    "B71",
+    "B73",
+    "B74",
+    "B75",
+    "B76",
+    "B68",
+    "B70"
+   ],
+   "established": "Two governed exploration runs; degree=rank tower law confirmed at SL(3),SL(4) (M^n=L); symbolic-m pinv-limit construction resolves SL(3) tower from first principles; j=1728 confirmed killed; higher-spin/W_N grading is SPECULATIVE-ANALOGY; AJ conjecture retry confirms a bounded negative (matches literature theorem).",
+   "status_words": [
+    "CONFIRMED (degree=rank at n=3,4)",
+    "SPECULATIVE-ANALOGY"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 179 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'Honest headline: the mathematics is real ... every physics bridge returned negative.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-05",
+   "title": "follow-on + unification + \"Complete the Tower\" runs (V60–V74)",
+   "arcs": [
+    "B80",
+    "B83",
+    "B84",
+    "B85",
+    "B87",
+    "B88",
+    "B89",
+    "B90"
+   ],
+   "established": "B80 proved the SL(4) metallic tower from first principles. B83 established the A_n family L=(-1)^(n-1)*M^n, SL(4) A-polynomial L=-M^4 stated NEW. B89: M^4=L PROVED symbolic-exact at SL(4) over Q(omega). B89-T: tower cohomological route CLOSED (dead shortcut). B90: degree=rank reduced to one collapse-lemma, proved n<=4.",
+   "status_words": [
+    "PROVEN (B80,B89,B90 at n<=4)",
+    "CLOSED (B89-T cohomological route)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 220 passed, 1 skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Both flagship results (the tower, degree=rank) are 'reduced to a single clean lemma each with the n<=4 cases proved' — genuine bounded progress, general-n still open."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-06",
+   "title": "the V75 audit + Paper 0 (the self-reference grounding)",
+   "arcs": [
+    "B87",
+    "B88",
+    "B89",
+    "B90",
+    "B92",
+    "B93",
+    "B94"
+   ],
+   "established": "A verification chat's audit found B90's Lemma 1a is a TAUTOLOGY (holds on random non-bundle data) and its 'exponent=rank from Cayley-Hamilton' claim is REFUTED by a hinge test (both SL(4) Dehn-filling components satisfy L1b but give exponents 4 vs 3); only L1b is genuine. degree=rank stands proved only at n=3,4, not uniform-n as previously implied. Methodology rule banked: never override a symbolic result with numerics alone.",
+   "status_words": [
+    "REFUTED (B90's exponent=rank-from-CH claim)",
+    "PROVEN (degree=rank, n=3,4 only)"
+   ],
+   "retractions": [
+    {
+     "what": "B90's claim that 'exponent = rank from A's degree-n Cayley-Hamilton' is a proof",
+     "of_which_arc": "B90"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'B90's L1a is a tautology (holds on random non-bundle (A,t)); B90's exponent = rank from Cayley-Hamilton is refuted by the hinge test (both SL(4) Dehn-filling components satisfy L1b but give exponents 4 vs 3); only L1b is genuine.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Methodology banked: 'never override an expected/symbolic result with numerics alone; don't count tautologies toward a reduction; run the decisive gate first' — an explicit process lesson from a caught overclaim."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-06",
+   "title": "Task M: the degree=rank mechanism (V79) + the §1–§3 cleanup pass",
+   "arcs": [
+    "B95",
+    "B94"
+   ],
+   "established": "B95 found the exponent=rank mechanism: the principal spectrum is forced by tr A=tr A^-1=1 and reduces to {1,i,-i} (n=3), {1,1,omega,omega^2} (n=4), {1,1,1,-1,-1} (n=5, forces A^2=I hence dihedral hence REDUCIBLE — no irreducible SL(5) principal rep exists), impossible n>=6. So 'exponent=rank' is an n in {3,4} phenomenon. Also corrected B94's overclaimed 'Cayley-Hamilton' label for catalog universality to Sym-plethysm, and fixed hardcoded /Users/dri absolute paths.",
+   "status_words": [
+    "PROVEN (n in {3,4} phenomenon; structural reason)",
+    "CORRECTED (B94 overclaim)"
+   ],
+   "retractions": [
+    {
+     "what": "the handoff's SL(5) guess and B94's mislabeled 'Cayley-Hamilton' justification for catalog universality",
+     "of_which_arc": "B94"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "De-hardcoded four /Users/dri absolute paths — a reproducibility hygiene fix, meaning prior committed scripts (B77/B79/B83/B88) would not run on a fresh machine as-is."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-06",
+   "title": "geometry-invariants + literature-bridge pass (V80–V84); physics quarantined",
+   "arcs": [
+    "B96",
+    "B97",
+    "B98",
+    "B99",
+    "B100"
+   ],
+   "established": "B96: complete structure is a strict volume MAXIMUM (155/156 fillings below V0) so the Neumann-Zagier volume Hessian is definite, NOT Lorentzian — 'the most-leveraged physics path returns negative.' B97: the (2,1) Lorentzian form found is structural (SL(2,R)/Teichmuller Killing form), not emergent. B98/B99: the tower is a trivial-rep phenomenon, does NOT appear at the geometric rep. B100: cross-validated against Zickert/Ptolemy and Baker-Petersen (published, independent code path).",
+   "status_words": [
+    "DEAD (Lorentzian-volume physics path)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "volumes 2.030<3.664<4.814 monotone",
+    "155/156 fillings below V0"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'the most-leveraged physics path (CC-web Path 1) returns negative' — a decisive computed rejection of the strongest candidate physics bridge tried so far."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-06",
+   "title": "the Hitchin-component reframing (V85); physics firewalled",
+   "arcs": [
+    "B101"
+   ],
+   "established": "Identified the geometric component V0 as the Fuchsian locus of the SL(3,R) Hitchin component. R2 (dead, first-class negative): the symmetric-space ladder gives Lorentzian signature ONLY at k=2 and does not climb — no 'tower of spacetimes up the ranks'. R4: an explicit cubic deformation stays Anosov but breaks the SO(2,1) form.",
+   "status_words": [
+    "DEAD (R2, 'tower of spacetimes' idea)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 256 passed, 1 skipped"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "R2 explicitly recorded in FAILURE_ATLAS with two companion dead heuristics (Goldman metric Riemannian; Hessian/Fisher forms definite not spacetime) — a first-class negative, not a silent drop."
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Firewall Path 7 states the ceiling honestly: even total success on the Hitchin->Langlands->class-S chain reaches N=4 SYM, 'one superconformal gauge theory, not the Standard Model/gravity/the universe' — never a claim."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-06",
+   "title": "the W1/W2 dichotomy + the R4 boundary-controlled cubic continuation (V86)",
+   "arcs": [
+    "B102"
+   ],
+   "established": "D1-D4 SOLID: all SL(3) figure-eight components excluded from the real SL(3,R) Hitchin component (ellipticity obstruction). D5 (R4 continuation): the handoff's clean geodesic boundary result does NOT reproduce — a claimed cusp-collision wall at t*≈3.775 is a non-reproducible SVD-basis artifact.",
+   "status_words": [
+    "SOLID (D1-D4)",
+    "NOT REPRODUCED (D5 headline)"
+   ],
+   "retractions": [
+    {
+     "what": "a handoff's claimed clean (lambda,1,1/lambda) geodesic boundary with a cusp-collision wall at t*≈3.775",
+     "of_which_arc": "cross-session handoff to B102"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'The handoff's clean (lambda,1,1/lambda) geodesic boundary with Im=0 throughout and a cusp-collision wall at t*≈3.775 does not reproduce ... t*≈3.775 is a non-reproducible SVD-basis artifact.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "the SL(n) tower as a GL(2,ℤ) representation (V87); a fourth route",
+   "arcs": [
+    "B103"
+   ],
+   "established": "Opened a fourth route after three died (cohomological B89-T, numerical-pinv B84, Lambda^2 B85): J(n) factors through the abelianization N in GL(2,Z), making the tower a class function (universality structural, all n). Route 2: explicit m-independent invertible P realizes the module-iso constructively and exactly for n=3,4.",
+   "status_words": [
+    "PROVEN (universality, all n); PROVEN (explicit catalog, n=3,4)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 269 passed, 1 skip"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-07",
+   "title": "the Dehn-twist route: SL(4) universality + the SL(5) wall (V88)",
+   "arcs": [
+    "B104",
+    "B103"
+   ],
+   "established": "SL(4): the explicit SL(4) catalog is now a computed theorem for ALL monodromies (metallic and non-metallic), not a conjecture. SL(5): the engine is consistent but resolves only 21/24 Dickson factors — the same eps-series gauge corruption as B61/B66, characterized as computational, not representation-theoretic.",
+   "status_words": [
+    "PROVEN (SL(4), all monodromies)",
+    "STALLED (SL(5), characterized wall)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "21/24 SL(5) factors resolve",
+    "suite 274 passed, 1 skip"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-07",
+   "title": "the n=5 wall characterized + the ρ_n convergence (V89)",
+   "arcs": [
+    "B105"
+   ],
+   "established": "VERDICT: the n=5 tower degeneracy is a coordinate artifact, not a structural change — but the strict 'all 3 resolved' bar is not met, so the n=5 catalog stays formally open. H6: the forced cusp spectra collide at n=5 ('one collision' as unified wall). NOTE: this entry's own inferences were later downgraded in the next two entries (V90, V91).",
+   "status_words": [
+    "OPEN (n=5 catalog, formally)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 278 passed, 1 skip"
+   ],
+   "red_flags": [
+    {
+     "kind": "LOG_STRONGER_THAN_LIKELY",
+     "detail": "This entry's central inferences ('coordinate artifact' and 'natural boundary at n=4, proved') were both explicitly withdrawn two entries later (2026-06-07 B105 V90 and V91) as overreach — a same-day/adjacent self-correction pattern worth flagging for readers who stop here."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B105 V90 audit: two inference downgrades (the n=5 verdict + the boundary)",
+   "arcs": [
+    "B105"
+   ],
+   "established": "Explicit downgrade of the immediately preceding entry. Correction A: 'gauge-noise implies coordinate artifact, not structural change' is INVALID/withdrawn — seed-variation is uninformative at the unresolved sector; the n=5 catalog is genuinely OPEN (neither ruled in nor out). Correction B: 'natural boundary at n=4, proved' OVERSTATES — there is no mathematical boundary, only a methodological computational ceiling.",
+   "status_words": [
+    "WITHDRAWN (Correction A, Correction B)"
+   ],
+   "retractions": [
+    {
+     "what": "'gauge-noise -> coordinate artifact, not structural change' and 'natural boundary at n=4, proved/complete'",
+     "of_which_arc": "the immediately preceding B105/V89 entry"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Correction A ... is INVALID (withdrawn).' 'Correction B ... OVERSTATES (withdrawn).' Both retractions target the entry logged earlier the same day."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B105 V91: the three-obstacle / one-threshold correction + the sharpened ρ_n target",
+   "arcs": [
+    "B105"
+   ],
+   "established": "Further correction: B105's 'one collision' framing conflated THREE distinct obstacles (degree=rank at eigenvalue -1; tower/eps-series at B62's height-2 doubling with eigenvalue phi^2; trace-ring non-closure onset at n=4, purely algebraic) that merely share the n=5 threshold by coincidence. 'One collision' explicitly withdrawn, replaced with 'n=5 is a structural threshold where several distinct features degenerate together.'",
+   "status_words": [
+    "WITHDRAWN (the 'one collision' unification)"
+   ],
+   "retractions": [
+    {
+     "what": "'the tower wall and degree=rank wall are one collision'",
+     "of_which_arc": "B105/V89-V90"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'B105 then folded the degree=rank wall into the same one collision... That conflates three distinct obstacles ... Different eigenvalues (-1 vs phi^2), independent derivations (B95 vs B62), different onset (n=5 vs n=4). So one collision is a narrative over distinct mechanisms — withdrawn.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B106 hygiene (V93) + B107 physics-connection audit (V94, POSTULATED/FIREWALLED)",
+   "arcs": [
+    "B106",
+    "B107"
+   ],
+   "established": "B106: gauge-noise gate confirms SL(4) Dehn-filling neutral eigenvalues are genuine roots-of-unity structure, not pinv artifact. B107: banks a physics-connection audit whose headline is a NEGATIVE — every physical reading POSTULATED and firewalled; the SL(2) metallic trace map IS the Kohmoto-Kadanoff-Tang/Fibonacci-Hamiltonian map (verified anchor), but 'tower/torsion = masses/dimensions' readings are WITHDRAWN as category errors.",
+   "status_words": [
+    "WITHDRAWN (tower=masses/dimensions reading)",
+    "POSTULATED/FIREWALLED"
+   ],
+   "retractions": [
+    {
+     "what": "the reading that tower/torsion values equal particle masses or spacetime dimensions",
+     "of_which_arc": "earlier informal physics readings (pre-B107)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'tower/torsion = masses/dimensions are withdrawn category errors — only the moduli-space-level M_SUSY ≅ M_flat ... map is citable.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Explicit finding: 'every SL(3) m=1 tower eigenvalue is ±phi^k — one geometric scale log phi; a fluctuation spectrum is a Hessian, not one ratio, so the tower is re-presented moduli-space monodromy, not new physics.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "intellectual-architecture reorganization (four governed rooms; docs/org only, no math)",
+   "arcs": [],
+   "established": "Docs/org restructuring only (speculations/, philosophy/ folders with proof-status taxonomy). No math, no claim change.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-07",
+   "title": "the Final Computation Arc (B108–B110) + the dead-ends register",
+   "arcs": [
+    "B108",
+    "B109",
+    "B110"
+   ],
+   "established": "B108: the mandatory hinge for degree=rank's exponent FAILS (theta is order-2, c=i is order-4, beyond its reach) — degree=rank's c stays OPEN. B109: the handoff's coordinate-axis facts do NOT reproduce; a rigorous linearization is substituted instead. B110: the SL(3) figure-eight variety's off-locus sector is EMPTY (exactly three components, all forced). ~30 kills consolidated into the dead-ends register.",
+   "status_words": [
+    "OPEN (degree=rank's c)",
+    "NOT REPRODUCED (B109 handoff facts)",
+    "EMPTY (B110)"
+   ],
+   "retractions": [
+    {
+     "what": "a handoff's coordinate-axis dynamical facts for the void",
+     "of_which_arc": "cross-session handoff behind B109"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "Lyapunov {0, +/-4 log phi}"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'The handoff's coordinate-axis facts do NOT reproduce; the rigorous linearization DT1^2(2,2,2) does, with eigenvalues {1, phi^4, phi^-4}.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B111: the tower's sign structure + the degree=rank exponent (the \"sign findings\" handoff)",
+   "arcs": [
+    "B111"
+   ],
+   "established": "The closed-form opposition-involution formula is NOT the proved tower; diffing shows Tower(n)=[closed form]+one char(M^1) promoted to char(M^n). ADDITION 1 (proved negative): on SL(4) secondary M^4 is scalar so k=4 is algebraically impossible, k=3 forced. Correction: the handoff's SL(3) parity sign was a slip (t-1)(t-det N), not (t+det N).",
+   "status_words": [
+    "PROVEN NEGATIVE (ADDITION 1)",
+    "CORRECTED (sign slip)"
+   ],
+   "retractions": [
+    {
+     "what": "the handoff's SL(3) parity formula '(t+det N)'",
+     "of_which_arc": "the sign-findings handoff to B111"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 304 passed"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Correction: the SL(3) parity is (t-1)(t-det N) (the handoff's (t+det N) was a sign slip).'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "'s_n<->c bridge DEAD (same parity argument as B108)' — another candidate physics-adjacent bridge closed."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "the ρ_n sign half PROVED + the five follow-on paths (B112–B115)",
+   "arcs": [
+    "B112",
+    "B113",
+    "B114",
+    "B115"
+   ],
+   "established": "B112: the sign half of rho_n PROVED for all n via an elementary root-system reversal lemma, engine-free. B113: resolves SL(5) sign sectors by proof. B114: the covering-degree mechanism (S022's exponent candidate) TESTED-NEGATIVE (full covering degree is ~k^(n-1), not k). B115: two further routes scoped OPEN (SL(4) off-locus components uncomputed; genus-2 construction not in repo).",
+   "status_words": [
+    "PROVEN (sign half, all n)",
+    "TESTED-NEGATIVE (B114)",
+    "OPEN (B115)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 312+ passed"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Note: this entry's headline ('sign half PROVED for all n') is itself partially walked back in the later 2026-06-07 B116 entry ('proved for n<=5; all-n OPEN') — a same-day-cluster contradiction across entries worth cross-checking."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B119: the Mᵏ-scalar (centrality) mechanism — a sharp negative on \"prove k=n on the principal\" (Chat-2 Path 3)",
+   "arcs": [
+    "B119",
+    "B111"
+   ],
+   "established": "The 'brave' goal to prove k=n on the principal from scalar-ness does NOT close: centrality is necessary but not sufficient; k=n is actually pinned by the already-proved B83 A-polynomial, so the scalar route is subsumed, not independent. For n>=5 there is nothing to prove since the principal rep doesn't exist irreducibly. Also corrects B111 ADDITION 2's cusp-order law as conflating three different components.",
+   "status_words": [
+    "PROVEN NEGATIVE (the brave k=n proof cannot be completed)"
+   ],
+   "retractions": [
+    {
+     "what": "B111 ADDITION 2's claimed clean all-n cusp-order law {n-1,n+1,2n}",
+     "of_which_arc": "B111"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Emergent (B111 ADD2 correction): the cusp order ... is order(a)={4,3,2,infinity}, NOT a clean {n-1,n+1,2n} law — B111 ADD2 conflated three different components.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B122 interlude extensions: the det layers split + the Sym tower is void-specific (terrain-sweeping)",
+   "arcs": [
+    "B122",
+    "K008",
+    "S023"
+   ],
+   "established": "F1: the magnitude layer (W-identity) is det-independent (verified through n=14), more general than the metallic ray; the sign layer is det=-1-specific. F2: corrected a narration slip — the (0,0,0) fixed-point order is 6, not 3 (lambda^3+1 = 6th roots of unity).",
+   "status_words": [
+    "CORRECTED (order-3 -> order-6 slip)"
+   ],
+   "retractions": [
+    {
+     "what": "a narration slip describing the (0,0,0) fixed point's order as 3",
+     "of_which_arc": "prior narration around B122/void dynamics"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "W-identity holds through n=14",
+    "(0,0,0) eigenvalues {-1, e^{+/-i pi/3}} order 6"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'char poly lambda^3+1=(lambda+1)Phi_6, DT^6=I — order 6, correcting a narration slip of order 3.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "Firewalled triage of the cross-chat \"seven hints\" (tiers kept separate; the S024 collision fixed)",
+   "arcs": [
+    "S028",
+    "S024",
+    "S027"
+   ],
+   "established": "Triaged physics-facing hints from other chat sessions into strict tiers so the firewall (math vs physics) does not leak. Fixed a numbering collision: an incoming handoff mislabeled a new speculation S024, but S024 was already taken by a different (Phase-2 monodromy/Hitchin) entry — corrected to S028. One 'A4' CS-crossover match killed as a volume coincidence (TESTED-NEGATIVE, tombstoned).",
+   "status_words": [
+    "TESTED-NEGATIVE (A4)",
+    "POSTULATED (fenced, S028)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'Crucial fix: this is S028, NOT S024 — the incoming handoff said S024, but S024 is already the Phase-2 monodromy/Hitchin entry (a numbering collision, corrected).' A cross-session bookkeeping error caught before it corrupted the catalog."
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "A4 (the CS-crossover k≈4<->n=4 match) is explicitly killed as 'a volume coincidence, same family as the killed value-matches.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B122: the tower is symmetric powers of the external fundamental W=V⊕1 (unifies B121 + the Chat-2 W-identity)",
+   "arcs": [
+    "B122",
+    "B121",
+    "B103"
+   ],
+   "established": "Verified the character identity rho_n = Sym^n(W)+Sym^(n-3)(W)-1-V for n=2..11 and as a genuine GL(2)-module iso n<=8 (correcting a first pass that wrongly called it 'automatic'). Honest verdict: this REPACKAGES the prize (identifies W canonically) but does NOT lower the trace-ring wall — no functorial Sym(W)->trace-ring map exists yet.",
+   "status_words": [
+    "PROVEN (module iso, n=3,4); does not close the wall"
+   ],
+   "retractions": [
+    {
+     "what": "'a first pass wrongly called it automatic' (that the character identity is trivially a module iso)",
+     "of_which_arc": "B122 internal first-pass"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'a first pass wrongly called it automatic, but that's only over the cyclic <M>; the tower is a GL(2,Z)-rep (B103), and the identity holds symbolically... module-level proved n=3,4.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "Physics-bridge sweep, Phase 3: the heavy forks mapped + the Kashaev feasibility (sweep complete)",
+   "arcs": [
+    "S025",
+    "S026",
+    "S027",
+    "B121"
+   ],
+   "established": "Closing phase of a full physics-bridge sweep (Phases 0-3). Honest overall outcome: 'the genuine connection-to-reality is condensed-matter quasicrystals (buildable) and the 3d-3d/complex-CS topology of the figure-eight (real QFT/knot invariants) — not masses/Lambda/spacetime (all dead).'",
+   "status_words": [
+    "DEAD (masses/Lambda/spacetime bridges)",
+    "DORMANT (S025,S026,S027)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'S025 — off-principal independent spectral content at higher rank: EMPTY for 4_1/SL(3) (B110), open only at SL(4)/SL(5) or another manifold.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "Physics-bridge sweep, Phase 2: the monodromy sl(2) grading (an external det=−1 GL(2,ℤ)-rep)",
+   "arcs": [
+    "B121",
+    "S024"
+   ],
+   "established": "The two SL(2) actions on the trace-map tower (internal principal Kostant vs external monodromy GL(2,Z)) share dimension n^2-1 but are inequivalent for n>=3 (odd highest weights obstruction), tied to det(M_m)=-1. This is turned into a positive characterization, explicitly not crossing the firewall; the Hitchin->Langlands->class-S reading is fenced as POSTULATED with ceiling N=4 SYM, not the SM.",
+   "status_words": [
+    "PROVEN (inequivalence, n>=3)",
+    "POSTULATED (S024)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "shared dim n^2-1, agree only at n=2"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-07",
+   "title": "Physics-bridge sweep, Phase 1: the metallic means are distinct real quasicrystals (FIREWALLED)",
+   "arcs": [
+    "S023"
+   ],
+   "established": "Computed that the metallic-mean quasicrystal gap-labeling modules live in three DISTINCT quadratic fields Q(sqrt5), Q(sqrt2), Q(sqrt13) — a genuine, buildable, real-materials physics result (1D condensed matter), explicitly NOT fundamental physics. Most 'obvious' bridges (masses/Lambda/spacetime, holography, Seiberg-Witten family, fusion/anyon family, SL(n>=3) Hermitian chain) are pre-declared dead or textbook.",
+   "status_words": [
+    "TESTED-POSITIVE (S023, condensed matter only)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "squarefree disc {5,2,13}",
+    "gap labels confirmed 10/10, 12/12, 12/12",
+    "box-dimension {0.628,0.636,0.650}"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Explicitly scoped: '1D condensed matter, not fundamental physics; the m=1 gap-labeling is textbook (Bellissard 1992).' A real, OBSERVABLE physical result but deliberately labeled as unrelated to the thesis's fundamental-physics aim."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B120: the trivial-point tower is determined by (n; trace, det) — banks Chat-2 Q2/Q3 + Supplement S1–S5",
+   "arcs": [
+    "B120",
+    "B103",
+    "B117"
+   ],
+   "established": "Eight claims verified; THREE FORMULAS CORRECTED from scratch: S1's doubling-band formula (n^2-3n)/2 is off by 2 (correct: (n-4)(n+1)/2); S3/S5's eigenvalue-height count formula and its 'no closed form' claim were both wrong (a clean closed form exists); an incoming 'n=3 divergence' claim was a units error (eigenvalue-vs-factor level), B116 stands.",
+   "status_words": [
+    "CORRECTED (three formulas)"
+   ],
+   "retractions": [
+    {
+     "what": "the handoff's doubling-band formula (n^2-3n)/2, the eigenvalue-height-count guess 2*max(1,n-h-1), and its 'no closed form exists' claim",
+     "of_which_arc": "an incoming Chat-2 supplement"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'S1: the doubling band {2..n-3} is forced ... but the handoff's (n^2-3n)/2 is off by 2.' 'S3+S5: ... the handoff's 2*max(1,n-h-1) guess is wrong and its no closed form claim is wrong.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B118: the θ=−w₀ fixed-root sign = (−1)^{h+1} (NOT the anticipated uniform +1) — a refinement of B112 (Chat-2 Path 1)",
+   "arcs": [
+    "B118",
+    "B112"
+   ],
+   "established": "Path 1 asked whether B112's fixed-root sign is uniformly +1 for all (n,h), which would make B64 a uniform theorem. Computed answer: the sign is (-1)^(h+1), NOT uniform +1 — B112's unsigned reading is right only for odd h. B112's dimension formulas stand; only the geometric sign claim is refined/corrected.",
+   "status_words": [
+    "CORRECTED (B112's implicit uniform-+1 assumption)"
+   ],
+   "retractions": [
+    {
+     "what": "B112's assumption that the fixed-root sign of theta=-w0 is uniformly +1 for all (n,h)",
+     "of_which_arc": "B112"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'The sign is (-1)^(h+1), NOT a uniform +1 ... B112's unsigned-permutation reading (the fixed root is always +1) is right only for odd h.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B117: the interleaving insight (the tower is the Sym two-sequence; the \"promotion\" is a Sym¹ absence)",
+   "arcs": [
+    "B117",
+    "B103",
+    "B111",
+    "B113"
+   ],
+   "established": "Derived the two-sequence shape from a dimension identity (unique perfect fit at n=4). Shows there is NO 'promotion' at all — B111/B113's 'promoted char(M^1)->char(M^n)' picture is superseded/dissolved: it is really a Sym^1 absence. Re-aims the prize to proving mu_d for all n via the Sym two-sequence, not the theta-split.",
+   "status_words": [
+    "SUPERSEDED (B111/B113's 'promotion' framing)"
+   ],
+   "retractions": [
+    {
+     "what": "B111/B113's framing that the tower's top power char(M^n) is a 'promoted' char(M^1)",
+     "of_which_arc": "B111, B113"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'There is no promotion... The two separable halves (sign + power) picture and the sign-conserving-promotion question are dissolved — tombstoned in speculations/TOMBSTONES.md.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-07",
+   "title": "B116: reconcile θ-split (B112) vs Sym two-sequence (B103) — and a CORRECTION to B112",
+   "arcs": [
+    "B116",
+    "B112",
+    "B103"
+   ],
+   "established": "Attempted reconciliation instead found a correction: the theta-split (B112) equals the actual tower only for n<=5; at n=6 they DIVERGE. So B112's headline 'sign half proved for all n' must be downgraded to 'proved for n<=5; all-n OPEN.' The theta-split combinatorics themselves remain a real theorem; only the identification with the tower's multiplicities is limited.",
+   "status_words": [
+    "CORRECTED / DOWNGRADED (B112's all-n claim)"
+   ],
+   "retractions": [
+    {
+     "what": "B112's headline 'the sign half of the tower is proved for all n'",
+     "of_which_arc": "B112 (banked earlier the same day, 2026-06-07)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'B112's sign half proved for all n -> sign half proved for n<=5; all-n OPEN. Annotated V99.' This directly contradicts the B112 entry logged earlier the same day ('proved for all n, engine-free')."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-08",
+   "title": "B123: m=1 arithmeticity (the third selection criterion) + the quantum/knot triage (V112, SUPPORTED)",
+   "arcs": [
+    "B123",
+    "K009"
+   ],
+   "established": "Computed the figure-eight's invariant trace field Q(sqrt-3) (arithmetic per Reid 1991, the unique arithmetic knot complement) as a third m=1 selection criterion alongside systole and expansion-threshold. Status explicitly SUPPORTED not TESTED-POSITIVE because the repo has no trace-field classifier for m>=2 to directly confirm non-arithmeticity. Five kills tombstoned as 'standard theory in our notation' (unitarity, tautological roots-of-unity, volume conjecture, a k=4 coincidence, standard asymptotics).",
+   "status_words": [
+    "SUPPORTED"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'the repo has no trace-field classifier' for m>=2, so the m>=2 non-arithmeticity claim is 'the named confirmation step,' not yet directly computed — hence SUPPORTED, not TESTED-POSITIVE."
+    },
+    {
+     "kind": "OTHER",
+     "detail": "This entry's K009 conclusion (m=1 uniquely arithmetic) is OVERTURNED two entries later by B125 (2026-06-08) using SnapPy — flagged for cross-check."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-08",
+   "title": "B124: reciprocal `(λ,1/λ)` pairs + time-reversal `λ↔1/λ` — two strictly-separated tiers (V113)",
+   "arcs": [
+    "B124"
+   ],
+   "established": "Decisive recompute: expanding-mode count == contracting-mode count EXACTLY for every n (2..10) and both det signs -> NO arrow of time; the asymmetry is chirality (P), not time-direction (T). A handoff's claimed monotone raw +/-1 excess formula floor(n/2) does NOT hold — it oscillates period-4, and the exact constant is 'bookkeeping-dependent/open' — the closed form was explicitly NOT banked.",
+   "status_words": [
+    "CORRECTED (no-arrow); NOT BANKED (the closed-form excess)"
+   ],
+   "retractions": [
+    {
+     "what": "a handoff's claimed monotone raw +/-1 excess formula floor(n/2)",
+     "of_which_arc": "cross-session Chat-2 supplement to B124"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Correction B confirmed: the raw +/-1 excess N(+1)-N(-1) oscillates period-4 [-1,0,1,0,...] — NOT monotone floor(n/2); distinct natural decompositions give distinct sequences ... the exact constant is bookkeeping-dependent/open — the closed form was not banked.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-08",
+   "title": "Documentation refresh to B124/V113 (docs only, no math, no claims)",
+   "arcs": [],
+   "established": "Wrote the seven remaining knowledge/ explainer stubs; refreshed atlas docs and roadmap; fixed several stale version-range references across docs. Suite 369 passed, 1 skipped.",
+   "status_words": [],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "suite 369 passed, 1 skipped at B124"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-08",
+   "title": "B125: SnapPy arithmeticity of the metallic R^m L^m bundles — overturns K009 (V114, TESTED-POSITIVE)",
+   "arcs": [
+    "B125",
+    "K009",
+    "B123"
+   ],
+   "established": "SnapPy now runnable in-sandbox. Result OVERTURNS the just-banked B123/K009 conclusion: arithmeticity does NOT uniquely select m=1 — it is a two-element selector {m=1 golden Q(sqrt-3), m=2 silver Q(i)}; m>=3 non-arithmetic. The B123/K009 'third independent/unique m=1 criterion' MIS-APPLIED Reid 1991 (a knot theorem) to bundles.",
+   "status_words": [
+    "TESTED-POSITIVE",
+    "OVERTURNS (K009/B123)"
+   ],
+   "retractions": [
+    {
+     "what": "B123/K009's claim that arithmeticity is a third independent/unique m=1 selection criterion",
+     "of_which_arc": "B123, K009 (2026-06-08, same day, earlier entry)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "trace = m^2+2 -> 3,6,11,18,27,38"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Overturns the B123/K009 third independent/unique m=1 arithmetic criterion, which mis-applied Reid 1991 (a knot theorem) to bundles.' Directly contradicts the entry logged earlier the SAME DAY."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-08",
+   "title": "B126: the ladder to physics — how far does the metallic rigidity propagate? (V115)",
+   "arcs": [
+    "B126",
+    "S029"
+   ],
+   "established": "Literature-grounded: rigidity propagates exactly two floors (arithmetic->quantization; Mostow->T[M] rigidity), then hits a nameable wall (3d->4d is data of the boundary manifold, not M; ceiling N=4 SYM/N=2*). H1(M_m)=Z+(Z/m)^2 PROVED via Smith normal form, confirmed by SnapPy m=1..7. Also corrects an inherited 'exactly two arithmetic bundles' framing as an off-by-one (BMR 1995 = three commensurability classes).",
+   "status_words": [
+    "PROVEN (H1 formula)",
+    "CORRECTED (off-by-one)"
+   ],
+   "retractions": [
+    {
+     "what": "an inherited framing 'exactly two arithmetic punctured-torus bundles'",
+     "of_which_arc": "B125/K009 (prior entry)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "H1(M_m)=Z+(Z/m)^2",
+    "kappa-degree over Q(z) = [1,1,3,3,7,6] for m=1..6"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'So we lack no concept; we lack what no 3-manifold can carry.' — an explicit, sharply stated negative conclusion about the entire physics-bridge program's ceiling."
+    },
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'the inherited exactly two arithmetic punctured-torus bundles framing is an off-by-one (BMR 1995 = three commensurability classes; the figure-eight + sister m003 are two bundles in one Q(sqrt-3) class) — corrected across K009/K002/B125.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-08",
+   "title": "B127: chirality, Fibonacci, arithmetic, and the object's proper name (V116)",
+   "arcs": [
+    "B127",
+    "K010"
+   ],
+   "established": "Audit letter-by-letter re-derived every computational claim; two citation errors in the just-merged B126 caught and fixed same entry. CS=0 machine-zero confirmed for metallic bundles against a discriminating census mix; the physics-bridge claim overall is 'a clean, multiply-confirmed negative.' The strongest survivor is naming the object (metallic-mean Schrodinger cocycle / KKT trace map / Fricke-Vogt invariant).",
+   "status_words": [
+    "CORRECTED (B126 citations)"
+   ],
+   "retractions": [
+    {
+     "what": "two mis-attached citations in the just-merged B126 (SUSY floor-2 citation wrongly attached to Cho-Gang-Kim arXiv:2007.01532)",
+     "of_which_arc": "B126 (prior entry, same/adjacent day)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "CS=0 for m=1..6 (machine zero); m003=4.93, m004=0, m006=-2.25 for comparison",
+    "BMR classes RL->Q(sqrt-3), RRLL->Q(i), RRL->Q(sqrt-7)"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Citation fixes to the merged B126: re-attach Floor-2 SUSY from the mis-attached Cho-Gang-Kim arXiv:2007.01532 (which is non-hyperbolic->unitary, actually supporting K-D) to Gang-Yonekura arXiv:1803.04009.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-08",
+   "title": "B128: the symmetry-breaking landscape — chirality recursion, the order parameter, the torsion firewall (V117)",
+   "arcs": [
+    "B128",
+    "K011"
+   ],
+   "established": "Found and fixed a METHOD BUG: naive is_isometric_to(mirror) is orientation-blind, giving FALSE POSITIVES on known-chiral manifolds; corrected to symmetry_group().is_amphicheiral(). Chirality recursion theorem (block-sequence cyclic-rotation criterion) computer-assisted-verified 15/15. Tombstone K-F: 'single torsion Z/n -> SU(n) center -> gauge bridge' killed as DEAD.",
+   "status_words": [
+    "DEAD (K-F)"
+   ],
+   "retractions": [
+    {
+     "what": "a naive orientation-blind chirality test (is_isometric_to(mirror)) that produced false positives on known-chiral manifolds",
+     "of_which_arc": "tooling used up through B127"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Method bug ... naive is_isometric_to(mirror) is orientation-blind -> false positives on known-chiral m015/m016/m009; raw CS sign unsafe.' Banked as a REPRODUCIBILITY.md SCAN — a tooling correctness bug in prior chirality computations."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-08",
+   "title": "B129: the SL(3) tower is sealed in ℚ(√−3) — the firewall from inside the tower (V118)",
+   "arcs": [
+    "B129",
+    "K012",
+    "S031"
+   ],
+   "established": "S1a exact: principal Sym^2 metallic SL(3) rep is irreducible but every trace lies in Q(sqrt-3) — no new field/generator. S1b: 15-seed scan, 427 fixed points, max distance-to-Q(sqrt-3)=1.2e-6, 0 escapes beyond 1e-5. Two method bugs found and fixed (B1 rational-detector too permissive; B2 saddle-point search method flaw). A handoff's clean 22/56/0 split did NOT reproduce, though the conclusion (0 escapes) is the same via more robust evidence.",
+   "status_words": [
+    "CONFIRMED (0 escapes; different evidence route)"
+   ],
+   "retractions": [
+    {
+     "what": "a handoff's clean 22/56/0 reducible/finite/genuine split",
+     "of_which_arc": "cross-session handoff to B129"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "max distance-to-Q(sqrt-3)=1.2e-6, 0 beyond 1e-5"
+   ],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'the handoff's clean 22/56/0 reducible/finite/genuine split did NOT reproduce (the search rarely converges to the genuine saddle); the robust S1b evidence is the distance distribution + the exact S1a.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-08",
+   "title": "B130: no forced choice in the invariant ring — the seventh firewall form + the located which-seed fork (V119)",
+   "arcs": [
+    "B130",
+    "K013",
+    "S032"
+   ],
+   "established": "kappa is free (no forced discrete choice) on the fixed locus, verified by an elimination-ideal computation (empty at m=2,3,4 symbolic). Tombstone K-G: 'forced choice from isolated fixed points at m>=2' is DEAD — a prior handoff's sp.solve mislabeled curve degeneracies as isolated points (empty kappa-elimination -> kappa free), and its symmetry argument was circular.",
+   "status_words": [
+    "DEAD (K-G)"
+   ],
+   "retractions": [
+    {
+     "what": "a handoff's claim of forced choice from isolated fixed points at m>=2, based on sp.solve output",
+     "of_which_arc": "the handoff behind B130 itself"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Tombstone K-G: forced choice from isolated fixed points at m>=2 — DEAD (the revival failure mode): sp.solve mislabeled curve degeneracies as isolated points ... and the symmetry argument was circular.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B131: two-seed gluing creates an internal discrete fork — heterogeneity makes a choice (answers S032-B) (V120)",
+   "arcs": [
+    "B131",
+    "K014",
+    "S032"
+   ],
+   "established": "Answers S032-B: gluing two DISTINCT metallic seeds creates a genuine discrete fork (0-dim curve intersection), same seed gives a continuum (no fork). Forks (1,2) exact {-4,-2}; validated against B67/B69 A-poly curves.",
+   "status_words": [
+    "ANSWERED (S032-B: YES)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "fork(1,2)={-4,-2}"
+   ],
+   "red_flags": []
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B132: the quantum layer — eigenvalue field-fusion, chirality-arithmetic, quantum selection criteria (V121)",
+   "arcs": [
+    "B132",
+    "K015",
+    "K016",
+    "P009"
+   ],
+   "established": "Internalized a handoff built on a stale (pre-B130/B131) snapshot. Headline: chirality shifts eigenvalue arithmetic — achiral -> Q(sqrt-3), chiral/cross-seed -> Q(zeta12) with vanishing partition function. One item (S9, RRL kappa-degree=3) quarantined: 'did NOT reproduce — got degree 1/2, never 3; not banked.'",
+   "status_words": [
+    "NOT REPRODUCED (S9)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'Quarantined (verify-don't-trust): S9 (RRL kappa-degree=3 refutes the criterion) did not reproduce — got degree 1/2 (convention-dependent), never 3; not banked.'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "This entry's headline claim ('chirality shifts the eigenvalue arithmetic') is fully retracted in the very next entry (B133, same date range) — flag for cross-check; do not cite this entry's headline standalone."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B133: scope-correction to merged B132/K015 — \"chirality shifts the arithmetic\" is a quantum-group artifact (V122)",
+   "arcs": [
+    "B133",
+    "B132",
+    "K015"
+   ],
+   "established": "Verify-don't-trust applied to the project's OWN just-merged work: B132/K015's headline is FALSE. Decisive control: achiral words alone span all three fields (RRLL->Q(zeta12), RRRLLL->Q(sqrt-3), RLRLRL->Q) — the field tracks the word's spin-content mod 4, NOT chirality. Extended: the k=4 vanishing is also not chirality-linked, so S5 (chiral fragility) is also withdrawn.",
+   "status_words": [
+    "WITHDRAWN (S5, S7)",
+    "REFUTED (B132's headline)"
+   ],
+   "retractions": [
+    {
+     "what": "B132/K015's headline 'chirality shifts the eigenvalue arithmetic' and S7/S5 chiral-fragility claims",
+     "of_which_arc": "B132 (immediately preceding entry, same 2026-06-09 date)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'A correction handoff flagged that B132/K015's headline ... is false. Verified in-sandbox and confirmed (and extended). ... the eigenvalue orders are correct; the attribution was the artifact (chirality was confounded with composition).' Directly contradicts the immediately preceding entry."
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Tombstone K-H banked as 'third recurrence of this field-fusion artifact; sibling of K-G' — the log itself notes a repeated pattern of the same class of mistake (chirality/arithmetic conflation) recurring three times."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B134: the chirality recursion PROVED (corollary of GHH 2008) + the novelty audit (V123)",
+   "arcs": [
+    "B134",
+    "K011"
+   ],
+   "established": "A 102-agent literature audit found: R1 (chirality recursion) is PARTIALLY-KNOWN (mechanism = Goodman-Heard-Hodgson 2008's criterion); R2 (two-seed fork) is KNOWN (Kitano-Nozaki 2020); R3 (SU(2)_k field content) is KNOWN/standard. The chirality recursion theorem is then formally PROVED as a GHH-2008 corollary, upgrading B128/K011 from computer-assisted (15/15) to PROVED.",
+   "status_words": [
+    "PROVEN (upgraded from computer-assisted)",
+    "PARTIALLY-KNOWN / KNOWN (novelty verdicts)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [
+    "verified exhaustively over 5460 sequences; SnapPy 16/16 agreement"
+   ],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Explicit novelty audit: 'of the three, two are known and one has a now-proved novel kernel — exactly what an audit should surface.' Two of three claimed-novel results are conceded as already known in the literature."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B135 + B136: the Lee–Yang bridge is m=1-specific; amphichirality for all LR words (V124, V125)",
+   "arcs": [
+    "B135",
+    "B136",
+    "S030",
+    "K011"
+   ],
+   "established": "B135: the Lee-Yang bridge (candidate physics connection) is m=1-SPECIFIC — no metallic family of Lee-Yang CFTs exists (m>=2 quantum dimension exceeds 2). B136: generalizes B134's theorem to any LR word; 'honest novelty: a clean restatement/generalization of GHH's criterion, not a new 3-manifold theorem.'",
+   "status_words": [
+    "PROVEN (B136 generalization)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'no metallic family of Lee-Yang CFTs' — a stated negative limiting a previously-hoped physics bridge to a single case (m=1)."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B137: S031 sealing extended to m=2 (silver, SL(3), ℚ(i)) + the reducible-filter (MB7) (V126)",
+   "arcs": [
+    "B137",
+    "S031"
+   ],
+   "established": "Extended S031's sealing result to m=2 (silver, Q(i)). Verify-don't-trust catch (MB7): a naive search nearly read as 'S031 false for m=2' (16 escapes) — but all escapes were reducible degenerate points whose kappa isn't constrained; guard requires counting escapes only among irreducible points.",
+   "status_words": [
+    "CONFIRMED (m=2 seals; near-miss corrected)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'A naive search nearly read as S031 false for m=2 (16 escapes, dist 0.004) — but the escapes were all reducible degenerate points ... whose kappa isn't constrained to K_m.' A near-refutation caught and corrected via a method fix (MB7), not a substantive retraction."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B138: S031 push — principal-image direction PROVED (all n); SL(4) bulk obstruction; object-clarification (V127)",
+   "arcs": [
+    "B138",
+    "S031"
+   ],
+   "established": "Proved the easy half of S031 for all n. Honest negative: SL(4) bulk root-find is intractable in-session (340-word residual times out) — sealing evidence not obtained, NEEDS-EXPERTISE. Self-caught conflation: briefly confused S031's discrete trace-map fixed points with B71's continuous geometric components — caught and corrected within the same entry.",
+   "status_words": [
+    "PROVEN (principal-image direction, all n)",
+    "NEEDS-EXPERTISE (SL(4) bulk)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'SL(4) bulk: intractable in-session (honest negative) ... SL(4) sealing evidence not obtained (needs a complete SL(4) trace-coordinate set; NEEDS-EXPERTISE).'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "'Object-clarification (a verify-don't-trust note on my own reasoning): ... I briefly conflated these; caught and banked.' Self-correction within a single entry."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "CHAT-1 LEADS REGISTER: selective registration (open-lead catalog, MB8, S033)",
+   "arcs": [
+    "S033"
+   ],
+   "established": "Cross-checked a ~23-thread quantum-layer triage against the repo; registered only non-duplicate leads. Explicitly WITHDRAWN: L4 'chiral fragility' (the k=4 vanishing is composition-driven, not chirality — matches B133's withdrawal), L12 (WITHDRAWN, matches K-H).",
+   "status_words": [
+    "WITHDRAWN (L4, L12)"
+   ],
+   "retractions": [
+    {
+     "what": "L4 'chiral fragility' claim from the CHAT-1 leads register",
+     "of_which_arc": "external CHAT-1 leads register"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'L4 (chiral fragility) WITHDRAWN (B133) — the k=4 vanishing is composition-driven, not chirality.'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B139: \"SM through multiplicity\" — firewall cartography (NOT a crossing) (V128)",
+   "arcs": [
+    "B139",
+    "P009",
+    "S029",
+    "S033"
+   ],
+   "established": "Firewall-confirming, explicitly 'not a result, not a physics crossing.' Sharper statement: multiplicity permits more structure but cannot permit the two SM-distinguishing structures (a simple non-abelian factor; irreducible chirality). Chirality shown to be a CS-sign, not an inequivalence — with an explicit load-bearing caveat: 'structurally blocked = blocked at all standard invariants, NOT a proof no invariant distinguishes.'",
+   "status_words": [
+    "VERIFIED (chirality-as-CS-sign)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "ABSENCE_CLAIM",
+     "detail": "'structurally blocked = blocked at all standard invariants, not a proof no invariant distinguishes' — an explicit, load-bearing scope limit on the chirality-block claim."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B140: compute-session reconciliation (close B139-G, reframe S031, sharpen B138, record RᵐLᵐ + fields) (V129)",
+   "arcs": [
+    "B140",
+    "S031",
+    "B138",
+    "B129"
+   ],
+   "established": "Closes B139-G (genus-general, no gap). Reframes S031: the phi-fixed content is actually rational (Q), not the K_m field previously claimed — 'sealed in K_m is loose'; B129's 0-escape conclusion still STANDS but as a weaker calibration (Q subset Q(sqrt-3)) not the stronger claim implied earlier. The non-principal/HMP over-claim is explicitly RETRACTED (no non-principal irreducible phi-fixed points).",
+   "status_words": [
+    "RETRACTED (non-principal/HMP over-claim)",
+    "REFRAMED (S031)"
+   ],
+   "retractions": [
+    {
+     "what": "an over-claim that non-principal irreducible phi-fixed points exist (implicit in earlier S031/B129 framing)",
+     "of_which_arc": "S031 (B129, B138)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'S031 reframed as rigidity/uniqueness; the non-principal/HMP over-claim retracted (no non-principal irreducible phi-fixed points).' Also: 'so sealed in K_m is loose (K_m is the phi^2-bundle field; phi-fixed content is Q).'"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B141: split S031 — φ-fixed tower REDUCIBLE (Q₈), φ²-geometric tower IRREDUCIBLE (dense fig-8) (V130)",
+   "arcs": [
+    "B141",
+    "S031",
+    "B140"
+   ],
+   "established": "A substantive correction to B140's reframe. Corrects: 'No irreducible principal phi-fixed point at n>=3 — corrects B140's rigidity of the principal irreducible fixed point.' Root cause: S031 conflated a finite-image object (Q8, giving a reducible tower) with a dense-image object (figure-eight holonomy, giving an irreducible tower) — 'no single object has both.'",
+   "status_words": [
+    "CORRECTED (B140's rigidity claim)"
+   ],
+   "retractions": [
+    {
+     "what": "B140's claim of 'rigidity of the principal irreducible fixed point'",
+     "of_which_arc": "B140 (immediately preceding entry, same 2026-06-09 date)"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'No irreducible principal phi-fixed point at n>=3 (alg-dim {2:4,3:3,4:4,5:4,6:4,7:4}) — corrects B140's rigidity of the principal irreducible fixed point.' A third consecutive same-day self-correction in the S031 thread (B138->B140->B141)."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B142: (A) S031a principal RIGOROUS (Klein-4); (B) magic-manifold cartography + MB10; (C) inventory (V131)",
+   "arcs": [
+    "B142",
+    "S031",
+    "S033"
+   ],
+   "established": "Item A upgrades B141's conjecture to a rigorous one-line proof (Klein-4 abelian argument). Item B: a 'Borromean/SU(3) gauge enhancement' claim from elsewhere dies THREE ways — misidentification (s776 is not Brunnian), structure!=gauge (MB10), and outside the forced chain (wrong trace field). Sage/SnapPy/Ptolemy/Singular newly installed, enabling several previously tool-gated computations.",
+   "status_words": [
+    "PROVEN (Item A, upgraded from conjecture)",
+    "DEAD (Borromean/SU(3) claim, K-I)"
+   ],
+   "retractions": [],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The killed 'Borromean/SU(3) gauge enhancement' claim explicitly rested on a dimension match (Thurston SL(2,C) char-variety dim = #cusps = 3, wrongly equated to rank(SU(3))): 'SL(2,C) dim != rank(SU(3)) — SU(3) is SL(3,C) CS.' A textbook type-coincidence caught and killed."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "B143: strategic synthesis banked (3-voice) + Campaign-1 feasibility scope — the venue verdict (V132)",
+   "arcs": [
+    "B143",
+    "P009"
+   ],
+   "established": "Three independent runs (CC, two external chats) jointly reflect on how the SM could emerge; banked as a two-tier synthesis document (math program / labeled POSTULATED aspiration). Corrected scorecard: 'chirality is the only PROVEN obstruction; the other three SM features are unchecked because the 3d-3d cusp->gauge dictionary is borrowed/POSTULATED.' MB11 banked: state every result twice (bare theorem + labeled POSTULATED reading), never let the second contaminate the first. Also corrects an external chat's claim ('588 reps/Massey') as dead for the actual manifold studied.",
+   "status_words": [
+    "POSTULATED (aspiration tier)",
+    "DEAD (Massey/588-reps claim)"
+   ],
+   "retractions": [
+    {
+     "what": "an external chat's '588 reps / Massey' claim",
+     "of_which_arc": "an external Chat-1 contribution to the strategic synthesis"
+    }
+   ],
+   "owner_elections_verbatim": [],
+   "numbers_claimed": [],
+   "red_flags": [
+    {
+     "kind": "RETRACTION_OF_EARLIER_ENTRY",
+     "detail": "'Chat-1's 588 reps / Massey claim corrected (Massey dead for s776, the 3-chain link; K-I).'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "MB11 rule explicitly banked because of 'a drift caught in CC's own reflection' — governance/process rule created in direct response to a self-caught error, distinct from a computed result."
+    }
+   ]
+  }
+ ]
+}

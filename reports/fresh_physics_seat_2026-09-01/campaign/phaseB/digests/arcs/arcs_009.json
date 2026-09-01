@@ -190,6 +190,258 @@
     {"kind": "NO_TEST", "detail": "the log_index for this arc is null (not in the progress log at all), unlike its sibling arcs B160/B161; the finding is only traceable via its own FINDINGS.md/arc_verdict.json, not corroborated by any external progress-log entry sampled in this pass", "where": "packet log_index field = null"}
    ],
    "seat_note": "A numerically self-validated sweep (four internal sanity checks) with an explicitly honest scope statement about what remains unproven off the real axis; physics content is structural condensed-matter spectral theory, correctly firewalled from any fundamental-physics claim."
+  },
+  {
+   "arc": "B163_kappa_sweep_resolved",
+   "source": "main",
+   "files_read": [
+    "frontier/B163_kappa_sweep_resolved/FINDINGS.md",
+    "frontier/B163_kappa_sweep_resolved/arc_verdict.json",
+    "frontier/B163_kappa_sweep_resolved/kappa_resolved.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: PROVED — 'The kappa<2 spectrum is control-bracketed as a totally disconnected Cantor set, and no spectral feature encodes the figure-eight geometry at kappa=-2.'",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "kappa<2 spectrum (golden mu=1i and figure-eight-point mu=2i) is totally disconnected (MST max-gap/diameter -> positive constant across F=144..1597), tracking a known-Cantor control (kappa=3) rather than the band control (kappa=2)", "where": "kappa_resolved.py section (3a), MST-based diagnostic with two explicit controls", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained numpy MST computation over finite Fibonacci-chain eigenvalue sets at 4 chain sizes, with printed control-bracketing tables; explicitly labeled 'control-bracketed numerical verdict, not a theorem'"},
+    {"what": "no spectral feature is non-smooth or specially matched to a figure-eight invariant exactly at kappa=-2 (null-test across 5 features x 4 candidate invariants)", "where": "kappa_resolved.py section (3b)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit second-difference smoothness test plus a neighbor-comparison null-test on printed numeric features"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Single reproducer combining both diagnostics; explicitly documents two alternative diagnostics that were tried and discarded as unreliable (recorded so they are not re-tried) rather than hidden — a good transparency practice, though not a separate belt/verification directory.",
+   "absence_claims": [
+    {"quote": "there is no ground-truth spectral theorem off the real axis (Damanik-Gorodetski's horseshoe covers only the Hermitian kappa>2 regime)", "where": "FINDINGS.md Result (3a) closing sentence"},
+    {"quote": "eps-component-count at a fixed fraction of the diameter: the known-Cantor control was FLAT ([4,4,4]) -- the bands merge at that scale, so it does not track disconnectedness", "where": "FINDINGS.md 'Verify-don't-trust record (two diagnostics that FAILED)'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NO_TEST", "detail": "log_index is null for this arc, same pattern as its sibling B162", "where": "packet log_index field = null"}
+   ],
+   "seat_note": "Careful control-bracketed numerics honestly labeled as not a theorem, with a documented record of failed diagnostics kept for transparency rather than erased; the negative result on figure-eight 'encoding' is a genuine, useful null-test against over-reading a coincidence."
+  },
+  {
+   "arc": "B164_isomonodromy_04cubic",
+   "source": "main",
+   "files_read": [
+    "frontier/B164_isomonodromy_04cubic/FINDINGS.md",
+    "frontier/B164_isomonodromy_04cubic/arc_verdict.json",
+    "frontier/B164_isomonodromy_04cubic/cubic04.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: PROVED — 'The (0,4) Jimbo-Fricke cubic is built explicitly, its Painleve-VI/MCG dynamics exhibited via the three Vieta involutions, and bridged to the once-punctured-torus cubic at the void fiber.'",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "the three Vieta involutions preserve the (0,4) Jimbo-Fricke cubic and are genuine involutions", "where": "cubic04.py C1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy symbolic exact expansion check"},
+    {"what": "the (0,4) cubic at t_i=0, after z->-z, equals the OPT Fricke cubic at kappa=2", "where": "cubic04.py C2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy exact polynomial-subtraction check"},
+    {"what": "metallic degrees lambda_m, lambda_m^2, trace field Q(sqrt(m^2+4)) for m=1,2,3", "where": "cubic04.py C3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy exact eigenvalue computation"},
+    {"what": "the Vieta composite s_x o s_y is loxodromic (median per-step log-growth > 0.5) on random on-surface orbits", "where": "cubic04.py C4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numpy orbit iteration with a printed median growth rate and an involution control; FINDINGS.md is explicit that this is [num] and an earlier draft's exact-degree claim (dynamical degree = phi^2) was refuted and walked back to the weaker loxodromic claim"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Single reproducer; the arc explicitly self-corrects an over-claim from its own first draft (dynamical degree exactly phi^2, refuted by its own numerics) before banking, which is a form of internal verify-don't-trust discipline even without a separate belt directory.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NO_TEST", "detail": "log_index is null; this arc is only traceable via its own FINDINGS/arc_verdict", "where": "packet log_index field = null"}
+   ],
+   "seat_note": "Solid symbolic algebra (C1-C3) plus an honestly-scoped numeric loxodromic witness (C4) with an already-recorded self-correction of an initial exact-degree over-claim; three follow-on items (cover dictionary, isomonodromy flow, firewall-relocation verdict) are explicitly deferred to a stated successor arc (B169), not silently dropped."
+  },
+  {
+   "arc": "B165_kappa_cantor_offaxis",
+   "source": "main",
+   "files_read": [
+    "frontier/B165_kappa_cantor_offaxis/FINDINGS.md",
+    "frontier/B165_kappa_cantor_offaxis/arc_verdict.json",
+    "frontier/B165_kappa_cantor_offaxis/cantor_offaxis.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: OPEN — 'Off-axis Cantor structure is shown seed-robust across golden/silver/bronze and reduced to one open hypothesis, complexified uniform hyperbolicity, left to a specialist.'",
+   "log_says": "Only a later (2026-08-27) log entry referencing B165 as one of six items in a 'specialist send-queue' (docs/SPECIALIST_SEND_QUEUE.md) awaiting an owner SEND/HOLD/REFRAME decision — consistent with the arc's own NEEDS-SPECIALIST framing.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the trace map T=(2xy-z,x,y) conserves the Fricke-Vogt invariant I", "where": "cantor_offaxis.py D0", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy symbolic expansion, exact"},
+    {"what": "MST max-gap/diameter for kappa=-2 is persistent (>>band control) across golden(m=1)/silver(m=2)/bronze(m=3) seeds", "where": "cantor_offaxis.py D1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained numpy computation reusing B163's diagnostic, extended to 3 seeds"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Extends B163's MST-max-gap diagnostic to two additional seeds with the same method; also explicitly documents two other diagnostics tried and discarded as failing to separate Cantor from band, preserved as a negative record rather than hidden.",
+   "absence_claims": [
+    {"quote": "no off-axis ground truth, and the transfer matrices are non-normal (spectral abscissa != top eigenvalue), so the Hermitian-kappa>2 methods (Damanik-Gorodetski) do not carry", "where": "FINDINGS.md 'The conditional theorem' paragraph"},
+    {"quote": "eps-component-count at a fixed fraction of the diameter: the known-Cantor control was FLAT ([4,4,4]) -- the bands merge at that scale, so it does not track disconnectedness", "where": "FINDINGS.md 'two diagnostics that FAILED'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "An honest OPEN verdict with a genuinely useful negative record (documented failed diagnostics) and a clean reduction of an open theorem to one named hypothesis explicitly routed to a specialist queue rather than asserted as settled — exactly the calibration this seat wants to see."
+  },
+  {
+   "arc": "B166_sln_aperiodic",
+   "source": "main",
+   "files_read": [
+    "frontier/B166_sln_aperiodic/FINDINGS.md",
+    "frontier/B166_sln_aperiodic/arc_verdict.json",
+    "frontier/B166_sln_aperiodic/sln_aperiodic.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: NEGATIVE — 'SL(n>=3) is intrinsically non-Hermitian by the symplectic obstruction, and SL(2)'s Cantor spectrum does not transfer to higher rank.'",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "every antisymmetric nxn matrix (n=3,5, odd) is degenerate (det=0), so no symplectic form exists for odd n; n=2 control has one", "where": "sln_aperiodic.py Q0", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy symbolic determinant of a generic antisymmetric matrix"},
+    {"what": "a naive SL(3) Fibonacci transfer cocycle shows no clean Cantor-style thinning relative to a periodic control (RECORDED NEGATIVE)", "where": "sln_aperiodic.py Q1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numpy Lyapunov-exponent QR sweep, self-contained, with an honest negative result printed and asserted as such"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Single reproducer; Q1 is explicitly framed and checked as a 'RECORDED NEGATIVE' rather than a positive claim, i.e. the check() call asserts the absence of clean thinning, which is itself the honest content.",
+   "absence_claims": [
+    {"quote": "there is no ground truth for non-Hermitian higher-rank cocycles (unlike the SL(2) Sturmian case, Damanik-Killip-Lenz)", "where": "FINDINGS.md 'Verdict' paragraph"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A clean exact obstruction (Q0) combined with an honestly-labeled inconclusive numeric result (Q1, explicitly a 'recorded negative' rather than a proof of absence) and a properly scoped NEEDS-SPECIALIST close; no overreach detected."
+  },
+  {
+   "arc": "B167_conserved_no_scale_lemma",
+   "source": "main",
+   "files_read": [
+    "frontier/B167_conserved_no_scale_lemma/FINDINGS.md",
+    "frontier/B167_conserved_no_scale_lemma/arc_verdict.json",
+    "frontier/B167_conserved_no_scale_lemma/conserved_no_scale.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: NEGATIVE — 'A conserved dimensionless first integral cannot source an internal scale; the five-door case analysis leaves no internal door, only external or ratio lanes.'",
+   "log_says": "2026-08-08 (MASTERPLAN v3 REGISTERED): B167's five-door lemma listed among 'banked closures ... not to be re-litigated without new computation'; 2026-08-26 (B1165, terminal gravity close): 'Scale wall CONFIRMED (every sector invariant dimensionless; B660/B666/B167/B936)' — B167 is being actively used as load-bearing support for a later, broader scale-wall claim.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "kappa is preserved by the Dehn twists Ta, Tb and by phi_1, phi_2, phi_3 (kappa is a first integral)", "where": "conserved_no_scale.py L1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy symbolic exact expansion checks"},
+    {"what": "a coordinate x is NOT conserved by Tb, so 'conserved' is a real, falsifiable property (MB6/MB12 control)", "where": "conserved_no_scale.py L2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "trivial symbolic check, non-vacuity control"},
+    {"what": "kappa is not unit-homogeneous under a formal rescaling of the traces (mixes u^0,u^2,u^3), so it is dimensionless by construction", "where": "conserved_no_scale.py L3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct symbolic degree-counting check"},
+    {"what": "'Lemma (3): conserved => no internal scale' — the RG/dimensional-transmutation argument (no running coupling => no internally-sourced dimensionful observable)", "where": "FINDINGS.md 'The lemma' item 3", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "explicitly and honestly labeled [stated]/POSTULATED in the FINDINGS.md itself, not a computed result — a logical/physical argument by analogy to RG theory, not a theorem proved in the script"},
+    {"what": "the five-door case analysis (dimensional transmutation, anomaly, VEV, external import, discreteness-ratio) as an exhaustive taxonomy", "where": "FINDINGS.md 'The door-map' table", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "explicitly labeled 'argued to be exactly five ... a taxonomy argument, not a proof of exhaustiveness' — the arc itself flags this as not a proof"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Single reproducer covering only the exact backbone (L1-L4); the arc is explicit that the central lemma (item 3) and the five-door taxonomy are POSTULATED prose sharpened, not computed or proved, and does not claim otherwise.",
+   "absence_claims": [
+    {"quote": "no such parameter is present\" (VEV/spontaneous breaking, door 3: 'blocked / hand-input -- no such parameter is present')", "where": "FINDINGS.md 'The door-map' table, row 3"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "the arc's headline lemma ('conserved => no internal scale') and its five-door exhaustiveness taxonomy are POSTULATED physical/logical arguments, explicitly labeled as such in FINDINGS.md, yet arc_verdict.json's claim_one_line states the conclusion as flat fact ('cannot source an internal scale ... leaves no internal door') without carrying the POSTULATED qualifier forward; later log entries (2026-08-26) cite B167 as part of a 'CONFIRMED' scale wall, which risks readers treating a stated-not-proved argument as an established result", "where": "arc_verdict.json claim_one_line vs FINDINGS.md 'POSTULATED -> stated argument' framing; PROGRESS_LOG.md 2026-08-26 entry"}
+   ],
+   "seat_note": "This is one of the more load-bearing arcs in the batch — a philosophically important 'no internal scale' claim that later documents (2026-08-26) treat as CONFIRMED — but its own FINDINGS.md is careful to label the core argument POSTULATED/stated, not proved; the verdict.json's flat claim_one_line and its downstream use as a firm 'CONFIRMED' pillar are worth flagging for drift over time."
+  },
+  {
+   "arc": "B168_omega_accretion_generative",
+   "source": "main",
+   "files_read": [
+    "frontier/B168_omega_accretion_generative/FINDINGS.md",
+    "frontier/B168_omega_accretion_generative/arc_verdict.json",
+    "frontier/B168_omega_accretion_generative/generative_pass.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: NEGATIVE — 'The Omega accretion is a genuine non-i.i.d. generative process, but every emergent rate is dimensionless, so the ensemble yields no scale.'",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "histories/matrices/classes strictly increase with depth L=4..10 (the accretion 'arrow')", "where": "generative_pass.py G1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "trivial check on hard-coded counts imported from B159's already-verified table"},
+    {"what": "retention fraction r_L is decreasing but decelerating across L=4..10", "where": "generative_pass.py G2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "arithmetic on the hard-coded B159 counts, self-contained"},
+    {"what": "retention varies with depth (spread>>0), unlike a flat i.i.d. null model (spread=0)", "where": "generative_pass.py G3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct comparison against a trivially-constructed constant-retention null, self-contained"},
+    {"what": "G4: 'all emergent rates ... are dimensionless pure numbers => NO scale'", "where": "generative_pass.py G4, chk(...) called with literal Python True as the condition", "kind": "ASSERTED", "reproducible_from_committed": "yes (trivially)", "why": "the check function is invoked with a hard-coded True, i.e. it is a printed assertion dressed as a passing test, not a computation that could fail — this is a tautology, not evidence"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc's own 'data' is entirely the already-verified B159 counts (hist/mat/cls arrays hard-coded at the top of the script), re-arranged into ratios; no new primary computation of the underlying combinatorial object occurs here, only downstream arithmetic on numbers already banked in B159.",
+   "absence_claims": [
+    {"quote": "Whether the LIMITING rate is a SPECIAL algebraic number (metallic/phi-related) vs a generic decimal is UNRESOLVED on 6 points -- it needs the deeper L>=11 enumeration; flagged OPEN, not decided", "where": "FINDINGS.md G3 paragraph"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "the G4 'scale verdict' check in generative_pass.py is chk(\"all emergent rates ... => NO scale\", True, ...) — the assertion is hard-coded True, not derived from any computation in the script; it is a correct conceptual point (ratios of counts are dimensionless) but is presented alongside genuinely computed checks (G1-G3) in a way that could read as equally rigorous", "where": "generative_pass.py, G4 chk() call"}
+   ],
+   "seat_note": "An honest, appropriately modest finding built entirely on re-arranging already-banked B159 counts into growth/retention ratios; the headline 'no scale from the ensemble' (G4) is conceptually correct but is asserted via a tautological check(True) rather than derived, which is a minor but real rigor gap in an otherwise carefully-labeled arc."
+  },
+  {
+   "arc": "B169_isomonodromy_flow",
+   "source": "main",
+   "files_read": [
+    "frontier/B169_isomonodromy_flow/FINDINGS.md",
+    "frontier/B169_isomonodromy_flow/arc_verdict.json",
+    "frontier/B169_isomonodromy_flow/isomonodromy.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: PROVED — 'A working Schlesinger/Painleve-VI flow is built and verified monodromy-preserving, carrying metallic dynamical degree lambda_m^2, correcting B164's orbit-norm proxy.'",
+   "log_says": "2026-08-07 (B944, dynamics/chirality sweep): cites B169 as one of several named dynamical-system realizations ('a verified monodromy-preserving Schlesinger flow carrying dynamical degree lambda_m^2') in support of a broader claim that neither 'dynamics' nor 'chirality' is a gap in the framework.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "dynamical degree of M_m on the (0,4) cubic is lambda_m^2 (homological/Cantat-Loray method), correcting B164's orbit-norm proxy, for m=1,2,3", "where": "isomonodromy.py P1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy symbolic exact-eigenvalue computation"},
+    {"what": "an RK4-integrated Schlesinger flow preserves local conjugacy-class invariants to drift ~4e-10 over s:2->3, while residues genuinely move; a non-Schlesinger control ODE drifts by ~16 (does not preserve them)", "where": "isomonodromy.py P2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained numpy RK4 integration with an explicit non-vacuity control comparison; numeric, not exact, but the control makes the preservation a real falsifiable property"},
+    {"what": "P3: the Painleve 'time' s is a dimensionless modulus and the Schlesinger system is scale-free, so a physical scale would be external (Higgs field) — the 'firewall-relocation verdict'", "where": "isomonodromy.py P3, both chk() calls invoked with literal Python True as the condition", "kind": "ASSERTED", "reproducible_from_committed": "yes (trivially)", "why": "both P3 checks are chk(description, True, ...) — hard-coded pass, not computed from any dimensional-analysis routine in the script; the underlying argument (Schlesinger equations are RG-homogeneous, hence scale-free) is a standard fact about that equation family but is not itself verified computationally here, and FINDINGS.md itself labels P3 '[structural / POSTULATED]'"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Single reproducer; explicitly supersedes/corrects a specific numeric claim in a prior arc (B164's C4 orbit-norm proxy) with a different, homological method — a genuine within-arc correction, not merely a re-read.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "P3 (the 'firewall-relocation verdict' — the arc's physics-adjacent conclusion that any scale must be external to the Hitchin/dynamical side) is checked in isomonodromy.py via two chk() calls with a hard-coded True condition, not a computation; FINDINGS.md itself correctly labels P3 '[structural / POSTULATED]', but arc_verdict.json's verdict is a flat 'PROVED' with no qualifier distinguishing the exact P1/numeric P2 content from the postulated P3 content", "where": "isomonodromy.py P3 chk() calls; arc_verdict.json verdict field"}
+   ],
+   "seat_note": "P1 (exact) and P2 (numeric, with a real non-vacuity control) are solid; P3, the philosophically load-bearing 'scale stays external' conclusion, is asserted rather than computed and is honestly labeled POSTULATED in the prose even though the machine-readable verdict field does not carry that distinction — a reader trusting only arc_verdict.json would not see the caveat."
+  },
+  {
+   "arc": "B170_relational_scale_leap",
+   "source": "main",
+   "files_read": [
+    "frontier/B170_relational_scale_leap/FINDINGS.md",
+    "frontier/B170_relational_scale_leap/arc_verdict.json",
+    "frontier/B170_relational_scale_leap/relational_scale.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: NEGATIVE — 'The Machian \"external dissolves into self-referential\" leap is undecidable from within and its only testable form, value-matching, fails a random-base null control.'",
+   "log_says": "2026-08-08 (MASTERPLAN v3 REGISTERED): B170's Machian undecidability listed among banked closures 'not to be re-litigated without new computation'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "L1: the Machian and external readings give the same dimensionless math, so no internal computation can distinguish them", "where": "relational_scale.py L1, chk() called with literal Python True", "kind": "ASSERTED", "reproducible_from_committed": "yes (trivially)", "why": "hard-coded True condition; FINDINGS.md explicitly labels L1 '[structural]', an observation not a computed result"},
+    {"what": "L2: the program's dimensionless numbers (phi^2, silver/bronze means, log2, phi) do not hit observed physics constants (alpha^-1, m_p/m_e, sin^2 theta_W, alpha_s, m_mu/m_e) except by non-integer exponents, and a random base performs indistinguishably (median |N-round(N)| 0.258 program vs 0.251 random)", "where": "relational_scale.py L2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained numpy computation of exponents and a random-base null control, directly comparable numbers printed"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Single reproducer; L2's random-base control is a genuine, well-constructed null-test that gives the negative result real teeth rather than relying on assertion.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "L1 (the 'undecidable from within' claim) is checked via chk(description, True), a hard-coded pass rather than a computed result, though FINDINGS.md is honest that L1 is '[structural]' not numeric", "where": "relational_scale.py, L1 chk() call"}
+   ],
+   "seat_note": "The strongest and most useful result in this batch for keeping the project honest: a genuine null-test (random-base control) that shoots down the one place value-matching numerology could sneak in through a 'relational/Machian' reinterpretation, explicitly stating 'value-matching forbidden' as the outcome."
+  },
+  {
+   "arc": "B171_heterogeneous_quasicrystal",
+   "source": "main",
+   "files_read": [
+    "frontier/B171_heterogeneous_quasicrystal/FINDINGS.md",
+    "frontier/B171_heterogeneous_quasicrystal/arc_verdict.json",
+    "frontier/B171_heterogeneous_quasicrystal/het_quasicrystal.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict: OPEN — 'Phase-0 baselines show the woven metallic spectrum inherits both rank-2 ladders and quantifies the density trap, leaving the rank-3 combination gap unsettled.'",
+   "log_says": "2026-08-30 (B1218, THE OPEN-CLAIM SWEEP): B171 listed as one of 'two adjudicated non-findings stated rather than dropped' — i.e. a later sweep explicitly re-confirmed keeping this as an open, unresolved item rather than silently promoting or dropping it.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "single golden/silver chains show prominent gaps only at single-frequency labels (rank-2 ladder control)", "where": "het_quasicrystal.py B1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct finite-N (N=8000) tridiagonal-Schrodinger diagonalization with explicit gap-labeling nearest-match search"},
+    {"what": "the woven (golden+silver) chain's spectrum retains both pure rank-2 ladders (a golden +/-1 gap and a silver +/-1 gap both present)", "where": "het_quasicrystal.py B2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same finite-N diagonalization, self-contained"},
+    {"what": "the rank-3 label set is dense; chance-hit rate for a random IDS rises with label-sum (1.0% at sum<=1 to 20.3% at sum<=6), quantifying the 'density trap'", "where": "het_quasicrystal.py B3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Monte-Carlo null-rate computation over the explicit label lattice, self-contained"},
+    {"what": "a real, wide gap exists near IDS 0.611 (cross-session claim), but its only nearby module match is a large, statistically non-credible label (3,-3) (sum 6, ~20% null rate) — the label is 'plausible but not statistically credible'", "where": "het_quasicrystal.py B4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the gap's existence and width are directly computed from the diagonalized spectrum; the label-credibility judgment applies the B3 null-rate calibration to this specific case, and the arc explicitly refuses to certify the (3,-3) identification pending an N-convergence test (Phase 1, not run here)"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Explicitly framed as an independent Phase-0 verification of a cross-session claim (the 0.611 combination gap); the arc corrects the cross-session claim's over-read of a large, uncertified label AND corrects its own first-draft over-correction ('density artifact', which the FINDINGS.md says was itself wrong) — two rounds of verify-don't-trust on the same claim.",
+   "absence_claims": [
+    {"quote": "This is NOT ... establish[ing] a rank-3 combination gap (that is Phase 1) and does NOT refute one (the 0.611 gap is real)", "where": "FINDINGS.md 'Scope / honesty' section"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A genuinely exemplary piece of verify-don't-trust practice: it catches a cross-session over-claim (an uncertified large-label match presented as a result), catches its own subsequent over-correction in the opposite direction, and lands on a well-calibrated OPEN verdict with concrete, falsifiable Phase-1 tests — no observable physics content, condensed-matter-adjacent structural math only."
   }
  ]
 }

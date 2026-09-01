@@ -1,0 +1,871 @@
+{
+ "batch": "arcs_015",
+ "arcs": [
+  {
+   "arc": "B274_all_orders_smoothness",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B274_all_orders_smoothness/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B274_all_orders_smoothness/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B274_all_orders_smoothness/b274_smoothness.py",
+    "/home/user/origin-axiom/frontier/B274_all_orders_smoothness/b274_smoothness_modp.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "\u03c1_prin is a smooth point of the E6 character variety of the figure-eight, dim 6=rank(E6); {4,8} E6-irreducible flat connections exist unconditionally. | status: PROVED",
+   "log_says": "Cited only in the 2026-07-03 promotion-audit entry, listing B273+B274 as merged into one claim with two evidence paths; no detailed content on B274 itself in this log entry.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "MFP smoothness certificate {dim H1=6, dim H2=6, ker(ad e)=6, dim H1(bdry)=12} mod p",
+     "where": "b274_smoothness_modp.py run()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact mod-p linear algebra with explicit asserts checked against two primes, script is self-contained and prints the certificate table"
+    },
+    {
+     "what": "cubic (3rd order) obstruction [q3]=0 for all six exponent directions",
+     "where": "b274_smoothness_modp.py cubic()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed mod p with explicit asserts on eta-indeterminacy invariance"
+    },
+    {
+     "what": "The Menal-Ferrer-Porti smoothness criterion itself (that {6,6,12}+regular meridian implies smooth point)",
+     "where": "FINDINGS.md 'Route (b)'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "explicitly flagged in FINDINGS as cited, not re-derived in-sandbox \u2014 an honest footnote, but the theorem's applicability to this exact non-classical E6 setting is asserted, not proven here"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "two independent primes plus an independent cubic-order corroboration route; genuine belt-and-suspenders inside one arc",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Careful, well-scoped pure representation-theory/deformation-theory result with an explicit, flagged import (the MFP criterion); no physics claim is made and none should be inferred \u2014 this is character-variety smoothness, not a Standard Model statement."
+  },
+  {
+   "arc": "B275_explicit_witness",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B275_explicit_witness/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B275_explicit_witness/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B275_explicit_witness/b275_verdict.py",
+    "/home/user/origin-axiom/frontier/B275_explicit_witness/b275_witness.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Exhibited an explicit numerical E6 flat connection on the figure-eight with nonzero exp-4 component, a concrete witness off \u03c1_prin for B274's existence proof. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "explicit (A,B) in E6 solving the figure-eight relator to |R-I|~7.9e-8, with nonzero exp-4 component ~5.6e-5",
+     "where": "b275_witness.py Newton iteration + FINDINGS.md 'Result'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script performs a high-precision (ComplexField 240) Newton solve and prints residual and exp-4 component; a stranger could rerun it"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "b275_verdict.py re-checks the witness numerically; no independent second method for this arc beyond the one numerical construction",
+   "absence_claims": [
+    "FINDINGS.md: 'Sharpening to a higher-precision or exact witness ... not pursued, as existence is already settled by B274.' (a residual-limitation statement, not a strict absence claim about the repo)"
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "the witness is a purely numerical solution (~8 digits, double/extended precision) with no exact algebraic witness; FINDINGS explicitly notes an exact witness 'not pursued'",
+     "where": "FINDINGS.md 'Honest scope'"
+    }
+   ],
+   "seat_note": "A concrete numerical existence witness that is honestly scoped as illustrative rather than exact; fine as a sanity check on B274 but adds no new physics and is a numerical (not exact) computation."
+  },
+  {
+   "arc": "B276_zeta3_arithmetic_probe",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B276_zeta3_arithmetic_probe/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B276_zeta3_arithmetic_probe/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B276_zeta3_arithmetic_probe/b276_zeta3_probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The figure-eight colored-Jones degenerates at q=\u03b63,\u03b66 with periods 3,6 and values in Z[\u03b63], the trace field Q(\u221a\u22123) whose ramified prime 3 yields 2T=McKay-E6. | status: PROVED",
+   "log_says": "Logged only under 2026-07-02 'Suite hygiene: the global-dps test-order failure class', noting B264/B265/B276 independently discovered a dps-ordering artifact pattern and had inline self-guard comments; no content on the \u03b63 result itself.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "colored-Jones J_N(4_1;q) at q=\u03b63,\u03b66 has period 3,6 and lands in Z[\u03b63]=O_Q(\u221a\u22123)",
+     "where": "b276_zeta3_probe.py jones_sequence/detect_period/all_integral, reusing B261's colored_jones",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit mpmath computation with an assert on the final verdict() function; reuses a previously-verified routine (B261)"
+    },
+    {
+     "what": "ramification (1-\u03b63)(1-\u03b63^2)=3 exactly",
+     "where": "b276_zeta3_probe.py ramification_holds()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact symbolic/arithmetic check"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "reuses B261's colored_jones function rather than reimplementing/recomputing independently; single method",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the arc itself flags this as a 'coherence' not evidence of 2T acting on Z; the FINDINGS explicitly say it does not settle input=output-E6 \u2014 a self-aware type-coincidence caveat, still worth flagging since the headline table format invites over-reading",
+     "where": "FINDINGS.md 'Honest scope \u2014 PARTIAL by design'"
+    }
+   ],
+   "seat_note": "Honestly self-limited: the paper explicitly says this is a coherence, not a mechanism, and does not claim the arithmetic acts on the invariant \u2014 appropriately modest, no physics claim made."
+  },
+  {
+   "arc": "B277_4d_lift_obstruction",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B277_4d_lift_obstruction/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B277_4d_lift_obstruction/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B277_4d_lift_obstruction/b277_4d_lift.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The figure-eight has a canonical class-S lift \u2014 fiber \u03a31,1 giving 4d N=2* SU(2) with monodromy \u03c6=RL as an S-duality element \u2014 and a chiral 4d SM is blocked by two named inputs. | status: PROVED",
+   "log_says": "The single log entry (B995, 2026-08-09) references B277's 4d lift as one of five things sharing a common base (\u03a31,1 with SL(2,Z)) with B150's class-S S-duality reading and 'the twelfth face' of the Fricke variety \u2014 a later, broader synthesis point, not a description of B277's original content.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "fiber \u03a31,1 monodromy \u03c6=RL=[[2,1],[1,1]], trace 3, pseudo-Anosov",
+     "where": "b277_4d_lift.py monodromy()/is_pseudo_anosov()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "simple matrix computation with assert"
+    },
+    {
+     "what": "class-S(A1,\u03a31,1) = N=2* SU(2) identification; MCG(\u03a31,1)=SL(2,Z)=S-duality group",
+     "where": "FINDINGS.md 'Class-S of the fiber'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "cited to Gaiotto's class-S dictionary, not derived in-sandbox"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "single script, no cross-check method; the class-S identification itself is asserted by citation",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean negative/obstruction result (chirality and free 6d type both explicitly block a physical SM) stated with appropriate honesty; the class-S dictionary entries are literature imports, correctly flagged as such."
+  },
+  {
+   "arc": "B278_consolidation_v3",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B278_consolidation_v3/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B278_consolidation_v3/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B278_consolidation_v3/wall_map_v3.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Consolidates B274\u2013B277 into the five-wall map v3 and records the previously-invisible input-required walls, settling nothing new; the bridge still rests on the unproven input-E6=output-E6 CRUX. | status: OPEN",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "five-wall map table (status per wall)",
+     "where": "FINDINGS.md 'Five-wall map v3'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "a synthesis/bookkeeping table summarizing prior arcs; wall_map_v3.py likely just renders/checks consistency of the table rather than computing new content"
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "consolidation script wall_map_v3.py not deeply inspected; likely aggregates prior results rather than computing",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A bookkeeping/consolidation arc; correctly labeled OPEN and instrument:true, and it explicitly names the still-unproven CRUX and several bare physics inputs (3 generations, SM breaking, \u039b-sign) the object does not supply \u2014 useful honesty, no new claim."
+  },
+  {
+   "arc": "B279_spin_structure_bit",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B279_spin_structure_bit/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B279_spin_structure_bit/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B279_spin_structure_bit/spin_bit_verdict.py",
+    "/home/user/origin-axiom/frontier/B279_spin_structure_bit/spin_structure_bit_snappy.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The amphicheiral involution \u03c4 FIXES both spin structures of the figure-eight complement, proved via the S3-bounding canonical spin structure and the Z/2-torsor argument. | status: PROVED",
+   "log_says": "Multiple later log entries cite B279 as an input: B585 (2026-07-14) cites B279's spin bit for a chirality argument; B586 cites '4_1 invertible (B279's in-sandbox D4)'; B1189 (2026-08-28) confirms 'B279/B769 confirmed with locks'; Review 17 says 'NO golden anywhere on E6' referencing a related but distinct claim.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "H1(4_1;Z)=Z, symmetry group D4 order 8, isometries act by \u00b11 on cusp basis => \u03c4*=id mod2 => \u03c4 fixes both spin structures",
+     "where": "spin_structure_bit_snappy.py (SnapPy) + FINDINGS.md proof",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "SnapPy computation of symmetry group plus an explicit mathematical proof using the S3-bounding spin structure argument, both given in FINDINGS"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "has a repo-level test tests/test_b279_spin_structure_bit.py (confirmed to exist)",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean, well-firewalled topology result (FIX not SWAP) with an explicit disclaimer that the physics chain (parity anomaly => non-chiral matter) is unverified and stays in speculations/ \u2014 good discipline."
+  },
+  {
+   "arc": "B280_2T_higher_spin",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B280_2T_higher_spin/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B280_2T_higher_spin/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B280_2T_higher_spin/spin_content_2T_gap.py",
+    "/home/user/origin-axiom/frontier/B280_2T_higher_spin/spin_content_verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "2T spin-3/2 branches as 2+2 (two distinct doublets), not triplet+singlet, killing the 'three generations plus Higgs from A4/2T spin-3/2' reading. | status: NEGATIVE",
+   "log_says": "Cited in the 2026-08-11 B1033 generation-adjudication log entry: 'The su(3)' is chiral, not familial; B280/B298's walls stand' \u2014 consistent usage as a standing negative wall.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "2T=SL(2,F3) irrep dims {1,1,1,2,2,2,3}; spin-3/2 = Sym^3(faithful 2-dim) = 2+2 (two distinct 2-dim irreps), not 3+1",
+     "where": "spin_content_2T_gap.py (GAP)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "GAP character-table/branching computation, standard finite-group representation theory"
+    },
+    {
+     "what": "E6 \u2283 SU(6)\u00d7SU(2): 27=(15,1)+(6bar,2)",
+     "where": "FINDINGS.md 'The branching' referencing branchings.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "FINDINGS references a 'branchings.py' Weyl-character script not listed among this arc's committed files in the packet \u2014 file location/existence not directly verified in this read"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "GAP computation plus Weyl-character branching cross-check; has repo-level test tests/test_b280_2T_higher_spin.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "FINDINGS references 'branchings.py' for the SU(6)xSU(2) branching table but this file is not among the four files packeted for this arc; its location was not verified",
+     "where": "FINDINGS.md 'The branching (Weyl-character verified, branchings.py)'"
+    }
+   ],
+   "seat_note": "A useful, appropriately negative result that kills a tempting but false generation-counting shortcut; representation theory only, correctly firewalled from any dynamical claim."
+  },
+  {
+   "arc": "B281_crux_scoping",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B281_crux_scoping/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B281_crux_scoping/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B281_crux_scoping/crux_geom_probe.py",
+    "/home/user/origin-axiom/frontier/B281_crux_scoping/crux_verdict.py",
+    "/home/user/origin-axiom/frontier/B281_crux_scoping/density_probe.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The figure-eight's character variety does not distinguish E6 at either the dim H1=rank or the irreducibility level, so the 3d-3d input type is computably unforced. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "dim H1(Ad \u03c1_prin) = rank(g) for A2,G2,A3,B2,F4,A4,D4,E6,E7 (every type checked)",
+     "where": "crux_geom_probe.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit per-type computation printed as a table, generalizing B264's method across many Lie types"
+    },
+    {
+     "what": "every Lie type has a dense (irreducible) principal deformation direction (density_probe.py, generalizing B265)",
+     "where": "density_probe.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit per-exponent dimension table for A2,G2,A3,D4,F4,E6"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "two independent scripts (dimension-level and irreducibility-level) both checked across many Lie types; has repo-level test tests/test_b281_crux_scoping.py",
+   "absence_claims": [
+    "FINDINGS.md 'What would make the CRUX TRUE': 'T[4_1; E6] is not computable in-sandbox and arguably not known constructively in the literature.' (an absence-of-tool/method claim)",
+    "FINDINGS.md 'Recommendation': 'Do not spend in-sandbox cycles attempting T[4_1; E6] (tool-gated, not constructively known).'"
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely strong, self-undermining negative result: it computationally shows E6 is not geometrically distinguished by the figure-eight at two invariant levels, directly weakening the programme's own central E6-selection narrative \u2014 good verify-don't-trust practice."
+  },
+  {
+   "arc": "B282_e6_is_arithmetic_not_geometric",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B282_e6_is_arithmetic_not_geometric/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B282_e6_is_arithmetic_not_geometric/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B282_e6_is_arithmetic_not_geometric/e6_specificity_gap.py",
+    "/home/user/origin-axiom/frontier/B282_e6_is_arithmetic_not_geometric/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Almost everything in the E6 programme is generic to any hyperbolic knot; only the arithmetic atom (4_1 unique arithmetic knot, Q(\u221a\u22123)\u21a02T) is object-specific. | status: NEGATIVE",
+   "log_says": "Cited in 2026-07-20 B727 self-audit: 'the ONLY surviving object-specific content is the already-banked atom ... forced by 4_1=unique arithmetic knot'; and in 2026-08-02 B855: carried forward as an item to re-audit under a corrected genericity null. A SUPERSEDED_UNMARKED-style addendum inside B282's own FINDINGS records the B727 corroboration.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "\u03c01(K)\u21a0SL(2,F3)=2T surjection present only for 4_1/m003 (arithmetic), absent for 5_2,6_1,6_2,7_4 (non-arithmetic)",
+     "where": "e6_specificity_gap.py (SnapPy+GAP GQuotients)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit table of manifolds, volumes, arithmeticity, and 2T-surjection counts"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "has repo-level test tests/test_b282_e6_arithmetic.py; note the arc's own knot sample (6 manifolds) is later called 'narrow' by its own addendum (B727), which recomputed on 13 knots and found 4/13 surject, including non-arithmetic 7_2/7_3/8_1",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "the addendum notes B727 found the ORIGINAL knot table's headline (2T surjection unique to arithmetic knots) was itself too narrow \u2014 4/13 hyperbolic knots surject onto 2T, including non-arithmetic 7_2,7_3,8_1 \u2014 but the FINDINGS body above the addendum still states 'The 2T surjection ... is present ONLY for the arithmetic cusped manifolds' as an unqualified headline; only the addendum at the bottom, and the arc_verdict.json claim_one_line, carry the corrected framing (the overall NEGATIVE conclusion survives, but the specific '2T surjection = arithmetic-only' body claim is superseded in-place and not edited out)",
+     "where": "FINDINGS.md main table vs. 'B727 corroboration' addendum"
+    }
+   ],
+   "seat_note": "This is one of the strongest, most self-critical results in the batch \u2014 it explicitly dismantles the program's own E6-richness narrative as generic-to-any-hyperbolic-knot; the corroborating B727 addendum is honest but the main table's unqualified '2T surjection ONLY for arithmetic knots' line is left standing uncorrected in the body text even though the addendum shows it as too narrow (though the overall directional conclusion is unaffected)."
+  },
+  {
+   "arc": "B283_selfgen_scoping",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B283_selfgen_scoping/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B283_selfgen_scoping/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B283_selfgen_scoping/selfgen_genericity_probe.py",
+    "/home/user/origin-axiom/frontier/B283_selfgen_scoping/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The arithmetic self-generation vein collapses: the WRT period law is generic to all torus bundles (Jeffrey 1992), the trace map is the known Fibonacci Hamiltonian, and the prime-absence claim is falsified. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "period governed by det(\u03c6+I) for metallic AND non-metallic AND irregular words (no distinguishing signal for the metallic family)",
+     "where": "selfgen_genericity_probe.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit per-word period table (RL, RRLL, RRRLLL, RRL, RRRL, RLRL, RRLRL)"
+    },
+    {
+     "what": "'period absent when m^2+4 prime' is falsified (m=1, disc 5 prime, has smallest period)",
+     "where": "FINDINGS.md citing B204",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "attributed to B204's exact formula, not recomputed in this arc's own script per the FINDINGS text"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "has repo-level test tests/test_b283_selfgen_scoping.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Another disciplined self-critical negative: it identifies the WRT self-generation vein as generic (Jeffrey 1992) plus a known result (Fibonacci Hamiltonian) plus one falsified sub-claim, consolidating with B282 into 'the programme is exhausted of new object-specific signal' \u2014 an unusually candid meta-conclusion."
+  },
+  {
+   "arc": "B284_2T_component",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B284_2T_component/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B284_2T_component/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B284_2T_component/twoT_component.py",
+    "/home/user/origin-axiom/frontier/B284_2T_component/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The exact finite-image 2T representation of the figure-eight is a generic smooth point (dim H1=1) on the canonical component, refuting chat-1's claim of a structurally distinguished 2T component. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "finite-image 2T rep exists exactly at tetrahedral angle cos \u03b1=\u22121/3, relator residual 2e-15, image order 24",
+     "where": "twoT_component.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit exact algebraic solve of the Riley polynomial at u=\u03c9 plus a numerical relator check"
+    },
+    {
+     "what": "dim_C H1(Ad) = 1 for the 2T rep, identical to the geometric rep (generic, not anomalous)",
+     "where": "twoT_component.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit cohomology dimension computed with the complex sl2 adjoint (a documented method correction mid-verification, using complex not real adjoint)"
+    },
+    {
+     "what": "adjudication of chat-1's 5 claims (dynamics conjugate to CS-time, Gamma~exp(-kVol), S=k/2 T formula, Lambda-sign)",
+     "where": "FINDINGS.md 'The other four claims'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "these are literature/argument adjudications, not computations \u2014 reasoning about external papers (Alexander-Magueijo-Smolin) rather than in-sandbox calculation"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "single script with a documented mid-verification method correction (real vs complex adjoint); has repo-level test tests/test_b284_2T_component.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "The computed claim-3 core is solid rep theory; claims 1,2,4,5 are literature-adjudication/argument, correctly kept separate and firewalled to S044 \u2014 appropriately transparent about a genuine mid-verification bug catch (real vs complex adjoint)."
+  },
+  {
+   "arc": "B285_commutator_phase",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B285_commutator_phase/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B285_commutator_phase/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B285_commutator_phase/commutator_phase.py",
+    "/home/user/origin-axiom/frontier/B285_commutator_phase/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The figure-eight's meridian-commutator trace is \u03ba=u\u00b2+2=\u221a3\u00b7e^(\u2213i\u03c0/6), so the phase magnitude \u03c0/6 is exact and forced by the Eisenstein field, while its sign is not. | status: PROVED",
+   "log_says": "Multiple later log entries: B752 (2026-07-22) corrects a claimed link to B285's trace ('the trace-1 input is \u03a66 ... NOT the banked trace-2 parabolic holonomy (B285)'); B744 (2026-07-21) reports B285 as one of 6 B738\u00d7B742 conflicts, '6/6 UPHELD as computed'; B830 (2026-07-30) says 'B285's note verifies the MATH not the kill'; B1233 (2026-09-01, i.e. today) says 'the Riley value = our B285'; Review 33 flags 'the B285-family locks in the suite' as a citation no gate can verify.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "meridian-commutator trace \u03ba=u\u00b2+2 = 3/2 \u2213 i\u221a3/2 = \u221a3 e^(\u2213i\u03c0/6) for Riley root u=\u03c9",
+     "where": "commutator_phase.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact symbolic computation from the Riley polynomial root, verified in FINDINGS and cross-checked in verdict.py"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "B744 log entry independently confirms B285 as one of 6 upheld conflicts with green locks; has repo-level test tests/test_b285_commutator_phase.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Review 33 names 'the B285-family locks in the suite' as cited in prose that 'no gate can verify and no reader can run' \u2014 a governance-level concern about downstream citation hygiene, not a defect in B285 itself, but worth flagging for the seat sweep",
+     "where": "docs/progress/REVIEWS.md Review 33 (per log_index)"
+    }
+   ],
+   "seat_note": "A clean, exact, well-firewalled arithmetic-geometry result (forced magnitude, free sign) that later gets explicitly mis-cited by a downstream chat (B752) and corrected \u2014 good evidence the verify-don't-trust discipline is actually functioning, though it shows how easily this exact number gets casually reused for physics-flavored claims (CP phase) elsewhere."
+  },
+  {
+   "arc": "B286_the_seam",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B286_the_seam/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B286_the_seam/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B286_the_seam/seam_fillings.py",
+    "/home/user/origin-axiom/frontier/B286_the_seam/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The ingredients live at the seam: Dehn filling the open complement supplies a forced 10-element exceptional set, chirality, an oriented CS sign, a 2\u03c0/n scale, and a peripheral clock. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "exactly 10 exceptional Dehn fillings (integer slopes -4..4 plus meridian/infinity)",
+     "where": "seam_fillings.py (SnapPy, citing Thurston)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "SnapPy exceptional-surgery census on a known manifold, standard and reproducible"
+    },
+    {
+     "what": "cusped CS=0 (amphichiral); generic fillings chiral (CS not in {0,1/2} mod 1); mirror slope (p,-q) gives CS=-CS(p,q)",
+     "where": "seam_fillings.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit SnapPy Chern-Simons computation across sampled fillings"
+    },
+    {
+     "what": "core length along (1,n) \u2248 2\u03c0/n (ratio -> 1.0000)",
+     "where": "seam_fillings.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit numeric asymptotic check"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "has repo-level test tests/test_b286_the_seam.py; this arc's headline claims are each later independently deepened/re-verified by B287 (dynamical), B288 (arithmetic), B289 (CP sign), B290/B291 (scale)",
+   "absence_claims": [
+    "FINDINGS.md 'The fence': acknowledges this does NOT derive SM values, e.g. 'whether the CP sign matches the observed baryon asymmetry ... all open.'"
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely interesting reframing (Curie's principle doesn't apply to an open/cusped object) that is then honestly followed up by five dedicated verification arcs (B287-B293); the philosophical move ('the closing IS the symmetry breaking') is presented plainly as an interpretive frame (P000), not smuggled in as physics."
+  },
+  {
+   "arc": "B287_distinguished_closing",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B287_distinguished_closing/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B287_distinguished_closing/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B287_distinguished_closing/distinguished_closing.py",
+    "/home/user/origin-axiom/frontier/B287_distinguished_closing/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The fiber slope (0,1) is the unique torus-bundle closing among the ten exceptional fillings, and its monodromy is exactly A=LR, confirmed by Alexander polynomial, Twister and Regina. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "m004(0,1) is Sol torus bundle with monodromy exactly A=[[2,1],[1,1]]",
+     "where": "distinguished_closing.py using SnapPy+Regina+Twister",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "three independent methods (Alexander polynomial, Twister isometry check, Regina combinatorial recognition) all cross-checked in one script; has repo-level test tests/test_b287_distinguished_closing.py"
+    },
+    {
+     "what": "uniqueness of the torus-bundle closing is homology-forced (only (0,1) has infinite H1)",
+     "where": "FINDINGS.md 'Uniqueness is homology-forced'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "an elementary but exact homological argument independent of Regina's recognizer limitations, explicitly strengthening the result against a tool gap"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "three-method cross-check (Alexander poly, Twister, Regina) plus a homology-forced argument as a fourth, tool-independent check \u2014 one of the more rigorously triangulated results in this batch",
+   "absence_claims": [
+    "FINDINGS.md: 'Regina recognizer incomplete on the simplified triangulation' for slopes \u00b11 (an absence/tool-limitation note, worked around by the homology argument)"
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A high-confidence, well-triangulated pure-topology result; the four-way cross-check (three positive methods plus a tool-independent homological uniqueness argument) is a good example of the verify-don't-trust discipline actually being applied thoroughly."
+  },
+  {
+   "arc": "B288_arithmetic_filling_census",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B288_arithmetic_filling_census/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B288_arithmetic_filling_census/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B288_arithmetic_filling_census/arithmetic_census.py",
+    "/home/user/origin-axiom/frontier/B288_arithmetic_filling_census/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "No closed hyperbolic Dehn filling of the figure-eight re-sees Q(\u221a\u22123) or is arithmetic, so the E6-selecting arithmetic is an open-object property destroyed by closing. | status: NEGATIVE",
+   "log_says": "Extensively logged: B746 (2026-07-21) notes 'B288/B740 tested \u221a\u22123 only' and proposes a wider \u221a5 sweep; B747/B748 (2026-07-21) combine with B288/B740 for 'no closed filling ... re-sees ANY of the three forced faces'; B737 (2026-07-21) reports cc2's REVISIT REGISTER found 'crack #1 (B288: 24/78 fillings SILENTLY SKIPPED \u2014 a continue bug)'; B739/B740 (2026-07-21) describe the direct fix: B740 recomputed the full 78-filling grid and the verdict 'STANDS and is now fully earned \u2014 no closed hyperbolic filling contains \u221a\u22123, 78/78'; Review 27 lists this as a major theorem-grade advancement and names the underlying bug as one of the window's recurring error classes ('B288's original 54/78 gap (closed)').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "0 of 54 (later 78, per B740) closed hyperbolic fillings in grid |p|,|q|<=8 contain sqrt(-3) or are arithmetic",
+     "where": "arithmetic_census.py (SnapPy + Sage NF) + verdict.py (sympy re-check)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "invariant-trace-field computation for each filling, cross-checked by a second (shape/trace field) method and independently re-verified for the cusped field in pure sympy"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "two independent field-computation methods within the arc, PLUS an external re-verification (B740) of the full 78-filling grid after a bug (24/78 silently skipped by a 'continue' in the original run) was caught by cc2's audit; this is the paradigm case of the belt system working as designed",
+   "absence_claims": [
+    "FINDINGS.md B740 completion note (added post-hoc): '24 were skipped by the environment-dependent positivity check / degree ceiling' \u2014 an explicit self-correction of an earlier undercounting bug in this very arc's original run"
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the arc's own FINDINGS.md documents that the ORIGINAL run silently skipped 24/78 fillings due to a 'continue' bug, caught only by a later external audit (cc2/B740) \u2014 the headline number in the body text (54) was corrected via an appended note rather than an edit to the body, though here (unlike B282) the correction is clearly appended and the final verdict (0/78, not merely 0/54) is what the arc_verdict.json and downstream citations use, so this is a properly-propagated correction, not a silent one"
+    }
+   ],
+   "seat_note": "This is a strong negative result and a good case study: an initial silent under-count (54/78, due to a code bug) was caught by independent audit and the grid was completed to 78/78 with the same NEGATIVE conclusion holding \u2014 the correction is visible and honestly appended in-place, which is the right way to handle it even though the underlying bug is a real methodological flag."
+  },
+  {
+   "arc": "B289_cp_sign_law",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B289_cp_sign_law/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B289_cp_sign_law/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B289_cp_sign_law/cp_sign_law.py",
+    "/home/user/origin-axiom/frontier/B289_cp_sign_law/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Chern-Simons sign law CS(p,-q) = -CS(p,q) is robust, and its meaning is a Q(sqrt-3) Galois reading; verified by two methods. | status: PROVED",
+   "log_says": "B855 (2026-08-02): reports (but explicitly does NOT independently verify in that arc) that B289/B296's CS sign law 'reportedly' holds 164/164 on m136 and 168/168 on m135 (non-commensurable manifolds), queuing independent recomputation; B1197 (2026-08-28) reports a DIFFERENT check \u2014 'the full census check FAILS: globally across B289's 78 closings |CS| is not non-increasing (15 violations)' \u2014 while also confirming 'the sweep reproduces B289's census size (78) and its banked sign law (156/156)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "over all 78 hyperbolic closings |p|,|q|<=8, every manifold is chiral and CS(p,-q)=-CS(p,q) exactly, cross-checked by chern_simons() and Im(complex_volume)/(2pi^2)",
+     "where": "cp_sign_law.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit two-method 78-closing census with agreement noted mod 1/2"
+    },
+    {
+     "what": "the mirror-slope sign flip is the same Q(sqrt-3) Galois involution (u<->u^2) that flips B285's \u00b1\u03c0/6 phase",
+     "where": "verdict.py (sympy recomputation)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit symbolic recomputation of the Galois action"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "two-method cross-check within the arc; externally, B1197 (later, different arc) reproduces the census size (78) and the sign law (156/156, i.e. 2x78 orientation pairs) as a control before testing an UNRELATED monotonicity claim which fails \u2014 B289's own sign-law claim is not contradicted by B1197",
+   "absence_claims": [
+    "B855 log entry: the m136/m135/m003 extensions of the CS sign law are explicitly flagged 'NOT verified in this arc (queued for independent recomputation)' \u2014 an absence claim about downstream extensions, not about B289's own m004 result"
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "B1197 (2026-08-28, outside this arc) found that a DIFFERENT, broader claim about |CS| monotonicity across the same 78-closing census FAILS with 15 violations, while confirming B289's own sign-law and census-size numbers; this is not a contradiction of B289's claim of record but the seat should be aware a closely related monotonicity extension built on the same census failed downstream",
+     "where": "log_index/B289.txt citing B1197 2026-08-28"
+    }
+   ],
+   "seat_note": "A solid, two-method-verified topology/arithmetic result whose core claim (chiral sign law, 78/78) is independently reproduced downstream (B1197); a related but distinct monotonicity claim on the same dataset later failed, which is useful context but does not undermine B289 itself."
+  },
+  {
+   "arc": "B290_core_scale_ladder",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B290_core_scale_ladder/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B290_core_scale_ladder/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B290_core_scale_ladder/core_scale_ladder.py",
+    "/home/user/origin-axiom/frontier/B290_core_scale_ladder/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The (1,n) core geodesic obeys the Neumann-Zagier ladder \u2113_C=2\u03c0i/n+(\u03c0/\u221a3)/n\u00b2+O(1/n\u00b3) with coefficient predicted by the cusp shape; separately, the filling n is not the WRT level k. | status: PROVED",
+   "log_says": "B855 (2026-08-02): reports (not independently verified in that arc) that 'B290's clean real pi/sqrt3 NZ coefficient reportedly being 2*pi/|tau|, real for ANY rectangular cusp, so rectangular-cusp-specific with only the VALUE being m004's' \u2014 queued for independent recomputation.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "l_C(1,n) = 2\u03c0i/n + (\u03c0/\u221a3)/n\u00b2 + O(1/n^3), with the 1/n^2 coefficient matching the independently-computed cusp shape prediction 2\u03c0/|\u03c4_cusp| to 5 digits",
+     "where": "core_scale_ladder.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "two-method match (direct SnapPy core_length series vs. cusp-shape-predicted coefficient), explicit numeric agreement reported"
+    },
+    {
+     "what": "'filling n = level k' is refuted as a formal identity (independent axes: topological Dehn integer vs quantum root-of-unity parameter)",
+     "where": "FINDINGS.md section 2",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "a conceptual/definitional argument, not itself a numerical computation"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "two independent computations (direct core-length series vs cusp-shape prediction) agree to 5 digits",
+   "absence_claims": [
+    "FINDINGS.md B855-carried caveat that the 'clean real' coefficient form is explicitly flagged in this very arc as m004-specific (only clean-real because m004's cusp shape happens to be purely imaginary) \u2014 an honest scoping note, already in the FINDINGS body, not an unaddressed absence"
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "B855 flagged this arc's headline coefficient as 'reportedly' generic to any rectangular cusp with only the numeric value being m004-specific, and queued it for independent re-verification not yet confirmed in the log entries read",
+     "where": "log_index/B290.txt citing B855 2026-08-02"
+    }
+   ],
+   "seat_note": "A careful two-method geometric result with an honest self-flagged caveat (the tidy real coefficient is m004-specific because of its purely-imaginary cusp shape); the G\u00b7\u039b link is correctly kept HELD, not banked, given the acknowledged 122-order gap."
+  },
+  {
+   "arc": "B291_scale_extremal",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B291_scale_extremal/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B291_scale_extremal/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B291_scale_extremal/scale_extremal.py",
+    "/home/user/origin-axiom/frontier/B291_scale_extremal/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "A stable min-volume closing m004(\u00b15,1) (vol 0.98137) exists and is non-arithmetic and not the fiber closing, so selection is axis-stratified with no universally distinguished closing. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "min-volume hyperbolic filling over grid |p|,|q|<=8 is m004(\u00b15,1)=m003(-2,3), vol 0.98136883, stable across 5 randomized triangulations",
+     "where": "scale_extremal.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "two independent volume methods (volume() and Re(complex_volume)) agreeing to <1e-7, plus a triangulation-stability check across 5 randomized retriangulations"
+    },
+    {
+     "what": "systole infimum is 0, not attained at any finite closing",
+     "where": "scale_extremal.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "follows directly from the already-verified core~2\u03c0/n asymptotic (B290)"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "two volume methods plus explicit 5-triangulation stability re-check, and a pyenv re-verification of the non-arithmeticity",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Careful and well-triangulated (5 independent randomized triangulations) minimal-volume computation; the honest conclusion \u2014 'selection is axis-stratified, no universal winner' \u2014 is a genuine negative for any 'our universe = the distinguished closing' hope, correctly flagged as a [HOOK] rather than banked."
+  },
+  {
+   "arc": "B292_multiplicity_2manifold",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B292_multiplicity_2manifold/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B292_multiplicity_2manifold/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B292_multiplicity_2manifold/multiplicity_2manifold.py",
+    "/home/user/origin-axiom/frontier/B292_multiplicity_2manifold/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Of the three multiplicity candidates only the fiber \u03a31,1 is a surface; the metallic tower and filling family are 3-manifold sequences, and none supplies the N=2\u2192N=1 chiral datum. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "classification of fiber (surface) vs metallic tower / filling family (3-manifold sequences) by Euler characteristic and dimension",
+     "where": "multiplicity_2manifold.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "straightforward but explicit dimension/Euler-char bookkeeping check across the three candidates"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "consolidating arc drawing on B277/B287/B288/B290/B291's already-computed results rather than fresh independent computation",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A consolidating classification result, correctly labeled a stop-gate: it clarifies which structure could plausibly supply the needed chiral datum (none of the three candidates do) without claiming any physics."
+  },
+  {
+   "arc": "B293_peripheral_clock",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B293_peripheral_clock/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B293_peripheral_clock/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B293_peripheral_clock/peripheral_clock.py",
+    "/home/user/origin-axiom/frontier/B293_peripheral_clock/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The clock is the peripheral symplectic pairing: \u03ba=tr[a,b] is the Goldman Casimir whose leaves make the cusp holonomies (\u03bc,\u03bb) canonically conjugate, matched independently by the Neumann-Zagier frame; no trajectory k(t) is derived. | status: PROVED",
+   "log_says": "B1189 (2026-08-28) cites '(L120 re-posed; B279/B769 confirmed with locks)' in a batch that also touches related B285/B289/B293 material area (per surrounding context in the same GC-5 cell), though the direct textual mention in the packeted log_index entry for B293 is via 'B293\u2261memo-51 JOINED' under GC-3 (2026-08-28), stating the three ticks are three operations on one generator A1=RL and that B293 is joined/identified with an external memo-51 item.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Goldman bracket {x,y}=2z-xy etc. with \u03ba=x\u00b2+y\u00b2+z\u00b2-xyz-2 as the Poisson Casimir ({\u03ba,\u00b7}=0)",
+     "where": "peripheral_clock.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit symbolic Poisson-bracket computation"
+    },
+    {
+     "what": "Neumann-Zagier frame independently gives the same conjugate-pair structure (A\u00b7B^T symmetric, mixed BF coupling k_um=-1)",
+     "where": "peripheral_clock.py (B263 NZ frame)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "second, independent computation of the same structural claim"
+    },
+    {
+     "what": "identification of the Casimir bracket construction with the Goldman bracket and \u03ba with tr[a,b]",
+     "where": "FINDINGS.md honest caveat (a)",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "explicitly flagged in FINDINGS as 'imported from Goldman/Fricke, not derived here' \u2014 a self-flagged type-identification, not computed"
+    },
+    {
+     "what": "'Goldman = NZ' identification of the two symplectic pictures",
+     "where": "FINDINGS.md honest caveats",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "FINDINGS states explicitly: 'the standard interpretive identification, asserted ... not an exhibited isomorphism'"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "two independent computations of a conjugate-pair structure (Goldman bracket vs NZ frame), but their EQUALITY ('Goldman = NZ') is explicitly asserted rather than proven, per the arc's own honest caveats",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "FINDINGS explicitly concedes: '\"Goldman = NZ\" is the standard interpretive identification, asserted (the two pictures each carry a symplectic structure), not an exhibited isomorphism' \u2014 a textbook case of a structural-type match (both are conjugate-pair/symplectic structures) being used to license an identification rather than a proven equivalence",
+     "where": "FINDINGS.md 'Honest caveats (red-team, Arc II)' item (c) and closing sentence"
+    }
+   ],
+   "seat_note": "An unusually self-aware arc: it explicitly names its own central move ('Goldman=NZ') as an asserted interpretive identification rather than a proven isomorphism, and correctly refuses to derive any trajectory/k(t) \u2014 good practice, flagged here per the seat's type-match rule even though the arc itself already flags it."
+  },
+  {
+   "arc": "B294_selection_verdict",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B294_selection_verdict/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B294_selection_verdict/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B294_selection_verdict/selection_verdict.py",
+    "/home/user/origin-axiom/frontier/B294_selection_verdict/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The seam is selective for the object's own structure (a forced A=LR closing) but a flat catalogue for Standard-Model values, with selection stratified across dynamical, arithmetic and scale axes. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the selection table (B287-B293, B295 summarized) and 'cross-axis test' that no closing is distinguished on all axes",
+     "where": "selection_verdict.py (imports B287-B293, B295)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "a consolidation script that imports and cross-checks the outputs of the prior seven arcs; the cross-axis comparison itself is a genuine (if simple) computation over already-established facts"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "explicitly a synthesis of B287-B293/B295; 'no new physical claim' per its own FINDINGS",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-earned synthesis: 'selective for the object's own structure, catalogue for SM-values' is a fair and appropriately modest summary of the seven preceding arcs it draws on, correctly declining to claim more than those arcs individually support."
+  },
+  {
+   "arc": "B295_ssb_gauge_status",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B295_ssb_gauge_status/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B295_ssb_gauge_status/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B295_ssb_gauge_status/ssb_gauge.py",
+    "/home/user/origin-axiom/frontier/B295_ssb_gauge_status/verdict.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The Curie-principle argument for CP-sign externality is refuted, and the programme's cubic V(\u03c4) potential is the wrong object with disjoint golden critical points, so no SSB mechanism is available. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "V(\u03c4)=\u03ba(\u03c4\u00b3/3\u2212\u03c4\u00b2/2\u2212\u03c4) critical points (golden \u03c6, \u22121/\u03c6 in Q(\u221a5)) are disjoint from the Eisenstein \u00b1\u03c0/6 vacua (\u03c9,\u03c9\u00b2 in Q(\u221a\u22123))",
+     "where": "ssb_gauge.py (sympy)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit symbolic disjointness check between two different number fields' distinguished elements"
+    },
+    {
+     "what": "V(\u03c4) is a cubic (one min, one max, unbounded below) so cannot be a double-well and cannot support SSB regardless of which \u03c4",
+     "where": "ssb_gauge.py / FINDINGS.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "elementary calculus fact about a cubic, verified symbolically"
+    },
+    {
+     "what": "the P011 Curie-principle argument itself is 'refuted' as the wrong argument (SSB loophole exists)",
+     "where": "FINDINGS.md 'The adjudication' item 1",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "a conceptual/logical argument about which physics principle applies, not a computation"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "has repo-level test tests/test_b295_ssb_gauge_status.py",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean negative that catches a real conflation error in the programme (two different \u03c4's \u2014 modular parameter vs amphichiral involution \u2014 being treated as one), correctly leaving 'is \u03c4 gauged' as an explicit NEEDS-SPECIALIST stop-gate rather than assuming it."
+  }
+ ]
+}

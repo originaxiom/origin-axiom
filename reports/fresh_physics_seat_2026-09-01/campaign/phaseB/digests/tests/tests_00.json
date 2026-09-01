@@ -1,0 +1,1220 @@
+{
+ "batch": "tests_00",
+ "tests": [
+  {
+   "file": "tests/_prose.py",
+   "target_arcs": [],
+   "what_it_locks": "Not a test: shared prose-normalising helper (norm/contains) used by other doc-assertion tests.",
+   "lock_type": "NOT_A_TEST",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/conftest.py",
+   "target_arcs": [],
+   "what_it_locks": "Not a test: suite-wide autouse fixture that saves/restores mpmath global precision (mp.mp.dps) around every test and after collection, to stop precision leaks crossing test boundaries; also registers the 'slow' marker.",
+   "lock_type": "NOT_A_TEST",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/helpers_e6.py",
+   "target_arcs": [],
+   "what_it_locks": "Not a test: shared E6 root-system/Weyl-orbit BFS utility library factored out of three arc test files.",
+   "lock_type": "NOT_A_TEST",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_algebra.py",
+   "target_arcs": [],
+   "what_it_locks": "Recomputes L,R,A matrix algebra (parabolic shears, trace/det, char poly, eigenvalues = phi^2 and 1/phi^2) directly from origin_axiom.algebra at test time via sympy.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "PHI_SQ",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_arc_verdict_schema.py",
+   "target_arcs": [],
+   "what_it_locks": "Recomputes/validates schema of every frontier/*/arc_verdict.json (>900 files): required fields, verdict enum, instrument/creates_law booleans, id-matches-directory, identifications list shape, and that creates_law/identifications are declared from B1103/B1231 onward.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "CREATES_LAW_REQUIRED_FROM=1103",
+     "provenance_stated": "yes"
+    },
+    {
+     "value": "IDENTIFICATIONS_REQUIRED_FROM=1231",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_atlas.py",
+   "target_arcs": [],
+   "what_it_locks": "Recomputes the Recurrence Atlas (mine/analyze/meeting_points/query/render) from the frontier corpus at test time and checks motif frequencies, rankings, and the render round-trip.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "0.25/0.40/0.25/0.05-0.50 frequency bands",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Comment admits floors were deliberately widened ('LOOSE SANITY BANDS') rather than re-fit to drift, e.g. trace_map floor moved 0.45->0.40 after crossing twice; author states this explicitly as a chosen laxity, not a hidden one."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_audit_sample.py",
+   "target_arcs": [],
+   "what_it_locks": "Locks the reproducible audit sampler (scripts/checks/audit_sample.py): reproducibility, order-independence, no-replacement, seed sensitivity, oversized-N behavior, and a hardcoded golden 8-sample draw plus the SEED constant.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [
+    {
+     "value": "GOLDEN_8 = [B104_arc,...]",
+     "provenance_stated": "yes (recorded once as golden)"
+    },
+    {
+     "value": "SEED == 20260730",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1003_f2_f8_locks.py",
+   "target_arcs": [
+    "B1003",
+    "B749"
+   ],
+   "what_it_locks": "Asserts the seven-fork verdicts and specific computed_facts strings in frontier/B749_genesis_forks/RESULTS.json (F2 ROBUST, F8 GEOMETRY-NECESSARY, F5/F6 FRAGILE) match exact wording.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1007_arb_maass.py",
+   "target_arcs": [
+    "B1007",
+    "B922",
+    "B798"
+   ],
+   "what_it_locks": "Asserts a specific file (B878's branch_cell9_rung1_v2.py) exists and contains B922's seal hash/flint import, that B1007's NEGATIVE verdict and withdrawal wording stand, and recomputes 91 exact integer moves + a dual-lattice skew via arb_maass.dual_lattice(30) (guarded by pytest.importorskip('flint')).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "169e9042 seal hash",
+     "provenance_stated": "yes"
+    },
+    {
+     "value": "4.9000853730625213014795758 gate target",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [
+    "pytest.importorskip('flint', reason='python-flint (arb) not installed on this bench')"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "The exact-integer-moves and dual-lattice tests are skipped entirely when python-flint is not installed."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1009_verification.py",
+   "target_arcs": [
+    "B1009"
+   ],
+   "what_it_locks": "Greps ROADMAP/docs for the withdrawal of an overreach claim, greps every arc_verdict.json for prohibited re-runs of a cascade on non-golden grammar, and checks THE_SM_VERDICT.md still records strong CP as never addressed / theta_QCD not claimed delivered.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b100_literature_crosscheck.py",
+   "target_arcs": [
+    "B100"
+   ],
+   "what_it_locks": "Recomputes via probe.py: SnapPy Ptolemy-variety obstruction-class count (2) and boundary-unipotent SL(3) rep count (6) for 4_1, plus the Baker-Petersen twisted-Alexander quadratic vs B98's Jacobian, and a genus table.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "pytest.importorskip('snappy', reason='SnapPy required for the Ptolemy cross-check')"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "Whole module's cross-checks are skipped if SnapPy is not installed on the bench."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1010_consolidation_loss.py",
+   "target_arcs": [
+    "B1010"
+   ],
+   "what_it_locks": "Recomputes the kappa identity (kappa-2=omega^2, unit modulus, arg=-pi/6) via sympy, and greps LAW_MAP/THE_FRAMEWORK/OPEN_LEADS/THE_CAMPAIGN/CROSSING_REQUIREMENTS for specific restored phrases.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1011_mckay_tensor.py",
+   "target_arcs": [
+    "B1011"
+   ],
+   "what_it_locks": "Recomputes: |<R,L>|=2880 via mod-61 group enumeration (b1011_cells.enumerate_group), the 63/63 character match against an independently built quaternion model (b1011_match), forced counts 992/284 via inclusion-exclusion, and reads class_chars.json (63 rows) plus arc_verdict wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "|group|=2880 at prime 61",
+     "provenance_stated": "yes (Serre gives = not just |)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1012_branch_verifications.py",
+   "target_arcs": [
+    "B1012"
+   ],
+   "what_it_locks": "Recomputes k-blindness equivalence (dS/dk=-CS) and a normalisation closure via b1012_verify functions imported at test time; checks arc_verdict wording for owed/refused items.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1013_wall_resort.py",
+   "target_arcs": [
+    "B1013"
+   ],
+   "what_it_locks": "Greps THE_FRAMEWORK/WHAT_WOULD_COUNT/CROSSING_REQUIREMENTS/TERMINOLOGY for specific re-sort/discharge phrases and checks arc_verdict wording that unverified items stay OWED.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1014_proof_form.py",
+   "target_arcs": [
+    "B1014"
+   ],
+   "what_it_locks": "Greps THE_CLAIM.md and CROSSING_REQUIREMENTS.md for required section headers and specific phrases (R11 anchor rule, vacuity tooth, L151 registration) and arc_verdict non-claims.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1015_b1016_anchors_junction.py",
+   "target_arcs": [
+    "B1015",
+    "B1016"
+   ],
+   "what_it_locks": "Checks DECLARATION.md text for anchor-set declaration; loads B1016 results.json (verdict SEPARATE, O1/O2 obstructions True, W3_disc_core='3129'); RECOMPUTES the junction obstruction live by importing junction.py and calling j1_pair_inventory/j2_field_obstruction/j2_module_obstruction; greps CROSSING_REQUIREMENTS and WHAT_WOULD_COUNT for channel-rule wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1017_recount.py",
+   "target_arcs": [
+    "B1017",
+    "B963"
+   ],
+   "what_it_locks": "Recomputes small rank-drop and branching-charge-tracelessness arithmetic inline (asserts on plain Python ints), and greps RETRACTED_PHRASES/THE_CLAIM/B963 FINDINGS for the correction and retraction wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1018_xdist.py",
+   "target_arcs": [
+    "B1018"
+   ],
+   "what_it_locks": "Checks scripts/run_suite.sh exists, is executable, and contains '--serial'/'ARBITER RULE'; greps PRACTICES.md for the arbiter rule; checks arc_verdict claim_one_line wording (BASELINE-DELTA, NOT PARALLEL-UNSAFE).",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1019_l149.py",
+   "target_arcs": [
+    "B1019"
+   ],
+   "what_it_locks": "Recomputes three shadow-group analyses (order/involutions/su2-embeddability for orders 120/32/2184) via b1019_cells.analyze(1/2/3) imported live; checks arc_verdict and FINDINGS wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "(120,1,True),(32,7,False),(2184,1,False)",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b101_hitchin_reframing.py",
+   "target_arcs": [
+    "B101"
+   ],
+   "what_it_locks": "Recomputes via probe.py at test time: Anosov hallmark booleans, SO(2,1) invariant-form uniqueness/signature (with a 1e-10 numeric tolerance), symmetric-space ladder signatures, sl(3) principal-sl(2) branching weights/degrees, tangent-space split at >=2 seeds, and a finite cubic-deformation witness (1e-3 tolerance).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "LOOSE_TOLERANCE",
+     "detail": "inv < 1e-10 for invariance-to-machine-precision and off_V0 > 1e-3 for the cubic deformation witness."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1020_b1022_batch.py",
+   "target_arcs": [
+    "B1020",
+    "B1021",
+    "B1022"
+   ],
+   "what_it_locks": "Greps KIND_TABLE/CROSSING_REQUIREMENTS docs for admissibility wording; checks a stored receipt JSON (prereg hash, r_refined value) and SEAL_LEDGER/HARVEST_HASHES entries; RECOMPUTES a sha256 of PHASE1_CORPUS.md and asserts it matches a hardcoded hex digest (hash-first protocol); checks B1022/B709 verdict wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "sha256 50d4bdd9be033808db9f5d4b97cb99b8953b7cc9ef6f3ace56e22a4cc4720a7c",
+     "provenance_stated": "yes (sealed digest)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1023_concessions.py",
+   "target_arcs": [
+    "B1023",
+    "B1015"
+   ],
+   "what_it_locks": "Greps WORKING_RULES/CROSSING_REQUIREMENTS/OPEN_LEADS for corrected-authority and pin wording; RECOMPUTES a sha256 of DECLARATION.md and compares to a value read from the arc's own ARTIFACT_HASHES.txt manifest (not a hardcoded literal), then checks the addendum file exists; greps B1009 FINDINGS for citation-correction wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1024_l153.py",
+   "target_arcs": [
+    "B1024"
+   ],
+   "what_it_locks": "Recomputes cohomology-class computations (cls/cls_structure on CHI_M/ALL_MINUS/CHI_C/ALL_ONES) live via b1024_cells and checks the span generates all of H^1; checks arc_verdict and CROSSING_REQUIREMENTS wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "cls(CHI_M)==(0,0), cls(ALL_MINUS)==(1,1), cls(CHI_C)==(1,0)",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1025_audit.py",
+   "target_arcs": [
+    "B1025"
+   ],
+   "what_it_locks": "Recomputes three join-verification functions (i5_singlet_multiplicities, i3_unit_untouched_by_sigma, i1_arrow_is_downstream_of_closing) live via audit_checks; checks arc_verdict phrase list.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1026_b1027_crossing.py",
+   "target_arcs": [
+    "B1026",
+    "B1027"
+   ],
+   "what_it_locks": "Recomputes crossing arithmetic (circ_dist, PRED==[120,240], sigma bounds) by importing verdict.py live; checks nominate.py source text for a near-miss (T5 excluded, 1.585) and arc_verdict wording for both arcs.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "d240==43.0, LEPTON sigma_up==42.0",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1028_freedom_ledger.py",
+   "target_arcs": [
+    "B1028"
+   ],
+   "what_it_locks": "Loads and executes b1028_walk.py live (links(), outputs(), verdict()), recomputes ledger arithmetic (total bits, conservative_bits_out=4.584962500721156), asserts the internal cite-checker actually raises on a false phrase, and greps FINDINGS/arc_verdict for exact wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "conservative_bits_out=4.584962500721156, declared_input_bits=3.0",
+     "provenance_stated": "yes"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1029_invariant_ring.py",
+   "target_arcs": [
+    "B1029"
+   ],
+   "what_it_locks": "Loads and executes b1029_cells.py live for the action derivation, invariants (with an independent sympy re-derivation of two closure identities), and price bounds under a sealed cap; checks a sealed prereg hash against ARTIFACT_HASHES.txt and re-hashes the file.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b102_hitchin_continuation.py",
+   "target_arcs": [
+    "B102"
+   ],
+   "what_it_locks": "Recomputes via probe.py: Cayley-Hamilton dichotomy conditions on V0/W1/W2, a Monte-Carlo dichotomy census (n=30,seed=20) asserting zero 'neither' cases, elliptic-generator classification, a 1e-10 numeric trace-field self-duality check, Task-M spectrum link, cubic-family dimension, and a majority-fraction second-order complexification test.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1030_price_lock.py",
+   "target_arcs": [
+    "B1030"
+   ],
+   "what_it_locks": "Loads b1030_verify.py live (v1-v4 cells) plus independent sympy re-derivations of exact identities; greps FINDINGS/THE_CLAIM/arc_verdict for specific phrasing, including a check that a named dead sentence is NOT present; a separate test re-derives kappa-2=omega^2 independently.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1031_zeta23.py",
+   "target_arcs": [
+    "B1031",
+    "B737"
+   ],
+   "what_it_locks": "Loads b1031_verify.py live (v1_ideal_count_identity with N=1500, smaller than the arc's own 3000 run, plus independent spot-checked class-number counts via brute force lattice enumeration); greps FINDINGS for provenance fetch-date/hash and specific hedges; checks arc_verdict and a knowledge doc.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Runs the identity check at a smaller N=1500 'in-suite' than the arc's own N=3000 run, explicitly noted in the docstring/comment as a suite-speed reduction."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1032_type_law.py",
+   "target_arcs": [
+    "B1032"
+   ],
+   "what_it_locks": "Loads b1032_typecheck.py live (v1-v3 cells) plus independent sympy identities (sqrt5=phi+1/phi); greps FINDINGS/TERMINOLOGY/arc_verdict for exact typing wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1033_adjudication.py",
+   "target_arcs": [
+    "B1033",
+    "B299",
+    "B298",
+    "B280"
+   ],
+   "what_it_locks": "Loads b1033_cells.py live (v1_content_table CHIRAL outcome, v2_orbit_identity reproducing B299's nine 3-orbits and refuting a declared prior); checks FINDINGS/THE_CLAIM wording and re-hashes PREREGISTRATION.md against ARTIFACT_HASHES.txt.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1034_l154.py",
+   "target_arcs": [
+    "B1034",
+    "B1064",
+    "B1190"
+   ],
+   "what_it_locks": "Loads b1034_cells.py live for both-sides exact Sugawara arithmetic and a repo-wide 'no drive-by mention of the L154 pairing' sweep (v2_map_hunt), with a large explicit allowlist of files entitled to discuss it plus a generic _about_the_lock() exemption rule; checks FINDINGS/TERMINOLOGY/arc_verdict wording and hash; a final test asserts named campaign surfaces still carry adjudication language rather than a bare join.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The allowlist for test_v2_no_exhibit_adjudicated has grown repeatedly as new files 'legitimately' trip the lock by discussing/documenting it; the comment names this as a recurring pattern (four prior instances) and converts the growing list into a generic keyword exemption ('B1034' or 'drive-by' in body), which weakens the sweep's power to catch a real drive-by join that happens to mention the arc number."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1035_receipts.py",
+   "target_arcs": [
+    "B1035",
+    "B1021"
+   ],
+   "what_it_locks": "Loads b1035_verify.py live (v1-v3 cells); checks FALSIFIER_REGISTER.md and B1021's addendum for exact integration-hash strings; checks arc_verdict wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1036_mirror_double.py",
+   "target_arcs": [
+    "B1036"
+   ],
+   "what_it_locks": "Checks source text of b1036_final.py for named gates/halts; checks four separate .log files for exact numeric/text lines (h1 values, PASS/FAIL counts); checks FINDINGS wording and re-hashes PREREGISTRATION.md against ARTIFACT_HASHES.txt.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1037_b1038.py",
+   "target_arcs": [
+    "B1037",
+    "B1038"
+   ],
+   "what_it_locks": "Checks B1037 arc_verdict/log/FINDINGS text and a sealed hash; recomputes B1038's census live via b1038_verify.v1_census/v2_gauge_aware_floor/v3_docs_installed imported by exec_module; checks B1038 arc_verdict wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1039_residual.py",
+   "target_arcs": [
+    "B1039"
+   ],
+   "what_it_locks": "Checks an output log's exact strings/counts (h1 value, 'dbl absent' count of 15, a specific list literal) and FINDINGS wording; checks arc_verdict and a sealed hash.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b103_tower_equivariance.py",
+   "target_arcs": [
+    "B103"
+   ],
+   "what_it_locks": "Recomputes via probe.py: MCG relations lifting to Jacobians, factoring-through-abelianization, a det-sign catalog law over four test words, two-sequence multiplicities, and an exact constructive module isomorphism over Q[m] at n=3 and n=4 (intertwiner dim = Schur sum).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1040_battery.py",
+   "target_arcs": [
+    "B1040"
+   ],
+   "what_it_locks": "Checks a sealed prereg hash prefix and specific ledger/FINDINGS text strings (step counts, exclusion wording, split/corollary phrasing).",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1041_theta_leg.py",
+   "target_arcs": [
+    "B1041"
+   ],
+   "what_it_locks": "Recomputes at test time by running b1041_cells.py as a subprocess and asserting exact stdout strings (coordinate-permutation count 0/6, specific L-vector values, rank 3, 8/8 equivariance table); checks a sealed prereg hash and FINDINGS wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1042_trit.py",
+   "target_arcs": [
+    "B1042"
+   ],
+   "what_it_locks": "Recomputes by running b1042_cells.py as a subprocess (up to 600s timeout) and asserting exact stdout strings (7 conjugacy classes with given sizes, 49/49 orthogonality pairs, affine E6 graph checks); checks a sealed prereg hash and FINDINGS wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1043_triple.py",
+   "target_arcs": [
+    "B1043"
+   ],
+   "what_it_locks": "Checks a static output log file (b1043_output.txt) for exact numeric strings (h0/h1 values, gate pass/fail lines) and FINDINGS wording; checks a sealed prereg hash.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1044_gamma.py",
+   "target_arcs": [
+    "B1044"
+   ],
+   "what_it_locks": "Checks a sealed prereg hash and static ledger/FINDINGS text for row counts and closure wording.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b104_dehn_twist_tower.py",
+   "target_arcs": [
+    "B104",
+    "B80"
+   ],
+   "what_it_locks": "Recomputes via probe.py: a gate reproducing B80's proved metallic tower from the Dehn-twist word ['U','S'] at SL(4), two-sequence multiplicities, metallic/non-metallic universality checks, factoring-through-N, and a partial SL(5) wall resolution (21+/24 Dickson factors).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b105_n5_wall_and_convergence.py",
+   "target_arcs": [
+    "B105",
+    "B84"
+   ],
+   "what_it_locks": "Recomputes via probe.py: the SL(5) eps-series resolves exactly 21/24 Dickson factors, the unresolved-3 vary across seeds while resolved-21 are invariant, three-obstacle distinction table, and the unified n=5 wall cusp-spectrum collision table; checks banked correction dicts (CORRECTIONS_V90/V91/OBSERVATIONS/CORRECTIONS) for expected keys.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1060_digest.py",
+   "target_arcs": [
+    "B1060"
+   ],
+   "what_it_locks": "Parses DIGEST_LEDGER.md rows and checks row count >=50, disposition vocabulary, presence of specific arc-row markers for a range of ids, and a specific 'CLOSED-PARTIAL' close-state assertion including a count of 13 NOT-REACHED rows.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1062_bridge.py",
+   "target_arcs": [
+    "B1062"
+   ],
+   "what_it_locks": "Checks two sealed hash prefixes (prereg + addendum) and reads four separate .log files for exact numeric/text lines (field content, eliminant factors, monodromy match, distinct-trace counts); checks FINDINGS wording.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1063_refresh.py",
+   "target_arcs": [
+    "B1063"
+   ],
+   "what_it_locks": "Checks a static log file for exact miss-by-degree strings across four window/target pairs and a ratio '2.21x'; checks FINDINGS wording for closure discipline (SPENT, NEW arc under a NEW seal, NEGATIVE).",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b106_dehn_filling_anatomy.py",
+   "target_arcs": [
+    "B106"
+   ],
+   "what_it_locks": "Recomputes via probe.py: SL(3)/SL(4) Dehn-filling Jacobian stability signatures, per-eigenvector L_i=c*M_i^k relations across four components with numeric tolerances (1e-6, 1e-3), and an SL(4) relation census.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "LOOSE_TOLERANCE",
+     "detail": "per_eigenvector_dev < 1e-6, commute_offdiag < 1e-6, scalar-c match tolerance 1e-3, |c^k|-1 tolerance 1e-3; comment notes the realized complex conjugate branch (c=+i vs c=-i) is LAPACK/seed-dependent and both are accepted via min(abs(...))."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b107_physics_connection_audit.py",
+   "target_arcs": [
+    "B107",
+    "B67"
+   ],
+   "what_it_locks": "Recomputes via probe.py: the Fibonacci trace map identity, symbolic conservation of the Suto invariant for m=1..4 (exact, deviation==0), and that all 8 SL(3) tower eigenvalues are +-phi^k matching an exact sympy-computed multiset.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1083_origin_torsor.py",
+   "target_arcs": [],
+   "what_it_locks": "Recomputes small inline combinatorics: a K4 orbit of substitution rules is free/transitive (4 distinct), that all orbit rules stay forward maps, a brute-force preimage search up to length 8 showing 'bb' has no preimage, and a 2x2 matrix identity (det=-1, M^2=RL, trace 3).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1084_g2_cone.py",
+   "target_arcs": [
+    "B1084"
+   ],
+   "what_it_locks": "Recomputes a 96-element group via BFS over generators built from quaternion multiplication (module-scope pytest fixture), then checks its order, a fixed-point-dimension census (53 of dim3, 42 of dim1, none isolated), and two stabilizer-subgroup sizes (24, 48).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1085_edge_observability.py",
+   "target_arcs": [
+    "B1085"
+   ],
+   "what_it_locks": "Recomputes a tridiagonal eigenproblem (scipy eigh_tridiagonal) for two 987-length Beatty-sequence diagonals, checking bulk spectral matching (<=1 count mismatch) and edge-state counts (5 vs 6) with energy values matched to 2e-3.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "LOOSE_TOLERANCE",
+     "detail": "Edge energy values matched to 2e-3 tolerance."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1086_spectrum_law.py",
+   "target_arcs": [
+    "B1086"
+   ],
+   "what_it_locks": "Recomputes exact Fox-calculus h1 dimensions over Q(sqrt-3) using a hand-rolled exact number-pair arithmetic module (no floats), including a relator check, longitude trace, and Sym^k block h1 computations for k=0,8.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1087_charge_grading.py",
+   "target_arcs": [
+    "B1087"
+   ],
+   "what_it_locks": "Reads a stored results JSON (b1087_results.json) \u2014 the docstring explicitly states the heavy exact recompute of the hv16 JM triple is too expensive to run in-suite \u2014 and re-verifies the 1+8+9+8+1 spectrum balance and slot-halving relation from the stored data by cheap arithmetic.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Docstring states directly that the load-bearing heavy computation (JM triple solve) is NOT recomputed in this lock, only pinned from a stored JSON, because it is too heavy for the suite."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1088_action_card.py",
+   "target_arcs": [
+    "B1088"
+   ],
+   "what_it_locks": "Recomputes hyperbolic-volume/Chern-Simons/Brown-Henneaux identities exactly with mpmath (60 dps) and sympy: volume from Clausen function to 1e-28, CS-part exactness to 1e-50, and c=6*sigma closure.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1089_matter_card.py",
+   "target_arcs": [
+    "B1089",
+    "B1086",
+    "B1087",
+    "B1085"
+   ],
+   "what_it_locks": "Loads other arcs' arc_verdict.json claim_one_line strings via a glob helper and asserts specific phrase fragments are present in each (including its own B1089 card); checks instrument==False for the card itself.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "test_card_synthesis calls _v('B1089') to fetch and check its own arc's claim_one_line text, i.e. the lock partly reads the arc's own output as both the source and the thing being verified."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b108_theta_to_c.py",
+   "target_arcs": [
+    "B108"
+   ],
+   "what_it_locks": "Recomputes via probe.py: theta as a contragredient involution commuting with the tower, contragredient sending c to c^-1 across four components/two seeds with 1e-3 tolerance, and a hinge test showing theta fails to predict the order-4 secondary component.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "LOOSE_TOLERANCE",
+     "detail": "c*c_dual match tolerance 1e-3."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1090_partition_bridge.py",
+   "target_arcs": [
+    "B1090"
+   ],
+   "what_it_locks": "Recomputes exactly (sympy) that the saddle is a root of u^2+u+1 (omega), and via mpmath (30-40 dps) that a saddle value equals pi^2/6 - i*Vol and a closed-form G-function value matches a target complex number to 1e-8.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1091_observer_card.py",
+   "target_arcs": [
+    "B1091",
+    "B1087",
+    "B1085",
+    "B1090"
+   ],
+   "what_it_locks": "Cross-checks phrase fragments across other arcs' arc_verdict claim_one_line strings (B1087, B1085) and its own (B1091), and checks instrument flags for B1091/B1090.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "test_card_synthesis_and_campaign_state reads _v('B1091')['claim_one_line'] as the thing under test, i.e. the arc's own verdict text is both source and target."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1092_purity_selector.py",
+   "target_arcs": [
+    "B1092"
+   ],
+   "what_it_locks": "Recomputes an exact sympy fermionic-operator construction (creation/annihilation ops on a 32-dim Fock space, restricted to 16-dim even subspace) and computes generator stabilizer dimensions for the vacuum (34) and a generic vector (29) via matrix rank.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1093_route_a.py",
+   "target_arcs": [
+    "B1093"
+   ],
+   "what_it_locks": "Recomputes exact number-field arithmetic with sympy: discriminant/factorization of x^3-12x-5, a 3-maximality check via polynomial gcd mod 3, unit signs via resultants, and a signature-rank check via an F2-linear-algebra helper.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1094_two_route.py",
+   "target_arcs": [
+    "B1094",
+    "B738",
+    "B955",
+    "B1079"
+   ],
+   "what_it_locks": "Loads frontier/B738_pathfinder_compiler/kill_graph.json and checks the B1094 node's kill_form/hatch/faces_consulted fields; checks B1079's arc_verdict for a specific count string (15,624).",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1095_mirror_isospectral.py",
+   "target_arcs": [
+    "B1095"
+   ],
+   "what_it_locks": "Recomputes tridiagonal eigenproblems (scipy) at N=987 and N=1597 for mirrored Beatty sequences, checking exact reversal identity at 987 (and its two-index breakdown at 1597), near-exact isospectrality (1e-12), and a 5-vs-6 edge-state split with cross-bulk matching (1e-10).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1096_anomaly_layer.py",
+   "target_arcs": [
+    "B1096"
+   ],
+   "what_it_locks": "Recomputes exact anomaly-cancellation sums (Fraction arithmetic) over a hardcoded 16-particle SM-representation table, checking all six anomaly coefficients vanish for 16 fields, that removing nu^c breaks two of them, and that a Z6-hypercharge congruence search over 36 (a,b) pairs has a unique solution (4,3).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "16-field SM hypercharge/B-L table",
+     "provenance_stated": "no (standard SM charges, not sourced to a file)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1097_first_step_losses.py",
+   "target_arcs": [],
+   "what_it_locks": "Recomputes small inline linear-algebra/combinatorics facts: an incidence-matrix invariance under substitution-rule reordering, a sign-loss identity for a 2x2 matrix and its square, and a parity-dependent Fibonacci-index reversal-identity closure test.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1098_nonabelian_hatch.py",
+   "target_arcs": [
+    "B1098"
+   ],
+   "what_it_locks": "Reads a stored results JSON (b1098_results.json, 20 rows) and checks saturation dims/ranks for named Lie algebras; a second, @pytest.mark.slow test attempts to live-verify an A2 triple's bracket relations and centralizer dimension by exec'ing an external certificate script located via an environment variable, skipping if the path is not provided.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "pytest.mark.slow",
+    "pytest.skip('cert machinery path not provided in this environment') when B1098_CERT_PATH is unset"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "The one live-recompute test in this file (A2 triple relations + centralizer, the load-bearing verification) is skipped whenever the B1098_CERT_PATH env var is not set, which is the default in CI; only the stored-JSON check runs by default."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1099_route_a_counter.py",
+   "target_arcs": [
+    "B1099"
+   ],
+   "what_it_locks": "Recomputes sympy factorizations (5 squarefree, disc=6237, non-divisibility) supporting a transitivity corollary, and checks the arc_verdict text mentions specific literature-proposition/corollary numbers.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b109_trace_map_dynamics.py",
+   "target_arcs": [
+    "B109",
+    "B95"
+   ],
+   "what_it_locks": "Recomputes via probe.py: SL(2) void linearization eigenvalues/Lyapunov exponents (with 1e-3 tolerance), a bounded-vs-escaping center-orbit numeric test, kappa's critical-point Hessian signature, and SL(3) center-manifold dimension counts across two words.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "LOOSE_TOLERANCE",
+     "detail": "Lyapunov match tolerance 1e-3; center-orbit bound check within 0.1 of 3.46."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1100_landing_content.py",
+   "target_arcs": [
+    "B1100"
+   ],
+   "what_it_locks": "Reads two stored JSONs (b1100_exact_table.json, b1100_hypercharge.json) and checks exact sl2-decomposition dict, complex-CRootOf witness substring, class-size multiset, and a pattern-hit boolean plus float count.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1101_certification_envelope.py",
+   "target_arcs": [
+    "B1101"
+   ],
+   "what_it_locks": "Checks arc_verdict fields (id, verdict PROVED, instrument True, creates_law False) and FINDINGS text for specific rule wording ('working tree is read-only', 'fold-forward').",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1102_exact_solve.py",
+   "target_arcs": [
+    "B1102",
+    "B950"
+   ],
+   "what_it_locks": "Recomputes/cross-checks the exact hypercharge solve: reconstructs the banked B950 target multiset independently (Fraction Counter), verifies all 18 stored solving directions reproduce it exactly via fresh dot-product arithmetic against stored weight classes, checks a completeness premise (4 basis classes of size 3, 625=5^4 assignments tried), checks no solution is 'pure' on either ideal's Cartan pair, and cross-checks su(2)-decomposition counts.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1103_being_gate.py",
+   "target_arcs": [
+    "B1103"
+   ],
+   "what_it_locks": "Runs check_being_gate_vendored.py as a subprocess at length 3 (fast, ~seconds) and asserts return code 0 and 'ALL CHECKS PASSED'; checks FINDINGS flags and arc_verdict creates_law; two slow tests (length 5 / the bench's own zeta60 engine) are skipped unless OA_SLOW=1.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "@pytest.mark.skipif(not os.environ.get('OA_SLOW'), ...) on the full-scope (length 5, 1364 words) and the own-engine tests"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "The full 1364-word certificate sweep and the bench's independent zeta60 engine end-to-end verification both require OA_SLOW=1 and are skipped by default; only the 84-word length-3 fast case runs in normal CI."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1104_fourd_suspension.py",
+   "target_arcs": [
+    "B1104"
+   ],
+   "what_it_locks": "Checks a stored results JSON's verdict-bearing fields (element orders, cusp kernel size 2, conjugacy classes, filter counts, C1/C2/C3 outcomes), then re-runs b1104_selection.py live as a subprocess (SnapPy m004 symmetry group + exact table arithmetic, ~10s) and checks its stdout matches the stored conclusion.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1105_b1106_locks.py",
+   "target_arcs": [
+    "B1105",
+    "B1106"
+   ],
+   "what_it_locks": "Greps TERMINOLOGY/THE_LADDER/THE_FRAMEWORK for scope-correction wording and absence of an overstated phrase; checks a FINDINGS table; checks EDGE_PREREG_SPEC.md ordering (concession section before prediction) and SEAL_LEDGER; loads a stored gen-control JSON and re-runs b1106_gen_control.py live as a subprocess, checking stdout for 'C-GEN PASS'.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1107_b1108_harvest.py",
+   "target_arcs": [
+    "B1107",
+    "B1108"
+   ],
+   "what_it_locks": "Loads B1107's stored results JSON and checks numeric agreement fields (max errors <1e-13/1e-14, logZ value, corrected 5.5-cutoff spectrum counts 214/2819); checks FINDINGS wording for both arcs and B1108's NEGATIVE verdict; a slow test (OA_SLOW=1) re-runs b1107_verify.py live and is otherwise skipped.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "@pytest.mark.skipif(not os.environ.get('OA_SLOW'), ...) on test_b1107_live_rerun"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "The only live recompute (b1107_verify.py full re-run) is gated behind OA_SLOW=1 and skipped by default; the rest of the file only reads stored JSON/markdown."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1109_b1110_b1111_wave.py",
+   "target_arcs": [
+    "B1109",
+    "B1110",
+    "B1111"
+   ],
+   "what_it_locks": "Reads B1109/B1110 stored results JSONs and cross-checks projection cardinality/multiplicity obstructions live from B1102's intermediate JSON; recomputes a Pell-recurrence based center-break test inline (exact Fraction arithmetic, 60 iterations); runs b1111_scoping.py live as a subprocess and checks exact stdout strings; checks FINDINGS wording across three arcs.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b110_off_locus_sector.py",
+   "target_arcs": [
+    "B110"
+   ],
+   "what_it_locks": "Recomputes via probe.py: that all three irreducible SL(3) components of 4_1 lie on the forced locus, and an off-locus search finds zero points, matching a verdict dict that also records the broader fork as OPEN.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1112_projective_hatch.py",
+   "target_arcs": [
+    "B1112",
+    "B1100"
+   ],
+   "what_it_locks": "Loads a stored parity_sweep.json (20 strata) and checks strata counts, that A2's exact weight multiset matches B1100's independently-locked branching multiset, an A1 odd-weight witness, principal-series parity, and a uniqueness claim (A2 even, A1 odd) for the SM-facing selection; checks FINDINGS phrasing.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1113_tmeter.py",
+   "target_arcs": [
+    "B1113"
+   ],
+   "what_it_locks": "Loads a stored results JSON and checks exact trace-display strings for dial-blindness (identical across 4 dial values) and 4-way separation, plus a memo cross-check dict; checks FINDINGS/law wording and creates_law; a slow test (OA_SLOW=1) re-runs the certificate-free verifier and is otherwise skipped.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "@pytest.mark.skipif(not os.environ.get('OA_SLOW'), ...) on test_verifier_reruns_certificate_free"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "The only live recompute (b1113_tmeter_verify.py) is gated behind OA_SLOW=1; default CI only reads the stored JSON/markdown."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1114_lorentz.py",
+   "target_arcs": [
+    "B1114"
+   ],
+   "what_it_locks": "Loads a stored results JSON and checks it contains 'CONFIRMED' plus a joint-centralizer-dimension marker (loosely matched via several string forms); checks FINDINGS wording (so(3,1)+su(3), 'mis-sourced' correction, all-even biweights); checks creates_law; a slow test (OA_SLOW=1) re-runs b1114_verify.py and is otherwise skipped.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "@pytest.mark.skipif(not os.environ.get('OA_SLOW'), ...) on test_verifier_reruns"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "Only recompute test gated behind OA_SLOW=1."
+    },
+    {
+     "kind": "OTHER",
+     "detail": "test_stored_layers_confirmed checks for the joint-centralizer dim via a disjunction of loosely-matching string forms ('\"8\"' or '\": 8' or 'dim=8' or 'joint' in the JSON dump) rather than parsing the actual field, which would pass even if the number were wrong as long as some 8-like or 'joint' substring appears anywhere in the JSON."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1115_spending.py",
+   "target_arcs": [
+    "B1115",
+    "B1114"
+   ],
+   "what_it_locks": "Greps a single FINDINGS.md for presence of DAG node labels D0-D7, an exclusivity phrase citing B1114, a cosmological falsifier phrase, and double-duty/fence wording; this is a synthesis arc \u2014 no independent computation is performed, only text presence.",
+   "lock_type": "TAUTOLOGICAL",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "TAUTOLOGICAL",
+     "detail": "Every assertion is a substring/text-presence check against one file the arc itself wrote (FINDINGS.md); no number or claim is independently recomputed or cross-checked against another source, so the test cannot fail unless the prose is edited."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1116_asymptotic.py",
+   "target_arcs": [
+    "B1116"
+   ],
+   "what_it_locks": "Checks FINDINGS text for scope-audit wording (four named no-gos); reads a stored results JSON and recomputes an mpmath comparison of stored numeric fields to expected target values (1.5, a constant target, an exponent target) with 1e-10/1e-11 tolerances; checks more FINDINGS wording; a slow test (OA_SLOW=1) reruns b1116_verify.py live and is otherwise skipped.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [
+    "@pytest.mark.skipif(not os.environ.get('OA_SLOW'), ...) on test_numeric_reruns"
+   ],
+   "red_flags": [
+    {
+     "kind": "SKIP_IN_CI",
+     "detail": "The only full numeric rerun is gated behind OA_SLOW=1."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b1117_adelic.py",
+   "target_arcs": [
+    "B1117"
+   ],
+   "what_it_locks": "Recomputes at 40 dps via mpmath that a predicted volume formula (9*sqrt3*zeta_K(2)/pi^2 built from Hurwitz zeta) matches a hardcoded high-precision volume constant to 1e-25, and that specific Fibonacci numbers partition into 'close'/'break' edge-window sets; checks FINDINGS wording.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [
+    {
+     "value": "vol_true = 2.029883212819307250042405108549",
+     "provenance_stated": "no explicit citation in this file (referenced elsewhere as the hyperbolic volume of m004/figure-eight complement)"
+    }
+   ],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1118_deflation.py",
+   "target_arcs": [
+    "B1118",
+    "B1102"
+   ],
+   "what_it_locks": "Recomputes live from B1102's stored results JSON: builds the full permutation/swap orbit structure over the 18 solving directions via a hand-rolled group action, confirms two orbits of size 9, and shows a 'plain swap' operator does not fuse them while a 'mirror' (negate+blockswap) operator does.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1119_anomaly.py",
+   "target_arcs": [
+    "B1119",
+    "B1114"
+   ],
+   "what_it_locks": "Greps a single FINDINGS.md for the root-cause wording (FAKE INVARIANT FORM, ad-invariant vs tau-invariant, classification-as-checksum) and corrected verdict labels (E6(2)/E6(6)) and a statement that B1114's Lorentz algebra is unaffected \u2014 no independent computation.",
+   "lock_type": "TAUTOLOGICAL",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": [
+    {
+     "kind": "TAUTOLOGICAL",
+     "detail": "Purely text-presence assertions against the arc's own FINDINGS.md; nothing is recomputed."
+    }
+   ]
+  },
+  {
+   "file": "tests/test_b111_sign_structure.py",
+   "target_arcs": [
+    "B111",
+    "B62"
+   ],
+   "what_it_locks": "Recomputes via probe.py: SL(3) sign-rule/parity-divisibility, an opposition-involution closed form matched against B62's height-2 results for n=3..6, a tower-vs-closed-form promotion check for n=3,4, an M^4-scalar (im)possibility table, a cusp-order pattern check with an explicitly-negative ord-1 hinge test, and a dead bridge check.",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1120_L180.py",
+   "target_arcs": [
+    "B1120"
+   ],
+   "what_it_locks": "Loads a stored results JSON, extracts pooled fit values for C1/C2 at 50 dps via mpmath, and re-derives two closed-form coefficient formulas (rational x sqrt3 x pi, rational x pi^2) independently, checking agreement to 1e-15 plus that the two rational coefficients are in lowest terms; checks the verdict string and FINDINGS wording (including an explicit 'OPEN, not negative' fence on a third coefficient C3).",
+   "lock_type": "RECOMPUTES",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  },
+  {
+   "file": "tests/test_b1121_pairs.py",
+   "target_arcs": [
+    "B1121"
+   ],
+   "what_it_locks": "Loads a stored results JSON and checks four control pass-rate strings (e.g. '500/500', '60/60') and that the verdict is the explicitly honest 'INCONCLUSIVE-AT-BOUND' / arc_verdict OPEN, i.e. a lock that pins an admitted non-result.",
+   "lock_type": "COMPARES_TO_STORED",
+   "hardcoded_constants": [],
+   "skip_conditions": [],
+   "red_flags": []
+  }
+ ]
+}

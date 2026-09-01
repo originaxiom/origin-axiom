@@ -1,0 +1,419 @@
+{
+ "batch": "arcs_087",
+ "arcs": [
+  {
+   "arc": "B897_27_under_g20",
+   "source": "main",
+   "files_read": [
+    "frontier/B897_27_under_g20/FINDINGS.md",
+    "frontier/B897_27_under_g20/PREREGISTRATION.md",
+    "frontier/B897_27_under_g20/arc_verdict.json",
+    "frontier/B897_27_under_g20/g20_decompose.py",
+    "frontier/B897_27_under_g20/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"THE SEALED CELL DECIDES -- OUTCOME A, GENERATION-SHAPED (M2; prereg e293f095 committed 0e1cdf4c BEFORE compute, seal verified): at two independent primes (40123, 40693) the 27 under (su(3)_c, su(3)', su(2)') decomposes into three 9-blocks with IDENTICAL cross-prime signature ... su(3)' is a native flavor symmetry replicating fixed color x su(2)' types into flavor triplets ... NOT decided: mechanism-hood.\"",
+   "log_says": "PROGRESS_LOG and REVIEWS record B897 as 'the sealed cell decides — G20 organizes the 27 GENERATION-SHAPED (outcome A at two primes; the seal committed before compute)'; Review 38 flags the vocabulary as prereg-defined with the mechanism fence standing.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "G20 rebuild + color centralizer split 8+3 + Casimir block table (27 = 9+9+9) at two primes q=40123, 40693",
+     "where": "g20_decompose.py -> results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full exact modular-arithmetic script committed with explicit prime values, and results.json shows both prime runs; a stranger with the B854 e6_centralizer.py, B12 tower pickle and rep27/color27 pickles (referenced via SCRATCH/HANDOFF4_RUN env vars, not committed in this dir) could rerun it, but those upstream pickle inputs are NOT committed in this arc's own directory -- reproducibility depends on external arc state."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ dir; the only check is the cross-prime agreement built into the same script (primes_agree=true), not an independent re-derivation.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The 'generation-shaped'/'lepton-pattern' reading rests on matching block dimension 9=3x3 and su(2)' doublet/singlet split by shape alone, not on reproducing actual SM quantum numbers (hypercharge, chirality) -- the SCRUTINY ADDENDUM itself concedes the quark block (3_c,3_f) has trivial su(2)' (no internal weak split), so 'generation-shaped' is asserted at the color x flavor tiling level only.", "where": "frontier/B897_27_under_g20/FINDINGS.md lines 76-88 (SCRUTINY ADDENDUM)"},
+    {"kind": "OTHER", "detail": "Script depends on external, non-committed pickle files (b12_tower.pkl in $SCRATCH, color27.pkl/rep27.pkl in $HANDOFF4_RUN) for its exact inputs -- reproduction requires arc state outside this directory.", "where": "frontier/B897_27_under_g20/g20_decompose.py lines 23-24, 33-37"}
+   ],
+   "seat_note": "A real two-prime exact computation with a sealed prereg (good discipline), but 'generation-shaped' is a structural label applied to a dimension-counting coincidence (9=3x3), not a match to measured SM quantum numbers; the addendum itself narrows the claim without the verdict headline being revised to reflect that narrowing."
+  },
+  {
+   "arc": "B898_exact_census",
+   "source": "main",
+   "files_read": [
+    "frontier/B898_exact_census/FINDINGS.md",
+    "frontier/B898_exact_census/arc_verdict.json",
+    "frontier/B898_exact_census/exact_census.py",
+    "frontier/B898_exact_census/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- exact charpoly/factorization/Sturm census: ad(x8), ad(x16) both have signature {0^30, 48 real}; ad(x14), ad(x22) both {0^12, 66 imaginary}; no generic-complex eigenvalues anywhere; kernel dims 30=dim z(x8), 12=floor dimension.",
+   "log_says": "PROGRESS_LOG: 'the exact signature census -- the dichotomy is a theorem; every float borderline was kernel noise'; used downstream by B901 as 'the exact census, the obstruction engine'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Exact charpoly factorization over Q + Sturm real-root counts for ad(x8),ad(x14),ad(x16),ad(x22)",
+     "where": "exact_census.py -> results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Script is self-contained sympy exact arithmetic but depends on exec() of ../B854_centralizer_exact/e6_centralizer.py which is not in this arc's file set; the numeric factor polynomials are committed in results.json as an explicit witness."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; downstream arc B901 reuses these exact factors as an input rather than independently re-deriving them.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean exact-arithmetic upgrade of a prior float census with a real witness (explicit factored polynomials in results.json); purely structural (Cartan-subalgebra spectral typing), no observable content."
+  },
+  {
+   "arc": "B899_hierarchy_check",
+   "source": "main",
+   "files_read": [
+    "frontier/B899_hierarchy_check/FINDINGS.md",
+    "frontier/B899_hierarchy_check/arc_verdict.json",
+    "frontier/B899_hierarchy_check/m8_check.py",
+    "frontier/B899_hierarchy_check/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE -- 'the operational S3-breaking magnitudes do NOT correlate with mu's root geometry under the four registered comparisons; one order-match in four tests = exactly the chance rate; every residual is large. The hierarchy-shaped invariant small numbers have some OTHER source.'",
+   "log_says": "PROGRESS_LOG: 'an earned negative, fenced'; Review 38 routes it into the kill graph and logs a GAP row in the lexicon triage ('leakage/deviation magnitudes and root-spacing geometry await a motif').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "log-log slope/residual/order-match statistics on 3-point comparisons of B890/B891 deviation magnitudes vs mu's root nearest-spacing and |mu'|",
+     "where": "m8_check.py -> results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Self-contained mpmath script reading only committed sibling arcs' results.json files; fully reproducible."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification dir needed for a negative result; the negative is self-consistently computed and stated as bounded (only 4 registered comparisons, no wider scan).",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "An honestly earned and honestly scoped negative result with only 3 data points per comparison -- statistically underpowered by design, but the arc says so itself rather than overclaiming; good practice, no physics content delivered."
+  },
+  {
+   "arc": "B900_frame_cocycle",
+   "source": "main",
+   "files_read": [
+    "frontier/B900_frame_cocycle/FINDINGS.md",
+    "frontier/B900_frame_cocycle/arc_verdict.json",
+    "frontier/B900_frame_cocycle/cocycle.py",
+    "frontier/B900_frame_cocycle/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'all four Pi-block label cubics ... acquire a LINEAR FACTOR over K = Q[rho]/mu ... the Galois S3 acts on the vacuum orbit and the octet orbit by the SAME root permutation: THE COCYCLE IS THE DIAGONAL S3 ACTION.' Flagged NOT a new law by B1214 review (2026-08-29): 'NOT A NEW GENERAL PROPOSITION -- reports a result about a specific cell'.",
+   "log_says": "PROGRESS_LOG: resolves B896's 'sign puzzle' (frame-1 transposition vs 3-cycle) as exact twist maps, not a Galois anomaly.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Exact factorization of 4 label cubics over K = Q[rho]/mu (root-in-K certificates) + 35-digit numeric root-index matching giving the cocycle maps",
+     "where": "cocycle.py -> results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Fully explicit sympy exact factorization plus mpmath 35-digit numeric matching, all inputs (the four cubics, mu) hardcoded in the script; reproducible standalone."},
+    {"what": "The root-index maps (vac8, oct8, vac16, oct16) that determine the cocycle are numeric (35-digit) matches, not symbolic proofs of the permutation",
+     "where": "cocycle.py lines 50-72",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "The index assignment relies on numeric proximity (assert abs(v-cub[j]) < 1e-20) rather than an exact algebraic identity between root labels; at 35 digits this is a very strong numeric certificate but is not literally exact arithmetic like the factorization step."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No independent re-derivation; the arc's own retrospective review (B1214) downgraded its law-status to a cell-specific result rather than a general proposition.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The cocycle's root-index maps (the permutation asserted to be diagonal) are established by 35-digit numeric root matching, not exact symbolic identification of which root corresponds to which -- strong but not literally exact for that specific step.", "where": "frontier/B900_frame_cocycle/cocycle.py lines 50-72"}
+   ],
+   "seat_note": "The field-membership result (linear factor over K) is exact and reproducible; the specific permutation values are numeric at high precision rather than symbolically certified, a distinction the FINDINGS text blurs by calling the whole result 'exact'."
+  },
+  {
+   "arc": "B901_c_stabilizers",
+   "source": "main",
+   "files_read": [
+    "frontier/B901_c_stabilizers/FINDINGS.md",
+    "frontier/B901_c_stabilizers/arc_verdict.json",
+    "frontier/B901_c_stabilizers/c_stabilizers.py",
+    "frontier/B901_c_stabilizers/normalizer.json",
+    "frontier/B901_c_stabilizers/results.json",
+    "frontier/B901_c_stabilizers/spectral_obstructions.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'the continuous normalizer is trivial: n(C)=z(C)=12 ... every C-stabilizing symmetry is DISCRETE'; spectral obstructions forbid split/compact swap and the x8<->x16 swap over R; structural conclusion: 'the c->theta carrier ... must pass through the complexification'. Flagged by B1214 review as NOT a new law ('AUDIT/CENSUS/LEDGER').",
+   "log_says": "PROGRESS_LOG: 'the sharpest Lane-C no-go yet'; used by B906 as one of three motivations for J1 the real-form selector.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "dim n(C) = 12 = dim z(C), computed as an exact rational nullspace",
+     "where": "c_stabilizers.py -> normalizer.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script builds nullspaces exactly over Q via sympy, output matches normalizer.json; depends on exec() of the not-included B854 e6_centralizer.py file."},
+    {"what": "same-spectrum / evenness flags for x8 vs x16 factor sets",
+     "where": "c_stabilizers.py -> spectral_obstructions.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Reads B898's committed results.json exact factors directly; deterministic string comparison."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification dir; results.json in this arc's directory is a STALE/UNRELATED file (content 'K_C_rank', 'ABELIAN -- u(1)^4' etc.) that does not match what c_stabilizers.py actually produces (normalizer.json + spectral_obstructions.json) -- an orphaned artifact from a different computation, not a witness of this arc's claims.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "results.json in this arc's directory does not correspond to the script's actual outputs (c_stabilizers.py writes normalizer.json and spectral_obstructions.json only); results.json contains unrelated content (K_C_rank, roots_positive, 'ABELIAN -- u(1)^4, NOT su(2)+u(1)') never referenced in FINDINGS.md or arc_verdict.json -- an orphan file mixed into the packet's file list, potentially confusing about what this arc actually verified.", "where": "frontier/B901_c_stabilizers/results.json"}
+   ],
+   "seat_note": "The two committed JSON outputs that do match the script (normalizer.json, spectral_obstructions.json) support the stated claims; but the packaged results.json is a leftover from an unrelated computation, a minor housekeeping flag that a stranger auditing 'all files in the directory' would trip on."
+  },
+  {
+   "arc": "B902_knus_paques",
+   "source": "main",
+   "files_read": [
+    "frontier/B902_knus_paques/FINDINGS.md",
+    "frontier/B902_knus_paques/arc_verdict.json",
+    "frontier/B902_knus_paques/difference_class.py",
+    "frontier/B902_knus_paques/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'TWO EXACT CUBE CERTIFICATES ... [alpha_vac] = [alpha_mu]^-1 in F*/(F*)^3 with NO unit twist: THE VACUUM FIELD AND THE CHARGE FIELD SIT IN MUTUALLY INVERSE KUMMER CLASSES ... vacuum + charge = the identity.' Flagged by B1214 review as NOT a new law ('VERIFICATION -- re-derives or confirms a result stated elsewhere').",
+   "log_says": "PROGRESS_LOG: 'the vacuum and charge fields are INVERSE classes; their composition is the split algebra (W4's datum delivered)'; a later entry notes 'B902's control upgraded with the missed plain-rational certificate.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Two exact symbolic cube certificates: alpha_mu*alpha_vac = gamma1^3, alpha_generic*alpha_vac = gamma2^3",
+     "where": "difference_class.py -> results.json cube_proofs blocks",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "results.json records explicit gamma values (73008/7, 30901351219200/13) and the script performs an exact symbolic fmul cube check against the beta value; fully self-contained modulo reading B888's committed pencil_factors.json."},
+    {"what": "alpha_mu/alpha_generic being a cube (the 'same field' control)",
+     "where": "results.json mu__generic block, cube_proofs empty",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The local scan shows twist (0,0) survives 32 clean embedding tests for mu__generic ratio, but cube_proofs is EMPTY (cube_reconstruct found no rational cube root) -- unlike the vacuum pairings, this specific relation is NOT symbolically certified, only locally-scanned (probabilistic, not exact) evidence."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No independent verification dir; the arc's own 'control' (mu vs generic being the same field) is left with local-scan-only evidence rather than an exact cube certificate.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "FINDINGS.md states 'the charge and generic classes are EQUAL (the control: same field, B888 -- the machinery is calibrated)' as though established with the same exactness as the two cube certificates, but results.json shows the mu__generic ratio has an empty cube_proofs dict -- only local-scan survival (32 clean tests), not a symbolic cube certificate.", "where": "frontier/B902_knus_paques/FINDINGS.md lines 31-33 vs results.json mu__generic.ratio.cube_proofs"}
+   ],
+   "seat_note": "The two central cube identities are genuinely exact and symbolically verified, a real algebraic result; but the 'calibration control' the FINDINGS leans on for confidence is itself only locally-scanned, not exactly certified, a gap the prose glosses over."
+  },
+  {
+   "arc": "B903_sign_law",
+   "source": "main",
+   "files_read": [
+    "frontier/B903_sign_law/FINDINGS.md",
+    "frontier/B903_sign_law/arc_verdict.json",
+    "frontier/B903_sign_law/results.json",
+    "frontier/B903_sign_law/sign_mechanism.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'all six banked B581 quotients Delta_m are EXACTLY ANTI-PALINDROMIC ... and ... sign(tau_m) = sign(lc)*(-1)^{p_m} ... p_m == m (mod 2) IN EVERY BLOCK.' Explicitly states the deeper 'WHY' step remains open/registered.",
+   "log_says": "PROGRESS_LOG: 'anti-palindromy universal, the sign formula exact, and the root-parity law p_m == m (mod 2) in all six blocks'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Anti-palindromy, exact division (t-1), and Sturm-exact positive-real-pair counts p_m for m in {1,4,5,7,8,11}",
+     "where": "sign_mechanism.py -> results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Exact sympy computation reading B581's committed six_torsions_results.json (not in this arc's file list, but referenced by relative path); the six-block table itself is committed in results.json as witness."}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification dir; this is itself framed as a partial derivation ('two of three steps are exact') with the conceptual 'why' honestly left open rather than closed.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A model of honest partial progress: it reduces an empirical sign pattern to two exactly-proved sub-facts while explicitly flagging the remaining conceptual gap as open rather than papering over it."
+  },
+  {
+   "arc": "B904_barton_sudbery",
+   "source": "main",
+   "files_read": [
+    "frontier/B904_barton_sudbery/FINDINGS.md",
+    "frontier/B904_barton_sudbery/arc_verdict.json",
+    "frontier/B904_barton_sudbery/results.json",
+    "frontier/B904_barton_sudbery/stage1_construct.py",
+    "frontier/B904_barton_sudbery/stage1_dims.json",
+    "frontier/B904_barton_sudbery/stage2_bracket.py",
+    "frontier/B904_barton_sudbery/stage2b_derive.py",
+    "frontier/B904_barton_sudbery/stage2b_products.json",
+    "frontier/B904_barton_sudbery/stage2c_final.py",
+    "frontier/B904_barton_sudbery/stage2c_results.json",
+    "frontier/B904_barton_sudbery/stage3_fit.py",
+    "frontier/B904_barton_sudbery/stage3_results.json",
+    "frontier/B904_barton_sudbery/stage4_roots.json",
+    "frontier/B904_barton_sudbery/stage4_roots.py",
+    "frontier/B904_barton_sudbery/stage4b_cartan.json",
+    "frontier/B904_barton_sudbery/stage4b_iso.py",
+    "frontier/B904_barton_sudbery/stage4c_phi.py",
+    "frontier/B904_barton_sudbery/stage4c_results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [
+    "frontier/B904_barton_sudbery/stage1_tri.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_cxcy_conj.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_cxcy_plain.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_cxy_conj.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_cxy_plain.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_cycx_conj.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_cycx_plain.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_sym.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_xy_conj.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_xy_plain.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_yx_conj.pkl",
+    "frontier/B904_barton_sudbery/stage2_tensor_yx_plain.pkl",
+    "frontier/B904_barton_sudbery/stage2c_tensor.pkl",
+    "frontier/B904_barton_sudbery/stage3_tensor.pkl",
+    "frontier/B904_barton_sudbery/stage4c_phi.pkl"
+   ],
+   "claim_of_record": "PROVED -- 'THE BARTON-SUDBERY CAPSTONE ... FULL JACOBI VERIFIED: 76076 triples, 0 failures ... phi verified on ALL 3003 basis pairs with 0 mismatches, det phi = -2/3: THE BUILD IS M(O,C) (split form) BY EXPLICIT EXACT ISOMORPHISM.' No creates_law field set (not reviewed as a law by B1214, unlike B900/B901/B902); an independent 'decadal (COLD)' Review 48 re-derived det phi = -2/3 directly from B904's pickle.",
+   "log_says": "PROGRESS_LOG: 'the build IS M(O,C) by explicit exact isomorphism (0 mismatches on all 3003 pairs)'; Review 48 (2026-08-22) independently re-derived det phi = -2/3 from the pickle as part of a cold audit with 'ZERO confirmed findings' on this and several other numbers.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "tri(O) constructed as an exact nullspace, dim 28 = dim so(N)",
+     "where": "stage1_construct.py -> stage1_dims.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Self-contained exact sympy nullspace solve, no external dependencies; stage1_dims.json (28,28) matches."},
+    {"what": "Cross-product and dual conventions DERIVED by exhaustive equivariance search over 8 candidate bilinear forms per slot (multiplicity-one)",
+     "where": "stage2b_derive.py -> stage2b_products.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact fraction arithmetic over all 28 triality triples x 64 basis pairs, deterministic; stage2b_products.json shows exactly one survivor per slot as claimed."},
+    {"what": "The nine normalization scalars fitted to mu=-24, nu=-12, lam=1 with FULL JACOBI 76076 triples, 0 failures",
+     "where": "stage2c_final.py -> stage2c_results.json",
+     "kind": "FITTED then COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "stage2c_results.json shows jacobi_failures: 0 with the exact scalar solution recorded; the fit (round-based sp.solve on a growing probe set) is itself deterministic and the resulting tensor is fully verified independently of the fit method by the exhaustive final Jacobi check."},
+    {"what": "The build's Cartan matrix matches E6's exactly under a specific permutation, and phi is verified an isomorphism on all 3003 basis pairs, det phi = -2/3",
+     "where": "stage4b_iso.py -> stage4b_cartan.json; stage4c_phi.py -> stage4c_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact rational arithmetic throughout (sympy Matrix over Q), full pairwise verification loop with an explicit bad-mismatch counter that reports 0; independently reproduced by a later cold-audit review directly from the committed stage2c_tensor.pkl."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Review 48 (the 'decadal COLD' review) independently re-derived det phi = -2/3 as a 78x78 exact-rational computation from B904's own committed pickle -- a genuine independent recomputation, not merely a re-read of the FINDINGS text.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "stage3_fit.py / stage3_results.json is an undocumented, seemingly abandoned intermediate attempt: it sets all nine normalization scalars to 1 (rather than the correct mu=-24, nu=-12 found later in stage2c) and its own full Jacobi check reports 'jacobi_failures': 4208 out of 76076 triples -- i.e. this committed file records a FAILED Jacobi closure. Neither FINDINGS.md nor arc_verdict.json's 'Files' section mentions stage3_fit.py or stage3_results.json at all; a stranger reading all committed files in the directory (as instructed) would encounter a contradicting, unexplained failed computation alongside the arc's 'FULL JACOBI: 76076 triples, 0 failures' headline claim (achieved instead by the differently-scaled stage2c_final.py).", "where": "frontier/B904_barton_sudbery/stage3_fit.py; frontier/B904_barton_sudbery/stage3_results.json"},
+    {"kind": "MISSING_WITNESS", "detail": "results.json in this arc's directory is NOT produced by any of B904's own scripts (stage1-stage4c all write differently-named files); it contains unrelated content identical to the orphan results.json seen in B901_c_stabilizers ('K_C_rank', 'ABELIAN -- u(1)^4, NOT su(2)+u(1)') -- a cross-arc leftover-file pattern, later self-diagnosed and documented as a bug in the sibling arc B907's DRAFT_COMPLETANESS.md ('the frame's __file__-inherited write clobbered it pre-commit') but left uncorrected/unremarked here.", "where": "frontier/B904_barton_sudbery/results.json"}
+   ],
+   "seat_note": "The core capstone result (explicit E6 isomorphism, exact rational det phi = -2/3, independently re-derived by a later cold audit) is genuinely strong and well-witnessed; but the directory also carries an undocumented failed intermediate (stage3, 4208/76076 Jacobi failures) and an orphaned unrelated results.json, both symptomatic of the same known __file__-clobbering bug documented elsewhere in the corpus but not flagged in this arc's own FINDINGS."
+  },
+  {
+   "arc": "B905_kim_litgate",
+   "source": "main",
+   "files_read": [
+    "frontier/B905_kim_litgate/FINDINGS.md",
+    "frontier/B905_kim_litgate/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B905_kim_litgate/panel_report.txt"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'W8 PAID: (Q1, CLEAN NEGATIVE, high confidence) the Kim-school arithmetic Chern-Simons corpus ... NEVER reads H^1/torsors operationally as measurements ... (Q2, EXACT ANCHOR) Garoufalidis-Scholze-Wheeler-Zagier ... founding worked example is the figure-eight Kashaev series over Q(sqrt(-3)) ... (Q3, NOTHING PUBLISHED) no source in either literature connects the magic-square (O,C)=E6 cell to arithmetic CS or knot-complement torsors.'",
+   "log_says": "PROGRESS_LOG: 'the measurement reading is OURS; the Habiro anchor is exact; the E6 interface has no prior art'; a later log entry cites B905 as one of several banked walls killing crossing mechanisms.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Three literature-priority verdicts (Q1 clean negative, Q2 exact anchor, Q3 nothing published) established by a 99-agent literature-search-and-adversarial-verify panel over primary arXiv sources",
+     "where": "panel_report.txt (176KB, sampled head/tail; not fully read)",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "This is not a computation with a deterministic witness -- it is an AI-agent-driven literature search and full-text-grep process whose only committed artifact is the panel's own log/summary (panel_report.txt), not the primary sources themselves or a script that reruns the search; a stranger cannot deterministically reproduce 'zero occurrences' claims from this repo alone, only trust the panel's self-report of what it found."}
+   ],
+   "belt": "NONE",
+   "belt_note": "The panel's internal design uses 3-vote adversarial verification per claim (an internal check), but there is no independent re-verification arc or script outside the panel process itself.",
+   "absence_claims": [
+    {"quote": "full-text greps find ZERO occurrences of measurement/observer/operational readings", "where": "frontier/B905_kim_litgate/FINDINGS.md line 15"},
+    {"quote": "the B707/S-room H¹-as-torsor-of-measurements interpretation is not prior art anywhere in this literature — it is this programme's own claim", "where": "frontier/B905_kim_litgate/FINDINGS.md lines 21-23"},
+    {"quote": "VERDICT: NOTHING PUBLISHED. Exhaustive full-text search of the most relevant 2025 paper: zero occurrences of Freudenthal/magic square/E6; no surveyed source in either literature makes the connection.", "where": "frontier/B905_kim_litgate/FINDINGS.md lines 38-40"},
+    {"quote": "The E6-across-faces + torsor structure has no external prior art in these two programs", "where": "frontier/B905_kim_litgate/FINDINGS.md lines 40-41"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The arc's central deliverables are absence-of-prior-art claims ('CLEAN NEGATIVE', 'NOTHING PUBLISHED') produced by an AI literature-search panel rather than by exact computation on committed data; such claims are inherently harder for a stranger to independently verify than the corpus's usual exact-arithmetic arcs, and the arc verdict itself flags 'novelty adjudication stays NEEDS-SPECIALIST per provenance rules' -- i.e. the corpus's own governance does not treat this as a closed/certain result.", "where": "frontier/B905_kim_litgate/arc_verdict.json"}
+   ],
+   "seat_note": "This is a literature-priority sweep, not a physics computation; its absence claims (no prior art connecting the magic-square E6 construction to arithmetic Chern-Simons torsors) should be read as AI-panel-asserted rather than exactly verified, and the corpus's own governance already flags novelty adjudication as unresolved pending a human specialist."
+  },
+  {
+   "arc": "B906_flavor_verification",
+   "source": "main",
+   "files_read": [
+    "frontier/B906_flavor_verification/FINDINGS.md",
+    "frontier/B906_flavor_verification/arc_verdict.json",
+    "frontier/B906_flavor_verification/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'THE FLAVOR ARC VERIFIED WHOLESALE (solo handoff 5, integrate-don't-merge, every suite script rerun on this build): ... the mixed-texture type-assignment scan PERFECT 48/48 ... THE FIRST VALUE-LAYER NUMBER I = -1 CONFIRMED AT BOTH PRIMES ... with the atom-rescaling invariance gate passing.'",
+   "log_says": "PROGRESS_LOG: 'their seal met by our bank, the law's three faces reproduced, 15 atoms, the K3,3 grid, and I = -1 at two primes'; B919 (2026-08-05) reruns the same T3/Y trace computation and reports 'three independent runs agreeing (the handoff-6 original, the B906-era rerun, this arc's)', which corroborates the sin^2(theta_W)=3/8 result but is a different quantity from B906's I=-1 headline.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Rerun of the solo seat's entire flavor-verification suite (unified law, texture, 15 atoms, K3,3 grid, I=-1 at two primes) on this build",
+     "where": "results.json (summary only)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "FINDINGS.md explicitly states: 'the suite's outputs live in the session scratchpad per relay discipline (scripts are the solo seat's, not re-banked)' -- the packet's file list for this arc contains only FINDINGS.md, arc_verdict.json, and results.json (a JSON summary of verdicts); NO reproduction script (.py) is committed anywhere in this arc's own directory. A stranger auditing this arc's committed files alone cannot rerun anything -- they can only read the summary numbers."}
+   ],
+   "belt": "NONE",
+   "belt_note": "This arc IS itself framed as a 'verification' of another (uncommitted, solo-seat) suite, but its own verifying scripts are not committed here either -- it is a verification whose witness trail is one level removed from what a stranger can inspect.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The only committed artifact for this arc's entire 'verified wholesale' claim is a hand-summarized results.json; the actual rerun scripts are explicitly stated to live outside git ('the session scratchpad per relay discipline'), so none of the headline numbers (48/48 type-assignment, I=-1 at two primes, the 15-atom decomposition, the K3,3 grid) can be reproduced by a stranger from this repository alone.", "where": "frontier/B906_flavor_verification/FINDINGS.md lines 63-65 ('Files' section)"}
+   ],
+   "seat_note": "A verification arc whose own verification scripts are not committed to the repository -- the strongest possible claim ('verified wholesale') rests entirely on a hand-written summary JSON, which is a genuine reproducibility gap even though the underlying numbers are corroborated in spirit by a later independent rerun in B919 for one specific sub-quantity (sin^2(theta_W)=3/8, not I=-1 itself)."
+  },
+  {
+   "arc": "B907_real_form_selector",
+   "source": "main",
+   "files_read": [
+    "frontier/B907_real_form_selector/DRAFT_COMPLETENESS.md",
+    "frontier/B907_real_form_selector/FINDINGS.md",
+    "frontier/B907_real_form_selector/PREREGISTRATION.md",
+    "frontier/B907_real_form_selector/arc_verdict.json",
+    "frontier/B907_real_form_selector/completeness_results.json",
+    "frontier/B907_real_form_selector/completeness_verify_results.json",
+    "frontier/B907_real_form_selector/real_form_selector.py",
+    "frontier/B907_real_form_selector/results.json",
+    "frontier/B907_real_form_selector/results_complete.json",
+    "frontier/B907_real_form_selector/selector_complete.py",
+    "frontier/B907_real_form_selector/selector_verdict.py",
+    "frontier/B907_real_form_selector/sweep_results.json",
+    "frontier/B907_real_form_selector/verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B907_real_form_selector/completeness.py",
+    "frontier/B907_real_form_selector/completeness_verify.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- 'THE SEALED CELL DECIDES -- OUTCOME A: THE WALL IS REAL IN e6(2), AND ONLY THERE ... exactly two [of 128 swept representatives] are C-compatible and wall-real ... pattern (-1,+1,-1,+1) ... THE FORM IS e6(2)'. ADDENDUM (sign-locking theorem, DRAFT_COMPLETENESS.md, status DRAFT/not itself banked as a separate arc_verdict): completeness at the pattern level proved, with an explicitly stated 'honest gap' at the form level (component group of Z_Aut(C) not enumerated).",
+   "log_says": "PROGRESS_LOG: 'the sealed cell decides — THE WALL IS REAL IN e6(2), AND ONLY THERE (the joint J1; the disclosed prior wrong again)'; a later entry logs the sign-locking addendum as 'the completeness follow-up is PAID' with 'e6(2) stands against every pattern'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "128-representative sweep (64 inner + 64 outer/tau-composite involutions) of the built e6, finding exactly 2 C-compatible wall-real involutions, both naming e6(2) via fixed-dim-38 composite with the Chevalley involution",
+     "where": "real_form_selector.py / selector_complete.py / selector_verdict.py -> verdict.json, sweep_results.json, results_complete.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Fully committed exact sympy scripts, self-contained modulo the exec'd (not included) B854 frame file; verdict.json and sweep_results.json directly show the two wall-real representatives with pattern (-1,1,-1,1) and composite fixed dim 38."},
+    {"what": "Sign-locking theorem C1 (eps8*eps16=+1, eps14*eps22=+1 for EVERY C-stabilizing automorphism) via two exact rational trace-moment certificates, degree 6, independently re-verified via a fresh sympy DomainMatrix code path and fresh primes (101,2003,9973)",
+     "where": "completeness.py -> completeness_results.json; completeness_verify.py -> completeness_verify_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Both the original and the independent re-verification scripts are committed in full; completeness_verify_results.json shows ALL_CHECKS_PASSED: true and explicit numeric agreement of the two trace certificates across two independent code paths and three fresh primes."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "completeness_verify.py is a genuine independently-coded second pass (sympy DomainMatrix over QQ vs. the original's numpy object-int path; three fresh primes disjoint from the original's) of the same sign-locking claim -- a real, committed, re-runnable independent check.",
+   "absence_claims": [
+    {"quote": "The component group of Z_Aut(C) is not enumerated. A wall-real involution realizing a form other than e6(2) is not fully excluded by this cell", "where": "frontier/B907_real_form_selector/DRAFT_COMPLETENESS.md lines 166-169"},
+    {"quote": "No such element is exhibited; both known wall classes (C4-type and F4-type) name e6(2)", "where": "frontier/B907_real_form_selector/DRAFT_COMPLETENESS.md line 173"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "results.json in this arc's directory contains the same orphan content ('K_C_rank', 'ABELIAN -- u(1)^4, NOT su(2)+u(1)') found identically in the sibling arcs B901 and B904, and this arc's own DRAFT_COMPLETENESS.md is the ONLY place in the sampled batch that explicitly documents the cause: 'the BANKED results.json in this arc contains the B854 frame's verdict, not the selector sweep -- the frame's __file__-inherited write clobbered it pre-commit during the selector era. Nothing load-bearing is lost (the sweep lives in sweep_results.json / results_complete.json...)'. So the bug is self-diagnosed HERE but the same corrupted-file pattern is left unremarked in B901 and B904.", "where": "frontier/B907_real_form_selector/results.json; frontier/B907_real_form_selector/DRAFT_COMPLETENESS.md lines 226-232"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "results_complete.json's 'pattern_feasibility' census (from selector_complete.py, a Rayleigh-quotient-based eigenvalue read on non-normal matrices) shows ALL 16 patterns as infeasible except (1,1,1,1) -- flatly contradicting the corrected exact computation (four patterns (a,b,a,b) survive, all four realized) that DRAFT_COMPLETENESS.md explicitly says supersedes it: 'correcting the retracted Rayleigh-quotient census (which had contradicted the sweep's own exact automorphisms)'. results_complete.json itself carries no inline correction note or retraction marker -- a stranger reading only that committed file would get the wrong (retracted) answer.", "where": "frontier/B907_real_form_selector/results_complete.json (pattern_feasibility block, all-false except id); frontier/B907_real_form_selector/DRAFT_COMPLETENESS.md line 121"}
+   ],
+   "seat_note": "The core sealed-cell result (e6(2) is the unique wall-real form among the swept representatives, with a real preregistration and a genuinely independent second code-path verification of the sign-locking theorem) is well-witnessed and honest about its remaining gap (form-level completeness beyond the swept family); but the directory also contains a self-documented file-clobbering bug (shared with B901/B904, undocumented there) and a stale, contradicted Rayleigh-quotient results file left in place without an inline retraction marker."
+  }
+ ]
+}

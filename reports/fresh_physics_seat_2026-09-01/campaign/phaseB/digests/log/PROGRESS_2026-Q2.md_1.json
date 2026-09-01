@@ -1,0 +1,288 @@
+{
+  "log": "docs/progress/PROGRESS_2026-Q2.md",
+  "part": 1,
+  "entries": [
+    {
+      "date": "2026-06-09",
+      "title": "B144: Campaign 1 (chirality of cusp-glued interactions) — firewall extends structurally (MB12) + redirect (V133)",
+      "arcs": ["B144", "B131", "B128"],
+      "established": "For amphichiral cusp-glued pieces M̄(m1,m2,φ) ≅⁺ M(m1,m2,h₂φh₁⁻¹) with h_i∈GL(2,Z) (det −1), so the family of interactions is mirror-closed and has no preferred handedness; a POSTULATED redirect says the SM's preferred handedness needs a chirally-asymmetric input, not more seeds.",
+      "status_words": ["BANKED", "POSTULATED"],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": [],
+      "red_flags": [
+        {"kind": "ABSENCE_CLAIM", "detail": "\"the closed glue isn't a single Regina call (closed non-hyperbolic) → explicit certification not in-session-tractable; the structural argument carries it (a tooling limit, not a mirror-closure failure)\""}
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "title": "B145: Campaign 1′ — chirality cannot be forced (canonicity ⟺ self-mirror); parity is contingent (V134)",
+      "arcs": ["B145", "B128", "B144"],
+      "established": "On a catalog of n=39 once-punctured-torus bundles (len ≤7), canonicity (minimal volume / arithmeticity / simplest substitution / palindromic period) coincides exactly with the self-mirror (amphichiral) condition; chirality requires leaving the canonical locus. POSTULATED: preferred handedness (parity) is irreducibly contingent.",
+      "status_words": [],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["n=39 o-p-t bundles, len ≤ 7", "trace-field degrees amphichiral ∈ {2,8}", "chiral ∈ {4,6,8,12}"],
+      "red_flags": [
+        {"kind": "OTHER", "detail": "This entry's arithmeticity claim ('every quadratic/arithmetic trace field is amphichiral; no arithmetic chiral o-p-t bundle') is REFUTED two entries later by B147 — later contradicted by the log's own account."}
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "title": "B146: B145 scrutiny calibration — tighten the conclusion, the dichotomy, the refuted arithmetic arm (V135)",
+      "arcs": ["B146", "B145", "B147"],
+      "established": "A scrutiny pass found B145 sound but over-scoped: axioms permit chirality (metallic minimality forces amphichirality, not 'forced⟹self-mirror'); B145's arithmeticity arm is refuted as stated (it used the non-invariant trace field — with the invariant trace field RRL/RLL = ℚ(√−7) is CHIRAL); derived the orientation-independent-invariant dichotomy that shows no canonical selection can prefer a handedness.",
+      "status_words": ["REFUTED"],
+      "retractions": [
+        {"what": "B145's arithmeticity arm ('canonical ⟹ self-mirror' via arithmeticity, and 'no arithmetic chiral o-p-t bundle') refuted as stated", "of_which_arc": "B145"}
+      ],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["RL=ℚ(√−3)", "RRLL=ℚ(i)", "RRL/RLL=ℚ(√−7) (chiral)"],
+      "red_flags": [
+        {"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "B146 refutes B145's arithmeticity arm 'as stated' (non-invariant vs invariant trace field)"}
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "title": "B147: the chiral pair RRL/RLL is FULLY ARITHMETIC — the arithmetic arm collapses (V136)",
+      "arcs": ["B147", "B145", "B146", "B125"],
+      "established": "RRL/RLL have integral traces on top of the imaginary-quadratic invariant trace field ℚ(√−7) ⟹ they are arithmetic CHIRAL once-punctured-torus bundles, independently confirmed by Humbert volume computation; B145's arithmeticity arm is refuted outright (arithmetic chiral o-p-t bundles exist); the scan finds exactly four arithmetic o-p-t bundles total.",
+      "status_words": ["REFUTED OUTRIGHT"],
+      "retractions": [
+        {"what": "B145's arithmeticity arm ('arithmetic ⟹ amphichiral') refuted outright", "of_which_arc": "B145"},
+        {"what": "\"Exactly two o-p-t bundles\" corrected — that count is only the metallic m=1,2 family", "of_which_arc": "B125"}
+      ],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["vol = 3 × Bianchi covolume of ℚ(√−7)", "figure-eight control reproduces the known 12", "exactly four arithmetic o-p-t bundles (len ≤ 7)"],
+      "red_flags": [
+        {"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "REFUTES B145's arithmeticity arm outright; corrects B125's 'exactly two' o-p-t bundles scope"},
+        {"kind": "OTHER", "detail": "\"caught a real polcoef bug: read the leading coefficient at the actual degree\" — a validated-test bug found before the result was trusted"}
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "title": "B148: κ/Fricke–Vogt pinned, the metallic monodromy = SL(2,ℤ) MCG action, the class-S open question (V137)",
+      "arcs": ["B148"],
+      "established": "κ = tr[A,B] is scale-free (pure number mod π²Z), gated as unable to become a dimensionful energy density without an externally supplied scale; the metallic monodromies RᵐLᵐ are re-derived to be exactly the SL(2,Z) MCG action preserving κ; κ=−2 is the Markov surface, with the Markov root (3,3,3) and Q8 point (0,0,0) as distinct orbits.",
+      "status_words": [],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["tr(ABA⁻¹B⁻¹)=x²+y²+z²−xyz−2=κ", "κ=4·I_FV+2", "tr(RᵐLᵐ)=m²+2", "κ=−2 = Markov surface", "Markov root (3,3,3)", "Q8 point (0,0,0)", "trace field ℚ(√(m²+4))"],
+      "red_flags": [
+        {"kind": "ABSENCE_CLAIM", "detail": "\"Mainstream physics does not force a commutator-type obstruction. Everything below is math about the tower's symmetry, not a bridge to physics; nothing to CLAIMS.md.\""}
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "title": "B149: B89's family is the COMPLETE irreducible component; M⁴=L unconditional on the irreducible locus (V138)",
+      "arcs": ["B149", "B89", "B95"],
+      "established": "Gauge-stratifying the SL(4) defining ideal by coupling-block rank, the only stratum carrying irreducible reps is rank-Q2 = B89's family; therefore B89's family is the complete irreducible component, and M⁴=L is unconditional on the irreducible locus (every violation elsewhere is reducible or vacuous).",
+      "status_words": ["OUTCOME (a)"],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["Burnside algebra-dim = 16 (⟺ absolutely irreducible)", "decisive cell (irreducible ∧ M⁴=L fails) = 0"],
+      "red_flags": [
+        {"kind": "OTHER", "detail": "\"the Schur commutant test is invalid for irreducibility — a reducible non-semisimple rep can have commutant=scalars — it falsely flagged the provably-reducible Q=0 stratum\" — a self-caught methodology error"},
+        {"kind": "ABSENCE_CLAIM", "detail": "\"only a human/external source closes the literature/novelty question. Do not branch to L14 until H2.\""}
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "title": "B150: class-S coincidence (L14) — the trace-map action IS the N=2* S-duality MCG action; τ-modularity & physical magnitude are RHYME (V139)",
+      "arcs": ["B150", "B148"],
+      "established": "Literature read (Allegretti–Shan, Cantat–Loray, GMN) shows the SL(2,Z) trace-map action on the once-punctured-torus character variety IS the N=2* class-S S-duality/MCG action (same cubic, same Dehn-twist generators, λ_m² = the Cantat–Loray dynamical degree, κ=−2 = Markov fiber). Verdict MIXED: FORCED at the character-variety/MCG level, but RHYME (homonym only) at the τ-modularity level and at the physical-magnitude/gauge level — the firewall (gauge group free input, no scale fixed) is untouched.",
+      "status_words": ["MIXED", "FORCED", "RHYME", "CHARACTERIZED"],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": [],
+      "red_flags": [
+        {"kind": "IDENTIFICATION_BY_TYPE", "detail": "the 'FORCED' character-variety identification rests on matching algebraic structure (same cubic, same MCG generators, same dynamical degree formula) between the trace-map tower and N=2* S-duality — a structural-type coincidence, described in the entry itself as 'the widest reach of the one-object picture yet'"}
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "title": "B151: firewall confirmation (L15) — the firewall HOLDS; the unification is a symmetry identity that terminates at the wall (V140)",
+      "arcs": ["B151", "B148", "B150"],
+      "established": "Reading three primary sources (GTZ, Dimofte, Córdova–Jafferis) on how 3d–3d partition functions assign units to complex volume/CS: in every case the dimensionful content sits in ℏ/k plus the squashing radius, never in the invariant. Verdict: FIREWALL HOLDS decisively; the L14 unification is a symmetry identity, not a scale-crossing.",
+      "status_words": ["FIREWALL_HOLDS", "CONFIRMED"],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["figure-eight Vol = 2.0298832128 (= 2·V_tet)", "CS = 0", "Vol+iCS ∈ ℂ/4π²ℤ"],
+      "red_flags": [
+        {"kind": "ABSENCE_CLAIM", "detail": "\"No κ-type or volume-type invariant of the unit can source a physical scale.\""}
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "title": "B152: Chern–Simons as a one-sided parity order parameter (census test) (V141)",
+      "arcs": ["B152", "B128"],
+      "established": "Scanning SnapPy's OrientableCuspedCensus[:240] for the law amphichiral ⇒ CS is 2-torsion: found 0 necessity violations across 7 amphichiral manifolds, but exactly one converse counterexample (m208: chiral, full group, CS=0) — CS-2-torsion is necessary but not sufficient.",
+      "status_words": [],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["OrientableCuspedCensus[:240]", "7 amphichiral (m003, m004, m135, m136, m203, m206, m207)", "0 necessity violations", "1 converse counterexample (m208)"],
+      "red_flags": [
+        {"kind": "OTHER", "detail": "\"a modulo-sign bug caught and fixed in my own probe in-session\" (a tiny negative CS wraps to ~0.4999 under %0.5)"}
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "title": "B153 + the self-scrutiny campaign: the rank-stratified degeneration, two corrections, and a repo-wide audit",
+      "arcs": ["B153", "B95", "B92", "B112", "B116", "B117", "B118"],
+      "established": "B153 banks the rank-stratified degeneration of degree=rank (L=(-1)^{n-1}Mⁿ): a genuine SL(3) component (Falbel), a measure-zero SL(4) slice, not realized on an irreducible rep at n=5. A repo-wide multi-agent self-scrutiny campaign then found and corrected real bugs in already-merged work: the banked 'n=5: no irreducible reps' was a det-t=0 drift artifact (irreducible SL(5) reps with spectrum {1,1,1,−1,−1} DO exist, but degree=rank fails on them); the n=3 dim-3 component tangent was mis-computed as 14, corrected to 10; B95's 'principal spectrum forced' downgraded to forced only given an ansatz (counterexample found); B92's 'all det=−1 trace-m matrices conjugate to companion' shown false at m≥4; P10 (CLAIMS.md) down-tiered (only the trace-3 sieve PROVED, four other filters NEEDS-SPECIALIST).",
+      "status_words": ["CONFIRMED", "OVER_TIERED", "PROVED", "CORRECTED"],
+      "retractions": [
+        {"what": "banked 'n=5 non-ss: 0/120, no irreducible reps' was a det t=0-drift artifact — irreducible SL(5) reps with spectrum {1,1,1,-1,-1} DO exist (degree=rank still fails on them)", "of_which_arc": "B153"},
+        {"what": "n=3 dim-3 component tangent corrected from a numerical '14' to exact 10 (a second numerical error caught)", "of_which_arc": "B153"},
+        {"what": "'principal spectrum forced' downgraded to forced given the mult-(n-2)/finite-order ansatz (counterexample {1,ω,ω²,e^{±iπ/3}})", "of_which_arc": "B95/V79"},
+        {"what": "'all det=-1 trace-m matrices conjugate to the companion' shown false at m≥4 (class number h(m²+4)=2 at m=4)", "of_which_arc": "B92/V76-V78"},
+        {"what": "'five filters all select 4₁' down-tiered — only the trace-3 sieve PROVED, the other four NEEDS-SPECIALIST", "of_which_arc": "P10 (CLAIMS.md)"}
+      ],
+      "owner_elections_verbatim": [
+        "on the owner's request ran a repo-wide self-scrutiny campaign (multi-agent workflow) that found real bugs in merged work, which were verified and corrected",
+        "nothing to CLAIMS.md (except an owner-approved down-tiering of P10)"
+      ],
+      "numbers_claimed": ["n=4 A-free tangent 29/kernel 19", "dim-5 component tangent 11", "dim-3 component tangent 10 (was 14)", "self-scrutiny: 32 verdicts, 28 CONFIRMED, 4 OVER_TIERED", "h(m²+4)=2 at m=4, disc 20"],
+      "red_flags": [
+        {"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "corrects B153's own n=5 conclusion and n=3 tangent value, and retracts overclaims in B95 and B92, and down-tiers P10 in CLAIMS.md"}
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "title": "B154: the metallic meridian and the order-based degree=rank exponent (silver bundle)",
+      "arcs": ["B154", "B153", "B95", "B67", "B89"],
+      "established": "Derived the metallic meridian µ=A⁻ᵐt from the free-group identity; degree=rank generalizes to the metallic family (silver bundle m=2) via [A,B]=±µᵏ; found the exponent is order-based not rank-based, fitting a closed form k=4−m(o−3) on all six accessible (m,o,n) points (o = boundary-spectrum order).",
+      "status_words": [],
+      "retractions": [
+        {"what": "a wrong-meridian over-negative reading ('silver doesn't carry it') from PR #181, corrected to the derived true positive µ=A⁻ᵐt", "of_which_arc": "B154"}
+      ],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["k = 4 − m(o−3)", "figure-eight {1,ω,ω²} gives k=4 at both n=3 and n=4", "silver SL(3): {1,ω,ω²}→+µ⁴, {1,i,−i}→+µ²; SL(4) {1,1,ω,ω²}→−µ⁴"],
+      "red_flags": [
+        {"kind": "FITTED_VALUE", "detail": "k=4−m(o−3) is a 'closed-form fit' on only six accessible data points; the same entry says the o=4/SL(4) corner 'admits no irreducibles' and that 'a genuine derivation of k=4−m(o−3) is OPEN' — this fit is REFUTED two entries later (B157)"}
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "title": "B155: the \"golden × phase\" spectral bridge at n=4 (processing the external handoff, step 1/3)",
+      "arcs": ["B155"],
+      "established": "A single integer matrix M_g ∈ SL(4,Z) realizes 'figure-eight monodromy × order-6 phase' as a rational block structure: charpoly factors into a golden (figure-eight) quadratic times a phase (Φ6) quadratic; the two invariant planes glue in Z⁴ with cokernel (Z/2)²; an invariant symmetric form has signature (1,3), discriminant −15. The external 'Ω' family reaches M_g's charpoly only at a half-integer point (a=4, m=−1/2), so the bridge is a shared canonical object, not a common integer lattice point.",
+      "status_words": [],
+      "retractions": [
+        {"what": "the handoff's shorthand 'same matrix two ways' is corrected to 'shared canonical object (charpoly + signature + ℚ-conjugacy class), not a common integer lattice point'", "of_which_arc": "external handoff / PC17"}
+      ],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["charpoly(M_g)=(x²−3x+1)(x²−x+1)=x⁴−4x³+5x²−4x+1", "cokernel (Z/2)², SNF diag(1,1,2,2)", "signature (1,3), discriminant −15", "half-integer point a=4, m=−1/2"],
+      "red_flags": [
+        {"kind": "OTHER", "detail": "\"the shorthand 'same matrix two ways' overstates it — this is the honest statement banked\" (a self-caught over-claim)"}
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "title": "B156: full Ω-branch integration, Phase 1 (the strict-full cone)",
+      "arcs": ["B156", "B155"],
+      "established": "Re-derived, with 4 independent verifiers + adversarial skeptics, the Ω theorems under the project's own governance: core R/G algebra proved (SL(4,Z), signature (1,3) rigorous via Sylvester pivot certificate); TC-2 (strict-full ⟹ reciprocal charpoly) proved; wall-avoiding history entropy proved exactly = log 2; strict-full survivor counts L4–L7 independently reconfirmed by two from-scratch enumerators.",
+      "status_words": ["proved", "exact"],
+      "retractions": [
+        {"what": "the handoff's own brute-force script attributes strict-full status per char-poly class representative and over-counts (L5: 3120 vs the true 672; L6: 57792 vs 3840) — the correct count is per-matrix", "of_which_arc": "external handoff (Ω)"},
+        {"what": "a circular intermediate identity in the handoff's TC-2 exposition, fixed", "of_which_arc": "external handoff (Ω)"}
+      ],
+      "owner_elections_verbatim": [
+        "Owner chose, after the 3-file handoff (B155/PC17/brief), to do the full Ω-branch integration then the derive-k research push, \"both, sequenced,\" with \"all relevant agents.\""
+      ],
+      "numbers_claimed": ["L4–L7 = 96/672/3840/20928", "L8–L10 = 105312/521904/2488080", "det G = −δ/(m+1)"],
+      "red_flags": [
+        {"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "the handoff's brute-force strict-full counting script is shown to compute the wrong quantity (per-class not per-matrix), which 'blindly launching it for a 40 hr run would have computed the wrong quantity'"}
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "title": "B156 completion: source-chat cross-check, TC-1/TC-4, the commuting-shears scope",
+      "arcs": ["B156", "B155", "B158"],
+      "established": "Cross-checked against the source ChatGPT/Ω transcripts (1435 messages); B156 confirmed faithful. Two missed theorems banked: TC-1 (Ω4 is the unique minimal strict-full seed) and TC-4 (orientation no-go — relabel-closed ensembles have zero net Pfaffian residual). Decisive scope: Ω is the abelianized shadow of the trace-map tower, not its mechanism, because the strict-full shears A=S03, C=S23 commute and cannot represent the noncommutative trace-map monodromy. Full L4–L10 counts independently reconfirmed by a heavy from-scratch state-propagation re-run.",
+      "status_words": ["exact", "proved"],
+      "retractions": [],
+      "owner_elections_verbatim": [
+        "Owner supplied the source reasoning for the Ω work: the ChatGPT/Ω chat (1435 messages) that produced it, which itself ingested the ~1085pp AI trace"
+      ],
+      "numbers_claimed": ["L4–L10 = 96/672/3840/20928/105312/521904/2488080", "endpoint matrices 36→65472", "L10 took ~3.5h, 112200 distinct metric-solves", "history entropy = log 2"],
+      "red_flags": [
+        {"kind": "ABSENCE_CLAIM", "detail": "\"The Ω↔tower bridge audit (κ↦δ/det G? χ_Ω↦Dickson/Lucas? do R,L relations realize?) was proposed but never run — recorded as the open frontier (docs/OPEN_LEADS.md L18, docs/UNIFIED_STATE.md).\""},
+        {"kind": "OTHER", "detail": "\"History entropy log 2 is the final value — it supersedes the earlier lower bounds log φ and (1/3)log 7 (both < log 2)\" — earlier bounds superseded, not flagged as wrong, but note for the log-contradiction sweep"}
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "title": "B157: the metallic exponent — k=4−m(o−3) REFUTED (Phase 2)",
+      "arcs": ["B157", "B154", "B67", "B89", "B71"],
+      "established": "The empirically-banked closed form k=4−m(o−3) (B154) is REFUTED: extending to bronze (m=3) gives genuine non-degenerate counterexamples ((m=3,o=4)→k=3 vs predicted 1; (m=3,o=6)→k=1 vs predicted −5). What survives: k is order-determined and rank-independent (k = min{j : [A,B]·µ⁻ʲ scalar on the variety}). Also banked: a general-m bundle construction, a new exact figure-eight cell o=4→k=3 over ℚ(i), and a proof that the SL(4) {1,1,i,−i} corner is empty.",
+      "status_words": ["REFUTED"],
+      "retractions": [
+        {"what": "the closed-form fit k=4−m(o−3), described as 'an artifact of having only m∈{1,2}'", "of_which_arc": "B154"}
+      ],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["(m=3,o=4)→k=3 (formula predicted 1)", "(m=3,o=6)→k=1 (formula predicted −5)", "‖µ−t‖=8.1", "residual 1.7e-14", "o=3→k=4 over ℚ(ω)", "NEW o=4→k=3 over ℚ(i)"],
+      "red_flags": [
+        {"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "B157 explicitly REFUTES B154's closed-form k=4−m(o−3) with bronze (m=3) counterexamples"},
+        {"kind": "FITTED_VALUE", "detail": "the refuted formula is described as fit to only five data points ('No ≤3-parameter affine/modular law fits the corrected grid (candidate fits overfit a 5-point set, disagree off-grid)')"},
+        {"kind": "ABSENCE_CLAIM", "detail": "\"o=5,6 admit no irreducible SL(3) reps (inadmissible); the grid is genuinely sparse.\""}
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "title": "B158: the Ω↔tower bridge audit (spectral-only); resolves L18",
+      "arcs": ["B158", "B156", "B155"],
+      "established": "χ_Ω factors into reciprocal quadratics with the identity (p−2)(q−2)=−2(m+1); every metallic bundle-monodromy charpoly is a reciprocal factor of the integer Ω family on the live cone at explicit points (figure-eight×Φ6 = Ω4 = B155, silver×Φ6 = R_{7,1}, etc.); but the strict-full shears A=S03, C=S23 commute, so there is no faithful representation of the noncommutative monodromy — Ω is the abelianized spectral image of the metallic tower, not a faithful mechanism.",
+      "status_words": ["exact", "structural"],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["(p−2)(q−2) = −2(m+1)", "T_M=M²+2 = 3,6,11,18,…", "figure-eight (T=3)×Φ6 = Ω4 = R_{4,−1/2}", "silver (T=6)×Φ6 = R_{7,1}", "M=4 = R_{19,7}", "M=6 = R_{39,17}", "fig×Φ4 = R_{3,0}", "silver×Φ4 = R_{6,3}"],
+      "red_flags": []
+    },
+    {
+      "date": "2026-06-17",
+      "title": "B159: the Ω strict-full class-graded DAG (L4–L10), independently verified (V153)",
+      "arcs": ["B159", "B156", "B158", "B155"],
+      "established": "Independently verified a cross-session 'gate2 class DAG export' (charpoly-class-graded transition graph L4–L10): level class counts and history/matrix counts all match; every one of 474 classes has a palindromic charpoly (TC-2 confirmed across the whole cone, not just the R_{a,m} family); the L4 seed class is exactly Ω4=B155; a from-scratch re-enumeration reproduced class counts and edge multiplicities exactly for L4–L7.",
+      "status_words": ["exact"],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["level classes: 1, 2, 6, 18, 49, 115, 283", "histories 96 → 2 488 080", "matrices 36 → 65 472", "474 total classes", "T1=3 (figure-eight) in 9 classes incl. the seed", "T2=6 (silver) in 12 classes", "T3=11 (bronze) at L10", "edge history-multiplicities 2, 9, 36"],
+      "red_flags": [
+        {"kind": "ABSENCE_CLAIM", "detail": "\"The Myrheim–Meyer / causal-set 'Gate-2 poset' reading is firewalled (docs/OPEN_LEADS.md L21; the export itself disclaims a manifold verdict).\""}
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "title": "B160: the metallic-quasicrystal bridge — independent rediscovery + bronze + the κ-sweep lead (V154)",
+      "arcs": ["B160", "B107", "B148", "B124", "B127"],
+      "established": "A fresh cross-session worker (no repo access) re-derived the project's quasicrystal bridge κ=tr[A,B]=2+λ² → Fibonacci-Hamiltonian quasicrystal → zero-measure Cantor spectrum from scratch under explicit 'deliver physics' pressure and converged on the same bridge-not-crossing firewall; verified this is corroboration not new physics, since the entire bridge (B107/A, B148, K007, K010, B124, B127) was already banked. Independently verified the generic Fricke identity and the transfer-matrix collapse z=xy−2 ⟹ tr[A,B]=2+λ² independent of E; found a new bronze (m=3) data point.",
+      "status_words": [],
+      "retractions": [],
+      "owner_elections_verbatim": [],
+      "numbers_claimed": ["tr[A,B]=x²+y²+z²−xyz−2", "z=tr(AB)=xy−2 ⟹ tr[A,B]=2+λ²", "bronze word ratio → (3+√13)/2", "spectrum measure rate ~0.719 (golden 0.759, silver 0.779)", "κ=2+λ²=−2 ⟺ λ=2i"],
+      "red_flags": [
+        {"kind": "OTHER", "detail": "the entry itself frames this as 'the verify-don't-trust payoff working against an over-claim (a rediscovery presented as a breakthrough)' — an independent AI session's claimed 'physics delivery' was downgraded to corroboration of already-banked math"}
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "title": "GOVERNANCE amendment: the form/contents firewall phrasing + the C/K posture guardrails",
+      "arcs": ["B192"],
+      "established": "Amended GOVERNANCE.md §10 (discipline-strengthening, no rule loosened): added a canonical one-line form/contents firewall phrasing, and C/K posture guardrails against (C) over-claiming 'no breach found' as 'proven impossible', and (K) building further structure on a refuted/closed foundation.",
+      "status_words": ["HELD"],
+      "retractions": [],
+      "owner_elections_verbatim": [
+        "(C) Racing to close: do not upgrade \"no breach found by the probes run\" to \"the question is answered, the product is done\" — absence of a reachable breach is `open`, not a proof of impossibility.",
+        "(K) Building past closed evidence: do not elaborate structure on a refuted/closed foundation; when a result retracts, the structure on it retracts too.",
+        "(K) is the discipline behind the B192 parity-law refutation; (C) is the correction to the review's own \"we're done\" posture (the over-conservative reading that overstates the evidence — we have no reachable breach, not proven impossible)."
+      ],
+      "numbers_claimed": [],
+      "red_flags": [
+        {"kind": "ABSENCE_CLAIM", "detail": "\"absence of a reachable breach is `open`, not a proof of impossibility\" — a meta-rule the log itself states, worth checking other entries against"},
+        {"kind": "RETRACTION_OF_EARLIER_ENTRY", "detail": "references 'the B192 parity-law refutation' as already-happened context, but B192 itself is not covered in this log chunk"}
+      ]
+    }
+  ]
+}

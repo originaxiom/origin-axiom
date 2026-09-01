@@ -111,8 +111,13 @@ for f in test_files:
     recs = d.get('tests', d) if isinstance(d, dict) else d
     for t in recs if isinstance(recs, list) else []:
         if isinstance(t, dict):
-            test_rows.append(tuple(re.sub(r'\s+', ' ', str(t.get(k, ''))) for k in ('file', 'arcs', 'locks', 'kind', 'weakness', 'red_flags')))
-tsv('tests.tsv', ['file', 'arcs', 'locks', 'kind', 'weakness', 'red_flags'], test_rows)
+            test_rows.append((t.get('file'), js(t.get('target_arcs')), t.get('what_it_locks'), t.get('lock_type'),
+                              js(t.get('hardcoded_constants')), js(t.get('red_flags'))))
+            for r in t.get('red_flags', []) or []:
+                red.append(('TEST:' + str(t.get('file')), 'tests', r.get('kind') if isinstance(r, dict) else 'OTHER', r.get('detail') if isinstance(r, dict) else str(r)))
+tsv('tests.tsv', ['file', 'target_arcs', 'what_it_locks', 'lock_type', 'hardcoded_constants', 'red_flags'], test_rows)
+tsv('red_flags.tsv', ['arc', 'source', 'kind', 'detail'], red)   # rewrite with the test flags appended
+lock_types = collections.Counter(r[3] for r in test_rows)
 
 # ---------------- coverage + summary ----------------
 by_src = collections.Counter(a.get('source') for a in arcs)
@@ -124,6 +129,7 @@ with open(os.path.join(S, 'coverage.md'), 'w', encoding='utf-8') as f:
     f.write('- test packets landed: **%d / %d**; test records: %d / %d\n' % (len(test_files), man['test_batches'], len(test_rows), man['tests_total']))
     f.write('- log consistency: %s\n' % dict(lc))
     f.write('- belts: %s\n' % dict(belts))
+    f.write('- test lock types: %s\n' % dict(lock_types))
 
 with open(os.path.join(S, 'SUMMARY.md'), 'w', encoding='utf-8') as f:
     f.write('# Phase B rollup summary (auto; re-run rollup.py after every landing)\n\n')
