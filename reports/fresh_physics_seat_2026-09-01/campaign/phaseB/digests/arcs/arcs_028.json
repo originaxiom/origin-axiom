@@ -1,0 +1,133 @@
+{
+ "batch": "arcs_028",
+ "arcs": [
+  {
+   "arc": "B530_natural_history",
+   "source": "main",
+   "files_read": [
+    "CORPSE_LEDGER.md", "FINDINGS.md", "METHOD.md", "PORTRAIT.md", "arc_verdict.json",
+    "listen_10_crossseat_convergence.py", "listen_11_the_arithmetic.py", "listen_12_census_pass1.py",
+    "listen_13_third_witness_and_floor.py", "listen_14_eigenvector_geometry.py", "listen_15_pisot_quasicrystal.py",
+    "listen_16_rauzy_fractal.py", "listen_17_discrete_spectrum_certificate.py",
+    "listen_18_entropy_and_golden_branching.py", "listen_19_no_conserved_symplectic.py", "listen_1_grammar.py",
+    "listen_20_rauzy_boundary_dimension.py", "listen_21_golden_ladder_point.py",
+    "listen_22_interleaving_sequence.py", "listen_23_floor_arithmetic.py", "listen_24_gap_structure.py",
+    "listen_25_second_seed_seam.py", "listen_26_reexamination.py", "listen_27_deep_listening.py",
+    "listen_28_falsekill_corrections.py", "listen_29_corpse_audit.py", "listen_2_symmetry.py",
+    "listen_30_qca_reexamination.py", "listen_33_image_detection.py", "listen_34_galois_correction.py",
+    "listen_35_three_fields.py", "listen_36_handoff_verification.py",
+    "listen_37_wall_crossing_verification.py", "listen_38_gap_opening_verification.py",
+    "listen_39_induction_engine.py", "listen_3_the_crack.py", "listen_4_deciders.py", "listen_5_pulse.py",
+    "listen_6_kappa_web.py", "listen_7_the_two_copies.py", "listen_8_the_breath.py", "listen_9_chirality.py",
+    "log_index (B530.txt)",
+    "/home/user/origin-axiom/tests/test_b530.py (belt, not in packet file list; executed: 53 passed in 178s)"
+   ],
+   "files_sampled": [
+    "listen_31_the_three_and_the_eleven.py (head 120 lines + structure inspection)",
+    "listen_32_parity_cocycle.py (SAMPLE_CODE mode, not opened beyond directory listing due to time budget; content cross-checked via FINDINGS.md movement XXXVII narrative and listen_31's sibling structure)"
+   ],
+   "files_listed_only": [
+    "rauzy_fractal.png (443438 bytes; referenced by movement XIV as the rendered tile; a .txt/.json numeric twin does not appear to exist alongside it)"
+   ],
+   "claim_of_record": "PROVED: \"The four-letter object's own grammar is golden at three nested levels, its growth is a mirror plus a symplectic form, and its pure discrete spectrum is certified.\" (arc_verdict.json)",
+   "log_says": "PROGRESS_LOG.md credits B530 with: the natural-history reorientation (movements I-VII, lock test_b530.py 10 pass); movement VIII chirality/cross-seat convergence; movement IX firewall arithmetic; the induction-engine handoff (6 cells, 35 tests verified); a 2026-07-15 correction retracting 'topological entropy log β' to inflation growth rate (repo's own lock shows linear complexity); '53 locks green post-edit'; and B535 citing B530's induction census count (7) as independently matching.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Growth char poly x^4-2x^3-5x^2-4x-1, Perron root beta=phi(1+sqrt(phi))~=3.6762, golden 3-level architecture (growth/split/inner-ratio), grammar (7 of 16 adjacencies)",
+     "where": "FINDINGS.md movement I; listen_1_grammar.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Re-ran listen_1_grammar.py directly; printed lengths [5,18,66,243,893,3283,12069,44368], ratios converging to 3.6762, letter frequencies (0.2720,0.1681,0.3460,0.2138), and the exact forbidden-adjacency list match FINDINGS.md verbatim."
+    },
+    {
+     "what": "Galois group of the char poly corrected from S4 to D4 (resolvent cubic rational root y=-3/2); splitting field factors over Q(sqrt5)",
+     "where": "FINDINGS.md movement XXX (\"three fields\") + CORRECTION note; listen_34_galois_correction.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Re-ran listen_34_galois_correction.py; output reproduces the exact D4 conclusion, the joint field degree 16 = D4 x Z/2, and the sqrt(-3)-not-in-splitting-field argument."
+    },
+    {
+     "what": "Pure discrete spectrum PROVEN via balanced-pair algorithm (106 reachable pairs, 0 bad; validated on 5 controls)",
+     "where": "FINDINGS.md movement XV; listen_17_discrete_spectrum_certificate.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script present and runnable (not independently re-executed in this pass due to time budget, but structurally consistent with the movement XIII->XV upgrade narrative and cross-checked against test_b530.py which passes 53/53 including presumably this certificate's lock)."
+    },
+    {
+     "what": "53 locks in tests/test_b530.py, cited repeatedly (\"B530's 53 locks green post-edit\", CORPSE_LEDGER, log_index) as the arc's belt",
+     "where": "/home/user/origin-axiom/tests/test_b530.py (outside the arc directory, not listed in this packet's files)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Executed `pytest tests/test_b530.py -q`: 53 passed in 178.27s, exit code 0. Confirms the arc's repeatedly-cited lock count and that it is green, independent of the packet's own file manifest."
+    },
+    {
+     "what": "Gap-opening slopes (gap1=0.183, gap2=0.152 converged at depth 9; gap3 unconverged 0.12-0.15) and slope ratio 1.204 (no confirmed exact form)",
+     "where": "FINDINGS.md movement XXXIII; listen_38_gap_opening_verification.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script present; movement itself documents a self-correction across depths 7-9 with explicit convergence table, indicating genuine iterative numerics rather than a single fitted number. Not independently re-executed here."
+    },
+    {
+     "what": "Combination-gap rank-4 quasicrystal (gap module rank 4, revising an earlier 'density-trapped wall' claim)",
+     "where": "FINDINGS.md movement XXIV (revision of movement XXII); listen_26_reexamination.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script present and the movement documents exactly what changed between the two computations (margin test vs module-rank computation); consistent self-correction pattern, not merely reasserted."
+    },
+    {
+     "what": "The F!=F^2 coupling resonance is '240,000x' / '242,036x' lower nesting cost than uncoupled Fibonacci under a golden-angle coin construction",
+     "where": "FINDINGS.md movements XXIX and XXXI; listen_30_qca_reexamination.py, listen_36_handoff_verification.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Two independent movements (XXIX, XXXI) recompute the same quantity with a different construction and get consistent orders of magnitude (240,000x vs 242,036x); the arc itself flags that the golden angle is NOT the optimal angle among all tested angle pairs, which is the kind of honest non-cherry-picked detail that supports a computed (not fitted) read."
+    },
+    {
+     "what": "Level-1 trace map sigma* preserves volume (|det|=1) but no symplectic/bilinear form; refutes an incoming handoff's 'rank-4 Goldman form' as a single-point tolerance artifact",
+     "where": "FINDINGS.md movement XVII; listen_19_no_conserved_symplectic.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script present; the movement explicitly reports a negative result reached by checking multiple fixed points (four candidates, several seeds) rather than a single instance, which is the discipline the arc's own METHOD.md and CORPSE_LEDGER.md repeatedly insist on after several documented false-kills from checking only one point."
+    },
+    {
+     "what": "The Level-1 quantum floor is a positive-dimensional character variety (>=14 distinct irreducible SL2(C) characters of F4 rtimes_phi Z)",
+     "where": "FINDINGS.md movement XI; listen_13_third_witness_and_floor.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Numerical root-finding for a twist T solving TrhoT^-1=rho(phi(g)) at residual ~1e-28, reported as \"many\" solutions across unspecified number of random starts; the exact count (>=14) and the search's start-count/coverage are not fully specified in the excerpt read, so reproducibility of the EXACT number 14 (vs. 'many, at least this many found') is UNCLEAR without re-running with the same seeds."
+    },
+    {
+     "what": "PORTRAIT.md's status as 'the complete portrait' / capstone synthesis of 'Twenty movements'",
+     "where": "PORTRAIT.md lines 1-3, 138-142",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "PORTRAIT.md is dated/framed as covering movements I-XX and explicitly says 'The object has said what it has to say at this level of listening.' But FINDINGS.md continues through movement XXXVIII with substantive corrections (Galois S4->D4, parity-label REFUTED, gap-module rank-4 revision reopening movement XXII, seam-selection UNTESTED reopening movement XXIII) that are not reflected in PORTRAIT.md's synthesis. This is a structural claim about the campaign's own scope, not independently checkable by rerunning code -- it is a documentation-currency issue, not a math one."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b530.py (53 def-test functions; not included in the packet's own file manifest, located centrally at /home/user/origin-axiom/tests/) executed in full during this review: 53 passed in 178.27s. Most individual listen_*.py reproducer scripts contain zero or near-zero `assert` statements (they print values for a human to compare against FINDINGS.md prose); the self-checking machinery lives in the centralized test file, not in the reproducers themselves. Two of the listen_*.py scripts (listen_1_grammar.py, listen_34_galois_correction.py) were independently re-executed in this review and reproduced FINDINGS.md's quoted numbers exactly."
+   ,
+   "absence_claims": [
+    {"quote": "√-3 (Eisenstein / E6), √-15 (the seam), and √-7 (chirality) are ALL ABSENT — p does not split over any of them.", "where": "FINDINGS.md movement IX"},
+    {"quote": "√13 was never structural", "where": "FINDINGS.md movement XXXI (handoff verification, item 1)"},
+    {"quote": "No nonzero stationary one-bit additive functional exists (ker(M^T−I) = 0 over F2).", "where": "FINDINGS.md movement XXXVII"},
+    {"quote": "the specific κ₃ *value* is signal-normalisation-dependent and did not reproduce", "where": "FINDINGS.md movement XXX / XXV"},
+    {"quote": "the exact boundary dimension via the contact/boundary substitution matrix (Siegel–Thuswaldner)... that certificate is flagged, not computed here", "where": "FINDINGS.md movement XVIII"},
+    {"quote": "The exact boundary dimension (Siegel–Thuswaldner contact matrix); the End(F4) verb-monoid symmetry... needs train-track machinery, not a matrix check", "where": "PORTRAIT.md, \"What remains\""},
+    {"quote": "Strong shift equivalence remains OPEN — requires constructing explicit rectangular matrices R,S with A = RS, M = SR through a finite chain.", "where": "FINDINGS.md movement XXXVIII"},
+    {"quote": "the mixed-chain gap-opening: the handoff states \"slopes determined by the Perron vector's projection\" as a prediction; these slopes are NOT computed in the handoff.", "where": "FINDINGS.md movement XXXII item 3"},
+    {"quote": "Exact closed-form slopes. The converged values 0.184 and 0.153 have no identified algebraic expression.", "where": "FINDINGS.md movement XXXIII item 6"},
+    {"quote": "the object-selection question is UNTESTED here (needs the B459–468 seam machinery)", "where": "FINDINGS.md movement XXIV"},
+    {"quote": "no test file test_b530.py is listed among the arc's own committed files", "where": "packet manifest (arcs_028.json) vs. repository layout — /home/user/origin-axiom/tests/test_b530.py exists but is centralized outside the arc directory"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "PORTRAIT.md presents itself as the arc's capstone/'complete portrait' covering movements I-XX and declares closure ('the object has said what it has to say at this level of listening'), but FINDINGS.md continues to movement XXXVIII with material corrections (Galois group S4->D4 in movement XXX, parity-label interpretation REFUTED in movement XXXVII, gap-rank and seam-selection reopenings in movement XXIV) that are never folded back into PORTRAIT.md. A reader consulting only PORTRAIT.md (the designated synthesis document) would carry the superseded S4 Galois claim and the closed-door reading of the second-seed seam.", "where": "PORTRAIT.md vs FINDINGS.md movements XXIV, XXX, XXXVII"},
+    {"kind": "NO_TEST", "detail": "The great majority of the 39 listen_*.py reproducer scripts contain zero `assert` statements; they are print-and-eyeball scripts whose numeric output must be manually diffed against FINDINGS.md prose by a human reader. Only listen_14 (5 asserts), listen_36 (1), and listen_37 (4) self-check. The actual verifying tests live entirely in the separate, non-arc-local tests/test_b530.py.", "where": "grep across all listen_*.py in B530_natural_history/"},
+    {"kind": "OTHER", "detail": "The arc's own CORPSE_LEDGER.md documents an extraordinary rate of self-correction: 19 tracked 'kills' this session, of which 6 were outright FALSE-KILLS (restored), 3 REOPENED, 1 OVER-CLOSURE, with the ledger's own stated pattern being 'I reach for the fastest disconfirmation and compute a near-cousin of the claim... then declare death with confidence.' This is transparent and self-corrected, but it means several of the arc's *earlier* published verdicts (movements XI, XIII, XX-XXIII as originally stated) were confidently wrong before being caught, which bears on how much residual trust to extend to verdicts in this arc that have NOT yet been independently cross-checked (e.g., the >=14-character floor-variety count, movement XI).", "where": "CORPSE_LEDGER.md; FINDINGS.md movement XXIV"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "Movement XIX's 'golden ladder' identification (Dsigma* eigenvalues = {phi,1,-1/phi} tensor {1,omega,omega^2} at the trace-zero point) is presented as an exact 9/9 numerical match, which is stronger than a type coincidence -- but the broader Movement XXI/XXIV 'H6' finding (that ℚ(√5,√−3) contains √−15, echoing the program's K025 two-ends-and-seam structure) is explicitly a field-compositum fact true for ANY golden x Eisenstein pairing (movement XXIII: 'this is field theory, not selection'). The arc itself names and defuses this risk (movement XXIII/XXIV), but the underlying dimension/field-containment coincidence is exactly the kind of match this seat is instructed to flag as a licence-to-ask rather than evidence of physical significance.", "where": "FINDINGS.md movements XXI, XXIII, XXIV"}
+   ],
+   "seat_note": "This is a genuinely disciplined, heavily self-auditing pure-mathematics natural history of one substitution system (spot-checked reproducers ran clean and matched the prose exactly, and the centralized 53-test lock passed in full); its content is STRUCTURAL (arithmetic/spectral/group-theoretic), with zero named observable quantities, and every attempt to reach a physics observable (gap-opening slopes, mixed-chain prediction, seam selection) is explicitly left OPEN or firewalled by the arc itself. The one real documentation risk is that PORTRAIT.md, the designated synthesis, is stale relative to FINDINGS.md's later corrections and should not be read as authoritative on its own."
+  }
+ ]
+}

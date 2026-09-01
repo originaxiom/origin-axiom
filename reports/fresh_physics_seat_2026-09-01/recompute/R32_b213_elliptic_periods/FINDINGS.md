@@ -37,7 +37,10 @@ Bookkeeping, not a numeric error, but the table cannot be read with a single per
 - **"Φ is 40a1" (B211 → B213): not exactly.** Φ = 0 is a genus-1 curve of conductor 40 with j = 55296/5, which is the
   j-invariant of the class member [0,0,0,−32,64], not of 40a1 (j = 148176/25). Φ is **isogenous** to 40a1 (same
   L-function, same isogeny class), so every L-value statement survives; the curve-level identification is wrong by
-  a 2-isogeny.
+  a 2-isogeny. **The bank already knows this elsewhere:** B509 ("E: Y²=X³−2X+1, disc 80, conductor 40, j=+55296/5 …
+  Cremona label 40a3, isogenous (not isomorphic) to 40a1") and B510 ("the genus-1 cover d²=(c²−1)(c²−5) has Jacobian
+  exactly 40a3; 40a3 is 2-isogenous to 40a1, not a quadratic twist") — so B211/B213's "Φ is 40a1" is a
+  SUPERSEDED_UNMARKED case (the later arcs corrected the identification without touching B211/B213), not a new error.
 - **"m(Φ) ≈ Ω/2 ≈ L(E,1)": near-coincidence, and the bank's number is wrong.** Jensen (30 digits) gives
   m(Φ) = 0.742264063232416; the direct 2-D torus integral gives 0.742267 (±3e−4, scipy's convergence limit) and
   the genus-0 shadow z² − (u+1)z + 2u − 1 (u = x²) gives the same value, as the substitution x → x² must. The bank's

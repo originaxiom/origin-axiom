@@ -1,0 +1,27 @@
+== B331: chi_27(g) for g of order 3 in the principal SL(2) ==
+  principal decomposition 27 = V16+V8+V0 (E6 exponents 1,4,5,7,8,11 -> the 27 sees 16,8,0): chi = {16: -1, 8: 0, 0: 1}, total -0.000000000000+0.000000000000i (bank 0)
+== B333: class numbers ==
+  h(-15) = 2 (bank 2); fundamental discriminants in [-400,-3]: 122 (bank 123); with h = 2: 16 (bank 14): [-15, -20, -24, -35, -40, -51, -52, -88, -91, -115, -123, -148, -187, -232, -235, -267]
+== B335 / B488 / B489: cyclic covers of the figure-eight ==
+  n=1  H1 Z                      vol/vol(4_1) = 1.0000000000  |2-L(2n)| = 1
+  n=2  H1 Z/5 + Z                vol/vol(4_1) = 2.0000000000  |2-L(2n)| = 5
+  n=3  H1 Z/4 + Z/4 + Z          vol/vol(4_1) = 3.0000000000  |2-L(2n)| = 16
+  n=4  H1 Z/3 + Z/15 + Z         vol/vol(4_1) = 4.0000000000  |2-L(2n)| = 45
+  n=5  H1 Z/11 + Z/11 + Z        vol/vol(4_1) = 5.0000000000  |2-L(2n)| = 121
+  n=6  H1 Z/8 + Z/40 + Z         vol/vol(4_1) = 6.0000000000  |2-L(2n)| = 320
+  n=7  H1 Z/29 + Z/29 + Z        vol/vol(4_1) = 7.0000000000  |2-L(2n)| = 841
+  n=8  H1 Z/21 + Z/105 + Z       vol/vol(4_1) = 8.0000000000  |2-L(2n)| = 2205
+  3-fold cover: isometry group order 24, abelianization Z/2 + Z/2 (bank: order 24, NOT SL(2,3): abelianization (Z/2)^2 vs Z/3)
+  shortest geodesics: [('1.0870701449', 3), ('1.0870701449', 3)]
+  cusp shape of cover [-7.7715611724 E-16 + 1.15470053838*I]
+== B406: a_p(15a1) == a_p(40a1) mod 4 at good primes < 200 ==
+  violations: [] (bank: zero); torsion 15a1 [4, 2], 40a1 [2, 2]
+== B486: cusp modulus ==
+  shape (-1.1102230246251571e-15+3.464101615137756j): rectangular (Re = -1.1e-15), lattice Z + 2sqrt3 i Z, disc of the order Z[2sqrt3 i] = -48 (2sqrt3 i)^2 = -12 -> disc -48; translations (1, 3.464102) orthogonal
+== B509 / B510: the square-time curve ==
+  Y^2 = X^3 - 2X + 1: disc 80, conductor 40, j = 55296/5, torsion [4]
+  40a class j-invariants: ['148176/25', '55296/5', '237276/625', '132304644/5'] ; j(E) in class: True ; isomorphic to 40a1: False
+  Jacobian of d^2 = (c^2-1)(c^2-5): conductor 40, j = 55296/5  (= j of Y^2=X^3-2X+1: True)
+  y^2 = x(x-1)(x-5): j = 148176/25 (bank 40a1, 148176/25)
+== B520: arccosh(5/2) ==
+  arccosh(5/2) = 1.5667992370 (bank ~1.5668); = log((5+sqrt21)/2) = 1.5667992370

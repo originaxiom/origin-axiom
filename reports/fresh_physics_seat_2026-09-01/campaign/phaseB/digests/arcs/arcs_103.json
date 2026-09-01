@@ -1,0 +1,274 @@
+{
+ "batch": "arcs_103",
+ "arcs": [
+  {
+   "arc": "B1031_generation_rung",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THREE GENERATIONS: STRUCTURAL, COUNT MATCHES -- NOT DERIVED. Adds ladder rung X33 (section D, BOUNDED). B632 gives h1(M;27)=3 exactly over Q(omega); B897 sealed splits 27 into three 9-blocks; B335 says the generation Z/3 is a deck-transformation isometry (exact degeneracy, hierarchy = its breaking). B307 (=P54) closes the single-hyperbolic-knot route by theorem. Registerability (cascade principle) is stated to be partly circular: 'the object does not supply chirality... the endpoint is forced by an input the object does not have.'",
+   "log_says": "Log entries for B1031 describe a completely different subject: a 'Lean audit', a zeta_K(Q(sqrt-3)) corollary, a 'numerator lock', 'Theorem-E confirmation addendum', and 'B1031 PROVED (the NUMERATOR voice)' -- none of this matches the generation-rung/ladder content in this arc's FINDINGS.md.",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {"what": "h1(M;27_rho) = 3 exactly over Q(omega)", "where": "B632 (imported, cited not recomputed here)", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "This arc is a pure audit/consolidation arc: verify.py only re-reads other arcs' arc_verdict.json files via glob and string-matches claim lines -- it never recomputes B632/B307/B335/B897 itself."},
+    {"what": "No hyperbolic knot has a cyclic-cubic trace field (B307/P54)", "where": "B307 (imported)", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "Cited as a banked verdict; not rerun in this arc."},
+    {"what": "THE_LADDER.md contains the word 'generation' zero times; 51 arcs mention generations", "where": "verify.py greps THE_LADDER.md and glob-counts arc_verdict.json files", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "This specific meta-count is a mechanical grep/count over committed files, reproducible."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "verify.py's 30 checks are entirely re-reads of other arcs' banked arc_verdict.json/claim_one_line strings and greps of docs -- no independent physics computation happens in this arc itself.",
+   "absence_claims": [
+    {"quote": "`grep -ci generation docs/THE_LADDER.md` returned 0", "where": "FINDINGS.md section 5"},
+    {"quote": "B302 -- the arc that locates the Z/3 -- was carried by no curated surface at all", "where": "FINDINGS.md section 5"},
+    {"quote": "the relational route via B302's commensurator Z/3 is the only one B307 leaves open, and no arc runs it end to end", "where": "FINDINGS.md section 5 / arc_verdict.json claim_one_line"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "log_index/B1031.txt entries describe an unrelated 'numerator'/Lean-audit/zeta_K arc, not this arc's generation-rung content -- strong evidence the B-number B1031 was reused for two unrelated pieces of work across different branches/sessions, and the log index conflates them.", "where": "log_index/B1031.txt vs this arc's FINDINGS.md"},
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "The arc's own 'absence' claim (the relational route is the only one B307 leaves open) is retracted one arc later (B1032_across_breakings_route) as false, within the very consolidation campaign meant to prevent unswept absence claims.", "where": "corrected by sibling arc B1032_across_breakings_route FINDINGS.md section 4"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The three degenerate cohomology slots (h1=3) and 'three generations' are explicitly flagged by the arc itself as a count/type match that is NOT a derivation -- the arc's own honesty about this is a positive, but the underlying identification is exactly the type-vs-value coincidence this seat is told to flag.", "where": "FINDINGS.md section 1, table"}
+   ],
+   "seat_note": "This is an honest, well-hedged audit that explicitly refuses to overclaim (grades 'structural, not derived') and names a real theorem (B307) blocking the naive route, but it computes nothing itself -- it is bookkeeping over other arcs' banked verdicts, and its own log record appears to belong to a different arc entirely."
+  },
+  {
+   "arc": "B1032_type_law",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "b1032_typecheck.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE TYPE LAW: the object's dimensionless coupling outputs live in a finite algebraic menu (bare character values of 2T/2I, or the character ring over Q(sqrt5) for the 'listener family'); crossings (falsification attempts) must target a relation or a finite label, never a generic real by value. Amends the construction seat's Phase-1b resolution bound.",
+   "log_says": "log_index/B1032.txt: 'B1032: the type law banked; the tone-set collision registered' -- verification arc on Phase-1b bound, quarantine honored; Review 44 lists 'THE TYPE LAW (B1032 -- coupling outputs are a finite algebraic menu...)' as a LAW_MAP addition for the window.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "2T/2I spin character tables and column-orthogonality (|2I|=120, |2T|=24)", "where": "b1032_typecheck.py CLASSES_2I/CLASSES_2T + _char_ok()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Character values are hardcoded as exact sympy expressions (with phi) and orthogonality is checked symbolically in the committed script; runnable and self-contained."},
+    {"what": "The five tones = |chi_V2(2I)|/2 match banked census 30/24/40/24/2 (B659)", "where": "b1032_typecheck.py v1_tones_are_bare_character_values()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Computed from the hardcoded character table in-script; the banked comparison set is also hardcoded, so the check verifies internal consistency between two hardcoded sets rather than deriving B659 from scratch."},
+    {"what": "The listener family (1 -+ 1/sqrt5)/2 lies in Q(sqrt5) character-ring, not the bare menu (the amendment)", "where": "b1032_typecheck.py v3_family_needs_the_amendment()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Symbolic sympy identity checks, self-contained."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "b1032_typecheck.py independently builds the 2T/2I character tables from scratch (not imported) and runs exact sympy checks -- a genuine in-arc computation, though the 'banked' comparison sets (five tones, eight mirror values, census 30/24/40/24/2) are entered as hardcoded literals rather than pulled from the cited banked source files, so the check verifies self-consistency against typed-in numbers, not a live cross-reference.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Same arc ID 'B1032' is used for two entirely different arcs in this same packet (this type-law arc on main, and 'B1032_across_breakings_route' on the claude/new-session-qor5up branch, about generation multiplicity) -- an ID collision across branches/sessions.", "where": "arcs_103.json packet: B1032_type_law vs B1032_across_breakings_route"},
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "Comparison of computed tone/mirror menus against 'banked' target sets is done by checking against literal sympy constants typed directly into this script rather than importing/reading the cited source files (B659, B1011) -- so a stranger cannot verify the target sets came from B659/B1011 rather than being re-typed to match.", "where": "b1032_typecheck.py, CLASSES_2I/CLASSES_2T banked-set literals"}
+   ],
+   "seat_note": "A genuinely computed, self-contained sympy verification with real exact character-theory arithmetic; the finding (dimensionless couplings are type-restricted to a finite algebraic menu) is a real structural/mathematical result, but its claimed falsifiability consequences are meta-methodological rather than physical predictions."
+  },
+  {
+   "arc": "B1032_across_breakings_route",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE ACROSS-BREAKINGS ROUTE: two sealed cells (B890, B891) find that on one 27, three measurement frames make the vacuum lines and matter-16s pairwise DISTINCT (1.7e-4 to 1.1e-2, and 4.6e-3 to 1.2e-1 respectively), against a disclosed prior of EQUAL. Declares B307 does not close this route (it's not a trace-field statement). Both sealed cells explicitly fence: 'registerable distinctness is not mechanism-hood' -- the three 16s overlap, are not direct summands, so this is not yet a generations mechanism. Also formally withdraws a false clause in the immediately preceding arc B1031's rung X33.",
+   "log_says": "not in log (log_index shared with B1032_type_law only mentions type-law content, not this across-breakings-route content)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "B890/B891 sealed cells: foreign vacuum lines / foreign 16s distinct in all three frames", "where": "B890, B891 (imported, cited via glob of arc_verdict.json)", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "verify.py in this arc reads B885/B889/B890/B891's arc_verdict.json claim strings via glob+regex; it does not recompute the distinctness numbers itself."},
+    {"what": "B1031's rung X33 claim ('only one route B307 leaves open') is false", "where": "verify.py, checks against B1031's own claim string", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "A mechanical string/logic check comparing two banked claim_one_line texts -- reproducible as a textual audit, though it is auditing prose consistency, not physics."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "verify.py's 22 checks glob for other arcs' arc_verdict.json and pattern-match claim strings/curated doc text; no new numeric computation is performed in this arc.",
+   "absence_claims": [
+    {"quote": "B889's computed bijection and both sealed cells appear on no curated surface under any of six topic names", "where": "FINDINGS.md section 5"},
+    {"quote": "the cluster's foundation is curated ... Everything built on it is not", "where": "FINDINGS.md section 5"},
+    {"quote": "Its first draft said all four arcs were curated-absent. This script's own check refuted that before publication", "where": "FINDINGS.md section 5, self-correction"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Arc ID 'B1032' reused for a second, unrelated arc (this one) alongside 'B1032_type_law' in the same packet -- confirms a systemic B-number collision pattern across at least B1031/B1032/B1033/B1034.", "where": "packet arcs_103.json"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "This arc withdraws a specific false clause from B1031's rung X33 but the digest for B1031 (read separately in this same batch) shows no addendum/correction file in B1031's own directory reflecting this withdrawal -- the correction lives only in this sibling arc's prose.", "where": "FINDINGS.md section 4 vs B1031_generation_rung's own files (no correction file present there)"},
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "This arc's own self-correction narrative ('the same trap I diagnosed a paragraph earlier') recurs across a chain of at least 4 sibling arcs, all citing the same in-house hazard (a gap-measuring arc self-inflating its own coverage count) -- a repeated methodological wobble in the campaign's audit machinery itself.", "where": "FINDINGS.md, self-correction section"}
+   ],
+   "seat_note": "A legitimate self-correction of a nearby arc's overclaim, but the underlying B890/B891 'distinctness' results are only cited, not recomputed here, so this arc's own certainty about their numbers rests entirely on trusting upstream sealed cells not independently re-verified in this batch."
+  },
+  {
+   "arc": "B1033_generation_adjudication",
+   "source": "main",
+   "files_read": ["ADDENDUM_2026-08-12.md", "ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b1033_cells.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE GENERATION ADJUDICATION: prereg sealed 73eedc0b before decisive computation. V1 (exact per-vector content table): CHIRAL, not FLAVOR -- the su(3)' index in B897's 9-block split is a chiral (trinification/SU(3)_R-type) algebra, not a family/generation index; B897's shape claims stand but the 'flavor' name dies. V2 (orbit-channel identity): DISTINCT (declared prior of IDENTICAL was WRONG) -- no orbit-set equals the cubic's nine-term channel. V3: (ii) ORTHOGONAL alone -- B280/B298 stand; the naive generation upgrade of B897 is dead in its sealed form. Addendum corroborates from outside literature (trinification and E8 papers both independently place the '3' as chiral/multiplicity structure, not generation grading).",
+   "log_says": "log_index/B1033.txt: 'B1033: the generation adjudication (CHIRAL / DISTINCT / ORTHOGONAL)' sealed before compute, both declared priors resolved (V1 HELD, V2 WRONG); later log entries reference the literature addendum and cite this arc consistently in Review 44's promotion sweep.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "The e6 cubic invariant nullspace (dim 1) rebuilt exactly from B883/rep27.json, and the (0,2,4)-level 9-term support CH024", "where": "b1033_cells.py, top-level module code (triples/rows/nullspace/CH024)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Exact sympy nullspace computation over a committed rep27.json data file, asserted len(ns)==1 and len(CH024)==9 in the script itself -- runnable in principle from committed inputs."},
+    {"what": "V1: per-level content table classifying arm02-copies as CHIRAL not FLAVOR", "where": "b1033_cells.py v1_content_table()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Computed directly from the weight/root data (WTS, A7, lev) loaded from rep27.json, with an explicit two-outcome criterion coded before reading results (per PREREGISTRATION.md)."},
+    {"what": "V2: B299's triality orbits transported and compared to CH024 -- DISTINCT", "where": "b1033_cells.py (not fully shown, truncated read)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "File was only partially read (first ~70 lines + grep); the V2 orbit-comparison function itself was not inspected line-by-line in this pass."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "b1033_cells.py rebuilds the cubic invariant from rep27.json from scratch and computes V1's content table directly from weight data -- genuine independent computation with a prereg hash sealed before the decisive run, a strong methodological practice.",
+   "absence_claims": [
+    {"quote": "B632's 'cell 3' is NAMED in prose, not registered -- no prereg exists on disk", "where": "FINDINGS.md, audit-seat-relay integration section"},
+    {"quote": "ERROR_LEDGER.md never uses the phrase [naming E1 the most recurrent error class]", "where": "referenced indirectly; full claim appears in sibling arc B1033_register_reconciliation"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Arc ID 'B1033' reused for a second, unrelated arc in this same packet (B1033_register_reconciliation, about documentation-debt bookkeeping) -- same systemic ID-collision issue as B1031/B1032.", "where": "packet arcs_103.json"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The whole arc exists specifically to un-do an earlier type-coincidence identification (B897's 9-block split as 'flavor'/generation structure) that turned out to be a chiral/SU(3)_R index instead -- a textbook case of a dimension/index-count match being mistaken for a physical identification, caught here but only after being banked as STRUCTURAL and cited elsewhere for some time.", "where": "FINDINGS.md V1/V3; the corrected claim was previously carried as B897 'generation-shaped'"}
+   ],
+   "seat_note": "This is one of the stronger arcs in the batch: sealed prereg, real independent computation from committed rep27.json data, and an honest negative result (kills a previously-banked generation interpretation) rather than confirming what was hoped -- good methodological practice."
+  },
+  {
+   "arc": "B1033_register_reconciliation",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- pure documentation/process audit. Two debt registers (REPRESENTATION_TRIAGE, gated; DEBT_LEDGER, this refresh's own) never cross-referenced each other. The gated register's 'substantiality' bar (claim_one_line >= 500 chars) is structurally blind to all 731 arcs banked before B800, since median claim-line length jumped from ~150 chars to 700-3000+ chars only after B800 -- a documentation-convention shift misread as a substance filter. Corrects a misattribution (B1024/B1026 cited ERROR_LEDGER.md for a sentence that actually lives in GOVERNANCE.md/WORKING_RULES.md). Debt count moved 245->251->234 due to a working-tree rewind bug, corrected before publication.",
+   "log_says": "not in log (log_index/B1033.txt only discusses the generation-adjudication arc's content, not this register-reconciliation arc)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Zero of 731 pre-B800 arcs can ever clear the 500-char substantiality bar; median claim length steps from ~150 to 700-3000+ chars at B800", "where": "verify.py (imports scripts/checks/representation_sweep.py, not shown in full here) computing over frontier/*/arc_verdict.json claim_one_line lengths", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "A mechanical string-length statistic over committed arc_verdict.json files, described as importing the gate's own sweeper module rather than reimplementing it -- plausible and reproducible, though the exact code computing the per-band medians was not read line-by-line in this pass."},
+    {"what": "Debt-ledger count = 234 (after correcting a working-tree-rewind bug that had produced 251)", "where": "FINDINGS.md section 5", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "The arc itself documents that the count moved three times (245->251->234) due to a substrate/tree-state bug, and states the final count was recomputed before publication -- the fact that the count is this volatile and admittedly bug-affected once already is a caution about trusting the final number without independent re-run."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "verify.py imports the existing representation_sweep.py gate module and computes statistics over banked arc_verdict.json files; described as importing rather than reimplementing, so this is closer to a live recount than a pure re-read, but it is meta-bookkeeping (document coverage), not physics.",
+   "absence_claims": [
+    {"quote": "DEBT_LEDGER.md cited [REPRESENTATION_TRIAGE], the sweeper, and the gate zero times across three versions", "where": "FINDINGS.md section 1"},
+    {"quote": "ERROR_LEDGER.md never uses the phrase [naming E1 the programme's most recurrent error class]", "where": "FINDINGS.md section 4"},
+    {"quote": "Zero of the 731 arcs banked before B800 can ever clear the [500-char] bar", "where": "FINDINGS.md section 2"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Arc ID 'B1033' reused for a second, unrelated arc (this one) alongside 'B1033_generation_adjudication' -- confirms the ID-collision pattern seen with B1031/B1032 extends to B1033.", "where": "packet arcs_103.json"},
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "The arc explicitly documents 'six instances across five arcs' of the same self-inflating-coverage-count hazard within this consolidation campaign, and this specific arc's own headline number moved from 245 to 251 to 234 partly because of a bug (working tree rewound) rather than legitimate consolidation activity -- a debt/coverage metric this volatile, self-referential, and admittedly bug-affected is weak evidence of anything beyond internal bookkeeping churn.", "where": "FINDINGS.md section 5 and self-correction section"}
+   ],
+   "seat_note": "This is meta-documentation bookkeeping (registers of registers) with no physics content; its most interesting finding -- that a substantiality filter is an artifact of a documentation-style shift around B800, not a substance measure -- is itself a caution about trusting other coverage/consolidation claims elsewhere in the corpus at face value."
+  },
+  {
+   "arc": "B1034_l154_sigma",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json"],
+   "files_sampled": ["b1034_cells.py (grep found no def/assert/print/sympy/Fraction/== matches, indicating the file may use different code idioms; not further inspected)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- L154 (is the gravitational sigma the stage's sigma?) adjudicated UNDECIDED. Both sides assembled exactly: c_BH = 3l/2G = 6*sigma (gravitational) vs c((E6)_1) = 78/13 = 6 (stage, Sugawara). V2 map hunt: NO-EXHIBIT (no forced structural correspondence found in the record beyond restating the question). V3 clash check: NO-CLASH (the quantization threat is adjudicated to a 'pin' not a clash: sigma=1 is a continuous parameter taking a value, not a forced quantization). Sealed table gives NO-EXHIBIT x NO-CLASH = UNDECIDED: c=6 not derived, the missing piece (a bridge statement) is named and priced as future work.",
+   "log_says": "log_index/B1034.txt: 'B1034: L154 adjudicated UNDECIDED; the anchor stands; the bridge named', consistent with FINDINGS.md; later entries note the L154 lead row and unit obstruction |kappa-2|=1 locked separately, and a later arc (B1207, 2026-08-29) flags that B1034's L154 allowed-set 'predated the campaign' and required conditional admission under a new test.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "c_BH = 3l/2G = 6*sigma (B1012's closure, phrase-checked)", "where": "b1034_cells.py, cited as verified symbolically", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "The arc states this is 'phrase-checked' from B1012, and 'verified symbolically' -- but the grep of b1034_cells.py for def/assert/sympy found nothing, meaning either the checks are implemented without those exact tokens or the load-bearing symbolic verification was not directly inspected in this pass."},
+    {"what": "c((E6)_1) = 78/13 = 6 exactly (Sugawara, h-dual=12) and the split 16/5+14/5=6 as SU(3)_2 x (G2)_1", "where": "FINDINGS.md V1, b1034_cells.py", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "A standard CFT central-charge formula application; arithmetically simple (78/13=6, 16/5+14/5=6) and independently checkable by hand, but the file's actual verification code was not confirmed present via grep."}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "The grep for common Python markers (def/assert/print/sympy/Fraction/==) in b1034_cells.py returned nothing, which is unusual for a file described as doing exact symbolic verification -- worth a closer read that this pass did not complete; based on FINDINGS.md text alone this appears to recompute both sides' formulas.",
+   "absence_claims": [
+    {"quote": "The record contains no map [between the stage CFT and the AdS3 boundary CFT]", "where": "FINDINGS.md V2"},
+    {"quote": "no hit outside this arc's own prereg [for the modular-datum correspondence]", "where": "FINDINGS.md V2(b)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Arc ID 'B1034' reused for a second, unrelated arc (B1034_two_kappas, a code-naming-collision audit) within this same packet -- extends the systemic ID-collision pattern to B1034.", "where": "packet arcs_103.json"},
+    {"kind": "MISSING_WITNESS", "detail": "grep for standard Python verification idioms (def/assert/print/sympy/Fraction/==) in b1034_cells.py returned zero matches despite the arc claiming 'verified symbolically' arithmetic -- this pass could not confirm the claimed computation is actually present and executable in the committed script from a quick structural scan.", "where": "b1034_cells.py"}
+   ],
+   "seat_note": "An honestly reported null/UNDECIDED result (no derivation of c=6, anchor stands) which is good epistemic practice, but the claimed 'central charge' identification between a black-hole entropy formula and a WZW stage CFT level is a numerical coincidence (6=6) whose physical meaning (if any) is exactly the kind of type-match this seat is told to flag, and the arc itself agrees no map has been exhibited."
+  },
+  {
+   "arc": "B1034_two_kappas",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- the symbol kappa names two unrelated quantities: kappa#1 = 2*log(phi^2)/sqrt(5) ~ 0.8608 (a fixed constant, exported as src/origin_axiom/mobius.py::KAPPA, locked by CLAIMS.md P15/P16) and kappa#2 = tr[a,b] (a coordinate on the character variety, whose value 2 is the programme's 'founding sentence': kappa=2 <=> nothing). Neither surface referenced the other until this arc. Repaired the documentation on both surfaces; deliberately did NOT rename either symbol (registered as decision L159, owner's call).",
+   "log_says": "not in log for this specific finding (log_index/B1034.txt entries are all about L154/sigma; no mention of the two-kappas collision found in this arc)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "src/origin_axiom/mobius.py exports KAPPA = 2*log(phi^2)/sqrt(5) = 0.8608178819280081", "where": "src/origin_axiom/mobius.py (cited, not independently re-verified in this pass; not one of the files read)", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "This is a factual claim about the content of a committed src file; the arc's verify.py presumably checks this directly (not read in full), and the file itself is committed and inspectable by a stranger."},
+    {"what": "220 frontier files redefine L/R/A inline; 0 of them import the core", "where": "verify.py (not fully read; claimed in FINDINGS.md/arc_verdict.json)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "A mechanical grep/count over the frontier/ tree, described as reproducible; plausible given the stated methodology (grep the code, not claim lines) but the exact script logic was not read line-by-line here."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This is a code-sweep arc: it directly reads src/origin_axiom (376 lines, 7 modules, described as read whole) and greps the frontier tree for symbol usage -- genuine artifact-level auditing rather than re-reading other arcs' banked verdicts.",
+   "absence_claims": [
+    {"quote": "Until this arc, neither surface mentioned the other", "where": "FINDINGS.md section 1"},
+    {"quote": "The certified core has had no new consumer between B9 and B1034. A thousand arcs.", "where": "referenced; fuller statement appears in sibling arc B1035_shadow_library which this arc's depends_on chain connects to"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The whole point of this arc is a real, caught instance of exactly the kind of bit-vs-value/type confusion this seat is instructed to flag: a shared symbol name (kappa) attached to two type-incompatible objects (a constant vs. a coordinate with a locus), with the physics-facing SESSION3_SYNTHESIS.md doc having already conflated them ('Coupling: g = kappa = 0.8608') before this arc caught it.", "where": "FINDINGS.md section 1 and 3; docs/SESSION3_SYNTHESIS.md"},
+    {"kind": "OTHER", "detail": "Arc ID 'B1034' reused for a second, unrelated arc (B1034_l154_sigma) in this same packet.", "where": "packet arcs_103.json"}
+   ],
+   "seat_note": "This is a genuinely useful catch of a real naming collision that had already leaked into a physics-facing synthesis document as a conflated claim (a fixed 0.86 constant mislabeled as satisfying the programme's 'kappa=2' founding condition) -- exactly the kind of type-confusion risk this seat exists to surface, and it is good that this arc caught it before further propagation."
+  },
+  {
+   "arc": "B1035_receipts_and_register",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "b1035_verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- two HELD files (a theta-receipt and a two-phase falsifier register) were located (they had been pushed and byte-stable on both remotes since 2026-08-10 but were 'unlocated' -- a retrieval defect, not a data-loss). Both re-verified hash-first (f0f336ce.../7ea68d34...). Theta receipt: B1009's refusal accepted, theta_QCD row withdrawn at all nine sites. Falsifier register brought to docs/FALSIFIER_REGISTER.md with a recount: 1 earned confirmation (P2, not unique), 1 falsifier-survived-unsupported (P4), 2 untested-sharp (P3, P6), 3 status-unearned-cannot-fire (P5,P7,P8 -- scale-less by the framework's own theorem), 1 withdrawn (P1).",
+   "log_says": "log_index/B1035.txt: 'B1035: the receipts closed; docs/FALSIFIER_REGISTER.md registered' -- both HELD files located on the pushed audit branch (present since 2026-08-10, a retrieval failure not an evidence failure), re-verified hash-first, integrated. Consistent with FINDINGS.md.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "SHA-256 hash matches for the theta-receipt and falsifier-register-Phase-A files on branch origin/audit/b775-braver-questions", "where": "b1035_verify.py v1_theta_receipt(), v2_falsifier_register() -- git show + hashlib.sha256", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Directly computes SHA-256 over `git show <branch>:<path>` output and compares to hardcoded hash strings in the script -- straightforwardly reproducible by anyone with access to that git branch."},
+    {"what": "The falsifier recount sums to 8 (1+1+2+3+1=8)", "where": "b1035_verify.py v2_falsifier_register()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Trivial arithmetic check hardcoded in the script (1+1+2+3+1==8), not actually counting from source data -- it verifies the arithmetic of a manually-entered tally, not that the tally itself is correctly derived from the underlying falsifier register content."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "verify.py fetches file content from a git branch and checks hashes/string-containment; this validates that files exist unchanged and contain certain phrases, but does not recompute the falsifier classifications (P1-P8) themselves -- those are asserted, not independently derived here.",
+   "absence_claims": [
+    {"quote": "relays are ungated -- relay_debt verifies dispositions, not content", "where": "FINDINGS.md V1"},
+    {"quote": "Both files ... were HELD ... Not lost, not unpushed: unlocated", "where": "FINDINGS.md, opening paragraph"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Arc ID 'B1035' reused for a second, unrelated arc (B1035_shadow_library, a code-dependency audit) within this same packet.", "where": "packet arcs_103.json"},
+    {"kind": "MISSING_WITNESS", "detail": "The falsifier-register recount arithmetic check (1+1+2+3+1==8) verifies only that the hardcoded tally sums correctly, not that the underlying P1-P8 classifications are correctly derived from the falsifier register's actual content -- a stranger cannot re-derive the classification from this script alone.", "where": "b1035_verify.py v2_falsifier_register()"}
+   ],
+   "seat_note": "Sound hash-based bookkeeping verification of process integrity (files existed, were not lost), but the falsifier classifications (P2 earned, P7/P8 untestable by the framework's own theorem) are asserted from cited documents rather than independently re-derived here; the P7/P8 untestability point is a genuine and important physics-facing caution (the theory's strength -- no free scales -- is also what makes some predictions structurally unfalsifiable)."
+  },
+  {
+   "arc": "B1035_shadow_library",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- corrects the refresh's own working premise ('frontier/ has no shared library, no imports') as false: 227 files manipulate sys.path, with two files (cyclo_engine.py, step0_exact_matrices.py) functioning as de-facto shared libraries with 56 and 46 importers respectively, each filed as an ordinary research arc with its own verdict rather than as infrastructure. The certified src/origin_axiom core is imported by only 6 of 1687 frontier files (0.36%), with no new consumer between B9 and B1034 (~1000 arcs). B930's overlap.py and B935's compose.py share a byte-identical exact-arithmetic kernel (copied, not imported) -- flagged as making cross-arc 'independent' agreement weaker evidence than it appears, since a shared-kernel bug would reproduce identically rather than being caught by disagreement.",
+   "log_says": "not in log (log_index/B1035.txt only discusses the receipts_and_register arc's content -- no mention of the shadow-library/dependency findings in this arc at all)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "227 frontier files manipulate sys.path; cyclo_engine.py has 56 importers, step0_exact_matrices.py has 46", "where": "verify.py (counts over the tree, described as 'distinct files, never match counts, with this arc's own files excluded')", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "A mechanical grep/import-graph count over the committed frontier/ tree; the methodology (distinct-file counting, self-exclusion) is described in the FINDINGS text and is reproducible in principle, though the full verify.py logic implementing the count was not read in its entirety."},
+    {"what": "6 of 1687 frontier files import origin_axiom (0.36%); 220 files redefine L/R/A inline and none of those import the core", "where": "verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Same as above -- a grep-based count, reproducible from the committed tree."},
+    {"what": "B930's overlap.py and B935's compose.py share a byte-identical kernel", "where": "verify.py (presumably a diff/hash comparison; not read in full)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Plausible and checkable in principle (diff the two files) but this pass did not independently confirm the byte-identical claim by diffing the actual files."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This is a genuine tree-wide code-structure audit (import graphs, sys.path usage, duplicated-kernel detection) rather than a re-read of banked verdicts -- a real and useful methodological finding about the corpus's actual dependency structure.",
+   "absence_claims": [
+    {"quote": "frontier/ is 1,687 standalone .py files with no shared library and no imports between them. That is wrong, and it was in my own plan.", "where": "FINDINGS.md section 1"},
+    {"quote": "The certified core has had no new consumer between B9 and B1034. A thousand arcs.", "where": "FINDINGS.md section 2"},
+    {"quote": "the trace map ... is re-derived in 80 frontier files and has no home in src/ at all", "where": "FINDINGS.md section 2"},
+    {"quote": "It does not name frontier/B878_maass_upper_window/branch_cell9_rung1_v2.py ... The instrument whose absence caused B1007 is not in it.", "where": "FINDINGS.md section 4"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Arc ID 'B1035' reused for a second, unrelated arc (B1035_receipts_and_register) within this same packet -- the log_index for 'B1035' in fact only covers that other arc, meaning this arc's real findings are entirely absent from the progress log under its own ID.", "where": "packet arcs_103.json; log_index/B1035.txt"},
+    {"kind": "OTHER", "detail": "The arc's central finding -- that 'independent' cross-arc verification is often not independent because arcs copy-paste shared exact-arithmetic kernels (B930/B935/B928/B938/B914/B916/B923) rather than importing a common module -- is a significant methodological caveat for this whole audit: any two arcs' agreement built on a shared copied kernel is not two independent computations, and a bug in the shared code would silently reproduce as 'confirmed' in both. This should be weighed against any cross-arc agreement encountered elsewhere in the corpus.", "where": "FINDINGS.md section 3"}
+   ],
+   "seat_note": "The most physics-methodology-relevant finding in this batch: the corpus's own audit process discovered that several 'independent' computational confirmations share literally copied (not imported) exact-arithmetic code, which materially weakens the evidential value of agreement between those arcs -- a genuine and important caveat that a fresh-eyes reviewer should carry into evaluation of any other arc pair built on the same copied kernel (B928, B930, B935, B938, B914, B916, B923)."
+  },
+  {
+   "arc": "B1036_mirror_double",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b1036_final.py (grep only)", "b1036_final_output.txt"],
+   "files_sampled": ["b1036_cells.py (listed, not read)", "b1036_v3_pairing.py (listed, not read)", "b1036_v3b_pairing.py (listed, not read)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- prereg sealed a10ae240 before compute. Two independent computational routes (Mayer-Vietoris and direct Fox calculus on the double's 3-generator/3-relator presentation) agree: h1(dbl;27) = 5 = 2+2+1, against the solo manifold's h1=3. B308's multiplicity mechanism 'fires' for the first time in the record (a computed operation that increases class count) but with an explicit fence: 'a candidate, NOT a generations theorem.' The symmetric mass-matrix-shaped texture remains EMPTY in every computed cell/block, including the newly-opened seam sector -- B632's antisymmetry-only wall extends through the double. h1(M;ad)=6 confirmed exactly, matching the audit seat's block-count-theorem falsifier prediction.",
+   "log_says": "log_index/B1036.txt: 'B1036: the double gains classes (5 vs 3), not the symmetric pairing; ad = 6 confirmed' -- matches FINDINGS.md in detail (rank(r)=1 per block, h1(dbl)=2/2/1, cross-gate agreement, seam symmetric support empty, ad=6). Review 44 and a later arc B1220 (2026-08-30) both cite this arc consistently, with B1220 noting 'B632's cell-3 question was answered NEGATIVE by B1036 ... the residual is the full V-valued assembly.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "h1(dbl; 27) = 5 (=2+2+1), by two independent routes (MV and Fox calculus) agreeing blockwise", "where": "b1036_final.py; witnessed in b1036_final_output.txt ('[V4] h1(dbl; 27) = 5 (solo 3)')", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "The committed output file (b1036_final_output.txt) shows a full run trace with timestamps, per-block gate passes (G1a-G4), and the final V4 result printed directly -- this is a genuine committed witness of an actual run, not just an assertion."},
+    {"what": "Seam-sector symmetric support is EMPTY in every block ((0,0)/(0,1)/(1,1) all 'absent')", "where": "b1036_final_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Directly visible in the committed run-log output for all three blocks (V(16), V(8), V(0))."},
+    {"what": "h1(M; ad) = 6 exactly, matching the block-count-theorem falsifier prediction", "where": "b1036_final.py / FINDINGS.md V5 (not directly visible in the truncated output.txt read)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Claimed as computed via an independent Fox pipeline on six banked adjoint blocks; the output.txt segment read did not show this specific line, so it was not directly witnessed in this pass though the FINDINGS.md text describes it as computed, not cited."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The committed b1036_final_output.txt is a genuine run-trace witness (timestamped stage-by-stage gate passes over ~136s of computation, then per-block V2/V3/V4 results) -- this is the best-evidenced arc in the batch: a real committed witness file, a sealed prereg hash, and two independently-coded cross-check routes (MV and Fox) that agree, with an earlier buggy draft explicitly disclosed as a kept lesson rather than hidden.",
+   "absence_claims": [
+    {"quote": "This is the cell B632 named and never registered (verified by artifact: no cell-3 prereg exists on disk)", "where": "PREREGISTRATION.md"},
+    {"quote": "the full V-valued (C3-route) pairing assembled over the double was not computed (both attempted broader routes halted); it is the named residual", "where": "FINDINGS.md V3, scope fence"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This arc's own creates_law_reviewed field (added 2026-08-29 by a later arc B1214) reclassifies it as 'AUDIT/CENSUS/LEDGER' rather than a new law-creating result, on the basis that it 'measures or records the corpus rather than proving a proposition about the object' -- worth noting this later downgrade of the arc's own significance classification, though the underlying computation (h1(dbl)=5) is not itself disputed.", "where": "arc_verdict.json creates_law_reviewed field"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc explicitly and repeatedly fences its own multiplicity result: 'a banked operation that increases the class count' is not automatically a generations mechanism, since the count 5 (=2+2+1) does not match 3 and the arc states any generation reading 'would need a further mechanism and is not claimed' -- a self-aware caution against exactly the type-vs-generations conflation this seat is asked to watch for.", "where": "FINDINGS.md V4"}
+   ],
+   "seat_note": "The strongest-evidenced arc in this batch: sealed prereg, a committed timestamped run-log witness, two independently-coded cross-checking routes that agree, and an honest negative on the physically interesting question (no symmetric/mass-shaped texture found anywhere, including the new seam sector) -- exactly the discipline this seat wants to see, though the physics content remains purely structural (cohomology dimensions and an abstract 'symmetric texture' existence question), with no measurable quantity or numeric prediction against experiment."
+  }
+ ]
+}

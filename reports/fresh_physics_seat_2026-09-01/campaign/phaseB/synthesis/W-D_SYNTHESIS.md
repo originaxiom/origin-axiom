@@ -36,8 +36,10 @@ disputed; the sentence built on it is.
 
 ## 3. What the tests lock — the belt is thinner than its size
 
-Test digests (`tests.tsv`, lock types as of this draft: RECOMPUTES 468, COMPARES_TO_STORED 187, TAUTOLOGICAL 8,
-NOT_A_TEST 3 of 666). Two families deserve the owner's attention:
+Test digests are complete (`tests.tsv`, 1122 files): RECOMPUTES 763, COMPARES_TO_STORED 326, TAUTOLOGICAL 17, SMOKE 7,
+SKIPPED_OR_XFAIL 2, NOT_A_TEST 7. Reader flags on tests: SELF_REFERENTIAL_LOCK 98 files, SKIP_IN_CI 80, LOOSE_TOLERANCE 35,
+TAUTOLOGICAL 24. So roughly a third of the belt (326 + 17) does not recompute anything at test time, and a further
+80 files recompute only under `OA_SLOW=1`. Two families deserve the owner's attention:
 
 - **The "REPRODUCES" string family [verified].** 29 test files (B1147–B1185 belt) contain a
   `test_reproduce_*` that asserts the literal string `REPRODUCES` occurs *inside the committed
@@ -65,8 +67,9 @@ all with committed scripts that run on this bench without Sage:
 | R33c | B307 census: 32 cubic fields of 500, all (1,1), 0 cyclic | MATCH exactly (32, all (1,1), 0 cyclic; 110 of 500 shape fields undetermined above degree 40, none of which can be cubic) |
 | R34 | B252 E6 27 complex / 78 real | MATCH (textbook) |
 | R35 | B3/B127/B129/B147/B197/B212/B258/B321/B322/B326 census rows | nine MATCH; B258's "silver non-arithmetic" inference REFUTED (trace field vs invariant trace field; silver is arithmetic, as B147 says) |
+| R36 | B331/B333/B335/B406/B486/B488/B489/B509/B510/B520 | seven MATCH; B333's discriminant count wrong (sign bug: 14/123 → 16/122), verdict unchanged |
 
-Physics content of all six: none. Each is arithmetic or representation theory of the object; none names a
+Physics content of all seven: none. Each is arithmetic or representation theory of the object; none names a
 measurable quantity. "No observable content."
 
 ## 5. The reader red flags by kind (auto, `SUMMARY.md`)

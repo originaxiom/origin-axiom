@@ -517,3 +517,7 @@ Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   where the invariant trace field (ℚ(i)) decides; silver is arithmetic, as B147 already had (vol = 12 × covol
   PSL(2,ℤ[i])). B147 and B258 contradict each other in the bank; B258's "only the figure-eight has a quadratic
   trace field" repeats the Reid-for-knots misapplication B125 corrected.** No observable content.
+- **Second census batch (B331, B333, B335, B406, B486, B488/B489, B509/B510, B520) — CLOSED** by
+  `R36_census_batch2/`: seven MATCH; **B333's "14 of 123 fundamental discriminants have h = 2" is wrong** (its
+  discriminant filter has a sign bug: 21 non-fundamental discriminants in, 20 fundamental out; PARI gives 16 of 122),
+  verdict "generic" unchanged. B509/B510's 40a3 identification is the one R32 found missing from B211/B213.

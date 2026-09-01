@@ -1,0 +1,224 @@
+{
+ "batch": "arcs_029",
+ "arcs": [
+  {
+   "arc": "B531_trace_map_gate",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B531_trace_map_gate/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B531_trace_map_gate/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B531_trace_map_gate/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B531_trace_map_gate/t1_lyapunov.py",
+    "/home/user/origin-axiom/frontier/B531_trace_map_gate/t2_control.py",
+    "/home/user/origin-axiom/frontier/B531_trace_map_gate/t3_fourier.py",
+    "/home/user/origin-axiom/tests/test_b531.py (found via search, not in packet file list; used to assess belt)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Gap-opening slopes converge (0.1914, 0.1524, ratio 1.2565) and gap 3's period-2 alternation is explained by the negative contracting eigenvalue; closed forms remain open.\"",
+   "log_says": "Log entries do not describe B531's content directly; they only track it as part of a quarantined pre-synthesis chain (B517→B530→B531→B532, P43/P46/P51) awaiting a synthesis-pass correction, unresolved as of the last entry (2026-07-15).",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Gap-opening slopes s1=0.1914, s2=0.1524, ratio=1.2565 (depth 9-12 partial eigendecomposition)",
+     "where": "FINDINGS.md lines 28-31, 54-56; t1_lyapunov.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "t1_lyapunov.py is a self-contained script (numpy/scipy only) that computes exactly these slopes via eigh_tridiagonal; tests/test_b531.py independently re-implements the same computation and asserts these exact values (test_t1_slopes_converged_gaps_1_2, test_t1_slope_ratio_converged), so this is not merely asserted."
+    },
+    {
+     "what": "Gap 3 period-2 oscillation (0.1244 even / 0.1539 odd depths) attributed to negative contracting eigenvalue λ2≈-0.440",
+     "where": "FINDINGS.md lines 36-44; t1_lyapunov.py even_odd_analysis()",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly computed by t1_lyapunov.py and covered by tests/test_b531.py::test_t1_gap3_even_odd_alternation."
+    },
+    {
+     "what": "AR-4 control substitution comparison (genericity of even/odd alternation, specificity of clean period-2)",
+     "where": "FINDINGS.md T2 section; t2_control.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "t2_control.py independently computes the control substitution's spectrum; tests/test_b531.py::test_t2_* re-verifies Pisot/primitivity and gap1 convergence."
+    },
+    {
+     "what": "Fourier amplitude ordering and s≈2.1·|V̂(α)| relation (T3)",
+     "where": "FINDINGS.md T3 section; t3_fourier.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "t3_fourier.py computes exact Fourier coefficients at the three gap frequencies; test_b531.py::test_t3_* checks amplitude ordering and the s/|V̂| ratio range."
+    },
+    {
+     "what": "Exact algebraic form of slope ratio s1/s2 = 1.2565 and closed-form slopes",
+     "where": "FINDINGS.md 'What remains open' section, lines 174-178",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "Explicitly marked OPEN by the arc itself; no closed form is derived or claimed, so nothing to reproduce here — flagged only so the open status is visible."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b531.py (not listed in the packet's file set but present in the repo at /home/user/origin-axiom/tests/test_b531.py) independently re-implements T1/T2/T3 from scratch and asserts the exact numeric values quoted in FINDINGS.md — a genuine recompute, not merely a re-read.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "No log/output file or JSON witness is committed anywhere in the arc directory recording an actual run of t1_lyapunov.py, t2_control.py, or t3_fourier.py (the directory contains only the three .py scripts, FINDINGS.md, PREREGISTRATION.md, and arc_verdict.json — nothing that isn't a .py or .md is present, and nothing is gitignored either, since the working tree is clean and untracked-and-ignored files were checked). The numbers in FINDINGS.md are only independently corroborated because tests/test_b531.py (outside the arc directory, found by search, not part of the arcs_029 packet's file list) happens to assert the same values.",
+     "where": "frontier/B531_trace_map_gate/ (directory listing)"
+    }
+   ],
+   "seat_note": "The slope numbers are genuinely computed and cross-checked by an independent test file, which is reassuring, but the arc directory itself carries zero witness output — reproducibility rests entirely on a test file the packet did not flag as belonging to this arc. Physics content is purely structural (spectral gap widths of a 1D quasicrystal Hamiltonian defined from a combinatorial substitution); no observable/measurable physical prediction is made or claimed."
+  },
+  {
+   "arc": "B532_last_echo",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B532_last_echo/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B532_last_echo/GRAMMAR.md",
+    "/home/user/origin-axiom/frontier/B532_last_echo/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i1_fp_dimension.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i1_golden_fp.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i2_projections.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i3_self_description.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i3b_observer_gap_verify.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i4_derivation_dag.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i5_bigram_derivation_v2.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i5_character_census.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i6_nine_ingredients.py",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i6_phase3_synthesis.py",
+    "/home/user/origin-axiom/tests/test_b532.py (found via search, used to assess belt)"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B532_last_echo/i5_bigram_derivation.py (first 120 lines only, per SAMPLE_CODE mode)",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i5_one_v_test.py (first ~60 lines only, not fully read)",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i5_wavefunction_geography.py (first ~60 lines only, not fully read)",
+    "/home/user/origin-axiom/frontier/B532_last_echo/i6_phase2_probes.py (first 120 lines only, per SAMPLE_CODE mode)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The interaction grammar reduces to a four-word irreducible kernel anchored at the self-containing sigma(a)=abAAB; period-3 is absent from the spectrum.\"",
+   "log_says": "PROGRESS_LOG.md 2026-07-12 entries confirm cell-by-cell: I0 handoff housekeeping, I1 fixed-point dimension + period-3 absent, I2 projection algebra (irreducibly 4-letter), I3 self-description (σ(a) self-containing), I4 derivation DAG (29 layers, depth 4), IZ synthesis (GRAMMAR.md, 29 layers, two observer inputs SL2C+V), campaign complete PRs #808-#813. It also separately records I5's cross-seat 'core hierarchy' claim as 'CANNOT BE REPRODUCED' and flags the arc as part of a quarantined pre-synthesis chain pending correction (2026-07-15 entry) — the campaign is logged as complete but simultaneously quarantined, an unresolved tension the log itself does not settle.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Period-3 absent from spectrum; six-phase clock = period-2 (spectral) × period-3 (combinatorial, decoupled)",
+     "where": "FINDINGS.md I1 Part B; GRAMMAR.md section 5",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Four independent numerical tests described and covered by tests/test_b532.py::test_i1_period3_*."
+    },
+    {
+     "what": "Fixed-point dimension: two components (isolated dim=0 generic FPs; dim=1-complex trace-zero family, κ=-2)",
+     "where": "FINDINGS.md I1 Part A; i1_fp_dimension.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "i1_fp_dimension.py computes Jacobian rank at 10 seeded fixed points; tests/test_b532.py::test_i1_fp_* re-verifies kernel dims and κ."
+    },
+    {
+     "what": "Golden FP (tr(a)=1, tr(b)=1/φ, κ=1) claimed by 'chat1' -- NOT FOUND after 3100 seeds, 3 strategies",
+     "where": "FINDINGS.md I1 lines 70-73; i1_golden_fp.py lines 236-250; GRAMMAR.md line 131",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "A negative result reached by exhaustive random/targeted search in i1_golden_fp.py; reproducible by rerunning the script, though a negative search result can never be a proof of non-existence (the arc itself says so: 'the golden FP either does not exist for this σ or requires a parameterization we haven't tried')."
+    },
+    {
+     "what": "σ is irreducibly 4-letter: none of 7 binary projections are substitutive; two give exact golden values (φ, 1/√φ)",
+     "where": "FINDINGS.md I2; i2_projections.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly computed in i2_projections.py and asserted in tests/test_b532.py::test_i2_*."
+    },
+    {
+     "what": "σ(a)=abAAB is self-containing (return induction canonical codes = σ itself); other three images are not",
+     "where": "FINDINGS.md I3; i3_self_description.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Computed via induction engine imported from ../B530_natural_history/listen_39_induction_engine.py (a cross-arc IMPORT dependency, not vendored into B532); tests/test_b532.py::test_i3_* re-checks this independently with its own implementation."
+    },
+    {
+     "what": "Cross-seat 'core hierarchy' (5 distinct core polynomials by bigram) and 'gap label = Fibonacci-core fraction' identity",
+     "where": "FINDINGS.md I3 'Handoff verification' table, lines 216-234; i3b_observer_gap_verify.py; i5_bigram_derivation.py, i5_bigram_derivation_v2.py",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is a claim IMPORTED from a cross-seat handoff, explicitly NOT REPRODUCED by this arc's own independent computation (all 7 bigrams give the same quartic core, not 5 distinct polynomials); the arc leaves the discrepancy open ('pending clarification of what derived substitution means in the handoff') rather than resolving it. Not committed anywhere as a reproducible artifact from the original handoff side."
+    },
+    {
+     "what": "The 29-layer Derivation DAG (I4): which layers derive from which, depth structure, 'irreducible kernel = the four words'",
+     "where": "FINDINGS.md I4; GRAMMAR.md section 1; i4_derivation_dag.py",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "i4_derivation_dag.py is a hand-authored Python dict (LAYERS) encoding each layer's claimed parents and 'extra_input' by hand -- it is a declared graph, not a computation that verifies each edge is a true logical/mathematical dependency. The script only computes depths and statistics over the hand-entered structure; tests/test_b532.py::test_i4_* only check properties of this same hand-entered dict (acyclicity, single source, counts), which is checking the assertion is self-consistent, not that it is true of the mathematics."
+    },
+    {
+     "what": "Nine Ingredients scorecard: physical categories (Time, Randomness/Born rule, Continuity, Forces, Locality, Scale, Thermodynamics, Matter, Gravity) labeled FORCED/CONDITIONED/ABSENT from σ's structure",
+     "where": "FINDINGS.md IZ synthesis reference; i6_nine_ingredients.py; i6_phase2_probes.py; i6_phase3_synthesis.py",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The underlying numeric probes (e.g. P(b|a)=1/φ, T(n) decay, k2/k3 ratio) are computed, but the mapping of those numbers onto physics category labels ('Born rule', 'Matter', 'Gravity', 'Thermodynamics') is an interpretive naming choice asserted by the script/author, not derived -- no test file covers i6_*.py, so the category labels themselves carry no independent check."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b532.py (present in repo at /home/user/origin-axiom/tests/test_b532.py, not listed in the packet) independently recomputes and asserts I1-I4 cell results (period-3, FP dimension, projections, self-containment, DAG self-consistency) with its own implementation. I5 (bigram core hierarchy, character census, wavefunction geography, one-V test) and I6 (Nine Ingredients probes and synthesis) have NO corresponding test coverage in test_b532.py -- for those cells the belt is NONE / MISSING_WITNESS, since neither the arc directory nor tests/ contain a committed run output for i5_*.py or i6_*.py.",
+   "absence_claims": [
+    {
+     "quote": "Period-3 is ABSENT from the spectrum.",
+     "where": "frontier/B532_last_echo/FINDINGS.md line 33 (also GRAMMAR.md line 119)"
+    },
+    {
+     "quote": "Golden FP: NOT FOUND after 3100 seeds across 3 strategies (trace-seeded Newton, random full SL(2,C), conjugation-varied). The golden traces tr(a)=1, tr(b)=1/φ, κ=1 were never hit. Status: UNVERIFIED — the golden FP either does not exist for this σ or requires a parameterization we haven't tried.",
+     "where": "frontier/B532_last_echo/FINDINGS.md lines 70-73"
+    },
+    {
+     "quote": "Chat1's golden FP (tr(b) = 1/φ, κ = 1): NOT FOUND after 3100 seeds. Status: UNVERIFIED.",
+     "where": "frontier/B532_last_echo/GRAMMAR.md line 131"
+    },
+    {
+     "quote": "Golden FP: NOT FOUND after 3000 seeds (3 strategies)\\n  Chat1's claim is UNVERIFIED — the golden FP may not exist for this σ\\n  All irreducible FPs found sit at the trace-zero locus (dim=4 family)",
+     "where": "frontier/B532_last_echo/i1_golden_fp.py lines 248-250"
+    },
+    {
+     "quote": "Core hierarchy: 5 different polynomials for bigrams | NOT REPRODUCED — all 7 bigrams give the quartic under return-word induction",
+     "where": "frontier/B532_last_echo/FINDINGS.md line 219"
+    },
+    {
+     "quote": "Gap label = Fibonacci-core fraction identity | NOT REPRODUCED — depends on the core hierarchy",
+     "where": "frontier/B532_last_echo/FINDINGS.md line 220"
+    },
+    {
+     "quote": "Anomalous sector (abA) has charpoly x⁴-3x³-8x²-7x-2 | WRONG — charpoly = the standard quartic, disc = -400",
+     "where": "frontier/B532_last_echo/FINDINGS.md line 221"
+    },
+    {
+     "quote": "Return number = alphabet size (Law 1) | PARTIALLY WRONG — aA has 5 return words",
+     "where": "frontier/B532_last_echo/FINDINGS.md line 222"
+    },
+    {
+     "quote": "The Bigram core hierarchy (return-word induction). The cross-seat claim of 4 distinct core polynomials at the bigram level CANNOT BE REPRODUCED.",
+     "where": "PROGRESS_LOG.md 2026-07-12 entry \"B532-I5: bigram core hierarchy + character census\" (per log_index B532.txt line 43)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The 'Nine Ingredients' framework (i6_nine_ingredients.py, i6_phase2_probes.py, i6_phase3_synthesis.py) labels purely combinatorial/spectral quantities of a 4-letter substitution with physics category names -- 'Born rule' for a transition probability P(b|a)=1/φ, 'Matter' for four letter-species, 'Gravity' for topological/Rauzy-fractal structure, 'Thermodynamics' for an entropy-decay function T(n). These are structural analogies (same functional shape/role) asserted as physics identifications, not derivations that these substitution properties ARE the named physical phenomena.",
+     "where": "frontier/B532_last_echo/i6_nine_ingredients.py, i6_phase3_synthesis.py (the 'NINE VERDICTS' table)"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "No committed run output exists anywhere for i5_bigram_derivation.py, i5_bigram_derivation_v2.py, i5_character_census.py, i5_one_v_test.py, i5_wavefunction_geography.py, i6_nine_ingredients.py, i6_phase2_probes.py, or i6_phase3_synthesis.py, and none of these are covered by tests/test_b532.py (which stops at I4). The FINDINGS.md numbers attributed to I5/I6 (e.g. P(b|a)=1/φ to 6 digits, T(n)~0.489·0.849^n, k2/k3 spread 0.65-15.05, D_KL≈12.21 bits) have no independent recomputation anywhere in the repository.",
+     "where": "frontier/B532_last_echo/ (i5_*.py, i6_*.py files); tests/test_b532.py (absence of i5/i6 coverage)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The 'irreducible kernel' / Derivation DAG (I4) is a hand-authored Python dict declaring parent-child relationships between 29 named layers; the accompanying test only checks the dict is self-consistent (acyclic, single source, correct counts), not that any given edge is a true derivation in the underlying mathematics. This risks the DAG being presented as a computed/verified structure when it is closer to an asserted outline.",
+     "where": "frontier/B532_last_echo/i4_derivation_dag.py; tests/test_b532.py test_i4_dag_acyclic, test_i4_dag_single_source"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "arc_verdict.json's one-line claim ('period-3 absent... proved') does not mention that a substantial cross-seat claim central to the same campaign (the bigram core hierarchy and the gap-label=Fibonacci-core identity) was independently found NOT REPRODUCED / WRONG within the same campaign; the verdict is not false, but the one-liner presents the campaign as a clean positive result while FINDINGS.md itself documents an internal refutation of another arc's claim that this campaign was partly built to check.",
+     "where": "frontier/B532_last_echo/arc_verdict.json vs FINDINGS.md lines 207-234"
+    }
+   ],
+   "seat_note": "I1-I4's numeric and structural claims are genuinely computed and independently re-verified by tests/test_b532.py, which is solid; but I5/I6 are uncommitted-witness exploratory scripts, and I6's 'Nine Ingredients' physics-category labeling is an interpretive overlay on structural numbers that should not be read as evidence the substitution IS time, matter, gravity, etc. rather than merely exhibiting analogous formal roles. The arc's own internal refutation of a cross-seat 'core hierarchy' claim is a genuine self-correcting strength, but it sits oddly alongside a verdict.json that reads as an unqualified PROVED."
+  }
+ ]
+}
