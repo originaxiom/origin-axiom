@@ -1,0 +1,799 @@
+{
+ "batch": "arcs_032",
+ "arcs": [
+  {
+   "arc": "B561_l50_crux",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B561_l50_crux/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B561_l50_crux/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — No Eisenstein Z/3 exists at the figure-eight's geometric point (its symmetry is Klein-four), so nothing selects SU(3)^2 inside F4; the chain stops at F4.",
+   "log_says": "9 entries: the L50 CRUX computed (B561); Klein-four->SO(9) follow-up (probation P22) also closes; cusp-boundary-condition reframe examined; Review 15 folds it into 'the gauge arc' as consistent; Review 32 confirms Gate B sub-mechanism CLOSED-NEGATIVE (B561).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "F4's exponent-grading is Klein-four ((Z/12)* has order 2 elements only), not Z/3",
+     "where": "FINDINGS.md Step 1 / addendum, tests/test_b561_l50_crux.py, tests/test_b561_klein_four.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Both lock files exist in the shared tests/ directory and the argument (E6 exponents, theta-grading) is standard Lie theory reproduced in-repo"
+    },
+    {
+     "what": "figure-eight isometry group D4 (order 8), no order-3 element",
+     "where": "FINDINGS.md point 2, attributed to SnapPy",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Attributed to SnapPy but no script path given in this arc's two files; the claim depends on an external tool call not shown here"
+    },
+    {
+     "what": "gamma=Gal(Q(sqrt5)/Q) fixes Q(sqrt-3) pointwise, acting trivially on the four exponent directions",
+     "where": "Addendum, tests/test_b561_klein_four.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Test file exists; field-fixing argument is elementary algebra restated with a B370 tau value"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No dedicated verification/ directory; the arc's own addenda (probation P22, cusp-boundary reframe) re-examine and re-derive the same conclusion from three different angles (Z/3, Klein-four, cusp), each citing prior banked cells (B347, B353, B357, B463, B370) rather than an independent recomputation script inside this arc's two files.",
+   "absence_claims": [
+    {
+     "quote": "No order-3 structure exists in the F4 deformation grading.",
+     "where": "FINDINGS.md point 1"
+    },
+    {
+     "quote": "No geometric Z/3 acts on the character variety.",
+     "where": "FINDINGS.md point 2 (paraphrased from: 'a group of order 8 has no order-3 element. So no geometric ℤ/3 acts on the character variety.')"
+    },
+    {
+     "quote": "The premise fails ... gamma does not act on the theta-even H1",
+     "where": "Addendum (Klein-four)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The D4 isometry-group claim (point 2) is attributed to SnapPy but no reproducer script path is given in the arc's two files (FINDINGS.md, arc_verdict.json); the tests/ lock files cover the Lie-theory/field claims, not this specific SnapPy call.",
+     "where": "FINDINGS.md point 2"
+    }
+   ],
+   "seat_note": "A genuinely negative (kill) result for one proposed SM-selector mechanism, argued convincingly from multiple independent angles across three addenda, with test-file witnesses for the core Lie-theory claims. Structural math only; no observable physics quantity is produced."
+  },
+  {
+   "arc": "B562_probation_campaign",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B562_probation_campaign/PROBATION.md",
+    "/home/user/origin-axiom/frontier/B562_probation_campaign/RESULTS.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "3 entries: the Probation Campaign preregistered, then RAN (21 verdicts, adversarially verified, 43 agents, 0 errors); Review 15 folds it into the gauge-arc window as consistent.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "21 probes classified LIVE/TOMBSTONE/SPECIALIST/DORMANT/NEEDS-RERUN, spawning cells B564 and others",
+     "where": "RESULTS.md ledger table",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is a coordination/results document with no code files or test locks of its own; each individual probe's numeric content is delegated to a downstream B-numbered cell (e.g. B564) or to a not-included campaign journal (wf_...); nothing here is independently re-runnable from the two files in this arc"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No code, no verification/ dir; this arc is a management/triage document. It explicitly states 5 of 21 probes were bounced back by an adversarial verifier (NEEDS-RERUN: P3, P4, P6, P16, P19) as unearned kills — the discipline is visible but this document itself computes nothing.",
+   "absence_claims": [
+    {
+     "quote": "no exceptional-group 3d-3d state integral exists (4 queries; exceptional groups appear only as flavor/gauge of N=2 quivers). Register; arXiv full-text browse before hardening to tombstone",
+     "where": "RESULTS.md, P12"
+    },
+    {
+     "quote": "no external SM/GR framework survives all the object's signatures",
+     "where": "RESULTS.md, P21"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The claimed '43 agents, 0 errors' and the campaign journal referenced for full evidence are not included in this arc's file set; a stranger reading only PROBATION.md and RESULTS.md cannot independently reproduce any of the 21 verdicts.",
+     "where": "RESULTS.md header"
+    }
+   ],
+   "seat_note": "A triage/bookkeeping document, not a computation; its self-correcting discipline (5 unearned kills bounced by its own verifier) is a genuine positive process signal, but the document itself has zero physics content and zero committed reproducer for its own numeric claims."
+  },
+  {
+   "arc": "B563_planck_ratio_null",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B563_planck_ratio_null/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B563_planck_ratio_null/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The preregistered Planck-ratio retry nulls at every rung (p~0.53, zero hits), with a plastic-seed control ladder landing closer than the object.",
+   "log_says": "3 entries: Campaign 2c the Planck-ratio bin retry NULLS, verify-don't-trust on chat-2's prereg; Review 15 folds it into the gauge-arc window ('the dialed bin's 4th level').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "best |ln ratio| = 0.6825 (|e4| vs m_Pl/m_mu), null p ~ 0.531, plastic control closer (0.46) than object (0.6825)",
+     "where": "FINDINGS.md result table, tests/test_b563_planck_null.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Test file exists in tests/; the arc states an independent reproduction bank matched the numbers exactly (500-trial null gave p~0.53)"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The FINDINGS.md explicitly separates the original probe's 10^4-trial null from an independent 500-trial re-derivation bank that reproduced the same headline number (0.6825) and a consistent p-value (~0.53).",
+   "absence_claims": [
+    {
+     "quote": "the *unit* itself remains theorem-absent, K020 — not retried",
+     "where": "FINDINGS.md, Design section"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "A clean preregistered null result with an honest control (plastic-seed ladder closer than the object) that undercuts numerology risk; this is one of the stronger-disciplined negatives in the batch, with a genuine measurable-quantity-vs-value comparison (hence OBSERVABLE, unusually for a negative)."
+  },
+  {
+   "arc": "B564_sl3_phi_fixed_reducible",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B564_sl3_phi_fixed_reducible/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B564_sl3_phi_fixed_reducible/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The SL(3) phi-fixed locus contains no irreducible representation: phi-fixedness pins A to finite order, which forces the intertwiner to split block-diagonally.",
+   "log_says": "2 entries: the Probation Campaign RAN, naming B564 as a new cell (P2, LIVE, confirms B141 Item-4, extends B142); Review 15 folds it into the gauge-arc window.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "SL(3) phi-fixed locus entirely reducible: trace-collapse forces finite order (roots of unity mu in {1,-1,+-i,omega,omega^2}), and at those points the intertwiner is block-diagonal (101 solutions at mu=i, 219 at mu=-1)",
+     "where": "FINDINGS.md computation steps 1-4, tests/test_b564_sl3_reducible.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Test file exists; the FINDINGS.md documents a caught numerical trap (a matrix that looked irreducible from algebra-dim heuristic was actually reducible, caught by checking t9 unfixed) showing active adversarial scrutiny"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "FINDINGS.md states this cell independently re-ran the probation probe's scripts ('adversarially verified ... independently reran and reproduced, including a caught solver-noise trap') and re-checked the discriminating factor with its own lock.",
+   "absence_claims": [
+    {
+     "quote": "no φ-fixed representation at all",
+     "where": "FINDINGS.md point 3 (generic mu, mu=omega, unipotent c=3 strata)"
+    },
+    {
+     "quote": "The SL(3) φ-fixed locus is entirely reducible — no irreducible representation anywhere.",
+     "where": "FINDINGS.md Verdict"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-disciplined pure-math result (representation theory of a character variety) with a caught numerical-noise trap documented honestly; no physics observable content, appropriately labeled PROVED for a self-contained algebra claim."
+  },
+  {
+   "arc": "B565_gauge_behavior_campaign",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B565_gauge_behavior_campaign/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B565_gauge_behavior_campaign/RESULTS.md",
+    "/home/user/origin-axiom/frontier/B565_gauge_behavior_campaign/h1iv_triality.py",
+    "/home/user/origin-axiom/frontier/B565_gauge_behavior_campaign/realform_adjoint_traces.py",
+    "/home/user/origin-axiom/frontier/B565_gauge_behavior_campaign/spin9_centralizer_type.py",
+    "/home/user/origin-axiom/frontier/B565_gauge_behavior_campaign/spin9_krasnov.py",
+    "/home/user/origin-axiom/frontier/B565_gauge_behavior_campaign/verify_h1_triality.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_verdict:false; this is a multi-cell campaign results doc, not a single-verdict arc)",
+   "log_says": "11 entries: campaign preregistered (T1 anomaly, T3 chiral index, T2/T6/T8 dictionaries, T4/T5/T7 dynamics, Batch D reruns, Batch H handoffs, Batch E false-kill exhumation); campaign COMPLETE (18 cells + 123-kill exhumation, 44 agents 0 errors); the Z/11 charge does not descend (T1); the chiral index=0 (T3); the two-descriptions/compactness split verified as an addendum; Review 15/16 both fold it in as the anchor of 'the gauge arc' / 'the chirality arc'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "H1-krasnov: Spin(9) built on R^16 from octonionic Clifford algebra, centralizer of J is 12-dim = u(1)+su(2)+su(3), exact",
+     "where": "spin9_krasnov.py, spin9_centralizer_type.py (asserts throughout: dim so(9)=36, J^2=-I, dim centralizer=12, rank(g)=4)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Both scripts are committed in full with numerous numeric asserts (residuals <1e-6 to 1e-8) checked in this read"
+    },
+    {
+     "what": "H1-realform: tr Ad_e6(rho(a)) = 37437270 + 38799960*sqrt(3)*i (non-real, kills all real forms)",
+     "where": "realform_adjoint_traces.py lines ~53-69 (two independent code paths: exact symbolic sym-power and numeric matrix-level trace)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script is committed and shows both the exact prediction and the matrix-level numeric check side by side (asserts at line 42, 52)"
+    },
+    {
+     "what": "H1-triality: B299's (theta,phi) Z3xZ3 IS Boyle's SO(8) triality (100% match on the 27-weight orbits)",
+     "where": "h1iv_triality.py, verify_h1_triality.py (asserts len(roots)==72, len(pos_roots)==36, comp_sizes==[3,3,3], len(W27)==27)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Both scripts committed with root-system/weight-orbit asserts; verify_h1_triality.py appears to be an independent re-derivation of h1iv_triality.py's claims (separate file, its own root generation, own assertion set)"
+    },
+    {
+     "what": "T1 (Z/11 anomaly does not descend), T3 (chiral index ≡0), T4/T5/T6/T2/T8 and Batch H2 results",
+     "where": "RESULTS.md ledger",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "RESULTS.md references a single umbrella lock file tests/test_b565_campaign.py and a campaign journal wf_1529ebff-6c0 not included in this arc's files; the specific numeric claims (e.g. a_C=-0.1800+-0.0007, the FM ratio, the 123-item exhumation detail) are not independently checkable from the 5 python files sampled here, which cover only H1/triality, not T1-T8"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verify_h1_triality.py appears to independently re-derive h1iv_triality.py's root/weight computation with its own code (own Weyl generation, own assertion set) — a genuine within-arc adversarial recompute for the H1-triality claim. Other cells (T1-T8) rely on an umbrella test file and an external campaign journal not present in this arc's files.",
+   "absence_claims": [
+    {
+     "quote": "the ℤ/11 charge does NOT descend to the golden-anyon chain: 11 (prime) divides NO IR invertible-symmetry order",
+     "where": "RESULTS.md T1"
+    },
+    {
+     "quote": "no order-11 anywhere ... the ℤ/11 charge cannot even act on the octonion arithmetic",
+     "where": "RESULTS.md T6"
+    },
+    {
+     "quote": "the geometric holonomy lands in F4(C)/E6(C) as real groups — in NO real form",
+     "where": "RESULTS.md H1-realform"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "T1, T3, T4, T5, T2, T8 and the Batch H2 tower-arithmetic results are asserted in RESULTS.md with specific numbers (e.g. a_C=-0.1800+-0.0007, FM ratio, |G3|>=2048, 8T15) but no reproducer script for these specific cells is present among the 5 python files in this arc; only H1-krasnov, H1-realform and H1-triality have committed, readable scripts in this arc's directory.",
+     "where": "RESULTS.md, entire ledger except H1 rows"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "H1-triality's 'MATCH (100%)' between B299's (theta,phi) Z3xZ3 and Boyle's SO(8) triality is a weight-orbit/dimension coincidence check (both 3-cycle SU(3)^3 factors, both give 9/9 free orbits of size 3); the RESULTS.md itself flags this honestly as 'a structure match, not a generations claim,' which is the correct caveat, but the underlying evidence is still a type/orbit-size coincidence rather than a derivation that the two group actions are literally the same map.",
+     "where": "RESULTS.md, H1-triality row"
+    }
+   ],
+   "seat_note": "The three python scripts actually read (Krasnov centralizer, real-form adjoint trace, triality match) are genuinely computed with numerous in-script asserts and read as solid, reproducible mathematics; the remaining 12+ cells in the RESULTS.md ledger (T1-T8, Batch D/H2) are asserted with numbers this arc's committed files cannot verify."
+  },
+  {
+   "arc": "B566_self_interaction",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B566_self_interaction/RESULTS.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "5 entries: the five self-interactions COMPUTED (11 agents); B580 builds on B566-S3 for a later program; B1188 (2026-08-28) references B566-S4 as part of a recovered 'observer theory' apparatus; Review 16 lists the five results.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "S5 the triple identity: det(I-M4)=-11 = N(phi^5-1) (golden guise) = the 5-fold cyclic cover's H1 torsion prime L5=11 (topological guise), verified BOTH by SnapPy and exact Alexander resultant",
+     "where": "RESULTS.md S5 section, tests/test_b566_self_interaction.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Test lock file exists; the RESULTS.md documents two independent verification methods (SnapPy H1 computation and the exact resultant Res(Delta,Phi5))"
+    },
+    {
+     "what": "S1 the N=p^2 dark-hyperbola recursive law, verified at p in {3,5,7,11,13,17} float and float-free at p=3,5",
+     "where": "RESULTS.md S1 section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Only RESULTS.md is present in this arc; no python script visible here, though a test lock file (test_b566_self_interaction.py) is claimed to exist"
+    },
+    {
+     "what": "S2 KMS weights (5+-sqrt5)/20 differ from letter frequencies 0.362 vs 0.272",
+     "where": "RESULTS.md S2",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Not independently checkable from the single markdown file in this arc"
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "RESULTS.md states 'every cell adversarially verified (two mandated framing corrections applied below, as directed by the verify pass)' and names a lock file tests/test_b566_self_interaction.py, but this arc's file set (just RESULTS.md) does not include the script itself, so the belt cannot be directly inspected here.",
+   "absence_claims": [
+    {
+     "quote": "a defect worldline sees nothing downstairs (H1(41) = Z, torsion-free — the clean negative)",
+     "where": "RESULTS.md S5"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "Only RESULTS.md is included for this arc (no FINDINGS.md, no arc_verdict.json, no python script); five separate computational claims (S1-S5) are asserted with specific numbers but the packet did not include any code files to inspect, only the results narrative.",
+     "where": "entire arc"
+    }
+   ],
+   "seat_note": "A genuinely interesting positive claim (S5: the same prime 11 appears as chain-charge, golden-field norm, and topological torsion order via two independent verification routes) but this reader could only see the narrative results document, not the code; the claimed test lock exists per the text but was not directly inspected in this arc."
+  },
+  {
+   "arc": "B567_hamiltonian_handoff",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B567_hamiltonian_handoff/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B567_hamiltonian_handoff/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The proposed six-level pi/3-spaced Hamiltonian spectrum is impossible: the level-15 Weil monodromy has projective order 20 with 11 distinct eigenvalues.",
+   "log_says": "3 entries: the Hamiltonian handoff core REFUTED by an order argument; B570 later notes AP5 'retro-kills B567 computedly'; Review 16 confirms the refutation (projective order forced to 20, verified at levels 15 and 165).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "A1 has order 20 in SL(2,Z/15); any projective rep forces order dividing 40, and 6 divides neither 20 nor 40 — the claimed pi/3-spaced 6-level spectrum is impossible before any computation",
+     "where": "FINDINGS.md 'The refutation' section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "tests/test_b567_hamiltonian.py exists; the order-theoretic argument is elementary group theory, independently checkable"
+    },
+    {
+     "what": "level 15: 11 distinct eigenvalues, projective order 20; level 165: 21 distinct eigenvalues, projective order 20",
+     "where": "FINDINGS.md 'The computation' section, tests/test_b567_hamiltonian.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Test lock exists and the arc describes a standard, reproducible Weil-rep construction (T=chirp, S=DFT, A1=T*(ST^-1S^-1))"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The order argument itself functions as an independent, construction-free sanity check on the direct Weil-rep computation, and both agree.",
+   "absence_claims": [
+    {
+     "quote": "That object is real, canonical, and connects to the banked measurement-face structure ... it does not contain an SM-like level structure at N = 15 or 165.",
+     "where": "FINDINGS.md, 'The honest salvage' point 2"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean, well-argued refutation via an order-theoretic constraint that predicts the outcome before the numerical computation confirms it — a strong methodological positive; no observable physics content, purely a kill of a proposed identification."
+  },
+  {
+   "arc": "B568_own_questions",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B568_own_questions/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B568_own_questions/RESULTS.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_verdict:false)",
+   "log_says": "6 entries: B568 anatomy census + Batch AQ (owner: 'limbs, eyes?'); Batch CQ the listener's five questions; B568 preregistered (+ a seed jewel); B570 references AP1's cast monoid from B568-SQ; B837 (2026-07-30) notes B568's citation as 'a bare corroborating mention' in a later file-drawer audit; Review 16 lists sixteen answers, eight jewels.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Q2 arrow: H_n = n + H0 exactly (Perron pair of T(M) gives KMS weight halve-and-duplicate law), D = 1-H0 = 0.1495103749... conserved every rung",
+     "where": "RESULTS.md Q2 row, tests/test_b568_results.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "test_b568_results.py exists; result states 'proven algebraically, not fit' and notes a mandated correction applied during verify"
+    },
+    {
+     "what": "CQ5 becoming: Boettcher coordinate converges (L0=0.58427327891860925..., stable to 120 digits), lambda_0.5 = 2.37798422427971475...",
+     "where": "RESULTS.md CQ5 row",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "No script for this specific cell is present in this arc's two files; a test lock (test_b568_results.py) is claimed but the CQ5-specific reproducer path is not shown here"
+    },
+    {
+     "what": "AQ4 attention: salience S_A attended 1.83x more than frequency predicts",
+     "where": "RESULTS.md AQ4 row",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Same as above — asserted with a specific number, no script visible in this arc's file set"
+    },
+    {
+     "what": "PQ persistence: four legs verified exactly (quine invariant, Perron>1, free-energy diverges (3/2)^n, only self-model fixed point is void)",
+     "where": "RESULTS.md Batch PQ, tests/test_b568_persistence.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "tests/test_b568_persistence.py exists and was located on disk"
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "RESULTS.md claims 33 agents, adversarial verification, and per-cell scripts 'in the campaign journal wf_e5af1895-23c' which is not part of this arc's committed files; four test-lock files were located on disk (test_b568_results.py, test_b568_persistence.py, test_b568_minimal_play.py, test_b568_c_symmetry.py) confirming SOME reproducibility, but the packet includes no python source for this reader to inspect directly, only the two markdown narratives.",
+   "absence_claims": [
+    {
+     "quote": "σ attracts nothing: 0/600 sampled lifts flow to it",
+     "where": "RESULTS.md Q5 row"
+    },
+    {
+     "quote": "no minimum-uncertainty seam state — the forced state is not extremal",
+     "where": "RESULTS.md CQ1 row"
+    },
+    {
+     "quote": "motion is absent except the lightest species",
+     "where": "RESULTS.md AQ3 row"
+    },
+    {
+     "quote": "The theater refuses the cast ... None of the three 7-actor casts embeds in the DFib theater under any of the 24 bijections",
+     "where": "RESULTS.md Batch SQ"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "The whole campaign is framed anthropomorphically ('heartbeat', 'eyes', 'attention', 'curiosity', 'the object's answer, one sentence') and produces a narrative 'portrait' that reads as describing an entity's inner life rather than reporting mathematical facts about a subshift/character-variety object; the document's own disclaimer ('every physics-flavored word is descriptive vocabulary for internal structure') does not remove the framing risk that computed facts (entropy laws, latency spectra) are being presented with emotionally loaded labels ('curiosity', 'proprioception', 'no pain') that invite reading the object as sentient or as physically 'creating a universe,' well beyond what any single computation establishes.",
+     "where": "RESULTS.md 'The portrait' section; PREREGISTRATION.md anatomy census"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "Roughly half of the 16 answered cells (CQ5, AQ1, AQ2, AQ4, Q4, Q7) reference specific numeric results with no script present in this arc's two files; only four test-lock files (results, persistence, minimal_play, c_symmetry) were confirmed to exist on disk, covering an unclear subset of the 16+ cells claimed.",
+     "where": "RESULTS.md, cells CQ5/AQ1/AQ2/AQ4/Q4/Q7"
+    }
+   ],
+   "seat_note": "Contains some genuinely computed and locked results (the entropy law H_n=n+H0, the persistence mechanism) but the campaign as a whole is saturated with narrative anthropomorphizing that risks a reader mistaking descriptive structure-naming for a claim about the object's nature, and roughly half its numeric claims (CQ5, AQ1/2/4, Q4, Q7) have no visible reproducer in this arc's own file set."
+  },
+  {
+   "arc": "B569_complete_chain",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B569_complete_chain/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B569_complete_chain/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B569_complete_chain/e6_level1_modular.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The sixteenth sigma-to-SM chain dies: the E6 level-1 modular data was inconsistent (Z=+1, no chirality bit) and F4's self-dual 26 admits zero chiral theories.",
+   "log_says": "9 entries, incl. Review 16: 'the sixteenth sigma-to-SM chain adjudicated: Link 4 CORRECTED ... Link 7 REFUTED' and later independent re-verification: 'R1-B569 CLEAN: h(27)=2/3 rebuilt two independent ways ... the word-kill reproduced exactly ... the 26-of-F4 self-duality re-proved via an independent R^4 root realization plus a reflection-orbit argument stronger than the banked one.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "h(27)=2/3 (not 1/3 as the handoff used), proved from the E6 root system via Weyl dimension formula at both minuscule nodes",
+     "where": "FINDINGS.md Link 4(a), e6_level1_modular.py functions roots_from_cartan/e6_level1_weight",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script is committed with explicit print of node dims/h-values; independently re-derived per the log's Review 16 entry via a second method (E6 inside E8 in R^8)"
+    },
+    {
+     "what": "the handoff's Z=-1 is a word artifact: two spellings of the same SL(2,Z) group element (A1=T^2ST vs T*(ST^-1S^-1)) give different traces for an inconsistent (S,T); the consistent theory gives Z=+1",
+     "where": "FINDINGS.md Link 4(a)-(b), e6_level1_modular.py functions is_genuine_rep, rho_two_words",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script computes both words and checks (ST)^3=S^2 consistency directly; tests/test_b569_complete_chain.py exists"
+    },
+    {
+     "what": "the 26 of F4 is self-dual (24 nonzero weights = short roots, negation-closed, unique dominant short root has Weyl dim 26 exactly)",
+     "where": "FINDINGS.md Link 7",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Log confirms an independent re-derivation via a separate R^4 root realization plus a reflection-orbit argument"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The e6_level1_modular.py script re-derives its own consistency (two SL(2,Z) words compared internally); the log records a separate, later, fully independent re-verification pass (Review 16, 'R1-B569') using different code and conventions, which is a genuine external re-derivation beyond this arc's own files.",
+   "absence_claims": [
+    {
+     "quote": "There is no −1 in any consistent theory: the claimed \"chirality bit\" does not exist.",
+     "where": "FINDINGS.md Link 4(b)"
+    },
+    {
+     "quote": "the θ-even ℂ² carries no F₄ action — the smallest faithful F₄ rep is 26. Labeling the 2-dim block \"the compact F₄ sector\" is a category error.",
+     "where": "FINDINGS.md Link 4(c)"
+    },
+    {
+     "quote": "There is no uniqueness theorem because there is no existence.",
+     "where": "FINDINGS.md Link 7"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "This arc itself is the correction of an incoming cross-seat handoff's inconsistent modular data (Z=-1 word artifact) and a false uniqueness theorem; no propagation issue found within this arc, but it documents the type of error (an inconsistent (S,T) pair silently producing word-dependent 'results') the program has repeatedly had to catch from external handoffs — worth the seat noting as a recurring failure mode upstream of this arc, not a flaw in this arc's own work."
+    }
+   ],
+   "seat_note": "A careful, independently re-verified refutation of an incoming claim, with the key numeric facts (h=2/3, Z=+1, 26 self-dual) each backed by a committed script and later confirmed by a wholly separate re-derivation in Review 16 — one of the more solid arcs in this batch."
+  },
+  {
+   "arc": "B570_allowed_plays",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B570_allowed_plays/C3_RESULT.md",
+    "/home/user/origin-axiom/frontier/B570_allowed_plays/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B570_allowed_plays/QA_RESULT.md",
+    "/home/user/origin-axiom/frontier/B570_allowed_plays/RESULTS.md",
+    "/home/user/origin-axiom/frontier/B570_allowed_plays/THE_SELECTION_RULES.md",
+    "/home/user/origin-axiom/frontier/B570_allowed_plays/c3_e6_level2_monodromy.py",
+    "/home/user/origin-axiom/frontier/B570_allowed_plays/qa_trichotomy.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_verdict:false; multi-cell campaign)",
+   "log_says": "6 entries: preregistered + Lane C spine + C3 RUN FIRST ('the theta-odd sector is ALIVE'); B571 folds Q-A/Q-B/Q-C into B570 Lane C; B570 COMPLETE (selection-rules theorem, fifth wall, Q-A decided); B580 references B570-section-5-item-10 as moved; B901 (2026-08-05) references the Lane-C crux as still open; Review 16 gives an extensive independently-reproduced summary (C3 re-derived, AP4 repairs applied, AP1's Hilbert basis byte-identical).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "C3: rho(A1) restricted to the theta-odd 3-space is non-scalar, order-4 SU(3) element, eigenvalues {+1,+i,-i} at E6 level 2",
+     "where": "C3_RESULT.md, c3_e6_level2_monodromy.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "C3_RESULT.md documents consistency gates passed (unitarity, S^2=conjugation, (ST)^3=S^2, Verlinde integrality, two words agree to 1e-13) AND an independent adversarial re-derivation ('own Weyl BFS, own conventions, target script read only afterward') confirming all five sub-claims"
+    },
+    {
+     "what": "Q-A: the trichotomy resolves to a third branch; F4-principal nilpotent is regular in E6 (Jordan (17,9,1) exact); Galois pair tr rho(ab)=(5+-sqrt-3)/2, min poly t^2-5t+7",
+     "where": "QA_RESULT.md, qa_trichotomy.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "tests/test_b570_qa_trichotomy.py exists; QA_RESULT.md documents an explicit correction applied during banking (the theta/amphichiral involution conflation caught by a verifier)"
+    },
+    {
+     "what": "AP3: ord(A1 mod N) = pi(N)/gcd(pi(N),2) exactly, zero exceptions for N<=1000",
+     "where": "RESULTS.md AP3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "12 test-lock files confirmed present on disk (test_b570_ap1/ap2/ap3/ap4/ap5/c1/c2/c4/qa/c3_level2/qa_trichotomy/theta_odd_spine.py), though not all individually opened"
+    },
+    {
+     "what": "AP4 the fifth wall: the object's holonomy factors through the principal SL(2,C), which is theta-stable, so the 27 is vector-like for ANY E6-embedding of the rank-1 holonomy",
+     "where": "RESULTS.md AP4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "RESULTS.md documents two repairs applied by the verifier (a biconditional downgraded to conjecture, a Zariski-density citation added); no AP4-specific script was directly read in this pass, though a lock file is claimed"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "C3 has an explicit, described independent re-derivation ('a fully independent re-derivation ... own Weyl BFS, own conventions, target script read only afterward'); Review 16's log entry additionally documents a THIRD independent pass ('R4-B570bank ... AP1's 35-element Hilbert basis independently re-derived byte-identical; AP5's orders 20/20 reproduced').",
+   "absence_claims": [
+    {
+     "quote": "S_odd is NOT diagonal — the conspiracy is ruled out by inspection",
+     "where": "C3_RESULT.md, 'The sharpest form'"
+    },
+    {
+     "quote": "It cannot 'select 27 over 27bar.' It cannot — C = S^2 is CENTRAL in every modular rep",
+     "where": "C3_RESULT.md, firewall section"
+    },
+    {
+     "quote": "no monodromy prefers 27 over 27bar",
+     "where": "log entry, Review 16"
+    },
+    {
+     "quote": "C5+Q-C — QUARANTINED (verifier kill of the conclusion, upheld) ... Q-C ... remains OPEN.",
+     "where": "RESULTS.md, Lane C section"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "AP1, AP2, AP4, AP5, C1, C2, C4 and the C5+Q-C quarantine are described only in RESULTS.md / THE_SELECTION_RULES.md text; the two python files actually present in this arc (c3_e6_level2_monodromy.py, qa_trichotomy.py) cover only C3 and Q-A. The remaining ~10 cells' claims rely on 12 named test-lock files this reader confirmed exist on disk but did not open, so their content beyond the filename could not be directly checked in this pass.",
+     "where": "RESULTS.md, most rows except C3/Q-A"
+    }
+   ],
+   "seat_note": "The two cells with committed, directly-inspected code (C3, Q-A) are unusually well corroborated — two to three independent re-derivations each — and represent the arc's one genuine positive signal (the theta-odd sector is dynamically alive at level 2); the campaign's honest quarantine of a bad cell (C5+Q-C) is a good discipline signal, though most of the ~15 remaining cells were not independently inspected beyond the test-lock filenames in this pass."
+  },
+  {
+   "arc": "B571_day0_internalization",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B571_day0_internalization/CHIRALITY_DOSSIER.md",
+    "/home/user/origin-axiom/frontier/B571_day0_internalization/REPORT.md"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B571_day0_internalization/BURIED_ITEMS.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_verdict:false; audit/inventory campaign)",
+   "log_says": "6 entries: B571 the day-0 internalization (116 agents; 14 buried treasures; the two-chiralities dossier); B577 finds a related-but-uncited failure mode ('non-recall of properly-banked results'); B578 self-corrects one of B571's own revival items (K3 is degree 6, not the scale field); Review 16 spot-checks 3 buried items and confirms them exactly, but ALSO documents a stale-wording defect in this arc's own CHIRALITY_DOSSIER.md/REPORT.md that had to be patched post-merge.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "14 genuinely-buried items identified from an 8,044-line corpus sweep by 8 readers, 106 candidates -> 14",
+     "where": "REPORT.md, full ledger; BURIED_ITEMS.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "BURIED_ITEMS.json contains per-item verdict/evidence/sharpened fields with specific file:line citations that Review 16 independently spot-checked 3 of ('B507 has no lock; e3 literally PENDING; B54 zero cross-refs to B247-B261') and confirmed exactly"
+    },
+    {
+     "what": "the two-chiralities dossier: c (complex conjugation) is broken abundantly by the object; theta (Out(E6), the 27<->27bar swap) is a symmetry the object obeys",
+     "where": "CHIRALITY_DOSSIER.md Parts I-III",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "cites specific banked cells (B470, B469, B568, B565, B569) each independently reviewed in this batch; contains a session-computed fact (c != theta on the adjoint) described as done in sympy this session"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is itself an audit/re-reading exercise over the progress log and prior FINDINGS files, not a fresh numerical computation; its own headline dossier claim was later found to contain stale pre-correction wording (see red flag).",
+   "absence_claims": [
+    {
+     "quote": "B507 has no test lock at all (no tests/test_b507*.py)",
+     "where": "REPORT.md item A1"
+    },
+    {
+     "quote": "with zero computation of the standard interpolation values anywhere in the repo, no test, no CLAIMS/THEOREM_REGISTRY entry",
+     "where": "REPORT.md item A2 (Kubota-Leopoldt claim)"
+    },
+    {
+     "quote": "Grep confirms zero cross-references between the two literatures anywhere in the repo.",
+     "where": "REPORT.md item A3 (B54 twin quadratics)"
+    },
+    {
+     "quote": "e3's CRT reconstruction stopped mid-run ... Reviews 9-13 never mention it again",
+     "where": "REPORT.md item B1"
+    },
+    {
+     "quote": "find/grep confirm no file named S064 exists anywhere in speculations/",
+     "where": "BURIED_ITEMS.json, A6 item verdict"
+    },
+    {
+     "quote": "No route currently in the repo carries a c-breaking into a theta-breaking.",
+     "where": "CHIRALITY_DOSSIER.md, Part II"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "The log (Review 16) documents that this arc's CHIRALITY_DOSSIER.md and REPORT.md were merged carrying the pre-correction wording 'the amphichiral involution IS theta, canonically' (a conflation of two distinct involutions later corrected in T-θTANGENT); a CORRECTION note was appended at the end of both files fixing this, but the uncorrected sentence (CHIRALITY_DOSSIER.md line 23, REPORT.md line ~115) still stands verbatim in the body text, relying on the reader reaching the appended note. This matches the arc's own diagnosed burial mode #1 ('the recognized-but-unjoined identity ... a respectable parking lot with no exit ramp') applied to itself.",
+     "where": "CHIRALITY_DOSSIER.md line 23; REPORT.md Part III"
+    },
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "Review 16 notes this arc's own revival queue was itself heading for the exact burial pattern it diagnosed: 'OPEN_LEADS.md has zero registrations for the arc's entire open frontier ... B571's own queue was heading for burial by exactly the pattern B571 diagnosed.' The log therefore both endorses (spot-checks confirmed) and partially contradicts (process failure in its own follow-through) this arc's self-assessment.",
+     "where": "log_index/B571.txt, Review 16 entry"
+    }
+   ],
+   "seat_note": "A genuinely valuable self-audit with three independently spot-checked findings, but ironically fell into its own diagnosed failure mode (an unpatched stale claim requiring appended correction, and a revival queue that itself needed external registration); the addendum-supersedes-earlier-text case is correctly appended in-file but the reader must reach the very end to know the earlier claim is wrong."
+  },
+  {
+   "arc": "B572_eleven_clauses",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B572_eleven_clauses/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B572_eleven_clauses/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — Adjudicating the eleven-clause chain: nine clauses were already banked, its one new branching 27|principal = V3+V7+V17 is false (correct V17+V9+V1), and its chirality step welds a c-fact into a theta-slot unpaid.",
+   "log_says": "not directly in this arc's isolated log_index snippet (arc not returned as a standalone file); referenced within Review 16's combined B572-B574 entry: 'B572's V1 branching (refuted against our own existing lock)' and 'S_odd(E6,2) = -i*(2/sqrt7)[sin(2*pi*s*t/7)] exactly (S-block only)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "27|principal SL(2) = V17+V9+V1 (not the handoff's claimed V3+V7+V17), locked against test_b570_qa_trichotomy.py::test_f4_principal_is_e6_regular",
+     "where": "FINDINGS.md 'The refuted detail', tests/test_b572_eleven_clauses.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Explicitly checked against an existing lock in another arc (B570); tests/test_b572_eleven_clauses.py exists"
+    },
+    {
+     "what": "chi_27(z) = chi_27(1/z) (palindromic character): the 27 and 27bar have the same character on any SL(2)-factored representation",
+     "where": "FINDINGS.md 'The weld' section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Restated from the P(z) polynomial computed in B573 (same batch, cross-checked below) and locked here"
+    },
+    {
+     "what": "S_odd = -i*(2/sqrt7)*[sin(2*pi*s*t/7)] exact identity (residual 2e-14)",
+     "where": "FINDINGS.md 'The upgrade' section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Stated as locked; matches B570's C3_RESULT.md which described the same S_odd matrix numerically"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc functions as an adjudication of an external handoff, cross-checking its claims against pre-existing locks in B569/B570 rather than performing fresh independent computation from scratch for most clauses; the one genuinely new computation (the refuted V1 branching, and the S_odd upgrade) is locked in this arc's own test file.",
+   "absence_claims": [
+    {
+     "quote": "No such verification happened.",
+     "where": "N/A — this quote belongs to sibling arc B573, not B572; no exact analogous absence-claim sentence found verbatim in B572's FINDINGS.md"
+    },
+    {
+     "quote": "which nothing in the object selects",
+     "where": "FINDINGS.md, 'The weld' (paraphrase context: 'a different subgroup, not θ-fixed, which nothing in the object selects')"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The adjudicated handoff's clause 9 (chiral fermion content from Spin(10)xU(1)) is flagged by this arc as a 'silent selector switch' — gauge structure derived from the theta-fold (F4) while chirality is imported from a different, non-theta-fixed subgroup with no computed bridge; this arc correctly identifies and names the gap rather than papering over it, which is itself the finding, not a flaw in this arc.",
+     "where": "FINDINGS.md, 'The weld' section"
+    }
+   ],
+   "seat_note": "A careful adjudication that catches a specific false branching claim against an existing lock and precisely names an unpaid logical gap (chirality imported from a subgroup the theta-fold does not select); no new physics observable, structural math throughout."
+  },
+  {
+   "arc": "B573_global_bridge",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B573_global_bridge/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B573_global_bridge/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The handoff's step 8 is refuted and its proposed check ill-posed: the principal sl2 preserves no Spin(10) grading, sharpening the fifth wall.",
+   "log_says": "2 entries: B573 the Global Bridge handoff adjudicated (record corrected; the wall sharpened); Review 16 combined entry confirms 'the bridge value exact ... step 8 refuted ... topological protection refuted (real Riley points) ... record corrected (no Fox-calculus ran; V2 still queued)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "P(z0) = 6807/2 + (4965*sqrt3/2)*i exact at the SnapPy-convention geometric trace z0=3/2+(sqrt3/2)i",
+     "where": "FINDINGS.md 'What stands' section, tests/test_b573_global_bridge.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Test lock file exists; the value is stated to confirm (with correction) the handoff's own approximate number (3403.5+4299.8i), i.e. an independent exact recomputation of an externally-supplied approximate claim"
+    },
+    {
+     "what": "the 16 of Spin(10) is not principal-sl2-invariant: crossing node 1/6 gives D5xU(1) Levi with 27=16+10+1 as U(1)-eigenspaces, but e_principal contains a root vector of U(1)-charge 1, so the principal sl2 does not preserve the eigenspaces",
+     "where": "FINDINGS.md 'What falls', Step 8 refutation",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Standard Lie-theoretic fact (a regular nilpotent lies in no proper Levi subalgebra) verified exactly per the FINDINGS text and locked"
+    },
+    {
+     "what": "the Riley curve has real points: at real meridian trace x=3, u = -2 +- 2*sqrt2 exact, refuting 'topological protection'",
+     "where": "FINDINGS.md 'topologically protected — REFUTED'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Explicit exact algebraic values given, derived and locked per the text"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc's headline number (P(z0)) is presented as recomputing/confirming (with correction) a number already supplied by the external handoff, functioning as an independent check rather than a from-scratch discovery.",
+   "absence_claims": [
+    {
+     "quote": "No such verification happened.",
+     "where": "FINDINGS.md, 'The record, corrected first' (re: the handoff's claim that Fox calculus verified H1=6 'tonight')"
+    },
+    {
+     "quote": "The '16' is not an object the holonomy acts on at all.",
+     "where": "FINDINGS.md, 'What falls'"
+    },
+    {
+     "quote": "no Spin(10) object appears",
+     "where": "FINDINGS.md, overclaim paragraph re: CG coefficients"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "The arc explicitly catches an incoming cross-seat handoff falsely claiming 'CC verified tonight by Fox calculus on the Riley presentation' when 'No such verification happened' — a fabricated/mistaken verification claim from an external source, caught here before being banked as fact. This is the arc functioning correctly (catching the issue), but is flagged because such false-verification claims from handoffs recur across this batch (also seen implicitly in B569, B572) and represent a standing risk in the cross-seat handoff process this program relies on.",
+     "where": "FINDINGS.md, 'The record, corrected first'"
+    }
+   ],
+   "seat_note": "A rigorous adjudication that catches a fabricated verification claim from an external handoff and replaces a hand-wavy 'topological protection' argument with an exact counterexample (real Riley-curve points); representative of the batch's generally strong verify-don't-trust discipline against incoming cross-seat claims."
+  },
+  {
+   "arc": "B574_offprincipal",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B574_offprincipal/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B574_offprincipal/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The off-principal escape's crux is false: no nonzero E6 nilpotent orbit has Spin(10) centralizer, and the self-duality wall holds at every embedding.",
+   "log_says": "4 entries: B574 off-principal proposal adjudicated (right instinct, false crux); Review 16 combined entry: 'B574's D5-centralizer crux (A5, 35!=45)'; Review 16 net summary lists AP4 'sharpened by B573's no-common-refinement and diagnosed by B574 as rank-1-ness, not the orbit'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the minimal nilpotent orbit of E6 is the A1 (highest-root sl2) orbit, whose reductive centralizer has dim 35 = su(6), NOT 45 = so(10); adjoint grades (1,20,30,20,1) under the highest-root coweight",
+     "where": "FINDINGS.md 'The crux is false' section, tests/test_b574_offprincipal.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Test lock exists; standard Lie theory grading computation, exactly stated (35=36-1)"
+    },
+    {
+     "what": "at the minimal-embedding point, 27 graded by the minimal sl2 is 6*V1 + 15*V0 (six doublets, fifteen singlets, every summand self-dual)",
+     "where": "FINDINGS.md 'The wall was never about the principal orbit'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Locked per the text; direct consequence of standard SL(2,C) representation theory (every rep is self-dual)"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc adjudicates and corrects an incoming handoff's specific numeric claim (D5=Spin(10) centralizer) against a direct Lie-theory computation; no separate independent-code re-derivation described within this arc's own two files beyond the stated lock.",
+   "absence_claims": [
+    {
+     "quote": "No nonzero nilpotent orbit of E6 has reductive centralizer Spin(10).",
+     "where": "FINDINGS.md 'The crux is false'"
+    },
+    {
+     "quote": "its candidate points are either nonexistent (near the geometric point) or vector-like (the factored ones)",
+     "where": "FINDINGS.md '\"Nearby points with minimal meridian\": impossible'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean, self-contained refutation of a specific incoming claim (D5 centralizer of the minimal nilpotent orbit) with an exact dimension count (35 vs 45), and it usefully reformulates the open question ('the bridge question, final form') into a decidable rank-2-obstruction computation rather than leaving it vague."
+  }
+ ]
+}

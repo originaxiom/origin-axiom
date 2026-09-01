@@ -1,0 +1,301 @@
+{
+"batch": "arcs_107",
+"arcs": [
+{
+"arc": "B1062_bridge_cell",
+"source": "main",
+"files_read": [
+"ADDENDUM_M5_2026-08-13.md","ADDENDUM_PRECOMPUTE_2026-08-13.md","FINDINGS.md","PREREGISTRATION.md","arc_verdict.json",
+"b1062_a2_deciding.py","b1062_a2_m5.py","b1062_a2_m5_closed.py","b1062_a2_m5_fricke.py",
+"b1062_a2_m5_typing_repair.py","b1062_a2_m5_typing_repair_v2.py","b1062_a2_m5_typing_repair_v3.py",
+"b1062_v2_block2.py","b1062_v2_block2n.py","b1062_v2_block3.py","b1062_v2_block3b.py","b1062_v2_cells.py","b1062_verify_battery.py",
+"tests/test_b1062_bridge.py"
+],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — V0 positive (Hao Thm A verified from PDF); V2 CONTROL-EXHIBITED (golden traces in Q(sqrt-3) ARITH-side; silver deg-4/8 and bronze deg-8-octic NON-ARITH); V1 TYPED NEGATIVE (tones are not Fibonacci gap labels, half-integer vs integral module); V3 NOT-FOUND floor (band counts empty intersection). Addendum M5: A8 phi-decoy CONFIRMED exact match; A2 towers twin-derived; A5 all-lox CERTIFIED-once on this bench, OPEN on audit bench.",
+"log_says": "B1062 banked: CONTROL-EXHIBITED, tones-not-labels, the gate opens; sealed+addendum honored, battery green, Hao verified from source, three independent derivations of the bronze octic, V1/V3 exact.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Golden (m=1) trace field = Q(sqrt-3), imaginary quadratic -> ARITH-side", "where": "b1062_v2_cells.py / b1062_v2_block2.py (sympy exact Groebner)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed sympy scripts derive the field exactly; asserts check Fricke identities symbolically"},
+{"what": "Bronze (m=3) geometric component is an irreducible octic, all typed roots loxodromic (3 of 8 in-arc, remaining typed 'in background at bank time')", "where": "b1062_v2_block3b.py; FINDINGS.md riders", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "octic and typing code committed and exact, but FINDINGS itself admits only 3/8 roots typed in-arc at bank time — full typing deferred"},
+{"what": "m=1..m=3 box-count 'illustration' numbers (max 2/106 per box)", "where": "b1062_v2_block2n.py; referenced logs b1062_v2_block*.log", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "script committed and runnable; underlying .log witness files are NOT committed (gitignored)"},
+{"what": "m=5 completion (A8 phi-decoy match, A2 towers, A5 all-lox certification)", "where": "ADDENDUM_M5; b1062_a2_m5_typing_repair_v3.py (mpmath dps=60)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "scripts committed; residuals ~1e-50 claimed but underlying .log outputs not committed"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "b1062_verify_battery.py independently re-derives the monodromy convention, the Markov kill, and residuals as an in-repo verification script; a second 'relay seat' also re-derived the bronze octic on its own convention — genuine cross-checking, though its outputs are narrated in prose, not committed as a second script.",
+"absence_claims": [
+{"quote": "Gate 5-Q: no measured value anywhere.", "where": "FINDINGS.md header"},
+{"quote": "the specific geometric octic root unidentified (robustness covers the verdict) · the exact bronze trace field uncomputed beyond \"contains degree 8\"", "where": "FINDINGS.md, Riders and honest edges"},
+{"quote": "block 3b's remaining octic roots typing in background at bank time (three of eight typed, all loxodromic; the x-side typed all eight independently)", "where": "FINDINGS.md, Riders and honest edges"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "GITIGNORED_WITNESS", "detail": "FINDINGS.md and the addenda repeatedly cite named .log files (b1062_v2_block1.log, b1062_v2_block2.log, b1062_v2_block3.log, b1062_v2_block3b.log, b1062_v2_block2n.log, b1062_verify_battery.log, b1062_a2_m5_closed.log, b1062_a2_m5_repair_v{1,2,3}.log) as the run witnesses; none are present in the committed arc directory and *.log is repo-wide gitignored, so a stranger cannot see the actual run output, only re-run the (committed) scripts themselves.", "where": "B1062 FINDINGS.md and ADDENDUM_M5_2026-08-13.md, log citations throughout"},
+{"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "A5 'all-loxodromic' certification at m=5 rests on a 60-digit mpmath numeric residual check (~1e-50), not an exact symbolic proof, though the field-degree verdicts themselves are exact.", "where": "b1062_a2_m5_typing_repair_v3.py"}
+],
+"seat_note": "This is genuine, reproducible sympy/mpmath computation (exact Groebner eliminants, symbolic Fricke identities) with real self-correction (a spurious elliptic component caught and killed); the content is pure arithmetic/hyperbolic-geometry structure with no physical observable — it feeds the thesis's genericity-control machinery, not a measurable prediction."
+},
+{
+"arc": "B1063_refresh_verdict",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json","tests/test_b1063_refresh.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — the pre-committed B1027 refresh against NuFIT 6.0 Table 1 misses all four variants against both 240° and 120° targets (eight window-target pairs, eight misses); the decisive clause (a ~2x upper-error shrink) fires against ±120°; Jarlskog cross-read agrees. The fourth crossing CLOSES; the refresh is SPENT.",
+"log_says": "B1063 the refresh verdict: NuFIT 6.0 on-bench, all four variants miss, the decisive clause fires (2.21x tightening) — the fourth crossing CLOSES, the one-shot refresh SPENT, routed to the kill graph hatch-closed.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Eight window/target misses (44°,37°,17°,137°,2°,51°,9°,129°) and the 2.21x error-shrink figure", "where": "FINDINGS.md table; test_b1063_refresh.py (asserts against refresh_windows.log)", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "The numbers are read by hand off NuFIT 6.0's Table 1 (external PDF, not vendored) and the arithmetic is not committed as code — no script in the arc dir computes the degree differences or the sigma discrepancies; the ONE artifact that could serve as a witness, refresh_windows.log, is referenced by the lock test but is a *.log file, which is repo-wide gitignored and is not present in the arc directory."}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir, no second independent script; the lock test (tests/test_b1063_refresh.py) checks string content of a non-existent refresh_windows.log file, so even the lock cannot currently pass from a clean checkout.",
+"absence_claims": [
+{"quote": "the arXiv route works). Recorded as a fetch-currency defect (the species: a fetch that cannot reach the current source silently adjudicates against a stale one)", "where": "FINDINGS.md, 'The trigger, and a defect found with it'"},
+{"quote": "B1027's verdict-time fetch returned the stale 5.2 (the nu-fit.org certificate failure is the live suspect", "where": "FINDINGS.md, 'The trigger, and a defect found with it'"}
+],
+"physics_content": "OBSERVABLE",
+"red_flags": [
+{"kind": "GITIGNORED_WITNESS", "detail": "tests/test_b1063_refresh.py's test_window_log_pins_the_misses reads ARC/'refresh_windows.log' and asserts specific miss-strings inside it; that file does not exist in the committed arc directory (only FINDINGS.md and arc_verdict.json are present) and *.log is gitignored repo-wide — the lock test as committed cannot be run successfully by a stranger who clones the repo.", "where": "tests/test_b1063_refresh.py:8-14; frontier/B1063_refresh_verdict/ (directory listing, only 2 files)"},
+{"kind": "MISSING_WITNESS", "detail": "The degree/sigma arithmetic in the FINDINGS.md table (44°, 2°, 9°, 17°, 37°, 51°, 129°, 137° misses; the 2.21x shrink) is presented as read off NuFIT 6.0's PDF Table 1 by hand; no committed script performs or checks this arithmetic.", "where": "FINDINGS.md, 'The re-run' table"}
+],
+"seat_note": "This is a genuinely OBSERVABLE physics claim (measured delta_CP vs a golden/icosian angular prediction, both orderings, with sigma values named) and its NEGATIVE verdict is an honest reported failure of the thesis's prediction — a real point in the seat's favor for candor — but the numeric comparison itself is not committed as reproducible code and its designated log witness is gitignored and absent."
+},
+{
+"arc": "B1064_cusp_torus_repose",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — O3 OBSTRUCTED-AT-TORUS: the object's amphichirality deletes the quantized boundary sector (CS=0 forces d(S)/dk=0 identically, B1012) so rational (E6)_1 data has no quantized level to attach to; the surviving unquantized sector carries no banked chiral algebra (B1034 no-hit + B715 no-real-form), so P(T_cusp) is UNDEFINED and the pre-sealed definition fires NOT-POSABLE. L154 stays UNDECIDED-narrowed; c=6 anchor does not convert.",
+"log_says": "B1064 BANKS: O3 OBSTRUCTED-AT-TORUS on two banked legs (the k-deletion decisive; the prior right-outcome-adjacent-mechanism, partial credit); L154 UNDECIDED-narrowed; the anchor unconverted.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "CS=0 forced by amphichirality (leg 1) and B1034 'no hit' + B715 no-real-form (leg 2)", "where": "FINDINGS.md V1", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "This arc contains no code of its own; every load-bearing fact is imported wholesale from other banked arcs (B1012, B1034, B715, B254) and combined by prose argument only. Whether those source arcs are themselves reproducible was not checked in this read."},
+{"what": "conductor-4 verification (multiplier ring = Z+4omega Z)", "where": "referenced as 'frontier/B1012_branch_verifications/conductor4_verification.log'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited log file is a *.log, gitignored; not verified in this read whether a companion script exists in B1012_branch_verifications"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ dir; this cell is pure structural reasoning stitching together prior banked claims, with no independent re-derivation performed inside B1064 itself.",
+"absence_claims": [
+{"quote": "B1034's own search: the stage was never banked as attaching to ANY boundary (\"no hit\").", "where": "FINDINGS.md, V1 Leg 2"},
+{"quote": "no arc supplies a rational point of it", "where": "FINDINGS.md, V1 Leg 2"},
+{"quote": "a banked mechanism that either (a) restores a quantized boundary sector ... none is known", "where": "FINDINGS.md, 'The new named missing piece'"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "GITIGNORED_WITNESS", "detail": "The one concrete computation this arc leans on (B1012's conductor-4 verification) is pointed to as a .log file, which is gitignored repo-wide.", "where": "PREREGISTRATION.md §1, gate 1"}
+],
+"seat_note": "A negative/obstruction result built entirely from importing conclusions of four other arcs with no new computation of its own — reasonable as a synthesis step, but this arc alone gives a stranger nothing to independently verify; its physics content (AdS3/CFT central charges) is structural, not an observable."
+},
+{
+"arc": "B1065_amendment_controls",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — O1 SAME-CONFIRMED at stated price (2.6-3.4 bits, both nulls named): C1 equivariance (all 64 characters) PASS with node-exchange resolving a fork-twin coordinate discrepancy as a labeling convention; C2 base-rate priced thin (0.585/1.415 bits, surjectivity alone insufficient); C3 joint rank exact cross-presentation agreement (+2.0 bits). The oldest PROVISIONAL banner for R11's d=2 claim converts to priced form.",
+"log_says": "B1065 PROVED/O1: the controls ran (C1 equivariance x64; C1c the node-exchange = the target swap; C2 the thin price stated; C3 cross-presentation exact, +2.0 bits); the oldest PROVISIONAL banner converts; R45-9 discharged by execution.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "C1 equivariance over all 64 characters; C2 base-rate 2/3 and 3/8; C3 joint rank 2 within/across presentations, cross-bench exact match", "where": "FINDINGS.md, C1/C2/C3", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "The arc directory contains only FINDINGS.md, PREREGISTRATION.md and arc_verdict.json — no .py script, no test lock, and the one referenced witness (b1065_controls.log) is a gitignored .log not present in the repo. A stranger has no committed artifact to check any of the '64-character enumerations' against."}
+],
+"belt": "NONE",
+"belt_note": "No verification directory, no lock test found anywhere in the repo (grepped for test_b1065*), no committed code at all — the strongest claim in the file ('64-character enumerations, not samples') is entirely unwitnessed.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "This arc's entire quantitative content (the equivariance check over 64 characters, the 2/3 and 3/8 base rates, the +2.0-bit cross-presentation agreement) rests on a single cited log file (b1065_controls.log) that is not committed and is *.log-gitignored; no .py script exists in the arc directory and no test lock references this arc anywhere in the repo.", "where": "FINDINGS.md header ('Log: b1065_controls.log'); frontier/B1065_amendment_controls/ (directory listing: 3 files, none code)"}
+],
+"seat_note": "Of the arcs read so far, this is the thinnest on reproducibility: a bits-priced statistical claim with no committed code, no lock test, and its sole cited witness gitignored — a stranger cannot check a single number in this file."
+},
+{
+"arc": "B1066_lane3_nomination",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b1066_inventory.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — both inventory-forced relations (R-B phi-geometric row, R-A listener pair) decisively excluded by NuFIT 6.1 (Nov 2025 data, both orderings, delta profiled): R-B's delta-independent |U_e1|=0.8225(40) vs phi/2=0.80902 is 3.4 sigma; R-A's sin^2(theta12)=0.308(67) vs 0.27639 is 4.7 sigma. Execution 1 (against stale NuFIT 6.0, NO-only) WITHDRAWN as defective; Execution 2 valid. The coupling channel is closed; the licensed value-contact surface is exhausted.",
+"log_says": "B1066 NEGATIVE (two executions, the defective one beside its correction; NuFIT 6.1 decisive: 3.4 sigma/4.7 sigma; the licensed value-contact surface EXHAUSTED; the listener map the sole door).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "The relation inventory (menu combinatorics: unique sum-to-1 pair, unique 'Pythagorean'-shaped phi-geometric triple)", "where": "b1066_inventory.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed sympy script with explicit asserts over the T/M/L menus; runs standalone, no network, reproduces Appendix A"},
+{"what": "3.4 sigma and 4.7 sigma discrepancies against NuFIT 6.1 Table 1 values", "where": "FINDINGS.md 'THE VERDICT' table", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the sigma arithmetic against the externally-quoted NuFIT 6.1 numbers is not itself computed in any committed script in this arc; it is prose arithmetic quoting a secondary source (a citing table in arXiv:2604.04585, since nu-fit.org's own certificate is expired)"}
+],
+"belt": "NONE",
+"belt_note": "No verification/ directory and no test lock found for B1066; the inventory script (b1066_inventory.py) is the one genuinely reproducible piece, but the physics-facing sigma comparisons that decide the verdict are not code-checked.",
+"absence_claims": [
+{"quote": "the nu-fit.org certificate expired — the standing infrastructure defect; the arXiv mirror carries only 6.0", "where": "FINDINGS.md, 'THE VERDICT' inputs note"},
+{"quote": "no legitimate pair sums to 1", "where": "FINDINGS.md, R-A row"},
+{"quote": "the listener map (which physical apparatus is which listener state u) remains unconstructed", "where": "FINDINGS.md, 'The residual, honestly'"}
+],
+"physics_content": "OBSERVABLE",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The decisive sigma values (3.4, 4.7, and the withdrawn execution-1 sigma figures) that carry the verdict are quoted in prose against an externally-read table; no committed script performs this comparison, unlike the combinatorial inventory half which is properly coded.", "where": "FINDINGS.md, 'THE VERDICT' table and 'THE TWO EXECUTIONS' section"},
+{"kind": "OTHER", "detail": "The riders section explicitly notes an unlicensed near-coincidence (corroborated sin^2(theta12)=0.3096 within 0.1 sigma of tone 1/(2phi)=0.30902) and flags it as a base-rate-expected proximity under the kind-table's own forbidden identification rule — a well-disclosed near-miss rather than a hidden one, worth noting as a discipline example.", "where": "FINDINGS.md, RIDERS, 'CROSS-KIND DISCLOSURE'"}
+],
+"seat_note": "A genuine, well-disciplined NEGATIVE result on an OBSERVABLE quantity (PMNS/CKM element vs golden-ratio-derived targets), including a self-caught fetch-currency defect in its own first execution; the arithmetic that actually produces the reported sigmas is not committed as code, only the combinatorial precursor is."
+},
+{
+"arc": "B1067_rayclass_harvest",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": ["w1_results.json"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — the branch-resident Q(sqrt-3) class-field asset lands on main double-rebuilt: 22 of 23 claims re-derived on two independent routes (direct enumeration in Z[omega] vs CRT/genus/forms/cyclotomic structure), matching exactly; the 23rd is a repo-state meta-claim typed NOT-COMPUTABLE-HERE by both. Headline: ray-class filtration orders 1,2,8 at levels (2),(4),(8); h(-48)=2; H_-48(x)=x^2-2835810000x+6549518250000; ring class field of Z[2sqrt-3] = ray class field mod(4) = Q(zeta_12).",
+"log_says": "THE FIELD MASTERPLAN opens: W1 banked as B1067 (the ray-class harvest DOUBLE-REBUILT — 22/23 claims on two independent routes; the palette 1/2/8; ring-class = ray-class mod (4) = Q(zeta_12) one object; H_-48 exact; the loss-audit debt closed).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "22/23 class-field-theory claims REBUILT on two independent routes (exact integer/Fraction arithmetic, sympy/mpmath, cross-checked against PARI/GP-style structural reasoning)", "where": "w1_results.json (per-claim 'method'/'computed' fields)", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "the JSON explicitly states the underlying scripts were '(scratchpad) s2.py, s3.py, s4.py (plus an inline heredoc)' — these are NOT committed to the arc directory (only the JSON summary of their output is); a stranger sees only the narrated results, not runnable code"}
+],
+"belt": "RE-READS",
+"belt_note": "The 'double-rebuild' design is a genuine two-route cross-check within the same harvest run (Route A vs Route B), but neither route's actual script is committed — only the prose+JSON record of having run them.",
+"absence_claims": [
+{"quote": "The loss audit explicitly flags harvest/second_round_cm_bost_connes.md as UNHARVESTED on origin/main", "where": "w1_results.json, claim 'unharvested-flag-cmbc'"},
+{"quote": "K's class group is OPEN — the principality of p1(953) (and q1(5)) is undecided in the corpus", "where": "FINDINGS.md, 'The sharpest census find'"},
+{"quote": "Systematic prime-splitting census: absent -- only incidental primes ... no chi_5(p) = (p|5) table, no density/Chebotarev statement anywhere", "where": "FINDINGS.md, census gap-list"},
+{"quote": "Hecke palette of the field itself: zero Hilbert-modular content in the repo (grep 'Hilbert modular' = 0 hits)", "where": "FINDINGS.md, census gap-list"},
+{"quote": "Class-number statement: h(Q(sqrt5)) = 1 is only ever ASSERTED as a stored 'well known' constant ... never computed in-sandbox by reduced forms or Minkowski bound", "where": "FINDINGS.md, census gap-list"},
+{"quote": "Dedekind zeta of the field: no zeta_{Q(sqrt5)} special value anywhere", "where": "FINDINGS.md, census gap-list"},
+{"quote": "Fundamental-unit MINIMALITY: phi is used as the fundamental unit throughout but its minimality is never proved in-sandbox", "where": "FINDINGS.md, census gap-list"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "All 22 REBUILT verdicts are backed only by narrated method/computed text in w1_results.json; the notes field states the actual scripts (s2.py, s3.py, s4.py, inline heredocs) lived in a scratchpad and were never committed, so none of the 22 double-rebuilds can be independently re-run from this repo.", "where": "w1_results.json, final 'notes' field: 'Scripts: (scratchpad) s2.py, s3.py, s4.py ... Repo untouched'"}
+],
+"seat_note": "Substantively this is careful, exact class-field-theory number theory (structural, not observable) with a real cross-checking design, but every one of the 23 claims is only witnessed by prose/JSON narration of an uncommitted scratchpad computation — the pattern repeats across the whole field-masterplan cluster (B1067-B1072)."
+},
+{
+"arc": "B1068_descent_inventory",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": ["w2_full_results.json"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 31 canonical structures of Q(sqrt-3) tested through the McKay chain (2T -> affine E6 -> e6): 17 OBSTRUCTED, 10 DESCENDS, 4 ALREADY-BANKED, with 15 unconverged critic proposals left as an honest pending tail. Two headline finds: the character-channel mirror (omega enters 2T only via abelian characters, phi enters 2I only via trace, both bench-confirmed) and the splitting-rigidity discriminator (dim H^1(SL(2,F_p),sl2) = 0/1/0 at p=3/5/7, p=5 uniquely non-rigid, bench-confirmed by an independent cocycle construction).",
+"log_says": "B1068: 31 verdicts, 62 lens checks, 12 adjudications (zero reversals; one re-typing to PARTIAL that BANKS the splitting-rigidity discriminator — H^1 = 0/1/0 at 3/5/7, bench-confirmed by a fourth independent construction; p = 5 uniquely non-rigid).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "31-row McKay-descent inventory, 62 lens verdicts, 12 bench-adjudicated disputes", "where": "FINDINGS.md table; w2_full_results.json", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "w2_full_results.json's own text repeatedly labels the underlying computations '(scratchpad) — pure-exact python3 (integer/Fraction)'; no .py file is committed anywhere in the B1068 arc directory"},
+{"what": "H^1(SL(2,F_p), sl_2) = 0,1,0 at p=3,5,7 (splitting-rigidity discriminator)", "where": "FINDINGS.md 'The two headline finds'; w2_full_results.json", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "described as bench-confirmed by 'an independent cocycle construction' but that construction is not a committed script"}
+],
+"belt": "RE-READS",
+"belt_note": "The design's own two-lens-per-verdict + bench-adjudication structure is a real cross-checking discipline (12 disputes surfaced and resolved, one re-typed to PARTIAL rather than silently kept), but none of the underlying code for any of the three layers (agent 1, lens 1, lens 2, bench) is committed to the repo.",
+"absence_claims": [
+{"quote": "the critic pool did NOT go dry; enumerative completeness is BOUNDED-BY-ROUNDS, not achieved", "where": "FINDINGS.md, 'The design'"},
+{"quote": "not one Hecke eigenvalue of any Gamma_41 newform has ever been computed", "where": "FINDINGS.md row crit1-... (via census inheritance, same theme as B1067)"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "31-row inventory and both headline findings rest entirely on scratchpad-only python; w2_full_results.json (565KB) is the sole committed artifact and it explicitly disclaims repo code ('the only writes were to the scratchpad').", "where": "w2_full_results.json, tail notes"},
+{"kind": "OTHER", "detail": "arc_verdict.json sets \"instrument\": true for this arc while the FINDINGS text gives no explanation of what that field means or why it differs from the surrounding arcs (most of which have instrument: false) — worth a governance-level check on what 'instrument' controls downstream.", "where": "arc_verdict.json"}
+],
+"seat_note": "A large, carefully cross-checked structural inventory of finite-group/Galois-cohomology facts feeding the thesis's arithmetic-to-Lie-theory bridge, but reproducibility is nominal only — every number traces back to an admittedly uncommitted scratchpad run."
+},
+{
+"arc": "B1069_hearing_biography",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": ["w3_results.json"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — Q(sqrt5) built exhaustively as a number field: splitting census for 12 programme primes, O_K=Z[phi] with h=h+=1 drawn in-sandbox; Hecke palette 1,1,2 at (2),(4),(8) (vs being's 1,2,8), discriminator = Dirichlet unit rank; narrow ray class at (4) = Z/2 x Z/2 non-cyclic; catches a live B92 error (h=2 at disc 20 was an unflagged imprimitive form, true h=1).",
+"log_says": "B1069 the hearing biography + the B92 correction (E42) ... one live catch against the banked corpus: B92's h = 2 at disc 20 was default-call inflation (imprimitive form) — bench-confirmed h = 1 twice over.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+{"what": "Whole ledger of Q(sqrt5) arithmetic facts (units, class number, ray class groups, orders, B92 correction)", "where": "FINDINGS.md body; w3_results.json", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "'executed fresh in-sandbox (python3/sympy, several rows cross-validated against PARI/GP and Sage)' but no script is committed to the arc directory — only the narrative FINDINGS.md and a results JSON"},
+{"what": "B92's h=2 at disc 20 is wrong; true value h=1", "where": "FINDINGS.md, 'The B92 correction'", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "the correcting computation is again scratchpad-only; but it is a genuine, well-argued algebraic-identity catch (lambda_4=2+sqrt5 generating the same ring as f=2), independently plausible from the prose alone"}
+],
+"belt": "RE-READS",
+"belt_note": "Two internal verification passes (v1: 10/10 targeted re-derivations confirmed; v2: 17 framing/citation checks, 6 corrected) are a real adversarial-review structure, but conducted entirely without committed code — v1/v2 are prose audits of prose.",
+"absence_claims": [
+{"quote": "Draft. Unbanked exploratory scratch (no PREREGISTRATION, no hash, no PROGRESS_LOG entry -- WORKING_RULES §3-4).", "where": "FINDINGS.md, opening of 'THE HEARING BIOGRAPHY' section"},
+{"quote": "No test in the repo locks the h=2 claim (grepped, zero hits) — nothing load-bearing breaks", "where": "FINDINGS.md, 'The B92 correction'"},
+{"quote": "'real multiplication' occurs exactly once (B672 ...); 'abelian surface' 0 hits; 'Hilbert modular' exactly 1 hit", "where": "FINDINGS.md, Typing table, Real multiplication row"},
+{"quote": "This rerunning that grep returns 8 files ... This is the specific, locatable miss", "where": "FINDINGS.md, 'Citation-precision correction (v2)'"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "No .py file exists anywhere in the arc directory; all arithmetic (splitting census, class numbers, ray class groups, the B92 correction) is only narrated in FINDINGS.md/w3_results.json.", "where": "frontier/B1069_hearing_biography/ (directory listing: 3 files, none code)"},
+{"kind": "LOG_DRIFT", "detail": "The arc's own FINDINGS.md text explicitly states this document is 'Draft. Unbanked exploratory scratch (no PREREGISTRATION, no hash, no PROGRESS_LOG entry — WORKING_RULES §3–4)' — i.e. by the house's own discipline this never went through the seal protocol — yet arc_verdict.json records a full 'PROVED' verdict and the PROGRESS_LOG banks it as a completed result with no caveat about the missing seal.", "where": "FINDINGS.md, 'THE HEARING BIOGRAPHY' header vs arc_verdict.json 'verdict': 'PROVED'"}
+],
+"seat_note": "Rich, largely self-critical number-theory census (including an honest self-caught correction to B92), but it is explicitly an unsealed 'exploratory scratch' by its own admission that nonetheless carries a PROVED verdict banner and no committed code — a genuine process gap between the arc's candor and its bookkeeping."
+},
+{
+"arc": "B1070_listener_derivation",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": ["track_a_results.json"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — the banked listener pair u3/u6 is derived (not conventional): Aut(2Tx2I)=S4xS5 exactly, the projective action on CP^1_odd is the full 60-element icosahedral group with exceptional orbits 12/20/30(+60 generic), u3/u6 are the unique pair on the 12-orbit individually fixed by all 16 elements of Gal(Q(zeta_60)/Q). Companions: B641 upgraded to theorem-exact over all 2880 group elements and all complex u; even sector T_m spectra computed, no joint eigenframe exists.",
+"log_says": "B1070: Lambda derived — the banked u3/u6 are the unique Galois-fixed vertex pair; B641 now a theorem over the whole odd line; ... B1070 and B1073 have none at all [test locks].",
+"log_consistency": "DRIFT",
+"load_bearing": [
+{"what": "Orbit/stabilizer computation (Aut(2Tx2I), the 12/20/30/60 orbit decomposition, u3/u6 uniqueness under Gal(Q(zeta_60)/Q))", "where": "track_a_results.json; FINDINGS.md A1", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "FINDINGS.md itself states 'The verifiers' scripts lived in the session scratchpad (READ-ONLY discipline; repo untouched by agents)' — no code committed anywhere in this arc"},
+{"what": "B641 upgraded from a 6-sample proof-sketch to a theorem over all 2880 group elements and all complex u", "where": "FINDINGS.md A2", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "same scratchpad-only pattern; also explicitly credited as building on/superseding B641's earlier, weaker 'LAW_MAP' grading of 'proof sketch'"}
+],
+"belt": "UNCLEAR",
+"belt_note": "3 compute + 3 adversarial-verify agents are claimed, 'every attack failed against independent re-implementations' — a real adversarial design in principle, but since no code is committed, the belt cannot actually be inspected or re-run from this repo; the true re-sealing/verification happens in the successor arc B1071.",
+"absence_claims": [
+{"quote": "EXPLORATION-GRADE per the dual protocol — the promotion path is named at the end", "where": "FINDINGS.md header"},
+{"quote": "no Bloch-sphere pairing appears anywhere in the prior corpus (earlier \"Bloch\" hits are the Bloch group/dilogarithm, a different object)", "where": "FINDINGS.md, AMENDMENT 2026-08-18"},
+{"quote": "B1011 C5 explicitly declines the derivation", "where": "FINDINGS.md, AMENDMENT 2026-08-18"},
+{"quote": "B1070 and B1073 have none at all [test locks]", "where": "PROGRESS_LOG.md, 2026-08-29 entry on the creates_law re-audit (log_index/B1070.txt)"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "The arc's own text says it is 'EXPLORATION-GRADE ... nothing here is sealed' and names a three-step promotion path (seal, independent re-derivation, only then may a crossing prereg cite it) that had explicitly NOT happened yet when this document was written — yet arc_verdict.json already records verdict 'PROVED' for the derivation itself, before the sealing arc (B1071) ran.", "where": "FINDINGS.md header and 'The promotion path' section vs arc_verdict.json 'verdict': 'PROVED'"},
+{"kind": "NO_TEST", "detail": "The repo's own later re-audit (B1214, quoted in the log index) explicitly states this arc has no dedicated test lock at all.", "where": "PROGRESS_LOG.md 2026-08-29 entry, quoted in log_index/B1070.txt"},
+{"kind": "MISSING_WITNESS", "detail": "All computations (orbit/stabilizer structure, Galois-fixedness, B641 theorem upgrade) ran in an uncommitted session scratchpad; nothing in the repo lets a stranger re-run them.", "where": "FINDINGS.md, 'Artifacts' section"}
+],
+"seat_note": "A genuinely interesting group-theory/Galois-theory result (deriving rather than positing a 'listener' direction) but banked PROVED while its own text calls itself exploration-grade and unsealed, with zero committed code and — per the repo's own later audit — no test lock at all."
+},
+{
+"arc": "B1071_sealed_listener",
+"source": "main",
+"files_read": ["FINDINGS.md","PREREGISTRATION_V1_SUPERSEDED.md","PREREGISTRATION_V2.md","arc_verdict.json","b1071_results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — the derivation promoted; all three claims (C1 orbit backbone, C2 the Galois-fixed pair, C3 the two hearing channels) HOLD under three independent re-implementations (no code reuse from B1070's exploration cell), 0 errors. Scope explicitly limited: not a completed listener map (AC3/AC6 still gated).",
+"log_says": "B1071: the sealed listener promoted (3/3 claims hold independently) — the seal protocol's first full run under the B837-shaped flow (seal commit local, hash timestamps, compute, then one push carrying both).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "C1/C2/C3 all HOLD across three independent re-implementations", "where": "FINDINGS.md 'The verdicts' table; b1071_results.json", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "FINDINGS.md states 'The independent implementations lived in the session scratchpad (READ-ONLY discipline...)' — no .py committed; only b1071_results.json (the narrated agent returns) is committed"}
+],
+"belt": "RE-READS",
+"belt_note": "Genuinely strong process discipline (pre-registered fail-witnesses per claim, seal-before-compute protocol, MB12 negative control on C1, v1/v2 hash-provenance care), but the actual verifying code for all three re-implementations is uncommitted scratchpad, so the belt cannot be independently exercised from this repo.",
+"absence_claims": [
+{"quote": "AC3 (the sister transplant) gates on the silver instrument's build, and AC6 ... is a separate, unattempted run", "where": "PREREGISTRATION_V1_SUPERSEDED.md, 'SCOPE'"},
+{"quote": "this is NOT a completed listener map under docs/LISTENER_MAP_SPEC.md ... AC6's type-conformance run is unattempted", "where": "FINDINGS.md, 'What is now true, and what is still gated'"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "All three re-implementations ('own cyclotomic ring, own reduction algorithms') ran in the session scratchpad, not committed; only the JSON summary of returns is in the repo.", "where": "FINDINGS.md header and 'Artifacts'"},
+{"kind": "OTHER", "detail": "The repo's own later review (quoted in log_index) records that 'B1071 v2's hash cell was MIS-TRANSCRIBED at write time (matched no version that ever existed; the file is git-witnessed unchanged since its creating commit; custody unaffected — the computation ran against v1)' — a real, self-caught seal-provenance bookkeeping error, disclosed rather than hidden.", "where": "docs/progress/REVIEWS.md, Review 47, 'Protocol integrity' (quoted in log_index/B1071.txt)"}
+],
+"seat_note": "This is the properly-sealed promotion of B1070's exploration-grade result, with real (if uncommitted) three-way independent re-implementation and honest disclosure of its own hash-transcription slip; still no committed code for a stranger to rerun, continuing the field-masterplan cluster's pattern."
+},
+{
+"arc": "B1072_silver_instrument",
+"source": "main",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": ["b1072_results.json"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — SU(4)_2 built exactly (10 primaries, kappa=6, Sigma.Sigma^dagger=864*I); group |<R,L>|=18432=2^11*3^2, purely {2,3}-primary, NOT a direct product (Goursat subdirect); the transplanted Lambda rule returns the full minimal orbit (size 3, all rational, Galois criterion trivial) — 'field-generic rule, object-specific selectivity'. Separately catches a k-indexing/inversion defect in B684's ladder at k=2.",
+"log_says": "B1072 + B1073: AC3 filled, AC6's odd half closed by law ... The silver transplant returned the third shape (B1072: the rule is a template, the selectivity is the object's).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "SU(4)_2 build (10 primaries, kappa=6, Sigma.Sigma^dagger=864*I), group order 18432, Goursat subdirect structure, 5 exceptional orbits under the transplanted rule", "where": "FINDINGS.md; b1072_results.json", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "5-agent design (build, run+cascade, two adversarial lenses) with 'own Weyl construction AND own arithmetic engine' for the verifier, but again the code itself is not committed — only the JSON of returns"},
+{"what": "B684's k=2 ladder value is wrong (claimed 1/delta, should be delta=1+sqrt2, which is actually B684's own k=6 value)", "where": "FINDINGS.md, 'L149's cascade half'", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "quadruple-derived per the text but uncommitted; however this correction WAS properly propagated into B684's own FINDINGS.md as an inline addendum (verified: frontier/B684_loop7_close/FINDINGS.md:56-64), so it is not a case of an uncorrected stale claim"}
+],
+"belt": "RE-READS",
+"belt_note": "Build re-derived 41/41 before use, both adversarial lenses HOLD with independently-built fields/formulas/BFS/primes — a real cross-check design, but uncommitted code again.",
+"absence_claims": [
+{"quote": "no order-5 anywhere (kappa = 6 has no room for a 5)", "where": "FINDINGS.md, 'The group — NOT the golden pattern'"},
+{"quote": "The deeper golden-side theorems (B664's landscape, B1011's factorization, B1071's Lambda-selection) remain genuinely unattempted on silver — typed open.", "where": "FINDINGS.md, 'L149's cascade half'"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "All computation (SU(4)_2 build, group order, orbit structure, B684 k-ladder cross-check) again ran only in agent scratchpads; b1072_results.json is the sole committed artifact.", "where": "FINDINGS.md, 'Artifacts'"}
+],
+"seat_note": "A well-designed negative-control result (the same Galois-selection rule, applied to a different instrument, correctly returns a trivial/rational answer rather than forcing a golden-looking one) plus a genuinely useful self-caught error in a prior arc's ladder indexing that was properly corrected in place — but, like the rest of this cluster, entirely unwitnessed by committed code."
+}
+]
+}

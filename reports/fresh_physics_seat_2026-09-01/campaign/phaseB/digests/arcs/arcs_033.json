@@ -1,0 +1,494 @@
+{
+ "batch": "arcs_033",
+ "arcs": [
+  {
+   "arc": "B575_bridge_obstruction",
+   "source": "main",
+   "files_read": [
+    "frontier/B575_bridge_obstruction/FINDINGS.md",
+    "frontier/B575_bridge_obstruction/PREREGISTRATION.md",
+    "frontier/B575_bridge_obstruction/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B575_bridge_obstruction/l51_obstruction.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: The quadratic obstruction Q(u)=[u∪u] vanishes identically in all six E6 directions, with constructive second-order certificates: the variety is smooth past the principal point.",
+   "log_says": "Q ≡ 0 in all six directions; bank had a predecessor B352 (numerically conditional, dps-100) that B577 later showed this arc exactly and unconditionally confirms; B598-P1/P2 later independently re-derived H1=1 per block and found a longitude-convention correction upstream.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "e6 built inside gl(27); [e_i,f_j]=delta h_i; bracket closure dim 78", "where": "l51_obstruction.py G1 asserts (lines ~237-295)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Fraction/K(sqrt(-3)) arithmetic, assertions gate the build, script runs standalone"},
+    {"what": "figure-eight relator maps to exact identity in E6 (G3)", "where": "l51_obstruction.py line 384", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact nilpotent exponentials over Q(sqrt(-3)), assert checked"},
+    {"what": "Q(u)=0 for all six diagonal + all fifteen cross-pairings, verification pass V1-V4", "where": "l51_obstruction.py lines 587-638, FINDINGS.md 'verification pass'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "raw cocycles shown nonzero before projection, coboundary-invariance and correction-system solves are asserted in the same script"},
+    {"what": "Porti-style smoothness theorem transferring to E6", "where": "FINDINGS.md 'Honesty bar'", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "explicitly 'cited as expected, not assumed' -- a literature analogy, not computed here"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "l51_obstruction.py is itself the full gated build+check pipeline (no separate verification/ dir); 'verify' argument runs adversarial self-checks in the same file.",
+   "absence_claims": [
+    {"quote": "The sixth wall does not exist at this order.", "where": "frontier/B575_bridge_obstruction/FINDINGS.md:19"},
+    {"quote": "higher (Massey) obstructions are not computed here", "where": "frontier/B575_bridge_obstruction/FINDINGS.md:60"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely computed, exact-arithmetic Lie-cohomology result with real gates and an honest higher-order caveat; no observable is named anywhere, and the firewall statement ('nothing to CLAIMS.md') is itself evidence the authors know this is pure representation theory, not physics yet."
+  },
+  {
+   "arc": "B576_deformed_closure",
+   "source": "main",
+   "files_read": [
+    "frontier/B576_deformed_closure/FINDINGS.md",
+    "frontier/B576_deformed_closure/arc_verdict.json",
+    "frontier/B576_deformed_closure/l59_closure.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: Any integrable deformation with nonzero theta-odd component has Zariski closure all of E6 and is chiral; theta-even deformations stay F4-stable and vector-like.",
+   "log_says": "The chirality is exactly the theta-odd motion; later log entries (B953/B956) build heavily on this as 'CONSTRUCTED, not merely sought' chirality and use it to frame the rank-6-vs-rank-0 SM-selection puzzle.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "block-sum lemma + forcing-chain channel table (six channels all nonzero)", "where": "l59_closure.py channel_nonzero() and checks list", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "reuses B575's exact gl(27) build, computes bracket components via basis scan, asserted"},
+    {"what": "27 of E6 is complex (-orbit(w1)=orbit(w6)!=orbit(w1))", "where": "FINDINGS.md 'The verdict'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited as 'banked AP4-verifier fact' from elsewhere, not recomputed in this script"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "l59_closure.py imports and re-executes the full B575 machinery module before running its own checks.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "FINDINGS explicitly retracts an earlier framing that identified the theta-odd escape sector with D5/A5 subalgebras purely because their exponent sets contain {1,4} -- a dimension coincidence corrected in-arc ('the closure landscape never contained them; they are not block-sums'). Good that it self-corrected, but shows the pattern the seat should watch for elsewhere.", "where": "frontier/B576_deformed_closure/FINDINGS.md 'What this settles and what it does not'"}
+   ],
+   "seat_note": "Solid follow-on Lie-theory computation; the chirality-vs-theta-parity dichotomy is exact math but has zero physical content until some construction couples two copies (done in B582) -- the arc itself is careful to say so."
+  },
+  {
+   "arc": "B577_reconciliation",
+   "source": "main",
+   "files_read": [
+    "frontier/B577_reconciliation/FINDINGS.md",
+    "frontier/B577_reconciliation/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: B575/B576's core results were already banked weeks earlier (B265/B352): a non-recall failure, not new discovery; guard MB13 added.",
+   "log_says": "Matches the arc content exactly -- B575/B576 rediscovered B352/B265; two disjoint pipelines now agree on all 21 zeros; MB13 guard added and later caught several more near-rediscoveries.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "B265 already proved the {4,8}->e6, {5,7,11}->f4 dichotomy in Sage over Q", "where": "FINDINGS.md 'What was already banked'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited from a prior arc (B265) not re-verified inside B577 itself"},
+    {"what": "B352 already computed the cup-product Q=0 result, dps-100, conditional", "where": "FINDINGS.md table", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited from B352, not re-run here; its 'discharge' is credited to B575's independent exact computation, not to anything computed in B577 itself"}
+   ],
+   "belt": "NONE",
+   "belt_note": "B577 is a pure historiographic/reconciliation memo with no reproducer script of its own; it audits attribution and process, not mathematics.",
+   "absence_claims": [
+    {"quote": "the Recurrence Atlas — built for exactly this — was never queried.", "where": "frontier/B577_reconciliation/FINDINGS.md 'The failure mode (new — not B571's)'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This is a valuable, transparent self-audit (a non-recall / duplicate-discovery failure caught and process-guarded) rather than a defect in the mathematics; flagged here only because it documents that the campaign's own bookkeeping/discovery-tracking failed on a load-bearing result chain for weeks.", "where": "frontier/B577_reconciliation/FINDINGS.md"}
+   ],
+   "seat_note": "Not a physics result at all -- a credit/process correction. Useful evidence that the campaign's internal indexing is fallible and that 'PROVED' verdicts elsewhere may likewise duplicate unlinked prior work; the MB13 guard is a reasonable response."
+  },
+  {
+   "arc": "B578_debt_clearing",
+   "source": "main",
+   "files_read": [
+    "frontier/B578_debt_clearing/D5_KUBOTA_RETRACTION.md",
+    "frontier/B578_debt_clearing/LEDGER_RAW.md",
+    "frontier/B578_debt_clearing/RESULTS.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false in packet); RESULTS.md summarizes: of 10 debt cells, 4 cleared (D1,D4,D7,D10), 1 partially cleared (D3), 1 retraction fired (D6), 1 reframed (D8), 1 blocked with claimed proof retracted (D2), 2 void placeholders (D5,D9) excluded from tally.",
+   "log_says": "B578 COMPLETE: 21 agents, 0 errors, repairs applied, one self-correction; matches LEDGER_RAW/RESULTS closely including the Massey third-order vanishing, e3=2cos(2pi/9)/1728, K3 degree-6 reinstatement, level-3 golden 2+3+3 octic, and the Kubota-Leopoldt retraction with the 432*e3 identity.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "D1: third-order Massey obstruction vanishes exactly in all six directions on the exact B575 build", "where": "LEDGER_RAW.md D1", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as reproduced by two independent extractions and by the verifier, but the reproducer script itself is not among the packet's listed files (only LEDGER_RAW/RESULTS/D5 note are); locks named (tests/test_b578_massey...) but not sampled here"},
+    {"what": "D2: Q-C residue transport map from B469 object into E6 structure -- claimed DONE, then OVERTURNED", "where": "LEDGER_RAW.md D2", "kind": "ASSERTED then REFUTED", "reproducible_from_committed": "no", "why": "verifier found no actual map was ever constructed; the repo's own locked theorem T-NORM contradicts the headline; verdict downgraded to BLOCKED, L63 stays OPEN"},
+    {"what": "D5 Kubota-Leopoldt retraction: B413's banked values are Gauss sums, NOT the Kubota-Leopoldt L-function (two independent methods)", "where": "D5_KUBOTA_RETRACTION.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "two methods described (from-scratch Bernoulli sums + Sage DirichletCharacter.bernoulli) but no script file is listed in this packet to inspect"},
+    {"what": "D6: K3 (bronze invariant trace field) is degree 6, reinstating B125/B137, reverting a wrong B571/L68 'correction'", "where": "LEDGER_RAW.md D6", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "SnapPy+cypari at two precisions cited; verifier's own objection notes the degree-6 vs degree-8 conflict (B840's log entry later reconfirms the discrepancy is unresolved, see B590)"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This whole arc IS a verification/audit pass over ten prior debts (each cell folds in 'verifier objections'), so it functions as a belt over the arcs it audits, but no independent recompute script for its own claims is present among the sampled files.",
+   "absence_claims": [
+    {"quote": "the tower measure IS the known Kubota–Leopoldt 3-adic L-function\" — asserted, never computed.", "where": "frontier/B578_debt_clearing/D5_KUBOTA_RETRACTION.md:7"},
+    {"quote": "verifier confirmed by exhaustive grep that no B578-D5 or \"kubota\" sub-cell exists anywhere in the repo", "where": "frontier/B578_debt_clearing/LEDGER_RAW.md:66"},
+    {"quote": "verifier confirmed no D9 sub-cell exists anywhere in CHANGELOG, PROGRESS_LOG, or frontier", "where": "frontier/B578_debt_clearing/LEDGER_RAW.md:114"},
+    {"quote": "the generating script no longer exists, and the available evidence... points instead to a plain under-determined rational CRT reconstruction", "where": "frontier/B578_debt_clearing/LEDGER_RAW.md:56"},
+    {"quote": "no in-repo theorem maps γ onto g_M", "where": "frontier/B578_debt_clearing/LEDGER_RAW.md:40"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "None of D1/D2/D5/D6/D7/D8/D10's underlying reproducer scripts are among this packet's listed files (only the ledger/results prose and a hygiene D5 note); a stranger cannot rerun any of these ten cells from the files sampled here.", "where": "frontier/B578_debt_clearing/ (whole arc dir; scripts referenced but not packeted)"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "D2's claimed-proof was retracted at synthesis (verifier overturn) yet the arc has no arc_verdict.json/FINDINGS.md of its own recording that overturn as the arc's headline -- it is buried inside LEDGER_RAW prose; a downstream reader skimming only a verdict file would miss it.", "where": "frontier/B578_debt_clearing/LEDGER_RAW.md 'D2'"},
+    {"kind": "OTHER", "detail": "Two of the ten 'debts' processed (D5, D9 in the ledger's own numbering) were literal placeholder text ('test') submitted by a sub-agent and rightly voided; this is a workflow-integrity issue (agents fabricating/placeholder-submitting work) worth the seat's attention even though it was caught.", "where": "frontier/B578_debt_clearing/LEDGER_RAW.md D5/D9"}
+   ],
+   "seat_note": "A genuinely useful self-audit that caught a real overclaim (D2) and a real number-theory error (the Kubota-Leopoldt misidentification), but the packet gives no reproducer code for any of the ten cells, so none of the 'CLEARED' verdicts are independently checkable from what was read here."
+  },
+  {
+   "arc": "B579_session_handoff",
+   "source": "main",
+   "files_read": [
+    "frontier/B579_session_handoff/FINDINGS.md",
+    "frontier/B579_session_handoff/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE: The July-14 handoff is deflated: its T(F) characteristic polynomial is wrong (true one is the banked D4 quartic), two attributions fail, the phi-power scan is routed to hints.",
+   "log_says": "Handoff predates B577; its narrative and PC26/L60 gating are superseded by the reconciliation; matches FINDINGS.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "T(F) char poly corrected to x^4-2x^3-5x^2-4x-1 (the banked rung-1 tower quartic)", "where": "FINDINGS.md 'Verified from the handoff'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "stated as 'locked' and matching a B571-item-B5 PSLQ candidate; no script sampled in this packet"},
+    {"what": "CMB null: no log-periodic golden-ratio modulation in Planck 2018 TT residuals (SNR -0.7)", "where": "FINDINGS.md 'The data scan'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "recorded as a 'seat-reported null' with 'optional in-sandbox replication registered, low priority' -- i.e. explicitly NOT independently reproduced by this arc"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is itself a verify-don't-trust audit of an incoming handoff document, correcting two false attribution claims and one wrong polynomial; no separate belt exists over it.",
+   "absence_claims": [
+    {"quote": "α_s(M_Z) = 1/(2φ³) (0.04σ observed; five derivation attempts failed — the handoff's own honest verdict: observed coincidence, not a prediction)", "where": "frontier/B579_session_handoff/FINDINGS.md 'The data scan'"},
+    {"quote": "no log-periodic golden-ratio modulation in Planck 2018 TT residuals against proper ΛCDM (SNR −0.7; the initial 7× excess was a smoothing artifact, honestly killed)", "where": "frontier/B579_session_handoff/FINDINGS.md 'The data scan'"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The routed HINT_LEDGER items (alpha_s(M_Z)=1/(2phi^3), sin^2(theta_13)=1/phi^8, Koide<->h(27)=2/3) are exactly the pattern the seat is told to watch for -- numerology matches with no derivation, explicitly acknowledged in-arc as failed/unearned and routed to a hint ledger rather than CLAIMS.md. Correctly handled here, but the underlying observable-sounding numbers exist in the repo's hint ledger regardless.", "where": "frontier/B579_session_handoff/FINDINGS.md 'The data scan'"}
+   ],
+   "seat_note": "This arc is the one item in the batch that actually names measurable quantities (alpha_s, sin^2(theta_13), sin^2(theta_W), a CMB power-spectrum residual) and values -- but every one is explicitly killed, retracted, or downgraded to a recorded-but-unearned hint, so nothing here supports an OBSERVABLE claim of record."
+  },
+  {
+   "arc": "B580_chord_program",
+   "source": "main",
+   "files_read": [
+    "frontier/B580_chord_program/LITERATURE_FRAMING.md",
+    "frontier/B580_chord_program/PREREGISTRATION.md",
+    "frontier/B580_chord_program/ROUND1_TRANSCRIPT.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false); ROUND1_TRANSCRIPT is the closest thing to a synthesis, concluding Round-1 with the SM-comparison clauses of THE_SELECTION_RULES.md unchanged (M not-evaluable, T passes, S fails, D fails, Lambda fails) and three phi-power hints (H128-H130) killed blind.",
+   "log_says": "Chord program preregistered as the owner's coupling thesis made computable; Round 1 complete with the level-1 state = knot-independent vacuum column, filling covectors span exactly the theta-even plane, H128-H130 killed blind, THE DIAL MAP banked.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Q1: level-1 abelian state vector is knot-independent (the unknot's own vacuum column)", "where": "ROUND1_TRANSCRIPT.md 'Q1'", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described with SVD rank-2 reproduced at 576 slopes to 1e-15, but the transcript itself notes 'q1_part2.py's naive 3x3 reconstruction is numerically broken and superseded' and its artifacts were only committed later (B580-Q1R, not in this packet)"},
+    {"what": "G1 mirror-double dial map: theta-odd slots {4,8} -> full e6 closure (dim 78), theta-even -> f4 (52), untwisted -> sl2 (3)", "where": "ROUND1_TRANSCRIPT.md 'G1'", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "explicitly noted 'one stage of the fresh rerun was time-boxed rather than run to completion' and the underlying G1 code was later found (B582/B598 log entries) to have never been committed at the time of this claim -- see B582's arc for the self-correction"},
+    {"what": "H128/H129/H130 (golden-ratio physics hints) killed blind against all unforced transcript numbers", "where": "ROUND1_TRANSCRIPT.md '2. THE COMPARISON'", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as checked against every computed number in the transcript, but no single script is listed in this packet that performs the check end-to-end"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "ROUND1_TRANSCRIPT.md states 'Verdicts below follow the adversarial vreason audits, not the cells' self-reported headlines' -- i.e. an audit process exists and demoted at least Q2/Q3, but no separate belt/verification directory is in this packet.",
+   "absence_claims": [
+    {"quote": "H129 (sin²θ₁₃ = 1/φ⁸ ≈ 0.0213): DOES NOT APPEAR — KILLED in this channel... no φ-power structure exists anywhere in the computed data.", "where": "frontier/B580_chord_program/ROUND1_TRANSCRIPT.md:42"},
+    {"quote": "H128 ... DOES NOT APPEAR — KILLED in this channel. No golden-ratio quantity occurs anywhere in the traverse's unforced numbers", "where": "frontier/B580_chord_program/ROUND1_TRANSCRIPT.md '2. THE COMPARISON'"},
+    {"quote": "5₂ is not fibered (non-monic Alexander polynomial, two independent methods)", "where": "frontier/B580_chord_program/ROUND1_TRANSCRIPT.md 'CTRL'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "Q1's strongest sub-claim ('theta-odd = 0 exactly') is explicitly demoted in the transcript's own banking note to 'cited-pending-computation' -- the in-sandbox-proven fact is only unreachability, not vanishing -- yet earlier prose in the same transcript states the stronger claim before the demotion is applied.", "where": "frontier/B580_chord_program/ROUND1_TRANSCRIPT.md 'BANKING NOTE'"},
+    {"kind": "GITIGNORED_WITNESS", "detail": "No .txt/.json witness or reproducer script for Round 1's cells (Q1-Q4, G1, CTRL) is present in this packet; ROUND1_TRANSCRIPT is prose-only.", "where": "frontier/B580_chord_program/ (dir listing)"}
+   ],
+   "seat_note": "An unusually disciplined negative-results program (three phi-power hints explicitly killed blind, a genuine null protocol with controls) but every headline number in this transcript traces to code not included in the packet, and at least one sub-claim (Q1's exact theta-odd vanishing) is walked back within the same document."
+  },
+  {
+   "arc": "B581_six_torsions",
+   "source": "main",
+   "files_read": [
+    "frontier/B581_six_torsions/FINDINGS.md",
+    "frontier/B581_six_torsions/arc_verdict.json",
+    "frontier/B581_six_torsions/six_torsions.py",
+    "frontier/B581_six_torsions/six_torsions_results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: Computed the six twisted Alexander torsions at the E6 exponents; sign(tau_m) = (-1)^m gives the chirality fold a scalar signature across six invariants.",
+   "log_says": "Matches exactly: six exact torsions with factorizations, sign law, blind-then-compared jewel search (mostly negative), reproduced/re-confirmed at Review 17 (units convention note added).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Six exact twisted Alexander polynomials Delta_m(t) at Sym^2m(rho_geo), m in {1,4,5,7,8,11}", "where": "six_torsions.py run_block()/polydiv(); six_torsions_results.json (committed data)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Q(sqrt-3) arithmetic, control gate reproduces classical Alexander t^2-3t+1 before any block runs (assert at line ~171); full witness JSON committed"},
+    {"what": "sign(tau_m) = (-1)^m sign law", "where": "FINDINGS.md 'THE SIGN LAW'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "table of six exact integers/factorizations derived from the committed JSON; FINDINGS itself flags the law as 'likely PROVABLE... registered as the proof target' i.e. not yet proved, only observed on 6 data points (p~1.6% null)"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Review 17 independently re-confirmed the sign law and all six factorizations from the banked JSON and caught a units-normalization gotcha (raw JSON stores unnormalized quotient; a note was added to FINDINGS to prevent misreading signs).",
+   "absence_claims": [
+    {"quote": "The other listed jewel numbers (2/3, 15/169, the golden and D4 and zeta9 polynomials) do NOT appear as factors or values", "where": "frontier/B581_six_torsions/FINDINGS.md 'The comparison phase'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The sign law is banked as a finding despite the arc's own honesty note that its statistical weight is a single 1-in-64 pattern (~1.6%) and that it is 'likely provable' but not yet proved -- a reasonable but non-trivial epistemic leap from 6 data points to a stated 'law'.", "where": "frontier/B581_six_torsions/FINDINGS.md 'THE SIGN LAW'"}
+   ],
+   "seat_note": "A clean, exactly-reproducible arithmetic-topology computation with a genuine committed witness file; the headline sign law is honestly flagged as unproven pattern-matching on six points, which is the correct epistemic stance even though the verdict json says PROVED for the vanishing/computation, not for the sign law's generality."
+  },
+  {
+   "arc": "B582_chiral_play",
+   "source": "main",
+   "files_read": [
+    "frontier/B582_chiral_play/FINDINGS.md",
+    "frontier/B582_chiral_play/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: The theta-odd-twisted mirror-double has E6 representations with Zariski closure full E6(C), so its 27 is complex -- chiral matter constructed.",
+   "log_says": "Same headline logged 2026-07-14, BUT the log for 2026-07-15 (B598 self-correction entry) records: 'my item-6 adjudication (\"B582's finite-t certificate is locked\") was WRONG — the lock contains the 27-complexity fact and dim e6=78 arithmetic, deferring the closure to the G1 dial map whose code was NEVER COMMITTED; the finite-t existence of the chiral play is NOT independently certified in-repo... all such statements are formal/jet-level until the in-repo G1 recomputation'; the hole was then closed same day by B598 step 7 ('G1-FINITE').",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "Amalgam's Zariski closure H = E6(C) because Lie(H) contains e6 (connected algebraic subgroup determined by its Lie algebra)", "where": "FINDINGS.md 'The chain'", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "at the time this FINDINGS.md was written the underlying G1 dial-map code was, per the log's own 2026-07-15 self-correction, NEVER COMMITTED to the repo -- the closure step rested on a formal/jet-level argument, not committed code, until B598 (a separate arc) closed the hole the next day"},
+    {"what": "27 of E6 is complex (banked AP4-verifier fact)", "where": "FINDINGS.md 'The chain' point 3", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited from elsewhere, re-verified 'in the lock' per FINDINGS but the lock file is not in this packet"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "No verification/ directory in this arc; the FINDINGS.md and arc_verdict.json as written do NOT mention the missing-code gap that the log records for the following day -- the correction lives only in PROGRESS_LOG.md, not in this arc's own files.",
+   "absence_claims": [
+    {"quote": "the G1 dial map whose code was NEVER COMMITTED", "where": "/home/user/origin-axiom/PROGRESS_LOG.md:4093 (2026-07-15 entry, self-correction referencing B582)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md and arc_verdict.json for B582 make no mention that the closure step's supporting code was uncommitted at publication time and only certified the next day by a different arc (B598); a reader of B582's own files alone would not know the PROVED verdict briefly rested on formal argument rather than committed code.", "where": "frontier/B582_chiral_play/FINDINGS.md (whole file; the gap is recorded only in PROGRESS_LOG.md, not here)"}
+   ],
+   "seat_note": "The physics-relevant headline (a two-copy coupled construction can be chiral matter) is real Lie theory, but this specific arc's own committed files do not disclose that its central closure computation briefly outran its own code -- a textbook case of the seat's 'claim vs computed' distinction, caught and fixed by a sibling arc rather than by this one."
+  },
+  {
+   "arc": "B583_chiral_content",
+   "source": "main",
+   "files_read": [
+    "frontier/B583_chiral_content/FINDINGS.md",
+    "frontier/B583_chiral_content/READING_RAW.md",
+    "frontier/B583_chiral_content/arc_verdict.json",
+    "frontier/B583_chiral_content/x2r_recompute.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: The meeting stays complex-chiral with no real form, vacuum Dehn-filling probes can never hear chirality, and the corrected interference obeys a quadrature theorem.",
+   "log_says": "X1 no real form (banked B572 witness cross-check); X2 FAILED as computed (Vol/CS role inversion, verifier catch); X3 THE SECOND UNHEARABILITY THEOREM (verified); matches FINDINGS/READING_RAW closely.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "X1: coupled character non-real, tr27(a1b1) matches banked B572 value exactly", "where": "READING_RAW.md 'X1'", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "READING_RAW itself states 'X1's verification is still in progress and everything said of it below is provisional' and 'This cell must not bank until it does' -- yet the arc_verdict.json banks it as PROVED"},
+    {"what": "X2 (original): interference amplitude = exact torsion x transcendental phase", "where": "READING_RAW.md 'X2'", "kind": "FITTED", "reproducible_from_committed": "no", "why": "explicitly FAILED adversarial verification: Vol/CS roles were inverted (a dropped factor of i) and a PSLQ null was overclaimed as 'transcendental' -- the original X2 headline is retracted in-file"},
+    {"what": "X2R (corrected): quadrature theorem |sum c_m/sqrt(tau_m)|^2 = |chiral|^2+|gauge|^2, using B581's sign law", "where": "x2r_recompute.py (full script)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "reads the committed six_torsions_results.json, derives tau_m, asserts the phase dichotomy and the quadrature identity numerically at several kappa; self-contained runnable script"},
+    {"what": "X3: Dehn-filling covectors span exactly the theta-even 6-plane at level 2 (rank exactly 6, theta-odd projection 3.85e-13)", "where": "READING_RAW.md 'X3'", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as verified via an independently-coded Kac-Peterson builder and an exact rational-arithmetic proof that theta preserves h(lambda); script not among sampled files in this packet"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "READING_RAW.md is explicitly an 'adversarial audit' pass binding over the cells' self-reported headlines; X2's failure and X1's provisional status are both belt-caught within this same arc.",
+   "absence_claims": [
+    {"quote": "no map is ever constructed from the B469... object into the structure θ and σ actually act on", "where": "frontier/B578_debt_clearing/LEDGER_RAW.md (cross-referenced D2, not B583 itself -- see B578 arc)"},
+    {"quote": "This cell must not bank until it does [complete verification]", "where": "frontier/B583_chiral_content/READING_RAW.md 'X1' Audit binding"},
+    {"quote": "'14Vol/π is transcendental' was asserted from a PSLQ null plus a failed nsimplify. What was computed is 'no rational·π relation found by PSLQ to 60 digits.'", "where": "frontier/B583_chiral_content/READING_RAW.md 'X2'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "FITTED_VALUE", "detail": "The original X2 cell fitted a 'torsion x transcendental phase' narrative onto a Vol/CS assembly with the physical roles of Vol and CS inverted (a dropped factor of i), producing a spurious oscillatory-phase headline later retracted; the corrected X2R keeps only the real, sign-lawful part.", "where": "frontier/B583_chiral_content/READING_RAW.md 'X2 — the σ-visible interference term'"},
+    {"kind": "MISSING_WITNESS", "detail": "arc_verdict.json bank X1 as part of a PROVED verdict even though READING_RAW.md's own text states X1's verification was still pending at time of writing and explicitly says the cell 'must not bank until it does'.", "where": "frontier/B583_chiral_content/arc_verdict.json vs READING_RAW.md 'X1'"}
+   ],
+   "seat_note": "A mixed bag within one arc: X3 is a real unhearability theorem, X2's first attempt was a genuine physics error (phase/rate role inversion) caught and corrected in the same file (good transparency), but X1 appears to have been banked into the PROVED verdict before its own stated verification gate closed."
+  },
+  {
+   "arc": "B584_theta_listener",
+   "source": "main",
+   "files_read": [
+    "frontier/B584_theta_listener/FINDINGS.md",
+    "frontier/B584_theta_listener/PREREGISTRATION.md",
+    "frontier/B584_theta_listener/arc_verdict.json",
+    "frontier/B584_theta_listener/theta_listener.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: On the golden stage SU(3)_2 the entire amplitude -1/phi is theta-odd, heard only by the antiphase mirror channel; the theta-even block cancels exactly.",
+   "log_says": "Matches: golden amplitude entirely theta-odd; bare knot deafness (J3=J3bar); the operational identity tr_odd=(Z-Z_C)/2; consistent with later B585/B587/B588/B591 chain that builds directly on this result.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "SU(3)_2 golden monodromy theta-odd 2x2 block: trace -1/phi, order-10 golden rotation; theta-even block trace exactly 0", "where": "theta_listener.py R3-1 section, asserts at lines with tr_even/tr_odd checks", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained runnable script reusing B238/B245 machinery, with explicit preregistered falsifiers that did not fire (checked via assert)"},
+    {"what": "J3(4_1) = J3bar(4_1) exactly (bare knot states are theta-even, R3-3)", "where": "theta_listener.py R3-3 block, worst<1e-9 assert", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "compared at 8 generic q values on the unit circle using B245's validated IMMM formulas"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No separate verification/ directory; gates are inline asserts in the reproducer itself and blind/pre-registered falsifiers are stated in PREREGISTRATION.md before computing.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-disciplined blind/preregistered computation on pure representation-theoretic/modular data; explicitly firewalled from any SM claim, and correctly so -- nothing here names a measurable quantity."
+  },
+  {
+   "arc": "B585_listener_law",
+   "source": "main",
+   "files_read": [
+    "frontier/B585_listener_law/FINDINGS.md",
+    "frontier/B585_listener_law/PREREGISTRATION.md",
+    "frontier/B585_listener_law/arc_verdict.json",
+    "frontier/B585_listener_law/listener_law.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: The theta-odd channel is exactly what the two SL(2,Z) lifts agree on, and the figure-eight's chiral SU(3)_k trace obeys the two-tone law 1*[4|kappa]-(1/phi)*[5|kappa] (5/5 held-out hits); the field-containment mechanism is refuted.",
+   "log_says": "Matches: LAW-O confirmed on held-out kappa=13..17 (5/5 hits, including the kappa=20 collision predicted correctly); LAW-E failed its own hold-out and is banked as a dead guess; mechanism candidate M1 explicitly refuted by its own preregistered prediction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "N1 naming theorem: tr(C rho(W)) = -tr(rho(S^2 W)) exactly, verified on 4 words", "where": "listener_law.py 'N1' section asserts", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct matrix identity checked to 1e-9 across multiple words in the same script"},
+    {"what": "LAW-O: tr_odd(kappa) = [4|kappa]-(1/phi)[5|kappa], blind table k=1..12, held out and confirmed on k=13..17 (5/5)", "where": "listener_law.py 'K1'/'HOLD-OUT' sections", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "table printed blind before law-hunting per the script's own discipline; hold-out predictions checked with explicit HIT/MISS printouts"},
+    {"what": "M1 mechanism (sqrt5 in Q(zeta_kappa) field-containment) REFUTED by its own preregistered predictions", "where": "listener_law.py 'M1' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "silver/bronze/RRL loci checked against preregistered predicted divisibility loci and found not to match, printed and banked as a negative"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Gates are inline asserts (k=2 must reproduce B584's tr_even=0/tr_odd=-1/phi/order-10 exactly); no separate belt directory, but the blind/hold-out discipline functions as a self-belt.",
+   "absence_claims": [
+    {"quote": "LAW-E (the even channel) FAILED its hold-out (κ=17 predicted 0, measured +1; κ=18 predicted −1, measured 0). The even channel's law is OPEN", "where": "frontier/B585_listener_law/FINDINGS.md 'K1'"},
+    {"quote": "No simple function of κ found (honest)", "where": "frontier/B585_listener_law/FINDINGS.md 'The clock table'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A model example of the discipline the seat wants: blind table, preregistered hold-out test that actually could have failed (and did fail for LAW-E, which is honestly banked as a dead law), and a mechanism hypothesis stated, tested, and refuted in the open."
+  },
+  {
+   "arc": "B586_round3_handoff",
+   "source": "main",
+   "files_read": [
+    "frontier/B586_round3_handoff/FINDINGS.md",
+    "frontier/B586_round3_handoff/PREREGISTRATION.md",
+    "frontier/B586_round3_handoff/arc_verdict.json",
+    "frontier/B586_round3_handoff/r3a_e6_pairs.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: The E6 level-2 stage also hears everything (tr_even = 0 exactly, tr_odd = +1) as on the golden stage, -1/phi is stage arithmetic that does not travel, and 4_1's invertibility makes the solo antiphase identically zero.",
+   "log_says": "Matches exactly, including the frame-correction registered before computing (the six Sym-blocks grade the adjoint, not the E6_2 stage's 3 conjugate-pair theta-odd space) and the three new per-pair amplitudes.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "E6_2: tr_even=0 exactly, tr_odd=+1, three per-pair amplitudes computed blind", "where": "r3a_e6_pairs.py full script, asserts C3 gates then computes odd block", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "rebuilds and re-verifies the banked C3 module's gates (|W|=51840, S unitary/symmetric, S^2=+C, (ST)^3=S^2) before extracting new numbers"},
+    {"what": "R3-B: the C-twisted mapping torus is Sol geometry (|tr(-A1)|=3>2), not hyperbolic; census/volume/CS/trace-field questions are ill-posed", "where": "FINDINGS.md 'R3-B'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cites Thurston's torus-bundle trichotomy as a standard theorem (correctly, as a citation) rather than deriving it"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Gates are inline asserts reproducing C3's banked machinery before new extraction; PREREGISTRATION.md records frame corrections BEFORE computing, which functions as a self-check.",
+   "absence_claims": [
+    {"quote": "the −1/φ check found NOTHING on E₆₂ — not among the per-pair amplitudes, not among their ratios.", "where": "frontier/B586_round3_handoff/FINDINGS.md 'Blind result 2'"},
+    {"quote": "the proposed sign-law/torsion comparison is not a defined computation", "where": "frontier/B586_round3_handoff/FINDINGS.md 'R3-A'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Careful verify-don't-trust processing of an external handoff, with an honest frame-correction registered before computing rather than after (avoiding a fitted-post-hoc dictionary); no observable content, purely stage/representation arithmetic."
+  },
+  {
+   "arc": "B587_weil_mechanism",
+   "source": "main",
+   "files_read": [
+    "frontier/B587_weil_mechanism/FINDINGS.md",
+    "frontier/B587_weil_mechanism/PREREGISTRATION.md",
+    "frontier/B587_weil_mechanism/arc_verdict.json",
+    "frontier/B587_weil_mechanism/weil_mechanism.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: The tone mechanism is solved: the SU(3) invariant decomposes into twelve Weyl-twisted Weil Gauss-sum terms whose conductors det(A tensor w - I) explain every tone.",
+   "log_says": "Matches: framework known/cited (Jeffrey 1992, banked B204); this arc computes the SU(3) reach and answers L82; consistent with downstream B588/B591 building on the same twelve-term decomposition.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Decomposition identity (D): Z(W;SU(3)_k) = (1/6) sum_w sign(w) tr(rho_Weil(W) . P_w), verified exactly against banked B238 values for kappa=4..20, three words", "where": "weil_mechanism.py 'W1' loop, assert per kappa", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained script builds the finite Weil rep from scratch and checks against b238.su3_data/wrt_trace at each kappa with 1e-6 tolerance asserts"},
+    {"what": "Conductor menus registered BEFORE the sweep (preregistered predictions for golden/silver/bronze) confirmed", "where": "PREREGISTRATION.md '(M) The tone menu' vs weil_mechanism.py output", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "menus computed via conductor_menu() using exact integer determinants, printed and matched to the preregistered numbers"},
+    {"what": "The closed-form reciprocity proof of each Gauss-sum term (not just the numeric identity)", "where": "FINDINGS.md 'Residuals'", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "explicitly registered as an open residual ('Wave 2'; not yet a theorem at SU(3)') -- the numeric identity is exact over the sampled range but the term-by-term evaluation is not proved in general"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Gates are inline (unitarity of Weil ops, S^2=parity, (D) exact against banked values before menu-reading); no separate verification directory.",
+   "absence_claims": [
+    {"quote": "The general-word / general-N reach (L24(c) proper) stays open beyond SU(3).", "where": "frontier/B587_weil_mechanism/FINDINGS.md 'Residuals'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The FINDINGS itself flags that the per-term Gauss-sum reciprocity is a 'numeric identity exact over 3 words x 17 kappa but... not yet a theorem at SU(3)' -- the mechanism is empirically verified over a finite sampled range, not proved in closed form.", "where": "frontier/B587_weil_mechanism/FINDINGS.md 'Residuals'"}
+   ],
+   "seat_note": "Genuine, reproducible arithmetic computation with committed code and preregistered conductor menus confirmed before comparison; correctly labeled as leaning on a known framework (Jeffrey 1992) rather than claiming novelty for the mechanism itself, and it honestly flags the missing general proof."
+  },
+  {
+   "arc": "B588_sector_exchange",
+   "source": "main",
+   "files_read": [
+    "frontier/B588_sector_exchange/FINDINGS.md",
+    "frontier/B588_sector_exchange/PREREGISTRATION.md",
+    "frontier/B588_sector_exchange/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B588_sector_exchange/sector_exchange.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: Sector exchange proved at the projector level: -1 lies in W(A1) but not W(A2), so identical sqrt5 Gauss data is even on one stage and odd on the other.",
+   "log_says": "Matches; later B591 log entry explicitly ties B588's two Gauss conductors (t+/t-) to the two lifts' torsion homologies, showing the result is load-bearing for a subsequent arc.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "(D_A1) decomposition Z(W;SU(2)_k)=1/2[t+(kappa')-t-(kappa')] verified against banked su2 values across kappa'=3..20", "where": "sector_exchange.py lines ~74-89 assert per kappa'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact assert loop against banked b238 values, tolerance 1e-7"},
+    {"what": "membership fact: -1 in W(A1), -1 not in W(A2); ingredient identity at kappa=5: both A1 and A2 assemblies equal -1/phi", "where": "sector_exchange.py lines 68-112", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct matrix-equality assert (line 68) and numeric identity assert (line 107) in the same self-contained script"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Inline gates only; no separate verification directory sampled.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A short, cleanly computed structural result (a group-theoretic exchange law) with real asserts and no observable content; consistent with and load-bearing for the later B591 manifold arc."
+  },
+  {
+   "arc": "B589_pair_amplitudes",
+   "source": "main",
+   "files_read": [
+    "frontier/B589_pair_amplitudes/FINDINGS.md",
+    "frontier/B589_pair_amplitudes/arc_verdict.json"
+   ],
+   "files_sampled": ["frontier/B589_pair_amplitudes/pair_amplitudes.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: The three E6_2 theta-odd pair amplitudes are exactly the Z/7 sine-kernel moduli times 14th-root phases {+3,-2,-1}, certified to 40+ digits.",
+   "log_says": "Matches; later B594 log entry confirms the same amplitudes are 'minus B589's banked sine-kernel amplitudes' to 1e-9, an independent cross-check from a different arc.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Identification p(pair) = (2/sqrt7)*sin(k*pi/7)*zeta_14^n for the three E6_2 pair amplitudes, moduli match B572's banked Z/7 sine kernel", "where": "pair_amplitudes.py lines ~131-157, mpmath 50-digit precision, findpoly for minimal polynomial", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Weyl-sum collection (Counter over rational exponents, denominator dividing 42) with zero float error, then evaluated at 50 digits; gates reproduce B586's blind amplitudes to 1e-7 before identification"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Inline gates (B586 values reproduced at 50 digits, sum=1) precede the identification step in the same script; this is a characterization of already-banked blind numbers, not a fresh discovery.",
+   "absence_claims": [
+    {"quote": "the phase exponents {3, −2, −1}/14 do NOT match the T-phases (h − c/24 mod 1 = {13, 73, 61}/84) — the phases are not the conformal weights; their grading remains a residual", "where": "frontier/B589_pair_amplitudes/FINDINGS.md 'What grades them'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Rigorous, exact-arithmetic identification of previously-blind numbers with a genuinely certified (40+ digit) closed form; purely representation-theoretic, no observable, and it honestly flags that the phase grading has no known mechanism yet."
+  },
+  {
+   "arc": "B590_revival_remainders",
+   "source": "main",
+   "files_read": [
+    "frontier/B590_revival_remainders/FINDINGS.md",
+    "frontier/B590_revival_remainders/PREREGISTRATION.md",
+    "frontier/B590_revival_remainders/arc_verdict.json",
+    "frontier/B590_revival_remainders/r1_output.txt",
+    "frontier/B590_revival_remainders/v3_output.txt",
+    "frontier/B590_revival_remainders/v3_three_16s.py"
+   ],
+   "files_sampled": ["frontier/B590_revival_remainders/s031_m3_sealing.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED (arc_verdict.json, authored by 'B840 (arc closed at owner direction; was paused 2026-07-14)'): ESTABLISHED the V3 blind deliverable; AND that R1's SEALED verdict was VACUOUS (polish_mp was 18 equations in 22 unknowns, membership test unreachable); UNSETTLED: with the pipeline fixed, m=1 does not seal, so m=3 sealing returns to the open queue.",
+   "log_says": "B840: 'the three loose ends closed; one was hiding a VACUOUS verdict' -- R2/V3 delivered, R1's SEALED was empty; matches exactly. Earlier log (B837) records the arc was 'paused by the owner, bank pending' for weeks before B840 closed it, and (B594) flags an unrelated arc's overclaim against these same unbanked V3 tables.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "V3: nine Phi-orbits of size 3 on the 27, charge split 1/10/16, triple intersection 16^16^16=6, three distinct singlets", "where": "v3_three_16s.py (full script) + v3_output.txt (committed witness)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained script with an in-script gate (node search for the 1/10/16 split) and committed raw output file; read blind per its own prereg"},
+    {"what": "R1's original SEALED verdict at m=3 was VACUOUS: polish_mp had 18 real equations for 22 real unknowns, so mdnewton raised 'cannot solve underdetermined system' on every input and the loop silently continued past the membership test", "where": "FINDINGS.md 'R1' + r1_output.txt (committed traceback)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the diagnosis is demonstrated by an actual committed crash traceback (r1_output.txt) after the underlying bug was fixed with an exact torus gauge; a genuinely transparent bug-catch"},
+    {"what": "With the pipeline fixed, m=1 does NOT seal: escapes=13/13, lindep heights ~10^50 against a 10^6 gate", "where": "r1_output.txt + FINDINGS.md 'With the pipeline working'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "printed directly in the committed r1_output.txt; an assert deliberately fires (AssertionError: m=1 validation FAILED) and is reported as such rather than hidden"},
+    {"what": "bronze b++RRRLLL trace field computed as degree 8, contradicting the prereg's degree-6 citation of B578-D6", "where": "r1_output.txt + FINDINGS.md 'Also recorded'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "minpoly printed exactly in r1_output.txt; explicitly flagged as 'unresolved' rather than silently reconciled -- this is the same degree-6-vs-8 discrepancy B578-D6 itself flagged as [NEW OPEN N4]"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This arc IS itself a recompute/audit that discovered its own predecessor's verdict was vacuous (an MB12-class silent-pass bug); s031_m3_sealing.py contains its own positive/negative controls (membership classifier gates) which are asserted before any sealing verdict is trusted.",
+   "absence_claims": [
+    {"quote": "That verdict was empty — nothing was ever tested", "where": "frontier/B590_revival_remainders/FINDINGS.md 'R1'"},
+    {"quote": "the script computes the bronze b++RRRLLL trace field as degree 8... while the prereg's framing quotes B578-D6 for degree 6. That discrepancy is unresolved.", "where": "frontier/B590_revival_remainders/FINDINGS.md:63"},
+    {"quote": "Whether the m=1 escapes are a genuine property of these off-sublocus fixed points or a further pipeline defect is not determined here, and the m=3 question the cell was written to answer remains open.", "where": "frontier/B590_revival_remainders/FINDINGS.md 'With the pipeline working'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "Before this arc's fix, the S031 m=3 'SEALED' verdict (from a prior arc, B571/B137 lineage) was printed with 0 escapes on both seeds purely because the underlying solver raised an exception on every input and the loop swallowed it before the field-membership test ever ran -- a textbook silently-vacuous computation (MB12 class) that persisted until this arc's audit.", "where": "frontier/B590_revival_remainders/FINDINGS.md 'R1 — the sealing verdict was VACUOUS'"},
+    {"kind": "OTHER", "detail": "The degree-6-vs-degree-8 discrepancy for K3 (the bronze invariant trace field) is now flagged as unresolved in at least two places (B578-D6's own [NEW OPEN N4] and this arc's independent recomputation), i.e. a load-bearing number the repo currently states two different ways depending on which script computed it.", "where": "frontier/B590_revival_remainders/FINDINGS.md 'Also recorded'; cf. frontier/B578_debt_clearing/LEDGER_RAW.md 'D6'"}
+   ],
+   "seat_note": "The most valuable arc in this batch for the seat's purposes: it demonstrates in committed code and a committed traceback that a previously-banked 'SEALED' verdict was a silent no-op, and it reports the corrected pipeline's actual (negative/open) result honestly rather than re-declaring victory."
+  },
+  {
+   "arc": "B591_chord_manifold",
+   "source": "main",
+   "files_read": [
+    "frontier/B591_chord_manifold/FINDINGS.md",
+    "frontier/B591_chord_manifold/arc_verdict.json",
+    "frontier/B591_chord_manifold/chord_manifold.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED: The two lifts' first homologies are det(A-I) and det(A+I), so the golden 5-tone's conductor is literally the torsion of the chord's carrier.",
+   "log_says": "Matches; log records a same-day terminology correction (2026-07-15): 'graph manifold' was wrong for the complement-double (it is Haken with two hyperbolic JSJ pieces, since graph manifolds have only Seifert pieces) -- and the version of FINDINGS.md read here already contains the corrected wording inline.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "H1 of plain vs mirror-twisted torus bundles via exact Smith normal form, for golden/silver/bronze monodromies", "where": "chord_manifold.py h1_bundle() + M1 asserts", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy exact SNF, asserted against expected torsion groups (e.g. Z/5 golden-twisted, Z/2+Z/4 silver-twisted, Z/13 bronze-twisted)"},
+    {"what": "Delta_41(-1) = 5 = det(A1+I) = |H1(Sigma_2(4_1))| -- three descriptions of the same integer", "where": "chord_manifold.py M2 section, assert d_m1==5 and detAI==5", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic char-poly evaluation plus exact determinant, both asserted equal to 5"},
+    {"what": "Sigma_2(4_1) = L(5,2), verified via SnapPy's cyclic double cover", "where": "chord_manifold.py M3 section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the 2-bridge identification itself is CITED as standard, but the H1=Z/5 check is independently run in SnapPy inside a try/except (falls back to citing only if SnapPy unavailable)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "Inline asserts only; the script gracefully degrades to a citation if SnapPy is unavailable in the environment, which is disclosed in the code's own except branch rather than hidden.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Clean, self-contained exact computation connecting several previously-computed numbers (an Alexander polynomial value, a Gauss-sum conductor, and a branched-cover's homology) into one integer; purely topological/arithmetic, explicitly firewalled from any SM claim."
+  }
+ ]
+}

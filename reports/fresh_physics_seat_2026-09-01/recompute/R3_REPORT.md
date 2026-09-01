@@ -526,3 +526,8 @@ Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   disc 6237 = 3⁴·7·11 MATCHES (monogenic, 5 unramified). **B850's multiplicity maxima (4/3/4/8/2) are word-count
   artefacts**: SnapPy's geometric multiplicities to Re ℓ ≤ 4 are 12/12/11/11/6, so "m009 = 8 exceeds m004 = 4" is
   not a fact about the manifolds.
+- **Committed reruns (B854, B866 support, B919) — `R38_committed_reruns/`**: B854's exact E6 centralizer script
+  reruns clean (u(1)⁴, abelian — reproducible); B866's third-route support reproduces B854 and the nilpotent-orbit
+  table; **B919 (sin²θ_W = 3/8 traces) cannot be run: it needs an uncommitted external run dir (`HANDOFF6_RUN`,
+  `cw.py`) that no head carries, and its test asserts substrings of the stored results.json** — the 3/8 is a
+  recorded string at one prime, not a reproducible computation on this repository.

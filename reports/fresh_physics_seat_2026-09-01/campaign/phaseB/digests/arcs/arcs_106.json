@@ -1,0 +1,212 @@
+{
+ "batch": "arcs_106",
+ "arcs": [
+  {
+   "arc": "B1048_the_seam_cluster_closed",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py (head+grep sample)"],
+   "files_sampled": ["verify.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE SEAM CLUSTER IS CLOSED, AND THE HEADLINE IS NOT THE SEAM: THE SURVIVOR SITTING BESIDE THE CORPUS'S WORST TRAP IS A THEOREM THAT NO CURATED SURFACE CARRIED (B408's 'seam does not contract' headline is retracted by its own body; B426 upgrades the correction to a Galois-orbit contraction theorem, ratio minpoly 1000x^3-1500x^2+360x-19, arithmetic mean exactly 1/2; B449/B427 show the seam field is forced with level as conductor; B363/B402/B478 show the seam is an address property). 14 rows = 8 restored + 3 declined-retraction + 3 declined.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "minimal polynomial of seam-envelope ratio (1000x^3-1500x^2+360x-19) and its three exact means (1/2, sqrt51/10, (19/1000)^(1/3))", "where": "verify.py checks A_the_ratios_minimal_polynomial_is_B426s, A_arithmetic_mean_is_EXACTLY_one_half etc.", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "computed live with sympy exact arithmetic (minimal_polynomial, discriminant) inside the committed verify.py, cross-checked against a companion test file"},
+    {"what": "power-mean crossover p* = 5.5932...", "where": "verify.py A_the_exact_boundary__power_means_contract_below_p_star", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "computed numerically in the script from the same cubic's roots"},
+    {"what": "Alexander polynomial fiberedness / disc(GEOMETRY)xdisc(DYNAMICS) reframing for B449/B427 (level-15 conductor, sigma_17 Galois fix)", "where": "FINDINGS.md 'THE SEAM FIELD IS FORCED' section", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "this consolidation arc cites B449/B427's own results rather than recomputing them itself; verify.py in this arc checks textual/structural claims about those bodies, not a from-scratch recomputation of the Alexander-polynomial arithmetic"},
+    {"what": "225 one-sided Heisenberg twists are 'dark' (B363 necessity result)", "where": "FINDINGS.md 'THE SEAM IS AN ADDRESS PROPERTY'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "explicitly flagged by the arc itself as NUMERICAL tier (double precision), carried by citation from B363, not re-run in this arc"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This is a consolidation/restoration arc: it re-derives some earlier arcs' central claims symbolically from scratch (the seam ratio theorem) but carries others (B449/B427/B363/B402/B478) by citation/text-matching against the bodies rather than recomputation.",
+   "absence_claims": [
+    {"quote": "measured with this arc's rows excluded: B426 appears on none of the five curated surfaces", "where": "FINDINGS.md, 'The headline is not the seam' section"},
+    {"quote": "B1046 ... explicitly refused to bulk-write 31 RETRACTIONS rows without 31 body reads", "where": "arc_verdict.json claim_one_line"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The 'seam' quantity is identified with a specific cyclotomic/Galois-orbit number via a matching of numerical value (1.2170) to a computed conjugate root, with the physical meaning of 'seam' not established independently of this coincidence.", "where": "FINDINGS.md theorem section"},
+    {"kind": "OTHER", "detail": "Pure knot-theory/arithmetic consolidation content (trace fields, conductors, Alexander polynomials) with no stated physical observable; relevance to the thesis's SM claims is asserted via 'WHAT_WOULD_COUNT grades Tier 2 on a scale lever' but no observable value is derived here.", "where": "arc_verdict.json"}
+   ],
+   "seat_note": "This is careful, symbolically re-verified pure mathematics (exact sympy computations, reproducible), but it is entirely internal bookkeeping about the corpus's own knot-theoretic seam construction with no observable physics content stated or computed."
+  },
+  {
+   "arc": "B1049_the_wrapped_exclusion",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE FULL SUITE FOUND FIVE RED LOCKS THAT 94 TARGETED TESTS DID NOT: a full 4074-test suite run to completion (48 minutes, uncontended box) found 5 failures that targeted-test runs of 88/94 tests missed, tracing to (A) a per-line markdown exclusion idiom defeated by line-wrapping, and (B) a retraction-sweep instrument blind to an arc's own uncommitted FINDINGS.md.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "B1037's band count regression 37->36 caused by markdown-wrapping defeating a per-line exclusion filter", "where": "FINDINGS.md 'Defect A'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the repair (scripts/checks/md_blocks.py) is a committed shared module named in its own docstring; verify.py checks its use across 4 named consumers"},
+    {"what": "suite runtime corrected from 81 minutes to 48 minutes (BANKING_PROTOCOL row 18)", "where": "FINDINGS.md 'one measurement corrected'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "a wall-clock timing measurement from a specific run, not independently re-timed by this arc's own verify.py -- reproducibility depends on hardware/contention, which the arc itself flags as the very defect being corrected"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verify.py (24 checks) directly inspects the repaired scripts and their consumers rather than merely asserting the fix; a companion test file exists."
+  ,
+   "absence_claims": [
+    {"quote": "the two failures could not have been caught: neither its own sweep nor its own gate run", "where": "FINDINGS.md 'Defect B'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The 48-minute / 81-minute suite timings are wall-clock, environment-dependent numbers asserted without a reproducible witness other than prose in BANKING_PROTOCOL.md.", "where": "FINDINGS.md 'one measurement corrected'"}
+   ],
+   "seat_note": "Pure repository-tooling/process repair arc; no mathematical or physical content, only a fix to test-infrastructure and documentation hygiene."
+  },
+  {
+   "arc": "B1050_the_projective_wall",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py (head + grep sample)"],
+   "files_sampled": ["verify.py"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- SIX ARCS FOUND THE SAME WALL SEPARATELY: the projective/central-sign quotient of the trace-map state space is sound in every sense (LEGITIMATE/CANONICAL/NATURAL/SYMPLECTIC/TOPOLOGICAL/PINNED) but none of the six derives the physics selector I=1/4; restored as one LAW_MAP row graded WALL. Also: L166 registered -- 14 arcs corpus-wide (B0-B99) carry arc_verdict:PROVED over bodies whose own '## Verdict' heading reads STALLED (12) or NEEDS_VALIDATION (2).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "det(DT) = -1, det(DT^2) = +1, det(DS) = +1 for all four sign pairs, verified on the bracket generators", "where": "FINDINGS.md 'B21's mechanism, made exact'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py contains symbolic (sympy) Jacobian computations, stated as 66 checks all symbolic"},
+    {"what": "the quotient carries no information about the invariant's value (B30's symbolic control, period-3 return for symbolic c)", "where": "FINDINGS.md 'The wall stated sharply'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py check THE_WALL__the_period_3_return_holds_for_SYMBOLIC_c_not_sampled_values runs symbolically, not by sampling"},
+    {"what": "L166 count: 14 genuine contradictions (12 STALLED + 2 NEEDS_VALIDATION) vs an initial miscount of 24", "where": "FINDINGS.md 'L166 -- the metadata disagrees'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py has dedicated checks (L166_twelve_arcs_body_verdict_is_STALLED etc.) that re-extract the verdict block from each arc body and compare to arc_verdict.json"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "66 symbolic checks plus 11 test locks; the corrected extraction is anchored to the '## Verdict' heading rather than regex-matching bold text, addressing a stated earlier false-positive count.",
+   "absence_claims": [
+    {"quote": "no curated surface said so", "where": "FINDINGS.md title/section 1"},
+    {"quote": "L166 ... no gate built ... Repairing the fourteen arc_verdict.json files would move what every downstream sweep counts ... which makes it an owner call, not a drafting one", "where": "FINDINGS.md 'L166' section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "L166 identifies 14 arcs across the corpus with self-contradictory verdict metadata (PROVED in arc_verdict.json vs STALLED/NEEDS_VALIDATION in the FINDINGS body) and explicitly declines to repair them, leaving the corpus-wide PROVED-count and debt ledgers built on the uncorrected metadata.", "where": "FINDINGS.md 'L166' section; verify.py L166_* checks"},
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "The row is filed on LAW_MAP as a proved 'WALL' (impossibility of deriving the selector via naturality routes), but the underlying six arcs are all individually STALLED and the wall's scope is stated as 'six routes tried, not exhaustive' -- risk that a reader of LAW_MAP encounters WALL as stronger than 'six specific approaches failed'.", "where": "FINDINGS.md 'The scope that must travel' paragraph"}
+   ],
+   "seat_note": "The underlying math (Poisson/anti-Poisson structure, symbolic period-3 orbit) is genuinely computed and exact, but the arc's most consequential finding for the whole corpus's audit trail is the 14-arc verdict/body metadata mismatch (L166), registered but explicitly left unrepaired as an owner decision -- a real and unresolved integrity gap in how 'PROVED' is counted corpus-wide."
+  },
+  {
+   "arc": "B1051_the_band_closed",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "verify.py (head + grep sample)"],
+   "files_sampled": ["verify.py"],
+   "files_listed_only": ["results.json"],
+   "claim_of_record": "PROVED -- B0-B99 closed: 16 rows = 6 restored as the wall (B1050) + 5 restored here (Dickson fixed-line factorization B55/B57/B63; rank-1 two-block obstruction B70; cusp k-set = quantum-group level set B76) + 2 retired as law-siblings (B27, B83) + 3 declined (B59, B60, B61).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "fixed-line characteristic polynomial factors as Dickson pieces over Z[m], m-independent shape", "where": "FINDINGS.md 'THE METALLIC FIXED LINE IS DICKSON'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py performs symbolic sympy factorization checks (B57_c_equals_3_splits_for_every_m, CROSS_LINK checks)"},
+    {"what": "B70's two-block obstruction is rank-1, re-run end-to-end in 14m09s giving RANK-1 for all three SL(4)/SL(5) cases", "where": "FINDINGS.md 'THE TWO-BLOCK OBSTRUCTION IS RANK-1'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "verify.py in this arc only checks that FINDINGS.md/LAW_MAP.md *text* records the 14m09s re-run and RANK-1 result -- it does not itself recompute the rank-1 Hessian; the actual computation lives in frontier/B70_trace_ring/two_block_rank1.py, cited but not re-executed by this arc's own verify.py"},
+    {"what": "B61's SL(5) 'conditioning wall' was a coordinate-system defect (rank 23 of 24, not numerical precision failure)", "where": "FINDINGS.md 'the declines'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited from B61's own body as high-precision numerics, not re-derived symbolically in this arc"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "57 checks, 9 locks; mix of live symbolic recomputation (Dickson factorization) and textual verification that cited arcs' claims/re-runs are recorded, without independently re-executing the cited re-runs itself.",
+   "absence_claims": [
+    {"quote": "B55 and B57 have probe.py and no test lock at all -- two arcs with PRODUCES-PROOF-MODULE content and zero lock coverage", "where": "FINDINGS.md 'Registered, not fixed'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The claimed 14m09s re-run of B70's rank-1 check is asserted via text-match against LAW_MAP.md/FINDINGS.md rather than re-executed inside this arc's own verify.py.", "where": "verify.py, B70_the_e2_Hessian_identity_is_the_one_the_probe_confirms and the_row_records_the_REGENERATION_not_a_carry checks"},
+    {"kind": "GITIGNORED_WITNESS", "detail": "Two restored arcs (B55, B57) are noted to have a probe.py but 'zero lock coverage' -- i.e. no committed test asserting their results, left unrepaired.", "where": "FINDINGS.md 'Registered, not fixed'"}
+   ],
+   "seat_note": "Solid symbolic number-theory content (Dickson polynomials, exact splitting criteria) for the corpus's internal trace-map machinery; no physical observable is stated, and one key restored claim (B70's rank-1 re-run) is carried by citation rather than independently recomputed in this arc."
+  },
+  {
+   "arc": "B1052_the_handoff",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json"],
+   "files_sampled": [],
+   "files_listed_only": ["results.json", "verify.py"],
+   "claim_of_record": "PROVED -- the consolidation refresh exits through a written handoff (docs/handoffs/CONSOLIDATION_REFRESH_HANDOFF_2026-08-12.md), and every countable claim the handoff makes (28 arcs, 4 instruments, 28 gates, debt 245->175, 27 LAW_MAP rows, 12 leads, L166's 14 contradictions, the 48-minute suite) is re-measured against the tree by this arc's own verify.py so the handoff cannot silently drift.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "handoff's first-draft claim of '11 LAW_MAP rows added' corrected to 27 (missed audit rows B1030-B1036)", "where": "FINDINGS.md 'Why it is VERIFIED rather than merely written'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py (45 checks) is stated to re-measure every countable claim against the current tree"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "45 checks stated to re-measure every countable number the handoff cites against the live tree; not independently sampled in this read pass (verify.py mode SAMPLE_CODE, not fully read).",
+   "absence_claims": [
+    {"quote": "a third of the corpus read, snappy, sage, cypari, flint all absent", "where": "FINDINGS.md 'the honesty clauses'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Pure meta-process/documentation arc (writing and verifying a seat-to-seat handoff); no mathematical or physical claim of its own beyond re-counting other arcs' already-recorded numbers."
+  },
+  {
+   "arc": "B1053_the_unread_handoffs",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": ["results.json"],
+   "claim_of_record": "PROVED -- B1052 wrote into docs/handoffs/ after reading only 22 lines of an existing handoff and never reading it or its companion; reading both in full establishes (1) the owner-directed 2026-07-21 negatives hunt did run to completion (B742/745/754/765/770), (2) its declared 4th stratum (pre-B300, P4) has no executing arc, and (3) the 6 arcs B1050 restored as a WALL (B19/21/28/30/34/35, all metadata PROVED over STALLED bodies) were structurally invisible to that hunt because neither of the hunt's selection surfaces (banked-negative status, verdict field) could see them -- a materially larger consequence for L166 than previously priced.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "the negatives hunt's P4 stratum (pre-B300) has no executing arc", "where": "FINDINGS.md '2. Its P4 stratum has no arc' and 'Four attempts to prove a negative'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py (30 checks) is stated to check this via direct text matches against both handoff documents rather than a single regex, after three narrower false-positive-prone attempts were explicitly rejected"},
+    {"what": "the 14 L166 arcs (B19,B21,B28,B30,B34,B35, plus 8 more) are absent from the negatives hunt's own arc list", "where": "FINDINGS.md '3. The finding that lands on my own arc'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cross-references the hunt's arcs against B1050's WALL row and the corpus's atlas status field"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "30 checks; test lock exists (test_b1053_unread_handoffs.py, present in worktree tests dir).",
+   "absence_claims": [
+    {"quote": "No arc's claim line claims an early-era stratum.", "where": "FINDINGS.md '2. Its P4 stratum has no arc'"},
+    {"quote": "none of the six appears anywhere in the hunt's arcs", "where": "FINDINGS.md '3. The finding that lands on my own arc'"},
+    {"quote": "The gap surfaced because the owner asked whether the handoffs were mine. Not because I checked.", "where": "FINDINGS.md 'The gap, first, because it is mine'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "This is a self-audit arc discovering its own predecessor's gap (B1052 not reading handoffs it wrote alongside), raising a general concern about how reliably the consolidation seats read the material they cite before writing into it.", "where": "FINDINGS.md 'The gap, first, because it is mine'"},
+    {"kind": "OTHER", "detail": "Confirms and sharpens L166 (metadata/body verdict mismatch) with a concrete, larger consequence: 14 arcs invisible to a repo-wide owner-directed audit, still registered rather than repaired.", "where": "FINDINGS.md '3. The finding that lands on my own arc'"}
+   ],
+   "seat_note": "A genuinely useful self-correcting audit trail entry; it meaningfully strengthens the case (raised independently at B1050) that the corpus's verdict-vs-body metadata mismatch has real audit consequences, not just cosmetic ones -- and it remains unrepaired as of this arc."
+  },
+  {
+   "arc": "B1054_review_one",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "verify.py (head + grep sample)"],
+   "files_sampled": ["verify.py"],
+   "files_listed_only": ["results.json"],
+   "claim_of_record": "PROVED (declared as a convention: 'the measurements below were computed and hold at this anchor,' explicitly NOT an endorsement that the reviewed window is in good order) -- Review 1 of the consolidation seat's own 30-arc window finds: (1) all 30 arcs say verdict PROVED (100%), a statistical anomaly (naive P(30/30)=3e-6, corrected via stratification to P(5/5 instrument)=0.35 not significant and P(25/25 plain)=1.4e-5, still anomalous) while 18/30 bodies carry retraction/refutation/decline language; (2) the debt-ledger metric's first review draft was itself wrong and retracted; (3) the handoff's correction tally (12+6+4+1=23) doesn't sum to its stated 24 rows; (4) 29 of 30 arcs are unsealed with only 2 declaring it; (5) the RUN-grade claim of '29 reproducers re-executed, 0 fail' was itself found to be measuring exit codes from a harness that cannot fail, corrected to instrument_freshness.py's 28/30 stale-green re-run.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "P(25/25 all-PROVED plain arcs) = 1.4e-5 against a stratified corpus base rate of 63.97%, computed with this window excluded", "where": "FINDINGS.md '1. All thirty arcs say PROVED'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py (72 checks) is stated to compute the base rates and binomial probabilities directly from the corpus, and the arc itself documents correcting an earlier pooled/unstratified miscalculation of this same number"},
+    {"what": "28/30 instruments re-run and re-graded via instrument_freshness.py (STALE-GREEN/RED/KEY-LOSS/CRASH), correcting an earlier claim of '29 reproducers, 0 fail' that was actually measuring exit codes from a harness that always returns 0", "where": "FINDINGS.md 'Reproduce' / 'The RUN grade, corrected'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the correction itself is evidence of genuine re-derivation rather than restated assertion; instrument_freshness.py is a named, presumably committed script"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "72/72 checks stated to pass, explicitly designed so a later reviewer (main's digest) can re-run the numbers rather than re-read the prose; this arc itself documents catching and correcting several of its own errors mid-arc (the exit-code harness bug, the pooled p-value error, the debt-ledger scope misreading).",
+   "absence_claims": [
+    {"quote": "No arc's claim line claims an early-era stratum.", "where": "cross-arc, referenced from B1053 but consistent with B1054's own §1 findings"},
+    {"quote": "The last parseable ### Action items block on this branch is Review 37; R38-R42 carry none.", "where": "FINDINGS.md 'The loop, and one item that is now three reviews old'"},
+    {"quote": "LAW_MAP has no section for methodology", "where": "FINDINGS.md 'What it found in the advancement'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "All 30 arcs in the reviewed window report verdict PROVED with zero NEGATIVE/OPEN/RETRACTED, a rate far above the corpus base rate even after correct stratification (P=1.4e-5 for the 25 plain arcs); the review attributes this to a 'routing failure' (the atlas status field, not the verdict field, actually discriminates outcome), but this is itself an unverified structural excuse for why a nominally rigorous verdict field is effectively meaningless as a filter for this window.", "where": "FINDINGS.md '1. All thirty arcs say PROVED'"},
+    {"kind": "OTHER", "detail": "Arc discloses that its own earlier-in-session claim ('29 reproducers re-executed, 29 pass, 0 fail') was itself a measurement artifact (exit-code-always-0 harness), i.e. a self-caught false-positive verification inside the very arc whose subject is verifying other arcs.", "where": "FINDINGS.md 'The RUN grade, corrected'"}
+   ],
+   "seat_note": "This is the most physics-adjacent-relevant arc of the batch for auditors, not because of any observable content (there is none) but because it is a rigorous internal audit exposing that the corpus's verdict field is essentially non-discriminating for this entire 30-arc window, with a real (if partially explained) statistical anomaly and multiple caught self-errors."
+  },
+  {
+   "arc": "B1060_digest_ledger",
+   "source": "main",
+   "files_read": ["AUDIT_QOR5UP_BRANCH_2026-08-13.md", "DIGEST_LEDGER.md", "FINDINGS.md", "arc_verdict.json", "log_index/B1060.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN (by design, instrument arc) at time of banking -- 'THE DIGEST LEDGER: the fixed denominator over the cloud window -- 58 rows ... every disposition EMPTY at open BY DESIGN ... The digest CLOSES only at zero EMPTY; the completion lock ships with the closing arc.' NOTE: DIGEST_LEDGER.md's own title has since been updated to 'DIGEST STATUS: CLOSED-PARTIAL 2026-08-27, B1173' but arc_verdict.json for B1060 itself still reads verdict: OPEN, unedited.",
+   "log_says": "Log records: 2026-08-12 the alias table banked, B1045-B1059 reserved for the cloud-branch renumber; 2026-08-13 B1060 opens the digest with 58 rows all EMPTY; 2026-08-27 (B1173, 'THE DIGEST PARTIAL-CLOSE, O4') the stalled B1060 digest CLOSED-PARTIAL: 45/58 dispositioned, 13 NOT-REACHED, each routed to umbrella lead L185 with denominator staying 58 and rows reopenable under new arcs; qor5up released.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "Independent cross-verification of the cloud branch (qor5up)'s 30 consolidation arcs B1024-B1053 plus its own Review 1 (B1054), lane-by-lane, on main's own bench", "where": "DIGEST_LEDGER.md lanes 0-5; AUDIT_QOR5UP_BRANCH_2026-08-13.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the audit explicitly states 'every claim below re-run or re-read on this bench, not taken from their reports'; e.g. row 1.25 states main REBUILT B1048's exact boundary independently from the banked minpoly and got e1=3/2, M5=0.97698, M6=1.0134, p*=5.5932 digit-for-digit without using their code"},
+    {"what": "70 of 72 B1054 checks reproduce on main's bench; two failures traced to environment-bound git remote-tracking state, not corpus facts", "where": "AUDIT_QOR5UP_BRANCH_2026-08-13.md section 2, item 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit independent re-run on an isolated worktree of the cloud branch's head, with the specific discrepancy (branch -r under/over-reporting refs) diagnosed rather than hand-waved"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This arc IS the belt: an entire independently-run cross-verification of another branch's 31-arc consolidation window, re-executing checks rather than trusting reports, per its own §2.",
+   "absence_claims": [
+    {"quote": "the two failures are the R1-2 finding's own checks, which encode THEIR clone's remote-tracking state", "where": "AUDIT_QOR5UP_BRANCH_2026-08-13.md §2 item 2"},
+    {"quote": "the B946 species ... main's total exposure: 1 of 2 cache-shape instruments", "where": "AUDIT_QOR5UP_BRANCH_2026-08-13.md §2 item 3"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "arc_verdict.json for B1060 still records verdict: OPEN even though the committed DIGEST_LEDGER.md title and the progress log both state the digest was later CLOSED-PARTIAL (B1173, 2026-08-27: 45/58 dispositioned, 13 NOT-REACHED routed to L185) -- the arc_verdict.json was not updated to reflect the later disposition, so a reader trusting only arc_verdict.json for B1060 gets a stale OPEN status.", "where": "arc_verdict.json (verdict: OPEN) vs DIGEST_LEDGER.md title vs PROGRESS_LOG.md B1173 entry"},
+    {"kind": "MISSING_WITNESS", "detail": "Lane 3 (instruments and error classes) rows 3.1-3.5 are all NOT-REACHED at partial-close, meaning the law-siblings gate, supersession gate, and two error-class ports from the cloud branch were never actually landed on main -- tracked only as an open lead (L185), not resolved.", "where": "DIGEST_LEDGER.md Lane 3 rows"}
+   ],
+   "seat_note": "This is a genuinely strong belt arc -- independent, digit-for-digit re-derivation of another branch's numbers on a separate bench, with honest disclosure of environment-bound discrepancies -- but the arc's own verdict metadata (OPEN) is now stale relative to its later partial-closure, illustrating the same verdict/body-drift pattern (L166-adjacent) flagged elsewhere in this batch."
+  }
+ ]
+}

@@ -1,0 +1,569 @@
+{
+ "batch": "arcs_031",
+ "arcs": [
+  {
+   "arc": "B553_seat1_session3",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B553_seat1_session3/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B553_seat1_session3/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED - \"Verified exact from seat-1's session: |det(A_m - I)| = m^2 (the metallic Weil level), the odd-Fibonacci Markoff cluster, and Z/11-charge-clock decoupling; two errors corrected and Markoff unicity left as an open assessment.\"",
+   "log_says": "Two-way correction discipline: a 2026-07-12 log entry retracts an in-file self-correction ('the B553 Markoff deflation was wrong, owner caught it') and a second entry records the original harvest+deflation; both are already folded into the FINDINGS.md text as a CORRECTED section.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "|det(A_m - I)| = m^2 for the metallic matrices (Weil level)",
+     "where": "FINDINGS.md 'Verified exact' section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "One-line algebraic derivation from tr A_m = m^2+2, det=1; locked in tests/test_b553.py (present in repo, not itself in the packet file list)."
+    },
+    {
+     "what": "SL(5) character variety dimension is n^2-1=24, not the rank n-1=4 Seat-1 claimed",
+     "where": "FINDINGS.md 'Correction to Seat-1's own self-correction'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Cites B66's banked trace-coordinate count as the source; not recomputed inside this arc's own files."
+    },
+    {
+     "what": "The P4/Markoff-cubic identity (Fricke tr[a,b]=x^2+y^2+z^2-xyz-2 at kappa=-2 gives the Markoff surface) and pointwise-vs-global-unicity distinction",
+     "where": "FINDINGS.md 'THE MARKOFF-UNICITY FEASIBILITY ASSESSMENT'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Cited to Goldman 2003/Bowditch 1998/Frobenius 1913 literature, not independently re-derived in this arc's files; left explicitly OPEN, not claimed."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is itself a verify-don't-trust re-read of a prior seat's session summary; no new independent script beyond the locked test file (not sampled here).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A disciplined two-way-correction arc (retracts its own earlier dismissal on owner challenge) that is honest about what remains open (Markoff unicity); no physical observable is claimed anywhere in it."
+  },
+  {
+   "arc": "B554_meditation_verify",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B554_meditation_verify/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B554_meditation_verify/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B554_meditation_verify/verify.py",
+    "/home/user/origin-axiom/tests/test_b554.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE - \"The meditation's central Station-4 claim (species = forward bit-pairs) is refuted - 61% mismatch and the forward bigram does not determine the species - while three stations verify and two are scoped down.\"",
+   "log_says": "B554: the seven-station meditation verified eyes-open (1 refutation, 2 overstatements) - matches FINDINGS.md exactly; Review 4 summary line also matches.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Station 4 species=forward-bit-pair claim REFUTED: 181,678/299,999 (61%) mismatches; forward bigram (0,1)->{a,b} ambiguous",
+     "where": "FINDINGS.md Station 4; test_b554.py test_station4_species_not_forward_bitpair",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "test_b554.py builds the same word and shadow/struct-tunnel maps and asserts defects > 50% and bigram ambiguity, all reproducible; but the test only asserts a >50% threshold, not the exact 181,678 count FINDINGS.md quotes, so that specific figure itself is not locked to the digit."
+    },
+    {
+     "what": "Gap labels are degree-4 (tau), not degree-2 (phi)",
+     "where": "FINDINGS.md Station 1; test_station1_gap_labels_are_degree4",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy minimal_polynomial degree check, directly locked."
+    },
+    {
+     "what": "disc(ring) = -400 = 2^4*5^2 (Station 5)",
+     "where": "FINDINGS.md Station 5; test_station5_disc_is_2_and_5_only",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy discriminant + factorint, locked exactly."
+    },
+    {
+     "what": "h(Q(sqrt5))=h(Q(sqrt29))=h(Q(sqrt-3))=h(Q(i))=h(Q(sqrtphi))=1 (Station 3)",
+     "where": "FINDINGS.md Station 3",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "Not locked in test_b554.py (which only smoke-tests Stations 6/7); class-number values are stated, not computed in this arc's committed files."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b554.py independently rebuilds the substitution word and re-derives the four checkable station claims; verify.py itself is a placeholder print, not the actual verification.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The precise mismatch count 181,678/299,999 (61%) quoted in FINDINGS.md is not itself asserted in the lock (only '>50%'); the exact figure is not independently reproducible from the committed test alone, only order-of-magnitude.",
+     "where": "FINDINGS.md Station 4 vs tests/test_b554.py"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "verify.py (packet file, mode FULL) is a one-line print statement summarizing conclusions, not a script that computes anything; the real verification lives entirely in tests/test_b554.py, which is outside the packet's file list.",
+     "where": "frontier/B554_meditation_verify/verify.py"
+    }
+   ],
+   "seat_note": "A genuine self-correcting arc: it takes a prior poetic 'meditation' and empirically refutes its central claim (species = forward bit-pairs) while scoping two other claims down; no observable physics content, purely combinatorial/arithmetic structure."
+  },
+  {
+   "arc": "B555_the_prediction",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B555_the_prediction/THE_PREDICTION.md",
+    "/home/user/origin-axiom/tests/test_b555.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "THE PREDICTION assembled (2026-07-12) as 'the object's one falsifiable forward statement'; later log entries (2026-07-13) reference a 'rung-2 gap-label module (degree-8 successor to B555)' and a lit-gate clearance (B543 LIT_GATE pass 3, 100/100 agents) for the quartic-Pisot novelty claim, both consistent with the arc's own text.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The one-measurement law: f_A = tau*f_a and f_a+f_b = tau^2*f_a exactly (to 1e-12)",
+     "where": "THE_PREDICTION.md 'exact predicted labels' table; test_b555.py test_one_measurement_law_exact",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Locked numerically via numpy float arithmetic to 1e-12; this checks internal algebraic self-consistency of the formula-defined labels, not an actual physical Hamiltonian spectrum."
+    },
+    {
+     "what": "Every predicted label sits 2-3.6e-2 off the golden lattice Z+Z/phi (the degree-4 signature)",
+     "where": "THE_PREDICTION.md 'degree-4 signature'; test_b555.py test_degree4_off_golden_lattice",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly computed minimum distance to a P+Q/phi grid, locked at >1e-2."
+    },
+    {
+     "what": "A four-coupling species-chain Hamiltonian actually has IDOS gap labels at these values (the physical prediction itself)",
+     "where": "THE_PREDICTION.md 'What the object predicts'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This arc's own committed test only checks self-consistency of algebraically-defined label formulas; it does not itself compute an actual chain spectrum. The spectral hardening (N=24,001, 22-59x margins) is attributed to B543, a different arc, not reproduced here."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "test_b555.py locks only the internal algebraic consistency of the predicted label values; the underlying spectral/gap-labeling claim is imported from B543/B551.",
+   "absence_claims": [
+    {
+     "quote": "SM coupling constants, mass ratios, mixing angles -- proven null (B533/B539/B541).",
+     "where": "THE_PREDICTION.md 'What we CANNOT predict'"
+    },
+    {
+     "quote": "Absolute scale (B532: ABSENT).",
+     "where": "THE_PREDICTION.md 'What we CANNOT predict'"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The document states a concrete falsifiable physical prediction (gap labels of a to-be-built four-coupling polariton/photonic chain), but this arc's own committed code only verifies self-consistency of the algebraic label formulas, not an actual finite-N spectral computation; the spectral hardening is credited to a different arc (B543) not included in this packet.",
+     "where": "THE_PREDICTION.md 'Experimental requirement' vs tests/test_b555.py"
+    }
+   ],
+   "seat_note": "This is the clearest OBSERVABLE physics claim in the batch -- a genuine, falsifiable, buildable prediction with named falsifiers -- but its own arc has no verdict file and only checks internal algebra, leaning entirely on other arcs (B543, B551) for the actual spectral evidence."
+  },
+  {
+   "arc": "B556_escalator_tower",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B556_escalator_tower/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B556_escalator_tower/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B556_escalator_tower/tower.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED - \"ESTABLISHED exactly: T(M)=[[M,M],[M^2,M]] sends the golden Fibonacci matrix to the sigma_4 incidence matrix verbatim, and the field doubles at every verified rung (norm-sign + determinant telescope). UNSETTLED: the tower-as-physics-ladder reading, banked as a labelled HYPOTHESIS.\"",
+   "log_says": "8 log entries trace the arc's full life: initial hypothesis banking (2026-07-12), a 'PROOF UPGRADE' making the field-doubling a theorem plus the charge tower, and much later (2026-07-30, B832/B834) a kappa-panel process moving the arc's verdict from OPEN to PROVED (11/12 then 12/12) as part of a corpus-wide re-audit that flagged three arcs as panel drift, later reclassified as a MIXED-ARC vocabulary gap rather than true drift.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "T(F) = M4 verbatim (escalator rung-0-to-1 map equals the sigma_4 incidence matrix exactly)",
+     "where": "FINDINGS.md item 1; tower.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "tower.py is a runnable sympy script computing T(F) and its charpoly/Perron for 5 rungs; tests/test_b556.py present in repo."
+    },
+    {
+     "what": "Field doubling at every rung is a THEOREM (norm-sign Miss A + determinant telescope Miss B)",
+     "where": "FINDINGS.md 'PROOF UPGRADE'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "tests/test_b556.py, test_b556_feedback.py, test_b556_three_half_law.py, test_b556_campaign.py/campaign2.py/campaign3.py all present in repo and named per the specific claims (norm sign, charge tower, 3/2 law, Galois D4 refutation, non-escalating covers)."
+    },
+    {
+     "what": "The charge tower e_n = det(I-M_n): -1,-11,-809,-18845089,... with e_4=-11^2*1459*597049*2169349081, 11|e_n iff n=1 mod 3",
+     "where": "FINDINGS.md 'THE MARKOFF-UNICITY...' / 'Tower-probe campaign' sections",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Locked in tests/test_b556_campaign.py per FINDINGS.md text; factorizations of large integers are asserted, exact by sympy factorint presumably."
+    },
+    {
+     "what": "The physics-ladder reading (rung 0=golden/FK/E8, rung 1=species chain, rung 2+=un-built coupled layers as a real ladder of physics)",
+     "where": "FINDINGS.md 'THE HYPOTHESIS'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "Explicitly and repeatedly labeled HYPOTHESIS, not a claim; the arc itself is careful to firewall this from the computed core."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Six separate locked test files (test_b556.py plus five follow-on suites) all present in the repo, matching the specific numeric/algebraic claims made across the arc's long history of amendments.",
+   "absence_claims": [
+    {
+     "quote": "no fusion category of ANY rank has an object of dimension lambda_1 ... exhaustive rank-4 ring search (92 charpoly-matching candidates, 0 fusion rings)",
+     "where": "FINDINGS.md 'Tower-probe campaign -- the tower exits the fusion/CFT world at rung 1' (P-A)"
+    },
+    {
+     "quote": "NO CFT central-charge lock-on (verified negative) ... no plateau at 7/10 or a golden value",
+     "where": "FINDINGS.md 'c_eff -- NO CFT central-charge lock-on'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc's verdict was changed from OPEN to PROVED not by new computation inside this arc but by a later cross-arc panel/kappa process (B834), flagged in the project's own log as part of a corpus-wide 'drift' pattern that the log later reinterprets as a mislabeling convention (mixed arcs) rather than a substantive re-verification of B556 itself.",
+     "where": "arc_verdict.json 'authored_by': 'W1-pilot; corrected by B834 (24 readers, two panels, unanimous)'; PROGRESS_LOG.md 2026-07-30 entries"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "B557 (this arc's own follow-on campaign) was at one point flagged by the project's own file-drawer audit (B837) as cited in B556 'only as an EXPECTATION... not a result' -- i.e. B556 leaned on an unrun companion cell before that cell was later completed.",
+     "where": "PROGRESS_LOG.md 2026-07-30 B837 entry"
+    }
+   ],
+   "seat_note": "An unusually well-instrumented arc (six locked test suites spanning months of iterative correction) whose HYPOTHESIS section is explicitly firewalled from its computed core, but whose PROVED verdict rests partly on a later panel consensus process rather than new arc-internal computation."
+  },
+  {
+   "arc": "B557_escalator_campaign",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B557_escalator_campaign/CARRIERS_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B557_escalator_campaign/E2_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B557_escalator_campaign/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B557_escalator_campaign/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B557_escalator_campaign/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED - \"ESTABLISHED exactly: the escalator's coupling rule (C,D)=(M,M^2) is FORCED at rung 1 and a CHOICE above it (B517 intertwining forces C=p(M)), plus the explicit 8-letter carrier sigma_8, both locked. UNSETTLED: the E0 lit-gate never ran, so no novelty claim is available; the saturation cells and the firewalled physics-ladder cell were never executed.\"",
+   "log_says": "9 log entries cover the full lifecycle: prereg launch (E0 gate + firewalled E5), the E1/E2 results (2026-07-13), the file-drawer audit (B837) flagging B557 as an apparently-unreported prereg (a filename artifact, since results were in CARRIERS_FINDINGS.md/E2_FINDINGS.md not FINDINGS.md), the later B840 consolidation creating FINDINGS.md, and a 2026-08-29 re-audit (B1214) retroactively registering this arc's E2 result as a formal law (T-ESCALATOR-RUNG1) that had been ABSENT from the law registry.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "(M,M^2) coupling is FORCED at rung 1 (uniquely reproduces M4, up to C<->D swap) but is a CHOICE at rung>=2 (e.g. (I,M) also field-doubles with a different lambda-law)",
+     "where": "E2_FINDINGS.md; PREREGISTRATION.md E2",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Locked in tests/test_b557_e2.py (present in repo); table of couplings/charpolys/Perrons is presented as computed exactly via sympy."
+    },
+    {
+     "what": "Explicit 8-letter primitive substitution sigma_8 realizes T(M4) exactly, with the quine seed-invariant lifting",
+     "where": "CARRIERS_FINDINGS.md E1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Locked in tests/test_b557_carriers.py (present in repo); explicit substitution images given in the findings."
+    },
+    {
+     "what": "Rung-2 gap-label module: charpoly x^8-4x^7-56x^6-152x^5-205x^4-192x^3-134x^2-56x-11 irreducible, Perron 10.724751771861389, degree-8 field",
+     "where": "CARRIERS_FINDINGS.md T-1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same tests/test_b557_carriers.py locks this per the FINDINGS text; this is the degree-8 successor to B555's prediction but is only a predicted module, no spectral computation of an actual chain."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b557_carriers.py and tests/test_b557_e2.py both present and named exactly for the two completed cells (E1/T-1 and E2).",
+   "absence_claims": [
+    {
+     "quote": "E0, the lit-gate that gates the whole campaign's novelty language ... queued behind other searches and never executed.",
+     "where": "FINDINGS.md 'What never ran'"
+    },
+    {
+     "quote": "Also unrun: the saturation cells above rung 1, and the firewalled physics-ladder cell.",
+     "where": "FINDINGS.md 'What never ran'"
+    },
+    {
+     "quote": "B557 (cited in B556 only as an EXPECTATION, \"Expected: charpoly degrees...\", not a result)",
+     "where": "PROGRESS_LOG.md 2026-07-30 B837 entry"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "FINDINGS.md was only written 2026-08-01 (B840) to consolidate results that had existed since 2026-07-13 in CARRIERS_FINDINGS.md/E2_FINDINGS.md; between those dates a project audit (B837) counted this arc as having no result at all -- an internal filename-drawer failure the project caught and fixed itself, but a stranger reading only FINDINGS.md's creation date without the log could mistake the arc's actual completion timeline.",
+     "where": "FINDINGS.md 'Why this file did not exist'"
+    }
+   ],
+   "seat_note": "A genuinely self-critical campaign: the honesty crux (is the escalator rule forced or chosen) is computed exactly and reported as a partial deflation of the parent hypothesis (B556), and the arc is explicit that no novelty claim is available because its own gating literature search never ran."
+  },
+  {
+   "arc": "B558_three_level_negative",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B558_three_level_negative/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B558_three_level_negative/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE - \"The three-level negative is confirmed - SM numbers absent at dictionary values, dictionary relations, and gap-edge ratios (12 vs null 12.4+/-3.7) - and level 2 is structural since the golden gap labels are coupling-invariant.\"",
+   "log_says": "B558: the three-level negative VERIFIED (+ 1/phi^3 correction + named landmines), 2026-07-12; Review 4 line matches.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Three-level negative: 0/17 SM matches at dictionary values, 0 at relations, gap-edge ratio 12 vs null 12.4+/-3.7 (not significant)",
+     "where": "FINDINGS.md table",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Credited to prior arcs (B533 Gate 3, B539, B541) and to 'this' arc for level 2, but no script/data file for this arc appears in the packet (only FINDINGS.md + arc_verdict.json); locks named as tests/test_b558.py, present in repo but not sampled here."
+    },
+    {
+     "what": "1/phi^2 vs 1/phi^3 arithmetic correction (0.23607 = 1/phi^3, not 1/phi^2)",
+     "where": "FINDINGS.md 'CORRECTION'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Elementary arithmetic check (1/phi^2=0.38197, 1/phi^3=0.23607), trivially reproducible."
+    },
+    {
+     "what": "p(5)=17 factor count for the sigma_4 word IS true, but the '17=17 dictionary components' identity is an unproven numerical coincidence",
+     "where": "FINDINGS.md 'Finding #4'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The arc itself flags this as unestablished (no bijection exhibited); correctly not claimed as a result."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b558.py is named as the lock but not included in this packet's files list; not independently sampled in this digest pass.",
+   "absence_claims": [
+    {
+     "quote": "The SM's numbers are not in the architecture at any algebraic level (Q, Q(phi), transcendental spectrum).",
+     "where": "FINDINGS.md 'The three-level negative -- CONFIRMED'"
+    },
+    {
+     "quote": "17 = 17 is a numerical coincidence until a bijection is exhibited.",
+     "where": "FINDINGS.md 'Finding #4'"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "Two 'anti-numerology landmines' are explicitly logged: a fixed golden number 1/phi^3=0.23607 is 2.1% from sin^2(theta_W), and one gap-edge ratio at V=1 matches sin^2(theta_W) to 0.26% out of a large multiple-comparison search space; both are flagged by the arc itself as non-significant coincidences, not claims -- a rare case of the arc pre-emptively filing the type-coincidence flag itself.",
+     "where": "FINDINGS.md 'NAMED ANTI-NUMEROLOGY LANDMINES'"
+    }
+   ],
+   "seat_note": "A purely negative result (the object's numbers do not match the Standard Model at three tested levels), self-consistently reported and pre-emptively defused against numerology traps; no observable physics content since nothing is confirmed to match anything measurable."
+  },
+  {
+   "arc": "B559_blackhole_probes",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B559_blackhole_probes/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B559_blackhole_probes/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B559_blackhole_probes/fig8_vs_btz.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE - \"The object's chain is critical with log-law entanglement, not area-law, and the figure-eight is a finite-action gravity instanton rather than a black hole.\"",
+   "log_says": "B559 black-hole probes: holographic entanglement + figure-eight vs BTZ (2026-07-13); Review 14 records self-corrections (the c_eff over-claim softened to fit-dependent); Review 41 (2026-08-09) notes B559 'was cited NOWHERE -- not in the ladder, not in LAW_MAP.md' and that area-law entropy stays OPEN in the ladder because B559 probes the object's chain, not m004's geometry.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Fibonacci chain entanglement entropy is critical (log-law), one-cut slope 0.121 vs periodic control 0.161 and random-disorder control 0.004",
+     "where": "FINDINGS.md Probe 1 table",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Credited to frontier/physics_probes/holo_arealaw.py, present in repo; tests/test_b559_blackhole.py also present and locks the log-slope thresholds per FINDINGS.md text."
+    },
+    {
+     "what": "Figure-eight: Vol=2.0298832128, CS=0 exactly (amphichiral), geodesic traces in Q(sqrt-3)",
+     "where": "FINDINGS.md Probe 2; fig8_vs_btz.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "fig8_vs_btz.py directly calls SnapPy (M=snappy.Manifold('4_1')) for volume/complex-volume/Chern-Simons/length-spectrum -- this is a real, runnable computation against an authoritative library, not a re-derivation."
+    },
+    {
+     "what": "Precise effective central charge c_eff (0.7-0.8) is fit-dependent, NOT robustly locked",
+     "where": "FINDINGS.md 'Honest caveat'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "Explicitly flagged by the arc itself as not sharply determined; a self-correction from an earlier overclaim (per Review 14)."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "fig8_vs_btz.py is a genuine runnable script against SnapPy (external, authoritative geometry library); tests/test_b559_blackhole.py and holo_arealaw.py both present in repo.",
+   "absence_claims": [
+    {
+     "quote": "The black-hole area-law signature is ABSENT.",
+     "where": "FINDINGS.md Probe 1 'Result'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The project's own later review (Review 41, 2026-08-09) flags that this arc's negative result ('area-law signature ABSENT') was cited nowhere in the project's law/synthesis ladder, so the ladder's own 'area-law entropy -> OPEN' status did not actually incorporate this computed negative when it was written; a synthesis-integration gap, not a computational one.",
+     "where": "PROGRESS_LOG.md/REVIEWS.md Review 41 entry"
+    }
+    ],
+   "seat_note": "The strongest black-hole-adjacent computation in the batch is genuinely run against SnapPy, an external authoritative library, and the arc is careful to flag its own central-charge overclaim as fit-dependent; but its negative conclusion was apparently not propagated into the project's own synthesis documents for a month."
+  },
+  {
+   "arc": "B560_crossseat_campaign",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/CHAT3_README.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1/CELL1_CHARGE_TRANSPORT_CERTIFICATE.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1/CELL1_CHARGE_TRANSPORT_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1/FRONTIER_CAMPAIGN_CELL1_MANIFEST.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1/FRONTIER_CAMPAIGN_MASTER_PLAN.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1/cell1_charge_edges.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1/cell1_charge_nodes.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1/cell1_charge_transport.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1/test_cell1_charge_transport.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1C/CELL1C_DEFECT_KINEMATICS_CERTIFICATE.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1C/CELL1C_DEFECT_KINEMATICS_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1C/cell1c_annihilation_channels.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1C/cell1c_defect_kinematics_scan.tsv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1C/cell1c_fusion_channels.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1C/test_cell1c_defect_kinematics.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/CELL4_SPECTRAL_ROBUSTNESS_CERTIFICATE.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/CELL4_SPECTRAL_ROBUSTNESS_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/CELL4_SPECTRAL_ROBUSTNESS_MANIFEST.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/FRONTIER_CAMPAIGN_PROGRESS_CELL4.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/cell4_center_gap_margins.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/cell4_finite_size.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/cell4_golden_control.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/test_cell4_spectral_robustness.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/CELL3_FIXED_CHARACTER_ATLAS_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/CELL3_FIXED_CHARACTER_CERTIFICATE.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/CELL3_FIXED_CHARACTER_MANIFEST.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/OBSERVER_FIXED_POINT_CERTIFICATE.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/cell3_discovery_progress.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/cell3_interval_certificate.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/cell3_reducible_characters.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/cell3_special_points_exact.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/generic_observer_fixed_point_certificate.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/observer_fixed_point_exact.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/test_cell3_fixed_character_atlas.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_2/CELL2_OBSERVER_PROTOCOL_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_2/CELL2_OBSERVER_PROTOCOL_MANIFEST.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_2/cell2_protocol_edges_k1_k3.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_2/cell2_protocol_summary.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_2/test_cell2_observer_protocols.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1B/CELL1B_LOCALIZED_CHARGE_CERTIFICATE.json",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1B/CELL1B_LOCALIZED_CHARGE_FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1B/cell1b_charge_witnesses.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1B/cell1b_localized_charge_carriers.py",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1B/cell1b_spectral_moment_controls.csv",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1B/test_cell1b_localized_charge_carriers.py",
+    "/home/user/origin-axiom/tests/test_b560_cells.py"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/cell4_coupling_chamber.csv (head/tail/wc, cross-checked exact rows against FINDINGS.md table)",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_4/cell4_spectral_robustness.py (first 120 lines + grep for def/assert)",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/CELL3_INTERVAL_CERTIFICATES.json (head only, cross-checked count via test_cell3_fixed_character_atlas.py)",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/CELL3_RECOVERED_ROOTS.json (referenced by cell3_interval_certificate.py, not directly opened; size checked)",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/cell3_fixed_character_atlas.csv (head/tail/wc)",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_3/cell3_kappa_ab_intervals.csv (head/tail/wc)",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_2/CELL2_OBSERVER_PROTOCOL_CERTIFICATE.json (head/tail/size only)",
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_2/cell2_observer_protocols.py (first 120 lines + grep for def/assert)"
+   ],
+   "files_listed_only": [
+    "/home/user/origin-axiom/frontier/B560_crossseat_campaign/cells/Cell_1C/cell1c_defect_kinematics.cpp (LIST_ONLY per packet mode; confirmed a .tsv/certificate.json twin exists alongside it and both were read)"
+   ],
+   "claim_of_record": "PROVED - \"Chat-3's campaign cells verified and re-derived: localized Z/11 carriers, prefix-independent observer-flow graph, 253-point certified atlas, exact Z[tau] frequency module.\"",
+   "log_says": "4 log entries: launch/integration under B560 (2026-07-13, 'cherry-pick + re-verify, not merge'); a later reference (2026-07-14, B568) to 'a seed jewel found ... sitting unnoticed in the banked B560-1B table'; the Probation Campaign referencing Cell-3's global count as still open (B562); Review 15 crediting B560 for the Z[tau] module and the 253-point atlas.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Cell 1: SNF(I-M4)=diag(1,1,1,11), coker=Z/11, chi=(1,3,6,7) left-fixed mod 11; all 12 observer nodes have the same Z/11 torsion; the unique 2-cycle NEW_2<->NEW_10 has holonomy 8*7=56=1 mod 11 (REFUTED clock-charge coupling)",
+     "where": "CELL1_CHARGE_TRANSPORT_FINDINGS.md; cell1_charge_nodes.csv; cell1_charge_edges.csv",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Independently re-verified in tests/test_b560_cells.py (test_cell1_z11_charge) via sympy smith_normal_form; original cell has its own test_cell1_charge_transport.py; CSV witnesses match FINDINGS.md numbers exactly (12 nodes, 12 edges, scalars 7&8)."
+    },
+    {
+     "what": "Cell 1B: every nonzero Z/11 residue has an explicit finite localized carrier; first core lengths {1:3,2:9,3:3,4:16,5:14,6:14,7:16,8:3,9:9,10:3}",
+     "where": "CELL1B_LOCALIZED_CHARGE_FINDINGS.md; cell1b_charge_witnesses.csv",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Independently re-verified in tests/test_b560_cells.py (test_cell1b_localized_carriers_first_core_lengths) which reproduces the exact dict from scratch via a from-scratch word-growth+context scan; original cell1b_localized_charge_carriers.py + its own test also present."
+    },
+    {
+     "what": "Cell 4: exact frequency module = Z[tau] (tau=sqrt(phi)), det of basis-change matrix = 1; five gap labels are degree-4",
+     "where": "CELL4_SPECTRAL_ROBUSTNESS_FINDINGS.md; cell4_spectral_robustness.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Independently re-verified in tests/test_b560_cells.py (test_cell4_frequency_module_is_Z_tau) via sympy symbolic computation of the coefficient-matrix determinant; original cell's own script and test present, numeric CSVs cross-checked and match FINDINGS.md table values (e.g. C1 box min widths/ranks) exactly."
+    },
+    {
+     "what": "Cell 2: protocol-dependence of the B540 observer-flow graph -- prefix-1 gives 12 nodes/3 fixed/one q=2 2-cycle, but prefix-2 and prefix-3 give DIFFERENT graphs (REFUTING that the 12-node graph / self-fixed sigma / unique double clock are intrinsic)",
+     "where": "CELL2_OBSERVER_PROTOCOL_FINDINGS.md; cell2_protocol_summary.csv",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "cell2_observer_protocols.py is a full, runnable return-word/intertwining certification script; test_cell2_observer_protocols.py locks all 12 rows of the protocol_summary table exactly, plus the GL(Z)-conjugate collision between S_a and S_B (det X = -1)."
+    },
+    {
+     "what": "Cell 3: 253 recovered fixed-character support points (247 irreducible + 6 reducible), 246 Krawczyk-certified simple roots + 1 exact trace-zero double point; kappa_ab separates 247 but misses the double point, (kappa_ab, tr(a)) separates all 253; global completeness OPEN",
+     "where": "CELL3_FIXED_CHARACTER_ATLAS_FINDINGS.md; CELL3_FIXED_CHARACTER_CERTIFICATE.json; cell3_fixed_character_atlas.csv (254 lines incl header = 253 rows, matches exactly); cell3_kappa_ab_intervals.csv (247 lines incl header = 246 rows, matches exactly)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "test_cell3_fixed_character_atlas.py checks all these counts against the committed certificate/CSV artifacts directly (not re-run from scratch, but the artifacts are internally cross-consistent and match the FINDINGS text exactly); however see red flag below about a bug in the certificate-generating script."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b560_cells.py independently re-derives (from first principles, not by re-reading stored artifacts) the three sharpest numeric claims (Cell 1's SNF/fixed-charge, Cell 1B's core-length dict, Cell 4's Z[tau] module); each of the five sub-cells additionally ships its own dedicated test file inside cells/ which the FINDINGS.md text says all pass (26 tests total per B560's top FINDINGS.md), of which this digest directly inspected and confirmed test_cell1_charge_transport.py, test_cell1b_localized_charge_carriers.py, test_cell1c_defect_kinematics.py, test_cell2_observer_protocols.py, test_cell3_fixed_character_atlas.py, and test_cell4_spectral_robustness.py.",
+   "absence_claims": [
+    {
+     "quote": "The recovered picture is a large finite-looking field of rigid interaction states ... The global statement \"there are exactly 253\" remains open because no exact degree or intersection-number upper bound has been established.",
+     "where": "CELL3_FIXED_CHARACTER_ATLAS_FINDINGS.md 'Executive result' / 'Completeness blocker'"
+    },
+    {
+     "quote": "The quoted golden tuple therefore does not behave like a fixed representation ... The quoted point ... nor the claimed rank-18 certificate [was found in the repository].",
+     "where": "OBSERVER_FIXED_POINT_CERTIFICATE.md 'Golden-trace reproduction test' / 'What was actually available'"
+    },
+    {
+     "quote": "N_strict_motion(L<=500) = 0 ... This is not a theorem of permanent immobility.",
+     "where": "CELL1C_DEFECT_KINEMATICS_FINDINGS.md 'Strict carrier relocation was not found'"
+    },
+    {
+     "quote": "The inverse pair 5+6 was not observed through length 500.",
+     "where": "CELL1C_DEFECT_KINEMATICS_FINDINGS.md 'Neutral pair creation and annihilation exist'"
+    },
+    {
+     "quote": "identification with electric, color, weak, baryon, or lepton charge; a Noether origin; a local gauge field; dynamical charge carriers; nontrivial clock action on the charge [are not established].",
+     "where": "CELL1_CHARGE_TRANSPORT_FINDINGS.md section 6 'Interpretation boundary'"
+    },
+    {
+     "quote": "an infinite-volume theorem that all five gaps stay open throughout either continuous coupling box [is open]; a degree-4 dry-gap theorem showing every allowed module label opens [is open]; a rigorous infinite-system disorder theorem [is open].",
+     "where": "CELL4_SPECTRAL_ROBUSTNESS_FINDINGS.md 'Theorem boundary: Open'"
+    },
+    {
+     "quote": "No repository files were modified [in every cell's baseline section].",
+     "where": "Each cell's *_FINDINGS.md 'Repository baseline'/'synchronization' section"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "cells/Cell_3/cell3_interval_certificate.py has a real Python bug in its main(): `Path(__file__).resolve().parent / 'CELL3_RECOVERED_ROOTS.json'.read_text()` calls .read_text() on the string literal (str has no such method, confirmed by direct test) rather than on the concatenated Path, due to operator precedence -- this script as committed would raise AttributeError if actually executed, so the committed CELL3_INTERVAL_CERTIFICATES.json (used by test_cell3_fixed_character_atlas.py) could not have been produced by re-running this exact committed file; it may have been produced by an earlier/different version of the script.",
+     "where": "cells/Cell_3/cell3_interval_certificate.py line ~55 (in main())"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "Cell 2 explicitly documents and refutes a temptation of this kind itself: nodes S_a and S_B share identical charpoly, determinant, Smith form (Z/11), and are integrally GL(Z)-conjugate, yet map to entirely different targets under the observer-flow protocol -- the arc treats this as a REFUTATION of using the arithmetic invariant packet to predict flow targets, i.e. a self-administered type-coincidence check rather than a red flag the auditor needed to find.",
+     "where": "CELL2_OBSERVER_PROTOCOL_FINDINGS.md section 5"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Cell 3's certificate/root-search artifacts (CELL3_RECOVERED_ROOTS.json ~908KB, CELL3_INTERVAL_CERTIFICATES.json ~1.68MB) are large data blobs from a numerical random-restart search (9,600 starts); the underlying search script (generic_observer_fixed_point_certificate.py, read in full) is present, but the specific 9,600-start run that produced exactly 253 points is not re-executed by the test suite -- the test only checks internal consistency of the already-stored certificate/CSV files, not that a fresh run reproduces 253 again.",
+     "where": "cells/Cell_3/CELL3_FIXED_CHARACTER_CERTIFICATE.json numerical_discovery section; test_cell3_fixed_character_atlas.py"
+    }
+   ],
+   "seat_note": "By far the most rigorously instrumented arc in this batch: five independent cells each ship real code, real CSV/JSON witnesses, and their own test suites, and the parent arc adds a genuinely independent re-derivation (test_b560_cells.py) rather than just re-reading the cross-seat artifacts; the honesty discipline is unusually strong (Cell 2 refutes the parent project's own 'intrinsic double clock' claim, Cell 3 refuses to claim global completeness), marred only by one dead script in Cell 3 and the usual caveat that large numerical searches are checked for internal consistency, not freshly re-run."
+  }
+ ]
+}

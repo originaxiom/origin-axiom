@@ -1,0 +1,344 @@
+{
+ "batch": "arcs_034",
+ "arcs": [
+  {
+   "arc": "B592_mirror_listener",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B592_mirror_listener/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B592_mirror_listener/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B592_mirror_listener/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B592_mirror_listener/mirror_listener.py",
+    "/home/user/origin-axiom/frontier/B592_mirror_listener/r3m_open_matrix.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The mirror listener is deaf: C-symmetry of the state makes every closed theta-odd amplitude vanish for every gluing; the twist survives only as an open-matrix sign flip.\"",
+   "log_says": "DEAF sharpened to a theorem, then B592-OPEN rerun per a self-contained handoff bank a NEW ROW 'OPEN-HEARD/CLOSED-DEAF' with the sign-flip theorem; later arcs (B753 add.2, R28-3, B1010) cite the sign-flip as a load-bearing bridge/junction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the fourth-unhearability theorem: theta-odd channels identically zero for every gluing g (C-symmetric state + central C forces rho(g)psi C-symmetric)",
+     "where": "mirror_listener.py lines ~96-126 (channel_table sweep, C1/C2 asserts to 1e-12), FINDINGS.md pt.1-3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained script loads only committed B238/B245 modules, prints per-channel table, asserts identities to 1e-12/1e-15; runnable as documented (pyenv, ~2 min)"
+    },
+    {
+     "what": "the SIGN-FLIP THEOREM: M_odd(twisted) = -M_odd(untwisted) exactly, open matrix",
+     "where": "r3m_open_matrix.py lines 83-97 (asserted 'ok' to 1e-12)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed and asserted in the committed script against committed B238/B245 dependencies"
+    },
+    {
+     "what": "C4 control: independent U_q(sl3) R-matrix J_3(5_2) = -0.118033989-0.812299241i, non-real",
+     "where": "mirror_listener.py lines 156-232",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "R-matrix pipeline validated against banked B245 4_1 value to 4.5e-16 in-script before use; braid word for 5_2 is cited/asserted, not independently derived from first principles in this file (spherogram identification optional, falls back to 'word cited' if unavailable)"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b592_mirror_listener.py exists in repo; the two scripts also self-verify via internal asserts on each run.",
+   "absence_claims": [
+    {
+     "quote": "the original R3M_PREREG_FOR_CC.md never reached this seat; the reconstruction is frozen in PREREGISTRATION.md",
+     "where": "FINDINGS.md line 3-4 / PREREGISTRATION.md lines 6-11"
+    },
+    {
+     "quote": "The 8-channel amplitude (adjoint color of 4_1) and J_6(5_2) were not computed (no banked formulas; the R-matrix route needs the 6's R-matrix or cabling)",
+     "where": "FINDINGS.md 'Method gaps (disclosed)' section"
+    },
+    {
+     "quote": "nothing banked computes the CUT-OPEN pairing — this is the new measurement",
+     "where": "PREREGISTRATION.md MB13 section, last line"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the braid word for 5_2 used in C4/C4-matrix is stated as 'standard' and cited rather than derived; the closure identity check via spherogram is optional and falls back silently to citation if the library is unavailable",
+     "where": "mirror_listener.py lines 212-222"
+    }
+   ],
+   "seat_note": "This is a genuinely self-contained, asserted, reproducible computation (theorem-shaped, with a caught in-diagnosis bug disclosed) but it is pure representation-theory/TQFT bookkeeping with zero Standard-Model content — 'no SM quantities' is stated by the arc itself."
+  },
+  {
+   "arc": "B593_round4_hearing",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B593_round4_hearing/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B593_round4_hearing/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B593_round4_hearing/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B593_round4_hearing/round4_hearing.py",
+    "/home/user/origin-axiom/PROGRESS_LOG.md (grep context around 2026-07-15 seat-4-audit entry)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"A chirally displaced listener hears at second order, A_eps = A0 - eps^2 (u dagger W u) with no first-order term and exact golden-pentagonal amplitudes.\"",
+   "log_says": "2026-07-14: R4-A the second-order hearing law verified to 1e-15; adversarially re-verified in exact symbolic arithmetic (V1). BUT 2026-07-15 'THE SEAT-4 AUDIT ADOPTED' entry states: 'X2R's arbitrary-weight sum barred from P3 channel combination; B593/B594 demoted to controls pending the J-pairing re-proof.' No later log entry documents the J-pairing re-proof completing or B593/B594 being reinstated from control status.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "the second-order hearing law A_eps(g) = A0(g) - eps^2 u^dagger W(g) u, no O(eps) term, verified numerically 1e-12 and symbolically (V1) exact",
+     "where": "round4_hearing.py lines 62-93 (numeric asserts); FINDINGS.md 'Verification addendum V1'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained script, committed dependencies (B238/B245), asserted to 1e-12 numerically; the symbolic sympy re-derivation (V1) is described in FINDINGS.md prose but the exact sympy script is not among the files packaged in this arc directory"
+    },
+    {
+     "what": "R4-B null: J_3(8_17) = J_3(reverse) = J_3(flip) = +0.673762079 (1e-15) — the non-invertible-listener route excluded",
+     "where": "round4_hearing.py lines 96-165",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "braid word for 8_17 cited as 'standard word from the tables', gated only by a determinant check (|V(-1)|=37) through an N=2 layer, plus an optional spherogram volume check; if spherogram is unavailable the word is uncross-checked beyond the determinant"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b593_round4_hearing.py exists; script has internal asserts.",
+   "absence_claims": [
+    {
+     "quote": "No prior second-order hearing or non-invertible-listener computation exists in the bank.",
+     "where": "PREREGISTRATION.md MB13, last line"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "PROGRESS_LOG.md 2026-07-15 explicitly demotes B593 (and B594) 'to controls pending the J-pairing re-proof' as part of the seat-4 audit gating the campaign, yet arc_verdict.json still reads verdict='PROVED' with superseded_by=null and FINDINGS.md/PREREGISTRATION.md carry no trace of this demotion or its resolution. Downstream arcs (B856, B860, B862, B871) continue to cite B593's coupling number as a load-bearing computed fact without addressing the demotion.",
+     "where": "PROGRESS_LOG.md line ~4101 vs frontier/B593_round4_hearing/arc_verdict.json"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "8_17 braid word is 'cited from tables' and gated only by a knot determinant (a single integer invariant), not a full identification; the reverse/flip equality argument (R4-B) leans on a cited-not-reproven anti-involution lemma, disclosed as a caveat in FINDINGS.md",
+     "where": "round4_hearing.py lines 143-165; FINDINGS.md 'Caveat made explicit'"
+    }
+   ],
+   "seat_note": "The numerics are solid and self-verifying, but the unresolved 2026-07-15 demotion to 'control pending re-proof' is a serious unmarked status question — later high-visibility arcs (B860's SM-selection argument) build on this exact coupling number as though it were never downgraded."
+  },
+  {
+   "arc": "B594_e6_hearing",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B594_e6_hearing/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B594_e6_hearing/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B594_e6_hearing/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B594_e6_hearing/e6_hearing.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The E6 level-2 hearing law is state-independent and its diagonal coefficients equal minus the banked Z/7 sine-kernel closed forms.\"",
+   "log_says": "2026-07-14: structural unlock, state-independence verified exactly for random C-symmetric states. Same 2026-07-15 seat-4-audit entry names 'B593/B594 demoted to controls pending the J-pairing re-proof' — no later resolution found in this arc's own files or the indexed log entries.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "H1: the hearing law A_eps=A0-eps^2(u'Wu) holds exactly for random C-symmetric states (state-independence)",
+     "where": "e6_hearing.py lines 46-63",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained script builds the E6-level-2 stage from committed c3_e6_level2_monodromy.py, asserts to 1e-10 across seeds/directions/welds"
+    },
+    {
+     "what": "H2: the diagonal eps^2 coefficients equal minus B589's banked sine-kernel closed forms, to 1e-7",
+     "where": "e6_hearing.py lines 65-82",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "BANKED dict of closed-form values is hardcoded in-script from a cited prior arc (B589) rather than recomputed from B589's own code in this run; comparison is numeric to 1e-7"
+    },
+    {
+     "what": "adjudication note correcting the arc handoff's 'three generations MATCHED' overclaim to 'no clean correspondence'",
+     "where": "FINDINGS.md 'Adjudication note on the arc handoff'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "references (paused, unbanked) B590-V3 blind tables not included in this arc's files; the correction itself is not re-derived here, just cited"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b594_e6_hearing.py exists.",
+   "absence_claims": [
+    {
+     "quote": "Nothing rediscovered; the E6_2 law itself is uncomputed anywhere.",
+     "where": "PREREGISTRATION.md MB13, last line"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "Same seat-4-audit demotion as B593 ('B593/B594 demoted to controls pending the J-pairing re-proof') applies to B594; arc_verdict.json unchanged at PROVED with no cross-reference.",
+     "where": "PROGRESS_LOG.md line ~4101 vs frontier/B594_e6_hearing/arc_verdict.json"
+    },
+    {
+     "kind": "IMPORTED",
+     "detail": "H2's comparison target ('BANKED' sine-kernel amplitudes) is a hardcoded dict transcribed from B589 rather than loaded/recomputed from B589's own committed module in this script.",
+     "where": "e6_hearing.py lines 66-71"
+    }
+   ],
+   "seat_note": "Same self-consistent numerical machinery as B593, and same unresolved control-demotion question; the arc's own adjudication note (correcting an overclaimed generations match) is a positive discipline signal but is itself an uncomputed citation."
+  },
+  {
+   "arc": "B595_dictionary",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B595_dictionary/DICTIONARY.md",
+    "/home/user/origin-axiom/frontier/B595_dictionary/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B595_dictionary/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B595_dictionary/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B595_dictionary/dictionary_bridge.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED (instrument: true) — \"Consolidated the seven-row dictionary and confirmed two blind predictions: det(I - B_odd) = phi^2 at kappa = 5, and E6_2's fixed theta-odd ear hears no chirality.\"",
+   "log_says": "consolidation of the stage<->classical dictionary; D2's phi^2 and achiral-fixed-ear predictions confirmed blind; D4 registers open lead L84 (no functorial map constructed) and gates the arc handoff's item 6 from any SM-facing use; later arcs (B596, B598, B601, B602) build directly on the det=phi^2 bridge.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "D2a: det(I-B_odd)=phi^2 exactly at kappa=5 across a blind SU(3)_k sweep k=1..12",
+     "where": "dictionary_bridge.py lines 17-39",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained blind sweep against committed B238 module, symbolic-exact match noted (2-2cos(3pi/5)=phi^2)"
+    },
+    {
+     "what": "D2b: the E6_2 fixed theta-odd ear has hearing coefficient exactly -1 (achiral)",
+     "where": "dictionary_bridge.py lines 42-66",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "builds the E6_2 stage from committed c3_e6_level2_monodromy.py, asserts to 1e-9"
+    },
+    {
+     "what": "D1 dimension constraint (stage theta-odd dims 0/2/3 vs classical dial's 2) selecting the golden stage",
+     "where": "FINDINGS.md D1; DICTIONARY.md row 2",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "an assembly of previously-banked facts (B575 dial dimension, various stage dims), not recomputed in this arc's own script"
+    },
+    {
+     "what": "DICTIONARY.md row 7: 'THE GAP' — no functorial monodromy-equivariant map constructed between classical dial directions and stage displacements",
+     "where": "DICTIONARY.md table row 7",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "an honestly stated open gap/absence claim, not a positive computation"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b595_dictionary.py exists.",
+   "absence_claims": [
+    {
+     "quote": "no functorial monodromy-equivariant map is constructed; the gradings differ (B586). The hearing law's classical reading is a correspondence, not a theorem.",
+     "where": "DICTIONARY.md row 7 / FINDINGS.md D4"
+    },
+    {
+     "quote": "the w != +-1 Weil conductors have NO manifold realization — the dictionary's precise edge",
+     "where": "DICTIONARY.md row 4 / FINDINGS.md D3"
+    },
+    {
+     "quote": "No canonical map H^1_theta-odd(M; ad rho) -> H_k(T^2)_odd exists in the bank",
+     "where": "PREREGISTRATION.md D4"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Well-disciplined arc: two blind predictions genuinely computed and confirmed, and the paper is honest that the central dictionary map (row 7) remains an unproven correspondence, explicitly gating downstream SM-facing use — this is the kind of self-limiting behavior the audit should reward."
+  },
+  {
+   "arc": "B596_cat_map",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B596_cat_map/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B596_cat_map/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B596_cat_map/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B596_cat_map/cat_map_clock.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The preregistered prediction fails on the blind sweep: the theta-odd block's clock is not the naive cat-map period in any registered form.\"",
+   "log_says": "2026-07-14 blind sweep kills every registered candidate law. ADDENDUM 2026-07-17 (B656) reports the table is DERIVED: clock(kappa)=ord(A1 mod 3*kappa) exactly for kappa 6..15, status upgraded DATA->DERIVED, L84's multiplier clause discharged; this addendum lives inside FINDINGS.md itself.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "Q1 blind sweep: no simple clock=f(ord) law holds uniformly (5/12, 5/12, 8/12 hit rates for the three candidate laws)",
+     "where": "cat_map_clock.py lines 57-84",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained blind sweep against committed B238 module, printed table, all candidate laws tested on every row"
+    },
+    {
+     "what": "ADDENDUM: clock(kappa) = ord(A1 mod 3*kappa) exactly for kappa=6..15 (10/10), independently verified with fresh order code in B656",
+     "where": "FINDINGS.md ADDENDUM section (cites frontier/B656_digest_integration/)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the verifying code lives in a different arc directory (B656) not packaged in this arc's file set; not independently checked in this digest pass"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b596_cat_map.py exists.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json still reads verdict='NEGATIVE' / claim_one_line describing the failed naive law, with superseded_by=null, even though FINDINGS.md's own later ADDENDUM (2026-07-17) states the status upgraded 'DATA -> DERIVED' and the clock law was in fact found (as ord(A1 mod 3*kappa)). The verdict-of-record file was never updated to reflect the arc's own addendum.",
+     "where": "frontier/B596_cat_map/arc_verdict.json vs frontier/B596_cat_map/FINDINGS.md ADDENDUM section"
+    }
+   ],
+   "seat_note": "The original null result is a genuine, disciplined negative (all candidate laws tested and reported with miss counts), but the arc's own addendum quietly reverses the headline while arc_verdict.json — the machine-readable claim of record most audits will read first — was never updated to match."
+  },
+  {
+   "arc": "B597_d1_dictionary",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B597_d1_dictionary/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B597_d1_dictionary/PREREGISTRATION_ADOPTED.md",
+    "/home/user/origin-axiom/frontier/B597_d1_dictionary/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Distinct theta-odd widths and theta-even torsions structurally exclude the free-rotation outcome C (conditionally), narrowing D1 to the existence question.\"",
+   "log_says": "the D1 prereg (chat-1) adopted with four binding adjudication corrections; outcome C excluded conditionally; the existence route registered as L85, gated (SM-facing downstream stays gated).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "T1: theta-odd widths |tau_4| != |tau_8| (ratio ~3.9e14) and distinct golden-stage monodromy eigenvalues (e^{+-3pi i/5}) — both planes carry canonical line-splittings",
+     "where": "FINDINGS.md 'T1' bullet, PREREGISTRATION_ADOPTED.md T1",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "this arc directory contains no .py script at all (only FINDINGS.md and PREREGISTRATION_ADOPTED.md); T1/T2 are stated as reads of previously-banked B581/B584 data, not recomputed here — a stranger cannot reproduce this arc's numbers from files committed in this directory"
+    },
+    {
+     "what": "T2: theta-even torsions {3, 1.65e8, 3.26e15, 6.9e36} pairwise distinct",
+     "where": "FINDINGS.md 'T2' bullet",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "same as above — no committed code in this arc; sourced from banked B581 data elsewhere"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b597_d1.py exists in the repo test suite despite no .py script in the arc directory itself — the test presumably re-reads/re-derives from the cited B581/B584 banks rather than from any file committed here.",
+   "absence_claims": [
+    {
+     "quote": "No candidate map... exists in the bank" ,
+     "where": "implied by D4/L85 registration language carried over from B595 (not verbatim in this arc's own files, cross-referenced)"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "the arc directory has zero .py files; T1/T2, the entire evidentiary basis for the 'outcome C excluded conditionally' verdict, are described only in prose as reads of other arcs' (B581/B584) banked numbers. A stranger cannot reproduce this arc from what is committed in frontier/B597_d1_dictionary/ alone.",
+     "where": "frontier/B597_d1_dictionary/ (directory listing: FINDINGS.md, PREREGISTRATION_ADOPTED.md, arc_verdict.json only)"
+    }
+    ,
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the whole conditional exclusion of outcome C rests on 'both planes carry canonical line-splittings' (non-degenerate labels on each side) — a dimension/label-non-degeneracy coincidence used to argue against a specific map existing, explicitly caveated by the arc itself as conditional on the map's existence and width-respect, i.e. not yet a constructed counterexample.",
+     "where": "FINDINGS.md 'The verdict this buys' paragraph"
+    }
+   ],
+   "seat_note": "This arc's verdict rests entirely on numbers imported from other arcs with no reproduction script of its own in this directory; the arc is honest that this is a conditional/narrowing result (not existence), which is appropriate given the thin evidentiary base."
+  }
+ ]
+}

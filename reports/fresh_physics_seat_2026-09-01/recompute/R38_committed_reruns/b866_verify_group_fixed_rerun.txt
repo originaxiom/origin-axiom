@@ -1,0 +1,7 @@
+222222 principal (B854 control)  dim Cent(2T) =  4   dim [C,C] =  0   ABELIAN
+121011 D5(a1)                    dim Cent(2T) =  4   dim [C,C] =  3   NON-ABELIAN
+001010 A2+2A1                    dim Cent(2T) =  4   dim [C,C] =  3   NON-ABELIAN
+000100 3A1                       dim Cent(2T) = 11   dim [C,C] = 11   NON-ABELIAN   #simple ideals of [C,C] <= 2
+020000 A2                        dim Cent(2T) = 16   dim [C,C] = 16   NON-ABELIAN   #simple ideals of [C,C] <= 2
+020200 D4                        dim Cent(2T) = 16   dim [C,C] = 16   NON-ABELIAN   #simple ideals of [C,C] <= 2
+010000 A1 minimal                dim Cent(2T) = 35   dim [C,C] = 35   NON-ABELIAN   #simple ideals of [C,C] <= 26

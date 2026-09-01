@@ -1,0 +1,34 @@
+positive roots 36   all roots 72   (E6: 36 / 72)
+dim = 78   (E6: 78)
+Jacobi on 4000 random basis triples: PASS
+sl2 triple: [e,f]=h True  [h,e]=2e True  [h,f]=-2f True
+roots per height: [6, 5, 5, 5, 4, 3, 3, 2, 1, 1, 1]
+hw multiplicities (exponents): [1, 4, 5, 7, 8, 11]
+  invariant x8: nonzero components 12
+  invariant x14: nonzero components 16
+  invariant x16: nonzero components 16
+  invariant x22: nonzero components 18
+
+=== CONTROL 1: do RANDOM elements of the same blocks bracket to zero? ===
+  random V14 x V22: 5/5 NONZERO
+  random V8 x V16: 5/5 NONZERO
+  random V8 x V14: 5/5 NONZERO
+  random V8 x V22: 5/5 NONZERO
+  random V14 x V16: 5/5 NONZERO
+  random V16 x V22: 5/5 NONZERO
+
+=== CONTROL 2: rank of the four invariant vectors ===
+  rank = 4  (must be 4)
+
+=== CONTROL 3 (cheap proxy): each invariant lies in its own sl2 block ===
+  x8: ad(e)^9 kills it   (block V8 needs exactly 9)
+  x14: ad(e)^14 kills it   (block V14 needs exactly 15)
+  x16: ad(e)^17 kills it   (block V16 needs exactly 17)
+  x22: ad(e)^22 kills it   (block V22 needs exactly 23)
+
+=== RESULT ===
+  all six brackets vanish : True
+  invariant rank          : 4 (must be 4)
+  K_e6 restricted to C    : rank 4 (nondegenerate, as on a torus)
+  K_C (Killing form OF C) : rank 0 (all brackets zero)
+  VERDICT: ABELIAN -- u(1)^4, NOT su(2)+u(1)

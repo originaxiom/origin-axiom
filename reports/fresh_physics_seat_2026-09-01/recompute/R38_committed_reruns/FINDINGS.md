@@ -1,0 +1,14 @@
+# R38 — committed-script reruns: B854, B866 (support), B919
+
+The cheapest recompute is to run the arc's own committed script on this bench, from a scratch copy, with nothing
+from the arc's results files. Three rows the readers marked reproducible-unknown / ASSERTED:
+
+| arc | committed script | rerun here | verdict |
+|---|---|---|---|
+| **B854_centralizer_exact** | `e6_centralizer.py` (exact E6 Chevalley algebra over ℚ, Jacobi-verified; principal sl₂; the four 2T-invariants x₈, x₁₄, x₁₆, x₂₂; all six brackets) | runs in ~1 min: "all six brackets vanish: True; invariant rank 4; K_e6 restricted to C rank 4; K_C (Killing form OF C) rank 0; VERDICT: ABELIAN — u(1)⁴, NOT su(2)+u(1)" (`b854_rerun.txt`) | **MATCH, reproducible from committed** — this is the refutation of the earlier "electroweak su(2)+u(1)" reading (log 2026-08-02), and it stands on its own script |
+| **B866_charge_cubic** (support: `support_2T_third_route/verify_group_fixed.py`, `nonprincipal_2T.py`) | group-element fixed-space route to Cent(2T), and the enumeration over all nilpotent orbits | both run: principal orbit dim Cent(2T) = 4, [C,C] = 0 (abelian) — reproduces B854 by an independent route; the non-principal table (D5(a1) 4/3, A2+2A1 4/3, 3A1 11/11, A2 16/16, D4 16/16, A1 35/35, …) reproduced (`b866_verify_group_fixed_rerun.txt`) | MATCH, reproducible. Note: the headline B866 claim (centralizer *enhances* to so(10)⊕u(1) = 46 at "the enhancement root", derived dim 45, centre 1) lives in scripts not in this directory (the solo seat's chain); not rerun here |
+| **B919_weinberg_traces** | `traces.py` | **cannot run**: line 15 `RUN = os.environ["HANDOFF6_RUN"]` — it rewrites and executes `cw.py` from an external "handoff-6 run dir". Swept all 7 remote heads and the deleted-file corpus: **no `cw.py` and no handoff-6 run directory is committed anywhere** (B946_solo_handoff6 verifies a different table from stored JSON). The belt `tests/test_b919_traces.py` asserts substrings of the stored `results.json` ("Tr27(T3^2) = 3", "Tr27(Y^2) = 5", "Tr27(T3·Y) = 0", "3/8") and that `two_prime_traces_3_5_0` is **False** ("ONE-PRIME", second prime "OPEN") | **NOT reproducible from committed.** sin²θ_W = 3/8 is, on this repository, a recorded string from an uncommitted pipeline at one prime, locked by a test that compares the record to itself. (The identity itself is the standard SU(5)/E6 normalisation Tr(T₃²)/Tr(Y²) = 3/5 on a full multiplet; nothing here says the object's T₃ and Y are those generators, which is the whole content.) |
+
+**Physics content:** B919 is the one row in this batch that names an observable (sin²θ_W). Its value 3/8 is the GUT
+tree-level normalisation, not a prediction at the electroweak scale, and its derivation is not in the repository.
+No new observable content is added by this cell.
