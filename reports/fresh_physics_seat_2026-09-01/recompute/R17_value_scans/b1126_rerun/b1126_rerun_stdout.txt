@@ -1,0 +1,96 @@
+====================================================================================================
+V3_compare.py -- value-campaign V-3, THE IDENTIFICATION
+====================================================================================================
+
+Gate-5 self-check: object periods computed with ZERO reference to SM_TARGETS (structural: Part A precedes and never imports Part B).
+
+Sealed object periods: 16   |   Extra (unsealed, informational): 2   |   SM targets: 22
+Sealed grid: 16 x 22 = 352 pairs (seal's own illustration used ~90 as a round number; this honestly-built grid is larger, so the look-elsewhere correction below is correspondingly stricter).
+
+--- PART A: object periods (30 digits) ---
+  C1/C0                    = 0.554216472404899898792635023168
+  C2/C0                    = 0.884659756630566223936167724655
+  C3/C0                    = 3.08807644707263741469758268298
+  C2/C1                    = 1.59623504655460838619201078987
+  C3/C2                    = 3.49069393507205466362631165312
+  C3/C1                    = 5.57196799595763031932861203879
+  r1=11/36                 = 0.305555555555555555555555555556
+  r2=697/7776              = 0.0896347736625514403292181069959
+  r3=724351/12597120       = 0.0575013177615200934816847025352
+  r1/r2                    = 3.40889526542324246771879483501
+  r2/r3                    = 1.55882990428673391767250959825
+  r1/r3                    = 5.31388788032321346971288781268
+  Vol/pi^2                 = 0.205670169778563635028469201404
+  Vol/pi                   = 0.646131894438901028187273021448
+  zeta_K(2)                = 1.28519095548414940291751179870
+  zeta_K(2)/pi^2           = 0.130217068816081049477864571604
+  C0 (bare)                = 0.759835685651592547331187750655  [EXTRA/unsealed]
+  Vol (bare)               = 2.02988321281930725004240510855  [EXTRA/unsealed]
+
+--- PART B: SM targets ---
+  sin2thetaW(MZ)                   =          0.23122  +/-       4.0e-5   [seal-frozen (PDG MS-bar effective weak mixing angle at M_Z)]
+  alpha_em(MZ)                     =   0.007815491868  +/-     5.497e-7   [seal-frozen central (~1/127.95); sigma from PDG 1/alpha(MZ)=127.951(9)]
+  1/alpha_em(MZ)                   =          127.951  +/-        0.009   [the iconic reciprocal form of the same PDG number (both conventions standard)]
+  alpha_em(0)                      =   0.007297352564  +/-    1.118e-12   [seal-frozen central (~1/137.036); sigma from CODATA 2022 1/alpha=137.035999177(21)]
+  1/alpha_em(0)                    =      137.0359992  +/-       2.1e-8   [the iconic reciprocal ("137"); both conventions standard in the literature]
+  alpha_s(MZ)                      =           0.1179  +/-       0.0009   [seal-frozen (PDG world average)]
+  sin(theta12_CKM) [Cabibbo]       =            0.225  +/-       0.0006   [seal-frozen]
+  sin(theta23_CKM) ~|Vcb|          =          0.04182  +/-        0.001   [repo precedent (B533/B467); sigma ~ PDG incl./excl. |Vcb| spread]
+  sin(theta13_CKM) ~|Vub|          =          0.00365  +/-       0.0004   [repo precedent (B533/B467); sigma ~ PDG incl./excl. |Vub| spread]
+  sin(theta12_PMNS)                =     0.5540758071  +/-      0.01038   [NuFIT 6.0 (arXiv:2410.05380 Table 1, NO/IC19-w/o-SK-atm; fetched 2026-08-21), sin(theta)=sqrt(sin^2 theta), sigma propagated from published sin^2 theta range]
+  sin(theta23_PMNS)                =     0.7489993324  +/-     0.009012   [NuFIT 6.0 (arXiv:2410.05380 Table 1, NO/IC19-w/o-SK-atm; fetched 2026-08-21), sin(theta)=sqrt(sin^2 theta), sigma propagated from published sin^2 theta range]
+  sin(theta13_PMNS)                =     0.1481553239  +/-      0.00189   [NuFIT 6.0 (arXiv:2410.05380 Table 1, NO/IC19-w/o-SK-atm; fetched 2026-08-21), sin(theta)=sqrt(sin^2 theta), sigma propagated from published sin^2 theta range]
+  m_e/m_mu                         =         0.004836  +/-       1.0e-9   [seal-frozen (essentially exact at this precision: m_e, m_mu known to <1e-7 relative)]
+  m_mu/m_tau                       =    0.05946353427  +/-     4.016e-6   [seal-frozen central (~5.946e-2); sigma from PDG m_tau=1776.86(12) MeV (dominant)]
+  m_e/m_tau                        =  0.0002875853753  +/-     1.942e-8   [derived = (m_e/m_mu)*(m_mu/m_tau) from the two seal-frozen ratios; sigma from PDG m_tau uncertainty (dominant term)]
+  m_u/m_d                          =            0.462  +/-      0.01216   [PDG 2024 direct ratio, CL=90% -> /1.645 for ~1sigma]
+  m_s/((m_u+m_d)/2)                =            27.33  +/-      0.09726   [PDG 2024 direct ratio, CL=90% -> /1.645 for ~1sigma]
+  m_c/m_s                          =      13.61497326  +/-      0.07687   [derived from PDG 2024 m_c, m_s (CL90->1sigma), independent quadrature]
+  m_b/m_c                          =      3.285938727  +/-     0.007955   [derived from PDG 2024 m_b, m_c (CL90->1sigma), independent quadrature]
+  m_t/m_b                          =      41.25508009  +/-      0.08104   [derived from PDG 2024 m_t (direct meas.), m_b (CL90->1sigma)]
+  Koide Q (=2/3 target)            =     0.6666666667  +/-          0.0   [seal-frozen exact rational target (the historical Koide "prediction")]
+  Koide Q_emp (measured)           =     0.6666605115  +/-     6.775e-6   [actual empirical combination from PDG lepton masses (m_e,m_mu exact-enough; sigma from PDG m_tau=1776.86(12) MeV, finite-difference propagated)]
+
+--- PART D: coincidence-discipline accounting (sealed grid only) ---
+  >= 2 sig figs: per-pair chance ~0.01, expected-by-chance in this grid ~3.52, ACTUALLY OBSERVED: 1
+  >= 3 sig figs: per-pair chance ~0.001, expected-by-chance in this grid ~0.352, ACTUALLY OBSERVED: 1
+  >= 4 sig figs: per-pair chance ~0.0001, expected-by-chance in this grid ~0.0352, ACTUALLY OBSERVED: 0
+  >= 5 sig figs: per-pair chance ~1.0e-5, expected-by-chance in this grid ~0.00352, ACTUALLY OBSERVED: 0
+  >= 6 sig figs: per-pair chance ~1.0e-6, expected-by-chance in this grid ~0.000352, ACTUALLY OBSERVED: 0
+  >= 7 sig figs: per-pair chance ~1.0e-7, expected-by-chance in this grid ~3.52e-5, ACTUALLY OBSERVED: 0
+
+--- Closest 15 pairs overall, by relative difference (sealed + extra, full transparency) ---
+  [sealed           ] C1/C0                vs sin(theta12_PMNS)                 rel_diff=0.000253874  3 sig figs,  0.0135547 sigma  -> ESCALATE-TO-C-INSTRUMENT-TEST
+  [EXTRA/ineligible ] C0 (bare)            vs sin(theta23_PMNS)                 rel_diff= 0.0144678  1 sig figs,    1.20243 sigma  -> NOISE
+  [sealed           ] Vol/pi               vs Koide Q_emp (measured)            rel_diff= 0.0307932  1 sig figs,     3030.1 sigma  -> NOISE
+  [sealed           ] Vol/pi               vs Koide Q (=2/3 target)             rel_diff= 0.0308022  1 sig figs,       +inf sigma  -> NOISE
+  [sealed           ] r3=724351/12597120   vs m_mu/m_tau                        rel_diff= 0.0329987  1 sig figs,    488.617 sigma  -> NOISE
+  [sealed           ] r1/r2                vs m_b/m_c                           rel_diff=  0.037419  1 sig figs,    15.4574 sigma  -> NOISE
+  [sealed           ] C3/C0                vs m_b/m_c                           rel_diff= 0.0602148  1 sig figs,    24.8741 sigma  -> NOISE
+  [sealed           ] C3/C2                vs m_b/m_c                           rel_diff= 0.0623125  1 sig figs,    25.7406 sigma  -> NOISE
+  [sealed           ] Vol/pi^2             vs sin(theta12_CKM) [Cabibbo]        rel_diff= 0.0859104  1 sig figs,    32.2164 sigma  -> NOISE
+  [sealed           ] zeta_K(2)/pi^2       vs alpha_s(MZ)                       rel_diff=   0.10447  0 sig figs,    13.6856 sigma  -> NOISE
+  [sealed           ] Vol/pi^2             vs sin2thetaW(MZ)                    rel_diff=    0.1105  0 sig figs,    638.746 sigma  -> NOISE
+  [sealed           ] zeta_K(2)/pi^2       vs sin(theta13_PMNS)                 rel_diff=  0.121077  0 sig figs,     9.4916 sigma  -> NOISE
+  [sealed           ] Vol/pi               vs sin(theta23_PMNS)                 rel_diff=   0.13734  0 sig figs,    11.4145 sigma  -> NOISE
+  [EXTRA/ineligible ] C0 (bare)            vs Koide Q (=2/3 target)             rel_diff=  0.139754  0 sig figs,       +inf sigma  -> NOISE
+  [EXTRA/ineligible ] C0 (bare)            vs Koide Q_emp (measured)            rel_diff=  0.139764  0 sig figs,    13753.0 sigma  -> NOISE
+
+--- Pairs reaching the >=3-sig-fig escalation bar (sealed set only): 1 ---
+  C1/C0                vs sin(theta12_PMNS)                 3 sig figs, 0.0135547 sigma, rel_diff=0.000253874
+
+--- PART E: C-instrument adjudication for each survivor ---
+
+  PAIR: C1/C0 vs sin(theta12_PMNS)
+    look-elsewhere-corrected p(>=1 hit this close, anywhere in grid) = 0.1637  -> UNREMARKABLE -- this level of raw agreement is expected with ~0.16 probability somewhere in a grid this size, purely by chance
+    target's own relative sigma = 0.01873  vs  raw relative agreement = 0.0002539  (sigma metric misleading here: True)
+    principled instrument on record: False
+    pre-committed before scan: False
+    -> NOISE (a within-the-house-odds chance hit): fails look-elsewhere, fails instrument-existence, fails pre-commitment -- three independent grounds, not one. Named for the record only, per "do not hide or cherry-pick"; NOT escalated. A clean, falsifiable, unclaimed note for the future: if a materially tighter PMNS theta12 measurement (JUNO/DUNE-era) still centers near 0.55422(...), that would be a genuinely new fact worth revisiting -- current data neither earns nor rules that out.
+
+====================================================================================================
+FINAL VERDICT (numerics + PART E C-instrument adjudication; full reasoning also in V3_NOTES.md):
+  NO-OBJECT-PERIOD-IS-AN-SM-RATIO (one pair reached the >=3-sig-fig numeric bar -- C1/C0 vs sin(theta12_PMNS) -- but fails all three of: look-elsewhere (p~0.1637 chance of a hit this close somewhere in this grid by pure chance), instrument-existence (nothing on record connects these domains), and pre-commitment (found by exhaustive scan). NOISE, named not claimed. See V3_NOTES.md.
+====================================================================================================
+
+Wrote V3_results.json

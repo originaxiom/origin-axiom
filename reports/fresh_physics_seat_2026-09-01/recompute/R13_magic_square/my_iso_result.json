@@ -1,0 +1,7 @@
+{
+ "build_jacobi_failures": 0,
+ "pairs_checked": 3003,
+ "mismatches": 0,
+ "det_phi": "-33554432/3",
+ "control_mismatches": 16
+}

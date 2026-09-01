@@ -1,0 +1,77 @@
+==============================================================================
+STEP 0 -- the one involution c and its restrictions (exact, sympy)
+==============================================================================
+  [PASS] c|K: conj(omega) == omega**2 (Gal generator, nontrivial on K)
+  [PASS] c|K nontrivial: conj(sqrt(-3)) == -sqrt(-3) != sqrt(-3)
+  [PASS] c|Q(zeta5): conj(zeta5) == zeta5**4 (= sigma_4)
+  [PASS] sqrt5 = 2(zeta5+zeta5^4)+1 (exact)
+  [PASS] c fixes sqrt5 (real): conj(sqrt5) == sqrt5
+  [PASS] sigma_4(zeta5+zeta5^4) fixed: zeta5^4 + zeta5^16 == zeta5 + zeta5^4
+  [PASS] c trivial on R (conj(x)=x for real symbol)
+
+==============================================================================
+STEP 1 -- P3 chord/cyclotomic sector rebuilt from B238 committed module
+==============================================================================
+  [PASS] weld eigenvalues == {zeta5, zeta5^4} (1e-10)
+  [PASS] tr(B) == 1/phi = 2cos72 (1e-10)
+  [PASS] det(B) == 1 (1e-10)
+  [PASS] char poly p(zeta5) == 0 exactly
+  [PASS] char poly p(zeta5^4) == 0 exactly
+  [PASS] root sum 2cos72 == 1/phi exactly
+  [PASS] root product == 1 exactly
+  [PASS] Phi_5 factorization: Phi_5 == (x^2-(1/phi)x+1)(x^2+phi*x+1)
+  [PASS] eps^2 == -I
+  [PASS] conj(B) == eps B eps^-1 (quaternionic; no real structure)
+  [PASS] P3 FREE under c: conj swaps zeta5 <-> zeta5^4 (no fixed elt)
+  [PASS] P3 NON-COLLAPSED: zeta5 != zeta5^4
+
+==============================================================================
+STEP 2 -- P2 the chord-sector sign carrier (B760 part 8, exact)
+==============================================================================
+  [PASS] Im f(omega) == +sqrt3 exactly
+  [PASS] Im f(conj(omega)) == -sqrt3 exactly
+  [PASS] magnitude c-invariant: |Im| both sqrt3
+  [PASS] LEMMA: Im g(conj z) == -Im g(z), real-coeff g (deg<=2, exact)
+  [PASS] P2 FREE under c: c maps +sqrt3 -> -sqrt3 (sign flips, no fixed elt)
+  [PASS] P2 NON-COLLAPSED: +sqrt3 != -sqrt3 (Im != 0 at omega)
+  [PASS] coupling fraction 15/32 at omega AND conj(omega) (c-invariant, exact)
+
+==============================================================================
+STEP 3 -- P1 orientation {+Vol,-Vol} and P4 mirror on traces (SnapPy)
+==============================================================================
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  [PASS] Vol(m004) > 0 (non-collapse: +Vol != -Vol)
+    Vol(m004) = 2.0298832128
+  [PASS] m004 amphichiral (orientation-reversing isometry exists)
+  [PASS] symmetry group order 8 (D4, full)
+  [PASS] mirror flips signed volume: Re cvol(m004) == -Re cvol(mirror)? (vol part even, CS odd -- amphichiral CS==0)
+  [PASS] Vol(m004) == 2*D(z0), z0 = e^{i pi/3} (1e-9)
+  [PASS] P1 FREE under c: D(conj z0) == -D(z0) (Bloch-Wigner odd, 1e-12)
+  [PASS] P1 NON-COLLAPSED: D(z0) != 0
+  [PASS] P4: mirror traces == conjugated traces (multiset, 1e-9)
+  [PASS] P4 FREE+NON-COLLAPSED: some trace has Im != 0 (c moves K in C)
+    traces: {'a': -1.500000000000000 + 0.866025403784439*I, 'b': 1.000000000000000 - 1.732050807568877*I, 'ab': -2.000000000000000 - 2.22044604925031 E-15*I}
+    mirror: {'a': -1.499999999999999 - 0.866025403784440*I, 'b': 0.999999999999999 + 1.732050807568879*I, 'ab': -2.000000000000000 - 1.77635683940025 E-15*I}
+
+==============================================================================
+STEP 4 -- the torsor algebra: freeness, isomorphism, VACUITY boundary
+==============================================================================
+  [PASS] VACUITY boundary: ALL bijections of free Z/2 2-sets are equivariant (2/2)
+  [PASS] contrast |G|=3: only 3/6 bijections equivariant (so vacuity is |G|=2-specific) -> got 3/6
+    P1 orient: non-collapse via Vol>0; freeness via D odd
+    P2 chord sign: non-collapse via Im=sqrt3 != 0; freeness via sign flips
+    P3 eigenvalue: non-collapse via zeta5 != zeta5^4; freeness via conj swaps
+    P4 mirror/Gal: non-collapse via Im trace != 0; freeness via mirror conjugates
+
+==============================================================================
+STEP 5 -- PLANTED-POSITIVE CONTROLS (must FAIL the same-c torsor test)
+==============================================================================
+  [PASS] CONTROL A caught: {+sqrt5,-sqrt5} NOT free under c (c fixes sqrt5)
+  [PASS] CONTROL B caught: at real u, Im f == 0 (collapsed 'sign set')
+  [PASS] CONTROL C caught: sigma7 (z12->z12^7) FIXES omega => orientation set not free under sigma7 (wrong leg)
+  [PASS] CONTROL C contrast: sigma7 flips sqrt3 = z12 + z12^-1
+
+==============================================================================
+TOTAL: 41/41 checks passed
+R11 BLIND RECOMPUTE: ALL CHECKS PASS

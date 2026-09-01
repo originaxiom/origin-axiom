@@ -1,0 +1,1 @@
+den=2 ordered_failures=0 unordered_triples=76076 unordered_failures=0 killing_rank_float=78 planted_control_failures=330
