@@ -1,0 +1,25 @@
+(a) unsigned pi_mirror fold (permute, all signs +1, no sign extension):
+    theta^2 = I: True   automorphism (all 78^2 pairs): False   exact failing basis pairs: 672 / 6084  {'h-e': 0, 'e-e': 672, 'h-h': 0}
+    bank-style random 4-sparse vector trial: 40 / 60 fail   (bank: 38 / 60)
+    root pairs (r,s), r+s a root, with cocycle eps(pi r, pi s) != eps(r, s): 672  (these are the e-e failures)
+(b) theta_split = antipodal/id, eps=+1: automorphism+involution; global antilinear sig (0, 78, 0) (sigma_c control, expect (0,78,0))
+    antipodal/A elements found: 16 (expect 16)
+    eps6=++++++  theta_A: I2 (0, 8, 0) glob (26, 52, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=+++-++  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=++-+-+  theta_A: I2 (0, 8, 0) glob (26, 52, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=++---+  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=+-++++  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=+-+-++  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=+--+-+  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=+----+  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=-++++-  theta_A: I2 (0, 8, 0) glob (26, 52, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=-++-+-  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=-+-+--  theta_A: I2 (0, 8, 0) glob (26, 52, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=-+----  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=--+++-  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=--+-+-  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=---+--  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    eps6=------  theta_A: I2 (4, 4, 0) glob (42, 36, 0) | product: commute=True invol=True aut=True permute/piMirror=True I2stable=True  I2 sig (5, 3, 0) compact=False  glob (40, 38, 0)
+    products with compact I2: 0 / 16   (bank, one base element: (5,3,0) not compact)
+    products from the 4 compact theta_A (R25 hits): [[5, 3, 0], [5, 3, 0], [5, 3, 0], [5, 3, 0]]
+    summary: {"n_bases": 16, "all_commute": true, "all_involution": true, "all_automorphism": true, "all_in_permute_piMirror": true, "all_I2_stable": true, "I2_sigs": [[5, 3, 0]], "n_compact": 0, "bank_I2_sig": [5, 3, 0], "bank_compact": false}

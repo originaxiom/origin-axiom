@@ -1,0 +1,617 @@
+{
+ "layer8a_unsigned_pi_mirror": {
+  "theta_squared_is_identity": true,
+  "is_automorphism": false,
+  "failing_basis_pairs": 672,
+  "of_pairs": 6084,
+  "failing_by_kind": {
+   "h-e": 0,
+   "e-e": 672,
+   "h-h": 0
+  },
+  "random_trial_failures_of_60": 40,
+  "bank_random_failures_of_60": 38,
+  "valid_as_automorphism": false,
+  "cocycle_mismatch_root_pairs": 672
+ },
+ "layer8b_secondary_construction_all_16_bases": [
+  {
+   "eps6": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "theta_A_I2_sig": [
+    0,
+    8,
+    0
+   ],
+   "theta_A_global_sig": [
+    26,
+    52,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    1,
+    1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    1,
+    1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "theta_A_I2_sig": [
+    0,
+    8,
+    0
+   ],
+   "theta_A_global_sig": [
+    26,
+    52,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    1,
+    -1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    -1,
+    1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "theta_A_I2_sig": [
+    0,
+    8,
+    0
+   ],
+   "theta_A_global_sig": [
+    26,
+    52,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    -1,
+    1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "theta_A_I2_sig": [
+    0,
+    8,
+    0
+   ],
+   "theta_A_global_sig": [
+    26,
+    52,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    -1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  },
+  {
+   "eps6": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "theta_A_I2_sig": [
+    4,
+    4,
+    0
+   ],
+   "theta_A_global_sig": [
+    42,
+    36,
+    0
+   ],
+   "commute": true,
+   "product_involution": true,
+   "product_automorphism": true,
+   "product_in_permute_piMirror": true,
+   "I2_stable": true,
+   "product_I2_antilinear_sig": [
+    5,
+    3,
+    0
+   ],
+   "product_I2_compact": false,
+   "product_global_antilinear_sig": [
+    40,
+    38,
+    0
+   ]
+  }
+ ],
+ "layer8b_summary": {
+  "n_bases": 16,
+  "all_commute": true,
+  "all_involution": true,
+  "all_automorphism": true,
+  "all_in_permute_piMirror": true,
+  "all_I2_stable": true,
+  "I2_sigs": [
+   [
+    5,
+    3,
+    0
+   ]
+  ],
+  "n_compact": 0,
+  "bank_I2_sig": [
+   5,
+   3,
+   0
+  ],
+  "bank_compact": false
+ }
+}

@@ -460,7 +460,7 @@ re-swept over all 7 remote heads and the deleted-file history
   (`*.log`, `*.out`) makes uncommittable — the "8/8 REPRODUCE" statement is unwitnessed on every
   head (B1148 addendum, appended section).
 
-## DATED CLOSURES (2026-09-01, later the same day) — three §3 gaps closed by computation
+## DATED CLOSURES (2026-09-01, later the same day) — four §3 gaps closed by computation
 
 - **Item 8 / item 23 (interval pass) — CLOSED for the hyperbolic-structure leg** by
   `R29_interval_hyperbolicity/`: own Krawczyk certificate (mpmath 300-bit intervals, no Sage) on all 112
@@ -473,5 +473,15 @@ re-swept over all 7 remote heads and the deleted-file history
   dim_ℚ null ≤ 6615, the exact sl₂ Clebsch count gives 6615 ⇒ equality; five primes agree at rank 9855.
 - **"D4 order not re-verified" — CLOSED** by `R30_m004_symmetry_group/` (filed earlier today as "R26";
   renumbered because R26 is B1080/B1011): SnapPy `symmetry_group()` order 8, amphichiral; o10_150700 order 2.
+- **R25 "Layer-8b / unsigned-fold not re-run" (§3 table rows at l.313 and item 11) — CLOSED** by
+  `R25_torsor_4of48/r25_layer8.py` (own construction, exact): (a) the unsigned diagram fold is an involution but
+  **not** an automorphism — 672 of 78² basis pairs fail, all of them e–e pairs, and exactly the 672 root pairs
+  (r,s) with r+s a root on which the Chevalley cocycle is not π-invariant (bank: 38/60 random trials; the same
+  seeded trial style gives 40/60 here); (b) the secondary construction σ′ = τ∘θ_split∘θ_A checked for **all 16**
+  antipodal/A bases (the bank did one): θ_split and θ_A commute, the product is an involutive automorphism in
+  the permute/π_mirror family, I2 is stable, I2 antilinear signature **(5,3,0) for every base**, global
+  (40,38,0), 0/16 compact — the bank's "(5,3,0), not compact" holds for any base, as a corollary of R25's
+  permute/A result. Verdict on B1127 unchanged: MATCH; the compact-referenced alternative does not rescue
+  a compact colour from the mirror.
 
 Numbering note: cells are R01–R30; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.

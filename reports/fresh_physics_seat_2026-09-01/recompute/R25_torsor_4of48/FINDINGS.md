@@ -99,3 +99,36 @@ giving (4,4). Also observed: within antipodal/A, compact color <=> global E6(-26
 - `r25_torsor.py` (full computation), `r25_lib.py` (library half used for the diff),
   `my_results.json` (all 48 elements + 64 control elements), `run.log`.
 Gate 5: no measured SM values used.
+
+## ADDENDUM (2026-09-01, later the same day) — Layer-8 fences re-run (`r25_layer8.py` → `r25_layer8.json/.txt`, ~20 s)
+
+The "not re-run" line under Planted controls is now closed. Own construction (r25_lib), exact arithmetic.
+
+**(a) Unsigned fold (bank `layer8a_unsigned_pi_mirror`).** The bare permutation lift of π_mirror
+(e_r → e_{πr}, h_r → h_{πr}, all signs +1, no sign extension): θ² = I **true**; automorphism **false** —
+**672 of 78² = 6084 basis pairs fail**, all of them e–e pairs (0 h–e, 0 h–h), and they are exactly the 672
+root pairs (r, s) with r+s a root on which the cocycle is not π-invariant, ε(πr, πs) ≠ ε(r, s). Bank: 38/60
+random sparse-vector trials fail; the same trial style (seeded) gives 40/60 here. So the unsigned diagram
+fold is not a Lie-algebra automorphism and a genuine sign lift is required — matches the bank's
+`valid_as_automorphism: false`, now with an exact count and the reason.
+
+**(b) Secondary "compact-referenced" construction (bank `layer8b_secondary_compact_referenced_construction`).**
+σ′ = τ∘θ_split∘θ_A with θ_split = antipodal/π=id, ε=+1 (re-checked: global antilinear signature (0,78,0), i.e.
+the linear shadow of the compact conjugation) and θ_A ∈ antipodal/A. The bank ran one base element; here
+**all 16** antipodal/A elements (including the 4 R25 compact hits) were composed with θ_split:
+
+| check | result (all 16 bases) | bank (1 base) |
+|---|---|---|
+| θ_split, θ_A commute | True ×16 | True |
+| product involution / automorphism | True / True ×16 | True / — |
+| product lies in permute/π_mirror family | True ×16 | — |
+| I2 stable under product | True ×16 | True |
+| I2 antilinear signature | **(5,3,0) ×16**, 0 compact | (5,3,0), not compact |
+| global antilinear signature | (40,38,0) ×16 | — |
+
+Structural reading: antipodal∘antipodal = permute, so θ_split∘θ_A is a permute/π_mirror element, and R25's
+table already had (5,3) on all 16 permute/A elements; the bank's Layer-8b number is therefore forced for
+*any* choice of base, not just theirs. The compact-referenced alternative cannot produce compact colour
+from the mirror. B1127 verdict unchanged: **MATCH** (now including both fences).
+
+Not physics: nothing here touches an observable; **no observable content** is created or removed.
