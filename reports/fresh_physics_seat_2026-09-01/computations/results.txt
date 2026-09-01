@@ -1,0 +1,11 @@
+PASS  m004 (homs, surj) onto SL(2,3)=2T: got (72, 48), expected (72, 48)
+PASS  m000 (homs, surj) onto SL(2,3)=2T: got (72, 48), expected (72, 48)
+PASS  m004 (homs, surj) onto SL(2,5)=2I: got (600, 0), expected (600, 0)
+PASS  Gieseking is m000, nonorientable: got ('m000', False), expected ('m000', False)
+PASS  orientation cover of m000 is m004: got True, expected True
+PASS  m004 shape satisfies z^2-z+1=0 (field Q(sqrt-3)): got True, expected True
+PASS  orientation covers amphichiral (first 40): got (40, 40), expected (40, 40)
+INFO  orientable-census amphichiral base rate: 7/300
+PASS  family volumes are integer multiples of vol(Gieseking)
+INFO  multiples: {'m003': 2, 'm004': 2, 'm202': 4, 'm203': 4, 'm206': 4, 'm207': 4, 'm208': 4, 'm410': 5, 'm412': 5, 's118': 4, 's119': 4, 's594': 5, 's595': 5, 's596': 5}
+INFO  census genericity: 27/60 onto 2T; 18/60 full m004 signature (onto 2T, not 2I)
