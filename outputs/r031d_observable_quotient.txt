@@ -1,0 +1,8 @@
+PASS beta restricted to wedge^2(C) is zero
+PASS induced C tensor (V/C) observable is well-defined
+DATA nonzero induced mixed observable = (Fraction(2, 1), Fraction(-3, 1), Fraction(5, 1))
+PASS all 125 tested tail lifts give the same observable
+RESULT raw lift-choice dimension = 3; observable variation rank = 0
+RESULT projective nonzero-tail stratum has one observable point; pure-connecting boundary maps to zero
+CONTROL a planted C-C term makes the lift choice observable
+SCOPE exact quotient lemma; no R032 characteristic-zero vanishing or physical normalization is assumed
