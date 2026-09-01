@@ -1,0 +1,65 @@
+{
+ "batch": "arcs_027",
+ "arcs": [
+  {
+   "arc": "B529_qca_covariance",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B529_qca_covariance/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B529_qca_covariance/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B529_qca_covariance/golden_angle_robustness.py",
+    "/home/user/origin-axiom/frontier/B529_qca_covariance/qca_controls.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: 'The QCA covariance gate fails: iσ_y's exactness is generic spectral degeneracy and the golden-angle coin loses to 2 of 10 random controls.' status/verdict: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "iσ_y coin nesting-cost is generic spectral degeneracy (6 distinct eigenphases of hundreds, fixed by stationary letter-frequencies; golden=tetranacci=random=0 at matched size 243/256)",
+     "where": "FINDINGS.md 'The decisive control' section; qca_controls.py (prints isy nesting cost for GOLDEN, tetranacci, random; degeneracy count printed)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "qca_controls.py is a complete, runnable script producing the exact printed comparison (id/Had/isy cost per substitution, degeneracy count); no external data needed, uses only numpy/random."
+    },
+    {
+     "what": "golden-angle coin (embeds cos(pi/5)=phi/2) beats only 8/10 random controls at matched size, i.e. not a robust selection",
+     "where": "FINDINGS.md 'the golden-angle coin is NOT robustly special'; golden_angle_robustness.py (loops seeds 5-14, counts 'golden beats N/10')",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "golden_angle_robustness.py is self-contained and prints the exact 'golden beats X/10' statistic used in the FINDINGS claim."
+    },
+    {
+     "what": "handoff's original golden table (identity 5.6e-5, Hadamard 4.7e-6, isy ~1e-32, golden-angle 4.3e-9) reproduced with a proper non-degenerate moving shift",
+     "where": "FINDINGS.md table 'Reproduced (the handoff's golden table is real)'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the same U()/cost() machinery in qca_controls.py and golden_angle_robustness.py generates these numbers directly; committed and runnable."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "FINDINGS.md references 'Locks: tests/test_b529.py' (present in repo at /home/user/origin-axiom/tests/test_b529.py, not part of this arc's packet so not read here) as the belt/lock artifact; no dedicated verification/ directory in the arc.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "A CORRECTION dated 2026-07-12 (B530 movement XXIX) is appended at the bottom of FINDINGS.md, reclassifying the golden-angle-coin kill as 'over-strong': the earlier body text ('the golden-angle coin is NOT robustly special either... it does not pass as a clean selection') is not edited or struck through, so the un-corrected verdict text still stands alongside the correction. However arc_verdict.json's claim_one_line/status ('NEGATIVE... loses to 2 of 10') was NOT updated to reflect the CORRECTION's reclassification to OPEN (a real F≠F² coupling resonance, 240,000x lower cost than uncoupled Fibonacci) — the verdict file is stale relative to the arc's own most recent correction.",
+     "where": "FINDINGS.md CORRECTION paragraph (bottom) vs. FINDINGS.md main verdict text and arc_verdict.json"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "The CORRECTION says the golden-angle kill 'was over-strong' and reclassifies status from a kill to OPEN, referencing a different arc's file (frontier/B530_natural_history/listen_30_qca_reexamination.py, confirmed present in repo) for the new finding, but B529's own arc_verdict.json still records verdict NEGATIVE / superseded_by: null, giving no machine-readable trace that B530 revises this arc's status.",
+     "where": "arc_verdict.json (superseded_by: null) vs FINDINGS.md CORRECTION referencing B530"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "log_index is null for this arc, so no progress-log entry could be checked against the FINDINGS/verdict claims; claim_of_record rests solely on the arc's own two files.",
+     "where": "packet arcs_027.json log_index: null"
+    }
+   ],
+   "seat_note": "The core computation is genuinely reproducible in-repo (two small, complete numpy scripts) and the seat correctly ran the control the original handoff skipped, refuting a spectral-degeneracy artifact as a physical selection — solid negative-result discipline. But the appended CORRECTION revises the golden-angle verdict from 'killed' to 'OPEN (coupling resonance, mechanism unexplained)' without updating arc_verdict.json, leaving the machine-readable record of this arc inconsistent with its own prose."
+  }
+ ]
+}

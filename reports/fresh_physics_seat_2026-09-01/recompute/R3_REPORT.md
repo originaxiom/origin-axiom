@@ -510,3 +510,10 @@ Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   (a theorem, checked); B307's census: 32 cubic invariant trace fields in 500, all signature (1,1), 0 cyclic.
 - **B252 "27 complex, 78 real" (reader: Sage-only) — CLOSED, MATCH** by `R34_e6_27_not_selfdual/` from the
   Cartan matrix alone (−w₀ = diagram flip 1↔6, 3↔5).
+- **Ten census-type rows (B3, B127, B129, B147, B197, B212, B258, B321, B322, B326) — CLOSED** by
+  `R35_snappy_census_claims/`: nine MATCH (incl. Bianchi covolume ratios 12/12/3 recomputed from the ζ_K(2) formula,
+  CS = ±1/48 on the chiral pair, ℤ⊕(ℤ/4)² on the 3-fold cover, silver square-traces ≡ 0 mod (1+i), 78/79 of B322's
+  filling invariants). **One inference refuted: B258's "silver … degree 8 — non-arithmetic" uses the trace field
+  where the invariant trace field (ℚ(i)) decides; silver is arithmetic, as B147 already had (vol = 12 × covol
+  PSL(2,ℤ[i])). B147 and B258 contradict each other in the bank; B258's "only the figure-eight has a quadratic
+  trace field" repeats the Reid-for-knots misapplication B125 corrected.** No observable content.

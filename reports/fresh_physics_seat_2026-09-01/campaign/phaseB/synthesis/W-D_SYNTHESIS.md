@@ -64,8 +64,9 @@ all with committed scripts that run on this bench without Sage:
 | R33 | B142/B146/B210/B235/B781/B803/B840/B850 trace fields, m003/m004 | all MATCH; bronze s464 field is degree 8 (B840's "unresolved 6 vs 8" resolves for the script); m003/m004 share a double cover; B235's table is a theorem check |
 | R33c | B307 census: 32 cubic fields of 500, all (1,1), 0 cyclic | MATCH exactly (32, all (1,1), 0 cyclic; 110 of 500 shape fields undetermined above degree 40, none of which can be cubic) |
 | R34 | B252 E6 27 complex / 78 real | MATCH (textbook) |
+| R35 | B3/B127/B129/B147/B197/B212/B258/B321/B322/B326 census rows | nine MATCH; B258's "silver non-arithmetic" inference REFUTED (trace field vs invariant trace field; silver is arithmetic, as B147 says) |
 
-Physics content of all five: none. Each is arithmetic or representation theory of the object; none names a
+Physics content of all six: none. Each is arithmetic or representation theory of the object; none names a
 measurable quantity. "No observable content."
 
 ## 5. The reader red flags by kind (auto, `SUMMARY.md`)

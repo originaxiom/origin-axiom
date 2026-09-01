@@ -6,9 +6,15 @@
   s776     vol 5.3334895669 cusps 3 H1 Z + Z + Z      field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7), vol 5.33349, 3 cusps = magic manifold [B142]]
   m009     vol 2.6667447834 cusps 1 H1 Z/2 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7), arithmetic, non-commensurable with m004 [B850]]
   m136     vol 3.6638623767 cusps 1 H1 Z/2 + Z/2 + Z  field deg 2 Q(i) disc -4 sig [0, 1]   [bank: Q(i) [silver, B210]]
-  s464     vol 4.8138191861 cusps 1 H1 Z/3 + Z/3 + Z  field deg 8 x^8 + 6*x^6 - x^5 + 12*x^4 - 3*x^3 + 8*x^2 - x + 2 disc 391728981 sig [0, 4]   [bank: degree 8 (B210/B840 script) vs degree 6 (B578-D6 prereg) [bronze]]
-  t03910   vol 5.5736091128 cusps 1 H1 Z/4 + Z/4 + Z  field deg 4 x^4 - x^3 - 2*x^2 - x + 1 disc -1156 sig [2, 1]   [bank: degree 4 [m=4, B210]]
-  b++RRL   vol 2.6667447834 cusps 1 H1 Z/2 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7) [B146 RRL]]
+Timeout (0:15:00)!
+Thread 0x00007f7cef7c1080 (most recent call first):
+  File "/home/user/origin-axiom/reports/fresh_physics_seat_2026-09-01/recompute/R33_trace_fields_snappy/r33_lib.py", line 43 in shape_field
+  File "r33.py", line 23 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 291 in run_path
+  File "<string>", line 1 in <module>
+(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7) [B146 RRL]]
   b++RLL   vol 2.6667447834 cusps 1 H1 Z/2 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: Q(sqrt-7) [B146 RLL]]
   b+-RRL   vol 2.6667447834 cusps 1 H1 Z/6 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: (sign variant)]
   b+-RLL   vol 2.6667447834 cusps 1 H1 Z/6 + Z        field deg 2 Q(sqrt-7) disc -7 sig [0, 1]   [bank: (sign variant)]

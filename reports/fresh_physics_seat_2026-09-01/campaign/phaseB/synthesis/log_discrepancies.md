@@ -1,6 +1,12 @@
 # Arcs whose reader found the progress logs and the arc files in DRIFT or CONTRADICTION
 
-(47 arcs of 605 digested; NOT_IN_LOG = 208, CONSISTENT = 350)
+(60 arcs of 770 digested; NOT_IN_LOG = 246, CONSISTENT = 461)
+
+## B1012_branch_verifications (main) — CONTRADICTION
+
+- **claim of record:** verdict PROVED; claim_one_line: TWO BRANCH RESULTS VERIFIED EXACTLY -- k-blindness (dS/dk=-CS identically) sharpened to an EQUIVALENCE with amphichirality, and CROSSING_REQUIREMENTS R4 discharged via a CS-normalisation closure (c=6sigma forced).
+- **log says:** B1011-B1013 (2026-08-10): k-blindness verified and sharpened -- dS/dk=-CS identically, so blindness to k IS amphichirality; CS normalisation closure verified, R4 discharged -- matches original FINDINGS, but a later log entry (2026-08-31, B1226) states the equivalence FAILS both ways.
+- **reader note:** The core algebraic identity (dS/dk=-CS) is genuinely exact and reproducible; but the arc's headline 'sharpening' -- that k-blindness IS amphichirality -- is a distinct, unverified equivalence claim that was later refuted, and the refutation has not been propagated into this arc's own banked FINDINGS/verdict files despite being caught in an addendum.
 
 ## B123_arithmeticity_m1 (main) — CONTRADICTION
 
@@ -44,11 +50,29 @@
 - **log says:** 2026-07-02: (2,7) BRIGHT, (1,5) DARK, (4,5) DARK as predicted; law now stands at 11 exact pairs, zero counterexamples.
 - **reader note:** Directly inherits B361's superseded-and-unmarked defect one probe later; the individual exact computations (which pairs are bright/dark) are presumably still correct, but the generalized 'law' language in both FINDINGS and verdict.json is stale as of the very next day's work and was never corrected in these committed files.
 
+## B505_quasicrystal_anchor (main) — CONTRADICTION
+
+- **claim of record:** PROVED — "kappa - 2 = 4*lambda^2 as a POLYNOMIAL IDENTITY in (E,lambda): the programme's kappa-coordinate IS the squared quasiperiodic coupling of the measured Fibonacci Hamiltonian."
+- **log says:** a later log entry (2026-08-01, P5 Phases 0-1) states explicitly: "B505 and B507 carry NO scripts and are not load-bearing."
+- **reader note:** A two-line symbolic identity is plausible and easy to verify by hand, but the arc as committed provides no script, and the project's own later audit says exactly that — the PROVED verdict stands unretracted despite this.
+
+## B507_beta_function (main) — CONTRADICTION
+
+- **claim of record:** OPEN — "First-pass beta-function: g_M(kappa) is strongly negative (~-1.05 to -1.25) on the negative-kappa leaves where the object lives, so the measurement verb is NOT marginal there."
+- **log says:** 2026-08-01 log entry: "B505 and B507 carry NO scripts and are not load-bearing." Earlier entries (2026-07-11, 2026-07-14) describe the beta-function zero at kappa*≈0 as reproducing under two independent methods and being unified with B181/B498 as one criticality theorem, and note "B507 has NO lock."
+- **reader note:** The verdict is honestly left OPEN, which is good discipline, but the headline numeric result (zero of an emergent beta-function at kappa*=0, matched to the pointer state) rests on an unwitnessed 6M-sample run; B520 later reproduces it independently with its own code, which is reassuring but does not retroactively supply this arc's missing witness.
+
 ## B872_coset_leg (main) — CONTRADICTION
 
 - **claim of record:** PROVED -- coset leg verified: 32=16+16bar at every enhancement point, two independent legs (LEG A exact over Z: D5 root deletion, charges exactly +-1, single Weyl(D5) orbits, fork-node split; LEG B numeric 40-digit at all 3 Galois roots: kernel 46, center 1, ad(z) splits 16/16 with commutant dim 1 each -- absolute irreducibility -- Killing-isotropic with nondegenerate cross pairing rank 16). CORRECTION recorded in the same FINDINGS: ad(z) spectrum is REAL (+-q, split torus, as required by split form e6(6)), reversing an earlier draft's wrong claim of compact u(1) (spectrum +-i*omega), which was a wrong-stratum artifact caught by the commit-gating lock before banking.
 - **log says:** PROGRESS_LOG.md 2026-08-03 title: 'the coset leg verified ... the sector charge is COMPACT; B866's boundary fully closed.' This directly contradicts the FINDINGS.md's own correction section 4, which states the charge splits REAL (not compact) and explicitly calls the compact claim a mis-diagnosis from crashed runs at the wrong stratum, caught by the commit-gating lock BEFORE banking. The log entry as quoted was apparently written before or without incorporating that correction and was never itself corrected in the log text.
 - **reader note:** Strong two-leg computation (one exact, one high-precision numeric, one modular cross-check) with a real self-caught error corrected before banking -- exactly the kind of process the locks are supposed to produce. The uncorrected log headline is a genuine propagation gap worth fixing even though the underlying math arc is sound.
+
+## B960_l136_adjoint (main) — CONTRADICTION
+
+- **claim of record:** verdict.claim_one_line: L136 CLOSED -- the adjoint-form hatch closes itself. det(Cartan matrix of E6)=3 -> centre of simply-connected form is Z/3; omega_1 (27's highest weight) not in root lattice, so centre acts nontrivially on the 27; adjoint form E6/Z3 has no 27 at all. Therefore the simply connected form is FORCED wherever the 27 (matter) lives, so B959's torality argument applies unconditionally and 'B959's no-go is complete within the centralizer class: no centralizer construction ... can produce chiral matter at the SM's rank.' Status: NEGATIVE.
+- **log says:** B960/L136: the adjoint-form hatch closes itself; B959's no-go is now complete; LAW_MAP wall row upgraded from 'scope: simply connected' to 'unconditional within the centralizer class'. Discharges the single hatch B959 left open. Not contradicted in the log excerpt shown, but note B959's own later (2026-08-20) addendum found a DIFFERENT, non-adjoint-form hatch (the nilpotent stratum) that B960 never addresses and that undermines B960's 'no-go is complete' headline.
+- **reader note:** A tidy closing of the specific hatch it names (adjoint-form elementary-abelian rank-2 subgroups), but its 'complete' headline over-generalizes beyond what it actually closed, and was later falsified by a different route (nilpotent stratum) without B960 itself ever being corrected.
 
 ## B111_sign_structure (main) — DRIFT
 
@@ -169,6 +193,42 @@
 - **log says:** 2026-07-04: the structure reframe (S044/B414) — honest engagement with 'we have to see it'; same-day, B422 log entry notes 'B414's last in-object frame door closes; the frame is external.' A 2026-07-24 log entry notes 'B414-r re-decides on a non-vacuous gate' (a later re-decision).
 - **reader note:** The core finding (Z/3 is not the privileged multiplicity; Z/2 from the class group is) is a genuine, exact structural fact, well-connected to the earlier no-canonical-frame result; but a later log entry ('B414-r re-decides') suggests this arc's verdict may have been revisited elsewhere without an addendum appearing in this arc's own committed files — a provenance gap worth the seat's attention.
 
+## B426_scale_lever_closed_form (main) — DRIFT
+
+- **claim of record:** The seam-envelope ratio has the exact cubic closed form (3a^2+4a-1)/10, and every Galois-invariant functional of its orbit is <1 — no invariant growth. | PROVED
+- **log says:** Chat-2's G1 handoff VERIFIED exact against banked B372 coefficients; B426 later repaired (boundary p*=5.5932; two phrases retracted; two-referent scale-wall note) at 2026-08-14.
+- **reader note:** The closed-form computation is solid and reproducible, but the arc's headline claim of record is a retracted overclaim left standing in the two files a reader consults first — a real correction was made and filed, but not propagated into the sealed verdict.
+
+## B451_thermo_d4_resonances (main) — DRIFT
+
+- **claim of record:** claim_one_line: "The trace map's leading Ruelle resonance equals the escape rate gamma = 0.4415, certified by three independent estimators after the banked 0.51 was shown to be an early-window artifact, with a certified primitive-orbit table to n=8."; status: verdict PROVED
+- **log says:** Progress log entries B850 and B852 (2026-08-02) state that B451 computed a HORSESHOE, that a uniformly hyperbolic system's pressure function is analytic BY THEOREM, and that B451's setup 'was structurally incapable' of finding a phase transition -- explicitly framed as a critique of what kind of question B451's instrument could ever answer, though the log also says this does NOT reopen B451's own escape-rate/spectral-gap numbers.
+- **reader note:** The gate-value correction chronicle (catching B186's own early-window bias, then re-certifying via independent algebra) is a genuinely strong verify-don't-trust example. But the later progress log casts real doubt on the broader interpretive frame this arc sits inside (a uniformly hyperbolic model cannot exhibit a phase transition by theorem) -- a caveat this arc's own files never surface, so a reader relying only on this directory would miss it.
+
+## B465_monodromy_intake (main) — DRIFT
+
+- **claim of record:** PROVED — The 8-4-3 monodromy spectrum is exact and fully derived from Fricke's tr(A1A2)=15 plus Egorov, and the SU(3)/SU(4) readings fail at the eigenspace level.
+- **log says:** Three log entries: (1) a later repair-wave note that 'B465-r re-committed the E4 universal it was repairing'; (2) that same repair item resolved as 'B465-r -- the false universal det(sigma-I)=5 at every level AND STAGE scoped to stage l=0'; (3) a REVIEWS.md line placing B465 in the residue-saga scope (B465-B471) alongside the Relation campaign.
+- **reader note:** A rigorous, cross-prime-verified exact computation that explicitly refutes a hoped-for SU(3)/SU(4)/Pati-Salam physics reading at the eigenspace level rather than merely failing to match it -- a genuinely disciplined negative result. The log-index drift (B465-r) could not be resolved against this arc's own committed content and should be checked against whatever arc actually carries the 'det(sigma-I)=5' claim.
+
+## B471_chain_verification (main) — DRIFT
+
+- **claim of record:** PROVED — tr[A_m,A_n] = 2 - (mn(n-m))^2, so (golden, silver) is the unique metallic pair whose commutator is parabolic and closes the cusp.
+- **log says:** Three entries: (1) 2026-07-24 note that 'The B471 heredity conjecture is now a THEOREM (explicit lattice)'; (2) a Wave-6 note listing B471's 'metallic commutator trace identity with its iff that the golden-silver pair is the unique parabolic one' as one of four items re-verified and promoted to a theorem/law registry; (3) a Review 32 correction noting cc initially 'banked a classical result without its attribution' by presenting the identity as harvested, but that 'B471's own FINDINGS is scrupulous about this' -- explicitly citing Cohn 1955/Markov/Fricke as the classical source, with only the metallic-body READING as novel.
+- **reader note:** A carefully self-correcting arc (two honest corrections to an incoming exploratory scout's claims, including a genuine theorem upgrade with closed-form proof and controls) that is explicit and scrupulous about literature attribution (Cohn 1955, Markov, Fricke) throughout, which the log's Review 32 entry confirms was later needed to correct a downstream harvesting error made by a different summarizing process -- the arc itself is not at fault. Purely structural/arithmetic; no measurable physical quantity is proposed.
+
+## B489_self_interaction_tower (main) — DRIFT
+
+- **claim of record:** NEGATIVE — The cyclic-cover tower's laws are classical and verified, but its SM reading is refuted (abelian DGG at every level), claim 4c is false, and the arithmetic echoes are numerology.
+- **log says:** Later stabilized (B767, 2026-07-23/25): 'B489 STABILIZED: the cyclic-cover tower has DGG rank 2n-1 for ALL n — structural topology + the Binet identity (torsion=(phi^n-phi^-n)^2>=5 for n>=2), SnapPy-verified n<=16; the kill is no longer underproved.' Promoted to LAW_MAP as 'THE CYCLIC-COVER RANK LAW'.
+- **reader note:** The claim here is only verified n<=8 with no committed witness in this arc, but the log shows the same claim was later independently stabilized to ALL n via a clean Binet-formula proof (B767) — so DRIFT is benign here (a later, separately-recorded strengthening of an honestly-scoped original claim), not misrepresentation.
+
+## B516_golden_3d_ladder (main) — DRIFT
+
+- **claim of record:** PROVED — "Golden 3d self-reference is golden-specific (only phi keeps x->x(1+sqrt x) Pisot), while the 'three dimensions from a Pisot cap' reading is dead."
+- **log says:** log (2026-07-11 entry) groups B516 with B515/B517 golden-3d reopening; a later entry (B742, 2026-07-21) lists "B516's previously-asserted dim-5 Pisot counterexample" among 30 kills EARNED in a negatives hunt — suggesting the dim-5 claim was itself later scrutinized/killed as a claim, separate from the golden-specificity claim.
+- **reader note:** The arc's own author explicitly flags "my binary-only scans falsely showed 0 golden at dim 3 AND dim 5" as a self-caught error, which is good, but a later log entry appears to describe a further kill of the dim-5 claim itself that this seat could not locate in-batch to reconcile against the still-standing FINDINGS text.
+
 ## B759_qp3_integration (main) — DRIFT
 
 - **claim of record:** PROVED — "The theta-odd and theta-even sectors couple at SL(3)=Sym^2 but not at SL(2), with off-block norm sqrt3 = sqrt|disc Q(sqrt-3)|."
@@ -282,4 +342,22 @@
 - **claim of record:** verdict=PROVED; claim: writes docs/SM_SPECIFICATION_LEDGER.md as the first inventory of what the Standard Model itself requires (gauge structure, Z/6 global form, 19/26/28 free parameters, forced-vs-measured split); catches on its first pass that the programme's own banked headline 'su(3)+su(2)+u(1)^3 = the Standard Model algebra' (B892) has dimension 14, not the SM's actual 12, an overstatement by two abelian factors; registers L132 (which u(1) is hypercharge).
 - **log says:** 11 entries, the most-cited item in this batch; log records this correction as opening the rank-obstruction line pursued through B952-B954, and separately (B978) records it as one of 'three instances in one day of declaring absent what already existed' (the global Z6 form B950 called 'not addressed' had in fact been derived by B862).
 - **reader note:** A valuable and correctly-caught overstatement in the programme's own headline result (14-dim algebra mislabeled 'the Standard Model algebra'), but the correcting document itself repeated the same absence-without-sweep error one section later, caught only by a subsequent arc the same day.
+
+## B959_nontoral_rank4 (main) — DRIFT
+
+- **claim of record:** verdict.claim_one_line (UNCHANGED since 2026-08-08, NOT updated to reflect the addendum): OUTCOME NO-GO (simply connected form), sealed preregistration passed. Inner involutions (all 63 sign-gradings) fix full Cartan -> rank 6 always. Outer automorphism tau swaps 27<->27bar nodes so Fix(tau) makes the 27 self-dual/real -- closes F4 and C4 at once. A4/D5/S5 elementary-abelian rank <=2 -> toral by Steinberg (simply connected form) -> rank 6. 'The object cannot reach chiral matter at rank 4 by any centralizer construction' [this headline is superseded by the 2026-08-20 addendum below, but the verdict.json text itself still reads this way]. Status: NEGATIVE.
+- **log says:** B959/L133 outcome NO-GO: every route to rank 4 makes the 27 real (simply connected form); banked-identity gate passed (dim Z=16, reproduced on same instrument as B958); upgrades B952's 'closed by absence' toward 'closed by proof', with the adjoint-form hatch (discharged later by B960) as the honest remaining gap. Later (2026-08-20, per this arc's own addendum) the audit seat's state-the-relation flag plus B1098/B1100 opened a NILPOTENT stratum (non-simply-toral, A2-class continuous holonomy, centralizer su(3)+su(3) rank 4) that B959's Steinberg-torality argument never covered, and B1100 computed the 27 complex there -- so the headline is now re-scoped to 'every TORAL route'.
+- **reader note:** A carefully self-scoped no-go with an honestly-named remaining hatch (adjoint form), later shown by the arc's own addendum to have an additional hatch (nilpotent stratum) that actually opens -- but the machine-readable verdict record was never corrected, so any downstream row citing B959's unqualified claim_one_line is citing a claim the arc's own later addendum contradicts.
+
+## B961_frame_instrument (main) — DRIFT
+
+- **claim of record:** verdict.claim_one_line (verdict PROVED, instrument:true): THE FRAME INSTRUMENT -- frame.py provides ad(v), killing(), centralizer(S), killing_perp(S), derived(S) as exact operations over e6, wrapping B854's Chevalley structure constants. self_test() reproduces four banked numbers from scratch: Killing form symmetric, rank 78 (nondegenerate); dim Z(su3_colour)=16 (matches B958); A2+A1 Levi dim/derived/centre = 14/11/3 (matches B892, B951); Killing-perp of Cartan = 72 = 78-6. First run of derived() had a real sympy rref() pivot-column/row indexing bug (silently wrong-dimensional space), caught by the banked-number gate. Does not attempt to guess/reconstruct the solo seat's frame/floor/M12 (deliberately deferred).
+- **log says:** B961/L135: THE FRAME INSTRUMENT built on this bench, its own self-test caught a real bug in it; reproduces four banked numbers (rank 78, dim Z=16, Levi 14/11/3, perp-of-cartan 72); explicitly does NOT guess the solo seat's frame/floor/M12, deferring that -- and this deferral was later shown wrong by B978, which found the solo seat's frame definitions already existed in CMT_DRAFT.md sec.2 (already built by B911) and that B958/B961 never checked before deferring.
+- **reader note:** This is the strongest arc in the batch on the reproducibility axis: real committed exact-arithmetic code, a self_test cross-checking four independently-sourced banked numbers, and a documented real bug caught by that cross-check -- genuine belt discipline, though the instrument still imports its base structure constants from B854 rather than deriving the Chevalley basis itself.
+
+## B983_grounding (main) — DRIFT
+
+- **claim of record:** verdict PROVED, instrument true; claim: builds three governance artefacts (COMPUTE_THE_PROGRAM.md defining the quantifier discipline, THE_LADDER.md with 30 negatives-as-rungs graded BLIND/HOLE/BROKEN/BOUNDED/OPEN, WORKING_RULES.md section 0) in response to five same-day instances of declaring open/absent what the repo already held.
+- **log says:** the grounding: COMPUTE_THE_PROGRAM.md defines the term; THE_LADDER.md maps the negatives as 32 graded rungs; WORKING_RULES.md section 0 binds both.
+- **reader note:** This is the corpus's meta-governance instrument, not a physics result -- it exists entirely to prevent the seat from re-declaring banked results as absent, and explicitly states it 'proves nothing about the object.'
 

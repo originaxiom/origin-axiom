@@ -248,6 +248,88 @@ B397_last_census_facts	main	FINDINGS.md part (b), corrected statement	across u-m
 B407_support_nesting	main	frontier/B407_support_nesting/FINDINGS.md:6	"made explicit in B398 S4 — ""neither was in the repo"" is wrong on this one"
 B412_tower_measure	main	frontier/B412_tower_measure/FINDINGS.md provenance line	a directional finding, no lock beyond the arithmetic (all in banked JSONs)
 B422_mirror_frame	main	frontier/B422_mirror_frame/FINDINGS.md 'The one untested variant' section	The 'Two full copies interacting' (the tensor double, object tensor mirror-object) was NOT built.
+B436_child_identity	main	FINDINGS.md lines 17-21	CS not identified — honest ... No small rational (best cheap candidate 103/1337 fails at 3.5e-8); no closed form claimed.
+B443_child_atlas	main	FINDINGS.md lines 33,37	no bar cleared. ... figure-eight-UNIQUE — NONE FOUND, at any floor.
+B444_sl3_field_control	main	FINDINGS.md lines 83-86	On magma: not required and not installed. Magma ... proprietary, license-only — no Homebrew/pip/apt formula exists.
+B446_thermo_d1_tower_moments	main	FINDINGS.md NEW-MATH paragraph	no paper treats matrix-element moments at any mixed composite N, and none works the tower direction p fixed, k→∞ ... believed unwritten.
+B446_thermo_d1_tower_moments	main	cross-reference note in B445's FINDINGS.md, directly relevant to this arc's own float64 pipeline	Double-precision (numpy) gives the wrong answer here — the high blocks' rank collapses ... Recorded as a cautionary control
+B447_thermo_d2_mscan	main	FINDINGS.md	the box estimator cannot support an exceptionality claim
+B447_thermo_d2_mscan	main	FINDINGS.md	No golden D₀ exceptionality survives at achievable resolution.
+B447_thermo_d2_mscan	main	FINDINGS.md	a converged m-scan of D₀ needs an adaptive recursive band-edge tracker — named follow-up, not built here
+B448_heartbeat_adjudication	main	FINDINGS.md	√5 appears at NO period ≤ 7 — the golden field is dynamically absent from the hyperbolic-end orbit tower
+B448_heartbeat_adjudication	main	FINDINGS.md	No new low-period fields; no H1.
+B448_heartbeat_adjudication	main	FINDINGS.md, describing silver's double-beat	No ℚ(√−7).
+B449_forcing_boundary	main	FINDINGS.md item 1	5₂ is not fibered.
+B449_forcing_boundary	main	FINDINGS.md item 1	No fibration ⇒ no monodromy ⇒ no dynamics end ⇒ the formula's second factor names *nothing* for 5₂.
+B449_forcing_boundary	main	FINDINGS.md item 1	"""Level 161"" is not a failed prediction; it is a non-sequitur."
+B451_thermo_d4_resonances	main	FINDINGS.md status line	The subleading spectrum did not stabilize within the session budget
+B451_thermo_d4_resonances	main	FINDINGS.md Addendum	no whitelist form suggests itself at this precision — recorded, not scanned
+B453_ethogram_e1_reproduction	main	FINDINGS.md E1b	The child's π₁ has exactly ONE proper subgroup of index ≤ 6
+B453_ethogram_e1_reproduction	main	covers_log.txt	no positive-b1 cover found at degrees ≤ 6 (UNDECIDED-AT-DEGREE-6)
+B453_ethogram_e1_reproduction	main	FINDINGS.md E1-SHARPENING	the child not only carries no parent-unique marks, it cannot even be assigned a parent
+B454_ethogram_e2_closure	main	FINDINGS.md	the word channel cannot leave its birth arithmetic
+B454_ethogram_e2_closure	main	FINDINGS.md status line	the reason is class-generic
+B455_ethogram_e3_response	main	FINDINGS.md item 3	No float64 representation runs this continuation
+B455_ethogram_e3_response	main	FINDINGS.md homeostasis section	No restoring response exists (conservative dynamics, no transverse attractor)
+B455_ethogram_e3_response	main	FINDINGS.md homeostasis section	the organism has no homeostasis because it has no dissipation
+B456_ethogram_e4_catalog	main	FINDINGS.md	No physics language anywhere.
+B456_ethogram_e4_catalog	main	kashaev_signatures.json note field	small-N integers {1,5,13,27,89} at N in {1,2,3,4,6} are a small-N phenomenon (NOT a 5-divisibility law - corrected in-session)
+B457_ethogram_ez_verdict	main	FINDINGS.md EZ-2 line	No correspondence with the frozen 20-observable registry beyond chance
+B457_ethogram_ez_verdict	main	FINDINGS.md structural predicates line	no {8,3,1}, no definite CP
+B457_ethogram_ez_verdict	main	FINDINGS.md status line	NO H1.
+B458_ethogram_e5_component_cs	main	FINDINGS.md Machinery section	The Ptolemy database is currently broken server-side (autoindex lists the files; direct GET 404s; Wayback lacks them
+B458_ethogram_e5_component_cs	main	FINDINGS.md verdict	there is no internal asymmetry to decompose
+B458_ethogram_e5_component_cs	main	FINDINGS.md verdict	there is no observable for a 'ℤ/2³ = C×P×T' to couple
+B459_klein_four_verification	main	FINDINGS.md	the ℚ(√−15)-valued pattern is ABSENT (verified: no point has q,r dead with s alive)
+B459_klein_four_verification	main	FINDINGS.md	no partial-vanishing configurations exist
+B459_klein_four_verification	main	ADDENDUM.md Correction 2	The third — {√5,√−3}-forbidden ⟺ ... NEVER occurs
+B460_relation_r1_child	main	FINDINGS.md Adjudication	no novelty claimed until swept
+B460_relation_r1_child	main	FINDINGS.md Adjudication	a closed-form F was not attempted this session
+B460_relation_r1_child	main	FINDINGS.md Cell 2 table note	the abelian branch ... flagged, not banked
+B461_relation_r2_borromean	main	FINDINGS.md, Addendum	Field recognition at the isolated points FAILED at this precision (1e-12 Newton cannot support degree-10 PSLQ)
+B461_relation_r2_borromean	main	FINDINGS.md, verdict summary / arc_verdict.json claim_one_line	no Brunnian-specific manifold invariant emerged
+B462_relation_r3_double	main	FINDINGS.md, header and Verdict section	no H1
+B462_relation_r3_double	main	FINDINGS.md, R3b section	The fields do NOT transfer: silver gets ℚ(√21), a disc −59 cubic, two sextics — no ℚ(√5), no conductor-7 cubic.
+B463_relation_r4_centralizer	main	centralizer.py print statement / FINDINGS.md	the group centralizer is FINITE (Kostant: = Z(E6), Z/3 simply-connected / trivial adjoint - LIT-GATE citation, not computed)
+B464_relation_verdict	main	FINDINGS.md	No relational invariant escaped class-laundering.
+B465_monodromy_intake	main	FINDINGS.md, 'The claims that did not survive' section	C4 (QR c -> 15 modes, NQR c -> 9): NOT REPRODUCED -- and cannot be true under any pure Galois twist
+B465_monodromy_intake	main	FINDINGS.md, C8/C9 section	No 8-dim invariant subspace exists
+B465_monodromy_intake	main	FINDINGS.md, 'The claims that did not survive' section	C5 (32 loops...) and C7 (dark points...): floating-point, constructions not shared.
+B466_sigma_equivariant	main	FINDINGS.md	the hoped-for 'physics lives where the static geometry meets the dynamic monodromy': the geometric point is NOT on the fixed line
+B466_sigma_equivariant	main	FINDINGS.md	W1/W2 do NOT descend individually -- they are swapped by the deck symmetry
+B467_family_residue_wall	main	FINDINGS.md, F1 section	886 prereg'd expressions ... ZERO hits on every target
+B467_family_residue_wall	main	FINDINGS.md, F1 section	The metallic eigenvalue ratios do not encode CKM parameters at this complexity budget; the negative is earned, not assumed
+B468_z3_adjudication	main	FINDINGS.md, part 4	The rule as proposed does not exist (consistent with §1: the word family carries no ℤ/3 det-grading to enforce it).
+B468_z3_adjudication	main	FINDINGS.md, part 2 (re: the A4/neutrino downstream reading)	loses its empirical base entirely
+B469_breath_campaign	main	PHASE2A_RESULTS.md, point 5 (P5)	The similarity argument for finer structures is retracted
+B469_breath_campaign	main	PHASE2A_RESULTS.md, point 1	P0 AS POSED: FALSIFIED
+B469_breath_campaign	main	FINDINGS.md, BR3 wave 2 section (re: the octic geometric-fiber identification)	Numerically certified; exact certification queued.
+B470_reflection_campaign	main	FINDINGS.md, RF5 section	for n>=5 (word length >= 13) SnapPy's Dirichlet construction fails at default precision -- the tower's systole/CS beyond n=4 needs verified/high-precision geometry, priced as the next step (not a result claimed here)
+B470_reflection_campaign	main	FINDINGS.md, RF2 section	no shared class in either tower
+B470_reflection_campaign	main	FINDINGS.md, Addendum	PSLQ negative against {Lambda(pi/5), Lambda(2pi/5), Lambda(pi/3), Lambda(pi/10), Lambda(3pi/10), Catalan, pi log phi, pi^2/10}
+B471_chain_verification	main	FINDINGS.md, heredity conjecture section	the general lattice is IRREGULAR ... Recorded as the observed table; a clean law needs rank-of-apparition machinery (Lucas-style) -- named follow-up, not a conjecture bank.
+B471_chain_verification	main	FINDINGS.md, final CORRECTIONS section	'The alphabet is exactly the root locus' is FALSE in two escalating ways
+B499_wild_census	main	B499_wild_census/FINDINGS.md	The directory holds a preregistration and nothing else — no scripts, no data, no partial results.
+B499_wild_census	main	B499_wild_census/FINDINGS.md	the census (W1 Galois groups · W2 discriminant structure · W3 verb attribution · W4 MFD saturation · W5 field-level ramification) was committed and never executed.
+B499_wild_census	main	B499_wild_census/FINDINGS.md	B837's audit found it cited by B500 with no result stated anywhere, which is now confirmed directly: there is nothing to state.
+B500_child_hunt	main	frontier/B500_child_hunt/FINDINGS.md	the run was killed mid-stream; there is no `HUNT COMPLETE` line
+B500_child_hunt	main	frontier/B500_child_hunt/FINDINGS.md	35 words remain UNCHECKED (26 timeouts + 9 never-reached — the D/M-heavy tail whose resultant eliminants blow up to degree ~3000–9280, beyond in-sandbox `gp`)
+B505_quasicrystal_anchor	main	PROGRESS_LOG.md, cited at log_index/B507.txt (entry dated 2026-08-01)	B505 and B507 carry NO scripts and are not load-bearing.
+B507_beta_function	main	PROGRESS_LOG.md 2026-08-01 entry (log_index/B507.txt)	B505 and B507 carry NO scripts and are not load-bearing.
+B507_beta_function	main	PROGRESS_LOG.md 2026-07-14 entry (log_index/B507.txt)	B507 has NO lock
+B511_physics_verdict	main	cross-reference to B500, cited inside B511's D-door framing of the wild census	the run was killed mid-stream; there is no `HUNT COMPLETE` line
+B511_physics_verdict	main	frontier/B511_physics_verdict/D1_ADVERSARIAL_REVIEW.md	No standard 3d Rauzy fractal exists.
+B511_physics_verdict	main	frontier/B511_physics_verdict/D3_PARTIAL.md	there is no high-end peak
+B517_bootstrap_forcing	main	frontier/B511_physics_verdict/D1_ADVERSARIAL_REVIEW.md (the retracted claim this arc corrects)	no primitive 4×4 nonneg matrix has Perron eigenvalue φ
+B517_bootstrap_forcing	main	frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md	the dynamical-form hunt is NEEDS-A-CANONICAL-CANDIDATE, not run
+B517_bootstrap_forcing	main	frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md	C3/Malament — does the FULL Level-1 monoid preserve one cone — remains the one un-run distinguisher
+B517_bootstrap_forcing	main	frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md Addendum 2	does the Origin object force a unique positive one-step form W... Un-run.
+B519_re_mining	main	frontier/B519_re_mining/VERDICT.md, re: the mixed-chain gap-opening prediction	no known theorem forces the answer
+B524_iwip_and_higher_ptolemy	main	frontier/B524_iwip_and_higher_ptolemy/FINDINGS.md Part 2 table	SL(4)... (deferred — the sage Gröbner engine ran >12 min over 20 coords × 3 obstruction classes; the ptolemy module recommends Magma at this rank)
+B526_crossing_package	main	the uploaded package's own executive conclusion, quoted in frontier/B526_crossing_package/FINDINGS.md	There is no remaining purely internal path from the Origin Axiom corpus to an undeniable claim about nature.
+B527_metric_cone	main	"frontier/B527_metric_cone/FINDINGS.md ""Honest status of the metric question"" table"	no theorem says why physical reality must choose that ray
+B528_dgg_gauge_resolved	main	frontier/B528_dgg_gauge_resolved/FINDINGS.md	There is NO U(2)@K=3 or U(3)@K=4 — no U(N-1) nonabelian gauge ladder.
+B528_dgg_gauge_resolved	main	cross-reference, frontier/B523_verdict_reexamination/FINDINGS.md, load-bearing to B528's own Part 1 predecessor B524	the word-hyperbolic / atoroidal / CAT(0) / Menger-boundary consequences follow ONLY IF iwip holds
 B754_p2_spectral	main	frontier/B754_p2_spectral/FINDINGS.md:67 (paraphrased in FINDINGS; verbatim form in cells/TOMB-L277/output.txt line 115: 'the census does not exist in the banked record')	the census does not exist in the banked record.
 B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:74	token 'RRL|RLL' appears NOWHERE in the four frozen arcs (0 hits) -- no arc ever evaluated the weld at any comparator word
 B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:75	token '2880' appears NOWHERE in the four frozen arcs (0 hits) -- no arc ever touched the finite 2880 image at all
@@ -544,3 +626,85 @@ B950_sm_spec_ledger	main	FINDINGS.md section 4 table (later shown false by B978:
 B951_l132_scout	main	FINDINGS.md section 7	MathSciNet NOT reached (302 auth wall) -- no claim rests on it
 B951_l132_scout	main	FINDINGS.md section 7	The Q3 null is NOT certified: ... Read it as 'not found by this sweep', never 'does not exist'
 B952_gut_ledger_rank	main	FINDINGS.md section 1	27 = 16 + 10 + 1 -- where the 10+1 are twelve EXOTIC states per generation ... The record does not address them anywhere: a named gap
+B955_l133_scout	main	FINDINGS.md:77	No one appears to have used a hyperbolic 3-manifold's π₁ as a Wilson-line source for GUT
+B955_l133_scout	main	FINDINGS.md:85	"""not found by this sweep"", never ""does not exist"""
+B956_l133_analysis	main	FINDINGS.md:11	Wilson line / Hosotani / holonomy-breaking appears in NO arc written before today.
+B956_l133_analysis	main	FINDINGS.md:13 (implicit, table context)	Only 11 arcs mention a VEV at all.
+B958_presence_scope	main	FINDINGS.md:11	"The repo contains no independent construction of M12 (the ""invisible 12"")."
+B958_presence_scope	main	FINDINGS.md:19	So the invisible 12 has never been independently constructed here.
+B958_presence_scope	main	frontier/B958_presence_scope/arc_verdict.json claim_one_line	B958 found that the repo had NO INDEPENDENT CONSTRUCTION of M12 (the 'invisible 12')
+B961_frame_instrument	main	FINDINGS.md:10	B958 found that the repo had NO INDEPENDENT CONSTRUCTION of the frame or of M12: B909 verified section LVIII by RUNNING INCOMING MATERIAL, not by rebuilding.
+B961_frame_instrument	main	FINDINGS.md:43	That is the first time; before today they were only ever checked by running incoming code.
+B964_vev_correction	main	ADDENDUM_2026-09-01_PROPOSAL_refile_PROVED.md:23 (the propagation-gap paragraph -- itself later corrected in the same file's own CORRECTION section)	`docs/CLAIMS.md` does not exist.
+B967_retraction_sweep	main	FINDINGS.md sec 5.3	**Registration is manual.** ... nothing enforces that a new retraction gets registered
+B967_retraction_sweep	main	FINDINGS.md sec 5.4	`.md` only. Code comments and JSON verdict lines are not swept.
+B968_sm_verdict	main	FINDINGS.md sec (B976 amendment)	the first version omitted eleven of the twelve cascade-closure arcs (B860-B873) and contradicted two banked results: it called the global Z6 form 'not addressed' (B862 derives it) and hypercharge 'OPEN' (B864 derived it...)
+B968_sm_verdict	main	arc_verdict.json claim_one_line	the arithmetic-27 idea exists in physics only in black-hole charge-orbit work and has NEVER touched a VEV
+B969_kato_yukie_verify	main	arc_verdict.json claim_one_line (carried over from B968/B962 context)	the arithmetic-27 idea exists in physics only in black-hole charge-orbit work and has NEVER touched a VEV
+B969_kato_yukie_verify	main	FINDINGS.md sec 5	docs/SM_SPECIFICATION_LEDGER.md listed the global Z6 form as 'not addressed.' That is wrong.
+B970_L134_exotics	main	PRIOR_ART_EXOTICS.md sec 1.2 (certified null, paraphrased header; full grep scope stated in file)	"N1 -- no computed cell. grep -rl ""exotic|leptoquark|diquark|Dbar"" over every *.py in [the repo, per PRIOR_ART_EXOTICS.md's certified-null framing]"
+B970_L134_exotics	main	PRIOR_ART_EXOTICS.md sec 1.1 table	docs/GUT_REQUIREMENTS_LEDGER.md ... marks them 'not addressed anywhere in the record -- absent, a named gap.'
+B970_L134_exotics	main	PRIOR_ART_EXOTICS.md sec 1.1 table	PROGRESS_LOG.md, docs/THE_SM_VERDICT.md, docs/OPEN_LEADS.md, frontier/B952_gut_ledger_rank/FINDINGS.md all four repeat 'twelve exotic states per generation ... the record has never addressed them'
+B970_L134_exotics	main	WORK.md 'HONEST BOUNDARIES'	Whether the S3 / three-so(10) structure is already in the E6 model-building literature was not checked this session (no literature was read...)
+B971_L132_vacuity	main	WORK.md section 7	No literature search was run from this cell; the scout's §4 null remains uncertified.
+B971_L132_vacuity	main	PRIOR_ART_ANOMALY.md section 5	It does not certify a literature null (§4).
+B971_L132_vacuity	main	PRIOR_ART_ANOMALY.md section 4	Honest limit, stated first: no live search was reachable from this cell (the session's web-search budget was exhausted before it began). What follows is (i) in-repo prior art from a sweep that did reach INSPIRE, and (ii) recalled settings, flagged as such. The null is not certified.
+B971_L132_vacuity	main	PRIOR_ART_ANOMALY.md section 3, table row 4	No orbifold projection, no quotient, no boundary-condition truncation exists here.
+B971_L132_vacuity	main	PRIOR_ART_ANOMALY.md section 3, table row 2	"the record has the 27 (a module) and h1 = 3 (a multiplicity, explicitly corrected away from ""three copies"")"
+B972_L137_split	main	SCOUT.md sec 1.1 / WORK.md sec 2.1	There is a naming difference in the record; there is no partition in the record. Re-partitioning B941's table into two classes is an act B947 performed, not one it inherited.
+B972_L137_split	main	SCOUT.md sec 3.4	"B911's CMT_DRAFT sec7 item 9 already registers the matching open question: ""with six cubics on one resolvent, a completeness question (is there a seventh pencil cubic in the frame, and must it share the resolvent?) -- register, do not chase."""
+B972_L137_split	main	WORK.md sec 4, citing B937 sec T5	29 appears in no divisor computed in this cell except m_A's
+B972_L137_split	main	t_probe_out.json -> note_computability	B947's statistic is not even COMPUTABLE for T without factoring a 174-digit cofactor
+B973_L135_frame	main	frontier/B958_presence_scope/FINDINGS.md:11 (quoted in SCOUT.md §5)	"The repo contains no independent construction of M12 (the ""invisible 12"")."
+B973_L135_frame	main	frontier/B958_presence_scope/FINDINGS.md:19 (quoted in SCOUT.md §5)	So the invisible 12 has never been independently constructed here.
+B973_L135_frame	main	frontier/B961_frame_instrument/FINDINGS.md:60-62 (quoted in SCOUT.md §5)	the specific frame, floor and M12 need either solo's definitions stated precisely enough to rebuild, or an independent derivation…
+B973_L135_frame	main	frontier/B911_cmt_document/CMT_DRAFT.md:190 (quoted in SCOUT.md §1.5, called stale)	[W_frame = Z2×Z2 (FS4); J1a involution-genericity] solo | not recomputed | [SOLO-TIER, VERIFICATION PENDING]
+B974_phaseA_synthesis	main	docs/GUT_REQUIREMENTS_LEDGER.md §C row 3', docs/THE_SM_VERDICT.md §5 row 2, docs/OPEN_LEADS.md L134, PROGRESS_LOG.md (quoted and refuted in SYNTHESIS.md §3.1: B951's PRIOR_ART_HYPERCHARGE.md and B962's PRIOR_ART_VEV.md already treat the exotic sector)	The record has never addressed them / not addressed anywhere in the record
+B974_phaseA_synthesis	main	frontier/B958_presence_scope/FINDINGS.md (quoted and refuted in SYNTHESIS.md §3.5(i))	the repo contains no independent construction of M12
+B974_phaseA_synthesis	main	frontier/B961_frame_instrument/FINDINGS.md (quoted and refuted in SYNTHESIS.md §3.5(ii))	need solo's definitions stated precisely enough to rebuild
+B974_phaseA_synthesis	main	SYNTHESIS.md §5, self-reported absence-of-search	No literature search was reachable in Phase A… the 'no prior art' nulls are uncertified
+B976_cascade_recovery	main	self-quoted as the auditor's own earlier (wrong) claim about the global Z6 form, refuted by B862 (results.json TWO_CONFIRMED_CONTRADICTIONS.1_Z6)	not addressed
+B976_cascade_recovery	main	self-quoted as the auditor's own earlier (wrong) claim about hypercharge, refuted by B864 banked 2026-08-03 (results.json TWO_CONFIRMED_CONTRADICTIONS.2_hypercharge)	no derivation from anomaly cancellation inside the object -- OPEN, the sharpest available target
+B976_cascade_recovery	main	FINDINGS.md §3 (a stated non-absence, included for completeness since it directly answers an absence worry)	the repository lost nothing. Every one of those arcs is banked, locked, and passing.
+B977_representation_gate	main	FINDINGS.md §6 (registration of L143, an explicit prior-absence claim about tooling, not about physics content)	Nothing checks whether a substantive banked arc appears on any synthesis surface.
+B977_representation_gate	main	"FINDINGS.md §""The gap it closes"" (re: lawmap-scope and retraction-sweep gates)"	Neither notices a row that was never written.
+B978_phaseA_bank	main	FINDINGS.md §4, restating B974's correction of this seat's own earlier B974 claim	the frame 'cannot be rebuilt' -- CMT_DRAFT had the definitions, B911 had built it
+B978_phaseA_bank	main	FINDINGS.md §4, restating B976's finding	the global ℤ6 form is 'not addressed' -- B862 derives it
+B978_phaseA_bank	main	FINDINGS.md §4, restating B976's finding	hypercharge is 'OPEN — the sharpest target' -- B864 derived it
+B979_L131_A7	main	FINDINGS.md	the fourth time today this seat declared open or absent something already banked
+B980_k3_conflation	main	FINDINGS.md	The '122 orders from observation' is not a failure of the object. The object never made that prediction.
+B981_two_ended_correction	main	FINDINGS.md	there is still no solution to the cosmological-constant problem here: no derivation of Lambda's value (the cone angle alpha is a free parameter -- B962's homogeneity lesson again)
+B981_two_ended_correction	main	FINDINGS.md	It reached the owner but never entered a tracked file -- verified by grep before writing this.
+B982_file_drawer_exemption_defect	main	FINDINGS.md	An exemption whose justification cannot be grepped is a silent hole
+B983_grounding	main	FINDINGS.md	if X is not there, X has not been checked, and the honest sentence is 'not checked' -- not 'absent'.
+B983_grounding	main	FINDINGS.md	A rung graded BLIND may yet have an arc nobody found -- which is exactly why the grade means 'not checked' and never 'absent.'
+B984_banking_protocol	main	FINDINGS.md	X31 -- MARKOV BLANKET: 0 arcs, in no document.
+B984_banking_protocol	main	FINDINGS.md	X32 -- FEEDBACK MECHANISM: 2 arcs, named by the owner as very important, effectively unbuilt.
+B985_cc3_relational_integration	main	FINDINGS.md	the eleven faces describe what the object is NOT
+B985_cc3_relational_integration	main	FINDINGS.md	an agent marked L63 REOPEN by quoting B578's 'L63 stays OPEN' while missing B666, which constructs the demanded map 36/36 exact
+B986_b500_stragglers	main	FINDINGS.md	L145a stays OPEN, now with a sharper statement of what closing it requires
+B987_X8_higgs_doublet	main	FINDINGS.md, quoting a prior over-broad claim	The cascade is an adjoint Higgs mechanism (B964); ... No arc addresses where the doublet comes from. -- The last sentence is false.
+B988_review_currency	main	FINDINGS.md	ROADMAP_TOE.md stated the position as 'the kinematic/symmetry frame is forced arithmetic' for a month after B862/B863/B864 made that false
+B988_review_currency	main	FINDINGS.md	THE_SM_VERDICT.md shipped omitting eleven of twelve cascade-closure arcs and contradicting two banked results (Z6 and hypercharge)
+B993_cornerstone_verified	main	FINDINGS.md	"""Never addressed"" is false for the exotics -- B951, B962 and B970 addressed them."
+B993_cornerstone_verified	main	FINDINGS.md	The rule-variation axis was NEVER ASKED.
+B994_rule_variation	main	ADDENDUM_2026-09-01_witness_chain_and_provenance.md section 2/3, later corrected in section 5 of the same addendum after a repo sweep found a committed generator (B869) that had simply never been run for these parents	no menu for parents SU(6)xSU(2), SU(3)^3 or Pati-Salam exists in any committed file
+B994_rule_variation	main	ADDENDUM_2026-09-01_witness_chain_and_provenance.md section 3 (P3), stands after the sweep	No generating script for this arc's results.json exists anywhere in the repo
+B995_separating_and_rare	main	FINDINGS.md	NOT established: that no separating-and-rare invariant exists. The instrument failed; the question is untouched.
+B998_genesis_locks	main	FINDINGS.md	there is no F3 test
+B998_genesis_locks	main	FINDINGS.md	cc3's fuller reading ... there is no F2 test -- C3's only real price -- and no F8 test -- C4's entire price
+B1004_ssb_leak	main	FINDINGS.md	docs/RETRACTED_PHRASES.md -- the phrase was DELIBERATELY NOT REGISTERED
+B1004_ssb_leak	main	FINDINGS.md	the one artifact that went unadopted today (README_ARC_PROPOSAL.md) was invisible to the relay-debt gate, because the pattern matched only CC3_TO_CC_<date>_*
+B1005_falsifier2	main	FINDINGS.md, distinguished explicitly from the stronger overclaim 'Tier 2 is unreachable'	Tier 2 has no live candidate.
+B1006_lambda2_pslq	main	this is actually from B1009 not B1006 -- correction, see below	A repo-wide search over all `arc_verdict.json` finds no arc running the cascade on any m ≥ 2 grammar.
+B1008_lexicon_epoch	main	FINDINGS.md §4	Not one concept the recent corpus is about has a word in the vocabulary built to detect what recurs.
+B1009_verification_pass	main	FINDINGS.md line ~34	A repo-wide search over all `arc_verdict.json` finds no arc running the cascade on any m ≥ 2 grammar.
+B1009_verification_pass	main	FINDINGS.md KILLED incoming section	Not banked, and the repo says the opposite in two places: THE_SM_VERDICT.md row 6 lists strong CP as 'never addressed'
+B1010_consolidation_loss	main	FINDINGS.md §1 table	LAW_MAP §D... B309: 0 citations, B518: 0
+B1010_consolidation_loss	main	FINDINGS.md §1 table	THE_FRAMEWORK.md ... — zero occurrences of κ at all.
+B1010_consolidation_loss	main	FINDINGS.md §2	The two value eras never met — zero co-citations
+B1010_consolidation_loss	main	FINDINGS.md §2 item 3	B1005 never weighed it.
+B1011_mckay_tensor	main	ADDENDUM_2026-09-01_C5_lock_vacuity.md (original text, later partially corrected)	Nothing committed enumerates the 2880 cells or evaluates a forcing criterion on them
+B1011_mckay_tensor	main	ADDENDUM_2026-09-01_C5_lock_vacuity.md CORRECTION section	the enumeration exists (b1011_cells.py); nothing committed evaluates a forcing criterion on it, so the 992 / 284 lock never touches the cells
+B1017_recount	main	FINDINGS.md table (implying no fourth bit exists)	B766's three torsor bits are all committed
+B1019_l149_silver_cascade	main	FINDINGS.md C1 table conclusion	No McKay partner exists. No Lie entry exists.

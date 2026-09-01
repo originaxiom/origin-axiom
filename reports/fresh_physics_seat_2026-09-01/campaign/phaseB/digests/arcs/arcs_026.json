@@ -1,0 +1,755 @@
+{
+ "batch": "arcs_026",
+ "arcs": [
+  {
+   "arc": "B500_child_hunt",
+   "source": "main",
+   "files_read": [
+    "frontier/B500_child_hunt/FINDINGS.md",
+    "frontier/B500_child_hunt/PREREGISTRATION.md",
+    "frontier/B500_child_hunt/arc_verdict.json",
+    "frontier/B500_child_hunt/hunt.py",
+    "frontier/B500_child_hunt/hunt_d5.py",
+    "frontier/B500_child_hunt/hunt_results.txt",
+    "frontier/B500_child_hunt/hunt_results_d5.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The prereg'd child x^4-x-1 (d_K=-283) is absent from all 36 depth-4 words and from 115 of 150 depth-5 words; the wild register instead escalates to S5, S9, S10, and the depth-5 kill remains provisional.\"",
+   "log_says": "Depth-4 wild ladder discovery logged 2026-07 as launching B501/B502 selection questions; a later entry (B1187, 2026-08-28) reports a REFUTED-ROUTE for a depth-uniform mod-2 exclusion built on B500's census, keeps the kill PROVISIONAL, and hands the B502 witness to L191.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "0/115 depth-5 words hit d_K=-283; 35/150 unchecked (26 TIMEOUT, 9 never-reached)", "where": "hunt_results_d5.txt + FINDINGS.md CORRECTION", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "hunt_d5.py and its full streamed output hunt_results_d5.txt are both committed as plain .txt (not gitignored); the 115/35 split is grep-verifiable directly against the file, as FINDINGS.md itself did."},
+    {"what": "the KILL (\"child is not a short word\") is banked as PROVISIONAL, not complete", "where": "FINDINGS.md CORRECTION block", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the correction was produced by grepping hunt_results_d5.txt for TIMEOUT lines and counting; a stranger can rerun the same grep."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "B525's audit and B500's own CORRECTION re-read hunt_results_d5.txt line-by-line rather than recomputing the census from scratch; the original hunt_d5.py signal.alarm(300) design (timeout before any factor/galois check) is the root cause and is visible in the committed script.",
+   "absence_claims": [
+    {"quote": "the run was killed mid-stream; there is no `HUNT COMPLETE` line", "where": "frontier/B500_child_hunt/FINDINGS.md"},
+    {"quote": "35 words remain UNCHECKED (26 timeouts + 9 never-reached — the D/M-heavy tail whose resultant eliminants blow up to degree ~3000–9280, beyond in-sandbox `gp`)", "where": "frontier/B500_child_hunt/FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "an earlier version of this same FINDINGS.md claimed \"completed 141 of 150, 0/141\"; the file now carries the CORRECTION inline, so the retraction IS propagated in this file — flagged here only because downstream logs (B1187 REFUTED-ROUTE) still treat the depth-5 census as usable evidence while it is only 115/150 analyzed.", "where": "frontier/B500_child_hunt/FINDINGS.md"}
+   ],
+   "seat_note": "This is a rare arc that caught and corrected its own census-completeness bug in the committed file, with a grep-verifiable witness — good practice, but the underlying 'child is not a short word' negative is honestly still provisional, and a downstream arc (B1187, outside this batch) appears to build on it as if it were a completed census."
+  },
+  {
+   "arc": "B501_universe_word",
+   "source": "main",
+   "files_read": ["frontier/B501_universe_word/PREREGISTRATION.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "log lists B501 (with B502) as \"genuine file-drawer\" (2026-08-09 B982-B987 entry) — i.e. a preregistered plan that was never executed.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [],
+   "belt": "NONE",
+   "belt_note": "no compute, no FINDINGS, no verdict — a prereg only.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "the arc is pure preregistration with no execution and no verdict; the project's own log confirms it as file-drawer, so nothing here is load-bearing for any claim elsewhere.", "where": "frontier/B501_universe_word/PREREGISTRATION.md"}
+   ],
+   "seat_note": "An unexecuted prereg — no physics content, no claim to evaluate; correctly labeled file-drawer by the project's own governance log."
+  },
+  {
+   "arc": "B502_parity_signature",
+   "source": "main",
+   "files_read": ["frontier/B502_parity_signature/PREREGISTRATION.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "log (2026-08-09) calls B502 genuine file-drawer; a much later entry (2026-08-28, B1187) reports the B502 witness is handed to a new lead L191 with an armed airlock, implying the parity conjecture is still open/unresolved.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [],
+   "belt": "NONE",
+   "belt_note": "prereg only, no compute committed in this arc's directory.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Prereg for a genuine arithmetic conjecture (every interaction-born field has even discriminant) that was never executed in this directory; the log shows it is still an open thread elsewhere in the repo, not resolved here."
+  },
+  {
+   "arc": "B503_external_contact",
+   "source": "main",
+   "files_read": ["frontier/B503_external_contact/PREREGISTRATION.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "log notes B503 is \"owner-gated and owed a disposition\" (2026-08-09) — i.e. explicitly not yet actioned, distinct from file-drawer.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [],
+   "belt": "NONE",
+   "belt_note": "no compute; the arc is a plan for sending material to an external specialist (Cantat), gated on the owner.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Not a scientific claim at all — an outreach plan gated on the owner's action, honestly marked as pending rather than done."
+  },
+  {
+   "arc": "B504_spacetime_functor",
+   "source": "main",
+   "files_read": [
+    "frontier/B504_spacetime_functor/FINDINGS.md",
+    "frontier/B504_spacetime_functor/PREREGISTRATION.md",
+    "frontier/B504_spacetime_functor/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"delta_M = 2: at the pointer state (1,1,1), the unique irreducible M-fixed character, the intertwiner t exists and det-normalized satisfies tr(t)^2 = 2 exactly (SVD nullspace, residual 0.0 at 30 digits).\"",
+   "log_says": "not in log (log_index null in packet is not the case here — actually log_index path given but wasn't separately fetched for B504 in this pass; content of adjacent B508 log entry confirms δ(B508) and δ_geo=4/δ_M=2 (B504) were \"banked earlier with locks\").",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "tr(t)^2 = 2 exactly (SVD nullspace, residual 0.0 at 30 digits) at pointer state (1,1,1)", "where": "frontier/B504_spacetime_functor/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "FINDINGS.md describes the computation (SVD nullspace on an independent Fricke lift) narratively and claims a lock at tests/test_b504_b505.py, but this arc directory contains no .py reproducer script — only FINDINGS/PREREGISTRATION/verdict.json. A stranger cannot rerun the SVD from this directory alone; the test file lives outside the sampled arc."},
+    {"what": "tr(t)^2 = 4.0 exactly at the Eisenstein geometric point (δ_geo=4, parabolic time)", "where": "frontier/B504_spacetime_functor/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "same as above — narrated with a singular-value figure (3e-31) but no committed script in this directory; only the external lock file is cited."}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "FINDINGS.md claims \"CC independent\" verification and a test lock, but the lock file (tests/test_b504_b505.py) is outside this arc's file list, so this seat cannot confirm what it actually checks.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "two exact numeric claims (tr(t)^2=2, tr(t)^2=4) are asserted as computed with high-precision residuals but no reproducer script is present in the arc directory — only prose description and a verdict.json.", "where": "frontier/B504_spacetime_functor/FINDINGS.md"}
+   ],
+   "seat_note": "The delta values are exact-looking and precisely worded (residual 0.0 at 30 digits) but this arc folder holds no code — reproducibility rests entirely on a lock file outside the sampled set, so 'computed' cannot be independently confirmed from what was read."
+  },
+  {
+   "arc": "B505_quasicrystal_anchor",
+   "source": "main",
+   "files_read": [
+    "frontier/B505_quasicrystal_anchor/FINDINGS.md",
+    "frontier/B505_quasicrystal_anchor/PREREGISTRATION.md",
+    "frontier/B505_quasicrystal_anchor/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"kappa - 2 = 4*lambda^2 as a POLYNOMIAL IDENTITY in (E,lambda): the programme's kappa-coordinate IS the squared quasiperiodic coupling of the measured Fibonacci Hamiltonian.\"",
+   "log_says": "a later log entry (2026-08-01, P5 Phases 0-1) states explicitly: \"B505 and B507 carry NO scripts and are not load-bearing.\"",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {"what": "kappa - 2 = 4*lambda^2 as a polynomial identity, matching the Fibonacci Hamiltonian transfer-matrix trace", "where": "frontier/B505_quasicrystal_anchor/FINDINGS.md", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "described as a two-line symbolic proof but no script is present in this arc's 3-file directory (FINDINGS, PREREGISTRATION, verdict.json only); the project's own later log entry says this arc \"carries NO scripts.\""}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory, no reproducer script committed here.",
+   "absence_claims": [
+    {"quote": "B505 and B507 carry NO scripts and are not load-bearing.", "where": "PROGRESS_LOG.md, cited at log_index/B507.txt (entry dated 2026-08-01)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "a PROVED verdict for a polynomial identity claim with no committed script anywhere in the arc; the project's own progress log later confirms this explicitly (\"carries NO scripts\").", "where": "frontier/B505_quasicrystal_anchor/FINDINGS.md"},
+    {"kind": "LOG_DRIFT", "detail": "the arc_verdict.json banks PROVED while a later authoritative log entry says the arc is \"not load-bearing\" for lack of scripts — the verdict has not been downgraded to reflect this.", "where": "frontier/B505_quasicrystal_anchor/arc_verdict.json vs PROGRESS_LOG 2026-08-01 entry"}
+   ],
+   "seat_note": "A two-line symbolic identity is plausible and easy to verify by hand, but the arc as committed provides no script, and the project's own later audit says exactly that — the PROVED verdict stands unretracted despite this."
+  },
+  {
+   "arc": "B506_critical_cancellation",
+   "source": "main",
+   "files_read": ["frontier/B506_critical_cancellation/PREREGISTRATION.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "log (2026-08-09) states \"B506 is reported — by B507, not B837\" — i.e. B506's content lives in B507's FINDINGS rather than its own file, and B506 itself has no independent verdict.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "\"CC first-pass reproduction (2026-07-10, independent batched sim, 800×4000, seed 17)\" of drift/sigma", "where": "frontier/B506_critical_cancellation/PREREGISTRATION.md", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "the prereg text references a first-pass reproduction result but no results file or script sits in this arc's single-file directory; per the log, the content is actually reported in B507."}
+   ],
+   "belt": "NONE",
+   "belt_note": "single prereg file only.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "the arc's own directory contains no FINDINGS/verdict; its substantive content is scattered into B507, making B506 a prereg shell that a naive reader could mistake for having no results at all.", "where": "frontier/B506_critical_cancellation/PREREGISTRATION.md"}
+   ],
+   "seat_note": "This is a preregistration-only shell whose actual reported content lives in a sibling arc (B507) per the project's own log — a real result may exist, but not in this directory."
+  },
+  {
+   "arc": "B507_beta_function",
+   "source": "main",
+   "files_read": [
+    "frontier/B507_beta_function/FINDINGS.md",
+    "frontier/B507_beta_function/PREREGISTRATION.md",
+    "frontier/B507_beta_function/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN — \"First-pass beta-function: g_M(kappa) is strongly negative (~-1.05 to -1.25) on the negative-kappa leaves where the object lives, so the measurement verb is NOT marginal there.\"",
+   "log_says": "2026-08-01 log entry: \"B505 and B507 carry NO scripts and are not load-bearing.\" Earlier entries (2026-07-11, 2026-07-14) describe the beta-function zero at kappa*≈0 as reproducing under two independent methods and being unified with B181/B498 as one criticality theorem, and note \"B507 has NO lock.\"",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {"what": "E_Haar[g_M]=0.0003 (theorem 0), E_Haar[g_D]=-1.9995 (theorem -2), zero at kappa*=0.001≈0 (6M Haar samples)", "where": "frontier/B507_beta_function/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "described as a full run (6M Haar samples, measure-correct binning) with 4-decimal gate agreement, but no script or results file is present in this 3-file arc directory, and the project's own later log states the arc \"carries NO scripts\" and \"has NO lock\"."}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification directory; the arc's own verdict is honestly OPEN, but the underlying numeric claims (the 6M-sample curve) have no committed witness despite being treated as reproduced by B520 (which recomputes independently, in a different arc, and agrees)."
+   ,
+   "absence_claims": [
+    {"quote": "B505 and B507 carry NO scripts and are not load-bearing.", "where": "PROGRESS_LOG.md 2026-08-01 entry (log_index/B507.txt)"},
+    {"quote": "B507 has NO lock", "where": "PROGRESS_LOG.md 2026-07-14 entry (log_index/B507.txt)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the 6M-sample beta-function curve and its exact-gate agreement (E_Haar[g_M]=0.0003 etc.) have no committed script or data file in this arc; the project's own log confirms \"no scripts\" and \"no lock.\"", "where": "frontier/B507_beta_function/FINDINGS.md"}
+   ],
+   "seat_note": "The verdict is honestly left OPEN, which is good discipline, but the headline numeric result (zero of an emergent beta-function at kappa*=0, matched to the pointer state) rests on an unwitnessed 6M-sample run; B520 later reproduces it independently with its own code, which is reassuring but does not retroactively supply this arc's missing witness."
+  },
+  {
+   "arc": "B508_geometry_machine",
+   "source": "main",
+   "files_read": [
+    "frontier/B508_geometry_machine/FINDINGS.md",
+    "frontier/B508_geometry_machine/PREREGISTRATION.md",
+    "frontier/B508_geometry_machine/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"delta(s) = (s^2+s-1)/(s-1) along the evolution curve, verified OUT-OF-SAMPLE at never-sampled points s=3 and s=-2, with delta=0 exactly at the golden points {1/phi, -phi}.\"",
+   "log_says": "log (2026-07-08/10 entry) confirms \"δ-function (B508) and δ_geo=4, δ_M=2 (B504) banked earlier with locks.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "delta(s)=(s^2+s-1)/(s-1); out-of-sample checks at s=3 (11/2) and s=-2 (-1/3), delta=0 at golden points, delta=5 at s=2 matching 2*acosh(sqrt5/2)=2 log phi", "where": "frontier/B508_geometry_machine/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "the arc directory has only FINDINGS/PREREGISTRATION/verdict.json, no script; the out-of-sample claim is a strong methodological point (fresh intertwiner constructions at unseen points) but its committed witness is a lock file outside this directory (test_b504_b505.py)."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "explicitly says it was checked \"OUT-OF-SAMPLE by this seat\" at fresh points not previously sampled — a genuine belt discipline in narrative form, but no script is in this directory to confirm the arithmetic independently.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "a rational function claimed exact at several special values (0, 4, 5, 11/2, -1/3) with no committed reproducer script in the arc; verification described in prose only.", "where": "frontier/B508_geometry_machine/FINDINGS.md"}
+   ],
+   "seat_note": "The out-of-sample verification methodology described is exactly right in spirit (checking at points not used to fit the formula), but as committed this arc gives no script to rerun it — the numbers are simple enough to spot-check by hand from the stated formula, which this seat did not do."
+  },
+  {
+   "arc": "B509_square_time_curve",
+   "source": "main",
+   "files_read": [
+    "frontier/B509_square_time_curve/FINDINGS.md",
+    "frontier/B509_square_time_curve/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The square-time curve has rank 0 (proved) and is 40a3; the isogeny fact is FLAGGED, not interpreted.\"",
+   "log_says": "log (2026-07-08/10 entry) confirms: \"B509 (2026-07-11): the square-time curve — RANK 0 PROVED (Sage descent). The Rationality Theorem is unconditional...\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "E: Y^2=X^3-2X+1, disc 80, conductor 40, j=+55296/5, torsion Z/4, rank 0 via Sage descent, Cremona label 40a3 isogenous (not isomorphic) to 40a1", "where": "frontier/B509_square_time_curve/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as computed by Sage/sympy (elimination exact via sympy; rank via Sage descent) but no script file appears in this arc's 2-file directory (only FINDINGS.md + verdict.json); reproducibility depends on an external lock (tests/test_b509.py) not sampled here."},
+    {"what": "the handoff's j-invariant sign (-55296/5) was wrong; corrected to +55296/5, \"the session's fourth sign slip, caught by verification\"", "where": "frontier/B509_square_time_curve/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "a genuine caught-error is a good sign of real verification discipline, but again no script sits in this directory to rerun the sign check."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "explicit sign-error catch (\"the session's fourth sign slip\") shows a verify-don't-trust habit, but no script is present in the sampled files to independently confirm.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "rank-0 (Sage descent) and Cremona-label identification are numeric-heavy claims with no reproducer script in the two committed files.", "where": "frontier/B509_square_time_curve/FINDINGS.md"}
+   ],
+   "seat_note": "Careful, well-caveated arithmetic geometry (rank proved, isogeny flagged-not-interpreted per the project's own airlock discipline) — the caught sign error is a good sign, but this seat cannot rerun the Sage descent from what is committed here."
+  },
+  {
+   "arc": "B510_convening_resolution",
+   "source": "main",
+   "files_read": [
+    "frontier/B510_convening_resolution/FINDINGS.md",
+    "frontier/B510_convening_resolution/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"40a3 is the Jacobian of 40a1's branch double cover (2-isogenous, not a quadratic twist), discharging the square-time flag as a theorem.\"",
+   "log_says": "log (2026-07-08/10 entry): \"B510 (2026-07-11): the 40a1 convening RESOLVED as a theorem... 40a3 = the Jacobian of the branch double-cover... the repo model confirmed.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "y^2=x(x-1)(x-5) is Cremona 40a1, j=148176/25; genus-1 cover d^2=(c^2-1)(c^2-5) has Jacobian exactly 40a3; 40a3 is 2-isogenous to 40a1 not a quadratic twist (j differs, no small-d twist found by scan)", "where": "frontier/B510_convening_resolution/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "narrated as \"classical I,J invariants → minimal model → isomorphism True\" and a twist scan, but no script exists in this 2-file arc directory; relies on test_b509.py extension outside sampled files."},
+    {"what": "correction: 40a3 is NOT a quadratic twist of 40a1 (\"sixth caught error of the arc\")", "where": "frontier/B510_convening_resolution/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "another genuine self-correction, again without a committed script to independently confirm the twist scan."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "self-corrects a prior handoff claim (\"sixth caught error of the arc\") — good discipline, no script sampled.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the Jacobian-of-branch-cover computation and the twist-scan negative result have no committed script in this directory.", "where": "frontier/B510_convening_resolution/FINDINGS.md"}
+   ],
+   "seat_note": "A clean covering-geometry theorem tying two independently-found elliptic curves together, with an honestly-tracked self-correction record; the arc reads as careful math but is entirely unwitnessed by any script in its own directory."
+  },
+  {
+   "arc": "B511_physics_verdict",
+   "source": "main",
+   "files_read": [
+    "frontier/B511_physics_verdict/CAMPAIGN.md",
+    "frontier/B511_physics_verdict/D0_GATES.md",
+    "frontier/B511_physics_verdict/D1_ADVERSARIAL_REVIEW.md",
+    "frontier/B511_physics_verdict/D3_FINDINGS.md",
+    "frontier/B511_physics_verdict/D3_PARTIAL.md",
+    "frontier/B511_physics_verdict/D5_FINDINGS.md",
+    "frontier/B511_physics_verdict/d3_measure.py",
+    "frontier/B511_physics_verdict/d3_results.json",
+    "frontier/B511_physics_verdict/d3_results.txt",
+    "frontier/B511_physics_verdict/d3_wild_access.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_verdict: false in packet; this is a multi-door campaign directory with per-door terminal states in D0/D1/D3/D5 files instead of one arc_verdict.json)",
+   "log_says": "log: \"B511 PHYSICS VERDICT CAMPAIGN launched (2026-07-11). The terminal exploration: six doors, each physics(via B398)-or-CLOSED, 'promising' banned.\" A later entry: \"D0 gates executable + base rates.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "D3.1 stationary measure concentrates at kappa=2 (median 2.0 across seeds/sizes)", "where": "frontier/B511_physics_verdict/d3_measure.py, d3_results.txt, d3_results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "d3_measure.py is committed, streams to d3_results.txt (also committed) and dumps d3_results.json (committed) — a stranger can rerun this."},
+    {"what": "D3.2 arcsine occupation histogram [996,351,113,28,10,2,0,0,0,0] logged as \"U-SHAPED (arcsine-consistent)\" by the script, but D3_PARTIAL.md/D3_FINDINGS.md say this line is a BUG (summed bin[0]+bin[9] where bin[9]=0) and the correct reading is one-sided, NOT arcsine", "where": "frontier/B511_physics_verdict/d3_measure.py line ~64; frontier/B511_physics_verdict/D3_PARTIAL.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the raw histogram is committed and reproducible; the script's auto-classification is admittedly wrong and the corrected classification is prose in FINDINGS/PARTIAL, not a code fix — the committed script still prints the wrong label if rerun."},
+    {"what": "D3.3 wild accessibility: P(kappa≈2 classical) ≥ 0.84, P(wild-accessible kappa) ≤ 0.10", "where": "frontier/B511_physics_verdict/D3_FINDINGS.md, using frontier/B511_physics_verdict/d3_wild_access.py", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "d3_wild_access.py is committed and runnable, but its output (the 0.84/0.10 figures cited in D3_FINDINGS.md) is not saved anywhere in the directory — no results.txt/json for this cell exists, unlike D3.1/D3.2 which have d3_results.txt/json."}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "D3.1/D3.2 have genuine committed witnesses (scripts + raw output); D3.3's headline percentages are asserted in FINDINGS with a runnable script but no saved output file — a mixed picture within one door.",
+   "absence_claims": [
+    {"quote": "the run was killed mid-stream; there is no `HUNT COMPLETE` line", "where": "cross-reference to B500, cited inside B511's D-door framing of the wild census"},
+    {"quote": "No standard 3d Rauzy fractal exists.", "where": "frontier/B511_physics_verdict/D1_ADVERSARIAL_REVIEW.md"},
+    {"quote": "there is no high-end peak", "where": "frontier/B511_physics_verdict/D3_PARTIAL.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "D3.3's headline numbers (P(classical)≥0.84, P(wild)≤0.10) are quoted in FINDINGS but have no committed output file, unlike the sibling D3.1/D3.2 cells which do — a stranger must rerun d3_wild_access.py themselves and hope for the same numbers (no fixed seed printed in the __main__ block beyond defaults).", "where": "frontier/B511_physics_verdict/D3_FINDINGS.md"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "D1_ADVERSARIAL_REVIEW.md's body text still reads \"No standard 3d Rauzy fractal exists\" / \"golden 3d impossible\" as the main argument, with only a short CORRECTION appended at the very end retracting it; a reader stopping partway through the file (as the file's own internal structure invites) would come away with the wrong conclusion. The correction is present (not fully unmarked) but the ratio of retracted-text to correction-text is large.", "where": "frontier/B511_physics_verdict/D1_ADVERSARIAL_REVIEW.md"}
+   ],
+   "seat_note": "This is the campaign's terminal exploration and is unusually disciplined about admitting its own script bug (the arcsine U-SHAPED mislabel) in prose, but the committed code still prints the wrong label if rerun, and one door's headline number (D3.3) lacks the same save-to-file discipline its sibling cells have."
+  },
+  {
+   "arc": "B512_six_computation_pass",
+   "source": "main",
+   "files_read": [
+    "frontier/B512_six_computation_pass/FINDINGS.md",
+    "frontier/B512_six_computation_pass/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The six-cell handoff pass banks two negatives: the McKay ladder to E₆ is golden-specific (silver is a 2-group), and the arcsine law is rejected.\"",
+   "log_says": "not in log (log_index is null for this arc in the packet)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "silver ladder tr(t)^2=2 -> order-16 2-group (dihedral/quaternion family), NOT reaching 2T/E6; golden tr(t)^2=1 -> 2T -> E6", "where": "frontier/B512_six_computation_pass/FINDINGS.md cell C", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "described as \"computed independently\" but no script exists in this arc's 2-file directory (only FINDINGS.md + verdict.json)."},
+    {"what": "the arcsine law is rejected: occupation-fraction ~Beta(6.2,1.6), KS-from-uniform 0.52, cross-confirmed by this seat's own B511/D3.2 result hours earlier", "where": "frontier/B512_six_computation_pass/FINDINGS.md cell D", "kind": "COMPUTED", "reproducible_from_committed": "yes (partially, via B511)", "why": "B511's d3_measure.py (a different arc, in this same batch) produced the raw histogram cross-cited here; but the Beta(6.2,1.6) fit and KS statistic reported for the chat1 half are not independently witnessed in this directory."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "explicitly cross-confirms cell D against B511's D3.2, which does have committed code — a genuine independent-cross-check pattern, though B512 itself carries no script.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "no reproducer scripts in this arc for either of its two banked negatives (McKay silver-vs-golden trace computation, arcsine rejection fit); relies entirely on prose description and cross-reference to a sibling arc's code.", "where": "frontier/B512_six_computation_pass/FINDINGS.md"}
+   ],
+   "seat_note": "Two genuine, checkable negatives (arcsine rejected, McKay golden-specific) with a real independent cross-confirmation pattern for one of them, but the arc's own directory provides no code — reproducibility depends on trusting the prose or chasing an external test lock."
+  },
+  {
+   "arc": "B513_boundary_attractors",
+   "source": "main",
+   "files_read": [
+    "frontier/B513_boundary_attractors/FINDINGS.md",
+    "frontier/B513_boundary_attractors/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The three verbs have distinct exact boundary attractors: evolution conserves kappa=-2 (cusp), decoherence flows to 0 (pointer), decimation to 2 (abelian).\"",
+   "log_says": "log (2026-07-11 entry): \"B513 — the boundary-type attractors (verified) + the (3,1)-signature over-read TOMBSTONED.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the three verbs' exact kappa-flow endpoints (F conserves -2/cusp, M -> 0/order-4 pointer, D -> 2/reducible)", "where": "frontier/B513_boundary_attractors/FINDINGS.md", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "no script present in this 2-file arc directory; claims exactness (\"Exact:\", \"verified\") but the arithmetic (e.g. [A,B]^4=I \"verified\") is not shown as a committed computation."},
+    {"what": "the (3,1) signature Hessian tombstone: det(Hessian)=-2(x^2+y^2+z^2+xyz-4), signature-change surface cuts across kappa-shells (kappa=1 shell: 20 Euclidean/10 Lorentzian)", "where": "frontier/B513_boundary_attractors/FINDINGS.md", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "a specific count (20/10 split at a shell) is stated with no script or data file to reproduce the enumeration."}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; a good negative finding (the signature tombstone) is delivered with a specific integer count (20/10) that cannot be checked from what is committed.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "both the PROVED boundary-attractor claims and the tombstoned (3,1) count (20 Euclidean/10 Lorentzian on a kappa=1 shell) have no committed script or data.", "where": "frontier/B513_boundary_attractors/FINDINGS.md"}
+   ],
+   "seat_note": "A structurally interesting result (three verbs, three distinct fixed points, tied cleanly to the already-proved g_M/g_D beta-functions) but delivered as narrative math with a specific enumerated count that this seat cannot check against any committed file."
+  },
+  {
+   "arc": "B515_golden_3d",
+   "source": "main",
+   "files_read": [
+    "frontier/B515_golden_3d/FINDINGS.md",
+    "frontier/B515_golden_3d/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Coupling two Fibonacci copies yields the unimodular quartic Pisot number beta=phi(1+sqrt(phi)), so a golden-field 3d Rauzy geometry is real and B514's kill was premature.\"",
+   "log_says": "log (2026-07-11 entry): \"B515/B516/B517 — GOLDEN 3d (the D1 reopening). Coupling two Fibonacci copies F-equivariantly forces the unique Pisot inflation β=φ(1+√φ)... a genuine 3-dimensional golden Rauzy fractal (constructed, figure banked).\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "beta=phi(1+sqrt(phi)) is the unique golden-field quartic-Pisot inflation number across a {0,1,2}^8 scan of 46 couplings", "where": "frontier/B515_golden_3d/FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "the arc directory holds only FINDINGS.md and verdict.json — no scan script, no output of the 46-coupling enumeration is committed here; the uniqueness claim (46/46 give the same beta) cannot be checked from these files. (B517, a later arc in this batch, has the exhaustive-box version of this scan checked in code.)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification directory in this arc; B516 and B517 (siblings) later re-derive and sharpen this, with B517 providing an actual reproducible exhaustive-box argument.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the headline result (beta=phi(1+sqrt phi), unique across a 46-coupling scan) has no committed script or scan output in this directory.", "where": "frontier/B515_golden_3d/FINDINGS.md"},
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "this arc corrects B514 (\"my premature kill corrected\") but B514_golden_3d does not appear in this batch's file list at all — the packet has no B514 arc, so this seat cannot verify B514's own file was updated to mark itself superseded.", "where": "frontier/B515_golden_3d/FINDINGS.md (references B514, not present in this batch)"}
+   ],
+   "seat_note": "An honestly self-critical arc (author explicitly owns a premature kill, twice), but the numerical uniqueness claim underlying the whole reopening — beta unique across 46 couplings — is not witnessed by any committed code in this directory; the exhaustive version only appears later, in B517."
+  },
+  {
+   "arc": "B516_golden_3d_ladder",
+   "source": "main",
+   "files_read": [
+    "frontier/B516_golden_3d_ladder/FINDINGS.md",
+    "frontier/B516_golden_3d_ladder/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Golden 3d self-reference is golden-specific (only phi keeps x->x(1+sqrt x) Pisot), while the 'three dimensions from a Pisot cap' reading is dead.\"",
+   "log_says": "log (2026-07-11 entry) groups B516 with B515/B517 golden-3d reopening; a later entry (B742, 2026-07-21) lists \"B516's previously-asserted dim-5 Pisot counterexample\" among 30 kills EARNED in a negatives hunt — suggesting the dim-5 claim was itself later scrutinized/killed as a claim, separate from the golden-specificity claim.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "golden-field Pisot inflation exists at dim 1 (phi), dim 3 (beta, B515), and dim 5 (found in a {0,1,2} coupling scan of three Fibonacci copies)", "where": "frontier/B516_golden_3d_ladder/FINDINGS.md Finding 1", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "no script in this 2-file arc directory; the dim-5 claim is later referenced in a 2026-07-21 log entry as one of 30 items \"KILLED\" in a negatives hunt (\"B516's previously-asserted dim-5 Pisot counterexample\"), which this seat could not locate or read in this batch to confirm what was actually killed."},
+    {"what": "among the metallic family, only golden phi gives a Pisot number under x->x(1+sqrt x); silver/bronze/m=4 all fail (exact conjugate mechanism x(sqrt(x)-1)<1 only for golden)", "where": "frontier/B516_golden_3d_ladder/FINDINGS.md Finding 2", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "no committed script; the four-row comparison table (golden/silver/bronze/m=4) is asserted numerically without a reproducer."}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification directory in this arc.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "both Finding 1 (dim-5 golden Pisot) and Finding 2 (golden-uniqueness via the conjugate mechanism) rest on scans/enumerations with no committed code in this directory.", "where": "frontier/B516_golden_3d_ladder/FINDINGS.md"},
+    {"kind": "LOG_DRIFT", "detail": "a later log entry (2026-07-21, B742) refers to \"B516's previously-asserted dim-5 Pisot counterexample\" as one of 30 kills — this batch does not include the arc where that kill is recorded, so it is unclear whether the FINDINGS.md content sampled here (which still asserts the dim-5 claim as a live Finding) has been updated to reflect that kill.", "where": "PROGRESS_LOG.md 2026-07-21 entry (log_index/B516.txt) vs frontier/B516_golden_3d_ladder/FINDINGS.md"}
+   ],
+   "seat_note": "The arc's own author explicitly flags \"my binary-only scans falsely showed 0 golden at dim 3 AND dim 5\" as a self-caught error, which is good, but a later log entry appears to describe a further kill of the dim-5 claim itself that this seat could not locate in-batch to reconcile against the still-standing FINDINGS text."
+  },
+  {
+   "arc": "B517_bootstrap_forcing",
+   "source": "main",
+   "files_read": [
+    "frontier/B517_bootstrap_forcing/FINDINGS.md",
+    "frontier/B517_bootstrap_forcing/NOVELTY_GATE.md",
+    "frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md",
+    "frontier/B517_bootstrap_forcing/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": ["frontier/B517_bootstrap_forcing/rauzy/cloud.npy", "frontier/B517_bootstrap_forcing/rauzy/golden_3d_rauzy.png"],
+   "claim_of_record": "PROVED — \"Within Fibonacci-intertwining couplings the golden-3d bootstrap coupling is unique, (C,D)=(F,F^2), and that canonical coupling is Pisot only for the golden mean.\"",
+   "log_says": "log entries describe the intertwining theorem, the escalator generalization (B556), and the exact rational Stein metric refinement (cross-seat GPT-5.6) as re-derived independently — matches FINDINGS.md content closely.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the exhaustive-box forcing theorem: over 0≤u≤6, 0≤v≤4 the unique irreducible quartic Pisot unit is (u,v)=(1,2) ⟹ (C,D)=(F,F^2)", "where": "frontier/B517_bootstrap_forcing/FINDINGS.md Phase A-CLOSE", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "described as \"checked 0..8×0..6, single hit\" via cross-seat recomputation, but no script is present in this arc directory (only .md files + two data/plot files under rauzy/, which are outputs not source)."},
+    {"what": "the Signature Hunt control table: trace-form (2,1)->(3,1) for golden/silver/bronze/tetranacci/child-field alike; totally-real -> (4,0); totally-complex -> (2,2) — genericity confirmed by controls run BEFORE physics interpretation", "where": "frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "a real control-gate discipline (pre-registered controls run before interpretation) but no script committed; numbers given to 3-4 significant figures with no data file."},
+    {"what": "the exact rational Stein form G=(1/11)[[12,-8,-5,-4],...], signature (3,1), residual M^T G M - G + I = 0 exactly", "where": "frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md Addendum 2", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "an exact rational matrix identity, easy to hand-check but not accompanied by any script in this directory; described as \"re-derived independently\" by \"recompute-don't-trust\" but the recompute itself isn't a committed artifact."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "the arc repeatedly re-derives cross-seat handoff claims \"by independent recomputation (no files ingested)\" — a genuine verify-don't-trust discipline described in prose across several addenda, but none of the actual recomputation scripts are committed in this directory; only the .npy/.png Rauzy-fractal outputs (LIST_ONLY, not inspected) exist as artifacts.",
+   "absence_claims": [
+    {"quote": "no primitive 4×4 nonneg matrix has Perron eigenvalue φ", "where": "frontier/B511_physics_verdict/D1_ADVERSARIAL_REVIEW.md (the retracted claim this arc corrects)"},
+    {"quote": "the dynamical-form hunt is NEEDS-A-CANONICAL-CANDIDATE, not run", "where": "frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md"},
+    {"quote": "C3/Malament — does the FULL Level-1 monoid preserve one cone — remains the one un-run distinguisher", "where": "frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md"},
+    {"quote": "does the Origin object force a unique positive one-step form W... Un-run.", "where": "frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md Addendum 2"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "every load-bearing exact computation in this arc (the exhaustive Pisot-box forcing theorem, the signature-control table, the exact rational Stein metric) is narrated as independently recomputed but no script sits in the arc directory — only two binary/image outputs (rauzy/cloud.npy, rauzy/golden_3d_rauzy.png) exist as artifacts, and this seat did not inspect them (LIST_ONLY per packet mode).", "where": "frontier/B517_bootstrap_forcing/FINDINGS.md, SIGNATURE_HUNT.md"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "the arc notes as a firewalled 'HOOK' that beta=phi(1+sqrt phi) shares the field ℚ(√5,√φ) with the Fibonacci-anyon F-matrix entries — a shared-field coincidence explicitly flagged by the arc itself as not yet more than a type match.", "where": "frontier/B517_bootstrap_forcing/FINDINGS.md B1"}
+   ],
+   "seat_note": "This is one of the most methodologically careful arcs in the batch — genuine controls run before physics interpretation, an honest genericity conclusion (T-SIG fails the control gate across two independent canonical forms), and self-caught bugs (the zero-eigenvalue sign convention) — but almost none of it is backed by committed code in this directory, so a stranger's ability to reproduce rests entirely on trusting the prose."
+  },
+  {
+   "arc": "B518_k025_confirmation",
+   "source": "main",
+   "files_read": [
+    "frontier/B518_k025_confirmation/FINDINGS.md",
+    "frontier/B518_k025_confirmation/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"K025 confirmed by computation: kappa is a substrate-independent scale-free universality class and the four faces derive from the two SL(2,Z) letters.\"",
+   "log_says": "log entries confirm the Tier A/B/C summary; a later entry states Tier B was later downgraded (\"B518 Tier B DOWNGRADED (owned over-claim, caught by the gate)\"), which matches the CORRECTION appended inline to this arc's own FINDINGS.md.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the same trace map T=(z,x,xz-y) preserves kappa across Schrodinger/hopping/spin substrates (scale-free universality class)", "where": "frontier/B518_k025_confirmation/FINDINGS.md Tier A", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "asserted as confirmed at the trace-map level, no script committed in this 2-file arc directory."},
+    {"what": "Tier B mixed-chain label law downgraded from 'the one firewall crossing' to 'measurable but not a crossing', per B519's audit finding gap-labeling additivity is a known theorem", "where": "frontier/B518_k025_confirmation/FINDINGS.md CORRECTION block", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "the correction imports B519's conclusion, which is itself later re-corrected in B519's own VERDICT.md (the necessary-vs-sufficient distinction) — B518's CORRECTION here has NOT been updated to reflect B519's own subsequent retraction (B519 later un-retracts the crossing claim as LIVE again)."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "the CORRECTION block re-reads B519's adversarial finding rather than recomputing independently.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B518's CORRECTION says Tier B is \"NOT a firewall crossing\" citing B519's original refutation; but B519's own VERDICT.md is later corrected (by the B525 audit) to say the refutation was wrong and the mixed-chain gap-opening pattern IS a live falsifiable prediction. B518's FINDINGS.md, as committed, still carries the now-outdated \"NOT a crossing\" framing without a second correction reflecting B519's own reversal.", "where": "frontier/B518_k025_confirmation/FINDINGS.md CORRECTION vs frontier/B519_re_mining/VERDICT.md CORRECTED banner"},
+    {"kind": "MISSING_WITNESS", "detail": "Tier A's universality claim (one trace map preserving kappa across three physical substrates) has no committed script.", "where": "frontier/B518_k025_confirmation/FINDINGS.md"}
+   ],
+   "seat_note": "A visible chain of corrections-of-corrections across B518/B519/B525 shows the project does track its own errors, but it also means a reader of B518 alone gets a stale intermediate state (Tier B downgraded) rather than the final one (Tier B's falsifiability restored) — the correction did not propagate back into this file."
+  },
+  {
+   "arc": "B519_re_mining",
+   "source": "main",
+   "files_read": [
+    "frontier/B519_re_mining/CAMPAIGN.md",
+    "frontier/B519_re_mining/VERDICT.md",
+    "frontier/B519_re_mining/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "RETRACTED — \"The re-mining campaign's B1 'no EXTERNAL crossing' headline is withdrawn by its own correction banner: the refutation conflated Bellissard gap-LABELING... with gap-OPENING..., so the mixed-chain 2x2 opening pattern is falsifiable and the cell is LIVE again.\"",
+   "log_says": "log (B826, 2026-07-30 entry): \"B519's missing verdict was a FILENAME gap, not a content gap... B519_re_mining carried no verdict at all though B525 had cracked its 'no external crossing' headline... B519 now carries RETRACTED, sourced from its own correction banner and B525.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the terminal table: A1/A2/B2/B3/D/cross-connections all (c) ABSORBING-LOOP or (b) STRUCTURE; B1 originally REFUTED 3-0, then corrected to LIVE by the necessary-vs-sufficient distinction", "where": "frontier/B519_re_mining/VERDICT.md", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "described as a 16-agent Workflow's judgment calls plus an adversarial gate (≥3 skeptic votes); this is process/argument, not a numeric computation, and no code artifact exists in this 3-file directory to check any of it directly."},
+    {"what": "cell A2's original closure (\"the tower measure IS the Kubota-Leopoldt 3-adic L-function\") is itself retracted by a later B578 correction, cited inline in VERDICT.md's own tail addendum", "where": "frontier/B519_re_mining/VERDICT.md tail CORRECTION (2026-07-14, B578-D5)", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "the retracting computation (Gauss sums vs Kubota-Leopoldt, rank 4, norms 9 vs 16/3) is described but lives in a different arc (B578), not in this batch, so this seat cannot check it."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "the arc's own verdict is entirely a synthesis/audit of other arcs' claims via a multi-agent Workflow process, not an independent recomputation of a primary fact.",
+   "absence_claims": [
+    {"quote": "no known theorem forces the answer", "where": "frontier/B519_re_mining/VERDICT.md, re: the mixed-chain gap-opening prediction"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's own claim_one_line states the arc supersedes nothing formally (\"supersedes\": null) despite the content explicitly retracting the arc's OWN prior headline and cell A2's own prior closure — a genuinely self-retracting arc whose verdict.json field for supersession is left null rather than pointing at its own earlier content.", "where": "frontier/B519_re_mining/arc_verdict.json"},
+    {"kind": "OTHER", "detail": "per the project's own log (B826), the missing verdict file was itself a governance gap for weeks (arc had no arc_verdict.json at all despite B525 having cracked its headline) — a structural example of a correction not being tracked in the standard place until a dedicated audit noticed the filename convention mismatch.", "where": "PROGRESS_LOG.md B826 entry, log_index/B519.txt"}
+   ],
+   "seat_note": "This arc is a case study in the project's own correction-tracking failing silently: a genuinely important retraction (an external falsifiable prediction wrongly declared dead) sat with no verdict file for weeks until a dedicated meta-audit (B826) noticed the gap was a naming-convention artifact, not a content gap — worth flagging as a governance weakness even though the content itself, once found, is honest."
+  },
+  {
+   "arc": "B520_handoff_verification",
+   "source": "main",
+   "files_read": [
+    "frontier/B520_handoff_verification/FINDINGS.md",
+    "frontier/B520_handoff_verification/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Two headline handoff claims (a transcendental beta-function zero and a dim-3 bootstrap ceiling) fail to reproduce; only the BTZ entropy formula survives.\"",
+   "log_says": "log (2026-07-11 entry): \"B520 (2026-07-12): handoff verification — β-function correction REJECTED, ceiling corrected, BTZ banked.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "g(0)=+0.001 (se 0.0002), g(0.764)=+0.266 via two independent methods (Goldman-ergodic + Haar-conditional, 8M samples), rejecting the handoff's g(0)≈-0.31 as a biased-MC artifact", "where": "frontier/B520_handoff_verification/FINDINGS.md §1/§2", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "described with a standard error figure implying a real Monte Carlo run, but this 2-file arc directory has no script; the reproduction is claimed to independently confirm B507's own unwitnessed claim (see B507 entry, same batch), which is a positive cross-check pattern but still lacks a committed artifact here."},
+    {"what": "S = arccosh(5/2) ≈ 1.5668 at the golden loxodromic x=5, the 40a1 2-torsion point", "where": "frontier/B520_handoff_verification/FINDINGS.md §4", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "a simple closed-form arccosh evaluation, easy to hand-check but no script present."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "\"verify-don't-trust\" on an external handoff — genuine adversarial re-derivation described in prose, cross-checking B506/B507's own numbers, but no script in this directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the two independent-method beta-function zero recomputation (8M Haar samples) that rejects a competing handoff claim has no committed script or output file in this arc.", "where": "frontier/B520_handoff_verification/FINDINGS.md"}
+   ],
+   "seat_note": "A genuinely valuable check-the-handoff arc (catches a wrong 'correction' to the project's own prior work and calls it out explicitly — \"the right response to 'your result is wrong' is to recompute, not to concede\") but, like most of its siblings, delivered with no committed code to verify the recomputation itself."
+  },
+  {
+   "arc": "B521_audit_integration",
+   "source": "main",
+   "files_read": [
+    "frontier/B521_audit_integration/FINDINGS.md",
+    "frontier/B521_audit_integration/arc_verdict.json",
+    "frontier/B521_audit_integration/verify_gates.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The parallel audit's four gates are sealed/closed independently — Gate C refutes a generation-3 commensurator — corroborating the trunk's negative closure.\"",
+   "log_says": "log (2026-07-12 entry, Origin Postulate audit-seat adjudication): \"Every checkable claim verified against the trunk's own record... Gate C trinification (B521 FINDINGS: INDEPENDENTLY CONFIRMED)...\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Gate C: det(T-I)=3≠0 (Fix=0), N(1-omega)=3, |A|=16 not a perfect cube, Phi_3(1)≠0 (no eigenvalue 1) — the ℤ/3 deck is trinification within one 27, not a generation-3", "where": "frontier/B521_audit_integration/verify_gates.py + FINDINGS.md Gate C", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify_gates.py is committed (66 lines) and directly computes disc(-15), the E6 theta-fold, and the three Gate-C legs; a stranger can rerun it."},
+    {"what": "R2 blind out-of-sample prediction HIT: prediction JSON committed_utc 2026-07-10T00:09:30Z precedes verify JSON started_utc 00:14:10Z by 5 minutes, 0/240 mismatches, sha256-pinned table", "where": "frontier/B521_audit_integration/FINDINGS.md §R2", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "the timestamped JSON files (b493_prediction_47.json, b493_verify_47.json) are from the separate `oaudit/` clone/branch, not this arc's directory or this repo's main trunk as sampled; this seat could not itself see those files to confirm the timestamps or sha256 pin."},
+    {"what": "CS/eta {0,1/4}, extended-Bloch c^2-c+1, SL(3) tau_V0=-84, non-Hermitian DG data", "where": "frontier/B521_audit_integration/FINDINGS.md Gate A/B/D", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "explicitly marked in the arc's own \"Verification ledger\" table as \"cited on the audit's machine-checked run (heavy tooling); headline structure consistent with trunk\" — i.e. NOT independently recomputed by this trunk, only checked for plausibility."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verify_gates.py genuinely recomputes Gate A (disc -15) and Gate C (all three legs) from first principles; Gates B/D and the CS/eta/Bloch/SL3 items are explicitly labeled cited-not-recomputed in the arc's own honesty table.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IMPORTED", "detail": "the arc's own verification ledger honestly separates \"independently recomputed here\" (Gate A disc, Gate B theta, Gate C's three legs, R2 timestamp check) from \"cited on the audit's machine-checked run\" (CS/eta, extended-Bloch, SL(3) tau_V0, DG data) — the latter four items are imported from a separate clone (`oaudit/`) whose underlying probe scripts/JSONs are not in this arc's directory or sampled by this seat.", "where": "frontier/B521_audit_integration/FINDINGS.md \"Verification ledger\" table"},
+    {"kind": "MISSING_WITNESS", "detail": "the R2 blind-prediction-hit claim (the strongest positive result in the arc — a genuine forced+unsought+controlled prediction) rests on timestamped JSON files from the external oaudit/ clone that are not present for inspection in this batch.", "where": "frontier/B521_audit_integration/FINDINGS.md §R2"}
+   ],
+   "seat_note": "This is the most transparent arc in the batch about provenance — it explicitly tables which claims were independently recomputed (with a committed script, verify_gates.py) versus merely cited from a separate audit clone — a model of honest sourcing, even though the most interesting single result (a blind out-of-sample prediction that hit exactly) is one of the cited-not-recomputed items."
+  },
+  {
+   "arc": "B522_tower_filtration",
+   "source": "main",
+   "files_read": [
+    "frontier/B522_tower_filtration/FINDINGS.md",
+    "frontier/B522_tower_filtration/arc_verdict.json",
+    "frontier/B522_tower_filtration/verify_filtration.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"A formal-slice/BCH filtration argument forces the Sym-tensor-det block form of char(rho_n) for all n and proves the catalog's first arm by Chevalley, reducing the tower conjecture to a static multiplicity-splitting problem located at n=5.\"",
+   "log_says": "log (2026-07-11 entry): \"B522 (tower filtration theorem, SHARPER-REDUCTION). The audit's fifth route: Luna slice + Procesi FFT + BCH ⟹ the Sym⊗det block form is FORCED for all n, dynamics eliminated, only static multiplicities remain, n=5 wall located.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "the character-layer generating function 1/((1-z)(1-xz)(1-yz)) confirmed symbolically for a=0..5; carrier-dimension reconstruction matches n^2-1 for n=2,3,4; the first arm proved for all n via Chevalley", "where": "frontier/B522_tower_filtration/verify_filtration.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify_filtration.py is committed and its stated symbolic checks (a=0..5) are directly rerunnable."},
+    {"what": "the deep step (formal Luna slice + Procesi FFT + BCH ⟹ T_phi* preserves the filtration, acts by N on gr) is the audit's, at 'probe-writeup strength', explicitly NOT a catalog-grade proof", "where": "frontier/B522_tower_filtration/FINDINGS.md \"Provenance / honesty\"", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "the arc's own text says this core deep step is imported from the audit (oaudit/) at probe strength, not independently reproven here; only the \"checkable cores\" (character layer, carrier dims, Chevalley arm, mu_d bookkeeping) are independently recomputed."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verify_filtration.py genuinely recomputes the checkable symbolic cores; the deep structural theorem itself is explicitly flagged as imported/not-catalog-grade by the arc's own honesty section.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IMPORTED", "detail": "the arc's headline deep step (Luna slice + Procesi FFT + BCH forcing the Sym-tensor-det block form) is explicitly imported from a separate audit clone at \"probe-writeup strength,\" not proven at catalog grade in this trunk; the arc's PROVED verdict rests partly on that imported, not-fully-proven step.", "where": "frontier/B522_tower_filtration/FINDINGS.md"}
+   ],
+   "seat_note": "A pure mathematics arc (no physics claim) that is unusually honest about the boundary between what it independently recomputed (a committed script covering the checkable symbolic cores) and what it imported at reduced rigor from elsewhere (the deep filtration-forcing argument) — good practice, though the PROVED verdict label may be generous given the imported step is admittedly not catalog-grade."
+  },
+  {
+   "arc": "B523_verdict_reexamination",
+   "source": "main",
+   "files_read": [
+    "frontier/B523_verdict_reexamination/FINDINGS.md",
+    "frontier/B523_verdict_reexamination/arc_verdict.json",
+    "frontier/B523_verdict_reexamination/c3_malament.py",
+    "frontier/B523_verdict_reexamination/verify_auto.py",
+    "frontier/B523_verdict_reexamination/verify_handoff_L1.py",
+    "frontier/B523_verdict_reexamination/verify_traintrack.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Re-examining five negative calls found no premature leap: the never-run C3/Malament control shows the four-verb monoid preserves no single causal cone, and the proposed Level-1 genus-2 upgrade rests on a non-automorphism.\"",
+   "log_says": "log entries (2026-07-13, two chat-1-handoff verification entries) describe Door 2's amphichiral-involution and Ad(C)-signature-split results, matching the FINDINGS.md addenda closely.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "C3/Malament: the four verbs give four different causal types (evolution (1,3) proper; decimation (2,2) or inverted (3,1); TM/erasure degenerate det=0) — the monoid preserves no single cone", "where": "frontier/B523_verdict_reexamination/c3_malament.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "c3_malament.py is committed; the arc explicitly documents a prior bug in this same script (zero eigenvalues misclassified as spacelike) that was caught and fixed, with the CORRECTION visible inline in FINDINGS.md — a real self-correction with the fixed code committed alongside."},
+    {"what": "phi is injective, abelianizes to the bootstrap matrix M* (same char poly), and phi ∈ Aut(F4) via Hopfian + surjectivity (explicit inverse words given)", "where": "frontier/B523_verdict_reexamination/verify_traintrack.py, verify_auto.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "both scripts are committed and directly check the stated word-reduction identities."},
+    {"what": "the proposed free-product F2*F2 Level-1 upgrade's substitution phi is non-injective (phi(b)=phi(B)=aA), det=0, so the genus-2 fibered-hyperbolic claim does not follow", "where": "frontier/B523_verdict_reexamination/verify_handoff_L1.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify_handoff_L1.py is committed and directly checks the abelianization/injectivity claim, catching a cross-seat handoff error before banking."},
+    {"what": "the Ad(C) signature-split result on sl(2,R): eigenvalues +1,-1,-1, Killing form on the -1 eigenspace has signature (1,1) (indefinite) — amphichirality allows but does not select Lorentzian (3,1)", "where": "frontier/B523_verdict_reexamination/FINDINGS.md, addendum \"Door 2 sharpened\"", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "this specific computation (Ad(C) matrix, Gram [[2,4],[4,0]]) is described in FINDINGS.md prose with a cited test (tests/test_b523.py::test_amphichiral_signature_split) but no standalone script for it appears in this arc's sampled files (only c3_malament.py, verify_auto.py, verify_handoff_L1.py, verify_traintrack.py are present, none of which is this computation)."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "genuinely strong belt discipline: four committed, runnable scripts, each targeting a specific claim (including one that catches a bug in itself and one that debunks an external handoff), though the final Door-2 signature-split computation lacks its own script among the sampled files.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "the Ad(C)/Killing-form signature-split computation (the arc's final and most conceptually interesting addendum) is not backed by any of the four committed scripts sampled — only cited to an external test file not in this batch.", "where": "frontier/B523_verdict_reexamination/FINDINGS.md \"Door 2 sharpened\" addendum"}
+   ],
+   "seat_note": "One of the best-witnessed arcs in this batch: four real, targeted, committed scripts including one that catches its own prior bug (the C3 sign-convention error) and one that catches an external cross-seat handoff's broken automorphism claim before it was banked — genuine verify-don't-trust practice, though the closing Door-2 result again falls back to prose-only description."
+  },
+  {
+   "arc": "B524_iwip_and_higher_ptolemy",
+   "source": "main",
+   "files_read": [
+    "frontier/B524_iwip_and_higher_ptolemy/FINDINGS.md",
+    "frontier/B524_iwip_and_higher_ptolemy/arc_verdict.json",
+    "frontier/B524_iwip_and_higher_ptolemy/higher_ptolemy.py",
+    "frontier/B524_iwip_and_higher_ptolemy/iwip_certificate.py",
+    "frontier/B524_iwip_and_higher_ptolemy/verify_dilatation.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Phi is certified iwip with unequal forward and inverse dilatations, so F4-by-phi is word-hyperbolic but not a 3-manifold group; higher-rank Ptolemy keeps DGG gauge abelian.\"",
+   "log_says": "log (2026-07-12 entry): \"Owner: 'do the actionable next step properly and the higher-rank ptolemy alongside.' Both done in the sage env with established tools (validated before use), not reimplemented algorithms.\"",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "phi.is_iwip() = True (Coulbois' train_track tool, validated first on known Tribonacci iwip/non-iwip cases before use on phi); lambda(phi)=3.67621, lambda(phi^-1)=3.0523 (unequal, so not geometric/atoroidal)", "where": "frontier/B524_iwip_and_higher_ptolemy/iwip_certificate.py", "kind": "COMPUTED", "reproducible_from_committed": "yes (given sage env with Coulbois' train_track package)", "why": "iwip_certificate.py is committed with explicit assert statements validating the tool on known cases (lines 14-16) before applying it to phi (lines 22-24); a stranger with the same sage environment can rerun this directly."},
+    {"what": "lambda asymmetry independently re-verified by pure word-length growth (not via train_track's construction): |phi^k(a)|^(1/k) -> 3.6762, |phi^-k(a)|^(1/k) -> 3.0523, and psi is confirmed the genuine inverse by free-reduction", "where": "frontier/B524_iwip_and_higher_ptolemy/verify_dilatation.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify_dilatation.py is committed and implements its own free-reduction/word-growth check independent of the train_track tool, a genuine second-method cross-check of the load-bearing number."},
+    {"what": "SL(2) Ptolemy: 1 boundary-unipotent rep, field Q(sqrt-3); SL(3): 4 reps, fields Q(sqrt-3) and Q(sqrt-7); SL(4): deferred (Grobner >12 min, ptolemy module recommends Magma)", "where": "frontier/B524_iwip_and_higher_ptolemy/higher_ptolemy.py", "kind": "COMPUTED", "reproducible_from_committed": "yes (SL2/SL3; SL4 explicitly not computed)", "why": "higher_ptolemy.py is committed (uses SnapPy's ptolemy module); the arc is honest that SL(4) was attempted and abandoned after 12 minutes, not silently omitted."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "genuinely strong: the tool (train_track) is validated on known cases before use, and the key numeric asymmetry is cross-checked by a second, independent method (verify_dilatation.py) rather than trusting one tool's output.",
+   "absence_claims": [
+    {"quote": "SL(4)... (deferred — the sage Gröbner engine ran >12 min over 20 coords × 3 obstruction classes; the ptolemy module recommends Magma at this rank)", "where": "frontier/B524_iwip_and_higher_ptolemy/FINDINGS.md Part 2 table"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "an earlier draft's cd/no-Z^2-based obstruction to the mapping torus being a 3-manifold group is explicitly flagged by the arc itself as invalid and replaced by the correct Stallings-fibration argument — a self-caught reasoning error, not a computational one, handled transparently inline.", "where": "frontier/B524_iwip_and_higher_ptolemy/FINDINGS.md Part 1, \"(Correction, owner-flagged...)\""}
+   ],
+   "seat_note": "The best-evidenced arc read in this batch: an external algorithmic tool validated against known ground truth before use, a second independent method confirming the one load-bearing number the whole argument hinges on, and an honestly-flagged incomplete cell (SL(4), named and priced rather than hidden) — this is what a reproducible computed claim looks like."
+  },
+  {
+   "arc": "B525_are_you_sure",
+   "source": "main",
+   "files_read": [
+    "frontier/B525_are_you_sure/FINDINGS.md",
+    "frontier/B525_are_you_sure/arc_verdict.json",
+    "frontier/B525_are_you_sure/synthesis.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Adversarial re-audit cracked three banked negatives, retracting B519's 'no external crossing' headline and the C3 causal nugget, while the master negative survived.\"",
+   "log_says": "log (13 entries, e.g. 2026-07-13 H2 handoff entry: \"Precedent: B525 cracked 3/10; probation bounced 2 more\"; 2026-07-30 B818 entry flags that B525's own retractions were not always recorded on their targets: \"B519_re_mining carries NO verdict though B525 cracked its 'no external crossing' headline\").",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "9-way classification: PHYS-REFUTED/SIG-GENERIC/NOT-3MFD/NOVELTY-COROLLARY CONFIRMED; DGG-ABELIAN/GATES-SEALED SHAKY; B519-NOCROSS/C3-CONE/CHILD-NOTSHORT CRACKED", "where": "frontier/B525_are_you_sure/FINDINGS.md classification table", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "this is a 61-agent adversarial Workflow's collective judgment across 9 negatives, each with its own recomputation done in the RESPECTIVE arc, not here; this arc's own directory (FINDINGS + verdict + a 9642-byte synthesis.txt) contains judgments and a synthesis narrative but no independent numeric computation of its own — it aggregates and re-checks other arcs' code."},
+    {"what": "the meta-pattern: every crack traces to an asserted/cited/posited/logged-as-timeout line, not a computed one", "where": "frontier/B525_are_you_sure/FINDINGS.md \"The meta-pattern\"", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "a genuinely useful epistemic rule distilled from the audit, but stated as a pattern-observation rather than something with its own witness file."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "this arc is itself a belt/audit layer over other arcs (B500, B518/B519, B523's C3 cell) rather than a primary computation; it re-reads and, where feasible, re-runs the target arcs' own scripts (e.g. c3_malament.py, which the arc itself says was fixed as a direct consequence).",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "per the project's own log (B818, 2026-07-30), B525's retraction of B519's headline was not recorded on B519 itself for a period (\"B519_re_mining carries NO verdict though B525 cracked its 'no external crossing' headline\") — a governance gap the log documents about this very arc's downstream effect.", "where": "PROGRESS_LOG.md B818 entry, log_index/B525.txt"},
+    {"kind": "OTHER", "detail": "instrument:true in arc_verdict.json (correctly self-flagged as a meta/instrument arc rather than a primary physics or math result) — noted for completeness, not a flaw.", "where": "frontier/B525_are_you_sure/arc_verdict.json"}
+   ],
+   "seat_note": "A valuable second-order audit that correctly identified a real, recurring epistemic failure mode across the corpus (necessary-condition-treated-as-sufficient), and its own targeted fixes (c3_malament.py's sign bug) are independently visible as committed code in the arcs it audited (B523) — but the project's own log shows this audit's findings did not always propagate cleanly back into the target arcs' verdict files, which is itself informative about the corpus's governance maturity."
+  },
+  {
+   "arc": "B526_crossing_package",
+   "source": "main",
+   "files_read": [
+    "frontier/B526_crossing_package/FINDINGS.md",
+    "frontier/B526_crossing_package/arc_verdict.json",
+    "frontier/B526_crossing_package/independent_verify.py",
+    "frontier/B526_crossing_package/physics_crossing_reproducer.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The 'undeniable physics crossing' package is a misnomer whose own conclusion reinforces PHYS-REFUTED; its verified isotropy–Stein no-go is metric-specific to S_tet.\"",
+   "log_says": "not in log (log_index null for this arc in the packet)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "S_tet rank 3, S_tet*r=0, tetrahedral Gram match (essentially by construction per the arc's own honest reading)", "where": "frontier/B526_crossing_package/independent_verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "independent_verify.py is a committed from-scratch reimplementation (explicitly not re-running the uploaded package's own script) — a genuine independent-verification pattern."},
+    {"what": "the isotropy-Stein no-go: W_iso indefinite signature (3,1) on the Perron-weighted metric S_tet, non-normality (not simply beta>1) as the mechanism", "where": "frontier/B526_crossing_package/independent_verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same script; the arc explicitly checks the adversarial alternative explanation (W_iso(r,r)=+12.5>0, ruling out the trivial beta>1 story) before accepting the no-go as real."},
+    {"what": "exact RG correction exponents omega_h=0.6303718738..., omega_gamma=0.1848140631..., exp(2*pi/Omega)=27.23662275649545... to 15 digits", "where": "frontier/B526_crossing_package/independent_verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "spectral quantities computed from the M matrix, committed and rerunnable; correctly flagged by the arc as \"not yet physical\" (no observable named)."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "independent_verify.py is explicitly a from-scratch reimplementation, not a re-run of the uploaded package's own physics_crossing_reproducer.py (also committed, for comparison) — a genuine belt-and-suspenders pattern.",
+   "absence_claims": [
+    {"quote": "There is no remaining purely internal path from the Origin Axiom corpus to an undeniable claim about nature.", "where": "the uploaded package's own executive conclusion, quoted in frontier/B526_crossing_package/FINDINGS.md"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "the arc itself flags that the tetrahedral-metric Gram match is \"essentially by construction\" (the algebra guarantees the match given the chosen weighting) — an honest admission that the headline geometric coincidence is a type-match by design, not a discovery.", "where": "frontier/B526_crossing_package/FINDINGS.md item 1"}
+   ],
+   "seat_note": "A well-conducted debunking of an alarmingly-named external package: real independent code verifies the two technical claims are correct math, but correctly separates 'math is right' from 'this crosses to physics' — the package's own executive summary already concedes no crossing, and this arc's contribution is confirming the math plus narrowing its generality (later corrected further by B527)."
+  },
+  {
+   "arc": "B527_metric_cone",
+   "source": "main",
+   "files_read": [
+    "frontier/B527_metric_cone/FINDINGS.md",
+    "frontier/B527_metric_cone/arc_verdict.json",
+    "frontier/B527_metric_cone/independent_verify.py",
+    "frontier/B527_metric_cone/metric_cone_reproducer.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The Stein-compatible metrics form a 6-dimensional non-polyhedral cone L^-1(PSD(3)) with an RP^2 of extreme rays (7-dim Lorentzian family): compatibility holds, narrowing B526's no-go, but Stein evolution selects no metric.\"",
+   "log_says": "not in log (log_index null for this arc in the packet)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "stable-space eigenvalue moduli [0.786, 0.786, 0.44] all <1; Lyapunov operator L invertible (det L=0.193); L^-1(I) matches the direct series sum", "where": "frontier/B527_metric_cone/independent_verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "independent_verify.py is a from-scratch reimplementation (own E_s basis, own Lyapunov operator — explicitly not re-running the chat3 package's own script)."},
+    {"what": "S_tet has driver signature (2,1) on E_s (indefinite) => S_tet is NOT in the Stein-compatible cone, narrowing/correcting B526's no-go to be metric-specific", "where": "frontier/B527_metric_cone/independent_verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same script computes both S_aff (Stein-positive, eigenvalues [0.086,0.273,0.387]) and S_tet's signature directly, resolving the apparent tension with B526 by computation rather than argument."},
+    {"what": "the four alphabet letters have four different null-ray alpha values [7.24, 24.39, 9.31, 35.58] — no single alpha makes all four letters null", "where": "frontier/B527_metric_cone/independent_verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "directly computed and reported to 2 decimals; committed script."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "genuine independent reimplementation of a cross-seat (chat3) package's claims, explicitly building its own basis and operator rather than re-running their code — this arc corrects and narrows B526 by direct computation, a good example of one arc's code adjudicating a tension with a sibling arc.",
+   "absence_claims": [
+    {"quote": "no theorem says why physical reality must choose that ray", "where": "frontier/B527_metric_cone/FINDINGS.md \"Honest status of the metric question\" table"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "One of the strongest arcs in the batch: real independent code, resolves an apparent contradiction with a sibling arc (B526) by direct recomputation rather than argument, and lands on an honest, unresolved status table (compatibility yes, selection no) rather than overclaiming a forced metric."
+  },
+  {
+   "arc": "B528_dgg_gauge_resolved",
+   "source": "main",
+   "files_read": [
+    "frontier/B528_dgg_gauge_resolved/FINDINGS.md",
+    "frontier/B528_dgg_gauge_resolved/arc_verdict.json",
+    "frontier/B528_dgg_gauge_resolved/compute_gauge.py",
+    "frontier/B528_dgg_gauge_resolved/deep_research_report.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"T[4_1]'s 3d-3d gauge group is abelian U(1), computed from the Neumann-Zagier datum; the 'U(N-1) nonabelian generic gauge' reading is a structure-group conflation.\"",
+   "log_says": "not in log (log_index null for this arc in the packet)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "figure-eight NZ/gluing matrix is all-integer; SL(2) gauge group = U(1)^(N-c) = U(1)^1, computed directly from SnapPy's Manifold('4_1') data", "where": "frontier/B528_dgg_gauge_resolved/compute_gauge.py", "kind": "COMPUTED", "reproducible_from_committed": "yes (given snappy/sage)", "why": "compute_gauge.py is a short, fully committed script (imports snappy, calls M.gluing_equations(), checks integrality directly) — genuinely reproducible."},
+    {"what": "K>=3 gauge stays abelian at every K per DGG (arXiv:1301.0192) verbatim citation; K=5 first gauge group and it is abelian U(1)^2; no U(2)@K=3 or U(3)@K=4", "where": "frontier/B528_dgg_gauge_resolved/deep_research_report.md, FINDINGS.md", "kind": "IMPORTED", "reproducible_from_committed": "no (not computed, correctly labeled a citation)", "why": "the arc is explicit this is cited primary-literature content (a 99-agent adversarial deep-research pass checking sources), not computed by this trunk beyond the SL(2) case; this is honest, not a red flag by itself, but the K>=3 general claim is imported, not verified numerically here."}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "the SL(2) case is genuinely computed from SnapPy's actual data (not merely cited); the K>=3 general statement is honestly left as a literature citation, cross-checked 3-0 by an adversarial research pass rather than computed.",
+   "absence_claims": [
+    {"quote": "There is NO U(2)@K=3 or U(3)@K=4 — no U(N-1) nonabelian gauge ladder.", "where": "frontier/B528_dgg_gauge_resolved/FINDINGS.md"},
+    {"quote": "the word-hyperbolic / atoroidal / CAT(0) / Menger-boundary consequences follow ONLY IF iwip holds", "where": "cross-reference, frontier/B523_verdict_reexamination/FINDINGS.md, load-bearing to B528's own Part 1 predecessor B524"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "explicitly documents correcting its own prior banked claim (\"abelian U(1)^{r_K}\") from a bare-citation status (flagged SHAKY by B525's audit) to computed+cited, in direct response to owner pushback (\"compute it… you are a serial false killer\") — a good-faith upgrade of rigor, though the K>=3 general case still rests on citation, not computation, in this arc.", "where": "frontier/B528_dgg_gauge_resolved/FINDINGS.md opening paragraph"}
+   ],
+   "seat_note": "A fair, even-handed resolution that computes what it can (SL(2), directly from SnapPy) and cites what it cannot yet compute (K>=3, from DGG's own paper), while also crediting the competing handoff's real insight (the T[SU(N)] defect quiver is genuinely nonabelian, just not the generic gauge group) rather than dismissing it outright."
+  }
+ ]
+}

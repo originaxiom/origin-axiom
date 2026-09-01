@@ -1,22 +1,22 @@
 # Phase B rollup summary (auto; re-run rollup.py after every landing)
 
-arcs digested 605/1310, red flags 1430, absence claims 545, load-bearing claims 1349 (of which not (COMPUTED, yes): 427), log entries 1054, owner elections captured 188, tests 666.
+arcs digested 770/1310, red flags 1820, absence claims 709, load-bearing claims 1687 (of which not (COMPUTED, yes): 572), log entries 1054, owner elections captured 188, tests 1122.
 
 ## red-flag kinds
 
-- OTHER: 195
-- MISSING_WITNESS: 78
-- IDENTIFICATION_BY_TYPE: 55
-- SUPERSEDED_UNMARKED: 48
-- NUMERIC_ONLY_NO_EXACT: 43
-- RETRACTION_NOT_PROPAGATED: 25
-- CLAIM_EXCEEDS_COMPUTATION: 25
-- LOG_DRIFT: 24
-- GITIGNORED_WITNESS: 16
-- NO_TEST: 15
-- SELF_REFERENTIAL_LOCK: 13
-- IMPORTED: 7
-- FITTED_VALUE: 7
+- OTHER: 233
+- MISSING_WITNESS: 133
+- IDENTIFICATION_BY_TYPE: 67
+- SUPERSEDED_UNMARKED: 67
+- NUMERIC_ONLY_NO_EXACT: 47
+- RETRACTION_NOT_PROPAGATED: 33
+- LOG_DRIFT: 30
+- CLAIM_EXCEEDS_COMPUTATION: 27
+- NO_TEST: 19
+- GITIGNORED_WITNESS: 17
+- SELF_REFERENTIAL_LOCK: 14
+- FITTED_VALUE: 11
+- IMPORTED: 9
 
 ## arcs with the most red flags
 
@@ -28,6 +28,9 @@ arcs digested 605/1310, red flags 1430, absence claims 545, load-bearing claims 
 - B921_branch_harvest: 4
 - B62_opposition_involution: 3
 - B357_e6_boundary_restriction: 3
+- B469_breath_campaign: 3
+- B485_metallic_apoly_family: 3
+- B529_qca_covariance: 3
 - B760_qp4_closure: 3
 - B768_correspondence_crosstest: 3
 - B773_chord_recompute: 3
@@ -40,6 +43,9 @@ arcs digested 605/1310, red flags 1430, absence claims 545, load-bearing claims 
 - B791_weyl_completeness: 3
 - B792_maass_m004_eigenvalues: 3
 - B933_spinor_hejhal_design: 3
+- B971_L132_vacuity: 3
+- B972_L137_split: 3
+- B973_L135_frame: 3
 - B25_fibonacci_spectrum_anchor: 2
 - B59_sl4_factorization: 2
 - B60_sln_tower: 2
@@ -54,37 +60,32 @@ arcs digested 605/1310, red flags 1430, absence claims 545, load-bearing claims 
 - B103_tower_equivariance: 2
 - B105_n5_wall_and_convergence: 2
 - B107_physics_connection_audit: 2
-- B120_tower_determination: 2
-- B145_forced_chirality: 2
-- B154_silver_bundle_foundation: 2
-- B156_omega_strict_full_cone: 2
-- B157_metallic_exponent: 2
-- B159_omega_class_dag: 2
 
 ## load-bearing kinds
 
-- COMPUTED / yes: 926
-- COMPUTED / unknown: 118
-- IMPORTED / no: 58
-- ASSERTED / unknown: 54
-- ASSERTED / no: 50
-- IMPORTED / unknown: 36
-- ASSERTED / yes: 24
-- COMPUTED / no: 21
-- IMPORTED / yes: 19
-- UNCLEAR / no: 15
-- UNCLEAR / unknown: 5
-- COMPUTED / partial: 4
+- COMPUTED / yes: 1116
+- COMPUTED / unknown: 148
+- ASSERTED / unknown: 71
+- IMPORTED / no: 70
+- ASSERTED / no: 66
+- IMPORTED / unknown: 62
+- COMPUTED / no: 45
+- ASSERTED / yes: 25
+- IMPORTED / yes: 21
+- UNCLEAR / no: 20
+- UNCLEAR / unknown: 7
+- COMPUTED / partial: 6
+- COMPUTED / yes,: 6
+- IMPORTED / n/a: 4
+- ASSERTED / n/a: 3
 - FITTED / yes: 3
+- COMPUTED / the: 2
 - IMPORTED / partial: 2
-- ASSERTED / n/a: 2
 - FITTED / unknown: 2
-- COMPUTED / yes,: 2
-- COMPUTED / the: 1
-- IMPORTED / n/a: 1
+- UNCLEAR / yes: 2
 - COMPUTED/ASSERTED / partially: 1
 - COMPUTED / yes/unknown: 1
 - UNCLEAR / n/a: 1
+- COMPUTED / described: 1
 - FITTED / no: 1
-- UNCLEAR / yes: 1
 - COMPUTED / unknown/partial: 1

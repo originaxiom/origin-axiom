@@ -1,0 +1,365 @@
+{
+"batch": "arcs_101",
+"arcs": [
+{
+"arc": "B1006_lambda2_pslq",
+"source": "main",
+"files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict NEGATIVE; claim_one_line: THE OBJECT-S OWN SPECTRAL VALUE IS NOT LOW-DEGREE ALGEBRAIC: THE VALUE LAYER-S FIRST INFORMATIVE NULL, with a same-day CORRECTION that cell D duplicated B922.",
+"log_says": "B1006 (2026-08-09): first powered spectral null, prereg sealed/pushed before compute, prior OUTCOME B held; PSLQ needs N~1.43*d*log10(H) digits; matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "PSLQ integer-relation search on r/lambda over Q and against phi, sqrt5, sqrt3, Vol(4_1), pi at stated degree/height envelope", "where": "FINDINGS.md cells A-D", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "No script file is committed in this arc's directory (only FINDINGS/PREREG/verdict, all mode FULL, no .py); the PSLQ runs are described in prose with exact envelope tables and control results but no committed code or witness file is present in this arc's own directory to rerun the cells."},
+{"what": "r = 4.900085373062521301479576 (25 dp), lambda = 25.0108... banked from B922", "where": "FINDINGS.md", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "value imported from B922, not recomputed here"}
+],
+"belt": "UNCLEAR",
+"belt_note": "No verification/ directory and no PSLQ script committed in this arc's own folder; the arc's rigor rests entirely on narrative description of controls (phi/sqrt5 found, pi/e not found) with no committed script to rerun.",
+"absence_claims": [
+{"quote": "A repo-wide search over all `arc_verdict.json` finds no arc running the cascade on any m ≥ 2 grammar.", "where": "this is actually from B1009 not B1006 -- correction, see below"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The PSLQ cells (A-D) that establish 'no relation' are described only in prose in FINDINGS.md/PREREGISTRATION.md; no .py script or output log is committed in the B1006 arc directory itself to let a stranger rerun the exact envelope/control computation.", "where": "frontier/B1006_lambda2_pslq/ (only FINDINGS.md, PREREGISTRATION.md, arc_verdict.json present)"},
+{"kind": "RETRACTION_NOT_PROPAGATED", "detail": "Same-day correction narrows cell D (duplicate of B922) but the correction is appended within the same FINDINGS.md file (not a separate unmarked claim) so this is handled transparently, not a hidden defect -- noting for completeness only, not flagging as unmarked.", "where": "FINDINGS.md CORRECTION section"}
+],
+"seat_note": "A mathematical (not physical) null about the manifold's own Maass spectral parameter; explicitly stated to carry no SM content (Gate 5 untouched). The claimed rigor (degree/height envelope from B798, positive/negative controls) is plausible but unauditable from this arc's own committed files since no PSLQ script is present here."
+},
+{
+"arc": "B1007_arb_maass",
+"source": "main",
+"files_read": ["FINDINGS.md", "arb_maass.py", "arc_verdict.json", "moves_eisenstein.json"],
+"files_sampled": ["_reference_double.py (head 120 lines + grep)"],
+"files_listed_only": [],
+"claim_of_record": "verdict NEGATIVE; claim_one_line: THE INSTRUMENT ALREADY EXISTED, AND THIS ARC'S FIRST DRAFT WAS WRONG ABOUT THE COST -- built a solver that does not work, withdrew a false cost-overturn claim, found the working 25-digit solver was already on main (B878).",
+"log_says": "B1007 (2026-08-09): the instrument already existed; this arc's own cost claim is withdrawn; sent to build an arbitrary-precision Maass solver because B1006 named more digits as the bottleneck.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "arb_maass.py fails to recover B922's r=4.900085373...; M=40 gives g~1e26, M=80 smooth no sign change", "where": "arb_maass.py + FINDINGS.md §3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "The failing script and its failure diagnosis (5 named bugs vs the working solver) are committed and described in detail with code-level references."},
+{"what": "the working 25-digit solver already exists at frontier/B878_maass_upper_window/branch_cell9_rung1_v2.py with matching seal hash 169e9042", "where": "FINDINGS.md §1", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "This arc's own FINDINGS asserts the file exists and matches a seal hash but the arc directory itself does not contain that file; a stranger would need to independently locate and hash-check B878's file, which is outside this arc's own committed set (though it is claimed to be verified by the later B1009 arc)."}
+],
+"belt": "RE-READS",
+"belt_note": "This arc is itself an audit of its own first draft (re-reads the working B878 solver's source and diffs against it) rather than a separate verification directory.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "OTHER", "detail": "Arc explicitly states 'No number produced by arb_maass.py enters any ledger, and the file is kept only as the record of the failed attempt' -- an honest self-correcting arc, notable as the ninth instance in one session of 'grepping claims instead of reading code.'", "where": "FINDINGS.md §4"}
+],
+"seat_note": "An instrument-failure arc with unusually candid self-diagnosis of methodology (reading code vs grepping claims); contains no SM physics content and explicitly withdraws its own erroneous cost claim rather than banking it."
+},
+{
+"arc": "B1008_lexicon_epoch",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "epoch.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE ATLAS IS BLIND IN AN EPOCH -- B806's concentration statistic (0.933) breached its own 0.85 floor at 0.8496 measured over 924 probes; root cause is a 14/14 vocabulary gap in the lexicon's frozen K001-K022 grounding.",
+"log_says": "B1008 (2026-08-09): the atlas is blind in an epoch; tripwire fired, answered by re-derivation not a lower number; B806 0.933, B829 0.8845, B1008 0.8496 through the 0.85 floor -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "top-3 motif coverage = 0.8496 over 924 probes, breaching the 0.85 floor; by-epoch table (0.739 to 0.995 to 0.629 across bands)", "where": "epoch.py (reads scripts/atlas/atlas_data.json)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "epoch.py is a committed, runnable script reading a committed atlas_data.json; concentration(), by_epoch(), vocabulary_gap() functions are all present and directly computable."},
+{"what": "14 of 14 concepts (the 27, E6, chirality, etc.) absent from the lexicon", "where": "epoch.py vocabulary_gap()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "regex-based scan over frontier/*/arc_verdict.json claim_one_line text, committed and runnable"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "B1009 (the very next arc) independently re-ran epoch.py and reproduced 0.8497 vs 0.8496 (differing only by B1008's own added probe), and mutation-tested the density lock.",
+"absence_claims": [
+{"quote": "Not one concept the recent corpus is about has a word in the vocabulary built to detect what recurs.", "where": "FINDINGS.md §4"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A well-instrumented, reproducible, and independently re-verified (by B1009) meta-finding about the campaign's own tooling reliability, not about physics; the concept of 'epoch-blindness' is a legitimate methodological catch with committed code and witness data."
+},
+{
+"arc": "B1009_verification_pass",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE VERIFICATION PASS -- 4 of 5 items confirmed, Review 42's headline inference ('matching the SM could never have confirmed the axioms') withdrawn as scope overreach, and an incoming cc3 theta_QCD=0 claim refused as an unearned object-to-physics functor application.",
+"log_says": "B1009 (2026-08-10): the verification pass, 4 confirmed, 1 overreach withdrawn, 1 incoming claim refused; model switch did what it was for -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "epoch.py reproduces independently at 0.8497 vs B1008's 0.8496", "where": "FINDINGS.md item 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "independent rerun of a committed script, difference explained exactly"},
+{"what": "branch_cell9_rung1_v2.py carries seal hash 169e9042 (3x) matching B922's stated prereg", "where": "FINDINGS.md item 3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "grep-verifiable claim against a named committed file"},
+{"what": "no arc running the cascade on any m>=2 grammar exists in the repo (repo-wide search over all arc_verdict.json)", "where": "FINDINGS.md KILLED item 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "search claim is falsifiable by grep, stated as basis for withdrawing Review 42's headline"},
+{"what": "cc3's theta_QCD=0 claim requires an object-to-physics functor (reading the object's k as SM's theta_QCD) that Gate 5/L91 do not license -- later itself corrected (B1023) to cite the right authorities", "where": "FINDINGS.md SECOND ADDENDUM", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "an adjudication/argument, not a numeric computation; its own citations were found wrong and re-anchored by a later arc (B1023), though the conclusion itself is said to stand"}
+],
+"belt": "RE-READS",
+"belt_note": "This entire arc IS a verification/audit pass over B1007/B1008/Review 42 and an incoming cc3 relay; its own SECOND ADDENDUM later corrects its own citation errors (Gate 5, L91).",
+"absence_claims": [
+{"quote": "A repo-wide search over all `arc_verdict.json` finds no arc running the cascade on any m ≥ 2 grammar.", "where": "FINDINGS.md line ~34"},
+{"quote": "Not banked, and the repo says the opposite in two places: THE_SM_VERDICT.md row 6 lists strong CP as 'never addressed'", "where": "FINDINGS.md KILLED incoming section"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "SELF_REFERENTIAL_LOCK", "detail": "The arc's own text notes: 'Both seats' synthesis documents contained exactly the error their synthesis documents diagnose' -- both this arc's outgoing seat and cc3 committed the same scope-overreach error while writing documents specifically about avoiding scope overreach.", "where": "FINDINGS.md WHAT CONVERGED section"}
+],
+"physics_content_note": "n/a",
+"seat_note": "A governance/adjudication arc with no physics content of its own; notable for withdrawing an overclaimed philosophical conclusion (SM-match cannot confirm axioms) and refusing an unearned theta_QCD identification, both good epistemic hygiene moves, though its own authorities needed later correction (B1023)."
+},
+{
+"arc": "B1010_consolidation_loss",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "verify_kappa.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE CONSOLIDATION-LOSS AUDIT -- the kappa-unification (B309/B518) and the u-dagger-M-u value-as-coupling law (B592-B856) are absent from LAW_MAP and THE_FRAMEWORK entirely, confirming the owner's suspicion about a lost matter law.",
+"log_says": "B1010 (2026-08-10): the kappa-unification was in NEITHER consolidation document; LAW_MAP cited it zero times, THE_FRAMEWORK had zero kappa occurrences -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "kappa-2 = omega^2, |kappa-2|=1, arg(kappa)=-pi/6 at u=omega, kappa=2+lambda^2", "where": "verify_kappa.py identities()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy-exact script committed and runnable, asserts all(identities().values())"},
+{"what": "LAW_MAP cites B309 zero times, B518 zero times; THE_FRAMEWORK has zero occurrences of kappa", "where": "FINDINGS.md §1 table", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a grep-count claim against docs not included in this arc's own committed files; plausible and easily checkable by a stranger but no script/witness committed in this arc directory to do so"},
+{"what": "zero co-citations across all four pairings B592xB912, B641xB928, B654xB936, B593xB909", "where": "FINDINGS.md §2 item 2", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "citation-count claim, no committed script in this arc to reproduce the grep"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "verify_kappa.py re-verifies the kappa identities exactly in sympy before restoration to the consolidations; the doc-currency claims (zero citations) are asserted narratively without a committed grep script.",
+"absence_claims": [
+{"quote": "LAW_MAP §D... B309: 0 citations, B518: 0", "where": "FINDINGS.md §1 table"},
+{"quote": "THE_FRAMEWORK.md ... — zero occurrences of κ at all.", "where": "FINDINGS.md §1 table"},
+{"quote": "The two value eras never met — zero co-citations", "where": "FINDINGS.md §2"},
+{"quote": "B1005 never weighed it.", "where": "FINDINGS.md §2 item 3"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A legitimate audit finding (a documented mathematical chain, kappa=tr[a,b], missing from consolidation docs) with the core identity independently re-verified in exact sympy; the doc-currency absence counts themselves are asserted rather than shown with committed grep scripts, though they are the kind of claim easily checked by a stranger."
+},
+{
+"arc": "B1011_mckay_tensor",
+"source": "main",
+"files_read": ["ADDENDUM_2026-09-01_C5_lock_vacuity.md", "ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b1011_cells.py", "b1011_exact.py", "b1011_match.py", "class_chars.json", "class_reps.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE HEARING DATA IS McKAY TENSOR McKAY -- rho_6 = (chi (x) V2(2I)) + (V2(2T) (x) V2(2I)) exactly, sealed fc807f11, prior OUTCOME A held at every cell (C1-C6), all exact arithmetic.",
+"log_says": "B1011-B1013 (2026-08-10): the hearing data factorizes exactly -- <R,L> = 2Tx2I (2880, two primes+Serre), rho_6 by 63/63 exact character match -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "|<R,L>|=2880 exactly via mod-p enumeration at p=61,241 plus Serre's injectivity lemma", "where": "b1011_cells.py enumerate_group()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed, runnable script; asserts len(seen1)==len(seen2)==2880"},
+{"what": "63/63 exact class-by-class character match between <R,L> and 2Tx2I model", "where": "b1011_match.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed script, asserts matched==63, uses class_chars.json produced by b1011_exact.py"},
+{"what": "C5 forced-coupling counts: theta-odd 992, theta-even 284 by inclusion-exclusion", "where": "b1011_match.py lines ~698-703; FINDINGS.md C5", "kind": "ASSERTED", "reproducible_from_committed": "no (as originally claimed to 'match the incoming enumeration')", "why": "PER THE 2026-09-01 ADDENDUM IN THIS SAME ARC: the 992/284 values are set as literal-arithmetic assertions (kerchi,ZI,ZT=8,2,2 hardcoded) with no committed code evaluating a forcing criterion over the 2880 enumerated cells -- the enumeration (b1011_cells.py) exists but nothing committed applies the forcing criterion to it. The addendum's own correction clarifies the enumeration exists but the forcing-criterion evaluation does not. An external Ring-R3 recomputation (outside this arc, in a different report tree) reproduces 992/284 cell-by-cell, but that is not part of this arc's own committed tree."}
+],
+"belt": "UNCLEAR",
+"belt_note": "C1-C4 and C6 are genuinely computed and cross-checked (b1011_cells.py, b1011_exact.py, b1011_match.py chain); C5's headline counts are literal-arithmetic tautologies per the arc's own 2026-09-01 addendum, not a cell-level enumeration despite FINDINGS.md's language of 'matching the incoming enumeration.'",
+"absence_claims": [
+{"quote": "Nothing committed enumerates the 2880 cells or evaluates a forcing criterion on them", "where": "ADDENDUM_2026-09-01_C5_lock_vacuity.md (original text, later partially corrected)"},
+{"quote": "the enumeration exists (b1011_cells.py); nothing committed evaluates a forcing criterion on it, so the 992 / 284 lock never touches the cells", "where": "ADDENDUM_2026-09-01_C5_lock_vacuity.md CORRECTION section"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "FITTED_VALUE", "detail": "C5's 992/284 forced counts are asserted via inclusion-exclusion on hardcoded literals (kerchi=8, ZI=2, ZT=2) rather than an evaluated forcing criterion over the enumerated 2880 cells, despite FINDINGS.md language claiming it 'matches the incoming enumeration' -- an in-arc addendum from a fresh physics seat (2026-09-01) calls this a 'lock vacuity,' the same class as prior E27/E40 errors, though it also confirms the underlying inputs (|ker chi|=8 etc.) are separately verified elsewhere.", "where": "b1011_match.py:698-703; FINDINGS.md C5; ADDENDUM_2026-09-01_C5_lock_vacuity.md"},
+{"kind": "OTHER", "detail": "The C5/C6 lock-vacuity addendum was itself corrected same-day for over-claiming ('nothing committed enumerates the 2880 cells') after a repo sweep found b1011_cells.py does enumerate them -- an example of the seat's own absence-claim discipline being followed and corrected in place.", "where": "ADDENDUM_2026-09-01_C5_lock_vacuity.md CORRECTION section"}
+],
+"seat_note": "The group-theoretic factorization (C1-C4, C6) is genuinely exact and independently cross-checked across three scripts; but the arc's own C5 headline (992/284 forced counts, presented as derivations of banked laws B641/B856) rests on a literal-arithmetic tautology rather than the cell-level enumeration the FINDINGS text implies, a defect already caught in-tree by a prior fresh-physics-seat addendum."
+},
+{
+"arc": "B1012_branch_verifications",
+"source": "main",
+"files_read": ["ADDENDUM_2026-09-01_B1226_banner.md", "ADDENDUM_CONDUCTOR4_DISCHARGE_2026-08-13.md", "FINDINGS.md", "arc_verdict.json", "b1012_verify.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: TWO BRANCH RESULTS VERIFIED EXACTLY -- k-blindness (dS/dk=-CS identically) sharpened to an EQUIVALENCE with amphichirality, and CROSSING_REQUIREMENTS R4 discharged via a CS-normalisation closure (c=6sigma forced).",
+"log_says": "B1011-B1013 (2026-08-10): k-blindness verified and sharpened -- dS/dk=-CS identically, so blindness to k IS amphichirality; CS normalisation closure verified, R4 discharged -- matches original FINDINGS, but a later log entry (2026-08-31, B1226) states the equivalence FAILS both ways.",
+"log_consistency": "CONTRADICTION",
+"load_bearing": [
+{"what": "S = -CS*k - Vol*sigma exactly, dS/dk = -CS identically (Gukov's split)", "where": "b1012_verify.py k_blindness()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed sympy script, exact symbolic identity, asserts the algebra"},
+{"what": "'blind-to-k IS EQUIVALENT to amphichirality' (blind-to-k <=> CS=0 <=> object equals mirror)", "where": "FINDINGS.md §1", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the algebraic identity (dS/dk=-CS) is computed exactly, but the further equivalence CS=0 <=> amphichiral is a separate mathematical claim not verified in b1012_verify.py, and REFUTED by a later arc B1226 (2026-08-31): m208 is chiral with CS=0, and m003 is amphichiral with CS=1/4 -- both directions fail."},
+{"what": "R4 discharged: G=l/(4sigma), c=6sigma forced, I=sigma*Vol/pi", "where": "b1012_verify.py normalisation_closure()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed sympy script verifies the algebraic closure exactly, citing named classical inputs (Brown-Henneaux, gravitational CS level) as inputs not re-derived"}
+],
+"belt": "UNCLEAR",
+"belt_note": "b1012_verify.py re-verifies the two exact algebraic identities but not the further (refuted) amphichirality equivalence, which was asserted in prose beyond the script's scope.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md:18-19 states 'blind-to-k <=> CS=0 <=> the object equals its mirror' as a sharpening this bench adds; B1226 (2026-08-31, ~2.5 months later) refutes this exact equivalence in both directions (m208: chiral, CS=0; m003/m135/m207: amphichiral, CS=1/4). The original FINDINGS.md and arc_verdict.json are left uncorrected/unedited; only a 2026-09-01 addendum by a fresh physics seat notes the propagation gap ('B1226 corrected six downstream surfaces but not this file'). A reader of THEOREM_REGISTRY following the row back to B1012 would still meet the refuted claim as live.", "where": "FINDINGS.md:18-21; corrected in ADDENDUM_2026-09-01_B1226_banner.md, itself citing frontier/B1226_the_beta_odd_box/FINDINGS.md:25-33"}
+],
+"seat_note": "The core algebraic identity (dS/dk=-CS) is genuinely exact and reproducible; but the arc's headline 'sharpening' -- that k-blindness IS amphichirality -- is a distinct, unverified equivalence claim that was later refuted, and the refutation has not been propagated into this arc's own banked FINDINGS/verdict files despite being caught in an addendum."
+},
+{
+"arc": "B1013_wall_resort",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE WALLS RE-SORTED -- four specifications/boundaries, one real wall (values), executed as an editorial adjudication with WALL/BOUNDARY/SPECIFICATION criteria.",
+"log_says": "B1011-B1013 (2026-08-10): the wall/boundary/specification sort executed on THE_FRAMEWORK Layer 5 -- one real wall (values, tested, powered, null); matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "the sort (scale=boundary+specification; rank=specification; type J=specification; time's arrow=boundary; values=THE ONE REAL WALL)", "where": "FINDINGS.md table", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a purely editorial/philosophical classification exercise; not a computation, cites prior arcs (B1012, B1006, B963, B990) as its evidentiary basis without new computation of its own"}
+],
+"belt": "NONE",
+"belt_note": "Purely a governance/editorial reclassification arc; no computation, no verification directory.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "OTHER", "detail": "This arc's 'scale is boundary+specification' classification rests partly on B1012's k-blindness/amphichirality equivalence, which was itself later refuted (B1226) -- though the load-bearing fact used here (dS/dk=-CS=0, i.e. the object is blind to k) is the part of B1012 that survives, not the refuted amphichirality link, so this dependency appears not to be undermined.", "where": "FINDINGS.md table row 1, citing B1012"}
+],
+"seat_note": "An editorial/taxonomic arc reorganizing existing findings under a new WALL/BOUNDARY/SPECIFICATION vocabulary; contains no new computation and explicitly does not soften the one measured null (values)."
+},
+{
+"arc": "B1014_proof_form",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE PROOF-FORM -- the Derivation Theorem closed as a graded table (COMPUTED/DERIVED/THEOREM/STRUCTURAL), the Anchor Doctrine licensed by theorem (B782/B936/B1012), THE_CLAIM.md assembled as a one-page synthesis document.",
+"log_says": "B1014 (2026-08-10): the proof-form -- derivation closed, anchors licensed, the claim stated; docs/THE_CLAIM.md assembled -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "the SM structural skeleton graded table (COMPUTED/DERIVED/THEOREM/STRUCTURAL per arc)", "where": "FINDINGS.md; arc_verdict.json claim_one_line", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "a synthesis/assembly of ~18 cited prior arcs' grades into one table; not itself a new computation, and its correctness depends entirely on the cited arcs (some of which, e.g. B1012's amphichirality claim, were later found to need correction)"}
+],
+"belt": "NONE",
+"belt_note": "A pure synthesis/governance arc assembling prior results into docs/THE_CLAIM.md; no computation of its own.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A high-level synthesis document assembling a large dependency graph (18 prior arcs) into a single claim page; its soundness is entirely inherited from those arcs, several of which (B1011's C5, B1012's amphichirality equivalence) carry their own caveats found elsewhere in this batch."
+},
+{
+"arc": "B1015_anchor_declaration",
+"source": "main",
+"files_read": ["ADDENDUM_2026-08-10.md", "ARTIFACT_HASHES.txt", "DECLARATION.md", "FINDINGS.md", "arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE ANCHOR DECLARATION, SEALED -- A1=length unit l, A2=c=6sigma (the unquantized level the object cannot see), a policy/bookkeeping declaration binding future crossings.",
+"log_says": "B1015-B1016 (2026-08-10): A1=l, A2=c=6sigma (the level the object cannot see), sealed, priced, binding; the coupling channel noted anchor-free -- matches FINDINGS, though an addendum in this same arc withdraws two of the sealed DECLARATION's justification lines.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "A2's justification 'licensed by theorem' and 'the one level the observer can set and the object cannot'", "where": "DECLARATION.md, sealed hash 4acb8f7a", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "policy declaration, not a computation; its own addendum (same-arc) withdraws both justification lines as factually wrong (frame deficit is discrete not licensed-by-theorem; and B1012 only proves blindness in k, not sigma -- dS/dsigma = -Vol != 0, so sigma IS sighted)"}
+],
+"belt": "NONE",
+"belt_note": "A sealed policy declaration, not a computation; the DECLARATION.md text itself is left unedited (sealed) even though its addendum withdraws two supporting claims.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "RETRACTION_NOT_PROPAGATED", "detail": "The sealed DECLARATION.md (hash 4acb8f7a, deliberately left unedited per the seal discipline) contains two lines the arc's own addendum calls 'now known wrong': (1) A2 'licensed by theorem' is withdrawn -- the frame deficit is discrete, not theorem-licensed; (2) 'the one level the observer can set and the object cannot' is withdrawn -- B1012 proves blindness only in k, and sigma is in fact sighted (dS/dsigma=-Vol != 0). This is handled transparently via the addendum (not hidden), but the sealed artifact itself still reads as originally written, by design of the seal discipline.", "where": "ADDENDUM_2026-08-10.md (added by B1023) vs. DECLARATION.md (sealed, unedited)"}
+],
+"seat_note": "A policy/bookkeeping declaration (anchor identities for future crossings) rather than a physics result; two of its own justificatory claims were withdrawn same-topic by a later addendum, though the anchor SET itself is stated to remain operative pending L154."
+},
+{
+"arc": "B1016_l150_junction",
+"source": "main",
+"files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "junction.py", "results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED (outcome SEPARATE); claim_one_line: L150 CLOSED: SEPARATE -- the coupling channel (B856, golden/phi-valued) and the pair channel (B936, rational/sqrt3129-valued) are proven distinct by two exact obstructions (field non-embedding of sqrt5, and nilpotent-vs-perfect module mismatch).",
+"log_says": "B1015-B1016 (2026-08-10): SEPARATE by two exact obstructions (phi-ratios vs rational/sqrt3129 fields; 2-groups vs the perfect 2I) -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "O1 field obstruction: sqrt5 lies in none of the pair-side fields (Q, Q(sqrt3129), the irreducible octet cubic)", "where": "junction.py j2_field_obstruction()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed sympy script, reads banked B936/B928 result.json artifacts, computes discriminant square-free core exactly, writes results.json"},
+{"what": "O2 module obstruction: banked 27-actions are all 2-groups (nilpotent) vs rho_6's perfect-2I-containing constituents", "where": "junction.py j2_module_obstruction()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed, though the group-order inputs (K4=4, C8=8, torsor=8) are hardcoded literals rather than freshly re-derived group computations in this script"},
+{"what": "W3 pencil charpoly [384,660,293,17], discriminant 782250000, square-free core 3129 -- independently re-deriving B936's field Q(sqrt3129)", "where": "junction.py j1_pair_inventory() + j2_field_obstruction(); results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "recomputed from banked B936/B928 artifact files rather than quoted, with the computation and output committed"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "junction.py explicitly re-derives (rather than quotes) the pair-side inventory from banked B936/B928 result.json files, and results.json is the committed witness output.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A well-executed exact-arithmetic obstruction proof (two independent obstructions, both computed and witnessed in results.json) establishing that two previously-tension-seeming value structures are provably distinct mathematical objects; no SM/physical content, purely internal bookkeeping about the programme's own value layer."
+},
+{
+"arc": "B1017_recount",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE RECOUNT -- five typed external resources (not four), with the VEV/rank-closing direction UNSOURCED; a category-slip correction adopted from cc3.",
+"log_says": "B1017 (2026-08-10): the recount, five resources, the rank closing unsourced; cc3's correction verified and adopted -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "tau removes rank 2 (E6->F4) and kills chirality (F4 all-real); VEV <1> removes rank 1 (E6->SO(10)) and keeps chirality (16 is complex) -- 'not one closing under two names'", "where": "FINDINGS.md §1", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a representation-theory/branching argument verified in prose ('branching charges retraced: both traceless') citing banked B959/B861 facts, but no committed script in this arc's own directory performs the branching computation"},
+{"what": "the cascade never reduces rank -- B861's own table is maximal-rank at every step", "where": "FINDINGS.md §1", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cites B861's table as the source of truth, not recomputed here"}
+],
+"belt": "RE-READS",
+"belt_note": "This arc verifies and adopts an incoming cc3 correction (integrate-don't-merge discipline) but performs no independent new computation of its own beyond re-checking branching claims against banked facts.",
+"absence_claims": [
+{"quote": "B766's three torsor bits are all committed", "where": "FINDINGS.md table (implying no fourth bit exists)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A bookkeeping correction (5 not 4 external inputs to the derivation) adopted from an incoming relay after verification; the underlying group-theory claims (tau vs VEV closings) are asserted from banked sources rather than freshly computed in this arc."
+},
+{
+"arc": "B1018_xdist_qualification",
+"source": "main",
+"files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED (QUALIFIED, under the arbiter rule); claim_one_line: THE PARALLEL QUALIFICATION -- pytest-xdist parallel test run qualified with a 1.42x-1.59x speedup dividend, zero parallel-unsafe locks found, one baseline-delta failure explained and closed.",
+"log_says": "B1018-B1019 (2026-08-10): parallel QUALIFIED: 1.42x (43:16 vs 61:27), zero parallel-unsafe locks -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "43:16 parallel vs 61:27 serial (1.42x); 3897 passed/1 failed/35 skipped; same-tree pair: 3904/0/35 serial 1:04:32 vs parallel 0:40:33 (1.59x), zero outcome differences on 3939 units compared", "where": "FINDINGS.md cells Q2-Q3 and dated addendum", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "junitxml captured for each run per the prereg; wall-clock timing and pass/fail counts are directly reported test-suite output, though the junitxml files themselves are not confirmed present in this arc's directory listing (an instrument arc reporting on the whole repo's suite, not local artifacts)"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The pre-registered protocol requires running Q2 twice for schedule robustness plus a same-tree serial/parallel pair on the exact banking commit; both were executed and compared per-test.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A pure infrastructure/tooling arc (test-suite parallelization) with no physics content; methodologically careful (arbiter rule: serial remains certificate of record; same-tree pair to avoid confounds) though the junitxml witness files themselves are not among the files listed for this packet."
+},
+{
+"arc": "B1019_l149_silver_cascade",
+"source": "main",
+"files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b1019_cells.py", "results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED (outcome DIVERGES); claim_one_line: L149 ANSWERED -- the endpoint discriminates at the word's own conductor; the silver (m=2) and bronze (m=3) metallic-grammar siblings have NO SU(2)-embeddable entry, so no McKay partner and no cascade can begin through their own door; only the golden (m=1) has a door.",
+"log_says": "B1018-B1019 (2026-08-10): DIVERGES at the entry map -- silver's own-shadow has seven involutions (no SU(2) embedding), bronze's is all of SL(2,13) (over the 120 cap) -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "m=2 (silver): order 32, 7 involutions, not SU(2)-embeddable; m=3 (bronze): order 2184, 1 involution but order over the ADE 120 cap, not SU(2)-embeddable; m=1 (golden, control): order 120, 1 involution, SU(2)-embeddable (SL(2,5)=2I)", "where": "b1019_cells.py analyze(); results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed, runnable exact-integer script that enumerates the own-conductor shadow group by BFS closure and computes order/involutions/su2_embeddable; results.json is the committed witness output matching the FINDINGS table exactly"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The script recomputes the golden control (m=1) alongside the test cases (m=2,3) as an internal sanity check, matching the banked SL(2,5)=2I fact.",
+"absence_claims": [
+{"quote": "No McKay partner exists. No Lie entry exists.", "where": "FINDINGS.md C1 table conclusion"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "OTHER", "detail": "The arc records two design-level refutations of its own earlier hypotheses in the propose-and-refute discipline (the D-series speculation refuted; a first draft used 'unique involution' alone as necessary-read-as-sufficient, exposed by the bronze case) -- a positive methodological transparency note, not a defect.", "where": "FINDINGS.md C1, two bullet points"}
+],
+"seat_note": "A clean, fully computed and witnessed (results.json) group-theory exclusion result about which metallic-grammar family members have any McKay-route entry into the cascade at all; exact integer arithmetic, reproducible, with the golden control correctly recovering the banked SL(2,5)=2I fact."
+},
+{
+"arc": "B1020_kind_rg_ledgers",
+"source": "main",
+"files_read": ["FINDINGS.md", "arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED; claim_one_line: THE TWO ADMISSIBILITY LEDGERS -- docs/KIND_TABLE.md assembled from banked sources; corollary: the coupling-channel-to-mixing-sector lane is the ONLY fully open kind-admissible, anchor-free, RG-quiet crossing lane, selected independently by both R5 and R2.",
+"log_says": "B1020-B1022 (2026-08-10): KIND_TABLE.md -- the coupling->mixing lane is the only open admissible lane, derived twice (R5 x R2); all other pairings do not seal -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "the coupling channel -> mixing sector is the only fully open kind-admissible lane; all other pairings kind-inadmissible", "where": "FINDINGS.md corollary", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "an assembled ledger (docs/KIND_TABLE.md, not in this arc's own file set) drawing on B1011/B856/B936/B928/B1016/B923/B303 as cited sources plus classical RG-ranking inputs 'cited not derived' -- this arc itself performs no new computation, it is a synthesis/classification exercise"}
+],
+"belt": "NONE",
+"belt_note": "A pure synthesis/ledger-assembly arc with no computation of its own; the SM-side RG rankings are explicitly stated as classical inputs cited not derived.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A bookkeeping/classification arc (which value-layer channels are permitted to compare against which SM sectors) built entirely from prior arcs and classical RG facts; no new computation, explicitly stated to bind proposals rather than outcomes (admissibility is necessary, not sufficient)."
+},
+{
+"arc": "B1021_cell9_receipt",
+"source": "main",
+"files_read": ["ADDENDUM_2026-08-12.md", "FINDINGS.md", "HARVEST_HASHES.txt", "arc_verdict.json", "spot_checks.py", "harvested/FINDINGS.md", "harvested/cell9_parent_real_log.txt", "harvested/cell9_pslq_results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict PROVED (receipt); claim_one_line: THE CELL-9 RECEIPT -- the parent Maass eigenvalue r=7.0720041858752050007371941867273 (31 figures, 89.7h certified arb/flint run) enters main via harvest, and the value wall's null now rests on TWO certified eigenvalues.",
+"log_says": "B1020-B1022 (2026-08-10): the parent at 31 figures enters main, chain verified, spot-checks reproduced -- the value wall's null stands on two powered eigenvalues -- matches FINDINGS.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "r = 7.0720041858752050007371941867273 (31 figures), dr_stab=1.448e-30 against a 1e-26 requirement, prereg 169e9042 matching main's SEAL_LEDGER", "where": "harvested/cell9_rung1_v3_7.0720.json, harvested/cell9_parent_real_log.txt", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "a 89.7-hour (322,875s) certified run performed on a branch and harvested byte-faithfully (HARVEST_HASHES.txt sha256 manifest); the 89.7h computation itself is NOT rerun (explicitly stated: 'the B922 pattern -- the 89.7h run is NOT rerun'), so this arc's own committed files let a stranger verify the hash-chain and harvest, but not independently reproduce the underlying multi-day computation from scratch without also running the (uncommitted-here) branch code."},
+{"what": "0 gated hits across 24 reconstructible powered (box, target) combinations, with positive control (planted Q(sqrt5) relation) found", "where": "spot_checks.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed, runnable mpmath PSLQ script using the two published eigenvalues as literal targets; positive control explicitly included and checked"}
+],
+"belt": "RE-READS",
+"belt_note": "This is explicitly a receipt/harvest arc: the 89.7h computation is not rerun, only its harvested artifacts are hash-verified and spot-checked (24 of 28 boxes) independently.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "GITIGNORED_WITNESS", "detail": "The underlying 89.7-hour Maass-eigenvalue computation that produced r=7.072... is not reproducible from this arc's own committed files (only its final outputs and a real-time progress log are harvested); this is stated as intentional policy ('the B922 pattern') rather than concealed, but it does mean the raw computation cannot be independently re-run by a stranger from this arc's tree alone.", "where": "FINDINGS.md header; harvested/cell9_parent_real_log.txt (a progress log, not a full reproducible script)"}
+],
+"seat_note": "An honest receipt/harvest arc for an extremely expensive prior computation (89.7h), with the harvest chain hash-verified and a real independent spot-check (24/28 PSLQ boxes, including a working positive control) performed on this bench; the underlying multi-day computation itself is imported, not reproduced, by explicit and stated policy."
+}
+]
+}
