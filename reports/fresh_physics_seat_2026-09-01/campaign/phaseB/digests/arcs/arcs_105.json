@@ -1,0 +1,272 @@
+{
+"batch": "arcs_105",
+"arcs": [
+
+{
+"arc": "B1041_the_red_locks",
+"source": "worktree claude_new-session-qor5up (frontier/B1041_the_red_locks)",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 'NAMING A MECHANISM DID NOT GATE IT -- REVIEW 42'S GOVERNING FINDING RECURRED WITHIN TWO DAYS ... three red locks (B511/D3.3, B646, B616) sat behind an 81-minute test suite that gates never covered; all three failures order-independent, reproducible in isolation in <2s.'",
+"log_says": "PROGRESS_LOG.md / REVIEWS.md entries under 'B1041' actually describe a DIFFERENT arc ('the θ-leg exhibited with its typed obstruction', 'oblique cube identification') — apparent B-number collision; log does not mention red locks, the 81-minute suite, B511/D3.3, B646 or B616 at all.",
+"log_consistency": "CONTRADICTION",
+"load_bearing": [
+ {"what": "3 failed / 3891 passed / 119 skipped in 4870.92s full pytest run", "where": "FINDINGS.md occasion section", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "run itself is not committed as a witness (pytest logs are *.log-shaped and gitignored); the 81-minute number is asserted in prose and results.json, not accompanied by a committed CI log."},
+ {"what": "B511/D3.3 probe: finite_fraction 1.000/0.221/0.000 at steps 60/120/240; renormalization-interval hypothesis refuted", "where": "verify.py walk() reimplementation, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py reimplements the recurrence independently (deliberately avoiding importing d3_measure, whose __main__ clobbers artifacts) and prints the numbers; a stranger can rerun it."},
+ {"what": "B646 manifest: 366 entries, 63 missing (17.2%), 61 explained by .gitignore *.log/*.pyc, 2 unexplained", "where": "verify.py section 2, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "computed via glob + git check-ignore against the live tree; numbers are regenerable."},
+ {"what": "B616 census pair 3/390 (bench-here) vs locked literal 2/378; caused by a half-open float boundary `0 < val <= 1` over np.linalg.inv output, BLAS/LAPACK-dependent", "where": "verify.py section 3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "run against the committed b616_heldout.py script; explicitly flagged as environment-bound (differs between benches)."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "verify.py independently reimplements B511's walk() rather than importing the flagged module, and re-derives B646/B616 numbers from the live tree rather than citing banked figures.",
+"absence_claims": [
+ {"quote": "git refuses those paths, so they were never committed and no clone has ever had them.", "where": "FINDINGS.md:90"},
+ {"quote": "The narrower true claim is that it was never repaired: the script still prints it, the banked d3_results.txt still carries the wrong conclusion", "where": "FINDINGS.md:73"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind": "GITIGNORED_WITNESS", "detail": "B646's manifest gap (61 of 63 missing entries) is explained entirely by .gitignore's *.log/*.pyc rules — the harvest-preservation manifests reference files that git will never let anyone commit, so no clone can ever fully verify them.", "where": "FINDINGS.md section 3, verify.py section 2"},
+ {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "B616's lock pins a count (2 of 378) that is a numerically-derived artifact of a float half-open boundary over np.linalg.inv, which differs by BLAS/LAPACK backend — the arc itself calls this 'not mathematics' (E6 taxonomy) but the underlying identification method (float threshold membership) is still used to certify a 'STILL-AMBIGUOUS' verdict elsewhere in the corpus.", "where": "verify.py lines ~427-463"},
+ {"kind": "LOG_DRIFT", "detail": "The packet's log_index for B1041 returns entries about an entirely different arc content (θ-leg/oblique cube), suggesting a B-number collision between this frontier worktree arc and a differently-named main-tree B1041; the progress log gives no trace of this arc's actual findings (81-minute suite, three red locks).", "where": "log_index/B1041.txt"},
+ {"kind": "OTHER", "detail": "Self-reported: importing d3_measure to 'inspect' it ran its __main__ and overwrote banked artifacts (d3_results.txt/.json) with NaN output — an artifact-clobber incident (E36), caught and restored from git within the session.", "where": "FINDINGS.md 'Self-correction' section"}
+],
+"seat_note": "This is pure test/CI-infrastructure auditing (suite runtime, gitignore/manifest hygiene, float-boundary lock design) with zero measurable physics content — its physics relevance is only that it exposes how 'STILL-AMBIGUOUS' verdicts elsewhere in the corpus can rest on backend-dependent float comparisons rather than exact arithmetic. The log-index mismatch (entries about a different-content B1041) means this arc's claims have not been cross-checked by the project's own review process at all."
+},
+
+{
+"arc": "B1042_trit_morphism",
+"source": "main tree, frontier/B1042_trit_morphism",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "b1042_output.txt", "b1042_cells.py (sampled: head 120 + grep)", "PREREGISTRATION.md (not opened in full — referenced by FINDINGS)"],
+"files_sampled": ["b1042_cells.py"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 'JOINED: the VEV-acceptance trit's Z/3 (algebra-side) IS omega's Z/3 (mu_6, field-side) carried through exhibited functorial links ... THE CONTROL DECIDES: SL(2,5) is PERFECT (computed) -- the golden end admits NO such characters, no rotation, no trit; the carry is discriminating, not generic.'",
+"log_says": "PROGRESS_LOG.md 2026-08-12: 'B1042 (PM3): JOINED — the trit descends from ω. Sealed b8544786, pushed both pre-compute.' REVIEWS.md Review 45 lists this as one of a 'four-arrivals convergence' and spot-verifies the seal as byte-identical on recompute.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "2T (24 Hurwitz units) built exactly; 7 conjugacy classes; Q8 normal, 2T/Q8=Z/3; 49 character-orthogonality pairs exact over Q(omega)", "where": "b1042_cells.py lines 1-160, b1042_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Fraction/quaternion arithmetic, no numerics; script runs standalone and prints PASS/FAIL asserts, matching the transcript."},
+ {"what": "McKay graph of 2T computed (not cited) = affine E6 shape; tensoring by a 1-dim character is an order-3 diagram automorphism fixing the center; center-deletion gives 3 disjoint A2 = su(3)^3, rotated in one 3-cycle", "where": "b1042_cells.py lines ~124-186", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "graph built from A_ij inner products of constructed characters; asserts checked in script and echoed in output."},
+ {"what": "Control: SL(2,5) is perfect (commutator subgroup = all 120 elements) → no nontrivial 1-dim characters → construction yields nothing on golden end", "where": "b1042_cells.py lines ~194-215", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "brute-force group computation over F_5, exact modular arithmetic."},
+ {"what": "Identification: 'ω's Z/3 (field-side) IS the trit's Z/3 (algebra-side, VEV-acceptance orbit) — one structure'", "where": "FINDINGS.md 'The verdict' section", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "the individual links (character values, McKay tensoring, factor rotation) are each computed, but the overarching claim that this chain of isomorphisms constitutes identity of 'the trit' with 'ω's shadow' is an interpretive/naming step layered on top of the computed group theory, not itself a computed quantity."}
+],
+"belt": "NONE",
+"belt_note": "No separate verification/ or belt directory found alongside this arc's files in the packet; the arc's own script is the only computation, and no independent re-derivation by another arc is included in this file set.",
+"absence_claims": [
+ {"quote": "the McKay-order-3 check was unrun; B487's \"tensoring\" is DGG field-theory tensoring, different object; B946's \"orbit labels\" are belt-level, different structure — recorded, excluded", "where": "FINDINGS.md:7 (header)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The headline identification — 'the trit's Z/3 IS omega's Z/3' — rests on both being labeled 'Z/3' before the functorial chain is built; the chain (character values landing in mu_3, McKay tensoring as diagram automorphism, factor permutation) is real group theory, but whether this constitutes physical identity of the VEV-acceptance orbit with the field's cube-root group, versus a structural analogy dressed as identity, is an interpretive leap the arc itself flags as needing 'the typed alternates PLACED' scope fences.", "where": "FINDINGS.md 'The verdict' and 'Scope fences' sections"}
+],
+"seat_note": "The group-theoretic computation (2T, McKay graph, character orthogonality, the SL(2,5) control) is genuinely exact and reproducible from committed exact-arithmetic code — this is real math, well-instrumented. But nothing here names a measurable physical quantity; it is representation-theory structure asserted to explain 'one trit' in a cosmogony narrative, and the identification step itself is exactly the type of claim the seat's rules ask to be flagged rather than accepted at face value."
+},
+
+{
+"arc": "B1042_the_error_ledger",
+"source": "worktree claude_new-session-qor5up (frontier/B1042_the_error_ledger)",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "results.json (all_pass=True, 11 checks)", "verify.py (203 lines, not fully quoted)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 'THE CORPUS NAMES ITS LESSONS WHERE IT FINDS THEM, AND THE REGISTER THAT GENERALISES THEM STOPPED 122 ARCS AGO ... docs/ERROR_LEDGER.md ... highest cited arc B920, latest date 2026-08-06, against a corpus at B1042: a lag of 122 arcs. Two new classes added: E37 (self-measurement) and E38 (progress-eroded threshold).'",
+"log_says": "The B1042 log entries returned by the packet all describe the OTHER B1042 arc (trit_morphism / PM3), not this governance audit at all — no log trace of ERROR_LEDGER staleness, E37/E38, or this arc's content.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what": "docs/ERROR_LEDGER.md: 36 classes, highest-cited arc B920, latest date 2026-08-06, vs corpus at B1042 (122-arc lag)", "where": "FINDINGS.md section 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "measured by reading the committed ERROR_LEDGER.md file directly; numbers are checkable by anyone."},
+ {"what": "E1 'most recurrent error class' instance count: register said 3 (all from 2026-07-16), refresh found 5 more, each independently counted by the citing arcs themselves", "where": "FINDINGS.md section 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cross-references committed arc bodies (B1026, B1024, B1034, B1036) for their own self-counts."},
+ {"what": "Self-measurement hazard: 10 instances across 9 arcs this refresh alone (B1033 self-counts 'SIX...across five arcs'; moved a published headline 234→232 before caught)", "where": "FINDINGS.md section 3", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "figures are quoted from other arcs' self-reports, not independently recomputed here."}
+],
+"belt": "RE-READS",
+"belt_note": "This arc reads the committed ERROR_LEDGER.md and cited arc bodies rather than recomputing any mathematics; its own self-correction reads the pre-repair state 'from git' (git show HEAD:...) to avoid measuring its own edit (E37 avoidance), which is methodologically careful but is a documentation audit, not a math verification.",
+"absence_claims": [
+ {"quote": "THE REGISTER STOPPED, AND NOTHING SAYS SO", "where": "FINDINGS.md:12 (section header)"},
+ {"quote": "the three registers whose entire job is currency are all outside it", "where": "FINDINGS.md:26"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind": "LOG_DRIFT", "detail": "Progress-log entries under the ID 'B1042' all pertain to a different arc (trit_morphism); this governance/error-ledger arc leaves no trace in the reviewed log excerpts at all, meaning the project's own review cadence (Reviews 42-51) never explicitly discusses ERROR_LEDGER's 122-arc staleness lag that this arc reports.", "where": "log_index/B1042.txt"},
+ {"kind": "OTHER", "detail": "Self-reported: this arc's own prose tripped two locks written by earlier arcs within the session (B1032's currency-citation lock, B1033's 'most recurrent' phrase-sourcing lock) — evidence the corpus's self-monitoring is working but also that even a careful audit-of-audits arc makes the mistakes it is auditing.", "where": "FINDINGS.md epilogue"}
+],
+"seat_note": "Purely process/governance content — documents that the project's own error taxonomy has been stale for 122 arcs and that the same 'self-measurement invalidates the metric' hazard recurred 10 times uncaught by any generalizing rule. No physics; useful only as evidence of how loosely the corpus's meta-bookkeeping is coupled to its substantive claims."
+},
+
+{
+"arc": "B1043_triple_assembly",
+"source": "main tree, frontier/B1043_triple_assembly",
+"files_read": ["FINDINGS.md", "ADDENDUM_2026-08-13.md", "arc_verdict.json", "b1043_output.txt", "PREREGISTRATION.md (not fully quoted, referenced)", "b1043_cells.py (not fully quoted; 250 lines)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 'h1(triple;27)=10=7+3: the forbid HOLDS (F3: connecting=7 >= 6, decoy D>=12 FAILS, so the comparison is discriminating) and creation is SUPERLINEAR (excess = b1(graph) x the invariant line h0(M;27)=1). W4: HALT-VOID, no 3-cells, the arity-matched pairing has no target on this 2-complex.' ADDENDUM (2026-08-13) then IDENTIFIES the 'new fact' h0(M;27)=1 as definitionally equal to B632's forced VEV construction (v0 = nullspace of (A27-1)⊕(B27-1)).",
+"log_says": "PROGRESS_LOG.md 2026-08-12: 'B1043 (PM2): the triple — 10=7+3, F3 holds strictly, superlinear.' Then 2026-08-13: 'PM-II-1 dissolved: the invariant line IS the forced VEV (B632's own construction); B1043 addendum banks the identification.' REVIEWS.md Review 45 (2026-08-13) still lists 'h0(M;27)=1 — the solo invariant line — identification open, a lead candidate' even on the same date the addendum landed; later reviews (R47/R48/R50/R51) repeatedly carry this as unresolved LAW_MAP debt for weeks.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+ {"what": "h1(triple;27)=10, anatomy 7 connecting + 3 bulk; double h1=5 (2+3); F3 forbid strictly satisfied (7>=6), decoy D (>=12) fails", "where": "b1043_output.txt, FINDINGS.md 'The results'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "computed via Fox calculus / MV-sequence machinery reused from B632, executed and printed with timings (e.g. 'cell2 loaded in 97.1s')."},
+ {"what": "h0(M;27)=1 (the '27 carries an invariant line under the solo group')", "where": "b1043_output.txt line '[V1-pre] h0(M;27)=1'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "printed directly from the reused B632 machinery."},
+ {"what": "Identification: this invariant line IS B632's forced VEV v0 (definitional, per ADDENDUM)", "where": "ADDENDUM_2026-08-13.md", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "the addendum traces it to B632's own code assertion (assert len(fix)==1) rather than re-deriving it, so the identification is a citation of an existing committed assertion, not a fresh computation in this arc."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "W0 gate deliberately re-derives the already-banked double h1=5 in the graph-of-groups formalism as an entry check before trusting the triple computation, and it HALTED on a wrong shortcut on first run (h0(M;27) assumed 0), self-caught.",
+"absence_claims": [
+ {"quote": "the assembly's presentation complex has no 3-cells — the genuine three-slot cup H¹×H¹×H¹ → H³ has NO TARGET here", "where": "FINDINGS.md:31-32"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's claim_one_line (the machine-readable claim of record) still reads '...the new fact h0(M;27)=1 (the solo invariant line — identification open, a lead candidate)' even though ADDENDUM_2026-08-13.md, filed the next day, resolves the identification as definitional (= B632's forced VEV). The verdict JSON was never updated to reflect the addendum.", "where": "arc_verdict.json claim_one_line vs ADDENDUM_2026-08-13.md"},
+ {"kind": "LOG_DRIFT", "detail": "Multiple later reviews (R46, R47, R48, R50, R51) continue to carry 'B1043's h0=1 identification' as open LAW_MAP debt for over two weeks after the addendum resolved it in-arc, suggesting the addendum's resolution did not propagate into the corpus's own tracking of its own debt.", "where": "REVIEWS.md Review 46-51 excerpts in log_index/B1043.txt"}
+],
+"seat_note": "The cohomology dimension count (h1=10=7+3) is genuinely computed via reused, exact machinery and is internally consistent with self-caught errors (the W0 halt). But the file that is supposed to be the 'claim of record' (arc_verdict.json) was left stating a superseded position after a same-cluster addendum resolved it — exactly the SUPERSEDED_UNMARKED failure mode this seat is asked to watch for, and it visibly propagated into weeks of subsequent review-log debt tracking."
+},
+
+{
+"arc": "B1043_the_band_is_the_wrong_unit",
+"source": "worktree claude_new-session-qor5up (frontier/B1043_the_band_is_the_wrong_unit)",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py (not fully quoted)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED (audit-and-correction) — 'B1039 restored B141's Item 4 as an open conjecture; it is not open, B564 closed it (four bands away) by symbolic elimination, exactly the route B141/B142 named as the prize. Band-wise disposition cuts cross-band laws silently: 8 siblings across 4 restored laws found still in debt.'",
+"log_says": "Same B-number collision issue as B1041/B1042/B1044: log_index/B1043.txt entries are entirely about the OTHER B1043 arc (triple_assembly / PM2); no log trace of this band-method-audit content.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what": "B564 closes B141 Item-4 by symbolic elimination; B141/B142 carry no forward pointer to B564", "where": "FINDINGS.md section 1", "kind": "COMPUTED/IMPORTED", "reproducible_from_committed": "yes", "why": "verified by reading the committed B141/B142/B564 bodies directly; the absence of a forward pointer is a grep-checkable fact."},
+ {"what": "B232 (step form) and B1038 (band form) are the same law: symbolically verified n=3..12, band(n)-band(n-1)=Sym^n(V)+Sym^{n-3}(V) via the functorial hinge", "where": "FINDINGS.md section 4", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as 'verified symbolically for n=3..12' but the actual verifying script is not among the files read in this packet (only verify.py's 8 checks, not separately confirmed here)."}
+],
+"belt": "UNCLEAR",
+"belt_note": "verify.py is described as producing 8 checks matching the FINDINGS claims, but its content was not read/quoted in this pass beyond confirmation it exists.",
+"absence_claims": [
+ {"quote": "B141 and B142 carry no forward pointer to B564 — verified", "where": "FINDINGS.md:27"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "B1039 published (in this same refresh) a restoration calling B141 Item 4 an 'open conjecture,' when B564 — filed 400 arcs earlier in absolute terms but in a different B-number band — had already closed it. The arc's own author calls this 'the first time [in 20 arcs] it cost a published overstatement rather than only a rewrite.' The self-correction happened only because the NEXT band-sweep arc happened to read B564's body by chance.", "where": "FINDINGS.md sections 1 and epilogue"},
+ {"kind": "LOG_DRIFT", "detail": "B-number collision: log_index entries for 'B1043' are entirely about a different arc (triple_assembly), so this arc's substantive method-critique (the band-vs-law mismatch, 8 known-in-debt siblings) leaves no trace in the reviewed progress log at all.", "where": "log_index/B1043.txt"}
+],
+"seat_note": "This is a genuine and important process finding — the corpus's disposition-by-banking-band method silently missed a law closure that had already happened elsewhere — but it is entirely about corpus bookkeeping, not physics; its physics relevance is only as a warning that other 'open conjecture' labels in the corpus may likewise be stale."
+},
+
+{
+"arc": "B1044_gamma_ledger",
+"source": "main tree, frontier/B1044_gamma_ledger",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "b1044_ledger.md", "PREREGISTRATION.md (referenced, not fully quoted)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 'the Γ-column is EMPTY: 0 of 20 Layer-2/3 derivation steps consume the group Γ=π1(m004) itself; 18 are ALGEBRA (e6/e7/Jordan/Chevalley), exactly 1 is CLASS (B727: the trace field Q(sqrt-3) selecting which McKay group), 0 UNDECIDABLE. B803's open address CLOSES EMPTY: the object exists and enters, everything after the door is the class's and the algebra's.'",
+"log_says": "PROGRESS_LOG.md 2026-08-12: 'B1044: the Γ-ledger — EMPTY; B803's address closes.' REVIEWS.md Review 45 (2026-08-13) frames this as one of a 'four-arrivals convergence' (with B997/B1019, B1040, B1042) and notes it was 'spot-verified at review: recomputed byte-identical.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what": "20-row ledger typing each Layer-2/3 arc's derivation as Γ/CLASS/ALGEBRA/INPUT/UNDECIDABLE, based on 'the arc's own construction-naming text'", "where": "b1044_ledger.md (full 20-row table)", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the classification is a subjective reading/tagging exercise over quoted arc sentences, not a computation with a deterministic procedure — a different reader applying the same taxonomy to the same quotes could plausibly disagree on borderline rows (e.g. items tagged 'ALGEBRA + INPUT'); no independent second-rater check is described."}
+],
+"belt": "RE-READS",
+"belt_note": "This arc quotes each cited arc's own construction-naming sentence as its evidence rather than recomputing anything; the 'proof' is a categorization pass over prose, described as a 'structured-reading cell.'",
+"absence_claims": [
+ {"quote": "the Γ-column is EMPTY — 0 of 20 Layer-2/3 steps consume the group Γ = π₁(m004) itself", "where": "FINDINGS.md:11"},
+ {"quote": "Zero UNDECIDABLE: every arc names its own construction basis", "where": "FINDINGS.md:16"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind": "OTHER", "detail": "The central claim ('0 of 20 steps consume Γ') is an enumeration over a subjective per-arc reading of quoted phrases, not a mechanically checkable computation — the taxonomy (Γ/CLASS/ALGEBRA/INPUT/UNDECIDABLE) is applied by the same author who defines it, with 0 rows landing in the escape-hatch 'UNDECIDABLE' bucket, which is a pattern worth independent re-audit rather than acceptance at face value.", "where": "b1044_ledger.md whole table"}
+],
+"seat_note": "This is a survey/taxonomy exercise over the corpus's own prose, not an independent mathematical derivation — its conclusion (the derivation chain from m004's fundamental group to the Standard Model 'uses' the group only at existence/entry, not in the algebra) is a load-bearing structural claim for the whole thesis, and it rests entirely on one author's classification of 20 quoted sentences with a perfect zero-UNDECIDABLE outcome that invites scrutiny rather than confidence."
+},
+
+{
+"arc": "B1044_law_siblings_gated",
+"source": "worktree claude_new-session-qor5up (frontier/B1044_law_siblings_gated)",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py (not fully quoted)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 'built scripts/checks/law_siblings.py + docs/consolidation/LAW_SIBLINGS.md + the law-siblings gate (27th). 7 candidates found across 4 restored laws; 6 consolidated (B33/B232/B522 → the tower; B75/B77/B106 → the metallic exponent); 1 (B257) correctly left in debt as a false keyword match.'",
+"log_says": "log_index/B1044.txt entries are entirely about the OTHER B1044 arc (gamma_ledger); no log trace of this instrument-building arc's content.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what": "7 candidate siblings found via fingerprint sweep across bands; 6 correctly consolidated, 1 (B257) correctly excluded as a keyword-only false match", "where": "FINDINGS.md section 3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "produced by a committed script (scripts/checks/law_siblings.py) against the committed corpus; the gate is now part of the standing test suite (27 gates green)."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The gate is a new standing instrument (gate 27) rather than a one-off recompute; it is designed to re-run on every future arc.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind": "OTHER", "detail": "Self-reported: the instrument's first run reported ZERO candidates because it excluded any row mentioning the registrar arc (E37 self-measurement bug in the tool itself); fixed, but shows new anti-self-measurement instruments are themselves prone to the exact hazard they are built to catch.", "where": "FINDINGS.md section 4"}
+],
+"seat_note": "Pure tooling/process arc (a new corpus-hygiene gate); no physics content, but methodologically interesting as a second-order instance of the corpus's recurring self-measurement bug appearing inside the very tool built to catch a related bug."
+},
+
+{
+"arc": "B1045_middle_band_mapped",
+"source": "worktree claude_new-session-qor5up (frontier/B1045_middle_band_mapped)",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "results.json (not fully quoted)", "verify.py (not fully quoted)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 'B1044's law-siblings gate missed B485 (Alexander-polynomial vocabulary for B1040's metallic-degree law) because fingerprints only catch same-vocabulary restatements, not cross-vocabulary translations; fixed. B300-B499 (69 debt rows) is published as a MAP (7 clusters + 11 standalone), explicitly NOT a disposition, with a measured 9% (5/58) mis-filing rate from keyword-based clustering.'",
+"log_says": "log_index/B1045.txt: 2 entries, both about the B1045-B1059 ID-range reservation in the renumber batch — no discussion of the middle-band mapping content itself.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what": "B485's Alexander polynomial IS B1040's metallic degree in another vocabulary (delta_m(a) verified symbolically identical, root = lambda_m^2)", "where": "FINDINGS.md section 1", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as 'verified identical symbolically' but the verifying code was not read in this pass."},
+ {"what": "5 of 58 (9%) keyword-clustering mis-assignments measured (B345, B316, B346, B423, B435)", "where": "FINDINGS.md section 2 table", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the table is presented as a computed error rate but its derivation script was not opened here."}
+],
+"belt": "UNCLEAR",
+"belt_note": "verify.py (12 checks) not read in detail this pass.",
+"absence_claims": [
+ {"quote": "None of the four fingerprints matched a single term of it", "where": "FINDINGS.md (section 1, re: B485)"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind": "OTHER", "detail": "Explicitly self-limits: 'a fingerprint catches restatements in the same vocabulary; a genuine translation between vocabularies escapes it ... not fixable by adding terms, only mitigated' — an honest admission that the corpus's cross-referencing tooling has a structural blind spot for re-derivations phrased in different mathematical language, which is exactly the kind of gap that could hide unnoticed duplicate/contradictory claims elsewhere in the corpus.", "where": "FINDINGS.md section 1"}
+],
+"seat_note": "Deliberately declines to over-claim (publishes a 'map' not a 'disposition' and states its own 9% error rate) — methodologically the most honest of this batch's process arcs, but again pure corpus-hygiene, no physics."
+},
+
+{
+"arc": "B1046_the_arc_graph",
+"source": "worktree claude_new-session-qor5up (frontier/B1046_the_arc_graph)",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "results.json (not fully quoted)", "verify.py (not fully quoted)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED (audit-and-instrument) — 'the supersession graph is one-way: 42 arcs declare supersedes, only 5 carry superseded_by; 41 one-way links, 12 targets still cited on a curated surface, including B123 and B111. 35 FINDINGS carry a CORRECTION/REFUTED/WITHDRAWN banner below their own headline; 31 have no RETRACTIONS.md row. B408 is the worst case: headline says the seam does NOT contract, 27 lines later a CORRECTION says it DOES contract and there is no scale lever at all.'",
+"log_says": "null (no log_index for this arc)",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what": "42 supersedes declarations vs 5 superseded_by; 41 one-way links, 12 targets still cited", "where": "FINDINGS.md section 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "computed by scanning committed arc_verdict.json files corpus-wide via the new scripts/checks/supersession.py instrument."},
+ {"what": "35 FINDINGS carry CORRECTION/REFUTED/WITHDRAWN banners below headline; 31 lack a RETRACTIONS.md row", "where": "FINDINGS.md section 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same instrument, scanning committed FINDINGS.md text against docs/RETRACTIONS.md."},
+ {"what": "B408: headline 'the seam does NOT contract — the one scale lever stands' contradicted 27 lines later by 'CORRECTION ... the seam CONTRACTS ... NO scale lever in any tested channel'", "where": "FINDINGS.md section 2, quoting B408/FINDINGS.md directly", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "directly quoted from the committed B408 FINDINGS.md file."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "New standing gate (28th, 'supersession') built to catch this class going forward; triaged (not auto-capped) by design, explicitly refusing to write 72 judgements without reading 72 bodies.",
+"absence_claims": [
+ {"quote": "Nothing read `superseded_by` — no gate, no check, verified against the gate file's own text.", "where": "FINDINGS.md:24"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "B408's own arc verdict is correctly NEGATIVE, but its published headline ('the one scale lever stands') directly contradicts a CORRECTION 27 lines later in the same file ('the seam CONTRACTS ... NO scale lever in any tested channel'), and this retraction never got a docs/RETRACTIONS.md row per the corpus's own same-PR retraction rule. A 'scale-lever' claim is flagged as 'the most firewall-sensitive object in the programme' by the corpus's own grading rubric, making this a load-bearing unretracted contradiction.", "where": "FINDINGS.md section 2, quoting B408/FINDINGS.md"},
+ {"kind": "SUPERSEDED_UNMARKED", "detail": "12 of 41 one-way supersedes links point at targets still cited on a curated surface, including B123 (which B1037 explicitly declined to restore because B125 refutes it) and B111 (dispositioned SUBSUMED) — nothing in the metadata graph itself would tell a reader these targets are dead.", "where": "FINDINGS.md section 1"}
+],
+"seat_note": "This is the batch's single most important finding: the project's own corpus contains at least 31 unretracted, uncorrected-in-metadata contradictions between an arc's headline and its own later self-correction, with B408 (a physics-adjacent 'scale lever' claim) as the flagship example — this is a genuine and serious hygiene failure in a corpus whose downstream synthesis documents cite these headlines."
+},
+
+{
+"arc": "B1047_the_seam_cluster",
+"source": "worktree claude_new-session-qor5up (frontier/B1047_the_seam_cluster)",
+"files_read": ["FINDINGS.md", "arc_verdict.json", "results.json (not fully quoted)"],
+"files_sampled": ["verify.py (first 120 lines, per SAMPLE_CODE mode)"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — 'the seam/level-15 (sqrt(-15)) cluster (14 rows) dispositioned from bodies: 3 arcs (B359, B361, B362) DECLINED as retractions-not-restorations (their claim lines promote an observed 3-11-point pattern to a law that B360/B367 refute); 2 arcs (B393, B410) RESTORED as their own LAW_MAP row (a product-field stratification criterion), re-verified end-to-end byte-identical against the banked artifact.'",
+"log_says": "null (no log_index for this arc)",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what": "B359/B361/B362 claim lines assert laws ('parity-selective', '8/11 pairs zero counterexamples') that their own bodies tier as 'observed pattern, not claimed as law'/'stated as a law of the computed range, not proved,' and which B360/B367 subsequently refute", "where": "FINDINGS.md 'THE DOMINANT FINDING' table, verify.py chk() assertions", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py directly string-matches quoted phrases from the committed FINDINGS.md/arc_verdict.json files of B359-B367, and re-derives the elliptic/quadratic-residue arithmetic from integers (char poly x^2-(m^2+2)x+1) rather than citing it."},
+ {"what": "B393/B410 product-field stratification: re-run product_fields.py end-to-end (2m41s, pure Fraction, no external CAS), byte-identical to banked artifact", "where": "FINDINGS.md 'RESTORE' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicitly re-executed against the live tree with git-status-clean confirmation, not merely cited."},
+ {"what": "k1_termwise.json flagged as a NEGATIVE ARTIFACT (reports nonzero_terms=0 on bright controls too — misleading if read as data)", "where": "FINDINGS.md riders section item 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "directly inspected and its schema/hash compared against k1_fullfield.json."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "verify.py (79 checks) re-derives the elliptic/quadratic-residue arithmetic from scratch (campaign step 5 discipline) rather than trusting cited figures, and re-runs product_fields.py end-to-end to confirm byte-identical output.",
+"absence_claims": [
+ {"quote": "frontier/B379_selection_rule_reduction/ contains no .py at all", "where": "FINDINGS.md section 'Three self-corrections', item 2"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "Three more instances (B359, B361, B362) of the same claim-line-overstates-body pattern already found in B123 (a prior arc); the arc explicitly states 'the bodies were honest at the site, every time — the claim lines dropped the tier,' meaning a reader relying on claim_one_line summaries anywhere in this corpus risks reading a refuted/never-proven pattern as an established law.", "where": "FINDINGS.md 'THE DOMINANT FINDING IS NOT A LAW' section"},
+ {"kind": "OTHER", "detail": "Self-reported correction to the immediately-preceding arc (B1046/SUPERSESSIONS.md): its published '72 candidates, 21 load-bearing, remaining 51' figure was measured against a stale tree — the instrument itself reported 26 on the same tree one paragraph below a 25-row table — showing that even the newly-built anti-drift instruments are themselves prone to the exact self-measurement drift they exist to catch.", "where": "FINDINGS.md 'A correction to the arc one before this one'"},
+ {"kind": "OTHER", "detail": "A previously-passing lock (test_consolidation_coverage.py, absolute band 200<sub<280) broke purely because the consolidation work succeeded and crossed 200 — a second instance of the corpus's own named 'E38: progress-eroded threshold' class, repaired by switching to a share-based bound (0.10-0.45).", "where": "FINDINGS.md 'Crossing 200 broke a lock' section"}
+],
+"seat_note": "The number-theoretic computation (elliptic/quadratic-residue arithmetic, exact-Fraction product-field stratification) is genuinely re-derived from integers rather than cited, which is good practice; but the arc's central finding — that claim-line summaries throughout this cluster systematically overstate observed-pattern bodies as laws — is itself a serious corpus-wide reliability warning that should generalize well beyond this one cluster of 14 arcs."
+}
+
+]
+}

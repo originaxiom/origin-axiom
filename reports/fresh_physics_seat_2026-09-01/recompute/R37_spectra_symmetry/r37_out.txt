@@ -1,0 +1,21 @@
+== B790 L1/L2: length spectra to Re(l) <= 5, traces 2cosh(l/2) in Z[omega]? ==
+  m004: 134 geodesics (bank 134), worst deviation of 2cosh(l/2) from Z[omega] 1.77e-11 (double-precision lengths; bank 2.6e-15 at 40 dps), 70 distinct real lengths, max SnapPy multiplicity 39
+  m003: 150 geodesics (bank 150), worst deviation of 2cosh(l/2) from Z[omega] 1.76e-11 (double-precision lengths; bank 2.6e-15 at 40 dps), 77 distinct real lengths, max SnapPy multiplicity 30
+  real-length sets: m004 70, m003 77, shared 43 -> isospectral: False; trace-norm multisets equal: False
+== B777 V4 genericity (cc verification table): symmetry groups and amphicheirality ==
+  m004     vol 2.0298832128 sym D4           order 8 amphicheiral True   bank ('D4', True) -> MATCH
+  m003     vol 2.0298832128 sym Z/2 + Z/4    order 8 amphicheiral True   bank ('Z/2 + Z/4', True) -> MATCH
+  m025     vol 3.0448248192 sym Z/6          order 6 amphicheiral True   bank ('Z/6', True) -> MATCH
+  m009     vol 2.6667447834 sym Z/2 + Z/2    order 4 amphicheiral False  bank ('Z/2 + Z/2', False) -> MATCH
+  m010     vol 2.6667447834 sym Z/2 + Z/2    order 4 amphicheiral False  bank ('Z/2 + Z/2', False) -> MATCH
+  b++RRLL  vol 3.6638623767 sym D4           order 8 amphicheiral True   bank (not in table) -> 
+  m015     vol 2.8281220883 sym Z/2 + Z/2    order 4 amphicheiral False  bank (not in table) -> 
+  m016     vol 2.8281220883 sym Z/2          order 2 amphicheiral False  bank (not in table) -> 
+== B850: geodesic multiplicities. SnapPy complex-length classes to Re(l) <= 4 (the bank counted holonomy words at 40 dps, max 4/3/4/8/2) ==
+  m004  geodesic classes  50  max multiplicity 12  mean 4.58
+  m003  geodesic classes  52  max multiplicity 12  mean 4.02
+  m136  geodesic classes  60  max multiplicity 11  mean 3.92
+  m009  geodesic classes  54  max multiplicity 11  mean 3.89
+  m015  geodesic classes  91  max multiplicity  6  mean 2.35
+== B894: K = Q[x]/(x^3-12x-5) ==
+  poldisc 6237, nfdisc 6237 = [3, 7, 11; 4, 1, 1], index 1, Galois S3, signature [3, 0], 5 unramified: True

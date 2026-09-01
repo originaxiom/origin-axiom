@@ -1,0 +1,266 @@
+{
+ "batch": "arcs_104",
+ "arcs": [
+  {
+   "arc": "B1036_knowledge_room",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE KNOWLEDGE ROOM: THE FIREWALL RUNS BACKWARDS IN FIVE PLACES, AND NOTHING COULD SEE IT. Governed-rooms sweep over knowledge/ (26 explainers). Contradiction hunt clean (0/8 retracted phrases present; retractions carried in-line). PRIMARY FINDING: the firewall-oneway gate (gates.py:119) tests only speculations/, philosophy/, story/ -- knowledge/ is not among them -- and five breaches found where K006/K018/K020 (the three consolidating explainers) are cited as authority in LAW_MAP.md, SEAL_LEDGER.md (inside a SEALED prereg), HINT_LEDGER, STRATEGIC_SYNTHESIS. Two gate holes demonstrated (mention-not-row; K\\d{3}-scoped so unnumbered docs are invisible). A fifth factor-of-two convention collision found (recomputed: A=[[2,1],[1,1]] gives h_top=2 log phi vs a document's 4 log phi). K021 overstates its own section-8 gate as forced. Three documents wrongly stated the room's size (all repaired to 26). 28 mechanical checks; 11 locks.",
+   "log_says": "Log entries under B1036 describe a DIFFERENT subject entirely: 'the double gains classes (5 vs 3)... ad = 6 confirmed', h1(dbl)=2/2/1, V-valued assembly -- this is the antisymmetry-wall/cohomology campaign's B1036, not the knowledge-room governance audit in this arc's own FINDINGS.md.",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {"what": "the room holds exactly 26 K-numbered explainer files", "where": "verify.py: KFILES = glob K\\d{3}_*.md over knowledge/", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mechanical directory listing, reproducible from committed tree"},
+    {"what": "5 firewall breaches (LAW_MAP:149, LAW_MAP:99, SEAL_LEDGER:461, HINT_LEDGER H50, STRATEGIC_SYNTHESIS:47) cite K-entries as authority", "where": "FINDINGS.md section 2, grep-verified line refs", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify.py greps the named docs for the cited strings; a stranger can rerun the same greps"},
+    {"what": "h_top(A) = 2 log phi for A=[[2,1],[1,1]], vs a document's claimed 4 log phi", "where": "FINDINGS.md section 4; recomputed inline", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary eigenvalue computation shown in the text, reproducible by hand or sympy"},
+    {"what": "K021's generation-forcing headline overstates against its own section 8", "where": "K021 file, cross-referenced against THE_CLAIM/SM_SPECIFICATION_LEDGER", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a textual/grading judgment about consistency between prose sections, not a numeric computation"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "verify.py performs mechanical greps/counts over committed docs (K-file counts, string searches for retracted phrases, citation patterns) -- a documentation-governance audit, not a physics computation.",
+   "absence_claims": [
+    {"quote": "Nothing enforces that.", "where": "FINDINGS.md section 2 (re: knowledge/GOVERNANCE.md's rule that explainers are never a premise of a proof)"},
+    {"quote": "knowledge/ is not among them", "where": "FINDINGS.md section 2, re: gates.py:119's firewall-oneway string list"},
+    {"quote": "they are invisible to it by construction", "where": "FINDINGS.md section 4, re: THE_GOLDEN_CAT_MAP_PRINCIPLE.md and THE_UNIQUENESS_ATLAS.md being outside the K\\d{3} gate scope"},
+    {"quote": "neither document declares which it uses", "where": "FINDINGS.md section 4, re: the Pesin-sum vs sum-of-|lambda| convention gap"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "log_index/B1036.txt entries describe an unrelated cohomology/antisymmetry-wall arc (h1(dbl)=2/2/1, ad=6) that shares the B1036 number but not this arc's content -- a naming collision between two different B1036 arcs in the corpus's history.", "where": "log_index/B1036.txt vs this worktree's FINDINGS.md"},
+    {"kind": "OTHER", "detail": "This is a meta/governance audit of documentation citation hygiene, not a physics or mathematics result; it contains no computed physical quantity.", "where": "whole arc"}
+   ],
+   "seat_note": "Pure documentation-governance audit (citation hygiene, gate coverage, doc staleness) with no physics content; the recomputed entropy discrepancy (2 log phi vs 4 log phi) is a genuine, well-diagnosed convention bug but is itself a meta-finding about other documents, not a physical claim."
+  },
+  {
+   "arc": "B1037_theta_join",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b1037_cells.py", "b1037_output.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE THETA-JOIN (sealed 63cd367a pre-compute): DISTINCT -- J2 shows the raw chain-level defects present (1/2 or 2/2 nonzero per banked triple) and the sealed class (evaluation-order alternation) projection does NOT kill them; J3 shows J^2 = +1 exactly (an honest involution). The declared prior (JOINED, weak) was WRONG, recorded under non-weakening. Scope: DISTINCT is for the sealed projection only; B647's argument-level antisymmetrization is a different, unadjudicated question.",
+   "log_says": "PROGRESS_LOG 2026-08-12 and REVIEWS.md Review 44 both state: B1037 (sealed): the theta-join DISTINCT at its first test, prior scored wrong, J^2=+1 the positive residue, scope fenced to the sealed projection -- matches FINDINGS.md exactly.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "raw chain-level defect nonzero for triples (1,3,4),(0,2,3),(1,2,3) at 1/2 and (2,3,4) at 2/2; class-projection does not kill them", "where": "b1037_cells.py J2 loop; witness b1037_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cells.py execs B637's banked module and computes exact algebraic values (freduce/S_eval over the K coefficient ring); output log committed as plaintext, not gitignored"},
+    {"what": "J^2 = +1 exactly (scalar, involution)", "where": "b1037_cells.py J3 block; b1037_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit 27x27 matrix multiply over the exact field, printed and hash-verifiable"},
+    {"what": "B647's defect law reconfirmed in passing", "where": "cited via B647 FINDINGS.md text match ('THE DEFECT LAW', '2*conj(Y)')", "kind": "IMPORTED", "reproducible_from_committed": "yes", "why": "a string-match phrase check against B647's own committed FINDINGS, not a recomputation of B647 itself"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "b1037_cells.py reuses B637's banked module by exec (not rebuilding the cubic construction) but does perform its own exact linear-algebra computation of defects and J^2 for this cell -- a genuine sealed pre-registered compute with a full text witness log.",
+   "absence_claims": [
+    {"quote": "the value-kernel (B1029) and the chain defect law (B647) are two banked facts without an exhibited one-operator join", "where": "FINDINGS.md, scope paragraph"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean, small, pre-registered (sealed-before-compute) negative result with a plaintext witness log; the prior being scored wrong and recorded is good discipline. Content is pure representation-theoretic bookkeeping (theta-lift operators, chain defects) with no observable physical quantity."
+  },
+  {
+   "arc": "B1037_band_B100_dispositioned",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE B100-B199 BAND DISPOSITIONED: 37 ROWS ARE 17 STATEMENTS. Campaign step 6: 37 debt rows, 27 of which are facets of 7 laws, 10 standalone -> 17 statements owed. B123 identified as a RETRACTION not a restoration candidate (B125 refutes it: silver m=2 IS arithmetic over Q(i)). B1036's factor-of-two finding sharpened from 'convention gap' to 'misattribution' by reading B109's body (the number belongs to the trace map's linearisation, mislabeled as the cat map's entropy). 18 mechanical checks; entropy recomputed as 2 log phi.",
+   "log_says": "PROGRESS_LOG/REVIEWS.md 2026-08-12: 'B1037 (sealed): the theta-join DISTINCT...' -- refers to the OTHER B1037 (theta_join) arc, not this band-disposition arc; no log entry separately narrates the 37-rows/17-statements content, though Review 44's promotion-sweep line lists 'B1037 DISTINCT (prior wrong, recorded in the open)' which is again the theta-join verdict, not this arc's.",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "37 debt rows in band B100-B199; 27 cluster into 7 laws, 10 standalone", "where": "verify.py checks; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mechanical row count/clustering over committed DEBT_LEDGER content"},
+    {"what": "the cat map's topological entropy is 2 log phi (not 4 log phi)", "where": "results.json 'the_cat_maps_entropy_is_2_log_phi', h_top=0.9624236501192069", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary eigenvalue computation of A=[[2,1],[1,1]]"},
+    {"what": "B109 computes 4 log phi for the trace map's linearisation at the void, a different object", "where": "cited from B109's own FINDINGS, phrase-matched", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "relies on B109's own committed claim being accurately quoted, not independently rederived here"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Mostly a documentation-consolidation pass (row clustering, retraction-vs-restoration triage) with one small independent recomputation (the entropy arithmetic).",
+   "absence_claims": [
+    {"quote": "Thirteen arcs of instrument audit had produced zero dispositions", "where": "FINDINGS.md header, re: DEBT_LEDGER's own closing line"},
+    {"quote": "Nothing here is our discovery; the methods are cited", "where": "FINDINGS.md section 4, quoting B100's own headline (declined-process)"},
+    {"quote": "no mechanism is claimed", "where": "FINDINGS.md section 4, quoting B106's own headline (declined-process)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This is a meta-consolidation/triage pass over documentation debt rows, not a physics computation; only the entropy recomputation is independently verifiable math.", "where": "whole arc"}
+   ],
+   "seat_note": "The B123-retraction catch (avoiding restoring a refuted claim) and the B1036 misattribution sharpening are genuinely useful documentation hygiene, but nothing here is a physical prediction; it is bookkeeping about which prior claims to keep or drop."
+  },
+  {
+   "arc": "B1038_retrieval_typing",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "b1038_verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- verification arc: the audit seat's at-risk census reproduced exactly (54 decimal-banking claim lines / 23 invariance-mentioning / 31 at-risk, internally consistent); the synonym-set principle verified with criterion difference stated (192+3 union mentions vs 12+7=19 checks-run floor); three instruments installed (pi/6 two-referent TERMINOLOGY row, point-of-use citation practice, B1027 Jarlskog refresh note).",
+   "log_says": "PROGRESS_LOG 2026-08-12: 'B1038: the at-risk census reproduced exactly (54/23/31); the synonym principle verified with criteria unconflated; the pi/6 row, the point-of-use practice, and the B1027 refresh notes installed.' Matches FINDINGS.md exactly.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "54 claim lines banking a 3+dp decimal; 23 mentioning invariance keywords; 31 at-risk (without)", "where": "b1038_verify.py v1_census()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "regex scan over all frontier/*/arc_verdict.json committed files, runnable by a stranger"},
+    {"what": "gauge-vocab-mention union count = 193 (a looser floor than the audit seat's 19 checks-run figure)", "where": "b1038_verify.py v2_gauge_aware_floor()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "regex scan over FINDINGS.md files, deterministic and rerunnable"},
+    {"what": "pi/6 row, point-of-use practice, Jarlskog note are present in TERMINOLOGY.md/PRACTICES.md/CROSSING_REQUIREMENTS.md", "where": "b1038_verify.py v3_docs_installed()", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "simple string-presence checks against committed docs"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This is explicitly a verification arc (instrument=true): it re-runs a census over committed claim files rather than computing new physics; script and evidence are both committed and re-runnable.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A clean, self-declared meta-verification arc (audits the corpus's own claim-retrieval discipline); contains no physics content of its own, and is transparent about that (instrument:true)."
+  },
+  {
+   "arc": "B1038_tower_restored",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE TOWER CLUSTER RESTORED: rho_n = Sym^n(W) + (Sym^{n-3}(W) - W) for external W=V+1; dimension surplus vanishes iff n=4 (roots {-1,4}); grading is external not principal (det=-1 alternating parity, inequivalent for every n>=3). Re-verified before restoring: the functorial hinge Sym^a(V+1) = sum_{k<=a} Sym^k(V) (a=0..8); the two bands assembling to n^2-1 (symbolic + pointwise n=3..14); staircase mu_d (n=3..9); det Sym^d against explicit matrices d=1..4; an instrument control (two independent routes to the Sym character agree). OPEN, named: the module-level proof for general n (only n=3,4 proved; character level holds to n=11).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "dimension surplus (n+1)(n+2)/2 - (n^2-1) = -(n-4)(n+1)/2, zero iff n=4", "where": "verify.py symbolic check in n; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic polynomial identity, checked in sympy and readable directly"},
+    {"what": "Sym^a(V+1) = direct sum_{k<=a} Sym^k(V) verified for a=0..8", "where": "verify.py; results.json (13 checks, all symbolic)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit character/module decomposition checked functorially over GL(2), addressing B122's flagged gap"},
+    {"what": "det Sym^d(M) = (det M)^{d(d+1)/2} verified against four explicit matrices, d=1..4", "where": "verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct matrix computation rather than quoting the standard formula"},
+    {"what": "module-level proof for general n (beyond n=3,4)", "where": "FINDINGS.md 'Open' section, citing B122 calling it 'the prize'", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "explicitly stated as an open gap, not claimed as proved -- correctly flagged rather than papered over"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verify.py performs its own symbolic sympy computations (13 checks, all symbolic) plus an instrument control (two independent routes to the Sym character must agree) -- genuine independent recomputation before restoring a previously-shelved claim.",
+   "absence_claims": [
+    {"quote": "the module-level proof for general n -- B122 calls it 'the prize.' Character level holds to n = 11; module level is proved only at n = 3,4.", "where": "FINDINGS.md closing paragraph"},
+    {"quote": "B103's tower construction is not rebuilt.", "where": "FINDINGS.md section 3"},
+    {"quote": "B118's Bourbaki fixed-root computation is not re-run.", "where": "FINDINGS.md section 3"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuinely careful restoration: it recomputes the functorial hinge that a prior pass had merely asserted as 'automatic', adds an instrument control, and explicitly names what remains open (general-n module-level proof) rather than upgrading the claim past its evidence. Representation-theoretic content only, no observable prediction."
+  },
+  {
+   "arc": "B1039_v_valued_residual",
+   "source": "main",
+   "files_read": ["ADDENDUM_2026-08-12.md", "ARTIFACT_HASHES.txt", "FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b1039_cells.py", "b1039_output.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE V-VALUED RESIDUAL (sealed 874d9eee pre-compute): EXISTENCE NO, prior held. All fifteen symmetric pairs of the double's five classes, on both sides and in the MV difference, are exactly zero (functional read; W1 coboundary control PASS; h1(dbl)=5 reproduced as entry gate). The antisymmetry wall is sector-complete on the double (solo B632, scalar/seam B1036, V-valued B1039). SEAM-LOCALITY forbid: NO TEST (conditional cell void with empty support). ADDENDUM (same day): the seam-locality question was structurally unreachable by this arc's MV machinery regardless of outcome (exactness permits only two sources for H1(D)) -- reclassified as a CONSISTENCY CHECK on the forbid, not a test of it; F1's status is UNTESTED not confirmed.",
+   "log_says": "PROGRESS_LOG 2026-08-12: 'the wall completes on the double... Sealed verdict NO (prior held): the V-valued symmetric support is empty -- fifteen pairs, all zero, functional-read, control PASS.' A second entry explicitly logs the ADDENDUM: 'B1039's X4 addendum (consistency check; seam-locality forbid UNTESTED)'. REVIEWS.md Review 44 explicitly discusses the addendum as a channel-timing issue, not a seal-order failure. Both the FINDINGS and the addendum are reflected in the log.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "h1(dbl;27)=5, class kinds ['seam-born','seam-born','glued','glued','glued']", "where": "b1039_cells.py double-Fox block; witness b1039_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "reuses B632's cell-2 banked machinery by exec but computes the double's cohomology fresh, with a plaintext output log committed"},
+    {"what": "all 15 symmetric pairs (M, Mbar, double) are exactly zero", "where": "b1039_cells.py W2/W3; b1039_output.txt full table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit per-pair functional evaluation printed in the witness log, each showing 'M 0 | Mbar 0 | dbl absent'"},
+    {"what": "the Mayer-Vietoris exactness argument that H1(D) has only two possible sources, making non-seam-attributable structure structurally unreachable", "where": "ADDENDUM_2026-08-12.md", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a mathematical argument stated in prose (exact sequence reasoning), not itself re-verified by a script in this arc"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "b1039_cells.py reuses B632's banked machinery via exec (not rebuilt) but performs its own fresh double-cover cohomology and functional-pairing computation with a full non-gitignored witness log (b1039_output.txt).",
+   "absence_claims": [
+    {"quote": "with empty support there is nothing to classify. The forbid is neither passed nor failed", "where": "FINDINGS.md, SEAM-LOCALITY section"},
+    {"quote": "New structure not attributable to the seam is therefore not a possible outcome of an MV computation -- the forbidden result of the seam-locality forbid... was structurally unreachable by this arc's machinery", "where": "ADDENDUM_2026-08-12.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-disciplined negative result (existence NO across all sectors of the double) with a genuine control (W1) and an honest same-day addendum correcting the scope of what the seal actually tested; this is cohomological bookkeeping toward a hoped-for mass term, with no observable value derived yet."
+  },
+  {
+   "arc": "B1039_phi_fixed_and_metallic_exponent",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": ["verify.py (first 120 lines + grepped def/assert/print/sympy)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- TWO MORE CLUSTERS RESTORED, AND RE-VERIFYING THEM FOUND TWO DEFECTS. DEFECT 1: B141's slogan 'finite image => reducible tower' is FALSE as stated -- SL(2,3) (order 24, finite) has irreducible Sym^2; the real bound is max irrep dimension d (2 for Q8, 3 for SL(2,3)), sharp at n=3; B141's conclusion (Q8 case) survives, only its stated mechanism was too strong. DEFECT 2: B142's Klein-4 one-line proof has an unstated semisimplicity hypothesis (a Jordan-form counterexample with the same spectrum is not an involution); the universal Klein-4 group identity is verified here for the first time (order 4, trivial commutator). Also re-derives the phi-fixed selection (bridge map (x,y,z)->(z,x,xz-y), exactly two fixed points, kappa=+-2, forcing Q8) and the metallic-exponent peripheral identity (free-group identity verified m=1..10, meridian exponent forced uniquely at k=m). Discovers and fixes its OWN instrument bug: sym_power built by direct substitution was an anti-homomorphism, caught only by its own control (functoriality + det formula), with no downstream numbers affected. Notes a prior open question (B141 Item 4) had actually been closed 400 arcs later by B564, missed because B564 sits outside the band being dispositioned.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "SL(2,3) (order 24) is finite with irreducible Sym^2 (algebra dim 9 of 9), refuting 'finite image => reducible' as a general implication", "where": "FINDINGS.md section 1, DEFECT 1 table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "described as 'computed here, from scratch'; verify.py is SAMPLE_CODE-mode read only (not fully read) so the exact computation was not independently traced line-by-line here"},
+    {"what": "the Jordan matrix diag(1) + [[-1,1],[0,-1]] has spectrum {1,-1,-1}, det 1, and is not an involution", "where": "FINDINGS.md section 1, DEFECT 2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "an explicit small matrix computation, easily reproducible"},
+    {"what": "phi_m([A,B]) = A^m [A,B] A^-m verified by word reduction for m=1..10", "where": "FINDINGS.md section 3", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "verify.py only sampled (first 120 lines + grep), not read in full, so the free-group word-reduction implementation itself was not directly inspected"},
+    {"what": "the sym_power instrument bug (anti-homomorphism due to direct coordinate substitution) found by its own control and fixed via M^T", "where": "FINDINGS.md self-correction section", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "narrated in FINDINGS as a self-caught bug; the exact diff/fix was not independently verified since verify.py (26990 bytes) was only sampled, not read whole"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Extensive genuine recomputation is claimed (34 checks, symbolic + group-theoretic), including a self-caught instrument bug -- a strong positive signal for rigor, but this reader only sampled verify.py (SAMPLE_CODE mode per packet) rather than reading it in full, so the claims rest on FINDINGS.md's narration plus a partial code read.",
+   "absence_claims": [
+    {"quote": "The universally quantified statement -- two involutions whose product is an involution commute -- is verified here for the first time", "where": "FINDINGS.md section 1, DEFECT 2"},
+    {"quote": "the induction for general m was never written down, and that gap is carried, not closed", "where": "FINDINGS.md section 3"},
+    {"quote": "no CAS here finishes that Groebner computation, which was B157's premise in the first place", "where": "FINDINGS.md section 5"},
+    {"quote": "This arc restored the cluster's own open question as open when it had been settled four hundred arcs later. ... Only a corpus-wide search on the TOPIC finds it -- which is exactly what banding by B-number prevents.", "where": "FINDINGS.md section 5, correction note on B141 Item 4 / B564"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "verify.py (26990 bytes) was read only in SAMPLE_CODE mode per the packet's file-mode assignment; the load-bearing computations (SL(2,3) irreducibility, m=1..10 word reduction, the contravariance bug fix) are narrated in FINDINGS.md but not independently traced through the full script by this reader.", "where": "verify.py"}
+   ],
+   "seat_note": "If the narration is accurate this is an excellent example of the corpus's own self-correction machinery working (a false general slogan narrowed, an unstated hypothesis surfaced, an instrument bug self-caught by its own control) -- but the read here was partial (sampled code only) and the deepest computational claims were not independently traced."
+  },
+  {
+   "arc": "B1040_fl4_observer_battery",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b1040_ledger.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- FL-4 (sealed e358be1b pre-compute): a 12-row structured-reading ledger over the observer construction (B700, B733, B735->B723, B766, B782). V1: 0 of 11 decidable steps are omega-essential (never consumes mu_6's Z/3); the (sqrt-3) door contributes zero observer bits. V2: every step's template transplants verbatim to the mu_2 sister fields (values change as numbers, not structure); S3 alone has no template. V3: the split is total -- every template STANDS object-deletion, every selection COLLAPSES. Conclusion: observer-as-template = the field; observer-as-instance = the object. Typed corollary: the observer construction cannot carry the trit (Z/3 lives on the coupling side, not the observer side).",
+   "log_says": "PROGRESS_LOG 2026-08-12: 'B1040 (FL-4): the template/selection split is total. Sealed e358be1b, pushed both before compute.' REVIEWS.md Review 45: 'RAN AS SEALED -- B1040, the total template/selection split; the observer cannot carry the trit.' Consistent with FINDINGS.md.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "0 of 11 decidable steps consume mu_6's Z/3 (all are Z/2-machinery or neither)", "where": "b1040_ledger.md, the 12-row table, adjudicated from cited arcs' FINDINGS text", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "explicitly a 'structured-reading adjudication' of banked prose from other arcs (B700, B733, B735, B766, B782), not a code computation -- no script/output file is listed among this arc's files; the classification (Z/2 vs Z/3 vs neither) per step is a textual judgment quoting each source arc's own FINDINGS sentence"},
+    {"what": "S3 (the geometric-characters torsor) has no template and collapses wholly under object deletion", "where": "b1040_ledger.md row S3, citing B713/B701", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "relies on B701's own stated thesis being accurately summarized, not independently rederived"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No verify.py/results.json/output witness file exists for this arc among its 4 committed files -- the entire adjudication is a structured prose reading of five other arcs' FINDINGS text, tabulated as a ledger. This is the arc's own stated method ('a compute is a structured-reading adjudication... evidence quoted per row'), not a computation.",
+   "absence_claims": [
+    {"quote": "The object-level observer (m004's own Bianchi KMS/Galois + cusp) is UNBUILT (B735's sentence) and NOT covered by this ledger -- if it is ever built, it enters the battery as a new arc, and it is the one place an omega-consumption could still appear.", "where": "FINDINGS.md, Scope and honesty section"},
+    {"quote": "A step whose consumption could not be decided from the banked text alone would have been marked UNDECIDABLE -- none needed the mark", "where": "FINDINGS.md, Scope and honesty section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "No script, results.json, or output log accompanies this arc's ledger; the classification of each of the 12 steps (Z/2 vs Z/3 vs neither; template vs selection) is a prose judgment quoted from other arcs' FINDINGS text rather than a computed or mechanically checked property.", "where": "b1040_ledger.md (whole file); no verify.py present among the 4 committed files"}
+   ],
+   "seat_note": "This is a careful, well-scoped literature-synthesis exercise (reading five prior arcs and cross-tabulating what each construction step consumes) but it is fundamentally an interpretive adjudication of prose, not a computation -- the load-bearing claim ('the observer cannot carry the trit') rests on correctly summarizing five other arcs' own self-descriptions, with no independent check of those descriptions against their underlying code."
+  },
+  {
+   "arc": "B1040_isomonodromy_restored",
+   "source": "claude/new-session-qor5up",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- THE ISOMONODROMY CLUSTER RESTORED, AND THE CLUSTER'S OWN [exact] TAG DOES NOT SURVIVE CONTACT. dim=6g-6+2n=2 holds only at (1,1) and (0,4) (re-proved here as a 2-line argument, previously carried only by citation -- a repo search for '6g-6' found exactly two hits, neither a computation). The Jimbo-Fricke cubic's three Vieta involutions re-derived as preserving Phi symbolically in all 7 variables; kappa=tr[A,B]=lambda+1/lambda derived exactly, unifying B150's class-S cubic with the seed's kappa level sets. THREE CORRECTIONS: (i) B169's P1 [exact] tag is on the algebra (eigenvalue identity), not the dynamical-degree IDENTIFICATION, which is Cantat-Loray's theorem carried by citation; (ii) the dim-count was carried by citation and is proved here for the first time in-repo (though the fact itself is classical, per OPEN_LEADS.md's own admission); (iii) B169's two P3 checks 'assert True literally' rather than computing -- scale-freeness is checked here for the first time via ODE homogeneity, but the verdict stays POSTULATED. Numerical Schlesinger-flow drift (4.25e-10) re-run via B169's own reproducer, validated against a non-Schlesinger control (1.63e1, ratio ~4e10). A previously-passing lock in a DIFFERENT arc (B1033) broke because this restoration crossed an absolute-count threshold (198/216 > 200 dropped) -- fixed by converting the lock to a share bound (>0.85).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "dim = 6g-6+2n = 2 holds only at (1,1) and (0,4) (2-line exhaustive argument)", "where": "FINDINGS.md section 2(ii); verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary Diophantine argument (3g+n=4, 2g-2+n>0) laid out fully in FINDINGS and presumably checked in verify.py"},
+    {"what": "the three Vieta involutions preserve Phi symbolically in all 7 variables; composite s_y . s_x is NOT an involution", "where": "verify.py symbolic checks; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic sympy verification described as re-derived, not quoted"},
+    {"what": "kappa = tr[A,B] = lambda + 1/lambda exactly", "where": "verify.py; FINDINGS.md section 1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "algebraic identity, stated as re-derived here"},
+    {"what": "B169's P1 [exact] tag mislabels an identification (Cantat-Loray's theorem) as if the eigenvalue algebra alone proved it", "where": "FINDINGS.md section 2(i)", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "a grading/labeling critique of another arc's tag, a textual judgment not a computation"},
+    {"what": "Schlesinger flow max invariant drift 4.25e-10 vs non-Schlesinger control 1.63e1", "where": "FINDINGS.md section 3, re-run via B169's own reproducer", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "invokes B169's reproducer script rather than reimplementing; the numeric values are stated as re-measured here but the reproducer script itself lives in B169's arc, not independently re-verified in this read"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "17 checks, described as symbolic re-derivations plus a re-run numerical control; genuinely distinguishes what was recomputed (the algebra, the dimension count, scale-freeness homogeneity) from what remains carried by citation (Painleve-VI itself, the dynamical-degree identification, the Hitchin/Higgs side flagged NEEDS-SPECIALIST).",
+   "absence_claims": [
+    {"quote": "No Picard lattice and no homological action is computed anywhere in the cluster.", "where": "FINDINGS.md section 2(i)"},
+    {"quote": "A repo-wide search for `6g−6` returns exactly two hits, neither a computation.", "where": "FINDINGS.md section 2(ii)"},
+    {"quote": "B169's two P3 checks pass `True` literally -- they assert, they do not compute.", "where": "FINDINGS.md section 2(iii)"},
+    {"quote": "the 'exactly two cubic surfaces' dim-count is classical-known ... not a discovery", "where": "FINDINGS.md section 2(ii), quoting docs/OPEN_LEADS.md:209"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "B169's P1 was tagged [exact] for what is actually only an eigenvalue-algebra computation; the substantive identification (lambda_m^2 as the dynamical degree) is Cantat-Loray's theorem, carried by citation, not computed anywhere in the cluster -- caught and corrected by this restoration arc.", "where": "B169 (cited, corrected here in FINDINGS.md section 2(i))"},
+    {"kind": "NO_TEST", "detail": "B169's two P3 checks 'pass True literally' (i.e. assert a hardcoded True rather than computing anything) -- caught and replaced here with a real homogeneity check.", "where": "B169 (cited, corrected here in FINDINGS.md section 2(iii))"}
+   ],
+   "seat_note": "One of the stronger examples in this batch of the corpus's stated self-audit discipline actually catching a real defect: a computation that a prior arc tagged [exact] turns out to be an algebra identity standing in for an uncomputed literature-cited identification, and two checks that merely asserted True are replaced by an actual homogeneity check. Still purely structural/mathematical (Painleve-VI monodromy, Jimbo-Fricke cubic), no observable physical quantity."
+  },
+  {
+   "arc": "B1041_theta_leg",
+   "source": "main",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "b1041_cells.py", "b1041_output.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- PM1/L160's theta-leg (sealed 165d8ef5 pre-compute): the Galois cube (B704), operation cube (B766) and closings cube (B782) are ONE (Z/2)^3 at direction level. Coordinate-permutation dictionary is IMPOSSIBLE (0 of 6, exhaustive -- c flips 2 axes, sigma_-3 flips 1 radical, cardinality mismatch). A linear intertwiner L exists, is unique given the forced generator assignment Phi, is invertible, and all 8 affine liftings pass the full 3x8 equivariance table. theta<->sqrt(-7) HOLDS inside L. New structure: chirality's side maps to the being+E6 DIAGONAL (s-3+s-7), not a single leg; the chord's direction maps to s-7 pure even though its geometric value is sqrt3 -- resolved as basis-color vs torsor-direction being different attributes.",
+   "log_says": "PROGRESS_LOG 2026-08-12: 'B1041 (PM1): the theta-leg exhibited with its typed obstruction. Sealed 165d8ef5, pushed both pre-compute.' REVIEWS.md Review 45: 'RAN -- B1041, EXHIBITED obliquely (0/6 coordinate dictionaries); L160 closed.' Consistent.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "0 of 6 coordinate-permutation dictionaries intertwine Phi (exhaustive over permutations)", "where": "b1041_cells.py V2a; b1041_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact F2 linear algebra over a finite, exhaustively enumerated search space (itertools.permutations), with a plaintext witness log committed"},
+    {"what": "L(e_T4)=(1,0,1), L(e_T6)=(0,0,1), L(e_T3)=(0,1,0); L invertible over F2 (rank 3); all 8 affine liftings pass the 3x8 equivariance table", "where": "b1041_cells.py V2b; b1041_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact finite F2 computation, fully printed in the witness log"},
+    {"what": "the input translation vectors (c,theta,gamma5 flip-sets on closing axes; sigma signs on radicals) are taken as banked from B766/B704", "where": "b1041_cells.py header comments citing B766's action table", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "the raw flip-vector inputs (v dict, w dict) are hardcoded from B766's/B704's prior claims, not recomputed from those arcs' own machinery in this script"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Exact finite F2 linear algebra (no numerics), fully exhaustive over the small search space, with committed witness log b1041_output.txt (not gitignored).",
+   "absence_claims": [
+    {"quote": "Elimination is not exhibition... this cell's entire content is the COMPATIBILITY check.", "where": "PREREGISTRATION.md, banked substrate section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The core pairing theta<->sqrt(-7) is established by elimination (two legs already banked, one radical left) plus a finite compatibility check that the remaining assignment is consistent -- the underlying input vectors (which axis each operation flips, which radical each sigma negates) are hardcoded from prior arcs' claims rather than derived fresh here, so the 'exhibition' is really a consistency verification of a type/cardinality-matched labeling, not an independent derivation of the correspondence.", "where": "b1041_cells.py header (v, w, Phi dicts) citing B766/B704"}
+   ],
+   "seat_note": "A tight, exhaustively-checked finite computation with a full witness log, but the underlying correspondence (theta<->sqrt(-7)) was forced by elimination from two other arcs' banked claims rather than independently derived; the arc is honest about this ('elimination is not exhibition') and restricts its claim to the compatibility check, which is good practice."
+  }
+ ]
+}

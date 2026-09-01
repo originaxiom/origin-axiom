@@ -1,0 +1,95 @@
+{
+ "B790": {
+  "m004": {
+   "n": 134,
+   "n_real_lengths": 70,
+   "max_mult": 39
+  },
+  "m003": {
+   "n": 150,
+   "n_real_lengths": 77,
+   "max_mult": 30
+  }
+ },
+ "B777": {
+  "m004": {
+   "vol": 2.029883212819307,
+   "sym": "D4",
+   "order": 8,
+   "amphicheiral": true
+  },
+  "m003": {
+   "vol": 2.029883212819308,
+   "sym": "Z/2 + Z/4",
+   "order": 8,
+   "amphicheiral": true
+  },
+  "m025": {
+   "vol": 3.0448248192289604,
+   "sym": "Z/6",
+   "order": 6,
+   "amphicheiral": true
+  },
+  "m009": {
+   "vol": 2.6667447834490603,
+   "sym": "Z/2 + Z/2",
+   "order": 4,
+   "amphicheiral": false
+  },
+  "m010": {
+   "vol": 2.66674478344906,
+   "sym": "Z/2 + Z/2",
+   "order": 4,
+   "amphicheiral": false
+  },
+  "b++RRLL": {
+   "vol": 3.6638623767088765,
+   "sym": "D4",
+   "order": 8,
+   "amphicheiral": true
+  },
+  "m015": {
+   "vol": 2.8281220883307827,
+   "sym": "Z/2 + Z/2",
+   "order": 4,
+   "amphicheiral": false
+  },
+  "m016": {
+   "vol": 2.828122088330783,
+   "sym": "Z/2",
+   "order": 2,
+   "amphicheiral": false
+  }
+ },
+ "B850": {
+  "m004": {
+   "n": 50,
+   "max": 12,
+   "mean": 4.58
+  },
+  "m003": {
+   "n": 52,
+   "max": 12,
+   "mean": 4.019230769230769
+  },
+  "m136": {
+   "n": 60,
+   "max": 11,
+   "mean": 3.9166666666666665
+  },
+  "m009": {
+   "n": 54,
+   "max": 11,
+   "mean": 3.888888888888889
+  },
+  "m015": {
+   "n": 91,
+   "max": 6,
+   "mean": 2.3516483516483517
+  }
+ },
+ "B894": {
+  "nfdisc": "6237",
+  "index": 1
+ }
+}

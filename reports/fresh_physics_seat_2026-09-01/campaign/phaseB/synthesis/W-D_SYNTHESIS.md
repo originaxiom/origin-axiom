@@ -68,8 +68,9 @@ all with committed scripts that run on this bench without Sage:
 | R34 | B252 E6 27 complex / 78 real | MATCH (textbook) |
 | R35 | B3/B127/B129/B147/B197/B212/B258/B321/B322/B326 census rows | nine MATCH; B258's "silver non-arithmetic" inference REFUTED (trace field vs invariant trace field; silver is arithmetic, as B147 says) |
 | R36 | B331/B333/B335/B406/B486/B488/B489/B509/B510/B520 | seven MATCH; B333's discriminant count wrong (sign bug: 14/123 → 16/122), verdict unchanged |
+| R37 | B790/B777/B850/B894 | three MATCH; B850's multiplicity numbers are word-count artefacts (SnapPy: 12/12/11/11/6, not 4/3/4/8/2) |
 
-Physics content of all seven: none. Each is arithmetic or representation theory of the object; none names a
+Physics content of all eight: none. Each is arithmetic or representation theory of the object; none names a
 measurable quantity. "No observable content."
 
 ## 5. The reader red flags by kind (auto, `SUMMARY.md`)

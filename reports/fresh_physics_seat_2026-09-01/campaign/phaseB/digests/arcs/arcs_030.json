@@ -1,0 +1,535 @@
+{
+ "batch": "arcs_030",
+ "arcs": [
+  {
+   "arc": "B533_coupling_invariance",
+   "source": "main",
+   "files_read": [
+    "frontier/B533_coupling_invariance/FINDINGS.md",
+    "frontier/B533_coupling_invariance/PREREGISTRATION.md",
+    "frontier/B533_coupling_invariance/arc_verdict.json",
+    "frontier/B533_coupling_invariance/audit_fable5_part4b.py",
+    "frontier/B533_coupling_invariance/audit_fable5_part4c.sage.py",
+    "frontier/B533_coupling_invariance/probe2_five_types.py",
+    "frontier/B533_coupling_invariance/probe5_number_field.py",
+    "frontier/B533_coupling_invariance/probe7_sm_ratios.py"
+   ],
+   "files_sampled": [
+    "frontier/B533_coupling_invariance/audit_fable5_reverify.py",
+    "frontier/B533_coupling_invariance/probe1_coupling_invariance.py",
+    "frontier/B533_coupling_invariance/probe3_type_algebra.py",
+    "frontier/B533_coupling_invariance/probe4_coupling_geometry.py",
+    "frontier/B533_coupling_invariance/probe6_scale_question.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The coupling is not a gauge choice: 34 observation points fall into exactly 5 depth-stable Perron types, each an integer combination of the letter frequencies.\"",
+   "log_says": "16 log entries track B533 through the Fable-5 audit (1 refutation, 3 upgrades) and later note the 'exactly 5 types' scope was corrected to 6 by B535.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "5 (then 6, per B535) Perron observation types, census counts 14/10/4/3/3", "where": "FINDINGS.md census table + probe1/probe2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "committed probe scripts + tests/test_b533.py; independently reproduced by an in-house audit with a separate string-based engine"},
+    {"what": "GL(4,ℤ) single conjugacy class (S2), reversing the original Gate-1 claim", "where": "FINDINGS.md S2, audit_fable5_part4b.py/part4c.sage.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Latimer-MacDuffee + explicit conjugator matrices verified exactly in sage/sympy; committed"},
+    {"what": "β = 1/(√φ−1), eigenvalue identities, disc = −400, h(ℚ(√φ))=1", "where": "FINDINGS.md S5-S10, 'h=1 PROVED end-to-end'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "symbolic sympy proof plus a from-scratch Dedekind/Minkowski argument, exact"},
+    {"what": "Gate 3: 7 of 21 SM ratios land within 1.2e-4 of a low-height ℤ[τ] combination, judged noise", "where": "FINDINGS.md Gate 3, probe7_sm_ratios.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "lattice search is exactly the kind of fit that can manufacture near-matches; the arc itself flags and corrects a range-mismatched false-positive control (original showed 7 vs 1.2 expected; corrected control shows no excess) — the self-correction is documented and reproducible from probe7 + the audit script"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b533.py (408 lines) exists and pins the exact identities; the Fable-5 audit is an independent second engine re-deriving the census and eigenvectors from scratch.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "FITTED_VALUE", "detail": "Gate 3's SM-ratio matching is a coefficient-lattice search over |a+bτ+cτ²+dτ³−R|; such searches inherently manufacture near-matches, and the arc's first false-positive control was itself miscalibrated (range mismatch) before being corrected in the same document. Recorded honestly, but the mechanism is a caution for any future 'ratio in ℚ(τ)' claim.", "where": "FINDINGS.md Gate 3 and 'Fable-5 Audit' correction of the false-positive control"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B533's headline claim is literally 'exactly 5 types'; this is corrected to 6 types by B535 for length-5 windows. FINDINGS.md itself carries the correction inline ('Census completion (B535...)'), so it is NOT unmarked in this file — but the arc_verdict.json claim_one_line still reads 'exactly 5 depth-stable Perron types' with no reference to the B535 correction, so a reader of only the verdict file would be misled.", "where": "arc_verdict.json claim_one_line vs FINDINGS.md 'Census completion (B535, 2026-07-12)' paragraph"}
+   ],
+   "seat_note": "The self-audit-and-correct discipline here is genuinely strong (S2 reversed, eigenvalue pair corrected, mixing law upgraded to exact) and the Gate-3 SM-ratio search is honestly null after control repair. But the arc_verdict.json's one-line claim is now stale relative to B535's correction, and the physics content is limited to a documented non-match with SM constants — a negative result, not a prediction."
+  },
+  {
+   "arc": "B534_dark_hyperbola",
+   "source": "main",
+   "files_read": [
+    "frontier/B534_dark_hyperbola/FINDINGS.md",
+    "frontier/B534_dark_hyperbola/arc_verdict.json",
+    "frontier/B534_dark_hyperbola/exact_verify.py",
+    "frontier/B534_dark_hyperbola/pin_conventions.py",
+    "frontier/B534_dark_hyperbola/scan_theta.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Dark-hyperbola theorem proved for all odd primes: T(j,l)=0 ⟺ jl≡−4 except the (2,−2) survivor, magnitude spectrum exactly {0,1,√p}.\"",
+   "log_says": "9 log entries; corroborated at scale by B566 (N=p^2 recursive law) and cited by Review 32 as re-verified rather than trusted from its own arc.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "T(j,l)=0 ⟺ jl≡−4 mod p, exactly p−2 dark points, magnitude spectrum {0,1,√p}", "where": "FINDINGS.md Theorem 1, exact_verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact integer group-ring counting (ℤ[x]/(x^p−1)), zero floats, verified at all 12 odd primes 3-41 in committed exact_verify.py, plus a full symbolic Gauss-sum proof in FINDINGS.md"},
+    {"what": "H1 = ℤ/3 ⊕ ℤ/15 (Smith normal form of A1^4−I)", "where": "FINDINGS.md Theorem 4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact integer Smith form, no SnapPy dependency"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b534.py (129 lines) locks the theorem statements; the arc itself frames this as upgrading an earlier float-verified handoff to exact/symbolic.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Clean, self-contained exact number theory with a genuine proof and committed exact verification; the arc explicitly firewalls itself as 'nothing to CLAIMS as physics,' which is the correct call — no measurable quantity is named."
+  },
+  {
+   "arc": "B535_coupling_space",
+   "source": "main",
+   "files_read": [
+    "frontier/B535_coupling_space/FINDINGS.md",
+    "frontier/B535_coupling_space/PREREGISTRATION.md",
+    "frontier/B535_coupling_space/arc_verdict.json",
+    "frontier/B535_coupling_space/c1_census_saturation.py",
+    "frontier/B535_coupling_space/c2_one_measurement.py",
+    "frontier/B535_coupling_space/c3_relations_catalog.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"One measured Perron number plus the object's own grammar determines the substitution uniquely up to conjugacy; the coupling census saturates at 6 Perron types.\"",
+   "log_says": "12 entries; corrects B533's '5 types' to 6, notes the one-measurement theorem was independently reproduced end-to-end by chat-2, and records a lit-gate scoping the reconstruction result as rigidity-adjacent (not fully novel).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Census saturates at 6 Perron types / 7 canonical systems at window length 5", "where": "FINDINGS.md C1, c1_census_saturation.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit table of counts per window length against a committed script; matches B530's independent induction census"},
+    {"what": "17,280 matrix lifts → 16,848 distinct languages → 8 grammar survivors → 2 language survivors (σ and its conjugate)", "where": "FINDINGS.md C2, c2_one_measurement.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit enumeration with counts at each filtering stage; independently reproduced end-to-end by a second author (chat-2) with fresh code per the log"},
+    {"what": "17 read-out components all degree 4 over ℚ, with explicit inverse cubics", "where": "FINDINGS.md C3, c3_relations_catalog.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "adjugate-over-ℚ(τ) exact computation, explicit polynomials given"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b535.py referenced; the one-measurement theorem was separately reproduced by an independent implementation per the log, which is a stronger belt than a self-test.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "B535's own census (6 types, 7 systems, saturating at window length 8) is later shown by B540 to be window-length-limited: the observer flow finds 5 more canonical systems (12 total) beyond windows of length 8. FINDINGS.md's C1 header still reads 'The coupling space is FINITE and now fully mapped' with no inline correction pointing to B540's supersession (B540's own verdict.json lists 'supersedes: B535', so the linkage exists in the registry but not as text edited into this file).", "where": "FINDINGS.md C1 vs frontier/B540_observer_flow/FINDINGS.md 'honest correction'"}
+   ],
+   "seat_note": "The one-measurement / grammar-determines-σ result is a genuinely interesting, independently reproduced combinatorial rigidity fact, correctly scoped by the Durand lit-gate as a refinement of known substitution rigidity rather than a new theorem; purely structural, no physics content of its own."
+  },
+  {
+   "arc": "B536_measurement_verify",
+   "source": "main",
+   "files_read": [
+    "frontier/B536_measurement_verify/FINDINGS.md",
+    "frontier/B536_measurement_verify/arc_verdict.json",
+    "frontier/B536_measurement_verify/verify_phase23.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Verification deflates the measurement-architecture handoff: period 6 not reproduced, entanglement conservation trivial by CRT factorization, darkness elimination generic.\"",
+   "log_says": "4 entries; treated as the completion/deflation of a seat-1 handoff, later folded into a 'two-descriptions split' theorem in a subsequent arc.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Commutant of {Par,W1,W2} = 4, adding Par gives 1 (irreducibility, 224 observables)", "where": "FINDINGS.md F1", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit operator computation in verify_phase23.py"},
+    {"what": "Seat-1's period-6 finding NOT reproduced (natural lift gives period 20)", "where": "FINDINGS.md F2", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the arc states seat-1's original construction was unspecified, so the discrepancy cannot be fully adjudicated from committed files alone — this is an honest non-reproduction, not a contradiction, but it means the original F2 claim has no committed reproducible witness anywhere"},
+    {"what": "U = U3 ⊗ U5 exactly (CRT tensor factorization, residual 6e-15)", "where": "FINDINGS.md F3", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numeric tensor-residual check in verify_phase23.py"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b536.py locks the six findings; this arc is itself a verification/deflation pass over an earlier (uncommitted-detail) handoff.",
+   "absence_claims": [
+    {"quote": "Seat-1's operator construction was unspecified; period 6 is convention-dependent. UNVERIFIED-AS-STATED.", "where": "frontier/B536_measurement_verify/FINDINGS.md, F2 row"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The original seat-1 claims (period 6, S = 1.0620) have no committed, specified construction anywhere in this arc's files — they are handoff assertions that this arc could not reproduce because the convention was never pinned down. The negative verdict is honest, but it means the earlier positive claims were never actually reproducible from committed code in the first place.", "where": "frontier/B536_measurement_verify/FINDINGS.md F2/F3 rows"}
+   ],
+   "seat_note": "A useful deflation: two headline numbers from an earlier handoff (period 6, entanglement S=1.0620) evaporate under a natural, well-specified reconstruction, and the rest is confirmed but explicitly labeled 'generic' or 'trivial' rather than special — appropriately modest, and firewalled from any Big-Bang interpretive claim."
+  },
+  {
+   "arc": "B537_classical_phantom",
+   "source": "main",
+   "files_read": [
+    "frontier/B537_classical_phantom/FINDINGS.md",
+    "frontier/B537_classical_phantom/arc_verdict.json",
+    "frontier/B537_classical_phantom/phantom_proof.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"(1,1,5) is proved to be a phantom ... at level c=22, not 32.\"",
+   "log_says": "7 entries; later closed as the last known 'lexicon gap' (B821-B825) after being flagged as a genuine content gap in an unrelated lexicon-coverage audit.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "(1,1,5) is not a trace triple of any A,B in SL(2,ℤ); correct level is c=22 not 32", "where": "FINDINGS.md theorem + proof legs, phantom_proof.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Latimer-MacDuffee class-number completeness (sage-verified h=1 for both relevant orders) plus an exact elliptic/hyperbolic slot exhaustion; a sanity check against known-realizable Markov triples is included"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b537.py; a later companion arc (B545/B547) revisits and extends the same ghost phenomenon with a second obstruction mechanism, effectively re-deriving related cases.",
+   "absence_claims": [
+    {"quote": "That claim is NOT in this record and is UNVERIFIED here: a direct witness search (entries ≤ 20) plus this file's companion scans find no realization.", "where": "frontier/B537_classical_phantom/FINDINGS.md, 'Status update (2026-07-12, B545)'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Solid, exact character-variety number theory with a correctly caught arithmetic-level error (32 vs 22) and an honest disputed-claim trail (the (4,4,16) discrepancy) resolved two arcs later; explicitly firewalled from physics."
+  },
+  {
+   "arc": "B538_reframe_test_cycle",
+   "source": "main",
+   "files_read": [
+    "frontier/B538_reframe_test_cycle/FINDINGS.md",
+    "frontier/B538_reframe_test_cycle/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The first preregistered reframe test cycle confirms the E8 mass ladder and Fibonacci gap labels class-level with controls, while the SM structural checklist scores 0/3.\"",
+   "log_says": "2 entries; banked with prereg hash committed before data fetch.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "E8 mass ladder matches published NMR/neutron/THz measurements on BaCo2V2O8 and CoNb2O6 to 7 decimals (Perron vector of E8 Cartan matrix)", "where": "FINDINGS.md A1", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the Perron-vector computation is exact and reproducible; the literature contact (matching real experimental papers) is an IMPORTED claim — no committed experimental data file, only a textual citation, so a stranger cannot re-verify the match without independently pulling the cited papers"},
+    {"what": "Fibonacci gap labels {n/φ mod 1} match measured polariton-chain gap labels (3 independent physical systems cited)", "where": "FINDINGS.md A2", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "same pattern — the label-set computation is exact and committed; the literature match is asserted via citation, not reproduced from a committed dataset"},
+    {"what": "Jarlskog J = 3.077e-5 recomputed from quoted CKM parameters, confirming CP violation the object's structure cannot produce", "where": "FINDINGS.md B3", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "arithmetic recomputation is presumably in a script but no B538-specific script file is listed in the packet (n_files=2: FINDINGS.md + arc_verdict.json only) — the Jarlskog recomputation has no committed code file in this arc"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "the arc states 'every EXACT claim in the handoff recomputed and confirmed (tests/test_b538.py)'; literature verdicts are explicitly flagged as remaining literature-graded, i.e. not independently re-measured.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "This arc directory contains only FINDINGS.md and arc_verdict.json (no .py script), yet it reports a specific recomputed value (Jarlskog J = 3.077e-5) and an exact 7-decimal E8 match against named real materials. The claim that these were 'recomputed and confirmed' points to tests/test_b538.py outside this directory, which a stranger auditing only this arc's files would not find.", "where": "frontier/B538_reframe_test_cycle/ (directory listing: only FINDINGS.md, arc_verdict.json)"}
+   ],
+   "seat_note": "This is the arc doing the most direct physics contact — real E8 spin-chain materials and CP violation — but the literature contact itself is IMPORTED (cited, not independently re-derived from a committed dataset), and the arc's own scope note is admirably careful not to claim priority over the broader E8-universality-class literature."
+  },
+  {
+   "arc": "B539_relations_campaign",
+   "source": "main",
+   "files_read": [
+    "frontier/B539_relations_campaign/FINDINGS.md",
+    "frontier/B539_relations_campaign/PREREGISTRATION.md",
+    "frontier/B539_relations_campaign/arc_verdict.json",
+    "frontier/B539_relations_campaign/r0_r1_catalog.py",
+    "frontier/B539_relations_campaign/r2_sm_relations.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The relations campaign returns NO-MATCH: zero SM hits survive tightening while the E8 forced-bin positive control passes, closing the reframe's last door.\"",
+   "log_says": "6 entries; the campaign is described as 'the reframe's final door' and its NO-MATCH is treated as symmetric closure alongside B538's structural checklist.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Positive control: E8 forced-bin GOLD hits (108, incl. m2/m1=φ) pass at 1.5% tolerance", "where": "FINDINGS.md R2", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact ratio catalog against E8 Cartan-matrix Perron vector, committed script"},
+    {"what": "SM bin NO-MATCH: 19 SM parameters vs magnitude-matched null, family-wise p in [0.618, 1.0] across tolerances", "where": "FINDINGS.md R2 table", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "500-set null construction in r2_sm_relations.py; a prior methodological error (list-tautology RECIP hits) is caught and corrected in the same document"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b539.py; the null-model methodology (tautology removal) is explicitly cross-checked against a companion arc's (B541) independent null-repair.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "A careful negative result with a documented methodological self-catch (removing a tautological RECIP hit before reporting); the positive control (E8) demonstrates the test apparatus is sensitive, which strengthens confidence the SM null is a real null rather than an underpowered test."
+  },
+  {
+   "arc": "B540_observer_flow",
+   "source": "main",
+   "files_read": [
+    "frontier/B540_observer_flow/FINDINGS.md",
+    "frontier/B540_observer_flow/LIT_GATE.md",
+    "frontier/B540_observer_flow/PREREGISTRATION.md",
+    "frontier/B540_observer_flow/arc_verdict.json",
+    "frontier/B540_observer_flow/flow.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The observer flow closes on 12 canonical systems with three fixed points and one ℤ/2 two-cycle, correcting B535's window-length-limited census.\"",
+   "log_says": "10 entries; the flow's math is corroborated at the edge-certification level by an independent B560 cell, and the lit-gate downgrades the 'novel observer-flow' framing to 'known phenomenon, new computed instance' (Rauzy/Durand/Košík-Starosta).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Derived-system flow closes on 12 canonical systems: 3 fixed points, one ℤ/2 2-cycle", "where": "FINDINGS.md, flow.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained derivation engine, explicit closure result"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b540.py; edge-certification independently strengthened by a separate B560 cell per the log.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json for B540 lists 'supersedes: B535' — this is correctly propagated at the registry level, but B535's own FINDINGS.md text (read separately) still describes its census as 'now fully mapped,' i.e. the superseded document's prose was not edited to point forward to B540.", "where": "frontier/B540_observer_flow/arc_verdict.json vs frontier/B535_coupling_space/FINDINGS.md"}
+   ],
+   "seat_note": "The lit-gate here is a model of honesty: it retires the 'novel observer-flow theory' framing outright once told the phenomenon (derivation fixed points and cycles) is the founding motivation of derived-sequence theory going back to Rauzy circa 1992; the computed 12-node closure stands as a legitimate new instance, nothing more."
+  },
+  {
+   "arc": "B541_2a_closure",
+   "source": "main",
+   "files_read": [
+    "frontier/B541_2a_closure/FINDINGS.md",
+    "frontier/B541_2a_closure/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Two independent pre-registered stage-2a designs both return NULL: the 17-component dictionary matches SM constants no better than chance.\"",
+   "log_says": "5 entries; treated as closing the '2a' SM-matching question from two independent seats plus a third (chat-1) whose inflated null estimate is explicitly flagged and not adopted.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "V1 set-matching: real dictionary matches SM worse than chance (p=0.785); V2 relation structure null (p=0.19-0.80) after fixing a broken null", "where": "FINDINGS.md V1/V2", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "no script file is listed for this arc directory (n_files=2, only FINDINGS.md + arc_verdict.json) — the p-values and the described 'broken first null' incident are narrated, not present as committed code a stranger could re-run here"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "no verification/ directory and no script committed in this arc; the FINDINGS.md describes chat-2's/chat-1's independent runs narratively without a locally reproducible artifact.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "This arc's numeric results (p=0.785, p=0.19-0.80, the specific closest pair f_A vs CKM η̄ at 5.7e-3) are reported with no committed script in the arc directory itself — only FINDINGS.md and arc_verdict.json are present. The 'spot-checked: 0.348/0.3460143 − 1 = 5.7e-3' line is the only inline arithmetic check; the underlying resampling/null-construction code is not in this directory.", "where": "frontier/B541_2a_closure/FINDINGS.md (directory contains no .py file)"}
+   ],
+   "seat_note": "The methodological content (the extracted rules about event-count-matched nulls and calibrated-domain relation tests) is a genuinely useful correction to a broken-null incident, but this specific arc has no committed code of its own to reproduce the reported p-values — it reads as a narrated cross-seat summary rather than a self-contained computation."
+  },
+  {
+   "arc": "B542_tau_ladder",
+   "source": "main",
+   "files_read": [
+    "frontier/B542_tau_ladder/FINDINGS.md",
+    "frontier/B542_tau_ladder/arc_verdict.json",
+    "frontier/B542_tau_ladder/verify_ladder.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"All 17 read-out components decompose exactly into two τ-ladders τ^a(τ−1)^b plus a π-fringe, making the catalog one self-similar unit-lattice object.\"",
+   "log_says": "5 entries; corroborated as one of several exact reproductions in a cross-seat harvest.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "17 read-out components decompose exactly into two τ-ladders + a π-fringe", "where": "FINDINGS.md, verify_ladder.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit exact decomposition in a 246-byte verify script; small but complete"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b542.py locks the identity; verify_ladder.py itself is minimal (246 bytes) — a very thin witness for a 5-file arc.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A tidy algebraic repackaging of already-banked B533/B535 numbers into a ladder structure; purely descriptive/organizational math, no new physics content and none claimed."
+  },
+  {
+   "arc": "B543_species_gap_labels",
+   "source": "main",
+   "files_read": [
+    "frontier/B543_species_gap_labels/FINDINGS.md",
+    "frontier/B543_species_gap_labels/LIT_GATE.md",
+    "frontier/B543_species_gap_labels/arc_verdict.json",
+    "frontier/B543_species_gap_labels/reproduce_labels.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The four-letter species chain's measured IDS gap labels reproduce the B535 degree-4 dictionary, 100-2500x off the golden lattice and invariant across coupling sets.\"",
+   "log_says": "6 entries, including a two-pass literature gate that confirms the underlying module-assignment theorem is classical (BBG 1992) while the specific degree-4 instantiation and experiment proposal appear novel-as-stated.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Simulated hopping-chain (N=3000) top-12 gap labels match the ℚ(√φ) dictionary to 1.2e-4-1.5e-4, and are 100-2500x farther from the golden lattice than from the species module", "where": "FINDINGS.md, reproduce_labels.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit numeric simulation with named couplings; reproduce_labels.py is tiny (245 bytes) but a committed test lock exists"},
+    {"what": "Proposed four-coupling photonic/polariton experiment to physically measure the degree-4 labels", "where": "FINDINGS.md 'THE EXPERIMENT'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "this is a proposal, not a performed measurement — no physical data exists yet; correctly framed as a prediction rather than a result"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b543.py; independently reproduced at larger scale (N=24,001) by chat-2 and by B546's Sturm-count method at N=10^6, both cited in FINDINGS.md as external hardenings.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "reproduce_labels.py is only 245 bytes for an arc whose FINDINGS.md reports N=3000 simulation results with multiple named gap deviations (1.4e-5 etc.) — the file is almost certainly a thin driver calling shared library code elsewhere in the repo, not a self-contained computation a stranger could run from this directory alone.", "where": "frontier/B543_species_gap_labels/reproduce_labels.py (245 bytes)"}
+   ],
+   "seat_note": "This is the arc closest to a genuine falsifiable physical prediction (a buildable four-coupling photonic chain with a specific predicted gap-label spectrum), and it is honest about which part is classical (BBG 1992 module theorem) versus which part is the team's own instantiation and proposal — the strongest structural-to-observable bridge in this batch, contingent on an experiment that has not yet been run."
+  },
+  {
+   "arc": "B544_emergent_golden",
+   "source": "main",
+   "files_read": [
+    "frontier/B544_emergent_golden/FINDINGS.md",
+    "frontier/B544_emergent_golden/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Emergent golden order is verified (Sturmian ground states, Shenker's constant to nine digits) but the carrier holds only the Q(phi) shadow, not the degree-4 layer.\"",
+   "log_says": "4 entries; scoped down two windows later by B551, which proves the fusion of B543+B544 the arc itself speculates about is impossible.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Critical circle map winding = 1/φ to 9 digits at Shenker's Ω*≈0.6066553", "where": "FINDINGS.md 'Spot verification'", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the arc says 'spot-verified' but no script file is present in the directory (n_files=2: FINDINGS.md + arc_verdict.json) — the bisection computation is described, not committed here"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "no script in this directory; the arc frames itself as a spot-check of a chat-2 handoff, with classical FK/Aubry theory cited rather than re-derived.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The reported 9-digit match to Shenker's constant and 987/610 exact Sturmian occupation are described with no committed script in this arc directory to reproduce them.", "where": "frontier/B544_emergent_golden/ (directory contains no .py file)"}
+   ],
+   "seat_note": "The physics contact here (Shenker's constant, Frenkel-Kontorova ground states) is standard textbook Aubry-regime material, correctly labeled as classical rather than original; the arc's own follow-up (B551) later proves the hoped-for fusion with B543's degree-4 result is impossible, which the arc anticipates but does not itself contain the proof for."
+  },
+  {
+   "arc": "B545_ghost_census",
+   "source": "main",
+   "files_read": [
+    "frontier/B545_ghost_census/FINDINGS.md",
+    "frontier/B545_ghost_census/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"c = 1 is proved the smallest ghost level and an elliptic-lock law replaces the refuted prereg conjecture that ghosts share c = 22's signature.\"",
+   "log_says": "5 entries; the (4,4,16) discrepancy this arc records unresolved is explicitly closed two arcs later by B547 (a second, inert-prime ghost mechanism).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "c=1 proved smallest ghost level via elliptic-lock (h(-3)=h(-4)=1 completeness)", "where": "FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as tests/test_b545.py exact but this arc directory has no .py script of its own (n_files=2: FINDINGS.md + arc_verdict.json)"},
+    {"what": "Ghost-candidate levels in [1,50]: evidence-grade census", "where": "FINDINGS.md census list", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the arc itself calls this 'evidence-grade' and 'NOT verified here beyond c=1 and c=22' — an honest self-labeling as non-rigorous pending the B547 scanner"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b545.py is cited but this directory has no local script; the arc explicitly defers rigor upgrade to the follow-on B547 scanner.",
+   "absence_claims": [
+    {"quote": "chat-2's corrections log calls (4,4,16) a \"false candidate already in CC's record.\" It is NOT in this record, and an independent witness search here (entries ≤ 20; plus B537's six-ordering companion scans to |a| ≤ 3000) finds no realization.", "where": "frontier/B545_ghost_census/FINDINGS.md, 'DISCREPANCY RECORDED'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The 'evidence-grade' census over [1,50] and the c=1 exact proof are both narrated with no committed script in this specific directory; the test lock lives elsewhere (tests/test_b545.py) and cannot be checked from this arc's own files.", "where": "frontier/B545_ghost_census/ (directory contains no .py file)"}
+   ],
+   "seat_note": "A model of the discipline the seat is asked to check for: a preregistered conjecture (ghosts share c=22's signature) is explicitly REFUTED by its own census, and a discrepancy with another author's claim is left open rather than silently resolved — both flagged honestly and pure number theory with no physics claim attached."
+  },
+  {
+   "arc": "B546_exact_ids",
+   "source": "main",
+   "files_read": [
+    "frontier/B546_exact_ids/FINDINGS.md",
+    "frontier/B546_exact_ids/arc_verdict.json",
+    "frontier/B546_exact_ids/exact_ids.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Sturm-count IDS at N = 10^6 pins the twelve measured gap labels to the Q(sqrt(phi)) dictionary values at 4e-7 and extends the tau-ladder one rung below.\"",
+   "log_says": "7 entries; supersedes B543 per its own verdict.json, and is cited as strengthening the species-chain jewel result at 8x margins by a companion chat-2 run.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Sturm-count IDS at N=10^6 matches gap labels to the ℚ(√φ) dictionary at 3.4e-7-3.9e-8", "where": "FINDINGS.md table, exact_ids.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit deviation table against a committed script; upgrades B543's 1/N≈3e-4 resolution"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b546.py (35 lines) exists; formally supersedes B543 per arc_verdict.json.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "A clean precision upgrade of B543's simulated result via a different exact method (Sturm counting); the improved 4e-7 agreement is a real strengthening of the species-chain-as-degree-4-carrier claim, still contingent on the proposed experiment never having been built."
+  },
+  {
+   "arc": "B547_ghost_scanner",
+   "source": "main",
+   "files_read": [
+    "frontier/B547_ghost_scanner/FINDINGS.md",
+    "frontier/B547_ghost_scanner/PREREGISTRATION.md",
+    "frontier/B547_ghost_scanner/arc_verdict.json",
+    "frontier/B547_ghost_scanner/scanner.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"(4,4,16) is a proved ghost and the first all-hyperbolic one, obstructed by an inert prime rather than elliptic rigidity — a second ghost mechanism.\"",
+   "log_says": "5 entries; resolves a discrepancy left open by B537/B545 and answers a previously 'sharpened open question' about all-hyperbolic ghosts.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "(4,4,16) is a proved ghost via an inert-prime obstruction (7 inert in ℚ(√3))", "where": "FINDINGS.md, scanner.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "triple-checked (inert-prime argument, sympy.diophantine returning ∅, brute force to |u|,|v|≤200), all in a committed scanner script"},
+    {"what": "chat-2's earlier claim that (4,4,16) is a 'false candidate already in CC's record' is REFUTED", "where": "FINDINGS.md 'Discrepancy RESOLVED'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the resolution directly contradicts a prior (uncommitted, handoff-only) assertion, resolved by exact computation"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b547.py; the scanner is explicitly built to upgrade an earlier 'evidence-grade' census (B545) to theorem-grade per-level verdicts.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Directly refutes another contributor's claim with a triple-redundant exact computation — a good example of verify-don't-trust catching a wrong assertion; purely number-theoretic with an explicit novelty gate pending literature review."
+  },
+  {
+   "arc": "B548_unhideable_census",
+   "source": "main",
+   "files_read": [
+    "frontier/B548_unhideable_census/FINDINGS.md",
+    "frontier/B548_unhideable_census/PREREGISTRATION.md",
+    "frontier/B548_unhideable_census/arc_verdict.json",
+    "frontier/B548_unhideable_census/census.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Un-hideability is generic across small substitutions, including non-Pisot and reducible ones, refuting the 'un-hideable iff Pisot/self-priored' prediction.\"",
+   "log_says": "2 entries; framed as an honest deflation of an interpretive (Hoffman/Barrett-inspired) framing rather than a hit.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "7-row census table (Fibonacci, Thue-Morse, period-doubling, tribonacci, etc.) all show UN-HIDEABLE, refuting the Pisot-tracks-un-hideability prediction", "where": "FINDINGS.md table, census.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit per-substitution lift counts and language counts in a committed script"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b548.py covers the small cases; the arc itself notes the σ row's fast recompute disagreed with B535's locked value and explicitly defers to B535 rather than silently reconciling.",
+   "absence_claims": [
+    {"quote": "a HIDEABLE substitution (many surviving languages, needing an external prior) is the thing to hunt, and it did not appear in this small census", "where": "frontier/B548_unhideable_census/FINDINGS.md, 'Honest consequence'"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A refreshingly self-deflating result: the object's 'un-hideability' (a property some had read as special/self-priored) turns out to be the generic case among small substitutions, weakening any interpretive claim built on it; correctly reported as a refutation rather than reframed as a hit."
+  },
+  {
+   "arc": "B549_forced_bin_predictions",
+   "source": "main",
+   "files_read": [
+    "frontier/B549_forced_bin_predictions/FINDINGS.md",
+    "frontier/B549_forced_bin_predictions/PREREGISTRATION.md",
+    "frontier/B549_forced_bin_predictions/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Both time-independent cosmic ratios return null through the frozen Z[tau] machinery against magnitude-matched controls; the dialed bin stays silent.\"",
+   "log_says": "2 entries; the E7 ladder is explicitly filed as a 'STANDING' data-limited prediction awaiting a future measurement, not a current result.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "E7 Cartan-matrix Perron spectrum: 1, 1.285575, 1.879385, 1.969616, 2.532089, 2.879385, 3.701666", "where": "FINDINGS.md A3", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "no script file is present in this arc's directory (n_files=3: FINDINGS.md, PREREGISTRATION.md, arc_verdict.json — no .py) — the E7 eigenvector numbers are stated with no committed computation to reproduce them here, even though the analogous E8 computation elsewhere in the repo (B538) does have a script"},
+    {"what": "Ω_dm/Ω_b=5.364 (err 1.7e-4, p=0.62) and η·10^10=6.12 (err 7.8e-5, p=0.26), both NULL", "where": "FINDINGS.md 'cosmic-ratio null'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "described as 'through the frozen B533 ℤ[τ] machinery + magnitude-matched null' but no script in this directory; the p-values cannot be checked from these three files alone"}
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_b549.py is cited but not present in this directory; no verification/ subdir.",
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The only load-bearing numbers in this arc (the E7 spectrum and both cosmic-ratio p-values) have no committed script in the arc's own directory — a stranger could not reproduce either the E7 eigenvector table or the null p-values from what is here; the code presumably lives in a shared library or the referenced tests/test_b549.py, neither of which is packaged with this arc.", "where": "frontier/B549_forced_bin_predictions/ (directory contains no .py file)"}
+   ],
+   "seat_note": "A correctly-labeled negative result on real cosmological constants (Ω_dm/Ω_b, η) and a well-controlled data-limited prediction (E7 ladder) awaiting a not-yet-existing measurement — but this arc is thinner on committed reproducibility than its siblings, with no local script backing either headline number."
+  },
+  {
+   "arc": "B550_promotion_sign",
+   "source": "main",
+   "files_read": [
+    "frontier/B550_promotion_sign/FINDINGS.md",
+    "frontier/B550_promotion_sign/arc_verdict.json",
+    "frontier/B550_promotion_sign/verify.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The Promotion-Sign Conjecture is refuted at n=3 by the exact tower (height-1 = (0,1), not the predicted (1,0)); the promotion uniformly consumes char(+M¹), with n=5 → (1,2) as the falsifiable test.\"",
+   "log_says": "3 entries; corroborated as one of several verified-correct catches in a later cross-seat harvest (B553).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "n=3 exact tower height-1 multiplicities are (0,1), contradicting the handoff's predicted (1,0); replacement uniform-meridian rule fits both n=3 and n=4", "where": "FINDINGS.md table, verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "checked against B111's locked exact tower data (n=3 Lawton Jacobian, n=4 B80 closed form), committed verify.py"},
+    {"what": "n=5 falsifiable prediction: uniform meridian rule predicts (1,2)", "where": "FINDINGS.md 'discriminating test'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "explicitly stated as blocked behind an unsolved SL(5) computation (B105/B113) — an open, honestly-labeled future test, not a current result"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b550.py checks against B111's independently-locked exact data, a genuine cross-check rather than a self-test.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A clean refutation of another contributor's conjecture at its own claimed anchor point (n=3), replaced by a simpler rule with an honestly stated falsifiable test (n=5) that the repo cannot yet compute; pure SL(2,Z) character-variety math, firewalled from physics correctly."
+  },
+  {
+   "arc": "B551_inflation_boundary",
+   "source": "main",
+   "files_read": [
+    "frontier/B551_inflation_boundary/FINDINGS.md",
+    "frontier/B551_inflation_boundary/arc_verdict.json",
+    "frontier/B551_inflation_boundary/verify.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The species word is neither a coloring of the Fibonacci word ('aaa' occurs) nor Sturmian (complexity ≈3n), so the ℚ(√φ) layer requires substitutive inflation order and no rotation/winding mechanism can emit it.\"",
+   "log_says": "4 entries; explicitly credited with preventing a would-be false fusion claim (B543+B544) and scoping B544 downward and strengthening B543.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Case-fold projection of the species word contains 'aaa' at position 16, forbidden in the Fibonacci word — no sliding-block code lifts it", "where": "FINDINGS.md 'Death 1', verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact position check in verify.py, small but committed and specific"},
+    {"what": "Old/new factor complexity p(1..8) = (2,4,7,10,14,17,20,23) ≈ 3n, not Sturmian (n+1)", "where": "FINDINGS.md 'Death 2'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact complexity sequence verified 'to the digit' per the text"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b551.py; explicitly described as independently reproducing chat-2's original fusion-block claims verify-don't-trust.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A genuinely valuable negative result — it kills a tempting but false claim (that FK/circle-map emergence carries the degree-4 layer) before it was ever asserted publicly, with a clean two-part exact disproof; correctly scopes two sibling arcs (B543 up, B544 down) rather than silently letting the confusion stand."
+  },
+  {
+   "arc": "B552_z11_charge",
+   "source": "main",
+   "files_read": [
+    "frontier/B552_z11_charge/FINDINGS.md",
+    "frontier/B552_z11_charge/arc_verdict.json",
+    "frontier/B552_z11_charge/chat2_cell1_charge_transport.py",
+    "frontier/B552_z11_charge/verify.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"coker(I−M) ≅ ℤ/11 with primitive left generator χ=(1,3,6,7) is conserved by σ and transported unchanged along the observer flow, and it decouples from the double clock.\"",
+   "log_says": "6 entries; re-confirmed independently by a separate chat-3 cell, and later identified as the foundation of an 'escalator charge tower' (|e_n| = 1, 11, 809, 18845089, ...).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "coker(I−M) ≅ ℤ/11, SNF(I−M)=diag(1,1,1,11), primitive left generator χ=(1,3,6,7) mod 11 fixed by M", "where": "FINDINGS.md, verify.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Smith normal form is exact and reproducible; a small committed verify.py (145 bytes) plus a fuller chat2_cell1_charge_transport.py (10.6KB)"},
+    {"what": "Full 12-node observer-flow charge transport claim (SNF diag(1,...,1,11) at every node)", "where": "FINDINGS.md 'Transport across the whole observer flow'", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "the FINDINGS.md text itself says 'Reproduced here for the census systems; the full 12-node sweep is chat-2's computation' — the full-sweep claim is attributed to another author's (uncommitted-here) run, only partially reproduced locally"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b552.py (22 lines); independently re-confirmed by a separate chat-3 cell per the log ('re-confirms B552').",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The FINDINGS.md notes '11 is disc-adjacent (disc = −400; 11 is the first prime where the charpoly ... has a specific factorization type — noted, not interpreted)' — this is exactly the kind of numeric coincidence the seat is told to flag; the arc itself is careful to say 'noted, not interpreted,' which is the correct response, but the coincidence sits right at the boundary of being over-read in a future arc.", "where": "frontier/B552_z11_charge/FINDINGS.md, 'Reading (firewalled)'"},
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "The claim that the ℤ/11 charge is transported unchanged across all 12 nodes of B540's observer flow is attributed to 'chat-2's computation,' explicitly not fully reproduced within this arc ('Reproduced here for the census systems; the full 12-node sweep is chat-2's computation, consistent with B540's flow') — the arc_verdict.json's claim_one_line states the full-flow transport as settled fact without this caveat.", "where": "frontier/B552_z11_charge/FINDINGS.md vs arc_verdict.json claim_one_line"}
+   ],
+   "seat_note": "The base ℤ/11 Smith-normal-form result is solid exact linear algebra with independent re-confirmation, but the arc's own text admits the full 12-node transport claim is only partially reproduced here (attributed to an external chat-2 run), while the verdict's one-line claim states it flatly — a small drift between the file's own hedging and its summary line."
+  }
+ ]
+}

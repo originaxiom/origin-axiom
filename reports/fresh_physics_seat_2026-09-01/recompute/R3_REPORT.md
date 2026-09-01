@@ -521,3 +521,8 @@ Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   `R36_census_batch2/`: seven MATCH; **B333's "14 of 123 fundamental discriminants have h = 2" is wrong** (its
   discriminant filter has a sign bug: 21 non-fundamental discriminants in, 20 fundamental out; PARI gives 16 of 122),
   verdict "generic" unchanged. B509/B510's 40a3 identification is the one R32 found missing from B211/B213.
+- **Spectra/symmetry rows (B790, B777, B850, B894) — CLOSED** by `R37_spectra_symmetry/`: B790's 134/150 geodesics
+  and ℤ[ω] traces MATCH, m003/m004 not isospectral; B777's five-row V4-genericity table MATCHES exactly; B894's
+  disc 6237 = 3⁴·7·11 MATCHES (monogenic, 5 unramified). **B850's multiplicity maxima (4/3/4/8/2) are word-count
+  artefacts**: SnapPy's geometric multiplicities to Re ℓ ≤ 4 are 12/12/11/11/6, so "m009 = 8 exceeds m004 = 4" is
+  not a fact about the manifolds.
