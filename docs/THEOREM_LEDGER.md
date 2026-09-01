@@ -43,6 +43,18 @@ orientation-preserving (golden SQUARED). Price computed (B749/F5 FRAGILE): the d
 det −1 sibling IS the Gieseking manifold — m004's own orientation double cover parent
 (dilatation φ upstairs, φ² down; dual sealed routes + cc's third isometry route).
 **Orientation = choosing the child of the parent.** Lock: same file.
+*(Annotation 2026-09-01 — ADOPTED RE-TYPING per the owner's 2026-09-01 election: orientation is
+re-typed as **the observer's closing #0** (B717 act-type, the same move as the chirality bit B713 and
+the P-bit B1083, prior to both) rather than an object-side axiom — the object m000 exists before any
+orientation is chosen (B749/F5), and it provably cannot self-orient (B1163). Evidence: the T5 audit's
+axiom-consumer class is EMPTY over 1394 swept files (no banked result consumes orientation before the
+object exists), and the T3 theorem makes the deck-involution corollaries theorems-of-the-construction:
+every hyperbolic orientation double cover is amphichiral with mirror self-isometry = the deck
+involution (deck involution + Mostow), so mirror-odd invariants are 2-torsion a priori — m004's
+amphichirality and the 83-cover census become instances, not discoveries. The [AXIOM] label above is
+retained on this surface pending the ledger-wide relabeling; the F5 FRAGILE pricing is re-read as the
+closing's derivation, not a fork-price. (fresh-seat application of the owner's T4/T5 election;
+sources: reports/fresh_physics_seat_2026-09-01/campaign/))*
 
 **C6 [THEOREM — Thurston/Riley; banked realization].** The mapping torus of the
 once-punctured torus under [[2,1],[1,1]] is the figure-eight knot complement: unique

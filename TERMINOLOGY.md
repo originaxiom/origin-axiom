@@ -601,3 +601,12 @@ P/PC disambiguation. — **G1–G3** = the three roles of gravity (B1165 addendu
 distinct from any future charter G-labels. — **L110/L113** each name TWO leads (annotated in place in
 OPEN_LEADS; no renumbering). Rule (B964's, generalized): every load-bearing overloaded symbol gets a row
 here before its next use.
+
+**RL vs LR (added 2026-09-01)** — two live conventions name the SAME matrix [[2,1],[1,1]] (the monodromy A):
+`docs/UNIQUENESS_THEOREM.md` writes **A = LR** in the *word-order* convention (letters in reading order),
+while the GC-3 clock adjudication (B1189, carried in `docs/GRAND_COMPUTATION_LEDGER.md`; the T5 audit's
+pointer says "LAW_MAP GC-3" — the row lives in the grand-computation ledger) writes **A₁ = RL** in the
+*matrix-product* convention (R·L, rightmost factor acts first). Both are correct for one object; naked
+"LR"/"RL" without the convention is the E23 hazard — UNIQUENESS_THEOREM's own §"LR vs RL" shows the Möbius
+polynomials differ by the order (τ²−τ−1 vs τ²+τ−1). Say WHICH convention, every time. *(fresh-seat
+application of the owner's T4/T5 election; sources: reports/fresh_physics_seat_2026-09-01/campaign/)*
