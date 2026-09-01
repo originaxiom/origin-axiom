@@ -690,10 +690,17 @@ about its structure; it is the part of the paper with the least precedent and th
 fence most carefully.
 
 \paragraph{The obstructions are one class.} The construction meets several apparently independent
-failures to close on itself --- an orientation cannot be chosen canonically --- and not only here: all $83$ members of the family the object sits in --- the one-cusped orientable hyperbolic
-manifolds of the census below the object's own volume bound, the family named so that the sweep can
-be repeated --- are amphichiral, with no exceptions and no undecided cases --- a sign in a chord
+failures to close on itself --- an orientation cannot be chosen canonically --- a sign in a chord
 sector cannot be fixed, and two further probes of the same kind.
+% 2026-09-01 (fresh physics seat, ring R2 cell R20, seat spot-check): the sentence that stood here
+% --- "all 83 members of the family ... are amphichiral, with no exceptions" --- is WITHDRAWN. The
+% 14/14 -> 83/83 -> 112/112 census was one orientation-blind instrument (reverse_orientation +
+% is_isometric_to, which SnapPy evaluates without orientation and which cannot return False).
+% Orientation-aware (symmetry_group().is_amphicheiral()): 38 of the 112 Q(sqrt-3)-shape-field
+% members are amphichiral, 74 chiral (e.g. m202, s118 at CS = 1/12; m208 chiral at CS = 0).
+% The object itself IS amphichiral, and the a-priori theorem below is what the paper rests on.
+% Sources: frontier/B1186_family_is_112/ADDENDUM_2026-09-01_amphichirality_38_of_112.md,
+% reports/fresh_physics_seat_2026-09-01/recompute/R20_family_separator/seat_spotcheck_d5.txt.
 % 2026-09-01: census upgraded to the a-priori theorem (fresh-seat application of the owner's
 % T4/T5 election; sources: reports/fresh_physics_seat_2026-09-01/campaign/T3_amphichirality/)
 The amphichirality census is in fact a theorem wearing a statistic's clothes: every orientation
@@ -701,8 +708,10 @@ double cover of a non-orientable finite-volume hyperbolic $3$-manifold is amphic
 priori}, with the mirror self-isometry realised by the deck involution itself --- an orientation
 invariant under the deck group would descend to an orientation of the non-orientable base, and
 Mostow rigidity~\cite{mostow} makes the conclusion metric-independent --- so every mirror-odd
-invariant of such a cover is $2$-torsion by construction, and the $83$-member sweep is the
-theorem's census shadow rather than its evidence. These are \emph{one} $\Z/2$-torsor class
+invariant of such a cover is $2$-torsion by construction; the object's amphichirality is an
+instance of this theorem, not a statistic of its family (the family is mixed: $38$ of $112$
+members are amphichiral, and the earlier ``$83$ of $83$'' count was an artefact of an
+orientation-blind test). These are \emph{one} $\Z/2$-torsor class
 under a single global involution $c$, whose restrictions are simultaneously a Galois generator on the
 trace field, a complex conjugation on a cyclotomic sector, and the geometric mirror. The content of the proof is
 \emph{not} the equivariance --- at $|G| = 2$ every bijection of torsors is automatically equivariant,
@@ -722,7 +731,12 @@ cannot pick a point of its own orbit.
 
 \paragraph{The criterion is classical, and we decline the coincidence.} The invariant deciding
 whether a pair carries the bit is the Fricke commutator-trace discriminant
-$\kappa(A,M) = \mathrm{tr}[A,M] - 2$. The same polynomial governs the object's own founding
+$\kappa(A,M) = \mathrm{tr}[A,M] - 2$.
+% 2026-09-01 convention note (fresh physics seat; defect found by B1233): the frontier record
+% (B285, B126, B330, B131, frontier/README) uses kappa = tr[A,B] RAW; this paper shifts by 2.
+% The founding value is omega under the raw convention and 2 + omega = sqrt(3) e^{i pi/6} under
+% this one. Both are internally consistent; the harmonisation (which to keep) is the owner's.
+% Until then every kappa value quoted here must be read with the "-2" in view. The same polynomial governs the object's own founding
 condition, and it is tempting to present that as a unification. \textbf{We do not.} $\kappa$ is the
 only natural trace invariant of a pair, so it recurs in \emph{every} two-generator $\mathrm{SL}(2)$
 classification question; by the standard this paper set for itself in \S\ref{sec:generic}, a

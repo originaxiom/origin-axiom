@@ -1,0 +1,105 @@
+{
+ "a": {
+  "first200_1cusped": {
+   "num": 6,
+   "den": 200,
+   "none": 0,
+   "names": [
+    "m003",
+    "m004",
+    "m135",
+    "m136",
+    "m206",
+    "m207"
+   ]
+  },
+  "first200_any": {
+   "num": 7,
+   "den": 200,
+   "names": [
+    "m003",
+    "m004",
+    "m135",
+    "m136",
+    "m203",
+    "m206",
+    "m207"
+   ]
+  },
+  "planted": {
+   "m003": true,
+   "m004": true
+  }
+ },
+ "b_cell2": {
+  "m000_orientable": false,
+  "cover_is_m004": true,
+  "vol_ratio": 1.9999999999999996
+ },
+ "b_cs_covers": {
+  "2": [
+   {
+    "name": "m004~cyc~0",
+    "cover_type": "cyclic",
+    "cs": 0.0,
+    "dist_to_halfint": 0.0,
+    "amph": true
+   }
+  ],
+  "3": [
+   {
+    "name": "m004~cyc~0",
+    "cover_type": "cyclic",
+    "cs": 0.0,
+    "dist_to_halfint": 0.0,
+    "amph": true
+   }
+  ],
+  "4": [
+   {
+    "name": "m004~cyc~0",
+    "cover_type": "cyclic",
+    "cs": 0.0,
+    "dist_to_halfint": 0.0,
+    "amph": true
+   },
+   {
+    "name": "m004~irr~1",
+    "cover_type": "irregular",
+    "cs": 0.0,
+    "dist_to_halfint": 0.0,
+    "amph": true
+   }
+  ],
+  "5": [
+   {
+    "name": "m004~cyc~0",
+    "cover_type": "cyclic",
+    "cs": 0.0,
+    "dist_to_halfint": 0.0,
+    "amph": true
+   },
+   {
+    "name": "m004~irr~1",
+    "cover_type": "irregular",
+    "cs": 0.0,
+    "dist_to_halfint": 0.0,
+    "amph": false
+   },
+   {
+    "name": "m004~irr~2",
+    "cover_type": "irregular",
+    "cs": 0.0,
+    "dist_to_halfint": 0.0,
+    "amph": true
+   },
+   {
+    "name": "m004~irr~3",
+    "cover_type": "irregular",
+    "cs": 0.0,
+    "dist_to_halfint": 0.0,
+    "amph": false
+   }
+  ]
+ }
+}

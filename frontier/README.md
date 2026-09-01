@@ -371,7 +371,7 @@ docs/TRACE_SELECTOR_THEOREM.md / C5
 - **B69** — the metallic family of A-polynomial / trace-relation curves + a
   cusp-torsion law (computer-assisted, VERIFIED m=1..4; m=1 PROVED via B67). The
   trace-relation curve `F_m(x,κ)=0` (projection of the `T_m²` fixed locus to
-  `x=tr a, κ=tr[a,b]`) extends the figure-eight (m=1) to the metallic family
+  `x=tr a, κ=tr[a,b]`) *(2026-09-01 convention note: this is the RAW κ; `papers/P3_THE_PAPER/main.tex:725` defines κ(A,M) = tr[A,M] − 2 — the two differ by 2, founding value ω raw vs 2+ω = √3·e^{iπ/6} shifted; found by B1233; harmonisation is the owner's call, this is a note not a choice)* extends the figure-eight (m=1) to the metallic family
   (`m=2: κ=(x⁴−6x²+12)/(x²−2)`, etc.). **Cusp-torsion law:** the cusps (poles of κ)
   sit at elliptic-torsion values `x=2cos(π/k)`, `k∈{3..m+2}`, `k≡m (mod 2)`. The
   banked "breakthrough-chat" handoff after independent re-derivation + a line-by-line

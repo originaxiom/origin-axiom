@@ -291,7 +291,7 @@ B1174/B1183; S4 split B1184); the family settled at 112 (B1186, both benches); t
 mechanisms distinct + the 𝒯 evaluator commissioned (B1185/R023); the depth-closure backlog
 dispositioned (B1187; E52 the verifier-defect class filed; THE MOD-q CERTIFICATE MOVE = §G law).
 The queue lives at `docs/THE_REMAINING_MATH.md` — rows 0–3 DONE; next L188. ALL sends HOLD (owner's
-standing word).*
+standing word).* *(2026-09-01 note, fresh physics seat: superseded once — Q11 was SENT to Dimofte on 2026-08-31 on the owner's approval, outside-bench commit `2e4f11f6`, Gmail id on that commit; Q1–Q8 remain unsent drafts on `claude/outside-bench`. The HOLD is the default; it is no longer "all".)*
 
 *Review 52 currency (2026-08-28, anchor 8aa71f07): THE GRAND COMPUTATION CAMPAIGN closed its first
 full arc. The universe is now stated in the object's own units (`docs/GRAND_COMPUTATION_v0.md`);

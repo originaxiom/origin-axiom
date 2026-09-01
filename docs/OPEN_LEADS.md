@@ -2202,3 +2202,27 @@ coefficient slot B813 closed; (b) the criterion must be able to FAIL in both dir
 a bit that cannot come out "CP-violating" is vacuous, and m003's `CS = ¼` is the natural bite
 control, being the sibling that sits at the other element; (c) Gate 5 stays absolute — the object
 side must be computed before any measured value is named. ★★★
+
+## L193 — THE WITNESS o10_150700: H₁ = ℤ IS NOT THE OBJECT'S SEPARATOR IN ITS OWN CLASS, AND THE CP-SIGN WALL IS A PROPERTY OF THE MINIMAL OBJECT, NOT OF THE CLASS (registered 2026-09-01, fresh physics seat; source: ring R2 cell R20 + `seat_spotcheck_d5.py`)
+
+Inside B1186's 112-member ℚ(√−3) shape-field family exactly two members have H₁ = ℤ: m004 and
+**o10_150700** — one cusp, ten ideal tetrahedra all of shape ω (regular), volume = 10·V_Gieseking
+= 5·vol(m004), symmetry group ℤ/2, **chiral**, CS = −1/12 (mirror +1/12). It is not a 5-fold cover
+of m004 and not a 10-fold orientable cover of m000 (checked against SnapPy's full cover lists;
+none of the four 5-fold covers of m004 has H₁ = ℤ). B1186 already recorded that H₁ = ℤ fails
+as a separator at 112-scope; the witness makes the failure concrete and adds two readings that
+are the lead: (a) the separator that survives is **minimality** (m004 is the smallest-volume
+member with H₁ = ℤ, and A6's cover construction lands on it), so "the object is the unique
+knot complement in its class" must be re-stated as "the unique *minimal* one"; (b) the class
+contains a chiral, CS ≠ 0 member of the same arithmetic type, so the CP-sign wall (B303/B1234:
+CS(m004) = 0 has no sign) is paid for by minimality, not by the class — a neighbour one rung up
+the volume ladder does carry a sign. **Bounded cells (owner's election):** (1) is o10_150700
+commensurable with m004 (same invariant trace field and quaternion algebra — expected, since
+the shapes are all ω — verify with `snappy`'s arithmetic invariants or Sage); (2) is it a knot
+complement in S³ or in another closed manifold (H₁ = ℤ is necessary, not sufficient) — run
+`snappy`'s exterior-to-link search / `identify()`; (3) does A6's construction have a variant
+that lands on it (a non-orientable base with a 10-tetrahedron regular triangulation), or is it
+outside every A6 orbit — if outside, minimality is doing more work than the text says. No phase
+named, no value named, Gate 5 untouched; type-matched (a bit-and-lattice question). Both outcomes
+of each cell are bankable: commensurable-and-knot strengthens "minimal, not unique";
+not-a-knot-complement restores "unique knot complement" with the witness as the foil. ★★

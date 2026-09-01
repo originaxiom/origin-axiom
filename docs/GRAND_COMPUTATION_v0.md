@@ -215,7 +215,7 @@ place-typing and the λ-vs-r-vs-γ₅ time ambiguity, both carried above as open
 | 10 | D3's complex clause | re-grade | apply **B1100's exact complex-witness** to the two exhibited rank-4 centralizers (su(3)⊕su(3), so(7)⊕u(1)) with an exclusion-side control (a known-real subrep must return "real") | B1190/GC-9 |
 | 11 | the Selector (H5) | formalization | **the Kolmogorov-Selector cell** + the B998 lock repair (C1–C4 effectively unlocked; F2/F3/F8 untested) — batch-2 remainder | ledger H5 |
 
-**§6b — DELETION IS NOT THE ONLY MOVE: THE CONSISTENCY TURN (B1229, 2026-08-31).** This schedule
+**§6b — DELETION IS NOT THE ONLY MOVE: THE CONSISTENCY TURN (B1229, 2026-08-31).** *(2026-09-01 fence, fresh physics seat — this block is a dated record, not live law: B1232 (2026-09-01) RETRACTED (1) "σ is rational — not a continuum" as establishing nothing (ℚ is dense in ℝ; B1229's core was empty, so "σ ∈ {1/3, 1} — one bit" has no ground), and (2) "only level 1 needs no level datum" (§6a below) as a default-from-absence inference; B1231's identification rule bars the naming moves that followed. Read §6b/§6a with CAMPAIGN_STATUS's B1232 entry beside them.)* This schedule
 asks the OBJECT to supply each row — the one thing **B1225 proves it cannot do**. Physics reduces
 parameter counts by **consistency conditions**, not derivations. Applied here: the boundary of a
 Chern–Simons theory is a **rational** CFT, so by Anderson–Moore/Vafa its central charge is
@@ -238,7 +238,7 @@ and deleted zero rows while reading this table as a checklist. **S1 has now been
 level-1 identity `c(J₁) = rank(J)` (9/9), the nomination π₁(m004) ↠ 2T verified on-bench (48
 surjections; control 5₂ = 0), σ = 1 discriminating uniquely to E₆ among nine simply-laced types, and
 **the level forced by inventory** — the object supplies a lattice and provably no `k` (CS = 0 ⇒
-∂S/∂k ≡ 0), and only level 1 needs no level datum. **Row 1 is NOT deleted:** the boundary WZW of the
+∂S/∂k ≡ 0), and only level 1 needs no level datum. *(2026-09-01: retracted at B1232 — absence of a typed receiver means quotient-invariance or underdetermination, never a default.)* **Row 1 is NOT deleted:** the boundary WZW of the
 *geometric* PSL(2,ℂ) Chern–Simons action is type A₁ (rank 1 — the "one cusp-boson unit"), while E₆
 arrives from McKay on 2T. The remaining identification — **nominated type or geometric connection?** —
 is L154's bridge, now with a unique named target ((E₆)₁, vacuum module, c = 6) instead of an empty
