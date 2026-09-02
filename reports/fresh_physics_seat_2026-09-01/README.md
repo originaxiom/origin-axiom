@@ -53,3 +53,8 @@ directly. Every file below carries its second-pass corrections in place, marked.
    novelty adjustment. The philosophy layer is load-bearing in the correct direction only,
    and its sharpest act — the Origin Postulate refuted by its own pre-committed lock,
    2026-07-10 — is the epistemic high-water mark of the whole record.
+
+
+## 2026-09-02 — Phases C and D (recompute of the unreproduced load-bearing tier; off-main certificates)
+
+See `campaign/phaseC/SYNTHESIS.md` (judgments), `campaign/phaseC/results/` and `campaign/phaseD/results/` (agent digests), `recompute/R42`–`R52` (seat cells), and the relay note `relays/FAB5_TO_CC_2026-09-02_phaseB_findings.md` §1 (added rows), §2b. The one banked claim that falls: the family-wide amphichirality closure (R51).

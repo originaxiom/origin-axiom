@@ -85,6 +85,14 @@ all with committed scripts that run on this bench without Sage:
 Physics content of all nine: none, except that B919 names sin²θ_W and its derivation is not in the repository. Each is arithmetic or representation theory of the object; none names a
 measurable quantity. "No observable content."
 
+**Phase C/D follow-up (2026-09-02, `campaign/phaseC/SYNTHESIS.md`).** The 1106 rows of `load_bearing_unrecomputed.tsv`
+were worked: the 398 COMPUTED rows by rerunning their committed scripts (REPRODUCES 115, PARTIAL 70, CANNOT_RUN 189,
+NOT_A_COMPUTATION 11, DIFFERS 13 — every DIFFERS judged, R48/R50/R51/R52), the tool-checkable ASSERTED/IMPORTED rows by
+the seat (R42–R45), and the certificates on the two heads Phase B never read by agents plus the seat (R46, R47, R49).
+Headline: B1181's 83/83 and B1186's 112/112 family-wide amphichirality closures rest on `M.is_isometric_to(mirror)`,
+which is True for every orientable manifold; 74 of the 112 family members are chiral (R51). The rest of the chain that
+is code runs and passes on this bench, including the SM-end certificates on the codex and outside-bench heads.
+
 ## 5. The reader red flags by kind (auto, `SUMMARY.md`)
 
 <!--KINDS-->
