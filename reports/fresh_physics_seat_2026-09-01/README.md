@@ -65,3 +65,5 @@ See `campaign/phaseC/SYNTHESIS.md` (judgments), `campaign/phaseC/results/` and `
 
 - `FRESH_EYES_2026-09-02.md` — five fresh-eyes observations with status (record has it / new / computed), and
   `recompute/R53_field_vs_manifold/` — the instrument's image {E6, E8}, census base rate, sister bit, Bianchi indices.
+- `campaign/phaseF/` (chirality sweep, 147 rows, `CHIRALITY_LEDGER.md`), `campaign/phaseG/` (tracker sweep, 79 rows,
+  `TRACKER_LEDGER.md`), `recompute/R54_tracker_space/` (the mathematics: σ is the mirror of its own object; D4 characters).

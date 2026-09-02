@@ -210,3 +210,24 @@ Computed, not delegated (`recompute/R53_field_vs_manifold/`):
 Owner election words carried verbatim from this session: "i was expecting you not to give up that easy and
 try to see what were not seing because you have fresh eyes." The note `FRESH_EYES_2026-09-02.md` is the
 seat's answer; nothing in it is banked to main by the seat.
+
+## 9. Chirality and tracker sweep (Phases F/G, R54) — for cc to re-apply by hand
+
+Owner election words carried verbatim: "before you conclude the chirality verdict, please sweep the repo because we dealt
+with it, and get the results. regarding what the tracker dows to the world, we need to compute all possible options and
+not lean on my intuition or opinion but on math."
+
+Result: the record's settled position (B1163 theorem, B1168 parity law, B1169 naming, B1174 mirror = c, B1083 torsor
+typing, B766 rank-3 lattice, B1164/B1166 two bits + one dilaton) STANDS and is reproduced by independent computation
+(`recompute/R54_tracker_space/`). The complete list of tracker options is the character table of Sym(m004) = D4
+(`campaign/phaseG/TRACKER_LEDGER.md` §1). Propagation defects (`campaign/phaseF/CHIRALITY_LEDGER.md` §2):
+
+| # | where | what to change |
+|---|---|---|
+| F1 | B571 CHIRALITY_DOSSIER.md / REPORT.md; B572 | scope note: "breaks c" = "has mirror-odd data"; the sign is not the object's (B1163) |
+| F2 | B532-I6 log entry, B571 item 5 | the 24-permutation check is not a conjugacy test; the language arrow holds for the 4-letter rule (R54d) and fails for the 2-letter rule; name the object |
+| F3 | B1181, B1186 | replace `is_isometric_to(reverse_orientation)` with `symmetry_group().is_amphicheiral()`; R51 gives the corrected family counts |
+| F4 | B723 arc_verdict.json; LAW_MAP B717 row | banner: chirality clause and torsor clause refuted (B942, B957) |
+| F5 | B783 P16.2 | the letter complement is the C-type (mirror) bit, not γ5 (R54 §3, r54e) |
+| F7 | docs/RETRACTIONS.md | carry the B723 refutations and B132's in-arc withdrawal |
+| F8 | B582 FINDINGS:48-53 | wording: existence of a chiral construction, not a derivation of the hand |

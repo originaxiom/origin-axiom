@@ -64,6 +64,30 @@ exhaustive. **Every mirror-odd tracker's sign is one externally chosen bit; no t
 This is a theorem about the object, not about anyone's intuition. It does not say the bit is unimportant; it says
 where it enters.
 
-## 7. Reconciliation with the record (filled from the Phase F/G sweep)
+## 6b. Beyond the mirror: the full symmetry group (r54e)
 
-_(filled after the sweep; see `campaign/phaseF/CHIRALITY_LEDGER.md` and `campaign/phaseG/TRACKER_LEDGER.md`)_
+Sym(m004) has 8 isometries (SnapPy), 4 orientation-reversing (cusp-map determinant −1). The cusp image of the group is
+(ℤ/2)² = ⟨mirror, flow reversal⟩ (the two isometries with cusp map I are the kernel). The bundle is invertible: A ↦ A⁻¹
+is realised by orientation-preserving fibre maps (e.g. [[−3,−2],[5,3]]) and by orientation-reversing ones (e.g.
+[[−1,0],[1,1]]); the mirror commuting with the flow is e.g. [[−1,−1],[−1,0]] = −F. So a scalar tracker transforms under one
+of the four linear characters of D4 (mirror-parity × time-reversal-parity) or is a doublet under its 2-dimensional
+irreducible representation. That is the complete list of options; each odd factor costs one chosen bit, a doublet one
+labelling. The SL/PSL central lift sign θ (B585, B766) is a third bit belonging to the representation, not the manifold.
+(Caveat on the script: the abelianization it prints is of the cusp-image group (ℤ/2)²; D4's own abelianization is also
+(ℤ/2)², so the count of linear characters, 4, is the same.)
+
+## 7. Reconciliation with the record (from the Phase F/G sweep; ledgers in `campaign/phaseF`, `campaign/phaseG`)
+
+The record had already established every load-bearing statement of this cell: σ is orientation-reversing and m004 is the
+double tick (B466, B467, B1083, B1234); the rule is a basepoint on a free K4-torsor with swap = C and reversal = P (B1083);
+the mirror is complex conjugation on ℚ(√−3) (B1174, B8154, B289); no object-canonical datum can orient m004 (B1163 theorem);
+mirror-even is the object's, mirror-odd is the observer's (B1168, B1169); the closing lattice has rank 3 = {c, θ, γ5}
+(B766); the observer's discretion is two bits + one dilaton (B1164, B1166). This cell's §6 was written before those arcs
+were read and coincides with B1169's core; §6b coincides with B766. The seat's additions are: the SL(2,ℤ) conjugator
+between the rule and its mirror (§3); explicit words realising the mirror character (§4, 132 pairs); the language-level
+check that the 2-letter rule has no reading arrow while the 4-letter rule has (r54d); and the character-table form of the
+exhaustive list (§6b). Defects surfaced by the sweep (B571/B572 wording, B723's verdict file and the LAW_MAP row, the
+B1181/B1186 instrument, B783's γ5 typing) are in the chirality ledger, F1–F9.
+
+**Verdict.** The record's chirality position STANDS and is a theorem. The owner's belief is correct for the even part and
+the torsors and needs three declared bits and one scale for the rest; the record has priced exactly those.

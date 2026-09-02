@@ -1,0 +1,14 @@
+{
+ "isometries": 8,
+ "group_order": 4,
+ "classes": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "linear_characters": 4,
+ "orientation_reversing": 2,
+ "invertible": true,
+ "mirror_commuting_with_flow": true
+}

@@ -559,3 +559,10 @@ Numbering note: cells are R01–R52; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   identical (A ≡ −A mod 2). B208 (integer) and B206/B8118 (field) use different reduction conventions.
   B8118's "E6 is a function of the field" STANDS and sharpens to "a function of the instrument".
   `recompute/R53_field_vs_manifold/FINDINGS.md`; note `FRESH_EYES_2026-09-02.md`.
+
+- **R54 (tracker space; Phases F/G).** σ has det −1: its mapping torus is Gieseking (m000) and m004 is the orientation
+  double cover; σ acts fibrewise as a mirror of its own object; the rule and its a↔b mirror are SL(2,ℤ)-conjugate; 132
+  word pairs realise the complex-conjugate character; the 2-letter language is reversal-closed (no arrow), the 4-letter
+  rule's is not. Every tracker decomposes under Sym(m004) = D4: four linear characters (mirror × time) plus a doublet;
+  each odd factor is one chosen bit. Reproduces B1163/B1168/B1169/B1174/B1083/B766 independently. Sweep of 101 chirality
+  arcs + 58 tracker arcs: position STANDS; nine propagation defects (`campaign/phaseF/CHIRALITY_LEDGER.md`).
