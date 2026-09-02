@@ -1,0 +1,202 @@
+{
+  "batch": "arcs_050",
+  "arcs": [
+    {
+      "arc": "B670_anatomy_full",
+      "source": "main",
+      "files_read": [
+        "frontier/B670_anatomy_full/FINDINGS.md",
+        "frontier/B670_anatomy_full/ORIGINALS_MANIFEST.txt",
+        "frontier/B670_anatomy_full/arc_verdict.json",
+        "frontier/B670_anatomy_full/verify_f4_dim52.py",
+        "frontier/B670_anatomy_full/packet/ATLAS.md",
+        "frontier/B670_anatomy_full/packet/CHARTER.md",
+        "frontier/B670_anatomy_full/packet/FRONTIER.md",
+        "frontier/B670_anatomy_full/packet/HANDOFF_README_CC.md",
+        "frontier/B670_anatomy_full/packet/SEALS.txt",
+        "frontier/B670_anatomy_full/packet/STATUS.md",
+        "frontier/B670_anatomy_full/packet/TRACK_H_ADJUDICATION_CC2.md",
+        "frontier/B670_anatomy_full/packet/VERDICT_LEDGER.md",
+        "frontier/B670_anatomy_full/packet/loop1/PREREG_L1.md",
+        "frontier/B670_anatomy_full/packet/loop1/a1_jordan/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop1/a1_jordan/a1_jordan.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop1/a1_jordan/a1_results.json",
+        "frontier/B670_anatomy_full/packet/loop1/a1_jordan/a1_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop1/a2_phases/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop1/a2_phases/a2_phases.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop1/a2_phases/a2_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop1/a2_phases/a2_table.json (head/tail/wc, sampled)",
+        "frontier/B670_anatomy_full/packet/loop1/a3_stage/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop1/a3_stage/a3_results.json",
+        "frontier/B670_anatomy_full/packet/loop1/a3_stage/a3_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop1/a3_stage/a3_stage.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop4/PREREG_L4.md",
+        "frontier/B670_anatomy_full/packet/loop4/d1_pairing/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop4/d1_pairing/d1_pairing.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop4/d1_pairing/d1_results.json",
+        "frontier/B670_anatomy_full/packet/loop4/d1_pairing/d1_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop3/PREREG_L3.md",
+        "frontier/B670_anatomy_full/packet/loop3/c1_vecmassey/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop3/c1_vecmassey/c1_results.json",
+        "frontier/B670_anatomy_full/packet/loop3/c1_vecmassey/c1_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop3/c1_vecmassey/c1_vecmassey.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop3/c2_f4split/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop3/c2_f4split/c2_f4split.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop3/c2_f4split/c2_results.json (head/tail/wc, sampled)",
+        "frontier/B670_anatomy_full/packet/loop3/c2_f4split/c2_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop3/c2_f4split/c2_stdout.txt",
+        "frontier/B670_anatomy_full/packet/loop3/c3_signtable/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop3/c3_signtable/c3_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop3/c3_signtable/c3_signtable.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop3/c3_signtable/c3_table.json (head/tail/wc, sampled)",
+        "frontier/B670_anatomy_full/packet/loop2/PREREG_L2.md",
+        "frontier/B670_anatomy_full/packet/loop2/b3_silver/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop2/b3_silver/b3_results.json",
+        "frontier/B670_anatomy_full/packet/loop2/b3_silver/b3_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop2/b3_silver/b3_silver.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop2/b2_massey/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop2/b2_massey/b2_massey.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop2/b2_massey/b2_results.json",
+        "frontier/B670_anatomy_full/packet/loop2/b2_massey/b2_run2_log.txt",
+        "frontier/B670_anatomy_full/packet/loop2/b2_massey/b2_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop2/b4_landscape/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop2/b4_landscape/b4_landscape.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop2/b4_landscape/b4_matrix.json (head/tail/wc, sampled)",
+        "frontier/B670_anatomy_full/packet/loop2/b4_landscape/b4_run_log.txt",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/FINDINGS_CC2.md",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/_dev_exact_spotcheck.py",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/_dev_modp.py",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/_prep_exact.py",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/_prep_log.txt",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/b1_f4.py (head+grep)",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/b1_main_log.txt",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/b1_results.json",
+        "frontier/B670_anatomy_full/packet/loop2/b1_f4/b1_run_log.txt"
+      ],
+      "files_sampled": [
+        "frontier/B670_anatomy_full/packet/loop1/a2_phases/a2_table.json",
+        "frontier/B670_anatomy_full/packet/loop3/c2_f4split/c2_results.json",
+        "frontier/B670_anatomy_full/packet/loop2/b4_landscape/b4_matrix.json",
+        "frontier/B670_anatomy_full/packet/loop3/c3_signtable/c3_table.json"
+      ],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED — \"The stabilizer of the invariant line in e6 is 52-dimensional F4, so every metallic representation lives in one F4-form and h0=1 is canonical.\" (arc_verdict.json id B670)",
+      "log_says": "PROGRESS_LOG.md 2026-07-17: B670: THE ANATOMY LOOPS 1-3 INTEGRATION (the F4 skeleton verified; L107 closes) — cc2's full handoff (seals 17/22; all five mismatches dispositioned — three README/file-disclosed, the two prereg mismatches flagged back).",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "dim stab_{e6}(v0) = 52 (= F4), 27 = 1 + 26 branching, holonomy contained in F4(v0)",
+          "where": "packet/loop2/b1_f4/b1_results.json, b1_main_log.txt; independently re-verified by frontier/B670_anatomy_full/verify_f4_dim52.py",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Computed twice from committed code: (1) cc2's b1_f4.py, mod-p (p=2^31-1) primary pass PLUS an exact re-solve on a minimal independent row subset (dims 78 and 52 exact-certified, not just mod-p; 15/15 exact spot-verifies N(Xx,x,x)=0); (2) an independent one-file spot-verify script (verify_f4_dim52.py) committed at the arc root that rebuilds v0 and the 78-basis from cellB/qblock_78.py and recomputes dim stab = 52 exactly. Both use the banked B575/qblock_78 apparatus (not rebuilt from first principles), so the two checks share upstream machinery (the e6-in-gl(27) construction, the cubic invariant N) rather than being fully independent derivations."
+        },
+        {
+          "what": "v0's Jordan trichotomy: v0 x v0 != 0 (support {12,13,14}, values (-2,2,-2)), N(v0,v0,v0) = -6 != 0 => RANK 3 invertible",
+          "where": "packet/loop1/a1_jordan/a1_results.json, a1_run_log.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Exact K=Q(sqrt(-3)) Fraction-pair arithmetic throughout (a1_jordan.py, committed, sha-sealed against PREREG_L1.md); the incremental symmetric-bilinear-form solve is cross-checked against a banked nullspace() call on the same 180-row system (self-test, dim 1 match) before trusting the larger 756-row run."
+        },
+        {
+          "what": "Massey/cup-vanishing chain: Koszul zero -> D1 spectral zero -> S4 v0-mediated cup zero -> B2 scalar triple Massey ZERO on solo triple {2,3,4}",
+          "where": "packet/loop2/b2_massey/b2_results.json, b2_run2_log.txt (b2_run_log.txt is the earlier FAILED run, disclosed)",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Exact K-arithmetic; one type-error patch (line 321, int*K) applied openly between b2_run_log.txt (crash) and b2_run2_log.txt (success) — the failed run is retained in the packet rather than deleted, a positive transparency signal."
+        },
+        {
+          "what": "FORK-NONVANISHING: vector-valued cup classes [c_ij] in H^2(D;27-bar) nonzero for all 6 off-diagonal solo pairs; [c_23] witness = Y[023] exactly; [c_24] = 1-(1/3)sqrt(-3) while Y[024]=0",
+          "where": "packet/loop3/c1_vecmassey/c1_results.json, c1_run_log.txt; corrected/extended by packet/loop4/d1_pairing/d1_results.json, d1_run_log.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Exact Q(sqrt(-3)) arithmetic; witnesses are constructive (psi in ker(F^T) with psi.F=0, psi.BASE_ij != 0). C1's synthesis (\"cubic cannot see some couplings\") was explicitly OVERSTATED and is corrected in-file (appended CORRECTION section, dated) and independently re-derived by D1's full 5x5 pairing (gate (a) reproduces C1's six witnesses string-for-string). This is a properly-marked correction, not a silent one."
+        },
+        {
+          "what": "C2: F4's 26-complement == principal-sl2's 17+9 span exactly (same 26-dim subspace); h1(26) = h1(17)+h1(9) = 1+1 = 2",
+          "where": "packet/loop3/c2_f4split/c2_results.json, c2_run_log.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Exact; the invariant bilinear form B(x,y):=N(x,y,v0) is constructed canonically (not an arbitrary pick from the banked 3-dim space) and gated to lie in that 3-dim space; all containments (P1 idempotent, block-diagonal, orthogonality) checked exactly, not just mod p."
+        },
+        {
+          "what": "C3 sign table: 9 of 20 realized centrals give an exact block scalar (+-1); 11 give a genuine +-1 SPLIT; no sealed formula ((i),(ii),(iii)) fits all 9 scalar rows; best near-miss (-1)^(a-1) fits 8/9 (fails SU3 k=6)",
+          "where": "packet/loop3/c3_signtable/c3_table.json, c3_run_log.txt (CORRECTED file per ORIGINALS_MANIFEST.txt and the in-file CORRECTION NOTE)",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "The FIRST banked version of this cell was itself wrong (banked from a mid-run log before the run finished, misclassifying all rows as scalars) and was explicitly retracted and replaced (MB13, 'never bank from a log the run hasn't finished writing') — the corrected file is committed and carries the correction note; the underlying computation is dps-50 mpmath with exact-certified involution deviations (~1e-49), and an analytic argument (not just curve-fitting) rules out one whole sealed candidate family."
+        },
+        {
+          "what": "B4 cross-landscape: 16 words x 12 stages |tr_odd| matrix; self-selection holds 8/16 rows, golden's true off-conductor value = sqrt(3)-1 (falsifying chat-1's guessed 2-sqrt(3))",
+          "where": "packet/loop2/b4_landscape/b4_matrix.json, b4_run_log.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "mpmath numeric at dps=40, NOT exact symbolic — but 3 hard gates (G1-G3) check against exact algebraic targets (-1/phi, -phi, ~0) to ~1e-40 precision, and a seal-hash check on PREREG_L2.md guards against silent hypothesis-drift; still, the matrix values themselves are numeric doubles/mpf, not certified exact field elements (flagged NUMERIC_ONLY_NO_EXACT for entries beyond the gated ones)."
+        },
+        {
+          "what": "B3 silver: v0_silver has IDENTICAL Jordan invariants to golden v0 (not just same form) — sharp-fixed factor -2, N(v0)=-6, rank 3",
+          "where": "packet/loop2/b3_silver/b3_results.json, b3_run_log.txt, FINDINGS_CC2.md",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Exact rational arithmetic reused from B649's banked letters; FINDINGS_CC2.md itself flags the surprise (identical values, not just matching form) and honestly traces it to the SHARED rational Cartan-cubic apparatus underlying both tracks rather than claiming it as an independent coincidence — this is a borderline IDENTIFICATION_BY_TYPE risk the authors pre-empted by naming the shared machinery, but the physics interpretation (\"an intrinsic Jordan direction every metallic holonomy stabilizes\") still rests on two data points (golden, silver) built from the same underlying tensor."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "verify_f4_dim52.py (arc root, not inside packet/) independently re-derives the single most load-bearing number (dim stab = 52) from the banked qblock_78.py apparatus in a separate short script, and each cell's own script re-derives/cross-checks upstream banked values (v0, N) against prior JSONs (w0a_v0.json, a1_results.json) before proceeding — this is genuine recomputation with cross-checking, not mere re-reading of banked JSON.",
+      "absence_claims": [
+        {
+          "quote": "\"couplings the cubic cannot see\" was OVERSTATED. ... The correct statement is SLOT-WISE blindness only: single contractions vanish while the class lives.",
+          "where": "packet/loop3/c1_vecmassey/FINDINGS_CC2.md, CORRECTION section (2026-07-17)"
+        },
+        {
+          "quote": "no cc session needed on H1 -- see the adjudication",
+          "where": "packet/TRACK_H_ADJUDICATION_CC2.md, line 45"
+        },
+        {
+          "quote": "the first version of this file was banked by the main seat from a MID-RUN log and contained errors (it read all rows as scalars); the agent's gated final data supersedes it.",
+          "where": "packet/loop3/c3_signtable/FINDINGS_CC2.md, CORRECTION NOTE (MB13)"
+        },
+        {
+          "quote": "v0_silver's cross-square/N/bilinear invariants NOT computed here (a separate cell per prereg instruction) -- flagged for the frontier.",
+          "where": "packet/loop1/a1_jordan/a1_results.json, key \"silver_note\""
+        },
+        {
+          "quote": "T2 when dim==1). Per prereg instruction we (a) recompute the 3-dim space... [a1_jordan.py] did not bank a basis (T2_v0_v0 is null in a1_results.json because that script only banks T2 when dim==1)",
+          "where": "packet/loop3/c2_f4split/c2_f4split.py, module docstring"
+        },
+        {
+          "quote": "resolving that further subquotient would require constructing delta^2 (the 3-cell attaching map), which is NOT part of the reused machinery and is not independently built here",
+          "where": "packet/loop3/c1_vecmassey/c1_vecmassey.py, module docstring"
+        },
+        {
+          "quote": "loop2/PREREG_L2.md + loop4/PREREG_L4.md (NOT disclosed - FLAGGED BACK to cc2 in the relay note: sealed preregs should never change post-seal; explain or re-seal).",
+          "where": "frontier/B670_anatomy_full/ORIGINALS_MANIFEST.txt, lines 73-75"
+        }
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "SUPERSEDED_UNMARKED",
+          "detail": "FRONTIER.md, STATUS.md, ATLAS.md and VERDICT_LEDGER.md (the 'living memory' files) all still narrate C1's original synthesis-2 language ('the fifth level speaks'; 'THE ZERO LAW BREAKS UPSTAIRS') without repeating D1's correction (slot-wise, not global, blindness) inline — the correction lives only in c1_vecmassey/FINDINGS_CC2.md's appended note and d1_pairing/FINDINGS_CC2.md. A reader of ATLAS.md alone (ORGAN 8) would not learn the overstatement was retracted.",
+          "where": "packet/ATLAS.md line 40 ('the zero law breaks upstairs'); packet/VERDICT_LEDGER.md loop3/C1 entry"
+        },
+        {
+          "kind": "NUMERIC_ONLY_NO_EXACT",
+          "detail": "B4's full 16x12 cross-landscape matrix (b4_matrix.json) is computed in mpmath at dps=40, not exact symbolic arithmetic (unlike every other cell in this arc, which is Fraction-pair exact over Q(sqrt(-3)) or Q(sqrt(-1),s)). Only a handful of gated entries are checked to exact algebraic targets; most of the 192 cells are reported as bare floats/near-integer values.",
+          "where": "packet/loop2/b4_landscape/b4_landscape.py, b4_matrix.json"
+        },
+        {
+          "kind": "IDENTIFICATION_BY_TYPE",
+          "detail": "The 'metallic-universal frame' claim (golden and silver holonomies fix the SAME sharp-fixed invertible v0) rests on exactly two data points, both built from the same shared rational Cartan-cubic tensor apparatus (as FINDINGS_CC2.md itself notes) — the identity of values (not just form) across golden/silver is honestly flagged by the authors as traceable to shared machinery, but the 'universal' framing in ATLAS.md/downstream still reads as though it were an independent structural coincidence across two unrelated objects.",
+          "where": "packet/loop2/b3_silver/FINDINGS_CC2.md, lines 4-12"
+        },
+        {
+          "kind": "OTHER",
+          "detail": "The arc's own SEALS.txt records only 17/22 hash matches on receipt; the manifest discloses three (FRONTIER.md's living-document status, c3's corrected-file swap, c1's in-place correction) but explicitly leaves two prereg-file mismatches (loop2/PREREG_L2.md, loop4/PREREG_L4.md) UNRESOLVED and 'flagged back to cc2' rather than explained in this packet — the rule that sealed preregs should never change post-seal is stated as violated, with no resolution recorded in the committed files read here.",
+          "where": "frontier/B670_anatomy_full/packet/SEALS.txt; ORIGINALS_MANIFEST.txt lines 73-75"
+        }
+      ],
+      "seat_note": "This is one of the more rigorous arcs sampled: every headline number is exact Fraction-pair arithmetic with committed reproduction scripts, one wrong intermediate bank (C3) was caught and openly corrected, and the dim-52 F4 claim has a genuine independent spot-verify script at the arc root. The physics content stays firmly STRUCTURAL (Lie-algebra/Jordan-algebra dimension and cohomology facts) — no observable or numerical prediction is made or claimed inside this arc itself; the two live worries are the unresolved prereg-hash mismatch left dangling to another seat, and the living-document ATLAS/FRONTIER files not yet reflecting the C1→D1 correction inline."
+    }
+  ]
+}

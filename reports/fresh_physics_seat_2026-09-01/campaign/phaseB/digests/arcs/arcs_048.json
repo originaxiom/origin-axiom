@@ -1,0 +1,189 @@
+{
+ "batch": "arcs_048",
+ "arcs": [
+  {
+   "arc": "B666_leads_campaign",
+   "source": "main",
+   "files_read": [
+    "frontier/B666_leads_campaign/CAMPAIGN_PREREGISTRATION.md",
+    "frontier/B666_leads_campaign/ADDENDUM_1.md",
+    "frontier/B666_leads_campaign/CAMPAIGN_SYNTHESIS.md",
+    "frontier/B666_leads_campaign/WAVE1_FINDINGS.md",
+    "frontier/B666_leads_campaign/WAVE2_FINDINGS.md",
+    "frontier/B666_leads_campaign/WAVE3_FINDINGS.md",
+    "frontier/B666_leads_campaign/ARTIFACT_HASHES.txt",
+    "frontier/B666_leads_campaign/cellT/TRIAGE_TABLE.md",
+    "frontier/B666_leads_campaign/cellS/SILENCE_NOTE.md",
+    "frontier/B666_leads_campaign/cell5/repro_fixed_full.txt",
+    "frontier/B666_leads_campaign/cell5/cell5_output.txt",
+    "frontier/B666_leads_campaign/cell5/cell5_output_2.txt",
+    "frontier/B666_leads_campaign/cellA2/a2_phase3_output.txt (head+tail+grep)",
+    "frontier/B666_leads_campaign/cellR2/run1_console_tail_FAILED_COCYCLE_GUESS.txt",
+    "frontier/B666_leads_campaign/cellR2/run2_console.txt",
+    "frontier/B666_leads_campaign/cell9/taskA_output_run1_FAILED.txt",
+    "frontier/B666_leads_campaign/cell9/taskA_output.txt",
+    "frontier/B666_leads_campaign/cell9/taskA_verify2_output.txt",
+    "frontier/B666_leads_campaign/cell2/cell2_output_run1_killed.txt",
+    "log_index/B666.txt (13 progress-log entries)"
+   ],
+   "files_sampled": [
+    "frontier/B666_leads_campaign/cellA2/a2_phase1.py (head+grep)",
+    "frontier/B666_leads_campaign/cellA2/a2_phase2.py (head+grep, not deeply)",
+    "frontier/B666_leads_campaign/cellA2/ckpt_phase1.json (5.1MB, not opened)",
+    "frontier/B666_leads_campaign/cellA2/phase2_results.json (363KB, not opened)"
+   ],
+   "files_listed_only": [
+    "frontier/B666_leads_campaign/cell1/* (13 files: gap_check.py, gap_fields.py, mod16*.py, shadow_group.py, stage_scan.py, tone_map.py + logs) — not opened, only listed",
+    "frontier/B666_leads_campaign/cell3/* (b666_cell3.py, cell3_landscape.py, discover.py + outputs) — not opened",
+    "frontier/B666_leads_campaign/cell4/* (PROOF_NOTE.md, R21_9_PROOF.md, verify scripts) — not opened",
+    "frontier/B666_leads_campaign/cell6/* (b480/b544 rederive+addendum scripts+outputs) — not opened",
+    "frontier/B666_leads_campaign/cell7/* (b666_cell7.py, dial_valuations.json) — not opened",
+    "frontier/B666_leads_campaign/cell8/* (cell8_fiberpaired.py, hashes, output) — not opened",
+    "frontier/B666_leads_campaign/cell10/* (sector_lemma1.py, results.json) — not opened",
+    "frontier/B666_leads_campaign/cellB2/* (b666_cellB2.py, landscape_table.json, output) — not opened",
+    "frontier/B666_leads_campaign/cellC2/* (phases.py, phase_catalogue.json, output) — not opened",
+    "frontier/B666_leads_campaign/cellR1/* (CONSTRUCTION.md, r1_transport.py, output) — not opened",
+    "frontier/B666_leads_campaign/cellR3/* (e6/su3 perterm scripts, results, logs) — not opened",
+    "frontier/B666_leads_campaign/cellW31/* (w31_unconditional.py, w31_results.json, output) — not opened",
+    "frontier/B666_leads_campaign/cellW32/b666_cellW32.py + output — not opened (only referenced via WAVE3_FINDINGS synthesis)",
+    "frontier/B666_leads_campaign/cellW33/* (doublet_streams.json, output x3) — not opened",
+    "frontier/B666_leads_campaign/cellW34/* (ASYMPTOTICS_NOTE.md, L98_FALSIFIER_PREREG.md, SEALS.txt, several .py/.txt) — not opened",
+    "frontier/B666_leads_campaign/cellW35/* (bronze.py, script_hashes, output) — not opened",
+    "frontier/B666_leads_campaign/cellS/PROOF_NOTE.md, verify_rigidity.py, cellS_output.txt — not opened",
+    "frontier/B666_leads_campaign/cellR2/b666_r2_latin_proof.py, r2_proven_tables.json — not opened directly (verdict cross-checked via run1/run2 console output)",
+    "frontier/B666_leads_campaign/cell9/cell9_L_arith.py, taskB_*.py/.json (5 files), taskA_exact_coords.json, taskA_repverify_output.txt — not opened",
+    "frontier/B666_leads_campaign/cell1/b666c1_ab_log.txt, groups.json — not opened"
+   ],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false at packet level; per-wave WAVE1/2/3_FINDINGS.md + CAMPAIGN_SYNTHESIS.md serve as the closest thing to a verdict, all marked banked/closed with no top-level PASS/FAIL status field)",
+   "log_says": "13 progress-log mentions across 2026-07-17 to 2026-08-26 trace B666 as a ~30-cell, 4-wave multi-agent campaign: wave0/1 six cells banked (2026-07-17), wave2 twelve cells banked (2026-07-17/18, one cell A2 deferred after a crash), wave3 seven cells banked (2026-07-18) including the crash-repaired cellA2 giving 'THE SYMMETRIC CANDIDATE EXISTS'; later entries (B756, B763, B878/879, B926, B996-B1002, B1165) treat B666's outputs (the additive Dirichlet form, the scale-torsor theorem, the shadow-modulus '5'/'8' conductor values) as settled inputs to downstream arcs, and one entry (B1002) flags a terminology collision B666 itself never resolved ('conductor' = cusp-order conductor OR shadow modulus, used interchangeably across B666/B675/B997 with none of the three citing the others).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "R21-9 pair-evenness lemma proven unconditionally: det B_w factors with all valuations even (Lambda in Z)",
+     "where": "cell4/R21_9_PROOF.md, cell4/b666_cell4_verify.py, cell4/cell4_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Findings claim symbolic verification m=3..50 plus all 192 W(D4) and all 51840 W(E6) elements; I did not open cell4's files this pass (listed-only) so cannot confirm the script actually runs these checks — flagged as a thin read, not a red flag."
+    },
+    {
+     "what": "The 351-valued cup nonzero + slot-symmetric on the solo block, with 3x3 scalarizations having three exact distinct eigenvalues (irreducible cubics over Q(sqrt(-3)))",
+     "where": "cellA2/a2_phase3.py, cellA2/a2_phase3_output.txt (verified directly: eigenvalue dict literals show 3 distinct symbolic roots each with multiplicity 1, built via nested Cardano radicals in sqrt(3), reduced via 16-prime CRT with 44/44 reconstructions per WAVE3_FINDINGS)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly read a2_phase3_output.txt: it shows an exact symbolic eigenvalue computation (sympy-style radical expressions) for two 3x3 scalarizations, each yielding 3 distinct eigenvalue keys with multiplicity 1 -- consistent with the 'three distinct eigenvalues' claim. The script and its full log are committed and tracked in git."
+    },
+    {
+     "what": "L88 hearing-matrix Latin square k(i,j) = +/- m_i*m_j (mod 7) DERIVED (cell R2)",
+     "where": "cellR2/run1_console_tail_FAILED_COCYCLE_GUESS.txt (run1: FAIL on the s'-cocycle gate), cellR2/run2_console.txt (run2: same gate PASSES, 'all 54')",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Both the failing and the fixed run are committed verbatim (house rule: outputs preserved), giving a genuine before/after witness rather than a single asserted PASS. Final claim (29/29 exact gates in Z[zeta_252]) is directly supported by run2's PASS list."
+    },
+    {
+     "what": "cell9 Task A: exponents m=1,4,5,7,8,11 confirm exact integers (tau_m), factorizations given, sign law (-1)^m holds",
+     "where": "cell9/cell9_taskA_exact_tau.py, cell9/taskA_output.txt, cell9/taskA_output_run1_FAILED.txt, cell9/cell9_taskA_verify2.py, cell9/taskA_verify2_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Run1 failed an assert at rel-dev 1e-25 threshold (committed as *_FAILED.txt per house rule); the retained/verify2 run uses higher precision (dps500, degree-25 padding) and reaches relative deviations down to 1e-388/1e-443, well past the m=11 'sealed digits = noise' resolution WAVE2 claims. This is a strong, exact-arithmetic-anchored numeric identification (mpmath high-precision + exact factorization), reproducible from the committed scripts."
+    },
+    {
+     "what": "B544 confirmed (610/610 exact, Sturmian >=99.97%); B480 corrected (banked <r>=0.16 is float noise on an exactly degenerate spectrum)",
+     "where": "cell6/* (not opened this pass; only WAVE1_FINDINGS.md's summary read)",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "The correction narrative (an explicit E-ledger 'banked value corrected' event) is exactly the kind of self-correction this seat should sample directly, but cell6's actual scripts/outputs were not opened in this pass -- thin read, flagged below."
+    },
+    {
+     "what": "The metallic-McKay descent: golden exact at 2I/E8 (conductor prime), silver a QUOTIENT (not subgroup) at 2O/E7 (conductor prime power), bronze exact at 2T/E6 (conductor 3); 'mode decided by SL(2)-realizability'",
+     "where": "cell1/ (not opened), cellW35/ (not opened); claim only read via WAVE1/WAVE3_FINDINGS.md synthesis",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "This is exactly the kind of numeric-coincidence-driven identification (conductor value -> which finite group is 'heard') the seat's IDENTIFICATION_BY_TYPE rule targets, but the underlying group-theory computation (cell1/cellW35 scripts) was not directly inspected in this pass."
+    },
+    {
+     "what": "Scale-torsor no-go theorem: Hom(G, R+)=0 for finite/profinite G implies no equivariant scale map; framed as a 'wall 10 -> theorem' promotion",
+     "where": "cellS/PROOF_NOTE.md (not opened), cellS/SILENCE_NOTE.md (opened in full), cellS/verify_rigidity.py (not opened)",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "SILENCE_NOTE.md itself is careful and self-labeling (explicitly says 'nothing here banks anything SM-facing', cites two literature theorems by name with access-dated references, and marks the physical hypothesis as LABELED). The mathematical core (Hom(G,R+)=0 for compact/profinite G) is a standard, easily-checkable group-theory fact; PROOF_NOTE.md's 'concrete verification of the rigidity step' on named structures (Gal(L/Q(i)) Klein four, 2I, PSL(2,7), W(E6)) was not opened, so I cannot confirm whether that verification is a real computed script or an assertion."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No dedicated verification/ or belt/ subdirectory exists for this arc (has_verification_dir=false). What functions as a belt is internal: (a) run1_FAILED / run2_clean witness pairs kept side by side (cell5, cell9, cellR2, cell2's killed run) rather than overwritten, and (b) the WAVE*_FINDINGS documents being an explicit main-seat 'adjudication' pass over the raw cell outputs, distinct from the cell scripts themselves. This is re-reading/adjudicating committed outputs, not independent recomputation by a separate script -- no fresh checker script recomputes the cells' numbers from scratch.",
+   "absence_claims": [
+    {
+     "quote": "Recovery failed honestly (the scripts never existed in-tree -- whole-history pickaxe negative).",
+     "where": "WAVE1_FINDINGS.md:84"
+    },
+    {
+     "quote": "B562/P21: verified TOMBSTONE -- no external framework survives all the object's signatures; residual hint in TOMBSTONES.md; the moonshine-scout continuation never ran and dies with the line",
+     "where": "cellT/TRIAGE_TABLE.md:46 (L46)"
+    },
+    {
+     "quote": "B562/P17: DORMANT -- no ground truth; re-probe trigger = new non-Hermitian/matrix-valued aperiodic-spectral literature",
+     "where": "cellT/TRIAGE_TABLE.md:39 (L20)"
+    },
+    {
+     "quote": "DORMANT, data recorded -- irregular p-dependent counts, no clean conductor; Baker-Petersen covers only R.L^{n+2}, no LMFDB labels",
+     "where": "cellT/TRIAGE_TABLE.md:44 (L34-res)"
+    },
+    {
+     "quote": "B583/X1 (no real form; no compact branching forced)",
+     "where": "cellT/TRIAGE_TABLE.md:64 (L79)"
+    },
+    {
+     "quote": "B583/X1: no maximal-compact branching is forced (16+10+1 not selected)",
+     "where": "cellT/TRIAGE_TABLE.md:53 (L65)"
+    },
+    {
+     "quote": "no arc touched it (grep-verified); trivially runnable; not shortlist material",
+     "where": "cellT/TRIAGE_TABLE.md:55 (L69)"
+    },
+    {
+     "quote": "no arc since registration (grep-verified); banked start = B270",
+     "where": "cellT/TRIAGE_TABLE.md:56 (L71)"
+    },
+    {
+     "quote": "phase 3 never mentioned since (grep: zero \"CS functional\" entries)",
+     "where": "cellT/TRIAGE_TABLE.md:57 (L72)"
+    },
+    {
+     "quote": "registration-only (grep-verified); ... exploratory (no sharp two-outcome yet)",
+     "where": "cellT/TRIAGE_TABLE.md:60 (L75)"
+    },
+    {
+     "quote": "registered 2026-07-15 (B598 step-6 routing); zero work since (grep: no post-registration \"Latin\"/\"doubly-stochastic\" hits)",
+     "where": "cellT/TRIAGE_TABLE.md:70 (L88)"
+    },
+    {
+     "quote": "C4: cell F proved the cubic's phases are CONVENTION -- no forced object exists for a CP comparison",
+     "where": "PROGRESS_LOG.md 2026-07-17 entry (log_index/B666.txt), quoted from B667's adjudication of B666's own wave-1 output"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "No FINDINGS.md or arc_verdict.json exists at the arc's top level (packet flags has_findings=false, has_verdict=false); the closest artifacts are three per-wave FINDINGS files plus a CAMPAIGN_SYNTHESIS.md, none of which carry a single canonical 'claim_one_line + status' the way other arcs' verdict files do. This makes 'claim of record' for the whole campaign a synthesis of multiple documents rather than one citable verdict.",
+     "where": "frontier/B666_leads_campaign/ (top level)"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The metallic-McKay descent narrative (golden/2I/E8, silver/2O quotient/E7, bronze/2T/E6) turns on matching each word's numeric conductor (5, 8, 3) to a specific finite subgroup via 'SL(2)-realizability' -- a structural criterion, but one whose selection (why THESE three exceptional groups, why these three conductors count as 'the' metallic family) was not independently re-derived by me; I could not verify from the files I opened whether the correspondence is forced by the arithmetic or curve-fit to the three cases in hand.",
+     "where": "WAVE1_FINDINGS.md CELL 1, WAVE3_FINDINGS.md CELL W35 (cell1/, cellW35/ scripts not opened this pass)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Terminology collision flagged by a LATER arc, not by B666 itself: 'conductor' is used for two different quantities (the cusp order's conductor, values 4/2 in B675, vs the shadow modulus, values 5/8 in B666) across B666/B675/B997 with 'none of the three citing the other[s]' per the log. B666's own files (not reopened here) apparently never disambiguate this within the campaign.",
+     "where": "PROGRESS_LOG.md entry 'B1002 (2026-08-09)' in log_index/B666.txt, describing B666's own usage retroactively"
+    },
+    {
+     "kind": "NO_TEST",
+     "detail": "The wave ledger deltas mention dedicated lock files (tests/test_b666_wave1.py, tests/test_b666_wave2.py) but I did not verify these exist or pass in this pass -- flagged as an open question rather than a confirmed absence.",
+     "where": "WAVE1_FINDINGS.md:106, WAVE2_FINDINGS.md:118"
+    }
+   ],
+   "seat_note": "The sampled load-bearing claims (the R2 Latin-square derivation with its committed fail-then-pass console pair, the cell9 exact-integer identifications with fail-then-higher-precision-pass witnesses, and cellA2's directly-verified 3-distinct-eigenvalue cubic) show real exact-arithmetic computation with preserved failure evidence, which is good practice; but at 159 files across ~30 cells I could only directly open a minority (the top-level docs plus 6-7 cells), so several of the campaign's most physics-adjacent claims (the McKay descent's conductor-to-group matching, the scale-torsor no-go's 'concrete verification' script, the B480/B544 correction) rest on WAVE_FINDINGS summaries I did not independently re-derive from the underlying scripts. All content here is group-theoretic/arithmetic structure (McKay correspondence, cusp conductors, Latin squares, Hom(G,R+)=0) with explicit firewalling against SM-facing labels (SILENCE_NOTE.md) -- no measurable quantity or numerical prediction is named anywhere I read, so this arc is STRUCTURAL, not OBSERVABLE, by the seat's own rule."
+  }
+ ]
+}

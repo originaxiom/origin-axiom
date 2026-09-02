@@ -1,0 +1,147 @@
+{
+ "batch": "arcs_052",
+ "arcs": [
+  {
+   "arc": "B674_generation_leg",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md","arc_verdict.json",
+    "ADJUDICATION_BIFOCAL_OBJECTION.md","BLOCK_VACUITY_GATE.md","CAMPAIGN_MASTERPLAN.md",
+    "CAMPAIGN_ORCHESTRATION.md","CROSSCHECK_W2_CC2.md","DIVIDED_POWER_LAW.md",
+    "E3_EXTENSION_LEMMAS.md","ENUMERATION_CC2.md","GENERATION_LEG_PLAN_CC2.md",
+    "PREREG_W2.md","PREREG_W3_DECISION.md","PREREG_W3_DECISION_ADDENDUM_1.md",
+    "PREREG_W3_RUN.md","S2_BLOCKVACUITY_CC2.md","STAGE1_CC2.md",
+    "W2_CLOSEOUT_ADJUDICATION_CC.md","W2_CLOSEOUT_CC2.md","W2_DESIGN_NOTE_GAMMA5.md",
+    "W3_GATE_COMPARISON_CC.md","divided_power_law.py","divided_power_law_out.txt",
+    "ramanujan_trifocal/ARTIFACT_HASHES.txt","ramanujan_trifocal/CURVE15_CC2.md",
+    "ramanujan_trifocal/CURVE15_RECONCILED_CC.md","ramanujan_trifocal/S1_SILVER_CC2.md",
+    "ramanujan_trifocal/S1_VERIFIED_CC.md","ramanujan_trifocal/T2_GOLDEN_CM_CONFIRMED.md",
+    "ramanujan_trifocal/TRIFOCAL_SYNTHESIS_CC.md","ramanujan_trifocal/TRIFOCAL_VALUES_REPORT.md",
+    "ramanujan_trifocal/run_stdout.txt","ramanujan_trifocal/values_output.txt",
+    "ramanujan_trifocal/vx_exact_checks.py","ramanujan_trifocal/vx_run1_superseded.txt",
+    "ramanujan_trifocal/trifocal_values.py (SAMPLE_CODE: head 120 + grep)",
+    "w3_support/ARTIFACT_HASHES.txt","w3_support/SUPPORT_PRETEST_STOP.md",
+    "w3_support/route_A.md","w3_support/route_A_compute.py","w3_support/route_B.md",
+    "w3_support/route_B_compute.py",
+    "w2_molien_cell/ARTIFACT_HASHES.txt","w2_molien_cell/W2_CELL_STATUS.md",
+    "w2_molien_cell/run_log.txt","w2_molien_cell/run_log_attempt1_failed.txt",
+    "w2_molien_cell/step_i_table.md","w2_molien_cell/step_ii_support.md",
+    "w2_molien_cell/vacuity_gate.md","w2_molien_cell/w2_molien_cell.py (SAMPLE_CODE: head 120)",
+    "w3_enum_cc/ENUM_CC.md","w3_enum_cc/enum_notes.md",
+    "w3_enum_cc/v5_discriminating_facts.py","w3_enum_cc/v5_discriminating_facts_out.txt",
+    "w2_step3/ARTIFACT_HASHES.txt","w2_step3/STEP3_VERDICT.md","w2_step3/step3_output.txt",
+    "w2_step3/coefficients_both_conjugates.json (SAMPLE_DATA: head/tail/wc)",
+    "w2_step3/w2_step3.py (SAMPLE_CODE: not separately opened, verdict/output files cover its output)",
+    "w2_gate_cc2/ARTIFACT_HASHES.txt","w2_gate_cc2/FINDINGS_CC2.md","w2_gate_cc2/FINDINGS_RAW.md",
+    "w2_gate_cc2/GATE_VERIFIED_CC.md","w2_gate_cc2/e2bb3137-GATE_COMPARISON.json",
+    "w2_gate_cc2/w2_eigendist.json (SAMPLE_DATA: head/tail/wc)",
+    "w2_gate_cc2/w2_inputverify.py (SAMPLE_CODE: head 120)",
+    "cellES/b674_cellES.py (SAMPLE_CODE: head 120)",
+    "cellES/cellES_mismatch_table.json (SAMPLE_DATA: head/tail/wc)",
+    "cellES/cellES_output.txt","cellES/cellES_traces.json"
+   ],
+   "files_sampled": [
+    "ramanujan_trifocal/trifocal_values.py","w2_molien_cell/w2_molien_cell.py",
+    "w2_step3/coefficients_both_conjugates.json","w2_gate_cc2/w2_eigendist.json",
+    "w2_gate_cc2/w2_inputverify.py","cellES/b674_cellES.py","cellES/cellES_mismatch_table.json",
+    "w2_step3/w2_step3.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "arc_verdict.json: verdict NEGATIVE; claim_one_line: 'Route 1 misses: the Γ(5) twisted tower is trace-silent (tr(A1*|H^1(Sym^m))=0 for all m), though its modular lift is the golden order-10 rotation with trace φ.'",
+   "log_says": "2026-07-18 — B674 route 1 (Eichler-Shimura): MISS — the tower is trace-silent; tr sigma(A1) = phi. Same content as FINDINGS.md; log entries do not mention the later W2 Molien-cell kill or the W3/PREREG_W3_RUN campaign that occupies most of the arc's files.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "tr(A1*|H^1(Gamma(5),Sym^m)) = 0 for all m>=1 (route-1 kill) and tr sigma(A1) = phi exactly (golden-rotation law)",
+     "where": "cellES/b674_cellES.py + cellES_output.txt + cellES_traces.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Two independent exact routes (Shapiro+Mayer-Vietoris and direct block evaluation) computed in committed code with committed witness JSON/txt; sample-read of the script matches the printed claims."
+    },
+    {
+     "what": "W2 Molien-cell step (iii): the fixed order-10-lift Molien candidate is KILLED-AT-(iii) at n=0/1 (grade-0 unit phi^{+-2}, 5-adic ring separation)",
+     "where": "w2_step3/STEP3_VERDICT.md, step3_output.txt, coefficients_both_conjugates.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact rational/Z[phi] arithmetic, gate-verified inputs (cc2 GATE_VERIFIED_CC.md exact-agreement), full coefficient JSON committed; a stranger could re-run w2_step3.py."
+    },
+    {
+     "what": "W3 terminal enumeration: class 7 (depth-graded S-conjugation family) is the sole survivor of four named exclusions (E1-E4), two-seat agreed",
+     "where": "w3_enum_cc/ENUM_CC.md, ENUMERATION_CC2.md, W3_GATE_COMPARISON_CC.md",
+     "kind": "ASSERTED with COMPUTED supporting facts",
+     "reproducible_from_committed": "unknown",
+     "why": "The discriminating arithmetic facts (v5 growth, 5-inertness of Z[omega], gcd(13,5)=1) are computed in v5_discriminating_facts.py with committed output. But the class list and 'completeness argument' itself is an enumeration ARGUED in prose over a self-declared 'sealed universe' — its exhaustiveness is asserted, not machine-checked, and one genuine gap (class 5, the phi-type operator) was caught only by cross-comparison between two independently written prose enumerations, not by any algorithm."
+    },
+    {
+     "what": "The one sealed 'S-depth' design cycle (PREREG_W3_RUN, block-decomposed Phi*tauPhi at zeta_5) — the support pre-test",
+     "where": "w3_support/SUPPORT_PRETEST_STOP.md, route_A.md/route_A_compute.py, route_B.md/route_B_compute.py",
+     "kind": "COMPUTED but UNRESOLVED",
+     "reproducible_from_committed": "yes (both routes' code/output are committed)",
+     "why": "Two independently-coded, exact-arithmetic derivations of the same q-power support classes DISAGREE (Route A: all four classes {1,2,3,4}/5; Route B: {2/5,3/5}). The arc's own diagnosis is that Route B may have SUBSTITUTED the golden (2,5)/A=2 Nahm datum rather than derived it from the figure-eight's own object -- i.e. the {2/5,3/5} match that would validate the 'generation' label may be circular/assumed rather than derived. Per the sealed protocol the design shot has NOT been fired; this is the arc's true, currently-open frontier, and it is not mentioned in FINDINGS.md or arc_verdict.json."
+    },
+    {
+     "what": "The divided-power law: v5(den c_n) = v5(5^n n!) exactly for n=1..120",
+     "where": "divided_power_law.py, divided_power_law_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Small, self-contained exact-Fraction script; committed output shows 'exceptions: []'; a stranger can re-run it directly."
+    },
+    {
+     "what": "The conductor-15 elliptic curve identification (figure-eight A-polynomial's elliptic quotient isogenous to Cremona 15a8)",
+     "where": "ramanujan_trifocal/CURVE15_CC2.md, CURVE15_RECONCILED_CC.md",
+     "kind": "COMPUTED, with explicit prior-art caveat",
+     "reproducible_from_committed": "yes for the a_p match (12 primes, two independent quartic models); no for full isogeny certification",
+     "why": "a_p sequence match at 12 primes across three curve models is computed and reported; the file itself states 'exact isogeny certification' (pari/sage) is a NAMED FOLLOW-ON not yet done, and that prior art exists (Borot-Eynard; Kyoto paper) so no novelty is claimed for the curve itself, only for the conductor=congruence-level observation."
+    },
+    {
+     "what": "Ramanujan trifocal CF values at golden/silver cusps (silver octic closed form in delta=1+sqrt2; golden R_g algebraic via degree-12 minimal polynomial)",
+     "where": "ramanujan_trifocal/TRIFOCAL_VALUES_REPORT.md, values_output.txt, vx_exact_checks.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "PSLQ identification with a stated degree/coefficient cap, dps-320 reverification guard, and an explicit self-caught and corrected error (vx_run1_superseded.txt, a coefficient-order transcription slip); most quantities honestly reported UNIDENTIFIED rather than forced."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No separate verification/ directory exists for this arc (has_verification_dir=false), but internal two-seat gates function as a belt throughout: cc2 independently re-derives cc's eigenvalue distributions (w2_gate_cc2, exact agreement reported and independently recomputed by cc per GATE_VERIFIED_CC.md), and w3_enum_cc/ENUMERATION_CC2.md are independently-written enumerations cross-compared in W3_GATE_COMPARISON_CC.md. These are re-derivations by a second seat, not a held-out replay of the same code -- genuine but not automated regression coverage.",
+   "absence_claims": [
+    {"quote": "cellES/ (script, traces, mismatch table, output) was never opened, read, or grepped.", "where": "w2_gate_cc2/FINDINGS_RAW.md:9-10"},
+    {"quote": "GSWZ's 4_1 section (4.5) contains ZERO zeta_5 data", "where": "ramanujan_trifocal/STAGE1_CC2.md:5-6 (also frontier/B674_generation_leg/STAGE1_CC2.md:6)"},
+    {"quote": "THE HEARING AMPLITUDE IS NOT A PRINTED GSWZ SPECIAL VALUE. NO-HIT for 1/(2phi) and -1/phi across both papers", "where": "STAGE1_CC2.md:17"},
+    {"quote": "no banked level-indexed fractional multiplier family exists", "where": "w3_enum_cc/ENUM_CC.md:138 and enum_notes.md:184"},
+    {"quote": "NO exact hits (1e−40) and NO near-misses (1e−6)", "where": "ramanujan_trifocal/TRIFOCAL_VALUES_REPORT.md:151 (T7 cross-check against banked quantities)"},
+    {"quote": "nothing in the literature distinguishes {2/5,3/5}", "where": "CAMPAIGN_ORCHESTRATION.md:52-53 / STAGE1_CC2.md:10"},
+    {"quote": "no other seat's W3 enumeration was read (none existed in the arc directory at the time of writing)", "where": "w3_enum_cc/ENUM_CC.md:3 and enum_notes.md:2-3"},
+    {"quote": "NEITHER route established A from the object", "where": "w3_support/SUPPORT_PRETEST_STOP.md:45"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "FINDINGS.md and arc_verdict.json record only the original 'route 1' Eichler-Shimura trace-silence result (2026-07-18, early). But the arc directory (same date-stamped, same session) contains a much larger subsequent campaign not reflected in either: a full W2 Molien-cell design cycle that ran to completion and was KILLED-AT-(iii) (w2_step3/STEP3_VERDICT.md), a formal W3 terminal enumeration naming a sole survivor class (w3_enum_cc), and a currently-STOPPED, unresolved one-shot design attempt on that survivor (w3_support/SUPPORT_PRETEST_STOP.md) whose stop reason raises a live circularity concern. None of this downstream state -- including the genuinely still-open question -- is surfaced in the arc's own claim-of-record files.",
+     "where": "FINDINGS.md, arc_verdict.json vs w2_step3/STEP3_VERDICT.md, w3_support/SUPPORT_PRETEST_STOP.md"
+    },
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "The progress-log entries indexed for B674 mention only the route-1 MISS and the golden-rotation law; they do not mention the W2 Molien kill, the W3 sole-survivor enumeration, or the still-open/stopped support pre-test -- so a reader of the log alone would materially undercount how much work (and how much remains genuinely undecided) this arc represents.",
+     "where": "log_index/B674.txt entries 1 and 6"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The support pre-test disagreement (Route A vs Route B) is diagnosed in-arc as possibly reflecting that Route B's {2/5,3/5} landing came from SUBSTITUTING the golden (2,5) Nahm datum (A=2) into the figure-eight's Nahm ring rather than deriving that A=2 is the figure-eight's own datum -- i.e. a live risk that the one remaining candidate's most encouraging feature (landing exactly on the required support classes) is an artifact of assuming what needed to be shown. The arc itself flags this honestly and has stopped rather than fired the shot, which is exactly the correct behavior, but it means the campaign's single most consequential open question is currently unresolved and NOT closed by anything else in the arc.",
+     "where": "w3_support/SUPPORT_PRETEST_STOP.md:24-47"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The W2 Molien design's motivating match (D3 in W2_DESIGN_NOTE_GAMMA5.md) rests substantially on the observation that an order-10 (order-5 projective) operator's Molien product 'generically' produces mod-5 selection patterns matching the RR streams' mod-5 exponent structure -- a dimension/residue-class coincidence used as design motivation before the actual coefficient comparison (which then failed at n=0/1, w2_step3). The arc is explicit that this was 'design motivation only' and the comparison itself was the real test, which is good practice, but the initial appeal of the whole W2 cycle traces to this type-level coincidence.",
+     "where": "W2_DESIGN_NOTE_GAMMA5.md:56-66 (D3 point 1)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Prior art is explicitly disclosed and undermines any novelty claim for two headline-sounding results: the figure-eight-to-15a8 elliptic curve identification (Borot-Eynard, the Kyoto paper) and the Ramanujan CF-at-CM-point identifications (classical Ramanujan-Selberg territory) -- both correctly flagged NEEDS-SPECIALIST / no novelty claimed in the source files themselves, so this is a disclosed limitation rather than a hidden one, but worth keeping visible since these are among the arc's most quotable positive results.",
+     "where": "ramanujan_trifocal/CURVE15_CC2.md:33-35; ramanujan_trifocal/S1_SILVER_CC2.md:21-22"
+    }
+   ],
+   "seat_note": "This is one of the most rigorous negative-result arcs sampled: two clean, independently-verified kills (route-1 trace-silence, then the W2 Molien-cell 5-adic kill) plus an honest, currently-unresolved third attempt whose own authors flag a live circularity risk in the one candidate that has not yet died. All content is structural mathematics (modular forms, Galois theory, elliptic curves) with SM-physics naming explicitly and consistently firewalled (Gate 5) -- there is no observable physics claim anywhere in this arc, and the arc's own governing documents insist stages 3-4 (actual physics) stay unopened pending a mathematical result that, as of these files, has not yet been obtained. The one real reporting problem is that the arc's canonical claim-of-record (FINDINGS.md/arc_verdict.json) is frozen at the earliest sub-result and does not surface the arc's own subsequent, more decisive/interesting work or its still-open question."
+  }
+ ]
+}

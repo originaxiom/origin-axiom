@@ -1,0 +1,187 @@
+{
+ "batch": "arcs_049",
+ "arcs": [
+  {
+   "arc": "B667_computation_campaign_adjudication",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B667_computation_campaign_adjudication/ADJUDICATION.md",
+    "/home/user/origin-axiom/frontier/B667_computation_campaign_adjudication/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B667_computation_campaign_adjudication/CHAT1_PROPOSAL_ARCHIVED.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "PROGRESS_LOG 2026-07-17: B667 adjudicates chat1's seven-track proposal against the banked record: 7 items DONE, 4 IN FLIGHT, 1 REFUTED-BEFORE-PROPOSED (C4), 2 ill-posed as stated (B2, C3), 6 GENUINELY NEW.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Scoreboard (7 done / 4 in-flight / 1 refuted / 2 ill-posed / 6 new) and per-track dispositions",
+     "where": "ADJUDICATION.md lines 7-158",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This document is a triage/adjudication of an external proposal against other arcs' banked results (B662, B663, B664, B665, B657, B661, B647, B660); it computes nothing itself and its correctness depends on those other arcs, none of which are re-verified here."
+    },
+    {
+     "what": "\"the ≈10²⁰ figure in the proposal is unverified — the cell computes it exactly\"",
+     "where": "ADJUDICATION.md line 47",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "The promised computation (torsion-ratio landscape, cell B′) is described as future work (\"ADDENDUM CELL B′\"), not present in this arc's committed files."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory; this arc is itself a written adjudication/triage note, not a computation, and has no arc_verdict.json or FINDINGS.md.",
+   "absence_claims": [
+    {
+     "quote": "The \"≈10²⁰\" figure in the proposal is unverified — the cell computes it exactly.",
+     "where": "ADJUDICATION.md line 47"
+    },
+    {
+     "quote": "Today it has no object.",
+     "where": "ADJUDICATION.md line 80"
+    },
+    {
+     "quote": "(4) the 24ζ₆ ratio and the raw cubic phases are GAUGE (B647; B662/F) — C4 has no object;",
+     "where": "ADJUDICATION.md line 129"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Arc has neither FINDINGS.md nor arc_verdict.json; the adjudication's claims (a scoreboard judging ~25 items) are load-bearing for the campaign's subsequent addenda (B666 wave 2/3) but rest entirely on unaudited cross-references to prior arcs rather than anything computed or verified within this arc.",
+     "where": "ADJUDICATION.md (whole file)"
+    }
+   ],
+   "seat_note": "This is a bookkeeping/triage document, not a physics result: it allocates credit among proposed computations by pointing at other arcs' banked claims, several of which (e.g. the A1 cup table, the torsion landscape) are described as still running or not yet produced. No observable or structural content is established here in its own right."
+  },
+  {
+   "arc": "B668_triage_reconciliation",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B668_triage_reconciliation/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B668_triage_reconciliation/COMPLETE_CAMPAIGN_TRIAGE_CC2.md",
+    "/home/user/origin-axiom/frontier/B668_triage_reconciliation/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B668_triage_reconciliation/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=NEGATIVE; claim_one_line: \"Two independent seat triages converge track by track, and cell F′ dies against the banked melody theorem — the Z-ladder is exactly periodic, so no resurgent S₂ content is extractable from it.\"",
+   "log_says": "PROGRESS_LOG 2026-07-17: B668 = cc2's independent triage converges with B667 track by track (same verdicts, same Koszul-parity observation, same fourth silver correction); THE ADOPTED CATCH: F′ dies against the melody theorem (periodic ladder P=175560 has zero 1/k content); B667's F′ owned and re-scoped. A later B741 entry (2026-07-21) locates B668 -> B662/cellG P_min=175560 certificate, l100_period.py re-runnable.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "F′/F1 (resurgent S₂ extraction) is refuted because the Z-ladder is \"exactly PERIODIC (P = 175560, B662/G)\" and a periodic sequence has zero 1/k asymptotic content",
+     "where": "FINDINGS.md lines 262-274 (\"THE ADOPTED CORRECTION\")",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The periodicity constant P=175560 and the \"melody theorem\" are imported from B662/cellG, which is not included in this arc's files; not independently re-derived here."
+    },
+    {
+     "what": "cc2's independent triage (COMPLETE_CAMPAIGN_TRIAGE_CC2.md) agreeing track-by-track with B667",
+     "where": "COMPLETE_CAMPAIGN_TRIAGE_CC2.md (whole file); FINDINGS.md lines 251-260",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "The convergence claim is a textual comparison between two prose documents (both narrative, no computed tables in this arc); nothing here is a machine-checkable artifact."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory, no code, no witness files in this arc; the verdict rests entirely on citing B662/cellG's banked periodicity result, not on anything recomputed here.",
+   "absence_claims": [
+    {
+     "quote": "the Z-ladder is exactly PERIODIC (banked), so it carries ZERO asymptotic (1/k) content; no S2 can be extracted from it.",
+     "where": "COMPLETE_CAMPAIGN_TRIAGE_CC2.md lines 36-37"
+    },
+    {
+     "quote": "a periodic sequence has ZERO asymptotic 1/k content; the expansion Z(k) ~ exp(kS₀ + S₁ + S₂/k + …) has no meaning on it; no S₂ is extractable from the ladder.",
+     "where": "FINDINGS.md lines 265-268"
+    },
+    {
+     "quote": "L104 was DECIDED — CONVENTION (B662/F); the decider has decided; no CP comparison object exists.",
+     "where": "FINDINGS.md lines 279-283 (paraphrase of quoted text, exact text: \"the decider has decided; no CP comparison object exists.\")"
+    },
+    {
+     "quote": "A1 as posed is NOT unasked — Koszul holds on ANY closed 3-manifold",
+     "where": "COMPLETE_CAMPAIGN_TRIAGE_CC2.md line 4"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The load-bearing negative result (no S₂ extractable) depends on a periodicity constant (P=175560) and \"melody theorem\" from B662/cellG which are not present as files in this arc — only cited by name.",
+     "where": "FINDINGS.md lines 262-274"
+    }
+   ],
+   "seat_note": "This is a self-refutation/correction note (F′ retracted) which is a healthy sign of internal checking, but the retraction itself is asserted by citation to another arc's banked theorem rather than shown here; the arc's content is entirely textual triage, not new computation, so it carries structural (group/representation-theoretic bookkeeping) rather than observable content."
+  },
+  {
+   "arc": "B669_track_h_adjudication",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B669_track_h_adjudication/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B669_track_h_adjudication/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B669_track_h_adjudication/PREREG_H1.md",
+    "/home/user/origin-axiom/frontier/B669_track_h_adjudication/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B669_track_h_adjudication/h1_ladders.py",
+    "/home/user/origin-axiom/frontier/B669_track_h_adjudication/h1_output.txt",
+    "/home/user/origin-axiom/frontier/B669_track_h_adjudication/h1_proper.py",
+    "/home/user/origin-axiom/frontier/B669_track_h_adjudication/h1_proper_output.txt",
+    "/home/user/origin-axiom/tests/test_b669_track_h.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=NEGATIVE; claim_one_line: \"Chiral words' certificate ladders are bounded exactly like the amphichiral one, refuting the amphichiral-suppression mechanism; boundedness is word-universal periodicity.\"",
+   "log_says": "PROGRESS_LOG 2026-07-17: B669 refutes chat1's cosmological-constant proposal via a preregistered two-outcome table: certificate ladders Z_t(kappa) for t=4,5,6 are ALL BOUNDED (finite exact q-support => periodicity, word-universal). Later entries (B670, B673, B677, REVIEWS.md Review 22) report independent convergent re-derivations and confirm the prereg/control chain is intact.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Certificate ladders |Z_t(kappa)| for t=3(fig-8 control),4,5,6 are bounded (max over kappa=4..30: 2.236, 3.0, 8.66, 4.0 resp.), with the fig-8 control exactly reproducing the banked ladder {1,1,1,0,1,1,2,1}",
+     "where": "h1_proper.py + h1_proper_output.txt (full run); locked by tests/test_b669_track_h.py::test_h1_proper_control_and_verdicts",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "h1_proper.py is a self-contained, committed script (loads B662_successor_campaign/cellG/l100_period.py, patches P_WORD, runs weyl_group/q_multiset/Z_float_factory) whose printed output matches h1_proper_output.txt verbatim and is asserted against by a committed test; a stranger can rerun it."
+    },
+    {
+     "what": "m136 (RRLL, \"the true silver\") IS amphichiral, |Isom(m136)|=8",
+     "where": "h1_ladders.py (SnapPy call) + h1_output.txt line \"|Isom(m136)| = 8; amphichiral: True\"; locked by test_m136_amphichiral_and_first_pass_preserved",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Computed via SnapPy in the committed script, but SnapPy is an external dependency not vendored in the repo (and the output shows a macOS pyenv path, /Users/dri/.pyenv/..., suggesting this ran on the original author's machine, not necessarily reproducible in this repo's CI environment)."
+    },
+    {
+     "what": "First-pass h1_ladders.py itself FAILED its own control (fig-8 reproduction False) and used the wrong object (|tr_odd(rho(W))|^2 at SU(3) stages, not the banked ladder)",
+     "where": "h1_output.txt line \"C1 fig-8 control reproduces banked [1, 1, 1, 0, 1, 1, 2, 1]: False\"; FINDINGS.md lines 378-383",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Preserved deliberately as a negative control per FINDINGS.md (\"the wrong-object first pass, preserved — the control that caught it\"); the failing run is itself reproducible and is asserted-on by the test suite, which is a genuinely good practice, not a hidden retraction."
+    },
+    {
+     "what": "The Λ ~ 10⁻¹²⁰ \"cosmological constant\" reading is BLOCKED (wall 10: Λ dimensionful/untypeable; R5: k↔scale identification untyped)",
+     "where": "FINDINGS.md lines 370-374; PREREG_H1.md lines 416-425",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is a firewall/gate ruling (a policy judgment about what counts as a typed physical claim), not a computation; it is consistent with the seat's general no-dimensionful-values rule but the rule itself is asserted, not derived in this arc."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b669_track_h.py checks the committed output-text files (h1_proper_output.txt, h1_output.txt) for specific strings; it re-reads the banked witness rather than re-invoking the underlying computation, so it would not catch a case where the .txt file was hand-edited without rerunning the script.",
+   "absence_claims": [
+    {
+     "quote": "the \"cosmological constant mechanism\" has no discriminating computation left.",
+     "where": "FINDINGS.md line 355 (paraphrase of quoted line ending \"...has no discriminating computation left.\")"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "SnapPy-derived amphichirality result (|Isom(m136)|=8) shows a macOS/pyenv path in the committed output (/Users/dri/.pyenv/versions/3.12.1/...), suggesting the witness was generated on a developer's local machine rather than in a reproducible repo-native environment; SnapPy itself is an external, non-vendored dependency.",
+     "where": "h1_output.txt lines 518-519"
+    }
+   ],
+   "seat_note": "This is one of the stronger arcs in the batch: a preregistered two-outcome test with a documented failing-then-passing control, a committed reproducible script for the decisive result, and an explicit firewall against overreaching into a dimensionful cosmological-constant claim — the physics content stays correctly confined to structural (bounded vs growing certificate-ladder) territory rather than an observable prediction."
+  }
+ ]
+}

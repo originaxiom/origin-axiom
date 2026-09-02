@@ -1,0 +1,50 @@
+P2W4-Z1  H133-successor: the Z(level) ladder, Z_k = Tr rho_k(A1), E6 level k
+==============================================================================
+mechanism: Res(x^n-1, x^2-3x+1) == 2 - L_2n for n=1..20 : True
+           |det(w^2-3w+I)| over W(E6): [1, 5, 16, 25, 45, 80, 81, 100, 121, 125, 180, 225, 245, 256, 320, 361, 400, 576, 605, 625, 1125, 1280, 1600, 4096]
+           characteristic primes (Lucas/Fibonacci divisors): [2, 3, 5, 7, 11, 19]
+------------------------------------------------------------------------------
+ k  kappa      N   Z (exact)                      certificate
+ 1    13       3   1                            OK    [0.2s]
+ 2    14       9   1                            OK    [0.2s]
+ 3    15      20   1                            OK    [0.3s]
+ 4    16      42   0                            OK    [1.0s]
+ 5    17      78   1                            OK    [1.1s]
+ 6    18     139   1                            OK    [2.0s]
+ 7    19     231   2                            OK    [4.6s]
+ 8    20     372   1                            OK    [2.2s]
+ 9    21     573   1                            OK    [3.7s]
+10    22     861   2                            OK    [4.3s]
+------------------------------------------------------------------------------
+gate k=1: words-agree=4.9e-14  norm(float)/sqrt3.kappa^3-1=2.7e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=2: words-agree=1.0e-13  norm(float)/sqrt3.kappa^3-1=1.3e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=3: words-agree=1.5e-13  norm(float)/sqrt3.kappa^3-1=1.4e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=4: words-agree=2.7e-13  norm(float)/sqrt3.kappa^3-1=5.6e-15  Z_float=-0.000000000  Z_exact=+0.000000000
+gate k=5: words-agree=5.0e-13  norm(float)/sqrt3.kappa^3-1=6.2e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=6: words-agree=7.4e-13  norm(float)/sqrt3.kappa^3-1=3.2e-15  Z_float=+1.000000000  Z_exact=+1.000000000
+gate k=7: words-agree=1.2e-12  norm(float)/sqrt3.kappa^3-1=1.8e-15  Z_float=+2.000000000  Z_exact=+2.000000000
+gates: {'G4_reality': True, 'G5_no_false_certificate': True, 'G1_two_word': True, 'G2_normalization': True, 'G3_float_vs_exact': True}
+------------------------------------------------------------------------------
+  levels_identified_in_Q(sqrt5): 10/10
+  C1_Z_identically_1: False
+  C2_all_rational_integers: True
+  C3_all_in_Z[phi]: True
+  C4_max_abs_Z: 2.0
+  C4_max_abs_conjugate: 2.0
+  C5_Z1_iff_coprime_to_charprimes: False
+  C6_periodic_in_kappa: False
+  C6_periods: []
+  C7_function_of_kappa_mod_m: []
+  C10_multiplicative_in_kappa: True
+  C10_violating_kappa: []
+  C8_last_nonzero_level: 10
+  C8_zero_tail_length: 0
+  nonzero_levels: [1, 2, 3, 5, 6, 7, 8, 9, 10]
+  C9_irrational_only_if_5_divides_kappa: True
+  irrational_levels: []
+  kappa_with_5: [15, 20]
+  value_multiset: ['0', '1', '2']
+==============================================================================
+VERDICT: RESOLVED-A
+  a PREDICTIVE law for Z(level) survives every computed level: C10_multiplicative_in_kappa
+  ladder Z_k (k=1..10): 1, 1, 1, 0, 1, 1, 2, 1, 1, 2

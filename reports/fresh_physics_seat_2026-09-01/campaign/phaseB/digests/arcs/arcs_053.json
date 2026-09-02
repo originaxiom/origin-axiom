@@ -1,0 +1,217 @@
+{
+ "batch": "arcs_053",
+ "arcs": [
+  {
+   "arc": "B675_hcusp_sweep",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/BRONZE_CERT_NOTE.md",
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/PREREG_ADDENDUM_OUTCOMES.md",
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/bronze_cert_output.txt",
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/cell_output.txt (tail sampled fully via head/tail passes)",
+    "/home/user/origin-axiom/tests/test_b675_hcusp.py"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/b675_hcusp.py (first 120 lines + grep for def/assert/print/sympy/==)",
+    "/home/user/origin-axiom/frontier/B675_hcusp_sweep/bronze_certification.py (referenced/described in BRONZE_CERT_NOTE.md; not independently line-sampled beyond note)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The silver cusp lattice is defined over Q(i) with tau = -2i exactly and quantizes A3/SU(4)_1; the quantization index equals the cusp order's conductor.\"",
+   "log_says": "B675 BANKED as the H-CUSP sweep (2026-07-18); log records the same-day bronze certification addendum and folds B675 into a 3-legged 'deaf = non-CM' claim and later (B1002, 2026-08-09) into a two-instance quantization-index=conductor law reused by B997.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "silver cusp translation ratio tau = -2i exactly, cusp lattice defined over Q(i) alone (outcome 1 of the pre-sealed three-outcome discriminator)",
+     "where": "FINDINGS.md THE SILVER section; b675_hcusp.py Part 2 (in_Qi assertion, min-poly of tau)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact Fraction/sympy arithmetic on the banked B649 peripheral holonomy, with an `assert in_Qi` gate in the committed script and the pre-sealed 3-outcome addendum (hash 4b78e219) fixing the discriminator before the run."
+    },
+    {
+     "what": "bronze cusp field degree 8, Galois group S4, Kronecker-Weber deafness (no cyclotomic host at any rank)",
+     "where": "BRONZE_CERT_NOTE.md; bronze_cert_output.txt tail (VERDICT: CERTIFIED); bronze_certification.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact resultant/elimination chain over Q, irreducibility + discriminant factorization {2,7,617} + independent second-triangulation cross-check (u*u'=1 exactly); re-verified partially by a committed pytest lock (test_b675_hcusp.py::test_bronze_certified) that independently recomputes irreducibility, the octic/quartic identities, and the discriminant factorization."
+    },
+    {
+     "what": "SU(4)_1 is the conductor-8 stage that hears only the mod-8 shadow class (Part 3, the hearing check)",
+     "where": "FINDINGS.md THE HEARING CONFIRMATION section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "FINDINGS.md itself flags this as \"Numeric at two precisions, flagged\" (floats, not exact) — the arc is honest about this but a stranger would need to re-run b675_hcusp.py Part 3 to reproduce the specific tone/precision claim; not independently checked here."
+    },
+    {
+     "what": "quantization-index = cusp-order-conductor law (2 instances: golden index 4, silver index 2)",
+     "where": "FINDINGS.md THE NEW LAW section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "stated as exact index computations from the embedding matrices in b675_hcusp.py Part 2; explicitly labeled a two-instance (not general) law, and the log shows it was later reused/cross-checked in B1002 against B666/B997 with a stated terminology collision (conductor used for two different quantities) — flagged by the log itself, not swept under."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b675_hcusp.py has 3 locks: one is RE-READS (string-membership check on cell_output.txt for '-2i'/'A3'), one is RE-READS (string check on the prereg addendum), and one (test_bronze_certified) is a genuine independent RECOMPUTE of irreducibility, the octic/quartic identity, and the exact discriminant factorization {2,7,617} — so belt is mixed but has real recomputation content.",
+   "absence_claims": [
+    {
+     "quote": "the golden's clean split does not exist there",
+     "where": "PREREG_ADDENDUM_OUTCOMES.md:8"
+    },
+    {
+     "quote": "the principle's PRECONDITION (a clean cusp field) is absent rather than its prediction wrong",
+     "where": "PREREG_ADDENDUM_OUTCOMES.md:21"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "Part 3 (the SU(4)_1 hearing check / mod-8 shadow-class result) is explicitly labeled numeric-at-two-precisions, not exact, though FINDINGS.md itself flags this honestly rather than hiding it.",
+     "where": "FINDINGS.md THE HEARING CONFIRMATION section"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The whole H-CUSP framework rests on a dimension/field-type coincidence test (does a cusp field 'fit inside' a stage's commutant field) as the criterion for 'the stage hosts the object' — a type/field match is being used as the substantive physical claim ('SU(4)_1 IS the silver's stage').",
+     "where": "FINDINGS.md throughout; b675_hcusp.py framing docstring"
+    }
+   ],
+   "seat_note": "This is one of the more disciplined arcs seen: a pre-sealed three-outcome discriminator, exact arithmetic in the decisive steps, an honest corroborated-vs-certified distinction that gets upgraded same-day with a real independent recomputation, and a committed pytest lock that recomputes (not just re-reads) part of the bronze certificate. The physics content is entirely structural (arithmetic/Lie-theoretic field-matching), with zero measurable predictions or masses/couplings named — the 'H-CUSP predicts' language should not be read as physical prediction in the observable sense."
+  },
+  {
+   "arc": "B676_dps_sweep",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B676_dps_sweep/SWEEP_REPORT.md",
+    "/home/user/origin-axiom/frontier/B676_dps_sweep/full_suite_log.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_verdict: false; no arc_verdict.json present for this arc)",
+   "log_says": "PROGRESS_LOG.md: 'B676 BANKED: the R22-4 module-level-dps sweep (E12 class-wide)'; REVIEW 22 marks R22-4 'DONE' — 'the sweep grew to 18 import-wraps + per-file pinned fixtures + a conftest collection-finish guard; two MASKED leakers (b246, b250) unmasked and repaired'; REVIEW 23 says 'the full pytest suite (2428 locks) NOT re-run this review — trusted-green from B676's in-window 2428/0 baseline'.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "the full-suite pytest run confirming the 19-file dps-leak fix caused zero regressions (claimed elsewhere in the corpus as a '2428/0 baseline')",
+     "where": "SWEEP_REPORT.md 'Full-suite result' section: \"PENDING at report-write time; the run's tail is appended to full_suite_log.txt... This section is updated from that file.\"",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "full_suite_log.txt is a tracked (not gitignored) file but is 0 bytes and has exactly one commit in its history — the promised full-suite tail was never actually appended. SWEEP_REPORT.md's own text was left in the PENDING state. REVIEW 23 nonetheless cites 'B676's in-window 2428/0 baseline' as a trusted-green fact, which this arc's own committed files do not substantiate."
+    },
+    {
+     "what": "per-file verification (each of the 19 edited test files passes standalone; sorted-prefix victim simulation 81 passed/2 skipped)",
+     "where": "SWEEP_REPORT.md 'Verification' section items 1 and 4",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "these pass/fail tallies are narrated in prose (e.g. 'b204 11p/43s, b261 2p, ...') with no committed log or JSON witness file backing them in this arc's directory — only the two files listed in the packet (SWEEP_REPORT.md and the empty full_suite_log.txt) are present."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No test_b676*.py file exists under tests/; the arc is itself infrastructure (fixing a pytest dps-leak bug across other arcs' test files), so its own 'belt' is the full-suite run — which is the exact witness that is missing.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The report's central closing claim (full suite green after the fix) depends on full_suite_log.txt, which is tracked in git but committed empty (0 bytes, single commit) — the promised evidence was never filled in, yet downstream review notes (REVIEW 23) cite a '2428/0 baseline' from this arc as though it were banked.",
+     "where": "frontier/B676_dps_sweep/full_suite_log.txt (0 bytes); SWEEP_REPORT.md final section"
+    },
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "REVIEW 23's 'trusted-green from B676's in-window 2428/0 baseline' overstates what this arc's own committed files establish, since the file meant to carry that exact tally is empty.",
+     "where": "docs/progress/REVIEWS.md REVIEW 23 (via log_index); frontier/B676_dps_sweep/full_suite_log.txt"
+    },
+    {
+     "kind": "NO_TEST",
+     "detail": "No committed pytest lock covers B676's own claims (that the dps leak is fixed and the conftest guard works); verification is narrated pass/fail counts in markdown prose only.",
+     "where": "SWEEP_REPORT.md 'Verification' section"
+    }
+   ],
+   "seat_note": "This is purely infrastructure/hygiene work (a pytest global-state leak fix), not a physics claim, but its own evidentiary standard falls short of the discipline seen elsewhere in this corpus: the file specifically reserved for the decisive full-suite confirmation was committed empty and never followed up, while later review text treats the result as an established green baseline."
+  },
+  {
+   "arc": "B677_morning_packet",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B677_morning_packet/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/ORIGINALS_MANIFEST.txt",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/GENERATION_LEG_PLAN_CC2.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/R22_3_RESPONSE_CC2.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/SEALS.txt",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/STATUS.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/VERDICT_LEDGER.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/PREREG_L5.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e2_silversplit/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e2_silversplit/e2_results.json (head)",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e1_diag351/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e1_diag351/e1_modnull.py",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e1_diag351/e1_results.json (head)",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e1_diag351/e1_run_log.txt",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/generation_leg/PREREG_G1.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/generation_leg/g1_tube/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/generation_leg/g1_tube/FINDINGS_RAW.md",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/generation_leg/g1_tube/g1_results.json (head)",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/generation_leg/g1_tube/g1_run_log.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e2_silversplit/e2_silversplit.py (grep def/assert)",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e1_diag351/e1_diag351.py (grep def/assert)",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/anatomy/loop5/e1_diag351/_leftnull_L351.json (head 2000 chars, tail 500 chars; single-line JSON so line-count wc gave 0)",
+    "/home/user/origin-axiom/frontier/B677_morning_packet/generation_leg/g1_tube/g1_tube.py (first 120 lines + grep def/assert)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Wave 1 kills three candidate invariants — Tube(Fib) semisimplicity forces HH^{>=1}=0 and weld-weighted characters are Q(zeta5)-irrational against integer targets.\"",
+   "log_says": "PROGRESS_LOG.md: 'B677: THE MORNING PACKET (R22-3 verified-closed; G1 three kills; loop 5)'; REVIEW 22 marks R22-3 VERIFIED+CLOSED (sealed-addendum chains, no breach; re-seal protocol adopted program-wide); REVIEW 23 carries R22-3/-4/-5 as [x] banked.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "R22-3: the flagged 'prereg drift' (PREREG_L2.md, PREREG_L4.md hash mismatches) is a sealed-addendum chain, not an integrity breach",
+     "where": "R22_3_RESPONSE_CC2.md; SEALS.txt (chain entries f9ae4a9e->c6d4fabd for L2, 8ffb0eb6->56e5a59c for L4)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the hash chain is laid out explicitly in SEALS.txt and cross-checked against this seat's own manifests; a stranger can verify the two chains resolve to the current file hashes by re-hashing the committed files."
+    },
+    {
+     "what": "E1: all five Lambda^2-diagonal self-cups [u_i cup u_i] are exact coboundaries (no self-coupling)",
+     "where": "anatomy/loop5/e1_diag351/FINDINGS_CC2.md; e1_results.json gates (all_gates_pass: true); e1_diag351.py assertions",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact-arithmetic pipeline with committed asserts (dim_L351_correct, ker_FT_L351_dim_397, slot_cocycle_identity_diag_holds_all_i, control_coboundary_shift_diag22) and a committed fraction-pair witness data file (_leftnull_L351.json, exact rational entries as [num,den] pairs)."
+    },
+    {
+     "what": "E2: the silver 'mute pair' {0,1} is exactly the boundary-detected set (form-match upgraded to a structural law)",
+     "where": "anatomy/loop5/e2_silversplit/FINDINGS_CC2.md; e2_silversplit.py assertions (golden control gate then silver run)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script gates the golden control against the banked split before running silver, uses exact arithmetic over L=Q(s,i), and the convention used to define 'boundary-detected' is stated explicitly rather than left implicit."
+    },
+    {
+     "what": "G1 wave 1: T0/T1/T2 all KILL as candidate generators of the Rogers-Ramanujan streams; trace-blindness + value-irrationality named as the two failure axes",
+     "where": "generation_leg/g1_tube/FINDINGS_CC2.md; g1_results.json (target reproduction gates, weld operator exact fractions, W_FIB_trace_eq_neg1_phi: true)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "target series independently reproduced by 3 routes (sum/product/theta) to 160 terms with exact-fraction spot-checks against the banked B672 ratios (-9, -10); T0's kill is upgraded to a theorem (semisimplicity of Tube(Fib) forces HH^{>=1}=0), stated and reasoned, not merely numerically observed."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "has_verification_dir is false and no tests/test_b677*.py exists; the arc's internal discipline (golden control-gates-silver, cross-route agreement, sealed preregs with falsifiers stated in advance) substitutes for an external belt, but there is no independent re-check outside this arc's own scripts.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Filename mismatch between ORIGINALS_MANIFEST.txt (lists './anatomy/loop5/e1_diag351/e1_run.log' and './generation_leg/g1_tube/g1_run.log') and the actual committed files delivered in the packet (e1_run_log.txt, g1_run_log.txt) — a cosmetic rename noted in the manifest's own PATCHES line ('standard (seat paths, model names, log renames)'), so likely benign, but it means the as-received manifest hashes cannot be directly re-verified against the files as committed without accounting for the rename.",
+     "where": "ORIGINALS_MANIFEST.txt vs directory listing"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "GENERATION_LEG_PLAN_CC2.md explicitly flags its own risk here: 'the targets' leading powers q^{2/5}, q^{3/5} are the (2,5)-model weights, an encouraging consistency, stated as such and nothing more' — a weight/exponent coincidence used as motivating evidence for the tube-algebra candidate route (which then failed, so the flagged risk did not mislead the verdict, but the pattern recurs across the corpus)."
+    }
+   ],
+   "seat_note": "A large compound packet (governance/re-seal protocol response + two anatomy-program cells + one generation-leg cell) with genuinely negative, well-gated results throughout; the T0 kill is unusually strong evidence discipline because it converts a numerical near-miss into a structural theorem (semisimplicity forces vanishing cohomology) rather than resting on a numeric bound alone. All content remains structural/arithmetic (cohomology ranks, exact q-series coefficients, Galois-type field membership) with no measurable physical quantity or predicted value named anywhere in this arc."
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "batch": "arcs_047",
+ "arcs": [
+  {
+   "arc": "B663_bifocal_anatomy",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/BIFOCAL_CLARIFICATION_CC2.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/BIFOCAL_STRUCTURE_HANDOFF.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/ORIGINALS_MANIFEST.txt",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/ATLAS.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/CHARTER.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/FRONTIER.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/SEALS.txt",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/STATUS.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/VERDICT_LEDGER.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/PREREG_L1.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a1_jordan/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a1_jordan/a1_results.json",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a1_jordan/a1_run_log.txt",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a2_phases/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a2_phases/a2_run_log.txt",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a3_stage/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a3_stage/a3_results.json",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a3_stage/a3_run_log.txt",
+    "/home/user/origin-axiom/tests/test_b663_bifocal.py"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a1_jordan/a1_jordan.py (first ~120 lines + grep)",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a2_phases/a2_phases.py (first ~120 lines)",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a3_stage/a3_stage.py (first ~120 lines)",
+    "/home/user/origin-axiom/frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a2_phases/a2_table.json (via a2_run_log.txt totals, not raw JSON head/tail)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Bifocal credit adjudicated with corrections; the heart is an invertible Jordan unit, the resonant phase one Legendre character, the stage sign a block central character.\"",
+   "log_says": "Progress log (2026-07-17) banks B663 as: credit for the 'bifocal discovery' goes to the banked two-ended theorem + dual McKay (renamed); chat1 keeps the classification program + phases observation; the delta_PMNS chain terminates per B663's gate ruling (convention => no prediction exists); B667 later lists B663 as covering track G2 in its DONE column.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "v0 is an invertible Jordan element with sharp-fixed direction (s(z) supported on {12,13,14} with values (-2,2,-2); N(v0,v0,v0) = -6)",
+     "where": "anatomy_packet/loop1/a1_jordan/a1_results.json, a1_run_log.txt, a1_jordan.py; cross-checked in tests/test_b663_bifocal.py against B649's cubic_rational.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact Fraction/K=Q(sqrt(-3)) arithmetic in committed a1_jordan.py, full run log with PASS gates, and an independent second recomputation in the committed test file using a different arc's (B649) committed cubic data — a genuine belt, not a re-read."
+    },
+    {
+     "what": "The resonant-phase law: phase is a constant zeta_8-exponent per (class, resonant profile), independent of the resonant prime's unit symbol (101/101 magnitude gates, 0 fallbacks)",
+     "where": "anatomy_packet/loop1/a2_phases/a2_phases.py, a2_run_log.txt; locked in tests/test_b663_bifocal.py::test_a2_table_gates (reads a2_table.json)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full run log shows all 101 cells with gate=OK and the exact per-class-prime law table; the two apparent counterexamples are diagnosed in the same log as a chi5 confound, not swept under the rug."
+    },
+    {
+     "what": "The deep-3 stage sign is a block-wide central character: E6 k=6 rho(A1)^18=+I (61/61 pairs, dev 1.3e-49); SU(3) k=6 rho(A1)^18=-I (12/12 pairs, dev 4.2e-49)",
+     "where": "anatomy_packet/loop1/a3_stage/a3_stage.py, a3_results.json, a3_run_log.txt; independently re-verified in tests/test_b663_bifocal.py::test_a3_su3_central_character_numeric via B238's su32_wrt.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mpmath dps=50 certified-order checks plus a numpy-only 1e-8 recomputation in the committed test file, built from a different committed module (B238) — an independent route, not the same script re-run."
+    },
+    {
+     "what": "The S-matrix ENTRIES are NOT in Q(sqrt5) (D^2 = 3+3phi^2 = 3phi*sqrt5; 16a^4-120a^2+45 has no rational root)",
+     "where": "BIFOCAL_CLARIFICATION_CC2.md section 2; asserted as 'verified symbolically here' in FINDINGS.md but no script/log for this specific polynomial check is committed in this arc's directory",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "FINDINGS.md claims 'D^2 IS NOT a square in Q(sqrt5): verified symbolically here' but no sympy script or output for this specific claim is present in the B663 directory or referenced test file; a stranger cannot rerun this specific check from what's committed."
+    },
+    {
+     "what": "The 2O/E7 conjecture (silver hearing field Q(sqrt2) = character field of binary octahedral group 2O, E7's McKay partner) — registered as L105",
+     "where": "BIFOCAL_CLARIFICATION_CC2.md section 3; FINDINGS.md 'THE 2O/E7 conjecture (cc2's gem, registered as L105)'",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "Explicitly labeled a conjecture with a proposed test ('compute the silver word's hearing group at its conductor'); no compute cell for it exists in this packet — it is an open lead, not a claim of record, but the arc's prose reads it as a structural insight already."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b663_bifocal.py independently re-derives all three A1/A2/A3 numeric claims from committed source data/modules distinct from the anatomy_packet scripts (e.g. B649's cubic_rational.json, B238's su32_wrt.py) — a genuine second route, not merely re-reading the same JSON.",
+   "absence_claims": [
+    {"quote": "The being-end quantities have NEVER been tested:", "where": "frontier/B663_bifocal_anatomy/BIFOCAL_STRUCTURE_HANDOFF.md:181"},
+    {"quote": "AFTER the comparisons ran and have never been tested against SM", "where": "frontier/B663_bifocal_anatomy/BIFOCAL_STRUCTURE_HANDOFF.md:29"},
+    {"quote": "We tested the icosahedron and found silence. We never tested the [tetrahedra]", "where": "frontier/B663_bifocal_anatomy/BIFOCAL_STRUCTURE_HANDOFF.md:255-256"},
+    {"quote": "● WHAT v₀ IS conceptually — the organ has no name in any language yet", "where": "frontier/B663_bifocal_anatomy/anatomy_packet/ATLAS.md:34"},
+    {"quote": "3. **● v₀'s identity** — the heart has no name.", "where": "frontier/B663_bifocal_anatomy/anatomy_packet/ATLAS.md:54"},
+    {"quote": "9. ● time/dynamics — the one organ the organism does not have.", "where": "frontier/B663_bifocal_anatomy/anatomy_packet/ATLAS.md:60"},
+    {"quote": "v0_silver's cross-square/N/bilinear invariants NOT computed here (a separate cell per prereg instruction) -- flagged for the frontier.", "where": "frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a1_jordan/a1_results.json:74 (silver_note)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md's claim that 'D^2 is NOT a square in Q(sqrt5)' was 'verified symbolically here' but no script/log realizing that specific symbolic check is committed in this arc — an assertion dressed as a computation.",
+     "where": "frontier/B663_bifocal_anatomy/FINDINGS.md (section I, S-matrix bullet)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The delta_PMNS physics chain (the arc's one nominally 'genuine opening' toward an observable) is explicitly gated behind an owner decision and a not-yet-run K-rationality decider (L104) — it is a possibility, not a result, though the FINDINGS text frames it with some rhetorical weight ('THE ONE GENUINE OPENING').",
+     "where": "frontier/B663_bifocal_anatomy/FINDINGS.md (section I, strategic observation bullet); BIFOCAL_CLARIFICATION_CC2.md section 4"
+    }
+   ],
+   "seat_note": "The three anatomy-loop cells (A1/A2/A3) are genuinely computed with exact/certified arithmetic and independently re-verified by a committed test file using different source modules — this is solid math. But it is pure group-theory/arithmetic structure of a modular-tensor-category construction with no measurable quantity attached; the sole physics-facing thread (delta_PMNS) is explicitly gated pending a future decider, so there is no observable content here, only a promissory note toward one."
+  },
+  {
+   "arc": "B664_metallic_landscape",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B664_metallic_landscape/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B664_metallic_landscape/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B664_metallic_landscape/METALLIC_LANDSCAPE_HANDOFF.md",
+    "/home/user/origin-axiom/frontier/B664_metallic_landscape/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B664_metallic_landscape/landscape_output.txt",
+    "/home/user/origin-axiom/frontier/B664_metallic_landscape/landscape_verify.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The metallic hearing landscape has closed form |tr_odd(n)| = (2sqrt3/D)|cos(pi(4n-5)/10)|, values {0,1/phi,1}, period 5; chat1's uniqueness criteria are refuted.\"",
+   "log_says": "Progress log (2026-07-17) bank line: 'the landscape at the golden stage is a two-term exponential sum on the 2-dim theta-odd block with EXACT T-phases e^{2pi i 2/15}, e^{2pi i 8/15} ... THEOREM via the exact identities sin^2(72)=D^2/12, sin^2(36)=D^2/(12 phi^2) (sympy-exact); modulus period 5 ..., palindrome automatic, reality period 15.' B667 lists B664 as covering tracks E1-E4 DONE; a later 2026-08-03 entry (B878/B879) reports a cc3 handoff recomputing silver |tr_odd|=1 and R^4L^4=1/phi 'with main's own B238/B664 machinery' and banking it as a corroboration, not a new law.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Closed form |tr_odd(n)| = (2sqrt3/D)|cos(pi(4n-5)/10)|, matching direct computation 38/38 for n=3..40; exact T-phases e^{2pi i 2/15}, e^{2pi i 8/15}; golden-trig identities sin^2(72)=D^2/12, sin^2(36)=D^2/(12phi^2) exact via sympy",
+     "where": "landscape_verify.py (asserts embedded), landscape_output.txt (witness run)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "landscape_verify.py is a complete, runnable, committed script that imports the banked B238 su32_wrt.py module, asserts every claimed numeric identity in-line (not just prints them), and its output file matches the printed FINDINGS numbers exactly line for line."
+    },
+    {
+     "what": "chat1's 'Fact 2 — the golden is the only real minimum' is refuted (n=12,18,27,33 are also quiet+real)",
+     "where": "landscape_verify.py / landscape_output.txt: 'QUIET+REAL at n = [3, 12, 18, 27, 33]'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly enumerated and printed in the committed output; same script computes both the closed form and the refutation."
+    },
+    {
+     "what": "Prime conductor and unit determinant are the same criterion on this family ((n-2)(n+2) prime iff n-2=1)",
+     "where": "landscape_verify.py final block; FINDINGS.md 'the criteria collapse'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "An elementary number-theoretic identity, stated and printed, trivially checkable and not in dispute; committed."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No separate independent-route recomputation of B664's own closed form exists in this arc's directory; the 2026-08-03 log entry (B878/B879) reports a cc3 handoff that recomputed silver |tr_odd| and R^4L^4 'with main's own B238/B664 machinery' as a corroboration under B665/B666 — using the same underlying B238 machinery rather than a demonstrably independent method, though it is at least a second run rather than a re-read of the same file.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "chat1's original handoff (archived verbatim in this arc) frames the golden-word/golden-stage relationship as a self-selecting fixed point ('the object selects the stage that selects it... this is not circular... a fixed point that proves itself by being consistent'). FINDINGS.md explicitly disciplines this as 'FIREWALLED (a reading, not a theorem)' and does not adopt it, but the rhetorical structure is preserved verbatim in the committed handoff file and could be mistaken for an established result by a later reader who skips FINDINGS' correction.",
+     "where": "frontier/B664_metallic_landscape/METALLIC_LANDSCAPE_HANDOFF.md ('THE SELF-REFERENCE' section); corrected in frontier/B664_metallic_landscape/FINDINGS.md ('What genuinely feeds L91')"
+    }
+   ],
+   "seat_note": "This is a clean, fully computed and asserted-in-code theorem (closed-form exponential sum with exact algebraic identities) with a committed, runnable, matching witness — good practice. It is pure structural/arithmetic content about the framework's own internal hearing amplitude; the arc itself correctly firewalls the one SM-adjacent remark (coupling-landscape/hierarchy-problem analogy) as interpretation, so there is no observable content, appropriately labeled as such."
+  },
+  {
+   "arc": "B665_landscape_reconciliation",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B665_landscape_reconciliation/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B665_landscape_reconciliation/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B665_landscape_reconciliation/LANDSCAPE_ADJUDICATION_CC2.md",
+    "/home/user/origin-axiom/frontier/B665_landscape_reconciliation/arc_verdict.json",
+    "/home/user/origin-axiom/tests/test_b665_reconciliation.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The shadow-class law |tr_odd(W)| = 2|tone(W mod 5)| holds for any word, and trace does not determine hearing (RLRL versus R^5L at equal trace).\"",
+   "log_says": "Progress log (2026-07-17): 'Three treatments (chat1's numerics, B664's proof, cc2's adjudication) reconcile: THE SHADOW-CLASS LAW ... with B664's closed form as its single-L section.' Also lists reciprocal corrections (three-properties over-count; realness claim fails within the family too, citing B664's n=12/18/27/33; PSL correction; origin-framing inconsistency; trace-4 erratum). A 2026-08-03 entry (B878/B879) reports cc3's independent counts (188/153/249/147/8) and silver-family recomputation banked as a 'COMPLETE-FAMILY CORROBORATION under B665/B666, not a new law.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The shadow-class law: |tr_odd(W)| = 2|tone(class of W mod 5)| for any word (general form, not just the single-L family)",
+     "where": "FINDINGS.md 'THE SHADOW-CLASS LAW' section, attributed to cc2's LANDSCAPE_ADJUDICATION_CC2.md and 'B644's shadow functor + B654's identification'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The general shadow-class law itself is stated as already established via B644/B654 (imported from other arcs, not recomputed or freshly proven here); this arc verifies specific witness cases of it (RLRL vs R^5L) rather than the general functor identification, and this seat did not re-read B644/B654 in this pass to confirm the underlying identification holds as claimed."
+    },
+    {
+     "what": "Witness cases: RLRL (trace 7) -> |tr_odd|=phi, real; R^5L (trace 7, i.e. R^5·L / RRRRRL) -> |tr_odd|=1/phi, complex — trace does not determine hearing",
+     "where": "FINDINGS.md; independently locked in tests/test_b665_reconciliation.py::test_trace_does_not_determine_hearing",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "The committed test file builds the SU(3)_2 stage from B238's su32_wrt.py directly and asserts the exact numeric claims (phi vs 1/phi, real vs complex) to 1e-9/1e-3 tolerance — a runnable, self-contained reproduction, even though B665's own directory carries no script of its own."
+    },
+    {
+     "what": "General-word reality counterexamples: RRLL and RRRLLL have tr_odd = 1.0 exactly, real (refuting 'only the golden is real' generally)",
+     "where": "FINDINGS.md / LANDSCAPE_ADJUDICATION_CC2.md; locked in tests/test_b665_reconciliation.py::test_general_word_reality_counterexamples",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly asserted in the committed test with 1e-9 tolerance against the same B238-derived stage construction."
+    },
+    {
+     "what": "SL(2,5) is not simple (has +-I); PSL(2,5)=A5 is simple — correcting chat1's 'prime conductor => simple hearing group'",
+     "where": "LANDSCAPE_ADJUDICATION_CC2.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "A standard group-theory fact stated without an accompanying computation in this arc; unproblematic mathematically (it is textbook), but not itself computed here — an assertion of known mathematics, not a red flag on its own."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "B665's own directory has no script or run log of its own (only two markdown memos), but tests/test_b665_reconciliation.py independently reconstructs the SU(3)_2 stage from B238's committed module and reproduces the decisive witnesses (RLRL/R^5L, RRLL/RRRLLL) from scratch — a genuine, if externally-located, computed belt for the specific witness claims; the general shadow-class law itself rests on imported B644/B654 results not re-verified in this arc.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The general shadow-class law's derivation is credited to 'B644's shadow functor + B654's identification, explicit' but this arc itself contains no computation of the general functor claim — only specific witness spot-checks of consequences of it. The law is asserted as an identity (tone == hearing modulus/2) built by composing two other arcs' results; whether that composition is watertight was not independently checked in this pass.",
+     "where": "frontier/B665_landscape_reconciliation/FINDINGS.md ('THE SHADOW-CLASS LAW' section)"
+    }
+   ],
+   "seat_note": "The specific numeric witnesses this arc rests its refutations on (trace-does-not-determine-hearing; general-word reality counterexamples) are cleanly reproduced by a committed, independently-runnable test against a different arc's module — solid. The umbrella 'shadow-class law' itself is an import from B644/B654 that this arc did not re-derive, so its generality claim is one step short of self-contained verification here; content remains purely structural, no observable named."
+  }
+ ]
+}

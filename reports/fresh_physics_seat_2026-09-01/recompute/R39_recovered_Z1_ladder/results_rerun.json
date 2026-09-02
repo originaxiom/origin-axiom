@@ -1,0 +1,165 @@
+{
+ "cell": "P2W4-Z1",
+ "task": "H133-successor: is Z = Tr rho(A1) identically 1 at all E6 levels?",
+ "object": "Z_k = Tr rho_k(T^2 S T) = sum_a t_a^3 S_aa, E6 level k, kappa=k+12",
+ "method": "exact cyclotomic accumulation in Z[zeta_{36 kappa}] of the Kac-Peterson Weyl sums (diagonal of S only) + PSLQ identification in Q(sqrt5) certified exactly mod Phi_{36 kappa}; independent float pipeline with the two-word gate at k<=7.",
+ "kmax": 10,
+ "ladder": [
+  {
+   "k": 1,
+   "kappa": 13,
+   "N": 3,
+   "Z": "1",
+   "cert": true
+  },
+  {
+   "k": 2,
+   "kappa": 14,
+   "N": 9,
+   "Z": "1",
+   "cert": true
+  },
+  {
+   "k": 3,
+   "kappa": 15,
+   "N": 20,
+   "Z": "1",
+   "cert": true
+  },
+  {
+   "k": 4,
+   "kappa": 16,
+   "N": 42,
+   "Z": "0",
+   "cert": true
+  },
+  {
+   "k": 5,
+   "kappa": 17,
+   "N": 78,
+   "Z": "1",
+   "cert": true
+  },
+  {
+   "k": 6,
+   "kappa": 18,
+   "N": 139,
+   "Z": "1",
+   "cert": true
+  },
+  {
+   "k": 7,
+   "kappa": 19,
+   "N": 231,
+   "Z": "2",
+   "cert": true
+  },
+  {
+   "k": 8,
+   "kappa": 20,
+   "N": 372,
+   "Z": "1",
+   "cert": true
+  },
+  {
+   "k": 9,
+   "kappa": 21,
+   "N": 573,
+   "Z": "1",
+   "cert": true
+  },
+  {
+   "k": 10,
+   "kappa": 22,
+   "N": 861,
+   "Z": "2",
+   "cert": true
+  }
+ ],
+ "gates": {
+  "G4_reality": true,
+  "G5_no_false_certificate": true,
+  "G1_two_word": true,
+  "G2_normalization": true,
+  "G3_float_vs_exact": true
+ },
+ "mechanism": {
+  "lucas_resultant_identity_n_1_20": true,
+  "abs_det_w2_3w_I_values": [
+   1,
+   5,
+   16,
+   25,
+   45,
+   80,
+   81,
+   100,
+   121,
+   125,
+   180,
+   225,
+   245,
+   256,
+   320,
+   361,
+   400,
+   576,
+   605,
+   625,
+   1125,
+   1280,
+   1600,
+   4096
+  ],
+  "characteristic_primes": [
+   2,
+   3,
+   5,
+   7,
+   11,
+   19
+  ]
+ },
+ "laws": {
+  "levels_identified_in_Q(sqrt5)": "10/10",
+  "C1_Z_identically_1": false,
+  "C2_all_rational_integers": true,
+  "C3_all_in_Z[phi]": true,
+  "C4_max_abs_Z": 2.0,
+  "C4_max_abs_conjugate": 2.0,
+  "C5_Z1_iff_coprime_to_charprimes": false,
+  "C6_periodic_in_kappa": false,
+  "C6_periods": [],
+  "C7_function_of_kappa_mod_m": [],
+  "C10_multiplicative_in_kappa": true,
+  "C10_violating_kappa": [],
+  "C8_last_nonzero_level": 10,
+  "C8_zero_tail_length": 0,
+  "nonzero_levels": [
+   1,
+   2,
+   3,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "C9_irrational_only_if_5_divides_kappa": true,
+  "irrational_levels": [],
+  "kappa_with_5": [
+   15,
+   20
+  ],
+  "value_multiset": [
+   "0",
+   "1",
+   "2"
+  ]
+ },
+ "chord_discipline_B774": "PASS -- Z is the trace of the non-abelian E6 level-k Weil-rep monodromy rho(A1) on the full primary space, the identical object H133/B600/CL-H133 registered; no abelian relabel, no finer invariant substituted. The exact route computes the same number as the float route (G3).",
+ "discriminating_fact": "the exactly-certified ladder Z_k, k=1..10: 1:1, 2:1, 3:1, 4:0, 5:1, 6:1, 7:2, 8:1, 9:1, 10:2",
+ "verdict": "RESOLVED-A",
+ "reason": "a PREDICTIVE law for Z(level) survives every computed level: C10_multiplicative_in_kappa"
+}

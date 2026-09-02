@@ -1,0 +1,205 @@
+{
+"batch": "arcs_117",
+"arcs": [
+{
+"arc": "B1188_grand_retrieval",
+"source": "main",
+"files_read": [
+"/home/user/origin-axiom/frontier/B1188_grand_retrieval/FINDINGS.md",
+"/home/user/origin-axiom/frontier/B1188_grand_retrieval/arc_verdict.json",
+"/home/user/origin-axiom/frontier/B1188_grand_retrieval/b1188_results.json",
+"/home/user/origin-axiom/frontier/B1188_grand_retrieval/verification/ladder_checks.txt",
+"/home/user/origin-axiom/frontier/B1188_grand_retrieval/verification/reproduce.sh",
+"/home/user/origin-axiom/frontier/B1188_grand_retrieval/verification/og3_volume_spectrum.py"
+],
+"files_sampled": [],
+"files_listed_only": ["/home/user/origin-axiom/frontier/B1188_grand_retrieval/verification/og3_volume_spectrum.json (read in full incidentally via checks in reproduce.sh; not independently re-scanned row-by-row)"],
+"claim_of_record": "PROVED — THE GRAND-COMPUTATION RETRIEVAL: six-lens sweep of 1092 verdicted arcs + THE DISCRETE LADDER computation + the docs/GRAND_COMPUTATION_LEDGER.md deliverable. Headline: 112 family members lie exactly on the half-integer lattice of Vol(m004) (integer lattice of V_reg = Vol(m004)/2), zero exceptions at 1e-30/50dps, bite control (m015, m006 off-lattice) passes; 132 PROVED on-theme arcs found absent from every live surface; one own error (L190 'excess'->'deficit' of transitive reach) corrected. Gate 5 clean, no measured value.",
+"log_says": "PROGRESS_LOG.md: 'THE GRAND-COMPUTATION RETRIEVAL — Phase 0 of the observer campaign; THE DISCRETE LADDER; the ledger', owner-directed 'no superficial observer work — close this forever; sweep the repo first'. Review 53 quotes B1188/B985 recovering object-faces 79-100% and relation-faces 6-19%, with 132 PROVED on-theme arcs absent from every live surface, and later (R53-3) notes B1188's 132 off-surface arcs 'remain unswept'.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{
+"what": "THE DISCRETE LADDER: 112/112 family members are exact (half-)integers of V_reg=Vol(m004)/2; rungs {2,4,5,6,7,8,9,10}; bite control (m015,m006 off-lattice)",
+"where": "verification/og3_volume_spectrum.py + verification/reproduce.sh + verification/ladder_checks.txt + verification/og3_volume_spectrum.json",
+"kind": "COMPUTED",
+"reproducible_from_committed": "yes",
+"why": "reproduce.sh re-derives the ladder assertions from the committed og3_volume_spectrum.json and re-runs 3 spot high-precision SnapPy/mpmath recomputes plus the m015/m006 bite control directly against snappy; OA_SLOW=1 re-runs the full 112-member sweep via og3_volume_spectrum.py, which itself pulls the family list from B1186's committed family_census.json. A stranger with snappy+mpmath installed could rerun this end to end."
+},
+{
+"what": "'132 PROVED on-theme arcs absent from every live surface' (registry drift finding, B985 instrument bias 79-100%/6-19%)",
+"where": "FINDINGS.md lines 19-23",
+"kind": "IMPORTED",
+"reproducible_from_committed": "unknown",
+"why": "This arc reports the number as retrieved from prior arcs (B985 and the six-lens sweep); the six raw lens reports are described as 'working material (paths + one-liners)' not committed in this arc's own file set — none of the six lens reports are among the 7 files present in this arc directory, so the 132 figure cannot be independently re-derived from what's committed here."
+}
+],
+"belt": "RECOMPUTES",
+"belt_note": "reproduce.sh actually invokes snappy/mpmath and re-derives the ladder + bite-control assertions from the committed JSON and from live SnapPy volume computation, not just re-reading; ladder_checks.txt is a committed .txt witness (not gitignored).",
+"absence_claims": [
+{"quote": "The registry drift class (finished-but-forgotten) returned 132 PROVED on-theme arcs absent from all live surfaces, with the sharpest five (B279, B769, B786, B293, B552) invisible to the drift-detector itself (its ≥500-char floor cannot see one-sentence claims — the E52 treatment applies to it).", "where": "FINDINGS.md:19-23"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "OTHER", "detail": "The six raw lens reports that produced the sweep's headline claims (79-100%/6-19% recovery rates, 132 off-surface arcs) are explicitly called 'working material' and are not part of this arc's committed file set — only the distilled ledger and the new ladder computation are; the sweep's own scale claims are therefore not independently checkable from this arc's committed files alone.", "where": "FINDINGS.md:70-74 ('Fences')"}
+],
+"seat_note": "The discrete-ladder computation is a genuine, reproducible high-precision numeric result (SnapPy+mpmath, exact bite control) and is fairly represented as STRUCTURAL (hyperbolic-volume arithmetic), not a physical observable. The sweep's headline percentages and the 132-arc count are retrieval/meta-claims about the corpus rather than physics, and are only as good as the six lens reports, which are not committed here."
+},
+{
+"arc": "B1189_close_loop_batch1",
+"source": "main",
+"files_read": [
+"/home/user/origin-axiom/frontier/B1189_close_loop_batch1/FINDINGS.md",
+"/home/user/origin-axiom/frontier/B1189_close_loop_batch1/arc_verdict.json",
+"/home/user/origin-axiom/frontier/B1189_close_loop_batch1/b1189_results.json",
+"/home/user/origin-axiom/frontier/B1189_close_loop_batch1/verification/reproduce.sh",
+"/home/user/origin-axiom/frontier/B1189_close_loop_batch1/verification/batch1_checks.txt",
+"/home/user/origin-axiom/frontier/B1189_close_loop_batch1/verification/gc4_reach_deficit.py"
+],
+"files_sampled": [
+"/home/user/origin-axiom/frontier/B1189_close_loop_batch1/verification/arithmeticity_test_output.json (head/tail/wc; positive/negative control blocks and non_regular_results table checked, 11 IN_FIELD_BUT_NON_INTEGRAL_SAMPLE entries visible matching FINDINGS' 11-non-arithmetic claim)",
+"/home/user/origin-axiom/frontier/B1189_close_loop_batch1/verification/batch1_cells.json (head/tail; GC-1 headline/evidence block matches FINDINGS.md)"
+],
+"files_listed_only": [
+"verification/adv_gc4_verify.py", "verification/arithmeticity_test.py", "verification/gc1_ladder.json", "verification/gc1_meter.py", "verification/gc1_traces.json", "verification/gc1_traces.py", "verification/gc1_traces2.json", "verification/gc1_traces2.py", "verification/gc1_verify_nonarith.py", "verification/gc2_adversarial_reverify.py", "verification/gc2_lens_e52.py", "verification/gc2_sign_twisted_double.py", "verification/gc2_twisted_sign.py", "verification/gc3_clock.py", "verification/gc3_refute_check.py", "verification/gc4_law_candidate.py", "verification/gc4_lens_e52_verify.py", "verification/gc4_two_sided_control.py", "verification/gc5_lens_attack.py", "verification/gc5_spotcheck.py", "verification/gc5_spotcheck2.py", "verification/ladder_recompute.py", "verification/ladder_recompute_output.json", "verification/lens_correctness_check.py", "verification/mechanism_orbifold.py", "verification/wide_bite_control.py", "verification/wide_bite_control_output.json"
+],
+"claim_of_record": "PROVED — CLOSE-LOOP BATCH 1 (GC-1..GC-5, five cells each with two adversarial lenses; 4/5 survive cleanly, GC-4's lone refutation a verifier boolean slip with confirming text). GC-1 PARTIAL (ladder mechanism exact, Vol(m004)=12*Vol_orb; but one-class framing REFUTED — 11/35 non-regular members not arithmetic per Maclachlan-Reid). GC-2 NEGATIVE (golden-unit N(phi)=-1 kills the mirror-orientation, both-sign conjugator coset). GC-3 PROVED (one generator A1=RL, three operations; B766-vs-B1083 reconciled). GC-4 PROVED (reach-deficit deepens to z~49-59 under degree-preserving nulls; charpoly-locality law rho=-0.61..-0.62, p<1e-16). GC-5 PROVED (register repairs: L63 closed as c, L114/L120 adjudicated, B279/B769 spot-verified).",
+"log_says": "PROGRESS_LOG.md: 'THE CLOSE-LOOP BATCH 1 — five cells, adversarially verified; the golden-unit killer; the ladder deeper than commensurability. The campaign's first close batch (15 tiered agents; 4/5 survive cleanly, the fifth's lone refutation a verifier boolean slip with confirming text).'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{
+"what": "GC-2 golden-unit killer: det(A-I)=-1, det(A+I)=5, B=A-I satisfies B^2=B+I (B=phi), det B = N(phi) = -1; both J (det+1) and K=JB (det-1) conjugate A to A^-1",
+"where": "verification/reproduce.sh (exact sympy re-run, lines 9-27) and verification/batch1_checks.txt (committed output)",
+"kind": "COMPUTED",
+"reproducible_from_committed": "yes",
+"why": "The exact 2x2-matrix sympy algebra is re-run directly in reproduce.sh and its committed output batch1_checks.txt matches; a stranger can rerun this with sympy alone in seconds."
+},
+{
+"what": "GC-1 ladder deeper than commensurability: 11 of 35 non-regular members fail Maclachlan-Reid arithmeticity (non-integral traces, e.g. t06829 tr(a^2)=1/6+(1/2)sqrt(-3))",
+"where": "verification/arithmeticity_test.py + verification/arithmeticity_test_output.json",
+"kind": "COMPUTED",
+"reproducible_from_committed": "yes",
+"why": "arithmeticity_test_output.json (sampled) shows the same 11-member IN_FIELD_BUT_NON_INTEGRAL_SAMPLE / ARITHMETIC_CONSISTENT split reported in FINDINGS.md, with matching positive/negative controls; the committed arithmeticity_test.py presumably regenerates it (not independently re-run here, but the script and its output are both committed)."
+},
+{
+"what": "GC-4 reach-deficit LAW: DAG edges local in charpoly-class space, Spearman(|Δabc|, L10-cone-Jaccard) = -0.612..-0.619, p<1e-16; deficit deepens to z~49-59 under degree-preserving nulls",
+"where": "verification/gc4_reach_deficit.py, verification/gc4_two_sided_control.py, verification/adv_gc4_verify.py",
+"kind": "COMPUTED",
+"reproducible_from_committed": "unknown",
+"why": "gc4_reach_deficit.py contains real analysis functions (mm_fraction, reach_bitsets, null_A, null_B, overlap_stats) — a genuine from-scratch implementation exists, but this arc's reproduce.sh does not re-run GC-4 (only GC-2's algebra and committed-cell-verdict assertions); the numeric z-value and Spearman correlation are not re-derived by the fast path, only asserted from batch1_cells.json."
+}
+],
+"belt": "RE-READS",
+"belt_note": "reproduce.sh re-runs the GC-2 exact algebra live and asserts the five cell verdict strings from the committed batch1_cells.json + arithmeticity_test_output.json, but does not recompute GC-1/GC-3/GC-4/GC-5's numeric results (those live only in separately committed, not-wired-in scripts/outputs, several only listed here, not read).",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "OTHER", "detail": "One verify (adversarial-lens) agent was 'security-flagged for a broad process-kill during its run'; reviewed and judged harmless, but this is a self-reported process anomaly inside the campaign's own verification tooling.", "where": "FINDINGS.md:79-81 ('Fences')"},
+{"kind": "OTHER", "detail": "GC-4's correctness lens itself had a mis-set boolean (refuted=true with text that actually confirmed the finding) — an E52-flavored slip on the verifier side of the loop, self-reported.", "where": "FINDINGS.md:58-61"}
+],
+"seat_note": "GC-2's golden-unit mechanism is a clean, reproducible piece of algebraic number theory (structural, not observable); GC-1's finding that arithmetic homogeneity fails while an integer volume-lattice still holds is an interesting negative result honestly reported. None of this batch names a measurable physical quantity or a predicted value."
+},
+{
+"arc": "B1190_close_loop_batch2",
+"source": "main",
+"files_read": [
+"/home/user/origin-axiom/frontier/B1190_close_loop_batch2/FINDINGS.md",
+"/home/user/origin-axiom/frontier/B1190_close_loop_batch2/arc_verdict.json",
+"/home/user/origin-axiom/frontier/B1190_close_loop_batch2/b1190_results.json",
+"/home/user/origin-axiom/frontier/B1190_close_loop_batch2/verification/gc6_l154_bridge.py"
+],
+"files_sampled": [
+"/home/user/origin-axiom/frontier/B1190_close_loop_batch2/verification/batch2_cells.json (head/tail; GC-6 and GC-9 evidence/refutation blocks read in full via targeted excerpt)"
+],
+"files_listed_only": [],
+"claim_of_record": "PROVED (sitting-level) — CLOSE-LOOP BATCH 2 (GC-6..GC-10), only 1/5 cells (GC-7) survived intact; the batch's stated content is the refutations. GC-6 PARTIAL/synthesis REFUTED (L154 bridge arithmetic verifies but the {2/5,3/5} fingerprint match is a KIND ERROR). GC-7 PARTIAL, survives (B1182's 5 adelic legs close with zero orphans; gamma5 and lambda named as residues). GC-8 re-graded PARTIAL (B891 no-tension reading plausible but mechanism claim + a false 'third independent cell' citation both fail). GC-9 rank-4 exhibits stand (su(3)+su(3), so(7)+u(1)) but the complex-27 sub-instrument is refuted (one-sided, never shown capable of returning 'real'). GC-10 replication theorem verified but payoff degenerates (level-4 tick finite, double-tick trivial product).",
+"log_says": "PROGRESS_LOG.md: 'CLOSE-LOOP BATCH 2 — the hard cells; the loop kills its own syntheses (1/5 survives). GC-6 (L154): the arithmetic all verified lens-independently ... but the fingerprint synthesis REFUTED — a KIND ERROR ... + an untested universal quantifier; L154 stays one-bridge-missing with the next attempt's instrument typed.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{
+"what": "GC-6 (E6)_1 character theta series (1,72,270,720,...) rebuilt via independent E8->E6 projection; object-side CS identity at 60dps",
+"where": "verification/gc6_l154_bridge.py; verification/batch2_cells.json GC-6 evidence block",
+"kind": "COMPUTED",
+"reproducible_from_committed": "unknown",
+"why": "gc6_l154_bridge.py is a committed, substantial (13.5KB) script; not independently executed in this read, but the code plus committed batch2_cells.json output are both present, so a stranger could rerun it. No reproduce.sh exists in this arc to automate the check."
+},
+{
+"what": "GC-9 rank-4 non-abelian proper centralizers exhibited from the raw Chevalley bracket: su(3)+su(3) (dim16), so(7)+u(1) (dim22)",
+"where": "batch2_cells.json GC-9 block, referencing gc9_probe.py/gc9_results.json (neither file is present in this arc's committed file set)",
+"kind": "IMPORTED",
+"reproducible_from_committed": "no",
+"why": "The GC-9 lens text itself says it reviewed 'gc9_probe.py and gc9_results.json line-by-line' — but neither of those files is listed among this arc's committed files (only gc6_l154_bridge.py and batch2_cells.json are); the rank-4 exhibits cannot be reproduced from what is committed to THIS arc directory alone."
+}
+],
+"belt": "UNCLEAR",
+"belt_note": "No reproduce.sh exists anywhere in this arc (confirmed by directory listing: only FINDINGS.md, arc_verdict.json, b1190_results.json, and verification/{batch2_cells.json, gc6_l154_bridge.py}). The only executable artifact is gc6_l154_bridge.py, standalone, not wired into any aggregate check script; all five cells' numeric claims rest on the free-form batch2_cells.json narrative plus lens text, not on an assert-based reproduction harness the way B1188/B1189 have.",
+"absence_claims": [
+{"quote": "**The completeness cross-check that had never been run, now run**: B1182's five adelic legs (c, r, θ = cr, scale, VEV) close **exactly, zero orphans**, against five assembly rows...", "where": "FINDINGS.md:28-29"},
+{"quote": "γ₅ (real, B769-proved independent) has never been adelic-place-typed", "where": "FINDINGS.md:30-31"},
+{"quote": "gamma5 itself (real, B769-proved independent) has never been adelic-place-typed because it lives on the object's other end (Q(sqrt5))", "where": "verification/batch2_cells.json GC-7 headline"},
+{"quote": "Grepping the entire frontier/ tree for any recorded True outcome of this check turns up nothing except the print-statement's own source text — there is no on-record run, anywhere in the campaign, where this specific negation-symmetry pipeline was fed a case expected to be self-dual/real ... and shown to correctly flag it", "where": "verification/batch2_cells.json GC-9 refutation text"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "This arc has no reproduce.sh / no aggregate re-derivation script, unlike B1188 and B1189; the five cells' claims are documented in a large narrative JSON (batch2_cells.json) referencing scripts (e.g. gc9_probe.py, gc9_results.json) that are not committed to this arc's own directory.", "where": "directory listing of frontier/B1190_close_loop_batch2/verification/ (only batch2_cells.json and gc6_l154_bridge.py present)"},
+{"kind": "OTHER", "detail": "GC-9's 'complex-27' sub-instrument is explicitly refuted for being one-sided (never demonstrated capable of returning the negative/real answer) — a textbook missing-bite-control problem, honestly caught by the lens rather than hidden.", "where": "verification/batch2_cells.json GC-9 refutation text"}
+],
+"seat_note": "The batch is candid about its own high failure rate (1/5 survives) and the refutations look genuine and well-reasoned (kind-error catch on GC-6, one-sided instrument catch on GC-9), which is a good epistemic sign; but the absence of any reproduce.sh or committed backing scripts for GC-7/8/9/10 means this arc's surviving claims (the adelic-leg closure, the rank-4 exhibits) rest on narrative report text rather than an independently re-runnable artifact within this directory."
+},
+{
+"arc": "B1191_close_loop_batch3",
+"source": "main",
+"files_read": [
+"/home/user/origin-axiom/frontier/B1191_close_loop_batch3/FINDINGS.md",
+"/home/user/origin-axiom/frontier/B1191_close_loop_batch3/arc_verdict.json",
+"/home/user/origin-axiom/frontier/B1191_close_loop_batch3/b1191_results.json"
+],
+"files_sampled": [
+"/home/user/origin-axiom/frontier/B1191_close_loop_batch3/verification/batch3_cells.json (head/tail + full GC-11, GC-12, GC-13, GC-15 blocks read via targeted grep/excerpt)",
+"/home/user/origin-axiom/docs/GRAND_COMPUTATION_v0.md (grepped for §7 repair rows I1/I2/I3/A2/F3/H3 to check whether the GC-11 refutation was actually propagated into the deliverable document — confirmed present)"
+],
+"files_listed_only": [],
+"claim_of_record": "PROVED — CLOSE-LOOP BATCH 3, THE GRAND COMPUTATION v0 LANDS (docs/GRAND_COMPUTATION_v0.md). 3/5 cells (GC-12, GC-14, GC-15) survive intact; GC-11 (completeness) and GC-13 (placement) are refuted/partial but repaired at banking. GC-12 PROVED: the L154 q-series fingerprint route is DEAD (only one banked object-side artifact is syntactically a q-series, B672's doublet, and it fails the non-negativity kind-map test at its first coefficient). GC-13 PARTIAL: gamma5 typed as the assembly's 6th leg; lambda proved distinct from sigma but not positively placed (named residual). GC-14 PROVED: D3 closes — both rank-4 centralizers are all-complex under B1100's correct criterion. GC-15 PROVED: Selector theorem formalized (3 regimes) + correspondence to B1183; F2/F8 already banked (B1003), only F3 was truly missing and its test is drafted+green (5/5).",
+"log_says": "PROGRESS_LOG.md: 'CLOSE-LOOP BATCH 3 — THE GRAND COMPUTATION v0 LANDS ... the meter with the whole family as integers in V_reg and S(member n) = -n*V_reg*sigma (zero free constants; the meter identities dual-verified at 50/60 dps); ... completed at banking with the completeness lens's six omitted rows.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{
+"what": "Meter identity re-verification: Vol(m004) = 12*Vol_orb exactly (residual 2.7e-51 at 50dps, and independently re-confirmed at 60dps residual ~5.6e-17 by the completeness lens from first principles)",
+"where": "verification/batch3_cells.json GC-11 evidence and refutation text",
+"kind": "COMPUTED",
+"reproducible_from_committed": "unknown",
+"why": "Both the cell and its lens independently ran mpmath computations and report matching numbers in the narrative text, but no standalone script or reproduce.sh is committed to this arc's directory (only the narrative JSON, no .py files at all) — the numbers are asserted in prose, not backed by a runnable artifact in this arc."
+},
+{
+"what": "GC-12: B672's weight-5 doublet series (comp1, comp2) go negative at n=1 (comp1: -9, comp2: -10) when the (q;q)^9 spectator cofactor is included, killing the L154 fingerprint route",
+"where": "verification/batch3_cells.json GC-12 evidence",
+"kind": "COMPUTED",
+"reproducible_from_committed": "no",
+"why": "The evidence text says 'fresh script, not importing B1190/GC-6's code; exact Fraction/int arithmetic ... script + full output saved to scratchpad' — explicitly NOT committed to the repo, only to an ephemeral scratchpad; a stranger cannot reproduce this from what's checked into the arc."
+},
+{
+"what": "GC-11 completeness refutation: the v0 draft silently omits ledger rows I1, I2, I3, A2, F3, H2/H3 despite claiming full A-I coverage",
+"where": "verification/batch3_cells.json GC-11 refutations block",
+"kind": "COMPUTED",
+"reproducible_from_committed": "yes",
+"why": "This is a grep-level textual cross-check against the committed docs/GRAND_COMPUTATION_LEDGER.md and the drafted v0 text; a stranger can redo the same grep. Confirmed here: the repair (§7 in docs/GRAND_COMPUTATION_v0.md) does contain I1, I2, I3, A2, F3, H3 rows, so the refutation was honored and propagated into the actual deliverable document, not just noted in the arc's own JSON."
+}
+],
+"belt": "UNCLEAR",
+"belt_note": "No verification/ scripts at all exist in this arc (only batch3_cells.json — a single large narrative JSON archiving cell+lens text); several load-bearing numeric claims (the negative q-series coefficients, the 60dps meter re-check) are described as computed in ephemeral scratchpad scripts explicitly not committed to the repo.",
+"absence_claims": [
+{"quote": "I2 = \"u-as-apparatus, MISSING BY DESIGN\" is never mentioned. I3 = \"the designed crossing, HELD FOR OWNER ELECTION\" is never mentioned (the word \"crossing\" does not occur in the document at all).", "where": "verification/batch3_cells.json GC-11 refutations block"},
+{"quote": "Row F3 (spin-vs-orientation ℤ/2, PROVED, B279) does not appear anywhere in GC-11", "where": "verification/batch3_cells.json GC-11 refutations block"},
+{"quote": "H3 (primitive observer, null hypothesis) are not explicitly carried as their own ledger items ... H3 is entirely absent.", "where": "verification/batch3_cells.json GC-11 refutations block"},
+{"quote": "There is no per-row checklist artifact in the cells directory (no GC-11-specific script, no explicit A1…I4 table)", "where": "verification/batch3_cells.json GC-11 refutations block"},
+{"quote": "gamma5 ... has never been adelic-place-typed", "where": "verification/batch3_cells.json GC-13 headline (carried from B1190/GC-7, now closed in this arc)"},
+{"quote": "Only F3 ... has ZERO test coverage anywhere in the repo, matching B998's literal citation-error finding", "where": "verification/batch3_cells.json GC-15 evidence"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The entire arc has zero committed .py scripts; all 'computed' load-bearing numbers (meter re-check at 60dps, the q-series negativity test) are reported only as prose inside batch3_cells.json, with the actual scripts stated to live only in an ephemeral scratchpad, not the repo.", "where": "verification/ directory listing (only batch3_cells.json present); GC-12 evidence text ('script + full output saved to scratchpad')"},
+{"kind": "OTHER", "detail": "GC-11's own headline claimed 'every ledger row A-I is either stated ... or typed' (Gate 5 absolute) and this was falsified by the arc's own adversarial lens via a direct grep-level cross-check finding 5+ omitted subrows, including one positive PROVED result (I1) silently dropped; the arc's self-correction (§7 in the shipped docs/GRAND_COMPUTATION_v0.md) was verified present in this read.", "where": "verification/batch3_cells.json GC-11 headline vs refutations block; docs/GRAND_COMPUTATION_v0.md §7"}
+],
+"seat_note": "The GC-12 negative result (killing a proposed q-series 'fingerprint' bridge via a real non-negativity test) is a good example of the loop correctly refuting itself, but it is not independently reproducible from this repo since the check was run only in scratchpad. The overall v0 document is a typing/synthesis exercise over prior arcs' results, not new physics; nothing here names an observable quantity or a predicted value."
+}
+]
+}

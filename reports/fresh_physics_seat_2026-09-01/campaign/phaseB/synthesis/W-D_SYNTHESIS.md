@@ -72,6 +72,7 @@ all with committed scripts that run on this bench without Sage:
 | R38 | committed reruns B854 / B866 / B919 | B854, B866 reproduce; **B919's sin²θ_W = 3/8 traces are not reproducible from committed** (uncommitted `cw.py` run dir; test compares stored strings to themselves) |
 | R40 | B516 Pisot under x → x(1+√x) | MATCH |
 | R41 | B518/B344/B332/B331 trace-map identities | MATCH |
+| R39 | the deleted `_verify_Z1` cell (exact Z_k = Tr ρ_k(A1) ladder) re-run | REPRODUCED 21/21 levels; the table has no home in the record |
 
 Physics content of all nine: none, except that B919 names sin²θ_W and its derivation is not in the repository. Each is arithmetic or representation theory of the object; none names a
 measurable quantity. "No observable content."

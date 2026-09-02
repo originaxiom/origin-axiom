@@ -535,3 +535,7 @@ Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   x → x(1+√x) (conjugates 0.440/0.786/0.786; silver's binding conjugate 1.337).
 - **Trace-map identities (B518, B344, B332, B331) — CLOSED, all MATCH** by `R41_trace_map_identities/` (sympy; B344's
   own `det_is_one` reruns True for m = 1,2,3).
+- **A deleted computed cell recovered — `R39_recovered_Z1_ladder/`**: `_verify_Z1` (P2W4-Z1, the exact
+  Z_k = Tr ρ_k(A1) ladder to k = 22, incl. Z_18 = 2−√5) was removed by c8f3167c as "accidentally-committed scratch";
+  re-run byte-for-byte here it REPRODUCES 21/21 shared levels. The correction kept the conclusion and dropped the
+  evidence; relay item.

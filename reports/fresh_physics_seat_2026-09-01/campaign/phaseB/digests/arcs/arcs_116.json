@@ -1,0 +1,415 @@
+{
+"batch": "arcs_116",
+"arcs": [
+{
+"arc": "B1170_arena_rescope",
+"source": "frontier/B1170_arena_rescope",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh","verification/enumeration_out.txt","verification/independent_enumeration.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — THE ARENA RESCOPE: over the SM-visible 5-field alphabet, 252 contents / 222 killed by [SU(3)]^3 / exactly 2 rigid+chiral+anomaly-free survivors (SM 15-plet + conjugate), zero object tokens in the executable code; uniqueness alphabet-dependent, minimality not.",
+"log_says": "PROGRESS_LOG B1170 (2026-08-27): THE ARENA RESCOPE — anomaly forcing arena-generic; charter G1 bounded; B1160 strengthened. Review 50: '252/222/2, no sympy.solve' re-derived plus both seat certs re-run.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"252 examined / 222 killed by [SU(3)]^3 / exactly 2 survivors (SM 15-plet charges 1/6,-2/3,1/3,-1/2,1)","where":"verification/independent_enumeration.py + enumeration_out.txt","kind":"COMPUTED","reproducible_from_committed":"yes","why":"Fraction-exact Gaussian elimination + explicit homogeneous-cubic analysis, no sympy.solve; reproduce.sh runs it and enumeration_out.txt matches FINDINGS' numbers exactly."},
+{"what":"cc3's B8143 lane re-run and codex R019 byte-identical re-run","where":"FINDINGS.md 'Verified on this bench' legs 2-3; reproduce.sh:13-20","kind":"ASSERTED","reproducible_from_committed":"no","why":"reproduce.sh's committed script only executes leg 1; legs 2-3 are printed prose describing work done 'on this bench 2026-08-27, cited' — nothing in this arc re-executes cc3's or codex's code."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "independent_enumeration.py is a genuine independent re-implementation with a matching committed witness; two of three 'verified on this bench' legs are echoed, not executed.",
+"absence_claims": [
+{"quote":"Zero object tokens in the executable code (no E₆, no 27, no m004, no trace field — their step-6 token audit; one prose comment disclosed, not swept).","where":"B1170_arena_rescope/FINDINGS.md:14-15"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"CLAIM_EXCEEDS_COMPUTATION","detail":"FINDINGS.md and reproduce.sh claim three legs 'verified on this bench'; the committed script executes only leg 1 (own-code enumeration). Legs 2 (cc3 lane re-run) and 3 (codex R019 byte-identical) are echoed text, not re-executed by anything in verification/.","where":"B1170_arena_rescope/verification/reproduce.sh:13-20"}
+],
+"seat_note": "The anomaly-cancellation enumeration (252/222/2) is solid, independently re-derived exact math with zero object tokens — structural, not observable. The claim that all three verification legs ran on this bench overstates what the committed script actually does."
+},
+{
+"arc": "B1171_seam_harvest",
+"source": "frontier/B1171_seam_harvest",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — THE SEAM HARVEST: five cross-seat results (cc3 B8144 adelic mechanism, cc3 B8145 L171 MOOD, cc3 B8146 L173 re-posed, cloud memos 80/82 byte-identical, codex R015/R016 adoptions) landed in one integrate-don't-merge sitting.",
+"log_says": "PROGRESS_LOG B1171 (2026-08-27): five cross-seat results in one sitting. Review 50 lists it among the lose-nothing campaign closes and a seal spot-check confirming its addendum sha.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"cc3 B8144 orbit-theorem escape-pair mechanism; cc3 B8145 8/8 CLPW verification; cc3 B8146 precision-column negative; cloud memos 80/82 (up-Yukawa shape 6 nonzero, 810/810 family-matrix rank 2); codex R015/R016 grade/fence notes","where":"FINDINGS.md items (1)-(5)","kind":"IMPORTED","reproducible_from_committed":"no","why":"All five results are other seats' computations, harvested (not re-derived) into this arc; this arc's own verification/reproduce.sh does not re-execute any of them."}
+],
+"belt": "RE-READS",
+"belt_note": "reproduce.sh only checks that referenced addendum files exist and greps OPEN_LEADS.md for marker strings (L171/L173/L186); it performs no computation of its own.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"CLAIM_EXCEEDS_COMPUTATION","detail":"FINDINGS.md states 'All five components verified on this bench before banking' and arc_verdict.json claims cloud memos 80/82 ran 'byte-identical on this bench,' but this arc's own reproduce.sh only checks file existence and greps for marker strings — it does not re-run memo 80/82, the CLPW spot-check, or any cc3/codex script.","where":"B1171_seam_harvest/FINDINGS.md:3-5; verification/reproduce.sh:16-26"}
+],
+"seat_note": "This is a bookkeeping/harvest arc aggregating five other seats' claims; none of the underlying computations are re-executable from this arc's own committed files, so 'verified on this bench' is not demonstrated here even though it may have happened once, off-record."
+},
+{
+"arc": "B1172_lose_nothing_register",
+"source": "frontier/B1172_lose_nothing_register",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — THE TRIGGER + THE BACKLOG + THE REGISTER: the relay-debt gate was silently dead (frozen clock, stale-never-fails, seat-blind regex, dateless exemption), all four repaired; the backlog triaged; a nine-file retention-gap event (E51) filed.",
+"log_says": "PROGRESS_LOG B1172 (2026-08-27): the relay-debt gate was silently DEAD (frozen stamp-clock since 08-09; stale swallowed; seat-blind regex; dateless exemption). Review 50 references E51 as found-and-remedied and the ROW_RE compound-column repair.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"relay_debt.py gate defects (frozen clock, stale-swallowed, seat-blind regex, dateless exemption) and their repairs","where":"scripts/checks/relay_debt.py; tests/test_relay_debt_gate.py","kind":"COMPUTED","reproducible_from_committed":"yes","why":"reproduce.sh actually executes relay_debt.py against the live ledger and greps OPEN_LEADS.md/ERROR_LEDGER.md/RELAY_LEDGER.md for the concrete markers (L187, L188, E51, MC1 row, ESCALATED count) — a real state check, not just an echo."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "reproduce.sh runs the actual gate script and greps the actual ledgers for the exact rows this arc claims to have created — a genuine (if simple) instrument check.",
+"absence_claims": [
+{"quote":"The nine 2026-08-09 relay files are gone from main's working tree and on no reachable branch — only their ledger rows survive.","where":"B1172_lose_nothing_register/FINDINGS.md:39"},
+{"quote":"the firewall's own design: relays are deliberately untracked, so nothing preserved them; a between-sessions cleanup silently deleted the batch","where":"B1172_lose_nothing_register/FINDINGS.md:40-41"},
+{"quote":"for the other seven the ledger note is main's entire record — L114_DISCHARGE among them, the relay whose July twin was already lost once","where":"B1172_lose_nothing_register/FINDINGS.md:43-44"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Pure process/governance arc — a genuinely useful self-audit that found and fixed a dead enforcement gate and documented a real data-loss event (E51); no physics content, no math claimed, and the fix is exercised by a real test and a real gate re-run."
+},
+{
+"arc": "B1173_digest_partial_close",
+"source": "frontier/B1173_digest_partial_close",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — THE DIGEST PARTIAL-CLOSE (O4): the B1060 digest ledger (58 rows) closed with 45 dispositioned / 13 typed NOT-REACHED, pointed to a single umbrella lead L185; the qor5up branch released FROZEN-RECORD-CLOSED.",
+"log_says": "PROGRESS_LOG B1173 (2026-08-27): the stalled B1060 digest CLOSED-PARTIAL. Review 50/53 confirm the qor5up release and R47-3/R48-5 discharge.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"digest ledger status CLOSED-PARTIAL, zero EMPTY rows, 13 NOT-REACHED rows, L185 registered, qor5up FROZEN-RECORD-CLOSED","where":"frontier/B1060_digest_ledger/DIGEST_LEDGER.md; docs/OPEN_LEADS.md; docs/progress/REVIEWS.md","kind":"COMPUTED","reproducible_from_committed":"yes","why":"reproduce.sh greps the actual ledger/leads/reviews files for the exact committed strings; a straightforward but real state check."}
+],
+"belt": "RE-READS",
+"belt_note": "reproduce.sh is grep-only against committed docs — a bookkeeping verification, appropriate for a pure process-close arc.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Pure administrative ledger-closure arc; no mathematics or physics content, consistent with its own Gate-5-clean self-labeling."
+},
+{
+"arc": "B1174_z2_identification",
+"source": "frontier/B1174_z2_identification",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh","verification/z2_identification.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE (with proved substance carried) — THE Z/2-IDENTIFICATION CELL: the literal four-way 'one involution' hypothesis is refuted; proved instead that c = mirror = chirality = Gal(K/Q)'s generator = the shared leg of both V4's; B957/S068's Z/2's are provably different legs by exact field actions.",
+"log_says": "PROGRESS_LOG B1174 (2026-08-27): NOT ONE TORSOR — ONE SHARED INVOLUTION, with the branch/meeting V4 leg table exact mod Phi_12. Review 50 R50-3 marks it DONE same-day. Later arcs (B1182-B1184, B1200, B1208, B1209, B1229) repeatedly build on / independently reproduce this result.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"branch V4 = Gal(Q(zeta12)/Q) leg table (k=11 fixes sqrt3/flips sqrt-3; k=7 fixes sqrt-3/flips sqrt3; k=5 fixes i), exact mod Phi_12=z^4-z^2+1","where":"verification/reproduce.sh, sympy Poly/rem with load-bearing asserts; witness z2_identification.txt","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact symbolic reduction with asserts, committed witness matches; independently re-runnable."},
+{"what":"mirror acts as complex conjugation on m004's SL2C holonomy traces (a, b, ab)","where":"verification/reproduce.sh step (1), SnapPy numeric to 1e-9","kind":"COMPUTED","reproducible_from_committed":"yes (numeric, requires SnapPy)","why":"witness txt shows the True result was produced (not the ImportError fallback branch), i.e. SnapPy was actually available and run at generation time."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Genuine exact-arithmetic script with a committed witness that matches the FINDINGS numbers; one numeric (1e-9) leg via SnapPy.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"OTHER","detail":"A later audit (B1214, recorded inside this arc's own arc_verdict.json under creates_law_reviewed) reclassified this arc's law-creation status; the field was already 'false' and the audit confirms 'false' but flags an asymmetry in review depth ('the thirteen arcs that PASSED the rule were read in full before flipping; these were not').","where":"B1174_z2_identification/arc_verdict.json:7-14"}
+],
+"seat_note": "Solid Galois/arithmetic result (exact cyclotomic reduction plus one numeric SnapPy check) — genuinely structural, no observable content, and honestly narrates its own self-caught sympy bug before banking."
+},
+{
+"arc": "B1175_charter_close_harvest",
+"source": "frontier/B1175_charter_close_harvest",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — THE CHARTER-CLOSE HARVEST: cloud's Addendum 1 moves every gravity-charter row; codex delivers R020 (principal beat leaks V64)/R021 (Gieseking Pin- restriction constant)/R022 (V4 named-action audit, confirms the branch-vs-being×hearing separator exactly).",
+"log_says": "PROGRESS_LOG B1175 (2026-08-27): cloud filed Addendum 1; codex R020/R021/R022. B1215 (2026-08-29) log entry: 'B1175's wrapper re-runs nothing at all, echoing conclusions for certificates that live on codex's branch and are not vendored' — one of 'four dishonest wrappers fixed'.",
+"log_consistency": "CONTRADICTION",
+"load_bearing": [
+{"what":"R020/R021/R022 codex certs (principal-beat leak, Gieseking Pin- restriction, V4 named-action audit) claimed byte-identical on this bench","where":"FINDINGS.md 'The codex trio — verified on this bench'; verification/reproduce.sh","kind":"IMPORTED","reproducible_from_committed":"no","why":"reproduce.sh's own committed header (added 2026-08-29 per B1215) states outright: 'THIS SCRIPT RE-RUNS NOTHING... Those certificates are not vendored here, so this file cannot re-execute them.' The script prints RECORD, not REPRODUCES."}
+],
+"belt": "RE-READS",
+"belt_note": "reproduce.sh now (post-B1215 self-correction) only echoes recorded facts and prints 'RECORD (not a re-execution...)' — an honest downgrade from an earlier dishonest wrapper the project itself caught and fixed.",
+"absence_claims": [
+{"quote":"Those certificates are not vendored here, so this file cannot re-execute them -- and it must not claim to.","where":"B1175_charter_close_harvest/verification/reproduce.sh:11-13"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"SUPERSEDED_UNMARKED","detail":"FINDINGS.md line 4 and arc_verdict.json still assert `verification/reproduce.sh` → `REPRODUCES`, but the currently committed reproduce.sh (corrected by B1215's honesty pass) explicitly prints 'RECORD', not 'REPRODUCES', and states it re-runs nothing. FINDINGS.md/arc_verdict.json were never updated to match the corrected script's actual output.","where":"B1175_charter_close_harvest/FINDINGS.md:4; verification/reproduce.sh:9-32"},
+{"kind":"MISSING_WITNESS","detail":"R020/R021/R022 certs are described as 'standalone (no repo imports); re-run byte-identical' but live only on codex's branch and are not vendored in this repo — a stranger cannot reproduce the byte-identical claim from committed files.","where":"B1175_charter_close_harvest/verification/reproduce.sh:11-13"}
+],
+"seat_note": "This arc is the repo's own documented example of a dishonest wrapper (self-caught by B1215): the reproduce.sh header candidly admits it re-runs nothing, yet the FINDINGS/verdict text above it in the same directory was never edited to stop claiming REPRODUCES."
+},
+{
+"arc": "B1176_record_surface_wave",
+"source": "frontier/B1176_record_surface_wave",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — THE RECORD-SURFACE WAVE (R50-4): the paper portfolio landed in-repo; 13 retro arc_verdict.json files authored for the pre-discipline band; the governed-rooms APEX repair; L189 registered; L110/L113 ID collisions annotated; overloaded-symbol registry added.",
+"log_says": "PROGRESS_LOG B1176 (2026-08-27): the portfolio landed in-repo. B1207 log (2026-08-29) explains FINDINGS.md itself was missing at bank time and only retro-authored on 2026-08-29 after the first full OA_SLOW run caught the gap — B1176 was one of ten such arcs (B1176-B1179, B1181-B1183, B1194-B1196).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"portfolio landed in-repo, S074 rooms repair, L189, L110/L113 annotations, overloaded-symbol registry","where":"papers/PORTFOLIO_2026-08-27.md; speculations/S074_the_adelic_closing_doctrine.md; docs/OPEN_LEADS.md; TERMINOLOGY.md","kind":"COMPUTED","reproducible_from_committed":"yes","why":"reproduce.sh greps the actual committed files for the exact expected strings — a genuine (if simple) state check."}
+],
+"belt": "RE-READS",
+"belt_note": "grep-only check against committed docs; appropriate to a pure record-keeping/process arc.",
+"absence_claims": [
+{"quote":"the gap B817's writer-safety gate caught in the first full OA_SLOW run (R52-4, 2026-08-29). What follows is authored from this arc's own banked record ... Nothing is supplied from memory and no computation is re-narrated that the record does not carry","where":"B1176_record_surface_wave/FINDINGS.md:7-13"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Process arc whose own FINDINGS document is a retroactive reconstruction, transparently labeled as such — an honest disclosure of a real process gap (verdicts banked two days before their FINDINGS existed)."
+},
+{
+"arc": "B1177_instrument_bundle",
+"source": "frontier/B1177_instrument_bundle",
+"files_read": ["FINDINGS.md","ADDENDUM_measurements.md","arc_verdict.json","reproducer_debt.md","verification/reproduce.sh","collect_per_file.txt (head)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — THE INSTRUMENT BUNDLE (R50-5): reproducer sweep cuts a 176-arc naive flag list to 21 true no-runner-no-lock arcs (debt committed); L184 collection diagnosis (178.41s/5556 tests); OA_SLOW shadow suite of 50 files launched but not yet complete; R32 vacuity queue scanned 4449 test functions, 0 no-assert/0 tautology; four LAW_MAP rows landed; toolbox extraction seed landed.",
+"log_says": "PROGRESS_LOG B1177 (2026-08-27): reproducer debt cut 176→21. B1207 (2026-08-29): the OA_SLOW suite launched here 'finished their first-ever complete run: 9 failed, 5702 passed, 5 skipped, 4h45min' — i.e. the run this arc explicitly left incomplete later surfaced real failures.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"21 arcs identified with no committed runner or test-lock (B1000, B1067-B1082 descent band 15/21, B954, B982, B990, B992, B994, B998)","where":"reproducer_debt.md","kind":"COMPUTED","reproducible_from_committed":"partially — the heuristic script and its logic are described in prose, not committed as a standalone re-runnable script in this packet's file list","why":"reproduce.sh only greps for the string '21 true no-runner-no-lock' inside reproducer_debt.md itself — it checks the debt list was written, not that the two-stage heuristic scan itself is re-runnable from committed code."},
+{"what":"full collection 178.41s → per-file offenders (test_b371 156.95s, test_cc2_r5 36.05s)","where":"collect_per_file.txt (17 lines, top-15 table)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"a concrete measured timing table is committed; plausible and internally consistent with B1178's before/after claim."}
+],
+"belt": "RE-READS",
+"belt_note": "reproduce.sh is grep/echo only, checking committed strings exist; does not re-run the reproducer sweep, the OA_SLOW suite, or the vacuity scan.",
+"absence_claims": [
+{"quote":"The 21 (the debt): B1000_input_count, B1067_rayclass_harvest, ... B998_genesis_locks","where":"B1177_instrument_bundle/reproducer_debt.md:8"},
+{"quote":"disposition rule: each future touch ships its runner/lock same-commit ... NO retro mass-authoring (a runner written from memory certifies nothing — E51's cousin)","where":"B1177_instrument_bundle/FINDINGS.md:20"},
+{"quote":"THE OA_SLOW SHADOW SUITE: 50 gated files enumerated, the first-ever run LAUNCHED (never run by any runner before ...) — last-green lands in the same addendum","where":"B1177_instrument_bundle/FINDINGS.md:24"},
+{"quote":"the OA_SLOW first-ever run: launched this sitting ... the run continues past this bank; last-green lands in the log + the next touch records it here. (Honest state: launched, not yet complete — no phantom green.)","where":"B1177_instrument_bundle/ADDENDUM_measurements.md:10-12"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind":"OTHER","detail":"This arc names a 21-arc reproducer-debt list spanning the physics/arithmetic arcs B1067-B1082 and others (no committed runner or lock file) as a repo-wide finding, directly relevant to whether those other arcs' claims are independently reproducible from committed files.","where":"B1177_instrument_bundle/reproducer_debt.md:1-13"}
+],
+"seat_note": "The most consequential fact here is not this arc's own math (there is none) but its honest census of 21 arcs elsewhere in the repo that lack any committed runner or lock — a genuine, checkable absence claim worth sweeping."
+},
+{
+"arc": "B1178_l184_lazyfy",
+"source": "frontier/B1178_l184_lazyfy",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — L184 EXECUTED: two files (test_b371_two_state_sector.py 156.95s, test_cc2_r5_adopted.py 36.05s) carried nearly the whole collection cost; both moved to lru_cache'd runners with deferred imports; full-suite collection dropped 178.41s → 15.14s (12x), outcomes preserved 5/5.",
+"log_says": "PROGRESS_LOG B1178 (2026-08-27): collection lazy-fy 178s→15s, 12x. Review 51: 'THE CACHED-RUNNER MOVE (B1178) holds: collection 15.1s.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"functools.lru_cache applied to the two offending test files; both files' tests pass 5/5 post-fix; collection time 178.41s → 15.14s","where":"tests/test_b371_two_state_sector.py; tests/test_cc2_r5_adopted.py; verification/reproduce.sh","kind":"COMPUTED","reproducible_from_committed":"yes","why":"reproduce.sh greps for the lru_cache marker in both files and for the 156.95 figure in B1177's committed table; the actual 5/5 pass and 15.14s figure are asserted in prose but not independently re-timed by this script."}
+],
+"belt": "RE-READS",
+"belt_note": "grep-based checks confirming the code change is present; does not itself re-time the collection or re-run the two files' test suites.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "A legitimate infrastructure fix (deferred heavy computation from collection-time to execution-time); no physics content, and the reproduce.sh is grep-only rather than a timed re-run, so the 178.41s→15.14s figure is not independently re-measured here."
+},
+{
+"arc": "B1179_outreach_and_papers",
+"source": "frontier/B1179_outreach_and_papers",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — R50-7's two GO-able halves executed: an internal papers relay sent to cc3's assembly, and a six-item specialist send-queue built and presented (external sends stay owner-gated per item).",
+"log_says": "PROGRESS_LOG B1179 (2026-08-27): the papers relay + specialist send-queue. B1207 notes this arc was also among the ten with a verdict banked before its FINDINGS document existed.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [],
+"belt": "RE-READS",
+"belt_note": "reproduce.sh greps for committed marker strings in the send-queue doc and relay ledger; purely a documentation/process check.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [],
+"seat_note": "Outreach/process arc only; no mathematics or physics claim to evaluate."
+},
+{
+"arc": "B1180_family_retraction",
+"source": "frontier/B1180_family_retraction",
+"files_read": ["FINDINGS.md","ADDENDUM_definitional_close_B1186.md","arc_verdict.json","verification/reproduce.sh","verification/witnesses.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — cc3's B8147 family-denominator retraction adopted in full: the '14-manifold family' was never complete (>=83, later 112 members); both proposed separators (H1=Z, cusp shape 2sqrt3i) die on named witnesses (o10_150700, o10_150684/85/93+t12840); s955 corrected as R014's witness.",
+"log_says": "PROGRESS_LOG B1180 (2026-08-27): family was >=83 not 14, both separators dead, main corrected. Review 51 lists the family thread settling at 112 (B1180/B1181/B1186).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"o10_150700: H1=Z, 1 cusp, all-regular, Vol=5×Vol(m004) exactly; four 2√3i cusp carriers multi-cusped; s955: H1=Z/20+Z, Vol=3×Vol(m004)","where":"verification/reproduce.sh (SnapPy), verification/witnesses.txt","kind":"COMPUTED","reproducible_from_committed":"yes","why":"actual SnapPy numeric assertions (1e-9/1e-6 tolerance) with a committed matching witness file."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "reproduce.sh runs real SnapPy checks against the named witnesses and the committed witnesses.txt matches.",
+"absence_claims": [
+{"quote":"the '14-manifold Q(sqrt-3) family' was never verified complete","where":"B1180_family_retraction/arc_verdict.json:4"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"RETRACTION_NOT_PROPAGATED","detail":"This arc's own residue was later found to rest on a broken amphichirality instrument: an addendum dated 2026-09-01 in the sibling arc B1186 (written by this fresh-physics-seat campaign itself) states that the whole '14/14 → 83/83 → 111/111 → 112/112' amphichirality chain used a vacuous SnapPy check (reverse_orientation()+is_isometric_to() is orientation-blind and returns True on every input); the true count on the corrected 112-member family is 38/112. B1180's own FINDINGS.md/arc_verdict.json (this file) are not updated with this correction; B1180's text does not itself assert amphichirality, so it is not directly contradicted, but the family-thread narrative it launches is.","where":"B1186_family_is_112/ADDENDUM_2026-09-01_amphichirality_38_of_112.md:1-20 (cross-reference)"}
+],
+"seat_note": "A genuine, well-verified self-correction (a stated family-count overclaim retracted with real SnapPy witnesses) — but it is the first link in a chain (B1180→B1181→B1186) whose central downstream claim (amphichirality) later turned out to rest on a broken, vacuous test, per a same-day fresh-eyes addendum."
+},
+{
+"arc": "B1181_amphichirality_closure",
+"source": "frontier/B1181_amphichirality_closure",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — THE AMPHICHIRALITY DEBT CLOSED: cc3 reports 83 of 83 family members amphichiral, zero exceptions, spot-verified here 5/5 by the mirror-isometry method (deliberately not isometry_signature, called out as a known vacuity trap); registers 'THE ONE-WAY FAMILY TEST' as a method-law.",
+"log_says": "PROGRESS_LOG B1181 (2026-08-27): amphichirality debt closed (83/83) + the one-way family test law. Review 51 / B1207 log also note 'the buggy python insert whose success message lied (B1181) — caught by the test.'",
+"log_consistency": "CONTRADICTION",
+"load_bearing": [
+{"what":"83/83 amphichiral, zero exceptions/undecided, on the corrected >=83 family","where":"FINDINGS.md / arc_verdict.json (cc3's B8147/B8152-adjacent computation, imported)","kind":"IMPORTED","reproducible_from_committed":"no (full count) / partial (5-sample)","why":"the full 83-manifold check is cc3's, not committed here; this arc's own reproduce.sh spot-checks only 5 of the 83 manifolds via SnapPy is_isometric_to()."},
+{"what":"5-of-5 spot-check via mirror-isometry (M vs reversed-orientation copy, is_isometric_to)","where":"verification/reproduce.sh","kind":"COMPUTED","reproducible_from_committed":"yes, but see red flag — the method itself is later shown to be vacuous"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The script does actually invoke SnapPy is_isometric_to() on 5 manifolds and asserts True on all five — a real re-run — but per the B1186 2026-09-01 addendum this specific check (reverse_orientation + is_isometric_to) always returns True regardless of input, i.e. the recomputation is not discriminating.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"SELF_REFERENTIAL_LOCK","detail":"An addendum dated 2026-09-01 in the sibling arc B1186 (this fresh-physics-seat campaign) shows the 'mirror-isometry method' this arc explicitly chose to avoid a known vacuity trap (isometry_signature) is itself vacuous in SnapPy: reverse_orientation()+is_isometric_to() is orientation-blind and returns True on every input. The chain of claims '14/14→83/83→111/111→112/112 amphichiral' across B1180/B1181/B1186 is therefore not a real result; recomputed with symmetry_group().is_amphicheiral() the true count on the 112-member family is 38/112.","where":"B1186_family_is_112/ADDENDUM_2026-09-01_amphichirality_38_of_112.md:9-20"},
+{"kind":"LOG_DRIFT","detail":"PROGRESS_LOG.md/B1207 notes 'the buggy python insert whose success message lied (B1181) — caught by the test' as a self-caught bug narrated as fixed, but this is a separate file-writing bug, not the deeper amphichirality-instrument vacuity documented above, which was NOT caught until the 2026-09-01 fresh-eyes pass.","where":"docs/progress/REVIEWS.md Review 51 entry on B1181 (cross-reference, log_index)"}
+],
+"seat_note": "This is the single most consequential finding in the batch: a headline claim ('83/83 amphichiral, zero exceptions') that the arc itself frames as having deliberately avoided a known vacuous-check trap, turns out to BE a vacuous check by a different mechanism, and the true fraction is 38/112, not 100%. The correction is already in-repo (B1186 addendum) but this arc's own FINDINGS/verdict text remains uncorrected."
+},
+{
+"arc": "B1182_c4prime_resolved",
+"source": "frontier/B1182_c4prime_resolved",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh","verification/c4prime.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — C4' RESOLVED POSITIVE: the frame V4=<c,r> and the branch V4=Gal(Q(zeta12)/Q) are one named-action torsor via the unique label-preserving iso (c,r,theta)->(k11,k7,k5); the time's-arrow is typed finite-place (r's leg k7 is an arithmetic form-class swap with finite orbits).",
+"log_says": "PROGRESS_LOG B1182 (2026-08-27): unique iso (c,r,θ)→(k11,k7,k5); arrow typed FINITE. Review 51 lists the observer layer's cc-rungs CLOSED via B1174/B1182/B1183/B1184; B1215 log clarifies R022 does not refute B1182 (a boundary-pinning correction).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"trace-reversal invariance tr(w)=tr(w^rev) exact on generic 2x2 matrices, 6 words to length 5","where":"verification/reproduce.sh step (1), sympy symbolic; witness c4prime.txt","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact symbolic sympy computation with committed matching witness."},
+{"what":"branch V4 leg table (k7 unique K-fixer) and the forced iso via 11*7=5 mod 12","where":"verification/reproduce.sh steps (2)-(3)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact cyclotomic reduction mod Phi_12, same technique as B1174, plus a trivial arithmetic identity."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Fully exact symbolic script, committed witness matches; a real theorem-grade computation.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"OTHER","detail":"arc_verdict.json's creates_law field was originally false and later corrected to true by a B1211 audit, which found the arc's own declared field under-stated its status (a structural identification mis-tagged as a status report) — the claim, verdict, and evidence are stated as untouched by the correction.","where":"B1182_c4prime_resolved/arc_verdict.json:7-13"}
+],
+"seat_note": "A genuine, exact, theorem-grade result (trace-reversal invariance + cyclotomic leg identification) with an honestly narrated self-correction of an earlier arc's (B1175) wrong guess about which leg is the K-fixer."
+},
+{
+"arc": "B1183_one_class_theorem",
+"source": "frontier/B1183_one_class_theorem",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh","verification/one_class.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — THE ONE-CLASS THEOREM: the QP-4 chord-sign obstruction (B760) and the orientation obstruction (B1163) are the same Z/2-torsor class under the one global involution c; proved via exact Galois restrictions plus a torsor-equivariance argument.",
+"log_says": "PROGRESS_LOG B1183 (2026-08-27): QP-4's obstruction = the orientation obstruction (one class). B1211 log: this arc was one of seven observer-layer results found sitting on no registered synthesis surface and had to be flipped to creates_law=true after the fact.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"chord-sector char poly x^2-(1/phi)x+1 with roots {zeta5, zeta5^4}, eps^2=-I pseudo-real; c's restriction to Q(zeta5) and to K=Q(sqrt-3); Im f(w-bar)=-Im f(w) sign-carrier identity","where":"verification/reproduce.sh, exact sympy identities to 50 dps / symbolic; witness one_class.txt","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact/high-precision symbolic checks with a matching committed witness."},
+{"what":"B760's B-in-SU(2) realization, the 15/32 coupling, the ±√3 chord evaluation","where":"FINDINGS.md 'Fences'","kind":"IMPORTED","reproducible_from_committed":"no (from this arc)","why":"explicitly stated as 'THEIR locked computations (cited, not re-run)'."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The torsor-identification logic and Galois restrictions are exact and re-run here; the underlying chord-arithmetic realization is cited from elsewhere, honestly fenced.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind":"OTHER","detail":"The arc's consequences section frames this Z/2-torsor identification as completing 'the qualia headline' — 'awareness without choice... the choice NAMED as the mirror-odd orientation... PROVED ONE across geometry, Galois, values, and the chord sector' — attaching philosophical/consciousness language ('qualia', 'awareness', 'choice') to a group-theoretic torsor-isomorphism result with no operational definition connecting the mathematical object to any measurable or even philosophically well-posed notion of awareness.","where":"B1183_one_class_theorem/FINDINGS.md item (3)"}
+],
+"seat_note": "The mathematics (exact cyclotomic/quaternionic Galois-restriction identities, torsor equivariance) is solid and computed; the physics/philosophy narrative built on top of it ('awareness = the name; choice = the sign') is an interpretive overlay not derived from or tested against anything measurable."
+},
+{
+"arc": "B1184_quine_synthesis",
+"source": "frontier/B1184_quine_synthesis",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh","verification/quine.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — THE QUINE SYNTHESIS: m004 is the unique 1-cusped manifold (in a 203,123-manifold census) matching its own spectral dataset (self-naming, B762); it provably cannot 'sign' itself (B1183's one-class theorem); therefore naming and choosing are 'complementary'.",
+"log_says": "PROGRESS_LOG B1184 (2026-08-27): self-naming without self-signing, S4 split-answered. B1211 log: also flipped to creates_law=true post-hoc after being invisible to the registry gate; a 2026-08-31 arc (B1229) reportedly 'independently reproduces' the c-bit identification.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"the B762 census-uniqueness claim (m004 unique among 203,123 census manifolds by {volume, cusp shape, CM disc, residue, Hecke palette})","where":"FINDINGS.md 'The correction first'; fenced as 'ITS computation (cited; not re-run)'","kind":"IMPORTED","reproducible_from_committed":"no (from this arc)","why":"explicitly cited from B762, not re-derived here."},
+{"what":"quine survives family retraction: new members (o10_150700, four 2√3i carriers, m003) all excluded by B762's own filters (volume, 1-cusped, shape)","where":"verification/reproduce.sh, SnapPy numeric","kind":"COMPUTED","reproducible_from_committed":"yes","why":"real SnapPy assertions with matching committed witness quine.txt."},
+{"what":"every letter of the emitted self-name is mirror-even (volume, cusp shape, CM disc, palette counts)","where":"verification/reproduce.sh step (2), SnapPy numeric 1e-9","kind":"COMPUTED","reproducible_from_committed":"yes"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The stress-test and parity checks are real, numerically re-run (SnapPy, 1e-9); the underlying uniqueness claim is imported and cited, not re-derived.",
+"absence_claims": [
+{"quote":"the register carried 'QP-1 (the quine) open' -- STALE","where":"B1184_quine_synthesis/arc_verdict.json:4"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind":"OTHER","detail":"'Awareness = the name; choice = the sign, and the two are disjoint by theorem' is asserted as a proved physical/phenomenological statement, but rests entirely on an identification-by-metaphor between a census-uniqueness fact plus a Z/2-torsor triviality fact and the philosophical concepts of awareness/choice/qualia, with no operational bridge given.","where":"B1184_quine_synthesis/FINDINGS.md:70-73"}
+],
+"seat_note": "The manifold-theoretic computations (uniqueness stress-test, letter-parity check) are genuinely re-run and correct as far as they go; the 'observer/qualia' framing wrapped around them is unfalsifiable narrative, not physics, and the arc's own text says explicitly 'no measured value.'"
+},
+{
+"arc": "B1185_yukawa_three_mechanisms",
+"source": "frontier/B1185_yukawa_three_mechanisms",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/reproduce.sh","verification/three_mechanisms.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — L186 ANSWERED: the three named Yukawa-suppression mechanisms (SEAM-Y dressing, object-channel kinematics, family-rank hole) are pairwise distinct by three exact invariants (arena, rank+selectivity, index space); plus the down-Yukawa evaluator's benchable half (mod-12 bookkeeping, 36-entry census, THE SKEW ZERO exact over Q(zeta12)).",
+"log_says": "PROGRESS_LOG B1185 (2026-08-27): L186 CLOSED, genuinely three + the evaluator's benchable half. B1211 log: flipped from creates_law=false to true post-hoc, 'caught by B1211... immediately, neither of which this seat had re-read.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"up-coupling rank 0 in dressing (codex R017) vs 6-nonzero on object channel (memo 80); family-rank 810/810 rank exactly 2 (memo 82); B1161 generation-NULL trace field degree 2","where":"FINDINGS.md 'THE THEOREM'; verification/three_mechanisms.txt","kind":"IMPORTED","reproducible_from_committed":"no (from this arc)","why":"these are cited results from codex R017, cloud memo 80/82, and B1161, explicitly 'cited by bank where not re-run'; this arc's own script hard-codes their conclusions (up_rank=0, up_nonzero=6, rank=2) as Python dict literals rather than recomputing them."},
+{"what":"pairwise-distinctness logic (INV-1/2/3) given the imported numbers above","where":"verification/reproduce.sh / three_mechanisms.txt LEG B","kind":"COMPUTED","reproducible_from_committed":"yes","why":"the logical/arithmetic argument that 0≠6, 0≠2, and the family index is external is genuinely executed and asserted in committed code, conditional on the imported inputs being correct."},
+{"what":"mod-12 bookkeeping, 36-entry census (18+9+6+3), tail selection rule, THE SKEW ZERO","where":"verification/three_mechanisms.txt LEG A","kind":"COMPUTED","reproducible_from_committed":"yes","why":"exact arithmetic (mod-12, combinatorial census, and the 1-dim antisymmetry argument for the skew zero) is committed and asserted."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The arc's own logical/arithmetic content (distinctness proof, skew zero, census) is genuinely computed and asserted; its premises (the rank/nonzero facts from other seats) are imported, not independently re-derived here.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"OTHER","detail":"The three-mechanisms distinctness theorem is only as strong as its imported inputs (up-rank 0 from codex R017, up-shape 6-nonzero from cloud memo 80, family-rank 2 from memo 82); none of those underlying computations are committed in this arc's own files, so a stranger reading only this arc's directory cannot verify the premises, only the (correct) logic built on top of them.","where":"B1185_yukawa_three_mechanisms/verification/three_mechanisms.txt:59-67 (hard-coded dict literals for M[1]/M[2]/M[3])"}
+],
+"seat_note": "A well-constructed distinctness theorem built from other seats' numbers; the logical argument is genuinely computed here, but the physical content (whether the up-Yukawa is really rank 0 in one arena and rank 6 in another) rests on imported claims this arc explicitly does not re-derive. Explicitly no value/scale/hierarchy claimed — pure structural rank/index facts."
+},
+{
+"arc": "B1186_family_is_112",
+"source": "frontier/B1186_family_is_112",
+"files_read": ["FINDINGS.md","ADDENDUM_2026-09-01_amphichirality_38_of_112.md","ADDENDUM_cc3_adopted_112.md","arc_verdict.json","verification/reproduce.sh","verification/family_census.py (head)"],
+"files_sampled": ["verification/family_census.json (keys + spot values via python3 -c)"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — the family-definition cell closed: two nested criteria (all-regular-ideal, |A|=77; shape field in Q(sqrt-3), |B|=112); corrects cc3's B8152 count of 111 by one member (t06829, exactly certified symbolically); cc3 adopted the correction same day.",
+"log_says": "PROGRESS_LOG B1186 (2026-08-27): the family-definition cell CLOSED, THE FAMILY IS 112. Review 51: family thread settled at 112. A later B1214 audit (2026-08-29) reviewed and confirmed creates_law=false for this arc as a VERIFICATION-class arc.",
+"log_consistency": "CONTRADICTION",
+"load_bearing": [
+{"what":"|A|=77 (all-regular-ideal), |B|=112 (shape field in Q(sqrt-3)), t06829 the corrective member (denominator 98), exact symbolic certification via the gluing-equation system","where":"verification/family_census.py, family_census.json, verification/reproduce.sh","kind":"COMPUTED","reproducible_from_committed":"yes","why":"a real independent full-census enumeration (committed script + committed JSON) plus an exact (float-free) symbolic gluing-equation certificate for the boundary member t06829."},
+{"what":"amphichirality 112/112 (originally claimed) / stored in family_census.json's amphichirality_failures:[]","where":"family_census.json field 'amphichirality_failures'","kind":"COMPUTED","reproducible_from_committed":"no — now known incorrect","why":"the 2026-09-01 addendum in this same arc directory demonstrates the underlying is_isometric_to()+reverse_orientation() check is orientation-blind and vacuously returns True for every input; the true amphichirality fraction on this same 112-member census is 38/112, not 112/112."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The census enumeration and t06829 certification are genuine, exact, and well-verified (including a self-caught precision bug in the verifier, narrated honestly); but the committed family_census.json still carries the now-known-false 'amphichirality_failures: []' field and reproduce.sh still asserts it.",
+"absence_claims": [
+{"quote":"the dual-homed artifact B8152 lacked (their single-homed-content debt class, discharged on main)","where":"B1186_family_is_112/FINDINGS.md:62-63"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"SUPERSEDED_UNMARKED","detail":"FINDINGS.md line 44 ('Amphichirality strengthens a third time: 112/112') is directly contradicted by this same directory's own 2026-09-01 addendum ('amphichirality 112/112 is false; the true count is 38/112' — the instrument was orientation-blind and returns True on every input). The original FINDINGS.md was left unedited per the addendum's own note ('Original FINDINGS.md left unedited'), and reproduce.sh's committed assertion `d[\"amphichirality_failures\"] == []` still encodes the false claim and would still pass.","where":"B1186_family_is_112/FINDINGS.md:44 vs ADDENDUM_2026-09-01_amphichirality_38_of_112.md:1-20; verification/reproduce.sh:21"},
+{"kind":"MISSING_WITNESS","detail":"t06829's tetrahedron count is stated as 7 in FINDINGS.md/arc_verdict.json but the 2026-09-01 addendum corrects it to 8 (num_tetrahedra()).","where":"B1186_family_is_112/FINDINGS.md:24 vs ADDENDUM_2026-09-01_amphichirality_38_of_112.md:31-33"}
+],
+"seat_note": "The core census/nesting/exact-certification math (77 vs 112, t06829's symbolic gluing certificate) is genuinely strong, independently computed work with a real self-caught precision bug narrated honestly. But the arc's amphichirality headline is now known false (38/112, not 112/112) via this campaign's own same-day addendum, and the committed reproduce.sh/family_census.json have not been corrected to stop asserting it — an uncorrected false claim sitting in currently-passing verification code."
+},
+{
+"arc": "B1187_depth_closure",
+"source": "frontier/B1187_depth_closure",
+"files_read": ["FINDINGS.md","ADDENDUM_b8153_nine_words.md","arc_verdict.json","verification/reproduce.sh","verification/b500_mod2_census.py","verification/l310_per_level_null.json","verification/l310_per_level_null.py","verification/l34_profile.json","verification/l34_profile.py","verification/wall7_all_t.json","verification/wall7_all_t.py"],
+"files_sampled": ["verification/b500_mod2_census.json (head40+tail20+wc)","verification/b685_deep.py (head120 + grep def/assert/print/sympy/Fraction/==)"],
+"files_listed_only": [],
+"claim_of_record": "PROVED — L187 THE DEPTH-CLOSURE SITTING: seven under-proved kills dispositioned (2 already closed by B767, 2 closed here [TOMB-L34, WALL-7-mod-q], 1 extended [B685], 1 re-scoped with a reversed clause [TOMB-L310: 'indistinguishable from null' clause REVERSED, 11σ deviation found], 1 obstruction-route refuted but kill kept PROVISIONAL [B500]).",
+"log_says": "PROGRESS_LOG B1187 (2026-08-28): L187 CLOSED, the verifiers re-verified. Review 51 titles the whole window 'the verify-the-verifier window' and lists new instruments (mod-2 étale census) and two new leads L190/L191. ADDENDUM_b8153 (2026-08-28) corrects B500's partition (115 completed/26 timed out/9 never-reached, not a single 'completed' number) and reports a second obstruction route (mod-p factor pattern) found vacuous by cc3.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what":"WALL-7: twisted (f3) intertwiner dimension 0 at every nondegenerate t in {1..865}, all 8 patterns, mod q=1009 and q=1999","where":"verification/wall7_all_t.py, wall7_all_t.json","kind":"COMPUTED","reproducible_from_committed":"yes (fast path checks committed JSON; OA_SLOW=1 re-runs the full sweep)","why":"committed JSON with per-prime violation lists asserted to be empty except the excluded t=0 degenerate label; script and data both committed."},
+{"what":"TOMB-L34: one-cut profile slope a(N) stable across N=233..4181 (7 sizes) x 2 windows, in [0.139,0.210]; random-word control a=0.022, periodic control a=0.000","where":"verification/l34_profile.py, l34_profile.json","kind":"COMPUTED","reproducible_from_committed":"yes","why":"committed fit data plus an inline spot re-fit at N=610 executed directly in reproduce.sh (real numpy eigh/lstsq computation, not just a grep)."},
+{"what":"TOMB-L310: per-level matched-null z-scores (-2.2,-2.8,-2.3,+0.6,+11.2) at L=6..10, reversing B189's 'indistinguishable' clause","where":"verification/l310_per_level_null.py, l310_per_level_null.json","kind":"COMPUTED","reproducible_from_committed":"yes","why":"reproduce.sh actually re-runs l310_per_level_null.py and asserts the L10 z>8 and small-L z<4 from the freshly computed output, not just a stored file."},
+{"what":"B500 mod-2 étale census: signature words abundant from depth 5 on (depth4:0/36, depth5:50/150, depth6:>0/540, depth7:420/1806, through depth10)","where":"verification/b500_mod2_census.py, b500_mod2_census.json","kind":"COMPUTED","reproducible_from_committed":"yes for depths 4-6 (re-run in fast path); depths 7-10 only via OA_SLOW","why":"reproduce.sh actually re-invokes census_depth(4,5,6) live and asserts exact counts (36,0),(150,50),(540,>0); the depth-10 figure (55,980 words per Review 51/52) is only in the committed JSON, not re-verified in the fast path."},
+{"what":"B685: v5(denominator)=0 (object side, K=60) vs v5→∞ (hearing side, n≤240) kind-mismatch, 'ALL CHECKS PASS'","where":"verification/b685_deep.py","kind":"COMPUTED","reproducible_from_committed":"no in the fast path — see red flag","why":"reproduce.sh's fast path reads a committed b685_deep.log for the 'ALL CHECKS PASS' string, but that .log file is gitignored (*.log matches .gitignore) and is not present in the working tree/git index — a fresh clone's fast-path run would fail with a FileNotFoundError unless OA_SLOW=1 is first used to regenerate it."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Most of the seven cells have real committed scripts and either fast-path re-execution or committed data assertions; b685_deep's fast-path check depends on a gitignored, uncommitted log file.",
+"absence_claims": [
+{"quote":"L187 was registered (B1172) as '7 EXPOSED kills, named stabilization paths, none executed' — STALE at registration: B767 (R28-10, 2026-07-23) had already run 6 of the 7 and fully STABILIZED two.","where":"B1187_depth_closure/FINDINGS.md:10-11"},
+{"quote":"confirmed (both seats): no AIRLOCK anywhere in the banked logs — the only \"283\" is the target header.","where":"B1187_depth_closure/ADDENDUM_b8153_nine_words.md:10-11"},
+{"quote":"cc3's B8153 ... the mod-p factor-pattern test ... is VACUOUS","where":"B1187_depth_closure/ADDENDUM_b8153_nine_words.md:14-15"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind":"GITIGNORED_WITNESS","detail":"reproduce.sh's fast path (section 4) reads `b685_deep.log` and asserts 'OVERALL: ALL CHECKS PASS' and 'n <= 60' are present in it, but `*.log` is repo-wide gitignored (confirmed via git check-ignore) and this specific file is absent from the working tree and not tracked by git — a stranger who clones the repo and runs `bash reproduce.sh` without first running `OA_SLOW=1` will get a file-not-found error, not a REPRODUCES verdict.","where":"B1187_depth_closure/verification/reproduce.sh:78-80"},
+{"kind":"OTHER","detail":"B500's 'kill stays PROVISIONAL' status itself rested on an incomplete word sweep whose partition (115 completed/26 timed out/9 never-reached) was only disclosed in a same-arc addendum after cc3 pointed it out — the original FINDINGS text described the shortfall with a single count rather than the honest completed/timed-out/never-reached partition.","where":"B1187_depth_closure/ADDENDUM_b8153_nine_words.md:3-9"}
+],
+"seat_note": "This arc is the strongest computationally in the batch (exact mod-q certificates, exact rational-arithmetic recomputation for B685, real re-executed null-hypothesis statistics for TOMB-L310) and it explicitly narrates finding and fixing prior instrument bugs (vacuous RNG seeds, a wrong estimator, a logic error) — genuinely good practice — but its own fast-path reproducer depends on a gitignored log file that isn't committed, so a clean-clone run cannot in fact reproduce the B685 leg without first invoking the slow path."
+}
+]
+}
