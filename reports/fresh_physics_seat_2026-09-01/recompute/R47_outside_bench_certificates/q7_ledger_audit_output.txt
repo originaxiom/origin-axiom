@@ -16,3 +16,29 @@ A  THE CENTROID -- rebuilding memo 161's stabilizer, then asking what memo 161 d
      stabilizer dimension (memo 161's seed 11)  : 28   [reproduces memo 161]
      solving 378 brackets, each verified on all 729 coordinates ...
         row 0/28  (14s)
+        row 7/28  (96s)
+        row 14/28  (149s)
+        row 21/28  (178s)
+     bracket CLOSES in the span for all 784 pairs -- subalgebra, proved not assumed
+
+     A-2  KILLING FORM rank (exact, over K)     : 28 of 28
+          OUTCOME: A2-NONDEGENERATE   (Cartan: nondegenerate <=> semisimple)
+
+     A-1  CENTROID  dim_F {T : T[x,y] = [Tx,y]}   (784 unknowns, 21168 equations)
+          p =   100003  (sqrt(-3) = 14241)   rank 783 of 784  ->  nullity 1   [177s]
+          p =  1000003  (sqrt(-3) = 1000)   rank 783 of 784  ->  nullity 1   [174s]
+
+          OUTCOME: A-CENTRAL
+          Reduction can only DROP rank, so nullity_p >= nullity_F; a modular 1 PROVES
+          dim_F Gamma <= 1, and scalars force >= 1.  Hence dim_F Gamma = 1 EXACTLY:
+          the stabilizer is CENTRAL simple over F -- NOT g2(+)g2 and NOT Res_{L/F}(g2).
+          (The proof needs only the bound; no equality is inferred from the modulus.)
+
+==============================================================================
+SUMMARY: A-CENTRAL | A2-NONDEGENERATE | B-RATIONAL
+==============================================================================
+
+real	10m25.271s
+user	8m31.409s
+sys	1m53.176s
+exit=0

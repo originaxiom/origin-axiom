@@ -36,3 +36,9 @@ vol_pinorm, vol_over_zetaK2 all INDEPENDENT of the existing regulator basis → 
 84 s). `p3_claim_trace.py` writes its JSON to another session's hard-coded scratch path and is a human-review dump, not a
 certificate. Its pinned commit 89affd5b is not fetchable by SHA. `q7_ledger_audit.py`, `vol_basis_probe.py` and
 `c4_gue_larget.py` (agent TIMEOUTs at 600 s) are rerunning with 40–90 min budgets; rows follow.
+
+**Addendum 3 (05:45 UTC) — `q7_ledger_audit.py` (agent TIMEOUT at 600 s; seat rerun 10 m 25 s, exit 0):** rebuilds B575's
+exact E6 ⊂ gl(27) over ℚ(√−3); memo 161's stabiliser of a generic (x,y) pair reproduces (dim 28, exact nullspace), its
+bracket closes, its Killing form has rank 28/28 (nondegenerate), and the centroid {T : T[x,y] = [Tx,y]} has nullity 1
+modulo two large primes, which (reduction can only drop rank, scalars give ≥ 1) proves dim_F Γ = 1 exactly — the
+stabiliser is central-simple over its field. PASS. (`c4_gue_larget.py` and `vol_basis_probe.py` still running.)
