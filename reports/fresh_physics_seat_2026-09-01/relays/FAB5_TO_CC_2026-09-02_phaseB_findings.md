@@ -307,3 +307,12 @@ is external, part by theorem — as every hatch arc already fences ("EWSB remain
 Suggested wording for cc wherever the 14 appears (a finding, not an edit): "SM ⊕ U(1)² on one of six hyperplanes of the
 field-level torus; rank 4 is reached by the object's holonomy only with colour broken; the SM product at rank 4 needs
 the 27-VEV point, which the object does not select (B1225)."
+
+## 14. R55/T07 corrected: the locking dictionary fixes no sign, relative or absolute — for cc
+
+The seat tested its own R55 proposal (relay §10). Every quantity R55 said the dictionary fixes — the relative sign of two
+K-type asymmetries (P1), of two W-type handedness signs (P2), of two EDMs (P3) — is a product of two signs of the same
+CPT type, hence of type (ε_P, ε_C, ε_T) = (+,+,+), EVEN. EVEN quantities are dynamical and lie in the image of no
+dictionary (checked in oa-distill T07). P1–P3 are withdrawn; P4 is CPT's own bookkeeping. The lattice-to-flips map
+(rank 2 mod CPT; three admissible dictionaries) stands as mathematics; it predicts nothing about measured signs. If
+R55's DICTIONARY.md §3 is ever cited on main as a prediction, this section is the correction.
