@@ -1,0 +1,10 @@
+t= 39 finite=1000/1000  median sigma_min/sigma_max(A)=1.000e+00  median|A|max=8.92e-01  median kappa=1.960726  P(|kappa-2|<0.05)=0.524
+t= 79 finite= 997/1000  median sigma_min/sigma_max(A)=9.941e-01  median|A|max=9.41e-01  median kappa=0.747777  P(|kappa-2|<0.05)=0.031
+t=119 finite= 208/1000  median sigma_min/sigma_max(A)=nan  median|A|max=3.38e+00  median kappa=1.992921  P(|kappa-2|<0.05)=0.005
+t=159 finite=  12/1000  median sigma_min/sigma_max(A)=nan  median|A|max=8.54e+07  median kappa=44167397446934234604240896.000000  P(|kappa-2|<0.05)=0.000
+t=199 finite=   0/1000  median sigma_min/sigma_max(A)=nan  median|A|max=nan  median kappa=nan  P(|kappa-2|<0.05)=0.000
+t=239 finite=   0/1000  median sigma_min/sigma_max(A)=nan  median|A|max=nan  median kappa=nan  P(|kappa-2|<0.05)=0.000
+t=279 finite=   0/1000  median sigma_min/sigma_max(A)=nan  median|A|max=nan  median kappa=nan  P(|kappa-2|<0.05)=0.000
+t=319 finite=   0/1000  median sigma_min/sigma_max(A)=nan  median|A|max=nan  median kappa=nan  P(|kappa-2|<0.05)=0.000
+t=359 finite=   0/1000  median sigma_min/sigma_max(A)=nan  median|A|max=nan  median kappa=nan  P(|kappa-2|<0.05)=0.000
+t=399 finite=   0/1000  median sigma_min/sigma_max(A)=nan  median|A|max=nan  median kappa=nan  P(|kappa-2|<0.05)=0.000

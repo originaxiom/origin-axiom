@@ -23,3 +23,9 @@ then prints its FACTs. The seat's reading of what each certifies, in the script'
 third bench: both pass; sweep verdict #1207 gets that note. (2) The up-Yukawa question has two passing certificates with
 opposite headlines on different objects (kinematic texture vs heterotic dressing); the relay should carry that as a
 mechanism disagreement, not as a contradiction. (3) Nothing here is a value: every script fences Gate 5 itself.
+
+**Addendum (02:20 UTC).** The outside-bench certificates that read the corpus through `_oa_source.py` pin the commit
+`3c58527bc3851ae44fef4f48ecc1eac8aa9dd41b`, which is not on any fetched branch (Phase D agents reported CANNOT_RUN for
+`anatomy_reconcile.py` and `d2_scope.py`). Fetched by SHA from origin (GitHub serves it), after which both run clean:
+`anatomy_reconcile.py` → "R4 — THE VERDICT (criterion fixed in advance): ORTHOGONAL AXES"; `d2_scope.py` exit 0
+(outputs added). Any further pinned-commit CANNOT_RUN rows in the Phase D digest are re-run by hand the same way.

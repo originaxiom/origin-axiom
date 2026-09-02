@@ -1,0 +1,6 @@
+== which moves preserve kappa (exact one step, 3000 Haar pairs)
+  F (AB, A)      max|dkappa| = 3.11e-15
+  M (AB, BA)     max|dkappa| = 3.97e+00
+  D (A^2, B^2)   max|dkappa| = 3.98e+00
+== (1) matrices, SU(2) re-projection every step, n=2000, 3000 steps, samples from t>1500
+  M10/D10/F80                      P(|k-2|<0.05)=0.063 P(wild)=0.742 pct[5,25,50,75,95]=[-1.6027, -0.5515, 0.6241, 1.5245, 1.9674]

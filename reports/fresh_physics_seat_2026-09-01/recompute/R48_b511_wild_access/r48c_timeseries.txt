@@ -1,0 +1,30 @@
+== SU(2)-projected dynamics, mix M10/D10/F80
+  t=  39 median kappa=1.9454 P(|k-2|<0.05)=0.491 P(wild)=0.253  max|kappa-kappa0| (F100 only meaningful)=3.96e+00
+  t=  79 median kappa=0.1800 P(|k-2|<0.05)=0.040 P(wild)=0.816  max|kappa-kappa0| (F100 only meaningful)=3.94e+00
+  t= 159 median kappa=0.3676 P(|k-2|<0.05)=0.051 P(wild)=0.787  max|kappa-kappa0| (F100 only meaningful)=3.89e+00
+  t= 319 median kappa=0.4930 P(|k-2|<0.05)=0.050 P(wild)=0.778  max|kappa-kappa0| (F100 only meaningful)=3.95e+00
+  t= 639 median kappa=0.5751 P(|k-2|<0.05)=0.045 P(wild)=0.758  max|kappa-kappa0| (F100 only meaningful)=3.93e+00
+  t=1279 median kappa=0.6085 P(|k-2|<0.05)=0.052 P(wild)=0.754  max|kappa-kappa0| (F100 only meaningful)=3.84e+00
+  t=2559 median kappa=0.6804 P(|k-2|<0.05)=0.059 P(wild)=0.737  max|kappa-kappa0| (F100 only meaningful)=3.88e+00
+  t=2999 median kappa=0.6550 P(|k-2|<0.05)=0.060 P(wild)=0.744  max|kappa-kappa0| (F100 only meaningful)=3.80e+00
+  second-half percentiles [5,25,50,75,95] = [-1.6041, -0.5576, 0.6199, 1.5216, 1.9663] (banked D3.1: [~1.8, 1.99999, 2.0, 2.0, 2.0])
+== SU(2)-projected dynamics, mix D20/F80
+  t=  39 median kappa=1.9891 P(|k-2|<0.05)=0.634 P(wild)=0.157  max|kappa-kappa0| (F100 only meaningful)=3.96e+00
+  t=  79 median kappa=0.4820 P(|k-2|<0.05)=0.030 P(wild)=0.798  max|kappa-kappa0| (F100 only meaningful)=3.94e+00
+  t= 159 median kappa=0.5337 P(|k-2|<0.05)=0.046 P(wild)=0.768  max|kappa-kappa0| (F100 only meaningful)=3.93e+00
+  t= 319 median kappa=0.5485 P(|k-2|<0.05)=0.045 P(wild)=0.765  max|kappa-kappa0| (F100 only meaningful)=3.91e+00
+  t= 639 median kappa=0.6451 P(|k-2|<0.05)=0.043 P(wild)=0.752  max|kappa-kappa0| (F100 only meaningful)=3.95e+00
+  t=1279 median kappa=0.6465 P(|k-2|<0.05)=0.045 P(wild)=0.741  max|kappa-kappa0| (F100 only meaningful)=3.97e+00
+  t=2559 median kappa=0.6858 P(|k-2|<0.05)=0.048 P(wild)=0.751  max|kappa-kappa0| (F100 only meaningful)=3.90e+00
+  t=2999 median kappa=0.6893 P(|k-2|<0.05)=0.043 P(wild)=0.760  max|kappa-kappa0| (F100 only meaningful)=3.95e+00
+  second-half percentiles [5,25,50,75,95] = [-1.5664, -0.4785, 0.657, 1.51, 1.9447] (banked D3.1: [~1.8, 1.99999, 2.0, 2.0, 2.0])
+== SU(2)-projected dynamics, mix F100 (no doubling: kappa must be conserved)
+  t=  39 median kappa=0.6493 P(|k-2|<0.05)=0.026 P(wild)=0.787  max|kappa-kappa0| (F100 only meaningful)=3.02e-14
+  t=  79 median kappa=-0.1617 P(|k-2|<0.05)=0.004 P(wild)=0.917  max|kappa-kappa0| (F100 only meaningful)=3.65e+00
+  t= 159 median kappa=-0.8027 P(|k-2|<0.05)=0.000 P(wild)=0.981  max|kappa-kappa0| (F100 only meaningful)=3.84e+00
+  t= 319 median kappa=-0.7965 P(|k-2|<0.05)=0.001 P(wild)=0.978  max|kappa-kappa0| (F100 only meaningful)=3.81e+00
+  t= 639 median kappa=-0.8126 P(|k-2|<0.05)=0.001 P(wild)=0.980  max|kappa-kappa0| (F100 only meaningful)=3.84e+00
+  t=1279 median kappa=-0.7769 P(|k-2|<0.05)=0.000 P(wild)=0.974  max|kappa-kappa0| (F100 only meaningful)=3.97e+00
+  t=2559 median kappa=-0.7941 P(|k-2|<0.05)=0.001 P(wild)=0.976  max|kappa-kappa0| (F100 only meaningful)=3.84e+00
+  t=2999 median kappa=-0.8042 P(|k-2|<0.05)=0.001 P(wild)=0.977  max|kappa-kappa0| (F100 only meaningful)=3.80e+00
+  second-half percentiles [5,25,50,75,95] = [-1.8709, -1.4346, -0.7925, 0.0657, 1.2225] (banked D3.1: [~1.8, 1.99999, 2.0, 2.0, 2.0])

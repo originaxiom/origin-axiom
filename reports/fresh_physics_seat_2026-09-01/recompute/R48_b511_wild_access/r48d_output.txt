@@ -1,0 +1,17 @@
+== identity checks against matrices (n=3000 Haar pairs)
+  F: tr(ABA) = xz - y       max err 1.1e-15
+  M: tr(A.BA) = xz - y      max err 1.1e-15
+  D: tr(A^2)=x^2-2, tr(B^2)=y^2-2, tr(A^2B^2)=xyz-x^2-y^2+2   max err 8.9e-16 1.2e-15 1.3e-15
+  short-time agreement, matrices vs trace map, mix M10/D10/F80, t<=40:
+    t=9 max|kappa_matrix - kappa_trace| = 3.9e+00   P(|k-2|<0.05): matrices 0.226 trace 0.201
+    t=19 max|kappa_matrix - kappa_trace| = 3.9e+00   P(|k-2|<0.05): matrices 0.385 trace 0.343
+    t=29 max|kappa_matrix - kappa_trace| = 3.8e+00   P(|k-2|<0.05): matrices 0.482 trace 0.430
+    t=39 max|kappa_matrix - kappa_trace| = 3.9e+00   P(|k-2|<0.05): matrices 0.524 trace 0.481
+== long runs on the trace map (n=20000 histories, 3000 steps)
+  M10/D10/F80  proj=False P(|k-2|<0.05)=0.929 P(wild)=0.026 percentiles[5,25,50,75,95]=[1.8654, 2.0, 2.0, 2.0, 2.0]
+  M10/D10/F80  proj=True  P(|k-2|<0.05)=0.925 P(wild)=0.026 percentiles[5,25,50,75,95]=[1.8623, 2.0, 2.0, 2.0, 2.0]
+  M20/F80      proj=False P(|k-2|<0.05)=0.024 P(wild)=0.787 percentiles[5,25,50,75,95]=[-1.4054, -0.2737, 0.6614, 1.392, 1.8941]
+  M20/F80      proj=True  P(|k-2|<0.05)=0.024 P(wild)=0.787 percentiles[5,25,50,75,95]=[-1.4054, -0.2737, 0.6614, 1.392, 1.8941]
+  D20/F80      proj=False P(|k-2|<0.05)=0.945 P(wild)=0.019 percentiles[5,25,50,75,95]=[1.942, 2.0, 2.0, 2.0, 2.0]
+  D20/F80      proj=True  P(|k-2|<0.05)=0.940 P(wild)=0.020 percentiles[5,25,50,75,95]=[1.9384, 2.0, 2.0, 2.0, 2.0]
+banked D3.1/D3.3: percentiles ~[1.8, 1.99999, 2.0, 2.0, 2.0]; P(classical) >= 0.84; P(wild) <= 0.10

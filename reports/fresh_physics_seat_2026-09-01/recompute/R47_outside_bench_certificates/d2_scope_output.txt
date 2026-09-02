@@ -1,0 +1,94 @@
+=== outside_bench/certificates/d2_scope.py
+S1 — THE EFFECTIVE SAMPLE.  census closings: 78
+    adjacent |CS| ties within 1e-09: 39, ALL of them (p,q)/(p,-q) mirror pairs with equal volume: 39/39
+    => DISTINCT (Vol, |CS|) points: 39.  B289's sign law CS(p,-q) = -CS(p,q) doubles every point.
+    cc's 78 is correct as CLOSINGS; the relation test has 39 independent points, and a fair null must use those.
+
+S2 — REPRODUCTION.  cc's rule on cc's rows: 15 violations  (cc reports 15) — REPRODUCES.
+    ERROR FILED (mine): dropping cc's 1e-9 tolerance gives 30, because the 39 mirror ties then read as increases.
+    cc's tolerance is load-bearing and correct; my first recount was wrong.
+
+S3 — HOW STRONG IS THE GLOBAL RELATION?  (B1197 read it as a binary)
+    adjacent violations among the 39 distinct points: 15 of 38
+    null (20000 shuffles): mean 19.0 sd 1.8  =>  z = -2.18,  P(null <= obs) = 0.0262
+    Kendall tau(Vol, |CS|) = -0.1741
+    => the global relation is WEAK, not 'mostly coherent with a few
+       exceptions': tau is about -0.17 and the ordering is only just
+       distinguishable from chance.  The two readings are FAR APART.
+
+S4 — IS COHERENCE ASYMPTOTIC (near-cusp, all families)?   cusp volume 2.029883
+      Vol >=  points  violations   monotone?
+        0.00      39          15   no
+        1.70      31          12   no
+        1.85      25           9   no
+        1.90      21           7   no
+        1.95      14           5   no
+    => NO.  Restricting to the near-cusp end does NOT clean the census.
+       The payable reading cannot be upgraded to 'coherent asymptotically
+       for all families'; it stays 'coherent on one trajectory'.
+
+S5 — THE DECISIVE STRUCTURAL TEST: is |CS| a FUNCTION of Vol at all?
+      ( 1,  7)  Vol=1.972460  |CS|=0.071312
+      ( 2,  7)  Vol=1.972725  |CS|=0.214517
+      ( 3,  7)  Vol=1.973161  |CS|=0.143202
+      ( 4, -7)  Vol=1.973762  |CS|=0.142402
+      ( 5,  7)  Vol=1.974520  |CS|=0.213724
+      ( 6,  7)  Vol=1.975423  |CS|=0.072092
+      ( 8, -7)  Vol=1.977609  |CS|=0.070577
+    7 closings inside a volume window of width 0.005149 carry |CS| spanning 0.143940
+    => |CS| varies 28x faster than Vol across this window:
+       |CS| IS NOT A FUNCTION OF Vol, not even approximately, and this is
+       at the NEAR-CUSP end.  'The same clock up to monotone
+       reparameterization' requires a function.  So the VARIABLE reading
+       fails for a reason STRICTLY STRONGER than non-monotonicity — it
+       is not a reparameterization failure but a single-valuedness one.
+
+    S5c — THE STEEPEST PAIR (cc's witness, re-derived here; credited):
+      (1,7)  Vol=1.972460197  |CS|=0.071312429
+      (2,7)  Vol=1.972724673  |CS|=0.214517008
+      dVol = 0.000264476   d|CS| = 0.143204579
+      => 541.5x  — sharper than this cell's original 28x window witness,
+         and the sharpest in the census.  Two closings essentially AT THE
+         SAME VOLUME carry |CS| differing by a factor of three.
+
+    S5b — THE ONE-LINE VERSION (cc's own control does the work).
+    B289's sign law, which B1197 reproduces 156/156 as a POSITIVE CONTROL,
+    says CS(p,-q) = -CS(p,q); and the mirror pair has the SAME volume.
+    So for each of the 39 mirror pairs in the census, ONE volume
+    carries TWO opposite CS values — and 39 of them have CS != 0.
+    => SIGNED CS is not a function of Vol, immediately, by a banked law.
+       Taking |CS| is already a REPAIR of that failure; S5 shows the
+       repair fails too.  The variable reading is refuted twice over,
+       and the second refutation was in the record before the run.
+
+S6 — IS THE LADDER POST-HOC?  (the trajectory reading collapses if so)
+    NO — banked BEFORE the run, on two independent counts:
+    * B289 names the (1,n) family THE SCALE LADDER and banks its own
+      structure there: CS(1,n) all one sign, CS(1,-n) = -CS(1,n), and
+      |CS| -> 0 as n -> inf 'approaching the amphichiral origin'.
+    * THE_WELD_BOOK addendum 2 (2026-08-28, written BEFORE the run)
+      preregistered the ladder as the test: 'along the (1,n) ladder, CS
+      must be monotone in Vol', with the census sweep as the EXTENSION.
+    => the ladder was distinguished first and independently.  Restricting
+       to it is a scope choice, NOT selection of the passing subset.
+
+WHAT THE MEASUREMENT CHANGES ABOUT D2 (the cell's whole contribution):
+  B1197 said the two readings are 'both defensible' and left them
+  symmetric.  They are NOT symmetric on the data:
+    * the VARIABLE reading is refuted more strongly than reported — |CS| is
+      not even a function of Vol (S5), so it fails single-valuedness, not
+      just monotonicity.  There is no weaker version of it to retreat to,
+      because near-cusp restriction does not help (S4) and the global
+      relation is weak (S3).
+    * the TRAJECTORY reading is cleaner than reported — the ladder is
+      preregistered and independently banked (S6), so it is not the
+      passing subset chosen after the fact.
+  The owner's choice is therefore NOT 'which of two equally-supported
+  readings do I prefer'.  It is a single question: IS A CLOCK IDENTIFIED
+  ALONG ONE REALIZED HISTORY, OR BETWEEN TWO VARIABLES ON THE SPACE OF
+  POSSIBLE HISTORIES?  The second is dead either way.  Gate 5 untouched.
+
+real	0m0.492s
+user	0m0.290s
+sys	0m0.012s
+exit=0
