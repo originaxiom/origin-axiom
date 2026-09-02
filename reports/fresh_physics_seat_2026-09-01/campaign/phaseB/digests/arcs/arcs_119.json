@@ -1,0 +1,423 @@
+{
+ "batch": "arcs_119",
+ "arcs": [
+  {
+   "arc": "B1207_slow_lane_discharge",
+   "source": "main",
+   "files_read": [
+    "frontier/B1207_slow_lane_discharge/FINDINGS.md",
+    "frontier/B1207_slow_lane_discharge/arc_verdict.json",
+    "frontier/B1207_slow_lane_discharge/b1207_results.json",
+    "frontier/B1207_slow_lane_discharge/verification/discharge.txt",
+    "frontier/B1207_slow_lane_discharge/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN (instrument arc; no mathematics): the OA_SLOW 50-file shadow suite's first-ever complete run (4h45m: 9 failed/5702 passed/5 skipped) triaged into classes A-E (5 real defects all self-committed and invisible to the fast lane, 2 lock bugs, 1 eight-day-old code bug, 2 run-timing casualties, and a silent-success class E found by watching the tree incl. a PSLQ grid triple-counting bug that halved a Sidak alpha); confirming quiescent re-run (4h51m: 6 failed/5719 passed) landed via ADDENDUM 1, all six new failures dispositioned including the sharper lesson that 'quiescence means the whole working tree, not the index.'",
+   "log_says": "Progress log and REVIEWS.md corroborate the 9/5702/5 and 6/5719/5 figures and the R52-4 discharge; consistent with FINDINGS/verdict, no additional claims beyond the arc's own text.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "9 failed/5702 passed/5 skipped first full OA_SLOW run figures",
+     "where": "b1207_results.json .run; FINDINGS §0",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "run itself is not re-runnable in 4h45m by a stranger reading this digest, but verification/reproduce.sh independently re-checks the five discharged post-conditions (paths, findings-orphans, negative-arc routing, B1113 REPO_ROOT depth, ID-strip bounding) and prints REPRODUCES; the original 4h45m/4h51m suite runs themselves are not re-executed by reproduce.sh, only their after-effects"
+    },
+    {
+     "what": "PSLQ grid triple-counting halving the Sidak alpha (2.374e-4 -> 1.187e-4)",
+     "where": "b1207_results.json .side_effects_class_E[0]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "the underlying real_grid.jsonl is gitignored (matches *.jsonl-adjacent gitignored witness pattern akin to *.log/*.out); the fix and restored 216-row grid are described but not included as a witness file in this arc's committed set"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "verification/reproduce.sh re-derives five specific post-conditions (no hardcoded paths, no orphan verdicts, all NEGATIVE arcs routed, B1113 depth fix, ID-strip bounding) directly from the current repo state and prints REPRODUCES; it does not re-run the 4h45m/4h51m OA_SLOW suites themselves.",
+   "absence_claims": [
+    {
+     "quote": "the OA_SLOW shadow suite ... fifty gated test files that no runner had ever executed ... first-ever complete run finished after 4 h 45 min",
+     "where": "FINDINGS.md §0"
+    },
+    {
+     "quote": "the verifier has never once executed since [banked 2026-08-21]",
+     "where": "FINDINGS.md Class C"
+    },
+    {
+     "quote": "Ten arcs carried a verdict, results and verification -- but no findings document.",
+     "where": "FINDINGS.md Class A2"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "B1137's real_grid.jsonl (the PSLQ probe's raw output, subject of the triple-counting bug E1) is gitignored; the fix's correctness rests on a witness file not committed to the repo.",
+     "where": "FINDINGS.md Class E1 / b1207_results.json side_effects_class_E[0]"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "This is a pure meta/instrument arc about the repository's own test-suite hygiene (paths, findings-orphans, gate bugs); it makes no claim about the physical object and should not be counted toward the thesis's physics content.",
+     "where": "arc_verdict.json .instrument = true"
+    }
+   ],
+   "seat_note": "Purely a repo-hygiene/instrument arc auditing the project's own test suite; contains no claim about the physical object and no observable content. The one load-bearing numeric claim resting on a gitignored data file (B1137's grid) is a real reproducibility gap, though the arc is explicit about it and the verdict was unaffected."
+  },
+  {
+   "arc": "B1208_cross_seat_harvest",
+   "source": "main",
+   "files_read": [
+    "frontier/B1208_cross_seat_harvest/FINDINGS.md",
+    "frontier/B1208_cross_seat_harvest/arc_verdict.json",
+    "frontier/B1208_cross_seat_harvest/b1208_results.json",
+    "frontier/B1208_cross_seat_harvest/verification/census_legs.py",
+    "frontier/B1208_cross_seat_harvest/verification/independent_lambda_check.py",
+    "frontier/B1208_cross_seat_harvest/verification/reproduce.sh",
+    "frontier/B1208_cross_seat_harvest/verification/verify_b8154.py",
+    "frontier/B1208_cross_seat_harvest/verification/verify_dm_census.py",
+    "frontier/B1208_cross_seat_harvest/verification/verify_kappa_irremovable.py",
+    "frontier/B1208_cross_seat_harvest/verification/verify_r021.py",
+    "frontier/B1208_cross_seat_harvest/verification/verify_s5.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN: 9 legs. Leg1 (memo128 lambda-rank): CONFIRMED, derivation corrected (t3-conservation alone permits rank-1, full SU(2) invariance needed; B1206's candidate (iii) closed negatively). Leg2 (memo129 Hd menu): ADOPTED, a three-outcome fork preregistered on the ZZ/12 lepton character (relayed to codex, later answered inconclusively at B1212). Leg3 (memo130 D2 scope): CONFIRMED and strengthened on main's own B1197 data (156/156 opposite-CS pairs; a 541x |CS|/Vol witness beating the memo's reported 28x). Leg4 (memo123 DM census): CONFIRMED entry-for-entry and strengthened (zero abelian stabilizers of the 27 across n=2..6, MB12 control fires at 486). Leg5 (cc3 B8154, mirror=c): VERIFIED 6/6 with controls. Leg6 (memo127, mirror irremovable): CONFIRMED, identified as the same kappa-identity as B1203's negative. Leg7 (codex R021, Gieseking Pin- restriction): CONFIRMED AND GENERALIZED to any rank-1 H^1(-;F2) nonorientable manifold. Leg8 (codex R020): RECEIVED, NOT YET VERIFIED. Leg9: self-catch of an MB12 vacuity violation in B1206's own candidate (iii).",
+   "log_says": "Progress log confirms B1208 as 'seven results verified, three of them changed' discharging R52-2's head; later arcs (B1212, B1215, B1217) confirm the memo129 fork stayed unresolved into B1212/B1217, consistent with this arc's own framing of it as open.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "rank-1 impossibility for the Hu x Hd doublet-doublet block requires full SU(2) invariance, not just t3-conservation",
+     "where": "verification/independent_lambda_check.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy script solves X^T B + B X = 0 for the three su(2) generators, exhibits the 1-D invariant space (epsilon), and shows a rank-1 witness exists under t3-conservation alone but not under full SU(2) invariance; runs standalone and is included in reproduce.sh"
+    },
+    {
+     "what": "zero abelian stabilizers of the 27 for n=2..6; min charged set 11-12; max level set 15-16 of 27 (needs >=25)",
+     "where": "verification/verify_dm_census.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "built on main's own B299 _weights_27 generator, brute-forces every abelian character up to order 6, includes an MB12 positive control (486 stabilizers on a planted rep) proving the instrument can succeed"
+    },
+    {
+     "what": "156/156 same-volume pairs in B1197's signed CS census carry exactly opposite CS; a 541x |CS|/Vol witness",
+     "where": "verification/verify_s5.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "reads B1197's banked b4_global.json / b4_correct.json via OA_ROOT-relative path (external to this arc's own files); numbers are recomputed directly from those JSON files so reproducible if B1197's data is intact, but not self-contained within this arc"
+    },
+    {
+     "what": "kappa o g = kappa identically (mod trace-field relation) for the whole internal duality group, including B1203's founding climb",
+     "where": "verification/verify_kappa_irremovable.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy symbolic identity check with an explicit failing control (a squaring bite) showing the check can fail"
+    },
+    {
+     "what": "Gieseking (m000) is the orientable double cover of m004 by isometry; H1(Gieseking)=Z; the generalization to any rank-1 H^1(-;F2) manifold",
+     "where": "verification/verify_r021.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "uses snappy (external library) for the isometry/homology computation; script is self-contained and would run given snappy+sympy installed, but no environment/dependency lockfile is bundled in this file set to confirm a stranger's reproduction"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "All seven verified legs are backed by standalone scripts in verification/ that recompute the claims from main's own banked data (B67, B299, B1197) rather than merely re-reading the cited memos; reproduce.sh runs all seven and greps for VERIFIED/CONFIRMED markers.",
+   "absence_claims": [
+    {
+     "quote": "Not adopted here. It refutes a preservation property of something main banked (B1140), and the house rule is that a cross-seat result touching a banked claim is verified before it moves anything.",
+     "where": "FINDINGS.md LEG 8"
+    },
+    {
+     "quote": "the census alone does NOT force that shape -- this bench finds three factorizations consistent with its four counts",
+     "where": "FINDINGS.md LEG 2 cross-source caveat"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "Leg 6's headline -- 'the mirror is precisely the operation the object cannot perform on itself, which is WHY the observer's bit is exactly one, and external' -- rests on both B1203's climb and the mirror map sharing the same kappa-invariance identity (kappa o g - kappa = 0 in Z[x,y,z]); this is a shared-invariant coincidence elevated to an explanatory claim ('this is why') without an independent argument that invariance-preservation is the correct criterion for what counts as 'internal'.",
+     "where": "FINDINGS.md LEG 6 'The convergence neither seat had seen'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Leg 2's decisive fork (whether the lepton ZZ/12 character equals the down-quark character) is preregistered with three branches but the deciding datum is explicitly stated as not computable on this bench or cloud's -- it is relayed to a third seat (codex) as an open question, so this leg's practical content is 'question posed', not 'question answered'; later confirmed unresolved at B1212.",
+     "where": "FINDINGS.md LEG 2 'THE FORK'"
+    }
+   ],
+   "seat_note": "This is a genuine cross-verification arc: seven external claims are independently recomputed from main's own primary data (not merely cited), and two derivations are materially corrected rather than rubber-stamped, which is the right epistemic posture. The physics content is entirely structural (group theory, Newton-polygon/character combinatorics, topology); no measurable value is produced or claimed anywhere in the arc."
+  },
+  {
+   "arc": "B1209_lee_verification",
+   "source": "main",
+   "files_read": [
+    "frontier/B1209_lee_verification/FINDINGS.md",
+    "frontier/B1209_lee_verification/arc_verdict.json",
+    "frontier/B1209_lee_verification/b1209_results.json",
+    "frontier/B1209_lee_verification/verification/newton_a1.py",
+    "frontier/B1209_lee_verification/verification/newton_a1.txt",
+    "frontier/B1209_lee_verification/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: three questions from Lee (arXiv:2502.11950) answered from the source text, obtained and read on-bench. Q1: the admissible tangent-vector set is a torsor under Z/|a_1|, and for m004 |a_1|=1 at every ideal point (independently re-derived from main's own A-polynomial's Newton polygon, agreeing with Lee's appendix) -- so the torsor group is TRIVIAL, not Z/2 or V4, and the hoped-for bridge to the observer's orientation bit is CLOSED. Q2: the 4_1 confirmation does not use the CS=0 degeneracy (uses Hikami's NZ potential instead). Q3: Lee's trace-field statement specializes exactly to Q(sqrt-3) with no special-casing. Positive half stands (a published mixed Tate motive over Q(sqrt-3) whose regulator is the complex volume); the SEAM-A W0 bar is unchanged.",
+   "log_says": "Progress log and Review 53 confirm B1201 corrects B1198 and B1209 closes the hoped-for bridge, W0 bar unchanged -- fully consistent with the arc's own claim.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "|a_1| = 1 at every ideal point of the figure-eight (4_1/m004) A-polynomial, from its Newton polygon",
+     "where": "verification/newton_a1.py, newton_a1.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained script hardcodes the classical figure-eight A-polynomial monomials, computes the convex hull, extracts primitive edge vectors and confirms |a_1|=1 on all four edges, matching Lee's cited appendix values and the known boundary slopes (0, +-4); reproduce.sh regenerates newton_a1.txt and greps for VERIFIED"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "newton_a1.py independently re-derives |a_1|=1 from the A-polynomial rather than trusting Lee's appendix; reproduce.sh re-runs it and checks for the VERIFIED marker.",
+   "absence_claims": [
+    {
+     "quote": "This bench does not take that on trust.",
+     "where": "FINDINGS.md Q1"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean literature-verification arc: an external paper's structural claims are checked against main's own independently computed A-polynomial rather than cited on faith, and the arc explicitly reports a negative result (a hoped-for bridge to the observer bit closes) rather than reaching for a positive one. No observable/measured content is claimed or present."
+  },
+  {
+   "arc": "B1210_paper_spine_sweep",
+   "source": "main",
+   "files_read": [
+    "frontier/B1210_paper_spine_sweep/FINDINGS.md",
+    "frontier/B1210_paper_spine_sweep/arc_verdict.json",
+    "frontier/B1210_paper_spine_sweep/b1210_results.json",
+    "frontier/B1210_paper_spine_sweep/verification/_out.txt",
+    "frontier/B1210_paper_spine_sweep/verification/claim_ledger.py",
+    "frontier/B1210_paper_spine_sweep/verification/reproduce.sh",
+    "frontier/B1210_paper_spine_sweep/verification/spine_sweep.py"
+   ],
+   "files_sampled": [
+    "frontier/B1210_paper_spine_sweep/spine_sweep.json",
+    "frontier/B1210_paper_spine_sweep/verification/spine_sweep.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN (instrument arc): measured, not asserted, that the P3 paper spec (drafted from memory) cites only 11 of 85 arcs banked in its own last ten days and 1 of the corpus's 48 law-creating arcs. A lexical supersession-detector's first pass (claim-scope matching) produced a mostly-noise 229/15 flagged count, corrected to a reportable 79/5 by rescoping to clause-scope. Two substantive paper corrections made: (a) cite both B862 and B1080 for the Z/6 result; (b) the cascade's landing on su(3)+su(2)+u(1)^3 is DEFLATED from the forced list to a recognition-table entry (it is the classical A2+A1 Levi subalgebra of e6, Borel-de Siebenthal/Dynkin). ADDENDUM 1 (dated) marks this arc's own claim-pool criterion SUPERSEDED by B1213 after cloud's memo133 found creates_law absent on 89% of the corpus, and flags B1210's own CLAIM_CANDIDATES.md rendering as narrower than its own 442-arc pool (B991 omitted from the page though inside the pool).",
+   "log_says": "Progress log/REVIEWS.md confirm B1210 as the paper-spine sweep finding the spec written from memory, later superseded in criterion by B1213 -- consistent with the arc's own ADDENDUM 1.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "85 arcs banked in the spec's last 10 days, 11 cited; 48 law-creating arcs, 1 cited",
+     "where": "b1210_results.json .coverage",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "spine_sweep.py recomputes this from the live corpus (arc_verdict.json glob) each run, so the banked figures (85/11, 48/1) reflect the corpus state at banking time; re-running today against the now-larger corpus (checked directly: verification/_out.txt shows a different snapshot with pool 456, 30 spec citations, 8 flagged, from a later corpus state) would not reproduce the exact banked numbers, only the qualitative finding"
+    },
+    {
+     "what": "clause-scope (90-char window) supersession detector: 79 pool arcs flagged, 5 of 24 spec citations at risk",
+     "where": "verification/spine_sweep.py, verification/_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained script re-runnable against the live repo; the numbers in the currently committed verification/_out.txt (corpus 1116, pool 456, 8 of 30 flagged) differ from the FINDINGS/results.json banked numbers (corpus ~1111-ish implied, 442 pool, 79/5 clause-scope) because the corpus has grown between banking and the copy of _out.txt now committed -- this is drift, not error, and is a moving-target instrument by design"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "spine_sweep.py and claim_ledger.py mechanically rebuild the pool and supersession flags from the live arc_verdict.json corpus each run; the committed verification/_out.txt reflects a later re-run (larger corpus) than the numbers quoted in FINDINGS.md/b1210_results.json, so the two figures visibly diverge -- expected for a corpus-tracking instrument but worth noting for anyone trying to reproduce the exact banked numbers.",
+   "absence_claims": [
+    {
+     "quote": "Coverage of the remaining ~660 PROVED arcs is not claimed.",
+     "where": "FINDINGS.md §4 Fences"
+    },
+    {
+     "quote": "five flags means five pairs to read, not five corrections established",
+     "where": "FINDINGS.md §4 Fences"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "Checked: the ADDENDUM correctly marks the arc's own pool criterion as superseded by B1213, so this is NOT an instance of the flag -- recorded here to note the check was made, not to raise it.",
+     "where": "FINDINGS.md ADDENDUM 1"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The committed verification/_out.txt and spine_sweep.json reflect a later corpus snapshot (pool 456, 30 citations, 8 flagged) than the numbers quoted in the banked FINDINGS.md/arc_verdict.json/b1210_results.json (pool 442, 24 citations, 79/5 flagged); a stranger running reproduce.sh today would not reproduce the exact banked figures, only the qualitative conclusion.",
+     "where": "verification/_out.txt vs b1210_results.json"
+    }
+   ],
+   "seat_note": "A pure repo-governance/instrument arc auditing whether the paper spec reflects the corpus; the one real physics-adjacent correction (deflating the E6-cascade landing from 'forced' to classical Borel-de Siebenthal recognition) is itself a self-correction of overclaiming, which is a positive discipline signal. No observable content."
+  },
+  {
+   "arc": "B1211_declaration_gap",
+   "source": "main",
+   "files_read": [
+    "frontier/B1211_declaration_gap/FINDINGS.md",
+    "frontier/B1211_declaration_gap/arc_verdict.json",
+    "frontier/B1211_declaration_gap/b1211_results.json",
+    "frontier/B1211_declaration_gap/declaration_check.json",
+    "frontier/B1211_declaration_gap/verification/_out.txt",
+    "frontier/B1211_declaration_gap/verification/declaration_check.json",
+    "frontier/B1211_declaration_gap/verification/declaration_check.py",
+    "frontier/B1211_declaration_gap/verification/deep_sweep.py",
+    "frontier/B1211_declaration_gap/verification/reproduce.sh"
+   ],
+   "files_sampled": [
+    "frontier/B1211_declaration_gap/deep_sweep.json",
+    "frontier/B1211_declaration_gap/verification/deep_sweep.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN (instrument arc): a deep lexical sweep of the 541 substantive arcs outside B1210's pool found that 7 of the programme's 8 most recent observer-layer results (B1182, B1183, B1184, B1192, B1196, B1200, B1203) sit on no registered synthesis surface at all, because gate_theorem_registry only catches over-declaration of creates_law, is structurally blind to under-declaration, and the seat that writes the claim also writes the flag. Repair: 7 arcs flipped to creates_law=true with dated notes (claim/verdict/evidence untouched) and 7 THEOREM_REGISTRY rows added; 2 controls (B1203, B1204) reviewed and kept false. A new forward-only lock (declaration_check.py) fired immediately on B1185 (flipped) and B1204 (kept false) on first install.",
+   "log_says": "Progress log and B1213's own entry confirm B1211 corrected mis-declared creates_law flags (the 'rarer' failure mode later contrasted against B1213's much larger 89%-absent-field finding) -- consistent.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "7 of the 8 most recent observer-layer arcs (B1182-B1203) are on no registered synthesis surface; only B1195 appears anywhere",
+     "where": "b1211_results.json .registration_gap; verification/deep_sweep.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "deep_sweep.py mechanically checks each arc against spine_sweep.json's pool and B1210's registered surfaces list; self-contained and re-runnable"
+    },
+    {
+     "what": "the declaration_check.py lexical detector flags 26 corpus-wide theorem-language-but-not-flagged candidates, firing on B1185 and B1204 on first install",
+     "where": "verification/declaration_check.py, declaration_check.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "regex-based, self-contained, re-runnable; committed declaration_check.json output matches the description"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "deep_sweep.py and declaration_check.py both mechanically re-derive their findings from the live arc_verdict.json corpus; reproduce.sh chains both and checks for VERIFIED.",
+   "absence_claims": [
+    {
+     "quote": "THEOREM_REGISTRY.md's last row was B1145 -- the entire observer-layer closure, the densest theorem cluster the programme has produced, was registered nowhere.",
+     "where": "FINDINGS.md §0"
+    },
+    {
+     "quote": "Coverage of the remaining unswept arcs as paper claim candidates is not claimed.",
+     "where": "FINDINGS.md §6 Fences"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Minor narrative/count inconsistency between arc_verdict.json (says 'SIX arcs corrected' listing 6 names, plus B1185 flipped separately by the counter-check, totalling 7) and FINDINGS.md/results.json (both say 'seven arcs corrected' and list all 7 including B1185 together). Both land on the same 7-arc total and same registry-row count, so this is a presentation/organization difference, not a factual contradiction.",
+     "where": "arc_verdict.json vs FINDINGS.md §2 vs b1211_results.json .repair.flipped_to_true"
+    }
+   ],
+   "seat_note": "A meta/governance arc about the project's own theorem-registration gate; the finding (self-declared metadata fields are not an independent check) is a sound methodological point about the project's own audit machinery, not about physics. No observable or even structural physics content is asserted here."
+  },
+  {
+   "arc": "B1212_two_replies",
+   "source": "main",
+   "files_read": [
+    "frontier/B1212_two_replies/FINDINGS.md",
+    "frontier/B1212_two_replies/arc_verdict.json",
+    "frontier/B1212_two_replies/b1212_results.json",
+    "frontier/B1212_two_replies/verification/r024_lepton_character_datum.py",
+    "frontier/B1212_two_replies/verification/r024_rerun.txt",
+    "frontier/B1212_two_replies/verification/reproduce.sh",
+    "frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md",
+    "frontier/B1212_two_replies/documents/program-question-map/evidence/YUKAWA_DOWN_RESIDUE_SPEC_308.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN: Leg1 (codex R024 lepton character) re-runs codex's own committed certificate and finds the decisive datum does NOT exist in the committed frames -- both e^c and l coarse ZZ/12 characters equal 0, but coarse equality does not identify the physical lepton/down tensors, so B1208's three-way fork (which would have flipped the P3 row PERMANENT->FORCED) is UNRESOLVED; the P3 row stands at dim 1. Leg2 (cloud D2 payment): downgraded to PROVISIONAL pending an owner authority question this seat raised (whether the owner's earlier 'go' was a real D2 signature); both of this seat's proposed amendments (SCOPE-1a/1b split; recording the preregistered-gate override in the open) are upheld by cloud. ADDENDUM 1 (same-day) records the owner explicitly confirming ('lift D2's PROVISIONAL on main'), lifting the flag, with SCOPE-1b explicitly still NOT ESTABLISHED.",
+   "log_says": "Progress log entry (single, pre-addendum) confirms 'the decisive datum does not exist in the frames, and D2's payment is PROVISIONAL' -- matches the arc's pre-addendum state; the addendum's resolution (owner confirms, provisional lifted) postdates this log entry and is not separately logged, but this is a same-day internal update, not a contradiction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "coarse Z/12 character of e^c = 0, coarse character of l = 0; abstract admissible tail pairs (0,8),(2,6),(4,4); frame-level lepton pair UNDETERMINED; B1208 fork UNRESOLVED",
+     "where": "verification/r024_lepton_character_datum.py, r024_rerun.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained script; asserts specific text markers exist in the cited memo/spec files (which are committed alongside it) and computes selected_character() from hardcoded wilson_charge formulas (6*k, 9*k) that are themselves taken as given/imported from codex's own certificate rather than independently derived here -- the re-run confirms internal consistency of codex's own inputs, it does not independently derive the 6*k/9*k formula from first principles"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "r024_lepton_character_datum.py is described as a 'narrow exact audit' that re-derives only what the committed R017 ledger and down-residue spec already state, explicitly not promoting a coarse Wilson sector to a generation-level representative; it is a consistency check on codex's own committed formulas (imported wilson_charge coefficients) rather than a from-scratch recomputation.",
+   "absence_claims": [
+    {
+     "quote": "The down-type map mu_d still has no chain-level evaluation, rank, or nonzero entry.",
+     "where": "memos/YUKAWA_CUP_PRODUCTS_308.md Verdict"
+    },
+    {
+     "quote": "No numerical or exact 1 x 18 down-Yukawa row is present in the committed certificates.",
+     "where": "documents/.../YUKAWA_DOWN_RESIDUE_SPEC_308.md Verdict"
+    },
+    {
+     "quote": "Not proved: any nonzero down-Yukawa entry, rank, texture, determinant, normalized residue, or tail-coupled value.",
+     "where": "documents/.../YUKAWA_DOWN_RESIDUE_SPEC_308.md Proof boundary"
+    },
+    {
+     "quote": "no Cech representative, cyclic/Serre map, nonzero entry, determinant, or physical Yukawa",
+     "where": "verification/r024_lepton_character_datum.py scope line, echoed in r024_rerun.txt"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The re-run script (r024_lepton_character_datum.py) treats codex's Wilson-charge formulas (wilson_charge = {'e^c': 6*k, 'L/Hd': 9*k}) as given constants without deriving them in this arc; the 'reproduction' is an internal-consistency check of an imported formula, not an independent derivation of the coefficients 6 and 9.",
+     "where": "verification/r024_lepton_character_datum.py selected_character()"
+    }
+   ],
+   "seat_note": "An honest negative/inconclusive result: the arc explicitly reports that the decisive datum needed to resolve a major structural fork is absent from the committed frames, rather than forcing a positive reading; the D2-payment governance thread also shows good practice (flagging an ambiguous owner 'go' rather than treating it as a signature). The Yukawa-cup-product memos are dense STRUCTURAL algebraic-geometry content imported from a codex/cloud seat, with explicit 'not proved' boundaries stated by the source documents themselves."
+  },
+  {
+   "arc": "B1213_claim_base_rebuilt",
+   "source": "main",
+   "files_read": [
+    "frontier/B1213_claim_base_rebuilt/FINDINGS.md",
+    "frontier/B1213_claim_base_rebuilt/arc_verdict.json",
+    "frontier/B1213_claim_base_rebuilt/b1213_results.json",
+    "frontier/B1213_claim_base_rebuilt/claim_base.json",
+    "frontier/B1213_claim_base_rebuilt/verification/_out.txt",
+    "frontier/B1213_claim_base_rebuilt/verification/claim_base.json",
+    "frontier/B1213_claim_base_rebuilt/verification/claim_base.py",
+    "frontier/B1213_claim_base_rebuilt/verification/render_claim_base.py",
+    "frontier/B1213_claim_base_rebuilt/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN (instrument arc): harvests and verifies cloud memo 133 (R52-6) entry-for-entry -- creates_law is absent entirely on 919 of 1031 settled arcs (89%), a distinct and much larger failure mode than B1211's mis-declarations. A two-sided vocabulary control (declared-law arcs score 2.47 on law-vocabulary vs 1.08 for the rest, 2.29x) is reproduced before being adopted as a widening criterion. Sharpens cloud's diagnosis: their exhibit B991 was already inside B1210's 442-arc pool via a synthesis surface -- 'the leak was the rendering, not the pool' (CLAIM_CANDIDATES.md rendered only the flag-derived 48/55 subset). Rebuilds POOL = declared-law UNION on-a-synthesis-surface UNION law-vocabulary = 467 arcs, tiered L/S/V, disposition column left empty as an editorial call.",
+   "log_says": "Progress log/REVIEWS.md confirm 'the claim base empty on 89% of the corpus' and that B1214 sequenced its own re-audit after B1213 fixed the base -- consistent with the arc's own text.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "919/1031 (89%) settled arcs have creates_law entirely absent; declared true 55, declared false 57; control ratio 2.29x",
+     "where": "b1213_results.json / claim_base.json (top-level, banked)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "verification/claim_base.py recomputes this live from the current arc_verdict.json corpus; the copy actually committed in verification/claim_base.json and verification/_out.txt shows DIFFERENT numbers (declared true 68, declared false 136, absent 827/80%, control ratio 2.67x) than the banked top-level claim_base.json/b1213_results.json (55/57/919-89%/2.29x) -- the committed verification/_out.txt is from a later re-run against a grown/changed corpus, so a stranger running reproduce.sh today reproduces the QUALITATIVE finding (a large majority absent, control passes) but NOT the exact banked percentage figures the arc's prose and headline number (89%) rest on. reproduce.sh's REPRODUCES gate only checks for the string VERIFIED, not numeric agreement with the banked claim_base.json, so this drift is not caught by the arc's own reproduction test."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "claim_base.py recomputes the census and control live from arc_verdict.json each run and writes claim_base.json + prints VERIFIED; but the committed verification/ copy of that output no longer matches the banked top-level numbers (see load_bearing note above) -- the belt exists but currently demonstrates drift rather than confirming the banked figure.",
+   "absence_claims": [
+    {
+     "quote": "creates_law is ABSENT ENTIRELY on 919 of 1031 settled arcs -- 89%",
+     "where": "FINDINGS.md §0 / arc_verdict.json"
+    },
+    {
+     "quote": "the pool was wider than the page.",
+     "where": "FINDINGS.md §1"
+    },
+    {
+     "quote": "The disposition column stays empty; IN / SUP / OUT remains an editorial call.",
+     "where": "FINDINGS.md §2"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The arc's headline number ('89% absent') is the banked snapshot at authoring time. The committed verification/_out.txt and verification/claim_base.json (evidently re-run at a later point against a since-grown corpus) show materially different figures (80% absent, ratio 2.67x vs 2.29x) without any note in the arc reconciling the discrepancy, and reproduce.sh's pass/fail check (grep VERIFIED) does not detect that the reproduced numbers diverge from the banked ones. A stranger reproducing this arc today gets different numbers than the ones quoted in FINDINGS.md/arc_verdict.json.",
+     "where": "verification/_out.txt vs b1213_results.json / claim_base.json"
+    }
+   ],
+   "seat_note": "Governance/instrument arc about the project's own claim-metadata hygiene, not physics; the underlying methodological point (a criterion reading a field the corpus mostly never populated silently degrades to reading nothing) is sound self-critique. The one concrete issue is that the arc's own committed verification artifacts already show drift from its banked headline percentage, and the reproduce.sh gate does not catch that drift because it only checks for a success string."
+  }
+ ]
+}

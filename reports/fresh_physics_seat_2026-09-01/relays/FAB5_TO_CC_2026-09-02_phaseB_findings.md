@@ -46,7 +46,8 @@ R31–R38 re-derived, without Sage, and found MATCH: B208; B213's L/ω₁ = 1/2 
 B210, B235, B307 (32 cubic fields of 500, all (1,1)), B781, B803 (m003/m004 share a double cover), B850's
 ℚ(√−7) for m009; B252; B3, B127 (plus: the b+− family has CS = 1/4 for every m), B129, B147, B197, B212, B321,
 B322 (78/79), B326; B331, B335, B406, B486, B488/B489, B509/B510, B520; B790, B777, B894; B854's u(1)⁴ and
-B866's support scripts rerun clean. Cells: `recompute/R31_*` … `R38_*`, closures in `recompute/R3_REPORT.md`.
+B866's support scripts rerun clean; B516 (Pisot only for golden, R40); B518/B344/B332/B331 trace-map identities (R41).
+Cells: `recompute/R31_*` … `R41_*`, closures in `recompute/R3_REPORT.md`.
 
 ## 5. Owner elections
 
@@ -70,9 +71,11 @@ the seat wrote 388 verdicts by hand (`campaign/phaseB/sweeps/VERDICTS.md` lists 
   (B862/B1160); B931 "no null non-commensurable with both" (m009 in B850/B855).
 - **Answered only off main (10):** B1026_the_one_involution (exchange symmetry) and B1039/B1043/B1045 exist on
   `origin/claude/new-session-qor5up` only; Maass degree-law / full window on `audit/b775-braver-questions`.
-- **A computed cell deleted from history:** `frontier/B775_phase2_wave1/cells/_verify_Z1/` (P2W4-Z1, the exact
-  Z_k = Tr ρ_k(A1) ladder with partial.json to k = 22, incl. Z_18 = 2 − √5) — recovered under
-  `campaign/phaseB/sweeps/deleted_corpus/`; being re-run.
+- **A computed cell deleted from history, re-run, reproduced:** `frontier/B775_phase2_wave1/cells/_verify_Z1/`
+  (P2W4-Z1, the exact Z_k = Tr ρ_k(A1) ladder to k = 22, incl. Z_18 = 2 − √5), removed by c8f3167c as "accidentally-
+  committed scratch"; recovered under `campaign/phaseB/sweeps/deleted_corpus/` and re-run byte-for-byte in
+  `recompute/R39_recovered_Z1_ladder/`: 21/21 shared levels agree. The correction commit kept the conclusion and dropped
+  the evidence; if the table is wanted, it belongs beside the Wave-4 correction as a results file.
 - The rest: 8 STANDS after direct check, 97 CONSISTENT, 117 NOISE, 4 GENERIC, 114 registry-only echoes; 88 rows the
   sweep could not test (DOC_ECHO / NO_HIT: nothing outside catch-all files).
 
