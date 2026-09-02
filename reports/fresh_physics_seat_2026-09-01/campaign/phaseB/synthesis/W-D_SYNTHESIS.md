@@ -13,7 +13,15 @@ Owner rule 2 ("read all the arcs, belts and tests, through the progress log"). T
 reader agents under a strict digest schema; each reader had to list `files_read` / `files_sampled` /
 `files_listed_only` and a `thin_reads` list, so the coverage claim is per-file, not per-arc. The three
 workflows lost ~100 packets to the session limit at 22:50 UTC and were resumed from cache at 22:58 UTC.
-Final coverage: see `coverage.md` (COVERAGE_PLACEHOLDER).
+Final coverage: see `coverage.md` (<!--COV-->
+- arc packets landed: **119 / 131**; missing: [60, 61, 62, 63, 64, 65, 125, 126, 127, 128, 129, 130]
+- arc records digested: **1219 / 1310** ({'main': 1123, 'audit/b775-braver-questions': 5, 'claude/new-session-qor5up': 23, 'worktree claude_new-session-qor5up (frontier/B1041_the_red_locks)': 1, 'main tree, frontier/B1042_trit_morphism': 1, 'worktree claude_new-session-qor5up (frontier/B1042_the_error_ledger)': 1, 'main tree, frontier/B1043_triple_assembly': 1, 'worktree claude_new-session-qor5up (frontier/B1043_the_band_is_the_wrong_unit)': 1, 'main tree, frontier/B1044_gamma_ledger': 1, 'worktree claude_new-session-qor5up (frontier/B1044_law_siblings_gated)': 1, 'worktree claude_new-session-qor5up (frontier/B1045_middle_band_mapped)': 1, 'worktree claude_new-session-qor5up (frontier/B1046_the_arc_graph)': 1, 'worktree claude_new-session-qor5up (frontier/B1047_the_seam_cluster)': 1, 'frontier/B1146_seam_b': 1, 'frontier/B1147_clane_harvest': 1, 'frontier/B1148_carrier_harvest': 1, 'frontier/B1149_meridian_longitude_harvest': 1, 'frontier/B1150_yukawa_clock_and_family': 1, 'frontier/B1151_gue_larget_superposition': 1, 'frontier/B1152_suite_cost_class': 1, 'frontier/B1153_peripheral_and_superposition': 1, 'frontier/B1154_seam_y': 1, 'frontier/B1155_seam_a': 1, 'frontier/B1156_seam_a_gate2': 1, 'frontier/B1157_dynamics_null': 1, 'frontier/B1158_cloud_wave2_harvest': 1, 'frontier/B1170_arena_rescope': 1, 'frontier/B1171_seam_harvest': 1, 'frontier/B1172_lose_nothing_register': 1, 'frontier/B1173_digest_partial_close': 1, 'frontier/B1174_z2_identification': 1, 'frontier/B1175_charter_close_harvest': 1, 'frontier/B1176_record_surface_wave': 1, 'frontier/B1177_instrument_bundle': 1, 'frontier/B1178_l184_lazyfy': 1, 'frontier/B1179_outreach_and_papers': 1, 'frontier/B1180_family_retraction': 1, 'frontier/B1181_amphichirality_closure': 1, 'frontier/B1182_c4prime_resolved': 1, 'frontier/B1183_one_class_theorem': 1, 'frontier/B1184_quine_synthesis': 1, 'frontier/B1185_yukawa_three_mechanisms': 1, 'frontier/B1186_family_is_112': 1, 'frontier/B1187_depth_closure': 1, 'paper/structure-genesis-first': 27})
+- log chunks landed: **11 / 11** ({'docs/progress/PROGRESS_2026-Q2.md': 2, 'PROGRESS_LOG.md': 7, 'docs/progress/REVIEWS.md': 2})
+- test packets landed: **14 / 14**; test records: 1122 / 1122
+- log consistency: {'NOT_IN_LOG': 323, 'DRIFT': 80, 'CONSISTENT': 793, 'CONTRADICTION': 23}
+- belts: {'NONE': 420, 'RECOMPUTES': 448, 'RE-READS': 285, 'UNCLEAR': 66}
+- test lock types: {'NOT_A_TEST': 7, 'RECOMPUTES': 763, 'COMPARES_TO_STORED': 326, 'TAUTOLOGICAL': 17, 'SKIPPED_OR_XFAIL': 2, 'SMOKE': 7}
+<!--/COV-->).
 
 ## 2. The log versus the arcs — verified contradictions
 
@@ -79,7 +87,71 @@ measurable quantity. "No observable content."
 
 ## 5. The reader red flags by kind (auto, `SUMMARY.md`)
 
-KINDS_PLACEHOLDER
+<!--KINDS-->
+arcs digested 1219/1310, red flags 2371, absence claims 1374, load-bearing claims 2794 (of which not (COMPUTED, yes): 1009), log entries 1054, owner elections captured 188, tests 1122.
+
+**Red-flag kinds:**
+
+- OTHER: 375
+- MISSING_WITNESS: 250
+- IDENTIFICATION_BY_TYPE: 139
+- SUPERSEDED_UNMARKED: 121
+- CLAIM_EXCEEDS_COMPUTATION: 63
+- NUMERIC_ONLY_NO_EXACT: 62
+- RETRACTION_NOT_PROPAGATED: 58
+- LOG_DRIFT: 55
+- GITIGNORED_WITNESS: 39
+- NO_TEST: 34
+- SELF_REFERENTIAL_LOCK: 26
+- FITTED_VALUE: 20
+- IMPORTED: 15
+- NONE: 1
+
+**Arcs with the most flags (top 40):**
+
+- B796_coupling_campaign: 9
+- B651_wave3_integration: 7
+- B775_phase2_wave1: 6
+- B646_wave2_integration: 5
+- B674_generation_leg: 5
+- B754_p2_spectral: 5
+- B530_natural_history: 4
+- B532_last_echo: 4
+- B660_structure_campaign: 4
+- B662_successor_campaign: 4
+- B666_leads_campaign: 4
+- B670_anatomy_full: 4
+- B673_loop4_integration: 4
+- B771_phase1_wave1: 4
+- B783_observer_ground_zero: 4
+- B921_branch_harvest: 4
+- B1041_the_red_locks: 4
+- B8068_j2t_charge_field: 4
+- B62_opposition_involution: 3
+- B357_e6_boundary_restriction: 3
+- B469_breath_campaign: 3
+- B485_metallic_apoly_family: 3
+- B529_qca_covariance: 3
+- B560_crossseat_campaign: 3
+- B578_debt_clearing: 3
+- B598_l85_campaign: 3
+- B599_selection_rule: 3
+- B632_cubic_route: 3
+- B645_dial_law: 3
+- B653_phase_c_probe: 3
+- B656_digest_integration: 3
+- B657_invariant_line: 3
+- B672_grading_hunt: 3
+- B676_dps_sweep: 3
+- B685_generation_terminal: 3
+- B720_coupling_path: 3
+- B760_qp4_closure: 3
+- B768_correspondence_crosstest: 3
+- B773_chord_recompute: 3
+- B774_chord_pass: 3
+<!--/KINDS-->
+
+
 
 The `IDENTIFICATION_BY_TYPE` count (55 at this draft) is the seat's standing concern in the owner's own words
 ("a bit-vs-value type match is a licence to ask, not evidence"): the readers found it in arcs from B62

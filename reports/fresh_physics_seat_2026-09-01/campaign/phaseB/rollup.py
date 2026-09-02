@@ -50,8 +50,10 @@ lc = collections.Counter()
 belts = collections.Counter()
 for a in arcs:
     nm, src = a.get('arc'), a.get('source')
-    lc[a.get('log_consistency')] += 1
-    belts[a.get('belt')] += 1
+    _l = str(a.get('log_consistency') or '').strip().upper()
+    _l = next((k for k in ('CONTRADICTION', 'DRIFT', 'NOT_IN_LOG', 'CONSISTENT') if _l.startswith(k)), _l or 'UNSTATED')
+    a['_lc'] = _l; lc[_l] += 1
+    _b = str(a.get('belt') or '').strip().upper(); _b = next((k for k in ('RECOMPUTES', 'RE-READS', 'NONE', 'UNCLEAR') if _b.startswith(k)), _b or 'UNSTATED'); belts[_b] += 1
     for r in a.get('red_flags', []) or []:
         k = r.get('kind') if isinstance(r, dict) else 'OTHER'
         det = r.get('detail') if isinstance(r, dict) else str(r)
@@ -68,7 +70,7 @@ for a in arcs:
         k = str(l.get('kind', '')).upper(); rep = str(l.get('reproducible_from_committed', '')).lower()
         if not (k.startswith('COMPUTED') and rep.startswith('yes') and 'numeric only' not in rep and 'not' not in rep.split('yes', 1)[1][:40]):
             lb_un.append(row)
-    if a.get('log_consistency') in ('DRIFT', 'CONTRADICTION'):
+    if a['_lc'] in ('DRIFT', 'CONTRADICTION'):
         disc.append(a)
 
 tsv('red_flags.tsv', ['arc', 'source', 'kind', 'detail'], red)
@@ -79,8 +81,8 @@ tsv('load_bearing_unrecomputed.tsv', ['arc', 'source', 'kind', 'reproducible_fro
 with open(os.path.join(S, 'log_discrepancies.md'), 'w', encoding='utf-8') as f:
     f.write('# Arcs whose reader found the progress logs and the arc files in DRIFT or CONTRADICTION\n\n')
     f.write('(%d arcs of %d digested; NOT_IN_LOG = %d, CONSISTENT = %d)\n\n' % (len(disc), len(arcs), lc['NOT_IN_LOG'], lc['CONSISTENT']))
-    for a in sorted(disc, key=lambda a: (a.get('log_consistency') != 'CONTRADICTION', a.get('arc'))):
-        f.write('## %s (%s) — %s\n\n' % (a.get('arc'), a.get('source'), a.get('log_consistency')))
+    for a in sorted(disc, key=lambda a: (a['_lc'] != 'CONTRADICTION', a.get('arc'))):
+        f.write('## %s (%s) — %s\n\n' % (a.get('arc'), a.get('source'), a['_lc']))
         f.write('- **claim of record:** %s\n' % re.sub(r'\s+', ' ', str(a.get('claim_of_record'))))
         f.write('- **log says:** %s\n' % re.sub(r'\s+', ' ', str(a.get('log_says'))))
         if a.get('seat_note'): f.write('- **reader note:** %s\n' % re.sub(r'\s+', ' ', str(a.get('seat_note'))))

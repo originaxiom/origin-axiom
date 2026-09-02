@@ -1,6 +1,6 @@
 # Arcs whose reader found the progress logs and the arc files in DRIFT or CONTRADICTION
 
-(83 arcs of 1028 digested; NOT_IN_LOG = 292, CONSISTENT = 649)
+(103 arcs of 1219 digested; NOT_IN_LOG = 323, CONSISTENT = 793)
 
 ## B1012_branch_verifications (main) — CONTRADICTION
 
@@ -31,6 +31,36 @@
 - **claim of record:** PROVED — 'NAMING A MECHANISM DID NOT GATE IT -- REVIEW 42'S GOVERNING FINDING RECURRED WITHIN TWO DAYS ... three red locks (B511/D3.3, B646, B616) sat behind an 81-minute test suite that gates never covered; all three failures order-independent, reproducible in isolation in <2s.'
 - **log says:** PROGRESS_LOG.md / REVIEWS.md entries under 'B1041' actually describe a DIFFERENT arc ('the θ-leg exhibited with its typed obstruction', 'oblique cube identification') — apparent B-number collision; log does not mention red locks, the 81-minute suite, B511/D3.3, B646 or B616 at all.
 - **reader note:** This is pure test/CI-infrastructure auditing (suite runtime, gitignore/manifest hygiene, float-boundary lock design) with zero measurable physics content — its physics relevance is only that it exposes how 'STILL-AMBIGUOUS' verdicts elsewhere in the corpus can rest on backend-dependent float comparisons rather than exact arithmetic. The log-index mismatch (entries about a different-content B1041) means this arc's claims have not been cross-checked by the project's own review process at all.
+
+## B1175_charter_close_harvest (frontier/B1175_charter_close_harvest) — CONTRADICTION
+
+- **claim of record:** OPEN — THE CHARTER-CLOSE HARVEST: cloud's Addendum 1 moves every gravity-charter row; codex delivers R020 (principal beat leaks V64)/R021 (Gieseking Pin- restriction constant)/R022 (V4 named-action audit, confirms the branch-vs-being×hearing separator exactly).
+- **log says:** PROGRESS_LOG B1175 (2026-08-27): cloud filed Addendum 1; codex R020/R021/R022. B1215 (2026-08-29) log entry: 'B1175's wrapper re-runs nothing at all, echoing conclusions for certificates that live on codex's branch and are not vendored' — one of 'four dishonest wrappers fixed'.
+- **reader note:** This arc is the repo's own documented example of a dishonest wrapper (self-caught by B1215): the reproduce.sh header candidly admits it re-runs nothing, yet the FINDINGS/verdict text above it in the same directory was never edited to stop claiming REPRODUCES.
+
+## B1181_amphichirality_closure (frontier/B1181_amphichirality_closure) — CONTRADICTION
+
+- **claim of record:** OPEN — THE AMPHICHIRALITY DEBT CLOSED: cc3 reports 83 of 83 family members amphichiral, zero exceptions, spot-verified here 5/5 by the mirror-isometry method (deliberately not isometry_signature, called out as a known vacuity trap); registers 'THE ONE-WAY FAMILY TEST' as a method-law.
+- **log says:** PROGRESS_LOG B1181 (2026-08-27): amphichirality debt closed (83/83) + the one-way family test law. Review 51 / B1207 log also note 'the buggy python insert whose success message lied (B1181) — caught by the test.'
+- **reader note:** This is the single most consequential finding in the batch: a headline claim ('83/83 amphichiral, zero exceptions') that the arc itself frames as having deliberately avoided a known vacuous-check trap, turns out to BE a vacuous check by a different mechanism, and the true fraction is 38/112, not 100%. The correction is already in-repo (B1186 addendum) but this arc's own FINDINGS/verdict text remains uncorrected.
+
+## B1186_family_is_112 (frontier/B1186_family_is_112) — CONTRADICTION
+
+- **claim of record:** PROVED — the family-definition cell closed: two nested criteria (all-regular-ideal, |A|=77; shape field in Q(sqrt-3), |B|=112); corrects cc3's B8152 count of 111 by one member (t06829, exactly certified symbolically); cc3 adopted the correction same day.
+- **log says:** PROGRESS_LOG B1186 (2026-08-27): the family-definition cell CLOSED, THE FAMILY IS 112. Review 51: family thread settled at 112. A later B1214 audit (2026-08-29) reviewed and confirmed creates_law=false for this arc as a VERIFICATION-class arc.
+- **reader note:** The core census/nesting/exact-certification math (77 vs 112, t06829's symbolic gluing certificate) is genuinely strong, independently computed work with a real self-caught precision bug narrated honestly. But the arc's amphichirality headline is now known false (38/112, not 112/112) via this campaign's own same-day addendum, and the committed reproduce.sh/family_census.json have not been corrected to stop asserting it — an uncorrected false claim sitting in currently-passing verification code.
+
+## B1196_close_loop_batch5b (main) — CONTRADICTION
+
+- **claim of record:** PROVED -- CLOSE-LOOP BATCH 5B: (1) D2 adjudicated different (B891 sectors are a distinct cubic-carrier structure, not trinification); (2) THE SELECTOR RESOLVED into three-regime dichotomy, sigma and lambda on the non-normalizable side 'which is WHY they are anchors'; relational bit selector-free (8/8 conjugators); (3) cosmology ledger created (395 lines). Gate 5 clean.
+- **log says:** PROGRESS_LOG.md (2026-08-28): 'the eight-item missing list FULLY DISPOSITIONED.' A later entry, 2026-08-30 (B1220 premise audit), explicitly notes: 'B1196's verdict line contradicts its own GC-27 cell on lambda (dated addendum)'.
+- **reader note:** This arc contains a rare, admirable self-correction (a dated addendum explicitly naming its own overstatement, citing the exact downstream harm it caused -- B1220's gate), but the correction lives only as a bolt-on note; the verdict-of-record (arc_verdict.json) that downstream surfaces actually quote was never itself amended, so the wrong summary keeps propagating structurally even though everyone who reads the addendum knows better.
+
+## B1198_lee_motives_retrieval (main) — CONTRADICTION
+
+- **claim of record:** OPEN -- 'THE SPECIALIST BAR'S LITERATURE HALF': retrieves Dong Uk Lee arXiv:2502.11950 (read only abstract + automated HTML summary, explicitly CITED/UNVERIFIED for the paper's mathematics); own half (Vol(m004) L-value/regulator identity) computed fresh at 40 dps; states 'the tangential base point is NOT canonical' as a retrieved fact and structural analogy to the program's missing W0.
+- **log says:** PROGRESS_LOG.md (2026-08-28): 'B707's never-run Lee's motives test retrieved.' PROGRESS_LOG.md (2026-08-28, same day, B1201): 'THE LEE VERIFICATION CORRECTS B1198 ... the tangential base point is NOT free for 4-1 -- it is unique ... B1198's claim is withdrawn as stated, and the hoped Z/2-contact is killed.'
+- **reader note:** A literature-retrieval arc that graded itself honestly at CITED/UNVERIFIED and named its own verification step -- good practice -- but the correction that verification produced (same day, via B1201) already reverses the arc's central structural analogy, and the verdict-of-record still carries the reversed claim as its headline.
 
 ## B123_arithmeticity_m1 (main) — CONTRADICTION
 
@@ -91,6 +121,12 @@
 - **claim of record:** verdict='PROVED'; claim_one_line: 'Cell 1: imposing Y-compose-sigma* = conj(Y) over Q(sqrt-3) forces the ratio Y[023] = 24*zeta6*Y[123], which B638's swap law alone had left undetermined in 10 real dimensions.'
 - **log says:** REVIEWS.md R20-5 resolved by dissolution 2026-07-16: the 24zeta6 magnitude is basis-GAUGE (any unit achievable); the invariant content is the unit cross-ratio law; PROGRESS_LOG records cell1 reduction to 6 real dims (not forced), cell2 anomaly characterization Y = 1/2 conj(chain defect), cell3 gauge dissolution.
 - **reader note:** This arc's real conclusion (cell 3) is a good, refreshingly humble physics move: it shows a previously-banked-looking numeric coincidence ('24*zeta_6') is a basis-gauge artifact with no mechanism required, leaving only the unit cross-ratio as invariant content. But the machine-readable verdict.json flatly misstates this as the ratio being 'forced', directly contradicting the arc's own FINDINGS text — any downstream consumer reading only arc_verdict.json would get an actively wrong physics claim.
+
+## B720_coupling_path (main) — CONTRADICTION
+
+- **claim of record:** verdict NEGATIVE: "Three discrete-to-continuous bridge programs (Connes-Marcolli renormalization, holography, positive geometry) are NO-MATCH to the object for independent reasons, reconfirming B706; the two arithmetic leads stay unbuilt."
+- **log says:** Multiple later log entries (2026-07-30 B828, B830) explicitly flag this exact arc as defective: 'B720 is LIVE: its directory contains NO scripts and its lock test_three_nomatch_are_principled_not_adhoc is a LABEL-LOCK -- assert len(set(reasons.values()))==3 over three string literals the test itself defines, which CANNOT FAIL; it verifies that three different strings were typed, and its one real computation (h(-3)=1) supports a LEAD, not the negative.' B830 log says 'five computed locks replace B720's label-lock.'
+- **reader note:** This arc is a pure literature/argument survey with no in-repo computation, and the project's own later self-audit (B828/B830) already caught and named this exact defect — an important corroboration that the seat's read-discipline concerns are well-founded, but the arc_verdict.json here was never corrected to reflect it. Physics content is zero: no observable, no derived SM quantity, and the underlying claim (three research programs don't match the object) is asserted from citations, not computed.
 
 ## B872_coset_leg (main) — CONTRADICTION
 
@@ -158,11 +194,59 @@
 - **log says:** 2026-08-22 THE REGULATOR DOOR CLOSES (B1137, R48-3), owner-directed sealed prereg; B1207 (2026-08-29) separately found the on-bench PSLQ grid was opened in append mode with no resume logic, accumulating 648=3x216 cells while the aggregator mis-derived M_grid_cells=432, halving the Sidak alpha off an untested multiplicity -- a defect in this arc's own bench, found by a different arc.
 - **reader note:** The headline DISJOINT is a negative that the instrument cannot actually certify: the verification gate demands residual stability far beyond what any physically-measured constant's finite digit precision can ever supply, so a real relation involving a physical target would be rejected identically to a non-relation -- the addendum's planted-positive control makes this concrete and is not contested anywhere in the arc's own text. Until reclassified, DISJOINT is being cited elsewhere (this FINDINGS itself says it 'closes the value question from every route') as a completed negative when the correct PREREG-defined type is FLOOR.
 
+## B1155_seam_a (frontier/B1155_seam_a) — DRIFT
+
+- **claim of record:** OPEN (seam INDETERMINATE, leaning MISMATCH) — the sqrt3 hinge is a real finite/archimedean bridge over Q(sqrt-3), but the heterotic axiom does not (on banked evidence) collapse into the object's infinity-place; Gate 2 (cc3's full arithmetic-CS action) not satisfied.
+- **log says:** Gate 1 satisfied, Gate 2 not; verdict INDETERMINATE leaning MISMATCH. A LATER arc in the same batch (B1156) reports: 'B1155's leaning MISMATCH WITHDRAWN — the a-priori MISMATCH... refuted (2 of 3 lenses)'.
+- **reader note:** The sqrt3 hinge is a genuine, checkable arithmetic coincidence at the level of committed structure; the arc's own 'leaning MISMATCH' framing is stale by the project's own later account (B1156) and a reader landing only on B1155 would not know this without cross-referencing the next arc number.
+
+## B1161_frontier_sweep (main) — DRIFT
+
+- **claim of record:** verdict OPEN; claim_one_line: headline unification 'the bypass door IS SEAM-A' — the crown cell (force branch selection P1/P2 object-intrinsically) is NOT-FORCED and PROVED IRREDUCIBLE by a free-orbit theorem (V4=Gal(H/Q) acts freely+transitively on 4 branches); an archimedean marking would break the orbit and is exactly SEAM-A's missing W0. Six cells: P1/P2 NOT-FORCED, L132-B892 CONVERGES, SEAM-A-seal NEEDS-SPECIALIST (PSLQ sealer proved vacuous), down-Yukawa BENCHABLE/WITHHELD, generation-index NULL.
+- **log says:** B1161: the frontier sweep (compute-all-we-can); the bypass door IS SEAM-A. 6-cell workflow, load-bearing cells re-verified on-bench. Later: label relabeled SUPPORTED-CONJECTURAL (R50 cold-audit correction), then further PROVED-AS-DECOMPOSED (B1183).
+- **reader note:** A genuinely substantive negative (branch selection is provably irreducible under Galois symmetry) is real and reproducible in its PSLQ-vacuity and generation-NULL cells, but the arc's flagship claim — identifying two open problems as literally 'the same obstruction' — was walked back by the arc's own later self-audit to merely conjectural, and that walk-back never touches the primary claim-of-record text a downstream reader would see first.
+
+## B1162_mssm_debt_closure (main) — DRIFT
+
+- **claim of record:** verdict OPEN; claim_one_line: codex's height-308 MSSM witness 'VERIFIED on our own bench' (Sage; H0(Y,V)=0, C372->C312 rank gate=312 surjective, char-0 local freeness) now dual-homed; integrates cloud's 5/5 MSSM-debt closure (D1 alignment, D2=B1160, D3 unique breaking chain, D4=one generation confirming B1161, D5 SUSY no-go); synthesis: structure forced across the whole visible sector, dynamics/values withheld.
+- **log says:** B1162: the MSSM-debt closure (cloud D1-D5) + the height-308 witness verified on-bench. Bank-grade: the witness (sage), D1, D4=B1161, D2=B1160.
+- **reader note:** This is the strongest concern in the batch: the arc's headline upgrade (single-homed relay -> own-bench Sage verification) is not actually demonstrated by the committed reproduction script, which merely echoes a pre-existing text file rather than running Sage — the claim of independent verification exceeds what the committed artifact shows a stranger could reproduce.
+
+## B1164_cc_masterplan (main) — DRIFT
+
+- **claim of record:** verdict OPEN; claim_one_line: MA2 the observer freedom = 2 discrete bits (orientation sqrt-3, sqrt3 hinge) + 1 continuous (Cx scale) — 'all archimedean' framing in the title; MD1 firewall pin principled and falsifiable; ME3 phase-trivial marking does not break the orbit.
+- **log says:** B1164: cc's part of the A-E masterplan (parallel to cloud's five; MC1->codex). Owner relayed cloud's A-E division of labor + GO.
+- **reader note:** A textbook case of a retraction correctly filed as an append-only addendum but never propagated into the base document's title or prose, which still reads as if the retracted 'all archimedean' finding stands; the arc's own self-audit later (Review 50) explicitly lists this as one of two synthesis over-reaches this seat made, which is commendable transparency but does not fix the unedited FINDINGS.md text.
+
+## B1192_close_loop_batch4 (main) — DRIFT
+
+- **claim of record:** PROVED -- 'THE CLOSE-LOOP BATCH 4 -- THE RELATIONAL BIT EXISTS ... eps(A,M1)=-1 ... X0 induces the nontrivial Galois element on BOTH spectral fields simultaneously ... THE CLASS RESTRICTS TO c ... GC-17 PARTIAL; GC-18 adjudicated; GC-19 PARTIAL; GC-20 PROVED. Gate 5 clean.'
+- **log says:** PROGRESS_LOG.md (2026-08-28): 'the campaign's crown positive (lens-scoped)': eps(A,M1)=-1 realizer rank1 det-1, single-signed, restricts to c, trace-invisible 340/340, two-sided controls.
+- **reader note:** The exact linear-algebra computation of eps(A,M1)=-1 for the specific pair is solid and reproducible; but the flagship interpretive claim ('the class restricts to c') leans on a clause since shown to be a vacuous truism, and the verdict-of-record was never corrected to reflect that -- a stranger reading only arc_verdict.json would come away believing more was shown than survives.
+
+## B1195_close_loop_batch5a (main) — DRIFT
+
+- **claim of record:** PROVED -- CLOSE-LOOP BATCH 5A: (1) SEAM-A CS=0 door sharpened; (2) LAMBDA PLACED (P1 confirmed, P2/KMS-BTZ excluded); (3) E6-lattice cusp route dead structurally, cloud's algebraic half lives; (4) relational bit's law found -- kappa(A,M) governs, same invariant as existence obstruction; (5) P^3 line permanent-at-current-knowledge, dim_C P(B_0)=3. Gate 5 clean.
+- **log says:** PROGRESS_LOG.md (2026-08-28): 'three of the eight closed or decided; the bit's law IS the founding invariant.' Later entries (B1205, B1208, B1212) confirm the P^3/dim-1 status and that GC-25's verdict is 'neither hardened nor overturned' by later cross-checks.
+- **reader note:** Every one of the three GC cells actually sampled here (GC-21, GC-22, GC-25) carries a self-documented defect strong enough that its own internal adversarial pass marks the claim 'refuted as stated' at some level, yet the arc's verdict and the FINDINGS.md/verdict json headline still report all five cells as PROVED/decided/permanent without surfacing any of these three specific defects to the reader who only opens FINDINGS.md.
+
+## B1206_one_condition_short (main) — DRIFT
+
+- **claim of record:** OPEN (a bounded counting result) -- 'THE P^3 IS EXACTLY ONE CONDITION SHORT': the object's 1.10.10 cubic term supplies exactly one canonical linear functional on B_0 (via H_u being 1-dim and only one of the 27's two neutrals coupling per a memo-80 measured row); combined with B1205's cubic, the cut ledger goes 3->2->1, landing one short of points (0). Names three candidate closers (N2's own count; doublet-triplet splitting, typed EXTERNAL; the lambda-term's own rank on B_0) without claiming any of them.
+- **log says:** PROGRESS_LOG.md (2026-08-29): matches. CRITICALLY, a LATER arc, B1208 (2026-08-29, read as log-only in this pass), reports: 'B1206's own named cheapest closer of the P^3 cut ledger is closed negatively: rank 1 is impossible for a doublet-doublet-singlet coupling, so the fork's branches were impossible and always' AND 'B1206's candidate (iii) was an MB12 violation -- a discriminator proposed without checking its discriminating value was reachable' AND 'B1206's ledger stands at dim 1, all three candidates negative and their space closed.'
+- **reader note:** A precise, well-scoped counting result (properly labeled OPEN, not PROVED, and explicit that it asserts no physical value) whose own headline three-way fork for future work is later shown, by a downstream arc, to contain one structurally dead branch that was never actually reachable -- this arc's own files never record that correction, so anyone reading only this arc would not know.
+
 ## B120_tower_determination (main) — DRIFT
 
 - **claim of record:** PROVED — The trivial-point tower is fixed by (n; trace, det) alone; the height-count closed form and the forced doubling range {2..n-3} are established.
 - **log says:** PROGRESS_2026-Q2 2026-06-07 banks Chat-2 Q2/Q3 + Supplement S1-S5, verify-don't-trust, correcting three of the handoff's formulas; PROGRESS_LOG 2026-07-24 promotes B120's height-count closed form to LAW_MAP 'as a law rather than a theorem because its arc states it with no proof-strength tag', with a recorded near-miss where cc's own transcription mis-ordered the clauses at n=2 and produced a false mismatch, caught and attributed correctly to cc's own error.
 - **reader note:** Solid corrective work (fixes three wrong formulas from an external handoff with concrete counterexamples/verifications), and it is exactly the kind of arc later independently re-verified by a reviewing pass rather than trusted — the one discrepancy is a verdict-label/proof-strength mismatch between this arc's own PROVED tag and the later review's more cautious 'law' relabeling.
+
+## B1229_the_consistency_turn (main) — DRIFT
+
+- **claim of record:** verdict OPEN -- 'THE CONSISTENCY TURN ... sigma becomes ONE BIT: R+ -> 7 -> 2' via RCFT rationality (Anderson-Moore/Vafa) + MMS classification + the object's Z/3; includes an in-file 2026-09-01 'VERIFIED' section citing B1231 that already calls the 'robust core' CONDITIONAL
+- **log says:** 2026-08-31 -- B1229: THE CONSISTENCY TURN. Owner asked for a completely different approach and for research, not computation. [Later log entries under B1230 and B1231 record that B1230's C-5 'refuted B1229: c=6 has four solutions, not one' and B1231 found the Anderson-Moore/Vafa premise is a physics-argument, unread, that does not automatically cover a CS boundary.]
+- **reader note:** The central 'sigma becomes one bit' result rests on a premise (RCFT rationality forcing discreteness) that is explicitly downgraded to physics-argument grade in the arc's own text and later shown by a sibling arc to be logically empty (Q is dense); as banked, this arc overstates what its own later-appended correction section already concedes.
 
 ## B131_two_seed_fork (main) — DRIFT
 
@@ -366,6 +450,42 @@
 - **claim of record:** PROVED — "h¹(M;27_ρ)=3 exactly over ℚ(ω): a graded three-slot cohomological generation structure (spins 0,4,8) plus a canonical invariant vev."
 - **log says:** Cell 1: h1(M;27)=3, THREE-generation cohomological multiplicity EXISTS (B308's gate opens). Cell 2: C unique, vev couples to all three slots, solo texture antisymmetric; corrected by external audit to Omega rank-2/kernel-1 (not 'full'); v0 relabeled 'invariant-section generator' not 'forced vev'; three H1 summands relabeled 'three inequivalent local-system modes' not 'generation slots' (explicitly: 'three copies of one representation is exactly what this is NOT').
 - **reader note:** The underlying mathematics (h1=3, the cubic invariant, the alternating Omega of rank 2) appears genuinely computed with real independent verification, but the physics-facing framing in the arc_verdict.json and FINDINGS.md's own section headers still uses language ('generation structure', 'forced vev') that the arc's own later correction explicitly disowns as overstated — a stranger reading only the verdict file would get the retracted claim.
+
+## B660_structure_campaign (main) — DRIFT
+
+- **claim of record:** "Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v0-mediated trilinear, closing the last class-level mass-shape route." / status: NEGATIVE
+- **log says:** S1 THE GAMMA5' CORRESPONDENCE banked as PLACEMENT: the framework derives the group (B640/B644), supplies the Galois pair as its one bit (GATE B), and carries phi at the same locus -- CONSISTENT-NOT-SELECTIVE + the upstream claim; packet seals 8/8; a later log entry (2026-07-17 B662) records a CORRECTION propagated: B660/S4's 'solo block exactly zero' was BASIS-LOCAL, the invariant content (antisym, rank 4, 1-dim kernel) transports; a 2026-08-26 entry cites B660 among sectors confirming the scale wall.
+- **reader note:** S2 and S4 are genuine committed exact-arithmetic computations with reproducible witnesses; S1 and S3 are structural-correspondence and assembly arguments importing claims from outside this packet, and S1's headline sin^2(theta12)=1/(2phi) 'novelty' rides on the same unreproducible B659 literature sweep. The uncorrected S4 'exact zero' claim, later flagged elsewhere as basis-dependent, is the arc's sharpest integrity issue.
+
+## B674_generation_leg (main) — DRIFT
+
+- **claim of record:** arc_verdict.json: verdict NEGATIVE; claim_one_line: 'Route 1 misses: the Γ(5) twisted tower is trace-silent (tr(A1*|H^1(Sym^m))=0 for all m), though its modular lift is the golden order-10 rotation with trace φ.'
+- **log says:** 2026-07-18 — B674 route 1 (Eichler-Shimura): MISS — the tower is trace-silent; tr sigma(A1) = phi. Same content as FINDINGS.md; log entries do not mention the later W2 Molien-cell kill or the W3/PREREG_W3_RUN campaign that occupies most of the arc's files.
+- **reader note:** This is one of the most rigorous negative-result arcs sampled: two clean, independently-verified kills (route-1 trace-silence, then the W2 Molien-cell 5-adic kill) plus an honest, currently-unresolved third attempt whose own authors flag a live circularity risk in the one candidate that has not yet died. All content is structural mathematics (modular forms, Galois theory, elliptic curves) with SM-physics naming explicitly and consistently firewalled (Gate 5) -- there is no observable physics claim anywhere in this arc, and the arc's own governing documents insist stages 3-4 (actual physics) stay unopened pending a mathematical result that, as of these files, has not yet been obtained. The one real reporting problem is that the arc's canonical claim-of-record (FINDINGS.md/arc_verdict.json) is frozen at the earliest sub-result and does not surface the arc's own subsequent, more decisive/interesting work or its still-open question.
+
+## B676_dps_sweep (main) — DRIFT
+
+- **claim of record:** no verdict file (has_verdict: false; no arc_verdict.json present for this arc)
+- **log says:** PROGRESS_LOG.md: 'B676 BANKED: the R22-4 module-level-dps sweep (E12 class-wide)'; REVIEW 22 marks R22-4 'DONE' — 'the sweep grew to 18 import-wraps + per-file pinned fixtures + a conftest collection-finish guard; two MASKED leakers (b246, b250) unmasked and repaired'; REVIEW 23 says 'the full pytest suite (2428 locks) NOT re-run this review — trusted-green from B676's in-window 2428/0 baseline'.
+- **reader note:** This is purely infrastructure/hygiene work (a pytest global-state leak fix), not a physics claim, but its own evidentiary standard falls short of the discipline seen elsewhere in this corpus: the file specifically reserved for the decisive full-suite confirmation was committed empty and never followed up, while later review text treats the result as an established green baseline.
+
+## B684_loop7_close (main) — DRIFT
+
+- **claim of record:** verdict claim_one_line: 'Loop 7 closes the anatomy: the generation sum rule is derived as a theorem of the cubic shadow and the dark D4 value is identified exactly.' status: PROVED
+- **log says:** 'B684: LOOP 7 CLOSED + ATLAS v2 integrated... the discovery phase complete per the CHARTER.' A much later entry (2026-08-19, second bank) reports: 'B684's ladder k-defect caught by four builds' (B1072), and Review 47's action items still list open: 'R47-6: B684's full ladder re-derivation (the k-indexing defect's completion).'
+- **reader note:** G3's dark-cell identification is solid and independently locked by a committed sympy test, but G2's headline silver-ratio value is now known (by the arc's own later addendum) to carry a k-indexing defect that the verdict file was never updated to reflect, and three of the four sub-cells (G1/G2/G4) have no reproducible artifacts in this repo path at all.
+
+## B685_generation_terminal (main) — DRIFT
+
+- **claim of record:** claim_one_line: 'Neither intrinsic realization carries 5-adic structure (modular coefficients are algebraic integers; the Habiro/Nahm object is integral away from 3), so no framework-derivable generator produces the flavor streams.' status: NEGATIVE
+- **log says:** The generation leg 'closes as a terminal no-go theorem' (2026-07-18); but the log's own later entries (B741 2026-07-21, B828 2026-07-30, B839 2026-07-30, B776 2026-07-24, B1187 2026-08-28) show the GSWZ 3-integrality claim was 'cited, not in-repo' at banking time, its original lock (test_gswz_powers_of_three) was 'genuinely vacuous... unfailable', was partially reconstructed from first principles by B776/B800, and 3-integrality is still listed as 'the named remaining theorem' as late as 2026-08-28 (B1187).
+- **reader note:** The verdict's rhetoric ('terminal no-go theorem', 'PROVED... theorem') outran its committed evidence at banking time; the load-bearing GSWZ integrality fact was imported from a paper with a vacuous local test, and per the program's own later admission the underlying arithmetic claim is still not closed a month later. This is the single most consequential case in the batch of a claim standing in the record well ahead of its committed proof.
+
+## B717_observer_emergence (main) — DRIFT
+
+- **claim of record:** PROVED — "Capstone spine: the object supplies four incompletenesses (space, time, charge, value) and the observer supplies every closing — measurement is the symmetry-breaking choice."
+- **log says:** PROGRESS_LOG 2026-07-19 describes it as a synthesis arc assembling B713-B716 + cc2's child. Later, B1000/B1001 (2026-08-09) states: "Sealed and pushed before compute...the declared prior OUTCOME B, >4 — expected to correct B717. Three incompatible counts existed and no arc reconciled them (B717: 4, B300: 8, sweep: ~8). Result: 5 CLOSINGS, 3 ARTIFACTS...exactly four distinct sectors, matching B717. B717's four is right as a count of SECTORS and wrong as a count of CLOSINGS." B944/B945 separately probe whether TIME and CHIRALITY collapse into one closing and conclude "B717's spine stands unamended."
+- **reader note:** This is a narrative capstone, not a computation — its physics content is entirely derivative of B713-B716 and the child arc, and its headline 'four incompletenesses' count is later softened by B1000/B1001 without B717 itself being updated. Treat B717 as a summary index, not independent evidence.
 
 ## B759_qp3_integration (main) — DRIFT
 
