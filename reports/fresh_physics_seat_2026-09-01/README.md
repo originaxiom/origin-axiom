@@ -58,3 +58,7 @@ directly. Every file below carries its second-pass corrections in place, marked.
 ## 2026-09-02 — Phases C and D (recompute of the unreproduced load-bearing tier; off-main certificates)
 
 See `campaign/phaseC/SYNTHESIS.md` (judgments), `campaign/phaseC/results/` and `campaign/phaseD/results/` (agent digests), `recompute/R42`–`R52` (seat cells), and the relay note `relays/FAB5_TO_CC_2026-09-02_phaseB_findings.md` §1 (added rows), §2b. The one banked claim that falls: the family-wide amphichirality closure (R51).
+
+## 2026-09-02 — Phase E (red flags verified at the source)
+
+`campaign/phaseE/IDENTIFICATION_LEDGER.md` — every uncaught identification-by-type, claim-exceeds-computation, fitted value and self-referential lock judged; relay §2c.

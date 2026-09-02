@@ -1,4 +1,4 @@
-# Phase E — the identification ledger (seat's judgment on every UNCAUGHT flag; part 1, packets landed so far)
+# Phase E — the identification ledger (seat's judgment on every UNCAUGHT flag; 62/62 packets)
 
 Vocabulary. **Spine**: does the flagged sentence sit on the chain the thesis needs (combinatorics → m004 → ℚ(√−3)/2T →
 E6 → 27 → SM-shaped bookkeeping → any physical reading)? **Licensed**: what the arc's own computation actually
@@ -62,4 +62,60 @@ prose constants, B752's uncited B285 trace. This is the REPRODUCES-string family
 side; nothing here is a wrong number, and none of it is evidence. Already relayed as a belt finding; the list above is
 the complete one for these kinds.
 
-(Part 2 — remaining packets — appended when the workflow completes.)
+
+
+## E. Part 2 — the remaining uncaught flags (packets E029–E061)
+
+Three of these the seat re-verified at the source before judging; they are marked ★.
+
+| # | arc | flag (verified) | spine | seat's judgment |
+|---|---|---|---|---|
+| 569 ★ | B673_loop4_integration | `d2_results.json` records `all_gates_pass: false`, `koszul_antisym_holds_all_slots: false`; FINDINGS, FRONTIER.md and arc_verdict (PROVED) report the D2 slot/sign rule as clean | yes — the 27⊗27 graded sign rule feeds the Yukawa/cubic story | **VERDICT CONTRADICTED BY OWN ARTIFACT**: the arc's machine record fails its own gate while its verdict says PROVED; relay row |
+| 1101 / 1102 ★ | B1082_order_comparison | the arc's own adversarial verifier returns `holds: false` (2 of 4 checks fail: E6-vs-SU(5)/SO(10) framing undisclosed; the dimension-chain "no inversion" is a tautology any nested chain passes); banked PROVED, only check (i) fixed | partly (the "chain DAG matches cosmological order" reading) | **VERDICT CONTRADICTED BY OWN VERIFIER**: the tautology finding (iv) was dropped silently; PROVED should be withdrawn or the mapping re-typed |
+| 940 ★ | B973_L135_frame | committed `rebuild.py` raises NameError (`_REPO` used before definition); only the scratch copy runs and gives 51/51 | no | RECORD: broken committed script, real number (the scratch copy reproduces) |
+| 410 | B552_z11_charge | 12-node transport is chat-2's, reproduced only for census systems; claim_one_line asserts full flow | no (value-side ℤ/11) | LABEL-ONLY |
+| 467 | B605_door2_involution | classify() prints "OTHER" for both families; FINDINGS says "ORDER-4 elements matching D4's coset structure" | no | CLAIM EXCEEDS OUTPUT: the script does not establish what FINDINGS says |
+| 520 | B651 P3_NOTE | the PSL(2,7) base case "IS the 3-dim irrep" by eigenvalue-fingerprint match {1,i,−i} | partly (the level ladder) | TYPE-MATCH-ASSERTED at the base case of the "not a theorem yet" chain |
+| 585 | B678_d4_annex | (n=4, κ=12) cell = √3−1 matching another campaign's number is called "verified exactly … three independent computations" | no | TYPE-MATCH-ASSERTED: a numeric coincidence across constructions, no derivation of why they coincide |
+| 668 | B754_p2_spectral | discriminant/palette/cyclic-order differences listed as "the key spectral mechanism" behind 17 KILL-EXTENDS | partly (kill graph) | TYPE-MATCH-ASSERTED as mechanism; the kills themselves are negatives and survive |
+| 679 / 680 / 681 | B760 / B761 / B762 | "awareness without choice", "no private states / Markov blanket", "quine / self-name" as verdict headings | no (qualia layer; the record's own firewall) | NARRATIVE LABELS on real computations (chord sign class, cohomology-dimension count, census uniqueness). B1169's own fence ("the identity is explicitly a chain") is the right reading; the headings should carry it. **No observable content.** |
+| 845 | B897_27_under_g20 | "lepton pattern" from dims 3 + 6 and C_w = 3/8 alone | yes (matter content) | TYPE-MATCH-ASSERTED: no hypercharge or isospin assignment computed; the pattern is a dimension match |
+| 954 | B982 | ID-collision as the root defect of a PROVED verdict | no (governance) | OK (a numbering collision is itself the finding here; consistent with the B1026/B1030 collisions the seat documented) |
+| 978 | B1011_mckay_tensor | kerχ/Z_I/Z_T typed in as literals 8, 2, 2 in the inclusion–exclusion; counts 992/284 "now a consequence" | partly (the C5 coupling counts) | FITTED-LITERAL: the counts match the incoming enumeration by construction; R02 recomputed the McKay tensor side independently |
+| 991 / 992 | B1025_input_derivability | branching multiplicities hardcoded and only sum-checked; "the object canonically nominates E6/E8" by ADE label match | yes (the input-count claim, I4) | LABEL-ONLY (re-verified = sum-check) and TYPE-MATCH-ASSERTED (ADE label = nomination); B1030 on the new-session head already contests the input count |
+| 995 | B1026_nomination | the case-by-case "0-bit structural selector vs priced choice" judgments live in unsealed code | partly (price list) | RECORD: the bit accounting is a judgment ledger, not a computation |
+| 1040 | B1042_trit_morphism | ω's ℤ/3 (field side) **is** the trit's ℤ/3 (VEV-acceptance orbit), PROVED | **yes — a spine identification** (arithmetic → algebra) | TYPE-MATCH-ASSERTED: character values in μ₃ + McKay tensoring + factor permutation are exhibited maps, but the claim "one structure" is the identification, and B1232's "Gal(ℚ(ζ₃)/ℚ) has order 2, not 3" already cuts the field-side ℤ/3; the join should be re-typed |
+| 1104 | B1090_partition_bridge | saddle of the partition function at e^z = ω "IS the founding field generator" | partly | OK as arithmetic (u²+u+1 = 0 is derived); the "IS" is a sentence about meaning, not a further computation |
+| 1107 | B1097_first_step_losses | "falsifiable prediction confirmed blind"; the lock is a toy parity check to N = 55 | no | LABEL-ONLY |
+| 1117 | B1110_spectral_cluster | "re-verified in exact arithmetic, error ~1e−91, N = 80 782" — no script anywhere produces it | no | RECORD: unscripted precision figure (as R-style checks found elsewhere) |
+| 1119 | B1111_w5_scoping | layer-3 stabilizer orders {8,16,24,96} exist only as prose | no | RECORD |
+| 1168 / 1179 / 1180 | B1162 / B1170 / B1171 | reproduce.sh only greps static witness/marker files, yet FINDINGS says "SAGE-verified on-bench", "verified three ways", "all five verified on this bench" | yes (the SM-end harvest chain) | RECORD, but consequential: the on-main "verified here" sentences for the height-308 witness, cc3's lane and codex R019 are not backed by committed reruns. **The seat's own R46/R47 reruns supply what these scripts do not** (r019, r017, cloud's certificates all pass here) — cite those instead |
+| 1177 | B1169 | AWARENESS = mirror-even placed in the "SOLID core"; the arc's own fences call it a chain | no | NARRATIVE LABEL (see 679) |
+| 1211 | B1195 batch5a | "V4 = Gal(ℚ(ζ₁₂)/ℚ) PROVED trivial by direct computation"; the nested cell file refutes it (three "Reg copies" represented as identical vectors) | partly | **VERDICT CONTRADICTED BY OWN CELL FILE** (the correction did not propagate to arc_verdict) |
+| 1221 | B1208 | "the mirror is precisely the operation the object cannot perform on itself, which is WHY" from a shared invariant κ∘g − κ = 0 | partly (mirror/orientation) | TYPE-MATCH-ASSERTED as explanation; the identity is fine, the "WHY" is a reading |
+| 1227 | B1213 | committed `_out.txt` shows 80 % / 2.67×; FINDINGS/verdict say 89 % / 2.29× | no (registry) | STALE-VERDICT (already in the Phase C table, #991) |
+| 1260 | B1234 | "same trace field ℚ(√−3)" for Gieseking is a hardcoded string, not computed | no | RECORD (true: R43 verified m000's double cover is m004; commensurability class disc −3) |
+| 1269 | B8071 | "three routes point at the same object" (dim-16 su(3)⊕su(3) vs Stab(B)₀) with no conjugacy check | yes (the F4 charge field) | TYPE-MATCH-ASSERTED — and B8068's own CELL_SUBALGEBRA says "isomorphic to Stab(B)₀ but not conjugate to it in F4" (sweep #1314): the arc's neighbour already refutes the "same object" reading |
+| 1314 | B8118 | SL(2,ℤ/3) ≅ 2T gated by \|G\| = 24 and one involution (necessary, not sufficient) | yes (the McKay attachment) | OK: the isomorphism is classical and true; the gate is weaker than its label |
+| 1355 | B8144 relay | F4(ℝ) → F4(ℤ) escape "is the theorem you already have" for the observer's adelic split | no (interpretive) | TYPE-MATCH-ASSERTED (group-theoretic type → cost bit) |
+
+**Self-referential locks, additional (record class):** B319, B742 (part), B754, B952, B953, B954, B1028, B1216, and the
+tests for B268, B776/B685, B783, B931–B933, B945, B946, B951–B954, B956–B961, B963–B965, B969, B975, B976, B978–B980,
+B1089, B1091, B1147–B1150, B1162, B1164–B1167, B1169, B1171–B1173, B1175, B1180, B1184, B1185, B1206, B1213. Same class
+as §D: locks that re-read their own artifact. Together with §D this is the full list of such locks among the flagged
+set; it is the belt finding of Phase B §3 made explicit test by test.
+
+## F. What the ledger says about the thesis
+
+- Of 152 uncaught flags, 20 sit on the spine. Of those, the identifications that carry weight in the paper-facing
+  story are exactly the ones the T2 rule names: "one E6 across three faces" (B312) is a label identity, not a map;
+  ω's ℤ/3 = the trit's ℤ/3 (B305, B1042) is an asserted join that B323 and B1232 already cut; "SU(4)₁ IS the silver's
+  stage" (B675), "the same object" (B8071) and the lepton pattern from dimensions (B897) are dimension/field matches.
+  None of them is refuted by this ledger; each is a licence to ask that the record carries as an answer.
+- Three verdict files contradict their own machine artifacts (B673 gates false, B1082 verifier false, B1195 cell
+  refutation) and one the seat found earlier (B778). The pattern is the same one Phase B §2 named: the verdict file is
+  written first and never re-read against the artifact.
+- The "verified on this bench" chain for the SM end (B1162/B1170/B1171) is backed by grep-locks, not reruns; the
+  seat's R46/R47 reruns are, as of today, the only third-party execution of those certificates on record.
+- Nothing here changes "no observable content": every uncaught identification is structure-to-structure, and the
+  three qualia headings (B760–B762) are names on computations, not measurements.

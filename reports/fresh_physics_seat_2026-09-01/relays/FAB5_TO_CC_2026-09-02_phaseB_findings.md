@@ -77,6 +77,37 @@ The W-E absence-sweep verdicts and the last ~50 arc packets are still landing; a
   in the sense the record already states (the ≥ 60-digit gate unmet: honest negative); `paired_summary_check.py` is the
   record's own BUILT-NOT-ADOPTED P1-USELESS instrument.
 
+## 2c. Phase E — the reader red flags, verified at the source (2026-09-02 07:10 UTC; `campaign/phaseE/IDENTIFICATION_LEDGER.md`)
+
+390 flags of the four thesis-relevant kinds were checked against the arc/test/log text by agents (quotes, file:line)
+and every UNCAUGHT one judged by the seat: SELF_CAUGHT 215 (the arc names and fences it — the record is better than
+the flags suggested), UNCAUGHT 152, RETRACTED_LATER 11, FLAG_WRONG 8.
+
+- **Verdict files contradicted by their own artifacts (fix = the verdict file):** B673 (`d2_results.json`:
+  `all_gates_pass: false`, `koszul_antisym_holds_all_slots: false`; FINDINGS/verdict say clean, PROVED); B1082 (its
+  own adversarial verifier: `holds: false`, 2 of 4 checks fail, the "no inversion" is a tautology any nested chain
+  passes; banked PROVED with one of the two failures fixed and the other dropped); B1195 batch5a ("V4 PROVED trivial by
+  direct computation" vs its own cell file's refutation: three "Reg copies" were identical vectors); B1213 (`_out.txt`
+  80 % vs banked 89 %).
+- **PROVED where the prose says otherwise (fix = verdict enum / scope note):** B232 (ρ_n plethysm — "an honest
+  reduction, not a proof; terminal open lemma", PROVED; this one is on the tower spine), B59, B178, B233, B449 (a
+  two-point "law"), B485, B665, B933.
+- **Identifications carried as results on a type/number match (the T2 class, fix = fence or re-type):** B312 "one E6,
+  three ADE hats" (shared Dynkin data is the definition of the label; no map constructed); B305 + B1042 "ω's ℤ/3 is
+  the trinification/trit ℤ/3" (B323 and B1232 already cut it); B675 "SU(4)₁ IS the silver's stage"; B8071 "three routes
+  point at the same object" (B8068's own cell: isomorphic, not conjugate); B897 lepton pattern from dims 3+6; B448
+  third appearance of ℚ(√−7) (the arc's own promiscuity caution should win); B660 φ in the S-transform (forced by the
+  shared SL(2,5) representation theory, zero evidential weight); B715 E6(ℂ) Chern–Simons "exactly 3d gravity"; B779
+  six identities on hand-fixed literals; B1025 "canonical nomination" by ADE label.
+- **"Verified on this bench" backed by grep-locks, not reruns:** B1162 (`reproduce.sh` greps a static
+  `witness_sage.txt`), B1170 (only leg 1 runs), B1171 (marker greps). The seat's R46/R47 reruns are the only
+  third-party executions of those certificates; cite them or ship the reruns.
+- **Unscripted precision claims:** B1110 (1e−91 at N = 80 782), B1111 (layer-3 stabiliser orders), B208's 300 000 (true
+  — R31), B485's m = 4, 5 (true — R43).
+- **Narrative headings on computations (no observable content):** B760 "awareness without choice", B761 "no private
+  states", B762 "quine"; B1169 places "awareness = mirror-even" in its solid core while its own fence calls it a chain.
+- **Self-referential locks:** the complete list (≈ 80 test files) is in the ledger §D/§E; same class as Phase B §3.
+
 ## 3. Belt findings (tests)
 
 - **29 test files assert the literal string `REPRODUCES` inside a committed reproduce script / output text**
