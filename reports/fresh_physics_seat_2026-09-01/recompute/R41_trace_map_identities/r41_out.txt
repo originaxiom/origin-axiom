@@ -1,0 +1,4 @@
+B518: kappa(T(x,y,z)) - kappa(x,y,z) = 0  (T = (z, x, xz - y))
+B344: det J(Ta) = 1, det J(Tb) = 1; kappa preserved by Ta: True, by Tb: True
+B344 (its own script deviation_symplectic_pairing.py): det_is_one(m) for m=1,2,3 -> [True, True, True]
+B332: g = -R L^-1 = [[0, -1], [1, -1]], tr -1, disc -3; RL tr 3, disc 5; g == B331 matrix [[0,-1],[1,-1]]: True; eigenvalues [-1/2 - sqrt(3)*I/2, -1/2 + sqrt(3)*I/2]

@@ -2,3 +2,4 @@
 575/1068  leads so far 19
 600/1068  leads so far 33
 625/1068  leads so far 48
+650/1068  leads so far 68

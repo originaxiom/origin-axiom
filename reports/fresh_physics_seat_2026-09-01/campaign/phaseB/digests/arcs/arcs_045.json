@@ -1,0 +1,202 @@
+{
+ "batch": "arcs_045",
+ "arcs": [
+  {
+   "arc": "B659_novelty_dossier",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B659_novelty_dossier/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B659_novelty_dossier/DOSSIER.md",
+    "/home/user/origin-axiom/frontier/B659_novelty_dossier/SWEEP_RESULTS.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (no arc_verdict.json / FINDINGS.md present; DOSSIER.md + SWEEP_RESULTS.md constitute the arc's record)",
+   "log_says": "The dossier (12 candidates, exact statements + banked evidence + the specific prior-art question each must survive) + the internal sweep (12 search agents x 2 angles per thematic group, 6 adversarial adjudicators, 96 findings; access date 2026-07-17); handed over as the R21-7 package alongside B660.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "12-candidate novelty dossier with per-candidate sweep verdicts (KNOWN-ADJACENT x8, ROUTINE x2, NOVEL-CANDIDATE x1, KNOWN(refined) x1)",
+     "where": "DOSSIER.md lines 186-213; SWEEP_RESULTS.md all sections",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "This is a literature-search exercise performed by LLM search agents (WebFetch-style tool use, 338 tool uses per the header) reporting citations and adjudications in prose; there is no committed code, no re-fetchable transcript of the searches, and no witness a stranger could re-run to reproduce the same verdicts. It is asserted findings from an internal, undated-beyond-one-day sweep, explicitly flagged by the document itself as 'NOT a novelty certificate.'"
+    },
+    {
+     "what": "C12 gate: sin^2(theta12) = 1/(2phi) = 0.309017 declared absent from the neutrino-mixing literature ('the gate appears OPEN')",
+     "where": "DOSSIER.md lines 161-172, 201, 211-213; SWEEP_RESULTS.md C12 section and 'Supporting search findings'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "A negative literature claim (nothing found) rests entirely on the sweep agents' unlogged search queries/results; no query log, no list of papers actually fetched with retrieval timestamps beyond prose citation, is committed. This is exactly a 'never computed / not in literature' absence claim that itself needs re-sweeping by an independent party, which this seat cannot verify from committed artifacts alone."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "This is a pure literature/prior-art survey; there is no computation to recompute and no verification directory. The dossier's own text repeatedly says the internal sweep is not a substitute for a specialist bar (S5.1).",
+   "absence_claims": [
+    {"quote": "no literature instance of level-periodicity (as opposed to level-congruence) of any quantum-invariant/stage-trace family was found", "where": "SWEEP_RESULTS.md line 10 (C1)"},
+    {"quote": "no source applies any Stickelberger-type statement to Weyl/Coxeter groups or to w+w^-1 pencils", "where": "SWEEP_RESULTS.md line 16 (C2)"},
+    {"quote": "no 3N-type modulus occurs anywhere in the Hannay-Berry/Kurlberg-Rudnick/Bonechi-De Bievre/Mezzadri literature", "where": "SWEEP_RESULTS.md line 22 (C3)"},
+    {"quote": "No prior work puts a 27-dim E6 local system on a hyperbolic knot complement or its double, none uses the Jordan cross product ... and no statement of the form ... appears anywhere", "where": "SWEEP_RESULTS.md line 28 (C4)"},
+    {"quote": "No publication in physics, music theory, or quasicrystal literature performs this identification", "where": "SWEEP_RESULTS.md line 40 (C6)"},
+    {"quote": "No published result states a per-conjugacy-class jump law for a kappa-indexed ladder with caps a_p read from a Weyl fixed-point group's elementary divisors", "where": "SWEEP_RESULTS.md line 46 (C7)"},
+    {"quote": "the deep-3-power exceptional layer has no found precedent (both sweep agents' coverage notes concur)", "where": "SWEEP_RESULTS.md line 58 (C9)"},
+    {"quote": "Both sweep agents found nothing equal or adjacent: no literature discusses a deck-transformation swap on a doubled knot complement, a chain-level cocycle-comparison anomaly for it, a 'chord 3-form' tensor, or an identity Y = (1/2) conj(anomaly) with an object-independent factor 2", "where": "SWEEP_RESULTS.md line 64 (C10)"},
+    {"quote": "no literature result states this [cocycle-level data exactly in k(Gamma)], and the closest cocycle-level precedents ... go the opposite direction", "where": "SWEEP_RESULTS.md line 70 (C11)"},
+    {"quote": "No search surfaced any paper proposing sin^2(theta12) = 1/(2phi) = (sqrt5-1)/4 ~ 0.309 for solar neutrino mixing", "where": "SWEEP_RESULTS.md line 142; also DOSSIER.md line 171-172"},
+    {"quote": "No paper was found using the literal phrase 'trace ladder,' 'jump law,' 'generic-silence law,' or 'PSL-factoring theorem,' nor any result tying a central -I kill specifically to 'split primes and deep 3-adic powers' as a joint condition", "where": "SWEEP_RESULTS.md line 116"},
+    {"quote": "no verbatim 'master count' sentence was found in either review (PDF full-text extraction failed)", "where": "LIT_GATE_S1.md line 24 (cross-arc, cited here as it echoes the same sweep methodology)"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "12 search agents + 6 adjudicators, 338 tool uses, produced only prose summaries; no committed transcript, query log, or fetch record exists for a stranger to check what was actually searched and when.", "where": "SWEEP_RESULTS.md header line 1-4"},
+    {"kind": "OTHER", "detail": "C12 (the 1/(2phi) solar-angle lit-gate) is explicitly labeled 'NOT a promotion candidate — a language gate' yet its 'gate appears OPEN' framing functions rhetorically like a novelty claim for a numerology-adjacent match to JUNO data; the dossier itself flags this tension but downstream arcs (B660 S1) cite it as corroborating evidence.", "where": "DOSSIER.md lines 161-172, 211-213"}
+   ],
+   "seat_note": "This arc is entirely a self-conducted literature review (no math/physics computed here), useful only to the extent its underlying searches are trustworthy and re-checkable, neither of which a stranger can verify from committed files. Its central 'novel' framing for 1/(2phi) rests on a negative-result search that is asserted, not reproducible."
+  },
+  {
+   "arc": "B660_structure_campaign",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/ORIGINALS_MANIFEST.txt",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/origin_docs/DARK_SECTOR_CAMPAIGN.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/origin_docs/DARK_SECTOR_WAVE1_HANDOFF.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/PACKET_README.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/PREREG_SQ.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/SEALS.txt",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/STATUS.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s4_massshape/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s4_massshape/s4_matrices.json",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s4_massshape/s4_run_log.txt",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s2_cp/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s2_cp/s2_results.json",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s2_cp/s2_run_log.txt",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s1_gamma5/EXTRACT_S1B.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s1_gamma5/FINDINGS_CC2.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s1_gamma5/FINDINGS_S1A.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s1_gamma5/LIT_GATE_S1.md",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s3_nogo/NOGO_NOTE.md"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s4_massshape/s4_massshape.py",
+    "/home/user/origin-axiom/frontier/B660_structure_campaign/packet/s2_cp/s2_cp.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "\"Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v0-mediated trilinear, closing the last class-level mass-shape route.\" / status: NEGATIVE",
+   "log_says": "S1 THE GAMMA5' CORRESPONDENCE banked as PLACEMENT: the framework derives the group (B640/B644), supplies the Galois pair as its one bit (GATE B), and carries phi at the same locus -- CONSISTENT-NOT-SELECTIVE + the upstream claim; packet seals 8/8; a later log entry (2026-07-17 B662) records a CORRECTION propagated: B660/S4's 'solo block exactly zero' was BASIS-LOCAL, the invariant content (antisym, rank 4, 1-dim kernel) transports; a 2026-08-26 entry cites B660 among sectors confirming the scale wall.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "S4: the 5x5 v0-mediated matrix M is exactly antisymmetric with row 4 identically zero and the solo-triple {2,3,4} 3x3 block is the exact ZERO matrix (all five w-slices give charpoly lambda^3, no nonzero mass-shape)",
+     "where": "s4_massshape.py (exact Fraction/K=Q(sqrt-3) arithmetic, asserts on all gates); s4_matrices.json; s4_run_log.txt lines 45-92; FINDINGS_CC2.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Code, exact rational/quadratic-field data, and run log are all committed under the packet directory and match: the code asserts w1_portal-inherited gates, computes M with sympy/Fraction exactness, and the JSON output's M_5x5_readable matches the printed run-log matrix exactly. A stranger could re-run s4_massshape.py against the referenced upstream w1_portal.py/stage1_classes.pkl (paths given as <seat-workdir>-relative, so exact reproduction depends on those upstream artifacts being present in the repo, not independently verified here)."
+    },
+    {
+     "what": "B662 CORRECTION (per log, not in this arc's own files): S4's 'solo block exactly zero' was BASIS-LOCAL, not invariant, though the antisymmetric/rank-4/1-dim-kernel content transports",
+     "where": "log_index B660.txt, PROGRESS_LOG.md 2026-07-17 B662 entry",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "This correction is recorded only in the progress log pointing to arc B662, which is outside this packet; B660's own FINDINGS.md/arc_verdict.json still states the zero-matrix result flatly as 'ZERO' banked fact with no cross-reference to B662's basis-dependency caveat. This is a candidate SUPERSEDED_UNMARKED: the corrected framing does not appear anywhere in B660's own committed files."
+    },
+    {
+     "what": "S2: Y and Ybar share the same GL(5,C) orbit (generic/rank-4 type) by computed invariants (rank, kernel dim, Pfaffian non-vanishing, quadric-system rank all match); no GL(5,K) equivalence found via structured (monomial) ansatze -- both reduce to an irreducible cubic X^3=c over K=Q(sqrt-3)",
+     "where": "s2_cp.py (sympy exact arithmetic); s2_results.json; s2_run_log.txt lines 1-76; FINDINGS_CC2.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full exact-arithmetic code with input Y_RAW literals matching s2_results.json's Y_components field-for-field; run log reproduces every numeric intermediate (Pfaffians, factorization results) that appears in the JSON. Y_RAW itself is sourced from B637_corrected_cell3/unbent_table.txt, a file outside this packet not independently checked here."
+    },
+    {
+     "what": "S1: 'the framework derives SL(2,5)=2I from the figure-eight monodromy at theorem grade (B640/B644)' and 'zero free parameters after the bit' vs the Gamma5' literature's 8-10 free parameters",
+     "where": "FINDINGS_CC2.md (s1_gamma5), DOSSIER.md correspondence table",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The group-derivation claim (B640/B644, theorem grade) is imported from other arcs not present in this packet; this arc takes it as given. The 'zero free parameters' claim compares an internal derivation chain to an external literature's parameter count, which is itself an ASSERTED comparison rather than something computed in this packet's files."
+    },
+    {
+     "what": "sin^2(theta12) = 1/(2phi) = 0.309017 stated as the framework's parameter-free prediction, cited as 'NOVEL per lit-gate' and cross-referenced to B659/C12",
+     "where": "PACKET_README.md line 4-11; FINDINGS_CC2.md (s1_gamma5) line 15",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "This numeric value is not derived or computed anywhere within B660's files; it is asserted as banked elsewhere and its 'novelty' rests entirely on the B659 literature sweep, which this seat separately flags as unreproducible (see B659 digest). The identical numeric claim is IDENTIFICATION_BY_TYPE-adjacent: a dimensionless golden-ratio expression is matched against a physical mixing-angle observable purely because both are near 0.309, with S3 in this same arc banking a THEOREM that dimensionful/scale-dependent observables cannot even be typed -- yet sin^2(theta12) itself, as an angle (dimensionless), sits awkwardly close to being treated as a genuine SM comparison despite Gate 5 language disclaiming any comparison."
+    },
+    {
+     "what": "S3: 'no observable carrying nontrivial mass dimension is typeable in the B650 type system' -- THEOREM-BY-ASSEMBLY",
+     "where": "NOGO_NOTE.md (s3_nogo)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "NOGO_NOTE.md is explicitly an 'assembly note' that cites four other banked rows (R5/TYPES.md, GATE B, B652, B650's Equivariance Wall) none of which are included in this packet's files; there is no code or computation in this arc for S3, only a structured argument referencing external banked claims. Reproducibility depends entirely on those other arcs, unverified here."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The FINDINGS.md text states this seat independently re-verified S2's cubic irreducibility with separate code ('THIS SEAT'S INDEPENDENT RECOMPUTATION') and verified S4's matrix at the artifact level; tests/test_b660_structure.py exists in the repo (confirmed present) as a committed lock, though this seat did not read its contents (not in the packet file list for this batch).",
+   "absence_claims": [
+    {"quote": "the GOLDEN deck-swap sigma*-matrix was computed in-flight (B638) but never persisted as an artifact -- only the silver's sigma_matrix_L.json exists (B649). Filed as L103.", "where": "FINDINGS.md lines 49-51 (S2)"},
+    {"quote": "no explicit matrix for sigma* on the 5-dim H^1 is banked anywhere in B637_corrected_cell3/*.py (grep across the directory: zero hits for an explicit sigma matrix)", "where": "s2_run_log.txt line 71"},
+    {"quote": "FINDINGS.md line ~230 records only a CONJECTURED, UNPROVEN mechanism", "where": "s2_run_log.txt line 71"},
+    {"quote": "Neither paper contains a systematic discussion of residual symmetry at tau=i-inf, tau=omega, tau=i for the double-cover group, and I found no mention anywhere of 'Z10' or of stabilizer orders being doubled", "where": "EXTRACT_S1B.md section 4 (s1_gamma5)"},
+    {"quote": "This should be reported as an absence, not filled in from outside knowledge", "where": "EXTRACT_S1B.md section 4"},
+    {"quote": "B637's Y uses a different presentation -- no basis-matched numeric cross-check available", "where": "FINDINGS.md line 80-81 (S4); FINDINGS_CC2.md line 27 (s4)"},
+    {"quote": "A numeric class-index identification (banked_Y[ijk] <-> this antisym3(i,j,k)) is therefore NOT available", "where": "s4_run_log.txt line 100"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "The progress log (B662, same day 2026-07-17) records that S4's 'solo block exactly zero' finding was BASIS-LOCAL, not an invariant statement -- yet B660's own FINDINGS.md and arc_verdict.json (this arc's claim of record) still state 'the ENTIRE solo-triple {2,3,4} block is the ZERO MATRIX' as an unqualified banked fact with no correction note in the arc's own files.", "where": "FINDINGS.md line 74-76; arc_verdict.json claim_one_line; cf. log_index B660.txt B662 entry"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The correspondence table treats 'phi appearing in the S-transform of R=-I irreps' in both the framework and the Gamma5' literature as 'SAME LOCUS' evidence for the correspondence, when both are independently well-known appearances of phi in A5/SL(2,5) representation theory (a common source, not evidence of a novel match) -- a dimension/value coincidence used to license the correspondence claim.", "where": "FINDINGS_CC2.md (s1_gamma5) correspondence table line 12-13"},
+    {"kind": "MISSING_WITNESS", "detail": "S3's 'THEOREM-BY-ASSEMBLY' status rests entirely on citing four external banked rows (R5/TYPES.md, GATE B, B652, B650) with no code, no computation, and no artifact in this arc; the arc itself is silent as to whether those external claims were re-checked here.", "where": "NOGO_NOTE.md"},
+    {"kind": "GITIGNORED_WITNESS", "detail": "Not applicable as filed -- run logs were deliberately renamed *.log -> *_log.txt per ORIGINALS_MANIFEST.txt's disclosed patches specifically so they would not be gitignored; flagging the near-miss since the raw *.log names ARE gitignored repo-wide and the packet took explicit action to avoid that trap.", "where": "ORIGINALS_MANIFEST.txt lines 25-26"}
+   ],
+   "seat_note": "S2 and S4 are genuine committed exact-arithmetic computations with reproducible witnesses; S1 and S3 are structural-correspondence and assembly arguments importing claims from outside this packet, and S1's headline sin^2(theta12)=1/(2phi) 'novelty' rides on the same unreproducible B659 literature sweep. The uncorrected S4 'exact zero' claim, later flagged elsewhere as basis-dependent, is the arc's sharpest integrity issue."
+  },
+  {
+   "arc": "B661_wave1_adjudication",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B661_wave1_adjudication/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B661_wave1_adjudication/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B661_wave1_adjudication/WAVE1_ADJUDICATION_CC2.md",
+    "/home/user/origin-axiom/frontier/B661_wave1_adjudication/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "\"The other seat's 'portal couplings' are exactly the SU(3)_2 quantum dimensions 1/D and phi/D -- stage-fixed across four words, no new object.\" / status: PROVED",
+   "log_says": "cc2's adjudication verified by this seat against the banked SU(3)_2 stage data: the wave-1 moduli {0.303531, 0.491123} (ratio phi) are EXACTLY |S_0j| = the quantum dimensions {1/D, phi/D}, D^2=3+3phi^2; the equal-diagonals result = |S_ii| = 1/D for all six primaries; 'the golden portal ratio' IS the golden quantum dimension -- true arithmetic, no new object.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The dark-sector 'portal couplings' {0.303531, 0.491123} (ratio phi) computed by chat1's proxy SU(3)_2 weld operator are identified as |S_0j| = quantum dimensions 1/D, phi/D with D^2=3+3phi^2",
+     "where": "WAVE1_ADJUDICATION_CC2.md points 1-2; FINDINGS.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This arc's own two markdown files report the identification and cite 'engine_v7, dps 40' verification and a lock file tests/test_b661_wave1.py (confirmed present in the repo), but no code, JSON, or run log is included in this packet's file list -- so the numeric reproduction (moduli to 6 digits, the S-matrix values) cannot be checked from what this seat read; only the lock test file's existence was confirmed, not its content."
+    },
+    {
+     "what": "R^2L eigenvalue correction: chat1's handoff guessed 1+sqrt(2); cc2 corrects it to 2+sqrt(3), and four words (R^2L, silver RRLL, both RL conventions) all give the same value set {1/D, phi/D}, called 'REPRESENTATION-FORCED, knot-independent'",
+     "where": "WAVE1_ADJUDICATION_CC2.md point 3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Same limitation: reported in prose only, no packet artifact (script/log/JSON) provided in this arc's file list to check the eigenvalue arithmetic or the four-word run against."
+    },
+    {
+     "what": "W1.2 dispatched as 'CATEGORY ERROR' (the classical V0 line has no stage-side image, B650 Equivariance Wall) -- refuting the earlier DARK_SECTOR_WAVE1_HANDOFF.md's premise that (0,0) = the V0 singlet block",
+     "where": "WAVE1_ADJUDICATION_CC2.md point 5",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Cites B650's Equivariance Wall and a cross-referenced packet (OA_CC2_invariant_line, sha 1721f531) not included in this batch; this seat cannot verify the refutation's basis directly, only that it is asserted with a specific hash pointer."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is itself an adjudication/re-verification of chat1's DARK_SECTOR_WAVE1_HANDOFF.md numbers (read in the sibling B660 packet), citing 'engine_v7, dps 40, reproduced to the digit' and a lock file (tests/test_b661_wave1.py, confirmed present in repo) as the belt, but this seat could not inspect the underlying computation artifacts since none were included in this arc's file set.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The arc's central numeric claims (moduli 0.303531/0.491123 to 6 digits, R^2L eigenvalue 2+sqrt(3), the four-word comparison) are stated only in prose across FINDINGS.md and WAVE1_ADJUDICATION_CC2.md; no script, JSON output, or run log is present in this arc's own directory or packet for a stranger to rerun.", "where": "FINDINGS.md; WAVE1_ADJUDICATION_CC2.md points 1-3"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "chat1's original 'portal ratio is phi' claim (DARK_SECTOR_WAVE1_HANDOFF.md, read in the sibling B660 packet) was itself flagged by chat1 as possibly representation-forced rather than knot-specific; this arc confirms it IS representation-forced (a generic SU(3)_2 S-matrix property, not a discovery about the specific knot) -- a caution against over-reading a numeric coincidence (ratio = phi) as physically significant when it is a standard CFT quantum-dimension identity.", "where": "WAVE1_ADJUDICATION_CC2.md points 1-2; DARK_SECTOR_WAVE1_HANDOFF.md Caveat 3 (sibling arc)"}
+   ],
+   "seat_note": "A useful corrective arc -- it deflates an over-claimed 'dark portal' discovery into a standard SU(3)_2 quantum-dimension identity and catches a wrong eigenvalue guess -- but its own supporting computation is not included in the packet, so this seat can only report the claim, not verify the arithmetic behind it."
+  }
+ ]
+}

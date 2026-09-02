@@ -533,3 +533,5 @@ Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   recorded string at one prime, not a reproducible computation on this repository.
 - **B516 Pisot claim — CLOSED, MATCH** by `R40_b516_pisot/`: only the golden mean gives a Pisot number under
   x → x(1+√x) (conjugates 0.440/0.786/0.786; silver's binding conjugate 1.337).
+- **Trace-map identities (B518, B344, B332, B331) — CLOSED, all MATCH** by `R41_trace_map_identities/` (sympy; B344's
+  own `det_is_one` reruns True for m = 1,2,3).
