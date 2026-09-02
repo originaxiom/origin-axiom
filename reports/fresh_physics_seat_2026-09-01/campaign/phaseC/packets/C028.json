@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B840_close_loose_ends",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B840_close_loose_ends",
+  "claims": [
+   {
+    "i": 630,
+    "what": "R1's vacuous SEALED verdict traced to mdnewton needing a square system but polish_mp supplying 9 complex (18 real) equations for 22 real unknowns; exception counted and loop continued before membership test",
+    "where": "FINDINGS.md:13-21",
+    "why": "Described as a diagnosed and fixed bug (three bugs fixed: underdetermined polish, 50-vs-70-digit truncation, double-precision control), but the actual before/after code and re-run outputs are not part of this packet's read set.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 631,
+    "what": "R2/V3 blind result: 9 Phi-orbits size 3 on the 27, charge split 1/10/16 gate PASS, triple intersection 16^16^16=6, singlet orbit profile (1,16,16)",
+    "where": "FINDINGS.md:9-11",
+    "why": "Presented as a delivered blind computation but no script or raw output file is in the read set here to check.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B841_provenance_pass",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B841_provenance_pass",
+  "claims": [
+   {
+    "i": 633,
+    "what": "167 records judged by 12 readers, 0 errors; fact_computed true 118/167 (70.7%); 118/118 pointers resolve on filesystem",
+    "where": "FINDINGS.md:8-18",
+    "why": "Described as mechanically verified (every true-pointer checked against the filesystem), and a 10-record seeded sample was spot-read, but the full 167-record rated dataset and verification script are not in this packet's read set.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B842_face_attachment",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B842_face_attachment",
+  "claims": [
+   {
+    "i": 635,
+    "what": "Fleiss kappa=0.8732 on 16-arc 12-category calibration block, CI [0.7388,0.9603]",
+    "where": "FINDINGS.md:8-13",
+    "why": "calibration_ratings.json is listed as a file for this arc in other arcs (B832/B834) but was not included as a file for B842 in this packet -- so the raw per-reader labels this kappa is computed from are not in the read set for this specific arc.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 636,
+    "what": "Consistency vs existing kill-graph attachment: 58.3% per judgement, 56.2% by panel mode; B296/B523 both 12/12 'none' against corpus attachments",
+    "where": "FINDINGS.md:30-44",
+    "why": "Same as above -- underlying calibration data not in this arc's read set within this packet.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B84_sl5_gauge_barrier",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B84_sl5_gauge_barrier",
+  "claims": [
+   {
+    "i": 33,
+    "what": "seed-averaging over 40 seeds fails to converge char(DT_0(5,m=1)); gauge-invariant power sums tr(DT_0^k) also scatter across seeds at SL(5) but not SL(4)",
+    "where": "FINDINGS.md:16-26",
+    "why": "probe.py not directly opened this pass; exact F_p claimed",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B850_length_spectrum_type",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B850_length_spectrum_type",
+  "claims": [
+   {
+    "i": 640,
+    "what": "First published table said '0 rational' -- later found to be an artifact of a global mpmath precision setting (mp.mp.dps) being silently overwritten by another module; corrected via local workdps, verified identical at dps 15/25/40/60",
+    "where": "FINDINGS.md:37-52",
+    "why": "The bug-fix and multi-precision reproducibility check is narrated in FINDINGS.md but the actual before/after code diff is not shown or included in this packet's read set.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 642,
+    "what": "SECTION 4a (B858 correction, embedded in this FINDINGS.md): m009 (arithmetic, Q(sqrt-7), non-commensurable with m004) has max multiplicity 8, EXCEEDING m004's 4 -- so the original 'arithmetic > arithmetic > non-arithmetic' ordering does not survive",
+    "where": "FINDINGS.md:103-130",
+    "why": "This correction is narrated with a results table (m004=4, m003=3, m136=4, m009=8, m015=2) but the committed results.json in this packet was NOT updated to reflect it -- it still only contains the pre-correction cell4_multiplicity block with just m003/m015 as controls, not m009/m136. The corrected numbers exist only in prose.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

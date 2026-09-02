@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B646_wave2_integration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B646_wave2_integration",
+  "claims": [
+   {
+    "i": 403,
+    "what": "The Q3 L2/L3 lemma verifications underlying both banked laws: sector decomposition (chi-trivial sum, chi_5 sum) and the uniform jump law (300/300 exact)",
+    "where": "q3_proofs/q3_lemmas.py; cited results in PROOF_SKETCH.md and FINDINGS_CC2.md",
+    "why": "q3_lemmas.py only prints to stdout (no JSON dump); its transcript would have lived in q3_lemmas.log, which the repo's own .gitignore excludes (*.log) and which is absent from the checked-out arc directory (confirmed: `find` returns no .log/.out files anywhere under this arc). A stranger can rerun the script and should get the same numbers (the script itself is exact/deterministic and committed), but the actual claimed 300/300 and sector-sum values are NOT independently checkable from a committed artifact today -- only from the prose recap in FINDINGS/PROOF_SKETCH.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 405,
+    "what": "SU(3)_13 fresh-rung prediction-first hit (clock = 12, the amended clock law's only true test)",
+    "where": "n2_clock_law/n2_su3_13_measure.py; recapped in FINDINGS_CC2.md / ADDENDUM_N2.md",
+    "why": "n2_su3_13_measure.py prints to stdout only (gate result + measured clock); its witness log (n2_su3_13.log, listed in ORIGINALS_MANIFEST.txt) is gitignored and absent from the repo. This is the single most load-bearing 'confirmed prediction-first' claim in the whole arc, and its raw execution transcript is not committed -- only the printed number, transcribed into prose.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 406,
+    "what": "Q2 mechanism: SU(3)_2 = rho_Fib (x) chi (chi order 4, correcting a sealed guess of 3); E6 k=2 = chi4 x chi3 x PSL(2,7)-3dim, clock = ord_PSL(2,7)(A1 mod 7) = 4",
+    "where": "q2_conductor/q2_mechanism.py; recapped in q2_conductor/FINDINGS_CC2.md",
+    "why": "q2_mechanism.py prints to stdout only; its witness (q2_mechanism.log) is gitignored/absent, same gap as above. The script itself is exact (mpmath dps=50, elt_order_scalar with tight tolerance) and committed, so a stranger CAN rerun it, but cannot check the claimed output against anything already on disk.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B651_wave3_integration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B651_wave3_integration",
+  "claims": [
+   {
+    "i": 411,
+    "what": "P0/F4: B649 stage 1-3b-i VERIFIED on an independent code path (hash audits, exact-field cross-checks)",
+    "where": "p0_s_verify/verify_b649.py, f4_receipt/verify_stage2.py, verify_stage2b.py, verify_stage3_numeric.py, verify_stage3_solo_exact.py, hash_audit.py, and their *_results.json",
+    "why": "The verification scripts are committed and read hashes from B649_silver_holonomy's ARTIFACT_HASHES.txt (an external arc, not re-verified here), so full reproduction requires that other arc's artifacts too. More importantly the FINDINGS explicitly documents that the verified artifact's own sealed output.txt contains a FALSE claim ('mpmath.pslq minimal polynomials at two precisions' when the script has no pslq call) and a FALSE witness identity ('the ratio of the two exact traces gives i', actually = 1+i) -- i.e. the object being verified itself carries uncorrected errors in its own sealed prose, discovered but only patched by an external note, not by editing the original sealed artifact.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B658_order4_flips",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B658_order4_flips",
+  "claims": [
+   {
+    "i": 420,
+    "what": "Wall 8 upgrades to 'total': all FOUR orientation-reversing families of D4 (2 order-2 + 2 order-4) break; the double's 27-cohomology symmetry reduces to exactly the deck swap sigma*",
+    "where": "FINDINGS.md 'THE WALL-8 UPGRADE'",
+    "why": "The order-2 result is stated as already banked from B643, which is outside this batch's files; only the order-4 half is newly computed and verified here.",
+    "reproducible_from_committed": "partially \u2014 the order-4 half is directly reproducible from this arc's script; the order-2 half is IMPORTED from a prior arc (B643) not included in this batch"
+   }
+  ]
+ },
+ {
+  "arc": "B661_wave1_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B661_wave1_adjudication",
+  "claims": [
+   {
+    "i": 427,
+    "what": "The dark-sector 'portal couplings' {0.303531, 0.491123} (ratio phi) computed by chat1's proxy SU(3)_2 weld operator are identified as |S_0j| = quantum dimensions 1/D, phi/D with D^2=3+3phi^2",
+    "where": "WAVE1_ADJUDICATION_CC2.md points 1-2; FINDINGS.md",
+    "why": "This arc's own two markdown files report the identification and cite 'engine_v7, dps 40' verification and a lock file tests/test_b661_wave1.py (confirmed present in the repo), but no code, JSON, or run log is included in this packet's file list -- so the numeric reproduction (moduli to 6 digits, the S-matrix values) cannot be checked from what this seat read; only the lock test file's existence was confirmed, not its content.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 428,
+    "what": "R^2L eigenvalue correction: chat1's handoff guessed 1+sqrt(2); cc2 corrects it to 2+sqrt(3), and four words (R^2L, silver RRLL, both RL conventions) all give the same value set {1/D, phi/D}, called 'REPRESENTATION-FORCED, knot-independent'",
+    "where": "WAVE1_ADJUDICATION_CC2.md point 3",
+    "why": "Same limitation: reported in prose only, no packet artifact (script/log/JSON) provided in this arc's file list to check the eigenvalue arithmetic or the four-word run against.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B673_loop4_integration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B673_loop4_integration",
+  "claims": [
+   {
+    "i": 448,
+    "what": "D4 ceiling-law table (Track H adjudication: boundedness is universal, refuting the 'amphichirality' growth prediction)",
+    "where": "packet/TRACK_H_ADJUDICATION_CC2.md, packet/loop4/d4_ceiling/d4_run_log.txt, d4_ceiling.py",
+    "why": "d4_ceiling.py is present and computes exact/high-precision modular data with explicit gates (unitary, symmetric, (ST)^3=S^2 etc., shown passing to ~1e-60); but this packet's d4_run_log.txt is truncated at SU(3)_9 (kappa=12) in the committed file (packet manifest lists a fuller d4_run.log at 1864 bytes -- consistent with the file simply being short) and FRONTIER.md itself states D4 was still 'in flight' / 'annex on landing' at time of this arc's closure, so the full ceiling map is not fully present in this arc's own files.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B1090_partition_bridge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1090_partition_bridge",
+  "claims": [
+   {
+    "i": 875,
+    "what": "the saddle equation u^2+u+1=0 (e^z=omega) derived from AK's steepest-descent potential v2(z)",
+    "where": "FINDINGS.md section 2",
+    "why": "stated as 'verified symbolically' with the saddle equation vanishing to 5e-51 at z=+-2pi i/3, but no separate script for this specific symbolic check is committed -- only tests/test_b1090_partition_bridge.py, which per FINDINGS.md pins 'the saddle polynomial exactly; the saddle value at 40 digits'",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1098_nonabelian_hatch",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1098_nonabelian_hatch",
+  "claims": [
+   {
+    "i": 881,
+    "what": "the 20-class enumeration (dims/ranks/types matching Bala-Carter) and the A2 class's dim=16/rank=4 centralizer",
+    "where": "b1098_sl2_strata.py; b1098_results.json (20 entries); tests/test_b1098_nonabelian_hatch.py test_saturation_and_the_two_landings",
+    "why": "b1098_sl2_strata.py hardcodes CERT = os.environ.get('B1098_CERT_PATH', '(scratchpad)/cloud_handoff/certificates/twisted_double.py') -- I searched the entire repo for this file (find . -iname twisted_double.py) and it does NOT exist anywhere in the committed tree. The e6 Chevalley-bracket machinery this script depends on to build the algebra is therefore not committed. The stored results (b1098_results.json, b1098_a2_triple.json) are present and the non-live parts of the test pass by reading them, but the actual generating computation cannot be re-run by a stranger from this repo alone.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 882,
+    "what": "live re-verification of the A2 triple's Chevalley relations and 16-dim centralizer nullspace",
+    "where": "tests/test_b1098_nonabelian_hatch.py test_a2_triple_relations_and_centralizer_live (marked @pytest.mark.slow)",
+    "why": "this test explicitly does `cert = os.environ.get('B1098_CERT_PATH'); if not cert or not os.path.exists(cert): pytest.skip(...)` -- i.e. in the committed repo state (no such env var set, no such file present) this test SKIPS rather than running. The arc's central live check is therefore not actually exercised by the repo's own test suite as committed.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1100_landing_content",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1100_landing_content",
+  "claims": [
+   {
+    "i": 885,
+    "what": "the exact joint weight table (sum=27, sl2 multiset {-2:6,0:15,2:6}) and the negation-asymmetry witness for complexity of the 27",
+    "where": "b1100_exact_table.py; b1100_exact_table.json; tests/test_b1100_landing_content.py test_exact_table_tiles_and_branches, test_the_27_is_complex_with_witness",
+    "why": "b1100_exact_table.py hardcodes CERT='cloud_handoff/certificates/twisted_double.py' with NO env-var override or fallback (unlike b1098_sl2_strata.py which at least offers B1098_CERT_PATH); this file does not exist anywhere in the committed repo (confirmed by search). The committed test only reads the already-produced b1100_exact_table.json, so the test passes, but the generating computation itself cannot be re-run from this repo as committed.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 886,
+    "what": "the collapse-form hypercharge pattern hit at trial 0 (float grade)",
+    "where": "b1100_hypercharge.py; b1100_hypercharge.json; tests/test_b1100_landing_content.py test_collapse_pattern_hit",
+    "why": "same missing-CERT dependency as above; also explicitly labeled by the arc itself as 'float grade', with the exact solve deferred as a named residual (paid later by B1102).",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1112_projective_hatch",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1112_projective_hatch",
+  "claims": [
+   {
+    "i": 898,
+    "what": "9 of 20 e6 nilpotent orbit strata have all-even 27-weight parity (projective); the SM-compatible A2 landing is projective, A1 is not",
+    "where": "parity_sweep.py PARITY SWEEP block, parity_sweep.json",
+    "why": "the script depends on an environment variable B1098_CERT_PATH pointing to an outside-bench session certificate file (default path documented as a scratchpad location outside the repo, not committed) that supplies the e6 Chevalley bracket machinery via exec(); the FINDINGS itself concedes 'Live re-run needs the session certificate'. The committed parity_sweep.json output can be checked as data, but a stranger cannot re-run the generating script without first obtaining or reconstructing that external certificate file.",
+    "reproducible_from_committed": "conditionally"
+   }
+  ]
+ },
+ {
+  "arc": "B1118_deflation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1118_deflation",
+  "claims": [
+   {
+    "i": 903,
+    "what": "the plain factor-swap fuses 0/18 of the hypercharge orbits; the mirror (swap+su(3)-conjugation) fuses 9<->9 both ways",
+    "where": "hyper_orbits_out.txt",
+    "why": "the output text file is committed and gives a specific print trace ('solution-preserving factor swaps: [(3,2,1,0)]'), but NO .py script producing this output exists anywhere in this arc's directory, nor could one be found by repo-wide grep for the output's characteristic strings ('hyper_orbits_out', 'fork_theorem.py') outside a single unrelated reference in a different arc's verification script -- the generating code for this arc's own harvested numbers is simply absent from the repository.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 904,
+    "what": "Ohtsuki one-loop coefficient c1 ~ 0.55421647780891, matching 11*pi/(36*sqrt3)=0.5542164724 to ~8 digits",
+    "where": "ohtsuki_out.txt",
+    "why": "same issue: only the stdout trace is committed (residuals + successive c1 estimates), no generating script is present in this arc or found elsewhere in the repo",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

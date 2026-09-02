@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B517_bootstrap_forcing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B517_bootstrap_forcing",
+  "claims": [
+   {
+    "i": 302,
+    "what": "the exhaustive-box forcing theorem: over 0\u2264u\u22646, 0\u2264v\u22644 the unique irreducible quartic Pisot unit is (u,v)=(1,2) \u27f9 (C,D)=(F,F^2)",
+    "where": "frontier/B517_bootstrap_forcing/FINDINGS.md Phase A-CLOSE",
+    "why": "described as \"checked 0..8\u00d70..6, single hit\" via cross-seat recomputation, but no script is present in this arc directory (only .md files + two data/plot files under rauzy/, which are outputs not source).",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 303,
+    "what": "the Signature Hunt control table: trace-form (2,1)->(3,1) for golden/silver/bronze/tetranacci/child-field alike; totally-real -> (4,0); totally-complex -> (2,2) \u2014 genericity confirmed by controls run BEFORE physics interpretation",
+    "where": "frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md",
+    "why": "a real control-gate discipline (pre-registered controls run before interpretation) but no script committed; numbers given to 3-4 significant figures with no data file.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 304,
+    "what": "the exact rational Stein form G=(1/11)[[12,-8,-5,-4],...], signature (3,1), residual M^T G M - G + I = 0 exactly",
+    "where": "frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md Addendum 2",
+    "why": "an exact rational matrix identity, easy to hand-check but not accompanied by any script in this directory; described as \"re-derived independently\" by \"recompute-don't-trust\" but the recompute itself isn't a committed artifact.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B519_re_mining",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B519_re_mining",
+  "claims": [
+   {
+    "i": 308,
+    "what": "cell A2's original closure (\"the tower measure IS the Kubota-Leopoldt 3-adic L-function\") is itself retracted by a later B578 correction, cited inline in VERDICT.md's own tail addendum",
+    "where": "frontier/B519_re_mining/VERDICT.md tail CORRECTION (2026-07-14, B578-D5)",
+    "why": "the retracting computation (Gauss sums vs Kubota-Leopoldt, rank 4, norms 9 vs 16/3) is described but lives in a different arc (B578), not in this batch, so this seat cannot check it.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B520_handoff_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B520_handoff_verification",
+  "claims": [
+   {
+    "i": 309,
+    "what": "g(0)=+0.001 (se 0.0002), g(0.764)=+0.266 via two independent methods (Goldman-ergodic + Haar-conditional, 8M samples), rejecting the handoff's g(0)\u2248-0.31 as a biased-MC artifact",
+    "where": "frontier/B520_handoff_verification/FINDINGS.md \u00a71/\u00a72",
+    "why": "described with a standard error figure implying a real Monte Carlo run, but this 2-file arc directory has no script; the reproduction is claimed to independently confirm B507's own unwitnessed claim (see B507 entry, same batch), which is a positive cross-check pattern but still lacks a committed artifact here.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 310,
+    "what": "S = arccosh(5/2) \u2248 1.5668 at the golden loxodromic x=5, the 40a1 2-torsion point",
+    "where": "frontier/B520_handoff_verification/FINDINGS.md \u00a74",
+    "why": "a simple closed-form arccosh evaluation, easy to hand-check but no script present.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B523_verdict_reexamination",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B523_verdict_reexamination",
+  "claims": [
+   {
+    "i": 314,
+    "what": "the Ad(C) signature-split result on sl(2,R): eigenvalues +1,-1,-1, Killing form on the -1 eigenspace has signature (1,1) (indefinite) \u2014 amphichirality allows but does not select Lorentzian (3,1)",
+    "where": "frontier/B523_verdict_reexamination/FINDINGS.md, addendum \"Door 2 sharpened\"",
+    "why": "this specific computation (Ad(C) matrix, Gram [[2,4],[4,0]]) is described in FINDINGS.md prose with a cited test (tests/test_b523.py::test_amphichiral_signature_split) but no standalone script for it appears in this arc's sampled files (only c3_malament.py, verify_auto.py, verify_handoff_L1.py, verify_traintrack.py are present, none of which is this computation).",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B524_iwip_and_higher_ptolemy",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B524_iwip_and_higher_ptolemy",
+  "claims": [
+   {
+    "i": 315,
+    "what": "SL(2) Ptolemy: 1 boundary-unipotent rep, field Q(sqrt-3); SL(3): 4 reps, fields Q(sqrt-3) and Q(sqrt-7); SL(4): deferred (Grobner >12 min, ptolemy module recommends Magma)",
+    "where": "frontier/B524_iwip_and_higher_ptolemy/higher_ptolemy.py",
+    "why": "higher_ptolemy.py is committed (uses SnapPy's ptolemy module); the arc is honest that SL(4) was attempted and abandoned after 12 minutes, not silently omitted.",
+    "reproducible_from_committed": "yes (SL2/SL3; SL4 explicitly not computed)"
+   }
+  ]
+ }
+]

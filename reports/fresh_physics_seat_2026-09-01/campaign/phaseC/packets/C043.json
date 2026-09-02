@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B142_klein4_and_magic_cartography",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B142_klein4_and_magic_cartography",
+  "claims": [
+   {
+    "i": 74,
+    "what": "s776 = magic manifold (not Borromean rings), vol 5.33349, trace field Q(sqrt-7), 3-chain link not Brunnian",
+    "where": "probe.py factual_correction()",
+    "why": "SnapPy-gated; not re-run in this read, but the values are concrete and specific enough to be a real computation rather than an assertion",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 75,
+    "what": "s776 SL(3,C) Ptolemy variety has 14 obstruction classes, geometric component dim 6",
+    "where": "probe.py sl3_ptolemy_object()",
+    "why": "Sage-gated; the 'honest object' is only partially instantiated (size reported), not solved -- the SU(3) content question stays open per FINDINGS Item C",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B201_silver_sl3_charvar",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B201_silver_sl3_charvar",
+  "claims": [
+   {
+    "i": 120,
+    "what": "Fix(T_1^2) reproduces B71's 3 components (validation); Fix(T_2^2) gives 4 components incl. new comp3",
+    "where": "charvar.sage (full file)",
+    "why": "requires sage-python to run (Sage's PolynomialRing/ideal/minimal_associated_primes); the exact Groebner decomposition is deterministic once Sage is available, but no committed data witness (e.g. a saved ideal dump) exists independent of re-running Sage",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B247_v1_holonomy_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B247_v1_holonomy_adjudication",
+  "claims": [
+   {
+    "i": 138,
+    "what": "C_E6(SU(2)_long)=SU(6) dim35, C_E6(SU(2)_short)=SU(3)xSU(2) dim11; neither is SU(3)xSU(2)xU(1)^2",
+    "where": "adjudication.py:142-143 (values sourced from e6_branchings_sage.py)",
+    "why": "adjudication.py's assert reads centralizer_dim()/embedding_index() functions defined in adjudication.py itself using data presumably taken from e6_branchings_sage.py's Sage WeylCharacterRing branching (78 -> (8,1)+(8,7)+(1,14)); e6_branchings_sage.py requires Sage to run and has no committed witness output",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 139,
+    "what": "geometric holonomy has complex word-traces (tr[a,b]=3/2-sqrt3/2 i), so it is not SU(2)-conjugable",
+    "where": "adjudication.py:149,157-159 vs holonomy_ground_truth_sage.py (SnapPy ground truth)",
+    "why": "adjudication.py's own complex-trace computation (test1_traces) is pure Python and reproducible; the SnapPy cross-check in holonomy_ground_truth_sage.py has no committed witness output",
+    "reproducible_from_committed": "partial"
+   }
+  ]
+ },
+ {
+  "arc": "B280_2T_higher_spin",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B280_2T_higher_spin",
+  "claims": [
+   {
+    "i": 162,
+    "what": "E6 \u2283 SU(6)\u00d7SU(2): 27=(15,1)+(6bar,2)",
+    "where": "FINDINGS.md 'The branching' referencing branchings.py",
+    "why": "FINDINGS references a 'branchings.py' Weyl-character script not listed among this arc's committed files in the packet \u2014 file location/existence not directly verified in this read",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B342_z3_trimaximal_symmetry",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B342_z3_trimaximal_symmetry",
+  "claims": [
+   {
+    "i": 212,
+    "what": "TM2 correlation predicts theta_12=35.7 deg (vs observed 33.4), TM1 predicts 34.3 deg \u2014 TM1 fits ~1 deg better",
+    "where": "z3_trimaximal_symmetry.py (numpy, imports sampled only); FINDINGS.md 'The honest data comparison'",
+    "why": "standard TM1/TM2 correlation identities applied to a quoted PDG-style observed value (33.4 deg); the observed value itself is a hardcoded external number, not derived",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

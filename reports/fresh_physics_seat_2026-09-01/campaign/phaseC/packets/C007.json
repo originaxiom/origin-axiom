@@ -1,0 +1,72 @@
+[
+ {
+  "arc": "B252_chirality_obstruction",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B252_chirality_obstruction",
+  "claims": [
+   {
+    "i": 141,
+    "what": "E6's 27 is complex/chiral, 78 (adjoint) is real (self-dual); H36 (amphicheirality = E6 outer automorphism) re-confirmed in Sage",
+    "where": "chirality_obstruction_sage.py",
+    "why": "requires Sage's WeylCharacterRing; no committed witness output for this 27-line script",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B272_verification_and_gaps",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B272_verification_and_gaps",
+  "claims": [
+   {
+    "i": 156,
+    "what": "dim H1(Sym^2k)=1 confirmed three independent ways (exact Q(sqrt-3), mod-p Fox over 4 large primes, convention re-validation)",
+    "where": "verification_and_gaps.py:1002-1018 (CONFIRMED dict, describing out-of-band re-derivations)",
+    "why": "the dict text describes re-derivations done by 'two independent audit agents + orthogonal hand-checks' but this arc's own committed script only encodes the resulting verdict (hard-coded CONFIRMED/CORRECTIONS/GAPS dicts with print statements); the actual mod-p Fox computations over primes {61,103,9973,99991} are not present as a script in this arc's file list",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B313_fibonacci_bridge_and_no_forced_choice",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B313_fibonacci_bridge_and_no_forced_choice",
+  "claims": [
+   {
+    "i": 184,
+    "what": "under E6 superset G2xSU(3), the 27 branches as (7,3)+(1,6), dims 21+6=27, refuting '27 -> single Fibonacci anyon 7'",
+    "where": "fibonacci_bridge_and_no_forced_choice.py branching_27_refutes_matter_equals_anyons()",
+    "why": "the function only checks the arithmetic identity 7*3+1*6==27; the actual branching-rule assignment (that the 27 decomposes exactly as (7,3)+(1,6) under this particular subgroup embedding) is asserted, not derived from a representation-theory computation in this file.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B326_congruence_torsion",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B326_congruence_torsion",
+  "claims": [
+   {
+    "i": 193,
+    "what": "SnapPy cross-check: H1(3-fold cyclic cover of 4_1) = Z + Z/4 + Z/4",
+    "where": "congruence_torsion.py snappy_crosscheck()",
+    "why": "the function does call snappy.Manifold('4_1').covers(...) live, but is wrapped in try/except and its result is only printed, never asserted or fed into a verdict() check \u2014 if SnapPy is absent or wrong, the script would still print '(snappy unavailable: ...)' and give no indication of failure; there is also no verdict() function in this file at all, unlike sibling arcs",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B327_mckay_branching_gate",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B327_mckay_branching_gate",
+  "claims": [
+   {
+    "i": 194,
+    "what": "principal E6 27 decomposes as V(16)+V(8)+V(0) (spins 8,4,0), resolving a Chat-1/Chat-2 contradiction in Chat-2's favor",
+    "where": "FINDINGS.md '1. A cross-chat contradiction'; mckay_branching_gate.py (sympy Weyl-orbit grading, imported via ToolSearch not fully read)",
+    "why": "the script imports sympy and itertools and is described as computing the E6 Weyl orbit; only the file's import header was sampled in this pass, not the full body, so the exact-computation claim is plausible but not independently confirmed by this reader",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

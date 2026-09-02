@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B912_norm_cell",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B912_norm_cell",
+  "claims": [
+   {
+    "i": 676,
+    "what": "the nine colorless scale values (e.g. 19.142020743905498523723..., 1.6803202716718931117598...)",
+    "where": "DRAFT_FINDINGS.md sec 4 table; results.json",
+    "why": "these are stated as '35-digit values... dps 60' certified numerics, not exact rationals or algebraic closed forms -- i.e. high-precision floating-point-derived certified digits, not exact symbolic values (unlike B908/B910's exact Fraction certificates). This is flagged by the authors as 'certified' rather than 'exact' in sec 7's honest-scope note.",
+    "reproducible_from_committed": "unknown/partial"
+   }
+  ]
+ },
+ {
+  "arc": "B916_lambda_bridge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B916_lambda_bridge",
+  "claims": [
+   {
+    "i": 678,
+    "what": "27/27bar bridge S is a signed permutation (det S=1); primitive cubic transports with t=1 exactly; the two H's differ by an 11-of-27 sign-flip diagonal D2 (not a scalar)",
+    "where": "bridge.py -> results.json, 53 checks all pass",
+    "why": "The script requires a HANDOFF7 env var pointing at solo-seat pickle files (rep27.pkl, H27.pkl, cubic27.json, tauP.pkl) that are NOT part of this arc's own committed files -- they are \"solo handoff 7\" artifacts external to this directory. Without locating and confirming those files are committed elsewhere in the repo, a stranger cannot rerun bridge.py from B916's own directory alone.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 679,
+    "what": "lambda = 2304/953 (solo, tau-twisted H) vs lambda = 1 (banked, charge-equivariant H+), both exact",
+    "where": "results.json checks lambda_dual_exact_Hplus / lambda_dual_exact_Hprime",
+    "why": "same HANDOFF7 dependency as above",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B918_v_kummer",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B918_v_kummer",
+  "claims": [
+   {
+    "i": 682,
+    "what": "the identification of HIER's roots with the pipeline's v_g^2 (the atom-construction/belt100 chain's numeric output)",
+    "where": "FINDINGS.md \"The numeric anchor (stage 0)\", tier statement",
+    "why": "FINDINGS.md states this rests on \"the relay pipeline (solo norms.py atom construction + belt100 coupling loop)\" whose belt regeneration (122s) \"lives in the session scratchpad per relay discipline -- driver b918_belt.py, output b918_belt_out.json\" -- explicitly NOT committed in this directory. The arc itself flags this identification as \"numeric-certified tier\" pending the registered \"V-L2 exactification\" floor, i.e. self-acknowledged as not yet fully exact.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B919_weinberg_traces",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B919_weinberg_traces",
+  "claims": [
+   {
+    "i": 683,
+    "what": "Tr(T3^2)=3, Tr(Y^2)=5, Tr(T3.Y)=0 at prime 40123, giving sin^2(theta_W)=3/8, via rational reconstruction; consistent across 3 independent runs",
+    "where": "traces.py -> results.json (\"40123\" block)",
+    "why": "traces.py itself does no computation directly -- it is a thin driver that reads a Python source file cw.py from an environment-variable-specified directory (HANDOFF6_RUN, \"= the handoff-6 scripts run dir\"), patches a prime constant into it via string substitution, and subprocess-executes the patched copy. cw.py is NOT present in this arc's committed directory, so a stranger cannot rerun this arc from the committed files alone -- the actual trace-computation logic is external and unlocated in this read.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B921_branch_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B921_branch_harvest",
+  "claims": [
+   {
+    "i": 684,
+    "what": "Cell 2 Hecke validation gate FAILS (0/10 relations pass at 5%) -> ABORT of level-(4) Hecke doublet surgery",
+    "where": "harvested/frontier/B796_coupling_campaign/cell2_hecke_gate.py + cell2_hecke_gate.txt",
+    "why": "Script and its printed output witness are both committed and self-consistent (I re-traced the eigen-relation logic against the printed numbers), but the script imports hejhal_m004.py from frontier/B792_maass_m004_eigenvalues which is NOT part of this harvest -- reproduction depends on a file outside this arc's committed set (presumed to exist on main, not verified here).",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 685,
+    "what": "sm_comparison_certified.txt: CLEAN NULLS -- no SM observable (sin^2 theta_W, sin^2 theta_12/23, delta_CP, m_s/m_d, m_c/m_b) is reachable from the 17-eigenvalue certified spectrum at 8-digit precision under a base-rate/surrogate control; 0/2 direct-match, 0/39 ratio candidates, 0 PSLQ relations pass",
+    "where": "harvested/frontier/B792_maass_m004_eigenvalues/sm_comparison_certified.txt",
+    "why": "This is a printed witness (stdout capture) of a run; the generating script itself is not among the harvested/listed files for this arc, so a stranger cannot re-run it from what B921 committed alone (though the underlying B792 arc presumably carries it on main).",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 686,
+    "what": "Mode-count certification / sector-projection / scattering-corrected Weyl completeness check generator scripts",
+    "where": "harvested/frontier/B792_maass_m004_eigenvalues/{certify_mode_count.py, sector_projection_test.py, weyl_scattering_check.py}",
+    "why": "Scripts are complete and committed, but each reads eigenvalues_final.json / scanD_refined.json / hejhal_m004.py / eigenvalues_final.py, none of which are part of this harvest (per HARVEST_MANIFEST \u00a71 item (5) these are 'generators whose outputs main had banked without their scripts' -- the inputs are assumed to live on main outside this arc).",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

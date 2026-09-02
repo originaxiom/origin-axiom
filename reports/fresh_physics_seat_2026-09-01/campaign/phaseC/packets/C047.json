@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B678_d4_annex",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B678_d4_annex",
+  "claims": [
+   {
+    "i": 453,
+    "what": "any_growth_any_level=False across 96 cells (8 words x 12 levels)",
+    "where": "d4_results_MERGED.json (failed_gates_by_level all empty; any_growth_any_level:false)",
+    "why": "per-level JSON results and both scripts (d4_level.py, d4_ceiling.py) are committed and self-contained (import engine_v7 by absolute conduit path, not in this repo), but the run logs (d4_k1..12.log) that FINDINGS.md/ARTIFACT_HASHES.txt reference are gitignored and absent on disk -- the raw run trace is not reproducible from this repo alone, only the JSON outputs are.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B684_loop7_close",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B684_loop7_close",
+  "claims": [
+   {
+    "i": 460,
+    "what": "G1: compression kernel (1,0,(7983360/13)omega) exactly, DERIVED from the cubic contraction; two mechanisms proven disjoint (pi=0 on Lambda^2)",
+    "where": "loop7/G1_FINDINGS.md; artifacts named (g1_mechanisms.py, g1_results.json, g1_run.log) are NOT present in this arc's directory",
+    "why": "the named source artifacts for this claim are absent from the B684 directory on disk (only the prose FINDINGS summary is committed here) -- a stranger cannot rerun this from what's in the repo at this path",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 461,
+    "what": "G2: silver hears 1/delta at SU(4)_2, golden 1/phi at SU(3)_2 -- 'level-2-of-own-family' law",
+    "where": "loop7/G2_FINDINGS.md; g2_silversu4.py/g2_results.json/g2_run.log NOT present in this arc",
+    "why": "same missing-artifact issue as G1; and this specific headline value is directly contradicted by a later independent build (see red flags)",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B742_negatives_hunt_p1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B742_negatives_hunt_p1",
+  "claims": [
+   {
+    "i": 524,
+    "what": "30 RECONFIRMED verdicts (each: original kill's discriminating fact re-derived from scratch, not cited)",
+    "where": "recompute/<id>/recompute.py + output.txt for each of the 30 ids listed in FINDINGS.md's verdict table",
+    "why": "Sampled 3 of 30 recompute.py scripts directly (B58 not counted here \u2014 REVIVED; WALL-7, TOMB-L293) and confirmed they are genuine deterministic sympy/mpmath scripts with explicit checks and printed PASS/FAIL \u2014 strong positive signal for the sampled subset, but the other ~27 scripts/outputs were only read via the FINDINGS.md one-line summaries, not verified directly by this reader.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B754_p2_spectral",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B754_p2_spectral",
+  "claims": [
+   {
+    "i": 531,
+    "what": "TOMB-L277 skeptic override: 16/37 classes (43%) golden-magnitude weld-block trace; 1152/2880 elements golden; all 4 SU(2)_3-golden classes are golden-weld -- used to flip the cell's FACE-OPENS verdict to KILL-EXTENDS",
+    "where": "cells/TOMB-L277/skeptic.txt (the whole census table)",
+    "why": "No skeptic.py (or any script) is committed alongside skeptic.txt in cells/TOMB-L277/ -- only the prose report with printed numbers. A stranger cannot re-run this census from committed files; they must trust the pasted table. This is the numeric basis for the headline override.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B760_qp4_closure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B760_qp4_closure",
+  "claims": [
+   {
+    "i": 537,
+    "what": "Weld block B is SU(2) with eigenvalues {zeta_5, zeta_5^4} (72-degree rotation), B^5=I, and no candidate operation (Galois, MCG powers, charge conjugation, amphicheiral involution, QP-3 coupling sign) canonically breaks the pairing",
+    "where": "output.txt Parts 1-8 (compute.py itself was NOT in this arc's file list \u2014 only its stdout is committed)",
+    "why": "compute.py is referenced ('cd frontier/B760_qp4_closure && python compute.py') in FINDINGS.md but is not among the files provided for this arc (only FORENSIC_SEAL_RECORD.md, FINDINGS.md, PREREGISTRATION.md, arc_verdict.json, output.txt were listed) \u2014 the reproducing script was not read/verified here",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

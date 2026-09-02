@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B997_golden_conductor_uniqueness",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B997_golden_conductor_uniqueness",
+  "claims": [
+   {
+    "i": 761,
+    "what": "SL(2,Z/4) has order 48, 7 involutions, 0 elements of order 8 -- therefore SL(2,Z/4) is NOT isomorphic to 2O (which has 1 involution, 12 elements of order 8)",
+    "where": "ADDENDUM_2026-08-31_N4_is_an_order_coincidence.md",
+    "why": "the addendum states this was 'recomputed here by direct construction' with a results file 'reports/.../embedding_check.txt' referenced but not included among this arc's own three committed files.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1001_four_digit_blindspot",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1001_four_digit_blindspot",
+  "claims": [
+   {
+    "i": 762,
+    "what": "measured frequencies at N=917: golden 0.5725, figure_eight 0.4340, trace_map 0.3991, kappa 0.2377",
+    "where": "FINDINGS.md",
+    "why": "described as measured by a committed test (test_atlas.py) but that script is not among this arc's own two committed files; the specific N=917 figures are asserted here, not shown as raw script output in this directory.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1003_axiom_prices",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1003_axiom_prices",
+  "claims": [
+   {
+    "i": 763,
+    "what": "Cayley-Hamilton over det=1 traces in {-2..2} gives orders 3/4/6, infinite order at tr=+-2, max|eigenvalue|=1 exactly => pseudo-Anosov count 0 for entire family",
+    "where": "FINDINGS.md",
+    "why": "described as computed symbolically 'whole' but no script file is among this arc's committed files (ADDENDUM, FINDINGS.md, arc_verdict.json only) -- reproducibility depends on B749's own compute.py, cited but not included in this packet.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 764,
+    "what": "Gieseking (m000) volume 1.0149416064, m004 volume 2.0298832128, ratio exactly 2.000000 -- so m004 is the orientation double cover of Gieseking",
+    "where": "ADDENDUM_2026-08-30_covering_direction.md",
+    "why": "the addendum states this was 'run on this bench' with exact figures given, but no script accompanies it in this arc's directory; the volumes are standard SnapPy outputs, in principle independently checkable.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1004_ssb_leak",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1004_ssb_leak",
+  "claims": [
+   {
+    "i": 765,
+    "what": "band measurement: B500-B799 has 260 verdicted arcs (164 PROVED, 86 NEGATIVE, 6 OPEN, 4 RETRACTED); 234 cited somewhere, 26 cited nowhere",
+    "where": "FINDINGS.md",
+    "why": "described as a sweep/measurement of the B500-B799 band but no script is included among this arc's two committed files.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1029_invariant_ring",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1029_invariant_ring",
+  "claims": [
+   {
+    "i": 788,
+    "what": "reversal acts as h -> h-bar (same as conjugation) because unitary characters conjugate under inverse and SU(2) traces are real",
+    "where": "FINDINGS.md V1",
+    "why": "Described as derived in b1029_cells.py ('exact sympy throughout') but this file was not traced line-by-line in this pass; the underlying group-theory fact (real SU(2) traces, character conjugation under inverse) is standard and plausible but not independently checked here.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

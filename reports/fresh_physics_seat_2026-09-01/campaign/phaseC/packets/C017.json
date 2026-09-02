@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B582_chiral_play",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B582_chiral_play",
+  "claims": [
+   {
+    "i": 366,
+    "what": "Amalgam's Zariski closure H = E6(C) because Lie(H) contains e6 (connected algebraic subgroup determined by its Lie algebra)",
+    "where": "FINDINGS.md 'The chain'",
+    "why": "at the time this FINDINGS.md was written the underlying G1 dial-map code was, per the log's own 2026-07-15 self-correction, NEVER COMMITTED to the repo -- the closure step rested on a formal/jet-level argument, not committed code, until B598 (a separate arc) closed the hole the next day",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B583_chiral_content",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B583_chiral_content",
+  "claims": [
+   {
+    "i": 368,
+    "what": "X1: coupled character non-real, tr27(a1b1) matches banked B572 value exactly",
+    "where": "READING_RAW.md 'X1'",
+    "why": "READING_RAW itself states 'X1's verification is still in progress and everything said of it below is provisional' and 'This cell must not bank until it does' -- yet the arc_verdict.json banks it as PROVED",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 370,
+    "what": "X3: Dehn-filling covectors span exactly the theta-even 6-plane at level 2 (rank exactly 6, theta-odd projection 3.85e-13)",
+    "where": "READING_RAW.md 'X3'",
+    "why": "described as verified via an independently-coded Kac-Peterson builder and an exact rational-arithmetic proof that theta preserves h(lambda); script not among sampled files in this packet",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B58_sl4_tower_test",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B58_sl4_tower_test",
+  "claims": [
+   {
+    "i": 8,
+    "what": "original claim: SL(4) 7-factor tower prediction is untestable numerically because the fixed-line point is the degenerate identity representation",
+    "where": "FINDINGS.md body (below the correction header)",
+    "why": "the degeneracy argument (d tr(W)~1e-10, d^2 tr(W)~50) is numerically demonstrated in this arc's own probe.py, but the arc's headline conclusion built on it was later retracted by external work (B742/B745), not by this arc's own files",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B59_sl4_factorization",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B59_sl4_factorization",
+  "claims": [
+   {
+    "i": 10,
+    "what": "SL(4) fixed-line Jacobian spectrum factors as char(M^-1).char(M).char(M^2).char(M^3).char(M^4).char(-M^2).(t-1)^2(t+1)",
+    "where": "frontier/B59_sl4_factorization/probe.py (check_sl4_factorization, max match 0.0101)",
+    "why": "finite-difference extrapolation eps->0 at double precision, matched to target roots within tolerance 0.03; self-described as 'numerical (~3-4 digits), method-validated -- not a symbolic proof'",
+    "reproducible_from_committed": "yes but NUMERIC ONLY"
+   }
+  ]
+ },
+ {
+  "arc": "B596_cat_map",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B596_cat_map",
+  "claims": [
+   {
+    "i": 376,
+    "what": "ADDENDUM: clock(kappa) = ord(A1 mod 3*kappa) exactly for kappa=6..15 (10/10), independently verified with fresh order code in B656",
+    "where": "FINDINGS.md ADDENDUM section (cites frontier/B656_digest_integration/)",
+    "why": "the verifying code lives in a different arc directory (B656) not packaged in this arc's file set; not independently checked in this digest pass",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "arc": "B344_deviation_symplectic_pairing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B344_deviation_symplectic_pairing",
+  "claims": [
+   {
+    "i": 215,
+    "what": "det(dphi_m)=1 for m=1,2,3 (trace-map Jacobian is volume-preserving); at a fixed point eigenvalues {1,lambda,1/lambda}",
+    "where": "deviation_symplectic_pairing.py (sympy, imports sampled only)",
+    "why": "explicit Jacobian determinant and fixed-point eigenvalue computation, plausible standard linear algebra; not fully read",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B346_cross_structure_map",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B346_cross_structure_map",
+  "claims": [
+   {
+    "i": 217,
+    "what": "the reciprocal pair (lambda,1/lambda) carries Z/3 charges (1,2); the un-paired eigenvalue-1 direction is charge 0 -- symplectic and Z/3 structures coincide at the centre",
+    "where": "cross_structure_map.py (sympy/cmath, imports sampled only)",
+    "why": "combines B344 and B345's eigen-decompositions; plausible but not independently re-run here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B348_bloch_class_galois",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B348_bloch_class_galois",
+  "claims": [
+   {
+    "i": 220,
+    "what": "1-z0 = z0-bar exactly (the Bloch duality involution z->1-z coincides with Galois conjugation at the Eisenstein point); D(z0-bar)=-D(z0) at 30 dps, giving orbit {+Vol,-Vol}, sum=0",
+    "where": "bloch_class_galois.py (mpmath 30dps + sympy, imports sampled only)",
+    "why": "exact symbolic identity (i) plus a 30-digit numeric dilogarithm evaluation (iii); plausible and internally cross-checked ('independent of SnapPy and of the stored constant' per FINDINGS) but not independently re-run by this reader",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B368_cover_tower",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B368_cover_tower",
+  "claims": [
+   {
+    "i": 223,
+    "what": "primitive discriminants 5 vs 20 for (RL)^3 vs R^4L^4 refute the original m=4 identification",
+    "where": "FINDINGS.md \u00a7'The corrected premise'",
+    "why": "the fixed-point binary-form computation is described but its script is not visible among this arc's 5 listed files (may live in an earlier arc's provenance, not verified here)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B394_support_walk",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B394_support_walk",
+  "claims": [
+   {
+    "i": 229,
+    "what": "Sum rule: sum over support of singles = 1 across levels 15/45/135/405",
+    "where": "FINDINGS.md derived from singles_405.json + prior banked data",
+    "why": "the sum-rule claim spans four levels but only the 405-level computation is in this arc's files; the 15/45/135 values are IMPORTED from prior banked arcs (B382/B384/B392) not re-verified here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

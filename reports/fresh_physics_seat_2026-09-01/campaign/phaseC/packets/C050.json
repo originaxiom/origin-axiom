@@ -1,0 +1,100 @@
+[
+ {
+  "arc": "B8152_family_definition",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8152_family_definition",
+  "claims": [
+   {
+    "i": 1091,
+    "what": "criterion A (all-regular-ideal) count = 77; criterion B (shape field in Q(sqrt-3)) count = 111, later corrected to 112",
+    "where": "arc_verdict.json:claim_one_line; relays/...112_AND_MY_CONTROL_WAS_ONE_SIDED.md",
+    "why": "reproducer is 'census scan under BOTH criteria with the original 14 as a control that criterion B must contain'; no script file is present among this arc's delivered files (only arc_verdict.json, results.json, relays/).",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1092,
+    "what": "the count-off-by-one bug: the arc's own verifier-defect (missing one member, 111 vs 112) traced to a one-sided control",
+    "where": "relays/...112_AND_MY_CONTROL_WAS_ONE_SIDED.md (title)",
+    "why": "same reproducer gap as above.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B896_s3_harmonics",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B896_s3_harmonics",
+  "claims": [
+   {
+    "i": 670,
+    "what": "sign isotypic absent from C^3 = trivial + standard; Z2 cocycle placed as the sign class in oriented pair data",
+    "where": "FINDINGS.md Result 3",
+    "why": "described as 'rep theory, exact' but the specific representation-theoretic argument (why C^3 has no sign component, and why oriented pair data carries it) is stated in FINDINGS.md prose without an obviously corresponding computed check in results.json; more a mathematical argument than a numeric result, so 'COMPUTED' is only partly apt",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B959_nontoral_rank4",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B959_nontoral_rank4",
+  "claims": [
+   {
+    "i": 718,
+    "what": "all 63 inner sign-gradings of E6's root system fix the full Cartan (rank 6 always)",
+    "where": "FINDINGS.md sec.2; results.json cell2_inner_involutions",
+    "why": "stated as 'all 63 sign-gradings were built' with no script committed in this arc's own directory; not obviously reusing B961's frame.py (which postdates it in the same day's sequence).",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 719,
+    "what": "E6 diagram automorphism tau=(5,1,4,3,2,0), order 2, swapping node pairs (0,5) and (2,4), computed from the Cartan matrix",
+    "where": "FINDINGS.md sec.3; results.json cell3_outer_route",
+    "why": "described as computed from the Cartan matrix but no script ships in this arc's directory to reproduce it.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 720,
+    "what": "max elementary-abelian 2-rank/3-rank of A4, D5, S5: A4(2,1), D5(1,0), S5(2,1)",
+    "where": "FINDINGS.md sec.4; results.json cell4_hatch_ranks",
+    "why": "no committed script in the arc directory; described as 'measured here'.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B985_cc3_relational_integration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B985_cc3_relational_integration",
+  "claims": [
+   {
+    "i": 754,
+    "what": "torsion table: m004 H1=Z torsion 1; m003/m206 torsion 5; m136 torsion 4; m129 excluded (2 cusps); m135 torsion 8, all via snappy 3.3.2 homology read directly",
+    "where": "FINDINGS.md torsion table",
+    "why": "described as computed 'on this bench' with a named tool version (SnapPy 3.3.2) but no script file is included among this arc's committed files -- FINDINGS.md and arc_verdict.json only, no results.json or .py witness.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 755,
+    "what": "base-rate 63.2%/48.5% on a 30,000-manifold volume-ordered sample of trivial torsion",
+    "where": "FINDINGS.md",
+    "why": "no script committed in this arc's directory to reproduce the 30,000-manifold census sweep; numbers are stated as reproduced but the reproducing code is absent from the packet.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1006_lambda2_pslq",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1006_lambda2_pslq",
+  "claims": [
+   {
+    "i": 767,
+    "what": "PSLQ integer-relation search on r/lambda over Q and against phi, sqrt5, sqrt3, Vol(4_1), pi at stated degree/height envelope",
+    "where": "FINDINGS.md cells A-D",
+    "why": "No script file is committed in this arc's directory (only FINDINGS/PREREG/verdict, all mode FULL, no .py); the PSLQ runs are described in prose with exact envelope tables and control results but no committed code or witness file is present in this arc's own directory to rerun the cells.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

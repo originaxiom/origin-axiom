@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B329_mckay_branching_embeddings",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B329_mckay_branching_embeddings",
+  "claims": [
+   {
+    "i": 195,
+    "what": "2T character table built from 24 Hurwitz quaternions, verified orthonormal; 27|2T computed for principal and trinification embeddings, both giving n1=n2",
+    "where": "mckay_embeddings.py (sympy/itertools, imports sampled only)",
+    "why": "FINDINGS.md describes an explicit from-scratch character-table construction with an orthonormality check, which is a strong reproducibility claim; this reader sampled only the import header, not the full computation, so cannot independently confirm",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B331_ambivalence_closure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B331_ambivalence_closure",
+  "claims": [
+   {
+    "i": 197,
+    "what": "g=[[0,-1],[1,-1]] has eigenvalues {omega,omega^2}, is conjugate to its inverse, giving real chi_27(g)=0 identically for the compact and holomorphic principal SL(2,C) lift",
+    "where": "FINDINGS.md 'The clean reason'; ambivalence_closure.py (sympy, imports sampled only)",
+    "why": "an elementary and checkable representation-theory argument (ambivalence of finite-order elements); plausible but the .py body itself was only import-sampled, not fully read",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B332_two_letters_two_ends",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B332_two_letters_two_ends",
+  "claims": [
+   {
+    "i": 198,
+    "what": "g = -R*L^-1 exactly; trace/discriminant of R*L (disc 5) and g (disc -3)",
+    "where": "two_letters_two_ends.py (sympy matrix algebra, imports sampled only)",
+    "why": "elementary exact matrix algebra per FINDINGS' description; not fully read in this pass",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B333_compositum_seam",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B333_compositum_seam",
+  "claims": [
+   {
+    "i": 200,
+    "what": "h(-15)=2, and 14 of 123 fundamental discriminants down to -400 also have h=2, so Q(sqrt-15) is arithmetically generic",
+    "where": "compositum_seam.py (sympy reduced-quadratic-form class-number computation, imports sampled only)",
+    "why": "class-number-by-reduced-forms is a standard, checkable computation; plausible per FINDINGS but the .py body was only import-sampled here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B334_seam_hilbert_class_field",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B334_seam_hilbert_class_field",
+  "claims": [
+   {
+    "i": 201,
+    "what": "H(Q(sqrt-15)) = Q(sqrt5,sqrt-3) verified two ways: prime-splitting law (Legendre/Jacobi) and binary-quadratic-form representation, 0 mismatches",
+    "where": "seam_hcf.py (sympy jacobi_symbol, imports sampled only)",
+    "why": "standard genus-theory computation, plausible per FINDINGS but not fully read here",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 202,
+    "what": "137 mod 15 = 2 (non-principal) is a coin-flip, not a signal; the '137' numerology is DEAD",
+    "where": "FINDINGS.md 'The null test (137, killed)'",
+    "why": "trivial modular arithmetic, plausible",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

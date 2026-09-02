@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B733_observer_space",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B733_observer_space",
+  "claims": [
+   {
+    "i": 512,
+    "what": "Full Out(G_n) does grow (Z/2 -> C2xC2 -> S4) but decomposes into a bounded Galois/Frobenius part + a saturating classical diagonal + a non-arithmetic (excluded) module-multiplicity Z/3; overall verdict: bounded, never a continuum",
+    "where": "b733_menu.py + b733_menu_out.txt",
+    "why": "The script header states it uses GAP 4.15 (via subprocess) for the automorphism-group piece that a prior draft omitted; pure-python parts (rings/groups) are self-contained, but the GAP-dependent parts need an external GAP install to rerun exactly. Documents two self-caught corrections (C1: kernel order 64->16; C2: 'no new automorphism structure' claim replaced by an honest decomposition) in its own header.",
+    "reproducible_from_committed": "partial"
+   }
+  ]
+ },
+ {
+  "arc": "B73_sl4_apoly",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B73_sl4_apoly",
+  "claims": [
+   {
+    "i": 17,
+    "what": "Sym^3 SL(4) geometric branch reproduces Sym^3 of SL(2) monodromy to ~1e-12",
+    "where": "probe.py:1-40 header + sym_power",
+    "why": "only the head of probe.py was sampled per mode; full verification of the Sym^3 shadow check was not read",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B736_ABC_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B736_ABC_campaign",
+  "claims": [
+   {
+    "i": 516,
+    "what": "Equivariance-wall T=0: the Sylvester intertwiner between being (eigenvalues \u03c6\u00b2,\u03c6\u207b\u00b2) and hearing (order-10, eigenvalues on unit circle) has disjoint spectra \u21d2 unique solution T=0",
+    "where": "p3_reduction.py / p3_reduction_out.txt (not fully read; grep-sampled per packet mode SAMPLE_CODE)",
+    "why": "Only grepped def/assert/print lines and the first 120 lines of p3_reduction.py per sampling protocol; output file p3_reduction_out.txt was read in full and is consistent with the claim, but the full script logic for the intertwiner computation was not read line-by-line.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B737_candidate_zero",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B737_candidate_zero",
+  "claims": [
+   {
+    "i": 518,
+    "what": "\u03c6_m004(s) = \u039b_K(s)/\u039b_K(s+1), Res \u03c6 = 2\u221a3/vol(m004) = 1.70655217662816\u2026 (verified 40 digits, three routes)",
+    "where": "FINDINGS.md P2-COVER section; p2_cover.py (not read in full, only grepped per SAMPLE_CODE mode) / p2_cover_out.txt",
+    "why": "The p4_kms.py file (read in full) independently re-derives and cross-checks parts of this (S4 scattering-side residue check against exact formula 2\u03c0\u00b2/(9\u03b6_K(2))), giving corroboration, but p2_cover.py itself was only grep-sampled per the packet's mode assignment, so the full P2 derivation logic (the one-cusp exact-transfer lemma) was not directly verified here.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 519,
+    "what": "m004's cusp is \u2102/(\u2124+2\u221a\u22123\u2124) with CM by the conductor-4 order (disc \u221248, h(\u221248)=2)",
+    "where": "FINDINGS.md P3-SISTER section",
+    "why": "p3_sister.py was only grep-sampled, not read in full; the claim is stated as 'in-seat verified' (mp.kleinj match to 1e-15) but a later log entry (B850, 2026-08-02) records that a related sub-fact in this chain (Frobenius generator on the class group) needed correction \u2014 the corrected version is said to leave B737's conclusion intact, but this arc's own files were not updated with that correction (it lives in a downstream arc).",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B738_pathfinder_compiler",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B738_pathfinder_compiler",
+  "claims": [
+   {
+    "i": 520,
+    "what": "217 classified negatives with per-record kill_form/faces_consulted/fact_computed/hatch/priority/revival_score fields; emittance-lengths 2/217, emittance-eigenvalues 3/217, Laplace/scattering spectrum consulted by 0/217",
+    "where": "kill_graph.json (at the time FINDINGS.md/KILL_GRAPH_SUMMARY.md were written), KILL_GRAPH_SUMMARY.md tables",
+    "why": "This is a classification/compilation exercise (14 compile agents reading and tagging existing FINDINGS across the corpus) rather than a mathematical computation \u2014 its 'ground truth' is itself a judgment call over text, audited by 3 sample-auditors (0/24 refuted) but not independently re-derivable by re-running a script; the file has since grown to 774 records so the exact 217-record snapshot audited is not separately preserved/frozen anywhere sampled.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 521,
+    "what": "kill_form disagreement with cc3's independent compiler: 107/155 (69%) raw disagreement, mostly taxonomy; 6/155 (3.9%) substantive fact-basis disagreements (B146,B272,B285,B296,B437,B516)",
+    "where": "FINDINGS.md KILL-GRAPH DIFF section",
+    "why": "Reported as a diff between two independently-built compilations; the diff computation itself is plausible and specific (named ids) but neither compiler's classification is independently checkable as 'correct' since it is itself an interpretive act over prose FINDINGS.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

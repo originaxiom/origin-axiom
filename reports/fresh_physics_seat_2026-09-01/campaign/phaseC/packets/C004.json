@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B136_general_amphichirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B136_general_amphichirality",
+  "claims": [
+   {
+    "i": 68,
+    "what": "SnapPy three-way agreement on metallic and non-metallic words",
+    "where": "probe.py snappy_threeway()",
+    "why": "SnapPy-guarded, skips cleanly if absent",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B139_firewall_cartography",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B139_firewall_cartography",
+  "claims": [
+   {
+    "i": 71,
+    "what": "SnapPy CS-flip / volume-invariance / H1-invariance control",
+    "where": "probe.py cs_flip_live()",
+    "why": "SnapPy-gated; skips cleanly if absent, so reproducibility depends on the environment having SnapPy installed (not verified in this read)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B144_interaction_chirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B144_interaction_chirality",
+  "claims": [
+   {
+    "i": 78,
+    "what": "the metallic pieces b++RL, b++RRLL are amphichiral (premise for the identity to apply)",
+    "where": "probe.py pieces_are_amphichiral()",
+    "why": "SnapPy-gated; falls back to recorded B128 values if SnapPy absent",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B145_forced_chirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B145_forced_chirality",
+  "claims": [
+   {
+    "i": 80,
+    "what": "GHH criterion (anti-palindromic) matches SnapPy is_amphicheiral on all 39 catalogued bundles",
+    "where": "probe.py catalog()/analyze()",
+    "why": "SnapPy/Sage-gated (trace-field degree needs Sage); not re-run here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B147_arithmetic_chiral_bundle",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B147_arithmetic_chiral_bundle",
+  "claims": [
+   {
+    "i": 84,
+    "what": "RRL/RLL traces are algebraic integers (monic minimal polynomials via pari algdep)",
+    "where": "probe.py integral_traces()",
+    "why": "runs under plain pyenv (SnapPy+cypari); not re-executed here, but the method (monic-polynomial test, actual-degree leading coefficient) is concretely specified and a real bug in an earlier version is documented as caught (leading coeff must be read at actual, not search, degree)",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 85,
+    "what": "independent volume/Bianchi-covolume cross-check: vol(RL)/covol=12, vol(RRLL)/covol=12, vol(RRL,RLL)/covol=3",
+    "where": "probe.py VOLUME_BIANCHI_RATIOS (recorded, computed under sage-python separately)",
+    "why": "explicitly stated as run under a separate sage-python process and recorded as a constant in this pyenv-only probe.py, not independently re-derivable from this file alone",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 86,
+    "what": "arithmetic o-p-t bundle scan (len<=7) finds exactly 4 arithmetic bundles: RL, RRLL, RRL, RLL",
+    "where": "probe.py arithmetic_scan()",
+    "why": "SnapPy+cypari-gated scan, not re-run here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

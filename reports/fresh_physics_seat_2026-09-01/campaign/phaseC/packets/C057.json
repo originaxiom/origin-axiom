@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B137_s031_sealing_m2",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B137_s031_sealing_m2",
+  "claims": [
+   {
+    "i": 69,
+    "what": "SL(3) tower sealed in K_m for m=1 (Q(sqrt-3)) and m=2 (Q(i)) among irreducible off-sublocus fixed points, 0 escapes, 2 seeds each",
+    "where": "probe.py sealing_search(), SEALING_RECORD",
+    "why": "scipy-guarded numerical root-find; the specific per-seed counts (irreducible count, escapes, reducible artifacts ignored) are hardcoded in SEALING_RECORD as a fallback when scipy is absent; a stranger without scipy only gets the recorded numbers, not a fresh search",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8105_r48_phase1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8105_r48_phase1",
+  "claims": [
+   {
+    "i": 1042,
+    "what": "docs/THEOREM_REGISTRY.md's own standing rule (every theorem/law-creating bank adds its line in the same PR) has been unenforced: 56 entries topping out at B920 against a corpus at B1099; B1012, B1076, B1080, B1085, B1088, B1094, B1098 checked individually and absent",
+    "where": "FINDINGS.md lines 55-68; docs/THEOREM_REGISTRY.md (cited, not quoted in full)",
+    "why": "checking presence/absence of specific arc IDs in a markdown registry is a simple, in-principle-reproducible grep, but no script is committed in this arc directory -- it's presented as a manual check against origin/main at a stated commit.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1043,
+    "what": "of 126 synthesis surfaces, 57 lag below B1000; 21 dated snapshots (legitimately frozen) vs 36 undated live-surface candidates",
+    "where": "FINDINGS.md lines 38-49; live_surfaces.json",
+    "why": "live_surfaces.json presumably lists the 36 candidates (not independently opened line-by-line here), but no script producing the 126/57/21/36 counts is committed in this directory.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8106_r48_phase2",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8106_r48_phase2",
+  "claims": [
+   {
+    "i": 1045,
+    "what": "docs/UNIFIED_STATE.md at lag 192 contains none of B1080, B1094, B1098, B1100",
+    "where": "FINDINGS.md lines 140-142",
+    "why": "simple text-presence check, no script committed.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8108_r48_phase3",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8108_r48_phase3",
+  "claims": [
+   {
+    "i": 1048,
+    "what": "of 36 undated live surfaces, 13 carry a supersession/archival banner (correctly handled, not defects), 23 do not, of which 21 are genuinely untriaged",
+    "where": "FINDINGS.md lines 34-43; triage.json",
+    "why": "a header-regex 'discriminator' was built and run, but the script itself is not listed among this arc's files (only triage.json, a result); the arc explicitly flags its own discriminator as having false positives (BANKING_PROTOCOL wrongly marked 'handled').",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8153_b500_accounting",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8153_b500_accounting",
+  "claims": [
+   {
+    "i": 1093,
+    "what": "accounting of 150 words: 115 completed + 26 timed out + 9 never reached = 150",
+    "where": "results.json:the_accounting",
+    "why": "described as a 'word-by-word accounting of hunt_results_d5.txt against the 150 all-three-verb depth-5 words'; hunt_results_d5.txt is a log-style artifact whose committed status is not confirmed from this arc's own files (none of the underlying data files are among the packet's file list for this arc).",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1094,
+    "what": "the obstruction method is vacuous: it excludes none of 5 deliberately-absent test targets (up to degree 29) from a degree-4 slot",
+    "where": "results.json:my_failed_method.the_bite_control",
+    "why": "same gap -- no script present in this arc's own directory.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

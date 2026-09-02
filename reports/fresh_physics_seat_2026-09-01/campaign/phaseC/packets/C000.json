@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "_frontier_root_files",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "claims": [
+   {
+    "i": 1098,
+    "what": "colored-Jones minimal recursion order 2 matching the figure-eight A-polynomial's L-degree, with annihilation residuals ~1e-16",
+    "where": "frontier/aj_conjecture_check.json",
+    "why": "The JSON contains real numeric witness data (colored Jones polynomials J_1..J_5, nullspace gaps, residuals ~1e-16/1e-17) but the generating script is not present anywhere in this arc's file list, so a stranger cannot re-run it from what is committed here.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 1099,
+    "what": "independent re-verification of B488 (m=1..8 manifold census data), B462 (double of figure-eight is non-hyperbolic/toroidal), B174 (gluing landscape fork sizes), B143 (composite JSJ decomposition + A-polynomial factors)",
+    "where": "frontier/VERIFICATION_2026-07-08_double_dgg.md",
+    "why": "Describes fresh SnapPy/Regina rebuilds (\"independent recomputation\") with concrete outputs (tets=2m, H1=(Z/m)^2+Z, apoly_m1=t^4-5t^2+2, etc.) but the actual scripts (gluing_landscape.py, probe.py, phi_scan.py) are not in this arc's file set; B487's claim is explicitly flagged by the document itself as a literature citation, not recomputed this session.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B5_wheeler_dewitt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B5_wheeler_dewitt",
+  "claims": [
+   {
+    "i": 1,
+    "what": "Lambda = 2*pi^2/Vol(4_1) ~= 9.724 (Planck units), ~10^120 times observed cosmological constant",
+    "where": "probe.py main(), uses origin_axiom.constants.VOL_FIG8",
+    "why": "depends on VOL_FIG8 constant imported from origin_axiom.constants, not shown in this probe; the ~10^120 comparison to the observed Lambda is an order-of-magnitude claim not itself computed symbolically here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B25_fibonacci_spectrum_anchor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B25_fibonacci_spectrum_anchor",
+  "claims": [
+   {
+    "i": 2,
+    "what": "REFINED (later addendum): bandwidth-decay ratio ~0.8711(4); box-counting dimension NOT converged, bracketed [0.78,0.93], Aitken ~0.86",
+    "where": "README.md addendum '2026-06-11, review-session'",
+    "why": "described as 'numbers reproduced in-session' from a cross-session run; no committed script/witness for this refined estimate is present in the files read (only the original probe.py, which targets 0.75, not this refined bracket)",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B60_sln_tower",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B60_sln_tower",
+  "claims": [
+   {
+    "i": 11,
+    "what": "cross-n factorization map for n=3,4 (powers, sign sectors, parity degree)",
+    "where": "frontier/B60_sln_tower/probe.py check_sl3_validation/check_sl4_regression",
+    "why": "same double-precision extrapolation method as B59, self-described 'numerical, method-validated -- not a symbolic proof'",
+    "reproducible_from_committed": "yes but NUMERIC ONLY"
+   }
+  ]
+ },
+ {
+  "arc": "B64_parity_mechanism",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B64_parity_mechanism",
+  "claims": [
+   {
+    "i": 14,
+    "what": "the Lambda^2 obstruction is 'localized' -- full symbolic SL(4) Jacobian needs the 6-dim exterior square, not just fundamental depth-4",
+    "where": "probe.py check_lambda2_obstruction",
+    "why": "the check only confirms tr(W^2)=(trW)^2-2e2(W), a standard identity; it does not prove no other obstruction exists",
+    "reproducible_from_committed": "the Newton identity itself yes; the completeness of 'this is the only obstruction' is not independently verified here"
+   }
+  ]
+ }
+]

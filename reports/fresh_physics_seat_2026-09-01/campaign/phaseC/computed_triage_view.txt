@@ -1,0 +1,1592 @@
+#1 [B5_wheeler_dewitt|main] rep=unknown seen=0
+   WHAT: Lambda = 2*pi^2/Vol(4_1) ~= 9.724 (Planck units), ~10^120 times observed cosmological constant
+   WHERE: probe.py main(), uses origin_axiom.constants.VOL_FIG8
+   WHY: depends on VOL_FIG8 constant imported from origin_axiom.constants, not shown in this probe; the ~10^120 comparison to the observed Lambda is an order-of-magnitude claim not itself computed symbolicall
+#2 [B25_fibonacci_spectrum_anchor|main] rep=no seen=0
+   WHAT: REFINED (later addendum): bandwidth-decay ratio ~0.8711(4); box-counting dimension NOT converged, bracketed [0.78,0.93], Aitken ~0.86
+   WHERE: README.md addendum '2026-06-11, review-session'
+   WHY: described as 'numbers reproduced in-session' from a cross-session run; no committed script/witness for this refined estimate is present in the files read (only the original probe.py, which targets 0.7
+#8 [B58_sl4_tower_test|main] rep=unknown seen=0
+   WHAT: original claim: SL(4) 7-factor tower prediction is untestable numerically because the fixed-line point is the degenerate identity representation
+   WHERE: FINDINGS.md body (below the correction header)
+   WHY: the degeneracy argument (d tr(W)~1e-10, d^2 tr(W)~50) is numerically demonstrated in this arc's own probe.py, but the arc's headline conclusion built on it was later retracted by external work (B742/B
+#10 [B59_sl4_factorization|main] rep=yes but  seen=0
+   WHAT: SL(4) fixed-line Jacobian spectrum factors as char(M^-1).char(M).char(M^2).char(M^3).char(M^4).char(-M^2).(t-1)^2(t+1)
+   WHERE: frontier/B59_sl4_factorization/probe.py (check_sl4_factorization, max match 0.0101)
+   WHY: finite-difference extrapolation eps->0 at double precision, matched to target roots within tolerance 0.03; self-described as 'numerical (~3-4 digits), method-validated -- not a symbolic proof'
+#11 [B60_sln_tower|main] rep=yes but  seen=0
+   WHAT: cross-n factorization map for n=3,4 (powers, sign sectors, parity degree)
+   WHERE: frontier/B60_sln_tower/probe.py check_sl3_validation/check_sl4_regression
+   WHY: same double-precision extrapolation method as B59, self-described 'numerical, method-validated -- not a symbolic proof'
+#12 [B61_sl5_high_precision|main] rep=yes but  seen=0
+   WHAT: 22 of 24 SL(5) multipliers resolve to the Cayley-Hamilton catalog using inverse-word coordinates
+   WHERE: frontier/B61_sl5_high_precision/probe.py compute_sl5
+   WHY: high-precision (dps=60) numerical extrapolation matched to catalog roots (worst resolved mode ~2e-5); explicitly 'NOT a symbolic proof'
+#14 [B64_parity_mechanism|main] rep=the Newt seen=0
+   WHAT: the Lambda^2 obstruction is 'localized' -- full symbolic SL(4) Jacobian needs the 6-dim exterior square, not just fundamental depth-4
+   WHERE: probe.py check_lambda2_obstruction
+   WHY: the check only confirms tr(W^2)=(trW)^2-2e2(W), a standard identity; it does not prove no other obstruction exists
+#15 [B66_sl6_tower|main] rep=yes but  seen=0
+   WHAT: mult(|k|=3)=2 at SL(6), refuting max(n-d,1)=3
+   WHERE: frontier/B66_sl6_tower/probe.py main() KEY TEST
+   WHY: high-precision mpmath extrapolation; matched directly to catalog roots
+#17 [B73_sl4_apoly|main] rep=unknown seen=0
+   WHAT: Sym^3 SL(4) geometric branch reproduces Sym^3 of SL(2) monodromy to ~1e-12
+   WHERE: probe.py:1-40 header + sym_power
+   WHY: only the head of probe.py was sampled per mode; full verification of the Sym^3 shadow check was not read
+#20 [B75_metallic_degree_rank|main] rep=unknown seen=0
+   WHAT: M^3=L confirmed at m=1 and m=3 (n=3), eigenvalue-form test dev ~7.5e-15 / 2.7e-15 over 8 reps each
+   WHERE: FINDINGS.md table, presumably computed in probe.py (not directly read)
+   WHY: probe.py itself was not opened (packet lists it as SAMPLE/FULL but time budget led to relying on FINDINGS' numeric table); the FINDINGS text describes the method (eigenvalue-form test) in enough detai
+#21 [B75_metallic_degree_rank|main] rep=unknown seen=0
+   WHAT: even-m (m=2, silver) Dehn-filling component NOT found across a 61-spectrum sweep at n=3
+   WHERE: FINDINGS.md:49-54
+   WHY: same caveat — described, not independently verified against probe.py source in this pass
+#22 [B76_cusp_quantum_group|main] rep=unknown seen=0
+   WHAT: 2cos(pi/k) = [2]_q identity verified k=3..8
+   WHERE: FINDINGS.md:15-16, presumably probe.py
+   WHY: probe.py not directly opened this pass; the identity itself is elementary trigonometric/algebraic and plausible, but independent verification of the committed script was not done
+#23 [B77_degree_rank_mechanism|main] rep=unknown seen=0
+   WHAT: [A,B]=c*mu^n with c=(-1)^{n-1}, robust across reps/seeds, scalar-dev ~1e-10 to 1e-14
+   WHERE: FINDINGS.md:17-24, presumably probe.py
+   WHY: probe.py not directly opened this pass
+#24 [B77_degree_rank_mechanism|main] rep=unknown seen=0
+   WHAT: A-to-D unification refuted: meridian eigenvalues are generic, not roots of unity, not the Dickson char(M^n) roots
+   WHERE: FINDINGS.md:27-36
+   WHY: same caveat
+#25 [B78_degree_rank_n5|main] rep=unknown seen=0
+   WHAT: rep-finder validated at n=3,4 reproducing known sign law (c=+1 at n=3, c=-1 at n=4)
+   WHERE: FINDINGS.md:16-21
+   WHY: probe.py not directly opened this pass
+#26 [B78_degree_rank_n5|main] rep=unknown seen=0
+   WHAT: n=5: every converged rep across many spectra is reducible (~100 converged solutions per spectrum, 0 irreducible)
+   WHERE: FINDINGS.md:26-29
+   WHY: same caveat; a striking negative numeric claim worth independent rerun
+#29 [B81_sl5_adproof|main] rep=unknown seen=0
+   WHAT: char(DT_0(4,m=1)) identical across seeds (canonical); char(DT_0(5,m=1)) scatters (24/25 coeffs differ across seeds 20/99/123)
+   WHERE: FINDINGS.md table lines 19-22
+   WHY: probe.py not directly opened this pass; described as exact F_p computation
+#31 [B83_sln_apolynomial|main] rep=unknown seen=0
+   WHAT: A_n family L=(-1)^{n-1}M^n confirmed at n=3 (~1e-10) and n=4 (~1e-12, new)
+   WHERE: FINDINGS.md table lines 20-24
+   WHY: probe.py not directly opened this pass
+#33 [B84_sl5_gauge_barrier|main] rep=unknown seen=0
+   WHAT: seed-averaging over 40 seeds fails to converge char(DT_0(5,m=1)); gauge-invariant power sums tr(DT_0^k) also scatter across seeds at SL(5) but not SL(4)
+   WHERE: FINDINGS.md:16-26
+   WHY: probe.py not directly opened this pass; exact F_p claimed
+#34 [B85_tower_lynchpin|main] rep=unknown seen=0
+   WHAT: Lambda^2 functoriality of the figure-eight substitution verified to ~1e-14
+   WHERE: FINDINGS.md:18-24
+   WHY: probe.py not directly opened this pass
+#41 [B92_metallic_classification|main] rep=unknown  seen=0
+   WHAT: companion M_m is the UNIQUE GL(2,Z) class for m<=5 and m=7,8; first non-uniqueness at m=6 (h=2)
+   WHERE: FINDINGS.md ADDENDUM 2026-08-18 class-number table
+   WHY: the addendum's corrected class-number table used external tools (Sage BinaryQF, PARI cross-validation) whose scripts are not among the files read in this arc
+#42 [B94_tower_universality|main] rep=yes (dep seen=0
+   WHAT: char(J^2) factors exactly over catalog char(N^k), N=M_1^2, at SL(3) and SL(4); no sign sectors, no (t+1)
+   WHERE: probe.py universality(), reusing _sl3_jacobian_m1/_sl4_jacobian_m1 imported from B54/B65 probe modules
+   WHY: exact symbolic factorization at m=1 only; cross-arc dependency on B54/B65's symbolic_jacobian() functions not verified in this batch
+#47 [B101_hitchin_reframing|main] rep=yes (per seen=0
+   WHAT: Lorentzian rung occurs only at k=2 in the symmetric-space ladder; no tower of spacetimes
+   WHERE: FINDINGS.md R2 'ladder_signatures'
+   WHY: SAMPLE_CODE mode used per packet instructions; the load-bearing ladder_signatures()/lorentzian_rungs() function bodies were not read in full
+#48 [B101_hitchin_reframing|main] rep=yes (per seen=0
+   WHAT: H^1 splits 3+5 (Teichmuller + cubic); explicit Anosov deformation leaves V0 and breaks SO(2,1) form
+   WHERE: FINDINGS.md R4, probe.py tangent_space_split()/cubic_deformation_witness() (not fully read)
+   WHY: FINDINGS.md explicitly notes an 'honest scope': the unconstrained cubic deformation also moves the puncture holonomy off unipotent, a limitation the arc itself flags
+#50 [B105_n5_wall_and_convergence|main] rep=partiall seen=0
+   WHAT: H6/V91: n=5 is a threshold of THREE distinct obstacles (degree=rank, tower doubling, trace-ring non-closure), not one collision
+   WHERE: probe.py forced_cusp_spectrum()/cusp_spectrum_facts() (sampled); FINDINGS.md V91 correction text
+   WHY: the three-obstacle distinction rests on citing three separate arcs (B95, B62, engine-free trace-ring argument) rather than one self-contained computation in this file
+#55 [B125_snappy_arithmeticity|main] rep=unknown seen=1
+   WHAT: m=1 kM=Q(sqrt-3), m=2 kM=Q(i), both arithmetic; m=3..6 non-arithmetic (degree>=4)
+   WHERE: probe.py RECORD dict + live_arithmeticity(), FINDINGS.md sec 2
+   WHY: computed in-sandbox with SnapPy 3.3.2 + cypari 2.5.6 and recorded as a hardcoded RECORD dict in probe.py; the live recomputation function exists and is SnapPy-guarded (skips if absent) so a stranger w
+#56 [B126_ladder_to_physics|main] rep=partial seen=0
+   WHAT: kappa-degree over Q(z) = [1,1,3,3,7,6] for m=1..6, rational exactly for arithmetic members m=1,2
+   WHERE: probe.py kappa_degree(), KAPPA_DEGREE_RECORD
+   WHY: m=1..4 computed live via Groebner elimination in probe.py; m=5,6 are recorded from 'the longer run' (not re-derived live, no script shown for m=5,6), described honestly as 'family-specific observation
+#58 [B127_chirality_arithmetic_naming|main] rep=unknown seen=1
+   WHAT: CS(M_m^2=R^mL^m) identically 0 for m=1..6 (SnapPy complex_volume, machine zero)
+   WHERE: FINDINGS.md M-2
+   WHY: described as computed via SnapPy but the FINDINGS/README note the SnapPy recomputation is guarded/skips when absent; the packet did not include probe.py at full-read depth for this arc (only FINDINGS/
+#59 [B128_symmetry_breaking_chirality|main] rep=unknown seen=0
+   WHAT: torsion tracks periodicity not chirality (K-F tombstone), e.g. achiral doubles single-torsion, achiral periodic triples doubled
+   WHERE: probe.py TORSION_TABLE, torsion_does_not_track_chirality()
+   WHY: recorded as a hardcoded table from SnapPy computation; live SnapPy recomputation is guarded/optional
+#60 [B129_sl3_tower_sealed|main] rep=unknown seen=1
+   WHAT: S1b: 15-seed x 30-start off-sublocus scan finds 427 converged fixed points, max distance-to-Q(sqrt-3)=1.2e-6, 0 escapes beyond 1e-5
+   WHERE: probe.py offsublocus_search(), S1B_SCAN record
+   WHY: scipy-guarded numerical root-find; the specific 427-point/15-seed run is recorded as a hardcoded number (S1B_SCAN dict), described honestly in FINDINGS as 'strong computational result, NOT a theorem';
+#61 [B129_sl3_tower_sealed|main] rep=unknown seen=1
+   WHAT: silver bundle b++RRLL degree-2 covers reach (cusps,free_rank)=(2,2)
+   WHERE: probe.py silver_covers()
+   WHY: SnapPy-guarded; skips cleanly if SnapPy absent, record stands as hardcoded fallback
+#62 [B130_no_forced_choice|main] rep=partial seen=0
+   WHAT: kappa-elimination ideal empty for m=2,3,4 (symbolic Groebner) -> kappa free on fixed locus
+   WHERE: probe.py kappa_elimination(), KAPPA_FREE_SYMBOLIC
+   WHY: m=2 computed live in the script's main(); m=3,4 are described as 'verified in-sandbox; recorded' with runtimes noted (~80s, ~8s) but not executed live in main() by default -- a stranger rerunning main
+#64 [B131_two_seed_fork|main] rep=unknown seen=0
+   WHAT: (1,3) and (2,3) forks are numerical (6 and 4 values respectively)
+   WHERE: probe.py FORKS dict
+   WHY: hardcoded numerical values in probe.py without a live root-finder shown for these in main(); described as 'numerical' honestly in FINDINGS but the exact Newton-solve script producing them is not visib
+#66 [B134_chirality_recursion_proved|main] rep=unknown seen=0
+   WHAT: SnapPy three-way check: anti-palindromic == cyclic-palindrome == is_amphicheiral agree on 16 sample cases
+   WHERE: probe.py snappy_threeway()
+   WHY: SnapPy-guarded, skips cleanly if absent
+#68 [B136_general_amphichirality|main] rep=unknown seen=0
+   WHAT: SnapPy three-way agreement on metallic and non-metallic words
+   WHERE: probe.py snappy_threeway()
+   WHY: SnapPy-guarded, skips cleanly if absent
+#69 [B137_s031_sealing_m2|main] rep=unknown seen=0
+   WHAT: SL(3) tower sealed in K_m for m=1 (Q(sqrt-3)) and m=2 (Q(i)) among irreducible off-sublocus fixed points, 0 escapes, 2 seeds each
+   WHERE: probe.py sealing_search(), SEALING_RECORD
+   WHY: scipy-guarded numerical root-find; the specific per-seed counts (irreducible count, escapes, reducible artifacts ignored) are hardcoded in SEALING_RECORD as a fallback when scipy is absent; a stranger
+#71 [B139_firewall_cartography|main] rep=unknown seen=0
+   WHAT: SnapPy CS-flip / volume-invariance / H1-invariance control
+   WHERE: probe.py cs_flip_live()
+   WHY: SnapPy-gated; skips cleanly if absent, so reproducibility depends on the environment having SnapPy installed (not verified in this read)
+#74 [B142_klein4_and_magic_cartography|main] rep=unknown seen=1
+   WHAT: s776 = magic manifold (not Borromean rings), vol 5.33349, trace field Q(sqrt-7), 3-chain link not Brunnian
+   WHERE: probe.py factual_correction()
+   WHY: SnapPy-gated; not re-run in this read, but the values are concrete and specific enough to be a real computation rather than an assertion
+#75 [B142_klein4_and_magic_cartography|main] rep=unknown seen=1
+   WHAT: s776 SL(3,C) Ptolemy variety has 14 obstruction classes, geometric component dim 6
+   WHERE: probe.py sl3_ptolemy_object()
+   WHY: Sage-gated; the 'honest object' is only partially instantiated (size reported), not solved -- the SU(3) content question stays open per FINDINGS Item C
+#78 [B144_interaction_chirality|main] rep=unknown seen=0
+   WHAT: the metallic pieces b++RL, b++RRLL are amphichiral (premise for the identity to apply)
+   WHERE: probe.py pieces_are_amphichiral()
+   WHY: SnapPy-gated; falls back to recorded B128 values if SnapPy absent
+#80 [B145_forced_chirality|main] rep=unknown seen=0
+   WHAT: GHH criterion (anti-palindromic) matches SnapPy is_amphicheiral on all 39 catalogued bundles
+   WHERE: probe.py catalog()/analyze()
+   WHY: SnapPy/Sage-gated (trace-field degree needs Sage); not re-run here
+#82 [B146_b145_calibration|main] rep=unknown seen=1
+   WHAT: invariant trace field of RRL/RLL is imaginary-quadratic Q(sqrt-7), refuting B145's non-invariant-field claim
+   WHERE: probe.py arithmetic_arm()
+   WHY: SnapPy+Sage-gated; not re-run in this read but reported as a specific catalog scan result
+#83 [B146_b145_calibration|main] rep=unknown seen=1
+   WHAT: M and mirror agree on orientation-independent invariants (vol/H1/trace field), CS flips
+   WHERE: probe.py dichotomy_witness()
+   WHY: SnapPy/Sage-gated witness for chiral words RRL, RRRL
+#84 [B147_arithmetic_chiral_bundle|main] rep=unknown seen=1
+   WHAT: RRL/RLL traces are algebraic integers (monic minimal polynomials via pari algdep)
+   WHERE: probe.py integral_traces()
+   WHY: runs under plain pyenv (SnapPy+cypari); not re-executed here, but the method (monic-polynomial test, actual-degree leading coefficient) is concretely specified and a real bug in an earlier version is 
+#85 [B147_arithmetic_chiral_bundle|main] rep=unknown seen=1
+   WHAT: independent volume/Bianchi-covolume cross-check: vol(RL)/covol=12, vol(RRLL)/covol=12, vol(RRL,RLL)/covol=3
+   WHERE: probe.py VOLUME_BIANCHI_RATIOS (recorded, computed under sage-python separately)
+   WHY: explicitly stated as run under a separate sage-python process and recorded as a constant in this pyenv-only probe.py, not independently re-derivable from this file alone
+#86 [B147_arithmetic_chiral_bundle|main] rep=unknown seen=1
+   WHAT: arithmetic o-p-t bundle scan (len<=7) finds exactly 4 arithmetic bundles: RL, RRLL, RRL, RLL
+   WHERE: probe.py arithmetic_scan()
+   WHY: SnapPy+cypari-gated scan, not re-run here
+#90 [B153_degree_rank_degeneration|main] rep=unknown seen=0
+   WHAT: n=3 {1,i,-i}: exact-over-F_p (3 primes) 2-component decomposition, dim-5 geometric component tangent 11 rigid/irreducible/L=+M^3; dim-3 reducible slice tangent 10
+   WHERE: n3_exact_endpoint.sage (NOT independently read by this reviewer; referenced in FINDINGS.md sec 'n=3 is a genuine compone
+   WHY: the .sage file was listed as FULL mode but not opened in this pass; FINDINGS.md describes it as reproducible via Sage, and the claimed exact tangent values (11, 10) are explicitly flagged in FINDINGS.
+#92 [B157_metallic_exponent|main] rep=unknown seen=0
+   WHAT: figure-eight (m=1,o=4)->k=3 exact over Q(i)
+   WHERE: FINDINGS.md Result 3, r1_fig_sl3_o4_proof.py (listed only, not opened)
+   WHY: referenced as exact symbolic proof but script itself not read in this pass
+#96 [B160_quasicrystal_bridge_corroboration|main] rep=unknown seen=0
+   WHAT: golden/silver/bronze spectral measure -> 0 at distinct geometric rates (0.759/0.779/0.719)
+   WHERE: FINDINGS.md table; fib_spectrum.py, silver.py (listed only, not opened)
+   WHY: the two golden/silver scripts backing these specific numeric ratios were not opened in this pass; bronze's own script (bronze_indep.py) was opened and does compute its ratio numerically via a finite-g
+#117 [B197_figure_eight_volume_torsionfree|main] rep=unknown seen=1
+   WHAT: C1/C3/C4 volumes, homology, Chern-Simons via SnapPy (b++LR=m004, m003 torsion tie, chiral CS=+-1/48)
+   WHERE: volume_selection.py L75-111
+   WHY: gated on SnapPy being importable (`HAVE_SNAPPY`); if SnapPy is unavailable the script only prints recorded constants and skips the actual computation -- a stranger without SnapPy installed cannot inde
+#118 [B198_metallic_exponent_CAS|main] rep=unknown seen=0
+   WHAT: SL3 o3->k=4, o4->k=3 exact over Q(zeta_o)
+   WHERE: sage_groebner.py L59-73
+   WHY: requires sage-python (not the pyenv runner) to execute; the FINDINGS explicitly flags this as a separate tooling requirement, but the ideal/Groebner computation itself is exact and deterministic once 
+#120 [B201_silver_sl3_charvar|main] rep=unknown seen=0
+   WHAT: Fix(T_1^2) reproduces B71's 3 components (validation); Fix(T_2^2) gives 4 components incl. new comp3
+   WHERE: charvar.sage (full file)
+   WHY: requires sage-python to run (Sage's PolynomialRing/ideal/minimal_associated_primes); the exact Groebner decomposition is deterministic once Sage is available, but no committed data witness (e.g. a sav
+#133 [B234_handoff_verification|main] rep=unknown seen=0
+   WHAT: E7's 56-rep Frobenius-Schur indicator is pseudoreal (-1), not real, correcting chat1's claim
+   WHERE: e7_fs_indicator.py:16-26
+   WHY: script imports Sage's WeylCharacterRing (implied by context/other Sage scripts in the arc set); not verified runnable without Sage, which is not proven present in the environment by this arc's committ
+#134 [B235_metallic_table|main] rep=no seen=1
+   WHAT: figure-eight covers up to degree 6 all have invariant trace field Q(sqrt-3), no sqrt(-7)
+   WHERE: l47_snappy_probe.py
+   WHY: requires sage-python + SnapPy; no committed witness output (.log/.out) exists in the directory, so a stranger without SnapPy cannot check the claimed numeric field result independent of running propri
+#135 [B237_silver_2O_l48|main] rep=no seen=0
+   WHAT: GQuotients table: golden/silver/bronze bundle pi1 surjections onto 2T/2I/2O/S4
+   WHERE: silver_2O.py (gap_fp_group/nsurj, run via sage-python + GAP)
+   WHY: requires SnapPy fundamental-group presentations piped into GAP's GQuotients; no committed .log/.out witness exists in the directory, so the specific counts (2,0,0 / 0,0,0,2 / 10,2,0) cannot be checked
+#136 [B243_levelrank_conjugation_general|main] rep=partial seen=0
+   WHAT: V(k) is quadratic only at k in {3,6,10} (golden/silver/k=10); bronze (k=11) has degree 6, refuting the 'metallic ladder' pattern
+   WHERE: levelrank_general.py:71-74 plus a Sage-verified field-degree table in FINDINGS.md
+   WHY: the k=1..10 self-check is pure-Python/numeric and reproducible; the algebraic-degree table for k up to 12 is stated as 'Sage-verified' in FINDINGS.md but no Sage script is committed in this arc's file
+#137 [B244_quantization_edge|main] rep=no seen=0
+   WHAT: SL(3,C) geometric-component volume 8.11953285 = 4 x Vol(SL(2))
+   WHERE: sl3_volumes.py (SnapPy Ptolemy variety, obstruction class c0 with 3 reps)
+   WHY: requires sage-python + SnapPy's Ptolemy machinery; no committed .log/.out witness exists for this run, so the headline volume value cannot be checked from committed files alone
+#138 [B247_v1_holonomy_adjudication|main] rep=unknown seen=0
+   WHAT: C_E6(SU(2)_long)=SU(6) dim35, C_E6(SU(2)_short)=SU(3)xSU(2) dim11; neither is SU(3)xSU(2)xU(1)^2
+   WHERE: adjudication.py:142-143 (values sourced from e6_branchings_sage.py)
+   WHY: adjudication.py's assert reads centralizer_dim()/embedding_index() functions defined in adjudication.py itself using data presumably taken from e6_branchings_sage.py's Sage WeylCharacterRing branching
+#139 [B247_v1_holonomy_adjudication|main] rep=partial seen=0
+   WHAT: geometric holonomy has complex word-traces (tr[a,b]=3/2-sqrt3/2 i), so it is not SU(2)-conjugable
+   WHERE: adjudication.py:149,157-159 vs holonomy_ground_truth_sage.py (SnapPy ground truth)
+   WHY: adjudication.py's own complex-trace computation (test1_traces) is pure Python and reproducible; the SnapPy cross-check in holonomy_ground_truth_sage.py has no committed witness output
+#140 [B251_metallic_specificity|main] rep=no seen=0
+   WHAT: SnapPy cross-check of the same facts
+   WHERE: metallic_specificity_sage.py (12 lines)
+   WHY: requires SnapPy; no committed witness output for this short script
+#141 [B252_chirality_obstruction|main] rep=no seen=1
+   WHAT: E6's 27 is complex/chiral, 78 (adjoint) is real (self-dual); H36 (amphicheirality = E6 outer automorphism) re-confirmed in Sage
+   WHERE: chirality_obstruction_sage.py
+   WHY: requires Sage's WeylCharacterRing; no committed witness output for this 27-line script
+#156 [B272_verification_and_gaps|main] rep=unknown seen=1
+   WHAT: dim H1(Sym^2k)=1 confirmed three independent ways (exact Q(sqrt-3), mod-p Fox over 4 large primes, convention re-validation)
+   WHERE: verification_and_gaps.py:1002-1018 (CONFIRMED dict, describing out-of-band re-derivations)
+   WHY: the dict text describes re-derivations done by 'two independent audit agents + orthogonal hand-checks' but this arc's own committed script only encodes the resulting verdict (hard-coded CONFIRMED/CORR
+#162 [B280_2T_higher_spin|main] rep=unknown seen=0
+   WHAT: E6 ⊃ SU(6)×SU(2): 27=(15,1)+(6bar,2)
+   WHERE: FINDINGS.md 'The branching' referencing branchings.py
+   WHY: FINDINGS references a 'branchings.py' Weyl-character script not listed among this arc's committed files in the packet — file location/existence not directly verified in this read
+#184 [B313_fibonacci_bridge_and_no_forced_choice|main] rep=no seen=0
+   WHAT: under E6 superset G2xSU(3), the 27 branches as (7,3)+(1,6), dims 21+6=27, refuting '27 -> single Fibonacci anyon 7'
+   WHERE: fibonacci_bridge_and_no_forced_choice.py branching_27_refutes_matter_equals_anyons()
+   WHY: the function only checks the arithmetic identity 7*3+1*6==27; the actual branching-rule assignment (that the 27 decomposes exactly as (7,3)+(1,6) under this particular subgroup embedding) is asserted,
+#193 [B326_congruence_torsion|main] rep=unknown seen=1
+   WHAT: SnapPy cross-check: H1(3-fold cyclic cover of 4_1) = Z + Z/4 + Z/4
+   WHERE: congruence_torsion.py snappy_crosscheck()
+   WHY: the function does call snappy.Manifold('4_1').covers(...) live, but is wrapped in try/except and its result is only printed, never asserted or fed into a verdict() check — if SnapPy is absent or wrong
+#194 [B327_mckay_branching_gate|main] rep=unknown seen=0
+   WHAT: principal E6 27 decomposes as V(16)+V(8)+V(0) (spins 8,4,0), resolving a Chat-1/Chat-2 contradiction in Chat-2's favor
+   WHERE: FINDINGS.md '1. A cross-chat contradiction'; mckay_branching_gate.py (sympy Weyl-orbit grading, imported via ToolSearch 
+   WHY: the script imports sympy and itertools and is described as computing the E6 Weyl orbit; only the file's import header was sampled in this pass, not the full body, so the exact-computation claim is pla
+#195 [B329_mckay_branching_embeddings|main] rep=unknown seen=0
+   WHAT: 2T character table built from 24 Hurwitz quaternions, verified orthonormal; 27|2T computed for principal and trinification embeddings, both giving n1=n2
+   WHERE: mckay_embeddings.py (sympy/itertools, imports sampled only)
+   WHY: FINDINGS.md describes an explicit from-scratch character-table construction with an orthonormality check, which is a strong reproducibility claim; this reader sampled only the import header, not the f
+#196 [B330_s032a_galois_symmetrization|main] rep=unknown seen=0
+   WHAT: the deck Z/3's action on cover-torsion (ℤ/4)^2 has det(C-I)=3 mod 4 (a unit), so 0 is the only fixed vector — no distinguished sub-object
+   WHERE: FINDINGS.md 'Cover-torsion (B326, fresh stress)'; s032a_galois.py (sympy, imports sampled only)
+   WHY: plausible exact-arithmetic check per FINDINGS' description, but this reader only sampled the import line, not the body
+#197 [B331_ambivalence_closure|main] rep=unknown seen=1
+   WHAT: g=[[0,-1],[1,-1]] has eigenvalues {omega,omega^2}, is conjugate to its inverse, giving real chi_27(g)=0 identically for the compact and holomorphic principal SL(2,C) lift
+   WHERE: FINDINGS.md 'The clean reason'; ambivalence_closure.py (sympy, imports sampled only)
+   WHY: an elementary and checkable representation-theory argument (ambivalence of finite-order elements); plausible but the .py body itself was only import-sampled, not fully read
+#198 [B332_two_letters_two_ends|main] rep=unknown seen=1
+   WHAT: g = -R*L^-1 exactly; trace/discriminant of R*L (disc 5) and g (disc -3)
+   WHERE: two_letters_two_ends.py (sympy matrix algebra, imports sampled only)
+   WHY: elementary exact matrix algebra per FINDINGS' description; not fully read in this pass
+#200 [B333_compositum_seam|main] rep=unknown seen=1
+   WHAT: h(-15)=2, and 14 of 123 fundamental discriminants down to -400 also have h=2, so Q(sqrt-15) is arithmetically generic
+   WHERE: compositum_seam.py (sympy reduced-quadratic-form class-number computation, imports sampled only)
+   WHY: class-number-by-reduced-forms is a standard, checkable computation; plausible per FINDINGS but the .py body was only import-sampled here
+#201 [B334_seam_hilbert_class_field|main] rep=unknown seen=0
+   WHAT: H(Q(sqrt-15)) = Q(sqrt5,sqrt-3) verified two ways: prime-splitting law (Legendre/Jacobi) and binary-quadratic-form representation, 0 mismatches
+   WHERE: seam_hcf.py (sympy jacobi_symbol, imports sampled only)
+   WHY: standard genus-theory computation, plausible per FINDINGS but not fully read here
+#202 [B334_seam_hilbert_class_field|main] rep=unknown seen=0
+   WHAT: 137 mod 15 = 2 (non-principal) is a coin-flip, not a signal; the '137' numerology is DEAD
+   WHERE: FINDINGS.md 'The null test (137, killed)'
+   WHY: trivial modular arithmetic, plausible
+#203 [B335_generation_symmetry_exact|main] rep=unknown seen=1
+   WHAT: vol(3-fold cover)/vol(4_1) = 3.0 exactly; shortest geodesics have multiplicity 3; cusp shape 2sqrt3 i, |.|^2=12
+   WHERE: generation_symmetry_exact.py (calls snappy.Manifold('4_1').covers(3, cover_type='cyclic') live, per grep of imports)
+   WHY: this file does contain live snappy.Manifold(...) calls (confirmed via grep), unlike several sibling arcs that hardcode the same class of SnapPy numbers as literals — a genuine positive; full body not 
+#204 [B335_generation_symmetry_exact|main] rep=unknown seen=1
+   WHAT: the order-24 isometry group of the cover is NOT 2T (SL(2,3)): abelianizations differ ((Z/2)^2 vs Z/3)
+   WHERE: FINDINGS.md 'The refuted hope'
+   WHY: standard group-theory fact, plausible, not fully verified line-by-line here
+#206 [B336_chiral_sqrt15_hunt|main] rep=unknown seen=0
+   WHAT: SL(2,Z) word discriminants t^2-4 never equal -15 (t^2=-11 impossible over integers)
+   WHERE: FINDINGS.md 'Route 0'
+   WHY: elementary number theory, plausible, standalone in principle
+#207 [B337_structure_xor_ordering|main] rep=unknown seen=0
+   WHAT: the heterogeneous-seed overlap matrix [[2,3,6],[3,2,3],[6,3,2]] has eigenvalues {10.2,-4,-0.2}, an ordered (non-degenerate) spectrum, vs the symmetric B324 circulant's degenerate {52,1,1}
+   WHERE: structure_xor_ordering.py (sympy, imports sampled only)
+   WHY: explicit numeric matrix given in FINDINGS, plausible standard eigenvalue computation; .py body not fully read
+#209 [B339_cs_flow_subleading|main] rep=unknown seen=0
+   WHAT: CS(1,n) = -1/(2n) + 1/(24n^3) + O(1/n^5); c3*24 = 0.99993 fitted over 135 fillings n=6..140
+   WHERE: cs_flow_subleading.py (grep confirms a live snappy call: 'M=snappy.Manifold("m004"); M.dehn_fill((1,n))')
+   WHY: unlike B338, this arc's script does call snappy live per the import grep, fitting over 135 points rather than relying purely on a small hardcoded table — a stronger reproducibility posture, though the
+#210 [B339_cs_flow_subleading|main] rep=unknown seen=0
+   WHAT: c2=0 is a theorem (from CS(1,-n)=-CS(1,n) oddness), not a numeric fit
+   WHERE: FINDINGS.md 'Result'
+   WHY: a clean algebraic argument from a previously-banked amphichirality/CS-sign law (B289), plausible
+#211 [B340_cp_phase_along_flow|main] rep=unknown seen=0
+   WHAT: kappa = tr(rho[a,b]) computed via live SnapPy SL2C holonomy at each filling (1,n); arg(kappa) decreases from pi/6, (pi/6-arg kappa) ~ 3.8*CS^2
+   WHERE: cp_phase_along_flow.py (grep confirms live snappy call: 'M=snappy.Manifold("m004"); M.dehn_fill((1,n))')
+   WHY: a live SnapPy holonomy computation per import grep, a genuine new instrument per FINDINGS ('none existed'); not fully read line-by-line
+#212 [B342_z3_trimaximal_symmetry|main] rep=unknown seen=0
+   WHAT: TM2 correlation predicts theta_12=35.7 deg (vs observed 33.4), TM1 predicts 34.3 deg — TM1 fits ~1 deg better
+   WHERE: z3_trimaximal_symmetry.py (numpy, imports sampled only); FINDINGS.md 'The honest data comparison'
+   WHY: standard TM1/TM2 correlation identities applied to a quoted PDG-style observed value (33.4 deg); the observed value itself is a hardcoded external number, not derived
+#213 [B343_exact_tbm_irreducibility|main] rep=unknown seen=0
+   WHAT: Phi_3=x^2+x+1 is irreducible mod 2 (over F2), forcing the deck Z/3 to 3-cycle the Klein group's three nonzero elements with no fixed point; T=diag(1,omega,omega^2) does not normalise the neutrino Klein group
+   WHERE: exact_tbm_irreducibility.py (sympy+numpy, imports sampled only)
+   WHY: standard finite-field irreducibility and matrix-commutation checks, plausible; not fully read line by line
+#215 [B344_deviation_symplectic_pairing|main] rep=unknown seen=1
+   WHAT: det(dphi_m)=1 for m=1,2,3 (trace-map Jacobian is volume-preserving); at a fixed point eigenvalues {1,lambda,1/lambda}
+   WHERE: deviation_symplectic_pairing.py (sympy, imports sampled only)
+   WHY: explicit Jacobian determinant and fixed-point eigenvalue computation, plausible standard linear algebra; not fully read
+#216 [B345_z3_deviation_texture|main] rep=unknown seen=0
+   WHAT: Z/3-charge selection rule: couplings allowed only when charge_i+charge_j = 0 mod 3; the B265 exponent split {4,8}/{5,7,11} does not align with this charge grading (both sets are {1,2} mod 3)
+   WHERE: z3_deviation_texture.py (sympy, imports sampled only)
+   WHY: elementary modular-arithmetic combinatorics on the exponent sets {4,8} and {5,7,11}; a one-line check but not independently re-run here
+#217 [B346_cross_structure_map|main] rep=unknown seen=0
+   WHAT: the reciprocal pair (lambda,1/lambda) carries Z/3 charges (1,2); the un-paired eigenvalue-1 direction is charge 0 -- symplectic and Z/3 structures coincide at the centre
+   WHERE: cross_structure_map.py (sympy/cmath, imports sampled only)
+   WHY: combines B344 and B345's eigen-decompositions; plausible but not independently re-run here
+#218 [B347_e6_tangent_gradings|main] rep=unknown seen=0
+   WHAT: dim H^1(4_1,Sym^{2m})=1 for all six E6 exponents {1,4,5,7,8,11} via Fox calculus on the SnapPy census presentation, singular-value rank gaps of 10^85-10^119; relator self-verified to ~1e-70
+   WHERE: e6_tangent_gradings.py (mpmath, high-precision, imports sampled only)
+   WHY: FINDINGS describes a self-verifying high-precision (mpmath) computation with explicit numeric rank-gap evidence; a strong reproducibility posture on paper, but this reader sampled only the import line
+#219 [B347_e6_tangent_gradings|main] rep=unknown seen=0
+   WHAT: the handoff's claimed E6 Cartan spectrum {2-sqrt3,3,2+sqrt3} was wrong (it is the G2⊕A2 spectrum, not E6's)
+   WHERE: FINDINGS.md header
+   WHY: a correction of a prior (out-of-arc) handoff's Cartan-eigenvalue error; plausible and consistent with E6 having six distinct exponent-derived eigenvalues
+#220 [B348_bloch_class_galois|main] rep=unknown seen=0
+   WHAT: 1-z0 = z0-bar exactly (the Bloch duality involution z->1-z coincides with Galois conjugation at the Eisenstein point); D(z0-bar)=-D(z0) at 30 dps, giving orbit {+Vol,-Vol}, sum=0
+   WHERE: bloch_class_galois.py (mpmath 30dps + sympy, imports sampled only)
+   WHY: exact symbolic identity (i) plus a 30-digit numeric dilogarithm evaluation (iii); plausible and internally cross-checked ('independent of SnapPy and of the stored constant' per FINDINGS) but not indep
+#223 [B368_cover_tower|main] rep=unknown seen=0
+   WHAT: primitive discriminants 5 vs 20 for (RL)^3 vs R^4L^4 refute the original m=4 identification
+   WHERE: FINDINGS.md §'The corrected premise'
+   WHY: the fixed-point binary-form computation is described but its script is not visible among this arc's 5 listed files (may live in an earlier arc's provenance, not verified here)
+#229 [B394_support_walk|main] rep=unknown seen=0
+   WHAT: Sum rule: sum over support of singles = 1 across levels 15/45/135/405
+   WHERE: FINDINGS.md derived from singles_405.json + prior banked data
+   WHY: the sum-rule claim spans four levels but only the 405-level computation is in this arc's files; the 15/45/135 values are IMPORTED from prior banked arcs (B382/B384/B392) not re-verified here
+#230 [B397_last_census_facts|main] rep=no seen=0
+   WHAT: relabel_search (inline) results
+   WHERE: relabel_search.json (no corresponding .py file present in packet)
+   WHY: FINDINGS.md attributes this JSON to 'relabel_search.py (inline)' but no relabel_search.py file exists in the arc directory's file list — the search code is not committed separately, only its output
+#233 [B403_lead_package|main] rep=unknown seen=0
+   WHAT: all 11 banked s-denominators are {2,3,5}-smooth (necessarily, since 2,3,5 are all non-principal-form-represented) so the 17/19 prediction can never fire
+   WHERE: scrutiny.json (small file, 232 bytes)
+   WHY: scrutiny.json is tiny (232 bytes) for a claim spanning 11 denominators across multiple prior arcs; likely a summary tally referencing numbers computed elsewhere (B398 etc.) rather than a self-containe
+#235 [B406_two_conductor|main] rep=unknown seen=1
+   WHAT: a_p(15a1) = a_p(40a1) mod 4 at every good prime <200 (zero violations), shown to be forced by torsion (Z/8 rational torsion on 15a1, full 2-torsion on 40a1)
+   WHERE: mod4_extension.json (126 bytes)
+   WHY: the extension JSON is tiny (126 bytes); no separate .py file is listed for the mod-4 extension specifically, suggesting it may have been computed inline/appended to bridge_check.py rather than as a st
+#241 [B416_tw2_dynamics|main] rep=unknown seen=0
+   WHAT: the golden-Anosov structure with rate 4 log phi is GENERIC to hyperbolic once-punctured-torus bundles (control: the metallic family shares it), failing bar (iv) distinctiveness
+   WHERE: FINDINGS.md 'The bar check' CONTROL note
+   WHY: the control comparison against the 'metallic family' is asserted as a known mathematical fact rather than shown as a script output in this arc's own files
+#248 [B446_thermo_d1_tower_moments|main] rep=partial seen=0
+   WHAT: tower law N*Var=3/8 (golden) exactly at N=15,45,135,405,1215, out-of-sample at N=3645 (predicted and measured 0.375000)
+   WHERE: pipeline.py tower loop -> results.json tower_gold; run_log.txt tower section
+   WHY: N=15..1215 are in the committed results.json/run_log.txt sampled; N=3645 (the specific out-of-sample claim in FINDINGS.md) does NOT appear in run_log.txt or in the sampled results.json (which stops at
+#253 [B451_thermo_d4_resonances|main] rep=unknown seen=0
+   WHAT: n=8 second Ruelle resonance rate 0.705(8) (N-drift quoted as the uncertainty)
+   WHERE: FINDINGS.md Addendum table
+   WHY: the cycle-expansion-at-N=7/8 table numbers are stated in FINDINGS but the specific script producing that exact table (as opposed to the orbit counts) was not directly located/read in the file list pro
+#258 [B456_ethogram_e4_catalog|main] rep=unknown seen=0
+   WHAT: Kashaev invariant small-integer values {1,5,13,27,89} at N in {1,2,3,4,6}, corrected in-session from an earlier (wrong) '5-divisibility law' framing
+   WHERE: kashaev_signatures.json
+   WHY: the json file states the values and the correction note but the generating script for these Kashaev-invariant numbers is not present in this arc's file list, so I could not directly verify how kashaev
+#261 [B460_relation_r1_child|main] rep=unknown seen=0
+   WHAT: length spectrum table for 4_1(5,1), 4_1(7,1), Weeks manifold, m007(3,1)
+   WHERE: length_spectrum.py
+   WHY: length_spectrum.py was read in full and is self-contained (SnapPy length_spectrum call), but its own log/output file was not part of the file list and was not independently run in this audit; the FIND
+#264 [B469_breath_campaign|main] rep=partial  seen=0
+   WHAT: BR2: X_m^2=A_m, det X_m=-1 for all m symbolically; SnapPy gate at m=1 (Gieseking m000 orientation cover isometric to 4_1, volume ratio exactly 2)
+   WHERE: br1_br2.py + FINDINGS BR2, gate noted as 'session log' not a committed file
+   WHY: Reproduce section literally says '# BR2 SnapPy gate: ... (session log)' -- a session log is not a repo artifact
+#265 [B469_breath_campaign|main] rep=the exac seen=0
+   WHAT: BR3 wave 2: exact component-level sigma_m action on Fix(sigma_m^2); m=1,2 fully swapped, m=3 has a sigma-fixed quadratic component (disc -7) plus a swapped octic, with the geometric fiber character identified numerically as lying 
+   WHERE: br3_wave2_exact.py / wave2_exact_log.txt (exact part); octic_test.py / octic_log.txt (numeric identification, explicitly
+   WHY: octic_log.txt (the only committed witness for octic_test.py) is a Python traceback (TypeError), not the successful numeric output FINDINGS describes
+#266 [B471_chain_verification|main] rep=describe seen=0
+   WHAT: CORRECTION: 'the alphabet is exactly the root locus' is false; the corrected statement is 'breathable traces are exactly the metallic traces t^2+2; family=locus iff narrow class number h+(m^2+4)=1', with an explicit counterexample
+   WHERE: FINDINGS.md, final CORRECTIONS section
+   WHY: the counterexample X' and its properties (det -1, tr 6, class number 2, no conjugator to A_6) are asserted in FINDINGS text but not visibly present in the one script file read
+#268 [B474_tier_commutator_law|main] rep=unknown seen=0
+   WHAT: Master theorem: both kappa_q and tier factor through (gx,gy)=gcd(x,20),gcd(y,12) on 36-cell divisor lattice
+   WHERE: master_log.txt
+   WHY: master_log.txt is a committed output but the script that produced it is not among the 7 committed files
+#273 [B483_fibonacci_anyon_face|main] rep=no seen=0
+   WHAT: B1 closed: banked lambda_chain=1.57705744122666946 verified correct to 18 digits against a fresh high-precision (40dps, n=55) recomputation; seat-2's warning attributed to a different normalization
+   WHERE: FINDINGS.md 'B1 CLOSED' section
+   WHY: the high-precision recomputation (n=55, 40 dps) is described in prose but no script for it is among the 3 committed files
+#283 [B492_verlinde_boundary_lens|main] rep=no seen=0
+   WHAT: Fibonacci category total quantum dimension D=sqrt(2+phi); Verlinde fusion tau x tau=1+tau; boundary g-factors g_tau/g_1=phi exactly
+   WHERE: FINDINGS.md, 'Reproducer: inline (Fibonacci S-matrix + Verlinde + AL g-factors)'
+   WHY: described as an inline computation with no committed script or log file in this 2-file arc; this is standard textbook RCFT arithmetic though (low novelty risk)
+#285 [B504_spacetime_functor|main] rep=no seen=0
+   WHAT: tr(t)^2 = 2 exactly (SVD nullspace, residual 0.0 at 30 digits) at pointer state (1,1,1)
+   WHERE: frontier/B504_spacetime_functor/FINDINGS.md
+   WHY: FINDINGS.md describes the computation (SVD nullspace on an independent Fricke lift) narratively and claims a lock at tests/test_b504_b505.py, but this arc directory contains no .py reproducer script —
+#286 [B504_spacetime_functor|main] rep=no seen=0
+   WHAT: tr(t)^2 = 4.0 exactly at the Eisenstein geometric point (δ_geo=4, parabolic time)
+   WHERE: frontier/B504_spacetime_functor/FINDINGS.md
+   WHY: same as above — narrated with a singular-value figure (3e-31) but no committed script in this directory; only the external lock file is cited.
+#289 [B507_beta_function|main] rep=no seen=0
+   WHAT: E_Haar[g_M]=0.0003 (theorem 0), E_Haar[g_D]=-1.9995 (theorem -2), zero at kappa*=0.001≈0 (6M Haar samples)
+   WHERE: frontier/B507_beta_function/FINDINGS.md
+   WHY: described as a full run (6M Haar samples, measure-correct binning) with 4-decimal gate agreement, but no script or results file is present in this 3-file arc directory, and the project's own later log
+#290 [B508_geometry_machine|main] rep=no seen=0
+   WHAT: delta(s)=(s^2+s-1)/(s-1); out-of-sample checks at s=3 (11/2) and s=-2 (-1/3), delta=0 at golden points, delta=5 at s=2 matching 2*acosh(sqrt5/2)=2 log phi
+   WHERE: frontier/B508_geometry_machine/FINDINGS.md
+   WHY: the arc directory has only FINDINGS/PREREGISTRATION/verdict.json, no script; the out-of-sample claim is a strong methodological point (fresh intertwiner constructions at unseen points) but its committ
+#291 [B509_square_time_curve|main] rep=unknown seen=1
+   WHAT: E: Y^2=X^3-2X+1, disc 80, conductor 40, j=+55296/5, torsion Z/4, rank 0 via Sage descent, Cremona label 40a3 isogenous (not isomorphic) to 40a1
+   WHERE: frontier/B509_square_time_curve/FINDINGS.md
+   WHY: described as computed by Sage/sympy (elimination exact via sympy; rank via Sage descent) but no script file appears in this arc's 2-file directory (only FINDINGS.md + verdict.json); reproducibility de
+#292 [B509_square_time_curve|main] rep=unknown seen=1
+   WHAT: the handoff's j-invariant sign (-55296/5) was wrong; corrected to +55296/5, "the session's fourth sign slip, caught by verification"
+   WHERE: frontier/B509_square_time_curve/FINDINGS.md
+   WHY: a genuine caught-error is a good sign of real verification discipline, but again no script sits in this directory to rerun the sign check.
+#293 [B510_convening_resolution|main] rep=unknown seen=1
+   WHAT: y^2=x(x-1)(x-5) is Cremona 40a1, j=148176/25; genus-1 cover d^2=(c^2-1)(c^2-5) has Jacobian exactly 40a3; 40a3 is 2-isogenous to 40a1 not a quadratic twist (j differs, no small-d twist found by scan)
+   WHERE: frontier/B510_convening_resolution/FINDINGS.md
+   WHY: narrated as "classical I,J invariants → minimal model → isomorphism True" and a twist scan, but no script exists in this 2-file arc directory; relies on test_b509.py extension outside sampled files.
+#294 [B510_convening_resolution|main] rep=unknown seen=1
+   WHAT: correction: 40a3 is NOT a quadratic twist of 40a1 ("sixth caught error of the arc")
+   WHERE: frontier/B510_convening_resolution/FINDINGS.md
+   WHY: another genuine self-correction, again without a committed script to independently confirm the twist scan.
+#295 [B511_physics_verdict|main] rep=no seen=0
+   WHAT: D3.3 wild accessibility: P(kappa≈2 classical) ≥ 0.84, P(wild-accessible kappa) ≤ 0.10
+   WHERE: frontier/B511_physics_verdict/D3_FINDINGS.md, using frontier/B511_physics_verdict/d3_wild_access.py
+   WHY: d3_wild_access.py is committed and runnable, but its output (the 0.84/0.10 figures cited in D3_FINDINGS.md) is not saved anywhere in the directory — no results.txt/json for this cell exists, unlike D3
+#296 [B512_six_computation_pass|main] rep=no seen=0
+   WHAT: silver ladder tr(t)^2=2 -> order-16 2-group (dihedral/quaternion family), NOT reaching 2T/E6; golden tr(t)^2=1 -> 2T -> E6
+   WHERE: frontier/B512_six_computation_pass/FINDINGS.md cell C
+   WHY: described as "computed independently" but no script exists in this arc's 2-file directory (only FINDINGS.md + verdict.json).
+#299 [B515_golden_3d|main] rep=no seen=0
+   WHAT: beta=phi(1+sqrt(phi)) is the unique golden-field quartic-Pisot inflation number across a {0,1,2}^8 scan of 46 couplings
+   WHERE: frontier/B515_golden_3d/FINDINGS.md
+   WHY: the arc directory holds only FINDINGS.md and verdict.json — no scan script, no output of the 46-coupling enumeration is committed here; the uniqueness claim (46/46 give the same beta) cannot be checke
+#300 [B516_golden_3d_ladder|main] rep=no seen=1
+   WHAT: golden-field Pisot inflation exists at dim 1 (phi), dim 3 (beta, B515), and dim 5 (found in a {0,1,2} coupling scan of three Fibonacci copies)
+   WHERE: frontier/B516_golden_3d_ladder/FINDINGS.md Finding 1
+   WHY: no script in this 2-file arc directory; the dim-5 claim is later referenced in a 2026-07-21 log entry as one of 30 items "KILLED" in a negatives hunt ("B516's previously-asserted dim-5 Pisot counterex
+#301 [B516_golden_3d_ladder|main] rep=no seen=1
+   WHAT: among the metallic family, only golden phi gives a Pisot number under x->x(1+sqrt x); silver/bronze/m=4 all fail (exact conjugate mechanism x(sqrt(x)-1)<1 only for golden)
+   WHERE: frontier/B516_golden_3d_ladder/FINDINGS.md Finding 2
+   WHY: no committed script; the four-row comparison table (golden/silver/bronze/m=4) is asserted numerically without a reproducer.
+#302 [B517_bootstrap_forcing|main] rep=no seen=0
+   WHAT: the exhaustive-box forcing theorem: over 0≤u≤6, 0≤v≤4 the unique irreducible quartic Pisot unit is (u,v)=(1,2) ⟹ (C,D)=(F,F^2)
+   WHERE: frontier/B517_bootstrap_forcing/FINDINGS.md Phase A-CLOSE
+   WHY: described as "checked 0..8×0..6, single hit" via cross-seat recomputation, but no script is present in this arc directory (only .md files + two data/plot files under rauzy/, which are outputs not sour
+#303 [B517_bootstrap_forcing|main] rep=no seen=0
+   WHAT: the Signature Hunt control table: trace-form (2,1)->(3,1) for golden/silver/bronze/tetranacci/child-field alike; totally-real -> (4,0); totally-complex -> (2,2) — genericity confirmed by controls run BEFORE physics interpretation
+   WHERE: frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md
+   WHY: a real control-gate discipline (pre-registered controls run before interpretation) but no script committed; numbers given to 3-4 significant figures with no data file.
+#304 [B517_bootstrap_forcing|main] rep=no seen=0
+   WHAT: the exact rational Stein form G=(1/11)[[12,-8,-5,-4],...], signature (3,1), residual M^T G M - G + I = 0 exactly
+   WHERE: frontier/B517_bootstrap_forcing/SIGNATURE_HUNT.md Addendum 2
+   WHY: an exact rational matrix identity, easy to hand-check but not accompanied by any script in this directory; described as "re-derived independently" by "recompute-don't-trust" but the recompute itself i
+#305 [B518_k025_confirmation|main] rep=no seen=1
+   WHAT: the same trace map T=(z,x,xz-y) preserves kappa across Schrodinger/hopping/spin substrates (scale-free universality class)
+   WHERE: frontier/B518_k025_confirmation/FINDINGS.md Tier A
+   WHY: asserted as confirmed at the trace-map level, no script committed in this 2-file arc directory.
+#308 [B519_re_mining|main] rep=no seen=0
+   WHAT: cell A2's original closure ("the tower measure IS the Kubota-Leopoldt 3-adic L-function") is itself retracted by a later B578 correction, cited inline in VERDICT.md's own tail addendum
+   WHERE: frontier/B519_re_mining/VERDICT.md tail CORRECTION (2026-07-14, B578-D5)
+   WHY: the retracting computation (Gauss sums vs Kubota-Leopoldt, rank 4, norms 9 vs 16/3) is described but lives in a different arc (B578), not in this batch, so this seat cannot check it.
+#309 [B520_handoff_verification|main] rep=no seen=1
+   WHAT: g(0)=+0.001 (se 0.0002), g(0.764)=+0.266 via two independent methods (Goldman-ergodic + Haar-conditional, 8M samples), rejecting the handoff's g(0)≈-0.31 as a biased-MC artifact
+   WHERE: frontier/B520_handoff_verification/FINDINGS.md §1/§2
+   WHY: described with a standard error figure implying a real Monte Carlo run, but this 2-file arc directory has no script; the reproduction is claimed to independently confirm B507's own unwitnessed claim (
+#310 [B520_handoff_verification|main] rep=unknown seen=1
+   WHAT: S = arccosh(5/2) ≈ 1.5668 at the golden loxodromic x=5, the 40a1 2-torsion point
+   WHERE: frontier/B520_handoff_verification/FINDINGS.md §4
+   WHY: a simple closed-form arccosh evaluation, easy to hand-check but no script present.
+#314 [B523_verdict_reexamination|main] rep=no seen=0
+   WHAT: the Ad(C) signature-split result on sl(2,R): eigenvalues +1,-1,-1, Killing form on the -1 eigenspace has signature (1,1) (indefinite) — amphichirality allows but does not select Lorentzian (3,1)
+   WHERE: frontier/B523_verdict_reexamination/FINDINGS.md, addendum "Door 2 sharpened"
+   WHY: this specific computation (Ad(C) matrix, Gram [[2,4],[4,0]]) is described in FINDINGS.md prose with a cited test (tests/test_b523.py::test_amphichiral_signature_split) but no standalone script for it 
+#315 [B524_iwip_and_higher_ptolemy|main] rep=yes (SL2 seen=0
+   WHAT: SL(2) Ptolemy: 1 boundary-unipotent rep, field Q(sqrt-3); SL(3): 4 reps, fields Q(sqrt-3) and Q(sqrt-7); SL(4): deferred (Grobner >12 min, ptolemy module recommends Magma)
+   WHERE: frontier/B524_iwip_and_higher_ptolemy/higher_ptolemy.py
+   WHY: higher_ptolemy.py is committed (uses SnapPy's ptolemy module); the arc is honest that SL(4) was attempted and abandoned after 12 minutes, not silently omitted.
+#324 [B536_measurement_verify|main] rep=unknown seen=0
+   WHAT: Seat-1's period-6 finding NOT reproduced (natural lift gives period 20)
+   WHERE: FINDINGS.md F2
+   WHY: the arc states seat-1's original construction was unspecified, so the discrepancy cannot be fully adjudicated from committed files alone — this is an honest non-reproduction, not a contradiction, but 
+#325 [B538_reframe_test_cycle|main] rep=unknown seen=0
+   WHAT: E8 mass ladder matches published NMR/neutron/THz measurements on BaCo2V2O8 and CoNb2O6 to 7 decimals (Perron vector of E8 Cartan matrix)
+   WHERE: FINDINGS.md A1
+   WHY: the Perron-vector computation is exact and reproducible; the literature contact (matching real experimental papers) is an IMPORTED claim — no committed experimental data file, only a textual citation,
+#327 [B538_reframe_test_cycle|main] rep=unknown seen=0
+   WHAT: Jarlskog J = 3.077e-5 recomputed from quoted CKM parameters, confirming CP violation the object's structure cannot produce
+   WHERE: FINDINGS.md B3
+   WHY: arithmetic recomputation is presumably in a script but no B538-specific script file is listed in the packet (n_files=2: FINDINGS.md + arc_verdict.json only) — the Jarlskog recomputation has no committ
+#330 [B544_emergent_golden|main] rep=unknown seen=0
+   WHAT: Critical circle map winding = 1/φ to 9 digits at Shenker's Ω*≈0.6066553
+   WHERE: FINDINGS.md 'Spot verification'
+   WHY: the arc says 'spot-verified' but no script file is present in the directory (n_files=2: FINDINGS.md + arc_verdict.json) — the bisection computation is described, not committed here
+#331 [B545_ghost_census|main] rep=unknown seen=0
+   WHAT: c=1 proved smallest ghost level via elliptic-lock (h(-3)=h(-4)=1 completeness)
+   WHERE: FINDINGS.md
+   WHY: described as tests/test_b545.py exact but this arc directory has no .py script of its own (n_files=2: FINDINGS.md + arc_verdict.json)
+#345 [B561_l50_crux|main] rep=unknown seen=0
+   WHAT: figure-eight isometry group D4 (order 8), no order-3 element
+   WHERE: FINDINGS.md point 2, attributed to SnapPy
+   WHY: Attributed to SnapPy but no script path given in this arc's two files; the claim depends on an external tool call not shown here
+#347 [B565_gauge_behavior_campaign|main] rep=unknown seen=0
+   WHAT: T1 (Z/11 anomaly does not descend), T3 (chiral index ≡0), T4/T5/T6/T2/T8 and Batch H2 results
+   WHERE: RESULTS.md ledger
+   WHY: RESULTS.md references a single umbrella lock file tests/test_b565_campaign.py and a campaign journal wf_1529ebff-6c0 not included in this arc's files; the specific numeric claims (e.g. a_C=-0.1800+-0.
+#348 [B566_self_interaction|main] rep=unknown seen=0
+   WHAT: S1 the N=p^2 dark-hyperbola recursive law, verified at p in {3,5,7,11,13,17} float and float-free at p=3,5
+   WHERE: RESULTS.md S1 section
+   WHY: Only RESULTS.md is present in this arc; no python script visible here, though a test lock file (test_b566_self_interaction.py) is claimed to exist
+#349 [B566_self_interaction|main] rep=unknown seen=0
+   WHAT: S2 KMS weights (5+-sqrt5)/20 differ from letter frequencies 0.362 vs 0.272
+   WHERE: RESULTS.md S2
+   WHY: Not independently checkable from the single markdown file in this arc
+#350 [B568_own_questions|main] rep=unknown seen=0
+   WHAT: CQ5 becoming: Boettcher coordinate converges (L0=0.58427327891860925..., stable to 120 digits), lambda_0.5 = 2.37798422427971475...
+   WHERE: RESULTS.md CQ5 row
+   WHY: No script for this specific cell is present in this arc's two files; a test lock (test_b568_results.py) is claimed but the CQ5-specific reproducer path is not shown here
+#351 [B568_own_questions|main] rep=unknown seen=0
+   WHAT: AQ4 attention: salience S_A attended 1.83x more than frequency predicts
+   WHERE: RESULTS.md AQ4 row
+   WHY: Same as above — asserted with a specific number, no script visible in this arc's file set
+#352 [B570_allowed_plays|main] rep=unknown seen=0
+   WHAT: AP4 the fifth wall: the object's holonomy factors through the principal SL(2,C), which is theta-stable, so the 27 is vector-like for ANY E6-embedding of the rank-1 holonomy
+   WHERE: RESULTS.md AP4
+   WHY: RESULTS.md documents two repairs applied by the verifier (a biconditional downgraded to conjecture, a Zariski-density citation added); no AP4-specific script was directly read in this pass, though a l
+#357 [B578_debt_clearing|main] rep=unknown seen=1
+   WHAT: D1: third-order Massey obstruction vanishes exactly in all six directions on the exact B575 build
+   WHERE: LEDGER_RAW.md D1
+   WHY: described as reproduced by two independent extractions and by the verifier, but the reproducer script itself is not among the packet's listed files (only LEDGER_RAW/RESULTS/D5 note are); locks named (
+#359 [B578_debt_clearing|main] rep=unknown seen=1
+   WHAT: D5 Kubota-Leopoldt retraction: B413's banked values are Gauss sums, NOT the Kubota-Leopoldt L-function (two independent methods)
+   WHERE: D5_KUBOTA_RETRACTION.md
+   WHY: two methods described (from-scratch Bernoulli sums + Sage DirichletCharacter.bernoulli) but no script file is listed in this packet to inspect
+#360 [B578_debt_clearing|main] rep=unknown seen=1
+   WHAT: D6: K3 (bronze invariant trace field) is degree 6, reinstating B125/B137, reverting a wrong B571/L68 'correction'
+   WHERE: LEDGER_RAW.md D6
+   WHY: SnapPy+cypari at two precisions cited; verifier's own objection notes the degree-6 vs degree-8 conflict (B840's log entry later reconfirms the discrepancy is unresolved, see B590)
+#363 [B580_chord_program|main] rep=unknown seen=0
+   WHAT: Q1: level-1 abelian state vector is knot-independent (the unknot's own vacuum column)
+   WHERE: ROUND1_TRANSCRIPT.md 'Q1'
+   WHY: described with SVD rank-2 reproduced at 576 slopes to 1e-15, but the transcript itself notes 'q1_part2.py's naive 3x3 reconstruction is numerically broken and superseded' and its artifacts were only c
+#364 [B580_chord_program|main] rep=unknown seen=0
+   WHAT: G1 mirror-double dial map: theta-odd slots {4,8} -> full e6 closure (dim 78), theta-even -> f4 (52), untwisted -> sl2 (3)
+   WHERE: ROUND1_TRANSCRIPT.md 'G1'
+   WHY: explicitly noted 'one stage of the fresh rerun was time-boxed rather than run to completion' and the underlying G1 code was later found (B582/B598 log entries) to have never been committed at the time
+#365 [B580_chord_program|main] rep=unknown seen=0
+   WHAT: H128/H129/H130 (golden-ratio physics hints) killed blind against all unforced transcript numbers
+   WHERE: ROUND1_TRANSCRIPT.md '2. THE COMPARISON'
+   WHY: described as checked against every computed number in the transcript, but no single script is listed in this packet that performs the check end-to-end
+#366 [B582_chiral_play|main] rep=no seen=0
+   WHAT: Amalgam's Zariski closure H = E6(C) because Lie(H) contains e6 (connected algebraic subgroup determined by its Lie algebra)
+   WHERE: FINDINGS.md 'The chain'
+   WHY: at the time this FINDINGS.md was written the underlying G1 dial-map code was, per the log's own 2026-07-15 self-correction, NEVER COMMITTED to the repo -- the closure step rested on a formal/jet-level
+#368 [B583_chiral_content|main] rep=unknown seen=0
+   WHAT: X1: coupled character non-real, tr27(a1b1) matches banked B572 value exactly
+   WHERE: READING_RAW.md 'X1'
+   WHY: READING_RAW itself states 'X1's verification is still in progress and everything said of it below is provisional' and 'This cell must not bank until it does' -- yet the arc_verdict.json banks it as PR
+#370 [B583_chiral_content|main] rep=unknown seen=0
+   WHAT: X3: Dehn-filling covectors span exactly the theta-even 6-plane at level 2 (rank exactly 6, theta-odd projection 3.85e-13)
+   WHERE: READING_RAW.md 'X3'
+   WHY: described as verified via an independently-coded Kac-Peterson builder and an exact rational-arithmetic proof that theta preserves h(lambda); script not among sampled files in this packet
+#376 [B596_cat_map|main] rep=unknown seen=0
+   WHAT: ADDENDUM: clock(kappa) = ord(A1 mod 3*kappa) exactly for kappa=6..15 (10/10), independently verified with fresh order code in B656
+   WHERE: FINDINGS.md ADDENDUM section (cites frontier/B656_digest_integration/)
+   WHY: the verifying code lives in a different arc directory (B656) not packaged in this arc's file set; not independently checked in this digest pass
+#380 [B599_selection_rule|main] rep=unknown seen=0
+   WHAT: The theta-parity selection rule: an evaluation with odd total theta-parity vanishes (C central, C^2=1, two-line proof) + 300 random SU(3)_2 configurations all exactly zero for odd total
+   WHERE: FINDINGS.md 'The theorem (stage face)'
+   WHY: The proof is a clean two-line algebraic argument (asserted as a proof, plausible and generic in kind), but the 300-random-configuration numerical verification script/output is not among this arc's com
+#387 [B621_kappa_gating|main] rep=unknown seen=0
+   WHAT: the kappa-gating law verified 'zero-exceptions kappa=4..27' with specific bearing sets quoted for RL/R2L/R3L bundles
+   WHERE: frontier/B621_kappa_gating/FINDINGS.md (THE GATING RULE section), scripts scan.py/scan2.py/diag.py
+   WHY: no output.txt (or any .txt/.json result file) is committed for this arc -- the scan/scan2/diag scripts exist and could in principle be rerun, but the specific bearing-set numbers quoted verbatim in FI
+#388 [B622_silver_exterior|main] rep=unknown seen=0
+   WHAT: the exterior adjoint torsion of the silver (RRLL) bundle = -16 exactly, via the Tran-Yamaguchi formula, with a SnapPy-based fig-8 calibration to -3
+   WHERE: frontier/B622_silver_exterior/compute_m136_torsion.py, frontier/B622_silver_exterior/ty_core.py
+   WHY: the script is complete (sympy exact arithmetic, with a SnapPy-based identification step guarded by a fallback) and asserts CALIBRATION FAILED / fixed-point-equation-failed etc. if wrong, but no output
+#389 [B623_reciprocity_progress|main] rep=unknown seen=0
+   WHAT: the Weyl-Weil term = quadratic Gauss sum identity, claimed verified '96/96 exact, kappa=5..12 x 12 terms', and det(h_w)=sign(w)det(A⊗w-I4) claimed '12/12, exact rational arithmetic'
+   WHERE: frontier/B623_reciprocity_progress/reduction_check.py, step2_conductor.py, step3_reciprocity.py
+   WHY: no output.txt is committed for this arc; the '96/96' and '12/12' exact-match counts quoted in FINDINGS have no committed run log, and a real bug in the coset enumeration used here was later found and 
+#390 [B624_observable_bridge|main] rep=unknown seen=0
+   WHAT: the identity trace(B_odd) = -(omega^-1/12)*sum(...) claimed verified '6/6 with full twelve-term tables', '0 exceptions at kappa=4..24 intersect 4Z'
+   WHERE: frontier/B624_observable_bridge/step1_identity.py through step5_full_table.py (no output.txt)
+   WHY: no committed .txt/.json result file for any of the 5 step scripts; FINDINGS itself flags the sweep as only partially run ('the kappa=28..40 generality sweep was resource-killed and is NOT claimed') wh
+#391 [B625_reciprocity_3k|main] rep=unknown seen=0
+   WHAT: the corrected reciprocity criterion (3|kappa, not parity), claimed '48/48 exact at 3|kappa (kappa=3..21, worst deviation 1.8e-9), 0/96 elsewhere'
+   WHERE: frontier/B625_reciprocity_3k/step4_diagnosis.py (no output.txt)
+   WHY: single script, no committed output.txt; the specific match counts (48/48, 0/96) and worst-deviation figure cannot be checked without re-running step4_diagnosis.py
+#392 [B626_jacobian_reality|main] rep=unknown seen=0
+   WHAT: J values for 8 weld words (RL=5, RRLL=18, RLRL=9&23, RRRLLL=-5, RRL, RRRL, RRLLL complex/unidentified) and the reality-vs-chirality correlation
+   WHERE: frontier/B626_jacobian_reality/out_RLRL.txt (partial, RLRL only) plus 9 .py scripts (full_solve.py, full_solve2.py, solv
+   WHY: only one word (RLRL) has a committed output file, and even that shows 2 'J=None' entries alongside the 4/8 solutions actually reported as 9 and 23 in FINDINGS -- the other 6 words' J-values (5, 18, -5
+#393 [B627_silver_heldout|main] rep=no seen=0
+   WHAT: the six silver-bundle exterior torsion values (m=1: -16, m=4: +11682800640, m=5: -1357126041600000 exact integers; m=7,8,11: 50+ digit complex numerics, unidentified in closed form)
+   WHERE: frontier/B627_silver_heldout/SEALED_SILVER_TORSIONS.md, frontier/B627_silver_heldout/cellF_full_result.md
+   WHY: cellF_full_result.md's own 'Deliverables' section states explicitly that the primary run logs and driving pipeline live in a SCRATCHPAD PATH ('/private/tmp/.../scratchpad/cellF/...'), not committed to
+#403 [B646_wave2_integration|main] rep=unknown seen=0
+   WHAT: The Q3 L2/L3 lemma verifications underlying both banked laws: sector decomposition (chi-trivial sum, chi_5 sum) and the uniform jump law (300/300 exact)
+   WHERE: q3_proofs/q3_lemmas.py; cited results in PROOF_SKETCH.md and FINDINGS_CC2.md
+   WHY: q3_lemmas.py only prints to stdout (no JSON dump); its transcript would have lived in q3_lemmas.log, which the repo's own .gitignore excludes (*.log) and which is absent from the checked-out arc direc
+#405 [B646_wave2_integration|main] rep=unknown seen=0
+   WHAT: SU(3)_13 fresh-rung prediction-first hit (clock = 12, the amended clock law's only true test)
+   WHERE: n2_clock_law/n2_su3_13_measure.py; recapped in FINDINGS_CC2.md / ADDENDUM_N2.md
+   WHY: n2_su3_13_measure.py prints to stdout only (gate result + measured clock); its witness log (n2_su3_13.log, listed in ORIGINALS_MANIFEST.txt) is gitignored and absent from the repo. This is the single 
+#406 [B646_wave2_integration|main] rep=unknown seen=0
+   WHAT: Q2 mechanism: SU(3)_2 = rho_Fib (x) chi (chi order 4, correcting a sealed guess of 3); E6 k=2 = chi4 x chi3 x PSL(2,7)-3dim, clock = ord_PSL(2,7)(A1 mod 7) = 4
+   WHERE: q2_conductor/q2_mechanism.py; recapped in q2_conductor/FINDINGS_CC2.md
+   WHY: q2_mechanism.py prints to stdout only; its witness (q2_mechanism.log) is gitignored/absent, same gap as above. The script itself is exact (mpmath dps=50, elt_order_scalar with tight tolerance) and com
+#411 [B651_wave3_integration|main] rep=no seen=0
+   WHAT: P0/F4: B649 stage 1-3b-i VERIFIED on an independent code path (hash audits, exact-field cross-checks)
+   WHERE: p0_s_verify/verify_b649.py, f4_receipt/verify_stage2.py, verify_stage2b.py, verify_stage3_numeric.py, verify_stage3_solo
+   WHY: The verification scripts are committed and read hashes from B649_silver_holonomy's ARTIFACT_HASHES.txt (an external arc, not re-verified here), so full reproduction requires that other arc's artifacts
+#414 [B653_phase_c_probe|main] rep=no seen=0
+   WHAT: sin^2(theta_12) = 1/(2*phi) = (sqrt5-1)/4 = 0.30901699437494742410... exactly, zero adjustable parameters
+   WHERE: packets/PREDICTION.md
+   WHY: The 50-digit decimal and derivation chain are given in the document and traced to prior THEOREM rows (B640/B641/B642/B644), but no script or witness file is included IN THIS ARC to reproduce it from s
+#415 [B654_listening_synthesis|main] rep=unknown seen=0
+   WHAT: Q-FIELD: chord field = tetrahedral shape field (fig-8 -> Q(sqrt-3), silver -> Q(i), exact at 45+ digits)
+   WHERE: FINDINGS.md Q-FIELD; q_period_field_output.txt
+   WHY: q_period_field_output.txt shows the numeric silver-shape output but the generating script for the Q-FIELD computation is not among this arc's committed files (only q_area_silver.py is present, which c
+#416 [B654_listening_synthesis|main] rep=unknown seen=0
+   WHAT: Q-PERIOD: N0 = 75 * lcm{d^2} exactly, with 75 = 3 * 5^2
+   WHERE: FINDINGS.md Q-PERIOD; q_period_field_output.txt
+   WHY: The output file shows N0=2311598520000 and lcm(d^2)=30821313600 with ratio 75, an exact integer division shown in the output; but again no generating script for this cell is committed in the arc's fil
+#417 [B654_listening_synthesis|main] rep=no seen=0
+   WHAT: resonance battery: tone multiset = |chi_golden|/2, Plancherel=Schur correction, cc2 identity-card lemma, separation-table correction (0.88/6.01/7.32 sigma), 24=|SL(2,3)| reading REFUTED as gauge artifact
+   WHERE: resonance_battery_output.txt
+   WHY: Output file is committed and shows the printed results, but the generating script that produced resonance_battery_output.txt is not among this arc's listed files (only q_area_silver.py is present) — a
+#420 [B658_order4_flips|main] rep=partiall seen=0
+   WHAT: Wall 8 upgrades to 'total': all FOUR orientation-reversing families of D4 (2 order-2 + 2 order-4) break; the double's 27-cohomology symmetry reduces to exactly the deck swap sigma*
+   WHERE: FINDINGS.md 'THE WALL-8 UPGRADE'
+   WHY: The order-2 result is stated as already banked from B643, which is outside this batch's files; only the order-4 half is newly computed and verified here.
+#427 [B661_wave1_adjudication|main] rep=unknown seen=0
+   WHAT: The dark-sector 'portal couplings' {0.303531, 0.491123} (ratio phi) computed by chat1's proxy SU(3)_2 weld operator are identified as |S_0j| = quantum dimensions 1/D, phi/D with D^2=3+3phi^2
+   WHERE: WAVE1_ADJUDICATION_CC2.md points 1-2; FINDINGS.md
+   WHY: This arc's own two markdown files report the identification and cite 'engine_v7, dps 40' verification and a lock file tests/test_b661_wave1.py (confirmed present in the repo), but no code, JSON, or ru
+#428 [B661_wave1_adjudication|main] rep=unknown seen=0
+   WHAT: R^2L eigenvalue correction: chat1's handoff guessed 1+sqrt(2); cc2 corrects it to 2+sqrt(3), and four words (R^2L, silver RRLL, both RL conventions) all give the same value set {1/D, phi/D}, called 'REPRESENTATION-FORCED, knot-ind
+   WHERE: WAVE1_ADJUDICATION_CC2.md point 3
+   WHY: Same limitation: reported in prose only, no packet artifact (script/log/JSON) provided in this arc's file list to check the eigenvalue arithmetic or the four-word run against.
+#430 [B662_successor_campaign|main] rep=no seen=0
+   WHAT: L103 cross-check vs B660/S4 evaluator at the invariant level
+   WHERE: cellC/FINDINGS_CELL.md lines ~134-156
+   WHY: the FINDINGS text itself states 'A re-run of the S4 evaluator itself is blocked in-repo: it requires cell3_double/stage1_classes.pkl from the seat workdir (not in the repo); the sealed exact output is
+#432 [B662_successor_campaign|main] rep=partiall seen=0
+   WHAT: CELL I: the ear's hearing representation IS the Gamma5'-doublet 2-hat' (exact character equality, 9 classes); weight-5 forced via E8-exponent / McKay mechanism
+   WHERE: cellI/FINDINGS_CELL.md; cellI/gamma5_map.py; cellI/cellI_output.txt
+   WHY: the script computes exactly in Q(zeta_20) from scratch and cross-checks the extraction against a second literature table (Table 1 decompositions), reducing transcription risk, but the literature matri
+#437 [B666_leads_campaign|main] rep=unknown seen=1
+   WHAT: R21-9 pair-evenness lemma proven unconditionally: det B_w factors with all valuations even (Lambda in Z)
+   WHERE: cell4/R21_9_PROOF.md, cell4/b666_cell4_verify.py, cell4/cell4_output.txt
+   WHY: Findings claim symbolic verification m=3..50 plus all 192 W(D4) and all 51840 W(E6) elements; I did not open cell4's files this pass (listed-only) so cannot confirm the script actually runs these chec
+#445 [B669_track_h_adjudication|main] rep=unknown seen=0
+   WHAT: m136 (RRLL, "the true silver") IS amphichiral, |Isom(m136)|=8
+   WHERE: h1_ladders.py (SnapPy call) + h1_output.txt line "|Isom(m136)| = 8; amphichiral: True"; locked by test_m136_amphichiral_
+   WHY: Computed via SnapPy in the committed script, but SnapPy is an external dependency not vendored in the repo (and the output shows a macOS pyenv path, /Users/dri/.pyenv/..., suggesting this ran on the o
+#448 [B673_loop4_integration|main] rep=unknown seen=0
+   WHAT: D4 ceiling-law table (Track H adjudication: boundedness is universal, refuting the 'amphichirality' growth prediction)
+   WHERE: packet/TRACK_H_ADJUDICATION_CC2.md, packet/loop4/d4_ceiling/d4_run_log.txt, d4_ceiling.py
+   WHY: d4_ceiling.py is present and computes exact/high-precision modular data with explicit gates (unitary, symmetric, (ST)^3=S^2 etc., shown passing to ~1e-60); but this packet's d4_run_log.txt is truncate
+#450 [B675_hcusp_sweep|main] rep=unknown seen=0
+   WHAT: SU(4)_1 is the conductor-8 stage that hears only the mod-8 shadow class (Part 3, the hearing check)
+   WHERE: FINDINGS.md THE HEARING CONFIRMATION section
+   WHY: FINDINGS.md itself flags this as "Numeric at two precisions, flagged" (floats, not exact) — the arc is honest about this but a stranger would need to re-run b675_hcusp.py Part 3 to reproduce the speci
+#453 [B678_d4_annex|main] rep=unknown seen=0
+   WHAT: any_growth_any_level=False across 96 cells (8 words x 12 levels)
+   WHERE: d4_results_MERGED.json (failed_gates_by_level all empty; any_growth_any_level:false)
+   WHY: per-level JSON results and both scripts (d4_level.py, d4_ceiling.py) are committed and self-contained (import engine_v7 by absolute conduit path, not in this repo), but the run logs (d4_k1..12.log) th
+#455 [B679_engine_patch|main] rep=unknown seen=0
+   WHAT: downstream lock/cell rerun battery (b678, b673, b651, b670, b663, b646 cells + 4 pytest files) all PASS with patched engine pre-injected
+   WHERE: equivalence_locks_out.txt
+   WHY: the harness that ran these (timeouts, PASS/PASS(note) lines) is not included in this arc's file set -- only the captured stdout is committed, not the runner script itself
+#460 [B684_loop7_close|main] rep=no seen=0
+   WHAT: G1: compression kernel (1,0,(7983360/13)omega) exactly, DERIVED from the cubic contraction; two mechanisms proven disjoint (pi=0 on Lambda^2)
+   WHERE: loop7/G1_FINDINGS.md; artifacts named (g1_mechanisms.py, g1_results.json, g1_run.log) are NOT present in this arc's dire
+   WHY: the named source artifacts for this claim are absent from the B684 directory on disk (only the prose FINDINGS summary is committed here) -- a stranger cannot rerun this from what's in the repo at this
+#461 [B684_loop7_close|main] rep=no seen=0
+   WHAT: G2: silver hears 1/delta at SU(4)_2, golden 1/phi at SU(3)_2 -- 'level-2-of-own-family' law
+   WHERE: loop7/G2_FINDINGS.md; g2_silversu4.py/g2_results.json/g2_run.log NOT present in this arc
+   WHY: same missing-artifact issue as G1; and this specific headline value is directly contradicted by a later independent build (see red flags)
+#473 [B693_loop_e3_inert5|main] rep=no seen=0
+   WHAT: Base-change Euler-factor identity at the inert prime 5: L5(f,s)=(1-5^-s)^-1, L5(f⊗χ-3,s)=(1+5^-s)^-1, product=(1-25^-s)^-1 ⇒ a_(5)=+1
+   WHERE: frontier/B693_loop_e3_inert5/FINDINGS.md lines 435-444
+   WHY: The derivation is exact, elementary algebra shown fully inline in prose, so it is reproducible by hand from the stated identity, but no script/file is committed for this arc to check it programmatical
+#477 [B696_eisenstein_campaign_close|main] rep=no seen=0
+   WHAT: E4b: silver sum-rule rank(span{[c23],[c24],[c34]}) over Q(s,i) = RANK 3 (no tying), vs golden rank 2 (banked B671); main-seat independently recomputed 4 of cc2's 7 exact 3x3 minors
+   WHERE: frontier/B696_eisenstein_campaign_close/FINDINGS.md lines 638-653; E4b_FINDINGS_CC2.md
+   WHY: The verification depends on 'the banked silver vector-cup table' d3_silvercup/d3_results.json, which lives in a different arc (B673_loop4_integration) not included in this packet — a cross-arc depende
+#479 [B700_fiber_functor|main] rep=unknown seen=0
+   WHAT: 2I=SL(2,5) has exactly two 2-dim golden irreps, character field exactly Q(sqrt5), Galois-swapped simply-transitively (no fixed point) — cell 1
+   WHERE: frontier/B700_fiber_functor/FINDINGS.md lines 9-30
+   WHY: Stated as verified via 'sage character table + independent Q(zeta5) recompute'; the likely witness script (ref_golden_torsor.sage) exists in the arc's file list but was not read in this pass (listed o
+#480 [B700_fiber_functor|main] rep=unknown seen=0
+   WHAT: Stage-uniform general theorem: for every prime stage p, SL(2,p) has exactly two (p-1)/2-dim irreps with character field Q(sqrt p*), verified exactly for p=5,7,11,13 — cell 5
+   WHERE: frontier/B700_fiber_functor/FINDINGS.md lines 191-199
+   WHY: Grounded in a cited classical fact (Schur/Frobenius, Gauss-sum-valued exceptional characters); the likely witness (ref_cell5_sl2p.sage) was not read in this pass.
+#481 [B700_fiber_functor|main] rep=unknown seen=0
+   WHAT: Phase 2 obstruction: the two golden irreps both have Frobenius-Schur indicator -1 and share every choice-free Galois invariant, so no canonical torsor-iso to the unitarity-pointed MTC torsor {Fibonacci, Yang-Lee} exists
+   WHERE: frontier/B700_fiber_functor/FINDINGS.md lines 236-313; phase2_cc2/phase2/PHASE2_CLOSE_CC2.md
+   WHY: Described as independently confirmed by both seats (cc's arithmetic recompute, cc2's icosian-quaternion BFS closure via GAP/Sage); the likely witness (ref_b701_phase2.sage) exists but was not read in 
+#484 [B705_metallic_hearing_campaign|main] rep=no seen=0
+   WHAT: Cell B: figure-eight Jones V(ζ5)=1-√5=-2/φ (real); Whitehead V(ζ10)≈0.882+0.812i (complex, silent); N=3 Whitehead inconclusive
+   WHERE: FINDINGS_B_CC2.md §2-3
+   WHY: described as computed from-scratch (Temperley-Lieb, Jones-Wenzl) and cross-checked vs SageMath/SnapPy, but the scripts (kauffman.py, colored_jones2.py) are explicitly stated as scratch-only, NOT part 
+#485 [B705_metallic_hearing_campaign|main] rep=no seen=0
+   WHAT: Cell C: bronze = L^3R^3 identifies to s464, volume 4.81381918610; trace field degree 8 disc 391728981; tetrahedra shapes non-torsion
+   WHERE: FINDINGS_C_CC2.md Step 1-3
+   WHY: SnapPy/PARI computation described in detail with plausible outputs, but again run in a private scratchpad, not this repo; no script or _out.txt committed in this arc
+#486 [B705_metallic_hearing_campaign|main] rep=no seen=0
+   WHAT: Cell D: Koide θ0 σ-distance corrected to 0.888σ (was banked as ~7σ); Q5=7983360 base-rate COINCIDENCE
+   WHERE: FINDINGS_D_CC2.md
+   WHY: described as MC N=1e6 + analytic Jacobian + mpmath 50-digit cross-check, all plausible and precise, but no script/output committed to this arc; only prose with numbers
+#505 [B727_base_rate_the_structure|main] rep=unknown seen=0
+   WHAT: Full A-Z verdict synthesis (atom forced+special, McKay bijection, CIZ forced by Coxeter number, Lie face generic, base rate forced)
+   WHERE: b727_probe3.py Parts A-F; b727_probe3_out.txt
+   WHY: Requires Sage+GAP+SnapPy ('Run: sage-python b727_probe3.py'); the output file is committed and was read, but a stranger without a Sage/GAP environment cannot rerun this specific probe (probe1/probe2 a
+#512 [B733_observer_space|main] rep=partial seen=0
+   WHAT: Full Out(G_n) does grow (Z/2 -> C2xC2 -> S4) but decomposes into a bounded Galois/Frobenius part + a saturating classical diagonal + a non-arithmetic (excluded) module-multiplicity Z/3; overall verdict: bounded, never a continuum
+   WHERE: b733_menu.py + b733_menu_out.txt
+   WHY: The script header states it uses GAP 4.15 (via subprocess) for the automorphism-group piece that a prior draft omitted; pure-python parts (rings/groups) are self-contained, but the GAP-dependent parts
+#516 [B736_ABC_campaign|main] rep=unknown seen=0
+   WHAT: Equivariance-wall T=0: the Sylvester intertwiner between being (eigenvalues φ²,φ⁻²) and hearing (order-10, eigenvalues on unit circle) has disjoint spectra ⇒ unique solution T=0
+   WHERE: p3_reduction.py / p3_reduction_out.txt (not fully read; grep-sampled per packet mode SAMPLE_CODE)
+   WHY: Only grepped def/assert/print lines and the first 120 lines of p3_reduction.py per sampling protocol; output file p3_reduction_out.txt was read in full and is consistent with the claim, but the full s
+#518 [B737_candidate_zero|main] rep=unknown seen=0
+   WHAT: φ_m004(s) = Λ_K(s)/Λ_K(s+1), Res φ = 2√3/vol(m004) = 1.70655217662816… (verified 40 digits, three routes)
+   WHERE: FINDINGS.md P2-COVER section; p2_cover.py (not read in full, only grepped per SAMPLE_CODE mode) / p2_cover_out.txt
+   WHY: The p4_kms.py file (read in full) independently re-derives and cross-checks parts of this (S4 scattering-side residue check against exact formula 2π²/(9ζ_K(2))), giving corroboration, but p2_cover.py 
+#519 [B737_candidate_zero|main] rep=unknown seen=0
+   WHAT: m004's cusp is ℂ/(ℤ+2√−3ℤ) with CM by the conductor-4 order (disc −48, h(−48)=2)
+   WHERE: FINDINGS.md P3-SISTER section
+   WHY: p3_sister.py was only grep-sampled, not read in full; the claim is stated as 'in-seat verified' (mp.kleinj match to 1e-15) but a later log entry (B850, 2026-08-02) records that a related sub-fact in t
+#520 [B738_pathfinder_compiler|main] rep=unknown seen=0
+   WHAT: 217 classified negatives with per-record kill_form/faces_consulted/fact_computed/hatch/priority/revival_score fields; emittance-lengths 2/217, emittance-eigenvalues 3/217, Laplace/scattering spectrum consulted by 0/217
+   WHERE: kill_graph.json (at the time FINDINGS.md/KILL_GRAPH_SUMMARY.md were written), KILL_GRAPH_SUMMARY.md tables
+   WHY: This is a classification/compilation exercise (14 compile agents reading and tagging existing FINDINGS across the corpus) rather than a mathematical computation — its 'ground truth' is itself a judgme
+#521 [B738_pathfinder_compiler|main] rep=unknown seen=0
+   WHAT: kill_form disagreement with cc3's independent compiler: 107/155 (69%) raw disagreement, mostly taxonomy; 6/155 (3.9%) substantive fact-basis disagreements (B146,B272,B285,B296,B437,B516)
+   WHERE: FINDINGS.md KILL-GRAPH DIFF section
+   WHY: Reported as a diff between two independently-built compilations; the diff computation itself is plausible and specific (named ids) but neither compiler's classification is independently checkable as '
+#524 [B742_negatives_hunt_p1|main] rep=unknown seen=0
+   WHAT: 30 RECONFIRMED verdicts (each: original kill's discriminating fact re-derived from scratch, not cited)
+   WHERE: recompute/<id>/recompute.py + output.txt for each of the 30 ids listed in FINDINGS.md's verdict table
+   WHY: Sampled 3 of 30 recompute.py scripts directly (B58 not counted here — REVIVED; WALL-7, TOMB-L293) and confirmed they are genuine deterministic sympy/mpmath scripts with explicit checks and printed PAS
+#531 [B754_p2_spectral|main] rep=no seen=0
+   WHAT: TOMB-L277 skeptic override: 16/37 classes (43%) golden-magnitude weld-block trace; 1152/2880 elements golden; all 4 SU(2)_3-golden classes are golden-weld -- used to flip the cell's FACE-OPENS verdict to KILL-EXTENDS
+   WHERE: cells/TOMB-L277/skeptic.txt (the whole census table)
+   WHY: No skeptic.py (or any script) is committed alongside skeptic.txt in cells/TOMB-L277/ -- only the prose report with printed numbers. A stranger cannot re-run this census from committed files; they must
+#534 [B756_remaining_doors|main] rep=no (scri seen=0
+   WHAT: DOOR6 P4 sector-split re-execution: (tr_odd,tr_even)(23)=(1,0) exactly, eps=+1 the unique global sign reproducing the banked 8-rung ladder, p4_results.json byte-identical to cc2's banked file
+   WHERE: cc_verify_door6_p4_rerun.txt
+   WHY: the file is an output log (a *.txt witness), not the executing script; a stranger has the numbers and the byte-identity claim but not the reproducing code within this arc's directory
+#537 [B760_qp4_closure|main] rep=no seen=1
+   WHAT: Weld block B is SU(2) with eigenvalues {zeta_5, zeta_5^4} (72-degree rotation), B^5=I, and no candidate operation (Galois, MCG powers, charge conjugation, amphicheiral involution, QP-3 coupling sign) canonically breaks the pairing
+   WHERE: output.txt Parts 1-8 (compute.py itself was NOT in this arc's file list — only its stdout is committed)
+   WHY: compute.py is referenced ('cd frontier/B760_qp4_closure && python compute.py') in FINDINGS.md but is not among the files provided for this arc (only FORENSIC_SEAL_RECORD.md, FINDINGS.md, PREREGISTRATI
+#545 [B770_closure_census|main] rep=unknown seen=0
+   WHAT: 16 candidate closures adversarially refuted back to LIVE
+   WHERE: CENSUS.md 'The 16 refuted closures' section
+   WHY: The refutation rationale for each item is given as free text (e.g. OI-108: 'never run anywhere in the repo') but this is a multi-agent workflow (wf_4f2f28dd-762) whose underlying agent transcripts are
+#553 [B775_braver_questions|audit/b775-braver-questions] rep=unknown seen=1
+   WHAT: V4 genericity test: 8 imaginary-quadratic-trace-field manifolds tested (SnapPy census + metallic/chiral bundles); m004, m003, m025, R^2L^2 have V4 (amphicheiral), while m009/m010/RRL/RLL have Galois-only Z/2
+   WHERE: FINDINGS_THREE_MOVES.md Move 1; v4_genericity_test.py
+   WHY: The script v4_genericity_test.py is committed and would run (SnapPy+cypari), but no output.txt/results.json/log for the actual run is present in this arc's file set — the specific table of 8 manifolds
+#557 [B777_braver_questions|main] rep=no seen=1
+   WHAT: V4-genericity independently re-verified: cc's own SnapPy re-computation of manifold volume/symmetry-group/amphicheirality for m004, m003, m025, m009, m010 matches cc3's table exactly (m004 vol 2.029883, D4, amphicheiral, V4; m003 
+   WHERE: CC_VERIFY_V4GENERICITY.md lines 10-26
+   WHY: This is stated as cc's own independent SnapPy re-computation ('cc's independent SnapPy re-computation confirms it EXACTLY') but no script, output, or results file for this re-computation is committed 
+#560 [B779_convergence_probe|main] rep=no seen=0
+   WHAT: R1: Galois orbits on the F2^3 closing torsor — V4 acts with 2 orbits of size 4, orbit label = theta-coordinate
+   WHERE: R1_galois_orbits.md
+   WHY: the orbit computation is stated and its logic given in prose/table form (translation action on F2^3), but no compute.py/script is committed for R1 — a stranger cannot re-run it, only re-derive it by h
+#573 [B790_maass_adjudication|main] rep=unknown seen=1
+   WHAT: L1: m004 and m003 are NOT isospectral (differ in length spectrum despite equal volume)
+   WHERE: compute.py L1 block; output.txt
+   WHY: uses SnapPy (snappy.ManifoldHP('m004'/'m003').length_spectrum) — an external, non-trivial geometry library; reproducible only if SnapPy is available and version-stable, not verifiable purely from comm
+#574 [B790_maass_adjudication|main] rep=unknown seen=1
+   WHAT: L2/L2': every geodesic trace (134 for m004, 150 for m003, cutoff Re(l)<=5) lies exactly in Z[omega], worst deviation 2.6e-15; trace-norm multisets differ between m004 and m003 (mod-4 vs odd split)
+   WHERE: compute_l3_powered.py; output_powered.txt
+   WHY: depends on SnapPy length-spectrum data as above; arithmetic verification (nearest-integer rounding of Z[omega] coefficients) is exact given that input. The mod-4/odd split is explicitly flagged in FIN
+#576 [B791_weyl_completeness|main] rep=no seen=0
+   WHAT: Bank structural claims (image order 1920, transitivity, commutant dim 3, orbital sizes [12,12,120], <chi,chi>=3, decomposition V1+V5+V6) re-derived from the bank's own 4 generator permutations
+   WHERE: verify_bank_structure.py, FINDINGS.md §1
+   WHY: The script explicitly requires an environment variable B788_BANK pointing at the external B788_maass_spectrum_programme's outputs/coset_action.json, which the script's own header states is 'NOT vendor
+#578 [B793_gate8r2a_parent_localisation|main] rep=unknown seen=0
+   WHAT: The B788 bank's V1 solver uses scipy minimize_scalar(method='bounded') over a 2e-4-wide window centred on the literature value, which always returns a point and cannot count roots or detect absence of an eigenvalue
+   WHERE: FINDINGS.md 'The finding' section, quoting build_gate8_v1_control.py / GATE8R_PROTOCOL.json
+   WHY: This is a code-reading finding (inspection, not execution) about an EXTERNAL bank's solver; the arc explicitly did not run the solver (custody protocol only copies it out and inspects), so 'reproducib
+#579 [B793_gate8r2a_parent_localisation|main] rep=no seen=0
+   WHAT: Bank ARTIFACT_HASHES verification: 84 verified, 0 mismatches, both before and after the custody procedure (bank left unmodified)
+   WHERE: bank_hash_baseline_pre.json, bank_hash_baseline_post.json
+   WHY: Hash check against the external B788 bank's own ARTIFACT_HASHES.txt; the bank itself is not vendored in this repo, so a stranger cannot re-run the verification, though the pre/post hash-count match is
+#580 [B793_gate8r2a_parent_localisation|main] rep=no seen=0
+   WHAT: 10 of the bank's own hash-listed files (its lock tests, e.g. test_b788_maass_gate8_v1_control.py) are MISSING from the delivered archive
+   WHERE: bank_hash_baseline_pre.json 'unresolved' list; FINDINGS.md 'Separate observation'
+   WHY: Observed against the external delivered zip, which is not part of this repo; the missing-file list is recorded here but the archive itself cannot be re-inspected from committed files.
+#583 [B796_coupling_campaign|audit/b775-braver-questions] rep=unknown seen=0
+   WHAT: Cell 1 GH-ladder: 43 distinct spectral eigenvalues r<13.5, 4 parent forms, three pre-stated GH rungs confirmed (r=11.00811336, 12.50010017, 13.29316271)
+   WHERE: WAVE1_FINDINGS.md CELL 1; scanE/scanF scripts not in this file list
+   WHY: FINDINGS describes exact numeric outputs and a corroboration base-rate (9.5e-5) but the scanning scripts/witnesses that produced the 26 stable eigenvalues are not among the files this packet lists as 
+#586 [B797_maass_spectrum_harvest|main] rep=no seen=0
+   WHAT: sector projective-line S-test: exactly one parent eigenvalue (n=6, r=7.072)
+   WHERE: sector_projection_results.json
+   WHY: Results are committed as output JSON (dev_min/dev_max per eigenvalue) but no script that produced sector_projection_results.json is among this arc's files -- the generating code lives elsewhere (attri
+#587 [B797_maass_spectrum_harvest|main] rep=no seen=0
+   WHAT: SM comparison: 0 gated hits across Test1/2/3 against 18 PDG targets
+   WHERE: sm_comparison_results.json, SM_COMPARISON_PREREGISTRATION.md
+   WHY: protocol is fully specified in the preregistration and result values are committed, but the test-running script itself (sm_comparison_tests.py, referenced in the prereg) is not among this arc's files.
+#591 [B801_negative_census|main] rep=unknown seen=0
+   WHAT: 60-arc sample from 557-arc pool, seed fixed before draw (20260729), finds 12/60 = 20% negative rate
+   WHERE: census.json
+   WHY: the sampling methodology (seed, pool, rule) is stated and the 12 negative arc IDs are named with one-line justifications, but no script that drew the sample or classified each arc is committed in this
+#596 [B805_forcing_graph|main] rep=unknown seen=0
+   WHAT: 567 of 733 arcs (77%) attach to no face; 6 of 11 faces have no proved arc
+   WHERE: FINDINGS.md table; scripts/forcing/build.py (not in this arc's file list, referenced only)
+   WHY: the generating script scripts/forcing/build.py and its output forcing_graph.json are referenced in FINDINGS.md but are NOT among this arc's committed 2 files (FINDINGS.md, arc_verdict.json) per the pa
+#597 [B806_lexicon_blindness|main] rep=unknown seen=0
+   WHAT: Keyword face-classifier scores precision 0.45, recall 0.63, exact-set match 13% against 166 human-classified arcs
+   WHERE: FINDINGS.md:15-17
+   WHY: no script is among this arc's 2 committed files (FINDINGS.md, arc_verdict.json); referenced test/build tooling (scripts/forcing/build.py, tests/test_b806_lexicon.py) sits outside this arc's directory.
+#598 [B806_lexicon_blindness|main] rep=unknown seen=0
+   WHAT: Top-3 motif coverage 93.3% (later corrected in-document to 0.8845)
+   WHERE: FINDINGS.md:24-25 with correction annotation
+   WHY: same reproducibility gap as above; the correction itself is transparently documented in-arc, which is good practice, but the underlying computation is not in this arc's own files.
+#599 [B806_lexicon_blindness|main] rep=unknown seen=0
+   WHAT: Zero overlap between kill_graph's 11 'faces' and the atlas's 18 'motifs'
+   WHERE: FINDINGS.md table (faces vs motifs lists)
+   WHY: presented as a direct set-comparison of two named vocabularies; plausible to check by inspection but no script computing the overlap is in this arc's files.
+#600 [B810_verdict_wave1|main] rep=unknown seen=0
+   WHAT: 287 verdicts written from 300 returned across 12 parallel readers x 25 arcs each; 0 fabrications on 9 transcription errors (6 non-existent IDs, 3 already-authored)
+   WHERE: FINDINGS.md
+   WHY: this is a description of a distributed multi-agent workflow run (12 parallel reader-agents), not a deterministic script; the arc's only committed files are FINDINGS.md and arc_verdict.json -- the work
+#606 [B815_kappa_precision_note|main] rep=unknown seen=0
+   WHAT: Synthetic-data calibration: 12 raters x 15 items x 4 categories at 85% per-rater fidelity yields Fleiss kappa=0.7695, bootstrap 95% CI [0.6549,0.8471]
+   WHERE: PRE_DATA_NOTE.md
+   WHY: the note states the Fleiss kappa instrument (scripts/checks/fleiss_kappa.py) was built and verified against Fleiss's published worked example, then run on synthetic data of the stated shape -- but nei
+#608 [B819_frame_gap|main] rep=unknown seen=0
+   WHAT: 181 directories with no arc_verdict.json, 133 of which have a FINDINGS.md, 116 of those never assigned to any wave-2 reader; 229 of 791 total arc ids never assigned
+   WHERE: FINDINGS.md tables
+   WHY: presented as a direct count over the frontier/ directory structure and wave-2's assignment list; plausible and mechanically checkable in principle (file existence + list membership) but no script perf
+#609 [B821_lexicon_refresh|main] rep=unknown seen=0
+   WHAT: New self-audit motif matches 5 of 7 substantial blind arcs (passes) but 46.2% (345/746) of the corpus (fails the <=25% vacuity ceiling) -> reverted
+   WHERE: FINDINGS.md table
+   WHY: the test is described as run against the atlas's LEXICON/OBSTACLES dictionaries with sealed thresholds, and a wiring bug (insertion landed in the wrong dictionary) was caught by the same test -- but n
+#610 [B821_lexicon_refresh|main] rep=unknown seen=0
+   WHAT: Term-frequency decomposition: 'prereg' in 27.6% of arcs, 'audit' 14.7%, 'census' 11.6%, etc., showing the self-audit vocabulary is the ambient method register not a distinguishing motif
+   WHERE: FINDINGS.md table
+   WHY: same reproducibility gap -- plausible grep-style counts but no script committed in this arc's files.
+#611 [B822_lexicon_gate_fix|main] rep=unknown seen=0
+   WHAT: Size floor (FINDINGS.md >= 2000 bytes) removes 14 of 22 blind arcs, leaving 8 (meets both sealed criteria: >=10 removed, <=10 remaining)
+   WHERE: FINDINGS.md table
+   WHY: described as a direct file-size filter over the 22 previously-identified blind arcs; mechanically simple and plausible but no script is present in this arc's 3 committed files to verify the exact coun
+#612 [B823_blind_triage|main] rep=unknown seen=0
+   WHAT: Triage registry (docs/atlas/BLIND_ARCS.md) verified with 3 negative controls: removing B537's row fails the gate; adding a non-blind arc's row fails the gate; deleting the registry fails the gate; restoring passes
+   WHERE: FINDINGS.md 'verified, not asserted' table
+   WHY: the three negative-control perturbations and their pass/fail outcomes are reported in prose with quoted gate error messages, but no script or test file is present in this arc's 2 committed files (FIND
+#613 [B824_charvar_motif|main] rep=unknown seen=0
+   WHAT: Per-pattern corpus share (character variety 13.8%, total 18.4%)
+   WHERE: FINDINGS.md table
+   WHY: Test file tests/test_b824_charvar_motif.py is cited but not included in this packet; the counting script/corpus itself is not shown, so a stranger cannot verify the 18.4%/13.8% figures from files read
+#614 [B825_markov_motif|main] rep=unknown seen=0
+   WHAT: 8.3% corpus share (62/750), 75.8% containment in trace_map
+   WHERE: FINDINGS.md table
+   WHY: Same class as B824: counting script/corpus not in read set; only tests/test_b825_markov_motif.py cited.
+#622 [B833_negative_routing|main] rep=unknown seen=0
+   WHAT: 206 NEGATIVE-verdict arcs, 137 absent from kill graph; kill_graph has 217 records: 172 arc ids + 45 non-arc keys; of 172, 69 NEGATIVE/56 PROVED/38 none/6 RETRACTED/3 OPEN
+   WHERE: FINDINGS.md:14-42
+   WHY: Described as a direct count over the repo's verdict/kill_graph records, but the actual kill_graph.json and verdict corpus are not part of this packet's read set -- the arithmetic is plausible but not 
+#624 [B835_lock_repairs|main] rep=unknown seen=0
+   WHAT: trace_map corpus share crossed 0.45 floor to 0.449; per-era breakdown table (trace_map 0.463->0.375, kappa 0.284->0.125, etc.)
+   WHERE: FINDINGS.md:15-28
+   WHY: Table presented as measured output of test_measured_frequencies_hold, but the underlying corpus/motif-count script is not in this packet.
+#625 [B835_lock_repairs|main] rep=unknown seen=0
+   WHAT: B702's retraction marker was at line 45, past a 1500-char read window
+   WHERE: FINDINGS.md:44-51
+   WHY: Specific and checkable claim about a file offset, but B702's file itself isn't read here to verify line 45.
+#626 [B836_route_negatives|main] rep=unknown seen=0
+   WHAT: 167 arcs routed, graph 217->384
+   WHERE: FINDINGS.md:8-13
+   WHY: kill_graph.json itself not part of the read set for this packet; count is asserted narratively.
+#628 [B838_lexicon_regrounding|main] rep=unknown seen=0
+   WHAT: term-frequency table: forcing/forced 41.9%, forces 13.6%, held slot 0.1%, two ingredients 0.1%, etc.
+   WHERE: FINDINGS.md:17-27
+   WHY: Corpus-frequency counting script/corpus not in the read set; numbers asserted, methodology (same as B824/B825's diagnostic) plausible but not independently checked here.
+#630 [B840_close_loose_ends|main] rep=unknown seen=1
+   WHAT: R1's vacuous SEALED verdict traced to mdnewton needing a square system but polish_mp supplying 9 complex (18 real) equations for 22 real unknowns; exception counted and loop continued before membership test
+   WHERE: FINDINGS.md:13-21
+   WHY: Described as a diagnosed and fixed bug (three bugs fixed: underdetermined polish, 50-vs-70-digit truncation, double-precision control), but the actual before/after code and re-run outputs are not part
+#631 [B840_close_loose_ends|main] rep=unknown seen=1
+   WHAT: R2/V3 blind result: 9 Phi-orbits size 3 on the 27, charge split 1/10/16 gate PASS, triple intersection 16^16^16=6, singlet orbit profile (1,16,16)
+   WHERE: FINDINGS.md:9-11
+   WHY: Presented as a delivered blind computation but no script or raw output file is in the read set here to check.
+#633 [B841_provenance_pass|main] rep=unknown seen=0
+   WHAT: 167 records judged by 12 readers, 0 errors; fact_computed true 118/167 (70.7%); 118/118 pointers resolve on filesystem
+   WHERE: FINDINGS.md:8-18
+   WHY: Described as mechanically verified (every true-pointer checked against the filesystem), and a 10-record seeded sample was spot-read, but the full 167-record rated dataset and verification script are n
+#635 [B842_face_attachment|main] rep=unknown seen=0
+   WHAT: Fleiss kappa=0.8732 on 16-arc 12-category calibration block, CI [0.7388,0.9603]
+   WHERE: FINDINGS.md:8-13
+   WHY: calibration_ratings.json is listed as a file for this arc in other arcs (B832/B834) but was not included as a file for B842 in this packet -- so the raw per-reader labels this kappa is computed from a
+#636 [B842_face_attachment|main] rep=unknown seen=0
+   WHAT: Consistency vs existing kill-graph attachment: 58.3% per judgement, 56.2% by panel mode; B296/B523 both 12/12 'none' against corpus attachments
+   WHERE: FINDINGS.md:30-44
+   WHY: Same as above -- underlying calibration data not in this arc's read set within this packet.
+#640 [B850_length_spectrum_type|main] rep=unknown seen=1
+   WHAT: First published table said '0 rational' -- later found to be an artifact of a global mpmath precision setting (mp.mp.dps) being silently overwritten by another module; corrected via local workdps, verified identical at dps 15/25/4
+   WHERE: FINDINGS.md:37-52
+   WHY: The bug-fix and multi-precision reproducibility check is narrated in FINDINGS.md but the actual before/after code diff is not shown or included in this packet's read set.
+#642 [B850_length_spectrum_type|main] rep=unknown seen=1
+   WHAT: SECTION 4a (B858 correction, embedded in this FINDINGS.md): m009 (arithmetic, Q(sqrt-7), non-commensurable with m004) has max multiplicity 8, EXCEEDING m004's 4 -- so the original 'arithmetic > arithmetic > non-arithmetic' orderin
+   WHERE: FINDINGS.md:103-130
+   WHY: This correction is narrated with a results table (m004=4, m003=3, m136=4, m009=8, m015=2) but the committed results.json in this packet was NOT updated to reflect it -- it still only contains the pre-
+#655 [B866_charge_cubic|main] rep=unknown seen=1
+   WHAT: TYPE check: derived algebra dim 45, center dim 1 at the enhancement root -> so(10)+u(1)
+   WHERE: FINDINGS.md section 2a
+   WHY: Described as computed at a '55-digit root' with a '15-order spectral gap' -- i.e. a high-precision NUMERIC (not exact rational) root refinement, not committed as a separate witness script in this arc'
+#657 [B869_false_positive_control|main] rep=unknown  seen=0
+   WHAT: so(14) keeps an extra su(2) (endpoint SM x su(2)); su(6) Sym^2 family lands on su(3)+3u(1)
+   WHERE: FINDINGS.md section 3
+   WHY: Described in FINDINGS as computed by the same generic engine; the D-type/Sym^2-specific branching code was not inspected beyond the first 120 lines in this pass.
+#664 [B878_maass_upper_window|main] rep=unknown seen=0
+   WHAT: SM comparison tests (clean null: no SM value reachable from the 17-eigenvalue lower-window spectral set at 8-digit precision under base-rate control)
+   WHERE: branch_FINDINGS.md 'THE LAST DOOR: SM COMPARISON' section
+   WHY: described with a pre-registered protocol and specific p-values/PSLQ results in branch_FINDINGS.md prose, but the actual test scripts (sm_comparison_tests.py) are not among this arc's committed files -
+#669 [B894_meditation_trio|main] rep=unknown seen=1
+   WHAT: the addendum's corrected field discriminant disc K = 6237 = 3^4*7*11, monogenic model, 5 unramified
+   WHERE: FINDINGS.md Addendum 2026-08-18
+   WHY: the addendum states the correction was 'verified on this bench by independent computation (sympy, exact; not the audit seat's script)' but no script file for this specific reduced-model computation ap
+#670 [B896_s3_harmonics|main] rep=unknown seen=0
+   WHAT: sign isotypic absent from C^3 = trivial + standard; Z2 cocycle placed as the sign class in oriented pair data
+   WHERE: FINDINGS.md Result 3
+   WHY: described as 'rep theory, exact' but the specific representation-theoretic argument (why C^3 has no sign component, and why oriented pair data carries it) is stated in FINDINGS.md prose without an obv
+#672 [B906_flavor_verification|main] rep=unknown seen=0
+   WHAT: Wholesale re-run of the solo seat's entire flavor suite (unified gluing law, 15-atom decomposition, K3,3 coupling grid, the value I=-1 at two primes) on this build's own frame, reported as matching the solo seat's originals
+   WHERE: results.json (verification_lane, all sub-verdicts VERIFIED)
+   WHY: FINDINGS.md's own 'Files' section states explicitly: 'the suite's outputs live in the session scratchpad per relay discipline (scripts are the solo seat's, not re-banked)' -- i.e. the actual reproduct
+#676 [B912_norm_cell|main] rep=unknown/ seen=0
+   WHAT: the nine colorless scale values (e.g. 19.142020743905498523723..., 1.6803202716718931117598...)
+   WHERE: DRAFT_FINDINGS.md sec 4 table; results.json
+   WHY: these are stated as '35-digit values... dps 60' certified numerics, not exact rationals or algebraic closed forms -- i.e. high-precision floating-point-derived certified digits, not exact symbolic val
+#678 [B916_lambda_bridge|main] rep=unknown seen=0
+   WHAT: 27/27bar bridge S is a signed permutation (det S=1); primitive cubic transports with t=1 exactly; the two H's differ by an 11-of-27 sign-flip diagonal D2 (not a scalar)
+   WHERE: bridge.py -> results.json, 53 checks all pass
+   WHY: The script requires a HANDOFF7 env var pointing at solo-seat pickle files (rep27.pkl, H27.pkl, cubic27.json, tauP.pkl) that are NOT part of this arc's own committed files -- they are "solo handoff 7" 
+#679 [B916_lambda_bridge|main] rep=unknown seen=0
+   WHAT: lambda = 2304/953 (solo, tau-twisted H) vs lambda = 1 (banked, charge-equivariant H+), both exact
+   WHERE: results.json checks lambda_dual_exact_Hplus / lambda_dual_exact_Hprime
+   WHY: same HANDOFF7 dependency as above
+#682 [B918_v_kummer|main] rep=unknown seen=0
+   WHAT: the identification of HIER's roots with the pipeline's v_g^2 (the atom-construction/belt100 chain's numeric output)
+   WHERE: FINDINGS.md "The numeric anchor (stage 0)", tier statement
+   WHY: FINDINGS.md states this rests on "the relay pipeline (solo norms.py atom construction + belt100 coupling loop)" whose belt regeneration (122s) "lives in the session scratchpad per relay discipline -- 
+#683 [B919_weinberg_traces|main] rep=no seen=1
+   WHAT: Tr(T3^2)=3, Tr(Y^2)=5, Tr(T3.Y)=0 at prime 40123, giving sin^2(theta_W)=3/8, via rational reconstruction; consistent across 3 independent runs
+   WHERE: traces.py -> results.json ("40123" block)
+   WHY: traces.py itself does no computation directly -- it is a thin driver that reads a Python source file cw.py from an environment-variable-specified directory (HANDOFF6_RUN, "= the handoff-6 scripts run 
+#684 [B921_branch_harvest|main] rep=unknown seen=0
+   WHAT: Cell 2 Hecke validation gate FAILS (0/10 relations pass at 5%) -> ABORT of level-(4) Hecke doublet surgery
+   WHERE: harvested/frontier/B796_coupling_campaign/cell2_hecke_gate.py + cell2_hecke_gate.txt
+   WHY: Script and its printed output witness are both committed and self-consistent (I re-traced the eigen-relation logic against the printed numbers), but the script imports hejhal_m004.py from frontier/B79
+#685 [B921_branch_harvest|main] rep=no seen=0
+   WHAT: sm_comparison_certified.txt: CLEAN NULLS -- no SM observable (sin^2 theta_W, sin^2 theta_12/23, delta_CP, m_s/m_d, m_c/m_b) is reachable from the 17-eigenvalue certified spectrum at 8-digit precision under a base-rate/surrogate co
+   WHERE: harvested/frontier/B792_maass_m004_eigenvalues/sm_comparison_certified.txt
+   WHY: This is a printed witness (stdout capture) of a run; the generating script itself is not among the harvested/listed files for this arc, so a stranger cannot re-run it from what B921 committed alone (t
+#686 [B921_branch_harvest|main] rep=unknown seen=0
+   WHAT: Mode-count certification / sector-projection / scattering-corrected Weyl completeness check generator scripts
+   WHERE: harvested/frontier/B792_maass_m004_eigenvalues/{certify_mode_count.py, sector_projection_test.py, weyl_scattering_check.
+   WHY: Scripts are complete and committed, but each reads eigenvalues_final.json / scanD_refined.json / hejhal_m004.py / eigenvalues_final.py, none of which are part of this harvest (per HARVEST_MANIFEST §1 
+#690 [B923_exactification|main] rep=unknown seen=0
+   WHAT: Numeric identification of exact atoms to B912's atom labels; belt-anchor reproduction to 7.3e-88 floor
+   WHERE: FINDINGS.md 'Tier statement'
+   WHY: Explicitly flagged by the arc itself as 'Numeric tier (identification only)' -- dps 80 residuals against B912's banked 35-digit eigenvalues, which are external banked inputs from other arcs (B912/B918
+#696 [B941_branch_symmetric|main] rep=no seen=0
+   WHAT: N(V)/N(W) = 2^32*3^11/5^12, with numerator = 27*2304^4
+   WHERE: results.json headline block
+   WHY: results.json presents the final symmetric-function table and headline as flat data with no accompanying committed script; the directory contains only FINDINGS.md, arc_verdict.json and results.json -- 
+#702 [B949_ignorance_map|main] rep=unknown seen=0
+   WHAT: corpus status counts (banked 573/dead 218/open 55/dormant 19) and per-obstacle resolution-rate table
+   WHERE: results.json
+   WHY: figures are stated as output of scripts/atlas/query.py's gaps() and a manual full-table extension of it (the built-in only prints six); no script specific to this arc is committed in the file set (onl
+#715 [B957_l124_torsor|main] rep=unknown seen=1
+   WHAT: (-3|5) = -1 (5 inert in Q(sqrt-3)); (5|3) = -1 (3 inert in Q(sqrt5))
+   WHERE: FINDINGS.md 'the fields are not just different' section; results.json
+   WHY: Legendre symbol values are stated as 'computed here' but no script or witness file for the computation is committed in the arc directory (only FINDINGS.md/verdict/results.json narrative); the arithmet
+#718 [B959_nontoral_rank4|main] rep=unknown seen=1
+   WHAT: all 63 inner sign-gradings of E6's root system fix the full Cartan (rank 6 always)
+   WHERE: FINDINGS.md sec.2; results.json cell2_inner_involutions
+   WHY: stated as 'all 63 sign-gradings were built' with no script committed in this arc's own directory; not obviously reusing B961's frame.py (which postdates it in the same day's sequence).
+#719 [B959_nontoral_rank4|main] rep=unknown seen=1
+   WHAT: E6 diagram automorphism tau=(5,1,4,3,2,0), order 2, swapping node pairs (0,5) and (2,4), computed from the Cartan matrix
+   WHERE: FINDINGS.md sec.3; results.json cell3_outer_route
+   WHY: described as computed from the Cartan matrix but no script ships in this arc's directory to reproduce it.
+#720 [B959_nontoral_rank4|main] rep=unknown seen=1
+   WHAT: max elementary-abelian 2-rank/3-rank of A4, D5, S5: A4(2,1), D5(1,0), S5(2,1)
+   WHERE: FINDINGS.md sec.4; results.json cell4_hatch_ranks
+   WHY: no committed script in the arc directory; described as 'measured here'.
+#722 [B960_l136_adjoint|main] rep=unknown seen=1
+   WHAT: det(Cartan matrix of E6) = 3
+   WHERE: FINDINGS.md 'the answer' table; results.json
+   WHY: stated as computed, no script in this arc's directory; standard fact easily checkable but no committed witness here.
+#723 [B960_l136_adjoint|main] rep=unknown seen=1
+   WHAT: omega_1 (27's h.w.) not in the E6 root lattice; omega_2, omega_4 are
+   WHERE: FINDINGS.md 'the answer' table; results.json fundamental_weights_in_root_lattice
+   WHY: the lattice-membership computation is described as run here but no script ships in the arc directory.
+#724 [B962_vev_scout|main] rep=unknown seen=1
+   WHAT: 27 -> 10+5+5bar+5bar+1+1 under SU(5), no 24 present
+   WHERE: FINDINGS.md sec.2; prior_art_vev.json
+   WHY: described as 're-derived in-sandbox by the panel', no script committed in the arc directory; branching rule is standard and easily checkable by hand but no committed witness ships.
+#726 [B963_tau_double_duty|main] rep=unknown seen=0
+   WHAT: E6 diagram automorphism tau=(5,1,4,3,2,0), order 2, node swaps (0,5) and (2,4)
+   WHERE: FINDINGS.md sec.1; results.json computed_here
+   WHY: described as computed but no script committed in this arc directory (same object as B959/B960's tau, likely the same underlying computation, not re-shown here).
+#727 [B963_tau_double_duty|main] rep=unknown seen=0
+   WHAT: all 63 inner sign-gradings of E6's root system fix the full Cartan
+   WHERE: FINDINGS.md sec.1; results.json inner_sign_gradings_tested
+   WHY: same number/claim as B959 sec.2; no script in this arc's own directory; consistent with a shared upstream computation but not independently re-verified here.
+#730 [B965_lawmap_scope_audit|main] rep=unknown seen=0
+   WHAT: 165 LAW_MAP rows audited, 5 flagged, 3 fixed, 0 pre-existing rows flagged
+   WHERE: FINDINGS.md sec.2; results.json
+   WHY: described as a 'mechanical' keyword scan over docs/LAW_MAP.md against each cited arc's verdict, but no script for this scan is committed in this arc's own directory -- it is described in prose (the ma
+#731 [B967_retraction_sweep|main] rep=unknown seen=1
+   WHAT: 11 violations found across 2,210 tracked .md files on first run, including B962's uncorrected title/body assertions of retracted B964 claims
+   WHERE: B967_retraction_sweep/FINDINGS.md sec 2; scripts/checks/retraction_sweep.py (not in this packet)
+   WHY: The sweep script itself is not included in this packet's files (only FINDINGS.md and arc_verdict.json were sampled), so the actual invocation/output was not independently re-run or witnessed here; the
+#739 [B973_L135_frame|main] rep=no seen=0
+   WHAT: frame Gram diagonal, signature (2,2), norms +241532928/-317708697600/988843239014400/13/-889958915112960000/19; core dim 30; floor dim 12; derived(floor) dim 8, centre 0
+   WHERE: rebuild.py stage A (exact Q); probe1_frame_and_floor.py
+   WHY: the committed rebuild.py, weightlines.py, weightfield.py, presence7.py and all six probeN_*.py files (8 of 8 executable scripts in this directory) reference `_REPO` on the sys.path.insert line BEFORE 
+#740 [B973_L135_frame|main] rep=no seen=0
+   WHAT: kappa = 2771822592000s^3+3033676800s^2-56402640s-6859, irreducible, const=-19^3, disc squarefree kernel {7,11}; M12 dim 12 at two fresh primes (41131, 41201); mu-walls derived from M12 agreeing with cited mu roots
+   WHERE: rebuild.py stage B/C; probe2_kappa_and_m12.py, probe6_mu_from_build.py
+   WHY: same NameError bug applies to probe2 and probe6 as executed directly; the claimed mod-p certificate numbers are not currently regenerable from the committed scripts.
+#749 [B978_phaseA_bank|main] rep=no seen=0
+   WHAT: omega_1 in the root basis = (4/3,1,5/3,2,4/3,2/3); 1*omega_1 and 2*omega_1 not in the root lattice Q, 3*omega_1 is in Q, hence class(27) has order 3 in the centre, hence 2*class(27)!=0, hence the 78 does not occur in 27⊗27, hence 
+   WHERE: FINDINGS.md §2 ("re-derived here by lattice membership rather than accepting it")
+   WHY: the arc states this was re-derived on this bench ("re-derived here by lattice membership") but no script or output file is present in this arc's directory (only FINDINGS.md, arc_verdict.json, results.
+#751 [B979_L131_A7|main] rep=unknown seen=0
+   WHAT: LR/RL SL(2,Z)-conjugate via P=[[0,1],[1,0]]; three sector Mobius fixed-point polynomials distinct; golden roots phi, -1/phi
+   WHERE: results.json verified_here block
+   WHY: results.json states booleans (LR_RL_conjugate_by_P: true etc.) but no script/code file is included in this arc's file set to reproduce the computation; only the assertions are committed.
+#754 [B985_cc3_relational_integration|main] rep=unknown seen=0
+   WHAT: torsion table: m004 H1=Z torsion 1; m003/m206 torsion 5; m136 torsion 4; m129 excluded (2 cusps); m135 torsion 8, all via snappy 3.3.2 homology read directly
+   WHERE: FINDINGS.md torsion table
+   WHY: described as computed 'on this bench' with a named tool version (SnapPy 3.3.2) but no script file is included among this arc's committed files -- FINDINGS.md and arc_verdict.json only, no results.json
+#755 [B985_cc3_relational_integration|main] rep=no seen=0
+   WHAT: base-rate 63.2%/48.5% on a 30,000-manifold volume-ordered sample of trivial torsion
+   WHERE: FINDINGS.md
+   WHY: no script committed in this arc's directory to reproduce the 30,000-manifold census sweep; numbers are stated as reproduced but the reproducing code is absent from the packet.
+#757 [B992_X12_u1_triple|main] rep=unknown seen=1
+   WHAT: dim Levi=14, dim derived su(3)+su(2)=11, dim centralizer z_e6(su(3)+su(2))=9, levi_centre_dim (from selftest)=3
+   WHERE: results.json
+   WHY: results.json states these dimension counts as computed 'on the B961 frame' but no script (.py) is committed in this arc's own directory to reproduce the Lie-algebra computation; it references an inter
+#758 [B993_cornerstone_verified|main] rep=no seen=0
+   WHAT: 48 raw surjective homomorphisms pi_1(m004)->2T / |Aut(2T)|=24 = exactly 2, matching B266
+   WHERE: FINDINGS.md
+   WHY: described as computed via 'brute-force enumeration over generator images with relator checks and a subgroup-generation test' but no script file is among this arc's two committed files (FINDINGS.md, ar
+#759 [B993_cornerstone_verified|main] rep=no seen=0
+   WHAT: base rate 37.2%/32.8% over first 400 one-cusped census manifolds by volume
+   WHERE: FINDINGS.md
+   WHY: same as above -- no script or results.json committed in this directory to reproduce the census sweep.
+#760 [B996_grammar_control|main] rep=unknown seen=0
+   WHAT: |SL(2,Z/N)| for N=2..9: 6,24,48,120,144,336,384,648; metallic shadow mod 3 for m=1..7: order 24 for m not div by 3, order 1 for m div by 3
+   WHERE: FINDINGS.md tables
+   WHY: these group-order computations are elementary and in-principle hand-checkable (|SL(2,Z/N)| has a standard formula), but no script is included among this arc's two committed files to show the specific 
+#761 [B997_golden_conductor_uniqueness|main] rep=unknown seen=0
+   WHAT: SL(2,Z/4) has order 48, 7 involutions, 0 elements of order 8 -- therefore SL(2,Z/4) is NOT isomorphic to 2O (which has 1 involution, 12 elements of order 8)
+   WHERE: ADDENDUM_2026-08-31_N4_is_an_order_coincidence.md
+   WHY: the addendum states this was 'recomputed here by direct construction' with a results file 'reports/.../embedding_check.txt' referenced but not included among this arc's own three committed files.
+#762 [B1001_four_digit_blindspot|main] rep=unknown seen=0
+   WHAT: measured frequencies at N=917: golden 0.5725, figure_eight 0.4340, trace_map 0.3991, kappa 0.2377
+   WHERE: FINDINGS.md
+   WHY: described as measured by a committed test (test_atlas.py) but that script is not among this arc's own two committed files; the specific N=917 figures are asserted here, not shown as raw script output 
+#763 [B1003_axiom_prices|main] rep=unknown seen=0
+   WHAT: Cayley-Hamilton over det=1 traces in {-2..2} gives orders 3/4/6, infinite order at tr=+-2, max|eigenvalue|=1 exactly => pseudo-Anosov count 0 for entire family
+   WHERE: FINDINGS.md
+   WHY: described as computed symbolically 'whole' but no script file is among this arc's committed files (ADDENDUM, FINDINGS.md, arc_verdict.json only) -- reproducibility depends on B749's own compute.py, ci
+#764 [B1003_axiom_prices|main] rep=unknown seen=0
+   WHAT: Gieseking (m000) volume 1.0149416064, m004 volume 2.0298832128, ratio exactly 2.000000 -- so m004 is the orientation double cover of Gieseking
+   WHERE: ADDENDUM_2026-08-30_covering_direction.md
+   WHY: the addendum states this was 'run on this bench' with exact figures given, but no script accompanies it in this arc's directory; the volumes are standard SnapPy outputs, in principle independently che
+#765 [B1004_ssb_leak|main] rep=unknown seen=0
+   WHAT: band measurement: B500-B799 has 260 verdicted arcs (164 PROVED, 86 NEGATIVE, 6 OPEN, 4 RETRACTED); 234 cited somewhere, 26 cited nowhere
+   WHERE: FINDINGS.md
+   WHY: described as a sweep/measurement of the B500-B799 band but no script is included among this arc's two committed files.
+#767 [B1006_lambda2_pslq|main] rep=unknown seen=0
+   WHAT: PSLQ integer-relation search on r/lambda over Q and against phi, sqrt5, sqrt3, Vol(4_1), pi at stated degree/height envelope
+   WHERE: FINDINGS.md cells A-D
+   WHY: No script file is committed in this arc's directory (only FINDINGS/PREREG/verdict, all mode FULL, no .py); the PSLQ runs are described in prose with exact envelope tables and control results but no co
+#788 [B1029_invariant_ring|main] rep=unknown seen=0
+   WHAT: reversal acts as h -> h-bar (same as conjugation) because unitary characters conjugate under inverse and SU(2) traces are real
+   WHERE: FINDINGS.md V1
+   WHY: Described as derived in b1029_cells.py ('exact sympy throughout') but this file was not traced line-by-line in this pass; the underlying group-theory fact (real SU(2) traces, character conjugation und
+#793 [B1033_generation_adjudication|main] rep=unknown seen=0
+   WHAT: V2: B299's triality orbits transported and compared to CH024 -- DISTINCT
+   WHERE: b1033_cells.py (not fully shown, truncated read)
+   WHY: File was only partially read (first ~70 lines + grep); the V2 orbit-comparison function itself was not inspected line-by-line in this pass.
+#794 [B1033_register_reconciliation|claude/new-session-qor5up] rep=unknown seen=0
+   WHAT: Debt-ledger count = 234 (after correcting a working-tree-rewind bug that had produced 251)
+   WHERE: FINDINGS.md section 5
+   WHY: The arc itself documents that the count moved three times (245->251->234) due to a substrate/tree-state bug, and states the final count was recomputed before publication -- the fact that the count is 
+#796 [B1034_l154_sigma|main] rep=unknown seen=1
+   WHAT: c((E6)_1) = 78/13 = 6 exactly (Sugawara, h-dual=12) and the split 16/5+14/5=6 as SU(3)_2 x (G2)_1
+   WHERE: FINDINGS.md V1, b1034_cells.py
+   WHY: A standard CFT central-charge formula application; arithmetically simple (78/13=6, 16/5+14/5=6) and independently checkable by hand, but the file's actual verification code was not confirmed present v
+#798 [B1035_shadow_library|claude/new-session-qor5up] rep=unknown seen=0
+   WHAT: B930's overlap.py and B935's compose.py share a byte-identical kernel
+   WHERE: verify.py (presumably a diff/hash comparison; not read in full)
+   WHY: Plausible and checkable in principle (diff the two files) but this pass did not independently confirm the byte-identical claim by diffing the actual files.
+#799 [B1036_mirror_double|main] rep=unknown seen=0
+   WHAT: h1(M; ad) = 6 exactly, matching the block-count-theorem falsifier prediction
+   WHERE: b1036_final.py / FINDINGS.md V5 (not directly visible in the truncated output.txt read)
+   WHY: Claimed as computed via an independent Fox pipeline on six banked adjoint blocks; the output.txt segment read did not show this specific line, so it was not directly witnessed in this pass though the 
+#805 [B1039_phi_fixed_and_metallic_exponent|claude/new-session-qor5up] rep=unknown seen=0
+   WHAT: phi_m([A,B]) = A^m [A,B] A^-m verified by word reduction for m=1..10
+   WHERE: FINDINGS.md section 3
+   WHY: verify.py only sampled (first 120 lines + grep), not read in full, so the free-group word-reduction implementation itself was not directly inspected
+#806 [B1039_phi_fixed_and_metallic_exponent|claude/new-session-qor5up] rep=unknown seen=0
+   WHAT: the sym_power instrument bug (anti-homomorphism due to direct coordinate substitution) found by its own control and fixed via M^T
+   WHERE: FINDINGS.md self-correction section
+   WHY: narrated in FINDINGS as a self-caught bug; the exact diff/fix was not independently verified since verify.py (26990 bytes) was only sampled, not read whole
+#810 [B1040_isomonodromy_restored|claude/new-session-qor5up] rep=unknown seen=0
+   WHAT: Schlesinger flow max invariant drift 4.25e-10 vs non-Schlesinger control 1.63e1
+   WHERE: FINDINGS.md section 3, re-run via B169's own reproducer
+   WHY: invokes B169's reproducer script rather than reimplementing; the numeric values are stated as re-measured here but the reproducer script itself lives in B169's arc, not independently re-verified in th
+#812 [B1041_the_red_locks|worktree claude_new-session-qor5up (frontier/B1041_the_red_locks)] rep=unknown seen=0
+   WHAT: 3 failed / 3891 passed / 119 skipped in 4870.92s full pytest run
+   WHERE: FINDINGS.md occasion section
+   WHY: run itself is not committed as a witness (pytest logs are *.log-shaped and gitignored); the 81-minute number is asserted in prose and results.json, not accompanied by a committed CI log.
+#816 [B1043_the_band_is_the_wrong_unit|worktree claude_new-session-qor5up (frontier/B1043_the_band_is_the_wrong_unit)] rep=unknown seen=0
+   WHAT: B232 (step form) and B1038 (band form) are the same law: symbolically verified n=3..12, band(n)-band(n-1)=Sym^n(V)+Sym^{n-3}(V) via the functorial hinge
+   WHERE: FINDINGS.md section 4
+   WHY: described as 'verified symbolically for n=3..12' but the actual verifying script is not among the files read in this packet (only verify.py's 8 checks, not separately confirmed here).
+#818 [B1045_middle_band_mapped|worktree claude_new-session-qor5up (frontier/B1045_middle_band_mapped)] rep=unknown seen=0
+   WHAT: B485's Alexander polynomial IS B1040's metallic degree in another vocabulary (delta_m(a) verified symbolically identical, root = lambda_m^2)
+   WHERE: FINDINGS.md section 1
+   WHY: described as 'verified identical symbolically' but the verifying code was not read in this pass.
+#819 [B1045_middle_band_mapped|worktree claude_new-session-qor5up (frontier/B1045_middle_band_mapped)] rep=unknown seen=0
+   WHAT: 5 of 58 (9%) keyword-clustering mis-assignments measured (B345, B316, B346, B423, B435)
+   WHERE: FINDINGS.md section 2 table
+   WHY: the table is presented as a computed error rate but its derivation script was not opened here.
+#830 [B1067_rayclass_harvest|main] rep=no seen=0
+   WHAT: 22/23 class-field-theory claims REBUILT on two independent routes (exact integer/Fraction arithmetic, sympy/mpmath, cross-checked against PARI/GP-style structural reasoning)
+   WHERE: w1_results.json (per-claim 'method'/'computed' fields)
+   WHY: the JSON explicitly states the underlying scripts were '(scratchpad) s2.py, s3.py, s4.py (plus an inline heredoc)' — these are NOT committed to the arc directory (only the JSON summary of their output
+#831 [B1068_descent_inventory|main] rep=no seen=0
+   WHAT: 31-row McKay-descent inventory, 62 lens verdicts, 12 bench-adjudicated disputes
+   WHERE: FINDINGS.md table; w2_full_results.json
+   WHY: w2_full_results.json's own text repeatedly labels the underlying computations '(scratchpad) — pure-exact python3 (integer/Fraction)'; no .py file is committed anywhere in the B1068 arc directory
+#832 [B1068_descent_inventory|main] rep=no seen=0
+   WHAT: H^1(SL(2,F_p), sl_2) = 0,1,0 at p=3,5,7 (splitting-rigidity discriminator)
+   WHERE: FINDINGS.md 'The two headline finds'; w2_full_results.json
+   WHY: described as bench-confirmed by 'an independent cocycle construction' but that construction is not a committed script
+#833 [B1069_hearing_biography|main] rep=no seen=0
+   WHAT: Whole ledger of Q(sqrt5) arithmetic facts (units, class number, ray class groups, orders, B92 correction)
+   WHERE: FINDINGS.md body; w3_results.json
+   WHY: 'executed fresh in-sandbox (python3/sympy, several rows cross-validated against PARI/GP and Sage)' but no script is committed to the arc directory — only the narrative FINDINGS.md and a results JSON
+#834 [B1069_hearing_biography|main] rep=no seen=0
+   WHAT: B92's h=2 at disc 20 is wrong; true value h=1
+   WHERE: FINDINGS.md, 'The B92 correction'
+   WHY: the correcting computation is again scratchpad-only; but it is a genuine, well-argued algebraic-identity catch (lambda_4=2+sqrt5 generating the same ring as f=2), independently plausible from the pros
+#835 [B1070_listener_derivation|main] rep=no seen=0
+   WHAT: Orbit/stabilizer computation (Aut(2Tx2I), the 12/20/30/60 orbit decomposition, u3/u6 uniqueness under Gal(Q(zeta_60)/Q))
+   WHERE: track_a_results.json; FINDINGS.md A1
+   WHY: FINDINGS.md itself states 'The verifiers' scripts lived in the session scratchpad (READ-ONLY discipline; repo untouched by agents)' — no code committed anywhere in this arc
+#836 [B1070_listener_derivation|main] rep=no seen=0
+   WHAT: B641 upgraded from a 6-sample proof-sketch to a theorem over all 2880 group elements and all complex u
+   WHERE: FINDINGS.md A2
+   WHY: same scratchpad-only pattern; also explicitly credited as building on/superseding B641's earlier, weaker 'LAW_MAP' grading of 'proof sketch'
+#837 [B1071_sealed_listener|main] rep=no seen=0
+   WHAT: C1/C2/C3 all HOLD across three independent re-implementations
+   WHERE: FINDINGS.md 'The verdicts' table; b1071_results.json
+   WHY: FINDINGS.md states 'The independent implementations lived in the session scratchpad (READ-ONLY discipline...)' — no .py committed; only b1071_results.json (the narrated agent returns) is committed
+#838 [B1072_silver_instrument|main] rep=no seen=0
+   WHAT: SU(4)_2 build (10 primaries, kappa=6, Sigma.Sigma^dagger=864*I), group order 18432, Goursat subdirect structure, 5 exceptional orbits under the transplanted rule
+   WHERE: FINDINGS.md; b1072_results.json
+   WHY: 5-agent design (build, run+cascade, two adversarial lenses) with 'own Weyl construction AND own arithmetic engine' for the verifier, but again the code itself is not committed — only the JSON of retur
+#839 [B1072_silver_instrument|main] rep=no seen=0
+   WHAT: B684's k=2 ladder value is wrong (claimed 1/delta, should be delta=1+sqrt2, which is actually B684's own k=6 value)
+   WHERE: FINDINGS.md, 'L149's cascade half'
+   WHY: quadruple-derived per the text but uncommitted; however this correction WAS properly propagated into B684's own FINDINGS.md as an inline addendum (verified: frontier/B684_loop7_close/FINDINGS.md:56-64
+#843 [B1074_residue_hunt|main] rep=unknown seen=0
+   WHAT: the four canonical Hermitian frames {I, D_c, D, D_cD} and their identification with B939/B1024 objects
+   WHERE: b1074_results.json 'inv' agent block
+   WHY: the results JSON narrates the derivation (two independent routes agreeing) in prose with claim/evidence pairs, but no standalone script is committed in the arc directory -- the computation appears to 
+#844 [B1074_residue_hunt|main] rep=unknown seen=0
+   WHAT: the frame-blind vacuum block theorem (W3 Gram matrix identical for every canonical frame) and the exhaustive parity law over all 16 X^tau structures
+   WHERE: FINDINGS.md 'What the hunt PROVED'; b1074_results.json
+   WHY: described as adversarially verified with a described mechanism (9-index support meets zero sign-flips), but the underlying computation lives in the JSON's prose narration, not a committed script
+#846 [B1075_moduli_crossing|main] rep=unknown seen=0
+   WHAT: the nine moduli 3-sigma boxes propagated from NuFIT 6.1 parameter ranges and compared to 1/2 and 1/(2phi)
+   WHERE: FINDINGS.md 'The record'; b1075_execution.json
+   WHY: FINDINGS.md points to 'the script and full box table in b1075_execution.json' -- this is a results/data file, not a standalone script; the arc directory does not contain the comparison script itself, 
+#848 [B1076_coboundary_sweep|main] rep=unknown seen=0
+   WHAT: lambda values at the four B^1 gauges (1, 864/413, 6912/3047, 2304/953) and CCC=3!*lambda holding coset-wide
+   WHERE: b1076_results.json 'pipe' block; FINDINGS.md
+   WHY: the JSON records exact rational arithmetic with cross-checked products/sums (e.g. denominator 1199265683 = 413*3047*953 verified directly by an adversarial checker) and states two agreeing independent
+#849 [B1076_coboundary_sweep|main] rep=unknown seen=0
+   WHAT: the coset-wide 77 (hierarchy discriminant squarefree part) is killed by its own vacuity control
+   WHERE: FINDINGS.md 'The seductive candidate'
+   WHY: same basis as above -- narrated with specific numeric detail (K-forcedness demonstrated on a control diagonal) but no committed script for a stranger to rerun
+#850 [B1077_intrinsic_split|main] rep=unknown seen=0
+   WHAT: associativity of the even Clifford algebra verified on ALL 128^3 = 2,097,152 even-blade triples; center computed by complete enumeration of all 128 even blades
+   WHERE: FINDINGS.md 'The theorem'; b1077_results.json
+   WHY: an exhaustive brute-force check over a stated, finite, reproducible search space (128^3 triples) described with two independently-coded constructions agreeing -- strong COMPUTED signal in the prose, b
+#851 [B1077_intrinsic_split|main] rep=unknown seen=0
+   WHAT: the L154 sigma-identification: the two central charges are equal exactly at sigma:=1, forbidden by the circularity guard as evidence
+   WHERE: l154_results.json
+   WHY: same basis -- described as re-derived from scratch with an E8 sanity anchor, but no committed script
+#853 [B1078_gauge_selection|main] rep=unknown seen=0
+   WHAT: field-theoretic facts about K (disc=6237, splitting behavior of 953, 59, 277, 7, 11) verified via PARI/GP nfinit+idealprimedec
+   WHERE: b1078_results.json 'f' block
+   WHY: explicitly re-verified in-sandbox with a named tool (PARI/GP) inside the same session -- a strong reproducibility signal in the prose, but no PARI script or its output is committed as a standalone fil
+#854 [B1078_gauge_selection|main] rep=unknown seen=0
+   WHAT: the 18-gauge control sweep and the RIGIDITY THEOREM (lambda spectrum closed at exactly four values)
+   WHERE: FINDINGS.md 'THE CONTROL SWEEP'; control_sweep_results.json
+   WHY: control_sweep_results.json is committed in FULL mode as a results file, but again appears to be a results/output artifact rather than the generating script
+#855 [B1079_wilson_menu|main] rep=unknown seen=1
+   WHAT: exhaustive enumeration of all 15,624 nonzero (Z/5)^6 coweight points reproducing the nine menu rows bit-for-bit (counts 4320/4320/2160/1728/1440/864/540/144/108)
+   WHERE: b1079_results.json 'menu' block
+   WHY: described as built from scratch from the Bourbaki Cartan matrix with four independent structural cross-checks (72 roots, highest root, Coxeter number, det=3) plus an external correctness gate (so(10)+
+#856 [B1079_wilson_menu|main] rep=unknown seen=1
+   WHAT: E6's marks (1,2,2,3,2,1) all <=3, forcing no order-5 element to reach a center-0 type
+   WHERE: FINDINGS.md 'THE MECHANISM'
+   WHY: a Kac-theoretic mechanism verified against the enumeration's own witnesses (su(6)+su(2), su(3)^3), same reproducibility caveat as above
+#858 [B1080_global_form|main] rep=unknown seen=1
+   WHAT: Gamma=Z/6 uniform kernel computation across six Weyl realizations of the cascade terminus
+   WHERE: FINDINGS.md 'The theorem'; b1080_results.json
+   WHY: described with a caught-and-fixed mid-computation bug (non-primitive u(1) generators, caught by a group-closure self-check) -- a real reproducibility signal -- but no standalone script is committed, o
+#859 [B1080_global_form|main] rep=unknown seen=1
+   WHAT: row 4's Gamma=Z/5 correction, triple-derived (kernel search + lattice-index elementary divisor 5 + hand-verified witness)
+   WHERE: FINDINGS.md header
+   WHY: same basis; the verifier caught this pre-bank, a genuine adversarial catch, but not independently reproducible from a committed script alone
+#862 [B1081_hydrogen_audit|main] rep=unknown seen=0
+   WHAT: the neutrality theorem 2(2/3)+(-1/3)+(-1)=0 as exact fractions forced by the weight lattice
+   WHERE: FINDINGS.md 'The verdict'; b1081_results.json 'a' block
+   WHY: a simple exact-arithmetic identity restated from banked charge values (B970/B864); described as re-verified in-sandbox this session, but no script is committed in the arc directory -- the identity its
+#871 [B1086_spectrum_law|main] rep=unknown seen=0
+   WHAT: the '2' is dial-specific, not generic (an inner twist absorbs to 5; a naive grading involution is not chain-map-compatible)
+   WHERE: FINDINGS.md section 2
+   WHY: the arc names this its own 'residual': an own-code rebuild of the actual dial matrices (hv8/hv16) has NOT yet been done -- the current evidence rests on the verified certificate plus B634 corroboratio
+#875 [B1090_partition_bridge|main] rep=unknown seen=0
+   WHAT: the saddle equation u^2+u+1=0 (e^z=omega) derived from AK's steepest-descent potential v2(z)
+   WHERE: FINDINGS.md section 2
+   WHY: stated as 'verified symbolically' with the saddle equation vanishing to 5e-51 at z=+-2pi i/3, but no separate script for this specific symbolic check is committed -- only tests/test_b1090_partition_br
+#881 [B1098_nonabelian_hatch|main] rep=no seen=0
+   WHAT: the 20-class enumeration (dims/ranks/types matching Bala-Carter) and the A2 class's dim=16/rank=4 centralizer
+   WHERE: b1098_sl2_strata.py; b1098_results.json (20 entries); tests/test_b1098_nonabelian_hatch.py test_saturation_and_the_two_l
+   WHY: b1098_sl2_strata.py hardcodes CERT = os.environ.get('B1098_CERT_PATH', '(scratchpad)/cloud_handoff/certificates/twisted_double.py') -- I searched the entire repo for this file (find . -iname twisted_d
+#882 [B1098_nonabelian_hatch|main] rep=no seen=0
+   WHAT: live re-verification of the A2 triple's Chevalley relations and 16-dim centralizer nullspace
+   WHERE: tests/test_b1098_nonabelian_hatch.py test_a2_triple_relations_and_centralizer_live (marked @pytest.mark.slow)
+   WHY: this test explicitly does `cert = os.environ.get('B1098_CERT_PATH'); if not cert or not os.path.exists(cert): pytest.skip(...)` -- i.e. in the committed repo state (no such env var set, no such file p
+#885 [B1100_landing_content|main] rep=no seen=1
+   WHAT: the exact joint weight table (sum=27, sl2 multiset {-2:6,0:15,2:6}) and the negation-asymmetry witness for complexity of the 27
+   WHERE: b1100_exact_table.py; b1100_exact_table.json; tests/test_b1100_landing_content.py test_exact_table_tiles_and_branches, t
+   WHY: b1100_exact_table.py hardcodes CERT='cloud_handoff/certificates/twisted_double.py' with NO env-var override or fallback (unlike b1098_sl2_strata.py which at least offers B1098_CERT_PATH); this file do
+#886 [B1100_landing_content|main] rep=no seen=1
+   WHAT: the collapse-form hypercharge pattern hit at trial 0 (float grade)
+   WHERE: b1100_hypercharge.py; b1100_hypercharge.json; tests/test_b1100_landing_content.py test_collapse_pattern_hit
+   WHY: same missing-CERT dependency as above; also explicitly labeled by the arc itself as 'float grade', with the exact solve deferred as a named residual (paid later by B1102).
+#898 [B1112_projective_hatch|main] rep=conditio seen=0
+   WHAT: 9 of 20 e6 nilpotent orbit strata have all-even 27-weight parity (projective); the SM-compatible A2 landing is projective, A1 is not
+   WHERE: parity_sweep.py PARITY SWEEP block, parity_sweep.json
+   WHY: the script depends on an environment variable B1098_CERT_PATH pointing to an outside-bench session certificate file (default path documented as a scratchpad location outside the repo, not committed) t
+#903 [B1118_deflation|main] rep=no seen=0
+   WHAT: the plain factor-swap fuses 0/18 of the hypercharge orbits; the mirror (swap+su(3)-conjugation) fuses 9<->9 both ways
+   WHERE: hyper_orbits_out.txt
+   WHY: the output text file is committed and gives a specific print trace ('solution-preserving factor swaps: [(3,2,1,0)]'), but NO .py script producing this output exists anywhere in this arc's directory, n
+#904 [B1118_deflation|main] rep=no seen=0
+   WHAT: Ohtsuki one-loop coefficient c1 ~ 0.55421647780891, matching 11*pi/(36*sqrt3)=0.5542164724 to ~8 digits
+   WHERE: ohtsuki_out.txt
+   WHY: same issue: only the stdout trace is committed (residuals + successive c1 estimates), no generating script is present in this arc or found elsewhere in the repo
+#905 [B1119_anomaly_resolved|main] rep=no seen=0
+   WHAT: corrected controls all green: tau=id gives character +6 (split E6(6)); variant A gives character 2 (E6(2)); variant B gives character 6 (E6(6) split); compact involution gives -78
+   WHERE: anomaly_resolved_out.txt
+   WHY: again only a captured stdout .txt is committed for this arc; no .py generating script exists in this arc's directory, and none was found elsewhere in the repo by this reading pass's targeted greps
+#913 [B1147_clane_harvest|frontier/B1147_clane_harvest] rep=unknown seen=0
+   WHAT: C3 large-ladder run (N=400..4000, 120 dps, 19 rungs)
+   WHERE: verification/c3_ladder.txt
+   WHY: the raw numeric ladder values are committed and match the described magnitudes, but the generating script c3_ohtsuki_large.py is not present in this arc's files (not listed, not found) so the exact co
+#924 [B1157_dynamics_null|frontier/B1157_dynamics_null] rep=unknown seen=0
+   WHAT: the Sym-power Ruelle factorization R_{rho(m)}(s) = prod R(s-j,sigma_j), reproduced to |diff|<=5e-18
+   WHERE: FINDINGS.md, 'bank-grade' bullet
+   WHY: credited to cc3 (B8142) and stated as independently re-derived two ways by this seat, but the specific script for that numeric reproduction was not among the files read in this pass
+#925 [B1158_cloud_wave2_harvest|frontier/B1158_cloud_wave2_harvest] rep=unknown seen=0
+   WHAT: Habiro zeta_3 germ coherence mechanism (coherence <=> p^r = 1 mod 3, transports uniformly)
+   WHERE: FINDINGS.md item 3 and harvest_checks.txt
+   WHY: the printed splitting-behavior table (p=5 inert f=2, p=7 split g=2, etc.) is in the committed harvest_checks.txt, but per the arc's own later addendum (R016) the universal claim ('at every level', 'tr
+#930 [B1161_frontier_sweep|main] rep=unknown seen=1
+   WHAT: Free-orbit theorem: V4=Gal(H/Q) acts freely+transitively on 4 branches, no Galois-invariant selector
+   WHERE: b1161_results.json headline_unification; FINDINGS.md
+   WHY: credited as 'own-run crown_p1p2.py + adversarially verified' but that script is not among this arc's committed files listed here
+#934 [B1163_w0_attempt|main] rep=unknown seen=1
+   WHAT: Amphichirality-based orientation theorem: m004's symmetry group D4 (order 8), amphicheiral, forces no canonical datum can orient it
+   WHERE: ADDENDUM_orientation_theorem.md
+   WHY: credited as 'own-verified, SnapPy' but the SnapPy invocation itself is not shown in this arc's committed reproduce.sh/w0_checks.txt
+#935 [B1163_w0_attempt|main] rep=no seen=1
+   WHAT: Family-wide amphichirality claims (4/14, then 14->83, then 83/83 'CHECKED')
+   WHERE: ADDENDUM_family_wide.md, ADDENDUM_family_denominator_B8147.md
+   WHY: the arc's own later addenda (dated 2026-09-01) show the instrument used (SnapPy reverse_orientation()+is_isometric_to()) is orientation-blind and returns True for every manifold including known-chiral
+#938 [B1166_charter_attack|main] rep=unknown seen=0
+   WHAT: CS(m004) = 0 exactly (Im complex volume = 1.8e-15, amphichirality)
+   WHERE: FINDINGS.md, C3 section
+   WHY: the numeric value (1.8e-15) is quoted but this arc's own verification/reproduce.sh was not inspected in detail for the exact computation; cited as 'own-verified' consistent with B1163/B1165's numeric 
+#939 [B1166_charter_attack|main] rep=unknown seen=0
+   WHAT: disc(Q(zeta12))=144=2^4*3^2, only 2,3 ramify; subfields Q(sqrt-3), Q(sqrt3), Q(sqrt-1); sqrt5 not among them
+   WHERE: FINDINGS.md C4 section
+   WHY: cited as 'own-verified' factorization but not directly inspected in this pass's file sample beyond FINDINGS.md prose
+#940 [B1167_seat_harvest|main] rep=unknown seen=0
+   WHAT: C12 Wilson character arithmetic: every MSSM operator is C12-neutral at selected characters
+   WHERE: FINDINGS.md (A) section
+   WHY: credited as 'independently re-derived' but the underlying script location was not directly inspected in this pass
+#942 [B1167_seat_harvest|main] rep=unknown seen=0
+   WHAT: cusp shape 2sqrt3*i unique among the 14-manifold family, purely imaginary (mirror-fixed)
+   WHERE: FINDINGS.md (B) section
+   WHY: later retracted for the uniqueness claim (see addendum); the orientation-blindness (purely imaginary) fact itself is untouched
+#949 [B1177_instrument_bundle|frontier/B1177_instrument_bundle] rep=partiall seen=0
+   WHAT: 21 arcs identified with no committed runner or test-lock (B1000, B1067-B1082 descent band 15/21, B954, B982, B990, B992, B994, B998)
+   WHERE: reproducer_debt.md
+   WHY: reproduce.sh only greps for the string '21 true no-runner-no-lock' inside reproducer_debt.md itself — it checks the debt list was written, not that the two-stage heuristic scan itself is re-runnable f
+#954 [B1186_family_is_112|frontier/B1186_family_is_112] rep=no — now seen=1
+   WHAT: amphichirality 112/112 (originally claimed) / stored in family_census.json's amphichirality_failures:[]
+   WHERE: family_census.json field 'amphichirality_failures'
+   WHY: the 2026-09-01 addendum in this same arc directory demonstrates the underlying is_isometric_to()+reverse_orientation() check is orientation-blind and vacuously returns True for every input; the true a
+#955 [B1187_depth_closure|frontier/B1187_depth_closure] rep=no in th seen=0
+   WHAT: B685: v5(denominator)=0 (object side, K=60) vs v5→∞ (hearing side, n≤240) kind-mismatch, 'ALL CHECKS PASS'
+   WHERE: verification/b685_deep.py
+   WHY: reproduce.sh's fast path reads a committed b685_deep.log for the 'ALL CHECKS PASS' string, but that .log file is gitignored (*.log matches .gitignore) and is not present in the working tree/git index 
+#957 [B1189_close_loop_batch1|main] rep=unknown seen=0
+   WHAT: GC-4 reach-deficit LAW: DAG edges local in charpoly-class space, Spearman(|Δabc|, L10-cone-Jaccard) = -0.612..-0.619, p<1e-16; deficit deepens to z~49-59 under degree-preserving nulls
+   WHERE: verification/gc4_reach_deficit.py, verification/gc4_two_sided_control.py, verification/adv_gc4_verify.py
+   WHY: gc4_reach_deficit.py contains real analysis functions (mm_fraction, reach_bitsets, null_A, null_B, overlap_stats) — a genuine from-scratch implementation exists, but this arc's reproduce.sh does not r
+#958 [B1190_close_loop_batch2|main] rep=unknown seen=0
+   WHAT: GC-6 (E6)_1 character theta series (1,72,270,720,...) rebuilt via independent E8->E6 projection; object-side CS identity at 60dps
+   WHERE: verification/gc6_l154_bridge.py; verification/batch2_cells.json GC-6 evidence block
+   WHY: gc6_l154_bridge.py is a committed, substantial (13.5KB) script; not independently executed in this read, but the code plus committed batch2_cells.json output are both present, so a stranger could reru
+#960 [B1191_close_loop_batch3|main] rep=unknown seen=0
+   WHAT: Meter identity re-verification: Vol(m004) = 12*Vol_orb exactly (residual 2.7e-51 at 50dps, and independently re-confirmed at 60dps residual ~5.6e-17 by the completeness lens from first principles)
+   WHERE: verification/batch3_cells.json GC-11 evidence and refutation text
+   WHY: Both the cell and its lens independently ran mpmath computations and report matching numbers in the narrative text, but no standalone script or reproduce.sh is committed to this arc's directory (only 
+#961 [B1191_close_loop_batch3|main] rep=no seen=0
+   WHAT: GC-12: B672's weight-5 doublet series (comp1, comp2) go negative at n=1 (comp1: -9, comp2: -10) when the (q;q)^9 spectator cofactor is included, killing the L154 fingerprint route
+   WHERE: verification/batch3_cells.json GC-12 evidence
+   WHY: The evidence text says 'fresh script, not importing B1190/GC-6's code; exact Fraction/int arithmetic ... script + full output saved to scratchpad' — explicitly NOT committed to the repo, only to an ep
+#969 [B1195_close_loop_batch5a|main] rep=unknown  seen=0
+   WHAT: GC-21: SEAM-A saddle equation = u^2+u+1=0, Z(b=1) closed form matches quadrature at 7.6e-8, competing phase-ansatze excluded at >=5x10^6x residual, 'the finite-phase-to-Vol map provably cannot be furnished'
+   WHERE: verification/batch5a_cells.json GC-21
+   WHY: the cell's own refutations field finds two defects: (a) the closed-form Z is never derived from stationary-phase structure inside this cell, only fit-and-confirmed against ONE quadrature, so 'provably
+#970 [B1195_close_loop_batch5a|main] rep=unknown seen=0
+   WHAT: GC-22: lambda placement DECIDED, P2 (KMS/BTZ->lambda) excluded by exact constructive computation
+   WHERE: verification/batch5a_cells.json GC-22
+   WHY: the cell's own refutations field finds (1) a load-bearing quoted number is fabricated: the cell claims phi^-4=0.145898 gives q~1.5e-9, but independent computation gives ~1.98e-19 (10 orders of magnitu
+#972 [B1196_close_loop_batch5b|main] rep=unknown  seen=0
+   WHAT: eps(A,M) selector-free: invariant under simultaneous GL2(Z)-conjugation, 8/8 conjugators, both determinant signs
+   WHERE: verification/batch5b_cells.json GC-27 evidence (fresh in-sandbox computation)
+   WHY: the evidence text describes a from-scratch rebuild for 8 conjugators with matching results, but the actual script/output file is not present in this arc's own verification/ directory per the packet's 
+#973 [B1196_close_loop_batch5b|main] rep=unknown seen=0
+   WHAT: D2 adjudicated different: B891's three foreign-16 eigenspaces spread ~5:6:5 across all three trinification blocks
+   WHERE: verification/batch5b_cells.json GC-26 (not independently re-read in full this pass)
+   WHY: not independently sampled in this pass beyond the FINDINGS.md summary
+#975 [B1199_register_reads_and_L188|main] rep=unknown  seen=0
+   WHAT: R6 (two-clock reconciliation) REFUTED: integer periods (1,5,16,45,121,320,841) generated by an algebraic unit lambda^n+lambda^-n-2 conflate an additive orbit-period count with the multiplicative Radon-Nikodym ratio group that actu
+   WHERE: verification/cells.json GC-30
+   WHY: not sampled beyond FINDINGS.md/verdict summary in this pass
+#978 [B1201_lee_verified_and_harvest|main] rep=unknown seen=0
+   WHAT: |a1|=1 at all four ideal points of 4_1, from Appendix A's own boxed data -- the tangent vector is unique, not a Z/2 or V4 choice
+   WHERE: verification/cells.json R52-3 evidence, citing Lee arXiv:2502.11950v1 Appendix A directly
+   WHY: this is a careful, cited close-read of the actual downloaded paper text (345,464 chars, with exact line numbers for each section given) rather than an abstract-only pass -- a substantial methodologica
+#980 [B1201_lee_verified_and_harvest|main] rep=unknown seen=0
+   WHAT: cloud's quine certificate re-runs clean; outcome Q1 verified here
+   WHERE: FINDINGS.md R52-2b / results.json
+   WHY: described as reproducing another seat's ('cloud') committed certificate byte-identically; the certificate itself lives outside this arc's own verification/ directory (only cells.json is committed here
+#986 [B1207_slow_lane_discharge|main] rep=unknown seen=1
+   WHAT: 9 failed/5702 passed/5 skipped first full OA_SLOW run figures
+   WHERE: b1207_results.json .run; FINDINGS §0
+   WHY: run itself is not re-runnable in 4h45m by a stranger reading this digest, but verification/reproduce.sh independently re-checks the five discharged post-conditions (paths, findings-orphans, negative-a
+#987 [B1207_slow_lane_discharge|main] rep=no seen=1
+   WHAT: PSLQ grid triple-counting halving the Sidak alpha (2.374e-4 -> 1.187e-4)
+   WHERE: b1207_results.json .side_effects_class_E[0]
+   WHY: the underlying real_grid.jsonl is gitignored (matches *.jsonl-adjacent gitignored witness pattern akin to *.log/*.out); the fix and restored 216-row grid are described but not included as a witness fi
+#988 [B1208_cross_seat_harvest|main] rep=unknown seen=1
+   WHAT: 156/156 same-volume pairs in B1197's signed CS census carry exactly opposite CS; a 541x |CS|/Vol witness
+   WHERE: verification/verify_s5.py
+   WHY: reads B1197's banked b4_global.json / b4_correct.json via OA_ROOT-relative path (external to this arc's own files); numbers are recomputed directly from those JSON files so reproducible if B1197's dat
+#989 [B1208_cross_seat_harvest|main] rep=unknown seen=1
+   WHAT: Gieseking (m000) is the orientable double cover of m004 by isometry; H1(Gieseking)=Z; the generalization to any rank-1 H^1(-;F2) manifold
+   WHERE: verification/verify_r021.py
+   WHY: uses snappy (external library) for the isometry/homology computation; script is self-contained and would run given snappy+sympy installed, but no environment/dependency lockfile is bundled in this fil
+#990 [B1210_paper_spine_sweep|main] rep=unknown seen=1
+   WHAT: 85 arcs banked in the spec's last 10 days, 11 cited; 48 law-creating arcs, 1 cited
+   WHERE: b1210_results.json .coverage
+   WHY: spine_sweep.py recomputes this from the live corpus (arc_verdict.json glob) each run, so the banked figures (85/11, 48/1) reflect the corpus state at banking time; re-running today against the now-lar
+#991 [B1213_claim_base_rebuilt|main] rep=no seen=0
+   WHAT: 919/1031 (89%) settled arcs have creates_law entirely absent; declared true 55, declared false 57; control ratio 2.29x
+   WHERE: b1213_results.json / claim_base.json (top-level, banked)
+   WHY: verification/claim_base.py recomputes this live from the current arc_verdict.json corpus; the copy actually committed in verification/claim_base.json and verification/_out.txt shows DIFFERENT numbers 
+#994 [B1216_parameter_closure_run1|main] rep=unknown seen=0
+   WHAT: C1's field-level scan (30/37 quadratic fields satisfy norm+1) and embedding-level scan (22/60 direct vs 38 torsor)
+   WHERE: workflow_result.json result.cells[0], not committed as a standalone script in this arc's own directory
+   WHY: the workflow_result.json is an archived verbatim transcript of a 9-agent run; the underlying probe scripts (e.g. /tmp/c1_probe/) are referenced in the adjudicator's own overreach note but not shown to
+#1009 [B1231_identification_discipline|main] rep=unknown seen=1
+   WHAT: identification_audit.py mechanical sweep of all 1179 arcs returns 61 candidates (3 map-language, 6 typing-language, 52 bare) and a stated blind spot: the narrowed net misses the bare-assertion form, 'exactly how C-5b's error was p
+   WHERE: FINDINGS.md 'The sweep', 'The instrument's measured limit'
+   WHY: the instrument script scripts/checks/identification_audit.py is referenced with --extract/--triage/--selftest but was not itself in this packet's file list (only FINDINGS.md, arc_verdict.json, CITATIO
+#1015 [B8068_j2t_charge_field|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: Cell 3: object reaches so(10) with chirality via 27+27bar rank-1 invariants, exhaustive 63-subset sweep, su(5) never appears
+   WHERE: CELL3_FINDINGS.md
+   WHY: described as mod-p rank computation confirmed at 3 primes; the specific script for this cell is not separately named/committed under an obvious filename in the packet (likely folded into cell17_subset
+#1016 [B8068_j2t_charge_field|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: Cell 4: 16-component of every canonical invariant is identically zero (Casimir eigenspace {1,10,16})
+   WHERE: CELL4_FINDINGS.md
+   WHY: gate table given but underlying script not directly located/read line-by-line by this reader
+#1017 [B8068_j2t_charge_field|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: Item 1: su(5) not real in any of 254 real forms (inner+outer)
+   WHERE: CELL_ITEM1_FINDINGS.md, box at top marked ARGUMENT RE-SCOPED
+   WHY: the file itself flags that this cell measured Stab(s) not the object's actual su(5) composite, and that its tau was not verified to intertwine -- conclusion later restated by B8073 (not in this packet
+#1020 [B8070_anomaly_rank_descent|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: the u(1)^3 generators do not commute with su(3)+su(2) (commutator norms 2.83, 12.73, 86.27); real span is 13 not 14
+   WHERE: FINDINGS.md 'Why it is false', point 3
+   WHY: described in FINDINGS but this reader did not locate/verify the exact lines computing these norms in the 221-line script
+#1021 [B8070_anomaly_rank_descent|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: over full 5-dim charge space the anomaly cubic factors as -2*yL*(2yL+3yd)*(4yL-3yd)/3 (three anomaly-free lines, not one)
+   WHERE: FINDINGS.md 'The one thing this cell contributes', point 2
+   WHY: stated as 'verified with sympy on this bench' but the specific sympy invocation was not located/read in the 221-line script by this reader
+#1041 [B8104_pfaff_formula|unknown (packet did not surface a source hash)] rep=no seen=0
+   WHAT: cusp defect c(m)/c(2) computed as 0.7121 (m=3), 0.5532 (m=4), 0.4523 (m=5); volume factor 0.02072, 1.179e-4, 1.842e-7
+   WHERE: results.json 'our_ingredients'
+   WHY: these numbers are presented as 'computed here' but this arc's file list has NO .py script -- only FINDINGS.md, arc_verdict.json, results.json. There is no committed code that produced these specific d
+#1042 [B8105_r48_phase1|unknown (packet did not surface a source hash)] rep=unknown seen=0
+   WHAT: docs/THEOREM_REGISTRY.md's own standing rule (every theorem/law-creating bank adds its line in the same PR) has been unenforced: 56 entries topping out at B920 against a corpus at B1099; B1012, B1076, B1080, B1085, B1088, B1094, B
+   WHERE: FINDINGS.md lines 55-68; docs/THEOREM_REGISTRY.md (cited, not quoted in full)
+   WHY: checking presence/absence of specific arc IDs in a markdown registry is a simple, in-principle-reproducible grep, but no script is committed in this arc directory -- it's presented as a manual check a
+#1043 [B8105_r48_phase1|unknown (packet did not surface a source hash)] rep=unknown seen=0
+   WHAT: of 126 synthesis surfaces, 57 lag below B1000; 21 dated snapshots (legitimately frozen) vs 36 undated live-surface candidates
+   WHERE: FINDINGS.md lines 38-49; live_surfaces.json
+   WHY: live_surfaces.json presumably lists the 36 candidates (not independently opened line-by-line here), but no script producing the 126/57/21/36 counts is committed in this directory.
+#1045 [B8106_r48_phase2|unknown (packet did not surface a source hash)] rep=unknown seen=0
+   WHAT: docs/UNIFIED_STATE.md at lag 192 contains none of B1080, B1094, B1098, B1100
+   WHERE: FINDINGS.md lines 140-142
+   WHY: simple text-presence check, no script committed.
+#1046 [B8107_r48_verify|unknown (packet did not surface a source hash)] rep=unknown seen=0
+   WHAT: R48-F1 backfill verified real (B1012, B1080, B1094, B1098, B1100 present in THEOREM_REGISTRY.md) and gate_theorem_registry correctly scoped to creates_law:True only
+   WHERE: FINDINGS.md lines 180-190
+   WHY: text-presence checks against origin/main, no committed script.
+#1047 [B8107_r48_verify|unknown (packet did not surface a source hash)] rep=unknown seen=0
+   WHAT: the submitted paper tarball (oa-structure-paper.tar.gz) main.tex line 1549 no longer carries the dash defect; tarball MD5 0b4305200e07f12b5fe734e9ca96800b matches working copy
+   WHERE: relays/CC3_TO_CC_2026-08-21_P1_DEFECT2_IS_NOT_LIVE_VERIFIED_IN_THE_TARBALL.md
+   WHY: MD5 checked directly against the actual submitted artifact -- a genuinely strong verification method, but the tarball itself is not part of this arc's committed file list per the packet.
+#1048 [B8108_r48_phase3|unknown (packet did not surface a source hash)] rep=unknown seen=0
+   WHAT: of 36 undated live surfaces, 13 carry a supersession/archival banner (correctly handled, not defects), 23 do not, of which 21 are genuinely untriaged
+   WHERE: FINDINGS.md lines 34-43; triage.json
+   WHY: a header-regex 'discriminator' was built and run, but the script itself is not listed among this arc's files (only triage.json, a result); the arc explicitly flags its own discriminator as having fals
+#1049 [B8109_r48_close|unknown (packet did not surface a source hash)] rep=no seen=0
+   WHAT: lag-scan hit rate ~6% (2 real findings from 36 candidates); banner discriminator had 7/13 false positives on a second pass; an 'overturned-claim' scan with a positive control returned exactly one hit (F2 itself) across 30 no-banne
+   WHERE: FINDINGS.md lines 108-136
+   WHY: no script committed in this arc's directory (only FINDINGS.md, arc_verdict.json, results.json); the described scans (first with a broken regex that could not cross markdown hard-wraps, returning a fal
+#1058 [B8120_scrutiny_triage|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: the scrutiny's own check_entrance.py control (2T = 'exactly one involution') was reproduced and run in-sandbox before adoption
+   WHERE: FINDINGS.md verdict text as reconstructed
+   WHY: The FINDINGS.md itself is a RECONSTRUCTION (see red flag below); no script file for this arc is present in the packet's file list (only FINDINGS.md, arc_verdict.json, results.json, one relay), so the 
+#1059 [B8121_m4_closed|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: block-sequence comparison (R^m L^m)^j vs (RL)^k / (RRLL)^k / (RRL)^k over j,k<=8, m<=12: m=1 matches RL, m=2 matches RRLL, m=3..12 match nothing, with RLRL matching (RL)^2 as a bite control
+   WHERE: results.json bite_control / repairs_made; FINDINGS.md 'why_the_conclusion_survives' (reconstructed)
+   WHY: The described exhaustive check (verify/check_arithmetic_tail.py) is stated to have been added to the paper's own verify/ directory, not to this arc's frontier directory -- no script file is present am
+#1060 [B8122_constructive_items|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: E1: for A in GL(2,Z), det=-1, trace=m: det(A^2-I) = -m^2 exactly, checked symbolically and on explicit matrices [[m,1],[1,0]] for m=1..9
+   WHERE: results.json 'adopted'[0]
+   WHY: Described as checked 'symbolically and on explicit matrices', but no script file is present among this arc's committed files (only FINDINGS.md [reconstructed], arc_verdict.json, results.json, one rela
+#1061 [B8122_constructive_items|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: E2 class-count table: primitive counts 1,1,1,1,1,2,1,1,2,2,1 for m=1..11 at discriminant m^2+4, agreeing with the source; m=12 disagrees and is flagged as not load-bearing
+   WHERE: results.json / FINDINGS.md 'E2' discussion (reconstructed)
+   WHY: Same as above: the class-number computation is reported with numeric detail but no script is present in this arc's directory in the packet.
+#1064 [B8124_phi_law_sharpened|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: axis triple for RRLL is -phi times RL componentwise to 2e-50, 13-point theta sweep max residual 1.2e-50
+   WHERE: results.json componentwise_deviation_from_-phi, theta_sweep_13_points_max_residual
+   WHY: claimed as an independent rebuild of B1128's 'own standalone script', but no script is committed in this arc's directory (only FINDINGS/verdict/results/relay); the script this seat rebuilt from is a d
+#1065 [B8125_abscissa_not_the_cusp|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: on m003(-3,1) (Weeks manifold, closed, cusp-free, vol=0.9427073627769285), S(2) grows with steps +0.049969,+0.087368,+0.078697,+0.049255 over L=2.5..4.5, no decay
+   WHERE: results.json the_decisive_control
+   WHY: a specific numeric control is quoted to 6 decimal places but no script is included among this arc's committed files; the computation method (partial sums of length spectrum) is described in prose only
+#1066 [B8125_abscissa_not_the_cusp|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: a log-fit intercept d=0.102679 near vol/(2pi^2)=0.102835 (0.15% match) was a look-elsewhere artifact: d swings from 0.197 to -0.030 across c's own ~20% uncertainty
+   WHERE: results.json the_seductive_near_miss
+   WHY: same reproducibility gap as above — numbers given, no script committed here
+#1067 [B8126_tone_axis_split|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: four Pauli components (tone,wx,wy,wz) for RL and RRLL to 15 digits, e.g. tone(RL)=0.309016994374947=1/(2phi), wy(RL)=-0.809016994374947=phi/2
+   WHERE: results.json table
+   WHY: quoted to 15 significant digits from an unnamed pauli_decompose routine; no script committed in this arc directory
+#1068 [B8126_tone_axis_split|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: {tone,wy} land exactly on B8111's five-tone 2I menu, {wx,wz} do not, while the law's own structure splits {tone,wx,wz} (scale by -phi) vs wy (does not)
+   WHERE: FINDINGS.md the_new_finding / why_it_matters
+   WHY: depends on B8111's menu (external arc) plus the numeric table above; consistency is checkable given both, but neither underlying computation is bundled here
+#1070 [B8129_n2_no_breakdown|paper/structure-genesis-first] rep=no seen=0
+   WHAT: |R(s,sigma_2)| smooth/monotone through s=2 (1.1075 at 2.6 to 1.1936 at 2.0), cutoff spread 1.03e-4 to 1.71e-3 above abscissa vs 1.6x-21.8x growth below it (bite control)
+   WHERE: results.json (per FINDINGS.md quoting it) finding, bite_control
+   WHY: B8137 (a later arc in this same batch) explicitly states 'B8129 and B8130 are banked as results.json with NO code in the tree' and had to write an independent reproducer from the method description al
+#1071 [B8130_item5_ruelle_Lchi|paper/structure-genesis-first] rep=no seen=0
+   WHAT: unitarity phi(s)phi(2-s)=1.0 exactly at s=1.5,1.8,2.5, with Hurwitz continuation matching the naive series where both are valid
+   WHERE: FINDINGS.md verdict
+   WHY: same status as B8129: this arc explicitly says B8130 is 'banked as results.json with NO code in the tree' per B8137's cross-check finding
+#1073 [B8132_spin_count_not_separating|paper/structure-genesis-first] rep=no seen=0
+   WHAT: H^1(M;Z/2)=Hom(H_1,Z/2) computed across B8128's 14-manifold family: m004, m003 (Z/5+Z), m206 (Z/5+Z), m207 (Z/3+Z/3+Z) all give 2
+   WHERE: FINDINGS.md finding/computation
+   WHY: stated as an application of B8128's instrument (wins.py) but no updated script or output file for this specific H^1 computation is committed in this arc's directory
+#1083 [B8147_paperIV_refuted|paper/structure-genesis-first] rep=unknown seen=1
+   WHAT: census scan of 212,641 orientable cusped manifolds finds 77 with all tetrahedra regular ideal (shape field Q(sqrt-3)), giving a family of >=83 combined with the original 14
+   WHERE: results.json:the_root_defect
+   WHY: a census scan of this size implies a SnapPy/manifold-census computation; no script file is listed among this arc's committed files in the packet (only arc_verdict.json, results.json, relays/), so the 
+#1084 [B8147_paperIV_refuted|paper/structure-genesis-first] rep=unknown seen=1
+   WHAT: o10_150700: single-cusped, 10 regular ideal tetrahedra, volume exactly 5x m004, H1=Z, refuting the H1=Z separator claim
+   WHERE: results.json:refutations.H1_is_Z
+   WHY: same as above -- no script present in this arc's file set to rerun the census/property lookup.
+#1085 [B8148_m12_settled|paper/structure-genesis-first] rep=unknown seen=1
+   WHAT: reduction algorithm reproduces the full banked m=1..11 GL(2,Z)-class table exactly as a control before being applied at m=12
+   WHERE: results.json:result.control
+   WHY: described as 'reduction re-implemented from scratch and validated against Theorem thm:classes' full m=1..11 table' but no script file is among this arc's delivered files (only arc_verdict.json, result
+#1086 [B8148_m12_settled|paper/structure-genesis-first] rep=unknown seen=1
+   WHAT: m=12 (disc=148) has exactly 3 classes under both SL(2,Z) and GL(2,Z)
+   WHERE: results.json:result
+   WHY: same reproducibility gap as above.
+#1087 [B8148_m12_settled|paper/structure-genesis-first] rep=unknown seen=1
+   WHAT: the off-by-one mechanism (b<floor(sqrt(D)) vs b<sqrt(D)) that would produce a wrong count of 2 at D=148, discovered because the author's own first re-implementation made exactly this mistake (also giving 0 classes at m=11,13)
+   WHERE: results.json:the_likely_source_of_2
+   WHY: same gap; also explicitly hedged as 'the likely explanation', not proven to be what any external count actually did.
+#1091 [B8152_family_definition|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: criterion A (all-regular-ideal) count = 77; criterion B (shape field in Q(sqrt-3)) count = 111, later corrected to 112
+   WHERE: arc_verdict.json:claim_one_line; relays/...112_AND_MY_CONTROL_WAS_ONE_SIDED.md
+   WHY: reproducer is 'census scan under BOTH criteria with the original 14 as a control that criterion B must contain'; no script file is present among this arc's delivered files (only arc_verdict.json, resu
+#1092 [B8152_family_definition|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: the count-off-by-one bug: the arc's own verifier-defect (missing one member, 111 vs 112) traced to a one-sided control
+   WHERE: relays/...112_AND_MY_CONTROL_WAS_ONE_SIDED.md (title)
+   WHY: same reproducer gap as above.
+#1093 [B8153_b500_accounting|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: accounting of 150 words: 115 completed + 26 timed out + 9 never reached = 150
+   WHERE: results.json:the_accounting
+   WHY: described as a 'word-by-word accounting of hunt_results_d5.txt against the 150 all-three-verb depth-5 words'; hunt_results_d5.txt is a log-style artifact whose committed status is not confirmed from t
+#1094 [B8153_b500_accounting|paper/structure-genesis-first] rep=unknown seen=0
+   WHAT: the obstruction method is vacuous: it excludes none of 5 deliberately-absent test targets (up to degree 29) from a degree-4 slot
+   WHERE: results.json:my_failed_method.the_bite_control
+   WHY: same gap -- no script present in this arc's own directory.
+#1098 [_frontier_root_files|main] rep=no seen=0
+   WHAT: colored-Jones minimal recursion order 2 matching the figure-eight A-polynomial's L-degree, with annihilation residuals ~1e-16
+   WHERE: frontier/aj_conjecture_check.json
+   WHY: The JSON contains real numeric witness data (colored Jones polynomials J_1..J_5, nullspace gaps, residuals ~1e-16/1e-17) but the generating script is not present anywhere in this arc's file list, so a
+#1099 [_frontier_root_files|main] rep=no seen=0
+   WHAT: independent re-verification of B488 (m=1..8 manifold census data), B462 (double of figure-eight is non-hyperbolic/toroidal), B174 (gluing landscape fork sizes), B143 (composite JSJ decomposition + A-polynomial factors)
+   WHERE: frontier/VERIFICATION_2026-07-08_double_dgg.md
+   WHY: Describes fresh SnapPy/Regina rebuilds ("independent recomputation") with concrete outputs (tets=2m, H1=(Z/m)^2+Z, apoly_m1=t^4-5t^2+2, etc.) but the actual scripts (gluing_landscape.py, probe.py, phi
+#1101 [overnight_2026-06-03|main] rep=no seen=0
+   WHAT: Job 1: charpoly(J)/charpoly(J^-1) time-reversal symmetry PASSES for SL(3) (dim 8) and SL(4) (dim 15) trace-map Jacobians under the rule 'even-k fixed, odd-k char(+M^k)<->char(-M^k)'
+   WHERE: frontier/overnight_2026-06-03/run_job1.py + time_reversal.json
+   WHY: run_job1.py is committed and does real sympy symbolic computation, but it imports b64_probe/b65_probe from frontier/B64_parity_mechanism/probe.py and frontier/B65_sl4_symbolic_jacobian/probe.py, which
+#1102 [overnight_2026-06-03|main] rep=no seen=0
+   WHAT: Job 2: SL(3) figure-eight A-poly GO/NO-GO probe -- nullity of DT-I at the principal Sym^2 fixed point, testing whether nullity==2 (=n-1) stably
+   WHERE: frontern/overnight_2026-06-03/run_job2.py + sl3_apoly_go_nogo.json
+   WHY: Genuine numeric witness: 4 runs gave nullities {3,3,5,4} (not stable, ill-conditioned eig-1 condition numbers up to 6.5e6), correctly yielding verdict UNSTABLE, not GO -- an honest negative result. De
+#1103 [overnight_2026-06-03|main] rep=no seen=0
+   WHAT: Job 3: m=2 (silver) cross-m A-polynomial candidate fit vs SnapPy m136 sample -- verdict INCONCLUSIVE (best framing residual 0.0065, above the 1e-3 MATCH threshold)
+   WHERE: frontier/overnight_2026-06-03/run_job3.py + cross_m_silver.json
+   WHY: Uses snappy.twister directly (no external frontier import), so this one IS mostly self-contained and reproducible given snappy installed; verdict is honestly INCONCLUSIVE, not oversold as a match.
+#1104 [overnight_2026-06-03|main] rep=no seen=0
+   WHAT: Job 4: SL(7) partial fixed-line spectrum (dim 48) -- resolved_fraction 34/48, |k|=1,2,3 multiplicities flagged INCONCLUSIVE (big/small root counts mismatch, e.g. char(M^1) big_count=3 vs small_count=2)
+   WHERE: frontier/overnight_2026-06-03/run_job4.py + sl7_partial.json
+   WHY: Numeric witness present and honestly labeled INCONCLUSIVE for all three |k| bins tested (none of char(M^1), char(M^2)/char(-M^2), char(M^3)/char(-M^3) achieved big==small trustworthy match except two 

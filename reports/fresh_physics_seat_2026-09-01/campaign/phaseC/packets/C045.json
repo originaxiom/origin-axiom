@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B456_ethogram_e4_catalog",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B456_ethogram_e4_catalog",
+  "claims": [
+   {
+    "i": 258,
+    "what": "Kashaev invariant small-integer values {1,5,13,27,89} at N in {1,2,3,4,6}, corrected in-session from an earlier (wrong) '5-divisibility law' framing",
+    "where": "kashaev_signatures.json",
+    "why": "the json file states the values and the correction note but the generating script for these Kashaev-invariant numbers is not present in this arc's file list, so I could not directly verify how kashaev_4_1 values were computed",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B460_relation_r1_child",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B460_relation_r1_child",
+  "claims": [
+   {
+    "i": 261,
+    "what": "length spectrum table for 4_1(5,1), 4_1(7,1), Weeks manifold, m007(3,1)",
+    "where": "length_spectrum.py",
+    "why": "length_spectrum.py was read in full and is self-contained (SnapPy length_spectrum call), but its own log/output file was not part of the file list and was not independently run in this audit; the FINDINGS table numbers were not directly cross-checked against a captured log",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B515_golden_3d",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B515_golden_3d",
+  "claims": [
+   {
+    "i": 299,
+    "what": "beta=phi(1+sqrt(phi)) is the unique golden-field quartic-Pisot inflation number across a {0,1,2}^8 scan of 46 couplings",
+    "where": "frontier/B515_golden_3d/FINDINGS.md",
+    "why": "the arc directory holds only FINDINGS.md and verdict.json \u2014 no scan script, no output of the 46-coupling enumeration is committed here; the uniqueness claim (46/46 give the same beta) cannot be checked from these files. (B517, a later arc in this batch, has the exhaustive-box version of this scan checked in code.)",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B516_golden_3d_ladder",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B516_golden_3d_ladder",
+  "claims": [
+   {
+    "i": 300,
+    "what": "golden-field Pisot inflation exists at dim 1 (phi), dim 3 (beta, B515), and dim 5 (found in a {0,1,2} coupling scan of three Fibonacci copies)",
+    "where": "frontier/B516_golden_3d_ladder/FINDINGS.md Finding 1",
+    "why": "no script in this 2-file arc directory; the dim-5 claim is later referenced in a 2026-07-21 log entry as one of 30 items \"KILLED\" in a negatives hunt (\"B516's previously-asserted dim-5 Pisot counterexample\"), which this seat could not locate or read in this batch to confirm what was actually killed.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 301,
+    "what": "among the metallic family, only golden phi gives a Pisot number under x->x(1+sqrt x); silver/bronze/m=4 all fail (exact conjugate mechanism x(sqrt(x)-1)<1 only for golden)",
+    "where": "frontier/B516_golden_3d_ladder/FINDINGS.md Finding 2",
+    "why": "no committed script; the four-row comparison table (golden/silver/bronze/m=4) is asserted numerically without a reproducer.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B625_reciprocity_3k",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B625_reciprocity_3k",
+  "claims": [
+   {
+    "i": 391,
+    "what": "the corrected reciprocity criterion (3|kappa, not parity), claimed '48/48 exact at 3|kappa (kappa=3..21, worst deviation 1.8e-9), 0/96 elsewhere'",
+    "where": "frontier/B625_reciprocity_3k/step4_diagnosis.py (no output.txt)",
+    "why": "single script, no committed output.txt; the specific match counts (48/48, 0/96) and worst-deviation figure cannot be checked without re-running step4_diagnosis.py",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

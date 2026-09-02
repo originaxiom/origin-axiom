@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B92_metallic_classification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B92_metallic_classification",
+  "claims": [
+   {
+    "i": 41,
+    "what": "companion M_m is the UNIQUE GL(2,Z) class for m<=5 and m=7,8; first non-uniqueness at m=6 (h=2)",
+    "where": "FINDINGS.md ADDENDUM 2026-08-18 class-number table",
+    "why": "the addendum's corrected class-number table used external tools (Sage BinaryQF, PARI cross-validation) whose scripts are not among the files read in this arc",
+    "reproducible_from_committed": "unknown (addendum computation via Sage/PARI not in this packet's files)"
+   }
+  ]
+ },
+ {
+  "arc": "B94_tower_universality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B94_tower_universality",
+  "claims": [
+   {
+    "i": 42,
+    "what": "char(J^2) factors exactly over catalog char(N^k), N=M_1^2, at SL(3) and SL(4); no sign sectors, no (t+1)",
+    "where": "probe.py universality(), reusing _sl3_jacobian_m1/_sl4_jacobian_m1 imported from B54/B65 probe modules",
+    "why": "exact symbolic factorization at m=1 only; cross-arc dependency on B54/B65's symbolic_jacobian() functions not verified in this batch",
+    "reproducible_from_committed": "yes (depends on B54/B65 files existing, not in this packet)"
+   }
+  ]
+ },
+ {
+  "arc": "B101_hitchin_reframing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B101_hitchin_reframing",
+  "claims": [
+   {
+    "i": 47,
+    "what": "Lorentzian rung occurs only at k=2 in the symmetric-space ladder; no tower of spacetimes",
+    "where": "FINDINGS.md R2 'ladder_signatures'",
+    "why": "SAMPLE_CODE mode used per packet instructions; the load-bearing ladder_signatures()/lorentzian_rungs() function bodies were not read in full",
+    "reproducible_from_committed": "yes (per FINDINGS description; not independently verified from full probe.py in this sampled read)"
+   },
+   {
+    "i": 48,
+    "what": "H^1 splits 3+5 (Teichmuller + cubic); explicit Anosov deformation leaves V0 and breaks SO(2,1) form",
+    "where": "FINDINGS.md R4, probe.py tangent_space_split()/cubic_deformation_witness() (not fully read)",
+    "why": "FINDINGS.md explicitly notes an 'honest scope': the unconstrained cubic deformation also moves the puncture holonomy off unipotent, a limitation the arc itself flags",
+    "reproducible_from_committed": "yes (per FINDINGS; function body not fully sampled)"
+   }
+  ]
+ },
+ {
+  "arc": "B125_snappy_arithmeticity",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B125_snappy_arithmeticity",
+  "claims": [
+   {
+    "i": 55,
+    "what": "m=1 kM=Q(sqrt-3), m=2 kM=Q(i), both arithmetic; m=3..6 non-arithmetic (degree>=4)",
+    "where": "probe.py RECORD dict + live_arithmeticity(), FINDINGS.md sec 2",
+    "why": "computed in-sandbox with SnapPy 3.3.2 + cypari 2.5.6 and recorded as a hardcoded RECORD dict in probe.py; the live recomputation function exists and is SnapPy-guarded (skips if absent) so a stranger without SnapPy installed only gets the hardcoded record, not an independent recomputation",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B126_ladder_to_physics",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B126_ladder_to_physics",
+  "claims": [
+   {
+    "i": 56,
+    "what": "kappa-degree over Q(z) = [1,1,3,3,7,6] for m=1..6, rational exactly for arithmetic members m=1,2",
+    "where": "probe.py kappa_degree(), KAPPA_DEGREE_RECORD",
+    "why": "m=1..4 computed live via Groebner elimination in probe.py; m=5,6 are recorded from 'the longer run' (not re-derived live, no script shown for m=5,6), described honestly as 'family-specific observation, not a law'",
+    "reproducible_from_committed": "partial"
+   }
+  ]
+ }
+]

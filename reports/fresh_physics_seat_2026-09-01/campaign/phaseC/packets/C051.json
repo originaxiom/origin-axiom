@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B1158_cloud_wave2_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1158_cloud_wave2_harvest",
+  "claims": [
+   {
+    "i": 925,
+    "what": "Habiro zeta_3 germ coherence mechanism (coherence <=> p^r = 1 mod 3, transports uniformly)",
+    "where": "FINDINGS.md item 3 and harvest_checks.txt",
+    "why": "the printed splitting-behavior table (p=5 inert f=2, p=7 split g=2, etc.) is in the committed harvest_checks.txt, but per the arc's own later addendum (R016) the universal claim ('at every level', 'transports uniformly') was checked only at p in {5,7}, r in {1,2}, Taylor order <=8 \u2014 narrower than FINDINGS.md's stated scope",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1163_w0_attempt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1163_w0_attempt",
+  "claims": [
+   {
+    "i": 934,
+    "what": "Amphichirality-based orientation theorem: m004's symmetry group D4 (order 8), amphicheiral, forces no canonical datum can orient it",
+    "where": "ADDENDUM_orientation_theorem.md",
+    "why": "credited as 'own-verified, SnapPy' but the SnapPy invocation itself is not shown in this arc's committed reproduce.sh/w0_checks.txt",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 935,
+    "what": "Family-wide amphichirality claims (4/14, then 14->83, then 83/83 'CHECKED')",
+    "where": "ADDENDUM_family_wide.md, ADDENDUM_family_denominator_B8147.md",
+    "why": "the arc's own later addenda (dated 2026-09-01) show the instrument used (SnapPy reverse_orientation()+is_isometric_to()) is orientation-blind and returns True for every manifold including known-chiral controls (m015, m016); the family-wide claims were vacuous, not genuine computations",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1189_close_loop_batch1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1189_close_loop_batch1",
+  "claims": [
+   {
+    "i": 957,
+    "what": "GC-4 reach-deficit LAW: DAG edges local in charpoly-class space, Spearman(|\u0394abc|, L10-cone-Jaccard) = -0.612..-0.619, p<1e-16; deficit deepens to z~49-59 under degree-preserving nulls",
+    "where": "verification/gc4_reach_deficit.py, verification/gc4_two_sided_control.py, verification/adv_gc4_verify.py",
+    "why": "gc4_reach_deficit.py contains real analysis functions (mm_fraction, reach_bitsets, null_A, null_B, overlap_stats) \u2014 a genuine from-scratch implementation exists, but this arc's reproduce.sh does not re-run GC-4 (only GC-2's algebra and committed-cell-verdict assertions); the numeric z-value and Spearman correlation are not re-derived by the fast path, only asserted from batch1_cells.json.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1190_close_loop_batch2",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1190_close_loop_batch2",
+  "claims": [
+   {
+    "i": 958,
+    "what": "GC-6 (E6)_1 character theta series (1,72,270,720,...) rebuilt via independent E8->E6 projection; object-side CS identity at 60dps",
+    "where": "verification/gc6_l154_bridge.py; verification/batch2_cells.json GC-6 evidence block",
+    "why": "gc6_l154_bridge.py is a committed, substantial (13.5KB) script; not independently executed in this read, but the code plus committed batch2_cells.json output are both present, so a stranger could rerun it. No reproduce.sh exists in this arc to automate the check.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1191_close_loop_batch3",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1191_close_loop_batch3",
+  "claims": [
+   {
+    "i": 960,
+    "what": "Meter identity re-verification: Vol(m004) = 12*Vol_orb exactly (residual 2.7e-51 at 50dps, and independently re-confirmed at 60dps residual ~5.6e-17 by the completeness lens from first principles)",
+    "where": "verification/batch3_cells.json GC-11 evidence and refutation text",
+    "why": "Both the cell and its lens independently ran mpmath computations and report matching numbers in the narrative text, but no standalone script or reproduce.sh is committed to this arc's directory (only the narrative JSON, no .py files at all) \u2014 the numbers are asserted in prose, not backed by a runnable artifact in this arc.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 961,
+    "what": "GC-12: B672's weight-5 doublet series (comp1, comp2) go negative at n=1 (comp1: -9, comp2: -10) when the (q;q)^9 spectator cofactor is included, killing the L154 fingerprint route",
+    "where": "verification/batch3_cells.json GC-12 evidence",
+    "why": "The evidence text says 'fresh script, not importing B1190/GC-6's code; exact Fraction/int arithmetic ... script + full output saved to scratchpad' \u2014 explicitly NOT committed to the repo, only to an ephemeral scratchpad; a stranger cannot reproduce this from what's checked into the arc.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

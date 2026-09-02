@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B536_measurement_verify",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B536_measurement_verify",
+  "claims": [
+   {
+    "i": 324,
+    "what": "Seat-1's period-6 finding NOT reproduced (natural lift gives period 20)",
+    "where": "FINDINGS.md F2",
+    "why": "the arc states seat-1's original construction was unspecified, so the discrepancy cannot be fully adjudicated from committed files alone \u2014 this is an honest non-reproduction, not a contradiction, but it means the original F2 claim has no committed reproducible witness anywhere",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B538_reframe_test_cycle",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B538_reframe_test_cycle",
+  "claims": [
+   {
+    "i": 325,
+    "what": "E8 mass ladder matches published NMR/neutron/THz measurements on BaCo2V2O8 and CoNb2O6 to 7 decimals (Perron vector of E8 Cartan matrix)",
+    "where": "FINDINGS.md A1",
+    "why": "the Perron-vector computation is exact and reproducible; the literature contact (matching real experimental papers) is an IMPORTED claim \u2014 no committed experimental data file, only a textual citation, so a stranger cannot re-verify the match without independently pulling the cited papers",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 327,
+    "what": "Jarlskog J = 3.077e-5 recomputed from quoted CKM parameters, confirming CP violation the object's structure cannot produce",
+    "where": "FINDINGS.md B3",
+    "why": "arithmetic recomputation is presumably in a script but no B538-specific script file is listed in the packet (n_files=2: FINDINGS.md + arc_verdict.json only) \u2014 the Jarlskog recomputation has no committed code file in this arc",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B544_emergent_golden",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B544_emergent_golden",
+  "claims": [
+   {
+    "i": 330,
+    "what": "Critical circle map winding = 1/\u03c6 to 9 digits at Shenker's \u03a9*\u22480.6066553",
+    "where": "FINDINGS.md 'Spot verification'",
+    "why": "the arc says 'spot-verified' but no script file is present in the directory (n_files=2: FINDINGS.md + arc_verdict.json) \u2014 the bisection computation is described, not committed here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B545_ghost_census",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B545_ghost_census",
+  "claims": [
+   {
+    "i": 331,
+    "what": "c=1 proved smallest ghost level via elliptic-lock (h(-3)=h(-4)=1 completeness)",
+    "where": "FINDINGS.md",
+    "why": "described as tests/test_b545.py exact but this arc directory has no .py script of its own (n_files=2: FINDINGS.md + arc_verdict.json)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B565_gauge_behavior_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B565_gauge_behavior_campaign",
+  "claims": [
+   {
+    "i": 347,
+    "what": "T1 (Z/11 anomaly does not descend), T3 (chiral index \u22610), T4/T5/T6/T2/T8 and Batch H2 results",
+    "where": "RESULTS.md ledger",
+    "why": "RESULTS.md references a single umbrella lock file tests/test_b565_campaign.py and a campaign journal wf_1529ebff-6c0 not included in this arc's files; the specific numeric claims (e.g. a_C=-0.1800+-0.0007, the FM ratio, the 123-item exhumation detail) are not independently checkable from the 5 python files sampled here, which cover only H1/triality, not T1-T8",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

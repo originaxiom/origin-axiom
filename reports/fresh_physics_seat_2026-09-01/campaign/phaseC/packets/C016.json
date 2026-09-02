@@ -1,0 +1,114 @@
+[
+ {
+  "arc": "B566_self_interaction",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B566_self_interaction",
+  "claims": [
+   {
+    "i": 348,
+    "what": "S1 the N=p^2 dark-hyperbola recursive law, verified at p in {3,5,7,11,13,17} float and float-free at p=3,5",
+    "where": "RESULTS.md S1 section",
+    "why": "Only RESULTS.md is present in this arc; no python script visible here, though a test lock file (test_b566_self_interaction.py) is claimed to exist",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 349,
+    "what": "S2 KMS weights (5+-sqrt5)/20 differ from letter frequencies 0.362 vs 0.272",
+    "where": "RESULTS.md S2",
+    "why": "Not independently checkable from the single markdown file in this arc",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B568_own_questions",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B568_own_questions",
+  "claims": [
+   {
+    "i": 350,
+    "what": "CQ5 becoming: Boettcher coordinate converges (L0=0.58427327891860925..., stable to 120 digits), lambda_0.5 = 2.37798422427971475...",
+    "where": "RESULTS.md CQ5 row",
+    "why": "No script for this specific cell is present in this arc's two files; a test lock (test_b568_results.py) is claimed but the CQ5-specific reproducer path is not shown here",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 351,
+    "what": "AQ4 attention: salience S_A attended 1.83x more than frequency predicts",
+    "where": "RESULTS.md AQ4 row",
+    "why": "Same as above \u2014 asserted with a specific number, no script visible in this arc's file set",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B570_allowed_plays",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B570_allowed_plays",
+  "claims": [
+   {
+    "i": 352,
+    "what": "AP4 the fifth wall: the object's holonomy factors through the principal SL(2,C), which is theta-stable, so the 27 is vector-like for ANY E6-embedding of the rank-1 holonomy",
+    "where": "RESULTS.md AP4",
+    "why": "RESULTS.md documents two repairs applied by the verifier (a biconditional downgraded to conjecture, a Zariski-density citation added); no AP4-specific script was directly read in this pass, though a lock file is claimed",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B578_debt_clearing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B578_debt_clearing",
+  "claims": [
+   {
+    "i": 357,
+    "what": "D1: third-order Massey obstruction vanishes exactly in all six directions on the exact B575 build",
+    "where": "LEDGER_RAW.md D1",
+    "why": "described as reproduced by two independent extractions and by the verifier, but the reproducer script itself is not among the packet's listed files (only LEDGER_RAW/RESULTS/D5 note are); locks named (tests/test_b578_massey...) but not sampled here",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 359,
+    "what": "D5 Kubota-Leopoldt retraction: B413's banked values are Gauss sums, NOT the Kubota-Leopoldt L-function (two independent methods)",
+    "where": "D5_KUBOTA_RETRACTION.md",
+    "why": "two methods described (from-scratch Bernoulli sums + Sage DirichletCharacter.bernoulli) but no script file is listed in this packet to inspect",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 360,
+    "what": "D6: K3 (bronze invariant trace field) is degree 6, reinstating B125/B137, reverting a wrong B571/L68 'correction'",
+    "where": "LEDGER_RAW.md D6",
+    "why": "SnapPy+cypari at two precisions cited; verifier's own objection notes the degree-6 vs degree-8 conflict (B840's log entry later reconfirms the discrepancy is unresolved, see B590)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B580_chord_program",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B580_chord_program",
+  "claims": [
+   {
+    "i": 363,
+    "what": "Q1: level-1 abelian state vector is knot-independent (the unknot's own vacuum column)",
+    "where": "ROUND1_TRANSCRIPT.md 'Q1'",
+    "why": "described with SVD rank-2 reproduced at 576 slopes to 1e-15, but the transcript itself notes 'q1_part2.py's naive 3x3 reconstruction is numerically broken and superseded' and its artifacts were only committed later (B580-Q1R, not in this packet)",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 364,
+    "what": "G1 mirror-double dial map: theta-odd slots {4,8} -> full e6 closure (dim 78), theta-even -> f4 (52), untwisted -> sl2 (3)",
+    "where": "ROUND1_TRANSCRIPT.md 'G1'",
+    "why": "explicitly noted 'one stage of the fresh rerun was time-boxed rather than run to completion' and the underlying G1 code was later found (B582/B598 log entries) to have never been committed at the time of this claim -- see B582's arc for the self-correction",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 365,
+    "what": "H128/H129/H130 (golden-ratio physics hints) killed blind against all unforced transcript numbers",
+    "where": "ROUND1_TRANSCRIPT.md '2. THE COMPARISON'",
+    "why": "described as checked against every computed number in the transcript, but no single script is listed in this packet that performs the check end-to-end",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

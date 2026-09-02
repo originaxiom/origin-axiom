@@ -1,0 +1,72 @@
+[
+ {
+  "arc": "B756_remaining_doors",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B756_remaining_doors",
+  "claims": [
+   {
+    "i": 534,
+    "what": "DOOR6 P4 sector-split re-execution: (tr_odd,tr_even)(23)=(1,0) exactly, eps=+1 the unique global sign reproducing the banked 8-rung ladder, p4_results.json byte-identical to cc2's banked file",
+    "where": "cc_verify_door6_p4_rerun.txt",
+    "why": "the file is an output log (a *.txt witness), not the executing script; a stranger has the numbers and the byte-identity claim but not the reproducing code within this arc's directory",
+    "reproducible_from_committed": "no (script itself not included; only its stdout log is committed)"
+   }
+  ]
+ },
+ {
+  "arc": "B770_closure_census",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B770_closure_census",
+  "claims": [
+   {
+    "i": 545,
+    "what": "16 candidate closures adversarially refuted back to LIVE",
+    "where": "CENSUS.md 'The 16 refuted closures' section",
+    "why": "The refutation rationale for each item is given as free text (e.g. OI-108: 'never run anywhere in the repo') but this is a multi-agent workflow (wf_4f2f28dd-762) whose underlying agent transcripts are not part of the committed files sampled here \u2014 the census.json output is the artifact, but the LLM-agent classification process itself is not independently re-executable from this arc's committed files alone.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B775_braver_questions",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_audit",
+  "arc_dir": "frontier/B775_braver_questions",
+  "claims": [
+   {
+    "i": 553,
+    "what": "V4 genericity test: 8 imaginary-quadratic-trace-field manifolds tested (SnapPy census + metallic/chiral bundles); m004, m003, m025, R^2L^2 have V4 (amphicheiral), while m009/m010/RRL/RLL have Galois-only Z/2",
+    "where": "FINDINGS_THREE_MOVES.md Move 1; v4_genericity_test.py",
+    "why": "The script v4_genericity_test.py is committed and would run (SnapPy+cypari), but no output.txt/results.json/log for the actual run is present in this arc's file set \u2014 the specific table of 8 manifolds in FINDINGS_THREE_MOVES.md cannot be checked against a committed witness from these files alone. (The independent re-run lives in the separate B777 belt file CC_VERIFY_V4GENERICITY.md, not in this arc.)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B777_braver_questions",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B777_braver_questions",
+  "claims": [
+   {
+    "i": 557,
+    "what": "V4-genericity independently re-verified: cc's own SnapPy re-computation of manifold volume/symmetry-group/amphicheirality for m004, m003, m025, m009, m010 matches cc3's table exactly (m004 vol 2.029883, D4, amphicheiral, V4; m003 same vol, Z/2+Z/4, amphicheiral, V4; m009/m010 vol 2.666745, Z/2+Z/2, not amphicheiral, Z/2-only)",
+    "where": "CC_VERIFY_V4GENERICITY.md lines 10-26",
+    "why": "This is stated as cc's own independent SnapPy re-computation ('cc's independent SnapPy re-computation confirms it EXACTLY') but no script, output, or results file for this re-computation is committed in B777_braver_questions or referenced by path \u2014 it is a prose table with no witness file a stranger could rerun.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B779_convergence_probe",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B779_convergence_probe",
+  "claims": [
+   {
+    "i": 560,
+    "what": "R1: Galois orbits on the F2^3 closing torsor \u2014 V4 acts with 2 orbits of size 4, orbit label = theta-coordinate",
+    "where": "R1_galois_orbits.md",
+    "why": "the orbit computation is stated and its logic given in prose/table form (translation action on F2^3), but no compute.py/script is committed for R1 \u2014 a stranger cannot re-run it, only re-derive it by hand from the description; CC_GATE_NOTE.md states 'cc re-computed it exactly' but that recomputation is not itself a committed artifact distinct from the prose.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

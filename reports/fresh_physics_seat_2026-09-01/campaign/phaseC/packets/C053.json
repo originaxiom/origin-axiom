@@ -1,0 +1,100 @@
+[
+ {
+  "arc": "B693_loop_e3_inert5",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B693_loop_e3_inert5",
+  "claims": [
+   {
+    "i": 473,
+    "what": "Base-change Euler-factor identity at the inert prime 5: L5(f,s)=(1-5^-s)^-1, L5(f\u2297\u03c7-3,s)=(1+5^-s)^-1, product=(1-25^-s)^-1 \u21d2 a_(5)=+1",
+    "where": "frontier/B693_loop_e3_inert5/FINDINGS.md lines 435-444",
+    "why": "The derivation is exact, elementary algebra shown fully inline in prose, so it is reproducible by hand from the stated identity, but no script/file is committed for this arc to check it programmatically.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B793_gate8r2a_parent_localisation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B793_gate8r2a_parent_localisation",
+  "claims": [
+   {
+    "i": 578,
+    "what": "The B788 bank's V1 solver uses scipy minimize_scalar(method='bounded') over a 2e-4-wide window centred on the literature value, which always returns a point and cannot count roots or detect absence of an eigenvalue",
+    "where": "FINDINGS.md 'The finding' section, quoting build_gate8_v1_control.py / GATE8R_PROTOCOL.json",
+    "why": "This is a code-reading finding (inspection, not execution) about an EXTERNAL bank's solver; the arc explicitly did not run the solver (custody protocol only copies it out and inspects), so 'reproducible' would require access to the same external, unvendored B788 bank as B791.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 579,
+    "what": "Bank ARTIFACT_HASHES verification: 84 verified, 0 mismatches, both before and after the custody procedure (bank left unmodified)",
+    "where": "bank_hash_baseline_pre.json, bank_hash_baseline_post.json",
+    "why": "Hash check against the external B788 bank's own ARTIFACT_HASHES.txt; the bank itself is not vendored in this repo, so a stranger cannot re-run the verification, though the pre/post hash-count match is itself committed evidence of custody discipline.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 580,
+    "what": "10 of the bank's own hash-listed files (its lock tests, e.g. test_b788_maass_gate8_v1_control.py) are MISSING from the delivered archive",
+    "where": "bank_hash_baseline_pre.json 'unresolved' list; FINDINGS.md 'Separate observation'",
+    "why": "Observed against the external delivered zip, which is not part of this repo; the missing-file list is recorded here but the archive itself cannot be re-inspected from committed files.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B8068_j2t_charge_field",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8068_j2t_charge_field",
+  "claims": [
+   {
+    "i": 1015,
+    "what": "Cell 3: object reaches so(10) with chirality via 27+27bar rank-1 invariants, exhaustive 63-subset sweep, su(5) never appears",
+    "where": "CELL3_FINDINGS.md",
+    "why": "described as mod-p rank computation confirmed at 3 primes; the specific script for this cell is not separately named/committed under an obvious filename in the packet (likely folded into cell17_subsets.py/cell18_realforms.py, not independently verified by this reader)",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1016,
+    "what": "Cell 4: 16-component of every canonical invariant is identically zero (Casimir eigenspace {1,10,16})",
+    "where": "CELL4_FINDINGS.md",
+    "why": "gate table given but underlying script not directly located/read line-by-line by this reader",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1017,
+    "what": "Item 1: su(5) not real in any of 254 real forms (inner+outer)",
+    "where": "CELL_ITEM1_FINDINGS.md, box at top marked ARGUMENT RE-SCOPED",
+    "why": "the file itself flags that this cell measured Stab(s) not the object's actual su(5) composite, and that its tau was not verified to intertwine -- conclusion later restated by B8073 (not in this packet) with a corrected construction",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8121_m4_closed",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8121_m4_closed",
+  "claims": [
+   {
+    "i": 1059,
+    "what": "block-sequence comparison (R^m L^m)^j vs (RL)^k / (RRLL)^k / (RRL)^k over j,k<=8, m<=12: m=1 matches RL, m=2 matches RRLL, m=3..12 match nothing, with RLRL matching (RL)^2 as a bite control",
+    "where": "results.json bite_control / repairs_made; FINDINGS.md 'why_the_conclusion_survives' (reconstructed)",
+    "why": "The described exhaustive check (verify/check_arithmetic_tail.py) is stated to have been added to the paper's own verify/ directory, not to this arc's frontier directory -- no script file is present among this arc's own committed files in the packet, so the computation cannot be re-run from this arc's own artifacts alone.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8129_n2_no_breakdown",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8129_n2_no_breakdown",
+  "claims": [
+   {
+    "i": 1070,
+    "what": "|R(s,sigma_2)| smooth/monotone through s=2 (1.1075 at 2.6 to 1.1936 at 2.0), cutoff spread 1.03e-4 to 1.71e-3 above abscissa vs 1.6x-21.8x growth below it (bite control)",
+    "where": "results.json (per FINDINGS.md quoting it) finding, bite_control",
+    "why": "B8137 (a later arc in this same batch) explicitly states 'B8129 and B8130 are banked as results.json with NO code in the tree' and had to write an independent reproducer from the method description alone \u2014 this is a directly documented MISSING_WITNESS, confirmed by a sibling arc, not just an absence inferred from this packet",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

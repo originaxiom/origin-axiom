@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B8070_anomaly_rank_descent",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8070_anomaly_rank_descent",
+  "claims": [
+   {
+    "i": 1020,
+    "what": "the u(1)^3 generators do not commute with su(3)+su(2) (commutator norms 2.83, 12.73, 86.27); real span is 13 not 14",
+    "where": "FINDINGS.md 'Why it is false', point 3",
+    "why": "described in FINDINGS but this reader did not locate/verify the exact lines computing these norms in the 221-line script",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1021,
+    "what": "over full 5-dim charge space the anomaly cubic factors as -2*yL*(2yL+3yd)*(4yL-3yd)/3 (three anomaly-free lines, not one)",
+    "where": "FINDINGS.md 'The one thing this cell contributes', point 2",
+    "why": "stated as 'verified with sympy on this bench' but the specific sympy invocation was not located/read in the 221-line script by this reader",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B810_verdict_wave1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B810_verdict_wave1",
+  "claims": [
+   {
+    "i": 600,
+    "what": "287 verdicts written from 300 returned across 12 parallel readers x 25 arcs each; 0 fabrications on 9 transcription errors (6 non-existent IDs, 3 already-authored)",
+    "where": "FINDINGS.md",
+    "why": "this is a description of a distributed multi-agent workflow run (12 parallel reader-agents), not a deterministic script; the arc's only committed files are FINDINGS.md and arc_verdict.json -- the workflow script and its raw per-reader outputs are not present in this arc's own directory per the packet.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8104_pfaff_formula",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8104_pfaff_formula",
+  "claims": [
+   {
+    "i": 1041,
+    "what": "cusp defect c(m)/c(2) computed as 0.7121 (m=3), 0.5532 (m=4), 0.4523 (m=5); volume factor 0.02072, 1.179e-4, 1.842e-7",
+    "where": "results.json 'our_ingredients'",
+    "why": "these numbers are presented as 'computed here' but this arc's file list has NO .py script -- only FINDINGS.md, arc_verdict.json, results.json. There is no committed code that produced these specific decimals; a stranger cannot reproduce c(m) from Pfaff's formula using only what is in this directory.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B8120_scrutiny_triage",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8120_scrutiny_triage",
+  "claims": [
+   {
+    "i": 1058,
+    "what": "the scrutiny's own check_entrance.py control (2T = 'exactly one involution') was reproduced and run in-sandbox before adoption",
+    "where": "FINDINGS.md verdict text as reconstructed",
+    "why": "The FINDINGS.md itself is a RECONSTRUCTION (see red flag below); no script file for this arc is present in the packet's file list (only FINDINGS.md, arc_verdict.json, results.json, one relay), so the check_entrance.py run described is not among this arc's own committed witnesses -- it is stated to have happened but the artifact is not in this arc's directory.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8122_constructive_items",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8122_constructive_items",
+  "claims": [
+   {
+    "i": 1060,
+    "what": "E1: for A in GL(2,Z), det=-1, trace=m: det(A^2-I) = -m^2 exactly, checked symbolically and on explicit matrices [[m,1],[1,0]] for m=1..9",
+    "where": "results.json 'adopted'[0]",
+    "why": "Described as checked 'symbolically and on explicit matrices', but no script file is present among this arc's committed files (only FINDINGS.md [reconstructed], arc_verdict.json, results.json, one relay) -- the computation is described, not committed as re-runnable code in this arc's directory.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1061,
+    "what": "E2 class-count table: primitive counts 1,1,1,1,1,2,1,1,2,2,1 for m=1..11 at discriminant m^2+4, agreeing with the source; m=12 disagrees and is flagged as not load-bearing",
+    "where": "results.json / FINDINGS.md 'E2' discussion (reconstructed)",
+    "why": "Same as above: the class-number computation is reported with numeric detail but no script is present in this arc's directory in the packet.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

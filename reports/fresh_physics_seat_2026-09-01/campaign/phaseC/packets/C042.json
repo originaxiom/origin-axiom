@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B1208_cross_seat_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1208_cross_seat_harvest",
+  "claims": [
+   {
+    "i": 988,
+    "what": "156/156 same-volume pairs in B1197's signed CS census carry exactly opposite CS; a 541x |CS|/Vol witness",
+    "where": "verification/verify_s5.py",
+    "why": "reads B1197's banked b4_global.json / b4_correct.json via OA_ROOT-relative path (external to this arc's own files); numbers are recomputed directly from those JSON files so reproducible if B1197's data is intact, but not self-contained within this arc",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 989,
+    "what": "Gieseking (m000) is the orientable double cover of m004 by isometry; H1(Gieseking)=Z; the generalization to any rank-1 H^1(-;F2) manifold",
+    "where": "verification/verify_r021.py",
+    "why": "uses snappy (external library) for the isometry/homology computation; script is self-contained and would run given snappy+sympy installed, but no environment/dependency lockfile is bundled in this file set to confirm a stranger's reproduction",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1210_paper_spine_sweep",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1210_paper_spine_sweep",
+  "claims": [
+   {
+    "i": 990,
+    "what": "85 arcs banked in the spec's last 10 days, 11 cited; 48 law-creating arcs, 1 cited",
+    "where": "b1210_results.json .coverage",
+    "why": "spine_sweep.py recomputes this from the live corpus (arc_verdict.json glob) each run, so the banked figures (85/11, 48/1) reflect the corpus state at banking time; re-running today against the now-larger corpus (checked directly: verification/_out.txt shows a different snapshot with pool 456, 30 spec citations, 8 flagged, from a later corpus state) would not reproduce the exact banked numbers, only the qualitative finding",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1213_claim_base_rebuilt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1213_claim_base_rebuilt",
+  "claims": [
+   {
+    "i": 991,
+    "what": "919/1031 (89%) settled arcs have creates_law entirely absent; declared true 55, declared false 57; control ratio 2.29x",
+    "where": "b1213_results.json / claim_base.json (top-level, banked)",
+    "why": "verification/claim_base.py recomputes this live from the current arc_verdict.json corpus; the copy actually committed in verification/claim_base.json and verification/_out.txt shows DIFFERENT numbers (declared true 68, declared false 136, absent 827/80%, control ratio 2.67x) than the banked top-level claim_base.json/b1213_results.json (55/57/919-89%/2.29x) -- the committed verification/_out.txt is from a later re-run against a grown/changed corpus, so a stranger running reproduce.sh today reproduces the QUALITATIVE finding (a large majority absent, control passes) but NOT the exact banked percentage figures the arc's prose and headline number (89%) rest on. reproduce.sh's REPRODUCES gate only checks for the string VERIFIED, not numeric agreement with the banked claim_base.json, so this drift is not caught by the arc's own reproduction test.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1231_identification_discipline",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1231_identification_discipline",
+  "claims": [
+   {
+    "i": 1009,
+    "what": "identification_audit.py mechanical sweep of all 1179 arcs returns 61 candidates (3 map-language, 6 typing-language, 52 bare) and a stated blind spot: the narrowed net misses the bare-assertion form, 'exactly how C-5b's error was phrased'",
+    "where": "FINDINGS.md 'The sweep', 'The instrument's measured limit'",
+    "why": "the instrument script scripts/checks/identification_audit.py is referenced with --extract/--triage/--selftest but was not itself in this packet's file list (only FINDINGS.md, arc_verdict.json, CITATION_VERIFICATION.md were included) so its committed behavior could not be directly re-verified in this read",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B129_sl3_tower_sealed",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B129_sl3_tower_sealed",
+  "claims": [
+   {
+    "i": 60,
+    "what": "S1b: 15-seed x 30-start off-sublocus scan finds 427 converged fixed points, max distance-to-Q(sqrt-3)=1.2e-6, 0 escapes beyond 1e-5",
+    "where": "probe.py offsublocus_search(), S1B_SCAN record",
+    "why": "scipy-guarded numerical root-find; the specific 427-point/15-seed run is recorded as a hardcoded number (S1B_SCAN dict), described honestly in FINDINGS as 'strong computational result, NOT a theorem'; a stranger without scipy gets only the recorded numbers, not a fresh scan",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 61,
+    "what": "silver bundle b++RRLL degree-2 covers reach (cusps,free_rank)=(2,2)",
+    "where": "probe.py silver_covers()",
+    "why": "SnapPy-guarded; skips cleanly if SnapPy absent, record stands as hardcoded fallback",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

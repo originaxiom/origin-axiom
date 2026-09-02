@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B1195_close_loop_batch5a",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1195_close_loop_batch5a",
+  "claims": [
+   {
+    "i": 969,
+    "what": "GC-21: SEAM-A saddle equation = u^2+u+1=0, Z(b=1) closed form matches quadrature at 7.6e-8, competing phase-ansatze excluded at >=5x10^6x residual, 'the finite-phase-to-Vol map provably cannot be furnished'",
+    "where": "verification/batch5a_cells.json GC-21",
+    "why": "the cell's own refutations field finds two defects: (a) the closed-form Z is never derived from stationary-phase structure inside this cell, only fit-and-confirmed against ONE quadrature, so 'provably' is not earned; (b) the load-bearing r0=7.57e-8 'precision' denominator used for every exclusion multiplier is not independently validated -- no convergence study was run, and re-running B1090's identical fixed recipe is not an independent confirmation",
+    "reproducible_from_committed": "unknown (no script path given in this cell for the fast quadrature/full run; described as run in-sandbox, and the arc has no verification/ script file listed in this packet)"
+   },
+   {
+    "i": 970,
+    "what": "GC-22: lambda placement DECIDED, P2 (KMS/BTZ->lambda) excluded by exact constructive computation",
+    "where": "verification/batch5a_cells.json GC-22",
+    "why": "the cell's own refutations field finds (1) a load-bearing quoted number is fabricated: the cell claims phi^-4=0.145898 gives q~1.5e-9, but independent computation gives ~1.98e-19 (10 orders of magnitude off), and re-running the cited script only ever prints 'q=0.000000'; (2) a scope overclaim: the computation only refutes ONE naive BTZ-mass construction, not the whole category of P2 constructions from existing legs",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1196_close_loop_batch5b",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1196_close_loop_batch5b",
+  "claims": [
+   {
+    "i": 972,
+    "what": "eps(A,M) selector-free: invariant under simultaneous GL2(Z)-conjugation, 8/8 conjugators, both determinant signs",
+    "where": "verification/batch5b_cells.json GC-27 evidence (fresh in-sandbox computation)",
+    "why": "the evidence text describes a from-scratch rebuild for 8 conjugators with matching results, but the actual script/output file is not present in this arc's own verification/ directory per the packet's file list -- only the narrated JSON cell is committed",
+    "reproducible_from_committed": "unknown (script referenced as 'SCRATCH output gc27_eps_invariance_results.json' -- not visible among this arc's committed verification files, which contain only batch5b_cells.json)"
+   },
+   {
+    "i": 973,
+    "what": "D2 adjudicated different: B891's three foreign-16 eigenspaces spread ~5:6:5 across all three trinification blocks",
+    "where": "verification/batch5b_cells.json GC-26 (not independently re-read in full this pass)",
+    "why": "not independently sampled in this pass beyond the FINDINGS.md summary",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1216_parameter_closure_run1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1216_parameter_closure_run1",
+  "claims": [
+   {
+    "i": 994,
+    "what": "C1's field-level scan (30/37 quadratic fields satisfy norm+1) and embedding-level scan (22/60 direct vs 38 torsor)",
+    "where": "workflow_result.json result.cells[0], not committed as a standalone script in this arc's own directory",
+    "why": "the workflow_result.json is an archived verbatim transcript of a 9-agent run; the underlying probe scripts (e.g. /tmp/c1_probe/) are referenced in the adjudicator's own overreach note but not shown to be committed anywhere in this arc's directory, so a stranger cannot re-run the field/embedding scan from this arc alone.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B336_chiral_sqrt15_hunt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B336_chiral_sqrt15_hunt",
+  "claims": [
+   {
+    "i": 206,
+    "what": "SL(2,Z) word discriminants t^2-4 never equal -15 (t^2=-11 impossible over integers)",
+    "where": "FINDINGS.md 'Route 0'",
+    "why": "elementary number theory, plausible, standalone in principle",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B561_l50_crux",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B561_l50_crux",
+  "claims": [
+   {
+    "i": 345,
+    "what": "figure-eight isometry group D4 (order 8), no order-3 element",
+    "where": "FINDINGS.md point 2, attributed to SnapPy",
+    "why": "Attributed to SnapPy but no script path given in this arc's two files; the claim depends on an external tool call not shown here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

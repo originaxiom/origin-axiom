@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B825_markov_motif",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B825_markov_motif",
+  "claims": [
+   {
+    "i": 614,
+    "what": "8.3% corpus share (62/750), 75.8% containment in trace_map",
+    "where": "FINDINGS.md table",
+    "why": "Same class as B824: counting script/corpus not in read set; only tests/test_b825_markov_motif.py cited.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B833_negative_routing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B833_negative_routing",
+  "claims": [
+   {
+    "i": 622,
+    "what": "206 NEGATIVE-verdict arcs, 137 absent from kill graph; kill_graph has 217 records: 172 arc ids + 45 non-arc keys; of 172, 69 NEGATIVE/56 PROVED/38 none/6 RETRACTED/3 OPEN",
+    "where": "FINDINGS.md:14-42",
+    "why": "Described as a direct count over the repo's verdict/kill_graph records, but the actual kill_graph.json and verdict corpus are not part of this packet's read set -- the arithmetic is plausible but not independently checked here.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B835_lock_repairs",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B835_lock_repairs",
+  "claims": [
+   {
+    "i": 624,
+    "what": "trace_map corpus share crossed 0.45 floor to 0.449; per-era breakdown table (trace_map 0.463->0.375, kappa 0.284->0.125, etc.)",
+    "where": "FINDINGS.md:15-28",
+    "why": "Table presented as measured output of test_measured_frequencies_hold, but the underlying corpus/motif-count script is not in this packet.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 625,
+    "what": "B702's retraction marker was at line 45, past a 1500-char read window",
+    "where": "FINDINGS.md:44-51",
+    "why": "Specific and checkable claim about a file offset, but B702's file itself isn't read here to verify line 45.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B836_route_negatives",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B836_route_negatives",
+  "claims": [
+   {
+    "i": 626,
+    "what": "167 arcs routed, graph 217->384",
+    "where": "FINDINGS.md:8-13",
+    "why": "kill_graph.json itself not part of the read set for this packet; count is asserted narratively.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B838_lexicon_regrounding",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B838_lexicon_regrounding",
+  "claims": [
+   {
+    "i": 628,
+    "what": "term-frequency table: forcing/forced 41.9%, forces 13.6%, held slot 0.1%, two ingredients 0.1%, etc.",
+    "where": "FINDINGS.md:17-27",
+    "why": "Corpus-frequency counting script/corpus not in the read set; numbers asserted, methodology (same as B824/B825's diagnostic) plausible but not independently checked here.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

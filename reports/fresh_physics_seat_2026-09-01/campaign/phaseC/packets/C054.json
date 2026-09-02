@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B8130_item5_ruelle_Lchi",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8130_item5_ruelle_Lchi",
+  "claims": [
+   {
+    "i": 1071,
+    "what": "unitarity phi(s)phi(2-s)=1.0 exactly at s=1.5,1.8,2.5, with Hurwitz continuation matching the naive series where both are valid",
+    "where": "FINDINGS.md verdict",
+    "why": "same status as B8129: this arc explicitly says B8130 is 'banked as results.json with NO code in the tree' per B8137's cross-check finding",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B146_b145_calibration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B146_b145_calibration",
+  "claims": [
+   {
+    "i": 82,
+    "what": "invariant trace field of RRL/RLL is imaginary-quadratic Q(sqrt-7), refuting B145's non-invariant-field claim",
+    "where": "probe.py arithmetic_arm()",
+    "why": "SnapPy+Sage-gated; not re-run in this read but reported as a specific catalog scan result",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 83,
+    "what": "M and mirror agree on orientation-independent invariants (vol/H1/trace field), CS flips",
+    "where": "probe.py dichotomy_witness()",
+    "why": "SnapPy/Sage-gated witness for chiral words RRL, RRRL",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B237_silver_2O_l48",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B237_silver_2O_l48",
+  "claims": [
+   {
+    "i": 135,
+    "what": "GQuotients table: golden/silver/bronze bundle pi1 surjections onto 2T/2I/2O/S4",
+    "where": "silver_2O.py (gap_fp_group/nsurj, run via sage-python + GAP)",
+    "why": "requires SnapPy fundamental-group presentations piped into GAP's GQuotients; no committed .log/.out witness exists in the directory, so the specific counts (2,0,0 / 0,0,0,2 / 10,2,0) cannot be checked without running Sage+GAP independently",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B330_s032a_galois_symmetrization",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B330_s032a_galois_symmetrization",
+  "claims": [
+   {
+    "i": 196,
+    "what": "the deck Z/3's action on cover-torsion (\u2124/4)^2 has det(C-I)=3 mod 4 (a unit), so 0 is the only fixed vector \u2014 no distinguished sub-object",
+    "where": "FINDINGS.md 'Cover-torsion (B326, fresh stress)'; s032a_galois.py (sympy, imports sampled only)",
+    "why": "plausible exact-arithmetic check per FINDINGS' description, but this reader only sampled the import line, not the body",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B518_k025_confirmation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B518_k025_confirmation",
+  "claims": [
+   {
+    "i": 305,
+    "what": "the same trace map T=(z,x,xz-y) preserves kappa across Schrodinger/hopping/spin substrates (scale-free universality class)",
+    "where": "frontier/B518_k025_confirmation/FINDINGS.md Tier A",
+    "why": "asserted as confirmed at the trace-map level, no script committed in this 2-file arc directory.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

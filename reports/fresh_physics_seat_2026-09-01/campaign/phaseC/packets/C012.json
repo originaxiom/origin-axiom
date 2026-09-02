@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B474_tier_commutator_law",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B474_tier_commutator_law",
+  "claims": [
+   {
+    "i": 268,
+    "what": "Master theorem: both kappa_q and tier factor through (gx,gy)=gcd(x,20),gcd(y,12) on 36-cell divisor lattice",
+    "where": "master_log.txt",
+    "why": "master_log.txt is a committed output but the script that produced it is not among the 7 committed files",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B483_fibonacci_anyon_face",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B483_fibonacci_anyon_face",
+  "claims": [
+   {
+    "i": 273,
+    "what": "B1 closed: banked lambda_chain=1.57705744122666946 verified correct to 18 digits against a fresh high-precision (40dps, n=55) recomputation; seat-2's warning attributed to a different normalization",
+    "where": "FINDINGS.md 'B1 CLOSED' section",
+    "why": "the high-precision recomputation (n=55, 40 dps) is described in prose but no script for it is among the 3 committed files",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B492_verlinde_boundary_lens",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B492_verlinde_boundary_lens",
+  "claims": [
+   {
+    "i": 283,
+    "what": "Fibonacci category total quantum dimension D=sqrt(2+phi); Verlinde fusion tau x tau=1+tau; boundary g-factors g_tau/g_1=phi exactly",
+    "where": "FINDINGS.md, 'Reproducer: inline (Fibonacci S-matrix + Verlinde + AL g-factors)'",
+    "why": "described as an inline computation with no committed script or log file in this 2-file arc; this is standard textbook RCFT arithmetic though (low novelty risk)",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B504_spacetime_functor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B504_spacetime_functor",
+  "claims": [
+   {
+    "i": 285,
+    "what": "tr(t)^2 = 2 exactly (SVD nullspace, residual 0.0 at 30 digits) at pointer state (1,1,1)",
+    "where": "frontier/B504_spacetime_functor/FINDINGS.md",
+    "why": "FINDINGS.md describes the computation (SVD nullspace on an independent Fricke lift) narratively and claims a lock at tests/test_b504_b505.py, but this arc directory contains no .py reproducer script \u2014 only FINDINGS/PREREGISTRATION/verdict.json. A stranger cannot rerun the SVD from this directory alone; the test file lives outside the sampled arc.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 286,
+    "what": "tr(t)^2 = 4.0 exactly at the Eisenstein geometric point (\u03b4_geo=4, parabolic time)",
+    "where": "frontier/B504_spacetime_functor/FINDINGS.md",
+    "why": "same as above \u2014 narrated with a singular-value figure (3e-31) but no committed script in this directory; only the external lock file is cited.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B507_beta_function",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B507_beta_function",
+  "claims": [
+   {
+    "i": 289,
+    "what": "E_Haar[g_M]=0.0003 (theorem 0), E_Haar[g_D]=-1.9995 (theorem -2), zero at kappa*=0.001\u22480 (6M Haar samples)",
+    "where": "frontier/B507_beta_function/FINDINGS.md",
+    "why": "described as a full run (6M Haar samples, measure-correct binning) with 4-decimal gate agreement, but no script or results file is present in this 3-file arc directory, and the project's own later log states the arc \"carries NO scripts\" and \"has NO lock\".",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

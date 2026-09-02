@@ -1,0 +1,51 @@
+[
+ {
+  "arc": "B979_L131_A7",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B979_L131_A7",
+  "claims": [
+   {
+    "i": 751,
+    "what": "LR/RL SL(2,Z)-conjugate via P=[[0,1],[1,0]]; three sector Mobius fixed-point polynomials distinct; golden roots phi, -1/phi",
+    "where": "results.json verified_here block",
+    "why": "results.json states booleans (LR_RL_conjugate_by_P: true etc.) but no script/code file is included in this arc's file set to reproduce the computation; only the assertions are committed.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "overnight_2026-06-03",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/overnight_2026-06-03",
+  "claims": [
+   {
+    "i": 1101,
+    "what": "Job 1: charpoly(J)/charpoly(J^-1) time-reversal symmetry PASSES for SL(3) (dim 8) and SL(4) (dim 15) trace-map Jacobians under the rule 'even-k fixed, odd-k char(+M^k)<->char(-M^k)'",
+    "where": "frontier/overnight_2026-06-03/run_job1.py + time_reversal.json",
+    "why": "run_job1.py is committed and does real sympy symbolic computation, but it imports b64_probe/b65_probe from frontier/B64_parity_mechanism/probe.py and frontier/B65_sl4_symbolic_jacobian/probe.py, which are NOT among this arc's files (they live in sibling frontier/ subdirectories outside this packet), so this arc alone cannot reproduce the result -- only re-verify the wrapper logic.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 1102,
+    "what": "Job 2: SL(3) figure-eight A-poly GO/NO-GO probe -- nullity of DT-I at the principal Sym^2 fixed point, testing whether nullity==2 (=n-1) stably",
+    "where": "frontern/overnight_2026-06-03/run_job2.py + sl3_apoly_go_nogo.json",
+    "why": "Genuine numeric witness: 4 runs gave nullities {3,3,5,4} (not stable, ill-conditioned eig-1 condition numbers up to 6.5e6), correctly yielding verdict UNSTABLE, not GO -- an honest negative result. Depends on b66_validate.py and b67_probe.py from other frontier/ subdirectories not in this arc.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 1103,
+    "what": "Job 3: m=2 (silver) cross-m A-polynomial candidate fit vs SnapPy m136 sample -- verdict INCONCLUSIVE (best framing residual 0.0065, above the 1e-3 MATCH threshold)",
+    "where": "frontier/overnight_2026-06-03/run_job3.py + cross_m_silver.json",
+    "why": "Uses snappy.twister directly (no external frontier import), so this one IS mostly self-contained and reproducible given snappy installed; verdict is honestly INCONCLUSIVE, not oversold as a match.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 1104,
+    "what": "Job 4: SL(7) partial fixed-line spectrum (dim 48) -- resolved_fraction 34/48, |k|=1,2,3 multiplicities flagged INCONCLUSIVE (big/small root counts mismatch, e.g. char(M^1) big_count=3 vs small_count=2)",
+    "where": "frontier/overnight_2026-06-03/run_job4.py + sl7_partial.json",
+    "why": "Numeric witness present and honestly labeled INCONCLUSIVE for all three |k| bins tested (none of char(M^1), char(M^2)/char(-M^2), char(M^3)/char(-M^3) achieved big==small trustworthy match except two isolated 'trustworthy' cells char(M^2) mult=3 and char(M^3) mult=1); depends on b66_validate.py not in this arc.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

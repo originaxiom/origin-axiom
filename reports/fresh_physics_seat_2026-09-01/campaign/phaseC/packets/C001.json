@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B75_metallic_degree_rank",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B75_metallic_degree_rank",
+  "claims": [
+   {
+    "i": 20,
+    "what": "M^3=L confirmed at m=1 and m=3 (n=3), eigenvalue-form test dev ~7.5e-15 / 2.7e-15 over 8 reps each",
+    "where": "FINDINGS.md table, presumably computed in probe.py (not directly read)",
+    "why": "probe.py itself was not opened (packet lists it as SAMPLE/FULL but time budget led to relying on FINDINGS' numeric table); the FINDINGS text describes the method (eigenvalue-form test) in enough detail to be plausible but the script was not independently inspected in this pass",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 21,
+    "what": "even-m (m=2, silver) Dehn-filling component NOT found across a 61-spectrum sweep at n=3",
+    "where": "FINDINGS.md:49-54",
+    "why": "same caveat \u2014 described, not independently verified against probe.py source in this pass",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B76_cusp_quantum_group",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B76_cusp_quantum_group",
+  "claims": [
+   {
+    "i": 22,
+    "what": "2cos(pi/k) = [2]_q identity verified k=3..8",
+    "where": "FINDINGS.md:15-16, presumably probe.py",
+    "why": "probe.py not directly opened this pass; the identity itself is elementary trigonometric/algebraic and plausible, but independent verification of the committed script was not done",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B77_degree_rank_mechanism",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B77_degree_rank_mechanism",
+  "claims": [
+   {
+    "i": 23,
+    "what": "[A,B]=c*mu^n with c=(-1)^{n-1}, robust across reps/seeds, scalar-dev ~1e-10 to 1e-14",
+    "where": "FINDINGS.md:17-24, presumably probe.py",
+    "why": "probe.py not directly opened this pass",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 24,
+    "what": "A-to-D unification refuted: meridian eigenvalues are generic, not roots of unity, not the Dickson char(M^n) roots",
+    "where": "FINDINGS.md:27-36",
+    "why": "same caveat",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B83_sln_apolynomial",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B83_sln_apolynomial",
+  "claims": [
+   {
+    "i": 31,
+    "what": "A_n family L=(-1)^{n-1}M^n confirmed at n=3 (~1e-10) and n=4 (~1e-12, new)",
+    "where": "FINDINGS.md table lines 20-24",
+    "why": "probe.py not directly opened this pass",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B85_tower_lynchpin",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B85_tower_lynchpin",
+  "claims": [
+   {
+    "i": 34,
+    "what": "Lambda^2 functoriality of the figure-eight substitution verified to ~1e-14",
+    "where": "FINDINGS.md:18-24",
+    "why": "probe.py not directly opened this pass",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

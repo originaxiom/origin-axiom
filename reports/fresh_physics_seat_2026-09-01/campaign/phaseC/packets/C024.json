@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B78_degree_rank_n5",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B78_degree_rank_n5",
+  "claims": [
+   {
+    "i": 25,
+    "what": "rep-finder validated at n=3,4 reproducing known sign law (c=+1 at n=3, c=-1 at n=4)",
+    "where": "FINDINGS.md:16-21",
+    "why": "probe.py not directly opened this pass",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 26,
+    "what": "n=5: every converged rep across many spectra is reducible (~100 converged solutions per spectrum, 0 irreducible)",
+    "where": "FINDINGS.md:26-29",
+    "why": "same caveat; a striking negative numeric claim worth independent rerun",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B790_maass_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B790_maass_adjudication",
+  "claims": [
+   {
+    "i": 573,
+    "what": "L1: m004 and m003 are NOT isospectral (differ in length spectrum despite equal volume)",
+    "where": "compute.py L1 block; output.txt",
+    "why": "uses SnapPy (snappy.ManifoldHP('m004'/'m003').length_spectrum) \u2014 an external, non-trivial geometry library; reproducible only if SnapPy is available and version-stable, not verifiable purely from committed sympy/mpmath code.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 574,
+    "what": "L2/L2': every geodesic trace (134 for m004, 150 for m003, cutoff Re(l)<=5) lies exactly in Z[omega], worst deviation 2.6e-15; trace-norm multisets differ between m004 and m003 (mod-4 vs odd split)",
+    "where": "compute_l3_powered.py; output_powered.txt",
+    "why": "depends on SnapPy length-spectrum data as above; arithmetic verification (nearest-integer rounding of Z[omega] coefficients) is exact given that input. The mod-4/odd split is explicitly flagged in FINDINGS.md as 'an OBSERVATION on truncated data, not a law... has not been proved or checked for stability.'",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B791_weyl_completeness",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B791_weyl_completeness",
+  "claims": [
+   {
+    "i": 576,
+    "what": "Bank structural claims (image order 1920, transitivity, commutant dim 3, orbital sizes [12,12,120], <chi,chi>=3, decomposition V1+V5+V6) re-derived from the bank's own 4 generator permutations",
+    "where": "verify_bank_structure.py, FINDINGS.md \u00a71",
+    "why": "The script explicitly requires an environment variable B788_BANK pointing at the external B788_maass_spectrum_programme's outputs/coset_action.json, which the script's own header states is 'NOT vendored into this repo'. A stranger with only this repo checked out cannot run it.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B796_coupling_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_audit",
+  "arc_dir": "frontier/B796_coupling_campaign",
+  "claims": [
+   {
+    "i": 583,
+    "what": "Cell 1 GH-ladder: 43 distinct spectral eigenvalues r<13.5, 4 parent forms, three pre-stated GH rungs confirmed (r=11.00811336, 12.50010017, 13.29316271)",
+    "where": "WAVE1_FINDINGS.md CELL 1; scanE/scanF scripts not in this file list",
+    "why": "FINDINGS describes exact numeric outputs and a corroboration base-rate (9.5e-5) but the scanning scripts/witnesses that produced the 26 stable eigenvalues are not among the files this packet lists as committed at these paths (only cell9_* and boundary/other-cell scripts are present); cannot confirm reproducibility from what was read",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B797_maass_spectrum_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B797_maass_spectrum_harvest",
+  "claims": [
+   {
+    "i": 586,
+    "what": "sector projective-line S-test: exactly one parent eigenvalue (n=6, r=7.072)",
+    "where": "sector_projection_results.json",
+    "why": "Results are committed as output JSON (dev_min/dev_max per eigenvalue) but no script that produced sector_projection_results.json is among this arc's files -- the generating code lives elsewhere (attributed to cc3).",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 587,
+    "what": "SM comparison: 0 gated hits across Test1/2/3 against 18 PDG targets",
+    "where": "sm_comparison_results.json, SM_COMPARISON_PREREGISTRATION.md",
+    "why": "protocol is fully specified in the preregistration and result values are committed, but the test-running script itself (sm_comparison_tests.py, referenced in the prereg) is not among this arc's files.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

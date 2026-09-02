@@ -1,0 +1,100 @@
+[
+ {
+  "arc": "B1072_silver_instrument",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1072_silver_instrument",
+  "claims": [
+   {
+    "i": 838,
+    "what": "SU(4)_2 build (10 primaries, kappa=6, Sigma.Sigma^dagger=864*I), group order 18432, Goursat subdirect structure, 5 exceptional orbits under the transplanted rule",
+    "where": "FINDINGS.md; b1072_results.json",
+    "why": "5-agent design (build, run+cascade, two adversarial lenses) with 'own Weyl construction AND own arithmetic engine' for the verifier, but again the code itself is not committed \u2014 only the JSON of returns",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 839,
+    "what": "B684's k=2 ladder value is wrong (claimed 1/delta, should be delta=1+sqrt2, which is actually B684's own k=6 value)",
+    "where": "FINDINGS.md, 'L149's cascade half'",
+    "why": "quadruple-derived per the text but uncommitted; however this correction WAS properly propagated into B684's own FINDINGS.md as an inline addendum (verified: frontier/B684_loop7_close/FINDINGS.md:56-64), so it is not a case of an uncorrected stale claim",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1074_residue_hunt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1074_residue_hunt",
+  "claims": [
+   {
+    "i": 843,
+    "what": "the four canonical Hermitian frames {I, D_c, D, D_cD} and their identification with B939/B1024 objects",
+    "where": "b1074_results.json 'inv' agent block",
+    "why": "the results JSON narrates the derivation (two independent routes agreeing) in prose with claim/evidence pairs, but no standalone script is committed in the arc directory -- the computation appears to have run in an agent's scratchpad, not as a committed reproducible artifact",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 844,
+    "what": "the frame-blind vacuum block theorem (W3 Gram matrix identical for every canonical frame) and the exhaustive parity law over all 16 X^tau structures",
+    "where": "FINDINGS.md 'What the hunt PROVED'; b1074_results.json",
+    "why": "described as adversarially verified with a described mechanism (9-index support meets zero sign-flips), but the underlying computation lives in the JSON's prose narration, not a committed script",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1075_moduli_crossing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1075_moduli_crossing",
+  "claims": [
+   {
+    "i": 846,
+    "what": "the nine moduli 3-sigma boxes propagated from NuFIT 6.1 parameter ranges and compared to 1/2 and 1/(2phi)",
+    "where": "FINDINGS.md 'The record'; b1075_execution.json",
+    "why": "FINDINGS.md points to 'the script and full box table in b1075_execution.json' -- this is a results/data file, not a standalone script; the arc directory does not contain the comparison script itself, only its JSON output",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1076_coboundary_sweep",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1076_coboundary_sweep",
+  "claims": [
+   {
+    "i": 848,
+    "what": "lambda values at the four B^1 gauges (1, 864/413, 6912/3047, 2304/953) and CCC=3!*lambda holding coset-wide",
+    "where": "b1076_results.json 'pipe' block; FINDINGS.md",
+    "why": "the JSON records exact rational arithmetic with cross-checked products/sums (e.g. denominator 1199265683 = 413*3047*953 verified directly by an adversarial checker) and states two agreeing independent routes plus an independent numeric route to ~1e-53, but no standalone .py script is committed in this arc directory -- only b1076_results.json",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 849,
+    "what": "the coset-wide 77 (hierarchy discriminant squarefree part) is killed by its own vacuity control",
+    "where": "FINDINGS.md 'The seductive candidate'",
+    "why": "same basis as above -- narrated with specific numeric detail (K-forcedness demonstrated on a control diagonal) but no committed script for a stranger to rerun",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1077_intrinsic_split",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1077_intrinsic_split",
+  "claims": [
+   {
+    "i": 850,
+    "what": "associativity of the even Clifford algebra verified on ALL 128^3 = 2,097,152 even-blade triples; center computed by complete enumeration of all 128 even blades",
+    "where": "FINDINGS.md 'The theorem'; b1077_results.json",
+    "why": "an exhaustive brute-force check over a stated, finite, reproducible search space (128^3 triples) described with two independently-coded constructions agreeing -- strong COMPUTED signal in the prose, but no .py script is committed in this arc directory, only the results JSON transcript",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 851,
+    "what": "the L154 sigma-identification: the two central charges are equal exactly at sigma:=1, forbidden by the circularity guard as evidence",
+    "where": "l154_results.json",
+    "why": "same basis -- described as re-derived from scratch with an E8 sanity anchor, but no committed script",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

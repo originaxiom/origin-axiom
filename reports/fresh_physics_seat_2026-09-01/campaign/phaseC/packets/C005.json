@@ -1,0 +1,72 @@
+[
+ {
+  "arc": "B153_degree_rank_degeneration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B153_degree_rank_degeneration",
+  "claims": [
+   {
+    "i": 90,
+    "what": "n=3 {1,i,-i}: exact-over-F_p (3 primes) 2-component decomposition, dim-5 geometric component tangent 11 rigid/irreducible/L=+M^3; dim-3 reducible slice tangent 10",
+    "where": "n3_exact_endpoint.sage (NOT independently read by this reviewer; referenced in FINDINGS.md sec 'n=3 is a genuine component')",
+    "why": "the .sage file was listed as FULL mode but not opened in this pass; FINDINGS.md describes it as reproducible via Sage, and the claimed exact tangent values (11, 10) are explicitly flagged in FINDINGS.md as a self-caught correction from an earlier wrong numerical value (14), which is a good transparency sign, but this reader did not verify the sage script's content directly",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B157_metallic_exponent",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B157_metallic_exponent",
+  "claims": [
+   {
+    "i": 92,
+    "what": "figure-eight (m=1,o=4)->k=3 exact over Q(i)",
+    "where": "FINDINGS.md Result 3, r1_fig_sl3_o4_proof.py (listed only, not opened)",
+    "why": "referenced as exact symbolic proof but script itself not read in this pass",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B160_quasicrystal_bridge_corroboration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B160_quasicrystal_bridge_corroboration",
+  "claims": [
+   {
+    "i": 96,
+    "what": "golden/silver/bronze spectral measure -> 0 at distinct geometric rates (0.759/0.779/0.719)",
+    "where": "FINDINGS.md table; fib_spectrum.py, silver.py (listed only, not opened)",
+    "why": "the two golden/silver scripts backing these specific numeric ratios were not opened in this pass; bronze's own script (bronze_indep.py) was opened and does compute its ratio numerically via a finite-grid transfer-matrix scan (not a rigorous measure-zero proof, itself flagged NUMERIC in the verification ledger table)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B197_figure_eight_volume_torsionfree",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B197_figure_eight_volume_torsionfree",
+  "claims": [
+   {
+    "i": 117,
+    "what": "C1/C3/C4 volumes, homology, Chern-Simons via SnapPy (b++LR=m004, m003 torsion tie, chiral CS=+-1/48)",
+    "where": "volume_selection.py L75-111",
+    "why": "gated on SnapPy being importable (`HAVE_SNAPPY`); if SnapPy is unavailable the script only prints recorded constants and skips the actual computation -- a stranger without SnapPy installed cannot independently verify C1/C3/C4, only C2",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B198_metallic_exponent_CAS",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B198_metallic_exponent_CAS",
+  "claims": [
+   {
+    "i": 118,
+    "what": "SL3 o3->k=4, o4->k=3 exact over Q(zeta_o)",
+    "where": "sage_groebner.py L59-73",
+    "why": "requires sage-python (not the pyenv runner) to execute; the FINDINGS explicitly flags this as a separate tooling requirement, but the ideal/Groebner computation itself is exact and deterministic once Sage is available",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

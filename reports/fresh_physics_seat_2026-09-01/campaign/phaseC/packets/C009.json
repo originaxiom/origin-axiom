@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B335_generation_symmetry_exact",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B335_generation_symmetry_exact",
+  "claims": [
+   {
+    "i": 203,
+    "what": "vol(3-fold cover)/vol(4_1) = 3.0 exactly; shortest geodesics have multiplicity 3; cusp shape 2sqrt3 i, |.|^2=12",
+    "where": "generation_symmetry_exact.py (calls snappy.Manifold('4_1').covers(3, cover_type='cyclic') live, per grep of imports)",
+    "why": "this file does contain live snappy.Manifold(...) calls (confirmed via grep), unlike several sibling arcs that hardcode the same class of SnapPy numbers as literals \u2014 a genuine positive; full body not read line-by-line in this pass",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 204,
+    "what": "the order-24 isometry group of the cover is NOT 2T (SL(2,3)): abelianizations differ ((Z/2)^2 vs Z/3)",
+    "where": "FINDINGS.md 'The refuted hope'",
+    "why": "standard group-theory fact, plausible, not fully verified line-by-line here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B337_structure_xor_ordering",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B337_structure_xor_ordering",
+  "claims": [
+   {
+    "i": 207,
+    "what": "the heterogeneous-seed overlap matrix [[2,3,6],[3,2,3],[6,3,2]] has eigenvalues {10.2,-4,-0.2}, an ordered (non-degenerate) spectrum, vs the symmetric B324 circulant's degenerate {52,1,1}",
+    "where": "structure_xor_ordering.py (sympy, imports sampled only)",
+    "why": "explicit numeric matrix given in FINDINGS, plausible standard eigenvalue computation; .py body not fully read",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B339_cs_flow_subleading",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B339_cs_flow_subleading",
+  "claims": [
+   {
+    "i": 209,
+    "what": "CS(1,n) = -1/(2n) + 1/(24n^3) + O(1/n^5); c3*24 = 0.99993 fitted over 135 fillings n=6..140",
+    "where": "cs_flow_subleading.py (grep confirms a live snappy call: 'M=snappy.Manifold(\"m004\"); M.dehn_fill((1,n))')",
+    "why": "unlike B338, this arc's script does call snappy live per the import grep, fitting over 135 points rather than relying purely on a small hardcoded table \u2014 a stronger reproducibility posture, though the fit code itself was not fully read line-by-line",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 210,
+    "what": "c2=0 is a theorem (from CS(1,-n)=-CS(1,n) oddness), not a numeric fit",
+    "where": "FINDINGS.md 'Result'",
+    "why": "a clean algebraic argument from a previously-banked amphichirality/CS-sign law (B289), plausible",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B340_cp_phase_along_flow",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B340_cp_phase_along_flow",
+  "claims": [
+   {
+    "i": 211,
+    "what": "kappa = tr(rho[a,b]) computed via live SnapPy SL2C holonomy at each filling (1,n); arg(kappa) decreases from pi/6, (pi/6-arg kappa) ~ 3.8*CS^2",
+    "where": "cp_phase_along_flow.py (grep confirms live snappy call: 'M=snappy.Manifold(\"m004\"); M.dehn_fill((1,n))')",
+    "why": "a live SnapPy holonomy computation per import grep, a genuine new instrument per FINDINGS ('none existed'); not fully read line-by-line",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B343_exact_tbm_irreducibility",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B343_exact_tbm_irreducibility",
+  "claims": [
+   {
+    "i": 213,
+    "what": "Phi_3=x^2+x+1 is irreducible mod 2 (over F2), forcing the deck Z/3 to 3-cycle the Klein group's three nonzero elements with no fixed point; T=diag(1,omega,omega^2) does not normalise the neutrino Klein group",
+    "where": "exact_tbm_irreducibility.py (sympy+numpy, imports sampled only)",
+    "why": "standard finite-field irreducibility and matrix-commutation checks, plausible; not fully read line by line",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

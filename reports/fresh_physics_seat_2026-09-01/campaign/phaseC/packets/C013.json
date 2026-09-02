@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B508_geometry_machine",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B508_geometry_machine",
+  "claims": [
+   {
+    "i": 290,
+    "what": "delta(s)=(s^2+s-1)/(s-1); out-of-sample checks at s=3 (11/2) and s=-2 (-1/3), delta=0 at golden points, delta=5 at s=2 matching 2*acosh(sqrt5/2)=2 log phi",
+    "where": "frontier/B508_geometry_machine/FINDINGS.md",
+    "why": "the arc directory has only FINDINGS/PREREGISTRATION/verdict.json, no script; the out-of-sample claim is a strong methodological point (fresh intertwiner constructions at unseen points) but its committed witness is a lock file outside this directory (test_b504_b505.py).",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B509_square_time_curve",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B509_square_time_curve",
+  "claims": [
+   {
+    "i": 291,
+    "what": "E: Y^2=X^3-2X+1, disc 80, conductor 40, j=+55296/5, torsion Z/4, rank 0 via Sage descent, Cremona label 40a3 isogenous (not isomorphic) to 40a1",
+    "where": "frontier/B509_square_time_curve/FINDINGS.md",
+    "why": "described as computed by Sage/sympy (elimination exact via sympy; rank via Sage descent) but no script file appears in this arc's 2-file directory (only FINDINGS.md + verdict.json); reproducibility depends on an external lock (tests/test_b509.py) not sampled here.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 292,
+    "what": "the handoff's j-invariant sign (-55296/5) was wrong; corrected to +55296/5, \"the session's fourth sign slip, caught by verification\"",
+    "where": "frontier/B509_square_time_curve/FINDINGS.md",
+    "why": "a genuine caught-error is a good sign of real verification discipline, but again no script sits in this directory to rerun the sign check.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B510_convening_resolution",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B510_convening_resolution",
+  "claims": [
+   {
+    "i": 293,
+    "what": "y^2=x(x-1)(x-5) is Cremona 40a1, j=148176/25; genus-1 cover d^2=(c^2-1)(c^2-5) has Jacobian exactly 40a3; 40a3 is 2-isogenous to 40a1 not a quadratic twist (j differs, no small-d twist found by scan)",
+    "where": "frontier/B510_convening_resolution/FINDINGS.md",
+    "why": "narrated as \"classical I,J invariants \u2192 minimal model \u2192 isomorphism True\" and a twist scan, but no script exists in this 2-file arc directory; relies on test_b509.py extension outside sampled files.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 294,
+    "what": "correction: 40a3 is NOT a quadratic twist of 40a1 (\"sixth caught error of the arc\")",
+    "where": "frontier/B510_convening_resolution/FINDINGS.md",
+    "why": "another genuine self-correction, again without a committed script to independently confirm the twist scan.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B511_physics_verdict",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B511_physics_verdict",
+  "claims": [
+   {
+    "i": 295,
+    "what": "D3.3 wild accessibility: P(kappa\u22482 classical) \u2265 0.84, P(wild-accessible kappa) \u2264 0.10",
+    "where": "frontier/B511_physics_verdict/D3_FINDINGS.md, using frontier/B511_physics_verdict/d3_wild_access.py",
+    "why": "d3_wild_access.py is committed and runnable, but its output (the 0.84/0.10 figures cited in D3_FINDINGS.md) is not saved anywhere in the directory \u2014 no results.txt/json for this cell exists, unlike D3.1/D3.2 which have d3_results.txt/json.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B512_six_computation_pass",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B512_six_computation_pass",
+  "claims": [
+   {
+    "i": 296,
+    "what": "silver ladder tr(t)^2=2 -> order-16 2-group (dihedral/quaternion family), NOT reaching 2T/E6; golden tr(t)^2=1 -> 2T -> E6",
+    "where": "frontier/B512_six_computation_pass/FINDINGS.md cell C",
+    "why": "described as \"computed independently\" but no script exists in this arc's 2-file directory (only FINDINGS.md + verdict.json).",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

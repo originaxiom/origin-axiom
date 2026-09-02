@@ -1,0 +1,72 @@
+[
+ {
+  "arc": "B234_handoff_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B234_handoff_verification",
+  "claims": [
+   {
+    "i": 133,
+    "what": "E7's 56-rep Frobenius-Schur indicator is pseudoreal (-1), not real, correcting chat1's claim",
+    "where": "e7_fs_indicator.py:16-26",
+    "why": "script imports Sage's WeylCharacterRing (implied by context/other Sage scripts in the arc set); not verified runnable without Sage, which is not proven present in the environment by this arc's committed files alone",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B235_metallic_table",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B235_metallic_table",
+  "claims": [
+   {
+    "i": 134,
+    "what": "figure-eight covers up to degree 6 all have invariant trace field Q(sqrt-3), no sqrt(-7)",
+    "where": "l47_snappy_probe.py",
+    "why": "requires sage-python + SnapPy; no committed witness output (.log/.out) exists in the directory, so a stranger without SnapPy cannot check the claimed numeric field result independent of running proprietary/optional software",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B243_levelrank_conjugation_general",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B243_levelrank_conjugation_general",
+  "claims": [
+   {
+    "i": 136,
+    "what": "V(k) is quadratic only at k in {3,6,10} (golden/silver/k=10); bronze (k=11) has degree 6, refuting the 'metallic ladder' pattern",
+    "where": "levelrank_general.py:71-74 plus a Sage-verified field-degree table in FINDINGS.md",
+    "why": "the k=1..10 self-check is pure-Python/numeric and reproducible; the algebraic-degree table for k up to 12 is stated as 'Sage-verified' in FINDINGS.md but no Sage script is committed in this arc's file list, so the degree-6 refutation at bronze cannot itself be recomputed from committed files",
+    "reproducible_from_committed": "partial"
+   }
+  ]
+ },
+ {
+  "arc": "B244_quantization_edge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B244_quantization_edge",
+  "claims": [
+   {
+    "i": 137,
+    "what": "SL(3,C) geometric-component volume 8.11953285 = 4 x Vol(SL(2))",
+    "where": "sl3_volumes.py (SnapPy Ptolemy variety, obstruction class c0 with 3 reps)",
+    "why": "requires sage-python + SnapPy's Ptolemy machinery; no committed .log/.out witness exists for this run, so the headline volume value cannot be checked from committed files alone",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B251_metallic_specificity",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B251_metallic_specificity",
+  "claims": [
+   {
+    "i": 140,
+    "what": "SnapPy cross-check of the same facts",
+    "where": "metallic_specificity_sage.py (12 lines)",
+    "why": "requires SnapPy; no committed witness output for this short script",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

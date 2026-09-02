@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B923_exactification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B923_exactification",
+  "claims": [
+   {
+    "i": 690,
+    "what": "Numeric identification of exact atoms to B912's atom labels; belt-anchor reproduction to 7.3e-88 floor",
+    "where": "FINDINGS.md 'Tier statement'",
+    "why": "Explicitly flagged by the arc itself as 'Numeric tier (identification only)' -- dps 80 residuals against B912's banked 35-digit eigenvalues, which are external banked inputs from other arcs (B912/B918), not recomputed here from B912's own source.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B941_branch_symmetric",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B941_branch_symmetric",
+  "claims": [
+   {
+    "i": 696,
+    "what": "N(V)/N(W) = 2^32*3^11/5^12, with numerator = 27*2304^4",
+    "where": "results.json headline block",
+    "why": "results.json presents the final symmetric-function table and headline as flat data with no accompanying committed script; the directory contains only FINDINGS.md, arc_verdict.json and results.json -- no .py instrument, no run log. `git log` shows this trio was committed together with no separate compute artifact. A stranger cannot regenerate results.json from anything in the repo; they can only trust the numbers as given.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B949_ignorance_map",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B949_ignorance_map",
+  "claims": [
+   {
+    "i": 702,
+    "what": "corpus status counts (banked 573/dead 218/open 55/dormant 19) and per-obstacle resolution-rate table",
+    "where": "results.json",
+    "why": "figures are stated as output of scripts/atlas/query.py's gaps() and a manual full-table extension of it (the built-in only prints six); no script specific to this arc is committed in the file set (only FINDINGS.md, arc_verdict.json, results.json), so the exact reproduction command is not included here though the underlying tool (scripts/atlas/query.py) is presumably elsewhere in the repo",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B962_vev_scout",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B962_vev_scout",
+  "claims": [
+   {
+    "i": 724,
+    "what": "27 -> 10+5+5bar+5bar+1+1 under SU(5), no 24 present",
+    "where": "FINDINGS.md sec.2; prior_art_vev.json",
+    "why": "described as 're-derived in-sandbox by the panel', no script committed in the arc directory; branching rule is standard and easily checkable by hand but no committed witness ships.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B963_tau_double_duty",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B963_tau_double_duty",
+  "claims": [
+   {
+    "i": 726,
+    "what": "E6 diagram automorphism tau=(5,1,4,3,2,0), order 2, node swaps (0,5) and (2,4)",
+    "where": "FINDINGS.md sec.1; results.json computed_here",
+    "why": "described as computed but no script committed in this arc directory (same object as B959/B960's tau, likely the same underlying computation, not re-shown here).",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 727,
+    "what": "all 63 inner sign-gradings of E6's root system fix the full Cartan",
+    "where": "FINDINGS.md sec.1; results.json inner_sign_gradings_tested",
+    "why": "same number/claim as B959 sec.2; no script in this arc's own directory; consistent with a shared upstream computation but not independently re-verified here.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

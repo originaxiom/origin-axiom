@@ -1,0 +1,100 @@
+[
+ {
+  "arc": "B8107_r48_verify",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8107_r48_verify",
+  "claims": [
+   {
+    "i": 1046,
+    "what": "R48-F1 backfill verified real (B1012, B1080, B1094, B1098, B1100 present in THEOREM_REGISTRY.md) and gate_theorem_registry correctly scoped to creates_law:True only",
+    "where": "FINDINGS.md lines 180-190",
+    "why": "text-presence checks against origin/main, no committed script.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1047,
+    "what": "the submitted paper tarball (oa-structure-paper.tar.gz) main.tex line 1549 no longer carries the dash defect; tarball MD5 0b4305200e07f12b5fe734e9ca96800b matches working copy",
+    "where": "relays/CC3_TO_CC_2026-08-21_P1_DEFECT2_IS_NOT_LIVE_VERIFIED_IN_THE_TARBALL.md",
+    "why": "MD5 checked directly against the actual submitted artifact -- a genuinely strong verification method, but the tarball itself is not part of this arc's committed file list per the packet.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8109_r48_close",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8109_r48_close",
+  "claims": [
+   {
+    "i": 1049,
+    "what": "lag-scan hit rate ~6% (2 real findings from 36 candidates); banner discriminator had 7/13 false positives on a second pass; an 'overturned-claim' scan with a positive control returned exactly one hit (F2 itself) across 30 no-banner surfaces",
+    "where": "FINDINGS.md lines 108-136",
+    "why": "no script committed in this arc's directory (only FINDINGS.md, arc_verdict.json, results.json); the described scans (first with a broken regex that could not cross markdown hard-wraps, returning a false 0-of-23) are narrated but not reproducible from these files alone.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B8148_m12_settled",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8148_m12_settled",
+  "claims": [
+   {
+    "i": 1085,
+    "what": "reduction algorithm reproduces the full banked m=1..11 GL(2,Z)-class table exactly as a control before being applied at m=12",
+    "where": "results.json:result.control",
+    "why": "described as 'reduction re-implemented from scratch and validated against Theorem thm:classes' full m=1..11 table' but no script file is among this arc's delivered files (only arc_verdict.json, results.json, relays/).",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1086,
+    "what": "m=12 (disc=148) has exactly 3 classes under both SL(2,Z) and GL(2,Z)",
+    "where": "results.json:result",
+    "why": "same reproducibility gap as above.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1087,
+    "what": "the off-by-one mechanism (b<floor(sqrt(D)) vs b<sqrt(D)) that would produce a wrong count of 2 at D=148, discovered because the author's own first re-implementation made exactly this mistake (also giving 0 classes at m=11,13)",
+    "where": "results.json:the_likely_source_of_2",
+    "why": "same gap; also explicitly hedged as 'the likely explanation', not proven to be what any external count actually did.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B957_l124_torsor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B957_l124_torsor",
+  "claims": [
+   {
+    "i": 715,
+    "what": "(-3|5) = -1 (5 inert in Q(sqrt-3)); (5|3) = -1 (3 inert in Q(sqrt5))",
+    "where": "FINDINGS.md 'the fields are not just different' section; results.json",
+    "why": "Legendre symbol values are stated as 'computed here' but no script or witness file for the computation is committed in the arc directory (only FINDINGS.md/verdict/results.json narrative); the arithmetic is trivial enough to hand-check, but there is no committed artifact a stranger could re-run.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B960_l136_adjoint",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B960_l136_adjoint",
+  "claims": [
+   {
+    "i": 722,
+    "what": "det(Cartan matrix of E6) = 3",
+    "where": "FINDINGS.md 'the answer' table; results.json",
+    "why": "stated as computed, no script in this arc's directory; standard fact easily checkable but no committed witness here.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 723,
+    "what": "omega_1 (27's h.w.) not in the E6 root lattice; omega_2, omega_4 are",
+    "where": "FINDINGS.md 'the answer' table; results.json fundamental_weights_in_root_lattice",
+    "why": "the lattice-membership computation is described as run here but no script ships in the arc directory.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

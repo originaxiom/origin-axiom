@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B801_negative_census",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B801_negative_census",
+  "claims": [
+   {
+    "i": 591,
+    "what": "60-arc sample from 557-arc pool, seed fixed before draw (20260729), finds 12/60 = 20% negative rate",
+    "where": "census.json",
+    "why": "the sampling methodology (seed, pool, rule) is stated and the 12 negative arc IDs are named with one-line justifications, but no script that drew the sample or classified each arc is committed in this arc's 3 files -- the classification itself (is B114 a 'negative'?) required human/LLM judgment on each of the 60 arcs, not re-runnable code.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B805_forcing_graph",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B805_forcing_graph",
+  "claims": [
+   {
+    "i": 596,
+    "what": "567 of 733 arcs (77%) attach to no face; 6 of 11 faces have no proved arc",
+    "where": "FINDINGS.md table; scripts/forcing/build.py (not in this arc's file list, referenced only)",
+    "why": "the generating script scripts/forcing/build.py and its output forcing_graph.json are referenced in FINDINGS.md but are NOT among this arc's committed 2 files (FINDINGS.md, arc_verdict.json) per the packet -- cannot verify from what was read whether these files exist and are reproducible.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B806_lexicon_blindness",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B806_lexicon_blindness",
+  "claims": [
+   {
+    "i": 597,
+    "what": "Keyword face-classifier scores precision 0.45, recall 0.63, exact-set match 13% against 166 human-classified arcs",
+    "where": "FINDINGS.md:15-17",
+    "why": "no script is among this arc's 2 committed files (FINDINGS.md, arc_verdict.json); referenced test/build tooling (scripts/forcing/build.py, tests/test_b806_lexicon.py) sits outside this arc's directory.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 598,
+    "what": "Top-3 motif coverage 93.3% (later corrected in-document to 0.8845)",
+    "where": "FINDINGS.md:24-25 with correction annotation",
+    "why": "same reproducibility gap as above; the correction itself is transparently documented in-arc, which is good practice, but the underlying computation is not in this arc's own files.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 599,
+    "what": "Zero overlap between kill_graph's 11 'faces' and the atlas's 18 'motifs'",
+    "where": "FINDINGS.md table (faces vs motifs lists)",
+    "why": "presented as a direct set-comparison of two named vocabularies; plausible to check by inspection but no script computing the overlap is in this arc's files.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B815_kappa_precision_note",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B815_kappa_precision_note",
+  "claims": [
+   {
+    "i": 606,
+    "what": "Synthetic-data calibration: 12 raters x 15 items x 4 categories at 85% per-rater fidelity yields Fleiss kappa=0.7695, bootstrap 95% CI [0.6549,0.8471]",
+    "where": "PRE_DATA_NOTE.md",
+    "why": "the note states the Fleiss kappa instrument (scripts/checks/fleiss_kappa.py) was built and verified against Fleiss's published worked example, then run on synthetic data of the stated shape -- but neither the script nor the synthetic dataset is among this arc's one committed file (PRE_DATA_NOTE.md); this is a design/pre-registration note, not a computation artifact.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B81_sl5_adproof",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B81_sl5_adproof",
+  "claims": [
+   {
+    "i": 29,
+    "what": "char(DT_0(4,m=1)) identical across seeds (canonical); char(DT_0(5,m=1)) scatters (24/25 coeffs differ across seeds 20/99/123)",
+    "where": "FINDINGS.md table lines 19-22",
+    "why": "probe.py not directly opened this pass; described as exact F_p computation",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

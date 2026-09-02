@@ -1,0 +1,72 @@
+[
+ {
+  "arc": "B866_charge_cubic",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B866_charge_cubic",
+  "claims": [
+   {
+    "i": 655,
+    "what": "TYPE check: derived algebra dim 45, center dim 1 at the enhancement root -> so(10)+u(1)",
+    "where": "FINDINGS.md section 2a",
+    "why": "Described as computed at a '55-digit root' with a '15-order spectral gap' -- i.e. a high-precision NUMERIC (not exact rational) root refinement, not committed as a separate witness script in this arc's file list.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B869_false_positive_control",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B869_false_positive_control",
+  "claims": [
+   {
+    "i": 657,
+    "what": "so(14) keeps an extra su(2) (endpoint SM x su(2)); su(6) Sym^2 family lands on su(3)+3u(1)",
+    "where": "FINDINGS.md section 3",
+    "why": "Described in FINDINGS as computed by the same generic engine; the D-type/Sym^2-specific branching code was not inspected beyond the first 120 lines in this pass.",
+    "reproducible_from_committed": "unknown (not fully verified in this sampled pass)"
+   }
+  ]
+ },
+ {
+  "arc": "B878_maass_upper_window",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B878_maass_upper_window",
+  "claims": [
+   {
+    "i": 664,
+    "what": "SM comparison tests (clean null: no SM value reachable from the 17-eigenvalue lower-window spectral set at 8-digit precision under base-rate control)",
+    "where": "branch_FINDINGS.md 'THE LAST DOOR: SM COMPARISON' section",
+    "why": "described with a pre-registered protocol and specific p-values/PSLQ results in branch_FINDINGS.md prose, but the actual test scripts (sm_comparison_tests.py) are not among this arc's committed files -- only the prose summary is inherited via branch_FINDINGS.md",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B894_meditation_trio",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B894_meditation_trio",
+  "claims": [
+   {
+    "i": 669,
+    "what": "the addendum's corrected field discriminant disc K = 6237 = 3^4*7*11, monogenic model, 5 unramified",
+    "where": "FINDINGS.md Addendum 2026-08-18",
+    "why": "the addendum states the correction was 'verified on this bench by independent computation (sympy, exact; not the audit seat's script)' but no script file for this specific reduced-model computation appears among this arc's committed files (only m4_bridge.py, which implements the original M4 bridge, not the addendum's field-discriminant check) -- likely lives in a different arc/lock (test_c28_ramification.py) not included in this packet",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B906_flavor_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B906_flavor_verification",
+  "claims": [
+   {
+    "i": 672,
+    "what": "Wholesale re-run of the solo seat's entire flavor suite (unified gluing law, 15-atom decomposition, K3,3 coupling grid, the value I=-1 at two primes) on this build's own frame, reported as matching the solo seat's originals",
+    "where": "results.json (verification_lane, all sub-verdicts VERIFIED)",
+    "why": "FINDINGS.md's own 'Files' section states explicitly: 'the suite's outputs live in the session scratchpad per relay discipline (scripts are the solo seat's, not re-banked)' -- i.e. the actual reproduction/rerun SCRIPTS that produced these verification numbers are NOT committed in this arc's directory (only the resulting results.json summary is committed). A stranger cloning the repo cannot rerun this verification from the files present in B906_flavor_verification/ alone; the scripts belong to a separate 'solo seat' handoff whose own arc directories were not part of this packet.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

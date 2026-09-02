@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B345_z3_deviation_texture",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B345_z3_deviation_texture",
+  "claims": [
+   {
+    "i": 216,
+    "what": "Z/3-charge selection rule: couplings allowed only when charge_i+charge_j = 0 mod 3; the B265 exponent split {4,8}/{5,7,11} does not align with this charge grading (both sets are {1,2} mod 3)",
+    "where": "z3_deviation_texture.py (sympy, imports sampled only)",
+    "why": "elementary modular-arithmetic combinatorics on the exponent sets {4,8} and {5,7,11}; a one-line check but not independently re-run here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B347_e6_tangent_gradings",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B347_e6_tangent_gradings",
+  "claims": [
+   {
+    "i": 218,
+    "what": "dim H^1(4_1,Sym^{2m})=1 for all six E6 exponents {1,4,5,7,8,11} via Fox calculus on the SnapPy census presentation, singular-value rank gaps of 10^85-10^119; relator self-verified to ~1e-70",
+    "where": "e6_tangent_gradings.py (mpmath, high-precision, imports sampled only)",
+    "why": "FINDINGS describes a self-verifying high-precision (mpmath) computation with explicit numeric rank-gap evidence; a strong reproducibility posture on paper, but this reader sampled only the import line and did not re-run or fully read the ~11KB script",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 219,
+    "what": "the handoff's claimed E6 Cartan spectrum {2-sqrt3,3,2+sqrt3} was wrong (it is the G2\u2295A2 spectrum, not E6's)",
+    "where": "FINDINGS.md header",
+    "why": "a correction of a prior (out-of-arc) handoff's Cartan-eigenvalue error; plausible and consistent with E6 having six distinct exponent-derived eigenvalues",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B416_tw2_dynamics",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B416_tw2_dynamics",
+  "claims": [
+   {
+    "i": 241,
+    "what": "the golden-Anosov structure with rate 4 log phi is GENERIC to hyperbolic once-punctured-torus bundles (control: the metallic family shares it), failing bar (iv) distinctiveness",
+    "where": "FINDINGS.md 'The bar check' CONTROL note",
+    "why": "the control comparison against the 'metallic family' is asserted as a known mathematical fact rather than shown as a script output in this arc's own files",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B446_thermo_d1_tower_moments",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B446_thermo_d1_tower_moments",
+  "claims": [
+   {
+    "i": 248,
+    "what": "tower law N*Var=3/8 (golden) exactly at N=15,45,135,405,1215, out-of-sample at N=3645 (predicted and measured 0.375000)",
+    "where": "pipeline.py tower loop -> results.json tower_gold; run_log.txt tower section",
+    "why": "N=15..1215 are in the committed results.json/run_log.txt sampled; N=3645 (the specific out-of-sample claim in FINDINGS.md) does NOT appear in run_log.txt or in the sampled results.json (which stops at N=1215 for the gold tower) \u2014 the packet's committed artifacts do not show the N=3645 run",
+    "reproducible_from_committed": "partial"
+   }
+  ]
+ },
+ {
+  "arc": "B451_thermo_d4_resonances",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B451_thermo_d4_resonances",
+  "claims": [
+   {
+    "i": 253,
+    "what": "n=8 second Ruelle resonance rate 0.705(8) (N-drift quoted as the uncertainty)",
+    "where": "FINDINGS.md Addendum table",
+    "why": "the cycle-expansion-at-N=7/8 table numbers are stated in FINDINGS but the specific script producing that exact table (as opposed to the orbit counts) was not directly located/read in the file list provided (resonances.py listed but not opened here)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

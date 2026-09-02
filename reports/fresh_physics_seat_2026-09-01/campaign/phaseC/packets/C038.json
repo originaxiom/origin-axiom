@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B1078_gauge_selection",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1078_gauge_selection",
+  "claims": [
+   {
+    "i": 853,
+    "what": "field-theoretic facts about K (disc=6237, splitting behavior of 953, 59, 277, 7, 11) verified via PARI/GP nfinit+idealprimedec",
+    "where": "b1078_results.json 'f' block",
+    "why": "explicitly re-verified in-sandbox with a named tool (PARI/GP) inside the same session -- a strong reproducibility signal in the prose, but no PARI script or its output is committed as a standalone file in the arc directory, only the JSON transcript",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 854,
+    "what": "the 18-gauge control sweep and the RIGIDITY THEOREM (lambda spectrum closed at exactly four values)",
+    "where": "FINDINGS.md 'THE CONTROL SWEEP'; control_sweep_results.json",
+    "why": "control_sweep_results.json is committed in FULL mode as a results file, but again appears to be a results/output artifact rather than the generating script",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1079_wilson_menu",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1079_wilson_menu",
+  "claims": [
+   {
+    "i": 855,
+    "what": "exhaustive enumeration of all 15,624 nonzero (Z/5)^6 coweight points reproducing the nine menu rows bit-for-bit (counts 4320/4320/2160/1728/1440/864/540/144/108)",
+    "where": "b1079_results.json 'menu' block",
+    "why": "described as built from scratch from the Bourbaki Cartan matrix with four independent structural cross-checks (72 roots, highest root, Coxeter number, det=3) plus an external correctness gate (so(10)+u(1)->16+10+1) -- strong prose evidence of a real, careful computation, but the actual generating script ('scratchpad/e6_menu_build.py' referenced in-text) is not committed to this arc directory",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 856,
+    "what": "E6's marks (1,2,2,3,2,1) all <=3, forcing no order-5 element to reach a center-0 type",
+    "where": "FINDINGS.md 'THE MECHANISM'",
+    "why": "a Kac-theoretic mechanism verified against the enumeration's own witnesses (su(6)+su(2), su(3)^3), same reproducibility caveat as above",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1080_global_form",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1080_global_form",
+  "claims": [
+   {
+    "i": 858,
+    "what": "Gamma=Z/6 uniform kernel computation across six Weyl realizations of the cascade terminus",
+    "where": "FINDINGS.md 'The theorem'; b1080_results.json",
+    "why": "described with a caught-and-fixed mid-computation bug (non-primitive u(1) generators, caught by a group-closure self-check) -- a real reproducibility signal -- but no standalone script is committed, only the results JSON",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 859,
+    "what": "row 4's Gamma=Z/5 correction, triple-derived (kernel search + lattice-index elementary divisor 5 + hand-verified witness)",
+    "where": "FINDINGS.md header",
+    "why": "same basis; the verifier caught this pre-bank, a genuine adversarial catch, but not independently reproducible from a committed script alone",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1081_hydrogen_audit",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1081_hydrogen_audit",
+  "claims": [
+   {
+    "i": 862,
+    "what": "the neutrality theorem 2(2/3)+(-1/3)+(-1)=0 as exact fractions forced by the weight lattice",
+    "where": "FINDINGS.md 'The verdict'; b1081_results.json 'a' block",
+    "why": "a simple exact-arithmetic identity restated from banked charge values (B970/B864); described as re-verified in-sandbox this session, but no script is committed in the arc directory -- the identity itself is trivial to check by hand given the charges, but the charges' derivation (B970's ten hypercharges) is imported",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1086_spectrum_law",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1086_spectrum_law",
+  "claims": [
+   {
+    "i": 871,
+    "what": "the '2' is dial-specific, not generic (an inner twist absorbs to 5; a naive grading involution is not chain-map-compatible)",
+    "where": "FINDINGS.md section 2",
+    "why": "the arc names this its own 'residual': an own-code rebuild of the actual dial matrices (hv8/hv16) has NOT yet been done -- the current evidence rests on the verified certificate plus B634 corroboration, honestly flagged as incomplete",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

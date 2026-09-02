@@ -1,0 +1,72 @@
+[
+ {
+  "arc": "B127_chirality_arithmetic_naming",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B127_chirality_arithmetic_naming",
+  "claims": [
+   {
+    "i": 58,
+    "what": "CS(M_m^2=R^mL^m) identically 0 for m=1..6 (SnapPy complex_volume, machine zero)",
+    "where": "FINDINGS.md M-2",
+    "why": "described as computed via SnapPy but the FINDINGS/README note the SnapPy recomputation is guarded/skips when absent; the packet did not include probe.py at full-read depth for this arc (only FINDINGS/README/verdict were in the batch's per-file list for B127, no probe.py entry present in packet)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B128_symmetry_breaking_chirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B128_symmetry_breaking_chirality",
+  "claims": [
+   {
+    "i": 59,
+    "what": "torsion tracks periodicity not chirality (K-F tombstone), e.g. achiral doubles single-torsion, achiral periodic triples doubled",
+    "where": "probe.py TORSION_TABLE, torsion_does_not_track_chirality()",
+    "why": "recorded as a hardcoded table from SnapPy computation; live SnapPy recomputation is guarded/optional",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B130_no_forced_choice",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B130_no_forced_choice",
+  "claims": [
+   {
+    "i": 62,
+    "what": "kappa-elimination ideal empty for m=2,3,4 (symbolic Groebner) -> kappa free on fixed locus",
+    "where": "probe.py kappa_elimination(), KAPPA_FREE_SYMBOLIC",
+    "why": "m=2 computed live in the script's main(); m=3,4 are described as 'verified in-sandbox; recorded' with runtimes noted (~80s, ~8s) but not executed live in main() by default -- a stranger rerunning main() only gets m=2 live, m=3/4 as hardcoded record unless they manually call kappa_elimination(3)/(4)",
+    "reproducible_from_committed": "partial"
+   }
+  ]
+ },
+ {
+  "arc": "B131_two_seed_fork",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B131_two_seed_fork",
+  "claims": [
+   {
+    "i": 64,
+    "what": "(1,3) and (2,3) forks are numerical (6 and 4 values respectively)",
+    "where": "probe.py FORKS dict",
+    "why": "hardcoded numerical values in probe.py without a live root-finder shown for these in main(); described as 'numerical' honestly in FINDINGS but the exact Newton-solve script producing them is not visible in the sampled code",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B134_chirality_recursion_proved",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B134_chirality_recursion_proved",
+  "claims": [
+   {
+    "i": 66,
+    "what": "SnapPy three-way check: anti-palindromic == cyclic-palindrome == is_amphicheiral agree on 16 sample cases",
+    "where": "probe.py snappy_threeway()",
+    "why": "SnapPy-guarded, skips cleanly if absent",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

@@ -1,0 +1,100 @@
+[
+ {
+  "arc": "B679_engine_patch",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B679_engine_patch",
+  "claims": [
+   {
+    "i": 455,
+    "what": "downstream lock/cell rerun battery (b678, b673, b651, b670, b663, b646 cells + 4 pytest files) all PASS with patched engine pre-injected",
+    "where": "equivalence_locks_out.txt",
+    "why": "the harness that ran these (timeouts, PASS/PASS(note) lines) is not included in this arc's file set -- only the captured stdout is committed, not the runner script itself",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B696_eisenstein_campaign_close",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B696_eisenstein_campaign_close",
+  "claims": [
+   {
+    "i": 477,
+    "what": "E4b: silver sum-rule rank(span{[c23],[c24],[c34]}) over Q(s,i) = RANK 3 (no tying), vs golden rank 2 (banked B671); main-seat independently recomputed 4 of cc2's 7 exact 3x3 minors",
+    "where": "frontier/B696_eisenstein_campaign_close/FINDINGS.md lines 638-653; E4b_FINDINGS_CC2.md",
+    "why": "The verification depends on 'the banked silver vector-cup table' d3_silvercup/d3_results.json, which lives in a different arc (B673_loop4_integration) not included in this packet \u2014 a cross-arc dependency this arc's own files cannot resolve alone.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B700_fiber_functor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B700_fiber_functor",
+  "claims": [
+   {
+    "i": 479,
+    "what": "2I=SL(2,5) has exactly two 2-dim golden irreps, character field exactly Q(sqrt5), Galois-swapped simply-transitively (no fixed point) \u2014 cell 1",
+    "where": "frontier/B700_fiber_functor/FINDINGS.md lines 9-30",
+    "why": "Stated as verified via 'sage character table + independent Q(zeta5) recompute'; the likely witness script (ref_golden_torsor.sage) exists in the arc's file list but was not read in this pass (listed only), so it is not independently confirmed here.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 480,
+    "what": "Stage-uniform general theorem: for every prime stage p, SL(2,p) has exactly two (p-1)/2-dim irreps with character field Q(sqrt p*), verified exactly for p=5,7,11,13 \u2014 cell 5",
+    "where": "frontier/B700_fiber_functor/FINDINGS.md lines 191-199",
+    "why": "Grounded in a cited classical fact (Schur/Frobenius, Gauss-sum-valued exceptional characters); the likely witness (ref_cell5_sl2p.sage) was not read in this pass.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 481,
+    "what": "Phase 2 obstruction: the two golden irreps both have Frobenius-Schur indicator -1 and share every choice-free Galois invariant, so no canonical torsor-iso to the unitarity-pointed MTC torsor {Fibonacci, Yang-Lee} exists",
+    "where": "frontier/B700_fiber_functor/FINDINGS.md lines 236-313; phase2_cc2/phase2/PHASE2_CLOSE_CC2.md",
+    "why": "Described as independently confirmed by both seats (cc's arithmetic recompute, cc2's icosian-quaternion BFS closure via GAP/Sage); the likely witness (ref_b701_phase2.sage) exists but was not read in this pass.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B705_metallic_hearing_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B705_metallic_hearing_campaign",
+  "claims": [
+   {
+    "i": 484,
+    "what": "Cell B: figure-eight Jones V(\u03b65)=1-\u221a5=-2/\u03c6 (real); Whitehead V(\u03b610)\u22480.882+0.812i (complex, silent); N=3 Whitehead inconclusive",
+    "where": "FINDINGS_B_CC2.md \u00a72-3",
+    "why": "described as computed from-scratch (Temperley-Lieb, Jones-Wenzl) and cross-checked vs SageMath/SnapPy, but the scripts (kauffman.py, colored_jones2.py) are explicitly stated as scratch-only, NOT part of the repo ('Scratch scripts used (not part of the repo, cc2 scratchpad only)') \u2014 no witness committed",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 485,
+    "what": "Cell C: bronze = L^3R^3 identifies to s464, volume 4.81381918610; trace field degree 8 disc 391728981; tetrahedra shapes non-torsion",
+    "where": "FINDINGS_C_CC2.md Step 1-3",
+    "why": "SnapPy/PARI computation described in detail with plausible outputs, but again run in a private scratchpad, not this repo; no script or _out.txt committed in this arc",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 486,
+    "what": "Cell D: Koide \u03b80 \u03c3-distance corrected to 0.888\u03c3 (was banked as ~7\u03c3); Q5=7983360 base-rate COINCIDENCE",
+    "where": "FINDINGS_D_CC2.md",
+    "why": "described as MC N=1e6 + analytic Jacobian + mpmath 50-digit cross-check, all plausible and precise, but no script/output committed to this arc; only prose with numbers",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B727_base_rate_the_structure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B727_base_rate_the_structure",
+  "claims": [
+   {
+    "i": 505,
+    "what": "Full A-Z verdict synthesis (atom forced+special, McKay bijection, CIZ forced by Coxeter number, Lie face generic, base rate forced)",
+    "where": "b727_probe3.py Parts A-F; b727_probe3_out.txt",
+    "why": "Requires Sage+GAP+SnapPy ('Run: sage-python b727_probe3.py'); the output file is committed and was read, but a stranger without a Sage/GAP environment cannot rerun this specific probe (probe1/probe2 are plain python and do rerun).",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

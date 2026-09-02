@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B1033_generation_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1033_generation_adjudication",
+  "claims": [
+   {
+    "i": 793,
+    "what": "V2: B299's triality orbits transported and compared to CH024 -- DISTINCT",
+    "where": "b1033_cells.py (not fully shown, truncated read)",
+    "why": "File was only partially read (first ~70 lines + grep); the V2 orbit-comparison function itself was not inspected line-by-line in this pass.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1033_register_reconciliation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1033_register_reconciliation",
+  "claims": [
+   {
+    "i": 794,
+    "what": "Debt-ledger count = 234 (after correcting a working-tree-rewind bug that had produced 251)",
+    "where": "FINDINGS.md section 5",
+    "why": "The arc itself documents that the count moved three times (245->251->234) due to a substrate/tree-state bug, and states the final count was recomputed before publication -- the fact that the count is this volatile and admittedly bug-affected once already is a caution about trusting the final number without independent re-run.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1035_shadow_library",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1035_shadow_library",
+  "claims": [
+   {
+    "i": 798,
+    "what": "B930's overlap.py and B935's compose.py share a byte-identical kernel",
+    "where": "verify.py (presumably a diff/hash comparison; not read in full)",
+    "why": "Plausible and checkable in principle (diff the two files) but this pass did not independently confirm the byte-identical claim by diffing the actual files.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1036_mirror_double",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1036_mirror_double",
+  "claims": [
+   {
+    "i": 799,
+    "what": "h1(M; ad) = 6 exactly, matching the block-count-theorem falsifier prediction",
+    "where": "b1036_final.py / FINDINGS.md V5 (not directly visible in the truncated output.txt read)",
+    "why": "Claimed as computed via an independent Fox pipeline on six banked adjoint blocks; the output.txt segment read did not show this specific line, so it was not directly witnessed in this pass though the FINDINGS.md text describes it as computed, not cited.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1039_phi_fixed_and_metallic_exponent",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1039_phi_fixed_and_metallic_exponent",
+  "claims": [
+   {
+    "i": 805,
+    "what": "phi_m([A,B]) = A^m [A,B] A^-m verified by word reduction for m=1..10",
+    "where": "FINDINGS.md section 3",
+    "why": "verify.py only sampled (first 120 lines + grep), not read in full, so the free-group word-reduction implementation itself was not directly inspected",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 806,
+    "what": "the sym_power instrument bug (anti-homomorphism due to direct coordinate substitution) found by its own control and fixed via M^T",
+    "where": "FINDINGS.md self-correction section",
+    "why": "narrated in FINDINGS as a self-caught bug; the exact diff/fix was not independently verified since verify.py (26990 bytes) was only sampled, not read whole",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B1040_isomonodromy_restored",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1040_isomonodromy_restored",
+  "claims": [
+   {
+    "i": 810,
+    "what": "Schlesinger flow max invariant drift 4.25e-10 vs non-Schlesinger control 1.63e1",
+    "where": "FINDINGS.md section 3, re-run via B169's own reproducer",
+    "why": "invokes B169's reproducer script rather than reimplementing; the numeric values are stated as re-measured here but the reproducer script itself lives in B169's arc, not independently re-verified in this read",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1041_the_red_locks",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1041_the_red_locks",
+  "claims": [
+   {
+    "i": 812,
+    "what": "3 failed / 3891 passed / 119 skipped in 4870.92s full pytest run",
+    "where": "FINDINGS.md occasion section",
+    "why": "run itself is not committed as a witness (pytest logs are *.log-shaped and gitignored); the 81-minute number is asserted in prose and results.json, not accompanied by a committed CI log.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1043_the_band_is_the_wrong_unit",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1043_the_band_is_the_wrong_unit",
+  "claims": [
+   {
+    "i": 816,
+    "what": "B232 (step form) and B1038 (band form) are the same law: symbolically verified n=3..12, band(n)-band(n-1)=Sym^n(V)+Sym^{n-3}(V) via the functorial hinge",
+    "where": "FINDINGS.md section 4",
+    "why": "described as 'verified symbolically for n=3..12' but the actual verifying script is not among the files read in this packet (only verify.py's 8 checks, not separately confirmed here).",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1045_middle_band_mapped",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1045_middle_band_mapped",
+  "claims": [
+   {
+    "i": 818,
+    "what": "B485's Alexander polynomial IS B1040's metallic degree in another vocabulary (delta_m(a) verified symbolically identical, root = lambda_m^2)",
+    "where": "FINDINGS.md section 1",
+    "why": "described as 'verified identical symbolically' but the verifying code was not read in this pass.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 819,
+    "what": "5 of 58 (9%) keyword-clustering mis-assignments measured (B345, B316, B346, B423, B435)",
+    "where": "FINDINGS.md section 2 table",
+    "why": "the table is presented as a computed error rate but its derivation script was not opened here.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B105_n5_wall_and_convergence",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B105_n5_wall_and_convergence",
+  "claims": [
+   {
+    "i": 50,
+    "what": "H6/V91: n=5 is a threshold of THREE distinct obstacles (degree=rank, tower doubling, trace-ring non-closure), not one collision",
+    "where": "probe.py forced_cusp_spectrum()/cusp_spectrum_facts() (sampled); FINDINGS.md V91 correction text",
+    "why": "the three-obstacle distinction rests on citing three separate arcs (B95, B62, engine-free trace-ring argument) rather than one self-contained computation in this file",
+    "reproducible_from_committed": "partially (cusp_spectrum_facts is a simple numeric check; the 'three obstacle' framing itself is an interpretive/structural argument, not a single computation)"
+   }
+  ]
+ }
+]

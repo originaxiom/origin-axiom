@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B1067_rayclass_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1067_rayclass_harvest",
+  "claims": [
+   {
+    "i": 830,
+    "what": "22/23 class-field-theory claims REBUILT on two independent routes (exact integer/Fraction arithmetic, sympy/mpmath, cross-checked against PARI/GP-style structural reasoning)",
+    "where": "w1_results.json (per-claim 'method'/'computed' fields)",
+    "why": "the JSON explicitly states the underlying scripts were '(scratchpad) s2.py, s3.py, s4.py (plus an inline heredoc)' \u2014 these are NOT committed to the arc directory (only the JSON summary of their output is); a stranger sees only the narrated results, not runnable code",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1068_descent_inventory",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1068_descent_inventory",
+  "claims": [
+   {
+    "i": 831,
+    "what": "31-row McKay-descent inventory, 62 lens verdicts, 12 bench-adjudicated disputes",
+    "where": "FINDINGS.md table; w2_full_results.json",
+    "why": "w2_full_results.json's own text repeatedly labels the underlying computations '(scratchpad) \u2014 pure-exact python3 (integer/Fraction)'; no .py file is committed anywhere in the B1068 arc directory",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 832,
+    "what": "H^1(SL(2,F_p), sl_2) = 0,1,0 at p=3,5,7 (splitting-rigidity discriminator)",
+    "where": "FINDINGS.md 'The two headline finds'; w2_full_results.json",
+    "why": "described as bench-confirmed by 'an independent cocycle construction' but that construction is not a committed script",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1069_hearing_biography",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1069_hearing_biography",
+  "claims": [
+   {
+    "i": 833,
+    "what": "Whole ledger of Q(sqrt5) arithmetic facts (units, class number, ray class groups, orders, B92 correction)",
+    "where": "FINDINGS.md body; w3_results.json",
+    "why": "'executed fresh in-sandbox (python3/sympy, several rows cross-validated against PARI/GP and Sage)' but no script is committed to the arc directory \u2014 only the narrative FINDINGS.md and a results JSON",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 834,
+    "what": "B92's h=2 at disc 20 is wrong; true value h=1",
+    "where": "FINDINGS.md, 'The B92 correction'",
+    "why": "the correcting computation is again scratchpad-only; but it is a genuine, well-argued algebraic-identity catch (lambda_4=2+sqrt5 generating the same ring as f=2), independently plausible from the prose alone",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1070_listener_derivation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1070_listener_derivation",
+  "claims": [
+   {
+    "i": 835,
+    "what": "Orbit/stabilizer computation (Aut(2Tx2I), the 12/20/30/60 orbit decomposition, u3/u6 uniqueness under Gal(Q(zeta_60)/Q))",
+    "where": "track_a_results.json; FINDINGS.md A1",
+    "why": "FINDINGS.md itself states 'The verifiers' scripts lived in the session scratchpad (READ-ONLY discipline; repo untouched by agents)' \u2014 no code committed anywhere in this arc",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 836,
+    "what": "B641 upgraded from a 6-sample proof-sketch to a theorem over all 2880 group elements and all complex u",
+    "where": "FINDINGS.md A2",
+    "why": "same scratchpad-only pattern; also explicitly credited as building on/superseding B641's earlier, weaker 'LAW_MAP' grading of 'proof sketch'",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1071_sealed_listener",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1071_sealed_listener",
+  "claims": [
+   {
+    "i": 837,
+    "what": "C1/C2/C3 all HOLD across three independent re-implementations",
+    "where": "FINDINGS.md 'The verdicts' table; b1071_results.json",
+    "why": "FINDINGS.md states 'The independent implementations lived in the session scratchpad (READ-ONLY discipline...)' \u2014 no .py committed; only b1071_results.json (the narrated agent returns) is committed",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

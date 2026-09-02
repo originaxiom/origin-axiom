@@ -1,0 +1,86 @@
+[
+ {
+  "arc": "B624_observable_bridge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B624_observable_bridge",
+  "claims": [
+   {
+    "i": 390,
+    "what": "the identity trace(B_odd) = -(omega^-1/12)*sum(...) claimed verified '6/6 with full twelve-term tables', '0 exceptions at kappa=4..24 intersect 4Z'",
+    "where": "frontier/B624_observable_bridge/step1_identity.py through step5_full_table.py (no output.txt)",
+    "why": "no committed .txt/.json result file for any of the 5 step scripts; FINDINGS itself flags the sweep as only partially run ('the kappa=28..40 generality sweep was resource-killed and is NOT claimed') while the log entry describes the reconciliation as simply CLOSED without that caveat",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B626_jacobian_reality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B626_jacobian_reality",
+  "claims": [
+   {
+    "i": 392,
+    "what": "J values for 8 weld words (RL=5, RRLL=18, RLRL=9&23, RRRLLL=-5, RRL, RRRL, RRLLL complex/unidentified) and the reality-vs-chirality correlation",
+    "where": "frontier/B626_jacobian_reality/out_RLRL.txt (partial, RLRL only) plus 9 .py scripts (full_solve.py, full_solve2.py, solve_fixed.py, search.py, tracemap.py, run_batch.py, numeric.py, compute_table.py -- no output committed for these)",
+    "why": "only one word (RLRL) has a committed output file, and even that shows 2 'J=None' entries alongside the 4/8 solutions actually reported as 9 and 23 in FINDINGS -- the other 6 words' J-values (5, 18, -5, and the complex RRL/RRRL/RRLLL values) are quoted in FINDINGS with no committed witness at all; the presence of multiple near-duplicate scripts (full_solve.py/full_solve2.py/solve_fixed.py/search.py) itself suggests iterative debugging without a final canonical run being saved",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B627_silver_heldout",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B627_silver_heldout",
+  "claims": [
+   {
+    "i": 393,
+    "what": "the six silver-bundle exterior torsion values (m=1: -16, m=4: +11682800640, m=5: -1357126041600000 exact integers; m=7,8,11: 50+ digit complex numerics, unidentified in closed form)",
+    "where": "frontier/B627_silver_heldout/SEALED_SILVER_TORSIONS.md, frontier/B627_silver_heldout/cellF_full_result.md",
+    "why": "cellF_full_result.md's own 'Deliverables' section states explicitly that the primary run logs and driving pipeline live in a SCRATCHPAD PATH ('/private/tmp/.../scratchpad/cellF/...'), not committed to the repo ('repo is read-only per task instructions... nothing was committed'); only m7_line.txt and m8_line.txt (2 of 6 exponents) are committed as raw witness text in this arc directory, and even pipeline.py here is a copy, not the exact run script (run_m136_six.py references 'pipeline' but the m=1,4,5,11 committed evidence is only the prose table in cellF_full_result.md, not a run log)",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B653_phase_c_probe",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B653_phase_c_probe",
+  "claims": [
+   {
+    "i": 414,
+    "what": "sin^2(theta_12) = 1/(2*phi) = (sqrt5-1)/4 = 0.30901699437494742410... exactly, zero adjustable parameters",
+    "where": "packets/PREDICTION.md",
+    "why": "The 50-digit decimal and derivation chain are given in the document and traced to prior THEOREM rows (B640/B641/B642/B644), but no script or witness file is included IN THIS ARC to reproduce it from scratch; the 'INDEPENDENT COMPUTATIONAL ANCHOR' mentioned (this packet, derivation/derive.py) is referenced but that derivation/ directory is not among the files listed for this arc, so a stranger reading only this arc's committed files cannot rerun it.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B654_listening_synthesis",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B654_listening_synthesis",
+  "claims": [
+   {
+    "i": 415,
+    "what": "Q-FIELD: chord field = tetrahedral shape field (fig-8 -> Q(sqrt-3), silver -> Q(i), exact at 45+ digits)",
+    "where": "FINDINGS.md Q-FIELD; q_period_field_output.txt",
+    "why": "q_period_field_output.txt shows the numeric silver-shape output but the generating script for the Q-FIELD computation is not among this arc's committed files (only q_area_silver.py is present, which computes Q-AREA, not Q-FIELD); the field candidate that was pre-registered ('roots of unity subfield') is explicitly REFUTED in the same output, and the replacement law is described as 'mechanism open' by the document itself.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 416,
+    "what": "Q-PERIOD: N0 = 75 * lcm{d^2} exactly, with 75 = 3 * 5^2",
+    "where": "FINDINGS.md Q-PERIOD; q_period_field_output.txt",
+    "why": "The output file shows N0=2311598520000 and lcm(d^2)=30821313600 with ratio 75, an exact integer division shown in the output; but again no generating script for this cell is committed in the arc's file list, so the elementary-divisor extraction itself is not independently rerunnable from what's here. The document itself calls this 'HINT-grade structural read... the interpretation is recorded, not claimed'.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 417,
+    "what": "resonance battery: tone multiset = |chi_golden|/2, Plancherel=Schur correction, cc2 identity-card lemma, separation-table correction (0.88/6.01/7.32 sigma), 24=|SL(2,3)| reading REFUTED as gauge artifact",
+    "where": "resonance_battery_output.txt",
+    "why": "Output file is committed and shows the printed results, but the generating script that produced resonance_battery_output.txt is not among this arc's listed files (only q_area_silver.py is present) \u2014 a stranger cannot rerun this cell from what's committed here.",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

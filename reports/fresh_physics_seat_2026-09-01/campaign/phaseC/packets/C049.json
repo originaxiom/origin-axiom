@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B8124_phi_law_sharpened",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8124_phi_law_sharpened",
+  "claims": [
+   {
+    "i": 1064,
+    "what": "axis triple for RRLL is -phi times RL componentwise to 2e-50, 13-point theta sweep max residual 1.2e-50",
+    "where": "results.json componentwise_deviation_from_-phi, theta_sweep_13_points_max_residual",
+    "why": "claimed as an independent rebuild of B1128's 'own standalone script', but no script is committed in this arc's directory (only FINDINGS/verdict/results/relay); the script this seat rebuilt from is a dependency (B1128), not bundled here, so a stranger cannot rerun the 2e-50-level claim from these files alone",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8125_abscissa_not_the_cusp",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8125_abscissa_not_the_cusp",
+  "claims": [
+   {
+    "i": 1065,
+    "what": "on m003(-3,1) (Weeks manifold, closed, cusp-free, vol=0.9427073627769285), S(2) grows with steps +0.049969,+0.087368,+0.078697,+0.049255 over L=2.5..4.5, no decay",
+    "where": "results.json the_decisive_control",
+    "why": "a specific numeric control is quoted to 6 decimal places but no script is included among this arc's committed files; the computation method (partial sums of length spectrum) is described in prose only",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1066,
+    "what": "a log-fit intercept d=0.102679 near vol/(2pi^2)=0.102835 (0.15% match) was a look-elsewhere artifact: d swings from 0.197 to -0.030 across c's own ~20% uncertainty",
+    "where": "results.json the_seductive_near_miss",
+    "why": "same reproducibility gap as above \u2014 numbers given, no script committed here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8126_tone_axis_split",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8126_tone_axis_split",
+  "claims": [
+   {
+    "i": 1067,
+    "what": "four Pauli components (tone,wx,wy,wz) for RL and RRLL to 15 digits, e.g. tone(RL)=0.309016994374947=1/(2phi), wy(RL)=-0.809016994374947=phi/2",
+    "where": "results.json table",
+    "why": "quoted to 15 significant digits from an unnamed pauli_decompose routine; no script committed in this arc directory",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1068,
+    "what": "{tone,wy} land exactly on B8111's five-tone 2I menu, {wx,wz} do not, while the law's own structure splits {tone,wx,wz} (scale by -phi) vs wy (does not)",
+    "where": "FINDINGS.md the_new_finding / why_it_matters",
+    "why": "depends on B8111's menu (external arc) plus the numeric table above; consistency is checkable given both, but neither underlying computation is bundled here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B8132_spin_count_not_separating",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8132_spin_count_not_separating",
+  "claims": [
+   {
+    "i": 1073,
+    "what": "H^1(M;Z/2)=Hom(H_1,Z/2) computed across B8128's 14-manifold family: m004, m003 (Z/5+Z), m206 (Z/5+Z), m207 (Z/3+Z/3+Z) all give 2",
+    "where": "FINDINGS.md finding/computation",
+    "why": "stated as an application of B8128's instrument (wins.py) but no updated script or output file for this specific H^1 computation is committed in this arc's directory",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B8147_paperIV_refuted",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8147_paperIV_refuted",
+  "claims": [
+   {
+    "i": 1083,
+    "what": "census scan of 212,641 orientable cusped manifolds finds 77 with all tetrahedra regular ideal (shape field Q(sqrt-3)), giving a family of >=83 combined with the original 14",
+    "where": "results.json:the_root_defect",
+    "why": "a census scan of this size implies a SnapPy/manifold-census computation; no script file is listed among this arc's committed files in the packet (only arc_verdict.json, results.json, relays/), so the scan itself is not directly inspectable from this arc's directory.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 1084,
+    "what": "o10_150700: single-cusped, 10 regular ideal tetrahedra, volume exactly 5x m004, H1=Z, refuting the H1=Z separator claim",
+    "where": "results.json:refutations.H1_is_Z",
+    "why": "same as above -- no script present in this arc's file set to rerun the census/property lookup.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

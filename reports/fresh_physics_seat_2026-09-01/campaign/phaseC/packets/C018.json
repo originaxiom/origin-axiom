@@ -1,0 +1,72 @@
+[
+ {
+  "arc": "B599_selection_rule",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B599_selection_rule",
+  "claims": [
+   {
+    "i": 380,
+    "what": "The theta-parity selection rule: an evaluation with odd total theta-parity vanishes (C central, C^2=1, two-line proof) + 300 random SU(3)_2 configurations all exactly zero for odd total",
+    "where": "FINDINGS.md 'The theorem (stage face)'",
+    "why": "The proof is a clean two-line algebraic argument (asserted as a proof, plausible and generic in kind), but the 300-random-configuration numerical verification script/output is not among this arc's committed files (not in the files list for this packet) -- the stage-face computation itself is not directly witnessed in this arc's directory.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B61_sl5_high_precision",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B61_sl5_high_precision",
+  "claims": [
+   {
+    "i": 12,
+    "what": "22 of 24 SL(5) multipliers resolve to the Cayley-Hamilton catalog using inverse-word coordinates",
+    "where": "frontier/B61_sl5_high_precision/probe.py compute_sl5",
+    "why": "high-precision (dps=60) numerical extrapolation matched to catalog roots (worst resolved mode ~2e-5); explicitly 'NOT a symbolic proof'",
+    "reproducible_from_committed": "yes but NUMERIC ONLY"
+   }
+  ]
+ },
+ {
+  "arc": "B621_kappa_gating",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B621_kappa_gating",
+  "claims": [
+   {
+    "i": 387,
+    "what": "the kappa-gating law verified 'zero-exceptions kappa=4..27' with specific bearing sets quoted for RL/R2L/R3L bundles",
+    "where": "frontier/B621_kappa_gating/FINDINGS.md (THE GATING RULE section), scripts scan.py/scan2.py/diag.py",
+    "why": "no output.txt (or any .txt/.json result file) is committed for this arc -- the scan/scan2/diag scripts exist and could in principle be rerun, but the specific bearing-set numbers quoted verbatim in FINDINGS.md ({5,10,15,20,25}, {4,8,12,16,20,24}, {7,14,21}) have no committed witness output to check them against; a stranger must re-run the scripts themselves (untested for runtime/dependencies here) to confirm the FINDINGS numbers",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B622_silver_exterior",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B622_silver_exterior",
+  "claims": [
+   {
+    "i": 388,
+    "what": "the exterior adjoint torsion of the silver (RRLL) bundle = -16 exactly, via the Tran-Yamaguchi formula, with a SnapPy-based fig-8 calibration to -3",
+    "where": "frontier/B622_silver_exterior/compute_m136_torsion.py, frontier/B622_silver_exterior/ty_core.py",
+    "why": "the script is complete (sympy exact arithmetic, with a SnapPy-based identification step guarded by a fallback) and asserts CALIBRATION FAILED / fixed-point-equation-failed etc. if wrong, but no output.txt is committed -- a stranger must re-run compute_m136_torsion.py (which may also need the optional SnapPy dependency for the manifold-identification step) to see the printed -16",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B623_reciprocity_progress",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B623_reciprocity_progress",
+  "claims": [
+   {
+    "i": 389,
+    "what": "the Weyl-Weil term = quadratic Gauss sum identity, claimed verified '96/96 exact, kappa=5..12 x 12 terms', and det(h_w)=sign(w)det(A\u2297w-I4) claimed '12/12, exact rational arithmetic'",
+    "where": "frontier/B623_reciprocity_progress/reduction_check.py, step2_conductor.py, step3_reciprocity.py",
+    "why": "no output.txt is committed for this arc; the '96/96' and '12/12' exact-match counts quoted in FINDINGS have no committed run log, and a real bug in the coset enumeration used here was later found and fixed by B625 -- meaning the FINDINGS numbers as banked may reflect the pre-fix, buggy code",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

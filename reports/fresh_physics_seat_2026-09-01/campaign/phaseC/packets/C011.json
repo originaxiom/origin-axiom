@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B397_last_census_facts",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B397_last_census_facts",
+  "claims": [
+   {
+    "i": 230,
+    "what": "relabel_search (inline) results",
+    "where": "relabel_search.json (no corresponding .py file present in packet)",
+    "why": "FINDINGS.md attributes this JSON to 'relabel_search.py (inline)' but no relabel_search.py file exists in the arc directory's file list \u2014 the search code is not committed separately, only its output",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B403_lead_package",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B403_lead_package",
+  "claims": [
+   {
+    "i": 233,
+    "what": "all 11 banked s-denominators are {2,3,5}-smooth (necessarily, since 2,3,5 are all non-principal-form-represented) so the 17/19 prediction can never fire",
+    "where": "scrutiny.json (small file, 232 bytes)",
+    "why": "scrutiny.json is tiny (232 bytes) for a claim spanning 11 denominators across multiple prior arcs; likely a summary tally referencing numbers computed elsewhere (B398 etc.) rather than a self-contained recompute \u2014 no .py producer script is listed in this arc's files",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B406_two_conductor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B406_two_conductor",
+  "claims": [
+   {
+    "i": 235,
+    "what": "a_p(15a1) = a_p(40a1) mod 4 at every good prime <200 (zero violations), shown to be forced by torsion (Z/8 rational torsion on 15a1, full 2-torsion on 40a1)",
+    "where": "mod4_extension.json (126 bytes)",
+    "why": "the extension JSON is tiny (126 bytes); no separate .py file is listed for the mod-4 extension specifically, suggesting it may have been computed inline/appended to bridge_check.py rather than as a standalone reproducible script",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B469_breath_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B469_breath_campaign",
+  "claims": [
+   {
+    "i": 264,
+    "what": "BR2: X_m^2=A_m, det X_m=-1 for all m symbolically; SnapPy gate at m=1 (Gieseking m000 orientation cover isometric to 4_1, volume ratio exactly 2)",
+    "where": "br1_br2.py + FINDINGS BR2, gate noted as 'session log' not a committed file",
+    "why": "Reproduce section literally says '# BR2 SnapPy gate: ... (session log)' -- a session log is not a repo artifact",
+    "reproducible_from_committed": "partial -- symbolic part yes; the SnapPy m=1 gate result is only attested via the Reproduce section's comment '(session log)', no committed .txt for it"
+   },
+   {
+    "i": 265,
+    "what": "BR3 wave 2: exact component-level sigma_m action on Fix(sigma_m^2); m=1,2 fully swapped, m=3 has a sigma-fixed quadratic component (disc -7) plus a swapped octic, with the geometric fiber character identified numerically as lying on the swapped (non-geometric-pair) octic",
+    "where": "br3_wave2_exact.py / wave2_exact_log.txt (exact part); octic_test.py / octic_log.txt (numeric identification, explicitly flagged 'Numerically certified; exact certification queued')",
+    "why": "octic_log.txt (the only committed witness for octic_test.py) is a Python traceback (TypeError), not the successful numeric output FINDINGS describes",
+    "reproducible_from_committed": "the exact component-splitting part: yes (wave2_exact_log.txt matches script and claim); the octic numeric-ID part: NO -- see red flag"
+   }
+  ]
+ },
+ {
+  "arc": "B471_chain_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B471_chain_verification",
+  "claims": [
+   {
+    "i": 266,
+    "what": "CORRECTION: 'the alphabet is exactly the root locus' is false; the corrected statement is 'breathable traces are exactly the metallic traces t^2+2; family=locus iff narrow class number h+(m^2+4)=1', with an explicit counterexample (X'=[[3,5],[2,3]])",
+    "where": "FINDINGS.md, final CORRECTIONS section",
+    "why": "the counterexample X' and its properties (det -1, tr 6, class number 2, no conjugator to A_6) are asserted in FINDINGS text but not visibly present in the one script file read",
+    "reproducible_from_committed": "described as verified but the specific counterexample-verification script is not among this packet's listed files (only chain_verify.py is listed, and it is not clear this file contains the counterexample check)"
+   }
+  ]
+ }
+]

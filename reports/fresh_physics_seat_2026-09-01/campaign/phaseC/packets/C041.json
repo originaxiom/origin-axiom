@@ -1,0 +1,93 @@
+[
+ {
+  "arc": "B1167_seat_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1167_seat_harvest",
+  "claims": [
+   {
+    "i": 940,
+    "what": "C12 Wilson character arithmetic: every MSSM operator is C12-neutral at selected characters",
+    "where": "FINDINGS.md (A) section",
+    "why": "credited as 'independently re-derived' but the underlying script location was not directly inspected in this pass",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 942,
+    "what": "cusp shape 2sqrt3*i unique among the 14-manifold family, purely imaginary (mirror-fixed)",
+    "where": "FINDINGS.md (B) section",
+    "why": "later retracted for the uniqueness claim (see addendum); the orientation-blindness (purely imaginary) fact itself is untouched",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1177_instrument_bundle",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1177_instrument_bundle",
+  "claims": [
+   {
+    "i": 949,
+    "what": "21 arcs identified with no committed runner or test-lock (B1000, B1067-B1082 descent band 15/21, B954, B982, B990, B992, B994, B998)",
+    "where": "reproducer_debt.md",
+    "why": "reproduce.sh only greps for the string '21 true no-runner-no-lock' inside reproducer_debt.md itself \u2014 it checks the debt list was written, not that the two-stage heuristic scan itself is re-runnable from committed code.",
+    "reproducible_from_committed": "partially \u2014 the heuristic script and its logic are described in prose, not committed as a standalone re-runnable script in this packet's file list"
+   }
+  ]
+ },
+ {
+  "arc": "B1187_depth_closure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1187_depth_closure",
+  "claims": [
+   {
+    "i": 955,
+    "what": "B685: v5(denominator)=0 (object side, K=60) vs v5\u2192\u221e (hearing side, n\u2264240) kind-mismatch, 'ALL CHECKS PASS'",
+    "where": "verification/b685_deep.py",
+    "why": "reproduce.sh's fast path reads a committed b685_deep.log for the 'ALL CHECKS PASS' string, but that .log file is gitignored (*.log matches .gitignore) and is not present in the working tree/git index \u2014 a fresh clone's fast-path run would fail with a FileNotFoundError unless OA_SLOW=1 is first used to regenerate it.",
+    "reproducible_from_committed": "no in the fast path \u2014 see red flag"
+   }
+  ]
+ },
+ {
+  "arc": "B1201_lee_verified_and_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1201_lee_verified_and_harvest",
+  "claims": [
+   {
+    "i": 978,
+    "what": "|a1|=1 at all four ideal points of 4_1, from Appendix A's own boxed data -- the tangent vector is unique, not a Z/2 or V4 choice",
+    "where": "verification/cells.json R52-3 evidence, citing Lee arXiv:2502.11950v1 Appendix A directly",
+    "why": "this is a careful, cited close-read of the actual downloaded paper text (345,464 chars, with exact line numbers for each section given) rather than an abstract-only pass -- a substantial methodological improvement over B1198 -- but the paper itself is an external document not committed to this repo, so a stranger would need to independently fetch arXiv:2502.11950v1 to re-check the specific numeric claims (a1=+/-1, a2=b2=0) quoted from it",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 980,
+    "what": "cloud's quine certificate re-runs clean; outcome Q1 verified here",
+    "where": "FINDINGS.md R52-2b / results.json",
+    "why": "described as reproducing another seat's ('cloud') committed certificate byte-identically; the certificate itself lives outside this arc's own verification/ directory (only cells.json is committed here)",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1207_slow_lane_discharge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1207_slow_lane_discharge",
+  "claims": [
+   {
+    "i": 986,
+    "what": "9 failed/5702 passed/5 skipped first full OA_SLOW run figures",
+    "where": "b1207_results.json .run; FINDINGS \u00a70",
+    "why": "run itself is not re-runnable in 4h45m by a stranger reading this digest, but verification/reproduce.sh independently re-checks the five discharged post-conditions (paths, findings-orphans, negative-arc routing, B1113 REPO_ROOT depth, ID-strip bounding) and prints REPRODUCES; the original 4h45m/4h51m suite runs themselves are not re-executed by reproduce.sh, only their after-effects",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 987,
+    "what": "PSLQ grid triple-counting halving the Sidak alpha (2.374e-4 -> 1.187e-4)",
+    "where": "b1207_results.json .side_effects_class_E[0]",
+    "why": "the underlying real_grid.jsonl is gitignored (matches *.jsonl-adjacent gitignored witness pattern akin to *.log/*.out); the fix and restored 216-row grid are described but not included as a witness file in this arc's committed set",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B1119_anomaly_resolved",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1119_anomaly_resolved",
+  "claims": [
+   {
+    "i": 905,
+    "what": "corrected controls all green: tau=id gives character +6 (split E6(6)); variant A gives character 2 (E6(2)); variant B gives character 6 (E6(6) split); compact involution gives -78",
+    "where": "anomaly_resolved_out.txt",
+    "why": "again only a captured stdout .txt is committed for this arc; no .py generating script exists in this arc's directory, and none was found elsewhere in the repo by this reading pass's targeted greps",
+    "reproducible_from_committed": "no"
+   }
+  ]
+ },
+ {
+  "arc": "B1147_clane_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1147_clane_harvest",
+  "claims": [
+   {
+    "i": 913,
+    "what": "C3 large-ladder run (N=400..4000, 120 dps, 19 rungs)",
+    "where": "verification/c3_ladder.txt",
+    "why": "the raw numeric ladder values are committed and match the described magnitudes, but the generating script c3_ohtsuki_large.py is not present in this arc's files (not listed, not found) so the exact computation cannot be re-run from what is committed here, only the output data can be inspected",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1157_dynamics_null",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1157_dynamics_null",
+  "claims": [
+   {
+    "i": 924,
+    "what": "the Sym-power Ruelle factorization R_{rho(m)}(s) = prod R(s-j,sigma_j), reproduced to |diff|<=5e-18",
+    "where": "FINDINGS.md, 'bank-grade' bullet",
+    "why": "credited to cc3 (B8142) and stated as independently re-derived two ways by this seat, but the specific script for that numeric reproduction was not among the files read in this pass",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1161_frontier_sweep",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1161_frontier_sweep",
+  "claims": [
+   {
+    "i": 930,
+    "what": "Free-orbit theorem: V4=Gal(H/Q) acts freely+transitively on 4 branches, no Galois-invariant selector",
+    "where": "b1161_results.json headline_unification; FINDINGS.md",
+    "why": "credited as 'own-run crown_p1p2.py + adversarially verified' but that script is not among this arc's committed files listed here",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B1166_charter_attack",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1166_charter_attack",
+  "claims": [
+   {
+    "i": 938,
+    "what": "CS(m004) = 0 exactly (Im complex volume = 1.8e-15, amphichirality)",
+    "where": "FINDINGS.md, C3 section",
+    "why": "the numeric value (1.8e-15) is quoted but this arc's own verification/reproduce.sh was not inspected in detail for the exact computation; cited as 'own-verified' consistent with B1163/B1165's numeric identity checks",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 939,
+    "what": "disc(Q(zeta12))=144=2^4*3^2, only 2,3 ramify; subfields Q(sqrt-3), Q(sqrt3), Q(sqrt-1); sqrt5 not among them",
+    "where": "FINDINGS.md C4 section",
+    "why": "cited as 'own-verified' factorization but not directly inspected in this pass's file sample beyond FINDINGS.md prose",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

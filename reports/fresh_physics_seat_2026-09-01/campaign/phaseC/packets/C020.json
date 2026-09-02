@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B662_successor_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B662_successor_campaign",
+  "claims": [
+   {
+    "i": 430,
+    "what": "L103 cross-check vs B660/S4 evaluator at the invariant level",
+    "where": "cellC/FINDINGS_CELL.md lines ~134-156",
+    "why": "the FINDINGS text itself states 'A re-run of the S4 evaluator itself is blocked in-repo: it requires cell3_double/stage1_classes.pkl from the seat workdir (not in the repo); the sealed exact output is the S4 side of record' -- a stranger cannot rerun this half of the comparison from committed files alone.",
+    "reproducible_from_committed": "no"
+   },
+   {
+    "i": 432,
+    "what": "CELL I: the ear's hearing representation IS the Gamma5'-doublet 2-hat' (exact character equality, 9 classes); weight-5 forced via E8-exponent / McKay mechanism",
+    "where": "cellI/FINDINGS_CELL.md; cellI/gamma5_map.py; cellI/cellI_output.txt",
+    "why": "the script computes exactly in Q(zeta_20) from scratch and cross-checks the extraction against a second literature table (Table 1 decompositions), reducing transcription risk, but the literature matrices themselves are asserted facts about an external source, not computed within the repo -- a stranger needs the external PDF to audit the transcription.",
+    "reproducible_from_committed": "partially -- literature inputs (YLD Table 10/11, Eqs 2/4/5/12-14) are IMPORTED (transcribed from an external paper, arXiv:2011.03501) and cannot be reproduced from files in this repo alone; the exact character arithmetic given those inputs is fully reproducible and re-verified in-sandbox"
+   }
+  ]
+ },
+ {
+  "arc": "B666_leads_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B666_leads_campaign",
+  "claims": [
+   {
+    "i": 437,
+    "what": "R21-9 pair-evenness lemma proven unconditionally: det B_w factors with all valuations even (Lambda in Z)",
+    "where": "cell4/R21_9_PROOF.md, cell4/b666_cell4_verify.py, cell4/cell4_output.txt",
+    "why": "Findings claim symbolic verification m=3..50 plus all 192 W(D4) and all 51840 W(E6) elements; I did not open cell4's files this pass (listed-only) so cannot confirm the script actually runs these checks \u2014 flagged as a thin read, not a red flag.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B66_sl6_tower",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B66_sl6_tower",
+  "claims": [
+   {
+    "i": 15,
+    "what": "mult(|k|=3)=2 at SL(6), refuting max(n-d,1)=3",
+    "where": "frontier/B66_sl6_tower/probe.py main() KEY TEST",
+    "why": "high-precision mpmath extrapolation; matched directly to catalog roots",
+    "reproducible_from_committed": "yes but NUMERIC ONLY (high precision dps=60)"
+   }
+  ]
+ },
+ {
+  "arc": "B669_track_h_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B669_track_h_adjudication",
+  "claims": [
+   {
+    "i": 445,
+    "what": "m136 (RRLL, \"the true silver\") IS amphichiral, |Isom(m136)|=8",
+    "where": "h1_ladders.py (SnapPy call) + h1_output.txt line \"|Isom(m136)| = 8; amphichiral: True\"; locked by test_m136_amphichiral_and_first_pass_preserved",
+    "why": "Computed via SnapPy in the committed script, but SnapPy is an external dependency not vendored in the repo (and the output shows a macOS pyenv path, /Users/dri/.pyenv/..., suggesting this ran on the original author's machine, not necessarily reproducible in this repo's CI environment).",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B675_hcusp_sweep",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B675_hcusp_sweep",
+  "claims": [
+   {
+    "i": 450,
+    "what": "SU(4)_1 is the conductor-8 stage that hears only the mod-8 shadow class (Part 3, the hearing check)",
+    "where": "FINDINGS.md THE HEARING CONFIRMATION section",
+    "why": "FINDINGS.md itself flags this as \"Numeric at two precisions, flagged\" (floats, not exact) \u2014 the arc is honest about this but a stranger would need to re-run b675_hcusp.py Part 3 to reproduce the specific tone/precision claim; not independently checked here.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]

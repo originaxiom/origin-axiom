@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B819_frame_gap",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B819_frame_gap",
+  "claims": [
+   {
+    "i": 608,
+    "what": "181 directories with no arc_verdict.json, 133 of which have a FINDINGS.md, 116 of those never assigned to any wave-2 reader; 229 of 791 total arc ids never assigned",
+    "where": "FINDINGS.md tables",
+    "why": "presented as a direct count over the frontier/ directory structure and wave-2's assignment list; plausible and mechanically checkable in principle (file existence + list membership) but no script performing this count is among this arc's 2 committed files.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B821_lexicon_refresh",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B821_lexicon_refresh",
+  "claims": [
+   {
+    "i": 609,
+    "what": "New self-audit motif matches 5 of 7 substantial blind arcs (passes) but 46.2% (345/746) of the corpus (fails the <=25% vacuity ceiling) -> reverted",
+    "where": "FINDINGS.md table",
+    "why": "the test is described as run against the atlas's LEXICON/OBSTACLES dictionaries with sealed thresholds, and a wiring bug (insertion landed in the wrong dictionary) was caught by the same test -- but no script is present among this arc's 3 committed files (FINDINGS.md, PREREGISTRATION.md, arc_verdict.json) to independently verify the 46.2% figure.",
+    "reproducible_from_committed": "unknown"
+   },
+   {
+    "i": 610,
+    "what": "Term-frequency decomposition: 'prereg' in 27.6% of arcs, 'audit' 14.7%, 'census' 11.6%, etc., showing the self-audit vocabulary is the ambient method register not a distinguishing motif",
+    "where": "FINDINGS.md table",
+    "why": "same reproducibility gap -- plausible grep-style counts but no script committed in this arc's files.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B822_lexicon_gate_fix",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B822_lexicon_gate_fix",
+  "claims": [
+   {
+    "i": 611,
+    "what": "Size floor (FINDINGS.md >= 2000 bytes) removes 14 of 22 blind arcs, leaving 8 (meets both sealed criteria: >=10 removed, <=10 remaining)",
+    "where": "FINDINGS.md table",
+    "why": "described as a direct file-size filter over the 22 previously-identified blind arcs; mechanically simple and plausible but no script is present in this arc's 3 committed files to verify the exact count.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B823_blind_triage",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B823_blind_triage",
+  "claims": [
+   {
+    "i": 612,
+    "what": "Triage registry (docs/atlas/BLIND_ARCS.md) verified with 3 negative controls: removing B537's row fails the gate; adding a non-blind arc's row fails the gate; deleting the registry fails the gate; restoring passes",
+    "where": "FINDINGS.md 'verified, not asserted' table",
+    "why": "the three negative-control perturbations and their pass/fail outcomes are reported in prose with quoted gate error messages, but no script or test file is present in this arc's 2 committed files (FINDINGS.md, arc_verdict.json) to independently rerun these controls.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ },
+ {
+  "arc": "B824_charvar_motif",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B824_charvar_motif",
+  "claims": [
+   {
+    "i": 613,
+    "what": "Per-pattern corpus share (character variety 13.8%, total 18.4%)",
+    "where": "FINDINGS.md table",
+    "why": "Test file tests/test_b824_charvar_motif.py is cited but not included in this packet; the counting script/corpus itself is not shown, so a stranger cannot verify the 18.4%/13.8% figures from files read here.",
+    "reproducible_from_committed": "unknown"
+   }
+  ]
+ }
+]
