@@ -1,10 +1,11 @@
 {
- "id": "B213",
- "verdict": "NEGATIVE",
- "claim_one_line": "The Higgs-side special geometry of the figure-eight character variety (curve 40a1) is entirely O(1) and BSD-generic: no forced small number, no hierarchy.",
- "instrument": false,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+  "id": "B213",
+  "verdict": "NEGATIVE",
+  "claim_one_line": "The Higgs-side special geometry of the figure-eight character variety (curve 40a1) is entirely O(1) and BSD-generic: no forced small number, no hierarchy.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "W1-wave1-fanout",
+  "note": "B1237 (2026-09-02): 40a1 has torsion ℤ/2×ℤ/2 (not ℤ/4), ∏c_p = 4 (not 8), L(E,1) = 0.742206… (not 0.74228), Mahler m(Φ) = 0.742264… (not 0.74175, and ≠ L(E,1)); Φ's curve is the 40a member with j = 55296/5, 2-isogenous to 40a1, not 40a1 (B509/B510 had it). NEGATIVE unchanged. See ADDENDUM_2026-09-02_B1237.md."
 }

@@ -1,10 +1,11 @@
 {
- "id": "B259",
- "verdict": "PROVED",
- "claim_one_line": "Verified the Mostow metric solves 3d vacuum Einstein exactly (Λ=−1) and produced the honest five-wall map: one theorem, one 122-order gap, three open gaps.",
- "instrument": true,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+  "id": "B259",
+  "verdict": "PROVED",
+  "claim_one_line": "CORRECTED 2026-09-02 (B1237): wall #5's '122 orders' withdrawn per B980 (3+1-dim relation, dropped ħ); theorem + walls #1–#4 stand. ORIGINAL CLAIM AS ASSERTED: Verified the Mostow metric solves 3d vacuum Einstein exactly (Λ=−1) and produced the honest five-wall map: one theorem, one 122-order gap, three open gaps.",
+  "instrument": true,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "W1-wave1-fanout",
+  "note": "CORRECTED 2026-09-02 (B1237; E53 #14): wall #5 (k = 3 → GΛ = 2π, the '122 orders') is WITHDRAWN by B980 — Smolin's relation is 3+1-dimensional, λ = ħGΛ, this arc dropped the ħ; the object's level comes from a 3-manifold. The theorem (Mostow metric solves 3d vacuum Einstein at Λ = −1) and walls #1–#4 stand. See ADDENDUM_2026-09-02_B1237.md."
 }

@@ -38,7 +38,9 @@ import mpmath as mp
 
 mp.mp.dps = 30
 
-# trace-field degrees (SnapPy: find_field): figure-eight quadratic (Q(sqrt-3)); silver/bronze degree 8 (non-arith)
+# trace-field degrees (SnapPy: find_field): figure-eight quadratic (Q(sqrt-3)); silver/bronze degree 8.
+# B1237 (2026-09-02): the degree of the TRACE field does not decide arithmeticity -- silver's invariant
+# trace field is Q(i) and silver IS arithmetic (E55). See ADDENDUM_2026-09-02_B1237.md.
 TRACE_FIELD_DEGREE = {1: 2, 2: 8, 3: 8}
 VOL_4_1 = mp.mpf("2.029883212819307")
 

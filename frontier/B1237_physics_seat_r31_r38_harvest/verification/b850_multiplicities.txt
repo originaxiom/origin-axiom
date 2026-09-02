@@ -1,0 +1,7 @@
+m004: max multiplicity 12   mean 4.58   classes 50
+m003: max multiplicity 12   mean 4.02   classes 52
+m136: max multiplicity 11   mean 3.92   classes 60
+m009: max multiplicity 11   mean 3.89   classes 54
+m015: max multiplicity  6   mean 2.35   classes 91
+bank's maxima reproduced as geometric multiplicities: False
+B850's ordering claim (m009 double m004) survives geometrically: False

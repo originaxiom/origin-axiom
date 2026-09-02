@@ -1,10 +1,11 @@
 {
- "id": "B361",
- "verdict": "PROVED",
- "claim_one_line": "Across 8 pairs with zero counterexamples, a level-15 pair invariant carries √−15 exactly when it contains a seed elliptic at both 3 and 5 (m=2,7); the discriminator refutes H-min and leaves H-loc standing.",
- "instrument": false,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W3-wave3-fourcategory"
+  "id": "B361",
+  "verdict": "PROVED",
+  "claim_one_line": "SUPERSEDED by B367 (the induced law fails at pair (3,4)); the 8-pair computation stands. ORIGINAL CLAIM AS ASSERTED: Across 8 pairs with zero counterexamples, a level-15 pair invariant carries √−15 exactly when it contains a seed elliptic at both 3 and 5 (m=2,7); the discriminator refutes H-min and leaves H-loc standing.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": "B367",
+  "authored_by": "W3-wave3-fourcategory",
+  "note": "SUPERSEDED 2026-09-02 (B1237; E53 #13): the 8-pair computation stands; the law it induced is refuted by B367 at pair (3,4) (bright, no doubly-elliptic seed, aggregate 1/192; the minimal repair dies on (1,3)). Not RETRACTED — the arc's own headline (the 8-pair fact) holds (B818). See ADDENDUM_2026-09-02_B1237.md."
 }

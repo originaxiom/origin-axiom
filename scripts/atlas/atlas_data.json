@@ -5031,6 +5031,65 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1237": {
+   "slug": "physics seat r31 r38 harvest",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "five_web"
+   ],
+   "refs": [
+    "B125",
+    "B137",
+    "B142",
+    "B146",
+    "B147",
+    "B208",
+    "B210",
+    "B213",
+    "B235",
+    "B237",
+    "B258",
+    "B259",
+    "B333",
+    "B337",
+    "B361",
+    "B367",
+    "B5",
+    "B509",
+    "B510",
+    "B641",
+    "B777",
+    "B781",
+    "B790",
+    "B803",
+    "B818",
+    "B840",
+    "B850",
+    "B854",
+    "B866",
+    "B892",
+    "B894",
+    "B919",
+    "B950",
+    "B951",
+    "B980",
+    "B997",
+    "H27",
+    "L161",
+    "L196",
+    "L197",
+    "P0",
+    "V2"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B123": {
    "slug": "arithmeticity m1",
    "motifs": [
@@ -7441,6 +7500,24 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1": {
+   "slug": "gluing chern simons",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L196",
+    "P7"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B200": {
    "slug": "chat1 handoff verification",
@@ -10142,6 +10219,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2": {
+   "slug": "moduli evolution",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "symplectic",
+    "apolynomial"
+   ],
+   "refs": [
+    "B1",
+    "B13",
+    "B67",
+    "L196"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B300": {
    "slug": "cross chat sm attempt",
    "motifs": [
@@ -12447,6 +12544,19 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B3": {
+   "slug": "regge complex",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "L196"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B400": {
    "slug": "canonical frame",
    "motifs": [
@@ -14642,6 +14752,22 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B4": {
+   "slug": "bkl gutzwiller",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "L196"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B500": {
    "slug": "child hunt",
    "motifs": [
@@ -16677,6 +16803,23 @@
    "obstacle_conf": 3,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B5": {
+   "slug": "wheeler dewitt",
+   "motifs": [
+    "figure_eight",
+    "golden"
+   ],
+   "refs": [
+    "B259",
+    "B980",
+    "L196",
+    "P1"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "topology"
   },
   "B600": {
    "slug": "level ladder",

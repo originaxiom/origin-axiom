@@ -10783,5 +10783,33 @@
   "revival_score": 0,
   "note": "By TYPE (B1022 weight ledger): Vol(4_1) = 2.0299 is the shape's number (vol/R^3, weight 0); Lambda is a weight -2 slot; 'Planck units' inserts R = l_Planck by hand, so the scale is supplied rather than derived (the B666/B1022 wall). The only hatch is the universal Layer-5 one -- a scale supplied from outside -- which is not a revival of this formula. Routed 2026-09-02 under L196 (B1235 addendum). Family: B259 wall #5, retracted by B980 (retraction not propagated to B259's files -- fc W-D synthesis).",
   "depth_note": ""
+ },
+ {
+  "id": "B258-silver-inference",
+  "claim_killed": "Silver (m136, m=2) is NON-ARITHMETIC because its trace field has degree 8 (B258 FINDINGS:15-16, inherited by B1062 V2). Killed: arithmeticity is decided by the INVARIANT trace field Q(tr Gamma^(2)), which is Q(i) for m136 -- 350 traces of squares over words <= 6 are all Gaussian integers, and Vol(m136) = 4G = 12 x covol(PSL2 Z[i]) to 50 digits. Silver is arithmetic (as B125/B147/B137/B850/B337 already banked).",
+  "kill_form": "cited-as-sufficient",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "none-apparent",
+  "priority": "LOW",
+  "revival_score": 0,
+  "depth_note": "The only hatch would be the correct criterion itself, and it has been applied in B1237 (verification/silver_arithmetic.py). Nothing to revive: the degree statement ('golden alone at degree 2 in every tower') was never in question.",
+  "note": "Error class E55 (trace field vs invariant trace field), instance #2 at its source site. Routed 2026-09-02 under B1237 (physics-seat harvest, second ring). Bronze not recomputed; its non-arithmeticity is unchanged as banked."
+ },
+ {
+  "id": "B1062-V2-axis",
+  "claim_killed": "The arithmeticity axis separates {golden} from {silver, bronze} EXACTLY (B1062 V2, CONTROL-EXHIBITED). Killed: silver is arithmetic (invariant trace field Q(i)); the axis separates {golden, silver} from {bronze}. The control is still exhibited, with the corrected partition; B1062's own table row recorded x^2 = 2+2i beside the wrong inference.",
+  "kill_form": "cited-as-sufficient",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "none-apparent",
+  "priority": "LOW",
+  "revival_score": 0,
+  "depth_note": "Same computation as B258-silver-inference. The bridge cell's V1 and V3 and its degree statement are untouched; what dies is the reading 'golden alone is arithmetic'. Q(sqrt-3) vs Q(i) is the discriminating datum, not arithmeticity itself.",
+  "note": "Error class E55 instance #1 (the inherited site). Routed 2026-09-02 under B1237."
  }
 ]

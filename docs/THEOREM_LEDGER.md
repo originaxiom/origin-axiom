@@ -313,7 +313,10 @@ B916, B917. Locks: `tests/test_b916_bridge.py`, `tests/test_b917_value_arc.py`.
 **C42 [IDENTITY — the 3/8 traces].** Tr(T₃²) = 3, Tr(Y²) = 5, Tr(T₃·Y) = 0 exactly
 (one-prime tier, rational reconstruction; second prime open-diagnosed) ⟹ the
 trace-orthogonality ratio 3/8 — structure, not a physics value (Gate 5). — B919. Lock:
-`tests/test_b919_traces.py`.
+`tests/test_b919_traces.py`. Witness from committed code (B1237, 2026-09-02): B919's runner needs an
+uncommitted `cw.py`; the three integers recompute from B1236's committed multiplet content —
+`frontier/B1237_physics_seat_r31_r38_harvest/verification/traces_from_b1236.py`, lock
+`tests/test_b1237_physics_seat_harvest.py` (a different derivation of the same numbers, not a second prime).
 
 **C43 [NO-GO — the crossing, sealed].** One input (α_em) + the object's boundary + pure
 desert MISSES at 16σ, α_s-dominated; the failure triangle banked; the desert is dead as a

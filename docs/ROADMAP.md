@@ -54,7 +54,8 @@ measurement cascade (B861–B863; the SMT — B892/B893 lands su(3)⊕su(2)⊕u(
 skipping SU(5); LAW_MAP §F) — structure at the wall, not yet a derivation-crossing.]
 W5 prices each with one computable probe.
 - [ ] **WALL 1 — SCALE.** The object emits pure numbers; a TOE needs dimensionful scale
-      (the 122-order vacuum-energy gap lives here). Probe: does the ratio ladder RUN with
+      (the vacuum-energy gap lives here; the "122-order" figure from B259 wall #5 was withdrawn by
+      B980 — B1237). Probe: does the ratio ladder RUN with
       level, or is it exactly invariant?
 - [ ] **WALL 2 — CHIRALITY.** The SM is chiral; our chirality results are symmetry
       statements. Probe: the E₆-tangent ℤ/2 gradings' action on the value sector.

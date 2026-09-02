@@ -37,7 +37,9 @@ def test_h27_both_fields_quadratic_only_at_m1():
 
 
 def test_trace_field_degrees():
-    # figure-eight trace field is quadratic (Q(sqrt-3)); silver/bronze are degree 8 (non-arithmetic)
+    # figure-eight trace field is quadratic (Q(sqrt-3)); silver/bronze TRACE fields are degree 8.
+    # B1237: degree is not the arithmeticity criterion -- silver's INVARIANT trace field is Q(i) and
+    # silver is arithmetic (E55); bronze not recomputed there.
     assert b258.TRACE_FIELD_DEGREE == {1: 2, 2: 8, 3: 8}
     assert all(b258.discriminant_field_is_quadratic(m) for m in (1, 2, 3))
 

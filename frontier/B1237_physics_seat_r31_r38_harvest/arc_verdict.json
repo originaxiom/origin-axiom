@@ -1,0 +1,31 @@
+{
+  "id": "B1237",
+  "verdict": "PROVED",
+  "claim_one_line": "THE PHYSICS-SEAT HARVEST, SECOND RING (R31-R38 + the W-D synthesis of the physics-seat evaluation branch @ d415423a; every correction recomputed here, nothing merged): (1) SILVER IS ARITHMETIC -- m136's invariant trace field is Q(i) (350 traces of squares over words <= 6 all Gaussian integers) and Vol(m136) = 4G = 12 x covol(PSL2 Z[i]) to 50 digits, so B1062's V2 control and B258's parenthetical inferred non-arithmeticity from the TRACE field's degree (8) instead of the INVARIANT trace field's (2) -- the axis separates {golden, silver} from {bronze}; the degree statement survives; new error class E55 (trace field vs invariant trace field), two instances. (2) C42's 3/8 WITNESSED FROM COMMITTED CODE: B919's runner needs an uncommitted HANDOFF6_RUN/cw.py (absent from all history) and its lock pins strings; the three traces Tr(T3^2)=3, Tr(Y^2)=5, Tr(T3.Y)=0 now recompute from B1236's committed multiplet content. (3) E53 AT VERDICT-FILE GRAIN, three instances propagated: B361 superseded_by B367 (the law refuted at pair (3,4)); B259 wall #5 (k=3 -> G*Lambda=2pi, 122 orders) withdrawn in B259's own record per B980; B892's 'takes E6 to the SM algebra' overstates by two abelian factors (dim 14 vs 12, B950; Levi stratum, B951; exact content B1236). (4) Three NEGATIVES' numbers corrected, verdicts unchanged: B850 geometric multiplicity maxima 12/12/11/11/6 (bank's 4/3/4/8/2 were word counts); B333 122 fundamental discriminants, 16 with h=2 (bank 14/123; sign bug at compositum_seam.py:63); B213 torsion Z/2xZ/2, prod c_p = 4, L(E,1) = 0.742206..., Mahler 0.742264... (not equal), and Phi's curve is the 40a member 2-isogenous to 40a1 (j = 55296/5; B509/B510 already had it). The seat's belt findings (29 'REPRODUCES'-string locks; OA_SLOW gating) are true and queued as L197; its 'no observable content' framing is quarantined. Gate 5 untouched.",
+  "instrument": false,
+  "depends_on": [
+    "B1235",
+    "B1236",
+    "B1062",
+    "B258",
+    "B919",
+    "B361",
+    "B367",
+    "B259",
+    "B980",
+    "B892",
+    "B950",
+    "B951",
+    "B850",
+    "B333",
+    "B213",
+    "B509",
+    "B510"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc (main seat), 2026-09-02; sources: the physics-seat evaluation branch R31-R38 + W-D synthesis",
+  "note": "Harvest cell (integrate-don't-merge). Verification: verification/reproduce.sh (SnapPy + PARI via snappy.pari + mpmath; no Sage). Locks: tests/test_b1237_physics_seat_harvest.py. Nine arcs receive addenda + verdict-file notes; B361 gets superseded_by; kill graph +2 (the E55 inference at B258 and at B1062-V2). Ledgers: ERROR_LEDGER E55 + E53 #13-#15; OPEN_LEADS L197; THEOREM_LEDGER C42 witness pointer.",
+  "identifications": [],
+  "creates_law": false
+}

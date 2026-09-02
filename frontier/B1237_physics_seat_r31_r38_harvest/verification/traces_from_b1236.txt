@@ -1,0 +1,2 @@
+Tr(T3^2) = 3  Tr(Y^2) = 5  Tr(T3.Y) = 0  =>  Tr(T3^2)/(Tr(T3^2)+Tr(Y^2)) = 3/8
+C42 WITNESSED FROM COMMITTED B1236: True

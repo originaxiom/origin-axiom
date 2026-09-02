@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-02, B1237 — THE PHYSICS-SEAT HARVEST, SECOND RING: SILVER IS ARITHMETIC; C42 WITNESSED FROM COMMITTED CODE)**:
+the physics-seat evaluation branch's R31–R38 + W-D synthesis read, nothing merged, every correction recomputed here.
+**Silver (m136) is arithmetic** — invariant trace field ℚ(i), Vol = 4G = 12 × covol(PSL₂ℤ[i]) to 50 digits; B258/B1062-V2
+had inferred non-arithmeticity from the *trace* field's degree (**E55**, new class); the axis separates {golden, silver}
+from {bronze}, the degree statement survives; the SM chain is untouched (the door, B237/B1019/B997, not
+arithmeticity, selects m = 1) and L161's P0-0 control falls back to B997 for the silver half. **C42's (3, 5, 0)** now recomputes from B1236's committed content (B919's
+runner needs an uncommitted `cw.py`). **E53 #13–#15** propagated into B361/B259/B892's own verdict files (supersession,
+B980's withdrawal, the 14-vs-12 overstatement). B850/B333/B213 numbers corrected, verdicts unchanged (B213's curve is
+the 40a member 2-isogenous to 40a1). **L197** registered (supersession sweep; the belt's string-lock and OA_SLOW
+families). Kill graph 778. Gate 5 untouched.
+
 **LATEST (2026-09-02, B1236 — THE A₁ LANDING AT EXACT MULTIPLET GRADE)**: codex R035 verified by an independent
 implementation. B1098's minimal-A₁ stratum (centralizer su(6), "one extra u(1)") now carries exact matter content:
 su(3)⊕su(2)⊕u(1) ⊂ su(6) with 6 = (3,1)_{−1/3}+(1,2)_{1/2}+(1,1)_0 takes the 27 = (Λ²6,1)+(6̄,2_E) to the

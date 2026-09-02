@@ -1,23 +1,23 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 827 of 1031 settled arcs — 80%** —
+the field is **absent on 829 of 1050 settled arcs — 79%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (68) ∪ on-a-synthesis-surface ∪ law-vocabulary (104) = 467 arcs.**
-The vocabulary criterion adds **37 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (75) ∪ on-a-synthesis-surface ∪ law-vocabulary (111) = 484 arcs.**
+The vocabulary criterion adds **40 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.78** on the corpus's own law vocabulary against
-**1.04** for the rest — **2.67×**. The criterion
+**3.0** on the corpus's own law vocabulary against
+**1.07** for the rest — **2.79×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
 synthesis surface · **V** reached only by the law-vocabulary criterion (the arcs the old base
 could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an editorial call.
 
-## §3 forced — the chain and its landing (49)
+## §3 forced — the chain and its landing (51)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -35,6 +35,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1014` | PROVED | V | | THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM STATED ON ONE PAGE -- executing two owner decisions (approved and confirmed). (1) P… |
 | `B1035` | PROVED | V | | THE TWO HELD RECEIPTS UNBLOCKED AND VERIFIED (a day's hold on evidence that was pushed, byte-stable, on both remotes the whole time -- the point-of-use retrieval defect a… |
 | `B1081` | PROVED | V | | THE HYDROGEN AUDIT (the inverse chain run as computation; verifier HOLDS after its own deep rebuild from the E6 roots, grading the cell's shallower pass honestly): hydrog… |
+| `B1221` | PROVED | V | | THE GLOBAL FORM IS PATH-INDEPENDENT, AND THAT IS WHY IT IS NOT NEW (the crux cell the prior-art dossier isolated; owner-directed; never asked before -- already_banked ret… |
+| `B1236` | PROVED | V | | THE A1 LANDING AT EXACT MULTIPLET GRADE (codex R035, verified and independently re-implemented here): reading the unbroken algebra as the minimal A1's centralizer su(6) (… |
 | `B859` | PROVED | S | | The incoming SM handoff scrutinised: the Higgs-synthesis OP theorem VERIFIES exactly (OP = 818626500*sqrt3 at the cusp shape, ring class polynomial to 1e-28, and ODD unde… |
 | `B862` | PROVED | S | | The cascade's step-3 winner, as a GROUP inside SU(5), is S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6 -- kernel computed exactly (order 6, all sixth-root indices, hypercharge dir… |
 | `B863` | PROVED | S | | THE TERMINATION THEOREM: the fused cascade halts at the SM because the SM is the TERMINAL registerable algebra -- every proper descent kills registerability (su(2)->u(1) … |
@@ -44,7 +46,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B873` | PROVED | S | | GATE P5 PASSED -- menu completeness for the fused cascade, verified mechanically, with the surprise that WINNER-SAFETY IS CITATION-FREE: (1) regular menus recomputed from… |
 | `B876` | PROVED | S | | THE DESCENT (the joint cell with the solo seat, their priority (a)): inside K1, the IMPOSED fused-chain Levi tower lands exactly (Cartan by iterated centralizers, 40 root… |
 | `B877` | PROVED | S | | S1 REVIEW PASSED -- the solo seat's FIRST MEASUREMENT THEOREM accepted at banking grade; the charge-measurement/triality story is now a TWO-SEAT THEOREM. Every exact cert… |
-| `B892` | PROVED | S | | THE SECOND MEASUREMENT THEOREM VERIFIED on this build (solo S1 queue #1) + THE B874 AMENDMENT LOGGED: the solo seat's exact tower (perfect-square gate C2^2-4C0 = 0; gamma… |
+| `B892` | PROVED | S | | CORRECTED 2026-09-02 (B1237): z = 14 is su(3)⊕su(2)⊕u(1)³, dim 14 — two abelian factors more than the SM gauge algebra (dim 12, B950); Levi stratum B951; exact content B1… |
 | `B897` | PROVED | S | | THE SEALED CELL DECIDES -- OUTCOME A, GENERATION-SHAPED (M2; prereg e293f095 committed 0e1cdf4c BEFORE compute, seal verified): at two independent primes (40123, 40693; a… |
 | `B925` | NEGATIVE | S | | THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object… |
 | `B950` | PROVED | S | | THE SM SPECIFICATION LEDGER (owner directive: we do not yet fully understand the SM as today's science understands it, in order to know what our side should provide). PRI… |
@@ -71,7 +73,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1139` | PROVED | S | | THE SYMMETRY-POINT TABLE (cloud memos 23 WEINBERG_POINT + 24 SM_TABLE, golden_gate 577712f; verified TWO-BENCH, own code, no discrepancy) -- the value-completing campaign… |
 | `B1160` | PROVED | S | | Hypercharge falls out (cloud memo 70 / L132, verified): on an SM-shaped 15-plet drawn from the 27, the four anomaly conditions ([SU3]^2 Y, [SU2]^2 Y, grav^2 Y, [Y]^3) for… |
 
-## §5 withheld — the value wall and the rank wall (108)
+## §5 withheld — the value wall and the rank wall (110)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -90,6 +92,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1124` | PROVED | L | | V-1 ALL-ORDERS ARITHMETIC (value-campaign cell; extends B1120/L180): does the Kashaev tower's trace-field arithmetic continue past C2? THE PARITY LAW EXTENDS TO C3 -- C3 … |
 | `B1126` | PROVED | L | | V-3 THE IDENTIFICATION (value-campaign crux + falsifier, against a SEALED prereg): is any object-tower period an SM dimensionless ratio via a principled instrument? NO-OB… |
 | `B1132` | PROVED | L | | THE LISTENER INSTRUMENT IS NULL ON THE WHOLE SPHERE + THE GOLDEN MERIDIAN LAW (value-probe wave remainder B, closing B1128's fenced gap). (B) INSTRUMENT-NULL-FULL-SPHERE:… |
+| `B1224` | PROVED | L | | A GATE OF OURS KILLED A POSITIVE, AND THE RECOVERED RESULT IS SHARPER THAN THE ORIGINAL (owner-prompted: 'make sure our gates are not killing positives'). B1222 refuted t… |
 | `B185` | NEGATIVE | V | | Cusp-gluing selects continuum to discrete but never to a forced-unique value, and 1-cusp metallic units cap all-unit interaction at pairs.… |
 | `B190` | NEGATIVE | V | | Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixed points are non-monotone, the lone unique is trivial.… |
 | `B879` | PROVED | V | | The cc3 selection-cochain harvest (packet sha256 e59df18a, 38 files, preserved verbatim; cc3's own reconciliation addendum CHECKED AND CONFIRMED accurate): six claims ver… |
@@ -129,6 +132,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B790` | NEGATIVE | S | | The Maass handoff's thesis is unsupported: LMFDB holds no Bianchi Laplace data, three tests are vacuous, and the valueless-object null stands.… |
 | `B795` | PROVED | S | | All seven of cc3's m004 Maass eigenvalues are reproduced by an independently written collocation solver with displaced controls (7/7 confirmed).… |
 | `B797` | PROVED | S | | Seventeen m004 Maass eigenvalues are certified (max /Δr/=5.4e−9) with exactly one parent Bianchi eigenvalue (r=7.072) settled by the projective-line S-test, and the seale… |
+| `B811` | NEGATIVE | S | | The owed promotion gate KILLED H128 (alpha_s, on kind: a scale-free object cannot emit a scale-dependent value) and H129 (sin^2 theta_13, base rate) and PROMOTED H130, wh… |
 | `B853` | PROVED | S | | The incoming Frob relay verifies (Fact 1 exactly; Fact 2 corrected to Frob_7 since 2 divides the conductor 4; Fact 3 confirmed and already banked), and the SSB ingredient… |
 | `B856` | PROVED | S | | The hearing coupling h = u+ M_odd(R^m L^m) u obeys a PERIOD-5 law across the metallic family (bundle monodromy trace m^2+2), taking five exact golden-pentagonal values wi… |
 | `B857` | PROVED | S | | LAW_MAP's H-EAR clause (iii) SILENCE rested on a GREP ('zero golden markers' over B737/B739 artifacts). The exact fact replacing it: 5 is INERT in Q(sqrt-3), so a_K(5) = … |
@@ -168,7 +172,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1019` | PROVED | S | | L149 ANSWERED -- THE ENDPOINT DISCRIMINATES AT THE WORD'S OWN CONDUCTOR, AND THE SIBLINGS HAVE NO DOOR. Sealed ce6b0329 with no confident prior (a weak DIVERGES lean, sta… |
 | `B1020` | PROVED | S | | THE TWO ADMISSIBILITY LEDGERS -- what a crossing MAY compare, settled before any value is looked at: docs/KIND_TABLE.md (living), Part 1 the KIND TABLE (R5's table), Part… |
 | `B1040` | PROVED | S | | FL-4 (sealed e358be1b pre-compute): the observer construction through the field-not-object battery, answered as a per-step ledger (12 rows, evidence quoted per row). V1: … |
-| `B1062` | PROVED | S | | THE BRIDGE CELL (sealed ad8d60f1 + binding pre-compute addendum B1062-A1; the owner's verify-everything order honored: every load-bearing claim twice-derived or rider-nam… |
+| `B1062` | PROVED | S | | CORRECTED 2026-09-02 (B1237): silver is ARITHMETIC (invariant trace field ℚ(i)); the V2 axis separates {golden, silver} from {bronze}; the degree statement survives. ORIG… |
 | `B1066` | NEGATIVE | S | | NEGATIVE — both inventory-forced relations decisively excluded by the CURRENT global fit (NuFIT 6.1, Nov 2025 data, both orderings, delta profiled over the full circle): … |
 | `B1068` | PROVED | S | | THE DESCENT INVENTORY (the field-masterplan W2, loop-until-dry, two adversarial lenses per verdict, 12 disputes bench-adjudicated, zero reversals): 31 canonical structure… |
 | `B1069` | PROVED | S | | THE HEARING BIOGRAPHY: Q(sqrt5) built exhaustively as a number field on new ground (the field-masterplan W3 cell, 9 agents 0 errors, exact throughout, two adversarial len… |
@@ -183,16 +187,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1143` | PROVED | S | | SP-1 CLOSES: the physical B-L is a genuine FOURTH Cartan direction, CONFIRMED TWO-BENCH with cloud memo 25 (both build B-L as a Cartan functional from the forced targets;… |
 | `B1144` | PROVED | S | | THE ADOPTION-LAYER CORRECTION: four adoption-layer errors in the phase-III digest (B1138-B1143), from the cloud's CORPUS_ADOPTION_AUDIT (golden_gate d537790), verified on… |
 | `B1187` | PROVED | S | | L187 THE DEPTH-CLOSURE SITTING -- the seven under-proved kills dispositioned, each on its named stabilization, with the verifiers themselves re-verified. THE REGISTRATION… |
-| `B1225` | PROVED | L | | T-NO-CANONICAL-SELECTOR -- no symmetry readable off the object can select within its own canonical class. With G = Stab_Aut(D)|_T read off D (GC-15/B1191) and the menu built from object-canonical atoms (B1168), G fixes every atom, so the action on all 11,720 values is TRIVIAL, not transitive: invariance cannot distinguish among invariants. MENU-1's forcing theorem is impossible in the form sought |
-| `B1226` | PROVED | L | | T-BETA-ODD-IS-BIT-VALUED -- the SM parameter count is a CATEGORY ERROR (owner). Typed by B1168 the 28 parameters split 6/3/16/3 into four boxes with four suppliers; the beta-odd box (theta_QCD, delta_CKM, delta_PMNS) is the only one with an object-side output, and that output is a Z/2 -- one BIT. All 3 probes ever fired there (B1027, B1137, B813) demanded a continuous value. Also breaks B1012's blind-to-k <=> amphichiral in both directions (m003, m208) |
-| `B1227` | PROVED | L | | ONE THEOREM, TWO REGIMES -- amphichirality forces every mirror-odd invariant to satisfy 2I = 0, so the VALUE GROUP's torsion decides: R/(1/2)Z gives {0,1/4} (B1224), R gives 0 exactly (B1225's missing keystone). Weakens B1225's hypothesis from object-canonical to REAL, which B1203 verified here. A consolidation: the missing thing was the edge, not the result |
-| `B1231` | PROVED | L | | THE IDENTIFICATION DISCIPLINE -- the programme succeeds when it TYPES and fails when it IDENTIFIES. By B1225 the object cannot identify, so an unearned identification is an UNPRICED OBSERVER INPUT and the parameter count is a LOWER BOUND until it is earned. Discriminator (B1223): exhibit the map, then show it ACTS. Register + ratchet gate + instrument whose recall limit is asserted in its own selftest |
-| `B1232` | PROVED | L | | COUNT THE IMAGE, NOT THE SOURCE -- a space of representatives is not a space of physical parameters. If a coupling annihilates the connecting block it factors uniquely through the quotient and the whole splitting family gives ONE observable (verified: spread 0.000 vs 4.83 generic). Three columns, not two: forced structure / observer-supplied values / REPRESENTATIONAL CHOICES THAT VANISH. Routes around B1225: selection is never needed. Also retracts sigma-in-Q-is-a-reduction (Q is DENSE) and k=1-from-absence |
-| `B1234` | PROVED | L | | THE WALLS TRACE TO A6 -- eight banked walls all pass through the mirror being a SELF-ISOMETRY, and that is FORCED by the orientation-double-cover construction (40/40 = 100% vs a 3.0% base rate). m004 IS Gieseking's cover. The arithmetic survives A6's removal (48 surjections onto 2T, identical). The walls are properties of a CHOICE AT LINK 6, not of the minimal something. NOT claimed: that dropping A6 yields values -- it may break the tools |
-| `B1235` | PROVED | L | | THE TWO-SEAT HARVEST -- the 112-family is 38/112 amphichiral, not 83/83 (orientation-blind method; B1181 RETRACTED, m004 stands, 38 chiral members CS-silent); A6's free deck selects CS=0 40/40 vs 36% base (L194); B1233 narrowed to the SU(2) box minimum; B994's chains were rendering, the endpoint survives on B869's engine; E51's nine relays RECOVERED; the ABSENCE RULE + absence_sweep.py; B1011's lock computes; I-10/I-11 registered UNEARNED. |
-| `B1236` | PROVED | L | | THE A1 LANDING AT EXACT MULTIPLET GRADE -- under the A1-centralizer reading su(3)+su(2)+u(1) in su(6) takes the 27 to the SM-shaped E6 27 exactly (irrep by irrep, exact arithmetic), hypercharge unique within support; histogram-level tests admit a false positive the multiplet level rejects; the SU(2)_L reading excluded by type. Compatibility theorem (textbook Lie theory); A1 selection and extra u(1) OPEN; the A2 (selected) is still at collapse grade -- state both grades in one sentence. Codex R035 verified by independent implementation. |
 
-## §6 the observer — one bit, priced (118)
+## §6 the observer — one bit, priced (127)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -224,6 +220,11 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1192` | PROVED | L | | THE CLOSE-LOOP BATCH 4 -- THE RELATIONAL BIT EXISTS (the campaign's crown positive, lens-scoped): for the heterogeneous pair (A, M1) = (the object [[2,1],[1,1]], the sqrt… |
 | `B1196` | PROVED | L | | CLOSE-LOOP BATCH 5B (the final three of the eight; all survive their lenses): (1) D2 ADJUDICATED DIFFERENT, computed directly -- B891's three foreign-16 eigenspaces sprea… |
 | `B1200` | PROVED | L | | ONE POLYNOMIAL, THREE FACES -- the saddle, the founding obstruction, and the boundary structure are the SAME Phi3 = u^2+u+1, and the map between them is c. THE CROSS-SEAT… |
+| `B1225` | PROVED | L | | NOTHING IS HIDING: NO SYMMETRY READABLE OFF THE OBJECT CAN SELECT WITHIN ITS OWN CANONICAL CLASS (owner's question: what is hiding that would force the top breakthrough a… |
+| `B1226` | PROVED | L | | THE BETA-ODD BOX: THE SCALE WALL IS NOT A SYMMETRY THEOREM, AND EVERY PROBE EVER FIRED AT THE OBJECT'S ONE LIVE CHANNEL DEMANDED THE WRONG TYPE (owner-directed: the SM pa… |
+| `B1227` | PROVED | L | | ONE THEOREM, TWO REGIMES: B1224 AND B1225'S MISSING KEYSTONE ARE THE SAME STATEMENT IN DIFFERENT VALUE GROUPS, AND THE CONNECTION CLOSES A CRACK THIS BENCH OPENED THIS MO… |
+| `B1231` | PROVED | L | | THE IDENTIFICATION DISCIPLINE -- the programme's dominant error mode, named, instrumented, ratcheted, and applied FIRST to this bench's own two failures. Owner-approved p… |
+| `B1234` | PROVED | L | | THE WALLS TRACE TO A6 -- THE SQUARING BUYS ORIENTABILITY AND COSTS EVERY VALUE. Owner: 'maybe at some point we followed a wrong sub-branch on our math, that built the wal… |
 | `B156` | PROVED | V | | Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L… |
 | `B986` | NEGATIVE | V | | THE B500 DEPTH-5 REOPEN ATTEMPTED AND THE METHOD KILLED BY ITS OWN CONTROL -- L145a STAYS OPEN, the attempt failing on the INSTRUMENT not on the object. cc3's sweep surfa… |
 | `B1023` | PROVED | V | | PHASE 2'S CONCESSIONS, V2: TWO DEFECTS FIXED, THEN TWO BLOCKERS ON THE FIX ITSELF -- CONCEDED AND PINNED OPEN, the second correction arriving from cc3 BEFORE the batch ba… |
@@ -235,12 +236,12 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1186` | PROVED | V | | THE FAMILY-DEFINITION CELL CLOSED (harvests cc3 B8152, verify-don't-trust, with a ONE-MEMBER CORRECTION): the two criteria are STRICTLY NESTED -- (A) all-regular-ideal, /… |
 | `B1189` | PROVED | V | | THE CLOSE-LOOP BATCH 1 (the grand-computation campaign's first five cells, each adversarially verified by two lenses; 4/5 survive cleanly and the fifth's lone refutation … |
 | `B1190` | PROVED | V | | THE CLOSE-LOOP BATCH 2 (the hard cells; 1/5 survived its own lenses -- the refutations are the content, E52 running live inside the loop): GC-6 THE L154 BRIDGE (PARTIAL, … |
-| `B1191` | PROVED | V | | THE CLOSE-LOOP BATCH 3 -- THE GRAND COMPUTATION v0 LANDS (docs/GRAND_COMPUTATION_v0.md): the universe in the object's own units, six sections (arena+clock in ticks of the… |
 | `B1194` | PROVED | V | | THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lenses + twelve adversarial checks, archived verbatim): THE HAVE list is twelve rows de… |
 | `B1197` | PROVED | V | | THE CLOCK-COHERENCE RUN (route B4, the D2 gate; executed the moment 5A returned): SPLIT VERDICT -- the named primary test PASSES and the full census check FAILS, so neith… |
 | `B1201` | PROVED | V | | THE LEE VERIFICATION CORRECTS B1198, AND THE CROSS-SEAT HARVEST CLOSES CLEAN. R52-3, THE READING (full v1 text, sections 7.3-7.5 + Appendix A, 345k chars): (a) THE TANGEN… |
-| `B1203` | NEGATIVE | V | | TWO PROBES, BOTH NEGATIVE FOR THE PROPOSER. PROBE 1 -- c-EQUIVARIANCE AS A FORCING FILTER, REFUTED WITH A CUT OF EXACTLY ZERO: my own proposal (that requiring c-equivaria… |
 | `B1204` | PROVED | V | | THE SHAPE OF A FORCING THEOREM, read off the record's own successful forcings. The owner asked whether prior symmetry BREAKINGS supply the insight/mechanism/principle for… |
+| `B1222` | NEGATIVE | V | | 'THE SELECTION IS THE OBSTRUCTION' -- a unifying thesis for the programme's ~65 proved vanishings, proposed with three kill conditions named IN ADVANCE, and killed by the… |
+| `B1233` | PROVED | V | | THE Z-AI AUDIT: 15 CLAIMS CONFIRMED ON THIS BENCH, 7 REFUTED, ONE REAL DEFECT FOUND IN OUR OWN RECORD, AND ONE HEADLINE IDENTIFICATION REFUTED BY GALOIS THEORY. Owner: 't… |
 | `B14` | PROVED | S | | F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b.… |
 | `B64` | PROVED | S | | The k(alpha) sector-assignment is proven symbolically: even-/k/ char(M^k) is P-symmetric, odd-/k/ P-antisymmetric, via depth-n CH plus Dickson parity.… |
 | `B161` | PROVED | S | | The cancellation locus kappa=2 is codimension-1, measure-zero and spectrally trivial, while non-cancellation is generic and fractured; 'forced/empty' is retired.… |
@@ -314,8 +315,12 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1141` | PROVED | S | | THE SPIN PAYMENT (cloud seat's 28th memo, hostile-verified TWO-BENCH on this bench with own code — own relator search, own exact intertwiner-rank, own norm-form + chi-par… |
 | `B1145` | PROVED | S | | SP-2: the object's beat closes EXACTLY on the fermion-capable odd A1/su(6) stratum's 27 over the beat-selected spin lift (cloud memo 29; sealed prereg sha256 c384dd3e der… |
 | `B1174` | NEGATIVE | S | | THE Z/2-IDENTIFICATION CELL (R50-3; the register's Q1 = B1169's S1, double-discovered by the sweep and the meditation independently). THE HYPOTHESIS AS POSED -- the four … |
+| `B1191` | PROVED | S | | THE CLOSE-LOOP BATCH 3 -- THE GRAND COMPUTATION v0 LANDS (docs/GRAND_COMPUTATION_v0.md): the universe in the object's own units, six sections (arena+clock in ticks of the… |
+| `B1203` | NEGATIVE | S | | TWO PROBES, BOTH NEGATIVE FOR THE PROPOSER. PROBE 1 -- c-EQUIVARIANCE AS A FORCING FILTER, REFUTED WITH A CUT OF EXACTLY ZERO: my own proposal (that requiring c-equivaria… |
+| `B1223` | NEGATIVE | S | | THE V4/S3 <-> D4 CORRESPONDENCE, assembled from three seats' material and KILLED IN ONE COMPUTATION. THE ASSEMBLY: the object supplies V4 (its three forced quadratic face… |
+| `B1235` | PROVED | S | | THE TWO-SEAT HARVEST (fab5cloud rings R2/R3 + codex R034/R036, every claim recomputed here before banking): (1) THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- B1181's clo… |
 
-## §2 the object — arithmetic and geometry (46)
+## §2 the object — arithmetic and geometry (47)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -326,6 +331,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B739` | PROVED | L | | m004's continuous spectrum is character-rigid: one Eisenstein channel pulled back from the Bianchi base, scattering Λ_K(s−1)/Λ_K(s), carrying no level characters.… |
 | `B749` | PROVED | L | | The genesis axiom chain is priced by computation: F2/F3/F4/F7 ROBUST, F5 and F6 FRAGILE (the det −1 sibling is the Gieseking; closure keeps only the hearing face), and F8… |
 | `B1107` | PROVED | L | | THE ONE-LOOP RUELLE IDENTITY HARVESTED (two-bench; the audit seat's B8100->B8104->B8112 chain with B8113's three residues as scope): R(k, sigma_k) = prod(1 - q^k) exactly… |
+| `B1232` | PROVED | L | | CODEX R031A/R031B VERIFIED ON THIS BENCH, THREE OF MY CLAIMS RETRACTED, AND A THIRD COLUMN THE PROGRAMME DID NOT HAVE. Owner: 'verify everything, trust nothing' -- so cod… |
 | `B1165` | NEGATIVE | V | | THE TERMINAL GRAVITY PROBE (sec-E), owner-directed to a typed close. THE FIREWALL VERDICT = GENERIC-RHYME: the observer's archimedean closing is CO-LOCATED with the objec… |
 | `B27` | PROVED | S | | The exact eight-dimensional SL(3) Fibonacci trace lift retains the A quadratic sector and splits into symmetric/antisymmetric inverse-trace blocks.… |
 | `B173` | PROVED | S | | The woven two-seed gap-label group is rank 3 = 1+#distinct quadratic fields (PSLQ-certified), reducing B172's gap to the gap-labeling theorem.… |
@@ -365,9 +371,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B931` | PROVED | S | | WHY 953 -- THE DERIVATION CHAIN + THE HONEST MAP (53/53 exact): 2304 IS DERIVED -- 2304^2 = 2^16 3^4 is exactly the {2,3}-part of lc(mu) = 2304^2 5^2 7^3 11, the twist's … |
 | `B1064` | NEGATIVE | S | | O3 — OBSTRUCTED-AT-TORUS, the obstruction named exactly on two independent banked legs: (1) the object amphichirality DELETES the quantized sector of its own boundary act… |
 | `B1136` | PROVED | S | | THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-fie… |
-| `B1224` | PROVED | L | | T-CS-TORSION -- amphichirality forces the Chern-Simons invariant to be 2-TORSION, not zero: CS = -CS so 2CS = 0, admissible values exactly {0, 1/4}. Verified 6/6 on the census (m004/m136/m206 at 0; m003/m135/m207 at 1/4). Recovered from B1222, which a gate had killed using H1 torsion -- the wrong observable for a Chern-Simons thesis |
 
-## §10 the wall — what a specialist must supply (37)
+## §10 the wall — what a specialist must supply (38)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -378,8 +383,9 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1185` | PROVED | L | | L186 ANSWERED -- THE THREE-MECHANISMS THEOREM: the record's three named Yukawa-suppression mechanisms are GENUINELY THREE, none identifiable with another, by three exact … |
 | `B1151` | NEGATIVE | V | | THE LARGE-T GUE TEST (C4, the cloud's preregistered cell c4_gue_larget.py run on our i9 at T=3000, 5459 merged zeros): the preregistered single-GUE gate is NOT MET -- GUE… |
 | `B1157` | NEGATIVE | V | | WF-2 (the dynamics; the masterplan's 2nd workflow, 8 agents), sealed DECIDABLE-RESULT, banked as a productive NEGATIVE. THE FIREWALL VERDICT: the object supplies NO param… |
+| `B1220` | PROVED | V | | THE CAMPAIGN'S PREMISE AUDIT (Cells 1-3 of the publication campaign, NOT RUN AS DESIGNED because none needed to be): ALL THREE MATH CELLS WERE ALREADY ANSWERED, and in EV… |
 | `B218` | PROVED | S | | Jones-index quantization selects golden as the unique metallic mean realizable as a unitary anyon (Fibonacci, d=2cos(pi/5)); all m>=2 exceed the index-4 wall.… |
-| `B259` | PROVED | S | | Verified the Mostow metric solves 3d vacuum Einstein exactly (Λ=−1) and produced the honest five-wall map: one theorem, one 122-order gap, three open gaps.… |
+| `B259` | PROVED | S | | CORRECTED 2026-09-02 (B1237): wall #5's '122 orders' withdrawn per B980 (3+1-dim relation, dropped ħ); theorem + walls #1–#4 stand. ORIGINAL CLAIM AS ASSERTED: Verified t… |
 | `B286` | PROVED | S | | The ingredients live at the seam: Dehn filling the open complement supplies a forced 10-element exceptional set, chirality, an oriented CS sign, a 2π/n scale, and a perip… |
 | `B294` | PROVED | S | | The seam is selective for the object's own structure (a forced A=LR closing) but a flat catalogue for Standard-Model values, with selection stratified across dynamical, a… |
 | `B300` | NEGATIVE | S | | The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absen… |
@@ -409,7 +415,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1091` | PROVED | S | | THE OBSERVER CARD (L174 C4, assembly): what an observer at the cut can measure -- c = 6 sigma (twice-derived), the tick clock (M then M^2 = RL), the seam multiplicities (… |
 | `B1195` | PROVED | S | | CLOSE-LOOP BATCH 5A (the five highest-leverage closes, merged with cloud's routes at their 9915068b): (1) SEAM-A's CS=0 DOOR SHARPENED (lens-scoped) -- the object's b=1 p… |
 
-## UNASSIGNED — needs an editorial call (109)
+## UNASSIGNED — needs an editorial call (111)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -512,8 +518,10 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B789` | PROVED | S | | An explicit intertwiner Q = S_iota * S_sd^{-1} conjugates transpose-with-reversal back to the Riley Sym^2 representation, which descends to pi_1(4_1); Q is rep-dependent.… |
 | `B791` | PROVED | S | | Independently verified the B788 Maass bank and corrected the Weyl completeness criterion to dim(V_i) x W(T) per sector, dissolving the claimed live defect.… |
 | `B794` | PROVED | S | | Re-derived from scratch: the figure-eight group is congruence of level exactly (4), and every trace norm is 0 or 3 mod 4, refuting the narrower norm-split claim.… |
+| `B813` | NEGATIVE | S | | The direct CS(m004)=θ_QCD dictionary is refuted on type: a fixed PSL(2,ℂ) geometric invariant cannot fill the coefficient slot of e^{iθW(A)}, whose functional slot a Cher… |
 | `B854` | NEGATIVE | S | | The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so… |
 | `B855` | PROVED | S | | The programme's genericity controls were family members: m003 is commensurable with m004 (index 12 in PSL(2,O_-3)), and m129 -- proposed by cc as the non-commensurable fi… |
+| `B891` | PROVED | S | | THE SEALED MATTER-EXTENSION CELL (prereg a08398c5, sealed before compute, verified unbroken) RETURNS DISTINCT IN ALL THREE FRAMES: the two foreign 16-subspaces' 12-piece … |
 | `B902` | PROVED | S | | M5, THE KNUS-PAQUES DIFFERENCE CLASS (W4's misalignment datum, delivered): with Lagrange-resolvent Kummer elements alpha = (-27q + 3s sqrt(-231))/2 in F = Q(sqrt77, sqrt-… |
 | `B908` | PROVED | S | | THE I-EXACTNESS PIN, two of three legs closed: (leg 1) v = prod(rows) + prod(cols) is RATIONAL by the K3,3 bipartition-uniqueness argument (the coupling graph verified co… |
 | `B919` | PROVED | S | | THE A1 DEBT DISCHARGED AT ITS HONEST TIER (cc3 loss audit): sin^2(theta_W) = 3/8 at the object's normalization now has a standalone arc + lock -- with the object's own op… |

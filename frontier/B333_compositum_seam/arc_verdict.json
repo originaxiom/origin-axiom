@@ -1,19 +1,20 @@
 {
- "id": "B333",
- "verdict": "NEGATIVE",
- "claim_one_line": "First-class NULL: the value's home is the compositum Q(sqrt-15), but the seam's arithmetic is generic and carries no value.",
- "instrument": false,
- "depends_on": [
-  "B332"
- ],
- "superseded_by": null,
- "stratum": "B",
- "authored_by": "W1-pilot",
- "kill": {
-  "kill_form": "unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": "unregistered",
-  "revival_score": null
- }
+  "id": "B333",
+  "verdict": "NEGATIVE",
+  "claim_one_line": "First-class NULL: the value's home is the compositum Q(sqrt-15), but the seam's arithmetic is generic and carries no value.",
+  "instrument": false,
+  "depends_on": [
+    "B332"
+  ],
+  "superseded_by": null,
+  "stratum": "B",
+  "authored_by": "W1-pilot",
+  "kill": {
+    "kill_form": "unclassified",
+    "faces_consulted": [],
+    "fact_computed": null,
+    "hatch": "unregistered",
+    "revival_score": null
+  },
+  "note": "B1237 (2026-09-02): 122 (not 123) fundamental discriminants in [−399, −3], 16 (not 14) with h = 2 — compositum_seam.py:63 tests (-m) % 4 where the condition needs m % 4. NEGATIVE unchanged. See ADDENDUM_2026-09-02_B1237.md."
 }

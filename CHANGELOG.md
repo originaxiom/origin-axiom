@@ -1,5 +1,50 @@
 # Changelog
 
+## THE PHYSICS-SEAT HARVEST, SECOND RING — silver IS arithmetic; C42 witnessed from committed code; E53 at verdict-file grain (2026-09-02)
+
+**B1237.** The physics-seat evaluation branch's R31–R38 and W-D synthesis (nine commits, `2ebdff8d`→`d415423a`) read
+in full and **nothing merged**; every correction recomputed here (SnapPy + PARI via `snappy.pari` + mpmath). **(1) Silver
+is arithmetic** — m136's *invariant* trace field is ℚ(i) (350 traces of squares over words ≤ 6, all Gaussian
+integers) and Vol(m136) = 4G = 12 × covol(PSL₂ℤ[i]) to 50 digits; B258 and B1062's V2 inferred non-arithmeticity from
+the *trace* field's degree (8) — **new error class E55**, both arcs corrected in their own verdict files; the axis
+separates {golden, silver} from {bronze}; the degree statement (*golden alone at degree 2 in every tower*) survives;
+the bank already had it right five times (B125/B147/B137/B850/B337). **Consequence:** the SM chain is untouched
+(m = 1 enters through the McKay door — B237/B1019/B997 — never through arithmeticity); L161's P0-0 genericity
+control is weakened, not lost: arithmeticity separates bronze only, and the silver half now rests on B997's
+own-conductor McKay uniqueness (L161 addendum). **(2) C42's 3/8 witnessed from committed code:**
+B919's runner needs an uncommitted `HANDOFF6_RUN/cw.py` (absent from all history) and its lock pins strings; the three
+traces (3, 5, 0) now recompute from B1236's committed multiplet content; THEOREM_LEDGER C42 carries the pointer.
+**(3) E53 at verdict-file grain (#13–#15):** B361 `superseded_by: "B367"` (the law refuted at pair (3,4)); B259 wall
+#5's "122 orders" withdrawn in B259's own record per B980 (+ two live sites marked); B892's "takes E₆ to the SM
+algebra" overstates by two abelian factors (dim 14 vs 12, B950; Levi stratum B951; exact content B1236). **(4) Three
+NEGATIVES' numbers corrected, verdicts unchanged:** B850 geometric multiplicity maxima 12/12/11/11/6 (the bank's were
+word counts); B333 122 fundamental discriminants, 16 with h = 2 (sign bug at `compositum_seam.py:63`); B213 torsion
+ℤ/2×ℤ/2, ∏c_p = 4, L(E,1) = 0.742206…, Mahler 0.742264… (not equal), and Φ's curve is the 40a member 2-isogenous to
+40a1 (j = 55296/5; B509/B510 already had it). The seat's belt findings (29 `REPRODUCES`-string locks; OA_SLOW gating)
+verified and queued as **L197** with the supersession-sweep instrument; its "no observable content" framing
+quarantined (the cells are typed as structure by design). `scripts/checks/paper_ledger_counts.py` fixed (it counted the
+dimensionful-unit row; the paper's *six* was right) and locked. Locks: `tests/test_b1237_physics_seat_harvest.py`,
+`tests/test_paper_ledger_counts.py`. Kill graph 778. Gate 5 untouched; no identification declared.
+
+**Also this push (the L196 wave close, c3aa1413):** the wave-2 certifying suite (5853 passed / 2 failed, 1:00:03)
+caught two things and both are fixed in their own commit. B1–B5's L196 bodies had been written as `VERDICT.md` — a
+naming drift; every other arc pairs `arc_verdict.json` with `FINDINGS.md` — and B1 was a verdict with no body under
+`test_b1207_slow_lane` (its glob caught B1 by accident and would have missed B2–B5; all five renamed since the lock's
+intent holds for each). B1236's headline carries two theorem-shaped words ("COMPATIBILITY THEOREM" = the arc's own
+label for textbook Lie theory; "UNIQUE" scoped to one embedding's support constraint) while declaring
+`creates_law: false` — `test_b1211_declaration_gap` fired, and the dated `creates_law_reviewed` block now records the
+decision (VERIFICATION of codex R035, read in full; I-6 stays UNEARNED). The E51 addendum's not-yet-written REVIVABLE
+index is no longer cited as a path.
+
+**The claim base re-derived rather than hand-patched.** Re-rendering `papers/P3_THE_PAPER/CLAIM_CANDIDATES.md`
+for the B1237 headline changes dropped nine rows that had been appended by hand after B1213's frozen pool (B1224–B1236)
+— and two of them were mis-tiered **L** (B1235, B1236) while their flags say `creates_law: false`. Fix: the pool is
+now rebuilt from the live corpus by B1213's own builder (467 → 484 arcs; the seven declared-law arcs return as **L** by
+construction, B1235 tiers **S**, B1236 tiers **V** — the vocabulary criterion reaching exactly the headline words its
+disposition names). One builder repair on the way: short ids (B1–B9, verdicts since L196) collided with section labels
+on the surfaces (`### B2.` in `SM_SPECIFICATION_LEDGER` is a category) — bare word-boundary matches no longer count as
+citations for them. `reproduce.sh` REPRODUCES.
+
 ## THE A₁ LANDING AT EXACT MULTIPLET GRADE — codex R035 verified, re-implemented, banked (2026-09-02)
 
 **B1236.** B1098's minimal-A₁ row ("su(6), SM-compatible with one extra u(1)") was an embedding note. Reading the

@@ -1728,6 +1728,12 @@ crossing proposal (from §4 of the same scrutiny): its location must be stated �
 {the door, the coupling, the closings} — all four dead crossings targeted the value
 layer, the one place the type law forbids; the three legal locations are UNTRIED.**
 
+**ADDENDUM 2026-09-02 (B1237 — the P0-0 control re-typed):** B1062's arithmeticity handle separates the
+golden from **bronze only** — silver (m136) IS arithmetic (invariant trace field ℚ(i); E55). P0-0's silver
+half now rests on **B997's own-conductor McKay uniqueness** (golden-specific, proved over the infinite
+family; B1019: the siblings have no door) — the gate stays open on that handle. "ARITHMETICITY leads" is
+downgraded to: arithmeticity separates bronze; the door separates silver. The SM chain is untouched.
+
 **Fences**: Gate 5-Q throughout Phase 0 (no measured value enters any main
 artifact until a sealed crossing cell exists with its prior declared);
 exploratory-numerics rigor on anything numeric; the reframe's claim-language
@@ -2228,3 +2234,22 @@ vs peripheral character variety; hatch WALKED by B13/B67), B3 OPEN (3D exact, 4D
 Kasner, 37.8%, ratio 1.13), **B5 NEGATIVE** (Λ = 2π²/Vol ≈ 9.72 "Planck units", 10¹²⁰ off; kind-mismatch by weight — Vol is the shape's number,
 weight 0; Λ weight −2; R = ℓ_P inserted by hand; same family as B259 wall #5, retracted B980). Both negatives routed into the kill graph (776 rows).
 Lock: `tests/test_b1235_nine_relays_read.py::test_l196_b1_b5_carry_verdicts`. ★★ → CLOSED (archival; the digest's oldest blind spot).
+
+## L197 — THE SUPERSESSION SWEEP + THE BELT'S TWO NON-RECOMPUTING FAMILIES (registered 2026-09-02, B1237; source: the physics-seat evaluation branch's W-D synthesis @ d415423a, findings verified here)
+
+**(a) Supersession.** The seat digested 605 arcs and tallied `SUPERSEDED_UNMARKED` 48, `RETRACTION_NOT_PROPAGATED` 25,
+`LOG_DRIFT` 24: a later arc corrects an earlier one in the log and the earlier arc's `arc_verdict.json` still says
+`superseded_by: None`. Three instances verified and propagated under B1237 (B361←B367, B259←B980, B892←B950/B951; E53 #13–#15).
+**The lead:** an instrument that, for every arc with `superseded_by: None`, greps later arcs' FINDINGS/verdicts for
+`<id>` next to *refute|withdraw|supersede|overstate|retract* and emits CANDIDATES (never verdicts — the identification
+audit's rule), then a single seat walks the list. Not fanned out: B1216 (9 agents, zero rows deleted, one regression).
+Expected yield: the seat's 48 minus the three done.
+
+**(b) The belt.** Two families verified as described: (i) 29 test files in the B1147–B1185 belt carry a
+`test_reproduce_*` that asserts the literal string `REPRODUCES` occurs in the committed script or its committed output
+(`tests/test_b1160_hypercharge_forced.py:51–53` is the shape) — a drift lock on stored output, not a recomputation;
+(ii) a large share of B1100+ tests run the real recomputation only under `OA_SLOW=1`. Neither is wrong (the slow lane
+exists for cost, B1207; the string locks catch silent edits), but the reviewer view should say which locks *re-run*
+and which *pin*. **The lead:** a `lock_kind` column in `docs/views/REVIEWER.md` (RECOMPUTES / PINS-OUTPUT / PINS-TEXT)
+derived mechanically from the test source, and a once-per-review `OA_SLOW=1` run on a clean tree (already standing —
+this makes its coverage visible). ★★ (record hygiene; nothing physical rides on it).

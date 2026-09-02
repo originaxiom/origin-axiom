@@ -13182,3 +13182,39 @@ the external factor matches abstractly but is excluded by type, since the A₁ i
 stays the selected landing; the A₁ is the first stratum with the full SM-shaped content at multiplet grade, at the
 price of one extra u(1) and an unpriced selection — a specification, not a claim. Codex's seven pinned source blobs
 are all on main. Gate 5 clean; no identification declared.
+
+## 2026-09-02 — B1237: the physics-seat harvest, second ring (R31–R38 + the W-D synthesis)
+
+The physics-seat evaluation branch pushed nine commits past the B1235 harvest point; all read, none merged, every
+correction recomputed on this bench before banking. The one that changes a control: **silver is arithmetic**. m136's
+invariant trace field is ℚ(i) — every one of 350 computed traces of squares is a Gaussian integer — and its volume is
+4G = 12 × the Bianchi covolume of PSL₂(ℤ[i]) to 50 digits. B258 (and B1062's V2, which inherited it) had typed silver
+non-arithmetic from the degree of the *trace* field, which is not the criterion; B1062's own table row recorded the
+invariant datum x² = 2+2i beside the wrong inference. New error class E55. The arithmeticity axis now separates
+{golden, silver} from {bronze}; the degree statement — golden alone at degree 2 in every tower — is untouched, and the
+bank had already banked silver arithmetic five times without any instrument noticing the contradiction.
+What it touches: not the chain — m = 1 enters the E₆ chain through the McKay door (B237/B1019/B997), which
+silver provably lacks — but L161's P0-0 control, which B1062 had opened on arithmeticity alone; that control
+now separates bronze only, and the silver half rests on B997. Silver becomes a control of the right type: same
+arithmetic status, different atom, no door.
+
+C42's 3/8 was reproducible only from an uncommitted run directory (`cw.py` never entered any history; B919's lock pins
+strings). The three traces now recompute from B1236's committed multiplet content — a different derivation of the
+same integers, not a second prime; the ledger row carries the pointer. Three E53 instances at verdict-file grain
+propagated (B361 superseded by B367; B259 wall #5 withdrawn in its own record per B980, plus two live "122 orders"
+sites marked; B892's "the SM algebra" is su(3)⊕su(2)⊕u(1)³, dim 14 vs 12). Three negatives had wrong numbers and
+right verdicts (B850 multiplicities were word counts; B333's discriminant filter had a sign bug; B213's torsion,
+Tamagawa, L-value and Mahler measure were misquoted and its curve is the 40a member 2-isogenous to 40a1, as B509/B510
+already said). The seat's synthesis tallied 48 unmarked supersessions — the instrument to sweep them is L197, with
+the belt's two non-recomputing lock families. The seat's paper-count tool was wrong, not the paper. Gate 5 clean.
+
+The L196 wave went out first (c3aa1413) after its own certifying suite went red on two locks doing their job: the five
+genesis-probe bodies had been filed as `VERDICT.md` (renamed to `FINDINGS.md` — B1 was a verdict with no readable body
+under `test_b1207`, and the other four would have been the same silently), and B1236 talked like a theorem while
+declaring `creates_law: false` (`test_b1211`); its disposition is now dated and classified — a VERIFICATION of codex
+R035, the "COMPATIBILITY THEOREM" being textbook Lie theory and the "UNIQUE" scoped to one support constraint.
+
+The P3 claim base stopped being hand-patched: its render dropped nine rows appended by hand since B1213's frozen pool,
+two of them mis-tiered L by me (B1235, B1236 — both `creates_law: false`); the pool is now rebuilt from the live corpus
+(467 → 484), tiers fall out of the flags and surfaces rather than a hand, and short arc ids no longer match section
+labels on the synthesis surfaces.
