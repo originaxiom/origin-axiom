@@ -1,0 +1,320 @@
+{
+  "batch": "arcs_113",
+  "arcs": [
+    {
+      "arc": "B1137_regulator_probe",
+      "source": "main",
+      "files_read": [
+        "FINDINGS.md", "ADDENDUM_2026-09-01_floor_reclassification_proposal.md", "PREREG.md",
+        "arc_verdict.json", "b1137_results.json", "results/final_report.json",
+        "aggregate.py", "basis.py", "pslq_probe.py", "regulators.py", "surrogates.py", "targets.py", "verify.py"
+      ],
+      "files_sampled": [],
+      "files_listed_only": [],
+      "claim_of_record": "DISJOINT: no SM value is a bounded-height algebraic combination of the object's regulators (D<=3, H<=1e6, 216 cells, 18 sealed targets, matched null base rate 0.0). Verdict field: NEGATIVE.",
+      "log_says": "2026-08-22 THE REGULATOR DOOR CLOSES (B1137, R48-3), owner-directed sealed prereg; B1207 (2026-08-29) separately found the on-bench PSLQ grid was opened in append mode with no resume logic, accumulating 648=3x216 cells while the aggregator mis-derived M_grid_cells=432, halving the Sidak alpha off an untested multiplicity -- a defect in this arc's own bench, found by a different arc.",
+      "log_consistency": "DRIFT",
+      "load_bearing": [
+        {
+          "what": "DISJOINT verdict (0/18 SM targets algebraic over the regulator basis; null rate 0.0)",
+          "where": "FINDINGS.md, arc_verdict.json, b1137_results.json, results/final_report.json",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Full pipeline (basis.py, pslq_probe.py, verify.py, surrogates.py, aggregate.py) is committed and the committed results/final_report.json byte-matches (per the ADDENDUM's independent byte-reproduction on a separate bench)."
+        },
+        {
+          "what": "The gate mechanism used to certify 'no relation exists' (exact_stable threshold dps_search+BOOST*0.5, target truncated to its own digit count before search)",
+          "where": "pslq_probe.py:38-45 (nstr(V_full, d_use)), verify.py:27,52-60 (BOOST=120, stable = resid_hi_digits > dps_search + BOOST*0.5)",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Code inspected directly; matches the ADDENDUM's description almost exactly (addendum states dps+60, code computes dps_search + 60 since BOOST*0.5=60)."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Ring R2 cell R17 re-ran the committed pipeline byte-faithfully on a separate bench and got a dict-identical result, AND additionally ran a planted-positive control (a known true relation 5V-3L(1,chi-3)-2pi=0) through the unmodified run_cell and showed it is found-but-rejected at 250 digits and not-found at 60/10 digits -- a genuine adversarial belt test, not a mere re-read.",
+      "absence_claims": [
+        {"quote": "Tier B ... NEEDS-SPECIALIST (the repo's first stance; prior Beilinson work is elliptic-K₂ only, a different domain; no J₃(𝕆) computation exists).", "where": "FINDINGS.md:69-70"},
+        {"quote": "the pruned 25-element basis is taken to be ℚ-linearly independent with 1, as the arc asserts; basis_hygiene_check.py is not in the arc dir.", "where": "ADDENDUM_2026-09-01_floor_reclassification_proposal.md, 'Assumption carried' paragraph"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "SUPERSEDED_UNMARKED",
+          "detail": "A same-day ADDENDUM (2026-09-01) demonstrates via a planted-positive control run through the arc's own unmodified code that the instrument has zero statistical power to detect any true relation at physically-available precision (best case 10 digits vs a required ~176+ exact digits) -- meaning the correct PREREG-Section-E outcome type is FLOOR, not DISJOINT. FINDINGS.md and arc_verdict.json still assert DISJOINT (a 'theorem-shaped negative') unmodified after this addendum was filed; the addendum explicitly proposes a reclassification but leaves the original text unedited pending a banking-seat decision.",
+          "where": "ADDENDUM_2026-09-01_floor_reclassification_proposal.md vs FINDINGS.md line 1-6 and arc_verdict.json 'verdict':'NEGATIVE'"
+        },
+        {
+          "kind": "LOG_DRIFT",
+          "detail": "PROGRESS_LOG (B1207, 2026-08-29) records that this arc's own PSLQ grid was run in append mode with no resume logic on some bench, tripling the cell count to 648 while the aggregator's M_grid_cells stayed 216 (halving the effective Sidak alpha off an untested multiplicity); the currently committed results/final_report.json shows a clean M_grid_cells=216 with 100 null draws per height (400 total, not the FINDINGS-stated 384) -- i.e. the committed file does not show the 648-cell bug, but neither does FINDINGS/arc_verdict acknowledge that a data-integrity incident touching this exact arc's pipeline was found and (presumably) fixed elsewhere.",
+          "where": "PROGRESS_LOG.md B1207 entry vs results/final_report.json"
+        },
+        {
+          "kind": "OTHER",
+          "detail": "Internal count mismatch (flagged by the ADDENDUM itself, not by FINDINGS/verdict): FINDINGS.md and arc_verdict.json state a 384-cell matched null (96 per height); the committed results/final_report.json shows 400 (100 per height, seed 17); no committed configuration reproduces 384. Also FINDINGS says only 2 targets (delta_CP, m_s/m_d) produced any stable/height-legal/within-1sigma relation, but the committed report shows ten targets with V-alone finds (117 total) with none marked stable/height-legal.",
+          "where": "ADDENDUM D7a/D7b vs FINDINGS.md:37,42 and arc_verdict.json"
+        }
+      ],
+      "seat_note": "The headline DISJOINT is a negative that the instrument cannot actually certify: the verification gate demands residual stability far beyond what any physically-measured constant's finite digit precision can ever supply, so a real relation involving a physical target would be rejected identically to a non-relation -- the addendum's planted-positive control makes this concrete and is not contested anywhere in the arc's own text. Until reclassified, DISJOINT is being cited elsewhere (this FINDINGS itself says it 'closes the value question from every route') as a completed negative when the correct PREREG-defined type is FLOOR."
+    },
+    {
+      "arc": "B1138_structural_completion",
+      "source": "main",
+      "files_read": [
+        "FINDINGS.md", "arc_verdict.json", "b1138_results.json",
+        "verification/memo13_part1_core.py (grep pass)", "verification/verify_memo11_fork.py (grep pass)", "verification/verify_memo14_ambient.py (grep pass)", "verification/memo15_family_triplet.py (grep pass)"
+      ],
+      "files_sampled": [],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED: four structural results (fork theorem z-ladder 16/8/8/0; exceptional-series installment ladder E6/E7/E8 -> 0/1/8 room; hypercharge spend 9+9 orbit split, no Y ever split; E8 family triplet 248=(8,1)+(1,78)+(3,27)+(3bar,27bar), 27 enters 3x) -- all re-derived two-bench with own code, no discrepancy, Gate 5 untouched (no SM value).",
+      "log_says": "2026-08-22, PROGRESS_LOG: four cloud memos (11,14,13,15; golden_gate 577712f) verified TWO-BENCH with own Chevalley builder + own W(E6)/GF(2)/signature machinery, all CONFIRMED; a later note (same log entry, same day) corrects the B1138 cert-note re family_triplet.py's E8 Cartan matrix (verifier mis-transcription, not a source defect).",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "Fork theorem centralizer ladder z(T1)=16, z(T1+color)=8, z(T1,T2)=8, z(T1,T2+color)=0",
+          "where": "FINDINGS.md section 1; verification/verify_memo11_fork.py",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Own generic Chevalley builder committed; reused only banked e6 (B1102) + 27 (B883); results echoed in b1138_results.json memo11_fork."
+        },
+        {
+          "what": "E8 family triplet decomposition 248=(8,1)+(1,78)+(3,27)+(3bar,27bar), independently-built E8 (240 roots, dim 248)",
+          "where": "FINDINGS.md section 4; verification/memo15_family_triplet.py",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Own E8 built from scratch (not reusing the cloud's family_triplet.py which had a transcription bug); dim/root counts self-asserted and verifiable."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Independent own-code re-derivation of all four memos (own Chevalley builder with flipped cocycle convention; own W(E6)/GF(2)/signature machinery) reusing only two prior banked primitives, not the cloud's certs directly.",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "OTHER",
+          "detail": "creates_law_reviewed field flips this arc's law-status to FALSE post-hoc (2026-08-29, B1214) on the stated basis that 'the thirteen arcs that PASSED the rule were read in full before flipping; these were not' -- i.e. this arc's own reclassification was performed on an asymmetric evidentiary basis (not fully re-read) relative to the arcs that were confirmed as creating law, an admitted procedural gap in the audit itself.",
+          "where": "arc_verdict.json creates_law_reviewed.basis"
+        }
+      ],
+      "seat_note": "A clean, honestly-fenced group-theory harvest (EXHIBITS-NOT-FORCES fence on the E7/E8 ladder and the E8 family triplet explicitly held); no SM value is claimed and none should be inferred from '27 enters 3 times' toward 3 generations, which the arc itself explicitly disclaims."
+    },
+    {
+      "arc": "B1139_symmetry_point_table",
+      "source": "main",
+      "files_read": ["FINDINGS.md", "arc_verdict.json", "b1139_results.json"],
+      "files_sampled": [],
+      "files_listed_only": ["verification/*"],
+      "claim_of_record": "PROVED: the 27's charge table = one SM generation (QUANTIZED); sin^2(theta_W)=3/8 typed as FORCED-DIRECTION + ASSUMED-NORMALIZATION (a reproduction, not a fresh value, per B991's convention proof); the 8 anomaly traces=0 is the general E6 anomaly-freedom theorem realized (no degree-3 invariant exists, so Tr(X)^3=0 for ANY Cartan element); naive B-L=2(Y-T3R) is NEGATIVE/unphysical.",
+      "log_says": "2026-08-22 verified two-bench (own crystal-of-omega1 BFS, own trinification decomposition, own exhaustive assignment search); 2026-08-25 stale 'open cell SP-1' tag fixed after B1143 closed it.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "sin^2(theta_W) = 3/8 exact, Tr T3L^2=3, Tr Q^2=8",
+          "where": "FINDINGS.md section 2",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Own code on the closing assignment; explicitly typed honestly as forced-direction + assumed-normalization, not oversold as a fresh SM emission -- this is the arc doing its own IDENTIFICATION_BY_TYPE hygiene correctly."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Own crystal-BFS/trinification/assignment-search code, cross-checked non-circularly against B1102's independently-banked 6Y multiset; B883's build_27 actually executed live as a cross-check (byte-identical, zero net repo change).",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "IDENTIFICATION_BY_TYPE",
+          "detail": "sin^2(theta_W)=3/8 matches the canonical GUT value only after an externally-supplied normalization convention (the /6 hypercharge scale) that the arc itself says is proved unforceable by B991; flagged here as a licence-to-ask case since the arc already types it honestly as a reproduction rather than a forcing -- worth cross-checking that downstream summaries preserve this typing.",
+          "where": "FINDINGS.md section 2, 'TYPED AS A REPRODUCTION'"
+        }
+      ],
+      "seat_note": "This is the cleanest example in the batch of the seat's own typing discipline applied correctly: a canonical-looking number (3/8) is explicitly downgraded to 'consistent with', not 'derived', because the scale-fixing step is a known convention (B991) -- exactly the caution the physics-eval seat is meant to check for."
+    },
+    {
+      "arc": "B1140_the_64_organized",
+      "source": "main",
+      "files_read": ["FINDINGS.md", "arc_verdict.json", "b1140_results.json"],
+      "files_sampled": [],
+      "files_listed_only": ["verification/verify_memo27.py"],
+      "claim_of_record": "NEGATIVE (the tenth honest value-negative, first by structure not scan) + positive structural content: the spacetime branch's 64-dim complement decomposes as 5+5+27+27bar (two color-singlet spin-2 pieces = graviton, invariant content zero), so hypercharge cannot organize there.",
+      "log_says": "2026-08-22: re-derived two-bench with own Killing-complement + own joint highest-weight enumeration, slot-independent; routed to the kill-graph (B836); a THE_PAPER entry (2026-08-30) cites this as 'the tenth negative reached by structure rather than search'.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "64 = (spin-2,0;1) + (0,spin-2;1) + (1,1;3) + (1,1;3bar), invariant content zero",
+          "where": "FINDINGS.md 'The computation' section",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Own joint highest-weight enumeration (complete reducibility, stated as not fitting), re-run from an independent slot choice with identical result."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Own Killing-form complement + own joint highest-weight enumeration; re-ran from an independent simple-root slot choice (3,4 vs 0,2) and got the identical decomposition.",
+      "absence_claims": [
+        {"quote": "NOT checked (honestly flagged): the memo's further remark that an antilinear θ glues the two real spin-2's into one complex spin-2 (10 real dims) leaving 54 colored bi-vectors ... Not confirmed, not refuted. The arithmetic (10 + 54 = 64) is consistent; the gluing itself is uncomputed here.", "where": "FINDINGS.md, 'Scope + conventions (held)'"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [],
+      "seat_note": "A genuinely different kind of negative than most others in this campaign -- an invariant-content-zero obstruction is a structural impossibility, not a null search result, and the arc is careful to flag the one unverified extra claim (the antilinear gluing into a complex spin-2) as uncomputed rather than assumed."
+    },
+    {
+      "arc": "B1141_spin_payment",
+      "source": "main",
+      "files_read": ["FINDINGS.md", "arc_verdict.json", "b1141_results.json"],
+      "files_sampled": [],
+      "files_listed_only": ["verification/verify_spin_payment.py"],
+      "claim_of_record": "PROVED: the object's beat (an SL(2,C) construction tied to m004's holonomy) selects exactly one of the two spin structures via an exact 1-dimensional intertwiner space, N(lambda)>=0 positivity, and chi-invariance of the beat -- hostile-verified two-bench, three independent engines (SnapPy, exact-symbolic, 50-digit numeric).",
+      "log_says": "2026-08-25: hostile-verified two-bench with own relator search / intertwiner-rank / norm-form+chi-parity proofs, nothing imported from the cloud cert; two Q(sqrt-3) 'errata' later WITHDRAWN as basis confusion (B1144); a cc3 scope clause (B8132) shows the spin-structure COUNT (=2) is a family fact (m003/m206/m207 share it), not m004-specific, but the SELECTION mechanism remains object-level.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "Intertwiner space exactly 1-dimensional (rank 3 of an 8-equation system), cross-validated by 50-digit SVD (4th singular value ~7.6e-51)",
+          "where": "FINDINGS.md item 1",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Exact Gaussian elimination over the number field plus an independent numeric SVD check, both own code."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Three independent engines: SnapPy, exact-symbolic ring computation over Q(sqrt-3), and 50-digit numeric SVD; described by the arc itself as 'HOSTILE-verified'.",
+      "absence_claims": [
+        {"quote": "NEEDS-CERT (honest scope): the exact cohomological packaging (the 'w-tilde extension element' sentence) and the 'Galois-compose-Fibonacci' naming of the beat were taken on the memo's say-so ... re-deriving that formalism/motivation needs the beat-trilogy (memos 16/17/18) construction.", "where": "FINDINGS.md, 'The honest fences'"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "SUPERSEDED_UNMARKED",
+          "detail": "Not applicable here -- the earlier 'two errata' claim is explicitly struck through and marked WITHDRAWN in-place in FINDINGS.md itself (not merely in a separate addendum left unresolved), so this is a correctly-propagated retraction rather than a superseded-unmarked case; noted for contrast with B1137/B1143's pattern in this same batch.",
+          "where": "FINDINGS.md, '~~Two non-load-bearing errata~~ -- WITHDRAWN (B1144, 2026-08-25)'"
+        }
+      ],
+      "physics_content_note": "n/a",
+      "seat_note": "A carefully-scoped topological result (fermionic kinematics, explicitly not fermionic dynamics) with an honest downstream scope clause (cc3 B8132) distinguishing the family-level spin-structure count from the object-level selection mechanism -- the retraction discipline here (in-place strikethrough) is the pattern the rest of the batch should be held to."
+    },
+    {
+      "arc": "B1142_lane_c_cusp_spectrum",
+      "source": "main",
+      "files_read": ["FINDINGS.md", "arc_verdict.json", "b1142_results.json"],
+      "files_sampled": [],
+      "files_listed_only": ["verification/combined_analysis.py", "verification/verify_lane_c.py", "verification/zeta_zeros_130.json"],
+      "claim_of_record": "NEGATIVE for value/graviton content (GUE spacing is generic, discriminates nothing object-specific; the graviton bridge is confirmed dead) + a PROVEN placement: the 108 zeros to t=130 are exactly the Dedekind zeta_K = zeta*L(chi-3) (43+65=108), not the Laplace/geodesic spectrum (697x too sparse).",
+      "log_says": "2026-08-25: re-derived two-bench (own mpmath+scipy, nothing imported); fences state GUE is generic (Montgomery/Katz-Sarnak) and certifies only universality class, not object-specificity; confirms cc3's B8129/B8130 that the graviton bridge is dead.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "108 zeros to t=130 vs Laplace-Weyl prediction N(130)=75316 (697x discrepancy) rules out the geodesic spectrum; count-match 43(zeta)+65(L(chi-3))=108 identifies the cusp/scattering spectrum",
+          "where": "FINDINGS.md sections 1-2",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Own Bloch-Wigner volume recompute (28 digits) plus own zero-finding (zeta_zeros_130.json committed witness)."
+        },
+        {
+          "what": "GUE statistics KS(GUE) D=0.1176 p=0.096 vs cloud's cited 0.1177/0.103",
+          "where": "FINDINGS.md 'The statistics' section",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Independent code + independent root-finding reproduces the cloud's cited values to 3-4 significant figures, described as a down-payment the arc itself says 'discriminates nothing'."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Own mpmath+scipy code with a committed zero-witness file (zeta_zeros_130.json); explicitly checked density (falsifiable) before statistics (which the arc says 'cannot confirm').",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [],
+      "seat_note": "Methodologically the most careful arc in the batch: it explicitly orders its own tests by falsifying power (density before statistics) and states outright that its headline GUE match is not object-specific evidence -- a genuinely disciplined negative."
+    },
+    {
+      "arc": "B1143_bl_fourth_cartan",
+      "source": "main",
+      "files_read": ["FINDINGS.md", "arc_verdict.json", "b1143_results.json"],
+      "files_sampled": [],
+      "files_listed_only": ["verification/verify_b25_physical_bl_final.py"],
+      "claim_of_record": "PROVED: physical B-L is a genuine fourth Cartan direction independent of {Y,T3R,T3L} (witness vectors w.B-L=3/2 and w.B-L=3 outside those spans), confirmed two-bench with cloud memo 25; SP-3 table invariance confirmed but the specific '36' assignment count is FLAGGED as not independently reproduced; SP-4 FLAGGED as not computable from the one-line spec at bank time.",
+      "log_says": "2026-08-25: SP-1 closes, confirmed two-bench; an earlier claimed 'load-bearing correction to the cloud' (Y-T3L mismatch) was WITHDRAWN as a cross-frame artifact and the arc amended in place; this is part of the self-audit that lists six in-window errors all caught before/at push.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "B-L independence witnesses: span{Y,T3R} unsolvable (w.B-L=3/2), span{Y,T3R,T3L} unsolvable (w.B-L=3)",
+          "where": "FINDINGS.md 'THE LOAD-BEARING CLAIM'",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Own linear solve + span-membership on B1139's banked 27, described as exact + symbolic for the whole family."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Own linear solve + span-membership + anomaly batteries, cross-checked identical to B1139's captured run on the underlying parameters.",
+      "absence_claims": [
+        {"quote": "At bank time no primary SP-4 text was in-repo; the '2592' grep hits were coincidental.", "where": "FINDINGS.md, 'SP-4 -- FLAGGED'"},
+        {"quote": "neither battery -- nor natural degree-<=3 monomial counts on 2 or 5 charges -- reproduces the memo's specific 36 without fitting to that number; the anomaly-freedom is real, the count '36/36' is not independently reproduced.", "where": "FINDINGS.md, 'SP-3 -- table invariance CONFIRMED; the 36/36 count FLAGGED'"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "FITTED_VALUE",
+          "detail": "The cloud memo's specific count of 36 physical assignments could not be independently reproduced by any of this bench's own anomaly batteries or natural monomial counts without fitting to that target number; the arc's own 72-count is left unreconciled to the cited 36 (plausibly a frame/pin-freedom factor of 2, but not verified).",
+          "where": "FINDINGS.md, SP-3 section"
+        }
+      ],
+      "seat_note": "The load-bearing fourth-Cartan-direction claim is solidly exact and independently reproduced, but the arc is commendably explicit that a secondary cited count (36) from the source memo does not independently reproduce here and is left flagged rather than accepted on say-so."
+    },
+    {
+      "arc": "B1144_adoption_audit",
+      "source": "main",
+      "files_read": ["FINDINGS.md", "arc_verdict.json", "b1144_results.json"],
+      "files_sampled": [],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED: four adoption-layer errors (from the cloud's CORPUS_ADOPTION_AUDIT) verified on this bench, three from the cloud's primary certificates -- the underlying mathematics survives on both benches in all four cases; none of B1138-B1143's results change.",
+      "log_says": "2026-08-19/25: RECONCILIATION WITH MEMO 25 (B1144) withdraws an earlier 'correction to the cloud' as a cross-frame artifact; the adoption-layer correction itself verified three cloud-side PRIMARY certs after restoring anon-HTTPS read access to the separate golden_gate repo.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "family_triplet.py's E8 Cartan matrix IS symmetric/valid (M[2][7]=M[7][2]=-1); the earlier B1138 cert-note calling it asymmetric/invalid was itself wrong (a transcription artifact on the verifying side)",
+          "where": "FINDINGS.md section 2",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Read directly from the golden_gate primary source after restoring fetch access; matrix entries quoted explicitly."
+        }
+      ],
+      "belt": "RE-READS",
+      "belt_note": "This arc is itself a meta-verification: it re-reads primary sources (B1141's basis convention, B1138's cert file, B1140's remote topology, B1139/B1143's B-L vector) rather than performing new independent computation of the underlying physics claims -- it corrects bookkeeping/typing errors, not physics.",
+      "absence_claims": [
+        {"quote": "at bank time no primary SP-4 text was in-repo\" (referenced/repeated from B1143, confirmed here as part of the audit)", "where": "cross-reference, see B1143"}
+      ],
+      "physics_content": "NO_OBSERVABLE_CONTENT",
+      "red_flags": [],
+      "seat_note": "A useful self-correcting bookkeeping arc (Gate 5 n/a, no SM value) that resolves four cross-frame/transcription confusions between benches without touching any underlying mathematics; its existence is itself evidence the campaign catches its own errors, though it also shows how many of this batch's 'errata' originate from basis/frame mismatches rather than genuine mistakes."
+    },
+    {
+      "arc": "B1145_sp2_fermion_seat",
+      "source": "main",
+      "files_read": ["FINDINGS.md", "SP2_PREREG.md", "arc_verdict.json", "b1145_results.json"],
+      "files_sampled": [],
+      "files_listed_only": ["verification/sp2_independent.py"],
+      "claim_of_record": "PROVED: the beat closes exactly on the fermion-capable A1 stratum's 27 over the beat-selected spin lift (Omega^2=A27, Omega.A27.Omega^-1=A27, Omega.B27.Omega^-1=rho(w(B)), all exact over Q(sqrt-3)), verified three independent ways; explicitly fenced as NOT establishing 4d chirality, a Dirac operator, or three physical generations -- 'the generation's seat closes on-object' is stated as the programme's THESIS reading, not a theorem.",
+      "log_says": "2026-08-25: SP-2 (the last free discrete bit assigned), sealed prereg c384dd3e (blind, before memo-29 contact); by 2026-08-29 (B1211) THEOREM_REGISTRY.md's last row was still B1145, flagged as part of a broader 'declaration gap' where newer results were invisible to the registry.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "Omega^2 = A27 (the chi=+1 lifted meridian), Omega.A27.Omega^-1=A27, Omega.B27.Omega^-1=rho27(B^-1ABA^-1B) -- all exact",
+          "where": "FINDINGS.md 'The exact identities'",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Verified three independent ways: this bench blind from a sealed prereg, the cloud's own certificate re-run from primary source, and an adversarial independent reimplementation (sp2_independent.py) reusing only prior-banked machinery."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "verification/sp2_independent.py explicitly reuses ONLY banked B1102/B883 machinery (never twisted_double.py or any golden_gate path) and includes non-vacuity checks (wrong relator words != I; 32/72 vs 40 commuting root vectors).",
+      "absence_claims": [
+        {"quote": "the 'ten-word inner-modification' exhaustiveness was taken on the memo's say-so, not re-proved.", "where": "FINDINGS.md, 'Does NOT establish'"},
+        {"quote": "no Pin structure is constructed; no Dirac operator or index; no 4d chirality; three physical generations are NOT proved", "where": "FINDINGS.md, 'Does NOT establish'"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "IDENTIFICATION_BY_TYPE",
+          "detail": "The A1 su(2) here is explicitly internal to E6 (centralizer su(6)), not the 4d Lorentz group; its +/-1 parity is an internal quantum number, not a 4d Weyl-spinor chirality -- the arc itself flags that identifying this closure with 'the generation's kinematic seat' is a thesis-level physical over-reading, not a proved identification, precisely the bit-vs-value coincidence this seat is meant to catch.",
+          "where": "FINDINGS.md, 'What it establishes, and what it explicitly does NOT'"
+        }
+      ],
+      "seat_note": "The most self-aware arc in the batch about the exact boundary between algebra and physics: the exact group-theoretic closure is real and triple-verified, but the arc itself insists the leap to '4d fermion generation' is unproved thesis-reading, not a theorem -- exactly the caveat a fresh physics read should hold it to."
+    }
+  ]
+}

@@ -95,7 +95,33 @@ to hear").
 
 ## 7. Absence claims — the W-E sweep
 
-SWEEP_PLACEHOLDER
+Every absence claim the readers extracted (545) was swept over the six other remote heads and the 15-file deleted
+corpus (`sweeps/sweep_batch.py`), with catch-all files (changelog, progress logs, claims ledgers) and registry files
+(verdict ledgers, atlases, kill graphs, verifier tables) separated from content hits (`sweeps/registry_split.py`).
+Statuses: DOC_ECHO 24, GENERIC 69, LEAD 367, NO_HIT 64, UNSWEEPABLE 21. The seat wrote a verdict on every LEAD, REGISTRY_ECHO and UNSWEEPABLE row by hand
+(`sweeps/VERDICTS.tsv`, 369 rows; `sweeps/VERDICTS.md` lists the ones that matter): NOISE 117, REGISTRY_ECHO 114, CONSISTENT 97, SUPERSEDED 18, OPEN_LATER 10, STANDS 8, GENERIC 4, CONTRADICTED 1.
+
+What the sweep found, in the owner's terms ("before you conclude we don't have something, sweep the repo first"):
+
+- **One absence claim is wrong as written [verified]:** B806's table says the CL-W4115 clean-up cell "Never ran";
+  `frontier/B778_cleanup/cells/CL-W4115/` holds `compute.py`, `output.txt` and `results.json` (chord '1,5,19,71' REAL: True).
+- **18 absence claims were true when written and are stale now** (a later arc supplied the thing): e.g. B58's
+  "SL(4) construction not built here" (B742/B745 built it), B265/B270's "cup-product obstruction not computed" (B273
+  computed it, vanishes), B849/B850/B852's "m004 Maass eigenvalues never computed / Hejhal not in-sandbox" (B797's 17
+  eigenvalues, B1007's arb machinery), B73/B75's SL(4) Dehn-filling nulls (B88's census), B306's "no dim-14 centraliser"
+  (B892), B872's "cell9 verdict2 exists nowhere" (harvested by B921), B204's normalisation (OI-063), B21's "no Einstein
+  equation" (B259's 3d theorem), B126's "no trace-field classifier" (W3-067). None of the stale sentences was corrected
+  in the arc that made it.
+- **10 claims are answered only on unmerged heads**: B1026_the_one_involution (exchange symmetry) and
+  B1039/B1043/B1045 (metallic exponent) exist on `origin/claude/new-session-qor5up` only; the Maass degree-law and
+  full-window work on `audit/b775-braver-questions`. On main those absences still stand.
+- **A computed cell was deleted from the record:** `frontier/B775_phase2_wave1/cells/_verify_Z1/` (P2W4-Z1, the exact
+  Z_k = Tr ρ_k(A1) ladder, with its partial.json) — recovered in `sweeps/deleted_corpus/`.
+- 8 claims STAND after a direct check (e.g. Regina not installed on this bench either; no f(n,d) for d ≠ 2; the 5 → k+2
+  shift underived), and 97 are CONSISTENT (self-scoped or restated elsewhere with nothing supplying the object).
+- The instrument's limits: 69 GENERIC rows (terms too common; unswept by this method), 88 DOC_ECHO / NO_HIT rows
+  (nothing outside catch-all files; the claim stands as far as the repository text goes).
+
 
 ## 8. Completeness critic (what this synthesis has not done)
 

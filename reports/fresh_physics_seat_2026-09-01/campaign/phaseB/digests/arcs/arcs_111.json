@@ -1,0 +1,385 @@
+{
+ "batch": "arcs_111",
+ "arcs": [
+  {
+   "arc": "B1120_L180_makeorbreak",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "b1120_NOTES.md",
+    "b1120_verify.py (head+grep)",
+    "b1120_results.json (sampled)"
+   ],
+   "files_sampled": [
+    "b1120_results.json",
+    "b1120_verify.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED \u2014 C1 = (11/108)*sqrt3*pi*C0 (odd k, ~9e-33) and C2 = (697/7776)*pi^2*C0 (even k, ~4e-29), confirmed across 4 windows N=2000..2.9M + precision doubling dps150->220; C3 open (11 trusted digits, precision-gated not negative).",
+   "log_says": "EULER-STRUCTURE-CONFIRMED at two orders, C0=3^-1/4 is the k=0 instance of a genuine pattern; value door opens onto arithmetic (C3 precision-gated, open).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "C1=(11/108)*sqrt3*pi*C0, C2=(697/7776)*pi^2*C0",
+     "where": "b1120_verify.py PSLQ sweep, b1120_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mpmath dps=150-260, PSLQ recognition against pre-derived parity-restricted basis set, exact diffs given (9.2e-33, 1.8e-28), committed verify.py + results.json + a locked pytest test file (tests/test_b1120_L180.py)"
+    },
+    {
+     "what": "parity prediction (even k -> rational, odd k -> rational*sqrt3) derived from reality of J_N before PSLQ",
+     "where": "b1120_NOTES.md theory note",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "algebraic derivation shown inline, then tested exhaustively against 11 candidate bases with negative controls (wrong bases found nothing)"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1120_L180.py exists in repo tests/ directory (not shipped in this arc's own files, found via separate search); FINDINGS/verdict text explicitly names it as the lock.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Genuinely computed high-precision numerics with disclosed methodology bugs and negative controls; this is real number-theoretic pattern-matching over a knot invariant's asymptotic expansion, not a Standard-Model observable \u2014 no measured quantity or particle-physics value is produced or claimed here."
+  },
+  {
+   "arc": "B1121_pair_orbits",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "b1121_pairs.py (head+grep)",
+    "b1121_results.json"
+   ],
+   "files_sampled": [
+    "b1121_pairs.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN \u2014 machinery validated (automorphy 500/500, invariant controls 500/500+60/60, single-idempotent positive control connects, division-form control collapses); pair-transitivity question INCONCLUSIVE-AT-BOUND (BFS did not connect within depth/pool/cap/time bound; no separating invariant found either).",
+   "log_says": "B1121 pair-orbits INCONCLUSIVE-AT-BOUND.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "F4(Z) automorphy and invariant-preservation controls (500/500, 60/60 etc.)",
+     "where": "b1121_results.json controls block",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact Fraction/integer arithmetic (no floats used in load-bearing computation per docstring), committed script + results + locked test file"
+    },
+    {
+     "what": "BFS non-connection of pair seed D to {A,B,C} orbit",
+     "where": "b1121_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit bound (depth/pool/cap/time) stated and result reported as bounded, not exhaustive"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1121_pairs.py exists in repo.",
+   "absence_claims": [
+    {
+     "quote": "reimplemented from the outside session's description (the scripts were not shipped)",
+     "where": "B1121_pair_orbits/FINDINGS.md and b1121_pairs.py docstring"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Honest INCONCLUSIVE-AT-BOUND verdict on a pure Jordan-algebra orbit question; no physics observable claimed, and the arc explicitly avoids overclaiming either transitivity or splitting \u2014 a model example of a negative/open result reported without inflation."
+  },
+  {
+   "arc": "B1122_liftbit_meter",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "b1122_results.json",
+    "b1122_verify.py (head+grep)"
+   ],
+   "files_sampled": [
+    "b1122_verify.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED \u2014 PAIR-INVISIBLE: the spin lift bit is unmeasurable by seam-word traces on the coupled pair because its content (S=phi(-I)) is central and produces no twist; in ODD reps the bit is already single-copy observable, not free-of-one.",
+   "log_says": "B1122 L179 THE LIFT-BIT METER: PAIR-INVISIBLE \u2014 the spin bit is unmeasurable even on the coupled pair (its content is the central sign operator), a stronger no-go than B1087; the freedom ledger's three bits are not one mechanism.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "S=phi(-I) central operator producing no twist under seam-word traces; reproduces B1113's tr(A.B)=141750+1011915q to the digit",
+     "where": "b1122_results.json single_copy/pair blocks; b1122_verify.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact Fraction arithmetic over Q(q)/(q^2-q+1), vendored sha256-provenanced E6 Chevalley module (frontier/B1102), assertions on triple relations (br(e6e,e6f)==e6h) and shape checks (72 roots, dim 78)"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1122_liftbit.py exists in repo.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean negative result (central operator cannot be detected by commutator-type meters) stated as a group-theoretic fact about Lie algebra representations, not a measurable SM quantity; sober self-assessment that this sharpens rather than resolves the broader thesis question of which 'freedom bits' are physically meaningful."
+  },
+  {
+   "arc": "B1123_forcedness_census",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED \u2014 a checker (scripts/checks/forcedness_census.py) regenerates a 43-link census from docs/THEOREM_LEDGER.md: 39/43 forced (non-axiom), axioms at C3/C4/C5/C18, none in the C6-C17 knot-to-algebra stretch. Explicitly WITHDRAWS an earlier CRT/level-15-factorization doorway argument (three named errors) while stating the 39/43 census itself does not depend on that doorway and stands.",
+   "log_says": "the forcedness recovered and drift-locked (B1123: 39/43 forced, C6\u2192C17 axiom-free, verified on this bench, fails on drift).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "39/43 forced-link census, axioms exactly {C3,C4,C5,C18}",
+     "where": "scripts/checks/forcedness_census.py, verified against docs/THEOREM_LEDGER.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "checker script committed at scripts/checks/forcedness_census.py, confirmed by this reader to exist and to run against docs/THEOREM_LEDGER.md; the FINDINGS states it was independently re-run this bench (39/43 PASS) and that relabeling a link triggers 3 alarms non-vacuously"
+    },
+    {
+     "what": "withdrawal of the level-15 CRT->McKay->E6 doorway argument",
+     "where": "FINDINGS.md 'THE DOORWAY' section, citing cc3 self-correction commit 1a0b5a90 and B695/E-3",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this reader did not independently verify the cited B695/E-3 counter-computation (59/60 primes falsify L-factorization); the correction is reported as already self-caught by another agent and cross-referenced, not re-derived in this arc's own files"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1123_forcedness.py exists in repo; this is explicitly a HARVEST/census re-verification of a checker, not fresh original computation by this arc's own author.",
+   "absence_claims": [
+    {
+     "quote": "The forcedness was never written as ONE fact: it lived distributed across 43 link-labels in docs/THEOREM_LEDGER.md",
+     "where": "B1123_forcedness_census/FINDINGS.md"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "This arc is a meta-level bookkeeping/documentation census over the project's own theorem ledger (which links are labeled AXIOM vs THEOREM), not a physics or mathematics computation about the manifold/Lie theory itself \u2014 its content is entirely about the project's own labeling discipline.",
+     "where": "B1123_forcedness_census/FINDINGS.md"
+    }
+   ],
+   "seat_note": "This is not a physics result at all \u2014 it is a self-audit of the project's documentation labels, useful for internal bookkeeping but carrying zero physical or even independent mathematical content; the withdrawn CRT doorway argument (properly disclosed here) shows the underlying E6-arrival story has been revised at least once already."
+  },
+  {
+   "arc": "B1124_allorders_arithmetic",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "b1124_NOTES.md",
+    "b1124_supplementary_results.json (partial)",
+    "b1124_verify.py (head+grep)",
+    "b1124_results.json (sampled: keys, verdict field, head)"
+   ],
+   "files_sampled": [
+    "b1124_results.json",
+    "b1124_verify.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED (EULER-STRUCTURE-EXTENDED) \u2014 C3 = (724351/12597120)*sqrt3*pi^3*C0 confirmed to 36 digits via monotonic cross-window convergence (N up to 35M); denominator anomaly disclosed (2^7*3^9*5, breaks {2,3}-smoothness of C1/C2). C4 reported as genuine PRECISION-FLOOR.",
+   "log_says": "the tower's arithmetic EXTENDS to C3 (36 digits, monotonic cross-window convergence, N\u219235M, verified this bench) \u2014 with a disclosed anomaly: the denominator carries a factor of 5.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "C3 = (724351/12597120)*sqrt3*pi^3*C0",
+     "where": "b1124_verify.py PSLQ sweep + b1124_supplementary.py 'large-window-only' re-analysis; b1124_results.json / b1124_supplementary_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mpmath high-precision (dps 200/320), committed scripts and full results json; but the headline 36-digit confidence figure comes from a non-pre-registered relaxation of the trust metric (large windows only), disclosed explicitly in NOTES"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1124_allorders.py exists in repo.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "b1124_results.json's own top-level 'verdict' field (from the pre-registered SUFFICIENT_DIGITS_GATE=17, all-windows metric) reads 'PRECISION-FLOOR' for C3 (only 14 trusted digits by that metric), yet arc_verdict.json and FINDINGS.md report the arc-level verdict as PROVED / EULER-STRUCTURE-EXTENDED, resting on a separate, non-pre-registered 'large-window-only' metric (27-36 digits) computed in a supplementary script after the primary run. This is disclosed in full in b1124_NOTES.md, but the top-of-file 'Status: banked... Verdict PROVED' does not carry that qualification forward with equal prominence.",
+     "where": "B1124_allorders_arithmetic/b1124_results.json field 'verdict'='PRECISION-FLOOR' vs B1124_allorders_arithmetic/arc_verdict.json field 'verdict'='PROVED'"
+    }
+   ],
+   "seat_note": "The underlying PSLQ recognition and monotonic-convergence argument for C3 is genuinely suggestive, but the arc's own primary, pre-registered gate calls it PRECISION-FLOOR and the PROVED verdict is reached only via a post-hoc (though disclosed) relaxed metric \u2014 a reader should treat C3 as probable but short of the arc's own originally-stated bar, and C4 remains undecided either way."
+  },
+  {
+   "arc": "B1125_compact_color",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "b1125_NOTES.md (via FINDINGS)",
+    "b1125_sweep.py (head+grep)",
+    "b1125_results.json (sampled: head, tail, grep)"
+   ],
+   "files_sampled": [
+    "b1125_results.json",
+    "b1125_sweep.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED \u2014 NO-COMPACT-HOST: no element of the 48-element sign-lift torsor gives compact su(3) color; color signature is always (5,3,0), even at E6(-26) itself (theta fixes I2 pointwise there); compact real forms require an antilinear (not linear) conjugation.",
+   "log_says": "Compact su(3) color is unreachable by any of the object's 48 sign-lifts (exhaustive, both lattice classes, \u03b8\u00b2=I; the color A2 stays (5,3), never (0,8), even at E\u2086(\u221226)=M(\ud835\udd46,\u2102), reached but I2 \u03b8-fixed).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "48-element torsor sweep, all giving color signature (5,3,0), never (0,8)",
+     "where": "b1125_results.json layer1-layer2 blocks and tail summary ('raw compact_color flags... 0')",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact integer/Fraction arithmetic on vendored E6 Chevalley module, theta^2=I enforced by assertion/falsification, deterministic re-run stated at 164s, committed script+results+locked test"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1125_compact_color.py exists in repo.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-controlled negative result about which real forms are reachable by a specific linear torsor construction inside E6; correctly identifies the type distinction (linear vs antilinear conjugation) rather than treating the miss as a search failure, and honestly reassigns credit for a labeling discrepancy to another arc's author (cc3) rather than silently absorbing it."
+  },
+  {
+   "arc": "B1126_identification",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "b1126_PREREG.md (head)",
+    "b1126_compare.py (grep for data sourcing)"
+   ],
+   "files_sampled": [
+    "b1126_compare.py",
+    "b1126_results.json (not directly opened, referenced via FINDINGS numbers)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED \u2014 NO-OBJECT-PERIOD-IS-AN-SM-RATIO: exhaustive scan of 16 sealed object periods x 22 SM targets (352 pairs), 351 below 2 sig figs; the one near-hit (C1/C0 vs sin(theta12) PMNS, 0.025% agreement) dismissed on 3 grounds (look-elsewhere 16.4%, no principled instrument, fails pre-commitment) and relayed to cc3 as unclaimed.",
+   "log_says": "THE VALUE CAMPAIGN V-3 (B1126), the crux. The identification, against a sealed preregistration: NO-OBJECT-PERIOD-IS-AN-SM-RATIO.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "352-pair scan, 351/352 below 2 sig figs, 1 near-hit dismissed",
+     "where": "b1126_compare.py, FINDINGS.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "SM target values are hardcoded literal constants in the script with inline citations (PDG 2024, NuFIT 6.0 arXiv:2410.05380) rather than a live network fetch at run time -- despite comments saying 'fetched on-bench' -- so the comparison is reproducible from the committed script without needing network access; sealed prereg (b1126_PREREG.md) fixes candidates/targets/instrument principle before comparison"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1126_identification.py exists in repo.",
+   "absence_claims": [
+    {
+     "quote": "a repo-wide grep for any Kashaev \u2194 PMNS/neutrino connection returns ZERO",
+     "where": "B1126_identification/FINDINGS.md"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The one near-coincidence considered (C1/C0 = 11pi/(36*sqrt3) vs sin(theta12) PMNS) is exactly the kind of bare-number match the seat's rule flags as licence-to-ask rather than evidence; the arc itself correctly applies this discipline and dismisses the match, so the flag here documents that the temptation existed and was resisted, not that it was accepted.",
+     "where": "B1126_identification/FINDINGS.md, 'The one near-coincidence' section"
+    }
+   ],
+   "seat_note": "This is a genuine OBSERVABLE-content comparison (named measured quantities: sin(theta12), quark/lepton mass ratios, alpha_s, etc., against named computed values) done with real methodological discipline (pre-registration, look-elsewhere correction); the negative result (no SM ratio equals any object period) is the most scientifically honest outcome in this batch and should be read as a genuine falsification test that the thesis passed by yielding a null, not a positive identification of anything physical."
+  },
+  {
+   "arc": "B1127_antilinear_completion",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "b1127_sweep.py (head+grep)",
+    "b1127_results.json (head, tail)"
+   ],
+   "files_sampled": [
+    "b1127_results.json",
+    "b1127_sweep.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED for the math (compact su(3) color (0,8) is reachable inside E6(-26)=M(O,C) via an antilinear conjugation, specific 4/48 torsor elements); framing FENCED \u2014 the compactifying conjugation is the GENERIC/observer's complex conjugation, not the object's own Q(sqrt-3) Galois mirror (which is pointwise-trivial on the Q-rational color factor).",
+   "log_says": "V-2\u2032: compact su(3) color IS reachable in the object's own M(\ud835\udd46,\u2102) via a second-level conjugation... but the compactifier is the OBSERVER'S generic conjugation \u2014 the object's arithmetic mirror is pointwise-trivial on the \u211a-rational color layer (B1114); the agent's 'object's own' headline kept out of the bank.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "4/48 torsor elements give compact color (0,8) inside E6(-26)",
+     "where": "b1127_results.json tail ('FULLY RE-VERIFIED genuine hits: 4'); b1127_sweep.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "deterministic re-run, 300-trial automorphism re-verification per hit, negative controls included (secondary construction gives non-compact (5,3), unsigned fold fails automorphism check 38/60)"
+    },
+    {
+     "what": "the object's own Galois mirror is pointwise-trivial on I1/I2 (hence cannot supply the antilinear conjugation)",
+     "where": "FINDINGS.md 'THE FRAMING FENCE', citing B1114",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this claim depends on B1114's prior proof (not re-verified in this arc's own files) that I1/I2 are Q-rational-spanned; this reader did not independently check B1114's proof"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1127_antilinear.py exists in repo. Notably this arc's own bank explicitly overrides the underlying agent's headline framing ('the object's own mirror gives compact color') with a more conservative fence, kept in the record as a documented internal correction rather than silently adopting the stronger claim.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "The FINDINGS.md text itself states the underlying agent's 'final-report headline' claimed the object's OWN mirror supplies compact color, and that this bank keeps a fence over-riding that headline \u2014 this is a good-faith internal correction already marked in this arc's own FINDINGS (not unmarked), included here for visibility that the stronger claim was made and walked back within the same arc.",
+     "where": "B1127_antilinear_completion/FINDINGS.md 'THE FRAMING FENCE' section \u2014 explicitly marked, not actually unmarked; recorded for completeness"
+    }
+   ],
+   "seat_note": "A careful arc that correctly distinguishes between what was computed (existence of a compactifying antilinear map inside the object's own algebra) and what was over-claimed (that the map is intrinsic to the object rather than an external observer's choice); this self-correction discipline is exactly what the thesis needs given how easily type-coincidences get over-read as physical facts."
+  },
+  {
+   "arc": "B1128_instrument_null",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "b1128_instrument.py (head+grep)",
+    "b1128_results.json (tail)",
+    "b1128_PRECOMMIT.md (listed, not fully read)"
+   ],
+   "files_sampled": [
+    "b1128_instrument.py",
+    "b1128_results.json"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED \u2014 INSTRUMENT-NULL: the listener-map coupling u(theta) predicts |U_e1|/|U_e2|=phi (golden ratio 1.618), a ~5-sigma miss against measured PMNS e-row ratio (~1.5); a mid-run degeneracy (all 4 calibration branches identical, theta absorbing 0 effective dof) self-caught and reported; creates_law later flipped from an earlier state to FALSE by a downstream audit (arc B1214, dated 2026-08-29).",
+   "log_says": "P-INSTRUMENT: INSTRUMENT-NULL (the listener-map coupling predicts |U_e1|/|U_e2|=\u03c6, ~5\u03c3 miss; degenerate 1\u2192N test, a meridian unsearched).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "|U_e1|/|U_e2| = phi prediction, ~5-sigma miss vs PMNS measurement",
+     "where": "b1128_results.json, b1128_instrument.py (SU(3)-level-2 Kac-Peterson modular data construction)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "mpmath high precision (1e-40/1e-50 tolerances), assertions on unitarity and orthogonality of basis vectors, committed script + results + locked test; sealed precommit doc (b1128_PRECOMMIT.md, not fully read here) fixes the falsifiable prediction before the miss was observed"
+    },
+    {
+     "what": "h(R^2L^2,theta) = -phi*h(RL,theta) exact golden-ratio identity",
+     "where": "b1128_results.json / FINDINGS.md 'side-finding'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "verified two ways with residual 1e-50, per FINDINGS; flagged as a candidate LAW_MAP entry for separate review rather than banked here"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b1128_instrument.py exists in repo. Note: arc_verdict.json carries a 'creates_law_reviewed' field showing a later audit (B1214, 2026-08-29) explicitly reclassified creates_law from an earlier claim to FALSE ('VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere').",
+   "absence_claims": [
+    {
+     "quote": "a repo-wide grep for any Kashaev \u2194 PMNS/neutrino connection returns ZERO",
+     "where": "context shared with B1126, referenced in this arc's framing of the value campaign"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "arc_verdict.json's own 'creates_law_reviewed' block documents that a later downstream audit (B1214) reclassified this arc's creates_law flag from an earlier value to FALSE, on the basis that it was not read in full at the time of the original classification ('these were not [read in full], and that asymmetry is stated rather than hidden') \u2014 a disclosed but real instance of a claim being walked back after the fact.",
+     "where": "B1128_instrument_null/arc_verdict.json field 'creates_law_reviewed'"
+    }
+   ],
+   "seat_note": "A genuine falsifiable OBSERVABLE-content prediction (golden-ratio PMNS ratio) that missed by 5 sigma is exactly the right kind of test for this thesis to run, and the arc reports the miss honestly rather than hunting for a different meridian that might hit; the self-caught degeneracy (theta absorbing zero dof) is a good sign of methodological care rather than a hidden flaw."
+  }
+ ]
+}

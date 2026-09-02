@@ -1,0 +1,311 @@
+{
+  "batch": "arcs_112",
+  "arcs": [
+    {
+      "arc": "B1129_natural_values_disjoint",
+      "source": "main",
+      "files_read": [
+        "frontier/B1129_natural_values_disjoint/FINDINGS.md",
+        "frontier/B1129_natural_values_disjoint/arc_verdict.json",
+        "frontier/B1129_natural_values_disjoint/b1129_NOTES.md",
+        "frontier/B1129_natural_values_disjoint/b1129_PRECOMMIT.md",
+        "frontier/B1129_natural_values_disjoint/b1129_naturalvalues.py (head+grep)",
+        "frontier/B1129_natural_values_disjoint/b1129_results.json (head/tail)"
+      ],
+      "files_sampled": ["b1129_naturalvalues.py", "b1129_results.json"],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED — NATURAL-VALUES-DISJOINT: 22/23 object invariants show zero matches above 2 sig figs vs 22 SM targets across a 506-pair grid; one exception |det φ|=2/3 lands exactly on Koide's 2/3 but is dismissed as NAMED-CANDIDATE (fails pre-commitment, no instrument, look-elsewhere, structural {2,3}-smoothness on both sides), relayed to cc3.",
+      "log_says": "B1129 P-NATURALVALUES: NATURAL-VALUES-DISJOINT (22/23 object-invariants noise-level vs 22 SM targets, 506-pair grid).",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "Vol, m(A_41), L(chi_-3,2), tones, C0, E6 dims/structure constants (23-entry menu) computed to 30-60 dps and compared to 22 SM targets, 506 pairs",
+          "where": "b1129_naturalvalues.py Parts A-C; b1129_results.json",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "standalone mpmath/Fraction script, no repo imports, exact closed forms with cross-checks against independently-banked values; committed results.json shows full 506-row table"
+        },
+        {
+          "what": "det φ = -2/3 exact, source of the one flagged candidate",
+          "where": "cited from B904 stage4c artifact, not recomputed in this arc (recomputed independently in B1131)",
+          "kind": "IMPORTED",
+          "reproducible_from_committed": "unknown",
+          "why": "this arc takes det φ as a banked literal from B904; B1131 later re-derives it independently, so cross-arc reproducibility exists but not within B1129 itself"
+        }
+      ],
+      "belt": "RE-READS",
+      "belt_note": "tests/test_b1129_naturalvalues.py exists as a lock; the arc itself is a fresh adversarial comparison script, not a recomputation of a prior result.",
+      "absence_claims": [
+        {"quote": "A repo-wide search for co-occurrence of magic-square / Barton–Sudbery / E₆-structure-constant vocabulary with Koide / lepton-mass vocabulary returns nothing beyond this probe's own construction.", "where": "b1129_NOTES.md"}
+      ],
+      "physics_content": "NO_OBSERVABLE_CONTENT",
+      "red_flags": [
+        {"kind": "IDENTIFICATION_BY_TYPE", "detail": "det φ = 2/3 and Koide's Q = 2/3 land on the same bare rational; flagged honestly by the arc itself as a type/dimension-coincidence lure and dismissed for lack of instrument — a textbook case of what the seat is instructed to watch for, correctly self-caught here.", "where": "FINDINGS.md, b1129_NOTES.md"}
+      ],
+      "seat_note": "A genuinely careful negative result with disclosed methodology, gate-5 discipline, and an honestly-dismissed near-hit; no observable content, purely a disjointness/exclusion claim about dimensionless numbers."
+    },
+    {
+      "arc": "B1130_twoended_tower",
+      "source": "main",
+      "files_read": [
+        "frontier/B1130_twoended_tower/FINDINGS.md",
+        "frontier/B1130_twoended_tower/arc_verdict.json",
+        "frontier/B1130_twoended_tower/b1130_NOTES.md",
+        "frontier/B1130_twoended_tower/b1130_results.json (head/tail/grep)",
+        "frontier/B1130_twoended_tower/b1130_twoended.py (head+grep, build_grids/main)"
+      ],
+      "files_sampled": ["b1130_results.json", "b1130_twoended.py"],
+      "files_listed_only": [],
+      "claim_of_record": "OPEN — PRECISION-FLOOR (undecided, leaning single-end); FINDINGS.md carries a later addendum-style note: 'RESOLVED by B1133 (2026-08-22): SINGLE-END confirmed.' arc_verdict.json's verdict field still literally says \"OPEN\" and its claim_one_line does not mention the B1133 resolution.",
+      "log_says": "B1130 P-TWOENDED: PRECISION-FLOOR (C₃'s 5 = 53×79×173, no √5 fingerprint, leans generic; C₄/C₅ precision-gated, the N=70M extension stopped at diminishing returns).",
+      "log_consistency": "DRIFT",
+      "load_bearing": [
+        {
+          "what": "C3 = 724351/12597120 * sqrt3*pi^3*C0, its factorization and prime-splitting analysis (Part A)",
+          "where": "b1130_twoended.py part_a_c3_structure(); b1130_results.json part_a",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "sympy factorint with assertions, self-contained, cheap, reproduced in committed results.json"
+        },
+        {
+          "what": "\"the tower was pushed toward N=70M... stopped at ~1 hour\" / large-N extension claim underlying the PRECISION-FLOOR verdict",
+          "where": "FINDINGS.md and arc_verdict.json narrative",
+          "kind": "ASSERTED",
+          "reproducible_from_committed": "no",
+          "why": "the committed b1130_results.json has quick_mode:true, its W6 grid maxes at N=1,500,000 (not the 38M-70M range the non-quick code path defines), and total runtime is only 42.9s — nowhere near a 1-hour, N=70M run. B1133's own NOTES.md independently confirms this exact discrepancy (see B1133 digest) and states no larger-run checkpoint exists anywhere in the repo."
+        }
+      ],
+      "belt": "UNCLEAR",
+      "belt_note": "tests/test_b1130_twoended.py exists as a lock, but the underlying committed witness (quick-mode results.json) does not match the scale of the narrated run.",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "FINDINGS.md/arc_verdict.json describe a N=70M, ~1-hour compute run establishing the precision floor for C4/C5, but the only committed results.json is a quick_mode:true run whose W6 grid tops out at N=1.5M and whose total runtime is 42.9 seconds; no checkpoint or larger output file exists in the repo to substantiate the larger claimed run. Independently confirmed by B1133's own NOTES.md 'Zeroth finding.'", "where": "FINDINGS.md, b1130_results.json meta fields, cross-checked against B1133/b1133_NOTES.md"},
+        {"kind": "MISSING_WITNESS", "detail": "No twoended_checkpoint.pkl or full-scale results file exists anywhere in the repo to reproduce the claimed N=70M run; a stranger cannot verify the specific 'stopped at ~1 hour' narrative from committed files.", "where": "repo-wide (confirmed absent by B1133's own search, per its NOTES.md)"}
+      ],
+      "seat_note": "The cheap C3 structural analysis is solid and reproducible, but the headline PRECISION-FLOOR verdict rests on a large-N compute run whose committed artifact does not match the narrated scale — a genuine provenance gap that the project's own later arc (B1133) caught and documented, though B1130's own arc_verdict.json was never corrected to reflect it."
+    },
+    {
+      "arc": "B1131_koide_no_bridge",
+      "source": "main",
+      "files_read": [
+        "frontier/B1131_koide_no_bridge/FINDINGS.md",
+        "frontier/B1131_koide_no_bridge/arc_verdict.json",
+        "frontier/B1131_koide_no_bridge/b1131_NOTES.md",
+        "frontier/B1131_koide_no_bridge/b1131_PRECOMMIT.md",
+        "frontier/B1131_koide_no_bridge/b1131_koide.py (head+grep)",
+        "frontier/B1131_koide_no_bridge/b1131_results.json"
+      ],
+      "files_sampled": ["b1131_koide.py"],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED — NO-BRIDGE: det φ = -2/3 (B904 E6-isomorphism determinant) re-confirmed exact and shown to be a Cartan-basis-change determinant with no angle content; four pre-committed bridge routes to Koide's Q=2/3 geometry all fail; coincidence base-rate ~8.3%; closes B1129's flagged gap.",
+      "log_says": "B1131 P-KOIDE: NO-BRIDGE (the |det φ|=2/3 vs Koide 2/3 coincidence proven a coincidence — det φ is a Cartan basis-change determinant with no angle content; four bridge routes failed; ~8% base rate; det φ=−2/3 re-confirmed exact).",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "det φ = -2/3 block-diagonal decomposition (6x6 Cartan block det=-2/3, 72x72 root block det=+1)",
+          "where": "b1131_koide.py; re-loads frontier/B904_barton_sudbery/stage4c_phi.pkl, recomputes in exact sympy rationals",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "independently recomputed from a banked artifact, exact rational arithmetic, checked exhaustively per NOTES.md"
+        },
+        {
+          "what": "Route (c): v0's angle to (1,1,1) using raw basis coordinates (12,13,14) rather than a verified Peirce/eigenvalue decomposition",
+          "where": "b1131_NOTES.md route (c)",
+          "kind": "UNCLEAR",
+          "reproducible_from_committed": "no",
+          "why": "arc explicitly flags this comparison as 'likely not even principled' since v0's true Peirce eigenvalue triple (T2_v0_v0) is null/never computed anywhere in the record — named as an open, uncomputed datum, honestly not load-bearing for the verdict"
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Re-derives det φ from the banked B904 pickle independently in exact rationals rather than trusting B904's/B1129's prior statement; tests/test_b1131_koide.py locks it.",
+      "absence_claims": [
+        {"quote": "T2_v0_v0 is explicitly null in a1_results.json, i.e. genuinely not computed anywhere in the record", "where": "b1131_NOTES.md, route (c) discussion"}
+      ],
+      "physics_content": "NO_OBSERVABLE_CONTENT",
+      "red_flags": [],
+      "seat_note": "A rigorous, well-controlled negative that closes a genuine numerology risk with a mechanistic argument (wrong kind of object) rather than mere improbability; the Gate-5 discipline and reductio-style falsification of route (b) are notably careful."
+    },
+    {
+      "arc": "B1132_meridian_null_phi_law",
+      "source": "main",
+      "files_read": [
+        "frontier/B1132_meridian_null_phi_law/FINDINGS.md",
+        "frontier/B1132_meridian_null_phi_law/arc_verdict.json",
+        "frontier/B1132_meridian_null_phi_law/b1132_NOTES.md",
+        "frontier/B1132_meridian_null_phi_law/b1132_meridian.py (head+grep)",
+        "frontier/B1132_meridian_null_phi_law/b1132_results.json"
+      ],
+      "files_sampled": ["b1132_meridian.py"],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED — (B) INSTRUMENT-NULL-FULL-SPHERE: the listener-map coupling instrument extended off B1128's real great circle to the whole CP^1_odd carries no detectable SM content (a coincidence rate of ~6% under multiple-testing swamps the apparent PMNS-box overlap); (C) a new exact 'golden meridian law' h(R²L²,u) = -φ·h(RL,u) - iφ·n_y(u), proposed as a new LAW_MAP row.",
+      "log_says": "B1132: the listener instrument is NULL on the full ℂP¹_odd + the golden meridian law h(R²L²,u)=−φ·h(RL,u)−iφ·n_y(u) (new LAW_MAP row, verified 50-digit + symbolic).",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "The golden meridian law identity, verified at 50 digits at 20 points (poles, circle, 16 random sphere points), plus a symbolic sympy reduction mod φ²-φ-1",
+          "where": "b1132_meridian.py Part B; b1132_NOTES.md section 1.2",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "closed-form derivation verified two independent ways (mpmath numeric + sympy symbolic reduction), self-contained script, byte-identical reproduction of prior B1128 script as a control"
+        },
+        {
+          "what": "INSTRUMENT-NULL-FULL-SPHERE verdict, based on a ~6% Monte Carlo coincidence rate under multiple-testing",
+          "where": "b1132_NOTES.md section 1.3",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Monte Carlo with stated seeds (5 seeds, stability checked), closed-form range cross-check; PMNS boxes cited to NuFIT 6.1 reused verbatim from B1128"
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Re-runs B1128's own script verbatim and diffs byte-identical against the banked results before extending; tests/test_b1132_meridian.py locks it.",
+      "absence_claims": [
+        {"quote": "A grep found no existing LAW_MAP row it restates.", "where": "FINDINGS.md"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [],
+      "seat_note": "The negative (no SM content on the freed direction) is argued with real multiple-testing discipline rather than asserted; the new golden-ratio identity is a clean piece of internal Lie/SU(2) structure with no physical observable attached, correctly typed as STRUCTURAL not a physics result."
+    },
+    {
+      "arc": "B1133_c4_single_end",
+      "source": "main",
+      "files_read": [
+        "frontier/B1133_c4_single_end/FINDINGS.md",
+        "frontier/B1133_c4_single_end/arc_verdict.json",
+        "frontier/B1133_c4_single_end/b1133_NOTES.md",
+        "frontier/B1133_c4_single_end/b1133_c4floor.py (head+grep)",
+        "frontier/B1133_c4_single_end/b1133_results.json"
+      ],
+      "files_sampled": ["b1133_c4floor.py"],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED — C4 = (278392949/1813985280)·π⁴·C0 recognized via Aitken acceleration + PSLQ/continued-fractions on existing B1124/B1130 data (no new heavy compute); the tower is SINGLE-END (ℚ(√−3) only): the prime 5 in C3's denominator recurs at exponent 1 in C4, does not grow, no √5 anywhere; resolves B1130's PRECISION-FLOOR.",
+      "log_says": "B1133: C₄ = (278392949/1813985280)·π⁴·C₀ RECOGNIZED (Aitken on existing data, 30 digits vs B1124's computed; three bugs caught incl. a PSLQ blind spot found via continued fractions) → the tower is SINGLE-END.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "C4 closed form recognized and cross-validated 3 independent ways (B1124 pooled fit, B1130 independent codebase, Aitken-Δ² acceleration) agreeing to 28-31 digits",
+          "where": "b1133_NOTES.md Step 1; b1133_results.json",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "reuses existing committed B1124/B1130 data with a documented, bug-fixed extraction pipeline; three self-caught methodological traps are documented and fixed"
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Cross-validates against two independently-computed prior datasets (B1124, B1130) plus a third independent extrapolation technique (Aitken); tests/test_b1133_c4.py locks it.",
+      "absence_claims": [
+        {"quote": "No `twoended_checkpoint.pkl` exists anywhere in the repo (confirmed by search) to recover the larger run.", "where": "b1133_NOTES.md, 'Zeroth finding'"},
+        {"quote": "the prose (FINDINGS.md/NOTES.md/arc_verdict) describes a run \"pushed toward N=70M... stopped at ~1hr\" that is not the file on disk", "where": "b1133_NOTES.md, 'Zeroth finding: the \"0 trusted digits at N<=70M\" claim doesn't match what's on disk'"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "This arc explicitly documents that B1130's committed results.json (quick_mode, N<=1.5M, 42.9s) does not match B1130's own FINDINGS/NOTES/arc_verdict prose describing an N=70M, ~1hr run — a provenance discrepancy the arc itself flags as unresolved ('a provenance note for the banking seat, not something this task's scope permits fixing retroactively'). B1130's arc_verdict.json was never corrected to reflect this or the later single-end resolution.", "where": "b1133_NOTES.md 'Zeroth finding'; cross-referenced against frontier/B1130_twoended_tower/arc_verdict.json"}
+      ],
+      "seat_note": "An exemplary arc: it self-audits, catches three real methodological bugs (documented with reproducing detail), and honestly reports a provenance discrepancy in a prior arc's committed witness rather than quietly rescuing the conclusion; the structural conclusion (single-ended tower) is well-supported independent of the flagged gap."
+    },
+    {
+      "arc": "B1134_simultaneous_closing",
+      "source": "main",
+      "files_read": [
+        "frontier/B1134_simultaneous_closing/FINDINGS.md",
+        "frontier/B1134_simultaneous_closing/arc_verdict.json",
+        "frontier/B1134_simultaneous_closing/b1134_results.json",
+        "frontier/B1134_simultaneous_closing/verify_simul_closing.py (head+grep)"
+      ],
+      "files_sampled": ["verify_simul_closing.py"],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED — a single involution θ (with the observer's antilinear conjugation) realizes Lorentz so(3,1) and compact su(3) color simultaneously, and every such realization lands in E6(-26)=EIV=M(O,C); harvested from a cloud-seat memo, verified two-bench with own independent code; one novelty over-claim in the source memo corrected (20/24 hits genuinely new, not 24/24 as the memo claimed).",
+      "log_says": "THE SIMULTANEOUS CLOSING (B1134). The cloud seat's tenth memo (golden_gate 3e65114), verified two-bench and banked.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "48 slot-swapper x involutive Chevalley-lift sweep (480 pairs), histogram (4,4):216/(5,3):240/(0,8):24, all 24 (0,8) hits have character -26",
+          "where": "verify_simul_closing.py; b1134_results.json",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "own-authored independent re-derivation (BFS closure of W(E6), own GF(2) solver, own diagram-automorphism search), only the vendored e6 module imported and asserted (NR==72, DIM==78) at load time; results committed and match FINDINGS narrative exactly"
+        },
+        {
+          "what": "Original cloud-seat memo's claim 'precisely the family neither swept torsor contained'",
+          "where": "cloud-seat memo (golden_gate 3e65114), corrected in FINDINGS.md 'THE NOVELTY FENCE'",
+          "kind": "ASSERTED",
+          "reproducible_from_committed": "no",
+          "why": "the imported memo's over-claim (24/24 novel) is shown false by exact non-membership check; this arc corrects it to 20/24, an explicit fix to an imported claim"
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Full independent re-derivation on this bench of a harvested cloud-seat result, using only the shared vendored e6 module; tests/test_b1134_simultaneous_closing.py locks it.",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "The imported cloud-seat memo's overclaim ('precisely the family neither swept torsor contained') is corrected within this arc's own FINDINGS.md but the memo itself (golden_gate commit 3e65114, external to this repo/bench) is not verifiable from committed files — the correction is stated as relayed back to the cloud seat, not confirmed accepted.", "where": "FINDINGS.md 'Credit + relay' section"}
+      ],
+      "seat_note": "A harvested result from an external cloud session, but genuinely independently re-derived here with own code and an honest correction of the source memo's overstated novelty claim; purely group-theoretic/structural, no Standard Model observable is produced."
+    },
+    {
+      "arc": "B1135_gauge_closing",
+      "source": "main",
+      "files_read": [
+        "frontier/B1135_gauge_closing/FINDINGS.md",
+        "frontier/B1135_gauge_closing/arc_verdict.json",
+        "frontier/B1135_gauge_closing/b1135_results.json",
+        "frontier/B1135_gauge_closing/verify_gauge_closing.py (head+grep)"
+      ],
+      "files_sampled": ["verify_gauge_closing.py"],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED — the factor-preserving involutive conjugations (128 x involutive lifts = 2000) close the gauge branch; the W-coset is sterile (all -> split E6(6)); the outer diagram-flip coset factorizes as (9+1)^3 per slot; the one-compact-slot row (243 cases) lands in E6(-14), max compact so(10)⊕u(1); harvested from cloud-seat memo F-1, verified two-bench with no discrepancy (unlike B1134's 4/24 overclaim).",
+      "log_says": "THE GAUGE CLOSING (B1135). The cloud seat's twelfth memo (F-1, golden_gate 943db85), verified two-bench (no discrepancy) and banked — the factor-PRESERVING complement of B1134.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "128 factor-preserving involutions x involutive lifts (2000 conjugations), 9-row menu, W-coset sterility, (9+1)^3 factorization, one-compact-slot -> E6(-14) with compact dim 46",
+          "where": "verify_gauge_closing.py; b1135_results.json",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "own-authored independent re-derivation reusing B1134's design pattern but freshly written sweep/signature code; digit-for-digit match to the cloud-seat memo stated in FINDINGS.md; results committed"
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Independent re-derivation of a harvested cloud-seat result, own factor-preserving involution search and per-slot signature machinery; tests/test_b1135_gauge_closing.py locks it.",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc itself flags: 'the slot -> physics assignment (which A2 is color vs EW room) is a FRAME CHOICE, not a computed fact' and 'su(2,1)-as-Higgs-doublet and 16-as-one-family are INTERPRETIVE readings, carried from the memo, not verified here.' These physical labelings ride on group-theoretic dimension coincidences (a 4-real-dim non-compact block read as 'a complex doublet', 27=16+10+1 cited not recomputed) rather than a derivation connecting the algebra to the specific SM particle content.", "where": "FINDINGS.md 'THE FENCES' section"}
+      ],
+      "seat_note": "The group-theoretic sweep itself is carefully and independently reproduced with no discrepancy, but the paper's headline framing (gauge branch = the SO(10) GUT, doublet = Higgs) leans on interpretive labels the arc itself explicitly disclaims as unverified frame choices rather than derived facts."
+    },
+    {
+      "arc": "B1136_genericity_on_the_wins",
+      "source": "main",
+      "files_read": [
+        "frontier/B1136_genericity_on_the_wins/ADDENDUM_2026-09-01_count_and_amphichirality.md",
+        "frontier/B1136_genericity_on_the_wins/FINDINGS.md",
+        "frontier/B1136_genericity_on_the_wins/arc_verdict.json",
+        "frontier/B1136_genericity_on_the_wins/b1136_results.json",
+        "frontier/B1136_genericity_on_the_wins/verify_genericity.py (head+grep)"
+      ],
+      "files_sampled": ["verify_genericity.py"],
+      "files_listed_only": [],
+      "claim_of_record": "PROVED — of 7 elementary properties over the 14-member ℚ(√−3) shape-field family, exactly one (H1=Z) separates m004; volume, amphichirality, tetrahedron/cusp count, torsion-freeness, and CS=0 are all family-level, not m004-specific; B680's Vol identity and the amphichirality claim get SCOPE NOTES (family-level, not retractions). ADDENDUM (2026-09-01, this same fresh-physics-seat campaign) corrects two further errors: the true ≤6-tetrahedra count is 21 not 14 (census-walk truncated at index 1200 in verify_genericity.py), and 'all 14 amphichiral' was a false positive from an orientation-blind SnapPy check (only 6/14 are actually amphichiral); the H1=Z separator conclusion itself survives both corrections.",
+      "log_says": "not in log",
+      "log_consistency": "NOT_IN_LOG",
+      "load_bearing": [
+        {
+          "what": "Shape-field family rebuild (14 members) and 7-property separator table, incl. amphichirality via reverse_orientation()+is_isometric_to()",
+          "where": "verify_genericity.py; b1136_results.json",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "own SnapPy census scan, independently reproduces cc3's wins.py census; but the census walk is silently truncated (`if i > 1200: break`, verify_genericity.py:29) and the amphichirality check uses an orientation-blind SnapPy method that returns True unconditionally, both caught and documented only in the later ADDENDUM, not in FINDINGS.md/arc_verdict.json"
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "Own independent SnapPy scan/property table (not cc3's wins.py) reproduces the family set exactly and both of cc3's self-caught bugs; tests/test_b1136_genericity.py locks it. However the ADDENDUM shows this arc's own committed script (verify_genericity.py) carries two further uncaught bugs (truncation, orientation-blind amphichirality) not caught until a later, separate pass.",
+      "absence_claims": [],
+      "physics_content": "NO_OBSERVABLE_CONTENT",
+      "red_flags": [
+        {"kind": "SUPERSEDED_UNMARKED", "detail": "ADDENDUM_2026-09-01 explicitly states 'Original FINDINGS.md left unedited' after correcting the family count from 14 to 21 (census truncation bug in verify_genericity.py:29-30) and the 'all 14 amphichiral' claim (only 6/14 are actually amphichiral; the original check was orientation-blind and could not fail). FINDINGS.md and arc_verdict.json still state 'exactly 14' and 'ALL thirteen others' amphichiral as if uncorrected, though the addendum notes the headline H1=Z separator conclusion survives.", "where": "ADDENDUM_2026-09-01_count_and_amphichirality.md vs FINDINGS.md/arc_verdict.json"},
+        {"kind": "MISSING_WITNESS", "detail": "The census-walk truncation bug (i > 1200 break) silently excludes 7 further family members (s955-s961) from the analysis without any commented rationale or flag in the original committed script or FINDINGS.md.", "where": "verify_genericity.py:29"}
+      ],
+      "seat_note": "The core separator finding (H1=Z uniquely picks out m004) survives two independently-caught bugs, but this is the arc in the batch with the clearest case of an uncorrected superseded claim sitting live in FINDINGS.md/arc_verdict.json — a stranger reading only those two files would still be told 'all 14' and 'all amphichiral,' both now known false."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+ "batch": "arcs_039",
+ "arcs": [
+  {
+   "arc": "B637_corrected_cell3",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b637_chainmachine.py","b637_d4_gluings.py","b637_diag.py","b637_diag2.py","b637_dimension_table.py","b637_formal_check.py","b637_stage2.py","b637_stage3.py","certificate.json","certificate_search.py","l90_check.py","l90_output.txt","part1_output.txt","part2a_output.txt","part2b_stage1_output.txt","part2b_stage2_fixed_output.txt","part2b_stage2_output.txt","stage3_output.txt","unbent_table.txt"
+   ],
+   "files_sampled": ["b637_threeform.py (first 120 lines + grep assert/print)"],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — All seven registered h0/h1 dimension predictions for the weld double's 27 local system are confirmed by a method-disjoint amalgam-Fox pipeline.",
+   "log_says": "Confirms dimension table 7/7, all four D4 gluings compatible, then part 2b resolved: alternating cubic 3-form nonzero on all 9 doubles, LAW OF THE CHORD'S CORE (Y[023]=24zeta6*Y[123]) verified 9/9; cc2 3-pipeline row closed, their twisted-double h1=3 WITHDRAWN.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "h0/h1 dimension table (7 registered predictions) for D_bent(M;m)", "where": "b637_dimension_table.py -> part1_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Fox-calculus pipeline over Q(omega), 12 asserts in script, full numeric witness printed with gate passes; runnable"},
+    {"what": "Alternating cubic 3-form nonzero, Y[023]=24*zeta6*Y[123] on 9/9 doubles", "where": "b637_threeform.py, b637_chainmachine.py -> part2b_stage2_fixed_output.txt, stage3_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational/root-(-3) witness values printed for every triple across all 9 doubles; class-level gates (coboundary invariance, antisymmetry) asserted and shown True; two real bugs found and fixed via a second independent chain-machine check"},
+    {"what": "cc2's D_conj-theta h1=3 claim ('a FIFTH manifold')", "where": "FINDINGS.md lines ~178-188 (Cross-adjudication section)", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "this claim is presented as an established cross-adjudication result in FINDINGS.md, but the log (2026-07-16, later same day) records cc2 WITHDRAWING the h1=3 claim as an artifact of an assumed lambda-sign, superseded by B637 part 2a's D_phi table (all involution gluings h1=5). FINDINGS.md's Cross-adjudication section is not marked superseded/corrected in place."}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b637_part1.py (fast prereg-hash/table checks + OA_SLOW full rerun) exists in the central tests/ dir; b637_chainmachine.py itself functions as an independent formal-gate cross-check that caught two real bugs in the original evaluator, giving genuine independent recomputation for the 3-form.",
+   "absence_claims": [
+    {"quote": "this seat has never run the amalgam-Fox route on any double; the 3-form at h¹ = 5 has never been computed by anyone (the audit stopped at the dimension table).", "where": "PREREGISTRATION.md, MB12 section"},
+    {"quote": "MB13 (swept): no prior amalgam-Fox double computation (grep clean)", "where": "PREREGISTRATION.md, MB13"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md's 'Cross-adjudication' section (dated 2026-07-15) still presents cc2's h1=3 D_conjtheta claim as a confirmed 'fifth manifold' without any in-file correction note, even though the progress log for 2026-07-16 records cc2 explicitly WITHDRAWING that h1=3 value (assumed lambda-sign, superseded by B637 part2a). A reader of FINDINGS.md alone would not learn the value was withdrawn; the withdrawal is recorded only in the log and in B639's FINDINGS ('cc2's withdrawal of their h¹ = 3 ... stands').", "where": "frontier/B637_corrected_cell3/FINDINGS.md lines 178-188"},
+    {"kind": "OTHER", "detail": "Individual 3-form component magnitudes are stated to depend on basis-representative normalization (declared caveat); only the zero pattern, cross-bend identities, and nonvanishing are claimed invariant — appropriately caveated, not a flaw, but worth flagging as a limit on what the raw numbers mean.", "where": "FINDINGS.md, Normalization caveat paragraph"}
+   ],
+   "seat_note": "This is a genuinely computed, exact (Q(sqrt-3)) cohomological/cubic-invariant calculation with real witness files and a caught-and-fixed bug trail — one of the more solid arcs seen; but the uncorrected cc2 cross-adjudication paragraph is a real editorial gap a fresh reader would be misled by. No SM number is claimed anywhere (explicitly gated, correctly)."
+  },
+  {
+   "arc": "B638_swap_decomposition",
+   "source": "main",
+   "files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b638_closure.py","b638_closure2.py","b638_output.txt","b638_swap.py","closure_output.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The deck swap is an antilinear involution with Eisenstein-unit spectrum that forces the chord's whole phase pattern; the magnitude-24 ratio is not forced.",
+   "log_says": "B638 complete: swap mechanism found (Eisenstein-unit spectrum, involution verified); then closure entry explicitly corrects an overstated first-draft claim ('proved from swap data') to 'phases are a THEOREM; uniqueness NOT forced (dim-10 residual)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "u*conj(u)=+1 (antilinear involution J), sigma* preserves cocycles 5/5, sigma*^2=id 5/5", "where": "b638_swap.py -> b638_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic values printed (matrix entries in Q(sqrt-3)), asserts present in code"},
+    {"what": "The 24-zeta6 magnitude ratio is FORCED by the swap alone", "where": "closure_output.txt final line: 'THE LAW OF THE CHORD'S CORE: PROVED from the swap data.'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the witness file itself still prints the overstated conclusion (uniqueness not actually forced, per the same script's own 'direction 2 (the law forces the pair): False' line just above); FINDINGS.md explicitly retracts this ('the first-draft claim ... is OVERSTATED and corrected here') but the raw output text is not edited to match"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b638_b639.py exists in central tests/; the closure2 script re-derives the direction-1/direction-2 split, itself catching the overstatement.",
+   "absence_claims": [
+    {"quote": "the swap/deck involution of any double has never been computed as an operator on twisted cohomology anywhere in the bank (grep clean)", "where": "PREREGISTRATION.md, opening paragraph (MB13)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "closure_output.txt (a committed witness file) prints 'THE LAW OF THE CHORD'S CORE: PROVED from the swap data' directly above the correctly-computed 'direction 2 (the law forces the pair): False' line — i.e. the script's own final summary print contradicts its own gate result and was never fixed even though FINDINGS.md flags this exact sentence as overstated.", "where": "frontier/B638_swap_decomposition/closure_output.txt, last 2 lines"}
+   ],
+   "seat_note": "A rare and commendable instance of the arc catching and stating its own overreach in FINDINGS.md, but the raw witness file text still carries the false headline, which is a genuine hygiene gap (anyone reading only the .txt, not FINDINGS.md, would be misled)."
+  },
+  {
+   "arc": "B639_conjtheta_cubic",
+   "source": "main",
+   "files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b639_conjtheta.py","b639_output.txt","b639_repair.py","b639_stage2.py","b639_stage2_output.txt","b639_stage3.py","b639_stage3_output.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The conj-theta twisted double's 27-object admits no representation-twisted amalgam realization in any tested class; the theta-twist lives irreducibly in the fiber pairing.",
+   "log_says": "theta invisible at SL(2) level (fiber-pairing not rep twist); stage 3 fully obstructs realization (B_theta invariance exact but no gluing in 4/4 tested cells); resolved-negative per Review 20.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "lambda->+lambda intertwiner space is 1-dim with no invertible element (rigid)", "where": "b639_conjtheta.py -> b639_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact linear-algebra witness printed"},
+    {"what": "form-adjoint pairing B_theta invariance exact, but peripheral gluing fails in all 4 cells tested", "where": "b639_stage3.py -> b639_stage3_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit gate output; negative result stated plainly"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b638_b639.py covers this arc jointly with B638.",
+   "absence_claims": [
+    {"quote": "the cubic on the twisted double has never been computed (their stage 2 computed the 2-form on the PLAIN double; the twisted double's Λ³ is untouched)", "where": "PREREGISTRATION.md, MB13"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "An honest negative result with a clean structural explanation (theta fixes the principal holonomy pointwise, so the twist must live in the fiber pairing, not the representation) — good scientific hygiene, no overclaim detected."
+  },
+  {
+   "arc": "B640_hearing_group",
+   "source": "main",
+   "files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b640_output.txt","b640_verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The hearing group is verified as im(rho) = 2I x Z/3 with the exact SL(2,5) class equation and tr rho(RL) = -1/phi; the tone law's scope is corrected to det=1.",
+   "log_says": "Hearing group theorem verified at class-table strength on the banked 80-dps stage (residuals ~1e-61); order reconciliation table resolves an apparent B619 conflict; scalar-symmetric tone law found to fail 232/360 (scope corrected from chat-2's original handoff, not a universal law).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "im(rho) has order 360, class equation [1,1,12,12,12,12,20,20,30] = SL(2,5) exactly; tr rho(RL) = -1/phi", "where": "b640_verify.py -> b640_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "high-precision (80 dps mpmath) numeric computation with residuals quoted (~1e-61), not exact symbolic; single assert in script (len(pairs)==2) guards one internal step but the headline group/trace claims rest on numeric agreement to ~60 digits rather than exact arithmetic"},
+    {"what": "McKay E8-shadow placement (2I is E8's McKay partner; holonomy end vs hearing end)", "where": "FINDINGS.md, 'The McKay placement' section", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "explicitly registered by the arc itself as 'a lead' / 'placement candidate, not a derivation' -- self-flagged as unproven, resting on separate banked B247-B261 machinery not read in this pass"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b640_hearing_group.py exists centrally; the arc also self-corrects an instrument bug (first run used float64 inside 60-digit arithmetic and produced 2044 garbage pseudo-elements, caught by its own gate and rebuilt on the 80-dps builder) -- a real in-arc belt catch.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The core group-theoretic and trace claims (order 360, SL(2,5) class equation, tr rho(RL)=-1/phi) are established via 60-80 digit floating-point (mpmath) agreement with residuals quoted around 1e-60/1e-61, not exact symbolic/rational arithmetic as in B637/B638 -- strong numerical evidence but not an exact proof witness.", "where": "frontier/B640_hearing_group/b640_output.txt, R6 'the headline' section"},
+    {"kind": "LOG_DRIFT", "detail": "FINDINGS.md itself documents that the handoff being verified (chat-2's original tone-law claim of '16 tones / 90 silences') was wrong (232/360 failures against the strict law), so the arc corrects an upstream claim in-place -- flagged here as a note, not against this arc, but worth tracking since chat-2's original number appears elsewhere in the log trail as if banked.", "where": "FINDINGS.md, 'CORRECTED (parts VI-VII)' section"}
+   ],
+   "seat_note": "Solid high-precision numerical verification of a genuine group-theoretic structure (icosahedral hearing group) with an honest scope correction on the tone law; the McKay/E8 physics-adjacent reading is correctly self-labeled as a placement, not a derivation, and carries no SM number."
+  },
+  {
+   "arc": "B641_twistframe_law",
+   "source": "main",
+   "files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b641_output.txt","b641_verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The twist-frame tone Re(zeta^-1 * ubar M_odd u) is ear-independent on all 360 elements (2e-60), with an exact five-tone pentagon census and equal voice/overtone halves.",
+   "log_says": "Pentagon voice proved: tone law holds on all 360 elements (max deviation 2e-60); five absolute tones with exact multiplicities {90,72,120,72,6}; Plancherel split 1/4=1/4 exact; later log entries (B857/B856, 2026-08-02) reference B641 as the stronger/prior result that a later arc redundantly re-derived a subset of.", "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Twist-frame tone law ear-independent on all 360 elements to 2.14e-60 deviation; five-tone census with exact multiplicities {90,72,120,72,6}", "where": "b641_verify.py -> b641_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "high-precision numeric (60-digit) computation, single assert (len(elems)==360) plus explicit per-element residual reporting; not exact symbolic arithmetic"},
+    {"what": "Plancherel split: mean-square universal tone = mean-square overtone = 1/4 exactly", "where": "b641_output.txt, G5 section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "derived from exact class-equation arithmetic (Schur orthogonality), stated as exact rather than numeric"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b641_b642.py exists centrally.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "The headline tone-law and census claims rest on 60-digit floating-point agreement (max deviation 2.14e-60) rather than exact symbolic proof, though the Plancherel piece is exact via class-equation arithmetic.", "where": "frontier/B641_twistframe_law/b641_output.txt"}
+   ],
+   "seat_note": "Clean, well-controlled numerical result refining a prior handoff (chat-2's SU(2)-membership diagnosis is itself confirmed as the mechanism); no SM/physical observable is claimed, purely structural group/character theory."
+  },
+  {
+   "arc": "B642_galois_ear",
+   "source": "main",
+   "files_read": ["FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b642_galois.py","b642_output.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — All three sealed predictions confirmed at the Galois-conjugate stage: same icosahedral image and tone set, with tr rho(RL) = +phi against the base stage's -1/phi.",
+   "log_says": "P1-P3 sealed before the conjugate-stage run, all three hit: same group (2Ix Z/3), same tone set with phi<->1/phi swap, tr rho(RL)=+phi; K020 mechanism (form forced, value Galois-chosen) placed 'in the ear'; explicitly still a placement not a derivation, later upgraded to derived by B644 (L94 close).", "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Same SL(2,5) class equation at conjugate (k=7) stage; tr rho(RL)=+phi (vs -1/phi base)", "where": "b642_galois.py -> b642_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "predictions were sealed (falsifiers locked) before the run per PREREGISTRATION.md; output shows explicit pass/fail against each sealed falsifier; no asserts in the script itself (0 found) but outcome lines are explicit"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b641_b642.py exists centrally.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NO_TEST", "detail": "b642_galois.py itself contains zero assert statements (grep -c returned 0); correctness relies entirely on eyeballing printed pass/fail lines in b642_output.txt rather than the script enforcing its own gates.", "where": "frontier/B642_galois_ear/b642_galois.py"}
+   ],
+   "seat_note": "A genuine sealed-prediction-first test (falsifiers locked before running) that passed cleanly; the K020 placement-not-derivation labeling is appropriately conservative until B644 supplies an actual mechanism."
+  },
+  {
+   "arc": "B643_flip_symmetry",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt","FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b643_bfamily.py","b643_companion.py","b643_flip.py","b643_output.txt","b643_refined.py","b643_swapflip.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — The amphichiral flip is not a symmetry of the weld double: no invertible global companion exists (solution dimension 1, singular) in either involution class.",
+   "log_says": "Flip-breaking verdict final: both a-family and b-family involution classes give singular d=(0,0,1) solution (dim 1, no invertible member); L93 closes resolved-negative; wall 8 (order-4 flips) later closed TOTAL by B658 as a follow-up residual.", "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Global flip companion fails for a-family: 172 off-diagonal conditions, solution dim 1, singular d=(0,0,1)", "where": "b643_companion.py -> b643_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact linear system solved and printed; witness values shown"},
+    {"what": "Same singular verdict for phi(a)=b family via found conjugator aBAb", "where": "b643_bfamily.py -> b643_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit conjugator and system solution printed"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b643.py and tests/test_b643_flip.py both exist centrally (double-covered).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "ARTIFACT_HASHES.txt labels 5 of 6 script hashes as recorded POST-HOC rather than sealed before running (only PREREGISTRATION.md itself was hash-sealed first) -- transparently disclosed per the arc's own house rule, not concealed, but means the code witnesses are not pre-committed against tampering.", "where": "frontier/B643_flip_symmetry/ARTIFACT_HASHES.txt"}
+   ],
+   "seat_note": "Well-documented honest negative result with a clean singular-linear-system witness; the residual order-4 flip case is explicitly registered as unprobed and later addressed by a separate arc (B658) per the log."
+  },
+  {
+   "arc": "B644_mckay_comparison",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt","FINDINGS.md","PREREGISTRATION.md","arc_verdict.json","b644_character_check.py","b644_mckay.py","b644_output.txt"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — The theta-odd hearing representation factors through literal mod-5 reduction, rho_hear = chi_golden composed with reduction into SL(2,F_5); all gates pass.",
+   "log_says": "L94 closed: on ker(det)=2I the hearing rep factors literally through mod-5 reduction (kernel match 0/560 mismatches over 360 canonical + 200 seeded random words); a sealing error in the prereg's own reference character table was caught and disclosed (M3 adjudication) rather than silently patched.", "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "rho_hear = chi_golden o (mod-5 reduction); kernel match 0/560 mismatches (360 canonical + 200 random seeded words)", "where": "b644_mckay.py -> b644_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit gate table (M1-M4) with pass/fail printed; kernel-match test run over both canonical and randomly seeded words, a genuine falsification attempt"},
+    {"what": "The observed character table is a genuine irreducible golden character of SL(2,5) (Schur norm 1, chi(-g)=-chi(g) exact)", "where": "b644_character_check.py (exact sympy)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact symbolic (sympy) class arithmetic, not numeric approximation -- the strongest verification tier in this batch"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b644_mckay.py exists centrally; b644_character_check.py itself functions as an independent exact cross-check of the numeric b644_mckay.py output.",
+   "absence_claims": [
+    {"quote": "novelty NEEDS-SPECIALIST (prior-art not run; do not claim)", "where": "FINDINGS.md, 'Honest status' section"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The arc discloses and corrects a self-caught sealing error: the prereg's own two reference character tables were internally inconsistent (violated chi(-g)=-chi(g)), meaning the sealed M3 falsifier as originally written could never have passed for any genuine irrep -- a vacuity-class bug (MB12) caught post-run rather than pre-run, though transparently reported.", "where": "FINDINGS.md, 'The M3 adjudication' section"}
+   ],
+   "seat_note": "The strongest verification tier of this batch (exact sympy class arithmetic plus a genuine falsification sweep over random words); the honest disclosure of its own sealing bug is good practice, and the arc correctly labels the finding NEEDS-SPECIALIST for novelty rather than claiming priority."
+  }
+ ]
+}

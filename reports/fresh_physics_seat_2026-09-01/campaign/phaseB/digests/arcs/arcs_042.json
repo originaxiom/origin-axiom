@@ -1,0 +1,262 @@
+{
+ "batch": "arcs_042",
+ "arcs": [
+  {
+   "arc": "B647_core_mechanism",
+   "source": "main",
+   "files_read": [
+    "ARTIFACT_HASHES.txt",
+    "FINDINGS.md",
+    "PREREG_CELL2.md",
+    "arc_verdict.json",
+    "b647_cell2_output.txt",
+    "b647_cell3_gauge.txt",
+    "b647_chain_swap.py",
+    "b647_output.txt",
+    "b647_ratio_forced.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict='PROVED'; claim_one_line: 'Cell 1: imposing Y-compose-sigma* = conj(Y) over Q(sqrt-3) forces the ratio Y[023] = 24*zeta6*Y[123], which B638's swap law alone had left undetermined in 10 real dimensions.'",
+   "log_says": "REVIEWS.md R20-5 resolved by dissolution 2026-07-16: the 24zeta6 magnitude is basis-GAUGE (any unit achievable); the invariant content is the unit cross-ratio law; PROGRESS_LOG records cell1 reduction to 6 real dims (not forced), cell2 anomaly characterization Y = 1/2 conj(chain defect), cell3 gauge dissolution.",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {
+     "what": "cell 1: swap+zero laws reduce solution space to real dim 6; core ratio residual is one R-linear condition, NOT forced",
+     "where": "b647_output.txt; FINDINGS.md 'Cell 1'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b647_ratio_forced.py is committed, exact sympy over Q(sqrt-3), and its literal stdout (b647_output.txt) is committed and shows 'not forced; residual expression above' with the explicit residual polynomial printed"
+    },
+    {
+     "what": "cell 2: chain-level swap is exact in 7/8 evaluation slots on the three lawful triples; defect law S2(Jz1)-conj S1(z1)=2 conj(Y)",
+     "where": "b647_cell2_output.txt; FINDINGS.md 'Cell 2'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b647_chain_swap.py committed, raw run output with per-triple True/False and exact fractional defect values committed"
+    },
+    {
+     "what": "cell 3: '24 zeta_6' is a basis-gauge artifact (c0/c1-covariant, any unit achievable); the cross-ratio is the gauge-invariant content, value 1",
+     "where": "b647_cell3_gauge.txt; FINDINGS.md 'Cell 3'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact sympy gauge-transformation check, output committed verbatim, and this is the arc's own stated final resolution ('B647 closes')"
+    },
+    {
+     "what": "arc_verdict.json claim_one_line: the ratio IS forced by imposing Y-compose-sigma*=conj(Y)",
+     "where": "arc_verdict.json",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "no committed script imposes 'Y-compose-sigma*=conj(Y)' as an added constraint distinct from swap+zero and derives forcing; FINDINGS.md's own cell 1 text says explicitly 'the core ratio is NOT forced'; the verdict's one-line claim is not the arc's own final conclusion (which is the cell-3 gauge dissolution) and appears to restate a rejected hypothesis as the proved result"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "no separate verification/ directory; cell 2's script embeds its own re-verification comment per FINDINGS ('sympy re-verification in the lock'), and cell 3's gauge check is itself a symbolic re-derivation of cell 1's residual as invariant vs gauge content — internal cross-checks only, no independent second-pipeline recompute.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "arc_verdict.json's claim_one_line asserts the core ratio Y[023]=24*zeta6*Y[123] IS forced by Y-compose-sigma*=conj(Y); FINDINGS.md's cell 1 (the same computation) states plainly 'the core ratio is NOT forced — its residual is ONE R-linear condition among the six frees', and the arc's own final resolution (cell 3) declares the ratio a GAUGE artifact with no mechanism needed. The verdict.json was apparently never updated after cell 2/cell 3 superseded cell 1's framing, and its literal wording contradicts the arc's own primary source file.",
+     "where": "arc_verdict.json vs FINDINGS.md 'Cell 1' and 'Cell 3 — THE GAUGE ADJUDICATION'"
+    },
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "the verdict record (arc_verdict.json) still carries the cell-1-only framing ('the ratio is forced') even though the arc's own FINDINGS.md later (cell 3) dissolves that framing entirely (the ratio is gauge, not forced or an object law); the verdict json's 'superseded_by: null' gives no indication it is stale relative to the arc's later cells.",
+     "where": "arc_verdict.json (superseded_by: null) vs FINDINGS.md Cell 3"
+    }
+   ],
+   "seat_note": "This arc's real conclusion (cell 3) is a good, refreshingly humble physics move: it shows a previously-banked-looking numeric coincidence ('24*zeta_6') is a basis-gauge artifact with no mechanism required, leaving only the unit cross-ratio as invariant content. But the machine-readable verdict.json flatly misstates this as the ratio being 'forced', directly contradicting the arc's own FINDINGS text — any downstream consumer reading only arc_verdict.json would get an actively wrong physics claim.",
+   "thin_reads": []
+  },
+  {
+   "arc": "B648_calibration_campaign",
+   "source": "main",
+   "files_read": [
+    "ARTIFACT_HASHES.txt",
+    "CAMPAIGN_PREREGISTRATION.md",
+    "HANDOFF_COMPARATOR_WEBSEAT.md",
+    "HANDOFF_PREDICTOR_CC2.md",
+    "REVIEW_CC2.md",
+    "REVIEW_MERGED_AMENDMENTS_CC2.md",
+    "REVIEW_SEAT2_RELAYED.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings: false, has_verdict: false) — this arc is a sealed campaign PREREGISTRATION/protocol design, not a computed result",
+   "log_says": "PROGRESS_LOG 2026-07-17 (B653 entry): 'THE CAMPAIGN (B648) CLOSES: A+B complete (N = 1 -> C' = 0), C executed, outcome banked'; REVIEWS.md REVIEW 21 item 3: 'the CALIBRATION CAMPAIGN ran seal-to-closure (B648->B652->B653: GATE B N = 1; the C' zero-calibration event; OUTCOME A at LOW weight...)'",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "no numeric or theorem claim is made by this arc's own files; it is a governance/protocol seal (thesis, license, phases A-C, kill-switches, seat handoffs) plus two peer reviews and a merged-amendments record",
+     "where": "CAMPAIGN_PREREGISTRATION.md whole document",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this is a design/preregistration document, not a computation; there is nothing here to reproduce — its content is a protocol contract, verified only by whether later arcs (B652/B653, outside this batch) actually followed it"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no computation performed in this arc's files; belt concept does not apply to a preregistration document.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the arc has no FINDINGS.md or arc_verdict.json, so 'claim_of_record' cannot be checked against a computed result inside this arc's own directory; the actual outcome (N=1, C' branch, Outcome A at LOW weight) lives entirely in a different, un-sampled arc (B653) referenced only by the progress log — a reader confined to this arc's files cannot verify whether the campaign's later stages actually honored this prereg's many blocking gates (arity condition, grammar-independence gate, sector-coverage gate, silver-control package).",
+     "where": "packet metadata (has_findings:false, has_verdict:false) vs PROGRESS_LOG.md B653 entry"
+    }
+   ],
+   "seat_note": "This is a genuinely careful piece of scientific-process engineering (pre-registration, blinding order, kill-switches, anti-circularity gate, full design-space null model) — the kind of rigor that is easy to praise, but it is entirely process, no physics content of its own; its worth stands or falls on whether the downstream B652/B653 arcs (not in this batch) actually complied with every blocking gate listed here, which this arc's own files cannot confirm.",
+   "thin_reads": []
+  },
+  {
+   "arc": "B649_silver_holonomy",
+   "source": "main",
+   "files_read": [
+    "ARTIFACT_HASHES.txt",
+    "FINDINGS.md",
+    "PREREGISTRATION.md (head)",
+    "PREREG_STAGE2A.md",
+    "PREREG_STAGE2B.md",
+    "PREREG_STAGE3A.md",
+    "PREREG_STAGE3B_II.md",
+    "PREREG_STAGE3B_SWAP.md",
+    "arc_verdict.json",
+    "b649_g3_analysis.txt",
+    "b649_stage1.py (grepped)",
+    "b649_stage1_output.txt",
+    "b649_stage2a.py (grepped)",
+    "b649_stage2a_output.txt",
+    "b649_stage2a_run1_FAILED.txt",
+    "b649_stage2b.py (grepped)",
+    "b649_stage2b_output.txt",
+    "b649_stage3a.py (grepped)",
+    "b649_stage3a_output.txt",
+    "b649_stage3b_ii.py (grepped)",
+    "b649_stage3b_ii_output.txt",
+    "b649_stage3b_swap.py (grepped)",
+    "b649_stage3b_swap_output.txt",
+    "b649_stage3b_swap_run1_output.txt",
+    "cubic_rational.json",
+    "e6_principal_rational.json",
+    "entries_L.json",
+    "sigma_matrix_L.json",
+    "silver_Y_L.json"
+   ],
+   "files_sampled": [
+    "letters27_L.json (head/tail sampled; single-line JSON blob of exact rational-string matrix entries over L=Q(s,i), consistent with FINDINGS' claim of rational/exact entries)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict='PROVED'; claim_one_line: 'The silver m136 holonomy is exact over L=Q(s,i), and its 27-double reproduces the fig-8's FORM rows (3/5/1 dimensions, J^2=+1 real structure, zero law, sigma*-law, imaginary-quadratic field of definition); VALUE rows are object-chosen.'",
+   "log_says": "PROGRESS_LOG entries for stages 1 through 3b-ii (2026-07-16) match FINDINGS.md closely: exact trace relations, holonomy over L=Q(s,i) deg 8, 27-lift, dimension grammar 3/5/1 object-independent, swap real structure reproduced with field-of-definition refinement, Y-tensor form rows reproduce, value rows (lit/silent class, dial primes 13 vs 211) are object-chosen. REVIEW 21 records E13 errata (stale 'pslq'/'projective' text, five dated errata) as a minted class from this arc, consistent with FINDINGS' own ERRATA section.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "m136 exact SL2(L) holonomy, L=Q(s,i), s^4=8s^2+16, [L:Q]=8; both relators = +I exactly; det=1 on all three generators",
+     "where": "b649_stage2a_output.txt; FINDINGS.md 'Stage 2a'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b649_stage2a.py committed (snappy+mpmath), raw stdout committed, exact-arithmetic entry table committed in entries_L.json; two prior failed runs preserved (b649_stage2a_run1_FAILED.txt) showing the exact-det gate actually catching spurious pslq identifications"
+    },
+    {
+     "what": "27-lift over L: both relators = I27 exactly; cubic invariant preserved on 25 sample triples; tr27(mu)=tr27(lambda)=27",
+     "where": "b649_stage2b_output.txt; FINDINGS.md 'Stage 2b'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b649_stage2b.py committed with raw stdout; e6_principal_rational.json and cubic_rational.json committed as the underlying rational E6 apparatus"
+    },
+    {
+     "what": "dimension grammar 3/5/1 (solo h0/h1, double h0/h1) is IDENTICAL between silver (m136, disc 32) and fig-8 (disc 5) objects despite different trace field, discriminant, presentation rank",
+     "where": "b649_stage3a_output.txt; FINDINGS.md 'Stage 3a' table",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b649_stage3a.py committed (162-dim linear elimination over L, exact); stdout committed; FINDINGS explicitly notes 'the prereg sealed NO prediction (the values were the discovery)' — genuinely a computed, not fitted, coincidence, though the underlying mechanism ('principal-sl2 block structure drives the count') is registered as a candidate, not proved"
+    },
+    {
+     "what": "swap real structure J^2=+1 and antilinear involution reproduce; sigma*-matrix defined over Q(i) (silver) vs Q(sqrt-3) (fig-8), each object's own imaginary quadratic subfield",
+     "where": "b649_stage3b_swap_output.txt, sigma_matrix_L.json; FINDINGS.md 'Stage 3b-i'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b649_stage3b_swap.py committed; run-1 failure preserved and diagnosed (b649_stage3b_swap_run1_output.txt) as an echelon-coefficient framing bug caught by its own proven |d|=1 constraint — good self-catching discipline"
+    },
+    {
+     "what": "Y-tensor form rows reproduce (zero law, field-of-definition subfield law, sigma*-law); the single-unit '24zeta6' core ratio does NOT reproduce as a universal law on the silver — scoped as fig-8-specific; deviation numerators carry primes 211 (and 13) on silver vs 13 on fig-8",
+     "where": "b649_g3_analysis.txt, silver_Y_L.json; FINDINGS.md 'Stage 3b-ii'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b649_g3_analysis.txt is committed raw output with exact rational cross-ratios and full prime factorizations of numerators/denominators shown; the 'DOES NOT reproduce as universal law' finding is a genuine negative result reported honestly rather than suppressed"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "cc2 receipts (P0/F4, referenced in PROGRESS_LOG and reproduced in this arc's own ERRATA section) independently re-verified stages 1-3b-i and caught five dated errata (a false trace-ratio witness sentence, an understated residual, two stale-prose instances, a rescoping note) — all fixed in-place with the corrected values shown; this is a real cross-seat re-verification, though the corrections are recorded as an ERRATA appendix rather than edits to the original prose above it.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "stage 1's trace-field identification (S1-G2) is only a 'PARTIAL-EXACT PASS' at ~64-digit numerical precision with stated residual thresholds (later found understated per ERRATA #2, corrected 4.69e-62); the fully exact/symbolic identification only lands in stage 2a. This is disclosed and resolved within the same arc, not left hanging, but the initial claim (S1-G4) was honestly DEFERRED rather than asserted exact.",
+     "where": "FINDINGS.md 'Stage 1' S1-G2/S1-G4"
+    }
+   ],
+   "seat_note": "This is one of the stronger arcs read: a genuine object-independence check (dimension grammar 3/5/1, swap real structure) computed exactly on a second hyperbolic manifold with no pre-sealed target value, including an honest negative (the '24zeta6' ratio does NOT generalize) reported with equal prominence to the positives; the field-of-definition observation (each object's chord data lives in its own imaginary quadratic subfield) is a real structural finding, not yet elevated to any physical observable.",
+   "thin_reads": [
+    "letters27_L.json (251KB) sampled head/tail + spot content only, not read in full per SAMPLE_DATA mode; the full 27x27 rational matrix table was not verified entry-by-entry against the FINDINGS claims beyond confirming the format (exact rational strings) matches"
+   ]
+  },
+  {
+   "arc": "B650_typed_functor",
+   "source": "main",
+   "files_read": [
+    "ARTIFACT_HASHES.txt",
+    "FINDINGS.md",
+    "PREREG_WAVE2.md",
+    "TYPES.md",
+    "arc_verdict.json",
+    "checker_output.txt",
+    "types_checker.py",
+    "wave2_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict='PROVED'; claim_one_line: 'The frozen type system passed its held-out battery after one disclosed revision, and the exact Sylvester solve gives T=0 uniquely (no nonzero monodromy-equivariant linear map), the sought functor being group-level.'",
+   "log_says": "PROGRESS_LOG 2026-07-16 (wave1): TYPES.md v1 frozen, held-out battery ran mechanically with ONE failure (v0 ill-typed) consumed as the single disclosed revision (R0: quantities vs carriers), re-run 4/4; PROGRESS_LOG (wave2): Exact Sylvester T A1=rho_hear(RL)T has only T=0 (disjoint spectra), the functor identified as group-functorial (B644's congruence-shadow theorem + B650 types); B736 later cites this as 'THE EQUIVARIANCE WALL' obstruction #1 in an unrelated campaign, consistent with this arc's own framing.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "type system TYPES.md (3 base types, 3 flags, R0-R6 rules) reproduces the freeze set (B584/B611/B613) 3/3 and passes the held-out battery (B593, B626, chord's Y) after one disclosed revision (R0 added for B632's v0 failure), re-run 4/4",
+     "where": "checker_output.txt, types_checker.py; FINDINGS.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "types_checker.py is a small, fully committed mechanical rule-encoding script; checker_output.txt shows its literal stdout classification of each instance, matching FINDINGS.md's claimed outcomes exactly"
+    },
+    {
+     "what": "the Sylvester equation T*A1 = rho_hear(RL)*T over exact matrices (A1 eigenvalues phi^{+-2}, target order 10 on unit circle) has unique solution T=0",
+     "where": "wave2_output.txt; FINDINGS.md 'Wave 2'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the committed stdout shows the exact eigenvalue check, the exact Sylvester solve returning {t0:0,t1:0,t2:0,t3:0}, and an explicit boolean confirmation; the underlying script is not present in the packet's file list (only its output is), so the exact solve code itself was not directly inspected in this read"
+    },
+    {
+     "what": "the positive identification that the sought functor is 'group-functorial' = (reduction mod conductor) composed with the golden character = B644's congruence-shadow theorem",
+     "where": "FINDINGS.md 'W2-G2'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this claim rests entirely on B644 (an external, un-sampled arc) rather than on anything computed within B650's own committed files; B650 only computes that the LINEAR map is zero, not that the group-level functor construction is itself correct — that import is not independently checked here"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "no separate verification/ directory; the held-out battery design itself functions as an internal cross-check (freeze vs held-out), and the wave-2 Sylvester result is stated as 'verified by explicit exact solve, not only by the spectral criterion' per PREREG_WAVE2.md, i.e. a deliberate double-check within the same script/run rather than an independent second pipeline.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the wave-2 'positive identification' (the functor exists 'one level up' as group-functorial, composed with B644's congruence-shadow theorem) is asserted by analogy/reasoning after the negative linear result, not itself computed as a functor-verification in this arc's files; it imports B644's theorem wholesale as the answer without an independent check inside B650.",
+     "where": "FINDINGS.md 'W2-G2'; PREREG_WAVE2.md gates"
+    }
+   ],
+   "seat_note": "The negative result (no linear intertwiner exists between the classical hyperbolic action and the finite-order hearing representation) is cleanly computed and well-evidenced (exact Sylvester solve, committed output); the positive claim that followed it ('the functor is group-functorial') is comparatively asserted rather than freshly derived here, leaning entirely on an imported theorem (B644) not present in this arc's own files.",
+   "thin_reads": []
+  }
+ ]
+}

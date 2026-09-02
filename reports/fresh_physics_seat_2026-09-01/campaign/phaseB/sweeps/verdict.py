@@ -3,6 +3,10 @@
 SUPERSEDED, CONTRADICTED, OPEN_LATER, GENERIC, REGISTRY_ECHO).  Writes/updates VERDICTS.tsv keyed by claim index."""
 import sys, csv, json, os
 recs = {r['i']: r for r in json.load(open('absence_sweep_paths.json'))}
+_claims = list(csv.DictReader(open('../synthesis/absence_claims.tsv'), delimiter='\t'))
+_sweep = list(csv.DictReader(open('absence_sweep.tsv'), delimiter='\t'))
+for _i, _r in enumerate(_sweep):
+    if _i not in recs: recs[_i] = dict(i=_i, arc=_r['arc'], where=_r['where'], status=_r['status'])
 rows = {}
 if os.path.exists('VERDICTS.tsv'):
     for r in csv.DictReader(open('VERDICTS.tsv'), delimiter='\t'): rows[int(r['i'])] = r

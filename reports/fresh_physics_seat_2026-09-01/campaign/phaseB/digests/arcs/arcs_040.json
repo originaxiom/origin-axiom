@@ -1,0 +1,87 @@
+{
+ "batch": "arcs_040",
+ "arcs": [
+  {
+   "arc": "B645_dial_law",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B645_dial_law/ARTIFACT_HASHES.txt",
+    "/home/user/origin-axiom/frontier/B645_dial_law/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B645_dial_law/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B645_dial_law/b645_invariants.py",
+    "/home/user/origin-axiom/frontier/B645_dial_law/b645_output.txt",
+    "/home/user/origin-axiom/tests/test_b645_dial_law.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: \"The unit cross-ratio law (Y[023]Y[134])/(Y[034]Y[123]) = 1 holds exactly on all six 024-silent doubles; the three lit doubles deviate by multiples of 13.\"; status/verdict: \"PROVED\"",
+   "log_says": "PROGRESS_LOG 2026-07-16: 'B645 (C3): normalization-free invariants across the nine banked Y tables (independent re-parse; core law re-verified 9/9). Locks: B643 3/3, B645 3/3.' REVIEWS.md logs it as a new LAW ('the unit cross-ratio law + the 13-dial') and later as 'STUCK LONGEST ... the 13-dial mechanism (since B645)' meaning the underlying mechanism for the 13-divisibility remains unexplained.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Core law Y[023] = 24ζ₆·Y[123] re-verified exactly on all 9 banked doubles",
+     "where": "b645_invariants.py (lock section) / b645_output.txt lines under '== lock: the core law on all nine ==' / test_core_law_all_nine",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script re-parses the two committed B637 output tables (stage3_output.txt, part2b_stage2_fixed_output.txt, both present and git-tracked) via an independent regex transcription and checks exact sympy equality; an independent pytest test (test_b645_dial_law.py) re-derives the same result from scratch."
+    },
+    {
+     "what": "Unit cross-ratio law: (Y[023]Y[134])/(Y[034]Y[123]) = 1 exactly on the six 024-silent doubles",
+     "where": "b645_invariants.py invariant-lattice loop / b645_output.txt '== the normalization-free invariant lattice per double ==' section / test_unit_cross_ratio_on_silent_six",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact sympy computation over Q(sqrt(-3)) from committed banked tables; independently re-derived and asserted (including the exact identity of the silent-six set) in the committed test file."
+    },
+    {
+     "what": "13-dial: on the three 024-lit doubles, every invariant deviation from 1 has numerator divisible by 13 (denominator coprime to 13), in exact normal form",
+     "where": "b645_output.txt '== normal forms of the three lit-double deviations ==' / test_thirteen_dial_on_lit_three",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact rational/quadratic-field arithmetic from committed tables, cross-checked by an independent test computing the same 13-divisibility assertion for both real and sqrt(-3) components."
+    },
+    {
+     "what": "Identification of the '13-dial lit class' {m=1, phi(a)=a, phi(a)=A} with the previously-banked 'm=1 dial' class (the zero law Y[01k]=0 off m=1)",
+     "where": "FINDINGS.md 'The lit class ... is exactly the banked \"m = 1 dial\" class ... one classification, two witnesses.'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This arc's own files show the 024-lit/silent split is computed here, but the equivalence to the earlier 'm=1 dial' zero-law classification is stated, not re-derived or cross-checked inside this arc's committed files (the earlier B637-era zero law is not re-verified here)."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "tests/test_b645_dial_law.py independently re-parses the same underlying B637 table files (not an independently generated data source) and re-derives/asserts all three identities plus a live artifact-hash check; this is a genuine independent recomputation of the arithmetic, though it draws on the same banked upstream tables as b645_invariants.py.",
+   "absence_claims": [
+    {
+     "quote": "HONEST STATUS: B645 had NO PREREGISTRATION — it was an exploratory-exact computation on already-banked B637 tables (zero new runs, zero fitted parameters; every statement an exact identity, re-verifiable by rerun).",
+     "where": "frontier/B645_dial_law/ARTIFACT_HASHES.txt"
+    },
+    {
+     "quote": "No preregistration existed for this arc (stated explicitly per the cc2 N4 receipt's flag): exploratory-exact on banked tables — no new runs, no held-out values, no fitted parameters",
+     "where": "frontier/B645_dial_law/FINDINGS.md, 'Status and routing'"
+    },
+    {
+     "quote": "No SM numbers; internal exact arithmetic only; Gate 5 untouched.",
+     "where": "frontier/B645_dial_law/FINDINGS.md, 'Status and routing'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Arc is explicitly exploratory with no preregistration (self-disclosed), yet the arc_verdict.json status is 'PROVED'. The disclosure is honest and the underlying identities are exact/reproducible, but 'PROVED' for an exploratory, non-preregistered arc is worth the reader's attention rather than being purely a non-issue.",
+     "where": "frontier/B645_dial_law/arc_verdict.json vs ARTIFACT_HASHES.txt"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The mechanism behind the 13-divisibility ('the 13-dial mechanism') is explicitly still unresolved per the project's own review log, well after this arc closed ('STUCK LONGEST ... the 13-dial mechanism (since B645)', REVIEW 21). The exact numeric law is computed and locked, but its explanation is open — the arc itself flags this ('mechanism open') so this is consistent disclosure, not concealment.",
+     "where": "docs/progress/REVIEWS.md REVIEW 21 (per log_index) and FINDINGS.md 'Strength: LAW (exact on every computed instance; mechanism open)'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "HINT rows in FINDINGS.md ('the 3^8 in inv2's normal form (8 = the Sym^8 block's highest weight?); 13 = (27-1)/2; the deviation units {1, zeta3, sqrt(-3)} are associates-shaped') are explicitly labeled 'recorded, not judged' — i.e. unverified numerological pattern-spotting flagged honestly by the arc's own authors as speculative.",
+     "where": "frontier/B645_dial_law/FINDINGS.md, 'HINT rows'"
+    }
+   ],
+   "seat_note": "This is a clean, honestly-labeled exploratory-exact arithmetic exercise: every headline claim is a computed exact identity over Q(sqrt(-3)) from committed, non-gitignored witness files, and is independently re-derived by a committed pytest test rather than merely asserted. It carries no observable/SM content (self-stated) and the interesting number-theoretic pattern (13-divisibility) is honestly flagged by the project itself as mechanism-open, which is the correct posture for a LAW without a proof of why."
+  }
+ ]
+}

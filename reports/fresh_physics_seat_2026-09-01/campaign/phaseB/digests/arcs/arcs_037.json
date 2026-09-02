@@ -1,0 +1,733 @@
+{
+ "batch": "arcs_037",
+ "arcs": [
+  {
+   "arc": "B610_m136_weld",
+   "source": "main",
+   "files_read": [
+    "frontier/B610_m136_weld/FINDINGS.md",
+    "frontier/B610_m136_weld/arc_verdict.json",
+    "frontier/B610_m136_weld/m136_weld_scan.py",
+    "frontier/B610_m136_weld/scan_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Three universality splits computed: the R^2L bundle's odd trace is complex and zeta-6 phased, never conjugation-closed, and never leaves the unit circle.\"",
+   "log_says": "B610 slice 1 (Phase 4): the m136 weld scan confirmed chat-1's complex-trace claim with exact values, found conjugation-closure OBJECT-SPECIFIC (registered exploratory mechanism candidate), and no magnitude-chirality window; later corrected (B621) that the object computed is the R^2L bundle, not census m136 (that is the RRLL silver bundle).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "odd hearing trace values at kappa=4..24 (complex, zeta-6 phased) and conjugation-closure/unit-modulus census",
+     "where": "frontier/B610_m136_weld/m136_weld_scan.py + scan_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script + committed full numeric output table, matches FINDINGS numbers exactly; runs in ~3 min per docstring"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; the arc's own script output is the sole witness (in-arc, not an independent re-derivation)",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "FINDINGS.md still titles/labels the object 'm136' throughout the body text (with only a trailing naming-correction note appended) even though B621 established that census m136 is actually the RRLL bundle; the correction is present but the whole document is written under the superseded name.",
+     "where": "frontier/B610_m136_weld/FINDINGS.md lines 1-46 vs the correction note at line 47"
+    }
+   ],
+   "seat_note": "This is a clean, reproducible structure scan (no SM claim) whose only physics content is group/field-theoretic; the exploratory 'conjugation-closure <=> amphichirality' claim is correctly labeled EXPLORATORY and later gets a real proof (B613), so the epistemic labeling here is honest."
+  },
+  {
+   "arc": "B611_two_laws",
+   "source": "main",
+   "files_read": [
+    "frontier/B611_two_laws/FINDINGS.md",
+    "frontier/B611_two_laws/arc_verdict.json",
+    "frontier/B611_two_laws/two_laws_output.txt",
+    "frontier/B611_two_laws/two_laws_test.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Both sealed predictions failed: amphichirality-implies-conjugation-closure breaks on a degenerate one-dimensional edge, and the unit-circle-departure candidate is vacuous since B_odd is unitary by construction.\"",
+   "log_says": "B611: both registered predictions FAILED honestly — P1 failed on a degenerate dim-1 edge (RRRL 'closed' only where a single real eigenvalue is no pairing); resolved into a three-layer picture (spectrum=clockwork, trace=field, matrix elements=listener coupling).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "P1 (amphichirality<=>closure) and P2 (unit-circle departure) tested on 4 objects x 15 levels",
+     "where": "frontier/B611_two_laws/two_laws_test.py + two_laws_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script and committed full numeric output reproduce the FAIL verdicts and data rows exactly"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A genuinely honest negative result arc: two registered predictions both failed as sealed and are reported as failures rather than reframed as successes; the B609 exploratory note is correctly flagged superseded in-arc."
+  },
+  {
+   "arc": "B612_pairing_chirality",
+   "source": "main",
+   "files_read": [
+    "frontier/B612_pairing_chirality/FINDINGS.md",
+    "frontier/B612_pairing_chirality/arc_verdict.json",
+    "frontier/B612_pairing_chirality/output.txt",
+    "frontier/B612_pairing_chirality/pairing_chirality.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"The sealed per-level pairing biconditional FAILED (chiral RRLLL closes at kappa=6); only the level-uniform quantified form survives on the seven objects.\"",
+   "log_says": "B612: the per-level pairing law FAILED (RRLLL at kappa=6); the quantifier-corrected law survives 56/56.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "conjugation-closure census over 7 objects x 14 levels, with an assertion that raises AssertionError on the sealed law's failure",
+     "where": "frontier/B612_pairing_chirality/pairing_chirality.py + output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script's own traceback in output.txt shows the assert firing live (not silently caught), matching the FAIL verdict exactly"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "Committed output.txt literally contains the AssertionError traceback from the failed law -- an unusually strong honesty signal that the negative result was not massaged before banking."
+  },
+  {
+   "arc": "B613_closure_theorem",
+   "source": "main",
+   "files_read": [
+    "frontier/B613_closure_theorem/FINDINGS.md",
+    "frontier/B613_closure_theorem/arc_verdict.json",
+    "frontier/B613_closure_theorem/closure_theorem.py",
+    "frontier/B613_closure_theorem/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Closure theorem: for GHH-anti-palindromic (amphichiral) weld words, conj(W)=Q^-1 W^T Q with Q=PSC, so the odd hearing spectrum is conjugation-closed at every level.\"",
+   "log_says": "B613: THE CLOSURE THEOREM — the pairing layer is proved; for modular data satisfying stated axioms, a GHH-anti-palindromic weld word satisfies conj(W)=Q^-1 W^T Q, Q=P.S.C commuting with C.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the closure theorem (symbolic derivation I1-I3 from modular-data axioms) plus exact-numerical verification of every axiom and the assembled identity at kappa=5,7,10,12 for 4 amphichiral witnesses and 3 chiral controls",
+     "where": "frontier/B613_closure_theorem/closure_theorem.py + output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the proof text gives a derivation from stated SU(3)_k modular-data axioms and the script numerically verifies every ingredient at 1e-11/1e-9 tolerance with full output committed; the converse direction is explicitly and correctly flagged as still empirical"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no separate verification/ directory; the arc's own axiom-by-axiom check at 4 levels functions as an in-arc consistency check but is not an independently authored re-derivation",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "This is the strongest arc in the batch: a genuine symbolic proof from stated axioms, backed by exact numerical verification with the one-way limitation (converse still empirical) honestly stated in both FINDINGS and the script docstring."
+  },
+  {
+   "arc": "B614_null_model",
+   "source": "main",
+   "files_read": [
+    "frontier/B614_null_model/NULL_MODEL_DESIGN.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "B614: the null model + comparison map DESIGNED — handed to seat 4 (the director's priority change); the design freezes value inventory, target inventory (16 SM quantities from PDG 2024), the comparison map (271 pairs, choice-free), the null model, tolerance tiers, and the look-elsewhere correction, BEFORE any comparison is computed.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [],
+   "belt": "NONE",
+   "belt_note": "this is a pre-registration design document, not a computation arc; no code, no numbers computed here by design",
+   "absence_claims": [
+    {
+     "quote": "No comparison is computed in this arc; the comparison runs once, mechanically, in the next arc, only after seat 4 approves or amends this design.",
+     "where": "frontier/B614_null_model/NULL_MODEL_DESIGN.md (section 0)"
+    },
+    {
+     "quote": "Non-trivial: no comparison has ever been computed; the map is new.",
+     "where": "frontier/B614_null_model/NULL_MODEL_DESIGN.md (section 6, MB12)"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A pre-registration design document, correctly not asserting any computed result; the honesty of the blindness caveat (values already public in-repo, blindness lives only in the frozen protocol) is worth noting as a methodological strength for the comparison arcs that follow."
+  },
+  {
+   "arc": "B615_comparison",
+   "source": "main",
+   "files_read": [
+    "frontier/B615_comparison/FINDINGS.md",
+    "frontier/B615_comparison/arc_verdict.json",
+    "frontier/B615_comparison/b615_comparison.py",
+    "frontier/B615_comparison/b615_robustness.py",
+    "frontier/B615_comparison/comparison_output.txt",
+    "frontier/B615_comparison/robustness_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN — \"The Branch-3 comparison returned AMBIGUOUS (Sidak p=0.078, zero matches at the tight tier), banked as suggestive-only with no escalation.\"",
+   "log_says": "B615 (BRANCH 3, THE MOMENT OF TRUTH): AMBIGUOUS, corrected p=0.078; G2 angles three matches at 1e-2 tier (zero at 1e-3), G1/G3 zero, G4 one null-compatible hierarchy match; a later arc (B633/B615-R, not in this batch) reportedly found the residual dissolves under uncertainty-aware/updated targets.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the 271-pair SM comparison (all pairs, both tiers) and the Sidak-corrected p=0.0775 (tier 1e-2) verdict",
+     "where": "frontier/B615_comparison/b615_comparison.py + comparison_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the full 241-line pair table and null statistics are committed verbatim and match FINDINGS numbers exactly (design hash verified in-run)"
+    },
+    {
+     "what": "PDG 2024 target values (couplings, mixing angles, mass ratios) entered into the comparison",
+     "where": "comparison_output.txt target column",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "FINDINGS.md discloses these were 'recorded from the assistant seat's knowledge' rather than fetched from a cited PDG document/URL — a stranger cannot verify the target values against a committed source, only against the assistant's claim of accuracy"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "the robustness (algebraic-mimic) ensemble in b615_robustness.py functions as an internal cross-check of the null model, not an independent re-derivation; no separate verification/ directory",
+   "absence_claims": [
+    {
+     "quote": "The measured targets are PDG 2024 central values recorded from the assistant seat's knowledge (flagged in the script header).",
+     "where": "frontier/B615_comparison/FINDINGS.md (Disclosure item 2)"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Target measured values (PDG couplings/mixing angles/mass ratios) were typed in from the assistant's own knowledge rather than sourced from a committed/citable document; the arc discloses this itself but it is an IMPORTED-value gap that a stranger cannot independently check against a primary source inside the repo.",
+     "where": "frontier/B615_comparison/FINDINGS.md disclosure item 2; frontier/B615_comparison/b615_comparison.py target dict"
+    }
+   ],
+   "seat_note": "This is the one genuinely OBSERVABLE arc in the batch (named SM quantities with numeric targets and a real statistical protocol); the honesty is good (two implementation bugs disclosed, non-elided full pair table) but the p=0.078 AMBIGUOUS reading rests on two G2 matches to the same target (sin^2 theta_12) which is a smaller effective sample than three independent hits, worth noting for anyone taking the number at face value."
+  },
+  {
+   "arc": "B616_heldout",
+   "source": "main",
+   "files_read": [
+    "frontier/B616_heldout/FINDINGS.md",
+    "frontier/B616_heldout/HELDOUT_DESIGN.md",
+    "frontier/B616_heldout/arc_verdict.json",
+    "frontier/B616_heldout/b616_heldout.py",
+    "frontier/B616_heldout/heldout_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN — \"The held-out second object matches at its noise expectation, leaving the figure-eight's excess uncorroborated; the sealed verdict is STILL-AMBIGUOUS.\"",
+   "log_says": "B616 (the held-out control): STILL-AMBIGUOUS — m136 behaves as noise (2/378 vs 1.44 expected, both the same duplicated value under the SET clause); the sign law is object-universal (structural surprise, registered as exploratory).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the held-out amplitude family (HA, 63 values after filtering) and torsion family (HR, 6 exact integers) for the R^2L bundle, plus HG2/HG4 comparison against the same frozen SM targets",
+     "where": "frontier/B616_heldout/b616_heldout.py + heldout_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script hashes and asserts against the sealed design file, and the full raw log (including all 25 diagonal pairs, exact torsion integers, and full HG2 table note) is committed"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; the design-hash assertion at run start is a self-integrity check, not an independent belt",
+   "absence_claims": [
+    {
+     "quote": "the mixing-fraction family is OBJECT-UNIVERSAL (the E6 principal decomposition does not depend on the knot), so it cannot be held-out-tested",
+     "where": "frontier/B616_heldout/HELDOUT_DESIGN.md (The held-out families section)"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "A well-designed held-out control that genuinely could have corroborated the B615 excess and instead found the second object indistinguishable from noise — reported honestly as failing to corroborate rather than reframed; the sign-law structural surprise is correctly separated out as exploratory rather than folded into the SM-comparison verdict."
+  },
+  {
+   "arc": "B617_sign_law_theorem",
+   "source": "main",
+   "files_read": [
+    "frontier/B617_sign_law_theorem/FINDINGS.md",
+    "frontier/B617_sign_law_theorem/arc_verdict.json",
+    "frontier/B617_sign_law_theorem/output.txt",
+    "frontier/B617_sign_law_theorem/sign_law_theorem.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"For every hyperbolic A, sign det'(I - Sym^2m A) = (-1)^m with closed form tau_m = (-1)^m prod (lambda^j - lambda^-j)^2 — the bundle sign law is pure parity.\"",
+   "log_says": "B617: THE SIGN-LAW FAMILY THEOREM — the bundle sign law is PROVED for every hyperbolic monodromy via a pairing argument; the conductor-unification candidate (tr^2-4 gates the field window) is registered as exploratory pending a third object.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the sign-law pairing identity (symbolic, sympy) and closed-form match against banked B423/B616 values at 6 exponents for 3 objects",
+     "where": "frontier/B617_sign_law_theorem/sign_law_theorem.py + output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy symbolic proof of the pairing identity plus exact symbolic checks against explicitly-quoted banked values, all committed and printed"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A clean, genuinely symbolic theorem (the pairing argument for a sign law is elementary and fully verified); the conductor-unification claim is correctly scoped as exploratory (exact on 2 objects) rather than asserted as a law, and B618 registers the falsifiable prediction properly before testing it."
+  },
+  {
+   "arc": "B618_conductor_test",
+   "source": "main",
+   "files_read": [
+    "frontier/B618_conductor_test/FINDINGS.md",
+    "frontier/B618_conductor_test/arc_verdict.json",
+    "frontier/B618_conductor_test/conductor_output.txt",
+    "frontier/B618_conductor_test/conductor_test.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The registered third-object prediction passes: the tr-5 bundle's sqrt(21) content appears exactly at levels {14,21,35,42}, confirming the tr^2-4 conductor law.\"",
+   "log_says": "B618: the conductor unification CONFIRMED on the third object (registered prediction) — the tr-5 bundle's sqrt21-content appears at kappa={14,21,35,42}, exactly the d|21 window, as registered in B617 before the run.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "PSLQ-style lattice-fit scan for sqrt(21) content in the odd hearing trace over kappa=4..45",
+     "where": "frontier/B618_conductor_test/conductor_test.py + conductor_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script with a genuinely falsifiable pre-registered prediction, and full committed numeric output for kappa=33..45 confirming exactly the predicted bearing levels"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A genuine pre-registered, falsifiable prediction that passed on independent computation -- the strongest form of evidence this campaign produces, though it is a structural/arithmetic claim with no SM observable attached."
+  },
+  {
+   "arc": "B619_a5_bridge",
+   "source": "main",
+   "files_read": [
+    "frontier/B619_a5_bridge/FINDINGS.md",
+    "frontier/B619_a5_bridge/a5_bridge.py",
+    "frontier/B619_a5_bridge/arc_verdict.json",
+    "frontier/B619_a5_bridge/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Both A5-bridge readings are refuted by computed group orders (clock order 20; projective image over 400); only a shared-arithmetic remark survives.\"",
+   "log_says": "B619: the A5 bridge adjudicated — both readings refuted; the shared-arithmetic remark banked as context only; a later arc (B640, not in this batch) reconciles the order discrepancy by noting 15/10/5/20 are four distinct operators, all correct simultaneously.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "order of rho(A1) at kappa=5 (=20, exact) and the projective image size of <S,T> (>400, cap hit)",
+     "where": "frontier/B619_a5_bridge/a5_bridge.py + output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed BFS-based group-order computation with committed output; note the projective-image search hit its own cap (400) so 'exceeds 400' is a lower bound, not a determined order -- correctly reported as a bound (530 with cap-hit noted) rather than overclaimed as exact"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory",
+   "absence_claims": [],
+   "physics_content": "IDENTIFICATION_BY_TYPE flagged separately in red_flags; otherwise NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The arc itself is built to refute an identification-by-type claim (order 60 = |A5|) from a prior chat turn, and correctly does so by computing the actual group order (20) rather than accepting the numeric coincidence; flagged here because the underlying pattern (numeric coincidence -> group identity) recurs across the campaign and this arc is a good example of it being caught.",
+     "where": "frontier/B619_a5_bridge/FINDINGS.md (the claims and the computations)"
+    }
+   ],
+   "seat_note": "A good-faith refutation arc: two candidate group-theoretic identifications are both tested computationally and both fail, and the surviving 'shared arithmetic' remark is explicitly firewalled from significance claims rather than smuggled back in as evidence."
+  },
+  {
+   "arc": "B620_conductor_mechanism",
+   "source": "main",
+   "files_read": [
+    "frontier/B620_conductor_mechanism/FINDINGS.md",
+    "frontier/B620_conductor_mechanism/arc_verdict.json",
+    "frontier/B620_conductor_mechanism/conductor_mechanism.py",
+    "frontier/B620_conductor_mechanism/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"In the Weyl-twisted Weil factorization the six signed reflections carry the only non-square conductor 4-t^2, so the object's field has exactly one door.\"",
+   "log_says": "B620: THE CONDUCTOR MECHANISM — the field has exactly one door; the twelve Weyl-Weil conductors proved as closed forms (reflections the unique non-square class); completes B617+B618+B620 into one arc.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "closed forms for the 5 Weyl-class conductors det(A⊗w-I4), proved symbolically for reflections and by 4-point interpolation for all five classes; field-carrier test on 2 objects at bearing vs silent levels",
+     "where": "frontier/B620_conductor_mechanism/conductor_mechanism.py + output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script and committed output showing the interpolation check and the exclusivity (bearing/silent) census matching the FINDINGS table"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; FINDINGS notes one in-arc self-correction (a reflection-index set corrected 1,4,5 -> 1,2,5 before verdict rows were finalized) which is disclosed rather than silently fixed"
+   ,
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "The disclosed mid-run index correction (1,4,5 -> 1,2,5) is handled transparently, which is the right practice, but it is worth the seat noting that a corrected index set was applied before the interpolation was read as final -- a stranger cannot independently verify that this correction was warranted without re-deriving the Weyl class list themselves."
+  },
+  {
+   "arc": "B621_kappa_gating",
+   "source": "main",
+   "files_read": [
+    "frontier/B621_kappa_gating/FINDINGS.md",
+    "frontier/B621_kappa_gating/arc_verdict.json",
+    "frontier/B621_kappa_gating/diag.py",
+    "frontier/B621_kappa_gating/scan.py",
+    "frontier/B621_kappa_gating/scan2.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The kappa-gating law: writing t^2-4 = 3^v*m with gcd(m,3)=1, the reflection coset carries the object's field content if and only if m divides kappa, verified with exclusivity controls and zero exceptions for kappa = 4..27.\"",
+   "log_says": "the conductor-endgame campaign round 1: THE kappa-GATING LAW (B621, cell A, verified zero-exceptions kappa=4..27); also carries THE OBJECT-NAMING CORRECTION binding on B610/B616/B618/B619 (census m136 = the RRLL silver bundle, not R^2L).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the kappa-gating law verified 'zero-exceptions kappa=4..27' with specific bearing sets quoted for RL/R2L/R3L bundles",
+     "where": "frontier/B621_kappa_gating/FINDINGS.md (THE GATING RULE section), scripts scan.py/scan2.py/diag.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "no output.txt (or any .txt/.json result file) is committed for this arc -- the scan/scan2/diag scripts exist and could in principle be rerun, but the specific bearing-set numbers quoted verbatim in FINDINGS.md ({5,10,15,20,25}, {4,8,12,16,20,24}, {7,14,21}) have no committed witness output to check them against; a stranger must re-run the scripts themselves (untested for runtime/dependencies here) to confirm the FINDINGS numbers"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory and no committed output.txt; this arc has no independently-authored belt and only committed source, not a run witness"
+   ,
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "FINDINGS.md quotes specific numeric bearing-sets for three bundle words and 'zero exceptions kappa=4..27' but no output.txt or equivalent committed run-log exists in the arc directory (only .py source files) -- unlike sibling arcs B610/B611/B612/B613/B615-B620 which all have a committed output.txt.",
+     "where": "frontier/B621_kappa_gating/ (directory listing: FINDINGS.md, arc_verdict.json, diag.py, scan.py, scan2.py -- no .txt)"
+    }
+   ],
+   "seat_note": "The gating law is stated cleanly and mechanistically follows from B620, but this is the first arc in the batch lacking any committed run output -- a stranger cannot check the quoted bearing-kappa lists without re-executing scan2.py themselves, which the digest process did not do."
+  },
+  {
+   "arc": "B622_silver_exterior",
+   "source": "main",
+   "files_read": [
+    "frontier/B622_silver_exterior/FINDINGS.md",
+    "frontier/B622_silver_exterior/arc_verdict.json",
+    "frontier/B622_silver_exterior/compute_m136_torsion.py",
+    "frontier/B622_silver_exterior/ty_core.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The silver RRLL bundle m136's exterior adjoint Reidemeister torsion is exactly -16 = 2-(phi^6+phi^-6), a second negative data point for the exterior sign law, with the fig-8 and silver adjoint tangent fields swapping (sqrt21 vs sqrt5).\"",
+   "log_says": "the conductor-endgame campaign round 1: B622 (cell C, verified exactly in-loop): the TRUE m136's exterior adjoint torsion = -16 EXACTLY; plus THE FIELD CROSSOVER (fig-8's adjoint Jacobian in Q(sqrt21), silver's in Q(sqrt5)).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the exterior adjoint torsion of the silver (RRLL) bundle = -16 exactly, via the Tran-Yamaguchi formula, with a SnapPy-based fig-8 calibration to -3",
+     "where": "frontier/B622_silver_exterior/compute_m136_torsion.py, frontier/B622_silver_exterior/ty_core.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the script is complete (sympy exact arithmetic, with a SnapPy-based identification step guarded by a fallback) and asserts CALIBRATION FAILED / fixed-point-equation-failed etc. if wrong, but no output.txt is committed -- a stranger must re-run compute_m136_torsion.py (which may also need the optional SnapPy dependency for the manifold-identification step) to see the printed -16"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "the arc's own 'Cell B convention reconciliation' text functions as an internal cross-check (comparing against B423/B581/Dubois conventions) rather than an independent verification directory; no committed run output"
+   ,
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "No output.txt or run log is committed for the headline -16 computation, only the .py source; the tests/test_b622_silver_exterior.py lock file verifies only the algebraic identity (1-phi^6)(1-phi^-6)=-16 symbolically, not that compute_m136_torsion.py's pipeline (SnapPy identification, Fox calculus, holonomy solve) actually produces -16 when run.",
+     "where": "frontier/B622_silver_exterior/ (no .txt); tests/test_b622_silver_exterior.py"
+    }
+   ],
+   "seat_note": "The -16 value is plausible (it reduces to a clean symbolic identity checked by the lock test) but the lock test checks the ALGEBRA, not the PIPELINE that is supposed to have derived phi^6 as the relevant eigenvalue from the manifold's actual holonomy -- the identification step (that phi^6 is the right eigenvalue for this specific bundle) is asserted, not independently re-verified by the committed test."
+  },
+  {
+   "arc": "B623_reciprocity_progress",
+   "source": "main",
+   "files_read": [
+    "frontier/B623_reciprocity_progress/FINDINGS.md",
+    "frontier/B623_reciprocity_progress/arc_verdict.json",
+    "frontier/B623_reciprocity_progress/reduction_check.py",
+    "frontier/B623_reciprocity_progress/step2_conductor.py",
+    "frontier/B623_reciprocity_progress/step3_reciprocity.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The Weyl-Weil reciprocity reduction is proved (96/96) and the conductor identity det(h_w) = sign(w)det(A tensor w - I) derived; odd-kappa reciprocity stays open.\"",
+   "log_says": "B623 banked (reduction PROVED; conductor identity DERIVED); PC26 scope corrected; each Weyl-Weil term = a quadratic Gauss sum (96/96 exact) and det(h_w)=sign(w)det(A tensor w - I4) (12/12 exact); the odd-kappa Deloup-Turaev step is the sharply-scoped residual. Later corrected by B625 (supersedes field set).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the Weyl-Weil term = quadratic Gauss sum identity, claimed verified '96/96 exact, kappa=5..12 x 12 terms', and det(h_w)=sign(w)det(A⊗w-I4) claimed '12/12, exact rational arithmetic'",
+     "where": "frontier/B623_reciprocity_progress/reduction_check.py, step2_conductor.py, step3_reciprocity.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "no output.txt is committed for this arc; the '96/96' and '12/12' exact-match counts quoted in FINDINGS have no committed run log, and a real bug in the coset enumeration used here was later found and fixed by B625 -- meaning the FINDINGS numbers as banked may reflect the pre-fix, buggy code"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory, no output.txt; B625 (in this same batch) independently re-derives the reciprocity criterion and explicitly reports finding and fixing 'a float-label bug in the B623 coset enumeration'"
+   ,
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "No output.txt for the claimed 96/96 and 12/12 exact-match counts; compounded by the fact that B625 (in the same directory tree, banked the same day) found and fixed a real bug in B623's own coset enumeration script, which spuriously failed valid terms -- raising the question of whether the 96/96 count reported here was computed with the same buggy code.",
+     "where": "frontier/B623_reciprocity_progress/ (no .txt); frontier/B625_reciprocity_3k/FINDINGS.md ('A genuine float-label bug in the B623 coset enumeration was found and FIXED')"
+    },
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "The PROGRESS_LOG entry for B623 does not mention that its own coset-enumeration code contained a bug later fixed by B625 the same day; the bug is disclosed in B625's FINDINGS but not retroactively flagged in B623's own FINDINGS.md (arc_verdict.json marks superseded_by: null even though B625's FINDINGS explicitly frames itself as correcting B623's mis-framing and fixing B623's bug).",
+     "where": "frontier/B623_reciprocity_progress/arc_verdict.json (superseded_by: null) vs frontier/B625_reciprocity_3k/arc_verdict.json (supersedes: B623)"
+    }
+   ],
+   "seat_note": "B625's own verdict.json correctly sets supersedes:B623, so the correction IS propagated at the metadata level, but B623's own FINDINGS.md and verdict remain unedited (superseded_by:null) -- a reader landing only on B623 would not know its coset-enumeration bug was found and fixed one arc later."
+  },
+  {
+   "arc": "B624_observable_bridge",
+   "source": "main",
+   "files_read": [
+    "frontier/B624_observable_bridge/FINDINGS.md",
+    "frontier/B624_observable_bridge/arc_verdict.json",
+    "frontier/B624_observable_bridge/step1_identity.py",
+    "frontier/B624_observable_bridge/step2_weil.py",
+    "frontier/B624_observable_bridge/step3_decompose.py",
+    "frontier/B624_observable_bridge/step4_individual.py",
+    "frontier/B624_observable_bridge/step5_full_table.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The odd hearing trace is the same twelve-term Weil coset Gauss assembly, reconciling the 4|kappa and 12|kappa gates with zero exceptions at kappa=4..24.\"",
+   "log_says": "campaign round 2: B624 (the observable bridge, CLOSED): the odd hearing trace = the Weil twelve-term assembly with Cm itself one of the twelve elements; two reflection copies align exactly at 12|kappa (6/6; in-loop spot check kappa=4).",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "the identity trace(B_odd) = -(omega^-1/12)*sum(...) claimed verified '6/6 with full twelve-term tables', '0 exceptions at kappa=4..24 intersect 4Z'",
+     "where": "frontier/B624_observable_bridge/step1_identity.py through step5_full_table.py (no output.txt)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "no committed .txt/.json result file for any of the 5 step scripts; FINDINGS itself flags the sweep as only partially run ('the kappa=28..40 generality sweep was resource-killed and is NOT claimed') while the log entry describes the reconciliation as simply CLOSED without that caveat"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory, no output.txt for any of the 5 step scripts"
+   ,
+   "absence_claims": [
+    {
+     "quote": "Residual noted by the seat: the kappa = 28..40 generality sweep was resource-killed and is NOT claimed.",
+     "where": "frontier/B624_observable_bridge/FINDINGS.md"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "None of the 5 step_*.py scripts have a committed output.txt; the '0 exceptions at kappa=4..24' and '6/6' claims cannot be checked against a committed run record, only by re-executing the scripts.",
+     "where": "frontier/B624_observable_bridge/ (5 .py files, no .txt)"
+    },
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "PROGRESS_LOG describes B624 as CLOSED ('B618<->B621 reconciled') without repeating the FINDINGS' own caveat that the kappa=28..40 generality sweep was resource-killed and not claimed -- the log states the reconciliation more completely than the arc's own findings support.",
+     "where": "log_index/B624.txt (campaign round 2 entry) vs frontier/B624_observable_bridge/FINDINGS.md"
+    }
+   ],
+   "seat_note": "The FINDINGS text is appropriately hedged (0 exceptions in the tested range, generality sweep abandoned for resource reasons), but the absence of any committed output file for a claim resting on '0 exceptions at kappa=4..24' is a real reproducibility gap, and the progress-log summary drops the caveat entirely."
+  },
+  {
+   "arc": "B625_reciprocity_3k",
+   "source": "main",
+   "files_read": [
+    "frontier/B625_reciprocity_3k/FINDINGS.md",
+    "frontier/B625_reciprocity_3k/arc_verdict.json",
+    "frontier/B625_reciprocity_3k/step4_diagnosis.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The Deloup-Turaev evaluation matches exactly iff 3|kappa (48/48 versus 0/96), correcting B623's parity framing and fixing a real coset-enumeration bug.\" supersedes: B623.",
+   "log_says": "campaign round 2: B625 (SHARPENED): the reciprocity criterion is 3|kappa, not parity (48/48 in, 0/96 out); a float-label bug in B623's coset enumeration found and FIXED; a later review (R21-1, not in this batch) reports the 3|kappa boundary itself was a presentation artifact and the unconditional form holds for every kappa.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the corrected reciprocity criterion (3|kappa, not parity), claimed '48/48 exact at 3|kappa (kappa=3..21, worst deviation 1.8e-9), 0/96 elsewhere'",
+     "where": "frontier/B625_reciprocity_3k/step4_diagnosis.py (no output.txt)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "single script, no committed output.txt; the specific match counts (48/48, 0/96) and worst-deviation figure cannot be checked without re-running step4_diagnosis.py"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory, no output.txt; this arc functions as its own belt for B623 (found and fixed B623's bug) but has no belt of its own"
+   ,
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "No committed run output for the 48/48 in / 0/96 out claim, only step4_diagnosis.py source.",
+     "where": "frontier/B625_reciprocity_3k/ (1 .py file, no .txt)"
+    }
+   ],
+   "seat_note": "Good practice on the meta level (found and fixed a real bug in a sibling arc, correctly credited via supersedes:B623), but this arc's own headline numbers are equally unwitnessed by a committed run log, so the correction cannot itself be independently checked from committed artifacts alone."
+  },
+  {
+   "arc": "B626_jacobian_reality",
+   "source": "main",
+   "files_read": [
+    "frontier/B626_jacobian_reality/FINDINGS.md",
+    "frontier/B626_jacobian_reality/arc_verdict.json",
+    "frontier/B626_jacobian_reality/compute_table.py",
+    "frontier/B626_jacobian_reality/full_solve.py",
+    "frontier/B626_jacobian_reality/full_solve2.py",
+    "frontier/B626_jacobian_reality/numeric.py",
+    "frontier/B626_jacobian_reality/out_RLRL.txt",
+    "frontier/B626_jacobian_reality/run_batch.py",
+    "frontier/B626_jacobian_reality/search.py",
+    "frontier/B626_jacobian_reality/solve_fixed.py",
+    "frontier/B626_jacobian_reality/tracemap.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The adjoint Jacobian J = mu + 1/mu is real exactly for the amphichiral words and complex for the chiral ones; the naive crossover laws are refuted.\"",
+   "log_says": "campaign round 2: B626 (ANSWERED-AS-STRUCTURE): the crossover dissolves — J = mu+1/mu is REAL exactly for amphichiral words (the pairing-chirality law's 4th appearance); naive t-laws refuted on 8 words; the discrete-branch identification per word is the follow-on.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "J values for 8 weld words (RL=5, RRLL=18, RLRL=9&23, RRRLLL=-5, RRL, RRRL, RRLLL complex/unidentified) and the reality-vs-chirality correlation",
+     "where": "frontier/B626_jacobian_reality/out_RLRL.txt (partial, RLRL only) plus 9 .py scripts (full_solve.py, full_solve2.py, solve_fixed.py, search.py, tracemap.py, run_batch.py, numeric.py, compute_table.py -- no output committed for these)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "only one word (RLRL) has a committed output file, and even that shows 2 'J=None' entries alongside the 4/8 solutions actually reported as 9 and 23 in FINDINGS -- the other 6 words' J-values (5, 18, -5, and the complex RRL/RRRL/RRLLL values) are quoted in FINDINGS with no committed witness at all; the presence of multiple near-duplicate scripts (full_solve.py/full_solve2.py/solve_fixed.py/search.py) itself suggests iterative debugging without a final canonical run being saved"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; FINDINGS itself discloses 'Several branches remain numerically unidentified (honestly listed by the seat)'"
+   ,
+   "absence_claims": [
+    {
+     "quote": "WHICH branch is its discrete rep is unresolved, so no sign claim",
+     "where": "frontier/B626_jacobian_reality/FINDINGS.md (Consequences registered)"
+    },
+    {
+     "quote": "Several branches remain numerically unidentified (honestly listed by the seat); the discrete-branch identification per word is the follow-on.",
+     "where": "frontier/B626_jacobian_reality/FINDINGS.md"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "Of 8 claimed J-values (RL=5, RRLL=18, RLRL=9/23, RRRLLL=-5, plus 3 complex chiral values), only RLRL has any committed output (out_RLRL.txt), and that file itself shows 2 of 8 branch-solves failing ('J=None'). The other 7 headline numbers quoted in FINDINGS.md have no committed run witness at all, only the multiple solver scripts.",
+     "where": "frontier/B626_jacobian_reality/ (10 .py files, 1 partial .txt)"
+    }
+   ],
+   "seat_note": "This is the thinnest evidentiary arc in the batch besides B627: a real headline number (RL=5, RRLL=18) is asserted as a 'calibration point... reproduced exactly from first principles' but no committed output demonstrates that reproduction, and the multiplicity of solver script variants (full_solve/full_solve2/solve_fixed/search) signals an unresolved debugging trail rather than a clean final run."
+  },
+  {
+   "arc": "B627_silver_heldout",
+   "source": "main",
+   "files_read": [
+    "frontier/B627_silver_heldout/SEALED_SILVER_TORSIONS.md",
+    "frontier/B627_silver_heldout/cellF_full_result.md",
+    "frontier/B627_silver_heldout/m7_line.txt",
+    "frontier/B627_silver_heldout/m8_line.txt",
+    "frontier/B627_silver_heldout/run_m136_six.py"
+   ],
+   "files_sampled": [
+    "frontier/B627_silver_heldout/pipeline.py (first 120 lines + grep for def/assert/print/mpmath/==)"
+   ],
+   "files_listed_only": [
+    "frontier/B627_silver_heldout/fig8_calib_results.pkl",
+    "frontier/B627_silver_heldout/m136_six_results.pkl"
+   ],
+   "claim_of_record": "no verdict file (no arc_verdict.json in this arc)",
+   "log_says": "B627: THE HELD-OUT VALUES SEALED (the director's hash-first order executed) — Cell F delivered the silver six-exponent exterior family, calibration 6/6 EXACT against B581's banked fig-8 values via an INDEPENDENT presentation and code; a real mid-run bug found+fixed honestly; m=1 cross-method-matches B622's -16. Later reviews (R21-2, not in this batch) report the m=11 digits were input-precision noise, resolved.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the six silver-bundle exterior torsion values (m=1: -16, m=4: +11682800640, m=5: -1357126041600000 exact integers; m=7,8,11: 50+ digit complex numerics, unidentified in closed form)",
+     "where": "frontier/B627_silver_heldout/SEALED_SILVER_TORSIONS.md, frontier/B627_silver_heldout/cellF_full_result.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "cellF_full_result.md's own 'Deliverables' section states explicitly that the primary run logs and driving pipeline live in a SCRATCHPAD PATH ('/private/tmp/.../scratchpad/cellF/...'), not committed to the repo ('repo is read-only per task instructions... nothing was committed'); only m7_line.txt and m8_line.txt (2 of 6 exponents) are committed as raw witness text in this arc directory, and even pipeline.py here is a copy, not the exact run script (run_m136_six.py references 'pipeline' but the m=1,4,5,11 committed evidence is only the prose table in cellF_full_result.md, not a run log)"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; the fig-8 calibration (independently-derived presentation reproducing B581's 6 values) functions as an internal cross-check but its own run log is likewise not committed to the repo per the same disclosure"
+   ,
+   "absence_claims": [
+    {
+     "quote": "exact closed-form identification (PSLQ against {1,x1,x1^2,x1^3} and against {1,sqrt5} bases) did NOT succeed within budget",
+     "where": "frontier/B627_silver_heldout/cellF_full_result.md (VERDICT paragraph)"
+    },
+    {
+     "quote": "No independent second METHOD (analogous to B622's Porti/Tran-Yamaguchi check for m=1) was run for m=4,5,7,8,11",
+     "where": "frontier/B627_silver_heldout/cellF_full_result.md (caveats section)"
+    },
+    {
+     "quote": "this work is exploratory/frontier-style computation done in the scratchpad per the task's own repo-read-only instruction — nothing was committed, no FINDINGS.md was written in the repo, and no banking/CLAIMS.md action was taken",
+     "where": "frontier/B627_silver_heldout/cellF_full_result.md (Deliverables section)"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "cellF_full_result.md explicitly states the pipeline's actual run logs (m136_six_run.log, fig8 calibration logs) and driving scripts live only in a scratchpad path outside the repo, never committed; the arc directory as it stands has FINDINGS-style prose (SEALED_SILVER_TORSIONS.md, cellF_full_result.md) reporting exact numeric results for m=1,4,5,11 with no committed machine-readable witness for those four exponents (only m=7 and m=8 have committed .txt lines, and those are the UNIDENTIFIED complex values, not the clean integer ones a reader would most want to check).",
+     "where": "frontier/B627_silver_heldout/cellF_full_result.md (Deliverables); directory listing (no m1/m4/m5/m11 .txt)"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "has_findings/has_verdict are both false for this arc (no FINDINGS.md, no arc_verdict.json) yet the campaign's progress log and sibling arc B628 treat B627's values as sealed and banked facts used in a downstream SM comparison — a genuinely load-bearing numeric input (the silver torsion family used by B628's XG3/XG4 grids) rests on markdown prose plus 2 partial .txt lines and 2 binary pickles, not on a reproducible committed script+log pair.",
+     "where": "frontier/B627_silver_heldout/ (no arc_verdict.json); frontier/B628_exterior_comparison/b628_run.py (hardcodes the TAU dict from B627's values)"
+    }
+   ],
+   "seat_note": "This is the weakest-evidenced arc in the batch: the headline exact integers (-16, +11682800640, -1357126041600000) that feed directly into B628's downstream SM-silent comparison are reported only in prose tables, with the actual computation's run logs disclosed as living outside the repo in a scratchpad -- a stranger with only the committed files cannot reproduce these numbers, only re-run pipeline.py themselves and hope it reproduces the same pipeline that generated the scratchpad logs."
+  },
+  {
+   "arc": "B628_exterior_comparison",
+   "source": "main",
+   "files_read": [
+    "frontier/B628_exterior_comparison/COMPARISON_DESIGN.md",
+    "frontier/B628_exterior_comparison/b628_run.py",
+    "frontier/B628_exterior_comparison/run_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (no arc_verdict.json in this arc)",
+   "log_says": "B628 run: the exterior families are SM-SILENT on both objects; REVIEW 19 COMPLETED — the queue is drained. The sealed exterior comparison (design #1002, hash-verified in-run): XG3 zero matches both tiers; XG4 one chance-compatible hit (expected 0.60) — mirroring the fig-8 exactly.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "XG3 (15 silver torsion-ratio pairs x 6 mass targets): 0 matches both tiers; XG4 (same ratios x hierarchy): 1 chance-compatible hit",
+     "where": "frontier/B628_exterior_comparison/b628_run.py + run_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the comparison script itself is fully committed and reproducible (design hash asserted, output matches FINDINGS), but its TAU dict is hardcoded from B627's values"
+    },
+    {
+     "what": "the underlying silver torsion values (TAU dict) that feed the comparison",
+     "where": "frontier/B628_exterior_comparison/b628_run.py (TAU = {1:16.0, 4:11682800640.0, ...})",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "imported verbatim from B627, whose own values are not independently reproducible from B627's committed files (see B627's MISSING_WITNESS/GITIGNORED_WITNESS flags) -- so B628's comparison, while itself mechanically reproducible, ultimately rests on an unwitnessed upstream input"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; the design's own hash-verification is a self-integrity check, not an independent belt"
+   ,
+   "absence_claims": [],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The comparison itself is well-run and honestly reported (null-compatible outcome accepted rather than searched-around), but it inherits B627's unwitnessed torsion values (TAU dict hardcoded, not recomputed) -- a downstream OBSERVABLE arc built on a load-bearing upstream number with no reproducible source.",
+     "where": "frontier/B628_exterior_comparison/b628_run.py TAU dict, sourced from frontier/B627_silver_heldout"
+    }
+   ],
+   "seat_note": "The comparison design and execution are exemplary (sealed hash, full table, honest null-compatible reading matching the fig-8's own pattern), but the whole arc is only as trustworthy as B627's unwitnessed torsion numbers it hardcodes in as TAU."
+  }
+ ]
+}
