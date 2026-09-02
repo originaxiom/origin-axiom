@@ -118,7 +118,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#158 B262_t41_theory** (NDINGS.md:9 (also t41_theory.py:724-726)): B488/B489 later claim T[A_m]=U(1)^(2m-1) 'verified for m=1..8' (DGG-abelian) — whether computed or asserted there is what R36 could not tell; H1 laws verified
 - **#894 B1025_input_derivability** (FINDINGS.md, meta-deliverable): contradicted on an unmerged head: B1030_input_typing_audit (origin/claude/new-session-qor5up) finds ONE continuous dimensionless input remains (A2 = c = 6σ); on main B1025's 'none remains' stands uncorrected
 - **#908 B1030_input_typing_audit** (FINDINGS.md section 2): B1030 lives on origin/claude/new-session-qor5up; on main B1025's 'zero' stands (as #894)
-- **#1207 B1162_mssm_debt_closure** (r/B1162_mssm_debt_closure/FINDINGS.md:54): check_charge_bracket.py exists on origin/codex/seat-r001 (certificates/r006_e6_invariants/paper/verify/) and origin/paper/structure-genesis-first (papers/structure_paper/verify/); the "deeper stack" is on two heads, so the breaking_chains/susy_test re-run is now possible and was not done
+- **#1207 B1162_mssm_debt_closure** (r/B1162_mssm_debt_closure/FINDINGS.md:54): check_charge_bracket.py exists on origin/codex/seat-r001 and the structure-genesis head; the seat re-ran cloud breaking_chains.py and susy_test.py on this bench (R47): both pass; B1162 D3/D5 stay cited-on-main, verified-here
 
 ## STANDS (16)
 

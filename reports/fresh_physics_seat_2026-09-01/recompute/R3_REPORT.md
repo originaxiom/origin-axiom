@@ -484,7 +484,7 @@ re-swept over all 7 remote heads and the deleted-file history
   permute/A result. Verdict on B1127 unchanged: MATCH; the compact-referenced alternative does not rescue
   a compact colour from the mirror.
 
-Numbering note: cells are R01–R45; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
+Numbering note: cells are R01–R47; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
 
 ## DATED CLOSURES (2026-09-01, evening) — Phase B reader flags turned into cells
 
@@ -544,3 +544,5 @@ Numbering note: cells are R01–R45; `R26_b1080_b1011` and `R30_m004_symmetry_gr
 - **ASSERTED/IMPORTED tool-checkable batch 1 (B3, B211, B212, B257/B321/B486, B316, B336, B338, B401, B485, B488/B489/B1079/B8086, B689/B698, B735, B980, B1083, B1104, B1114/B1200, B1232) — CLOSED, 16 MATCH / 1 not checkable** by `R43_asserted_batch/`; one transcription slip: Vol(4₁)'s quoted 28th–29th digits. 2026-09-02.
 - **Lie-theory batch (B266, B304, B549, B576/B582, B687, B950–B953, B964) — CLOSED, 11 MATCH** by `R44_lie_batch/` (root systems from Cartan matrices; B549's list is the E7 Perron eigenvector). 2026-09-02.
 - **Arithmetic batch (B554 class numbers, B407, B92 addendum, B1067 unit/regulator) — CLOSED, all MATCH** by `R45_misc_arithmetic/`. 2026-09-02.
+- **codex certificates r019 (hypercharge, universal ratio theorem) and r017 (up-Yukawa rank 0) — REPRODUCE on this bench** by `R46_codex_certificates/` (more rows landing). 2026-09-02.
+- **outside-bench certificates (14: breaking_chains, susy_test, anomaly_payment, b2/family/texture/carrier/clock Yukawa, carrier, dark_carrier, three parity lemmas, principal_witnesses) — ALL RUN AND PASS here** by `R47_outside_bench_certificates/`; the up-Yukawa 'allowed kinematically vs forbidden by dressing' pair recorded as a mechanism disagreement. 2026-09-02.
