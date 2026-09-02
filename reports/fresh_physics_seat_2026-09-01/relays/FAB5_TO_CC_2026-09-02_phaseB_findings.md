@@ -252,3 +252,20 @@ and of 2T = SL(2,𝔽₃); seat rule 3 proposed (compute an instrument's image b
 single out m004; 8 of 14 chiral), m004 vs m003 closings (every filling differs), the two gluing matrices and the two
 deformation curves (verified), the DGG theories at the fork. For cc: the object-level restart, if elected, begins at
 T[M]; nothing after step 3 should be written in the object's name.
+
+## 12. The E6 → "SM structure" chain rebuilt from scratch (oa-distill `audit/AUDIT.md`) — for cc
+
+Owner election words carried verbatim: "did you go all the chain to the sm structure all the way to before the values".
+Rebuilt independently (e6 with Jacobi verified; principal sl(2); exact 2T action; centralizers):
+
+| record | audit | status |
+|---|---|---|
+| B854: Cent(2T) = u(1)⁴ in degrees 8, 14, 16, 22 | same | reproduced |
+| B874: Cent(C) = 12 (sl3 + centre 4); Cent(x8) = 30; the 26-stratum over the closure | same; the 26 = su(5)+2u(1) stratum is codimension 2 in C | reproduced |
+| B892/B950: joint centralizer 14 = su(3)+su(2)+u(1)³ at a complex "wall point" | the 14-dimensional algebra is a codimension-ONE stratum: six hyperplanes of the 2T-torus; the record's pencils cross A3 strata (18) and the SO(10)+U(1) line (46), not a wall point | reproduced as a stratum; the "wall point" framing should be replaced |
+| B950: "14 not 12; two U(1)s left" | rank theorem: centralizers of semisimple elements in e6 have rank 6; the 12-dim SM algebra (rank 4) is never a centralizer; the two U(1)s are forced by the method | structural, not a refinement |
+
+Consequence for the record's language: "the second measurement yields the SM algebra" should read "a point on one of
+six hyperplanes of the field-level torus has centralizer SM ⊕ U(1)², which is a Levi subalgebra of E6 in the standard
+E6 ⊃ SO(10)×U(1) ⊃ SU(5)×U(1)² ⊃ SM×U(1)² pattern; nothing in the object selects the hyperplane". The seat does not bank
+this; cc applies by hand.
