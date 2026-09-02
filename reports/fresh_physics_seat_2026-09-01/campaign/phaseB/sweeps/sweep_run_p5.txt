@@ -1,3 +1,5 @@
 1550/690  leads so far 10
 1600/690  leads so far 42
 1625/690  leads so far 60
+1650/690  leads so far 78
+1675/690  leads so far 89

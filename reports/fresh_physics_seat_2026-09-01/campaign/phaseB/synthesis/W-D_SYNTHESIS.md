@@ -26,7 +26,7 @@ Final coverage: see `coverage.md` (<!--COV-->
 ## 2. The log versus the arcs — verified contradictions
 
 The readers classified every arc's `log_consistency` against the progress-log entries that mention it
-(`log_discrepancies.md`; at 1219 of 1310 arcs digested: 80 DRIFT + 23 CONTRADICTION, 323 not in the log — refreshed at the final rollup).
+(`log_discrepancies.md`; final rollup, 1310 of 1310 arcs digested: 83 DRIFT + 25 CONTRADICTION, 369 not in the log, 833 consistent).
 The seat verified the three sharpest at the source:
 
 | arc | what the arc's record of claim says | what the log says | verified where |
@@ -36,8 +36,8 @@ The seat verified the three sharpest at the source:
 | **B892_second_measurement** | FINDINGS now opens with a B950 correction banner (su(3)⊕su(2)⊕u(1)³ is 14-dimensional, the SM gauge algebra is 12; "overstates by two abelian factors") | log entries B950/B951 deflate further: the landing is the classified A2+A1 Levi subalgebra of e6 (Borel–de Siebenthal/Dynkin), not a discovery | FINDINGS banner **[verified]**; `arc_verdict.json` still reads "z(x1,y*) = su(3)+su(2)+u(1)^3 EXACTLY: two measurements of the object's own charges take E6 to the SM algebra, skipping SU(5)", status PROVED, `superseded_by: null` **[verified]** |
 
 The pattern the readers name most often is the same one: **the correction lives in a later arc or in the
-log, and the earlier arc's verdict file is never touched** (`SUPERSEDED_UNMARKED` 48, `RETRACTION_NOT_PROPAGATED`
-25, `LOG_DRIFT` 24 of 1430 flags at this draft). A stranger who reads `arc_verdict.json` files, which is what
+log, and the earlier arc's verdict file is never touched** (`SUPERSEDED_UNMARKED` 128, `RETRACTION_NOT_PROPAGATED`
+61, `LOG_DRIFT` 58 of 2494 flags at the final rollup). A stranger who reads `arc_verdict.json` files, which is what
 the project's own gates and the paper spine consume, inherits the uncorrected claim. This is a finding about
 the *record*, not about the mathematics: in every verified case the computation the arc performed is not
 disputed; the sentence built on it is.
@@ -150,6 +150,8 @@ arcs digested 1310/1310, red flags 2494, absence claims 1535, load-bearing claim
 - B760_qp4_closure: 3
 - B768_correspondence_crosstest: 3
 <!--/KINDS-->
+
+
 
 
 
