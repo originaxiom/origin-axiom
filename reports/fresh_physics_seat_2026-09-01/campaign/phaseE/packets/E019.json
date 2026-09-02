@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B675_hcusp_sweep",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B675_hcusp_sweep",
+  "flags": [
+   {
+    "i": 578,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The whole H-CUSP framework rests on a dimension/field-type coincidence test (does a cusp field 'fit inside' a stage's commutant field) as the criterion for 'the stage hosts the object' \u2014 a type/field match is being used as the substantive physical claim ('SU(4)_1 IS the silver's stage')."
+   }
+  ]
+ },
+ {
+  "arc": "B677_morning_packet",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B677_morning_packet",
+  "flags": [
+   {
+    "i": 583,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "GENERATION_LEG_PLAN_CC2.md explicitly flags its own risk here: 'the targets' leading powers q^{2/5}, q^{3/5} are the (2,5)-model weights, an encouraging consistency, stated as such and nothing more' \u2014 a weight/exponent coincidence used as motivating evidence for the tube-algebra candidate route (which then failed, so the flagged risk did not mislead the verdict, but the pattern recurs across the corpus)."
+   }
+  ]
+ },
+ {
+  "arc": "B681_habiro_pretest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B681_habiro_pretest",
+  "flags": [
+   {
+    "i": 588,
+    "kind": "FITTED_VALUE",
+    "detail": "The banked 'targets' (n=1,10,40,80,119 -> 1,12,49,99,146) are asserted as given constants from elsewhere ('the banked targets') rather than derived within this arc; the pretest checks a decomposition of numbers whose provenance is not shown in this arc's files."
+   }
+  ]
+ },
+ {
+  "arc": "B685_generation_terminal",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B685_generation_terminal",
+  "flags": [
+   {
+    "i": 595,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The banked NEGATIVE ('terminal no-go theorem') rested on a lock later confirmed 'genuinely vacuous... unfailable' (B828, 2026-07-30); the underlying theorem (3-integrality) is still described as 'the named remaining theorem' a month later (B1187, 2026-08-28)."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b685_terminal.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2313,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_gswz_powers_of_three does not recompute anything itself; it asserts a sibling test file exists and names a function, guarding a replacement that lives elsewhere"
+   }
+  ]
+ },
+ {
+  "arc": "B687_sm_atlas_koide",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B687_sm_atlas_koide",
+  "flags": [
+   {
+    "i": 599,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "h(27)=2/3 (an E6 conformal weight) matching Koide's Q=2/3 is a bare numeric/type coincidence; the arc itself calls this 'a coincidence until a derivation FORCES the identity' and explicitly does not bank it, which is the correct call but the underlying temptation is exactly the type-coincidence pattern."
+   }
+  ]
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B154_silver_bundle_foundation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B154_silver_bundle_foundation",
+  "flags": [
+   {
+    "i": 113,
+    "kind": "FITTED_VALUE",
+    "detail": "The closed-form k=4-m(o-3) was an empirical fit to only 2 values of m and 2 of o (a 2x2 grid), explicitly under-determined, and indeed failed once a third m was tried."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B154: the metallic meridian and the order-based degree=rank ",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1508,
+    "kind": "FITTED_VALUE",
+    "detail": "k=4\u2212m(o\u22123) is a 'closed-form fit' on only six accessible data points; the same entry says the o=4/SL(4) corner 'admits no irreducibles' and that 'a genuine derivation of k=4\u2212m(o\u22123) is OPEN' \u2014 this fit is REFUTED two entries later (B157)"
+   }
+  ]
+ },
+ {
+  "arc": "B155_golden_phase_bridge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B155_golden_phase_bridge",
+  "flags": [
+   {
+    "i": 114,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc explicitly and correctly firewalls the temptation this flags: signature (1,3) is flagged in the arc's own 'Firewall' section as 'algebraic inertia of a symmetric bilinear form ... NOT spacetime, NOT a Lorentzian metric, NOT time' -- a genuinely careful self-caution rather than an actual overreach, but noted here because signature-(1,3) numerology recurs heavily in the downstream program (B746 'golden ledger') and is exactly the kind of dimension-coincidence this seat is asked to flag on sight."
+   }
+  ]
+ },
+ {
+  "arc": "B156_omega_strict_full_cone",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B156_omega_strict_full_cone",
+  "flags": [
+   {
+    "i": 115,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "arc_verdict.json's creates_law_reviewed field (dated 2026-08-29, arc B1214) records that this arc was later re-classified from 'was: ABSENT' to a formal decision that it does NOT create a new law/proposition ('the law, if any, belongs to the source') because it is fundamentally a VERIFICATION of imported handoff material, not a novel derivation -- notably, the review basis states this arc (unlike 13 others that passed) was NOT read in full before that classification, an asymmetry the review itself discloses."
+   },
+   {
+    "i": 116,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The signature (1,3) recurs here (as in B155) as a candidate physics-suggestive numerology (paired with an explicit, correct firewall that it is bilinear-form inertia, not spacetime) and the arc explicitly flags its own risk that a stronger unification reading ('Omega IS the trace-map tower') is false as a mechanism -- a self-correction worth noting given how heavily downstream arcs (B158, B159, B746) lean on the Omega/B155 object as a canonical seed."
+   }
+  ]
+ },
+ {
+  "arc": "B159_omega_class_dag",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B159_omega_class_dag",
+  "flags": [
+   {
+    "i": 121,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the claim that L8-L10 class structure 'rests on verified ground' is a step beyond what PART 2 actually recomputes (L4-L7 only); L8-L10 classes are verified only via the imported CSV's internal conservation checks (PART 1), not an independent recount"
+   }
+  ]
+ },
+ {
+  "arc": "B167_conserved_no_scale_lemma",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B167_conserved_no_scale_lemma",
+  "flags": [
+   {
+    "i": 126,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the arc's headline lemma ('conserved => no internal scale') and its five-door exhaustiveness taxonomy are POSTULATED physical/logical arguments, explicitly labeled as such in FINDINGS.md, yet arc_verdict.json's claim_one_line states the conclusion as flat fact ('cannot source an internal scale ... leaves no internal door') without carrying the POSTULATED qualifier forward; later log entries (2026-08-26) cite B167 as part of a 'CONFIRMED' scale wall, which risks readers treating a stated-not-proved argument as an established result"
+   }
+  ]
+ }
+]

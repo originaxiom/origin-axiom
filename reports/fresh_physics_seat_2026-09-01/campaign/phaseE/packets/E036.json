@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B1097_first_step_losses",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1097_first_step_losses",
+  "flags": [
+   {
+    "i": 1107,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "JOIN ONE's dramatic framing ('a registered falsifiable prediction, confirmed blind') is a narrative built by composing two other arcs (an unnamed source arc's stated prediction, and B1095's computation); this arc's own lock only checks a small toy version (N up to 55), not the actual prediction-confirming numbers."
+   }
+  ]
+ },
+ {
+  "arc": "B1098_nonabelian_hatch",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1098_nonabelian_hatch",
+  "flags": [
+   {
+    "i": 1109,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the 2A1 exclusion argument concedes it cannot distinguish type b3 from its dual c3 for one row using dim+rank+simplicity alone, and instead argues the exclusion holds under either reading -- an honestly-flagged type-identification gap, not hidden, but a real instance of the type-vs-value licensing pattern this seat is asked to watch for."
+   }
+  ]
+ },
+ {
+  "arc": "B1102_exact_hypercharge_solve",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1102_exact_hypercharge_solve",
+  "flags": [
+   {
+    "i": 1111,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the target 6Y multiset being matched is itself a prior integer assignment (B950's banked hypercharge values), not a first-principles derivation nor a measured value -- the exercise proves an existence/uniqueness fact about matching a pre-chosen target inside the Cartan, which is a legitimate structural result but should not be read as 'hypercharge is derived from nothing'; the arc itself is careful to say 'Gate 5 untouched' (no measured value), so this is a licensed use, correctly disclosed, not a hidden overclaim."
+   }
+  ]
+ },
+ {
+  "arc": "B1110_spectral_cluster",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1110_spectral_cluster",
+  "flags": [
+   {
+    "i": 1117,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "arc_verdict.json's claim_one_line asserts F6 was 'RE-VERIFIED IN EXACT ARITHMETIC (convergent error ~1e-91)' -- a specific numeric precision figure with no source."
+   }
+  ]
+ },
+ {
+  "arc": "B1124_allorders_arithmetic",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1124_allorders_arithmetic",
+  "flags": [
+   {
+    "i": 1131,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "b1124_results.json's own top-level 'verdict' field (from the pre-registered SUFFICIENT_DIGITS_GATE=17, all-windows metric) reads 'PRECISION-FLOOR' for C3 (only 14 trusted digits by that metric), yet arc_verdict.json and FINDINGS.md report the arc-level verdict as PROVED / EULER-STRUCTURE-EXTENDED, resting on a separate, non-pre-registered 'large-window-only' metric (27-36 digits) computed in a supplementary script after the primary run. This is disclosed in full in b1124_NOTES.md, but the top-of-file 'Status: banked... Verdict PROVED' does not carry that qualification forward with equal prominence."
+   }
+  ]
+ },
+ {
+  "arc": "B1126_identification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1126_identification",
+  "flags": [
+   {
+    "i": 1132,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The one near-coincidence considered (C1/C0 = 11pi/(36*sqrt3) vs sin(theta12) PMNS) is exactly the kind of bare-number match the seat's rule flags as licence-to-ask rather than evidence; the arc itself correctly applies this discipline and dismisses the match, so the flag here documents that the temptation existed and was resisted, not that it was accepted."
+   }
+  ]
+ }
+]

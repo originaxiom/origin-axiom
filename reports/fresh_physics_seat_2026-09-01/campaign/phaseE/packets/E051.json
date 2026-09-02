@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B8144_price_reconciliation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8144_price_reconciliation",
+  "flags": [
+   {
+    "i": 1355,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the proposed mechanism (archimedean vs finite-place cost tracks whether the relevant symmetry group has an orbit-breaking arithmetic subgroup) is offered as 'a theorem you already have' but is applied to time's arrow only as an untested template ('I have not run it -- it is your residue'); the VEV/F4(Z) identification rests on matching group types (F4 acting on frames) to a physical cost bit rather than an independent derivation of the physical cost itself."
+   }
+  ]
+ },
+ {
+  "arc": "B8154_mirror_is_c",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8154_mirror_is_c",
+  "flags": [
+   {
+    "i": 1366,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the physical 'orientation bit' the observer must supply (B1163/B1183/B1184's quine result) is identified with the algebraic Galois-conjugation bit on Q(sqrt-3) because both are order-2 group actions on the same field-theoretic data (m004's holonomy trace field); the arc's own SCOPE section is honest that 'no residue closed... the marking is still not derived', i.e. the identification of WHICH bit is physically selected is not established, only that the group acting is the same group."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B856: the hearing coupling obeys a PERIOD-5 law across the m",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1738,
+    "kind": "FITTED_VALUE",
+    "detail": "'Look-elsewhere: the 1-sigma window [0.2940,0.3200] contains AT LEAST 17 natural candidates' \u2014 the one distinguishing feature claimed is that 1/(2\u03c6) was computed not searched, but that quantity is later shown (B857) to be a double-count of an already-banked B641 result."
+   }
+  ]
+ },
+ {
+  "arc": "B89_sl4_symbolic_M4L",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B89_sl4_symbolic_M4L",
+  "flags": [
+   {
+    "i": 65,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "retro-authored verdict drawn purely from the arc's own FINDINGS.md"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b946_handoff6.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2441,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "most numeric claims (thinning primes, lambda_forced, Frobenius classes) come only from results.json"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b979_a7.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2461,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the 'load-bearing'/'fourth instance' verdict text is read only from results.json even though the underlying matrix algebra is recomputed"
+   }
+  ]
+ }
+]

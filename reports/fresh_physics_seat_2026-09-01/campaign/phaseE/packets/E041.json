@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b1167_seat_harvest.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2084,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "B1169_qualia_parity_synthesis",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1169_qualia_parity_synthesis",
+  "flags": [
+   {
+    "i": 1177,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The central move of the arc \u2014 'AWARENESS = mirror-even, object-canonical' and 'CHOICE = mirror-odd, observer-supplied' \u2014 is an identification between a philosophy-of-mind vocabulary (qualia, awareness, choice) and a mathematical parity classification (mirror-even/odd), justified only by the fact that both happen to partition into two categories; the arc's own fences section acknowledges this is 'a chain, not a proven identity' but the FINDINGS.md prose nonetheless presents 'the decidable naming' as an accomplished dictionary rather than a hypothesis."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1169_qualia_parity_synthesis.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2086,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce-runner check only greps the literal string 'REPRODUCES' inside a committed script/output file, not a live re-execution"
+   }
+  ]
+ },
+ {
+  "arc": "B1170_arena_rescope",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1170_arena_rescope",
+  "flags": [
+   {
+    "i": 1179,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md and reproduce.sh claim three legs 'verified on this bench'; the committed script executes only leg 1 (own-code enumeration). Legs 2 (cc3 lane re-run) and 3 (codex R019 byte-identical) are echoed text, not re-executed by anything in verification/."
+   }
+  ]
+ },
+ {
+  "arc": "B1171_seam_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1171_seam_harvest",
+  "flags": [
+   {
+    "i": 1180,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md states 'All five components verified on this bench before banking' and arc_verdict.json claims cloud memos 80/82 ran 'byte-identical on this bench,' but this arc's own reproduce.sh only checks file existence and greps for marker strings \u2014 it does not re-run memo 80/82, the CLPW spot-check, or any cc3/codex script."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1171_seam_harvest.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2088,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce-runner check only greps the literal string 'REPRODUCES' inside a committed script/output file, not a live re-execution"
+   }
+  ]
+ }
+]

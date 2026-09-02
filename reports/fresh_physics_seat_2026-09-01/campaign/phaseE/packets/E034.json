@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B1042_trit_morphism",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1042_trit_morphism",
+  "flags": [
+   {
+    "i": 1040,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The headline identification \u2014 'the trit's Z/3 IS omega's Z/3' \u2014 rests on both being labeled 'Z/3' before the functorial chain is built; the chain (character values landing in mu_3, McKay tensoring as diagram automorphism, factor permutation) is real group theory, but whether this constitutes physical identity of the VEV-acceptance orbit with the field's cube-root group, versus a structural analogy dressed as identity, is an interpretive leap the arc itself flags as needing 'the typed alternates PLACED' scope fences."
+   }
+  ]
+ },
+ {
+  "arc": "B1048_the_seam_cluster_closed",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1048_the_seam_cluster_closed",
+  "flags": [
+   {
+    "i": 1055,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The 'seam' quantity is identified with a specific cyclotomic/Galois-orbit number via a matching of numerical value (1.2170) to a computed conjugate root, with the physical meaning of 'seam' not established independently of this coincidence."
+   }
+  ]
+ },
+ {
+  "arc": "B1050_the_projective_wall",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1050_the_projective_wall",
+  "flags": [
+   {
+    "i": 1059,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The row is filed on LAW_MAP as a proved 'WALL' (impossibility of deriving the selector via naturality routes), but the underlying six arcs are all individually STALLED and the wall's scope is stated as 'six routes tried, not exhaustive' -- risk that a reader of LAW_MAP encounters WALL as stronger than 'six specific approaches failed'."
+   }
+  ]
+ },
+ {
+  "arc": "B1053_the_unread_handoffs",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1053_the_unread_handoffs",
+  "flags": [
+   {
+    "i": 1062,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "This is a self-audit arc discovering its own predecessor's gap (B1052 not reading handoffs it wrote alongside), raising a general concern about how reliably the consolidation seats read the material they cite before writing into it."
+   }
+  ]
+ },
+ {
+  "arc": "B1070_listener_derivation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1070_listener_derivation",
+  "flags": [
+   {
+    "i": 1081,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The arc's own text says it is 'EXPLORATION-GRADE ... nothing here is sealed' and names a three-step promotion path (seal, independent re-derivation, only then may a crossing prereg cite it) that had explicitly NOT happened yet when this document was written \u2014 yet arc_verdict.json already records verdict 'PROVED' for the derivation itself, before the sealing arc (B1071) ran."
+   }
+  ]
+ },
+ {
+  "arc": "B1078_gauge_selection",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1078_gauge_selection",
+  "flags": [
+   {
+    "i": 1095,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The 'value-grammar' criterion (structure primes in numerator, value prime in denominator) is itself defined by which prime type ends up where -- a type/pattern coincidence explicitly graded as 'not yet a selection theorem' by the arc's own honest grading, which is the correct call but the underlying mechanism-by-type observation is exactly the kind of identification this seat flags for scrutiny."
+   }
+  ]
+ }
+]

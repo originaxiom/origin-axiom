@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B1082_order_comparison",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1082_order_comparison",
+  "flags": [
+   {
+    "i": 1101,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The core comparison is a dimension-sequence match (78,46,30,18,12 vs GUT-breaking stage dimensions) -- exactly a type/dimension coincidence. The arc's own adversarial verifier demonstrated by direct bite-test that this 'no inversion' finding is substantially guaranteed by both sides' shared definitional structure (both are containment orders, hence tautologically monotonic), not independently discriminating evidence."
+   },
+   {
+    "i": 1102,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The adversarial verifier's literal verdict is HOLDS=False ('the mapping does not survive as typed'), yet arc_verdict.json bans this as verdict PROVED with a 'corrected grade' addressing only one of the two FAILED checks (model-dependence disclosure); the tautology critique (check iv) is left unaddressed in the banked FINDINGS.md text."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1089_matter_card.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2038,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_card_synthesis calls _v('B1089') to fetch and check its own arc's claim_one_line text, i.e. the lock partly reads the arc's own output as both the source and the thing being verified."
+   }
+  ]
+ },
+ {
+  "arc": "B1090_partition_bridge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1090_partition_bridge",
+  "flags": [
+   {
+    "i": 1104,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The headline observation ('the critical point of the object's own quantum-gravity partition function IS the programme's founding field generator') is precisely a value/type coincidence -- the saddle equation u^2+u+1=0 matching the omega that recurs throughout the corpus's foundational combinatorics. It is presented as 'new observation... exact on this bench' rather than flagged as the kind of numeric coincidence this seat is instructed to scrutinize, though the arithmetic itself (the saddle equation) is genuinely derived from AK's potential, not merely pattern-matched."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1091_observer_card.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2040,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_card_synthesis_and_campaign_state reads _v('B1091')['claim_one_line'] as the thing under test, i.e. the arc's own verdict text is both source and target."
+   }
+  ]
+ },
+ {
+  "arc": "B1094_two_route_wall",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1094_two_route_wall",
+  "flags": [
+   {
+    "i": 1105,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the arc directory contains zero computation of its own -- it is entirely a prose join of two prior arcs (B955, B1079) plus a bookkeeping test that only checks that JSON strings match. The 'PROVED' verdict rests wholly on citations to work performed elsewhere."
+   }
+  ]
+ },
+ {
+  "arc": "B1096_anomaly_layer",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1096_anomaly_layer",
+  "flags": [
+   {
+    "i": 1106,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the arc directory itself (frontier/B1096_anomaly_layer/) contains no code -- only FINDINGS.md and arc_verdict.json. The claimed re-derivation lives entirely in tests/test_b1096_anomaly_layer.py, which is real and does re-derive the table, but a reader following only the arc dir (as instructed) would see no computation at all; the FINDINGS text over-describes what the arc directory itself holds."
+   }
+  ]
+ }
+]

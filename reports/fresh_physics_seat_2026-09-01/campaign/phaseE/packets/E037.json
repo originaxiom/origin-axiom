@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b1126_identification.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2052,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "near-coincidence C1/C0 vs sin(theta12) explicitly examined and dismissed by the test itself, but the comparison methodology (ratio-to-SM-mixing-angle) is the same type-coincidence pattern flagged elsewhere"
+   }
+  ]
+ },
+ {
+  "arc": "B1129_natural_values_disjoint",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1129_natural_values_disjoint",
+  "flags": [
+   {
+    "i": 1135,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "det \u03c6 = 2/3 and Koide's Q = 2/3 land on the same bare rational; flagged honestly by the arc itself as a type/dimension-coincidence lure and dismissed for lack of instrument \u2014 a textbook case of what the seat is instructed to watch for, correctly self-caught here."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1129_naturalvalues.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2053,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Koide relation Q vs |det phi|=2/3 is a dimensionless-ratio numeric coincidence examined and dismissed by the test, but rests on the same bit-vs-value pattern"
+   }
+  ]
+ },
+ {
+  "arc": "B1130_twoended_tower",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1130_twoended_tower",
+  "flags": [
+   {
+    "i": 1136,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md/arc_verdict.json describe a N=70M, ~1-hour compute run establishing the precision floor for C4/C5, but the only committed results.json is a quick_mode:true run whose W6 grid tops out at N=1.5M and whose total runtime is 42.9 seconds; no checkpoint or larger output file exists in the repo to substantiate the larger claimed run. Independently confirmed by B1133's own NOTES.md 'Zeroth finding.'"
+   }
+  ]
+ },
+ {
+  "arc": "B1135_gauge_closing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1135_gauge_closing",
+  "flags": [
+   {
+    "i": 1140,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc itself flags: 'the slot -> physics assignment (which A2 is color vs EW room) is a FRAME CHOICE, not a computed fact' and 'su(2,1)-as-Higgs-doublet and 16-as-one-family are INTERPRETIVE readings, carried from the memo, not verified here.' These physical labelings ride on group-theoretic dimension coincidences (a 4-real-dim non-compact block read as 'a complex doublet', 27=16+10+1 cited not recomputed) rather than a derivation connecting the algebra to the specific SM particle content."
+   }
+  ]
+ },
+ {
+  "arc": "B1139_symmetry_point_table",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1139_symmetry_point_table",
+  "flags": [
+   {
+    "i": 1147,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "sin^2(theta_W)=3/8 matches the canonical GUT value only after an externally-supplied normalization convention (the /6 hypercharge scale) that the arc itself says is proved unforceable by B991; flagged here as a licence-to-ask case since the arc already types it honestly as a reproduction rather than a forcing -- worth cross-checking that downstream summaries preserve this typing."
+   }
+  ]
+ }
+]

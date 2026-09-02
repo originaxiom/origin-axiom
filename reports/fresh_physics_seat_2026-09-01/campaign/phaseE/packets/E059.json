@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "LOG:B982\u2013B987 \u2014 the grounding day: five governance arcs, one met",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1864,
+    "kind": "FITTED_VALUE",
+    "detail": "B986: 'A criterion that cannot fail is not a test' \u2014 the decisive test for the B500 reopen is vacuous since ~70% of random polynomials pass it"
+   }
+  ]
+ },
+ {
+  "arc": "B1232_codex_r031_verified_and_three_columns",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1232_codex_r031_verified_and_three_columns",
+  "flags": [
+   {
+    "i": 1258,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "self-diagnosed by the arc itself: 'I matched dim 4 with phi(12)=4 and inferred a module structure from two numbers agreeing -- that is the identification error B1231 exists to catch, committed inside the analysis that motivated the discipline.'"
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B142: (A) S031a principal RIGOROUS (Klein-4); (B) magic-mani",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1493,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The killed 'Borromean/SU(3) gauge enhancement' claim explicitly rested on a dimension match (Thurston SL(2,C) char-variety dim = #cusps = 3, wrongly equated to rank(SU(3))): 'SL(2,C) dim != rank(SU(3)) \u2014 SU(3) is SL(3,C) CS.' A textbook type-coincidence caught and killed."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:Session-3 integration: P11\u2013P13 promoted, probes B4\u2013B5 added",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1389,
+    "kind": "FITTED_VALUE",
+    "detail": "B5's Lambda estimate is off by ~10^120 from observation, recorded as a documented warning / dead-adjacent, not a fitted success."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:Review 43 \u2014 merges 1-24 from Review 42; the switch-verificat",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1999,
+    "kind": "FITTED_VALUE",
+    "detail": "CLAIMS.md insertion deferred with the blocker named: CLAIMS.md is a declared currency debt (lag 176, B984) \u2014 placement into the promoted-claims surface postponed rather than resolved."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B55 c=1 general-m structure, B56 figure-eight kill, B57 spli",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1419,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "B56 explicitly kills a numerology-style coincidence: 'the figure-eight <-> I=1/4 (self-evidencing) bridge is DEAD; the c=1 Eisenstein resemblance to the figure-eight tetrahedron shape ... is a cyclotomic coincidence.'"
+   }
+  ]
+ }
+]

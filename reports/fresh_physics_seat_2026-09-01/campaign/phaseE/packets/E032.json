@@ -1,0 +1,89 @@
+[
+ {
+  "arc": "B1011_mckay_tensor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1011_mckay_tensor",
+  "flags": [
+   {
+    "i": 978,
+    "kind": "FITTED_VALUE",
+    "detail": "C5's 992/284 forced counts are asserted via inclusion-exclusion on hardcoded literals (kerchi=8, ZI=2, ZT=2) rather than an evaluated forcing criterion over the enumerated 2880 cells, despite FINDINGS.md language claiming it 'matches the incoming enumeration' -- an in-arc addendum from a fresh physics seat (2026-09-01) calls this a 'lock vacuity,' the same class as prior E27/E40 errors, though it also confirms the underlying inputs (|ker chi|=8 etc.) are separately verified elsewhere."
+   }
+  ]
+ },
+ {
+  "arc": "B1025_input_derivability",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1025_input_derivability",
+  "flags": [
+   {
+    "i": 991,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md states I5's multiplicities were 're-verified exactly' in audit_checks.py, but the code only checks that hardcoded branching-rule dictionaries sum to the correct total dimension -- it does not independently derive the branchings from E6/SO(10)/SU(5) Clebsch-Gordan/Dynkin data, so 'verified' overstates what the arithmetic check does."
+   },
+   {
+    "i": 992,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "I4's 'narrowing' rests on treating the object's canonical nomination of E6/E8 as equivalent to the class-S construction's free choice of 6d type, collapsing 'the object happens to match the ADE type at its ends' into 'the object determines the type' -- a dimension/label match used as near-derivation."
+   }
+  ]
+ },
+ {
+  "arc": "B1026_nomination",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1026_nomination",
+  "flags": [
+   {
+    "i": 994,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The entire nomination scheme (N1 kind-exact matching) selects candidates for later data comparison purely on whether an abstract object-side quantity and an SM observable share an informal 'kind' (phase vs phase, probability vs probability) -- this is exactly a dimension/type-coincidence licence to compare, prior to any independent theoretical reason the two phases should be equal."
+   },
+   {
+    "i": 995,
+    "kind": "FITTED_VALUE",
+    "detail": "The choice-counting inputs to the bit-pricing (e.g. 'object set reduced to {+-2pi/3} by the banked nontriviality selector', 'targets: 2 deltas, no banked selector -> 1 bit') are informal judgment calls about which reductions count as 'structural selectors' versus 'genuine choices' -- these judgment calls directly determine which candidate wins the cap, i.e. the pricing rules are flexible enough to be tuned toward a preferred outcome even though this particular run is presented as data-blind."
+   }
+  ]
+ },
+ {
+  "arc": "B1028_freedom_ledger",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1028_freedom_ledger",
+  "flags": [
+   {
+    "i": 999,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The ledger's headline 'machine-checked' claim only verifies that each cited arc's arc_verdict.json contains a pre-chosen discriminating substring and says verdict=='PROVED' -- it does not re-derive or independently test any cited arc's mathematics. A citation could be textually present and phrase-matching while the underlying claim in the cited arc is wrong or later retracted, and this check would still pass."
+   }
+  ]
+ },
+ {
+  "arc": "B1031_generation_rung",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1031_generation_rung",
+  "flags": [
+   {
+    "i": 1007,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The arc's own 'absence' claim (the relational route is the only one B307 leaves open) is retracted one arc later (B1032_across_breakings_route) as false, within the very consolidation campaign meant to prevent unswept absence claims."
+   },
+   {
+    "i": 1008,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The three degenerate cohomology slots (h1=3) and 'three generations' are explicitly flagged by the arc itself as a count/type match that is NOT a derivation -- the arc's own honesty about this is a positive, but the underlying identification is exactly the type-vs-value coincidence this seat is told to flag."
+   }
+  ]
+ },
+ {
+  "arc": "B1032_across_breakings_route",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1032_across_breakings_route",
+  "flags": [
+   {
+    "i": 1013,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "This arc's own self-correction narrative ('the same trap I diagnosed a paragraph earlier') recurs across a chain of at least 4 sibling arcs, all citing the same in-house hazard (a gap-measuring arc self-inflating its own coverage count) -- a repeated methodological wobble in the campaign's audit machinery itself."
+   }
+  ]
+ }
+]

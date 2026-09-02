@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "TEST:tests/test_b794_congruence.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2370,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_cc_mod4_hint_reconciled_by_level_split reads pre-tabulated report fields directly from trace_norm_split.json rather than recomputing the trace/norm split itself"
+   }
+  ]
+ },
+ {
+  "arc": "B795_eigenvalue_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B795_eigenvalue_verification",
+  "flags": [
+   {
+    "i": 752,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The claim of existence for r=8.863405356 rests on cc's own collocation instrument, whose truncation parameters were tuned upward specifically because the first choice nearly produced a false negative for that same value (documented candidly in FINDINGS.md as error (2)); the fix is well-documented but the eigenvalue's confirmation and the instrument's calibration were adjusted together in the same arc."
+   }
+  ]
+ },
+ {
+  "arc": "B796_coupling_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_audit",
+  "arc_dir": "frontier/B796_coupling_campaign",
+  "flags": [
+   {
+    "i": 758,
+    "kind": "FITTED_VALUE",
+    "detail": "scale_weight_ledger/FINDINGS.md explicitly warns that its 7 new weight-0 dimensionless numbers are an unusually attractive look-elsewhere trap and forbids testing them against physical constants outside a fresh sealed preregistration -- self-aware of, but does not eliminate, the risk that a future arc will informally fit one of these to a PDG value."
+   },
+   {
+    "i": 761,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "s4_closing_types' original identification of the 'rank' external-input closing with the 8x1 diagram automorphism tau rested on tau being 'the only rank-reducing involution' -- a type/dimension coincidence (both look like a single F2 bit) later shown by tau_vs_singlet to be a category error: the cascade's actual rank drop 6->4 is effected by two VEVs, neither an involution."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b808_empty_cells.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2378,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "All three tests read fields (verdict, artifact, real, p_full) directly from null_test.json, the arc's own stored result, without recomputing the underlying statistic in this file"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b809_kappa.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2379,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_kappa_meets_the_sealed_gate and test_the_two_disagreements_are_the_known_vocabulary_boundaries read kappa/n/disagreements straight from kappa.json rather than recomputing kappa from raw rating data (test_kappa_is_computed_not_asserted partially mitigates this by checking the formula, but on the same stored p_o/p_e, not raw ratings)"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b812_path_map.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2381,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "All four tests read S/V/C/M/killed_by fields directly from the arc's own map.json rather than recomputing the axis classification"
+   }
+  ]
+ }
+]

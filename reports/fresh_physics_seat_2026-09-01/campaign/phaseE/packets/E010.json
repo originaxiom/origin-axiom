@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b362_seam_law_confirmations.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2196,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_law_at_eleven_pairs defines bright/dark/doubly_elliptic sets inline in the test and checks internal consistency of its own classification, not an independent recomputation."
+   }
+  ]
+ },
+ {
+  "arc": "B371_minimal_two_state_sector",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B371_minimal_two_state_sector",
+  "flags": [
+   {
+    "i": 266,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Despite the explicit firewall disclaiming any real photon/gauge field, the arc's own vocabulary \u2014 'helicity pairing', 'photon-shaped slot', 'parity', 'Weyl operator' \u2014 borrows physics nouns for a 2-dimensional invariant subspace identified purely because it is 2-dimensional and carries a Z/2-like involution (Shat^2=J). The type match (2-state, involution-swapped eigenlines) is being used as the entire warrant for physics-suggestive naming, even though the arc itself says this is firewalled and not a physics claim."
+   }
+  ]
+ },
+ {
+  "arc": "B382_why_one_twelfth",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B382_why_one_twelfth",
+  "flags": [
+   {
+    "i": 272,
+    "kind": "FITTED_VALUE",
+    "detail": "Leg 2's closed form has three constants (\u03b1=8=2^-1, s=7=-2^-1, and the theta-twist linear part) obtained by FITTING over the five domain words, not derived a priori, though the fit is then cross-checked against an independently registered canonical-model prediction that passes."
+   }
+  ]
+ },
+ {
+  "arc": "B392_wall_probes",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B392_wall_probes",
+  "flags": [
+   {
+    "i": 279,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The whole probe is precisely a bit-vs-value coincidence check: comparing the model's twist exponents {3/10,7/10} against the tricritical Ising model's T-spectrum purely by rational-number matching, with the physics interpretation explicitly firewalled off into a separate 'speculations note' not included in this arc's files. This is exactly the type of dimension/label match the seat is instructed to flag, though here it correctly returns a NO-MATCH rather than a false positive."
+   }
+  ]
+ },
+ {
+  "arc": "B400_canonical_frame",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B400_canonical_frame",
+  "flags": [
+   {
+    "i": 288,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The whole line of inquiry (does a 'canonical 3x3 frame' link the golden seam and the Mercedes/E6-related structures for a mixing-matrix-shaped object) rests on treating a 3-dimensional label space as licensing a PMNS/mixing-matrix identification in the first place; this arc's negative result closes that door, which is itself evidence the type-coincidence was never justified."
+   }
+  ]
+ },
+ {
+  "arc": "B410_coupling_derivation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B410_coupling_derivation",
+  "flags": [
+   {
+    "i": 297,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "arc_verdict.json is PROVED for 'the coupling criterion separates 4/4' and 'reducing the crown's why to the banked M1 stratification law,' but FINDINGS.md itself states the deepest part (WHY the 5-side withholds sqrt5 at exactly the paired frequencies) is an unresolved 'deep residual,' 'the genuine specialist-adjacent core,' explicitly STAGED rather than derived. The verdict claims the crown's why 'reduces to' M1, which is accurate as stated, but a casual reader of only arc_verdict.json would not know a residual obstruction remains open."
+   }
+  ]
+ }
+]

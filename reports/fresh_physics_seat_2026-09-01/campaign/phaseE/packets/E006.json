@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B218_metallic_anyon_selection",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B218_metallic_anyon_selection",
+  "flags": [
+   {
+    "i": 158,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the physically interesting half of the claim (golden multiplicity -> specific CFT c=7/10, a genuinely physics-flavored observable-central-charge statement) is imported from the literature, not computed; the arc is honest about this ('CITED, not reproduced -- honest'), but the headline framing ('multiplicity selects... flowing (known) to the tricritical Ising CFT') could read as more established-by-this-repo than it is"
+   }
+  ]
+ },
+ {
+  "arc": "B232_rho_n_plethysm",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B232_rho_n_plethysm",
+  "flags": [
+   {
+    "i": 171,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "arc_verdict.json states verdict \"PROVED\" and a claim_one_line with no hedge, but the arc's own FINDINGS.md explicitly and repeatedly says this is NOT a proof \u2014 it is a reduction with a residual open lemma marked 'terminal NEEDS-SPECIALIST'. The verdict file's status field misrepresents the content of the arc it labels."
+   }
+  ]
+ },
+ {
+  "arc": "B233_synthesis_split_and_five",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B233_synthesis_split_and_five",
+  "flags": [
+   {
+    "i": 172,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The arc verdict labels the whole arc PROVED and its one-line claim addresses only H17 (the '5' cascade, which is genuinely verified); but the same FINDINGS.md file also carries H13, an explicitly unproven 'candidate synthesis' extrapolated from only 3 witnesses, and the verdict does not scope PROVED to H17 only or flag H13 as separately unproven."
+   }
+  ]
+ },
+ {
+  "arc": "B256_metallic_arnold_trinity",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B256_metallic_arnold_trinity",
+  "flags": [
+   {
+    "i": 186,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The central claim rests on the discriminant field of a 2x2 monodromy matrix landing on the same quadratic field \u211a(\u221a2) that also indexes McKay(2O)=E7 \u2014 a field-level (type/label) coincidence used to declare E7 'present', explicitly conceded in-arc to be at a different (non-\u03c01-surjection) level than E6's genuine group surjection (B266)."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b259_gravity_brick_wall_map.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2165,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_five_wall_map_is_one_theorem_not_all_walled and test_every_wall_has_an_open_reframing_or_framework check properties of a WALLS dict authored by the same codebase describing its own open-problem status \u2014 this locks the author's self-assessment prose, not an independently derivable fact"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b260_coulomb_branch_reframing.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2166,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reframing_is_honest_both_halves checks fields of a REFRAMING dict of self-assessed booleans ('improves_honesty_not_proximity') authored by the same repo \u2014 a rhetorical self-judgment locked as a passing test, not a computed physical result"
+   }
+  ]
+ }
+]

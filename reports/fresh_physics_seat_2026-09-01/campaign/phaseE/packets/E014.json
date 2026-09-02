@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B558_three_level_negative",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B558_three_level_negative",
+  "flags": [
+   {
+    "i": 417,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Two 'anti-numerology landmines' are explicitly logged: a fixed golden number 1/phi^3=0.23607 is 2.1% from sin^2(theta_W), and one gap-edge ratio at V=1 matches sin^2(theta_W) to 0.26% out of a large multiple-comparison search space; both are flagged by the arc itself as non-significant coincidences, not claims -- a rare case of the arc pre-emptively filing the type-coincidence flag itself."
+   }
+  ]
+ },
+ {
+  "arc": "B560_crossseat_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B560_crossseat_campaign",
+  "flags": [
+   {
+    "i": 420,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Cell 2 explicitly documents and refutes a temptation of this kind itself: nodes S_a and S_B share identical charpoly, determinant, Smith form (Z/11), and are integrally GL(Z)-conjugate, yet map to entirely different targets under the observer-flow protocol -- the arc treats this as a REFUTATION of using the arithmetic invariant packet to predict flow targets, i.e. a self-administered type-coincidence check rather than a red flag the auditor needed to find."
+   }
+  ]
+ },
+ {
+  "arc": "B565_gauge_behavior_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B565_gauge_behavior_campaign",
+  "flags": [
+   {
+    "i": 425,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "H1-triality's 'MATCH (100%)' between B299's (theta,phi) Z3xZ3 and Boyle's SO(8) triality is a weight-orbit/dimension coincidence check (both 3-cycle SU(3)^3 factors, both give 9/9 free orbits of size 3); the RESULTS.md itself flags this honestly as 'a structure match, not a generations claim,' which is the correct caveat, but the underlying evidence is still a type/orbit-size coincidence rather than a derivation that the two group actions are literally the same map."
+   }
+  ]
+ },
+ {
+  "arc": "B568_own_questions",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B568_own_questions",
+  "flags": [
+   {
+    "i": 427,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The whole campaign is framed anthropomorphically ('heartbeat', 'eyes', 'attention', 'curiosity', 'the object's answer, one sentence') and produces a narrative 'portrait' that reads as describing an entity's inner life rather than reporting mathematical facts about a subshift/character-variety object; the document's own disclaimer ('every physics-flavored word is descriptive vocabulary for internal structure') does not remove the framing risk that computed facts (entropy laws, latency spectra) are being presented with emotionally loaded labels ('curiosity', 'proprioception', 'no pain') that invite reading the object as sentient or as physically 'creating a universe,' well beyond what any single computation establishes."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b568_c_symmetry.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2247,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the census table is not recomputed here; it is pasted as a literal (matching test_b560_cells.py's own computed value) and the test only checks an algebraic symmetry property of that literal -- if the underlying census in B560 were wrong, this test would still pass as long as the copied numbers are internally symmetric."
+   }
+  ]
+ },
+ {
+  "arc": "B572_eleven_clauses",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B572_eleven_clauses",
+  "flags": [
+   {
+    "i": 433,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The adjudicated handoff's clause 9 (chiral fermion content from Spin(10)xU(1)) is flagged by this arc as a 'silent selector switch' \u2014 gauge structure derived from the theta-fold (F4) while chirality is imported from a different, non-theta-fixed subgroup with no computed bridge; this arc correctly identifies and names the gap rather than papering over it, which is itself the finding, not a flaw in this arc."
+   }
+  ]
+ }
+]

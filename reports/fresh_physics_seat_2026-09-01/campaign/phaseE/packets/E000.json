@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "LOG:(ninth bank through eighth-plus-later, single-header span) B",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1885,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "C1/C0=11\u03c0/(36\u221a3) vs solar angle sin \u03b812 (0.025% coincidence) explicitly dismissed on look-elsewhere/no-instrument/found-by-scan grounds but recorded as a near-miss"
+   }
+  ]
+ },
+ {
+  "arc": "LOG:Firewalled triage of the cross-chat \"seven hints\" (tiers kep",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1462,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "A4 (the CS-crossover k\u22484<->n=4 match) is explicitly killed as 'a volume coincidence, same family as the killed value-matches.'"
+   }
+  ]
+ },
+ {
+  "arc": "_frontier_root_files",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1369,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "README.md and REPO_STATE.md summarize ~130 B-numbered probes (SL(n) trace-map towers, A-polynomial derivations, arithmeticity classifications) entirely by cross-reference; this arc's own file set contains none of the underlying probe code, so every specific numeric/algebraic claim in these two files is unverifiable from what was actually read here."
+   },
+   {
+    "i": 1371,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "REPO_STATE.md is itself a self-audit (\"whole-repo reaudit\") that repeatedly asserts \"no claim promoted\", \"physics chapter CLOSED\", \"P1-P16 untouched\" as its own verdict on ~90 subsequent updates appended to the same file, without independent adjudication in this arc."
+   }
+  ]
+ },
+ {
+  "arc": "physics_probes",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/physics_probes",
+  "flags": [
+   {
+    "i": 1376,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The Gate 2 j=1728/tau=i 'Seiberg-Witten identification' is explicitly diagnosed by the authors themselves as a dimension/type coincidence (both are CM-by-Z[i] elliptic curves, isomorphic over C) rather than a genuine physical identification -- this is exactly the pattern the seat is instructed to flag, and here it is self-caught and correctly labeled NEGATIVE rather than claimed. Recorded as a red flag category match, not as an unflagged overclaim."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:Conditional uniqueness theorem (formalizes C1)",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1396,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The uniqueness is explicitly 'up to order' and the entry states 'that single binary choice is the minimal inserted structure that selects the golden vacuum phi over its mirror' \u2014 an inserted convention, flagged honestly rather than derived."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_w2_molien_cell.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2489,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_artifacts_present_and_step_iii_locked and test_support_landing_recorded only check that specific arc-produced markdown files contain expected strings ('LOCKED', '2/5', '3/5') \u2014 the file being checked is the arc's own claimed output, not independently recomputed."
+   }
+  ]
+ }
+]

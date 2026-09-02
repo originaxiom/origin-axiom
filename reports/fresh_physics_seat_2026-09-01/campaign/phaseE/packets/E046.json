@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b278_wall_map_v3.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2175,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "Asserts against WALLS/CRUX/E6_BRIDGE dicts defined as literals inside wall_map_v3.py itself, not independently computed."
+   }
+  ]
+ },
+ {
+  "arc": "B297_consolidation_v4",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B297_consolidation_v4",
+  "flags": [
+   {
+    "i": 213,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the module's only executable check (consistency()) validates that the hardcoded WALLS/SEAM_ARC/MATTER_MAP dictionaries have the expected shape (5 walls, 11 chain links, 4 matter-map rows) \u2014 it cannot and does not verify any of the physics claims being consolidated."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b297_consolidation_v4.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2180,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "WALLS/SEAM_ARC/MATTER_MAP/STOP_GATES are hand-authored consolidation dicts in the same module being asserted against themselves."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B532-I6: Nine Ingredients, One Object (the verdict table)",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1639,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Species = exact product (old/new)x(structural/tunnel); 4 irreducible species asserted with no identification possible \u2014 a structural count, not itself a physical species identification (text_file:34-36)."
+   }
+  ]
+ },
+ {
+  "arc": "B593_round4_hearing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B593_round4_hearing",
+  "flags": [
+   {
+    "i": 452,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "8_17 braid word is 'cited from tables' and gated only by a knot determinant (a single integer invariant), not a full identification; the reverse/flip equality argument (R4-B) leans on a cited-not-reproven anti-involution lemma, disclosed as a caveat in FINDINGS.md"
+   }
+  ]
+ },
+ {
+  "arc": "B597_d1_dictionary",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B597_d1_dictionary",
+  "flags": [
+   {
+    "i": 457,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the whole conditional exclusion of outcome C rests on 'both planes carry canonical line-splittings' (non-degenerate labels on each side) \u2014 a dimension/label-non-degeneracy coincidence used to argue against a specific map existing, explicitly caveated by the arc itself as conditional on the map's existence and width-respect, i.e. not yet a constructed counterexample."
+   }
+  ]
+ }
+]

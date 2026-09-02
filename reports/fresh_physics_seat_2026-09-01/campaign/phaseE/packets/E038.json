@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B1143_bl_fourth_cartan",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1143_bl_fourth_cartan",
+  "flags": [
+   {
+    "i": 1149,
+    "kind": "FITTED_VALUE",
+    "detail": "The cloud memo's specific count of 36 physical assignments could not be independently reproduced by any of this bench's own anomaly batteries or natural monomial counts without fitting to that target number; the arc's own 72-count is left unreconciled to the cited 36 (plausibly a frame/pin-freedom factor of 2, but not verified)."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1147_clane_harvest.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2068,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_evidence_present only checks that the string 'REPRODUCES' appears inside the committed shell script text itself, not that running it actually reproduces anything at test time"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1148_carrier_harvest.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2069,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_evidence_present again only checks the literal string 'REPRODUCES' is present in the committed script, not an actual re-run"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1149_meridian_longitude.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2070,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_evidence_present only checks the literal string 'REPRODUCES' appears inside the committed reproduce*.sh script text, not that running it now reproduces anything"
+   }
+  ]
+ },
+ {
+  "arc": "B1150_yukawa_clock_and_family",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1150_yukawa_clock_and_family",
+  "flags": [
+   {
+    "i": 1158,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "memo 53 identifies the E8 decomposition's 'fourth orthogonal A2 triplet' (a multiplicity-3 structure) with 'the three [fermion] families' \u2014 the arc itself flags this as possibility-space and 'E8 is NOT object-paid', but the naming still rests on a bare dimension match (3 copies of 27 <-> 3 families) with no independent argument that this A2 triplet is the SM family index."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1150_yukawa_clock_and_family.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2071,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_evidence_present only checks the literal string 'REPRODUCES' appears inside the committed reproduce*.sh script text, not that running it now reproduces anything"
+   }
+  ]
+ }
+]

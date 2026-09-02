@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b956_l133.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2447,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "regime ranks and repo_status counters read only from results.json"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b957_l124.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2448,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "'computed not cited' field-inertness and torsor-order claims are asserted from results.json only, with no field-arithmetic recompute inside this test"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b960_l136.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2451,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "weight-lattice membership claims asserted only from results.json"
+   }
+  ]
+ },
+ {
+  "arc": "B970_L134_exotics",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B970_L134_exotics",
+  "flags": [
+   {
+    "i": 932,
+    "kind": "FITTED_VALUE",
+    "detail": "The scout script exotics_charges.py explicitly fits psi and chi on a 'strict subset of blocks' and fits Y's coefficients 'on the 16 only' before checking the rest -- a fit-then-predict methodology which is disclosed and is stronger evidence than a pure fit, but is still fitting, not a pure derivation, for the initial normalization."
+   }
+  ]
+ },
+ {
+  "arc": "B971_L132_vacuity",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B971_L132_vacuity",
+  "flags": [
+   {
+    "i": 933,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Route 1's construction of the SU(5) hypercharge generator and the SO(10)/SU(5) branching of the E6 27 relies on citing the 'standard E6 group theory' branching pattern (labelled CITED in the script's own docstring) as the starting scaffold before checking it against a second route; the identification of which E6 weight-orbit direction is 'hypercharge' at all rests on matching to the known GUT branching shape rather than being forced by the object."
+   }
+  ]
+ },
+ {
+  "arc": "B973_L135_frame",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B973_L135_frame",
+  "flags": [
+   {
+    "i": 940,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "WORK.md and SYNTHESIS.md (B974) both assert \"the rebuild ran and the validation gate passed 51/51\" as an established, present-tense fact, but the exact committed script that would produce that gate cannot execute."
+   }
+  ]
+ }
+]

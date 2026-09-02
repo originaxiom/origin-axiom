@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "P3_depth_exposure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/P3_depth_exposure",
+  "flags": [
+   {
+    "i": 1367,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "compute.py presents itself as 'Method A: structural depth analysis (kill_form + depth_note gap parsing)' and FINDINGS.md cites 'byte-identical on rerun' as reproducibility evidence, but the actual per-target verdict (gap_threatens_verdict True/False for each of the 21 ids) is a hardcoded literal assigned inside an if/elif chain keyed by id string, not derived from parsing the depth_note text or any formula; the classification is the analyst's manual judgment encoded as source code, so re-running the script cannot independently confirm the judgment, only reprint it."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_p3_depth_exposure.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2469,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "every numeric verdict is read from B765's own results.json cross-referenced only against other stored JSON files (kill_graph.json, bprime_annotations.json), with no independent recomputation of any cell verdict in this test"
+   }
+  ]
+ },
+ {
+  "arc": "B9_fusion_scattering",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B9_fusion_scattering",
+  "flags": [
+   {
+    "i": 6,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc itself names and rejects the temptation to read a shared polynomial (tau^2-tau-1 appearing in both the Fibonacci fusion rule and the field-theory cubic vertex) as a derived equivalence -- a self-caught type-match that the arc correctly refuses to promote."
+   }
+  ]
+ },
+ {
+  "arc": "B15_trace_map_invariant_controls",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B15_trace_map_invariant_controls",
+  "flags": [
+   {
+    "i": 9,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc explicitly rejects an interpretive labeling scheme (I=-1 -> nothing, I=0 -> awareness, I=1/4 -> existence) as unearned semantics attached to invariant-surface values purely by numeric coincidence -- itself a caught instance of the type-match trap."
+   }
+  ]
+ },
+ {
+  "arc": "B20_operational_awareness_test",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B20_operational_awareness_test",
+  "flags": [
+   {
+    "i": 12,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The arc frames operational 'awareness'/'memory'/'self-model' definitions purely in terms of invariant-preservation and state-dependence of a discrete dynamical system, then tests its own construction against its own definitions; the definitions are the arc's own choice and the negative outcome (no self-model) is honestly reported, but the entire exercise risks being a closed loop testing a system against criteria authored for that system."
+   }
+  ]
+ },
+ {
+  "arc": "B22_spectrum_genericity_controls",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B22_spectrum_genericity_controls",
+  "flags": [
+   {
+    "i": 14,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc is itself a rejection of a type-match temptation: it tests and rejects reading the generic -1 eigenvalue as carrying special particle/gauge content, precisely because it is generic across all orientation-reversing matrices, not special to the half-step."
+   }
+  ]
+ }
+]

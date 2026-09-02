@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B1162_mssm_debt_closure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1162_mssm_debt_closure",
+  "flags": [
+   {
+    "i": 1168,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md and arc_verdict.json both claim the height-308 bundle witness is now 'SAGE-verified on-bench' / 'no longer single-homed' / 'dual-homed', but the committed reproduce.sh script that is supposed to demonstrate this only opens and prints the static witness_sage.txt file and asserts two literal substrings are present in it \u2014 it never invokes Sage or recomputes any cohomology. A stranger cannot reproduce the claimed Sage verification from the committed files; witness_sage.txt could have been hand-written or copied from codex's off-branch output without this bench ever running Sage."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1162_mssm_debt_closure.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2079,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1164_cc_masterplan.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2081,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1165_gravity_terminal.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2082,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "B1166_charter_attack",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1166_charter_attack",
+  "flags": [
+   {
+    "i": 1174,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The C4 refutation-candidate itself concerns exactly this seat's warning: three separately-derived (Z/2)^2 objects (branch-selection torsor, being x hearing torsor, measurement torsor) were provisionally identified as 'the same torsor' purely because they share the abstract group type (Z/2)^2 on 4 points \u2014 the arc correctly catches this as a type-vs-value confusion and downgrades the identification, which is the right outcome but confirms this pattern occurs repeatedly in the corpus."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1166_charter_attack.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2083,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ }
+]

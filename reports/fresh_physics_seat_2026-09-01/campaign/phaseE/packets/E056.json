@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b783_c23.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2366,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_c23_banked_from_wave1 reads verdict/upheld from wave1_results.json"
+   }
+  ]
+ },
+ {
+  "arc": "B8082_geodir_h1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8082_geodir_h1",
+  "flags": [
+   {
+    "i": 1279,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the paper's original Proposition (geodir) asserted 'the unobstructed E6 moduli' as a single claim bundling dimension and unobstructedness; this arc shows the dimension count (6, split 1+5) is real but that the obstruction space (H^2) is actually nonzero (dim 6), meaning unobstructedness is not merely uncomputed but is a nontrivial open question the paper's phrasing had glossed over."
+   }
+  ]
+ },
+ {
+  "arc": "B8099_3d_completeness",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8099_3d_completeness",
+  "flags": [
+   {
+    "i": 1294,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The 'two theories on one manifold' headline flags a real risk pattern: (A) T[4_1]=U(1)+2 chirals (abelian, from DGG dictionary) and (B) the E6 structure with the 27 matter rep are both attached to the SAME 3-manifold by different corpus routes, and the arc itself says these are NOT the same theory and the corpus's own B262 flags this as an open wall ('is E6 ever dynamical'). This is exactly the sort of dimension/structure coincidence (same manifold, two unrelated gauge-theoretic attachments) the seat rules ask to flag."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B157: the metallic exponent \u2014 k=4\u2212m(o\u22123) REFUTED (Phase 2)",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1514,
+    "kind": "FITTED_VALUE",
+    "detail": "the refuted formula is described as fit to only five data points ('No \u22643-parameter affine/modular law fits the corrected grid (candidate fits overfit a 5-point set, disagree off-grid)')"
+   }
+  ]
+ },
+ {
+  "arc": "B319_b176_woven_vs_single",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B319_b176_woven_vs_single",
+  "flags": [
+   {
+    "i": 232,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "verdict() is a conjunction of hardcoded True constants (one per prose claim) with only Hurwitz monotonicity actually computed; a stranger cannot fail this test by disagreeing with the prose."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b776_b685.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2356,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_symprod_anchor_reproduced_through_105 and test_b776_both_upheld_no_reversal read fields from cell results.json"
+   }
+  ]
+ }
+]

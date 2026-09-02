@@ -1,0 +1,84 @@
+[
+ {
+  "arc": "B1195_close_loop_batch5a",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1195_close_loop_batch5a",
+  "flags": [
+   {
+    "i": 1209,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "GC-21's headline word 'provably' (SEAM-A's finite-phase-to-Vol map 'provably cannot be furnished') is not earned: the closed form used as the reference is fit-and-confirmed against one quadrature, never derived from stationary-phase structure in this cell, and the precision denominator behind every '5.5e6x excluded' figure is unvalidated by any convergence study."
+   },
+   {
+    "i": 1211,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "GC-25's 'PROVED trivial by direct computation' rests on a toy stand-in model (three identical placeholder vectors) rather than the real cohomology group; the Galois-triviality shown is guaranteed true regardless of whether the underlying geometric claim (B1182's V4=Galois identification acting on B_0) is even correct, so it has zero power to discriminate the actual question."
+   }
+  ]
+ },
+ {
+  "arc": "B1216_parameter_closure_run1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1216_parameter_closure_run1",
+  "flags": [
+   {
+    "i": 1231,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The workflow_result.json's own 'overreach' fields are the adjudicator (same session/seat) grading its own sub-agents' cells -- a form of self-audit that is transparent about specific overclaims but is not an independent third-party check."
+   }
+  ]
+ },
+ {
+  "arc": "B1228_S1_the_nomination",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1228_S1_the_nomination",
+  "flags": [
+   {
+    "i": 1246,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "pi_1(m004)'s 2T quotient is identified with the transverse ALE orbifold group of the McKay/6d-type construction on the strength of both being 'the same group up to isomorphism' (order 24, SL(2,3)); the ADDENDUM itself names this as unearned."
+   },
+   {
+    "i": 1248,
+    "kind": "FITTED_VALUE",
+    "detail": "nomination.py's control shows the trefoil knot (3_1) also surjects onto 2T 48/72 times, identical to m004 -- so the 'discriminating control' framing in FINDINGS.md ('control 5_2=0') omits that a different control (3_1) fails to discriminate; disclosed in the fence but not in the headline table."
+   }
+  ]
+ },
+ {
+  "arc": "B1230_consistency_campaign_run1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1230_consistency_campaign_run1",
+  "flags": [
+   {
+    "i": 1253,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "C-5b joins the object's trinification Z/3 to the boundary CFT's 3-primary module group solely because both groups have order 3; no map or faithful action is exhibited (conceded in the ADDENDUM)."
+   }
+  ]
+ },
+ {
+  "arc": "B1234_a6_built_the_walls",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1234_a6_built_the_walls",
+  "flags": [
+   {
+    "i": 1260,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "cell 3's conclusion that Gieseking 'carries the same invariant trace field Q(sqrt-3)' as m004 because both are in the same disc -3 commensurability class is stated rather than computed in this script (no explicit trace-field computation for Gieseking appears in a6_built_the_walls.py); low severity since this is a well-known SnapPy census fact, but it is asserted, not shown, in this particular committed file."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B150: class-S coincidence (L14) \u2014 the trace-map action IS th",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1504,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the 'FORCED' character-variety identification rests on matching algebraic structure (same cubic, same MCG generators, same dynamical degree formula) between the trace-map tower and N=2* S-duality \u2014 a structural-type coincidence, described in the entry itself as 'the widest reach of the one-object picture yet'"
+   }
+  ]
+ }
+]

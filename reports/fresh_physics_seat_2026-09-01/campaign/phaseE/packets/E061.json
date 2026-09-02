@@ -1,0 +1,38 @@
+[
+ {
+  "arc": "LOG:B703 (chat1 Q3): the Koide angle \u03b8\u2080 = 2/9 to 0.89\u03c3 (correcte",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1599,
+    "kind": "FITTED_VALUE",
+    "detail": "explicitly firewalled as a post-hoc fit atop the Q=2/3 tautology, masses outside the dimensionful no-go"
+   }
+  ]
+ },
+ {
+  "arc": "LOG:2026-08-31 \u2014 B1226: THE \u03b2-ODD BOX",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1928,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'3/3 probes ever fired into box D demanded a continuous value from a bit-valued channel; 0/3 asked the bit. Their negatives measure the type mismatch' \u2014 a documented type-mismatch identification error across multiple prior probes."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:2026-09-01 \u2014 B1233: the external audit",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1937,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'the observer-bit = class-group identification, dead by Galois \u2014 conjugation fixes \u221a5, the class generator flips both. I-8 REFUTED.' A dimension/type coincidence identification found refuted."
+   }
+  ]
+ }
+]

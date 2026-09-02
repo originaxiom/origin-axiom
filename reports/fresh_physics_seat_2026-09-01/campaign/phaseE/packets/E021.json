@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "LOG:B751: the iterated-hearing claim adjudicated \u2014 arithmetic TR",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1607,
+    "kind": "FITTED_VALUE",
+    "detail": "1/(2\u03c6\u207f) pattern skips n=2, described as a target-shopping signature (15% from every target)"
+   }
+  ]
+ },
+ {
+  "arc": "B752_qualia_handoff_receipt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B752_qualia_handoff_receipt",
+  "flags": [
+   {
+    "i": 664,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "Op-3b's refutation depends on this seat trusting that R_a=[[1,1],[0,1]] is indeed 'the banked B285 Riley holonomy meridian' as asserted in a code comment -- this digest pass did not open B285's FINDINGS.md to confirm trace 2 is what's banked there, so the correction (trace 1 vs trace 2) rests on an unverified cross-arc citation."
+   }
+  ]
+ },
+ {
+  "arc": "B753_mixing_structure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B753_mixing_structure",
+  "flags": [
+   {
+    "i": 665,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc's own governance framing ('the pin') explicitly warns against exactly this: 0.30902 (cos72deg, a real-part projection) and 1/(phi*sqrt5) (0.276393, a Born-weight/overlap-squared quantity) are two DIFFERENT kinds of number that both derive from the same golden-ratio object -- the arc itself treats this as a live risk and locks the registered JUNO number to prevent post-hoc kind-swapping, which is good practice, but it also documents that the dispute this arc adjudicated (chat-1's claim) was itself a type/kind confusion (eigenvalue real part vs matrix element vs overlap-squared) that a less careful reading could still repeat."
+   }
+  ]
+ },
+ {
+  "arc": "B766_measurement_torsor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B766_measurement_torsor",
+  "flags": [
+   {
+    "i": 683,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The prereg requires every action-table entry to be 'an in-sandbox re-derivation, never cited,' but theta_flips_T6 was hardcoded as 'definitional' in the original compute.py rather than derived; the arc's own audit caught this and had to supply the missing derivation (Sym^2 matrix-level computation) after the fact."
+   }
+  ]
+ },
+ {
+  "arc": "B768_correspondence_crosstest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B768_correspondence_crosstest",
+  "flags": [
+   {
+    "i": 687,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The V3 claim ('the subdominant eigenvalue = the hearing amplitude') is a bare numerical coincidence between two golden-ratio-valued quantities from unrelated computations, explicitly E20-flagged by the arc itself as mechanically unlinked \u2014 textbook type-coincidence licence-to-ask, correctly caught but still standing in the record as a named row."
+   },
+   {
+    "i": 689,
+    "kind": "FITTED_VALUE",
+    "detail": "Receipt #5 documents an arithmetic error (#40) in a previously-circulated 'unchallenged fact' about Fibonacci-word pair frequencies (claimed distribution summed to an impossible 1.236) that was caught only at this later stage \u2014 evidence that quantities were asserted/copied before being checked."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b770_census.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2347,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "all facts are read from census.json itself (the artifact of record) rather than independently recomputed; the file's own internal consistency is checked but the census content is asserted, not re-derived"
+   }
+  ]
+ }
+]

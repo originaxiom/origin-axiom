@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B761_qp2_private",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B761_qp2_private",
+  "flags": [
+   {
+    "i": 680,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'Private states' / 'Markov blanket sees everything' is interpretive language mapped onto a cohomology-dimension-counting fact (H^1 of the adjoint representation restricted to the boundary torus); the math is sound but the physics/cognitive-science vocabulary is metaphorical, not measured."
+   }
+  ]
+ },
+ {
+  "arc": "B762_qp1_self_naming",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B762_qp1_self_naming",
+  "flags": [
+   {
+    "i": 681,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'Self-naming', 'quine', 'voice is a self-name' is narrative framing over a straightforward census-uniqueness search (does any other 1-cusped manifold share m004's volume and cusp shape); the uniqueness result itself is a real, exact computation but the self-referential/cognitive language is metaphor, not physics."
+   }
+  ]
+ },
+ {
+  "arc": "B8069_conformal_selection",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8069_conformal_selection",
+  "flags": [
+   {
+    "i": 1265,
+    "kind": "FITTED_VALUE",
+    "detail": "the 2.5% (6/238) non-genericity statistic is explicitly self-scoped by the author as p~0.025, not significant on its own, and dependent on an admittedly crude comparison class (small-integer 4x4 matrices) -- a reader could over-read this as evidence of design."
+   }
+  ]
+ },
+ {
+  "arc": "B8070_anomaly_rank_descent",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8070_anomaly_rank_descent",
+  "flags": [
+   {
+    "i": 1267,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the retracted headline itself is a textbook example: a printed f-string of hardcoded arithmetic was presented as a computed Lie-rank descent result. This is flagged and fixed within the same arc, but demonstrates the pattern the seat should watch for elsewhere."
+   }
+  ]
+ },
+ {
+  "arc": "B8071_reality_gate",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8071_reality_gate",
+  "flags": [
+   {
+    "i": 1269,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'compact su(3)+su(3), dim 16, is exactly Baez-Schwahn's Stab(B)_0' and 'B8068's cell30 already found (16,16) inside f4 at 9 of 9555 charge directions' are flagged by the author as 'three routes now point at the same 16-dimensional object' -- a dimension/type match across three separate computations that the arc itself does not claim is an identity, but which a reader should treat as a coincidence-of-type flag pending an explicit isomorphism/conjugacy check (the B8068 subalgebra cell shows exactly this kind of match can be isomorphic-but-not-conjugate)."
+   }
+  ]
+ },
+ {
+  "arc": "B8072_matching_capacity",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8072_matching_capacity",
+  "flags": [
+   {
+    "i": 1271,
+    "kind": "FITTED_VALUE",
+    "detail": "the Poisson-density model's two rho values are each calibrated from a single or pair of recorded hit-counts from other arcs (a fit, not a derivation from first principles); the arc is candid about this and supplies out-of-sample controls (C1-C4), but the underlying SM central values used for the informativeness sweep are hardcoded literals with no citation trail in the script."
+   }
+  ]
+ }
+]

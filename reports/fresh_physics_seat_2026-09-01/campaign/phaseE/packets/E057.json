@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B781_m003_sister",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B781_m003_sister",
+  "flags": [
+   {
+    "i": 725,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The committed compute.py/output.txt/results.json determine m003's trace only up to the two-element set {-3,7} (from |2-tr|=5) and then simply assert 'sister = -3' in a comment/print without deriving it; the arc's headline table nonetheless states 'monodromy trace ... -3, COMPUTED' as if derived here, when FINDINGS.md's own later section admits the derivation happened elsewhere (B784) and was not backfilled into this arc's committed script."
+   }
+  ]
+ },
+ {
+  "arc": "B830_b720_recompute",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B830_b720_recompute",
+  "flags": [
+   {
+    "i": 785,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "A3's 'no local DOF' conclusion rests on dim H^1=6 (E6) and 1 (SL2) being imported as bare integers from other arcs (B575/CLAIMS E14) rather than recomputed here; the file's own docstring calls them 'Banked, both locked elsewhere' -- a citation dressed as a computation cell alongside two genuinely computed cells."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_wave_b931_b933.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2492,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_b931_953_level_structure, test_b932_outcome_A, test_b933_probe_bracket each load results.json produced by the arc itself and grep for a substring the arc itself wrote \u2014 no independent recomputation."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b945_l126.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2440,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "cell1-4 numeric claims (13,18,241 etc) asserted only against the arc's own results.json, not recomputed here"
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B947/L130: is the thinning law a LAW? OUTCOME SPECIAL \u2014 five",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1839,
+    "kind": "FITTED_VALUE",
+    "detail": "'THE POST-HOC OBSERVATION, FLAGGED AND NOT CLAIMED ... re-describing SPECIAL as \"the thinning holds on the value layer and fails on the pencils\" would convert a failed prediction into a success story, which is post-hoc rescue and precisely what the seal exists to prevent.'"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b951_b954.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2444,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "B954 booleans (even_part_is_a_subalgebra etc) read only from the arc's own results.json"
+   }
+  ]
+ }
+]

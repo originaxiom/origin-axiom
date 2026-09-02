@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B485_metallic_apoly_family",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B485_metallic_apoly_family",
+  "flags": [
+   {
+    "i": 345,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md and arc_verdict.json (PROVED) state the Alexander law was 'verified in sage/snappy for m=1,2,3,4,5', but the only script touching this (apoly_sage.py) loops only m in {1,2,3}, never computes m=4,5, and does not even assert equality against the claimed closed form (a^2-(m^2+2)a+1) \u2014 it just prints M.alexander_polynomial(). No log file captures its output."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b496_tm_endomorphism.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2215,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "Tests assert bare booleans returned by verify_tm.check_* / q1_mixed_semigroup.* functions defined in the same frontier arc under test; the test file does not independently recompute the underlying algebra, so a bug in verify_tm that always returns True would pass silently."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b497_monoid.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2216,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "Most asserts are `assert V.check_X()` / `assert P.sandwich_...()` calling boolean-returning functions in the arc's own verify_monoid.py / phase23_run.py \u2014 the test does not independently recompute the claims, only calls the arc's self-check functions."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b498_mixed.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2217,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "All core asserts call V.<check_fn>() defined in the same B498 frontier arc \u2014 the pytest file trusts the arc's own verifier functions rather than recomputing independently."
+   }
+  ]
+ },
+ {
+  "arc": "B517_bootstrap_forcing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B517_bootstrap_forcing",
+  "flags": [
+   {
+    "i": 371,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the arc notes as a firewalled 'HOOK' that beta=phi(1+sqrt phi) shares the field \u211a(\u221a5,\u221a\u03c6) with the Fibonacci-anyon F-matrix entries \u2014 a shared-field coincidence explicitly flagged by the arc itself as not yet more than a type match."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b519.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2222,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_criticality_unification_structure asserts V.q1b_hand_proof_steps() from the B498 frontier module \u2014 reused verbatim as evidence for a different (B519) claim rather than independently re-derived."
+   }
+  ]
+ }
+]

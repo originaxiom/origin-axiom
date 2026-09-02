@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B526_crossing_package",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B526_crossing_package",
+  "flags": [
+   {
+    "i": 384,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the arc itself flags that the tetrahedral-metric Gram match is \"essentially by construction\" (the algebra guarantees the match given the chosen weighting) \u2014 an honest admission that the headline geometric coincidence is a type-match by design, not a discovery."
+   }
+  ]
+ },
+ {
+  "arc": "B530_natural_history",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B530_natural_history",
+  "flags": [
+   {
+    "i": 392,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Movement XIX's 'golden ladder' identification (Dsigma* eigenvalues = {phi,1,-1/phi} tensor {1,omega,omega^2} at the trace-zero point) is presented as an exact 9/9 numerical match, which is stronger than a type coincidence -- but the broader Movement XXI/XXIV 'H6' finding (that \u211a(\u221a5,\u221a\u22123) contains \u221a\u221215, echoing the program's K025 two-ends-and-seam structure) is explicitly a field-compositum fact true for ANY golden x Eisenstein pairing (movement XXIII: 'this is field theory, not selection'). The arc itself names and defuses this risk (movement XXIII/XXIV), but the underlying dimension/field-containment coincidence is exactly the kind of match this seat is instructed to flag as a licence-to-ask rather than evidence of physical significance."
+   }
+  ]
+ },
+ {
+  "arc": "B532_last_echo",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B532_last_echo",
+  "flags": [
+   {
+    "i": 394,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The 'Nine Ingredients' framework (i6_nine_ingredients.py, i6_phase2_probes.py, i6_phase3_synthesis.py) labels purely combinatorial/spectral quantities of a 4-letter substitution with physics category names -- 'Born rule' for a transition probability P(b|a)=1/\u03c6, 'Matter' for four letter-species, 'Gravity' for topological/Rauzy-fractal structure, 'Thermodynamics' for an entropy-decay function T(n). These are structural analogies (same functional shape/role) asserted as physics identifications, not derivations that these substitution properties ARE the named physical phenomena."
+   }
+  ]
+ },
+ {
+  "arc": "B533_coupling_invariance",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B533_coupling_invariance",
+  "flags": [
+   {
+    "i": 398,
+    "kind": "FITTED_VALUE",
+    "detail": "Gate 3's SM-ratio matching is a coefficient-lattice search over |a+b\u03c4+c\u03c4\u00b2+d\u03c4\u00b3\u2212R|; such searches inherently manufacture near-matches, and the arc's first false-positive control was itself miscalibrated (range mismatch) before being corrected in the same document. Recorded honestly, but the mechanism is a caution for any future 'ratio in \u211a(\u03c4)' claim."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b547.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2235,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_markov_triples_realize, test_4_4_16_is_proved_all_hyperbolic_ghost, and test_small_ghosts_confirmed all call classify()/slot_realizable()/all_hyperbolic() defined in the arc's own frontier/B547_ghost_scanner/scanner.py \u2014 the classification logic under test is not independently re-derived here."
+   }
+  ]
+ },
+ {
+  "arc": "B555_the_prediction",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B555_the_prediction",
+  "flags": [
+   {
+    "i": 413,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The document states a concrete falsifiable physical prediction (gap labels of a to-be-built four-coupling polariton/photonic chain), but this arc's own committed code only verifies self-consistency of the algebraic label formulas, not an actual finite-N spectral computation; the spectral hardening is credited to a different arc (B543) not included in this packet."
+   }
+  ]
+ }
+]

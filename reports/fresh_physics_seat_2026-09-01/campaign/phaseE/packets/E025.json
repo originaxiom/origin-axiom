@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B822_lexicon_gate_fix",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B822_lexicon_gate_fix",
+  "flags": [
+   {
+    "i": 781,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The gate's ceiling counts substantial blind arcs, and writing THIS arc's own FINDINGS.md (a substantial instrument arc with no lexicon motif) immediately incremented the count from 8 to 9, breaking the ceiling the arc had just set -- the arc discloses this itself and the next arc (B823) redesigns the gate from a threshold to a triage registry specifically to fix this."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b830_masterplan.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2391,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_b731_revival_score_no_longer_contradicts_its_own_note and test_no_row_tops_the_revival_ranking_while_declaring_itself_retracted read revival_score/note fields directly from the arc's own kill_graph.json"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b831_retraction_targets.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2392,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "All assertions read verdict/claim_one_line fields directly from the arcs' own arc_verdict.json / FINDINGS.md files; the docstring itself says 'The verdicts are read OFF the arcs, not invented' -- i.e. this test verifies self-consistency of authored text, not an independently recomputed fact"
+   }
+  ]
+ },
+ {
+  "arc": "B849_order_parameter",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B849_order_parameter",
+  "flags": [
+   {
+    "i": 794,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc itself names the pattern: the reframe's chirality=order-parameter identification is diagnosed as importing intuition from the Q case (where Gal(Q^ab/Q) does contain complex conjugation via the cyclotomic character) into the K=Q(sqrt-3) case where the analogous group (Gal(K^ab/K)) is strictly smaller -- a right-object-wrong-level error the arc catches rather than commits, which is a strength, but the underlying physical claim being tested (chirality as a Galois-label order parameter for a beta=1 SSB) is itself only ever supported by a group/type coincidence in the source arc B723, not by an independent physical measurement."
+   }
+  ]
+ },
+ {
+  "arc": "B850_length_spectrum_type",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B850_length_spectrum_type",
+  "flags": [
+   {
+    "i": 796,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The core reduction (dense length spectrum => type III_1 von Neumann algebra) is explicitly and repeatedly flagged by the arc itself as a DECLARED CITATION not verified in this sandbox, with a named specific weak point (cusp excursions / infinite invariant measure breaking the compact-Anosov transfer theorem) -- the arc is careful about this, but the physics interpretation (an operator-algebra type standing in for whether an SSB clock is 'spontaneous') still rests on an unverified type-theoretic identification."
+   }
+  ]
+ },
+ {
+  "arc": "B851_bc_litgate",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B851_bc_litgate",
+  "flags": [
+   {
+    "i": 797,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc explicitly diagnoses its own risk: the reframe's chirality-as-order-parameter idea may be imported intuition from the well-known Q-case (where Gal(Q^ab/Q) via the cyclotomic character DOES contain complex conjugation) into the K=Q(sqrt-3) case where the analogous but distinct group does not -- a same-shape-different-object confusion the arc names directly as the likely source of the original claim's error."
+   }
+  ]
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B1218_open_claim_sweep",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1218_open_claim_sweep",
+  "flags": [
+   {
+    "i": 1234,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The instrument's first run against the corpus tripped its own L154-style lock (matched itself, since its own FINDINGS quotes the test phrases it looks for) -- caught and fixed by a SELF-exclusion rule, the fifth instance of this class in the repo; correctly disclosed rather than hidden."
+   }
+  ]
+ },
+ {
+  "arc": "B1226_the_beta_odd_box",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1226_the_beta_odd_box",
+  "flags": [
+   {
+    "i": 1244,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Cell 3's forward proposal -- 'does the object's Z/2 fix the CP-conservation bit' -- is explicitly self-flagged by the arc as 'a type-match, which is a licence to ask, not an answer', i.e. the arc itself names this as exactly the type-coincidence trap this seat is instructed to flag; recorded here as the arc's own honest self-flag rather than a claimed result."
+   }
+  ]
+ },
+ {
+  "arc": "B1229_the_consistency_turn",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1229_the_consistency_turn",
+  "flags": [
+   {
+    "i": 1250,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the object's trinification Z/3 is equated with the boundary CFT's 3-primary module group purely because both have order 3; B1232 shows the actual arithmetic Galois group in play has order 2."
+   },
+   {
+    "i": 1251,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "'sigma becomes ONE BIT' / 'zero continuous dimensionless parameters' end-state language in endstate.py/FINDINGS.md rests on two OPEN/CANDIDATE rows (lambda periodicity, the P^3 Cardy cut) that are explicitly marked 'not computed here' / 'the test to run', yet the arc's headline narrative reads as if the reduction already succeeded."
+   }
+  ]
+ },
+ {
+  "arc": "B142_klein4_and_magic_cartography",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B142_klein4_and_magic_cartography",
+  "flags": [
+   {
+    "i": 106,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The corrected item explicitly documents a prior claim that rested on 'SL(2,C) character-variety complex dim (2, a symmetry slice) = rank(SU(3))' -- a dimension coincidence between an SL(2,C) object and an SU(3) Lie-algebra rank, banked here as a negative/tombstone precisely because it was such a coincidence (guard MB10). Recorded because the seat's own methodology flags this pattern class."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B17-B24 half-step kernel campaign",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1411,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "B24: 2cos(pi/5)=phi at k=3 is a numeric coincidence used to motivate SU(2)_3 compatibility, but 'the level-selection rule remains inserted' \u2014 flagged as such."
+   }
+  ]
+ },
+ {
+  "arc": "B206_golden_spin_cover_e8",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B206_golden_spin_cover_e8",
+  "flags": [
+   {
+    "i": 144,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc identifies a finite congruence-quotient shadow group (SL(2,F5)) with 'McKay-E8' purely via McKay correspondence (finite subgroups of SU(2) <-> ADE Dynkin diagrams), and the arc itself explicitly and repeatedly flags this is NOT the physics E8 gauge group / heterotic-string E8 -- an unusually well-firewalled instance of a dimension/label coincidence (E8 the McKay label vs E8 the physical gauge group) that is exactly the kind of bit-vs-value type match this seat is told to flag as a license to ask, not evidence, even though the arc itself already does so honestly."
+   }
+  ]
+ }
+]

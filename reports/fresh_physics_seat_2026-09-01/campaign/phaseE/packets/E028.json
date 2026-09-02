@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B952_gut_ledger_rank",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B952_gut_ledger_rank",
+  "flags": [
+   {
+    "i": 907,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "results.json has no generating script (no .py file in the arc directory); its numbers are hand-typed standard-Lie-theory arithmetic, and tests/test_b952_rank.py locks against that same hand-typed file plus string-matches on FINDINGS.md prose rather than an independent computation."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b952_rank.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2445,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "rank arithmetic and cascade-preserves-rank booleans asserted only from results.json, no group-theory recompute in the test itself"
+   }
+  ]
+ },
+ {
+  "arc": "B953_two_seeds_rank",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B953_two_seeds_rank",
+  "flags": [
+   {
+    "i": 908,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "no .py script in the arc directory; results.json is hand-typed and the test lock checks that same file plus FINDINGS.md string content."
+   },
+   {
+    "i": 909,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the object's abstract u(1)^3 is identified with the physically-named u(1)_Y, u(1)_chi, u(1)_psi purely because the counts match (three abelian factors, three named directions in the standard E6 descent) -- the arc itself calls this inferred, not computed, and flags it as testable only via L132's literature scouting (B951)."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b953_two_seeds.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2446,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "all numeric rank/dimension claims read from results.json without independent Lie-algebra computation in-test"
+   }
+  ]
+ },
+ {
+  "arc": "B954_both_branches",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B954_both_branches",
+  "flags": [
+   {
+    "i": 910,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "no .py script in the arc directory; results.json hand-typed, test lock checks that file and FINDINGS.md prose rather than recomputing anything."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b958_presence.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2449,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the arithmetic identity 78-62==16 is checked in-test but the underlying rank-62 figure itself is only read from results.json, not recomputed"
+   }
+  ]
+ }
+]

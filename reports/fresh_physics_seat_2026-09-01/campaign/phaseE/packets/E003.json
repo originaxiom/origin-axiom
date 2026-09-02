@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B89T_tower_route",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B89T_tower_route",
+  "flags": [
+   {
+    "i": 64,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the arc_verdict.json documents this is a retro-authored verdict, drawn purely from the arc's own FINDINGS.md rather than an independent adjudication, for an arc predating the verdict discipline"
+   }
+  ]
+ },
+ {
+  "arc": "B107_physics_connection_audit",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B107_physics_connection_audit",
+  "flags": [
+   {
+    "i": 83,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The now-withdrawn overclaim (tower eigenvalues = anomalous dimensions/masses) is exactly the kind of dimension/type-coincidence identification this seat is told to flag; it is explicitly retracted here, which is the correct outcome, but shows the pattern recurs in the corpus."
+   }
+  ]
+ },
+ {
+  "arc": "B121_monodromy_grading",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B121_monodromy_grading",
+  "flags": [
+   {
+    "i": 92,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc frames the 'principal = Hitchin/Fuchsian section' and 'monodromy = mapping-class-group action' correspondence as connecting to Hitchin systems/geometric Langlands, based on matching dim n^2-1 and det=+-1 parity structure with the Hitchin picture's known internal/external SL(2) split \u2014 this is precisely the dimension/parity-type-match pattern the seat is told to flag as a licence to ask, not evidence, though the arc itself is careful to firewall the interpretive leap to S024 and keep the proved content (dimension count + parity obstruction) separate."
+   }
+  ]
+ },
+ {
+  "arc": "B126_ladder_to_physics",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B126_ladder_to_physics",
+  "flags": [
+   {
+    "i": 95,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The headline 'rigidity propagates exactly two floors, provably' is a literature-grounded argument stitched from many external citations plus two small in-house computations (A) and (B); it is a synthesis/survey conclusion, not itself a single computed or proved result, though the arc is honest about this ('literature-grounded')."
+   }
+  ]
+ },
+ {
+  "arc": "B150_class_s_coincidence",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B150_class_s_coincidence",
+  "flags": [
+   {
+    "i": 110,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The 'FORCED' tags for the group-theoretic identification with N=2* S-duality rest on quoting Allegretti-Shan's prose that the duality acts 'on the character variety itself ... not merely on the coupling tau' \u2014 this is the arc's own stated method (a 'binding distinction' to police exactly this risk), but the underlying evidence is still literature-cited convention-matching (same cubic, same group name, same generators) rather anything computed here; the arc's own honesty language ('honest nuance ... the literature does not single out the metallic family') concedes this."
+   }
+  ]
+ },
+ {
+  "arc": "B151_firewall_confirmation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B151_firewall_confirmation",
+  "flags": [
+   {
+    "i": 111,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The verdict() function computes FIREWALL_HOLDS purely by checking that no entry in a hand-written list has tag=='CROSSING' -- i.e., the test is vacuously true by construction unless the author had themselves written in a CROSSING row. There is no independent check of the literature claims; the 'test' the FINDINGS.md references only locks 'the honesty structure', not the substance."
+   }
+  ]
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b981_two_ended.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2463,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the PROVED verdict is read directly from the arc's own arc_verdict.json"
+   }
+  ]
+ },
+ {
+  "arc": "B982_file_drawer_exemption_defect",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B982_file_drawer_exemption_defect",
+  "flags": [
+   {
+    "i": 954,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the root defect is arcs from two different seats sharing the same numeric ID (B501-B503) being conflated by a citation that matched on number alone rather than full arc name -- a textbook type/ID coincidence used as evidence."
+   }
+  ]
+ },
+ {
+  "arc": "B994_rule_variation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B994_rule_variation",
+  "flags": [
+   {
+    "i": 963,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the original error is described by the addendum as 'positional menu application' -- a step-k menu keyed only by position, applied to whichever parent occupies that slot, regardless of whether that parent's group actually admits the cited subgroup."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B995 \u2014 the census ran as sealed, returned A, and its own con",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1871,
+    "kind": "FITTED_VALUE",
+    "detail": "Sealed A adjudicated non-discriminating after the fact \u2014 'converting A to B by fiat would be the post-hoc rescue the seal exists to prevent, in the mirror direction'"
+   }
+  ]
+ },
+ {
+  "arc": "B1001_four_digit_blindspot",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1001_four_digit_blindspot",
+  "flags": [
+   {
+    "i": 969,
+    "kind": "FITTED_VALUE",
+    "detail": "arc's own text documents that a measured-frequency threshold had already been silently widened once before (0.45 to 0.40, described in the test's own docstring as 'purely by dilution') and was about to be widened a third time -- explicitly named as 'fitting, not testing' by the arc itself, and remedied by demoting the floors to loose sanity bands. Flagged and fixed here, but documents that the pattern occurred twice before being caught."
+   }
+  ]
+ },
+ {
+  "arc": "B1009_verification_pass",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1009_verification_pass",
+  "flags": [
+   {
+    "i": 977,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The arc's own text notes: 'Both seats' synthesis documents contained exactly the error their synthesis documents diagnose' -- both this arc's outgoing seat and cc3 committed the same scope-overreach error while writing documents specifically about avoiding scope overreach."
+   }
+  ]
+ }
+]

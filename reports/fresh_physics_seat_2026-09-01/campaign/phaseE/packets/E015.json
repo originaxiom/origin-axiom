@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B576_deformed_closure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B576_deformed_closure",
+  "flags": [
+   {
+    "i": 435,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "FINDINGS explicitly retracts an earlier framing that identified the theta-odd escape sector with D5/A5 subalgebras purely because their exponent sets contain {1,4} -- a dimension coincidence corrected in-arc ('the closure landscape never contained them; they are not block-sums'). Good that it self-corrected, but shows the pattern the seat should watch for elsewhere."
+   }
+  ]
+ },
+ {
+  "arc": "B579_session_handoff",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B579_session_handoff",
+  "flags": [
+   {
+    "i": 440,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The routed HINT_LEDGER items (alpha_s(M_Z)=1/(2phi^3), sin^2(theta_13)=1/phi^8, Koide<->h(27)=2/3) are exactly the pattern the seat is told to watch for -- numerology matches with no derivation, explicitly acknowledged in-arc as failed/unearned and routed to a hint ledger rather than CLAIMS.md. Correctly handled here, but the underlying observable-sounding numbers exist in the repo's hint ledger regardless."
+   }
+  ]
+ },
+ {
+  "arc": "B580_chord_program",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B580_chord_program",
+  "flags": [
+   {
+    "i": 441,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "Q1's strongest sub-claim ('theta-odd = 0 exactly') is explicitly demoted in the transcript's own banking note to 'cited-pending-computation' -- the in-sandbox-proven fact is only unreachability, not vanishing -- yet earlier prose in the same transcript states the stronger claim before the demotion is applied."
+   }
+  ]
+ },
+ {
+  "arc": "B583_chiral_content",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B583_chiral_content",
+  "flags": [
+   {
+    "i": 445,
+    "kind": "FITTED_VALUE",
+    "detail": "The original X2 cell fitted a 'torsion x transcendental phase' narrative onto a Vol/CS assembly with the physical roles of Vol and CS inverted (a dropped factor of i), producing a spurious oscillatory-phase headline later retracted; the corrected X2R keeps only the real, sign-lawful part."
+   }
+  ]
+ },
+ {
+  "arc": "B592_mirror_listener",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B592_mirror_listener",
+  "flags": [
+   {
+    "i": 450,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the braid word for 5_2 used in C4/C4-matrix is stated as 'standard' and cited rather than derived; the closure identity check via spherogram is optional and falls back silently to citation if the library is unavailable"
+   }
+  ]
+ },
+ {
+  "arc": "B59_sl4_factorization",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B59_sl4_factorization",
+  "flags": [
+   {
+    "i": 36,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "arc_verdict.json's verdict field says 'PROVED' but the claim_one_line and all prose describe a numerical/method-validated result, not a proof; 'PROVED' as the verdict enum value overstates the actual epistemic status the arc itself repeatedly disclaims."
+   }
+  ]
+ }
+]

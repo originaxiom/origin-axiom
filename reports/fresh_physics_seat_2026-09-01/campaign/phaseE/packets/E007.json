@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b272_verification_and_gaps.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2171,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "all three tests check counts/labels in CONFIRMED/CORRECTIONS/GAPS dicts written by the same codebase describing its own adversarial-review outcome \u2014 the test cannot fail unless the module's self-report changes, it does not independently re-verify the 8 confirmed claims"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b283_selfgen_scoping.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2176,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "states = {v[0] for v in b283.LEVELS.values()} reads a dict of hand-set verdict strings defined in the same module."
+   }
+  ]
+ },
+ {
+  "arc": "B293_peripheral_clock",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B293_peripheral_clock",
+  "flags": [
+   {
+    "i": 210,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "FINDINGS explicitly concedes: '\"Goldman = NZ\" is the standard interpretive identification, asserted (the two pictures each carry a symplectic structure), not an exhibited isomorphism' \u2014 a textbook case of a structural-type match (both are conjugate-pair/symplectic structures) being used to license an identification rather than a proven equivalence"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b294_selection_verdict.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2178,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "all_probes_pass() and the boolean flags are defined by the consolidation module itself, aggregating claims rather than independently recomputing them."
+   }
+  ]
+ },
+ {
+  "arc": "B296_seam_arc_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B296_seam_arc_verification",
+  "flags": [
+   {
+    "i": 212,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the verdict() function checks REDTEAM_VERDICTS=='SURVIVES' for all entries, but these are string constants set by the author, not derived from any function that re-runs the B287-B295 probes in this file."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b296_seam_arc_verification.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2179,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "REDTEAM_VERDICTS, EXTENDED_CHECKS, NOVELTY dicts are literal data in the module under test being asserted against itself."
+   }
+  ]
+ }
+]

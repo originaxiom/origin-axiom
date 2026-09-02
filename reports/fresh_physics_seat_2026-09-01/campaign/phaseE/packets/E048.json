@@ -1,0 +1,84 @@
+[
+ {
+  "arc": "B678_d4_annex",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B678_d4_annex",
+  "flags": [
+   {
+    "i": 585,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The (n=4,kappa=12)=sqrt3-1 match to a 'banked B4-landscape value' is flagged in FINDINGS.md itself as 'two campaigns, one number' -- a numeric coincidence treated as convergence rather than a derived identity between the two constructions."
+   }
+  ]
+ },
+ {
+  "arc": "B742_negatives_hunt_p1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B742_negatives_hunt_p1",
+  "flags": [
+   {
+    "i": 649,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The RECONFIRMED verdicts' witnesses (recompute/<id>/output.txt) are produced by the same seat that authored the recompute.py scripts and wrote the FINDINGS verdict table; independent adversarial checking is real for the 2 REVIVED cases (3 skeptics + banking-seat re-run) but for the 30 RECONFIRMED cases only a ~25% (ceil) 1-skeptic spot-check was preregistered, meaning ~75% of RECONFIRMED verdicts rest on the authoring seat's own scripts and outputs with no independent skeptic pass recorded in the sampled files."
+   }
+  ]
+ },
+ {
+  "arc": "B743_rung1_widened",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B743_rung1_widened",
+  "flags": [
+   {
+    "i": 653,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The entire program is a base-rate-gated dimension/digit-count coincidence search (PSLQ over real algebraic fields vs PDG ratios); Koide Q=2/3 was found in every basis, only rejected because the null rate exceeds the pre-set 0.02 threshold \u2014 a type/height match is exactly the license-to-ask the seat is told to flag, even though the arc itself correctly treats it as a null."
+   }
+  ]
+ },
+ {
+  "arc": "B754_p2_spectral",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B754_p2_spectral",
+  "flags": [
+   {
+    "i": 668,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The entire campaign's Gate 5-Q 'Q2 discrimination' methodology repeatedly certifies an operator as meaningful by showing it returns a different NUMBER or DIMENSION for the object vs. a comparator (e.g. disc -48 vs -3, palette 8 vs 1, cyclic order 5 vs 3), then treats that bare numeric/type difference as license to draw a structural conclusion. This is exactly the type-match-as-license pattern the seat is instructed to flag, run at scale across ~19 cells."
+   },
+   {
+    "i": 669,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "TOMB-L30's own skeptic (NOT REFUTED, but explicitly flagged) states the cell's Fisher-information-zero 'extension' is a tautology: 'ANY constant probability family... has Fisher information identically zero... guaranteed by the absence of k -- not by the spectral structure of the face,' and that the test actually called for (Fisher on CS/WRT data, per B738) was never run. The cell's KILL-EXTENDS verdict stands but rests on a self-acknowledged trivial/vacuous computation dressed in the campaign's spectral vocabulary."
+   },
+   {
+    "i": 670,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The entire arc's evidentiary universe is 'frozen' to exactly four earlier arcs (B737, B739, B746, B753) by explicit design (PREREGISTRATION.md, cc's ack); every cell's consultation, Q2-discrimination, and face-consultation step only cross-checks against these same four sources. Errors or gaps in those four sources (none independently audited by this seat) propagate uncorrected through all 19 verdicts."
+   }
+  ]
+ },
+ {
+  "arc": "B759_qp3_integration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B759_qp3_integration",
+  "flags": [
+   {
+    "i": 676,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The interpretive framing ('theta-odd = chord/hearing', 'theta-even = sum/being', 'the object's voices couple where it lives') layers a philosophical narrative over a bare Jacobian off-block computation; the numeric content (coupling fraction 15/32, norm sqrt3) is real and exact, but the physics-sounding vocabulary is program-internal metaphor, not measured or predicted physics."
+   }
+  ]
+ },
+ {
+  "arc": "B760_qp4_closure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B760_qp4_closure",
+  "flags": [
+   {
+    "i": 679,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The interpretive overlay ('awareness without choice', 'the object cannot close itself', S072 Layer-3) is philosophical narrative wrapped around a genuine Galois-orbit/eigenvector-canonicity argument; the math (no real eigenvector of a non-half-integer rotation) is correct and elementary, but 'awareness' is not a measured or defined physical quantity anywhere in this arc."
+   }
+  ]
+ }
+]

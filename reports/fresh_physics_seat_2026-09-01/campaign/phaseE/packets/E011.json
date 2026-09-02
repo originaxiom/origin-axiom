@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B428_upstairs_spin_walls",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B428_upstairs_spin_walls",
+  "flags": [
+   {
+    "i": 308,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'Anyons not fermions' and the SL(2,C)=Spin(3,1) bosonic/spinorial dictionary rest on a Sym-parity type-match (even Sym block = integer spin = tensorial/bosonic under SL(2,C)); the arc itself flags this is not a physics claim, but the type-coincidence is exactly what licenses the later child-program's spin-statistics framing throughout B429/B430."
+   }
+  ]
+ },
+ {
+  "arc": "B448_heartbeat_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B448_heartbeat_adjudication",
+  "flags": [
+   {
+    "i": 318,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'the chirality field (B147/B316/B444) \u2014 its THIRD independent appearance' at period 4 rests on discriminant -7 recurring across different constructions; the arc itself flags the promiscuity risk via the silver control (small discriminants recur), which is good practice, but the naming ('the chirality field') still asserts a shared identity across three different computational mechanisms based on matching discriminant value."
+   }
+  ]
+ },
+ {
+  "arc": "B449_forcing_boundary",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B449_forcing_boundary",
+  "flags": [
+   {
+    "i": 319,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'disc(trace) x disc(Alexander)' is reinterpreted post hoc as 'disc(geometry) x disc(dynamics)' once the fig-8 case is shown to work, generalized to a 'conductor law' from exactly two confirmed data points (golden, silver) plus one registered-but-unrun bronze prediction; the pattern-fit is elegant but the inductive base is thin (n=2)."
+   }
+  ]
+ },
+ {
+  "arc": "B459_klein_four_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B459_klein_four_verification",
+  "flags": [
+   {
+    "i": 323,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the arc explicitly and repeatedly flags '\u2124/2\u00d7\u2124/2 \u2245 C\u00d7P' as a structural predicate that cannot fire H1 alone and is HELD per standing rules -- this is good discipline, but the underlying observation (Klein-four Galois group of a biquadratic field matching the abstract group structure of C, P) is exactly the kind of bit/type coincidence this seat is instructed to flag regardless of how it's disposed of."
+   }
+  ]
+ },
+ {
+  "arc": "B467_family_residue_wall",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B467_family_residue_wall",
+  "flags": [
+   {
+    "i": 330,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "F1's whole design is an explicit attempt to guard against a bit-vs-value dimension-coincidence identification (metallic eigenvalue ratios 'looking like' CKM mixing parameters, the classic B428-lineage trap); the arc's own discipline (fixed function class, null model, HELD naming rule) is the correct response and the scan comes back null, so the identification-by-type temptation is explicitly tested and rejected rather than asserted."
+   }
+  ]
+ },
+ {
+  "arc": "B476_interaction_algebra",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B476_interaction_algebra",
+  "flags": [
+   {
+    "i": 339,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The refuted claim itself ('span 36 = gl(2) x gl(3) = SM gauge algebra') is flagged in-arc as exactly this type of trap; correctly caught and refuted by the arc's own authors, but recorded here per the seat's licence-to-ask duty."
+   }
+  ]
+ }
+]

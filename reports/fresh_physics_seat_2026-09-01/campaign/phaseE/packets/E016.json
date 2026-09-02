@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B604_rosetta_blocks",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B604_rosetta_blocks",
+  "flags": [
+   {
+    "i": 466,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The D5/16 labeling scheme and the 'gauge-matter mixing' physics reading are explicitly flagged in the arc's own text as chat-1's interpretation layered on top of pure subsystem/coset root-content math; the arc firewalls this but the labels (D5=gauge-like, 16=matter-like) still rest on a structural/type coincidence with Spin(10) GUT nomenclature, which is a licence to ask, not evidence of a physical identification."
+   }
+  ]
+ },
+ {
+  "arc": "B608_rosetta_gsm",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B608_rosetta_gsm",
+  "flags": [
+   {
+    "i": 468,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The chain E6 \u2283 D5\u00d7U(1) \u2283 A4\u00d7U(1) \u2283 su(3)+su(2)+U(1)_Y is labeled using exactly the SM gauge-group names (su(3), su(2), U(1)_Y); this labeling is a licence to ask whether the object's structure matches the Standard Model, not evidence that it does, since the arc's own firewall statement concedes 'the gauge/matter reading stays firewalled as interpretation.'"
+   }
+  ]
+ },
+ {
+  "arc": "B634_conductor_chord",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B634_conductor_chord",
+  "flags": [
+   {
+    "i": 491,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "G4's premise ('the closed manifold restores permutation symmetry [for the Yukawa]') was asserted in the prereg as an expected outcome but is mathematically false by graded commutativity (Koszul sign rule) on any closed oriented 3-manifold \u2014 caught before any G2-G5 computation ran, per ERRATUM_1 point 3."
+   }
+  ]
+ },
+ {
+  "arc": "B63_sl4_symbolic_m",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B63_sl4_symbolic_m",
+  "flags": [
+   {
+    "i": 44,
+    "kind": "FITTED_VALUE",
+    "detail": "The claimed 'exact' Z[m] polynomial factorization is derived by interpolating numerically-computed eigenvalue sums across m=1..6 (degree-4 polynomial fit to 6 points, i.e. only 2 points of over-determination) rather than by a from-scratch symbolic derivation; the arc is honest that this is 'computer-assisted... not the hand-built Procesi trace ring', but arc_verdict.json's 'PROVED' does not convey that the underlying data points are numeric extrapolations at finite precision (max-match grows to ~0.2 absolute at m=6)."
+   }
+  ]
+ },
+ {
+  "arc": "B647_core_mechanism",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B647_core_mechanism",
+  "flags": [
+   {
+    "i": 511,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "arc_verdict.json's claim_one_line asserts the core ratio Y[023]=24*zeta6*Y[123] IS forced by Y-compose-sigma*=conj(Y); FINDINGS.md's cell 1 (the same computation) states plainly 'the core ratio is NOT forced \u2014 its residual is ONE R-linear condition among the six frees', and the arc's own final resolution (cell 3) declares the ratio a GAUGE artifact with no mechanism needed. The verdict.json was apparently never updated after cell 2/cell 3 superseded cell 1's framing, and its literal wording contradicts the arc's own primary source file."
+   }
+  ]
+ },
+ {
+  "arc": "B650_typed_functor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B650_typed_functor",
+  "flags": [
+   {
+    "i": 515,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the wave-2 'positive identification' (the functor exists 'one level up' as group-functorial, composed with B644's congruence-shadow theorem) is asserted by analogy/reasoning after the negative linear result, not itself computed as a functor-verification in this arc's files; it imports B644's theorem wholesale as the answer without an independent check inside B650."
+   }
+  ]
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b1153_peripheral_and_superposition.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2072,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_evidence_present only checks the literal string 'REPRODUCES' appears inside the committed reproduce*.sh script text, not that running it now reproduces anything"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1157_dynamics_null.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2074,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_evidence_present only checks the literal string 'REPRODUCES' appears inside the committed reproduce*.sh script text, not that running it now reproduces anything"
+   }
+  ]
+ },
+ {
+  "arc": "B1159_mssm_debt_ledger",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1159_mssm_debt_ledger",
+  "flags": [
+   {
+    "i": 1164,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Link B's selection of E8xE8 over Spin(32)/Z2 rests on a dimension mismatch (78 vs 326) between the SU(3)-commutant and E6/SO(26)xU(1) \u2014 a type/dimension coincidence used as the selector, with the arc itself flagging 'no functor identifies m004's McKay object with a heterotic bundle.'"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1159_mssm_debt_ledger.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2076,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1160_hypercharge_forced.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2077,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1161_frontier_sweep.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2078,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ }
+]

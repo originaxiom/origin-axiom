@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b980_k3_conflation.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2462,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the volume/CS=0 and gauge-group-defect claims are partly read from results.json rather than recomputed"
+   }
+  ]
+ },
+ {
+  "arc": "B1022_functor_phase1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1022_functor_phase1",
+  "flags": [
+   {
+    "i": 986,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "C8 asserts 'Gate 5 itself is the proof by practice' for the structure functor's existence -- a governance-policy argument, not a mathematical derivation; the ADDENDUM itself later concedes this leg fell."
+   }
+  ]
+ },
+ {
+  "arc": "B1023_phase2_concessions",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1023_phase2_concessions",
+  "flags": [
+   {
+    "i": 988,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The whole cell rests on whether 'the gravitational sigma' and 'the stage's sigma' are literally the same object because both are called sigma and both give c=6 -- flagged in-arc itself as pending L154, i.e. the type-coincidence has not yet been proven, only licensed as a candidate."
+   }
+  ]
+ },
+ {
+  "arc": "B1111_w5_scoping",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1111_w5_scoping",
+  "flags": [
+   {
+    "i": 1119,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "Layer 3 (stabilizer sampling of 25 transversal pairs; subgroup orders {8,16,24,96}, order-24 pairs existing) is asserted in FINDINGS.md and arc_verdict.json but has zero corresponding code in the one committed script, which implements only layers 1 and 2."
+   }
+  ]
+ },
+ {
+  "arc": "B1145_sp2_fermion_seat",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1145_sp2_fermion_seat",
+  "flags": [
+   {
+    "i": 1150,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The A1 su(2) here is explicitly internal to E6 (centralizer su(6)), not the 4d Lorentz group; its +/-1 parity is an internal quantum number, not a 4d Weyl-spinor chirality -- the arc itself flags that identifying this closure with 'the generation's kinematic seat' is a thesis-level physical over-reading, not a proved identification, precisely the bit-vs-value coincidence this seat is meant to catch."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1156_seam_a_gate2.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2073,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_evidence_present only checks the literal string 'REPRODUCES' appears inside the committed reproduce*.sh script text, not that running it now reproduces anything"
+   }
+  ]
+ }
+]

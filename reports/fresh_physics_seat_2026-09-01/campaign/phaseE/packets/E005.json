@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B169_isomonodromy_flow",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B169_isomonodromy_flow",
+  "flags": [
+   {
+    "i": 128,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "P3 (the 'firewall-relocation verdict' \u2014 the arc's physics-adjacent conclusion that any scale must be external to the Hitchin/dynamical side) is checked in isomonodromy.py via two chk() calls with a hard-coded True condition, not a computation; FINDINGS.md itself correctly labels P3 '[structural / POSTULATED]', but arc_verdict.json's verdict is a flat 'PROVED' with no qualifier distinguishing the exact P1/numeric P2 content from the postulated P3 content"
+   }
+  ]
+ },
+ {
+  "arc": "B176_golden_privilege",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B176_golden_privilege",
+  "flags": [
+   {
+    "i": 131,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the paper explicitly notes the P000 anchor-choice ('phi = maximally resists the trivial') and this arc's spectral golden-privilege are tied only by a shared property (phi extremal-irrational) \u2014 a rhyme, correctly firewalled one-way, but still worth flagging since it is exactly the pattern the seat watches for."
+   }
+  ]
+ },
+ {
+  "arc": "B178_perturbative_mechanism",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B178_perturbative_mechanism",
+  "flags": [
+   {
+    "i": 133,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "claim_one_line and verdict say 'PROVED' for a mechanism whose central quantitative prediction (integer power-law exponent = 2) the same script's own numerics show plateauing at ~1.7, explicitly not reaching 2; the FINDINGS text is honest about this ('NOT cleanly resolved to 2') but the verdict label PROVED sits atop an admittedly unconfirmed exact claim."
+   }
+  ]
+ },
+ {
+  "arc": "B196_entropy_conformal_dimension",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B196_entropy_conformal_dimension",
+  "flags": [
+   {
+    "i": 138,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "A CFT conformal dimension Delta is identified with a dimensionless, negative (non-unitary) quantity derived from topological entropy purely because the Painleve-VI/GIL dictionary formally assigns a Liouville momentum to any hyperbolic monodromy trace; the arc itself flags this forces 'no physical content' (dimensionless, non-unitary, no scale) and is firewalled from CLAIMS.md -- the identification is a structural/dictionary match, not a measured or derivable physical quantity."
+   }
+  ]
+ },
+ {
+  "arc": "B208_period_congruence_unification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B208_period_congruence_unification",
+  "flags": [
+   {
+    "i": 146,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md claims 'an independent re-audit found 0 failures to m=300 000 via sympy.factorint' but the committed period_congruence.py only asserts up to m=200; the 300,000 claim is not reproducible from the committed file in this arc"
+   }
+  ]
+ },
+ {
+  "arc": "B209_ktheory_classical_quantum_boundary",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B209_ktheory_classical_quantum_boundary",
+  "flags": [
+   {
+    "i": 147,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "FINDINGS.md itself flags this: 'the actual K-groups of a specific icosahedral tiling are a separate (known, involved) computation; here is the representation-theoretic content' and 'This is the McKay/representation-theoretic E8, not physics' E8' -- the arc's own text warns readers not to over-read the E8/K-theory framing as physical"
+   }
+  ]
+ }
+]

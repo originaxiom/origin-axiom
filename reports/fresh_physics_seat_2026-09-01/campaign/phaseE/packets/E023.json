@@ -1,0 +1,84 @@
+[
+ {
+  "arc": "TEST:tests/test_b778_cleanup.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2358,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_w5139_genus_41_reproduced, test_h133_genuine_zero_hardens, test_cleanup_partial_shape read verdict fields from stored results.json"
+   }
+  ]
+ },
+ {
+  "arc": "B779_convergence_probe",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B779_convergence_probe",
+  "flags": [
+   {
+    "i": 720,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "R2's six 'golden identities' are largely algebraic consequences of the mixing number's own definition once the two literal torsion values -3 and -5 are fixed by hand; presenting them as a 'cross-check' between two independently-computed arcs (B753 quantum-topology, B425 classical-topology) risks reading definitional self-consistency as an empirical convergence \u2014 a type match (both quantities live in the same golden/Eisenstein number-theoretic ecosystem) is being read as physical significance ('the two-column law... appearing inside the mixing matrix itself')."
+   }
+  ]
+ },
+ {
+  "arc": "B780_galois_reversal_gate",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B780_galois_reversal_gate",
+  "flags": [
+   {
+    "i": 723,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "classify(*c_sig) and classify(*theta_sig) are called on literal ground-truth tuples that were never derived from the S1/S2/S3 booleans computed above them in the same file; the 'swap fails' test (line 97: swap_c_in_theta_slot = classify(*c_sig)) is testing the SAME literal against the SAME classify() function that trivially maps it by definition \u2014 no computed fact could ever make the gate fail, which is exactly the vacuity the arc's own retraction names."
+   },
+   {
+    "i": 724,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The original (pre-retraction) FINDINGS.md and results.json headline claimed the gate 'halves the Phase-3 correspondence enumeration 8->4', a phenomenological/interpretive claim about which correspondence 'survives'; the actually-computed content (S1-S3 discriminating facts) supports only that c and theta are distinguishable objects, not that any enumeration is thereby halved \u2014 this gap is exactly what B784 retracted."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b781_sister.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2362,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_sister_residual_closed reads verdict/distinguished/homology fields from the arc's own results.json"
+   }
+  ]
+ },
+ {
+  "arc": "B782_choice_incomputability",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B782_choice_incomputability",
+  "flags": [
+   {
+    "i": 727,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc firewalls its own interpretive content correctly in text ('the observer/Born interpretation is priced to C18, firewalled... No consciousness claim'), but the underlying move \u2014 reading an abstract regular-action-has-no-fixed-point fact (true for ANY nontrivial group acting on itself, not special to this object) as 'the object structurally cannot choose, so an observer is needed' \u2014 is exactly a dimension/structure-type coincidence being offered as physical necessity; the group-theoretic content computed here (freeness of a regular action) is a tautology once the (Z/2)^3-torsor premise (imported from B766/C20) is granted."
+   }
+  ]
+ },
+ {
+  "arc": "B783_observer_ground_zero",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_audit",
+  "arc_dir": "frontier/B783_observer_ground_zero",
+  "flags": [
+   {
+    "i": 730,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "B1 declares P16.1 (tracking=theta) 'CONFIRMED... Confidence: HIGH' based on a word-level algebraic identity (sigma_mirror = R.sigma.R), but the arc's own adversarial pass (C2 Attack B) shows no trace-map intertwining was demonstrated between this word-level theta and the character-variety theta of A2 -- 'they share a name but not a demonstrated mathematical connection.' The HIGH-confidence label in B1 is not walked back to reflect this gap even though C2 (same arc) identifies it as the second-strongest attack."
+   },
+   {
+    "i": 731,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The entire proposal-#16 framework identifies pointer 'binary choices' (direction, tracking, level) with the F_2^3 torsor generators (theta, gamma_5, c) chiefly because both sides are Z/2-valued; the arc's own Attack D ('Bit-type coincidence is not structure') calls two of the three assignments 'numerological or worse' precisely on these grounds."
+   }
+  ]
+ }
+]

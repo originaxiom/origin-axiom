@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B8093_L171_clpw",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8093_L171_clpw",
+  "flags": [
+   {
+    "i": 1287,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The whole exercise is explicitly a search for a 'MATCH' between this repo's algebraic construction and CLPW's, guided against a pre-declared trap for coincidences that are near-vacuous by the uniqueness of the hyperfinite II_1 factor (criterion (c)) \u2014 the arc itself flags this risk rather than falling into it, which is worth noting as a correctly-caught instance of the type-coincidence trap."
+   }
+  ]
+ },
+ {
+  "arc": "B8094_L173_anchors",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8094_L173_anchors",
+  "flags": [
+   {
+    "i": 1288,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The arc's own headline structural_fact ('the phason phase these experiments adiabatically scan IS the Sturmian intercept') asserts an identification between a repo-internal mathematical free parameter and a specific experimental control knob, while simultaneously and explicitly admitting the decisive check \u2014 whether the repo's predicted edge-mode counts (5 vs 6, from B1085) differ at all from what the standard gap-labeling theorem already forces for the same configuration \u2014 has not been run. If gap labeling already forces the counts, the 'prediction' is a re-derivation of textbook physics, not new content, and the arc says so itself."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B854: the centralizer of 2T in e6 is ABELIAN (u(1)^4), compu",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1733,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Relay's numerical rank-4 restriction with one small eigenvalue misread as 'rank 3 plus a zero mode' (the su(2)+u(1) signature) \u2014 a residual-driven type misidentification."
+   }
+  ]
+ },
+ {
+  "arc": "B897_27_under_g20",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B897_27_under_g20",
+  "flags": [
+   {
+    "i": 845,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The '(1_c,3_f)' block splitting 3+6 under su(2)' is read as 'the lepton pattern' (L-doublet triplet + singlet triplet) purely from dimension/multiplicity matching (3=w-singlet triplet, 6=w-doublet triplet) -- no actual weak-doublet quantum numbers, hypercharges, or SM Lagrangian couplings are computed; it is a dimension-count analogy to SM generation structure."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:Session 3 synthesis: 2025 field theory \u2194 2026 algebraic skel",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1394,
+    "kind": "FITTED_VALUE",
+    "detail": "B8's m/g\u22481.6117 explicitly flagged as 'an honest near-miss, explicitly NOT phi (delta\u22480.0063) \u2014 recorded under disclaimer so it is not later mistaken for a result (cf. D-class numerology).'"
+   }
+  ]
+ },
+ {
+  "arc": "LOG:## REVIEW 21 \u2014 EXECUTED 2026-07-17 (THE CONSTITUTIONAL PILOT",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1959,
+    "kind": "FITTED_VALUE",
+    "detail": "\"the C2 design's 'unpublished by causality' was FALSE (JUNO's paper predated the seal by 8 months) ... both seats' '~9\u03c3' separation tables were asserted-not-computed (actual: 0.88\u03c3 at 4/13)\" \u2014 an asserted-not-computed statistic corrected by actual computation."
+   }
+  ]
+ }
+]

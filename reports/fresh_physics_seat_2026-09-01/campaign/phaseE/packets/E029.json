@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b959_nontoral.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2450,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the group-theoretic census (63 involutions, hatch ranks) is only checked against results.json, not recomputed in this file"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b961_frame.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2452,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "'reproduces from scratch' claims (independent derivation of B892/B958 numbers) are checked only against this arc's own results.json, not by recomputing the Killing form in the test"
+   }
+  ]
+ },
+ {
+  "arc": "B962_vev_scout",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B962_vev_scout",
+  "flags": [
+   {
+    "i": 920,
+    "kind": "FITTED_VALUE",
+    "detail": "None found beyond the corrected scope error -- flagged instead under RETRACTION_NOT_PROPAGATED."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b963_tau.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2453,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "tau_nontrivial and the scope-correction dict are read only from results.json"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b964_correction.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2454,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "error_1/error_2 correction text is checked only against results.json"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b965_scope_audit.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2455,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "audit counts are asserted only from the audit's own results.json, no independent re-scan of LAW_MAP.md rows in this test"
+   }
+  ]
+ }
+]

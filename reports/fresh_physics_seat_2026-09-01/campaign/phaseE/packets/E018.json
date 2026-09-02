@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B665_landscape_reconciliation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B665_landscape_reconciliation",
+  "flags": [
+   {
+    "i": 552,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The general shadow-class law's derivation is credited to 'B644's shadow functor + B654's identification, explicit' but this arc itself contains no computation of the general functor claim \u2014 only specific witness spot-checks of consequences of it. The law is asserted as an identity (tone == hearing modulus/2) built by composing two other arcs' results; whether that composition is watertight was not independently checked in this pass."
+   }
+  ]
+ },
+ {
+  "arc": "B666_leads_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B666_leads_campaign",
+  "flags": [
+   {
+    "i": 554,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The metallic-McKay descent narrative (golden/2I/E8, silver/2O quotient/E7, bronze/2T/E6) turns on matching each word's numeric conductor (5, 8, 3) to a specific finite subgroup via 'SL(2)-realizability' -- a structural criterion, but one whose selection (why THESE three exceptional groups, why these three conductors count as 'the' metallic family) was not independently re-derived by me; I could not verify from the files I opened whether the correspondence is forced by the arithmetic or curve-fit to the three cases in hand."
+   }
+  ]
+ },
+ {
+  "arc": "B670_anatomy_full",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B670_anatomy_full",
+  "flags": [
+   {
+    "i": 562,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The 'metallic-universal frame' claim (golden and silver holonomies fix the SAME sharp-fixed invertible v0) rests on exactly two data points, both built from the same shared rational Cartan-cubic tensor apparatus (as FINDINGS_CC2.md itself notes) \u2014 the identity of values (not just form) across golden/silver is honestly flagged by the authors as traceable to shared machinery, but the 'universal' framing in ATLAS.md/downstream still reads as though it were an independent structural coincidence across two unrelated objects."
+   }
+  ]
+ },
+ {
+  "arc": "B671_eigenvalue_extraction",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B671_eigenvalue_extraction",
+  "flags": [
+   {
+    "i": 564,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md states the exact numeric coefficient of the generation sum rule '(7983360/13)*omega' as a headline result of this arc, but this arc's own committed extract_output.txt never prints that number (only d1's key list and an 800-char-truncated dump); the actual value traces to an external, not-committed-here d1_results.json read via an env-var-overridable path."
+   }
+  ]
+ },
+ {
+  "arc": "B672_grading_hunt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B672_grading_hunt",
+  "flags": [
+   {
+    "i": 565,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The H-CUSP principle (that hearing must quantize through the Coxeter-ring commutant, as opposed to full-Weyl or bare Q-linear equivariance) is explicitly named by the authors as a choice made because it is the 'unique intermediate canonical arithmetic' -- i.e. selected because it is the option under which A2 and A4 come out differently, which is itself a dimension/structure-fit argument rather than an independently motivated physical requirement."
+   }
+  ]
+ },
+ {
+  "arc": "B674_generation_leg",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B674_generation_leg",
+  "flags": [
+   {
+    "i": 575,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The W2 Molien design's motivating match (D3 in W2_DESIGN_NOTE_GAMMA5.md) rests substantially on the observation that an order-10 (order-5 projective) operator's Molien product 'generically' produces mod-5 selection patterns matching the RR streams' mod-5 exponent structure -- a dimension/residue-class coincidence used as design motivation before the actual coefficient comparison (which then failed at n=0/1, w2_step3). The arc is explicit that this was 'design motivation only' and the comparison itself was the real test, which is good practice, but the initial appeal of the whole W2 cycle traces to this type-level coincidence."
+   }
+  ]
+ }
+]

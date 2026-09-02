@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b1158_cloud_wave2_harvest.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2075,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_evidence_present only checks the literal string 'REPRODUCES' appears inside the committed reproduce*.sh script text, not that running it now reproduces anything"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1163_w0_attempt.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2080,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_reproduce_runner_committed_and_reproduces only checks the committed reproduce*.sh/output .txt contains the literal string 'REPRODUCES', not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "B1168_c5_investigation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1168_c5_investigation",
+  "flags": [
+   {
+    "i": 1176,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The core 'decider' rests on classifying data into a 2x2 grid (mirror-even/odd x dimensionless/dimensionful) with only 4-8 example data points; the claim that this exhausts every possible archimedean datum ('the completeness of the law') is explicitly unproven and deferred, yet the FINDINGS.md prose ('C5 is NOT a free choice... settled by a law') reads as though the classification is exhaustive."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1168_c5_investigation.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2085,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce-runner check only greps the literal string 'REPRODUCES' inside a committed script/output file, not a live re-execution"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1174_z2_identification.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2092,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce-runner check only greps the literal string 'REPRODUCES' inside a committed script/output file, not a live re-execution"
+   }
+  ]
+ },
+ {
+  "arc": "B1192_close_loop_batch4",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1192_close_loop_batch4",
+  "flags": [
+   {
+    "i": 1204,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "GC-17's CANDIDATE verdict (the one holding back a clean four-for-four negative) rests on an uncomputed absence claim, flagged by the cell's own internal review as a house-rule violation."
+   }
+  ]
+ }
+]

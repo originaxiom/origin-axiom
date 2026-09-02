@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_w2_step3_kill.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2491,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_verdict_banked reads the arc's own STEP3_VERDICT.md and asserts it contains the arc's own claimed verdict string \u2014 this cannot fail unless someone edits the file, and does not independently establish the kill result."
+   }
+  ]
+ },
+ {
+  "arc": "B24_anyon_quantum_bridge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B24_anyon_quantum_bridge",
+  "flags": [
+   {
+    "i": 15,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The numeric coincidence k+2=5 matching the discriminant 5 elsewhere in the project is exactly the bit-vs-value type-match the seat's rules flag; the arc correctly refuses to accept it as a derivation and marks the level k=3 as inserted, not selected."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B25 Fibonacci spectrum anchor",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1410,
+    "kind": "FITTED_VALUE",
+    "detail": "'Without a derivation, it is not a falsifiable prediction of the core' \u2014 lambda/h=1 is used as input, motivated not derived, matching the pattern flagged throughout the B17-B47 campaign."
+   }
+  ]
+ },
+ {
+  "arc": "B62_opposition_involution",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B62_opposition_involution",
+  "flags": [
+   {
+    "i": 41,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The 'convention' that fixed roots belong to the theta+1 (symmetric) sector is explicitly stated in probe.py's own docstring as 'fixed empirically by SL(3)' -- i.e. calibrated to reproduce one known answer, then applied to predict SL(5). The arc itself is honest about this ('not proved... only the height-2 sign/direct split') but it is a genuine risk that the labeling convention was reverse-engineered from the one case it needed to match."
+   }
+  ]
+ },
+ {
+  "arc": "B74_higher_spin_grading",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B74_higher_spin_grading",
+  "flags": [
+   {
+    "i": 57,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the \"literal shared involution\" claim rests on both W_N charge-conjugation and Dickson m-parity being instances of the SAME abstract A_{n-1} involution (-w0) acting on a degree-k invariant \u2014 a genuine algebraic identity, not a coincidence of dimension, but the FINDINGS text itself explicitly warns the dynamical extension (metallic eigenvalues = higher-spin CFT spectrum) is SPECULATIVE-ANALOGY with no supporting computation, i.e. the arc correctly self-flags where the type-match stops being evidence."
+   }
+  ]
+ },
+ {
+  "arc": "B76_cusp_quantum_group",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B76_cusp_quantum_group",
+  "flags": [
+   {
+    "i": 59,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the F2 result rests on both the cusp value and the quantum-group [2]_q value being the same cyclotomic number 2cos(pi/k) \u2014 the arc itself calls the deeper reading (\"anyonic TQFT\") a claim resting \"on nothing more than 'both are roots of unity'\" and correctly labels it SPECULATIVE-ANALOGY rather than a genuine physics bridge."
+   }
+  ]
+ }
+]

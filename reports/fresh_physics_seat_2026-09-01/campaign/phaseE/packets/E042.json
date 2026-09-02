@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b1172_lose_nothing_register.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2090,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce-runner check only greps the literal string 'REPRODUCES' inside a committed script/output file, not a live re-execution"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1173_digest_partial_close.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2091,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce-runner check only greps the literal string 'REPRODUCES' inside a committed script/output file, not a live re-execution"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1175_charter_close_harvest.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2093,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce-runner check only greps the literal string 'REPRODUCES' inside a committed script/output file, not a live re-execution"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1176_record_surface_wave.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2094,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce-runner check only greps the literal string 'REPRODUCES' inside a committed script/output file, not a live re-execution"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1180_family_retraction.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2098,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce.sh check only greps a literal marker string in a committed script, not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "B1181_amphichirality_closure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1181_amphichirality_closure",
+  "flags": [
+   {
+    "i": 1186,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "An addendum dated 2026-09-01 in the sibling arc B1186 (this fresh-physics-seat campaign) shows the 'mirror-isometry method' this arc explicitly chose to avoid a known vacuity trap (isometry_signature) is itself vacuous in SnapPy: reverse_orientation()+is_isometric_to() is orientation-blind and returns True on every input. The chain of claims '14/14\u219283/83\u2192111/111\u2192112/112 amphichiral' across B1180/B1181/B1186 is therefore not a real result; recomputed with symmetry_group().is_amphicheiral() the true count on the 112-member family is 38/112."
+   }
+  ]
+ }
+]

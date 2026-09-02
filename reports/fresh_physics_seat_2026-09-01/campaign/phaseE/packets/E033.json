@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B1033_generation_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1033_generation_adjudication",
+  "flags": [
+   {
+    "i": 1015,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The whole arc exists specifically to un-do an earlier type-coincidence identification (B897's 9-block split as 'flavor'/generation structure) that turned out to be a chiral/SU(3)_R index instead -- a textbook case of a dimension/index-count match being mistaken for a physical identification, caught here but only after being banked as STRUCTURAL and cited elsewhere for some time."
+   }
+  ]
+ },
+ {
+  "arc": "B1033_register_reconciliation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1033_register_reconciliation",
+  "flags": [
+   {
+    "i": 1017,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The arc explicitly documents 'six instances across five arcs' of the same self-inflating-coverage-count hazard within this consolidation campaign, and this specific arc's own headline number moved from 245 to 251 to 234 partly because of a bug (working tree rewound) rather than legitimate consolidation activity -- a debt/coverage metric this volatile, self-referential, and admittedly bug-affected is weak evidence of anything beyond internal bookkeeping churn."
+   }
+  ]
+ },
+ {
+  "arc": "B1034_two_kappas",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1034_two_kappas",
+  "flags": [
+   {
+    "i": 1020,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The whole point of this arc is a real, caught instance of exactly the kind of bit-vs-value/type confusion this seat is instructed to flag: a shared symbol name (kappa) attached to two type-incompatible objects (a constant vs. a coordinate with a locus), with the physics-facing SESSION3_SYNTHESIS.md doc having already conflated them ('Coupling: g = kappa = 0.8608') before this arc caught it."
+   }
+  ]
+ },
+ {
+  "arc": "B1036_mirror_double",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1036_mirror_double",
+  "flags": [
+   {
+    "i": 1027,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc explicitly and repeatedly fences its own multiplicity result: 'a banked operation that increases the class count' is not automatically a generations mechanism, since the count 5 (=2+2+1) does not match 3 and the arc states any generation reading 'would need a further mechanism and is not claimed' -- a self-aware caution against exactly the type-vs-generations conflation this seat is asked to watch for."
+   }
+  ]
+ },
+ {
+  "arc": "B1040_isomonodromy_restored",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ns",
+  "arc_dir": "frontier/B1040_isomonodromy_restored",
+  "flags": [
+   {
+    "i": 1033,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "B169's P1 was tagged [exact] for what is actually only an eigenvalue-algebra computation; the substantive identification (lambda_m^2 as the dynamical degree) is Cantat-Loray's theorem, carried by citation, not computed anywhere in the cluster -- caught and corrected by this restoration arc."
+   }
+  ]
+ },
+ {
+  "arc": "B1041_theta_leg",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1041_theta_leg",
+  "flags": [
+   {
+    "i": 1035,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The core pairing theta<->sqrt(-7) is established by elimination (two legs already banked, one radical left) plus a finite compatibility check that the remaining assignment is consistent -- the underlying input vectors (which axis each operation flips, which radical each sigma negates) are hardcoded from prior arcs' claims rather than derived fresh here, so the 'exhibition' is really a consistency verification of a type/cardinality-matched labeling, not an independent derivation of the correspondence."
+   }
+  ]
+ }
+]

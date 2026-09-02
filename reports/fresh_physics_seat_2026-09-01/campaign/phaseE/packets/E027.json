@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B933_spinor_hejhal_design",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B933_spinor_hejhal_design",
+  "flags": [
+   {
+    "i": 891,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "arc_verdict.json's claim_one_line asserts 'THE LITERATURE BLANK HELD' in confident present tense, while the arc's own FINDINGS.md text says the literature sweep is arXiv-only and incomplete and that 'no \"first\" sentence banks' until it is completed -- the verdict file states more firmly than the underlying document supports."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b943_priority.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2438,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reads B943's own results.json as both source and target of assertions; no independent recompute in this test"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b944_sweep.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2439,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "tallies and scoping booleans asserted straight from the arc's own results.json"
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B946 amendment: the residue primes are class-sorted, one fro",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1819,
+    "kind": "FITTED_VALUE",
+    "detail": "Explicit self-flag: 'BASE RATE STATED BECAUSE TWO POINTS IS TWO POINTS ... nowhere near significant. This is a pattern worth a prereg, not a law.'"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b947_thinning.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2442,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "family pass/fail split (5 hold, kappa_compact/mu_charge fail) read only from results.json"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b949_ignorance.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2443,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "obstacle_table counts and per-type resolved_pct ordering asserted only from results.json"
+   }
+  ]
+ }
+]

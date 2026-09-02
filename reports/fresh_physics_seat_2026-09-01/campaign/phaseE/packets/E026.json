@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B853_two_faces_ssb",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B853_two_faces_ssb",
+  "flags": [
+   {
+    "i": 799,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The overall synthesis rests on placing SSB ingredients (order parameter, potential, vacua) that exist on a Q(sqrt5) 'face' and object-specificity (class group) that exists on a Q(sqrt-3) 'face' into a single narrative via B261's claim that 'one AJ operator carries both ends' -- explicitly flagged by the arc itself as 'an analogy and not a result... needs its own gate before it carries anything', so the synthesis's physical interpretation (that this is one coherent SSB mechanism) is presently a structural coincidence across two number fields rather than a demonstrated single mechanism."
+   }
+  ]
+ },
+ {
+  "arc": "B861_fused_cascade",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B861_fused_cascade",
+  "flags": [
+   {
+    "i": 807,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The representation-content menus at each cascade step (which irreps the 27/16/10+5bar decompose into under each candidate subgroup) are entered as hardcoded data matching standard GUT branching tables, not computed from an explicit embedding/root-system construction within this script -- a type-match against textbook group theory rather than an independent derivation."
+   }
+  ]
+ },
+ {
+  "arc": "B882_magic_square_naming",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B882_magic_square_naming",
+  "flags": [
+   {
+    "i": 831,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The core claim is a dimension/structure match (so(8)+u(1)^2+3x16, dim 78) between the repo's build and a classical named object (M(O,C)); FINDINGS.md itself records that a secondary source's competing claim ('tri(C)=so(3)') was caught purely by dimension arithmetic (28+3+48 != 78), which is exactly the kind of type-coincidence reasoning this seat is asked to flag as a license to ask, not evidence -- though in this case the repo's own check correctly used it to REJECT a wrong identification rather than accept one, which is the right use."
+   }
+  ]
+ },
+ {
+  "arc": "B892_second_measurement",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B892_second_measurement",
+  "flags": [
+   {
+    "i": 839,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the original claim ('takes E6 to the Standard Model algebra') is off by construction: the computed object is 14-dimensional with THREE abelian factors, while the real Standard Model gauge algebra su(3)+su(2)+u(1) is 12-dimensional with ONE abelian factor -- a category error between 'a Levi subalgebra containing the SM factors' and 'the SM algebra itself', caught two corrections later (B950, B951) but never repaired in this arc's own verdict file"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b906_flavor.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2424,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_w4_theorem_recheck_from_the_tower_pickle's own comment admits the pickle isn't available in this environment and the 'recheck' is just re-reading the same results.json field ('identically zero' string), not an independent recomputation from the pickle as the name implies."
+   }
+  ]
+ },
+ {
+  "arc": "B916_lambda_bridge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B916_lambda_bridge",
+  "flags": [
+   {
+    "i": 863,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The arc's own law-status classification (creates_law: false) was performed by a later arc (B1214) that explicitly did NOT read this arc in full before flipping its classification, per its own stated basis field -- a downgrade made on a headline read, not a full audit."
+   }
+  ]
+ }
+]

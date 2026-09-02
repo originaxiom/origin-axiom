@@ -1,0 +1,84 @@
+[
+ {
+  "arc": "B605_door2_involution",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B605_door2_involution",
+  "flags": [
+   {
+    "i": 467,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "FINDINGS.md describes the phi(a)=A and phi(a)=B families as 'ORDER-4 elements, exactly matching D4's coset structure', but the committed script's own classify() function labels these same two cases 'OTHER' (unrecognized S matrix), never confirming an order-4 identification in its printed output."
+   }
+  ]
+ },
+ {
+  "arc": "B619_a5_bridge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B619_a5_bridge",
+  "flags": [
+   {
+    "i": 472,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The arc itself is built to refute an identification-by-type claim (order 60 = |A5|) from a prior chat turn, and correctly does so by computing the actual group order (20) rather than accepting the numeric coincidence; flagged here because the underlying pattern (numeric coincidence -> group identity) recurs across the campaign and this arc is a good example of it being caught."
+   }
+  ]
+ },
+ {
+  "arc": "B646_wave2_integration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B646_wave2_integration",
+  "flags": [
+   {
+    "i": 507,
+    "kind": "FITTED_VALUE",
+    "detail": "N2's amended (stage-split) clock law was constructed after observing which 7 of 19 rungs the verbatim H-R2 rule missed (12/19), i.e. the k=1/k=2 anomaly clauses are a post-hoc pattern extraction from the failure set, then declared to score 15/15 on the remainder. This is disclosed candidly ('CORRECTION LOGGED', the addendum is explicitly sealed before the one true test) rather than hidden, and the one genuine out-of-sample test (SU(3)_13) hit prediction-first -- but the law-fitting-to-failures structure itself is a standard overfitting risk that a single confirmed rung does not fully retire."
+   },
+   {
+    "i": 508,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "Nearly every number-theoretic 'law' in this arc (clock law, splitting law, generic-rung law, jump law) is validated only against the same closed object (the E6 Z-ladder / A_n level algebras built from a single golden matrix A1) via the object's own committed engine scripts. There is no external dataset or independent physical system against which these laws are checked; internal cross-pipeline agreement (e.g. Jeffrey vs B600 engine) is the closest thing to independence achieved, and this is disclosed as such ('the heavy enumerations rest on the sending seat's sealed two-pipeline identity')."
+   },
+   {
+    "i": 510,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The arc's absence-sweep on B480 and B544 shows those two ARCS' original headline claims (level-ratio <r>=0.16 at N=181,301; Sturmian 610/610; itinerary 99.95%) rest on no committed reproducer anywhere in the repo, and this arc's own from-scratch reimplementations either fail a basic consistency check (B480's quantization is not a faithful SL(2,Z/N) representation) or land 4-5 orders of magnitude off the claimed constant (B544's Omega* differs from the quoted figure from the 6th significant digit). This is a finding ABOUT other arcs (B480, B544), surfaced honestly here rather than about B646 itself, but it means those two original claims stand un-reproduced as of this integration."
+   }
+  ]
+ },
+ {
+  "arc": "B651_wave3_integration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B651_wave3_integration",
+  "flags": [
+   {
+    "i": 520,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "P3's PSL-factoring statement rests partly on 'the banked eigenvalue fingerprint {1, i, -i} (trace +1 on the PSL(2,7) order-4 class)' as the basis for identifying a local constituent with a specific PSL(2,7) irrep -- an identification made by matching an eigenvalue/trace signature (a type/spectrum coincidence) rather than an explicit isomorphism, for the one 'mechanized' instance the rest of the theorem generalizes from."
+   }
+  ]
+ },
+ {
+  "arc": "B661_wave1_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B661_wave1_adjudication",
+  "flags": [
+   {
+    "i": 544,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "chat1's original 'portal ratio is phi' claim (DARK_SECTOR_WAVE1_HANDOFF.md, read in the sibling B660 packet) was itself flagged by chat1 as possibly representation-forced rather than knot-specific; this arc confirms it IS representation-forced (a generic SU(3)_2 S-matrix property, not a discovery about the specific knot) -- a caution against over-reading a numeric coincidence (ratio = phi) as physically significant when it is a standard CFT quantum-dimension identity."
+   }
+  ]
+ },
+ {
+  "arc": "B673_loop4_integration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B673_loop4_integration",
+  "flags": [
+   {
+    "i": 569,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "d2_results.json records 'all_gates_pass: false' and 'koszul_antisym_holds_all_slots: false', but FINDINGS.md / FRONTIER.md / arc_verdict.json report the D2 slot-saturation and sign-rule result as clean, banked, and unqualified ('THE GRADED SIGN RULE realized exactly'). The 'mis-specified control' explanation is plausible and internally consistent with the reported witness signs, but it is argued in prose, not encoded as a corrected, re-passing gate in any committed json."
+   }
+  ]
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B299_trinification_triality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B299_trinification_triality",
+  "flags": [
+   {
+    "i": 215,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "log entry B565 claims 'B299's (theta,phi) IS Boyle's SO(8) triality (100% weight-level match)' \u2014 a match on weight-level multiset is the kind of dimension/spectrum coincidence this seat is told to flag as a licence to ask, not evidence of identity, and it is not addressed in this arc's own FINDINGS."
+   }
+  ]
+ },
+ {
+  "arc": "B300_cross_chat_sm_attempt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B300_cross_chat_sm_attempt",
+  "flags": [
+   {
+    "i": 217,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "the scale relation L_dS/l_P=sqrt(k/6pi) is presented as 'verified arithmetic' in FINDINGS but is explicitly conditional on an unverified external relation (G*Lambda=6pi/k, 'the Alexander relation') named only in the docstring, not gated in the verdict() function."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b301_chirality_filter_and_convergence.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2182,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "SEATS/ALL_THREE_CONVERGE are declared inside the module being tested, asserting the module agrees with itself."
+   }
+  ]
+ },
+ {
+  "arc": "B305_eisenstein_trinification_grading",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B305_eisenstein_trinification_grading",
+  "flags": [
+   {
+    "i": 221,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'the figure-eight's arithmetic omega is the trinification grading' rests on the grading eigenvalue and the figure-eight's Riley-rep Eisenstein root both being labeled omega=e^{2pi i/3} in Q(sqrt-3) \u2014 a type/value match across two otherwise-unconnected mathematical objects (a generic E6 grading eigenvalue vs. a specific manifold's peripheral holonomy), which the arc itself calls a connection but does not derive as forced."
+   }
+  ]
+ },
+ {
+  "arc": "B306_principal_grading_cascade",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B306_principal_grading_cascade",
+  "flags": [
+   {
+    "i": 222,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the arc itself explicitly flags its own N=5-equals-WRT-level-plus-2 coincidence as a [LEAP] because it 'mixes the two ends' (golden zeta_5 vs Eisenstein sqrt-3) \u2014 a self-caught numeric coincidence, correctly not asserted as forced."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b308_yukawa_last_redoubt.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2183,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "Most asserted names (INTERGENERATION_HIERARCHY_FORCED, HIERARCHY_GATED_BY_GENERATION_THEOREM, etc.) are boolean constants set directly in the module, not derived from an independent calculation in the test."
+   }
+  ]
+ }
+]

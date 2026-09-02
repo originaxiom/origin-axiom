@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B8086_wilson_menu",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8086_wilson_menu",
+  "flags": [
+   {
+    "i": 1283,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The killed proposal itself rested on attaching an outside-derived Z/5 torsion menu to 'the object' by structural resemblance (torsion from 'the closing'); this arc's main contribution is precisely showing that identification fails (menu belongs to a different manifold member, m=5, not m=1) \u2014 a useful negative example of type-coincidence reasoning being caught rather than committed by this repo."
+   }
+  ]
+ },
+ {
+  "arc": "B8118_two_theories_differ",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8118_two_theories_differ",
+  "flags": [
+   {
+    "i": 1314,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The identification of SL(2,Z/3) with the binary tetrahedral group 2T is supported in this script only by matching group order (24) and involution count (1), which are necessary but not sufficient conditions for group isomorphism; the full isomorphism (needed for the McKay correspondence step to E6) is imported from a prior arc (B997) rather than independently verified here."
+   }
+  ]
+ },
+ {
+  "arc": "B8124_phi_law_sharpened",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8124_phi_law_sharpened",
+  "flags": [
+   {
+    "i": 1324,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "none \u2014 arc explicitly disclaims golden content in the tone component and is unusually careful about which piece is 'real' vs an algebraic identity; commendable self-scoping, not a flag"
+   }
+  ]
+ },
+ {
+  "arc": "B8125_abscissa_not_the_cusp",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8125_abscissa_not_the_cusp",
+  "flags": [
+   {
+    "i": 1326,
+    "kind": "FITTED_VALUE",
+    "detail": "explicitly self-flagged: a fitted intercept d=0.102679 nearly matched a target constant (vol/(2pi^2)) purely by construction of the fit window, and the candidate constant had been printed in the same script that produced the fit \u2014 a textbook look-elsewhere case the arc itself catches and retracts"
+   }
+  ]
+ },
+ {
+  "arc": "B8127_regulator_omission",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8127_regulator_omission",
+  "flags": [
+   {
+    "i": 1330,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the arc names a recurring failure mode in the same seat's own work ('four section-0 violations... today') without a gate existing to catch it; it is a self-audit describing an uncaught process failure, not a fixed one"
+   }
+  ]
+ },
+ {
+  "arc": "B8143_anomaly_lane",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8143_anomaly_lane",
+  "flags": [
+   {
+    "i": 1354,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "step6's conclusion that hypercharge/shape forcing is 'generic' (works for anyone starting from SU(3)xSU(2)xU(1), no E6/27/m004 tokens in the load-bearing code) is the arc's own self-audit and is honestly reported as NOT evidence for the object -- flagged here only because it is exactly the caution this task's rules ask readers to watch for, and the arc gets there itself."
+   }
+  ]
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B708_kim_seam",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B708_kim_seam",
+  "flags": [
+   {
+    "i": 617,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The identification of 'audibility (p\u22611 mod4)' with 'non-linking with the archimedean prime' is flagged by the arc itself as 're-interpretation... audible=p\u22611mod4 is definitional' \u2014 a dimension/definitional coincidence being read as a structural discovery."
+   }
+  ]
+ },
+ {
+  "arc": "B715_native_gauge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B715_native_gauge",
+  "flags": [
+   {
+    "i": 623,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The claim that this is 'complex Chern-Simons of E6(C)' rests on promoting the SL(2,C) holonomy along the principal sl2 into E6, which is a representation-theoretic embedding chosen because E6 was already established elsewhere (B575) as the object's charge algebra \u2014 the physical identification of the resulting complex CS theory with '3d Euclidean quantum gravity' (Witten 1988) is by structural analogy (gauge group = Isom(H^3) promoted into E6(C)), not a derivation that this promoted structure literally IS gravity."
+   }
+  ]
+ },
+ {
+  "arc": "B720_coupling_path",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B720_coupling_path",
+  "flags": [
+   {
+    "i": 628,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "The arc's own test (referenced by the log, not present in this directory) asserted three distinct string labels were typed and could never fail \u2014 a tautological check masquerading as verification of the NO-MATCH claim."
+   },
+   {
+    "i": 629,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "arc_verdict.json still reads as an unqualified NEGATIVE ('NO-MATCH... for independent reasons') even though the project's own later audit found the supporting computation does not support a negative verdict at all, only a LEAD."
+   }
+  ]
+ },
+ {
+  "arc": "B723_build_the_observer",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B723_build_the_observer",
+  "flags": [
+   {
+    "i": 631,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The retracted error was itself a type/dimension-coincidence identification: the observer's chirality and values torsors were assigned to Gal(K^ab/K) apparently on the strength of 'this is a Galois group over K=Q(sqrt-3), our object's being field' without checking group membership; B942 computed that complex conjugation is literally not an element of that group."
+   }
+  ]
+ },
+ {
+  "arc": "B725_born_rule",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B725_born_rule",
+  "flags": [
+   {
+    "i": 633,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The claimed identity 'the conjugate-linear bra slot IS this antilinearity of J' rests on both objects sharing the algebraic property 'antilinear/order-2 involution' \u2014 a structural-type match rather than an independently forced identification; the arc itself partially concedes this is an 'identification, not an independent derivation.'"
+   }
+  ]
+ },
+ {
+  "arc": "B726_hearing_born_content",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B726_hearing_born_content",
+  "flags": [
+   {
+    "i": 634,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The initial (v1) claim that the S-matrix/F-symbol amplitudes lie 'in Q(sqrt5)' was itself an identification-by-type error (real irrational numbers assumed to lie in the golden field just because they are built from phi) later caught and corrected in v2 by actually computing minimal polynomials \u2014 a good example of the exact failure mode this seat is instructed to watch for, self-corrected in this case."
+   }
+  ]
+ }
+]

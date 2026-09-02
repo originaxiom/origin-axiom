@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "TEST:tests/test_b1184_quine_synthesis.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2099,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce.sh check only greps a literal marker string in a committed script, not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1185_three_mechanisms.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2100,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "reproduce.sh check only greps a literal marker string in a committed script, not a live re-run"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1206_one_short.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2110,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test only reads stored JSON and checks internal consistency of numbers already written there; no independent recomputation"
+   }
+  ]
+ },
+ {
+  "arc": "B1208_cross_seat_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1208_cross_seat_harvest",
+  "flags": [
+   {
+    "i": 1221,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Leg 6's headline -- 'the mirror is precisely the operation the object cannot perform on itself, which is WHY the observer's bit is exactly one, and external' -- rests on both B1203's climb and the mirror map sharing the same kappa-invariance identity (kappa o g - kappa = 0 in Z[x,y,z]); this is a shared-invariant coincidence elevated to an explanatory claim ('this is why') without an independent argument that invariance-preservation is the correct criterion for what counts as 'internal'."
+   }
+  ]
+ },
+ {
+  "arc": "B1213_claim_base_rebuilt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1213_claim_base_rebuilt",
+  "flags": [
+   {
+    "i": 1227,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The arc's headline number ('89% absent') is the banked snapshot at authoring time. The committed verification/_out.txt and verification/claim_base.json (evidently re-run at a later point against a since-grown corpus) show materially different figures (80% absent, ratio 2.67x vs 2.29x) without any note in the arc reconciling the discrepancy, and reproduce.sh's pass/fail check (grep VERIFIED) does not detect that the reproduced numbers diverge from the banked ones. A stranger reproducing this arc today gets different numbers than the ones quoted in FINDINGS.md/arc_verdict.json."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b1213_claim_base.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2112,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "census/control/ratio numbers are read directly from the arc's own results.json with no independent recomputation in the test"
+   }
+  ]
+ }
+]

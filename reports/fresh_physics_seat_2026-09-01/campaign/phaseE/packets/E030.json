@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B969_kato_yukie_verify",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B969_kato_yukie_verify",
+  "flags": [
+   {
+    "i": 930,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The central claim rests on a numeric/type match (squarefree kernel {7,11} and mu-factoring [1,2]) across exactly 3 sampled cubics from one pair source (the vacuum 3-block) -- a striking coincidence, but the arc itself narrows this from 'a pattern' to 'one well-controlled fact about one distinguished plane' after finding the solo seat's second control was not independent, which is the right epistemic move but underscores the result rests on a single, not-independently-varied, algebraic object."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b969_kato.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2456,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "cubic isomorphism/discriminant claims are read from results.json without an independent number-field recompute in this test"
+   }
+  ]
+ },
+ {
+  "arc": "B97_sl2r_lorentzian",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B97_sl2r_lorentzian",
+  "flags": [
+   {
+    "i": 72,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "identifying the sl(2,R) Killing-form signature (2,1) with '2+1 Minkowski spacetime' is a textbook fact about the gauge group of 2+1 Chern-Simons gravity (Witten 1988) -- FINDINGS.md itself calls this 'structural...present by construction, not emergent or derived', explicitly disclaiming the type-match as physics content; correctly self-flagged rather than asserted as new physics"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b975_render_audit.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2458,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "'verified here' / 'checked here' claims for B940 and C3 are only checked against the audit's own results.json"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b976_recovery.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2459,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "the citation-loss quantification is read only from results.json, no independent citation scan performed in this test"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b978_phasea.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2460,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "lead dispositions and V5 verification method are read only from results.json"
+   }
+  ]
+ }
+]

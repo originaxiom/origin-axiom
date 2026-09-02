@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B653_phase_c_probe",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B653_phase_c_probe",
+  "flags": [
+   {
+    "i": 525,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The design's own printed false-positive rate (5-6%) for the 'confirmation' was computed against a projected precision (sigma=0.0015) that never materialized; the actual achieved precision (sigma=0.0087) yields ~32% FP, an order-of-magnitude weaker evidential claim than what was pre-registered as the headline number, and the ORIGINAL prereg's 5-6% figure is what the campaign's closing 'OUTCOME A' language rode on before the honesty-discount paragraph appeared."
+   }
+  ]
+ },
+ {
+  "arc": "B655_beta_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B655_beta_adjudication",
+  "flags": [
+   {
+    "i": 529,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The adjudicated claim itself is a textbook case of numerology-by-type-coincidence (matching small SM beta-function integers to framework integers by size alone); this arc correctly diagnoses and kills it, which is itself worth noting as a positive discipline example rather than a flaw of this arc."
+   }
+  ]
+ },
+ {
+  "arc": "B657_invariant_line",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B657_invariant_line",
+  "flags": [
+   {
+    "i": 533,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The refuted claim itself (an external/incoming seat's identification of the h0 invariant line with 'the Spin(10) gauge singlet = a dark matter candidate') is a textbook type-coincidence (same dimension, same 27-representation) that this arc correctly kills by exact computation (v0's coefficient at the singlet weight is exactly zero); worth flagging as the pattern this seat exists to catch, and it succeeds."
+   }
+  ]
+ },
+ {
+  "arc": "B660_structure_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B660_structure_campaign",
+  "flags": [
+   {
+    "i": 540,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The correspondence table treats 'phi appearing in the S-transform of R=-I irreps' in both the framework and the Gamma5' literature as 'SAME LOCUS' evidence for the correspondence, when both are independently well-known appearances of phi in A5/SL(2,5) representation theory (a common source, not evidence of a novel match) -- a dimension/value coincidence used to license the correspondence claim."
+   }
+  ]
+ },
+ {
+  "arc": "B662_successor_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B662_successor_campaign",
+  "flags": [
+   {
+    "i": 546,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "Cell I's headline identification (the ear's hearing representation IS the Gamma5'-doublet 2-hat') rests on exact character-table equality on the same abstract group SL(2,F5) that both sides happen to reduce to -- a strong invariant, but the deeper physical claim (that this identifies a real flavor-symmetry functor) is explicitly NOT yet established (the modular-form assignment leg, L108); the arc itself correctly downgrades the upgrade to 'candidate functor' rather than 'functor', so this is a self-flagged rather than silent instance, but it is still fundamentally a match-of-representation-labels on a common finite group, not a derivation of a physical mechanism connecting the two domains."
+   }
+  ]
+ },
+ {
+  "arc": "B664_metallic_landscape",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B664_metallic_landscape",
+  "flags": [
+   {
+    "i": 551,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "chat1's original handoff (archived verbatim in this arc) frames the golden-word/golden-stage relationship as a self-selecting fixed point ('the object selects the stage that selects it... this is not circular... a fixed point that proves itself by being consistent'). FINDINGS.md explicitly disciplines this as 'FIREWALLED (a reading, not a theorem)' and does not adopt it, but the rhetorical structure is preserved verbatim in the committed handoff file and could be mistaken for an established result by a later reader who skips FINDINGS' correction."
+   }
+  ]
+ }
+]

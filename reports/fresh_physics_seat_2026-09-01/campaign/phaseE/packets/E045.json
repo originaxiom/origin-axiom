@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B241_twistknot_su3_vs_levelrank",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B241_twistknot_su3_vs_levelrank",
+  "flags": [
+   {
+    "i": 177,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The whole arc's premise (the question of whether the arc adjudicates) is that a prior chat conflated two things called 'SU(3)' purely because they share a name/dimension; the arc's contribution is correctly refuting this type-coincidence, so this is flagged as a licence-to-ask instance the arc itself successfully resolved, not as an unresolved defect in this arc."
+   }
+  ]
+ },
+ {
+  "arc": "B267_e6_coherence",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B267_e6_coherence",
+  "flags": [
+   {
+    "i": 196,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The entire 'ONE E6' claim rests on both sides independently landing on Lie type E6, after which every named invariant (Coxeter number, dimension, exponent sum, Molien series) agrees automatically as a consequence of shared type -- exactly the licence-to-ask, not evidence-of-identity pattern the ADDENDUM itself names."
+   }
+  ]
+ },
+ {
+  "arc": "B268_e6_bridge_consolidation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B268_e6_bridge_consolidation",
+  "flags": [
+   {
+    "i": 197,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "'wall #2 ... REDUCED (to one physics conjecture; Lie-theoretic side de-risked)' is later characterized by the arc's own successor (B272) as understating how much of the whole bridge rests on that single unproven conjecture ('B268's \"REDUCED \u2014 no math obstruction left\" understates this... The entire bridge rests here'), yet this arc's own FINDINGS.md/arc_verdict.json are not revised."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b268_e6_bridge_consolidation.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2169,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "all three tests check properties of dicts (WALLS, SKIPPED, E6_BRIDGE) authored by the same codebase to track its own progress/status \u2014 this is process bookkeeping, not a physics or math computation"
+   }
+  ]
+ },
+ {
+  "arc": "B276_zeta3_arithmetic_probe",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B276_zeta3_arithmetic_probe",
+  "flags": [
+   {
+    "i": 203,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "the arc itself flags this as a 'coherence' not evidence of 2T acting on Z; the FINDINGS explicitly say it does not settle input=output-E6 \u2014 a self-aware type-coincidence caveat, still worth flagging since the headline table format invites over-reading"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b276_zeta3_probe.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2174,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "jones_sequence(3)[:3] == b276.ZETA3['seq6'][:3] compares module output to a constant stored in the same module."
+   }
+  ]
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "arc": "B312_face_iv_houses_the_form",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B312_face_iv_houses_the_form",
+  "flags": [
+   {
+    "i": 226,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "'Face IV houses the same E6 the content carries' rests on three different mathematical objects (McKay 2T, the E6 principal grading, the CIZ SU(2)_10 modular invariant) sharing the same Coxeter number (12) and exponent set {1,4,5,7,8,11} \u2014 a classification-label match across genuinely different structures, which the arc itself frankly calls 'one E6, three ADE hats' without claiming a derivation connecting them causally."
+   }
+  ]
+ },
+ {
+  "arc": "B321_seam_geometry_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B321_seam_geometry_adjudication",
+  "flags": [
+   {
+    "i": 235,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "FINDINGS.md itself flags that |cusp shape|^2 is basis-dependent (not SL(2,Z)-invariant), so matching it numerically to h(E6)=12 is explicitly labeled a 'certificate/coincidence, not a canonical invariant identity' \u2014 the arc is self-aware of this but the match is still banked as PROVED."
+   }
+  ]
+ },
+ {
+  "arc": "B323_four_levels_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B323_four_levels_adjudication",
+  "flags": [
+   {
+    "i": 237,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "verdict() ANDs FOUR_LEVELS_FRAMING_VERIFIED, TWO_Z3_ARE_DISTINCT, FRAMING_IS_A_HELPFUL_CONSOLIDATION as hardcoded True constants; none of these prose-level conclusions is independently computed, only the two numeric facts (Cartan det, circulant ratio) are."
+   }
+  ]
+ },
+ {
+  "arc": "B337_structure_xor_ordering",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B337_structure_xor_ordering",
+  "flags": [
+   {
+    "i": 242,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "taking three distinct seeds m=1,2,3 as 'the three generations' is explicitly labeled by FINDINGS itself as an unforced ansatz ('B125's arithmeticity is a two-element selector {1,2}... m=3 is non-arithmetic'), i.e. the dimension match (three seeds / three generations) is a licence to ask, flagged honestly rather than banked as forced."
+   }
+  ]
+ },
+ {
+  "arc": "B340_cp_phase_along_flow",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B340_cp_phase_along_flow",
+  "flags": [
+   {
+    "i": 244,
+    "kind": "FITTED_VALUE",
+    "detail": "the coefficient 3.8 in '(pi/6 - arg kappa) ~ 3.8*CS^2' is a numeric fit over the filling sequence, not a derived exact constant; FINDINGS presents it as a 'scaling' without giving the fit's residuals or the number of points used."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:/home/user/origin-axiom/tests/test_b361_seam_local_law.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2195,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_local_law_consistency_over_the_computed_range defines bright/dark sets and the qualifies() rule inline in the test itself, then checks its own rule against its own sets -- not an independent computation."
+   }
+  ]
+ }
+]

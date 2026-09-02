@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "TEST:tests/test_b772_adequacy.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2350,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "every assertion reads fields from the same audit_results.json it is meant to validate; no independent recomputation of the verdicts"
+   }
+  ]
+ },
+ {
+  "arc": "B773_chord_recompute",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B773_chord_recompute",
+  "flags": [
+   {
+    "i": 700,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The level-135 extension attempted for W4-304c did not confirm a second nonzero chord hit; it returned an inconclusive 'basis inadequate' result (declared_basis_holds=False), yet FINDINGS.md's headline for W4-304 reads as an unqualified, closed overturn without surfacing that the level-family extension (a preregistered part of the test) did not go through."
+   },
+   {
+    "i": 701,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "W3-082c's original RESOLVED-A relied on a bridge lemma equating the 8-rank of a class group with Kim's arithmetic-Chern-Simons H^3 action purely by naming/citation, not derivation in-cell; the arc's own verify pass caught this and downgraded the cell to NEEDS-SPECIALIST, illustrating exactly the type-coincidence risk this seat watches for."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b773_chord.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2351,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_w4_304c_upheld_overturn, test_oi146_fix_upheld, test_false_chord_positive_caught, test_chord_wave_shape all read verdict/upheld fields from chord_results.json rather than recomputing"
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b774_chordpass.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2352,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_stageA_structural_immune_majority and test_stageB_all_harden_zero_overturns read counts/verdicts straight from stageA_scan.json/stageB_results.json, the artifacts of record, without independent recomputation"
+   }
+  ]
+ },
+ {
+  "arc": "B775_braver_questions",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_audit",
+  "arc_dir": "frontier/B775_braver_questions",
+  "flags": [
+   {
+    "i": 712,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The entire consciousness<->mathematics correspondence this campaign audits (c, theta, gamma_5 mapped to phenomenological primitives) is explicitly conceded by the arc itself to be 'interpretive, not derived' \u2014 a structural/dimension match licensing an interpretation, not forcing one. The arc is unusually honest about this (Phase A finding), which is to its credit, but the underlying program-wide correspondence remains exactly this kind of coincidence-based identification."
+   }
+  ]
+ },
+ {
+  "arc": "B778_cleanup",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B778_cleanup",
+  "flags": [
+   {
+    "i": 718,
+    "kind": "FITTED_VALUE",
+    "detail": "The originally-banked W4-115c headline contained a fabricated 'adjoint 7,815' content string that this cleanup cell had to strip; this confirms fabricated/asserted numbers had previously entered a supposedly-computed claim chain undetected until a dedicated cleanup pass caught it."
+   }
+  ]
+ }
+]

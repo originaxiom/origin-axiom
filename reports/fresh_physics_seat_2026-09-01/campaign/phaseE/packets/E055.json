@@ -1,0 +1,79 @@
+[
+ {
+  "arc": "B552_z11_charge",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B552_z11_charge",
+  "flags": [
+   {
+    "i": 409,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The FINDINGS.md notes '11 is disc-adjacent (disc = \u2212400; 11 is the first prime where the charpoly ... has a specific factorization type \u2014 noted, not interpreted)' \u2014 this is exactly the kind of numeric coincidence the seat is told to flag; the arc itself is careful to say 'noted, not interpreted,' which is the correct response, but the coincidence sits right at the boundary of being over-read in a future arc."
+   },
+   {
+    "i": 410,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "The claim that the \u2124/11 charge is transported unchanged across all 12 nodes of B540's observer flow is attributed to 'chat-2's computation,' explicitly not fully reproduced within this arc ('Reproduced here for the census systems; the full 12-node sweep is chat-2's computation, consistent with B540's flow') \u2014 the arc_verdict.json's claim_one_line states the full-flow transport as settled fact without this caveat."
+   }
+  ]
+ },
+ {
+  "arc": "LOG:B558: the three-level negative VERIFIED (+ 1/phi^3 correctio",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 1532,
+    "kind": "FITTED_VALUE",
+    "detail": "Names \"1/phi^3=0.236 vs sin^2 theta_W=0.231 is a persistent 2.1% golden near-miss (topological, fixed, non-significant)\" as an anti-numerology landmine \u2014 explicitly flagged as non-significant by the entry itself."
+   }
+  ]
+ },
+ {
+  "arc": "B598_l85_campaign",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B598_l85_campaign",
+  "flags": [
+   {
+    "i": 459,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "The 1-loop constant identification picks the nearest of seven ad hoc constructed candidate closed forms (3^(-1/4), 2pi/3^(3/4), etc.) to the Richardson-extrapolated numeric constant; the match is decisive (8e-12 vs 24% for next-best) so the identification is well-supported, but the method itself (construct candidates, take nearest) is a fitting procedure worth flagging on principle."
+   }
+  ]
+ },
+ {
+  "arc": "B771_phase1_wave1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B771_phase1_wave1",
+  "flags": [
+   {
+    "i": 693,
+    "kind": "CLAIM_EXCEEDS_COMPUTATION",
+    "detail": "Five of Wave 2's seven gate-refusals were exactly this class inside the arc's own machinery: a fabricated negative control (W2-149), unfalsifiable verdict logic that could never emit UNRESOLVED (W2-270), tautological/vacuous invariant theater (W2-119), a hand-read-off-the-paper patch proposal with 4 of 6 tiers wrong (W2-188), and comment-only diagnostics standing in for enforced checks (W2-150r). All are named and carried by the arc's own FINDINGS_WAVE2.md, and the first three were independently re-verified as fixed in Wave 3 (read directly: W3-149r, W3-017/W4-017r chain)."
+   }
+  ]
+ },
+ {
+  "arc": "B775_phase2_wave1",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B775_phase2_wave1",
+  "flags": [
+   {
+    "i": 708,
+    "kind": "IDENTIFICATION_BY_TYPE",
+    "detail": "P2-D5 and P2-ENUM both exist specifically to test/dismiss courier (imported, not object-derived) type-coincidence claims -- D5=Spin(10) via a generic McKay identity, and a 9-signature<->phenomenology dimension match -- and both cells correctly conclude the coincidence is NOT object-specific/decorative. Flagging as IDENTIFICATION_BY_TYPE is thus about the underlying courier claims under test, not this arc's own conclusions, which are appropriately skeptical."
+   }
+  ]
+ },
+ {
+  "arc": "TEST:tests/test_b782_c22.py",
+  "worktree": null,
+  "arc_dir": null,
+  "flags": [
+   {
+    "i": 2364,
+    "kind": "SELF_REFERENTIAL_LOCK",
+    "detail": "test_c22_banked reads chain_link/verdict fields from the arc's own results.json"
+   }
+  ]
+ }
+]
