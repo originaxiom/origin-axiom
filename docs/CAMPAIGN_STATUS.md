@@ -1,5 +1,22 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-02, B1236 — THE A₁ LANDING AT EXACT MULTIPLET GRADE)**: codex R035 verified by an independent
+implementation. B1098's minimal-A₁ stratum (centralizer su(6), "one extra u(1)") now carries exact matter content:
+su(3)⊕su(2)⊕u(1) ⊂ su(6) with 6 = (3,1)_{−1/3}+(1,2)_{1/2}+(1,1)_0 takes the 27 = (Λ²6,1)+(6̄,2_E) to the
+**SM-shaped 27 exactly, irrep by irrep**, and the hypercharge direction is **unique within the support constraint**.
+The controls type it: histogram-level compatibility (B1100's grade at the A₂) admits a false positive that the
+multiplet level rejects; the SU(2)_L reading of the external factor matches abstractly and is excluded by **type**
+(the A₁ is not in its own centralizer); the diagonal rescue produces a weak triplet. **Compatibility theorem, no
+object-specific content beyond the stratum**; A₁ selection, extra-u(1) breaking, chirality, generations, spin and
+values all OPEN; no identification declared; Gate 5 untouched. The A₂ remains the selected landing.
+
+**(2026-09-02, B1235 addendum — THE NINE RELAYS READ; E51 CLOSED ON CONTENT)**: seven BANKED, two OPEN (L195, README →
+owner). **Two flagship headlines corrected**: "three generations, structurally — banked" → *generation-shaped, mechanism-
+hood fenced* (B897's own words; B298; P13) on THE_SM_VERDICT:45 and THE_FRAMEWORK:183 (E53 #11); THE_FRAMEWORK:163's
+field/knot conflation → forced by the FIELD (B727, B803), Reid-uniqueness consumed at zero steps (B993) (E53 #12).
+B718:95 relabelled (area, not longitude; no value changes). B994 and B1022-C1 cross-referenced into THE_FRAMEWORK.
+**L195** (the sealed revivable index over 774 kill-graph rows) registered; **L196** (B1–B5 verdicts) registered AND EXECUTED same day — B2/B5 NEGATIVE routed (kill graph 776).
+
 **LATEST (2026-09-02, B1235 — THE TWO-SEAT HARVEST: THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83)**: two
 seats' rings (fab5cloud R2/R3, codex R034/R036) recomputed here before banking. **The mirror-isometry call is
 orientation-blind** — this repo's own REPRODUCIBILITY.md:73 says so — and B1181's "83 of 83", B1186's census field

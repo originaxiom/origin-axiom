@@ -20,4 +20,5 @@ for f in m["files"]:
     assert size == f["bytes"], (f["path"], size, f["bytes"])
 print("   9/9 relays present at", m["head"], "with the recorded sizes")
 PY
+echo "[8] L194 bite control: is any quarter-class amphichiral member an orientation double cover? (~1 min)"; python3 l194_bite.py 2>/dev/null | grep -E "positive control|VERDICT" || fail=1
 [ $fail -eq 0 ] && echo "B1235 REPRODUCES" || { echo "B1235 FAILED"; exit 1; }

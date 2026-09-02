@@ -42,7 +42,7 @@ Everything below is the elaboration, the evidence, and the honest boundary of th
 |---|---|
 | an **E₆** boundary, with the build proved isomorphic to **M(𝕆,ℂ)** | banked (B882, B904) |
 | the **measurement cascade** — FMT then SMT — landing on **su(3) ⊕ su(2) ⊕ u(1)³** | banked (B892), verified independently on this bench (B961) |
-| **three generations**, structurally; **D₂** carries the entire generation hierarchy | banked (B897, B928) |
+| **three generations**, structurally; **D₂** carries the entire generation hierarchy | banked (B897, B928) *[scope restored 2026-09-02, B1235 addendum: generation-SHAPED at the tiling level, mechanism-hood FENCED — B897's own words (`docs/LAW_MAP.md:194`); B298: the object does not force three; B891: three sectors of ONE 27. "Banked" = the shape and the carrier (D₂), not three replicated families.]* |
 | **sin²θ_W = 3/8** at tree/GUT level | banked (B919) — **reproduced, not predicted** (a known GUT relation; the run to M_Z missed at 16σ, B915) |
 | **the global ℤ₆ form** — [SU(3)×SU(2)×U(1)]/ℤ₆ | **DERIVED** (B862): resolves an ambiguity **the SM itself cannot fix** |
 | **hypercharge is the UNIQUE gaugeable U(1)** in the chain's abelian sector | **DERIVED** (B864): ψ, χ anomalous over chiral matter; b = c = 0 forced. *Direction only — normalisation is homogeneous and not derivable* |

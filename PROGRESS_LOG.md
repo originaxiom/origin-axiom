@@ -13160,3 +13160,25 @@ were in B1203's cert on main), was an absence without a sweep: **THE ABSENCE RUL
 `absence_sweep.py` beside it, **E54** filed with six instances. I-10/I-11 registered UNEARNED (baseline 3→5). Six
 main-lineage re-typings from the seat HELD until the owner confirms the election words. Gate 5 clean.
 
+## 2026-09-02 — B1235 addendum: the nine relays read; E51 closes on content
+
+Read all nine recovered relays against main. Seven BANKED (content already landed under B993/B998/B1021/B1022/
+B1189/B994), two OPEN (L195 revivable index; README arc section → owner). Three corrections, each re-derived on
+this bench first: the "three generations, structurally — banked" headline on THE_SM_VERDICT:45 / THE_FRAMEWORK:183
+restored to B897's own scope (generation-shaped, mechanism-hood fenced; B298; P13) — E53 #11; THE_FRAMEWORK:163's
+field/knot conflation corrected per B727:54, B803:81, B993:49 — E53 #12; B718:95's constant relabelled area (SnapPy:
+|μ| = 1, |λ| = area = 2√3; weight argument decides). Two absences avoided by sweeping (B994; the kill graph's 774
+hatch rows). L196 registered for the B1–B5 verdict hole and executed the same day (five verdicts; B2/B5 NEGATIVE routed, kill graph 776). Lock added. Owner-facing: README_ARC_PROPOSAL and the six
+HELD main-lineage edits await the election words.
+
+## 2026-09-02 — B1236: the A₁ landing at exact multiplet grade (codex R035 verified)
+
+Codex's R035 read in the B1235 window and verified here now, by an independent implementation rather than by running
+their certificate: under the A₁-centralizer reading, su(3)⊕su(2)⊕u(1) ⊂ su(6) with Y₆ = diag(−1/3,−1/3,−1/3,1/2,1/2,0)
+takes the 27 to the SM-shaped 27 exactly, irrep by irrep, and Y₆ is the only traceless direction in the support
+that does. The controls are the content: histogram-level tests admit a false positive that multiplet-level tests
+reject (B1100's A₂ test is histogram-level — the comparison is now recorded beside it), and the SU(2)_L reading of
+the external factor matches abstractly but is excluded by type, since the A₁ is not in its own centralizer. The A₂
+stays the selected landing; the A₁ is the first stratum with the full SM-shaped content at multiplet grade, at the
+price of one extra u(1) and an unpriced selection — a specification, not a claim. Codex's seven pinned source blobs
+are all on main. Gate 5 clean; no identification declared.

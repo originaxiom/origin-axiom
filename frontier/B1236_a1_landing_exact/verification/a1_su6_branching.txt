@@ -1,0 +1,7 @@
+[1] internal reading, Y6 = diag(-1/3,-1/3,-1/3, 1/2,1/2, 0): 27 -> the SM-shaped 27 EXACTLY (multiset of irreps)
+[2] support constraint + tracelessness leave 2 triples; exactly 1 reproduces the target: [(Fraction(-1, 3), Fraction(1, 2), Fraction(0, 1))]
+[3] control: (-1/6,1/2,-1/2) reproduces the CHARGE HISTOGRAM but not the multiplets -- histogram-level tests are weaker
+[4] control: the EXTERNAL reading (2_E = weak) also matches abstractly -- excluded by type (2_E is not in its own centralizer), not by content
+[5] control: a diagonal weak su(2) turns (2_W,2_E) into 1+3 -- a triplet the target lacks
+[6] commutant rank 2: hypercharge plus ONE extra u(1) (B1098's note, now with the direction exhibited)
+VERDICT: the A1 landing reproduces the SM-shaped 27 EXACTLY at multiplet grade; Y6 unique within support; compatibility theorem -- A1 selection, extra-u(1) breaking, chirality, generations, spin, values all OPEN

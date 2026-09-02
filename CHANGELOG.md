@@ -1,5 +1,47 @@
 # Changelog
 
+## THE A₁ LANDING AT EXACT MULTIPLET GRADE — codex R035 verified, re-implemented, banked (2026-09-02)
+
+**B1236.** B1098's minimal-A₁ row ("su(6), SM-compatible with one extra u(1)") was an embedding note. Reading the
+unbroken algebra as the A₁'s centralizer su(6) and embedding su(3)⊕su(2)⊕u(1) by 6 = (3,1)_{−1/3}+(1,2)_{1/2}+(1,1)_0,
+the 27 = (Λ²6,1)+(6̄,2_E) restricts to the **SM-shaped E₆ 27 exactly, irrep by irrep**, in exact arithmetic; the
+hypercharge direction is **unique within the (6̄,2_E) support constraint** (two traceless triples survive, one hits).
+Three typed controls: the charge *histogram* admits a false positive (−1/6, 1/2, −1/2) that fails at multiplet
+level — so this is strictly stronger than B1100's collapse-form grade at the A₂; the *external* reading (2_E as
+weak, the su(6)⊕su(2)_L embedding) also matches abstractly and is excluded by **type** only (the A₁ is not in its
+own centralizer — under the centralizer reading the object's A₁ can only be the SU(2)_R-like factor); a diagonal
+weak su(2) produces a triplet the target lacks. The extra u(1) exhibited (commutant rank 2). **Compatibility
+theorem, textbook Lie theory, no object-specific content beyond B1098's stratum**; A₁ selection, extra-u(1)
+breaking, chirality, generations, spin, values all OPEN; no identification declared. Independent implementation,
+agrees with codex's recorded output line for line. Addenda beside B1098 and B1100; lock
+`tests/test_b1236_a1_landing_exact.py`. Gate 5 untouched.
+
+## THE NINE RELAYS READ — E51 closes on content; two flagship headlines corrected (B1235 addendum, 2026-09-02)
+
+**B1235 addendum `the_nine_relays_read`.** Recovering the nine lost 2026-08-09 relays (B1235 main text) was the
+easy half; this is the read. Every claim traced to where it lives on main, corrected, or queued by name — no row
+marked BANKED on a label match. **Seven relays BANKED** (their content was already on main under B993, B998,
+B1021, B1022, B1189, B994); **two OPEN** (the revivable index → **L195**; README_ARC_PROPOSAL → the owner, outward-
+facing). **Three corrections landed, all re-derived here before writing:**
+- **The three-generations headline was an overclaim (E53 #11).** `THE_SM_VERDICT:45` and `THE_FRAMEWORK:183` said
+  "three generations, structurally … banked (B897, B928)". B897's own FINDINGS: *generation-SHAPED at the tiling
+  level, mechanism-hood NOT decided*; `LAW_MAP:194` "mechanism-hood fenced"; B298 PROVED the object does not force
+  three; P13 tombstones the 9+9+9 reading; B891 = three sectors of ONE 27. Both lines now carry the dated scope
+  note. cc3 flagged this 2026-08-10; the flag died with the file.
+- **THE_FRAMEWORK:163 fused the field's SM-resonance with the knot's arithmetic uniqueness (E53 #12)** — B727's
+  own distinction ("different objects … do not reinforce"), B803 (field = commensurability-class invariant), B993
+  (Reid-uniqueness consumed at zero steps). Corrected in place — cc3's FRAMEWORK_DELTA Δ1, live 24 days after it
+  was written.
+- **B718's Neumann–Zagier constant is π²·(cusp AREA), not "π²·(cusp longitude)"** (`b718_probe4.py:95`) — same
+  number at m004's maximal cusp because |meridian| = 1 there; different weight (area +2, length +1; C/L² needs an
+  area). Line 148 is correct as written. Label only; no value changes. Addendum in B718; SnapPy check in B1235.
+- Also cross-referenced in THE_FRAMEWORK: B994 (registerability forces the endpoint, the ranking only the path) at
+  Layer 3; B1022 C1 (the weight ledger as a second scale mechanism) at Layer 5. Δ4 (L134) was already discharged.
+- **THE ABSENCE RULE bit twice during the read:** the confluence run looked unbanked — it is B994; the revivable
+  index looked absent — 774 kill-graph rows carry `hatch`/`revival_score` and `query.py revive` reads them.
+- Registered AND EXECUTED same day: **L196** — B1–B5 had no `arc_verdict.json`; five written, B2/B5 NEGATIVE routed (kill graph 774 → 776) (B2's fiber-vs-peripheral monodromy diagnosis belongs
+  in the kill graph). Lock: `tests/test_b1235_nine_relays_read.py`. Gate 5 untouched.
+
 ## THE TWO-SEAT HARVEST — the family is 38/112 amphichiral, not 83/83; E51 reopened as RECOVERED; the ABSENCE RULE (2026-09-02)
 
 **B1235.** Every claim from two seats' rings recomputed here before banking (fab5cloud R2/R3; codex R034/R036).

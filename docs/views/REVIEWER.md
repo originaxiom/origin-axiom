@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1139** |
-| words of findings prose | **788,209** |
-| test lock files referenced | **680** |
-| arcs carrying an authored verdict | **1139** (100.0 %) |
-| recorded closures | **774** (607 classified, 167 routed-only) |
+| research arcs with findings | **1140** |
+| words of findings prose | **789,190** |
+| test lock files referenced | **681** |
+| arcs carrying an authored verdict | **1140** (100.0 %) |
+| recorded closures | **776** (609 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 744 |
+| PROVED | 745 |
 | NEGATIVE | 304 |
 | OPEN | 80 |
 | RETRACTED | 11 |
@@ -46,7 +46,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 |---|---|
 | `other` | 359 |
 | `unrouted-unclassified` | 167 |
-| `kind-mismatch` | 49 |
+| `kind-mismatch` | 51 |
 | `genericity` | 38 |
 | `no-landing-site` | 30 |
 | `value-numerology` | 24 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1235`** (1423 words, 2 locks)  
-THE TWO-SEAT HARVEST (fab5cloud rings R2/R3 + codex R034/R036, every claim recomputed here before banking): (1) THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- B1181's closure, B1186's census field and B1163's B8147 addendum all used the orientation-blind mirror-isometry call that REPRODUCIBILITY.md:73 itself flags; proper test (symmetry_group().is_amphicheiral()) gives 38 amphichiral / 74 chiral, o10_150700 chiral at CS=-1/12 (H1=Z), m202 and s118 chiral at 1/12, t12840 and s955 genuinely amphichiral, m004 SURVIVES, zero B1224 violations, and 38 of the 74 chiral members are CS-SILENT (CS in {0,1/4}) -- the population no CS-only check can see; B1181 RETRACTED (its lock pinned the string '83 of 83' and certified is_isometric_to as 'the reliable method' -- E53's lock-pins-the-error sub-mechanism, exact). (2) A6'S FREE DECK SELECTS CS=0: codex R036 correctly showed B1234's join skipped a step (amphichirality forces only CS in {0,1/4}); the discriminating fact computed -- all 40 orientation double covers sit at CS=0 against a 36% quarter-rate (16/44) among amphichiral manifolds in general; DATA not theorem, lead L194. (3) B1233 NARROWED: the origin is the unique minimum of the Markoff form on the SU(2) trace box [-2,2]^3, NOT on R^3 (K(10,10,10)=-704); 'arithmetic cannot emit a continuum' withdrawn as a principle (x^2+y^2=1), kept as the corpus inventory it was. (4) B994's exhibited SU(3)^3->Pati-Salam->SM and SU(3)^3->SU(5)xU(1)->SM are not subgroup chains (dim 15,24 > 8); B869's committed engine run on the three parents gives SU(3)^3's menu {su(2)+su(3)+su(3)+u(1)}x3 with no such rung and all three cascades ending at su(2)+su(3)+3u(1) -- the endpoint claim survives on a real subgroup basis. (5) E51 REOPENED AS RECOVERED: the nine 2026-08-09 relays are at the root of audit/b775-braver-questions @ 53da05f6 (nine blobs and sizes verified here) -- the 'on no reachable branch' verdict was an absence claim without a population sweep, the owner's 2026-09-01 rule ('before you conclude we don't have something, sweep the repo first') is now WORKING_RULES' ABSENCE RULE with scripts/checks/absence_sweep.py and ERROR_LEDGER class E54. (6) B1011's C5 lock was literal arithmetic (8*120+24*2-8*2==992); replaced by the seat's blind 2880-cell enumeration (992/284, control 1440), re-run here. (7) .gitignore ignores *.log/*.out repo-wide, so B1148's named witnesses were never committable (A03). (8) Ten A2+A1 sub-diagrams of E6 (D12). Registered UNEARNED I-10/I-11 (codex's spin identifications; baseline raised 3->5 by hand). Six main-lineage re-typings from the seat HELD pending the owner's confirmation of the election words.  
-`B1235_two_seat_harvest/FINDINGS.md`
+**PROVED — `B1236`** (913 words, 1 locks)  
+THE A1 LANDING AT EXACT MULTIPLET GRADE (codex R035, verified and independently re-implemented here): reading the unbroken algebra as the minimal A1's centralizer su(6) (B1098) and embedding su(3)+su(2)+u(1) by 6 = (3,1)_{-1/3}+(1,2)_{1/2}+(1,1)_0, the 27 = (Lambda^2 6,1)+(6bar,2_E) restricts to the SM-shaped E6 27 EXACTLY as a multiset of irreps (one generation + D, D^c, H_u, H_d, S), in exact arithmetic; the hypercharge direction is UNIQUE within the (6bar,2_E) support constraint (two traceless triples survive, one hits). Three typed controls: the charge HISTOGRAM admits a false positive (-1/6,1/2,-1/2) that fails at multiplet level (so this is strictly stronger than B1100's collapse-form grade at the A2); the EXTERNAL reading (2_E = weak, the su(6)+su(2)_L embedding) also matches abstractly and is excluded by TYPE only -- the A1 is not in its own centralizer, so under the centralizer reading the object's A1 can only be the SU(2)_R-like factor; a diagonal weak su(2) produces a triplet the target lacks. The extra u(1) is exhibited (commutant rank 2). COMPATIBILITY THEOREM: textbook Lie theory with no object-specific content beyond B1098's stratum; A1 selection, extra-u(1) breaking, chirality, generations, spin, dynamics and values all OPEN; no identification declared; Gate 5 untouched.  
+`B1236_a1_landing_exact/FINDINGS.md`
 
 **NEGATIVE — `B1223`** (665 words, 0 locks)  
 THE V4/S3 <-> D4 CORRESPONDENCE, assembled from three seats' material and KILLED IN ONE COMPUTATION. THE ASSEMBLY: the object supplies V4 (its three forced quadratic faces Q(sqrt-3), Q(sqrt5), Q(sqrt-15) -- B730, re-verified here as closed under squarefree product with every element an involution) and S3 (the classifying cubic field K = Q[x]/(x^3-12x-5), disc 6237, totally real, Gal = S3 -- cloud seat); and the dimension cascade lands on D4 (E6/78 on the 27 with one invariant -> 52 = dim F4; F4/52 on the 26 with two invariants -> 28 = dim Spin(8) = dim tri(O), which B904 built as an EXACT NULLSPACE over Q). On the algebra side Z(Spin(8)) = V4, its three nontrivial elements being exactly the three 8-dimensional reps, and Out(D4) = S3 = triality permuting exactly those three; together V4 x| S3 = S4, D4's full automorphism data modulo inner. Cloud had one half ('an S3-torsor is exactly a full trialitarian twist of D4'); nobody had joined them. WHY IT NEEDED TESTING: both groups are small and generic -- ANY three quadratic fields whose discriminants multiply to a square form a V4 (genus theory), and almost every cubic field has Gal = S3 -- so the isomorphisms alone are exactly the short-catalogue coincidence this programme refuses as evidence, the same species as the N=4 order coincidence corrected today. THE DISCRIMINATING QUESTION IS THE ACTION: triality is not an S3 beside a V4, it is S3 permuting V4's three involutions FAITHFULLY, a SEMIDIRECT product. THE COMPUTATION: disc K = 6237 = 3^4 * 7 * 11, squarefree part 77, so the S3's own quadratic resolvent is Q(sqrt77) -- NOT among {Q(sqrt-3), Q(sqrt5), Q(sqrt-15)}. The S3's quadratic data is ARITHMETICALLY DISJOINT from the V4 of faces, so the compositum is V4 x S3, a DIRECT product, and the S3 acts on the faces TRIVIALLY. Triality requires V4 x| S3 = S4. Direct is not semidirect. VERDICT: an isomorphism of small groups, not a structural correspondence -- the pieces are individually real (B730's V4 proved, cloud's S3 proved, B904's 28-dim triality algebra banked over Q, the dimension cascade exact) but they do NOT compose into D4's automorphism data, because the action does not match and the action is the whole content of triality. SECOND unification proposed and killed by this bench in one session, after B1222; the common shape is a coincidence of small structures dressed as a mechanism, and the difference between that and evidence is one computation -- check whether the action matches. Gate 5 clean.  

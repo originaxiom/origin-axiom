@@ -57,6 +57,11 @@ B605 (the involutions are free) and B1227 but not the implication. B1234 stands,
 proved plus this datum; its slice is named (`NonorientableCuspedCensus[:40]`); the `same_trace_field` literal on line 71
 is flagged in its addendum.
 
+**Bite control (added 2026-09-02, same day, `verification/l194_bite.py`):** none of the 13 quarter-class members of the
+112-family is an orientation double cover of any half-volume manifold in the nonorientable cusped census (1260;
+91 cover-isometry tests). Positive control built in: m000's cover IS m004 (CS 0) and is NOT its sibling m003 (CS ¼,
+same volume). Fence: a quotient outside the census is not excluded. L194 survives its first bite.
+
 ## Cell 3 — B1233 narrowed (codex R036; recomputed)
 
 `origin_is_global_min` checked K(0) = −4 and Hessian 2I: a **local** statement. K(10,10,10) = −704. On the SU(2)

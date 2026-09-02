@@ -1,0 +1,12 @@
+{
+ "id": "B4",
+ "verdict": "OPEN",
+ "claim_one_line": "BKL BILLIARD / GUTZWILLER / GOLDEN KASNER -- BOUNDED OBSERVATION, THE PROGRAMME'S MOST-CAVEATED MATERIAL (genesis probe, 2026-05-22; verdict written 2026-09-02 under L196). Computed: the figure-eight orbit is the shortest primitive modular-billiard orbit and the leading Gutzwiller term (37.8% share, ratio ~1.13 to the next -- first among equals, not dominant); u = phi gives golden Kasner exponents in geometric progression; Kasner's sum rules hold for every u. Derives NO selection principle: every Kasner solution solves vacuum Einstein; BKL is the near-singularity regime only; 'dominated by the shortest orbit' is semiclassical. Kept OPEN and fenced exactly as its README fences it (the legacy walk-backs are the reason).",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "genesis-probe-2026-05-22; verdict L196 (B1235 addendum, 2026-09-02)",
+ "note": "genesis probe; every caveat load-bearing; no claim promoted",
+ "identifications": []
+}

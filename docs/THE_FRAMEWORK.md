@@ -161,6 +161,7 @@ Freudenthal–Vinberg magic-square entry, constructed explicitly over ℚ (B882,
 - the **matter pencil** P(x,λ) factors over ℚ (B886); three cubics, **one quadratic
   resolvent** (B888)
 - **E₆-across-faces is forced** (B727) — the atom being ℚ(√−3) as the unique arithmetic knot
+  *[corrected 2026-09-02, B1235 addendum: forced by the **field** ℚ(√−3) — B727:54, "they live on different objects and do not reinforce each other" — which is a commensurability-class invariant (B803:81); NOT by arithmetic-knot uniqueness, a separate property of the same manifold consumed at ZERO steps of the chain (B993:49). cc3's FRAMEWORK_DELTA Δ1 of 2026-08-09, lost with the E51 files, recovered and applied.]*
 
 This is also the algebra the rank wall's hatch (below) breaks: every route discussed
 there — old and new — is a route *through* this same explicitly-built E₆, never a
@@ -172,6 +173,7 @@ different copy of it.
 
 **One principle** (B861): *maximal residual symmetry among **registerable** options*,
 where registerable means the 27's generation structure survives.
+*[2026-09-02: split by B994 — the ENDPOINT is forced by registerability alone (derived: B860/B871); the ranking selects only the PATH. Registerable options per step [3, 2, 1]; all six registerability-respecting chains end at the SM. The SM endpoint does not rest on the unretired maximal-residual-symmetry assumption.]*
 
 | result | status |
 |---|---|
@@ -180,7 +182,7 @@ where registerable means the 27's generation structure survives.
 | **the global ℤ₆ form: [SU(3)×SU(2)×U(1)]/ℤ₆** | **DERIVED (B862)** — resolves an ambiguity **the SM itself cannot fix** |
 | **hypercharge = the unique gaugeable U(1)** | **DERIVED (B864)** — ψ, χ anomalous over chiral matter; b = c = 0 forced. *Direction only; normalisation is homogeneous and not derivable* |
 | **the TERMINATION THEOREM** — the cascade halts because the SM is the **terminal registerable algebra** | B863 |
-| three generations, structurally; D₂ carries the hierarchy | B897, B928 |
+| three generations, structurally; D₂ carries the hierarchy | B897, B928 *[scope restored 2026-09-02, B1235 addendum: generation-SHAPED at the tiling level, mechanism-hood FENCED — B897's own words (`docs/LAW_MAP.md:194`); B298: the object does not force three; B891: three sectors of ONE 27. "Banked" = the shape and the carrier (D₂), not three replicated families.]* |
 | menu completeness P5; padding lemma; gates G4–G7 | B873, B865, B868–B871 |
 | the Sakharov preconditions, structurally | B867 |
 
@@ -543,7 +545,7 @@ survives** — the object cannot fix a scale because its own **amphichirality de
 quantized half of its action.** *(This closure — G_N = 1/(4σ), c = 6σ, S = −CS·k − Vol·σ
 with CS = 0 — was verified once by cross-check (B1012) and has now been rebuilt a third
 time, entirely independently, as line one of the object's own 2+1-dimensional gravity
-theory (B1088, below): three independent derivations of the same one-term action.)*
+theory (B1088, below): three independent derivations of the same one-term action.)* *[2026-09-02: a second, independent and cheaper mechanism is banked as B1022 C1 — the weight ledger under g → k²g: hyperbolic geometry is scale-covariant, so no internal relation is weight-inhomogeneous on ANY face; "a shape has no size". It owes no normalisation and reaches faces the Gukov split does not.]*
 **∂S/∂k = −CS identically, so the object's blindness to k is EQUIVALENT to its
 amphichirality** (B1012): no deeper eigenvalue, face, or control can ever bear on k;
 anything that fixes k comes from the observer or the bulk, and neither is computed.

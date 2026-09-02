@@ -1,0 +1,20 @@
+quarter-class amphichiral members of the 112-family: 13
+positive control: m000's orientation double cover IS m004 (CS 0) and is NOT m003 (CS 1/4) -- the search discriminates
+nonorientable cusped census: 1260 manifolds
+  m003         vol 2.029883  half-volume nonorientable candidates:   1  double cover? None
+  m207         vol 4.059766  half-volume nonorientable candidates:   1  double cover? None
+  s955         vol 6.089650  half-volume nonorientable candidates:   1  double cover? None
+  s957         vol 6.089650  half-volume nonorientable candidates:   1  double cover? None
+  s960         vol 6.089650  half-volume nonorientable candidates:   1  double cover? None
+  t12838       vol 8.119533  half-volume nonorientable candidates:   2  double cover? None
+  o10_150695   vol 10.149416  half-volume nonorientable candidates:  12  double cover? None
+  o10_150708   vol 10.149416  half-volume nonorientable candidates:  12  double cover? None
+  o10_150718   vol 10.149416  half-volume nonorientable candidates:  12  double cover? None
+  o10_150722   vol 10.149416  half-volume nonorientable candidates:  12  double cover? None
+  o10_150725   vol 10.149416  half-volume nonorientable candidates:  12  double cover? None
+  o10_150728   vol 10.149416  half-volume nonorientable candidates:  12  double cover? None
+  o10_150729   vol 10.149416  half-volume nonorientable candidates:  12  double cover? None
+
+cover-isometry tests run: 91
+FENCE: quotients are searched in the nonorientable cusped census (1260); a quotient outside it is not excluded by this cell
+VERDICT: L194 SURVIVES the bite -- none of the 13 quarter-class members is an orientation double cover of any half-volume nonorientable census manifold

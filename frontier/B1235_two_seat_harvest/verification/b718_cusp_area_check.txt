@@ -1,0 +1,5 @@
+m004 maximal cusp: |meridian| = 1.000000   |longitude| = 3.464102   area = 3.464102
+2*sqrt(3) = 3.464102
+|longitude| == area at the maximal cusp: True   (because |meridian| = 1 there)
+weight under g -> k^2 g: |longitude| +1, area +2, C/L^2 dimensionless requires C ~ area (+2).
+VERDICT: the Neumann-Zagier constant labelled 'pi^2 * (cusp longitude)' at b718_probe4.py:95 is pi^2 * (cusp AREA) -- deficit ~ pi^2 A / L^2 (Neumann-Zagier), A = 2*sqrt(3) at the maximal cusp. Line 148 (12 = |longitude|^2 inside L^2 = 12 + p^2) is CORRECT as written: there the longitude LENGTH is what enters. One label corrected; no value changes.

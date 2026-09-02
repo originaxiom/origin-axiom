@@ -10,11 +10,11 @@ view can quietly imply completeness it does not have.
 
 | layer | count | of | share |
 |---|---|---|---|
-| arcs with `FINDINGS.md` | **1139** | — | 100 % |
-| arcs with an authored verdict (W1) | **1139** | 1139 | 100.0 % |
-| classified in `kill_graph` | **774** | — | — |
-| kill records resolving to an arc | **729** | 774 | 94 % |
-| kill records with no arc directory | **45** | 774 | 6 % |
+| arcs with `FINDINGS.md` | **1140** | — | 100 % |
+| arcs with an authored verdict (W1) | **1140** | 1140 | 100.0 % |
+| classified in `kill_graph` | **776** | — | — |
+| kill records resolving to an arc | **729** | 776 | 94 % |
+| kill records with no arc directory | **47** | 776 | 6 % |
 
 ### Measured (B801), not merely flagged
 
@@ -37,5 +37,5 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
 | stratum | meaning | count | share |
 |---|---|---|---|
 | **A** | explicit `## Verdict` block — directly extractable | 214 | 18.8 % |
-| **B** | no block, but the title carries the verdict | 903 | 79.3 % |
+| **B** | no block, but the title carries the verdict | 904 | 79.3 % |
 | **C** | neither — genuinely hard, needs a full read | 22 | 1.9 % |

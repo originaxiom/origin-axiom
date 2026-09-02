@@ -2198,3 +2198,33 @@ m004, and it makes the k-blind wall a consequence of A6 without the dropped step
 manifolds at ¼ — is any of them an orientation double cover of a non-orientable manifold? (If one is, the
 conjecture is dead.) ★★★
 
+*Bite control run 2026-09-02 (B1235 `verification/l194_bite.py`): of the 13 quarter-class members of the
+112-family, none is an orientation double cover of any half-volume nonorientable census manifold (1260 candidates,
+91 isometry tests; positive control m000 → m004 ✔, m003 ✘). Fence: quotients outside the census not excluded.
+L194 survives.*
+
+## L195 — THE REVIVABLE INDEX (registered 2026-09-02, B1235 addendum; source: cc3's REVIVABLE_rationale of 2026-08-09, recovered under E51)
+
+The kill graph (`frontier/B738_pathfinder_compiler/kill_graph.json`, 774 entries) carries a `hatch` on 264 rows
+(54 distinct hatch kinds; 178 beyond `none-apparent`) and `revival_score ≥ 4` on 31, ≥ 3 on 84. The practice
+"read the hatch before working a kill" is standing (`docs/COMPUTE_THE_PROGRAM.md:92`) and `scripts/atlas/query.py`
+answers it per probe (mode 4, `revive`). What does not exist is the corpus-wide view cc3 specified: a **generated,
+deterministic, sealed-on-input-hash a `REVIVABLE` index file under `docs/` (not yet written)** listing every unwalked hatch and every high-score route,
+with `--check` for the suite — so that the revival reservoir can be *queried against* a new result instead of
+remembered. B738's SHORTLIST (2026-07-21) is that view for 217 of today's 774. **Cell:** ~40 lines on top of the
+existing loaders; MB12 controls = a planted unwalked hatch must appear, a walked one must not. ★★ (instrument, not
+physics; cheap; the reservoir is the program's own negatives read as SPECIFICATIONS.)
+
+## L196 — B1–B5 HAVE NO `arc_verdict.json` (registered 2026-09-02, B1235 addendum; source: cc3's HARVEST_MANIFEST #2 and FRAMEWORK_DELTA Δ6, 2026-08-09)
+
+`frontier/B1_gluing_chern_simons` … `frontier/B5_wheeler_dewitt` are ingested by the digest (B984/B985 closed the
+filename hole) but carry no verdict, so every verdict-reading instrument (views, kill graph, identification audit,
+`already_banked`) is blind to them. **B2 is the one that matters:** it falsified the genesis handoff's monodromy
+claim ("the image polynomial is not divisible by the A-polynomial") and diagnosed why — the monodromy acts on the
+character variety of the *fiber*, not on the meridian/longitude coordinates — which is a NEGATIVE with a named
+successor and belongs in the kill graph with a hatch. **EXECUTED same day (2026-09-02):** five verdicts written (`identifications: []` each) — B1 OPEN (frame/spin ratio 2, torsion 0 exact;
+CS action and level not derived), **B2 NEGATIVE** (probe re-run: `A_POLY divides mapped: False`, degree 9 in L; kill_form kind-mismatch — fiber
+vs peripheral character variety; hatch WALKED by B13/B67), B3 OPEN (3D exact, 4D Regge step undefined), B4 OPEN (bounded BKL/Gutzwiller/golden
+Kasner, 37.8%, ratio 1.13), **B5 NEGATIVE** (Λ = 2π²/Vol ≈ 9.72 "Planck units", 10¹²⁰ off; kind-mismatch by weight — Vol is the shape's number,
+weight 0; Λ weight −2; R = ℓ_P inserted by hand; same family as B259 wall #5, retracted B980). Both negatives routed into the kill graph (776 rows).
+Lock: `tests/test_b1235_nine_relays_read.py::test_l196_b1_b5_carry_verdicts`. ★★ → CLOSED (archival; the digest's oldest blind spot).

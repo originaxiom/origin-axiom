@@ -5013,6 +5013,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1236": {
+   "slug": "a1 landing exact",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B280",
+    "B298",
+    "B306",
+    "B311"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B123": {
    "slug": "arithmeticity m1",
    "motifs": [
