@@ -113,4 +113,4 @@ CONTRADICTED 3.
 
 Nothing still landing. Coverage 131/131 arc packets, 1310/1310 arc records, 11/11 log chunks, 14/14 test packets
 (`campaign/phaseB/synthesis/coverage.md`); absence sweep 1535/1535 distinct claims. The one correction this note carries
-against its own earlier drafts is the sweep-coverage one above (and the B806→B778 attribution fix in §1, 2026-09-02).
+against its own earlier drafts is the sweep-coverage one above (and the earlier B806→B778 attribution fix of 2026-09-02 01:00 UTC — an index-alignment error in the same tooling).
