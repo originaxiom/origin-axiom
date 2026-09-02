@@ -566,3 +566,8 @@ Numbering note: cells are R01–R52; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   rule's is not. Every tracker decomposes under Sym(m004) = D4: four linear characters (mirror × time) plus a doublet;
   each odd factor is one chosen bit. Reproduces B1163/B1168/B1169/B1174/B1083/B766 independently. Sweep of 101 chirality
   arcs + 58 tracker arcs: position STANDS; nine propagation defects (`campaign/phaseF/CHIRALITY_LEDGER.md`).
+
+- **R55 (locking dictionary).** Reality's discrete choices mod CPT form a rank-2 space with four CPT-even sign types;
+  the object's closing lattice (B766, re-derived c/γ5 columns) admits three dictionaries, one testable now (c = P,
+  γ5 = T): handedness signs one bit, CP/T signs one bit, EDM signs their product. Falsifiers: a leptonic CP phase sign,
+  two measured EDMs. `recompute/R55_locking_dictionary/DICTIONARY.md`.

@@ -231,3 +231,13 @@ typing, B766 rank-3 lattice, B1164/B1166 two bits + one dilaton) STANDS and is r
 | F5 | B783 P16.2 | the letter complement is the C-type (mirror) bit, not γ5 (R54 §3, r54e) |
 | F7 | docs/RETRACTIONS.md | carry the B723 refutations and B132's in-arc withdrawal |
 | F8 | B582 FINDINGS:48-53 | wording: existence of a chiral construction, not a derivation of the hand |
+
+## 10. The locking dictionary (R55) — a proposal, not a bank
+
+Owner election words carried verbatim: "its not what i want but what reality choses" / "please build it".
+`recompute/R55_locking_dictionary/DICTIONARY.md` maps B766's closing lattice to reality's measured signs under CPT
+(exhaustive enumeration: three admissible dictionaries; c = P, γ5 = T is the testable one). Predictions P1–P4 and a
+protocol are stated with their falsifiers; the chord sign (T6) has no physical reading in the record and is left as a
+slot. For cc: if adopted, record the dictionary as a declared input (E1), and write the predicted sign of the leptonic
+CP phase and of the EDM sign-pattern BEFORE those measurements arrive. The θ column and T3 identification in B766 remain
+NOT re-derived by the seat.

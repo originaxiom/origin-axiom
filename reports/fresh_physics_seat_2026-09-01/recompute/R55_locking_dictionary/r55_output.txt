@@ -1,0 +1,83 @@
+==============================================================================
+A. THE OBJECT'S LOCKING TABLE
+==============================================================================
+  c : orientation-reversing isometry; on traces = complex conjugation (R54 §4: 132 words realise it)
+  gamma5 : A -> A^-1 realised by [[-3,-2],[5,3]] (det +1, R54e); eigenvalues sqrt(5)/2 + 3/2 <-> 3/2 - sqrt(5)/2; (1-phi)^2 - phi^-2 = 0 so this IS the sqrt5 Galois flip on eigenvalues
+  theta : the central sign of the SL(2,C) lift (Culler: two lifts, differing by the sign character)
+  T4 chirality-side    flip-vector (c,theta,gamma5) = (1, 0, 0)   [c: R54 §4 (seat); theta, gamma5: B766 derived]
+  T6 chord-sign        flip-vector (c,theta,gamma5) = (1, 1, 0)   [c: B766 derived (chord value sqrt3 i); theta: B766 audit (matrix-level) -- NOT re-derived by the seat]
+  T7 time-direction    flip-vector (c,theta,gamma5) = (0, 0, 1)   [gamma5: seat (eigenvalue inversion, above); c, theta: B766 derived]
+  T3 basepoint-bit     flip-vector (c,theta,gamma5) = (0, 0, 1)   [B701/B766 identification Out(A5) = gamma5 -- NOT re-derived by the seat]
+  relations: T7 = T3 (same vector);  T6 = T4 (+) theta;  rank over F2 = 3
+
+==============================================================================
+B. REALITY'S BIT SPACE
+==============================================================================
+  8 worlds (h,m,t); CPT identifies them in pairs -> 4 physical classes (rank 2).
+  CPT-invariant coordinates: x = h+m (handedness relative to the matter label), y = m+t (matter label relative to the arrow).
+  Physical transformations on (x,y): P: x->x+1;  C: x->x+1, y->y+1;  T: y->y+1;  CP: y->y+1;  PT: x->x+1, y->y+1 (= C);  CT: x->x+1 (= P).
+  So mod CPT there are exactly THREE nontrivial physical flips: {P ~ CT, C ~ PT, T ~ CP}.
+
+==============================================================================
+C. EVERY DICTIONARY, ENUMERATED (proper parity bookkeeping)
+==============================================================================
+  types of measured sign (CPT-even): EVEN; W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity); K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow); E (P-odd, C-even, T-odd: an EDM-type sign)
+
+  dictionary c=P, gamma5=C: ADMISSIBLE
+    T4 chirality-side          <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+    T6 chord-sign              <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+    T7 time-direction          <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+    T3 basepoint-bit           <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+    (no axis) (odd,odd)        <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+
+  dictionary c=P, gamma5=T: ADMISSIBLE
+    T4 chirality-side          <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+    T6 chord-sign              <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+    T7 time-direction          <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+    T3 basepoint-bit           <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+    (no axis) (odd,odd)        <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+
+  dictionary c=C, gamma5=P: rejected by axis semantics
+    T4 chirality-side          <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+    T6 chord-sign              <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+    T7 time-direction          <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+    T3 basepoint-bit           <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+    (no axis) (odd,odd)        <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+
+  dictionary c=C, gamma5=T: ADMISSIBLE
+    T4 chirality-side          <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+    T6 chord-sign              <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+    T7 time-direction          <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+    T3 basepoint-bit           <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+    (no axis) (odd,odd)        <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+
+  dictionary c=T, gamma5=P: rejected by axis semantics
+    T4 chirality-side          <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+    T6 chord-sign              <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+    T7 time-direction          <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+    T3 basepoint-bit           <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+    (no axis) (odd,odd)        <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+
+  dictionary c=T, gamma5=C: rejected by axis semantics
+    T4 chirality-side          <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+    T6 chord-sign              <- E   E (P-odd, C-even, T-odd: an EDM-type sign)
+    T7 time-direction          <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+    T3 basepoint-bit           <- W   W (P-odd, C-odd, T-even: a handedness, e.g. the Wu asymmetry, neutrino helicity)
+    (no axis) (odd,odd)        <- K   K (P-even, C-odd, T-odd: a CP/T rate asymmetry, e.g. K_L charge asymmetry, baryon excess w.r.t. the arrow)
+
+  admissible dictionaries: [('P', 'C'), ('P', 'T'), ('C', 'T')]
+
+  READING:
+   (c=P, gamma5=T): T4, T6 are W-type (handedness signs); T7=T3 are K-type (CP/T rate-asymmetry signs); no axis is E-type.
+                    Both rows are populated by signs reality has ALREADY measured (Wu 1957 / Goldhaber 1958; K_L charge
+                    asymmetry; baryon excess).  This is the testable dictionary.
+   (c=C, gamma5=T): T4, T6 W-type; T7=T3 E-type (EDM signs) -- assigns the time/basepoint row to signs not yet measured.
+   (c=P, gamma5=C): T4, T6 E-type; T7=T3 K-type -- assigns the chirality row to EDM-type signs; 'chirality-side' would not
+                    be a weak handedness.  Admissible by parity, implausible by the axis's own meaning.
+  CONTENT COMMON TO ALL THREE: the object has NO (odd,odd) axis.  Whatever type lands there (E-type under c=P,gamma5=T)
+  is predicted NOT to be an independent closing bit: its sign must be the product of the two row bits.  Under (P,T):
+  every EDM-type sign is determined by (handedness bit) x (CP bit) -- so the RELATIVE signs of different EDMs (electron,
+  neutron, atomic) are predicted fixed.  In the SM they are (one CKM phase); in generic new physics they are independent.
+  That is a falsifier that two measured EDMs would decide.
+
+r55_results.json written

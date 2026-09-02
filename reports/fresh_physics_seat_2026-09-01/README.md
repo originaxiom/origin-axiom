@@ -67,3 +67,5 @@ See `campaign/phaseC/SYNTHESIS.md` (judgments), `campaign/phaseC/results/` and `
   `recompute/R53_field_vs_manifold/` — the instrument's image {E6, E8}, census base rate, sister bit, Bianchi indices.
 - `campaign/phaseF/` (chirality sweep, 147 rows, `CHIRALITY_LEDGER.md`), `campaign/phaseG/` (tracker sweep, 79 rows,
   `TRACKER_LEDGER.md`), `recompute/R54_tracker_space/` (the mathematics: σ is the mirror of its own object; D4 characters).
+- `recompute/R55_locking_dictionary/` — the dictionary from the object's closing bits to reality's measured signs, with
+  predictions and falsifiers (built at the owner's request).

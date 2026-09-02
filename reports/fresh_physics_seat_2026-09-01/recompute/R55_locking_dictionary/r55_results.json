@@ -1,0 +1,102 @@
+{
+ "A_axes": {
+  "T4 chirality-side": [
+   1,
+   0,
+   0
+  ],
+  "T6 chord-sign": [
+   1,
+   1,
+   0
+  ],
+  "T7 time-direction": [
+   0,
+   0,
+   1
+  ],
+  "T3 basepoint-bit": [
+   0,
+   0,
+   1
+  ]
+ },
+ "A_provenance": {
+  "T4 chirality-side": "c: R54 \u00a74 (seat); theta, gamma5: B766 derived",
+  "T6 chord-sign": "c: B766 derived (chord value sqrt3 i); theta: B766 audit (matrix-level) -- NOT re-derived by the seat",
+  "T7 time-direction": "gamma5: seat (eigenvalue inversion, above); c, theta: B766 derived",
+  "T3 basepoint-bit": "B701/B766 identification Out(A5) = gamma5 -- NOT re-derived by the seat"
+ },
+ "B_physical_flips_mod_CPT": {
+  "P~CT": "x",
+  "C~PT": "x,y",
+  "T~CP": "y"
+ },
+ "C_admissible": [
+  [
+   "P",
+   "C"
+  ],
+  [
+   "P",
+   "T"
+  ],
+  [
+   "C",
+   "T"
+  ]
+ ],
+ "C_tables": {
+  "c=P,gamma5=C": {
+   "T4 chirality-side": [
+    "E"
+   ],
+   "T6 chord-sign": [
+    "E"
+   ],
+   "T7 time-direction": [
+    "K"
+   ],
+   "T3 basepoint-bit": [
+    "K"
+   ],
+   "(no axis) (odd,odd)": [
+    "W"
+   ]
+  },
+  "c=P,gamma5=T": {
+   "T4 chirality-side": [
+    "W"
+   ],
+   "T6 chord-sign": [
+    "W"
+   ],
+   "T7 time-direction": [
+    "K"
+   ],
+   "T3 basepoint-bit": [
+    "K"
+   ],
+   "(no axis) (odd,odd)": [
+    "E"
+   ]
+  },
+  "c=C,gamma5=T": {
+   "T4 chirality-side": [
+    "W"
+   ],
+   "T6 chord-sign": [
+    "W"
+   ],
+   "T7 time-direction": [
+    "E"
+   ],
+   "T3 basepoint-bit": [
+    "E"
+   ],
+   "(no axis) (odd,odd)": [
+    "K"
+   ]
+  }
+ }
+}
