@@ -1,5 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-02, B1238 — THE SEAT HARVEST, THIRD RING: THE CHARACTER VARIETY IS THE SQUARE-TIME CURVE; BRONZE'S OCTIC CLOSES THE AXIS)**:
+codex R037–R039 + the physics-seat evaluation branch's R39–R41 + W-E sweep read, nothing merged, every claim
+recomputed here. **The prize:** B211's Φ satisfies 4Φ = (2z−x²−1)² − (x²−1)(x²−5) — the character variety *is*
+B509's square-time curve, Cremona **40a3** (not 40a1; point counts are isogeny-invariant and could not tell), 40a1 its
+quotient by the H¹(m004;ℤ/2) sign twist ∘ root swap; B509's flag resolves upward, B510's cover/base roles inverted,
+the Rationality Theorem is about X^{na}(ℚ) = {(±1,1), ∞±}. **I-12 EARNED** (map written, acts; curves only). **Bronze
+closed:** invariant trace field = the octic x⁸+6x⁶−x⁵+12x⁴−3x³+8x²−x+2 by two routes at 1000 bits; the E55 axis is
+{golden, silver} arithmetic vs {bronze}, computed from the criterion at every member; "degree 6" → 8 at four arcs.
+**E56** (residual-only integer relations; own instance caught). **E53 #16–#18** (B362←B367; B211 the source arc of the
+40a1 label — mine; the degree-6 sites). R39's script was never lost (byte-identical to the live P2W4-Z1 cell); W-E's
+two CONTRADICTED dissolve in-file; the qor5up OPEN_LATER five were dispositioned in B1060. Twelve addenda, no
+retractions. Kill graph 778. Gate 5 untouched. **Queued B1239:** codex R040 (free deck ⇒ CS = 0; 1260/1260 census) +
+physics seat R42–R48 / Phase C–D.
+
 **LATEST (2026-09-02, B1237 — THE PHYSICS-SEAT HARVEST, SECOND RING: SILVER IS ARITHMETIC; C42 WITNESSED FROM COMMITTED CODE)**:
 the physics-seat evaluation branch's R31–R38 + W-D synthesis read, nothing merged, every correction recomputed here.
 **Silver (m136) is arithmetic** — invariant trace field ℚ(i), Vol = 4G = 12 × covol(PSL₂ℤ[i]) to 50 digits; B258/B1062-V2
@@ -8,7 +22,7 @@ from {bronze}, the degree statement survives; the SM chain is untouched (the doo
 arithmeticity, selects m = 1) and L161's P0-0 control falls back to B997 for the silver half. **C42's (3, 5, 0)** now recomputes from B1236's committed content (B919's
 runner needs an uncommitted `cw.py`). **E53 #13–#15** propagated into B361/B259/B892's own verdict files (supersession,
 B980's withdrawal, the 14-vs-12 overstatement). B850/B333/B213 numbers corrected, verdicts unchanged (B213's curve is
-the 40a member 2-isogenous to 40a1). **L197** registered (supersession sweep; the belt's string-lock and OA_SLOW
+the 40a member 2-isogenous to 40a1 [B1238: = 40a3, and it is the character variety itself]). **L197** registered (supersession sweep; the belt's string-lock and OA_SLOW
 families). Kill graph 778. Gate 5 untouched.
 
 **LATEST (2026-09-02, B1236 — THE A₁ LANDING AT EXACT MULTIPLET GRADE)**: codex R035 verified by an independent

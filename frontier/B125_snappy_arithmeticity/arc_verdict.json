@@ -1,10 +1,11 @@
 {
- "id": "B125",
- "verdict": "PROVED",
- "claim_one_line": "SnapPy invariant trace fields show arithmeticity selects m=1 (Q(sqrt-3)) and m=2 (Q(i)) and kills m>=3, overturning the unique-m=1 reading.",
- "instrument": false,
- "depends_on": [],
- "supersedes": "B123",
- "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+  "id": "B125",
+  "verdict": "PROVED",
+  "claim_one_line": "SnapPy invariant trace fields show arithmeticity selects m=1 (Q(sqrt-3)) and m=2 (Q(i)) and kills m>=3, overturning the unique-m=1 reading.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": "B123",
+  "superseded_by": null,
+  "authored_by": "W1-wave1-fanout",
+  "note": "B1238 (2026-09-02; E53 #18): bronze's invariant trace field is degree 8 (the octic x^8+6x^6-x^5+12x^4-3x^3+8x^2-x+2, disc 391728981, signature (0,4); two routes at 1000 bits, nfisisom True), not 'canonical 6' (FINDINGS:32). Verdict unaffected: not imaginary quadratic => non-arithmetic; the axis is {golden, silver} arithmetic vs {bronze}. See ADDENDUM_2026-09-02_B1238.md."
 }

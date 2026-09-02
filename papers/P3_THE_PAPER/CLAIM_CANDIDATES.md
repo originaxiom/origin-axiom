@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 829 of 1050 settled arcs — 79%** —
+the field is **absent on 829 of 1051 settled arcs — 79%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (75) ∪ on-a-synthesis-surface ∪ law-vocabulary (111) = 484 arcs.**
+**POOL = declared-law (75) ∪ on-a-synthesis-surface ∪ law-vocabulary (112) = 485 arcs.**
 The vocabulary criterion adds **40 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **3.0** on the corpus's own law vocabulary against
-**1.07** for the rest — **2.79×**. The criterion
+**1.08** for the rest — **2.79×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -320,7 +320,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1223` | NEGATIVE | S | | THE V4/S3 <-> D4 CORRESPONDENCE, assembled from three seats' material and KILLED IN ONE COMPUTATION. THE ASSEMBLY: the object supplies V4 (its three forced quadratic face… |
 | `B1235` | PROVED | S | | THE TWO-SEAT HARVEST (fab5cloud rings R2/R3 + codex R034/R036, every claim recomputed here before banking): (1) THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- B1181's clo… |
 
-## §2 the object — arithmetic and geometry (47)
+## §2 the object — arithmetic and geometry (48)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -347,7 +347,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B465` | PROVED | S | | The 8-4-3 monodromy spectrum is exact and fully derived from Fricke's tr(A1A2)=15 plus Egorov, and the SU(3)/SU(4) readings fail at the eigenspace level.… |
 | `B482` | PROVED | S | | Verified the twisted-Markov handoff: the det -1 Markov spectrum below 3 is exactly {sqrt5, 2sqrt2}, and tr[A,B] = 2 - gap^2/(detA detB) generalizes P4's Lemma 2.2.… |
 | `B498` | NEGATIVE | S | | Depth-3 mixed words refute both the golden monopoly and cyclotomic tameness — interaction fixed points birth genuinely wild S4 arithmetic.… |
-| `B510` | PROVED | S | | 40a3 is the Jacobian of 40a1's branch double cover (2-isogenous, not a quadratic twist), discharging the square-time flag as a theorem.… |
+| `B510` | PROVED | S | | CORRECTED 2026-09-02 (B1238): the branch double cover IS the character variety (40a3); 40a1 is its σ-quotient — the roles below are inverted. ORIGINAL CLAIM AS ASSERTED: … |
 | `B534` | PROVED | S | | Dark-hyperbola theorem proved for all odd primes: T(j,l)=0 ⟺ jl≡−4 except the (2,−2) survivor, magnitude spectrum exactly {0,1,√p}.… |
 | `B613` | PROVED | S | | Closure theorem: for GHH-anti-palindromic (amphichiral) weld words, conj(W)=Q⁻¹WᵀQ with Q=PSC, so the odd hearing spectrum is conjugation-closed at every level.… |
 | `B638` | PROVED | S | | The deck swap is an antilinear involution with Eisenstein-unit spectrum that forces the chord's whole phase pattern; the magnitude-24 ratio is not forced.… |
@@ -371,6 +371,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B931` | PROVED | S | | WHY 953 -- THE DERIVATION CHAIN + THE HONEST MAP (53/53 exact): 2304 IS DERIVED -- 2304^2 = 2^16 3^4 is exactly the {2,3}-part of lc(mu) = 2304^2 5^2 7^3 11, the twist's … |
 | `B1064` | NEGATIVE | S | | O3 — OBSTRUCTED-AT-TORUS, the obstruction named exactly on two independent banked legs: (1) the object amphichirality DELETES the quantized sector of its own boundary act… |
 | `B1136` | PROVED | S | | THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-fie… |
+| `B1238` | PROVED | S | | THE SEAT HARVEST, THIRD RING (codex R037-R039 @ e40d46ad; the physics-seat evaluation branch R39-R41 + the W-E absence sweep @ 1c980e69; nothing merged, every number reco… |
 
 ## §10 the wall — what a specialist must supply (38)
 

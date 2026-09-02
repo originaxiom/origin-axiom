@@ -1,0 +1,7 @@
+stabilizer in su(6) alone: dim 24 rank 4   (SU(5): 24, 4)
+stabilizer in su(6)+su(2): dim 25 rank 5   (u(5): 25, 5)
+|(2Y+5X,-5T_E).v| = 0.0   |X.v| = 1.0   |Y.v| = 0.0
+Lambda^2 6 charges: {np.float64(-4.0): 5, np.float64(2.0): 10}
+(bar6,2) charges: {np.float64(-6.0): 5, np.float64(0.0): 1, np.float64(4.0): 5, np.float64(10.0): 1}
+||mu_su(6)||^2 = 0.833333   ||mu_su(2)||^2 = 0.5
+Y is supported on coords 1..5 and annihilates v: True

@@ -1,7 +1,8 @@
 {
- "id": "B840",
- "verdict": "NEGATIVE",
- "claim_one_line": "Loose ends (retro-authored at R50-4): three closed and one was a VACUOUS VERDICT -- B590's R1 printed SEALED because polish_mp built 9 complex trace equations (18 real) for 22 real unknowns, so escapes==0 held because nothing was ever tested. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
- "instrument": false,
- "creates_law": false
+  "id": "B840",
+  "verdict": "NEGATIVE",
+  "claim_one_line": "Loose ends (retro-authored at R50-4): three closed and one was a VACUOUS VERDICT -- B590's R1 printed SEALED because polish_mp built 9 complex trace equations (18 real) for 22 real unknowns, so escapes==0 held because nothing was ever tested. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+  "instrument": false,
+  "creates_law": false,
+  "note": "B1238 (2026-09-02; E53 #18): the '8 vs 6' question (FINDINGS:36-37) is resolved -- degree 8 is right (the invariant trace field is the octic x^8+6x^6-x^5+12x^4-3x^3+8x^2-x+2 by two routes); B578-D6's 6 was an E56 artefact. NEGATIVE unchanged. See ADDENDUM_2026-09-02_B1238.md."
 }

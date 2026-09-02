@@ -1,10 +1,11 @@
 {
- "id": "B211",
- "verdict": "PROVED",
- "claim_one_line": "The figure-eight non-abelian character variety is birational to elliptic curve 40a1 (point counts p-1-a_p exact for 23 primes); metallic bundles are Borromean fillings.",
- "instrument": false,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+  "id": "B211",
+  "verdict": "PROVED",
+  "claim_one_line": "CORRECTED 2026-09-02 (B1238): the curve is Cremona 40a3 = the square-time curve (4Φ = (2z−x²−1)² − (x²−1)(x²−5)), not 40a1 (its σ-quotient); the point counts are isogeny-invariant and stand. ORIGINAL CLAIM AS ASSERTED: The figure-eight non-abelian character variety is birational to elliptic curve 40a1 (point counts p-1-a_p exact for 23 primes); metallic bundles are Borromean fillings.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "W1-wave1-fanout",
+  "note": "CORRECTED 2026-09-02 (B1238; E53 #17): the curve is Cremona 40a3 (minimal model [0,0,0,-2,1], j = 55296/5, torsion Z/4), not 40a1. 4*Phi = (2z - x^2 - 1)^2 - (x^2-1)(x^2-5): X^na IS B509's square-time curve d^2 = (c^2-1)(c^2-5) in the chart (c,d) = (x, 2z-x^2-1). The 23-prime point counts are isogeny-invariant (a_3 = 0, a_7 = -4, a_11 = 4, a_13 = -2 across class 40a) and remain exact; this arc's own 'torsion Z/4' was 40a3's datum. 40a1 = the quotient of X^na by the fixed-point-free involution sigma(x,z) = (-x, x^2+1-z) ((X,Y) = (x^2, x(2z-x^2-1)) lands on Y^2 = X(X-1)(X-5)). Identification I-12 EARNED. PROVED stands with the corrected label. Verification: frontier/B1238_seat_harvest_40a3_bronze_octic/verification/b211_phi_jacobian.py. See ADDENDUM_2026-09-02_B1238.md."
 }

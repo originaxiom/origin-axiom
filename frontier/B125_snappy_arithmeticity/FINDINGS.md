@@ -29,7 +29,7 @@ the **lift-independent traces-of-squares** field, SnapPy 3.3.2 + cypari 2.5.6:
 |---|---|---|---|---|---|---|
 | 1 | golden | `ℚ(√−3)` (`Φ₆`, shape `e^{iπ/3}`) | 2 | yes | yes | **ARITHMETIC** |
 | 2 | silver | `ℚ(i)` (roots `1±i`) | 2 | yes | yes | **ARITHMETIC** *(new)* |
-| 3 | bronze | degree ≥ 4 (canonical 6) | ≥4 | no | — | **non-arithmetic** |
+| 3 | bronze | degree ≥ 4 (canonical 6) [B1238, 2026-09-02: the invariant trace field is degree **8** — the octic x⁸+6x⁶−x⁵+12x⁴−3x³+8x²−x+2 (disc 391728981, two routes at 1000 bits); the 6 was a residual-only integer-relation artefact (E56); verdict unaffected] | ≥4 | no | — | **non-arithmetic** |
 | 4 | — | degree 4 | 4 | no | — | **non-arithmetic** |
 | 5 | — | degree ≥ 4 (canonical 6) | ≥4 | no | — | **non-arithmetic** |
 | 6 | — | degree ≥ 4 (canonical 6) | ≥4 | no | — | **non-arithmetic** |

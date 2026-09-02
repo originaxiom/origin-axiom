@@ -1,10 +1,11 @@
 {
- "id": "B137",
- "verdict": "PROVED",
- "claim_one_line": "The SL(3) sealing extends to silver m=2: zero irreducible off-sublocus fixed points escape Q(i), once the reducible-locus artifact is filtered out.",
- "instrument": false,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+  "id": "B137",
+  "verdict": "PROVED",
+  "claim_one_line": "The SL(3) sealing extends to silver m=2: zero irreducible off-sublocus fixed points escape Q(i), once the reducible-locus artifact is filtered out.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "W1-wave1-fanout",
+  "note": "B1238 (2026-09-02; E53 #18): K_3, the bronze invariant trace field, is degree 8 (the octic x^8+6x^6-x^5+12x^4-3x^3+8x^2-x+2), not 'DEGREE 6' (FINDINGS:44); B578-D6's degree 6 was a residual-only integer-relation artefact (E56). The deferral reason (K_3 non-quadratic) stands a fortiori. See ADDENDUM_2026-09-02_B1238.md."
 }

@@ -1,0 +1,79 @@
+
+== b++RL: vol = 2.029883212819307250042405108549040571883378615060599584034978  H1 = Z  identify = ['m004', '4_1', 'K2_1', 'K4a1', 'otet02_00001']
+   tr(a^2) = -4.0000000000000000000000000000000000000 + 3.46410161513775458705489268301174473389*I  minpoly x^2 + 8*x + 28  monic=True
+   tr(b^2) = -0.50000000000000000000000000000000000000 + 2.59807621135331594029116951225880855041*I  minpoly x^2 + x + 7  monic=True
+   tr(ab^2) = -10.0000000000000000000000000000000000000 - 13.8564064605510183482195707320469789356*I  minpoly x^2 + 20*x + 292  monic=True
+   tr(aB^2) = 2.00000000000000000000000000000000000000 - 2.22507385850720138309023271733240406422 E-308*I  minpoly x - 2  monic=True
+   tr(aab^2) = 87.500000000000000000000000000000000000 + 16.4544826719043342885107402443057874860*I  minpoly x^2 - 175*x + 7927  monic=True
+   tr(abb^2) = 44.0000000000000000000000000000000000000 - 24.2487113059642821093842487810822131372*I  minpoly x^2 - 88*x + 2524  monic=True
+   invariant-trace combo (1, 2, 3, 0, 0, 0): minpoly degree 2
+   invariant-trace combo (1, -2, 3, 5, -7, 0): minpoly degree 2
+   invariant-trace combo (2, 3, -5, 7, 11, -13): minpoly degree 2
+   invariant-trace combo (3, 1, 4, 1, 5, 9): minpoly degree 2
+   invariant-trace combo (1, 1, 1, 1, 1, 1): minpoly degree 2
+   -> invariant-trace FIELD: degree 2, polredabs x^2 - x + 1, signature (r1,r2)=[0, 1], disc -3
+   shape z_0 = 0.50000000000000000000000000000000000000 + 0.86602540378443864676372317075293618347*I  minpoly x^2 - x + 1
+   shape z_1 = 0.50000000000000000000000000000000000000 + 0.86602540378443864676372317075293618347*I  minpoly x^2 - x + 1
+   shape combo (1, 2, 3, 0, 0, 0): minpoly degree 2
+   shape combo (1, -2, 3, 5, -7, 0): minpoly degree 1
+   shape combo (2, 3, -5, 7, 11, -13): minpoly degree 2
+   shape combo (3, 1, 4, 1, 5, 9): minpoly degree 2
+   shape combo (1, 1, 1, 1, 1, 1): minpoly degree 2
+   -> shape FIELD: degree 2, polredabs x^2 - x + 1, signature (r1,r2)=[0, 1], disc -3
+   routes agree (nfisisom): True
+   ==> b++RL: invariant trace field degree 2, IMAGINARY QUADRATIC -> ARITHMETIC-side
+
+== b++RRLL: vol = 3.663862376708876060218414059729536443096597497126688537065992  H1 = Z/2 + Z/2 + Z  identify = ['m136']
+   tr(a^2) = 4.4501477170144027661804654346648081284 E-308 - 2.00000000000000000000000000000000000000*I  minpoly x^2 + 4  monic=True
+   tr(b^2) = 2.00000000000000000000000000000000000000 + 1.33504431510432082985413963039944243853 E-307*I  minpoly x - 2  monic=True
+   tr(ab^2) = -6.0000000000000000000000000000000000000 - 4.0000000000000000000000000000000000000*I  minpoly x^2 + 12*x + 52  monic=True
+   tr(aB^2) = 2.00000000000000000000000000000000000000 + 4.0000000000000000000000000000000000000*I  minpoly x^2 - 4*x + 20  monic=True
+   tr(aab^2) = -14.0000000000000000000000000000000000000 + 16.0000000000000000000000000000000000000*I  minpoly x^2 + 28*x + 452  monic=True
+   tr(abb^2) = -16.0000000000000000000000000000000000000 - 2.00000000000000000000000000000000000000*I  minpoly x^2 + 32*x + 260  monic=True
+   invariant-trace combo (1, 2, 3, 0, 0, 0): minpoly degree 2
+   invariant-trace combo (1, -2, 3, 5, -7, 0): minpoly degree 2
+   invariant-trace combo (2, 3, -5, 7, 11, -13): minpoly degree 2
+   invariant-trace combo (3, 1, 4, 1, 5, 9): minpoly degree 2
+   invariant-trace combo (1, 1, 1, 1, 1, 1): minpoly degree 2
+   -> invariant-trace FIELD: degree 2, polredabs x^2 + 1, signature (r1,r2)=[0, 1], disc -4
+   shape z_0 = 1.00000000000000000000000000000000000000 + 1.00000000000000000000000000000000000000*I  minpoly x^2 - 2*x + 2
+   shape z_1 = 0.50000000000000000000000000000000000000 + 0.50000000000000000000000000000000000000*I  minpoly 2*x^2 - 2*x + 1
+   shape z_2 = 1.00000000000000000000000000000000000000 + 1.00000000000000000000000000000000000000*I  minpoly x^2 - 2*x + 2
+   shape z_3 = -1.18461624273870999736951324831623204346 E-328 + 1.00000000000000000000000000000000000000*I  minpoly x^2 + 1
+   shape combo (1, 2, 3, 0, 0, 0): minpoly degree 2
+   shape combo (1, -2, 3, 5, -7, 0): minpoly degree 2
+   shape combo (2, 3, -5, 7, 11, -13): minpoly degree 2
+   shape combo (3, 1, 4, 1, 5, 9): minpoly degree 2
+   shape combo (1, 1, 1, 1, 1, 1): minpoly degree 2
+   -> shape FIELD: degree 2, polredabs x^2 + 1, signature (r1,r2)=[0, 1], disc -4
+   routes agree (nfisisom): True
+   ==> b++RRLL: invariant trace field degree 2, IMAGINARY QUADRATIC -> ARITHMETIC-side
+
+== b++RRRLLL: vol = 4.813819186103886692450256728639722991493188506932063546350505  H1 = Z/3 + Z/3 + Z  identify = ['s464']
+   tr(a^2) = 0.438615815228633755628605414925903642541 - 1.42118137797215755502328329659900440502*I  minpoly x^8 + 8*x^7 + 24*x^6 + 31*x^5 + 36*x^4 + 69*x^3 + 32*x^2 - 37*x + 34  monic=True
+   tr(b^2) = 2.00000000000000000000000000000000000000 + 2.22507385850720138309023271733240406422 E-308*I  minpoly x - 2  monic=True
+   tr(ab^2) = -6.5158319622405759653826326280204922270 - 5.2327310519456821342294554397355583136*I  minpoly x^8 + 47*x^7 + 970*x^6 + 11420*x^5 + 83272*x^4 + 380752*x^3 + 1058016*x^2 + 1629504*x + 1066112  monic=True
+   tr(aB^2) = 0.326742079857577025447846704371910537013 + 6.5084932101839187910777007911416512295*I  minpoly x^8 - 13*x^7 + 86*x^6 - 196*x^5 + 2136*x^4 + 15248*x^3 + 36384*x^2 + 37184*x + 19328  monic=True
+   tr(aab^2) = -19.3609283878130671271721241823535546225 + 11.0831453646932991343680103840485931417*I  minpoly x^8 - 9*x^7 + 114*x^6 + 16652*x^5 + 253896*x^4 - 2891696*x^3 + 47906144*x^2 - 324313024*x + 1128665216  monic=True
+   tr(abb^2) = -20.5366012525500521375858674244672770717 - 4.9261558117366549465408156382680104962*I  minpoly x^8 + 104*x^7 + 4520*x^6 + 107759*x^5 + 1581708*x^4 + 15491021*x^3 + 104333208*x^2 + 430740155*x + 843364898  monic=True
+   invariant-trace combo (1, 2, 3, 0, 0, 0): minpoly degree 8
+   invariant-trace combo (1, -2, 3, 5, -7, 0): minpoly degree None
+   invariant-trace combo (2, 3, -5, 7, 11, -13): minpoly degree None
+   invariant-trace combo (3, 1, 4, 1, 5, 9): minpoly degree None
+   invariant-trace combo (1, 1, 1, 1, 1, 1): minpoly degree 8
+   -> invariant-trace FIELD: degree 8, polredabs x^8 + 6*x^6 - x^5 + 12*x^4 - 3*x^3 + 8*x^2 - x + 2, signature (r1,r2)=[0, 4], disc 391728981
+   shape z_0 = 1.49294414291219174530615094791902453252 + 0.87006095876585835961767231722526381700*I  minpoly 4*x^8 - 17*x^7 + 35*x^6 - 45*x^5 + 46*x^4 - 31*x^3 + 15*x^2 - 4*x + 1
+   shape z_1 = 0.62190213347233573665180910492414758927 + 0.438121804220562173939691542708625761404*I  minpoly x^8 + 4*x^7 + 4*x^6 - 5*x^5 - 7*x^4 + 7*x^3 + 5*x^2 - 7*x + 2
+   shape z_2 = 0.62190213347233573665180910492414758927 + 0.438121804220562173939691542708625761404*I  minpoly x^8 + 4*x^7 + 4*x^6 - 5*x^5 - 7*x^4 + 7*x^3 + 5*x^2 - 7*x + 2
+   shape z_3 = 1.49294414291219174530615094791902453252 + 0.87006095876585835961767231722526381700*I  minpoly 4*x^8 - 17*x^7 + 35*x^6 - 45*x^5 + 46*x^4 - 31*x^3 + 15*x^2 - 4*x + 1
+   shape z_4 = -0.128957990560143991345658157005123056753 + 1.30818276298642053355736385993388957840*I  minpoly 4*x^8 - x^7 + x^6 - 4*x^5 - 2*x^4 - 2*x^3 + 12*x^2 - 9*x + 2
+   shape z_5 = -0.128957990560143991345658157005123056753 + 1.30818276298642053355736385993388957840*I  minpoly 4*x^8 - x^7 + x^6 - 4*x^5 - 2*x^4 - 2*x^3 + 12*x^2 - 9*x + 2
+   shape combo (1, 2, 3, 0, 0, 0): minpoly degree 8
+   shape combo (1, -2, 3, 5, -7, 0): minpoly degree 8
+   shape combo (2, 3, -5, 7, 11, -13): minpoly degree 8
+   shape combo (3, 1, 4, 1, 5, 9): minpoly degree 8
+   shape combo (1, 1, 1, 1, 1, 1): minpoly degree 8
+   -> shape FIELD: degree 8, polredabs x^8 + 6*x^6 - x^5 + 12*x^4 - 3*x^3 + 8*x^2 - x + 2, signature (r1,r2)=[0, 4], disc 391728981
+   routes agree (nfisisom): True
+   ==> b++RRRLLL: invariant trace field degree 8, NOT imaginary quadratic -> NON-ARITHMETIC (cusped)
+DONE

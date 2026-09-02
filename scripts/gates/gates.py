@@ -513,6 +513,44 @@ def gate_path_refs():
     return True, f"ok ({total} citations resolve)"
 
 
+def gate_tracked_deps():
+    """Every repo path a tracked test/script names must itself be TRACKED, not merely present.
+
+    E57 (B1238, 2026-09-02): B1237 committed `tests/test_paper_ledger_counts.py` and pushed it
+    with the tool it runs, `scripts/checks/paper_ledger_counts.py`, still untracked -- the
+    file sat on the bench, so the local suite was green and `path-refs` resolved it; only a
+    fresh clone would have redded. This is the complement of `path-refs`: that gate asks
+    "does the cited path exist?", this one asks "does git HAVE it?". Scope is tracked .py
+    under tests/ and scripts/ (the executable reference graph); a path is checked only when it
+    exists on disk (a missing path is `path-refs`' business, or an intentional skipif).
+    Fail-closed if git is unavailable -- an index we cannot read is not an index we may vouch for.
+    """
+    rc, out = _git("ls-files")
+    if rc != 0:
+        return False, f"git ls-files failed: {out[:80]}"
+    tracked = set(out.split("\n"))
+    lit = re.compile(r"(?:scripts|frontier|docs|tests|data|paper)/[\w./-]+\.(?:py|sh|json|md|txt|csv)")
+    chain = re.compile(r'ROOT(?:\s*/\s*"[^"]+")+')
+    bad = {}
+    for rel in sorted(tracked):
+        if not (rel.startswith(("tests/", "scripts/")) and rel.endswith(".py")):
+            continue
+        try:
+            txt = _read(rel)
+        except OSError:
+            continue                                   # deleted-but-tracked: not this gate's class
+        refs = set(lit.findall(txt))
+        for ch in chain.findall(txt):
+            refs.add("/".join(re.findall(r'"([^"]+)"', ch)))
+        for r in refs:
+            if r not in tracked and os.path.isfile(os.path.join(ROOT, r)):
+                bad.setdefault(r, rel)
+    if bad:
+        pairs = [f"{r} <- {src}" for r, src in sorted(bad.items())]
+        return False, f"{len(pairs)} untracked-but-referenced path(s): " + "; ".join(pairs[:5])
+    return True, "ok"
+
+
 def gate_test_vacuity():
     """No test may be unconditionally-passing: no NO-ASSERT, no TAUTOLOGY.
 
@@ -1061,6 +1099,7 @@ GATES = {
     "id-collisions": gate_id_collisions,
     "knowledge-index": gate_knowledge_index,
     "path-refs": gate_path_refs,
+    "tracked-deps": gate_tracked_deps,
     "test-vacuity": gate_test_vacuity,
     "views-generated": gate_views_generated,
     "practices-register": gate_practices_register,

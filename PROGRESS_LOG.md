@@ -13218,3 +13218,39 @@ The P3 claim base stopped being hand-patched: its render dropped nine rows appen
 two of them mis-tiered L by me (B1235, B1236 — both `creates_law: false`); the pool is now rebuilt from the live corpus
 (467 → 484), tiers fall out of the flags and surfaces rather than a hand, and short arc ids no longer match section
 labels on the synthesis surfaces.
+
+## 2026-09-02 — B1238: the seat harvest, third ring — the character variety IS the square-time curve
+
+The prize first. For two months the record has carried two elliptic curves found independently — B211's figure-eight
+character variety, banked as Cremona 40a1, and B509's "square-time curve" d² = (c²−1)(c²−5), computed as 40a3 and
+flagged as merely isogenous to the first. They are one curve. Completing the square in B211's Φ gives
+4Φ = (2z − x² − 1)² − (x²−1)(x²−5): the character variety is B509's curve in the chart (c,d) = (x, 2z−x²−1), with c the
+same meridian trace, and its Jacobian is 40a3 (minimal model [0,0,0,−2,1], j = 55296/5, torsion ℤ/4). B211's label was
+wrong, and its evidence could never have said so: point counts p−1−a_p are the same across an isogeny class, and the
+"torsion ℤ/4" B211 quoted was 40a3's number sitting beside 40a1's name. 40a1 is real, but as the quotient of the
+character variety by the sign twist of H¹(m004;ℤ/2) composed with the swap of Φ's two roots — a fixed-point-free
+involution, so the cover is unramified and B510's covering picture had the two curves' roles inverted. B509's flag
+resolves upward: not two curves in one class, one curve; its rank-0 theorem is now a theorem about the character
+variety's rational points, which are exactly (±1,1) and the two points at infinity. This is the first identification
+earned since the register opened (I-12): the map is written, it acts on every datum both arcs computed, and it stops
+where it should — the *meaning* of c as square time is not asserted. The correction reached B211 itself this time;
+yesterday's cell had corrected B213's copy of the label and not the arc that minted it (E53 #17, mine).
+
+Bronze is closed. Its invariant trace field — the field that decides arithmeticity — is a specific octic,
+x⁸+6x⁶−x⁵+12x⁴−3x³+8x²−x+2, computed two ways at 1000 bits from the orientable bundle b++RRRLLL (= s464) and matched by
+`nfisisom`. The E55 axis is now computed at every member from the criterion that decides it: golden ℚ(√−3) and silver
+ℚ(i) arithmetic, bronze not. The "degree 6" that four arcs carried for bronze is corrected to 8 (B578's own verifier
+had said 8 in 2026-07 and was overruled by a residual). That episode names a class: E56, accepting an integer relation
+on residual alone — this bench produced its own instance in the first bronze run (50-digit coefficients, residual
+10⁻¹⁰⁰, meaningless) before the coefficient bound caught it.
+
+The seats' work: codex R037–R039 verified (restriction of 2T-quotients from m000 to m004, the lone VEV's stabiliser,
+the A₄→2T lift torsor — every count reproduced, one presentation re-derived by hand); the physics seat's R40/R41
+verified; R39's "lost" Z1 script was never lost — the deleted copy is byte-identical to the live P2W4-Z1 cell and the
+rerun agrees 22/22, so nothing was added (the absence rule turned on my own first move, which had gone to history
+instead of the tree); the W-E absence sweep's two CONTRADICTED verdicts dissolve in B778's own COMPLETION section, and
+its 13 OPEN_LATER items were already dispositioned in B1060's digest. B362 joins B361 as superseded by B367 (E53 #16).
+Twelve arcs receive addenda; nothing is retracted; nothing died. Codex's R040 (free deck ⇒ Chern–Simons 0, census
+1260/1260) and the physics seat's R42–R48 with Phases C/D arrived while this was being verified and are queued as
+B1239 with the census rerun first.
+At the landing itself one more error surfaced, mine: B1237 shipped a lock (`tests/test_paper_ledger_counts.py`) whose tool had never been added to git — every local certificate passed because the file sat on the bench. That is a class (E57), and it now has a gate (`tracked-deps`) that runs at push, the moment a fresh clone would have found it. One instance in 1160 tracked files; the tool ships in this commit.

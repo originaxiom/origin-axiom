@@ -1,0 +1,7 @@
+Surj to 2T: m000 48  m004 48  | Surj to A4: m000 24  m004 24
+|Aut(A4)| = 24  A4-orbits: m000 [24]  m004 [24]
+lifts per A4 map: m000 [2]  m004 [2]
+A4 restriction: distinct images 24  = all of Surj(m004,A4)? True  (bijective on 24 maps)
+per m004 A4-map, number of its two 2T lifts that extend over m000: [1]
+m000: the two lifts differ by the orientation twist and restrict to the same 2T map: True
+m004: the second lift is the H^1 twist of the extendable one and does not extend: True

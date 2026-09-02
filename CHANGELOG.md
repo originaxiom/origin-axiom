@@ -1,5 +1,39 @@
 # Changelog
 
+## THE SEAT HARVEST, THIRD RING — the character variety IS the square-time curve (40a3, I-12 EARNED); bronze's octic closes the E55 axis; E56 (2026-09-02)
+
+**B1238.** Codex R037–R039 and the physics-seat evaluation branch's R39–R41 + W-E absence sweep read in full, **nothing
+merged**, every claim recomputed here (`verification/`, `reproduce.sh`). **(1) The prize.** B211's curve `Φ(x,z) =
+z² − (x²+1)z + (2x²−1)` satisfies **4Φ = (2z − x² − 1)² − (x²−1)(x²−5)** — it *is* B509's square-time curve
+`d² = (c²−1)(c²−5)` in the chart (c,d) = (x, 2z−x²−1), c the same meridian trace. Its Jacobian is **Cremona 40a3**
+(minimal model [0,0,0,−2,1], j = 55296/5, torsion ℤ/4), not 40a1 as B211 banked: the 23-prime point-count evidence
+is isogeny-invariant and could never tell the class members apart, and B211's own "torsion ℤ/4" was 40a3's datum
+beside the wrong label. **40a1 is the quotient** of X^{na} by the fixed-point-free involution σ(x,z) = (−x, x²+1−z)
+(the H¹(m004;ℤ/2) sign twist composed with the root swap; Y² − X(X−1)(X−5) = 4x²Φ). B510's covering picture had the
+roles inverted (X^{na} is the cover, 40a1 the base); B509's Rationality Theorem (rank 0, re-confirmed by `ellrank`)
+is now about X^{na}(ℚ) itself = {(±1,1), ∞₊, ∞₋}. Every isogeny-invariant statement survives (conductor 40, the
+level-40 newform, bad primes {2,5} vs the trace field's 3). Registered **I-12 EARNED** — the map is written down and
+acts (curves only; the meaning of square time is not identified). B211 corrected in its own files (E53 #17 — B1237
+had corrected B213's copy and not the source arc, mine), six live docs sites bracketed. **(2) Bronze closed.** The
+invariant trace field of `b++RRRLLL` (= s464, φ₃² = R³L³) is the octic **x⁸+6x⁶−x⁵+12x⁴−3x³+8x²−x+2** (disc
+391728981, signature (0,4)) by two independent routes at 1000 bits (`nfisisom` True); golden x²−x+1 and silver x²+1
+recomputed in the same run. The E55 axis is complete and computed from the deciding criterion at every member:
+**{golden, silver} arithmetic, {bronze} not.** "Degree 6" at B125/B137/B578/B840 corrected to 8 (E53 #18; B578's
+verifier had said so). **New class E56:** residual-only integer-relation acceptance (own instance caught on this bench;
+B578-D6 the prior one). **(3) The seats' work.** Codex R037 (2T-quotient restriction m000→m004: Surj 48/48, orbits
+[24,24], restricted image one orbit, the other the H¹ twist; own R–S presentation), R038 (lone-VEV stabiliser su(6):
+dim 24 rank 4; +su(2): dim 25 rank 5), R039 (A₄→2T lift torsor: Surj 24/24, lifts [2], exactly one extends) all
+VERIFIED. Physics seat: R40 (five Pisot quartics) and R41 (κ preserved, det J = 1) VERIFIED; R39's "deleted Z1 script"
+is byte-identical to the live `B775/cells/P2W4-Z1/compute.py` (git witness), the rerun matches main 22/22 — nothing
+was lost, no file added (the absence rule, applied to my own first move); W-E's two CONTRADICTED verdicts dissolve
+(B778's "never ran" block is superseded in-file by its own COMPLETION, bracketed now), its 44 SUPERSEDED spot-confirmed,
+its 13 OPEN_LATER shown dispositioned (five qor5up items in B1060's digest rows), B1060 row 1.07's dangling pointer
+resolved (no COUNT DISCIPLINE block exists; THE_FRAMEWORK:283–296 + THE_CLAIM §1 are the reconciliation; B1025 needs
+nothing). B362 `superseded_by: "B367"` (E53 #16). Twelve addenda. Lock: `tests/test_b1238_seat_harvest_40a3_bronze_octic.py`.
+Kill graph 778 (no kill rows: nothing died). Gate 5 untouched. **Queued as B1239:** codex R040 (free deck ⇒ CS = 0;
+1260/1260 census) and the physics seat's R42–R48 + Phase C/D — read, not yet recomputed.
+**Found at this landing — E57, the LOCK-WITHOUT-TOOL class:** B1237 pushed `tests/test_paper_ledger_counts.py` while the tool it runs, `scripts/checks/paper_ledger_counts.py`, was never `git add`ed (no history); the suite was green because the bench had the file and `path-refs` resolved it — only a fresh clone reds. Tool committed here; new gate **`tracked-deps`** (30th; the complement of `path-refs`: not "does it exist?" but "does git HAVE it?"), census 1 instance in 1160 tracked py files; `docs/TOOLBOX_LIVE.md` read and extended (B1238's three instruments + the gate) — the currency gate had tipped it to lag 61 > 60.
+
 ## THE PHYSICS-SEAT HARVEST, SECOND RING — silver IS arithmetic; C42 witnessed from committed code; E53 at verdict-file grain (2026-09-02)
 
 **B1237.** The physics-seat evaluation branch's R31–R38 and W-D synthesis (nine commits, `2ebdff8d`→`d415423a`) read

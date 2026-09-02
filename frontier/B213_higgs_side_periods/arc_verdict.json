@@ -7,5 +7,5 @@
   "supersedes": null,
   "superseded_by": null,
   "authored_by": "W1-wave1-fanout",
-  "note": "B1237 (2026-09-02): 40a1 has torsion ℤ/2×ℤ/2 (not ℤ/4), ∏c_p = 4 (not 8), L(E,1) = 0.742206… (not 0.74228), Mahler m(Φ) = 0.742264… (not 0.74175, and ≠ L(E,1)); Φ's curve is the 40a member with j = 55296/5, 2-isogenous to 40a1, not 40a1 (B509/B510 had it). NEGATIVE unchanged. See ADDENDUM_2026-09-02_B1237.md."
+  "note": "B1237 (2026-09-02): 40a1 has torsion ℤ/2×ℤ/2 (not ℤ/4), ∏c_p = 4 (not 8), L(E,1) = 0.742206… (not 0.74228), Mahler m(Φ) = 0.742264… (not 0.74175, and ≠ L(E,1)); Φ's curve is the 40a member with j = 55296/5, 2-isogenous to 40a1, not 40a1 (B509/B510 had it). NEGATIVE unchanged. See ADDENDUM_2026-09-02_B1237.md.\n\nB1238 (2026-09-02): the 40a3 label is now DERIVED from Phi (B1237 had taken it from the physics-seat branch): minimal model [0,0,0,-2,1]; the source arc B211 is corrected (E53 #17). NEGATIVE unchanged. See ADDENDUM_2026-09-02_B1238.md."
 }

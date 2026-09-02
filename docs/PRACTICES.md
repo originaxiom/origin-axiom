@@ -49,6 +49,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | Every navigation view refreshed at each decadal review | **GATED** | `views-fresh` |
 | Every `knowledge/K*.md` indexed, and every indexed K-number has a file | **GATED** | `knowledge-index` |
 | Every backticked repo-path citation resolves | **GATED** | `path-refs` |
+| Every repo path a tracked test/script names is itself tracked, not merely on the bench (E57) | **GATED** | `tracked-deps` |
 | The atlas is regenerated when arcs change | **GATED** | `atlas-fresh` |
 | Every frontier arc with a FINDINGS.md carries a sibling `arc_verdict.json` (the B877 lesson: a banking retry resumed past the failed verdict step) | **GATED** | `arc-verdicts` |
 | `PROGRESS_LOG` and `CHANGELOG` are updated together | **GATED** | `log-changelog-paired` |

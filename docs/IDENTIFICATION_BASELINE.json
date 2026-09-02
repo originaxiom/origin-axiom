@@ -8,7 +8,7 @@
   "I-10",
   "I-11"
  ],
- "total_rows": 11,
+ "total_rows": 12,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -23,6 +23,14 @@
    "to": 5,
    "row": "I-10, I-11",
    "reason": "LEGACY identifications surfaced by codex R034 and registered rather than left implicit: THE_ROAD prices 'spin lift' as a physical observer bit, but B1141/B1145 prove an internal odd-A1 lift only, and the step to 4d Lorentz spin (I-10) and to the boundary theta polarization (I-11; B1218 already says NOT identified) has no map. Raised by hand at B1235; these are the record's oldest unpriced inputs, now priced."
+  }
+ ],
+ "_earned_additions": [
+  {
+   "date": "2026-09-02",
+   "row": "I-12",
+   "arc": "B1238",
+   "reason": "the first EARNED row since the register opened: the figure-eight character variety and B509's square-time curve are one plane curve (Cremona 40a3); the map (c,d) = (x, 2z-x^2-1) is written and acts on every datum both arcs computed. UNEARNED unchanged (5)."
   }
  ]
 }

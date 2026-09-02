@@ -34,7 +34,7 @@ vacuously** — a strictly better state, and the m=3 question returns to the ope
 *unpolished* least-squares values, capping the polish at ~1e-9. Replaced with the exact gauge.
 
 **Unresolved and recorded:** the script computes the bronze trace field as **degree 8**; the prereg
-quotes B578-D6 for **degree 6**.
+quotes B578-D6 for **degree 6**. [B1238, 2026-09-02: the invariant trace field is degree **8** — the octic x⁸+6x⁶−x⁵+12x⁴−3x³+8x²−x+2 (disc 391728981, two routes at 1000 bits); the 6 was a residual-only integer-relation artefact (E56); resolved: 8]
 
 ## B557 — a filename artifact, like B519 before it
 
