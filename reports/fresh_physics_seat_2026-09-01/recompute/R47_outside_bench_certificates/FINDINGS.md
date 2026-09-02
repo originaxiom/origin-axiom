@@ -51,3 +51,9 @@ involves_regulator = 0, targets_with_regulator = 0. Adding the volume to the bas
 hits a regulator or the volume. Honest negative, consistent with B1137/B8110. PASS (as a negative).
 `c4_gue_larget.py` (GUE spacing test on ≥ 3000 zeros of ζ and L(χ₋₃)) is still computing zeros under its 90-minute
 budget; it is a literature-facing statistical test, not chain-critical, and its row lands when it finishes.
+
+**Addendum 5 (06:35 UTC) — `c4_gue_larget.py`: NOT COMPLETED HERE.** Two seat reruns (40 min, then 90 min with the
+script's own checkpoint files present) did not reach the ≥ 3000-zero target; the second printed no progress at all
+before the budget expired. The certificate is a multi-hour zero-finding job by its own docstring; the lane's vendored
+`outputs/` carry its banked result. Not chain-critical (a GUE-vs-Poisson spacing test on ζ and L(χ₋₃) zeros), so the
+seat stops here and records the row as UNVERIFIED-ON-THIS-BENCH rather than spend more compute on it.

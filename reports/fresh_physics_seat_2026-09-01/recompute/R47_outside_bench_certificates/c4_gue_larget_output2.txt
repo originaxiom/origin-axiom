@@ -1,2 +1,7 @@
 === c4_gue_larget.py seat rerun 2 (resumes from checkpoints; 90 min budget)
 C4: scanning to T = 3000.0
+
+real	90m0.019s
+user	88m5.357s
+sys	0m3.370s
+exit=124
