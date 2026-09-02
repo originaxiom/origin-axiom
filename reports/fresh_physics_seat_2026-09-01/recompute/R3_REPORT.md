@@ -484,7 +484,7 @@ re-swept over all 7 remote heads and the deleted-file history
   permute/A result. Verdict on B1127 unchanged: MATCH; the compact-referenced alternative does not rescue
   a compact colour from the mirror.
 
-Numbering note: cells are R01–R44; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
+Numbering note: cells are R01–R45; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
 
 ## DATED CLOSURES (2026-09-01, evening) — Phase B reader flags turned into cells
 
@@ -543,3 +543,4 @@ Numbering note: cells are R01–R44; `R26_b1080_b1011` and `R30_m004_symmetry_gr
 - **B8135/B8148 m = 12 class count — CLOSED, MATCH (3)** by `R42_m12_class_count/` (PARI h(148) = 3; own reduced-form enumeration; the banked m = 1..11 GL(2,ℤ) table reproduced as a control). 2026-09-02.
 - **ASSERTED/IMPORTED tool-checkable batch 1 (B3, B211, B212, B257/B321/B486, B316, B336, B338, B401, B485, B488/B489/B1079/B8086, B689/B698, B735, B980, B1083, B1104, B1114/B1200, B1232) — CLOSED, 16 MATCH / 1 not checkable** by `R43_asserted_batch/`; one transcription slip: Vol(4₁)'s quoted 28th–29th digits. 2026-09-02.
 - **Lie-theory batch (B266, B304, B549, B576/B582, B687, B950–B953, B964) — CLOSED, 11 MATCH** by `R44_lie_batch/` (root systems from Cartan matrices; B549's list is the E7 Perron eigenvector). 2026-09-02.
+- **Arithmetic batch (B554 class numbers, B407, B92 addendum, B1067 unit/regulator) — CLOSED, all MATCH** by `R45_misc_arithmetic/`. 2026-09-02.

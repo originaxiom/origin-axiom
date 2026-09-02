@@ -1,0 +1,12 @@
+== B554 Station 3: h(Q(sqrt5)) = h(Q(sqrt29)) = h(Q(sqrt-3)) = h(Q(i)) = h(Q(sqrt(phi))) = 1
+  Q(sqrt5)     x^2-5      disc=5 h=1 signature=[2, 0]
+  Q(sqrt29)    x^2-29     disc=29 h=1 signature=[2, 0]
+  Q(sqrt-3)    x^2+3      disc=-3 h=1 signature=[0, 1]
+  Q(i)         x^2+1      disc=-4 h=1 signature=[0, 1]
+  Q(sqrt(phi)) x^4-x^2-1  disc=-400 h=1 signature=[2, 1]
+== B407: phi^4 + phi^-4 = 7 (Lucas L_4)
+  phi^4+phi^-4 = 7.00000000000000 ; L_4 = 7
+== B92 (addendum): companion class number h(m^2+4) for m<=8 (also R42): unique GL(2,Z) class for m<=5 and m=7,8; first non-uniqueness at m=6
+  h(D=m^2+4), m=1..8: [1, 1, 1, 1, 1, 2, 1, 1]
+== B1067/B1004 cross-check: fundamental unit of Q(sqrt5) and regulator
+  bnfinit(x^2-x-1).fu = [Mod(-x, x^2 - x - 1)]  reg = 0.481211825059603  log(phi) = 0.481211825059603
