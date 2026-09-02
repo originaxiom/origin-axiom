@@ -1,0 +1,174 @@
+i	arc	where	status	verdict	note
+1	B3_regge_complex	frontier/B3_regge_complex/README.md:27	REGISTRY_ECHO	NOISE	only the arc's own README co-occurs
+2	B3_regge_complex	frontier/B3_regge_complex/README.md:35	REGISTRY_ECHO	NOISE	B1068 results JSON uses 'stacking' for stacked arguments, not a 4-manifold
+3	B5_wheeler_dewitt	frontier/B5_wheeler_dewitt/README.md:689	LEAD	CONSISTENT	docs restate the Λ position; B259's 122-order figure is itself retracted (log B980); nothing resolves the c.c. problem
+4	B9_fusion_scattering	frontier/B9_fusion_scattering/FINDINGS.md:26	LEAD	NOISE	co-occurrence in ledgers
+5	B13_trace_map_character_variety	frontier/B13_trace_map_character_variety/FINDINGS.md:111	LEAD	NOISE	ledgers/B1169 qualia arc restate the same firewall
+6	B13_trace_map_character_variety	frontier/B13_trace_map_character_variety/README.md:79	LEAD	NOISE	co-occurrence
+7	B14_half_step_square_root_selector	frontier/B14_half_step_square_root_selector/FINDINGS.md:97	LEAD	NOISE	co-occurrence
+8	B15_trace_map_invariant_controls	frontier/B15_trace_map_invariant_controls/FINDINGS.md:79	REGISTRY_ECHO	NOISE	ledgers only
+10	B16_record_swap_status	frontier/B16_record_swap_status/FINDINGS.md:63	LEAD	OPEN_LATER	B1026_the_one_involution exists only on origin/claude/new-session-qor5up (never on main); until harvested, 'exchange symmetry not derived from A1-A6' stands on main
+11	B19_exchange_half_step_axiom_audit	frontier/B19_exchange_half_step_axiom_audit/FINDINGS.md:33	LEAD	OPEN_LATER	same as #10 (B1026 on an unmerged head); B1050 projective wall does not derive it
+12	B21_spacetime_wp_dictionary	frontier/B21_spacetime_wp_dictionary/FINDINGS.md:12	REGISTRY_ECHO	SUPERSEDED	B259 later proves the Mostow metric solves 3d vacuum Einstein with Λ=−1 exactly (3d, not 3+1; no units); the 'no Einstein equation' sentence is stale for 3d
+13	B23_bkl_gravity_controls	frontier/B23_bkl_gravity_controls/FINDINGS.md:16	REGISTRY_ECHO	NOISE	COSMOLOGY_LEDGER restates
+16	B25_fibonacci_spectrum_anchor	frontier/B25_fibonacci_spectrum_anchor/FINDINGS.md:22	REGISTRY_ECHO	OPEN_LATER	as #10
+17	B27_sl3_fibonacci_trace_lift	frontier/B27_sl3_fibonacci_trace_lift/FINDINGS.md:64-65	LEAD	NOISE	paper card restates
+19	B52_multichannel_fibonacci_bridge_control	B52 LITERATURE.md, Conclusion section	LEAD	NOISE	literature absence; repo hits are index files
+20	B58_phaseA	B58_phaseA/B62_STATUS.md:16	LEAD	SUPERSEDED	B742/B745 (2026-07-21) computed the ambient SL(4) Jacobian and reproduce B59's factorisation; B58's 'not derived here' is negated by its own correction header
+23	B58_phaseA	B58_phaseA/NILPOTENT_LIMIT_TEST.md:22	LEAD	NOISE	own files
+24	B58_phaseA	B58_phaseA/SYM_DECOMPOSITION.md:184	LEAD	NOISE	own file
+25	B58_sl4_tower_test	B58_sl4_tower_test/FINDINGS.md, 'Verdict' section	LEAD	SUPERSEDED	B58_sl4_tower_test correction header: headline negated by B742+B745
+26	B58_sl4_tower_test	B58_sl4_tower_test/README.md, 'Why The Prediction Is Not Tested Here'	LEAD	SUPERSEDED	as #25
+28	B68_aj_conjecture	frontier/B68_aj_conjecture/exact_recursion.py lines 18-19	REGISTRY_ECHO	CONSISTENT	literature theorem (Garoufalidis-Le), not re-derived; nothing in repo re-derives it
+29	B68_aj_conjecture	frontier/B68_aj_conjecture/FINDINGS_E.md line 40	REGISTRY_ECHO	CONSISTENT	as #28
+30	B68_aj_conjecture	frontier/B68_aj_conjecture/probe.py lines 21-26	REGISTRY_ECHO	CONSISTENT	as #28
+31	B69_metallic_apoly_family	frontier/B69_metallic_apoly_family/FINDINGS.md lines 51-54	REGISTRY_ECHO	NOISE	novelty caveat; VALIDATION_LEDGER echo
+32	B69_metallic_apoly_family	frontier/B69_metallic_apoly_family/FINDINGS.md line 37	LEAD	CONSISTENT	metallic_family.py absent; only registries mention it
+33	B70_trace_ring	frontier/B70_trace_ring/FINDINGS.md:67	REGISTRY_ECHO	NOISE	ledger echo
+34	B70_trace_ring	frontier/B70_trace_ring/FINDINGS.md:80	LEAD	NOISE	ledger echo
+35	B71_sl3_apoly	frontier/B71_sl3_apoly/FINDINGS.md:44	REGISTRY_ECHO	NOISE	
+36	B71_sl3_apoly	frontier/B71_sl3_apoly/FINDINGS.md:125	REGISTRY_ECHO	NOISE	
+37	B71_sl3_apoly	frontier/B71_sl3_apoly/v0_geometric.py:70-71	LEAD	NOISE	B201/B73 pursue their own A-variety forms
+38	B73_sl4_apoly	frontier/B73_sl4_apoly/probe.py:21-23	REGISTRY_ECHO	SUPERSEDED	B88 later finds SL(4) Dehn-filling components (degrees 3 and 4) at rank 4; B73's null search is superseded by B88's positive census
+40	B73_sl4_apoly	frontier/B73_sl4_apoly/probe.py:23-24	REGISTRY_ECHO	SUPERSEDED	as #38 (B88 exposes degree 4)
+41	B74_higher_spin_grading	frontier/B74_higher_spin_grading/FINDINGS.md:68-69	LEAD	CONSISTENT	no W_N identification anywhere; SLN skeleton restates
+42	B74_higher_spin_grading	frontier/B74_higher_spin_grading/FINDINGS.md:69	REGISTRY_ECHO	NOISE	
+44	B75_metallic_degree_rank	frontier/B75_metallic_degree_rank/FINDINGS.md:50-51	LEAD	SUPERSEDED	B78/B88 pursue the same search; B88 reports Dehn-filling components at rank 4 (degrees 3,4) — B75's n=3 null is superseded to the extent B88 covers it (rank 4), the m=3/n=3 cell itself not re-run there
+45	B75_metallic_degree_rank	frontier/B75_metallic_degree_rank/FINDINGS.md:57-58	REGISTRY_ECHO	NOISE	
+46	B76_cusp_quantum_group	frontier/B76_cusp_quantum_group/FINDINGS.md:36	LEAD	CONSISTENT	physics_probes/METALLIC_ANYON_FINDINGS.md is the source of the same controlled negative
+47	B76_cusp_quantum_group	frontier/B76_cusp_quantum_group/FINDINGS.md:43-45	REGISTRY_ECHO	CONSISTENT	as #46
+48	B77_degree_rank_mechanism	frontier/B77_degree_rank_mechanism/FINDINGS.md:29-31	REGISTRY_ECHO	NOISE	
+49	B78_degree_rank_n5	frontier/B78_degree_rank_n5/FINDINGS.md:29-30	LEAD	NOISE	B153 later discusses degeneration, does not locate the rep
+87	B126_ladder_to_physics	probe.py docstring / FINDINGS.md sec 'Floor 1'	LEAD	SUPERSEDED	a trace-field classifier was later built: B771 cell W3-067 recovers invariant trace fields from scratch (b++ bundles), B590 s031_m3_sealing.py, B123 probe
+88	B135_lee_yang_m_specific	FINDINGS.md D3	LEAD	NOISE	speculation restates
+90	B138_s031_principal_lemma	frontier/B138_s031_principal_lemma/FINDINGS.md:5	LEAD	NOISE	
+91	B139_firewall_cartography	frontier/B139_firewall_cartography/FINDINGS.md:36	LEAD	NOISE	later arcs restate the same non-proof
+95	B141_s031_split	frontier/B141_s031_split/FINDINGS.md:53	LEAD	NOISE	
+96	B142_klein4_and_magic_cartography	frontier/B142_klein4_and_magic_cartography/FINDINGS.md:20	LEAD	CONSISTENT	still conjecture in later arcs (B775 P2W3-S031A cell attacks it, no closure)
+98	B143_interaction_feasibility	frontier/B143_interaction_feasibility/FINDINGS.md:27	LEAD	NOISE	
+99	B143_interaction_feasibility	frontier/B143_interaction_feasibility/FINDINGS.md:24	LEAD	STANDS	Regina still not importable on this bench (ModuleNotFoundError)
+100	B143_interaction_feasibility	frontier/B143_interaction_feasibility/FINDINGS.md:25	LEAD	NOISE	
+111	B156_omega_strict_full_cone	frontier/B156_omega_strict_full_cone/FINDINGS.md line 157	LEAD	CONSISTENT	THE_SELECTION_RULES restates the depth-7 relation
+112	B157_metallic_exponent	FINDINGS.md line ~39	LEAD	NOISE	registry
+113	B157_metallic_exponent	FINDINGS.md CORRECTION 2026-06-23, contradicting its own earlier NEEDS-SPECIALIST claim of unreachability	LEAD	CONSISTENT	B198 is the correction that notes Sage installed
+114	B162_kappa_sweep	FINDINGS.md 'Honest scope' section	LEAD	STANDS	B186 adds numerical hyperbolicity certification, not a theorem off-axis
+116	B163_kappa_sweep_resolved	FINDINGS.md Result (3a) closing sentence	LEAD	STANDS	as #114
+117	B163_kappa_sweep_resolved	FINDINGS.md 'Verify-don't-trust record (two diagnostics that FAILED)'	LEAD	NOISE	
+123	B171_heterogeneous_quasicrystal	FINDINGS.md 'Scope / honesty' section	LEAD	NOISE	
+125	B193_sealing_field_scouts		LEAD	NOISE	triage table
+129	B198_metallic_exponent_CAS		LEAD	CONSISTENT	B199 records the same non-closure
+132	B199_metallic_exponent_law		LEAD	CONSISTENT	SYNTHESIS restates
+134	B199_metallic_exponent_law		LEAD	OPEN_LATER	B1039_phi_fixed_and_metallic_exponent and B1043/B1045 exist on another head (not on main); may supply the F_p point — unharvested
+137	B201_silver_sl3_charvar		LEAD	NOISE	
+147	B232_rho_n_plethysm	B232 FINDINGS.md, 'Update — the in-sandbox attempt is now made (exhausted)' paragraph	LEAD	NOISE	K008 restates
+149	B233_synthesis_split_and_five	B233 FINDINGS.md, H13 'Honest status' paragraph	LEAD	NOISE	
+150	B236_coset_coincidence_pathA	B236 FINDINGS.md, 'Result' section, 4th bullet	LEAD	NOISE	
+151	B240_golden_jones_integrality	B240 FINDINGS.md, 'Honest caveat' section	LEAD	NOISE	no Slavich χ verification anywhere
+152	B240_golden_jones_integrality	B240 FINDINGS.md, 'Verdict' paragraph	LEAD	NOISE	
+154	B253_chirality_capability	chirality_capability.py:118 (Part B reason 2)	LEAD	OPEN_LATER	later cascade arcs (B565/B570 selection rules, B1145/B1146 fermion seat) build charge/fermion bookkeeping; none exhibits a dynamical 27 — claim stands, tracked
+157	B259_gravity_brick_wall_map	FINDINGS.md:41	LEAD	STANDS	B271 characterises wall #4 precisely and states no theorem closes it
+158	B262_t41_theory	FINDINGS.md:9 (also t41_theory.py:724-726)	LEAD	OPEN_LATER	B488/B489 later claim T[A_m]=U(1)^(2m-1) 'verified for m=1..8' (DGG-abelian) — whether computed or asserted there is what R36 could not tell; H1 laws verified
+160	B264_e6_character_variety	NOVELTY.md:88 (re: B266, filed under B264's NOVELTY.md)	LEAD	NOISE	
+161	B265_e6_integrability	FINDINGS.md:~67 (Correction section)	LEAD	SUPERSEDED	B273 computed the e6 cup-product obstruction (vanishes identically; test_b273) — the 'not computed' sentence is stale in B265/B270
+162	B268_e6_bridge_consolidation	wall_map_v2.py:76 (SKIPPED dict, wall3_chirality_ssb)	LEAD	CONSISTENT	B278 wall map v3 still lists it skipped
+163	B268_e6_bridge_consolidation	wall_map_v2.py:78 (SKIPPED dict, wall4_4d_lift)	LEAD	STANDS	B271: no theorem closes wall #4
+164	B270_integrability_cup_product	FINDINGS.md (Honest scope) — same sentence recurs in B265's FINDINGS.md correction	LEAD	SUPERSEDED	as #161 (B273)
+166	B272_verification_and_gaps	verification_and_gaps.py:1046-1049 (GAPS dict)	LEAD	SUPERSEDED	hypercharge/breaking chain later addressed (B862 global form, B1160 hypercharge forced; seat R10)
+173	B289_cp_sign_law		LEAD	SUPERSEDED	B855 wrong_null.py and B995 census recompute the m003/m136/m135 extensions (B855 corrects m003 amphichirality)
+180	B300_cross_chat_sm_attempt	frontier/B300_cross_chat_sm_attempt/FINDINGS.md:35	LEAD	NOISE	
+182	B302_multiplicity_hidden_z3	frontier/B302_multiplicity_hidden_z3/verdict.py:290	LEAD	NOISE	
+185	B306_principal_grading_cascade	frontier/B306_principal_grading_cascade/FINDINGS.md:29	LEAD	SUPERSEDED	B892 later exhibits a dim-14 centraliser su(3)+su(2)+u(1)^3 by a different construction (two measurements), B932 chain selection — B306's 'no clean centralizer' is scoped to principal gradings
+186	B307_totally_real_obstruction	frontier/B307_totally_real_obstruction/FINDINGS.md:16	LEAD	CONSISTENT	theorem (Reid/Neumann-Reid style) restated in later arcs; no counterexample
+188	B308_yukawa_last_redoubt	frontier/B308_yukawa_last_redoubt/verdict.py:505 (INTERGENERATION_HIERARCHY_FORCED = False)	LEAD	NOISE	
+192	B311_cascade_branch_points	frontier/B311_cascade_branch_points/FINDINGS.md:52	LEAD	NOISE	
+194	B313_fibonacci_bridge_and_no_forced_choice	frontier/B313_fibonacci_bridge_and_no_forced_choice/FINDINGS.md:35	LEAD	NOISE	
+198	B315_e7_exclusion_vs_heterotic	frontier/B315_e7_exclusion_vs_heterotic/FINDINGS.md:201	LEAD	GENERIC	terms too common (138 files); the group fact 2O is not SL(2,q) stands; deleted test_b731_noncongruence belongs to the retracted B731 non-congruence claim (B734), unrelated
+205	B320_chat1_three_points	FINDINGS.md:34	LEAD	NOISE	
+206	B321_seam_geometry_adjudication	FINDINGS.md:42	LEAD	NOISE	OPEN_PROBLEMS restates
+209	B330_s032a_galois_symmetrization	FINDINGS.md:38	LEAD	NOISE	W2-147 mentions the same untested list
+210	B332_two_letters_two_ends	FINDINGS.md:44	LEAD	NOISE	B930 overlap matrix computes overlaps of a different object
+213	B367_value_map	frontier/B367_value_map/FINDINGS.md:45	LEAD	CONSISTENT	this IS the refutation of B361; B1047/B1048 seam cluster carry it forward; B361's verdict file does not (relay §1)
+215	B374_level135_rung	frontier/B374_level135_rung/FINDINGS.md:49	LEAD	CONSISTENT	P2W6-PD22 re-examines the same existence law
+223	B385_bright_dark_discriminator	FINDINGS.md Kill 1	LEAD	NOISE	
+224	B385_bright_dark_discriminator	FINDINGS.md title/status	LEAD	NOISE	own files
+231	B389_mirror_mechanism	FINDINGS.md	LEAD	CONSISTENT	B592/B397 restate M1 killed
+235	B392_wall_probes	FINDINGS.md P-DYNAMICS section	LEAD	NOISE	
+238	B393_cancellation_mechanism	FINDINGS.md session 2	LEAD	CONSISTENT	B1047 carries K2 killed
+239	B393_cancellation_mechanism	FINDINGS.md, 'the corrected instrument' note	LEAD	CONSISTENT	
+242	B395_mirror_derivation	FINDINGS.md	LEAD	CONSISTENT	OI-043/P2W2-MIRROR re-test the σ-law
+246	B407_support_nesting	frontier/B407_support_nesting/FINDINGS.md:6	LEAD	CONSISTENT	self-correction
+250	B754_p2_spectral	frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:74	LEAD	NOISE	
+251	B754_p2_spectral	frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:75	LEAD	CONSISTENT	Magma not installed (no import possible on this bench either)
+253	B754_p2_spectral	frontier/B754_p2_spectral/cells/B516/output.txt:114-117 (FALSIFIER paragraph, paraphrased join of two adjacent lines)	LEAD	NOISE	
+256	B754_p2_spectral	frontier/B754_p2_spectral/cells/TOMB-L30/output.txt:85-86 and skeptic.txt:65-68 ('I cannot exhibit a k-varying probability family ... nor produce a banked CS-to-continuous bridge')	LEAD	NOISE	
+257	B755_carried_recomputes	frontier/B755_carried_recomputes/FINDINGS.md:11	LEAD	NOISE	
+258	B755_carried_recomputes	frontier/B755_carried_recomputes/PREREGISTRATION.md:17	LEAD	NOISE	
+260	B755_carried_recomputes	frontier/B755_carried_recomputes/FINDINGS.md:70-71	LEAD	CONSISTENT	5_2 non-fibered (standard); TOMB-L30 recompute restates
+261	B756_remaining_doors	frontier/B756_remaining_doors/FINDINGS.md:25-26	LEAD	NOISE	
+263	B756_remaining_doors	frontier/B756_remaining_doors/PREREG_REMAINING_DOORS.md:8 (describing the four Register doors as unpicked-up)	LEAD	NOISE	
+266	B765_p3_depth	frontier/B765_p3_depth/results.json (B489 entry)	LEAD	NOISE	B767 is about stabilisations (degree bounds), not covers' b1
+267	B765_p3_depth	frontier/B765_p3_depth/results.json (B500 entry)	LEAD	NOISE	
+268	B765_p3_depth	frontier/B765_p3_depth/FINDINGS.md:97-98	LEAD	NOISE	
+269	B768_correspondence_crosstest	frontier/B768_correspondence_crosstest/FINDINGS.md line 33	LEAD	NOISE	
+277	B771_phase1_wave1	frontier/B771_phase1_wave1/FINDINGS_WAVE2.md:24 (W2-270 row)	LEAD	NOISE	hits are other cells' compute files; the DELETED cell _verify_Z1 (P2W4-Z1: Z_k = Tr rho_k(A1) ladder, exact) was removed from the record with its partial.json — a computed cell deleted, unrelated to W2-270's 'NO H1'
+279	B771_phase1_wave1	frontier/B771_phase1_wave1/FINDINGS_WAVE3.md:26 (W3-150r row)	LEAD	NOISE	
+282	B771_phase1_wave1	frontier/B771_phase1_wave1/FINDINGS_WAVE4.md:20 (W4-115 row)	LEAD	CONSISTENT	B778 CL-W4115 re-checks
+283	B771_phase1_wave1	frontier/B771_phase1_wave1/FINDINGS_WAVE4.md:28 (W4-139 row)	LEAD	NOISE	
+287	B772_negatives_adequacy	frontier/B772_negatives_adequacy/FINDINGS.md:15-16	LEAD	NOISE	
+290	B773_chord_recompute	frontier/B773_chord_recompute/FINDINGS.md:49-51 (W3-067c entry)	LEAD	NOISE	
+291	B773_chord_recompute	frontier/B772_negatives_adequacy/audit_results.json:89 (W3-067 rationale, carried into B773's prereg for W3-067c)	LEAD	CONSISTENT	Kostant citation still not computed in repo
+292	B775_phase2_wave1	FINDINGS_WAVE3.md:15 (P2W3-H4)	LEAD	NOISE	
+294	B775_phase2_wave1	FINDINGS_WAVE2.md:14 (P2W2-DARKBRIGHT)	LEAD	NOISE	
+295	B775_phase2_wave1	FINDINGS.md:16 (P2-D5)	LEAD	NOISE	
+296	B775_phase2_wave1	cells/P2-AABB/output.txt:35-36	LEAD	NOISE	own cell
+299	B775_braver_questions	FINDINGS_FINAL.md line 45, re: the theta-vacancy slot	LEAD	NOISE	
+300	B775_braver_questions	FINDINGS_FINAL.md line 13	LEAD	NOISE	
+301	B775_braver_questions	FINDINGS_FINAL.md line 45	LEAD	NOISE	
+308	B777_braver_questions	CC_VERIFY_V4GENERICITY.md line 30	LEAD	NOISE	
+310	B778_cleanup	frontier/B778_cleanup/cells/CL-W4115/compute.py:8-9	LEAD	CONSISTENT	B778 FINDINGS records the empty directory
+311	B778_cleanup	frontier/B778_cleanup/FINDINGS.md:21-24	LEAD	CONSISTENT	test_b778_cleanup locks the finding
+321	B783_observer_ground_zero	FINDINGS.md:39	LEAD	NOISE	
+323	B783_observer_ground_zero	C1_synthesis.txt:22-23	LEAD	NOISE	
+325	B783_observer_ground_zero	C2_adversarial.txt:46-48	LEAD	NOISE	
+329	B784_trace_map_intertwining	FINDINGS.md:167	LEAD	CONSISTENT	later centraliser computations (B565 spin9, B1114) find no U(N-1) ladder either
+330	B784_trace_map_intertwining	FINDINGS.md:353	LEAD	NOISE	
+331	B784_trace_map_intertwining	FINDINGS.md:328	LEAD	NOISE	B783 test outputs, not a census
+332	B784_trace_map_intertwining	iota_torsor_position.txt:61	LEAD	NOISE	
+335	B785_cc3_gate_harvest	FINDINGS.md lines 25-26	LEAD	CONSISTENT	literature absence; nothing in repo supplies a Pisot-spectral theorem
+336	B785_cc3_gate_harvest	FINDINGS.md line 30	LEAD	CONSISTENT	B769/B783 restate; no n-indexed emittance object exists
+337	B786_torsor_theta_iota	FINDINGS.md line 8	LEAD	CONSISTENT	as #336
+338	B786_torsor_theta_iota	FINDINGS.md lines 35-36	LEAD	CONSISTENT	B787 registers the same missing bridge
+342	B787_interaction_programme	FINDINGS.md section 4, line ~123 — contradicts the section-3 checklist row above; file was independently verified to exist at tests/test_b787_interaction.py	LEAD	CONSISTENT	self-correction
+343	B789_theta_intertwiner	FINDINGS.md, 'Method note' paragraph	LEAD	NOISE	
+345	B790_maass_adjudication	FINDINGS.md verdict table, Step 1 row	LEAD	OPEN_LATER	Maass eigenvalues were later computed on the audit branch (B792, B878 branch_FINDINGS, B922 receipt) and partially harvested (B797: 17 values); 'absent from B739-B754' was true when written
+349	B790_maass_adjudication	FINDINGS.md ADDENDUM, 'Net effect on the arc's verdict'	LEAD	CONSISTENT	B791 restates
+352	B791_weyl_completeness	FINDINGS.md §6	LEAD	CONSISTENT	18-assignment enumeration never delivered (B796 rulebook restates)
+353	B791_weyl_completeness	PROVENANCE_ALERT.md RESOLUTION section	LEAD	CONSISTENT	as #352
+355	B792_maass_m004_eigenvalues	FINDINGS.md §'THE FULL WINDOW r<10'	LEAD	OPEN_LATER	degree-law never run on main; B792/B878 branch work exists unharvested
+356	B792_maass_m004_eigenvalues	FINDINGS.md §'THE FULL WINDOW r<10'	LEAD	OPEN_LATER	as #355 (B796 Cell 9 prereg names them, execution held)
+359	B792_maass_m004_eigenvalues	docs/progress/REVIEWS.md Review 36, quoted in log_index/B792.txt	LEAD	CONSISTENT	B796 rulebook restates the prose-verdict defect
+360	B793_gate8r2a_parent_localisation	FINDINGS.md 'What Gate 8R's headline actually establishes'	LEAD	CONSISTENT	
+361	B793_gate8r2a_parent_localisation	FINDINGS.md 'Separate observation on the delivered archive'	LEAD	CONSISTENT	
+363	B795_eigenvalue_verification	/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B795.txt line 5 (PROGRESS_LOG.md 2026-07-24)	LEAD	NOISE	
+364	B795_eigenvalue_verification	/home/user/origin-axiom/frontier/B795_eigenvalue_verification/FINDINGS.md lines 68-69	LEAD	NOISE	
+366	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:14-16 (L1)	LEAD	CONSISTENT	e3 closed form: OI-031 (B399 closure 2026-07-23 gives e3 = cos(2pi/9)/864 per log) — B796's ledger written before/without it; check OI-031 status (relay)
+367	B796_coupling_campaign	cell9_sec16_verdict3.md:26 (charge 6)	LEAD	CONSISTENT	B796 verdict3 self-audit
+368	B796_coupling_campaign	cell9_sec16_verdict3.md:23	LEAD	CONSISTENT	
+369	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:58-60 (L5)	LEAD	CONSISTENT	
+370	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:63-65 (L6)	LEAD	CONSISTENT	
+371	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:83-85 (L7, re: the Hecke-abort and spin-fork negative results)	LEAD	CONSISTENT	
+372	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:87-93 (L8)	LEAD	CONSISTENT	(R35 computed the full trace field of m136: degree 8 — closes the 'only tr(a)' gap for silver)
+373	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:100-102 (L9)	LEAD	CONSISTENT	no exact trace-field certification in repo (R33/R35 supply one, PARI not Sage)
+374	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:109-110 (L10)	LEAD	CONSISTENT	
+376	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:122-123 (L11)	LEAD	CONSISTENT	
+377	B796_coupling_campaign	charge_quantisation/FINDINGS.md:5 (self-scoping, not a repo absence claim but a disclosed structural limit)	LEAD	NOISE	
+378	B796_coupling_campaign	z6_line_spectrum/FINDINGS.md:114-115	LEAD	CONSISTENT	z6_lines.py restates
+379	B796_coupling_campaign	z6_line_spectrum/FINDINGS.md:127-129	LEAD	CONSISTENT	
+380	B797_maass_spectrum_harvest	FINDINGS.md:12	LEAD	NOISE	
+381	B797_maass_spectrum_harvest	log_index/B797.txt (Review 36 entry, quoting PROGRESS_LOG.md)	LEAD	NOISE	
+382	B799_uncomputed_doors	FINDINGS.md:93	LEAD	NOISE	
+384	B800_habiro_integrality	B799 FINDINGS.md:78, referencing the door B685 that B800 addresses	LEAD	CONSISTENT	(B727 base-rate later tests genericity of the E6 recurrence — log 2026-07-20; B799's sentence predates it) — SUPERSEDED by B727 to that extent
+390	B804_dirac_spectrum	FINDINGS.md:64	LEAD	GENERIC	76 content files; the V4+volume statement is verified true by R37 (m003/m004 both V4, equal volume)
+394	B806_lexicon_blindness	FINDINGS.md:155	LEAD	CONSISTENT	no Sage on this bench either
+400	B810_verdict_wave1	FINDINGS.md:53-55	LEAD	NOISE	
+403	B813_cs_theta_type_audit	FINDINGS.md:82-83	LEAD	NOISE	

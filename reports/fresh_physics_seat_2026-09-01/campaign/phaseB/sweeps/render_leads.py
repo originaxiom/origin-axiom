@@ -11,6 +11,6 @@ for r in leads[start:start + count]:
     q = rows[r['i']]['quote']
     print('#%d [%s] %s' % (r['i'], r['arc'], r['where'].split('/')[-1][:50]))
     print('   Q: %s' % q[:260].replace('\n', ' '))
-    print('   terms: %s | substantive hits %d (catch-all %d)%s' % (' '.join(r['terms']), len(r['substantive']), r['catchall_hits'], (' | DELETED: ' + ', '.join(r['deleted'])) if r['deleted'] else ''))
-    paths = r['substantive']
+    print('   terms: %s | content hits %d, registry %d, catch-all %d%s' % (' '.join(r['terms']), len(r.get('content', [])), len(r.get('registry', [])), r['catchall_hits'], (' | DELETED: ' + ', '.join(r['deleted'])) if r['deleted'] else ''))
+    paths = r.get('content', r['substantive'])
     print('   hits: %s%s' % (' ; '.join(p.replace('frontier/', 'f/') for p in paths[:10]), ' ; ...' if len(paths) > 10 else ''))
