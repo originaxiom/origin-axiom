@@ -1,0 +1,494 @@
+{
+ "batch": "arcs_044",
+ "arcs": [
+  {
+   "arc": "B652_gate_b",
+   "source": "main",
+   "files_read": [
+    "frontier/B652_gate_b/ARTIFACT_HASHES.txt",
+    "frontier/B652_gate_b/GATE_B_VERDICT.md",
+    "frontier/B652_gate_b/GRAMMAR_TABLE.md",
+    "frontier/B652_gate_b/PREREG_GATEB.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (no arc_verdict.json/FINDINGS.md in this arc; GATE_B_VERDICT.md states: PASS, with two residues named and binding; N = 1 discrete freedom (the Galois branch); Phase C licensed to open)",
+   "log_says": "2026-07-16 — B652: GATE B PASSED — N = 1 (the campaign's central verdict); the coupling-grammar table sealed, three organs, every row labeled from the banked record, disc(A1)=5 shadow quotient over proven identities.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The freedom count N = 1 (discrete, orbit size 2: Galois branch chi vs chi-bar of SL(2,F5))",
+     "where": "GATE_B_VERDICT.md, GRAMMAR_TABLE.md EAR row",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is an assembly/adjudication document (explicitly 'no new computation'), citing prior arcs (B642, B644, B640, B641, B651) as the computational basis. A stranger would need to chase those upstream arcs to verify the underlying computations; this document itself performs no computation and carries no witness file."
+    },
+    {
+     "what": "The stage kappa=5 is a 'design choice', not a fitted constant, under a declared minimality rule",
+     "where": "GATE_B_VERDICT.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Stated as a governance/methodology framing rather than a computed result; whether kappa=5 really is the unique minimal-bearing stage under the declared rule is not re-derived here."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Pure assembly/adjudication document; explicitly states 'no new computation — assembly and adjudication only'. No script, no output file in this arc.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The arc has no arc_verdict.json and no FINDINGS.md (per packet metadata has_findings=false, has_verdict=false), unusual among its siblings in this batch; the verdict lives only in GATE_B_VERDICT.md prose, and every claim depends on upstream arcs not included in this read.",
+     "where": "frontier/B652_gate_b/ (whole arc)"
+    }
+   ],
+   "seat_note": "This is a governance/bookkeeping seal (a 'gate' pass), not new physics computation; its entire content is a re-labeling of prior arcs' outputs into a freedom-count table. The N=1 count is the load-bearing quantity for everything downstream (B653's zero-parameter prediction rests on it) and is only as solid as B642/B644/B640/B641, none of which is in this batch to check directly."
+  },
+  {
+   "arc": "B653_phase_c_probe",
+   "source": "main",
+   "files_read": [
+    "frontier/B653_phase_c_probe/ADJUDICATION.md",
+    "frontier/B653_phase_c_probe/ADJUDICATION_ADDENDUM.md",
+    "frontier/B653_phase_c_probe/ARTIFACT_HASHES.txt",
+    "frontier/B653_phase_c_probe/COMPARISON_DESIGN_C2.md",
+    "frontier/B653_phase_c_probe/packets/EXTRACTION.md",
+    "frontier/B653_phase_c_probe/packets/PREDICTION.md",
+    "frontier/B653_phase_c_probe/packets/REPORT.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (no arc_verdict.json/FINDINGS.md; ADJUDICATION.md states OUTCOME A — CONSISTENCY, z=0.0210, then the ADDENDUM reclassifies the executed comparison as VALID-AS-LETTER, VOID-AS-HELD-OUT-CONFIRMATION, with the one-shot license SPENT either way)",
+   "log_says": "2026-07-16: THE C2 DESIGN SEALED (JUNO forward row passes provenance); 2026-07-17: B653 ADJUDICATED — OUTCOME A AT LOW WEIGHT, campaign closes; 2026-07-17 ADDENDUM: reconciliation — 'no channel passed at seal time' by the design's own standard, and both seats' '~9 sigma' separation tables were asserted-not-computed (actual 0.88 sigma at 4/13).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "sin^2(theta_12) = 1/(2*phi) = (sqrt5-1)/4 = 0.30901699437494742410... exactly, zero adjustable parameters",
+     "where": "packets/PREDICTION.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "The 50-digit decimal and derivation chain are given in the document and traced to prior THEOREM rows (B640/B641/B642/B644), but no script or witness file is included IN THIS ARC to reproduce it from scratch; the 'INDEPENDENT COMPUTATIONAL ANCHOR' mentioned (this packet, derivation/derive.py) is referenced but that derivation/ directory is not among the files listed for this arc, so a stranger reading only this arc's committed files cannot rerun it."
+    },
+    {
+     "what": "z = 0.0210 (comparison of prediction to JUNO's measured sin^2(theta_12) = 0.3092 +/- 0.0087)",
+     "where": "packets/REPORT.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "The arithmetic z=(0.3092-0.30901699437494742)/0.0087=0.021035 is a simple, exactly-stated computation any reader can redo by hand from the numbers given."
+    },
+    {
+     "what": "The confirmation-side false-positive rate is really ~32% (not the originally printed ~5-6%), because JUNO published at sigma=0.0087 not the projected sigma=0.0015",
+     "where": "ADJUDICATION.md 'the honest evidential weight'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Arithmetic stated exactly (±2sigma window 0.0348 on the sealed 0.11 band); reproducible from the numbers in the document."
+    },
+    {
+     "what": "Both seats' '~9 sigma' claimed separation from the nearest rational neighbor 4/13 was WRONG; actual is 0.88 sigma at sigma=0.0015 (and only ~1.4 sigma even at future 6-year precision)",
+     "where": "ADJUDICATION_ADDENDUM.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact arithmetic given: (sqrt5-1)/4 - 4/13 = 0.0013247, divided by sigma=0.0015 = 0.88."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; the addendum functions as an after-the-fact self-correction of an error made in the same lifecycle (the provenance premise was 'factually wrong': JUNO's paper predates the seal by ~8 months, an error the design seat itself owns as an 'E4-class instance'), but no independent second-pipeline recompute of the prediction chain is present in this arc.",
+   "absence_claims": [
+    {
+     "quote": "the value/citation appear NOWHERE in the banked Phase A/B inputs (repo-wide grep; the two numeric near-hits are unrelated polynomial roots)",
+     "where": "ADJUDICATION.md, 'The provenance erratum'"
+    },
+    {
+     "quote": "a first-pass literature search finds NO proposal of 1/(2phi) — the full lit-gate remains NEEDS-SPECIALIST before any novelty word",
+     "where": "referenced from B654 resonance adjudication, restated in this arc's derivation lineage (not verbatim in B653's own files, but the DLR fact is cited)"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "ADJUDICATION.md's headline verdict block ('OUTCOME A — CONSISTENCY', 'the tone survives its first contact') stands unedited in the same file as the later addendum that reclassifies the comparison as VOID-AS-HELD-OUT-CONFIRMATION; the two documents coexist rather than the primary being amended, so a reader who stops at ADJUDICATION.md's checklist would miss the addendum's correction unless they also read ADJUDICATION_ADDENDUM.md.",
+     "where": "frontier/B653_phase_c_probe/ADJUDICATION.md vs ADJUDICATION_ADDENDUM.md"
+    },
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The design's own printed false-positive rate (5-6%) for the 'confirmation' was computed against a projected precision (sigma=0.0015) that never materialized; the actual achieved precision (sigma=0.0087) yields ~32% FP, an order-of-magnitude weaker evidential claim than what was pre-registered as the headline number, and the ORIGINAL prereg's 5-6% figure is what the campaign's closing 'OUTCOME A' language rode on before the honesty-discount paragraph appeared.",
+     "where": "ADJUDICATION.md 'the honest evidential weight'"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "PREDICTION.md refers to 'this packet, derivation/derive.py' and 'derivation/derive.py, derive_run.log, derive_out.json' as an independent computational anchor, but no derivation/ subdirectory appears among this arc's committed files per the packet manifest read here.",
+     "where": "frontier/B653_phase_c_probe/packets/PREDICTION.md"
+    }
+   ],
+   "seat_note": "This is the campaign's one genuine OBSERVABLE claim (a numeric prediction compared to a real measurement), and it is also the most honestly self-audited document in the batch — the addendum owns a real methodological failure (the design's held-out-provenance premise was false) rather than hiding it. But the physics content is thin: consistency at ~32% false-positive rate is barely evidence, the neighbor-separation problem is intrinsic (0.88 sigma even at design precision), and the prediction's own derivation script is not included in this arc's committed files for independent rerun.",
+   "supersedes_note_for_reader": null
+  },
+  {
+   "arc": "B654_listening_synthesis",
+   "source": "main",
+   "files_read": [
+    "frontier/B654_listening_synthesis/ARTIFACT_HASHES.txt",
+    "frontier/B654_listening_synthesis/FINDINGS.md",
+    "frontier/B654_listening_synthesis/PREREGISTRATION.md",
+    "frontier/B654_listening_synthesis/arc_verdict.json",
+    "frontier/B654_listening_synthesis/q_area_output.txt",
+    "frontier/B654_listening_synthesis/q_area_silver.py",
+    "frontier/B654_listening_synthesis/q_period_field_output.txt",
+    "frontier/B654_listening_synthesis/resonance_battery_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "arc_verdict.json: verdict PROVED; claim_one_line: 'The chord's field of definition equals the tetrahedral shape field (fig-8 Q(sqrt-3), silver Q(i)), the melody period is N0 = 75*lcm{d^2} exactly, the defect law defect = 2*conj(Y) is universal, and the five tones are |chi_golden|/2 over the 2I classes.'",
+   "log_says": "2026-07-17 — B654: THE LISTENING SYNTHESIS opened, first harvest (Q-FIELD, Q-PERIOD); then 2026-07-17 — B654: THE RESONANCE ADJUDICATION (both seats verified item by item) — tone-character identification VERIFIED theorem-grade, Plancherel=Schur corrected, identity-card lemma verified, DLR fact verified (lit-gate NEEDS-SPECIALIST), chat1's N=1 mechanism candidate banked as MECHANISM-CANDIDATE.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Q-FIELD: chord field = tetrahedral shape field (fig-8 -> Q(sqrt-3), silver -> Q(i), exact at 45+ digits)",
+     "where": "FINDINGS.md Q-FIELD; q_period_field_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "q_period_field_output.txt shows the numeric silver-shape output but the generating script for the Q-FIELD computation is not among this arc's committed files (only q_area_silver.py is present, which computes Q-AREA, not Q-FIELD); the field candidate that was pre-registered ('roots of unity subfield') is explicitly REFUTED in the same output, and the replacement law is described as 'mechanism open' by the document itself."
+    },
+    {
+     "what": "Q-PERIOD: N0 = 75 * lcm{d^2} exactly, with 75 = 3 * 5^2",
+     "where": "FINDINGS.md Q-PERIOD; q_period_field_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The output file shows N0=2311598520000 and lcm(d^2)=30821313600 with ratio 75, an exact integer division shown in the output; but again no generating script for this cell is committed in the arc's file list, so the elementary-divisor extraction itself is not independently rerunnable from what's here. The document itself calls this 'HINT-grade structural read... the interpretation is recorded, not claimed'."
+    },
+    {
+     "what": "Q-AREA: defect = 2*conj(Y) universally (not 4*conj(Y)); the area law is refuted",
+     "where": "FINDINGS.md Q-AREA; q_area_silver.py -> q_area_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full script (q_area_silver.py) and its raw output (q_area_output.txt) are both committed in this arc and directly show exact-fraction results for two silver triples (134, 023) confirming defect==2*conj(Y) True and ==4*conj(Y) False."
+    },
+    {
+     "what": "resonance battery: tone multiset = |chi_golden|/2, Plancherel=Schur correction, cc2 identity-card lemma, separation-table correction (0.88/6.01/7.32 sigma), 24=|SL(2,3)| reading REFUTED as gauge artifact",
+     "where": "resonance_battery_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "Output file is committed and shows the printed results, but the generating script that produced resonance_battery_output.txt is not among this arc's listed files (only q_area_silver.py is present) — a stranger cannot rerun this cell from what's committed here."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This is itself explicitly a cross-examination/adjudication of two other seats' (chat1, cc2) prior claims against banked data — it re-derives some things (Q-AREA has a committed script) but for most cells only shows output text, not the generating code, so it functions more as a re-read/re-check of numbers than a fresh independent recompute for those cells.",
+   "absence_claims": [
+    {
+     "quote": "a first-pass literature search finds NO proposal of 1/(2phi) — the full lit-gate remains NEEDS-SPECIALIST before any novelty word",
+     "where": "FINDINGS.md, 'THE RESONANCE ADJUDICATION'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "Three of the four sealed questions (Q-FIELD, Q-PERIOD, and the whole resonance battery) present only output .txt files in this arc with no corresponding generating script committed here, unlike Q-AREA which has both script and output; a stranger cannot independently rerun Q-FIELD/Q-PERIOD/resonance-battery from this arc's committed files alone.",
+     "where": "frontier/B654_listening_synthesis/ (q_period_field_output.txt, resonance_battery_output.txt have no paired .py in this arc's file list)"
+    },
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "The Q-FIELD silver-shape values are printed to 30-38 decimal digits (e.g. '0.5000000000000000000000000000') alongside an 'exact' claim (1/2+i/2 etc.); this is high-precision numerical agreement standing in for an exact symbolic derivation in the same output block, though the exact forms are also stated.",
+     "where": "q_period_field_output.txt"
+    }
+   ],
+   "seat_note": "The internal cross-adjudication discipline here is a genuine positive (REFUTED claims are stated as REFUTED, not softened, e.g. the 24=|SL(2,3)| numerology and the exponent-pairing claim), but the arc's own PROVED verdict rests on several cells whose generating code is not in this arc's committed files, so 'reproducible from committed' is unknown for 3 of 4 sealed questions despite exact-looking output numbers.",
+   "log_consistency_detail": null
+  },
+  {
+   "arc": "B655_beta_adjudication",
+   "source": "main",
+   "files_read": [
+    "frontier/B655_beta_adjudication/ARTIFACT_HASHES.txt",
+    "frontier/B655_beta_adjudication/FINDINGS.md",
+    "frontier/B655_beta_adjudication/PREREGISTRATION.md",
+    "frontier/B655_beta_adjudication/arc_verdict.json",
+    "frontier/B655_beta_adjudication/b655_cells.py",
+    "frontier/B655_beta_adjudication/b655_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "arc_verdict.json: verdict NEGATIVE; claim_one_line: 'The incoming beta-coefficient claim dies by refutation — its anchors contradict the banked cards (silver conductor 8 not 7, discriminant 32 not 23, |T|=12) — leaving one forced-trivial Coxeter overlap and nothing banked.'",
+   "log_says": "2026-07-17 — B655: THE BETA-NUMEROLOGY ADJUDICATION (the claim dies by refutation), first live L99 application. Later reused as a pattern for B677 (firewalled an incoming '11,24,51840 in GSWZ eq(1)' claim as base-rate-killed) and B751 (a different incoming claim: arithmetic TRUE, identification NOT EARNED).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "C1 arithmetic: SM one-loop beta coefficients b3=-7, b2=-19/6, b2-b3=23/6, b_E6=-38 all reproduce exactly from textbook group-theory inputs",
+     "where": "b655_cells.py -> b655_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full sympy script and output committed and self-contained; a stranger can rerun this directly."
+    },
+    {
+     "what": "C2 anchors: three incoming numerological claims are KILLED against banked identity-card data (silver conductor is 8 not 7; silver discriminant is 32 not 23; |A4|=12 not |T|=6)",
+     "where": "b655_cells.py, hardcoded matrix As = [[5,2],[2,1]]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes for the arithmetic shown; the banked comparison values (det(A_s+I)=8, disc=32) are IMPORTED from B654's identity-card claim rather than recomputed independently in this script",
+     "why": "The script computes det/disc of a hardcoded 2x2 matrix representing the 'silver' object and compares to the claim's numbers; the correctness of the matrix As=[[5,2],[2,1]] as the true banked silver representative is asserted, not re-derived in this arc from the underlying manifold data."
+    },
+    {
+     "what": "C4 base rate: 27/60 = 45% of integers 1-60 match the framework's anchor set under the relay's implicit matching rules, below the 50% 'information-free' bar",
+     "where": "b655_cells.py -> b655_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script and output both committed, simple deterministic counting, directly rerunnable."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This entire arc IS a verification/adjudication exercise against a prior claim; it recomputes the target claim's own numbers from scratch (C1) and cross-checks them against separately-banked identity-card data (C2), functioning as its own belt.",
+   "absence_claims": [
+    {
+     "quote": "19 is not an E6 degree, exponent, or Weyl-order divisor; N0's 19 (a char-poly evaluation) and b_E6's 19 (= (44-6)/2) share no identified source",
+     "where": "FINDINGS.md, C3 cell"
+    },
+    {
+     "quote": "No metallic member has discriminant 23 at all",
+     "where": "FINDINGS.md, cell table row C2"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The adjudicated claim itself is a textbook case of numerology-by-type-coincidence (matching small SM beta-function integers to framework integers by size alone); this arc correctly diagnoses and kills it, which is itself worth noting as a positive discipline example rather than a flaw of this arc.",
+     "where": "PREREGISTRATION.md conventions block, 'matching rules... an integer n matches the framework if n or 2n or n/2 or n+/-1-free exact equality hits the anchor set'"
+    }
+   ],
+   "seat_note": "A clean, well-executed refutation of an incoming numerology claim with an explicit base-rate control (45% match rate under the claimant's own implicit rules) — good methodological discipline; the physics content is null by design (the arc exists to kill a claim, and succeeds), and nothing here bears on any predicted observable."
+  },
+  {
+   "arc": "B656_digest_integration",
+   "source": "main",
+   "files_read": [
+    "frontier/B656_digest_integration/ARTIFACT_HASHES.txt",
+    "frontier/B656_digest_integration/FINDINGS.md",
+    "frontier/B656_digest_integration/ORIGINALS_MANIFEST.txt",
+    "frontier/B656_digest_integration/arc_verdict.json",
+    "frontier/B656_digest_integration/verify_g1_g4.py",
+    "frontier/B656_digest_integration/verify_g1_g4_out.txt",
+    "frontier/B656_digest_integration/packet/PACKET_README.md",
+    "frontier/B656_digest_integration/packet/PREREG_DIGEST.md",
+    "frontier/B656_digest_integration/packet/SEALS.txt",
+    "frontier/B656_digest_integration/packet/STATUS.md",
+    "frontier/B656_digest_integration/packet/g1_sign/FINDINGS_CC2.md",
+    "frontier/B656_digest_integration/packet/g1_sign/g1_run2_log.txt",
+    "frontier/B656_digest_integration/packet/g1_sign/g1_run_log.txt",
+    "frontier/B656_digest_integration/packet/g1_sign/g1_sign.py",
+    "frontier/B656_digest_integration/packet/g5_dims/FINDINGS_CC2.md",
+    "frontier/B656_digest_integration/packet/g3_mirror/FINDINGS_CC2.md",
+    "frontier/B656_digest_integration/packet/g3_mirror/g3_certificates.json",
+    "frontier/B656_digest_integration/packet/g3_mirror/g3_run_log.txt",
+    "frontier/B656_digest_integration/packet/g2_period/FINDINGS_CC2.md",
+    "frontier/B656_digest_integration/packet/g4_multipliers/FINDINGS_CC2.md",
+    "frontier/B656_digest_integration/packet/g4_multipliers/g4_run_log.txt"
+   ],
+   "files_sampled": [
+    "frontier/B656_digest_integration/packet/g3_mirror/g3_mirror.py (first 120 lines + grep for def/assert/print/sympy/Fraction/==)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "arc_verdict.json: verdict PROVED; claim_one_line: \"The digest queue was confirmed independently: B596's multiplier table is exactly the conductor clock ord(A1 mod 3kappa) (10/10 rows), and det(w) = (-1)^(v_p(det B_w)) holds iff v_p(disc) is odd (192/192, fresh Weyl group).\"",
+   "log_says": "2026-07-17 — B656: THE DIGEST-QUEUE INTEGRATION (cc2's G1-G5 verified; Q-AREA lands); REVIEW 21 lists 'sign-hears-the-discriminant' and 'the (i1,i2) dimension-grammar reduction (B656/G5)' among NEW THEOREMS, and confirms 'independently verified/confirmed in B656/B657 reads against S0's definition (a second internal pipeline) — consistent'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "G4 conductor-clock law: clock(kappa) = ord(A1 mod 3*kappa), confirmed independently on kappa=6..15 (10/10 exact), with kappa=4,5 as declared 'anomaly zone'",
+     "where": "verify_g1_g4.py -> verify_g1_g4_out.txt (main seat's own independent script, fresh order code)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "verify_g1_g4.py is fully committed, self-contained (imports only from frontier/B238_su32_levelrank/su32_wrt.py within the repo), and its printed output matches the checked-in verify_g1_g4_out.txt exactly."
+    },
+    {
+     "what": "G1 sign-hears-the-discriminant theorem: det(w)=(-1)^(v_p(det B_w)) iff v_p(disc A) odd, tested on a fresh Weyl group W(D4) (order 192) not in cc2's original battery, including two fresh words cc2 never ran",
+     "where": "verify_g1_g4.py -> verify_g1_g4_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same script as above, self-contained, output matches committed file exactly; genuinely independent generalization test (different group, different words) beyond the imported claim."
+    },
+    {
+     "what": "cc2's original G1 result: 207,384 verifications, 0 exceptions, on W(E6) x W(A2) using four sealed words",
+     "where": "packet/g1_sign/g1_sign.py -> g1_run_log.txt/g1_run2_log.txt",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "g1_sign.py has 'sys.path.insert(0, \\'<seat-workdir>/next_queue/n1_counting\\')' pointing to an external, non-relative, seat-local path placeholder (originally '/Users/dri/oa-seat-cc2/seat-work', per ORIGINALS_MANIFEST.txt's disclosed patch) and imports 'n1_jeffrey_terms as J' from that location; the module does exist elsewhere in the repo (frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/n1_jeffrey_terms.py) but the script as committed in THIS arc will not run for a stranger without manually locating and patching that path — the committed form is not directly executable."
+    },
+    {
+     "what": "G2 (minimal period=5 reduction), G3 (mirror generic law + sector-carry synthesis), G5 (dimension-grammar (i1,i2) reduction theorem)",
+     "where": "packet/g2_period/FINDINGS_CC2.md, packet/g3_mirror/FINDINGS_CC2.md + g3_certificates.json + g3_mirror.py, packet/g5_dims/FINDINGS_CC2.md",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "These are cc2's packet claims accepted by the main seat as 'ACCEPTED'/'ACCEPTED AS REDUCTION' without an independent main-seat recompute script in this arc (unlike G1/G4 which got verify_g1_g4.py); g3_mirror.py also hardcodes external seat-local paths (OUTDIR, P4_RESULTS) not present in this repo's committed tree, making it non-runnable as committed."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The main seat wrote an independent script (verify_g1_g4.py) with fresh code testing a DIFFERENT Weyl group and additional words for G1, and fresh order-computation code for G4 — genuine independent recompute for those two cells. G2/G3/G5 have no analogous independent-recompute script in this arc and are accepted on the strength of cc2's packet alone (an imported claim, with disclosed but unverified-here provenance).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "g1_sign.py and g3_mirror.py (the original cc2 packet scripts) contain hardcoded external path references ('<seat-workdir>/next_queue/n1_counting', '<seat-workdir>/digest_queue/g3_mirror', '<seat-workdir>/promotion_queue/p4_sectors/p4_results.json') that are not resolvable from this repo's committed tree as-is; a stranger cannot run these scripts without first locating dependencies and manually rewriting the paths.",
+     "where": "frontier/B656_digest_integration/packet/g1_sign/g1_sign.py:5; frontier/B656_digest_integration/packet/g3_mirror/g3_mirror.py:42,47,48"
+    },
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "ORIGINALS_MANIFEST.txt notes the run logs were 'renamed *.log -> *_log.txt (the repo ignores *.log)', confirming that .log witnesses are excluded from git tracking by default and had to be renamed to survive commit — consistent with the seat's gitignore rule for *.log/*.out.",
+     "where": "frontier/B656_digest_integration/ORIGINALS_MANIFEST.txt"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Three of five digest cells (G2, G3, G5) are banked as 'ACCEPTED'/'ACCEPTED AS REDUCTION' on an imported packet's say-so without an independent main-seat recompute in this arc, in contrast to G1 and G4 which received one; the FINDINGS.md text does not flag this asymmetry explicitly, presenting all five with similarly confident verb choices (CONFIRMED, ACCEPTED, BANKED).",
+     "where": "frontier/B656_digest_integration/FINDINGS.md"
+    }
+   ],
+   "seat_note": "The two cells given genuine independent-pipeline verification (G1, G4) are solid: fresh code, a fresh test group not in the original battery, and exact output match. The other three (G2, G3, G5) rest on an imported packet whose own scripts are not runnable as committed (hardcoded external seat paths) and received no independent recompute here, despite being reported with the same confidence level in prose."
+  },
+  {
+   "arc": "B657_invariant_line",
+   "source": "main",
+   "files_read": [
+    "frontier/B657_invariant_line/ARTIFACT_HASHES.txt",
+    "frontier/B657_invariant_line/FINDINGS.md",
+    "frontier/B657_invariant_line/ORIGINALS_MANIFEST.txt",
+    "frontier/B657_invariant_line/arc_verdict.json",
+    "frontier/B657_invariant_line/rerun_notes.txt",
+    "frontier/B657_invariant_line/verify_w1_matrix.py",
+    "frontier/B657_invariant_line/verify_w1_out.txt",
+    "frontier/B657_invariant_line/packet/PACKET_README.md",
+    "frontier/B657_invariant_line/packet/PREREG_IL.md",
+    "frontier/B657_invariant_line/packet/SEALS.txt",
+    "frontier/B657_invariant_line/packet/STATUS.md",
+    "frontier/B657_invariant_line/packet/w2_silver/FINDINGS_CC2.md",
+    "frontier/B657_invariant_line/packet/w2_silver/REPAIR_NOTE_CHAT1.md",
+    "frontier/B657_invariant_line/packet/w0a_singlet/FINDINGS_CC2.md",
+    "frontier/B657_invariant_line/packet/w0a_singlet/w0a_run_log.txt",
+    "frontier/B657_invariant_line/packet/w0a_singlet/w0a_v0.json",
+    "frontier/B657_invariant_line/packet/w0b_blocks/w0b_blocks.json",
+    "frontier/B657_invariant_line/packet/w0b_blocks/w0b_run_log.txt",
+    "frontier/B657_invariant_line/packet/w1_portal/ADDENDUM_W1.md",
+    "frontier/B657_invariant_line/packet/w1_portal/FINDINGS_CC2.md",
+    "frontier/B657_invariant_line/packet/w1_portal/portal_matrix.json",
+    "frontier/B657_invariant_line/packet/w1_portal/w1_run_log.txt"
+   ],
+   "files_sampled": [
+    "frontier/B657_invariant_line/packet/w2_silver/w2a_silver.py (first 120 lines + grep for def/assert/print/sympy/Fraction/==)",
+    "frontier/B657_invariant_line/packet/w1_portal/w1_portal.py (first 120 lines + grep for def/assert/print/sympy/Fraction/==)"
+    ],
+   "files_listed_only": [],
+   "claim_of_record": "arc_verdict.json: verdict PROVED; claim_one_line: \"The 27's holonomy-invariant line is not the Spin(10) singlet; the portal P(u)=[v0 x u] is a rank-5 isomorphism H1(27)->H1(27bar) and each principal block carries exactly one H1 class, both banked as laws on two objects.\"",
+   "log_says": "2026-07-17 — B657: THE INVARIANT-LINE CAMPAIGN (cc2's packet verified; the conflation dies; the portal is born); W0b ONE-PER-BLOCK reproduced identically (mod runtime). REVIEW 21 lists 'the portal law + one-per-block (B657)' among NEW LAWS and confirms packet seals 8/8 verified on receipt.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "W0a CONFLATION-REFUTED: the holonomy-invariant line v0 (3-weight, h_pr-null) is NOT the Spin(10) gauge singlet (which sits at h_pr eigenvalue +/-16 with v0-coefficient exactly zero there)",
+     "where": "packet/w0a_singlet/w0a_run_log.txt (full computation log, main seat reran bit-identically per rerun_notes.txt)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "rerun_notes.txt states the main seat reran w0a_compute.py on this machine (with only path constants patched) and got a bit-identical w0a_v0.json to the sealed one; the run log with exact intermediate values (weights, eigenvalues, branchings) is fully committed."
+    },
+    {
+     "what": "W0b ONE-PER-BLOCK: 27 = V17+V9+V1 exactly block-diagonal, per-block (h0,h1)=(0,1)/(0,1)/(1,1), sums reproduce banked (1,3)",
+     "where": "packet/w0b_blocks/w0b_run_log.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes (main seat reproduced identically except runtime field, per rerun_notes.txt)",
+     "why": "rerun_notes.txt: 'rerun w0b_blocks.json == sealed except runtime_s ... every mathematical field identical'."
+    },
+    {
+     "what": "W1 portal: P(u)=[v0 x u] is a rank-5 isomorphism H1(D;27)->H1(D;27bar), exactly block-diagonal on the boundary-born/solo-inherited split",
+     "where": "packet/w1_portal/w1_run_log.txt, portal_matrix.json; independently verified with fresh sympy code in verify_w1_matrix.py -> verify_w1_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes for the linear-algebra claims (rank, kernel, block structure, quoted entries) via verify_w1_matrix.py which is fully committed and self-contained; no for the full end-to-end pipeline",
+     "why": "rerun_notes.txt states W1 itself was 'not re-run' because it requires a seat-local pickle cache (stage1_classes.pkl) not present in this repo; the main seat instead verified the sealed portal_matrix.json's linear-algebra properties independently (this IS reproducible from committed files: verify_w1_matrix.py reads packet/w1_portal/portal_matrix.json directly) but the pipeline that PRODUCED that matrix from the raw 27-dim construction is not independently rerun here."
+    },
+    {
+     "what": "W2a silver control: 19/19 gates pass, form-match on grammar/one-per-block/portal-rank-5, with a flagged FORM-MISMATCH on fine block structure (silver upper-triangular vs golden block-diagonal)",
+     "where": "packet/w2_silver/FINDINGS_CC2.md; rerun_notes.txt states main seat reran w2a_silver.py end-to-end",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "rerun_notes.txt: 'rerun silver_portal.json == sealed except runtime_s ... ALL HARD GATES PASS reproduced; RANK-5-ISOMORPHISM reproduced' — a genuine independent end-to-end rerun on the main seat's machine."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Strongest belt discipline seen in this batch: W0a bit-identical rerun, W0b identical-mod-runtime rerun, W2a full end-to-end rerun, and W1's sealed matrix independently re-derived with fresh sympy code (verify_w1_matrix.py) even though the full W1 pipeline itself was not rerun (documented honestly as such in rerun_notes.txt rather than glossed over).",
+   "absence_claims": [
+    {
+     "quote": "The label never entered the repo; it dies here in the packet.",
+     "where": "FINDINGS.md, W0a (referring to the 'dark matter candidate' label attributed to chat1's earlier, external claim)"
+    },
+    {
+     "quote": "silver's persisted assets carry the principal grading but not the weight lattice, so no GUT-branching analog was computable (not needed...)",
+     "where": "packet/w2_silver/FINDINGS_CC2.md"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The refuted claim itself (an external/incoming seat's identification of the h0 invariant line with 'the Spin(10) gauge singlet = a dark matter candidate') is a textbook type-coincidence (same dimension, same 27-representation) that this arc correctly kills by exact computation (v0's coefficient at the singlet weight is exactly zero); worth flagging as the pattern this seat exists to catch, and it succeeds.",
+     "where": "packet/w0a_singlet/FINDINGS_CC2.md"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "W1's full pipeline (v0 construction through cohomology extraction to the portal matrix) cannot be rerun from this repo's committed files because it depends on a seat-local pickle cache (stage1_classes.pkl) that is not committed; only the already-sealed matrix's downstream linear algebra is independently checked.",
+     "where": "frontier/B657_invariant_line/rerun_notes.txt, W1 line"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The silver control's fine block structure (upper-triangular vs golden's block-diagonal) is flagged as an open FORM-MISMATCH with an honest caveat that it 'may be basis choice rather than geometry' — appropriately not banked as a law, and correctly excluded from the arc_verdict's claim_one_line, which only claims the isomorphism property (verified on 2 objects) not the sector-respecting property (only verified on 1).",
+     "where": "packet/w2_silver/FINDINGS_CC2.md"
+    }
+   ],
+   "seat_note": "This is the best-reproduced arc in the batch — genuine bit-identical and end-to-end reruns on three of four cells, and honest disclosure of the one cell (W1) that could not be fully rerun with the reason stated plainly. The physics content is purely group-theoretic/structural (a 27-dim E6 representation's invariant subspace and a cohomology pairing); no observable quantity or measurement is involved anywhere in this arc, despite the campaign's history of a 'dark matter candidate' label having been attached and then correctly killed."
+  },
+  {
+   "arc": "B658_order4_flips",
+   "source": "main",
+   "files_read": [
+    "frontier/B658_order4_flips/ARTIFACT_HASHES.txt",
+    "frontier/B658_order4_flips/FINDINGS.md",
+    "frontier/B658_order4_flips/PREREGISTRATION.md",
+    "frontier/B658_order4_flips/arc_verdict.json",
+    "frontier/B658_order4_flips/b658_order4.py",
+    "frontier/B658_order4_flips/b658_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "arc_verdict.json: verdict NEGATIVE; claim_one_line: \"Both order-4 orientation-reversing families break on the weld double's 27 local system (solution dimension 1, supported on Sym^0), making wall 8 total.\"",
+   "log_says": "2026-07-17 — B658: THE ORDER-4 FLIP VERDICT — wall 8 is TOTAL (R21-6 closed). REVIEW 21/22 list 'the B658 order-4 wall' and 'wall 8-total (B658)' as resolved/banked walls.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Both order-4 orientation-reversing symmetry families (phi_A, phi_B) of the figure-8 knot's isometry group D4 break on the weld double's 27-dim local system: solution dimension 1, d=(0,0,1), no invertible member (same as the previously-known order-2 result)",
+     "where": "b658_order4.py -> b658_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full exact-arithmetic script (fractions, no floats, imports only from a sibling arc B637_corrected_cell3 within the same repo) and its raw output are both committed and directly rerunnable; the output includes a positive control (the known-singular a-family) that reproduces the expected d=(0,0,1) result, which is a genuine self-check within the script."
+    },
+    {
+     "what": "Wall 8 upgrades to 'total': all FOUR orientation-reversing families of D4 (2 order-2 + 2 order-4) break; the double's 27-cohomology symmetry reduces to exactly the deck swap sigma*",
+     "where": "FINDINGS.md 'THE WALL-8 UPGRADE'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "partially — the order-4 half is directly reproducible from this arc's script; the order-2 half is IMPORTED from a prior arc (B643) not included in this batch",
+     "why": "The order-2 result is stated as already banked from B643, which is outside this batch's files; only the order-4 half is newly computed and verified here."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The script itself includes a built-in positive control (rerunning the known-singular a-family through the identical code path) before running the two new order-4 families, which is a form of self-verification within the same committed artifact.",
+   "absence_claims": [
+    {
+     "quote": "Inner corrections cannot rescue either class (B643's Ad(w) argument: composition multiplies the intertwiner space by rho(w), preserving (non)invertibility) — the obstruction covers both full outer classes.",
+     "where": "FINDINGS.md"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The observation that all four broken symmetry families retreat to the same invariant line v0 (the object of B657's portal law) is explicitly flagged by the arc itself as 'registered as a HINT, not banked as a law' — appropriately conservative, not overclaimed.",
+     "where": "FINDINGS.md, 'The observation (recorded, not claimed)'"
+    }
+   ],
+   "seat_note": "Clean, fully reproducible exact-arithmetic computation with a built-in positive control; the 'wall 8 total' headline correctly depends partly on an imported prior result (B643's order-2 half) not re-verified in this batch, but the arc is honest that this is a completion of a previously-registered residual, not a from-scratch claim. Purely group-theoretic/topological content, no observable quantity."
+  }
+ ]
+}

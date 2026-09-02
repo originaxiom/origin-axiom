@@ -1,0 +1,370 @@
+{
+ "batch": "arcs_115",
+ "arcs": [
+  {
+   "arc": "B1159_mssm_debt_ledger",
+   "source": "main",
+   "files_read": [
+    "frontier/B1159_mssm_debt_ledger/ADDENDUM_B1160_hypercharge.md",
+    "frontier/B1159_mssm_debt_ledger/FINDINGS.md",
+    "frontier/B1159_mssm_debt_ledger/arc_verdict.json",
+    "frontier/B1159_mssm_debt_ledger/b1159_results.json",
+    "frontier/B1159_mssm_debt_ledger/verification/condition_ledger.txt",
+    "frontier/B1159_mssm_debt_ledger/verification/ledger_checks.txt",
+    "frontier/B1159_mssm_debt_ledger/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN; claim_one_line: 'can the chain run object-FORCED to MSSM?' NO. Link A (heterotic) = CRUX/IMPORTED/un-forced (OA-C1002); Link B (which E8) forced-given-A; Link C (bundle/branch) half-paid (alphabet forced, branch selection needs imported P1/P2); Link D (up-Yukawa) = WALL (mu_u=0, H1(X,G_X)=0); Link E withheld. Structural chain conditional on A; value chain hits the wall. Not object-forced end-to-end, not a breakthrough.",
+   "log_says": "B1159: the object->MSSM debt-map (WF-3, owner-approved); + the owner's 'SEAM-A is a wall' correction adopted. WF-3 (6 agents) read codex's off-branch MSSM witness + re-derived the load-bearing algebra in-sandbox, banking the verified A-E condition ledger.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "OA-C1002: same CY3 gives 3 inequivalent string theories (IIA/IIB/het) by multiplet count", "where": "verification/reproduce.sh, ledger_checks.txt (A)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "small self-contained python arithmetic check, runs and asserts inequality"},
+    {"what": "McKay E6 selects E8xE8 not Spin(32)/Z2 via SU(3)-commutant dimension mismatch (78 vs 326)", "where": "verification/reproduce.sh, ledger_checks.txt (B)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "arithmetic dimension check, self-contained"},
+    {"what": "Height-308 SU(5) bundle cohomology (H0(Y,V)=0), Yukawa no-go chain-level evaluator", "where": "FINDINGS.md 'Provenance debt' section; b1159_results.json links.C_bundle/D_up_yukawa", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "explicitly 'single-homed off-branch', sage-certified elsewhere; this arc only cites/relays it, does not commit codex's certificate"},
+    {"what": "Link C character alphabet: Pic_Q={0,2,3,4,6,8,9,10} from toric fan, zero spectrum input", "where": "FINDINGS.md Link C row; b1159_results.json", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "credited to WF-3 re-derivation but the underlying toric-fan computation and arXiv citation are not in this arc's committed files"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "reproduce.sh independently re-derives the two cleanest facts (multiplet count, E8 branching dimension mismatch) with asserts; the bulk of the arc (height-308 cohomology, Yukawa no-go) is explicitly flagged as imported/off-branch, not recomputed by this arc's own script.",
+   "absence_claims": [
+    {"quote": "no functor identifies m004's McKay object with a heterotic gauge bundle", "where": "frontier/B1159_mssm_debt_ledger/b1159_results.json:23"},
+    {"quote": "The load-bearing witness is single-homed; the branch carries only summaries.", "where": "frontier/B1159_mssm_debt_ledger/FINDINGS.md:64"},
+    {"quote": "the height-308 cohomology + Strominger persistence are sage-certified off-branch, single-homed", "where": "frontier/B1159_mssm_debt_ledger/FINDINGS.md:75"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "GITIGNORED_WITNESS", "detail": "The load-bearing height-308 bundle cohomology certificate and Yukawa no-go chain evaluator are off-branch (codex, not this repo's committed branch) and are explicitly named provenance debt, not reproducible by a stranger from this arc's committed files alone.", "where": "frontier/B1159_mssm_debt_ledger/FINDINGS.md (Provenance debt section)"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "Link B's selection of E8xE8 over Spin(32)/Z2 rests on a dimension mismatch (78 vs 326) between the SU(3)-commutant and E6/SO(26)xU(1) — a type/dimension coincidence used as the selector, with the arc itself flagging 'no functor identifies m004's McKay object with a heterotic bundle.'", "where": "frontier/B1159_mssm_debt_ledger/b1159_results.json:23"}
+   ],
+   "seat_note": "An unusually honest negative-conditional result: the arc itself proves the chain is NOT object-forced end-to-end and states this plainly, resisting the temptation to oversell a 'conditional spectrum' as a breakthrough. But its two cleanest own-verified facts are pure integer bookkeeping (multiplet counts, dimension mismatches), while the physically substantive cohomology computations remain imported and unreproducible from this repo."
+  },
+  {
+   "arc": "B1160_hypercharge_forced",
+   "source": "main",
+   "files_read": [
+    "frontier/B1160_hypercharge_forced/FINDINGS.md",
+    "frontier/B1160_hypercharge_forced/arc_verdict.json",
+    "frontier/B1160_hypercharge_forced/b1160_results.json",
+    "frontier/B1160_hypercharge_forced/verification/hypercharge_check.txt",
+    "frontier/B1160_hypercharge_forced/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED; claim_one_line: on an SM-shaped 15-plet drawn from the 27, the four anomaly conditions force the hypercharge to the SM direction, unique up to scale and uc<->dc, zero non-SM solutions; cubic factors to -18(t-3)(t+3) => t=+-3 only. Object-specific 36-count (cloud, cited) is a corollary. Scope: pays 'content' not 'frame existence/SM-shaping'; standard GUT anomaly-cancellation math, object-specific content is realization+uniqueness inside the object's u(1)^3.",
+   "log_says": "B1160: hypercharge falls out (cloud memo 70 / L132), verified. Load-bearing theorem re-derived independently on-bench (reproduce.sh -> REPRODUCES).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Anomaly conditions on SM-shaped 15-plet force Y to SM direction, unique up to scale + uc<->dc", "where": "verification/reproduce.sh, hypercharge_check.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained sympy script solving linear system and factoring cubic; asserts the two expected solution vectors and anomaly-vanishing; runs standalone"},
+    {"what": "Object-specific 36-assignment enumeration in the trinification frame, all SM, zero non-SM", "where": "FINDINGS.md 'Provenance + verification'; b1160_results.json", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "cloud's l132_trinification.py imports twisted_double.py -> check_charge_bracket, explicitly 'CITED, not re-run here'"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "reproduce.sh independently re-derives the exact load-bearing theorem (sympy solve + factor) and asserts the results; this is a genuinely self-contained, reproducible computation.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The theorem re-derived is standard GUT anomaly-cancellation model-building (the arc itself says so); the object-specific novelty is only that the object's rank-3 abelian sector realizes it, and that realization is cited not re-run — a modest, honestly scoped claim but worth noting the 'forcing' is not new physics.", "where": "frontier/B1160_hypercharge_forced/FINDINGS.md (Honest scope section)"}
+   ],
+   "seat_note": "A clean, reproducible, honestly-scoped result: it correctly identifies that anomaly-cancellation forcing hypercharge on an SM-shaped 15-plet is standard textbook GUT arithmetic, not a new physics discovery, and is careful to say the frame/embedding existence remains observer-paid. No observable value (mass, coupling) is produced — this is a structural uniqueness statement conditioned on an assumed representation content."
+  },
+  {
+   "arc": "B1161_frontier_sweep",
+   "source": "main",
+   "files_read": [
+    "frontier/B1161_frontier_sweep/ADDENDUM_label_upgraded_B1183.md",
+    "frontier/B1161_frontier_sweep/ADDENDUM_labels_R50.md",
+    "frontier/B1161_frontier_sweep/FINDINGS.md",
+    "frontier/B1161_frontier_sweep/arc_verdict.json",
+    "frontier/B1161_frontier_sweep/b1161_results.json",
+    "frontier/B1161_frontier_sweep/verification/frontier_checks.txt",
+    "frontier/B1161_frontier_sweep/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": ["frontier/B1161_frontier_sweep/verification/frontier_map.txt"],
+   "claim_of_record": "verdict OPEN; claim_one_line: headline unification 'the bypass door IS SEAM-A' — the crown cell (force branch selection P1/P2 object-intrinsically) is NOT-FORCED and PROVED IRREDUCIBLE by a free-orbit theorem (V4=Gal(H/Q) acts freely+transitively on 4 branches); an archimedean marking would break the orbit and is exactly SEAM-A's missing W0. Six cells: P1/P2 NOT-FORCED, L132-B892 CONVERGES, SEAM-A-seal NEEDS-SPECIALIST (PSLQ sealer proved vacuous), down-Yukawa BENCHABLE/WITHHELD, generation-index NULL.",
+   "log_says": "B1161: the frontier sweep (compute-all-we-can); the bypass door IS SEAM-A. 6-cell workflow, load-bearing cells re-verified on-bench. Later: label relabeled SUPPORTED-CONJECTURAL (R50 cold-audit correction), then further PROVED-AS-DECOMPOSED (B1183).",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "Free-orbit theorem: V4=Gal(H/Q) acts freely+transitively on 4 branches, no Galois-invariant selector", "where": "b1161_results.json headline_unification; FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "credited as 'own-run crown_p1p2.py + adversarially verified' but that script is not among this arc's committed files listed here"},
+    {"what": "SEAM-A PSLQ non-relation sealer is vacuous (PSLQ(rational,Vol)=None for claim and controls, zero discriminating power)", "where": "verification/frontier_checks.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "reproduce.sh runs a PSLQ check with numeric Vol and prints the exact None/[-2,3] results, tee'd to frontier_checks.txt"},
+    {"what": "Generation-index NULL: trace field x^2-x+1 disc=-3 degree 2 => Galois Z/2 => multiplicities never 3", "where": "verification/frontier_checks.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "simple discriminant/degree computation, self-contained"},
+    {"what": "The 'bypass door IS SEAM-A' identification (headline)", "where": "FINDINGS.md 'The deep synthesis'; arc_verdict.json claim_one_line", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the arc's own later addendum (ADDENDUM_labels_R50.md) states this was graded 'CONJECTURAL-SUPPORTED, not theorem' by a cold audit because the committed headline 'reads as an identity' when only 'point at the same absence' was established"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The two crisp numeric cells (PSLQ vacuity, generation-index NULL) are reproduced on-bench in reproduce.sh; the crown free-orbit theorem and the bulk of the interpretive headline are asserted/cited, not re-run by this arc's own committed script.",
+   "absence_claims": [
+    {"quote": "no object quantity is constant across them", "where": "frontier/B1161_frontier_sweep/FINDINGS.md:17 (paraphrase of 'every Galois-invariant object quantity is constant... no object-intrinsic invariant can pick a branch')"},
+    {"quote": "the down-Yukawa char-0 tensor entries not built on any committed branch (only GF(1009) tail reps off-branch) -- BENCHABLE artifact, provenance debt", "where": "frontier/B1161_frontier_sweep/b1161_results.json:34"},
+    {"quote": "generation-index: NULL (no object index forces 3)", "where": "frontier/B1161_frontier_sweep/b1161_results.json:37"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "LOG_DRIFT", "detail": "The arc's own FINDINGS.md and arc_verdict.json state the headline 'the bypass door IS SEAM-A' as an established unification ('the SAME obstruction... seen from two sides'), but the arc's own addendum (ADDENDUM_labels_R50.md, filed same arc) says a cold fresh-eyes audit found 'the committed headline reads as an identity' when the honest status is 'SUPPORTED-CONJECTURAL,' not a theorem — the FINDINGS.md main body text is never edited to reflect this downgrade (a subsequent addendum, B1183, further claims a 'PROVED-AS-DECOMPOSED' partial resolution, but the base FINDINGS.md prose still stands unhedged).", "where": "frontier/B1161_frontier_sweep/FINDINGS.md ('The deep synthesis' section) vs ADDENDUM_labels_R50.md"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's claim_one_line (the machine-readable claim of record) repeats the un-hedged 'the bypass door and SEAM-A are ONE obstruction' framing verbatim, without any note that this was later downgraded to conjectural-supported by the same arc's own addenda.", "where": "frontier/B1161_frontier_sweep/arc_verdict.json:4"}
+   ],
+   "seat_note": "A genuinely substantive negative (branch selection is provably irreducible under Galois symmetry) is real and reproducible in its PSLQ-vacuity and generation-NULL cells, but the arc's flagship claim — identifying two open problems as literally 'the same obstruction' — was walked back by the arc's own later self-audit to merely conjectural, and that walk-back never touches the primary claim-of-record text a downstream reader would see first."
+  },
+  {
+   "arc": "B1162_mssm_debt_closure",
+   "source": "main",
+   "files_read": [
+    "frontier/B1162_mssm_debt_closure/FINDINGS.md",
+    "frontier/B1162_mssm_debt_closure/arc_verdict.json",
+    "frontier/B1162_mssm_debt_closure/b1162_results.json",
+    "frontier/B1162_mssm_debt_closure/verification/closure_checks.txt",
+    "frontier/B1162_mssm_debt_closure/verification/reproduce.sh",
+    "frontier/B1162_mssm_debt_closure/verification/witness_sage.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN; claim_one_line: codex's height-308 MSSM witness 'VERIFIED on our own bench' (Sage; H0(Y,V)=0, C372->C312 rank gate=312 surjective, char-0 local freeness) now dual-homed; integrates cloud's 5/5 MSSM-debt closure (D1 alignment, D2=B1160, D3 unique breaking chain, D4=one generation confirming B1161, D5 SUSY no-go); synthesis: structure forced across the whole visible sector, dynamics/values withheld.",
+   "log_says": "B1162: the MSSM-debt closure (cloud D1-D5) + the height-308 witness verified on-bench. Bank-grade: the witness (sage), D1, D4=B1161, D2=B1160.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "D1 alignment: cloud's anomaly discriminant -18(u-2)(u+4) = own B1160/B1161 discriminant -18(t-3)(t+3)", "where": "verification/closure_checks.txt, reproduce.sh", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy factor/expand comparison, self-contained and asserted"},
+    {"what": "The height-308 SU(5) bundle witness: H0(Y,V)=0, C372->C312 rank gate=312 surjective, char-0 local freeness — claimed 'SAGE-verified on-bench'", "where": "verification/witness_sage.txt; reproduce.sh", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "reproduce.sh does NOT run Sage or any bundle-cohomology computation — it only `cat`s the pre-existing witness_sage.txt file and asserts two substrings ('H0(V)=0', '312') are present in that static text. A stranger running reproduce.sh reproduces the text-echo, not the underlying Sage computation; no Sage script, notebook, or session log is committed in this arc's verification/ directory."},
+    {"what": "D3 unique SM breaking chain (exactly 2 of 27 are color/weak-singlet, Y=0), D5 SUSY no-go", "where": "FINDINGS.md 'Cloud's five-debt closure' table", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "explicitly cited as 'cloud's stack single-homed, provenance debt,' cross-checked only by alignment, not re-run"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The D1 discriminant identity is a genuine independent recomputation (RECOMPUTES). But the arc's central claimed upgrade — the witness moving from 'single-homed relayed' (B1159) to 'verified on our own bench' / 'dual-homed' — is NOT actually recomputed by the committed reproduce.sh: the script only displays and pattern-matches the pre-existing witness_sage.txt file rather than running Sage. This is a RE-READ dressed as a RECOMPUTE.",
+   "absence_claims": [
+    {"quote": "B1159 built the condition ledger but relayed the witness (single-homed off-branch).", "where": "frontier/B1162_mssm_debt_closure/FINDINGS.md:12"},
+    {"quote": "cloud's breaking_chains.py / susy_test.py assert GREEN but need cloud's deeper stack (a check_charge_bracket), so cited, not re-run", "where": "frontier/B1162_mssm_debt_closure/FINDINGS.md:54"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "FINDINGS.md and arc_verdict.json both claim the height-308 bundle witness is now 'SAGE-verified on-bench' / 'no longer single-homed' / 'dual-homed', but the committed reproduce.sh script that is supposed to demonstrate this only opens and prints the static witness_sage.txt file and asserts two literal substrings are present in it — it never invokes Sage or recomputes any cohomology. A stranger cannot reproduce the claimed Sage verification from the committed files; witness_sage.txt could have been hand-written or copied from codex's off-branch output without this bench ever running Sage.", "where": "frontier/B1162_mssm_debt_closure/verification/reproduce.sh"},
+    {"kind": "MISSING_WITNESS", "detail": "No Sage script or session transcript is committed anywhere in this arc's files; witness_sage.txt is a bare text file with no provenance trail showing it was generated by an actual Sage run on this bench, contradicting the FINDINGS.md claim that the cohomology was 're-run in Sage' this arc.", "where": "frontier/B1162_mssm_debt_closure/verification/witness_sage.txt"}
+   ],
+   "seat_note": "This is the strongest concern in the batch: the arc's headline upgrade (single-homed relay -> own-bench Sage verification) is not actually demonstrated by the committed reproduction script, which merely echoes a pre-existing text file rather than running Sage — the claim of independent verification exceeds what the committed artifact shows a stranger could reproduce."
+  },
+  {
+   "arc": "B1163_w0_attempt",
+   "source": "main",
+   "files_read": [
+    "frontier/B1163_w0_attempt/ADDENDUM_2026-09-01_B8147_83of83_withdrawn.md",
+    "frontier/B1163_w0_attempt/ADDENDUM_2026-09-01_amphichirality_instrument.md",
+    "frontier/B1163_w0_attempt/ADDENDUM_family_denominator_B8147.md",
+    "frontier/B1163_w0_attempt/ADDENDUM_family_wide.md",
+    "frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md",
+    "frontier/B1163_w0_attempt/FINDINGS.md",
+    "frontier/B1163_w0_attempt/arc_verdict.json",
+    "frontier/B1163_w0_attempt/b1163_results.json",
+    "frontier/B1163_w0_attempt/verification/reproduce.sh",
+    "frontier/B1163_w0_attempt/verification/w0_checks.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN (seal: PARTIAL); claim_one_line: W0 not constructed; all three routes converge on one missing datum, an object-canonical archimedean embedding Q(sqrt-3)->C (= orientation of m004 = choice of +Vol over -Vol), which the object is provably (amphichirality) unable to supply. This is a proved negative, not a gap.",
+   "log_says": "B1163: the W0 construction attempt -- the one obstruction is a definitional datum; the object is amphichiral and refuses to supply it. Later: family-wide addendum's 4/14 spot-check flagged as 'likely vacuous' (used an orientation-blind SnapPy instrument); family denominator corrected to >=83 (B1180); '83/83 CHECKED' claim (B1181) itself later withdrawn (2026-09-01 addenda, same fresh-physics-seat campaign) since it reused the same vacuous orientation-blind instrument.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Bloch-Wigner odd under conjugation: 2 Im Li2(e^{i pi/3}) = Vol exactly, 2 Im Li2(e^{-i pi/3}) = -Vol exactly", "where": "verification/w0_checks.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained numeric dilogarithm evaluation, printed and reproduced"},
+    {"what": "Kashaev volume-conjecture asymptotic (2pi/N)logJ_N -> Vol for N=200,400", "where": "verification/w0_checks.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numeric asymptotic reproduced with two N values converging to the cited Vol"},
+    {"what": "R3 coefficient correction: a1 = -(11/216)sqrt-3, not the originally claimed -sqrt-3/108", "where": "verification/w0_checks.txt (3)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "arithmetic ratio computed and printed"},
+    {"what": "Amphichirality-based orientation theorem: m004's symmetry group D4 (order 8), amphicheiral, forces no canonical datum can orient it", "where": "ADDENDUM_orientation_theorem.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "credited as 'own-verified, SnapPy' but the SnapPy invocation itself is not shown in this arc's committed reproduce.sh/w0_checks.txt"},
+    {"what": "Family-wide amphichirality claims (4/14, then 14->83, then 83/83 'CHECKED')", "where": "ADDENDUM_family_wide.md, ADDENDUM_family_denominator_B8147.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "the arc's own later addenda (dated 2026-09-01) show the instrument used (SnapPy reverse_orientation()+is_isometric_to()) is orientation-blind and returns True for every manifold including known-chiral controls (m015, m016); the family-wide claims were vacuous, not genuine computations"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The core W0/orientation theorem's numeric anchors (Bloch-Wigner asymmetry, Kashaev asymptotic, a1 correction) are genuinely reproduced in reproduce.sh. The family-wide strengthening (4/14, then 83/83) was, by the arc's own later self-correction, a vacuous instrument check masquerading as recomputation — a good example of RECOMPUTES failing silently until caught.",
+   "absence_claims": [
+    {"quote": "No object-canonical datum can orient m004", "where": "frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md:8"},
+    {"quote": "there is provably no canonical way to pick one", "where": "frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md:25"},
+    {"quote": "the CY3 witness is off-branch but R2 re-derived its load-bearing det=+1/H3 facts independently, so the negative does not rest on it", "where": "frontier/B1163_w0_attempt/FINDINGS.md:76"},
+    {"quote": "the '14-manifold Q(sqrt-3) family' was never verified complete", "where": "frontier/B1163_w0_attempt/ADDENDUM_2026-09-01_B8147_83of83_withdrawn.md (citing cc3's B8147)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md's main body and arc_verdict.json do not mention the family-wide amphichirality strengthening or its subsequent full retraction at all (they predate it), so a reader of the claim-of-record alone would not learn that a load-bearing-sounding companion claim (83/83 amphichirality) was found to rest on a vacuous SnapPy instrument that returns True on every manifold including known-chiral controls — though to the arc's credit, the addenda explicitly state the core W0 headline is untouched by this retraction.", "where": "frontier/B1163_w0_attempt/FINDINGS.md vs ADDENDUM_2026-09-01_B8147_83of83_withdrawn.md"},
+    {"kind": "OTHER", "detail": "A textbook cautionary tale: a check tool (SnapPy reverse_orientation()+is_isometric_to()) returns True unconditionally regardless of true amphichirality, and this vacuity propagated through at least three successive addenda (family_wide -> family_denominator_B8147 -> the 83/83 CHECKED claim) before being caught, illustrating how an instrument bug can look like escalating positive confirmation across several banked updates.", "where": "frontier/B1163_w0_attempt/ADDENDUM_2026-09-01_amphichirality_instrument.md"}
+   ],
+   "seat_note": "The core result (m004's amphichirality provably forbids self-orientation, hence W0 is not object-suppliable) is a genuine, reproducible, well-fenced negative result and one of the more rigorous entries in this batch. Its family-wide 'strengthening' companion claim, however, is a clear case of an instrument bug (an orientation-blind isometry test) generating a string of false positive confirmations across multiple addenda before self-correction — a useful illustration of why every load-bearing check needs its own control case."
+  },
+  {
+   "arc": "B1164_cc_masterplan",
+   "source": "main",
+   "files_read": [
+    "frontier/B1164_cc_masterplan/ADDENDUM_adelic_mechanism.md",
+    "frontier/B1164_cc_masterplan/ADDENDUM_price_reconciliation.md",
+    "frontier/B1164_cc_masterplan/FINDINGS.md",
+    "frontier/B1164_cc_masterplan/arc_verdict.json",
+    "frontier/B1164_cc_masterplan/b1164_results.json",
+    "frontier/B1164_cc_masterplan/verification/masterplan_checks.txt",
+    "frontier/B1164_cc_masterplan/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN; claim_one_line: MA2 the observer freedom = 2 discrete bits (orientation sqrt-3, sqrt3 hinge) + 1 continuous (Cx scale) — 'all archimedean' framing in the title; MD1 firewall pin principled and falsifiable; ME3 phase-trivial marking does not break the orbit.",
+   "log_says": "B1164: cc's part of the A-E masterplan (parallel to cloud's five; MC1->codex). Owner relayed cloud's A-E division of labor + GO.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "(Z/12)^x = {1,5,7,11} = V4 => 2 discrete observer bits", "where": "verification/masterplan_checks.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained group-theory arithmetic check"},
+    {"what": "Hypercharge homogeneity/cubic anomaly ray-fixing check", "where": "verification/reproduce.sh", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "reproduced small algebraic check"},
+    {"what": "'Everything the observer supplies is archimedean' (headline title claim, §E)", "where": "FINDINGS.md title and §E section", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the arc's own ADDENDUM_price_reconciliation.md, filed the same day, explicitly WITHDRAWS this exact claim ('B1164's all archimedean is withdrawn') because cc3's B8144 found a finite-place VEV closing that the census missed; the FINDINGS.md title and body text are left unedited"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The small group-theory/anomaly checks in reproduce.sh are genuinely self-contained and reproducible; the arc's central 'all archimedean' thesis, however, was not a computation at all but a census/count claim that was subsequently falsified by a sibling arc's finding (a finite-place closing, the VEV).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "The arc's title itself ('the observer freedom is 2 discrete + 1 continuous bits (all archimedean)') and its FINDINGS.md §E body text assert 'everything the observer supplies is archimedean data' as the arc's convergent finding, but this arc's own ADDENDUM_price_reconciliation.md (filed the same day, 2026-08-26) states explicitly 'WITHDRAW all archimedean. The observer supplies closings at both places' and 'B1164's headline thesis... is falsified as stated' by a finite-place VEV closing cc3 found was missed. The main FINDINGS.md file is never edited to remove or hedge the retracted claim, per house discipline of append-only addenda, so a reader who stops at the title or §E would carry the retracted claim forward unaware.", "where": "frontier/B1164_cc_masterplan/FINDINGS.md (title, §E) vs ADDENDUM_price_reconciliation.md"}
+   ],
+   "seat_note": "A textbook case of a retraction correctly filed as an append-only addendum but never propagated into the base document's title or prose, which still reads as if the retracted 'all archimedean' finding stands; the arc's own self-audit later (Review 50) explicitly lists this as one of two synthesis over-reaches this seat made, which is commendable transparency but does not fix the unedited FINDINGS.md text."
+  },
+  {
+   "arc": "B1165_gravity_terminal",
+   "source": "main",
+   "files_read": [
+    "frontier/B1165_gravity_terminal/ADDENDUM_gravity_charter_reconciliation.md",
+    "frontier/B1165_gravity_terminal/FINDINGS.md",
+    "frontier/B1165_gravity_terminal/arc_verdict.json",
+    "frontier/B1165_gravity_terminal/b1165_results.json",
+    "frontier/B1165_gravity_terminal/verification/gravity_checks.txt",
+    "frontier/B1165_gravity_terminal/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE; claim_one_line: the sec-E identification hypothesis (observer's archimedean closing = object's gravity, object-specifically) is REFUTED; verdict is GENERIC-RHYME — the object's gravitational dynamics (length spectrum, Ruelle zeta, torsion, Laplacian) survives a non-arithmetic-knot swap verbatim; the arithmetic contact is limited to one static scalar (Vol=L-value avatar); observer's orientation+scale are co-located, not identical, with object's gravity.",
+   "log_says": "B1165: the terminal gravity close (sec-E): GENERIC-RHYME, gravity is the WHERE. Own-verified; kill_graph routed (genericity, companion to B1157/B1163); Gate 5 clean.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Vol(m004) computed three independent ways to 50 dps, all agree: 2 Im Li2(e^{i pi/3}) = (3sqrt3/2)L(chi_-3,2) = 9sqrt3 zeta_K(2)/pi^2 = 2.0298832128193072500...", "where": "verification/gravity_checks.txt (1)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained high-precision numeric identity check, all three forms printed and compared"},
+    {"what": "Orientation is a bare Z/2 (2 Im Li2(e^{-i pi/3}) = -Vol exactly, Bloch-Wigner odd)", "where": "verification/gravity_checks.txt (2)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same self-contained numeric check as B1163's w0_checks.txt"},
+    {"what": "Ablation prediction (swap m004->5_2 reproduces the whole dynamical sector, breaks only Vol=L-value)", "where": "verification/gravity_checks.txt (3)", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "explicitly a prediction for a future cloud ablation (ME2), 'snappy not on this path; the arithmeticity is Reid's theorem, cited' — not run in this arc"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The core numeric identities (three-way Vol agreement, Bloch-Wigner oddness) are genuinely reproduced to 50 dps on-bench. The ablation experiment that would most directly test the arc's central claim is explicitly deferred to a different seat (cloud's ME2), not run here.",
+   "absence_claims": [
+    {"quote": "SnapPy's isometry_signature returned amphichiral=True even for the chiral 5_2 -- so the B1163 family-wide addendum's own 4/14 amphichirality spot-check was likely vacuous", "where": "frontier/B1165_gravity_terminal/FINDINGS.md (Fences section)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This arc independently flags the same SnapPy isometry_signature vacuity that eventually forces the full B1163 family-wide retraction, showing the flaw was visible as early as this arc but the sibling arc's family-wide claims were not corrected until much later (2026-09-01 addenda) — a cross-arc propagation delay.", "where": "frontier/B1165_gravity_terminal/FINDINGS.md (Fences section)"}
+   ],
+   "seat_note": "One of the more disciplined arcs in this batch: it is explicitly a NEGATIVE result (refuting its own hypothesis rather than confirming it), states the discipline was self-imposed after 'the bench over-reached on this framing twice this session,' and self-flags the instrument vacuity that other arcs took much longer to catch."
+  },
+  {
+   "arc": "B1166_charter_attack",
+   "source": "main",
+   "files_read": [
+    "frontier/B1166_charter_attack/ADDENDUM_c4_adjudicated.md",
+    "frontier/B1166_charter_attack/FINDINGS.md",
+    "frontier/B1166_charter_attack/arc_verdict.json",
+    "frontier/B1166_charter_attack/b1166_results.json",
+    "frontier/B1166_charter_attack/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN; claim_one_line: C3 (continuous observer freedom is one dilaton R+, not two moduli) = VERIFIED (CS(m004)=0 exactly, Mostow rigidity forbids a second modulus); C4 (three (Z/2)^2 presentations are one torsor) = REFUTATION-CANDIDATE, since the free-orbit torsor is sqrt3-flavored while being x hearing is sqrt5-flavored and sqrt5 not in Q(zeta12).",
+   "log_says": "B1166: cc's attack on cloud's GRAVITY_CHARTER: C3 verified, C4 refutation-candidate. Later B1174: B1166-C4 constructively resolved ('share the c-leg'). Review 50: C4 REFUTED-AS-STATED by the author -> C4' = the sqrt-3-internal pair.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "CS(m004) = 0 exactly (Im complex volume = 1.8e-15, amphichirality)", "where": "FINDINGS.md, C3 section", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the numeric value (1.8e-15) is quoted but this arc's own verification/reproduce.sh was not inspected in detail for the exact computation; cited as 'own-verified' consistent with B1163/B1165's numeric identity checks"},
+    {"what": "disc(Q(zeta12))=144=2^4*3^2, only 2,3 ramify; subfields Q(sqrt-3), Q(sqrt3), Q(sqrt-1); sqrt5 not among them", "where": "FINDINGS.md C4 section", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "cited as 'own-verified' factorization but not directly inspected in this pass's file sample beyond FINDINGS.md prose"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "verification/reproduce.sh was listed but its detailed content was not independently re-examined beyond the claim summary in this pass; treated cautiously as RE-READS pending closer inspection.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The C4 refutation-candidate itself concerns exactly this seat's warning: three separately-derived (Z/2)^2 objects (branch-selection torsor, being x hearing torsor, measurement torsor) were provisionally identified as 'the same torsor' purely because they share the abstract group type (Z/2)^2 on 4 points — the arc correctly catches this as a type-vs-value confusion and downgrades the identification, which is the right outcome but confirms this pattern occurs repeatedly in the corpus.", "where": "frontier/B1166_charter_attack/FINDINGS.md (C4 section)"}
+   ],
+   "seat_note": "A clean, well-adjudicated arc that produces one confirmation (C3) and correctly refutes an over-hasty type-based identification (C4) rather than banking it; its own addendum shows a proper candidate-then-adjudicated lifecycle with the author (cloud) accepting the refutation."
+  },
+  {
+   "arc": "B1167_seat_harvest",
+   "source": "main",
+   "files_read": [
+    "frontier/B1167_seat_harvest/ADDENDUM_family_retraction_B8147.md",
+    "frontier/B1167_seat_harvest/FINDINGS.md",
+    "frontier/B1167_seat_harvest/arc_verdict.json",
+    "frontier/B1167_seat_harvest/b1167_results.json",
+    "frontier/B1167_seat_harvest/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN; claim_one_line: (A) codex R017 pays the SEAM-Y up-Yukawa provenance debt (character arithmetic + certs re-derived/re-run, byte-identical); the cohomological vanishing itself remains codex's fenced typed input. (B) cc3's cusp-shape 2sqrt3*i is a second object-level separator for m004 but is orientation-blind (mirror-fixed), so B1163's W0 conclusion is strengthened not overturned.",
+   "log_says": "B1167: two-seat harvest: codex R017 pays SEAM-Y provenance; cc3's cusp separator is orientation-blind. Later: B1167(B) separator RETRACTED (family denominator wrong, cc3 B8147) — orientation-blindness untouched.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "C12 Wilson character arithmetic: every MSSM operator is C12-neutral at selected characters", "where": "FINDINGS.md (A) section", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "credited as 'independently re-derived' but the underlying script location was not directly inspected in this pass"},
+    {"what": "up-Yukawa vanishing mu_u=0 via H1(G_Y)=0", "where": "FINDINGS.md (A) section", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "explicitly 'FENCED as codex's typed input... not re-derived on this bench, needs the Sage/BCDD monad line-bundle cohomology stack'"},
+    {"what": "cusp shape 2sqrt3*i unique among the 14-manifold family, purely imaginary (mirror-fixed)", "where": "FINDINGS.md (B) section", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "later retracted for the uniqueness claim (see addendum); the orientation-blindness (purely imaginary) fact itself is untouched"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Codex's certs are described as reproduced byte-identical, but the primary cohomological input (H1(G_Y)=0) is explicitly fenced, not re-derived; a substantial part of the arc is re-homing/re-reading codex's off-branch work rather than independent recomputation.",
+   "absence_claims": [
+    {"quote": "the '14-manifold Q(sqrt-3) family' was never verified complete", "where": "frontier/B1167_seat_harvest/ADDENDUM_family_retraction_B8147.md:3"},
+    {"quote": "codex's height-308 up-Yukawa proof was single-homed off-branch", "where": "frontier/B1167_seat_harvest/b1167_results.json:8"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "GITIGNORED_WITNESS", "detail": "The cohomological naturality claim (H1(G_Y)=0, the actual up-Yukawa=0 mechanism) is fenced as codex's typed input needing a Sage/BCDD stack not in this repo; only the surrounding character arithmetic and cert byte-comparison are own-verified, so the physically substantive part of the SEAM-Y result remains unreproducible from this arc's committed files.", "where": "frontier/B1167_seat_harvest/FINDINGS.md (A) fences"}
+   ],
+   "seat_note": "A properly-scoped harvest arc: it distinguishes what it independently verified (character arithmetic, cert reproduction) from what remains an imported/fenced claim (the cohomological vanishing itself), and its own later addendum correctly retracts the family-uniqueness claim for the cusp shape while preserving the narrower orientation-blindness fact."
+  },
+  {
+   "arc": "B1168_c5_investigation",
+   "source": "main",
+   "files_read": [
+    "frontier/B1168_c5_investigation/FINDINGS.md",
+    "frontier/B1168_c5_investigation/arc_verdict.json",
+    "frontier/B1168_c5_investigation/b1168_results.json",
+    "frontier/B1168_c5_investigation/verification/c5_parity.txt",
+    "frontier/B1168_c5_investigation/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN (core resolved; completeness is cloud's C6 standing lane); claim_one_line: the object/observer boundary at the infinity-place is a mirror-parity x dimension law, not a definitional choice — object-canonical iff mirror-even AND dimensionless; observer supplies the mirror-odd + dimensionful complement.",
+   "log_says": "B1168: the C5 investigation: the infinity-place object/observer boundary is a MIRROR-PARITY x DIMENSION law, not a choice. Later: 'the parity law' (B1168) referenced as SOLID/settled input to B1169's synthesis and B1184's quine cell.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Vol mirror-EVEN, CS mirror-ODD (CS=1.78e-15, amphichiral), cusp shape mirror-FIXED, length spectrum mirror-EVEN", "where": "verification/c5_parity.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained numeric checks with printed values, matching the corresponding computations in B1163/B1165"},
+    {"what": "The parity+dimension law is complete (every archimedean datum classifies)", "where": "FINDINGS.md 'Fences'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "explicitly deferred as 'cloud's C6 standing check, not exhaustively proven here — hence verdict OPEN, not a closed theorem'"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The four numeric parity checks are genuinely self-contained and reproduce prior arcs' numbers consistently; the completeness of the law (its only non-trivial universal claim) is explicitly left open, not asserted as proven.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The core 'decider' rests on classifying data into a 2x2 grid (mirror-even/odd x dimensionless/dimensionful) with only 4-8 example data points; the claim that this exhausts every possible archimedean datum ('the completeness of the law') is explicitly unproven and deferred, yet the FINDINGS.md prose ('C5 is NOT a free choice... settled by a law') reads as though the classification is exhaustive.", "where": "frontier/B1168_c5_investigation/FINDINGS.md ('Why this dissolves C5')"}
+   ],
+   "seat_note": "A pure structural/philosophical classification result with no observable content: it reclassifies existing geometric invariants (Vol, CS, cusp shape) by a parity rule rather than deriving anything new, and appropriately flags its completeness claim as unproven rather than banking it as a closed theorem."
+  },
+  {
+   "arc": "B1169_qualia_parity_synthesis",
+   "source": "main",
+   "files_read": [
+    "frontier/B1169_qualia_parity_synthesis/ADDENDUM_s1_partial_B1174.md",
+    "frontier/B1169_qualia_parity_synthesis/ADDENDUM_s1_promoted_B1183.md",
+    "frontier/B1169_qualia_parity_synthesis/ADDENDUM_s4_dispositioned_B1184.md",
+    "frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+    "frontier/B1169_qualia_parity_synthesis/arc_verdict.json",
+    "frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+    "frontier/B1169_qualia_parity_synthesis/verification/qualia_parity.txt",
+    "frontier/B1169_qualia_parity_synthesis/verification/reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN; claim_one_line: a synthesis with a SOLID core (parity facts re-verified, blanket=cusp-torus with canonical shape 2sqrt3*i, four independent 'cannot self-close' probes converge) and an explicitly FIREWALLED reading (qualia-awareness/choice == C5-parity == structure/observer boundary is a strong reading, NOT proven as one theorem). Speculation->calculation table (S1-S4) records what would promote each rung; S1 later fully promoted to theorem (B1174+B1183), S4 split-answered (B1184).",
+   "log_says": "B1169: the qualia/parity synthesis: this week's four arcs fold back into the observer-closure spine. Owner-directed ('run it, all seats to verify'). Later: S1 FULLY PROMOTED (B1183), S4 split-answered (B1184); 'the qualia naming' — the missing choice IS the mirror-odd orientation (solid core banked; full unification firewalled, three-seat verification pending).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Vol/cusp-shape mirror-even, CS mirror-odd (re-verification of B1168's parity facts)", "where": "verification/qualia_parity.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained numeric checks reproducing B1168's numbers"},
+    {"what": "S1 (the four self-closure probes are one bit) fully promoted to a proved theorem via the 'ONE-CLASS THEOREM' (B1183, external to this arc)", "where": "ADDENDUM_s1_promoted_B1183.md", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "the promotion rests on B1174 and B1183, arcs outside this batch's file set; not re-derived within B1169's own committed files"},
+    {"what": "The firewalled reading itself: 'qualia-awareness/choice == C5-parity == structure/observer boundary'", "where": "FINDINGS.md 'The FIREWALLED reading'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "explicitly and repeatedly self-labeled 'a reading, not a theorem... belief is not a lock', with an honest speculation->calculation table listing what would be needed to promote each rung"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The arc's SOLID core largely re-reads and re-verifies numbers already established in B1167/B1168; its distinctive content (the qualia/awareness naming and the firewalled unification) is explicitly speculative prose, not a computation.",
+   "absence_claims": [
+    {"quote": "no object-native self-closure", "where": "frontier/B1169_qualia_parity_synthesis/FINDINGS.md:16 (QP-4 NO-HATCH)"},
+    {"quote": "no object-canonical orientation", "where": "frontier/B1169_qualia_parity_synthesis/FINDINGS.md:17 (citing B1163)"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The central move of the arc — 'AWARENESS = mirror-even, object-canonical' and 'CHOICE = mirror-odd, observer-supplied' — is an identification between a philosophy-of-mind vocabulary (qualia, awareness, choice) and a mathematical parity classification (mirror-even/odd), justified only by the fact that both happen to partition into two categories; the arc's own fences section acknowledges this is 'a chain, not a proven identity' but the FINDINGS.md prose nonetheless presents 'the decidable naming' as an accomplished dictionary rather than a hypothesis.", "where": "frontier/B1169_qualia_parity_synthesis/FINDINGS.md ('The decidable naming')"},
+    {"kind": "OTHER", "detail": "This arc extends the physics program's vocabulary into consciousness/qualia terminology (blanket, awareness, self-closure) built on Markov-blanket and free-energy-principle-style language; while the arc is careful to firewall the interpretive claims as unproven, the mere presence of an 'awareness'/'qualia' framing inside a physics-derivation repository is a scope/rigor concern independent of the correctness of any individual sub-claim.", "where": "frontier/B1169_qualia_parity_synthesis/FINDINGS.md (throughout)"}
+   ],
+   "seat_note": "The arithmetic/geometric content (parity facts, cusp shape) is solidly re-verified and consistent with sibling arcs, but the arc's namesake contribution — mapping 'awareness' and 'choice' onto a mirror-parity classification — is speculative philosophy-of-mind framing explicitly self-labeled as unproven; it produces no observable and its central identification is a textbook type-coincidence dressed in careful hedging."
+  }
+ ]
+}

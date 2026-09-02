@@ -70,6 +70,7 @@ all with committed scripts that run on this bench without Sage:
 | R36 | B331/B333/B335/B406/B486/B488/B489/B509/B510/B520 | seven MATCH; B333's discriminant count wrong (sign bug: 14/123 → 16/122), verdict unchanged |
 | R37 | B790/B777/B850/B894 | three MATCH; B850's multiplicity numbers are word-count artefacts (SnapPy: 12/12/11/11/6, not 4/3/4/8/2) |
 | R38 | committed reruns B854 / B866 / B919 | B854, B866 reproduce; **B919's sin²θ_W = 3/8 traces are not reproducible from committed** (uncommitted `cw.py` run dir; test compares stored strings to themselves) |
+| R40 | B516 Pisot under x → x(1+√x) | MATCH |
 
 Physics content of all nine: none, except that B919 names sin²θ_W and its derivation is not in the repository. Each is arithmetic or representation theory of the object; none names a
 measurable quantity. "No observable content."

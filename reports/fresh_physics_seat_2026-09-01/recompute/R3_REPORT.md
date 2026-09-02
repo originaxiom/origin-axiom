@@ -531,3 +531,5 @@ Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   table; **B919 (sin²θ_W = 3/8 traces) cannot be run: it needs an uncommitted external run dir (`HANDOFF6_RUN`,
   `cw.py`) that no head carries, and its test asserts substrings of the stored results.json** — the 3/8 is a
   recorded string at one prime, not a reproducible computation on this repository.
+- **B516 Pisot claim — CLOSED, MATCH** by `R40_b516_pisot/`: only the golden mean gives a Pisot number under
+  x → x(1+√x) (conjugates 0.440/0.786/0.786; silver's binding conjugate 1.337).

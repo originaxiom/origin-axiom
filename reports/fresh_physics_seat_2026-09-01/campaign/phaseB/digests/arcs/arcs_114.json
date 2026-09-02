@@ -1,0 +1,310 @@
+{
+"batch": "arcs_114",
+"arcs": [
+
+{
+"arc": "B1146_seam_b",
+"source": "frontier/B1146_seam_b",
+"files_read": ["FINDINGS.md","THREE_SEAMS_PREREG.md","arc_verdict.json","b1146_results.json","verification/seam_b.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — SEAM-B (own-bench, exact): the 2T-vs-A4 distinction is the object's own -I, visible on BOTH the 27 and the 78 for the fermion-capable minimal-A1 stratum; codex's 'adjoint factors through A4' is a PRINCIPAL-sl2 ARTIFACT that does not apply to the object. NUANCED-MATCH on the sealed prereg (the clean-MATCH framing was too clean, self-corrected).",
+"log_says": "2026-08-26 bank: B1146 SEAM-B (own bench, exact) confirms the adjoint 5-grading {-2:1,-1:20,0:36,1:20,2:1}, 40 odd dims => rho78(-I)!=I; rho27(-I)!=I; converges with cloud memo 34.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "adjoint(78) and 27 ad(h)-weight spectra for the minimal-A1 vs principal sl2; rho(-I) parity", "where": "verification/seam_b.py (reuses B1102's load_ccb/build_27, exact Fraction arithmetic, in-code diagonality assertion)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained script committed in this arc, imports only banked B1102 machinery already in the repo; runs to completion with printed verdict; a stranger can execute it directly"}
+],
+"belt": "NONE",
+"belt_note": "no independent second-derivation script beyond the one seam_b.py computation; the arc itself frames this as a correction of its own sealed prereg (verify-don't-trust on itself), which is a form of internal check but not a distinct re-derivation.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A clean, reproducible own-code linear-algebra result about which sl2-holonomy stratum sees the 2T center; it explicitly downgrades its own sealed prediction from clean-MATCH to NUANCED-MATCH rather than banking the cleaner story, which is good discipline. No SM observable is touched."
+},
+
+{
+"arc": "B1147_clane_harvest",
+"source": "frontier/B1147_clane_harvest",
+"files_read": ["FINDINGS.md","arc_verdict.json","b1147_results.json","verification/c3_ladder.txt","verification/reproduce_all.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — the C-lane harvest: cloud seat memos 30-40 (origin/outside-bench dc937010) verified by reproduction, 11/11 certs (10 byte-identical + 1 clean run); load-bearing: memo 32 'no mass term' theorem, memo 34 PROJECTIVE<=>EVEN ORBIT (cross-checked by B1146), memo 36 third spin derivation. Plus a C3 large-ladder honest NEGATIVE (NOT-RECOGNIZED at N=4000).",
+"log_says": "memo 32/33/34/36/38-40 reproduce-verified 11/11 certs byte-identical on our pyenv; converges with B1146.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "11 memo certificates (cp1_strata, cusp_beat, jordan_beat, a2_glue64, a5_parity_lemma, b2_yukawa, a4_pin, c5_qp1, c1_weyl, c2_habiro, c2b_ohtsuki_bridge)", "where": "reproduce_all.sh references ./certificates/*.py and ../outputs/*_out.txt, and 'verification/reproduce.log' as evidence", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "None of certificates/, outputs/, or reproduce.log exist anywhere under this arc's committed directory or elsewhere in this checkout (git ls-files confirms only c3_ladder.txt and reproduce_all.sh are tracked); the actual cert code and baseline outputs live only on the remote branch origin/outside-bench, not merged into this tree. A stranger checking out this exact arc directory cannot run reproduce_all.sh — it fails immediately for lack of ./certificates. The FINDINGS.md's claim of 'reproduce.log, 10 REPRODUCES + 1 clean' is not backed by any committed file."},
+{"what": "C3 large-ladder run (N=400..4000, 120 dps, 19 rungs)", "where": "verification/c3_ladder.txt", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the raw numeric ladder values are committed and match the described magnitudes, but the generating script c3_ohtsuki_large.py is not present in this arc's files (not listed, not found) so the exact computation cannot be re-run from what is committed here, only the output data can be inspected"}
+],
+"belt": "UNCLEAR",
+"belt_note": "FINDINGS explicitly notes 'the load-bearing theorems (32/36) warrant a full independent own-code re-derivation as a promotion follow-up' — i.e. the arc itself admits it has not been independently re-derived, only reproduced against a baseline that is itself absent from the committed tree.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "reproduce_all.sh depends on certificates/ and outputs/ directories that are not committed anywhere in this arc (or found elsewhere in the repo); the 'reproduce.log' cited as evidence in FINDINGS.md does not exist in the tree.", "where": "frontier/B1147_clane_harvest/verification/reproduce_all.sh; FINDINGS.md 'Reproduce evidence' section"},
+{"kind": "GITIGNORED_WITNESS", "detail": "reproduce_all.sh writes its run output to '../our_${c}.out', which matches the repo-wide *.out gitignore pattern, so even a successful local run would not leave a committed trace", "where": "frontier/B1147_clane_harvest/verification/reproduce_all.sh"}
+],
+"seat_note": "The claimed '11/11 byte-identical reproduction' cannot actually be checked or reproduced from what is committed in this arc's own directory — the certs, baselines, and log all live off-tree on a different branch. The one thing genuinely inspectable (the C3 ladder numbers) is an honest negative and looks fine on its own."
+},
+
+{
+"arc": "B1148_carrier_harvest",
+"source": "frontier/B1148_carrier_harvest",
+"files_read": ["ADDENDUM_2026-09-01_chain_conventions.md","FINDINGS.md","arc_verdict.json","b1148_results.json","verification/reproduce_new.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — the carrier harvest: cloud memos 41-48 (origin/outside-bench d3c99640) verified by reproduction (8 certs); memo 45 the-only-spinor no-go, memo 46 the carrier Ψ=C²⊗27, memo 47/48 the Yukawa shape/uniqueness (6615→4→1 in memo 48's stated chain).",
+"log_says": "not in log (log_index null was not given for this arc; only prior entries found via grouped search, see log_says field content below)",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "memo 48 uniqueness chain 6615 -> 4 -> 1 for the trilinear coupling", "where": "FINDINGS.md lines ~20, 41-42 (memo 48 row and 'through-line' bullet)", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "the arc's own 2026-09-01 ADDENDUM (written by a prior fresh-physics-seat pass, same seat family as this audit) reports that an independent recompute (Ring R3 cell R22) found the middle rung of the FULL ordered tensor is actually 9, not 4 — '4' is only correct under memo 35's Sym³ convention, and the printed chain silently mixes the full-tensor convention (used for 6615 and 1) with the Sym³ convention (used for 4). The FINDINGS.md prose is not corrected."},
+{"what": "8 certificates (kappa_beat, fixed_twin, one_bit, only_spinor, hitind, carrier, yukawa_carrier, plus memo-48's uniqueness_chain)", "where": "verification/reproduce_new.sh, which explicitly states certs live only on origin/outside-bench @ d3c99640 and are 'NOT duplicated here'", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "the runner script itself documents that certificates/*.py and outputs/*_out.txt must be fetched from a different branch before it can run; nothing in this arc's committed tree lets a stranger execute the reproduction"}
+],
+"belt": "UNCLEAR",
+"belt_note": "the arc's own later addendum performed an independent recompute (R22) that reproduced the endpoints (6615 and 1) by four different methods, which is a genuine belt for those two numbers — but it also caught the middle-rung convention error, and that correction has not been folded back into FINDINGS.md or b1148_results.json.",
+"absence_claims": [
+{"quote": "B1148's certificates live only on `origin/claude/outside-bench @ d3c99640`; the π₁ action on the 27 is not defined in the committed tree.", "where": "frontier/B1148_carrier_harvest/ADDENDUM_2026-09-01_chain_conventions.md, 'Committed-tree fence' section"},
+{"quote": "`.gitignore` ignores `*.log` and `*.out` repo-wide, so none of those files can be committed under the names the runner gives them, and none is on any head. The '8/8 REPRODUCE' statement is therefore unwitnessed in the committed tree (E51 class).", "where": "frontier/B1148_carrier_harvest/ADDENDUM_2026-09-01_chain_conventions.md, second ADDENDUM (2026-09-01, later)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "GITIGNORED_WITNESS", "detail": "the arc's own addendum confirms *.log/*.out are gitignored repo-wide, so the '8/8 REPRODUCE' claim has no committed witness under any name the runner produces", "where": "frontier/B1148_carrier_harvest/ADDENDUM_2026-09-01_chain_conventions.md"},
+{"kind": "MISSING_WITNESS", "detail": "certificates/ and outputs/ are absent from the committed tree; the runner script says so explicitly", "where": "frontier/B1148_carrier_harvest/verification/reproduce_new.sh"},
+{"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md still states the chain as '6615 -> 4 -> 1' (memo 48 row and the 'through-line' section) though the arc's own addendum shows the honest full-ordered-tensor chain is 6615 -> 9 -> 1, and that '4' is only correct under a different (Sym3) convention silently swapped in mid-chain; FINDINGS.md and b1148_results.json are explicitly left unedited by the addendum's own admission.", "where": "frontier/B1148_carrier_harvest/FINDINGS.md lines ~20, 41-42, cf. ADDENDUM_2026-09-01_chain_conventions.md"}
+],
+"seat_note": "The endpoint theorem (a unique symmetric coupling) looks solid and was independently re-derived four ways per the addendum, but the widely-quoted '6615->4->1' headline mixes two different tensor conventions and the certs backing the '8/8 reproduce' claim are not in this committed tree at all — this is a genuinely load-bearing provenance gap the arc's own later audit already caught but has not fixed in place."
+},
+
+{
+"arc": "B1149_meridian_longitude_harvest",
+"source": "frontier/B1149_meridian_longitude_harvest",
+"files_read": ["FINDINGS.md","arc_verdict.json","b1149_results.json","verification/independent_check_memo49.txt","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — memos 49-51 (cusp meridian/longitude structure ties to the matter grading) verified by reproduction, rc=0 on 3/3 certs, plus an independent sympy cross-check of memo 49's trace-3 arithmetic.",
+"log_says": "3/3 self-contained stdlib-exact certs reproduce-verified rc=0, memo 49 independently sympy-confirmed.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "memo 49/50/51 certs (trace_three, depth_lock, longitude_lock)", "where": "verification/reproduce.sh, which states the certs live on origin/claude/outside-bench @ 1544989d and are NOT duplicated in this tree", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "same harvest pattern as B1147/B1148 — the runner script requires an external git fetch+checkout before it can execute; certificates/ and outputs/ are absent here"},
+{"what": "memo 49 trace-3 arithmetic (kappa minpoly x^2-3x+3, substitution charpoly x^2-3x+1, unification disc=9-4d)", "where": "verification/independent_check_memo49.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the sympy check is committed as plain output and its claims are checkable arithmetic (verified by inspection: minpolys and discriminants as stated); this is a genuine second, distinct-tool cross-check of the interpretively load-bearing arithmetic, even though the underlying certs are off-tree"}
+],
+"belt": "RE-READS",
+"belt_note": "the sympy check is a distinct-tool re-derivation of the core arithmetic fact (a real belt for that piece), but it does not touch the Jordan-type/longitude-lock claims (memos 50/51), whose certs are off-tree like B1147/B1148.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "certs trace_three/depth_lock/longitude_lock and their expected outputs are not in this committed tree; runner requires fetching origin/claude/outside-bench", "where": "frontier/B1149_meridian_longitude_harvest/verification/reproduce.sh"}
+],
+"seat_note": "The one arithmetic fact independently checked with a second tool (sympy) is solid; the two structural Jordan-type/longitude claims that build the 'matter = odd depth / +1 eigenspace' picture rest on certs this seat cannot see in the committed tree, so they carry the same off-tree provenance debt as the rest of the C-lane harvest series."
+},
+
+{
+"arc": "B1150_yukawa_clock_and_family",
+"source": "frontier/B1150_yukawa_clock_and_family",
+"files_read": ["FINDINGS.md","arc_verdict.json","verification/independent_check_memo53.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — memo 52 (unique Yukawa's support = the 7 sl2-allowed depth blocks, exhaustive) and memo 53 (E8 possibility-space: forced ε_family⊗Jordan-cubic three-family Yukawa; same-family couplings vanish), both reproduce-verified rc=0, plus an independent sympy joint-kernel check of memo 53's Fact 7.",
+"log_says": "2/2 certs reproduce-verified rc=0; memo 53's family=epsilon independently sympy-confirmed.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "memo 52/53 certs (depth-block Yukawa support; E8 possibility-space three-family construction)", "where": "not committed in this arc's directory (files list shows only FINDINGS.md, arc_verdict.json, b1150_results.json, and the two verification/*.txt/.sh files; no certificates/ present, same outside-bench pattern as B1147-B1149)", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "consistent with the harvest series pattern; the arc explicitly states certs are kept on the outside-bench source"},
+{"what": "the family invariant factor forced to ε (Levi-Civita) on sl3-invariants of 3⊗3⊗3", "where": "verification/independent_check_memo53.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "an independent sympy joint-kernel computation, distinct from the cert's own code, committed and checkable"}
+],
+"belt": "RE-READS",
+"belt_note": "same partial pattern as B1149: one interpretively central fact (memo 53 Fact 7) is independently re-derived; the E8 Fact 1-6 construction and memo 52's exhaustive depth-block computation are cited to off-tree certs.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "memo 52/53 certificates not present in this arc's committed tree (outside-bench pattern, per FINDINGS.md's own description of the harvest method)", "where": "frontier/B1150_yukawa_clock_and_family/FINDINGS.md, Discipline section"},
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "memo 53 identifies the E8 decomposition's 'fourth orthogonal A2 triplet' (a multiplicity-3 structure) with 'the three [fermion] families' — the arc itself flags this as possibility-space and 'E8 is NOT object-paid', but the naming still rests on a bare dimension match (3 copies of 27 <-> 3 families) with no independent argument that this A2 triplet is the SM family index.", "where": "frontier/B1150_yukawa_clock_and_family/FINDINGS.md, memo 53 row and Honest fences section"}
+],
+"seat_note": "The honest fencing here is good — the arc repeatedly states E8/'three families' is unpaid possibility-space, not a derived result — but the underlying identification of a multiplicity-3 root-lattice structure with the physical fermion generation count is exactly the type of bare numerical coincidence the seat's rules ask to flag, regardless of how carefully it is labeled."
+},
+
+{
+"arc": "B1151_gue_larget_superposition",
+"source": "frontier/B1151_gue_larget_superposition",
+"files_read": ["FINDINGS.md","arc_verdict.json","b1151_results.json","verification/c4_verdict.txt","verification/gue_analysis.py","verification/per_factor_gue.txt"],
+"files_sampled": ["verification/c4_zeros_L.txt","verification/c4_zeros_zeta.txt"],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — the preregistered single-GUE gate at T=3000 was NOT met (p=2.2e-85 vs GUE); density and mean-spacing gates passed; the discriminating per-factor computation shows the deviation lives in the merge (zeta_K=zeta*L(chi_-3) is a 2-fold GUE superposition), not in either factor.",
+"log_says": "T=3000, 5459 merged zeros (2468 zeta + 2991 L), preregistered gate NOT MET, deviation located in the merge per-factor computation; log flags an immaterial discrepancy (zeta zeros file has 2469 lines vs FINDINGS prose '2468').",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "5459 merged zeros, KS test D=0.13365 p=2.2e-85 vs GUE, D=0.15617 p=2.0e-116 vs Poisson", "where": "verification/c4_verdict.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "raw zero lists (c4_zeros_zeta.txt, c4_zeros_L.txt) are committed with matching line counts (2469 and 2991 lines, consistent with the stated 2468/2991 zeros modulo a one-line header/blank noted elsewhere as immaterial); the verdict file records the exact computation and a stranger could re-run the KS test against the committed raw data"},
+{"what": "per-factor KS: zeta alone D=0.0401 p=6.9e-4; L(chi_-3) alone D=0.0487 p=1.4e-6; merged D=0.13365 (~3x each factor)", "where": "verification/per_factor_gue.txt, verification/gue_analysis.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "gue_analysis.py is committed in full and operates on the committed raw zero files"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "the per-factor decomposition (gue_analysis.py) is a genuine second, discriminating computation on the same committed raw data, not a mere re-assertion of the headline gate result.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "This is a model example of an honest, reproducible negative — the raw zero data and analysis code are both committed, the preregistered gate failed as stated, and the follow-up diagnostic (locating the deviation in the merge) is itself computed rather than asserted. A statistical universality-class statement about a zeta function, correctly typed as STRUCTURAL with no SM value in play."
+},
+
+{
+"arc": "B1152_suite_cost_class",
+"source": "frontier/B1152_suite_cost_class",
+"files_read": ["FINDINGS.md","arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — a method/tooling arc harvesting cc3's 'cost' failure class (a lock never reached because the suite is too expensive to run); main-band audit of 1043 arc_verdict.json files found clean of the four drift classes cc3 found in its own band; adds a fast test-selection lane. No mathematics, Gate 5 n/a.",
+"log_says": "cc3's B8139 cost failure class harvested; main audited clean; cc3 later withdrew its own '73%/five failures' killed-run detail (adopted, B1152 corrected in place).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "main-band audit: 1043 arc_verdict.json files, 4 drift classes, all clean", "where": "FINDINGS.md, 'main-band audit' table", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "no script or witness file is committed in this arc showing how the 1043-file audit was actually run; the table is stated as a result with no attached artifact a stranger could re-execute"}
+],
+"belt": "NONE",
+"belt_note": "no verification/ directory exists for this arc at all (only 3 files total); this is a pure prose/tooling bank.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "the '1043 arc_verdict.json audited clean' claim has no committed script or output file backing it", "where": "frontier/B1152_suite_cost_class/FINDINGS.md, main-band audit table"}
+],
+"seat_note": "Pure engineering/process content (test-suite cost and tooling), correctly outside physics scope; the one numeric audit claim (1043 files clean) is asserted without a reproducible artifact, though the stakes are low since this is a meta-governance finding rather than a physics result."
+},
+
+{
+"arc": "B1153_peripheral_and_superposition",
+"source": "frontier/B1153_peripheral_and_superposition",
+"files_read": ["ADDENDUM_grade_note_R015.md","FINDINGS.md","arc_verdict.json","b1153_results.json","verification/independent_check_memo54.txt","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED — memo 54 (tr(ab^-1)=gal(kappa) is the Riley relation in disguise; full fixed locus = 3 points) and memo 55 (C4's honest B1151 negative closes positive as a 2-fold GUE superposition, D=0.024, 5.6x margin on the preregistered gate), both reproduce-verified, plus independent sympy check of memo 54.",
+"log_says": "2/2 certs reproduce-verified rc=0; memo 54 independently sympy-confirmed; later (Review 50) a codex-relayed language over-statement ('exact' in the memo-55 headline) was bounded/adopted, nothing withdrawn.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "memo 54 Part I/II identities (tr(ab^-1)+kappa=3+(tr a-2)(tr a+2); fixed locus z^2(z^2+12), 3 points)", "where": "verification/independent_check_memo54.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the sympy re-derivation is committed in full and its stated identities are checkable directly"},
+{"what": "memo 55 2-fold GUE superposition fit, D=0.02400 vs single-GUE 0.13359, 5.6x margin", "where": "FINDINGS.md memo 55 row; certs not committed in this arc (harvest pattern)", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "runs on B1151's own committed raw zero data per FINDINGS, but the fitting/statistical code itself is on the outside-bench source, not in this tree"}
+],
+"belt": "UNCLEAR",
+"belt_note": "memo 54 has a genuine independent sympy cross-check; memo 55 (the superposition fit) is not independently re-derived here, and this seat did not re-run the fit against B1151's committed raw zeros to confirm D=0.02400.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "the arc's own title and body (FINDINGS.md line 1: '...closes *positive* as the exact 2-fold GUE superposition...'; also line 25) still use the word 'exact' to describe the spacing-law fit, but ADDENDUM_grade_note_R015.md (adopting codex R015) explicitly states this headline word 'reads stronger than the shipped computation' and that the correct grade is 'a SURMISE-LEVEL model identification... not a theorem.' FINDINGS.md's own prose is not edited to reflect this; the progress log itself records this as 'adopted, nothing withdrawn' rather than a text fix.", "where": "frontier/B1153_peripheral_and_superposition/FINDINGS.md line 1 and line 25, vs ADDENDUM_grade_note_R015.md"}
+],
+"seat_note": "Memo 54's Riley-relation identity is solidly cross-checked with a second tool; memo 55's headline word 'exact' for the GUE-superposition fit is an acknowledged overstatement (per the arc's own later addendum) that still sits unedited in the FINDINGS title and body text a reader would see first."
+},
+
+{
+"arc": "B1154_seam_y",
+"source": "frontier/B1154_seam_y",
+"files_read": ["FINDINGS.md","arc_verdict.json","b1154_results.json","verification/discriminating_fact.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "PROVED (seam outcome MISMATCH) — codex's up-Yukawa=0 (cohomological emptiness) and this project's period-value disjointness (arithmetic non-overlap) are two independent walls, different logical type, both consistent with 'the object supplies structure, not the SM's values.'",
+"log_says": "SEAM-Y walked to MISMATCH on committed evidence; codex's primary derivation flagged off-branch/unversioned provenance debt, not leaned on; later (B1167/codex R017) that provenance debt was paid.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "codex's up-Yukawa=0 result (H^1(X,G_X)=0 forces the cup product to vanish)", "where": "FINDINGS.md and verification/discriminating_fact.txt cite it as 'on-branch codex/seat-r001, one-line claim + B774 structural cell'; the PRIMARY height-308 derivation is explicitly flagged as living at '~/oa-audit-seat/', which git reports is not a git repository", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "at the time this arc was banked, the load-bearing cohomological-vanishing claim rested on an off-branch, unversioned directory outside any git history; the arc explicitly does not lean on the details of that proof for its MISMATCH verdict (only on the 'kind' of obstruction, from the on-branch one-line summary + B774), which is a defensible hedge, but the underlying codex result itself was, at banking time, not independently reproducible from committed sources. Per the log, this specific debt was later paid (B1167/codex R017)."}
+],
+"belt": "UNCLEAR",
+"belt_note": "the MISMATCH verdict is argued to be robust to the unproven details of codex's off-branch derivation (it only needs the 'kind' of obstruction), which is a reasonable structural argument, but it is not an independent re-derivation.",
+"absence_claims": [
+{"quote": "codex's **primary** height-308 derivation (`YUKAWA_CUP_PRODUCTS_308`, `YUKAWA_EXACT_SPECTRUM_NO_GO` + verify scripts) is **off-branch and unversioned** — `~/oa-audit-seat/`, which `git` reports as \"not a git repository\".", "where": "frontier/B1154_seam_y/FINDINGS.md, 'Provenance debt' section"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A careful, honestly-hedged MISMATCH verdict that explicitly refuses to lean on an unversioned external claim and states so plainly; the reasoning that the verdict survives regardless of that proof's correctness is sound as stated, and the flagged provenance gap was later closed per the log."
+},
+
+{
+"arc": "B1155_seam_a",
+"source": "frontier/B1155_seam_a",
+"files_read": ["FINDINGS.md","arc_verdict.json","b1155_results.json","verification/gate_assessment.txt","verification/sqrt3_hinge.txt"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN (seam INDETERMINATE, leaning MISMATCH) — the sqrt3 hinge is a real finite/archimedean bridge over Q(sqrt-3), but the heterotic axiom does not (on banked evidence) collapse into the object's infinity-place; Gate 2 (cc3's full arithmetic-CS action) not satisfied.",
+"log_says": "Gate 1 satisfied, Gate 2 not; verdict INDETERMINATE leaning MISMATCH. A LATER arc in the same batch (B1156) reports: 'B1155's leaning MISMATCH WITHDRAWN — the a-priori MISMATCH... refuted (2 of 3 lenses)'.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+{"what": "sqrt3 hinge (zeta_12=(sqrt3+i)/2, zeta_12^2 = K generator, sqrt3 = 2*zeta_12 - i, Q(zeta_12)=K(sqrt3))", "where": "verification/sqrt3_hinge.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy computation, committed output, checkable directly"},
+{"what": "the 'leaning MISMATCH' argument (arith-CS is finite/torsion-valued, cannot reach the real transcendental Vol)", "where": "FINDINGS.md 'Why it leans MISMATCH' section, citing B1108/OA-C1045/OA-C1002", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "this argument is explicitly REFUTED (2 of 3 adversarial lenses) by the very next arc in this same packet, B1156, which shows the torsion-only conclusion held only by stipulating that 'arithmetic CS' is defined to be the finite row; B1155's own FINDINGS.md was not updated to remove or qualify this now-refuted leaning"}
+],
+"belt": "NONE",
+"belt_note": "the sqrt3 hinge computation is a real belt for that one fact; the 'leaning MISMATCH' argument has no belt and was subsequently overturned.",
+"absence_claims": [
+{"quote": "GATE 2 -- cc3's *full* arithmetic-CS action of m004 on ℚ(√−3): NOT satisfied (the missing gate). ... No unified computed Kim-style arithmetic-CS *action* invariant of m004 to set equal to codex's finite-place data.", "where": "frontier/B1155_seam_a/FINDINGS.md, 'The two gates' section"},
+{"quote": "codex's construction is off-branch (provenance debt)", "where": "frontier/B1155_seam_a/FINDINGS.md header"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "B1155's FINDINGS.md and arc_verdict.json still present the full three-point 'leaning MISMATCH' argument as standing project reasoning, but the very next arc in this packet (B1156_seam_a_gate2/FINDINGS.md) states explicitly: 'This arc sharpens B1155: it removes B1155's leaning MISMATCH... The a-priori MISMATCH is REFUTED (2 of 3 lenses)... B1155's 'leaning MISMATCH' WITHDRAWN' per the progress log. No addendum or correction note exists in B1155's own directory pointing a reader to B1156.", "where": "frontier/B1155_seam_a/FINDINGS.md 'Why it leans MISMATCH' section, vs frontier/B1156_seam_a_gate2/FINDINGS.md"}
+],
+"seat_note": "The sqrt3 hinge is a genuine, checkable arithmetic coincidence at the level of committed structure; the arc's own 'leaning MISMATCH' framing is stale by the project's own later account (B1156) and a reader landing only on B1155 would not know this without cross-referencing the next arc number."
+},
+
+{
+"arc": "B1156_seam_a_gate2",
+"source": "frontier/B1156_seam_a_gate2",
+"files_read": ["FINDINGS.md","arc_verdict.json","b1156_results.json","verification/archimedean_anchor.txt","verification/floor_adjudication.txt","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN (seam INDETERMINATE/FLOOR) — removes B1155's 'leaning MISMATCH' (refuted, 2 of 3 lenses: the torsion-only impossibility is a property of the finite mu_n truncation only, not the full/Arakelov-compactified arith-CS, which carries a real archimedean summand = Vol); MATCH is also not sealable; the seam is a precise specialist floor (extend Andersen-Hansen closed->cusped).",
+"log_says": "the a-priori MISMATCH REFUTED, a precise FLOOR reached via 10-agent adversarial workflow (WF-1); archimedean anchor re-verified own-code REPRODUCES.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "2*D(e^{i pi/3}) = 2.02988321281930725 = SnapPy Vol(4_1) to 15 digits", "where": "verification/reproduce.sh / archimedean_anchor.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained mpmath script committed in full, computes and prints the check with an explicit tolerance assertion; matches the printed committed output"},
+{"what": "the refutation of the a-priori torsion-only MISMATCH (2 of 3 adversarial lenses; Artin-Verdier truncation argument)", "where": "verification/floor_adjudication.txt (not individually re-read line by line beyond the FINDINGS.md summary)", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "this is a mathematical/literature argument (about Arakelov-compactified arithmetic CS carrying a real archimedean summand) rather than a standalone computation; FINDINGS.md summarizes the adjudication process (10 agents, adversarial refuters) but the underlying mathematical claim about Artin-Verdier duality and Arakelov compactification is not independently checked by this seat, only its process/provenance is documented"},
+{"what": "codex's finite-place datum (order-6 torsion phase exp(2pi i/6))", "where": "off-branch per FINDINGS.md, same provenance-debt pattern as B1154/B1155", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "explicitly flagged in the arc's own text as off-branch, not leaned on for the core refutation"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "the archimedean anchor is independently re-run and matches SnapPy to 15 digits — a genuine committed, reproducible numeric check.",
+"absence_claims": [
+{"quote": "This seat did **not** construct the Arakelov-compactified action (Gate 2 remains NEEDS-SPECIALIST) and did **not** re-run codex's off-branch ζ₁₂/dP₆ construction.", "where": "frontier/B1156_seam_a_gate2/FINDINGS.md, 'Fences' section"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "This is a good example of the project correcting its own prior arc (B1155) through an adversarial-workflow process rather than a single seat's assertion, with a real numeric belt for the one hard-computable fact (the Borel regulator = Vol identity); the remaining seam is honestly left as a specialist-grade open floor, not oversold as either MATCH or MISMATCH."
+},
+
+{
+"arc": "B1157_dynamics_null",
+"source": "frontier/B1157_dynamics_null",
+"files_read": ["ADDENDUM_B1158_convergence.md","FINDINGS.md","arc_verdict.json","b1157_results.json","verification/acyclicity_and_vol.txt","verification/firewall_null.txt","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "NEGATIVE — the infinity-place 'dynamical law' reading is STRUCTURAL RHYME (generic to any hyperbolic 3-manifold, no firewall crossing); the closed-Fried antecedent for cc3's B8142b reflection formula is REFUTED (H* is never acyclic, (h0,h1,h2) computed for m=0..5).",
+"log_says": "acyclicity refutation via invariant-line + half-lives-half-dies argument; corroborated by codex R011 (analytic k=2 boundary) and cc3 (independent from-scratch reproduction to n=40, withdrawing B8142b's numeric predictions).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "H*(m004; Sym^{2m}C^2) never acyclic, (h0,h1,h2) table for m=0..5", "where": "verification/reproduce.sh / acyclicity_and_vol.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained sympy/mpmath script, committed in full, symbolic Sym-power construction plus standard topology argument (half-lives-half-dies, Poincare duality); output matches the printed table"},
+{"what": "the Sym-power Ruelle factorization R_{rho(m)}(s) = prod R(s-j,sigma_j), reproduced to |diff|<=5e-18", "where": "FINDINGS.md, 'bank-grade' bullet", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "credited to cc3 (B8142) and stated as independently re-derived two ways by this seat, but the specific script for that numeric reproduction was not among the files read in this pass"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "three-way independent corroboration recorded in the addendum (this seat's invariant-line argument, codex R011's analytic boundary, cc3's from-scratch reproduction to n=40) — an unusually strong belt for a negative result.",
+"absence_claims": [
+{"quote": "`exact_check.py` in the B8142 toolchain crashes at line 39 (sympy **structural** equality on unsimplified entries — ρ(relator)−I is zero only after `sp.simplify`), so the \"exact ℚ(√−3) re-confirmation, not an SVD artifact\" claim is not backed by that file as shipped.", "where": "frontier/B1157_dynamics_null/FINDINGS.md, 'What is bank-grade vs specialist vs relayed' section"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "One of the stronger arcs in this batch: an honest negative (no dynamical law at the ∞-place) with its own reproducible computation, later corroborated by two independent seats using different methods, and it proactively surfaces a toolchain bug in a related arc's evidence rather than citing it uncritically."
+},
+
+{
+"arc": "B1158_cloud_wave2_harvest",
+"source": "frontier/B1158_cloud_wave2_harvest",
+"files_read": ["ADDENDUM_fence_note_R016.md","FINDINGS.md","arc_verdict.json","b1158_results.json","verification/harvest_checks.txt","verification/reproduce.sh"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "OPEN — a harvest/digest arc: (1) C4 exact-Gaudin-law closure of B1151's surmise-error hatch (falsified: leading-order unfolding remains the sole live suspect), (2) the E6->SO(10)xU(1) anomaly integer identity (27 anomaly-free, 16 alone anomalous, dark block exactly cancels it) with the 'dark sector required' headline explicitly quarantined as conditional, (3) the Habiro zeta_3 germ correction/mechanism.",
+"log_says": "harvest workflow (8 agents) digested cloud WAVE-2 + codex R009-R014; three survivors own-reproduced; two cross-seat convergences noted; later (Review 50 / addendum) codex R016 bounded B1158's universal-quantifier language.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "anomaly integer identity: grav^2-U(1)=0, U(1)^3=0, SO(10)^2-U(1)=0 for 27=16(+1)+10(-2)+1(+4); 16 alone anomalous (=16); dark block = -(16's) exactly", "where": "verification/reproduce.sh / harvest_checks.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained sympy-free integer arithmetic script, committed in full, output matches"},
+{"what": "Habiro zeta_3 germ coherence mechanism (coherence <=> p^r = 1 mod 3, transports uniformly)", "where": "FINDINGS.md item 3 and harvest_checks.txt", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the printed splitting-behavior table (p=5 inert f=2, p=7 split g=2, etc.) is in the committed harvest_checks.txt, but per the arc's own later addendum (R016) the universal claim ('at every level', 'transports uniformly') was checked only at p in {5,7}, r in {1,2}, Taylor order <=8 — narrower than FINDINGS.md's stated scope"},
+{"what": "C4 exact Gaudin-law KS test on the merged spectrum, D=0.02441 (approx banked 0.02400)", "where": "FINDINGS.md item 1, credited to cloud memo 68 + codex R009 corroboration", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "described as reproduced by 'the harvest verifier' and corroborated by codex R009, but no committed script for the exact sine-kernel rebuild is in this arc's files (reproduce.sh explicitly states this cell 'is cited, not re-run here')"}
+],
+"belt": "RE-READS",
+"belt_note": "the anomaly identity has a genuine committed re-derivation; the Habiro germ and Gaudin-law items are partially cited/partially bounded by a later addendum rather than fully independently re-derived in this arc's own tree.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "SUPERSEDED_UNMARKED", "detail": "FINDINGS.md's Habiro-germ section states the coherence mechanism 'transports uniformly (local v_pi=N at every level)', but the arc's own ADDENDUM_fence_note_R016.md (adopting codex R016) states this universal phrasing 'remains stronger than the shipped computation... proved only for p in {5,7}, r in {1,2}, Taylor order <=8' and that 'a universal statement still needs an all-level Habiro/local-ring argument'. FINDINGS.md's body text is not edited to narrow the quantifier.", "where": "frontier/B1158_cloud_wave2_harvest/FINDINGS.md, item 3 ('The Habiro ζ₃ germ'), vs ADDENDUM_fence_note_R016.md"}
+],
+"seat_note": "The anomaly-cancellation integer identity is a clean, self-contained, checkable fact and is properly fenced as conditional (the 'dark sector required' framing is explicitly quarantined); the Habiro-germ mechanism claim is honestly narrowed by a later addendum but the FINDINGS.md prose still reads as a universal statement, which is the same overclaim-not-walked-back pattern seen in B1153."
+}
+
+]
+}
