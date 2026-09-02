@@ -109,15 +109,15 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 
 ## OPEN_LATER (11)
 
-- **#10 B16_record_swap_status** (er/B16_record_swap_status/FINDINGS.md:63): B1026_the_one_involution exists only on origin/claude/new-session-qor5up (never on main); until harvested, 'exchange symmetry not derived from A1-A6' stands on main
+- **#10 B16_record_swap_status** (er/B16_record_swap_status/FINDINGS.md:63): B1026_the_one_involution exists only on origin/claude/new-session-qor5up; main carries a DIFFERENT arc under the number B1026 (ID collision, see cc3 relay ID_COLLISION); until harvested, exchange symmetry not derived from A1-A6 stands on main
 - **#11 B19_exchange_half_step_axiom_audit** (nge_half_step_axiom_audit/FINDINGS.md:33): same as #10 (B1026 on an unmerged head); B1050 projective wall does not derive it
 - **#39 B73_sl4_apoly** (frontier/B73_sl4_apoly/probe.py:20): an SL(4) symbolic family exists later (B89_sl4_symbolic_M4L, B58/B742 ambient Jacobian); whether it is 'the SL(4) trace map' B73 lacks is a definitional question
 - **#57 B83_sln_apolynomial** (ntier/B83_sln_apolynomial/FINDINGS.md:24): B742/B745's eps-extrapolated pinv route reached SL(4) (15x15); SL(5) principal component still not located numerically as far as the sweep shows
-- **#134 B199_metallic_exponent_law** (): B1039_phi_fixed_and_metallic_exponent and B1043/B1045 exist on another head (not on main); may supply the F_p point — unharvested
+- **#134 B199_metallic_exponent_law** (): B1039_phi_fixed_and_metallic_exponent, B1043, B1045 exist only on origin/claude/new-session-qor5up (main numbers B1039/B1043 name different arcs: ID collision); may supply the F_p point -- unharvested
 - **#154 B253_chirality_capability** (lity_capability.py:118 (Part B reason 2)): later cascade arcs (B565/B570 selection rules, B1145/B1146 fermion seat) build charge/fermion bookkeeping; none exhibits a dynamical 27 — claim stands, tracked
 - **#158 B262_t41_theory** (NDINGS.md:9 (also t41_theory.py:724-726)): B488/B489 later claim T[A_m]=U(1)^(2m-1) 'verified for m=1..8' (DGG-abelian) — whether computed or asserted there is what R36 could not tell; H1 laws verified
-- **#894 B1025_input_derivability** (FINDINGS.md, meta-deliverable): contradicted on an unmerged head: B1030_input_typing_audit (origin/claude/new-session-qor5up) finds ONE continuous dimensionless input remains (A2 = c = 6σ); on main B1025's 'none remains' stands uncorrected
-- **#908 B1030_input_typing_audit** (FINDINGS.md section 2): B1030 lives on origin/claude/new-session-qor5up; on main B1025's 'zero' stands (as #894)
+- **#894 B1025_input_derivability** (FINDINGS.md, meta-deliverable): contradicted on an unmerged head: B1030_input_typing_audit (origin/claude/new-session-qor5up) finds ONE continuous dimensionless input remains; main B1030 is a different arc (price-lock verification: ID collision), so main still carries B1025 "none remains" uncontradicted
+- **#908 B1030_input_typing_audit** (FINDINGS.md section 2): B1030_input_typing_audit lives only on origin/claude/new-session-qor5up (main B1030 = price-lock verification, ID collision); on main B1025 zero stands (as #894)
 - **#1186 B1140_the_64_organized** (INDINGS.md, 'Scope + conventions (held)'): discharged on origin/claude/outside-bench: memo 33 THE_64_GLUED + certificates/a2_glue64.py (theta a bracket-equivariant bijection sl3(S0)<->sl3(S1), 3<->3bar on the 54); seat reran it here, all checks True (R49); not yet on main
 - **#1207 B1162_mssm_debt_closure** (r/B1162_mssm_debt_closure/FINDINGS.md:54): check_charge_bracket.py exists on origin/codex/seat-r001 and the structure-genesis head; the seat re-ran cloud breaking_chains.py and susy_test.py on this bench (R47): both pass; B1162 D3/D5 stay cited-on-main, verified-here
 

@@ -1,2 +1,16 @@
 === q7_ledger_audit (seat rerun, 2400 s)
 executing B575 stages 0-3 (exact e6-in-gl(27) build, its own gates)...
+    build done in 78.3s
+    e6 basis: 78 matrices, 27x27, entries in B575's class K = Q(sqrt-3)
+
+==============================================================================
+B  THE BASE FIELD -- is B575's e6 basis actually defined over Q?
+==============================================================================
+     entries in the e6 basis                    : 56862
+     entries with a NONZERO sqrt(-3) component  : 0
+     OUTCOME: B-RATIONAL
+
+==============================================================================
+A  THE CENTROID -- rebuilding memo 161's stabilizer, then asking what memo 161 did not
+==============================================================================
+     stabilizer dimension (memo 161's seed 11)  : 28   [reproduces memo 161]
