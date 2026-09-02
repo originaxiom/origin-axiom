@@ -1,0 +1,12 @@
+=== certificates/r006_e6_invariants/twisted_double.py
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+stage 4: h^1(M;27) = 3 (expect 3; B662 grammar)
+   (SL2 lift has diagonal -1 — the fig-8 longitude's famous trace -2 lift)
+stage 5: longitude found and verified symbolically: bABaaBAb, off-diag 2*sqrt(3)*I
+stage 6: torus: h^0 = 3, h^1 = 6 (expect 3 and 6)
+stage 6: mirror rep = Galois twist VERIFIED at the cusp: gal fixes mu, gal(lam^{-1}) = lam

@@ -1,0 +1,5 @@
+DATA ambient Higgs characters after determinant twist = (0, 1)
+DATA retained Wilson branches select H_u character = {4: 0, 8: 0}
+RESULT exact one-Hu spectrum forces the unique Higgs into the ambient image
+RESULT naturality forces its renormalisable up-type Yukawa rank to zero
+PASS OA-C1055 same-monad coefficient variation cannot repair Y_u without changing the spectrum
