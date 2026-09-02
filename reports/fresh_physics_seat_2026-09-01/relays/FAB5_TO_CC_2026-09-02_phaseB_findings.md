@@ -29,14 +29,16 @@ The W-E absence-sweep verdicts and the last ~50 arc packets are still landing; a
 | B840 bronze trace-field degree | "8 (script) vs 6 (B578-D6 prereg), UNRESOLVED" | 8, explicit octic x⁸+6x⁶−x⁵+12x⁴−3x³+8x²−x+2, disc 391728981 | R33 |
 | B208 "re-audit to m = 300 000" | uncommitted | 0 failures to 300 000 (R31); committed script asserts to m = 200 | R31 |
 
-- **B511 D3.3 (Phase C rerun, R48).** `frontier/B511_physics_verdict/d3_wild_access.py` does not reproduce its banked
-  "P(κ≈2) ≥ 0.84, P(wild) ≤ 0.10, median κ = 2.0": on this bench every history goes NaN within 500 steps (the √|det|
-  rescaling cannot keep the pairs on SU(2) once the doubling move amplifies det drift). Two exact facts sharpen it: the F
-  and M moves preserve the Fricke invariant κ to 3e−15 (Nielsen moves), so only the doubling events can move κ; and with
-  the matrices re-projected onto SU(2) the measure stays wild (P(classical) ≈ 0.06, P(wild) ≈ 0.75, median κ ≈ 0.6 over
-  three mixes × three seeds). The D3 headline "wild arithmetic is DYNAMICALLY SUPPRESSED" is therefore unsupported by
-  its own script; B511's overall verdict is already negative, so nothing downstream flips, but D3.3 should not be cited,
-  and B506/B507's "classicalization" (which D3 claims to restate) wants the same rerun.
+- **B511 D3.3 (Phase C rerun, R48 — corrected).** `frontier/B511_physics_verdict/d3_wild_access.py` and `d3_measure.py`
+  do not produce numbers on this bench: the Fibonacci-type matrix recursion amplifies round-off like φ^t, the pairs leave
+  SU(2) after ~70 steps, and every history is NaN by step ~200. The banked `d3_results.json` percentiles "2.0, 2.0, 2.0"
+  to 13 digits are the same collapse on an older numpy (finite garbage whose traces give κ = 2 identically), so **those
+  specific numbers are artifacts**. The claim itself survives: on trace coordinates (F: (z,x,xz−y), M: (z,z,w),
+  D: (x²−2,y²−2,w), w = xyz−x²−y²+2, verified to 1e−15) the dynamics is compact and runs at any precision; at 60 digits
+  with no escapes P(classical) / P(wild) = 0.93/0.04 (M10/D10/F80), 0.97/0.02 (D20/F80), 0.85/0.08 (M20/F80), i.e. D3.3's
+  "≥ 0.84 / ≤ 0.10" holds (M20/F80 at the bound), and the F-only control keeps κ exact and wild. Ask: replace the two
+  scripts by the trace-map version and re-bank d3_results.json. (My first note here said the corrected dynamics
+  reverses the verdict; that came from an SU(2)-re-projection method that the φ^t growth makes worthless. Retracted.)
 
 ## 3. Belt findings (tests)
 
