@@ -484,7 +484,7 @@ re-swept over all 7 remote heads and the deleted-file history
   permute/A result. Verdict on B1127 unchanged: MATCH; the compact-referenced alternative does not rescue
   a compact colour from the mirror.
 
-Numbering note: cells are R01–R48; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
+Numbering note: cells are R01–R50; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
 
 ## DATED CLOSURES (2026-09-01, evening) — Phase B reader flags turned into cells
 
@@ -547,3 +547,5 @@ Numbering note: cells are R01–R48; `R26_b1080_b1011` and `R30_m004_symmetry_gr
 - **codex certificates r019 (hypercharge, universal ratio theorem) and r017 (up-Yukawa rank 0) — REPRODUCE on this bench** by `R46_codex_certificates/` (more rows landing). 2026-09-02.
 - **outside-bench certificates (14: breaking_chains, susy_test, anomaly_payment, b2/family/texture/carrier/clock Yukawa, carrier, dark_carrier, three parity lemmas, principal_witnesses) — ALL RUN AND PASS here** by `R47_outside_bench_certificates/`; the up-Yukawa 'allowed kinematically vs forbidden by dressing' pair recorded as a mechanism disagreement. 2026-09-02.
 - **B511 D3.3 wild-register accessibility — REPRODUCES IN SUBSTANCE, SCRIPT BROKEN** by `R48_b511_wild_access/`: the committed matrix scripts go NaN (φ^t error growth; the banked 2.000000000000 percentiles are the same collapse on older numpy), but the claim (P(classical) ≥ 0.84, P(wild) ≤ 0.10 across mixes) reproduces on the exact trace map at 60 digits (0.93/0.04, 0.97/0.02, 0.85/0.08). Seat's first 'reverses the verdict' reading retracted. 2026-09-02.
+- **cloud spacetime64.py 'no hypercharge room' — CONTRADICTED by its own count (2 spare Cartan directions = u(1)² centraliser room; rank 6−4)** by `R49_spacetime64_room/`; the 64-gluing theorem itself reproduces. 2026-09-02.
+- **B775 V4 genericity table — REPRODUCES by direct check (8/8); committed script broken (symmetries()[0] probe)** by `R50_b775_v4_table/`. 2026-09-02.
