@@ -118,10 +118,14 @@ def sweep_deleted(ts):
 def main():
     build_deleted_corpus()
     rows = list(csv.DictReader(open(os.path.join(SYN, 'absence_claims.tsv'), encoding='utf-8'), delimiter='\t'))
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
-    if limit: rows = rows[:limit]
+    # usage: sweep_batch.py [start] [end] [suffix]  -> sweeps rows[start:end], writes absence_sweep<suffix>.tsv etc.
+    start = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+    end = int(sys.argv[2]) if len(sys.argv) > 2 else len(rows)
+    SUF = sys.argv[3] if len(sys.argv) > 3 else ''
+    rows = [dict(r, _i=i) for i, r in enumerate(rows)][start:end]
     out_rows, leads, allrec = [], [], []
     for i, r in enumerate(rows):
+        i = r['_i']
         ts = terms(r['quote'])
         exclude = arc_dir(r['where'], r['arc'])
         if len(ts) < 2:
@@ -144,13 +148,13 @@ def main():
                          json.dumps(per_head, separators=(',', ':')), ' | '.join(top + ['DELETED:' + d for d in dl]) + (' | +%d catch-all' % echo if echo else ''), r['quote']))
         if status == 'LEAD':
             leads.append((r, ts, per_head, top, dl, len(subst)))
-        if i % 25 == 0: print('%d/%d  leads so far %d' % (i, len(rows), len(leads)), flush=True)
-    json.dump(allrec, open(os.path.join(HERE, 'absence_sweep_paths.json'), 'w'), indent=0)
-    with open(os.path.join(HERE, 'absence_sweep.tsv'), 'w', newline='', encoding='utf-8') as f:
+        if i % 25 == 0: print('%d/%d  leads so far %d' % (i, end, len(leads)), flush=True)
+    json.dump(allrec, open(os.path.join(HERE, 'absence_sweep_paths%s.json' % SUF), 'w'), indent=0)
+    with open(os.path.join(HERE, 'absence_sweep%s.tsv' % SUF), 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(['arc', 'source', 'where', 'terms', 'status', 'hits_per_head', 'top_paths', 'quote'])
         for row in out_rows: w.writerow([re.sub(r'\s+', ' ', str(x)) for x in row])
-    with open(os.path.join(HERE, 'absence_sweep_hits.md'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(HERE, 'absence_sweep_hits%s.md' % SUF), 'w', encoding='utf-8') as f:
         f.write('# W-E absence sweep — LEADS (co-occurrence hits outside the claiming arc; verdicts are the seat\'s, below each)\n\n')
         f.write('claims swept %d, leads %d, doc-echo (hits only in changelog/progress-log/claims-type catch-all files) %d, generic (>40 substantive files) %d, no-hit %d, unsweepable %d. Heads: %s. Deleted corpus: %s files.\n\n' % (
             len(rows), len(leads), sum(1 for r in out_rows if r[4] == 'DOC_ECHO'), sum(1 for r in out_rows if r[4] == 'GENERIC'), sum(1 for r in out_rows if r[4] == 'NO_HIT'), sum(1 for r in out_rows if r[4] == 'UNSWEEPABLE'),

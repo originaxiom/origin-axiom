@@ -1,0 +1,267 @@
+{
+ "batch": "arcs_041",
+ "arcs": [
+  {
+   "arc": "B646_wave2_integration",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "cc2_packets/ORIGINALS_MANIFEST.txt",
+    "cc2_packets/TRIAGE_INDEX_20260716.md",
+    "cc2_packets/residuals/level_ladder_campaign/PREREG_L7.md",
+    "cc2_packets/residuals/level_ladder_campaign/scripts/level7_run.py",
+    "cc2_packets/residuals/level_ladder_campaign/outputs/level7_readouts.json",
+    "cc2_packets/residuals/residuals_loop/PACKET_README.md",
+    "cc2_packets/residuals/residuals_loop/STATUS.md",
+    "cc2_packets/residuals/residuals_loop/r1_level7/FINDINGS_CC2.md",
+    "cc2_packets/residuals/residuals_loop/r2_injectivity/H_R2_SEALED.md",
+    "cc2_packets/residuals/residuals_loop/r2_injectivity/R2_ADJUDICATION.md",
+    "cc2_packets/residuals/residuals_loop/r3_peak/FINDINGS_CC2.md",
+    "cc2_packets/residuals/residuals_loop/r3_peak/lib_banked.py",
+    "cc2_packets/residuals/residuals_loop/r3_peak/r3_output.txt",
+    "cc2_packets/residuals/residuals_loop/r3_peak/r3_results.json",
+    "cc2_packets/residuals/residuals_loop/r4_resonance/FINDINGS_CC2.md",
+    "cc2_packets/residuals/residuals_loop/r4_resonance/explore_family.py",
+    "cc2_packets/residuals/residuals_loop/r4_resonance/r4_output.txt",
+    "cc2_packets/residuals/residuals_loop/r4_resonance/r4_predictions_SEALED.txt",
+    "cc2_packets/residuals/residuals_loop/r4_resonance/outputs/r4_results.json",
+    "cc2_packets/residuals/residuals_loop/r5_locks/FINDINGS_CC2.md",
+    "cc2_packets/residuals/residuals_loop/r5_locks/R5_FULL_DETAIL.md",
+    "cc2_packets/residuals/residuals_loop/r5_locks/proposed_locks_r5.py",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b394_identify_triple_rerun.txt",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b399_identify_1215_triple_rerun.txt",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b480_level_ratio.py",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b481_det_recompute.py",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b481_final_run.txt",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b482_b483_lambda_chain.py",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b492_verlinde.py",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b544_circle_map.py",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/b602_n2_rerun.txt",
+    "cc2_packets/residuals/residuals_loop/r5_locks/runs/quick_e1_check.py",
+    "cc2_packets/residuals/residuals_loop/r6_deepv/FINDINGS_CC2.md",
+    "cc2_packets/residuals/residuals_loop/r6_deepv/r6_gate.py",
+    "cc2_packets/residuals/residuals_loop/r6_deepv/r6_output.txt",
+    "cc2_packets/residuals/residuals_loop/r6_deepv/outputs/gate.json",
+    "cc2_packets/residuals/residuals_loop/r6_deepv/outputs/gate_stdout.txt",
+    "cc2_packets/next_queue/next_queue/PACKET_README.md",
+    "cc2_packets/next_queue/next_queue/SEALS.txt",
+    "cc2_packets/next_queue/next_queue/STATUS.md",
+    "cc2_packets/next_queue/next_queue/n1_counting/FINDINGS_CC2.md",
+    "cc2_packets/next_queue/next_queue/n1_counting/PREREG_N1.md",
+    "cc2_packets/next_queue/next_queue/n1_counting/ANALYSIS_NOTES.md",
+    "cc2_packets/next_queue/next_queue/n1_counting/n1_character.py (head+grep)",
+    "cc2_packets/next_queue/next_queue/n1_counting/n1_jeffrey_terms.py (head+grep)",
+    "cc2_packets/next_queue/next_queue/n2_clock_law/FINDINGS_CC2.md",
+    "cc2_packets/next_queue/next_queue/n2_clock_law/ADDENDUM_N2.md",
+    "cc2_packets/next_queue/next_queue/n2_clock_law/PREREG_N2.md",
+    "cc2_packets/next_queue/next_queue/n2_clock_law/n2_table.txt",
+    "cc2_packets/next_queue/next_queue/n2_clock_law/n2_clock_predict.py",
+    "cc2_packets/next_queue/next_queue/n2_clock_law/n2_su3_13_measure.py",
+    "cc2_packets/next_queue/next_queue/n3_fine_grid/FINDINGS_CC2.md",
+    "cc2_packets/next_queue/next_queue/n3_fine_grid/PREREG_N3.md",
+    "cc2_packets/next_queue/next_queue/n3_fine_grid/grid_table.txt",
+    "cc2_packets/next_queue/next_queue/n3_fine_grid/lib_banked.py",
+    "cc2_packets/next_queue/next_queue/n3_fine_grid/n3_output.txt",
+    "cc2_packets/next_queue/next_queue/n3_fine_grid/n3_results.json",
+    "cc2_packets/next_queue/next_queue/n4_receipt/FINDINGS_CC2.md",
+    "cc2_packets/next_queue/next_queue/n4_receipt/verify_b643_independent.py",
+    "cc2_packets/next_queue/next_queue/n4_receipt/verify_b644_independent.py",
+    "cc2_packets/next_queue/next_queue/n4_receipt/verify_b645_independent.py",
+    "cc2_packets/next_queue/next_queue/n4_receipt/runs/b643_bfamily_verbatim_rerun.txt",
+    "cc2_packets/next_queue/next_queue/n4_receipt/runs/verify_b643_independent_output.txt",
+    "cc2_packets/proof_queue/proof_queue/PACKET_README.md",
+    "cc2_packets/proof_queue/proof_queue/STATUS.md",
+    "cc2_packets/proof_queue/proof_queue/q1_level8/FINDINGS_CC2.md",
+    "cc2_packets/proof_queue/proof_queue/q1_level8/PREREG_Q1.md",
+    "cc2_packets/proof_queue/proof_queue/q1_level8/SEAL_Q1.txt",
+    "cc2_packets/proof_queue/proof_queue/q1_level8/level8_run.py",
+    "cc2_packets/proof_queue/proof_queue/q1_level8/outputs/level8_readouts.json",
+    "cc2_packets/proof_queue/proof_queue/q2_conductor/FINDINGS_CC2.md",
+    "cc2_packets/proof_queue/proof_queue/q2_conductor/PREREG_Q2.md",
+    "cc2_packets/proof_queue/proof_queue/q2_conductor/SEAL_Q2.txt",
+    "cc2_packets/proof_queue/proof_queue/q2_conductor/q2_conductor.py",
+    "cc2_packets/proof_queue/proof_queue/q2_conductor/q2_mechanism.py",
+    "cc2_packets/proof_queue/proof_queue/q2_conductor/q2_table.txt",
+    "cc2_packets/proof_queue/proof_queue/q3_proofs/ERRATUM_N1.md",
+    "cc2_packets/proof_queue/proof_queue/q3_proofs/FINDINGS_CC2.md",
+    "cc2_packets/proof_queue/proof_queue/q3_proofs/PROOF_SKETCH.md",
+    "cc2_packets/proof_queue/proof_queue/q3_proofs/SEAL_Q3.txt",
+    "cc2_packets/proof_queue/proof_queue/q3_proofs/jeffrey_decider.json",
+    "cc2_packets/proof_queue/proof_queue/q3_proofs/q3_decider.py",
+    "cc2_packets/proof_queue/proof_queue/q3_proofs/q3_lemmas.py"
+   ],
+   "files_sampled": [
+    "cc2_packets/residuals/residuals_loop/r3_peak/r3_peak_check.py (head 120 + grep def/assert)",
+    "cc2_packets/next_queue/next_queue/n3_fine_grid/n3_grid_check.py (head 120 + grep def/assert)",
+    "cc2_packets/residuals/residuals_loop/r6_deepv/outputs/fit_summary.json (head 40 + tail 20 + wc -l + grep)"
+   ],
+   "files_listed_only": [
+    "cc2_packets/residuals/residuals_loop/r4_resonance/r4_predictions_SEALED.sha256 (no .txt/.json twin needed to read -- it is itself the hash of the adjacent .txt, present)"
+   ],
+   "claim_of_record": "arc_verdict.json: verdict PROVED — claim_one_line: 'Three cc2 packets verified and banked — 11/11 seals rehashed, reruns reproduced, the corrected generic-silence law Z(kappa)=(1-(kappa|5))/2 adopted, one lead killed.'",
+   "log_says": "PROGRESS_LOG 2026-07-16 records B646 as the cc2 wave-2 integration (three sealed packets, processed ERRATUM-first); a later entry (B651, same day) explicitly corrects one of B646's own NOTICED rows ('the inert<=>even correlate DIED at r=23', a B646 dated-correction already present in this arc's own FINDINGS.md); REVIEW 21 (2026-07-17) flags this window's own independence limits ('reviewer = author for much of this window'); R28-9 (2026-07-23) notes this arc's own manifest locks caught an unrelated sweep bug — evidence the read-only hash-pinning is load-bearing and actually enforced.",
+   "log_consistency": "CONSISTENT — nothing in the log claims more than the arc's own files support; the log's own later corrections (B651's kill of the inert<=>even-sector NOTICED) are already folded into this arc's FINDINGS.md as a 'DATED CORRECTION' section, so no SUPERSEDED_UNMARKED gap between log and arc content.",
+   "load_bearing": [
+    {
+     "what": "Corrected generic-rung law Z(kappa) = (1 - (kappa|5))/2, 5 = disc(A1) (supersedes packet's flat 'kappa coprime => Z=+1')",
+     "where": "q3_proofs/ERRATUM_N1.md, PROOF_SKETCH.md L2, jeffrey_decider.json (Z(29)=0, Z(31)=0, Z(37)=+1)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "q3_decider.py is committed and its exact numeric output (jeffrey_decider.json, per-class contributions) is committed; a stranger can rerun it against n1_jeffrey_terms.py (also committed) and get the same three decisive values."
+    },
+    {
+     "what": "The Q3 L2/L3 lemma verifications underlying both banked laws: sector decomposition (chi-trivial sum, chi_5 sum) and the uniform jump law (300/300 exact)",
+     "where": "q3_proofs/q3_lemmas.py; cited results in PROOF_SKETCH.md and FINDINGS_CC2.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "q3_lemmas.py only prints to stdout (no JSON dump); its transcript would have lived in q3_lemmas.log, which the repo's own .gitignore excludes (*.log) and which is absent from the checked-out arc directory (confirmed: `find` returns no .log/.out files anywhere under this arc). A stranger can rerun the script and should get the same numbers (the script itself is exact/deterministic and committed), but the actual claimed 300/300 and sector-sum values are NOT independently checkable from a committed artifact today -- only from the prose recap in FINDINGS/PROOF_SKETCH."
+    },
+    {
+     "what": "N2 amended (stage-split) clock law: k=1/k=2 anomaly clauses, scoring 15/15 on k>=3 rungs",
+     "where": "next_queue/n2_clock_law/ADDENDUM_N2.md, n2_table.txt",
+     "kind": "FITTED",
+     "reproducible_from_committed": "yes",
+     "why": "The amendment was constructed AFTER seeing the verbatim rule's 7 mismatches (12/19), i.e. it is a post-hoc pattern extraction from failures, not derived independently -- classic overfitting risk. Mitigated: the amended rule's only true test (SU(3)_13, sealed BEFORE the build) was confirmed prediction-first (measured clock=12, dev 3e-49), and n2_clock_predict.py + n2_table.txt commit the pre-comparison printout, so the fit-then-confirm structure is itself auditable from committed files."
+    },
+    {
+     "what": "SU(3)_13 fresh-rung prediction-first hit (clock = 12, the amended clock law's only true test)",
+     "where": "n2_clock_law/n2_su3_13_measure.py; recapped in FINDINGS_CC2.md / ADDENDUM_N2.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "n2_su3_13_measure.py prints to stdout only (gate result + measured clock); its witness log (n2_su3_13.log, listed in ORIGINALS_MANIFEST.txt) is gitignored and absent from the repo. This is the single most load-bearing 'confirmed prediction-first' claim in the whole arc, and its raw execution transcript is not committed -- only the printed number, transcribed into prose."
+    },
+    {
+     "what": "Q2 mechanism: SU(3)_2 = rho_Fib (x) chi (chi order 4, correcting a sealed guess of 3); E6 k=2 = chi4 x chi3 x PSL(2,7)-3dim, clock = ord_PSL(2,7)(A1 mod 7) = 4",
+     "where": "q2_conductor/q2_mechanism.py; recapped in q2_conductor/FINDINGS_CC2.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "q2_mechanism.py prints to stdout only; its witness (q2_mechanism.log) is gitignored/absent, same gap as above. The script itself is exact (mpmath dps=50, elt_order_scalar with tight tolerance) and committed, so a stranger CAN rerun it, but cannot check the claimed output against anything already on disk."
+    },
+    {
+     "what": "Level-7 (kappa=19) discovery Z_7 = 2 and clock=36 equality (H-R2 prediction confirmed prediction-first)",
+     "where": "level_ladder_campaign/scripts/level7_run.py, outputs/level7_readouts.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full exact readouts (Z, tr_odd, order_float=36, 238 distinct magnitudes) are committed as JSON; the runner script is committed. Minor documentation defect (not a computation error): the script's own docstring still says 'Level-5 (kappa=17) run' though the code builds Level(7) and the PREREG/output both correctly say kappa=19 -- a leftover copy-paste header from an earlier level's template."
+    },
+    {
+     "what": "E6 level 8 (kappa=20) triple-prediction cell: Z_8=+1, clock=60 equality, sqrt5-only import",
+     "where": "q1_level8/level8_run.py, outputs/level8_readouts.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full exact readouts committed (Z=[1.0000000000000022, 2.7e-15], order_float=60, 536 distinct magnitudes with a Q(sqrt5) minpoly disc {2:10,5:3} pattern visible in ws_2K); prereg + seal hashes committed."
+    },
+    {
+     "what": "N4: independent verification of B643 (rank/nullspace over Q(sqrt-3)), B644 (mod-5 McKay table, 120/120), B645 (13-dial cross-ratios)",
+     "where": "n4_receipt/verify_b64{3,4,5}_independent.py + runs/",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "All three verification scripts are committed, self-contained, and use a genuinely different code path (sympy-exact over Q(sqrt-3), an independently rebuilt engine_v7 SU(3)_2 construction, and hand-rolled pure-Fraction arithmetic respectively) than the original B643/B644/B645 scripts; B643's run transcript is committed (verify_b643_independent_output.txt) and matches exactly."
+    },
+    {
+     "what": "R5 lock batch: 8 claims fully reproduced + locked (B602, B482, B483, B492, B481, B491, B412x2); B480 and two of B544's three headline figures UNREPRODUCIBLE, honestly reported, no lock forced",
+     "where": "residuals_loop/r5_locks/proposed_locks_r5.py, R5_FULL_DETAIL.md, runs/",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "proposed_locks_r5.py is a self-contained, committed script with inline exact recomputation for each claim and hard asserts (20/20 pass); the two UNREPRODUCIBLE items are stated as such with no assert emitted, rather than forced -- exemplary honesty, but it also means the ORIGINAL B480/B544 headline claims (from other arcs) remain unverified pending better source scripts."
+    },
+    {
+     "what": "R4: V2b resonance predictor lead killed on 8 fresh out-of-sample substitutions (both predictors sign-flip, |rho|<0.8)",
+     "where": "r4_resonance/r4_predictions_SEALED.txt (sha256 96c005cc..., predictions frozen before any cost computed), r4_output.txt, outputs/r4_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full sealed-prediction-then-compute discipline is visible end to end in one committed transcript (predictions written and hashed, then a SEAL BARRIER line, then costs computed) plus a machine-readable results JSON with every intermediate (Perron roots, matched levels, raw/normalized costs, Spearman rho/p)."
+    },
+    {
+     "what": "R6: deep-V (localized regime) tension differential NULL-EXTENDS (max 1.49 sigma, sign-unstable, control-indistinguishable)",
+     "where": "r6_deepv/{r6_gate.py, r6_sweep.py, r6_fit_verdict.py}, outputs/{gate.json, fit_summary.json, sweep_manifest.json}",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Gate check, sweep manifest, and full per-(V,N) fit table (a_C, a_O, Delta, Welch t/p, window-sensitivity) are all committed as JSON; this is an honestly reported negative/null result with the locked criteria and data both on disk."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No verification/ belt directory exists for this arc (has_verification_dir: false in the packet), but the arc's entire content IS a belt-style exercise: this seat (cc) independently re-hashed all 11 sealed files, reran the decisive deciders (Q3 lemma battery, N2 clock predictor, R5 locks, N4 receipts) and spot-checked Q1/level-8 readouts against disk, per the FINDINGS.md 'Verification performed on this seat' table -- itself sampled and confirmed consistent with the underlying scripts/data read above. This is re-reading/re-running committed cc2 artifacts, not a fresh from-scratch recomputation belt.",
+   "absence_claims": [
+    {
+     "quote": "Not independently rebuilt here: the level-7/level-8 exact enumerations (their pipeline, sealed + internally two-pipeline-verified 7/7; the k=8 exact-counts npz held on their seat, on request). Banked with that provenance stated.",
+     "where": "FINDINGS.md L26-29"
+    },
+    {
+     "quote": "B565-T5 precedent ... B544 -- FK ground state \"Sturmian 610/610 exactly\" and \"itinerary 99.95% Sturmian\": ... No FK Hamiltonian parameters ... or itinerary-comparison method are specified precisely enough to reimplement with confidence. VERDICT: UNREPRODUCIBLE (method underspecified). No assert emitted.",
+     "where": "residuals_loop/r5_locks/proposed_locks_r5.py L269-274 (NOT LOCKED section); same claim in R5_FULL_DETAIL.md #7"
+    },
+    {
+     "quote": "B480 -- level-ratio <r> = 0.16 at N=181,301: ... no script exists for this figure anywhere in the repo ... VERDICT: UNREPRODUCIBLE-WITHIN-BUDGET. No assert emitted.",
+     "where": "residuals_loop/r5_locks/proposed_locks_r5.py L258-267; R5_FULL_DETAIL.md #10"
+    },
+    {
+     "quote": "det_kill.py -- this file is missing from the repo (only wrt_tmatrix.py, Reading-2, survives).",
+     "where": "R5_FULL_DETAIL.md L73-74"
+    },
+    {
+     "quote": "B482 ... No single script computes the n=55/40dps limit itself (described in prose only).",
+     "where": "R5_FULL_DETAIL.md L23-24"
+    },
+    {
+     "quote": "B492 ... no script (FINDINGS.md: 'Reproducer: inline').",
+     "where": "R5_FULL_DETAIL.md L61-62"
+    },
+    {
+     "quote": "B544 ... No script in the directory.",
+     "where": "R5_FULL_DETAIL.md L112"
+    },
+    {
+     "quote": "B480_qca_dirac_lens ... qca_dispersion.py in that directory covers only the coin/dispersion (Q1) cell -- no script anywhere computes this specific figure.",
+     "where": "R5_FULL_DETAIL.md L173-175; b480_level_ratio.py docstring L3-4"
+    },
+    {
+     "quote": "two source scripts missing from disk",
+     "where": "TRIAGE_INDEX_20260716.md, Packet 1 R5 row; PACKET_README.md L13"
+    },
+    {
+     "quote": "B645 has NO PREREGISTRATION.md / ARTIFACT_HASHES.txt (B643 has both sealed+locked; B644 has both but unlocked).",
+     "where": "next_queue/n4_receipt/FINDINGS_CC2.md L25-27"
+    },
+    {
+     "quote": "B644's prereg/script hashes are asserted in FINDINGS prose only, not test-locked; agent verified them to match exactly today -- nothing catches future drift.",
+     "where": "next_queue/n4_receipt/FINDINGS_CC2.md L27-30"
+    },
+    {
+     "quote": "OUR bank carries no contaminated clock value (searched)",
+     "where": "FINDINGS.md L21 (re: the N2 'E6 k=4 clock = 36' mis-relay, MB13)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "q3_lemmas.py (the Q3 L2/L3 lemma verification: sector-sum decomposition and the 300/300 uniform jump law), q2_mechanism.py (the Q2 SU(3)_2/E6-k=2 character-blindness mechanism), and n2_su3_13_measure.py (the flagship SU(3)_13 prediction-first hit, clock=12) all print their results to stdout only, with no JSON/data dump. Their execution transcripts (q3_lemmas.log, q2_mechanism.log, n2_su3_13.log) are hashed in ORIGINALS_MANIFEST.txt as received but match the repo-wide *.log gitignore rule and are confirmed absent from the checked-out arc directory (`find ... -name '*.log' -o -name '*.out'` returns nothing). The claimed numeric outputs of these three scripts are therefore not independently checkable against any committed artifact -- only against the prose recap in FINDINGS_CC2.md/ADDENDUM_N2.md/PROOF_SKETCH.md.",
+     "where": "q3_proofs/q3_lemmas.py; q2_conductor/q2_mechanism.py; n2_clock_law/n2_su3_13_measure.py"
+    },
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "N2's amended (stage-split) clock law was constructed after observing which 7 of 19 rungs the verbatim H-R2 rule missed (12/19), i.e. the k=1/k=2 anomaly clauses are a post-hoc pattern extraction from the failure set, then declared to score 15/15 on the remainder. This is disclosed candidly ('CORRECTION LOGGED', the addendum is explicitly sealed before the one true test) rather than hidden, and the one genuine out-of-sample test (SU(3)_13) hit prediction-first -- but the law-fitting-to-failures structure itself is a standard overfitting risk that a single confirmed rung does not fully retire.",
+     "where": "next_queue/n2_clock_law/n2_table.txt, ADDENDUM_N2.md"
+    },
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "Nearly every number-theoretic 'law' in this arc (clock law, splitting law, generic-rung law, jump law) is validated only against the same closed object (the E6 Z-ladder / A_n level algebras built from a single golden matrix A1) via the object's own committed engine scripts. There is no external dataset or independent physical system against which these laws are checked; internal cross-pipeline agreement (e.g. Jeffrey vs B600 engine) is the closest thing to independence achieved, and this is disclosed as such ('the heavy enumerations rest on the sending seat's sealed two-pipeline identity').",
+     "where": "FINDINGS.md L120-125 (Honest status)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "level7_run.py's own docstring is a stale copy-paste header ('Level-5 (kappa=17) run') from an earlier level's template script, though the code correctly builds Level(7) matching PREREG_L7.md's kappa=19 and the committed readouts. Not a computational error, but a documentation-hygiene defect that could mislead a future reader auditing this exact file.",
+     "where": "residuals/level_ladder_campaign/scripts/level7_run.py L1"
+    },
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "The arc's absence-sweep on B480 and B544 shows those two ARCS' original headline claims (level-ratio <r>=0.16 at N=181,301; Sturmian 610/610; itinerary 99.95%) rest on no committed reproducer anywhere in the repo, and this arc's own from-scratch reimplementations either fail a basic consistency check (B480's quantization is not a faithful SL(2,Z/N) representation) or land 4-5 orders of magnitude off the claimed constant (B544's Omega* differs from the quoted figure from the 6th significant digit). This is a finding ABOUT other arcs (B480, B544), surfaced honestly here rather than about B646 itself, but it means those two original claims stand un-reproduced as of this integration.",
+     "where": "residuals_loop/r5_locks/R5_FULL_DETAIL.md items #7 and #10; runs/b480_level_ratio.py, runs/b544_circle_map.py"
+    }
+   ],
+   "seat_note": "The arithmetic content here is unusually well-instrumented for this kind of arc -- sealed pre-registrations, blind-then-compare protocols, an honestly self-caught erratum, and explicit non-forcing of unreproducible legacy claims (B480, B544) -- but it is pure number-theoretic/representation-theoretic structure on a single fixed golden matrix (A1, disc=5) with no measurable physical quantity or Standard-Model value anywhere in it; nothing here is OBSERVABLE physics. Three of the most load-bearing claims (the Q3 lemma verifications and the SU(3)_13 prediction-first hit that is repeatedly cited as the clock law's decisive test) have their actual execution transcripts excluded from the repo by the blanket *.log gitignore rule, leaving only prose transcription as the record a stranger could check them against."
+  }
+ ]
+}

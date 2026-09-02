@@ -47,12 +47,31 @@ i	arc	where	status	verdict	note
 48	B77_degree_rank_mechanism	frontier/B77_degree_rank_mechanism/FINDINGS.md:29-31	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py); spot-checked class: the claim is restated, nothing supplies the absent object
 49	B78_degree_rank_n5	frontier/B78_degree_rank_n5/FINDINGS.md:29-30	LEAD	NOISE	B153 later discusses degeneration, does not locate the rep
 51	B79_mn_table	frontier/B79_mn_table/FINDINGS.md:22-26	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py); spot-checked class: the claim is restated, nothing supplies the absent object
+52	B79_mn_table	frontier/B79_mn_table/FINDINGS.md:28-29	LEAD	CONSISTENT	B75 restates; n=4 spectra never located
+53	B80_sl4_adproof	frontier/B80_sl4_adproof/FINDINGS.md:24-25	LEAD	CONSISTENT	B70's own stalled script is the only hit
 55	B82_consolidation	frontier/B82_consolidation/FINDINGS.md:66	UNSWEEPABLE	CONSISTENT	B82's own verdict ('no physics here') — the seat's reading agrees
+57	B83_sln_apolynomial	frontier/B83_sln_apolynomial/FINDINGS.md:24	LEAD	OPEN_LATER	B742/B745's eps-extrapolated pinv route reached SL(4) (15x15); SL(5) principal component still not located numerically as far as the sweep shows
 58	B83_sln_apolynomial	frontier/B83_sln_apolynomial/FINDINGS.md:41-42	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py); spot-checked class: the claim is restated, nothing supplies the absent object
 59	B84_sl5_gauge_barrier	frontier/B84_sl5_gauge_barrier/FINDINGS.md:35	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py); spot-checked class: the claim is restated, nothing supplies the absent object
+60	B85_tower_lynchpin	frontier/B85_tower_lynchpin/FINDINGS.md:34-35	LEAD	SUPERSEDED	'numerical routes are DEAD' is negated by B742/B745 (B58_sl4 correction header): the pinv-ratio route converges at SL(4)
+61	B85_tower_lynchpin	frontier/B85_tower_lynchpin/FINDINGS.md:51	LEAD	SUPERSEDED	as #60
+62	B86_unification_synthesis	frontier/B86_unification_synthesis/FINDINGS.md:34	LEAD	NOISE	
+63	B86_unification_synthesis	frontier/B86_unification_synthesis/FINDINGS.md:45	LEAD	NOISE	
 64	B87_m3_genus	FINDINGS.md line 56-58 (2026-07-09 addendum)	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py); spot-checked class: the claim is restated, nothing supplies the absent object
+65	B87_m3_genus	FINDINGS.md line 61-63	LEAD	CONSISTENT	open edge restated (B69 novelty check)
+67	B96_geometry_invariants	FINDINGS.md line 33-34	LEAD	CONSISTENT	Sage unavailable on this bench as well; R33/R35 compute trace fields without it
 68	B96_geometry_invariants	FINDINGS.md line 34-35	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py); spot-checked class: the claim is restated, nothing supplies the absent object
+74	B106_dehn_filling_anatomy	FINDINGS.md D3	LEAD	CONSISTENT	P2W6-B106 re-examines, still open
+77	B109_trace_map_dynamics	LITERATURE_L5.md Task 4	LEAD	NOISE	
+78	B110_off_locus_sector	FINDINGS.md 'the answer' section	LEAD	CONSISTENT	B115 restates the empty off-locus sector at SL(3)
+79	B110_off_locus_sector	FINDINGS.md honest scope section	LEAD	CONSISTENT	
+80	B115_higher_generality	FINDINGS.md #5	LEAD	CONSISTENT	literature absence
+81	B115_higher_generality	FINDINGS.md #4	LEAD	CONSISTENT	
 82	B117_interleaving	FINDINGS.md 'Path 4' section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py); spot-checked class: the claim is restated, nothing supplies the absent object
+83	B119_mk_scalar_mechanism	FINDINGS.md 'the brave k=n attempt' section	LEAD	CONSISTENT	B95 is the source of the same negative
+84	B120_tower_determination	FINDINGS.md S3+S5 section (correcting a prior handoff's absence claim)	LEAD	CONSISTENT	self-correction (closed form exists once h=n counted; W4-017r/W5-017r use it)
+85	B122_W_symmetric_powers	FINDINGS.md, 'Not a wall-bypass' section	LEAD	CONSISTENT	B126/B129 restate the functorial wall
+86	B123_arithmeticity_m1	FINDINGS.md sec 'Status / honest scope', and probe.py docstring	LEAD	SUPERSEDED	as #87: W3-067 / B590 / B123 later compute invariant trace fields (a classifier in effect)
 87	B126_ladder_to_physics	probe.py docstring / FINDINGS.md sec 'Floor 1'	LEAD	SUPERSEDED	a trace-field classifier was later built: B771 cell W3-067 recovers invariant trace fields from scratch (b++ bundles), B590 s031_m3_sealing.py, B123 probe
 88	B135_lee_yang_m_specific	FINDINGS.md D3	LEAD	NOISE	speculation restates
 90	B138_s031_principal_lemma	frontier/B138_s031_principal_lemma/FINDINGS.md:5	LEAD	NOISE	
