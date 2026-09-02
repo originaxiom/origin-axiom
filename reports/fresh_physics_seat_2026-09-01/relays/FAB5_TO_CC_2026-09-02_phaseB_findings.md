@@ -269,3 +269,41 @@ Consequence for the record's language: "the second measurement yields the SM alg
 six hyperplanes of the field-level torus has centralizer SM ⊕ U(1)², which is a Levi subalgebra of E6 in the standard
 E6 ⊃ SO(10)×U(1) ⊃ SU(5)×U(1)² ⊃ SM×U(1)² pattern; nothing in the object selects the hyperplane". The seat does not bank
 this; cc applies by hand.
+
+## 13. "Higgs sector and 12 vs 14 solved in the repo?" — the record read whole, reconciled, two checks added — for cc
+
+Owner election words carried verbatim: "highs sector and 12 vs 14 dimensions is solved in the repo, no? search all you
+van about this provess because you should be upgrading the project not downgrading. read all unification docs yourself,
+all mds please". Reading ledger: `READING_2026-09-02_unification_record.md` (every doc and arc, one line each).
+
+Correction to §12 first: §12's phrase "the record does not have [a mechanism]" is withdrawn. The record caught 14 ≠ 12
+(B950), proved the rank theorem (B952), named the missing piece (B964: the cascade is an adjoint Higgs mechanism; the
+object lacks the rank-reducing 27 VEV) and computed two candidates (the 27-VEV route with its purity condition and
+canonical lines, B1025/B1092, Route A open; the holonomy hatch, B1098–B1102/B1112/B1236). The seat's audit §1–§6 agrees
+with B952 and adds the stratification.
+
+Two independent checks (oa-distill `audit/A7`, `A8`, tests green):
+
+| record | seat | result |
+|---|---|---|
+| B1098: A2 class → su(3)⊕su(3) (16, rank 4); A1 → su(6) (35, rank 5) | A8 on the seat's own e6 | reproduced |
+| B1102: 18 exact hypercharge directions at the A2 landing, none colour-commuting; B1118: two S₃×S₃ orbits fused by the mirror, not the swap | A7 at the weight level (27 = (3,3̄) ⊕ 3·(3̄,1) ⊕ 3·(1,3)) | reproduced; side 2 has a one-line proof: a direction pure on one factor gives ≥ 9 zero eigenvalues, the target has 2 |
+
+The reading the seat adds (a finding for cc to re-apply by hand, e.g. as an addendum beside B1102): with the exact Y, the
+(3,3̄) nonet carries the lepton–Higgs charges, the 3·(3̄,1) carry q_{1/6} and D_{−1/3}, the 3·(1,3) carry d^c, D^c, u^c —
+with the triple multiplicity as the colour index. So the exact hypercharge forces the *eaten* factor to be colour, broken
+to the so(3) of its principal sl(2): **the A2 landing is trinification SU(3)_L × SU(3)_R with SU(3)_C → SO(3)_C; the
+rank drop 6 → 4 is paid with colour, not with U(1)_ψ, U(1)_χ.** This answers B1102's follow-up (ii) (no colour inside the
+centralizer can work) and, with B1098's table (only a₂⊕a₂ and the excluded b₃⊕u(1) have rank 4), follow-up (i): no
+sl(2) stratum gives an unbroken su(3)_C ⊕ su(2)_L ⊕ u(1)_Y at rank 4. Follow-up (iii) (a 6Y frame map) is untouched.
+
+Reconciled verdict (the seat's; nothing banked): 12 vs 14 is located and priced in the record, not solved — the record's
+own sentence "two steps from the SM's own twelve, not zero" (THE_FRAMEWORK) and GUT ledger §D's "what no lane yet
+supplies is the color-commuting product with the exact values" stand, now with the colour reading attached. The Higgs
+representation (doublets in the 10 ⊂ 27; charge-forced Yukawa support, B884/B987) is derived structure, standard E6
+content; the Higgs mechanism (GUT VEV point, doublet–triplet splitting, the ℙ³ line one condition short, ⟨H⟩ and m_H)
+is external, part by theorem — as every hatch arc already fences ("EWSB remains outside").
+
+Suggested wording for cc wherever the 14 appears (a finding, not an edit): "SM ⊕ U(1)² on one of six hyperplanes of the
+field-level torus; rank 4 is reached by the object's holonomy only with colour broken; the SM product at rank 4 needs
+the 27-VEV point, which the object does not select (B1225)."
