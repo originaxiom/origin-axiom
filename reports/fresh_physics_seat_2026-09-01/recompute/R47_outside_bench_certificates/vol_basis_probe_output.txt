@@ -31,3 +31,11 @@ RESULT CONTROL (25-entry basis): cells=216 raw=117 involves_V=117 involves_regul
   60/216  raw=12  reg=0
   72/216  raw=12  reg=0
   84/216  raw=12  reg=0
+  96/216  raw=12  reg=0
+  108/216  raw=13  reg=0
+  120/216  raw=24  reg=0
+  132/216  raw=36  reg=0
+  144/216  raw=37  reg=0
+  156/216  raw=48  reg=0
+  168/216  raw=60  reg=0
+  180/216  raw=72  reg=0

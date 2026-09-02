@@ -2,7 +2,7 @@
 
 Distinct claims swept: 1535 of 1535 in synthesis/absence_claims.tsv (sweep rows 1976; 441 rows are duplicates caused by the index shift, see `sweep_index_map.tsv`). Status by claim: DOC_ECHO 57, GENERIC 187, LEAD 1067, NO_HIT 167, UNSWEEPABLE 57.
 
-Verdicts (per distinct claim): 1124 — CONSISTENT 553, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 90, GENERIC 29, STANDS 16, OPEN_LATER 11, CONTRADICTED 3.
+Verdicts (per distinct claim): 1124 — CONSISTENT 553, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 89, GENERIC 29, STANDS 17, OPEN_LATER 11, CONTRADICTED 3.
 
 Verdict key: CONTRADICTED = the repo already holds what the claim says is absent (the claim is wrong as written); SUPERSEDED = a later arc supplied it (the claim was true when written, stale now); OPEN_LATER = supplied only on an unmerged head, or the later work is unverified; STANDS / CONSISTENT = the sweep found nothing that supplies it (STANDS when the seat also checked directly); NOISE = co-occurrence only; GENERIC = terms too common for the sweep to say anything; REGISTRY_ECHO = only index/ledger files echo the claim. DOC_ECHO / NO_HIT rows carry no verdict: the sweep found no text outside catch-all files, so the claim stands as far as the repository text goes.
 
@@ -14,7 +14,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1243 B1191_close_loop_batch3** (ication/batch3_cells.json GC-15 evidence): tests/test_b279_spin_structure_bit.py exists on main, so "F3 ... has ZERO test coverage anywhere in the repo" is false as stated; whether that file locks the spin-vs-orientation bit is a separate question
 - **#1498 B8141_artifact_dependence** (DINGS.md:Deliberately not in the finding): both files exist on the structure-genesis head: frontier/B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md and frontier/B8090_cold_audit_f1/relays/CC3_TO_CC_2026-08-19_I_WAS_WRONG_THE_REAL_DEFECT.md; "absent" held only on the head B8141 looked at
 
-## SUPERSEDED (90)
+## SUPERSEDED (89)
 
 - **#20 B58_phaseA** (B58_phaseA/B62_STATUS.md:16): B742/B745 (2026-07-21) computed the ambient SL(4) Jacobian and reproduce B59's factorisation; B58's 'not derived here' is negated by its own correction header
 - **#25 B58_sl4_tower_test** (ower_test/FINDINGS.md, 'Verdict' section): B58_sl4_tower_test correction header: headline negated by B742+B745
@@ -60,7 +60,6 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1048 B1119_anomaly_resolved** (FINDINGS.md Fences): B1125_compact_color answered it: NO-COMPACT-HOST (typed negative, PROVED) — the object supplies the colour algebra, compactness is external
 - **#1109 B1054_review_one** (GS.md 'What it found in the advancement'): docs/LAW_MAP.md now has "## G. The programme's method-laws (findings about the record-machine itself)" (l.247); B1181 registers a method-law row there
 - **#1197 B1155_seam_a** (frontier/B1155_seam_a/FINDINGS.md header): B1162 claim_one_line: the height-308 witness is "now DUAL-HOMED (codex off-branch + main-sage)"; the provenance debt as of B1155 is discharged for the witness, the codex construction itself stays cited
-- **#1212 B1165_gravity_terminal** (ty_terminal/FINDINGS.md (Fences section)): B1181 closes it: 83/83 amphichiral by the mirror-isometry method, "deliberately NOT the isometry_signature route"
 - **#1214 B1167_seat_harvest** (/B1167_seat_harvest/b1167_results.json:8): as #1197 (B1162 dual-homing of the witness)
 - **#1225 B1177_instrument_bundle** (B1177_instrument_bundle/FINDINGS.md:24): B1207: the first-ever complete OA_SLOW run finished (4 h 45 min; 9 failed / 5702 passed / 5 skipped) and the nine are triaged there
 - **#1226 B1177_instrument_bundle** (nt_bundle/ADDENDUM_measurements.md:10-12): as #1225 (B1207 records the completed run)
@@ -121,7 +120,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1186 B1140_the_64_organized** (INDINGS.md, 'Scope + conventions (held)'): discharged on origin/claude/outside-bench: memo 33 THE_64_GLUED + certificates/a2_glue64.py (theta a bracket-equivariant bijection sl3(S0)<->sl3(S1), 3<->3bar on the 54); seat reran it here, all checks True (R49); not yet on main
 - **#1207 B1162_mssm_debt_closure** (r/B1162_mssm_debt_closure/FINDINGS.md:54): check_charge_bracket.py exists on origin/codex/seat-r001 and the structure-genesis head; the seat re-ran cloud breaking_chains.py and susy_test.py on this bench (R47): both pass; B1162 D3/D5 stay cited-on-main, verified-here
 
-## STANDS (16)
+## STANDS (17)
 
 - **#14 B24_anyon_quantum_bridge** (er/B24_anyon_quantum_bridge/README.md:19): 5 -> k+2 identification is a numerology B24 itself declines; no arc derives it
 - **#15 B24_anyon_quantum_bridge** (/B24_anyon_quantum_bridge/FINDINGS.md:16): as #14
@@ -134,6 +133,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1002 B1067_rayclass_harvest** (FINDINGS.md, census gap-list): never computed in the repo; checked here: PARI bnfinit(x^2-x-1).no = 1, qfbclassno(5) = 1
 - **#1003 B1067_rayclass_harvest** (FINDINGS.md, census gap-list): no Dedekind-zeta special value of Q(sqrt5) anywhere; not computed here either
 - **#1004 B1067_rayclass_harvest** (FINDINGS.md, census gap-list): checked here: PARI bnfinit(x^2-x-1).fu = -phi (a fundamental unit up to sign); the repo never proves minimality
+- **#1212 B1165_gravity_terminal** (ty_terminal/FINDINGS.md (Fences section)): the worry was right twice: B1181 "closes" it with M.is_isometric_to(mirror), which SnapPy answers True for every orientable manifold (orientation-reversing isometries allowed); by symmetry_group().is_amphicheiral() + the CS obstruction, 74 of the 112 family members (43 of 77 all-regular) are chiral, incl. B1181 spot-check o10_150700 (CS=-1/12) -- R51
 - **#1546 B449_forcing_boundary** (FINDINGS.md item 1): true independently: 5_2 has Alexander polynomial 2t^2-3t+2, non-monic, hence not fibered
 - **#1682 B571_day0_internalization** (REPORT.md item A1): no tests/test_b507*.py on any head (checked all 7 remote heads)
 - **#1727 B595_dictionary** (DICTIONARY.md row 7 / FINDINGS.md D4): B650 later proves it at the linear level: the exact Sylvester solve gives T=0 uniquely (no nonzero monodromy-equivariant linear map)
