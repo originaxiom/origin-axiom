@@ -1,0 +1,212 @@
+{
+ "batch": "arcs_046",
+ "arcs": [
+  {
+   "arc": "B662_successor_campaign",
+   "source": "main",
+   "files_read": [
+    "CAMPAIGN_PREREGISTRATION.md",
+    "CAMPAIGN_SYNTHESIS.md",
+    "WAVE1_FINDINGS.md",
+    "WAVE2_FINDINGS.md",
+    "WAVE3_FINDINGS.md",
+    "cellF/FINDINGS_CELL.md",
+    "cellF/cellF_output.txt",
+    "cellF/g_certificate.json",
+    "cellB/cellB_output.txt",
+    "cellB/qblock_78.json",
+    "cellC/FINDINGS_CELL.md",
+    "cellC/cellC_output.txt",
+    "cellC/sigma_matrix_golden.json (partial)",
+    "cellD/PROOF_NOTE.md",
+    "cellD/cellD_descent_data.json",
+    "cellD/cellD_output.txt",
+    "cellD/inspect_galois.py",
+    "cellD/inspect_galois_output.txt",
+    "cellH/FINDINGS_CELL.md",
+    "cellH/cellH_output.txt",
+    "cellH/cellH_output_run1_controlfail.txt",
+    "cellH/cellH_post_output.txt",
+    "cellH/massey_post.py",
+    "cellA/PROOF_NOTE.md",
+    "cellA/cellA_output.txt",
+    "cellI/FINDINGS_CELL.md",
+    "cellI/cellI_output.txt",
+    "cellE/cellE_output.txt",
+    "cellE/cellE_verdict.json",
+    "cellE/golden_canonical.json (not directly opened; content mirrored in cellE_output.txt)",
+    "cellG/FINDINGS_CELL.md",
+    "cellG/cellG_output.txt",
+    "cellG/cellG_output_run1.txt (tail only)",
+    "cellG/l100_results.json (keys + decisive fields)"
+   ],
+   "files_sampled": [
+    "cellF/l104_decider.py",
+    "cellC/l103_repair.py",
+    "cellD/verify_equivariance.py",
+    "cellH/massey_first.py",
+    "cellA/verify_l101.py",
+    "cellI/gamma5_map.py",
+    "cellE/l102_canonical.py",
+    "cellG/l100_period.py"
+   ],
+   "files_listed_only": [
+    "cellB/qblock_78.py",
+    "cellE/silver_canonical.json"
+   ],
+   "claim_of_record": "no verdict file (no arc_verdict.json or top-level FINDINGS.md; CAMPAIGN_SYNTHESIS.md's 9-row table is the closest analogue: A PROVEN, B CONFIRMED(0,6,0,6), C REPAIRED, D PROVEN, E BLOCK-DIAGONAL, F CONVENTION, G CERTIFIED P=175560, H THE MASSEY WALL, I EXACT CORRESPONDENCE / candidate functor)",
+   "log_says": "PROGRESS_LOG.md tracks the campaign wave-by-wave, matching the banked synthesis closely: Wave1 'five cells banked (L101 PROVEN; the subfield THEOREM; L102/L103 resolved)'; Wave2 'L104 CONVENTION; the exact period 175560; THE MASSEY WALL'; Wave3 'THE EAR IS THE GAMMA5'-DOUBLET'; later entries (B667, B668, B677, VERIFY-M, B741) cite B662 cells as settled facts (L104 CONVENTION dissolving the δ_CP chain; cellG P_min=175560 certificate re-runnable) without contradiction.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "L101: (i1,i2)=(1,3) metallic-uniformity theorem for the whole family, verified 30/30 exact on both banked objects (fig-8, silver)",
+     "where": "cellA/PROOF_NOTE.md; cellA/verify_l101.py; cellA/cellA_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "verify_l101.py is committed, runs on committed banked data (B637/B649 machinery), full log persisted; the family-uniformity claim beyond the two banked members rests on cited standard theorems (Thurston hyperbolization, Weyl complete reducibility) which is honestly flagged as [CITED] in the proof note, not a gap in the two-object computation."
+    },
+    {
+     "what": "CELL B: (h0,h1)=(0,6) on adjoint 78, confirming the reduction on a third module",
+     "where": "cellB/cellB_output.txt; cellB/qblock_78.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "full run log + machine-readable JSON persisted; gates checked in-script (Ad(g)Ad(g^-1)=I, per-block sums match full-78)."
+    },
+    {
+     "what": "L103: sigma_matrix_golden.json persisted; laws (sigma*^2=id, conj(M).M=I) verified",
+     "where": "cellC/FINDINGS_CELL.md; cellC/sigma_matrix_golden.json; cellC/l103_repair.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "matrix, script, and log all persisted; this cell explicitly says a prior computation (B638) existed but was never persisted -- a genuine persistence-gap repair, not a new derivation from scratch."
+    },
+    {
+     "what": "L103 cross-check vs B660/S4 evaluator at the invariant level",
+     "where": "cellC/FINDINGS_CELL.md lines ~134-156",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "the FINDINGS text itself states 'A re-run of the S4 evaluator itself is blocked in-repo: it requires cell3_double/stage1_classes.pkl from the seat workdir (not in the repo); the sealed exact output is the S4 side of record' -- a stranger cannot rerun this half of the comparison from committed files alone."
+    },
+    {
+     "what": "CELL D: chord data (Y-tensor, sigma*-matrix) is defined over k(Gamma) -- subfield law upgraded LAW to THEOREM for the two banked objects",
+     "where": "cellD/PROOF_NOTE.md; cellD/verify_equivariance.py; cellD/cellD_output.txt; cellD/cellD_descent_data.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "seven lemma-gates (P0-P5) each verified exactly with Fraction arithmetic in a committed script against committed banked inputs (entries_L.json etc, hashes given); note the note itself distinguishes proven-for-two-objects vs 'general mechanism (route, not theorem)' for arbitrary members -- honestly scoped."
+    },
+    {
+     "what": "CELL E: silver portal is block-diagonal in canonical boundary-restriction decomposition (P(B)=B* on both objects)",
+     "where": "cellE/cellE_verdict.json; cellE/cellE_output.txt; cellE/l102_canonical.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "full run log with exact values persisted, golden control reproduces the banked block-diagonality, silver portal cross-checked against banked silver_portal.json ('MATCH')."
+    },
+    {
+     "what": "CELL F: L104 CP question resolved as CONVENTION -- explicit g exhibited (the wave-1 sigma matrix itself, K-linear) with (Lambda^3 g).Y = Ybar; single GL(5,K)-orbit theorem for the generic trivector type",
+     "where": "cellF/FINDINGS_CELL.md; cellF/l104_decider.py; cellF/g_certificate.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "two independent explicit g's verified exactly, all Fraction arithmetic, full log and JSON certificate persisted (both g's shown, det, conj(g).g=I check); the underlying theorem (generic trivector = single orbit) is proved inline (Darboux normal form argument) in the FINDINGS text, not merely asserted."
+    },
+    {
+     "what": "CELL F consequence: 'the delta_PMNS chain terminates -- no prediction exists'",
+     "where": "WAVE2_FINDINGS.md line ~20; CAMPAIGN_SYNTHESIS.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this is an interpretive/scoping claim built atop the CONVENTION verdict (the bare 3-form carries no CP obstruction) -- it depends on prior framework claims (that delta_PMNS was to be read off this 3-form) that are outside this arc's files; the arc itself is honest that 'any forced CP-like fact must live where the acting group is smaller' (an open door), so the 'terminates' language is a strong summary of a structural non-result, appropriately flagged as an absence claim below."
+    },
+    {
+     "what": "CELL G: exact minimal period P=175560 of the E6 Z-ladder melody, closed form = exponent of the discriminant group",
+     "where": "cellG/FINDINGS_CELL.md; cellG/l100_period.py; cellG/l100_results.json; cellG/cellG_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "12/12 gates in a committed script against committed banked inputs (jeffrey_terms.json, p1_certificates.json); l100_results.json is a full machine-readable certificate (130 supported q values, exact Q(sqrt5)-coefficients, SNF divisors, minimality witnesses) checked directly (P_min=175560, factorization {2:3,3:1,5:1,7:1,11:1,19:1})."
+    },
+    {
+     "what": "CELL H: the triple-Massey layer on the golden double is empty (undefined on solo-index triples / full indeterminacy elsewhere) -- 'the fourth wall'",
+     "where": "cellH/FINDINGS_CELL.md; cellH/massey_first.py; cellH/cellH_output.txt; cellH/massey_post.py + cellH_post_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "massey_post.py is an independent re-derivation that parses the raw text log (not hand-transcribed) and recomputes rank/kernel/radical of MV0 and PL with sympy -- this is a genuine independent belt check, and its numeric output (rank(MV0)=4, kernel dim 1, PL=-PR^T, full indeterminacy 5x5 table) matches the FINDINGS claims exactly."
+    },
+    {
+     "what": "CELL H CORRECTION: B660/S4's 'solo-triple block EXACTLY ZERO' was BASIS-LOCAL, not basis-invariant",
+     "where": "cellH/FINDINGS_CELL.md (\"CORRECTION (honest, propagated)\")",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit correction of a prior claim from a different arc (B660), with the invariant content re-derived and shown to transport; this is a positive example of a correction that IS propagated, contrasting with any places a correction might be silently missed elsewhere."
+    },
+    {
+     "what": "CELL I: the ear's hearing representation IS the Gamma5'-doublet 2-hat' (exact character equality, 9 classes); weight-5 forced via E8-exponent / McKay mechanism",
+     "where": "cellI/FINDINGS_CELL.md; cellI/gamma5_map.py; cellI/cellI_output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "partially -- literature inputs (YLD Table 10/11, Eqs 2/4/5/12-14) are IMPORTED (transcribed from an external paper, arXiv:2011.03501) and cannot be reproduced from files in this repo alone; the exact character arithmetic given those inputs is fully reproducible and re-verified in-sandbox",
+     "why": "the script computes exactly in Q(zeta_20) from scratch and cross-checks the extraction against a second literature table (Table 1 decompositions), reducing transcription risk, but the literature matrices themselves are asserted facts about an external source, not computed within the repo -- a stranger needs the external PDF to audit the transcription."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Several cells contain genuine independent re-derivation/cross-check machinery beyond the primary computation: cellH/massey_post.py independently re-parses raw log text and recomputes matrix invariants with sympy; cellA verifies both an 'elementary' proof route and an independent Zariski-density route reaching the same i1=1; cellD verifies 15 exact cocycle-level identities as the decisive step rather than relying on class-level (weaker) descent; cellG runs the certifier twice (run1 then run2 with an added phase) with both logs preserved byte-faithfully. This is a stronger belt than typical FULL/SAMPLE mixes seen elsewhere in the repo.",
+   "absence_claims": [
+    {
+     "quote": "B662/F proved the cubic's phases are CONVENTION -- no forced object exists for a CP comparison",
+     "where": "PROGRESS_LOG.md entry for B667 (log_index, quoted in the packet's log excerpt)"
+    },
+    {
+     "quote": "the delta_PMNS chain terminates -- no prediction exists (B663's gate ruling: \"IF CONVENTION: no prediction exists; bank the wall\")",
+     "where": "WAVE2_FINDINGS.md, CELL F section"
+    },
+    {
+     "quote": "one door honestly shut (delta_PMNS: no prediction exists)",
+     "where": "CAMPAIGN_SYNTHESIS.md, closing paragraph"
+    },
+    {
+     "quote": "no arithmetic invariant exists over K at all",
+     "where": "cellF/FINDINGS_CELL.md, \"Why no K-obstruction could survive\" section"
+    },
+    {
+     "quote": "no cube root is ever needed",
+     "where": "cellF/FINDINGS_CELL.md, end of the theorem-behind-the-verdict section"
+    },
+    {
+     "quote": "only five printed lines in b638_output.txt; no machine-readable artifact was persisted",
+     "where": "cellC/l103_repair.py header comment (also cellC/FINDINGS_CELL.md: \"never persisted the matrix\")"
+    },
+    {
+     "quote": "A re-run of the S4 evaluator itself is blocked in-repo: it requires cell3_double/stage1_classes.pkl from the seat workdir (not in the repo)",
+     "where": "cellC/FINDINGS_CELL.md, invariant cross-check section"
+    },
+    {
+     "quote": "L108) ... what is NOT yet derived is the framework-side modular-form assignment",
+     "where": "cellI/FINDINGS_CELL.md, \"The honest gap to a genuine functor\" section"
+    },
+    {
+     "quote": "the S4-in-repo re-run is blocked on a seat-local cache -- the sealed json was used",
+     "where": "WAVE1_FINDINGS.md, CELL C section"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "Cell C's cross-check against the B660/S4 evaluator cannot be re-run from committed files -- it depends on a seat-local pickle (cell3_double/stage1_classes.pkl) not in the repo; the FINDINGS text is honest about this, but a stranger cannot independently rerun that half of the comparison.",
+     "where": "cellC/FINDINGS_CELL.md"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "Cell I's headline identification (the ear's hearing representation IS the Gamma5'-doublet 2-hat') rests on exact character-table equality on the same abstract group SL(2,F5) that both sides happen to reduce to -- a strong invariant, but the deeper physical claim (that this identifies a real flavor-symmetry functor) is explicitly NOT yet established (the modular-form assignment leg, L108); the arc itself correctly downgrades the upgrade to 'candidate functor' rather than 'functor', so this is a self-flagged rather than silent instance, but it is still fundamentally a match-of-representation-labels on a common finite group, not a derivation of a physical mechanism connecting the two domains.",
+     "where": "cellI/FINDINGS_CELL.md"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Cell I's literature inputs (Yao-Liu-Ding Table 10/11, Eqs 2,4,5,12-14) are transcribed from an external paper and cannot be checked against a committed source file; the arc cross-checks its own transcription against a second literature table (self-consistency) but this does not rule out a shared transcription error, and the weight-1/5 span theorem underlying Task 2 is cited SECOND-HAND (via YLD's own citation of Ibukiyama, not independently accessed) -- an IMPORTED fact one link removed from the primary source.",
+     "where": "cellI/FINDINGS_CELL.md, \"Sources\" section"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Cell F's strong interpretive claim that 'the delta_PMNS chain terminates -- no prediction exists' is a summary conclusion about the framework's broader physics program, not itself a computed quantity; the arc's own residual note ('any forced CP-like fact must live where the acting group is smaller') shows the negative claim covers only the bare 3-form level, so the flat 'terminates' phrasing in the synthesis document slightly overstates the narrower computed result (single-GL(5,K)-orbit / explicit descent datum for Y).",
+     "where": "WAVE2_FINDINGS.md; CAMPAIGN_SYNTHESIS.md"
+    }
+   ],
+   "seat_note": "This is one of the more disciplined arcs sampled: exact (Fraction/Q(zeta_n)) arithmetic throughout, persisted machine-readable certificates for every cell, an independent post-hoc re-derivation (massey_post.py parsing raw logs) that genuinely functions as a belt rather than a re-read, and an explicit, self-applied correction of a prior arc's basis-local error. All physics content here is STRUCTURAL (group-theoretic/arithmetic dimension counts, character tables, period arithmetic) with zero observable predictions; the one place framework language runs ahead of the computation is the flat claim that the CP/delta_PMNS chain 'terminates', which the arc's own text scopes more narrowly as a bare-3-form-level non-result."
+  }
+ ]
+}

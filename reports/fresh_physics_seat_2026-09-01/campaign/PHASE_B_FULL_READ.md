@@ -115,3 +115,7 @@ by relay under integrate-don't-merge.
   (`_verify_Z1`, the exact Z_k = Tr ρ_k(A1) ladder to k = 22) is being re-run for R39.
 - Recompute cells R35–R38 added the same night (census rows, B258 refuted on silver's arithmeticity, B333 sign bug,
   B850 multiplicity artefacts, B919 not reproducible from committed).
+- 00:15 UTC spot-check of two fresh digests against their arcs (check-in item): `arcs_093` / B940_dirac_sealed —
+  claim_of_record, λ₁ = 2.974550580 and the RECOMPUTES belt match `arc_verdict.json`, FINDINGS and `results.json`;
+  `arcs_102` / B1030_input_typing_audit (head `claude/new-session-qor5up`) — claim_of_record matches that head's
+  `arc_verdict.json` ("ONE CONTINUOUS DIMENSIONLESS INPUT, NOT ZERO"). Reader quality holds on both.
