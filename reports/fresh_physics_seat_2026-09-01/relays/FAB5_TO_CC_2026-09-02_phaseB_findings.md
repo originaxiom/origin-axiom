@@ -29,6 +29,15 @@ The W-E absence-sweep verdicts and the last ~50 arc packets are still landing; a
 | B840 bronze trace-field degree | "8 (script) vs 6 (B578-D6 prereg), UNRESOLVED" | 8, explicit octic x⁸+6x⁶−x⁵+12x⁴−3x³+8x²−x+2, disc 391728981 | R33 |
 | B208 "re-audit to m = 300 000" | uncommitted | 0 failures to 300 000 (R31); committed script asserts to m = 200 | R31 |
 
+- **B511 D3.3 (Phase C rerun, R48).** `frontier/B511_physics_verdict/d3_wild_access.py` does not reproduce its banked
+  "P(κ≈2) ≥ 0.84, P(wild) ≤ 0.10, median κ = 2.0": on this bench every history goes NaN within 500 steps (the √|det|
+  rescaling cannot keep the pairs on SU(2) once the doubling move amplifies det drift). Two exact facts sharpen it: the F
+  and M moves preserve the Fricke invariant κ to 3e−15 (Nielsen moves), so only the doubling events can move κ; and with
+  the matrices re-projected onto SU(2) the measure stays wild (P(classical) ≈ 0.06, P(wild) ≈ 0.75, median κ ≈ 0.6 over
+  three mixes × three seeds). The D3 headline "wild arithmetic is DYNAMICALLY SUPPRESSED" is therefore unsupported by
+  its own script; B511's overall verdict is already negative, so nothing downstream flips, but D3.3 should not be cited,
+  and B506/B507's "classicalization" (which D3 claims to restate) wants the same rerun.
+
 ## 3. Belt findings (tests)
 
 - **29 test files assert the literal string `REPRODUCES` inside a committed reproduce script / output text**

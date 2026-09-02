@@ -1,0 +1,26 @@
+== (b) which moves preserve kappa (n=2000 Haar pairs, exact SU(2) arithmetic in double precision)
+  F: (A,B)->(AB,A)       max|kappa_after - kappa_before| = 2.66e-15
+  M: (A,B)->(A,BA)       max|kappa_after - kappa_before| = 2.66e-15
+  D: (A,B)->(A^2,B^2)    max|kappa_after - kappa_before| = 3.96e+00
+  initial kappa of Haar pairs: median 0.624, P(|k-2|<0.05) = 0.022, P(wild) = 0.790
+== (a) renormalisation = det-scaling as committed
+  M10/D10/F80  seed=11 classical=0.000 wild=0.000 median=nan nan=1000
+  M10/D10/F80  seed=12 classical=0.000 wild=0.000 median=nan nan=1000
+  M10/D10/F80  seed=13 classical=0.000 wild=0.000 median=nan nan=1000
+  M20/F80      seed=11 classical=0.000 wild=0.000 median=nan nan=1000
+  M20/F80      seed=12 classical=0.000 wild=0.000 median=nan nan=1000
+  M20/F80      seed=13 classical=0.000 wild=0.000 median=nan nan=1000
+  D20/F80      seed=11 classical=0.000 wild=0.000 median=nan nan=1000
+  D20/F80      seed=12 classical=0.000 wild=0.000 median=nan nan=1000
+  D20/F80      seed=13 classical=0.000 wild=0.000 median=nan nan=1000
+== (c) renormalisation = polar re-projection onto SU(2)
+  M10/D10/F80  seed=11 classical=0.061 wild=0.742 median=0.666 nan=0
+  M10/D10/F80  seed=12 classical=0.080 wild=0.730 median=0.624 nan=0
+  M10/D10/F80  seed=13 classical=0.057 wild=0.764 median=0.601 nan=0
+  M20/F80      seed=11 classical=0.073 wild=0.733 median=0.644 nan=0
+  M20/F80      seed=12 classical=0.085 wild=0.734 median=0.589 nan=0
+  M20/F80      seed=13 classical=0.067 wild=0.756 median=0.561 nan=0
+  D20/F80      seed=11 classical=0.041 wild=0.755 median=0.685 nan=0
+  D20/F80      seed=12 classical=0.041 wild=0.761 median=0.588 nan=0
+  D20/F80      seed=13 classical=0.034 wild=0.753 median=0.622 nan=0
+banked (D3_FINDINGS.md): P(classical) >= 0.84, P(wild) <= 0.10 across all mixes; D3.1 median kappa 2.0
