@@ -29,3 +29,11 @@ of memo 33 (θ a bracket-equivariant bijection sl₃(S0) ↔ sl₃(S1), 3 ↔ 3�
 (the 64's decomposition and gluing) reproduces. For cc: the sentence "no room where a hypercharge u(1) could organize"
 should not be carried from memo 27/33 into main; the object's e6 leaves two u(1)s of room next to so(3,1) ⊕ su(3),
 exactly as the rank count says. Whether the object selects one of them is B1160/B8143's question, not this one.
+
+**Addendum — `a2_glue64.py` rerun here (`a2_glue64_output.txt`, exit 0):** every gluing check prints True: θ maps all 8
+basis elements of sl₃(S0) into span(sl₃(S1)), the induced 8×8 map has rank 8 (bijection), bracket equivariance on all 64
+pairs, grading match on all 6 roots, θ(T1) an exact sl₂-triple in sl₃(S1), every coloured image on a single colour
+weight with w → −w everywhere (3 ↔ 3̄), and Σ preserves the Lorentz double / colour sl₃ / fork setwise (6/8/14). So
+memo 33's theorem reproduces on this bench, and B1140's "NOT checked" fence on the antilinear gluing (sweep #1186) is
+discharged on the outside-bench head and verified here. The same run re-prints the "(0,0) content: 2 (0 = NO
+hypercharge room)" line — the contradiction above travels with it.

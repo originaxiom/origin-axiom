@@ -2,7 +2,7 @@
 
 Distinct claims swept: 1535 of 1535 in synthesis/absence_claims.tsv (sweep rows 1976; 441 rows are duplicates caused by the index shift, see `sweep_index_map.tsv`). Status by claim: DOC_ECHO 57, GENERIC 187, LEAD 1067, NO_HIT 167, UNSWEEPABLE 57.
 
-Verdicts (per distinct claim): 1124 — CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 90, GENERIC 29, STANDS 16, OPEN_LATER 10, CONTRADICTED 3.
+Verdicts (per distinct claim): 1124 — CONSISTENT 553, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 90, GENERIC 29, STANDS 16, OPEN_LATER 11, CONTRADICTED 3.
 
 Verdict key: CONTRADICTED = the repo already holds what the claim says is absent (the claim is wrong as written); SUPERSEDED = a later arc supplied it (the claim was true when written, stale now); OPEN_LATER = supplied only on an unmerged head, or the later work is unverified; STANDS / CONSISTENT = the sweep found nothing that supplies it (STANDS when the seat also checked directly); NOISE = co-occurrence only; GENERIC = terms too common for the sweep to say anything; REGISTRY_ECHO = only index/ledger files echo the claim. DOC_ECHO / NO_HIT rows carry no verdict: the sweep found no text outside catch-all files, so the claim stands as far as the repository text goes.
 
@@ -107,7 +107,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1956 B747_mirror_sweep** (PREREGISTRATION.md:5): by the arc's own run (B747 runs the mirror sweep)
 - **#1957 B748_v4_completion** (PREREGISTRATION.md:4): by the arc's own run (B748 tests sqrt(-15))
 
-## OPEN_LATER (10)
+## OPEN_LATER (11)
 
 - **#10 B16_record_swap_status** (er/B16_record_swap_status/FINDINGS.md:63): B1026_the_one_involution exists only on origin/claude/new-session-qor5up (never on main); until harvested, 'exchange symmetry not derived from A1-A6' stands on main
 - **#11 B19_exchange_half_step_axiom_audit** (nge_half_step_axiom_audit/FINDINGS.md:33): same as #10 (B1026 on an unmerged head); B1050 projective wall does not derive it
@@ -118,6 +118,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#158 B262_t41_theory** (NDINGS.md:9 (also t41_theory.py:724-726)): B488/B489 later claim T[A_m]=U(1)^(2m-1) 'verified for m=1..8' (DGG-abelian) — whether computed or asserted there is what R36 could not tell; H1 laws verified
 - **#894 B1025_input_derivability** (FINDINGS.md, meta-deliverable): contradicted on an unmerged head: B1030_input_typing_audit (origin/claude/new-session-qor5up) finds ONE continuous dimensionless input remains (A2 = c = 6σ); on main B1025's 'none remains' stands uncorrected
 - **#908 B1030_input_typing_audit** (FINDINGS.md section 2): B1030 lives on origin/claude/new-session-qor5up; on main B1025's 'zero' stands (as #894)
+- **#1186 B1140_the_64_organized** (INDINGS.md, 'Scope + conventions (held)'): discharged on origin/claude/outside-bench: memo 33 THE_64_GLUED + certificates/a2_glue64.py (theta a bracket-equivariant bijection sl3(S0)<->sl3(S1), 3<->3bar on the 54); seat reran it here, all checks True (R49); not yet on main
 - **#1207 B1162_mssm_debt_closure** (r/B1162_mssm_debt_closure/FINDINGS.md:54): check_charge_bracket.py exists on origin/codex/seat-r001 and the structure-genesis head; the seat re-ran cloud breaking_chains.py and susy_test.py on this bench (R47): both pass; B1162 D3/D5 stay cited-on-main, verified-here
 
 ## STANDS (16)

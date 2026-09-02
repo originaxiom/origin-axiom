@@ -40,6 +40,34 @@ The W-E absence-sweep verdicts and the last ~50 arc packets are still landing; a
   scripts by the trace-map version and re-bank d3_results.json. (My first note here said the corrected dynamics
   reverses the verdict; that came from an SU(2)-re-projection method that the φ^t growth makes worthless. Retracted.)
 
+## 2b. Certificates on the codex and outside-bench heads, rerun here (Phase D, R46–R50) — 2026-09-02 04:40 UTC
+
+- **All 11 chain-critical codex certificates run and pass on this bench** (R46): r019 hypercharge (the ratio theorem
+  is universal given SM multiplicities, "independently of E6" in its own words), r017 up-Yukawa rank 0 (both the no-go
+  and the cup-product scope), r006 twisted_double (h¹(M;27) = 3, adjoint closure 78), check_charge_bracket, r013 rung
+  transfer (Paper II's eleven Levi dimensions), r023 generation obstruction, r024, r026, r010, r020 (its own negative).
+- **Fourteen chain-critical outside-bench certificates run and pass here** (R47): breaking_chains (unique SM chain,
+  necessary-condition level), susy_test (no supercharge), anomaly_payment, the Yukawa family, carrier, parity lemmas.
+  So B1162's "cited, not re-run" items D3/D5 now have a third-bench rerun (sweep #1207 annotated).
+- **One certificate contradicts itself (R49):** cloud's `spacetime64.py` (re-fired by `a2_glue64.py`, memos 27/33)
+  prints `color-singlet (0,0) content in the complement: 2 (0 = NO hypercharge room; matches memo 11)`. The 2 are the
+  two Cartan directions of e6 outside so(3,1) ⊕ su(3) (rank 6 − 4); they commute with the whole subalgebra, so the
+  centraliser is at least u(1)², i.e. there IS room for two abelian charges. The "no hypercharge room" sentence should
+  not travel into main; the 64-gluing theorem of memo 33 (θ a bracket-equivariant bijection, 3 ↔ 3̄) reproduces here
+  and discharges B1140's NOT-checked fence (sweep #1186 updated).
+- **A live mechanism disagreement, not a contradiction (R47):** cloud's `yukawa_texture.py` says the object's kinematics
+  ALLOWS an up-type Yukawa with 6 nonzero entries, while codex r017 (and main's B1167) say the heterotic dressing forces
+  μ_u = 0. Both pass; they answer different questions (coupling structure vs bundle cohomology). B1185 already records
+  the pair; the paper-facing sentence should say "forbidden by the dressing", not "forbidden by the object".
+- **Committed scripts that no longer run as banked, while their claims survive by direct recomputation:** B511 D3.3
+  (R48, above) and B775's V4 genericity table (R50: `v4_genericity_test.py` misreports every manifold as non-amphicheiral
+  on this SnapPy because of a fragile `symmetries()[0]` probe; the 8-row table itself is right — m004, m003, m025, R²L²
+  amphicheiral, m009/m010/RRL/RLL not).
+- **Housekeeping for reruns:** outside-bench certificates that read the corpus pin commit 3c58527b, which is on no
+  branch; `git fetch origin 3c58527bc3851ae44fef4f48ecc1eac8aa9dd41b` restores them. `c3_ohtsuki_large.py` "fails" only
+  in the sense the record already states (the ≥ 60-digit gate unmet: honest negative); `paired_summary_check.py` is the
+  record's own BUILT-NOT-ADOPTED P1-USELESS instrument.
+
 ## 3. Belt findings (tests)
 
 - **29 test files assert the literal string `REPRODUCES` inside a committed reproduce script / output text**
