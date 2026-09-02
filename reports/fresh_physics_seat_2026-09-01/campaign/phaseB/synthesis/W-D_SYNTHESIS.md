@@ -172,39 +172,69 @@ course-correction ("we did a mistake going for physics instead of slowly properl
 natural interaction of the object … listen to its beautiful story instead of forcing it to spit what we like
 to hear").
 
-## 7. Absence claims — the W-E sweep (both parts)
+## 7. Absence claims — the W-E sweep (all five parts; counted per distinct claim)
 
-Every absence claim the readers extracted (1068, from all landed packets) was swept over the six other remote heads and
-the 15-file deleted corpus (`sweeps/sweep_batch.py`, two runs), with catch-all files (changelog, progress logs, claims
-ledgers) and registry files (verdict ledgers, atlases, kill graphs, verifier tables) separated from content hits
-(`sweeps/registry_split.py`). Statuses: DOC_ECHO 48, GENERIC 124, LEAD 738, NO_HIT 113, UNSWEEPABLE 45. The seat wrote a verdict on every LEAD, REGISTRY_ECHO and UNSWEEPABLE row
-by hand (`sweeps/VERDICTS.tsv`, 783 rows; `sweeps/VERDICTS.md` lists the ones that matter): CONSISTENT 293, NOISE 206, REGISTRY_ECHO 203, SUPERSEDED 44, OPEN_LATER 13, STANDS 11, GENERIC 11, CONTRADICTED 2.
+Every absence claim the readers extracted (1535 distinct, from all 131 packets) was swept over the six other remote
+heads and the 15-file deleted corpus (`sweeps/sweep_batch.py`, five runs), with catch-all files (changelog, progress
+logs, claims ledgers) and registry files (verdict ledgers, atlases, kill graphs, verifier tables) separated from content
+hits (`sweeps/registry_split.py`).
+
+**A coverage defect in the seat's own tooling, found 2026-09-02 and repaired.** `rollup.py` re-sorts
+`absence_claims.tsv` on every landing, so the row index the first four sweep parts were keyed to shifted between runs
+(+441, +179, +54 rows). Checked by the stable (arc, quote) key, only 1094 of 1535 claims had been swept and 441 sweep
+rows were duplicates; the earlier "1535 swept" statements in this file and the relay were wrong by exactly that overlap.
+Part 5 swept the 441 missed claims (current rows 249–689, arcs B436–B771). `sweeps/sweep_index_map.tsv` ties every
+sweep index to its claim and marks duplicates; where duplicate rows disagree the more informative verdict is the claim's
+(NOISE < GENERIC < REGISTRY_ECHO < CONSISTENT < STANDS < OPEN_LATER < SUPERSEDED < CONTRADICTED).
+
+Status by claim: LEAD 1067, GENERIC 187, NO_HIT 167, DOC_ECHO 57, UNSWEEPABLE 57. The seat wrote a verdict by hand on
+every LEAD, REGISTRY_ECHO and UNSWEEPABLE claim (`sweeps/VERDICTS.tsv`, 1456 rows incl. duplicates; `sweeps/VERDICTS.md`
+lists the ones that matter): per distinct claim CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 89, GENERIC 29,
+STANDS 17, OPEN_LATER 10, CONTRADICTED 3.
 
 What the sweep found, in the owner's terms ("before you conclude we don't have something, sweep the repo first"):
 
-- **Two rows are wrong as written [verified]** (one defect seen from two heads): B778_cleanup's own FINDINGS (l.21–24,
-  "Pending the next pass … CL-W4115 … Never ran. / CL-LATIN … Never ran.") contradicts its own directory —
-  `frontier/B778_cleanup/cells/CL-W4115/` holds a completed run (`compute.py`, `output.txt`, `results.json`: chord
-  '1,5,19,71' REAL True, the wall re-verified as field-disjointness), and `cells/CL-LATIN/` exists too. The FINDINGS
-  was never updated after the cells ran, and `tests/test_b778_cleanup.py` locks the stale FINDINGS text.
-- **44 absence claims were true when written and are stale now** (a later arc supplied the thing, and the earlier
-  sentence was never corrected): B58's "SL(4) not built here" (B742/B745), B265/B270's cup-product obstruction (B273),
-  B849/B850/B852's "m004 Maass eigenvalues never computed / Hejhal not in-sandbox" (B797's 17, B1007), B73/B75's SL(4)
-  Dehn-filling nulls (B88), B306's "no dim-14 centraliser" (B892), B872's "cell9 verdict2 exists nowhere" (B921), B204's
-  normalisation (OI-063), B21's "no Einstein equation" (B259, 3d), B126/B123's "no trace-field classifier" (W3-067),
-  B958/B961/B974's "no independent construction of the frame / M12" (B978: B911 had built it), B968/B952's "exotics never
-  addressed" (B951/B962/B970), B1009's "no cascade on any m ≥ 2 grammar" (B1019 silver cascade), B1119's "compact
-  colour open" (B1125: NO-COMPACT-HOST), B1207's targets "never executed" (B1207 ran them), B909 "does not exist" (it
-  does), the unharvested B796 files (B921).
-- **13 claims are answered only on unmerged heads or contradicted there**: B1026_the_one_involution and B1030 (one
+- **Three claims are wrong as written [verified]:** (1) B778_cleanup's own FINDINGS (l.21–24, "Pending the next pass …
+  CL-W4115 … Never ran. / CL-LATIN … Never ran.") contradicts its own directory — `frontier/B778_cleanup/cells/CL-W4115/`
+  holds a completed run (`compute.py`, `output.txt`, `results.json`: chord '1,5,19,71' REAL True, the wall re-verified as
+  field-disjointness), `cells/CL-LATIN/` exists, and `tests/test_b778_cleanup.py` locks the stale text. (2) B1191's GC-15
+  evidence "Only F3 … has ZERO test coverage anywhere in the repo": `tests/test_b279_spin_structure_bit.py` exists on
+  main (whether it locks the bit is a separate question). (3) B8141 "AUDIT_B1076_ONE_NOTATION_DEFECT.md and
+  I_WAS_WRONG_THE_REAL_DEFECT.md are absent": both are on `origin/paper/structure-genesis-first` (B8084 / B8090 relays).
+- **89 absence claims were true when written and are stale now** (a later arc supplied the thing; the earlier sentence
+  was never corrected). From parts 1–2: B58's "SL(4) not built here" (B742/B745), B265/B270's cup-product obstruction
+  (B273), B849/B850/B852's "m004 Maass eigenvalues never computed" (B797's 17, B1007), B73/B75 (B88), B306 (B892), B872
+  (B921), B204 (OI-063), B21 (B259), B126/B123 (W3-067), B958/B961/B974 (B978), B968/B952 (B951/B962/B970), B1009
+  (B1019), B1119 (B1125), B1107/B1113 (B1207), B909 "does not exist" (it does), the unharvested B796 files (B921). From
+  parts 3–5: B8080 deposits the assembly code and finds the six-group classification FALSE AS STATED (all six admit a
+  27-dim assembly); B8081 rebuilds ρ from Kac–Peterson data; B8082 computes the H¹ count (unobstructedness still owed);
+  B8079 closes B8078's ℚ̄ residue; B8119 closes the dynamical-E6 rows (E6 as dynamical gauge: closed negative; the E6
+  state integral dissolves; the 4d lift out of scope by owner ruling); B1162 dual-homes codex's height-308 witness
+  (B1155/B1167 "single-homed"); B1181 closes the amphichirality debt (83/83 by mirror-isometry, not the vacuous
+  isometry_signature route B1165 flagged); B1207 records the completed OA_SLOW first run (B1177 "launched, not
+  complete"); B1191 closes GC-7 (γ5 adelic typing); B8146 completes L173's precision column (as a negative); B8095 starts
+  lane 6; B8111 runs Phase-0 item 0; B8153 runs B500's nine never-reached words; B598 STEP 7 re-derives the dial map
+  in-repo (B582 "code NEVER COMMITTED"); B631 computes the matrix-level comparison (B629/B630 "never computed"); B662's
+  L103 repair persists the golden σ* matrix (B660 "never persisted"); B792/B797/B1007 compute the m004 Maass eigenvalues
+  (B735/B739 "Sage unavailable / no numerical E_m004"); B754 consults the scattering spectrum (B738 "zero kills
+  consulted it"); B742 TOMB-L277 recompute and B8081 for the 2880 enumeration (B742 "no committed artifact"); B775
+  P2W5-HERED executes B471's named follow-up; B645 now carries ARTIFACT_HASHES.txt; LAW_MAP now has §G method-laws
+  (B1054 "no section for methodology"); B1074–B1076 exist on main (B8084 "do not exist"); B767 ran 6 of P3-depth's 7
+  exposed kills; B1164's price-reconciliation addendum registers time's arrow; B727/B743/B747/B748 ran the tests their
+  own preregistrations called "never run".
+- **10 claims are answered only on unmerged heads or contradicted there**: B1026_the_one_involution and B1030 (one
   continuous dimensionless input remains, contradicting B1025 on main) on `origin/claude/new-session-qor5up`;
-  B1039/B1043/B1045; the Maass degree-law / full window on `audit/b775-braver-questions`.
+  B1039/B1043/B1045; the Maass degree-law / full window on `audit/b775-braver-questions`; B1162's cited
+  `check_charge_bracket.py` on `origin/codex/seat-r001` and the structure-genesis head.
 - **A computed cell was deleted from the record** and re-run (R39): `_verify_Z1`, 21/21 levels reproduced.
-- 11 claims STAND after a direct check (Regina not installed here either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1 and the
-  fundamental unit φ never computed in-repo, checked here with PARI), and 293 are CONSISTENT (self-scoped, or the later
-  arcs restate the same absence).
-- The instrument's limits: 124 GENERIC rows (terms too common), 161 DOC_ECHO / NO_HIT rows (nothing outside catch-all
-  files; the claim stands as far as the repository text goes), 203 REGISTRY_ECHO rows (only ledgers echo the claim).
+- **17 claims STAND after a direct check**: Regina not installed here either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1 and the
+  fundamental unit φ never computed in-repo (PARI here); 5₂ is not fibered (Alexander polynomial 2t²−3t+2, non-monic);
+  no `tests/test_b507*` on any head; `stage1_classes.pkl` on no head; B595's "no functorial monodromy-equivariant map"
+  is now B650's theorem (T = 0 uniquely at the linear level); B8135's 2-vs-3 primitive-class count at m = 12 is
+  unresolved on both heads.
+- The instrument's limits: 187 GENERIC-status claims and 29 GENERIC verdicts (terms too common), 224 DOC_ECHO / NO_HIT
+  claims (nothing outside catch-all files; the claim stands as far as the repository text goes), 290 REGISTRY_ECHO
+  claims (only ledgers echo the claim).
 
 ## 8. Completeness critic (what this synthesis has not done, in the seat's own words)
 

@@ -1,8 +1,8 @@
 # W-E absence sweep — the seat's verdicts
 
-Distinct claims swept: 1094 of 1535 in synthesis/absence_claims.tsv (sweep rows 1535; 441 rows are duplicates caused by the index shift, see `sweep_index_map.tsv`). Status by claim: DOC_ECHO 37, GENERIC 129, LEAD 784, NO_HIT 102, UNSWEEPABLE 42.
+Distinct claims swept: 1535 of 1535 in synthesis/absence_claims.tsv (sweep rows 1976; 441 rows are duplicates caused by the index shift, see `sweep_index_map.tsv`). Status by claim: DOC_ECHO 57, GENERIC 187, LEAD 1067, NO_HIT 167, UNSWEEPABLE 57.
 
-Verdicts (per distinct claim): 826 — CONSISTENT 381, REGISTRY_ECHO 207, NOISE 127, SUPERSEDED 67, GENERIC 19, STANDS 12, OPEN_LATER 10, CONTRADICTED 3.
+Verdicts (per distinct claim): 1124 — CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 89, GENERIC 29, STANDS 17, OPEN_LATER 10, CONTRADICTED 3.
 
 Verdict key: CONTRADICTED = the repo already holds what the claim says is absent (the claim is wrong as written); SUPERSEDED = a later arc supplied it (the claim was true when written, stale now); OPEN_LATER = supplied only on an unmerged head, or the later work is unverified; STANDS / CONSISTENT = the sweep found nothing that supplies it (STANDS when the seat also checked directly); NOISE = co-occurrence only; GENERIC = terms too common for the sweep to say anything; REGISTRY_ECHO = only index/ledger files echo the claim. DOC_ECHO / NO_HIT rows carry no verdict: the sweep found no text outside catch-all files, so the claim stands as far as the repository text goes.
 
@@ -14,7 +14,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1243 B1191_close_loop_batch3** (ication/batch3_cells.json GC-15 evidence): tests/test_b279_spin_structure_bit.py exists on main, so "F3 ... has ZERO test coverage anywhere in the repo" is false as stated; whether that file locks the spin-vs-orientation bit is a separate question
 - **#1498 B8141_artifact_dependence** (DINGS.md:Deliberately not in the finding): both files exist on the structure-genesis head: frontier/B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md and frontier/B8090_cold_audit_f1/relays/CC3_TO_CC_2026-08-19_I_WAS_WRONG_THE_REAL_DEFECT.md; "absent" held only on the head B8141 looked at
 
-## SUPERSEDED (67)
+## SUPERSEDED (89)
 
 - **#20 B58_phaseA** (B58_phaseA/B62_STATUS.md:16): B742/B745 (2026-07-21) computed the ambient SL(4) Jacobian and reproduce B59's factorisation; B58's 'not derived here' is negated by its own correction header
 - **#25 B58_sl4_tower_test** (ower_test/FINDINGS.md, 'Verdict' section): B58_sl4_tower_test correction header: headline negated by B742+B745
@@ -83,6 +83,28 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1500 B8144_price_reconciliation** (FINDINGS.md): B1164 ADDENDUM_price_reconciliation l.15: "time's arrow ... absent ... B1164 MISSED it" -- registered as a residue, so the absence is now acknowledged in B1164 itself
 - **#1506 B8153_b500_accounting** (arc_verdict.json:claim_one_line): B8153 own hunt_d5_finish.py (structure-genesis head, 2026-08-28) runs the nine never-reached words; B1187 addendum confirms no AIRLOCK anywhere in the banked logs
 - **#1508 P3_depth_exposure** (d:Stabilization needed for the 7 exposed): B767 (R28-10) ran 6 of the 7 exposed kills and stabilized two (B1187 finding, #1230)
+- **#1594 B471_chain_verification** (FINDINGS.md, heredity conjecture section): B775 cell P2W5-HERED runs the named follow-up: rank-of-apparition (Lucas) machinery does NOT apply (the wall stands, the follow-up is executed)
+- **#1600 B500_child_hunt** (frontier/B500_child_hunt/FINDINGS.md): B986 reopened B500 (the method killed by its own control; 26 timeouts still unchecked) and B8153 ran the nine never-reached words (hunt_d5_finish.py on the structure-genesis head)
+- **#1604 B511_physics_verdict** (B511's D-door framing of the wild census): B986 reopened B500 (the method killed by its own control; 26 timeouts still unchecked) and B8153 ran the nine never-reached words (hunt_d5_finish.py on the structure-genesis head)
+- **#1709 B582_chiral_play** (entry, self-correction referencing B582)): B598 FINDINGS l.281: "STEP 7 COMPLETE (2026-07-15): G1-FINITE -- the dial map re-derived in-repo; the B582 hole closed"
+- **#1765 B629_interaction_values** (raming of the one authorized comparison)): B631_matrix_comparison computes the matrix-level comparison (MB13 retro sweep is its own prior-art check)
+- **#1766 B630_matrix_comparison_design** (ARISON_DESIGN.md §7 MB12 ("Non-trivial")): B631_matrix_comparison computes the matrix-level comparison (MB13 retro sweep is its own prior-art check)
+- **#1794 B646_wave2_integration** (_queue/n4_receipt/FINDINGS_CC2.md L25-27): frontier/B645_dial_law/ARTIFACT_HASHES.txt exists on main now; PREREGISTRATION.md still absent
+- **#1825 B660_structure_campaign** (FINDINGS.md lines 49-51 (S2)): L103 repaired: frontier/B662_successor_campaign/cellC/sigma_matrix_golden.json persisted by l103_repair.py
+- **#1826 B660_structure_campaign** (s2_run_log.txt line 71): L103 repaired: frontier/B662_successor_campaign/cellC/sigma_matrix_golden.json persisted by l103_repair.py
+- **#1837 B662_successor_campaign** (S_CELL.md: "never persisted the matrix")): L103 repaired: frontier/B662_successor_campaign/cellC/sigma_matrix_golden.json persisted by l103_repair.py
+- **#1922 B727_base_rate_the_structure** (_rate_the_structure/PREREGISTRATION.md:5): by the arc's own run (B727 runs the base-rate test on the flagship claim)
+- **#1926 B735_emittance** (ittance/FINDINGS.md (SAME WALLS section)): Maass eigenvalues of m004 computed in-sandbox later: B792/B797 (17 eigenvalues) and B1007 (arb); as parts 1-2 #B849/B850/B852
+- **#1932 B738_pathfinder_compiler** (_compiler/FINDINGS.md headline finding 1): B754_p2_spectral cells (TOMB-L30, WALL-1, B107, TOMB-L252) consult the scattering/Laplace spectrum
+- **#1933 B738_pathfinder_compiler** (iler/FINDINGS.md KILL-GRAPH DIFF section): B754_p2_spectral cells (TOMB-L30, WALL-1, B107, TOMB-L252) consult the scattering/Laplace spectrum
+- **#1934 B739_character_rigidity** (FINDINGS.md:40): Maass eigenvalues of m004 computed in-sandbox later: B792/B797 (17 eigenvalues) and B1007 (arb); as parts 1-2 #B849/B850/B852
+- **#1936 B739_character_rigidity** ( (VERDICT per-item proof status, item b)): Maass eigenvalues of m004 computed in-sandbox later: B792/B797 (17 eigenvalues) and B1007 (arb); as parts 1-2 #B849/B850/B852
+- **#1939 B742_negatives_hunt_p1** (2653a_journal.jsonl, tomb_3 batch notes)): frontier/B742_negatives_hunt_p1/recompute/TOMB-L277/recompute.py is a committed recompute of the 2880 enumeration; B8081 rebuilds rho on the structure-genesis head
+- **#1950 B743_rung1_widened** (PREREG_RUNG1_WIDENED.md:16): by the arc's own run (B743 tests the widened rung-1 fields)
+- **#1952 B743_rung1_widened** (PREREG_RUNG1_WIDENED.md:18): by the arc's own run (B743 tests the widened rung-1 fields)
+- **#1953 B743_rung1_widened** (PREREG_RUNG1_WIDENED.md:19): by the arc's own run (B743 tests the widened rung-1 fields)
+- **#1956 B747_mirror_sweep** (PREREGISTRATION.md:5): by the arc's own run (B747 runs the mirror sweep)
+- **#1957 B748_v4_completion** (PREREGISTRATION.md:4): by the arc's own run (B748 tests sqrt(-15))
 
 ## OPEN_LATER (10)
 
@@ -97,7 +119,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#908 B1030_input_typing_audit** (FINDINGS.md section 2): B1030 lives on origin/claude/new-session-qor5up; on main B1025's 'zero' stands (as #894)
 - **#1207 B1162_mssm_debt_closure** (r/B1162_mssm_debt_closure/FINDINGS.md:54): check_charge_bracket.py exists on origin/codex/seat-r001 (certificates/r006_e6_invariants/paper/verify/) and origin/paper/structure-genesis-first (papers/structure_paper/verify/); the "deeper stack" is on two heads, so the breaking_chains/susy_test re-run is now possible and was not done
 
-## STANDS (12)
+## STANDS (17)
 
 - **#14 B24_anyon_quantum_bridge** (er/B24_anyon_quantum_bridge/README.md:19): 5 -> k+2 identification is a numerology B24 itself declines; no arc derives it
 - **#15 B24_anyon_quantum_bridge** (/B24_anyon_quantum_bridge/FINDINGS.md:16): as #14
@@ -111,6 +133,11 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1003 B1067_rayclass_harvest** (FINDINGS.md, census gap-list): no Dedekind-zeta special value of Q(sqrt5) anywhere; not computed here either
 - **#1004 B1067_rayclass_harvest** (FINDINGS.md, census gap-list): checked here: PARI bnfinit(x^2-x-1).fu = -phi (a fundamental unit up to sign); the repo never proves minimality
 - **#1489 B8135_paper1_drafted** (FINDINGS.md SCOPE): the 2-vs-3 primitive-class count at m=12 is UNRESOLVED on both heads; nothing later resolves it (a live discrepancy for the relay)
+- **#1546 B449_forcing_boundary** (FINDINGS.md item 1): true independently: 5_2 has Alexander polynomial 2t^2-3t+2, non-monic, hence not fibered
+- **#1682 B571_day0_internalization** (REPORT.md item A1): no tests/test_b507*.py on any head (checked all 7 remote heads)
+- **#1727 B595_dictionary** (DICTIONARY.md row 7 / FINDINGS.md D4): B650 later proves it at the linear level: the exact Sylvester solve gives T=0 uniquely (no nonzero monodromy-equivariant linear map)
+- **#1838 B662_successor_campaign** (S_CELL.md, invariant cross-check section): seat-work/cell3_double/stage1_classes.pkl is on no remote head (checked all 7)
+- **#1944 B742_negatives_hunt_p1** (mpute/WALL-7/recompute.py header comment): seat-work/cell3_double/stage1_classes.pkl is on no remote head (checked all 7)
 
 ## CONSISTENT / NOISE / GENERIC / REGISTRY_ECHO
 

@@ -5,3 +5,14 @@
 1675/690  leads so far 89
 1700/690  leads so far 103
 1725/690  leads so far 123
+1750/690  leads so far 137
+1775/690  leads so far 150
+1800/690  leads so far 169
+1825/690  leads so far 180
+1850/690  leads so far 199
+1875/690  leads so far 221
+1900/690  leads so far 235
+1925/690  leads so far 248
+1950/690  leads so far 267
+1975/690  leads so far 283
+done: 441 claims, 283 leads
