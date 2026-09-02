@@ -1,0 +1,7 @@
+linear conditions -> {yQ: -yL/3, ye: -2*yL, yu: 2*yL/3 - yd}
+cubic on the 2-plane (yd, yL): -2*yL*(2*yL + 3*yd)*(4*yL - 3*yd)/3
+B8070 FINDINGS: -2*yL*(2*yL+3*yd)*(4*yL-3*yd)/3  ->  equal: True
+  hypercharge 2yL+3yd=0 -> {'yQ': 1, 'yu': -4, 'ye': 6, 'yd': 2, 'yL': -3} (yL = -3 normalisation)
+  u<->d swap 4yL-3yd=0 -> {'yQ': 1, 'yu': 2, 'ye': 6, 'yd': -4, 'yL': -3} (yL = -3 normalisation)
+  vector-like yL=0 -> {'yQ': 0, 'yu': -yd, 'ye': 0, 'yd': yd, 'yL': 0} (yL = -3 normalisation)
+R03/R10 cross-check: in the chart Yq = 1, the cubic is -18 (Yu/Yq - 2)(Yu/Yq + 4) -- same three roots up to the linear map

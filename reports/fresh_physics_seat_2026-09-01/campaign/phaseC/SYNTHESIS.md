@@ -1,4 +1,4 @@
-# Phase C/D synthesis — recomputing what Phase B could not mark COMPUTED-and-reproducible (draft; counts refreshed when the last Phase C packets land)
+# Phase C/D synthesis — recomputing what Phase B could not mark COMPUTED-and-reproducible (final: 59/59 rerun packets, 38/38 certificate packets)
 
 ## 1. What was done
 
@@ -11,7 +11,7 @@
   (`../phaseD/results/`). **D-2, seat.** The chain-critical ones rerun by hand (R46: 11 codex; R47: 17 outside-bench),
   plus R48–R50 on the three cases that needed judgment.
 
-## 2. Seat's judgment on every DIFFERS (8)
+## 2. Seat's judgment on every DIFFERS (13)
 
 | # | arc | agent's finding | seat's judgment |
 |---|---|---|---|
@@ -22,9 +22,12 @@
 | 624 | B835 lock repairs | post-B700 shares differ (0.236 vs 0.375 etc.) | same class as 614: live-mined snapshot; pre-B700 values match exactly, post values moved with the corpus |
 | 731 | B967 retraction sweep | 2635 files / 0 violations vs 2210 / 11 | historical first-run snapshot; the 11 were fixed and the tree grew. REPRODUCES AS A METHOD |
 | 938 | B1166 | Im(complex volume) 2.66e−15 vs quoted 1.8e−15 | NOISE: both are machine zero; CS = 0 reproduces |
+| 935 / 954 | B1163 family addendum / B1186 family census | agents: `reverse_orientation()`+`is_isometric_to()` gives True on chiral m015/m016/m003(sic) | **R51**: the instrument is vacuous (SnapPy allows orientation-reversing isometries) — B1181's 83/83 and B1186's 112/112 are false; by symmetry group + CS obstruction 74 of 112 (43 of 77 all-regular) members are chiral, incl. B1181's own spot-check o10_150700. CONTRADICTED (the agent's m003 example was wrong — m003 is amphichiral — but its m015/m016 point stands) |
+| 1020 / 1021 | B8070 | FINDINGS' refutation numbers not produced by the committed script | **R52**: the anomaly-cubic factorisation reproduces exactly by sympy; the commutator norms remain unscripted; the committed script prints the refuted computation. RECORD DEFECT, MATH OK |
+| 970 | B1195 batch5a GC-22 cell | q(S = φ⁻⁴) quoted as ~1.5e−9; the cell's own map S → q = e^{−2π/S} gives 1.98e−19 | DIFFERS CONFIRMED: an arithmetic error inside a cell's evidence text (the other two inputs reproduce to 6 digits); the exclusion conclusion only strengthens (q is 10 orders smaller), so no verdict flips, but the number should be corrected |
 | 991 | B1213 claim base | 827/1045 absent (79 %) vs banked 919/1031 (89 %); true 75 vs 55, false 143 vs 57 | STALE NUMBER: `claim_base.py` recomputes from the live corpus, which has changed since 2026-08-29 (B1211/B1214 corrections landed declared-law fields). The headline "creates_law absent on most settled arcs" stands (79 %); the specific figures in B1213's verdict file are out of date and should be re-banked with a pinned commit |
 
-## 3. The PARTIAL class (52) and what it means
+## 3. The PARTIAL class (70) and what it means
 
 Three recurring shapes, none of which is a wrong number:
 1. **Hardcoded record, live code absent or guarded** (B129 S1B_SCAN, B131 forks (1,3)/(2,3), B147 Bianchi ratios,
@@ -37,7 +40,7 @@ Three recurring shapes, none of which is a wrong number:
 3. **Sage-only halves** (B142 find_field, B251 alexander_polynomial, B247 SnapPy cross-check crashes on API drift):
    CANNOT_RUN here by dependency, reproduced where the seat had another route (R33 shape fields).
 
-## 4. CANNOT_RUN (139 of 398 so far)
+## 4. CANNOT_RUN (189 of 398)
 
 By reason: no committed script for the claim (the largest class — the reader's "reproducible_from_committed: no" was
 right), Sage/Magma/Regina dependencies, hardcoded machine paths, and data files not in the tree. These are record
@@ -45,7 +48,7 @@ findings, not correctness findings; the list is in `results/DIGEST.md`.
 
 ## 5. What Phase D adds (certificates on the two undigested heads)
 
-- 187 PASS of 205 rows; the chain-critical ones pass by the seat's own hand (R46, R47). Nothing on the SM end of the
+- 187 PASS of 205 rows (plus q7_ledger_audit, vol_hygiene, anatomy_reconcile, d2_scope passing by hand); the chain-critical ones pass by the seat's own hand (R46, R47). Nothing on the SM end of the
   chain fails to run: hypercharge ratios (r019; universal given SM multiplicities, "independently of E6" in codex's
   words), up-Yukawa rank 0 in the dressing (r017), unique breaking chain and SUSY no-go (cloud), the 27's invariant
   census (jordan_beat, tensor_invariant_counts), the twisted-double cohomology (h¹ = 3).
@@ -59,7 +62,9 @@ findings, not correctness findings; the list is in `results/DIGEST.md`.
 
 ## 6. Bearing on the thesis
 
-Nothing in C or D moves the seat's standing statement. The structural chain (m004 → ℚ(√−3) → 2T → E6 → 27 → SM-shaped
+One thing in C moves a banked claim: the family-wide amphichirality closure (B1181/B1186) is false (R51), which
+returns B1163's family-wide W0 leg to B1180's honest state (unchecked → now checked: 34 of 77 all-regular siblings
+amphichiral, 43 chiral) without touching m004's own amphichirality. Otherwise nothing in C or D moves the seat's standing statement. The structural chain (m004 → ℚ(√−3) → 2T → E6 → 27 → SM-shaped
 bookkeeping) reproduces on this bench wherever it is code, including on the two heads Phase B never read. What does not
 reproduce is a scatter of banked *numbers* (B511's percentiles, B1213's shares, B549's unscripted eigenvector, the
 Vol(4₁) digit slip) and one certificate's headline sentence (no hypercharge room) — none of them load-bearing for the

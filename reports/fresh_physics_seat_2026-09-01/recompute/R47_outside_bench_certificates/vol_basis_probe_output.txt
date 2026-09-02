@@ -39,3 +39,14 @@ RESULT CONTROL (25-entry basis): cells=216 raw=117 involves_V=117 involves_regul
   156/216  raw=48  reg=0
   168/216  raw=60  reg=0
   180/216  raw=72  reg=0
+  192/216  raw=84  reg=0
+  204/216  raw=96  reg=0
+  216/216  raw=108  reg=0
+RESULT EXTENDED (28-entry basis, +vol): cells=216 raw=108 involves_V=108 involves_regulator=0 targets_with_regulator=0
+
+DONE
+
+real	34m29.485s
+user	81m4.997s
+sys	0m8.270s
+exit=0

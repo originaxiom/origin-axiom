@@ -484,7 +484,7 @@ re-swept over all 7 remote heads and the deleted-file history
   permute/A result. Verdict on B1127 unchanged: MATCH; the compact-referenced alternative does not rescue
   a compact colour from the mirror.
 
-Numbering note: cells are R01–R51; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
+Numbering note: cells are R01–R52; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
 
 ## DATED CLOSURES (2026-09-01, evening) — Phase B reader flags turned into cells
 
@@ -550,3 +550,4 @@ Numbering note: cells are R01–R51; `R26_b1080_b1011` and `R30_m004_symmetry_gr
 - **cloud spacetime64.py 'no hypercharge room' — CONTRADICTED by its own count (2 spare Cartan directions = u(1)² centraliser room; rank 6−4)** by `R49_spacetime64_room/`; the 64-gluing theorem itself reproduces. 2026-09-02.
 - **B775 V4 genericity table — REPRODUCES by direct check (8/8); committed script broken (symmetries()[0] probe)** by `R50_b775_v4_table/`. 2026-09-02.
 - **Family-wide amphichirality (B1181 83/83, B1186 112/112) — CONTRADICTED** by `R51_family_amphichirality/`: the mirror-isometry instrument is vacuous (is_isometric_to accepts orientation-reversing maps); by symmetry group + CS obstruction 74 of 112 (43 of the 77 all-regular) members are chiral, incl. B1181's own spot-check o10_150700 (CS = −1/12). 2026-09-02.
+- **B8070 self-refutation: anomaly cubic on the 5-dim charge space factors as −2yL(2yL+3yd)(4yL−3yd)/3 — MATCH** by `R52_b8070_anomaly_cubic/` (sympy); the committed script prints the refuted computation, the refutation is unscripted. 2026-09-02.

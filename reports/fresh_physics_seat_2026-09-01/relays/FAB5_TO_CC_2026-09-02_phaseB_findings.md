@@ -16,6 +16,15 @@ The W-E absence-sweep verdicts and the last ~50 arc packets are still landing; a
 | B258_two_ended_unification | "silver (m=2) … trace field DEGREE 8 — non-arithmetic"; "only the figure-eight has a quadratic trace field" (PROVED) | B147: silver RRLL is arithmetic, invariant trace field ℚ(i), vol = 12 × covol(PSL(2,ℤ[i])) — re-verified in R33/R35 | `two_ended_unification.py` l.13, l.41; FINDINGS l.15–21. Same Reid-for-knots misapplication B125 corrected in B123 |
 | B211 / B213 | "Φ(x,z) is 40a1" | Φ = 0 has j = 55296/5 = 40a3 (2-isogenous class-mate); B509/B510 already say so | R32; `frontier/B509_*`, `B510_*` |
 
+
+**Added 2026-09-02 06:20 UTC (Phase C, R51/R52):**
+
+| arc | verdict file says | the record / computation says | fix |
+|---|---|---|---|
+| B1181_amphichirality_closure (+ LAW_MAP §G row; B1163 addendum "83-of-83"; B1186 `amphichirality_failures: []`) | "83 OF 83 AMPHICHIRAL, zero exceptions … spot-verified 5/5 by the reliable mirror-isometry method (deliberately NOT isometry_signature)" | the method is `M.is_isometric_to(mirror)`, which SnapPy answers True for every orientable manifold (orientation-reversing isometries allowed) — the same vacuity as isometry_signature. By `symmetry_group().is_amphicheiral()` and the CS obstruction (2·CS ≡ 0 mod ½), **74 of the 112 family members are chiral (43 of the 77 all-regular)**, 36 of them provably by CS alone, including B1181's own spot-check o10_150700 (CS = −1/12). B1180's "UNCHECKED — an honest open" was the true state. R51 has the full table. | retract B1181's closure and its §G method-law row; re-scope B1163's family-wide W0 leg to the 34 amphichiral all-regular members; B1186 `amphichirality_failures` → 74 (43 in A); replace the instrument everywhere it appears (B1181, B1184, B1186 reproduce scripts) |
+| B8070_anomaly_rank_descent | FINDINGS refutes the arc (commutator norms 2.83/12.73/86.27; cubic −2yL(2yL+3yd)(4yL−3yd)/3) | committed script still prints the refuted computation; the refutation's numbers have no code. The cubic factorisation reproduces exactly by sympy (R52); the norms are unscripted | ship the refutation's script |
+| B1195 batch5a, GC-22 cell | q(S = φ⁻⁴) ≈ 1.5e−9 | the cell's own map q = e^{−2π/S} gives 1.98e−19 (its other two inputs reproduce to 6 digits) | correct the number (the exclusion only strengthens) |
+
 ## 2. Numbers in the bank that do not reproduce (each with the computed value)
 
 | arc | bank | recomputed | cell |
