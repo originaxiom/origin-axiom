@@ -42,3 +42,12 @@ exact E6 ⊂ gl(27) over ℚ(√−3); memo 161's stabiliser of a generic (x,y) 
 bracket closes, its Killing form has rank 28/28 (nondegenerate), and the centroid {T : T[x,y] = [Tx,y]} has nullity 1
 modulo two large primes, which (reduction can only drop rank, scalars give ≥ 1) proves dim_F Γ = 1 exactly — the
 stabiliser is central-simple over its field. PASS. (`c4_gue_larget.py` and `vol_basis_probe.py` still running.)
+
+**Addendum 4 (06:25 UTC) — `vol_basis_probe.py` (agent TIMEOUT at 600 s; seat rerun 34 m 29 s, exit 0):** re-derives
+B1137's regulator-probe machinery at the pinned commit, extends the pruned 25-entry regulator basis with Vol(m004)
+(computed from the dilogarithm), and re-runs the 18 sealed B743 targets × 3 degrees × 4 PSLQ bounds: CONTROL
+cells = 216, raw = 117, involves_regulator = 0, targets_with_regulator = 0; EXTENDED (+vol) cells = 216, raw = 108,
+involves_regulator = 0, targets_with_regulator = 0. Adding the volume to the basis changes nothing: no sealed target
+hits a regulator or the volume. Honest negative, consistent with B1137/B8110. PASS (as a negative).
+`c4_gue_larget.py` (GUE spacing test on ≥ 3000 zeros of ζ and L(χ₋₃)) is still computing zeros under its 90-minute
+budget; it is a literature-facing statistical test, not chain-critical, and its row lands when it finishes.

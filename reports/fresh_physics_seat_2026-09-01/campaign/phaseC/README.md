@@ -16,3 +16,14 @@ Input: `../phaseB/synthesis/load_bearing_unrecomputed.tsv` (1106 rows; indexed c
 - **C-4** synthesis §4 and the relay note updated; commit and push.
 
 Owner policy applied: cheap agents only for mechanical reruns; verdicts are the seat's; nothing banked to main.
+
+## Status 2026-09-02 06:25 UTC — Phases C and D closed
+
+C-1: 59/59 packets, 398 claims: REPRODUCES 115, PARTIAL 70, CANNOT_RUN 189, NOT_A_COMPUTATION 11, DIFFERS 13 — every
+DIFFERS judged by the seat in `SYNTHESIS.md` §2 (R48, R50, R51, R52 where recomputation was possible). C-3: R42–R45.
+D-1: 38/38 packets, 205 rows: PASS 187 (+4 by hand), FAIL 4 (two are the record's own negatives, one is
+`spacetime64.py` contradicting itself — R49, one duplicate), CANNOT_RUN 6 (pinned commit / path issues, resolved by
+hand where possible), TIMEOUT 3 (two rerun by hand and pass; `c4_gue_larget.py` still running). D-2: R46, R47, R49.
+D-3: OPEN_LATER verdicts annotated (arc-number collisions between main and the new-session head documented).
+Headline of the phase: the family-wide amphichirality closure (B1181/B1186) rests on a vacuous SnapPy call and is false
+(R51); everything on the SM end of the chain that is code runs and passes on this bench.
