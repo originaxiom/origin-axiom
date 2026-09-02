@@ -1,8 +1,16 @@
 {
-  "id": "B1236",
-  "verdict": "PROVED",
-  "instrument": false,
-  "creates_law": false,
-  "identifications": [],
-  "claim_one_line": "THE A1 LANDING AT EXACT MULTIPLET GRADE (codex R035, verified and independently re-implemented here): reading the unbroken algebra as the minimal A1's centralizer su(6) (B1098) and embedding su(3)+su(2)+u(1) by 6 = (3,1)_{-1/3}+(1,2)_{1/2}+(1,1)_0, the 27 = (Lambda^2 6,1)+(6bar,2_E) restricts to the SM-shaped E6 27 EXACTLY as a multiset of irreps (one generation + D, D^c, H_u, H_d, S), in exact arithmetic; the hypercharge direction is UNIQUE within the (6bar,2_E) support constraint (two traceless triples survive, one hits). Three typed controls: the charge HISTOGRAM admits a false positive (-1/6,1/2,-1/2) that fails at multiplet level (so this is strictly stronger than B1100's collapse-form grade at the A2); the EXTERNAL reading (2_E = weak, the su(6)+su(2)_L embedding) also matches abstractly and is excluded by TYPE only -- the A1 is not in its own centralizer, so under the centralizer reading the object's A1 can only be the SU(2)_R-like factor; a diagonal weak su(2) produces a triplet the target lacks. The extra u(1) is exhibited (commutant rank 2). COMPATIBILITY THEOREM: textbook Lie theory with no object-specific content beyond B1098's stratum; A1 selection, extra-u(1) breaking, chirality, generations, spin, dynamics and values all OPEN; no identification declared; Gate 5 untouched."
+ "id": "B1236",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE A1 LANDING AT EXACT MULTIPLET GRADE (codex R035, verified and independently re-implemented here): reading the unbroken algebra as the minimal A1's centralizer su(6) (B1098) and embedding su(3)+su(2)+u(1) by 6 = (3,1)_{-1/3}+(1,2)_{1/2}+(1,1)_0, the 27 = (Lambda^2 6,1)+(6bar,2_E) restricts to the SM-shaped E6 27 EXACTLY as a multiset of irreps (one generation + D, D^c, H_u, H_d, S), in exact arithmetic; the hypercharge direction is UNIQUE within the (6bar,2_E) support constraint (two traceless triples survive, one hits). Three typed controls: the charge HISTOGRAM admits a false positive (-1/6,1/2,-1/2) that fails at multiplet level (so this is strictly stronger than B1100's collapse-form grade at the A2); the EXTERNAL reading (2_E = weak, the su(6)+su(2)_L embedding) also matches abstractly and is excluded by TYPE only -- the A1 is not in its own centralizer, so under the centralizer reading the object's A1 can only be the SU(2)_R-like factor; a diagonal weak su(2) produces a triplet the target lacks. The extra u(1) is exhibited (commutant rank 2). COMPATIBILITY THEOREM: textbook Lie theory with no object-specific content beyond B1098's stratum; A1 selection, extra-u(1) breaking, chirality, generations, spin, dynamics and values all OPEN; no identification declared; Gate 5 untouched.",
+ "creates_law_reviewed": {
+  "date": "2026-09-02",
+  "arc": "L196 wave close (cc), pre-B1237",
+  "was": "false (declared at landing)",
+  "decision": "false",
+  "class": "VERIFICATION -- an independent exact re-implementation of codex R035's landing; the two theorem-shaped words in the headline are (i) 'COMPATIBILITY THEOREM', the arc's own label for textbook Lie theory with no object-specific content (the law, if any, is the textbook's), and (ii) 'UNIQUE', scoped to one embedding's (6bar,2_E) support constraint -- a finite exact computation on a cell, not a general proposition",
+  "basis": "read in full (FINDINGS + arc_verdict), not from the headline; the self-limits are already in the claim text (the EXTERNAL reading matches abstractly and is excluded by TYPE only; I-6 stays UNEARNED -- no spin-intertwiner identification is made). Caught by tests/test_b1211_declaration_gap.py on the wave-2 certifying suite (2026-09-02, rc=1 before this disposition)."
+ }
 }

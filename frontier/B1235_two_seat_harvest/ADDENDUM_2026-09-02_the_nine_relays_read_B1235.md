@@ -17,7 +17,7 @@ carries the content, and every correction below was re-derived on this bench bef
 | `CORNERSTONE_PLAN` | **BANKED** | the plan behind B993; B993 executed it (32.8% base rate; Reid-uniqueness consumed at zero steps, `frontier/B993_cornerstone_verified/FINDINGS.md:49`) |
 | `DAY_LOG` (sequence + six self-corrections) | **BANKED** | its one "still running" item, the parent eigenvalue r = 7.0720041858752050007371941867273, landed in B1021 |
 | `PATH_BEYOND_THE_WALL` (five-stage bulk/boundary) | **TRIAGED (B1009 addendum, ledger row 57) — the ask to cc3 stands** | content summarized on main since 08-10; cc3 reactivated 08-28, the file is now readable again |
-| `REVIVABLE_rationale` | **PARTIALLY ADOPTED — instrument queued** | the *data* exists (kill graph: 774 entries, `hatch` on 264, `revival_score ≥ 4` on 31, ≥ 3 on 84); the *practice* is standing (`docs/COMPUTE_THE_PROGRAM.md:92`: read the hatch before working a kill); a per-probe query exists (`scripts/atlas/query.py` mode 4 `revive`); the corpus-wide sealed listing cc3 proposed (`docs/REVIVABLE.md` + `--check`) was never built and B738's SHORTLIST (2026-07-21) indexes 217 of today's 774. Queued as **L195** |
+| `REVIVABLE_rationale` | **PARTIALLY ADOPTED — instrument queued** | the *data* exists (kill graph: 774 entries, `hatch` on 264, `revival_score ≥ 4` on 31, ≥ 3 on 84); the *practice* is standing (`docs/COMPUTE_THE_PROGRAM.md:92`: read the hatch before working a kill); a per-probe query exists (`scripts/atlas/query.py` mode 4 `revive`); the corpus-wide sealed listing cc3 proposed (a `REVIVABLE` index under docs/ (not yet written) + `--check`) was never built and B738's SHORTLIST (2026-07-21) indexes 217 of today's 774. Queued as **L195** |
 | `README_ARC_PROPOSAL` ("The arc, end to end" README section; B988 step 7b) | **UNACTIONED — owner's** | README has no such section; README is outward-facing (RED by the delegation charter). Listed with the HELD main-lineage edits for the owner |
 
 ## 2. HARVEST_MANIFEST — the eight that must not die, traced
@@ -43,7 +43,7 @@ carries the content, and every correction below was re-derived on this bench bef
 | 2 | Layer 3: registerability (DERIVED) forces the endpoint; maximal residual symmetry (ASSUMED) selects only the path — the confluence run, [3,2,1], six chains all → SM | **BANKED as B994** (`docs/LAW_MAP.md:330`; `frontier/B994_rule_variation/FINDINGS.md:20`); THE_FRAMEWORK:131 already cites it; the Layer 3 header at :173 still says "one principle (B861)" | dated cross-reference beside :173 |
 | 3 | Layer 5: the weight argument as a second, cheaper scale mechanism | **BANKED as B1022 C1**; the Gukov mechanism has since been rebuilt three times (B1012, B1088) and "normalisation owed" is gone; C1 not cross-referenced in Layer 5 | dated cross-reference beside the Gukov paragraph |
 | 4 | L134 "never addressed here" | **DISCHARGED** — :771 now reads "quantum numbers banked … the mass mechanism remains unaddressed" (B970/B978) | none |
-| 5 | Layer 6: build `docs/REVIVABLE.md` | partially adopted (§1) | L195 |
+| 5 | Layer 6: build a REVIVABLE index under docs/ (not yet written; L195 owns it) | partially adopted (§1) | L195 |
 | 6 | B1–B5 verdict hole | **closed same day (L196 executed)** | L196 |
 
 ## 4. The three-generations correction (the one that changes a headline)
