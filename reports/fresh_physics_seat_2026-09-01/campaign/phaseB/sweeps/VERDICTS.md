@@ -2,7 +2,7 @@
 
 Distinct claims swept: 1535 of 1535 in synthesis/absence_claims.tsv (sweep rows 1976; 441 rows are duplicates caused by the index shift, see `sweep_index_map.tsv`). Status by claim: DOC_ECHO 57, GENERIC 187, LEAD 1067, NO_HIT 167, UNSWEEPABLE 57.
 
-Verdicts (per distinct claim): 1124 — CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 89, GENERIC 29, STANDS 17, OPEN_LATER 10, CONTRADICTED 3.
+Verdicts (per distinct claim): 1124 — CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 90, GENERIC 29, STANDS 16, OPEN_LATER 10, CONTRADICTED 3.
 
 Verdict key: CONTRADICTED = the repo already holds what the claim says is absent (the claim is wrong as written); SUPERSEDED = a later arc supplied it (the claim was true when written, stale now); OPEN_LATER = supplied only on an unmerged head, or the later work is unverified; STANDS / CONSISTENT = the sweep found nothing that supplies it (STANDS when the seat also checked directly); NOISE = co-occurrence only; GENERIC = terms too common for the sweep to say anything; REGISTRY_ECHO = only index/ledger files echo the claim. DOC_ECHO / NO_HIT rows carry no verdict: the sweep found no text outside catch-all files, so the claim stands as far as the repository text goes.
 
@@ -14,7 +14,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1243 B1191_close_loop_batch3** (ication/batch3_cells.json GC-15 evidence): tests/test_b279_spin_structure_bit.py exists on main, so "F3 ... has ZERO test coverage anywhere in the repo" is false as stated; whether that file locks the spin-vs-orientation bit is a separate question
 - **#1498 B8141_artifact_dependence** (DINGS.md:Deliberately not in the finding): both files exist on the structure-genesis head: frontier/B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md and frontier/B8090_cold_audit_f1/relays/CC3_TO_CC_2026-08-19_I_WAS_WRONG_THE_REAL_DEFECT.md; "absent" held only on the head B8141 looked at
 
-## SUPERSEDED (89)
+## SUPERSEDED (90)
 
 - **#20 B58_phaseA** (B58_phaseA/B62_STATUS.md:16): B742/B745 (2026-07-21) computed the ambient SL(4) Jacobian and reproduce B59's factorisation; B58's 'not derived here' is negated by its own correction header
 - **#25 B58_sl4_tower_test** (ower_test/FINDINGS.md, 'Verdict' section): B58_sl4_tower_test correction header: headline negated by B742+B745
@@ -80,6 +80,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1439 B8099_3d_completeness** (FINDINGS.md:415): B8119: "the E6 STATE INTEGRAL DISSOLVES (no dynamical E6, no such object)"
 - **#1440 B8099_3d_completeness** (FINDINGS.md:415): B8119: the 4d lift is OUT OF SCOPE by owner ruling; B277 is the earlier obstruction
 - **#1467 B8110_scale_factorisation** (-08-21.md 'What has NOT changed' section): B8111_genericity_control ran Phase-0 item 0 (sealed prereg; bites on 2 of 5 tones; sealed prediction wrong)
+- **#1489 B8135_paper1_drafted** (FINDINGS.md SCOPE): B8148_m12_settled (structure-genesis head) settles the count at 3; R42 confirms with PARI h(148)=3 and an independent reduced-form enumeration (m=1..11 table reproduced)
 - **#1500 B8144_price_reconciliation** (FINDINGS.md): B1164 ADDENDUM_price_reconciliation l.15: "time's arrow ... absent ... B1164 MISSED it" -- registered as a residue, so the absence is now acknowledged in B1164 itself
 - **#1506 B8153_b500_accounting** (arc_verdict.json:claim_one_line): B8153 own hunt_d5_finish.py (structure-genesis head, 2026-08-28) runs the nine never-reached words; B1187 addendum confirms no AIRLOCK anywhere in the banked logs
 - **#1508 P3_depth_exposure** (d:Stabilization needed for the 7 exposed): B767 (R28-10) ran 6 of the 7 exposed kills and stabilized two (B1187 finding, #1230)
@@ -119,7 +120,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#908 B1030_input_typing_audit** (FINDINGS.md section 2): B1030 lives on origin/claude/new-session-qor5up; on main B1025's 'zero' stands (as #894)
 - **#1207 B1162_mssm_debt_closure** (r/B1162_mssm_debt_closure/FINDINGS.md:54): check_charge_bracket.py exists on origin/codex/seat-r001 (certificates/r006_e6_invariants/paper/verify/) and origin/paper/structure-genesis-first (papers/structure_paper/verify/); the "deeper stack" is on two heads, so the breaking_chains/susy_test re-run is now possible and was not done
 
-## STANDS (17)
+## STANDS (16)
 
 - **#14 B24_anyon_quantum_bridge** (er/B24_anyon_quantum_bridge/README.md:19): 5 -> k+2 identification is a numerology B24 itself declines; no arc derives it
 - **#15 B24_anyon_quantum_bridge** (/B24_anyon_quantum_bridge/FINDINGS.md:16): as #14
@@ -132,7 +133,6 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1002 B1067_rayclass_harvest** (FINDINGS.md, census gap-list): never computed in the repo; checked here: PARI bnfinit(x^2-x-1).no = 1, qfbclassno(5) = 1
 - **#1003 B1067_rayclass_harvest** (FINDINGS.md, census gap-list): no Dedekind-zeta special value of Q(sqrt5) anywhere; not computed here either
 - **#1004 B1067_rayclass_harvest** (FINDINGS.md, census gap-list): checked here: PARI bnfinit(x^2-x-1).fu = -phi (a fundamental unit up to sign); the repo never proves minimality
-- **#1489 B8135_paper1_drafted** (FINDINGS.md SCOPE): the 2-vs-3 primitive-class count at m=12 is UNRESOLVED on both heads; nothing later resolves it (a live discrepancy for the relay)
 - **#1546 B449_forcing_boundary** (FINDINGS.md item 1): true independently: 5_2 has Alexander polynomial 2t^2-3t+2, non-monic, hence not fibered
 - **#1682 B571_day0_internalization** (REPORT.md item A1): no tests/test_b507*.py on any head (checked all 7 remote heads)
 - **#1727 B595_dictionary** (DICTIONARY.md row 7 / FINDINGS.md D4): B650 later proves it at the linear level: the exact Sylvester solve gives T=0 uniquely (no nonzero monodromy-equivariant linear map)

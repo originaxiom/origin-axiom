@@ -189,8 +189,8 @@ sweep index to its claim and marks duplicates; where duplicate rows disagree the
 
 Status by claim: LEAD 1067, GENERIC 187, NO_HIT 167, DOC_ECHO 57, UNSWEEPABLE 57. The seat wrote a verdict by hand on
 every LEAD, REGISTRY_ECHO and UNSWEEPABLE claim (`sweeps/VERDICTS.tsv`, 1456 rows incl. duplicates; `sweeps/VERDICTS.md`
-lists the ones that matter): per distinct claim CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 89, GENERIC 29,
-STANDS 17, OPEN_LATER 10, CONTRADICTED 3.
+lists the ones that matter): per distinct claim CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 90, GENERIC 29,
+STANDS 16, OPEN_LATER 10, CONTRADICTED 3.
 
 What the sweep found, in the owner's terms ("before you conclude we don't have something, sweep the repo first"):
 
@@ -227,11 +227,11 @@ What the sweep found, in the owner's terms ("before you conclude we don't have s
   B1039/B1043/B1045; the Maass degree-law / full window on `audit/b775-braver-questions`; B1162's cited
   `check_charge_bracket.py` on `origin/codex/seat-r001` and the structure-genesis head.
 - **A computed cell was deleted from the record** and re-run (R39): `_verify_Z1`, 21/21 levels reproduced.
-- **17 claims STAND after a direct check**: Regina not installed here either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1 and the
+- **16 claims STAND after a direct check**: Regina not installed here either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1 and the
   fundamental unit φ never computed in-repo (PARI here); 5₂ is not fibered (Alexander polynomial 2t²−3t+2, non-monic);
   no `tests/test_b507*` on any head; `stage1_classes.pkl` on no head; B595's "no functorial monodromy-equivariant map"
-  is now B650's theorem (T = 0 uniquely at the linear level); B8135's 2-vs-3 primitive-class count at m = 12 is
-  unresolved on both heads.
+  is now B650's theorem (T = 0 uniquely at the linear level); B8135's 2-vs-3 primitive-class count at m = 12 was
+  flagged as unresolved but B8148 settles it at 3 and R42 confirms (PARI h(148) = 3; own enumeration) — moved to SUPERSEDED.
 - The instrument's limits: 187 GENERIC-status claims and 29 GENERIC verdicts (terms too common), 224 DOC_ECHO / NO_HIT
   claims (nothing outside catch-all files; the claim stands as far as the repository text goes), 290 REGISTRY_ECHO
   claims (only ledgers echo the claim).

@@ -1125,7 +1125,7 @@ i	arc	where	status	verdict	note	quote
 1486	B8131_brief_triage	FINDINGS.md verdict	LEAD	CONSISTENT		exceptional groups are absent [from state-integral literature covering SL(2,C)/SL(n,C)]
 1487	B8131_brief_triage	FINDINGS.md scope	LEAD	CONSISTENT		NOT an exhaustive literature survey: absence here means absent from the literature reached today
 1488	B8135_paper1_drafted	FINDINGS.md 'Correction recorded'	LEAD	CONSISTENT		None PROVED [OA-C0001 REFUTED, OA-C0002/OA-C0003 CONDITIONAL] — and the paper's Appendix B says so
-1489	B8135_paper1_drafted	FINDINGS.md SCOPE	LEAD	STANDS	the 2-vs-3 primitive-class count at m=12 is UNRESOLVED on both heads; nothing later resolves it (a live discrepancy for the relay)	An independent count reports 2 primitive classes at m=12 where this gives 3. UNRESOLVED
+1489	B8135_paper1_drafted	FINDINGS.md SCOPE	LEAD	SUPERSEDED	B8148_m12_settled (structure-genesis head) settles the count at 3; R42 confirms with PARI h(148)=3 and an independent reduced-form enumeration (m=1..11 table reproduced)	An independent count reports 2 primitive classes at m=12 where this gives 3. UNRESOLVED
 1490	B8137_paper3_drafted	FINDINGS.md 'A gap in this seat's own bank, found and filled'	LEAD	CONSISTENT	B8129/B8130 dirs on the structure-genesis head carry FINDINGS/arc_verdict/results.json and no .py (B8129 listed: no code)	B8129 and B8130 are banked as results.json with NO code in the tree
 1491	B8137_paper3_drafted	FINDINGS.md SCOPE	LEAD	CONSISTENT	as #1484	Convergence of the n=2 factor is NOT proved... Status is 'no evidence of breakdown; existence unproved'
 1492	B8137_paper3_drafted	FINDINGS.md SCOPE	LEAD	CONSISTENT		The one-loop partition function is not assembled. No measured quantity and no identification with any observable.

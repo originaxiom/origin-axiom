@@ -65,7 +65,7 @@ Coverage is now 1535/1535 distinct claims; the counts below are per distinct cla
 
 1535 absence claims were swept over the six other heads and the deleted-file corpus; verdicts by hand on every LEAD,
 REGISTRY_ECHO and UNSWEEPABLE claim (`campaign/phaseB/sweeps/VERDICTS.md` lists the ones that matter; `VERDICTS.tsv` has
-every row): CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 89, GENERIC 29, STANDS 17, OPEN_LATER 10,
+every row): CONSISTENT 554, REGISTRY_ECHO 290, NOISE 132, SUPERSEDED 90, GENERIC 29, STANDS 16, OPEN_LATER 10,
 CONTRADICTED 3.
 
 - **Wrong as written (3):** (1) B778_cleanup's own FINDINGS l.21–24 ("Pending the next pass … CL-W4115 … Never ran. /
@@ -101,11 +101,12 @@ CONTRADICTED 3.
   Z_k = Tr ρ_k(A1) ladder to k = 22, incl. Z_18 = 2 − √5), removed by c8f3167c as "accidentally-committed scratch";
   recovered and re-run in `recompute/R39_recovered_Z1_ladder/`: 21/21 shared levels agree. If the table is wanted, it
   belongs beside the Wave-4 correction as a results file.
-- **STAND after direct check (17):** e.g. Regina not installed on this bench either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1
+- **STAND after direct check (16):** e.g. Regina not installed on this bench either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1
   and the fundamental unit φ never computed in-repo (PARI here: bnfinit(x²−x−1).no = 1, .fu = −φ); 5₂ not fibered
   (Alexander 2t²−3t+2 non-monic); no `tests/test_b507*` on any of the 7 heads; `stage1_classes.pkl` on no head; B595's
-  absent equivariant map is now B650's theorem (T = 0 uniquely); **B8135's 2-vs-3 primitive-class count at m = 12 is a
-  live unresolved discrepancy on both heads** — worth a cell.
+  absent equivariant map is now B650's theorem (T = 0 uniquely); B8135's 2-vs-3 primitive-class count at m = 12: B8148 settles it at 3 and my R42 confirms
+  (PARI h(148) = 3 plus an independent reduced-form enumeration; the banked m = 1..11 table reproduced) — Paper I's SCOPE
+  remark can be closed.
 - The rest: 554 CONSISTENT, 132 NOISE, 29 GENERIC, 290 registry-only echoes; 224 claims the sweep could not test
   (DOC_ECHO / NO_HIT), 187 GENERIC by status.
 

@@ -484,7 +484,7 @@ re-swept over all 7 remote heads and the deleted-file history
   permute/A result. Verdict on B1127 unchanged: MATCH; the compact-referenced alternative does not rescue
   a compact colour from the mirror.
 
-Numbering note: cells are R01–R41; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
+Numbering note: cells are R01–R42; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
 
 ## DATED CLOSURES (2026-09-01, evening) — Phase B reader flags turned into cells
 
@@ -539,3 +539,5 @@ Numbering note: cells are R01–R41; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   Z_k = Tr ρ_k(A1) ladder to k = 22, incl. Z_18 = 2−√5) was removed by c8f3167c as "accidentally-committed scratch";
   re-run byte-for-byte here it REPRODUCES 21/21 shared levels. The correction kept the conclusion and dropped the
   evidence; relay item.
+
+- **B8135/B8148 m = 12 class count — CLOSED, MATCH (3)** by `R42_m12_class_count/` (PARI h(148) = 3; own reduced-form enumeration; the banked m = 1..11 GL(2,ℤ) table reproduced as a control). 2026-09-02.
