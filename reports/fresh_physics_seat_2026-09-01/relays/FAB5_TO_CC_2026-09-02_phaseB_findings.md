@@ -55,31 +55,38 @@ Cells: `recompute/R31_*` … `R41_*`, closures in `recompute/R3_REPORT.md`.
 ledger rows. Rule 1 (sweep before any absence claim) and rule 2 (read all arcs/belts/tests through the logs) were
 executed as `campaign/PHASE_B_FULL_READ.md` records.
 
-## 6. Absence claims (owner rule 1: sweep before concluding absence) — part 1 of the W-E sweep
+## 6. Absence claims (owner rule 1: sweep before concluding absence) — the W-E sweep, both parts
 
-545 absence claims extracted by the readers were swept over the six other heads and the deleted-file corpus;
-the seat wrote 388 verdicts by hand (`campaign/phaseB/sweeps/VERDICTS.md` lists the ones that matter):
+1068 absence claims extracted by the readers were swept over the six other heads and the deleted-file corpus; the seat
+wrote 783 verdicts by hand (`campaign/phaseB/sweeps/VERDICTS.md` lists the ones that matter; `VERDICTS.tsv` has every row):
 
-- **Wrong as written (1):** B806_lexicon_blindness' table says CL-W4115 "Never ran"; `frontier/B778_cleanup/cells/CL-W4115/`
-  has compute.py, output.txt, results.json (chord '1,5,19,71' REAL: True).
-- **Stale, never corrected in the arc (18):** B58 "SL(4) not built here" (B742/B745 built it); B265/B270 "cup-product
-  obstruction not computed" (B273: vanishes identically); B849/B850/B852 "m004 Maass eigenvalues never computed /
-  Hejhal not in-sandbox" (B797's 17, B1007 arb); B73/B75 SL(4) Dehn-filling nulls (B88's census); B306 "no dim-14
-  centraliser" (B892); B872 "cell9 verdict2 exists nowhere" (B921 harvested it); B204 "normalisation unresolved"
-  (OI-063 all-t proof); B21 "no Einstein equation" (B259, 3d); B126/B123 "no trace-field classifier" (W3-067);
-  B85 "numerical routes are DEAD" (B742); B289's m003/m136 extensions (B855/B995); B272 "hypercharge unaddressed"
-  (B862/B1160); B931 "no null non-commensurable with both" (m009 in B850/B855).
-- **Answered only off main (10):** B1026_the_one_involution (exchange symmetry) and B1039/B1043/B1045 exist on
-  `origin/claude/new-session-qor5up` only; Maass degree-law / full window on `audit/b775-braver-questions`.
+- **Wrong as written (2 rows, one defect):** B806_lexicon_blindness' table says CL-W4115 "Never ran";
+  `frontier/B778_cleanup/cells/CL-W4115/` has compute.py, output.txt, results.json (chord '1,5,19,71' REAL: True).
+- **Stale, never corrected in the arc (44):** B58 "SL(4) not built here" (B742/B745); B265/B270 "cup-product obstruction
+  not computed" (B273: vanishes); B849/B850/B852 "m004 Maass eigenvalues never computed / Hejhal not in-sandbox"
+  (B797's 17, B1007 arb); B73/B75 SL(4) Dehn-filling nulls (B88); B306 "no dim-14 centraliser" (B892); B872 "cell9
+  verdict2 exists nowhere" (B921 harvested it); B204 "normalisation unresolved" (OI-063); B21 "no Einstein equation"
+  (B259, 3d); B126/B123 "no trace-field classifier" (W3-067); B85 "numerical routes are DEAD" (B742); B289's m003/m136
+  extensions (B855/B995); B272 "hypercharge unaddressed" (B862/B1160); B931/B855 "no null non-commensurable with both"
+  (m009 in B850/B855); B958/B961/B974 "no independent construction of the frame / M12" (B978: B911 built it, definitions
+  in CMT_DRAFT §2); B968/B952 "exotics never addressed" (B951/B962/B970); B1009 "no cascade on any m ≥ 2 grammar"
+  (B1019); B1119 "compact colour open" (B1125 NO-COMPACT-HOST); B1107/B1113 "verifier never executed" (B1207);
+  B796/B921 "frontier/B909* does not exist" (it does); the unharvested B796 files (B921 harvested them).
+- **Answered only off main, or contradicted there (13):** B1026_the_one_involution (exchange symmetry) and B1030
+  (ONE continuous dimensionless input remains — contradicting B1025's "none" on main) on
+  `origin/claude/new-session-qor5up`; B1039/B1043/B1045; the Maass degree-law / full window on
+  `audit/b775-braver-questions`.
 - **A computed cell deleted from history, re-run, reproduced:** `frontier/B775_phase2_wave1/cells/_verify_Z1/`
   (P2W4-Z1, the exact Z_k = Tr ρ_k(A1) ladder to k = 22, incl. Z_18 = 2 − √5), removed by c8f3167c as "accidentally-
   committed scratch"; recovered under `campaign/phaseB/sweeps/deleted_corpus/` and re-run byte-for-byte in
   `recompute/R39_recovered_Z1_ladder/`: 21/21 shared levels agree. The correction commit kept the conclusion and dropped
   the evidence; if the table is wanted, it belongs beside the Wave-4 correction as a results file.
-- The rest: 8 STANDS after direct check, 97 CONSISTENT, 117 NOISE, 4 GENERIC, 114 registry-only echoes; 88 rows the
-  sweep could not test (DOC_ECHO / NO_HIT: nothing outside catch-all files).
+- **STAND after direct check (11):** e.g. Regina not installed on this bench either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1
+  and the fundamental unit φ are never computed in-repo (PARI here: bnfinit(x²−x−1).no = 1, .fu = −φ).
+- The rest: 293 CONSISTENT, 206 NOISE, 11 GENERIC, 203 registry-only echoes; 161 rows the sweep could not test
+  (DOC_ECHO / NO_HIT).
 
 ## 7. Still landing
 
-Part 2 of the sweep (claims 545–1068 from the later packets), the last ~40 arc packets, the completeness critic.
-Final note to follow.
+The last ~14 arc packets (their absence claims get a small third sweep), the final rollup counts, and the paper-facing
+summary. This note becomes final when `campaign/phaseB/synthesis/coverage.md` reads 131/131.
