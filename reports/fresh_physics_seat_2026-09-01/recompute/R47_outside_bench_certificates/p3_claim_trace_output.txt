@@ -1,0 +1,12 @@
+=== p3_claim_trace
+arc records at the paper's own commit 89affd5b: 1119
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob/outside_bench/certificates/p3_claim_trace.py", line 91, in <module>
+    json.dump(out, open("/tmp/claude-0/-home-user-golden-gate/7aec077f-59a6-5129-b1a7-361cc5dcb800/scratchpad/trace_candidates.json","w"), indent=1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/claude-0/-home-user-golden-gate/7aec077f-59a6-5129-b1a7-361cc5dcb800/scratchpad/trace_candidates.json'
+
+real	0m1.856s
+user	0m1.269s
+sys	0m0.107s
+exit=1

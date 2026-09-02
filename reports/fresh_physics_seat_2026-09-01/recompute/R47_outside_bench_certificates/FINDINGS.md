@@ -29,3 +29,10 @@ mechanism disagreement, not as a contradiction. (3) Nothing here is a value: eve
 `anatomy_reconcile.py` and `d2_scope.py`). Fetched by SHA from origin (GitHub serves it), after which both run clean:
 `anatomy_reconcile.py` → "R4 — THE VERDICT (criterion fixed in advance): ORTHOGONAL AXES"; `d2_scope.py` exit 0
 (outputs added). Any further pinned-commit CANNOT_RUN rows in the Phase D digest are re-run by hand the same way.
+
+**Addendum 2 (04:50 UTC) — the Phase D digest's remaining non-PASS rows, resolved by hand.** `vol_hygiene.py` needs
+`frontier/B1137_regulator_probe` on the path (it imports `basis`/`regulators` from there); with that it passes: vol,
+vol_pinorm, vol_over_zetaK2 all INDEPENDENT of the existing regulator basis → KEEP, DROPPED 0 (`vol_hygiene_output.txt`,
+84 s). `p3_claim_trace.py` writes its JSON to another session's hard-coded scratch path and is a human-review dump, not a
+certificate. Its pinned commit 89affd5b is not fetchable by SHA. `q7_ledger_audit.py`, `vol_basis_probe.py` and
+`c4_gue_larget.py` (agent TIMEOUTs at 600 s) are rerunning with 40–90 min budgets; rows follow.
