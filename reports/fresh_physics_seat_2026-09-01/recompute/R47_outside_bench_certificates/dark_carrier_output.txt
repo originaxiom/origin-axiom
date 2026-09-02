@@ -2,3 +2,32 @@
 stage 0: e6 loaded, 72 roots, dim 78
 stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
 stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: E27 support pairs by (bottom class -> top class): {('1', '16'): 1, ('16', '10'): 5}
+   chain census: rank from 16-bottoms = 5 (expect 5), from singlet-bottom = 1 (expect 1)
+   => the clock walks the family ladder: 1 -> 16 -> 10, charge -3 per rung;
+      the singlet is the BOTTOM of a chain whose top is SM-shaped
+FACT 2: carrier slots by class: {'1': 2, '16': 32, '10': 20}; locked (matter) per class: {'1': 2, '16': 12, '10': 10}
+   => BOTH of the singlet's carrier slots are in the locked matter sector
+FACT 3: joint cusp-fixed space dim = 12 (expect 12)
+   class  16: d_proj = 7, d_int = 1
+   class  10: d_proj = 10, d_int = 5
+   class   1: d_proj = 1, d_int = 0
+FACT 4 (corollary of banked memos 53+56): the E8 family channel realizes
+   every family assignment of every triple, so the portal is family-
+   democratic: the 10-role and the 1-role visit each family.
+
+THE FAMILY ESCALATOR: the object's internal clock does not respect the
+family frame — each rung shifts family charge by -3, so the six internal
+doublets straddle classes: five carry 16 -> 10 and one carries 1 -> 16.
+The dark matter candidate (the singlet) is the bottom of a chain whose top
+is SM-shaped, both its carrier slots are locked matter slots, and the class
+content of the cusp-fixed space is tabulated above.  Kinematics only; the
+D5 frame fence of memo 56 applies throughout; Gate 5 untouched.
+
+real	0m12.075s
+user	0m8.418s
+sys	0m0.052s
+exit=0
