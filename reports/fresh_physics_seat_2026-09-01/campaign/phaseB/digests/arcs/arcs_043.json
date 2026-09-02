@@ -1,0 +1,207 @@
+{
+ "batch": "arcs_043",
+ "arcs": [
+  {
+   "arc": "B651_wave3_integration",
+   "source": "main",
+   "files_read": [
+    "frontier/B651_wave3_integration/ARTIFACT_HASHES.txt",
+    "frontier/B651_wave3_integration/FINDINGS.md",
+    "frontier/B651_wave3_integration/arc_verdict.json",
+    "frontier/B651_wave3_integration/cc2_packets/MANIFEST_2026-07-16.md",
+    "frontier/B651_wave3_integration/cc2_packets/ORIGINALS_MANIFEST.txt",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/PACKET_README.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/SEALS.txt",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/STATUS.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d1_nogo/NO_GO_NOTE.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d2_melody/FINDINGS_CC2.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d2_melody/PREREG_D2.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d2_melody/d2_results.json",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d2_melody/d2_run.py",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d3_child/FINDINGS_CC2.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d3_child/PREREG_D3.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d3_child/PRICED_LEDGER.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d3_child/compute_d3i.py (first 120 lines)",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d3_child/d3i_results.json",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d3_child/d3ii_compute.py",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d3_child/d3ii_table.json (partial)",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d4_su3/FINDINGS_CC2.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d4_su3/PREREG_D4.md",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d4_su3/d4_results.json (partial)",
+    "frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d4_su3/d4_su3_run.py (first 120 lines, SAMPLE_CODE)",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/PACKET_README.md",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/SEALS.txt",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/STATUS.md",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p4_sectors/FINDINGS_CC2.md",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p4_sectors/PREREG_P4.md",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p4_sectors/p4_results.json (partial)",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p4_sectors/p4_run.py (first 120 lines, SAMPLE_CODE)",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p3_psl/P3_NOTE.md",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p0_s_verify/FINDINGS_CC2.md",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p0_s_verify/p0_results.json (partial)",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p0_s_verify/verify_b649.py (first 120 lines, SAMPLE_CODE)",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p1_milgram/FINDINGS_CC2.md",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p1_milgram/p1_certificates.json (partial)",
+    "frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p1_milgram/p1_milgram.py (first 100 lines)",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/PACKET_README.md",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/SEALS.txt",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/STATUS.md",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f2_psl/PSL_THEOREM.md",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f3_twisted/FINDINGS_CC2.md",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f3_twisted/PREREG_F3.md",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f3_twisted/f3_twisted.py (first 80 lines)",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/FINDINGS_CC2.md",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/f4_results.json (partial)",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/hash_audit.py",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/stage2_results.json",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/stage3_numeric_results.json",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/stage3_solo_exact_results.json",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/stage3b_diff.txt",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/verify_stage2.py (first 80 lines)",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/verify_stage2b.py",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/verify_stage3_numeric.py (first 100 lines)",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/verify_stage3_solo_exact.py (first 100 lines)",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f1_jump/JUMP_LAW_THEOREM.md",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f1_jump/f1_certificates.json (partial)",
+    "frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f1_jump/f1_certificates.py (first 100 lines, SAMPLE_CODE)"
+   ],
+   "files_sampled": [
+    "d4_su3_run.py (SAMPLE_CODE, first 120 lines only, of 22826 bytes)",
+    "p4_run.py (SAMPLE_CODE, first 120 lines only, of 15086 bytes)",
+    "verify_b649.py (SAMPLE_CODE, first 120 lines only, of 23129 bytes)",
+    "compute_d3i.py (large file, first 120 lines read out of ~5k lines-equivalent; stopped once protocol/gates were clear)",
+    "verify_stage3_numeric.py / verify_stage3_solo_exact.py (first 100 lines only, of 9718/9099 bytes)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Wave-3 packets verified at seal level (21/21), promoting the uniform jump law and the generic-silence law to theorem/certificate grade and proving the E6 Z-ladder periodic with period N_0 = 2,311,598,520,000.\"",
+   "log_says": "PROGRESS_LOG.md 2026-07-16: 'the ALL bundle deduped ... packets 4-6 processed: 21/21 seals exact'; REVIEWS.md Review 21 lists as NEW THEOREMS: 'the melody theorem + jump law (325/325) + PSL-factoring + generic-silence CERTIFIED (B651)'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "F1 uniform jump law |G_w(r)|^2 = prod p^(a+min(v_p(r),a)), 325/325 exact integer certificates",
+     "where": "f1_jump/f1_certificates.py, f1_jump/f1_certificates.json, f1_jump/JUMP_LAW_THEOREM.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "f1_certificates.py is committed in full, reuses gauss_exact()/cyc_reduce() (also committed, in p1_milgram.py) and elem_divisors()/vp() cited from proof_queue/q3_proofs/q3_lemmas.py; computation is exact integer/sympy-Poly arithmetic (no floats) and the certificate JSON with per-class per-r match:true values is committed. The 2-adic 'no case split' argument is a stated proof sketch (textbook local-forms argument), not a machine-checked proof, but the numerical/exact-integer instances backing it are all present."
+    },
+    {
+     "what": "F2/P3 PSL-factoring theorem (central-element form): stage-typed kill rule = representation theory",
+     "where": "f2_psl/PSL_THEOREM.md, promotion_queue/p3_psl/P3_NOTE.md",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "no",
+     "why": "F2's central-element table is described as 'EXACT integer arithmetic' but no f2_run.log, f2 code, or f2 results JSON is present in the committed tree (only the prose PSL_THEOREM.md); the actual table backing '19 factor-rows, 7 realized, zero violations' is not committed anywhere in this arc. The constituent-level corollary explicitly rests on a CITED (not verified in-repo) congruence property (CSP, Bantay/Ng-Schauenburg) and the 'one priced step to theorem' (decomposing the k=6 odd block) is stated as NOT YET DONE."
+    },
+    {
+     "what": "D2 melody theorem: E6 Z-ladder periodic with N0 = 2^6*3^3*5^4*7^2*11^2*19^2, 6/6 sealed pairs at 'deviation exactly 0.0'",
+     "where": "d2_melody/d2_run.py, d2_melody/d2_results.json, d2_melody/FINDINGS_CC2.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "d2_run.py is fully committed and reproducible (imports a banked pipeline, runs at fixed r's including trillion-scale kappa+N0); d2_results.json is committed with the raw (re,im) floats. However the FINDINGS' phrase 'deviations EXACTLY 0.0 (not approximate)' overstates the actual data: the committed JSON shows differences on the order of 1e-15 to 5e-15 (float/complex arithmetic, mpmath dps=30 mixed with numpy complex128), which is floating-point noise, not literal exact equality -- see red flag NUMERIC_ONLY_NO_EXACT."
+    },
+    {
+     "what": "D4 SU(3) resonance-spectrum law LAW-HOLDS at 10 decisive off-range rungs (~1e-51)",
+     "where": "d4_su3/d4_su3_run.py, d4_su3/d4_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "d4_su3_run.py (sampled, first 120 lines) verifies its own prereg sha256 at runtime and builds W(A2)=S3 from scratch; d4_results.json is committed with per-rung predictions. mpmath dps=50 gives residuals at ~1e-51, i.e. numeric-precision agreement, not an exact/symbolic proof of the closed form itself (the closed form's derivation from the A2 resonance spectrum is argued in prose, and the code checks agreement to float precision)."
+    },
+    {
+     "what": "D5/F3: no equivariant (straight or swap-twisted) triality action on H1(D;27), 8/8 patterns, dim 0",
+     "where": "d5_triality/d5_triality.py, f3_twisted/f3_twisted.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Both scripts are committed in full and perform exact linear algebra (rref over an exact field K, not floats) on data rehydrated from a pickle file (stage1_classes.pkl) that is NOT among the files listed for this arc / not verified present -- its provenance (B575/B299 outputs) is asserted, not independently re-derived here. The float-SVD 'commutant dim 415' diagnostic is explicitly labeled non-exact by the source itself."
+    },
+    {
+     "what": "P0/F4: B649 stage 1-3b-i VERIFIED on an independent code path (hash audits, exact-field cross-checks)",
+     "where": "p0_s_verify/verify_b649.py, f4_receipt/verify_stage2.py, verify_stage2b.py, verify_stage3_numeric.py, verify_stage3_solo_exact.py, hash_audit.py, and their *_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "The verification scripts are committed and read hashes from B649_silver_holonomy's ARTIFACT_HASHES.txt (an external arc, not re-verified here), so full reproduction requires that other arc's artifacts too. More importantly the FINDINGS explicitly documents that the verified artifact's own sealed output.txt contains a FALSE claim ('mpmath.pslq minimal polynomials at two precisions' when the script has no pslq call) and a FALSE witness identity ('the ratio of the two exact traces gives i', actually = 1+i) -- i.e. the object being verified itself carries uncorrected errors in its own sealed prose, discovered but only patched by an external note, not by editing the original sealed artifact."
+    },
+    {
+     "what": "P4: inert<=>even-sector correlate killed at r=23; second silence (kappa=25) is a sector cancellation",
+     "where": "p4_run.py, p4_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "p4_run.py (sampled) is a self-contained, prereg-gated, prediction-first script; p4_results.json contains the full det multisets and gate flag. This is the strongest, most falsification-honest result in the arc -- a genuine kill of the seat's own prior correlate."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No dedicated verification/ directory exists for this arc; the arc's own internal structure IS a verification exercise (cc2's 'track-S verify' packets independently re-derive numbers already banked elsewhere in the repo, e.g. B649's stages, the E6 jeffrey pipeline). But the second-order verification chain (P0/F4 verifying B649; D5/F3 rehydrating a pickle from B575) itself depends on artifacts outside this arc that were not re-read here, so it is a re-read/cross-check belt, not an independently re-run one from first principles within this arc alone.",
+   "absence_claims": [
+    {
+     "quote": "There is no accumulated-limit / \"song\" channel in this observable family for anything (SM constants included) to condense from.",
+     "where": "cc2_packets/loops_queue/loops_queue/d2_melody/FINDINGS_CC2.md:14"
+    },
+    {
+     "quote": "no golden volume ratio (nearest: 0.483461 vs log phi = 0.481212, off 2.2e-3 = 2200x tolerance — a MISS...); no 2 log phi geodesic; PSLQ over 18 documented combinations finds nothing.",
+     "where": "cc2_packets/loops_queue/loops_queue/d3_child/FINDINGS_CC2.md:9-11"
+    },
+    {
+     "quote": "to our knowledge no published \"E6 state-integral\" construction exists at all — this route may not just be expensive, it may not yet be a *defined* object in the literature.",
+     "where": "cc2_packets/loops_queue/loops_queue/d3_child/PRICED_LEDGER.md:45"
+    },
+    {
+     "quote": "We are aware of no existing package that computes colored RT invariants for an exceptional Lie algebra at arbitrary rank/color for a general knot; this would be built from scratch.",
+     "where": "cc2_packets/loops_queue/loops_queue/d3_child/PRICED_LEDGER.md:62-63"
+    },
+    {
+     "quote": "No manipulation of the banked S/T data can produce this: S and T supply only the twist/quantum-dimension bookkeeping in the surgery formula above, never the knot-colored term.",
+     "where": "cc2_packets/loops_queue/loops_queue/d3_child/PRICED_LEDGER.md:81-82"
+    },
+    {
+     "quote": "the script contains NO pslq call (stale draft text baked into a sealed artifact; seal-hygiene flag for cc)",
+     "where": "cc2_packets/promotion_queue/promotion_queue/p0_s_verify/FINDINGS_CC2.md:25-26"
+    },
+    {
+     "quote": "there is no equivariant action to grade by.",
+     "where": "cc2_packets/loops_queue/loops_queue/d5_triality/FINDINGS_CC2.md:18"
+    },
+    {
+     "quote": "the trinification triality does not act on H1(D; 27) at class level in ANY available form — not centralizing (D5), not sigma*-twisted (this cell)",
+     "where": "cc2_packets/finisher_queue/finisher_queue/f3_twisted/FINDINGS_CC2.md:10-11"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "Every run.log referenced by name and sha256 in ORIGINALS_MANIFEST.txt and SEALS.txt (d2_run.log, d3i_run.log, d3ii_run.log, d4_run.log, d5_run.log, p0_run.log, p1_run.log, p4_run.log, f1_run.log, f2_run.log, f3_run.log, f4_run.log, stage2_run.log, stage2b_run.log, stage3_numeric_run.log, stage3_solo_exact_run.log, stage3a_verbatim_rerun.log, stage3b_verbatim_rerun.log) is ABSENT from the committed tree entirely (find . -name '*.log' inside the arc directory returns zero files) -- confirmed *.log is gitignored repo-wide. The narrative/gate-by-gate evidence for every cell exists only as claimed hashes in manifests, not as reproducible committed text; a stranger cannot check the manifest's own sha256 claims against anything.",
+     "where": "frontier/B651_wave3_integration/cc2_packets/ (all subdirectories); confirmed via .gitignore ('*.log', '*.out') and empty find result"
+    },
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "D2's melody-theorem FINDINGS claims deviations 'EXACTLY 0.0 (not approximate)' for the 6 sealed periodicity pairs, but the committed d2_results.json shows the actual paired differences are on the order of 1e-15 to 5e-15 (complex float arithmetic, not literal zero or exact rational/symbolic equality) -- an overclaim of exactness for what is a very-high-precision numeric coincidence check, not a proof.",
+     "where": "cc2_packets/loops_queue/loops_queue/d2_melody/FINDINGS_CC2.md:4 vs cc2_packets/loops_queue/loops_queue/d2_melody/d2_results.json"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "P0's own verification of B649 stage 1 discovers that B649's SEALED output.txt contains a literally false witness identity ('the ratio of the two exact traces gives i' — actually equals 1+i) and a stale/false method claim ('mpmath.pslq minimal polynomials at two precisions' when no pslq call exists in the script). The correction is filed here (in B651) rather than in the original sealed B649 artifact, and F4 documents a SECOND, structurally identical recurrence in B649 stage 2a ('det(g) is a nontrivial element... PROJECTIVE-EXACT' contradicted by its own printed det=1 output) -- a repeating pattern of stale/false prose surviving inside sealed, hash-locked artifacts across at least two stages of the same source arc (B649), with no house-practice fix adopted per this arc's own text ('not fixed as house practice').",
+     "where": "cc2_packets/promotion_queue/promotion_queue/p0_s_verify/FINDINGS_CC2.md:24-30; cc2_packets/finisher_queue/finisher_queue/f4_receipt/FINDINGS_CC2.md:20-27"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "F2's PSL-factoring theorem (central-element form) is stated in PSL_THEOREM.md with a specific tally ('19 factor-rows, 7 realized, zero violations') but no code, results JSON, or committed log for f2 exists anywhere in the sampled files or the arc tree -- only the prose theorem statement and its hash in SEALS.txt. The claim is not independently reproducible from what is committed in this batch.",
+     "where": "cc2_packets/finisher_queue/finisher_queue/f2_psl/PSL_THEOREM.md (no f2_run.py, f2_results.json present)"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "P3's PSL-factoring statement rests partly on 'the banked eigenvalue fingerprint {1, i, -i} (trace +1 on the PSL(2,7) order-4 class)' as the basis for identifying a local constituent with a specific PSL(2,7) irrep -- an identification made by matching an eigenvalue/trace signature (a type/spectrum coincidence) rather than an explicit isomorphism, for the one 'mechanized' instance the rest of the theorem generalizes from.",
+     "where": "cc2_packets/promotion_queue/promotion_queue/p3_psl/P3_NOTE.md:13-15"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "D5/F3's exact linear-algebra pattern-solve depends on rehydrating stage1_classes.pkl (a pickle file external to this arc, produced by B575 machinery executed via exec() of another file's source with a string-index cut) -- this arc's own committed scripts do not include or re-derive that pickle's contents; its correctness is inherited, not re-verified here.",
+     "where": "cc2_packets/loops_queue/loops_queue/d5_triality/d5_triality.py:11-12; cc2_packets/finisher_queue/finisher_queue/f3_twisted/f3_twisted.py:11-12"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "f4_receipt's stage3_numeric_results.json shows enormous 'residuals' for two relator checks (2.3e22 and 3.0e11, and elsewhere 5.1e54/9.3e52) inside a JSON explicitly framed as part of the VERIFIED verdict roll-up; FINDINGS labels this cross-check 'stage3_numeric_crosscheck_partial' but does not explain in the sampled text why these residuals are enormous (versus the exact-route's clean match) or whether they represent an unnormalized/raw quantity — the discrepancy between 'ALL VERIFIED' and multi-order-of-magnitude 'residual' numbers sitting in the same JSON was not reconciled in the material read.",
+     "where": "cc2_packets/finisher_queue/finisher_queue/f4_receipt/stage3_numeric_results.json:2-3,12-13; FINDINGS_CC2.md:10-14"
+    }
+   ],
+   "seat_note": "This arc is one of the more disciplined and self-critical wave-integration arcs seen so far -- multiple genuine kills (P4's correlate death at r=23, D1's Yukawa no-go, D5/F3's triality closure) and an honest arithmetic-slip correction (D2's N0 decimal) are recorded rather than buried, and several load-bearing computations (F1, D4, P4, D5/F3) are exact, committed, and re-derivable. But every cell's process-level evidence (the *_run.log files) is entirely absent from the repo due to the gitignore pattern, so 'seal audit 21/21 exact' can only be checked against manifests, not against the narrative logs those manifests hash; and the arc's own text records that the B649 artifacts it verifies contain literally false claims baked into already-hash-sealed prose, a pattern the arc notes recurred rather than being fixed. None of this content rises to OBSERVABLE physics (no measured SM quantity or numerical prediction against experiment appears anywhere in the sampled material) -- it is entirely group-theoretic/arithmetic structure internal to the program's own Gauss-sum and cohomology pipelines."
+  }
+ ]
+}

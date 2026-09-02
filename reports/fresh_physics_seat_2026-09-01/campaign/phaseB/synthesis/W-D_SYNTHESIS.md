@@ -123,10 +123,30 @@ What the sweep found, in the owner's terms ("before you conclude we don't have s
   (nothing outside catch-all files; the claim stands as far as the repository text goes).
 
 
-## 8. Completeness critic (what this synthesis has not done)
+## 8. Completeness critic (what this synthesis has not done, in the seat's own words)
 
-- Reader `thin_reads` are aggregated in the workflow results, not yet folded into a per-arc "unread files"
-  table; until that lands, "read every arc" means "every arc opened, every FINDINGS/verdict read in full,
-  code and data sampled as the packet mode said".
-- The 208 arcs NOT_IN_LOG were cross-checked against no log entry, by construction.
-- Verdicts on sweep leads are the seat's and are written one by one; none are delegated.
+- **Reading depth is per-file honest, not total.** `thin_reads.md` (auto from the workflow journals) lists, packet by
+  packet, what the readers sampled instead of reading in full: mostly large compute.py files opened at the head plus
+  grep, and large results JSONs read head/tail. "Every arc read" therefore means: every arc opened, every
+  FINDINGS / verdict / addendum read in full, code and data sampled as the packet mode prescribed, and the
+  progress-log entries for the arc cross-read. It does not mean every line of every script was traced.
+- **The reader flags are inputs.** Of 2100+ red flags, the seat re-verified at the source only the ones promoted
+  into §2, §4 and the relay note; the rest stand as reader claims in `red_flags.tsv`, kind-labelled, unverified.
+- **The absence sweep is a co-occurrence instrument.** It finds text, not mathematics: a LEAD is "these words
+  co-occur elsewhere", and a NO_HIT is "no file outside the catch-alls carries these words", which is weaker than
+  "the object does not exist in the repository". 69 + 4 GENERIC rows and 21 UNSWEEPABLE rows were not tested by
+  it at all; the seat read those directly, which is a weaker check than a sweep.
+- **Off-main heads were swept but not read.** Hits on `origin/claude/new-session-qor5up`, `audit/b775-braver-questions`
+  and the others are recorded as OPEN_LATER; their content was not digested by the readers (the packets were built
+  from four heads for arcs; the sweep covers seven for text).
+- **208+ arcs are NOT_IN_LOG.** Their log-consistency could not be checked; the log-vs-arc drift rate above is
+  measured only on the arcs the logs mention.
+- **Recomputation covered the cheap tier.** R31–R38 re-derived what runs in minutes with SnapPy/PARI/sympy. The
+  Sage-only, Hejhal-class and solo-chain results (B919's traces, B866's enhancement root, the Maass ladders, the
+  B1147–B1185 harvest chains beyond R22–R25) were checked for reproducibility, not reproduced.
+- **Physics content.** Across every arc digested, the readers' `physics_content` field is STRUCTURAL or
+  NO_OBSERVABLE_CONTENT except for the Maass/Dirac spectral arcs (OBSERVABLE-shaped numbers with explicitly null SM
+  comparisons) and a handful of value-hunt arcs whose own verdicts are negative. The seat's standing statement is
+  unchanged by Phase B: the corpus derives structure (an arithmetic manifold, its fields, a Lie-theoretic
+  bookkeeping), and where it names a measurable quantity it either compares and finds no match or records the
+  GUT-normalisation identity 3/8 without a derivation on the repository. "No observable content."

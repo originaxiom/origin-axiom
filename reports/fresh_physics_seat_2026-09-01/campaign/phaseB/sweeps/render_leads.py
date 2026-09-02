@@ -3,7 +3,8 @@
 one block per lead with the claim quote, the terms, and the substantive hit paths (catch-all files removed).
 Usage: python3 render_leads.py [start] [count]  -> prints leads[start:start+count]."""
 import json, sys, csv
-recs = json.load(open('absence_sweep_paths.json'))
+SUF = sys.argv[3] if len(sys.argv) > 3 else ''
+recs = json.load(open('absence_sweep_paths%s.json' % SUF))
 rows = list(csv.DictReader(open('../synthesis/absence_claims.tsv'), delimiter='\t'))
 leads = [r for r in recs if r['status'] == 'LEAD']
 start = int(sys.argv[1]) if len(sys.argv) > 1 else 0; count = int(sys.argv[2]) if len(sys.argv) > 2 else 40
