@@ -1,2 +1,19 @@
 === outside_bench/certificates/c4_gue_larget.py (seat rerun, 2400 s budget)
 C4: scanning to T = 3000.0
+  zeta zeros: 200 (t=395.6)
+  zeta zeros: 400 (t=677.8)
+  zeta zeros: 600 (t=937.5)
+  zeta zeros: 800 (t=1182.6)
+  zeta zeros: 1000 (t=1418.7)
+  zeta zeros: 1200 (t=1646.6)
+  zeta zeros: 1400 (t=1870.4)
+  zeta zeros: 1600 (t=2088.7)
+  zeta zeros: 1800 (t=2303.3)
+  zeta zeros: 2000 (t=2514.3)
+  zeta zeros: 2200 (t=2723.1)
+  zeta zeros: 2400 (t=2928.8)
+
+real	40m0.009s
+user	37m58.332s
+sys	0m0.570s
+exit=124
