@@ -387,3 +387,398 @@ i	arc	where	status	verdict	note
 540	B950_sm_spec_ledger	FINDINGS.md section 1	LEAD	NOISE	
 542	B951_l132_scout	FINDINGS.md section 7	LEAD	CONSISTENT	levi2.py exists on no head (sweep)
 544	B952_gut_ledger_rank	FINDINGS.md section 1	LEAD	NOISE	
+545	B771_phase1_wave1	frontier/B771_phase1_wave1/FINDINGS_WAVE4.md:28 (W4-139 row)	LEAD	NOISE	CL-W5139 cleanup cell; the genus bound stays asserted
+546	B771_phase1_wave1	frontier/B771_phase1_wave1/cells/OI-148/output.txt:7	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+549	B772_negatives_adequacy	frontier/B772_negatives_adequacy/FINDINGS.md:15-16	LEAD	CONSISTENT	as part-1 #369
+552	B773_chord_recompute	frontier/B773_chord_recompute/FINDINGS.md:49-51 (W3-067c entry)	LEAD	CONSISTENT	as #372 (R35 supplies the full silver trace field, degree 8)
+553	B773_chord_recompute	frontier/B772_negatives_adequacy/audit_results.json:89 (W3-067 rationale, carried into B773's prereg for W3-067c)	LEAD	CONSISTENT	as #373
+554	B775_phase2_wave1	FINDINGS_WAVE3.md:15 (P2W3-H4)	LEAD	CONSISTENT	
+556	B775_phase2_wave1	FINDINGS_WAVE2.md:14 (P2W2-DARKBRIGHT)	LEAD	CONSISTENT	
+557	B775_phase2_wave1	FINDINGS.md:16 (P2-D5)	LEAD	NOISE	
+558	B775_phase2_wave1	cells/P2-AABB/output.txt:35-36	LEAD	NOISE	own cell
+560	B775_phase2_wave1	FINDINGS_WAVE4.md:29	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+561	B775_braver_questions	FINDINGS_FINAL.md line 45, re: the theta-vacancy slot	LEAD	NOISE	
+562	B775_braver_questions	FINDINGS_FINAL.md line 13	LEAD	NOISE	
+563	B775_braver_questions	FINDINGS_FINAL.md line 45	LEAD	NOISE	
+565	B775_braver_questions	FINDINGS_PARALLEL.md line 22, re: the enumeration survivor count	UNSWEEPABLE	CONSISTENT	self-scoped
+566	B776_b685_homework	FINDINGS.md line 20	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+570	B777_braver_questions	CC_VERIFY_V4GENERICITY.md line 30	LEAD	GENERIC	verified true by R37 (m003/m004 both V4, equal volume)
+571	B778_cleanup	frontier/B778_cleanup/PREREGISTRATION.md:43-44 (also cells/CL-W3082/output.txt:41-45)	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+572	B778_cleanup	frontier/B778_cleanup/cells/CL-W4115/compute.py:8-9	LEAD	CONSISTENT	
+573	B778_cleanup	frontier/B778_cleanup/FINDINGS.md:21-24	LEAD	CONTRADICTED	duplicate of #393: B806 says CL-W4115 never ran; B778_cleanup/cells/CL-W4115 has compute.py/output.txt/results.json
+574	B779_convergence_probe	frontier/B779_convergence_probe/R3_scattering_assessment.md:89 (quoting B735)	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+576	B779_convergence_probe	frontier/B779_convergence_probe/R6_maass_assessment.py:106-108	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+578	B779_convergence_probe	frontier/B779_convergence_probe/R7_functor_assessment.md:61	UNSWEEPABLE	CONSISTENT	
+581	B783_observer_ground_zero	B3_c_test.txt:122	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+582	B783_observer_ground_zero	B3_c_test.txt:186	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+583	B783_observer_ground_zero	FINDINGS.md:39	LEAD	NOISE	
+585	B783_observer_ground_zero	C1_synthesis.txt:22-23	LEAD	CONSISTENT	as #405
+586	B783_observer_ground_zero	C2_adversarial.txt:192	UNSWEEPABLE	CONSISTENT	as #405
+587	B783_observer_ground_zero	C2_adversarial.txt:46-48	LEAD	NOISE	
+590	B784_trace_map_intertwining	FINDINGS.md:67 (section '4. P784.5 FAIL: no √3 in the C decomposition')	UNSWEEPABLE	CONSISTENT	
+591	B784_trace_map_intertwining	FINDINGS.md:167	LEAD	CONSISTENT	as #329/#415
+592	B784_trace_map_intertwining	FINDINGS.md:353	LEAD	NOISE	
+593	B784_trace_map_intertwining	FINDINGS.md:328	LEAD	NOISE	
+594	B784_trace_map_intertwining	iota_torsor_position.txt:61	LEAD	NOISE	
+595	B784_trace_map_intertwining	A3_sym2_trace_computation.txt:229 (PART 7 Schur's-lemma claim)	UNSWEEPABLE	CONSISTENT	as #415
+597	B785_cc3_gate_harvest	FINDINGS.md lines 25-26	LEAD	CONSISTENT	
+598	B785_cc3_gate_harvest	FINDINGS.md line 30	LEAD	CONSISTENT	
+599	B786_torsor_theta_iota	FINDINGS.md line 8	LEAD	CONSISTENT	as #419
+600	B786_torsor_theta_iota	FINDINGS.md lines 35-36	LEAD	NOISE	
+601	B787_interaction_programme	FINDINGS.md line ~57 (section 2, 'Relabeling trigger')	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+604	B787_interaction_programme	FINDINGS.md section 4, line ~123 — contradicts the section-3 checklist row above; file was independently verified to exist at tests/test_b787_interaction.py	LEAD	CONSISTENT	
+605	B789_theta_intertwiner	FINDINGS.md, 'Method note' paragraph	LEAD	NOISE	
+606	B789_theta_intertwiner	FINDINGS.md, scoping fact 2	UNSWEEPABLE	CONSISTENT	
+607	B790_maass_adjudication	FINDINGS.md verdict table, Step 1 row	LEAD	SUPERSEDED	as #427 (17 eigenvalues on main via B797/B795)
+608	B790_maass_adjudication	FINDINGS.md section 1	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+611	B790_maass_adjudication	FINDINGS.md ADDENDUM, 'Net effect on the arc's verdict'	LEAD	CONSISTENT	
+614	B791_weyl_completeness	FINDINGS.md §6	LEAD	SUPERSEDED	as #434
+615	B791_weyl_completeness	PROVENANCE_ALERT.md RESOLUTION section	LEAD	NOISE	
+617	B792_maass_m004_eigenvalues	FINDINGS.md §'THE FULL WINDOW r<10'	LEAD	CONSISTENT	as #437
+618	B792_maass_m004_eigenvalues	FINDINGS.md §'THE FULL WINDOW r<10'	LEAD	CONSISTENT	
+620	B792_maass_m004_eigenvalues	PROGRESS_LOG.md 2026-08-01 (B845), quoted verbatim in log_index/B792.txt	LEAD	CONSISTENT	verified (B792 absent on main)
+621	B792_maass_m004_eigenvalues	docs/progress/REVIEWS.md Review 36, quoted in log_index/B792.txt	LEAD	CONSISTENT	
+622	B793_gate8r2a_parent_localisation	FINDINGS.md 'What Gate 8R's headline actually establishes'	LEAD	CONSISTENT	
+623	B793_gate8r2a_parent_localisation	FINDINGS.md 'Separate observation on the delivered archive'	LEAD	CONSISTENT	as #443
+625	B795_eigenvalue_verification	/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/log_index/B795.txt line 5 (PROGRESS_LOG.md 2026-07-24)	LEAD	CONSISTENT	
+626	B795_eigenvalue_verification	/home/user/origin-axiom/frontier/B795_eigenvalue_verification/FINDINGS.md lines 68-69	LEAD	NOISE	
+628	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:14-16 (L1)	LEAD	SUPERSEDED	frontier/B909_frame_arc exists on main now (R38 read it); the loss-ledger line was true when written
+629	B796_coupling_campaign	cell9_sec16_verdict3.md:26 (charge 6)	LEAD	SUPERSEDED	as #449 (harvested by B921)
+630	B796_coupling_campaign	cell9_sec16_verdict3.md:23	LEAD	CONSISTENT	
+631	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:58-60 (L5)	LEAD	CONSISTENT	
+632	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:63-65 (L6)	LEAD	CONSISTENT	(B921 later harvested the corpus — superseded to that extent)
+633	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:83-85 (L7, re: the Hecke-abort and spin-fork negative results)	LEAD	CONSISTENT	
+634	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:87-93 (L8)	LEAD	CONSISTENT	
+635	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:100-102 (L9)	LEAD	CONSISTENT	
+636	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:109-110 (L10)	LEAD	CONSISTENT	
+638	B796_coupling_campaign	loss_audit/THE_LOSS_LEDGER.md:122-123 (L11)	LEAD	CONSISTENT	
+639	B796_coupling_campaign	charge_quantisation/FINDINGS.md:5 (self-scoping, not a repo absence claim but a disclosed structural limit)	LEAD	NOISE	
+640	B796_coupling_campaign	z6_line_spectrum/FINDINGS.md:114-115	LEAD	CONSISTENT	
+641	B796_coupling_campaign	z6_line_spectrum/FINDINGS.md:127-129	LEAD	CONSISTENT	
+642	B797_maass_spectrum_harvest	FINDINGS.md:12	LEAD	CONSISTENT	
+643	B797_maass_spectrum_harvest	log_index/B797.txt (Review 36 entry, quoting PROGRESS_LOG.md)	LEAD	CONSISTENT	
+644	B799_uncomputed_doors	FINDINGS.md:93	LEAD	NOISE	
+645	B799_uncomputed_doors	FINDINGS.md:86-87 (S019 disposition)	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+646	B800_habiro_integrality	B799 FINDINGS.md:78, referencing the door B685 that B800 addresses	LEAD	CONSISTENT	as #466 (B800 is the in-sandbox recompute)
+647	B801_negative_census	FINDINGS.md:37	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+648	B802_cc3_b783_harvest	FINDINGS.md:19 (re: B350, B778, B780, B781 -- main is ahead in every one)	UNSWEEPABLE	CONSISTENT	
+652	B804_dirac_spectrum	FINDINGS.md:64	LEAD	GENERIC	
+653	B805_forcing_graph	FINDINGS.md:9	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+655	B806_lexicon_blindness	FINDINGS.md table	LEAD	NOISE	
+656	B806_lexicon_blindness	FINDINGS.md:155	LEAD	NOISE	
+657	B806_lexicon_blindness	N/A	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+659	B808_empty_cells	FINDINGS.md:39	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+661	B810_verdict_wave1	FINDINGS.md:90	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+662	B810_verdict_wave1	FINDINGS.md:53-55	LEAD	NOISE	
+663	B812_physics_path_map	FINDINGS.md:93	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+665	B813_cs_theta_type_audit	FINDINGS.md:82-83	LEAD	NOISE	
+667	B815_kappa_precision_note	PRE_DATA_NOTE.md:2	LEAD	NOISE	
+668	B817_verdict_wave2	FINDINGS.md:106, with in-place correction '~~mostly directories without a FINDINGS.md~~ -- CORRECTED by B819'	LEAD	CONSISTENT	
+670	B821_lexicon_refresh	FINDINGS.md:60	LEAD	NOISE	
+671	B823_blind_triage	FINDINGS.md:14	UNSWEEPABLE	NOISE	
+672	B826_b519_verdict	FINDINGS.md:8 (re B519_re_mining)	LEAD	GENERIC	
+673	B827_progresslog_recovery	FINDINGS.md:13	LEAD	NOISE	
+674	B830_b720_recompute	FINDINGS.md:22-23	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+676	B837_file_drawer_audit	FINDINGS.md:24	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+677	B837_file_drawer_audit	FINDINGS.md:36	LEAD	CONSISTENT	B499 holds only a prereg (as #681)
+678	B839_b685_residue	FINDINGS.md:60	LEAD	CONSISTENT	
+679	B839_b685_residue	FINDINGS.md:57	LEAD	CONSISTENT	
+680	B840_close_loose_ends	FINDINGS.md:13	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+681	B840_close_loose_ends	FINDINGS.md:51 (re B499)	LEAD	CONSISTENT	
+682	B841_provenance_pass	FINDINGS.md:66	LEAD	NOISE	
+684	B845_spectral_inventory	FINDINGS.md:23	LEAD	CONSISTENT	as #440
+685	B845_spectral_inventory	FINDINGS.md:62	LEAD	NOISE	
+686	B848_handoff_verification	FINDINGS.md:159-162	LEAD	NOISE	
+687	B848_handoff_verification	FINDINGS.md:163	LEAD	NOISE	
+689	B849_order_parameter	FINDINGS.md:137	LEAD	CONSISTENT	as #509
+690	B849_order_parameter	FINDINGS.md:110	LEAD	NOISE	
+691	B850_length_spectrum_type	FINDINGS.md:137 (carried forward item 3)	LEAD	CONSISTENT	as #509
+694	B851_bc_litgate	FINDINGS.md:43-44	LEAD	NOISE	
+695	B852_parabolic_pressure	FINDINGS.md:92-96	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+696	B852_parabolic_pressure	FINDINGS.md:97-100	LEAD	NOISE	
+697	B853_two_faces_ssb	FINDINGS.md:107-108	LEAD	NOISE	
+698	B853_two_faces_ssb	FINDINGS.md:109-110	LEAD	NOISE	
+699	B855_wrong_null_audit	FINDINGS.md line 33	LEAD	SUPERSEDED	as #519 (m009 used as the non-commensurable null in B850/B855)
+700	B855_wrong_null_audit	FINDINGS.md line 100	LEAD	NOISE	
+701	B857_voice_splitting	frontier/B746_golden_ledger/FINDINGS.md:30 (quoted in FINDINGS.md line 11)	LEAD	NOISE	
+702	B857_voice_splitting	docs/LAW_MAP.md (quoted in FINDINGS.md line 9)	LEAD	CONSISTENT	
+703	B857_voice_splitting	FINDINGS.md line 55	LEAD	CONSISTENT	Hecke eigenvalues of the 17 forms not computed anywhere on main
+704	B868_three_involutions	FINDINGS.md line 29 / three_involutions.py check (3)	LEAD	CONSISTENT	
+705	B870_lift_obstruction	FINDINGS.md sec 5	LEAD	NOISE	
+706	B870_lift_obstruction	FINDINGS.md sec 5	UNSWEEPABLE	CONSISTENT	self-scoped
+707	B870_lift_obstruction	FINDINGS.md sec 5	LEAD	NOISE	
+708	B871_registering_datum	FINDINGS.md sec 4	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+711	B872_coset_leg	FINDINGS.md sec 6	LEAD	CONSISTENT	
+712	B872_coset_leg	FINDINGS.md sec 6	LEAD	NOISE	
+716	B874_measurement_ladder	FINDINGS.md sec 3	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+717	B874_measurement_ladder	FINDINGS.md sec 4	LEAD	NOISE	
+720	B876_descent	FINDINGS.md sec 5	LEAD	NOISE	
+722	B877_fmt_review	FINDINGS.md sec 4 item 1	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+724	B878_maass_upper_window	FINDINGS.md sec 4	LEAD	NOISE	
+725	B878_maass_upper_window	FINDINGS.md sec 4	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+726	B878_maass_upper_window	branch_FINDINGS.md (r=7.0720 provenance section)	LEAD	NOISE	
+727	B879_selection_cochain	packet/HANDOFF_CC_SELECTION_COCHAIN.md lines 12-14	LEAD	NOISE	
+728	B879_selection_cochain	packet/w0c_inventory/INVENTORY.md lines 484-495 (Part C, MISSING)	LEAD	CONSISTENT	
+729	B879_selection_cochain	packet/w0c_inventory/INVENTORY.md lines 497-506	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+730	B879_selection_cochain	packet/w0c_inventory/INVENTORY.md lines 517-526	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+731	B879_selection_cochain	packet/w0d_quantum_scout/SCOUT.md line 183	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+733	B879_selection_cochain	packet/HANDOFF_CC_SELECTION_COCHAIN.md line 49	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+734	B882_magic_square_naming	"priorart_findings.json, final entry (""UNCONFIRMED / not found"" claim)"	LEAD	CONSISTENT	literature absence
+737	B887_gate_audit	B887_gate_audit/FINDINGS.md section 1, item 4	LEAD	NOISE	
+738	B905_kim_litgate	FINDINGS.md, Q1 section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+739	B905_kim_litgate	FINDINGS.md, Q3 section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+742	B907_real_form_selector	DRAFT_COMPLETENESS.md, 'The honest gap (form level)' section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+744	B909_frame_arc	PROGRESS_LOG.md 2026-08-08 (B958 entry)	LEAD	SUPERSEDED	B978: the frame WAS built (B911) and the definitions were in CMT_DRAFT §2; B958's 'no frame or M12 construction anywhere' was found false
+745	B909_frame_arc	PROGRESS_LOG.md 2026-08-08 (B978 entry)	LEAD	CONSISTENT	this is the correction
+746	B911_cmt_document	B911_cmt_document/CMT_DRAFT.md sec 3, referring to exact (as opposed to mod-p) verification of compact wall dims	LEAD	CONSISTENT	
+748	B911_cmt_document	B911_cmt_document/CMT_DRAFT.md sec 7 item 5	LEAD	CONSISTENT	
+749	B913_r3c_design	B913_r3c_design/PREREGISTRATION.md 'Files' section, quoted verbatim in DESIGN_DISPOSITION.md	LEAD	CONSISTENT	
+751	B918_v_kummer	"/home/user/origin-axiom/frontier/B918_v_kummer/FINDINGS.md ""Registered follow-ups"""	LEAD	NOISE	
+752	B919_weinberg_traces	"/home/user/origin-axiom/frontier/B919_weinberg_traces/results.json (""second_prime_status"")"	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+753	B919_weinberg_traces	"/home/user/origin-axiom/frontier/B919_weinberg_traces/results.json (""second_prime_status"")"	LEAD	CONSISTENT	
+754	B920_register_sweep	"/home/user/origin-axiom/frontier/B920_register_sweep/SWEEP_REPORT.md ""Honest gaps"" item 2"	LEAD	CONSISTENT	
+755	B920_register_sweep	"/home/user/origin-axiom/frontier/B920_register_sweep/SWEEP_REPORT.md ""Honest gaps"" item 6 / Item 4"	LEAD	NOISE	
+756	B920_register_sweep	"/home/user/origin-axiom/frontier/B920_register_sweep/SWEEP_REPORT.md ""Honest gaps"" item 7"	LEAD	CONSISTENT	
+757	B921_branch_harvest	harvested/frontier/B796_coupling_campaign/loss_audit/THE_LOSS_LEDGER.md L1 (line ~13-16)	LEAD	SUPERSEDED	frontier/B909_frame_arc now exists on main (R38 read it)
+758	B921_branch_harvest	harvested/frontier/B796_coupling_campaign/loss_audit/THE_LOSS_LEDGER.md L4 (line ~44-47)	LEAD	CONSISTENT	no B858 directory (the B866 support dir notes it was misnamed B858 and renamed)
+759	B921_branch_harvest	HARVEST_MANIFEST.md item 19 (§4, 'From second_round_cm_bost_connes.md')	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+760	B921_branch_harvest	harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md:94	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+761	B921_branch_harvest	harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict3.md:23	LEAD	CONSISTENT	
+762	B921_branch_harvest	harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict.md:60	LEAD	CONSISTENT	
+763	B921_branch_harvest	harvested/frontier/B796_coupling_campaign/cell9_sec16_verdict.md:74	LEAD	CONSISTENT	
+764	B921_branch_harvest	HARVEST_MANIFEST.md §4 item 2 (from THE_LOSS_LEDGER L2)	LEAD	CONSISTENT	
+765	B922_lambda2_receipt	FINDINGS.md correction banner	LEAD	CONSISTENT	
+766	B922_lambda2_receipt	arc_verdict.json claim_one_line	LEAD	CONSISTENT	
+767	B922_lambda2_receipt	PRIOR_ART_MAASS.md VERDICT table, sub-question 3	LEAD	CONSISTENT	
+768	B924_involution_couplings	FINDINGS.md 'Honest gaps'	LEAD	CONSISTENT	(check whether tests/test_b924* was later written)
+769	B924_involution_couplings	FINDINGS.md 'Honest gaps'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+770	B925_second_crossing	FINDINGS.md 'Fact 2'	UNSWEEPABLE	CONSISTENT	
+771	B925_second_crossing	FINDINGS.md 'Fact 3'	LEAD	NOISE	
+772	B925_second_crossing	FINDINGS.md 'Fact 3'	LEAD	NOISE	
+777	B928_d2_decode	frontier/B928_d2_decode/FINDINGS.md, Q2 'The exact residue'	LEAD	CONSISTENT	
+778	B928_d2_decode	frontier/B928_d2_decode/FINDINGS.md, Honest gaps #3	LEAD	CONSISTENT	
+779	B928_d2_decode	frontier/B928_d2_decode/FINDINGS.md, Honest gaps #4	LEAD	CONSISTENT	(check tests/test_b928_decode.py)
+781	B931_why_953	frontier/B931_why_953/FINDINGS.md, Headline 2	LEAD	NOISE	
+782	B931_why_953	frontier/B931_why_953/FINDINGS.md, Headline 3	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+783	B931_why_953	frontier/B931_why_953/FINDINGS.md, 'The honest residue'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+784	B932_chain_selection	frontier/B932_chain_selection/FINDINGS.md, LEG 2	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+787	B935_composition_hunt	frontier/B935_composition_hunt/FINDINGS.md, 'The structural reason'	LEAD	NOISE	
+788	B937_golden_and_29	FINDINGS.md section A7 'The honest residue'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+791	B940_dirac_sealed	FINDINGS.md section 7(b), quoting DESIGN sec.8 verbatim	LEAD	CONSISTENT	(B940 later computed one — the 'none found in literature' statement is about the literature)
+793	B940_dirac_sealed	o3_results.json residual_risk	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+794	B942_l113_bc_falsifier	PREREGISTRATION.md	LEAD	CONSISTENT	
+795	B943_maass_priority_correction	FINDINGS.md	LEAD	CONSISTENT	
+796	B943_maass_priority_correction	FINDINGS.md	LEAD	CONSISTENT	
+797	B944_dynamics_chirality_sweep	FINDINGS.md section 3	LEAD	NOISE	
+798	B946_solo_handoff6	FINDINGS.md section 6	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+799	B948_relay_ssb_sweep	FINDINGS.md section 2	LEAD	CONSISTENT	
+800	B949_ignorance_map	FINDINGS.md section 3	LEAD	NOISE	
+801	B949_ignorance_map	FINDINGS.md section 3, quoting docs/UNIQUENESS_THEOREM.md	LEAD	NOISE	
+802	B950_sm_spec_ledger	FINDINGS.md section 1	LEAD	CONSISTENT	B950 is the document that then enumerated it
+804	B951_l132_scout	FINDINGS.md section 7	LEAD	CONSISTENT	
+806	B952_gut_ledger_rank	FINDINGS.md section 1	LEAD	SUPERSEDED	B951/B962/B970 addressed the exotics (B993: 'never addressed is false')
+807	B955_l133_scout	FINDINGS.md:77	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+809	B956_l133_analysis	FINDINGS.md:11	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+810	B956_l133_analysis	FINDINGS.md:13 (implicit, table context)	UNSWEEPABLE	CONSISTENT	
+812	B958_presence_scope	FINDINGS.md:19	UNSWEEPABLE	SUPERSEDED	B978 (log 2026-08-08): 'the definitions were in CMT_DRAFT.md section 2, and B911 had already built the frame' — the 'never independently constructed' premise of B958 was found false
+813	B958_presence_scope	frontier/B958_presence_scope/arc_verdict.json claim_one_line	LEAD	SUPERSEDED	as #744
+814	B961_frame_instrument	FINDINGS.md:10	LEAD	SUPERSEDED	as #744
+815	B961_frame_instrument	FINDINGS.md:43	LEAD	CONSISTENT	
+816	B964_vev_correction	ADDENDUM_2026-09-01_PROPOSAL_refile_PROVED.md:23 (the propagation-gap paragraph -- itself later corrected in the same file's own CORRECTION section)	UNSWEEPABLE	CONSISTENT	self-correction inside B964; CLAIMS.md lives at the repo root, not docs/ (checked)
+817	B967_retraction_sweep	FINDINGS.md sec 5.3	LEAD	CONSISTENT	
+818	B967_retraction_sweep	FINDINGS.md sec 5.4	LEAD	CONSISTENT	
+819	B968_sm_verdict	FINDINGS.md sec (B976 amendment)	LEAD	CONSISTENT	this is the correction
+820	B968_sm_verdict	arc_verdict.json claim_one_line	LEAD	CONSISTENT	literature
+821	B969_kato_yukie_verify	arc_verdict.json claim_one_line (carried over from B968/B962 context)	LEAD	CONSISTENT	
+822	B969_kato_yukie_verify	FINDINGS.md sec 5	LEAD	CONSISTENT	this is the correction
+824	B970_L134_exotics	PRIOR_ART_EXOTICS.md sec 1.1 table	LEAD	SUPERSEDED	as #806
+825	B970_L134_exotics	PRIOR_ART_EXOTICS.md sec 1.1 table	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+827	B971_L132_vacuity	WORK.md section 7	LEAD	CONSISTENT	
+828	B971_L132_vacuity	PRIOR_ART_ANOMALY.md section 5	LEAD	CONSISTENT	
+830	B971_L132_vacuity	PRIOR_ART_ANOMALY.md section 3, table row 4	LEAD	CONSISTENT	
+832	B972_L137_split	SCOUT.md sec 1.1 / WORK.md sec 2.1	LEAD	NOISE	
+834	B972_L137_split	WORK.md sec 4, citing B937 sec T5	LEAD	NOISE	
+835	B972_L137_split	t_probe_out.json -> note_computability	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+837	B973_L135_frame	frontier/B958_presence_scope/FINDINGS.md:19 (quoted in SCOUT.md §5)	UNSWEEPABLE	SUPERSEDED	as #812
+838	B973_L135_frame	frontier/B961_frame_instrument/FINDINGS.md:60-62 (quoted in SCOUT.md §5)	LEAD	SUPERSEDED	as #744 (B978)
+839	B973_L135_frame	frontier/B911_cmt_document/CMT_DRAFT.md:190 (quoted in SCOUT.md §1.5, called stale)	LEAD	CONSISTENT	
+841	B974_phaseA_synthesis	frontier/B958_presence_scope/FINDINGS.md (quoted and refuted in SYNTHESIS.md §3.5(i))	UNSWEEPABLE	SUPERSEDED	as #812 (B978 corrects B974/B958's premise)
+842	B974_phaseA_synthesis	frontier/B961_frame_instrument/FINDINGS.md (quoted and refuted in SYNTHESIS.md §3.5(ii))	LEAD	SUPERSEDED	as #744
+843	B974_phaseA_synthesis	SYNTHESIS.md §5, self-reported absence-of-search	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+844	B976_cascade_recovery	self-quoted as the auditor's own earlier (wrong) claim about the global Z6 form, refuted by B862 (results.json TWO_CONFIRMED_CONTRADICTIONS.1_Z6)	UNSWEEPABLE	NOISE	
+845	B976_cascade_recovery	self-quoted as the auditor's own earlier (wrong) claim about hypercharge, refuted by B864 banked 2026-08-03 (results.json TWO_CONFIRMED_CONTRADICTIONS.2_hypercharge)	LEAD	CONSISTENT	
+846	B976_cascade_recovery	FINDINGS.md §3 (a stated non-absence, included for completeness since it directly answers an absence worry)	LEAD	NOISE	
+847	B977_representation_gate	FINDINGS.md §6 (registration of L143, an explicit prior-absence claim about tooling, not about physics content)	LEAD	CONSISTENT	B977's gate is the response
+848	B977_representation_gate	"FINDINGS.md §""The gap it closes"" (re: lawmap-scope and retraction-sweep gates)"	LEAD	CONSISTENT	
+849	B978_phaseA_bank	FINDINGS.md §4, restating B974's correction of this seat's own earlier B974 claim	LEAD	CONSISTENT	this is the correction
+850	B978_phaseA_bank	FINDINGS.md §4, restating B976's finding	LEAD	CONSISTENT	this is the correction (B862 derives Z6)
+851	B978_phaseA_bank	FINDINGS.md §4, restating B976's finding	LEAD	CONSISTENT	this is the correction (B864 derived hypercharge)
+852	B979_L131_A7	FINDINGS.md	LEAD	NOISE	
+853	B980_k3_conflation	FINDINGS.md	LEAD	NOISE	
+854	B981_two_ended_correction	FINDINGS.md	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+855	B981_two_ended_correction	FINDINGS.md	LEAD	CONSISTENT	
+856	B982_file_drawer_exemption_defect	FINDINGS.md	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+858	B983_grounding	FINDINGS.md	LEAD	NOISE	
+859	B984_banking_protocol	FINDINGS.md	LEAD	NOISE	
+860	B984_banking_protocol	FINDINGS.md	LEAD	CONSISTENT	
+861	B985_cc3_relational_integration	FINDINGS.md	LEAD	NOISE	
+862	B985_cc3_relational_integration	FINDINGS.md	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+863	B986_b500_stragglers	FINDINGS.md	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+864	B987_X8_higgs_doublet	FINDINGS.md, quoting a prior over-broad claim	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+865	B988_review_currency	FINDINGS.md	LEAD	CONSISTENT	
+866	B988_review_currency	FINDINGS.md	LEAD	CONSISTENT	
+867	B993_cornerstone_verified	FINDINGS.md	LEAD	CONSISTENT	this is the correction
+868	B993_cornerstone_verified	FINDINGS.md	LEAD	SUPERSEDED	B994 then asked the rule-variation axis (R27 audited it)
+870	B994_rule_variation	ADDENDUM_2026-09-01_witness_chain_and_provenance.md section 3 (P3), stands after the sweep	LEAD	CONSISTENT	this seat's own R27 finding (B994 results.json has no generating script)
+871	B995_separating_and_rare	FINDINGS.md	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+872	B998_genesis_locks	FINDINGS.md	UNSWEEPABLE	CONSISTENT	
+873	B998_genesis_locks	FINDINGS.md	LEAD	CONSISTENT	
+874	B1004_ssb_leak	FINDINGS.md	LEAD	CONSISTENT	
+875	B1004_ssb_leak	FINDINGS.md	LEAD	CONSISTENT	
+877	B1006_lambda2_pslq	this is actually from B1009 not B1006 -- correction, see below	LEAD	SUPERSEDED	B1019_l149_silver_cascade later runs the cascade on the silver (m=2) grammar
+878	B1008_lexicon_epoch	FINDINGS.md §4	LEAD	NOISE	
+879	B1009_verification_pass	FINDINGS.md line ~34	LEAD	SUPERSEDED	as #877
+880	B1009_verification_pass	FINDINGS.md KILLED incoming section	LEAD	CONSISTENT	this is the correction
+881	B1010_consolidation_loss	FINDINGS.md §1 table	LEAD	CONSISTENT	
+882	B1010_consolidation_loss	FINDINGS.md §1 table	LEAD	CONSISTENT	
+883	B1010_consolidation_loss	FINDINGS.md §2	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+884	B1010_consolidation_loss	FINDINGS.md §2 item 3	LEAD	CONSISTENT	
+885	B1011_mckay_tensor	ADDENDUM_2026-09-01_C5_lock_vacuity.md (original text, later partially corrected)	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+886	B1011_mckay_tensor	ADDENDUM_2026-09-01_C5_lock_vacuity.md CORRECTION section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+887	B1017_recount	FINDINGS.md table (implying no fourth bit exists)	LEAD	NOISE	
+888	B1019_l149_silver_cascade	FINDINGS.md C1 table conclusion	LEAD	CONSISTENT	
+890	B1022_functor_phase1	PHASE1_CORPUS.md, C6	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+891	B1023_phase2_concessions	FINDINGS.md, Blocker 1 (B782 torsor bits vs B936 frame classes indexing)	UNSWEEPABLE	CONSISTENT	
+892	B1024_l153_bits	FINDINGS.md, Sensitivity section	UNSWEEPABLE	CONSISTENT	
+893	B1025_input_derivability	FINDINGS.md, I5	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+894	B1025_input_derivability	FINDINGS.md, meta-deliverable	LEAD	OPEN_LATER	contradicted on an unmerged head: B1030_input_typing_audit (origin/claude/new-session-qor5up) finds ONE continuous dimensionless input remains (A2 = c = 6σ); on main B1025's 'none remains' stands uncorrected
+897	B1027_fourth_crossing	FINDINGS.md, Source limitations	LEAD	NOISE	
+898	B1027_kappa_two_faces	FINDINGS.md section 1, re: B160/B505/B162	LEAD	GENERIC	
+899	B1027_kappa_two_faces	FINDINGS.md section 4	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+901	B1028_freedom_ledger	FINDINGS.md section 1	LEAD	NOISE	
+902	B1028_kappa_absolutely_conserved	FINDINGS.md section 1	LEAD	GENERIC	
+903	B1028_kappa_absolutely_conserved	FINDINGS.md section 6	LEAD	CONSISTENT	
+904	B1029_invariant_ring	cross-referenced from B1025 which cites B1029/B1024 context	LEAD	NOISE	
+906	B1029_seam_class_field	FINDINGS.md section 1, re B334	LEAD	GENERIC	
+907	B1029_seam_class_field	FINDINGS.md section 3	LEAD	CONSISTENT	
+908	B1030_input_typing_audit	FINDINGS.md section 2	LEAD	OPEN_LATER	B1030 lives on origin/claude/new-session-qor5up; on main B1025's 'zero' stands (as #894)
+909	B1030_input_typing_audit	FINDINGS.md section 3	LEAD	NOISE	
+913	B1031_generation_rung	FINDINGS.md section 5	LEAD	CONSISTENT	
+914	B1031_generation_rung	FINDINGS.md section 5	LEAD	CONSISTENT	curation gap
+915	B1031_generation_rung	FINDINGS.md section 5 / arc_verdict.json claim_one_line	LEAD	CONSISTENT	B1032 pursues the route; not end to end
+916	B1032_across_breakings_route	FINDINGS.md section 5	LEAD	CONSISTENT	
+917	B1032_across_breakings_route	FINDINGS.md section 5	LEAD	CONSISTENT	
+918	B1032_across_breakings_route	FINDINGS.md section 5, self-correction	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+919	B1033_generation_adjudication	FINDINGS.md, audit-seat-relay integration section	LEAD	CONSISTENT	(as #934: no cell-3 prereg on disk)
+920	B1033_generation_adjudication	referenced indirectly; full claim appears in sibling arc B1033_register_reconciliation	LEAD	CONSISTENT	
+921	B1033_register_reconciliation	FINDINGS.md section 1	LEAD	CONSISTENT	
+922	B1033_register_reconciliation	FINDINGS.md section 4	LEAD	CONSISTENT	
+923	B1033_register_reconciliation	FINDINGS.md section 2	LEAD	CONSISTENT	
+924	B1034_l154_sigma	FINDINGS.md V2	LEAD	CONSISTENT	
+925	B1034_l154_sigma	FINDINGS.md V2(b)	LEAD	CONSISTENT	
+926	B1034_two_kappas	FINDINGS.md section 1	LEAD	CONSISTENT	
+927	B1034_two_kappas	referenced; fuller statement appears in sibling arc B1035_shadow_library which this arc's depends_on chain connects to	LEAD	CONSISTENT	
+928	B1035_receipts_and_register	FINDINGS.md V1	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+930	B1035_shadow_library	FINDINGS.md section 1	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+931	B1035_shadow_library	FINDINGS.md section 2	LEAD	CONSISTENT	
+933	B1035_shadow_library	FINDINGS.md section 4	LEAD	CONSISTENT	(B1007 later built the arb instrument; the shadow-library listing gap is what the claim is about)
+934	B1036_mirror_double	PREREGISTRATION.md	LEAD	CONSISTENT	
+935	B1036_mirror_double	FINDINGS.md V3, scope fence	LEAD	CONSISTENT	B1039_v_valued_residual registers the residual
+936	B1036_knowledge_room	FINDINGS.md section 2 (re: knowledge/GOVERNANCE.md's rule that explainers are never a premise of a proof)	UNSWEEPABLE	CONSISTENT	
+938	B1036_knowledge_room	FINDINGS.md section 4, re: THE_GOLDEN_CAT_MAP_PRINCIPLE.md and THE_UNIQUENESS_ATLAS.md being outside the K\d{3} gate scope	UNSWEEPABLE	CONSISTENT	
+939	B1036_knowledge_room	FINDINGS.md section 4, re: the Pesin-sum vs sum-of-|lambda| convention gap	LEAD	NOISE	
+940	B1037_theta_join	FINDINGS.md, scope paragraph	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+941	B1037_band_B100_dispositioned	FINDINGS.md header, re: DEBT_LEDGER's own closing line	LEAD	NOISE	
+942	B1037_band_B100_dispositioned	FINDINGS.md section 4, quoting B100's own headline (declined-process)	LEAD	NOISE	
+943	B1037_band_B100_dispositioned	FINDINGS.md section 4, quoting B106's own headline (declined-process)	UNSWEEPABLE	CONSISTENT	
+944	B1038_tower_restored	FINDINGS.md closing paragraph	LEAD	CONSISTENT	
+945	B1038_tower_restored	FINDINGS.md section 3	LEAD	CONSISTENT	
+946	B1038_tower_restored	FINDINGS.md section 3	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+947	B1039_v_valued_residual	FINDINGS.md, SEAM-LOCALITY section	LEAD	NOISE	
+949	B1039_phi_fixed_and_metallic_exponent	FINDINGS.md section 1, DEFECT 2	LEAD	CONSISTENT	
+950	B1039_phi_fixed_and_metallic_exponent	FINDINGS.md section 3	LEAD	CONSISTENT	
+952	B1039_phi_fixed_and_metallic_exponent	FINDINGS.md section 5, correction note on B141 Item 4 / B564	LEAD	CONSISTENT	
+954	B1040_fl4_observer_battery	FINDINGS.md, Scope and honesty section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+955	B1040_isomonodromy_restored	FINDINGS.md section 2(i)	LEAD	CONSISTENT	
+956	B1040_isomonodromy_restored	FINDINGS.md section 2(ii)	LEAD	CONSISTENT	
+957	B1040_isomonodromy_restored	FINDINGS.md section 2(iii)	LEAD	CONSISTENT	
+958	B1040_isomonodromy_restored	FINDINGS.md section 2(ii), quoting docs/OPEN_LEADS.md:209	LEAD	CONSISTENT	
+959	B1041_theta_leg	PREREGISTRATION.md, banked substrate section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+960	B1041_the_red_locks	FINDINGS.md:90	LEAD	CONSISTENT	
+961	B1041_the_red_locks	FINDINGS.md:73	LEAD	CONSISTENT	
+963	B1042_the_error_ledger	FINDINGS.md:12 (section header)	LEAD	NOISE	
+964	B1042_the_error_ledger	FINDINGS.md:26	LEAD	NOISE	
+965	B1043_triple_assembly	FINDINGS.md:31-32	LEAD	CONSISTENT	
+966	B1043_the_band_is_the_wrong_unit	FINDINGS.md:27	LEAD	CONSISTENT	
+967	B1044_gamma_ledger	FINDINGS.md:11	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+968	B1044_gamma_ledger	FINDINGS.md:16	LEAD	NOISE	
+969	B1045_middle_band_mapped	FINDINGS.md (section 1, re: B485)	LEAD	NOISE	
+971	B1047_the_seam_cluster	FINDINGS.md section 'Three self-corrections', item 2	LEAD	CONSISTENT	(checked: B379 dir listing)
+972	B1048_the_seam_cluster_closed	FINDINGS.md, 'The headline is not the seam' section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+973	B1048_the_seam_cluster_closed	arc_verdict.json claim_one_line	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+976	B1050_the_projective_wall	FINDINGS.md 'L166' section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+977	B1051_the_band_closed	FINDINGS.md 'Registered, not fixed'	LEAD	CONSISTENT	(checked: no test_b55_/test_b57_ files)
+978	B1052_the_handoff	FINDINGS.md 'the honesty clauses'	LEAD	NOISE	that seat's bench; this bench has snappy/cypari
+979	B1053_the_unread_handoffs	FINDINGS.md '2. Its P4 stratum has no arc'	LEAD	NOISE	
+981	B1053_the_unread_handoffs	FINDINGS.md 'The gap, first, because it is mine'	LEAD	NOISE	
+982	B1054_review_one	cross-arc, referenced from B1053 but consistent with B1054's own §1 findings	LEAD	NOISE	
+983	B1054_review_one	FINDINGS.md 'The loop, and one item that is now three reviews old'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+984	B1054_review_one	FINDINGS.md 'What it found in the advancement'	UNSWEEPABLE	CONSISTENT	
+988	B1062_bridge_cell	FINDINGS.md, Riders and honest edges	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+990	B1063_refresh_verdict	FINDINGS.md, 'The trigger, and a defect found with it'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+991	B1063_refresh_verdict	FINDINGS.md, 'The trigger, and a defect found with it'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+992	B1064_cusp_torus_repose	FINDINGS.md, V1 Leg 2	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+994	B1064_cusp_torus_repose	FINDINGS.md, 'The new named missing piece'	LEAD	CONSISTENT	
+995	B1066_lane3_nomination	FINDINGS.md, 'THE VERDICT' inputs note	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+996	B1066_lane3_nomination	FINDINGS.md, R-A row	LEAD	NOISE	
+997	B1066_lane3_nomination	FINDINGS.md, 'The residual, honestly'	LEAD	CONSISTENT	
+998	B1067_rayclass_harvest	w1_results.json, claim 'unharvested-flag-cmbc'	LEAD	SUPERSEDED	B921 harvested harvest/second_round_cm_bost_connes.md to main (frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/)
+999	B1067_rayclass_harvest	FINDINGS.md, 'The sharpest census find'	LEAD	CONSISTENT	
+1000	B1067_rayclass_harvest	FINDINGS.md, census gap-list	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1001	B1067_rayclass_harvest	FINDINGS.md, census gap-list	LEAD	CONSISTENT	
+1002	B1067_rayclass_harvest	FINDINGS.md, census gap-list	LEAD	STANDS	never computed in the repo; checked here: PARI bnfinit(x^2-x-1).no = 1, qfbclassno(5) = 1
+1003	B1067_rayclass_harvest	FINDINGS.md, census gap-list	LEAD	STANDS	no Dedekind-zeta special value of Q(sqrt5) anywhere; not computed here either
+1004	B1067_rayclass_harvest	FINDINGS.md, census gap-list	LEAD	STANDS	checked here: PARI bnfinit(x^2-x-1).fu = x (i.e. phi) — the repo never proves minimality; PARI's fundamental unit is phi
+1006	B1068_descent_inventory	FINDINGS.md row crit1-... (via census inheritance, same theme as B1067)	LEAD	CONSISTENT	Hecke eigenvalues of Gamma_41 newforms: B796's cell2_hecke_gate is a gate, the branch's Hecke work is unharvested (see #703)
+1007	B1069_hearing_biography	FINDINGS.md, opening of 'THE HEARING BIOGRAPHY' section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1008	B1069_hearing_biography	FINDINGS.md, 'The B92 correction'	LEAD	NOISE	
+1009	B1069_hearing_biography	FINDINGS.md, Typing table, Real multiplication row	LEAD	NOISE	
+1011	B1070_listener_derivation	FINDINGS.md header	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1013	B1070_listener_derivation	FINDINGS.md, AMENDMENT 2026-08-18	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1014	B1070_listener_derivation	PROGRESS_LOG.md, 2026-08-29 entry on the creates_law re-audit (log_index/B1070.txt)	LEAD	CONSISTENT	(checked test_b1070/test_b1073 absence)
+1015	B1071_sealed_listener	PREREGISTRATION_V1_SUPERSEDED.md, 'SCOPE'	LEAD	CONSISTENT	
+1017	B1072_silver_instrument	FINDINGS.md, 'The group — NOT the golden pattern'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1019	B1073_composition_gate	log_index/B1073.txt, PROGRESS_LOG.md B1214 entry (2026-08-29)	LEAD	CONSISTENT	as #1014
+1020	B1074_residue_hunt	FINDINGS.md AMENDMENT section	LEAD	CONSISTENT	
+1022	B1077_intrinsic_split	FINDINGS.md 'What it closes and what it aims' / L154 companion paragraph	LEAD	CONSISTENT	
+1024	B1078_gauge_selection	b1078_results.json 'f' block headline	LEAD	CONSISTENT	
+1028	B1093_route_a_arithmetic	FINDINGS.md item 1	LEAD	GENERIC	
+1030	B1097_first_step_losses	FINDINGS.md section 1	LEAD	NOISE	
+1031	B1098_nonabelian_hatch	FINDINGS.md section 4, item 1	LEAD	CONSISTENT	
+1032	B1099_route_a_counter	FINDINGS.md section 1	LEAD	CONSISTENT	literature
+1033	B1099_route_a_counter	FINDINGS.md section 1	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1034	B1099_route_a_counter	FINDINGS.md section 1	LEAD	CONSISTENT	
+1035	B1102_exact_hypercharge_solve	FINDINGS.md 'Uniqueness (C2)'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1037	B1103_being_gate	FINDINGS.md 'Flags carried honestly'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1038	B1104_fourd_suspension	FINDINGS.md 'C1'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1039	B1105_wall_scope	FINDINGS.md 'THE FINDING'	UNSWEEPABLE	CONSISTENT	
+1040	B1105_wall_scope	FINDINGS.md 'THE FINDING'	LEAD	NOISE	
+1041	B1107_oneloop_harvest	PROGRESS_LOG.md (log_index quoting B1207, 2026-08-29) -- this refers to the sibling arc B1113, not to B1107 itself, but is worth cross-noting since B1107's verifier ran cleanly here	LEAD	SUPERSEDED	B1207_slow_lane_discharge later executed the slow-lane verifiers (its title and log entry); the 'never executed' line predates it
+1042	B1108_c5_archimedean	FINDINGS.md, 'The answer: NO -- structural, not a coverage gap'	LEAD	CONSISTENT	B8115 later closes C5 negative in agreement
+1043	B1109_selection_cluster	FINDINGS.md F1b section	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1044	B1111_w5_scoping	FINDINGS.md, item 1	LEAD	CONSISTENT	
+1045	B1113_tmeter	PROGRESS_LOG.md B1207 (log_index for B1113, quoting the review), external to this arc's own committed files	LEAD	SUPERSEDED	as #1041
+1046	B1114_lorentz_double	FINDINGS.md 'THE SIGNATURE IS THE OBSERVER'S'	LEAD	CONSISTENT	
+1047	B1118_deflation	shared with B1109, not re-stated verbatim here but cross-referenced	LEAD	CONSISTENT	
+1048	B1119_anomaly_resolved	FINDINGS.md Fences	LEAD	SUPERSEDED	B1125_compact_color answered it: NO-COMPACT-HOST (typed negative, PROVED) — the object supplies the colour algebra, compactness is external
+1050	B1121_pair_orbits	B1121_pair_orbits/FINDINGS.md and b1121_pairs.py docstring	LEAD	CONSISTENT	
+1051	B1123_forcedness_census	B1123_forcedness_census/FINDINGS.md	LEAD	CONSISTENT	
+1052	B1126_identification	B1126_identification/FINDINGS.md	LEAD	CONSISTENT	
+1053	B1128_instrument_null	context shared with B1126, referenced in this arc's framing of the value campaign	LEAD	CONSISTENT	
+1054	B1129_natural_values_disjoint	b1129_NOTES.md	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1057	B1133_c4_single_end	b1133_NOTES.md, 'Zeroth finding'	LEAD	CONSISTENT	(checked: no twoended_checkpoint.pkl on main)
+1058	B1133_c4_single_end	"b1133_NOTES.md, 'Zeroth finding: the ""0 trusted digits at N<=70M"" claim doesn't match what's on disk'"	LEAD	CONSISTENT	
+1060	B1137_regulator_probe	ADDENDUM_2026-09-01_floor_reclassification_proposal.md, 'Assumption carried' paragraph	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1061	B1140_the_64_organized	FINDINGS.md, 'Scope + conventions (held)'	LEAD	CONSISTENT	
+1063	B1143_bl_fourth_cartan	FINDINGS.md, 'SP-4 -- FLAGGED'	REGISTRY_ECHO	REGISTRY_ECHO	hits only in index/ledger/verifier-table files (registry_split.py, part 2); class spot-checked in part 1
+1064	B1143_bl_fourth_cartan	FINDINGS.md, 'SP-3 -- table invariance CONFIRMED; the 36/36 count FLAGGED'	LEAD	CONSISTENT	

@@ -1,0 +1,451 @@
+{
+ "batch": "arcs_121",
+ "arcs": [
+  {
+   "arc": "B1228_S1_the_nomination",
+   "source": "main",
+   "files_read": [
+    "ADDENDUM_2026-09-01_THE_NOMINATION_IS_REGISTERED_UNEARNED.md",
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "k1.py",
+    "k1_results.json",
+    "level.py",
+    "level_results.json",
+    "nomination.py",
+    "nomination_results.json",
+    "reproduce.sh",
+    "s1.py",
+    "s1_results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN -- 'S1 RUN AT LAST ... NOT sigma = 1: that is RETRACTED in-arc, see THE RETRACTION' -- unique named candidate (E6)_1 for J with level forced by inventory, but the ADDENDUM further registers the pi_1(m004)->>2T-identified-with-transverse-ALE-Gamma nomination as UNEARNED",
+   "log_says": "2026-08-31 -- B1228: S1 RUN (the schedule is a DAG); owner directed the run and named the illiteracy that had blocked it ('supplied externally' read as outside existence).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "c(J_1) = dim/(1+h^v) = rank(J) for 9 simply-laced types, verified via Fraction arithmetic",
+     "where": "s1.py lines with ADE dict and assert c==r",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained sympy/Fraction script, committed, asserts pass, writes s1_results.json"
+    },
+    {
+     "what": "pi_1(m004) ->> 2T: 48 surjective homomorphisms of 72 total, brute force over SL(2,3)^2; control 5_2 gives 0, but 3_1 (trefoil) also gives 48",
+     "where": "nomination.py, nomination_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "uses snappy; script and witness json are committed; the control result (3_1=48) undercuts the 'distinctive' framing but is honestly reported in the fence"
+    },
+    {
+     "what": "k=1 'forced by inventory' because CS=0 => dS/dk = -CS = 0",
+     "where": "level.py",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this is a logical/physics argument dressed as a computation; B1232 (same batch) explicitly RETRACTS this exact move as a 'default value from absence' error -- 'absence of a typed receiver never means a default value.' level_results.json still asserts sigma_is_1:true uncorrected."
+    },
+    {
+     "what": "identification J = E6 via McKay applied to pi_1's 2T",
+     "where": "nomination.py + k1.py",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the ADDENDUM in this same arc states the map is NOT exhibited: pi_1's 2T and the transverse ALE Gamma are 'two different 2T's in two different places, joined by a matching label' -- IDENTIFICATION_BY_TYPE, registered UNEARNED in docs/IDENTIFICATION_LEDGER.md"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "reproduce.sh chains all four python cells; each writes its own _results.json witness; no separate verification/ dir",
+   "absence_claims": [
+    {
+     "quote": "the object supplies J ... and provably NO k",
+     "where": "level.py docstring / FINDINGS.md 'The level, forced by inventory'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "pi_1(m004)'s 2T quotient is identified with the transverse ALE orbifold group of the McKay/6d-type construction on the strength of both being 'the same group up to isomorphism' (order 24, SL(2,3)); the ADDENDUM itself names this as unearned.",
+     "where": "ADDENDUM_2026-09-01...md"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "level_results.json and s1_results.json still contain 'sigma_is_1': true / 'sigma':'1' as committed witness data, even though FINDINGS.md's own 'The retraction' section and the ADDENDUM both retract sigma=1.",
+     "where": "level_results.json, s1_results.json"
+    },
+    {
+     "kind": "FITTED_VALUE",
+     "detail": "nomination.py's control shows the trefoil knot (3_1) also surjects onto 2T 48/72 times, identical to m004 -- so the 'discriminating control' framing in FINDINGS.md ('control 5_2=0') omits that a different control (3_1) fails to discriminate; disclosed in the fence but not in the headline table.",
+     "where": "nomination_results.json, FINDINGS.md fence paragraph"
+    }
+   ],
+   "seat_note": "A carefully self-retracting arc (sigma=1 is explicitly walked back in-session) whose surviving 'level forced by inventory' argument is itself later refuted by B1232 as a default-from-absence fallacy; net physics content is structural-only with no surviving numerical claim."
+  },
+  {
+   "arc": "B1229_the_consistency_turn",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "bootstrap.py",
+    "bootstrap_results.json",
+    "consistency_ledger.json",
+    "consistency_ledger.py",
+    "endstate.json",
+    "endstate.py",
+    "reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN -- 'THE CONSISTENCY TURN ... sigma becomes ONE BIT: R+ -> 7 -> 2' via RCFT rationality (Anderson-Moore/Vafa) + MMS classification + the object's Z/3; includes an in-file 2026-09-01 'VERIFIED' section citing B1231 that already calls the 'robust core' CONDITIONAL",
+   "log_says": "2026-08-31 -- B1229: THE CONSISTENCY TURN. Owner asked for a completely different approach and for research, not computation. [Later log entries under B1230 and B1231 record that B1230's C-5 'refuted B1229: c=6 has four solutions, not one' and B1231 found the Anderson-Moore/Vafa premise is a physics-argument, unread, that does not automatically cover a CS boundary.]",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "MMS two-character classification gives exactly 7 simply-laced/exceptional WZW models with 0<c<8; sigma in {1/6,...,7/6}",
+     "where": "bootstrap.py, bootstrap_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Fraction arithmetic over a hardcoded table (dim,h^v) reproduces the Deligne series; committed and re-runnable"
+    },
+    {
+     "what": "'sigma is rational, the robust core' via Anderson-Moore/Vafa applied to a Chern-Simons boundary",
+     "where": "FINDINGS.md 'The robust core'; consistency_ledger.py row 'sigma (A2)'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "the arc's own in-file 'VERIFIED 2026-09-01' section (citing B1231's CITATION_VERIFICATION) states neither 1988 paper was read, the real hypotheses require finitely-many-primaries which is 'NOT ESTABLISHED' for this boundary, and grades the claim PHYSICS-ARGUMENT not theorem; B1232 (this same batch) goes further and calls the whole premise a 'plain logical error' because Q is dense in R and rationality alone excludes nothing"
+    },
+    {
+     "what": "the object's Z/3 (trace field Q(sqrt-3)=Q(zeta_3), trinification B1161) cuts the 7-value menu to {A2,E6}, giving sigma in {1/3,1}, 'one bit'",
+     "where": "bootstrap.py step 2; consistency_ledger.py",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "identifies the module-count Z/3 of the CFT with the object's trinification Z/3 by matching group order/isomorphism type; B1230's own addendum (same batch) calls the closely-related identification 'the same species as B1228's retracted nomination', and B1232 shows Gal(Q(zeta_3)/Q) has order 2 not 3, undercutting even the premise that the trace field 'is' a Z/3"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "reproduce.sh chains bootstrap.py -> consistency_ledger.py -> endstate.py; each writes its own results.json; no independent verification/ dir",
+   "absence_claims": [
+    {
+     "quote": "The gap, measured: modular bootstrap -> 0 tracked files. conformal bootstrap -> 1. constructor theory -> 0. assembly theory -> 0. An entire methodology built for this situation, never touched.",
+     "where": "FINDINGS.md 'The diagnosis'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "B1229's own FINDINGS.md/arc_verdict.json were never updated to record B1230 C-5's explicit refutation ('c=6 has four solutions, not one, at level 1') of the restricted-menu argument that produces the 'one bit' headline, nor B1232's later, stronger retraction that the rationality premise is empty (Q dense in R). Both corrections live in sibling arcs, not here.",
+     "where": "B1230/FINDINGS.md 'C-5'; B1232/FINDINGS.md 'Retraction 1'"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the object's trinification Z/3 is equated with the boundary CFT's 3-primary module group purely because both have order 3; B1232 shows the actual arithmetic Galois group in play has order 2.",
+     "where": "bootstrap.py 'STEP 2'"
+    },
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "'sigma becomes ONE BIT' / 'zero continuous dimensionless parameters' end-state language in endstate.py/FINDINGS.md rests on two OPEN/CANDIDATE rows (lambda periodicity, the P^3 Cardy cut) that are explicitly marked 'not computed here' / 'the test to run', yet the arc's headline narrative reads as if the reduction already succeeded.",
+     "where": "endstate.py, FINDINGS.md 'The thesis this opens'"
+    }
+   ],
+   "seat_note": "The central 'sigma becomes one bit' result rests on a premise (RCFT rationality forcing discreteness) that is explicitly downgraded to physics-argument grade in the arc's own text and later shown by a sibling arc to be logically empty (Q is dense); as banked, this arc overstates what its own later-appended correction section already concedes."
+  },
+  {
+   "arc": "B1230_consistency_campaign_run1",
+   "source": "main",
+   "files_read": [
+    "ADDENDUM_2026-09-01_C5b_IS_NOT_RESTRICTION_FREE.md",
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "c1_basefield_audit.py",
+    "c1_results.json",
+    "c5_menu_robustness.py",
+    "c5_results.json",
+    "c5b_results.json",
+    "c5b_the_Z3_does_the_work.py",
+    "reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict OPEN -- 'THE CONSISTENCY CAMPAIGN, RUN 1 -- AND IT REFUTED ITS OWN HEADLINE'S STATED SUPPORT, WHICH MADE THE RESULT STRONGER' -- C-1 finds the ledger over-counted continuous parameters (field-unstated rows); C-5 REFUTES B1229's 'sigma=1 selects E6 uniquely' (c=6 has 4 solutions among all simply-laced (G,k), not 1); C-5b 'recovers' via the object's own Z/3 cutting 4 solutions to 1, called 'restriction-free' and 'stronger'. NOTE: the arc's own ADDENDUM (dated the same day) retracts C-5b's headline as an unearned identification, but arc_verdict.json's claim_one_line was never revised to say so.",
+   "log_says": "2026-08-31 -- B1230: THE CONSISTENCY CAMPAIGN, RUN 1. Charter docs/CONSISTENCY_CAMPAIGN.md, stop rules declared first. C-5 -> refuted B1229: c=6 has four solutions, not one (at level 1, c=rank). The gate caught B1229 pairing Brown-Henneaux with (E6)_1 without stating L154's adjudication.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "C-1: base-field audit finds sigma's 'ONE continuous dimensionless anchor' claim OVER-COUNTED (no field stated for a continuum that is actually a finite menu); flags P^3 line and lambda as 'field not stated'",
+     "where": "c1_basefield_audit.py, c1_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained script reading docs/GRAND_COMPUTATION_v0.md via sympy.totient table; committed and asserts print a verdict; witness json committed"
+    },
+    {
+     "what": "C-5: scanning all simply-laced (G,k) for k<=12 (168 models, 141 distinct c), c=6 is hit by FOUR (G,k) pairs (A2@9, A6@1, D6@1, E6@1), refuting B1229's claimed uniqueness",
+     "where": "c5_menu_robustness.py, c5_results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exhaustive Fraction-arithmetic scan over a hardcoded (dim,h^v) table, committed, witness json committed, matches the printed table exactly"
+    },
+    {
+     "what": "C-5b: 'the object's own Z/3 cuts the four c=6 solutions to E6 alone, restriction-free', claimed as a STRONGER, corrected statement",
+     "where": "c5b_the_Z3_does_the_work.py, c5b_results.json, arc_verdict.json claim_one_line",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the primary-count arithmetic (55/7/4/3) is genuinely computed, but the step from 'primary count = 3' to 'this is the object's own Z/3' is exactly the identification the arc's own same-day ADDENDUM retracts as UNEARNED: 'the object's Z/3' (trinification/trace-field) and 'the CFT's Z/3' (module group P/Q) are two different groups in two different places joined only by matching order/label, with no map or action exhibited"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "reproduce.sh chains c1 -> c5 -> c5b; each cell writes its own results.json; C-5 is explicitly designed as an adversarial/self-refuting cell against B1229 and succeeds at that",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json's claim_one_line still asserts C-5b's 'restriction-free' recovery ('the object's own arithmetic selects E6 alone') as the arc's stronger, corrected headline, and c5b_results.json still carries 'b1229_headline_support_restated': true, even though the arc's own same-day ADDENDUM_2026-09-01_C5b_IS_NOT_RESTRICTION_FREE.md explicitly withdraws exactly this claim as an unearned identification 'of the same species as B1228's retracted nomination'.",
+     "where": "arc_verdict.json claim_one_line; c5b_results.json"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "C-5b joins the object's trinification Z/3 to the boundary CFT's 3-primary module group solely because both groups have order 3; no map or faithful action is exhibited (conceded in the ADDENDUM).",
+     "where": "c5b_the_Z3_does_the_work.py; ADDENDUM_2026-09-01..."
+    }
+   ],
+   "seat_note": "A genuinely admirable self-refuting cell (C-5 kills B1229's uniqueness claim outright) is immediately followed by a 'recovery' (C-5b) that commits the identical identification-by-type error the campaign was designed to catch, and the top-level verdict file was never corrected to reflect the arc's own addendum retracting it."
+  },
+  {
+   "arc": "B1231_identification_discipline",
+   "source": "main",
+   "files_read": [
+    "CITATION_VERIFICATION_2026-09-01.md",
+    "FINDINGS.md",
+    "arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, creates_law true -- 'THE IDENTIFICATION DISCIPLINE': names the programme's dominant error mode (typing succeeds, identifying fails), builds docs/IDENTIFICATION_LEDGER.md (EARNED 3, REFUTED 2, UNEARNED 2: I-6=B1228's nomination, I-7=B1230/C-5b's Z/3 cut), an extraction instrument (scripts/checks/identification_audit.py) with an admitted blind spot for bare assertions, a required 'identifications' field in arc_verdict.json, and a ratchet gate that UNEARNED count may not increase. Also discharges a citation-verification debt on B1229's premises: MMS classification HOLDS/sharpens, but Anderson-Moore/Vafa 'robust core' DEFLATES to physics-argument grade, conditional on unestablished finiteness-of-primaries.",
+   "log_says": "2026-09-01 -- B1231: THE IDENTIFICATION DISCIPLINE. 'Succeeds when it TYPES, fails when it IDENTIFIES.' B813, B1223 (the template), and two of ours one cell apart.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "identification_audit.py mechanical sweep of all 1179 arcs returns 61 candidates (3 map-language, 6 typing-language, 52 bare) and a stated blind spot: the narrowed net misses the bare-assertion form, 'exactly how C-5b's error was phrased'",
+     "where": "FINDINGS.md 'The sweep', 'The instrument's measured limit'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the instrument script scripts/checks/identification_audit.py is referenced with --extract/--triage/--selftest but was not itself in this packet's file list (only FINDINGS.md, arc_verdict.json, CITATION_VERIFICATION.md were included) so its committed behavior could not be directly re-verified in this read"
+    },
+    {
+     "what": "Anderson-Moore/Vafa citation check: neither 1988 primary paper could be read (paywalled, pre-arXiv); grade downgraded to PHYSICS-ARGUMENT (not theorem); the rigorous analogue (Dong-Li-Mason 2000) uses provably inequivalent hypotheses (Gaberdiel-Kausch)",
+     "where": "CITATION_VERIFICATION_2026-09-01.md section 1",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "explicitly built from abstracts and secondary sources, not the primary papers; the check is honestly self-limiting but is a literature judgment, not a computation, and no witness artifact beyond the markdown narrative is committed"
+    },
+    {
+     "what": "MMS two-character classification is 'genuinely proved' (Mason 2018 completing MMS's 1988 argument) but the 7-value list is 'l=0 only'; nonzero-Wronskian two-character theories are separate classifications not counted",
+     "where": "CITATION_VERIFICATION_2026-09-01.md section 2",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "a literature-verification narrative citing external arXiv IDs, not a computation with a committed witness"
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "no reproduce.sh or code file was included in this packet's file list for B1231 (only two .md files and arc_verdict.json); the FINDINGS.md reproduce line points to scripts/checks/identification_audit.py --selftest and tests/test_b1231_identification.py, neither of which was sampled here",
+   "absence_claims": [
+    {
+     "quote": "A first draft's wide net returned 272 candidates, overwhelmingly false ... The narrowed net returns 61 with good precision -- but misses the bare-assertion form, which is exactly how C-5b's error was phrased. The instrument built to catch my error would not have caught my error.",
+     "where": "FINDINGS.md 'The instrument's measured limit'"
+    },
+    {
+     "quote": "Neither primary paper could be read -- both 1988, pre-arXiv, paywalled.",
+     "where": "CITATION_VERIFICATION_2026-09-01.md section 1"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "the arc's central instrument (identification_audit.py) and its 61-candidate sweep output were not present as files in this arc directory per the packet (only FINDINGS.md/arc_verdict.json/CITATION_VERIFICATION.md); the sweep result is asserted in prose without an included machine-readable artifact in this arc's own folder.",
+     "where": "packet file list for B1231; FINDINGS.md 'The sweep'"
+    },
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "the Anderson-Moore/Vafa and MMS citation grading rests entirely on secondary-source literature review (abstracts, not primary papers), not a reproducible computation.",
+     "where": "CITATION_VERIFICATION_2026-09-01.md"
+    }
+   ],
+   "seat_note": "This is the arc that formally names and polices the identification-by-type failure mode this seat is instructed to flag independently, which is a healthy governance signal, but its own load-bearing instrument was not included/verifiable in this packet and its literature-grade downgrade of B1229's core premise (physics-argument, not theorem) deserves to be surfaced prominently."
+  },
+  {
+   "arc": "B1232_codex_r031_verified_and_three_columns",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "codex_certs_rerun.txt",
+    "quotient_lemma_out.txt",
+    "rerun_codex_certs.sh",
+    "verify_quotient_lemma.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, creates_law true -- 'CODEX R031A/R031B VERIFIED ON THIS BENCH, THREE OF MY CLAIMS RETRACTED, AND A THIRD COLUMN'. Retraction 1: sigma-in-Q 'establishes nothing' because Q is dense in R -- B1229's 'robust core' was 'a plain logical error', not weakly grounded but EMPTY. Retraction 2: B1228's 'k=1 forced by inventory' is a default-value-from-absence fallacy; codex's law adopted: absence of a receiver means quotient-invariance or underdetermination, never a default. Retraction 3: C-2 resolves to Outcome A (P^3 is genuinely P^3_C, K-rank 4) and names the arc author's own 'dimension tell' (dim 4 = phi(12)) as exactly the identification-by-type error B1231 exists to catch. Correction 4: Gal(Q(zeta_3)/Q) has order 2 not 3, so I-7's premise (calling the trace field a 'Z/3') is a factual error. Positive: an independently re-derived quotient-invariance lemma (0->C->V->T->0, dims 3,4,1) shows a coupling annihilating C makes the P^3 splitting choice invisible to observables (spread 0.000 vs 4.83 for a generic coupling) -- 'three coordinates, zero observable parameters', explicitly NOT yet verified against the real physical couplings.",
+   "log_says": "2026-09-01 -- B1232: codex R031A/R031B verified here; three retractions; the third column. Owner: verify everything, trust nothing.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "r031b cert: 'rationality alone permits arbitrarily large finite subsets of (0,1) and rational midpoints' -- PASS, i.e. Q-rationality does not by itself force discreteness",
+     "where": "codex_certs_rerun.txt line 'PASS rationality alone permits...'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "rerun_codex_certs.sh invokes scripts at /Users/dri/oa-audit-seat/aud1t/codex-r023/certificates/... -- an absolute path on the owner's machine, NOT inside this git repository. Checked: this path does not exist in the origin-axiom repo (find turned up nothing) and is unreachable from this environment. The witness .txt is committed but the code that produced it is not, so a stranger with only this repo cannot reproduce it."
+    },
+    {
+     "what": "r031a cert: B_0 generator exponents (0,0,0,0); C12 acts by I_4 = zeta_12^0*I_4; base change gives B_0=K^4, P(B_0)=P^3_K, K-rank 4 not 1 (controls: primitive-scalar orbit and charpoly Phi_12 both absent)",
+     "where": "codex_certs_rerun.txt",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "same external, non-committed script dependency as above (/Users/dri/oa-audit-seat/...); this is the single most consequential numeric retraction in the batch (resolves the P^3-vs-point fork) yet its source code is not in this repository"
+    },
+    {
+     "what": "Gal(Q(zeta_3)/Q) has order 2, not 3 -- refuting the premise that the trace field is 'a source of Z/3'",
+     "where": "codex_certs_rerun.txt 'RESULT Gal(Q(zeta_3)/Q) order = 2'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "same external script; however this specific fact (cyclotomic Galois group order = phi(3) = 2) is elementary and independently checkable by hand/sympy, so it is very likely correct even though not reproducible from this repo's committed files"
+    },
+    {
+     "what": "quotient-invariance lemma: a coupling Y annihilating the connecting submodule C makes the observable independent of the P^3 splitting choice (spread 0.000e+00 over 2000 random splittings vs 4.834 for generic Y)",
+     "where": "verify_quotient_lemma.py, quotient_lemma_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "self-contained numpy script with a fixed seed, committed, with an explicit MB12-style negative control (generic Y giving nonzero spread); its own docstring flags the caveat that whether the REAL couplings annihilate the REAL connecting block is 'codex's exact computation, still running -- NOT verified here'"
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "verify_quotient_lemma.py is a genuine independent RE-COMPUTES belt for the positive lemma; but rerun_codex_certs.sh is not a real belt at all -- it shells out to an uncommitted external directory, so 'verified on this bench' for retractions 1/2/3 could not actually execute in a from-scratch clone of this repo",
+   "absence_claims": [
+    {
+     "quote": "Neither primary paper could be read",
+     "where": "(cross-ref) B1231/CITATION_VERIFICATION -- carried into this arc's Retraction 1 reasoning"
+    },
+    {
+     "quote": "This arc does NOT verify that the actual couplings annihilate the actual connecting block.",
+     "where": "FINDINGS.md 'Not verified here -- fenced'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "rerun_codex_certs.sh hardcodes the path /Users/dri/oa-audit-seat/aud1t/codex-r023/certificates/... which is outside this git repository and does not exist in it (verified by find); codex_certs_rerun.txt is a committed witness .txt, but the code that generated it -- the arc's own central 'verified on this bench' claim for three of its four headline retractions -- is not committed anywhere a stranger cloning origin-axiom could find or re-run it.",
+     "where": "rerun_codex_certs.sh"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "this arc explicitly retracts B1229's rationality-based 'robust core' as EMPTY (a plain logical error, Q dense in R) and retracts B1228's 'k=1 forced by inventory' as a default-from-absence fallacy, yet neither B1228's nor B1229's own FINDINGS.md/arc_verdict.json in this batch were amended to record these retractions -- the correction exists only in this sibling arc.",
+     "where": "FINDINGS.md 'Retraction 1', 'Retraction 2'"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "self-diagnosed by the arc itself: 'I matched dim 4 with phi(12)=4 and inferred a module structure from two numbers agreeing -- that is the identification error B1231 exists to catch, committed inside the analysis that motivated the discipline.'",
+     "where": "FINDINGS.md 'Retraction 3'"
+    }
+   ],
+   "seat_note": "The most consequential arc in this batch physics-wise -- it retracts the rationality argument underlying B1229/B1230's sigma reduction as logically empty and shows the P^3 is genuinely 3-complex-dimensional, not a point -- but its own re-verification claim for those retractions depends on an uncommitted external script outside the repo, so the retractions themselves cannot be reproduced by a stranger even though they read as decisive."
+  },
+  {
+   "arc": "B1233_zai_audit",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "arc_verdict.json",
+    "audit.py",
+    "reproduce.sh"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED -- 'THE Z-AI AUDIT: 15 confirmed, 7 refuted, one real defect in our own record'. Confirms 15 external claims to 30+ digits or symbolically (dilogarithm partition, Lagrange-number identity, Jones index values, Fricke identity, Morse-landscape critical points, Riley trace matching banked B285, Markov-triple correspondence, class numbers, genus field, j(sqrt-3)=54000, disc-15 j-pair, Lambda(m) Markov pattern, spin structures=2). Refutes 7 external claims (j(m004 cusp)=0 is false -- that's m003's cusp; the q=1 'cutoff' claim; k=1-by-minimality, calling it the exact default-from-absence error B1232 retracted 'two hours earlier'; quartic-vs-quadratic disc-15 field degree; a sign error; an imprecise Morse-Hedlund citation; and REFUTES, not merely unearns, the 'observer-bit = ideal class of Q(sqrt-15)' identification by Galois theory (complex conjugation fixes sqrt5, the class-group generator flips both -- different group elements), registered I-8 REFUTED). Also finds a real internal kappa-convention split between papers/P3_THE_PAPER/main.tex and the frontier record.",
+   "log_says": "2026-09-01 -- B1233: the external audit. 15 confirmed, 7 refuted, one defect found in our own record.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "all 15 confirmations and 7 refutations, computed to 30+ digits via mpmath (dps=40) and symbolically via sympy, with a single script asserting every result and printing PASS/FAIL for each",
+     "where": "audit.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "single self-contained script, no external dependency beyond sympy/mpmath, asserts all(R.values()) at the end -- a stranger can literally run `python3 audit.py` and get the same PASS list"
+    },
+    {
+     "what": "Galois refutation of I-8: complex conjugation acts as (-1,+1) on (sqrt-3,sqrt5) while the class-group generator acts as (-1,-1); therefore they are different elements of V4",
+     "where": "audit.py 'the Galois refutation' block",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the group-theoretic fact is hardcoded as tuples (CC, CLS) rather than derived from a class-field computation, but the underlying mathematical fact (conjugation fixes sqrt5 since it is real; the Q(sqrt-15) class-group generator fixes sqrt-15=sqrt-3*sqrt5) is standard and independently checkable"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "reproduce.sh runs audit.py directly; all assertions are in the one file with an explicit final `assert all(R.values())`",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "NONE",
+     "detail": "no significant flags found in this arc's own content -- it is an unusually clean external-audit-and-refutation arc with exact numeric witnesses for every claim",
+     "where": "n/a"
+    }
+   ],
+   "seat_note": "This is one of the strongest arcs in the batch on the seat's own criteria: every claim (confirmed or refuted) has a committed, reproducible numeric or symbolic witness in a single short script, and the arc explicitly credits an external source (z-ai) while still verifying rather than trusting it."
+  },
+  {
+   "arc": "B1234_a6_built_the_walls",
+   "source": "main",
+   "files_read": [
+    "FINDINGS.md",
+    "a6_built_the_walls.py",
+    "arc_verdict.json",
+    "reproduce.sh",
+    "results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED, creates_law true -- 'THE WALLS TRACE TO A6: the squaring buys orientability and costs every value'. Eight previously-banked 'walls' (no dimensionful quantity, CS=0, chirality not self-supplied, external CP sign, the naming wall, box-D bit cost, trivial value-kernel, no-forced-choice) all trace to one upstream fact: amphichirality, which is shown to be FORCED by the orientation-double-cover construction (40/40 = 100% amphichiral among tested covers vs a 3.0% base rate among orientable 1-cusped census manifolds), and m004 is verified to literally BE the orientation double cover of the non-orientable Gieseking manifold m000 (is_isometric_to = True, volume ratio exactly 2.0). A third cell shows the pi_1->>2T->McKay->E6 arithmetic route survives dropping the A6 axiom entirely (Gieseking gives the identical 48 surjections). Explicitly NOT claimed: that dropping A6 makes any value derivable, since orientation is used by Chern-Simons/complex-volume/SL(2,C) machinery that a non-orientable object may not support.",
+   "log_says": "2026-09-01 -- B1234: the walls trace to A6. Eight walls, one join: the mirror is a self-isometry.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "orientation double covers of 40 non-orientable census manifolds are 40/40 (100%) amphichiral, vs 6/200 (3.0%) base rate among orientable 1-cusped census manifolds",
+     "where": "a6_built_the_walls.py CELL 1, results.json cell1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "uses snappy's NonorientableCuspedCensus/OrientableCuspedCensus and symmetry_group().is_amphicheiral(); asserts cover_amph==cover_tot and base_amph/base_tot<0.10; committed and matches this seat's own independent A6-fork adjudication from an earlier phase of this campaign"
+    },
+    {
+     "what": "m000 (Gieseking) is non-orientable; its orientation cover is_isometric_to m004; volume ratio exactly 2.000000",
+     "where": "a6_built_the_walls.py CELL 2, results.json cell2",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "direct snappy is_isometric_to call, asserted in the script, witness json committed"
+    },
+    {
+     "what": "Gieseking's pi_1 surjects onto 2T with 48/72 homomorphisms, identical to m004's count, and both share the trace field Q(sqrt-3)",
+     "where": "a6_built_the_walls.py CELL 3, results.json cell3",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "same brute-force SL(2,3)^2 enumeration method as B1228's nomination.py, applied to a second manifold; sg==sm asserted; the trace-field-sharing claim (same disc -3 commensurability class) is stated, not separately recomputed in this script"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "reproduce.sh runs the single script with three cells, each with an explicit assert and a two-sided control",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "cell 3's conclusion that Gieseking 'carries the same invariant trace field Q(sqrt-3)' as m004 because both are in the same disc -3 commensurability class is stated rather than computed in this script (no explicit trace-field computation for Gieseking appears in a6_built_the_walls.py); low severity since this is a well-known SnapPy census fact, but it is asserted, not shown, in this particular committed file.",
+     "where": "a6_built_the_walls.py CELL 3 comment / results.json 'same_trace_field'"
+    }
+   ],
+   "seat_note": "A rare structurally clean and consequential arc: it independently corroborates this seat's own earlier finding that the amphichirality/A6-squaring step is a choice rather than a forced property of 'the minimal object', with genuine SnapPy computations and honest two-sided controls, and correctly refrains from claiming that removing A6 would make any value derivable."
+  }
+ ]
+}

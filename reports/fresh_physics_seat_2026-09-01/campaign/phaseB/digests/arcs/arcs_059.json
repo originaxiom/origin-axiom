@@ -1,0 +1,222 @@
+{
+ "batch": "arcs_059",
+ "arcs": [
+  {
+   "arc": "B724_seeing_readjudication",
+   "source": "main",
+   "files_read": [
+    "frontier/B724_seeing_readjudication/FINDINGS.md",
+    "frontier/B724_seeing_readjudication/PREREGISTRATION.md",
+    "frontier/B724_seeing_readjudication/arc_verdict.json",
+    "frontier/B724_seeing_readjudication/b724_probe1.py (first 120 lines + grep)",
+    "frontier/B724_seeing_readjudication/b724_probe1_out.txt",
+    "frontier/B724_seeing_readjudication/b724_probe2.py (first 120 lines + grep)",
+    "frontier/B724_seeing_readjudication/b724_probe2_out.txt",
+    "frontier/B724_seeing_readjudication/b724_probe3.py",
+    "frontier/B724_seeing_readjudication/b724_probe3_out.txt",
+    "frontier/B724_seeing_readjudication/b724_probe4.py",
+    "frontier/B724_seeing_readjudication/b724_probe4_out.txt"
+   ],
+   "files_sampled": [
+    "frontier/B724_seeing_readjudication/b724_probe1.py",
+    "frontier/B724_seeing_readjudication/b724_probe2.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'Recomputing every seeing-strategy item leaves only C1 sound (a restatement of B713); C2 blocked, C3/C5 refuted, C4 and the GGM path base-rate dead.'",
+   "log_says": "PROGRESS_LOG.md 2026-07-20: 'the SEEING-STRATEGY re-adjudication: every verdict computed (corrects E19)' — my first adjudication of chat-1's SEEING STRATEGY over-relied on cited negatives (E19); REVIEW 26 credits B724 as the computed re-adjudication catching the 'cited/generic read as sufficient/special' error class for the second time.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "C2: E6 principal-SL(2) branching of the 27 = Sym^16+Sym^8+Sym^0 (dims 17/9/1), and h^1(M;27)=3 one-per-block, INCOMMENSURABLE (no symmetric spatial triad)",
+     "where": "b724_probe1.py / b724_probe1_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "full sympy computation of Cartan matrix, principal grading, weight orbit, and cross-checked Sym^16 rank over 16 primes for lucky/unlucky primes; script + output both committed"
+    },
+    {
+     "what": "C4: torsion hierarchy tau_11/tau_8 near-hit to 10^17 is a base-rate coincidence (1/30 pure-2-ratio hit rate; 2.2 expected hits/decade over 232 combos); the forced theta-odd ratio misses by x259",
+     "where": "b724_probe2.py / b724_probe2_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "torsions recomputed from B581_six_torsions/six_torsions_results.json exact quotients (asserted against prompt values), full base-rate enumeration over all <=3-torsion signed products printed with source data path"
+    },
+    {
+     "what": "Path 1: GGM fig-8 rotated 3D-index recomputed from arXiv:2007.10190 eq 13a/13b matches paper's eq(80); chat-1's quoted series does NOT match; only common integer with banked object data is 3 (forced, not a discriminating identity)",
+     "where": "b724_probe3.py / b724_probe3_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "q-series built from first principles in-sandbox and checked against the paper's stated eq(80) coefficients; banked torsions re-derived from B581 JSON; full integer-bag comparison printed"
+    },
+    {
+     "what": "C1 SOUND: object vector-like (Tristram-Levine signature 0 on entire unit circle, non-vacuous vs trefoil), chirality = simply-transitive Z/2 Galois torsor on fiber y^2-3y+3 (disc -3)",
+     "where": "b724_probe4.py / b724_probe4_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "numeric signature sweep (39 points) plus exact sympy Galois-action check, both printed with assert-backed pass/fail"
+    },
+    {
+     "what": "C3 REFUTED: Fibonacci word factor complexity p(n)=n+1 (Sturmian, zero entropy), letter-entropy converges to H(1/phi), cat map amphichiral (conjugate to its own inverse) => no arrow",
+     "where": "b724_probe4.py / b724_probe4_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit word generation + entropy computation + exact GL(2,Z) conjugacy check, all printed"
+    },
+    {
+     "what": "C5 REFUTED: a 4-element V4 (2 bits) is measure-zero in R^19 (~19 independent continuous SM parameters), cardinality/dimension/kind mismatch",
+     "where": "b724_probe4.py / b724_probe4_out.txt",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes",
+     "why": "the 19-parameter enumeration is a standard textbook count typed into the script (not itself computed from any deeper structure) but the cardinality argument built on it is a straightforward, reproducible logical/computational check"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The entire arc is itself a belt: it exists specifically to re-derive (not cite) every discriminating fact behind a prior over-cited adjudication (E19), and probe4 explicitly re-confirms 'settled' verdicts by computation rather than citation.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "This is a well-disciplined negative-result arc: it recomputes every discriminating fact in-sandbox (Fox calculus, GGM q-series, torsion base rates) rather than citing prior banked negatives, and its base-rate treatment of the torsion-hierarchy 'near-hit' (C4) is a genuinely useful methodological correction against numerology. No SM observable is produced or claimed; the one surviving item (C1) is explicitly flagged as a restatement of an existing banked result (B713), not new content."
+  },
+  {
+   "arc": "B725_born_rule",
+   "source": "main",
+   "files_read": [
+    "frontier/B725_born_rule/FINDINGS.md",
+    "frontier/B725_born_rule/PREREGISTRATION.md",
+    "frontier/B725_born_rule/arc_verdict.json",
+    "frontier/B725_born_rule/b725_probe1.py (first 120 lines + grep)",
+    "frontier/B725_born_rule/b725_probe1_out.txt",
+    "frontier/B725_born_rule/b725_probe2.py",
+    "frontier/B725_born_rule/b725_probe2_out.txt",
+    "frontier/B725_born_rule/b725_probe3.py (first 120 lines + grep)",
+    "frontier/B725_born_rule/b725_probe3_out.txt"
+   ],
+   "files_sampled": [
+    "frontier/B725_born_rule/b725_probe1.py",
+    "frontier/B725_born_rule/b725_probe3.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: 'The observer construction forces the Born rule's FORM and explains its quadratic degree as the c-swap's Galois order; Born CONTENT stays open.'",
+   "log_says": "PROGRESS_LOG.md 2026-07-20: 'THE BORN RULE: the observer construction gives Born FORM (+ why quadratic), not Born CONTENT'; REVIEW 26 spot-recomputed B725's SEAL_LEDGER hash (fecb337a) MATCH; Review 41 (2026-08-09) notes X1 cites B725 itself as writing 'Not we derived the Born rule' and re-grades the SM-Born rung to OPEN rather than 'never asked'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The Born rule's quadratic degree = the order of the c-swap (modular conjugation J = Gal(C/R), order 2); falsifier: an order-3 swap (cyclic cubic field) gives a degree-3 norm",
+     "where": "b725_probe1.py / b725_probe1_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit finite-dim GNS/Hilbert-Schmidt construction of J verified to ~1e-15/1e-16 against every Tomita-Takesaki axiom, plus an explicit degree-3 Galois-norm counterexample, both printed"
+    },
+    {
+     "what": "beta=1 SSB decomposition weights equal Tr(rho P_i) (Born) exactly for the orthogonal/pointer decomposition, and NOT for a non-orthogonal decomposition of the same rho (non-vacuity)",
+     "where": "b725_probe2.py / b725_probe2_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "numeric Gibbs-state construction at n=2,3,5 matching Born weights to ~1e-16, plus an explicit non-orthogonal counterexample that differs (0.58 vs 0.50) and does not sum to 1 for that decomposition"
+    },
+    {
+     "what": "Gleason's harmonic obstruction: only spherical-harmonic degrees l=0,2 survive the frame condition on S^2 (dim>=3), forcing quadratic frame functions; an explicit dim=2 (type I_2) counterexample (h(n)=n_z^3) shows Gleason is non-vacuous",
+     "where": "b725_probe3.py / b725_probe3_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the harmonic-degree admissibility is computed via a frame-sum operator sampled over thousands of random SO(3) rotations, plus a least-squares check driving a proposed quartic coefficient to ~1e-17"
+    },
+    {
+     "what": "The claim depends on the B723 axiom 'measurement = the beta=1 SSB', which the arc itself flags as an input, not derived here",
+     "where": "b725_probe1_out.txt / FINDINGS.md line 39-40 ('Input, not derived (flagged)')",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the arc explicitly does not re-derive this premise; whether B723's construction is itself sound is outside this arc's scope"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "This arc runs its own three fresh probes; the FINDINGS also references a cross-check against a separate seat's independent axiomatic run (cc2, wf_73cde374) reaching convergent conclusions, which functions as an informal two-seat check but is not a re-computation belt within this arc's committed files.",
+   "absence_claims": [
+    "\"no probe re-derived it, and B942 retracted it / B957 refuted it\" — frontier/B725_born_rule/FINDINGS.md line 94 (referring to the underlying 'measurement = the beta=1 SSB' axiom)",
+    "\"Not 'we derived the Born rule.'\" — frontier/B725_born_rule/FINDINGS.md line 16"
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "arc_verdict.json still reads verdict:PROVED with a claim_one_line that does not mention that its entire construction rests on 'measurement = the beta=1 SSB' (B723), an axiom the FINDINGS.md itself reports was later retracted by B942 and refuted outright by B957 ('the fields are mutually blind'). The FINDINGS.md body does carry an inline retraction banner, but the structured claim_of_record (arc_verdict.json) a downstream reader would cite does not reflect it.",
+     "where": "frontier/B725_born_rule/arc_verdict.json vs frontier/B725_born_rule/FINDINGS.md lines 93-97"
+    }
+    ,
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The claimed identity 'the conjugate-linear bra slot IS this antilinearity of J' rests on both objects sharing the algebraic property 'antilinear/order-2 involution' — a structural-type match rather than an independently forced identification; the arc itself partially concedes this is an 'identification, not an independent derivation.'",
+     "where": "frontier/B725_born_rule/FINDINGS.md lines 29-30, 77-78"
+    }
+   ],
+   "seat_note": "A genuinely careful, well-bounded operator-algebra result (Gleason forces the quadratic form; SSB gives orthogonal-decomposition weights; the c-swap explains the degree) that explicitly refuses to overclaim 'we derived the Born rule' and flags its own open content gap. The unresolved problem is bookkeeping, not physics: the verdict record was never updated after the load-bearing SSB-as-measurement premise was independently refuted elsewhere in the repo (B957)."
+  },
+  {
+   "arc": "B726_hearing_born_content",
+   "source": "main",
+   "files_read": [
+    "frontier/B726_hearing_born_content/FINDINGS.md",
+    "frontier/B726_hearing_born_content/PREREGISTRATION.md",
+    "frontier/B726_hearing_born_content/arc_verdict.json",
+    "frontier/B726_hearing_born_content/b726_probe1.py (first 120 lines + grep)",
+    "frontier/B726_hearing_born_content/b726_probe1_out.txt",
+    "frontier/B726_hearing_born_content/b726_probe2.py",
+    "frontier/B726_hearing_born_content/b726_probe2_out.txt",
+    "frontier/B726_hearing_born_content/b726_probe3.py (first 120 lines + grep)",
+    "frontier/B726_hearing_born_content/b726_probe3_out.txt"
+   ],
+   "files_sampled": [
+    "frontier/B726_hearing_born_content/b726_probe1.py",
+    "frontier/B726_hearing_born_content/b726_probe3.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: 'The two bare quadratic faces do not close the Born gap: hearing Q(sqrt5) owns only the weights, while amplitudes and the interference phase need cyclotomic upgrades.'",
+   "log_says": "PROGRESS_LOG.md 2026-07-20: 'THE HEARING FACE AND THE BORN CONTENT: the WEIGHTS are the hearing's; the bare two faces don't close it'; B730 entry notes 'B726 amplitude-field erratum corrected'; REVIEW 26 places B726 in the completed Born-content ledger (FORM=Q(sqrt-3), WEIGHTS=Q(sqrt5) quadratic classical content; AMPLITUDES/PHASE=quartic golden-MTC overlays ramified away from prime 3).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Being (thermal KMS) is exactly diagonal ([rho,H]~1e-16, zero off-diagonal l1-coherence) in contrast to a coherent superposition (coherence 0.99-3.31); the bare golden monodromy A ([[1,1],[1,0]]) is real-symmetric with spectrum {phi,-1/phi} OFF the unit circle -- Anosov/hyperbolic, NOT unitary or conjugate to unitary",
+     "where": "b726_probe1.py / b726_probe1_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "explicit numeric Gibbs-state commutator/coherence check plus exact sympy eigenvalue/unit-circle test on A, printed"
+    },
+    {
+     "what": "Fibonacci MTC S-matrix is unitary, symmetric, off-diagonal (S_01=phi/D), Verlinde-consistent (reproduces tau x tau = 1+tau fusion), T-matrix carries a genuine complex 5th-root-of-unity phase, and the Plancherel weights d_a^2/D^2 = 1:phi^2 are non-uniform (Shannon entropy strictly below uniform)",
+     "where": "b726_probe2.py / b726_probe2_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "full exact sympy construction from the fusion rule (not asserted from a table), Verlinde formula check, and numeric entropy comparison, all printed"
+    },
+    {
+     "what": "Field-membership audit (corrected v2 of the probe, after a self-caught v1 error): the non-uniform weights d_a^2/D^2 and diagonal F-symbol phi^-1 are IN Q(sqrt5) (deg-2 minpolys); the S-matrix entries (1/D, phi/D) and off-diagonal F-symbol phi^-1/2 need a REAL QUARTIC extension (deg-4 minpolys), NOT bare Q(sqrt5); the interference phase (twist zeta5^2) needs the complex cyclotomic Q(zeta5)",
+     "where": "b726_probe3.py / b726_probe3_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "every field-membership claim is backed by a printed sympy minimal_polynomial computation, not an assertion; the arc explicitly documents and corrects its own prior (v1) mislabeling of these fields"
+    },
+    {
+     "what": "The 'A^2=M ~ |psi|^2' hook is a false pattern-match: on Q(sqrt5) the literal square phi*phi=+2.618 diverges from the Galois-conjugation norm phi*c(phi)=-1 (a negative unit), so squaring and conjugation-norm are provably different operations here",
+     "where": "b726_probe3.py / b726_probe3_out.txt Part C",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "both quantities computed exactly in sympy and shown to differ in sign, ruling out the identification directly rather than by citation"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "probe3 is an explicit self-correction (v2) of the arc's own v1 field-membership error, caught by an in-arc skeptic pass and recomputed from minimal polynomials rather than re-asserted; the FINDINGS.md also carries a later inline correction (B729/B730) fixing the amplitude-field label, both properly marked as corrections in the same document.",
+   "absence_claims": [
+    "\"the framework's three additions are structural identifications, not independent derivations\" — cross-referenced structural caveat present in FINDINGS.md and probes; no hard repo-absence ('no file exists') sentences were found in this arc's files",
+    "\"UNBANKED\" (the real-quartic amplitude field and the cyclotomic phase field Q(zeta5) are explicitly marked as not-yet-established/absent from the banked ledger) — frontier/B726_hearing_born_content/b726_probe3_out.txt lines 112-115"
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The initial (v1) claim that the S-matrix/F-symbol amplitudes lie 'in Q(sqrt5)' was itself an identification-by-type error (real irrational numbers assumed to lie in the golden field just because they are built from phi) later caught and corrected in v2 by actually computing minimal polynomials — a good example of the exact failure mode this seat is instructed to watch for, self-corrected in this case.",
+     "where": "frontier/B726_hearing_born_content/b726_probe3.py lines 18-24, 94-96 (documents its own v1 error and fix)"
+    }
+   ],
+   "seat_note": "One of the more disciplined arcs read this batch: it explicitly tests and rejects two seductive numerological hooks (A^2=M as a Born square; Q(sqrt5) as the interference-phase field) using exact field-membership computation rather than assertion, and openly documents its own prior mislabeling error and correction. No SM observable is produced; the result is a purely structural/arithmetic field-ownership map with real open gaps (unbanked quartic and cyclotomic extensions) honestly reported as such."
+  }
+ ]
+}

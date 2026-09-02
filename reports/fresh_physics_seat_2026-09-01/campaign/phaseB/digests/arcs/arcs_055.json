@@ -1,0 +1,440 @@
+{
+"batch": "arcs_055",
+"arcs": [
+{
+"arc": "B685_generation_terminal",
+"source": "main",
+"files_read": ["frontier/B685_generation_terminal/ARTIFACT_HASHES.txt","frontier/B685_generation_terminal/FINDINGS.md","frontier/B685_generation_terminal/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Neither intrinsic realization carries 5-adic structure (modular coefficients are algebraic integers; the Habiro/Nahm object is integral away from 3), so no framework-derivable generator produces the flavor streams.' status: NEGATIVE",
+"log_says": "The generation leg 'closes as a terminal no-go theorem' (2026-07-18); but the log's own later entries (B741 2026-07-21, B828 2026-07-30, B839 2026-07-30, B776 2026-07-24, B1187 2026-08-28) show the GSWZ 3-integrality claim was 'cited, not in-repo' at banking time, its original lock (test_gswz_powers_of_three) was 'genuinely vacuous... unfailable', was partially reconstructed from first principles by B776/B800, and 3-integrality is still listed as 'the named remaining theorem' as late as 2026-08-28 (B1187).",
+"log_consistency": "DRIFT",
+"load_bearing": [
+{"what": "GSWZ Φ(h)Φ(−h) coefficients 'integral away from 3' (denominator pure powers of 3, e.g. 3^146 at n=100), the central fact killing the 5-adic hearing route", "where": "frontier/B685_generation_terminal/FINDINGS.md lines 19-23", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "Cited from the GSWZ paper at banking time (not computed in this arc's own files, which contain no script); log shows the discriminating computation was later found not in-repo (B741), the original lock was vacuous (B828), and even after B776/B800 reconstruction the 'integral away from 3' clause specifically was not reproduced (B830) and 3-integrality remains open as of B1187 (2026-08-28)."},
+{"what": "Molien/Γ(5) route coefficients are algebraic integers (no denominators), cited as 'W2 kill #8'", "where": "frontier/B685_generation_terminal/FINDINGS.md lines 47-48", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "Imported from an earlier arc (W2) not included in this packet; not independently checked here."}
+],
+"belt": "UNCLEAR",
+"belt_note": "FINDINGS.md cites 'Locks: tests/test_b685_terminal.py' but the test file is not in this packet. The log independently reveals this lock's predecessor (test_gswz_powers_of_three) was vacuous/unfailable and was replaced by B755/B776 work outside this arc's directory, so the belt for THIS arc's directory cannot be assessed from the packet alone.",
+"absence_claims": [
+{"quote": "There is NO 5 anywhere in the figure-eight's geometry.", "where": "frontier/B685_generation_terminal/FINDINGS.md line 17"},
+{"quote": "B685 (the terminal generation no-go — its GSWZ-integrality discriminator is cited, not in-repo; MEDIUM, one focused Habiro-expansion cell)", "where": "PROGRESS_LOG.md, B741 entry (2026-07-21), via log_index/B685.txt"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The load-bearing GSWZ integrality-away-from-3 claim was cited from an external paper, not computed in-repo, at the time this NEGATIVE verdict was banked.", "where": "frontier/B685_generation_terminal/FINDINGS.md lines 19-23; PROGRESS_LOG.md B741 (2026-07-21)"},
+{"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "The banked NEGATIVE ('terminal no-go theorem') rested on a lock later confirmed 'genuinely vacuous... unfailable' (B828, 2026-07-30); the underlying theorem (3-integrality) is still described as 'the named remaining theorem' a month later (B1187, 2026-08-28).", "where": "PROGRESS_LOG.md B828 and B1187 entries, via log_index/B685.txt"},
+{"kind": "SUPERSEDED_UNMARKED", "detail": "This packet's FINDINGS.md/arc_verdict.json carry no addendum reflecting the multi-month partial-correction chain (B776, B800, B839, B1187) that the progress log documents against this exact arc's central claim; a reader of only the arc's own files would not know the discriminator was reconstructed from first principles later, nor that a piece of it is still open.", "where": "frontier/B685_generation_terminal/ (no addendum present) vs PROGRESS_LOG.md entries 2026-07-24 to 2026-08-28"}
+],
+"seat_note": "The verdict's rhetoric ('terminal no-go theorem', 'PROVED... theorem') outran its committed evidence at banking time; the load-bearing GSWZ integrality fact was imported from a paper with a vacuous local test, and per the program's own later admission the underlying arithmetic claim is still not closed a month later. This is the single most consequential case in the batch of a claim standing in the record well ahead of its committed proof."
+},
+
+{
+"arc": "B686_koide_firewall",
+"source": "main",
+"files_read": ["frontier/B686_koide_firewall/ARTIFACT_HASHES.txt","frontier/B686_koide_firewall/FINDINGS.md","frontier/B686_koide_firewall/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: \"The 'Koide is Eisenstein arithmetic' claim is firewalled: Q = 2/3 is a parametrization tautology for every phase and theta0 = 2/9 is convention-dependent and base-rate.\" status: NEGATIVE",
+"log_says": "Koide claim firewalled — Q=2/3 is 120°-tautological, theta0=2/9 convention-dependent + base-rate; later corroborated as one of three independent falls of the Koide hope (B1005, 2026-08-09).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Q = (Σm)/(Σ√m)² = 2/3 EXACTLY for EVERY phase θ, 'verified at four unrelated θ'", "where": "frontier/B686_koide_firewall/FINDINGS.md lines 100-106", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "The arc's 3 files (a hash file, FINDINGS.md, arc_verdict.json) contain no script or data file; the 'verified at four unrelated θ' claim has no witness in this packet, though the underlying algebra is elementary and could be hand-checked."}
+],
+"belt": "NONE",
+"belt_note": "No verification/ directory, no script; a 3-file prose arc.",
+"absence_claims": [
+{"quote": "VERDICT: NOT banked. No LAW_MAP row, no CLAIMS.", "where": "frontier/B686_koide_firewall/FINDINGS.md line 121"}
+],
+"physics_content": "OBSERVABLE",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The core tautology claim (Q=2/3 for any phase) is stated as independently verified at four phases but no script or numeric log is committed with this arc.", "where": "frontier/B686_koide_firewall/FINDINGS.md lines 100-106"}
+],
+"seat_note": "A well-disciplined negative (correctly firewalls a seductive coincidence and gives the exact mechanism, the 120° parametrization tautology), but the specific 'verified at four θ' claim has no committed witness in this arc's own files."
+},
+
+{
+"arc": "B687_sm_atlas_koide",
+"source": "main",
+"files_read": ["frontier/B687_sm_atlas_koide/ARTIFACT_HASHES.txt","frontier/B687_sm_atlas_koide/FINDINGS.md","frontier/B687_sm_atlas_koide/arc_verdict.json","frontier/B687_sm_atlas_koide/eisenstein_face/MASTERPLAN_EISENSTEIN_FACE.md","frontier/B687_sm_atlas_koide/sm_understanding/A1_ATLAS.md","frontier/B687_sm_atlas_koide/sm_understanding/BASE_RATE_PRINCIPLE.md","frontier/B687_sm_atlas_koide/sm_understanding/KOIDE_SPLIT.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The SM atlas grades 22 of 23 dimensionless invariants unreachable or base-rate-dead, leaving Koide alone; the h(27)=2/3 match is explicitly not evidence.' status: NEGATIVE",
+"log_says": "B687 graded 22/23 unreachable/base-rate-dead, Koide the one live target; later (B1005, 2026-08-09) the Koide hope itself falls three independent ways (B686, B703, B743).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "h(27) = 2/3, the conformal weight of the 27 of E₆ at level 1 (c(E₆,1)=6, h(27)=C₂(27)/26=(52/3)/26=2/3)", "where": "frontier/B687_sm_atlas_koide/FINDINGS.md lines 103-109", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "Standard CFT/root-system arithmetic, stated as 'VERIFIED' but no script or worked derivation file is committed in this arc; the arithmetic is checkable by hand but not reproduced from a committed witness."},
+{"what": "A1 ATLAS: of 23 dimensionless SM invariants, 14 unreachable, 8 base-rate-dead, 1 live (Koide Q)", "where": "frontier/B687_sm_atlas_koide/sm_understanding/A1_ATLAS.md", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "The doc says 'Verdict machine-readable in a1_atlas.json' but that JSON is not among this arc's files in the packet, so the 23-item enumeration and its triage cannot be checked from what's committed here."}
+],
+"belt": "NONE",
+"belt_note": "No verification/ directory; the referenced machine-readable a1_atlas.json is not present in this packet.",
+"absence_claims": [],
+"physics_content": "OBSERVABLE",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The 23-invariant atlas's machine-readable backing file (a1_atlas.json) is referenced but not included among this arc's committed files.", "where": "frontier/B687_sm_atlas_koide/sm_understanding/A1_ATLAS.md"},
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "h(27)=2/3 (an E6 conformal weight) matching Koide's Q=2/3 is a bare numeric/type coincidence; the arc itself calls this 'a coincidence until a derivation FORCES the identity' and explicitly does not bank it, which is the correct call but the underlying temptation is exactly the type-coincidence pattern.", "where": "frontier/B687_sm_atlas_koide/FINDINGS.md lines 111-119"}
+],
+"seat_note": "Honestly disciplined (explicitly refuses to treat the h(27)=Koide-Q coincidence as evidence, per its own firewall), but the atlas's headline 22/23 triage rests on a JSON file not present in this packet, so a stranger cannot audit the enumeration from what's committed here."
+},
+
+{
+"arc": "B688_eisenstein_campaign",
+"source": "main",
+"files_read": ["frontier/B688_eisenstein_campaign/ARTIFACT_HASHES.txt","frontier/B688_eisenstein_campaign/CHAT1_SURGERY_ADJUDICATION.md","frontier/B688_eisenstein_campaign/GOVERNANCE.md","frontier/B688_eisenstein_campaign/LOOP_E3_DESIGN.md","frontier/B688_eisenstein_campaign/ORCHESTRATION_ADVANCED.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "no verdict file",
+"log_says": "B688 banks the Eisenstein-campaign governance/division-of-labor and the 'advanced loop machine' orchestration layer, and adjudicates chat1's surgery-chain handoff (math sound, SM firewalled).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Q5 base-rate check: '37% of |W(E₆)|-multiples in [10⁶,10⁷] have {2,3,5,7,11}-smooth cofactors'", "where": "frontier/B688_eisenstein_campaign/CHAT1_SURGERY_ADJUDICATION.md lines 410-414", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "Stated as 'Computed' but no script or data file backs the 37% figure in this arc's files."},
+{"what": "Q1 McKay adjudication: |SL2(F2)|=6≅S3, |SL2(F3)|=24≅2T, 2T↔E6, 5 splits in Q(i) but is inert in Q(√−3)", "where": "frontier/B688_eisenstein_campaign/CHAT1_SURGERY_ADJUDICATION.md lines 385-396", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "Standard, checkable-by-hand group theory/Legendre symbols, but no script or worked computation is committed in this arc."}
+],
+"belt": "NONE",
+"belt_note": "This is a governance/design document set (no FINDINGS.md, no verdict, no verification directory).",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The Q1/Q5 adjudication numbers (McKay correspondence checks, the 37% smooth-cofactor base-rate figure) are asserted as computed but have no script or data file in this arc.", "where": "frontier/B688_eisenstein_campaign/CHAT1_SURGERY_ADJUDICATION.md"}
+],
+"seat_note": "This is pure governance/orchestration scaffolding, not a physics result; its one substantive adjudication (chat1's surgery chain) is stated as verified but carries no committed script, so it reads as an editorial ruling rather than a reproducible computation."
+},
+
+{
+"arc": "B689_meeting_holds_ground",
+"source": "main",
+"files_read": ["frontier/B689_meeting_holds_ground/ARTIFACT_HASHES.txt","frontier/B689_meeting_holds_ground/FINDINGS.md","frontier/B689_meeting_holds_ground/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: \"The figure-eight's weight-2 avatar exists only at level 15 = 3*5 (X_0(3) and X_0(5) both genus 0), so the two hands are irreducibly coupled.\" status: PROVED",
+"log_says": "Confirms Atkin-Lehner W3=+1,W5=-1 reconciling with a3=-1,a5=+1; the handshake couples (irreducible newform) but the inert-5 Hecke eigenvalue is trivial +1, not golden/3².",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "genus X0(3)=0 and genus X0(5)=0 (no weight-2 cusp form at either prime alone); the level-15 newform E15=15.2.a.a with a3=-1 (non-split mult), a5=+1 (split mult)", "where": "frontier/B689_meeting_holds_ground/FINDINGS.md lines 167-179", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "Standard modular-curve/LMFDB facts, plausibly citable, but this 3-file arc contains no script or LMFDB query output as a witness."}
+],
+"belt": "NONE",
+"belt_note": "3-file prose arc; no verification directory.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The genus and Hecke-eigenvalue facts underlying the 'irreducible coupling' claim are stated without a committed LMFDB query, script, or citation trail in this arc's files.", "where": "frontier/B689_meeting_holds_ground/FINDINGS.md"}
+],
+"seat_note": "The mathematical content (genus 0 at each single prime, irreducible newform only at 15) is standard and plausible, but nothing in this arc lets a stranger reproduce the specific numbers without external LMFDB access."
+},
+
+{
+"arc": "B690_being_hand_asymmetry",
+"source": "main",
+"files_read": ["frontier/B690_being_hand_asymmetry/ARTIFACT_HASHES.txt","frontier/B690_being_hand_asymmetry/FINDINGS.md","frontier/B690_being_hand_asymmetry/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The being (3-adic) object nearly realizes its divided-power law (defect ≤2) while the hearing (5-adic) one does not at all — the hands are asymmetric.' status: PROVED",
+"log_says": "VERIFY-M closed both no-go pillars 'triple-gated' (origin B690/B691 + cc2 replication + cc machine); VA 3-adic deviation [1,-1,0,-1,-2] EXACT, only n=4 exact.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "3-adic defect table n=2,3,4,5,100: actual v3 of denominators 3,3,5,5,146 vs predicted n+v3(n!) = 2,4,5,6,148, max defect 2", "where": "frontier/B690_being_hand_asymmetry/FINDINGS.md lines 228-233", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Table is 're-derived...from the published GSWZ eq-(2) coefficients' — an explicit external-paper import with a self-disclosed caveat that GSWZ's full 600-term run 'used unpublished scripts'; no script or data file is committed with this arc to reproduce the table."}
+],
+"belt": "NONE",
+"belt_note": "3-file prose arc; no committed script.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The defect table (the arc's central computed content) has no committed script/data; it is transcribed from published coefficients with a self-disclosed small-sample caveat (only ~10 published coefficients).", "where": "frontier/B690_being_hand_asymmetry/FINDINGS.md lines 226-239"}
+],
+"seat_note": "Commendably honest about its own evidentiary limits (explicitly flags the small published-coefficient sample as a 'PRICED frontier item'), but the table itself is not reproducible from anything committed in this arc."
+},
+
+{
+"arc": "B691_eisenstein_loop2_close",
+"source": "main",
+"files_read": ["frontier/B691_eisenstein_loop2_close/ARTIFACT_HASHES.txt","frontier/B691_eisenstein_loop2_close/FINDINGS.md","frontier/B691_eisenstein_loop2_close/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The object generates being and not hearing because phi(3)=2 is prime (a minimal self-conjugate doublet), while the hearing's hierarchy needs 5's composite totient.' status: PROVED",
+"log_says": "Both no-go pillars triple-gated; the totient asymmetry (φ(3)=2 prime, φ(5)=4 composite) is treated as the arithmetic root of B685 across many later reviews (Review 23, B696, B692) and never contradicted downstream in this log window.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "φ(3)=2 is prime ⇒ Gal(Q(ζ3)/Q)=Z/2 has no proper subgroup ⇒ ζ3 orbit is a minimal self-conjugate doublet = the object's own shape roots (z²−z+1=0); φ(5)=4 composite ⇒ Gal(Q(ζ5)/Q)=Z/4 has subgroup Z/2 ⇒ golden Gaussian periods (roots of t²+t−1)", "where": "frontier/B691_eisenstein_loop2_close/FINDINGS.md lines 294-301", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Elementary, standard cyclotomic Galois theory, verifiable by hand from the stated definitions without needing a script; no witness file included but the claim does not require heavy computation to check."}
+],
+"belt": "NONE",
+"belt_note": "3-file prose arc; no script, though the math is elementary enough to check by hand.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "The totient argument is standard, checkable mathematics and is consistently cited without contradiction across many later log entries — one of the more solid non-computed (hand-verifiable) claims in the batch."
+},
+
+{
+"arc": "B692_level15_literature",
+"source": "main",
+"files_read": ["frontier/B692_level15_literature/ARTIFACT_HASHES.txt","frontier/B692_level15_literature/FINDINGS.md","frontier/B692_level15_literature/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Independent search finds every level-15 piece published (curve 15a8, Bianchi forms, Koide-circles) but no prior art for the E6/bifocal/totient synthesis.' status: PROVED",
+"log_says": "The level-15 literature landscape independent search done 'WITHOUT trusting the relay'; specialist queue grew with the summit's novelty claims (observer-coupling closure, totient root, conductor-15 novelty, Frobenius mechanism).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Self-correction: chat1's g2=-1/12, g3=161/216 are NOT garbled, they match a published Weierstrass-invariant sign/scaling convention; robust invariants c4=1, c6=-161, Δ=-15, j=-1/15 agree across seats/sources", "where": "frontier/B692_level15_literature/FINDINGS.md lines 368-375", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "Cites external sources (unnamed 'a published source') without a committed citation file; the correction itself is a good-faith retraction of an earlier over-strong claim (softens the B674 note)."}
+],
+"belt": "NONE",
+"belt_note": "A literature-search arc; no computation script, no search-query transcript committed.",
+"absence_claims": [
+{"quote": "NOVEL (independent search found NO prior art): E₆ representation theory ON the level-15 Hecke eigenvalues. The Atkin–Lehner signs ↔ the being/hearing bifocal structure. The totient asymmetry ... as the root of the level-15 coupling. The knot's quantum invariants read through E₆.", "where": "frontier/B692_level15_literature/FINDINGS.md lines 393-398"},
+{"quote": "Physics side: EMPTY (searched).", "where": "frontier/B692_level15_literature/FINDINGS.md line 400 (context: same document's physics-search paragraph, cross-referenced also in B698)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The 'independent deep search' and 'independent web search' underlying both the KNOWN and NOVEL findings has no committed search log, query list, or transcript — a stranger cannot verify what was and wasn't searched.", "where": "frontier/B692_level15_literature/FINDINGS.md"}
+],
+"seat_note": "A self-aware literature review that correctly softens an earlier over-strong claim (the g2/g3 'garbled' retraction), but its central absence claims ('no prior art', 'physics side EMPTY') rest entirely on an unaudited search process with no committed trail."
+},
+
+{
+"arc": "B693_loop_e3_inert5",
+"source": "main",
+"files_read": ["frontier/B693_loop_e3_inert5/ARTIFACT_HASHES.txt","frontier/B693_loop_e3_inert5/FINDINGS.md","frontier/B693_loop_e3_inert5/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Base change to Q(sqrt-3) gives a_(5) = +1 at the inert prime, the trivial Steinberg value, killing the hope that the hearing prime carries phi.' status: NEGATIVE",
+"log_says": "Two-route gate agrees a_(5)=+1 (CC Euler-factor identity here; cc2's independent LMFDB/Weil-Deligne route agrees, banked next in B694).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Base-change Euler-factor identity at the inert prime 5: L5(f,s)=(1-5^-s)^-1, L5(f⊗χ-3,s)=(1+5^-s)^-1, product=(1-25^-s)^-1 ⇒ a_(5)=+1", "where": "frontier/B693_loop_e3_inert5/FINDINGS.md lines 435-444", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "The derivation is exact, elementary algebra shown fully inline in prose, so it is reproducible by hand from the stated identity, but no script/file is committed for this arc to check it programmatically."}
+],
+"belt": "NONE",
+"belt_note": "3-file prose arc.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The base-change identity is shown as exact algebra in prose but has no committed script, distinguishing it from B698/B699/B704 in the same batch which do carry executable witnesses.", "where": "frontier/B693_loop_e3_inert5/FINDINGS.md"}
+],
+"seat_note": "The Euler-factor algebra is elementary and exact, and is independently corroborated by cc2's separate LMFDB route in the next arc (B694) — a reasonably solid derivation despite lacking its own script."
+},
+
+{
+"arc": "B694_e3a_gate",
+"source": "main",
+"files_read": ["frontier/B694_e3a_gate/ARTIFACT_HASHES.txt","frontier/B694_e3a_gate/FINDINGS.md","frontier/B694_e3a_gate/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Both routes give a_(5) = +1, and rational base change forces every Bianchi Hecke eigenvalue into Q, so the automorphic avatar structurally cannot carry the golden.' status: PROVED",
+"log_says": "E-3a a_(5)=+1 BEING FORCED; consistent with B685/B691/B694 all agreeing three independent routes (geometry, totient, Hecke).",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "cc2's LMFDB Bianchi form 2.0.3.1-75.1-a with hecke_poly=x (Hecke field Q at every prime), tabulated (5)-Hecke eigenvalue = 1", "where": "frontier/B694_e3a_gate/FINDINGS.md lines 501-509", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Cites an LMFDB label and value; no committed LMFDB query output or script in this arc to verify the citation."}
+],
+"belt": "NONE",
+"belt_note": "3-file prose arc.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The LMFDB Bianchi-form citation (2.0.3.1-75.1-a, hecke_poly=x) has no committed query output or script to verify against the live database.", "where": "frontier/B694_e3a_gate/FINDINGS.md"}
+],
+"seat_note": "Strengthens B693's exact algebra with an independent LMFDB citation and a clean forcing argument (rational base change ⇒ Hecke field Q ⇒ φ unreachable) that is logically tight, though the LMFDB data point itself is uncited-to-a-file."
+},
+
+{
+"arc": "B695_loop_e3_close",
+"source": "main",
+"files_read": ["frontier/B695_loop_e3_close/ARTIFACT_HASHES.txt","frontier/B695_loop_e3_close/FINDINGS.md","frontier/B695_loop_e3_close/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The level-15 handshake is a unique irreducible being-arithmetic coupling (59/60 primes); the claimed emergent chirality is falsified as generic even-rank behaviour.' status: PROVED",
+"log_says": "Loop E-3 closed; a later correction (E37, 2026-08-19) withdraws a different downstream 'forcedness doorway' claim while explicitly reaffirming 'level 15 irreducible, B695' stands.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "59/60 primes falsify any L-factorization of the level-15 form (UNIQUE irreducible)", "where": "frontier/B695_loop_e3_close/FINDINGS.md line 569", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "No script or per-prime data table is committed in this arc to check the 59/60 claim."},
+{"what": "Global root number ε = w∞·w3·w5 = (-1)(+1)(-1) = +1 = (-1)^rank (rank 0); checked against 14a/26a/57a as a 'generic elliptic-curve fact'", "where": "frontier/B695_loop_e3_close/FINDINGS.md lines 573-581", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "The cross-checks against 14a/26a/57a are cited by curve label only; no LMFDB query file is committed."}
+],
+"belt": "NONE",
+"belt_note": "3-file prose arc.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "Neither the 59/60-prime factorization check nor the 14a/26a/57a root-number cross-check has a committed script or LMFDB output in this arc.", "where": "frontier/B695_loop_e3_close/FINDINGS.md"}
+],
+"seat_note": "This arc contains a genuine, well-labeled self-correction (retracting its own prior 'emergent chirality' reading as a generic even-rank artifact, credited to cc2's catch) — good discipline — but its own two numeric checks (59/60 primes, the three-curve root-number comparison) have no committed witnesses."
+},
+
+{
+"arc": "B696_eisenstein_campaign_close",
+"source": "main",
+"files_read": ["frontier/B696_eisenstein_campaign_close/ARTIFACT_HASHES.txt","frontier/B696_eisenstein_campaign_close/CRITIC_FINDINGS.md","frontier/B696_eisenstein_campaign_close/E4b_FINDINGS_CC2.md","frontier/B696_eisenstein_campaign_close/FINDINGS.md","frontier/B696_eisenstein_campaign_close/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The Eisenstein anatomy campaign is closed: the being face is charted as the golden face was, over seven loops into ATLAS v2.' status: PROVED (depends_on: B685, B691)",
+"log_says": "The Eisenstein campaign closed (machine close of cc2's packet, verified) mapping the whole being face.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "E4b: silver sum-rule rank(span{[c23],[c24],[c34]}) over Q(s,i) = RANK 3 (no tying), vs golden rank 2 (banked B671); main-seat independently recomputed 4 of cc2's 7 exact 3x3 minors", "where": "frontier/B696_eisenstein_campaign_close/FINDINGS.md lines 638-653; E4b_FINDINGS_CC2.md", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "The verification depends on 'the banked silver vector-cup table' d3_silvercup/d3_results.json, which lives in a different arc (B673_loop4_integration) not included in this packet — a cross-arc dependency this arc's own files cannot resolve alone."}
+],
+"belt": "RE-READS",
+"belt_note": "CRITIC_FINDINGS.md is a genuine adversarial completeness audit, but it re-reads and re-classifies existing scripts/data across the whole campaign (checking whether banked machinery could close open questions) rather than performing fresh independent recomputation of the object itself.",
+"absence_claims": [
+{"quote": "grep across the whole repo (frontier/, docs/, papers/) for bronze/trace-5 cubic or swap data returns NOTHING — the entire 27-dim E6 local system has never been built for any metallic-family member past silver", "where": "frontier/B696_eisenstein_campaign_close/CRITIC_FINDINGS.md item 3, lines ~455-461"},
+{"quote": "No further banked terms exist to extract (n=11..99 would require reimplementing GSWZ's unpublished 600-term PARI pipeline). The exact defect pattern is genuinely PRICED-SPECIALIST", "where": "frontier/B696_eisenstein_campaign_close/CRITIC_FINDINGS.md item 12, lines ~536-539"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The E4b rank-3-vs-rank-2 sum-rule claim, the arc's one genuinely computed result, depends on a JSON data file located in a different arc (B673) not present in this packet.", "where": "frontier/B696_eisenstein_campaign_close/E4b_FINDINGS_CC2.md; frontier/B673_loop4_integration/packet/loop4/d3_silvercup/d3_results.json (not in packet)"}
+],
+"seat_note": "The completeness-critic methodology (an adversarial pass explicitly hunting for compute-closable gaps the campaign missed) is a genuinely good practice and surfaced two real gaps (one resolved, one honestly re-priced); the one closed gap's numeric verification, however, cannot be checked from this arc's own files alone."
+},
+
+{
+"arc": "B697_frobenius_gluing",
+"source": "main",
+"files_read": ["frontier/B697_frobenius_gluing/ARTIFACT_HASHES.txt","frontier/B697_frobenius_gluing/FINDINGS.md","frontier/B697_frobenius_gluing/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: \"The golden's appearance in the zeta-5 Habiro evaluation is a tautological Gaussian period carrying no the object'specific content; the f_5 loop is superseded.\" status: NEGATIVE",
+"log_says": "chat1's Frobenius-gluing claim adjudicated SOUND (the best chat1 claim); B697 addendum records two-seat convergence + which-Δ resolution.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "φ = ζ5 + ζ5⁴ + 1 EXACTLY, a Gaussian period of the 5th roots of unity", "where": "frontier/B697_frobenius_gluing/FINDINGS.md line 633", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Elementary, standard cyclotomic-period algebra, hand-verifiable without a script even though none is committed."}
+],
+"belt": "NONE",
+"belt_note": "3-file prose arc, but the FINDINGS.md itself contains a properly-labeled ADDENDUM section recording a same-day two-seat convergence and correction (superseding the earlier 'fresh loop' framing) — good in-document discipline.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "One of the cleaner arcs in the batch: the core algebraic claim is elementary and correct, and the addendum properly supersedes the original framing within the same file rather than leaving a stale claim standing elsewhere."
+},
+
+{
+"arc": "B698_the_meeting_probed",
+"source": "main",
+"files_read": ["frontier/B698_the_meeting_probed/FINDINGS.md","frontier/B698_the_meeting_probed/PREREG_LEG_A.md","frontier/B698_the_meeting_probed/arc_verdict.json","frontier/B698_the_meeting_probed/b698_legA.py","frontier/B698_the_meeting_probed/ref_baserate_control.sage","frontier/B698_the_meeting_probed/ref_classnumbers.sage","frontier/B698_the_meeting_probed/ref_e15_lvalues.sage"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'Leg A: the meeting is probed on its analytic side, with the prereg sealed BEFORE the verdict.' status: PROVED",
+"log_says": "Owner directive 'go FULL ON'; Leg A computed and banked as a product with a Z/2 residue, grounded in two literature sweeps.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "L(15a,1)=0.350150760583, L(15a,2)=0.661475187922, L'(15a,0)=0.251330433713, Omega=5.6024121693, hardcoded as Python float constants 'verified constants from sage/LMFDB 15.a7'", "where": "frontier/B698_the_meeting_probed/b698_legA.py lines 17-20", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "b698_legA.py does not itself compute these values; ref_e15_lvalues.sage (present, sage-based, using L.dokchitser()) would compute them, but b698_legA.py does not invoke it or cross-check the hardcoded constants against its output — the pipeline as committed is not end-to-end reproducible without a manual cross-check step."},
+{"what": "PSLQ finds no integer relation among {m(A_4₁), L(15a,2), L(chi_-3,2), pi} etc. (K3 vs K2 independence)", "where": "frontier/B698_the_meeting_probed/b698_legA.py lines 71-77", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "mp.pslq is called directly in the committed script on the (partly hardcoded) constants; the PSLQ step itself is executable and reproducible, modulo the upstream hardcoding above."},
+{"what": "h(Q(sqrt-3))=1, h(Q(sqrt5))=1, h(Q(sqrt-15))=2 (genus-theory Z/2 residue), with an assert enforcing (1,1,2)", "where": "frontier/B698_the_meeting_probed/b698_legA.py lines 27-50, 78-86", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "class_number_neg is implemented in pure Python (reduced binary quadratic forms) and asserted inline; a genuine, self-contained, reproducible witness."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "ref_baserate_control.sage, ref_classnumbers.sage, ref_e15_lvalues.sage are separate sage witnesses; b698_legA.py re-implements the class-number/PSLQ checks in pure Python without a sage runtime dependency — a real belt for the class-number claim, but not for the hardcoded L-value constants, which the committed pipeline never cross-checks programmatically against ref_e15_lvalues.sage's output.",
+"absence_claims": [
+{"quote": "Physics side: EMPTY (searched). The figure-eight is the canonical 3d-3d example (T[4₁]), but its arithmetic is the '3' side only ... conductor-15 / level-15 appears in NO physics paper", "where": "frontier/B698_the_meeting_probed/FINDINGS.md (Prior art / novelty section)"},
+{"quote": "the phrase 'conductor 3·5 / level 3·5' appears NOWHERE in the literature", "where": "frontier/B698_the_meeting_probed/FINDINGS.md (Prior art / novelty section)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The four L-value constants driving both the BSD check and the PSLQ independence claim are hardcoded floats in b698_legA.py, justified only by a code comment citing sage/LMFDB; the sage script that could actually compute them (ref_e15_lvalues.sage) exists but is not wired into or cross-checked against the hardcoded values in the committed pipeline.", "where": "frontier/B698_the_meeting_probed/b698_legA.py lines 17-20; ref_e15_lvalues.sage"}
+],
+"physics_content_note": "n/a",
+"seat_note": "Genuinely one of the better-instrumented arcs (real PSLQ run, a from-scratch pure-Python class-number implementation with an inline assert), but its headline BSD/PSLQ numbers rest on hardcoded constants that the committed code never verifies against the separately-present sage script meant to produce them."
+},
+
+{
+"arc": "B699_two_object_surgery",
+"source": "main",
+"files_read": ["frontier/B699_two_object_surgery/FINDINGS.md","frontier/B699_two_object_surgery/PREREG_TWO_OBJECT.md","frontier/B699_two_object_surgery/TWO_OBJECT_CLOSE.md","frontier/B699_two_object_surgery/arc_verdict.json","frontier/B699_two_object_surgery/cc_verify_fig8_15600.py","frontier/B699_two_object_surgery/cc_verify_whitehead_120.py","frontier/B699_two_object_surgery/sa_chain_arithmetic/FINDINGS_CC2.md","frontier/B699_two_object_surgery/sa_chain_arithmetic/sa_results.json","frontier/B699_two_object_surgery/sb_whitehead_hearing/FINDINGS_CC2.md","frontier/B699_two_object_surgery/sb_whitehead_hearing/sb_results.json"],
+"files_sampled": ["frontier/B699_two_object_surgery/sa_chain_arithmetic/sa_chain.py","frontier/B699_two_object_surgery/sb_whitehead_hearing/sb_whitehead.py"],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: \"The two-object surgery test refutes '5-inert is necessary for golden capacity' (both the 5-split Whitehead and the figure-eight fill their mod-5 ambients generically), so the hearing is not born in the coupling.\" status: NEGATIVE",
+"log_says": "The first genuine two-object test reframes the hearing (bundle phenomenon, not mod-5 capacity); consistent across cc/cc2, and later B756 refutes the general form of a related row (DOOR2) on five exact counterexamples while the m004-specific content stands.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Whitehead holonomy mod (2+i) FILLS SL(2,5)=2I (order 120)", "where": "frontier/B699_two_object_surgery/cc_verify_whitehead_120.py; sb_whitehead_hearing/FINDINGS_CC2.md", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cc_verify_whitehead_120.py is a full, self-contained, independently-designed ('BLIND') script using snappy+sage that computes the trace triple mod (2+i) and the generated-subgroup order directly; a real, executable, committed witness."},
+{"what": "figure-eight raw holonomy mod 5 FILLS SL(2,F25) (order 15600), NOT the smaller 2I", "where": "frontier/B699_two_object_surgery/cc_verify_fig8_15600.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full committed script using snappy+sage with an explicit BFS group-closure computation; self-contained and executable."},
+{"what": "surgery-chain trace fields/prime-splitting: Borromean/Whitehead trace field Q(i) disc -4 (5 split, 3 inert); figure-eight Q(sqrt-3) disc -3 (5 inert, 3 ramified); surgery steps isometry-verified", "where": "frontier/B699_two_object_surgery/sa_chain_arithmetic/sa_results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sa_results.json is a full machine-readable output (volumes, isometry hits, prime factorizations mod 3/5, an explicit falsifier_check block) generated by the committed sa_chain.py, which combines snappy geometry with sympy-exact prime splitting and shells out to sage for the trace field."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Genuine independent two-route verification within the arc: cc2's relator-based computation and cc's separately-designed 'BLIND' trace-triple method both compute the Whitehead mod-5 image and agree (order 120); similarly the figure-eight's mod-5 image (15600) is independently reproduced. This is the strongest belt in the batch.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "The best-instrumented arc in this batch: real, independently-designed, executable scripts computing the same group-theoretic facts two different ways, plus a full machine-readable results JSON with an explicit falsifier check. The negative conclusion (golden capacity is generic, not born in the 5-split-to-5-inert coupling) is honestly reached and self-corrects an initial hope."
+},
+
+{
+"arc": "B700_fiber_functor",
+"source": "main",
+"files_read": ["frontier/B700_fiber_functor/CAMPAIGN.md","frontier/B700_fiber_functor/FINDINGS.md","frontier/B700_fiber_functor/arc_verdict.json","frontier/B700_fiber_functor/phase2_cc2/phase2/PHASE2_CLOSE_CC2.md","frontier/B700_fiber_functor/phase2_cc2/phase2/SEALS.txt","frontier/B700_fiber_functor/cell3_cc2/CELL3_CLOSE_CC2.md","frontier/B700_fiber_functor/cell3_cc2/SEALS.txt"],
+"files_sampled": [],
+"files_listed_only": ["frontier/B700_fiber_functor/PREREG_CELL1.md","frontier/B700_fiber_functor/PREREG_CELL2.md","frontier/B700_fiber_functor/PREREG_CELL4.md","frontier/B700_fiber_functor/PREREG_CELL5.md","frontier/B700_fiber_functor/PREREG_CELL6_phase2.md","frontier/B700_fiber_functor/ref_b701_phase2.sage","frontier/B700_fiber_functor/ref_cell5_sl2p.sage","frontier/B700_fiber_functor/ref_golden_torsor.sage","frontier/B700_fiber_functor/ref_psl27_cell4.sage","frontier/B700_fiber_functor/ref_v4_uniformity.sage","frontier/B700_fiber_functor/phase2_cc2/phase2/FINDINGS_CC2.md","frontier/B700_fiber_functor/phase2_cc2/phase2/PREREG_PHASE2_CC2.md","frontier/B700_fiber_functor/cell3_cc2/FINDINGS_CC2.md","frontier/B700_fiber_functor/cell3_cc2/PREREG_CELL3_CC2.md"],
+"claim_of_record": "claim_one_line: 'Measurement is a fiber-functor ℤ/2 torsor: at every prime stage SL(2,p) has exactly two (p−1)/2-dim irreps with character field ℚ(√p*) swapped simply-transitively, and the canonical torsor-iso is provably obstructed.' status: PROVED",
+"log_says": "B701 turned the observer-coupling thesis into a theorem (measurement=fiber-functor, non-canonical, obstruction required by B685); much later (B957, 2026-08-08) the log REFUTES a different, downstream identification (B723's claim that B700's torsor is the CMR/idele-class-group torsor) on the grounds that every B700 torsor has structure group Z/2, not an infinite profinite group — but B957 explicitly states 'this refutes an IDENTIFICATION, not B700 — which stands entirely.' B1004 (2026-08-09) separately flags that this retracted downstream clause was live in five places for a time before being fully cleaned up.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "2I=SL(2,5) has exactly two 2-dim golden irreps, character field exactly Q(sqrt5), Galois-swapped simply-transitively (no fixed point) — cell 1", "where": "frontier/B700_fiber_functor/FINDINGS.md lines 9-30", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Stated as verified via 'sage character table + independent Q(zeta5) recompute'; the likely witness script (ref_golden_torsor.sage) exists in the arc's file list but was not read in this pass (listed only), so it is not independently confirmed here."},
+{"what": "Stage-uniform general theorem: for every prime stage p, SL(2,p) has exactly two (p-1)/2-dim irreps with character field Q(sqrt p*), verified exactly for p=5,7,11,13 — cell 5", "where": "frontier/B700_fiber_functor/FINDINGS.md lines 191-199", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Grounded in a cited classical fact (Schur/Frobenius, Gauss-sum-valued exceptional characters); the likely witness (ref_cell5_sl2p.sage) was not read in this pass."},
+{"what": "Phase 2 obstruction: the two golden irreps both have Frobenius-Schur indicator -1 and share every choice-free Galois invariant, so no canonical torsor-iso to the unitarity-pointed MTC torsor {Fibonacci, Yang-Lee} exists", "where": "frontier/B700_fiber_functor/FINDINGS.md lines 236-313; phase2_cc2/phase2/PHASE2_CLOSE_CC2.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "Described as independently confirmed by both seats (cc's arithmetic recompute, cc2's icosian-quaternion BFS closure via GAP/Sage); the likely witness (ref_b701_phase2.sage) exists but was not read in this pass."}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The arc's own documents (FINDINGS.md, PHASE2_CLOSE_CC2.md, CELL3_CLOSE_CC2.md) describe genuine two-seat independent recomputation (cc's arithmetic argument vs cc2's icosian-quaternion GAP/Sage construction) converging on the same OBSTRUCTED verdict — a real belt pattern is documented, but the underlying witness scripts for cells 1, 4, 5, and phase 2 (5 ref_*.sage files) were not read in this pass, so the belt is confirmed only at the level of the prose cross-check, not independently re-verified here.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "OTHER", "detail": "This is a THIN READ: 14 of 21 files, including the two largest sub-documents (phase2_cc2/FINDINGS_CC2.md at 14976 bytes and cell3_cc2/FINDINGS_CC2.md at 14419 bytes) and all 5 ref_*.sage witness scripts, were not read in this pass — the underlying computations for cells 1, 4, and 5 (the stage-uniformity claims) were not independently checked, only the summary/close documents were read.", "where": "frontier/B700_fiber_functor/ (files_listed_only above)"}
+],
+"seat_note": "Structurally this is one of the most carefully self-limiting arcs in the batch — it proves an obstruction result (no canonical torsor-iso) and explicitly reads that non-canonicity as required by, not contradicting, its own observer-coupling thesis, which is intellectually honest. But this digest's coverage of it is thin: the actual witness scripts for the group-theoretic claims were not read."
+},
+
+{
+"arc": "B702_metallic_hearing_law",
+"source": "main",
+"files_read": ["frontier/B702_metallic_hearing_law/CC2_TO_CC_2026-07-19_EQ_results.md","frontier/B702_metallic_hearing_law/FINDINGS.md","frontier/B702_metallic_hearing_law/arc_verdict.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: \"The arc's law 'metallic hearing iff real-quadratic swap field' is retracted as a swap/weld conflation (both swap fields are imaginary); the silver's exact Q(i) core ratio and rational tones survive.\" status: RETRACTED",
+"log_says": "B702 corrected same-day (E17): the original 'metallic hearing ⇔ real-quadratic SWAP field' law conflated the being-face swap with the hearing-face weld, self-caught by cc2; the corrected AUDIBILITY law (character field real ⟺ p≡1 mod 4) kept. Later (B835, 2026-07-30) an automated retraction-detection check nearly missed this arc's own retraction marker because it 'read only the first 1500 characters' and the marker sits at line 45.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Silver core ratio Y[023]/Y[123] = -1562833824/5427437 - (455603508/5427437)i EXACTLY in Q(i), denom 17*29*101*109; all 10 Y + 25 sigma silver entries have zero s-coefficients", "where": "frontier/B702_metallic_hearing_law/FINDINGS.md lines 732-740", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "Cited as 'verified from raw B649 JSON', an external data file not included in this 3-file arc; no script here re-derives it."}
+],
+"belt": "NONE",
+"belt_note": "3-file arc; the underlying B649 JSON and any recompute script are not present here.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "MISSING_WITNESS", "detail": "The exact silver core-ratio and swap-eigenvalue numbers are derived from an external B649 JSON file not included in this packet's arc; no script here reproduces the arithmetic.", "where": "frontier/B702_metallic_hearing_law/FINDINGS.md"}
+],
+"seat_note": "The self-retraction is properly recorded within the same FINDINGS.md file (a genuinely good pattern), though the log independently shows an automated retraction-check tool almost missed it due to truncated reads — a harness fragility worth the program's own attention, not a fault of this arc's authors."
+},
+
+{
+"arc": "B703_koide_sigma_distance",
+"source": "main",
+"files_read": ["frontier/B703_koide_sigma_distance/FINDINGS.md","frontier/B703_koide_sigma_distance/arc_verdict.json","frontier/B703_koide_sigma_distance/koide_q3.py"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'With PDG masses the Koide angle is theta_0 = 0.2222296(83) rad, i.e. 0.89 sigma from 2/9 (the crude 7 sigma refuted), and it is firewalled as a post-hoc, convention-framed fit the framework does not derive.' status: PROVED",
+"log_says": "chat1's Q3 resolved: 0.89σ (crude 7σ refuted); later cited (B1005, 2026-08-09) as one of three independent falls of the Koide hope alongside B686 and B743.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "theta_0 = 0.2222296(83) rad, 0.89 sigma from 2/9, using PDG masses m_e/m_mu/m_tau with propagated uncertainties via numerical differentiation", "where": "frontier/B703_koide_sigma_distance/koide_q3.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full, self-contained, executable mpmath script with hardcoded PDG central values and uncertainties, computing theta0 via a closed-form vector construction and propagating error by finite-difference; a stranger can run this directly."}
+],
+"belt": "NONE",
+"belt_note": "Single self-contained script; no separate independent verification file, though the computation itself is fully reproducible.",
+"absence_claims": [],
+"physics_content": "OBSERVABLE",
+"red_flags": [],
+"seat_note": "One of the cleanest arcs in the batch: a real, runnable, self-contained witness script backs the headline number, and the arc honestly firewalls its own most tantalizing result (a sub-sigma near-coincidence) as a non-derived, convention-framed, post-hoc fit rather than banking it as physics."
+},
+
+{
+"arc": "B704_the_seam",
+"source": "main",
+"files_read": ["frontier/B704_the_seam/FINDINGS.md","frontier/B704_the_seam/arc_verdict.json","frontier/B704_the_seam/ref_seam.sage"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "claim_one_line: 'The per-stage torsors assemble into one F2-vector space: Gal of the maximal multiquadratic field over the stage fields is (Z/2)^k with the stage discriminants as basis and genus multiplication as the group law (verified for {-3,5,-7}).' status: PROVED",
+"log_says": "B704 formalizes the seam, unifying B698/B699 (genus Z/2), cell 2 (V4), B700/B701 (torsors), B702 (audibility) into one F2-linear structure; consistently cited without contradiction in this log window.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+{"what": "Gal(Q(sqrt-3, sqrt5, sqrt-7)/Q) has structure (Z/2)^3, degree 8, with the 7 nonzero vectors realized as discriminant products (genus theory)", "where": "frontier/B704_the_seam/ref_seam.sage", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "Full, self-contained sage script using NumberField/absolute_field/galois_group() to compute the Galois group structure directly and print the discriminant products; executable and reproducible given a sage install."}
+],
+"belt": "NONE",
+"belt_note": "Single self-contained sage script; no separate independent verification file within this arc.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [],
+"seat_note": "A clean, well-instrumented arc: the group-theoretic claim is directly computed by a committed, runnable sage script rather than merely asserted, and the arc is careful to firewall the physical 'seam of reality' reading to a separate speculative document (S069)."
+}
+]
+}

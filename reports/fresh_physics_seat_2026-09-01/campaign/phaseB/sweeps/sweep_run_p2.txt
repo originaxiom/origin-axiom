@@ -10,3 +10,13 @@
 775/1068  leads so far 158
 800/1068  leads so far 176
 825/1068  leads so far 193
+850/1068  leads so far 209
+875/1068  leads so far 231
+900/1068  leads so far 249
+925/1068  leads so far 270
+950/1068  leads so far 288
+975/1068  leads so far 307
+1000/1068  leads so far 325
+1025/1068  leads so far 342
+1050/1068  leads so far 361
+done: 523 claims, 371 leads

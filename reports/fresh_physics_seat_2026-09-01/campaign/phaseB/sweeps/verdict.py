@@ -15,6 +15,10 @@ for _f in sorted(glob.glob('absence_sweep*.tsv')):
 _sweep = list(csv.DictReader(open('absence_sweep.tsv'), delimiter='\t'))
 for _i, _r in enumerate(_sweep):
     if _i not in recs: recs[_i] = dict(i=_i, arc=_r['arc'], where=_r['where'], status=_r['status'])
+if os.path.exists('absence_sweep_p2.tsv'):
+    for _k, _r in enumerate(csv.DictReader(open('absence_sweep_p2.tsv'), delimiter='\t')):
+        _i = 545 + _k
+        if _i not in recs: recs[_i] = dict(i=_i, arc=_r['arc'], where=_r['where'], status=_r['status'])
 rows = {}
 if os.path.exists('VERDICTS.tsv'):
     for r in csv.DictReader(open('VERDICTS.tsv'), delimiter='\t'): rows[int(r['i'])] = r

@@ -1,0 +1,275 @@
+{
+ "batch": "arcs_124",
+ "arcs": [
+  {
+   "arc": "B8083_positivity_bridge",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "positivity_bridge.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — on positive R,L words, SL(2,Z)-conjugacy coincides exactly with cyclic rotation (Latimer–MacDuffee form-cycle invariant), checked exhaustively over all 2026 positive words of length 2-10 with both letters: 241 cyclic classes = 241 distinct invariants, 0 collisions. This licenses the arithmeticity theorem's step from 'conjugate to a power' to 'compare block sequences'.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "241 cyclic classes = 241 (trace, form-cycle) invariants, 0 collisions, over 2026 positive words length 2-10", "where": "positivity_bridge.py; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained script with no external deps beyond stdlib, writes results.json, includes internal pass/fail gates and a control (phi_1^3 vs phi_4 non-conjugacy) reproducing a claim the paper makes independently"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No separate verification/ or belt directory; controls (gate() assertions) are embedded in the same script that produces the headline result, not an independent re-check.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "NO_TEST", "detail": "No tests/test_b8083*.py referenced anywhere in this arc's files or relays, unlike sibling arcs (B8085-B8094) which cite a tests/test_bXXXX file; verification rests solely on the arc's own script gates.", "where": "B8083_positivity_bridge/ (whole arc)"}
+   ],
+   "seat_note": "This is a genuine, exhaustive-to-length-10 combinatorial/arithmetic result (pure math, no physical content, Gate 5 explicitly untouched) with a real complete invariant (Latimer-MacDuffee) rather than a bounded search; scope is honestly stated as SL(2,Z) on positive words only. No physics claim rides on this arc."
+  },
+  {
+   "arc": "B8084_cold_audit",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "audit_b1075.py", "relays/CC3_TO_CC_2026-08-19_AUDIT_B1075_CLEAN.md", "relays/CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md", "relays/CC3_TO_CC_2026-08-19_BLOCKER_EXPIRED_AUDIT_STARTING.md", "relays/CC3_TO_CC_2026-08-19_COLD_AUDIT_BLOCKED_AND_FIRST_FINDING.md", "relays/CC3_TO_CC_2026-08-19_KILL_GRAPH_CLEAN_AND_MY_OWN_CORRECTION.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "OPEN (in progress) — no negative bias found in B1075's design or arithmetic (recomputed: 5.08sigma, 0.1535 gap, p=0.7975 all check; design win probability ~14%, not degenerate); one standing finding that the audit REQUEST's own framing ('four sealed crossings missed') is contradicted by B929 being PROVED/Tier-1-pass and unsuperseded. B1074 and B1076 not yet audited at FINDINGS.md time (later relays in this same arc dir do cover B1076, see relay files).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "1/2 is 5.08sigma below |Ue2| 3-sigma edge; 1/(2phi) 0.1535 from nearest e-row edge; p(mu/tau union)=0.7975; e-row exclusion-capable measure 0.0737, win prob ~14%", "where": "audit_b1075.py; results not separately saved (script prints only, no results.json listed in packet for this arc)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained script recomputes from pinned NuFIT boxes stated inline; independent of B1075's own scripts by design"},
+    {"what": "over 400 banked arc_verdict.json on main: PROVED 66.2%, NEGATIVE 30.2%, OPEN 2.8%, RETRACTED 0.8%", "where": "FINDINGS.md; arc_verdict.json claim_one_line; relay CC3_TO_CC_2026-08-19_COLD_AUDIT_BLOCKED_AND_FIRST_FINDING.md", "kind": "ASSERTED", "reproducible_from_committed": "unknown", "why": "no script or witness file in this arc's directory computes this percentage breakdown over the corpus; it is stated as a fact with no reproducer, unlike the B1075 recomputation"},
+    {"what": "kill graph: 754 entries, 510 with no fact_computed, 12 False, 167 unrouted-unclassified, 45 non-arc-id keys", "where": "relays/CC3_TO_CC_2026-08-19_KILL_GRAPH_CLEAN_AND_MY_OWN_CORRECTION.md", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "described as checked against 'your own test' (test_routed_records_do_NOT_fabricate_the_provenance_flag) but no script from this seat is included that independently recomputes the 754/510/167 counts"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This whole arc is itself an audit (re-read/re-derive) of other arcs (B1075, B1074, B1076, B929, kill-graph, the 400-verdict corpus) by a seat that had no hand in the audited computations; its own numeric claims about the corpus-wide statistics (400 verdicts, 754 kill entries) are themselves unreproduced within this arc's committed files.",
+   "absence_claims": [
+    {"quote": "B1076 is not pushed; it is absent from every remote branch.", "where": "B8084_cold_audit/FINDINGS.md:75"},
+    {"quote": "`B1074`, `B1075`, `B1076` **do not exist**, and neither does the execution manifest your request cites", "where": "B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_COLD_AUDIT_BLOCKED_AND_FIRST_FINDING.md:13"},
+    {"quote": "there is no symmetric positive register", "where": "B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_COLD_AUDIT_BLOCKED_AND_FIRST_FINDING.md:62"},
+    {"quote": "The prompts given to the cells. I never received them", "where": "B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_KILL_GRAPH_CLEAN_AND_MY_OWN_CORRECTION.md:55"},
+    {"quote": "the reason is a lock I had not read", "where": "B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_KILL_GRAPH_CLEAN_AND_MY_OWN_CORRECTION.md:9"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "This same seat's own absence claim ('B1074/B1075/B1076 do not exist… searched every remote branch') was declared false three relays later ('That was true when I wrote it and is false now… You pushed; I never re-checked') — the retraction is in the same arc directory but the earlier claim was already relayed to cc as if current before the correction; worth checking whether the retraction reached every place the original claim propagated to.", "where": "B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_BLOCKER_EXPIRED_AUDIT_STARTING.md"},
+    {"kind": "MISSING_WITNESS", "detail": "The 400-banked-verdict percentage breakdown (66.2/30.2/2.8/0.8) and the 754-entry kill-graph statistics are asserted as computed facts but no script/witness computing them is included in this arc's committed files.", "where": "B8084_cold_audit/FINDINGS.md; relays/CC3_TO_CC_2026-08-19_KILL_GRAPH_CLEAN_AND_MY_OWN_CORRECTION.md"}
+   ],
+   "seat_note": "This is a meta/audit arc (bias-audit of other arcs), not a physics result; its own headline recomputation (B1075 arithmetic and design fairness) is genuinely reproduced from stated inputs, but its corpus-wide statistical claims (percentages, kill-graph counts) are unwitnessed within this arc, an odd gap for an audit whose whole point is verifiability."
+  },
+  {
+   "arc": "B8085_integral_orbits",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "integral_orbits.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — B990's Route A arithmetic obstruction is absent: for K=Q[x]/(x^3-12x-5), h=h+=|Cl/Cl^2|=|Cl/Cl^3|=1 (unit signature map surjective onto {±1}^3, rank 3 of 3), computed by two independent engines (PARI/GP and sympy), preregistered before h+ was computed. Explicitly does NOT claim the integral orbit count equals any of these quantities (registered as owed).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "h=1, h+(narrow)=1, |Cl/Cl^2|=1, |Cl/Cl^3|=1 for K=Q[x]/(x^3-12x-5); disc=6237=3^4*7*11; unit signature map surjective rank 3/3", "where": "integral_orbits.py; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "two independent engines (PARI/GP subprocess call, and sympy-based from-scratch computation) cross-check inside the committed script; preregistration sealed before the narrow class number was computed, with declared outcome table"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Two independent engines (PARI/GP and sympy) inside the same script cross-validate the class-arithmetic numbers; a genuine belt-and-suspenders check, though both run in the same file/session rather than a separate verification/ directory.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Sound math: preregistered, two independent engines, exact arithmetic, and the arc is careful to state what it does NOT prove (that any of these class-group quantities actually counts integral orbits — that identification is registered as owed, not asserted). No physics/Gate-5 content; a clean piece of pure-math due diligence."
+  },
+  {
+   "arc": "B8086_wilson_menu",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "relays/CC3_TO_CC_2026-08-19_BOTH_ROUTES_OUT_OF_B990.md", "results.json", "wilson_menu.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE for the proposed physics mechanism; PROVED for the exhaustive census — an external AI's proposal (Z/5 Wilson-line menu over E6 giving SM-like VEV directions) is recomputed: most arithmetic is right (union=e6, intersection=Cartan, rarest row so(10)+u(1) at 108=0.69% uniquely) but the claimed unique mode is false (two rows tie at 4320/27.65%), and fatally the menu belongs to manifold member m=5 not the golden m=1 (H1=Z, torsion-free, no Z/5), and even granting it every one of the 9 rows has rank 6 while SM has rank 4.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Exhaustive census of all 5^6-1=15624 non-identity 5-torsion elements of E6 torus into 9 centralizer-type rows; rarest=108 (D5+u(1), 0.69%), two-way tie at 4320 (27.65%) for the mode, every row rank 6", "where": "wilson_menu.py; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained exhaustive enumeration over E6 root system built from Dynkin edges, with internal gate() assertions; writes results.json"},
+    {"what": "H1(M_m) ≅ Z ⊕ (Z/m)^2 so golden member m=1 is torsion-free, no Z/5", "where": "FINDINGS.md, arc_verdict.json (attributed to 'the paper')", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited as an already-banked fact from the paper's own computation, not recomputed within this arc's files"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Independently re-derives B955's rank-preservation result (structural cyclic-holonomy argument) by an unrelated exhaustive-enumeration route sharing no proof step — a genuine second-instrument confirmation, explicitly called out as such.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The killed proposal itself rested on attaching an outside-derived Z/5 torsion menu to 'the object' by structural resemblance (torsion from 'the closing'); this arc's main contribution is precisely showing that identification fails (menu belongs to a different manifold member, m=5, not m=1) — a useful negative example of type-coincidence reasoning being caught rather than committed by this repo.", "where": "B8086_wilson_menu/FINDINGS.md"}
+   ],
+   "seat_note": "A well-executed adversarial recomputation that mostly vindicates an external proposal's arithmetic but correctly kills its physics conclusion on two independent structural grounds (wrong manifold member, wrong rank); good example of the corpus catching an identification-by-coincidence before it propagated."
+  },
+  {
+   "arc": "B8087_neutrino_selector",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "neutrino_selector.py", "relays/CC3_TO_CC_2026-08-19_ONE_SLOT_AND_THE_SELECTOR.md", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — so(10) built explicitly over Q on the 16 (45 fermionic-bilinear matrices); purity of the spinor <nu^c> is the UNIQUE condition giving rank 5→4 (pure: stabiliser 34, toral 4; generic: stabiliser 29, toral 0), but Spin(10) is transitive on the pure cone (orbit dim 11 = cone dim), so the 'neutrino selector' is a condition, not a point — <1> and <nu^c> are two independent free selections, not one, meaning B1017's single-row VEV ledger is correct only when read in the pair space (27⊕27).",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Pure spinor: stabiliser dim 34, orbit dim 11, toral (rank-after-breaking) 4; generic spinor: stabiliser 29, toral 0; orbit dim = pure-spinor cone dim (transitivity)", "where": "neutrino_selector.py; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "so(10) built explicitly from creation/annihilation operators on Lambda*(C^5), exact-rational rank computation via fraction-free elimination, with an explicit self-reported bug-and-fix (first build omitted the spinor shift, giving a character-twisted rep that passed closure/rank but failed the stabiliser-dimension prediction) — the correction and its weight-vector control are committed in the same script"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Carries its own documented near-miss: an initial implementation error (missing spinor shift h_i) produced an isomorphic-but-wrong-representation algebra that passed closure and rank checks and was only caught by the predicted stabiliser dimension — the arc then adds a weight-vector control specifically to pin the representation, a good instance of a real self-caught bug rather than a claimed one.",
+   "absence_claims": [
+    {"quote": "it never computed orbits", "where": "B8087_neutrino_selector/relays/CC3_TO_CC_2026-08-19_ONE_SLOT_AND_THE_SELECTOR.md:86 (re: B8086)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "One of the stronger arcs in this batch: exact rational linear algebra, a self-caught implementation bug that would have silently produced a wrong-but-plausible answer, and a careful separation of what is proved (purity condition, transitivity) from what is not (that the pair-orbit is attainable/unique) — Gate 5 correctly kept out since SM rank-4 is used only as a comparison target."
+  },
+  {
+   "arc": "B8088_row_homogeneity",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "row_homogeneity.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — tests and confirms the owner's claim (attributed to B8086, which did not actually establish it) that the Z/5 menu is exactly one W×Galois orbit per row; true (9 rows = 9 W×Galois orbits, sizes match B8086 exactly), but the SHARPENING shows W alone gives 25 orbits and splits 8 of 9 rows, so uniqueness of the invariant measure requires the arithmetic (Galois) symmetry as a stated hypothesis, not merely Weyl symmetry.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "9 W-orbits under Weyl alone would be 25 (not 9); 9 W×Galois orbits exactly matching B8086's 9 row counts [4320,4320,2160,1728,1440,864,540,144,108]; 8 of 9 rows split under W alone", "where": "row_homogeneity.py; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained exhaustive computation cross-checked against B8086's results.json (read directly from ../B8086_wilson_menu/results.json), with internal gates"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Directly reads and cross-checks B8086's results.json to confirm the row-count match; a real cross-arc consistency check rather than an independent recomputation of the census itself.",
+   "absence_claims": [
+    {"quote": "It never computed orbits.", "where": "B8088_row_homogeneity/FINDINGS.md:12"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Correctly identifies and closes a gap between a stated claim ('B8086 established one orbit per row') and what B8086 actually computed (only row types, not orbits); the sharpened finding — that uniqueness of the invariant measure needs the arithmetic (Galois) symmetry as an explicit extra hypothesis — is exactly the kind of load-bearing assumption a downstream Born-rule argument would otherwise smuggle in silently."
+  },
+  {
+   "arc": "B8089_anomaly_door5",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "SEAL.txt", "anomaly_door5.py", "arc_verdict.json", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE for door 5 opening; PROVED for the structural statement — the anomaly layer over the object's derived 16 (one generation with nu^c) is identically zero on every gauge channel AND the global B-L cubic/gravitational anomalies (vs -1,-1 over the imported 15), so door 5's ask for a dimensionless ratio is structurally unanswerable by this layer, not merely unanswered; B167 (an orphaned, self-labelled POSTULATED taxonomy) stands and gets its first-ever citation.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "All 6 gauge anomaly channels vanish over the derived 16; B-L cubic and grav anomalies vanish over 16 but are -1,-1 over the imported 15; Z6 congruence 6Y=4*triality+3*duality (mod 6) is the unique solution, both fitted-by-exhaustion and independently derived from the Z6 generator's phase formula", "where": "anomaly_door5.py; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational (Fraction) arithmetic, two independently coded charge-assignment routes (typed su(3)+su(2)+u(1) table vs derived from su(5) alone) cross-checked to agree exactly, preregistered and SHA-256 sealed (SEAL.txt) before the script existed, with a documented self-audit upgrading the bite control from 2/6 to 6/6 channels covered"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Two independently coded routes to the same 16 hypercharges (route 1 typed by hand, route 2 derived purely from su(5) weight structure) are checked to reproduce each other's multiset exactly inside the same script; plus a documented in-script self-audit that widened the bite-control coverage after an initial version only exercised 2 of 6 channels.",
+   "absence_claims": [
+    {"quote": "the object's own derived content has never been computed", "where": "B8089_anomaly_door5/PREREGISTRATION.md:36; FINDINGS.md:25 (near-identical wording)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-preregistered (SHA-256 sealed before compute) negative result with real controls (bite test, second independent charge-derivation route, isolation of nu^c's effect); correctly frames the finding as 'structurally unanswerable' rather than a value-matching search, and explicitly registers finer discrete/spin-structure anomalies as an owed, not-asserted, open item. Gate 5 correctly kept clean — no measured value is compared."
+  },
+  {
+   "arc": "B8090_cold_audit_f1",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "character_check.py", "relays/CC3_TO_CC_2026-08-19_COLD_AUDIT_FINDING_1.md", "relays/CC3_TO_CC_2026-08-19_EVERYTHING_FROM_THE_AUDIT_SEAT.md", "relays/CC3_TO_CC_2026-08-19_I_WAS_WRONG_THE_REAL_DEFECT.md", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED (the defect is proved; B1076's computation is not in question) — B1076's own summary surfaces (FINDINGS.md, arc_verdict.json, CHANGELOG.md) mis-state a genuine result: 'sign(lambda^2) is a NEW nontrivial character' is impossible as stated because a character must send identity to +1, and sign(lambda^2)(I)=-1 fails multiplicativity on all 16 Klein-group products; the correct character has the OPPOSITE polarity, though B1076's own internal b1076_results.json already states the underlying fact correctly — the defect is purely a summary-layer transcription error, verdict and computation unaffected.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "sign(lambda^2)=(-1,-1,+1,+1) on (I,chi_a,chi_b,D2) fails the Klein-group homomorphism property on all 16 of 16 products; the corrected character chi=sign(lambda^2)/sign(lambda^2(I)) is a genuine homomorphism with opposite polarity (+1,+1,-1,-1)", "where": "character_check.py; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained exact-Fraction check against B1076's own transcribed lambda^2 values, exhaustive over the 16-element Klein multiplication table"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Claim-level check only, explicitly stated to recompute none of B1076's underlying algebra — reads B1076's own recorded numeric values and checks a group-theory property against them.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "This arc's own first version (relay CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md, read as part of B8084) asserted a DIFFERENT and WRONG diagnosis ('lambda^2 must mean lambda_2, a subscript rendered as superscript') based on an inferred definition rather than reading b1076_results.json; that first relay was explicitly retracted in this arc ('I_WAS_WRONG_THE_REAL_DEFECT.md') and superseded, but the retraction is itself a good self-correction — flagged here so downstream readers do not cite the superseded diagnosis, which is filed in a sibling arc's directory (B8084) without a forward pointer to this correction.", "where": "B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md vs B8090_cold_audit_f1/relays/CC3_TO_CC_2026-08-19_I_WAS_WRONG_THE_REAL_DEFECT.md"}
+   ],
+   "seat_note": "A legitimate, narrow, well-scoped correction to a mislabeled group-theoretic object in a summary file, explicitly separated from (and not casting doubt on) the underlying computation; notable mainly as a clean case study of headline-drift-from-record, the exact class the corpus's own ERROR_LEDGER exists to catch, and as a documented self-correction of the auditor's own earlier, wrong diagnosis."
+  },
+  {
+   "arc": "B8091_first_step_losses",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "first_step_losses.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED for the destruction (order and sign are provably lost at the first substitution step, and the figure-eight monodromy is provably M^2, the forced square of the substitution matrix, since orientability requires det=+1 while det(M)=-1); explicitly UNPROVED and registered as such for the IDENTIFICATION of which loss carries which physical bit (chirality vs arrow) — 'a table that lines up is not a theorem'.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "M=[[1,1],[1,0]] (Fibonacci matrix); a->ab and a->ba give identical incidence matrices (order-blindness), with a bite control showing a->aab does change the matrix; det(M)=-1, det(M^2)=+1, M^2=[[2,1],[1,1]]=phi_1 (trace 3, det 1); phi_1 - I = M exactly", "where": "first_step_losses.py; results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "small self-contained 2x2 integer matrix script with internal gates and an explicit bite/negative control (a genuinely different rule does change the matrix)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No separate verification directory; internal gate() assertions serve as controls within the same script. The arc is explicit and disciplined about NOT claiming the physical identification (which loss = chirality, which = arrow) as proved.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Model citizen for scope discipline: proves a clean piece of matrix arithmetic (order- and sign-loss under the founding substitution rule, forced squaring by orientability) and explicitly refuses to claim the more exciting physical identification (order-loss=chirality, sign-loss=arrow), flagging it instead as an open, falsifiable, and currently unsettled question (L169)."
+  },
+  {
+   "arc": "B8092_design_audit",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "relays/CC3_TO_CC_2026-08-19_DESIGN_AUDIT_THREE_FINDINGS.md", "relays/CC3_TO_CC_2026-08-19_THE_FRAMING_CORRECTION.md", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE for the design's neutrality on 3 specific points (no evidence of intentional bias anywhere) — audits cc's own B1074/B1076 orchestration prompts and finds 3 guard-design defects that could each only remove candidates (never add them) and are undisclosed strengthenings beyond the banked reopening condition; also documents a framing correction: the owner's 'sabotage'/adversarial-premise language in the audit request was a deliberate stress-test method, not a belief, and 3 files on main (CHANGELOG.md, PROGRESS_LOG.md, docs/CAMPAIGN_STATUS.md) needed correcting to reflect that.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Finding 1: B1016 guard disqualifies 'any coupling-channel quantity' (a class) where the banked reopening condition only disqualifies one named quantity (Re h); Finding 2: MB12 per-candidate bite-witness is redundant with a separate non-triviality test; Finding 3: the grade enum has no rung for 'established-but-partial'", "where": "FINDINGS.md; arc_verdict.json; results.json", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "this is a prose/design audit of orchestration prompt text (quoted verbatim) and a JSON-schema enum, not a numeric computation; there is no script or reproducer file in this arc's directory — the findings are argued, not computed, and depend on prompt files (B1074/B1076 orchestration scripts) that are not themselves included among this arc's committed files (only quoted excerpts appear in FINDINGS.md/relays)"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory and no reproducer script (this is the one arc in the batch with no .py file); the 'arithmetic recomputations came back clean' claim references B8090's earlier work, not a fresh check here.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "A design/process audit whose three findings rest on quoted excerpts of external orchestration scripts (B1074/B1076 prompts) that are not committed in this arc's own directory — a stranger cannot independently verify the quotes are complete/representative without locating those source scripts elsewhere in the repo.", "where": "B8092_design_audit/ (whole arc; no .py or full source file for the audited prompts)"}
+   ],
+   "seat_note": "A meta/process audit, not a physics or math result — its content is prose analysis of prompt-design fairness plus a correction to permanent-record framing language; the three findings are reasonable and self-critical (including flagging the auditor's own earlier bite-control weakness) but are argued rather than computed, and no reproducer exists for a stranger to check them against."
+  },
+  {
+   "arc": "B8093_L171_clpw",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "relays/CC3_TO_CC_2026-08-19_L171_TYPED_MOOD_AND_THE_DISANALOGY.md", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE for a MATCH under cc's pre-declared binding typing (banked as 'MOOD', consistent-not-distinctive) — comparing the repo's B721 tracial state to CLPW's (arXiv:2206.10780v5) crossed-product construction: (a) is a structural DISANALOGY (CLPW's engine needs ERGODIC modular flow to force an observer; B721's state has TRIVIAL modular flow, so nothing forces an observer on our side — opposite hypotheses), (b) is UNRESOLVED and registered as owed (whether B1040's battery carries the same positivity-forcing role as CLPW's q>=0), (c) is near-vacuous by hyperfinite-II1-factor uniqueness.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "CLPW's construction details (crossed product of Type III_1 by modular flow -> Type II_infinity; observer forced by ergodicity; positivity projection gives Type II_1; rho_max=1) quoted with section/equation numbers from the paper", "where": "FINDINGS.md, results.json (sections_read: 1.2,1.3,2.3,2.4,2.5)", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "a literature-reading exercise (WebSearch lane), not a computation; a stranger would need to independently pull and re-read arXiv:2206.10780v5 to check the quotes/section attributions, no local artifact of the paper is committed"},
+    {"what": "B721's tracial state has trivial modular flow (a state is tracial iff its modular automorphism group is trivial)", "where": "FINDINGS.md, criterion (a)", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "cited as an already-banked fact about B721, not recomputed within this arc"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No computation, no verification directory; the arc is a typed literature comparison against a pre-declared rubric ('cc's three binding criteria').",
+   "absence_claims": [
+    {"quote": "the successor literature — Witten's later crossed-product papers, Penington–Witten — was NOT read, so this types the foundational construction only", "where": "B8093_L171_clpw/FINDINGS.md:64"},
+    {"quote": "Lanes 3–6 (L172… C2… C5… related-work armor) not started", "where": "B8093_L171_clpw/relays/CC3_TO_CC_2026-08-19_L171_TYPED_MOOD_AND_THE_DISANALOGY.md:51 (context) / results.json lanes_2_to_6_started: false"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The entire arc's evidentiary basis is a human/AI reading of one external arXiv paper at specific sections; no local copy, hash, or extracted-quote file is committed, so a stranger cannot verify the section/equation attributions without re-fetching and re-reading arXiv:2206.10780v5 themselves.", "where": "B8093_L171_clpw/ (whole arc)"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The whole exercise is explicitly a search for a 'MATCH' between this repo's algebraic construction and CLPW's, guided against a pre-declared trap for coincidences that are near-vacuous by the uniqueness of the hyperfinite II_1 factor (criterion (c)) — the arc itself flags this risk rather than falling into it, which is worth noting as a correctly-caught instance of the type-coincidence trap.", "where": "B8093_L171_clpw/FINDINGS.md, criterion (c)"}
+   ],
+   "seat_note": "Careful literature comparison that reaches a negative-on-match verdict and is explicit that criterion (b) — whether the repo's own B1040 battery does the same positivity-forcing work as CLPW's observer — is the decisive, currently unresolved question; correctly resists the temptation to read a shared 'tracial/II1' vocabulary as evidence given the acknowledged uniqueness trap, but the underlying literature reading itself has no committed local witness."
+  },
+  {
+   "arc": "B8094_L173_anchors",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "relays/CC3_TO_CC_2026-08-20_B1085_NEEDS_THE_GAP_LABELING_DIFFERENTIAL.md", "relays/CC3_TO_CC_2026-08-20_L173_THE_KNOB_IS_OUR_INTERCEPT.md", "relays/CC3_TO_CC_2026-08-20_THE_DETECTOR_IS_NOW_THE_LOAD_BEARING_INSTRUMENT.md", "relays/CC3_TO_CC_2026-08-20_THE_ONE_STATE_QUESTION.md", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED that a falsification route exists and is standard experimental practice (NOT a claim of novelty) — the phason phase varied in real photonic-quasicrystal and cold-atom experiments (cited: arXiv:1403.7124/PRB 91 064201; Nature 553,59; arXiv:2201.04820) is identified as the same coordinate as this repo's Sturmian intercept (the free circle-torsor B8091 showed is never fixed by the founding rule); explicitly flags that gap-labeling theory could already force the predicted edge-mode counts, making novelty UNVERIFIED, and that precision figures were NOT extracted from the anchor literature.",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "Identification of the experimental 'phason' control parameter with this repo's Sturmian intercept coordinate", "where": "FINDINGS.md; results.json (structural_fact)", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "an interpretive/typological claim connecting a repo-internal mathematical object (Sturmian intercept, from B8091) to an experimental physics parameter (phason) by structural analogy — no computation ties the two, and the arc explicitly does not verify that the repo's predicted edge-mode counts differ from what standard gap-labeling theory already forces"}
+   ],
+   "belt": "NONE",
+   "belt_note": "A literature/capability-inventory arc (WebSearch lane); no reproducer script and no verification directory. The one genuinely load-bearing open check (does gap labeling already force the 5-vs-6 prediction from B1085?) is explicitly deferred to 'whoever owns B1085' and not run here.",
+   "absence_claims": [
+    {"quote": "Precision figures are NOT extracted. The abstracts do not carry them and I did not obtain full texts.", "where": "B8094_L173_anchors/FINDINGS.md:52"},
+    {"quote": "I grepped B1085 for `gap label`, `gap labeling`, and `bulk-boundary`. None appear.", "where": "B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_B1085_NEEDS_THE_GAP_LABELING_DIFFERENTIAL.md:12"},
+    {"quote": "the Fibonacci QC has no native pumping parameter", "where": "B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_L173_THE_KNOB_IS_OUR_INTERCEPT.md:17"},
+    {"quote": "Lanes 3–6 (L172 anyon landscape, C2/Path-A quantum modularity, C5 arithmetic CS, related-work armor) not started.", "where": "B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_L173_THE_KNOB_IS_OUR_INTERCEPT.md:54"},
+    {"quote": "novelty against gap labeling was NOT verified: until that in-sandbox check is done this lane has an anchor list and no established novelty", "where": "B8094_L173_anchors/results.json (scope field)"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "The arc's own headline structural_fact ('the phason phase these experiments adiabatically scan IS the Sturmian intercept') asserts an identification between a repo-internal mathematical free parameter and a specific experimental control knob, while simultaneously and explicitly admitting the decisive check — whether the repo's predicted edge-mode counts (5 vs 6, from B1085) differ at all from what the standard gap-labeling theorem already forces for the same configuration — has not been run. If gap labeling already forces the counts, the 'prediction' is a re-derivation of textbook physics, not new content, and the arc says so itself.", "where": "B8094_L173_anchors/results.json (novelty_against_gap_labeling_established: false); relays/CC3_TO_CC_2026-08-20_B1085_NEEDS_THE_GAP_LABELING_DIFFERENTIAL.md"},
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "results.json's 'precision_figures_extracted' field contains an inline note dated 2026-08-27 ('COMPLETED BY B8146… as a NEGATIVE: the anchor literature reports no error bars… mode identification is QUALITATIVE, not a count') that updates/answers an item FINDINGS.md and arc_verdict.json still describe as simply 'NOT extracted' / open and owed — the summary-level claim-of-record files were not revised to reflect this later resolution, so a reader of FINDINGS.md/arc_verdict.json alone would not know the precision-figures question was later closed (as a negative) by a different arc.", "where": "B8094_L173_anchors/results.json vs FINDINGS.md and arc_verdict.json (no corresponding update)"}
+   ],
+   "seat_note": "This is the one arc in the batch with genuine OBSERVABLE physics content (real experimental papers, a measurable edge-mode count, an identified experimental control parameter) but it is exactly here that the corpus's own discipline is most tested: the arc is honest that novelty against standard gap-labeling theory is unverified, yet the structural identification (phason = Sturmian intercept) is asserted as a finding before that decisive check is run, and a later-arc update inside results.json was not propagated back into FINDINGS.md/arc_verdict.json."
+  }
+ ]
+}

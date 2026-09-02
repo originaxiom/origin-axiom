@@ -1,0 +1,287 @@
+{
+ "batch": "arcs_057",
+ "arcs": [
+  {
+   "arc": "B715_native_gauge",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B715_native_gauge/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B715_native_gauge/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B715_native_gauge/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B715_native_gauge/b715_probe1_out.txt",
+    "/home/user/origin-axiom/frontier/B715_native_gauge/b715_probe1_v2_out.txt",
+    "/home/user/origin-axiom/frontier/B715_native_gauge/b715_probe2.py",
+    "/home/user/origin-axiom/frontier/B715_native_gauge/b715_probe2_out.txt",
+    "/home/user/origin-axiom/frontier/B715_native_gauge/b715_probe3.py",
+    "/home/user/origin-axiom/frontier/B715_native_gauge/b715_probe3_out.txt"
+   ],
+   "files_sampled": [
+    "b715_probe1.py (first 120 lines; SAMPLE_CODE)",
+    "b715_probe1_v2.py (not directly opened; its _out.txt read in full and cross-checked against b715_probe1.py's logic)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"The object's native gauge system is complex Chern-Simons of E6(C): the non-real adjoint trace excludes every real form, and the Z/11 is a UV-arithmetic non-descending charge.\"",
+   "log_says": "Frontier 3/4 result; PROGRESS_LOG 2026-07-19 records probes 2/3 OUTCOME B (high), probe 1 (T7) INCONCLUSIVE — matches FINDINGS exactly. REVIEW 25 lists an OVERREACH caught+corrected in-window: \"B715-T7's orientation-inverts-Z/11 premise (skeptic refuted -> banked INCONCLUSIVE, not B)\" — this correction IS reflected in FINDINGS.md.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "E6 adjoint trace of geometric holonomy = 37437270 + 38799960*sqrt(3)*i (non-real, excludes all real forms of E6)",
+     "where": "b715_probe2.py PART 1-2 / b715_probe2_out.txt lines 12-37",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy script derives E6 exponents from the Cartan matrix independently, builds exact figure-eight holonomy over Q(sqrt-3), verifies the group relator, and computes the adjoint trace via Chebyshev/SL2-character recursion; committed .py and full .txt witness match exactly (37437270+38799960*sqrt(3)*I)."
+    },
+    {
+     "what": "Regular-unipotent meridian: Ad_E6 Jordan type {3,9,11,15,17,23}, 6 blocks = rank(E6), kills all compact forms",
+     "where": "b715_probe2.py PART 3 / b715_probe2_out.txt lines 39-44",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Direct symbolic computation of Sym^{2m}(unipotent Jordan block) nilpotency degrees; committed code and witness match."
+    },
+    {
+     "what": "Z/11 = |N_{Q(sqrt5)/Q}(phi^5-1)| realized identically via golden/chain/topological guises (det(I-M4)=-11, SNF diag(1,1,1,11), L5=11, Res=121)",
+     "where": "b715_probe3.py / b715_probe3_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy symbolic norm computation, Smith normal form, Lucas number, and resultant all independently recomputed and cross-matched; script and witness agree exactly."
+    },
+    {
+     "what": "T7 (full-content gaugeability incl. orientation): probe1 claims OUTCOME B via untwisted D-11xZ2 direct-product argument; probe1_v2 claims OUTCOME B via a DIFFERENT (dihedral D_11, twisted) argument that FINDINGS.md says was itself refuted on its premise (orientation inverts vs fixes the charge) and is banked as INCONCLUSIVE, not a verdict",
+     "where": "b715_probe1_out.txt, b715_probe1_v2_out.txt vs FINDINGS.md lines 37-46",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "Two probe scripts (v1, v2) each independently conclude OUTCOME B with mutually incompatible mechanisms (direct product vs twisted dihedral) for how orientation acts on the Z/11 charge; FINDINGS.md correctly downgrades this to INCONCLUSIVE/OPEN rather than adopting either script's clean verdict — the arc_verdict.json's overall claim does not rely on T7, so this is honestly disclosed rather than a silent inconsistency, but the two committed 'OUTCOME B' witness files sitting alongside an INCONCLUSIVE narrative could mislead a skimmer."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No separate verification/ directory; the probe scripts themselves state 'verify-don't-trust', independently re-derive B565-H1 rather than citing it, and the arc's own multiagent process functions as the belt (3-skeptic adversarial-verify per PREREGISTRATION).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Two probe1 variants (v1 direct-product, v2 twisted-dihedral) both print 'OUTCOME B' in their committed witness .txt files, while FINDINGS.md correctly reports the T7 question as honestly INCONCLUSIVE because v2's premise was skeptic-refuted. A reader sampling only the .txt witnesses (as SAMPLE_CODE mode would for the .py, but these are FULL-mode .txt) would see two internally-consistent 'B' verdicts and could miss that the arc's own prose disclaims them.",
+     "where": "b715_probe1_out.txt line 121-122 ('OUTCOME -> B'); b715_probe1_v2_out.txt line 122-123 ('OUTCOME -> B ... on corrected foundations')"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The claim that this is 'complex Chern-Simons of E6(C)' rests on promoting the SL(2,C) holonomy along the principal sl2 into E6, which is a representation-theoretic embedding chosen because E6 was already established elsewhere (B575) as the object's charge algebra — the physical identification of the resulting complex CS theory with '3d Euclidean quantum gravity' (Witten 1988) is by structural analogy (gauge group = Isom(H^3) promoted into E6(C)), not a derivation that this promoted structure literally IS gravity.",
+     "where": "FINDINGS.md lines 13-15, 26-28"
+    }
+   ],
+   "seat_note": "The two headline probes (2 and 3) are cleanly computed, exact (symbolic, not numeric), and reproducible from committed sympy scripts with matching witnesses — a genuinely strong structural result (no real form, hence no compact Yang-Mills theory). The arc is honest about probe 1/T7 being unresolved, which is commendable, but the sub-thread invites confusion between two conflicting 'B' witness scripts."
+  },
+  {
+   "arc": "B716_time_gap",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B716_time_gap/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B716_time_gap/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B716_time_gap/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B716_time_gap/b716_probe1.py",
+    "/home/user/origin-axiom/frontier/B716_time_gap/b716_probe1_out.txt",
+    "/home/user/origin-axiom/frontier/B716_time_gap/b716_probe2_out.txt",
+    "/home/user/origin-axiom/frontier/B716_time_gap/b716_probe3_out.txt"
+   ],
+   "files_sampled": [
+    "b716_probe2.py (first 120 lines; SAMPLE_CODE)",
+    "b716_probe3.py (first 120 lines; SAMPLE_CODE)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE (arc_verdict.json) — \"Time, 4-dimensionality and Lorentzian signature are all the observer's: no canonical arrow, no canonical 4d filling, no canonical Wick rotation.\" (FINDINGS.md frames this as its own positive OUTCOME B, i.e. the verdict field's polarity is about the object NOT authoring these, not that the arc failed.)",
+   "log_says": "PROGRESS_LOG 2026-07-19: 'all 3 probes OUTCOME B (high confidence, verified-on-receipt; skeptics re-derived to arXiv primary sources)'. Later entries (B944, B981, B1201) all cite B716's findings (amphichiral time-reversal, no canonical Wick rotation) consistently and without contradiction; B945 explicitly reaffirms 'B717's spine stands unamended' after checking whether B716's/B713's closings collapse into one.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Monodromy sigma=[[2,1],[1,1]] is conjugate to its inverse in GL(2,Z) (14 conjugators found, both determinant signs) => amphichiral, no time arrow",
+     "where": "b716_probe1.py PART 2 / b716_probe1_out.txt lines 24-33",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Brute-force search over integer matrices with entries in [-4,4], committed in full; exact match between script and witness output."
+    },
+    {
+     "what": "Topological entropy h = log(phi^2) = 2 log(phi) = 0.9624236501192068949955178268487368462703...",
+     "where": "b716_probe1.py PART 1 / b716_probe1_out.txt lines 11-22",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact symbolic eigenvalue computation (sympy) plus 40-digit mpmath cross-check to a hardcoded reference constant; matches exactly in the witness."
+    },
+    {
+     "what": "Oriented 3-bordism Omega_3^SO=0 (Thom/Rokhlin, cited not recomputed) implies every 3-manifold bounds a 4-manifold, but signature s, s+1, s+2... via connect-sum with CP^2 gives infinitely many non-diffeomorphic fillings, no canonical pick",
+     "where": "b716_probe2.py STEP 3 / b716_probe2_out.txt lines 44-64",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The Thom/Rokhlin bordism vanishing theorem is cited (textbook), not independently re-derived in-sandbox — reasonable for a 70-year-old theorem, but this is a load-bearing external import; the connect-sum non-uniqueness argument itself is straightforward and verifiable by inspection."
+    },
+    {
+     "what": "Slavich (2016) theorem: the figure-eight complement geometrically bounds a hyperbolic 4-manifold W (arXiv:1511.08684); Deraux-Falbel (2015) spherical CR uniformization is unique given unipotent cusp holonomy (Geom.Topol. 19, arXiv:1303.7096)",
+     "where": "b716_probe2_out.txt lines 87-171",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Both are cited literature results (not re-derived), used as the arc's own honest 'near-miss' counter-cases against outcome B; the arc's argument for why they still fail to give a canonical Lorentzian 4d spacetime is reasoned in the committed text, but the underlying theorems themselves are trusted citations, not recomputed."
+    },
+    {
+     "what": "H^3 isotropy: point-stabilizer SO(3) acts transitively on tangent directions at a point (numeric random-sampling check, max miss 4.44e-16)",
+     "where": "b716_probe3.py PART 3 / b716_probe3_out.txt lines 35-47",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Numeric linear-algebra verification (40 random targets) committed with exact tolerance reported; reproducible from committed script."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No verification/ subdirectory; probes explicitly re-derive prior claims (B565-H1 style) in-sandbox and include an adversarial self-audit section (probe3 'CAVEATS') addressing the strongest objections to its own conclusion.",
+   "absence_claims": [
+    {
+     "quote": "No object-intrinsic invariant is 4-manifold-valued (the A-polynomial is a plane curve, the trace field is a number field Q(sqrt-3), the torsion is a scalar).",
+     "where": "FINDINGS.md line 26"
+    },
+    {
+     "quote": "there is NO invariant complex-time direction to rotate",
+     "where": "FINDINGS.md line 39-40 (Probe 3 summary)"
+    },
+    {
+     "quote": "H^3 is an ISOTROPIC (two-point-homogeneous) Riemannian space...Therefore NO isometry-invariant tangent direction exists, so there is NO canonical complex-time axis to Wick-rotate.",
+     "where": "b716_probe3_out.txt lines 42-47"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "All three probes are computed with exact symbolic/high-precision witnesses and include honest treatment of the strongest counter-cases (Slavich's geometric bounding, Deraux-Falbel's unique CR uniformization) rather than hiding them; the two cited (not recomputed) topology theorems are standard and load-bearing but reasonably trusted. This is a genuine no-go/negative structural result, not an observable prediction."
+  },
+  {
+   "arc": "B717_observer_emergence",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B717_observer_emergence/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B717_observer_emergence/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"Capstone spine: the object supplies four incompletenesses (space, time, charge, value) and the observer supplies every closing — measurement is the symmetry-breaking choice.\"",
+   "log_says": "PROGRESS_LOG 2026-07-19 describes it as a synthesis arc assembling B713-B716 + cc2's child. Later, B1000/B1001 (2026-08-09) states: \"Sealed and pushed before compute...the declared prior OUTCOME B, >4 — expected to correct B717. Three incompatible counts existed and no arc reconciled them (B717: 4, B300: 8, sweep: ~8). Result: 5 CLOSINGS, 3 ARTIFACTS...exactly four distinct sectors, matching B717. B717's four is right as a count of SECTORS and wrong as a count of CLOSINGS.\" B944/B945 separately probe whether TIME and CHIRALITY collapse into one closing and conclude \"B717's spine stands unamended.\"",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "Exactly four channels of object-incompleteness / observer-closing (SPACE, TIME, CHARGE/CHIRALITY, VALUE)",
+     "where": "FINDINGS.md tables lines 15-28",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This arc computes nothing itself — it is a pure synthesis assembling verdicts from B713-B716 and cc2's child arc. The '4' count is later revisited by B1000/B1001, which finds the correct count is 5 closings (charge contributes 2, not 1) though the sector count of 4 is preserved — B717's own FINDINGS.md and arc_verdict.json (superseded_by: null) do not reflect this refinement."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Synthesis/capstone arc with zero code files and zero computation of its own; it explicitly says 'Synthesis arc (no new claim — assembles banked results; verify-on-receipt of cc2's child-fusion)'.",
+   "absence_claims": [
+    {
+     "quote": "Every row is a banked theorem or a verify-on-receipt confirmation; nothing is asserted beyond the structural.",
+     "where": "FINDINGS.md line 51"
+    },
+    {
+     "quote": "No SM value is claimed anywhere",
+     "where": "FINDINGS.md line 53"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "B1000/B1001 (2026-08-09, per log) states its declared prior expectation was 'to correct B717' and finds the correct closing count is 5 (not B717's 4), reconciling B717's '4' as a count of SECTORS rather than CLOSINGS. B717's own arc_verdict.json still has superseded_by: null and FINDINGS.md is unedited to reflect this refinement — a reader of B717 alone would take '4 closings' at face value.",
+     "where": "log_index/B717.txt (B1000+B1001 entry) vs FINDINGS.md lines 14-28 and arc_verdict.json"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "As a pure synthesis arc with no code, no probes, and no independent computation, B717's entire content is IMPORTED from other arcs; its own verdict of PROVED is not something this arc itself computed or could reproduce — it inherits correctness (or error) entirely from B713-B716 and the cited child arc.",
+     "where": "FINDINGS.md whole file; files list has only FINDINGS.md + arc_verdict.json, no .py/.txt"
+    }
+   ],
+   "seat_note": "This is a narrative capstone, not a computation — its physics content is entirely derivative of B713-B716 and the child arc, and its headline 'four incompletenesses' count is later softened by B1000/B1001 without B717 itself being updated. Treat B717 as a summary index, not independent evidence."
+  },
+  {
+   "arc": "B718_child_program",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B718_child_program/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B718_child_program/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B718_child_program/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe1.py",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe1_out.txt",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe1_refutation.py",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe1_refutation_out.txt",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe2_out.txt",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe2_scan.tsv",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe3.py",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe3_out.txt",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe4.py",
+    "/home/user/origin-axiom/frontier/B718_child_program/b718_probe4_out.txt"
+   ],
+   "files_sampled": [
+    "b718_probe2.py (first 120 lines; SAMPLE_CODE)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Beyond H1=Z/p the child is arithmetically generic and authors no ADE skeleton — SL(2,F_p) is McKay only at p=3,5 — with exactly three arithmetic children.\"",
+   "log_says": "PROGRESS_LOG 2026-07-19 lists B718 as the Child Program tracking every dynamic. B730 (2026-07-20) confirms 'the Thurston child's invariant trace field is x^4-x-1 (disc -283, S4, NO quadratic subfield)...B718 confirmed'. B944 (2026-08-07) reaffirms: 'B443...and B718 (beyond H1=Z/p the child is arithmetically generic and authors no ADE skeleton; SL(2,F_p) is McKay only at p=3,5), with B437 RETRACTED'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Exactly 3 arithmetic children among Dehn fillings 4_1(p,q): (5,1)->disc -283, (6,1)->disc -59, (8,1)->disc -31, all integral (q=1)",
+     "where": "b718_probe2_out.txt lines 6-56; b718_probe2_scan.tsv",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full scan of integral p=5..40 (36 slopes) and non-integral q=2..12,p<=25 (166 hyperbolic fillings) using snappy arithmeticity criteria (Hilbert-symbol ramification + independent bounded-conjugate check); scan ledger committed as .tsv, unresolved cases (14) explicitly reported as unresolved rather than folded into negatives."
+    },
+    {
+     "what": "Child's holonomy at ramified prime 283 surjects onto FULL SL(2,283) (order 22,664,904, max element order 141/284) — not a binary polyhedral (McKay) group — while the parent's holonomy mod 3 gives SL(2,3)=2T (order 24, McKay for affine E6)",
+     "where": "b718_probe3.py / b718_probe3_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Explicit modular reduction of the holonomy representation at multiple primes (2,3,5,7,11,13,283), image order and max element order computed and printed for each; scan shows no prime gives a binary-polyhedral image."
+    },
+    {
+     "what": "Retraction: 'parent disc -3 controls the child degree law' — explicitly retracted with a dedicated refutation script showing (i) internal mod-4 resonance impossible from a single modulus 3, (ii) sister manifold m003 has IDENTICAL disc -3 but 0/10 agreement in degree law, (iii) other knots' degree-dips don't track their own parent discriminant",
+     "where": "b718_probe1_refutation.py / b718_probe1_refutation_out.txt; FINDINGS.md line 24",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "This retraction is self-documented within the arc's own committed files (not left dangling in another arc) — an example of correction properly propagated in place, contrasting with B717's SUPERSEDED_UNMARKED case."
+    },
+    {
+     "what": "First hyperbolic slope 5 = ceil(2*sqrt(6)) is generic (cusp-geometry six-theorem crossing, sqrt(-3)-flavored via 12=(2sqrt3)^2), NOT golden/sqrt(5)-forced despite the coincidence with the golden prime 5",
+     "where": "b718_probe4.py / b718_probe4_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact closed-form length(p)=sqrt(12+p^2) derived from committed cusp-translation data; six-theorem threshold explicitly computed (4.898979) and compared to the golden ratio's unrelated appearance in the monodromy dilatation."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "24-agent multiagent campaign per PREREGISTRATION with 'skeptics re-derived in 2 toolchains'; probe1 has an explicit dedicated refutation script that recomputes and overturns an earlier claim within the same arc, a strong self-correcting belt.",
+   "absence_claims": [
+    {
+     "quote": "the child inherits NOTHING structured from the object: no field law (probe 1), no own charged skeleton (probe 3), no golden slope (probe 4)",
+     "where": "FINDINGS.md line 10"
+    },
+    {
+     "quote": "no closing re-creates it [the object's E6]",
+     "where": "FINDINGS.md line 15"
+    },
+    {
+     "quote": "5_2=m015 (disc -23) drops at small moduli 2,3, never at 23",
+     "where": "b718_probe1_out.txt line 76"
+    },
+    {
+     "quote": "NO resolved non-integral filling is arithmetic",
+     "where": "b718_probe2_out.txt line 36 (approx., 'NO resolved non-integral filling is arithmetic')"
+    },
+    {
+     "quote": "No irreducible binary-polyhedral image at any prime.",
+     "where": "b718_probe3_out.txt line 63"
+    },
+    {
+     "quote": "NO sqrt(5), NO phi, NO Fibonacci enters the slope threshold 2*sqrt6=4.8990.",
+     "where": "b718_probe4_out.txt line 78"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "This is one of the more disciplined arcs sampled: every probe is exact-symbolic or exhaustively scanned with a committed ledger, unresolved cases are reported as unresolved rather than absorbed into a verdict, and an internal error (the disc-controls-degree-law claim) is retracted with its own dedicated refutation script rather than silently dropped. A model of self-correction contrasted with B717's unmarked drift."
+  }
+ ]
+}

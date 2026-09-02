@@ -1,0 +1,295 @@
+{
+ "batch": "arcs_123",
+ "arcs": [
+  {
+   "arc": "B8072_matching_capacity",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "capacity.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "SEVEN NULLS ARE ONE MEASUREMENT OF AN INSTRUMENT'S NOISE FLOOR, NOT SEVEN RESULTS ABOUT THE OBJECT... nine of twelve SM parameters lie in the no-information band where a match is statistically guaranteed... only m_p/m_e (18.9 bits), alpha_em^-1 (15.8) and m_mu/m_e (8.6) can carry evidence... SCOPE: this is a statement about the INSTRUMENT, not about the object; it retracts none of the seven arcs. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "rho = 2794 per unit ln for the sealed phi-expression regime, calibrated from H128 (37 hits) and H129 (208 hits)", "where": "capacity.py lines ~36-46", "kind": "FITTED", "reproducible_from_committed": "yes", "why": "python script computes it deterministically from two hardcoded hit counts taken from other arcs; no results.json or stdout capture is committed, so a reader must execute capacity.py to see the reported numbers"},
+    {"what": "rho = 58559 for the PSLQ tower, from B743's 69% hit rate at 5 digits", "where": "capacity.py lines ~48-55", "kind": "FITTED", "reproducible_from_committed": "yes", "why": "single calibration point (69%, 1e-5) fit to an exponential model; cross-checked against an independent B743 statistic (0/50 at 11 digits) as control C2, which is a genuine out-of-sample test"},
+    {"what": "nine of twelve SM parameters fall in the 'no information' band against the PSLQ floor", "where": "capacity.py lines ~99-125", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "deterministic arithmetic once rho is fixed; SM central values/uncertainties are hardcoded literals in the script, not sourced to a citation file"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no verification/ directory; the script prints to stdout only and writes no results.json, so there is no committed witness file capturing the actual run output, only the source code that would reproduce it if executed.",
+   "absence_claims": [
+    {"quote": "No arc in the bank had tested the word \"semisimple.\"", "where": "B8074 FINDINGS.md:17 (adjacent arc, cited for cross-reference; see B8074 entry)"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "capacity.py has no gate()/assert mechanism and writes no results.json or output.txt; the numeric floor values (rho=2794, rho=58559, 5.0/6.4 significant digits) quoted verbatim in FINDINGS.md and arc_verdict.json can only be checked by re-running the script, and no committed stdout capture exists to compare against.", "where": "B8072/capacity.py"},
+    {"kind": "FITTED_VALUE", "detail": "the Poisson-density model's two rho values are each calibrated from a single or pair of recorded hit-counts from other arcs (a fit, not a derivation from first principles); the arc is candid about this and supplies out-of-sample controls (C1-C4), but the underlying SM central values used for the informativeness sweep are hardcoded literals with no citation trail in the script.", "where": "B8072/capacity.py lines 36-55, 100-112"}
+   ],
+   "seat_note": "The statistical argument is honest about being a fitted, per-regime instrument model and includes a real falsification episode (an earlier version failed its own C3 control), which is a good sign; but the headline numbers are only reproducible by executing an unwitnessed script, and the claim that only mass-ratio/QED constants clear the floor rests on hand-picked calibration points rather than an independently derived candidate-density theory."
+  },
+  {
+   "arc": "B8073_su5_reality",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "cell31_B.py", "results_p1093.json", "results_p811.json", "results_p991.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "ESTABLISHED: the object's su(5) is NOT tau-stable -- B = A ^ tau(A) has Killing rank 3, not 24, at three completely-split primes over ~1557 characters each... the cross-seat panel's reported (24,24) does NOT reproduce... CONSEQUENCE: the 254-case negative is a TRUE CONCLUSION REACHED BY A WRONG ARGUMENT. | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "A = Stab_e6(e_i, ebar_j, s) = (34,24) reproduces at primes 811/991/1093", "where": "cell31_B.py, results_p*.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "rebuilt in-process from B8068's construction with gates (Phi.Psi=W, Casimir) checked first; three independent prime witnesses committed as JSON"},
+    {"what": "intertwining gate T(X.v)=theta(X).T(v), 0 failures over 2106 pairs at every prime", "where": "cell31_B.py ~line 233 onward", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit check absent from the three cited cross-seat files (cell16/cell18/cell20), newly added and run here; results committed per prime"},
+    {"what": "zero characters (of ~1557 swept per prime: 2-torsion slice, uniform mu-family, 400 random) give Killing rank 24", "where": "cell31_B.py, results_p*.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive/random sweep computed and committed at three primes, but the swept family is explicitly a subset of the full (p-1)^6 character space"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "no verification/ subdirectory, but the arc itself independently rebuilds the banked A=(34,24) result 'in the same process' before proceeding, and cross-checks with an instrument-negative control (Stab(s) ^ Stab(tau s) = (45,45) reproducing an unrelated banked number) to show the tool is not stuck.",
+   "absence_claims": [
+    {"quote": "That check is absent from all three files.", "where": "B8073/PREREGISTRATION.md:25"},
+    {"quote": "is absent from `cell16_reality.py`, `cell18_realforms.py` and `cell20_outer.py`.** None of the three files contains any check that its τ intertwines.", "where": "B8073/FINDINGS.md:29"},
+    {"quote": "NOT swept: non-uniform characters outside those families (the full space is (p-1)^6)", "where": "B8073/results_p811.json:24 (also results_p991.json:25, results_p1093.json:25)"},
+    {"quote": "That is not established here: That no τ anywhere makes A stable.", "where": "B8073/FINDINGS.md:68-70 (paraphrased scope heading; verbatim: 'Not established here:')"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "arc explicitly documents that a cross-seat panel's banked claim (B=(24,24), su(5) tau-stable) does not reproduce in-sandbox; the finding is that the panel's discriminating filter is 'identically satisfied' for every character, i.e. the original claim gave no discrimination at all. The arc records this rather than silently ratifying, which is good practice, but flags that the panel's original claim may still be cited elsewhere without this correction attached.", "where": "B8073/FINDINGS.md, 'The result' and 'methodological finding' sections"},
+    {"kind": "OTHER", "detail": "the negative is scoped to a specific swept character family (2-torsion slice, uniform mu-family, 400 random), explicitly not the full (p-1)^6 space; the arc is careful to say 'no character in the swept family' rather than 'no conjugation exists', which is the correct epistemic hedge, not a flaw, but worth tracking as a residual open question.", "where": "B8073/FINDINGS.md 'What this does and does not settle'"}
+   ],
+   "seat_note": "This is a genuine reproduction failure caught in-sandbox with real controls (an instrument-negative check showing the tool can output 24 when it should), which is exactly the kind of methodological audit the corpus needs; the negative result is honestly scoped to the swept character family rather than overclaimed."
+  },
+  {
+   "arc": "B8074_nilpotent_rank4",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "nilpotent_rank4.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE RANK CEILING'S HYPOTHESIS IS LOAD-BEARING AND THE NILPOTENT CLASS ESCAPES IT: over all 4^6-1=4095 integer Cartan points ZERO have ad nilpotent... rank 4 occurs at exactly 15 of 64 standard Levis (5 A2, 10 2A1) and on EVERY rank-4 Levi the 27 is non-self-dual... SCOPE: a scope note on section D, not a refutation. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "0 of 4095 nonzero Cartan points have ad(h) nilpotent", "where": "nilpotent_rank4.py, exhaustive over Q", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact integer sweep over all 4^6-1 points, exhaustive not sampled; results.json committed"},
+    {"what": "rank 4 occurs at exactly 15 of 64 standard Levis (5 A2, 10 2A1), 27 non-self-dual on all of them", "where": "nilpotent_rank4.py, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive over the finite (64) standard Levi list; self-duality computed from weight multiset, cross-checked against Bala-Carter dim z(e)=36/46 and published tables"},
+    {"what": "control: 400/400 sampled torus elements' centralisers contain the full Cartan", "where": "nilpotent_rank4.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit sampled control (not exhaustive, 400 samples) verifying the semisimple side of the dichotomy holds as GUT_REQUIREMENTS_LEDGER claims"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verifies the ledger's own hypothesis (semisimple case) with an independent 400-sample control before using the negative (nilpotent) case to extend it; exhaustive finite checks (4095 points, 64 Levis) rather than sampling for the headline claims.",
+   "absence_claims": [
+    {"quote": "No arc in the bank had tested the word \"semisimple.\"", "where": "B8074/FINDINGS.md:17"},
+    {"quote": "No arc in the bank tests the word \"semisimple\" in that hypothesis.", "where": "B8074/PREREGISTRATION.md:28"},
+    {"quote": "That the object reaches either orbit. The ω-covariant purity reading that would place it on `2A1` is mod-`p` work in `frontier/B8068_j2t_charge_field/` and is **owed**, not claimed.", "where": "B8074/FINDINGS.md:69-72 (heading: 'Not established here:')"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuine, well-scoped mathematical clarification: it distinguishes 'the rank ceiling theorem is true as written' from 'the ceiling blocks every possible route', which is an important and honestly stated non-refutation; the 27's non-self-duality on all rank-4 Levis is a real structural finding, not yet connected to any physical chirality claim."
+  },
+  {
+   "arc": "B8075_rung_spectrum_audit",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["results.json", "rung_spectrum.py (head+grep)"],
+   "files_sampled": ["rung_spectrum.py"],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "observed_spectrum_coordinate_subsets = {12, 30, 78} from 16 coordinate subsets of the four charges, exact over Q", "where": "rung_spectrum.py, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact rational-arithmetic bracket/rank computation on named coordinate subsets, committed in results.json with the full dim_z_by_subset table"},
+    {"what": "advertised_but_not_attained_by_coordinate_subsets = {14,16,18,20,26,28,36,46}; impossible_because_below_dim_z_C = {6,8,10}", "where": "results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "follows deductively from dim_z_C=12 and the order-reversing property of centralisers, both computed exactly"}
+   ],
+   "belt": "NONE",
+   "belt_note": "no FINDINGS.md or arc_verdict.json for this arc; it appears to be a precursor probe superseded by B8078's exhaustive flat-enumeration, and B8078's FINDINGS.md explicitly reproduces this arc's exact table {12,30,78} as one of its controls.",
+   "absence_claims": [
+    {"quote": "An external referee reports that Theorem 10.23 mistakes an ambient superset for a realized spectrum...making the advertised values 6, 8 and 10 impossible.", "where": "B8075/rung_spectrum.py docstring lines 3-9"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "this arc's own results.json explicitly frames its 16-subset table as a sample ('a full subspace sweep of C would only ADD values'), and it is later shown by B8078/B8079 to have been an under-sample (three of eleven attainable values found, not all eleven). B8075 itself has no verdict/arc_verdict.json marking it superseded -- the correction lives only in the later arcs' files, and this directory carries no ADDENDUM or pointer forward.", "where": "B8075/results.json vs B8078/FINDINGS.md"}
+   ],
+   "seat_note": "This is a legitimate intermediate computation (exact, reproducible) whose conclusion was later shown incomplete by B8078's exhaustive flat enumeration; the finding stands as a control point but the directory itself carries no marker that a stronger, superseding result exists three arcs later."
+  },
+  {
+   "arc": "B8076_paper_closure",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["CAMPAIGN.md", "PREREGISTRATION.md", "item01_weight_field.py", "item01a_weight_field_output.txt", "item01b_stratification_output.txt", "item06_quotients.py (head)", "relays/README.md"],
+   "files_sampled": [],
+   "files_listed_only": ["relays/CC3_TO_CC_2026-08-18_BANDS_EXECUTED.md", "relays/CC3_TO_CC_2026-08-18_ID_COLLISION_AND_THE_ASSEMBLY_REFUTATION.md", "relays/CC3_TO_CC_2026-08-19_THE_PAPER_STATE.md", "relays/CC_TO_CC3_2026-08-18_BOTH_CATCHES_LANDED_AND_THE_PAPER_IS_ELECTED.md", "relays/CC_TO_CC3_2026-08-18_THE_RULING_BANDS_AND_THE_REFUTATION_ACK.md"],
+   "claim_of_record": "no verdict file (this is a 12-item campaign tracker, not a single-claim arc; CAMPAIGN.md states 'ALL TWELVE ITEMS ARE GREEN (2026-08-19)')",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "item 1: the paper's charge field K=Q[t]/(t^3-12t-5) is the exact enhancement field of the ad-spectrum's disc-77-squarefree cubic, across all 8 charge-degree factors", "where": "item01_weight_field.py / item01a_weight_field_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact-over-Q irreducibility/discriminant/root-existence checks committed with full stdout output"},
+    {"what": "item 1b: rational stratification {0} subset (8,16)-plane subset C is a biconditional over 624 exact grid directions", "where": "item01b_stratification_output.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive over a 5^4-1=624 rational grid, exact arithmetic, committed output listing all 24 special directions"},
+    {"what": "item 6: pi_1(4_1) surjects onto neither 2I (0/14400) nor A5 (0/3600); exactly 2 surjections onto 2T up to Aut, 4 up to conjugacy (48 total)", "where": "item06_quotients.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive pair enumeration with a stated control (relator exponent sums must equal B870's independent value) gating the computation before anything is trusted"},
+    {"what": "twelve-item GREEN status of the whole campaign, including items answered by sibling arcs B8078-B8082 and B8083 (not in this packet) and by papers/structure_paper/verify/*.py scripts shipped in the source", "where": "CAMPAIGN.md ledger table", "kind": "UNCLEAR", "reproducible_from_committed": "unknown", "why": "several ledger rows (items 3,4,5,7,8,9,10,12) point to evidence paths outside this arc's own directory (sibling frontier/ arcs, or papers/structure_paper/verify/ scripts not sampled in this read); the CAMPAIGN.md narrative is internally consistent with the sibling arcs' own FINDINGS read in this batch but this seat did not independently open papers/structure_paper/verify/*.py"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "the campaign explicitly requires an 'evidence path that exists on disk' per item and a locked test (tests/test_b8076_paper_closure.py, not opened in this read) that fails on unevidenced GREEN status; items 1 and 6 are directly computed and committed inside this arc's own directory.",
+   "absence_claims": [
+    {"quote": "The enumeration behind this theorem is a search over multiset decompositions of 27 into non-trivial irreducible degrees for each of the six groups... its code is not deposited, so by this paper's own standard the theorem is an assertion ABOUT a computation.", "where": "B8076/CAMPAIGN.md item 4 row, quoting Scope (assembly)"},
+    {"quote": "its structure constants are specified in the source computation and are not reconstructed in this paper, so Proposition (2880) is a certificate whose ambient representation is cited rather than rebuilt", "where": "B8076/CAMPAIGN.md item 5 row / relays/CC3_TO_CC_2026-08-19_THE_PAPER_STATE.md:26"},
+    {"quote": "We give neither a proof nor a citation for the dimension count... this paper does not compute it.", "where": "B8076/CAMPAIGN.md item 7 row"},
+    {"quote": "Census 5.1 (43 links, 4 axioms) — counts an external ledger that is not deposited.", "where": "B8076/CAMPAIGN.md item 11 row"},
+    {"quote": "Roughly seventy-five loose relays banked on 2026-08-15 (ad000777) keep the gate red. They are not this seat's...", "where": "B8076/relays/README.md, 'What is not corrected here'"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "GITIGNORED_WITNESS", "detail": "the campaign relies partly on 'papers/structure_paper/verify/*.py' scripts described as shipped in the submitted source but not sampled by this seat in this read; whether their outputs are committed witnesses or reproduce only at build time was not verified here.", "where": "B8076/CAMPAIGN.md, multiple ledger rows"},
+    {"kind": "OTHER", "detail": "CAMPAIGN.md documents that a governance gate ('tracked-forbidden') forbids cross-seat relay files at the repo root/docs, that this seat itself violated it four times before noticing, and that ~75 other loose relays from 2026-08-15 remain unaddressed and are explicitly someone else's problem to fix -- an acknowledged, unresolved repo-hygiene debt.", "where": "B8076/relays/README.md"}
+   ],
+   "seat_note": "This is a well-run closure campaign with a locking test and per-item evidence paths, and its most important finding is that item 4 (assembly classification) is a genuine REFUTATION of a paper theorem that the campaign chose to report rather than suppress; the two items sampled in depth here (1 and 6) are properly computed and committed."
+  },
+  {
+   "arc": "B8077_compact_home",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "compact_home.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE CASCADE'S ENDPOINT HAS A COMPACT HOME IN THE OBJECT'S OWN REAL FORM... both sides of the remaining step are compact and real, and what lies between them is the single step 14->12... Reality is NOT the obstruction it has been read as. SCOPE: inner forms only; shows a compact home EXISTS, not that the object's specific subalgebra IS that one. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "charge algebra C is theta-stable in exactly 4 of 64 inner characters (1 compact + 3 copies of e6(2))", "where": "compact_home.py, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive over all 64 inner characters, exact over Q; cross-checked against B907's independently sealed sweep (78x1, 46x27, 38x36) reproduced without being given it"},
+    {"what": "SM gauge algebra su(3)+su(2)+u(1) is compact in e6(2), 36 of 36 characters (8 roots + 4 Cartan = 12)", "where": "compact_home.py, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "root-system containment (A5+A1 contains A2+A1) verified exhaustively across characters"},
+    {"what": "B892's 14-dim endpoint z(x1,y*) also compact, 36/36 in e6(2) and 27/27 in e6(-14)", "where": "compact_home.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "same root-count method extended to the 14-dim case"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "explicitly reproduces B907's independently-sealed sweep numbers (78x1, 46x27, 38x36) as an internal cross-check, described as something that 'would be wrong' if a fourth value appeared -- a genuine independent-method agreement, not a re-read of the same file.",
+   "absence_claims": [
+    {"quote": "the one row B1017's resource table marks UNSOURCED: the VEV direction.", "where": "B8077/FINDINGS.md:43-45"},
+    {"quote": "Inner forms only. The outer real forms `e₆(6)` and `e₆(−26)` are **not swept**.", "where": "B8077/FINDINGS.md:60-61"},
+    {"quote": "Outer forms (e6(6), e6(-26)) are NOT swept here.", "where": "B8077/compact_home.py:17"},
+    {"quote": "inner real forms only; outer forms e6(6) and e6(-26) NOT swept.", "where": "B8077/results.json:23"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "the arc's central reading -- 'reality is not the obstruction it has been read as' -- rests on showing a compact home EXISTS for both the 14-dim and 12-dim endpoints separately; it explicitly does not show the object's specific SM-shaped subalgebra IS the one embedded in that compact form (an open 'matching problem'), so the headline framing risks reading stronger than the demonstrated result.", "where": "B8077/FINDINGS.md 'SCOPE' section"}
+   ],
+   "seat_note": "Purely group-theoretic (Killing-form compactness of abstract subalgebra types), with the important and correctly flagged caveat that existence of a compact home is not the same as the object's actual subalgebra occupying it -- a distinction the arc itself is careful to preserve rather than blur."
+  },
+  {
+   "arc": "B8078_rung_spectrum_attained",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "PREREGISTRATION.md", "arc_verdict.json", "results.json", "log_index/B8078.txt"],
+   "files_sampled": ["rung_attained.py (head 120 lines + grep for def/gate/assert)"],
+   "files_listed_only": [],
+   "claim_of_record": "THE RUNG SPECTRUM IS ATTAINED AND THE PAPER'S ELEVEN-ELEMENT BOUND IS TIGHT... e6=z(C)+V' with C acting as LITERALLY ZERO on z(C)... enumerating the 109 flats gives the realized spectrum EXACTLY {12,14,16,18,20,26,28,30,36,46,78}... NOT PREREGISTERED. | status: PROVED",
+   "log_says": "PROGRESS_LOG.md 2026-08-19 (eighth bank) entry about a different verdict (hypercharge cannot organize in the spacetime branch, NEGATIVE) references B8078 only in passing: '(= the rep-level restatement of the fork z=0, B1138, same 14-dim subalgebra; cc3's 2nd grounding: the 14 = B8078 rung -> 64 forced).'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "e6=z(C)+V', charpoly(R)=t^12.q6^3.q12.q12'^3 for generic R in ad(C), giving 66 nonzero weights in 3 Galois orbits summing to 78", "where": "rung_attained.py, gates at lines ~127-179", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact-over-Q charpoly factorisation with a gate() harness (FAILED list, SystemExit on failure) checked in the sampled code"},
+    {"what": "109 flats; realized spectrum exactly {12,14,16,18,20,26,28,30,36,46,78}, exhaustive at three faithful primes (409,421,487)", "where": "rung_attained.py lines ~340-427", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit per-prime gate checks for faithfulness (30 distinct weights) and cross-prime agreement, with a raise SystemExit on any FAILED gate"},
+    {"what": "the (8,16)-plane cubic is irreducible over Q, discriminant squarefree part 77 matches x^3-12x-5, and acquires a root generating K=B866's field", "where": "rung_attained.py lines ~198-241", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact-over-Q irreducibility/discriminant computation, gated"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "the sampled code shows a real gate()/FAILED/SystemExit harness (not just print statements), and the arc's own controls are explicitly designed to be falsifiable by other arcs' independently banked numbers (B8075's 16-subset table, B874's forced 12+18=30, B866's field K, B892's 14).",
+   "absence_claims": [
+    {"quote": "This arc was NOT preregistered. It began as an exploratory probe of B8075's rung spectrum and the structure was found before the controls were written.", "where": "B8078/PREREGISTRATION.md:3-4"},
+    {"quote": "not yet a ℚ̄ certificate — mod-p reduction can only *add* linear dependencies among weights", "where": "B8078/FINDINGS.md:95 (also rung_attained.py:423)"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "arc is honestly labelled 'post-hoc' preregistration -- structure was found before controls were written, which the arc discloses rather than hides, and defends via falsifiability against banked corpus values rather than self-chosen thresholds; not a defect but worth surfacing given this seat's mandate to flag preregistration status.", "where": "B8078/PREREGISTRATION.md"}
+   ],
+   "seat_note": "A strong piece of exact mathematics (charpoly factorisation, hyperplane-arrangement flat enumeration) with real falsifiable controls against five independently-banked prior values; its own residue (not yet a Qbar certificate) is explicitly named and then closed one arc later by B8079, which is good practice."
+  },
+  {
+   "arc": "B8079_arrangement_exact",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "arrangement_exact.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE RUNG ARRANGEMENT IS EXACT OVER Q -- B8078's residue is CLOSED, and the 64 Levi subsystems are deposited... every vector here is RATIONAL, so the Q-enumeration IS the Qbar-enumeration: the 109 flats and the eleven values...are now exact. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "cc's no-moduli theorem (dim C=4, dim z(C)=12 forces |Phi ^ C-perp|=6, unique A2 rank-<=2 system with 6 roots) reproduced in-sandbox rather than cited", "where": "arrangement_exact.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicitly reproduced per WORKING_RULES sec 2/12 rather than banked by citation from another seat's branch; root-count table (A1:2, A1xA1:4, A2:6, B2:8, G2:12) computed"},
+    {"what": "the 72 E6 roots restricted to C give 66 nonzero weights with profile 12x1+18x3, matching B8078's independently-computed profile via a different code path", "where": "arrangement_exact.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cross-validated against B8078's charge-side ad-matrix computation sharing no code path -- a genuine independent-method agreement"},
+    {"what": "64 Levi subsystems enumerated exactly, root counts 0,2,4,6,8,10,12,14,20,22,24,30,40,72; exactly three dims (12,18,20) carry two types", "where": "arrangement_exact.py, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exhaustive over 64 standard Levi subsystems, matching cc's independent bench run for the 26=4xA4 case"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "explicitly designed to share no code path with B8078 while reaching the same numeric profile (12x1+18x3), a genuine dual-method cross-check; also independently reproduces cc's bench-run count for 26 (4 A4 node-subsets).",
+   "absence_claims": [
+    {"quote": "This closes that residue, by a construction that shares no code path with B8078", "where": "B8079/arrangement_exact.py:8"},
+    {"quote": "NOT PREREGISTERED. The protection is the same as B8078's...", "where": "B8079/arrangement_exact.py:26"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A clean, exact-over-Q closure of an explicitly named residue from B8078, verified by a genuinely independent code path reaching the same multiplicity profile; the reconciliation of the rational arrangement with B8078's irreducible-over-Q plane cubic (different coordinate systems) is a real subtlety handled correctly rather than glossed over."
+  },
+  {
+   "arc": "B8080_assembly_classification",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json"],
+   "files_sampled": ["assembly.py (head 120 lines + grep for def/gate/assert)"],
+   "files_listed_only": [],
+   "claim_of_record": "THE ASSEMBLY CLASSIFICATION IS FALSE AS STATED: ALL SIX CANDIDATES ADMIT A 27-DIMENSIONAL ASSEMBLY... the defect is multiplicity, not triviality... 2O and 2I survive and BOTH ARE BINARY, so the failure is not absorbed downstream. | status: NEGATIVE (paper theorem refuted)",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "character tables for A4,S4,2T,2O,A5,2I computed by Dixon's algorithm at p=3671 (least prime >3654, p=1 mod 120), not transcribed", "where": "assembly.py, gates at lines ~171-299", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit gate() checks (closure, sum-of-squares=|G|, column orthogonality) for all six groups before any classification claim is made; sampled code confirms gate()/FAILED/SystemExit harness is real"},
+    {"what": "block-sum lemma: an irreducible with a nonzero invariant cubic has zero radical, so multiplicity-based block sums (9x3, 3x4+3x5, 27x linear character) are all valid 27-dim assemblies", "where": "assembly.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verified independently on explicit rational matrices (S4 on {sum x_i=0}, A5 on 5 points and 6 Sylow-5 subgroups) with radical computed directly, not just via the character-theoretic argument"},
+    {"what": "2O, 2I survive and are both binary (Corollary onlybinary verified)", "where": "assembly.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit gate checks the Frobenius-Schur indicator condition (determinant filter) for the special-linear irreducibles"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "results.json committed with full per-group decomposition and witness data; decisive witnesses independently checked on explicit rational matrices as a second, non-character-theoretic verification path.",
+   "absence_claims": [
+    {"quote": "That search is described here but its code is not deposited, so by this paper's own standard the theorem is an assertion ABOUT a computation. ... The full six-group classification should be read as unverified.", "where": "B8080/FINDINGS.md:12-14, quoting the paper's own Scope (assembly)"},
+    {"quote": "No character value is transcribed.", "where": "B8080/FINDINGS.md:21"},
+    {"quote": "NOT PREREGISTERED. The controls are falsifiable by the paper and by classical facts this arc did not choose", "where": "B8080/assembly.py:34-35"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A genuine refutation of a paper theorem, computed rather than merely disputed, with a clean explanation of why the earlier repair (excluding trivial summands) failed to catch the real defect (multiplicity); notably this is the kind of self-correcting result the corpus should be judged favorably for reporting rather than suppressing."
+  },
+  {
+   "arc": "B8081_rho_rebuilt",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "results.json", "rho_rebuilt.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "RHO IS BUILT: Proposition (2880) and the coupling law stop being certificates about a matrix the paper never writes down... built from the Kac-Peterson data alone... |<rho(R),rho(L)>|=2880=|2Tx2I| at all four primes... 63-class match... exact. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "ord T = 15 derived from Kac-Peterson h=(a^2+b^2+ab+3a+3b)/15 for SU(3) level 2, matching the paper's stated value", "where": "rho_rebuilt.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "derived from first-principles conformal-field-theory data (dual Coxeter, inverse Cartan of A2), not asserted; validated against 4 modular relations (T^15=I, S^4=I, S^2=C, (ST)^3=S^2) before results are read"},
+    {"what": "|<rho(R),rho(L)>|=2880=|2Tx2I| at four primes p=1 mod 60", "where": "rho_rebuilt.py, results.json", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact group-order computation at 4 independent primes with modular-relation gating prior to reading any result"},
+    {"what": "63-class exact match of (class size, chi(A)trV2(B), trV2(A)trV2(B)) against an independently built quaternion model of 2Tx2I", "where": "rho_rebuilt.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "cross-checked against an independently constructed quaternion model (24 Hurwitz units, 120 icosians), a second construction path"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "modular relations (T^15=I etc.) act as a genuine pre-registration-style gate that must pass before any downstream number is trusted -- 'this is what makes it rho and not some other matrix.'",
+   "absence_claims": [
+    {"quote": "its structure constants are specified in the source computation and are not reconstructed in this paper, so Proposition (2880) is a certificate whose ambient representation is cited rather than rebuilt", "where": "B8081/FINDINGS.md:5-8, quoting the paper's own Scope (2880)"},
+    {"quote": "NOT PREREGISTERED. Every target number is the paper's, fixed before this file existed", "where": "B8081/rho_rebuilt.py:33"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "This upgrades an asserted-but-uncomputed representation to a fully built and independently cross-validated one (two unrelated constructions of 2Tx2I agree class-by-class), which is solid group-theoretic work; no physical value or observable is derived here despite the WZW/CFT flavor of the construction."
+  },
+  {
+   "arc": "B8082_geodir_h1",
+   "source": "paper/structure-genesis-first",
+   "files_read": ["FINDINGS.md", "arc_verdict.json", "geodir_h1.py", "results.json"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE GEODIR DIMENSION COUNT IS COMPUTED, AND ONE ADJECTIVE IN IT IS NOT... dim H^1 = 6 with split 1+5... NOT COMPUTED: unobstructedness... dim H^2 = dim H^1 = 6, the obstruction space is NOT zero. | status: PROVED (for the H^1 count only; unobstructedness registered as owed)",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {"what": "e6 decomposes by principal-sl2 exponent into Sym^{2m}(V2) for m in {1,4,5,7,8,11}, dims 3+9+11+15+17+23=78", "where": "geodir_h1.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "structural decomposition following from rho_0 factoring through SL(2); arithmetic sums to 78 exactly, an internal consistency check"},
+    {"what": "trace field is Q(sqrt(-3)) because parabolic pair A,B satisfies the relator exactly when t^2-t+1=0", "where": "geodir_h1.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact algebraic check that this is the figure-eight's known geometric representation, serving as a control that the right representation was used"},
+    {"what": "dim H^1 = 1 in each of six blocks (total 6, split 1+5), by Fox calculus at three primes with 6|p-1", "where": "geodir_h1.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact-over-Fp Fox-calculus computation at three primes agreeing; H^0=0 in every block checked as a cleanliness control"},
+    {"what": "unobstructedness NOT computed; dim H^2 = 6 (nonzero) via twisted Euler characteristic, so the obstruction space is not trivially zero", "where": "geodir_h1.py, results.json 'scope' field", "kind": "UNCLEAR", "reproducible_from_committed": "no", "why": "explicitly registered as owed, not asserted; the arc is careful to distinguish the computed half (H^1 dimension) from the uncomputed half (why it is unobstructed), which the paper's own Scope note conflated"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "three independent primes agree on the Fox-calculus H^1 computation; the trace-field check (Q(sqrt(-3))) is an independent control that the geometric representation, not an arbitrary solution of the relator, was used.",
+   "absence_claims": [
+    {"quote": "We give neither a proof nor a citation for the dimension count, and it should be read as unverified. It is a deformation-cohomology statement — which H¹ is six-dimensional, and why it is unobstructed — and this paper does not compute it.", "where": "B8082/FINDINGS.md:11-14, quoting the paper's Scope (geodirscope)"},
+    {"quote": "Unobstructedness... this arc computes H¹ only... unobstructedness follows from no dimension count available here. It needs genuine obstruction theory or a citation. Registered as owed, not asserted.", "where": "B8082/FINDINGS.md 'What is NOT computed'"},
+    {"quote": "UNOBSTRUCTEDNESS IS NOT COMPUTED: the twisted Euler characteristic is zero and H^0 = H^3 = 0, so dim H^2 = 6 and the obstruction space is non-zero; that half needs obstruction theory or a citation and is registered as owed.", "where": "B8082/results.json 'scope' field"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "the paper's original Proposition (geodir) asserted 'the unobstructed E6 moduli' as a single claim bundling dimension and unobstructedness; this arc shows the dimension count (6, split 1+5) is real but that the obstruction space (H^2) is actually nonzero (dim 6), meaning unobstructedness is not merely uncomputed but is a nontrivial open question the paper's phrasing had glossed over.", "where": "B8082/FINDINGS.md 'What is NOT computed'"}
+   ],
+   "seat_note": "A careful half-computation that correctly separates what was verified (the H^1 dimension, exact at three primes) from what the paper's adjective 'unobstructed' actually requires (obstruction theory, not merely a dimension count) -- and additionally shows the per-block H^1=1 result is a property of the manifold and Sym^{2m}, not a discovery about E6's exponents, which the paper's original phrasing overstates."
+  }
+ ]
+}

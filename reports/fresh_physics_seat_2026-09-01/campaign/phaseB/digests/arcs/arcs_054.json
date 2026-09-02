@@ -1,0 +1,189 @@
+{
+ "batch": "arcs_054",
+ "arcs": [
+  {
+   "arc": "B678_d4_annex",
+   "source": "main",
+   "files_read": [
+    "ARTIFACT_HASHES.txt", "FINDINGS.md", "FINDINGS_CC2.md", "arc_verdict.json",
+    "d4_ceiling.py (head+grep)", "d4_level.py (head+grep)",
+    "d4_results_k1.json..k12.json (declared FULL in packet; spot-checked via MERGED)",
+    "d4_results_MERGED.json (head/tail/wc/grep for quoted values)"
+   ],
+   "files_sampled": ["d4_ceiling.py", "d4_level.py", "d4_results_MERGED.json"],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'The full 8x12 ladder census shows no growth in any of 96 cells, refuting chat1's amphichiral-suppression mechanism at every level, convergent with B669.' status: NEGATIVE",
+   "log_says": "B677 morning-packet log line: 'B678 BANKED: cc2's D4 annex (full 8x12 table, privacy-patched, sha-prefix 54d64048).' Same log entry also reports (as a G3/loop-7 item, not B678 itself) that the (10,kappa=8) value is later IDENTIFIED exactly — this belongs to B684/G3, not B678.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "any_growth_any_level=False across 96 cells (8 words x 12 levels)", "where": "d4_results_MERGED.json (failed_gates_by_level all empty; any_growth_any_level:false)", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "per-level JSON results and both scripts (d4_level.py, d4_ceiling.py) are committed and self-contained (import engine_v7 by absolute conduit path, not in this repo), but the run logs (d4_k1..12.log) that FINDINGS.md/ARTIFACT_HASHES.txt reference are gitignored and absent on disk -- the raw run trace is not reproducible from this repo alone, only the JSON outputs are."},
+    {"what": "golden own-channel |Z|=1/phi at kappa=5,10,15; (n=4,kappa=12)=sqrt3-1", "where": "d4_results_MERGED.json lines ~155,719 area (values 0.618033988..., checked); FINDINGS.md quotes these", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact irrational values are present verbatim in the committed JSON and match FINDINGS.md's quoted digits to the precision shown"},
+    {"what": "(n=10, kappa=8) cell = 1.7849887... left UNIDENTIFIED in this arc", "where": "FINDINGS.md 'stays UNIDENTIFIED... HINT_LEDGER row'; d4_ceiling.py recognize() falls back to 'UNIDENTIFIED:<digits>' string", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "the non-identification is itself an honest negative result, reproducible by re-running d4_ceiling.py's recognize() against the same constant list"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No verification/ subdir; this IS itself a main-seat verify-on-receipt of cc2's annex (independent re-derivation of the ceiling map from the raw 96 rows, cross-checked against B669's separate route) -- a belt pass on cc2's work rather than a first computation.",
+   "absence_claims": [
+    {"quote": "The (10, κ=8) value 1.7849887… stays UNIDENTIFIED: this seat's independent identification attempt over ℚ(√2,√3,√5,φ) found nothing clean (nsimplify returns junk). Honestly open; HINT_LEDGER row.", "where": "FINDINGS.md"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "GITIGNORED_WITNESS", "detail": "ARTIFACT_HASHES.txt lists d4_k1.log through d4_k12.log with sha256 hashes, but *.log is gitignored repo-wide (confirmed via git check-ignore) and none of these files exist on disk -- the run traces behind the 96-cell census cannot be inspected, only the derived JSON.", "where": "ARTIFACT_HASHES.txt; .gitignore:20"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The (n=4,kappa=12)=sqrt3-1 match to a 'banked B4-landscape value' is flagged in FINDINGS.md itself as 'two campaigns, one number' -- a numeric coincidence treated as convergence rather than a derived identity between the two constructions.", "where": "FINDINGS.md 'THE CROSS-CAMPAIGN NUMBER' paragraph"}
+   ],
+   "seat_note": "A genuine negative result (no resonance growth in 96 cells) independently cross-checked by two routes (B669, B678) is solid structural work, but the raw per-level logs that would let a stranger audit the 8h-to-15s speedup claim and the gate history are gitignored and absent from the repo."
+  },
+  {
+   "arc": "B679_engine_patch",
+   "source": "main",
+   "files_read": [
+    "ARTIFACT_HASHES.txt", "FINDINGS.md", "PATCH_REPORT.md", "arc_verdict.json",
+    "engine_v7_current.py", "engine_v7_patched.py", "equivalence_proof.py (head)",
+    "equivalence_locks_out.txt", "equivalence_out.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": ["patch.diff"],
+   "claim_of_record": "verdict claim_one_line: 'The engine_v7 gate_report patch hoists the O(N^3) expression out of the max generator, verified bit-identical on all gates with up to 221x speedup.' status: PROVED",
+   "log_says": "'B679: the engine_v7 gate_report patch PREPARED + CORRECTNESS-VERIFIED (the B678 priced door).'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "old vs patched gate_report bit-identical on all six gate values across N=3,4,6,15,28(,45)", "where": "equivalence_proof.py + equivalence_out.txt (raw mantissa ._mpf_/._mpc_ comparisons, [ok] lines)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "equivalence_proof.py is self-contained, loads both engine snapshots as modules and asserts bit-identity mechanically (ast-excision check + per-gate battery); output committed as equivalence_out.txt"},
+    {"what": "speedup 9.4x/67x/221x at N=6/15/28", "where": "FINDINGS.md 'Speedup' section", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "timed in the same equivalence_proof.py run; numbers are machine-dependent but the methodology and script are committed"},
+    {"what": "downstream lock/cell rerun battery (b678, b673, b651, b670, b663, b646 cells + 4 pytest files) all PASS with patched engine pre-injected", "where": "equivalence_locks_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the harness that ran these (timeouts, PASS/PASS(note) lines) is not included in this arc's file set -- only the captured stdout is committed, not the runner script itself"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Explicitly framed as 'main-seat verify-on-receipt, independent of the agent' recomputing the old-vs-patched equivalence from scratch, not merely re-reading the subagent's claim.",
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "absence_claims": [],
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Patch is described as PREPARED, VERIFIED, NOT-YET-DEPLOYED -- the engine itself lives outside this repo (a 'seat conduit'), so this arc's PROVED verdict certifies correctness of a diff that this repo cannot itself apply or observe running in production; deployment status is untracked from here.", "where": "FINDINGS.md 'Status' and 'Deployment' sections"}
+   ],
+   "seat_note": "This is a solid, genuinely reproducible engineering correctness proof (bit-identical outputs, mechanical ast-diff, timed speedup) with no physics content of its own -- it is pure infrastructure work in support of the D4 ladder cells."
+  },
+  {
+   "arc": "B680_arithmetic_meditation",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "MEDITATION_CC2.md", "arc_verdict.json", "verify.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'Verified exactly that Vol(4_1) = (3sqrt3/2) L(chi_-3, 2) — the volume is the being-character L-value — and that 5 is inert in Q(sqrt(-3)).' status: PROVED",
+   "log_says": "'B680: the arithmetic meditation, two facts VERIFIED + four leads registered.' and 'The B680 falsifiable prediction discharged CONFIRMED.' A much later entry (2026-08-19, eighth bank) adds a scope note: 'B680 Vol identity + amphichirality are family-level' (explicitly framed as 'not retractions').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Vol(4_1) = (3sqrt3/2)*L(chi_-3,2) to 38+ digits", "where": "verify.py volume_is_being_L_value(); assert abs(V-P)<1e-38 and abs(V-2.029883212819307250)<1e-18", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained mpmath script with hardcoded closed forms for both sides (Bloch-Wigner dilog and Hurwitz-zeta form of L(chi_-3,2)); this is a classical identity (Zagier), not a new discovery, but it is genuinely computed here to 40 digits"},
+    {"what": "5 is inert in Q(sqrt-3), 15 = ramified(3) x inert(5)", "where": "verify.py inert_5_in_eisenstein(): pow(-3 mod 5, 2, 5)==4", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary Legendre-symbol check, trivially reproducible"},
+    {"what": "Reid 1991 uniqueness of the figure-eight as the only arithmetic knot; the four 'leads' (Habiro ring, Mahler bridge, Gross-Zagier CM)", "where": "MEDITATION_CC2.md, FINDINGS.md 'LEADS REGISTERED'", "kind": "IMPORTED", "reproducible_from_committed": "no", "why": "these are literature citations (Reid 1991, Boyd 1998, Zagier 2010, Gross-Zagier 1985) relayed and interpreted, not independently verified theorems in this repo; FINDINGS.md itself labels them 'NOT banked as proven; NEEDS-SPECIALIST'"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Main seat re-derives/re-verifies cc2's two numeric claims independently (verify.py is the main seat's own script, separate from cc2's meditation prose) but does not add a new computation beyond confirming classical identities.",
+   "physics_content": "STRUCTURAL",
+   "absence_claims": [
+    {"quote": "its ABSENCE from the record until now is the point.", "where": "FINDINGS.md item 1 (re: Vol=L-value identity)"},
+    {"quote": "FACT 2 (Reid 1991; ABSENT from the banked record)", "where": "MEDITATION_CC2.md"}
+   ],
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The two 'VERIFIED' facts are both classical, decades-old results (Zagier's L-value/volume formula; Reid's uniqueness theorem) being imported into the program's vocabulary and re-derived numerically, not new theorems about the program's specific construction; the verdict labels this PROVED which is accurate for the arithmetic but could read as if the program discovered something new rather than recognized a known fact.", "where": "arc_verdict.json vs FINDINGS.md framing"}
+   ],
+   "seat_note": "The two hard numeric checks are genuinely computed and correct (classical Zagier/Legendre-symbol facts), but the arc's actual weight sits in four literature-sourced 'leads' that are explicitly unproven speculation, not new physics content."
+  },
+  {
+   "arc": "B681_habiro_pretest",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "arc_verdict.json", "pretest.py"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'The v5 target decomposes exactly as n + v5(n!), each summand with a divided-power/Habiro home: no v5 obstruction, the design cycle is earned.' status: PROVED",
+   "log_says": "'B681: THE BLACKBOARD v5 PRE-TEST — PASS.' plus a note that this de-risks the Habiro dictionary's headline entry (divided-power law <-> GSWZ completion) on the denominator side.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "v5(den c_n) = n + v5(n!) exactly at n=1,10,40,80,119 -> 1,12,49,99,146", "where": "pretest.py divided_power_v5() matched against banked dict; tests/test_b681_pretest.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained elementary arithmetic (Legendre's formula), asserted against hardcoded 'banked' targets and locked by a committed test file"},
+    {"what": "5^n normalization = 2 S-applications/grade = one S^2=c per grade", "where": "FINDINGS.md 'c-breaking hook' and the 5^n paragraph, explicitly labeled '[DESIGN HYPOTHESIS, earned not proven]'", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "self-flagged by the arc as a design hypothesis, not a computed or proven fact -- the arc's own text is careful about this distinction"}
+   ],
+   "belt": "NONE",
+   "belt_note": "A design/pre-test cell (checking necessary conditions before a sealed comparison cell), not a verification of someone else's result; no separate verification/ directory expected or present.",
+   "physics_content": "STRUCTURAL",
+   "absence_claims": [],
+   "red_flags": [
+    {"kind": "FITTED_VALUE", "detail": "The banked 'targets' (n=1,10,40,80,119 -> 1,12,49,99,146) are asserted as given constants from elsewhere ('the banked targets') rather than derived within this arc; the pretest checks a decomposition of numbers whose provenance is not shown in this arc's files.", "where": "pretest.py: banked = {1: 1, 10: 12, 40: 49, 80: 99, 119: 146}"}
+   ],
+   "seat_note": "A clean, honestly-labeled necessary-condition check (v5 valuation arithmetic) that the arc itself is careful to call a pre-test, not a proof of the eventual construction -- appropriately modest."
+  },
+  {
+   "arc": "B682_habiro_dictionary",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt", "ADJUDICATION_GSWZ_EQ1.md", "DICTIONARY.md", "PHASE0_EXTRACTION_CC.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file (has_findings=false, has_verdict=false in packet -- design-stage arc, no FINDINGS.md/arc_verdict.json present)",
+   "log_says": "'B682: Phase 0 of the design cycle opened (design-stage).' ... 'Banked in B682.' ... 'B682 {3,5} error corrected (E15).'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "GSWZ eq(1) denominators (24, 1152, 414720) are base-rate 'E6-tower' coincidences, NOT E6-meaningful", "where": "ADJUDICATION_GSWZ_EQ1.md + PHASE0_EXTRACTION_CC.md (GSWZ h^100 denominator quoted as containing every prime <=101)", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the adjudication reasons from a quoted published formula (GSWZ eq 1/2, read from an external PDF) rather than from a committed script or dataset in this repo; no code file computes or re-derives these denominators here"},
+    {"what": "symmetrized series Phi(h)Phi(-h) has PURE-3 denominators (self-corrected from an earlier claimed {3,5})", "where": "PHASE0_EXTRACTION_CC.md '[CORRECTED B685]' section", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "again a literature transcription/interpretation, not a repo computation; explicitly an in-file correction of a prior in-file error"}
+   ],
+   "belt": "NONE",
+   "belt_note": "A firewall/adjudication note plus a literature dictionary; no verification/ directory, no code artifacts at all in this arc (0 .py files).",
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "absence_claims": [
+    {"quote": "The Habiro ring/GSWZ connection ITSELF is real and already banked (B681, B682)... its ABSENCE from the record until now is the point.", "where": "cross-referenced from B680 FINDINGS.md, restated in DICTIONARY.md framing"}
+   ],
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "PHASE0_EXTRACTION_CC.md contains an inline '[CORRECTED B685]' fixing an earlier {3,5} misreading to 'PURE BEING, not {3,5}' -- the correction IS marked in this file, but there is no arc_verdict.json/FINDINGS.md for this arc at all, so a reader who only sees B682 referenced elsewhere (e.g. B1155's log line, or the DICTIONARY.md table) has no single canonical status pointer; the correction lives only inside prose.", "where": "PHASE0_EXTRACTION_CC.md '## [CORRECTED B685]' section"},
+    {"kind": "NO_TEST", "detail": "No code, no test lock, no verification for the entire arc -- it is pure literature adjudication (killing a numerology claim by citing a published theorem) with zero committed computation.", "where": "whole arc directory (3 .md files, no .py)"}
+   ],
+   "seat_note": "This is a genuinely good self-correcting numerology-kill (base-rate reasoning against a real published Gevrey-growth theorem) but rests entirely on transcribed literature values with no computed witness of its own in the repo."
+  },
+  {
+   "arc": "B683_arithmetic_ledger",
+   "source": "main",
+   "files_read": [
+    "ARTIFACT_HASHES.txt", "FINDINGS.md", "arc_verdict.json", "divided_power_proof.md",
+    "inert5_bianchi.md", "mahler_threeway.md", "confirm_hp.py", "lfunc_e15.py", "mahler_a2.py",
+    "threeway.py", "verify_divided_power.py (grep for def/assert)", "verify_inert5.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'Proves unconditionally by 5-adic strict dominance that c_n = [q^n](q;q)_inf^{-3/5} satisfies v_5(c_n) = -(n+v_5(n!)) for every n; the inert-5 monofocal reading fails and m(A_{4_1}) = Vol(4_1)/pi is unrelated to L\\'(E_15,0).' status: PROVED",
+   "log_says": "'B683 ARITHMETIC-LEDGER (workflow, 3 cells, main-seat verified).' Later reviews list 'the divided-power law (B683, THEOREM, proved unconditional all-n + all-prime corollary)' and 'Mahler = being volume != elliptic K2 (B683/L3, LAW + bounding negative)' as constitutionally-reviewed THEOREM/LAW rows.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "L1: v5(c_n) = -(n+v5(n!)) for ALL n (unconditional theorem via 5-adic strict dominance)", "where": "divided_power_proof.md (proof sketch) + verify_divided_power.py (mechanical check of steps A and D, and full reconstruction match for n<=NMAX)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "verify_divided_power.py is self-contained, asserts the (A) binomial valuation and (D) strict-monotonicity lemmas plus a reconstruction check, and is locked by tests/test_b683_ledger.py"},
+    {"what": "L2: inert-5-monofocal reading FAILS (5 inert in Q(sqrt-3), but sqrt5 degenerate mod 5 kills the reading)", "where": "inert5_bianchi.md + verify_inert5.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "elementary number-theoretic checks (Legendre symbol, |PSL2(F25)|, discriminant mod 5) computed in verify_inert5.py"},
+    {"what": "L3: m(A_4_1) = Vol(4_1)/pi exactly (70 digits by 'the cell', 30 here); NOT rationally related to L'(E15,0)", "where": "mahler_threeway.md, threeway.py, mahler_a2.py, lfunc_e15.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "self-contained mpmath scripts computing both sides and a PSLQ search (empty to 1e6) for a rational relation; the 70-digit claim is attributed to 'the cell' (an earlier, unspecified computation) and only re-verified to 30 digits here"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "'main-seat verified' language throughout FINDINGS.md; independently reruns/re-derives each of the three sub-claims rather than only reading a prior report, though L3's '70 digits' figure is inherited from an unnamed earlier cell.",
+   "physics_content": "STRUCTURAL",
+   "absence_claims": [],
+   "red_flags": [
+    {"kind": "OTHER", "detail": "L3 cites '70 digits by the cell' for the Mahler=Vol/pi identity without naming or linking that earlier cell/arc in this arc's own files -- the 70-digit figure is not itself reproducible from files present in B683.", "where": "FINDINGS.md 'L3' section: 'verified 70 digits by the cell, re-verified 30 here'"}
+   ],
+   "seat_note": "A well-executed three-item ledger with one real theorem (L1, unconditional 5-adic dominance proof, mechanically checked), one honest negative (L2), and one honest non-unification (L3) — good practice of reporting negatives rather than only positives."
+  },
+  {
+   "arc": "B684_loop7_close",
+   "source": "main",
+   "files_read": ["ARTIFACT_HASHES.txt", "FINDINGS.md", "arc_verdict.json", "loop7/G1_FINDINGS.md", "loop7/G2_FINDINGS.md", "loop7/G3_FINDINGS.md", "loop7/G4_FINDINGS.md"],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'Loop 7 closes the anatomy: the generation sum rule is derived as a theorem of the cubic shadow and the dark D4 value is identified exactly.' status: PROVED",
+   "log_says": "'B684: LOOP 7 CLOSED + ATLAS v2 integrated... the discovery phase complete per the CHARTER.' A much later entry (2026-08-19, second bank) reports: 'B684's ladder k-defect caught by four builds' (B1072), and Review 47's action items still list open: 'R47-6: B684's full ladder re-derivation (the k-indexing defect's completion).'",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {"what": "G1: compression kernel (1,0,(7983360/13)omega) exactly, DERIVED from the cubic contraction; two mechanisms proven disjoint (pi=0 on Lambda^2)", "where": "loop7/G1_FINDINGS.md; artifacts named (g1_mechanisms.py, g1_results.json, g1_run.log) are NOT present in this arc's directory", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "the named source artifacts for this claim are absent from the B684 directory on disk (only the prose FINDINGS summary is committed here) -- a stranger cannot rerun this from what's in the repo at this path"},
+    {"what": "G2: silver hears 1/delta at SU(4)_2, golden 1/phi at SU(3)_2 -- 'level-2-of-own-family' law", "where": "loop7/G2_FINDINGS.md; g2_silversu4.py/g2_results.json/g2_run.log NOT present in this arc", "kind": "COMPUTED", "reproducible_from_committed": "no", "why": "same missing-artifact issue as G1; and this specific headline value is directly contradicted by a later independent build (see red flags)"},
+    {"what": "G3: (n=10,kappa=8) dark cell = sqrt(5+2sqrt3-2sqrt2-sqrt6) exactly, minpoly x^8-20x^6+98x^4-172x^2+97; golden period=20 proven", "where": "loop7/G3_FINDINGS.md; tests/test_b684_loop7.py::test_g3_dark_cell_1785 mechanically verifies the minpoly root and numeric value", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "unlike G1/G2/G4, this specific claim IS locked by a committed sympy test that recomputes the minimal-polynomial root symbolically and checks it against the numeric value"},
+    {"what": "G4: McKay/exponent menu 9/11 partial fit, SL(2,q) menu falsified", "where": "loop7/G4_FINDINGS.md; g4_constituents.py/g4_results.json/g4_run.log NOT present", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "prose-only in this arc; source artifacts absent"},
+    {"what": "S2 det-product distinctness (tau_red(V_2)=-5, Delta'_1(1)=-3, etc.)", "where": "FINDINGS.md 'Two-seat corroborations' + tests/test_b684_loop7.py::test_s2_detproduct_distinct", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "locked by the committed test, which recomputes the Lucas-number products directly"}
+   ],
+   "belt": "RE-READS",
+   "belt_note": "'main-seat spot-checks' of cc2's G1-G4 packet; only G3 and the S2 det-product item are given a committed, independently-runnable lock (tests/test_b684_loop7.py) -- G1/G2/G4 are re-read/summarized, not re-run from artifacts in this repo path.",
+   "physics_content": "STRUCTURAL",
+   "absence_claims": [],
+   "red_flags": [
+    {"kind": "RETRACTION_NOT_PROPAGATED", "detail": "FINDINGS.md's own ADDENDUM (2026-08-19) reports that B1072's four independent builds find tr_odd(R^2L^2)=delta=1+sqrt2 AT k=2 (not the k=6 this arc's ladder places it at), meaning this arc's own headline G2 value 'silver hears 1/delta at SU(4)_2' has its VALUE attribution wrong (a k-indexing/inversion defect), while structural claim survives. arc_verdict.json's claim_one_line and status (PROVED) were not updated to reflect this defect, and Review 47's action item R47-6 (full ladder re-derivation) is still open as of the latest log entry read.", "where": "FINDINGS.md ADDENDUM 2026-08-19; arc_verdict.json (unchanged PROVED/claim_one_line); docs/progress/REVIEWS.md R47 action items"},
+    {"kind": "MISSING_WITNESS", "detail": "G1, G2, and G4's named source artifacts (g1_mechanisms.py/g1_results.json/g1_run.log, g2_silversu4.py/g2_results.json/g2_run.log, g4_constituents.py/g4_results.json/g4_run.log) are not present anywhere under this arc's directory -- only their prose FINDINGS summaries are committed here, so a stranger cannot reproduce these three cells' numbers from this repo path.", "where": "loop7/G1_FINDINGS.md, G2_FINDINGS.md, G4_FINDINGS.md 'Artifacts:' lines vs. actual directory listing (only 4 .md files + top-level FINDINGS.md/arc_verdict.json/ARTIFACT_HASHES.txt present)"}
+   ],
+   "seat_note": "G3's dark-cell identification is solid and independently locked by a committed sympy test, but G2's headline silver-ratio value is now known (by the arc's own later addendum) to carry a k-indexing defect that the verdict file was never updated to reflect, and three of the four sub-cells (G1/G2/G4) have no reproducible artifacts in this repo path at all."
+  }
+ ]
+}

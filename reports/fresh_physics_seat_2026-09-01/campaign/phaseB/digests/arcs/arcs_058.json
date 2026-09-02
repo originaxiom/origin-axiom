@@ -1,0 +1,172 @@
+{
+ "batch": "arcs_058",
+ "arcs": [
+  {
+   "arc": "B719_scale_multiplicity",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/b719_control.py (head120+grep)",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/b719_control_out.txt",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/b719_covers_clean.txt",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/b719_probe2.py",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/b719_probe2_out.txt",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/b719_probe3.py",
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/b719_probe3_out.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B719_scale_multiplicity/b719_control.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: \"Multiplicity/scale is the observer's — every cover's volume is exactly degree·base with no preferred size — and the h=3 being-filter is generic, falsified as inherited by the ℚ(√−1) and ℚ(√−7) controls.\"",
+   "log_says": "REVIEW 25 log entry matches FINDINGS exactly: multiplicity/scale is the observer's closing (B719), h=3 filter surfaced then resolved GENERIC via a re-run control after 4 API stream-timeouts degraded the campaign; log explicitly discloses the degradation and re-run.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "vol(degree-d cover) = d*base exactly (to 1e-15) for m003(-2,3) covers, degrees 2-15", "where": "b719_probe2.py / b719_probe2_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "snappy M.covers(d) enumeration committed with script and full output, cross-checked volume arithmetic"},
+   {"what": "cover homologies grow with degree (Z/11+Z/11 at d5, Z/30 at d8, b1>0 first at d14, 2-torsion rank reaches 3 at d18)", "where": "b719_probe3.py / b719_probe3_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "independently cross-verified via snappy homology() vs sympy Smith-normal-form on the abelianized presentation; all rows print OK"},
+   {"what": "h=3 pattern is GENERIC not inherited from ℚ(√−3): Maclachlan-Reid arithmeticity scan over Q(i) and Q(√−7) Bianchi parents shows odd class numbers and no prime-specific filter", "where": "b719_control.py / b719_control_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "full Maclachlan-Reid arithmeticity checker implemented and validated against known ARITH/NON-ARITH cases (4_1(5,1)/(6,1)/(8,1) vs (7,1)/(9,1) and 5_2), then run on m130/m136/m009/m010/m003"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "b719_covers_clean.txt is an explicit clean re-run of the degree-2..7 cover computation, done specifically because FINDINGS/log disclose a prior provenance breach (an auto-generated probe2 _out.txt that did not match its script, 'the source of E18') was skeptic-caught and repaired in this seat.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "b719_probe2_out.txt contains an 'EXTENDED TOWER (degrees 14-15, run separately)' section describing a run beyond the script's own MAX_DEG=13 cap; this addendum is disclosed inline as 'run separately' rather than produced by the committed probe2.py as-is, so a stranger re-running probe2.py verbatim will not reproduce the d14-15 lines without modifying MAX_DEG.", "where": "b719_probe2.py (MAX_DEG=13) vs b719_probe2_out.txt tail section"}
+   ],
+   "seat_note": "This is a genuinely computed, self-correcting arc: real snappy/sage/sympy computation with independent cross-checks, a disclosed API-degradation and clean re-run, and an honest QA correction (the d=6 gap claim was softened after a skeptic caught an over-strong 'homologically forced' assertion). No SM value is claimed; content is structural/arithmetic only, as firewalled."
+  },
+  {
+   "arc": "B720_coupling_path",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B720_coupling_path/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B720_coupling_path/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: \"Three discrete-to-continuous bridge programs (Connes-Marcolli renormalization, holography, positive geometry) are NO-MATCH to the object for independent reasons, reconfirming B706; the two arithmetic leads stay unbuilt.\"",
+   "log_says": "Multiple later log entries (2026-07-30 B828, B830) explicitly flag this exact arc as defective: 'B720 is LIVE: its directory contains NO scripts and its lock test_three_nomatch_are_principled_not_adhoc is a LABEL-LOCK -- assert len(set(reasons.values()))==3 over three string literals the test itself defines, which CANNOT FAIL; it verifies that three different strings were typed, and its one real computation (h(-3)=1) supports a LEAD, not the negative.' B830 log says 'five computed locks replace B720's label-lock.'",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {"what": "Renormalization (Connes-Marcolli cosmic Galois) is NO-MATCH because its motivic branch is Gaussian ℤ[i], object is Eisenstein ℚ(√−3)", "where": "FINDINGS.md table row 1", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "no script or witness file exists anywhere in the arc directory (only FINDINGS.md and arc_verdict.json present); the project's own later log entries (B828, B830) confirm this directory has never had scripts"},
+    {"what": "Holography (AdS/CFT) is NO-MATCH because 3d gravity has no local DOF", "where": "FINDINGS.md table row 2", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "same — no committed computation, citation of a standard fact only"},
+    {"what": "Positive geometry (amplituhedron) is NO-MATCH: character variety is finite-mutation-type not finite-type", "where": "FINDINGS.md table row 3, citing B712", "kind": "IMPORTED", "reproducible_from_committed": "unknown", "why": "imported from B712, not recomputed here; this arc contributes no independent script"}
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory, no scripts, no _out.txt witnesses of any kind in this 2-file arc. The project's own later self-audit (B828/B830, 2026-07-30) independently found and named this exact defect: the arc's only test was a label-lock that could not fail, and 'its one real computation (h(-3)=1) supports a LEAD, not the negative.'",
+   "absence_claims": [
+    {"quote": "B720 is LIVE: its directory contains NO scripts and its lock test_three_nomatch_are_principled_not_adhoc is a LABEL-LOCK -- assert len(set(reasons.values())) == 3 over three string literals the test itself defines, which CANNOT FAIL", "where": "PROGRESS_LOG.md, 2026-07-30 B828 entry (per log_index/B720.txt)"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The entire NO-MATCH verdict across three named research programs (renormalization, holography, positive geometry) rests on literature citations and prose argument with zero committed scripts, zero _out.txt files, and (per the project's own B828/B830 log entries) a label-lock test that could not fail by construction.", "where": "frontier/B720_coupling_path/ (only FINDINGS.md, arc_verdict.json present); PROGRESS_LOG.md B828/B830 entries"},
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "The arc's own test (referenced by the log, not present in this directory) asserted three distinct string labels were typed and could never fail — a tautological check masquerading as verification of the NO-MATCH claim.", "where": "PROGRESS_LOG.md B828 entry per log_index/B720.txt"},
+    {"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "arc_verdict.json still reads as an unqualified NEGATIVE ('NO-MATCH... for independent reasons') even though the project's own later audit found the supporting computation does not support a negative verdict at all, only a LEAD.", "where": "frontier/B720_coupling_path/arc_verdict.json"}
+   ],
+   "seat_note": "This arc is a pure literature/argument survey with no in-repo computation, and the project's own later self-audit (B828/B830) already caught and named this exact defect — an important corroboration that the seat's read-discipline concerns are well-founded, but the arc_verdict.json here was never corrected to reflect it. Physics content is zero: no observable, no derived SM quantity, and the underlying claim (three research programs don't match the object) is asserted from citations, not computed."
+  },
+  {
+   "arc": "B721_thermal_time",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B721_thermal_time/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B721_thermal_time/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B721_thermal_time/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B721_thermal_time/b721_probe1.py",
+    "/home/user/origin-axiom/frontier/B721_thermal_time/b721_probe1_out.txt",
+    "/home/user/origin-axiom/frontier/B721_thermal_time/b721_probe2.py (head + grep + relevant sections)",
+    "/home/user/origin-axiom/frontier/B721_thermal_time/b721_probe2_out.txt",
+    "/home/user/origin-axiom/frontier/B721_thermal_time/b721_probe3.py",
+    "/home/user/origin-axiom/frontier/B721_thermal_time/b721_probe3_out.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict NEGATIVE: \"The thermal-time lead fails identity: the object's own clock is tracial type II_1 with trivial modular flow, complementary to rather than inside the CMR KMS torsor.\"",
+   "log_says": "Log entries (B721, B944, B1171, and the 2026-08-30 lambda-placement entry) consistently describe this as a NEGATIVE/rung-mismatch result whose specific finding (tracial II_1, trivial modular flow) is later relied upon as a forcing fact ('Forced by B721 (NEGATIVE, verified here)').",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "figure-eight branched-cover homology = exact Fibonacci/Lucas sequence (5F_n^2 even n, L_n^2 odd n), field Q(sqrt5); invariant trace field = Q(sqrt-3) (disc -48->-3)", "where": "b721_probe1.py / b721_probe1_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct sympy/snappy computation, cross-checked against closed-form Fibonacci/Lucas identities, all rows marked [OK]"},
+    {"what": "Gal(K^ab/K) for K=Q(sqrt-3) is an infinite profinite abelian group (ray class groups unbounded: 1,1,2,4,6,8,9,20,...) vs our being-torsor Gal(K/Q)=Z/2 — complementary kernel/quotient in an exact sequence", "where": "b721_probe2.py / b721_probe2_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "pari bnrinit ray class group computation for a table of conductors, in-sandbox with sage/cypari2"},
+    {"what": "Anosov suspension flow (det sigma=1) gives a tracial type II_1 factor with TRIVIAL modular flow (sigma_t(a)-a ~ 4.59e-41); a genuine CMR/KMS thermal clock requires type III (nontrivial modular flow, demonstrated numerically with a Gibbs state)", "where": "b721_probe3.py / b721_probe3_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "finite-dimensional Tomita-Takesaki toy model computed explicitly for both the tracial and thermal cases, both cross-checked numerically"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "All three probes are independently computed scripts with committed outputs; probe1's discriminating fact was flagged and corrected by an internal skeptic pass mid-campaign (the QSM-graft error), and the corrected reading (INCONCLUSIVE on the QSM route, not outcome A) is what stands in FINDINGS.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A well-executed negative result: real operator-algebra and number-theoretic computation (ray class groups, finite-dim modular-flow toy models, closed-form Fibonacci/Lucas identities) supporting an honest downgrade of a promising lead, with disclosed self-correction of an over-read in probe 1. No SM value or observable is claimed; purely structural."
+  },
+  {
+   "arc": "B722_resurgence_coupling",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/b722_probe1.py",
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/b722_probe1_out.txt",
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/b722_probe2.py (head120 + tail of out file)",
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/b722_probe2_out.txt",
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/b722_probe3.py",
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/b722_probe3_out.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B722_resurgence_coupling/b722_probe2.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED: \"The Kashaev resurgence's two phases carry being and hearing, and its trans-series is arithmetically rigid over Q(sqrt(-3)) with no free continuous parameter.\"",
+   "log_says": "Log (B722, B726, B728 entries) is consistent: the two-phase being/hearing split and the arithmetic rigidity of the resurgence over Q(sqrt-3) are both treated downstream as established, e.g. B728: 'The Stokes-resummed trans-series of 4_1 has intrinsic arithmetic Q (sigma_0) + Q(sqrt-3) (sigma_1,sigma_2) with literal INTEGER Stokes constants... B722.'",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "Two Kashaev quasiclassical phases = A-poly/volume over Q(sqrt-3) [BEING] and inverse-Alexander over Q(sqrt5) [HEARING]", "where": "b722_probe1.py / b722_probe1_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct symbolic/numeric computation (mpmath, sympy) of the shape polynomial, Alexander polynomial roots, and A-polynomial factorization, verified against SnapPy's known volume"},
+    {"what": "hbar-series coefficients a_k lie exactly in Q(sqrt-3); Phi''(t*)=sqrt(-3); Borel singularity magnitude |zeta_1|/Vol ~ 0.998 (numerical, ~0.2% over 28 terms)", "where": "b722_probe2.py / b722_probe2_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact Riccati recursion for Phi^(n)(t*) in Z[sqrt-3] is proven in-sandbox; the Borel singularity magnitude is explicitly labeled 'COMPUTED numerically... NOT a closed-form in-sandbox proof', and the peacock-lattice/integer-Stokes claim is explicitly labeled 'CITED, not reproduced'"},
+    {"what": "S_2 = -(11/216)sqrt(-3) (Dimofte-Garoufalidis 2-loop invariant reproduced from the raw Kashaev sum); hbar is a discrete CS-level quantization, not a free continuous coupling", "where": "b722_probe3.py / b722_probe3_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "directly extracted from the raw Kashaev sum <4_1>_N via numeric extrapolation, cross-checked against the known literature value"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Each probe independently recomputes its claims from first principles (mpmath/sympy) rather than citing literature values outright; the arc itself explicitly separates PROVEN-in-sandbox vs COMPUTED-numerically vs CITED-not-reproduced claims within its own verdict block — an unusually careful epistemic labeling.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "One of the more rigorous arcs read this batch: exact symbolic derivation (Riccati recursion producing Phi^(n)(t*) in Z[sqrt-3]) combined with disclosed numerical-vs-proven-vs-cited epistemic labeling, and a caught-and-corrected sign bug. Physics content is structural/arithmetic (Chern-Simons quantization data over an imaginary quadratic field); no SM observable or value is derived, consistent with the firewall."
+  },
+  {
+   "arc": "B723_build_the_observer",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/b723_probe1.py",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/b723_probe1_out.txt",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/b723_probe2.py (head120+grep)",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/b723_probe2_out.txt",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/b723_probe3.py (head120+grep)",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/b723_probe3_out.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/b723_probe2.py",
+    "/home/user/origin-axiom/frontier/B723_build_the_observer/b723_probe3.py"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict PROVED (as stated in arc_verdict.json, UNCORRECTED): \"The type-III observer apparatus is built (tracial II₁ core plus an external weight gives R_λ), and measurement is identified as the β=1 KMS symmetry breaking.\" NOTE: FINDINGS.md itself carries a large top-of-file correction banner (added by B942/B957, dated 2026-08-07/08) RETRACTING the chirality-as-Galois-label clause and the values/torsor clause of this same arc — both identifications were found to assign the object's data to the wrong Galois group (the infinite Gal(K^ab/K) instead of the correct finite Gal(K/Q)=Z/2).",
+   "log_says": "Extensive and consistent: B942 (2026-08-07) 'THE BC/CMR FALSIFIER FIRED AT OUR OWN OBSERVER CONSTRUCTION, AND HIT... B723 now carries a correction banner with its original text retained unedited'; B957 (2026-08-08) amends the banner to cover BOTH clauses ('Both clauses land on a Z/2 over a quadratic field, neither lands on the infinite profinite group B723 assigned them to'); B948 notes LAW_MAP's B723 row was found STALE and was updated; B1004 later finds the retracted clause still live (uncorrected) in five other repo locations, all fixed.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {"what": "The object's own algebra (from the Anosov cat-map monodromy) is tracial hyperfinite II_1 (Delta=1, sigma_t=id to 5e-16)", "where": "b723_probe1.py / b723_probe1_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "direct finite-dim / measure-theoretic argument computed and verified numerically; not part of the retracted claims"},
+    {"what": "An external weight with module lambda completes the tracial core to a genuine type III_lambda factor (Delta-spectrum {1,lambda,1/lambda})", "where": "b723_probe2.py / b723_probe2_out.txt", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "finite-dim Powers/Araki-Woods toy model computed with explicit asserts (np.allclose checks on eigenvalues, modular-flow periodicity); this apparatus-exists claim is NOT among the retracted clauses"},
+    {"what": "RETRACTED: chirality = the extremal-KMS/Galois-embedding label living in Gal(K^ab/K); RETRACTED: values/torsor basepoint also identified with Gal(K^ab/K)", "where": "FINDINGS.md original probe-3 text, retracted by the correction banner citing B942 and B957", "kind": "ASSERTED", "reproducible_from_committed": "no", "why": "the project's own later falsifier (B942, computed two independent ways) found complex conjugation is not an element of Gal(K^ab/K); the correct group is the finite quotient Gal(K/Q)=Z/2, not the infinite kernel this arc assigned it to — a one-level-too-high group misidentification"}
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Probes 1-2 are genuinely computed finite-dim operator-algebra toy models with explicit numeric asserts; probe 3's chirality/values identification was later independently recomputed by B942 (two independent methods) and found wrong, triggering a formal retraction that IS reflected in this arc's FINDINGS.md banner but NOT in its arc_verdict.json claim_one_line.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "arc_verdict.json's claim_one_line ('the type-III observer apparatus is built... measurement is identified as the β=1 KMS symmetry breaking') is left unedited despite FINDINGS.md's own correction banner retracting the chirality and values/torsor group-identification clauses that underpinned the SSB/measurement reading being 'identified'; a reader consulting only arc_verdict.json (as this campaign's per-arc claim-of-record convention does) would not learn of the retraction.", "where": "frontier/B723_build_the_observer/arc_verdict.json vs FINDINGS.md correction banner (lines 1-16)"},
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The retracted error was itself a type/dimension-coincidence identification: the observer's chirality and values torsors were assigned to Gal(K^ab/K) apparently on the strength of 'this is a Galois group over K=Q(sqrt-3), our object's being field' without checking group membership; B942 computed that complex conjugation is literally not an element of that group.", "where": "FINDINGS.md original probe-3 text (retracted); PROGRESS_LOG.md B942 entry"}
+   ],
+   "seat_note": "A structurally important case study in the project's own audit machinery working as intended (B942/B957/B967/B1004 caught and swept a load-bearing group-membership error across multiple downstream documents) — but this arc's own verdict.json still reads as an unqualified positive to any consumer who doesn't also open FINDINGS.md. Physics content is structural (operator-algebra/Galois-theoretic); no SM observable is claimed, and the retracted claim was itself never an SM value, just an internal identification."
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+"batch": "arcs_122",
+"arcs": [
+{
+"arc": "B8068_j2t_charge_field",
+"source": "paper/structure-genesis-first",
+"files_read": [
+"CELL3_FINDINGS.md","CELL4_FINDINGS.md","CELL_AXIS0_FINDINGS.md","CELL_AXIS3_FINDINGS.md","CELL_ITEM1_FINDINGS.md","CELL_SUBALGEBRA_FINDINGS.md","FINDINGS.md","PREREGISTRATION.md","PREREG_A_TAU_A.md","PREREG_ITEMS_1_TO_4.md","PREREG_ITEM_NILPOTENT.md","PREREG_ITEM_SUBALGEBRA.md","SESSION_STATE.md","THE_RULE.md","arc_verdict.json","cell9_axis0_prereg.md","j2t_cubic.py (grepped/spot-read)","cell2_stabilizer.py, cell3_su5.py (grepped for open()/.log)"
+],
+"files_sampled": [],
+"files_listed_only": [
+"build_j2t.py","cell10_unbiased.py","cell11_compose.py","cell12_sm.py","cell13_forward.py","cell14_lattice.py","cell15_hypercharge.py","cell16_reality.py","cell17_subsets.py","cell18_realforms.py","cell19_control.py","cell20_outer.py","cell29_subalgebra.py","cell30_findB.py","cell4_spinor.py","cell5_spinor_test.py","cell6_pure.py","cell7_field.py","cell8_density.py","e8_build.py"
+],
+"claim_of_record": "verdict: PROVED. claim_one_line (abridged): Cell 1 -- J^{2T} (fixed Jordan subalgebra of principal 2T in F4=Aut(J)) IS the charge field K = Q[x]/(x^3-12x-5), disc 6237=3^4*7*11, totally real, Galois S3, verified three independent ways; totally real so splits into 3 idempotents over R, Galois-conjugate, invisible to Galois-invariant quantities. Cell 2 (idempotent pair -> su(5)) is WITHDRAWN same day, four errors named.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "J^{2T} = Q[x]/(x^3-12x-5), disc 6237, verified 3 ways (root test, disc factorization, reduced model)", "where": "FINDINGS.md THE THREE VERIFICATIONS; j2t_cubic.py, build_j2t.py, e8_build.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "sympy/Fraction exact computation with printed PASS/FAIL gates and a FAIL list in j2t_cubic.py; scripts committed and runnable (python3 build_j2t.py; python3 j2t_cubic.py)"},
+{"what": "Cell 3: object reaches so(10) with chirality via 27+27bar rank-1 invariants, exhaustive 63-subset sweep, su(5) never appears", "where": "CELL3_FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described as mod-p rank computation confirmed at 3 primes; the specific script for this cell is not separately named/committed under an obvious filename in the packet (likely folded into cell17_subsets.py/cell18_realforms.py, not independently verified by this reader)"},
+{"what": "Cell 4: 16-component of every canonical invariant is identically zero (Casimir eigenspace {1,10,16})", "where": "CELL4_FINDINGS.md", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "gate table given but underlying script not directly located/read line-by-line by this reader"},
+{"what": "Axis 0: pure spinors exist iff mu=x^3-12x-5 splits completely (30/30 forward, 0 misses reverse, 56 primes)", "where": "CELL_AXIS0_FINDINGS.md; cell10_unbiased.py, cell13_forward.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "run commands given (python3 cell10_unbiased.py 200 700; python3 cell13_forward.py); numeric density sweep over primes, not read line-by-line here"},
+{"what": "Axis 3: so(10) real in all 63 inner real forms x 2 spinors = 126/126; su(5) real in none", "where": "CELL_AXIS3_FINDINGS.md; cell16_reality.py, cell18_realforms.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "run commands given; not independently re-executed by this reader"},
+{"what": "Item 1: su(5) not real in any of 254 real forms (inner+outer)", "where": "CELL_ITEM1_FINDINGS.md, box at top marked ARGUMENT RE-SCOPED", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "the file itself flags that this cell measured Stab(s) not the object's actual su(5) composite, and that its tau was not verified to intertwine -- conclusion later restated by B8073 (not in this packet) with a corrected construction"},
+{"what": "Subalgebra class (Baez-Schwahn Stab(X)/Stab(B)): su(3)+su(3) type established via commutant-dimension argument (T2 passed); T1 (does it preserve a 9-dim B) FAILED and is flagged as testing the wrong class (centralizer, not stabilizer of Jordan subalgebra)", "where": "CELL_SUBALGEBRA_FINDINGS.md; cell29_subalgebra.py, cell30_findB.py", "kind": "COMPUTED", "reproducible_from_committed": "yes (T2); T1 explicitly named as answering the wrong question"}
+],
+"belt": "RE-READS",
+"belt_note": "No dedicated verification/ subdirectory; the arc is self-checking via repeated internal controls (su(5) detector validated on generic 27x27bar before trusting absence; gate tables with PASS/FAIL printed in scripts) rather than a separate belt harness.",
+"absence_claims": [
+{"quote": "there are no primitive idempotents over ℚ, and the object supplies no rational rank-1 VEV", "where": "FINDINGS.md, WHAT IT DECIDES"},
+{"quote": "Novelty is NOT claimed. No literature search has been run on \"the fixed Jordan subalgebra of a principal 2T in F4\".", "where": "FINDINGS.md, LIMITS"},
+{"quote": "The cubic form is computed; the multiplication table is not.", "where": "FINDINGS.md, LIMITS"},
+{"quote": "su(5) — Killing rank 24 — never appears, in any subset.", "where": "CELL3_FINDINGS.md, THE RESULT"},
+{"quote": "SO(10) → SU(5) is not reachable from the object's own invariant idempotents.", "where": "CELL3_FINDINGS.md, WHAT IS NEGATIVE"},
+{"quote": "the object supplies nothing in the 16 at all. Not an impure spinor, not a small component: zero.", "where": "CELL4_FINDINGS.md, THE STATEMENT"},
+{"quote": "What is NOT shown: that no construction whatever reaches the 16. Only that the object's canonical rank-1 invariants have no component there.", "where": "CELL4_FINDINGS.md, LIMITS"},
+{"quote": "su(5) is real in NO real form of E6 reachable this way — 254 of 254.", "where": "CELL_ITEM1_FINDINGS.md, THE RESULT"},
+{"quote": "Outside it: stabilisers of Jordan subalgebras, which is the class the theorem is about and which remains unsearched.", "where": "CELL_SUBALGEBRA_FINDINGS.md, THE CLASS ERROR"},
+{"quote": "No 9. ... our su(3)⊕su(3) is isomorphic to Stab(B)0 but not conjugate to it in F4", "where": "CELL_SUBALGEBRA_FINDINGS.md, T1 -- FAILED"},
+{"quote": "Not done. Until it is, this is strong evidence (56 primes, perfect agreement) and not proof.", "where": "CELL_AXIS0_FINDINGS.md, STILL OWED"},
+{"quote": "The outer half is untested here.", "where": "CELL_AXIS3_FINDINGS.md, THE CLASS THIS NEGATIVE COVERS"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "RETRACTION_NOT_PROPAGATED", "detail": "Cell 2 was withdrawn same-day for four named errors, but arc_verdict.json's claim_one_line does not surface Cells 3, 4, Axis 0, Axis 3, Item 1, or the subalgebra cell at all -- the verdict record captures only Cell 1 (PROVED) and Cell 2 (WITHDRAWN), leaving a large body of committed positive/negative findings (so(10) reached with chirality, su(5) unreachable in 254 real forms, subalgebra class error) entirely outside the arc's claim-of-record.", "where": "arc_verdict.json vs. CELL3/4/AXIS0/AXIS3/ITEM1/SUBALGEBRA FINDINGS files"},
+{"kind": "SUPERSEDED_UNMARKED", "detail": "CELL_ITEM1_FINDINGS.md's own body text (below its added warning box) still narrates the original 254/254 su(5)-not-real claim as the finding, with the corrective note only in a header box saying the conclusion (but not the argument) survives per B8073 -- B8073 itself is outside this packet and not independently verified by this reader.", "where": "CELL_ITEM1_FINDINGS.md, ARGUMENT RE-SCOPED box vs. body"},
+{"kind": "OTHER", "detail": "Repeated 'class error' pattern named explicitly by the arc's own author nine times across the session (THE_RULE.md, SESSION_STATE.md) -- testing a proxy/adjacent class and reading it as the answer for the actual question; this is an internally-flagged methodological risk, not fully resolved even by the arc's own account.", "where": "THE_RULE.md; SESSION_STATE.md"},
+{"kind": "MISSING_WITNESS", "detail": "No committed .json/.txt witness outputs for most of the numeric claims (e.g. Cell 3's 63-subset sweep, Axis 0's 56-prime sweep, Axis 3's 126-case sweep) -- results are asserted in FINDINGS.md as script stdout, not preserved as data files in the arc directory (unlike B8071 which does commit results.json).", "where": "arc directory listing; contrast with B8071_reality_gate/results.json"}
+],
+"seat_note": "This is one of the more rigorous and self-critical arcs in the corpus: cell-1's cubic field identity is exactly reproducible sympy arithmetic, and the arc names its own errors (cell 2 withdrawal, class-error pattern, item-1 rescoping) in unusual detail. But the verdict file badly undersells the arc's actual content, and the positive claim (so(10) reached with real chirality) is entirely group-theoretic with no observable named -- it is a structural result about which subalgebras of e6/e8 are real/reachable, not a prediction of any measured quantity."
+},
+{
+"arc": "B8069_conformal_selection",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","PREREG_conformal_selection.md","arc_verdict.json","conformal_selection.py (grepped for def/assert/print)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict: PROVED. claim_one_line (abridged): affine isotropy cuts B527's 6-dim Stein cone to a single ray (rank 5 of 5 computed); it is the S_aff ray, PD, Stein-driver inside the cone, Lorentzian completion signature (3,1) on the selected ray for tested alpha. Dimension-count alone is RETRACTED as evidence in-script (200/200 perturbations give dim 1, i.e. generic to any 4 points in 3-space); the actual non-generic fact is that the letters' isotropy ray also lands in the Stein cone: 6/238=2.5% under a random-operator comparison class (p~0.025, explicitly called not significant alone). Composes with B167 to say the object determines the metric up to one positive scale t, and t is exactly what B167 says cannot come from inside.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "dim of isotropy locus in Sym(E_s) = 1 (rank 5 of 5, computed via SVD)", "where": "FINDINGS.md THE RESULT; conformal_selection.py lines ~90-103 (rank_iso, singular values printed)", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "numpy computation, rank read from singular values not assumed, script runnable directly"},
+{"what": "isotropy ray is generic to any 4 points (200/200 perturbations give dim 1) -- retracted as evidence of specificity to this object", "where": "FINDINGS.md; conformal_selection.py C3a", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "printed control result, explicitly self-retracted in the same script/finding"},
+{"what": "PD-and-Stein-compatible in 6/238=2.5% of random contracting 4x4 nonnegative-integer operators, vs 238/238 PD alone", "where": "FINDINGS.md; conformal_selection.py C3b", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "explicit random sweep with printed counts; author explicitly flags comparison class as crude and result as not significant alone (p~0.025)"},
+{"what": "Lorentzian completion has signature (3,1) at tested alpha in {0.5,1.0,2.0} on the selected ray", "where": "FINDINGS.md; conformal_selection.py signature loop", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "only 3 alpha values tested, not a proof for all alpha, but computed not asserted"}
+],
+"belt": "NONE",
+"belt_note": "No separate verification/ directory; controls (C1-C4) run inline in the single script before the headline result, which is a form of self-belting but not an independent belt harness.",
+"absence_claims": [
+{"quote": "the isotropy locus is a ray\" is GENERIC to any four points in 3-space and is NOT a fact about this object (the B416 failure mode); the dimension count is retracted as evidence", "where": "arc_verdict.json claim_one_line; FINDINGS.md"},
+{"quote": "Not connected to the e6/so(10) arc (B8068). Whether the conformal structure here and the gauge algebra there live on the same object is unsearched — named as open, not as absent.", "where": "FINDINGS.md, Scope — what this is NOT"},
+{"quote": "This is a statement about M_* on E_s -- a four-letter transfer operator and its stable space -- NOT a claim about spacetime; 'Lorentzian' means signature (3,1) and nothing more.", "where": "arc_verdict.json claim_one_line"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "FITTED_VALUE", "detail": "the 2.5% (6/238) non-genericity statistic is explicitly self-scoped by the author as p~0.025, not significant on its own, and dependent on an admittedly crude comparison class (small-integer 4x4 matrices) -- a reader could over-read this as evidence of design.", "where": "FINDINGS.md 'What is actually non-generic'; PREREG_conformal_selection.md"},
+{"kind": "NO_TEST", "detail": "no separate pytest/verification harness; correctness relies on inline print-based controls in a single script.", "where": "conformal_selection.py"}
+],
+"seat_note": "Honest and well-controlled arithmetic (an in-script retraction of its own headline overclaim is a strong positive sign), but the physics content is purely a statement about the spectral/stable-space geometry of a combinatorial transfer operator -- 'Lorentzian' explicitly means signature (3,1) only, with no metric value, no observable, and an explicitly unproven link to any gauge-sector arc (B8068).",
+"log_index": null
+},
+{
+"arc": "B8070_anomaly_rank_descent",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","PREREG_anomaly_rank_descent.md","arc_verdict.json","anomaly_rank_descent.py (grepped for headline computation)"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict: RETRACTED. claim_one_line: the arc's own headline (anomaly cancellation carries su(3)+su(2)+u(1)^3 rank 6 to su(3)+su(2)+u(1)_Y rank 4, escaping GUT_REQUIREMENTS_LEDGER section D) is withdrawn in full. Four defects verified on this bench: (1) the rank descent was a literal printed f-string {2+1+3}->{2+1+1}, never computed; (2) the only actually-computed quantity (Killing rank 11) does not move; (3) the claimed u(1)^3 generators do not commute with su(3)+su(2) (commutator norms 2.83/12.73/86.27), real span 13 not 14; (4) controls tested adjacent/unrelated quantities. B971 (elsewhere) had already closed this negative on the object's actual 27. Surviving contribution: a scope note narrowing B864's hypercharge-uniqueness claim to the chosen 3-plane span(Y,chi,psi); over the full 5-dim charge space the anomaly cubic factors into THREE lines (hypercharge, Minahan-Ramond-Warner swap, vector-like), not one.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "headline 'Lie rank 6 -> 4' was never computed -- literal f-string arithmetic on hardcoded constants {2+1+3} and {2+1+1}", "where": "anomaly_rank_descent.py lines 197, 202, 204", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "directly confirmed by grep: the source line literally contains f\"... {2+1+3} -> {2+1+1} ...\", i.e. printed constants, not a computed Lie rank"},
+{"what": "apparent (14,11)->(12,11) descent is len(basis), a readout of the function's own input argument n_u1", "where": "anomaly_rank_descent.py lines 53, 71, 113", "kind": "ASSERTED", "reproducible_from_committed": "yes", "why": "confirmed: len(basis) at line 53/113 depends on the caller-supplied n_u1, not an independent computation"},
+{"what": "the u(1)^3 generators do not commute with su(3)+su(2) (commutator norms 2.83, 12.73, 86.27); real span is 13 not 14", "where": "FINDINGS.md 'Why it is false', point 3", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "described in FINDINGS but this reader did not locate/verify the exact lines computing these norms in the 221-line script"},
+{"what": "over full 5-dim charge space the anomaly cubic factors as -2*yL*(2yL+3yd)*(4yL-3yd)/3 (three anomaly-free lines, not one)", "where": "FINDINGS.md 'The one thing this cell contributes', point 2", "kind": "COMPUTED", "reproducible_from_committed": "unknown", "why": "stated as 'verified with sympy on this bench' but the specific sympy invocation was not located/read in the 221-line script by this reader"}
+],
+"belt": "RE-READS",
+"belt_note": "The arc is itself a self-audit/retraction of a prior claim, cross-checked against an independent prior closure (B971, outside this packet) and an independent prior identification (B992, outside this packet) rather than a dedicated belt harness.",
+"absence_claims": [
+{"quote": "No Lie rank was calculated anywhere in the script.", "where": "FINDINGS.md, Why it is false, point 1"},
+{"quote": "It was never su(3)⊕su(2)⊕u(1)³.", "where": "FINDINGS.md, Why it is false, point 3"},
+{"quote": "the detector was measuring nothing", "where": "FINDINGS.md, Why it is false, point 4 (quoting the seal's own words)"},
+{"quote": "The object has no operation that could perform it: \"The object's operations are centralizers, holonomies and gradings. ... Nothing in the kit deletes from it.\"", "where": "FINDINGS.md, The deeper reason"},
+{"quote": "B864's 'hypercharge is the unique gaugeable U(1)' is uniqueness INSIDE the chosen 3-plane span(Y, chi, psi) ... B864 is correct as scoped and must not be quoted as 'anomaly cancellation selects hypercharge.'", "where": "arc_verdict.json claim_one_line"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+{"kind": "CLAIM_EXCEEDS_COMPUTATION", "detail": "the retracted headline itself is a textbook example: a printed f-string of hardcoded arithmetic was presented as a computed Lie-rank descent result. This is flagged and fixed within the same arc, but demonstrates the pattern the seat should watch for elsewhere.", "where": "anomaly_rank_descent.py lines 197-204"},
+{"kind": "OTHER", "detail": "arc explicitly names this as 'the ninth-instance pattern again -- the class error survives even when the class error is the stated subject', i.e. the author's own ledger of repeated methodological failures across this session/corpus.", "where": "FINDINGS.md, The error class, for the ledger"}
+],
+"seat_note": "This is a model self-retraction: the arc's headline turns out to be an f-string of constants rather than a computation, caught and fully documented rather than buried, with the retained scope note on B864 correctly narrowed. No physics content survives as a positive claim from this arc; its value is entirely as a corrected error record.",
+"log_index": null
+},
+{
+"arc": "B8071_reality_gate",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","PREREG_reality_gate.md","arc_verdict.json","reality_gate.py (grepped)","orbit_meets.py (grepped)","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "verdict: PROVED. claim_one_line (abridged): the compact rank-4 algebra su(3)+su(3) (dim 16) is real in e6(2) (the object's sealed real form) at 3 of 64 inner sign characters, computed exactly over Q via dim(maximal compact). The A2 nilpotent orbit's centraliser su(3)+su(3) is compact only in e6(2) (never e6(-14)); the 2A1 orbit's centraliser so(7)+u(1) is compact only in e6(-14) (never e6(2)). By Kostant-Sekiguchi (addendum, orbit_meets.py, same day), A2 has real points in e6(2) at all 36/36 characters, discharging the earlier conditional, so the headline is unconditional. Scope: this shows availability of the real form, NOT that the object occupies orbit A2 -- the nilpotent panel elsewhere places the object on 2A1, not A2, and that placement is itself owed; the compact-e6 row returning False/False for both orbits is the method validating itself (no nilpotents in a compact algebra).",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+{"what": "64-character inner-involution census gives dim k in {78,46,38} only, counts 78x1/46x27/38x36 -- reproducing B907's sealed sweep independently", "where": "FINDINGS.md Controls C1; reality_gate.py; results.json 'census'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "exact integer computation over Q (dim of maximal compact), committed script and committed results.json witness matching the FINDINGS numbers exactly"},
+{"what": "A2 orbit centraliser su(3)+su(3) (dim 16) is compact at exactly 3 of 64 characters, all in e6(2), never e6(-14); 2A1 centraliser so(7)+u(1) (dim 22) compact at exactly 3 characters, all in e6(-14), never e6(2)", "where": "FINDINGS.md THE RESULT tables; results.json 'orbits'", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "results.json committed witness (compact_in_e6_2: 3/0, compact_in_e6_m14: 0/3) matches the FINDINGS.md tables exactly; centraliser orbit identified by Bala-Carter centraliser dimension not by name (C3)"},
+{"what": "A2 orbit has real points in e6(2) at all 36/36 characters (Kostant-Sekiguchi addendum), and compact-e6 row returns False/False for both orbits (self-validating: compact real form has no nonzero nilpotent)", "where": "FINDINGS.md ADDENDUM; orbit_meets.py", "kind": "COMPUTED", "reproducible_from_committed": "yes", "why": "the compact-row self-check (must be False/False, is False/False) is an unusually strong internal validity check, verified in the addendum table"}
+],
+"belt": "RE-READS",
+"belt_note": "The arc validates itself via a self-checking compact-form row (must return False/False, does) and cross-reproduces B907's sealed inner sweep independently, functioning as an informal belt though there is no separate verification/ directory.",
+"absence_claims": [
+{"quote": "This cell computes which real forms are AVAILABLE to the centralizers, and does NOT verify that the object OCCUPIES any of them", "where": "arc_verdict.json claim_one_line"},
+{"quote": "It does not establish that the object reaches A2 -- the nilpotent panel places it on 2A1, and that placement is itself owed.", "where": "arc_verdict.json claim_one_line"},
+{"quote": "The object's own B is known only mod p, so reading dim(B ∩ k) against su(5)/su(4,1)/su(3,2)/sl(5,R) = 24/16/12/10 requires a characteristic-zero rebuild and is NOT claimed.", "where": "arc_verdict.json claim_one_line; FINDINGS.md 'Also not established'"},
+{"quote": "Whether the A2 orbit has real points in e6(2) specifically is therefore the next computation, not something established here.", "where": "FINDINGS.md, The scope limit (pre-addendum text, later discharged by the addendum)"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+{"kind": "IDENTIFICATION_BY_TYPE", "detail": "'compact su(3)+su(3), dim 16, is exactly Baez-Schwahn's Stab(B)_0' and 'B8068's cell30 already found (16,16) inside f4 at 9 of 9555 charge directions' are flagged by the author as 'three routes now point at the same 16-dimensional object' -- a dimension/type match across three separate computations that the arc itself does not claim is an identity, but which a reader should treat as a coincidence-of-type flag pending an explicit isomorphism/conjugacy check (the B8068 subalgebra cell shows exactly this kind of match can be isomorphic-but-not-conjugate).", "where": "FINDINGS.md 'Independently worth recording'"}
+],
+"seat_note": "The strongest-evidenced arc of the four: exact integer computation, a committed results.json witness matching FINDINGS.md numbers exactly, and a genuinely self-validating control (compact ambient algebra forced to return no real nilpotents, and does). The positive claim remains purely group-theoretic availability, explicitly not occupancy, with the object's actual orbit placement (2A1 vs A2) still open and named as the load-bearing gap.",
+"log_index": null
+}
+]
+}
