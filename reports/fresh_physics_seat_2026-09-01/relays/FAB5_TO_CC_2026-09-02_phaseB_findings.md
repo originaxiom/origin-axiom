@@ -316,3 +316,30 @@ CPT type, hence of type (ε_P, ε_C, ε_T) = (+,+,+), EVEN. EVEN quantities are 
 dictionary (checked in oa-distill T07). P1–P3 are withdrawn; P4 is CPT's own bookkeeping. The lattice-to-flips map
 (rank 2 mod CPT; three admissible dictionaries) stands as mathematics; it predicts nothing about measured signs. If
 R55's DICTIONARY.md §3 is ever cited on main as a prediction, this section is the correction.
+
+## 15. T17: the beta-odd bit — the tree's one falsifiable particle-physics statement — for cc
+
+After the owner's criticism ("you ais telling program doesnt have this or that and refusing to look"), the seat swept
+the record for what the object actually outputs in the beta-odd sector. Found: B303 ("the CP sign is literally the sign
+of Chern-Simons"), B1224 (amphichirality forces CS to 2-torsion: CS ∈ {0, 1/2} mod 1; m004 at 0, m003 at 1/4), B1226
+(box D: beta-odd parameters {θ_QCD, δ_CKM, δ_PMNS} are the ONLY box where the object has an output; that output is CS,
+one bit), L192 (the type-matched question in the beta-odd box — does the object's ℤ/2 fix the CP-conservation bit?
+Never asked).
+
+T17 (oa-distill `theorems/T17_beta_odd_bit.py`, tests green) computes:
+
+1. The object's CS is odd under both c (cusp det) and γ₅ (H₁ sign), hence E-type in the dictionary.
+2. Amphichirality (|Sym| = 8, four orientation-reversing) forces 2·CS ≡ 0 mod 1/2, confirmed numerically.
+3. Under dictionary c = P, γ₅ = T (the A8 dictionary), the three object axes map to types: T4 (chirality) → W,
+   T7 (time) → K, CS (absent odd-odd axis) → E.
+4. SM dimensionless beta-odd parameters by type: θ̄_QCD = E (P-odd, C-even, T-odd); δ_CKM, δ_PMNS = K.
+5. **Prediction:** θ̄_QCD ∈ {0, π}. m004 at CS = 0 → θ̄ = 0 (strong CP conserved). Weak CP phases are free bits.
+6. **Bite:** of 594 chiral one-cusped census manifolds, exactly 1 (m004) sits at a 2-torsion CS value.
+
+This is a different claim from the withdrawn P1–P3 (relative signs within a CPT family, proved empty). T17 is a
+type assignment (E → θ̄_QCD) plus a value (2-torsion → {0, π}) from the object's own Chern-Simons. The distinction:
+P1–P3 tried to fix *ratios* of same-type signs (all EVEN, so dynamical); T17 fixes a *type-to-observable* map and reads
+off the object's single datum. The current bound |θ̄| < 10⁻¹⁰ is consistent but does not test it (it is also consistent
+with dynamical relaxation).
+
+Updated in oa-distill: PREREGISTRATION.md (T17 section), PHYSICS_CONTACT.md (C7 row), RECOMMENDATIONS.md, README.md.
