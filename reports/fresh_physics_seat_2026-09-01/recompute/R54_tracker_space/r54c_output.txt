@@ -1,0 +1,7 @@
+2-letter rule: reversal = conjugation by w = 'A'
+4-letter rule images: {'a': 'abAAB', 'b': 'aAB', 'A': 'abAB', 'B': 'aA'}  reversed: {'a': 'BAAba', 'b': 'BAa', 'A': 'BAba', 'B': 'Aa'}
+4-letter rule respects A = a^-1, B = b^-1 as an F2-automorphism?: False False
+  (so it is a 4-letter SUBSTITUTION on the alphabet {a,b,A,B}, not the Fibonacci automorphism of F2 written with inverses)
+4-letter rule: reversal = inner conjugation by a word of length <= 6? None
+4-letter abelianization equal for rule and reversal: True  charpoly: lambda**4 - 2*lambda**3 - 5*lambda**2 - 4*lambda - 1  det: -1
+Fibonacci automorphism on 4 letters: reversal inner by 'A'

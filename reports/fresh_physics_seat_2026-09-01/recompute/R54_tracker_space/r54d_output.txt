@@ -1,0 +1,12 @@
+2-letter a->ab,b->a: word length 46368
+  L=2: factors 3, reversal-closed: True, factors whose reversal is absent: 0
+  L=3: factors 4, reversal-closed: True, factors whose reversal is absent: 0
+  L=6: factors 7, reversal-closed: True, factors whose reversal is absent: 0
+  L=10: factors 11, reversal-closed: True, factors whose reversal is absent: 0
+  forbidden bigrams: ['bb']
+4-letter B532 rule: word length 163106
+  L=2: factors 7, reversal-closed: False, factors whose reversal is absent: 4
+  L=3: factors 10, reversal-closed: False, factors whose reversal is absent: 9
+  L=6: factors 20, reversal-closed: False, factors whose reversal is absent: 20
+  L=10: factors 34, reversal-closed: False, factors whose reversal is absent: 34
+  forbidden bigrams: ['Ab', 'BA', 'BB', 'Bb', 'aB', 'aa', 'bB', 'ba', 'bb']
