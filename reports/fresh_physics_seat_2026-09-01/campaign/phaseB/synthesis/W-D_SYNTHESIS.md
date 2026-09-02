@@ -247,7 +247,7 @@ What the sweep found, in the owner's terms ("before you conclude we don't have s
   into §2, §4 and the relay note; the rest stand as reader claims in `red_flags.tsv`, kind-labelled, unverified.
 - **The absence sweep is a co-occurrence instrument.** It finds text, not mathematics: a LEAD is "these words
   co-occur elsewhere", and a NO_HIT is "no file outside the catch-alls carries these words", which is weaker than
-  "the object does not exist in the repository". 69 + 4 GENERIC rows and 21 UNSWEEPABLE rows were not tested by
+  "the object does not exist in the repository". 187 GENERIC-status claims (+29 GENERIC verdicts) and 57 UNSWEEPABLE claims were not tested by
   it at all; the seat read those directly, which is a weaker check than a sweep.
 - **Off-main heads were swept but not read.** Hits on `origin/claude/new-session-qor5up`, `audit/b775-braver-questions`
   and the others are recorded as OPEN_LATER; their content was not digested by the readers (the packets were built
