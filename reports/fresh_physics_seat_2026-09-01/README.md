@@ -69,3 +69,5 @@ See `campaign/phaseC/SYNTHESIS.md` (judgments), `campaign/phaseC/results/` and `
   `TRACKER_LEDGER.md`), `recompute/R54_tracker_space/` (the mathematics: σ is the mirror of its own object; D4 characters).
 - `recompute/R55_locking_dictionary/` — the dictionary from the object's closing bits to reality's measured signs, with
   predictions and falsifiers (built at the owner's request).
+- `MISSTEP_2026-09-02.md` — where the chain leaves the object (step 3) and the rule that prevents the recurrence;
+  `recompute/R56_object_beyond_field/` — the full object-level check across the ℚ(√−3) family and the DGG fork.

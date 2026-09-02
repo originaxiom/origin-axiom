@@ -241,3 +241,14 @@ protocol are stated with their falsifiers; the chord sign (T6) has no physical r
 slot. For cc: if adopted, record the dictionary as a declared input (E1), and write the predicted sign of the leptonic
 CP phase and of the EDM sign-pattern BEFORE those measurements arrive. The θ column and T3 identification in B766 remain
 NOT re-derived by the seat.
+
+## 11. Misstep note and the full object-level check (R56)
+
+Owner election words carried verbatim: "the duty of this seat is not to be called on old banked data but to scrutinize
+whatever exist prior … dont call on old data anymore" / "run a full check all you can".
+`MISSTEP_2026-09-02.md`: the chain leaves the object at the shape field (step 3); steps 4–7 are functions of ℚ(√−3)
+and of 2T = SL(2,𝔽₃); seat rule 3 proposed (compute an instrument's image before reading its output as the object's).
+`recompute/R56_object_beyond_field/`: the 14 field-mates' object-level invariants (H1, cusp shape and subgroup growth
+single out m004; 8 of 14 chiral), m004 vs m003 closings (every filling differs), the two gluing matrices and the two
+deformation curves (verified), the DGG theories at the fork. For cc: the object-level restart, if elected, begins at
+T[M]; nothing after step 3 should be written in the object's name.

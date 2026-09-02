@@ -571,3 +571,8 @@ Numbering note: cells are R01–R52; `R26_b1080_b1011` and `R30_m004_symmetry_gr
   the object's closing lattice (B766, re-derived c/γ5 columns) admits three dictionaries, one testable now (c = P,
   γ5 = T): handedness signs one bit, CP/T signs one bit, EDM signs their product. Falsifiers: a leptonic CP phase sign,
   two measured EDMs. `recompute/R55_locking_dictionary/DICTIONARY.md`.
+
+- **R56 (object beyond field).** Across the 14 ℚ(√−3) manifolds: covers-by-degree separates all 14; H1 and cusp shape
+  single out m004; 8 of 14 chiral. m004 vs m003 (1,q) closings differ in volume, CS sign, homology. Gluing matrices
+  and deformation curves computed and verified for both; the DGG theories at the fork differ. Nothing after the shape
+  field in the chain used any of this. `recompute/R56_object_beyond_field/FINDINGS.md`; `MISSTEP_2026-09-02.md`.
