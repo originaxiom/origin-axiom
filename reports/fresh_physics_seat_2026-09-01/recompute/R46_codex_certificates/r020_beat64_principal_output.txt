@@ -1,0 +1,26 @@
+=== certificates/r020_beat64/r020_beat64_principal.py
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+R020 beat64 principal exact certificate
+field: q^2=q-1; gal(a+bq)=a+b-bq
+theta: rational linear slot involution; Sigma: exp(ad(qE_principal)) o gal
+source frame: B1140 component order; compact hit swapper#13/lift#0
+theta exact checks: full Chevalley automorphism; global signature= (26, 52, 0)  color signature= (0, 8, 0)
+principal generator: sum of six simple-root vectors: PASS
+wrong single-root generator differs from principal generator: PASS
+basis ranks: V64= 64  fork= 14  total= 78
+Sigma(V64) subset V64: False
+Sigma(P0) subset V64: False
+Sigma(P1) subset V64: False
+Sigma(C54) subset V64: False
+Sigma(C54) subset C54: False
+canonical leakage source root: (-1, -1, -2, -2, -2, -1)
+canonical first nonzero fork coordinate (index, a+bq): (0, (Fraction(0, 1), Fraction(-277, 241920)))
+Sigma^2(V64) subset V64: False
+Sigma^2=exp(ad E_principal) on all 78 Chevalley basis vectors: True
+R020 VERDICT: REFUTED — no restricted Sigma or restricted tick endomorphism of V64.
+
+real	0m42.814s
+user	0m42.645s
+sys	0m0.160s
+exit=0

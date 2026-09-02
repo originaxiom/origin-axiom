@@ -1,0 +1,17 @@
+=== certificates/r026_yukawa_determinant_frame/determinant_frame.py
+exact_euler_characters=(0, 2, 3, 4, 6, 8, 9, 10)
+selected_ordered_W_characters=(0, 2, 6, 8, 9, 10); exact_rank=6
+normalization=earliest Euler anchor, then earliest nonzero ordered-ray coefficient = 1
+exact_Euler_minor_rows=(0, 1, 2, 3, 6, 7); determinant=-72*zeta^2
+det_characters_mod12=B:6,W:11,G:7,V_twisted:0
+formal_identity=(sb-sa)^(sc-sb)^k1^(sd-sc)^k2^sa = sa^sb^sc^sd^k1^k2; sign=+1
+good_prime_local_indices=(0, 1, 2, 3); nonzero_control_det=964; denominator=181
+sparse_formula=c*det(E_W,e_a,e_b,e_c,e_d,k1,k2)/(Phi_a Phi_b Phi_c Phi_d)
+quotient_lift_invariance=PASS
+scope=determinant frame and local contraction only; H3 trace, Serre tails, Yukawa entries and physical normalization remain open
+R026 YUKAWA DETERMINANT FRAME: PASS
+
+real	0m0.989s
+user	0m0.973s
+sys	0m0.016s
+exit=0

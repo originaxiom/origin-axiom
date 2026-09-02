@@ -1,0 +1,46 @@
+=== certificates/r006_e6_invariants/paper/verify/check_charge_bracket.py
+======================================================================
+Appendix B -- the one bracket the structure theory rests on
+======================================================================
+
+1. the E6 root system, built by reflection closure
+  [PASS] 72 roots
+  [PASS] dim e6 = 6 + 72
+
+2. the Chevalley basis: antisymmetry and Jacobi, verified not assumed
+  [PASS] antisymmetry on all 78x78 pairs
+  [PASS] Jacobi on all 76076 unordered triples
+
+3. the principal sl2
+  [PASS] [h, e_i] = 2 e_i for every simple root
+  [PASS] [e, f] = h exactly
+
+4. the ad(h) decomposition is the exponent decomposition
+  [PASS] the top ad(h)-weight is 22 = 2 x 11
+  [PASS] weight 0 has multiplicity 6 (the Cartan)
+  [PASS] the weight multiset is symmetric
+
+5. the 2T-invariant polynomials, verified invariant
+  [PASS] |2T| = 24
+  [PASS] t, degree 6 is 2T-invariant on all 24 elements
+  [PASS] W, degree 8 is 2T-invariant on all 24 elements
+  [PASS] charge degrees are 8, 14, 16, 22
+
+6. the equivariant identification, stated explicitly
+      Sym^n -> block:   x^n |-> v,   x^{n-k} y^k |-> ((n-k)!/n!) f^k . v
+      (the unique sl2-equivariant map up to scale; scale cannot
+       change whether a bracket vanishes)
+
+7. THE BRACKET
+  [PASS] x14 is nonzero
+  [PASS] x22 is nonzero
+      (the charges are 2T-invariant, NOT ad(h)-eigenvectors:
+       2T is a finite subgroup of SL2, not of the torus.)
+  [PASS] ### [x14, x22] = 0 exactly
+----------------------------------------------------------------------
+PASS: the one certificate the cascade consumes reproduces exactly.
+
+real	0m26.246s
+user	0m26.064s
+sys	0m0.092s
+exit=0

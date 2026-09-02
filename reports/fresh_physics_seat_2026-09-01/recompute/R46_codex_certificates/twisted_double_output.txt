@@ -22,3 +22,21 @@ stage 6: MAYER-VIETORIS  h^1(D_t;27) = ker(delta^1)+coker(delta^0)
 stage 7: h^1(M;27bar) = 3 (expect 3)
 stage 7: 27bar sweeps (PD predicts equality with the 27 rows):
  IDENTITY double, dial hv8:
+    t=0: 5 (3+2) | t=1: 2 (1+1) | t=2: 2 (1+1) | t=omega: 2 (1+1) |
+ MIRROR double:
+   dial hv8  theta-odd : t=0: 5 (3+2) | t=1: 2 (1+1) | t=2: 2 (1+1) | t=omega: 2 (1+1) |
+   dial hv16 theta-odd : t=0: 5 (3+2) | t=1: 2 (1+1) | t=2: 2 (1+1) | t=omega: 2 (1+1) |
+   dial hv14 theta-EVEN: t=0: 5 (3+2) | t=1: 5 (3+2) | t=2: 5 (3+2) | t=omega: 5 (3+2) |
+
+stage 8: ADJOINT SWEEP — bracket closure of <sl2, Ad_{exp(t ad x)}(sl2)>
+  dial x8 (slot 4), t=1: closure dim = 78  = e6, FULL
+  dial x8 (slot 4), t=2: closure dim = 78  = e6, FULL
+  dial x8 (slot 4), t=omega: closure dim = 78  = e6, FULL
+  dial x16 (slot 8), t=1: closure dim = 78  = e6, FULL
+  dial x16 (slot 8), t=2: closure dim = 78  = e6, FULL
+  dial x16 (slot 8), t=omega: closure dim = 78  = e6, FULL
+
+real	8m48.458s
+user	8m7.228s
+sys	0m0.482s
+exit=0

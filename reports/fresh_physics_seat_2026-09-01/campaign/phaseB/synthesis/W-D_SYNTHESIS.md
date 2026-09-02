@@ -230,8 +230,8 @@ What the sweep found, in the owner's terms ("before you conclude we don't have s
 - **16 claims STAND after a direct check**: Regina not installed here either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1 and the
   fundamental unit φ never computed in-repo (PARI here); 5₂ is not fibered (Alexander polynomial 2t²−3t+2, non-monic);
   no `tests/test_b507*` on any head; `stage1_classes.pkl` on no head; B595's "no functorial monodromy-equivariant map"
-  is now B650's theorem (T = 0 uniquely at the linear level); B8135's 2-vs-3 primitive-class count at m = 12 was
-  flagged as unresolved but B8148 settles it at 3 and R42 confirms (PARI h(148) = 3; own enumeration) — moved to SUPERSEDED.
+  is now B650's theorem (T = 0 uniquely at the linear level); B8135's 2-vs-3 primitive-class count at m = 12: both are right about different equivalences — 3 SL(2,ℤ) classes, 2 GL(2,ℤ)
+  classes (class group ℤ/3; R42 corrected, codex r010 agrees); B8148's "3 under both" is wrong for GL(2,ℤ) — moved to SUPERSEDED with that note.
 - The instrument's limits: 187 GENERIC-status claims and 29 GENERIC verdicts (terms too common), 224 DOC_ECHO / NO_HIT
   claims (nothing outside catch-all files; the claim stands as far as the repository text goes), 290 REGISTRY_ECHO
   claims (only ledgers echo the claim).

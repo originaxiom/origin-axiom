@@ -34,7 +34,7 @@ def classes(D, narrow):
     def find(x):
         while parent[x] != x: x = parent[x]
         return x
-    for (a, b, c) in forms: parent[find(idx[(a, b, c)])] = find(idx[(-a, b, -c)])
+    for (a, b, c) in forms: parent[find(idx[(a, b, c)])] = find(idx[(c, b, a)])   # improper equivalence (x,y)->(y,x): (a,b,c) ~ (c,b,a), both reduced
     return len({find(k) for k in range(len(cycles))})
 
 if __name__ == '__main__':
@@ -46,5 +46,5 @@ if __name__ == '__main__':
     print('m  D    PARI.no qfbclassno  ownSL2Z ownGL2Z')
     for r in rows: print('%2d %4d %6d %8d %9d %8d' % r)
     assert [r[5] for r in rows[:11]] == banked, 'GL(2,Z) table m=1..11 does not match the banked table'
-    assert rows[11][2] == rows[11][5] == 3
-    print('m=1..11 GL(2,Z) table MATCHES the banked table; m=12: 3 by all four counts (D=148, h=3)')
+    assert rows[11][2] == rows[11][4] == 3 and rows[11][5] == 2
+    print('m=1..11 GL(2,Z) table MATCHES the banked table; m=12 (D=148): h = h+ = 3, i.e. 3 SL(2,Z) classes but only 2 GL(2,Z) classes (the class group is Z/3; inversion pairs the two non-identity classes)')

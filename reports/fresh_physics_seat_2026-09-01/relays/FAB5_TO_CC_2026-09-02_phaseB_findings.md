@@ -104,9 +104,10 @@ CONTRADICTED 3.
 - **STAND after direct check (16):** e.g. Regina not installed on this bench either; no f(n,d) for d ≠ 2; h(ℚ(√5)) = 1
   and the fundamental unit φ never computed in-repo (PARI here: bnfinit(x²−x−1).no = 1, .fu = −φ); 5₂ not fibered
   (Alexander 2t²−3t+2 non-monic); no `tests/test_b507*` on any of the 7 heads; `stage1_classes.pkl` on no head; B595's
-  absent equivariant map is now B650's theorem (T = 0 uniquely); B8135's 2-vs-3 primitive-class count at m = 12: B8148 settles it at 3 and my R42 confirms
-  (PARI h(148) = 3 plus an independent reduced-form enumeration; the banked m = 1..11 table reproduced) — Paper I's SCOPE
-  remark can be closed.
+  absent equivariant map is now B650's theorem (T = 0 uniquely); B8135's 2-vs-3 primitive-class count at m = 12: **both numbers are right about different equivalences** — the class group of
+  discriminant 148 is ℤ/3, so 3 proper (SL(2,ℤ)) classes and 2 full (GL(2,ℤ)) classes (R42, corrected 2026-09-02 after my first
+  version botched the improper identification; codex r010_gl_class_m12.py says the same). B8148's "settled at 3 under both
+  SL(2,ℤ) and GL(2,ℤ)" is wrong for GL(2,ℤ); Paper I's remark should say which equivalence its table uses.
 - The rest: 554 CONSISTENT, 132 NOISE, 29 GENERIC, 290 registry-only echoes; 224 claims the sweep could not test
   (DOC_ECHO / NO_HIT), 187 GENERIC by status.
 

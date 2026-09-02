@@ -80,7 +80,7 @@ Index note: `i` is the sweep index (VERDICTS.tsv key). `sweep_index_map.tsv` map
 - **#1439 B8099_3d_completeness** (FINDINGS.md:415): B8119: "the E6 STATE INTEGRAL DISSOLVES (no dynamical E6, no such object)"
 - **#1440 B8099_3d_completeness** (FINDINGS.md:415): B8119: the 4d lift is OUT OF SCOPE by owner ruling; B277 is the earlier obstruction
 - **#1467 B8110_scale_factorisation** (-08-21.md 'What has NOT changed' section): B8111_genericity_control ran Phase-0 item 0 (sealed prereg; bites on 2 of 5 tones; sealed prediction wrong)
-- **#1489 B8135_paper1_drafted** (FINDINGS.md SCOPE): B8148_m12_settled (structure-genesis head) settles the count at 3; R42 confirms with PARI h(148)=3 and an independent reduced-form enumeration (m=1..11 table reproduced)
+- **#1489 B8135_paper1_drafted** (FINDINGS.md SCOPE): B8148 settles the SL(2,Z) count at 3; R42 (corrected) and codex r010: 3 proper classes, 2 GL(2,Z) classes -- both numbers in Paper I are right about different equivalences; B8148 "3 under both" is wrong for GL
 - **#1500 B8144_price_reconciliation** (FINDINGS.md): B1164 ADDENDUM_price_reconciliation l.15: "time's arrow ... absent ... B1164 MISSED it" -- registered as a residue, so the absence is now acknowledged in B1164 itself
 - **#1506 B8153_b500_accounting** (arc_verdict.json:claim_one_line): B8153 own hunt_d5_finish.py (structure-genesis head, 2026-08-28) runs the nine never-reached words; B1187 addendum confirms no AIRLOCK anywhere in the banked logs
 - **#1508 P3_depth_exposure** (d:Stabilization needed for the 7 exposed): B767 (R28-10) ran 6 of the 7 exposed kills and stabilized two (B1187 finding, #1230)
