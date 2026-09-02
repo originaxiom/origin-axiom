@@ -14,3 +14,5 @@ B  THE BASE FIELD -- is B575's e6 basis actually defined over Q?
 A  THE CENTROID -- rebuilding memo 161's stabilizer, then asking what memo 161 did not
 ==============================================================================
      stabilizer dimension (memo 161's seed 11)  : 28   [reproduces memo 161]
+     solving 378 brackets, each verified on all 729 coordinates ...
+        row 0/28  (14s)
