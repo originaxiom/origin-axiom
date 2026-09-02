@@ -1,0 +1,75 @@
+==============================================================================
+1. THE RULE IS ORIENTATION-REVERSING
+==============================================================================
+  F = [[1, 1], [1, 0]]  det F = -1   F^2 = [[2, 1], [1, 1]] = A (m004 monodromy, trace 3)
+  m000 (Gieseking): orientable=False tets=1 vol=1.014941606
+  orientation double cover of m000 isometric to m004: True  (vol 2.029883213)
+  bundle b+-R: OSError
+  bundle b--R: orientable=False vol=1.014942 iso to m000: True
+  bundle b-+R: orientable=False vol=1.014942 iso to m000: True
+  bundle b++R: OSError
+
+==============================================================================
+2. THE RULE IS THE MIRROR OF ITS OWN OBJECT
+==============================================================================
+  F A = A F: True  (F acts fibrewise on the mapping torus of A; det F = -1 reverses the fibre,
+   fixes the circle direction, hence reverses the orientation of m004)
+  centraliser of A in GL(2,Z) (|entries|<=8): 22 elements, det -1 among them: 12
+    e.g. [(-8, -5, -5, -3), (-3, -2, -2, -1), (-3, 5, 5, -8), (-1, -1, -1, 0), (-1, 2, 2, -3), (0, -1, -1, 1)]
+  elements with P A P^-1 = A^-1 (|entries|<=8): 22, det -1 among them: 12
+    e.g. [((-5, -3, 8, 5), -1), ((-5, 8, -3, 5), -1), ((-3, -2, 5, 3), 1), ((-3, 5, -2, 3), 1), ((-2, -1, 3, 2), -1), ((-2, 3, -1, 2), -1)]
+  |Sym(m004)| = 8, amphichiral = True, isometries returned = 8, orientation-reversing = 4
+
+==============================================================================
+3. THE RULE AND ITS a<->b MIRROR ARE SL(2,Z)-CONJUGATE
+==============================================================================
+  sigma' = swap o sigma o swap: a->b, b->ba, matrix [[0, 1], [1, 1]] = F^T
+  P in SL(2,Z) with P F P^-1 = F^T: (-2, -1, -3, -2)
+  => relative to an orientation-PRESERVING change of basis of the carrier, the rule and its mirror image
+     are the same mapping class: the rule carries no handedness of its own.
+
+==============================================================================
+4. FRICKE ACTION AND THE MIRROR CHARACTER
+==============================================================================
+  tr(sigma(a) sigma(b)) - (z x - y) with det a = det b = 1: 0
+  => sigma acts on (x,y,z) by (z, x, xz - y); kappa = x^2+y^2+z^2-xyz is preserved (checked below)
+  kappa(sigma p) - kappa(p) = 0
+  pi1(m004) = Generators:
+   a,b
+Relators:
+   aaabABBAb
+  (tr a, tr b, tr ab) = (-1.500000000+0.866025404j, 1.000000000-1.732050808j, -2.000000000-0.000000000j)   kappa = 3.500000000+0.866025404j
+  all three traces in (1/2)Z[sqrt-3]: True
+  complex-conjugate character reached from the geometric one by the Out(F2) word: None (orbit size explored 365)
+  (S = sigma, W = a<->b swap, I = a -> a^-1; the mirror of the holonomy is an automorphism image of it:
+   amphichirality at the level of characters, with the word that realises it.)
+
+==============================================================================
+5. ITERATION PARITY: THE RULE SUPPLIES ALTERNATION, NOT A SIGN
+==============================================================================
+  sigma^1(a) = ab   length 2   det F^1 = -1
+  sigma^2(a) = aba   length 3   det F^2 = +1
+  sigma^3(a) = abaab   length 5   det F^3 = -1
+  sigma^4(a) = abaababa   length 8   det F^4 = +1
+  sigma^5(a) = abaababaabaab   length 13   det F^5 = -1
+  sigma^6(a) = abaababaabaababaababa   length 21   det F^6 = +1
+  sigma^7(a) = abaababaabaababaababaabaababaabaab   length 34   det F^7 = -1
+  => orientation of the carrier at step n is (-1)^n relative to step 0; nothing in the rule fixes step 0's sign.
+
+==============================================================================
+6. THE CLASSIFICATION OF TRACKERS (a theorem, stated with its proof)
+==============================================================================
+  Let iota be any orientation-reversing symmetry of the object (section 2 exhibits four, one of which is the
+  rule F itself acting on the fibre).  iota^2 acts trivially on every invariant of the object that does not
+  see the fibre-circle coordinate, and on characters iota acts as complex conjugation (section 4).  For ANY
+  tracker T (any function of the object, the word, the monodromy, the character, or the cusp), write
+      T_even = (T + T o iota)/2,   T_odd = (T - T o iota)/2,   T = T_even + T_odd.
+  T_even is mirror-blind.  T_odd changes sign under iota, so its value on "the object" versus "the mirror"
+  is fixed only once one of the two is NAMED -- a choice of sheet of the double cover m004 -> m000, equivalently
+  a choice of embedding Q(sqrt-3) -> C (which sqrt-3), equivalently a choice of which parity of sigma-steps
+  is called "even".  All three are torsors under the same Z/2 and none is supplied by the rule (section 3, 5).
+  Hence the complete list of tracker options with respect to handedness is: {mirror-even, mirror-odd}, and
+  every mirror-odd tracker's sign is one externally chosen bit.  This is exhaustive because Z/2 has exactly
+  two irreducible characters.
+
+r54_results.json written

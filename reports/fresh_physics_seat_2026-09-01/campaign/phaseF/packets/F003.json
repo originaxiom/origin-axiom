@@ -1,0 +1,42 @@
+[
+ {
+  "arc": "B132_quantum_layer",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B132_quantum_layer"
+ },
+ {
+  "arc": "B134_chirality_recursion_proved",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B134_chirality_recursion_proved"
+ },
+ {
+  "arc": "B136_general_amphichirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B136_general_amphichirality"
+ },
+ {
+  "arc": "B139_firewall_cartography",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B139_firewall_cartography"
+ },
+ {
+  "arc": "B140_compute_reconciliation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B140_compute_reconciliation"
+ },
+ {
+  "arc": "B143_interaction_feasibility",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B143_interaction_feasibility"
+ },
+ {
+  "arc": "B144_interaction_chirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B144_interaction_chirality"
+ },
+ {
+  "arc": "B145_forced_chirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B145_forced_chirality"
+ }
+]

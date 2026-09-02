@@ -1,0 +1,128 @@
+{
+ "det_F": -1,
+ "F2_is_A": true,
+ "gieseking": {
+  "orientable": false,
+  "cover_is_m004": true
+ },
+ "centraliser_det_minus1_examples": [
+  [
+   -8,
+   -5,
+   -5,
+   -3
+  ],
+  [
+   -3,
+   -2,
+   -2,
+   -1
+  ],
+  [
+   -3,
+   5,
+   5,
+   -8
+  ],
+  [
+   -1,
+   -1,
+   -1,
+   0
+  ],
+  [
+   -1,
+   2,
+   2,
+   -3
+  ],
+  [
+   0,
+   -1,
+   -1,
+   1
+  ]
+ ],
+ "A_to_Ainv_examples": [
+  [
+   [
+    -5,
+    -3,
+    8,
+    5
+   ],
+   -1
+  ],
+  [
+   [
+    -5,
+    8,
+    -3,
+    5
+   ],
+   -1
+  ],
+  [
+   [
+    -3,
+    -2,
+    5,
+    3
+   ],
+   1
+  ],
+  [
+   [
+    -3,
+    5,
+    -2,
+    3
+   ],
+   1
+  ],
+  [
+   [
+    -2,
+    -1,
+    3,
+    2
+   ],
+   -1
+  ],
+  [
+   [
+    -2,
+    3,
+    -1,
+    2
+   ],
+   -1
+  ]
+ ],
+ "sym_order": 8,
+ "orientation_reversing_isometries": 4,
+ "sigma_mirror_SL2Z_conjugator": [
+  -2,
+  -1,
+  -3,
+  -2
+ ],
+ "fricke_sigma_action": "(x,y,z) -> (z, x, xz - y)",
+ "kappa_preserved": true,
+ "character": {
+  "x": [
+   -1.4999999999999998,
+   0.8660254037844389
+  ],
+  "y": [
+   1.0000000000000002,
+   -1.7320508075688772
+  ],
+  "z": [
+   -2.0,
+   -2.4827145547745566e-15
+  ],
+  "conj_reached_by": null
+ },
+ "classification": "every tracker = even + odd under the mirror involution; odd part sign = one chosen bit (sheet / sqrt-3 embedding / step parity)"
+}

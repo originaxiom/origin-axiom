@@ -1,0 +1,42 @@
+[
+ {
+  "arc": "B1036_mirror_double",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1036_mirror_double"
+ },
+ {
+  "arc": "B1086_spectrum_law",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1086_spectrum_law"
+ },
+ {
+  "arc": "B1095_mirror_isospectral",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1095_mirror_isospectral"
+ },
+ {
+  "arc": "B1127_antilinear_completion",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1127_antilinear_completion"
+ },
+ {
+  "arc": "B1168_c5_investigation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1168_c5_investigation"
+ },
+ {
+  "arc": "B1169_qualia_parity_synthesis",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1169_qualia_parity_synthesis"
+ },
+ {
+  "arc": "B1174_z2_identification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1174_z2_identification"
+ },
+ {
+  "arc": "B1181_amphichirality_closure",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1181_amphichirality_closure"
+ }
+]

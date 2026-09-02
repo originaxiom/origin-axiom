@@ -1,0 +1,37 @@
+[
+ {
+  "arc": "B1091_observer_card",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1091_observer_card"
+ },
+ {
+  "arc": "B1134_simultaneous_closing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1134_simultaneous_closing"
+ },
+ {
+  "arc": "B1135_gauge_closing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1135_gauge_closing"
+ },
+ {
+  "arc": "B1146_seam_b",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1146_seam_b"
+ },
+ {
+  "arc": "B1154_seam_y",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1154_seam_y"
+ },
+ {
+  "arc": "B1155_seam_a",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1155_seam_a"
+ },
+ {
+  "arc": "B1156_seam_a_gate2",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1156_seam_a_gate2"
+ }
+]

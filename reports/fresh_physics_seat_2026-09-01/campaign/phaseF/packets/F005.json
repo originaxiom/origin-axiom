@@ -1,0 +1,42 @@
+[
+ {
+  "arc": "B271_walls_3_4",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B271_walls_3_4"
+ },
+ {
+  "arc": "B277_4d_lift_obstruction",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B277_4d_lift_obstruction"
+ },
+ {
+  "arc": "B279_spin_structure_bit",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B279_spin_structure_bit"
+ },
+ {
+  "arc": "B286_the_seam",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B286_the_seam"
+ },
+ {
+  "arc": "B289_cp_sign_law",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B289_cp_sign_law"
+ },
+ {
+  "arc": "B292_multiplicity_2manifold",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B292_multiplicity_2manifold"
+ },
+ {
+  "arc": "B301_chirality_filter_and_convergence",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B301_chirality_filter_and_convergence"
+ },
+ {
+  "arc": "B315_e7_exclusion_vs_heterotic",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B315_e7_exclusion_vs_heterotic"
+ }
+]

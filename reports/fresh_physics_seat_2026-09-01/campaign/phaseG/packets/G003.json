@@ -1,0 +1,37 @@
+[
+ {
+  "arc": "B334_seam_hilbert_class_field",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B334_seam_hilbert_class_field"
+ },
+ {
+  "arc": "B358_seam_certification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B358_seam_certification"
+ },
+ {
+  "arc": "B359_seam_form",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B359_seam_form"
+ },
+ {
+  "arc": "B360_seam_selection_rule",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B360_seam_selection_rule"
+ },
+ {
+  "arc": "B361_seam_local_law",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B361_seam_local_law"
+ },
+ {
+  "arc": "B362_seam_law_confirmations",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B362_seam_law_confirmations"
+ },
+ {
+  "arc": "B363_seam_lift_anatomy",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B363_seam_lift_anatomy"
+ }
+]

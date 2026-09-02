@@ -1,0 +1,49 @@
+[
+ {
+  "arc": "DOC:CLAIMS.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "CLAIMS.md"
+ },
+ {
+  "arc": "DOC:TERMINOLOGY.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "TERMINOLOGY.md"
+ },
+ {
+  "arc": "DOC:docs/RETRACTIONS.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "docs/RETRACTIONS.md"
+ },
+ {
+  "arc": "DOC:ERROR_LEDGER.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "docs/ERROR_LEDGER.md"
+ },
+ {
+  "arc": "DOC:LAW_MAP.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "docs/LAW_MAP.md"
+ },
+ {
+  "arc": "DOC:philosophy/P019_the_genesis_axiom_chain.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "philosophy/P019_the_genesis_axiom_chain.md"
+ },
+ {
+  "arc": "DOC:philosophy/P000_what_is_not_nothing.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "philosophy/P000_what_is_not_nothing.md"
+ },
+ {
+  "arc": "B1033_generation_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1033_generation_adjudication"
+ }
+]

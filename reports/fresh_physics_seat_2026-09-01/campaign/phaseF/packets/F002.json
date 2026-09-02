@@ -1,0 +1,42 @@
+[
+ {
+  "arc": "B1208_cross_seat_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1208_cross_seat_harvest"
+ },
+ {
+  "arc": "B1224_amphichiral_cs_torsion",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1224_amphichiral_cs_torsion"
+ },
+ {
+  "arc": "B1226_the_beta_odd_box",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1226_the_beta_odd_box"
+ },
+ {
+  "arc": "B1227_one_theorem_two_regimes",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1227_one_theorem_two_regimes"
+ },
+ {
+  "arc": "B1234_a6_built_the_walls",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1234_a6_built_the_walls"
+ },
+ {
+  "arc": "B124_time_reversal_reciprocity",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B124_time_reversal_reciprocity"
+ },
+ {
+  "arc": "B127_chirality_arithmetic_naming",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B127_chirality_arithmetic_naming"
+ },
+ {
+  "arc": "B128_symmetry_breaking_chirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B128_symmetry_breaking_chirality"
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "arc": "B1134_simultaneous_closing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1134_simultaneous_closing"
+ },
+ {
+  "arc": "B1135_gauge_closing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1135_gauge_closing"
+ },
+ {
+  "arc": "B466_sigma_equivariant",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B466_sigma_equivariant"
+ },
+ {
+  "arc": "B467_family_residue_wall",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B467_family_residue_wall"
+ },
+ {
+  "arc": "B761_qp2_private",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B761_qp2_private"
+ },
+ {
+  "arc": "B700_fiber_functor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B700_fiber_functor"
+ },
+ {
+  "arc": "DOC:docs/THE_FORCED_AND_THE_FREE.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "docs/THE_FORCED_AND_THE_FREE.md"
+ },
+ {
+  "arc": "DOC:docs/THEOREM_LEDGER.md",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": null,
+  "doc": "docs/THEOREM_LEDGER.md"
+ }
+]

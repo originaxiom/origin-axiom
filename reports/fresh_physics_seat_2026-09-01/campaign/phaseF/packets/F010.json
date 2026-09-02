@@ -1,0 +1,42 @@
+[
+ {
+  "arc": "B64_parity_mechanism",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B64_parity_mechanism"
+ },
+ {
+  "arc": "B669_track_h_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B669_track_h_adjudication"
+ },
+ {
+  "arc": "B695_loop_e3_close",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B695_loop_e3_close"
+ },
+ {
+  "arc": "B709_turok_marriage_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B709_turok_marriage_adjudication"
+ },
+ {
+  "arc": "B711_two_z2_degeneration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B711_two_z2_degeneration"
+ },
+ {
+  "arc": "B713_chirality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B713_chirality"
+ },
+ {
+  "arc": "B714_physics_spine",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B714_physics_spine"
+ },
+ {
+  "arc": "B747_mirror_sweep",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B747_mirror_sweep"
+ }
+]

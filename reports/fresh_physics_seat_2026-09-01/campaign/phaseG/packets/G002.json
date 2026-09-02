@@ -1,0 +1,37 @@
+[
+ {
+  "arc": "B1171_seam_harvest",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B1171_seam_harvest"
+ },
+ {
+  "arc": "B275_explicit_witness",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B275_explicit_witness"
+ },
+ {
+  "arc": "B286_the_seam",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B286_the_seam"
+ },
+ {
+  "arc": "B287_distinguished_closing",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B287_distinguished_closing"
+ },
+ {
+  "arc": "B296_seam_arc_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B296_seam_arc_verification"
+ },
+ {
+  "arc": "B321_seam_geometry_adjudication",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B321_seam_geometry_adjudication"
+ },
+ {
+  "arc": "B333_compositum_seam",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B333_compositum_seam"
+ }
+]

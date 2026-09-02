@@ -1,0 +1,42 @@
+[
+ {
+  "arc": "B316_sqrt7_chirality_field",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B316_sqrt7_chirality_field"
+ },
+ {
+  "arc": "B318_amphichiral_mechanism",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B318_amphichiral_mechanism"
+ },
+ {
+  "arc": "B336_chiral_sqrt15_hunt",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B336_chiral_sqrt15_hunt"
+ },
+ {
+  "arc": "B338_the_bridge_flow",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B338_the_bridge_flow"
+ },
+ {
+  "arc": "B340_cp_phase_along_flow",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B340_cp_phase_along_flow"
+ },
+ {
+  "arc": "B389_mirror_mechanism",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B389_mirror_mechanism"
+ },
+ {
+  "arc": "B395_mirror_derivation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B395_mirror_derivation"
+ },
+ {
+  "arc": "B422_mirror_frame",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B422_mirror_frame"
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "arc": "B755_carried_recomputes",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B755_carried_recomputes"
+ },
+ {
+  "arc": "B774_chord_pass",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B774_chord_pass"
+ },
+ {
+  "arc": "B783_observer_ground_zero",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_audit",
+  "arc_dir": "frontier/B783_observer_ground_zero"
+ },
+ {
+  "arc": "B8114_related_work_armor",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8114_related_work_armor"
+ },
+ {
+  "arc": "B8143_anomaly_lane",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8143_anomaly_lane"
+ },
+ {
+  "arc": "B8154_mirror_is_c",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_sg",
+  "arc_dir": "frontier/B8154_mirror_is_c"
+ },
+ {
+  "arc": "B848_handoff_verification",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B848_handoff_verification"
+ },
+ {
+  "arc": "B849_order_parameter",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B849_order_parameter"
+ }
+]

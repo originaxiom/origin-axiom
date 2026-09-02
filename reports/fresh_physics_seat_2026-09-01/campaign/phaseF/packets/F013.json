@@ -1,0 +1,22 @@
+[
+ {
+  "arc": "B945_l126_one_z2",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B945_l126_one_z2"
+ },
+ {
+  "arc": "B953_two_seeds_rank",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B953_two_seeds_rank"
+ },
+ {
+  "arc": "B954_both_branches",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B954_both_branches"
+ },
+ {
+  "arc": "B994_rule_variation",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B994_rule_variation"
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "arc": "B146_b145_calibration",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B146_b145_calibration"
+ },
+ {
+  "arc": "B147_arithmetic_chiral_bundle",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B147_arithmetic_chiral_bundle"
+ },
+ {
+  "arc": "B152_cs_amphichirality_census",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B152_cs_amphichirality_census"
+ },
+ {
+  "arc": "B193_sealing_field_scouts",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B193_sealing_field_scouts"
+ },
+ {
+  "arc": "B211_metallic_arithmetic_geometric_faces",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B211_metallic_arithmetic_geometric_faces"
+ },
+ {
+  "arc": "B240_golden_jones_integrality",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B240_golden_jones_integrality"
+ },
+ {
+  "arc": "B252_chirality_obstruction",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B252_chirality_obstruction"
+ },
+ {
+  "arc": "B253_chirality_capability",
+  "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_main",
+  "arc_dir": "frontier/B253_chirality_capability"
+ }
+]
