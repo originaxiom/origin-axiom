@@ -1,0 +1,335 @@
+{
+  "batch": "arcs_060",
+  "arcs": [
+    {
+      "arc": "B727_base_rate_the_structure",
+      "source": "main",
+      "files_read": [
+        "frontier/B727_base_rate_the_structure/FINDINGS.md",
+        "frontier/B727_base_rate_the_structure/PREREGISTRATION.md",
+        "frontier/B727_base_rate_the_structure/arc_verdict.json",
+        "frontier/B727_base_rate_the_structure/b727_probe1.py",
+        "frontier/B727_base_rate_the_structure/b727_probe1_out.txt",
+        "frontier/B727_base_rate_the_structure/b727_probe2.py (head+grep)",
+        "frontier/B727_base_rate_the_structure/b727_probe2_out.txt (head 150 lines)",
+        "frontier/B727_base_rate_the_structure/b727_probe3.py (head 260 lines)",
+        "frontier/B727_base_rate_the_structure/b727_probe3_out.txt (tail)",
+        "tests/test_b727_baserate.py (executed, passes)"
+      ],
+      "files_sampled": ["b727_probe2.py", "b727_probe3.py"],
+      "files_listed_only": [],
+      "claim_of_record": "'E6 across three faces' is forced by one ADE classification, so the recurrence is generic not evidence; only the arithmetic atom pi1(m004) onto 2T survives. | verdict: NEGATIVE",
+      "log_says": "PROGRESS_LOG / REVIEW 26 credit B727 as the self-audit that reversed the flagship E6-structure claim to GENERIC, two seats independently (B727 + cc2's odds); B1214 later reconfirms B727 as one of only 13 genuine 'creates_law' arcs recovered in a 116-item re-audit, and B1210 explicitly corrects a mis-summary that had read a later arc (B1159) as withdrawing B727 when it actually cites B727's genericity.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "McKay graph of 2T (binary tetrahedral, 24 quaternions) = affine E6; E6-Lie adjacency identical to E6-CIZ adjacency",
+          "where": "b727_probe1.py Parts A-D; b727_probe1_out.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Full from-scratch construction of 2T as 24 exact unit quaternions, Dixon character table via numpy eigenvector method, and explicit adjacency-matrix identity checks (np.array_equal, nx.is_isomorphic); output file matches script; re-runnable."
+        },
+        {
+          "what": "E6-only exceptional menu over imaginary-quadratic fields (E7/E8 excluded, real quadratic); E6 present in 4/5 (extended 8/9) class-number-1 Bianchi groups by torsion; 2T-quotient present in 4/13 hyperbolic knots including 3 non-arithmetic ones",
+          "where": "b727_probe2.py Sections 2-5; b727_probe2_out.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Local quaternion-algebra invariant computation (sympy) plus explicit d-by-d table; self-corrected TWO errors mid-arc (a mis-attributed citation, and a materially false '2T only for arithmetic knots' claim caught and fixed in-script, both documented in the script's REVISION header) -- a strong rigor signal."
+        },
+        {
+          "what": "Full A-Z verdict synthesis (atom forced+special, McKay bijection, CIZ forced by Coxeter number, Lie face generic, base rate forced)",
+          "where": "b727_probe3.py Parts A-F; b727_probe3_out.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "unknown",
+          "why": "Requires Sage+GAP+SnapPy ('Run: sage-python b727_probe3.py'); the output file is committed and was read, but a stranger without a Sage/GAP environment cannot rerun this specific probe (probe1/probe2 are plain python and do rerun)."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "tests/test_b727_baserate.py independently recomputes the McKay=affine-E6 marks, the E6-Lie=E6-CIZ adjacency identity, and other discriminating facts with fresh asserts (not just re-reading banked numbers); executed here, passes.",
+      "absence_claims": [
+        {
+          "quote": "That same test has NEVER been run on the program's FLAGSHIP STRUCTURAL claim: \"E₆ recurs across three faces\"",
+          "where": "frontier/B727_base_rate_the_structure/PREREGISTRATION.md:5"
+        }
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [],
+      "seat_note": "This is a rare, exemplary self-audit: it kills the program's own flagship structural claim with fully computed, self-corrected, testable evidence, and correctly credits only the arithmetic atom (pi1(m004)->>2T) as object-specific. It is a negative result honestly banked, not softened."
+    },
+    {
+      "arc": "B728_stokes_resummation",
+      "source": "main",
+      "files_read": [
+        "frontier/B728_stokes_resummation/FINDINGS.md",
+        "frontier/B728_stokes_resummation/PREREGISTRATION.md",
+        "frontier/B728_stokes_resummation/arc_verdict.json",
+        "tests/test_b728_stokes.py (executed, passes)"
+      ],
+      "files_sampled": [],
+      "files_listed_only": [],
+      "claim_of_record": "The Stokes resummation does NOT close the phase: zeta_5 is impossible in the resummed object. | verdict: NEGATIVE",
+      "log_says": "PROGRESS_LOG credits B728 as the two-seat (cc2 ran the full resummation externally; cc verified the decisive C4!=C2xC2 Galois-group theorem in-sandbox) closing that completes the Born-content ledger; REVIEW 26 records hash-spot-recompute of B728 (5f4cf70e) matching the SEAL_LEDGER.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "The full Stokes-resummed trans-series of 4_1 (saddles sigma0,sigma1,sigma2) with intrinsic arithmetic Q(+)Q(sqrt-3) and integer Stokes constants",
+          "where": "FINDINGS.md verdict section, referencing cc2's workflow wf_c3326acc",
+          "kind": "IMPORTED",
+          "reproducible_from_committed": "no",
+          "why": "This arc directory contains NO python script and NO output file for the resummation itself -- the primary computation was run by a different seat (cc2) in an external workflow (wf_c3326acc, prereg eb448f3f) never committed to this repo. FINDINGS.md and PREREGISTRATION.md are the only committed artifacts; a stranger cannot reproduce the resummation from what is checked in here."
+        },
+        {
+          "what": "Gal(Q(zeta5)/Q)=C4 cyclic (unique quadratic subfield Q(sqrt5)) vs Gal(Q(sqrt-3,sqrt5)/Q)=C2xC2 Klein-four (three quadratic subfields) => zeta5 not in Q(sqrt-3,sqrt5)",
+          "where": "FINDINGS.md 'plausible escape, refuted by a THEOREM' section",
+          "kind": "ASSERTED",
+          "reproducible_from_committed": "yes",
+          "why": "FINDINGS.md claims this was 'verified in-sandbox by cc' but no script/witness file for that verification is committed in the arc directory itself; however this specific claim IS independently recomputed with real asserts in tests/test_b728_stokes.py (which is committed, executed here, and passes), so the claim is reproducible from committed files even though the arc's own 'in-sandbox' verification left no witness."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "tests/test_b728_stokes.py recomputes the C4-cyclic-vs-Klein-four Galois-group distinction with fresh sympy asserts; executed, passes. But the belt covers only the decisive theorem, not the full trans-series resummation, which has no committed script or witness at all.",
+      "absence_claims": [
+        {
+          "quote": "the Stokes-σ₀ = Alexander-σ₀ identification asserted across cells, never proven",
+          "where": "frontier/B728_stokes_resummation/FINDINGS.md:54"
+        }
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "MISSING_WITNESS",
+          "detail": "The arc's central computation (the full Stokes resummation of 4_1's trans-series, run by cc2 in workflow wf_c3326acc) has no committed script or output file anywhere in this arc directory -- the FINDINGS.md prose is the only record of it in this repo. A stranger cannot reproduce the resummation itself, only the (separately, and independently, tested) Galois-group corollary.",
+          "where": "frontier/B728_stokes_resummation/ (directory listing: only FINDINGS.md, PREREGISTRATION.md, arc_verdict.json)"
+        }
+      ],
+      "seat_note": "The one decisive discriminating fact (C4 vs Klein-four Galois groups) is simple, correct, and independently locked by a committed test, so the conclusion is trustworthy on that narrow point; but the headline 'ran the full Stokes resummation' computation itself is wholly imported from an external, uncommitted workflow, which a stranger cannot check."
+    },
+    {
+      "arc": "B729_amplitude_sector",
+      "source": "main",
+      "files_read": [
+        "frontier/B729_amplitude_sector/FINDINGS.md",
+        "frontier/B729_amplitude_sector/PREREGISTRATION.md",
+        "frontier/B729_amplitude_sector/arc_verdict.json",
+        "frontier/B729_amplitude_sector/b729_out.txt",
+        "frontier/B729_amplitude_sector/b729_probe1.py",
+        "frontier/B729_amplitude_sector/b729_probe1_out.txt",
+        "frontier/B729_amplitude_sector/b729_probe2.py (head 120 lines)",
+        "frontier/B729_amplitude_sector/b729_probe3.py (head 120 lines)",
+        "frontier/B729_amplitude_sector/b729_probe3_out.txt",
+        "tests/test_b729_amplitude.py (executed, passes)"
+      ],
+      "files_sampled": ["b729_probe2.py", "b729_probe3.py"],
+      "files_listed_only": [],
+      "claim_of_record": "The Born amplitude field Q(sqrt(2+phi)) is not native: every native invariant yields only the two quadratic fields, so amplitudes, phase and associator are golden-MTC overlays. | verdict: NEGATIVE",
+      "log_says": "PROGRESS_LOG credits B729 as completing the Born-content ledger (B725-B729): FORM/WEIGHTS are the object's two native quadratic fields, AMPLITUDES/PHASE are quartic golden-MTC overlays ramified away from the object's prime 3; REVIEW 26 records a self-caught prereg misnaming (amplitude field is C4 Q(sqrt(2+phi)), not the D4 Q(sqrt(phi)) F-symbol field) and hash-spot-recompute (d4531f5c) matching SEAL_LEDGER; one process note: B729's findings commit landed directly on main rather than via a feature-branch PR.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "The object's native invariants (trace/cusp/shape field, adjoint Reidemeister torsion, A-polynomial branch locus, Alexander polynomial + Lucas-number branched-cover homology orders) all land in Q(sqrt-3) or Q(sqrt5), never in the quartic Q(sqrt(2+phi))",
+          "where": "b729_out.txt sections (a)-(c), computed via sympy/snappy",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Explicit symbolic derivations (trace computations, A-polynomial factorization, resultant computation of Lucas numbers with an assert check) all shown with numeric cross-checks; the identity |H1(Sigma_n)|=L_2n-2 is asserted in-script for n=1..12."
+        },
+        {
+          "what": "The amplitude field Q(sqrt(2+phi)) is C4 cyclic real (Galois), the associator field Q(sqrt(phi)) is D4 non-Galois -- a self-corrected prereg error (prereg had conflated the two)",
+          "where": "b729_probe1.py part (a)-(c), using sympy.galois_group",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Uses sympy's galois_group function directly on the minimal polynomials with explicit degree/order checks; matches the independently-committed test_b729_amplitude.py."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "tests/test_b729_amplitude.py independently recomputes the C4 vs D4 Galois-type distinction and the 2000=2^4*5^3 ramification fact with fresh sympy asserts; executed here, passes.",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [],
+      "seat_note": "A clean, thorough, self-correcting completion of the Born-content ledger (B725-B729 series); the classification of which fields the knot forces natively versus imports is well evidenced and independently locked by a passing test."
+    },
+    {
+      "arc": "B730_forced_faces_and_cosmos",
+      "source": "main",
+      "files_read": [
+        "frontier/B730_forced_faces_and_cosmos/FINDINGS.md",
+        "frontier/B730_forced_faces_and_cosmos/_scriptlog.txt",
+        "frontier/B730_forced_faces_and_cosmos/arc_verdict.json",
+        "frontier/B730_forced_faces_and_cosmos/cc_q1_census.py (head 120 lines)",
+        "frontier/B730_forced_faces_and_cosmos/cc_q1_census_out.txt (tail)",
+        "frontier/B730_forced_faces_and_cosmos/cc_q3_cosmo.py (full, ~150 lines shown)",
+        "frontier/B730_forced_faces_and_cosmos/cc_q3_cosmo_out.txt",
+        "tests/test_b730_faces_cosmos.py (executed, passes)"
+      ],
+      "files_sampled": ["cc_q1_census.py"],
+      "files_listed_only": [],
+      "claim_of_record": "The object's forced quadratic faces close at exactly three -- Q(sqrt-3), Q(sqrt5), Q(sqrt-15) -- a Klein four-group; Q(sqrt-7) is an external stage. | verdict: PROVED",
+      "log_says": "PROGRESS_LOG (B730 entry, 2026-07-20) and later B747/B748 record the forced V4 (B730) as a property of the OPEN object, with every tested closing (the SL(n) tower, boundary-unipotent stages) losing all three quadratic identities at once; Review 33 separately flags that some later prose cites 'the B730 locks' without a runnable pointer, an unrelated general-corpus caution not specific to this arc's own committed tests.",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "The forced-native faces are exactly the Klein-four V4 {Q(sqrt-3), Q(sqrt5), Q(sqrt-15)}; the SL(n) tower adds no new native face (Sym^{n-1} shadow); Q(sqrt-7) is a fiber-functor stage that would explode V4 to (Z/2)^3 if admitted",
+          "where": "cc_q1_census.py + cc_q1_census_out.txt Parts 1-3",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Symbolic sympy derivation of the trace/Alexander/A-polynomial fields plus an explicit SL(n)-tower census with a stated scope boundary (concedes that under a different, non-canonical reading Q(sqrt-7) would count as a 4th field); output committed and consistent with the script."
+        },
+        {
+          "what": "m004(5,1) IS the Thurston manifold (#2-smallest closed orientable hyperbolic 3-manifold); its closed child's invariant trace field is the quartic x^4-x-1 (disc -283, Galois S4, no quadratic subfield), so the open object's Q(sqrt-3) does NOT survive Dehn filling",
+          "where": "cc_q3_cosmo.py + cc_q3_cosmo_out.txt (d)-(e); _scriptlog.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes, requires Sage",
+          "why": "Uses snappy's canonical find_field on the invariant trace field (not an algdep guess), cross-checked by hand-computed discriminants; the script explicitly documents and corrects its OWN prior error (a previous round had wrongly attributed the sister-manifold Weeks cubic field, disc -23, to m004's own child) -- requires a Sage environment to rerun, but the correction and witness output are both committed."
+        },
+        {
+          "what": "Cosmic curvature measured flat (Planck+BAO Omega_k=0.0007+/-0.0019; Planck PR4 HiLLiPoP Omega_k=-0.012+/-0.010; DESI) and every cosmic-topology search (matched circles, COMPACT collaboration, Poincare dodecahedral test) returns NULL",
+          "where": "cc_q3_cosmo.py 'FRONTIER SCIENCE' box, citing arXiv:2309.10034, 2606.24886, etc.",
+          "kind": "IMPORTED",
+          "reproducible_from_committed": "yes (citation, not recomputation)",
+          "why": "These are literature values cited via WebFetch, not object-side computations -- correctly flagged by the arc itself as producing a NIL physics claim, not a prediction. Verbatim numbers are quoted with sources named."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "tests/test_b730_faces_cosmos.py independently recomputes the three discriminants (-3, 5, -15) forming the Klein-four and the sqrt(-7)-explodes-V4 combinatorics with fresh asserts; executed here, passes.",
+      "absence_claims": [
+        {
+          "quote": "The one genuinely-open frontier (cc2 capstone, UNVERIFIED here -- carried, not banked): m004 is distinguished from its field-siblings ... by its congruence LEVEL in PSL(2,O3)",
+          "where": "frontier/B730_forced_faces_and_cosmos/FINDINGS.md:74-75"
+        }
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [],
+      "seat_note": "A genuinely well-computed and self-correcting arc on the pure-math side (V4 census, Dehn-filling field loss); the cosmology section correctly and explicitly labels itself physics NIL, citing real measured Omega_k values only to show topology is currently unconstrained -- it does not claim a prediction, so the honest disposition matches the evidence."
+    },
+    {
+      "arc": "B731_object_observer_noncongruence",
+      "source": "main",
+      "files_read": [
+        "frontier/B731_object_observer_noncongruence/FINDINGS.md",
+        "frontier/B731_object_observer_noncongruence/arc_verdict.json"
+      ],
+      "files_sampled": [],
+      "files_listed_only": [],
+      "claim_of_record": "The 'figure-eight knot group is non-congruence' headline is withdrawn: the 2-adic index jumps at level (8), so m004 is a congruence subgroup after all. | verdict: RETRACTED",
+      "log_says": "PROGRESS_LOG shows the full arc: B731 originally claimed m004 NON-congruence (2026-07-20); B734 (same day) RETRACTS it after finding the index jumps to 12 at level (2)^3=(8), logged as error E22 (shallow 2-adic plateau read as stabilization); B818 later confirms B731's retraction header correctly withdraws its own headline (one of six arcs that do so correctly, vs two that do not); B830/Reviews 32-35 separately flag that B731's machine-readable revival_score:10 field stayed stale (corpus maximum) for weeks after the retraction, only corrected to 0 by B830 -- a real but distinct process failure (a metadata field, not the FINDINGS text, lagged the correction).",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "Original claim: Gamma=pi1(m004) is stuck at PSL-index 6 at every 2-power congruence level (2,4,6) and never reaches the geometric index 12, hence non-congruence",
+          "where": "FINDINGS.md 'THE RESULT' table (levels 2-6)",
+          "kind": "ASSERTED",
+          "reproducible_from_committed": "no",
+          "why": "No script or output file is committed in this arc directory (only FINDINGS.md and arc_verdict.json); this was the claim later shown to be an artifact of checking too shallow a level (E22) -- exactly the kind of load-bearing number that should have had a committed witness and did not."
+        },
+        {
+          "what": "The correction itself (index jumps to 12 at level 8, hence m004 IS congruence)",
+          "where": "FINDINGS.md retraction header (top of file)",
+          "kind": "IMPORTED",
+          "reproducible_from_committed": "no",
+          "why": "The correcting computation lives in a different, out-of-batch arc (B734) not included in this packet; this file only reports the retraction, appropriately, with a clear header and pointer."
+        }
+      ],
+      "belt": "NONE",
+      "belt_note": "test_b731_noncongruence.py was deleted from the live test suite when the arc was retracted (confirmed present only under sweeps/deleted_corpus/); no belt exists for the (now-withdrawn) original claim in this arc's own directory, which is correct governance behavior for a retracted result but leaves nothing to independently check here.",
+      "absence_claims": [
+        {
+          "quote": "cc2's fabricated-citation guard had flagged \"m004 at level (4)\" as an unverified circulating claim -- correctly.",
+          "where": "frontier/B731_object_observer_noncongruence/FINDINGS.md:44"
+        }
+      ],
+      "physics_content": "NO_OBSERVABLE_CONTENT",
+      "red_flags": [
+        {
+          "kind": "MISSING_WITNESS",
+          "detail": "The original (now-retracted) congruence-index table had no committed script or output file to check in this arc's own directory even before the retraction; the underlying shallow-level error (E22) that produced a wrong conclusion might have been caught earlier had a reproducible witness existed for a stranger to rerun at deeper levels.",
+          "where": "frontier/B731_object_observer_noncongruence/ (directory contains only FINDINGS.md, arc_verdict.json)"
+        }
+      ],
+      "seat_note": "This is a correctly-handled retraction at the FINDINGS/arc_verdict level -- the header is unambiguous and arc_verdict.json says RETRACTED, so this specific arc is not a SUPERSEDED_UNMARKED case; but the corpus-wide governance around it (the stale revival_score metadata field, caught only weeks later by B830) shows the retraction discipline is imperfect even when the prose itself is honest."
+    },
+    {
+      "arc": "B732_conjugation_is_out_A5",
+      "source": "main",
+      "files_read": [
+        "frontier/B732_conjugation_is_out_A5/FINDINGS.md",
+        "frontier/B732_conjugation_is_out_A5/arc_verdict.json",
+        "tests/test_b732_out_a5.py (executed, passes)"
+      ],
+      "files_sampled": [],
+      "files_listed_only": [],
+      "claim_of_record": "The observer's conjugation is realized as the outer automorphism of A5 (the F4-Frobenius) at the sister m003's level-(2) congruence quotient. | verdict: PROVED",
+      "log_says": "PROGRESS_LOG (B732 entry, 2026-07-20) records this as the tractable positive surviving B731's NO-GO, on the sister m003 (not the knot m004); B734 later confirms 'what survives': B732's result stands, its framing corrected (m004 the knot is ALSO congruence, at level 8, per B734, so the original 'm004 is non-congruence, only the sister has a door' framing is superseded but B732's own A5/Out(A5) computation is unaffected).",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "PSL(2,O3)/Gamma((2)) = PSL(2,F4) = A5; complex conjugation w->w^2 reduces mod 2 to the F4-Frobenius, which swaps the two order-5 conjugacy classes (5A/5B, distinguished by trace w vs 1+w), hence is the outer (not inner) automorphism of A5",
+          "where": "FINDINGS.md 'THE RESULT'",
+          "kind": "ASSERTED",
+          "reproducible_from_committed": "yes",
+          "why": "FINDINGS.md itself provides no committed script or witness (\"computed + verified in-sandbox\" with no file in this directory), but the identical claim is independently recomputed with fresh asserts in the committed tests/test_b732_out_a5.py, which builds SL(2,F4) from scratch, confirms |SL(2,F4)|=60, and verifies the Frobenius maps the trace-w class into the trace-(1+w) class -- executed here, passes."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "tests/test_b732_out_a5.py independently rebuilds F4 and SL(2,F4) from scratch and checks the Frobenius/trace-class-swap fact with fresh asserts; executed here, passes -- this substitutes for the missing in-arc witness.",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "MISSING_WITNESS",
+          "detail": "The arc directory itself has no python script or output file for the central computation (\"computed + verified in-sandbox\"); the claim is only independently checkable because a matching test file happens to exist in tests/, not because this arc banked its own witness.",
+          "where": "frontier/B732_conjugation_is_out_A5/ (directory contains only FINDINGS.md, arc_verdict.json)"
+        }
+      ],
+      "seat_note": "The mathematical claim (conjugation = Out(A5) via the F4-Frobenius) is correct and independently locked by a passing test, but this arc's own directory banks no reproducible script -- a stranger reading only this arc's files could not rerun the computation, only the separately-discovered test."
+    },
+    {
+      "arc": "B733_observer_space",
+      "source": "main",
+      "files_read": [
+        "frontier/B733_observer_space/FINDINGS.md",
+        "frontier/B733_observer_space/PREREGISTRATION.md",
+        "frontier/B733_observer_space/arc_verdict.json",
+        "frontier/B733_observer_space/b733_door2.py (head 120 lines)",
+        "frontier/B733_observer_space/b733_door2_out.txt",
+        "frontier/B733_observer_space/b733_growth.py (head 120 lines)",
+        "frontier/B733_observer_space/b733_growth_out.txt",
+        "frontier/B733_observer_space/b733_menu.py (head 120 lines)",
+        "frontier/B733_observer_space/b733_menu_out.txt",
+        "tests/test_b733_observer_space.py (executed, passes)"
+      ],
+      "files_sampled": ["b733_door2.py", "b733_growth.py", "b733_menu.py"],
+      "files_listed_only": [],
+      "claim_of_record": "The menu of observers at the congruence doors is a bounded discrete F_2-space (V4 of dim 2, up to 3; the full diagonal 2-rank saturating at 3, depth-independent), and at door 2 the single bit couples being and hearing. | verdict: PROVED",
+      "log_says": "PROGRESS_LOG (B733 entry + B733-CONSENSUS entry, 2026-07-21) records a two-seat consensus: cc's growth-law run plus cc2's independent complementary run (INERT2, BEINGBIT items resolved), both confirming bounded rather than continuum; Review 34 places this as one axis of a proved three-dimensional description of the object (WHERE x WHAT x WHICH CLOSING=3, B733 bounded + B766 rank-saturated).",
+      "log_consistency": "CONSISTENT",
+      "load_bearing": [
+        {
+          "what": "Door 2: c_2 (Frobenius mod 2) = Out(A5) = Z/2 exactly (|Aut(A5)|=120, |Inn|=60), and this single bit simultaneously swaps the 5A/5B classes (being) and the two Q(sqrt5) 3-dim irreps (hearing)",
+          "where": "b733_door2.py + b733_door2_out.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "F4 field arithmetic, SL(2,F4) group, conjugacy classes, and a class-algebra character-table computation are all built from scratch with explicit assert-verified field axioms; matches the committed test."
+        },
+        {
+          "what": "The observer bit-count stays in {0,1} at doors (2),(4),(sqrt-3),(3),12 within the being tower; the PSL door-4 kernel order is 16 (self-corrected from an earlier draft's wrong 64)",
+          "where": "b733_growth.py + b733_growth_out.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "Explicit finite quadratic-ring machinery (QRing class) computing ring automorphisms and unit groups at each door; the script's own header documents a self-caught correction to a prior submission's kernel-order error."
+        },
+        {
+          "what": "Full Out(G_n) does grow (Z/2 -> C2xC2 -> S4) but decomposes into a bounded Galois/Frobenius part + a saturating classical diagonal + a non-arithmetic (excluded) module-multiplicity Z/3; overall verdict: bounded, never a continuum",
+          "where": "b733_menu.py + b733_menu_out.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "partial",
+          "why": "The script header states it uses GAP 4.15 (via subprocess) for the automorphism-group piece that a prior draft omitted; pure-python parts (rings/groups) are self-contained, but the GAP-dependent parts need an external GAP install to rerun exactly. Documents two self-caught corrections (C1: kernel order 64->16; C2: 'no new automorphism structure' claim replaced by an honest decomposition) in its own header."
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "tests/test_b733_observer_space.py independently rebuilds F4/SL(2,F4) and checks the door-2 one-bit Out(A5) fact with fresh asserts; executed here, passes.",
+      "absence_claims": [],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [],
+      "seat_note": "One of the more rigorous arcs in the batch: three separate self-corrected computational passes (door2/growth/menu) converge on a bounded discrete F2 observer-space, explicitly contrasted with the SM's need for a continuous ~20-parameter space -- a genuine kind-mismatch argument, not a coincidence-hunt, and its two-seat cross-verification is logged and consistent."
+    }
+  ]
+}

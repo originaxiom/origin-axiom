@@ -119,3 +119,6 @@ by relay under integrate-don't-merge.
   claim_of_record, λ₁ = 2.974550580 and the RECOMPUTES belt match `arc_verdict.json`, FINDINGS and `results.json`;
   `arcs_102` / B1030_input_typing_audit (head `claude/new-session-qor5up`) — claim_of_record matches that head's
   `arc_verdict.json` ("ONE CONTINUOUS DIMENSIONLESS INPUT, NOT ZERO"). Reader quality holds on both.
+- 00:40 UTC: W-E part 2 done (claims 545–1068): 783 hand verdicts over both parts — 2 CONTRADICTED (one defect, two
+  heads), 44 SUPERSEDED, 13 OPEN_LATER (unmerged heads), 11 STANDS, 293 CONSISTENT, 206 NOISE, 11 GENERIC, 203
+  REGISTRY_ECHO. Part 3 (claims 1068–1374 from the packets that landed since) running. Arc packets 119/131.

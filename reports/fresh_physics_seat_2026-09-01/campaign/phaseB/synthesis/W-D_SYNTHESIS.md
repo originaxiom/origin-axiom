@@ -26,7 +26,7 @@ Final coverage: see `coverage.md` (<!--COV-->
 ## 2. The log versus the arcs — verified contradictions
 
 The readers classified every arc's `log_consistency` against the progress-log entries that mention it
-(`log_discrepancies.md`; as of this draft: 47 DRIFT/CONTRADICTION of 605 digested, 208 not in the log).
+(`log_discrepancies.md`; at 1219 of 1310 arcs digested: 80 DRIFT + 23 CONTRADICTION, 323 not in the log — refreshed at the final rollup).
 The seat verified the three sharpest at the source:
 
 | arc | what the arc's record of claim says | what the log says | verified where |
