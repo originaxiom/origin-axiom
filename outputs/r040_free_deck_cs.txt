@@ -1,0 +1,11 @@
+RESULT closed free orientation-reversing involution => cs = 0 mod 1
+DATA formal closed implication fixed-H1 parity / tau parity / 2cs mod2 = 0 0 0
+DATA SnapPy version = 3.3.2
+DATA nonorientable cusped census entries = 1260
+RESULT orientation-cover CS classes zero/quarter/other = 1260 0 0
+CONTROL orientability failures / cusp failures / duplicate names = 0 0 0
+CONTROL maximum |cover/base volume ratio - 2| = 2.220e-15
+DATA maximum absolute CS residue mod 1/2 = 1.776e-15
+PASS all 1260 finite cusped orientation covers are numerically CS-zero
+SCOPE the closed statement is a theorem; the cusped statement is a finite numerical census, not a universal theorem
+SCOPE no chirality, rank, generation, scale, dynamics or Standard-Model value follows

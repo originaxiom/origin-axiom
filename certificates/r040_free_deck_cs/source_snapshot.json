@@ -1,0 +1,34 @@
+{
+  "schema": "oa-r040-free-deck-cs-source-v1",
+  "fresh_main": "52010c9e",
+  "fresh_main_arc": "B1235",
+  "snappy_version": "3.3.2",
+  "nonorientable_cusped_census_size": 1260,
+  "primary_sources": {
+    "kawauchi_1981": {
+      "doi": "10.2969/jmsj/03340571",
+      "url": "https://www.jstage.jst.go.jp/article/jmath1948/33/4/33_4_571/_pdf/-char/en",
+      "scope": "closed oriented 3-manifold with an orientation-reversing involution",
+      "theorem_I": "torsion H1 is A plus A, or A plus A plus Z/2",
+      "definition_1_1": "alpha is zero exactly for the direct-double case",
+      "definition_1_2": "sigma is the mod-two rank of H1 of the fixed set",
+      "theorem_III": "alpha(M)=0 iff sigma(a,M)=0"
+    },
+    "cghn_2003": {
+      "title": "Computing Arithmetic Invariants of 3-Manifolds",
+      "url": "https://www.math.columbia.edu/department/neumann/preprints/snappaper3.pdf",
+      "normalization": "cs = CS/(2*pi^2)",
+      "closed_relation_page_14": "3 eta(M) = 2 cs(M) + tau modulo 2",
+      "tau": "number of 2-primary summands of H1(M;Z)",
+      "closed_target": "R/Z",
+      "cusped_target": "R/(1/2 Z)",
+      "cusped_eta_fence": "requires a chosen homology basis at each cusp",
+      "cusped_psl_fence": "fundamental class has an order-two ambiguity"
+    }
+  },
+  "declared_scope": {
+    "closed": "theorem",
+    "cusped": "finite numerical census only",
+    "physical": "no implication for the other seven B1234 walls"
+  }
+}
