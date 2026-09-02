@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/charter_pin.py",
+   "lines": 38
+  },
+  {
+   "path": "outside_bench/certificates/class_group_953.py",
+   "lines": 224
+  },
+  {
+   "path": "outside_bench/certificates/clocks_inventory.py",
+   "lines": 123
+  },
+  {
+   "path": "outside_bench/certificates/closure_claim_sweep.py",
+   "lines": 224
+  },
+  {
+   "path": "outside_bench/certificates/cp1_strata.py",
+   "lines": 236
+  }
+ ]
+}

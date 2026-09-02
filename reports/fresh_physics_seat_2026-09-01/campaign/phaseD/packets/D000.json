@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_codex",
+ "head": "codex",
+ "files": [
+  {
+   "path": "certificates/check_b1147_lock.py",
+   "lines": 41
+  },
+  {
+   "path": "certificates/oa_c1070_omega1_parity.py",
+   "lines": 156
+  },
+  {
+   "path": "certificates/r006_e6_invariants/jordan_beat.py",
+   "lines": 212
+  },
+  {
+   "path": "certificates/r006_e6_invariants/paper/verify/check_charge_bracket.py",
+   "lines": 382
+  },
+  {
+   "path": "certificates/r006_e6_invariants/tensor_invariant_counts.py",
+   "lines": 209
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/cp_column.py",
+   "lines": 186
+  },
+  {
+   "path": "outside_bench/certificates/cusp_beat.py",
+   "lines": 81
+  },
+  {
+   "path": "outside_bench/certificates/cusp_six_census.py",
+   "lines": 100
+  },
+  {
+   "path": "outside_bench/certificates/d2_scope.py",
+   "lines": 215
+  },
+  {
+   "path": "outside_bench/certificates/dark_beat.py",
+   "lines": 56
+  }
+ ]
+}

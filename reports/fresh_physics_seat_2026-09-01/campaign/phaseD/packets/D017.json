@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/dump_theta.py",
+   "lines": 32
+  },
+  {
+   "path": "outside_bench/certificates/e6_boundary.py",
+   "lines": 231
+  },
+  {
+   "path": "outside_bench/certificates/e7_ladder.py",
+   "lines": 238
+  },
+  {
+   "path": "outside_bench/certificates/essence_census.py",
+   "lines": 89
+  },
+  {
+   "path": "outside_bench/certificates/exchange_class.py",
+   "lines": 206
+  }
+ ]
+}

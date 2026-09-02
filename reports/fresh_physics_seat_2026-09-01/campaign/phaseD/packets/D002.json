@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_codex",
+ "head": "codex",
+ "files": [
+  {
+   "path": "certificates/r012_dark_ledger_scope.py",
+   "lines": 76
+  },
+  {
+   "path": "certificates/r013_rung_transfer.py",
+   "lines": 320
+  },
+  {
+   "path": "certificates/r014_paper4_counterexamples.py",
+   "lines": 97
+  },
+  {
+   "path": "certificates/r016_habiro_zeta3_embeddings.py",
+   "lines": 275
+  },
+  {
+   "path": "certificates/r017_yukawa_primary/verify_yukawa_cup_product_308_scope.py",
+   "lines": 149
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_codex",
+ "head": "codex",
+ "files": [
+  {
+   "path": "certificates/r006_e6_invariants/twisted_double.py",
+   "lines": 620
+  },
+  {
+   "path": "certificates/r008_peripheral_sheet_conjugacy.py",
+   "lines": 84
+  },
+  {
+   "path": "certificates/r009_c4_superposition/superposition_stdlib.py",
+   "lines": 119
+  },
+  {
+   "path": "certificates/r010_gl_class_m12.py",
+   "lines": 128
+  },
+  {
+   "path": "certificates/r011_ruelle_scope.py",
+   "lines": 46
+  }
+ ]
+}

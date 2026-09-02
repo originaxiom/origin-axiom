@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/b496_rediscovery.py",
+   "lines": 127
+  },
+  {
+   "path": "outside_bench/certificates/bit_ledger.py",
+   "lines": 179
+  },
+  {
+   "path": "outside_bench/certificates/branch_bit.py",
+   "lines": 159
+  },
+  {
+   "path": "outside_bench/certificates/breaking_chains.py",
+   "lines": 263
+  },
+  {
+   "path": "outside_bench/certificates/c1_weyl.py",
+   "lines": 90
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_codex",
+ "head": "codex",
+ "files": [
+  {
+   "path": "certificates/r017_yukawa_primary/verify_yukawa_exact_spectrum_no_go.py",
+   "lines": 67
+  },
+  {
+   "path": "certificates/r019_hypercharge/hypercharge_trinification_scope.py",
+   "lines": 234
+  },
+  {
+   "path": "certificates/r020_beat64/r020_beat64_principal.py",
+   "lines": 370
+  },
+  {
+   "path": "certificates/r021_gieseking_pinminus/gieseking_pinminus_restriction.py",
+   "lines": 123
+  },
+  {
+   "path": "certificates/r022_v4_torsors/v4_named_action_audit.py",
+   "lines": 246
+  }
+ ]
+}

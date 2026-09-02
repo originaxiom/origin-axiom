@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/twisted_double.py",
+   "lines": 620
+  },
+  {
+   "path": "outside_bench/certificates/two_pulses.py",
+   "lines": 129
+  },
+  {
+   "path": "outside_bench/certificates/unfold_close.py",
+   "lines": 129
+  },
+  {
+   "path": "outside_bench/certificates/uniqueness_chain.py",
+   "lines": 154
+  },
+  {
+   "path": "outside_bench/certificates/uniqueness_test.py",
+   "lines": 193
+  }
+ ]
+}

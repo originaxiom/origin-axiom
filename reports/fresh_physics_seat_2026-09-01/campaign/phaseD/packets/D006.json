@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_codex",
+ "head": "codex",
+ "files": [
+  {
+   "path": "certificates/r030_phi_cover_specialization/phi_cover_specialization.py",
+   "lines": 364
+  },
+  {
+   "path": "certificates/r031_sparse_toric_trace/sparse_toric_trace.py",
+   "lines": 199
+  },
+  {
+   "path": "certificates/r031a_b0_character_field/b0_character_field.py",
+   "lines": 106
+  },
+  {
+   "path": "certificates/r031b_rcft_scope/rcft_scope.py",
+   "lines": 137
+  },
+  {
+   "path": "certificates/r031d_observable_quotient/observable_quotient.py",
+   "lines": 128
+  }
+ ]
+}

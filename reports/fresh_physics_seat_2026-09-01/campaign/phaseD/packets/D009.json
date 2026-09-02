@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/amphichiral_word.py",
+   "lines": 149
+  },
+  {
+   "path": "outside_bench/certificates/anatomy_reconcile.py",
+   "lines": 154
+  },
+  {
+   "path": "outside_bench/certificates/anomaly_payment.py",
+   "lines": 125
+  },
+  {
+   "path": "outside_bench/certificates/atom_shape.py",
+   "lines": 213
+  },
+  {
+   "path": "outside_bench/certificates/b2_yukawa.py",
+   "lines": 169
+  }
+ ]
+}

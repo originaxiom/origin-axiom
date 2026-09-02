@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/l132_trinification.py",
+   "lines": 249
+  },
+  {
+   "path": "outside_bench/certificates/l173_gap_detector.py",
+   "lines": 196
+  },
+  {
+   "path": "outside_bench/certificates/l173_seal_path.py",
+   "lines": 150
+  },
+  {
+   "path": "outside_bench/certificates/lambda_rank.py",
+   "lines": 226
+  },
+  {
+   "path": "outside_bench/certificates/law_declaration_audit.py",
+   "lines": 169
+  }
+ ]
+}

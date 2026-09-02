@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/degree_ledger.py",
+   "lines": 138
+  },
+  {
+   "path": "outside_bench/certificates/depth_lock.py",
+   "lines": 203
+  },
+  {
+   "path": "outside_bench/certificates/dm_census.py",
+   "lines": 130
+  },
+  {
+   "path": "outside_bench/certificates/dm_stability.py",
+   "lines": 162
+  },
+  {
+   "path": "outside_bench/certificates/duality_index.py",
+   "lines": 288
+  }
+ ]
+}

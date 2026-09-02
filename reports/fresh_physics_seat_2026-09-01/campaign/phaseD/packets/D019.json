@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/first_beat_law.py",
+   "lines": 222
+  },
+  {
+   "path": "outside_bench/certificates/fixed_twin.py",
+   "lines": 123
+  },
+  {
+   "path": "outside_bench/certificates/founding_torsor.py",
+   "lines": 190
+  },
+  {
+   "path": "outside_bench/certificates/gamma5_reverser.py",
+   "lines": 81
+  },
+  {
+   "path": "outside_bench/certificates/gap_docs_currency.py",
+   "lines": 57
+  }
+ ]
+}

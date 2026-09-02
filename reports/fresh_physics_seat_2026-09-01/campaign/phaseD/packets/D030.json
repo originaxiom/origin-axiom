@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/queue_join_sweep.py",
+   "lines": 111
+  },
+  {
+   "path": "outside_bench/certificates/quine_build.py",
+   "lines": 188
+  },
+  {
+   "path": "outside_bench/certificates/relational_kappa.py",
+   "lines": 150
+  },
+  {
+   "path": "outside_bench/certificates/reversal_forces_symmetry.py",
+   "lines": 151
+  },
+  {
+   "path": "outside_bench/certificates/script_chain.py",
+   "lines": 145
+  }
+ ]
+}

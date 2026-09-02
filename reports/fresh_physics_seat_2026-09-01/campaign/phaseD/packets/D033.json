@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/susy_test.py",
+   "lines": 173
+  },
+  {
+   "path": "outside_bench/certificates/theta_dump.py",
+   "lines": 84
+  },
+  {
+   "path": "outside_bench/certificates/theta_even_fireability.py",
+   "lines": 132
+  },
+  {
+   "path": "outside_bench/certificates/trace_three.py",
+   "lines": 162
+  },
+  {
+   "path": "outside_bench/certificates/twist_parity.py",
+   "lines": 230
+  }
+ ]
+}

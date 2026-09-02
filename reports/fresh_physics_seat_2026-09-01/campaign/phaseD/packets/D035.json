@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/unit_trichotomy.py",
+   "lines": 173
+  },
+  {
+   "path": "outside_bench/certificates/vev_ledger.py",
+   "lines": 104
+  },
+  {
+   "path": "outside_bench/certificates/vol_basis_extended.py",
+   "lines": 70
+  },
+  {
+   "path": "outside_bench/certificates/vol_basis_probe.py",
+   "lines": 124
+  },
+  {
+   "path": "outside_bench/certificates/vol_hygiene.py",
+   "lines": 40
+  }
+ ]
+}

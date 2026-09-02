@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_codex",
+ "head": "codex",
+ "files": [
+  {
+   "path": "certificates/r023_b1196_generation_obstruction.py",
+   "lines": 61
+  },
+  {
+   "path": "certificates/r023_b1197_clock_coherence.py",
+   "lines": 121
+  },
+  {
+   "path": "certificates/r023_b1199_selection_recheck.py",
+   "lines": 150
+  },
+  {
+   "path": "certificates/r023_wave6_outside_hostile.py",
+   "lines": 214
+  },
+  {
+   "path": "certificates/r024_lepton_character_datum.py",
+   "lines": 103
+  }
+ ]
+}

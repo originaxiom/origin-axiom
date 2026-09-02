@@ -1,0 +1,18 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_codex",
+ "head": "codex",
+ "files": [
+  {
+   "path": "certificates/r033_identification_ratchet/identification_ratchet.py",
+   "lines": 92
+  },
+  {
+   "path": "certificates/r034_spin_identifications/spin_identification_audit.py",
+   "lines": 110
+  },
+  {
+   "path": "certificates/vendor/b1147_test_b1147_clane_harvest.py",
+   "lines": 46
+  }
+ ]
+}

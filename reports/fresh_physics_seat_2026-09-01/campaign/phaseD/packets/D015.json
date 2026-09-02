@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/dark_carrier.py",
+   "lines": 199
+  },
+  {
+   "path": "outside_bench/certificates/dark_law_p2.py",
+   "lines": 205
+  },
+  {
+   "path": "outside_bench/certificates/dark_ledger.py",
+   "lines": 138
+  },
+  {
+   "path": "outside_bench/certificates/dark_tower.py",
+   "lines": 156
+  },
+  {
+   "path": "outside_bench/certificates/dark_tower_counts.py",
+   "lines": 122
+  }
+ ]
+}

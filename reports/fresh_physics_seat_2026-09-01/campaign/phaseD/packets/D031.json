@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/second_climb.py",
+   "lines": 167
+  },
+  {
+   "path": "outside_bench/certificates/send_queue_readiness.py",
+   "lines": 126
+  },
+  {
+   "path": "outside_bench/certificates/shadow_pairing.py",
+   "lines": 210
+  },
+  {
+   "path": "outside_bench/certificates/simul_closing.py",
+   "lines": 372
+  },
+  {
+   "path": "outside_bench/certificates/simul_sweep.py",
+   "lines": 265
+  }
+ ]
+}

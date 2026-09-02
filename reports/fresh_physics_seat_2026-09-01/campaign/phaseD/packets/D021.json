@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/grav_ablation.py",
+   "lines": 190
+  },
+  {
+   "path": "outside_bench/certificates/h_theorem.py",
+   "lines": 170
+  },
+  {
+   "path": "outside_bench/certificates/habiro_at_zeta.py",
+   "lines": 317
+  },
+  {
+   "path": "outside_bench/certificates/hd_exhaustion.py",
+   "lines": 175
+  },
+  {
+   "path": "outside_bench/certificates/hitind.py",
+   "lines": 25
+  }
+ ]
+}

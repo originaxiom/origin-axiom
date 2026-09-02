@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/pattern_ladder.py",
+   "lines": 156
+  },
+  {
+   "path": "outside_bench/certificates/peripheral_dims.py",
+   "lines": 326
+  },
+  {
+   "path": "outside_bench/certificates/peripheral_identity.py",
+   "lines": 253
+  },
+  {
+   "path": "outside_bench/certificates/principal_witnesses.py",
+   "lines": 143
+  },
+  {
+   "path": "outside_bench/certificates/psi_survival.py",
+   "lines": 224
+  }
+ ]
+}

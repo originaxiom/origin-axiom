@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/gate_d_numerics.py",
+   "lines": 151
+  },
+  {
+   "path": "outside_bench/certificates/gaudin_close.py",
+   "lines": 267
+  },
+  {
+   "path": "outside_bench/certificates/geodesic_tongue.py",
+   "lines": 192
+  },
+  {
+   "path": "outside_bench/certificates/golden_excess_ensemble.py",
+   "lines": 206
+  },
+  {
+   "path": "outside_bench/certificates/grammar_disc48.py",
+   "lines": 131
+  }
+ ]
+}

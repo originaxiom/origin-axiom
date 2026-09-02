@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/p3_claim_trace.py",
+   "lines": 94
+  },
+  {
+   "path": "outside_bench/certificates/p3_hostile_h6.py",
+   "lines": 161
+  },
+  {
+   "path": "outside_bench/certificates/p3_hostile_read.py",
+   "lines": 325
+  },
+  {
+   "path": "outside_bench/certificates/paired_summary_check.py",
+   "lines": 397
+  },
+  {
+   "path": "outside_bench/certificates/paper/verify/check_charge_bracket.py",
+   "lines": 382
+  }
+ ]
+}

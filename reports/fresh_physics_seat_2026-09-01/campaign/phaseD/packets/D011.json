@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/c2_habiro.py",
+   "lines": 152
+  },
+  {
+   "path": "outside_bench/certificates/c2b_ohtsuki_bridge.py",
+   "lines": 124
+  },
+  {
+   "path": "outside_bench/certificates/c3_ohtsuki_large.py",
+   "lines": 94
+  },
+  {
+   "path": "outside_bench/certificates/c4_gue_larget.py",
+   "lines": 103
+  },
+  {
+   "path": "outside_bench/certificates/c4b_superposition.py",
+   "lines": 117
+  }
+ ]
+}

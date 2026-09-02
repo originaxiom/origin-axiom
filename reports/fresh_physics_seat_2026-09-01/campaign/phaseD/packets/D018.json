@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/family_census.py",
+   "lines": 194
+  },
+  {
+   "path": "outside_bench/certificates/family_portal_fine.py",
+   "lines": 535
+  },
+  {
+   "path": "outside_bench/certificates/family_rank.py",
+   "lines": 173
+  },
+  {
+   "path": "outside_bench/certificates/family_yukawa.py",
+   "lines": 321
+  },
+  {
+   "path": "outside_bench/certificates/fence_independence.py",
+   "lines": 192
+  }
+ ]
+}

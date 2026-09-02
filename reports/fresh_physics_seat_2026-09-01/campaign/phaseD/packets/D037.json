@@ -1,0 +1,14 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/z2_census.py",
+   "lines": 272
+  },
+  {
+   "path": "outside_bench/certificates/zeta_count.py",
+   "lines": 136
+  }
+ ]
+}

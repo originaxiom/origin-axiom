@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_codex",
+ "head": "codex",
+ "files": [
+  {
+   "path": "certificates/r025_lepton_tail_selection/lepton_tail_selection.py",
+   "lines": 175
+  },
+  {
+   "path": "certificates/r026_yukawa_determinant_frame/determinant_frame.py",
+   "lines": 539
+  },
+  {
+   "path": "certificates/r027_toric_top_trace/toric_top_trace.py",
+   "lines": 371
+  },
+  {
+   "path": "certificates/r028_toric_chart_frames/toric_chart_frames.py",
+   "lines": 337
+  },
+  {
+   "path": "certificates/r029_upstream_hostile_corrections.py",
+   "lines": 305
+  }
+ ]
+}

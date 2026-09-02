@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/c5_qp1.py",
+   "lines": 143
+  },
+  {
+   "path": "outside_bench/certificates/cancellation_residue.py",
+   "lines": 144
+  },
+  {
+   "path": "outside_bench/certificates/carrier.py",
+   "lines": 148
+  },
+  {
+   "path": "outside_bench/certificates/census_distinct.py",
+   "lines": 331
+  },
+  {
+   "path": "outside_bench/certificates/center_lock.py",
+   "lines": 100
+  }
+ ]
+}

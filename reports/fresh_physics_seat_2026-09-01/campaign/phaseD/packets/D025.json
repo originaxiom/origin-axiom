@@ -1,0 +1,26 @@
+{
+ "worktree": "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/wt_ob",
+ "head": "ob",
+ "files": [
+  {
+   "path": "outside_bench/certificates/minimal_factor.py",
+   "lines": 212
+  },
+  {
+   "path": "outside_bench/certificates/mirror_deepest.py",
+   "lines": 357
+  },
+  {
+   "path": "outside_bench/certificates/mirror_kernel.py",
+   "lines": 199
+  },
+  {
+   "path": "outside_bench/certificates/occupant_type.py",
+   "lines": 207
+  },
+  {
+   "path": "outside_bench/certificates/odd_index_asymmetry.py",
+   "lines": 144
+  }
+ ]
+}
