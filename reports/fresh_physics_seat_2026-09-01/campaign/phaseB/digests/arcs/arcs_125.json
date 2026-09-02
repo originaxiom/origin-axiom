@@ -1,0 +1,927 @@
+{
+ "batch": "arcs_125",
+ "arcs": [
+  {
+   "arc": "B8095_related_work_armor",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8095_related_work_armor/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8095_related_work_armor/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8095_related_work_armor/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8095_related_work_armor/relays/CC3_TO_CC_2026-08-20_L166_RESOLVED_AND_THE_CONVENTION_SETTLED.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8095_related_work_armor/relays/CC3_TO_CC_2026-08-20_L6_THE_ARMOR.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE PAPER'S RELATED-WORK ARMOR: FIVE DIFFERENTIATORS, EACH ENDING IN WHAT WE DO NOT CLAIM... (see arc_verdict.json for full text); status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "five differentiators vs Lisi/Furey/Connes/arithmetic-CS/genre, each with a 'we do not claim' clause",
+     "where": "FINDINGS.md lines 34-98; results.json",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is a literature-positioning essay, not a computation: sources are 'abstracts, review coverage and the D-G paper's stated theorem' (FINDINGS.md line 104-106). No script, no data file. The one hard citation (Distler-Garibaldi Thm 1.3) is IMPORTED (asserted from an external paper, not verified in-sandbox)."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No belt directory; a prose/citation arc with no code to re-run.",
+   "absence_claims": [
+    {
+     "quote": "I did not read Furey's or Connes' primary papers in full",
+     "where": "FINDINGS.md:106"
+    },
+    {
+     "quote": "We do NOT claim that a single exceptional Lie algebra derives chiral fermions or three generations.",
+     "where": "FINDINGS.md:47"
+    },
+    {
+     "quote": "we have no Dirac operator, no Lagrangian and no mass data at all",
+     "where": "FINDINGS.md:71-72"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "SCOPE explicitly states this is a positioning deliverable, not mathematics, and that Furey's/Connes' criticisms are 'the standing published criticisms' rather than this seat's independent assessment -- self-disclosed, not concealed, but it means the arc's central content (differentiation from rival programmes) rests on abstracts and secondhand characterizations of rival work, not primary-source verification.",
+     "where": "FINDINGS.md:102-107"
+    }
+   ],
+   "seat_note": "This is advocacy/positioning prose dressed as an audited arc (verdict PROVED); it makes no computation and no falsifiable claim, so 'PROVED' here means 'each row cites something', not that a physics claim was established."
+  },
+  {
+   "arc": "B8096_relaxed_residue",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8096_relaxed_residue/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8096_relaxed_residue/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8096_relaxed_residue/PREREGISTRATION.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8096_relaxed_residue/SEAL.txt",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8096_relaxed_residue/relaxed_hunt.py",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8096_relaxed_residue/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8096_relaxed_residue/relays/CC3_TO_CC_2026-08-20_I_TRIED_TO_BREAK_YOUR_NEGATIVE.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE RESIDUE HUNT RE-RUN WITH THE GUARD RELAXED: OUTCOME B, NO SUPPRESSED CANDIDATE IN THIS FAMILY, AND THE NEGATIVE IS NOW STRONGER; status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "all Klein-orbit invariants (4 elementary symmetric functions, orbit product/sum, per-class products) of the lambda/lambda^2 family over B^1, computed exactly over Q",
+     "where": "relaxed_hunt.py (full script); results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Exact Fraction arithmetic, preregistered (PREREGISTRATION.md) and SHA-256 sealed (SEAL.txt, digest over PREREGISTRATION.md bytes before relaxed_hunt.py existed) -- a stranger can rerun relaxed_hunt.py and check results.json."
+    },
+    {
+     "what": "the '77' divisibility (413*3047*953 divisible by 77) is vacuous because it is a product of two single-element facts already banked (B1076) with no coset mechanism",
+     "where": "relaxed_hunt.py; FINDINGS.md lines 157-167",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "computed directly in the script and checked against a preregistered vacuity control."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Re-derives the lambda^2(I)=-1 and denominator factorizations independently rather than trusting the banked values ('done independently today'); does not add a new belt/ directory but the seal+prereg function as a lightweight verification harness.",
+   "absence_claims": [
+    {
+     "quote": "cc3 does not merge, so 32 of cc's arcs are absent here",
+     "where": "(cross-referenced later in B8105, not this arc)"
+    },
+    {
+     "quote": "This does NOT vindicate the guard. B8092 finding 1 stands",
+     "where": "FINDINGS.md:171-173"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc explicitly narrows its own generality: it tests only B8092 finding 1, in one family, and states plainly that the owner's broader claim (gates suppressed findings) rests on B976/B8092 which this arc does not touch. Good discipline, not a flaw, but worth flagging that a reader skimming only the claim_one_line could over-read 'stronger negative' as closing the broader question.",
+     "where": "FINDINGS.md:169-181"
+    }
+   ],
+   "seat_note": "A clean, exactly-reproducible negative result (no residue survives) with a genuine preregistration/seal discipline; the physics content is purely group-theoretic bookkeeping over a Klein four-group, no observable is named."
+  },
+  {
+   "arc": "B8097_buried_results",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8097_buried_results/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8097_buried_results/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8097_buried_results/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8097_buried_results/relays/CC3_TO_CC_2026-08-20_NINETEEN_BURIED_AND_THE_CATALOGUES_ARE_OURS.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE BURIED-RESULTS HUNT: NINETEEN ITEMS IN TWO CATALOGUES, BOTH ALREADY WRITTEN BY THIS SEAT AND NEITHER ACTED ON; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "a census of 19 items across two pre-existing catalogues (docs/REPRESENTATION_TRIAGE.md PENDING items; docs/OPEN_LEADS.md B985 over-wide-closures section)",
+     "where": "FINDINGS.md (whole document); cites docs/REPRESENTATION_TRIAGE.md and docs/OPEN_LEADS.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Explicitly a transcription/ranking exercise -- 'I re-derived nothing' (FINDINGS.md:283). Reproducibility depends on the cited docs still existing at the quoted lines; not independently re-verified in this digest pass."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "A pure census arc; no code, no belt directory.",
+   "absence_claims": [
+    {
+     "quote": "None of this is a suppressed positive. No row here is a crossing that a gate hid.",
+     "where": "FINDINGS.md:274"
+    },
+    {
+     "quote": "L73 -- FALSIFIED by computation, 6/6 independently",
+     "where": "FINDINGS.md:265"
+    },
+    {
+     "quote": "the mechanism is not Gate 5... It is the synthesis layer",
+     "where": "FINDINGS.md:278-279"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Meta-finding is itself an absence/process claim: results are found but 'noticing has been treated as discharging' -- i.e. two catalogues already document these items and nothing acted on them. This is a governance complaint, not new physics/math content; ranking is this seat's own addition on top of B985's material.",
+     "where": "FINDINGS.md:210-218"
+    }
+   ],
+   "seat_note": "This is a procedural/governance audit (why known results sit unsynthesized) rather than new mathematics; its most physics-adjacent item (B867 Sakharov/baryogenesis gate) is only characterized secondhand as 'substantial and entirely unrowed', not verified here."
+  },
+  {
+   "arc": "B8098_L1_verified",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8098_L1_verified/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8098_L1_verified/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8098_L1_verified/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8098_L1_verified/verify_l1.py",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8098_L1_verified/relays/CC3_TO_CC_2026-08-20_B1098_MEETS_B959_STATE_THE_RELATION.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8098_L1_verified/relays/CC3_TO_CC_2026-08-20_I_PAID_ONE_DEBT_AND_IT_WAS_L1.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8098_L1_verified/relays/CC3_TO_CC_2026-08-20_TWO_DIGEST_ROUTES_ONE_MECHANICAL_CHECK.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8098_L1_verified/relays/CC3_TO_CC_2026-08-20_YOUR_FIX_TO_MY_GATE_AND_YES_TO_E844.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: L1 VERIFIED: TWO OF THE FIVE SELECTION CRITERIA PROVABLY CANNOT SEE THE DIFFERENCE BETWEEN THE OBJECT AND ITS SISTER; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "m003 and m004 are isovolumetric (volume 2.029883212819307, diff exactly 0.00e+00) so the volume selection criterion cannot discriminate the manifold from its sister",
+     "where": "verify_l1.py (full script, SnapPy); results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script calling SnapPy directly on named manifolds m003/m004, output written to results.json; a stranger with SnapPy can rerun it verbatim."
+    },
+    {
+     "what": "criterion 3 (arithmeticity) cannot discriminate BY THEOREM because it is a commensurability invariant (Reid) and m003~m004 (index 12 in PSL(2,O_-3))",
+     "where": "verify_l1.py comments; FINDINGS.md:331-335",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Reid's theorem and the index-12 commensurability claim are cited/imported from B803/B985, not re-derived or computed here."
+    },
+    {
+     "what": "m004 is torsion-free (H1=Z) while m003 has Z/5 torsion",
+     "where": "verify_l1.py; results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "direct SnapPy .homology() call, output in results.json."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "verify_l1.py is itself a small independent recomputation of the two sharpest sub-claims of a prior over-wide banked claim (L1); functions as its own verification belt even without a separate verification/ directory.",
+   "absence_claims": [
+    {
+     "quote": "no computation can rescue it (criterion 3)",
+     "where": "verify_l1.py inline comment"
+    },
+    {
+     "quote": "It does NOT show the object is unselected.",
+     "where": "FINDINGS.md:346"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "The arc itself states the target defect: 'm004 is THE selected object' is banked (elsewhere in the corpus) wider than what was proved ('m004 extremal along m=1..7'); this arc computationally narrows two of five criteria but the digest packet gives no evidence the original overclaiming banked statement was itself corrected/retracted in its home document -- only that this arc 'measures the gap' without reopening L1.",
+     "where": "FINDINGS.md:309-316, 360-364"
+    }
+   ],
+   "seat_note": "One of the stronger arcs in this batch: a genuinely computed, reproducible SnapPy result (isovolumetric sister manifolds) directly falsifying part of an over-wide selection claim; physics content is purely 3-manifold arithmetic, no observable is named."
+  },
+  {
+   "arc": "B8099_3d_completeness",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8099_3d_completeness/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8099_3d_completeness/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8099_3d_completeness/completeness.py",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8099_3d_completeness/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE 2+1 THEORY'S COMPLETENESS AUDIT: SIX OF ELEVEN REQUIREMENTS PRESENT, AND THE QUESTION ITSELF IS AMBIGUOUS BECAUSE THE CORPUS ATTACHES TWO DIFFERENT 3d THEORIES TO THE SAME MANIFOLD; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "classical datum for 4_1 (m004): geometric solution, 2 tetrahedra/1 cusp both regular ideal e^{i pi/3}, Vol=2.029883212819307, CS=-5.6e-17 (machine zero), H1=Z torsion-free",
+     "where": "completeness.py (full script, SnapPy+mpmath); results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script, exact SnapPy calls, gate() assertions with tolerances, output to results.json."
+    },
+    {
+     "what": "6 of 11 completeness-checklist requirements marked PRESENT, 1 PARTIAL, 1 AMBIGUOUS, 3 MISSING",
+     "where": "completeness.py CHECK list; FINDINGS.md checklist",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "the checklist statuses (PRESENT/PARTIAL/MISSING) are hardcoded strings in the script citing other arcs (B259, B1012, B262) by assertion, not independently recomputed here; a stranger cannot verify 'PRESENT' status from this arc's own files alone, only the classical datum rows."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ directory; the arc is itself framed as an audit ('measures before building'), not a belt on a prior claim.",
+   "absence_claims": [
+    {
+     "quote": "E6 as a DYNAMICAL gauge... MISSING (B262's own wall #2 -- open)",
+     "where": "completeness.py CHECK list; FINDINGS.md:414"
+    },
+    {
+     "quote": "the E6 state integral... MISSING (OPEN_PROBLEMS, flagged SPECIALIST)",
+     "where": "FINDINGS.md:415"
+    },
+    {
+     "quote": "the 4d lift... MISSING (B262's wall #4)",
+     "where": "FINDINGS.md:415"
+    },
+    {
+     "quote": "3d-3d is not a lift and cannot become one",
+     "where": "FINDINGS.md:435"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The 'two theories on one manifold' headline flags a real risk pattern: (A) T[4_1]=U(1)+2 chirals (abelian, from DGG dictionary) and (B) the E6 structure with the 27 matter rep are both attached to the SAME 3-manifold by different corpus routes, and the arc itself says these are NOT the same theory and the corpus's own B262 flags this as an open wall ('is E6 ever dynamical'). This is exactly the sort of dimension/structure coincidence (same manifold, two unrelated gauge-theoretic attachments) the seat rules ask to flag.",
+     "where": "FINDINGS.md:417-431"
+    }
+   ],
+   "seat_note": "A genuinely computed classical geometric datum (volume, CS=0, homology) plus an honest audit that the corpus's own E6 route and the DGG/3d-3d route are two different, uncombined theories on the same manifold; no observable/prediction is made, purely structural bookkeeping."
+  },
+  {
+   "arc": "B8100_oneloop_geodesic",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8100_oneloop_geodesic/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8100_oneloop_geodesic/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8100_oneloop_geodesic/oneloop.py",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8100_oneloop_geodesic/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE ONE-LOOP GEODESIC FACTOR COMPUTED FROM THE OBJECT'S OWN SPECTRUM, AND THE MISSING CUSP PIECE LOCATED IN B739; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Giombi-Maloney-Yin graviton product Z_geod over 4_1's complex length spectrum: log Z_geod = -0.272977 +/- 2.0e-3",
+     "where": "oneloop.py (full script, SnapPy); results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script computes logZ(cut) at multiple cutoffs up to 5.5, prints deltas, checks convergence direction; a stranger can rerun."
+    },
+    {
+     "what": "systole reproduces 1.087070144995739; geodesics come in complex-conjugate pairs; cutoff pushed to 5.5 giving 214 classes / 2819 geodesics with multiplicity",
+     "where": "oneloop.py; FINDINGS.md CORRECTION note lines 35",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "directly computed and checked with gate() assertions."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The arc contains its own dated CORRECTION (2026-08-21) noting a stale prose count (134/1221, the cutoff-5.0 numbers) was left in place after the computation had moved to cutoff 5.5; caught by a later arc (B1107) doing an independent from-scratch reproduction that agreed to 3.6e-15, and by B8112 printing the correct numbers in the same seat without the contradiction being noticed at the time.",
+   "absence_claims": [
+    {
+     "quote": "the contradiction with this line went unread",
+     "where": "FINDINGS.md:35 (CORRECTION note)"
+    },
+    {
+     "quote": "This is not the one-loop partition function of the object.",
+     "where": "FINDINGS.md:46"
+    },
+    {
+     "quote": "the cusp carries a continuous spectrum that this product omits entirely",
+     "where": "FINDINGS.md:48-49"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "A self-correction, not log drift per se, but flags a documented instance where a stale, wrong number (134 classes/1221 geodesics vs the correct 214/2819) sat uncorrected in the arc's own FINDINGS.md prose for some period until an unrelated later arc's independent reproduction surfaced the discrepancy -- a real instance of a wrong number persisting in a committed document despite a contradicting computation existing in the same seat's own later output (B8112).",
+     "where": "FINDINGS.md:35"
+    },
+    {
+     "kind": "NUMERIC_ONLY_NO_EXACT",
+     "detail": "The headline number (log Z_geod = -0.272977 +/- 2.0e-3) is explicitly non-convergent/oscillatory and only a bounded numeric estimate, honestly labeled with an uncertainty equal to the last delta rather than a converged value -- flagged here only because a reader could mistake the precision of the printed digits for more significance than the arc itself claims.",
+     "where": "FINDINGS.md:39-42"
+    }
+   ],
+   "seat_note": "A genuinely computed spectral invariant (not a partition function, as the arc itself insists) with an honestly disclosed self-correction of a stale prose number; purely mathematical/structural, no measured physical quantity."
+  },
+  {
+   "arc": "B8101_scattering_verified",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8101_scattering_verified/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8101_scattering_verified/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8101_scattering_verified/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8101_scattering_verified/scattering.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: B739'S SCATTERING DETERMINANT IS VERIFIED TO BE ONE, phi(1) = -1 IS THE NON-TRIVIAL SIGN, AND FIVE OF SEVEN ONE-LOOP INGREDIENTS ARE IN HAND; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Lambda_K(s)=Lambda_K(1-s) to <1e-25; phi(s)phi(2-s)=1 to <1e-25 (H^3 unitarity, not the 2d phi(s)phi(1-s)); phi(1)=-1",
+     "where": "scattering.py (full script, mpmath dps=25); results.json (implied, not separately printed above)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed mpmath script defining LamK(s) and phi(s) from zeta/L-function formulas for K=Q(sqrt(-3)), tested at several sample points with gate() assertions to <1e-25; independently rerunnable."
+    },
+    {
+     "what": "5 of 7 one-loop ingredients 'in hand' (volume, geodesic/discrete term, scattering determinant, symmetric-point term, continuous integrand); 2 missing (spin-2 test function h(r) for a cusped quotient; the assembled determinant)",
+     "where": "FINDINGS.md table lines 119-127",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "the 'in hand' status of items imported from B8099/B8100 is asserted by reference to those arcs' own values, not recomputed here."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "scattering.py independently recomputes the functional equation and unitarity of B739's banked scattering determinant formula rather than trusting the citation -- functions as its own verification belt.",
+   "absence_claims": [
+    {
+     "quote": "GMY's product is derived for handlebodies and closed quotients; the boundary-graviton h(r) appropriate to a finite-volume cusped manifold is the one object none of these rungs supplies",
+     "where": "FINDINGS.md:131-134"
+    },
+    {
+     "quote": "Does not assemble the one-loop determinant and does not claim a partition function.",
+     "where": "FINDINGS.md:139-140"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The results.json for this arc was not printed to the transcript separately in this pass (only inferred from FINDINGS.md and scattering.py); its full content was not independently re-verified against the script's actual numeric output beyond what the FINDINGS.md table reproduces.",
+     "where": "B8101_scattering_verified/results.json (file exists, contents summarized only via FINDINGS.md in this digest)"
+    }
+   ],
+   "seat_note": "A carefully self-checked mathematical result (unitarity of a scattering determinant on H^3) with an honestly named remaining gap (a spin-2 test function for cusped quotients); no physical observable is claimed."
+  },
+  {
+   "arc": "B8102_cusped_gap",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8102_cusped_gap/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8102_cusped_gap/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8102_cusped_gap/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE CUSPED ONE-LOOP PROBLEM IS A LITERATURE GAP -- A BRIDGE, NOT A VOID -- AND THE OBJECT HOLDS THE INPUT THAT IS USUALLY THE OBSTACLE; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "arXiv:2507.05364 explicitly scopes to 'cusp-free' quotients only; arXiv:1206.0228 and math/0111175 give cusped-manifold analytic-torsion/eta-invariant machinery via Ruelle zeta",
+     "where": "results.json; FINDINGS.md lines 171-197",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "purely a literature claim from reading abstracts (and one scope sentence in full text); no committed code, no primary paper read in full per the arc's own SCOPE statement."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Literature-only arc, no code or belt.",
+   "absence_claims": [
+    {
+     "quote": "abstracts were read, not full papers... a specialist may know of work these searches did not surface",
+     "where": "FINDINGS.md:214-216 / results.json 'not_claimed'"
+    },
+    {
+     "quote": "The AdS3 one-loop application excludes cusps. The two have not been joined for this case.",
+     "where": "FINDINGS.md:192-193"
+    },
+    {
+     "quote": "Not that no cusped one-loop result exists anywhere",
+     "where": "FINDINGS.md:214"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "This arc's central claim (a bridging gap exists between two published results) rests entirely on reading abstracts, explicitly labeled 'NEEDS-SPECIALIST-CONFIRMED' by the arc's own honest_label field in results.json -- appropriately caveated but load-bearing for the next arc B8104's retraction.",
+     "where": "results.json 'honest_label': 'NEEDS-SPECIALIST-CONFIRMED'"
+    }
+   ],
+   "seat_note": "A literature-search arc (not a computation) whose main output is a gap-identification later retracted within two hours by the very next arc (B8104) after the seat actually read the paper -- an instructive case of a NEEDS-SPECIALIST label being premature by the seat's own later admission."
+  },
+  {
+   "arc": "B8103_specialist_revisit",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8103_specialist_revisit/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8103_specialist_revisit/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8103_specialist_revisit/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE SPECIALIST REGISTER REVISITED: TWO OF SEVEN WERE NEVER SPECIALIST GATES, AND THE HIGHEST-WEIGHT ONE IS NOW SUBSTANTIALLY DISCHARGED; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "no E6 (or any exceptional-group) character-variety work for knot/3-manifold groups found in two web searches; SL(3) confirmed as the literature frontier (arXiv:1505.04451, arXiv:1412.4711)",
+     "where": "results.json 'E6_work_found': false; FINDINGS.md lines 270-281",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "two web searches, not committed as scripts/queries; results asserted from search results, not from any committed file a stranger could rerun identically (search engines are not reproducible witnesses)."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Literature-only arc, no code.",
+   "absence_claims": [
+    {
+     "quote": "no E6, indeed no exceptional-group, character-variety work for knot or 3-manifold groups surfaced on either query",
+     "where": "FINDINGS.md:276-277 / results.json 'E6_work_found': false, 'exceptional_group_character_variety_work_found': false"
+    },
+    {
+     "quote": "the row itself says it may already exist. Untested.",
+     "where": "FINDINGS.md:262-263 (B391)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc's core evidentiary basis is 'two web searches' explicitly acknowledged as 'stronger than the original (none) and weaker than a specialist read' -- an absence claim (no E6 character-variety literature found) resting on non-reproducible search queries rather than a committed, rerunnable search log or witness file.",
+     "where": "FINDINGS.md:297-299"
+    }
+   ],
+   "seat_note": "A useful governance point (specialist gates expire) but the physics/math content -- absence of E6 character-variety literature -- is asserted from un-logged web searches, not from any committed, reproducible artifact."
+  },
+  {
+   "arc": "B8104_pfaff_formula",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8104_pfaff_formula/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8104_pfaff_formula/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8104_pfaff_formula/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE CUSPED FORMULA EXISTS EXPLICITLY, AND THIS RETRACTS THIS SEAT'S OWN TWO-HOUR-OLD NEEDS-SPECIALIST LABEL; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Pfaff arXiv:1206.0228 Theorem 1.2 formula for cusped hyperbolic 3-manifold analytic torsion ratios, with kappa(X)=1 and vol(X)=2.029883212819307 for the object",
+     "where": "results.json 'source'; FINDINGS.md lines 340-351",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "theorem statement transcribed from the cited paper; kappa and vol values cited from B8099 (already flagged COMPUTED there)."
+    },
+    {
+     "what": "cusp defect c(m)/c(2) computed as 0.7121 (m=3), 0.5532 (m=4), 0.4523 (m=5); volume factor 0.02072, 1.179e-4, 1.842e-7",
+     "where": "results.json 'our_ingredients'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "these numbers are presented as 'computed here' but this arc's file list has NO .py script -- only FINDINGS.md, arc_verdict.json, results.json. There is no committed code that produced these specific decimals; a stranger cannot reproduce c(m) from Pfaff's formula using only what is in this directory."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No script, no belt; results.json holds numbers with no computational witness in this directory.",
+   "absence_claims": [
+    {
+     "quote": "It was the second hit of the first search, and I labelled the gap NEEDS-SPECIALIST before reading it. The error was mine and the label was premature.",
+     "where": "FINDINGS.md:380-382"
+    },
+    {
+     "quote": "Not that we have the one-loop partition function. We do not.",
+     "where": "FINDINGS.md:378"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "results.json reports specific computed decimals (cusp_defect and volume_factor for m=3,4,5) with no accompanying script in the arc directory (files listed for this arc are FINDINGS.md, arc_verdict.json, results.json only) -- a stranger cannot reproduce these numbers from the committed files alone, only from the closed-form Pfaff formula transcribed in prose.",
+     "where": "results.json 'our_ingredients'; directory listing (no .py file present)"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "This arc explicitly retracts B8102's NEEDS-SPECIALIST-CONFIRMED label after only ~2 hours ('label_lifetime_hours': 2); the retraction is recorded here but the digest packet gives no evidence the retraction was propagated back to update B8102's own FINDINGS.md/arc_verdict.json (B8102's arc_verdict.json as read still stands with its original NEEDS-SPECIALIST framing, only cross-referenced by this later arc).",
+     "where": "results.json 'retracts': \"B8102's NEEDS-SPECIALIST-CONFIRMED label on the cusped one-loop gap\""
+    }
+   ],
+   "seat_note": "The core theorem citation (Pfaff, Thm 1.2) is a real, checkable published result, but this seat's own numeric outputs for its object (cusp defect, volume factor) have no committed script -- exactly the 'proof does not necessarily mean a proof' pattern the seat rules warn about."
+  },
+  {
+   "arc": "B8105_r48_phase1",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8105_r48_phase1/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8105_r48_phase1/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8105_r48_phase1/live_surfaces.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8105_r48_phase1/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8105_r48_phase1/relays/CC3_TO_CC_2026-08-21_SHARPEN_THE_REGISTRY_GATE_BEFORE_YOU_BUILD_IT.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: R48 PHASE 1, RUN COLD: THE THEOREM REGISTRY HAS BEEN VIOLATING ITS OWN STANDING SAME-PR RULE FOR 179 ARCS, AND NO GATE READS THAT RULE; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "docs/THEOREM_REGISTRY.md's own standing rule (every theorem/law-creating bank adds its line in the same PR) has been unenforced: 56 entries topping out at B920 against a corpus at B1099; B1012, B1076, B1080, B1085, B1088, B1094, B1098 checked individually and absent",
+     "where": "FINDINGS.md lines 55-68; docs/THEOREM_REGISTRY.md (cited, not quoted in full)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "checking presence/absence of specific arc IDs in a markdown registry is a simple, in-principle-reproducible grep, but no script is committed in this arc directory -- it's presented as a manual check against origin/main at a stated commit."
+    },
+    {
+     "what": "of 126 synthesis surfaces, 57 lag below B1000; 21 dated snapshots (legitimately frozen) vs 36 undated live-surface candidates",
+     "where": "FINDINGS.md lines 38-49; live_surfaces.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "live_surfaces.json presumably lists the 36 candidates (not independently opened line-by-line here), but no script producing the 126/57/21/36 counts is committed in this directory."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "This IS itself a belt/audit arc against the whole corpus's synthesis surfaces (a full-corpus review), but its own working method (which commands produced the counts) is not committed as a script.",
+   "absence_claims": [
+    {
+     "quote": "cc3 does not merge, so 32 of cc's arcs are absent here",
+     "where": "FINDINGS.md:31-32"
+    },
+    {
+     "quote": "checked individually and absent: B1012..., B1076, B1080, B1085, B1088, B1094 and B1098",
+     "where": "FINDINGS.md:60-62"
+    },
+    {
+     "quote": "no gate reads it",
+     "where": "FINDINGS.md:67-68 (arc_verdict.json claim_one_line)"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The currency-spine counts (126 surfaces, 57 lagging, 21 dated/36 undated) and the registry-absence check (B1012 etc. absent from THEOREM_REGISTRY.md) are presented as findings but no script/query is committed in the arc directory to let a stranger reproduce the exact counts against origin/main at the stated commit; only live_surfaces.json (a result artifact) is present.",
+     "where": "arc directory listing; FINDINGS.md lines 38-68"
+    }
+   ],
+   "seat_note": "A meta-governance audit of the corpus's own documentation currency; genuinely useful process finding (a stated rule going unenforced), but zero physics content and its own headline counts lack a committed reproduction script."
+  },
+  {
+   "arc": "B8106_r48_phase2",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8106_r48_phase2/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8106_r48_phase2/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8106_r48_phase2/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8106_r48_phase2/relays/CC3_TO_CC_2026-08-21_R48_F2_THE_LEDGER_THE_WAVE_MISSED.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: R48 PHASE 2: A REQUIREMENTS LEDGER STILL RECORDS AS MISSING A THING THE SAME WINDOW SUPPLIED; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "docs/GUT_REQUIREMENTS_LEDGER.md's theorem (measurements are rank-preserving, cannot reach rank 4) is correct and correctly scoped to semisimple centralizers, but its named-missing-mechanism list is stale because B1098 (nilpotent stratum) reaches su(3)+su(3) at rank exactly 4 via a route the ledger's own three-mechanism list does not include",
+     "where": "FINDINGS.md lines 101-123",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "relies on citing B1098/B1100's own (unaudited here) claim that rank 4 is reached with complex matter; this arc explicitly states 'the complex-matter claim is cited as cc's and not audited here' (per B8107's later scope note)."
+    },
+    {
+     "what": "docs/UNIFIED_STATE.md at lag 192 contains none of B1080, B1094, B1098, B1100",
+     "where": "FINDINGS.md lines 140-142",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "simple text-presence check, no script committed."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "A phase of the same R48 corpus-wide audit; verifies 2 of B8105's 36 candidates.",
+   "absence_claims": [
+    {
+     "quote": "34 remain untriaged",
+     "where": "FINDINGS.md:154"
+    },
+    {
+     "quote": "A document named 'unified state' that does not know the hatch opened",
+     "where": "FINDINGS.md:141"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "This arc leans on B1098/B1100's claim of 'rank exactly 4 via the object's own non-abelian holonomy, with complex matter' as an established fact to prove the ledger stale -- but that underlying claim is itself explicitly flagged (by B8107, the very next arc in this batch) as 'cited as cc's and not audited here.' A downstream governance finding rests on an upstream physics claim this seat has not independently checked.",
+     "where": "FINDINGS.md:118-123; cross-check B8107 FINDINGS.md:227"
+    }
+   ],
+   "seat_note": "Governance/documentation-currency finding, not physics; correctly and explicitly declines to re-derive or audit the B1098/B1100 group-theory claim it depends on, which is honest but means the load-bearing physics claim underneath ('reaches SM rank exactly 4') is imported, unverified here."
+  },
+  {
+   "arc": "B8107_r48_verify",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8107_r48_verify/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8107_r48_verify/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8107_r48_verify/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8107_r48_verify/relays/CC3_TO_CC_2026-08-21_BOTH_HOLD_AND_ONE_NEW_LOW.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8107_r48_verify/relays/CC3_TO_CC_2026-08-21_P1_DEFECT2_IS_NOT_LIVE_VERIFIED_IN_THE_TARBALL.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: R48 VERIFICATION: BOTH FIXES HOLD, AND THE F1 FIX CREATED ONE NEW INSTANCE OF F1'S OWN PATTERN; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "R48-F1 backfill verified real (B1012, B1080, B1094, B1098, B1100 present in THEOREM_REGISTRY.md) and gate_theorem_registry correctly scoped to creates_law:True only",
+     "where": "FINDINGS.md lines 180-190",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "text-presence checks against origin/main, no committed script."
+    },
+    {
+     "what": "the submitted paper tarball (oa-structure-paper.tar.gz) main.tex line 1549 no longer carries the dash defect; tarball MD5 0b4305200e07f12b5fe734e9ca96800b matches working copy",
+     "where": "relays/CC3_TO_CC_2026-08-21_P1_DEFECT2_IS_NOT_LIVE_VERIFIED_IN_THE_TARBALL.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "MD5 checked directly against the actual submitted artifact -- a genuinely strong verification method, but the tarball itself is not part of this arc's committed file list per the packet."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "This arc is explicitly a verification pass over B8105/B8106's fixes ('a cold review does not accept that on the label'), checking origin/main directly rather than trusting the RESOLVED labels.",
+   "absence_claims": [
+    {
+     "quote": "does not mention it... a seat following the binding checklist exactly would omit a required field",
+     "where": "FINDINGS.md:206-213 (R48-F4)"
+    },
+    {
+     "quote": "No re-derivation of B1098/B1100's mathematics -- the complex-matter claim is cited as cc's and not audited here",
+     "where": "FINDINGS.md:226-227"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "R48-F4 (BANKING_PROTOCOL.md missing the creates_law field from its binding checklist) is itself an instance of the exact pattern F1 diagnosed ('the gate exists, the protocol does not say it'), self-flagged by the seat as evidence the failure mode is structural rather than incidental -- a legitimate and well-caught governance recursion, not a red flag against the seat.",
+     "where": "FINDINGS.md:214-218"
+    }
+   ],
+   "seat_note": "Solid verification discipline (MD5-checked tarball, explicit re-reading of resolved claims rather than trusting labels) but zero physics content; explicitly declines to audit the B1098/B1100 group-theory claim underneath the whole R48 phase-2/3 chain."
+  },
+  {
+   "arc": "B8108_r48_phase3",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8108_r48_phase3/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8108_r48_phase3/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8108_r48_phase3/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8108_r48_phase3/triage.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: R48 PHASE 3: 13 OF 36 CANDIDATES DISSOLVE ON ONE MECHANICAL TEST, AND THE REMEDY ALREADY EXISTS IN-CORPUS; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "of 36 undated live surfaces, 13 carry a supersession/archival banner (correctly handled, not defects), 23 do not, of which 21 are genuinely untriaged",
+     "where": "FINDINGS.md lines 34-43; triage.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "a header-regex 'discriminator' was built and run, but the script itself is not listed among this arc's files (only triage.json, a result); the arc explicitly flags its own discriminator as having false positives (BANKING_PROTOCOL wrongly marked 'handled')."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "Continues the R48 corpus audit; explicitly self-critiques its own instrument.",
+   "absence_claims": [
+    {
+     "quote": "No document was edited -- R48 reports, it does not repair.",
+     "where": "FINDINGS.md:72-73"
+    },
+    {
+     "quote": "the discriminator is a header regex and it has false positives",
+     "where": "FINDINGS.md:63-64"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The header-regex discriminator that classified 13/36 candidates as 'handled' is described in prose but no script is present among this arc's committed files (only triage.json, a results artifact) -- a stranger cannot rerun the exact classification.",
+     "where": "arc directory listing (FINDINGS.md, arc_verdict.json, results.json, triage.json -- no .py)"
+    }
+   ],
+   "seat_note": "A methodologically self-aware governance audit (it catches its own instrument's false positives) but, like its siblings, purely process/documentation content with no physics and no committed reproduction script for its central 13/23/21 split."
+  },
+  {
+   "arc": "B8109_r48_close",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8109_r48_close/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8109_r48_close/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8109_r48_close/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: R48 CLOSE: FOUR FINDINGS, ZERO NEW IN PHASES 3-4, AND THE LAG SCAN WAS THE WRONG INSTRUMENT; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "lag-scan hit rate ~6% (2 real findings from 36 candidates); banner discriminator had 7/13 false positives on a second pass; an 'overturned-claim' scan with a positive control returned exactly one hit (F2 itself) across 30 no-banner surfaces",
+     "where": "FINDINGS.md lines 108-136",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "no script committed in this arc's directory (only FINDINGS.md, arc_verdict.json, results.json); the described scans (first with a broken regex that could not cross markdown hard-wraps, returning a false 0-of-23) are narrated but not reproducible from these files alone."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "This is the closing summary of the R48 review; no new belt.",
+   "absence_claims": [
+    {
+     "quote": "21+ surfaces carry lag without a verified defect -- recorded as not findings",
+     "where": "FINDINGS.md:151-152"
+    },
+    {
+     "quote": "My first overturned-claim scan returned 0 of 23 and I nearly reported the corpus clean.",
+     "where": "FINDINGS.md:129"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The scan methodology that produced 'zero new findings' (the overturned-claim scan with positive control) is narrated in detail but the actual scan script/regex is not committed in this arc's directory -- reproducibility of the 'zero new findings' claim depends entirely on prose description.",
+     "where": "arc directory listing; FINDINGS.md lines 118-136"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "The arc honestly reports its own near-miss (a broken regex that could not cross markdown hard-wraps nearly produced a false 'corpus clean' claim) -- good self-correction discipline, flagged here only because it is the second such self-caught false-zero this seat records in the same short window (the first being an apostrophe breaking a grep in the B8107 relay).",
+     "where": "FINDINGS.md:127-136"
+    }
+   ],
+   "seat_note": "The R48 review's honest methodological conclusion -- that its own primary instrument (lag scanning) has a ~6% hit rate and its secondary instrument (banner regex) is unreliable at both ends -- is itself the most valuable output; no physics content, and the final negative's reproducibility rests on narrated rather than committed scripts."
+  },
+  {
+   "arc": "B8110_scale_factorisation",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8110_scale_factorisation/ADDENDUM_2026-08-21.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8110_scale_factorisation/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8110_scale_factorisation/ORIGINAL_2026-08-12_THE_SCALE_FACTORISATION.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8110_scale_factorisation/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8110_scale_factorisation/relays/CC3_TO_CC_2026-08-21_THE_SCALE_FACTORISATION_RESENT_WITH_ADDENDUM.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE SCALE-FACTORISATION DOCUMENT RECOVERED AND RESENT WITH A NINE-DAY ADDENDUM, AND THREE OF ITS OWN DECLARED NOT-SEARCHED ITEMS HAVE MOVED; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the scale factor is blind by a second, independent argument: the scale torsor is the non-compact ray R+, whose Haar measure dx/x is not normalisable, so there is no uniform prior on scale at all (joining the existing Hom(G,R+)=0 argument)",
+     "where": "ADDENDUM_2026-08-21.md 'The blind factor now has a second, measure-theoretic proof' section",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "a mathematical argument stated in prose, not accompanied by a script in this arc; plausible on its face (non-compact groups lack invariant probability measures) but not independently checked here."
+    },
+    {
+     "what": "B8089's L144 result cited: over the object's derived 16, the 't Hooft anomaly layer is identically zero",
+     "where": "ADDENDUM_2026-08-21.md 'ratio lane's sharpest hope closed' section",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "cited from a different arc (B8089), not reproduced here."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No code files in this arc; a recovered document plus a prose addendum.",
+   "absence_claims": [
+    {
+     "quote": "the field has fifty years of experiment and the corpus has never read it as a target",
+     "where": "ADDENDUM_2026-08-21.md, quoting the 2026-08-12 original"
+    },
+    {
+     "quote": "Neither is run.",
+     "where": "ADDENDUM_2026-08-21.md 'Its item 3 -- SHARPENED' section, re: genericity control and gap-labeling differential"
+    },
+    {
+     "quote": "Phase-0 item 0 (the genericity control's sealed design) remains unrun and remains mine",
+     "where": "ADDENDUM_2026-08-21.md 'What has NOT changed' section"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md for this arc carries an explicit, dated notice: 'RECONSTRUCTED 2026-08-26 from this arc's own banked record... This seat stopped writing FINDINGS.md at B8110 and the omission ran unbroken through B8134 -- sixteen arcs. It went uncaught because the lock that detects it lives in a suite too slow to finish inside a session.' This is the single most important process/governance fact discovered while reading this batch: a 16-arc-long gap in contemporaneous FINDINGS.md documentation, self-disclosed only in retrospect five days later.",
+     "where": "FINDINGS.md, header block (lines 1-9)"
+    }
+   ],
+   "seat_note": "The physics content (scale-factor blindness via a Haar-measure argument on the non-compact ray R+) is a real, if unverified-here, mathematical point; but the arc's own FINDINGS.md is a 2026-08-26 RECONSTRUCTION admitting FINDINGS.md was not written contemporaneously for 16 consecutive arcs (B8110-B8134), which materially weakens confidence in the documentary record for this and the next several batches."
+  },
+  {
+   "arc": "B8111_genericity_control",
+   "source": "unknown (packet did not surface a source hash)",
+   "files_read": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8111_genericity_control/FINDINGS.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8111_genericity_control/PREREGISTRATION.md",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8111_genericity_control/SEAL.txt",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8111_genericity_control/arc_verdict.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8111_genericity_control/results.json",
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8111_genericity_control/relays/CC3_TO_CC_2026-08-21_ITEM_0_RUN_THE_CONTROL_BITES_ON_2_OF_5.md"
+   ],
+   "files_sampled": [
+    "/tmp/claude-0/-home-user-origin-axiom/def55705-87fb-5c25-8c65-d57916765de8/scratchpad/phaseB/worktrees/paper_structure-genesis-first/frontier/B8111_genericity_control/genericity_control.py (first 120 lines + grep sample)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "claim_one_line: THE GENERICITY CONTROL BITES -- BUT ON 2 OF 5 TONES, AND THE SEALED PREDICTION WAS WRONG; status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "tone menus of 2T/2O/2I (binary polyhedral groups, McKay E6/E7/E8) built by exact quaternion closure (no character table typed in): 2T={0,1/2,1} (rational), 2O={0,1/2,sqrt2/2,1} (silver, 4 tones), 2I={0,1/(2phi),1/2,phi/2,1} (5 tones)",
+     "where": "genericity_control.py (exact Fraction/quaternion arithmetic, full script); results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact symbolic arithmetic in Q(sqrt2,sqrt5), groups built by multiplicative closure from generators (not typed in from a table), preregistered SHA-256 sealed before the script existed (SEAL.txt digest of PREREGISTRATION.md, 9416 bytes); companion tests/test_b8111_genericity_control.py cited (10 assertions read from results.json)."
+    },
+    {
+     "what": "sealed prediction was OUTCOME B (2O would carry a 5-tone menu); actual result is OUTCOME A (2O carries only 4 tones) -- prediction wrong, recorded plainly",
+     "where": "FINDINGS.md 'The sealed prediction, and how it failed'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the prediction was recorded in PREREGISTRATION.md before compute per its own seal discipline, and the actual computed menus falsify it -- a clean, honest falsification of the seat's own hypothesis."
+    },
+    {
+     "what": "the Fricke/Vogt invariant kappa is preserved exactly and symbolically under the metallic trace map for m=1,2,3 (golden/silver/bronze), so kappa is provably generic across the metallic family while the tone menu is not",
+     "where": "genericity_control.py (Cayley-Hamilton symbolic trace map section); FINDINGS.md 'the hazard is CONFIRMED on the other route'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "symbolic (not sampled) preservation check in Z[x,y,z], committed in the script."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The arc is itself a preregistered, sealed control designed to try to break the seat's own prior (2026-08-12) crossing proposal; companion test file tests/test_b8111_genericity_control.py functions as an explicit belt (10 assertions read from results.json, not prose).",
+   "absence_claims": [
+    {
+     "quote": "13 occurs nowhere",
+     "where": "FINDINGS.md:61 (bronze/sqrt13 argument)"
+    },
+    {
+     "quote": "Silver has a matched group; bronze does not.",
+     "where": "FINDINGS.md:66"
+    },
+    {
+     "quote": "That this arc does NOT establish... that a silver-substitution spectrum would produce 2O's menu",
+     "where": "FINDINGS.md 'What this arc does NOT establish'"
+    },
+    {
+     "quote": "whether the tones are observables... remains exactly where it was",
+     "where": "FINDINGS.md, same section"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc self-reports an instrument failure caught before publication: 'the m=1 control failed on first run because the full-trace map was paired with the half-trace invariant' -- caught by the seal's own predeclared rule ('a failure at m=1 means the instrument is broken and the arc reports nothing else'). This is a positive process signal (a real bug caught by a pre-declared control), not a red flag against the result.",
+     "where": "arc_verdict.json 'SELF-CAUGHT INSTRUMENT FAILURE' clause; FINDINGS.md relay"
+    }
+   ],
+   "seat_note": "The strongest arc in this batch on reproducibility grounds: exact symbolic arithmetic, preregistration with a SHA-256 seal predating the code, a falsified prediction honestly reported, and a companion test file -- though the tones remain purely group-theoretic/structural, with 'are the tones observables' (item 2) explicitly still open and untouched."
+  }
+ ]
+}

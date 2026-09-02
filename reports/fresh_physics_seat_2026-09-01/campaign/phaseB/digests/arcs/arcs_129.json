@@ -1,0 +1,176 @@
+{
+ "batch": "arcs_129",
+ "arcs": [
+  {
+   "arc": "_frontier_root_files",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/EXPERT_OUTREACH.md",
+    "/home/user/origin-axiom/frontier/NEXT_CAMPAIGN_DRAFT.md",
+    "/home/user/origin-axiom/frontier/README.md",
+    "/home/user/origin-axiom/frontier/REPO_STATE.md",
+    "/home/user/origin-axiom/frontier/VERIFICATION_2026-07-08_double_dgg.md",
+    "/home/user/origin-axiom/frontier/aj_conjecture_check.json",
+    "/home/user/origin-axiom/frontier/literature_search.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the entire B1-B126+ tower/A-polynomial/character-variety narrative summarized in README.md and REPO_STATE.md (e.g. B59-B95 SL(n) Dickson-tower factorizations, B67/B71/B83 A-polynomial derivations, B92-B126 arithmeticity/Weil-representation results)",
+     "where": "frontier/README.md (whole file), frontier/REPO_STATE.md (whole file)",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "These two root docs are index/summary prose describing dozens of numbered probes (B48-B126) whose actual code/data live in per-B subdirectories NOT included in this packet's file list; every specific number quoted here (factorizations, multiplicities, field discriminants) is asserted-by-reference to work this arc's files do not contain, so it cannot be checked from what was read."
+    },
+    {
+     "what": "colored-Jones minimal recursion order 2 matching the figure-eight A-polynomial's L-degree, with annihilation residuals ~1e-16",
+     "where": "frontier/aj_conjecture_check.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "The JSON contains real numeric witness data (colored Jones polynomials J_1..J_5, nullspace gaps, residuals ~1e-16/1e-17) but the generating script is not present anywhere in this arc's file list, so a stranger cannot re-run it from what is committed here."
+    },
+    {
+     "what": "independent re-verification of B488 (m=1..8 manifold census data), B462 (double of figure-eight is non-hyperbolic/toroidal), B174 (gluing landscape fork sizes), B143 (composite JSJ decomposition + A-polynomial factors)",
+     "where": "frontier/VERIFICATION_2026-07-08_double_dgg.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "Describes fresh SnapPy/Regina rebuilds (\"independent recomputation\") with concrete outputs (tets=2m, H1=(Z/m)^2+Z, apoly_m1=t^4-5t^2+2, etc.) but the actual scripts (gluing_landscape.py, probe.py, phi_scan.py) are not in this arc's file set; B487's claim is explicitly flagged by the document itself as a literature citation, not recomputed this session."
+    },
+    {
+     "what": "B67 figure-eight A-polynomial derived exactly from the trace-map fixed locus, matching Cooper-Long (1996)",
+     "where": "frontier/README.md lines 351-363",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "Asserted as exact (\"kappa=tr(t)^4-5tr(t)^2+2\", verified ~1e-15) but the derivation script (B67_figure_eight_apolynomial/probe.py) is referenced, not included, in this arc; cannot be checked from these files alone."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ or belt directory exists under frontier/ root for these 7 files; VERIFICATION_2026-07-08_double_dgg.md functions as an ad-hoc re-verification memo (a partial RE-READS/RECOMPUTES belt for 5 specific B-numbers) but is not a structured belt directory and does not cover the vast majority of numbers cited in README.md/REPO_STATE.md.",
+   "absence_claims": [
+    {
+     "quote": "No paper computes our exact object verbatim",
+     "where": "frontier/literature_search.md:13"
+    },
+    {
+     "quote": "the never-computed **third** fixed-point class (after the *trivial*=tower and *geometric*=torsion reps)",
+     "where": "frontier/README.md:653"
+    },
+    {
+     "quote": "the never-computed *third* fixed-point class",
+     "where": "frontier/REPO_STATE.md:171"
+    },
+    {
+     "quote": "First\\n  derivation of this A-polynomial from a trace map",
+     "where": "frontier/README.md:360-361"
+    },
+    {
+     "quote": "**`n=4` `L=−M⁴` (NEW — the first SL(4) figure-eight A-polynomial from the trace map)**",
+     "where": "frontier/README.md:474"
+    },
+    {
+     "quote": "SL(4) `L=−M⁴` is NEW** (the first SL(4) figure-eight A-polynomial from the trace map)",
+     "where": "frontier/REPO_STATE.md:426"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "README.md and REPO_STATE.md summarize ~130 B-numbered probes (SL(n) trace-map towers, A-polynomial derivations, arithmeticity classifications) entirely by cross-reference; this arc's own file set contains none of the underlying probe code, so every specific numeric/algebraic claim in these two files is unverifiable from what was actually read here.",
+     "where": "frontier/README.md, frontier/REPO_STATE.md (whole files)"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "aj_conjecture_check.json contains real numeric output (colored Jones polys, recursion residuals) but no script that produced it is present in this arc.",
+     "where": "frontier/aj_conjecture_check.json"
+    },
+    {
+     "kind": "SELF_REFERENTIAL_LOCK",
+     "detail": "REPO_STATE.md is itself a self-audit (\"whole-repo reaudit\") that repeatedly asserts \"no claim promoted\", \"physics chapter CLOSED\", \"P1-P16 untouched\" as its own verdict on ~90 subsequent updates appended to the same file, without independent adjudication in this arc.",
+     "where": "frontier/REPO_STATE.md (Verdict section, line ~524-535, and the entire update-log stack above it)"
+    }
+   ],
+   "seat_note": "This arc is pure index/summary/outreach prose (README, REPO_STATE, EXPERT_OUTREACH, NEXT_CAMPAIGN_DRAFT, literature_search) plus two genuine data artifacts (aj_conjecture_check.json, VERIFICATION memo) whose generating code lives outside this packet; taken alone it establishes nothing new, and its own repeated refrain (\"no claim promoted\", \"physics chapter CLOSED\") is consistent and honestly self-limiting, but a fresh-eyes reader cannot verify any specific number from these seven files alone."
+  },
+  {
+   "arc": "overnight_2026-06-03",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/cross_m_silver.json",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/run_job1.py",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/run_job2.py",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/run_job3.py",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/run_job4.py",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/run_job5.py",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/run_overnight.py",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/sl3_apoly_full.json",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/sl3_apoly_go_nogo.json",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/sl7_partial.json",
+    "/home/user/origin-axiom/frontier/overnight_2026-06-03/time_reversal.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "no verdict file",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Job 1: charpoly(J)/charpoly(J^-1) time-reversal symmetry PASSES for SL(3) (dim 8) and SL(4) (dim 15) trace-map Jacobians under the rule 'even-k fixed, odd-k char(+M^k)<->char(-M^k)'",
+     "where": "frontier/overnight_2026-06-03/run_job1.py + time_reversal.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "run_job1.py is committed and does real sympy symbolic computation, but it imports b64_probe/b65_probe from frontier/B64_parity_mechanism/probe.py and frontier/B65_sl4_symbolic_jacobian/probe.py, which are NOT among this arc's files (they live in sibling frontier/ subdirectories outside this packet), so this arc alone cannot reproduce the result -- only re-verify the wrapper logic."
+    },
+    {
+     "what": "Job 2: SL(3) figure-eight A-poly GO/NO-GO probe -- nullity of DT-I at the principal Sym^2 fixed point, testing whether nullity==2 (=n-1) stably",
+     "where": "frontern/overnight_2026-06-03/run_job2.py + sl3_apoly_go_nogo.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "Genuine numeric witness: 4 runs gave nullities {3,3,5,4} (not stable, ill-conditioned eig-1 condition numbers up to 6.5e6), correctly yielding verdict UNSTABLE, not GO -- an honest negative result. Depends on b66_validate.py and b67_probe.py from other frontier/ subdirectories not in this arc."
+    },
+    {
+     "what": "Job 5 (SL(3) full A-poly variety sample) correctly SKIPPED because Job 2 was not GO",
+     "where": "frontier/overnight_2026-06-03/run_overnight.py (gate logic) + sl3_apoly_full.json (skip stub)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "The gating logic (skip Job 5 unless Job 2 verdict==GO) is fully visible in run_overnight.py and the resulting skip stub in sl3_apoly_full.json is consistent with sl3_apoly_go_nogo.json's UNSTABLE verdict -- this specific control-flow claim is reproducible and correctly self-consistent."
+    },
+    {
+     "what": "Job 3: m=2 (silver) cross-m A-polynomial candidate fit vs SnapPy m136 sample -- verdict INCONCLUSIVE (best framing residual 0.0065, above the 1e-3 MATCH threshold)",
+     "where": "frontier/overnight_2026-06-03/run_job3.py + cross_m_silver.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "Uses snappy.twister directly (no external frontier import), so this one IS mostly self-contained and reproducible given snappy installed; verdict is honestly INCONCLUSIVE, not oversold as a match."
+    },
+    {
+     "what": "Job 4: SL(7) partial fixed-line spectrum (dim 48) -- resolved_fraction 34/48, |k|=1,2,3 multiplicities flagged INCONCLUSIVE (big/small root counts mismatch, e.g. char(M^1) big_count=3 vs small_count=2)",
+     "where": "frontier/overnight_2026-06-03/run_job4.py + sl7_partial.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "no",
+     "why": "Numeric witness present and honestly labeled INCONCLUSIVE for all three |k| bins tested (none of char(M^1), char(M^2)/char(-M^2), char(M^3)/char(-M^3) achieved big==small trustworthy match except two isolated 'trustworthy' cells char(M^2) mult=3 and char(M^3) mult=1); depends on b66_validate.py not in this arc."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification/ subdirectory here; this arc IS itself an exploratory batch-job run, not a belt for some other claim. Its own outputs (UNSTABLE, INCONCLUSIVE x2, PASS x1) are self-consistently reported with no post-hoc upgrading.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "All five overnight jobs depend on Python modules dynamically loaded via importlib from other frontier/B* subdirectories (frontier/B64_parity_mechanism/probe.py, B65_sl4_symbolic_jacobian/probe.py, B66_sl6_tower/validate.py, B67_figure_eight_apolynomial/probe.py) that are not part of this arc's file set, so this arc's numeric claims cannot be checked or rerun in isolation even though the calling code is fully committed and legible.",
+     "where": "frontier/overnight_2026-06-03/run_job1.py:118-119, run_job2.py:79-80, run_job4.py:72, run_job5.py:59"
+    },
+    {
+     "kind": "NO_TEST",
+     "detail": "None of the five overnight job scripts have accompanying pytest test files in this arc; they are one-off exploratory scripts explicitly documented as 'writes only inside this directory; commits nothing' / 'No commit.'",
+     "where": "frontier/overnight_2026-06-03/run_overnight.py:1-7, run_job1.py:7, run_job2.py:7, run_job3.py:10, run_job4.py:7, run_job5.py:9"
+    }
+   ],
+   "seat_note": "This is a well-disciplined negative/inconclusive exploratory batch: one PASS (time-reversal symmetry, Job 1), one honest UNSTABLE (Job 2, correctly gating off Job 5), two honest INCONCLUSIVE (Jobs 3, 4) -- no overclaiming visible in the JSON outputs themselves, but the underlying trace-map probe code they depend on is outside this arc so none of it is independently reproducible from just these 11 files."
+  }
+ ]
+}

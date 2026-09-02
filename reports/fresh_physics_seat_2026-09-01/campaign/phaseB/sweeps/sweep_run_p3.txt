@@ -1,1 +1,13 @@
 1075/1374  leads so far 6
+1100/1374  leads so far 25
+1125/1374  leads so far 43
+1150/1374  leads so far 60
+1175/1374  leads so far 79
+1200/1374  leads so far 94
+1225/1374  leads so far 112
+1250/1374  leads so far 133
+1275/1374  leads so far 153
+1300/1374  leads so far 173
+1325/1374  leads so far 192
+1350/1374  leads so far 214
+done: 306 claims, 233 leads

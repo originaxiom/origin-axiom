@@ -1,6 +1,6 @@
 # Arcs whose reader found the progress logs and the arc files in DRIFT or CONTRADICTION
 
-(103 arcs of 1219 digested; NOT_IN_LOG = 323, CONSISTENT = 793)
+(108 arcs of 1310 digested; NOT_IN_LOG = 369, CONSISTENT = 833)
 
 ## B1012_branch_verifications (main) — CONTRADICTION
 
@@ -127,6 +127,18 @@
 - **claim of record:** verdict NEGATIVE: "Three discrete-to-continuous bridge programs (Connes-Marcolli renormalization, holography, positive geometry) are NO-MATCH to the object for independent reasons, reconfirming B706; the two arithmetic leads stay unbuilt."
 - **log says:** Multiple later log entries (2026-07-30 B828, B830) explicitly flag this exact arc as defective: 'B720 is LIVE: its directory contains NO scripts and its lock test_three_nomatch_are_principled_not_adhoc is a LABEL-LOCK -- assert len(set(reasons.values()))==3 over three string literals the test itself defines, which CANNOT FAIL; it verifies that three different strings were typed, and its one real computation (h(-3)=1) supports a LEAD, not the negative.' B830 log says 'five computed locks replace B720's label-lock.'
 - **reader note:** This arc is a pure literature/argument survey with no in-repo computation, and the project's own later self-audit (B828/B830) already caught and named this exact defect — an important corroboration that the seat's read-discipline concerns are well-founded, but the arc_verdict.json here was never corrected to reflect it. Physics content is zero: no observable, no derived SM quantity, and the underlying claim (three research programs don't match the object) is asserted from citations, not computed.
+
+## B734_m004_is_congruence (main) — CONTRADICTION
+
+- **claim of record:** verdict claim_one_line: 'π₁(m004) reaches the geometric index 12 at level (2)³=(8), so the figure-eight knot group IS a congruence subgroup — three 2-adic levels deeper than its sister m003.'; status: PROVED
+- **log says:** PROGRESS_LOG records the B734 banking-repair + third-seat verification: congruence CONFIRMED, but the STANDARD level is (4), not the FINDINGS/verdict's (8); B775 (2026-07-24) also independently found an explicit word forcing PSL index 12 at level 4.
+- **reader note:** The raw group-theoretic computation (mod-N index of the knot group's image) is solid, independently reproduced, and cross-checked against SnapPy — a genuine COMPUTED result. But the arc's own addendum shows the banked headline number is the wrong congruence level under the standard definition, and the verdict record was never updated to say so, leaving a stale, half-corrected claim as 'the record.'
+
+## B8127_regulator_omission (paper/structure-genesis-first) — CONTRADICTION
+
+- **claim of record:** TWO SELF-CORRECTIONS: a banked identity (Vol(4_1)=(3sqrt3/2)L(chi_-3,2), already B680) re-derived by B8119 without citing B680, and a 'new door' (Arakelov) that duplicates existing regulator material (B680/B683/HINT_LEDGER). Status: PROVED (i.e. the self-correction is banked as correct).
+- **log says:** Review 48 flags 'cc3's B8127 ... verify + integrate if it survives' as pending; by Review 52 the log states 'cc3's items are CLOSED BY RETIREMENT — B8127 ... will not come and is hereby retired, not carried.'
+- **reader note:** A candid self-correction of citation practice with no physics content, but the fact that its own promised on-bench verification was later abandoned/retired rather than performed is a real process gap worth flagging to the seat evaluating overall corpus reliability.
 
 ## B872_coset_leg (main) — CONTRADICTION
 
@@ -487,6 +499,12 @@
 - **log says:** PROGRESS_LOG 2026-07-19 describes it as a synthesis arc assembling B713-B716 + cc2's child. Later, B1000/B1001 (2026-08-09) states: "Sealed and pushed before compute...the declared prior OUTCOME B, >4 — expected to correct B717. Three incompatible counts existed and no arc reconciled them (B717: 4, B300: 8, sweep: ~8). Result: 5 CLOSINGS, 3 ARTIFACTS...exactly four distinct sectors, matching B717. B717's four is right as a count of SECTORS and wrong as a count of CLOSINGS." B944/B945 separately probe whether TIME and CHIRALITY collapse into one closing and conclude "B717's spine stands unamended."
 - **reader note:** This is a narrative capstone, not a computation — its physics content is entirely derivative of B713-B716 and the child arc, and its headline 'four incompletenesses' count is later softened by B1000/B1001 without B717 itself being updated. Treat B717 as a summary index, not independent evidence.
 
+## B746_golden_ledger (main) — DRIFT
+
+- **claim of record:** verdict=PROVED; claim_one_line: ESTABLISHED: the two-column law -- golden is FORCED on 10 of 12 structural floors while the voice floor carries zero golden markers and is pure Q(sqrt-3)... UNSETTLED: the owner's 'golden all the way up' hypothesis is GAPPED at the voice floor, not confirmed and not refuted. (authored_by notes: 'corrected by B834 (24 readers, two panels, unanimous)')
+- **log says:** B746: golden verified as a sealed 12-floor remap, 10/12 FORCED, the gap IS the finding, voice speaks Eisenstein; later log entries (B857, 2026-08-02) directly attack the F11 'voice' evidentiary basis: 'A grep over artifacts is not a proof of absence, and those artifacts PREDATE B797 BY A WEEK... the one place the claim is checkable is precisely where the grep [was run before the relevant data existed]'; also B832/B834 record a consistency-panel judgment moving B746 from an initial 'NEGATIVE' panel read to 12/12 'PROVED' agreement across two independent panels.
+- **reader note:** The two-column law is an interesting organizing structure, but ten of twelve floor gradings are citation-based bookkeeping rather than fresh computation, and the arc's one genuinely load-bearing absence claim (F11, no golden in the voice) is exactly the claim a later log entry (B857) challenges as a grep-is-not-proof-of-absence error against artifacts that predate the relevant data -- a challenge not yet reflected in this arc's own files.
+
 ## B759_qp3_integration (main) — DRIFT
 
 - **claim of record:** PROVED — "The theta-odd and theta-even sectors couple at SL(3)=Sym^2 but not at SL(2), with off-block norm sqrt3 = sqrt|disc Q(sqrt-3)|."
@@ -552,6 +570,18 @@
 - **claim of record:** PROVED -- The atlas lexicon is 18 regex sets frozen 409 arcs before the survey, so the concentration it reports is its own; arcs matching zero motifs -- including the programme's current falsifier B798 -- are invisible by construction.
 - **log says:** 9 entries; DRIFT explicitly acknowledged and corrected in-arc: the headline 'top-3 motifs cover 93.3%' figure drifted to 0.8845 (B829, three months later 0.8496 in B1008), corrected in place within FINDINGS.md itself via an inline '> DRIFTED -- re-derived 2026-07-30 (B829)' annotation.
 - **reader note:** A useful, self-critical meta-audit of the repository's own survey tooling (no physics content); notable for transparently documenting its own numeric drift in place rather than leaving stale numbers standing, which is good practice even though the underlying scripts are not in this arc's own files.
+
+## B8138_paper4_drafted (paper/structure-genesis-first) — DRIFT
+
+- **claim of record:** Paper IV drafted (5pp, clean build, verification 7/7), completing the 4-paper series: three no-go results proved as theorems with exhaustive escape routes — (i) Mostow rigidity fixes shape not size, so dimensionful quantities are undetermined but dimensionless ratios/phases/counts are untouched; (ii) a G-invariant cannot select a point within its orbit (2 exhaustive escapes: shrink the group or add non-invariant structure); (iii) of 7 invariants only H_1=Z separates m004 from its 14-manifold family (restates B8128). Status: PROVED. None of OA-C0016/0018/1063/1064 is resolved.
+- **log says:** PROGRESS_LOG B1167 (2026-08-26): '(B) cc3 B8138-extended adds the cusp shape as a 2nd object-level separator (m004=2sqrt3 i, unique in the 14-manifold Q(sqrt-3) family, reproduced)' — this is an EXTENSION beyond what B8138's own FINDINGS.md states (which reports only H_1=Z as the sole separator among the 7 tested invariants); the log records a later, additional separator found afterward.
+- **reader note:** Well-witnessed, and the escape-route framing for the two 'no-go' theorems (scale-freeness, orbit-invariance) is a genuinely useful discipline for any physical-identification claim later in the chain — but the log records a follow-on finding not reflected in this arc's own bundled files, worth checking against the actual B8138-extended source before treating this arc's file set as complete.
+
+## B8152_family_definition (paper/structure-genesis-first) — DRIFT
+
+- **claim of record:** the two candidate family criteria (A: all tetrahedra regular ideal, 77 members; B: tetrahedron shape field contained in Q(sqrt-3), first reported as 111) are STRICTLY NESTED (A subsetneq B); Paper IV's own definition is criterion B, so the family is 111 (later than this arc's own verdict, corrected by an independent enumeration to 112 -- see relay title 'YOU ARE RIGHT 112'); both separators still fail; all members are amphichiral. | status: PROVED (verdict json says 111; a later same-arc relay says 112)
+- **log says:** PROGRESS_LOG B1186 2026-08-27: cc3's B8152 harvested, verified, and corrected by one member -- THE FAMILY IS 112, not 111; REVIEWS.md Review 51 notes 'E52 filed ... B8152 x1' as a VERIFIER-DEFECT instance and 'cc3's B8152 verified by independent enumeration and corrected by one member'.
+- **reader note:** A real, self-named instance of the VERIFIER-DEFECT class (E52): the arc's own count (111) was itself wrong by one and had to be corrected to 112 by independent enumeration, yet the arc_verdict.json record of claim was never updated past 111 -- exactly the kind of stale claim-of-record this audit exists to catch.
 
 ## B817_verdict_wave2 (main) — DRIFT
 

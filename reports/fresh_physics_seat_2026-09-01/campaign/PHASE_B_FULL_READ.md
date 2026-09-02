@@ -122,3 +122,9 @@ by relay under integrate-don't-merge.
 - 00:40 UTC: W-E part 2 done (claims 545–1068): 783 hand verdicts over both parts — 2 CONTRADICTED (one defect, two
   heads), 44 SUPERSEDED, 13 OPEN_LATER (unmerged heads), 11 STANDS, 293 CONSISTENT, 206 NOISE, 11 GENERIC, 203
   REGISTRY_ECHO. Part 3 (claims 1068–1374 from the packets that landed since) running. Arc packets 119/131.
+
+### 2026-09-02 — W-E coverage defect found and being repaired
+- Part-3 lead verdicts #1183–#1373 written; part-4 registry class (21) + unsweepable (7) + leads (107) written. VERDICTS.tsv 1158 rows.
+- **Coverage defect (seat's own):** `rollup.py` re-sorts `synthesis/absence_claims.tsv` on every landing, so the row index the sweep parts were keyed by shifted between runs (p1 rows 249–544 → +441, p2 → +179, p3 → +54, p4 → 0). Cross-checking the four sweep tsvs against the current file by the stable (arc, quote) key: **1094 of 1535 distinct claims swept, 441 sweep rows are duplicates, current rows 249–689 (441 claims, arcs B436–B771) were never swept.** Earlier "1535 claims swept" statements in VERDICTS.md / synthesis §7 / relay §6 were wrong by exactly this overlap.
+- Repair: `index_map.py` → `sweep_index_map.tsv` (sweep index → current claim row, duplicate-of); `make_verdicts_md.py` now counts per distinct claim and resolves duplicate-row verdict conflicts by informativeness (53 keys had NOISE-vs-substantive splits; substantive wins). `sweep_batch.py` gained an index-offset argument; **part 5 = current rows 249–689 launched as sweep indices 1535–1975** (`sweep_run_p5.txt`). Verdicts for part 5 follow, then synthesis §7 / relay §6 are restated on distinct-claim counts.
+- Reconciled counts at this point (distinct claims, p1–p4): CONTRADICTED 3, SUPERSEDED 67, OPEN_LATER 10, STANDS 12, CONSISTENT ~380, REGISTRY_ECHO 207, GENERIC 19, NOISE ~127; DOC_ECHO/NO_HIT (no verdict) 139.

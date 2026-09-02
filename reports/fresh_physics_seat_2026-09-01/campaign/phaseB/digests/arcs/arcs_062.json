@@ -1,0 +1,118 @@
+{
+ "batch": "arcs_062",
+ "arcs": [
+  {
+   "arc": "B739_character_rigidity",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B739_character_rigidity/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B739_character_rigidity/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B739_character_rigidity/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B739_character_rigidity/b739_probe_out.txt",
+    "/home/user/origin-axiom/frontier/B739_character_rigidity/b739_probe_out_run1_FAILED.txt"
+   ],
+   "files_sampled": [
+    "/home/user/origin-axiom/frontier/B739_character_rigidity/b739_probe.py (first 120 lines + grep -nE 'def |assert|print|sympy|mpmath|Fraction|==', ~103 matches, spot-checked)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED — \"m004's continuous spectrum is character-rigid: one Eisenstein channel pulled back from the Bianchi base, scattering Lambda_K(s-1)/Lambda_K(s), carrying no level characters.\"",
+   "log_says": "PROGRESS_LOG + REVIEW 27 record hunt-cell #2, OUTCOME A, 54/54 checks, 0/3 refuted by three independent skeptics, hash 62922f0c recompute-matched; later (B857/B858, 2026-08-02/03) the record flags that a DOWNSTREAM document (B746 FINDINGS.md:30, LAW_MAP H-EAR clause iii) mis-used B739+B737 as a GREP-based absence proof of 'golden markers' in the continuous voice and had to be corrected in place (scope restricted, discrete channel excluded) — B739 itself is not the thing corrected, but is the evidentiary base the corrected claim over-read.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "54/54 checks pass, 0/3 skeptics refuted (character-rigidity of m004's continuous spectrum, weight-0 Laplacian)",
+     "where": "b739_probe.py -> b739_probe_out.txt (VERDICT block, 'checks: 54/54 passed [runtime 84s]')",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b739_probe.py is committed in full, its full stdout is committed (b739_probe_out.txt), and a failed run-1 transcript is preserved rather than deleted, so the compute path and its failure mode are both auditable."
+    },
+    {
+     "what": "Multiplicity-one exhaustion (continuous spectrum multiplicity = #cusps = 1)",
+     "where": "FINDINGS.md item (c); cites Sarnak Acta 151 p.264 and Friedman math/0702030 Lemma 2.1/(2.6), plus snappy num_cusps()==1",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "no",
+     "why": "The two classical citations are described as re-fetched primary sources but the PDFs/extracts themselves are not committed in this arc's files; a stranger has only the arc's paraphrase of the two lemmas, not the sources. The #cusps=1 computation via snappy is reproducible."
+    },
+    {
+     "what": "Function-level equality E_m004 = pullback E_orb",
+     "where": "FINDINGS.md item (b); b739_probe_out.txt PART sections on kill-zones/Bessel radial equations",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Re-derived in-sandbox per the arc's own honesty grading, but explicitly rests on 3 named uncited-in-full classical inputs (S1 meromorphic continuation, S2 Gaffney essential self-adjointness, S3 moderate growth) that are cited, not re-proven -- declared as such, not concealed."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "3-skeptic adversarial verify protocol: prereg states all three skeptics independently RE-RAN and RE-DERIVED (not merely re-read); no separate verification/ directory exists but the belt is embedded in the single probe file's checks plus the sealed prereg hash.",
+   "absence_claims": [
+    {"quote": "no numerical E_m004 exists (Hejhal-class machinery, owner-gated)", "where": "FINDINGS.md:40"},
+    {"quote": "the discrete-Maass computation (the newform spectrum itself) is NOT attempted here — parked owner-gated", "where": "PREREGISTRATION.md:36"},
+    {"quote": "DECLARED GAP: no independent in-sandbox numerical computation of E_m004 exists (Hejhal-class; owner-gated)", "where": "b739_probe_out.txt:305 area (VERDICT per-item proof status, item b)"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IMPORTED", "detail": "Multiplicity-one exhaustion leans on two external papers (Sarnak, Friedman) whose primary-source PDFs are not committed in the arc; only verbatim-quoted excerpts inside FINDINGS/probe files are available to a stranger.", "where": "FINDINGS.md item (c); b739_probe.py PRIMARY SOURCES block"},
+    {"kind": "OTHER", "detail": "A later downstream document (outside this arc) used a grep over this arc's text as an absence proof of 'golden markers' and had to be corrected (B857/B858) — B739's own content is unaffected but the arc is a case study in over-reading a pure-math result into an absence claim.", "where": "log_index B857/B858 entries, referencing B746/FINDINGS.md:30 (not part of this arc's own files)"}
+   ],
+   "seat_note": "This is a genuine, well-documented pure-math spectral-theory computation (character-rigidity of a Bianchi-orbifold cover's continuous spectrum) with an honest gap ledger and a preserved failed run; it carries explicitly zero physics content by its own firewall statement, so any physics reading of it (e.g. absence of 'golden markers') is an import from elsewhere, not from this arc."
+  },
+  {
+   "arc": "B740_b288_stragglers",
+   "source": "main",
+   "files_read": [
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/FINDINGS.md",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/PREREGISTRATION.md",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/arc_verdict.json",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_deep.py",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_deep_err.txt",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_deep_out.txt",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_err.txt",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_full.py",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_full_err.txt",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_full_out.txt",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_mirror.py",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_out.txt",
+    "/home/user/origin-axiom/frontier/B740_b288_stragglers/b740_stragglers.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE — \"Recomputed across all 78 hyperbolic fillings by two seats and two methods: no closed filling of m004 re-sees sqrt(-3), upgrading B288's kill from asserted to earned.\"",
+   "log_says": "PROGRESS_LOG confirms hunt-cell #3: cc2's register crack (B288 only resolved 54/78) confirmed in substance at code+text; this arc plus a two-seat (cc2, disjoint algdep/exact-containment method) closure recomputed all 78 fillings with matching straggler degrees {23,26,27,30,31}, upgrading the negative from asserted-on-54 to earned-on-78 two-seat. B747/B748 later reuse B740's √-3 verdicts as a consistency control (24/24 exact per-even-slope re-derivation), which is itself a form of independent confirmation.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "60/78 fillings: invariant trace field identified at degree<=24, none contains sqrt(-3)",
+     "where": "b740_full.py -> b740_full_out.txt (SUMMARY: hyperbolic analyzed=78 exceptional=9 unresolved=0 field>24=18)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Full script and full per-slope output committed; a stranger with Sage+snappy can rerun it."
+    },
+    {
+     "what": "11/18 remaining fillings identified at degree<=32 (prec 2000), none contains sqrt(-3)",
+     "where": "b740_deep.py -> b740_deep_out.txt (DEEP SUMMARY: resolved 11/18)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "b740_deep.py is committed but reads exec(open('/tmp/unknown18.py').read()) — an external file NOT committed in this arc, so the exact list of 18 target slopes fed into the deep pass is not reproducible from the arc's own files alone (only inferable from b740_full_out.txt's 'field>24' rows)."
+    },
+    {
+     "what": "Remaining 7 slopes ((-p,q) mirrors of resolved (p,q) siblings) closed via amphichirality: 7/7 isometries verified, volumes matching to 1e-10",
+     "where": "FINDINGS.md 'THE COMPLETION' section; b740_mirror.py",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "b740_mirror.py is committed and would print the 7/7 isometry verification if run, but no output file (e.g. b740_mirror_out.txt) is committed in this arc's directory (confirmed via ls: only .py present, no matching _out.txt) — the '7/7 verified, volumes to 1e-10' figure quoted in FINDINGS has no committed witness transcript."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "Two-seat, two-method closure (this arc's Sage compositum find_field vs cc2's independent algdep/exact-containment, done outside this arc's own files) is described in FINDINGS/log as closing each other's residuals, but only this arc's own outputs are present in the packet; cc2's door1 artifacts are not among this arc's files.",
+   "absence_claims": [
+    {"quote": "24 hyperbolic fillings were never analyzed", "where": "FINDINGS.md:9"},
+    {"quote": "was never computed on ~24/78 slots", "where": "PREREGISTRATION.md:8"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The mirror-closure claim '7/7 isometries verified, volumes matching to 1e-10' (the step that closes the last 7 of 78 stragglers) has a committed script (b740_mirror.py) but no committed output/log transcript anywhere in the arc directory.", "where": "b740_mirror.py; absent: b740_mirror_out.txt (does not exist)"},
+    {"kind": "MISSING_WITNESS", "detail": "b740_deep.py depends on exec(open('/tmp/unknown18.py').read()), an uncommitted external file defining the 18 target slopes for the deep pass; not reproducible from the arc's own committed files without reconstructing that list from b740_full_out.txt.", "where": "b740_deep.py:6"}
+   ],
+   "seat_note": "The headline negative (no closed filling re-sees sqrt(-3)) is well-earned for 71/78 slopes with committed scripts and full outputs, but the last 7 slopes' closure (amphichirality/mirror argument) is asserted in FINDINGS without a committed witness transcript, so the 78/78 figure is not fully reproducible from what's in the repo."
+  }
+ ]
+}

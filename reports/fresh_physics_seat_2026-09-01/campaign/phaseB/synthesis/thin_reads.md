@@ -1,6 +1,6 @@
 # Reader thin-reads (auto from workflow journals): what was not read in full, per packet
 
-103 packets reported; 78 with thin reads; 0 with failed items.
+155 packets reported; 124 with thin reads; 0 with failed items.
 
 ## arcs_000 (28 items)
 - B1: origin_axiom.gluing module (on_shell_gluing, S_A, gluing_functional) imported but not itself read — only probe.py's use of it was verified
@@ -173,6 +173,138 @@
 ## arcs_034 (6 items)
 - B593 FINDINGS.md mentions an exact symbolic sympy re-derivation (V1, 'unitarity trace = 6 exact') but the sympy script itself is not among this arc's packaged files, so I could not inspect or re-run it — read only the prose description.
 - B596's ADDENDUM verifying code (fresh order code, 'frontier/B656_digest_integration/') was not read in this pass — its claim was taken from B596/FINDINGS.md's own quoted text, not independently checked against B656's files.
+
+## arcs_035 (2 items)
+- B598_l85_campaign/step9_independent_p1.py read per SAMPLE_CODE mode (first ~50 lines + grep) rather than in full — a ~16KB from-scratch E6/Q(sqrt-3) reproduction pipeline; only its docstring, gate list, and Q3 arithmetic class header were directly inspected, not the full Fox-calculus and mod-p closure logic.
+- B598_l85_campaign: p2_output.txt, p2_original_gateA_failure.txt, steps3and5_output.txt, step6_v2_output.txt, step4a_output.txt, step4b_output.txt, peripheral_certificate_exact_output.txt, verify_word_independence_output.txt, p3_v1_vacuous_run.txt were listed as FULL mode but not individually quoted above — their content was cross-checked against FINDINGS.md's detailed narrative rather than independently re-derived line by line.
+- B599_selection_rule: no verification/ directory exists for either arc, so belt classification rests on the separately-located tests/ directory rather than an in-arc belt folder.
+
+## arcs_036 (10 items)
+- B600_level_ladder packet/scripts/p2_certify.py, p3_verdict.py, p_proof_lock.py, proposed_locks/test_cc2_level_ladder.py: only grepped for def/assert lines, not fully read line-by-line despite FULL mode designation, due to time budget
+- B609_sealed_values e1_output.txt and e3_output.txt: not opened directly; relied on SEALED_VALUE_TABLE.md's summary of their contents
+- B600_level_ladder packet/outputs/level4_blocks.npz: correctly left LIST_ONLY per packet mode, not inspected
+
+## arcs_037 (19 items)
+- B627_silver_heldout/pipeline.py: read first ~120 lines + grepped per SAMPLE_CODE mode, not read in full (20KB file)
+- B627_silver_heldout/fig8_calib_results.pkl and m136_six_results.pkl: LIST_ONLY per packet mode, binary pickle contents not inspected
+
+## arcs_039 (8 items)
+- B637_corrected_cell3/b637_threeform.py: only SAMPLE_CODE mode applied (first 120 lines + grep) per packet instruction, not full read, though it is the core 3-form evaluator whose logic underlies the class-level gates
+
+## arcs_041 (1 items)
+- r3_peak_check.py and n3_grid_check.py read only per SAMPLE_CODE discipline (head ~120 lines + grep def/assert/==), not in full, though their outputs (r3_output.txt/r3_results.json, n3_output.txt/n3_results.json) were read in full and cross-checked against the sampled code.
+- fit_summary.json (105KB+, r6_deepv) sampled per SAMPLE_DATA discipline (head 40/tail 20/wc -l/grep) rather than read in full; the full narrative equivalent (r6_output.txt) was read in full and is consistent with the sample.
+- n1_character.py and n1_jeffrey_terms.py sampled with head+grep only (not full reads); their JSON outputs (characters.json, jeffrey_terms.json, jeffrey_extension.json) were NOT opened at all -- only cross-checked indirectly via jeffrey_decider.json and the FINDINGS/ANALYSIS_NOTES prose that quotes numbers from them.
+- explore_family2.py and explore_family3.py (R4 design-stage tooling, explicitly labeled non-scientific parameter search) were not read; only explore_family.py was read as representative.
+- r4_predictions_SEALED.sha256 not opened (LIST_ONLY per packet mode) -- its twin .txt (the actual sealed predictions file) was read in full and is present, so this is not an absence gap.
+
+## arcs_042 (4 items)
+- B649_silver_holonomy/letters27_L.json: 251KB single-line JSON sampled head/tail only per SAMPLE_DATA mode, not verified entry-by-entry against FINDINGS claims
+
+## arcs_043 (1 items)
+- d4_su3_run.py, p4_run.py, verify_b649.py: SAMPLE_CODE mode, only first 120 lines read of files 15-23KB; the gate/prereg-verification logic at the top was captured but later computational sections were not read line-by-line (relied on the accompanying results JSON for outcomes)
+- compute_d3i.py, verify_stage3_numeric.py, verify_stage3_solo_exact.py: first 100-120 lines read; later sections (comparison logic details for (a)-(d), the full lift_sl2 recursion, and the rank/nullity Gaussian elimination internals) not read in full
+- d3ii_table.json, d4_results.json, p4_results.json, p1_certificates.json, p0_results.json, f4_results.json, f1_certificates.json: all large JSON files read only partially (first 30-60 lines) rather than in full, relying on the accompanying FINDINGS prose for the aggregate verdict
+
+## arcs_044 (7 items)
+- B652_gate_b: read fully but is itself an assembly document citing B640/B641/B642/B644/B646/B650/B651 as evidentiary basis — none of those upstream arcs were read in this batch, so the N=1 freedom count could not be independently checked at its computational root.
+- B658_order4_flips: the 'wall 8 total' claim depends on B643's prior order-2 result, which is outside this batch and was not read.
+
+## arcs_045 (3 items)
+- B660: origin_docs/DARK_SECTOR_CAMPAIGN.md and DARK_SECTOR_WAVE1_HANDOFF.md were read in full but are provenance context for a different (superseded) campaign design, not independently checked against later corrections outside this packet.
+- B661: no code/JSON/log artifacts were present in this arc's file list to verify its central numeric claims (quantum dimensions to 6 digits, R^2L eigenvalue) -- only the two markdown write-ups and a confirmed-present but unread lock test (tests/test_b661_wave1.py) were available.
+- B660: tests/test_b660_structure.py confirmed present in the repo but not read (not included in this batch's file list).
+
+## arcs_046 (1 items)
+- cellC/sigma_matrix_golden.json read only ~1500 bytes (head) rather than full 2729-byte file, though FINDINGS_CELL.md quotes the same matrix entries verbatim so content is corroborated
+- cellE/golden_canonical.json and cellE/silver_canonical.json not opened directly as files; their content was read via cellE_output.txt which prints the same decisive values (portal matrices, block-diagonal test results) during the run
+- cellG/l100_results.json only inspected for top-level keys and a few decisive fields (P_min, factorization, N0, gate names), not the full 130-row support table or all 12 gates' internal detail
+- cellB/qblock_78.py and cellE/silver_canonical.json were LIST_ONLY per packet mode and not opened
+
+## arcs_047 (3 items)
+- B663: a2_table.json (39643 bytes, mode SAMPLE_DATA) was verified via a2_run_log.txt's printed totals/table rather than by directly head/tail-ing the JSON file itself
+- B663: a1_jordan.py, a2_phases.py, a3_stage.py were read only to ~120 lines each (SAMPLE_CODE mode) plus grep survey, not in full — full algorithmic detail beyond the setup/import sections was not inspected line-by-line
+
+## arcs_048 (1 items)
+- B666_leads_campaign: 159 files total; only top-level docs (prereg, addendum, synthesis, 3 wave-findings) plus ~7 of ~30 cells (cellA2, cellR2, cell9, cell5, cell2, cellT, cellS partial) were actually opened. cell1, cell3, cell4, cell6, cell7, cell8, cell10, cellB2, cellC2, cellR1, cellR3, cellW31-W35 (13 cells) were listed but not read at all -- their SAMPLE_CODE-mode scripts and FULL-mode outputs were not inspected, so claims like the R21-9 unconditional proof, the B480/B544 correction, the scale-torsor 'concrete verification' script, and the full McKay descent (bronze/E6, silver/E7 quotient) rest on the wave-findings summaries rather than direct inspection.
+- cellA2/ckpt_phase1.json (5.1MB) and cellA2/phase2_results.json (363KB) were SAMPLE_DATA mode but not opened at all (only referenced via a2_phase3_output.txt's log of loading them).
+
+## arcs_050 (1 items)
+- a2_phases.py, a3_stage.py, b1_f4.py, b3_silver.py, b4_landscape.py, c1_vecmassey.py, c2_f4split.py, c3_signtable.py, d1_pairing.py: only head (~120 lines) + grep hits read per SAMPLE_CODE discipline, not full file bodies
+- a2_table.json, c2_results.json, b4_matrix.json, c3_table.json: only head/tail/wc sampled per SAMPLE_DATA discipline, not full contents (all are large numeric/exact-field tables)
+
+## arcs_051 (3 items)
+- B673_loop4_integration/packet/loop4/d3_silvercup/d3_results.json read only as SAMPLE_DATA (head+tail+targeted grep per packet instructions, 830 lines total, mode SAMPLE_DATA) — full body of 25-pair witness values not read line-by-line.
+- B673_loop4_integration/packet/loop4/d4_ceiling/d4_run_log.txt is FULL-mode but the committed file itself appears to stop mid-run (through SU(3)_9 gates) with no final ceiling-map summary visible in what was read; FRONTIER.md itself calls D4 'in flight' at this arc's close, so the complete D4 result is not confirmed present.
+- cellB/b672_cellB.py and cellG/b672_cellG.py, d2_351.py, d3_silvercup.py, d1_pairing.py, d4_ceiling.py were all SAMPLE_CODE mode (first ~120 lines plus grep for def/assert/print/sympy/==) per packet instructions, not read in full.
+
+## arcs_052 (1 items)
+- ramanujan_trifocal/trifocal_values.py read as SAMPLE_CODE (first 120 of 532 lines + grep) per packet mode, not in full
+- w2_molien_cell/w2_molien_cell.py read as SAMPLE_CODE (first 120 lines) per packet mode, not in full
+- w2_gate_cc2/w2_inputverify.py read as SAMPLE_CODE (first 120 lines) per packet mode, not in full
+- cellES/b674_cellES.py read as SAMPLE_CODE (first 120 lines) per packet mode, not in full
+- w2_step3/w2_step3.py (SAMPLE_CODE per packet) was not separately opened; its behavior was inferred from step3_output.txt and STEP3_VERDICT.md, which fully describe its computation and results
+- w2_step3/coefficients_both_conjugates.json, w2_gate_cc2/w2_eigendist.json, cellES/cellES_mismatch_table.json read only as SAMPLE_DATA (head/tail/wc) per packet mode, not in full
+
+## arcs_053 (3 items)
+- B675_hcusp_sweep/b675_hcusp.py and bronze_certification.py: SAMPLE_CODE mode only (first ~120 lines + grep), not full-read; the 34KB/31KB scripts' later sections (Parts 3-4, the numeric hearing check and bronze harvest) were not read line-by-line, only summarized via FINDINGS.md/BRONZE_CERT_NOTE.md prose.
+- B677_morning_packet/anatomy/loop5/e1_diag351/_leftnull_L351.json: 18.8MB SAMPLE_DATA file, sampled only via head/tail character slices (not full read, and it is a single-line JSON array so wc -l gave 0 lines rather than a meaningful count).
+- B677_morning_packet/generation_leg/g1_tube/g1_tube.py and e1_diag351.py/e2_silversplit.py: SAMPLE_CODE mode (first 120 lines + grep for def/assert), full internal logic of the tube-algebra/Hochschild computation not read in full.
+
+## arcs_054 (7 items)
+- B678_d4_annex: d4_ceiling.py and d4_level.py were SAMPLE_CODE mode — read only head (~120 lines) plus grep hits, not the full ~20-30KB files; the per-level d4_results_k*.json files were nominally FULL mode but only spot-checked via the MERGED file's head/tail/grep rather than reading each of the 12 individually.
+- B679_engine_patch: equivalence_proof.py was read only to line ~80 (its head), not the full 7.4KB file, though its outputs (equivalence_out.txt, equivalence_locks_out.txt) were read in full.
+- B683_arithmetic_ledger: verify_divided_power.py was only grepped for def/assert lines, not read in full line-by-line.
+
+## arcs_055 (19 items)
+- B700_fiber_functor: read 7 of 21 files (CAMPAIGN.md, FINDINGS.md, arc_verdict.json, phase2_cc2/PHASE2_CLOSE_CC2.md + SEALS.txt, cell3_cc2/CELL3_CLOSE_CC2.md + SEALS.txt); the 5 PREREG_CELL*.md files, all 5 ref_*.sage witness scripts, and the two largest sub-documents (phase2_cc2/FINDINGS_CC2.md 14976B, cell3_cc2/FINDINGS_CC2.md 14419B) were only noted as present, not read.
+
+## arcs_056 (10 items)
+- b713_probe3.py was SAMPLE_CODE (head+grep) per packet mode, not fully read line-by-line; relied on its docstring, header code, and full committed output file for the verdict
+
+## arcs_057 (4 items)
+- B715_native_gauge: b715_probe1.py read only to line 120 (SAMPLE_CODE mode) per packet; b715_probe1_v2.py itself not opened at all, only its _out.txt witness was read in full, so the v2 script's exact implementation was not verified line-by-line.
+- B716_time_gap: b716_probe2.py and b716_probe3.py read only to line 120 (SAMPLE_CODE mode) per packet; later parts of these scripts (beyond the printed sections already covered by the full _out.txt witnesses) were not inspected.
+- B718_child_program: b718_probe2.py read only to line 120 (SAMPLE_CODE mode) per packet; b718_probe2_scan.tsv noted as present/referenced but not opened and grepped line-by-line for every numeric claim in FINDINGS.md.
+
+## arcs_058 (5 items)
+- b719_control.py sampled per packet mode SAMPLE_CODE (head 120 lines + targeted grep) rather than read in full — a 15.6KB Maclachlan-Reid arithmeticity implementation; the full _out.txt witness was read in full and cross-checked instead.
+- b721_probe2.py sampled via head/grep rather than read end-to-end (script body ~7KB); its full _out.txt witness was read in full.
+- b722_probe2.py sampled via head120 plus tail of its _out.txt per packet mode SAMPLE_CODE; full output read.
+- b723_probe2.py and b723_probe3.py sampled via head120+grep per packet mode SAMPLE_CODE rather than read in full; full _out.txt witnesses read in full for both.
+
+## arcs_059 (3 items)
+- b724_probe1.py, b724_probe2.py (B724), b725_probe1.py, b725_probe3.py (B725), b726_probe1.py, b726_probe3.py (B726): all SAMPLE_CODE mode per packet — read first ~120 lines plus grep for def/assert/print/sympy/==, not the full script bodies; conclusions rest on the corresponding _out.txt files, which were read in full.
+
+## arcs_060 (7 items)
+- B727 b727_probe2.py: read only head~120 lines + grep matches (SAMPLE_CODE mode as specified), full output file only partially shown (first ~150 of more lines)
+- B727 b727_probe3.py: read only head ~260 of 303 lines (SAMPLE_CODE mode) plus tail of output; middle portion of output file not shown
+- B729 b729_probe2.py and b729_probe3.py: read only head 120 lines each (SAMPLE_CODE mode as specified)
+- B730 cc_q1_census.py: read only head 120 lines (SAMPLE_CODE mode as specified); cc_q3_cosmo.py read to ~150 lines, tail of frontier-science citation box not fully re-verified against source arXiv papers
+- B733 b733_door2.py, b733_growth.py, b733_menu.py: each read only head 120 lines (SAMPLE_CODE mode as specified); GAP-dependent portions of b733_menu.py not independently rerun (no GAP available in this read-only pass)
+
+## arcs_061 (5 items)
+- B736: p2_kms.py and p3_reduction.py read only per SAMPLE_CODE protocol (first 120 lines + grep), not in full — the 24-parameter ledger's full per-parameter grading logic was not independently verified
+- B737: p1_scatter.py, p2_cover.py, p3_sister.py were grep-sampled only (per packet SAMPLE_CODE mode), not read in full; only p4_kms.py was read completely
+- B738: kill_graph.json (640KB, SAMPLE_DATA mode) was head/tail-sampled and record-counted via python, not read in full — most of its 774 individual classification records were not inspected
+
+## arcs_062 (2 items)
+- b739_probe.py: only sampled per SAMPLE_CODE discipline (first 120 lines + grep for def/assert/print/sympy/mpmath/Fraction/== across the full 45KB file, ~103 hits scanned by grep only, not all surrounding context individually read)
+
+## arcs_063 (1 items)
+- Only 3 of ~30 recompute.py/output.txt pairs were read directly (B58, B225 fully; WALL-7 and TOMB-L293 head+grep only); the other ~27 RECONFIRMED verdicts rest on FINDINGS.md's one-line summaries, not on this reader independently checking their scripts.
+- reviews/S16_REVIEW_1_STOP.md, S16_REVIEW_2_GENUINE_STOP.md, S16_REVIEW_3_VERDICT.md, S16_REVIEW_6_VERDICT.md, S16_REVIEW_7_VERDICT.md were not read directly; their content was reconstructed from CAMPAIGN_LEDGER.md narration and cross-references in S16_REVIEW_5, a secondary source.
+- stageA/journals/run1_wf63c9d0c7_journal.jsonl (packet mode FULL) was not read; only run2's journal was sampled.
+- Most stageA/batch_*.json and batchdef_*.json files (40+ files, all FULL mode per packet) were not individually read, on the judgment that their content duplicates stageA/kill_graph.json which was sampled directly.
+
+## arcs_064 (6 items)
+- B743_rung1_widened/forced_limits.json and pdg_targets.json: not printed/read in full verbatim, but content was cross-checked indirectly via the scripts that load them and via the values echoed in rung1_report.json/run_sweep.py — not a line-by-line read of the raw JSON.
+- B747_mirror_sweep/door1_final_sealed_input.json and B748_v4_completion/door1_final_sealed_input.json: sealed input files referenced by the sweep scripts and consistent with the degree table used in the outputs, but not individually hashed/diffed against the claimed sha 77818016 in this pass.
+
+## arcs_065 (5 items)
+- B749: forks/F4, F5, F7, F2, F8, F3 compute.py files were only line/assert-counted and (F5) head-read to 60 lines per SAMPLE_CODE discipline, not fully read line-by-line for logic correctness beyond the load-bearing checks already visible in their output.txt files
+- B749: RESULTS.json (65725 bytes, SAMPLE_DATA mode) was only head/tail sampled via bash, not fully read; only the F6 verdict block appeared in the tail sample actually shown
+- B750-B753: all files were small enough for FULL reads; no thin reads in these four arcs
 
 ## arcs_066 (1 items)
 - 12 of 19 cells' compute.py files (marked SAMPLE_CODE in the packet) were not opened at all — only their output.txt was read in full; compute.py for B285, TOMB-L241, TOMB-L30, TOMB-L267, TOMB-L57, TOMB-L277, TOMB-L334, TOMB-L247, B107, TOMB-L63, TOMB-L258, TOMB-L339 were not inspected line-by-line for hidden asserts/fudges, only their printed CHECK output was reviewed.
@@ -383,6 +515,95 @@
 - B1080_global_form: b1080_results.json was head/tail-scanned (SAMPLE_DATA mode) rather than read in full given its size
 - B1082_order_comparison: b1080/b1082 results JSON files were read via targeted key extraction (python json.load + key listing) rather than a full line-by-line read, though both top-level blocks ('m' and 'v') were captured
 - B1074/B1076/B1078/B1079/B1081_*: results JSON files sampled via head/tail per SAMPLE_DATA mode as specified in the packet, not read in full — large multi-agent JSON transcripts
+
+## arcs_109 (13 items)
+- B1093_route_a_arithmetic: routeA_verify.py (512 lines) was SAMPLE_CODE-mode per packet — read first 120 lines + inspected structure/comments; did not read all 512 lines line-by-line.
+- B1102_exact_hypercharge_solve: b1102_adapted_basis.py and b1102_solve.py were SAMPLE_CODE-mode per packet (first ~120 lines read for adapted_basis.py; solve.py referenced via FINDINGS/RUNLOG description rather than fully read); the ~12s generating run itself was not executed (task instructs not to run computations).
+- B1099_route_a_counter literature-floor claims (Krutelevich math/0411104, Thorne ANT 7:9 2013, Bhargava-Gross 1206.4774) were read only as quoted in FINDINGS.md, not verified against the original papers.
+
+## arcs_110 (14 items)
+- B1108 (arXiv:1905.13610 abstract fetch cited but not archived/hashed in-repo, so its verbatim wording was not independently re-fetched by this reader)
+- B1107 (Pfaff arXiv:1206.0228 quote-check table trusted as reported; not independently re-fetched in this pass)
+- B1112/B1113 external 'session certificate' files (B1098_CERT_PATH / B1113_CERT_PATH) are outside the repo and were not located or inspected
+
+## arcs_111 (9 items)
+- B1120_L180_makeorbreak: b1120_results.json (5510 lines) sampled per SAMPLE_DATA mode (head/tail/grep only), not read in full
+- B1123_forcedness_census: withdrawn CRT/level-15 doorway correction and its cited B695/E-3 counter-computation were not independently re-verified, only cross-referenced from FINDINGS.md text
+- B1124_allorders_arithmetic: b1124_results.json (8800 lines) and b1124_supplementary_results.json sampled only (keys, verdict field, head/tail) per SAMPLE_DATA mode, not read in full
+- B1125_compact_color/B1126_identification/B1127_antilinear_completion: results.json files sampled (head/tail/grep) per SAMPLE_DATA mode rather than read in full
+- B1121_pair_orbits/B1122_liftbit_meter code files (b1121_pairs.py 777 lines, b1122_verify.py 740 lines) read only via head(120 lines)+grep per SAMPLE_CODE mode, not in full
+
+## arcs_112 (8 items)
+- b1129_naturalvalues.py, b1130_twoended.py, b1131_koide.py, b1132_meridian.py, b1133_c4floor.py, verify_simul_closing.py, verify_gauge_closing.py, verify_genericity.py — all SAMPLE_CODE mode: read first ~120 lines plus targeted grep for def/assert, not the full file body (each script is 150-800+ lines of numeric machinery); full logic of PSLQ sweeps, PART B extension code, and later verification stages beyond the sampled sections was not read line-by-line.
+- b1130_results.json, b1131_results.json (partial — B1131's was FULL mode and fully read), b1136_results.json — SAMPLE_DATA files read via head/tail/grep rather than in full (b1130_results.json is 11143 lines; only meta, part_a, and tail sections were inspected directly).
+
+## arcs_113 (9 items)
+- B1137: verification/ code files (aggregate.py, basis.py, surrogates.py, targets.py) were read in full per FULL mode but not independently re-executed by this seat — relied on the arc's own committed final_report.json and the ADDENDUM's independent byte-reproduction claim.
+- B1138-B1145: verification/*.py files were listed but not opened line-by-line (only grepped or referenced via FINDINGS' own description) due to time budget; FINDINGS.md, arc_verdict.json and results JSON were read in full for each, which per the packet's own file manifest constitutes complete FULL-mode coverage since verification/*.py were not listed as FULL-mode files in the packet for these arcs.
+
+## arcs_114 (13 items)
+- B1147: c3_ohtsuki_large.py generating script for the C3 ladder data was not located/read, only the output c3_ladder.txt
+- B1150: memo 52/53 certificate code itself not read (off-tree on outside-bench), only FINDINGS.md prose and the independent sympy check
+- B1153: memo 55's superposition-fit code not read/re-run (off-tree); relied on FINDINGS.md description and the addendum's grading note
+- B1156: verification/floor_adjudication.txt was cited via FINDINGS.md's summary but not read in full line-by-line
+- B1157: the Sym-power Ruelle factorization's own numeric-reproduction script (distinct from acyclicity_and_vol.txt) was not located in this pass
+- B1158: the exact-Gaudin-law sine-kernel rebuild script (item 1) was not read; reproduce.sh itself states this cell is cited, not re-run in this arc
+
+## arcs_115 (11 items)
+- B1166_charter_attack: verification/reproduce.sh was listed as read but its detailed numeric output was not independently traced line-by-line beyond the FINDINGS.md/arc_verdict.json prose summary of CS=1.8e-15 and the disc-144 factorization -- treated as RE-READS out of caution rather than confirmed RECOMPUTES.
+
+## arcs_116 (18 items)
+- B1187_depth_closure: b500_mod2_census.json sampled per SAMPLE_DATA discipline (head40/tail20/wc) rather than read in full (16054 lines); b685_deep.py sampled per SAMPLE_CODE discipline (head120 + grep) rather than read in full (large file, exact-arithmetic script beyond line 120 not inspected line-by-line).
+- B1170-B1187 generally: b*_results.json files listed in the packet as FULL were not individually opened for every arc where FINDINGS.md/arc_verdict.json already gave the full claim text verbatim — relied on FINDINGS/verdict as primary per task instructions rather than re-reading duplicate JSON payloads.
+
+## arcs_117 (4 items)
+- B1189_close_loop_batch1: 20 of 35 verification files were LIST_ONLY (not opened) per the SAMPLE_DATA/FULL budget for this batch — e.g. gc1_traces.py, gc2_twisted_sign.py, gc3_clock.py, gc5_spotcheck.py were not read, only noted as present
+- B1188_grand_retrieval: og3_volume_spectrum.json's full 13.7KB row-by-row content was not independently re-scanned beyond what reproduce.sh's own assertions check
+- B1190_close_loop_batch2 GC-7/8/9/10 and B1191_close_loop_batch3 GC-11/13/14/15: underlying scripts (gc9_probe.py, gc9_results.json, theorem_selector_existence.md, the GC-12 fresh q-series script) are referenced in the narrative JSONs but were not located or read directly — only the narrative text was read
+
+## arcs_118 (15 items)
+- B1192 verification/gc16_hetero_coupling.py: read first 120 lines per SAMPLE_CODE mode but the required grep pattern used basic (non-extended) regex so it silently matched nothing; load-bearing checks were instead confirmed by visual inspection of the head and by the committed gc16_results.json output.
+- B1194 verification/audit_cells.json (85KB, SAMPLE_DATA): only head~60/tail~20 lines of a 98-line file were read; EX-2 through EX-5's full evidence text was not read, only EX-1's opening and EX-6 references found via cross-citation in B1196.
+- B1195 verification/batch5a_cells.json and B1196 verification/batch5b_cells.json: both large files were read via head/tail passes covering GC-21/22/25 and GC-27/28 in full, but GC-19/GC-20 sections were not independently re-read beyond FINDINGS.md's summary in this pass.
+- B1199 verification/cells.json (large file): only head~60/tail~40 read; GC-30's full evidence text (R6/R7/R8) was not independently verified beyond FINDINGS.md's summary.
+- B1201 verification/cells.json: only head~50/tail~30 of a large file read; the full Appendix-A numeric detail was taken from the arc's own quoted excerpts, not independently re-fetched from arXiv:2502.11950v1 in this pass.
+- B1206: the downstream correction (B1208) that invalidates this arc's own 'cheapest candidate' proposal was read only via the log_index file for B1206, not by opening B1208's own arc files (B1208 is outside this batch's packet).
+
+## arcs_120 (14 items)
+- B1216: workflow_result.json's underlying C1 field/embedding scan (30/37 fields, 22/60 embeddings) was read only via the archived transcript summary, not via any separately committed probe script (none exists in this arc's own directory) — read the transcript's cell text and overreach notes in full, but the raw scan itself is not independently re-runnable from this arc alone.
+- B1226: cell2_sm_parameter_typing.py was not read in full detail (only FINDINGS.md's summary table and cell2_results.json were consulted at a summary level); the manual box-assignment logic for all 28 SM-like quantities was not individually checked against the script.
+
+## arcs_121 (7 items)
+- B1231: the arc's own load-bearing instrument (scripts/checks/identification_audit.py) and its 61-candidate sweep output were not part of this packet's file list for B1231 (only two .md files + arc_verdict.json were listed as FULL), so the sweep claim was read only in prose, not re-verified against the actual script.
+
+## arcs_122 (4 items)
+- B8068 cell scripts (build_j2t.py, cell10_unbiased.py through cell30_findB.py, e8_build.py) were listed_only / grepped rather than fully read line-by-line — 20 python files in this arc were not read in full; numeric claims in Cell3/Cell4/AxisRESULTS were taken from FINDINGS.md prose, not independently re-derived from source.
+- B8070's specific sympy lines computing the commutator norms (2.83/12.73/86.27) and the three-line cubic factorization were not located/read within the 221-line anomaly_rank_descent.py; taken from FINDINGS.md's description.
+
+## arcs_123 (11 items)
+- B8076_paper_closure: campaign ledger items 3,4,5,7,8,9,10,12 point partly to papers/structure_paper/verify/*.py files not opened in this read (relied on the sibling frontier arcs' own FINDINGS, read in full, for verification instead); relay files 2-5 were listed only, not opened, per LIST_ONLY-equivalent triage given the 63KB file already read in full for CAMPAIGN.md/PREREGISTRATION.md/item01/item06-head
+- B8078_rung_spectrum_attained/rung_attained.py: SAMPLE_CODE mode as instructed — read first 120 lines plus grep of gate/def/assert/FAILED lines, not the full 400+ line file
+- B8080_assembly_classification/assembly.py: SAMPLE_CODE mode as instructed — read first ~120 lines plus grep of gate/def/assert lines, not the full file
+
+## arcs_125 (17 items)
+- B8095_related_work_armor: results.json content confirmed but Furey's and Connes' primary papers explicitly not read (by the arc's own admission, not this seat's limitation)
+- B8101_scattering_verified: results.json contents inferred mainly from FINDINGS.md's table and the script's structure rather than printed/read in full separately
+- B8105-B8109 (r48 series): live_surfaces.json and triage.json (result artifacts) were not opened line-by-line; their summary counts were taken from FINDINGS.md prose rather than independently recomputed from the JSON
+
+## arcs_126 (12 items)
+- All 12 arcs in this packet were mode FULL; no SAMPLE_CODE/SAMPLE_DATA/LIST_ONLY files were listed, so no reads were deliberately truncated by mode.
+- B8112: the referenced test file tests/test_b8112_graviton_torsion_dictionary.py was not part of this arc's packet file list (only found incidentally in the wider tree) but was read anyway to check the belt; test files for B8113/B8116/B8117/B8118/B8119 referenced in the same way in their FINDINGS.md were NOT located/read, so their belt status could not be confirmed the same way.
+- B8120-B8123: no code/verification scripts for these four arcs were present in the packet at all (only FINDINGS.md [itself a reconstruction], arc_verdict.json, results.json, and one relay each); several load-bearing numeric claims (E1-E3, m13, R1) are therefore known only from prose/JSON summary, not from a reproducible committed script within this arc's own directory.
+
+## arcs_127 (17 items)
+- All 17 arcs: relay/*.md files (15 total across the batch) were read in full for B8127 and B8134 (5 files) but only listed/size-checked, not content-read, for B8124-8126, B8128, B8130-8132, B8138, B8140 (their substance is reproduced verbatim inside each arc's own FINDINGS.md 'What the arc recorded' section, which was read in full, so duplication risk is low but independent relay content was not separately verified).
+- B8124-B8134 numeric claims (2e-50 precision, S(2) growth steps, unitarity to 1.0 exactly): the underlying computation scripts referenced as 'rebuilt from B1128's own standalone script' or similar are not part of this packet and were not located/verified elsewhere in the repo within this pass.
+- B8131 web-search absence claims: no search transcripts exist to check; taken at face value from the arc's own prose summary.
+
+## arcs_128 (15 items)
+- B8147_paperIV_refuted: only arc_verdict.json, results.json, and two relay files were present in this arc's directory (no FINDINGS.md, no code) — the census-scan reproducer is not in this arc's own file set
+- B8148_m12_settled, B8149_paperII_residue_sharpened, B8150_paperIII_fenced, B8153_b500_accounting: same pattern — only arc_verdict.json + results.json + relays/ delivered, no FINDINGS.md and no code file in the arc directory, so load-bearing computations are described only in prose
+- P3_depth_exposure/compute.py: read per the SAMPLE_CODE discipline (first ~120 lines plus grep-located per-target branch block lines 139-300), not the full file; the tail/print-formatting sections after line ~300 were not read
 
 ## log_02 (126 items)
 - The block between the last-standard '## ' entry (2026-07-24 B775 Phase 2 Wave 6, line 1449) and the '## 2026-07-30 RECOVERED' header (line 2270) — roughly 820 lines / a third of the chunk — was read in full but produces NO digest entries because it contains no '## ' markers; its content (Review 32-34, B788-B802, the Dirac campaign, instrument-vocabulary findings, the physics path map, the strong-CP dictionary refutation) is summarized only in top_flags, not as structured per-entry records, per the task's literal '## '-entry instruction.

@@ -122,10 +122,11 @@ def main():
     start = int(sys.argv[1]) if len(sys.argv) > 1 else 0
     end = int(sys.argv[2]) if len(sys.argv) > 2 else len(rows)
     SUF = sys.argv[3] if len(sys.argv) > 3 else ''
+    IOFF = int(sys.argv[4]) if len(sys.argv) > 4 else 0   # sweep-index offset: i = claim_index + IOFF (keeps VERDICTS.tsv keys unique across parts)
     rows = [dict(r, _i=i) for i, r in enumerate(rows)][start:end]
     out_rows, leads, allrec = [], [], []
     for i, r in enumerate(rows):
-        i = r['_i']
+        i = r['_i'] + IOFF
         ts = terms(r['quote'])
         exclude = arc_dir(r['where'], r['arc'])
         if len(ts) < 2:
@@ -143,7 +144,7 @@ def main():
         elif not (subst or dl): status = 'DOC_ECHO'
         elif len(subst) > 40 and not dl: status = 'GENERIC'
         else: status = 'LEAD'
-        allrec.append(dict(i=i, arc=r['arc'], where=r['where'], terms=ts, status=status, substantive=sorted(subst), catchall_hits=echo, deleted=dl))
+        allrec.append(dict(i=i, claim_index=r['_i'], arc=r['arc'], where=r['where'], terms=ts, status=status, substantive=sorted(subst), catchall_hits=echo, deleted=dl))
         out_rows.append((r['arc'], r['source'], r['where'], ' '.join(ts), status,
                          json.dumps(per_head, separators=(',', ':')), ' | '.join(top + ['DELETED:' + d for d in dl]) + (' | +%d catch-all' % echo if echo else ''), r['quote']))
         if status == 'LEAD':

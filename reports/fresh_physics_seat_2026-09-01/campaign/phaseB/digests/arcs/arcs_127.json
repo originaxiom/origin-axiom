@@ -1,0 +1,417 @@
+{
+"batch": "arcs_127",
+"arcs": [
+
+{
+"arc": "B8124_phi_law_sharpened",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-22_THE_PHI_LAW_REPRODUCES_AND_ONE_THIRD_OF_IT_IS_AN_IDENTITY.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "THE PHI-LAW REPRODUCES EXACTLY AND ONE THIRD OF IT IS AN IDENTITY (tone ratio is a reciprocal identity forced by phi*1/(2phi)=1/2 for ANY phi; the genuine content is wx,wz scaling by the same -phi). Status: PROVED.",
+"log_says": "Review 48/49: 'integrate cc3's golden-meridian refinement (B8124 \"one-third is a reciprocal identity\" + B8126...) — VERIFY on-bench, then scope T-GOLDEN-MERIDIAN row' — flagged as pending on-bench verification, not yet confirmed independently as of the log entries read.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"axis triple for RRLL is -phi times RL componentwise to 2e-50, 13-point theta sweep max residual 1.2e-50","where":"results.json componentwise_deviation_from_-phi, theta_sweep_13_points_max_residual","kind":"COMPUTED","reproducible_from_committed":"unknown","why":"claimed as an independent rebuild of B1128's 'own standalone script', but no script is committed in this arc's directory (only FINDINGS/verdict/results/relay); the script this seat rebuilt from is a dependency (B1128), not bundled here, so a stranger cannot rerun the 2e-50-level claim from these files alone"},
+ {"what":"tone(RL)=1/(2phi), tone(RRLL)=-1/2 are an arithmetic identity (phi*1/(2phi)=1/2 for any phi)","where":"FINDINGS.md THE_SHARPENING","kind":"COMPUTED","reproducible_from_committed":"yes","why":"this is elementary algebra, verifiable by hand from the stated definitions; no external tool needed"}
+],
+"belt": "RE-READS",
+"belt_note": "This is itself an audit/re-derivation arc checking B1128's law by rebuilding its instrument 'independently', but the rebuild script is not in the committed arc directory, so the belt exists in narrative only, not as a second committed witness alongside the first.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"the headline 2e-50-level numeric agreement has no committed script in the arc folder; the file list here is text/JSON only","where":"packet files for B8124_phi_law_sharpened"},
+ {"kind":"IDENTIFICATION_BY_TYPE","detail":"none — arc explicitly disclaims golden content in the tone component and is unusually careful about which piece is 'real' vs an algebraic identity; commendable self-scoping, not a flag","where":"n/a"}
+],
+"seat_note": "Pure internal arithmetic bookkeeping on a golden-ratio law between two words in a free group acting on a listener map; no physical quantity is named and Gate 5 is explicitly untouched. The self-caught distinction between 'identity' and 'genuine phi-content' is good practice, but the underlying 2e-50 claim rests on an uncommitted script."
+},
+
+{
+"arc": "B8125_abscissa_not_the_cusp",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-22_THE_ABSCISSA_IS_NOT_THE_CUSP_REFUTED_BY_THE_WEEKS_MANIFOLD.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "THE n=2 ABSCISSA IS NOT A CUSP PHENOMENON — REFUTED BY THE WEEKS MANIFOLD. Status: NEGATIVE (creates a law: docs/LAW_MAP.md row B8125).",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"on m003(-3,1) (Weeks manifold, closed, cusp-free, vol=0.9427073627769285), S(2) grows with steps +0.049969,+0.087368,+0.078697,+0.049255 over L=2.5..4.5, no decay","where":"results.json the_decisive_control","kind":"COMPUTED","reproducible_from_committed":"unknown","why":"a specific numeric control is quoted to 6 decimal places but no script is included among this arc's committed files; the computation method (partial sums of length spectrum) is described in prose only"},
+ {"what":"a log-fit intercept d=0.102679 near vol/(2pi^2)=0.102835 (0.15% match) was a look-elsewhere artifact: d swings from 0.197 to -0.030 across c's own ~20% uncertainty","where":"results.json the_seductive_near_miss","kind":"COMPUTED / self-refuted","reproducible_from_committed":"unknown","why":"same reproducibility gap as above — numbers given, no script committed here"}
+],
+"belt": "RE-READS",
+"belt_note": "The arc itself performs a genuine control (a closed, cusp-free manifold) to falsify its own tempting near-miss fit — good self-skepticism — but the underlying fit and control numbers have no committed witness in this directory.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"S(2) growth steps and the log-fit intercept are precise numbers with no committed script; reproducibility depends on unlisted external code","where":"results.json the_decisive_control, the_seductive_near_miss"},
+ {"kind":"FITTED_VALUE","detail":"explicitly self-flagged: a fitted intercept d=0.102679 nearly matched a target constant (vol/(2pi^2)) purely by construction of the fit window, and the candidate constant had been printed in the same script that produced the fit — a textbook look-elsewhere case the arc itself catches and retracts","where":"results.json the_seductive_near_miss.and_worse"}
+],
+"seat_note": "This is a clean negative result and a good methodological catch (refuting its own near-miss with a closed-manifold control) but is pure hyperbolic-geometry/zeta-function mathematics with no physical identification whatsoever; it is upstream scaffolding for a one-loop graviton calculation that itself has no assembled observable yet."
+},
+
+{
+"arc": "B8126_tone_axis_split",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-22_THE_COMPONENTS_SPLIT_AGAINST_THE_TONE_MENU_TRANSVERSELY_TO_YOUR_LAW.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "THE PAULI COMPONENTS SPLIT AGAINST THE TONE MENU, TRANSVERSELY TO THE LAW. Status: PROVED (creates a law).",
+"log_says": "Review 48/49: same R48-2 item bundling B8124+B8126 as pending on-bench verification.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"four Pauli components (tone,wx,wy,wz) for RL and RRLL to 15 digits, e.g. tone(RL)=0.309016994374947=1/(2phi), wy(RL)=-0.809016994374947=phi/2","where":"results.json table","kind":"COMPUTED","reproducible_from_committed":"unknown","why":"quoted to 15 significant digits from an unnamed pauli_decompose routine; no script committed in this arc directory"},
+ {"what":"{tone,wy} land exactly on B8111's five-tone 2I menu, {wx,wz} do not, while the law's own structure splits {tone,wx,wz} (scale by -phi) vs wy (does not)","where":"FINDINGS.md the_new_finding / why_it_matters","kind":"COMPUTED","reproducible_from_committed":"unknown","why":"depends on B8111's menu (external arc) plus the numeric table above; consistency is checkable given both, but neither underlying computation is bundled here"}
+],
+"belt": "NONE",
+"belt_note": "No independent recomputation of the four Pauli components is present in this arc's files; it reads and cross-tabulates numbers computed elsewhere (B1132's law and B8111's menu).",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"no committed script for pauli_decompose or the table values; the arc is a cross-tabulation exercise on numbers from B1132/B8111","where":"results.json table"},
+ {"kind":"NUMERIC_ONLY_NO_EXACT","detail":"self-reported process note: a first check used a tolerance (1e-25) tighter than the literals' own precision (18 digits) and manufactured a false negative reporting every menu member as a miss, caught only by adding a positive control","where":"FINDINGS.md process_note"}
+],
+"seat_note": "An honest audit narrative (three false negatives from mismatched tolerances in one day is a real methodological signal worth tracking across the corpus) but the content itself is bookkeeping on abstract group/arithmetic quantities with explicit 'Gate 5 untouched' — no physical claim is made or implied here."
+},
+
+{
+"arc": "B8127_regulator_omission",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-22_TWO_SCOPE_NOTES_ON_THE_REGULATOR_CLOSURE.md","relays/CC3_TO_CC_2026-08-22_YOUR_REGULATORS_DOOR_FOUND_TWO_OMISSIONS_OF_MINE.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "TWO SELF-CORRECTIONS: a banked identity (Vol(4_1)=(3sqrt3/2)L(chi_-3,2), already B680) re-derived by B8119 without citing B680, and a 'new door' (Arakelov) that duplicates existing regulator material (B680/B683/HINT_LEDGER). Status: PROVED (i.e. the self-correction is banked as correct).",
+"log_says": "Review 48 flags 'cc3's B8127 ... verify + integrate if it survives' as pending; by Review 52 the log states 'cc3's items are CLOSED BY RETIREMENT — B8127 ... will not come and is hereby retired, not carried.'",
+"log_consistency": "CONTRADICTION",
+"load_bearing": [
+ {"what":"attribution claim: B680 already proved Vol(4_1)=(3sqrt3/2)L(chi_-3,2) and named it the being-character L-value; B8119 re-derived it citing B680 zero times","where":"FINDINGS.md verdict","kind":"ASSERTED","reproducible_from_committed":"no","why":"this arc's files are a prose comparison of two other arcs' text; no independent re-check of B680's or B8119's proofs is performed here, only a citation/attribution audit"}
+],
+"belt": "NONE",
+"belt_note": "Pure attribution/novelty audit — no computation, explicitly stated ('Computes nothing').",
+"absence_claims": [
+ {"quote":"L8002 registered Arakelov as the successor door to the C5 negative without searching the corpus's own regulator material", "where":"FINDINGS.md verdict"},
+ {"quote":"FOUR section-0 violations by this seat today, all ABSENCE ASSERTED WITHOUT A SEARCH", "where":"FINDINGS.md the_pattern"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"OTHER","detail":"The project's own progress log later records this exact arc's promised cross-bench verification as never completed and formally 'retired' rather than confirmed — the arc's own claim of self-correction was never independently checked before the campaign moved on.","where":"log_index/B8127.txt, Review 52 entry"},
+ {"kind":"SELF_REFERENTIAL_LOCK","detail":"the arc names a recurring failure mode in the same seat's own work ('four section-0 violations... today') without a gate existing to catch it; it is a self-audit describing an uncaught process failure, not a fixed one","where":"FINDINGS.md the_pattern"}
+],
+"seat_note": "A candid self-correction of citation practice with no physics content, but the fact that its own promised on-bench verification was later abandoned/retired rather than performed is a real process gap worth flagging to the seat evaluating overall corpus reliability."
+},
+
+{
+"arc": "B8128_genericity_on_the_wins",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","wins.py","relays/CC3_TO_CC_2026-08-22_I_CANNOT_SUPPLY_MEMO_26_EITHER_AND_A_RISK_WORTH_NAMING.md","relays/CC3_TO_CC_2026-08-22_MY_RECOMMENDATION_ON_THE_PASTE_ORDER_AND_THREE_QUESTIONS_FOR_YOU.md","relays/CC3_TO_CC_2026-08-22_THE_CONTROL_TURNED_ON_THE_WINS_ONE_PROPERTY_SEPARATES.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "THE GENERICITY CONTROL, TURNED ON THE WINS: of seven elementary properties tested over the 14-manifold Q(sqrt-3) shape-field family, exactly one (H_1=Z) separates m004; volume, tetrahedron count, cusp count, torsion-freeness, amphichirality (shared by ALL 13 others) and CS=0 are all shared with siblings. Status: PROVED (creates a law).",
+"log_says": "PROGRESS_LOG.md 2026-08-19 entry: 'cc3's B8128 (owner-elected), verified two-bench via an independent SnapPy census and banked' — i.e. independently re-verified, not just self-reported.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"of 7 invariants over 14 census manifolds sharing shape field Q(sqrt-3), only H_1=Z separates m004; volume 2.029883212819307 shared with m003, amphichirality shared with all 13","where":"FINDINGS.md verdict; wins.py (committed script, 124 lines)","kind":"COMPUTED","reproducible_from_committed":"yes","why":"a 124-line script (wins.py) is committed in this arc's own directory and the log confirms an independent second-bench SnapPy reproduction — this is the strongest-witnessed arc in the batch"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Log confirms 'verified two-bench via an independent SnapPy census' — genuine independent recomputation, not just a re-read.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"OTHER","detail":"two self-caught bugs in the same run (float-equality comparison on Chern-Simons manufacturing a false separator; testing torsion-freeness instead of H_1=Z) are reported transparently — good practice, not a flag against the arc, but indicative of how easily a shared/generic property can look like a discriminating one","where":"FINDINGS.md self_caught_bugs"}
+],
+"seat_note": "This is a genuinely useful negative-control result for the whole m004-selection argument: it shows the manifold's most publicized invariant (its volume/L-value identity) is a FAMILY property, not object-specific, and only H_1=Z is object-level — this materially narrows what later steps in the thesis chain (e.g. the trace-field entrance) can honestly claim is m004-specific."
+},
+
+{
+"arc": "B8129_n2_no_breakdown",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-25_YOUR_DENSITY_CHECK_KILLED_THE_BRIDGE_AND_MY_n2_RESIDUE_MOVED.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "THE n=2 FACTOR SHOWS NO BREAKDOWN AT THE ABSCISSA, on an instrument proven able to see one (bite control: spread grows 1.6x-21.8x below the abscissa, but only 1e-4 to 1.7e-3 at/above it). Status: PROVED. Explicitly: 'EXISTENCE IS NOT PROVED.'",
+"log_says": "PROGRESS_LOG.md: 'GRAVITON BRIDGE DEAD (cc3 B8129/B8130): Ruelle Euler product purely geodesic, L(chi_-3) only via the cusped functional equation → graviton (geodesic) and Lane C (cusp) meet nowhere' — consistent framing, though log emphasis is on the negative bridge result rather than this arc's narrower 'no breakdown' claim.",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"|R(s,sigma_2)| smooth/monotone through s=2 (1.1075 at 2.6 to 1.1936 at 2.0), cutoff spread 1.03e-4 to 1.71e-3 above abscissa vs 1.6x-21.8x growth below it (bite control)","where":"results.json (per FINDINGS.md quoting it) finding, bite_control","kind":"COMPUTED","reproducible_from_committed":"no","why":"B8137 (a later arc in this same batch) explicitly states 'B8129 and B8130 are banked as results.json with NO code in the tree' and had to write an independent reproducer from the method description alone — this is a directly documented MISSING_WITNESS, confirmed by a sibling arc, not just an absence inferred from this packet"}
+],
+"belt": "NONE",
+"belt_note": "No script accompanies this arc; the gap is explicitly discovered and named by a later arc (B8137) in the same batch.",
+"absence_claims": [
+ {"quote":"EXISTENCE IS NOT PROVED — three cutoffs, cutoff-to-infinity untested", "where":"FINDINGS.md verdict"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"confirmed cross-arc: B8137's own FINDINGS.md states 'B8129 and B8130 are banked as results.json with NO code in the tree', and that B8137 had to write check_n2_abscissa.py independently from the banked method description, finding its own reproduction differs ~3% in cutoff spread from the banked numbers (1.06e-4 vs 1.03e-4 at s=2.6)","where":"B8137_paper3_drafted/FINDINGS.md, 'A gap in this seat's own bank, found and filled'"}
+],
+"seat_note": "The claim itself is modest and carefully scoped ('no evidence of breakdown', explicitly not existence), but it was banked with zero committed code for five days until a sibling arc caught the omission and reproduced it independently with a small (~3%) numeric discrepancy — a real instance of the exact witness-gap this seat's own rules warn against."
+},
+
+{
+"arc": "B8130_item5_ruelle_Lchi",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-25_ITEM_5_ANSWERED_AND_A_CORRECTION_TAKING_IS_NOT_DONE.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "The Ruelle zeta of m004 does not factor through L(chi_-3) in its Euler product (which is purely geodesic), but L(chi_-3) enters the functional equation through the cusp/scattering determinant phi(s)=Lambda_K(s-1)/Lambda_K(s). Status: PROVED (creates a law).",
+"log_says": "'GRAVITON BRIDGE DEAD (cc3 B8129/B8130): Ruelle Euler product purely geodesic, L(chi_-3) only via the cusped functional equation → graviton (geodesic) and Lane C (cusp) meet nowhere, the graviton is two faces, the finale (B1140) independent.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"unitarity phi(s)phi(2-s)=1.0 exactly at s=1.5,1.8,2.5, with Hurwitz continuation matching the naive series where both are valid","where":"FINDINGS.md verdict","kind":"COMPUTED","reproducible_from_committed":"no","why":"same status as B8129: this arc explicitly says B8130 is 'banked as results.json with NO code in the tree' per B8137's cross-check finding"}
+],
+"belt": "NONE",
+"belt_note": "No script in this arc; confirmed missing by sibling arc B8137.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"B8137's FINDINGS.md explicitly names B8130 alongside B8129 as banked with 'NO code in the tree'","where":"B8137_paper3_drafted/FINDINGS.md"},
+ {"kind":"OTHER","detail":"first attempt evaluated L(s,chi_-3) via naive series outside its half-plane of convergence and got phi(1.5)phi(0.5)=-484.8, an apparent refutation of a banked identity, self-caught before reporting","where":"FINDINGS.md false_negative_caught"}
+],
+"seat_note": "A structurally important negative result for the thesis chain (it forecloses treating the graviton's geodesic Euler product as itself an L-function) but again with no committed numeric witness in this arc, only in a later sibling arc's independent (and slightly divergent) re-derivation."
+},
+
+{
+"arc": "B8131_brief_triage",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-25_THE_BRIEF_TRIAGED_TWO_GATES_SURVIVE_ONE_TO_STRIKE.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Triage of a NEEDS-SPECIALIST brief: item 1 (J_3(O) Beilinson regulators) label survives; item 2 (exceptional E6/F4 state integral) survives and sharpens; item 3 (cusped boundary-graviton one-loop) should be struck (mislabeled specialist, already six arcs of internal work); item 4 partially discharged; item 5 answered elsewhere (B8130). Status: PROVED.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"'the combination [Beilinson regulators + J_3(O)] is absent' from literature reached via web search on 2026-08-25","where":"FINDINGS.md verdict","kind":"ASSERTED","reproducible_from_committed":"no","why":"a literature-absence claim based on two search phrasings on one date; no search transcript or query log is committed, only the prose conclusion"}
+],
+"belt": "NONE",
+"belt_note": "No computation; a literature search exercise with a stated methodology (positive-control date test) but no committed search logs.",
+"absence_claims": [
+ {"quote":"THE COMBINATION IS ABSENT [J_3(O) + Beilinson regulators, in literature reached 2026-08-25]", "where":"FINDINGS.md verdict"},
+ {"quote":"exceptional groups are absent [from state-integral literature covering SL(2,C)/SL(n,C)]", "where":"FINDINGS.md verdict"},
+ {"quote":"NOT an exhaustive literature survey: absence here means absent from the literature reached today", "where":"FINDINGS.md scope"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"literature-absence claims backed by web search are not accompanied by any committed search log, query text, or result list — only the seat's summary judgement","where":"FINDINGS.md throughout"}
+],
+"seat_note": "This is a process/triage exercise (which open questions are genuinely specialist-gated) rather than mathematics or physics; its own self-applied 'date test' is a reasonable discipline but the absence claims it reaches rest entirely on unlogged searches."
+},
+
+{
+"arc": "B8132_spin_count_not_separating",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-25_NO_DOUBLE_COUNT_BUT_THE_SUBJECT_LINE_COULD_MAKE_ONE.md","relays/CC3_TO_CC_2026-08-25_THE_SPIN_COUNT_IS_A_FAMILY_FACT_NOT_m004s.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "THE SPIN-STRUCTURE COUNT IS NOT A SEPARATING PROPERTY OF m004 — 4 of 14 shape-field family members share H^1(M;Z/2)=2 (m003, m206, m207 also qualify via rank-1-with-odd-torsion). Not a refutation of B1141's spin selection, which rests on other grounds. Status: PROVED.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"H^1(M;Z/2)=Hom(H_1,Z/2) computed across B8128's 14-manifold family: m004, m003 (Z/5+Z), m206 (Z/5+Z), m207 (Z/3+Z/3+Z) all give 2","where":"FINDINGS.md finding/computation","kind":"COMPUTED","reproducible_from_committed":"no","why":"stated as an application of B8128's instrument (wins.py) but no updated script or output file for this specific H^1 computation is committed in this arc's directory"}
+],
+"belt": "NONE",
+"belt_note": "Builds on B8128's committed script by description only; no new committed artifact for the H^1 extension itself.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"MISSING_WITNESS","detail":"the extension of B8128's census to H^1(M;Z/2) counts is not accompanied by a committed script or output in this arc directory, only prose","where":"FINDINGS.md computation"}
+],
+"seat_note": "Useful and modest self-correction of framing around B1141's spin-structure selection (the count of spin structures is a family fact, not object-specific to m004), explicitly stated as not refuting the underlying selection mechanism — good scoping discipline, but again no fresh committed witness."
+},
+
+{
+"arc": "B8133_residue2_reframed",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-25_RESIDUE_2_REFRAMED_FRIED_EVALUATES_AT_THE_WRONG_POINT.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "RESIDUE 2 IS AN EVALUATION-POINT GAP, NOT AN EXISTENCE GAP — Fried's theorem (torsion at s=0) does not close it because the graviton product lives at s=n>=2 and Pfaff's ratios at k>=3; three different evaluation points of one twisted Ruelle family. Status: PROVED (creates a law); explicitly does not close residue 2.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"literature placement: Fried's theorem evaluates at s=0, Pfaff's ratios at k>=3, B8112's graviton product at s=n>=2 — three distinct evaluation points of one family","where":"FINDINGS.md verdict/why_it_does_NOT_close","kind":"ASSERTED","reproducible_from_committed":"unknown","why":"a literature/citation placement (Fried, Park, Pfaff) rather than a computation; no code applies, reproducibility means 'can a reader verify these are the theorems' stated evaluation points from the cited papers', which this digest cannot check without the source papers"}
+],
+"belt": "NONE",
+"belt_note": "Literature placement, not computation; self-correcting (the arc opens by asserting Fried closes the gap, then withdraws that mid-arc).",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"OTHER","detail":"self-correction within the same arc: opened by claiming Fried's theorem closes residue 2, caught and reversed after checking evaluation points — transparent, but shows how easily a superficially matching theorem can be mis-cited as closing a gap it doesn't reach","where":"FINDINGS.md self_correction"}
+],
+"seat_note": "A careful negative/scoping result narrowing what remains open in the graviton one-loop calculation; purely a literature-placement exercise with no numeric computation and no physical observable, useful mainly as an honest inventory of what is NOT yet established."
+},
+
+{
+"arc": "B8134_codex_branch_stale_claim",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","relays/CC3_TO_CC_2026-08-26_A_WITHDRAWN_ACCUSATION_IS_LIVE_ON_THE_CODEX_BRANCH.md","relays/CC3_TO_CC_2026-08-26_CORRECTION_THE_CODEX_BRANCH_IS_MID_WORK.md","relays/CC3_TO_CC_2026-08-26_YOUR_MINUS_I_IS_MY_CONTROL_AND_A_BRANCH_IS_DIVERGENT.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "[CORRECTED 2026-08-26] Original characterization (that a withdrawn accusation about B1143/B-L was 'live' on a stale codex branch) is itself withdrawn: the codex branch was mid-work, not stale, so its missing withdrawal is not an assertion. The underlying facts (branch text vs main's B1144 reframing) are retained. Status: PROVED, with the arc's own headline claim carrying a CORRECTED superseding note inline.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"comparison of arc_verdict text across two branches (origin/codex/seat-r001 B1143 vs origin/main B1144) on the B-L Cartan-generator construction","where":"FINDINGS.md what_the_branch_says / what_main_says","kind":"IMPORTED","reproducible_from_committed":"unknown","why":"quotes two other branches' text; this digest did not independently check the origin/codex/seat-r001 or origin/main commit content, only the quoted excerpts inside this arc's own FINDINGS.md"}
+],
+"belt": "NONE",
+"belt_note": "Cross-branch comparison/attribution audit, not a computation.",
+"absence_claims": [],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"SUPERSEDED_UNMARKED","detail":"the arc's own claim_one_line in arc_verdict.json begins with a bracketed '[CORRECTED 2026-08-26 ...]' notice and the FINDINGS.md 'Verdict' section is itself the corrected text — i.e. the correction is embedded inline in the sole claim_of_record rather than as a separate superseding document; this is handled reasonably (no stale uncorrected copy found in the digest sample) but is the same file serving as both the original claim and its own retraction, which is fragile bookkeeping","where":"arc_verdict.json claim_one_line"},
+ {"kind":"OTHER","detail":"the arc explicitly names its own error class: 'I read a snapshot [of an interrupted, mid-work branch] as a claim — the same shape as reading a headline as a result', i.e. a repeated failure mode (jumping to a characterization before checking whether the artifact being read was even a finished statement)","where":"FINDINGS.md the_error_class_is_mine"}
+],
+"seat_note": "A meta-level correction about how to read another (interrupted) seat's in-progress branch rather than a math or physics result; instructive about process fragility (accusing a branch of an 'uncorrected' claim when the branch simply ran out of session time) but carries no physical content."
+},
+
+{
+"arc": "B8135_paper1_drafted",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Paper I drafted (7pp, 0 overfull boxes, 0 undefined refs, verification 15/15): period-one locus in GL(2,Z) is exactly det=-1; via Cayley-Hamilton A^2-I=mA with A unimodular, coker(A^2-I)=Z/m+Z/m EXACTLY (not merely order m^2); primitive GL(2,Z) class unique for m<=5, first repeats at m=6. Status: PROVED. None of the paper's underlying anchors (OA-C0001/2/3) are PROVED.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"coker(A^2-I)=Z/m ⊕ Z/m exactly, from Cayley-Hamilton + unimodularity of A","where":"FINDINGS.md 'The result'","kind":"COMPUTED","reproducible_from_committed":"yes","why":"is elementary linear algebra (a short proof, checkable by hand) and is additionally backed by a committed reproducer script papers/series/paper1_characterization/verify/check_locus.py (verified present in the worktree, 15 checks in 4 groups, enumerating 896 matrices of det=-1 in a bounded box, with a stated control that must fail for det=+1)"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "check_locus.py exhaustively enumerates 896 integer matrices (traces 1-26) rather than only the paper's representative matrices, plus a negative control (det=+1 must fail) — a real, committed, falsifiable check.",
+"absence_claims": [
+ {"quote":"None PROVED [OA-C0001 REFUTED, OA-C0002/OA-C0003 CONDITIONAL] — and the paper's Appendix B says so", "where":"FINDINGS.md 'Correction recorded'"},
+ {"quote":"An independent count reports 2 primitive classes at m=12 where this gives 3. UNRESOLVED", "where":"FINDINGS.md SCOPE"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"OTHER","detail":"a discrepancy with an independent count (2 vs 3 primitive classes at m=12) is disclosed as UNRESOLVED and non-load-bearing rather than resolved or suppressed","where":"FINDINGS.md SCOPE"},
+ {"kind":"OTHER","detail":"a corrected mismatch between the SERIES_PLAN.md's claim (Paper I answers 17 'geometry' domain questions) and the paper's actual anchors is self-caught: 'ALL 17 are algebraic geometry of heterotic bundles — not one is hyperbolic geometry. I matched the word and never opened the rows'","where":"FINDINGS.md 'Correction recorded'"}
+],
+"seat_note": "A well-witnessed piece of pure combinatorial/algebraic number theory (GL(2,Z) matrix orbits) with a committed exhaustive-enumeration reproducer and an honest negative control; explicitly no physical content and explicitly notes none of its downstream anchors are yet proved — good hygiene, zero physics."
+},
+
+{
+"arc": "B8136_paper2_drafted",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Paper II drafted (8pp, clean build): dim z(S) over the infinite subspace lattice of C⊂e6 is the flat-function of 30 hyperplanes in 4-space, giving a finite image (109 flats, 11 values, all attained, verified only at 3 primes 409/421/487); NEW: the subalgebra C is forced by McKay degree matching to 2T (E6's McKay partner), not chosen. Status: PROVED.",
+"log_says": "not in log",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"D(2T) ∩ E = {8,14,16,22} exactly, each with a unique realizing monomial; D(2O) ∩ E = {8,16}, D(2I) ∩ E = ∅","where":"FINDINGS.md 'New over B8078'","kind":"COMPUTED","reproducible_from_committed":"yes","why":"backed by a committed reproducer papers/series/paper2_rung_spectrum/verify/check_forcing.py (13 checks with live controls, confirmed present in worktree) plus a re-run of B8078's rung_attained.py to completion before drafting"},
+ {"what":"109 flats / 11 values of dim z(S), verified only at three 'faithful' primes (409, 421, 487); the Qbar flat lattice is explicitly REGISTERED AS OPEN, not claimed","where":"FINDINGS.md SCOPE","kind":"COMPUTED","reproducible_from_committed":"yes","why":"same reproducer chain, but the arc itself flags that mod-p verification cannot prove the characteristic-0 (Qbar) lattice is identical — a disclosed, not hidden, limitation"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "check_forcing.py plus a full re-run of B8078's script to completion before drafting; controls include a rejection test for a non-invariant degree-8 form.",
+"absence_claims": [],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"OTHER","detail":"self-caught: the entire first draft mislabeled t and Phi as binary OCTAHEDRAL (2O) invariants when the degree arithmetic (6,8,12) only closes for binary TETRAHEDRAL (2T), E6's actual McKay partner — caught mid-draft, and the correction is reported as making the paper's argument stronger rather than weaker","where":"FINDINGS.md 'Correction recorded'"},
+ {"kind":"OTHER","detail":"the principal-sl2 placement input to the whole construction is explicitly flagged CONDITIONAL (OA-C0006), i.e. the 'forcing' of C is conditional on an unproven prior choice","where":"FINDINGS.md SCOPE"}
+],
+"seat_note": "This is the arc most directly relevant to the thesis's Lie-theory step (e6, McKay correspondence with 2T): the McKay-partner-forces-C argument is a real structural/group-theoretic result with a committed exhaustive reproducer, but it explicitly rests on a CONDITIONAL prior (principal sl2 placement) and its finite-image claim is verified only at three primes, not proved over Qbar."
+},
+
+{
+"arc": "B8137_paper3_drafted",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Paper III drafted (6pp, clean build): sigma_k is one-dimensional so R(k,sigma_k)=prod(1-q_gamma^k) exactly the GMY nome; Z_1-loop=prod_{n>=2}|R(n,sigma_n)|^{-2} is an infinite product, NOT any single Ray-Singer torsion; cross-check of log Z (n>=3 tail) two ways agrees to 8.2e-14. States three open residues with named closing conditions. Status: PROVED.",
+"log_says": "not in log directly for B8137; but the log's B8129/B8130 entries corroborate the underlying claims this paper packages.",
+"log_consistency": "NOT_IN_LOG",
+"load_bearing": [
+ {"what":"log Z for n>=3 tail agrees to 8.2e-14 between the Ruelle-factor route and the direct geodesic-sum route","where":"FINDINGS.md 'The result'","kind":"COMPUTED","reproducible_from_committed":"yes","why":"backed by a committed reproducer papers/series/paper3_one_loop/verify/check_n2_abscissa.py (confirmed present in worktree) plus a re-run of dictionary.py to completion"},
+ {"what":"B8129/B8130 were banked as results.json with NO code in the tree; this arc independently wrote check_n2_abscissa.py from the method description alone and its cutoff spreads differ ~3% from the originally banked numbers (1.06e-4 vs 1.03e-4 at s=2.6)","where":"FINDINGS.md 'A gap in this seat's own bank, found and filled'","kind":"COMPUTED","reproducible_from_committed":"yes","why":"this is the one arc in the batch that both names a prior MISSING_WITNESS explicitly and fixes it with a committed script; the 3% discrepancy from the never-reproducible original is disclosed rather than silently reconciled"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "The reproducer 'ABORTS unless the bite control diverges below the abscissa' (spread ratio 21.8x at s=1.40) — a genuinely falsifiable, committed check, and it independently confirms (with a small numeric residual) two previously uncommitted arcs (B8129, B8130).",
+"absence_claims": [
+ {"quote":"B8129 and B8130 are banked as results.json with NO code in the tree", "where":"FINDINGS.md 'A gap in this seat's own bank, found and filled'"},
+ {"quote":"Convergence of the n=2 factor is NOT proved... Status is 'no evidence of breakdown; existence unproved'", "where":"FINDINGS.md SCOPE"},
+ {"quote":"The one-loop partition function is not assembled. No measured quantity and no identification with any observable.", "where":"FINDINGS.md SCOPE"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"GITIGNORED_WITNESS","detail":"not gitignored per se, but the arc documents that two upstream arcs (B8129, B8130) existed for 5+ days with results banked and zero committed code, discovered only when this arc needed to cite a reproducible script for a paper draft — functionally the same failure mode as a gitignored witness (no committed way to rerun the original claim)","where":"FINDINGS.md 'A gap in this seat's own bank, found and filled'"}
+],
+"seat_note": "The clearest statement in the batch that the AdS3 boundary-graviton one-loop object is explicitly NOT a physical observable yet ('not assembled', 'no identification with any observable') — this is honest and important context: nothing here should be read as physics content, it is scaffolding toward a possible future one-loop calculation with three named open residues."
+},
+
+{
+"arc": "B8138_paper4_drafted",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","relays/CC3_TO_CC_2026-08-26_A_SECOND_OBJECT_LEVEL_DATUM_FOR_W0.md","relays/CC3_TO_CC_2026-08-26_THE_FOUR_PAPER_SERIES_IS_DRAFTED.md","relays/CC3_TO_CC_2026-08-26_YOUR_THEOREM_CLOSES_MY_ROUTE_AND_IS_AN_INSTANCE_OF_PAPER_IV.md","relays/CC3_TO_CC_2026-08-26_YOUR_W0_OBSTRUCTION_IS_FAMILY_WIDE.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "Paper IV drafted (5pp, clean build, verification 7/7), completing the 4-paper series: three no-go results proved as theorems with exhaustive escape routes — (i) Mostow rigidity fixes shape not size, so dimensionful quantities are undetermined but dimensionless ratios/phases/counts are untouched; (ii) a G-invariant cannot select a point within its orbit (2 exhaustive escapes: shrink the group or add non-invariant structure); (iii) of 7 invariants only H_1=Z separates m004 from its 14-manifold family (restates B8128). Status: PROVED. None of OA-C0016/0018/1063/1064 is resolved.",
+"log_says": "PROGRESS_LOG B1167 (2026-08-26): '(B) cc3 B8138-extended adds the cusp shape as a 2nd object-level separator (m004=2sqrt3 i, unique in the 14-manifold Q(sqrt-3) family, reproduced)' — this is an EXTENSION beyond what B8138's own FINDINGS.md states (which reports only H_1=Z as the sole separator among the 7 tested invariants); the log records a later, additional separator found afterward.",
+"log_consistency": "DRIFT",
+"load_bearing": [
+ {"what":"family census regenerated from the SnapPy census (not read from a stored list) reproduces B8128's table exactly; 7 checks including explicit-tolerance CS comparison and separate torsion-freeness vs H_1=Z reporting","where":"FINDINGS.md 'Verification'","kind":"COMPUTED","reproducible_from_committed":"yes","why":"backed by committed papers/series/paper4_what_cannot_be_supplied/verify/check_family.py plus extended_census.py (both present in the worktree)"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "check_family.py regenerates the family census from scratch rather than reading a cached list, and adds a check for a previously untested claim (amphichirality shared with all 13 others) which is confirmed to hold.",
+"absence_claims": [
+ {"quote":"Nothing here resolves OA-C0016, OA-C0018, OA-C1063 or OA-C1064 — none is PROVED and this paper does not change that.", "where":"FINDINGS.md SCOPE"}
+],
+"physics_content": "STRUCTURAL",
+"red_flags": [
+ {"kind":"LOG_DRIFT","detail":"the progress log records a follow-on extension (a second object-level separator, cusp shape m004=2*sqrt(3)*i) attributed to 'B8138-extended' that is not present in this arc's own FINDINGS.md/arc_verdict.json — a reader of only this arc's committed files would not learn of the extension, and it is unclear from this packet whether the extension lives in a different, unlisted arc","where":"log_index/B8138.txt vs FINDINGS.md"}
+],
+"seat_note": "Well-witnessed, and the escape-route framing for the two 'no-go' theorems (scale-freeness, orbit-invariance) is a genuinely useful discipline for any physical-identification claim later in the chain — but the log records a follow-on finding not reflected in this arc's own bundled files, worth checking against the actual B8138-extended source before treating this arc's file set as complete."
+},
+
+{
+"arc": "B8139_findings_omission_swept",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "This seat stopped writing FINDINGS.md at B8110 and the omission ran unbroken through B8134 (16 arcs, 5 days) because the lock that catches it lives in a 4528-test suite whose collection alone takes 421s and could not complete in a session. 20 FINDINGS.md written (16 reconstructed + 4 new), 2 verdicts normalized into sealed vocabulary, 7 NEGATIVE arcs routed to kill graph, atlas regenerated. Status: PROVED.",
+"log_says": "PROGRESS_LOG.md: '2026-08-26 — THE COST FAILURE CLASS + THE FAST LANE (B1152). Harvest of cc3's B8139 ... cc3 named the \"cost\" failure class — a lock that works, was never weakened, but is NEVER RUN because the suite is too expensive to reach it ... missing-FINDINGS drift ran 16 arcs/5 days behind it.' Also: 'cc3 withdrew two of its own B8139 claims: the killed-run \"73%/five failures\" detail (truncated fragment)... the PRINCIPLE stands, not the numbers.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"16 arcs (B8110? through B8134) had verdicts banked with no FINDINGS.md for 5 days, undetected because the enforcing test lives in a 1038-file/4528-test suite too slow to finish in a session (73% reached before timeout)","where":"FINDINGS.md 'The finding'","kind":"ASSERTED (about the corpus's own process)","reproducible_from_committed":"unknown","why":"a claim about suite runtime/collection time (421s) and a killed run's exit state; this digest did not independently time-run the suite, and the arc itself later withdraws the specific '73%/five failures' detail as based on a truncated log fragment"}
+],
+"belt": "NONE",
+"belt_note": "This is a meta/process arc (sweeping other arcs' documentation), not a math computation.",
+"absence_claims": [
+ {"quote":"This seat stopped writing FINDINGS.md at B8110 and the omission ran unbroken through B8134 — sixteen consecutive arcs, five days, all of them mine.", "where":"FINDINGS.md 'The finding'"},
+ {"quote":"the reconstructed documents are faithful to the banked record but not contemporaneous, and each says so in its own header", "where":"FINDINGS.md SCOPE"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"OTHER","detail":"the arc's own headline detail ('killed run contains exactly 5 failures total and reached 73%') was itself withdrawn one arc later (B8140) as based on a truncated three-line log fragment, not the full record — the corpus's self-audit apparatus produced an unreliable number about its own reliability on the first pass","where":"B8140_fastlane_adopted/FINDINGS.md 'Two corrections of mine'"},
+ {"kind":"OTHER","detail":"flags (without acting on) a personal email address left on a tracked, dual-pushed submission-metadata file, in tension with a standing lock against email-shaped text on that surface — disclosed but deliberately left unresolved","where":"FINDINGS.md '⚠ Flagged for the owner, not touched'"}
+],
+"seat_note": "This is the single most important process finding across the whole batch, and it directly explains why so many of this batch's own arcs (B8124-B8134) carry non-contemporaneous, reconstructed FINDINGS.md files rather than original ones written at the time of the claim -- a systemic documentation-integrity gap the seat itself surfaced and disclosed rather than hid."
+},
+
+{
+"arc": "B8140_fastlane_adopted",
+"source": "paper/structure-genesis-first",
+"files_read": ["FINDINGS.md","arc_verdict.json","results.json","relays/CC3_TO_CC_2026-08-26_FASTLANE_REPRODUCED_AND_ONE_COST_BUG.md"],
+"files_sampled": [],
+"files_listed_only": [],
+"claim_of_record": "B1152's fast test-selection lane reproduced in-sandbox (not merely cited): selects 47 files (including all 3 locks that caught B8139's drift) and runs in 59s vs a full suite that cannot finish. One cost bug found: a relay-only diff falls back to running the FULL suite because the selector conflates 'nothing matched' with 'everything matched as test-inert'. Fix verified across 6 cases but NOT applied (cc owns the file). Status: PROVED.",
+"log_says": "PROGRESS_LOG.md: 'B8140 ADOPTION (cc3's audit of B1152). cc3 ... reproduced B1152's fast lane in-sandbox and found one SAFE cost bug ... the tool defeating itself on the commonest input (writing a relay).' Later: 'The fast-lane selector fell back to the full suite on a relay-only diff (cc3 B8140) → fixed (two empties distinguished) + regression-locked.'",
+"log_consistency": "CONSISTENT",
+"load_bearing": [
+ {"what":"selector picks 47 files for an arc change including all 3 locks relevant to B8139's drift, runtime 59s","where":"FINDINGS.md 'What was done'","kind":"COMPUTED","reproducible_from_committed":"yes","why":"backed by scripts/affected_tests.py, confirmed present in the worktree, described as 'adopted from origin/main' and reproduced in-sandbox across six selection cases plus an end-to-end timed run"}
+],
+"belt": "RECOMPUTES",
+"belt_note": "Explicit standing rule invoked ('Reproduced in-sandbox, not cited') and the log confirms the found bug was subsequently fixed and regression-locked on main — a real, closed-loop verification cycle.",
+"absence_claims": [
+ {"quote":"The 0-62% region of the suite is NOT verified, and test_b1034_l154 is a known pre-existing failure inside it.", "where":"FINDINGS.md SCOPE"}
+],
+"physics_content": "NO_OBSERVABLE_CONTENT",
+"red_flags": [
+ {"kind":"OTHER","detail":"two of the arc's own prior claims are retracted in this same arc: the '73% / 5 failures' detail from B8139 (based on a truncated 3-line log fragment) is withdrawn, and a claimed 'new failure' (test_b1034_l154) is reclassified as pre-existing after a base-commit check","where":"FINDINGS.md 'Two corrections of mine'"}
+],
+"seat_note": "A genuinely well-closed process-engineering arc: reproduces someone else's fix independently, finds and precisely characterizes a real (if low-severity) bug, and the log confirms the fix was actually merged and locked -- one of the more solidly evidenced arcs in the batch, though entirely about test infrastructure, not physics or mathematics content."
+}
+
+]
+}

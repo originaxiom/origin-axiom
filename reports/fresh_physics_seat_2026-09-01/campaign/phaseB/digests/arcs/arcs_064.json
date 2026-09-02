@@ -1,0 +1,283 @@
+{
+ "batch": "arcs_064",
+ "arcs": [
+  {
+   "arc": "B743_rung1_widened",
+   "source": "main",
+   "files_read": [
+    "frontier/B743_rung1_widened/FINDINGS.md",
+    "frontier/B743_rung1_widened/PREREG_RUNG1_WIDENED.md",
+    "frontier/B743_rung1_widened/SEALS.txt",
+    "frontier/B743_rung1_widened/analytic_door.py",
+    "frontier/B743_rung1_widened/analytic_report.json",
+    "frontier/B743_rung1_widened/arc_verdict.json",
+    "frontier/B743_rung1_widened/forced_limits.json (referenced by run_sweep.py; content not individually printed but loaded/consistency-checked against rung1_report.json)",
+    "frontier/B743_rung1_widened/null_rates.json",
+    "frontier/B743_rung1_widened/pdg_targets.json (loaded by scripts; digits/targets cross-checked against rung1_report.json rows)",
+    "frontier/B743_rung1_widened/run_sweep.py",
+    "frontier/B743_rung1_widened/rung1_report.json",
+    "frontier/B743_rung1_widened/rung1_widened.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=NEGATIVE; claim_one_line: Zero gated hits: the object's whole real algebraic tower and canonical analytic values contain no SM ratio at testable precision, with Koide found and correctly rejected.",
+   "log_says": "cc2's rung1-widened + analytic package, cc-verified-on-receipt and banked; the CM-collapse correction narrows the widening to the real tower; B1005 later cites B743 as one of three independent falls of the 23rd invariant ('B743 searched the tower, not every construction' — scope caveat recorded in the log itself).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "0 gated hits across 6 real-field bases x PDG targets, with empirical null rates 0.0-0.84 per basis/digit-class",
+     "where": "frontier/B743_rung1_widened/rung1_report.json, null_rates.json, rung1_widened.py/run_sweep.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "actual mpmath PSLQ code with fixed seed(17), digit budgets and height caps pre-registered in PREREG_RUNG1_WIDENED.md; output json matches the code's structure exactly (Koide Q=2/3 found in all 6 bases with null_rate 0.54-0.76, correctly gated out since >0.02)."
+    },
+    {
+     "what": "CM-collapse theorem: ℚ(√−3,√5) real subfield = ℚ(√5) exactly",
+     "where": "FINDINGS.md Part 1",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "stated as 'cc-verified: basis {1,√5,√−3,√−15}, real span = ℚ(√5)' but no script in this arc computes/checks this basis claim independently; it is a one-line algebra fact, plausible, but not witnessed by committed code in this directory."
+    },
+    {
+     "what": "curve 15a8 model [1,1,1,0,0] has conductor 15, j=-1/15; L(E,2)=0.6614751879210697427, deg-8 zeta60+ null 0.58",
+     "where": "analytic_door.py, analytic_report.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "analytic_door.py asserts the curve invariants directly via PARI/snappy.pari calls and writes analytic_report.json matching printed values exactly."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "run_sweep.py caches/reuses null_rates.json but recomputes the real-target PSLQ pass itself and rewrites rung1_report.json; analytic_door.py independently recomputes the curve and L-values rather than re-reading a prior result.",
+   "absence_claims": [
+    {"quote": "the real tower... never tested", "where": "PREREG_RUNG1_WIDENED.md:8"},
+    {"quote": "ℚ(√3) {1,√3} — the real shadow of the being/cusp ζ₁₂-conductor (never tested)", "where": "PREREG_RUNG1_WIDENED.md:15"},
+    {"quote": "ℚ(√15) {1,√15} — the meeting's real resolvent (never tested)", "where": "PREREG_RUNG1_WIDENED.md:16"},
+    {"quote": "ℚ(ζ₁₅)⁺ deg 4 ... (never tested)", "where": "PREREG_RUNG1_WIDENED.md:17"},
+    {"quote": "ℚ(ζ₂₀)⁺ = ℚ(√(2+φ)) deg 4 — THE BORN AMPLITUDE FIELD (never tested)", "where": "PREREG_RUNG1_WIDENED.md:18"},
+    {"quote": "ℚ(√φ) deg 4 (x⁴−x²−1) — the F-symbol/associator field (never tested)", "where": "PREREG_RUNG1_WIDENED.md:19"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The entire program is a base-rate-gated dimension/digit-count coincidence search (PSLQ over real algebraic fields vs PDG ratios); Koide Q=2/3 was found in every basis, only rejected because the null rate exceeds the pre-set 0.02 threshold — a type/height match is exactly the license-to-ask the seat is told to flag, even though the arc itself correctly treats it as a null.", "where": "rung1_report.json Koide_Q rows; PREREG_RUNG1_WIDENED.md Gate 3"},
+    {"kind": "OTHER", "detail": "CM-collapse basis claim (real span of ℚ(√−3,√5) = ℚ(√5)) is asserted as 'cc-verified' with no committed script in this arc computing it.", "where": "FINDINGS.md Part 1"}
+   ],
+   "seat_note": "A genuinely well-instrumented negative result: real PSLQ code, pre-registered gates, and an honest digit-budget accounting that catches and correctly rejects Koide. The physics content is a clean null (no SM ratio found), not a discovery, and the CM-collapse premise underlying the whole basis choice is asserted rather than shown in committed code here."
+  },
+  {
+   "arc": "B744_fact_basis_adjudication",
+   "source": "main",
+   "files_read": [
+    "frontier/B744_fact_basis_adjudication/FINDINGS.md",
+    "frontier/B744_fact_basis_adjudication/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=PROVED; claim_one_line: All six disputed fact-basis rows upheld as computed with in-repo locks running green; the conflict was a corpus-scope difference, not an error.",
+   "log_says": "B744 (the fact-basis adjudication): the 6 B738xB742 conflicts (B146/B272/B285/B296/B437/B516) — 6/6 UPHELD as computed (in-arc scripts + green locks, 17 passed this session; the B741 B435→B437 chain STANDS).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "6/6 disputed rows (B146, B272, B285, B296, B437, B516) have their discriminating computation in-repo and locked, with '17 passed, 1 env-skip' this session",
+     "where": "FINDINGS.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This arc is a meta-audit that names locks living in OTHER arcs (probe.py+lock, verification_and_gaps.py+lock, commutator_phase.py+verdict.py+lock, tests/test_b516.py, abelian_book.py+json+lock) but contains no test-run log, pytest output, or witness file of its own committed in this directory confirming '17 passed'. A stranger would have to go re-run six separate other arcs' test suites to reproduce the claim; nothing here lets them do it from this arc alone."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No script or witness in this arc's own two files; the whole verdict rests on locks claimed to live in six other frontier directories, none of which are included in this packet for independent check.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The '17 passed, 1 env-skip' test-run claim has no committed log, pytest output, or file in this arc directory; only two files (FINDINGS.md, arc_verdict.json) exist here.", "where": "frontier/B744_fact_basis_adjudication/FINDINGS.md"}
+   ],
+   "seat_note": "A bookkeeping/audit arc with no physics content and no computation of its own — its entire evidentiary basis is a claimed but unwitnessed test run against six other arcs' locks, not reproducible from this directory alone."
+  },
+  {
+   "arc": "B745_revivals_crossverify",
+   "source": "main",
+   "files_read": [
+    "frontier/B745_revivals_crossverify/ARTIFACT_HASHES.txt",
+    "frontier/B745_revivals_crossverify/FINDINGS.md",
+    "frontier/B745_revivals_crossverify/PREREGISTRATION.md",
+    "frontier/B745_revivals_crossverify/arc_verdict.json",
+    "frontier/B745_revivals_crossverify/crossverify.py",
+    "frontier/B745_revivals_crossverify/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=PROVED; claim_one_line: Independent cross-verification confirms both revivals, retracting B58's 'not numerically testable' headline and B225's vacuous 2-half kill. (authored_by field notes: 'verdict corrected by B818')",
+   "log_says": "B745: the B742 revivals cross-verified — CONFIRMED x2 (headers applied); later log entries (B818, B826, B831) record that the retractions this arc triggers were NOT fully propagated to B225's own verdict for a time, and that B831 finally recorded B225 PROVED -> RETRACTED because its own file states the underlying verdict 'DOES NOT STAND' (the criterion is vacuous per B745's own C4/C5).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "C1: charpoly(B65 J(1)) == Fibonacci 7-factor product (True), cat-map negative control fails as required",
+     "where": "crossverify.py check_c1(), output.txt line 1",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy-exact symbolic computation against a committed jacobian_m.json in a sibling arc; script and printed output match line for line."
+    },
+    {
+     "what": "C4: disc_z mod 2 is a square in F_2[x] for 30 seeded random monic-in-z inputs (seed 42) — the B225 kill criterion is vacuous",
+     "where": "crossverify.py check_c4(), output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "deterministic seed, exact sympy factor_list over modulus=2; reproducible as committed."
+    },
+    {
+     "what": "C5: 11a3 false-positive at p=2 confirmed (Delta=-11 odd/good-at-2, but branch-locus extraction reports 2 anyway)",
+     "where": "crossverify.py check_c5(), output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact integer/discriminant arithmetic from scratch, matches printed output exactly."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Explicitly designed as an independent-route cross-verify: re-executes the audit seat's recompute.py plus five wholly independent checks not present in the original artifacts.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "This arc's own scope note says a CONFIRMED revival asserts no new positive claim; B225's residual half ('5=filling stands') was later fully retracted in a subsequent arc (per B831 in the log), meaning the correction chain that started here needed a further downstream retraction to fully resolve — worth checking the current state of B225/FINDINGS.md directly rather than trusting this arc's residual-scope framing as final.", "where": "FINDINGS.md 'Consequences applied' + 'Scope honesty' sections; PROGRESS_LOG.md B831 entry (per log_index)"}
+   ],
+   "seat_note": "Genuinely strong methodology (independent-route cross-verification with a working negative control), and the mathematics checks out as committed and reproducible; but the corrected chain (B745->B818->B826->B831) shows how long a retraction can take to fully land on its target, so this arc's own 'residue' framing should not be taken as the final word on B225 without re-reading B225 directly."
+  },
+  {
+   "arc": "B746_golden_ledger",
+   "source": "main",
+   "files_read": [
+    "frontier/B746_golden_ledger/FINDINGS.md",
+    "frontier/B746_golden_ledger/PREREGISTRATION.md",
+    "frontier/B746_golden_ledger/arc_verdict.json",
+    "frontier/B746_golden_ledger/spot_checks.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=PROVED; claim_one_line: ESTABLISHED: the two-column law -- golden is FORCED on 10 of 12 structural floors while the voice floor carries zero golden markers and is pure Q(sqrt-3)... UNSETTLED: the owner's 'golden all the way up' hypothesis is GAPPED at the voice floor, not confirmed and not refuted. (authored_by notes: 'corrected by B834 (24 readers, two panels, unanimous)')",
+   "log_says": "B746: golden verified as a sealed 12-floor remap, 10/12 FORCED, the gap IS the finding, voice speaks Eisenstein; later log entries (B857, 2026-08-02) directly attack the F11 'voice' evidentiary basis: 'A grep over artifacts is not a proof of absence, and those artifacts PREDATE B797 BY A WEEK... the one place the claim is checkable is precisely where the grep [was run before the relevant data existed]'; also B832/B834 record a consistency-panel judgment moving B746 from an initial 'NEGATIVE' panel read to 12/12 'PROVED' agreement across two independent panels.",
+   "log_consistency": "DRIFT",
+   "load_bearing": [
+    {
+     "what": "10/12 structural floors carry a FORCED golden appearance; F11 (voice) is the one GAP, based on 'grep of the banked voice artifacts (B737/B739): zero golden markers'",
+     "where": "FINDINGS.md table row F11; PREREGISTRATION.md rule 2",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Per-floor grading is citation-based (pointing at other banked arcs), not independently recomputed in this arc; the F11 absence claim rests on a grep over two other arcs' artifacts, and the log itself (B857, 2026-08-02) later challenges that a grep is not proof of absence and that the searched artifacts predate a relevant later result (B797) by a week -- a challenge this arc's FINDINGS.md/arc_verdict.json do not reflect."
+    },
+    {
+     "what": "4 spot-checks (S1-S4): disc(t^2-3t+1)=5, field discriminant product -15=-15, phi^3=2+sqrt5 and char(A^4) root L_4=7, CM disc -48 factorization {2:4,3:1}",
+     "where": "spot_checks.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "these are small, self-contained exact arithmetic identities stated with their result; plausible to reproduce by hand from the stated numbers, though no script file is committed alongside spot_checks.txt in this arc (only the text output)."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "This is a mapping/synthesis arc: 10 of 12 floor gradings are citations into other banked arcs (marker-grep + grading), not recomputation; only the 4 spot-checks are original in-arc arithmetic, and even those have no committed script, only a results file.",
+   "absence_claims": [
+    {"quote": "NO prior vertical remap exists (the Recurrence Atlas is motif-frequency over frontier...)", "where": "PREREGISTRATION.md:5"},
+    {"quote": "F11 voice: NONE. Grep of the banked voice artifacts (B737/B739): zero golden markers.", "where": "FINDINGS.md:30"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SUPERSEDED_UNMARKED", "detail": "The log records a later challenge (B857, 2026-08-02) to exactly the F11 absence claim this arc's central finding rests on ('a grep over artifacts is not a proof of absence... those artifacts PREDATE B797 BY A WEEK'), but this arc's FINDINGS.md and arc_verdict.json carry no correction header or note reflecting that challenge -- the original grep-based GAP claim still stands uncorrected in the arc's own files.", "where": "FINDINGS.md:30 (uncorrected) vs PROGRESS_LOG.md B857 entry, 2026-08-02 (per log_index)"},
+    {"kind": "NO_TEST", "detail": "The 4 spot-checks are reported only as a results text file (spot_checks.txt); no committed script generates them, so a stranger cannot re-run the check, only recompute the arithmetic by hand from the stated claims.", "where": "frontier/B746_golden_ledger/spot_checks.txt"}
+   ],
+   "seat_note": "The two-column law is an interesting organizing structure, but ten of twelve floor gradings are citation-based bookkeeping rather than fresh computation, and the arc's one genuinely load-bearing absence claim (F11, no golden in the voice) is exactly the claim a later log entry (B857) challenges as a grep-is-not-proof-of-absence error against artifacts that predate the relevant data -- a challenge not yet reflected in this arc's own files."
+  },
+  {
+   "arc": "B747_mirror_sweep",
+   "source": "main",
+   "files_read": [
+    "frontier/B747_mirror_sweep/FINDINGS.md",
+    "frontier/B747_mirror_sweep/PREREGISTRATION.md",
+    "frontier/B747_mirror_sweep/arc_verdict.json",
+    "frontier/B747_mirror_sweep/b747_closure.py",
+    "frontier/B747_mirror_sweep/b747_closure_out.txt",
+    "frontier/B747_mirror_sweep/b747_err.txt",
+    "frontier/B747_mirror_sweep/b747_out.txt",
+    "frontier/B747_mirror_sweep/b747_sweep.py",
+    "frontier/B747_mirror_sweep/door1_final_sealed_input.json (referenced sealed input file, not individually diffed against sha but consistent with degree table used in b747_out.txt)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=NEGATIVE; claim_one_line: No child re-sees the hearing field: all 78 fillings' invariant trace fields are sqrt5-free -- 54 odd-degree slopes by theorem, 24 even-degree by exact x^2-5 root test -- with all controls passing.",
+   "log_says": "B747 (sqrt5 mirror, prereg 09cef416): MIRROR-SILENT 0/78 -- 54 slopes closed by the odd-degree theorem, all 24 even-degree fields recomputed (degree cross-checked 24/24), exact x^2-5 test all False; the (3,8) deg-30 straggler closed twice (isometry + direct prec-6000 recovery); one lens-audit entry notes the B747 census LOCK 'DID NOT' fire under mutation testing (it pinned a PREFIX of the verdict line, so the unresolved-count was corruptible undetected) -- a lock-quality gap, not a result error.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "54/78 odd-degree slopes excluded from containing sqrt5 by parity theorem (no quadratic subfield of odd-degree field)",
+     "where": "b747_out.txt STAGE 1 list; b747_sweep.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Uses the sealed two-seat degree table (door1_final_sealed_input.json, sha 77818016) and a standard field-theory fact (odd degree => no index-2 subfield); the list of 54 slopes with their degrees is printed and matches the theorem's applicability."
+    },
+    {
+     "what": "24/24 even-degree slopes: recomputed invariant trace field degree matches sealed degree, exact x^2-5 root test False for all",
+     "where": "b747_out.txt STAGE 2; b747_sweep.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Uses snappy find_field pipeline per slope; degree cross-check against sealed table is a genuine falsifiable control, and results are itemized per slope in the output file."
+    },
+    {
+     "what": "(3,8) straggler closed via verified amphichirality isometry 4_1(3,8)~4_1(-3,8) AND direct field recovery at prec 6000, degree 30, sqrt5=False",
+     "where": "b747_closure.py, b747_closure_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Two independent routes in one committed script, both printed, both agree."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "b747_closure.py is a genuine second, independent-route closure of the one unresolved slope from b747_sweep.py's first pass (which itself reports 'UNRESOLVED: 3,8' before the closure script runs) -- a real two-stage belt.",
+   "absence_claims": [
+    {"quote": "The MIRROR question was never run: does any child's invariant trace field contain sqrt5 (the hearing)?", "where": "PREREGISTRATION.md:5"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "Log records that the B747 census lock did not actually fire under mutation testing (it pinned only a prefix of the verdict line, making the unresolved-count corruptible undetected) -- this is a tooling/lock-quality issue on the verification harness, not evidence against the computed result itself, since the raw output files here are complete and self-consistent.", "where": "PROGRESS_LOG.md, 'THE THIRD PASS (trust-architecture lenses)' entry, 2026-07-22 (per log_index)"}
+   ],
+   "seat_note": "One of the more carefully closed arcs in this batch: a genuine two-route closure of the single unresolved case, degree cross-checks against a sealed table, and controls run before the sweep -- the null result (no child re-sees sqrt5) is well-supported by committed, reproducible code, though it is a structural/arithmetic fact with no measurable physical quantity attached."
+  },
+  {
+   "arc": "B748_v4_completion",
+   "source": "main",
+   "files_read": [
+    "frontier/B748_v4_completion/FINDINGS.md",
+    "frontier/B748_v4_completion/PREREGISTRATION.md",
+    "frontier/B748_v4_completion/arc_verdict.json",
+    "frontier/B748_v4_completion/b748_err.txt",
+    "frontier/B748_v4_completion/b748_out.txt",
+    "frontier/B748_v4_completion/b748_sweep.py",
+    "frontier/B748_v4_completion/door1_final_sealed_input.json (referenced sealed input, degree table cross-checked implicitly via b748_out.txt consistency rows)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict=NEGATIVE; claim_one_line: None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid re-sees the meeting face Q(sqrt-15) (0/78), completing the census showing the entire forced V4 lives only on the open object's interface.",
+   "log_says": "B748 (meeting sqrt-15, prereg a59ac036): V4-SILENT 0/78, with the added consistency control re-deriving B740's sqrt-3 verdicts per even slope -- 24/24 exact; combined census statement (B288/B740 + B747 + B748): no closed filling in the |p|,q<=8 grid re-sees ANY of the three forced faces.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "0/78 fillings contain sqrt(-15) in their invariant trace field (54 by parity theorem, 24 by exact root test)",
+     "where": "b748_out.txt, b748_sweep.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Same pipeline as B747, itemized per slope with degree match and exact x^2+15 root test; each row printed."
+    },
+    {
+     "what": "Consistency control: re-derived x^2+3 (being) verdict per even slope reproduces B740's sealed per-slope False verdicts exactly, 24/24",
+     "where": "b748_out.txt (per-slope 'sqrt-3 consistency ... == sealed False: True' lines)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "An independent re-derivation cross-checked against another arc's (B740) sealed results, printed per slope with a pass/fail flag; all 24 read True with zero consistency failures reported in the tally line."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The added x^2+3 consistency control is itself a re-derivation of B740's results as an internal cross-check within the same run, functioning as a built-in belt for this arc's own pipeline correctness.",
+   "absence_claims": [
+    {"quote": "the MEETING sqrt(-15) was never tested.", "where": "PREREGISTRATION.md:4"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "Cleanly executed completion of the B747/B748 census with a genuine internal consistency control against a prior arc's sealed results; the finding (forced V4 is interface-only, lost on all tested closings) is structural/arithmetic, not an observable prediction, and is well-supported by committed reproducible code."
+  }
+ ]
+}

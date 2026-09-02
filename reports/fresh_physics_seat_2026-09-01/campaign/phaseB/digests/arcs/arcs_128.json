@@ -1,0 +1,746 @@
+{
+ "batch": "arcs_128",
+ "arcs": [
+  {
+   "arc": "B8141_artifact_dependence",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8141_artifact_dependence/FINDINGS.md",
+    "frontier/B8141_artifact_dependence/arc_verdict.json",
+    "frontier/B8141_artifact_dependence/results.json",
+    "frontier/B8141_artifact_dependence/relays/CC3_TO_CC_2026-08-26_THE_ARTIFACT_CLASS.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE ARTIFACT CLASS: two locks (test_b1062_bridge.py, test_b1063_refresh.py) depend on six gitignored .log files and FAIL (not skip) on a clean checkout. | status: NEGATIVE",
+   "log_says": "cc3's B8141 harvested + fixed: 5 harvest tests rerouted from the gitignored reproduce.log to the committed runner (PROGRESS_LOG 2026-08-19, REVIEWS.md Review 49).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "6 gitignored .log artifacts read by 2 test files, 2/5 tests FAIL with FileNotFoundError on this checkout",
+     "where": "results.json:finding; scripts/checks/artifact_dependence.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "scripts/checks/artifact_dependence.py is committed, carries a positive control (exits non-zero if it cannot see two known-absent files), and the FileNotFoundError is an observed failure on this bench, not merely asserted."
+    },
+    {
+     "what": "second route: manifest-listed gitignored paths (ORIGINALS_MANIFEST.txt, 9 entries) read by test_b646_wave2.py",
+     "where": "results.json:extended_2026-08-26_the_manifest_route",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "verified instance named with file path and count; scan self-corrected twice (first version false-negatived, i.e. reported '0 gitignored' while failures existed 'three metres away')."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "scripts/checks/artifact_dependence.py is a committed, rerunnable static scanner with a self-check positive control; the underlying test failures were independently observed on this bench (FileNotFoundError).",
+   "absence_claims": [
+    {
+     "quote": "the first version of this scan matched only whole repo-relative paths written as a single string literal ... it printed \"0 gitignored\" while two such tests were failing three metres away",
+     "where": "FINDINGS.md"
+    },
+    {
+     "quote": "AUDIT_B1076_ONE_NOTATION_DEFECT.md and I_WAS_WRONG_THE_REAL_DEFECT.md are absent but not gitignored",
+     "where": "FINDINGS.md:Deliberately not in the finding"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "GITIGNORED_WITNESS",
+     "detail": "test_b1062_bridge.py and test_b1063_refresh.py assert on 6 files matched by the repo-wide *.log gitignore rule; they fail (not skip) on a clean checkout, exactly the class this task's rules ask readers to flag.",
+     "where": "FINDINGS.md; .gitignore:20"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "the arc explicitly declines to apply any remedy; the two named tests remain broken on a clean checkout at the time of this digest's writing (not independently re-verified by this reader beyond citing the arc's own report).",
+     "where": "FINDINGS.md:SCOPE"
+    }
+   ],
+   "seat_note": "This is a process/audit arc about test hygiene, not a physics claim; its own instrument-failure disclosure (false negative, then a positive control) is a genuinely good practice, and the underlying gitignored-witness problem it identifies is real and unremedied as of this arc."
+  },
+  {
+   "arc": "B8142_residue2_bridge",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8142_residue2_bridge/FINDINGS.md",
+    "frontier/B8142_residue2_bridge/acyclicity.py",
+    "frontier/B8142_residue2_bridge/arc_verdict.json",
+    "frontier/B8142_residue2_bridge/bridge.py",
+    "frontier/B8142_residue2_bridge/reflection.py",
+    "frontier/B8142_residue2_bridge/results.json",
+    "frontier/B8142_residue2_bridge/relays/CC3_TO_CC_2026-08-26_RESIDUE_2_REDUCED_TO_ONE_HYPOTHESIS.md",
+    "frontier/B8142_residue2_bridge/relays/CC3_TO_CC_2026-08-26_YOUR_REFUTATION_REPRODUCED_MY_FORMULA_WITHDRAWN.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "arc_verdict.json claim_one_line asserts residue 2 'reduced twice, not closed' via the Sym-power Ruelle-zeta factorization identity, verdict PROVED -- but this record was NOT updated after the FINDINGS.md CORRECTED banner (same date) withdrew the reflection-formula numbers (2.109e-04, 1.925e-05, 1.641e-06) as predictions, because their derivation used Fried's theorem whose acyclicity hypothesis is refuted (H*(m004;Sym^2m C^2) never acyclic). | status: PROVED (stale)",
+   "log_says": "PROGRESS_LOG 2026-08-26 B1157: the closed-Fried antecedent for cc3's B8142b is REFUTED; H*(m004;Sym^2m C^2) never acyclic for m>=1; cusped Park/Pfaff is the live framework.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "the unconditional Sym-power factorization identity R_rho(m)(s) = prod_j R(s-j,sigma_j), verified on m004 to |diff|<=5e-18 for m=0..4 with 3 live mismatching controls",
+     "where": "bridge.py (requires snappy; skips if absent)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed script, floating-point but with numeric agreement to 1e-12+ and live falsifiable controls that correctly mismatch; depends on the snappy package being installed."
+    },
+    {
+     "what": "H*(m004;Sym^2m C^2) is never acyclic ((h0,h1,h2)=(0,1,1) for m=1..5); mechanism: a parabolic fixes exactly one line in Sym^n for n up to 40",
+     "where": "acyclicity.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact arithmetic in Q(sqrt-3) via Fraction, no floats, no CAS simplify; 9 checks including a control that trivial coefficients give (1,1,0) and Euler characteristic vanishes."
+    },
+    {
+     "what": "the reflection formula |R(-m,sigma_m)| = (c(m)/c(m-1))^2k * exp(-4m*vol/pi) * |R(m,sigma_m)| and its three numeric values",
+     "where": "reflection.py; FINDINGS.md table",
+     "kind": "UNCLEAR (WITHDRAWN)",
+     "reproducible_from_committed": "yes",
+     "why": "the script still runs and reproduces the withdrawn numbers exactly, but the FINDINGS.md correction banner states the derivation's Fried-theorem step is invalid and the numbers are withdrawn as predictions; reflection.py itself was not edited to reflect the withdrawal (still presents them as 'the object residue 2 was missing')."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "acyclicity.py is an independent from-scratch exact reproduction of a refutation credited to a different seat (cc's B1157); bridge.py has three live (non-vacuous) controls and one control explicitly relabeled after being caught vacuous.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json's claim_one_line and verdict ('PROVED') were never updated after FINDINGS.md's same-day CORRECTED banner refuted the reflection formula's antecedent and withdrew its three numeric predictions; a reader consulting only arc_verdict.json (the claim-of-record file) would not learn of the retraction.",
+     "where": "arc_verdict.json vs FINDINGS.md top banner"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "reflection.py (the script producing the withdrawn numbers) was left unedited/uncommented to reflect the correction, unlike acyclicity.py which was added specifically to document the refutation; the withdrawn table still prints on a plain run.",
+     "where": "reflection.py"
+    }
+   ],
+   "seat_note": "The unconditional identity is genuinely and carefully computed (exact-arithmetic acyclicity check is a real strength), but the arc's own verdict record was not corrected after a same-day self-refutation, which is exactly the kind of drift a downstream reader relying on arc_verdict.json alone would miss."
+  },
+  {
+   "arc": "B8143_anomaly_lane",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8143_anomaly_lane/FINDINGS.md",
+    "frontier/B8143_anomaly_lane/arc_verdict.json",
+    "frontier/B8143_anomaly_lane/results.json",
+    "frontier/B8143_anomaly_lane/step1_core.py",
+    "frontier/B8143_anomaly_lane/step2_shape.py",
+    "frontier/B8143_anomaly_lane/step3_competitor.py",
+    "frontier/B8143_anomaly_lane/step4_full.py",
+    "frontier/B8143_anomaly_lane/step5_robust.py",
+    "frontier/B8143_anomaly_lane/step6_genericity.py",
+    "frontier/B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_B1160_IS_RIGHT_AND_ITS_FENCE_HAS_A_WITNESS.md",
+    "frontier/B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_CORRECTION_MY_WITNESS_IS_DEAD_YOUR_FENCE_IS_TOO_CONSERVATIVE.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "arc_verdict.json's claim_one_line still asserts the WITHDRAWN pre-correction result verbatim ('The SM is NOT the minimal rigid chiral content' via a 13-state witness) even though FINDINGS.md's own CORRECTED banner (same arc, same date) says that witness is dead ([SU(3)]^3 omitted) and the claim built on it 'is WITHDRAWN', with the corrected result reversing to: the SM generation is the UNIQUE rigid chiral anomaly-free 5-field content over the SM-visible alphabet, up to conjugation. | status: PROVED",
+   "log_says": "PROGRESS_LOG B1170 2026-08-27: cc3's B8143 (4-commit chain; their own mid-chain correction -- the omitted [SU(3)]^3 killed their 13-state counter-witness).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "B1160's core cubic factorization -18(t-3)(t+3) reproduced identically, giving the SM's hypercharges (1/6,-2/3,1/3,-1/2,1)",
+     "where": "step1_core.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed exact (Fraction-based per FINDINGS) reproduction of a cited external theorem."
+    },
+    {
+     "what": "CORRECTED result: over the SM-visible alphabet of 5-field contents, 252 examined, 222 killed by [SU(3)]^3 alone, exactly 2 survive (a conjugate pair), both = the SM's 15-state content",
+     "where": "results.json:CORRECTED_RESULT; step4_full.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed enumeration script with an explicit fixed-in-code comment showing the earlier omitted [SU(3)]^3 term (grep 'OMITTED BEFORE' in step4_full.py)."
+    },
+    {
+     "what": "WITHDRAWN: the original 13-state 'counterexample' content, claimed anomaly-free and smaller than the SM",
+     "where": "FINDINGS.md (superseded section); results.json:CORRECTION_the_13_state_witness_is_DEAD",
+     "kind": "COMPUTED (refuted by its own re-check)",
+     "reproducible_from_committed": "yes",
+     "why": "the arc's own step4 recomputation with the full anomaly set shows this content has [SU(3)]^3 = +1, not 0; not anomaly-free."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "the arc's own 4-commit chain includes a self-caught recomputation (adding the omitted [SU(3)]^3 condition) that reverses the earlier conclusion; step6 also checks which object-specific tokens (E6, 27, m004, trace field) actually appear in the load-bearing code (none do -- only in prose).",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "arc_verdict.json's claim_one_line is the pre-correction claim ('the SM is NOT the minimal rigid chiral content', 13-state witness) verbatim, unedited after FINDINGS.md's own CORRECTED banner retracted exactly this claim in the same arc; a downstream reader of arc_verdict.json alone gets the withdrawn conclusion.",
+     "where": "arc_verdict.json vs FINDINGS.md correction banner"
+    },
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "step6's conclusion that hypercharge/shape forcing is 'generic' (works for anyone starting from SU(3)xSU(2)xU(1), no E6/27/m004 tokens in the load-bearing code) is the arc's own self-audit and is honestly reported as NOT evidence for the object -- flagged here only because it is exactly the caution this task's rules ask readers to watch for, and the arc gets there itself.",
+     "where": "results.json:step6_how_much_is_object_specific"
+    }
+   ],
+   "seat_note": "A real and rigorous self-caught reversal (omitted [SU(3)]^3 anomaly) with an honest genericity audit at the end -- physically this is a standard GUT-model-building uniqueness result the arc itself says is likely known and not evidence for the specific object, but arc_verdict.json's uncorrected claim_one_line is a live drift hazard for anyone who reads only that file."
+  },
+  {
+   "arc": "B8144_price_reconciliation",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8144_price_reconciliation/FINDINGS.md",
+    "frontier/B8144_price_reconciliation/arc_verdict.json",
+    "frontier/B8144_price_reconciliation/results.json",
+    "frontier/B8144_price_reconciliation/relays/CC3_TO_CC_2026-08-26_THE_PRICE_LEDGER_AND_YOUR_CENSUS_DISAGREE_BY_TWO.md",
+    "frontier/B8144_price_reconciliation/relays/CC3_TO_CC_2026-08-26_WHY_THE_OBSERVER_SPLITS_ADELICALLY.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "the owner's 'final price' ledger (one unit, two bits, one orbit-point) and B1164's observer-freedom census (2 discrete + 1 continuous, 'all archimedean') disagree by two items (time's arrow, the VEV orbit-point); arc asserts neither is right. Resolved afterward (in results.json, not re-verified independently here) as: B1164's census under-counted; the price ledger stands; observer freedom is ADELIC not all-archimedean. | status: OPEN",
+   "log_says": "PROGRESS_LOG B1171/B1182, REVIEWS.md Review 50: cc3's B8144 -> the adelic mechanism (F4(Z) finite orbits, Krutelevich); B1164's 'everything archimedean' falsified, corrected to ADELIC in a dated addendum.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "grep-based reconciliation table: D2=sqrt(3) new in B1164; 'arrow'/'time' = 0 hits in B1164; 'VEV'/'orbit-point'/'F4(Z)'/'Krutelevich' = 0 hits in B1164",
+     "where": "FINDINGS.md; results.json:reconciliation",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "reproducer states 'direct grep of origin/main:frontier/B1164_cc_masterplan/FINDINGS.md against the banked price ledger'; a stranger with the same git history can rerun the greps."
+    },
+    {
+     "what": "the adelic mechanism: orientation (Z/2 mirror) has no arithmetic-subgroup escape (B1163) so is archimedean-costed; the VEV (F4 transitive over R) has F4(Z) with finite orbits (Krutelevich) so is finite-place-costed",
+     "where": "results.json:followup_the_mechanism_behind_the_adelic_split; relay 2",
+     "kind": "ASSERTED (framework argument, not independently computed here)",
+     "reproducible_from_committed": "unknown",
+     "why": "this is a group-theoretic argument citing Krutelevich's finiteness result and B1163's theorem by reference; no computation of F4(Z) orbits is carried out in this arc's own files."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "this is a bookkeeping/reconciliation audit (grep against a banked memory file); the mechanism proposed in the second relay is explicitly 'not run here' (time's arrow re-typing is named as future work).",
+   "absence_claims": [
+    {
+     "quote": "the VEV orbit-point -- absent from B1164 -- VEV/orbit-point/F4(Z)/Krutelevich: 0 hits",
+     "where": "FINDINGS.md"
+    },
+    {
+     "quote": "time's arrow -- absent from B1164 -- arrow/time: 0 hits",
+     "where": "FINDINGS.md"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the proposed mechanism (archimedean vs finite-place cost tracks whether the relevant symmetry group has an orbit-breaking arithmetic subgroup) is offered as 'a theorem you already have' but is applied to time's arrow only as an untested template ('I have not run it -- it is your residue'); the VEV/F4(Z) identification rests on matching group types (F4 acting on frames) to a physical cost bit rather than an independent derivation of the physical cost itself.",
+     "where": "relays/..._WHY_THE_OBSERVER_SPLITS_ADELICALLY.md"
+    }
+   ],
+   "seat_note": "A legitimate bookkeeping catch (two internal ledgers of 'observer cost' disagreeing) that surfaces a real correction (B1164 moving from 'all archimedean' to 'adelic'), but the explanatory mechanism for why costs split adelically is a plausibility argument from group structure, not an independent computation, and the arc says so."
+  },
+  {
+   "arc": "B8145_l171_verified",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8145_l171_verified/FINDINGS.md",
+    "frontier/B8145_l171_verified/arc_verdict.json",
+    "frontier/B8145_l171_verified/results.json",
+    "frontier/B8145_l171_verified/relays/CC3_TO_CC_2026-08-27_L171_VERIFIED_AND_YOUR_TYPING_SURVIVES_A_MOVED_REASON.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "B8093's typing of L171 as MOOD (not MATCH) verified 8/8 against CLPW (arXiv:2206.10780) verbatim, and the disclosed successor-literature gap is filled: Witten's 2308.03663 replaces ergodicity with KMS-traciality, so B8093's stated reason is scoped to CLPW; MOOD survives because our tracial state is complementary to (not inside) the KMS torsor (B721). | status: PROVED",
+   "log_says": "PROGRESS_LOG B1171 2026-08-27: cc3 B8145 -> L171 CLOSED (MOOD); cc spot-verified 4/4 by own fetch; reason moved (KMS-traciality; B721 complementary).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "8 factual claims about CLPW's construction (Type III1 base, crossed product, Type II_infinity intermediate, Pi=Theta(q), Tr 1=1, Type II1 final, ergodic modular flow, H_obs=L^2(R_+)) confirmed verbatim against the paper's text",
+     "where": "results.json:eight_claims_checked_against_source",
+     "kind": "IMPORTED (external literature check)",
+     "reproducible_from_committed": "unknown",
+     "why": "reproducer is 'independent WebFetch of arXiv ar5iv full text', not a committed artifact; a stranger needs live internet access to reproduce, and the fetched text is not archived in the repo."
+    },
+    {
+     "what": "the successor paper (Witten 2308.03663) derives Type II1 via a tracial state from the KMS condition, not ergodicity",
+     "where": "results.json:the_disclosed_gap_now_filled",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "same as above -- single WebFetch, not archived, explicitly scoped as 'one fetch of its full text, not exhaustively'."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "this arc re-reads (re-fetches) the primary literature rather than recomputing anything; no code or numeric artifact is produced.",
+   "absence_claims": [
+    {
+     "quote": "I told the owner L171 and L173 were undone. Both were done -- B8093 and B8094, on the day the package arrived. I had piped a 13-hit grep through head -8 and read the truncation as absence.",
+     "where": "FINDINGS.md:Why this arc exists"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the arc exists only because the same seat had previously made a false absence claim ('L171 and L173 were undone') caused by piping a 13-hit grep through head -8 and reading the truncation as absence -- a direct instance of exactly the failure mode this reading task's rules warn about, self-caught here but worth surfacing to the sweep.",
+     "where": "FINDINGS.md:Why this arc exists"
+    }
+   ],
+   "seat_note": "A literature-typing verification (MOOD vs MATCH classification against two external papers) with no independent physical computation; genuinely useful process value is that it documents and corrects the seat's own prior false-absence error from truncated grep output."
+  },
+  {
+   "arc": "B8146_l173_precision",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8146_l173_precision/FINDINGS.md",
+    "frontier/B8146_l173_precision/arc_verdict.json",
+    "frontier/B8146_l173_precision/results.json",
+    "frontier/B8146_l173_precision/relays/CC3_TO_CC_2026-08-27_L173_PRECISION_CLOSED_THE_KNOB_EXISTS_THE_READOUT_DOES_NOT.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "the load-bearing anchor experiment (Verbin-Kraus-Zilberberg, arXiv:1403.7124) reports NO error bars/uncertainties/resolution limits anywhere and identifies edge modes only qualitatively, not as a count; since the banked prediction is a COUNT (5-vs-6 edge modes at rho=alpha, from B8094) not an energy, the prereg must specify a required OBSERVABLE (a mode count) rather than a required precision, which the anchor experiments do not currently supply. | status: NEGATIVE",
+   "log_says": "PROGRESS_LOG B1171 / REVIEWS.md Review 50: cc3 B8146 -> L173 precision NEGATIVE; prereg re-posed by ADDENDUM-BESIDE; 'the program supplies the KNOB, not the READOUT'; listed among the window's negatives that 'all carried named hatches/instruments'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "arXiv:1403.7124 reports arrays of 13-28 waveguides, phason sampled at 13 discrete values over [0,2pi) (~pi/6 spacing), and no error bars/uncertainties/resolution figures anywhere; mode identification is qualitative",
+     "where": "FINDINGS.md; results.json",
+     "kind": "IMPORTED (single external paper, full-text WebFetch)",
+     "reproducible_from_committed": "unknown",
+     "why": "not archived in-repo; a stranger needs internet access and must independently confirm the full text says what is quoted; scope is explicitly 'one anchor read in full, plus a targeted search'."
+    },
+    {
+     "what": "the banked prediction (5-vs-6 edge-mode count at rho=alpha) is a count, not an energy",
+     "where": "cites B8094 (not itself re-verified in this arc)",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "this arc takes B8094's prediction as given; B8094 itself is not among the files read here."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "single literature fetch plus a described but unlogged 'targeted search across the AAH cold-atom edge-state line'; no code artifact.",
+   "absence_claims": [
+    {
+     "quote": "error bars / uncertainties / resolution limits: none, anywhere",
+     "where": "FINDINGS.md table"
+    },
+    {
+     "quote": "A targeted search across the AAH cold-atom edge-state line surfaced no experimental resolution or edge-count figures either.",
+     "where": "FINDINGS.md"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "the 'targeted search across the AAH cold-atom edge-state line' that found no resolution/edge-count figures is described only in prose; no list of papers searched, no query log, no committed artifact records what was actually checked, so the negative ('no experiment currently makes this measurement') is not independently auditable from committed files.",
+     "where": "FINDINGS.md"
+    }
+   ],
+   "seat_note": "This correctly identifies that a 5-vs-6 edge-mode-count prediction currently has no experimental readout in the cited literature, which is an honest and useful negative, but the underlying literature survey is a single external paper plus an unlogged search, not a reproducible artifact."
+  },
+  {
+   "arc": "B8147_paperIV_refuted",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8147_paperIV_refuted/arc_verdict.json",
+    "frontier/B8147_paperIV_refuted/results.json",
+    "frontier/B8147_paperIV_refuted/relays/CC3_TO_CC_2026-08-27_R014_IS_RIGHT_PAPER_IV_RETRACTED_AND_MY_14_FIGURE_IS_WRONG.md",
+    "frontier/B8147_paperIV_refuted/relays/CC3_TO_CC_2026-08-27_THE_AMPHICHIRALITY_DEBT_CLOSED_83_OF_83.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Paper IV's family F (14 manifolds) was never verified complete; a census scan of 212,641 orientable cusped manifolds for all-regular-ideal shape finds 77 more, giving >=83 total; both of Paper IV's separator claims (H1=Z; cusp shape 2sqrt(3)i) fail on the additions (o10_150700 has H1=Z and is single-cusped; four manifolds share the cusp shape); codex R014's conclusion is right but its named witness s955 refutes neither claim (its own invariants differ). | status: RETRACTED",
+   "log_says": "PROGRESS_LOG B1180 2026-08-27: cc3's B8147 adopted: the family was >=83, not 14; both separators dead; main corrected. B1184: the B8147 stress-test bench-verified.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "census scan of 212,641 orientable cusped manifolds finds 77 with all tetrahedra regular ideal (shape field Q(sqrt-3)), giving a family of >=83 combined with the original 14",
+     "where": "results.json:the_root_defect",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "a census scan of this size implies a SnapPy/manifold-census computation; no script file is listed among this arc's committed files in the packet (only arc_verdict.json, results.json, relays/), so the scan itself is not directly inspectable from this arc's directory."
+    },
+    {
+     "what": "o10_150700: single-cusped, 10 regular ideal tetrahedra, volume exactly 5x m004, H1=Z, refuting the H1=Z separator claim",
+     "where": "results.json:refutations.H1_is_Z",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "same as above -- no script present in this arc's file set to rerun the census/property lookup."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "the census-scan script that produced the 212,641-manifold sweep is not among the files delivered to this arc's directory (only arc_verdict.json/results.json/relays); cannot confirm from this arc alone whether a committed reproducer exists elsewhere in the repo.",
+   "absence_claims": [
+    {
+     "quote": "a refutation addressed to my seat sat OPEN for a day while I posted eleven 'noting only' acknowledgements of other seats' commits. I was watching the wrong channel",
+     "where": "results.json:my_failure"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "no census-scan script is present among this arc's committed files (arc_verdict.json, results.json, relays/ only); the FULL provenance of the '212,641 manifolds scanned, 77 all-regular-ideal' figure is not independently checkable from this arc's own directory.",
+     "where": "frontier/B8147_paperIV_refuted/ (file listing)"
+    }
+   ],
+   "seat_note": "A significant, apparently genuine self-correction (Paper IV's family claim of 14 falls to a much larger census, both separator theorems die) that strengthens some corollaries and weakens others; the retraction itself reads as careful, but this arc's own directory does not carry the reproducer for its central census number."
+  },
+  {
+   "arc": "B8148_m12_settled",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8148_m12_settled/arc_verdict.json",
+    "frontier/B8148_m12_settled/results.json",
+    "frontier/B8148_m12_settled/relays/CC3_TO_CC_2026-08-27_M12_SETTLED_AT_3_AND_THE_MECHANISM_FOR_2.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Paper I's flagged m=12 class-count disagreement settles at 3 (both SL(2,Z) and GL(2,Z)) via a from-scratch reimplementation validated against the banked m=1..11 table (1,1,1,1,1,2,1,1,2,2,1) before use; the likely source of a wrongly-reported '2' is identified as an off-by-one (b<floor(sqrt(D)) instead of b<sqrt(D)), which silently drops one legitimate class at D=148. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "reduction algorithm reproduces the full banked m=1..11 GL(2,Z)-class table exactly as a control before being applied at m=12",
+     "where": "results.json:result.control",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "described as 'reduction re-implemented from scratch and validated against Theorem thm:classes' full m=1..11 table' but no script file is among this arc's delivered files (only arc_verdict.json, results.json, relays/)."
+    },
+    {
+     "what": "m=12 (disc=148) has exactly 3 classes under both SL(2,Z) and GL(2,Z)",
+     "where": "results.json:result",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "same reproducibility gap as above."
+    },
+    {
+     "what": "the off-by-one mechanism (b<floor(sqrt(D)) vs b<sqrt(D)) that would produce a wrong count of 2 at D=148, discovered because the author's own first re-implementation made exactly this mistake (also giving 0 classes at m=11,13)",
+     "where": "results.json:the_likely_source_of_2",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "same gap; also explicitly hedged as 'the likely explanation', not proven to be what any external count actually did."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "the arc's reproducer is named only in prose ('reduction re-implemented from scratch and validated...'); no script is present in this arc's own directory in the packet, so the control cannot be rerun from files delivered here.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "no code file is present in this arc's directory (only arc_verdict.json, results.json, relays/); the class-count computation and its control (matching m=1..11) cannot be reproduced from what was delivered to this arc.",
+     "where": "frontier/B8148_m12_settled/ (file listing)"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "the arc explicitly notes codex's R010 also reports m=12 'resolved' but the relay body is untracked and the direction is unreadable from the ledger row, so the two independent claims of resolution were never actually cross-checked against each other.",
+     "where": "results.json:status_of_codex_R010"
+    }
+   ],
+   "seat_note": "A clean number-theory result (class count at a specific discriminant) with a genuinely good methodological point (validate against a known table before trusting a new count) but no reproducer script is present in this arc's own file set, so the count itself is asserted rather than independently checkable here."
+  },
+  {
+   "arc": "B8149_paperII_residue_sharpened",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8149_paperII_residue_sharpened/arc_verdict.json",
+    "frontier/B8149_paperII_residue_sharpened/results.json",
+    "frontier/B8149_paperII_residue_sharpened/relays/CC3_TO_CC_2026-08-27_R013_UPTAKE_THE_RESIDUE_IS_ONE_SIDED_AND_NARROWS_TO_FIVE.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Paper II's registered Qbar-residue narrows: mod-p reduction can only ADD dependencies (never remove them), so a mod-p enumeration of the flat lattice's image can overstate but not understate the true Qbar set; since 6 of 11 values were independently corroborated by disjoint methods, the exposure narrows from 'not certified over Qbar' to exactly {16,20,26,28,36}. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the direction argument (mod-p reduction only adds dependencies, never removes them) as a general fact about the flat-function image",
+     "where": "arc_verdict.json:creates_law",
+     "kind": "ASSERTED (mathematical argument, no code)",
+     "reproducible_from_committed": "unknown",
+     "why": "reproducer is stated as 'direction argument from the arc's own scope + the corroboration list already banked in B8078' -- this is a logical/algebraic argument, not a computation, and no script is present in this arc's files."
+    },
+    {
+     "what": "6 of 11 residue values (12,14,18,30,46,78) obtained by methods sharing no code, cited as corroboration",
+     "where": "arc_verdict.json:claim_one_line",
+     "kind": "IMPORTED (from B8078)",
+     "reproducible_from_committed": "unknown",
+     "why": "cites B8078 as the source of the corroboration list; B8078 itself is not among the files read in this arc."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "no code, no recomputation; this is a logical/scoping argument about what a mod-p method can and cannot prove, applied to numbers banked elsewhere.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "the arc's own verdict explicitly flags that codex R013 reports the same object ('Paper-II Qbar CLOSED') but the relay is unread on this bench and the direction is unreadable from the ledger row, so this sharpening and that closure are NOT compared, only juxtaposed as unreconciled parallel claims.",
+     "where": "arc_verdict.json:creates_law"
+    }
+   ],
+   "seat_note": "A pure argument (not a computation) about the one-sidedness of mod-p evidence, correctly scoped as narrowing rather than closing the residue, but it rests entirely on values and corroborations banked in other arcs (B8078, B8136) that were not read here."
+  },
+  {
+   "arc": "B8150_paperIII_fenced",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8150_paperIII_fenced/arc_verdict.json",
+    "frontier/B8150_paperIII_fenced/results.json",
+    "frontier/B8150_paperIII_fenced/relays/CC3_TO_CC_2026-08-27_R011_UPTAKE_THE_CODEX_SET_IS_COMPLETE.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "auditing Paper III found a missing continuation fence: the Sym-power identity (eq:symfactor, = B8142's bridge.py identity) was verified on Re(s)>2+m and then evaluated at s=0 with no continuation step stated; the identity theorem for meromorphic functions licenses the step but omitting it lets a reader mistake the s=0 display for directly-verified. Also found and fixed a duplicated lead-in sentence. | status: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the paper's Sym-power identity display at s=0 lacks a stated analytic-continuation justification even though it was only verified for Re(s)>2+m",
+     "where": "papers/series/paper3_one_loop/main.tex (per arc_verdict.json reproducer)",
+     "kind": "ASSERTED (textual audit)",
+     "reproducible_from_committed": "yes",
+     "why": "this is a documentation/fencing defect found by reading the paper text against where the identity (from B8142) was actually verified; reproducible by anyone reading the same paper source, which is presumably committed (not confirmed read directly in this pass)."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "this is a textual/documentation audit of an existing paper, not a new computation; the underlying identity itself is B8142's, already assessed there.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A legitimate paper-hygiene fix (an identity used outside its verified half-plane without stating the continuation licence); no independent physics content beyond what B8142 already established, and this arc did not re-derive or re-verify the identity itself."
+  },
+  {
+   "arc": "B8151_verified_vs_used_sweep",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8151_verified_vs_used_sweep/FINDINGS.md",
+    "frontier/B8151_verified_vs_used_sweep/arc_verdict.json",
+    "frontier/B8151_verified_vs_used_sweep/results.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "a 'verified-vs-used' + reproducibility-appendix check run across all four papers: Papers I and II pass the universal-quantifier audit (their 'for every' claims are licensed by general proofs, not samples); Papers III and IV had already yielded real defects (B8150, B8147); separately, Papers III and IV pointed referees at a bare verify/ directory with no filename or expected output, now fixed to name the script and expected count (5/5, 7/7) matching Papers I/II's pattern (15/15, 13/13). | status: PROVED",
+   "log_says": "REVIEWS.md Review 51: E52 filed (VERIFIER-DEFECT class); 'the review checklist gains VERIFY-THE-VERIFIER + cc3's B8151 verified-vs-used sweep'; relay hygiene notes 'cc3's B8151/B8152 relays arrived dual-homed on their branch'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "all four papers' verification suites pass at their stated counts (15/15, 13/13, 5/5, 7/7)",
+     "where": "FINDINGS.md table",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "reproducer is 'the verified-vs-used check applied to all four papers, plus each suite run and its count compared to the paper's stated count' -- suite counts are directly checkable by running the named scripts (check_locus.py, check_forcing.py, check_n2_abscissa.py, check_family.py), assuming those scripts are committed (not independently verified present in this pass)."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "this is itself a belt/verification-process arc (an audit of other arcs' reproducibility appendices), not a physics computation.",
+   "absence_claims": [
+    {
+     "quote": "PAPERS III AND IV POINTED AT A BARE verify/ DIRECTORY -- no filename, no expected output.",
+     "where": "arc_verdict.json:claim_one_line"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [],
+   "seat_note": "A meta-audit (checking that reproducibility appendices actually name a runnable file and expected output) rather than a physics result; genuinely useful process hygiene, and it explicitly separates checkability defects from correctness (all four suites pass at their counts)."
+  },
+  {
+   "arc": "B8152_family_definition",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8152_family_definition/arc_verdict.json",
+    "frontier/B8152_family_definition/results.json",
+    "frontier/B8152_family_definition/relays/CC3_TO_CC_2026-08-27_CELL_2_CLOSED_THE_FAMILY_IS_111.md",
+    "frontier/B8152_family_definition/relays/CC3_TO_CC_2026-08-27_YOU_ARE_RIGHT_112_AND_MY_CONTROL_WAS_ONE_SIDED.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "the two candidate family criteria (A: all tetrahedra regular ideal, 77 members; B: tetrahedron shape field contained in Q(sqrt-3), first reported as 111) are STRICTLY NESTED (A subsetneq B); Paper IV's own definition is criterion B, so the family is 111 (later than this arc's own verdict, corrected by an independent enumeration to 112 -- see relay title 'YOU ARE RIGHT 112'); both separators still fail; all members are amphichiral. | status: PROVED (verdict json says 111; a later same-arc relay says 112)",
+   "log_says": "PROGRESS_LOG B1186 2026-08-27: cc3's B8152 harvested, verified, and corrected by one member -- THE FAMILY IS 112, not 111; REVIEWS.md Review 51 notes 'E52 filed ... B8152 x1' as a VERIFIER-DEFECT instance and 'cc3's B8152 verified by independent enumeration and corrected by one member'.",
+   "log_consistency": "DRIFT (arc_verdict.json's claim_one_line states 111 as the settled count; the log and this arc's own second relay record the corrected count as 112)",
+   "load_bearing": [
+    {
+     "what": "criterion A (all-regular-ideal) count = 77; criterion B (shape field in Q(sqrt-3)) count = 111, later corrected to 112",
+     "where": "arc_verdict.json:claim_one_line; relays/...112_AND_MY_CONTROL_WAS_ONE_SIDED.md",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "reproducer is 'census scan under BOTH criteria with the original 14 as a control that criterion B must contain'; no script file is present among this arc's delivered files (only arc_verdict.json, results.json, relays/)."
+    },
+    {
+     "what": "the count-off-by-one bug: the arc's own verifier-defect (missing one member, 111 vs 112) traced to a one-sided control",
+     "where": "relays/...112_AND_MY_CONTROL_WAS_ONE_SIDED.md (title)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "same reproducer gap as above."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "no census-scan script present in this arc's own directory; the 111-vs-112 correction is itself an instance of the E52 VERIFIER-DEFECT class named in REVIEWS.md, i.e. a verification of this arc's own count was needed and changed the number.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "LOG_DRIFT",
+     "detail": "arc_verdict.json's claim_one_line states the family size as 111 ('THE FAMILY IS 111'), matching this arc's own first relay title, but the second relay in the same arc directory is titled 'YOU ARE RIGHT 112 AND MY CONTROL WAS ONE-SIDED', and PROGRESS_LOG/REVIEWS.md both record the settled count as 112. The verdict-of-record (arc_verdict.json) was not updated to 112.",
+     "where": "arc_verdict.json vs relays/CC3_TO_CC_2026-08-27_YOU_ARE_RIGHT_112_AND_MY_CONTROL_WAS_ONE_SIDED.md and PROGRESS_LOG B1186"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "no census-scan script is present in this arc's own directory (only arc_verdict.json, results.json, relays/); the 111/112 counts cannot be reproduced from what was delivered to this arc.",
+     "where": "frontier/B8152_family_definition/ (file listing)"
+    }
+   ],
+   "seat_note": "A real, self-named instance of the VERIFIER-DEFECT class (E52): the arc's own count (111) was itself wrong by one and had to be corrected to 112 by independent enumeration, yet the arc_verdict.json record of claim was never updated past 111 -- exactly the kind of stale claim-of-record this audit exists to catch."
+  },
+  {
+   "arc": "B8153_b500_accounting",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8153_b500_accounting/arc_verdict.json",
+    "frontier/B8153_b500_accounting/results.json",
+    "frontier/B8153_b500_accounting/relays/CC3_TO_CC_2026-08-28_B500_NINE_WORDS_WERE_NEVER_REACHED_AND_MY_OBSTRUCTION_IS_VACUOUS.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "of B500's 150 all-three-verb depth-5 words, 115 completed with a verdict, 26 timed out, and 9 were NEVER REACHED at all (the run stopped early) -- 'absent from 115 of 150' concealed that 35 were not simply negative but unfinished/unattempted; separately, a mod-p obstruction the author built to resolve the 35 cheaply is VACUOUS (a bite control shows it excludes nothing, not even a degree-29 target from a degree-4 slot). | status: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "accounting of 150 words: 115 completed + 26 timed out + 9 never reached = 150",
+     "where": "results.json:the_accounting",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "described as a 'word-by-word accounting of hunt_results_d5.txt against the 150 all-three-verb depth-5 words'; hunt_results_d5.txt is a log-style artifact whose committed status is not confirmed from this arc's own files (none of the underlying data files are among the packet's file list for this arc)."
+    },
+    {
+     "what": "the obstruction method is vacuous: it excludes none of 5 deliberately-absent test targets (up to degree 29) from a degree-4 slot",
+     "where": "results.json:my_failed_method.the_bite_control",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "same gap -- no script present in this arc's own directory."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "this is an accounting/self-audit of another arc's (B500's) run completeness, plus a self-caught vacuous-instrument report; no committed code is present in this arc's own directory in the packet.",
+   "absence_claims": [
+    {
+     "quote": "of 150 all-three-verb words, 115 completed, 26 TIMED OUT, and NINE WERE NEVER REACHED AT ALL (DDFMD, DDFDM, DDMFF, DDMFM, DDMFD, DDMMF, DDMDF, DDDFM, DDDMF); the run stopped early",
+     "where": "arc_verdict.json:claim_one_line"
+    },
+    {
+     "quote": "the only match for '283' in the depth-5 log is the header line stating the target. NO AIRLOCK, no child hit, in any completed word.",
+     "where": "results.json:the_airlock_check"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "'a timeout is evidence of difficulty, an unreached word is evidence of nothing' -- the arc itself explicitly names that the prior banked phrasing ('absent from 115 of 150') concealed the difference between attempted-and-failed and never-attempted, i.e. a prior claim's evidentiary basis was weaker than its phrasing implied (CLAIM_EXCEEDS_COMPUTATION on the earlier phrasing, self-corrected here).",
+     "where": "arc_verdict.json:creates_law"
+    },
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "no script or the underlying hunt_results_d5.txt log is present in this arc's own directory; the accounting and the bite-control result cannot be independently rerun from what was delivered to this arc.",
+     "where": "frontier/B8153_b500_accounting/ (file listing)"
+    }
+   ],
+   "seat_note": "A useful epistemic distinction (timed-out vs never-reached) applied to a combinatorics search, plus an honestly reported vacuous obstruction attempt; B500's underlying negative was already PROVISIONAL and this arc sharpens rather than changes that status."
+  },
+  {
+   "arc": "B8154_mirror_is_c",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8154_mirror_is_c/FINDINGS.md",
+    "frontier/B8154_mirror_is_c/arc_verdict.json",
+    "frontier/B8154_mirror_is_c/involution.py",
+    "frontier/B8154_mirror_is_c/results.json",
+    "frontier/B8154_mirror_is_c/relays/CC3_TO_CC_2026-08-29_THE_MIRROR_IS_c_PAPER_IV_IS_INSIDE_B1200.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "the mirror involution (orientation reversal of m004's holonomy, t -> 1-t) and B1200's Galois generator c (the swap omega<->omega^2 of Phi_3's roots) are the SAME map, verified exactly over Q(sqrt-3) in 19/19 checks with 4 live controls; consequence: because that G=Z/2 acts transitively and has prime order, Paper IV's Escape (i) ('shrink the group') is vacuous for this datum -- the observer's discrete orientation bit is named as 'a choice of root of Phi_3'. No residue is closed and the marking (which root is correct) is still not derived. | status: PROVED",
+   "log_says": "PROGRESS_LOG B1208 2026-08-29: cc3 B8154 (the mirror is c) -- VERIFIED 6/6 with their controls, and typed as CONVERGENCE not NOVELTY (main had B1174/B1183).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "t^2=t-1 (m004's holonomy parameter, primitive 6th root of unity), omega=t^2 satisfies Phi_3, u->u^2 swaps omega/omega^2 and equals complex conjugation on Q(sqrt-3), and the conjugated holonomy representation satisfies the same relator (same group)",
+     "where": "involution.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "committed sympy script, exact symbolic arithmetic over Q(sqrt-3), 19 checks with named controls (e.g. u->u^3 must NOT be the swap; c must fix Q but not omega), sys.exit code reports pass count."
+    },
+    {
+     "what": "Escape (i) (shrink the group) is vacuous specifically because |G|=2 is prime; controls show |G|=4,6,8,9 admit genuine escapes, so vacuity tracks primality not the number 2",
+     "where": "involution.py (Link 6 section)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "a small finite-group-theory fact verified by direct enumeration of subgroups/orbits in the script, not merely asserted."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "involution.py is a self-contained, exact, control-bearing computation; the arc also cites a companion pytest file (tests/test_b8154_mirror_is_c.py, 6 passed per FINDINGS.md) not independently re-run in this pass.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "the physical 'orientation bit' the observer must supply (B1163/B1183/B1184's quine result) is identified with the algebraic Galois-conjugation bit on Q(sqrt-3) because both are order-2 group actions on the same field-theoretic data (m004's holonomy trace field); the arc's own SCOPE section is honest that 'no residue closed... the marking is still not derived', i.e. the identification of WHICH bit is physically selected is not established, only that the group acting is the same group.",
+     "where": "FINDINGS.md:Scope"
+    }
+   ],
+   "seat_note": "A carefully executed exact symbolic computation identifying two Z/2 actions as literally the same map (a legitimate algebraic identity, not merely a dimension coincidence, since both act on the same trace field), with the group-theoretic consequence (Escape (i) is vacuous for prime-order transitive actions) also directly verified; physically this sharpens an existing no-go argument rather than deriving a new observable."
+  },
+  {
+   "arc": "P3_depth_exposure",
+   "source": "main",
+   "files_read": [
+    "frontier/P3_depth_exposure/FINDINGS.md",
+    "frontier/P3_depth_exposure/PREREGISTRATION.md",
+    "frontier/P3_depth_exposure/output.txt",
+    "frontier/P3_depth_exposure/results.json"
+   ],
+   "files_sampled": [
+    "frontier/P3_depth_exposure/compute.py (first 120 lines + grep for def/assert/print/==, plus per-target branch block lines 139-300)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "no arc_verdict.json present. FINDINGS.md: of 21 P1-banked negatives flagged depth_exposure=true, re-adjudication gives 8 DEPTH-CLOSED, 6 DEPTH-HELD (independently closed by P2's spectral face), 7 DEPTH-EXPOSED (genuine open gaps: B489, B500, B685, TOMB-L255, TOMB-L310, TOMB-L34, WALL-7); no HALT triggered; Methods A and B agreed on every cell. | status: no verdict file",
+   "log_says": "not in log (log_index was null for this arc)",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the per-target classification of each of 21 cells as DEPTH-CLOSED/-HELD/-EXPOSED (gap_threatens_verdict True/False per target)",
+     "where": "compute.py lines 139-300 (per-id elif branches)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "yes (trivially)",
+     "why": "each target's has_universal_step/gap_threatens_verdict flag is a HARD-CODED literal set inside an if/elif chain keyed on the target's id (e.g. 'if tid==\"B107\": result[\"gap_threatens_verdict\"]=False'), not derived by any parsing or formula from the underlying depth_note text at runtime. Rerunning compute.py reproduces the same output byte-for-byte only because the classification is baked into the source, not because a computation independently re-derives it from kill_graph.json/bprime_annotations.json. FINDINGS.md's claim that 'compute.py + output.txt (byte-identical on rerun)' constitutes reproducibility evidence is true but nearly vacuous for this reason."
+    },
+    {
+     "what": "the underlying P1 kill records and B' depth-exposure annotations for the 21 targets",
+     "where": "frontier/B742_negatives_hunt_p1/stageA/kill_graph.json, bprime_annotations.json (confirmed present on disk, not read in full in this pass)",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "these files exist in the repo and compute.py does load them (REC, bp dicts) for id/kill_form/adjudication metadata, but the actual depth-exposure verdict per target is still the hardcoded branch, not a function of these files' content beyond lookup."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "tests/test_p3_depth_exposure.py exists on disk (confirmed via find) with '13 locks, all passing' per FINDINGS.md, but was not read in this pass; the compute.py 'recomputation' is largely a hardcoded lookup table dressed as code (see red flag), so the belt's independence from the original classification is weak.",
+   "absence_claims": [
+    {
+     "quote": "None requires new mathematics -- all are finite-extension or induction proofs within the existing framework. But none has been executed.",
+     "where": "FINDINGS.md:Stabilization needed for the 7 exposed"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "CLAIM_EXCEEDS_COMPUTATION",
+     "detail": "compute.py presents itself as 'Method A: structural depth analysis (kill_form + depth_note gap parsing)' and FINDINGS.md cites 'byte-identical on rerun' as reproducibility evidence, but the actual per-target verdict (gap_threatens_verdict True/False for each of the 21 ids) is a hardcoded literal assigned inside an if/elif chain keyed by id string, not derived from parsing the depth_note text or any formula; the classification is the analyst's manual judgment encoded as source code, so re-running the script cannot independently confirm the judgment, only reprint it.",
+     "where": "frontier/P3_depth_exposure/compute.py lines 139-300"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "no arc_verdict.json is present for this arc (unlike every B81xx arc in this batch), so there is no separate machine-readable claim-of-record to check against FINDINGS.md; the FINDINGS.md text is the only record.",
+     "where": "frontier/P3_depth_exposure/ (file listing)"
+    }
+   ],
+   "seat_note": "This is a meta-level audit of the negatives-hunt campaign's own evidentiary standards (a genuinely useful distinction between finite-depth sampling and universal proof), but its own 'Method A' code is not really a computation over the depth_notes -- it is a per-target lookup table of pre-made judgments, so the 'byte-identical rerun' reproducibility claim overstates what was actually automated."
+  }
+ ]
+}

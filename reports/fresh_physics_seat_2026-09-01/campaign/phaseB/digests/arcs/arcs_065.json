@@ -1,0 +1,281 @@
+{
+ "batch": "arcs_065",
+ "arcs": [
+  {
+   "arc": "B749_genesis_forks",
+   "source": "main",
+   "files_read": [
+    "frontier/B749_genesis_forks/FINDINGS.md",
+    "frontier/B749_genesis_forks/arc_verdict.json",
+    "frontier/B749_genesis_forks/EXECUTION_NOTES.md",
+    "frontier/B749_genesis_forks/MEASUREMENTS.md",
+    "frontier/B749_genesis_forks/PREREGISTRATION.md",
+    "frontier/B749_genesis_forks/ARTIFACT_HASHES.txt",
+    "frontier/B749_genesis_forks/reviews/S16_REVIEW_1.md",
+    "frontier/B749_genesis_forks/reviews/S16_REVIEW_2.md",
+    "frontier/B749_genesis_forks/forks/F6/compute.py",
+    "frontier/B749_genesis_forks/forks/F6/output.txt",
+    "frontier/B749_genesis_forks/forks/F6/skeptic.txt",
+    "frontier/B749_genesis_forks/forks/F5/output.txt",
+    "frontier/B749_genesis_forks/forks/F5/skeptic.txt",
+    "frontier/B749_genesis_forks/forks/F3/skeptic.txt",
+    "frontier/B749_genesis_forks/forks/F2/output.txt",
+    "frontier/B749_genesis_forks/forks/F3/output.txt",
+    "frontier/B749_genesis_forks/forks/F4/output.txt",
+    "frontier/B749_genesis_forks/forks/F7/output.txt",
+    "frontier/B749_genesis_forks/forks/F8/output.txt",
+    "frontier/B749_genesis_forks/RESULTS.json (head/tail sample)",
+    "frontier/B749_genesis_forks/forks/F5/compute.py (head 60 lines)"
+   ],
+   "files_sampled": [
+    "frontier/B749_genesis_forks/RESULTS.json (65725 bytes; head+tail via bash; SAMPLE_DATA mode)",
+    "frontier/B749_genesis_forks/forks/F4/compute.py (grep for assert; none found, verified check() pattern instead)",
+    "frontier/B749_genesis_forks/forks/F5/compute.py (grep for assert; none found; head 60 lines read)",
+    "frontier/B749_genesis_forks/forks/F7/compute.py (line/assert count only)",
+    "frontier/B749_genesis_forks/forks/F2/compute.py (line/assert count only)",
+    "frontier/B749_genesis_forks/forks/F8/compute.py (line/assert count only)",
+    "frontier/B749_genesis_forks/forks/F3/compute.py (line/assert count only)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"The genesis axiom chain is priced by computation: F2/F3/F4/F7 ROBUST, F5 and F6 FRAGILE (the det -1 sibling is the Gieseking; closure keeps only the hearing face), and F8 geometry-necessary -- geometry buys Q(sqrt-3).\"",
+   "log_says": "Progress log (7 mentions) is consistent: cites B749 as pricing the axiom chain (5 ROBUST, 2 FRAGILE at time of B1003), traces walls to A6/F5 (B1234), and Review 28 records the two-seat verification audit (7/7 re-exec + 4 independent + 3 skeptics) matching the arc's own claims; Review 33 separately flags (for OTHER arcs, not B749 itself) that some links cite locks only in prose -- not applicable here since B749 carries its own tests/test_b749_genesis_forks.py.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "F5 verdict FRAGILE: det -1 once-punctured-torus bundle's orientation double cover IS m004 (Gieseking is m004's parent)",
+     "where": "forks/F5/output.txt, forks/F5/skeptic.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "dual-route (census m000 + explicit construction), volume+isometry cross-check, live snappy calls with printed CHECK lines; independently reproduced by a skeptic in a fresh session with byte-identical output"
+    },
+    {
+     "what": "F6 verdict FRAGILE (contra sealed prior ROBUST): closed torus bundle of A=[[2,1],[1,1]] is Sol (no hyperbolic structure, being face absent) but the hearing/golden face (dilatation phi^2, pi1=O_Q(sqrt5) x|_phi^2 Z) survives closure intact",
+     "where": "forks/F6/compute.py, forks/F6/output.txt, forks/F6/skeptic.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact symbolic trichotomy (charpoly, eigenvalues), exact Smith normal form for H1, independent snappy closed-model cross-check (num_cusps=0, flat solution volume 0); skeptic re-derived the same result via independent Reidemeister-Schreier covers and slope-scan, rejecting the compute.py-only reproduction risk"
+    },
+    {
+     "what": "F8 verdict GEOMETRY-NECESSARY: the being face (Q(sqrt-3)) is absent from every combinatorial invariant of the Fibonacci tiling/AF C*-algebra (K0, gap labels, order-endomorphism ring, K1)",
+     "where": "forks/F8/output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "four pre-registered witness criteria (W1-W4) each computed and shown to fail exactly, with an m004 control confirming the same instruments DO see the being face on the geometric object -- pre-execution vacuity check (EXECUTION_NOTES item 2) satisfied"
+    },
+    {
+     "what": "F3 verdict ROBUST (contra-prior; prereg expected 'half-fragile'): silver slope (m=2 bundle, census m136) lacks knot-ness and the special-prime McKay analogue, though it carries an interface/arithmeticity analogue in a different Bianchi field Q(i)",
+     "where": "forks/F3/output.txt, forks/F3/skeptic.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact shapes at up to 1400 bits, PARI-independent gluing-equation verification, algdep with residual guards (cc2's lindep lesson), sentinel non-vacuity tests (4*Catalan correctly rejected); the S16 review itself flags a genuine but non-refuting tension in the ROBUST/FRAGILE wording overlap, honestly recorded rather than hidden"
+    },
+    {
+     "what": "F7 correction: 'quadratic slopes = exactly the metallic family' (v1 MEASUREMENTS.md) was FALSE, caught by a pre-execution S16 review and remedied with an F7b stratum before any computation ran",
+     "where": "reviews/S16_REVIEW_1.md, reviews/S16_REVIEW_2.md, MEASUREMENTS.md v2, forks/F7/output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "the review computed a concrete counterexample (sqrt(3)-1) independently before the design was allowed to seal v2; F7b was then computed as its own stratum with full exact-field verification"
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "No dedicated verification/ directory, but every FRAGILE and contra-prior ROBUST verdict (F3, F5, F6) carries its own adversarial skeptic.txt file that reruns compute.py in a fresh session (byte-identical output confirmed) and adds independent computational routes (different code paths, higher precision, alternate covers/instruments) -- this functions as the belt in place of a formal verification/ subdirectory; two pre-execution §16 design reviews additionally re-derived every fork's math from scratch before sealing.",
+   "absence_claims": [
+    {"quote": "No pre-written verdicts anywhere: a repo-wide grep for B749-adjacent VERDICT/ROBUST/FRAGILE/SEAL-READY strings hits only the two sealed documents themselves", "where": "frontier/B749_genesis_forks/reviews/S16_REVIEW_1.md:168-172"},
+    {"quote": "No other B749-named files or scripts exist anywhere in the repo.", "where": "frontier/B749_genesis_forks/reviews/S16_REVIEW_1.md:172"},
+    {"quote": "Verified by grep that neither value nor 'm015' appears in any of the three sealed files or ARTIFACT_HASHES.txt (absence-exit=1).", "where": "frontier/B749_genesis_forks/reviews/S16_REVIEW_1.md:180"},
+    {"quote": "trace field of M: NONE -- a trace field needs a finite-covolume Kleinian group; geometry is Sol ... no such group exists", "where": "frontier/B749_genesis_forks/forks/F6/output.txt:17"},
+    {"quote": "face ARITHMETICITY (Maclachlan-Reid, of a Kleinian group): ABSENT/undefined -- its carrier ... does not exist", "where": "frontier/B749_genesis_forks/forks/F6/output.txt:26"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "F4 and F5 compute.py contain zero Python 'assert' statements (grep confirmed) -- their check() helper prints a value/boolean but does not halt on failure, so an incorrect boolean would print '= False' silently rather than raise; the substance of the checks (many exact symbolic equalities) is sound, but the script itself provides no automated failure signal, relying on human/skeptic re-read of output.txt.", "where": "frontier/B749_genesis_forks/forks/F4/compute.py, forks/F5/compute.py"},
+    {"kind": "OTHER", "detail": "F3's own skeptic report flags a genuine wording tension: the sealed criterion text ('ROBUST = lacks >=2... FRAGILE = carries a comparable full interface') is ambiguous since silver both lacks 2 AND carries an interface-analogue; the skeptic resolves it via the complementary reading but explicitly logs this as a criterion-drafting defect for the merge gate, not a refutation.", "where": "frontier/B749_genesis_forks/forks/F3/skeptic.txt:68-83"}
+   ],
+   "seat_note": "This is one of the most heavily audited arcs seen in the batch: pre-execution adversarial design review caught and fixed a real mathematical error (F7) before any computation ran, and every FRAGILE/contra-prior verdict got an independent fresh-session skeptic rerun. The physics content stays purely structural (trace fields, arithmeticity, K-theory of tilings) -- nothing here is an observable or SM-comparable number, consistent with the arc's own Gate-5 declaration."
+  },
+  {
+   "arc": "B750_lack_ledger",
+   "source": "main",
+   "files_read": [
+    "frontier/B750_lack_ledger/FINDINGS.md",
+    "frontier/B750_lack_ledger/PREREGISTRATION.md",
+    "frontier/B750_lack_ledger/arc_verdict.json",
+    "frontier/B750_lack_ledger/ledger.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"Thirteen banked refusals sort into exactly three sealed classes -- no basepoint (8), no bandwidth (3), no name-transmission (2) -- with the unclassifiable bucket empty (UNIFIED-3).\"",
+   "log_says": "Progress log (2 mentions): 2026-07-21 entry restates the arc's own headline; Review 28 groups B750 with B747/B748 and B749 as 'three independent arcs' converging on one sentence ('the object provides the group but never the choice...') -- consistent with the arc's own framing, no drift.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Classification UNIFIED-3: all 13 admissible entries sort into T (8), R (3), P (2), X empty",
+     "where": "frontier/B750_lack_ledger/ledger.json",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "yes",
+     "why": "arc explicitly states 'no new mathematical fact is asserted beyond the banked citations' -- every entry cites a prior arc's FINDINGS.md; this seat verified all 15 cited FINDINGS.md files plus the lock test exist on disk (spot-check via ls), so the classification is reproducible IF the cited arcs' own claims stand, but this arc contributes zero independent computation of its own -- the only new content is the taxonomy itself"
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "No verification/ dir and no compute script (this is a pure assembly/citation arc by design); the 'verification' consists of re-checking that each cited claim exists at the stated path, which this seat independently spot-confirmed for all 15 citations.",
+   "absence_claims": [
+    {"quote": "The falsifier bucket stayed empty", "where": "frontier/B750_lack_ledger/FINDINGS.md:31"},
+    {"quote": "no new mathematical fact is asserted beyond the banked citations", "where": "frontier/B750_lack_ledger/FINDINGS.md:55"},
+    {"quote": "X — unclassifiable. The falsifier bucket: an admissible refusal fitting no class.", "where": "frontier/B750_lack_ledger/PREREGISTRATION.md:25"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "OTHER", "detail": "The arc is entirely derivative of 15 other arcs' claims (B711-B716, B700, B739, B740, B746, B748, B532, B437, B92) -- its correctness is only as strong as the weakest cited FINDINGS.md, none of which were independently re-verified in this pass (only existence-on-disk was checked, not their internal correctness).", "where": "frontier/B750_lack_ledger/ledger.json (entries list)"}
+   ],
+   "seat_note": "Self-aware assembly arc with a real admission-criteria discipline (pre-registered can-fail witnesses per class, an explicit excluded-candidate demonstration) -- good methodological hygiene for a taxonomy exercise, but the classification's truth is entirely inherited and unverified at the leaf level by this digest pass. Nothing here is a physics observable; it is a structural/rhetorical inventory of the program's own admitted gaps."
+  },
+  {
+   "arc": "B751_iterated_hearing_adjudication",
+   "source": "main",
+   "files_read": [
+    "frontier/B751_iterated_hearing_adjudication/FINDINGS.md",
+    "frontier/B751_iterated_hearing_adjudication/PREREGISTRATION.md",
+    "frontier/B751_iterated_hearing_adjudication/adjudicate.py",
+    "frontier/B751_iterated_hearing_adjudication/arc_verdict.json",
+    "frontier/B751_iterated_hearing_adjudication/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE -- \"The 1/(2phi^3) = alpha_s identification is NOT EARNED: the per-letter assignment is constructed and drops a 0.4253 imaginary part, the target is scale-knob-dependent, and the hits are null-consistent; only the arithmetic is true.\"",
+   "log_says": "Progress log (5 mentions): consistent restatement of the arc's own negative verdict; B752's log entry independently confirms 'B751 stands; cc3's caution adopted (no post-hoc significant-scale hunt for alpha_s)'; B753's log entry references B751's Born weight as later being derived kind-correctly, not contradicting the NOT-EARNED verdict.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Cell 1: 1/(2phi^3) = 0.1180339887 exactly equals the forced b-density (1/phi^2) times the claimed per-letter weight (1/(2phi))",
+     "where": "frontier/B751_iterated_hearing_adjudication/adjudicate.py:12-26, output.txt:1-7",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy exact symbolic identity, Perron eigenvector computed from the substitution matrix -- fully re-executable"
+    },
+    {
+     "what": "Cell 2: the claimed per-letter weight 1/(2phi) is the real part only of a complex word-level matrix element (banked B593), silently dropping an imaginary part of 0.4253 (not small vs |amp|=0.5257)",
+     "where": "frontier/B751_iterated_hearing_adjudication/adjudicate.py:28-40, output.txt:9-19",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "exact sympy computation of the banked complex amplitude and its modulus/real-part split; grep-audit for a banked per-letter weight is stated but the grep command itself is not shown/committed as a script -- the negative claim ('no banked per-letter hearing weight exists') rests on a described but not reproducibly-scripted grep"
+    },
+    {
+     "what": "Cell 4 base-rate: candidate family (12 distinct values) vs 16 PDG targets at 1% gives 2 hits vs 0.75 expected (Poisson P>=2 = 0.17); the claimed pattern skips n=2 by 15%",
+     "where": "frontier/B751_iterated_hearing_adjudication/adjudicate.py:60-99, output.txt:33-43",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "fully scripted, deterministic (no randomness), PDG central values cited inline in the script; reproducible exactly"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Single script (adjudicate.py) with no separate skeptic/verification file; belt-equivalent oversight came from a later arc (B752, addendum) that re-ran the same math and cross-confirmed the base-rate and scale-running findings by independent recompute -- but that is a different arc's file, not a belt directory inside B751 itself.",
+   "absence_claims": [
+    {"quote": "grep-audited: none exists", "where": "frontier/B751_iterated_hearing_adjudication/FINDINGS.md:16"},
+    {"quote": "grep-audit result (run 2026-07-22, recorded): NO banked per-LETTER hearing weight exists;", "where": "frontier/B751_iterated_hearing_adjudication/adjudicate.py:35"},
+    {"quote": "object-side scale-pinning offered by the claim: NONE (no banked structure selects M_Z).", "where": "frontier/B751_iterated_hearing_adjudication/adjudicate.py:54"},
+    {"quote": "no well-posed iteration received", "where": "frontier/B751_iterated_hearing_adjudication/FINDINGS.md:29"}
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [
+    {"kind": "MISSING_WITNESS", "detail": "The grep-audit that underlies the central 'no banked per-letter hearing weight exists' absence claim is described in prose/print output but the actual grep command and its output are not committed as a reproducible artifact (no grep log, no .txt witness file) -- a stranger cannot literally rerun the audit step, only the arithmetic/numeric cells.", "where": "frontier/B751_iterated_hearing_adjudication/adjudicate.py:35"}
+   ],
+   "seat_note": "A rigorous, well-instrumented negative result: it correctly identifies numerology (dropped imaginary part, free scale knob, consistent-with-null base rate) and reports it as such rather than banking a false positive -- exactly the discipline the physics-evaluation seat wants to see. This is the arc's OBSERVABLE content: it names a real measurable quantity (alpha_s(M_Z)) and a real candidate value, then correctly refutes the match as unearned."
+  },
+  {
+   "arc": "B752_qualia_handoff_receipt",
+   "source": "main",
+   "files_read": [
+    "frontier/B752_qualia_handoff_receipt/FINDINGS.md",
+    "frontier/B752_qualia_handoff_receipt/PREREGISTRATION.md",
+    "frontier/B752_qualia_handoff_receipt/arc_verdict.json",
+    "frontier/B752_qualia_handoff_receipt/output.txt",
+    "frontier/B752_qualia_handoff_receipt/receipt.py"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "NEGATIVE -- \"The qualia handoff dissolves on recompute: its c*phi^-n hits are base-rate by its own decision rule (nulls P=0.26/0.35), and the 'self-referential fixed point' is Cayley-Hamilton on a misidentified trace-1 matrix at a repelling point.\"",
+   "log_says": "Progress log (3 mentions): consistent with own FINDINGS; Review 28 confirms 'two-seat convergence' (this seat + cc3 independently) on the same three Op-3 findings, matching the arc's own claim of a genuinely independent cross-check.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Op-1: at the handoff's own 0.1% window only 1 hit (alpha_s) survives; at B751's 1% window 4 hits appear including junk matches (m_u/m_d, m_b/m_t) -- both null-consistent (empirical P=0.26, 0.35 from 2000 surrogates)",
+     "where": "frontier/B752_qualia_handoff_receipt/receipt.py:12-50, output.txt:1-14",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "deterministic seed=7 surrogate null, full candidate/target tables inline in the script, fully re-executable"
+    },
+    {
+     "what": "Op-3a: the 'self-referential collapse' Delta(A)=-A+3I-A^-1 is a universal Cayley-Hamilton identity for every SL(2) matrix (zero object content), proved symbolically",
+     "where": "frontier/B752_qualia_handoff_receipt/receipt.py:52-61, output.txt:16-20",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "sympy symbolic proof on a generic 2x2 matrix (a,b,c,d symbols), fully general and re-executable"
+    },
+    {
+     "what": "Op-3b: the handoff's claimed 'trace-1 holonomy' is misidentified -- the banked geometric meridian (B285) has trace 2; at the correct holonomy Delta(A)=I, not 1/2",
+     "where": "frontier/B752_qualia_handoff_receipt/receipt.py:63-73, output.txt:22-29",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "direct symbolic computation from a hardcoded matrix asserted to be 'the banked B285 Riley holonomy meridian' -- this seat did not independently verify B285's FINDINGS.md states trace 2 for that specific matrix, so the claim is COMPUTED given the input but the input's provenance (that R_a IS what B285 banked) is asserted, not cross-checked in this pass"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Single script, no dedicated skeptic file, but the arc itself reports genuine two-seat convergence (cc3's independent relay reached the same three findings, sealed before this seat's own prereg was known to cc3) -- functions as an external-belt equivalent, though not visible as a file in this arc's directory.",
+   "absence_claims": [
+    {"quote": "no 1/(2phi)", "where": "frontier/B752_qualia_handoff_receipt/receipt.py:100 (B620 grep result)"},
+    {"quote": "B620 is the conductor mechanism (grep: no 1/(2phi))", "where": "frontier/B752_qualia_handoff_receipt/PREREGISTRATION.md:33"},
+    {"quote": "the handoff cites 'B620' for 1/(2phi); the banked source is B593", "where": "frontier/B752_qualia_handoff_receipt/output.txt:41-42"}
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "Op-3b's refutation depends on this seat trusting that R_a=[[1,1],[0,1]] is indeed 'the banked B285 Riley holonomy meridian' as asserted in a code comment -- this digest pass did not open B285's FINDINGS.md to confirm trace 2 is what's banked there, so the correction (trace 1 vs trace 2) rests on an unverified cross-arc citation.", "where": "frontier/B752_qualia_handoff_receipt/receipt.py:66"}
+   ],
+   "seat_note": "Another disciplined negative-result arc: it dissolves an incoming speculative claim on three independent grounds (base-rate, universal algebraic identity, misidentified input) rather than banking any part of it, and reports genuine two-seat convergence. No physics observable is claimed or banked here -- purely a receipt/refutation exercise."
+  },
+  {
+   "arc": "B753_mixing_structure",
+   "source": "main",
+   "files_read": [
+    "frontier/B753_mixing_structure/FINDINGS.md",
+    "frontier/B753_mixing_structure/PREREGISTRATION.md",
+    "frontier/B753_mixing_structure/arc_verdict.json",
+    "frontier/B753_mixing_structure/compute.py",
+    "frontier/B753_mixing_structure/output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "PROVED -- \"The theta-odd block of the twisted weld is exactly unitary with eigenphases +-72deg, and the kind-correct mixing object is unistochastic with |B00|^2=1/(phi*sqrt5), refuting the disputed 108deg/'different quantity' claim.\"",
+   "log_says": "Progress log (5 mentions): consistent with own FINDINGS through the initial verdict and Addendum 2 (courier sign puzzle, both seats right); a later B768 entry (2026-07-23) reports an error #40 was caught in a downstream distillation document (wrong pair frequencies, dropped E20 flag, repeated B620 miscitation) -- that correction is in a DIFFERENT arc's log entry (B768), not a retraction of B753 itself; B753's own claims are not contradicted.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "The 2x2 theta-odd block B of the twisted weld at g=RL reproduces the banked B593 element exactly, is exactly unitary (||[B,B^dag]||~1e-15), and has eigenvalues e^{+-i*72deg} (NOT the disputed e^{+-i*108deg})",
+     "where": "frontier/B753_mixing_structure/compute.py:44-69, output.txt:1-15",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "loads the banked B238 pipeline module directly (su32_wrt.py, confirmed present on disk), computes numerically with numpy (float64, not exact symbolic) -- match tolerance 1e-12/1e-9, deterministic and reproducible, though this is numeric not exact-symbolic verification"
+    },
+    {
+     "what": "The kind-correct overlap matrix P = [[phi/sqrt5, 1/(phi*sqrt5)],[1/(phi*sqrt5), phi/sqrt5]] is unistochastic with the exact identity |B00|^2 = 1-p = 1/(phi*sqrt5) = 0.276393",
+     "where": "frontier/B753_mixing_structure/compute.py:88-101, output.txt:24-32",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "numerically computed (numpy), row/col sums checked to equal 1 (unistochasticity); FINDINGS.md claims the identity was 'symbolically verified' but the committed compute.py itself only does numeric linear algebra (numpy eig, no sympy exact step for this cell) -- the exact closed form 1/(phi*sqrt5) is stated in FINDINGS but not derived symbolically inside the committed script"
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Single script, no verification/ subdirectory; FINDINGS.md mentions '(+ the symbolic identity check in the lock)' meaning the exact-symbolic confirmation lives in tests/test_b753_mixing.py rather than in compute.py itself -- not independently re-read in this pass, so the symbolic-exactness claim is not directly verified from compute.py alone.",
+   "absence_claims": [
+    {"quote": "no SM comparison anywhere (program-internal mathematics only)", "where": "frontier/B753_mixing_structure/PREREGISTRATION.md:8"},
+    {"quote": "the kind-correct 1/(phi*sqrt5) ... does NOT register as an alternative", "where": "frontier/B753_mixing_structure/FINDINGS.md:44"},
+    {"quote": "CLAIM 'eigenvalues are e^(+-i 108deg)': False", "where": "frontier/B753_mixing_structure/output.txt:14"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "IDENTIFICATION_BY_TYPE", "detail": "The arc's own governance framing ('the pin') explicitly warns against exactly this: 0.30902 (cos72deg, a real-part projection) and 1/(phi*sqrt5) (0.276393, a Born-weight/overlap-squared quantity) are two DIFFERENT kinds of number that both derive from the same golden-ratio object -- the arc itself treats this as a live risk and locks the registered JUNO number to prevent post-hoc kind-swapping, which is good practice, but it also documents that the dispute this arc adjudicated (chat-1's claim) was itself a type/kind confusion (eigenvalue real part vs matrix element vs overlap-squared) that a less careful reading could still repeat.", "where": "frontier/B753_mixing_structure/FINDINGS.md:41-46"},
+    {"kind": "NUMERIC_ONLY_NO_EXACT", "detail": "compute.py performs all linear algebra in numpy float64 (not sympy/exact); the exact closed-form claims in FINDINGS.md (1/(phi*sqrt5), unistochastic entries as radicals) are stated as conclusions but the committed script that this seat read does not itself derive them symbolically -- FINDINGS.md points to 'the symbolic identity check in the lock' (a test file) as the source of exactness, which was not read in this pass.", "where": "frontier/B753_mixing_structure/compute.py (entire file uses numpy, not sympy)"}
+   ],
+   "seat_note": "Cleanly dissolves an internal dispute with real computation and correctly flags the eigenvalue-vs-overlap category error chat-1 made -- good structural mathematics. Correctly declared NO_OBSERVABLE_CONTENT: the arc explicitly refuses to let 1/(phi*sqrt5) register as an alternative to the banked 0.30902 JUNO hint, so nothing here claims a measurable prediction; it is program-internal spectral bookkeeping."
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+1400/1535  leads so far 23
+1425/1535  leads so far 44
+1450/1535  leads so far 65
+1475/1535  leads so far 83
+1500/1535  leads so far 107
+1525/1535  leads so far 124
+done: 161 claims, 128 leads

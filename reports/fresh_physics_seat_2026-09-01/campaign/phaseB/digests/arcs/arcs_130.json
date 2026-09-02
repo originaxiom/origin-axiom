@@ -1,0 +1,271 @@
+{
+  "batch": "arcs_130",
+  "arcs": [
+    {
+      "arc": "physics_probes",
+      "source": "main",
+      "files_read": [
+        "frontier/physics_probes/ADJOINT_TORSION_IDENTIFICATION.md",
+        "frontier/physics_probes/APOLY_INDEPENDENT_FIT_FINDINGS.md",
+        "frontier/physics_probes/CS_INVARIANT_FAMILY.md",
+        "frontier/physics_probes/MASTERPLAN_REVERIFICATION.md",
+        "frontier/physics_probes/METALLIC_ANYON_FINDINGS.md",
+        "frontier/physics_probes/PHYSICS_COMPUTATION_PLAN.md",
+        "frontier/physics_probes/PHYSICS_MAP.md",
+        "frontier/physics_probes/PHYSICS_PROBES_SUMMARY.md",
+        "frontier/physics_probes/SLN_MULTICHANNEL_FINDINGS.md",
+        "frontier/physics_probes/SPECTRAL_CURVE_GATE0.md",
+        "frontier/physics_probes/SPECTRAL_CURVE_GATE1.md",
+        "frontier/physics_probes/SPECTRAL_CURVE_GATE2.md",
+        "frontier/physics_probes/adjoint_torsion_identification.py",
+        "frontier/physics_probes/apoly_independent_fit.py",
+        "frontier/physics_probes/cs_invariant_family.py",
+        "frontier/physics_probes/emergent_geometry2.py",
+        "frontier/physics_probes/gluing_variety_elim_attempt.py",
+        "frontier/physics_probes/holo_arealaw.py",
+        "frontier/physics_probes/kashaev_feasibility.py",
+        "frontier/physics_probes/masterplan_reverification.py",
+        "frontier/physics_probes/metallic_anyon_probe.py",
+        "frontier/physics_probes/metallic_spectra.py",
+        "frontier/physics_probes/path1_quasicrystal.py",
+        "frontier/physics_probes/path1b_control.py",
+        "frontier/physics_probes/path1b_gaplabeling.py",
+        "frontier/physics_probes/path7_emergent.py",
+        "frontier/physics_probes/sln_multichannel_probe.py",
+        "frontier/physics_probes/spectral_curve_coulomb_test.py",
+        "frontier/physics_probes/spectral_curve_gate0.py",
+        "frontier/physics_probes/spectral_curve_gate1.py",
+        "frontier/physics_probes/spectral_curve_gate2.py"
+      ],
+      "files_sampled": [],
+      "files_listed_only": [],
+      "claim_of_record": "no verdict file (no arc_verdict.json in the packet or directory); PHYSICS_PROBES_SUMMARY.md is the closest thing to a claim of record: 'the framework produces real mathematics (topology / number theory / 1D condensed matter) but has no crossing into fundamental — or even new quantum — physics; every reachable physics anchor is special to the n=2 / m=1 case and does not generalize.' Status line: 'exploratory, committed for honest history' across most files.",
+      "log_says": "not in log",
+      "log_consistency": "NOT_IN_LOG",
+      "load_bearing": [
+        {
+          "what": "Path 1: SL(2) trace map reproduced exactly from physical transfer matrices (3-term recursion violation ~1e-9 tol met), Fricke-Vogt invariant I=(delta/2)^2 E-independent",
+          "where": "path1_quasicrystal.py lines 28-61",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained numpy script, runs standalone, prints its own diagnostics; no external data needed"
+        },
+        {
+          "what": "Path 1b: 12 largest spectral gaps of the Fibonacci Hamiltonian have IDOS values landing on Z+Z/phi with a periodic/random control showing no such gaps (8/12 hits err<0.001 vs ~0.4 random baseline)",
+          "where": "path1b_gaplabeling.py + path1b_control.py, whole files",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "committed numpy script, self-contained diagonalization, control baked in"
+        },
+        {
+          "what": "Metallic-anyon negative: metallic fusion rule tau^2=1+m*tau categorifiable only at m=1 (cites Ostrik's classification, not re-derived); metallic means found/not-found as SU(2)_k quantum dimensions for k<=40",
+          "where": "metallic_anyon_probe.py lines 47-93; METALLIC_ANYON_FINDINGS.md",
+          "kind": "COMPUTED for the SU(2)_k search (exact sympy); IMPORTED for the Ostrik categorification theorem (cited, not proved)",
+          "reproducible_from_committed": "yes",
+          "why": "script runs standalone with sympy; the categorification claim itself rests on an external literature result taken on citation"
+        },
+        {
+          "what": "SL(n>=3) symmetry-class obstruction: no nondegenerate invariant antisymmetric form exists for SL(3) transfer matrices (odd dimension), so the SL(3) metallic chain cannot be Hermitian/self-adjoint",
+          "where": "sln_multichannel_probe.py lines 58-95",
+          "kind": "COMPUTED (numerically, via SVD null-space of a linear system) plus a general structural fact (odd-dim antisymmetric forms are always singular) stated as ASSERTED-but-standard-linear-algebra",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained numpy computation; the underlying odd-dimension fact is elementary and not independently re-derived in the script beyond the numerical check for one instance"
+        },
+        {
+          "what": "Gate 0: the m=2 trace-map eliminant IS m136's A-polynomial, verified against SnapPy fundamental-group holonomy at 50 Dehn-filling points, 100% on-curve at median residual 1.5e-15, framing k=0, calibrated against a figure-eight control (88% on-curve, method validated)",
+          "where": "spectral_curve_gate0.py whole file; SPECTRAL_CURVE_GATE0.md",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained SnapPy+numpy script with an explicit calibration control; a stranger with SnapPy 3.3.2 installed could rerun it verbatim"
+        },
+        {
+          "what": "Independent A-polynomial recovery: m136's A-polynomial recovered from scratch via SVD null-space fit to high-precision SnapPy ManifoldHP holonomy, 1-dimensional null space, integer-fit error 3e-11, matching the trace-map eliminant exactly; figure-eight control (Cooper-Long) verified as a null vector",
+          "where": "apoly_independent_fit.py whole file; APOLY_INDEPENDENT_FIT_FINDINGS.md",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained script with its own control; a genuinely independent recomputation of Gate 0's claim"
+        },
+        {
+          "what": "CS-invariant family: corrected geometric (kappa=-2) adjoint-type torsion values tau_1=-3 (trace field Q(sqrt-3), deg 2), tau_2=-16 (deg 4), tau_3 branch-ambiguous (-2.64 or -52.08, deg 8); corrects an earlier kappa=+2 mis-evaluation (5, 32)",
+          "where": "cs_invariant_family.py whole file; CS_INVARIANT_FAMILY.md",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained sympy+mpmath script; branch selection logic (choosing the real-torsion root) is explicit in code"
+        },
+        {
+          "what": "tau_m identified as Porti's adjoint Reidemeister torsion FORM (not number), via three symbolic structural facts (non-acyclicity, eigenvalue-1 = peripheral direction, dimension count) for m=1,2; exact scalar calibration to a published Porti value explicitly NOT done",
+          "where": "adjoint_torsion_identification.py whole file; ADJOINT_TORSION_IDENTIFICATION.md",
+          "kind": "COMPUTED (symbolic, m=1,2 only) for the structural facts; the identification with 'Porti's form' itself is an ASSERTED/argued mathematical identification (cites Fried-Milnor, not a computed equality to a published Porti number)",
+          "reproducible_from_committed": "yes",
+          "why": "script is self-contained sympy; the paper explicitly flags 'exact scalar normalization vs a specific published Porti value... is not pinned here' -- an honest disclosed gap, not a red flag by itself"
+        },
+        {
+          "what": "Gate 1+3: genus 3,1,>=2 for m=1,2,3 (not the claimed '3,1,0'); only m=2 is elliptic (j=1728, CM by Z[i]); CM field Q(i) is arithmetically unrelated to the silver branch field Q(sqrt2)",
+          "where": "spectral_curve_gate1.py whole file; SPECTRAL_CURVE_GATE1.md",
+          "kind": "COMPUTED (exact sympy, binary-quartic invariants)",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained, exact algebra, no floats for the genus/j computation"
+        },
+        {
+          "what": "Gate 2: j=1728/tau=i is a forced, isolated single-point CM coincidence (a in {0,+-6} in the 1-parameter family y^2=M^4-aM^2+1), not a genuine Seiberg-Witten family/Coulomb-branch identification",
+          "where": "spectral_curve_gate2.py + spectral_curve_coulomb_test.py; SPECTRAL_CURVE_GATE2.md",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "exact sympy computation of I,J invariants and the j(a) formula; independently re-run in spectral_curve_coulomb_test.py with the same result"
+        },
+        {
+          "what": "Entanglement entropy log-not-volume scaling on the quasicrystal (Fibonacci ~ periodic, both critical); Gromov delta/diam test found Fibonacci (0.381) indistinguishable from periodic (0.385), test 'too crude to single out the quasicrystal'",
+          "where": "holo_arealaw.py, emergent_geometry2.py whole files",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained numpy free-fermion correlation-matrix computations with periodic/random controls"
+        },
+        {
+          "what": "Sturmian factor complexity p(k)=k+1 exactly for the Fibonacci word (linear/zero-entropy), used to conclude the natural counting is the wrong kind for holographic/emergent-geometry",
+          "where": "path7_emergent.py lines 62-77",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "exact combinatorial word computation, self-contained"
+        },
+        {
+          "what": "Volume conjecture check: (2pi/N)log<4_1>_N converges toward vol(4_1)=2.0298832 as N grows (100->2.447, 300->2.203, 600->2.127)",
+          "where": "kashaev_feasibility.py, masterplan_reverification.py Phase 7",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained finite sum, no external dependency"
+        },
+        {
+          "what": "Two independent attempted routes to re-derive the A-polynomial from SnapPy gluing equations (shape-route, sequential-resultant elimination) both FAIL their figure-eight control and are explicitly discarded",
+          "where": "gluing_variety_elim_attempt.py; MASTERPLAN_REVERIFICATION.md Phase 2",
+          "kind": "COMPUTED (the failure itself is a computed, reproducible negative result)",
+          "reproducible_from_committed": "yes",
+          "why": "script runs and documents its own failure against the stated control; kept committed as a documented dead end, which is good practice"
+        }
+      ],
+      "belt": "RECOMPUTES",
+      "belt_note": "PHYSICS_MAP.md explicitly re-runs and independently verifies the plan's precomputed TIER-1 probes ('independently re-run and verified here'); MASTERPLAN_REVERIFICATION.md is a dedicated second-route re-check of V27-V36 (catches its own bug in an attempted independent A-poly route, Phase 2); apoly_independent_fit.py is an independent recomputation of Gate 0's claim via a completely different method (integer null-space fit vs the direct-substitution test). This is unusually good internal-belt discipline for an exploratory probe directory.",
+      "absence_claims": [
+        {"quote": "the founding thesis is not being approached by either", "where": "frontier/physics_probes/PHYSICS_MAP.md:74"},
+        {"quote": "No probe reaches the founding thesis.", "where": "frontier/physics_probes/PHYSICS_MAP.md:13"},
+        {"quote": "the SL(n≥3) tower has **no physical (transfer-matrix) realization** for a structural reason", "where": "frontier/physics_probes/PHYSICS_MAP.md:12"},
+        {"quote": "For `m≥2` there is **no unitary fusion category** (no anyon model) with the metallic fusion rule", "where": "frontier/physics_probes/METALLIC_ANYON_FINDINGS.md:28"},
+        {"quote": "no tower<->anyon correspondence", "where": "frontier/physics_probes/METALLIC_ANYON_FINDINGS.md:46"},
+        {"quote": "path CLOSED (no anyon-family crossing)", "where": "frontier/physics_probes/METALLIC_ANYON_FINDINGS.md:64"},
+        {"quote": "m=2/m136: the colored Jones is not in closed form → not computed (honest scope)", "where": "frontier/physics_probes/MASTERPLAN_REVERIFICATION.md:65-66"},
+        {"quote": "no evidence a_d = gap labels; a_d is band-center data, not the gap label", "where": "frontier/physics_probes/SLN_MULTICHANNEL_FINDINGS.md:53"},
+        {"quote": "the ... framing was not earned** (no family, no Coulomb branch, no prepotential)", "where": "frontier/physics_probes/SPECTRAL_CURVE_GATE2.md:48"},
+        {"quote": "No probe here crosses from the framework into thesis-supporting dynamical physics", "where": "frontier/physics_probes/PHYSICS_COMPUTATION_PLAN.md:121"}
+      ],
+      "physics_content": "STRUCTURAL",
+      "red_flags": [
+        {
+          "kind": "MISSING_WITNESS",
+          "detail": "None of the 18 .py scripts have any committed .log/.out/.json/.txt witness of their run output, even though the FINDINGS.md files quote specific derived numbers verbatim from that output (e.g. '88%', '1.5e-15', 'τ₁=−3', 'j(a=3)=148176/25'). This is not gitignoring (no such files exist at all, tracked or untracked) -- the numbers are asserted in prose with no committed run artifact to check them against; a stranger must re-execute every script (some requiring SnapPy 3.3.2) to verify any quoted figure.",
+          "where": "frontier/physics_probes/*.py (all); cross-checked with git log (single commit 89affd5b adds the whole directory, no earlier history)"
+        },
+        {
+          "kind": "NO_TEST",
+          "detail": "18 of 19 scripts contain zero `assert` statements; the sole exception (spectral_curve_gate2.py) has one assert-like check embedded in a print, not a real test. Correctness rests entirely on eyeballing printed diagnostics against prose claims in the companion .md, with no automated pass/fail gate.",
+          "where": "frontier/physics_probes/*.py (all except spectral_curve_gate2.py)"
+        },
+        {
+          "kind": "IDENTIFICATION_BY_TYPE",
+          "detail": "The Gate 2 j=1728/tau=i 'Seiberg-Witten identification' is explicitly diagnosed by the authors themselves as a dimension/type coincidence (both are CM-by-Z[i] elliptic curves, isomorphic over C) rather than a genuine physical identification -- this is exactly the pattern the seat is instructed to flag, and here it is self-caught and correctly labeled NEGATIVE rather than claimed. Recorded as a red flag category match, not as an unflagged overclaim.",
+          "where": "frontier/physics_probes/SPECTRAL_CURVE_GATE2.md:33-43"
+        },
+        {
+          "kind": "IMPORTED",
+          "detail": "The load-bearing negative for the whole metallic-anyon path (no anyon model exists for m>=2) rests on citing Ostrik's rank-2 fusion-category classification theorem verbatim ('This is the cited classification, not re-derived here') rather than an independent proof or computation in-repo.",
+          "where": "frontier/physics_probes/metallic_anyon_probe.py:49-55; frontier/physics_probes/METALLIC_ANYON_FINDINGS.md:29-31"
+        }
+      ],
+      "seat_note": "This is honest, well-controlled negative-result physics work (real code, real controls, self-caught bugs in its own attempted independent checks) but every single quoted number rests on prose describing un-witnessed script output rather than a committed run artifact, and none of it produces a measurable prediction about our universe -- it is 1D condensed-matter/topology math correctly and repeatedly labeled 'not the thesis' by its own authors."
+    },
+    {
+      "arc": "tierB_opening",
+      "source": "audit/b775-braver-questions",
+      "files_read": [
+        "frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md",
+        "frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md",
+        "frontier/tierB_opening/PREREGISTRATION.md",
+        "frontier/tierB_opening/bronze_geometricity_attack.py",
+        "frontier/tierB_opening/full_trace_field_degrees.py",
+        "frontier/tierB_opening/geometric_component_verify.py",
+        "frontier/tierB_opening/layer0_modules.py",
+        "frontier/tierB_opening/layer0_output.txt",
+        "frontier/tierB_opening/layer0b_all_directives.py",
+        "frontier/tierB_opening/layer0b_output.txt",
+        "frontier/tierB_opening/m5_complete_factorization.py",
+        "frontier/tierB_opening/m5_spurious_component_ztower.py"
+      ],
+      "files_sampled": [],
+      "files_listed_only": [],
+      "claim_of_record": "no verdict file (no FINDINGS.md, no arc_verdict.json in this directory). This is a live/unmerged worktree on branch audit/b775-braver-questions holding a preregistration (B518 Tier B) plus two rounds of a self-correcting control document (P0-0), not a closed arc with a banked claim. cc3 explicitly 'does not adjudicate' any of it; adjudication is deferred to 'cc's bench'.",
+      "log_says": "not in log",
+      "log_consistency": "NOT_IN_LOG",
+      "load_bearing": [
+        {
+          "what": "R1 fires: under the pinned (fib,tm)-periodic directive convention, both Fibonacci and mixed-chain gap-label modules are computed exactly, and G_mixed is shown to be generated by RATIONAL frequencies, so the irrational 1/phi label is forbidden by Bellissard necessity -- the mixed row is refuted for this directive at zero further CPU cost",
+          "where": "layer0_modules.py (whole file) + committed witness layer0_output.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained sympy script with an explicit internal self-test (must reproduce TM's 1/3 block frequency or abort) and a matching committed .txt witness of the actual run output -- one of the few instances in this batch with a real committed witness"
+        },
+        {
+          "what": "Layer 0b: for every directive containing >=1 Thue-Morse step, the product transfer matrix has rank <=1 (200/200 random trials), forcing rational frequencies and forbidding 1/phi; for finitely-many-tm prefixes under the pinned convention the Fibonacci tail washes out the prefix (freq(a) converges to 1/phi to 3e-11); under an alternative convention, a zero-Thue-Morse-content 'doubling' decoy (C4) is shown to admit the 1/2 label by the same even-denominator mechanism as a genuine tm-containing chain, killing the discriminating power of that convention's '1/2 present' cell",
+          "where": "layer0b_all_directives.py (whole file) + committed witness layer0b_output.txt",
+          "kind": "COMPUTED",
+          "reproducible_from_committed": "yes",
+          "why": "self-contained sympy script with committed matching output; the C4 decoy control is a genuine adversarial test and it is the one that overturns the naive '1/2 => TM ancestry' reading"
+        },
+        {
+          "what": "Bridge-2 arithmeticity control: Hao's theorem (arXiv:2303.01395, Theorem A) establishes bounded-clustering(Tr(Gamma)) <=> arithmetic for nonuniform PSL(2,C) lattices, applicable in principle to m004/metallic bundles; Bridge-1 (Luo-Sarnak multiplicity growth) is refuted by a cited 2026 CMP paper showing the signature holds for the strictly larger semi-arithmetic class, plus a dimension mismatch (2D surfaces vs 3D manifolds)",
+          "where": "P0-0_REDRAFT_ARITHMETICITY.md sections 2-4",
+          "kind": "IMPORTED (literature-cited, not independently proved or computed in-repo); the refutation of Bridge 1 and the identification of Bridge 2 are both literature-lookups, self-reported as read only in part ('pages 1-4... NOT read' for sections 4-5 of Hao; Luo-Sarnak itself 'NOT read')",
+          "reproducible_from_committed": "unknown",
+          "why": "no code in the repo computes any trace-set clustering; the entire finding is a citation chain, explicitly flagged by its own author as partially unread ('its proof is not checked'), and the actual proposed computation (Tr(Gamma) clustering for m=1 vs m=2,3) has NOT been run"
+        },
+        {
+          "what": "Component-classification probes for m=5 (bronze_geometricity_attack.py, full_trace_field_degrees.py, geometric_component_verify.py, m5_complete_factorization.py, m5_spurious_component_ztower.py): Groebner-basis elimination to classify fixed-locus components by trace degree and elliptic/loxodromic type, e.g. checking whether specific points lie on the Markov surface and computing eliminant factorizations for m=1,2,3,5",
+          "where": "bronze_geometricity_attack.py, full_trace_field_degrees.py, geometric_component_verify.py, m5_complete_factorization.py, m5_spurious_component_ztower.py (whole files)",
+          "kind": "COMPUTED (symbolic sympy, self-contained)",
+          "reproducible_from_committed": "yes for the code path itself, but no committed output witness exists for any of these five scripts (no matching .txt/.log), unlike layer0_modules.py and layer0b_all_directives.py which do have committed witnesses",
+          "why": "code is exact/symbolic and self-contained (sympy Groebner elimination), so re-running is mechanical, but nothing in the directory records what these scripts actually printed, and no .md in this arc narrates or cites their specific numeric output"
+        }
+      ],
+      "belt": "UNCLEAR",
+      "belt_note": "This is a preregistration-and-control-design cell, not a closed result: layer0/layer0b are self-testing (built-in machinery self-test that must pass or the script aborts) and have committed witnesses, which functions as its own belt; but the five geometricity/trace-degree scripts have no narrating document, no committed output, and no second independent check, so 'belt' is undetermined for that portion of the arc.",
+      "absence_claims": [
+        {"quote": "The one measurable handle is not selective. Every selective handle is not measurable. And no arc bridges them.", "where": "frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md:78"},
+        {"quote": "NOT DESIGNABLE from banked material. The campaign does not open.", "where": "frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md:110"},
+        {"quote": "the space of golden-specific facts was not enumerated", "where": "frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md:144-145"},
+        {"quote": "Whether the multiplicity census has ever been computed for a metallic chain's spectral measure. This is the bridge question of §4 and it is unrun.", "where": "frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md:148-149"},
+        {"quote": "Luo–Sarnak `[5]` NOT read.", "where": "frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md:190"},
+        {"quote": "Sections 4–5 — the Kleinian extension itself and the corollary — NOT read.", "where": "frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md:188"},
+        {"quote": "Whether m004 and each bundle is a nonuniform lattice — not verified per object.", "where": "frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md:197"},
+        {"quote": "No arc uses trace-set clustering as an arithmeticity test — one pattern, one vocabulary; a floor, not a count.", "where": "frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md:203-204"},
+        {"quote": "no document states it [λ=1]", "where": "frontier/tierB_opening/PREREGISTRATION.md:70-71"},
+        {"quote": "None of these exist in any document today.", "where": "frontier/tierB_opening/PREREGISTRATION.md:66"}
+      ],
+      "physics_content": "NO_OBSERVABLE_CONTENT",
+      "red_flags": [
+        {
+          "kind": "MISSING_WITNESS",
+          "detail": "Five of the seven .py scripts (bronze_geometricity_attack.py, full_trace_field_degrees.py, geometric_component_verify.py, m5_complete_factorization.py, m5_spurious_component_ztower.py) have no committed output witness and no companion document narrating what they printed, unlike layer0_modules.py/layer0b_all_directives.py which do have matching .txt witnesses in this same directory -- an inconsistent practice within one arc.",
+          "where": "frontier/tierB_opening/bronze_geometricity_attack.py, full_trace_field_degrees.py, geometric_component_verify.py, m5_complete_factorization.py, m5_spurious_component_ztower.py"
+        },
+        {
+          "kind": "SUPERSEDED_UNMARKED",
+          "detail": "P0-0_GENERICITY_CONTROL.md's own body text in §4 still contains the original closure clause ('closes for good') inline in the document even though a same-day owner-caught correction banner at the top of the file explicitly withdraws it and says 'The sentence was unsupported and is struck.' The struck sentence is not actually removed/struck-through in the body -- it must be located and manually discounted by the reader following the correction banner's pointer. This is a soft case (the correction is prominent and dated, but the older text remains literally present in §4 rather than being edited out or visibly struck).",
+          "where": "frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md lines 1-9 (correction banner) vs the body text it refers to (section 4, not directly quoted/struck in the file)"
+        },
+        {
+          "kind": "OTHER",
+          "detail": "This entire arc lives on an unmerged audit worktree branch (audit/b775-braver-questions) rather than main, and is explicitly self-described as pre-adjudication design work ('cc3 does not adjudicate'). It should not be read as a settled arc result at all -- it is scaffolding for a not-yet-run experiment (B518 Tier B) plus two rounds of a still-open control-design question (P0-0), and no spectral computation for the actual Tier B ladders (Fibonacci/TM/mixed gap-opening test) has been run in this directory.",
+          "where": "frontier/tierB_opening/PREREGISTRATION.md (whole file, sealed but not yet executed beyond Layer 0/0b's necessity pre-check)"
+        }
+      ],
+      "seat_note": "This is pre-registration and control-design scaffolding, not a physics result: the one genuinely executed piece (Layer 0/0b) is a clean, well-witnessed necessity check that correctly refutes the mixed-chain golden-gap claim for the stated directive at zero spectral cost, but the arithmeticity control (P0-0 redraft) is built almost entirely on partially-read literature citations with no in-repo computation of the actual proposed test."
+    }
+  ]
+}

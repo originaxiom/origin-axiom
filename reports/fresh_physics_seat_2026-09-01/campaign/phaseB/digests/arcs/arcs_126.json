@@ -1,0 +1,559 @@
+{
+ "batch": "arcs_126",
+ "arcs": [
+  {
+   "arc": "B8112_graviton_torsion_dictionary",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8112_graviton_torsion_dictionary/FINDINGS.md",
+    "frontier/B8112_graviton_torsion_dictionary/arc_verdict.json",
+    "frontier/B8112_graviton_torsion_dictionary/dictionary.py",
+    "frontier/B8112_graviton_torsion_dictionary/results.json",
+    "frontier/B8112_graviton_torsion_dictionary/relays/CC3_TO_CC_2026-08-21_THE_3D_LINE_LAST_GAP_IS_AN_IDENTITY.md",
+    "frontier/B8112_graviton_torsion_dictionary/relays/CC3_TO_CC_2026-08-22_THE_n2_CHECK_SHARPENED_DENSITY_BEFORE_STATISTICS.md",
+    "tests/test_b8112_graviton_torsion_dictionary.py (found in tree, not in packet's file list; read to check belt)"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "THE DICTIONARY ENTRY IS AN IDENTITY, AND THE ANSWER TO B8104'S QUESTION IS 'NONE OF THEM': sigma_k is one-dimensional so R(k,sigma_k) equals the GMY nome product, making the graviton one-loop an infinite product of one-dimensional Ruelle zetas rather than a single finite Pfaff rho(m) torsion; Pfaff's Thm 1.2 supplies only the k>=3 tail, and the n=2 factor sits exactly at the theorem's abscissa of absolute convergence Re(s)>2, which is offered as the explanation for B8100's oscillatory convergence. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "sigma_k one-dimensional => R(k,sigma_k) = GMY nome product; graviton one-loop = infinite product of Ruelle zetas, not a single rho(m) torsion",
+     "where": "dictionary.py Section 1-2; results.json 'identity','graviton_one_loop_is'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Two independent summation orderings (R-first vs gamma-first) of the same m004 complex length spectrum are computed and agree to 1e-12, and reproduce B8100's banked log Z_geod=-0.2729771708384 to 1e-9; script and results.json are both committed."
+    },
+    {
+     "what": "the n=2 factor carries essentially all the cutoff instability (202x more unstable than the n>=3 tail) and is the sign-oscillating term",
+     "where": "dictionary.py Section 3; results.json n2_last_delta / n3plus_last_delta",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Computed across 6 cutoffs (3.0-5.5) from the same SnapPy manifold; numbers match results.json exactly."
+    },
+    {
+     "what": "torsion ratio T_X(rho(m))/T_X(rho(2)) for m=3..6, e.g. 1.429269e-02 (m=3) down to 2.907261e-11 (m=6), relative uncertainty 4.8e-6",
+     "where": "dictionary.py Section 5; results.json 'torsion_ratio'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "c(m) recomputed from a declared (not merely recalled) parenthesisation of Pfaff's formula and cross-checked to 10 decimals against B8104's unscripted banked values; full formula and constants (kappa=1, vol=2.029883212819307) are in the committed script."
+    },
+    {
+     "what": "control defect in B8100: its complex-conjugate-pairing control ran at cutoff 2.0 while its headline used cutoff 5.5, silently vacuous over that gap (4 self-conjugate theta=pi classes appear below 5.5 but not below 2.0)",
+     "where": "dictionary.py Section 1 comments; FINDINGS.md '⚠ A control defect found in B8100'",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly enumerated from M.length_spectrum(5.5) vs 2.0 in the same script; B8100's own number is independently reproduced to 1e-13, so this is flagged as a control defect not a result defect."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "tests/test_b8112_graviton_torsion_dictionary.py (present in the repo tree though not listed in the packet's file set) only re-asserts values already written into results.json by dictionary.py -- it locks the recorded numbers rather than independently recomputing them. The genuine cross-check (two summation orderings agreeing to 1e-12) lives inside dictionary.py itself, not in a separate belt script.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc explicitly declines the further identification of Ray-Singer analytic torsion with the graviton determinant ('a further identification and is not claimed'), so the paper-facing claim should not be read as establishing the one-loop partition function -- correctly scoped in FINDINGS.md but worth flagging since the title language ('graviton torsion dictionary') could be over-read.",
+     "where": "FINDINGS.md 'What this does NOT establish'"
+    }
+   ],
+   "seat_note": "This is a clean piece of mathematical physics housekeeping: an honest non-identity is proven (no single finite torsion equals the infinite graviton product), with real internal cross-checks (two summation orders, reproduction of a prior arc's banked number) rather than a single unverified run. No observable or measured value is claimed, consistent with its own Gate-5 statement."
+  },
+  {
+   "arc": "B8113_abscissa_residue",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8113_abscissa_residue/FINDINGS.md",
+    "frontier/B8113_abscissa_residue/abscissa.py",
+    "frontier/B8113_abscissa_residue/arc_verdict.json",
+    "frontier/B8113_abscissa_residue/results.json",
+    "frontier/B8113_abscissa_residue/relays/CC3_TO_CC_2026-08-21_BOTH_ACCEPTED_AND_YOUR_5_5_POINT_RETRACTS_MY_FLAT_CLAIM.md",
+    "frontier/B8113_abscissa_residue/relays/CC3_TO_CC_2026-08-21_HOLD_THE_ITEM_5_NARROWING_THREE_RESIDUES_NOT_ONE.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "WHAT-REMAINS item 5 has THREE residues, not the one cc's proposed narrowing named: the cusp continuous spectrum (correctly named by cc), the undeclared torsion-to-determinant step B8112 declined, and (new) the n=2 factor sitting outside Pfaff's Re(s)>2 abscissa of absolute convergence, so the geodesic product is at best conditionally convergent. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "S(2)=sum e^{-2l} increments do not decay geometrically (ratio 1.127, close to the 1/L prediction 1.105 for log divergence) while the positive-control S(3)=sum e^{-3l} decays geometrically (ratio 1.793) and monotonically",
+     "where": "abscissa.py Sections 1-2; results.json rows/S2_increment_ratio/S3_increment_ratio",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Computed directly from m004's length spectrum at 5 cutoffs (3.0-5.5) with an explicit positive control (s=3, strictly inside the convergence half-plane) built into the same script; numbers match results.json exactly."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No separate verification script or test file was provided in the packet for this arc; the positive control (S(3) at s=3) is an internal design feature of abscissa.py itself, not an independent re-check.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc's own working copy of THE_FRAMEWORK's item numbering was stale (it thought item 5 was a different, unrelated item), caught only because cc's question forced a check against origin/main -- a live example of the corpus's known 'stale tree' failure mode, self-caught here but a symptom worth tracking across arcs.",
+     "where": "FINDINGS.md 'The question' section: 'item 5 on my branch is L144/B167's door map... my working copy was stale'"
+    }
+   ],
+   "seat_note": "A properly self-correcting numerical arc: the first pass's 'FLAT to 0.45%' claim about S(2)'s increments is explicitly RETRACTED in an in-document AMENDMENT after a missing cutoff point (5.5) was supplied, and the retraction is folded into both FINDINGS.md and results.json's verdict string rather than left dangling -- good hygiene, no unmarked superseded claim survives here. The load-bearing conclusion is explicitly the theorem's abscissa, not the numerics, which is honestly stated."
+  },
+  {
+   "arc": "B8114_related_work_armor",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8114_related_work_armor/FINDINGS.md",
+    "frontier/B8114_related_work_armor/arc_verdict.json",
+    "frontier/B8114_related_work_armor/results.json",
+    "frontier/B8114_related_work_armor/relays/CC3_TO_CC_2026-08-21_RELATED_WORK_ARMOR_FIVE_DIFFERENTIATORS_AND_C5_RETYPED.md",
+    "frontier/B8114_related_work_armor/relays/CC3_TO_CC_2026-08-21_TIER_GRAMMAR_SYNCED_WITH_ONE_DIVERGENCE.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "Five verified differentiators against related work (Lisi/Distler-Garibaldi, Furey, Connes, arithmetic Chern-Simons, 3d-3d correspondence), each a stated non-claim; the sharpest is that Distler-Garibaldi's chirality no-go theorem does not apply to this programme (different embedding, E6 not E8) and its obstruction (chirality) is a property this programme independently and separately proves absent as a negative. C5 is re-typed from 'literature-empty' to 'NEEDS-READING'. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "each of the five external-paper characterizations (Lisi/Distler-Garibaldi Thm 1.3, Furey, Chamseddine-Connes-Marcolli, Kim/Lee-Park arithmetic CS, Dimofte-Gaiotto-Gukov 3d-3d)",
+     "where": "FINDINGS.md sections 1-5; results.json 'all_cites'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Each citation is stated as 'fetched or searched today, not recalled', dated 2026-08-21, but the packet does not include a fetch transcript or cached source text -- a stranger cannot verify from the committed arc files alone that the quoted theorem statements (e.g. verbatim Theorem 1.3 text) are accurate without independently re-fetching the same arXiv papers."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "This is a pure literature-comparison arc; there is no computation to recompute and no test file listed.",
+   "absence_claims": [],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "Every claim in this arc rests on citations fetched via web search on the arc's stated date rather than on any file committed to this repo; the packet contains no fetch log or cached copy of the source papers, so a stranger auditing only the committed repo cannot independently verify the quoted theorem statements, only that the arc asserts they were checked.",
+     "where": "FINDINGS.md 'SCOPE' header: 'Every statement about an external paper is sourced to an arXiv number fetched or searched today; none is recalled'"
+    }
+   ],
+   "seat_note": "Careful, well-hedged literature positioning with explicit non-claims after every citation; no computation and no observable content, but the Distler-Garibaldi discussion is a legitimate and load-bearing negative-consistency check (chirality absence matches an independent no-go) rather than a coincidence dressed as evidence."
+  },
+  {
+   "arc": "B8115_c5_closed",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8115_c5_closed/FINDINGS.md",
+    "frontier/B8115_c5_closed/arc_verdict.json",
+    "frontier/B8115_c5_closed/results.json",
+    "frontier/B8115_c5_closed/relays/CC3_TO_CC_2026-08-21_C5_CLOSES_NEGATIVE_AND_NAMES_THE_ARCHIMEDEAN_BOUNDARY.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "C5 closes NEGATIVE: arithmetic Chern-Simons theory (Lee-Park, full text read) is finite-cyclic-group-valued by construction, with no volume, regulator, analytic torsion or archimedean height anywhere, so it supplies exactly the term already proved to vanish (CS=0 by amphichirality) and lacks entirely the archimedean/analytic term the object actually carries. Registers an unproved successor lead (Arakelov/Gillet-Soule Quillen-metric torsion), explicitly named as 'cousins, not the same object' with Pfaff's real Ray-Singer torsion. | verdict: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Lee-Park's arithmetic CS action CS_c lands in mu_n(F)^D = (1/n)Z/Z, a finite cyclic group, built from etale cohomology with compact support, Artin-Verdier duality, Poitou-Tate -- no archimedean/analytic ingredient anywhere",
+     "where": "FINDINGS.md 'The fetch B8114 said had not been made'; results.json 'machinery'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Stated as read from the full text of arXiv:1905.13610 via ar5iv on the dated day; the packet includes no cached copy of the source, so the theorem/action statement cannot be checked by a stranger against the committed repo alone, only re-verified by re-fetching the same paper."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Literature-only negative result; no code or computation to recompute.",
+   "absence_claims": [
+    {
+     "quote": "No volume. No regulator. No analytic torsion. No Laplacian determinant. No archimedean height.",
+     "where": "FINDINGS.md 'The fetch B8114 said had not been made' section"
+    }
+    ,
+    {
+     "quote": "There is no volume, regulator, analytic torsion, archimedean height or Laplacian determinant anywhere in the theory -- absent by construction, not by omission.",
+     "where": "arc_verdict.json claim_one_line"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [],
+   "seat_note": "A carefully scoped negative result that explicitly names the boundary it draws (archimedean vs finite places) and flags its own successor lead as unproved rather than smuggling a near-identification, citing the corpus's own prior burn (B8087) as the cautionary precedent -- good practice, no computation to independently check either way."
+  },
+  {
+   "arc": "B8116_c2_pathA_tower",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8116_c2_pathA_tower/FINDINGS.md",
+    "frontier/B8116_c2_pathA_tower/arc_verdict.json",
+    "frontier/B8116_c2_pathA_tower/results.json",
+    "frontier/B8116_c2_pathA_tower/relays/CC3_TO_CC_2026-08-21_THE_4_1_TOWER_SPLIT_AND_I_UNDERSTATED_B8115.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The 4_1 tower's proven/conjectured split is reported at summary level (Andersen-Hansen prove three specific statements for surgeries on the figure-8 knot, closed manifolds; the leading-asymptotics formula and Asymptotic Expansion Conjecture remain unproved; Garoufalidis-Zagier quantum modularity is partially open); scope-fenced against the cusped complement used elsewhere in this line. Corrects the arc's own prior arc B8115: the archimedean boundary named there has at least two independent successor doors, not one. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "Andersen-Hansen (JKTR 15 (2006) 479-548) prove phase-function stationary values equal classical CS invariants, a surjection onto SL(2,C) rep conjugacy classes, and a double-contour-integral expression, for rational surgeries on the figure-8 knot",
+     "where": "FINDINGS.md 'PROVEN'; results.json 'andersen_hansen'",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Explicitly declared as read at 'publication data and abstract/summary level', NOT theorem-level from full text -- the arc states this limitation itself up front, so the claim is honestly scoped as weaker evidence than a full-text read."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Literature-only; no computation.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "The arc explicitly warns against its own genre error ('it would be the same error inverted to claim theorem-level precision from summaries') -- a good practice, but it means the PROVEN/NOT-PROVEN split reported is itself only as reliable as an abstract/summary read, not a full-text verification.",
+     "where": "FINDINGS.md '⚠ READING DEPTH, DECLARED UP FRONT'"
+    }
+    ],
+   "seat_note": "Model behavior for a literature arc: it declares its own reading-depth limitation before reporting results, and volunteers a correction to its own immediately-preceding sister arc (B8115) rather than letting an understatement stand -- the physics content is scope-fenced (surgeries vs. cusped complement) so nothing is claimed to transfer to the object under study."
+  },
+  {
+   "arc": "B8117_l172_anyon_devices",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8117_l172_anyon_devices/FINDINGS.md",
+    "frontier/B8117_l172_anyon_devices/arc_verdict.json",
+    "frontier/B8117_l172_anyon_devices/results.json",
+    "frontier/B8117_l172_anyon_devices/relays/CC3_TO_CC_2026-08-21_L172_NO_FIBONACCI_DEVICE_EXISTS_AND_IT_CLOSES_A_ROUTE.md",
+    "frontier/B8117_l172_anyon_devices/relays/CC3_TO_CC_2026-08-21_PLATE_CLEAR_CONSOLIDATED_AUDIT_SEAT_STATE.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "L172 answers negatively: there is no native Fibonacci-anyon device -- every demonstration (2024 transmon string-net, 2025 Nat. Commun. string-net, 2026 Quantinuum H2 universality result) is a digital simulation on a gate-based processor, with the golden-ratio structure supplied by the compiler rather than read out of hardware. Combined with B8111's tone resolution requirement, this closes the anyon-device route to L8001 as unmeetable in principle, leaving the condensed-matter (photonic/cold-atom quasicrystal) route as the surviving candidate. | verdict: NEGATIVE",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "every cited Fibonacci-anyon demonstration (arXiv:2404.00091/Nat.Phys, Nat.Commun. s41467-025-61493-8, Nature s41586-026-10709-y, Kliuchnikov-Bocharov-Svore PRL 112,140504) implements braiding via qubit gates on a simulated string-net, never a native material substrate",
+     "where": "FINDINGS.md table under 'The question, and the answer'; results.json",
+     "kind": "IMPORTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Literature pass dated 2026-08-21 at 'abstract/summary level, declared'; no cached source text is committed in the packet, so the characterization (e.g. that fusion, not just braiding, was needed for the S3 universality result) cannot be checked against a committed witness, only against the arc's own paraphrase."
+    },
+    {
+     "what": "the anyon-device route to L8001 is closed 'in principle, not in practice' because the compiled braid's golden-ratio values are compiler inputs, and B8111 requires resolving them to 0.1019",
+     "where": "FINDINGS.md '⚠ And it composes with B8111'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is a reasoned argument (one cannot measure to a precision a value one supplied), not a numerical computation; it is sound as stated but is an inference from B8111's number, not independently re-derived here."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "Literature-only negative; no computation, no test file.",
+   "absence_claims": [
+    {
+     "quote": "Parzanchevski–Sarnak \"golden gates\" was searched for and did not appear in the returned results. It is not cited here — recorded as not-found rather than quietly omitted",
+     "where": "FINDINGS.md 'Not found — recorded, not dropped'"
+    },
+    {
+     "quote": "there is no Fibonacci-anyon device",
+     "where": "FINDINGS.md title and 'The question, and the answer'"
+    }
+   ],
+   "physics_content": "OBSERVABLE",
+   "red_flags": [],
+   "seat_note": "This is the strongest physics-relevant result of the batch precisely because it is a well-evidenced negative about real hardware (named devices, named papers, an explicit simulation-vs-realization distinction), and it honestly forecloses a route rather than leaving ambiguity; classified OBSERVABLE because it names concrete experimental devices and states what they do and do not measure, even though the conclusion is negative for this programme's purposes."
+  },
+  {
+   "arc": "B8118_two_theories_differ",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8118_two_theories_differ/FINDINGS.md",
+    "frontier/B8118_two_theories_differ/arc_verdict.json",
+    "frontier/B8118_two_theories_differ/results.json",
+    "frontier/B8118_two_theories_differ/two_theories.py",
+    "frontier/B8118_two_theories_differ/relays/CC3_TO_CC_2026-08-21_THE_TWO_3D_THEORIES_DIFFER_IN_KIND_CATEGORY_ERROR.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The two candidate 3d theories for m004 (T[4_1] from the ideal triangulation, and an E6 structure via an arithmetic chain from the shape field) differ in KIND, upgrading B8099's earlier assertion to a proof: a genericity control over 1200 census manifolds finds 14 sharing m004's shape field Q(sqrt(-3)) with 3 distinct volumes and tetrahedron counts [2,4,5,6], so E6 (constant on the family) cannot be the same object as the DGG theory (which varies within the family). | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "14 of 1200 scanned orientable cusped census manifolds share m004's quadratic shape field disc=-3, spanning 3 distinct volumes and tetrahedron counts {2,4,5,6}",
+     "where": "two_theories.py Section 3-4; results.json n_sharing_shape_field/n_distinct_volumes/tetrahedron_counts_in_family",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly enumerated over snappy.OrientableCuspedCensus() with an explicit quad_disc() function and gates in the committed script; numbers (14, 3, [2,4,5,6]) match results.json exactly."
+    },
+    {
+     "what": "|SL(2,Z/3)| = 24 with exactly one involution (consistent with 2T) while SL(2,Z/4) has 7 involutions (so it is not 2O)",
+     "where": "two_theories.py Section 2; results.json sl2_z3_involutions/sl2_z4_involutions",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Computed by brute-force enumeration of SL(2,Z/N) elements in the committed script (n_involutions function); stated as a re-run of a control from a separate arc B997, not merely cited."
+    },
+    {
+     "what": "SL(2,Z/3) ~ 2T, McKay correspondence, => E6",
+     "where": "two_theories.py Section 2 print statements",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "unknown",
+     "why": "The order match (24=24) and involution-count match (1 involution, consistent with 2T) are necessary conditions verified in-script, but full group isomorphism SL(2,Z/3)~=2T is not independently proved here -- it is treated as an established fact from prior arcs (B997) and only a partial invariant check (order + involution count) is re-run as a control, which is a plausible-but-not-complete isomorphism check."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "The script two_theories.py both performs the primary computation and includes its own internal cross-check (re-running the B997 involution-count control rather than citing it) inside the same file; no separate belt/verification script was provided in the packet.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "IDENTIFICATION_BY_TYPE",
+     "detail": "The identification of SL(2,Z/3) with the binary tetrahedral group 2T is supported in this script only by matching group order (24) and involution count (1), which are necessary but not sufficient conditions for group isomorphism; the full isomorphism (needed for the McKay correspondence step to E6) is imported from a prior arc (B997) rather than independently verified here.",
+     "where": "two_theories.py Section 2 'THE ARITHMETIC CHAIN'"
+    }
+   ],
+   "seat_note": "A well-designed genericity control (does the same invariant recur across a family that plainly cannot support the stronger identification) that turns an owner-elected open question into a proof; the isomorphism step (SL(2,Z/3) ~ 2T) is imported rather than freshly proved, which is acceptable given it is attributed and only a partial re-check is offered, but a stranger cannot verify full isomorphism from this arc's files alone."
+  },
+  {
+   "arc": "B8119_3d_closure",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8119_3d_closure/FINDINGS.md",
+    "frontier/B8119_3d_closure/arc_verdict.json",
+    "frontier/B8119_3d_closure/closure.py",
+    "frontier/B8119_3d_closure/results.json",
+    "frontier/B8119_3d_closure/relays/CC3_TO_CC_2026-08-21_THE_3D_THEORY_IS_COMPLETE_AS_A_DEFINITION_AND_ONE_ROW_WAS_UNSEARCHED.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The 2+1 theory is complete as a DEFINITION and parameter-free (all 11 checklist rows disposed, none left PARTIAL/AMBIGUOUS/MISSING); the QUANTUM side (one-loop partition function) is explicitly NOT finished, with 3 named residues. Includes an in-document CORRECTION (2026-08-22): the Vol=(3sqrt3/2)L(chi_-3,2) identity recomputed here was already banked as B680, and the arc's earlier framing of a related identity as 'two seats, two routes, one anchor' understated that it was actually three routes to a previously-banked result. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "state-integral saddle 2*Im(Li_2(e^{i pi/3})) = 2.029883212819307 = Vol(m004) to 3e-16, and equals (3 sqrt3/2) L(chi_-3,2)",
+     "where": "closure.py Section 1; results.json saddle_volume/vol_as_L_value",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Recomputed independently with mpmath (40 digits) against SnapPy's own volume() call in the same script, with an explicit caught bug documented (str() truncation of SnapPy.Number producing a false negative, fixed via float()); the L-value sum is a truncated series (2e5 terms) with an honestly stated looser tolerance (1e-9) for that reason."
+    },
+    {
+     "what": "B8099's checklist item 'state integral' was marked PARTIAL though B787/D5 already computed a closed residue evaluation (Faddeev Phi_b func-eq residual 1.6e-30, saddle match to Vol(4_1) at 3.9e-31)",
+     "where": "closure.py Section 2, reading frontier/B787_interaction_programme/D5_state_integral/results.json",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Directly loads and checks a prior arc's (B787) committed results.json in-script rather than re-citing from memory, and confirms B8099's FINDINGS.md mentions 'B787' zero times via a direct string search of that file."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "closure.py itself independently recomputes the saddle from scratch (rather than trusting a prior arc's number) and cross-checks it against SnapPy's own volume computation and against B787's separately-committed results.json; no separate downstream test file was provided in the packet.",
+   "absence_claims": [
+    {
+     "quote": "B8099 mentions B787 ZERO times",
+     "where": "FINDINGS.md 'The row that was never searched — and it is mine'"
+    },
+    {
+     "quote": "the cusp's CONTINUOUS spectrum -- B739/B8101's phi(s) is in hand; the spin-2 cusped test function is NOT",
+     "where": "FINDINGS.md '⚠ What is NOT finished' item 1; results.json one_loop_residues[0]"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "The arc's own CORRECTION 2026-08-22 states the Vol=(3sqrt3/2)L(chi_-3,2) identity was already banked as B680 and that presenting the saddle recomputation as establishing it (rather than as a corroborating recomputation) was an attribution error; the correction is folded into FINDINGS.md and the arc_verdict claim_one_line, so it is NOT unmarked here -- flagged only because a downstream reader of results.json alone (without the FINDINGS.md correction) would not see the B680 attribution note, since results.json's own verdict string also lacks the B680 correction text.",
+     "where": "FINDINGS.md '⚠ CORRECTION 2026-08-22'; compare results.json 'verdict' field, which does not mention B680"
+    }
+   ],
+   "seat_note": "Genuinely careful audit work: it independently recomputes a load-bearing constant rather than trusting a citation, catches its own precision-truncation bug with a clear write-up, and self-corrects an attribution error the same or next day -- though the correction did not get backfilled into results.json's stored verdict string, so a reader of raw results.json alone would miss the B680 attribution fix."
+  },
+  {
+   "arc": "B8120_scrutiny_triage",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8120_scrutiny_triage/FINDINGS.md",
+    "frontier/B8120_scrutiny_triage/arc_verdict.json",
+    "frontier/B8120_scrutiny_triage/results.json",
+    "frontier/B8120_scrutiny_triage/relays/CC3_TO_CC_2026-08-21_SCRUTINY_TRIAGED_12_OF_13_CLOSED_M5_FIXED_M4_OPEN.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The P1 scrutiny (13 findings: 2 fatal, 11 major) is triaged against the current arXiv paper text: 12 of 13 closed, M5 fixed here (entrance check + App B row for prop:mod3), M4 left open and flagged as not clearly discharged pending BMR's theorem statement. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "the scrutiny's own check_entrance.py control (2T = 'exactly one involution') was reproduced and run in-sandbox before adoption",
+     "where": "FINDINGS.md verdict text as reconstructed",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The FINDINGS.md itself is a RECONSTRUCTION (see red flag below); no script file for this arc is present in the packet's file list (only FINDINGS.md, arc_verdict.json, results.json, one relay), so the check_entrance.py run described is not among this arc's own committed witnesses -- it is stated to have happened but the artifact is not in this arc's directory."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "No test file or verification script is listed among this arc's files; the packet contains only FINDINGS.md (itself reconstructed), arc_verdict.json, results.json, and one relay. Any check_entrance.py / verify/ artifacts described as added live outside this arc's own directory and were not sampled.",
+   "absence_claims": [
+    {
+     "quote": "This seat stopped writing FINDINGS.md at B8110 and the omission ran unbroken through B8134 — sixteen arcs. It went uncaught because the lock that detects it lives in a suite too slow to finish inside a session.",
+     "where": "FINDINGS.md header note, dated 2026-08-26"
+    },
+    {
+     "quote": "F2's six undefined objects appear zero times in our text",
+     "where": "FINDINGS.md 'Verdict' (reconstructed)"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "FINDINGS.md for this arc is explicitly a non-contemporaneous RECONSTRUCTION written 2026-08-26 (5 days after the arc's stated 2026-08-21 date), assembled only from the arc's own arc_verdict.json and results.json because the seat 'stopped writing FINDINGS.md at B8110' for sixteen consecutive arcs (through B8134). This is a genuine process gap -- no real-time narrative exists for this arc, only the after-the-fact structured record -- and the packet for this arc includes no script file at all, only the reconstructed narrative plus the two JSON records.",
+     "where": "FINDINGS.md header block"
+    }
+   ],
+   "seat_note": "This arc is bookkeeping about the paper's own peer-scrutiny process, not new physics, and its documentation itself instantiates the corpus's own worst-case failure mode (a 16-arc gap in contemporaneous FINDINGS.md, only caught 5 days later by a slow lock); the underlying mathematical claim (M4 left open, correctly not papered over) reads as honest, but is only as trustworthy as the reconstructed record, since no independent script is available in this arc's own committed files."
+  },
+  {
+   "arc": "B8121_m4_closed",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8121_m4_closed/FINDINGS.md",
+    "frontier/B8121_m4_closed/arc_verdict.json",
+    "frontier/B8121_m4_closed/results.json",
+    "frontier/B8121_m4_closed/relays/CC3_TO_CC_2026-08-21_M4_CLOSED_13_OF_13_THE_OBJECTION_OVERSHOT_AND_MY_SENTENCE_OVERSTATED.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "M4 is closed: it was real but smaller than stated. Bowditch's own abstract (fetched) shows BMR give a complete classification of exactly three CYCLIC commensurability classes for once-punctured torus bundles; the scrutiny's general-commensurability objection overshot, but the paper's own sentence overstated what cyclic commensurability delivers (only 'some power conjugate to some power', not 'conjugate to a power of a listed word'). The downstream conclusion survives because the argument was rewritten power-vs-power and verified exhaustively for j,k<=8, m<=12. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "block-sequence comparison (R^m L^m)^j vs (RL)^k / (RRLL)^k / (RRL)^k over j,k<=8, m<=12: m=1 matches RL, m=2 matches RRLL, m=3..12 match nothing, with RLRL matching (RL)^2 as a bite control",
+     "where": "results.json bite_control / repairs_made; FINDINGS.md 'why_the_conclusion_survives' (reconstructed)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The described exhaustive check (verify/check_arithmetic_tail.py) is stated to have been added to the paper's own verify/ directory, not to this arc's frontier directory -- no script file is present among this arc's own committed files in the packet, so the computation cannot be re-run from this arc's own artifacts alone."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "No script is listed among this arc's files (only FINDINGS.md [reconstructed], arc_verdict.json, results.json, one relay); the verification script (verify/check_arithmetic_tail.py) referenced in the text lives elsewhere in the paper's own repository tree and was not part of the sampled packet for this arc.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The exhaustive block-sequence check that is the load-bearing evidence for 'the conclusion is unaffected' is described only in prose (in a reconstructed FINDINGS.md) and its result numbers in results.json; the script computing it (verify/check_arithmetic_tail.py) is not among this arc's committed files in the packet, so a stranger auditing only this arc's directory cannot re-run or inspect it.",
+     "where": "FINDINGS.md 'repairs_made' / 'verify/check_arithmetic_tail.py added'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Like B8120, this FINDINGS.md is a non-contemporaneous reconstruction from 2026-08-26, assembled from banked JSON only.",
+     "where": "FINDINGS.md header block"
+    }
+   ],
+   "seat_note": "The mathematical content (correctly identifying that a proof step overstated cyclic commensurability's strength, then verifying the actual downstream usage survives) is a legitimate self-correction, but the corroborating computation lives outside this arc's own committed directory, so this arc alone does not give a stranger a reproducible witness for the 'conclusion unaffected' claim."
+  },
+  {
+   "arc": "B8122_constructive_items",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8122_constructive_items/FINDINGS.md",
+    "frontier/B8122_constructive_items/arc_verdict.json",
+    "frontier/B8122_constructive_items/results.json",
+    "frontier/B8122_constructive_items/relays/CC3_TO_CC_2026-08-21_L180_VERIFIED_FROM_MY_SIDE_AND_A_LEAD_NUMBER_COLLISION.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "3 of 5 constructive scrutiny items (E1-E3) verified and adopted, one (E4) declined as cosmetic, one (E5) left explicitly untriaged; the triage itself caught a false negative of its own (a grep that could not see a hard-wrapped phrase, the same instrument failure previously banked in R48/B8109) and a miscount (E2's class-count table initially included imprimitive forms, corrected to primitives only, with a residual disagreement at m=12 flagged as non-load-bearing. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "E1: for A in GL(2,Z), det=-1, trace=m: det(A^2-I) = -m^2 exactly, checked symbolically and on explicit matrices [[m,1],[1,0]] for m=1..9",
+     "where": "results.json 'adopted'[0]",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Described as checked 'symbolically and on explicit matrices', but no script file is present among this arc's committed files (only FINDINGS.md [reconstructed], arc_verdict.json, results.json, one relay) -- the computation is described, not committed as re-runnable code in this arc's directory."
+    },
+    {
+     "what": "E2 class-count table: primitive counts 1,1,1,1,1,2,1,1,2,2,1 for m=1..11 at discriminant m^2+4, agreeing with the source; m=12 disagrees and is flagged as not load-bearing",
+     "where": "results.json / FINDINGS.md 'E2' discussion (reconstructed)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Same as above: the class-number computation is reported with numeric detail but no script is present in this arc's directory in the packet."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "No script is present among this arc's files; the second-pass wrap-insensitive grep with a positive control (used to catch the E2 false negative) is described in prose only.",
+   "absence_claims": [
+    {
+     "quote": "my first triage grep reported E2 absent when it is present but HARD-WRAPPED",
+     "where": "results.json 'false_negative_self_caught'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "None of the numeric checks described (E1's det(A^2-I)=-m^2 verification, E2's primitive-vs-imprimitive class-count table, E3's root-system search in E6's 72 roots) has a corresponding script committed in this arc's own directory in the packet; all are narrated in FINDINGS.md/results.json prose only.",
+     "where": "results.json 'adopted' entries for E1/E2/E3"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Non-contemporaneous reconstruction, same as B8120/B8121 (written 2026-08-26 from banked JSON, 5 days after the arc's stated date).",
+     "where": "FINDINGS.md header block"
+    }
+    ],
+   "seat_note": "Content-wise this looks like careful, self-critical verification work (catching its own miscount and its own regex false-negative), but as sampled here it is entirely narrative and JSON summary with no committed script in this arc's own directory, so none of the specific numeric claims (E1's exact formula check, E2's class counts, E3's root-system search) can be independently reproduced from this arc's files alone."
+  },
+  {
+   "arc": "B8123_scrutiny_closed",
+   "source": "paper/structure-genesis-first",
+   "files_read": [
+    "frontier/B8123_scrutiny_closed/FINDINGS.md",
+    "frontier/B8123_scrutiny_closed/arc_verdict.json",
+    "frontier/B8123_scrutiny_closed/results.json",
+    "frontier/B8123_scrutiny_closed/relays/CC3_TO_CC_2026-08-21_E37_BLAST_RADIUS_THE_PAPER_IS_CLEAN_AND_HERE_IS_WHY.md"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "The full P1 scrutiny (35 items: 2 fatal, 11 major, 13 minor, 4 round-2, 5 constructive) is now fully triaged; exactly one live defect (m13, an incorrect 'non-maximal order' label for a non-monic polynomial) survived into the current text and is repaired with an App C entry; R1 (the scrutiny's self-described 'single worst defect') is discharged since the paper's abstract never asserts the claim R1 objects to. | verdict: PROVED",
+   "log_says": "not in log",
+   "log_consistency": "NOT_IN_LOG",
+   "load_bearing": [
+    {
+     "what": "m13: Z[t]/mu labeled 'non-maximal order' though mu is non-monic (leading coefficient 500716339200) and so generates no order at all",
+     "where": "results.json / FINDINGS.md verdict (reconstructed)",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Stated as a textual/definitional correction (mu is not monic, quoting its leading coefficient), not a numeric computation with a committed script; no code file is present among this arc's files in the packet."
+    },
+    {
+     "what": "our abstract mentions CS and amphichirality zero times; the body states '2 CS = 0, NOT the vanishing' verbatim",
+     "where": "results.json 'R1'",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "A textual grep-style claim about the paper's own wording; plausible and checkable in principle against the paper source, but no grep output or paper excerpt is committed in this arc's own directory in the packet."
+    }
+   ],
+   "belt": "UNCLEAR",
+   "belt_note": "No script present among this arc's files; the arc's own 'method' note states checks were run 'wrap-insensitively with a positive control' (correcting a prior false negative from B8122), but the corresponding tool/output is not committed here.",
+   "absence_claims": [
+    {
+     "quote": "our abstract mentions CS and amphichirality zero times",
+     "where": "FINDINGS.md verdict text (reconstructed); results.json 'R1'"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "The claim that R1 is discharged rests on a textual search of the paper's abstract/body ('mentions CS...zero times', 'body states...verbatim') for which no grep output, diff, or paper excerpt is committed in this arc's own directory in the packet.",
+     "where": "results.json 'R1'"
+    },
+    {
+     "kind": "OTHER",
+     "detail": "Non-contemporaneous reconstruction, same pattern as B8120-B8122 (written 2026-08-26 from banked JSON only).",
+     "where": "FINDINGS.md header block"
+    }
+   ],
+   "seat_note": "This closes out the same 16-arc FINDINGS.md gap as B8120-B8122; the underlying claims (one live defect found and fixed, a self-described 'worst defect' discharged by direct textual check) read as plausible paper-hygiene work, but none of it is independently reproducible from this arc's own committed files, only from its narrative record."
+  }
+ ]
+}

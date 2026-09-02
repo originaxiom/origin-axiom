@@ -14,12 +14,12 @@ reader agents under a strict digest schema; each reader had to list `files_read`
 `files_listed_only` and a `thin_reads` list, so the coverage claim is per-file, not per-arc. The three
 workflows lost ~100 packets to the session limit at 22:50 UTC and were resumed from cache at 22:58 UTC.
 Final coverage: see `coverage.md` (<!--COV-->
-- arc packets landed: **119 / 131**; missing: [60, 61, 62, 63, 64, 65, 125, 126, 127, 128, 129, 130]
-- arc records digested: **1219 / 1310** ({'main': 1123, 'audit/b775-braver-questions': 5, 'claude/new-session-qor5up': 23, 'worktree claude_new-session-qor5up (frontier/B1041_the_red_locks)': 1, 'main tree, frontier/B1042_trit_morphism': 1, 'worktree claude_new-session-qor5up (frontier/B1042_the_error_ledger)': 1, 'main tree, frontier/B1043_triple_assembly': 1, 'worktree claude_new-session-qor5up (frontier/B1043_the_band_is_the_wrong_unit)': 1, 'main tree, frontier/B1044_gamma_ledger': 1, 'worktree claude_new-session-qor5up (frontier/B1044_law_siblings_gated)': 1, 'worktree claude_new-session-qor5up (frontier/B1045_middle_band_mapped)': 1, 'worktree claude_new-session-qor5up (frontier/B1046_the_arc_graph)': 1, 'worktree claude_new-session-qor5up (frontier/B1047_the_seam_cluster)': 1, 'frontier/B1146_seam_b': 1, 'frontier/B1147_clane_harvest': 1, 'frontier/B1148_carrier_harvest': 1, 'frontier/B1149_meridian_longitude_harvest': 1, 'frontier/B1150_yukawa_clock_and_family': 1, 'frontier/B1151_gue_larget_superposition': 1, 'frontier/B1152_suite_cost_class': 1, 'frontier/B1153_peripheral_and_superposition': 1, 'frontier/B1154_seam_y': 1, 'frontier/B1155_seam_a': 1, 'frontier/B1156_seam_a_gate2': 1, 'frontier/B1157_dynamics_null': 1, 'frontier/B1158_cloud_wave2_harvest': 1, 'frontier/B1170_arena_rescope': 1, 'frontier/B1171_seam_harvest': 1, 'frontier/B1172_lose_nothing_register': 1, 'frontier/B1173_digest_partial_close': 1, 'frontier/B1174_z2_identification': 1, 'frontier/B1175_charter_close_harvest': 1, 'frontier/B1176_record_surface_wave': 1, 'frontier/B1177_instrument_bundle': 1, 'frontier/B1178_l184_lazyfy': 1, 'frontier/B1179_outreach_and_papers': 1, 'frontier/B1180_family_retraction': 1, 'frontier/B1181_amphichirality_closure': 1, 'frontier/B1182_c4prime_resolved': 1, 'frontier/B1183_one_class_theorem': 1, 'frontier/B1184_quine_synthesis': 1, 'frontier/B1185_yukawa_three_mechanisms': 1, 'frontier/B1186_family_is_112': 1, 'frontier/B1187_depth_closure': 1, 'paper/structure-genesis-first': 27})
+- arc packets landed: **131 / 131**; missing: none
+- arc records digested: **1310 / 1310** ({'main': 1153, 'audit/b775-braver-questions': 6, 'claude/new-session-qor5up': 23, 'worktree claude_new-session-qor5up (frontier/B1041_the_red_locks)': 1, 'main tree, frontier/B1042_trit_morphism': 1, 'worktree claude_new-session-qor5up (frontier/B1042_the_error_ledger)': 1, 'main tree, frontier/B1043_triple_assembly': 1, 'worktree claude_new-session-qor5up (frontier/B1043_the_band_is_the_wrong_unit)': 1, 'main tree, frontier/B1044_gamma_ledger': 1, 'worktree claude_new-session-qor5up (frontier/B1044_law_siblings_gated)': 1, 'worktree claude_new-session-qor5up (frontier/B1045_middle_band_mapped)': 1, 'worktree claude_new-session-qor5up (frontier/B1046_the_arc_graph)': 1, 'worktree claude_new-session-qor5up (frontier/B1047_the_seam_cluster)': 1, 'frontier/B1146_seam_b': 1, 'frontier/B1147_clane_harvest': 1, 'frontier/B1148_carrier_harvest': 1, 'frontier/B1149_meridian_longitude_harvest': 1, 'frontier/B1150_yukawa_clock_and_family': 1, 'frontier/B1151_gue_larget_superposition': 1, 'frontier/B1152_suite_cost_class': 1, 'frontier/B1153_peripheral_and_superposition': 1, 'frontier/B1154_seam_y': 1, 'frontier/B1155_seam_a': 1, 'frontier/B1156_seam_a_gate2': 1, 'frontier/B1157_dynamics_null': 1, 'frontier/B1158_cloud_wave2_harvest': 1, 'frontier/B1170_arena_rescope': 1, 'frontier/B1171_seam_harvest': 1, 'frontier/B1172_lose_nothing_register': 1, 'frontier/B1173_digest_partial_close': 1, 'frontier/B1174_z2_identification': 1, 'frontier/B1175_charter_close_harvest': 1, 'frontier/B1176_record_surface_wave': 1, 'frontier/B1177_instrument_bundle': 1, 'frontier/B1178_l184_lazyfy': 1, 'frontier/B1179_outreach_and_papers': 1, 'frontier/B1180_family_retraction': 1, 'frontier/B1181_amphichirality_closure': 1, 'frontier/B1182_c4prime_resolved': 1, 'frontier/B1183_one_class_theorem': 1, 'frontier/B1184_quine_synthesis': 1, 'frontier/B1185_yukawa_three_mechanisms': 1, 'frontier/B1186_family_is_112': 1, 'frontier/B1187_depth_closure': 1, 'paper/structure-genesis-first': 70, 'unknown (packet did not surface a source hash)': 17})
 - log chunks landed: **11 / 11** ({'docs/progress/PROGRESS_2026-Q2.md': 2, 'PROGRESS_LOG.md': 7, 'docs/progress/REVIEWS.md': 2})
 - test packets landed: **14 / 14**; test records: 1122 / 1122
-- log consistency: {'NOT_IN_LOG': 323, 'DRIFT': 80, 'CONSISTENT': 793, 'CONTRADICTION': 23}
-- belts: {'NONE': 420, 'RECOMPUTES': 448, 'RE-READS': 285, 'UNCLEAR': 66}
+- log consistency: {'NOT_IN_LOG': 369, 'DRIFT': 83, 'CONSISTENT': 833, 'CONTRADICTION': 25}
+- belts: {'NONE': 454, 'RECOMPUTES': 480, 'RE-READS': 298, 'UNCLEAR': 78}
 - test lock types: {'NOT_A_TEST': 7, 'RECOMPUTES': 763, 'COMPARES_TO_STORED': 326, 'TAUTOLOGICAL': 17, 'SKIPPED_OR_XFAIL': 2, 'SMOKE': 7}
 <!--/COV-->).
 
@@ -88,23 +88,23 @@ measurable quantity. "No observable content."
 ## 5. The reader red flags by kind (auto, `SUMMARY.md`)
 
 <!--KINDS-->
-arcs digested 1219/1310, red flags 2371, absence claims 1374, load-bearing claims 2794 (of which not (COMPUTED, yes): 1009), log entries 1054, owner elections captured 188, tests 1122.
+arcs digested 1310/1310, red flags 2494, absence claims 1535, load-bearing claims 2992 (of which not (COMPUTED, yes): 1106), log entries 1054, owner elections captured 188, tests 1122.
 
 **Red-flag kinds:**
 
-- OTHER: 375
-- MISSING_WITNESS: 250
-- IDENTIFICATION_BY_TYPE: 139
-- SUPERSEDED_UNMARKED: 121
-- CLAIM_EXCEEDS_COMPUTATION: 63
-- NUMERIC_ONLY_NO_EXACT: 62
-- RETRACTION_NOT_PROPAGATED: 58
-- LOG_DRIFT: 55
-- GITIGNORED_WITNESS: 39
-- NO_TEST: 34
-- SELF_REFERENTIAL_LOCK: 26
-- FITTED_VALUE: 20
-- IMPORTED: 15
+- OTHER: 426
+- MISSING_WITNESS: 281
+- IDENTIFICATION_BY_TYPE: 148
+- SUPERSEDED_UNMARKED: 128
+- NUMERIC_ONLY_NO_EXACT: 66
+- CLAIM_EXCEEDS_COMPUTATION: 65
+- RETRACTION_NOT_PROPAGATED: 61
+- LOG_DRIFT: 58
+- GITIGNORED_WITNESS: 42
+- NO_TEST: 37
+- SELF_REFERENTIAL_LOCK: 30
+- FITTED_VALUE: 21
+- IMPORTED: 17
 - NONE: 1
 
 **Arcs with the most flags (top 40):**
@@ -114,6 +114,7 @@ arcs digested 1219/1310, red flags 2371, absence claims 1374, load-bearing claim
 - B775_phase2_wave1: 6
 - B646_wave2_integration: 5
 - B674_generation_leg: 5
+- B742_negatives_hunt_p1: 5
 - B754_p2_spectral: 5
 - B530_natural_history: 4
 - B532_last_echo: 4
@@ -127,6 +128,7 @@ arcs digested 1219/1310, red flags 2371, absence claims 1374, load-bearing claim
 - B921_branch_harvest: 4
 - B1041_the_red_locks: 4
 - B8068_j2t_charge_field: 4
+- physics_probes: 4
 - B62_opposition_involution: 3
 - B357_e6_boundary_restriction: 3
 - B469_breath_campaign: 3
@@ -147,9 +149,9 @@ arcs digested 1219/1310, red flags 2371, absence claims 1374, load-bearing claim
 - B720_coupling_path: 3
 - B760_qp4_closure: 3
 - B768_correspondence_crosstest: 3
-- B773_chord_recompute: 3
-- B774_chord_pass: 3
 <!--/KINDS-->
+
+
 
 
 
@@ -178,8 +180,11 @@ by hand (`sweeps/VERDICTS.tsv`, 783 rows; `sweeps/VERDICTS.md` lists the ones th
 
 What the sweep found, in the owner's terms ("before you conclude we don't have something, sweep the repo first"):
 
-- **Two rows are wrong as written [verified]** (the same defect seen from two heads): B806's table says the CL-W4115
-  clean-up cell "Never ran"; `frontier/B778_cleanup/cells/CL-W4115/` holds `compute.py`, `output.txt`, `results.json`.
+- **Two rows are wrong as written [verified]** (one defect seen from two heads): B778_cleanup's own FINDINGS (l.21–24,
+  "Pending the next pass … CL-W4115 … Never ran. / CL-LATIN … Never ran.") contradicts its own directory —
+  `frontier/B778_cleanup/cells/CL-W4115/` holds a completed run (`compute.py`, `output.txt`, `results.json`: chord
+  '1,5,19,71' REAL True, the wall re-verified as field-disjointness), and `cells/CL-LATIN/` exists too. The FINDINGS
+  was never updated after the cells ran, and `tests/test_b778_cleanup.py` locks the stale FINDINGS text.
 - **44 absence claims were true when written and are stale now** (a later arc supplied the thing, and the earlier
   sentence was never corrected): B58's "SL(4) not built here" (B742/B745), B265/B270's cup-product obstruction (B273),
   B849/B850/B852's "m004 Maass eigenvalues never computed / Hejhal not in-sandbox" (B797's 17, B1007), B73/B75's SL(4)

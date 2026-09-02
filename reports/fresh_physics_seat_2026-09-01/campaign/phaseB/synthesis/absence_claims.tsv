@@ -635,6 +635,60 @@ B725_born_rule	main		"""no probe re-derived it, and B942 retracted it / B957 ref
 B725_born_rule	main		"""Not 'we derived the Born rule.'"" — frontier/B725_born_rule/FINDINGS.md line 16"
 B726_hearing_born_content	main		"""the framework's three additions are structural identifications, not independent derivations"" — cross-referenced structural caveat present in FINDINGS.md and probes; no hard repo-absence ('no file exists') sentences were found in this arc's files"
 B726_hearing_born_content	main		"""UNBANKED"" (the real-quartic amplitude field and the cyclotomic phase field Q(zeta5) are explicitly marked as not-yet-established/absent from the banked ledger) — frontier/B726_hearing_born_content/b726_probe3_out.txt lines 112-115"
+B727_base_rate_the_structure	main	frontier/B727_base_rate_the_structure/PREREGISTRATION.md:5	"That same test has NEVER been run on the program's FLAGSHIP STRUCTURAL claim: ""E₆ recurs across three faces"""
+B728_stokes_resummation	main	frontier/B728_stokes_resummation/FINDINGS.md:54	the Stokes-σ₀ = Alexander-σ₀ identification asserted across cells, never proven
+B730_forced_faces_and_cosmos	main	frontier/B730_forced_faces_and_cosmos/FINDINGS.md:74-75	The one genuinely-open frontier (cc2 capstone, UNVERIFIED here -- carried, not banked): m004 is distinguished from its field-siblings ... by its congruence LEVEL in PSL(2,O3)
+B731_object_observer_noncongruence	main	frontier/B731_object_observer_noncongruence/FINDINGS.md:44	"cc2's fabricated-citation guard had flagged ""m004 at level (4)"" as an unverified circulating claim -- correctly."
+B735_emittance	main	frontier/B735_emittance/FINDINGS.md (SAME WALLS section)	no Maass eigenvalue computed — Sage unavailable
+B736_ABC_campaign	main	frontier/B736_ABC_campaign/FINDINGS.md, Path C section	ZERO of the ~19(+neutrino)=24 SM free parameters are reduced. The full ledger grades all 24 as (d)=nothing-forced: 0 forced values (a), 0 forced relations (b, = a reduction), 0 discrete constraints on any SM parameter (c).
+B736_ABC_campaign	main	frontier/B736_ABC_campaign/FINDINGS.md, Path B section	the bare non-abelian Bianchi-Hecke symmetry is absent from every precedent
+B736_ABC_campaign	main	PROGRESS_LOG.md entry quoted in log_index/B736.txt (2026-08-07, B942/L113), referencing this arc's obstruction	no CANONICAL Z/2 quotient of Gal(K^ab/K) exists
+B737_candidate_zero	main	frontier/B737_candidate_zero/FINDINGS.md P4-KMS section	the CMR/BC KMS system contains NO parameter of m004 (verbatim source re-fetched)
+B737_candidate_zero	main	frontier/B737_candidate_zero/p4_kms_out.txt VERDICT section	the only construction that would make the voice BE the carrier (operator-level identification) does not exist in the literature
+B738_pathfinder_compiler	main	frontier/B738_pathfinder_compiler/FINDINGS.md headline finding 1	the Laplace/scattering spectrum proper consulted by ZERO kills — a fully virgin column
+B738_pathfinder_compiler	main	frontier/B738_pathfinder_compiler/FINDINGS.md KILL-GRAPH DIFF section	cc3's spectral census (160/162 never consulted emittance; ZERO consulted scattering)
+B739_character_rigidity	main	FINDINGS.md:40	no numerical E_m004 exists (Hejhal-class machinery, owner-gated)
+B739_character_rigidity	main	PREREGISTRATION.md:36	the discrete-Maass computation (the newform spectrum itself) is NOT attempted here — parked owner-gated
+B739_character_rigidity	main	b739_probe_out.txt:305 area (VERDICT per-item proof status, item b)	DECLARED GAP: no independent in-sandbox numerical computation of E_m004 exists (Hejhal-class; owner-gated)
+B740_b288_stragglers	main	FINDINGS.md:9	24 hyperbolic fillings were never analyzed
+B740_b288_stragglers	main	PREREGISTRATION.md:8	was never computed on ~24/78 slots
+B742_negatives_hunt_p1	main	kill_graph journal record TOMB-L277 (stageA/journals/run2_wf4ac2653a_journal.jsonl, tomb_3 batch notes)	no committed computation artifact exists for the 2880 enumeration found anywhere in the repo
+B742_negatives_hunt_p1	main	kill_graph journal record TOMB-L293 (citation_chain re B562), stageA/journals/run2_wf4ac2653a_journal.jsonl	the arc dir has no scripts/artifacts and the MV step is flagged hand-derived
+B742_negatives_hunt_p1	main	kill_graph journal record TOMB-L247, stageA/journals/run2_wf4ac2653a_journal.jsonl	no arc or script cited; review-session in-text reasoning only (MB6 method note)
+B742_negatives_hunt_p1	main	kill_graph journal record TOMB-L255, stageA/journals/run2_wf4ac2653a_journal.jsonl	no committed eigenvalue artifact ... torn computed-in-cited-arc vs cited-unverified, chose weaker
+B742_negatives_hunt_p1	main	kill_graph journal record WALL-7, stageA/journals/run2_wf4ac2653a_journal.jsonl	No arc: kill lives in docs/REBASE_2026-07-16.md L64-67 only; no script or derivation artifact found
+B742_negatives_hunt_p1	main	recompute/WALL-7/recompute.py header comment	the sibling banked pipeline ... (seat-work/cell3_double/stage1_classes.pkl: the weld intertwiner J and the h1 = 5 record) is NOT in the repo
+B742_negatives_hunt_p1	main	reviews/S16_REVIEW_5_VERDICT.md, Check 1 residual note	the v2 journal ... sits OUTSIDE the repo tree and is not hashed in ARTIFACT_HASHES
+B742_negatives_hunt_p1	main	stageA/TARGETS.json, WALL-7 record's citation_chain field	no B### cited in wall text ('the rebase')
+B742_negatives_hunt_p1	main	stageA journal record TOMB-L241, stageA/journals/run2_wf4ac2653a_journal.jsonl	No arc cited for the umbrella; the sole survivor is banked S023 / OPEN_LEADS L16
+B743_rung1_widened	main	PREREG_RUNG1_WIDENED.md:8	the real tower... never tested
+B743_rung1_widened	main	PREREG_RUNG1_WIDENED.md:15	ℚ(√3) {1,√3} — the real shadow of the being/cusp ζ₁₂-conductor (never tested)
+B743_rung1_widened	main	PREREG_RUNG1_WIDENED.md:16	ℚ(√15) {1,√15} — the meeting's real resolvent (never tested)
+B743_rung1_widened	main	PREREG_RUNG1_WIDENED.md:17	ℚ(ζ₁₅)⁺ deg 4 ... (never tested)
+B743_rung1_widened	main	PREREG_RUNG1_WIDENED.md:18	ℚ(ζ₂₀)⁺ = ℚ(√(2+φ)) deg 4 — THE BORN AMPLITUDE FIELD (never tested)
+B743_rung1_widened	main	PREREG_RUNG1_WIDENED.md:19	ℚ(√φ) deg 4 (x⁴−x²−1) — the F-symbol/associator field (never tested)
+B746_golden_ledger	main	PREREGISTRATION.md:5	NO prior vertical remap exists (the Recurrence Atlas is motif-frequency over frontier...)
+B746_golden_ledger	main	FINDINGS.md:30	F11 voice: NONE. Grep of the banked voice artifacts (B737/B739): zero golden markers.
+B747_mirror_sweep	main	PREREGISTRATION.md:5	The MIRROR question was never run: does any child's invariant trace field contain sqrt5 (the hearing)?
+B748_v4_completion	main	PREREGISTRATION.md:4	the MEETING sqrt(-15) was never tested.
+B749_genesis_forks	main	frontier/B749_genesis_forks/reviews/S16_REVIEW_1.md:168-172	No pre-written verdicts anywhere: a repo-wide grep for B749-adjacent VERDICT/ROBUST/FRAGILE/SEAL-READY strings hits only the two sealed documents themselves
+B749_genesis_forks	main	frontier/B749_genesis_forks/reviews/S16_REVIEW_1.md:172	No other B749-named files or scripts exist anywhere in the repo.
+B749_genesis_forks	main	frontier/B749_genesis_forks/reviews/S16_REVIEW_1.md:180	Verified by grep that neither value nor 'm015' appears in any of the three sealed files or ARTIFACT_HASHES.txt (absence-exit=1).
+B749_genesis_forks	main	frontier/B749_genesis_forks/forks/F6/output.txt:17	trace field of M: NONE -- a trace field needs a finite-covolume Kleinian group; geometry is Sol ... no such group exists
+B749_genesis_forks	main	frontier/B749_genesis_forks/forks/F6/output.txt:26	face ARITHMETICITY (Maclachlan-Reid, of a Kleinian group): ABSENT/undefined -- its carrier ... does not exist
+B750_lack_ledger	main	frontier/B750_lack_ledger/FINDINGS.md:31	The falsifier bucket stayed empty
+B750_lack_ledger	main	frontier/B750_lack_ledger/FINDINGS.md:55	no new mathematical fact is asserted beyond the banked citations
+B750_lack_ledger	main	frontier/B750_lack_ledger/PREREGISTRATION.md:25	X — unclassifiable. The falsifier bucket: an admissible refusal fitting no class.
+B751_iterated_hearing_adjudication	main	frontier/B751_iterated_hearing_adjudication/FINDINGS.md:16	grep-audited: none exists
+B751_iterated_hearing_adjudication	main	frontier/B751_iterated_hearing_adjudication/adjudicate.py:35	grep-audit result (run 2026-07-22, recorded): NO banked per-LETTER hearing weight exists;
+B751_iterated_hearing_adjudication	main	frontier/B751_iterated_hearing_adjudication/adjudicate.py:54	object-side scale-pinning offered by the claim: NONE (no banked structure selects M_Z).
+B751_iterated_hearing_adjudication	main	frontier/B751_iterated_hearing_adjudication/FINDINGS.md:29	no well-posed iteration received
+B752_qualia_handoff_receipt	main	frontier/B752_qualia_handoff_receipt/receipt.py:100 (B620 grep result)	no 1/(2phi)
+B752_qualia_handoff_receipt	main	frontier/B752_qualia_handoff_receipt/PREREGISTRATION.md:33	B620 is the conductor mechanism (grep: no 1/(2phi))
+B752_qualia_handoff_receipt	main	frontier/B752_qualia_handoff_receipt/output.txt:41-42	the handoff cites 'B620' for 1/(2phi); the banked source is B593
+B753_mixing_structure	main	frontier/B753_mixing_structure/PREREGISTRATION.md:8	no SM comparison anywhere (program-internal mathematics only)
+B753_mixing_structure	main	frontier/B753_mixing_structure/FINDINGS.md:44	the kind-correct 1/(phi*sqrt5) ... does NOT register as an alternative
+B753_mixing_structure	main	frontier/B753_mixing_structure/output.txt:14	CLAIM 'eigenvalues are e^(+-i 108deg)': False
 B754_p2_spectral	main	frontier/B754_p2_spectral/FINDINGS.md:67 (paraphrased in FINDINGS; verbatim form in cells/TOMB-L277/output.txt line 115: 'the census does not exist in the banked record')	the census does not exist in the banked record.
 B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:74	token 'RRL|RLL' appears NOWHERE in the four frozen arcs (0 hits) -- no arc ever evaluated the weld at any comparator word
 B754_p2_spectral	main	frontier/B754_p2_spectral/cells/TOMB-L277/output.txt:75	token '2880' appears NOWHERE in the four frozen arcs (0 hits) -- no arc ever touched the finite 2880 image at all
@@ -1373,3 +1427,110 @@ B8094_L173_anchors	paper/structure-genesis-first	B8094_L173_anchors/relays/CC3_T
 B8094_L173_anchors	paper/structure-genesis-first	B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_L173_THE_KNOB_IS_OUR_INTERCEPT.md:17	the Fibonacci QC has no native pumping parameter
 B8094_L173_anchors	paper/structure-genesis-first	B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_L173_THE_KNOB_IS_OUR_INTERCEPT.md:54	Lanes 3–6 (L172 anyon landscape, C2/Path-A quantum modularity, C5 arithmetic CS, related-work armor) not started.
 B8094_L173_anchors	paper/structure-genesis-first	B8094_L173_anchors/results.json (scope field)	novelty against gap labeling was NOT verified: until that in-sandbox check is done this lane has an anchor list and no established novelty
+B8095_related_work_armor	unknown (packet did not surface a source hash)	FINDINGS.md:106	I did not read Furey's or Connes' primary papers in full
+B8095_related_work_armor	unknown (packet did not surface a source hash)	FINDINGS.md:47	We do NOT claim that a single exceptional Lie algebra derives chiral fermions or three generations.
+B8095_related_work_armor	unknown (packet did not surface a source hash)	FINDINGS.md:71-72	we have no Dirac operator, no Lagrangian and no mass data at all
+B8096_relaxed_residue	unknown (packet did not surface a source hash)	(cross-referenced later in B8105, not this arc)	cc3 does not merge, so 32 of cc's arcs are absent here
+B8096_relaxed_residue	unknown (packet did not surface a source hash)	FINDINGS.md:171-173	This does NOT vindicate the guard. B8092 finding 1 stands
+B8097_buried_results	unknown (packet did not surface a source hash)	FINDINGS.md:274	None of this is a suppressed positive. No row here is a crossing that a gate hid.
+B8097_buried_results	unknown (packet did not surface a source hash)	FINDINGS.md:265	L73 -- FALSIFIED by computation, 6/6 independently
+B8097_buried_results	unknown (packet did not surface a source hash)	FINDINGS.md:278-279	the mechanism is not Gate 5... It is the synthesis layer
+B8098_L1_verified	unknown (packet did not surface a source hash)	verify_l1.py inline comment	no computation can rescue it (criterion 3)
+B8098_L1_verified	unknown (packet did not surface a source hash)	FINDINGS.md:346	It does NOT show the object is unselected.
+B8099_3d_completeness	unknown (packet did not surface a source hash)	completeness.py CHECK list; FINDINGS.md:414	E6 as a DYNAMICAL gauge... MISSING (B262's own wall #2 -- open)
+B8099_3d_completeness	unknown (packet did not surface a source hash)	FINDINGS.md:415	the E6 state integral... MISSING (OPEN_PROBLEMS, flagged SPECIALIST)
+B8099_3d_completeness	unknown (packet did not surface a source hash)	FINDINGS.md:415	the 4d lift... MISSING (B262's wall #4)
+B8099_3d_completeness	unknown (packet did not surface a source hash)	FINDINGS.md:435	3d-3d is not a lift and cannot become one
+B8100_oneloop_geodesic	unknown (packet did not surface a source hash)	FINDINGS.md:35 (CORRECTION note)	the contradiction with this line went unread
+B8100_oneloop_geodesic	unknown (packet did not surface a source hash)	FINDINGS.md:46	This is not the one-loop partition function of the object.
+B8100_oneloop_geodesic	unknown (packet did not surface a source hash)	FINDINGS.md:48-49	the cusp carries a continuous spectrum that this product omits entirely
+B8101_scattering_verified	unknown (packet did not surface a source hash)	FINDINGS.md:131-134	GMY's product is derived for handlebodies and closed quotients; the boundary-graviton h(r) appropriate to a finite-volume cusped manifold is the one object none of these rungs supplies
+B8101_scattering_verified	unknown (packet did not surface a source hash)	FINDINGS.md:139-140	Does not assemble the one-loop determinant and does not claim a partition function.
+B8102_cusped_gap	unknown (packet did not surface a source hash)	FINDINGS.md:214-216 / results.json 'not_claimed'	abstracts were read, not full papers... a specialist may know of work these searches did not surface
+B8102_cusped_gap	unknown (packet did not surface a source hash)	FINDINGS.md:192-193	The AdS3 one-loop application excludes cusps. The two have not been joined for this case.
+B8102_cusped_gap	unknown (packet did not surface a source hash)	FINDINGS.md:214	Not that no cusped one-loop result exists anywhere
+B8103_specialist_revisit	unknown (packet did not surface a source hash)	FINDINGS.md:276-277 / results.json 'E6_work_found': false, 'exceptional_group_character_variety_work_found': false	no E6, indeed no exceptional-group, character-variety work for knot or 3-manifold groups surfaced on either query
+B8103_specialist_revisit	unknown (packet did not surface a source hash)	FINDINGS.md:262-263 (B391)	the row itself says it may already exist. Untested.
+B8104_pfaff_formula	unknown (packet did not surface a source hash)	FINDINGS.md:380-382	It was the second hit of the first search, and I labelled the gap NEEDS-SPECIALIST before reading it. The error was mine and the label was premature.
+B8104_pfaff_formula	unknown (packet did not surface a source hash)	FINDINGS.md:378	Not that we have the one-loop partition function. We do not.
+B8105_r48_phase1	unknown (packet did not surface a source hash)	FINDINGS.md:31-32	cc3 does not merge, so 32 of cc's arcs are absent here
+B8105_r48_phase1	unknown (packet did not surface a source hash)	FINDINGS.md:60-62	checked individually and absent: B1012..., B1076, B1080, B1085, B1088, B1094 and B1098
+B8105_r48_phase1	unknown (packet did not surface a source hash)	FINDINGS.md:67-68 (arc_verdict.json claim_one_line)	no gate reads it
+B8106_r48_phase2	unknown (packet did not surface a source hash)	FINDINGS.md:154	34 remain untriaged
+B8106_r48_phase2	unknown (packet did not surface a source hash)	FINDINGS.md:141	A document named 'unified state' that does not know the hatch opened
+B8107_r48_verify	unknown (packet did not surface a source hash)	FINDINGS.md:206-213 (R48-F4)	does not mention it... a seat following the binding checklist exactly would omit a required field
+B8107_r48_verify	unknown (packet did not surface a source hash)	FINDINGS.md:226-227	No re-derivation of B1098/B1100's mathematics -- the complex-matter claim is cited as cc's and not audited here
+B8108_r48_phase3	unknown (packet did not surface a source hash)	FINDINGS.md:72-73	No document was edited -- R48 reports, it does not repair.
+B8108_r48_phase3	unknown (packet did not surface a source hash)	FINDINGS.md:63-64	the discriminator is a header regex and it has false positives
+B8109_r48_close	unknown (packet did not surface a source hash)	FINDINGS.md:151-152	21+ surfaces carry lag without a verified defect -- recorded as not findings
+B8109_r48_close	unknown (packet did not surface a source hash)	FINDINGS.md:129	My first overturned-claim scan returned 0 of 23 and I nearly reported the corpus clean.
+B8110_scale_factorisation	unknown (packet did not surface a source hash)	ADDENDUM_2026-08-21.md, quoting the 2026-08-12 original	the field has fifty years of experiment and the corpus has never read it as a target
+B8110_scale_factorisation	unknown (packet did not surface a source hash)	ADDENDUM_2026-08-21.md 'Its item 3 -- SHARPENED' section, re: genericity control and gap-labeling differential	Neither is run.
+B8110_scale_factorisation	unknown (packet did not surface a source hash)	ADDENDUM_2026-08-21.md 'What has NOT changed' section	Phase-0 item 0 (the genericity control's sealed design) remains unrun and remains mine
+B8111_genericity_control	unknown (packet did not surface a source hash)	FINDINGS.md:61 (bronze/sqrt13 argument)	13 occurs nowhere
+B8111_genericity_control	unknown (packet did not surface a source hash)	FINDINGS.md:66	Silver has a matched group; bronze does not.
+B8111_genericity_control	unknown (packet did not surface a source hash)	FINDINGS.md 'What this arc does NOT establish'	That this arc does NOT establish... that a silver-substitution spectrum would produce 2O's menu
+B8111_genericity_control	unknown (packet did not surface a source hash)	FINDINGS.md, same section	whether the tones are observables... remains exactly where it was
+B8115_c5_closed	paper/structure-genesis-first	FINDINGS.md 'The fetch B8114 said had not been made' section	No volume. No regulator. No analytic torsion. No Laplacian determinant. No archimedean height.
+B8115_c5_closed	paper/structure-genesis-first	arc_verdict.json claim_one_line	There is no volume, regulator, analytic torsion, archimedean height or Laplacian determinant anywhere in the theory -- absent by construction, not by omission.
+B8117_l172_anyon_devices	paper/structure-genesis-first	FINDINGS.md 'Not found — recorded, not dropped'	"Parzanchevski–Sarnak ""golden gates"" was searched for and did not appear in the returned results. It is not cited here — recorded as not-found rather than quietly omitted"
+B8117_l172_anyon_devices	paper/structure-genesis-first	FINDINGS.md title and 'The question, and the answer'	there is no Fibonacci-anyon device
+B8119_3d_closure	paper/structure-genesis-first	FINDINGS.md 'The row that was never searched — and it is mine'	B8099 mentions B787 ZERO times
+B8119_3d_closure	paper/structure-genesis-first	FINDINGS.md '⚠ What is NOT finished' item 1; results.json one_loop_residues[0]	the cusp's CONTINUOUS spectrum -- B739/B8101's phi(s) is in hand; the spin-2 cusped test function is NOT
+B8120_scrutiny_triage	paper/structure-genesis-first	FINDINGS.md header note, dated 2026-08-26	This seat stopped writing FINDINGS.md at B8110 and the omission ran unbroken through B8134 — sixteen arcs. It went uncaught because the lock that detects it lives in a suite too slow to finish inside a session.
+B8120_scrutiny_triage	paper/structure-genesis-first	FINDINGS.md 'Verdict' (reconstructed)	F2's six undefined objects appear zero times in our text
+B8122_constructive_items	paper/structure-genesis-first	results.json 'false_negative_self_caught'	my first triage grep reported E2 absent when it is present but HARD-WRAPPED
+B8123_scrutiny_closed	paper/structure-genesis-first	FINDINGS.md verdict text (reconstructed); results.json 'R1'	our abstract mentions CS and amphichirality zero times
+B8127_regulator_omission	paper/structure-genesis-first	FINDINGS.md verdict	L8002 registered Arakelov as the successor door to the C5 negative without searching the corpus's own regulator material
+B8127_regulator_omission	paper/structure-genesis-first	FINDINGS.md the_pattern	FOUR section-0 violations by this seat today, all ABSENCE ASSERTED WITHOUT A SEARCH
+B8129_n2_no_breakdown	paper/structure-genesis-first	FINDINGS.md verdict	EXISTENCE IS NOT PROVED — three cutoffs, cutoff-to-infinity untested
+B8131_brief_triage	paper/structure-genesis-first	FINDINGS.md verdict	THE COMBINATION IS ABSENT [J_3(O) + Beilinson regulators, in literature reached 2026-08-25]
+B8131_brief_triage	paper/structure-genesis-first	FINDINGS.md verdict	exceptional groups are absent [from state-integral literature covering SL(2,C)/SL(n,C)]
+B8131_brief_triage	paper/structure-genesis-first	FINDINGS.md scope	NOT an exhaustive literature survey: absence here means absent from the literature reached today
+B8135_paper1_drafted	paper/structure-genesis-first	FINDINGS.md 'Correction recorded'	None PROVED [OA-C0001 REFUTED, OA-C0002/OA-C0003 CONDITIONAL] — and the paper's Appendix B says so
+B8135_paper1_drafted	paper/structure-genesis-first	FINDINGS.md SCOPE	An independent count reports 2 primitive classes at m=12 where this gives 3. UNRESOLVED
+B8137_paper3_drafted	paper/structure-genesis-first	FINDINGS.md 'A gap in this seat's own bank, found and filled'	B8129 and B8130 are banked as results.json with NO code in the tree
+B8137_paper3_drafted	paper/structure-genesis-first	FINDINGS.md SCOPE	Convergence of the n=2 factor is NOT proved... Status is 'no evidence of breakdown; existence unproved'
+B8137_paper3_drafted	paper/structure-genesis-first	FINDINGS.md SCOPE	The one-loop partition function is not assembled. No measured quantity and no identification with any observable.
+B8138_paper4_drafted	paper/structure-genesis-first	FINDINGS.md SCOPE	Nothing here resolves OA-C0016, OA-C0018, OA-C1063 or OA-C1064 — none is PROVED and this paper does not change that.
+B8139_findings_omission_swept	paper/structure-genesis-first	FINDINGS.md 'The finding'	This seat stopped writing FINDINGS.md at B8110 and the omission ran unbroken through B8134 — sixteen consecutive arcs, five days, all of them mine.
+B8139_findings_omission_swept	paper/structure-genesis-first	FINDINGS.md SCOPE	the reconstructed documents are faithful to the banked record but not contemporaneous, and each says so in its own header
+B8140_fastlane_adopted	paper/structure-genesis-first	FINDINGS.md SCOPE	The 0-62% region of the suite is NOT verified, and test_b1034_l154 is a known pre-existing failure inside it.
+B8141_artifact_dependence	paper/structure-genesis-first	FINDINGS.md	"the first version of this scan matched only whole repo-relative paths written as a single string literal ... it printed ""0 gitignored"" while two such tests were failing three metres away"
+B8141_artifact_dependence	paper/structure-genesis-first	FINDINGS.md:Deliberately not in the finding	AUDIT_B1076_ONE_NOTATION_DEFECT.md and I_WAS_WRONG_THE_REAL_DEFECT.md are absent but not gitignored
+B8144_price_reconciliation	paper/structure-genesis-first	FINDINGS.md	the VEV orbit-point -- absent from B1164 -- VEV/orbit-point/F4(Z)/Krutelevich: 0 hits
+B8144_price_reconciliation	paper/structure-genesis-first	FINDINGS.md	time's arrow -- absent from B1164 -- arrow/time: 0 hits
+B8145_l171_verified	paper/structure-genesis-first	FINDINGS.md:Why this arc exists	I told the owner L171 and L173 were undone. Both were done -- B8093 and B8094, on the day the package arrived. I had piped a 13-hit grep through head -8 and read the truncation as absence.
+B8146_l173_precision	paper/structure-genesis-first	FINDINGS.md table	error bars / uncertainties / resolution limits: none, anywhere
+B8146_l173_precision	paper/structure-genesis-first	FINDINGS.md	A targeted search across the AAH cold-atom edge-state line surfaced no experimental resolution or edge-count figures either.
+B8147_paperIV_refuted	paper/structure-genesis-first	results.json:my_failure	a refutation addressed to my seat sat OPEN for a day while I posted eleven 'noting only' acknowledgements of other seats' commits. I was watching the wrong channel
+B8151_verified_vs_used_sweep	paper/structure-genesis-first	arc_verdict.json:claim_one_line	PAPERS III AND IV POINTED AT A BARE verify/ DIRECTORY -- no filename, no expected output.
+B8153_b500_accounting	paper/structure-genesis-first	arc_verdict.json:claim_one_line	of 150 all-three-verb words, 115 completed, 26 TIMED OUT, and NINE WERE NEVER REACHED AT ALL (DDFMD, DDFDM, DDMFF, DDMFM, DDMFD, DDMMF, DDMDF, DDDFM, DDDMF); the run stopped early
+B8153_b500_accounting	paper/structure-genesis-first	results.json:the_airlock_check	the only match for '283' in the depth-5 log is the header line stating the target. NO AIRLOCK, no child hit, in any completed word.
+P3_depth_exposure	main	FINDINGS.md:Stabilization needed for the 7 exposed	None requires new mathematics -- all are finite-extension or induction proofs within the existing framework. But none has been executed.
+_frontier_root_files	main	frontier/literature_search.md:13	No paper computes our exact object verbatim
+_frontier_root_files	main	frontier/README.md:653	the never-computed **third** fixed-point class (after the *trivial*=tower and *geometric*=torsion reps)
+_frontier_root_files	main	frontier/REPO_STATE.md:171	the never-computed *third* fixed-point class
+_frontier_root_files	main	frontier/README.md:360-361	First\n derivation of this A-polynomial from a trace map
+_frontier_root_files	main	frontier/README.md:474	**`n=4` `L=−M⁴` (NEW — the first SL(4) figure-eight A-polynomial from the trace map)**
+_frontier_root_files	main	frontier/REPO_STATE.md:426	SL(4) `L=−M⁴` is NEW** (the first SL(4) figure-eight A-polynomial from the trace map)
+physics_probes	main	frontier/physics_probes/PHYSICS_MAP.md:74	the founding thesis is not being approached by either
+physics_probes	main	frontier/physics_probes/PHYSICS_MAP.md:13	No probe reaches the founding thesis.
+physics_probes	main	frontier/physics_probes/PHYSICS_MAP.md:12	the SL(n≥3) tower has **no physical (transfer-matrix) realization** for a structural reason
+physics_probes	main	frontier/physics_probes/METALLIC_ANYON_FINDINGS.md:28	For `m≥2` there is **no unitary fusion category** (no anyon model) with the metallic fusion rule
+physics_probes	main	frontier/physics_probes/METALLIC_ANYON_FINDINGS.md:46	no tower<->anyon correspondence
+physics_probes	main	frontier/physics_probes/METALLIC_ANYON_FINDINGS.md:64	path CLOSED (no anyon-family crossing)
+physics_probes	main	frontier/physics_probes/MASTERPLAN_REVERIFICATION.md:65-66	m=2/m136: the colored Jones is not in closed form → not computed (honest scope)
+physics_probes	main	frontier/physics_probes/SLN_MULTICHANNEL_FINDINGS.md:53	no evidence a_d = gap labels; a_d is band-center data, not the gap label
+physics_probes	main	frontier/physics_probes/SPECTRAL_CURVE_GATE2.md:48	the ... framing was not earned** (no family, no Coulomb branch, no prepotential)
+physics_probes	main	frontier/physics_probes/PHYSICS_COMPUTATION_PLAN.md:121	No probe here crosses from the framework into thesis-supporting dynamical physics
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md:78	The one measurable handle is not selective. Every selective handle is not measurable. And no arc bridges them.
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md:110	NOT DESIGNABLE from banked material. The campaign does not open.
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md:144-145	the space of golden-specific facts was not enumerated
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/P0-0_GENERICITY_CONTROL.md:148-149	Whether the multiplicity census has ever been computed for a metallic chain's spectral measure. This is the bridge question of §4 and it is unrun.
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md:190	Luo–Sarnak `[5]` NOT read.
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md:188	Sections 4–5 — the Kleinian extension itself and the corollary — NOT read.
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md:197	Whether m004 and each bundle is a nonuniform lattice — not verified per object.
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/P0-0_REDRAFT_ARITHMETICITY.md:203-204	No arc uses trace-set clustering as an arithmeticity test — one pattern, one vocabulary; a floor, not a count.
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/PREREGISTRATION.md:70-71	no document states it [λ=1]
+tierB_opening	audit/b775-braver-questions	frontier/tierB_opening/PREREGISTRATION.md:66	None of these exist in any document today.

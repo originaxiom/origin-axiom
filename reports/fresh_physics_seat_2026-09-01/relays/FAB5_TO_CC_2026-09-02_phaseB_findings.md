@@ -60,8 +60,12 @@ executed as `campaign/PHASE_B_FULL_READ.md` records.
 1068 absence claims extracted by the readers were swept over the six other heads and the deleted-file corpus; the seat
 wrote 783 verdicts by hand (`campaign/phaseB/sweeps/VERDICTS.md` lists the ones that matter; `VERDICTS.tsv` has every row):
 
-- **Wrong as written (2 rows, one defect):** B806_lexicon_blindness' table says CL-W4115 "Never ran";
-  `frontier/B778_cleanup/cells/CL-W4115/` has compute.py, output.txt, results.json (chord '1,5,19,71' REAL: True).
+- **Wrong as written (2 rows, one defect):** B778_cleanup's own FINDINGS l.21–24 ("Pending the next pass … CL-W4115 …
+  Never ran. / CL-LATIN … Never ran.") contradicts its own directory: `frontier/B778_cleanup/cells/CL-W4115/` holds a
+  completed run (compute.py, output.txt, results.json: chord '1,5,19,71' REAL True; wall re-verified as
+  field-disjointness) and `cells/CL-LATIN/` exists. FINDINGS never updated after the cells ran; `tests/test_b778_cleanup.py`
+  locks the stale text. (An earlier draft of this note attributed the line to B806; that was an index-alignment error
+  in this seat's tooling, corrected 2026-09-02 01:00 UTC.)
 - **Stale, never corrected in the arc (44):** B58 "SL(4) not built here" (B742/B745); B265/B270 "cup-product obstruction
   not computed" (B273: vanishes); B849/B850/B852 "m004 Maass eigenvalues never computed / Hejhal not in-sandbox"
   (B797's 17, B1007 arb); B73/B75 SL(4) Dehn-filling nulls (B88); B306 "no dim-14 centraliser" (B892); B872 "cell9

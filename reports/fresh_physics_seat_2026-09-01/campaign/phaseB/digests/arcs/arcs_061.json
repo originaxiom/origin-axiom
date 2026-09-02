@@ -1,0 +1,293 @@
+{
+ "batch": "arcs_061",
+ "arcs": [
+  {
+   "arc": "B734_m004_is_congruence",
+   "source": "main",
+   "files_read": [
+    "frontier/B734_m004_is_congruence/ADDENDUM_CC3_2026-07-21.md",
+    "frontier/B734_m004_is_congruence/FINDINGS.md",
+    "frontier/B734_m004_is_congruence/arc_verdict.json",
+    "frontier/B734_m004_is_congruence/cc3_verification/HASHES.txt",
+    "frontier/B734_m004_is_congruence/cc3_verification/b734_fix2.py",
+    "frontier/B734_m004_is_congruence/cc3_verification/b734_independent_verify.py",
+    "frontier/B734_m004_is_congruence/cc3_verification/b734_plusz_rerun.py",
+    "frontier/B734_m004_is_congruence/cc3_verification/fix2_output.txt",
+    "frontier/B734_m004_is_congruence/cc3_verification/plusz_output.txt",
+    "frontier/B734_m004_is_congruence/cc3_verification/results.json",
+    "frontier/B734_m004_is_congruence/cc3_verification/run_output.txt"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'π₁(m004) reaches the geometric index 12 at level (2)³=(8), so the figure-eight knot group IS a congruence subgroup — three 2-adic levels deeper than its sister m003.'; status: PROVED",
+   "log_says": "PROGRESS_LOG records the B734 banking-repair + third-seat verification: congruence CONFIRMED, but the STANDARD level is (4), not the FINDINGS/verdict's (8); B775 (2026-07-24) also independently found an explicit word forcing PSL index 12 at level 4.",
+   "log_consistency": "CONTRADICTION",
+   "load_bearing": [
+    {
+     "what": "PSL-image index by level for π₁(m004) in PSL(2,O₃/n): 6,6,12,12 at n=2,4,8,16 (mod-center test) and 6,12,12,12 (standard SL-kernel test)",
+     "where": "cc3_verification/results.json, run_output.txt (T_SL_index / T_PSL_index fields), reproduced by three independent scripts (b734_independent_verify.py, b734_fix2.py, b734_plusz_rerun.py) using a different ring basis than the original test",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Committed BFS-based group-order code, exact modular arithmetic, sealed pre-scrub sha-256 hashes in HASHES.txt, and independent cross-check against SnapPy volume (vol_m004_snappy=2.029883212819307, ratio to Humbert series 11.9999999999) all present."
+    },
+    {
+     "what": "The headline level claimed in arc_verdict.json / FINDINGS.md is (2)³=(8)",
+     "where": "arc_verdict.json claim_one_line; FINDINGS.md header and table",
+     "kind": "UNCLEAR",
+     "reproducible_from_committed": "yes",
+     "why": "The number (8) is technically correct only for the non-standard 'mod-center' Γ̂ filtration; the ADDENDUM (same directory, later date) computes and states the STANDARD principal-congruence level is (4), sourced from the very same committed script/output (T_SL_index=12 already at m=4). arc_verdict.json was never updated to reflect this, so the file that other arcs and LAW_MAP cite as 'the claim' still reads (8)."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "cc3_verification/ is a genuine independent third-seat recomputation (different ring basis, BFS-computed ambient orders instead of hardcoded, both index conventions, odd primes, SnapPy cross-check) — this is real belt-and-suspenders work, not a re-read.",
+   "absence_claims": [],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "SUPERSEDED_UNMARKED",
+     "detail": "The ADDENDUM (filed one day after FINDINGS/verdict, in the same directory) computes and states that under the STANDARD principal-congruence definition the level is (4), not (8); it explicitly says 'LAW_MAP rows 128/129 keep their (8) wording until [cc2] consensus lands' — but arc_verdict.json's claim_one_line and FINDINGS.md's header still assert level (8) uncorrected, and this is the file a stranger reading only claim_of_record would take as final.",
+     "where": "frontier/B734_m004_is_congruence/ADDENDUM_CC3_2026-07-21.md section 2 vs arc_verdict.json"
+    }
+   ],
+   "seat_note": "The raw group-theoretic computation (mod-N index of the knot group's image) is solid, independently reproduced, and cross-checked against SnapPy — a genuine COMPUTED result. But the arc's own addendum shows the banked headline number is the wrong congruence level under the standard definition, and the verdict record was never updated to say so, leaving a stale, half-corrected claim as 'the record.'"
+  },
+  {
+   "arc": "B735_emittance",
+   "source": "main",
+   "files_read": [
+    "frontier/B735_emittance/FINDINGS.md",
+    "frontier/B735_emittance/arc_verdict.json"
+   ],
+   "files_sampled": [],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'The emittance face is real but generic to every cusped hyperbolic manifold, and its flagship cusp-scattering-equals-observer-coupling claim was retracted.'; status: NEGATIVE",
+   "log_says": "B733 CONSENSUS + B735 entry: 'the object's spectral/emitted face, previously ignored, is REAL but hits the SAME walls'; B739 later gives the discrete newform spectrum an exact home for B735's 'index-12 new resonances'.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Length-spectrum traces (2cosh(L/2)) lie in ℤ[ω]=ℚ(√−3): (3±√−3)/2, 1±√−3, (5±√−3)/2, …",
+     "where": "FINDINGS.md fact 1",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "No code, script, or data file exists anywhere in the arc directory (only FINDINGS.md and arc_verdict.json, both prose). The numbers are stated, not shown to have been computed by any committed artifact; this arc is entirely narrative-of-another-workflow ('cc2's Track 2 ... verified-on-receipt by cc in-sandbox') with no sandbox trace committed."
+    },
+    {
+     "what": "m004(5,1) Dehn filling has 0 cusps (closing silences the continuous spectrum)",
+     "where": "FINDINGS.md fact 2",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "no",
+     "why": "Stated as 'verified' but no SnapPy script or output file is committed in this arc directory to reproduce the 0-cusps claim."
+    }
+   ],
+   "belt": "NONE",
+   "belt_note": "No verification directory, no code, no witness files of any kind — the entire arc is two markdown files.",
+   "absence_claims": [
+    {
+     "quote": "no Maass eigenvalue computed — Sage unavailable",
+     "where": "frontier/B735_emittance/FINDINGS.md (SAME WALLS section)"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "MISSING_WITNESS",
+     "detail": "Every numeric/structural claim in FINDINGS.md ('verified' Eisenstein trace values, m004(5,1) cusp count, the index-12 sub-voice pullback) is asserted in prose with zero committed code or output — the entire arc rests on the word 'verified' with no file a stranger could run.",
+     "where": "frontier/B735_emittance/FINDINGS.md"
+    },
+    {
+     "kind": "RETRACTION_NOT_PROPAGATED",
+     "detail": "FINDINGS.md itself documents an internal retraction ('VOICE's flagship over-claim, CAUGHT... An open door was reported as closed; retracted') within the same document — the retraction is at least self-documented here, but nothing shows whether earlier claim was cited elsewhere before the retraction.",
+     "where": "frontier/B735_emittance/FINDINGS.md SAME WALLS section"
+    }
+   ],
+   "seat_note": "A negative/honest verdict with no fabricated overreach, but it is pure assertion — nothing here is independently reproducible since no code or data was committed; the claim of record rests entirely on narrated cross-seat verification with no artifact trail in this directory."
+  },
+  {
+   "arc": "B736_ABC_campaign",
+   "source": "main",
+   "files_read": [
+    "frontier/B736_ABC_campaign/FINDINGS.md",
+    "frontier/B736_ABC_campaign/PREREGISTRATION.md",
+    "frontier/B736_ABC_campaign/arc_verdict.json",
+    "frontier/B736_ABC_campaign/p1_consolidation.md",
+    "frontier/B736_ABC_campaign/p2_kms_out.txt",
+    "frontier/B736_ABC_campaign/p3_reduction_out.txt"
+   ],
+   "files_sampled": [
+    "frontier/B736_ABC_campaign/p2_kms.py (first 120 lines + grep)",
+    "frontier/B736_ABC_campaign/p3_reduction.py (grep only)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'All three tracks negative: the object-level observer is obstructed (finite level, non-Hermitian H^3) and zero of 24 SM parameters are reduced.'; status: NEGATIVE",
+   "log_says": "PROGRESS_LOG: object-observer OBSTRUCTED, parameter-reduction NO-GO, consolidation written, two-seat convergence; later an addendum restates Path C leg (iii) after cc2 flagged an overreach ('no landing site' gloss); B942 (2026-08-07) independently re-verifies the zeta-pole SSB argument to 6e-11; a later review (Review 32, 2026-07-29) flags a live inconsistency between papers/P2_trinity/THEOREMS.md Theorem 5 and this arc's LAW_MAP-recorded finding.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "Res_{β=1} ζ_{ℚ(√−3)} = 2π/(6√3) ≈ 0.6046 > 0 (class-number formula, h=1,w=6,|d|=3) as the infinite-tower SSB signature absent at any finite congruence level",
+     "where": "p2_kms.py Section D (residue formula), p2_kms_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Script computes both the finite-level Bratteli-Robinson KMS-uniqueness demonstration numerically and the exact class-number-formula residue via mpmath; asserts PSL2_R==30720 and image_order==2560 to cross-check against B734's arithmetic before proceeding."
+    },
+    {
+     "what": "Equivariance-wall T=0: the Sylvester intertwiner between being (eigenvalues φ²,φ⁻²) and hearing (order-10, eigenvalues on unit circle) has disjoint spectra ⇒ unique solution T=0",
+     "where": "p3_reduction.py / p3_reduction_out.txt (not fully read; grep-sampled per packet mode SAMPLE_CODE)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Only grepped def/assert/print lines and the first 120 lines of p3_reduction.py per sampling protocol; output file p3_reduction_out.txt was read in full and is consistent with the claim, but the full script logic for the intertwiner computation was not read line-by-line."
+    },
+    {
+     "what": "Zero of 24 SM free parameters forced/reduced by the framework (full parameter-by-parameter ledger)",
+     "where": "p3_reduction_out.txt, p1_consolidation.md",
+     "kind": "ASSERTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The per-parameter grading against a 'BANKED record' for all ~19+neutrino=24 SM parameters is described in prose (PREREGISTRATION.md, FINDINGS.md) but characterizing each of 24 parameters as grade (d) is a large qualitative judgment call, not obviously a single reproducible computation; the output file was read but the grading methodology for each entry was not independently checkable from what was sampled."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Two independent seats (cc and cc2) ran parallel halves of the same prereg-locked campaign and cross-verified convergent headlines; p2_kms.py explicitly re-derives (not cites) B734's arithmetic before using it, and asserts a match.",
+   "absence_claims": [
+    {
+     "quote": "ZERO of the ~19(+neutrino)=24 SM free parameters are reduced. The full ledger grades all 24 as (d)=nothing-forced: 0 forced values (a), 0 forced relations (b, = a reduction), 0 discrete constraints on any SM parameter (c).",
+     "where": "frontier/B736_ABC_campaign/FINDINGS.md, Path C section"
+    },
+    {
+     "quote": "the bare non-abelian Bianchi-Hecke symmetry is absent from every precedent",
+     "where": "frontier/B736_ABC_campaign/FINDINGS.md, Path B section"
+    },
+    {
+     "quote": "no CANONICAL Z/2 quotient of Gal(K^ab/K) exists",
+     "where": "PROGRESS_LOG.md entry quoted in log_index/B736.txt (2026-08-07, B942/L113), referencing this arc's obstruction"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "A downstream document (papers/P2_trinity/THEOREMS.md Theorem 5) is reported in the project's own Review 32 log entry as stating a claim with 'no CLAIMS.md analogue' that conflicts with what LAW_MAP records for this arc (0 of 24 SM parameters reduced) — a live paper/ledger inconsistency the project itself flagged but which this arc's own files give no evidence of having resolved.",
+     "where": "docs/progress/REVIEWS.md Review 32 (per log_index/B736.txt), referencing papers/P2_trinity/THEOREMS.md"
+    }
+   ],
+   "seat_note": "This is the program's own honest negative capstone on the SM-bridge question, and the two hardest sub-claims (finite-level KMS uniqueness, zeta-pole residue) are genuinely computed with asserts tying back to B734; the 24-parameter ledger itself is more qualitative and its full grading logic was not independently verified line-by-line here."
+  },
+  {
+   "arc": "B737_candidate_zero",
+   "source": "main",
+   "files_read": [
+    "frontier/B737_candidate_zero/FINDINGS.md",
+    "frontier/B737_candidate_zero/PREREGISTRATION.md",
+    "frontier/B737_candidate_zero/arc_verdict.json",
+    "frontier/B737_candidate_zero/p4_kms_out.txt"
+   ],
+   "files_sampled": [
+    "frontier/B737_candidate_zero/p1_scatter.py (grep only, not read)",
+    "frontier/B737_candidate_zero/p2_cover.py (grep only, not read)",
+    "frontier/B737_candidate_zero/p3_sister.py (grep only, not read)",
+    "frontier/B737_candidate_zero/p4_kms.py (first 120 lines + grep)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'Candidate Zero dies at the crux: the ζ_K in the object's voice is the field's (vacuity plus object-deletion), though the exact identity φ_m004 = Λ_K(s)/Λ_K(s+1) survives.'; status: NEGATIVE",
+   "log_says": "PROGRESS_LOG names this the pathfinder hunt-cell #1 (Outcome B at the crux) with two banked positives (the exact zeta-quotient identity and the first object-specific spectral data); a later relay chain (B848/B850/B852/B853) corrects a sub-fact (Frobenius generator for the disc-−48 order) but confirms the overall structure stands; B857/B858 later correct a downstream LAW_MAP clause (H-EAR (iii)) that had over-read this arc's artifacts via a grep as proof of total absence of golden markers, predating a later arc (B797) by a week.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "φ_m004(s) = Λ_K(s)/Λ_K(s+1), Res φ = 2√3/vol(m004) = 1.70655217662816… (verified 40 digits, three routes)",
+     "where": "FINDINGS.md P2-COVER section; p2_cover.py (not read in full, only grepped per SAMPLE_CODE mode) / p2_cover_out.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "The p4_kms.py file (read in full) independently re-derives and cross-checks parts of this (S4 scattering-side residue check against exact formula 2π²/(9ζ_K(2))), giving corroboration, but p2_cover.py itself was only grep-sampled per the packet's mode assignment, so the full P2 derivation logic (the one-cusp exact-transfer lemma) was not directly verified here."
+    },
+    {
+     "what": "The KMS/SSB structure is furnished entirely by the field K; the object supplies nothing the field does not (probe 4, round 2 verdict B)",
+     "where": "p4_kms.py (read in full) and p4_kms_out.txt (read in full)",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "p4_kms.py computes r_K(n) two independent ways (lattice count vs Dirichlet-sum) up to N=3000 with an assert of exact match, computes the Epstein/Eisenstein identity numerically, the BC partition-function pole via mpmath at 30 digits, and cross-checks the residue 2π/(6√3) against B736-P2's number — a genuine in-file computation with printed numeric agreement."
+    },
+    {
+     "what": "m004's cusp is ℂ/(ℤ+2√−3ℤ) with CM by the conductor-4 order (disc −48, h(−48)=2)",
+     "where": "FINDINGS.md P3-SISTER section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "p3_sister.py was only grep-sampled, not read in full; the claim is stated as 'in-seat verified' (mp.kleinj match to 1e-15) but a later log entry (B850, 2026-08-02) records that a related sub-fact in this chain (Frobenius generator on the class group) needed correction — the corrected version is said to leave B737's conclusion intact, but this arc's own files were not updated with that correction (it lives in a downstream arc)."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "Explicit two-round adversarial process: round 1's positive answer was refuted by skeptics and round 2 recomputed to a negative (probe 4); the process is documented and the refuted round-1 script/output are not visibly retained (only round-2 p4_kms.py / p4_kms_out.txt are present in this directory), which is a minor traceability gap for the refuted computation.",
+   "absence_claims": [
+    {
+     "quote": "the CMR/BC KMS system contains NO parameter of m004 (verbatim source re-fetched)",
+     "where": "frontier/B737_candidate_zero/FINDINGS.md P4-KMS section"
+    },
+    {
+     "quote": "the only construction that would make the voice BE the carrier (operator-level identification) does not exist in the literature",
+     "where": "frontier/B737_candidate_zero/p4_kms_out.txt VERDICT section"
+    }
+   ],
+   "physics_content": "STRUCTURAL",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "A downstream arc (B857, per log_index/B737.txt) found that LAW_MAP's H-EAR clause (iii) rested on 'a grep of the banked voice artifacts (B737/B739): zero golden markers' as if it were a proof of total absence — the log records this was corrected in place, illustrating that this arc's artifacts were mis-used as an absence-proof by a later document rather than a flaw intrinsic to B737 itself.",
+     "where": "docs/progress log_index/B737.txt entries for B857/B858, referencing LAW_MAP H-EAR clause (iii)"
+    }
+   ],
+   "seat_note": "The strongest sub-computation here (probe 4, the KMS crux) is genuinely computed with exact-arithmetic cross-checks and a documented refute-then-recompute cycle; the weaker legs (P2's exact-transfer lemma, P3's CM/Frobenius claims) were only grep-sampled here and a downstream arc shows at least one of those sub-facts needed later correction, so full independent verification of those legs was not done in this pass."
+  },
+  {
+   "arc": "B738_pathfinder_compiler",
+   "source": "main",
+   "files_read": [
+    "frontier/B738_pathfinder_compiler/FACT_COMPUTED_SWEEP.md",
+    "frontier/B738_pathfinder_compiler/FINDINGS.md",
+    "frontier/B738_pathfinder_compiler/KILL_GRAPH_SUMMARY.md",
+    "frontier/B738_pathfinder_compiler/SHORTLIST.md",
+    "frontier/B738_pathfinder_compiler/arc_verdict.json"
+   ],
+   "files_sampled": [
+    "frontier/B738_pathfinder_compiler/kill_graph.json (head/tail + record-count check via python json.load; currently 774 records vs the 217 the arc's own text reports, consistent with continued growth as a living instrument after this arc closed)"
+   ],
+   "files_listed_only": [],
+   "claim_of_record": "verdict claim_one_line: 'The audited kill-graph instrument over 217 classified negatives confirms the pathfinder's prediction: the emittance/scattering columns are consulted by essentially no kill.'; status: PROVED, instrument: true",
+   "log_says": "PROGRESS_LOG: the Negative Anatomy Compiler (217 classified, audited 0/3 refuted); the face-coverage matrix shows emittance columns empty corpus-wide, independently corroborated by cc3's separate 213-record census (160/162 no-emittance, 0 scattering); a kill-graph diff vs cc3's independent compilation found 69% kill_form disagreement (taxonomy-only) and 6 substantive fact-basis disagreements, later adjudicated 6/6 upheld as computed (B744).",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "217 classified negatives with per-record kill_form/faces_consulted/fact_computed/hatch/priority/revival_score fields; emittance-lengths 2/217, emittance-eigenvalues 3/217, Laplace/scattering spectrum consulted by 0/217",
+     "where": "kill_graph.json (at the time FINDINGS.md/KILL_GRAPH_SUMMARY.md were written), KILL_GRAPH_SUMMARY.md tables",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "This is a classification/compilation exercise (14 compile agents reading and tagging existing FINDINGS across the corpus) rather than a mathematical computation — its 'ground truth' is itself a judgment call over text, audited by 3 sample-auditors (0/24 refuted) but not independently re-derivable by re-running a script; the file has since grown to 774 records so the exact 217-record snapshot audited is not separately preserved/frozen anywhere sampled."
+    },
+    {
+     "what": "kill_form disagreement with cc3's independent compiler: 107/155 (69%) raw disagreement, mostly taxonomy; 6/155 (3.9%) substantive fact-basis disagreements (B146,B272,B285,B296,B437,B516)",
+     "where": "FINDINGS.md KILL-GRAPH DIFF section",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Reported as a diff between two independently-built compilations; the diff computation itself is plausible and specific (named ids) but neither compiler's classification is independently checkable as 'correct' since it is itself an interpretive act over prose FINDINGS."
+    }
+   ],
+   "belt": "RE-READS",
+   "belt_note": "The compiler explicitly instrument-builds (does not adjudicate) by re-reading the corpus's own FINDINGS files and classifying them; the 3-sample-auditor pass (0/24 misclassified) is a re-read/audit of the compilation, not an independent recomputation of any physics.",
+   "absence_claims": [
+    {
+     "quote": "the Laplace/scattering spectrum proper consulted by ZERO kills — a fully virgin column",
+     "where": "frontier/B738_pathfinder_compiler/FINDINGS.md headline finding 1"
+    },
+    {
+     "quote": "cc3's spectral census (160/162 never consulted emittance; ZERO consulted scattering)",
+     "where": "frontier/B738_pathfinder_compiler/FINDINGS.md KILL-GRAPH DIFF section"
+    }
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {
+     "kind": "OTHER",
+     "detail": "kill_graph.json now contains 774 records, not the 217 the arc's own FINDINGS.md/KILL_GRAPH_SUMMARY.md describe and analyze in detail (percentages, tables) — the file is a live shared instrument that other arcs (up through at least B1223, visible in the tail) have appended to since, so the specific 217-record snapshot the arc's statistics describe is no longer distinguishable in the committed file without git history; a stranger reading kill_graph.json today cannot reproduce the exact percentages quoted in KILL_GRAPH_SUMMARY.md from the file as it now stands.",
+     "where": "frontier/B738_pathfinder_compiler/kill_graph.json (774 records) vs KILL_GRAPH_SUMMARY.md ('N = 217')"
+    }
+   ],
+   "seat_note": "This is a meta/bookkeeping instrument (a taxonomy of the corpus's own negative results), not a physics computation — its value is organizational; the cross-compiler diff against cc3's independent build is a genuine and useful sanity check, but the underlying classifications are interpretive judgments over prose, not exact recomputable facts, and the shared file has since drifted past the audited snapshot."
+  }
+ ]
+}

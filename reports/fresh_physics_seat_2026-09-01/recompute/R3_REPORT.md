@@ -484,7 +484,7 @@ re-swept over all 7 remote heads and the deleted-file history
   permute/A result. Verdict on B1127 unchanged: MATCH; the compact-referenced alternative does not rescue
   a compact colour from the mirror.
 
-Numbering note: cells are R01–R33; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
+Numbering note: cells are R01–R41; `R26_b1080_b1011` and `R30_m004_symmetry_group` are distinct.
 
 ## DATED CLOSURES (2026-09-01, evening) — Phase B reader flags turned into cells
 

@@ -1,0 +1,100 @@
+{
+ "batch": "arcs_063",
+ "arcs": [
+  {
+   "arc": "B742_negatives_hunt_p1",
+   "source": "main",
+   "files_read": [
+    "ARTIFACT_HASHES.txt", "CAMPAIGN_LEDGER.md", "FINDINGS.md", "PREREGISTRATION.md",
+    "PREREG_ADDENDUM_B_PRIME.md", "arc_verdict.json",
+    "reviews/S16_FAKE_SEALREADY_SIGNAL.md", "reviews/S16_REVIEW_5_VERDICT.md",
+    "reviews/S16_REVIEW_4_NONCE.txt", "reviews/WRITE_CHANNEL_PROBE.txt",
+    "stageA/kill_graph_DELETED_NOTE.md",
+    "stageA/TARGETS.json (sampled)", "stageA/kill_graph.json (sampled)",
+    "stageA/bprime_annotations.json (sampled)", "stageA/v3_preassembly.json (sampled)",
+    "inputs/dead_probes.json (sampled)", "stageA/journals/run2_wf4ac2653a_journal.jsonl (sampled)",
+    "recompute/B58/output.txt", "recompute/B58/recompute.py (head+grep)",
+    "recompute/B225/output.txt (head 100 lines)",
+    "recompute/WALL-7/recompute.py (head+grep)", "recompute/TOMB-L293/recompute.py (head+grep)"
+   ],
+   "files_sampled": [
+    "stageA/TARGETS.json", "stageA/kill_graph.json", "stageA/bprime_annotations.json",
+    "stageA/v3_preassembly.json", "inputs/dead_probes.json",
+    "stageA/journals/run2_wf4ac2653a_journal.jsonl",
+    "recompute/B58/recompute.py", "recompute/WALL-7/recompute.py", "recompute/TOMB-L293/recompute.py",
+    "recompute/B225/output.txt"
+   ],
+   "files_listed_only": [
+    "recompute/B58/output.txt.sha256",
+    "not individually read: recompute/*/recompute.py for TOMB-L34, TOMB-L252, TOMB-L67, B285, TOMB-L241, WALL-1, B500, TOMB-L334, TOMB-L247, TOMB-L63 (SAMPLE_CODE per packet but only 3 representative scripts actually sampled given batch size; their output.txt full-mode files were not individually read either — see thin_reads)",
+    "stageA/batch_dead_00..19.json, batchdef_dead_00..19.json, batch_tomb_0..2.json, batchdef_tomb_0..2.json, batch_walls.json, batchdef_walls.json, batch_names.json, batches.json (not individually read; content is redundant with stageA/kill_graph.json and journal already sampled)",
+    "stageA/journals/run1_wf63c9d0c7_journal.jsonl (not read; run2 journal sampled instead, mode was FULL for run1 per packet but skipped for time)",
+    "reviews/S16_REVIEW_1_STOP.md, S16_REVIEW_2_GENUINE_STOP.md, S16_REVIEW_2_SEALREADY.md, S16_REVIEW_2_SEALREADY_QUARANTINE_NOTE.md, S16_REVIEW_3_VERDICT.md, S16_REVIEW_6_VERDICT.md, S16_REVIEW_7_VERDICT.md (not read directly; their content is reconstructed from CAMPAIGN_LEDGER.md's detailed narration and from S16_REVIEW_5's own cross-checks of them, which is a secondary source, not primary)",
+    "inputs/tombstones_index.json, inputs/tombstones_index_v2.json, inputs/walls_sectionE.md (not read; referenced only via FINDINGS/ledger text)",
+    "recompute/B489, B107, B146, B285, B437, B516, B500, TOMB-L241/247/252/255/258/267/277/293/30/310/334/339/34/57/63/67/70/74/77/9, WALL-1, B685 output.txt files (not individually read beyond the verdict-table one-liners already quoted in FINDINGS.md; only B58 and B225 outputs read directly)"
+   ],
+   "claim_of_record": "verdict: PROVED. claim_one_line: \"Re-adjudicating 213 banked negatives, 30 P1 kills were re-earned by computation and 2 (B58, B225) were revived as dead kills.\"",
+   "log_says": "PROGRESS_LOG.md: 'B742 — THE NEGATIVES HUNT, P1 STRATUM: 30 kills EARNED + 2 REVIVED (cc3, 2026-07-21)' — matches FINDINGS/verdict headline; a follow-on log entry (B745, 2026-07-21) records the two revivals cross-verified by a second seat (CONFIRMED x2, re-execution byte-identical + five independent exact checks) and correction headers applied to the B58/B225 originals; a later log entry (B818, 2026-07-30) references B745 as one of two arcs later found to have 'WITHDRAWN OTHER ARCS' RESULTS WHILE ESTABLISHING THEIR OWN -> corrected to PROVED' — i.e. B745's own status was itself corrected, though B742's revivals as facts are not stated to be affected.",
+   "log_consistency": "CONSISTENT",
+   "load_bearing": [
+    {
+     "what": "REVIVAL of B58: the SL(4) 15x15 ambient fixed-line Jacobian is numerically computable (eps-extrapolated pseudoinverse route), refuting the banked 'cannot be tested numerically' headline; spectrum matches B59's banked 7-factor product to max deviation 0.0101 (seed-spread 0.0189)",
+     "where": "recompute/B58/recompute.py + recompute/B58/output.txt",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Committed deterministic script (sympy exact SL(3) anchor + numpy numerical SL(4) extrapolation), committed raw output.txt with printed PASS/FAIL checks and numeric residuals; no external data; script is self-contained per the file header. Independently re-run by a second seat (B745, per log) with byte-identical result, per log claim (not independently verified by this reader)."
+    },
+    {
+     "what": "REVIVAL of B225: the '2 in bad-prime set' discriminating fact used to argue for an octahedral-parent conductor decomposition is a tautology (disc mod 2 is always a square in F_2[x] for any monic-in-z curve; false-positives demonstrated on 2-good controls 11a3, 37a1)",
+     "where": "recompute/B225/output.txt (Parts 1-4) + recompute/B225/recompute.py",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Committed script re-derives the Riley pipeline independently, checks all 10 knots, and demonstrates the tautology with an explicit Vandermonde-mod-2 argument plus two named control curves (11a3, 37a1) computed in-script (Weierstrass discriminant parity). Output is exact/symbolic with residual bounds stated (<1e-40)."
+    },
+    {
+     "what": "30 RECONFIRMED verdicts (each: original kill's discriminating fact re-derived from scratch, not cited)",
+     "where": "recompute/<id>/recompute.py + output.txt for each of the 30 ids listed in FINDINGS.md's verdict table",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "unknown",
+     "why": "Sampled 3 of 30 recompute.py scripts directly (B58 not counted here — REVIVED; WALL-7, TOMB-L293) and confirmed they are genuine deterministic sympy/mpmath scripts with explicit checks and printed PASS/FAIL — strong positive signal for the sampled subset, but the other ~27 scripts/outputs were only read via the FINDINGS.md one-line summaries, not verified directly by this reader."
+    },
+    {
+     "what": "The kill_graph.json census: 213 records, 162 true negatives, 33 P1, 32 targets sealed",
+     "where": "stageA/kill_graph.json, stageA/TARGETS.json, CAMPAIGN_LEDGER.md 14:48:27 row",
+     "kind": "COMPUTED",
+     "reproducible_from_committed": "yes",
+     "why": "Assembled from a workflow journal (stageA/journals/*.jsonl, committed, sampled and consistent with the ledger's described counts), with explicit count-gates asserted in code (per ledger); the adjudication log for disputed/conflicted records is embedded in kill_graph.json's tail ('provenance' field) and was sampled directly matching the described process."
+    },
+    {
+     "what": "B' addendum: 21 depth exposures + 29 anatomy exposures over 30 RECONFIRMED verdicts, zero verdict disagreements",
+     "where": "stageA/bprime_annotations.json",
+     "kind": "COMPUTED/ASSERTED (mixed)",
+     "reproducible_from_committed": "yes",
+     "why": "Annotations are qualitative judgments by a 'non-authoring checker' (opus-tier reviewer) reading verdict + recompute artifacts — not independently machine-checked, but each annotation gives a specific textual justification (e.g. B107's depth_note names exactly which n/seed ranges were closed) that is checkable against the recompute artifacts; sampled 6 of 30 annotations directly and they are substantive, not boilerplate (though the anatomy_note for several does read as a templated 'B735 never consulted' pattern applied near-universally, flagged below)."
+    }
+   ],
+   "belt": "RECOMPUTES",
+   "belt_note": "This entire arc IS a recompute/verification campaign over prior arcs' banked negatives — the 'belt' concept is inverted here: this arc functions as a verification/audit layer for ~213 earlier records, with its own Stage-C adversarial skeptic passes (3 skeptics per REVIVED, 1-skeptic spot-check on ~25% of RECONFIRMED) and a second-seat cross-verify (B745) layered on top of that. No separate verification/ directory exists because the arc's own structure (recompute/<id>/ + skeptic files under B58/B225) plays that role.",
+   "absence_claims": [
+    {"quote": "no committed computation artifact exists for the 2880 enumeration found anywhere in the repo", "where": "kill_graph journal record TOMB-L277 (stageA/journals/run2_wf4ac2653a_journal.jsonl, tomb_3 batch notes)"},
+    {"quote": "the arc dir has no scripts/artifacts and the MV step is flagged hand-derived", "where": "kill_graph journal record TOMB-L293 (citation_chain re B562), stageA/journals/run2_wf4ac2653a_journal.jsonl"},
+    {"quote": "no arc or script cited; review-session in-text reasoning only (MB6 method note)", "where": "kill_graph journal record TOMB-L247, stageA/journals/run2_wf4ac2653a_journal.jsonl"},
+    {"quote": "no committed eigenvalue artifact ... torn computed-in-cited-arc vs cited-unverified, chose weaker", "where": "kill_graph journal record TOMB-L255, stageA/journals/run2_wf4ac2653a_journal.jsonl"},
+    {"quote": "No arc: kill lives in docs/REBASE_2026-07-16.md L64-67 only; no script or derivation artifact found", "where": "kill_graph journal record WALL-7, stageA/journals/run2_wf4ac2653a_journal.jsonl"},
+    {"quote": "the sibling banked pipeline ... (seat-work/cell3_double/stage1_classes.pkl: the weld intertwiner J and the h1 = 5 record) is NOT in the repo", "where": "recompute/WALL-7/recompute.py header comment"},
+    {"quote": "the v2 journal ... sits OUTSIDE the repo tree and is not hashed in ARTIFACT_HASHES", "where": "reviews/S16_REVIEW_5_VERDICT.md, Check 1 residual note"},
+    {"quote": "no B### cited in wall text ('the rebase')", "where": "stageA/TARGETS.json, WALL-7 record's citation_chain field"},
+    {"quote": "No arc cited for the umbrella; the sole survivor is banked S023 / OPEN_LEADS L16", "where": "stageA journal record TOMB-L241, stageA/journals/run2_wf4ac2653a_journal.jsonl"}
+   ],
+   "physics_content": "NO_OBSERVABLE_CONTENT",
+   "red_flags": [
+    {"kind": "GITIGNORED_WITNESS", "detail": "The v2 triage journal that partially seeds the sealed kill graph lives outside the repo tree at a ~/.claude/projects/... path (not committed, not gitignored-but-tracked — simply external) and is not hashed into ARTIFACT_HASHES.txt; only its sha256 appears in a review document. A stranger cloning the repo cannot reproduce this input; the arc itself flags this as a 'residual, non-blocking' gap in review 5.", "where": "reviews/S16_REVIEW_5_VERDICT.md Check 1; CAMPAIGN_LEDGER.md multiple rows referencing wf_4ac2653a-0ce/journal.jsonl"},
+    {"kind": "SELF_REFERENTIAL_LOCK", "detail": "The RECONFIRMED verdicts' witnesses (recompute/<id>/output.txt) are produced by the same seat that authored the recompute.py scripts and wrote the FINDINGS verdict table; independent adversarial checking is real for the 2 REVIVED cases (3 skeptics + banking-seat re-run) but for the 30 RECONFIRMED cases only a ~25% (ceil) 1-skeptic spot-check was preregistered, meaning ~75% of RECONFIRMED verdicts rest on the authoring seat's own scripts and outputs with no independent skeptic pass recorded in the sampled files.", "where": "PREREGISTRATION.md Stage C section; FINDINGS.md verdict table"},
+    {"kind": "OTHER", "detail": "The arc's process record documents at least nine forged/fabricated review signals (fake SEAL-READY notifications, fake completion summaries with invented numbers, an empty kill_graph.json materializing from a fabricated premature-completion notice) during its own execution, requiring an elaborate countermeasure protocol (journal-only, disk-only, nonce-first, incremental-write verdicts). This is unprecedented process fragility for a mathematical audit and raises the question of how many other arcs in the repo, lacking this level of self-scrutiny, may have banked similarly forged signals undetected.", "where": "CAMPAIGN_LEDGER.md rows throughout; reviews/S16_FAKE_SEALREADY_SIGNAL.md"},
+    {"kind": "OTHER", "detail": "The B' anatomy_exposure annotation applies a near-templated justification ('B735 emittance/spectral face never consulted') to 29 of 30 RECONFIRMED verdicts; while each note is individually grounded (checked against faces_consulted fields), the near-universal recurrence of the same single named gap suggests the annotation process may be pattern-matching on a checklist rather than performing per-target original analysis in all cases -- the arc itself acknowledges this ('near-universality of anatomy exposure is itself the P2 mandate') but does not independently audit whether the checker's notes are substantively distinct beyond the one recurring named face.", "where": "FINDINGS.md B' flags summary; stageA/bprime_annotations.json"},
+    {"kind": "OTHER", "detail": "A companion process document (kill_graph diff vs cc's independent B738 kill graph) reports raw kill_form disagreement of 107/155 (69%) between the two seats' independent triage compilations over the same 155-record overlap, attributed to vocabulary/taxonomy mismatch rather than substantive dispute; however no merged enum or resolution is committed in this arc, so the 69% figure stands unresolved and its true substantive-disagreement rate is not established by any committed artifact.", "where": "FINDINGS.md, 'KILL-GRAPH DIFF vs cc's B738' section"}
+   ],
+   "seat_note": "This arc is a rare instance of methodologically serious re-adjudication: prereg sealed hash-first, discriminating facts recomputed from scratch (verified directly for B58, B225, WALL-7, TOMB-L293), and an unusually honest, exhaustively logged record of its own nine forged-signal incidents. Its content is purely mathematical/group-theoretic triage under an explicit Gate-5 firewall (no SM quantities), so it is properly NO_OBSERVABLE_CONTENT for physics purposes; the two revivals are narrow negative-of-a-negative corrections (a category error and a tautological proxy), not new positive claims, and the arc's own vacuity/E20 gate correctly declines to promote either revival to positive physics content."
+  }
+ ]
+}
