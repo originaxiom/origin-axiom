@@ -15,3 +15,13 @@ cross-check: adding the other 54 root generators cuts the space to dim = 1 (e6's
   basis vector 0: 6 nonzero coeffs; touches blocks [(1, 1, 0)]
   basis vector 1: 6 nonzero coeffs; touches blocks [(1, 0, 1)]
   basis vector 2: 27 nonzero coeffs; touches blocks [(0, 1, 1), (1, 0, 1), (1, 1, 0)]
+  basis vector 3: 6 nonzero coeffs; touches blocks [(0, 1, 1)]
+
+B2 banked: the closing admits EXACTLY 4 independent Yukawa-shaped
+couplings on one 27 (structure only, Gate 5 untouched); e6 selects the
+single Jordan combination among them (memo 32's C, the beat-covariant one).
+
+real	0m22.819s
+user	0m19.905s
+sys	0m0.076s
+exit=0

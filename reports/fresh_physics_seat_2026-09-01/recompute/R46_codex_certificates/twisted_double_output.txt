@@ -10,3 +10,6 @@ stage 4: h^1(M;27) = 3 (expect 3; B662 grammar)
 stage 5: longitude found and verified symbolically: bABaaBAb, off-diag 2*sqrt(3)*I
 stage 6: torus: h^0 = 3, h^1 = 6 (expect 3 and 6)
 stage 6: mirror rep = Galois twist VERIFIED at the cusp: gal fixes mu, gal(lam^{-1}) = lam
+
+stage 6: MAYER-VIETORIS  h^1(D_t;27) = ker(delta^1)+coker(delta^0)
+ IDENTITY double (right = same rep), dial slot hv8 (theta-odd):

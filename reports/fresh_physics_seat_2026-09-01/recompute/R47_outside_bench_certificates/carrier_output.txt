@@ -1,0 +1,31 @@
+=== outside_bench/certificates/carrier.py
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+relator = +I_54 on Psi: True
+joint (spin, internal) weight table on Psi: {(1, -1): 6, (1, 0): 15, (1, 1): 6, (-1, -1): 6, (-1, 0): 15, (-1, 1): 6}
+doubly-odd (spinor x internal-doublet) states: 24 (expect 24); spinor x internal-singlet: 30 (expect 30)
+beta_Psi rho(a) beta^-1 = rho(a): True
+beta_Psi rho(b) beta^-1 = rho(w(b)): True
+beta_Psi^2 = rho_Psi(a) (the MERIDIAN on the carrier): True
+C_Psi = (-I_2)(x)C_27 acts as +1 on 24 states, -1 on 30 states
+=> the LIFT-INDEPENDENT (+1) sector of the carrier is EXACTLY the
+   fermion-shaped doubly-odd sector: spin parity and internal parity
+   LOCK — the two minus signs cancel precisely on the matter slots.
+
+THE CARRIER AND THE LOCK: Psi = C^2 (x) 27 is an exact pi1-module (relator
++I_54), carries 24 spinor-x-doublet slots and 30 spinor-x-singlet slots,
+closes under the beat with every sign on the nose and antiunitary square =
+the meridian — and its physical sector is precisely the sector on which the
+spin-lift ambiguity cancels: a spin-internal lock, exact.  Kinematics only:
+no bundle, no Dirac operator, no field is claimed — Psi is the minimal
+carrier the memo-45 no-go permits, now verified to satisfy every algebraic
+requirement the record can impose on it.
+
+real	0m11.682s
+user	0m8.103s
+sys	0m0.075s
+exit=0

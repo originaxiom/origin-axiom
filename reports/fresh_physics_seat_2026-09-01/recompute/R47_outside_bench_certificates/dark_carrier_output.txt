@@ -1,0 +1,4 @@
+=== outside_bench/certificates/dark_carrier.py
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)

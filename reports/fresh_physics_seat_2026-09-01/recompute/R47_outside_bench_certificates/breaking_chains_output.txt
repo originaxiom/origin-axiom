@@ -1,0 +1,39 @@
+=== outside_bench/certificates/breaking_chains.py
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 0: forced Y rebuilt; Y(q) = -1/2; ratios re-anchored on the found assignment
+FACT 1: SM-safe vev directions (color-singlet, weak-singlet, Y=0): 2 -> states [1, 17]
+   their U(1)_psi charges: [1, -2] (psi 16-class = 1, 10-class = -2, singlet = 4)
+   both live in the lepton (color-singlet) block; L-slot types: ['3b', '3b']
+   => the two SM-safe directions are the two neutral states of the lepton
+      block — the nu^c-like and S-like directions OF THIS FRAME; the
+      standard E6 double-breaking is the ONLY SM-preserving chain
+FACT 2: surviving Cartan torus dimension = 4 (expect 4 = rank SM)
+   contains color Cartan + T3 + Y: True
+FACT 3: root-lattice elements pair integrally with all 27 weights (verified)
+   h-space with both vevs even: dim 4 over GF(2)
+   NONTRIVIAL surviving Z/2 gradings of the 27: 15
+   contains the psi matter-parity pattern: False; the lock pattern: False
+FACT 4: bridge-weights of the vev directions: [-1, 1]
+   lock values: [-1, -1] (a -1 means that vev breaks the lock)
+   BOTH vev directions are lock-ODD: the unique SM chain breaks the lock,
+   and (FACT 3) neither the psi-parity nor the lock pattern survives it
+
+THE UNIQUE CHAIN AND ITS DISCRETE REMAINDER: with hypercharge forced, the
+27 offers exactly TWO SM-safe vev directions — the two neutral states of
+the lepton block (nu^c-like and S-like in this frame) — so the standard E6
+double-breaking is not one option among many; it is the only chain
+(necessary-condition level).  The
+chain lands on exactly the SM torus (dim 4).  The surviving Z/2 ledger and
+the lock bill are printed above; the branch that landed is the result.
+Necessary conditions only — no potential, no vacuum, no values;
+Gates 2/3/5 not crossed.
+
+real	0m10.808s
+user	0m8.017s
+sys	0m0.139s
+exit=0
