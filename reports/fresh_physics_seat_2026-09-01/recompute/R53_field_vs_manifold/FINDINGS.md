@@ -100,7 +100,10 @@ nowhere except by the trace-3 / torsion-free sieve (B197, B1136), which is the F
 - **B282** (main): the 2T surjection is present only for the arithmetic pair m004 / m003; E6 is arithmetic,
   not geometric.
 - **B1136** (main) and **B8118** (structure-genesis): the 14-family; sole separator H1 = Z.
-- **B197** (main): the m003 volume tie is broken by torsion-freeness.
+- **B197** (main): the m003 volume tie is broken by torsion-freeness. **B781** (main): the sister distinction
+  |H1 torsion| = |2 − tr M|, m003's monodromy −RL computed two ways (B784); "m004 is uniquely the golden
+  Fibonacci bundle: σ: a→ab has incidence eigenvalue φ and the figure-eight monodromy is its square φ²".
+  R53's det(A ∓ I) = (φ ∓ φ⁻¹)² restates B781's table as identities of σ² and adds the spin-blindness.
 - **B147** (main): Humbert volume/Bianchi-covolume integers for bundles. **B804**: Arf bordism on the cusp.
 
 ## What R53 adds
