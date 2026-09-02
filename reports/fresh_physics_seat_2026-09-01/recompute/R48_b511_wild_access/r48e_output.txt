@@ -5,3 +5,12 @@
 == (1) matrices, SU(2) re-projection every step, n=2000, 3000 steps, samples from t>1500
   M10/D10/F80                      P(|k-2|<0.05)=0.063 P(wild)=0.742 pct[5,25,50,75,95]=[-1.6027, -0.5515, 0.6241, 1.5245, 1.9674]
   M20/F80                          P(|k-2|<0.05)=0.069 P(wild)=0.753 pct[5,25,50,75,95]=[-1.7201, -0.7454, 0.4744, 1.4885, 1.9743]
+  D20/F80                          P(|k-2|<0.05)=0.046 P(wild)=0.748 pct[5,25,50,75,95]=[-1.5652, -0.4708, 0.6542, 1.5057, 1.9447]
+  F100 (control: kappa conserved)  P(|k-2|<0.05)=0.000 P(wild)=0.977 pct[5,25,50,75,95]=[-1.8716, -1.4359, -0.7974, 0.0583, 1.2155]  max|k-k0| at end = 3.8e+00
+== (2) trace map with correct M, no clipping, n=20000, 3000 steps
+  M10/D10/F80                      escaped/nonfinite histories at end = 0.3030; over finite non-escaped samples: P(|k-2|<0.05)=0.884 P(wild)=0.053 pct[5,25,50,75,95]=[1.4281, 1.9997, 2.0, 2.0, 2.0]
+  M20/F80                          escaped/nonfinite histories at end = 0.2815; over finite non-escaped samples: P(|k-2|<0.05)=0.770 P(wild)=0.140 pct[5,25,50,75,95]=[-0.3128, 1.9737, 2.0, 2.0, 2.0]
+  D20/F80                          escaped/nonfinite histories at end = 0.4011; over finite non-escaped samples: P(|k-2|<0.05)=0.923 P(wild)=0.029 pct[5,25,50,75,95]=[1.8251, 2.0, 2.0, 2.0, 2.0]
+  F100 (control: kappa conserved)  escaped/nonfinite histories at end = 0.0000; over finite non-escaped samples: P(|k-2|<0.05)=0.024 P(wild)=0.787 pct[5,25,50,75,95]=[-1.4054, -0.2737, 0.6614, 1.392, 1.8941]  max|k-k0| at end = 3.3e-14
+banked D3.3: P(classical) >= 0.84, P(wild) <= 0.10 across all mixes; D3.1 percentiles ~[1.8, 1.99999, 2.0, 2.0, 2.0]
+exit=0
