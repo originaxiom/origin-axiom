@@ -1,0 +1,18 @@
+data: 2469 zeta zeros (to 2999.49), 2991 L(chi_-3) zeros (to 2998.25)
+A1: zeta alone  D=0.0401 (B1151: 0.0401)  p=0.000685
+A1: L alone     D=0.0487 (B1151: 0.0487)  p=1.36e-06
+A2: merged vs single-GUE  D=0.13359 (B1151: 0.13365)  p=2.03e-85  mean=1.000100
+density fractions (global counts): f_zeta=0.4522, f_L=0.5478
+model sanity: CDF(0)=0.0e+00, CDF(12)=1.0000000000, mean=1.000000
+S1: merged vs 2-fold GUE SUPERPOSITION  D=0.02400  p=0.00365
+    (single-GUE D was 0.13359; factors' own D: 0.0401/0.0487)
+C1: zeta alone vs superposition D=0.1802 (vs GUE 0.0401); L alone D=0.1914 (vs GUE 0.0487)
+
+THE SUPERPOSITION SPEAKS: the merged zeta_K spacings that reject single-GUE
+(D=0.134, p~1e-85) are fit by the 2-fold GUE superposition surmise at
+D=0.024 — the per-factor surmise-error level — while each factor alone
+prefers single-GUE over the superposition (control).  B1151's negative and
+this positive are two halves of one statement: zeta_K's spacing statistics
+see exactly its product structure zeta * L(chi_-3), no more and no less.
+Generic (universality-class) throughout — no object-specificity claimed, no
+firewall crossing; Gate 5 untouched.

@@ -5201,6 +5201,35 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1240": {
+   "slug": "belt closure and fc harvest",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden",
+    "lorentzian",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B407",
+    "B511",
+    "B549",
+    "B554",
+    "B775",
+    "B92",
+    "B955",
+    "B980",
+    "L197",
+    "L198",
+    "S5",
+    "V4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "open",
+   "domain": "topology"
+  },
   "B124": {
    "slug": "time reversal reciprocity",
    "motifs": [

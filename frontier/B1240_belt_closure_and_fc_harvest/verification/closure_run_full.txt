@@ -1,0 +1,66 @@
+########## B1147_clane_harvest/verification/reproduce_all.sh
+===== cp1_strata =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== cusp_beat =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== jordan_beat =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== a2_glue64 =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== a5_parity_lemma =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== b2_yukawa =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== a4_pin =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== c5_qp1 =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== c1_weyl =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== c2_habiro =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== c2b_ohtsuki_bridge =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== REPRODUCE_DONE =====
+########## rc=0 secs=135
+########## B1148_carrier_harvest/verification/reproduce_new.sh
+===== kappa_beat =====
+  VERDICT: rc=0 REPRODUCES
+===== fixed_twin =====
+  VERDICT: rc=0 REPRODUCES
+===== one_bit =====
+  VERDICT: rc=0 REPRODUCES
+===== only_spinor =====
+  VERDICT: rc=0 REPRODUCES
+===== hitind =====
+  VERDICT: rc=0 REPRODUCES
+===== carrier =====
+  VERDICT: rc=0 REPRODUCES
+===== yukawa_carrier =====
+  VERDICT: rc=0 REPRODUCES
+===== DONE =====
+########## rc=0 secs=47
+########## B1149_meridian_longitude_harvest/verification/reproduce.sh
+===== trace_three =====
+  rc=0  REPRODUCES
+===== depth_lock =====
+  rc=0  REPRODUCES
+===== longitude_lock =====
+  rc=0  REPRODUCES
+===== DONE =====
+########## rc=0 secs=20
+########## B1150_yukawa_clock_and_family/verification/reproduce.sh
+===== yukawa_clock =====
+  rc=0  REPRODUCES
+===== family_yukawa =====
+  rc=0  REPRODUCES
+===== DONE =====
+########## rc=0 secs=21
+########## B1153_peripheral_and_superposition/verification/reproduce.sh
+===== peripheral_identity =====
+  rc=0  REPRODUCES
+===== c4b_superposition =====
+  rc=0  REPRODUCES
+===== DONE =====
+########## rc=0 secs=47
+FIVE_DONE

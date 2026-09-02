@@ -2254,15 +2254,15 @@ Lock: `tests/test_b1235_nine_relays_read.py::test_l196_b1_b5_carry_verdicts`. �
 
 ## L197 — THE SUPERSESSION SWEEP + THE BELT'S TWO NON-RECOMPUTING FAMILIES (registered 2026-09-02, B1237; source: the physics-seat evaluation branch's W-D synthesis @ d415423a, findings verified here)
 
-**(a) Supersession.** The seat digested 605 arcs and tallied `SUPERSEDED_UNMARKED` 48, `RETRACTION_NOT_PROPAGATED` 25,
+**(a) Supersession.** The seat digested 605 arcs and tallied `SUPERSEDED_UNMARKED` 48 [2026-09-02 B1240] the seat's full synthesis tallies **128** (128 distinct arcs; column-parsed, fc `SUMMARY.md` agrees); the candidate list ships as `frontier/B1240_belt_closure_and_fc_harvest/verification/superseded_unmarked_candidates.tsv` — candidates, never verdicts], `RETRACTION_NOT_PROPAGATED` 25,
 `LOG_DRIFT` 24: a later arc corrects an earlier one in the log and the earlier arc's `arc_verdict.json` still says
 `superseded_by: None`. Three instances verified and propagated under B1237 (B361←B367, B259←B980, B892←B950/B951; E53 #13–#15).
 **The lead:** an instrument that, for every arc with `superseded_by: None`, greps later arcs' FINDINGS/verdicts for
 `<id>` next to *refute|withdraw|supersede|overstate|retract* and emits CANDIDATES (never verdicts — the identification
 audit's rule), then a single seat walks the list. Not fanned out: B1216 (9 agents, zero rows deleted, one regression).
-Expected yield: the seat's 48 minus the three done.
+Expected yield: the seat's 48 minus the three done [2026-09-02 B1240] 128 minus the three done; the walk is still single-seat].
 
-**(b) The belt.** Two families verified as described: (i) 29 test files in the B1147–B1185 belt carry a
+**(b) The belt.** Two families verified as described: (i) 29 test files [2026-09-02 B1240] 27, by `scripts/checks/reproduce_belt.py --string-locks`] in the B1147–B1185 belt carry a
 `test_reproduce_*` that asserts the literal string `REPRODUCES` occurs in the committed script or its committed output
 (`tests/test_b1160_hypercharge_forced.py:51–53` is the shape) — a drift lock on stored output, not a recomputation;
 (ii) a large share of B1100+ tests run the real recomputation only under `OA_SLOW=1`. Neither is wrong (the slow lane
@@ -2270,3 +2270,18 @@ exists for cost, B1207; the string locks catch silent edits), but the reviewer v
 and which *pin*. **The lead:** a `lock_kind` column in `docs/views/REVIEWER.md` (RECOMPUTES / PINS-OUTPUT / PINS-TEXT)
 derived mechanically from the test source, and a once-per-review `OA_SLOW=1` run on a clean tree (already standing —
 this makes its coverage visible). ★★ (record hygiene; nothing physical rides on it).
+
+[2026-09-02 B1240] **(b) is largely DONE by B1240, and the family was worse than described:** five of the 27 string-locked runners could not run on a fresh clone at all (E57 #2–#6; closure vendored, 25/25 certificates reproduce). `tests/test_reproduce_runners_live.py` now EXECUTES all 26 runnable belt runners on every suite run (the five heavy ones on their fastest certificate by default, in full under `OA_SLOW=1`); `reproduce_belt.py --inert` is the mechanical PINS-TEXT census the `lock_kind` column wanted (six PINS-TEXT: B1171/1173/1176/1177/1178/1179; one INERT: B1175). Remaining under (b): the `lock_kind` column in `docs/views/REVIEWER.md`, and converting the six PINS-TEXT runners to RECORD-printers (→ L198).]
+
+
+## L198 — SHIP THE GENERATOR: the CANNOT_RUN class at corpus scale (registered 2026-09-02, B1240; source: the physics-seat evaluation branch's Phase C/D synthesis, verified here)
+
+B1240 vendored the reproduction closure of five arcs whose runners pointed at a seat branch; the same shape
+recurs wherever a record says "reproduces" and the code that produced it is not on main. Phase C's PARTIAL shape 1
+("hardcoded record, live code absent or guarded") and its **139 CANNOT_RUN** claims (of 398) are this class at
+corpus scale. **The order:** (1) codex side — B1175's R020–R022 certificates and the ten untracked codex
+certificates of fc R46 (only `r024_lepton_character_datum.py` is tracked on main; source `origin/codex/seat-r001`)
+get the B1240 treatment: closure computed at the pinned SHA, vendored with `VENDORED_FROM.txt`, a live test; (2) the
+six PINS-TEXT runners become RECORD-printers (one line each; B1175 is the template); (3) the 139 CANNOT_RUN rows
+walked single-seat with `scripts/checks/reproduce_belt.py --runners` extended to Phase C's packet paths. Instrument
+exists; not fanned out (B1216). ★★★ (the programme's "clone it and run it" claim is exactly this).

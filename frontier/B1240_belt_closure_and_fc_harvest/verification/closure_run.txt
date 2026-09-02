@@ -1,0 +1,66 @@
+=========== B1147_clane_harvest
+===== cp1_strata =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== cusp_beat =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== jordan_beat =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== a2_glue64 =====
+  VERDICT: rc=1  DIFF
+===== a5_parity_lemma =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== b2_yukawa =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== a4_pin =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== c5_qp1 =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== c1_weyl =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== c2_habiro =====
+  VERDICT: rc=0  REPRODUCES (verdict region identical)
+===== c2b_ohtsuki_bridge =====
+  VERDICT: rc=0  (no committed output)
+===== REPRODUCE_DONE =====
+  secs=136
+=========== B1148_carrier_harvest
+===== kappa_beat =====
+  VERDICT: rc=0 REPRODUCES
+===== fixed_twin =====
+  VERDICT: rc=0 REPRODUCES
+===== one_bit =====
+  VERDICT: rc=1 DIFF
+===== only_spinor =====
+  VERDICT: rc=0 REPRODUCES
+===== hitind =====
+  VERDICT: rc=1 DIFF
+===== carrier =====
+  VERDICT: rc=0 REPRODUCES
+===== yukawa_carrier =====
+  VERDICT: rc=0 REPRODUCES
+===== DONE =====
+  secs=37
+=========== B1149_meridian_longitude_harvest
+===== trace_three =====
+  rc=0  REPRODUCES
+===== depth_lock =====
+  rc=0  REPRODUCES
+===== longitude_lock =====
+  rc=0  REPRODUCES
+===== DONE =====
+  secs=20
+=========== B1150_yukawa_clock_and_family
+===== yukawa_clock =====
+  rc=0  REPRODUCES
+===== family_yukawa =====
+  rc=0  REPRODUCES
+===== DONE =====
+  secs=20
+=========== B1153_peripheral_and_superposition
+===== peripheral_identity =====
+  rc=0  REPRODUCES
+===== c4b_superposition =====
+  rc=0  REPRODUCES
+===== DONE =====
+  secs=47
+CLOSURE_RUN_DONE

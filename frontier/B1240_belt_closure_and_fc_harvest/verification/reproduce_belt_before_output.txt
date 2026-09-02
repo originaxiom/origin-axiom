@@ -1,0 +1,43 @@
+selftest: 8/8 controls pass (string-lock +/-, runner missing/present, exec +/-/nested, pin)
+string-only REPRODUCES locks (no subprocess in file): 27
+   tests/test_b1147_clane_harvest.py
+   tests/test_b1148_carrier_harvest.py
+   tests/test_b1149_meridian_longitude.py
+   tests/test_b1150_yukawa_clock_and_family.py
+   tests/test_b1153_peripheral_and_superposition.py
+   tests/test_b1156_seam_a_gate2.py
+   tests/test_b1157_dynamics_null.py
+   tests/test_b1158_cloud_wave2_harvest.py
+   tests/test_b1159_mssm_debt_ledger.py
+   tests/test_b1160_hypercharge_forced.py
+   tests/test_b1161_frontier_sweep.py
+   tests/test_b1162_mssm_debt_closure.py
+   tests/test_b1163_w0_attempt.py
+   tests/test_b1164_cc_masterplan.py
+   tests/test_b1165_gravity_terminal.py
+   tests/test_b1166_charter_attack.py
+   tests/test_b1167_seat_harvest.py
+   tests/test_b1168_c5_investigation.py
+   tests/test_b1169_qualia_parity_synthesis.py
+   tests/test_b1171_seam_harvest.py
+   tests/test_b1172_lose_nothing_register.py
+   tests/test_b1173_digest_partial_close.py
+   tests/test_b1174_z2_identification.py
+   tests/test_b1175_charter_close_harvest.py
+   tests/test_b1180_family_retraction.py
+   tests/test_b1182_c4prime_resolved.py
+   tests/test_b1184_quine_synthesis.py
+runners that recompute nothing: 7 (6 PINS-TEXT, 1 INERT)
+   frontier/B1171_seam_harvest/verification/reproduce.sh PINS-TEXT says REPRODUCES 
+   frontier/B1173_digest_partial_close/verification/reproduce.sh PINS-TEXT says REPRODUCES says RECORD
+   frontier/B1175_charter_close_harvest/verification/reproduce.sh INERT  says RECORD
+   frontier/B1176_record_surface_wave/verification/reproduce.sh PINS-TEXT says REPRODUCES 
+   frontier/B1177_instrument_bundle/verification/reproduce.sh PINS-TEXT says REPRODUCES 
+   frontier/B1178_l184_lazyfy/verification/reproduce.sh PINS-TEXT says REPRODUCES 
+   frontier/B1179_outreach_and_papers/verification/reproduce.sh PINS-TEXT says REPRODUCES 
+runners scanned: 69; runners with untracked/absent inputs: 5
+   frontier/B1147_clane_harvest/verification/reproduce_all.sh -> certificates/a2_glue64.py, certificates/a4_pin.py, certificates/a5_parity_lemma.py, certificates/b2_yukawa.py, certificates/c1_weyl.py, certificates/c2_habiro.py, certificates/c2b_ohtsuki_bridge.py, certificates/c5_qp1.py ...
+   frontier/B1148_carrier_harvest/verification/reproduce_new.sh -> certificates/carrier.py, certificates/fixed_twin.py, certificates/hitind.py, certificates/kappa_beat.py, certificates/one_bit.py, certificates/only_spinor.py, certificates/yukawa_carrier.py, outputs/carrier_out.txt ...
+   frontier/B1149_meridian_longitude_harvest/verification/reproduce.sh -> certificates/depth_lock.py, certificates/longitude_lock.py, certificates/trace_three.py, outputs/depth_lock_out.txt, outputs/longitude_lock_out.txt, outputs/trace_three_out.txt 
+   frontier/B1150_yukawa_clock_and_family/verification/reproduce.sh -> certificates/family_yukawa.py, certificates/yukawa_clock.py, outputs/family_yukawa_out.txt, outputs/yukawa_clock_out.txt 
+   frontier/B1153_peripheral_and_superposition/verification/reproduce.sh -> certificates/c4b_superposition.py, certificates/peripheral_identity.py, outputs/c4b_superposition_out.txt, outputs/peripheral_identity_out.txt 

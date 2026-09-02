@@ -1,0 +1,18 @@
+VENDORED_FROM -- B1153_peripheral_and_superposition (B1240, 2026-09-02)
+
+Source: origin/outside-bench @ 0c7f8b5a, directory outside_bench/ (the cloud seat's outside-bench branch).
+Why: reproduce.sh could not run on a fresh clone of main. Its provenance note pointed at a fetch of the
+certificates by name, but (a) the certificates load sibling files the fetch list omitted -- the full
+transitive closure was computed at the pinned SHA (6 files vendored below: code, data, expected outputs) -- and (b) the run
+record it cites, reproduce.log, is gitignored repo-wide (E57 shape: a lock without its tool).
+Integrity: every file below was copied byte-for-byte from the pinned SHA (git show), except where marked
+GENERATED. With this closure in place reproduce.sh prints REPRODUCES for 2/2 certificates
+on the main bench (2026-09-02); the live lock is tests/test_reproduce_runners_live.py (default lane: CERTS=c4b_superposition).
+
+path                                                 sha256                                                             source
+certificates/c4b_superposition.py                    9f8844414fd74cc1f4450354cc14669edf9db08f9b6b3149a048101686346518   origin/outside-bench @ 0c7f8b5a: outside_bench/certificates/c4b_superposition.py
+certificates/c4data/c4_zeros_L.txt                   ffad4dee2741e705a15481853c92babf60bf589563440d8f9511c8d4bebff716   origin/outside-bench @ 0c7f8b5a: outside_bench/certificates/c4data/c4_zeros_L.txt
+certificates/c4data/c4_zeros_zeta.txt                fd65ad71d2a5c56a749150bbe049eda9df6fe44d620afdacee2ac97856dca0e2   origin/outside-bench @ 0c7f8b5a: outside_bench/certificates/c4data/c4_zeros_zeta.txt
+certificates/peripheral_identity.py                  f1184fe6991440f6bf06ec8d5e0ae53ca55e95a9024a40322afc1830f8f0e37e   origin/outside-bench @ 0c7f8b5a: outside_bench/certificates/peripheral_identity.py
+outputs/c4b_superposition_out.txt                    9d4818b7daef2aafb81423894010857212dc0d683f849325fc60a0230f07ce61   origin/outside-bench @ 0c7f8b5a: outside_bench/outputs/c4b_superposition_out.txt
+outputs/peripheral_identity_out.txt                  b0184c577d720a350609c520281edc05ce3d911564ca6974427d9e33aece0b50   origin/outside-bench @ 0c7f8b5a: outside_bench/outputs/peripheral_identity_out.txt

@@ -1,0 +1,70 @@
+{
+ "B1147_clane_harvest": {
+  "sha": "dc937010",
+  "closure": [
+   "certificates/a2_glue64.py",
+   "certificates/a4_pin.py",
+   "certificates/a5_parity_lemma.py",
+   "certificates/b2_yukawa.py",
+   "certificates/c1_weyl.py",
+   "certificates/c2_habiro.py",
+   "certificates/c2b_ohtsuki_bridge.py",
+   "certificates/c5_qp1.py",
+   "certificates/cp1_strata.py",
+   "certificates/cusp_beat.py",
+   "certificates/jordan_beat.py",
+   "certificates/paper/verify/check_charge_bracket.py",
+   "certificates/simul_verify.py",
+   "certificates/spacetime64.py",
+   "certificates/twisted_double.py"
+  ],
+  "missing": []
+ },
+ "B1148_carrier_harvest": {
+  "sha": "d3c99640",
+  "closure": [
+   "certificates/carrier.py",
+   "certificates/fixed_twin.py",
+   "certificates/hitind.py",
+   "certificates/kappa_beat.py",
+   "certificates/one_bit.py",
+   "certificates/only_spinor.py",
+   "certificates/paper/verify/check_charge_bracket.py",
+   "certificates/simul_verify.py",
+   "certificates/theta_dump.py",
+   "certificates/twisted_double.py",
+   "certificates/yukawa_carrier.py"
+  ],
+  "missing": []
+ },
+ "B1149_meridian_longitude_harvest": {
+  "sha": "1544989d",
+  "closure": [
+   "certificates/depth_lock.py",
+   "certificates/longitude_lock.py",
+   "certificates/paper/verify/check_charge_bracket.py",
+   "certificates/trace_three.py",
+   "certificates/twisted_double.py"
+  ],
+  "missing": []
+ },
+ "B1150_yukawa_clock_and_family": {
+  "sha": "981f4c33",
+  "closure": [
+   "certificates/e7_ladder.py",
+   "certificates/family_yukawa.py",
+   "certificates/paper/verify/check_charge_bracket.py",
+   "certificates/twisted_double.py",
+   "certificates/yukawa_clock.py"
+  ],
+  "missing": []
+ },
+ "B1153_peripheral_and_superposition": {
+  "sha": "0c7f8b5a",
+  "closure": [
+   "certificates/c4b_superposition.py",
+   "certificates/peripheral_identity.py"
+  ],
+  "missing": []
+ }
+}

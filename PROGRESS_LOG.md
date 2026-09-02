@@ -13283,3 +13283,14 @@ across a context boundary instead of from the FINDINGS — the same shape as E53
 record already decides), one layer out (the commit message rather than a live surface). Rule applied going
 forward: commit messages that state numbers or class definitions are composed by quoting the arc's FINDINGS /
 ledger rows, never from recall; this entry is the correction of record.
+
+## 2026-09-02 — B1240: the belt closure — the seam-harvest era's reproduction locks now run; fc R42–R50 harvested
+
+Twenty-seven tests over B1147–B1184 locked the string `REPRODUCES`; five of the runners they pin could not run on a
+fresh clone (certificates on a seat branch, five sibling dependencies unlisted, `reproduce.log` gitignored). Closure
+computed at each pinned SHA and vendored (65 files, sha256-pinned); 25/25 certificates reproduce here;
+`scripts/checks/reproduce_belt.py` + `tests/test_reproduce_runners_live.py` make the belt executable on every suite
+run. E57 #2–#6 + a gate scope hole + the PINS-TEXT third shape (six runners; B1175 honest). fc R42–R50 each
+recomputed: h(148)=3/2 (two routes); B511 D3.3 rebanked on a 200-bit trace-map run (percentiles were a 53-bit
+artifact); B549 label; B980 digit; B955 surjections; R50 8/8; R49 not on main; SUPERSEDED_UNMARKED 128 not 48
+(L197). Three self-caught slips on record (FINDINGS §5). L198 (ship the generator) registered. Relays to fc and cloud.

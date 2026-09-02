@@ -16,7 +16,7 @@ value-matching): the **hypercharge DIRECTION is object-forced** on an SM-shaped 
 dual-homed across two frames + verified on-bench), the **SM-preserving breaking chain is unique** (exactly 2
 SM-safe vev directions, B1162/cloud-D3), there is **exactly one generation** (B1161/B1162/cloud-D4), the
 height-308 MSSM **bundle witness is verified** (B1162, Sage: H0(Y,V)=0). On the VALUE/dynamics side the
-walls sharpened: **SUSY is a no-go** (B1162/cloud-D5), the **up-Yukawa is zero** (SEAM-Y), the **values stay
+walls sharpened: **SUSY is a no-go** (B1162/cloud-D5), the **up-Yukawa is zero** (SEAM-Y) [2026-09-02 B1240] on the heterotic dressing; the object channel's kinematic up-shape has 6 nonzero components (B1185 INV-1) — the two readings are layered, not in conflict], the **values stay
 withheld**, and the **heterotic framework is imported** with its selection reducing to the missing archimedean
 marking W₀ = an observer *orientation* (B1163, a theorem: amphicheiral ⇒ un-self-suppliable). The firewall
 line itself is now **pinned as a principled, falsifiable classifier** (B1164/MD1: STRUCTURE iff dimensionless

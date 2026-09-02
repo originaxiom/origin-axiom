@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-02, B1240 — THE BELT CLOSURE: THE SEAM-HARVEST ERA'S REPRODUCTION LOCKS NOW RUN; fc R42–R50 HARVESTED)**:
+27 tests over B1147–B1184 locked `REPRODUCES` as a string; **five runners could not run on a fresh clone** (certificates
+on a seat branch, five sibling deps unlisted, run record gitignored — E57 #2–#6). Closure vendored (65 files,
+sha256-pinned), 25/25 certificates reproduce, `reproduce_belt.py` (selftest 9/9) + `test_reproduce_runners_live.py`
+execute all 26 runnable runners every suite run. fc harvest: h(148)=3 proper/2 improper (two routes); **B511 D3.3
+REBANKED** at 200 bits (banked percentiles a 53-bit artifact); B549/B980/B955 corrected at source; R50 8/8; R49
+sentence not on main; `SUPERSEDED_UNMARKED` 128 not 48. L198 registered. Gate 5 untouched.
+
 **LATEST (2026-09-02, B1239 — THE ¼ CLASS IS CUSP-LOCAL: R040 VERIFIED AT 10⁻⁶⁴, TWO THEOREMS ON THE FULL CENSUS, THE RESIDUE IS m004's OWN CUSP)**:
 codex R040 recomputed (1260/1260 covers zero at quad-double; 17/17 closed) and sharpened — SnapPy's closed CS is mod ½
 (CGHN p.14, read), so the observable claim is ¼-exclusion, and that needs neither Kawauchi nor freeness: **closed

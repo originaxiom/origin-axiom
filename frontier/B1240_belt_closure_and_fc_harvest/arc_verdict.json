@@ -1,0 +1,36 @@
+{
+ "id": "B1240",
+ "verdict": "OPEN",
+ "claim_one_line": "THE BELT CLOSURE: 27 seam-harvest-era tests locked REPRODUCES as a string; five runners (B1147/1148/1149/1150/1153) could not run on a fresh clone (closure on a seat branch, run record gitignored). Full transitive closure vendored (65 files, sha256-pinned), 25/25 certificates reproduce, instrument scripts/checks/reproduce_belt.py (9-control selftest, three shapes) + tests/test_reproduce_runners_live.py executes all 26 runnable runners every suite run. E57 instances #2-#6 + gate scope hole + third shape (PINS-TEXT). fc R42-R50 recomputed: R42 h(148)=3 proper/2 improper (two routes); B511 D3.3 REBANKED on the 200-bit trace map (banked percentiles = 53-bit artifact); B549 label (E7 adjacency Perron vector); B980 digit slip; B955 surjections computed; SUPERSEDED_UNMARKED 128 not 48 (L197).",
+ "instrument": true,
+ "depends_on": [
+  "B1147",
+  "B1148",
+  "B1149",
+  "B1150",
+  "B1153",
+  "B1238",
+  "B1237",
+  "B511",
+  "B549",
+  "B980",
+  "B955",
+  "B775",
+  "B1185",
+  "B1235"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "No verdict of record reversed. B511 D3.3 rebanked on a different (higher-precision) computation with the same qualitative verdict. c2b_ohtsuki_bridge expected output is main-bench GENERATED (never committed at source), labelled as such in B1147's VENDORED_FROM.txt. Three self-caught slips recorded in FINDINGS section 5. Gate 5 untouched. Instruments: scripts/checks/reproduce_belt.py (string-lock / runner-closure / inert census, selftest 9/9); tests/test_reproduce_runners_live.py; verification/fast_checks.py, r42_pari_cycles.py, b511_d3_tracemap.py; closure_full.json (git show at pinned SHAs).",
+ "identifications": [],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-02",
+  "arc": "B1240",
+  "was": "candidate: none -- the arc contains no theorem-shaped claim; its statements are census counts, reproduction verdicts and a class-number computation already in the literature (h(148)=3)",
+  "decision": "no law",
+  "class": "instrument + closure + corrections",
+  "basis": "every number is recomputed by a script in verification/ and locked by tests/test_b1240_belt_closure_and_fc_harvest.py; the belt lock is executable (tests/test_reproduce_runners_live.py)"
+ }
+}

@@ -1,0 +1,31 @@
+relator (1,0)-entry numerator, factored:
+   -s*(m**2*s**2 - 2*m**2*s + m**2 + s)*(m**4*s - m**4 + m**2*s**2 - 3*m**2*s + 3*m**2 + s - 1)
+candidate irreducible factors (s-dependent, excluding s=0 reducible locus):
+    m**2*s**2 - 2*m**2*s + m**2 + s
+    m**4*s - m**4 + m**2*s**2 - 3*m**2*s + 3*m**2 + s - 1
+factors on which the FULL relator vanishes (true components): [m**4*s - m**4 + m**2*s**2 - 3*m**2*s + 3*m**2 + s - 1]
+components reducing to the Riley quadratic s^2-s+1 at m=1: [m**4*s - m**4 + m**2*s**2 - 3*m**2*s + 3*m**2 + s - 1]
+GEOMETRIC component phi(m,s) = m**4*s - m**4 + m**2*s**2 - 3*m**2*s + 3*m**2 + s - 1 ; degree in s: 2
+phi at m=1: s**2 - s + 1
+tr(lambda) denominator (m-units only): m**4
+tr(lambda)*den reduced mod phi:  alpha(m) + beta(m) s
+S(m) = beta(m), factored: 0
+S identically zero (boundary blind): True
+oriented longitude eigenvalues at m = 7/5:
+   L1 * L2 = 1   (1 = the fiber swaps L <-> 1/L)
+   L1 == L2: False  (False = the ORIENTED eigenvalue separates)
+fiber discriminant at m = 7/5: -2758899/390625  (< 0: the two interior points are complex conjugate)
+at m = 1 the fiber is {q, qbar} (s^2 - s + 1): the parabolic case, same structure
+
+QP-1 CLOSES ON THE PREREGISTERED SECOND BRANCH, WITH THE MECHANISM EXACT:
+the cusp CHARACTER (tr mu, tr lambda) is IDENTICALLY BLIND to one interior
+bit — tr(lambda) reduces mod phi to a function of m alone (beta = 0), so the
+two interior points over every meridian eigenvalue are boundary-
+indistinguishable.  The hidden bit is exact and named: the two points carry
+oriented longitude eigenvalues L and 1/L (product = 1, verified), they are
+complex conjugates of each other over real m (disc < 0), and L <-> 1/L with
+the meridian fixed is PRECISELY the beat's action on the cusp lattice
+(memo 31: beta(mu) = +mu, beta(lambda) = +lambda^-1).  The Markov blanket's
+self-report hides exactly one bit, and it is the beat's mirror bit — the
+same Z/2 that selects the spin structure.  Oriented boundary data (m, L)
+separates the fiber; the trace forgets the orientation of the reflection.

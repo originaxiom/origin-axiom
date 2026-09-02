@@ -1,5 +1,25 @@
 # Changelog
 
+## THE BELT CLOSURE — 27 seam-harvest-era tests locked REPRODUCES as a string; five runners could not run on a fresh clone; the closure is vendored and the belt now RUNS (2026-09-02)
+
+**B1240.** The instrument `scripts/checks/reproduce_belt.py` (three modes, selftest 9/9) finds **27** test files
+that assert the string `REPRODUCES` with no subprocess, **5** runners (B1147/1148/1149/1150/1153) referencing files
+main does not track — their certificates were on `origin/outside-bench`, the fetch lists omitted five sibling
+dependencies the certificates load, and the cited run record `reproduce.log` is gitignored — and **7** runners that
+recompute nothing (six print REPRODUCES; B1175 honestly prints RECORD). **Fix:** the full transitive closure computed
+at each pinned SHA (`git show`) and vendored (65 files, sha256 per file in `VENDORED_FROM.txt`); every one of the 25
+certificates prints REPRODUCES on this bench (`c2b_ohtsuki_bridge`'s expectation was never committed at source — ours
+is labelled GENERATED); runners take `CERTS=<name>` and `cd` to themselves; **`tests/test_reproduce_runners_live.py`
+executes all 26 runnable belt runners on every suite run** (fastest certificate per heavy arc by default, all under
+`OA_SLOW=1`; two-sided: a tampered expected output reds it). E57 extended (#2–#6, gate scope hole, third shape).
+**fc R42–R50 recomputed:** h(148) = 3 proper / 2 improper by two routes (own reduction, PARI ρ-cycles; L197's
+companion table complete to m=12); **B511 D3.3 REBANKED** on an independent 200-bit trace-map run (the banked
+"2.0, 2.0, 2.0" percentiles are a 53-bit escape artifact; verdict stands); B549's "E7 Cartan spectrum" is the
+adjacency Perron vector; B980's printed Vol(4₁) has a digit slip at the 29th place; B955's A₄/D₅/S₅ surjections
+computed True; R50's V4 table 8/8; R49's self-contradicting sentence is on the outside-bench branch only (relayed);
+`SUPERSEDED_UNMARKED` is **128** not 48 (L197 corrected; candidate list shipped). Three self-caught slips recorded
+(imprimitive forms; a stale JSON; a substring count). L198 registered. Gate 5 untouched. Two relays (fc, cloud).
+
 ## THE ¼ CLASS IS CUSP-LOCAL — codex R040 verified at 10⁻⁶⁴ and sharpened; two theorems on the full census; the residue is m004's own cusp (2026-09-02)
 
 **B1239.** Codex R040 (`fc`-graded ask: census first, theorem second) recomputed in full, **nothing merged**. **(1)

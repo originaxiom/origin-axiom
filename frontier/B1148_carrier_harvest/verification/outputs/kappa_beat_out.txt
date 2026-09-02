@@ -1,0 +1,20 @@
+kappa = tr[A,B] (direct)      = (Fraction(1, 1), Fraction(1, 1))   (as x + y*q)
+kappa via Fricke x^2+y^2+z^2-xyz-2 = (Fraction(1, 1), Fraction(1, 1))   with (x,y,z) = ((Fraction(2, 1), Fraction(0, 1)),(Fraction(2, 1), Fraction(0, 1)),(Fraction(2, 1), Fraction(1, 1)))
+=> kappa = 1 + q  EXACTLY (preregistration confirmed)
+kappa(beta(a),beta(b)) = (Fraction(2, 1), Fraction(-1, 1))
+=> THE BEAT REFLECTS THE FIRST INTEGRAL: kappa -> gal(kappa), not fixed
+kappa + gal(kappa) = (Fraction(3, 1), Fraction(0, 1))   (the trace)
+kappa * gal(kappa) = (Fraction(3, 1), Fraction(0, 1))   (the norm)
+minimal polynomial of kappa over Q: X^2 - 3X + 3;  discriminant = -3 = d_K
+N(kappa) = 3: the first integral GENERATES the ramified prime of Q(sqrt-3)
+Fricke level c = kappa + 2 = (Fraction(3, 1), Fraction(1, 1)); beat image = (Fraction(4, 1), Fraction(-1, 1))  (Galois-conjugate surface)
+
+THE MEETING POINT, EXACT: the dynamics lane's one forced conservation (kappa,
+the Suto first integral) and the structure lane's one conserved involution
+(the beat) are not independent — the beat REFLECTS kappa into its Galois
+conjugate, and the beat-invariant content of the first integral is exactly
+  trace 3, norm 3, minimal polynomial X^2 - 3X + 3, discriminant -3:
+every symmetric function of kappa is built from the field's own 3 — the
+discriminant, the conductor of chi_-3, the ramified prime, which the ideal
+(kappa) itself generates.  The two conserved things meet, and their meeting
+point is the arithmetic of Q(sqrt-3) in its purest coin.

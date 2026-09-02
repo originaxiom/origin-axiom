@@ -1,0 +1,34 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+bridge sl2 triple on the 27: [E,F] = H verified
+C rebuilt in-run: unique e6 invariant, 270 nonzero ordered triples
+Y = eps (x) C: 540 nonzero entries
+FACT A: Y invariant under diagonal E: True, F: True, H (weight-zero support): True
+FACT B: 27 string basis verified: 6 doublet chains (bottom solved exactly), 15 singlets
+FACT B: Psi string basis verified: chains {3: 6, 1: 6, 2: 15} (= memo 50's 6 J3, 15 J2, 6 J1)
+
+FACT C/D: Y's block support over chain lengths (s1,s2,s3):
+  block (1, 1, 1): 30 nonzero string-triple entries
+  block (1, 2, 2): 60 nonzero string-triple entries
+  block (2, 1, 2): 60 nonzero string-triple entries
+  block (2, 2, 1): 180 nonzero string-triple entries
+  block (2, 3, 2): 120 nonzero string-triple entries
+  block (3, 2, 2): 120 nonzero string-triple entries
+  block (3, 3, 1): 90 nonzero string-triple entries
+FACT C: forbidden blocks hit: [] (expect none)
+FACT D: allowed blocks NOT hit: [] (expected branch: none)
+FACT E: every nonzero block has s1+s2+s3 ODD: True
+
+THE YUKAWA READS THE CLOCK: over the meridian's chain grading the unique
+coupling is supported on EXACTLY the seven sl2-allowed depth blocks — no
+extra vanishing, no leakage — and every coupled triple has odd total chain
+length.  Depth-3 matter chains talk to each other only through internal
+singlets (3,3,1) and to the unlocked depth-2 chains only through internal
+doublets (3,2,2); the frozen matter lines (length 1) couple pairwise through
+singlets (1,1,1) and to the unlocked sector through doublets (1,2,2).  The
+depth grading, the lock parity (memo 47), and the coupling are one
+compatible structure.  Structure only; Gate 5 untouched.

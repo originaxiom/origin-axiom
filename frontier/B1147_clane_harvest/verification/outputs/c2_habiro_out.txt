@@ -1,0 +1,36 @@
+J_1 = 1
+J_2 = q**2 - q + 1 - 1/q + q**(-2)
+J_2 = classical Jones of 4_1 (CITED anchor): True;  J_3(q) = J_3(1/q): True
+Kashaev bridge at N = 5: J_N(zeta_N) == <4_1>_N exactly in Z[zeta_5]: True
+Kashaev bridge at N = 7: J_N(zeta_N) == <4_1>_N exactly in Z[zeta_7]: True
+Kashaev bridge at N = 9: J_N(zeta_N) == <4_1>_N exactly in Z[zeta_9]: True
+
+the p-adic congruence tower (valuations of I(zeta_{p^{r+1}}) - I(zeta_{p^r}) at the prime above p):
+  p=2, level 2 -> 4:  v_pi(difference) = 2
+  p=2, level 4 -> 8:  v_pi(difference) = 2
+  p=3, level 3 -> 9:  v_pi(difference) = 2
+  p=3, level 9 -> 27:  v_pi(difference) = 2
+  p=5, level 5 -> 25:  v_pi(difference) = 2
+  p=5, level 25 -> 125:  v_pi(difference) = 2
+
+preregistered gates: all valuations >= p^r - 1: False; valuations grow with r: False
+MEASURED LAW: v_pi(difference) = 2 UNIVERSALLY (all p, all r): True
+  v_pi(2 - zeta - zeta^-1) at level 4: 2  (the smallest new factor pair)
+  v_pi(2 - zeta - zeta^-1) at level 8: 2  (the smallest new factor pair)
+  v_pi(2 - zeta - zeta^-1) at level 9: 2  (the smallest new factor pair)
+  v_pi(2 - zeta - zeta^-1) at level 27: 2  (the smallest new factor pair)
+  v_pi(2 - zeta - zeta^-1) at level 25: 2  (the smallest new factor pair)
+  v_pi(2 - zeta - zeta^-1) at level 125: 2  (the smallest new factor pair)
+
+C2 / C-AD3 CLOSED ON THE PREREGISTERED SECOND BRANCH, with the law exact:
+the cyclotomic expansion of 4_1 is verified against its classical anchor and
+the Kashaev bridge holds exactly in Z[zeta] at three levels — but the NAIVE
+tower does NOT cohere: the difference of consecutive unified evaluations has
+pi-adic valuation EXACTLY 2, universally (six cases, three primes), pinned to
+the smallest new-level factor pair (1-zeta)(1-zeta^{-1}), whose valuation is
+exactly 2.  In p-adic terms v_p = 2/phi(p^{r+1}) -> 0: raw evaluations do not
+converge along the tower.  The finite-place shadow is exhibited and its
+first-order structure is now an exact universal law; the CORRECT Habiro-ring
+congruence (Taylor-at-zeta / Frobenius-twisted comparison) is the named
+follow-up, with this table as its target data.  Placement/structure only;
+Gate 5 untouched.
