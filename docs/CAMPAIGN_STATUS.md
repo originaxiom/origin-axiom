@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-02, B1239 — THE ¼ CLASS IS CUSP-LOCAL: R040 VERIFIED AT 10⁻⁶⁴, TWO THEOREMS ON THE FULL CENSUS, THE RESIDUE IS m004's OWN CUSP)**:
+codex R040 recomputed (1260/1260 covers zero at quad-double; 17/17 closed) and sharpened — SnapPy's closed CS is mod ½
+(CGHN p.14, read), so the observable claim is ¼-exclusion, and that needs neither Kawauchi nor freeness: **closed
+amphichiral ⇒ cs ∈ {0,½}** (APS + η odd; full closed census 37/37, bite 17 chiral at ¼) and **cusped with a reversing
+isometry fixing no cusp ⇒ cs ≡ 0 mod ½** (the swap corollary, proved here; full cusped census 28/28, bite 5 quarter in
+the complementary bucket). The ¼ class lives only on τ-invariant cusps — m004's own case. **L194 refined in place,
+OPEN** (cusp-local conjecture; instrument gap + literature tool named). E52 #7 mine, self-caught. fc R42–R48 → B1240.
+
 **LATEST (2026-09-02, B1238 — THE SEAT HARVEST, THIRD RING: THE CHARACTER VARIETY IS THE SQUARE-TIME CURVE; BRONZE'S OCTIC CLOSES THE AXIS)**:
 codex R037–R039 + the physics-seat evaluation branch's R39–R41 + W-E sweep read, nothing merged, every claim
 recomputed here. **The prize:** B211's Φ satisfies 4Φ = (2z−x²−1)² − (x²−1)(x²−5) — the character variety *is*

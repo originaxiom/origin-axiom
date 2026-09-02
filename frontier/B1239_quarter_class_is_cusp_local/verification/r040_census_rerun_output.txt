@@ -1,0 +1,48 @@
+  100/1260  double={'zero': 100, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 100, 'quarter': 0, 'other': 0, 'fail': 0}  6s
+  200/1260  double={'zero': 200, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 200, 'quarter': 0, 'other': 0, 'fail': 0}  13s
+  300/1260  double={'zero': 300, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 300, 'quarter': 0, 'other': 0, 'fail': 0}  21s
+  400/1260  double={'zero': 400, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 400, 'quarter': 0, 'other': 0, 'fail': 0}  29s
+  500/1260  double={'zero': 500, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 500, 'quarter': 0, 'other': 0, 'fail': 0}  38s
+  600/1260  double={'zero': 600, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 600, 'quarter': 0, 'other': 0, 'fail': 0}  47s
+  700/1260  double={'zero': 700, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 700, 'quarter': 0, 'other': 0, 'fail': 0}  56s
+  800/1260  double={'zero': 800, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 800, 'quarter': 0, 'other': 0, 'fail': 0}  65s
+  900/1260  double={'zero': 900, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 900, 'quarter': 0, 'other': 0, 'fail': 0}  74s
+  1000/1260  double={'zero': 1000, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 1000, 'quarter': 0, 'other': 0, 'fail': 0}  83s
+  1100/1260  double={'zero': 1100, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 1100, 'quarter': 0, 'other': 0, 'fail': 0}  92s
+  1200/1260  double={'zero': 1200, 'quarter': 0, 'other': 0, 'fail': 0}  quad={'zero': 1200, 'quarter': 0, 'other': 0, 'fail': 0}  102s
+{
+ "census_size": 1260,
+ "counts_double": {
+  "zero": 1260,
+  "quarter": 0,
+  "other": 0,
+  "fail": 0
+ },
+ "counts_quad": {
+  "zero": 1260,
+  "quarter": 0,
+  "other": 0,
+  "fail": 0
+ },
+ "max_dist_double_in_class": 1.799825775391955e-15,
+ "max_dist_quad_in_class": 9.043760335550046e-64,
+ "vol_ratio_all_2": true,
+ "all_covers_orientable": true,
+ "base_cusp_kinds": {
+  "Klein bottle cusp": 861,
+  "Klein bottle cusp+Klein bottle cusp": 311,
+  "Klein bottle cusp+Klein bottle cusp+torus cusp": 10,
+  "Klein bottle cusp+torus cusp": 42,
+  "torus cusp": 25,
+  "Klein bottle cusp+Klein bottle cusp+Klein bottle cusp": 9,
+  "torus cusp+torus cusp": 1,
+  "Klein bottle cusp+Klein bottle cusp+Klein bottle cusp+Klein bottle cusp": 1
+ },
+ "distinct_cover_names": 1260,
+ "tolerances": {
+  "double": 1e-06,
+  "quad": 1e-20
+ },
+ "snappy_version": "3.3.2"
+}
+RERUN rc=0

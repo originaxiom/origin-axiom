@@ -5154,6 +5154,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1239": {
+   "slug": "quarter class is cusp local",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "L194"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B123": {
    "slug": "arithmeticity m1",
    "motifs": [

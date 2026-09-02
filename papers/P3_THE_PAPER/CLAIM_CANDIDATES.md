@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 829 of 1051 settled arcs — 79%** —
+the field is **absent on 829 of 1052 settled arcs — 79%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (75) ∪ on-a-synthesis-surface ∪ law-vocabulary (112) = 485 arcs.**
-The vocabulary criterion adds **40 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (75) ∪ on-a-synthesis-surface ∪ law-vocabulary (113) = 486 arcs.**
+The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **3.0** on the corpus's own law vocabulary against
-**1.08** for the rest — **2.79×**. The criterion
+**1.08** for the rest — **2.78×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -188,7 +188,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1144` | PROVED | S | | THE ADOPTION-LAYER CORRECTION: four adoption-layer errors in the phase-III digest (B1138-B1143), from the cloud's CORPUS_ADOPTION_AUDIT (golden_gate d537790), verified on… |
 | `B1187` | PROVED | S | | L187 THE DEPTH-CLOSURE SITTING -- the seven under-proved kills dispositioned, each on its named stabilization, with the verifiers themselves re-verified. THE REGISTRATION… |
 
-## §6 the observer — one bit, priced (127)
+## §6 the observer — one bit, priced (128)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -242,6 +242,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1204` | PROVED | V | | THE SHAPE OF A FORCING THEOREM, read off the record's own successful forcings. The owner asked whether prior symmetry BREAKINGS supply the insight/mechanism/principle for… |
 | `B1222` | NEGATIVE | V | | 'THE SELECTION IS THE OBSTRUCTION' -- a unifying thesis for the programme's ~65 proved vanishings, proposed with three kill conditions named IN ADVANCE, and killed by the… |
 | `B1233` | PROVED | V | | THE Z-AI AUDIT: 15 CLAIMS CONFIRMED ON THIS BENCH, 7 REFUTED, ONE REAL DEFECT FOUND IN OUR OWN RECORD, AND ONE HEADLINE IDENTIFICATION REFUTED BY GALOIS THEORY. Owner: 't… |
+| `B1239` | PROVED | V | | THE 1/4 CLASS IS CUSP-LOCAL. Codex R040 (free orientation-reversing deck => CS = 0) reproduced -- 1260/1260 orientation double covers of the nonorientable cusped census i… |
 | `B14` | PROVED | S | | F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b.… |
 | `B64` | PROVED | S | | The k(alpha) sector-assignment is proven symbolically: even-/k/ char(M^k) is P-symmetric, odd-/k/ P-antisymmetric, via depth-n CH plus Dickson parity.… |
 | `B161` | PROVED | S | | The cancellation locus kappa=2 is codimension-1, measure-zero and spectrally trivial, while non-cancellation is generic and fractured; 'forced/empty' is retired.… |

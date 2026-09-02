@@ -1,0 +1,37 @@
+CGHN = Coulson, Goodman, Hodgson, Neumann, 'Computing arithmetic invariants of 3-manifolds', Experiment. Math. 9 (2000) -- the two passages B1239 reads (extracted from the PDF on the bench 2026-09-02 with pymupdf; page numbers as in the arXiv/print layout: §5, pp. 14-15). Only the sentences relied on are excerpted; everything else in the cell is derived, not quoted.
+
+--- p.14: cs multiplies by degree; the Dehn-filling decomposition; the modulo-1/2 convention ---
+cs(M) also has algebraic signiﬁcance; it is closely tied to the Bloch invariant, an
+algebraic/number-theoretic invariant which we describe in the next section.
+A less signiﬁcant reason is that cs(M) multiplies by degree in coverings, so it is a
+tool for commensurability questions. However, the behaviour of η(M) for coverings
+is also well understood (and related to other interesting invariants, see e.g., [1, 23]).
+[...]
+For hyperbolic 3-manifolds Meyerhoﬀ[18] extended the deﬁnition of cs(M) to
+allow M to have cusps. The point is that if M ′ is a compact manifold obtained by
+Dehn ﬁlling M then cs(M ′) is naturally the sum of a term that varies analytically
+on hyperbolic Dehn ﬁlling space and a discontinuous summand (−1
+2π times the sum
+of torsions of the geodesics added by Dehn ﬁlling), see [32] and [42]. So one deﬁnes
+cs(M) as the value of the analytic term at the complete hyperbolic structure on M.
+This leads to an invariant cs(M) of a hyperbolic 3-manifold M in R/ 1
+2Z. If M is
+closed the Chern-Simons invariant is well deﬁned modulo 1, but Snap and SnapPea
+still only compute modulo 1
+2. This is no real loss, since the Chern-Simons invariant
+of a closed manifold M modulo 1 can also be computed from the ﬁrst homology of
+M together with the eta-invariant η(M), both of which Snap can also compute.
+Another signiﬁcance of cs(M) for a hyperbolic 3-manifold is that it has natural
+
+--- p.15: the APS relation as printed ---
+as above. If k > 1 then M may not be the boundary of any X, but the disjoint
+union 2M of 2 copies of M is a boundary, so this formula can be used to deﬁne
+η(2M), and hence deﬁne η(M) as 1
+2η(2M).
+The relation of η(M) to cs(M) for a compact 3-manifold M is ([1]):
+3η(M) ≡2 cs(M) + τ
+(mod 2),
+where τ is the number of 2-primary summands of H1(M; Z). Thus η(M) completely
+determine cs(M) if M has known homology. There is also a cusped version of this
+— Meyerhoﬀand Ouyang [20] extended the deﬁnition of η(M) to cusped M for
+which one has chosen a basis of homology at each cusp.

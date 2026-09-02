@@ -13254,3 +13254,32 @@ Twelve arcs receive addenda; nothing is retracted; nothing died. Codex's R040 (f
 1260/1260) and the physics seat's R42–R48 with Phases C/D arrived while this was being verified and are queued as
 B1239 with the census rerun first.
 At the landing itself one more error surfaced, mine: B1237 shipped a lock (`tests/test_paper_ledger_counts.py`) whose tool had never been added to git — every local certificate passed because the file sat on the bench. That is a class (E57), and it now has a gate (`tracked-deps`) that runs at push, the moment a fresh clone would have found it. One instance in 1160 tracked files; the tool ships in this commit.
+
+## 2026-09-02 — B1239: the ¼ class is cusp-local — R040 verified at 10⁻⁶⁴, two theorems on the full census, the residue is m004's cusp
+
+Codex R040 recomputed (1260/1260 zero at quad-double, max 9.04e−64; 17/17 closed covers by the parent route) and
+sharpened three ways: SnapPy's closed CS is mod ½ (CGHN p.14 read), so the observable statement is ¼-exclusion, not
+½; APS + η odd gives it for every closed amphichiral manifold without Kawauchi or freeness (full closed census 37/37,
+bite 17 chiral at ¼); the swap corollary gives it for cusped manifolds whose reversing isometry fixes no cusp (full
+cusped census, bucket A 28/28; bucket B 6 zero / 5 quarter). The ¼ class therefore lives only on τ-invariant cusps —
+exactly m004's (m000's Klein-bottle cusp) — where there is no theorem. L194 refined in place and kept OPEN as the
+cusp-local conjecture, with the instrument gap (t3m trace of the cusp action) and the literature tool
+(Meyerhoff–Ouyang 1997, cited-not-read) named. B1234/B1235 addenda; E52 #7 (mine: the orientation-blind
+`is_isometric_to(M, mirror)` recurred for one probe, caught by the chiral control). Relay to codex with two asks.
+`frontier/B1239_quarter_class_is_cusp_local/`, lock `tests/test_b1239_quarter_class_is_cusp_local.py`.
+
+## 2026-09-02 — Correction to the commit message of 19e10685 (B1238): the message, not the record, was wrong
+
+The B1238 commit message (pushed; not rewritten — history rewrites are owner-only) misstates two things the banked
+record has right. **(a)** It says the character variety's Jacobian 40a3 has torsion "ℤ/4 × ℤ/2"; 40a3 has torsion
+**ℤ/4** (ℤ/2 × ℤ/2 is 40a1's, the quotient curve) — `frontier/B1238_seat_harvest_40a3_bronze_octic/FINDINGS.md`
+and I-12 in `docs/IDENTIFICATION_LEDGER.md` are authoritative. **(b)** It describes E56 as "a verifier written to
+the already-retracted reading of an instrument"; E56 is the **RESIDUAL-ONLY INTEGER-RELATION** class
+(`docs/ERROR_LEDGER.md` row E56) — a relation accepted on a small residual with no coefficient bound and no second
+route. The orientation-probe episode it conflated with is E52 (B1235/B1238). **(c)** E57's mechanism is "a tracked
+test that RUNS an untracked script" (gate `tracked-deps` checks that every script a test invokes is tracked), not
+"a lock whose deciding tool is not a tracked dependency". Cause: the message was written from working memory
+across a context boundary instead of from the FINDINGS — the same shape as E53 (asserting from recall what the
+record already decides), one layer out (the commit message rather than a live surface). Rule applied going
+forward: commit messages that state numbers or class definitions are composed by quoting the arc's FINDINGS /
+ledger rows, never from recall; this entry is the correction of record.

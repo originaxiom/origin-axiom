@@ -2209,6 +2209,23 @@ conjecture is dead.) ★★★
 91 isometry tests; positive control m000 → m004 ✔, m003 ✘). Fence: quotients outside the census not excluded.
 L194 survives.*
 
+*Refined 2026-09-02 (B1239, `frontier/B1239_quarter_class_is_cusp_local/`): the question splits by where the isometry
+acts. **Closed:** the ¼ class is excluded by ANY orientation-reversing isometry — APS 3η ≡ 2cs + τ (mod 2), η = 0, τ ∈ ℤ ⇒
+cs ∈ {0, ½} mod 1; freeness and Kawauchi decide only 0 vs ½, which SnapPy (closed CS reduced mod ½, CGHN p.14) cannot
+see; verified on the entire closed census, 37 amphichiral / 37 zero, 17 chiral quarter-class as the bite. **Cusped, no
+cusp fixed by the isometry:** excluded by the swap corollary (equivariant fillings (s, τs); core torsions θ, −θ cancel
+exactly; CGHN's analytic term ≡ 0 mod ½ along the sequence, continuity) — entire cusped census, bucket A 28/28 zero.
+**Cusped with a τ-invariant cusp:** this is where every quarter-class amphichiral manifold lives (bucket B 6 zero / 5
+quarter; the 13 of the bite control, one-cusped) — and where m004 lives (the Gieseking quotient's cusp is a Klein bottle).
+For a free deck the invariant cusp carries a glide-type action; codex R040's census, rerun here, has 1260/1260 covers at
+zero to 9 × 10⁻⁶⁴, 1182 of them with such cusps. No theorem: two invariant slopes only, odd covers keep the cusp type,
+even covers erase the ¼ bit. **The conjecture is now cusp-local:** an orientation-reversing isometry acting freely on
+every cusp it preserves excludes ¼. Discriminating experiment: an amphichiral manifold with interior fixed points but a
+free action on its invariant cusp (predicted zero). Instrument gap: SnapPy's `Isometry` exposes the cusp action's linear
+part only (`cusp_maps()`), not the translation, so freeness on the cusp needs a t3m-level trace of the vertex-link
+action. Literature tool: the cusped η–cs relation, Meyerhoff–Ouyang, Canad. Math. Bull. 40 (1997) — cited, not read; if
+its cusp-basis correction dies under a glide-type action the residue closes by the closed argument. L194 OPEN, sharper.*
+
 ## L195 — THE REVIVABLE INDEX (registered 2026-09-02, B1235 addendum; source: cc3's REVIVABLE_rationale of 2026-08-09, recovered under E51)
 
 The kill graph (`frontier/B738_pathfinder_compiler/kill_graph.json`, 774 entries) carries a `hatch` on 264 rows

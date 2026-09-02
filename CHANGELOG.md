@@ -1,5 +1,31 @@
 # Changelog
 
+## THE ¼ CLASS IS CUSP-LOCAL — codex R040 verified at 10⁻⁶⁴ and sharpened; two theorems on the full census; the residue is m004's own cusp (2026-09-02)
+
+**B1239.** Codex R040 (`fc`-graded ask: census first, theorem second) recomputed in full, **nothing merged**. **(1)
+Reproduced and tightened:** all 1260 orientation double covers of `NonorientableCuspedCensus` in the zero class of
+CS mod ½ at double (max 1.8 × 10⁻¹⁵) and quad-double (max 9.04 × 10⁻⁶⁴; codex's 10⁻⁶ tolerance is nine orders loose);
+the 17 `NonorientableClosedCensus` covers (control codex did not run; parent route unfill → CS → refill) 17/17 zero
+with Kawauchi's *conclusion* Tor H₁ = A⊕A, τ even computed on each. **(2) The sharpening that changes the grading:**
+SnapPy computes closed CS only mod ½ (CGHN p.14, read), so codex's closed theorem — cs ≡ 0 mod 1, the content that
+needs Kawauchi and freeness — is invisible to every number; what the numerics test is the **¼ class**, and APS as
+printed (3η ≡ 2cs + τ mod 2) with η = 0 under *any* reversing isometry and τ ∈ ℤ excludes ¼ for **every closed
+amphichiral manifold, free or not**. Full closed census (11 031): 37 amphichiral, **37/37 zero**; bite: 17 chiral closed
+at ¼, cusped amphichiral 11/25 at ¼. **(3) The swap corollary (new, proved from cited inputs):** a cusped manifold with
+a reversing isometry fixing **no** cusp has cs ≡ 0 mod ½ (equivariant fillings, torsions cancel exactly, continuity).
+Full cusped census (61 911): bucket A **28/28 zero**; bucket B (every reversing isometry fixes a cusp) 6 zero / 5
+quarter — the ¼ class lives only on τ-invariant cusps, **m004's own case** (m000's cusp is a Klein bottle). No theorem
+reaches it; 1260/1260 is the evidence. **L194 refined in place, OPEN:** *a reversing isometry acting freely on every
+cusp it preserves excludes ¼*; instrument gap named (SnapPy's `Isometry` exposes the cusp action's linear part only);
+literature tool named (Meyerhoff–Ouyang 1997, cited-not-read). B1234's k-blind gloss re-graded by addendum (theorem
+where the isometry is free of the cusps, open lemma at the object); B1235 cell 2 superseded upward by addendum.
+**E52 instance #7 (mine, self-caught):** `is_isometric_to(M, mirror)` — the orientation-blind detector B1235 retracted —
+recurred for one probe; caught by the chiral control (5₂); `symmetry_group().is_amphicheiral()` + per-isometry cusp-map
+determinants validated 600/600. Gate 5 clean; identifications none; `creates_law` false, reviewed. Lock
+`tests/test_b1239_quarter_class_is_cusp_local.py` (pins the counts, the live witnesses, the blind spot, and the
+addendum's existence). Relay to codex with two asks (t3m cusp-action trace; Meyerhoff–Ouyang read). fc R42–R48 →
+B1240.
+
 ## THE SEAT HARVEST, THIRD RING — the character variety IS the square-time curve (40a3, I-12 EARNED); bronze's octic closes the E55 axis; E56 (2026-09-02)
 
 **B1238.** Codex R037–R039 and the physics-seat evaluation branch's R39–R41 + W-E absence sweep read in full, **nothing
