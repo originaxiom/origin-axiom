@@ -106,3 +106,12 @@ by relay under integrate-don't-merge.
   corrections and one provenance finding), R33 (eight trace-field/commensurability rows, all MATCH; bronze
   degree 8 resolves B840; m003/m004 common double cover), R34 (B252 E6 27/78, MATCH). See
   `recompute/R3_REPORT.md` dated closures.
+- 2026-09-02 00:10 UTC: W-E part 1 done — 545 claims swept, hits split into catch-all / registry / content
+  (`sweeps/registry_split.py`), and the seat wrote every verdict by hand: 388 rows (`sweeps/VERDICTS.tsv`,
+  `sweeps/VERDICTS.md`): 1 CONTRADICTED (B806's "CL-W4115 never ran" — it ran, B778), 18 SUPERSEDED (true when
+  written, stale now, never corrected in the arc), 10 OPEN_LATER (answered only on unmerged heads), 8 STANDS, 97
+  CONSISTENT, 117 NOISE, 4 GENERIC, 114 REGISTRY_ECHO (one of which, B204's normalisation, is superseded by OI-063).
+  Part 2 (claims 545–1068 from the later packets) running. A deleted computed cell recovered from history
+  (`_verify_Z1`, the exact Z_k = Tr ρ_k(A1) ladder to k = 22) is being re-run for R39.
+- Recompute cells R35–R38 added the same night (census rows, B258 refuted on silver's arithmeticity, B333 sign bug,
+  B850 multiplicity artefacts, B919 not reproducible from committed).

@@ -54,7 +54,29 @@ B866's support scripts rerun clean. Cells: `recompute/R31_*` … `R38_*`, closur
 ledger rows. Rule 1 (sweep before any absence claim) and rule 2 (read all arcs/belts/tests through the logs) were
 executed as `campaign/PHASE_B_FULL_READ.md` records.
 
-## 6. Still landing
+## 6. Absence claims (owner rule 1: sweep before concluding absence) — part 1 of the W-E sweep
 
-W-E sweep verdicts (545 absence claims over 6 heads + deleted corpus; catch-all echoes separated), the last arc
-packets, the completeness critic. Final note to follow with those sections.
+545 absence claims extracted by the readers were swept over the six other heads and the deleted-file corpus;
+the seat wrote 388 verdicts by hand (`campaign/phaseB/sweeps/VERDICTS.md` lists the ones that matter):
+
+- **Wrong as written (1):** B806_lexicon_blindness' table says CL-W4115 "Never ran"; `frontier/B778_cleanup/cells/CL-W4115/`
+  has compute.py, output.txt, results.json (chord '1,5,19,71' REAL: True).
+- **Stale, never corrected in the arc (18):** B58 "SL(4) not built here" (B742/B745 built it); B265/B270 "cup-product
+  obstruction not computed" (B273: vanishes identically); B849/B850/B852 "m004 Maass eigenvalues never computed /
+  Hejhal not in-sandbox" (B797's 17, B1007 arb); B73/B75 SL(4) Dehn-filling nulls (B88's census); B306 "no dim-14
+  centraliser" (B892); B872 "cell9 verdict2 exists nowhere" (B921 harvested it); B204 "normalisation unresolved"
+  (OI-063 all-t proof); B21 "no Einstein equation" (B259, 3d); B126/B123 "no trace-field classifier" (W3-067);
+  B85 "numerical routes are DEAD" (B742); B289's m003/m136 extensions (B855/B995); B272 "hypercharge unaddressed"
+  (B862/B1160); B931 "no null non-commensurable with both" (m009 in B850/B855).
+- **Answered only off main (10):** B1026_the_one_involution (exchange symmetry) and B1039/B1043/B1045 exist on
+  `origin/claude/new-session-qor5up` only; Maass degree-law / full window on `audit/b775-braver-questions`.
+- **A computed cell deleted from history:** `frontier/B775_phase2_wave1/cells/_verify_Z1/` (P2W4-Z1, the exact
+  Z_k = Tr ρ_k(A1) ladder with partial.json to k = 22, incl. Z_18 = 2 − √5) — recovered under
+  `campaign/phaseB/sweeps/deleted_corpus/`; being re-run.
+- The rest: 8 STANDS after direct check, 97 CONSISTENT, 117 NOISE, 4 GENERIC, 114 registry-only echoes; 88 rows the
+  sweep could not test (DOC_ECHO / NO_HIT: nothing outside catch-all files).
+
+## 7. Still landing
+
+Part 2 of the sweep (claims 545–1068 from the later packets), the last ~40 arc packets, the completeness critic.
+Final note to follow.
