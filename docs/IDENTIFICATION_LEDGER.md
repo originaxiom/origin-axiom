@@ -24,12 +24,15 @@ Status values: **EARNED** (map exhibited *and* acts) · **REFUTED** (tested, fai
 | I-7 | the object's ℤ/3 ≡ the boundary CFT's module group | trinification ℤ/3 · trace field ℚ(ζ₃) | \|P/Q\| of the boundary chiral algebra | ✘ | ✘ | **UNEARNED** | B1230 C-5b (+ addendum 2026-09-01) | show the trinification/Galois ℤ/3 *is* the group permuting {1, 27, 27̄}, not a same-order group elsewhere |
 | I-8 | the observer's ℤ/2 ≡ the ideal class of ℚ(√−15) | our c = mirror = chirality = Gal(K/ℚ) (B1174) | the class-group generator, Gal(H/ℚ(√−15)) | ✘ | ✘ | **REFUTED** | B1233 (external proposal, audited here) | dead as stated: in V₄ = Gal(ℚ(√−3,√5)/ℚ) complex conjugation **fixes √5** (real) and flips √−3, while the class generator fixes √−15 = √−3·√5 and so **flips both** — *different elements*. A live question remains: is the class bit a genuine FIFTH ℤ/2 the ledger has never priced? |
 | I-9 | B155's (ℤ/2)² glue ≡ the genus V₄ | the **lattice cokernel** of the two invariant planes in ℤ⁴ (SNF diag(1,1,2,2), index 4 — reproduced here from B155's matrix) | **Gal(ℚ(√−3,√5)/ℚ)** — a Galois group | ✘ | ✘ | **UNEARNED** | B1233/B1234 (external proposal, audited here) | exhibit a **map** from the cokernel to Gal, not an order match. Discriminator against it: the **genus group** of disc −15 has order 2^(t−1) = **2**, not 4 — so the (ℤ/2)² is *not* the genus group; and B155's own row calls the glue a GL(4,ℤ)-class invariant *"not forced by the spectral type"*, i.e. **lattice data, not field data**. Different categories. |
+| I-10 | the beat-selected internal A₁ lift ≡ physical 4d Lorentz spin | the odd-A₁ / beat lift inside the object's algebra (B1141/B1145) | the Lorentz double cover's spin-½ on the observer's spacetime | ✘ | ✘ | **UNEARNED** | legacy (THE_ROAD prices "spin lift" as a physical bit); registered at B1235 from codex R034 | a map from the internal A₁ to Spin(3,1) that carries the lift to the physical spinor — until then it is an OBSERVER INPUT priced as a bit, not a derivation |
+| I-11 | the boundary θ polarization ≡ the bulk/observer spin class | θ-odd/θ-even polarization on the boundary (B359–B366) | the spin class of B1141 | ✘ | ✘ | **UNEARNED** | legacy; B1218 already records them NOT identified; registered at B1235 from codex R034 | the same map as I-10, restricted to the boundary — or a proof that θ-parity and the spin class are the same ℤ/2 acting on the same module |
 
 ## Standing counts
 
 - **EARNED: 3** — and these three are the chain's real spine.
 - **REFUTED: 2** — both caught by this discriminator, one of them (I-5) is its template.
 - **UNEARNED: 2** — both from 2026-08-31, both this bench's, one cell apart. The ratchet baseline.
+- *(2026-09-02, B1235): I-9 (external, 09-01) and now I-10/I-11 (legacy spin identifications surfaced by codex R034) bring UNEARNED to **5**; the baseline was raised by hand each time and the raises are logged in `IDENTIFICATION_BASELINE.json`.*
 
 ## The two live debts, and what they cost
 

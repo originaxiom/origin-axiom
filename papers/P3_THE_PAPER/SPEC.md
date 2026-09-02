@@ -303,7 +303,7 @@ non-collapsed condition it actually rests on.
 
 **Strengthened**: the sibling shares the **exact volume**, not just the field (both
 $2.0298832128\ldots$; only the cusp shape separates them — computed here); the orientation
-obstruction holds **83 of 83** family-wide; *"exhaustive"* is now **quantified** ($16\times22$,
+obstruction holds **83 of 83** family-wide *[2026-09-02, B1235: WITHDRAWN — the family is 38/112 amphichiral by the proper test; the mirror-isometry count was orientation-blind. The family-wide clause must be rebuilt on the 38; m004's own theorem stands]*; *"exhaustive"* is now **quantified** ($16\times22$,
 $23\times22$, a 216-cell grid against 18 targets with a 384-cell matched null); the **Koide-type
 near-miss** is reported — five significant figures, four pre-committed instruments, all failed —
 because a negative half with no near-miss reads as a search never run.

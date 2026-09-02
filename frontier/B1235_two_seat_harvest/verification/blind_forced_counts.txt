@@ -1,0 +1,8 @@
+2T order 24 | 2I order 120 | |ker chi| = 8 | |Z(2T)| = 2 | |Z(2I)| = 2
+theta-odd  forced cells (Hermitian-part-scalar instrument): 992  arc-definition count: 992  inclusion-exclusion 8*120+24*2-8*2 = 992
+theta-even forced cells (Hermitian-part-scalar instrument): 284  arc-definition count: 284  inclusion-exclusion 2*120+24*2-2*2 = 284
+theta-odd forced value set  ( 9 ): ['-1', '-1/(2phi)', '-1/2', '-phi/2', '0', '1', '1/(2phi)', '1/2', 'phi/2']
+theta-even FORCED value set ( 9 ): ['-1', '-1/(2phi)', '-1/2', '-phi/2', '0', '1', '1/(2phi)', '1/2', 'phi/2']
+theta-even value set over ALL 2880 cells of (1/2)trA*(1/2)trB ( 15 ): ['-1', '-1/(2phi)', '-1/(4phi)', '-1/2', '-1/4', '-phi/2', '-phi/4', '0', '1', '1/(2phi)', '1/(4phi)', '1/2', '1/4', 'phi/2', 'phi/4']
+C6 banked set {0,+-1/4,+-1/(4phi),+-1/2,+-1/(2phi),+-phi/4,+-phi/2,+-1} has 15 members.
+control: cells where tr(M_odd) is real (a different, weaker criterion): 1440 (!= 992 -> the instrument distinguishes criteria)

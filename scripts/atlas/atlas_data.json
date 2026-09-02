@@ -4991,6 +4991,28 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1235": {
+   "slug": "two seat harvest",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B605",
+    "B869",
+    "B994",
+    "L194",
+    "P2",
+    "V18"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B123": {
    "slug": "arithmeticity m1",
    "motifs": [

@@ -2177,3 +2177,24 @@ coefficient slot B813 closed; (b) the criterion must be able to FAIL in both dir
 a bit that cannot come out "CP-violating" is vacuous, and m003's `CS = ¼` is the natural bite
 control, being the sibling that sits at the other element; (c) Gate 5 stays absolute — the object
 side must be computed before any measured value is named. ★★★
+
+## L193 — THE CS-SILENT CHIRAL HALF OF THE FAMILY (registered 2026-09-02, B1235; source: fab5cloud D9, recomputed)
+
+The 112-family is 38 amphichiral / 74 chiral, and **38 of the 74 chiral members are CS-silent** (CS ∈ {0, ¼} mod ½)
+— o10_150700 is the loud one (CS = −1/12). B1224's law is one-way: amphichiral ⇒ CS ∈ {0, ¼}. The converse was
+silently assumed in three places and is false 38 times. **Lead:** what distinguishes the 38 CS-silent chiral members
+from the 38 amphichiral ones — a chirality invariant finer than CS on this family (the η-invariant, the mirror's
+action on the cusp shape, the symmetry-group's orientation character). Whatever it is, it is what the paper's
+family-wide amphichirality story must be rebuilt on. ★★★ (harvested from the seat; the 38/74 split is banked.)
+
+## L194 — DOES A FREE ORIENTATION-REVERSING DECK FORCE CS ≡ 0 (mod ½)? (registered 2026-09-02, B1235; source: codex R036's gap, computed)
+
+Amphichirality forces CS ∈ {0, ¼}; A6's orientation double covers land at **0 in 40 of 40**, while ¼ occurs at
+36 % (16/44) among amphichiral manifolds in general. P ≈ 0.64⁴⁰ ≈ 2 × 10⁻⁸ by amphichirality alone. `already_banked`
+finds B605 (the involutions are free) and B1227 (the value groups) but not the implication. **Conjecture:** a
+*free* orientation-reversing involution kills the ¼ class — the cover is the 2-fold quotient of a fixed-point-free
+map, and the mod-½ ambiguity of the lift collapses. If true it is a theorem about B1234's construction, not about
+m004, and it makes the k-blind wall a consequence of A6 without the dropped step. Bite control: the 16 amphichiral
+manifolds at ¼ — is any of them an orientation double cover of a non-orientable manifold? (If one is, the
+conjecture is dead.) ★★★
+

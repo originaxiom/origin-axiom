@@ -622,6 +622,11 @@ the TERMINOLOGY registry and the atlas's motif index.
 
 (B1001, applied at the audit seat's cost this window: seven instances, three species.)
 *A search that cannot run returns exactly what a search that finds nothing returns.*
+
+**Sub-clause (2026-09-02, B1235 — THE ABSENCE RULE, WORKING_RULES):** a second source is necessary, not sufficient. Before
+"X does not exist on any branch / in the repo" is written, `scripts/checks/absence_sweep.py "<term>"` runs over every
+remote head (filenames and content) and deleted-in-history, and the sentence cites its output. Six instances of the
+un-swept absence are logged as ERROR_LEDGER E54; two were this bench's.
 Sub-clauses: run both φ and phi; verify the tool ran; `head`/`tail` is a window, never a
 population; check the flag's unit (occurrences vs lines).
 

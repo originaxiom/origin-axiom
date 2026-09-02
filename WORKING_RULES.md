@@ -264,3 +264,25 @@ two years; pricing it is the crossing cell.
 **IDENTIFIES**. Typing moves (B1226's parity × dimension boxes; B1227's value-group regimes;
 B1230/C-1's *over what field?*) have held. Identification moves have died — B813, B1223, and two of
 our own in a single session. When tempted to glue, classify instead.
+
+## Rule (2026-09-02, the owner's instruction of 2026-09-01 — adopted): THE ABSENCE RULE
+
+The owner, verbatim: **"one important rule: before you conclude we dont have something, swipe the repo first."**
+
+**"We don't have X" is a universal statement over a population. It may be asserted only after that population has
+been enumerated — every remote head, filenames AND content, and deleted-in-history — and the sentence must cite the
+sweep.** `python3 scripts/checks/absence_sweep.py "<term>"` is the sweep; its output is the citation.
+
+**Why it is binding.** The record now carries a named class for this failure (ERROR_LEDGER **E54**) with six
+instances found in one window: the nine "unrecoverable" relays were on a reachable branch (E51's FINAL verdict);
+the "17 atoms enumerated on no branch" were on main in a heredoc since 08-28 (B1225's addendum, and a relay sent
+on that premise); a "no engine" framing where the engine was committed (B869); a lock that certified a method as
+reliable without looking at what it computes (B1181). Each was a search of a *sample* reported as a search of the
+*population*. Prose grep on main is a sample. One branch is a sample. A filename glance is a sample.
+
+**How it composes with the standing rules.** The owner's epistemic instruction (§0: "we don't have X" is never
+terminal) says an absence is not a *stopping point*; this rule says it is not even a *finding* until the sweep has
+run. PRACTICES' "no match is not a finding until a second source agrees" (B1001) required a second *source*; this
+requires a complete *sweep*. `already_banked.py` (B1202) is the sweep for "is this already banked?"; this is the
+sweep for "is this anywhere at all?".
+

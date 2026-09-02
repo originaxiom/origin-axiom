@@ -1,12 +1,14 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 3,
+ "unearned": 5,
  "rows": [
   "I-6",
   "I-7",
-  "I-9"
+  "I-9",
+  "I-10",
+  "I-11"
  ],
- "total_rows": 9,
+ "total_rows": 11,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -14,6 +16,13 @@
    "to": 3,
    "row": "I-9",
    "reason": "an EXTERNAL proposal registered UNEARNED rather than adopted silently. Raised deliberately, with the discriminator against it recorded in the row (the genus group of disc -15 has order 2, not 4; the glue is lattice data and Gal is field data). This is the ratchet working as designed: new unearned identifications must be raised by hand, never absorbed."
+  },
+  {
+   "date": "2026-09-02",
+   "from": 3,
+   "to": 5,
+   "row": "I-10, I-11",
+   "reason": "LEGACY identifications surfaced by codex R034 and registered rather than left implicit: THE_ROAD prices 'spin lift' as a physical observer bit, but B1141/B1145 prove an internal odd-A1 lift only, and the step to 4d Lorentz spin (I-10) and to the boundary theta polarization (I-11; B1218 already says NOT identified) has no map. Raised by hand at B1235; these are the record's oldest unpriced inputs, now priced."
   }
  ]
 }

@@ -1,5 +1,27 @@
 # Changelog
 
+## THE TWO-SEAT HARVEST — the family is 38/112 amphichiral, not 83/83; E51 reopened as RECOVERED; the ABSENCE RULE (2026-09-02)
+
+**B1235.** Every claim from two seats' rings recomputed here before banking (fab5cloud R2/R3; codex R034/R036).
+
+- **38/112, not 83/83.** The mirror-isometry test is orientation-blind (REPRODUCIBILITY.md:73). The proper test
+  gives 38 amphichiral / 74 chiral; o10_150700 chiral at CS = −1/12; 38 chiral members CS-silent; zero B1224
+  violations; m004 stands. **B1181 RETRACTED** (lock re-pointed from the string to the fact; its method-law stands).
+  Addenda beside B1163, B1186, B1181; SPEC.md and the board corrected by dated notes.
+- **A6's free deck selects CS = 0** — codex's gap in B1234's join, computed: 40/40 at 0 vs 36 % at ¼ among amphichiral
+  manifolds. Data → L194. B1234 stands, join narrowed.
+- **B1233 narrowed**: box minimum on [−2,2]³ (identity a²+b²+c²−abc = (a−b)²+c²+ab(2−c)), not global; the continuum
+  slogan withdrawn as a principle.
+- **B994**: the PS/SU(5) rungs were rendering; B869's engine on the parents gives the endpoint honestly.
+- **E51 → RECOVERED**: the nine relays at `audit/b775-braver-questions` @ 53da05f6; rows 39–46 re-marked.
+- **THE ABSENCE RULE** (owner's words, WORKING_RULES) + `scripts/checks/absence_sweep.py` (every head, content +
+  filenames + deleted history, controls both ways) + ERROR_LEDGER **E54** with six instances, two this bench's
+  (B1225's "atoms on no branch" — they were in B1203's cert on main).
+- **B1011's lock computes** (992/284 from the 2880 cells, control 1440). **A03**: `.gitignore` ignores `*.log`/`*.out`.
+- **I-10/I-11 registered UNEARNED** (codex R034); baseline 3→5 by hand. **TERMINOLOGY**: RL (product) vs LR (word).
+- HELD: six main-lineage re-typings from the seat, pending the owner's confirmation of the election words. D11
+  (B1148 conventions) seat-reported, not re-verified. Codex R035 unread.
+
 ## THE WALLS TRACE TO A6 — the squaring buys orientability and costs every value (2026-09-01)
 
 Owner: *"maybe at some point we followed a wrong sub-branch on our math, that built the walls around

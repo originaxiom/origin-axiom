@@ -1,5 +1,25 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-02, B1235 — THE TWO-SEAT HARVEST: THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83)**: two
+seats' rings (fab5cloud R2/R3, codex R034/R036) recomputed here before banking. **The mirror-isometry call is
+orientation-blind** — this repo's own REPRODUCIBILITY.md:73 says so — and B1181's "83 of 83", B1186's census field
+and B1163's B8147 addendum all used it. By `symmetry_group().is_amphicheiral()`: **38 amphichiral / 74 chiral**,
+o10_150700 (B1181's own spot-check witness) **chiral** at CS = −1/12, **38 of the 74 chiral members CS-silent** — the
+population no CS-only screen can see; zero B1224 violations; **m004's theorem stands**, every family-wide
+strengthening falls. **B1181 RETRACTED** (its lock pinned the string and certified the blind method as "reliable" —
+E53's sub-mechanism exact; its one-way-family-test law stands, this is instance #2). Codex's objection to B1234's join
+(amphichiral ⇒ CS ∈ {0,¼}, not 0) was correct, and the missing step computed is a **positive datum: A6's 40 covers
+sit at CS = 0, 40/40, against a 36 % quarter-rate among amphichiral manifolds** (P ≈ 2 × 10⁻⁸) → L194. B1233
+narrowed (box minimum, not global; the "arithmetic cannot emit a continuum" slogan withdrawn as a principle — see
+the note at its first appearance below). B994's SU(3)³→PS/SU(5) chains were rendering (dim 15, 24 > 8); B869's
+engine on the parents gives the endpoint on a real subgroup basis. **E51 REOPENED AS RECOVERED** — the nine
+relays are at the root of `audit/b775-braver-questions` @ 53da05f6; the FINAL verdict was an absence claim without a
+sweep, and so was B1225's "the 17 atoms are on no branch" (they are in B1203's cert on main since 08-28). **Owner's
+rule installed: THE ABSENCE RULE** (WORKING_RULES, verbatim) + `scripts/checks/absence_sweep.py` + ERROR_LEDGER
+**E54**. I-10/I-11 (codex R034's legacy spin identifications) registered UNEARNED, baseline 3→5 by hand. Six
+main-lineage re-typings from the seat **HELD** pending the owner's own confirmation of the election words. Gate 5 clean.
+
+---
 **LATEST (2026-09-01, B1234 — THE WALLS TRACE TO A6: THE SQUARING BUYS ORIENTABILITY AND COSTS
 EVERY VALUE)**: owner asked whether a wrong sub-branch built the walls. **It did, and the branch is
 named.** Eight banked walls all pass through one upstream fact — **the mirror is a self-isometry**,
@@ -35,7 +55,7 @@ convention split** — the paper (§7, line 696) uses κ = tr − 2, the frontie
 **harmonization owed**. **CONVERGENCE**: their *consistency forces the discrete* and this bench's
 independent same-day finding are one result — **every derived item is discrete/rational/torsion,
 every underived one continuous, zero exceptions** — because **the deriving machinery is arithmetic,
-and arithmetic cannot emit a continuum.**
+and arithmetic cannot emit a continuum.** *[2026-09-02, B1235: withdrawn as a PRINCIPLE (x² + y² = 1 is arithmetic with a real continuum); it stands as the corpus INVENTORY — no continuum among the emitted values.]*
 
 **LATEST (2026-09-01, B1232 — CODEX R031A/R031B VERIFIED ON THIS BENCH; THREE RETRACTIONS; AND A
 THIRD COLUMN)**: owner said *verify everything, trust nothing*, so codex's certs were **re-run here**
@@ -310,7 +330,7 @@ this is the owner's one-glance view of what the machine is doing.*
 
 **LATEST (2026-08-27, B1182 — C4′ RESOLVED POSITIVE; the arrow typed FINITE-PLACE)**: the √−3-internal pair is **one named-action torsor** by the **unique** iso **(c,r,θ)→(k11,k7,k5)** — c→k11 (B1174); **r→k7 forced by trace-reversal invariance** (tr(w)=tr(w^rev) exact ⇒ reversal fixes K pointwise; k7 the unique K-fixer); θ→k5 (group law). Honest self-correction: the B1175 guess (θ K-fixing) was wrong — **r** is the K-fixer. **The time's-arrow typed FINITE-PLACE** (the B8144 instrument's first run: r's leg = the arithmetic form-class swap, finite orbits ⇒ escape-(1) available) — the orientation stays the SOLE archimedean bit; the adelic observer typed leg-by-leg. Residual: the (α₂,α₄) dictionary (codex). Locks test_b1182 (4). **Next: cell (2), the QP-4-class comparison.**
 
-**LATEST (2026-08-27, B1181 — the amphichirality debt CLOSED, 83/83; ALL SENDS HELD; back to the math)**: cc3 closed B1180's residue — **83/83 amphichiral** on the corrected family (spot-verified 5/5 here by mirror-isometry incl. both separator-killers); **B1163's W₀ obstruction now 83-of-83** (no-sibling-escape far more robust); **THE ONE-WAY FAMILY TEST** registered as a §G method-law ("a family is a CLAIM, never a setting"). **THE OWNER'S DIRECTION: all six queue items HOLD; the paper crafted owner+cc after the math is exhausted; cc3's papers stay as insight; priority = THE REMAINING MATHEMATICS to a full ToE.** Locks test_b1181 (3).
+*[SUPERSEDED 2026-09-02, B1235: the family is 38/112 amphichiral; the 83/83 was measured orientation-blind; B1181 RETRACTED.]* **LATEST (2026-08-27, B1181 — the amphichirality debt CLOSED, 83/83; ALL SENDS HELD; back to the math)**: cc3 closed B1180's residue — **83/83 amphichiral** on the corrected family (spot-verified 5/5 here by mirror-isometry incl. both separator-killers); **B1163's W₀ obstruction now 83-of-83** (no-sibling-escape far more robust); **THE ONE-WAY FAMILY TEST** registered as a §G method-law ("a family is a CLAIM, never a setting"). **THE OWNER'S DIRECTION: all six queue items HOLD; the paper crafted owner+cc after the math is exhausted; cc3's papers stay as insight; priority = THE REMAINING MATHEMATICS to a full ToE.** Locks test_b1181 (3).
 
 **LATEST (2026-08-27, B1180 — cc3's B8147 adopted: the family was ≥83, not 14)**: both separators DEAD (o10_150700 kills H₁≅ℤ — single-cusped, 5×Vol, verified; four manifolds carry the 2√3·i cusp — verified); main corrected by addenda (B1167 separator retracted, orientation-blindness untouched; B1163 family-wide re-scoped, core theorem untouched); **the W₀-refusal is STRONGER** (no elementary invariant separates m004 at all) **for a better reason**; **codex R014 adjudicated** (conclusion confirmed, witness corrected). Unaffected: the parity law, the blanket modulus, B1174, the send-queue. The family-definition residue relayed to cc3. Locks test_b1180 (4).
 

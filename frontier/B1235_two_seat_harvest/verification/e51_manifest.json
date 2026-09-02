@@ -1,0 +1,52 @@
+{
+ "head": "53da05f6",
+ "branch": "audit/b775-braver-questions",
+ "verified": "2026-09-02 on cc's bench (git cat-file -s / rev-parse)",
+ "files": [
+  {
+   "path": "CC3_TO_CC_2026-08-09_FRAMEWORK_DELTA.md",
+   "bytes": 10738,
+   "blob": "9929cfd0ea0977f1559d9a7b2edea8a4aa86c48c"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-09_HARVEST_MANIFEST.md",
+   "bytes": 10659,
+   "blob": "a47b906e66ee6002047738c17ff364870a55ae88"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-09_DAY_LOG.md",
+   "bytes": 6182,
+   "blob": "6a50260b88e37541966f8b8f3c2ca6c1fb284380"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-09_PROGRAMME_ASSEMBLY.md",
+   "bytes": 19558,
+   "blob": "93fb3113605b4868e35b06ddcc238bc7ab02b57f"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-09_REVIVABLE_rationale.md",
+   "bytes": 10964,
+   "blob": "6322ff4d952b3b9101c48474d583be8d6577ac6e"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-09_L114_DISCHARGE.md",
+   "bytes": 5294,
+   "blob": "1a3cdac7822d4405a7249779dc44dae33e5d2b53"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-09_CORNERSTONE_PLAN.md",
+   "bytes": 6215,
+   "blob": "e776d5977561ce62229818a07afe2457aa6fec2d"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-09_PATH_BEYOND_THE_WALL.md",
+   "bytes": 11758,
+   "blob": "eeaefc3fd2b9e2033f8128cfd547f86ad31ec393"
+  },
+  {
+   "path": "README_ARC_PROPOSAL.md",
+   "bytes": 6692,
+   "blob": "bb381d0eca1167f490a3bdb380c5da3a7ba9441f"
+  }
+ ]
+}

@@ -13145,3 +13145,18 @@ Also: the κ collision row (five meanings, omitted from a register that covered 
 and I-9 UNEARNED with a deliberate, hand-raised ratchet baseline.
 
 ---
+
+## 2026-09-02 — B1235: the two-seat harvest
+
+Two seats' rings, every claim recomputed here before banking. **The family is 38/112 amphichiral, not 83/83** —
+the mirror-isometry call is orientation-blind (our own REPRODUCIBILITY.md:73), and B1181, B1186's census field and
+B1163's B8147 addendum all used it. o10_150700, B1181's own spot-check witness, is chiral (CS = −1/12). 38 of the 74
+chiral members are CS-silent. m004 stands; B1181 RETRACTED; its lock had pinned the string and certified the blind
+method "reliable". Codex's objection to B1234's join was correct and, computed, is a positive datum: A6's 40 covers
+all sit at CS = 0 against a 36 % quarter-rate (L194). B1233 narrowed to a box minimum. B994's PS/SU(5) chains were
+rendering (dim 15, 24 > 8); the endpoint survives on B869's engine. **E51 reopened as RECOVERED** — the nine relays
+are on `audit/b775-braver-questions` @ 53da05f6 — and the FINAL verdict, like B1225's "atoms on no branch" (they
+were in B1203's cert on main), was an absence without a sweep: **THE ABSENCE RULE** installed in the owner's words,
+`absence_sweep.py` beside it, **E54** filed with six instances. I-10/I-11 registered UNEARNED (baseline 3→5). Six
+main-lineage re-typings from the seat HELD until the owner confirms the election words. Gate 5 clean.
+

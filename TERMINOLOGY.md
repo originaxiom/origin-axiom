@@ -613,3 +613,13 @@ P/PC disambiguation. — **G1–G3** = the three roles of gravity (B1165 addendu
 distinct from any future charter G-labels. — **L110/L113** each name TWO leads (annotated in place in
 OPEN_LEADS; no renumbering). Rule (B964's, generalized): every load-bearing overloaded symbol gets a row
 here before its next use.
+
+## Added 2026-09-02 (B1235, harvested from the physics seat's R3) — `RL` vs `LR` for the same matrix
+
+**One matrix, two spellings, opposite reading conventions.** `[[2,1],[1,1]]` is written **A = LR** in
+`UNIQUENESS_THEOREM` and the genesis prose, where the letters are a **word** read left-to-right (first L, then R),
+and **A₁ = RL** in B1189 and the GC ledger, where the letters are a **matrix product** (R applied after L). The
+matrix is the same; the string is reversed; a reader who takes one convention into the other's text gets the
+mirror monodromy `[[1,1],[1,2]]`. **Rule: say which.** "LR (word)" or "RL (product)"; never the bare string in a
+new file. (E23 territory — the class where a convention flips silently between files.)
+
