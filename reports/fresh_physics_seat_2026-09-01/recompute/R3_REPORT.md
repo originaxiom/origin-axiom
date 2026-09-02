@@ -551,3 +551,11 @@ Numbering note: cells are R01–R52; `R26_b1080_b1011` and `R30_m004_symmetry_gr
 - **B775 V4 genericity table — REPRODUCES by direct check (8/8); committed script broken (symmetries()[0] probe)** by `R50_b775_v4_table/`. 2026-09-02.
 - **Family-wide amphichirality (B1181 83/83, B1186 112/112) — CONTRADICTED** by `R51_family_amphichirality/`: the mirror-isometry instrument is vacuous (is_isometric_to accepts orientation-reversing maps); by symmetry group + CS obstruction 74 of 112 (43 of the 77 all-regular) members are chiral, incl. B1181's own spot-check o10_150700 (CS = −1/12). 2026-09-02.
 - **B8070 self-refutation: anomaly cubic on the 5-dim charge space factors as −2yL(2yL+3yd)(4yL−3yd)/3 — MATCH** by `R52_b8070_anomaly_cubic/` (sympy); the committed script prints the refuted computation, the refutation is unscripted. 2026-09-02.
+
+- **R53 (field vs manifold, fresh eyes).** The E6/E8 route (disc → conductor N → SL(2,Z/N) → McKay) emits a
+  label only for N ∈ {1, 3, 5} (exhaustive N ≤ 24); imaginary conductors reach only N = 3, so on hyperbolic
+  manifolds the instrument says E6 or nothing. Census: 14/1200 labelled, all E6, all one commensurability
+  class (Bianchi indices 12/24/30). Sister bit m004/m003: det(A ∓ I) = (φ ∓ φ⁻¹)² = 1, 5; spin action
+  identical (A ≡ −A mod 2). B208 (integer) and B206/B8118 (field) use different reduction conventions.
+  B8118's "E6 is a function of the field" STANDS and sharpens to "a function of the instrument".
+  `recompute/R53_field_vs_manifold/FINDINGS.md`; note `FRESH_EYES_2026-09-02.md`.

@@ -195,3 +195,18 @@ CONTRADICTED 3.
 Nothing still landing. Coverage 131/131 arc packets, 1310/1310 arc records, 11/11 log chunks, 14/14 test packets
 (`campaign/phaseB/synthesis/coverage.md`); absence sweep 1535/1535 distinct claims. The one correction this note carries
 against its own earlier drafts is the sweep-coverage one above (and the earlier B806→B778 attribution fix of 2026-09-02 01:00 UTC — an index-alignment error in the same tooling).
+
+## 8. Fresh-eyes addendum (R53, 2026-09-02) — for cc to re-apply by hand where it touches main
+
+Computed, not delegated (`recompute/R53_field_vs_manifold/`):
+
+| finding | bearing | where it lands |
+|---|---|---|
+| The route disc → N → SL(2,Z/N) → McKay emits only for N ∈ {1,3,5} (N ≤ 24 exhaustive, composites included) | on hyperbolic manifolds the image is {E6}; "hits the exceptional primes" is the instrument, not the object | B206 (extend "p ≤ 5" to composite conductors), B210 (restate "unique metallic mean"), B8118 (cite) |
+| B208 reduces by the integer det(γ+I) = m²+4; B206/B8118 by the field discriminant | "unique at m = 1" holds only under the integer convention; the E6 side needs the field convention | B208 / LAW_MAP: state the convention once |
+| Census 14/1200 labelled, all E6, indices 12/24/30 in PSL(2,O₋₃) | "m004 carries E6" ≡ "shape field Q(√−3)" ≡ "torsion-free finite-index subgroup of the Bianchi group" | B1136 scope note |
+| Sister bit: det(A ∓ I) = (φ ∓ φ⁻¹)² = 1, 5; spin action of A and −A identical | B1136's sole separator H1 = Z is a Fibonacci identity of the trace-3 monodromy; B804's Arf machinery is blind to the bit | B1136, B197, B804 |
+
+Owner election words carried verbatim from this session: "i was expecting you not to give up that easy and
+try to see what were not seing because you have fresh eyes." The note `FRESH_EYES_2026-09-02.md` is the
+seat's answer; nothing in it is banked to main by the seat.

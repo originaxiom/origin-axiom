@@ -1,0 +1,86 @@
+==============================================================================
+Q1 -- WHAT CAN THE ROUTE EMIT?  SL(2,Z/N) vs finite subgroups of SU(2)
+==============================================================================
+  N= 1  |SL(2,Z/N)|=     1  involutions=  0  max elt order=  1  -> cyclic   A_0
+  N= 2  |SL(2,Z/N)|=     6  involutions=  3  max elt order=  3  -> -        NO LABEL
+  N= 3  |SL(2,Z/N)|=    24  involutions=  1  max elt order=  6  -> 2T       E6
+  N= 4  |SL(2,Z/N)|=    48  involutions=  7  max elt order=  6  -> -        NO LABEL
+  N= 5  |SL(2,Z/N)|=   120  involutions=  1  max elt order= 10  -> 2I       E8
+  N= 6  |SL(2,Z/N)|=   144  involutions=  7  max elt order= 12  -> -        NO LABEL
+  N= 7  |SL(2,Z/N)|=   336  involutions=  1  max elt order= 14  -> -        NO LABEL
+  N= 8  |SL(2,Z/N)|=   384  involutions= 15  max elt order=  8  -> -        NO LABEL
+  N= 9  |SL(2,Z/N)|=   648  involutions=  1  max elt order= 18  -> -        NO LABEL
+  N=10  |SL(2,Z/N)|=   720  involutions=  7  max elt order= 30  -> -        NO LABEL
+  N=11  |SL(2,Z/N)|=  1320  involutions=  1  max elt order= 22  -> -        NO LABEL
+  N=12  |SL(2,Z/N)|=  1152  involutions= 15  max elt order= 12  -> -        NO LABEL
+  N=13  |SL(2,Z/N)|=  2184  involutions=  1  max elt order= 26  -> -        NO LABEL
+  N=14  |SL(2,Z/N)|=  2016  involutions=  7  max elt order= 42  -> -        NO LABEL
+  N=15  |SL(2,Z/N)|=  2880  involutions=  3  max elt order= 30  -> -        NO LABEL
+  N=16  |SL(2,Z/N)|=  3072  involutions= 15  max elt order= 16  -> -        NO LABEL
+  N=17  |SL(2,Z/N)|=  4896  involutions=  1  max elt order= 34  -> -        NO LABEL
+  N=18  |SL(2,Z/N)|=  3888  involutions=  7  max elt order= 18  -> -        NO LABEL
+  N=19  |SL(2,Z/N)|=  6840  involutions=  1  max elt order= 38  -> -        NO LABEL
+  N=20  |SL(2,Z/N)|=  5760  involutions= 15  max elt order= 30  -> -        NO LABEL
+  N=21  |SL(2,Z/N)|=  8064  involutions=  3  max elt order= 42  -> -        NO LABEL
+  N=22  |SL(2,Z/N)|=  7920  involutions=  7  max elt order= 66  -> -        NO LABEL
+  N=23  |SL(2,Z/N)|= 12144  involutions=  1  max elt order= 46  -> -        NO LABEL
+  N=24  |SL(2,Z/N)|=  9216  involutions= 31  max elt order= 24  -> -        NO LABEL
+
+  conductors N<=24 for which the route emits ANY McKay label: [1, 3, 5]
+  N=1 is the trivial group (label A_0, no field); N=2 is S3 (three involutions).
+  => Over hyperbolic manifolds the shape field is non-real, disc<0, so |disc| in {3,4,7,8,11,...}.
+     The ONLY imaginary conductor the route can ever label is N=3 -> E6.  N=5 (E8) needs the
+     REAL field Q(sqrt5), which is never a shape field of a hyperbolic manifold.
+
+==============================================================================
+Q2 -- CENSUS SCAN (first 1200 orientable cusped): field degree and label
+==============================================================================
+  scanned: 1200
+  quadratic shape field (all shapes in one quadratic field): 43
+  by squarefree n of Q(sqrt n): {-7: 20, -3: 14, -1: 9}
+  label distribution over the 1200: {'E6': 14, 'NO LABEL': 1186}
+  E6 carriers (14): ['m003', 'm004', 'm202', 'm203', 'm206', 'm207', 'm208', 'm410', 'm412', 's118', 's119', 's594', 's595', 's596']
+  matches B8118's 14: True
+  shape degree (max over tetrahedra), first 300: {'10': 23, '11': 16, '12': 17, '2': 18, '3': 32, '4': 40, '5': 34, '6': 32, '7': 32, '8': 20, '9': 20, 'unknown': 16}
+
+==============================================================================
+Q3 -- THE SISTER BIT: m004 (b++RL) vs m003 (b+-RL)
+==============================================================================
+  m004 = b++RL: isometric=True  H1=Z  vol=2.029883213  |Sym|=8  amphichiral=True  shape field disc [-3]
+  m003 = b+-RL: isometric=True  H1=Z/5 + Z  vol=2.029883213  |Sym|=8  amphichiral=True  shape field disc [-3]
+  det(A - I) = -1  (m004: H1 torsion = |-1| = 1)     det(A + I) = 5  (m003 = -A: torsion Z/5)
+  identity: det(A-I) = (phi - 1/phi)^2 = 1.000000000000,  det(A+I) = (phi + 1/phi)^2 = 5.000000000000 = 5
+  => the sister's Z/5 is (sqrt5)^2 = disc Q(sqrt5): a Fibonacci identity of the monodromy, not a new input.
+  spin structures on the fibre T^2 (values on (0,1),(1,0),(1,1); Arf; image under A; fixed?):
+    ((0, 0, 1), 0, (1, 0, 0), False)
+    ((0, 1, 0), 0, (0, 0, 1), False)
+    ((1, 0, 0), 0, (0, 1, 0), False)
+    ((1, 1, 1), 1, (1, 1, 1), True)
+  A mod 2 has order 3, fixes exactly the Arf-1 structure and cycles the three Arf-0 ones (1 fixed).
+  -A == A mod 2, so the spin action is IDENTICAL for m004 and m003: the sister bit is invisible
+  to the field, the volume, the tetrahedra, amphichirality, and the spin-structure action.
+  It is seen by H1 (1 vs Z/5) and by the sign of the SL(2,Z) lift only.
+
+==============================================================================
+Q4 -- THE 14 FIELD-SHARERS: volumes vs V_tet, and m004's index in PSL(2,O_-3)
+==============================================================================
+  V_tet = 1.014941606410;  L(2,chi_-3) = 0.781302412896;  covol PSL(2,O_-3) = 0.169156934402 = V_tet/6.000000
+    m003   vol=2.029883213  vol/covol=12.000000  n_tet=2  regular=True
+    m004   vol=2.029883213  vol/covol=12.000000  n_tet=2  regular=True
+    m202   vol=4.059766426  vol/covol=24.000000  n_tet=4  regular=True
+    m203   vol=4.059766426  vol/covol=24.000000  n_tet=4  regular=True
+    m206   vol=4.059766426  vol/covol=24.000000  n_tet=4  regular=True
+    m207   vol=4.059766426  vol/covol=24.000000  n_tet=4  regular=True
+    m208   vol=4.059766426  vol/covol=24.000000  n_tet=5  regular=False
+    m410   vol=5.074708032  vol/covol=30.000000  n_tet=5  regular=True
+    m412   vol=5.074708032  vol/covol=30.000000  n_tet=5  regular=True
+    s118   vol=4.059766426  vol/covol=24.000000  n_tet=6  regular=False
+    s119   vol=4.059766426  vol/covol=24.000000  n_tet=6  regular=False
+    s594   vol=5.074708032  vol/covol=30.000000  n_tet=6  regular=False
+    s595   vol=5.074708032  vol/covol=30.000000  n_tet=6  regular=False
+    s596   vol=5.074708032  vol/covol=30.000000  n_tet=6  regular=False
+  m004 index in PSL(2,O_-3): 12
+  => every carrier is a finite-index subgroup of the SAME Bianchi group; the route lands on the
+     group PSL(2,O_-3), and choosing m004 among its finite-index subgroups is a separate, unpriced choice.
+
+r53_results.json written

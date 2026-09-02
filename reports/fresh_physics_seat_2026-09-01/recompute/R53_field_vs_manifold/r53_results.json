@@ -1,0 +1,342 @@
+{
+ "Q1_emitting_conductors_le_24": [
+  1,
+  3,
+  5
+ ],
+ "Q1_route_table": {
+  "1": {
+   "involutions": 0,
+   "max_elt_order": 1,
+   "mckay": "A_0",
+   "order": 1,
+   "su2_type": "cyclic"
+  },
+  "2": {
+   "involutions": 3,
+   "max_elt_order": 3,
+   "mckay": null,
+   "order": 6,
+   "su2_type": null
+  },
+  "3": {
+   "involutions": 1,
+   "max_elt_order": 6,
+   "mckay": "E6",
+   "order": 24,
+   "su2_type": "2T"
+  },
+  "4": {
+   "involutions": 7,
+   "max_elt_order": 6,
+   "mckay": null,
+   "order": 48,
+   "su2_type": null
+  },
+  "5": {
+   "involutions": 1,
+   "max_elt_order": 10,
+   "mckay": "E8",
+   "order": 120,
+   "su2_type": "2I"
+  },
+  "6": {
+   "involutions": 7,
+   "max_elt_order": 12,
+   "mckay": null,
+   "order": 144,
+   "su2_type": null
+  },
+  "7": {
+   "involutions": 1,
+   "max_elt_order": 14,
+   "mckay": null,
+   "order": 336,
+   "su2_type": null
+  },
+  "8": {
+   "involutions": 15,
+   "max_elt_order": 8,
+   "mckay": null,
+   "order": 384,
+   "su2_type": null
+  },
+  "9": {
+   "involutions": 1,
+   "max_elt_order": 18,
+   "mckay": null,
+   "order": 648,
+   "su2_type": null
+  },
+  "10": {
+   "involutions": 7,
+   "max_elt_order": 30,
+   "mckay": null,
+   "order": 720,
+   "su2_type": null
+  },
+  "11": {
+   "involutions": 1,
+   "max_elt_order": 22,
+   "mckay": null,
+   "order": 1320,
+   "su2_type": null
+  },
+  "12": {
+   "involutions": 15,
+   "max_elt_order": 12,
+   "mckay": null,
+   "order": 1152,
+   "su2_type": null
+  },
+  "13": {
+   "involutions": 1,
+   "max_elt_order": 26,
+   "mckay": null,
+   "order": 2184,
+   "su2_type": null
+  },
+  "14": {
+   "involutions": 7,
+   "max_elt_order": 42,
+   "mckay": null,
+   "order": 2016,
+   "su2_type": null
+  },
+  "15": {
+   "involutions": 3,
+   "max_elt_order": 30,
+   "mckay": null,
+   "order": 2880,
+   "su2_type": null
+  },
+  "16": {
+   "involutions": 15,
+   "max_elt_order": 16,
+   "mckay": null,
+   "order": 3072,
+   "su2_type": null
+  },
+  "17": {
+   "involutions": 1,
+   "max_elt_order": 34,
+   "mckay": null,
+   "order": 4896,
+   "su2_type": null
+  },
+  "18": {
+   "involutions": 7,
+   "max_elt_order": 18,
+   "mckay": null,
+   "order": 3888,
+   "su2_type": null
+  },
+  "19": {
+   "involutions": 1,
+   "max_elt_order": 38,
+   "mckay": null,
+   "order": 6840,
+   "su2_type": null
+  },
+  "20": {
+   "involutions": 15,
+   "max_elt_order": 30,
+   "mckay": null,
+   "order": 5760,
+   "su2_type": null
+  },
+  "21": {
+   "involutions": 3,
+   "max_elt_order": 42,
+   "mckay": null,
+   "order": 8064,
+   "su2_type": null
+  },
+  "22": {
+   "involutions": 7,
+   "max_elt_order": 66,
+   "mckay": null,
+   "order": 7920,
+   "su2_type": null
+  },
+  "23": {
+   "involutions": 1,
+   "max_elt_order": 46,
+   "mckay": null,
+   "order": 12144,
+   "su2_type": null
+  },
+  "24": {
+   "involutions": 31,
+   "max_elt_order": 24,
+   "mckay": null,
+   "order": 9216,
+   "su2_type": null
+  }
+ },
+ "Q2_E6_carriers": [
+  "m003",
+  "m004",
+  "m202",
+  "m203",
+  "m206",
+  "m207",
+  "m208",
+  "m410",
+  "m412",
+  "s118",
+  "s119",
+  "s594",
+  "s595",
+  "s596"
+ ],
+ "Q2_by_squarefree": {
+  "-1": 9,
+  "-3": 14,
+  "-7": 20
+ },
+ "Q2_label_distribution": {
+  "E6": 14,
+  "NO LABEL": 1186
+ },
+ "Q2_matches_B8118": true,
+ "Q2_n_quadratic": 43,
+ "Q2_scanned": 1200,
+ "Q2_shape_degree_first300": {
+  "10": 23,
+  "11": 16,
+  "12": 17,
+  "2": 18,
+  "3": 32,
+  "4": 40,
+  "5": 34,
+  "6": 32,
+  "7": 32,
+  "8": 20,
+  "9": 20,
+  "unknown": 16
+ },
+ "Q3": {
+  "det_A_minus_I": -1,
+  "det_A_plus_I": 5,
+  "sisters": {
+   "m003": {
+    "amphichiral": true,
+    "bundle": "b+-RL",
+    "homology": "Z/5 + Z",
+    "isometric_to_bundle": true,
+    "n_tet": 2,
+    "shape_disc": [
+     -3
+    ],
+    "sym_order": 8,
+    "volume": 2.029883212819308
+   },
+   "m004": {
+    "amphichiral": true,
+    "bundle": "b++RL",
+    "homology": "Z",
+    "isometric_to_bundle": true,
+    "n_tet": 2,
+    "shape_disc": [
+     -3
+    ],
+    "sym_order": 8,
+    "volume": 2.029883212819307
+   }
+  },
+  "spin_action_identical_for_sisters": true,
+  "spin_fixed_count": 1
+ },
+ "Q4": {
+  "L2_chi_minus3": 0.7813024128964863,
+  "V_tet": 1.0149416064096535,
+  "bianchi_covolume": 0.16915693440160895,
+  "carriers": {
+   "m003": {
+    "all_regular": true,
+    "index_in_bianchi": 12,
+    "n_tet": 2,
+    "volume": 2.029883212819307
+   },
+   "m004": {
+    "all_regular": true,
+    "index_in_bianchi": 12,
+    "n_tet": 2,
+    "volume": 2.029883212819307
+   },
+   "m202": {
+    "all_regular": true,
+    "index_in_bianchi": 24,
+    "n_tet": 4,
+    "volume": 4.059766425638614
+   },
+   "m203": {
+    "all_regular": true,
+    "index_in_bianchi": 24,
+    "n_tet": 4,
+    "volume": 4.059766425638614
+   },
+   "m206": {
+    "all_regular": true,
+    "index_in_bianchi": 24,
+    "n_tet": 4,
+    "volume": 4.059766425638614
+   },
+   "m207": {
+    "all_regular": true,
+    "index_in_bianchi": 24,
+    "n_tet": 4,
+    "volume": 4.059766425638615
+   },
+   "m208": {
+    "all_regular": false,
+    "index_in_bianchi": 24,
+    "n_tet": 5,
+    "volume": 4.059766425638614
+   },
+   "m410": {
+    "all_regular": true,
+    "index_in_bianchi": 30,
+    "n_tet": 5,
+    "volume": 5.0747080320482665
+   },
+   "m412": {
+    "all_regular": true,
+    "index_in_bianchi": 30,
+    "n_tet": 5,
+    "volume": 5.074708032048269
+   },
+   "s118": {
+    "all_regular": false,
+    "index_in_bianchi": 24,
+    "n_tet": 6,
+    "volume": 4.059766425638616
+   },
+   "s119": {
+    "all_regular": false,
+    "index_in_bianchi": 24,
+    "n_tet": 6,
+    "volume": 4.059766425638614
+   },
+   "s594": {
+    "all_regular": false,
+    "index_in_bianchi": 30,
+    "n_tet": 6,
+    "volume": 5.074708032048266
+   },
+   "s595": {
+    "all_regular": false,
+    "index_in_bianchi": 30,
+    "n_tet": 6,
+    "volume": 5.074708032048268
+   },
+   "s596": {
+    "all_regular": false,
+    "index_in_bianchi": 30,
+    "n_tet": 6,
+    "volume": 5.074708032048268
+   }
+  }
+ }
+}

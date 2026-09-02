@@ -62,3 +62,6 @@ See `campaign/phaseC/SYNTHESIS.md` (judgments), `campaign/phaseC/results/` and `
 ## 2026-09-02 — Phase E (red flags verified at the source)
 
 `campaign/phaseE/IDENTIFICATION_LEDGER.md` — every uncaught identification-by-type, claim-exceeds-computation, fitted value and self-referential lock judged; relay §2c.
+
+- `FRESH_EYES_2026-09-02.md` — five fresh-eyes observations with status (record has it / new / computed), and
+  `recompute/R53_field_vs_manifold/` — the instrument's image {E6, E8}, census base rate, sister bit, Bianchi indices.
