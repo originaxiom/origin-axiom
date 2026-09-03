@@ -178,12 +178,13 @@ The field Q(√−3) has:
 
 Now we use the **McKay correspondence** — a bridge between number theory and symmetry.
 (The McKay route itself is axiom A3: the choice to go from conductor to SL(2,ℤ/Nℤ) to
-McKay label. Once this route is committed to, the golden grammar is uniquely selected
-among the infinite metallic family — provided Λ(m) = m² + 4 is identified with the field
-conductor. For m = 1, Λ = 5 is indeed the conductor of Q(√5). But Λ(m) is the polynomial
-discriminant, which equals the field conductor only when m² + 4 is squarefree; for m = 4,
-Λ = 20 while the conductor of Q(√5) is 5, which is itself McKay-eligible. B997's uniqueness
-is conditional on this identification. See B997, scope limit 2.)
+McKay label. The conductor entering this route is N = 3, from the **geometric trace field**
+Q(√−3) — not to be confused with the rule's eigenvalue field Q(√5) (conductor 5, which
+would give SL(2,F₅) ≅ 2I → E₈, not E₆). Among the metallic family σ_m, only m = 1
+produces a mapping torus whose trace field has conductor 3 (T13): m = 2 gives Q(i)
+(conductor 4), m ≥ 3 gives higher-degree fields. B997's pre-selection via the eigenvalue
+discriminant Λ(m) = m² + 4 concerns the Perron–Frobenius eigenvalue field, a separate
+diagnostic from the geometric trace field that enters Step 4.)
 
 By A3, we pass from the conductor to the finite linear group and apply McKay's correspondence:
 
@@ -218,11 +219,12 @@ The McKay graph:
   1 ─ 2 ─ 3 ─ 2 ─ 1
 ```
 
-> **This is the affine Ê₆ diagram** (7 nodes, including the trivial representation).
-> Removing the trivial-rep node recovers the finite E₆ Dynkin diagram (6 nodes).
-> The Lie algebra obtained is **E₆** either way.
+> **This is the affine Ê₆ diagram** (7 nodes, including the trivial representation),
+> corresponding to the affine Kac–Moody type E₆⁽¹⁾. The trivial representation is
+> the affine node; removing it gives the finite E₆ Dynkin diagram (6 nodes) and hence
+> the finite-dimensional Lie algebra **E₆** used below.
 >
-> conductor 3 → group of order 24 → McKay graph = affine Ê₆ → Lie algebra **E₆**
+> conductor 3 → group of order 24 → McKay graph = affine Ê₆ → finite Lie algebra **E₆**
 
 ---
 
@@ -420,7 +422,8 @@ E₆ has a maximal subgroup SU(3) × SU(3) × SU(3) — **trinification**. Under
 sin²θ_W = 3/8 is not a boundary condition at the top — it's a **matching condition** at
 the intermediate scale M_I where trinification breaks to the Standard Model.
 
-The condition: α₁(GUT normalization) = α₂ at M_I.
+The canonical tree-level matching relation is α₁⁻¹ = (1/5)α₃L⁻¹ + (4/5)α₃R⁻¹.
+With D-parity (g₃L = g₃R), this reduces to α₁ = α₃L = α₂ at M_I.
 
 Running the SM couplings up from M_Z = 91.19 GeV:
 
@@ -453,8 +456,8 @@ At M_I:
 α₃⁻¹ = 36.83     (color, still different)
 ```
 
-The object's boundary condition (3/8), combined with SM one-loop running and the
-assumption of no new thresholds below M_I, **determines** this scale.
+The object's boundary condition (3/8), combined with D-parity, SM one-loop running,
+and the assumption of no new thresholds below M_I, **determines** this scale.
 
 Above M_I, the three SU(3)s of trinification run with β = (−4, −4, −5) (model-spectrum
 input: these depend on the assumed matter content above M_I):
@@ -469,7 +472,7 @@ Naive unification: M_U = 1.8 × 10²⁸ GeV   (log₁₀ = 28.2)
 That's 10⁹ **above** the Planck scale. The gap closes too slowly. Extra matter (sextet
 Higgses at mass M₆) is needed to steepen the convergence and pull unification below Planck.
 
-- **What's determined:** M_I (from the object's 3/8, assuming SM content and one-loop running with no intermediate thresholds)
+- **What's determined:** M_I (from the object's 3/8, assuming D-parity, SM content, and one-loop running with no intermediate thresholds)
 - **What's missing:** M₆ (sextet Higgs mass; the representation content of the trinification Higgs sector must be specified to fix the high-scale running)
 
 ---
@@ -547,8 +550,10 @@ so equivariance alone does not distinguish them. What rules out 0 ↦ π is the 
 (part of A8) that the torsion-sector correspondence is an identity-preserving group
 homomorphism ℤ/2 → ℤ/2. Every group homomorphism preserves the identity element.
 CS = 0 is the identity of {0, 1/4} under addition mod 1/2; θ = 0 is the identity of
-{0, π} under addition mod 2π. Both group homomorphisms ℤ/2 → ℤ/2 (trivial and identity)
-send 0 → 0.
+{0, π} under addition mod 2π. The unique nontrivial group homomorphism ℤ/2 → ℤ/2 (the
+identity isomorphism) sends 0 → 0 and 1/4 → π. (The trivial homomorphism also sends
+0 → 0, but it erases the nontrivial type; A8 requires the map to preserve torsion
+structure, selecting the isomorphism.)
 
 - CS = 0 → **θ = 0** (dictionary selection)
 
@@ -569,7 +574,9 @@ dictionary, which attempted a direct VALUE identification CS = θ. B813 kills I-
 independent mismatches: kind, group, and slot. T17 survives because it has no coefficient
 slot. See `STATE_2026-09-02.md` addendum 2026-09-03.)
 
-Falsifiability: 593 of 594 chiral census manifolds do NOT sit at 2-torsion Chern-Simons.
+Falsifiability: for m004 specifically, 2-torsion is forced by amphichirality (part (i) above);
+the census measures how rare 2-torsion is among the chiral majority where it would need to
+be coincidental: 593 of 594 chiral census manifolds do NOT sit at 2-torsion Chern-Simons.
 (Census methodology: OrientableCuspedCensus in SnapPy, chirality tested via symmetry_group(),
 CS values checked for 2-torsion within floating-point tolerance. The census script will
 be supplied separately for independent verification.)
@@ -619,7 +626,7 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
                        ▼
 ┌─ FORCES ────────────────────────────────────────────────┐
 │  SU(3) × SU(2) × U(1) with sin²θ_W = 3/8 exactly       │
-│  under trinification: M_I = 10¹³ GeV (one-loop, no thresholds) │
+│  under D-parity trinification: M_I = 10¹³ GeV (one-loop, no thresholds) │
 └──────────────────────┬──────────────────────────────────┘
                        │ Chern-Simons + dictionary
                        ▼

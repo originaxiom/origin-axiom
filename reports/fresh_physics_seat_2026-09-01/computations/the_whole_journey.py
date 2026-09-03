@@ -248,13 +248,14 @@ print(f"""
     1 ─ 2 ─ 3 ─ 2 ─ 1
 
   This is the AFFINE Ê₆ DIAGRAM (7 nodes, including
-  the trivial representation). Removing the trivial-rep
-  node recovers the finite E₆ Dynkin diagram (6 nodes).
-  The Lie algebra obtained is E₆ either way.
+  the trivial representation), corresponding to the affine
+  Kac-Moody type E₆⁽¹⁾. The trivial representation is the
+  affine node; removing it gives the finite E₆ Dynkin
+  diagram (6 nodes) and the finite-dimensional Lie algebra E₆.
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  conductor 3 → group of order 24 → affine Ê₆ → E₆     │
-  └─────────────────────────────────────────────────────────┘""")
+  ┌──────────────────────────────────────────────────────────────┐
+  │  conductor 3 → group of order 24 → affine Ê₆ → finite E₆  │
+  └──────────────────────────────────────────────────────────────┘""")
 
 # ─────────────────────────────────────────────────────────────
 banner(5, "WHAT'S INSIDE E₆")
@@ -520,7 +521,9 @@ a boundary condition at the top — it's a MATCHING CONDITION
 at the intermediate scale M_I where trinification breaks to
 the Standard Model.
 
-The condition: α₁(GUT normalization) = α₂ at M_I.
+The canonical tree-level matching is
+  α₁⁻¹ = (1/5)α₃L⁻¹ + (4/5)α₃R⁻¹.
+With D-parity (g₃L = g₃R) this reduces to α₁ = α₃L = α₂ at M_I.
 
 Running the SM couplings up from M_Z = 91.19 GeV:""")
 
@@ -576,8 +579,9 @@ print(f"""
     α₂⁻¹ = {a2_MI:.2f}  ┘ matched (= sin²θ_W = 3/8)
     α₃⁻¹ = {a3_MI:.2f}    (color, still different)
 
-  The OBJECT's boundary condition (3/8), combined with SM one-loop
-  running and no new thresholds below M_I, DETERMINES this scale.
+  The OBJECT's boundary condition (3/8), combined with D-parity,
+  SM one-loop running and no new thresholds below M_I, DETERMINES
+  this scale.
   M_I ≈ 10¹³ GeV — about 10⁶× below the Planck mass.
   (Assumes SM field content and one-loop running with no intermediate
   thresholds — additional matter would shift M_I.)""")
@@ -601,7 +605,7 @@ print(f"""
   Extra matter (sextet Higgses at mass M₆) is needed to
   steepen the convergence and pull unification below Planck.
 
-  What's determined:  M_I (from the object's 3/8)
+  What's determined:  M_I (from the object's 3/8 + D-parity)
   What's missing:     M₆  (sextet Higgs mass; representation content must be specified)""")
 
 # ─────────────────────────────────────────────────────────────
@@ -720,7 +724,9 @@ Under the dictionary, this maps to:
     A8's identity-preserving group structure rules out 0 ↦ π:
     every group homomorphism preserves the identity element.
     CS = 0 is the identity of {{0,1/4}} mod 1/2;
-    θ = 0 is the identity of {{0,π}} mod 2π. Both maps send 0 → 0.
+    θ = 0 is the identity of {{0,π}} mod 2π. The unique nontrivial
+    group homomorphism (the identity isomorphism) sends 0→0, 1/4→π.
+    A8 requires the map to preserve torsion structure, selecting this.
   • CS = 0 → θ = 0 (dictionary selection)
 
 Open issue — θ̄ vs θ: the physical observable is θ̄ = θ + arg(det M_q),
@@ -736,6 +742,10 @@ For θ̄ = 0, one additionally needs arg(det M_q) = 0. E₆ admits a cubic
 by itself fix physical Yukawa phases or VEVs; the chain does not derive it.
 (This is T17, mapping symmetry TYPES ℤ/2 → ℤ/2, NOT the refuted I-4
 dictionary which attempted CS = θ as a value. B813 kills I-4.)
+
+For m004 specifically, 2-torsion is forced by amphichirality
+(part (i) above); the census measures how rare 2-torsion is among the
+chiral majority where it would need to be coincidental.
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT
 sit at 2-torsion Chern-Simons. (Census methodology:
@@ -788,7 +798,7 @@ print("""
                          ▼
   ┌─ FORCES ────────────────────────────────────────────────┐
   │  SU(3) × SU(2) × U(1) with sin²θ_W = 3/8 exactly       │
-  │  under trinification: M_I = 10¹³ GeV (one-loop, no thresholds) │
+  │  under D-parity trinification: M_I = 10¹³ GeV (one-loop, no thresholds) │
   └──────────────────────┬──────────────────────────────────┘
                          │ Chern-Simons + dictionary
                          ▼
