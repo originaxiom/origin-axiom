@@ -214,7 +214,11 @@ of torsor: the closing set is a (ℤ/2)³-torsor, and a torsor has no canonical 
 earned content is C20's rank-3 FAITHFULNESS**, not this restatement — note that the
 abstract set {c, θ, γ₅, γ₃} does NOT act freely (γ₃·c is trivial); freeness holds exactly
 after C20's quotient. Given that quotient, the action on the 8 closings is free, there is
-no G-fixed closing, and no G-equivariant selection exists. **The freeness/no-fixed-point
+no G-fixed closing, and no G-equivariant selection exists. **SCOPE (added 2026-09-03, B1244 — a terminology collision, resolved).** "Closing" here means the
+**observer's closing set**, the (ℤ/2)³-torsor on {c, θ, γ₅, γ₃}. It does **not** mean a **Dehn filling
+of the cusp**, and C22 does not contradict **C46/B287**, where the fiber slope (0,1) **is** a canonical
+closing among the ten exceptional fillings. Two different objects carry the same word; neither
+statement may be quoted without its object. **The freeness/no-fixed-point
 step is DEFINITIONAL — the regular action of any group is free — and is not an independent
 computation.** — B782 (corollary cell; its compute verifies a group-theoretic identity only
 and cannot fail). Lock: `tests/test_b766_torsor.py` (the failable content);
@@ -364,6 +368,26 @@ what cancels the last non-vanishing invariant**. A layer that vanishes identical
 supply a ratio, so **anomaly matching cannot further constrain this matter content** — shut
 structurally, not merely unexplored (closes L144). — B1096.
 Lock: `tests/test_b1096_anomaly_layer.py`.
+
+**C46 [THEOREM — the seam is selective for structure, a catalogue for values].** The object is a
+**complement** — `S³ ∖ K`, defined by what is removed — hence **open**, and closing it (Dehn filling)
+**is** the symmetry-breaking: the closure is **constitutive, not external** (B286 corrects P011 — the
+wall is at the closure, not in the object). The closing supplies, computed: the forced selection set
+(**exactly 10** exceptional fillings), **chirality** (every generic filling is chiral, CS ∉ {0,½}), the
+**CP sign** (the mirror slope carries CS = −CS exactly), **scale** (core length along (1,n) ≈ 2π/n → 0),
+and the **clock** (H₁(cusp T²) = ℤ², ⟨μ,λ⟩ = 1 — a filling is a polarization). Among the ten the **fiber
+slope (0,1) is the UNIQUE torus bundle**, and its monodromy is **exactly A = LR** (B287: Alexander
+polynomial t²−3t+1 = charpoly(A), Twister, Regina — three independent confirmations): the object
+re-sees its own genesis matrix at a canonical seam. **But the selection is stratified (B294): SELECTIVE
+for the object's own structure, a flat CATALOGUE for Standard-Model values.**
+**AND THE TWO SIDES DO NOT OVERLAP (B288, NEGATIVE):** of 54 closed hyperbolic fillings, **zero**
+re-see ℚ(√−3) and **zero** are arithmetic — *the E₆-selecting arithmetic is an open-object property
+destroyed by closing*. So the open object carries ℚ(√−3) → 2T → E₆ and no closing; the closed object
+carries a canonical forced closing and no E₆. **The two cannot be held at once** — the same shape as
+C44's fork, one level below it. (**No SSB mechanism is available**, B295.)
+— B286, B287, B288, B294, B295. Locks: `tests/test_b286_the_seam.py`,
+`tests/test_b287_distinguished_closing.py`, `tests/test_b288_arithmetic_filling_census.py`,
+`tests/test_b294_selection_verdict.py`, `tests/test_b295_ssb_gauge_status.py`.
 
 *(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
 invisible-12 — enter when their locks land; LAW_MAP §F's pending row governs.)*

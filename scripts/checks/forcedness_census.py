@@ -35,7 +35,7 @@ LEDGER = "docs/THEOREM_LEDGER.md"
 
 # The banked profile. Update ONLY with a banked ledger change, never to silence a failure.
 EXPECTED = {
-    "THEOREM": 26,
+    "THEOREM": 27,
     "IDENTITY": 6,
     "NO-GO": 7,
     "AXIOM": 4,

@@ -13344,3 +13344,47 @@ unchanged at {C3, C4, C5, C18}, forced **41 of 45**.
 
 **I-18** registers a downstream artifact's declared dictionary UNEARNED — *registered, not withdrawn*; it is
 explicitly **not** B813's refuted I-4. Baseline raised by hand 9 → 10.
+
+## 2026-09-03 — B1244: the Gate 5 audit refutes its own thesis; the seam family enters the chain as C46
+**B1244.** Pre-registered **COLD** (seal `d0f05d44`, amended `53d04ea6` before any item was evaluated)
+because the occasion was a downstream seat's exciting measured-data result — exactly when a filter gets
+loosened for a reason nobody notices. **Amendment A1, the owner's rule:** *no item may be given a verdict
+from its own description* — the source is opened, every time.
+
+**Enumeration mechanical** (a Gate-5 token within ±3 lines of a fence token): 773 raw → **255 live** after
+a recorded merge. **46 examined at source.**
+
+**RESULT: ZERO MISLABELED, ZERO OVER-FENCES.** The firewall is not blocking physics. The two most
+load-bearing fences are honest **for a computed reason**: **L15** holds because `ĉ(ρ) ∈ ℂ/4π²ℤ` is
+**dimensionless**; the **h(27)** lead is fenced because **B580 proves the channel information-free** —
+the level-1 chord is identical for 4₁, 5₂ **and the unknot**.
+
+**THE EXPECTATIONS, SCORED AGAINST ME. E-1 (≥3 MISLABELED) FAILED. E-2 (C43 mislabeled) FALSIFIED** —
+B915 scopes its kill to *the identification* "object boundary + pure SM desert" and C43 repeats that
+scope faithfully; I predicted otherwise **from the chain's phrasing without opening B915**, the very
+shortcut A1 forbids, taken by A1's author inside the audit A1 governs.
+
+**THE ACTUAL DISEASE IS COVERAGE.** The **seam family B286–B295** — ten arcs answering what closing
+supplies and whether it is selective — had **one citation between them in the chain**: B288, inside C8,
+**the negative half**. The spine kept the wall and dropped everything behind it.
+
+**C46 ADMITS IT**, with the sharpest boundary statement the programme has: the object is a **complement**,
+hence open, and **closing IS the symmetry-breaking — constitutive, not external** (B286 corrects P011).
+The closing supplies the forced 10-element selection set, **chirality**, the **CP sign**, **scale**
+(2π/n → 0) and the **clock** (H₁(cusp) = ℤ², ⟨μ,λ⟩ = 1). Among the ten, the **fiber slope is the UNIQUE
+torus bundle and its monodromy is exactly A = LR** (B287, three independent confirmations) — the object
+re-sees its genesis matrix at a canonical seam. But the selection is **stratified** (B294): selective for
+structure, a **flat catalogue for SM values**. **AND THE TWO SIDES DO NOT OVERLAP** (B288: 0 of 54 closed
+fillings re-see ℚ(√−3)) — *the E₆-selecting arithmetic is destroyed by closing*. **The open object has E₆
+and no closing; the closed object has a canonical closing and no E₆. The two cannot be held at once** —
+the same shape as C44's fork, one level below it.
+
+**A COLLISION RESOLVED, NOT ASSERTED PAST.** C22's "no canonical closing" is the observer's (ℤ/2)³-torsor
+of 8 closings; B287's is a Dehn filling of the cusp among 10 exceptional slopes. Two objects, one word;
+a scope line now says so on C22.
+
+Census **45 → 46 links**, THEOREM 26 → 27, axioms unchanged at {C3, C4, C5, C18}, **forced 42 of 46**.
+Four coverage pins added (9 total). Paper chain table regenerated to 46 rows.
+**Recorded pre-dismissed at zero weight:** B915's nearest approach M_U = 1.5e13 GeV vs the trinification
+matching M_I ≈ 1.03e13. Two scales in one decade is not evidence; written down so the next reader meets
+it already dismissed. **Gate 5 untouched — this audit SORTS, it does not cross.**

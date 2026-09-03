@@ -1,5 +1,5 @@
 {
- "_note": "Results the chain MUST carry, and the gate that keeps it carrying them (B1243). The chain is a curated VIEW and nothing verified its COVERAGE -- so docs/UNIQUENESS_THEOREM.md, the repo's machine-checked genesis theorem banked on day 9, went uncited by THEOREM_LEDGER.md for three months while being cited on every other synthesis surface. B977's third gate cannot fire on it for exactly that reason. Prose is not the mechanism: this file is read by scripts/checks/citation_status.py --coverage and by tests/test_b1243_citation_gate.py. Add a row when a result becomes load-bearing for the paper's spine; removing one needs a banked reason.",
+ "_note": "Results the chain MUST carry, and the gate that keeps it carrying them (B1243). The chain is a curated VIEW and nothing verified its COVERAGE -- so docs/UNIQUENESS_THEOREM.md, the repo's machine-checked genesis theorem banked on day 9, went uncited by THEOREM_LEDGER.md for three months while being cited on every other synthesis surface. B977's third gate cannot fire on it for exactly that reason. Prose is not the mechanism: this file is read by scripts/checks/citation_status.py --coverage and by tests/test_b1243_citation_gate.py. Add a row when a result becomes load-bearing for the paper's spine; removing one needs a banked reason. B1244 added the seam family: ten arcs (B286-B295) answering what closing supplies and whether it is selective had ONE citation between them in the chain -- B288, inside C8, the NEGATIVE half. The spine kept the wall and dropped everything standing behind it.",
  "must_appear_in_chain": [
   {
    "token": "UNIQUENESS_THEOREM",
@@ -30,6 +30,30 @@
    "since": "2026-09-03",
    "arc": "B1243",
    "why": "the 14-vs-12 scope on C25 -- the correction that propagated to two downstream seats"
+  },
+  {
+   "token": "B286",
+   "since": "2026-09-03",
+   "arc": "B1244",
+   "why": "the seam: closing is constitutive, and what it supplies (chirality, CP sign, scale, clock)"
+  },
+  {
+   "token": "B287",
+   "since": "2026-09-03",
+   "arc": "B1244",
+   "why": "the canonical closing: the fiber slope is the unique torus bundle, monodromy exactly A = LR"
+  },
+  {
+   "token": "B294",
+   "since": "2026-09-03",
+   "arc": "B1244",
+   "why": "the selection is stratified: selective for structure, a catalogue for SM values"
+  },
+  {
+   "token": "B288",
+   "since": "2026-09-03",
+   "arc": "B1244",
+   "why": "the E6-selecting arithmetic is destroyed by closing -- the two sides do not overlap"
   }
  ]
 }
