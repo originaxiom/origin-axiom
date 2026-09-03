@@ -178,7 +178,7 @@ print(f"""
   z₂ = {roots[1]:.6f}
 
   These are complex conjugates — a MIRROR PAIR.
-  The number field is Q(√-3): the Eisenstein integers.
+  The number field is Q(√-3) (ring of integers: Eisenstein integers ℤ[ω]).
 
   THE RULE + THE PUNCTURE + NONDEGENERACY → discriminant -3.
   Just algebra.""")
@@ -301,7 +301,7 @@ That's EXACTLY:
   • positron (right-handed)
   • right-handed neutrino (the 16th particle)
 
-The Standard Model. All of it. In one package.""")
+One complete chiral generation of the Standard Model, plus ν_R.""")
 
 # ─────────────────────────────────────────────────────────────
 banner(6, "THE CHARGES ARE FORCED")
@@ -482,7 +482,7 @@ print("""
 banner(8, "THE SCALE")
 # ─────────────────────────────────────────────────────────────
 
-print("""E₆'s largest subgroup is SU(3) × SU(3) × SU(3) —
+print("""E₆ has a maximal subgroup SU(3) × SU(3) × SU(3) —
 "trinification." Under trinification, sin²θ_W = 3/8 is not
 a boundary condition at the top — it's a MATCHING CONDITION
 at the intermediate scale M_I where trinification breaks to
@@ -685,6 +685,10 @@ Under the dictionary, this maps to:
   • CPT-even (P-odd, T-odd) type = the E type
   • The SM's E-type parameter = θ̄_QCD (the strong CP phase)
   • 2-torsion in ℝ/2πℤ = {0, π}
+  • Why 0 not π: the dictionary is a group homomorphism ℤ/2 → ℤ/2.
+    Every group homomorphism preserves the identity element.
+    CS = 0 is the identity of {{0,1/4}} mod 1/2;
+    θ = 0 is the identity of {{0,π}} mod 2π. Both maps send 0 → 0.
   • CS = 0 → θ̄ = 0: strong CP is CONSERVED
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT

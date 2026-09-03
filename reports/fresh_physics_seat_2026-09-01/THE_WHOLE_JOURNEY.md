@@ -160,7 +160,7 @@ discrete-faithful one. Selecting the geometric (nondegenerate) branch:
 > roots: z = (3 ± √−3) / 2
 
 The roots are complex conjugates — a **mirror pair**.
-The number field is **Q(√−3)**: the Eisenstein integers.
+The number field is **Q(√−3)** (its ring of integers is the Eisenstein integers ℤ[ω]).
 
 **The rule + the puncture + nondegeneracy → discriminant −3.** Just algebra.
 
@@ -255,7 +255,7 @@ That's exactly: 3 colors of up and down quarks (left-handed doublet), 3 colors o
 antiquarks, 3 colors of down antiquarks, electron and neutrino (left-handed doublet),
 positron, and the right-handed neutrino (the 16th particle).
 
-The Standard Model. All of it. In one package.
+One complete chiral generation of the Standard Model, plus ν_R.
 
 ---
 
@@ -388,7 +388,7 @@ sin²θ_W = g'² / (g² + g'²)
 
 ## Step 8: The Scale
 
-E₆'s largest subgroup is SU(3) × SU(3) × SU(3) — **trinification**. Under trinification,
+E₆ has a maximal subgroup SU(3) × SU(3) × SU(3) — **trinification**. Under trinification,
 sin²θ_W = 3/8 is not a boundary condition at the top — it's a **matching condition** at
 the intermediate scale M_I where trinification breaks to the Standard Model.
 
@@ -510,6 +510,12 @@ Under the dictionary:
 - CPT-even (P-odd, T-odd) type = the E type
 - The SM's E-type parameter = **θ̄_QCD** (the strong CP phase)
 - 2-torsion in ℝ/2πℤ = {0, π}
+
+Why CS = 0 selects θ = 0, not θ = π: the dictionary is a group homomorphism ℤ/2 → ℤ/2.
+Every group homomorphism preserves the identity element. CS = 0 is the identity of {0, 1/4}
+under addition mod 1/2; θ = 0 is the identity of {0, π} under addition mod 2π. Both group
+homomorphisms ℤ/2 → ℤ/2 (trivial and identity) send 0 → 0. No value-level choice is made.
+
 - CS = 0 → **θ̄ = 0: strong CP is conserved**
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT sit at 2-torsion Chern-Simons.
@@ -597,8 +603,14 @@ See `STATE_2026-09-02.md` addendum 2026-09-03.)
 | THEOREM | 26 |
 | IDENTITY | 6 |
 | NO-GO | 7 |
-| AXIOM | 4 (at links 3, 4, 5, 18) |
+| AXIOM | 4 links (at C3, C4, C5, C18) — see note |
 | COROLLARY | 1 |
 | CENSUS | 1 |
 
 Axiom-free stretch: C6–C17.
+
+**Note on axiom counts:** The table above lists 6 declared axiom *inputs* (A1, A3, A4, A5,
+A7, A8). The forcedness census counts 4 axiom-bearing *links* in the derivation chain. The
+metrics differ: an axiom input is a declared choice; an axiom link is a step in the chain
+where such a choice is exercised. Some axioms share a link; the two counts measure different
+things.
