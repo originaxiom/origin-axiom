@@ -266,15 +266,17 @@ act on. Let's open it up.
 
 E₆ contains a chain of smaller symmetries:
 
-  E₆  ⊃  SO(10)  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)
-  78      45         24         8  +  3  +  1  = 12
+  E₆  ⊃  SO(10) [Spin(10)]  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)
+  78      45                     24         8  +  3  +  1  = 12
 
 The 27 decomposes at each step:
 
   Under SO(10):   27 = 16 + 10 + 1
   The 16 under SU(5):   16 = 10 + 5̄ + 1
 
-The 16 of SO(10) = one GENERATION of Standard Model fermions:""")
+The 16 of SO(10) = one GENERATION of Standard Model fermions:
+(Writing SO(10) follows standard GUT convention; the 16 is a
+spinor representation of the universal cover Spin(10).)""")
 
 particles = [
     ("(3, 2, +1/6)", "u_L, d_L", "left-handed quarks", 6),
@@ -455,9 +457,9 @@ k = tr_T3sq / tr_Ysq
 print(f"""
   The GUT normalization factor: k = Tr(T₃²)/Tr(Y²) = {k}
 
-  At the unification scale, g₁_GUT = √(1/k) × g' = √(5/3) × g'
+  g₁_GUT = √(5/3) × g' is the properly normalized GUT coupling.
 
-  When g₁_GUT = g₂ (unification):
+  At a scale where the normalized couplings match, g₁_GUT = g₂:
 
   sin²θ_W = g'² / (g² + g'²)
            = k·g₁² / (k·g₁² + g₂²)
@@ -545,11 +547,12 @@ print(f"""
     α₂⁻¹ = {a2_MI:.2f}  ┘ matched (= sin²θ_W = 3/8)
     α₃⁻¹ = {a3_MI:.2f}    (color, still different)
 
-  The OBJECT's boundary condition (3/8) DETERMINES this scale.
+  The OBJECT's boundary condition (3/8), combined with SM one-loop
+  running and no new thresholds below M_I, DETERMINES this scale.
   M_I ≈ 10¹³ GeV — about 10⁶× below the Planck mass.""")
 
 # Above M_I: trinification running
-bL, bR, bC = -4, -4, -5
+bL, bR, bC = -4, -4, -5  # model-spectrum input: depends on assumed matter content above M_I
 gap = a2_MI - a3_MI  # gap to close
 s = gap * 2*np.pi / (bL - bC)
 M_U = M_I * np.exp(s)
@@ -568,7 +571,7 @@ print(f"""
   steepen the convergence and pull unification below Planck.
 
   What's determined:  M_I (from the object's 3/8)
-  What's missing:     M₆  (one mass, one named pair of reps)""")
+  What's missing:     M₆  (sextet Higgs mass; representation content must be specified)""")
 
 # ─────────────────────────────────────────────────────────────
 banner(9, "THE FIBONACCI CHAIN")
@@ -596,8 +599,8 @@ Fricke action from Step 3:
 
   F(x, y, z) = (z, x, xz - y)
 
-The crystal and the shape are different projections of the
-same mathematical object.""")
+The crystal and the shape are governed by the same Fricke
+trace-map polynomial, but occupy different invariant level sets.""")
 
 # Verify gap labelling for a small chain
 # Build Fibonacci chain Hamiltonian
@@ -625,22 +628,19 @@ print(f"\n  Fibonacci chain with {N} sites, V = {V}:")
 print(f"  Largest gaps and their IDS labels:")
 
 inv_phi = 1.0/phi
-for rank, (gapsize, idx) in enumerate(gaps[:6]):
+for rank, (gapsize, idx) in enumerate(gaps[:5]):
     ids = (idx + 1) / N  # integrated density of states at gap
     # Find n such that ids ≈ n/phi mod 1 or n*phi mod 1
-    best_n = None
+    best_m = None
     best_err = 1.0
-    for n in range(-10, 11):
-        for m in range(-10, 11):
-            candidate = (n + m * inv_phi) % 1
-            if candidate > 0.5:
-                candidate -= 1
-            err = abs(ids - candidate) if abs(ids - candidate) < abs(ids - candidate - 1) else abs(ids - candidate - 1)
-            err = min(abs(ids - (n + m/phi) % 1), abs(ids - (n + m/phi) % 1 - 1), abs(ids - (n + m/phi) % 1 + 1))
-            if err < best_err:
-                best_err = err
-                best_n = (n, m)
-    print(f"    gap {rank+1}: width {gapsize:.4f}, IDS = {ids:.6f} ≈ {best_n[0]}+{best_n[1]}/φ (mod 1), residual {best_err:.2e}")
+    for m in range(-10, 11):
+        val = (m / phi) % 1
+        err = min(abs(ids - val), abs(ids - val - 1), abs(ids - val + 1))
+        if err < best_err:
+            best_err = err
+            best_m = m
+    n_offset = round(ids - (best_m / phi) % 1)
+    print(f"    gap {rank+1}: width {gapsize:.4f}, IDS = {ids:.6f} ≈ {n_offset:+d} + ({best_m})/φ (mod 1), residual {best_err:.2e}")
 
 # Verify Fricke invariant conservation
 print(f"""
@@ -693,11 +693,14 @@ Under the dictionary, this maps to:
   • CS = 0 → θ̄ = 0: strong CP is CONSERVED
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT
-sit at 2-torsion Chern-Simons. If the strong CP phase is
-measured to be nonzero, the prediction fails.
+sit at 2-torsion Chern-Simons. (Census methodology:
+OrientableCuspedCensus in SnapPy, chirality via symmetry_group(),
+CS tolerance for 2-torsion; census script to be supplied separately.)
+If the strong CP phase is measured to be nonzero, the prediction fails.
 
-What the dictionary does NOT fix: the weak CP phases
-(CKM and PMNS), which are free bits on the γ₅ axis.""")
+What the dictionary does NOT fix: this argument does not
+constrain the numerical weak-CP phases (CKM and PMNS matrices).
+These are free parameters of the chain.""")
 
 # ─────────────────────────────────────────────────────────────
 print(f"\n{'='*70}")
@@ -738,7 +741,7 @@ print("""
                          ▼
   ┌─ FORCES ────────────────────────────────────────────────┐
   │  SU(3) × SU(2) × U(1) with sin²θ_W = 3/8 exactly       │
-  │  under trinification: M_I = 10¹³ GeV (determined)       │
+  │  under trinification: M_I = 10¹³ GeV (one-loop, no thresholds) │
   └──────────────────────┬──────────────────────────────────┘
                          │ Chern-Simons + dictionary
                          ▼
@@ -759,7 +762,7 @@ print("""
   WHAT'S NOT SUPPLIED:
     •  absolute mass scale (external, by theorem)
     •  VEV direction within the forced orbit (free)
-    •  M₆ (sextet Higgs mass — one number)
-    •  generation count (3 exhibited, not forced)
+    •  M₆ (sextet Higgs mass; representation content must be specified)
+    •  generation count (not derived; this document constructs one chiral generation)
     •  coupling values at low energy (structure, not values)
 """)

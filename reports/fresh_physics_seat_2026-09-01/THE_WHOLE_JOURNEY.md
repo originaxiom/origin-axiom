@@ -2,9 +2,11 @@
 
 **From "what's not nothing" to the Standard Model, computed step by step.**
 
-Every derived numerical quantity below is recomputed from explicitly stated inputs;
-structural facts (volumes, Lie-algebra data, topological invariants) are cited inputs.
-Script: `computations/the_whole_journey.py`. Every derived number reproduced.
+All derived numerical quantities below are recomputed by the accompanying script from
+explicitly stated inputs. Structural facts — topological identifications, representation
+data, beta coefficients, Chern-Simons data, and census results — are external inputs
+unless separately derived or cited.
+Script: `computations/the_whole_journey.py`.
 
 ---
 
@@ -168,7 +170,7 @@ The number field is **Q(√−3)** (its ring of integers is the Eisenstein integ
 
 ---
 
-## Step 4: The Number Field Picks a Symmetry
+## Step 4: The Number Field Picks a Symmetry (Axiom A3)
 
 The field Q(√−3) has:
 - discriminant: −3
@@ -230,8 +232,8 @@ The 27 is the smallest non-trivial "package" that E₆ can act on. Open it up.
 E₆ contains a chain of smaller symmetries:
 
 ```
-E₆  ⊃  SO(10)  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)
-78      45         24         8  +  3  +  1  = 12
+E₆  ⊃  SO(10) [Spin(10)]  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)
+78      45                     24         8  +  3  +  1  = 12
 ```
 
 The 27 decomposes at each step:
@@ -240,6 +242,9 @@ The 27 decomposes at each step:
 Under SO(10):   27 = 16 + 10 + 1
 The 16 under SU(5):   16 = 10 + 5̄ + 1
 ```
+
+(Writing "SO(10)" throughout follows standard GUT convention; the 16 is a spinor representation
+of the universal cover Spin(10), and the precise maximal subgroup is [Spin(10) × U(1)]/ℤ₄.)
 
 The **16 of SO(10) = one generation of Standard Model fermions**:
 
@@ -364,13 +369,14 @@ Tr(Y²)   = 5
 Tr(T₃·Y) = 0
 ```
 
-The GUT normalization factor:
+The GUT normalization factor (the ratio that relates g' to the properly normalized
+GUT coupling g₁ = √(5/3) g'):
 
 ```
 k = Tr(T₃²) / Tr(Y²) = 3/5
 ```
 
-At the unification scale, g₁(GUT) = √(5/3) × g'. When g₁(GUT) = g₂:
+At a scale where the normalized couplings match, g₁(GUT) = g₂:
 
 ```
 sin²θ_W = g'² / (g² + g'²)
@@ -427,9 +433,11 @@ At M_I:
 α₃⁻¹ = 36.83     (color, still different)
 ```
 
-The object's boundary condition (3/8) **determines** this scale.
+The object's boundary condition (3/8), combined with SM one-loop running and the
+assumption of no new thresholds below M_I, **determines** this scale.
 
-Above M_I, the three SU(3)s of trinification run with β = (−4, −4, −5):
+Above M_I, the three SU(3)s of trinification run with β = (−4, −4, −5) (model-spectrum
+input: these depend on the assumed matter content above M_I):
 
 ```
 gap  = α₂⁻¹ − α₃⁻¹ = 5.58   (in α⁻¹ units)
@@ -441,8 +449,8 @@ Naive unification: M_U = 1.8 × 10²⁸ GeV   (log₁₀ = 28.2)
 That's 10⁹ **above** the Planck scale. The gap closes too slowly. Extra matter (sextet
 Higgses at mass M₆) is needed to steepen the convergence and pull unification below Planck.
 
-- **What's determined:** M_I (from the object's 3/8)
-- **What's missing:** M₆ (one mass, one named pair of representations)
+- **What's determined:** M_I (from the object's 3/8, assuming SM content and one-loop running with no intermediate thresholds)
+- **What's missing:** M₆ (sextet Higgs mass; the representation content of the trinification Higgs sector must be specified to fix the high-scale running)
 
 ---
 
@@ -469,11 +477,11 @@ where φ is the golden ratio from Step 1.
 Computed on a 610-site Fibonacci chain with V = 1:
 
 ```
-gap 1: width 1.4967, IDS = 0.381967 ≈  0 + (−1)/φ  (mod 1), residual 1.2×10⁻⁶
-gap 2: width 0.5842, IDS = 0.618033 ≈ −1 +   1 /φ  (mod 1), residual 1.2×10⁻⁶
-gap 3: width 0.3964, IDS = 0.763934 ≈  0 + (−2)/φ  (mod 1), residual 2.4×10⁻⁶
-gap 4: width 0.2112, IDS = 0.236066 ≈ −3 +   2 /φ  (mod 1), residual 2.4×10⁻⁶
-gap 5: width 0.1680, IDS = 0.527869 ≈ −1 + (−4)/φ  (mod 1), residual 4.8×10⁻⁶
+gap 1: width 1.4967, IDS = 0.381967 ≈ +0 + (−1)/φ  (mod 1), residual 1.2×10⁻⁶
+gap 2: width 0.5842, IDS = 0.618033 ≈ +0 + ( 1)/φ  (mod 1), residual 1.2×10⁻⁶
+gap 3: width 0.3964, IDS = 0.763934 ≈ +0 + (−2)/φ  (mod 1), residual 2.4×10⁻⁶
+gap 4: width 0.2112, IDS = 0.236066 ≈ +0 + ( 2)/φ  (mod 1), residual 2.4×10⁻⁶
+gap 5: width 0.1680, IDS = 0.527869 ≈ +0 + (−4)/φ  (mod 1), residual 4.8×10⁻⁶
 ```
 
 The transfer-matrix trace map **is** the Fricke action F, and the Fricke invariant
@@ -486,8 +494,8 @@ For the shape:   κ = 0        (the puncture condition)
 4 + 4V² ≥ 4 > 0 = κ(m004).
 ```
 
-The chain and the shape **never share a level set**. They're on different slices of the
-same invariant.
+The chain and the shape are governed by the same Fricke trace-map polynomial, but occupy
+different invariant level sets — they **never share a level set**.
 
 ---
 
@@ -521,10 +529,13 @@ homomorphisms ℤ/2 → ℤ/2 (trivial and identity) send 0 → 0. No value-leve
 - CS = 0 → **θ̄ = 0: strong CP is conserved**
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT sit at 2-torsion Chern-Simons.
+(Census methodology: OrientableCuspedCensus in SnapPy, chirality tested via symmetry_group(),
+CS values checked for 2-torsion within floating-point tolerance. The census script will
+be supplied separately for independent verification.)
 If the strong CP phase is measured to be nonzero, the prediction fails.
 
-What the dictionary does NOT fix: the weak CP phases (CKM and PMNS), which are free bits
-on the γ₅ axis.
+What the dictionary does NOT fix: this argument does not constrain the numerical
+weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 
 (Note: T17's dictionary maps symmetry TYPES ℤ/2 → ℤ/2. It is NOT the refuted I-4
 dictionary, which attempted a VALUE identification CS = θ. B813 kills I-4; T17 survives.
@@ -568,7 +579,7 @@ See `STATE_2026-09-02.md` addendum 2026-09-03.)
                        ▼
 ┌─ FORCES ────────────────────────────────────────────────┐
 │  SU(3) × SU(2) × U(1) with sin²θ_W = 3/8 exactly       │
-│  under trinification: M_I = 10¹³ GeV (determined)       │
+│  under trinification: M_I = 10¹³ GeV (one-loop, no thresholds) │
 └──────────────────────┬──────────────────────────────────┘
                        │ Chern-Simons + dictionary
                        ▼
@@ -595,7 +606,7 @@ See `STATE_2026-09-02.md` addendum 2026-09-03.)
 - **absolute mass scale** — external, by theorem (the rank theorem proves the 12-dim SM algebra is never a centralizer in E₆; two U(1)s are forced, and the overall scale requires a VEV whose direction is unsourced)
 - **VEV direction** within the forced orbit — free
 - **M₆** — sextet Higgs mass; one number, one named pair of representations
-- **generation count** — 3 exhibited, not forced
+- **generation count** — not derived; this document constructs one chiral generation
 - **coupling values at low energy** — structure, not values
 
 ## Forcedness Census
