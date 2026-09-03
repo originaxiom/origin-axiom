@@ -237,11 +237,14 @@ print(f"""
          │
          1
 
-  This is the E₆ DYNKIN DIAGRAM.
+  This is the AFFINE Ê₆ DIAGRAM (7 nodes, including
+  the trivial representation). Removing the trivial-rep
+  node recovers the finite E₆ Dynkin diagram (6 nodes).
+  The Lie algebra obtained is E₆ either way.
 
-  ┌──────────────────────────────────────────┐
-  │  conductor 3 → group of order 24 → E₆   │
-  └──────────────────────────────────────────┘""")
+  ┌─────────────────────────────────────────────────────────┐
+  │  conductor 3 → group of order 24 → affine Ê₆ → E₆     │
+  └─────────────────────────────────────────────────────────┘""")
 
 # ─────────────────────────────────────────────────────────────
 banner(5, "WHAT'S INSIDE E₆")
@@ -303,11 +306,69 @@ banner(6, "THE CHARGES ARE FORCED")
 print("""The numbers in the third column (Y = +1/6, -2/3, +1/3, ...)
 are the HYPERCHARGES. Are we free to choose them?
 
-No. Anomaly cancellation FORCES them.
+No. The SU(5) GROUP THEORY determines them uniquely.
 
-An "anomaly" is when a symmetry of the classical theory
-breaks at the quantum level. For a U(1) charge assignment
-to be consistent, these sums must all vanish:""")
+THE MECHANISM: THE MAXIMAL-SUBGROUP CHAIN
+
+The canonical decomposition from Step 5 goes through maximal subgroups:
+
+  E₆  ⊃  SO(10)  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)_Y
+
+Within SU(5), hypercharge is a diagonal 5×5 traceless matrix
+that must commute with SU(3) (upper-left 3×3) and SU(2) (lower-
+right 2×2). Commuting with a block means being proportional to
+the identity on that block.""")
+
+print("\nThe most general such matrix is:")
+print("  c₁·diag(1,1,1,0,0) + c₂·diag(0,0,0,1,1)")
+print("\nTracelessness: 3c₁ + 2c₂ = 0  →  c₂ = -3c₁/2")
+print("\n  Y = c₁ · diag(1, 1, 1, -3/2, -3/2)")
+
+Y_diag = [Fraction(-1,3), Fraction(-1,3), Fraction(-1,3),
+          Fraction(1,2), Fraction(1,2)]
+tr = sum(Y_diag)
+print(f"\nONE DIRECTION, not two. Standard normalization (c₁ = -1/3):")
+print(f"  Y = diag(-1/3, -1/3, -1/3, +1/2, +1/2)")
+print(f"      └──── SU(3) ────┘  └── SU(2) ──┘")
+print(f"  trace = {tr}  ✓")
+
+print("""
+THE CHARGES FOLLOW FROM GROUP THEORY
+
+The 16 of SO(10) decomposes under SU(5) as 10 ⊕ 5̄ ⊕ 1.
+Each piece decomposes under SU(3)×SU(2), and Y is fixed:""")
+
+su5_decomp = [
+    ("10 → (3,2)", Fraction(1,6), "Q_L"),
+    ("10 → (3̄,1)", Fraction(-2,3), "u^c"),
+    ("10 → (1,1)", Fraction(1,1), "e^c"),
+    ("5̄  → (3̄,1)", Fraction(1,3), "d^c"),
+    ("5̄  → (1,2)", Fraction(-1,2), "L"),
+    ("1  → (1,1)", Fraction(0,1), "ν^c"),
+]
+
+print(f"\n  {'SU(5) origin':17s}  {'Y':>6s}  {'particle':>8s}")
+print(f"  {'─'*17}  {'─'*6}  {'─'*8}")
+for origin, y, name in su5_decomp:
+    print(f"  {origin:17s}  {str(y):>6s}  {name:>8s}")
+
+print("\nEvery charge is FIXED by the SU(5) embedding. No free parameter.")
+
+print("""
+WHAT ABOUT ANOMALY CANCELLATION?
+
+Anomaly cancellation is a CONSISTENCY CHECK, not the derivation
+mechanism. Applied alone (without SU(5) structure), it leaves a
+one-parameter family:
+
+  (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, -2-t, -3, 2-t, 4+t)
+
+The free parameter t is the B-L direction, which lives in
+SO(10)/(SU(5) × U(1)_χ) — OUTSIDE SU(5). The canonical
+maximal-subgroup chain goes through SU(5), which fixes
+t = -4 (the SM value) by group theory.
+
+Verification that anomaly cancellation holds:""")
 
 # Do the anomaly computation with Fraction for exact arithmetic
 Y_Q = Fraction(1,6)
@@ -327,46 +388,16 @@ print(f"  [SU(2)]²×U(1):  3·Y_Q + Y_L       = {c_su2}  ✓")
 print(f"  [grav]²×U(1):   6Y_Q+3Y_u+3Y_d+2Y_L+Y_e+Y_ν = {c_grav}  ✓")
 print(f"  [U(1)]³:        6Y_Q³+3Y_u³+3Y_d³+2Y_L³+Y_e³+Y_ν³ = {c_u1}  ✓")
 
-print(f"""
-But is this the ONLY solution?
-
-Assign unknown charges Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν.
-The three linear conditions give:
-
-  Y_d = -2Y_Q - Y_u
-  Y_L = -3Y_Q
-  Y_ν = 6Y_Q - Y_e
-
-Three equations, six unknowns → 3 free parameters.
-One is overall normalization (physics doesn't change if
-we multiply all charges by the same number). So 2 are real.
-
-The CUBIC condition [U(1)]³ = 0 cuts this down.
-Setting Y_Q = 1 (normalization) and expanding:
-
-  (Y_u + 1)² = (Y_e - 3)²
-
-Two solutions:
-  Case A: Y_u + 1 = +(Y_e - 3)  →  Y_e = Y_u + 4
-  Case B: Y_u + 1 = -(Y_e - 3)  →  Y_e = -Y_u + 2""")
-
-print("\nCase A (with Y_Q = 1, Y_u = -4, rescale by 1/6):")
-print("  Y_e = 0, Y_ν = 1  →  neutral right-handed electron??")
-print("                     →  charged right-handed neutrino??")
-print("  Not physical. Ruled out.")
-
-print("\nCase B (with Y_Q = 1, Y_u = -4, rescale by 1/6):")
-print("  Y_Q=1/6, Y_u=-2/3, Y_d=1/3, Y_L=-1/2, Y_e=1, Y_ν=0")
-print("  This IS the Standard Model. Every charge correct.")
-
 print("""
-  ┌──────────────────────────────────────────────────┐
-  │  HYPERCHARGE IS UNIQUE.                          │
-  │  Anomaly cancellation over the chiral 16 of      │
-  │  SO(10) gives exactly one physical U(1).         │
-  │  It produces quarks with charge 2/3 and -1/3,    │
-  │  electrons with charge -1, neutrinos neutral.    │
-  └──────────────────────────────────────────────────┘""")
+  ┌────────────────────────────────────────────────────────┐
+  │  HYPERCHARGE IS UNIQUE.                                │
+  │  The SU(5) group theory within the canonical           │
+  │  maximal-subgroup chain E₆ ⊃ SO(10) ⊃ SU(5) ⊃ SM     │
+  │  determines exactly one U(1) direction.                │
+  │  It produces quarks with charge 2/3 and -1/3,          │
+  │  electrons with charge -1, neutrinos neutral.          │
+  │  Anomaly cancellation is a consistency verification.   │
+  └────────────────────────────────────────────────────────┘""")
 
 # ─────────────────────────────────────────────────────────────
 banner(7, "THE WEAK MIXING ANGLE")

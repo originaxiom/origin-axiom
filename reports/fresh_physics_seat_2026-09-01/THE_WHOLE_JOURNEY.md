@@ -201,9 +201,11 @@ The McKay graph:
        1
 ```
 
-> **This is the E₆ Dynkin diagram.**
+> **This is the affine Ê₆ diagram** (7 nodes, including the trivial representation).
+> Removing the trivial-rep node recovers the finite E₆ Dynkin diagram (6 nodes).
+> The Lie algebra obtained is **E₆** either way.
 >
-> conductor 3 → group of order 24 → **E₆**
+> conductor 3 → group of order 24 → McKay graph = affine Ê₆ → Lie algebra **E₆**
 
 ---
 
@@ -258,10 +260,73 @@ The Standard Model. All of it. In one package.
 The numbers in the third column (Y = +1/6, −2/3, +1/3, ...) are the **hypercharges**.
 Are we free to choose them?
 
-No. **Anomaly cancellation forces them.**
+No. **The SU(5) group theory determines them uniquely.**
 
-An "anomaly" is when a symmetry of the classical theory breaks at the quantum level.
-For a U(1) charge assignment to be consistent, these sums must all vanish:
+### The mechanism: the maximal-subgroup chain
+
+The canonical decomposition from Step 5 goes through maximal subgroups:
+
+```
+E₆  ⊃  SO(10)  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)_Y
+```
+
+Within SU(5), hypercharge is a diagonal 5×5 traceless matrix that must commute with
+the SU(3) block (upper-left 3×3) and the SU(2) block (lower-right 2×2). Commuting
+with a block means being proportional to the identity on that block. The most general
+such matrix is:
+
+```
+c₁·diag(1,1,1,0,0) + c₂·diag(0,0,0,1,1)
+```
+
+Tracelessness requires 3c₁ + 2c₂ = 0, giving c₂ = −3c₁/2:
+
+```
+Y = c₁ · diag(1, 1, 1, −3/2, −3/2)
+```
+
+**One direction, not two.** Choosing the standard normalization (c₁ = −1/3):
+
+```
+Y = diag(−1/3, −1/3, −1/3, +1/2, +1/2)
+    └──── SU(3) ────┘  └── SU(2) ──┘
+
+trace = 3(−1/3) + 2(+1/2) = 0   ✓
+```
+
+### The charges follow from group theory
+
+The 16 of SO(10) decomposes under SU(5) as **10 ⊕ 5̄ ⊕ 1**.
+Each piece decomposes under SU(3) × SU(2), and Y is fixed:
+
+```
+SU(5) origin       Y       particle
+─────────────────  ──────  ────────
+10 → (3,2)          +1/6   Q_L
+10 → (3̄,1)          −2/3   u^c
+10 → (1,1)          +1     e^c
+5̄  → (3̄,1)          +1/3   d^c
+5̄  → (1,2)          −1/2   L
+1  → (1,1)           0     ν^c
+```
+
+Every charge is **fixed by the SU(5) embedding**. No free parameter.
+
+### What about anomaly cancellation?
+
+Anomaly cancellation is a **consistency check**, not the derivation mechanism.
+Applied alone (without the SU(5) structure), it leaves a one-parameter family:
+
+```
+(Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, −2−t, −3, 2−t, 4+t)
+```
+
+The free parameter t corresponds to the B−L direction, which lives in
+SO(10)/(SU(5) × U(1)_χ) — **outside** SU(5). The canonical maximal-subgroup
+chain goes through SU(5), which fixes t = −4 (the SM value) by group theory.
+
+We can verify anomaly cancellation holds for the group-theoretically
+determined charges:
 
 ```
 [SU(3)]²×U(1):  2·Y_Q + Y_u + Y_d                          = 0  ✓
@@ -272,36 +337,10 @@ For a U(1) charge assignment to be consistent, these sums must all vanish:
 
 (Computed with exact Fraction arithmetic — all four sums are identically zero.)
 
-But is this the **only** solution?
-
-Assign unknown charges Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν. The three linear conditions give:
-
-```
-Y_d = −2Y_Q − Y_u
-Y_L = −3Y_Q
-Y_ν = 6Y_Q − Y_e
-```
-
-Three equations, six unknowns → 3 free parameters. One is overall normalization (physics
-doesn't change if we multiply all charges by the same number). So 2 are real.
-
-The **cubic** condition [U(1)]³ = 0 cuts this down. Setting Y_Q = 1 (normalization):
-
-```
-(Y_u + 1)² = (Y_e − 3)²
-```
-
-**Two solutions:**
-
-| | Case A | Case B |
-|---|---|---|
-| relation | Y_e = Y_u + 4 | Y_e = −Y_u + 2 |
-| with Y_u = −4, rescale by 1/6 | Y_e = 0, Y_ν = 1 | Y_Q=1/6, Y_u=−2/3, Y_d=1/3, Y_L=−1/2, Y_e=1, Y_ν=0 |
-| verdict | neutral electron?? charged neutrino?? **unphysical** | **the Standard Model** |
-
-> **Hypercharge is unique.** Anomaly cancellation over the chiral 16 of SO(10) gives
-> exactly one physical U(1). It produces quarks with charge 2/3 and −1/3, electrons
-> with charge −1, neutrinos neutral.
+> **Hypercharge is unique.** The SU(5) group theory within the canonical maximal-subgroup
+> chain E₆ ⊃ SO(10) ⊃ SU(5) ⊃ SM determines exactly one U(1) direction. It produces
+> quarks with charge 2/3 and −1/3, electrons with charge −1, neutrinos neutral. Anomaly
+> cancellation is a consistency verification, not the mechanism.
 
 ---
 
