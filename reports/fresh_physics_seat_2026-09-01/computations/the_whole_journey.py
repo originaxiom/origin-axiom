@@ -689,8 +689,14 @@ Under the dictionary, this maps to:
   • Why 0 not π: the dictionary is a group homomorphism ℤ/2 → ℤ/2.
     Every group homomorphism preserves the identity element.
     CS = 0 is the identity of {{0,1/4}} mod 1/2;
-    θ = 0 is the identity of {{0,π}} mod 2π. Both maps send 0 → 0.
+    θ̄ = 0 is the identity of {{0,π}} mod 2π. Both maps send 0 → 0.
   • CS = 0 → θ̄ = 0: strong CP is CONSERVED
+
+Note on θ̄ vs θ: the physical observable is θ̄ = θ + arg(det M_q),
+not the basis-dependent θ alone. The dictionary maps to the PHYSICAL
+OBSERVABLE θ̄, not to the basis-dependent θ. The prediction is θ̄ = 0
+directly. (This is T17, mapping symmetry TYPES ℤ/2 → ℤ/2, NOT the
+refuted I-4 dictionary which attempted CS = θ as a value. B813 kills I-4.)
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT
 sit at 2-torsion Chern-Simons. (Census methodology:
@@ -763,6 +769,7 @@ print("""
     •  absolute mass scale (external, by theorem)
     •  VEV direction within the forced orbit (free)
     •  M₆ (sextet Higgs mass; representation content must be specified)
-    •  generation count (not derived; this document constructs one chiral generation)
+    •  generation count (not derived; one chiral generation constructed;
+       h¹(M; 27_ρ) = 3 gives a cohomological origin for three slots (B632))
     •  coupling values at low energy (structure, not values)
 """)

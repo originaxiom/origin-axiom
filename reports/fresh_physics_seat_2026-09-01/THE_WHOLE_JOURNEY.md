@@ -177,6 +177,11 @@ The field Q(√−3) has:
 - **conductor: N = 3** (the "complexity" of the field)
 
 Now we use the **McKay correspondence** — a bridge between number theory and symmetry.
+(The McKay route itself is axiom A3: the choice to go from conductor to SL(2,ℤ/Nℤ) to
+McKay label. Once this route is committed to, the golden grammar is uniquely selected
+among the infinite metallic family: Λ(m) = m²+4, and only m = 1 gives Λ = 5 ≤ 5,
+the cutoff above which |SL(2,ℤ/N)| > 120 exceeds all binary polyhedral groups.
+See B997.)
 
 **Step 1:** Build the group SL(2, ℤ/3ℤ) — all 2×2 matrices with entries mod 3 and
 determinant 1.
@@ -235,6 +240,11 @@ E₆ contains a chain of smaller symmetries:
 E₆  ⊃  SO(10) [Spin(10)]  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)
 78      45                     24         8  +  3  +  1  = 12
 ```
+
+(The SM algebra is the forced endpoint: imposing registerability on a maximal-subalgebra
+descent from E₆ gives six possible chains through different intermediates — SO(10)×U(1),
+SU(3)³, Pati-Salam — but **all six terminate at SU(3)×SU(2)×U(1)**. The endpoint is
+rule-independent. See B994/B863.)
 
 The 27 decomposes at each step:
 
@@ -521,12 +531,23 @@ Under the dictionary:
 - The SM's E-type parameter = **θ̄_QCD** (the strong CP phase)
 - 2-torsion in ℝ/2πℤ = {0, π}
 
-Why CS = 0 selects θ = 0, not θ = π: the dictionary is a group homomorphism ℤ/2 → ℤ/2.
+Why CS = 0 selects θ̄ = 0, not θ̄ = π: the dictionary is a group homomorphism ℤ/2 → ℤ/2.
 Every group homomorphism preserves the identity element. CS = 0 is the identity of {0, 1/4}
-under addition mod 1/2; θ = 0 is the identity of {0, π} under addition mod 2π. Both group
+under addition mod 1/2; θ̄ = 0 is the identity of {0, π} under addition mod 2π. Both group
 homomorphisms ℤ/2 → ℤ/2 (trivial and identity) send 0 → 0. No value-level choice is made.
 
 - CS = 0 → **θ̄ = 0: strong CP is conserved**
+
+Note on θ̄ vs θ: the physical observable is θ̄_QCD = θ + arg(det M_q), not the topological
+angle θ alone (which is basis-dependent — a chiral field redefinition shifts θ and
+arg(det M_q) by equal and opposite amounts). The dictionary maps to the **physical
+observable** θ̄, not to the basis-dependent θ. The prediction is θ̄ = 0 directly; the
+decomposition into θ and arg(det M_q) is a mechanism question about how the prediction
+is realized, not a gap in the prediction itself.
+
+(This dictionary is T17, which maps symmetry TYPES ℤ/2 → ℤ/2. It is NOT the refuted I-4
+dictionary, which attempted a direct VALUE identification CS = θ. B813 kills I-4 on three
+independent mismatches: kind, group, and slot. T17 survives because it has no coefficient slot.)
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT sit at 2-torsion Chern-Simons.
 (Census methodology: OrientableCuspedCensus in SnapPy, chirality tested via symmetry_group(),
@@ -607,6 +628,8 @@ See `STATE_2026-09-02.md` addendum 2026-09-03.)
 - **VEV direction** within the forced orbit — free
 - **M₆** — sextet Higgs mass; one number, one named pair of representations
 - **generation count** — not derived; this document constructs one chiral generation
+  (the cohomological multiplicity h¹(M; 27_ρ) = 3 provides a structural origin for three
+  generation-slots (B632), but this is exhibited, not forced by the axioms)
 - **coupling values at low energy** — structure, not values
 
 ## Forcedness Census
