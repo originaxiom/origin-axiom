@@ -37,7 +37,7 @@ LEDGER = "docs/THEOREM_LEDGER.md"
 EXPECTED = {
     "THEOREM": 26,
     "IDENTITY": 6,
-    "NO-GO": 5,
+    "NO-GO": 7,
     "AXIOM": 4,
     "COROLLARY": 1,
     "CENSUS": 1,

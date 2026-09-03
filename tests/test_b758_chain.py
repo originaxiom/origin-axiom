@@ -11,12 +11,16 @@ def _text():
         return fh.read()
 
 
-def test_chain_has_eighteen_links_with_valid_labels():
+def test_chain_links_are_consecutive_with_valid_labels():
     # C1-C23 through 2026-08-05; C24-C43 = Part V, the B877-B919 window's same-PR
-    # catch-up (2026-08-06, B920 register sweep -- cc3 loss audit A5).
+    # catch-up (2026-08-06); C44-C45 = B1243 (the fork, the anomaly layer).
+    # Pins the INVARIANT -- consecutive numbering from C1, no gaps, no duplicates --
+    # not a snapshot count, which reds on every legitimate admission.
     text = _text()
     links = re.findall(r"\*\*C(\d+) \[(THEOREM|CENSUS|IDENTITY|NO-GO|AXIOM|COROLLARY)[^\]]*\]", text)
-    assert [int(n) for n, _ in links] == list(range(1, 44))
+    nums = [int(n) for n, _ in links]
+    assert nums == list(range(1, len(nums) + 1)), f"chain numbering has a gap or duplicate: {nums}"
+    assert len(nums) >= 45
     grades = [g for _, g in links]
     assert grades.count("AXIOM") == 4            # C3, C4, C5, C18 (C19 = IDENTITY)
     assert grades[23:].count("AXIOM") == 0       # Part V admits no axioms

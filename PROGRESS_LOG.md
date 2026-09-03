@@ -13308,3 +13308,39 @@ bundles amphicheiral, order 8, CS = 0) — independent convergence with B1235's 
 factors; three lines); B8070's script prints the refuted computation → cc3. LAW_MAP:263's amphichirality clause
 corrected — B1235 said it stood; it quoted the retracted number (E53 #19, mine). B232 PROVED → OPEN, B167 and B647
 claims corrected to their cells (E53 #20–#22), addenda at source. L199 registered. Relays to fc and cc3.
+
+## 2026-09-03 — B1243: the point-of-use gate; the chain was the vector
+**B1243.** Seven errors in one exchange shared one shape: **a claim USED without checking its status where it
+is used.** One was mine — I graded a downstream seat's theorem from a *summary* rather than its source, and the
+wrong grade was accepted within the hour (**E58**). `scripts/checks/citation_status.py` fires in two directions.
+
+**The first design was wrong, and how it was wrong is the finding.** v1 forbade a THEOREM link to cite a
+NEGATIVE/RETRACTED arc; against the live corpus it produced **seven violations, all false** — B731 is RETRACTED
+*because* it established that m004 IS congruence, exactly what C9 asserts; B282's negative kills a genericity
+claim while its surviving atom is what C6 cites. A verdict prohibition would have made the fastest path to green
+**deleting provenance**. The verdict layer now REPORTS and never fails; the failing trigger is an
+**unacknowledged correction banner** — whether the reader was warned, not whether the mathematics is right.
+
+**Direction (a), first catch: C25.** It asserted the second measurement lands on su(3)⊕su(2)⊕u(1)³ *EXACTLY*
+while citing **B892**, whose own banner says that phrase **overstates by two abelian factors**. So the 14-vs-12
+error two downstream seats made was **ours**, inherited from the chain. C25 now carries the scope, with both
+extras' fates separated: **ψ** ungaugeable over any chiral content (free); **χ ≅ B−L** anomaly-*free* over the
+derived 16 and removed by ⟨ν^c⟩ instead. **14 → 13 forced and free; 13 → 12 costs exactly that VEV.**
+
+**Direction (b), coverage — first catch: the genesis theorem.** `docs/UNIQUENESS_THEOREM.md` (**A1–A7 ⟹ A = LR =
+[[2,1],[1,1]] ⟹ P1–P16**, seven motivated axioms forcing the monodromy, machine-checked 144 → 1, banked
+**2026-05-28, day nine**, lock 9 green) had gone **uncited by `THEOREM_LEDGER.md` for three months** while
+appearing on every other synthesis surface — so B977's third gate could not fire on it. Nothing checked the
+chain's own *coverage*. `docs/CHAIN_COVERAGE.json` pins it, with its §6 limit kept in force (it does **not**
+derive A1–A7 from anything weaker; the 25-path survey stands at 4 STALLED, 1 DEAD, **17 UNTOUCHED**) and the
+honest caveat that A1's ℤ² *is* the torus's H₁ — agreement between two axiomatizations, not two independent ones.
+
+**Two admissions.** **C44 [NO-GO — the fork]**: z(T1,T2+colour) = 0 — any two of {spacetime, colour,
+hypercharge}, never three; every *pair* has room (16, 8, 8) and only the triple vanishes, so the obstruction is
+**Borromean, not pairwise** — it is not an uncertainty relation, and there is no scale for one. **C45 [NO-GO —
+the anomaly layer is complete]**: over the derived 16 every channel vanishes identically, so **anomaly matching
+cannot further constrain this matter content** (closes L144). Census **43 → 45 links, NO-GO 5 → 7**, axioms
+unchanged at {C3, C4, C5, C18}, forced **41 of 45**.
+
+**I-18** registers a downstream artifact's declared dictionary UNEARNED — *registered, not withdrawn*; it is
+explicitly **not** B813's refuted I-4. Baseline raised by hand 9 → 10.

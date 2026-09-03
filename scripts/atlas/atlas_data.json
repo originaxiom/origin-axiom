@@ -5276,6 +5276,31 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1243": {
+   "slug": "citation gate",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B282",
+    "B731",
+    "B813",
+    "B864",
+    "B892",
+    "B977",
+    "P1",
+    "P16"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B124": {
    "slug": "time reversal reciprocity",
    "motifs": [

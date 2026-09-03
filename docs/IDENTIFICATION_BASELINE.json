@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 9,
+ "unearned": 10,
  "rows": [
   "I-6",
   "I-7",
@@ -10,9 +10,10 @@
   "I-13",
   "I-14",
   "I-15",
-  "I-16"
+  "I-16",
+  "I-18"
  ],
- "total_rows": 17,
+ "total_rows": 18,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -34,6 +35,13 @@
    "to": 9,
    "row": "I-13, I-14, I-15, I-16",
    "reason": "LEGACY identifications surfaced by the physics-seat evaluation branch's Phase E part 1 (71 seat judgments on reader flags), each re-read on main at B1241 and registered rather than left implicit. I-13 is the MASTER identification (structural analogue = physical quantity, the listener map u) that B1231 named as prose and never registered -- the price of the main goal itself, earned only by the crossing cell. I-14 (B305: two Z/3s B323 keeps distinct), I-15 (B715: E6 CS = 3d gravity via the principal sl2, no dynamics), I-16 (B675: SU(4)_1 = silver, a conductor-8 number match). I-17 (B312) is REFUTED via B727 and does not count. Raised by hand; nothing absorbed."
+  },
+  {
+   "date": "2026-09-03",
+   "from": 9,
+   "to": 10,
+   "row": "I-18",
+   "reason": "a DOWNSTREAM SEAT ARTIFACT's declared dictionary, registered rather than left to stand unpriced in a public repository. The object's CS 2-torsion is mapped to the SM's strong phase theta-bar by a declared type dictionary (c = P, gamma5 = T). It is NOT B813's refuted I-4 -- that killed a VALUE identification and this is a Z/2 -> Z/2 map of symmetry types, fenced as such in the artifact's own text. Raised by hand. The main seat had graded this arc as resting on the refuted row, from a SUMMARY of it rather than its source, and the wrong grade was accepted downstream; that correction is withdrawn and logged as E58. The row is the honest disposition: priced and registered, not retracted."
   }
  ],
  "_earned_additions": [

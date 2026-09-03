@@ -18,6 +18,27 @@ statement appears below; SM-facing content enters only as NO-GO links.*
 
 ## Part I — the genesis (P019's chain, priced by B749)
 
+> **THE GENESIS HAS A SECOND, STRONGER ROUTE, AND THIS CHAIN DID NOT CITE IT UNTIL B1243
+> (2026-09-03).** `docs/UNIQUENESS_THEOREM.md` — banked 2026-05-28, nine days into the repo,
+> lock `tests/test_uniqueness_theorem.py` (9 green) — proves **A1–A7 ⟹ A = LR = [[2,1],[1,1]]
+> ⟹ P1–P16**: seven individually-motivated axioms of a *minimal record-transfer system*
+> (ℤ² substrate; reversible integer transfer; det = +1; a primitive one-channel update forcing
+> exactly the shears L and R; torsion-free closure; minimality) **force the monodromy** —
+> trace 3, eigenvalues φ², φ⁻² — machine-checked 144 → 1, with **A7 the single irreducible
+> bit** (the order convention LR vs RL), which is exactly what selects the golden polynomial.
+>
+> **Its own §6 limit, kept verbatim in force:** it does **not** derive A1–A7 from anything
+> weaker — attempts to derive even L, R from a count-substrate STALLED, and "the substrate,
+> positivity, primitivity, and order remained inserted." `paths/PATHS.md`'s 25-path survey of
+> mechanisms stands at **4 STALLED, 1 DEAD, 17 UNTOUCHED**, so this is *not*
+> selection-by-elimination.
+>
+> **Not independent of C1–C6:** A1's ℤ² *is* the punctured torus's H₁, so the geometric
+> content enters early rather than not at all. State it as **agreement between two
+> axiomatizations**, never as two independent derivations.
+>
+> Pinned by `docs/CHAIN_COVERAGE.json`: dropping this citation reds the suite.
+
 **C1 [THEOREM — Morse–Hedlund].** Every aperiodic sequence has factor complexity
 p(n) ≥ n+1; Sturmian words achieve equality. — P019 T3; control fork B749/F7 (with the
 quadratic≠metallic erratum sealed in-arc). Lock: `tests/test_b749_genesis_forks.py`.
@@ -239,6 +260,14 @@ the cyclic law (P69). — B877. Lock: `tests/test_b877_fmt_review.py`.
 charges lands on su(3)⊕su(2)⊕u(1)³ EXACTLY, skipping SU(5); the wall complex in the split
 frame, at all three roots. — B892, B893. Locks: `tests/test_b892_smt.py`,
 `tests/test_b893_omega.py`.
+**SCOPE (B950, carried here 2026-09-03 by B1243 — the citation gate's first catch).** That
+algebra is **14-dimensional**; the Standard Model's is **12**. It is the A₂+A₁ Levi — a
+**centralizer**, not the SM gauge algebra — and B892's own banner says the phrase "take E₆ to
+the Standard Model algebra" **overstates by two abelian factors**. Both extras are named
+(B992: the u(1)³ is span(Y, χ, ψ)) and each has a fate: **ψ** is anomalous over any chiral
+content, so ungaugeable — free; **χ ≅ B−L** is anomaly-FREE over the object's derived 16
+(B1096, C45) and is removed instead by the second VEV ⟨ν^c⟩ (B1017), whose direction is itself
+forced (B1092). So **14 → 13 is forced and free; 13 → 12 costs exactly that VEV.**
 
 **C26 [THEOREM — the magic-square isomorphism].** The build IS M(𝕆,ℂ) by explicit
 structure constants; 0/3003 mismatches, det φ = −2/3 (P70). — B904. Lock:
@@ -321,6 +350,20 @@ uncommitted `cw.py`; the three integers recompute from B1236's committed multipl
 **C43 [NO-GO — the crossing, sealed].** One input (α_em) + the object's boundary + pure
 desert MISSES at 16σ, α_s-dominated; the failure triangle banked; the desert is dead as a
 mechanism. — B915. Lock: `tests/test_b915_crossing.py`.
+
+**C44 [NO-GO — the fork].** On e₆ the centralizer ladder is dim z(T1) = 16, z(T1+colour) = 8,
+z(T1,T2) = 8, **z(T1,T2+colour) = 0**, slot-independent (two adjacent simple-pair choices
+agree). The joint centralizer 0 is **THE FORK — any TWO of {spacetime, colour, hypercharge},
+never three**: the closing is forked, E₆(−26) XOR E₆(−14), not one act. — B1138.
+Lock: `tests/test_b1138_structural_completion.py`.
+
+**C45 [NO-GO — the anomaly layer is complete].** Over the object's DERIVED 16 (with ν^c) every
+anomaly channel vanishes identically — U(1)³, U(1)-grav, [SU(3)]²U(1), [SU(2)]²U(1),
+SU(2)-Witten, and (B−L)³ and (B−L)-grav where the imported 15 gives −1/−1: **ν^c is exactly
+what cancels the last non-vanishing invariant**. A layer that vanishes identically cannot
+supply a ratio, so **anomaly matching cannot further constrain this matter content** — shut
+structurally, not merely unexplored (closes L144). — B1096.
+Lock: `tests/test_b1096_anomaly_layer.py`.
 
 *(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
 invisible-12 — enter when their locks land; LAW_MAP §F's pending row governs.)*
