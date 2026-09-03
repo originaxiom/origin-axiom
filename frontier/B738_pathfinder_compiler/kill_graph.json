@@ -10825,5 +10825,19 @@
   "note": "The auditor's own prediction was the thing killed. Recorded rather than quietly dropped, which is what the sealed expectations were written for. The falsifying step for E-2 was itself an instance of the failure mode the audit's amendment A1 forbids -- grading from phrasing rather than from the opened source -- committed by A1's author inside the audit A1 governs.",
   "priority": "P3",
   "revival_score": 2
+ },
+ {
+  "id": "B1242",
+  "claim_killed": "TWO REGISTERED IDENTIFICATIONS, both priced by L199 and both paid here. (I-16) 'SU(4)_1 IS the silver's stage' -- that the silver knot's cusp lattice quantizes A_3 at level 1, on the strength of a matching 'conductor 8' / ord(T) = 8. (I-15) 'E6(C) Chern-Simons IS 3d Euclidean quantum gravity' -- that promoting m004's holonomy along the principal sl2 makes the E6 invariant the gravity action.",
+  "kill_form": "both killed by paying the price the register itself set, in exact arithmetic, with two-sided controls. (I-16) the discriminant forms are UNEQUAL on every invariant: (Z/2+Z/8) level 16 signature 2 with 16 anyons, against A_3's (Z/4, q=3/8) level 8 signature 3 with 4 anyons -- and unrescuable, since even scalings give |D| in {16,64,144,256} never 4, and Milgram bars signature 3 for any rank-2 positive-definite form. The matched number was real but was not a lattice invariant: 'conductor 8' named the shadow LEVEL (the order Z[2i] has conductor 2, disc -16). (I-15) killed BY COUNTING rather than by failure: the principal sl2's Dynkin index is 156 by three agreeing routes and the map ACTS with remainder identically zero -- but 78 = 3+9+11+15+17+23 makes the gravity sector 3 of 78, so containment holds and identity does not.",
+  "fact_computed": true,
+  "faces_consulted": [
+   "hearing",
+   "meeting"
+  ],
+  "hatch": "For I-16: none at the lattice level -- the invariants are computed and the obstruction (Milgram) is a theorem. What survives is the FAMILY assignment via the minimal Coxeter-plane field, and B684's OWN-CHANNEL at SU(4)_2, neither touched. For I-15: not a hatch but a promotion -- the containment is EARNED as I-19, and what is open is whether the five higher-spin sectors (sl2-spins 4,5,7,8,11) carry anything object-specific.",
+  "note": "The structural lesson generalises past both rows: A_2's Coxeter PLANE is its root lattice, so the golden case works and invites the extrapolation; A_3's plane is A_1+A_1. Rank 2 -> rank 3 is where the computation became an identification. Golden control confirms it -- the golden CUSP lattice's even form has |D| = 48 against A_2's 3, so even there the cusp does not carry the form; the plane does.",
+  "priority": "P2",
+  "revival_score": 1
  }
 ]

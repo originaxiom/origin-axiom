@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 10,
+ "unearned": 8,
  "rows": [
   "I-6",
   "I-7",
@@ -9,11 +9,9 @@
   "I-11",
   "I-13",
   "I-14",
-  "I-15",
-  "I-16",
   "I-18"
  ],
- "total_rows": 18,
+ "total_rows": 19,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -50,6 +48,21 @@
    "row": "I-12",
    "arc": "B1238",
    "reason": "the first EARNED row since the register opened: the figure-eight character variety and B509's square-time curve are one plane curve (Cremona 40a3); the map (c,d) = (x, 2z-x^2-1) is written and acts on every datum both arcs computed. UNEARNED unchanged (5)."
+  },
+  {
+   "date": "2026-09-03",
+   "row": "I-19",
+   "arc": "B1242",
+   "reason": "the second EARNED row: 3d gravity sits inside E6(C) CS as the principal spin-2 sector at level ratio 156. The map is the principal embedding, its index is computed three ways, and it acts -- CS_E6 = 156 CS_SL2 with remainder identically zero. UNEARNED drops 10 -> 8 by the refutations above."
+  }
+ ],
+ "_baseline_lowerings": [
+  {
+   "date": "2026-09-03",
+   "from": 10,
+   "to": 8,
+   "rows": "I-15, I-16",
+   "reason": "BOTH PAID AND BOTH REFUTED -- the ratchet lowered by EARNING the answer, not by relabelling. I-16: the silver cusp lattice's discriminant form was computed and is (Z/2 + Z/8), level 16, signature 2, 16 anyons, against A_3's (Z/4, q=3/8), level 8, signature 3, 4 anyons; no even rescaling can reach |D|=4 and no rank-2 form can reach signature 3 (Milgram). B675's 'conductor 8' was a name for the shadow level, never a lattice invariant. I-15: the Dynkin index of the principal sl2 in e6 is 156 by three agreeing routes, so the map is exhibited and ACTS -- but 78 = 3+9+11+15+17+23 means the gravity sector is 3 of 78, so '==' fails by counting. The containment that IS earned is registered as I-19 (EARNED)."
   }
  ]
 }

@@ -2286,7 +2286,7 @@ six PINS-TEXT runners become RECORD-printers (one line each; B1175 is the templa
 walked single-seat with `scripts/checks/reproduce_belt.py --runners` extended to Phase C's packet paths. Instrument
 exists; not fanned out (B1216). ★★★ (the programme's "clone it and run it" claim is exactly this).
 
-## L199 — TWO EARNING COMPUTATIONS FOR PRICED IDENTIFICATIONS (registered 2026-09-02, B1241; source: fc Phase E part 1 rows I-15/I-16, re-read on main)
+## L199 — TWO EARNING COMPUTATIONS FOR PRICED IDENTIFICATIONS (registered 2026-09-02, B1241; source: fc Phase E part 1 rows I-15/I-16, re-read on main) — **CLOSED 2026-09-03 (B1242): both computations run; I-15 and I-16 both REFUTED, the E₆ containment EARNED as I-19.**
 
 Pricing I-15 and I-16 (B1241) exposed one finite computation each that turns a name-match into a map or kills it.
 **(a) I-16, SU(4)₁ ≡ the silver's stage (B675):** compute the discriminant form of the silver knot's cusp lattice

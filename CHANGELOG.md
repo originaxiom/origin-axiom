@@ -1,5 +1,36 @@
 # Changelog
 
+## L199 CLOSED: both priced identifications paid and BOTH REFUTED — the silver's discriminant form is unequal on every invariant, and E₆ CS CONTAINS 3d gravity (index 156) rather than being it
+
+**B1242.** L199 registered two identifications with an explicit price each. Both are paid. **Both came back
+NO** — and the ratchet drops **10 → 8 by earning the answer, not by relabelling**, which is the only way the
+B1231 ratchet was meant to fall.
+
+**(a) I-16 — SU(4)₁ ≡ the silver's stage: REFUTED.** τ = 2i, cusp lattice ℤ+2iℤ, odd Gram diag(1,4),
+\|D\| = 4 — **no quadratic discriminant form at all**. Minimal even rescaling 2x²+8y² gives
+**(ℤ/2 ⊕ ℤ/8)**, level **16**, signature **2**, **16** anyons, ord(T) = 48 — against A₃'s **(ℤ/4, q = 3/8)**,
+level **8**, signature **3**, **4** anyons, ord(T) = 8. **Unequal on every invariant**, and unrescuable: even
+scalings give \|D\| ∈ {16, 64, 144, 256}, never 4; every rank-2 positive-definite form has signature 2 by
+Milgram, never 3. **B675's number was right but was not a lattice invariant** — A₃'s ord(T) = 8 reproduces;
+"conductor 8" named the **shadow level** (the order ℤ[2i] has conductor 2, disc −16; the level is 16).
+**Root cause, structural:** A₂'s Coxeter plane ℤ[ζ₃] **is** the A₂ root lattice, so the golden case works;
+A₃'s plane ℤ[i] is **A₁⊕A₁**. Extrapolating rank 2 → rank 3 is where a computation became an identification.
+
+**(b) I-15 — E₆(ℂ) CS ≡ 3d gravity: REFUTED as "≡"; the containment EARNED as I-19.** The Dynkin index of the
+principal sl₂ ⊂ e₆ is **156** by three agreeing routes (adjoint 3744/24, the 27 936/6, 2(ρ,ρ)), so
+**CS_{E₆} = 156·CS_{SL2}** with remainder **identically zero** — the map is exhibited and **acts**, and factors
+through PSL(2,ℂ) (all weights even, B428 re-derived). **B715's tr Ad(ρ(a)) = 37437270 + 38799960√3·i
+reproduced exactly.** But **78 = 3+9+11+15+17+23**: the spin-2 sector is **3 of 78**, the others carry
+sl₂-spins 4, 5, 7, 8, 11. **E₆ CS contains 3d gravity; it is not 3d gravity.**
+
+**No verdict of record reversed.** B675 and B715 both stay PROVED — the lattice facts and the non-real trace
+stand; only the identifications fell. Corrections reached **both verdict files** and both arcs got addenda at
+source (E53: a correction that reaches only the log has not been made). B684's OWN-CHANNEL at **SU(4)₂**
+(level 2) is untouched. Two-sided controls throughout (A₃ ≅ A₃⊕E₈ YES; vs ⟨4⟩ NO; vs −A₃ NO; SnapPy shapes at
+double **and** quad precision, checked against the wrong target as well as the right one).
+**Flagged non-claim at zero weight:** the silver even form's ord(T) = 48 coincides with SU(4)₂'s — anyons
+16 vs 10, c ≡ 2 vs 5, not the same theory. Recorded so it arrives already dismissed.
+
 ## THE GATE 5 AUDIT REFUTES ITS OWN THESIS: zero over-fences in 46 items -- and the seam family, ten arcs on what closing supplies, had ONE citation in the chain and it was the negative half
 
 **B1244.** Pre-registered **COLD** (seal `d0f05d44`, amended `53d04ea6` before any item was evaluated)

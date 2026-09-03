@@ -1,0 +1,25 @@
+{
+ "id": "B1242",
+ "verdict": "NEGATIVE",
+ "claim_one_line": "L199 CLOSED: BOTH PRICED IDENTIFICATIONS PAID, BOTH REFUTED -- and the ratchet lowered by EARNING the answer, not by relabelling. (a) I-16, SU(4)_1 = the silver's stage: the cusp lattice's discriminant form is COMPUTED and UNEQUAL -- silver tau = 2i, lattice Z+2iZ, odd Gram diag(1,4), |D| = 4 (no quadratic discriminant form at all); minimal even rescaling 2x^2+8y^2 gives (Z/2 + Z/8), level 16, signature 2, 16 anyons, ord(T) = 48, against A_3's (Z/4, q = 3/8), level 8, signature 3, 4 anyons, ord(T) = 8. No even scaling reaches |D| = 4 (they give 16, 64, 144, 256) and no rank-2 positive-definite form reaches signature 3 (Milgram). B675's 'conductor 8' named the SHADOW LEVEL, never a lattice invariant (the order Z[2i] has conductor 2, disc -16; the level is 16). Structural root cause: A_2's Coxeter plane Z[zeta_3] IS the A_2 root lattice, so the golden case works; A_3's Coxeter plane Z[i] is A_1+A_1, so extrapolating rank 2 -> rank 3 turned a computation into an identification. (b) I-15, E6(C) CS = 3d gravity: the Dynkin index of the principal sl2 in e6 is 156 by THREE agreeing routes (adjoint 3744/24, the 27 936/6, 2(rho,rho)), so CS_E6 = 156 CS_SL2 with remainder IDENTICALLY ZERO -- the map is exhibited and ACTS -- but 78 = 3+9+11+15+17+23 makes the gravity sector 3 of 78, so '=' fails by counting; the other five sectors carry sl2-spins 4,5,7,8,11. B715's tr Ad(rho(a)) = 37437270 + 38799960 sqrt(3) i REPRODUCED EXACTLY and its verdict stands. The CONTAINMENT is EARNED as I-19. Baseline 10 -> 8; total rows 19.",
+ "instrument": false,
+ "depends_on": ["B675", "B715", "B672", "B428", "B430", "B1241", "B1239", "B684", "B1096"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "NO VERDICT OF RECORD IS REVERSED. B675 stays PROVED -- tau = -2i, the cusp field Q(i), the index-2 Z[i]-equivariant embedding into A_3's Coxeter plane, the A_2/A_4 exclusions and index = conductor all stand; only the SU(4)_1 identification falls, and A_3's ord(T) = 8 is REPRODUCED, so B675's number was right, it just was not a lattice invariant of the silver. B715 stays PROVED -- its non-real adjoint trace is reproduced exactly. B684/LAW_MAP:53's OWN-CHANNEL at SU(4)_2 (level 2) is untouched. Two-sided controls throughout (MB12): A_3 vs A_3+E_8 iso YES; A_3 vs <4> NO; A_3 vs -A_3 NO; SnapPy cusp shapes checked at double AND quad precision against the WRONG target as well as the right one. Golden control run: the golden cusp's own even form has |D| = 48 against A_2's 3, so the cusp lattice does not carry A_2's form either -- what works in the golden case is that A_2's Coxeter PLANE is its root lattice. FLAGGED NON-CLAIM at zero weight: the silver even form's ord(T) = 48 coincides with SU(4)_2's; anyons 16 vs 10 and c = 2 vs 5, so not the same theory -- recorded so it arrives already dismissed. Gate 5 untouched.",
+ "identifications": [
+  {"row": "I-15", "status": "REFUTED", "note": "as an IDENTITY. The principal-sl2 map is exhibited and acts (index 156, remainder zero), but 78 != 3: E6(C) CS contains 3d gravity as its spin-2 sector, it is not 3d gravity. The containment is registered EARNED at I-19."},
+  {"row": "I-16", "status": "REFUTED", "note": "the discriminant forms are computed and unequal on every invariant checked -- group, level, signature, anyon count. 'Conductor 8' was a name for the shadow level."},
+  {"row": "I-19", "status": "EARNED", "note": "3d gravity sits inside E6(C) CS as the principal spin-2 sector at level ratio 156; the map is the principal embedding, its index agrees across three routes, and it acts with remainder identically zero."}
+ ],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-03",
+  "arc": "B1242",
+  "was": "candidate: 'CS_E6(phi . rho) = 156 CS_SL2(rho)' -- a clean exact relation. Declined as a LAW: it is the standard index formula for a principal sl2 embedding applied to this object, not a law of the object; what is object-specific is the value 156 for e6 and the reproduction of B715's trace.",
+  "decision": "no law",
+  "class": "two paid prices, two refutations, one earned containment",
+  "basis": "every number is recomputed by verification/l199_two_earning_computations.py, which RUNS the tools (SnapPy at two precisions, exact Fractions, sympy) and prints REPRODUCES; the test executes the script rather than reading a string (E57)"
+ }
+}

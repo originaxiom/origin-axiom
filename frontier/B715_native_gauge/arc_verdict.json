@@ -6,5 +6,6 @@
  "depends_on": [],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "W2-wave2-calibrated"
+ "authored_by": "W2-wave2-calibrated",
+ "note": " [B1242, 2026-09-03: see ADDENDUM_2026-09-03_B1242.md. The FINDINGS' prose reading 'E6(C) CS = 3d Euclidean quantum gravity' is REFUTED as an identity (register row I-15): the Dynkin index of the principal sl2 is 156, so the map exhibited ACTS, but 78 = 3+9+11+15+17+23 makes the gravity sector 3 of 78. The CONTAINMENT is earned and registered as I-19. This arc's own verdict -- the non-real adjoint trace 37437270 + 38799960 sqrt(3) i, hence no real form -- is REPRODUCED EXACTLY and stands.]"
 }

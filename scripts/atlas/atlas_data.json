@@ -5276,6 +5276,27 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1242": {
+   "slug": "l199 two earning computations",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B428",
+    "B675",
+    "B684",
+    "B715",
+    "L199"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B1243": {
    "slug": "citation gate",
    "motifs": [
