@@ -156,8 +156,9 @@ print("  Expanding the bracket:")
 print("  1 + 2z² - 4z + 2 - z² + z = z² - 3z + 3")
 print()
 print("  Full equation: z²(z² - 3z + 3) = 0")
-print("  z = 0 is the degenerate (reducible) character.")
-print("  Selecting the geometric (nondegenerate) branch:")
+print("  z = 0 is the non-geometric character: at (x,y,z)=(0,0,0)")
+print("  the peripheral commutator is -I (central), not a nontrivial parabolic.")
+print("  Requiring nontrivial parabolic peripheral holonomy selects the geometric branch:")
 
 # Verify
 from numpy.polynomial import polynomial as P
@@ -545,7 +546,7 @@ print(f"""
     α₃⁻¹ = {a3_MI:.2f}    (color, still different)
 
   The OBJECT's boundary condition (3/8) DETERMINES this scale.
-  M_I ≈ 10¹³ GeV — about 10,000× below the Planck scale.""")
+  M_I ≈ 10¹³ GeV — about 10⁶× below the Planck mass.""")
 
 # Above M_I: trinification running
 bL, bR, bC = -4, -4, -5
@@ -717,7 +718,7 @@ print("""
                          │ Fricke action + puncture condition
                          ▼
   ┌─ FIELD ─────────────────────────────────────────────────┐
-  │  x² - 3x + 3 = 0,  discriminant -3                     │
+  │  z² - 3z + 3 = 0,  discriminant -3                     │
   │  the number field Q(√-3)                                │
   └──────────────────────┬──────────────────────────────────┘
                          │ conductor 3 → McKay correspondence
@@ -731,7 +732,7 @@ print("""
   ┌─ MATTER ────────────────────────────────────────────────┐
   │  27 = 16 + 10 + 1                                       │
   │  16 = one SM generation (quarks + leptons + ν_R)         │
-  │  hypercharge uniquely fixed by anomaly cancellation      │
+  │  hypercharge uniquely fixed by SU(5) group theory        │
   └──────────────────────┬──────────────────────────────────┘
                          │ trace identities on the 27
                          ▼

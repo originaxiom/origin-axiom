@@ -2,8 +2,9 @@
 
 **From "what's not nothing" to the Standard Model, computed step by step.**
 
-Everything below is computed from scratch — no banked numbers, no imported results.
-Script: `computations/the_whole_journey.py`. Every number reproduced.
+Every derived numerical quantity below is recomputed from explicitly stated inputs;
+structural facts (volumes, Lie-algebra data, topological invariants) are cited inputs.
+Script: `computations/the_whole_journey.py`. Every derived number reproduced.
 
 ---
 
@@ -149,9 +150,10 @@ Expanding the bracket:
 1 + 2z² − 4z + 2 − z² + z = z² − 3z + 3
 ```
 
-The full equation is z²(z² − 3z + 3) = 0. The solution z = 0 is the **degenerate**
-(reducible) character — it corresponds to the central/trivial representation, not a
-discrete-faithful one. Selecting the geometric (nondegenerate) branch:
+The full equation is z²(z² − 3z + 3) = 0. The solution z = 0 is the **non-geometric**
+character: at (x,y,z) = (0,0,0) the peripheral commutator is −I (central element),
+not a nontrivial parabolic. Requiring nontrivial parabolic peripheral holonomy selects
+the geometric branch:
 
 > ### z² − 3z + 3 = 0
 >
