@@ -217,8 +217,9 @@ print(f"""
   |SL(2, Z/3Z)| = 3³ × (1 - 1/3²) = 27 × 8/9 = {count}""")
 
 print(f"""
-Step 2: This 24-element group, lifted into SU(2), is the
-        BINARY TETRAHEDRAL GROUP (2T).
+Step 2: This 24-element group is isomorphic to the
+        BINARY TETRAHEDRAL GROUP (2T), which has a faithful
+        embedding in SU(2).
 
         (The tetrahedron has 12 rotational symmetries;
          the "binary" version doubles it to 24 by
@@ -379,9 +380,11 @@ Choosing the conventional identification:
 
   (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, -2-t, -3, 2-t, 4+t)
 
-The free parameter t is the B-L direction, which lives in
-SO(10)/(SU(5) × U(1)_χ) — OUTSIDE SU(5). The canonical
-maximal-subgroup chain goes through SU(5), which fixes
+Before fixing normalization, the anomaly-free Abelian charge space
+is spanned by Y and B-L. After fixing Y_Q=1, the free parameter t
+parametrizes an affine line in the (Y, B-L) plane; its tangent
+direction is (B-L)-2Y. The canonical maximal-subgroup chain goes
+through SU(5), which fixes
 t = -4 (the SM value) by group theory.
 
 Verification that anomaly cancellation holds:""")
@@ -498,8 +501,8 @@ print(f"  sin²θ_W = {sin2} = {float(sin2):.6f}")
 
 print("""
   ┌──────────────────────────────────────────────────┐
-  │  The weak mixing angle at the unification scale  │
-  │  is EXACTLY 3/8 = 0.375                          │
+  │  The weak mixing angle at a scale where the       │
+  │  normalized couplings match is EXACTLY 3/8        │
   │  (measured at low energy: 0.231)                 │
   └──────────────────────────────────────────────────┘
 
@@ -575,7 +578,9 @@ print(f"""
 
   The OBJECT's boundary condition (3/8), combined with SM one-loop
   running and no new thresholds below M_I, DETERMINES this scale.
-  M_I ≈ 10¹³ GeV — about 10⁶× below the Planck mass.""")
+  M_I ≈ 10¹³ GeV — about 10⁶× below the Planck mass.
+  (Assumes SM field content and one-loop running with no intermediate
+  thresholds — additional matter would shift M_I.)""")
 
 # Above M_I: trinification running
 bL, bR, bC = -4, -4, -5  # model-spectrum input: depends on assumed matter content above M_I
@@ -628,7 +633,7 @@ Fricke action from Step 3:
 The crystal and the shape are governed by the same Fricke
 trace-map polynomial, but occupy different invariant level sets.""")
 
-# Verify gap labelling for a small chain
+# Verify gap labelling
 # Build Fibonacci chain Hamiltonian
 fib_word = 'a'
 for _ in range(13):
@@ -716,12 +721,16 @@ Under the dictionary, this maps to:
     every group homomorphism preserves the identity element.
     CS = 0 is the identity of {{0,1/4}} mod 1/2;
     θ = 0 is the identity of {{0,π}} mod 2π. Both maps send 0 → 0.
-  • CS = 0 → θ = 0 (topological sector)
+  • CS = 0 → θ = 0 (dictionary selection)
 
 Open issue — θ̄ vs θ: the physical observable is θ̄ = θ + arg(det M_q),
 not the basis-dependent θ alone. The dictionary constrains the topological
-angle θ (both CS and θ are topological). θ = 0 is a representative in the
-dictionary's chosen topological basis; θ alone is basis-dependent.
+angle θ: CS is a topological invariant of the manifold; θ is the coupling
+multiplying QCD's topological density. An anomalous chiral rephasing moves
+phase between θ and arg(det M_q), so θ alone is basis-dependent; the
+dictionary must specify a phase convention, which A8 does not yet
+operationally define. θ = 0 is a representative in the dictionary's
+chosen basis.
 For θ̄ = 0, one additionally needs arg(det M_q) = 0. E₆ admits a cubic
 27³ invariant, but the reality of the group-theoretic tensor does not
 by itself fix physical Yukawa phases or VEVs; the chain does not derive it.
@@ -784,7 +793,7 @@ print("""
                          │ Chern-Simons + dictionary
                          ▼
   ┌─ PREDICTION ────────────────────────────────────────────┐
-  │  θ = 0 (topological); θ̄ = 0 contingent on Yukawa        │
+  │  θ = 0 (dictionary); θ̄ = 0 contingent on Yukawa          │
   │  weak CP phases = free                                   │
   │  bite: 1/594 chiral manifolds at 2-torsion CS            │
   └─────────────────────────────────────────────────────────┘

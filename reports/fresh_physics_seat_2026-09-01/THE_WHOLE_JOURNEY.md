@@ -196,9 +196,9 @@ Counting by brute enumeration: 24 matrices with entries in {0,1,2} and det ≡ 1
 |SL(2, ℤ/3ℤ)| = 3³ × (1 − 1/3²) = 27 × 8/9 = 24
 ```
 
-**Step 2:** This 24-element group, lifted into SU(2), is the **binary tetrahedral group
-(2T)**. The tetrahedron has 12 rotational symmetries; the "binary" version doubles it to
-24 by including the −I element of SU(2).
+**Step 2:** This 24-element group is isomorphic to the **binary tetrahedral group (2T)**,
+which has a faithful embedding in SU(2). The tetrahedron has 12 rotational symmetries;
+the "binary" version doubles it to 24 by including the −I element of SU(2).
 
 **Step 3:** The McKay correspondence says: draw a graph where each node is an irreducible
 representation of 2T, and connect nodes by how they appear when you tensor with the
@@ -351,8 +351,9 @@ Choosing the conventional identification:
 (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, −2−t, −3, 2−t, 4+t)
 ```
 
-The free parameter t corresponds to the B−L direction, which lives in
-SO(10)/(SU(5) × U(1)_χ) — **outside** SU(5). The canonical maximal-subgroup
+Before fixing normalization, the anomaly-free Abelian charge space is spanned by Y and
+B−L. After fixing Y_Q = 1, the free parameter t parametrizes an affine line in the
+(Y, B−L) plane; its tangent direction is (B−L) − 2Y. The canonical maximal-subgroup
 chain goes through SU(5), which fixes t = −4 (the SM value) by group theory.
 
 We can verify anomaly cancellation holds for the group-theoretically
@@ -549,13 +550,15 @@ CS = 0 is the identity of {0, 1/4} under addition mod 1/2; θ = 0 is the identit
 {0, π} under addition mod 2π. Both group homomorphisms ℤ/2 → ℤ/2 (trivial and identity)
 send 0 → 0.
 
-- CS = 0 → **θ = 0** (topological sector)
+- CS = 0 → **θ = 0** (dictionary selection)
 
 **Open issue — θ̄ vs θ:** the physical observable is θ̄_QCD = θ + arg(det M_q), not the
 topological angle θ alone (which is basis-dependent). The dictionary constrains the
-topological angle θ: both CS and θ are topological quantities, and their correspondence
-is natural. (θ = 0 is a representative in the dictionary's chosen topological basis;
-θ alone is basis-dependent.) For the full prediction θ̄ = 0, one additionally needs
+topological angle θ: CS is a topological invariant of the manifold; θ is the coupling
+multiplying QCD's topological density F∧F. An anomalous chiral rephasing moves phase
+between θ and arg(det M_q), so θ alone is basis-dependent; the dictionary must specify
+a phase convention, which A8 does not yet operationally define. (θ = 0 is a representative
+in the dictionary's chosen basis.) For the full prediction θ̄ = 0, one additionally needs
 arg(det M_q) = 0. E₆ admits a cubic 27³ invariant, but the reality of the group-theoretic
 invariant tensor does not by itself fix the phases of the physical Yukawa matrices or VEVs;
 the chain does not derive arg(det M_q) = 0. θ̄ = 0 is contingent on controlling the
@@ -621,7 +624,7 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
                        │ Chern-Simons + dictionary
                        ▼
 ┌─ PREDICTION ────────────────────────────────────────────┐
-│  θ = 0 (topological); θ̄ = 0 contingent on Yukawa        │
+│  θ = 0 (dictionary); θ̄ = 0 contingent on Yukawa          │
 │  weak CP phases = free                                   │
 │  bite: 1/594 chiral manifolds at 2-torsion CS            │
 └─────────────────────────────────────────────────────────┘
@@ -642,7 +645,7 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 
 - **absolute mass scale** — external, by theorem (the rank theorem proves the 12-dim SM algebra is never a centralizer in E₆; two U(1)s are forced, and the overall scale requires a VEV whose direction is unsourced)
 - **VEV direction** within the forced orbit — free
-- **M₆** — sextet Higgs mass; one number, one named pair of representations
+- **M₆** — sextet Higgs mass; the representation content of the trinification Higgs sector must be specified
 - **generation count** — not derived; this document constructs one chiral generation
   (the cohomological multiplicity h¹(M; 27_ρ) = 3 provides a structural origin for three
   generation-slots (B632), but this is exhibited, not forced by the axioms)
