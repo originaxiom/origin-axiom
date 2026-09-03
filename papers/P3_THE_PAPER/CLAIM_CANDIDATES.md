@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 829 of 1052 settled arcs — 79%** —
+the field is **absent on 828 of 1051 settled arcs — 79%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (75) ∪ on-a-synthesis-surface ∪ law-vocabulary (113) = 486 arcs.**
+**POOL = declared-law (75) ∪ on-a-synthesis-surface ∪ law-vocabulary (114) = 486 arcs.**
 The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -103,7 +103,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1150` | PROVED | V | | THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA: cloud memos 52-53 (origin/outside-bench 981f4c33) verified by REPRODUCTION -- both self-contained stdlib-exact certs… |
 | `B1199` | PROVED | V | | THE REGISTER READS + L188 CLOSED (three cells, each graded at what survived its two adversarial lenses). GC-29 -- R5's 'buried live law': the burial was real but THE OPEN… |
 | `B1205` | NEGATIVE | V | | THE CUBIC CELL RUN -- the cubic exists and is failable, but it cuts ONE dimension of THREE, and the missing ingredient is the LINEAR cuts, whose absence the record has al… |
-| `B167` | NEGATIVE | S | | A conserved dimensionless first integral cannot source an internal scale; the five-door case analysis leaves no internal door, only external or ratio lanes.… |
+| `B167` | NEGATIVE | S | | Under a POSTULATED premise (FINDINGS:3–8: the conserved dimensionless first integral is stated, not derived) a stated five-door case analysis leaves no internal door for … |
 | `B181` | NEGATIVE | S | | The criticality scale-door is closed: the metallic chain is permanently critical (zero Lyapunov, no transition), so it is scale-free rather than scale-generating.… |
 | `B204` | PROVED | S | | A closed-form WRT level-period law holds for ALL once-punctured-torus bundles, with the metallic family as its diagonal; mechanism identified as Gauss-sum reciprocity.… |
 | `B261` | PROVED | S | | One AJ recursion carries both ends: exponential growth at the Kashaev limit, antiperiod-5 at q=ζ₅ with the classical longitude forced into ℚ(√5).… |
@@ -485,7 +485,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B644` | PROVED | S | | The theta-odd hearing representation factors through literal mod-5 reduction, rho_hear = chi_golden composed with reduction into SL(2,F_5); all gates pass.… |
 | `B645` | PROVED | S | | The unit cross-ratio law (Y[023]Y[134])/(Y[034]Y[123]) = 1 holds exactly on all six 024-silent doubles; the three lit doubles deviate by multiples of 13.… |
 | `B646` | PROVED | S | | Three cc2 packets verified and banked — 11/11 seals rehashed, reruns reproduced, the corrected generic-silence law Z(κ)=(1−(κ/5))/2 adopted, one lead killed.… |
-| `B647` | PROVED | S | | Cell 1: imposing Y-compose-sigma* = conj(Y) over Q(sqrt-3) forces the ratio Y[023] = 24*zeta6*Y[123], which B638's swap law alone had left undetermined in 10 real dimensi… |
+| `B647` | PROVED | S | | Cell 1: imposing Y∘σ* = conj(Y) over ℚ(√−3) cuts B638's 10 real undetermined dimensions to a constrained space of real dimension 6; the core ratio Y[023]/Y[123] is NOT fo… |
 | `B650` | PROVED | S | | The frozen type system passed its held-out battery after one disclosed revision, and the exact Sylvester solve gives T=0 uniquely (no nonzero monodromy-equivariant linear… |
 | `B656` | PROVED | S | | The digest queue was confirmed independently: B596's multiplier table is exactly the conductor clock ord(A₁ mod 3κ) (10/10 rows), and det(w) = (−1)^{v_p(det B_w)} holds i… |
 | `B663` | PROVED | S | | Bifocal credit adjudicated with corrections; the heart is an invertible Jordan unit, the resonant phase one Legendre character, the stage sign a block central character.… |

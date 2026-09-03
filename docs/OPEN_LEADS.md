@@ -2285,3 +2285,15 @@ get the B1240 treatment: closure computed at the pinned SHA, vendored with `VEND
 six PINS-TEXT runners become RECORD-printers (one line each; B1175 is the template); (3) the 139 CANNOT_RUN rows
 walked single-seat with `scripts/checks/reproduce_belt.py --runners` extended to Phase C's packet paths. Instrument
 exists; not fanned out (B1216). ★★★ (the programme's "clone it and run it" claim is exactly this).
+
+## L199 — TWO EARNING COMPUTATIONS FOR PRICED IDENTIFICATIONS (registered 2026-09-02, B1241; source: fc Phase E part 1 rows I-15/I-16, re-read on main)
+
+Pricing I-15 and I-16 (B1241) exposed one finite computation each that turns a name-match into a map or kills it.
+**(a) I-16, SU(4)₁ ≡ the silver's stage (B675):** compute the discriminant form of the silver knot's cusp lattice
+(the conductor-8 datum B675 heard) and compare it with A₃'s (ℤ/4, q = 3/8). Equal ⇒ the map is the lattice
+isomorphism and the row can be earned by showing it acts on the modular data; unequal ⇒ REFUTED (the conductor
+matched the level and nothing else). One afternoon; snappy + a quadratic-form table. **(b) I-15, E₆(ℂ) CS ≡ 3d
+gravity (B715):** compute the Dynkin index of the principal sl₂ ⊂ e₆ embedding and write the E₆ invariant as
+(index)·(Vol + i·CS) + (the rest); a canonical coefficient is the map, a non-canonical one is the refutation of
+"exactly what it should be". Both are register moves, not physics: neither touches Gate 5 and neither earns
+I-13. ★★ (each closes a row; I-13 stays the programme's).

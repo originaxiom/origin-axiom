@@ -1,8 +1,8 @@
 {
- "settled": 1052,
+ "settled": 1051,
  "declared_true": 75,
  "declared_false": 148,
- "absent": 829,
+ "absent": 828,
  "absent_pct": 79,
  "control": {
   "declared_mean": 3.0,
@@ -989,7 +989,9 @@
   "B1239"
  ],
  "vocabulary_split": {
-  "absent": [],
+  "absent": [
+   "B647"
+  ],
   "declared_false": [
    "B156",
    "B185",

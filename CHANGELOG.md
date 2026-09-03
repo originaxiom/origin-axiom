@@ -1,5 +1,26 @@
 # Changelog
 
+## THE MASTER IDENTIFICATION PRICED — the listener map u gets its register row (I-13, UNEARNED); four more legacy identifications registered; fc R51/R52 reproduced; LAW_MAP:263 corrected (2026-09-02)
+
+**B1241.** B1231 wrote *"the listener map u IS an identification map"* and opened the register without a row for it.
+**I-13 — structural analogue ≡ physical quantity — is now registered UNEARNED**, first explicit use B532's "Born rule /
+Gravity / TIME ARROW" readings, fenced only by the owner's `CLOSURE_2026-07-11`; earned by the crossing cell (W5/W6)
+or by nothing. From the physics-seat evaluation branch's Phase E part 1 (71 seat judgments on 2494 reader flags), each
+re-read on main: **I-14** B305 (the trinification ℤ/3 ≡ the Eisenstein-unit ℤ/3 — B323 keeps them distinct, crux open;
+not "refuted downstream" as the seat wrote), **I-15** B715 (E₆(ℂ) CS ≡ 3d gravity, principal sl₂, no dynamics), **I-16**
+B675 (SU(4)₁ ≡ silver, a conductor-8 number match) UNEARNED; **I-17** B312 REFUTED via B727 (the ADE recurrence is
+forced; only the atom is ours). **Ratchet raised by hand 5 → 9** (third dated raise). B660 is self-caught, B666 is not an
+identification (the full mod-n shadow decides), B650 is the hearing lane's. **fc R51** reproduced: independent of B1235,
+the same 38/74 split; all-regular subfamily 77 = 34 amphichiral + 43 chiral (B1163's W0 leg holds for 34, not 77);
+metallic bundles b++RᵐLᵐ m = 1…6 all amphicheiral, order 8, CS = 0. **fc R52** reproduced: the one-generation anomaly
+cubic on the anomaly-free plane is −2yL(2yL+3yd)(4yL−3yd)/3, three anomaly-free lines; B8070 (cc3 branch only) prints
+the refuted computation — relayed. **LAW_MAP:263 corrected**: the one-way family test's amphichirality clause quoted the
+retracted 83/83 as its example and is false for universal claims — B1235's "stands" was a cc miss (**E53 #19, mine**).
+**Three verdict lines corrected at source** (E53 #20–#22): B232 PROVED → OPEN ("a reduction … not a proof", its own
+words), B167 claim gains its POSTULATED premise, B647 claim says "NOT forced" as its Cell 1 does. L199 registered (two
+finite earning computations: silver's discriminant form vs A₃; the principal-sl₂ Dynkin index). Gate 5 untouched.
+Cell `frontier/B1241_master_identification_priced_and_phase_e_harvest/`; lock `tests/test_b1241_master_identification_priced.py`.
+
 ## THE BELT CLOSURE — 27 seam-harvest-era tests locked REPRODUCES as a string; five runners could not run on a fresh clone; the closure is vendored and the belt now RUNS (2026-09-02)
 
 **B1240.** The instrument `scripts/checks/reproduce_belt.py` (three modes, selftest 9/9) finds **27** test files

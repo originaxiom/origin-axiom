@@ -1,0 +1,7 @@
+linear plane: {yQ: -yL/3, ye: -2*yL, yu: 2*yL/3 - yd}
+cubic on the plane: -2*yL*(2*yL + 3*yd)*(4*yL - 3*yd)/3
+equals fc R52 / B8070 l.84 form: True
+  hypercharge  (yQ,yu,ye,yd,yL) at yL=-3: ['1', '-4', '6', '2', '-3']
+  u<->d swap   (yQ,yu,ye,yd,yL) at yL=-3: ['1', '2', '6', '-4', '-3']
+  vector-like  (yQ,yu,ye,yd,yL) at yL=-3: ['0', '-yd', '0', 'yd', '0']
+R52 anomaly cubic: REPRODUCES

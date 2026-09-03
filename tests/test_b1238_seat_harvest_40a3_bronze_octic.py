@@ -129,7 +129,9 @@ def test_i12_is_earned_and_the_ratchet_baseline_is_untouched():
     row = next(l for l in led.splitlines() if l.startswith("| I-12 |"))
     assert "**EARNED**" in row and "40a3" in row and "(c,d) = (x, 2z−x²−1)" in row
     base = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8"))
-    assert base["unearned"] == 5 and base["total_rows"] == 12
+    # the FACT: I-12 is EARNED, so it is in _earned_additions and NOT in the UNEARNED rows; the counts themselves
+    # move by hand (B1241: 5 -> 9, 12 -> 17 rows) and are pinned to the live register by test_b1231
+    assert "I-12" not in base["rows"] and any(e.get("row") == "I-12" for e in base["_earned_additions"])
     d = _verdict("B1238_seat_harvest_40a3_bronze_octic")
     assert [i["row"] for i in d["identifications"]] == ["I-12"]
     assert d["identifications"][0]["status"] == "EARNED"

@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-02, B1241 — THE MASTER IDENTIFICATION PRICED: THE LISTENER MAP u IS I-13; fc R51/R52/PHASE E PART 1 HARVESTED)**:
+The register's missing row: *structural analogue ≡ physical quantity* — the listener map u, performed for free since B532's
+Born-rule/gravity/time-arrow readings, named as prose at B1231 — is **I-13, UNEARNED**, earned by the crossing cell (W5/W6)
+or by nothing. Four more legacy identifications from the seat's Phase E, re-read on main: I-14 B305, I-15 B715, I-16 B675
+UNEARNED; I-17 B312 REFUTED (B727). **Ratchet 5 → 9 by hand.** R51 reproduced (independent 38/74; all-regular 34/43;
+metallic bundles amphicheiral, order 8, CS = 0); R52 reproduced (the anomaly cubic factors). LAW_MAP:263's amphichirality
+clause corrected (E53 #19, mine); B232 PROVED → OPEN, B167/B647 claims corrected at source (E53 #20–#22). L199. Gate 5 untouched.
+
 **LATEST (2026-09-02, B1240 — THE BELT CLOSURE: THE SEAM-HARVEST ERA'S REPRODUCTION LOCKS NOW RUN; fc R42–R50 HARVESTED)**:
 27 tests over B1147–B1184 locked `REPRODUCES` as a string; **five runners could not run on a fresh clone** (certificates
 on a seat branch, five sibling deps unlisted, run record gitignored — E57 #2–#6). Closure vendored (65 files,

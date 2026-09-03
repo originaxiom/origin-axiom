@@ -104,7 +104,10 @@ def test_the_two_spin_rows_are_registered_unearned_and_the_baseline_was_raised_b
         line = next(l for l in led.splitlines() if l.startswith(f"| {row} |"))
         assert "UNEARNED" in line
     base = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8"))
-    assert base["unearned"] == 5 and any(r.get("to") == 5 for r in base["_baseline_raises"])
+    # the FACT: the raise to 5 was made by hand and logged; the live count may since have been raised again by hand
+    # (B1241 raised it to 9) -- a pin on the literal 5 would enforce a stale count (E53's lock sub-mechanism)
+    assert any(r.get("to") == 5 and "I-10" in r.get("row", "") for r in base["_baseline_raises"])
+    assert base["unearned"] >= 5 and {"I-10", "I-11"} <= set(base["rows"])
 
 
 def test_the_absence_rule_and_its_instrument():

@@ -5230,6 +5230,52 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1241": {
+   "slug": "master identification priced and phase e harvest",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B167",
+    "B232",
+    "B305",
+    "B312",
+    "B323",
+    "B398",
+    "B448",
+    "B449",
+    "B532",
+    "B592",
+    "B644",
+    "B647",
+    "B650",
+    "B660",
+    "B665",
+    "B666",
+    "B670",
+    "B675",
+    "B715",
+    "B727",
+    "B779",
+    "B861",
+    "L199",
+    "L3",
+    "L4"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B124": {
    "slug": "time reversal reciprocity",
    "motifs": [

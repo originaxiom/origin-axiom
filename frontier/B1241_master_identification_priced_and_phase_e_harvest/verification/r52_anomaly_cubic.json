@@ -1,0 +1,33 @@
+{
+ "plane": {
+  "yQ": "-yL/3",
+  "ye": "-2*yL",
+  "yu": "2*yL/3 - yd"
+ },
+ "cubic": "-2*yL*(2*yL + 3*yd)*(4*yL - 3*yd)/3",
+ "equals_R52_form": true,
+ "lines": {
+  "hypercharge": [
+   "1",
+   "-4",
+   "6",
+   "2",
+   "-3"
+  ],
+  "u<->d swap": [
+   "1",
+   "2",
+   "6",
+   "-4",
+   "-3"
+  ],
+  "vector-like": [
+   "0",
+   "-yd",
+   "0",
+   "yd",
+   "0"
+  ]
+ },
+ "ok": true
+}

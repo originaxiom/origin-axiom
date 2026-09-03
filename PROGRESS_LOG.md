@@ -13294,3 +13294,17 @@ run. E57 #2–#6 + a gate scope hole + the PINS-TEXT third shape (six runners; B
 recomputed: h(148)=3/2 (two routes); B511 D3.3 rebanked on a 200-bit trace-map run (percentiles were a 53-bit
 artifact); B549 label; B980 digit; B955 surjections; R50 8/8; R49 not on main; SUPERSEDED_UNMARKED 128 not 48
 (L197). Three self-caught slips on record (FINDINGS §5). L198 (ship the generator) registered. Relays to fc and cloud.
+
+## 2026-09-02 — B1241: the master identification priced — the listener map u is I-13 (UNEARNED); fc R51/R52/Phase E part 1 harvested
+
+The register's missing row: structural analogue ≡ physical quantity (the listener map u) — named as prose at B1231,
+performed for free since B532's Born-rule/gravity/time-arrow readings, fenced only by the owner's CLOSURE_2026-07-11 —
+registered UNEARNED as **I-13**, earned by the crossing cell alone. Four more legacy rows from the physics-seat evaluation
+branch's Phase E part 1, each re-read on main: I-14 B305 (B323 keeps the two ℤ/3s distinct; the seat's "refuted" was
+too strong), I-15 B715 (principal sl₂, no dynamics), I-16 B675 (conductor 8 = level 8, uniqueness unshown) UNEARNED;
+I-17 B312 REFUTED via B727. Baseline raised by hand 5 → 9. Seat corrections: B660 self-caught; B666 near-definitional
+given the full shadows; B532's fence is CLOSURE_2026-07-11, not B1017/B1164. R51 recomputed (77 = 34 + 43; six metallic
+bundles amphicheiral, order 8, CS = 0) — independent convergence with B1235's 38/74. R52 recomputed (the anomaly cubic
+factors; three lines); B8070's script prints the refuted computation → cc3. LAW_MAP:263's amphichirality clause
+corrected — B1235 said it stood; it quoted the retracted number (E53 #19, mine). B232 PROVED → OPEN, B167 and B647
+claims corrected to their cells (E53 #20–#22), addenda at source. L199 registered. Relays to fc and cc3.

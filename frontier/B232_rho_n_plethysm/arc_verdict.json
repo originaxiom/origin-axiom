@@ -1,10 +1,11 @@
 {
  "id": "B232",
- "verdict": "PROVED",
- "claim_one_line": "The ρ_n tower obeys a one-step stabilization recursion ρ_n ≅ ρ_{n−1} ⊕ Sym^n ⊕ Sym^{n−3}, verified exactly to n=8 and on the real Jacobian to n=5.",
+ "verdict": "OPEN",
+ "claim_one_line": "The ρ_n tower's one-step stabilization recursion ρ_n ≅ ρ_{n−1} ⊕ Sym^n ⊕ Sym^{n−3} is REDUCED to one unproved plethysm statement (the arc's own words: \"an honest reduction … not a proof\") and CHECKED exactly to n=8 and on the real Jacobian to n=5; the general-n theorem is open. [2026-09-02 B1241: verdict PROVED → OPEN on the arc's own prose (FINDINGS:3–4, :38); the finite verification stands unchanged.]",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+ "authored_by": "W1-wave1-fanout",
+ "note": "[2026-09-02 B1241] The verdict line said PROVED while FINDINGS:3–4 call the central theorem unproved and the result a reduction; the checked range (n ≤ 8 exact, n ≤ 5 real Jacobian) is what is banked. Flagged STALE-VERDICT by the physics-seat evaluation branch's Phase E part 1, read here. E53 at verdict-file grain."
 }

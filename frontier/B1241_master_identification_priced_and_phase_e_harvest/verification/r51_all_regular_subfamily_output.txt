@@ -1,0 +1,10 @@
+all-regular subfamily |A| = 77 of 112; amphichiral 34, chiral 43  (fc R51: 77; 34/43)
+non-regular members: 35 (amphichiral 4, chiral 31)
+  m=1:      b++RL vol=2.029883 amphicheiral=True order=8 CS=-1.237e-16 H1=Z
+  m=2:    b++RRLL vol=3.663862 amphicheiral=True order=8 CS=+1.125e-16 H1=Z/2 + Z/2 + Z
+  m=3:  b++RRRLLL vol=4.813819 amphicheiral=True order=8 CS=-2.250e-16 H1=Z/3 + Z/3 + Z
+  m=4: b++RRRRLLLL vol=5.573609 amphicheiral=True order=8 CS=-2.025e-16 H1=Z/4 + Z/4 + Z
+  m=5: b++RRRRRLLLLL vol=6.066992 amphicheiral=True order=8 CS=+5.624e-17 H1=Z/5 + Z/5 + Z
+  m=6: b++RRRRRRLLLLLL vol=6.391391 amphicheiral=True order=8 CS=+3.600e-16 H1=Z/6 + Z/6 + Z
+metallic m=1..6 all amphicheiral, order 8, CS=0: True ; m=1 is the figure-eight volume: True
+R51 residuals: REPRODUCE
