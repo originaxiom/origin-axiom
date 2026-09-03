@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1153** |
-| words of findings prose | **803,395** |
+| research arcs with findings | **1154** |
+| words of findings prose | **803,993** |
 | test lock files referenced | **688** |
-| arcs carrying an authored verdict | **1153** (100.0 %) |
+| arcs carrying an authored verdict | **1154** (100.0 %) |
 | recorded closures | **780** (613 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 747 |
+| PROVED | 748 |
 | NEGATIVE | 308 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1239`** (2392 words, 0 locks)  
-THE 1/4 CLASS IS CUSP-LOCAL. Codex R040 (free orientation-reversing deck => CS = 0) reproduced -- 1260/1260 orientation double covers of the nonorientable cusped census in the zero class mod 1/2 at quad-double (max 9.04e-64; codex's 1e-6 tolerance is nine orders loose) and the closed control codex did not run, 17/17 (parent route; Tor H1 = A+A and tau even 17/17 = Kawauchi's conclusion, computed) -- and RE-GRADED from one fact read in CGHN p.14: SnapPy computes closed CS only mod 1/2, so codex's closed theorem (cs = 0 mod 1) is unobservable by the tool offered for it, and the observable statement (1/4 excluded) needs neither Kawauchi nor freeness: APS 3eta = 2cs + tau (mod 2) with eta = 0 under ANY orientation-reversing isometry and tau an integer gives cs in {0,1/2} mod 1 for every closed amphichiral manifold -- verified on the ENTIRE closed census, 37 amphichiral / 37 zero (7.8e-16), with bite (17 chiral closed manifolds at 1/4; cusped amphichiral at 1/4 11/25). THE SWAP COROLLARY, proved here from cited inputs (APS via CGHN; CGHN's Dehn-filling decomposition; Thurston; Mostow): a cusped M with an orientation-reversing isometry fixing NO cusp has cs = 0 mod 1/2 (fill (c, tau c) along (s, tau s); the two core torsions cancel exactly; the analytic term is 0 mod 1/2 at every equivariant filling and tends to cs(M)) -- verified on the ENTIRE cusped census: bucket A (some reversing isometry fixes no cusp) 28/28 zero, bucket B (every reversing isometry fixes a cusp) 6 zero / 5 quarter -- the prediction was falsifiable exactly there and held. THE RESIDUE is m004's own case: a tau-invariant cusp on which tau acts freely (the Klein-bottle cusp of the Gieseking quotient) -- two invariant slopes, no limit; odd covers keep the cusp type, even covers erase the 1/4 bit. L194 REFINED (not closed) to the cusp-local conjecture 'a reversing isometry acting freely on every cusp it preserves excludes 1/4', evidence 1260/1260 at 1e-64, tool named (Meyerhoff-Ouyang's cusped eta-cs relation, cited-not-read; a t3m trace of the cusp action to decide freeness on the cusp). B1234's k-blind wall: CS(m004) = 0 stands computed (B1224/B1227); its structural gloss is now a theorem for closed manifolds (freeness unnecessary), a theorem for cusp-swapping isometries, and an open lemma precisely at the object. E52 instance #7 (mine): the orientation-blind is_isometric_to detector B1181 used and B1235 retracted recurred on this bench for one probe and was caught by the chiral control (5_2) before any number was written; detectors validated 600/600 against symmetry_group(). Gate 5 clean. Not a programme law: two corollaries of cited results, graded as such.  
-`B1239_quarter_class_is_cusp_local/FINDINGS.md`
+**PROVED — `B1245`** (598 words, 0 locks)  
+THE FOLLOW-THROUGH: three statements made in session that reached the CHANGELOG and never the chain -- the same disease B1243/B1244 diagnosed, committed by the seat that diagnosed it. (1) C43 GAINS ITS SCOPE, EARNED ON-BENCH: the 16-sigma desert miss is GROUP-INDEPENDENT BY CONSTRUCTION. B915's own crossing.py settles it with no new run -- curve_point(MU) takes exactly one physical argument, the unification scale; its inputs are the SM one-loop betas (41/10, -19/6, -7), the SM two-loop matrix, the 5/3 GUT normalisation shared by SU(5) < SO(10) < E6, and the meeting condition. An AST pass over the executable code (docstrings and comments stripped) finds ZERO group-specific tokens. So the curve cannot depend on which simple group unifies: the control is not 'run SU(5) and SO(10) and compare', it is that there is no group parameter to vary. The miss is a fact about the DESERT CONFIGURATION, not about the object or about E6. Earned from our own sealed computation's dependency structure, NOT cited from the literature, per B1244's prereg E-4; no new measured input, since B915's seal already covers alpha_em(M_Z). (2) C44 GAINS THE BORROMEAN SHARPENING: every PAIR has room (16, 8, 8) and only the triple vanishes, so the fork is irreducibly three-way, not pairwise -- which is what distinguishes it from an uncertainty relation (pairwise, conjugate, a continuous trade-off bought with a scale). No trade-off here and no scale to buy one with. The programme's genuinely Heisenberg-shaped statement is elsewhere: B1087's charge complementarity, [H, rho(mu)] != 0, no common eigenbasis. (3) E59 MINTED, named by the owner: the FOUND-BUT-NOT-REVERIFIED class.  
+`B1245_follow_through/FINDINGS.md`
 
 **NEGATIVE — `B1244`** (778 words, 0 locks)  
 THE GATE 5 AUDIT: ITS OWN THESIS IS REFUTED BY ITS OWN RUN. Pre-registered COLD (seal d0f05d44, amended A1 to 53d04ea6 before any item was evaluated) because the occasion was a downstream seat's exciting measured-data result -- exactly when a filter gets loosened for a reason nobody notices. Enumeration mechanical (Gate-5 token within +-3 lines of a fence token): 773 raw -> 255 live after a recorded merge (dated history is not a live fence; generated views duplicate their arcs; speculations are firewalled by design). 46 items examined with the SOURCE OPENED (amendment A1, the owner's rule: never be called on data you did not verify first). RESULT: ZERO MISLABELED, ZERO over-fences. E-1 (>=3 MISLABELED) FAILED. E-2 (C43 mislabeled) FALSIFIED -- B915 scopes its kill to the identification 'object boundary + pure SM desert', and C43 repeats that scope faithfully; I predicted otherwise from the chain's PHRASING without opening B915, the very shortcut A1 forbids, committed by A1's author inside the audit A1 governs. Gate 5 is not over-fencing: L15's firewall holds because the complex volume is DIMENSIONLESS (computed), and the h(27) lead is fenced because B580 proves the channel INFORMATION-FREE (identical for 4_1, 5_2 and the unknot). THE ACTUAL DISEASE IS COVERAGE, NOT RELEASE: the seam family B286-B295 -- ten arcs answering what closing supplies and whether it is selective -- had ONE citation between them in the chain (B288, inside C8, the NEGATIVE half). C46 admits it.  

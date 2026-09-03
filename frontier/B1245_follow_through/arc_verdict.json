@@ -1,0 +1,21 @@
+{
+ "id": "B1245",
+ "verdict": "PROVED",
+ "claim_one_line": "THE FOLLOW-THROUGH: three statements made in session that reached the CHANGELOG and never the chain -- the same disease B1243/B1244 diagnosed, committed by the seat that diagnosed it. (1) C43 GAINS ITS SCOPE, EARNED ON-BENCH: the 16-sigma desert miss is GROUP-INDEPENDENT BY CONSTRUCTION. B915's own crossing.py settles it with no new run -- curve_point(MU) takes exactly one physical argument, the unification scale; its inputs are the SM one-loop betas (41/10, -19/6, -7), the SM two-loop matrix, the 5/3 GUT normalisation shared by SU(5) < SO(10) < E6, and the meeting condition. An AST pass over the executable code (docstrings and comments stripped) finds ZERO group-specific tokens. So the curve cannot depend on which simple group unifies: the control is not 'run SU(5) and SO(10) and compare', it is that there is no group parameter to vary. The miss is a fact about the DESERT CONFIGURATION, not about the object or about E6. Earned from our own sealed computation's dependency structure, NOT cited from the literature, per B1244's prereg E-4; no new measured input, since B915's seal already covers alpha_em(M_Z). (2) C44 GAINS THE BORROMEAN SHARPENING: every PAIR has room (16, 8, 8) and only the triple vanishes, so the fork is irreducibly three-way, not pairwise -- which is what distinguishes it from an uncertainty relation (pairwise, conjugate, a continuous trade-off bought with a scale). No trade-off here and no scale to buy one with. The programme's genuinely Heisenberg-shaped statement is elsewhere: B1087's charge complementarity, [H, rho(mu)] != 0, no common eigenbasis. (3) E59 MINTED, named by the owner: the FOUND-BUT-NOT-REVERIFIED class.",
+ "instrument": false,
+ "depends_on": ["B915", "B1138", "B1087", "B1243", "B1244", "B1223"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "This arc exists because the seat said three things and landed none of them. All three were true, all three were reasoned in session, and all three reached the log instead of the surface -- which is precisely the failure B1243's coverage direction and B1244's audit were built to catch. Recording that the diagnostician committed the disease is the point, not an aside. Gate 5 untouched: (1) introduces no measured value (B915's seal already covers alpha_em(M_Z)) and makes a statement about a COMPUTATION's dependency structure, not about physics. The C44 addition explicitly REFUSES the Heisenberg identification rather than making it, per the B1223 template -- a matching shape is not a connection -- and points at B1087 as the real comparison.",
+ "identifications": [],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-03",
+  "arc": "B1245",
+  "was": "candidate: 'the desert curve has no group parameter'. Declined as a LAW: it is a fact about the dependency structure of a particular computation (B915's crossing.py), which LICENSES a scope statement on C43 but is not itself a theorem about the object.",
+  "decision": "no law",
+  "class": "scope propagation + error class",
+  "basis": "the discriminating fact is computed by an AST pass over B915's source in verification/b1245_no_group_parameter.py, which prints REPRODUCES; C44's addition is a reading of B1138's already-locked ladder numbers"
+ }
+}

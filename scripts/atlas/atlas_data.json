@@ -5345,6 +5345,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1245": {
+   "slug": "follow through",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "firewall"
+   ],
+   "refs": [
+    "B915"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "open",
+   "domain": "topology"
+  },
   "B124": {
    "slug": "time reversal reciprocity",
    "motifs": [

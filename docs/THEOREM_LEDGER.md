@@ -354,12 +354,34 @@ uncommitted `cw.py`; the three integers recompute from B1236's committed multipl
 **C43 [NO-GO — the crossing, sealed].** One input (α_em) + the object's boundary + pure
 desert MISSES at 16σ, α_s-dominated; the failure triangle banked; the desert is dead as a
 mechanism. — B915. Lock: `tests/test_b915_crossing.py`.
+**AND THE MISS IS GROUP-INDEPENDENT — BY CONSTRUCTION (added 2026-09-03, B1245).** This is a fact
+about the **desert configuration**, not about the object and not about E₆. B915's own
+`crossing.py` settles it without a new run: `curve_point(MU)` takes **one physical argument, the
+unification scale**. Its inputs are the **SM** one-loop betas (41/10, −19/6, −7), the SM two-loop
+matrix, the GUT normalisation 5/3 — shared by SU(5) ⊂ SO(10) ⊂ E₆ under the standard embedding —
+and the condition that the three couplings meet. **No group-specific quantity enters the executable
+code at all** (the only "E₆" is in the docstring; the only "27" is the coefficient 27/10). So the
+desert curve *cannot* depend on which simple group unifies: the control is not "run SU(5) and
+SO(10) and compare", it is that **there is no group parameter to vary**. Earned on this bench from
+our own sealed computation's dependency structure — **not** cited from the literature, per the
+B1244 prereg's E-4. No new measured input: B915's seal already covers α_em(M_Z).
 
 **C44 [NO-GO — the fork].** On e₆ the centralizer ladder is dim z(T1) = 16, z(T1+colour) = 8,
 z(T1,T2) = 8, **z(T1,T2+colour) = 0**, slot-independent (two adjacent simple-pair choices
 agree). The joint centralizer 0 is **THE FORK — any TWO of {spacetime, colour, hypercharge},
 never three**: the closing is forked, E₆(−26) XOR E₆(−14), not one act. — B1138.
 Lock: `tests/test_b1138_structural_completion.py`.
+**THE OBSTRUCTION IS BORROMEAN, NOT PAIRWISE (added 2026-09-03, B1245).** Read the ladder: every
+*pair* has room — z(T1) = 16, z(T1+colour) = 8, z(T1,T2) = 8 — and **only the triple vanishes**. So
+this is irreducibly three-way, like Borromean rings: any two link fine, all three do not. That is
+what distinguishes it from an uncertainty relation, which is pairwise and conjugate (one pair, one
+bound, a continuous trade-off bought with a scale). Here there is **no trade-off** — zero is zero,
+not "a little of all three" — and **no scale for one to be measured in** (Gate 5). The resonance
+with Heisenberg is a resonance of *non-commutativity in general*, and by the B1223 template a
+matching shape is not a connection. *(The programme's genuinely Heisenberg-shaped statement is
+elsewhere: **B1087's charge complementarity**, where [H, ρ(μ)] ≠ 0 and [H, ρ(λ)] ≠ 0, so charge and
+holonomy admit no common eigenbasis — the same content as [x,p] ≠ 0. Registered as the comparison,
+not as an identification.)*
 
 **C45 [NO-GO — the anomaly layer is complete].** Over the object's DERIVED 16 (with ν^c) every
 anomaly channel vanishes identically — U(1)³, U(1)-grav, [SU(3)]²U(1), [SU(2)]²U(1),

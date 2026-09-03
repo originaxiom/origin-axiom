@@ -13418,3 +13418,42 @@ source (E53: a correction that reaches only the log has not been made). B684's O
 double **and** quad precision, checked against the wrong target as well as the right one).
 **Flagged non-claim at zero weight:** the silver even form's ord(T) = 48 coincides with SU(4)₂'s — anyons
 16 vs 10, c ≡ 2 vs 5, not the same theory. Recorded so it arrives already dismissed.
+
+## 2026-09-03 — B1245: the follow-through; C43 is group-independent by construction; E59
+**B1245.** In one session the seat built a gate for claims that reach the log and never the surface
+(B1243), audited the corpus for that disease (B1244) — and then said three things and landed none of
+them. C44's Borromean sharpening: CHANGELOG ×15, chain **0**. C43's group-independence: conversation
+only. "I'll log it as E59": nowhere. **Recording that the diagnostician committed the disease is the
+point of this arc, not an aside.**
+
+**(1) C43 GAINS ITS SCOPE, EARNED ON-BENCH.** The 16σ desert miss is **group-independent by
+construction** — a fact about the **desert configuration**, not about the object and not about E₆.
+B915's own `crossing.py` settles it with **no new run**: `curve_point(MU)` takes exactly **one
+physical argument**, the unification scale, and its inputs are the **SM** betas (41/10, −19/6, −7),
+the SM two-loop matrix, the **5/3** normalisation shared by SU(5) ⊂ SO(10) ⊂ E₆, and the meeting
+condition. An **AST pass over the executable code** (docstrings and comments stripped) finds **zero**
+group-specific tokens — the only "E₆" is docstring prose, the only "27" is the coefficient 27/10.
+**The control is not "run SU(5) and SO(10) and compare"; there is no group parameter to vary.**
+A downstream seat proposed this from the literature; it is landed here **earned from our own sealed
+computation's dependency structure**, per B1244's prereg E-4, with no new measured input (B915's seal
+already covers α_em(M_Z)).
+
+**(2) C44 GAINS THE BORROMEAN SHARPENING — and REFUSES the identification it invites.** Every *pair*
+has room (z = 16, 8, 8) and **only the triple vanishes**: the fork is irreducibly three-way, not
+pairwise. That is exactly what separates it from an **uncertainty relation**, which is pairwise and
+conjugate — one pair, one bound, a continuous trade-off bought with a scale. Here there is no
+trade-off (zero is zero, not "a little of all three") and **no scale to buy one with** (Gate 5). By
+the **B1223 template a matching shape is not a connection**, so the link states the distinction and
+declines the identification, pointing at the programme's genuinely Heisenberg-shaped statement
+instead: **B1087's charge complementarity**, [H, ρ(μ)] ≠ 0 and [H, ρ(λ)] ≠ 0 — no common eigenbasis,
+the same content as [x,p] ≠ 0.
+
+**(3) E59 MINTED**, named by the owner: *"we think we dont have smth, we check the repo we find it and
+we dont reverify it in the new light."* **A found artifact carries the role it was filed under, not
+the role you now need.** The instance is §1: needing a genericity control, the seat was about to write
+a fresh SU(5)/SO(10) script; B915 was found by sweep and read as "the arc that ran our curve" — its
+filed role. Re-opened against the **new** question, it gave a strictly **stronger** answer than the
+new script would have. Distinct from **E54** (declaring absence without sweeping) and **E58** (judging
+from a summary): here the sweep succeeded, the source was opened, and the item was still read for what
+it was known to say. Census, axioms and link count unchanged — both additions are scope on existing
+links. Gate 5 untouched.
