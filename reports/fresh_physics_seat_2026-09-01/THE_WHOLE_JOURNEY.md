@@ -179,9 +179,11 @@ The field Q(√−3) has:
 Now we use the **McKay correspondence** — a bridge between number theory and symmetry.
 (The McKay route itself is axiom A3: the choice to go from conductor to SL(2,ℤ/Nℤ) to
 McKay label. Once this route is committed to, the golden grammar is uniquely selected
-among the infinite metallic family: Λ(m) = m²+4, and only m = 1 gives Λ = 5 ≤ 5,
-the cutoff above which |SL(2,ℤ/N)| > 120 exceeds all binary polyhedral groups.
-See B997.)
+among the infinite metallic family — provided Λ(m) = m² + 4 is identified with the field
+conductor. For m = 1, Λ = 5 is indeed the conductor of Q(√5). But Λ(m) is the polynomial
+discriminant, which equals the field conductor only when m² + 4 is squarefree; for m = 4,
+Λ = 20 while the conductor of Q(√5) is 5, which is itself McKay-eligible. B997's uniqueness
+is conditional on this identification. See B997, scope limit 2.)
 
 By A3, we pass from the conductor to the finite linear group and apply McKay's correspondence:
 
@@ -338,7 +340,12 @@ Every charge is **fixed by the SU(5) embedding**. No free parameter.
 ### What about anomaly cancellation?
 
 Anomaly cancellation is a **consistency check**, not the derivation mechanism.
-Applied alone (without the SU(5) structure), it leaves a one-parameter family:
+Applied alone (without the SU(5) structure), the three linear anomaly conditions
+plus normalization leave a two-parameter family (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) =
+(1, t, −2−t, −3, e, 6−e). The cubic [U(1)]³ anomaly factorizes as
+18(e − t − 4)(e + t − 2) = 0, giving two one-parameter branches related by
+interchange of the two SU(3)×SU(2)-singlet assignments (e^c ↔ ν^c).
+Choosing the conventional identification:
 
 ```
 (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, −2−t, −3, 2−t, 4+t)
@@ -530,7 +537,7 @@ For m004 specifically: **CS = 0**.
 
 Under the dictionary:
 - CPT-even (P-odd, T-odd) type = the E type
-- The SM's E-type parameter = **θ̄_QCD** (the strong CP phase)
+- The SM's E-type parameter = the topological QCD vacuum angle **θ**
 - 2-torsion in ℝ/2πℤ = {0, π}
 
 Why CS = 0 selects θ = 0, not θ = π: both torsion points are fixed by their respective
@@ -547,10 +554,12 @@ send 0 → 0.
 **Open issue — θ̄ vs θ:** the physical observable is θ̄_QCD = θ + arg(det M_q), not the
 topological angle θ alone (which is basis-dependent). The dictionary constrains the
 topological angle θ: both CS and θ are topological quantities, and their correspondence
-is natural. For the full prediction θ̄ = 0, one additionally needs arg(det M_q) = 0. The
-E₆ Yukawa structure provides structural reasons to expect this (the 27³ coupling is real
-in a suitable basis), but the chain does not derive it. θ = 0 is a clean topological
-prediction; θ̄ = 0 is contingent on controlling the Yukawa sector.
+is natural. (θ = 0 is a representative in the dictionary's chosen topological basis;
+θ alone is basis-dependent.) For the full prediction θ̄ = 0, one additionally needs
+arg(det M_q) = 0. E₆ admits a cubic 27³ invariant, but the reality of the group-theoretic
+invariant tensor does not by itself fix the phases of the physical Yukawa matrices or VEVs;
+the chain does not derive arg(det M_q) = 0. θ̄ = 0 is contingent on controlling the
+Yukawa sector.
 
 (This dictionary is T17, which maps symmetry TYPES ℤ/2 → ℤ/2. It is NOT the refuted I-4
 dictionary, which attempted a direct VALUE identification CS = θ. B813 kills I-4 on three

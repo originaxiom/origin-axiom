@@ -369,8 +369,13 @@ print("""
 WHAT ABOUT ANOMALY CANCELLATION?
 
 Anomaly cancellation is a CONSISTENCY CHECK, not the derivation
-mechanism. Applied alone (without SU(5) structure), it leaves a
-one-parameter family:
+mechanism. Applied alone (without SU(5) structure), the three
+linear anomaly conditions plus normalization leave a two-parameter
+family (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, -2-t, -3, e, 6-e).
+The cubic [U(1)]³ anomaly factorizes as 18(e-t-4)(e+t-2)=0,
+giving two one-parameter branches related by interchange of the
+two SU(3)×SU(2)-singlet assignments (e^c ↔ ν^c).
+Choosing the conventional identification:
 
   (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, -2-t, -3, 2-t, 4+t)
 
@@ -398,6 +403,23 @@ print(f"  [SU(3)]²×U(1):  2·Y_Q + Y_u + Y_d = {c_su3}  ✓")
 print(f"  [SU(2)]²×U(1):  3·Y_Q + Y_L       = {c_su2}  ✓")
 print(f"  [grav]²×U(1):   6Y_Q+3Y_u+3Y_d+2Y_L+Y_e+Y_ν = {c_grav}  ✓")
 print(f"  [U(1)]³:        6Y_Q³+3Y_u³+3Y_d³+2Y_L³+Y_e³+Y_ν³ = {c_u1}  ✓")
+
+# Verify the two-branch cubic factorization
+def cubic_anomaly(t, e):
+    yQ, yu, yd, yL, ye, ynu = Fraction(1), t, Fraction(-2)-t, Fraction(-3), e, Fraction(6)-e
+    return 6*yQ**3 + 3*yu**3 + 3*yd**3 + 2*yL**3 + ye**3 + ynu**3
+
+print("\n  Verifying cubic factorization 18(e-t-4)(e+t-2):")
+for t_val in [Fraction(0), Fraction(1), Fraction(-4), Fraction(7,3)]:
+    for e_val in [Fraction(0), Fraction(3), Fraction(2)-t_val, Fraction(4)+t_val]:
+        cubic = cubic_anomaly(t_val, e_val)
+        factored = 18 * (e_val - t_val - 4) * (e_val + t_val - 2)
+        assert cubic == factored, f"Mismatch at t={t_val}, e={e_val}"
+print("    16 test points: cubic ≡ 18(e-t-4)(e+t-2)  ✓")
+ce = cubic_anomaly(Fraction(0), Fraction(0))
+print(f"    Counterexample (1,0,-2,-3,0,6): cubic = {ce} ≠ 0  (off-branch)")
+print(f"    On branch e=2-t: cubic = {cubic_anomaly(Fraction(0), Fraction(2))}  ✓")
+print(f"    On branch e=4+t: cubic = {cubic_anomaly(Fraction(0), Fraction(4))}  ✓")
 
 print("""
   ┌────────────────────────────────────────────────────────┐
@@ -698,9 +720,11 @@ Under the dictionary, this maps to:
 
 Open issue — θ̄ vs θ: the physical observable is θ̄ = θ + arg(det M_q),
 not the basis-dependent θ alone. The dictionary constrains the topological
-angle θ (both CS and θ are topological). For θ̄ = 0, one additionally needs
-arg(det M_q) = 0. The E₆ Yukawa structure provides structural reasons
-(27³ coupling is real), but the chain does not derive it.
+angle θ (both CS and θ are topological). θ = 0 is a representative in the
+dictionary's chosen topological basis; θ alone is basis-dependent.
+For θ̄ = 0, one additionally needs arg(det M_q) = 0. E₆ admits a cubic
+27³ invariant, but the reality of the group-theoretic tensor does not
+by itself fix physical Yukawa phases or VEVs; the chain does not derive it.
 (This is T17, mapping symmetry TYPES ℤ/2 → ℤ/2, NOT the refuted I-4
 dictionary which attempted CS = θ as a value. B813 kills I-4.)
 
