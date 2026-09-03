@@ -149,6 +149,10 @@ Expanding the bracket:
 1 + 2z² − 4z + 2 − z² + z = z² − 3z + 3
 ```
 
+The full equation is z²(z² − 3z + 3) = 0. The solution z = 0 is the **degenerate**
+(reducible) character — it corresponds to the central/trivial representation, not a
+discrete-faithful one. Selecting the geometric (nondegenerate) branch:
+
 > ### z² − 3z + 3 = 0
 >
 > discriminant = 9 − 12 = **−3**
@@ -158,7 +162,7 @@ Expanding the bracket:
 The roots are complex conjugates — a **mirror pair**.
 The number field is **Q(√−3)**: the Eisenstein integers.
 
-**The rule + the puncture → discriminant −3.** No geometry needed. No tetrahedra. Just algebra.
+**The rule + the puncture + nondegeneracy → discriminant −3.** Just algebra.
 
 ---
 
@@ -194,11 +198,11 @@ Number of irreps: 7
 
 The McKay graph:
 
-       1
-       │
+         1
+         │
+         2
+         │
   1 ─ 2 ─ 3 ─ 2 ─ 1
-       │
-       1
 ```
 
 > **This is the affine Ê₆ diagram** (7 nodes, including the trivial representation).
@@ -550,7 +554,7 @@ See `STATE_2026-09-02.md` addendum 2026-09-03.)
 ┌─ MATTER ────────────────────────────────────────────────┐
 │  27 = 16 + 10 + 1                                       │
 │  16 = one SM generation (quarks + leptons + ν_R)         │
-│  hypercharge uniquely fixed by anomaly cancellation      │
+│  hypercharge uniquely fixed by SU(5) group theory        │
 └──────────────────────┬──────────────────────────────────┘
                        │ trace identities on the 27
                        ▼
