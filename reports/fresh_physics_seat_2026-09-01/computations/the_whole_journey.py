@@ -154,6 +154,10 @@ print("  z²[1 + 2(z-1)² - z(z-1)] = 0")
 print()
 print("  Expanding the bracket:")
 print("  1 + 2z² - 4z + 2 - z² + z = z² - 3z + 3")
+print()
+print("  Full equation: z²(z² - 3z + 3) = 0")
+print("  z = 0 is the degenerate (reducible) character.")
+print("  Selecting the geometric (nondegenerate) branch:")
 
 # Verify
 from numpy.polynomial import polynomial as P
@@ -176,8 +180,8 @@ print(f"""
   These are complex conjugates — a MIRROR PAIR.
   The number field is Q(√-3): the Eisenstein integers.
 
-  THE RULE + THE PUNCTURE → discriminant -3.
-  No geometry needed. No tetrahedra. Just algebra.""")
+  THE RULE + THE PUNCTURE + NONDEGENERACY → discriminant -3.
+  Just algebra.""")
 
 # ─────────────────────────────────────────────────────────────
 banner(4, "THE NUMBER FIELD PICKS A SYMMETRY")
@@ -231,11 +235,11 @@ print(f"  Number of irreps: {len(irrep_dims)}")
 print(f"""
   The McKay graph of 2T is:
 
-         1
-         │
+           1
+           │
+           2
+           │
     1 ─ 2 ─ 3 ─ 2 ─ 1
-         │
-         1
 
   This is the AFFINE Ê₆ DIAGRAM (7 nodes, including
   the trivial representation). Removing the trivial-rep
