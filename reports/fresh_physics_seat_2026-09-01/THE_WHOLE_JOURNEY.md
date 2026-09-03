@@ -183,6 +183,8 @@ among the infinite metallic family: Λ(m) = m²+4, and only m = 1 gives Λ = 5 �
 the cutoff above which |SL(2,ℤ/N)| > 120 exceeds all binary polyhedral groups.
 See B997.)
 
+By A3, we pass from the conductor to the finite linear group and apply McKay's correspondence:
+
 **Step 1:** Build the group SL(2, ℤ/3ℤ) — all 2×2 matrices with entries mod 3 and
 determinant 1.
 
@@ -487,11 +489,11 @@ where φ is the golden ratio from Step 1.
 Computed on a 610-site Fibonacci chain with V = 1:
 
 ```
-gap 1: width 1.4967, IDS = 0.381967 ≈ +0 + (−1)/φ  (mod 1), residual 1.2×10⁻⁶
-gap 2: width 0.5842, IDS = 0.618033 ≈ +0 + ( 1)/φ  (mod 1), residual 1.2×10⁻⁶
-gap 3: width 0.3964, IDS = 0.763934 ≈ +0 + (−2)/φ  (mod 1), residual 2.4×10⁻⁶
-gap 4: width 0.2112, IDS = 0.236066 ≈ +0 + ( 2)/φ  (mod 1), residual 2.4×10⁻⁶
-gap 5: width 0.1680, IDS = 0.527869 ≈ +0 + (−4)/φ  (mod 1), residual 4.8×10⁻⁶
+gap 1: width 1.4967, IDS = 0.381967 ≈ (−1)/φ  (mod 1), residual 1.2×10⁻⁶
+gap 2: width 0.5842, IDS = 0.618033 ≈ (+1)/φ  (mod 1), residual 1.2×10⁻⁶
+gap 3: width 0.3964, IDS = 0.763934 ≈ (−2)/φ  (mod 1), residual 2.4×10⁻⁶
+gap 4: width 0.2112, IDS = 0.236066 ≈ (+2)/φ  (mod 1), residual 2.4×10⁻⁶
+gap 5: width 0.1680, IDS = 0.527869 ≈ (−4)/φ  (mod 1), residual 4.8×10⁻⁶
 ```
 
 The transfer-matrix trace map **is** the Fricke action F, and the Fricke invariant
@@ -531,36 +533,41 @@ Under the dictionary:
 - The SM's E-type parameter = **θ̄_QCD** (the strong CP phase)
 - 2-torsion in ℝ/2πℤ = {0, π}
 
-Why CS = 0 selects θ̄ = 0, not θ̄ = π: the dictionary is a group homomorphism ℤ/2 → ℤ/2.
-Every group homomorphism preserves the identity element. CS = 0 is the identity of {0, 1/4}
-under addition mod 1/2; θ̄ = 0 is the identity of {0, π} under addition mod 2π. Both group
-homomorphisms ℤ/2 → ℤ/2 (trivial and identity) send 0 → 0. No value-level choice is made.
+Why CS = 0 selects θ = 0, not θ = π: both torsion points are fixed by their respective
+ℤ₂ involutions (−c ≡ c for c ∈ {0, 1/4} mod 1/2, and −θ ≡ θ for θ ∈ {0, π} mod 2π),
+so equivariance alone does not distinguish them. What rules out 0 ↦ π is the requirement
+(part of A8) that the torsion-sector correspondence is an identity-preserving group
+homomorphism ℤ/2 → ℤ/2. Every group homomorphism preserves the identity element.
+CS = 0 is the identity of {0, 1/4} under addition mod 1/2; θ = 0 is the identity of
+{0, π} under addition mod 2π. Both group homomorphisms ℤ/2 → ℤ/2 (trivial and identity)
+send 0 → 0.
 
-- CS = 0 → **θ̄ = 0: strong CP is conserved**
+- CS = 0 → **θ = 0** (topological sector)
 
-Note on θ̄ vs θ: the physical observable is θ̄_QCD = θ + arg(det M_q), not the topological
-angle θ alone (which is basis-dependent — a chiral field redefinition shifts θ and
-arg(det M_q) by equal and opposite amounts). The dictionary maps to the **physical
-observable** θ̄, not to the basis-dependent θ. The prediction is θ̄ = 0 directly; the
-decomposition into θ and arg(det M_q) is a mechanism question about how the prediction
-is realized, not a gap in the prediction itself.
+**Open issue — θ̄ vs θ:** the physical observable is θ̄_QCD = θ + arg(det M_q), not the
+topological angle θ alone (which is basis-dependent). The dictionary constrains the
+topological angle θ: both CS and θ are topological quantities, and their correspondence
+is natural. For the full prediction θ̄ = 0, one additionally needs arg(det M_q) = 0. The
+E₆ Yukawa structure provides structural reasons to expect this (the 27³ coupling is real
+in a suitable basis), but the chain does not derive it. θ = 0 is a clean topological
+prediction; θ̄ = 0 is contingent on controlling the Yukawa sector.
 
 (This dictionary is T17, which maps symmetry TYPES ℤ/2 → ℤ/2. It is NOT the refuted I-4
 dictionary, which attempted a direct VALUE identification CS = θ. B813 kills I-4 on three
-independent mismatches: kind, group, and slot. T17 survives because it has no coefficient slot.)
+independent mismatches: kind, group, and slot. T17 survives because it has no coefficient
+slot. See `STATE_2026-09-02.md` addendum 2026-09-03.)
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT sit at 2-torsion Chern-Simons.
 (Census methodology: OrientableCuspedCensus in SnapPy, chirality tested via symmetry_group(),
 CS values checked for 2-torsion within floating-point tolerance. The census script will
 be supplied separately for independent verification.)
-If the strong CP phase is measured to be nonzero, the prediction fails.
+The topological selection is sharp (1/594). A measured nonzero θ̄ would not by itself
+falsify the topological θ = 0; it would falsify θ̄ = 0 only jointly with a demonstration
+that arg(det M_q) = 0.
 
 What the dictionary does NOT fix: this argument does not constrain the numerical
 weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 
-(Note: T17's dictionary maps symmetry TYPES ℤ/2 → ℤ/2. It is NOT the refuted I-4
-dictionary, which attempted a VALUE identification CS = θ. B813 kills I-4; T17 survives.
-See `STATE_2026-09-02.md` addendum 2026-09-03.)
 
 ---
 
@@ -605,7 +612,7 @@ See `STATE_2026-09-02.md` addendum 2026-09-03.)
                        │ Chern-Simons + dictionary
                        ▼
 ┌─ PREDICTION ────────────────────────────────────────────┐
-│  θ̄_QCD = 0  (strong CP conserved)                       │
+│  θ = 0 (topological); θ̄ = 0 contingent on Yukawa        │
 │  weak CP phases = free                                   │
 │  bite: 1/594 chiral manifolds at 2-torsion CS            │
 └─────────────────────────────────────────────────────────┘
@@ -620,7 +627,7 @@ See `STATE_2026-09-02.md` addendum 2026-09-03.)
 | A4 | matter in the fundamental 27 | which representation |
 | A5 | chirality | chiral 16, not vector-like |
 | A7 | chain's scale = experimenter's | scale identification |
-| A8 | dictionary c = P, γ₅ = T | discrete-symmetry map |
+| A8 | dictionary c = P, γ₅ = T; identity-preserving on torsion sectors | discrete-symmetry map |
 
 ## What's Not Supplied
 

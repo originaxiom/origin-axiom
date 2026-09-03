@@ -185,7 +185,7 @@ print(f"""
   Just algebra.""")
 
 # ─────────────────────────────────────────────────────────────
-banner(4, "THE NUMBER FIELD PICKS A SYMMETRY")
+banner(4, "THE NUMBER FIELD PICKS A SYMMETRY (AXIOM A3)")
 # ─────────────────────────────────────────────────────────────
 
 print("""The field Q(√-3) has:
@@ -193,7 +193,11 @@ print("""The field Q(√-3) has:
   • conductor: N = 3  (the "complexity" of the field)
 
 Now we use the McKay correspondence — a bridge between
-number theory and symmetry.
+number theory and symmetry. THIS IS AXIOM A3: the choice
+to go from conductor → SL(2,ℤ/Nℤ) → McKay label is a
+declared construction principle, not a theorem.
+
+By A3, we pass from the conductor to the finite linear group:
 
 Step 1: Build the group SL(2, Z/3Z) — all 2×2 matrices
         with entries mod 3 and determinant 1.""")
@@ -629,8 +633,7 @@ print(f"  Largest gaps and their IDS labels:")
 
 inv_phi = 1.0/phi
 for rank, (gapsize, idx) in enumerate(gaps[:5]):
-    ids = (idx + 1) / N  # integrated density of states at gap
-    # Find n such that ids ≈ n/phi mod 1 or n*phi mod 1
+    ids = (idx + 1) / N
     best_m = None
     best_err = 1.0
     for m in range(-10, 11):
@@ -639,8 +642,7 @@ for rank, (gapsize, idx) in enumerate(gaps[:5]):
         if err < best_err:
             best_err = err
             best_m = m
-    n_offset = round(ids - (best_m / phi) % 1)
-    print(f"    gap {rank+1}: width {gapsize:.4f}, IDS = {ids:.6f} ≈ {n_offset:+d} + ({best_m})/φ (mod 1), residual {best_err:.2e}")
+    print(f"    gap {rank+1}: width {gapsize:.4f}, IDS = {ids:.6f} ≈ ({best_m:+d})/φ (mod 1), residual {best_err:.2e}")
 
 # Verify Fricke invariant conservation
 print(f"""
@@ -684,25 +686,31 @@ For m004 specifically: CS = 0.
 
 Under the dictionary, this maps to:
   • CPT-even (P-odd, T-odd) type = the E type
-  • The SM's E-type parameter = θ̄_QCD (the strong CP phase)
-  • 2-torsion in ℝ/2πℤ = {0, π}
-  • Why 0 not π: the dictionary is a group homomorphism ℤ/2 → ℤ/2.
-    Every group homomorphism preserves the identity element.
+  • The SM's E-type parameter = the topological QCD vacuum angle θ
+  • 2-torsion in ℝ/2πℤ = {{0, π}}
+  • Why 0 not π: both torsion points are fixed by their respective
+    ℤ₂ involutions, so equivariance alone does not distinguish them.
+    A8's identity-preserving group structure rules out 0 ↦ π:
+    every group homomorphism preserves the identity element.
     CS = 0 is the identity of {{0,1/4}} mod 1/2;
-    θ̄ = 0 is the identity of {{0,π}} mod 2π. Both maps send 0 → 0.
-  • CS = 0 → θ̄ = 0: strong CP is CONSERVED
+    θ = 0 is the identity of {{0,π}} mod 2π. Both maps send 0 → 0.
+  • CS = 0 → θ = 0 (topological sector)
 
-Note on θ̄ vs θ: the physical observable is θ̄ = θ + arg(det M_q),
-not the basis-dependent θ alone. The dictionary maps to the PHYSICAL
-OBSERVABLE θ̄, not to the basis-dependent θ. The prediction is θ̄ = 0
-directly. (This is T17, mapping symmetry TYPES ℤ/2 → ℤ/2, NOT the
-refuted I-4 dictionary which attempted CS = θ as a value. B813 kills I-4.)
+Open issue — θ̄ vs θ: the physical observable is θ̄ = θ + arg(det M_q),
+not the basis-dependent θ alone. The dictionary constrains the topological
+angle θ (both CS and θ are topological). For θ̄ = 0, one additionally needs
+arg(det M_q) = 0. The E₆ Yukawa structure provides structural reasons
+(27³ coupling is real), but the chain does not derive it.
+(This is T17, mapping symmetry TYPES ℤ/2 → ℤ/2, NOT the refuted I-4
+dictionary which attempted CS = θ as a value. B813 kills I-4.)
 
 Falsifiability: 593 of 594 chiral census manifolds do NOT
 sit at 2-torsion Chern-Simons. (Census methodology:
 OrientableCuspedCensus in SnapPy, chirality via symmetry_group(),
 CS tolerance for 2-torsion; census script to be supplied separately.)
-If the strong CP phase is measured to be nonzero, the prediction fails.
+The topological selection is sharp (1/594). A measured nonzero θ̄
+would not by itself falsify θ = 0; it would falsify θ̄ = 0 only
+jointly with a demonstration that arg(det M_q) = 0.
 
 What the dictionary does NOT fix: this argument does not
 constrain the numerical weak-CP phases (CKM and PMNS matrices).
@@ -752,7 +760,7 @@ print("""
                          │ Chern-Simons + dictionary
                          ▼
   ┌─ PREDICTION ────────────────────────────────────────────┐
-  │  θ̄_QCD = 0  (strong CP conserved)                       │
+  │  θ = 0 (topological); θ̄ = 0 contingent on Yukawa        │
   │  weak CP phases = free                                   │
   │  bite: 1/594 chiral manifolds at 2-torsion CS            │
   └─────────────────────────────────────────────────────────┘
@@ -763,7 +771,7 @@ print("""
     A4  matter in the fundamental 27
     A5  chirality  (chiral 16, not vector-like)
     A7  chain's scale = experimenter's
-    A8  dictionary c = P, γ₅ = T
+    A8  dictionary c = P, γ₅ = T; identity-preserving on torsion sectors
 
   WHAT'S NOT SUPPLIED:
     •  absolute mass scale (external, by theorem)
