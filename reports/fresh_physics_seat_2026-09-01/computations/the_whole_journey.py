@@ -746,16 +746,17 @@ by itself fix physical Yukawa phases or VEVs; the chain does not derive it.
 (This is T17, mapping symmetry TYPES ℤ/2 → ℤ/2, NOT the refuted I-4
 dictionary which attempted CS = θ as a value. B813 kills I-4.)
 
-For m004 specifically, 2-torsion is forced by amphichirality
-(part (i) above); the census measures how rare 2-torsion is among the
-chiral majority where it would need to be coincidental.
-
-Falsifiability: 593 of 594 chiral census manifolds do NOT
-sit at 2-torsion Chern-Simons. (Census methodology:
-OrientableCuspedCensus in SnapPy, chirality via symmetry_group(),
-CS tolerance for 2-torsion; census script to be supplied separately.)
-In the stated chiral comparison sample, accidental 2-torsion
-occurs in 1/594 cases. A measured nonzero θ̄
+For m004 specifically, 2-torsion is forced by amphichirality:
+CS(-M) = -CS(M) mod 1, so 2·CS ≡ 0 and CS ∈ {0, 1/4} (mod 1/2).
+This is a theorem, not a coincidence. The genuinely sharp content
+is within the amphichiral class: all 6 amphichiral census manifolds
+land exactly at {0, 1/4}, and m004 at 0 separates from its sister
+m003 at 1/4 (B1224). Among 394 non-amphichiral census manifolds,
+only 1 sits at 2-torsion CS — a factor of ~200 suppression (B1224).
+(Census: OrientableCuspedCensus in SnapPy, first 400 one-cusped
+orientable, amphichirality via symmetry_group(), CS tolerance for
+2-torsion; census script to be supplied separately.)
+A measured nonzero θ̄
 would not by itself falsify θ = 0; it would falsify θ̄ = 0 only
 jointly with a demonstration that arg(det M_q) = 0.
 
@@ -809,7 +810,7 @@ print("""
   ┌─ PREDICTION ────────────────────────────────────────────┐
   │  θ = 0 (dictionary); θ̄ = 0 contingent on Yukawa          │
   │  weak CP phases = free                                   │
-  │  bite: 1/594 chiral manifolds at 2-torsion CS            │
+  │  bite: amphichiral 6/6 at 2-torsion; non-amphichiral 1/394│
   └─────────────────────────────────────────────────────────┘
 
   AXIOMS (declared inputs, not derived):

@@ -181,15 +181,19 @@ Now we use the **McKay correspondence** — a bridge between number theory and s
 conductor N = 3 to the finite linear group SL(2, F₃) and apply McKay's correspondence.
 A3 as used in this document is specifically the map N = 3 → SL(2, F₃) ≅ 2T → Ê₆;
 no universal conductor → SL(2, ℤ/Nℤ) → McKay rule is asserted. The conductor entering
-this route is N = 3, from the **geometric trace field** Q(√−3) — not to be confused
-with the rule's eigenvalue field Q(√5) (conductor 5, which would give SL(2,F₅) ≅ 2I → E₈,
-not E₆). Among the metallic family σ_m, only m = 1 produces a mapping torus whose
-invariant trace field has conductor 3 (T13): m = 2 gives invariant trace field Q(i)
-(conductor 4; the ordinary trace field Q(ζ₈) is larger, degree 4 over Q),
-m ≥ 3 gives higher-degree fields. B997's pre-selection via the eigenvalue
-discriminant Λ(m) = m² + 4 concerns the Perron–Frobenius eigenvalue field (a polynomial
-discriminant, not necessarily the field conductor), a separate diagnostic from the
-geometric trace field that enters Step 4.)
+this route is N = 3, from the **geometric trace field** Q(√−3). The object
+also carries a second number field: the eigenvalue field Q(√5) (conductor 5),
+from the Perron–Frobenius eigenvalue φ of the substitution matrix. These are
+not a confusion but a theorem: the two-ended theorem (LAW_MAP §141) establishes
+that the object has an E₆/Q(√−3) end (hyperbolic geometry / 2T) and an
+E₈/Q(√5) end (monodromy / 2I). The McKay route uses the E₆ end; the E₈ end
+is a separate structure. Among the metallic family σ_m, only m = 1 produces
+a mapping torus whose invariant trace field has conductor 3 (T13): m = 2
+gives invariant trace field Q(i) (conductor 4; the ordinary trace field Q(ζ₈)
+is larger, degree 4 over Q), m ≥ 3 gives higher-degree fields.
+B997's pre-selection via the eigenvalue discriminant Λ(m) = m² + 4 concerns
+the Perron–Frobenius eigenvalue field (a polynomial discriminant, not
+necessarily the field conductor) — the E₈ end, not the E₆ end.)
 
 By A3, we pass from the conductor to the finite linear group and apply McKay's correspondence:
 
@@ -582,13 +586,17 @@ dictionary, which attempted a direct VALUE identification CS = θ. B813 kills I-
 independent mismatches: kind, group, and slot. T17 survives because it has no coefficient
 slot. See `STATE_2026-09-02.md` addendum 2026-09-03.)
 
-Falsifiability: for m004 specifically, 2-torsion is forced by amphichirality (part (i) above);
-the census measures how rare 2-torsion is among the chiral majority where it would need to
-be coincidental: 593 of 594 chiral census manifolds do NOT sit at 2-torsion Chern-Simons.
-(Census methodology: OrientableCuspedCensus in SnapPy, chirality tested via symmetry_group(),
-CS values checked for 2-torsion within floating-point tolerance. The census script will
-be supplied separately for independent verification.)
-In the stated chiral comparison sample, accidental 2-torsion occurs in 1/594 cases.
+Falsifiability: for m004 specifically, 2-torsion is forced by amphichirality —
+CS(−M) = −CS(M) mod 1, so 2·CS ≡ 0 and CS ∈ {0, 1/4} (mod 1/2). This is
+a theorem, not a coincidence. The genuinely sharp content is *within* the
+amphichiral class: all 6 amphichiral census manifolds land exactly at
+{0, 1/4}, and m004 at 0 separates from its sister m003 at 1/4 (B1224).
+Among the 394 non-amphichiral census manifolds, only 1 sits at 2-torsion CS —
+a factor of ~200 suppression (B1224). (Census methodology:
+OrientableCuspedCensus in SnapPy, first 400 one-cusped orientable manifolds,
+amphichirality tested via symmetry_group(), CS values checked for 2-torsion
+within floating-point tolerance. The census script will be supplied
+separately for independent verification.)
 A measured nonzero θ̄ would not by itself
 falsify the topological θ = 0; it would falsify θ̄ = 0 only jointly with a demonstration
 that arg(det M_q) = 0.
@@ -642,7 +650,7 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 ┌─ PREDICTION ────────────────────────────────────────────┐
 │  θ = 0 (dictionary); θ̄ = 0 contingent on Yukawa          │
 │  weak CP phases = free                                   │
-│  bite: 1/594 chiral manifolds at 2-torsion CS            │
+│  bite: amphichiral 6/6 at 2-torsion; non-amphichiral 1/394│
 └─────────────────────────────────────────────────────────┘
 ```
 
