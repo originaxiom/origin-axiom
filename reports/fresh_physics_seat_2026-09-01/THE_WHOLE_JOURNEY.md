@@ -87,7 +87,7 @@ a video of the stretch back to its start. This makes a 3D shape called a "mappin
 ## Step 3: The Shape's Coordinates
 
 The shape m004 has a "fundamental group" — loops you can draw inside it. Two basic
-loops, A and B, generate everything.
+loops, A and B, generate the fiber fundamental group F₂.
 
 Instead of tracking the loops themselves, track three numbers — the **traces** of the
 matrices representing them:
@@ -177,14 +177,19 @@ The field Q(√−3) has:
 - **conductor: N = 3** (the "complexity" of the field)
 
 Now we use the **McKay correspondence** — a bridge between number theory and symmetry.
-(The McKay route itself is axiom A3: the choice to go from conductor to SL(2,ℤ/Nℤ) to
-McKay label. The conductor entering this route is N = 3, from the **geometric trace field**
-Q(√−3) — not to be confused with the rule's eigenvalue field Q(√5) (conductor 5, which
-would give SL(2,F₅) ≅ 2I → E₈, not E₆). Among the metallic family σ_m, only m = 1
-produces a mapping torus whose trace field has conductor 3 (T13): m = 2 gives Q(i)
-(conductor 4), m ≥ 3 gives higher-degree fields. B997's pre-selection via the eigenvalue
-discriminant Λ(m) = m² + 4 concerns the Perron–Frobenius eigenvalue field, a separate
-diagnostic from the geometric trace field that enters Step 4.)
+(The McKay route itself is axiom A3: the declared choice to pass from the geometric
+conductor N = 3 to the finite linear group SL(2, F₃) and apply McKay's correspondence.
+A3 as used in this document is specifically the map N = 3 → SL(2, F₃) ≅ 2T → Ê₆;
+no universal conductor → SL(2, ℤ/Nℤ) → McKay rule is asserted. The conductor entering
+this route is N = 3, from the **geometric trace field** Q(√−3) — not to be confused
+with the rule's eigenvalue field Q(√5) (conductor 5, which would give SL(2,F₅) ≅ 2I → E₈,
+not E₆). Among the metallic family σ_m, only m = 1 produces a mapping torus whose
+invariant trace field has conductor 3 (T13): m = 2 gives invariant trace field Q(i)
+(conductor 4; the ordinary trace field Q(ζ₈) is larger, degree 4 over Q),
+m ≥ 3 gives higher-degree fields. B997's pre-selection via the eigenvalue
+discriminant Λ(m) = m² + 4 concerns the Perron–Frobenius eigenvalue field (a polynomial
+discriminant, not necessarily the field conductor), a separate diagnostic from the
+geometric trace field that enters Step 4.)
 
 By A3, we pass from the conductor to the finite linear group and apply McKay's correspondence:
 
@@ -289,9 +294,10 @@ Are we free to choose them?
 
 No. **The SU(5) group theory determines them uniquely.**
 
-### The mechanism: the maximal-subgroup chain
+### The mechanism: the standard embedding chain
 
-The canonical decomposition from Step 5 goes through maximal subgroups:
+The canonical decomposition from Step 5 goes through a standard nested
+embedding chain (commuting U(1) factors and finite global quotients suppressed):
 
 ```
 E₆  ⊃  SO(10)  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)_Y
@@ -355,7 +361,7 @@ Choosing the conventional identification:
 
 Before fixing normalization, the anomaly-free Abelian charge space is spanned by Y and
 B−L. After fixing Y_Q = 1, the free parameter t parametrizes an affine line in the
-(Y, B−L) plane; its tangent direction is (B−L) − 2Y. The canonical maximal-subgroup
+(Y, B−L) plane; its tangent direction is (B−L) − 2Y. The canonical embedding
 chain goes through SU(5), which fixes t = −4 (the SM value) by group theory.
 
 We can verify anomaly cancellation holds for the group-theoretically
@@ -370,7 +376,7 @@ determined charges:
 
 (Computed with exact Fraction arithmetic — all four sums are identically zero.)
 
-> **Hypercharge is unique.** The SU(5) group theory within the canonical maximal-subgroup
+> **Hypercharge is unique.** The SU(5) group theory within the canonical embedding
 > chain E₆ ⊃ SO(10) ⊃ SU(5) ⊃ SM determines exactly one U(1) direction. It produces
 > quarks with charge 2/3 and −1/3, electrons with charge −1, neutrinos neutral. Anomaly
 > cancellation is a consistency verification, not the mechanism.
@@ -408,7 +414,7 @@ sin²θ_W = g'² / (g² + g'²)
         = 3/8
 ```
 
-> **sin²θ_W = 3/8 = 0.375 exactly**
+> **sin²θ_W = 3/8 = 0.375 (tree-level group-theoretic matching value)**
 >
 > Measured at low energy: 0.231.
 > The difference is the running of the couplings from high energy to low energy —
@@ -466,11 +472,13 @@ input: these depend on the assumed matter content above M_I):
 gap  = α₂⁻¹ − α₃⁻¹ = 5.58   (in α⁻¹ units)
 Δb   = b_L − b_C = 1          (barely differ)
 
-Naive unification: M_U = 1.8 × 10²⁸ GeV   (log₁₀ = 28.2)
+Formal one-loop L/C crossing: M_U = 1.8 × 10²⁸ GeV   (log₁₀ = 28.2)
 ```
 
-That's 10⁹ **above** the Planck scale. The gap closes too slowly. Extra matter (sextet
-Higgses at mass M₆) is needed to steepen the convergence and pull unification below Planck.
+That's 10⁹ **above** the Planck scale, where this field-theory extrapolation is not
+physically trustworthy. If one insists on perturbative unification below M_Pl within
+this model class, additional threshold or spectrum effects are required; the proposed
+sextet Higgs sector is one possible mechanism.
 
 - **What's determined:** M_I (from the object's 3/8, assuming D-parity, SM content, and one-loop running with no intermediate thresholds)
 - **What's missing:** M₆ (sextet Higgs mass; the representation content of the trinification Higgs sector must be specified to fix the high-scale running)
@@ -580,7 +588,8 @@ be coincidental: 593 of 594 chiral census manifolds do NOT sit at 2-torsion Cher
 (Census methodology: OrientableCuspedCensus in SnapPy, chirality tested via symmetry_group(),
 CS values checked for 2-torsion within floating-point tolerance. The census script will
 be supplied separately for independent verification.)
-The topological selection is sharp (1/594). A measured nonzero θ̄ would not by itself
+In the stated chiral comparison sample, accidental 2-torsion occurs in 1/594 cases.
+A measured nonzero θ̄ would not by itself
 falsify the topological θ = 0; it would falsify θ̄ = 0 only jointly with a demonstration
 that arg(det M_q) = 0.
 
@@ -642,7 +651,7 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 | | axiom | role |
 |---|---|---|
 | A1 | why this rule | minimal description |
-| A3 | the McKay route | disc → conductor → 2T → E₆ |
+| A3 | the McKay route | N = 3 → SL(2,F₃) ≅ 2T → Ê₆ → E₆ |
 | A4 | matter in the fundamental 27 | which representation |
 | A5 | chirality | chiral 16, not vector-like |
 | A7 | chain's scale = experimenter's | scale identification |
@@ -652,10 +661,13 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 
 - **absolute mass scale** — external, by theorem (the rank theorem proves the 12-dim SM algebra is never a centralizer in E₆; two U(1)s are forced, and the overall scale requires a VEV whose direction is unsourced)
 - **VEV direction** within the forced orbit — free
+- **exotic decoupling** — the 10+1 accompanying the chiral 16 in each 27 (vectorlike color triplets, extra electroweak doublets, and a singlet under SU(5)) must acquire acceptable masses; the chain does not derive their mass spectrum or decoupling mechanism
 - **M₆** — sextet Higgs mass; the representation content of the trinification Higgs sector must be specified
+- **D-parity origin** — D-parity (g₃L = g₃R) is a model assumption used in Step 8; the chain does not derive or protect it
 - **generation count** — not derived; this document constructs one chiral generation
   (the cohomological multiplicity h¹(M; 27_ρ) = 3 provides a structural origin for three
   generation-slots (B632), but this is exhibited, not forced by the axioms)
+- **A8 phase convention** — A8 does not yet operationally define the chiral phase convention in which θ = 0 is stated
 - **coupling values at low energy** — structure, not values
 
 ## Forcedness Census
@@ -676,3 +688,9 @@ A7, A8). The forcedness census counts 4 axiom-bearing *links* in the derivation 
 metrics differ: an axiom input is a declared choice; an axiom link is a step in the chain
 where such a choice is exercised. Some axioms share a link; the two counts measure different
 things.
+
+**Model assumptions in Step 8** (not axioms, but additional inputs that affect the M_I output):
+D-parity (g₃L = g₃R); standard trinification hypercharge embedding; tree-level matching
+at M_I; SM field content below M_I; no intermediate thresholds; one-loop running.
+These are standard trinification model choices. Without D-parity, the α₁ = α₂ matching
+does not hold and M_I is not uniquely selected.

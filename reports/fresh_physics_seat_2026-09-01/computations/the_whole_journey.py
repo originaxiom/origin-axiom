@@ -45,10 +45,9 @@ This isn't a coincidence. The rule's "recipe" is a 2×2 matrix:""")
 M = np.array([[1, 1], [1, 0]])
 print(f"  M = [[1, 1],     (each 'a' makes 1 new 'a' and 1 new 'b')")
 print(f"       [1, 0]]     (each 'b' makes 1 new 'a' and 0 new 'b')")
-det = int(round(np.linalg.det(M)))
-eigs = np.linalg.eigvals(M)
+det = int(M[0,0]*M[1,1] - M[0,1]*M[1,0])
 print(f"""
-  eigenvalues: φ = {eigs[0]:.6f} and -1/φ = {eigs[1]:.6f}
+  eigenvalues: φ = {phi:.6f} and -1/φ = {-1/phi:.6f}
   determinant: {det}
 
 The determinant is -1. That minus sign will matter a lot.""")
@@ -70,7 +69,7 @@ To get something that doesn't flip, we apply the rule TWICE:""")
 
 M2 = M @ M
 print(f"  M² = {M2.tolist()}")
-print(f"  det(M²) = {int(round(np.linalg.det(M2)))}")
+print(f"  det(M²) = {int(M2[0,0]*M2[1,1] - M2[0,1]*M2[1,0])}")
 print(f"  trace(M²) = {int(np.trace(M2))}")
 print(f"""
   det = +1 means M² preserves orientation. Good.
@@ -98,7 +97,8 @@ banner(3, "THE SHAPE'S COORDINATES")
 # ─────────────────────────────────────────────────────────────
 
 print("""The shape m004 has a "fundamental group" — loops you can
-draw inside it. Two basic loops, A and B, generate everything.
+draw inside it. Two basic loops, A and B, generate the
+fiber fundamental group F₂.
 
 Instead of tracking the loops themselves, we track three
 numbers — the TRACES of the matrices representing them:
@@ -161,8 +161,6 @@ print("  the peripheral commutator is -I (central), not a nontrivial parabolic."
 print("  Requiring nontrivial parabolic peripheral holonomy selects the geometric branch:")
 
 # Verify
-from numpy.polynomial import polynomial as P
-coeffs = [3, -3, 1]  # 3 - 3z + z²
 roots = np.roots([1, -3, 3])
 disc = (-3)**2 - 4*1*3
 
@@ -193,9 +191,11 @@ print("""The field Q(√-3) has:
   • conductor: N = 3  (the "complexity" of the field)
 
 Now we use the McKay correspondence — a bridge between
-number theory and symmetry. THIS IS AXIOM A3: the choice
-to go from conductor → SL(2,ℤ/Nℤ) → McKay label is a
-declared construction principle, not a theorem.
+number theory and symmetry. THIS IS AXIOM A3: the declared
+choice to pass from the geometric conductor N = 3 to
+SL(2, F₃) and apply McKay's correspondence. A3 as used here
+is specifically N = 3 → SL(2,F₃) ≅ 2T → Ê₆; no universal
+conductor → SL(2,ℤ/Nℤ) → McKay rule is asserted.
 
 By A3, we pass from the conductor to the finite linear group:
 
@@ -321,9 +321,11 @@ are the HYPERCHARGES. Are we free to choose them?
 
 No. The SU(5) GROUP THEORY determines them uniquely.
 
-THE MECHANISM: THE MAXIMAL-SUBGROUP CHAIN
+THE MECHANISM: THE STANDARD EMBEDDING CHAIN
 
-The canonical decomposition from Step 5 goes through maximal subgroups:
+The canonical decomposition from Step 5 goes through a standard
+nested embedding chain (commuting U(1) factors and finite
+global quotients suppressed):
 
   E₆  ⊃  SO(10)  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)_Y
 
@@ -384,7 +386,7 @@ Choosing the conventional identification:
 Before fixing normalization, the anomaly-free Abelian charge space
 is spanned by Y and B-L. After fixing Y_Q=1, the free parameter t
 parametrizes an affine line in the (Y, B-L) plane; its tangent
-direction is (B-L)-2Y. The canonical maximal-subgroup chain goes
+direction is (B-L)-2Y. The canonical embedding chain goes
 through SU(5), which fixes
 t = -4 (the SM value) by group theory.
 
@@ -419,7 +421,7 @@ for t_val in [Fraction(0), Fraction(1), Fraction(-4), Fraction(7,3)]:
         cubic = cubic_anomaly(t_val, e_val)
         factored = 18 * (e_val - t_val - 4) * (e_val + t_val - 2)
         assert cubic == factored, f"Mismatch at t={t_val}, e={e_val}"
-print("    16 test points: cubic ≡ 18(e-t-4)(e+t-2)  ✓")
+print("    16 exact test points agree with 18(e-t-4)(e+t-2)  ✓")
 ce = cubic_anomaly(Fraction(0), Fraction(0))
 print(f"    Counterexample (1,0,-2,-3,0,6): cubic = {ce} ≠ 0  (off-branch)")
 print(f"    On branch e=2-t: cubic = {cubic_anomaly(Fraction(0), Fraction(2))}  ✓")
@@ -429,7 +431,7 @@ print("""
   ┌────────────────────────────────────────────────────────┐
   │  HYPERCHARGE IS UNIQUE.                                │
   │  The SU(5) group theory within the canonical           │
-  │  maximal-subgroup chain E₆ ⊃ SO(10) ⊃ SU(5) ⊃ SM     │
+  │  embedding chain E₆ ⊃ SO(10) ⊃ SU(5) ⊃ SM             │
   │  determines exactly one U(1) direction.                │
   │  It produces quarks with charge 2/3 and -1/3,          │
   │  electrons with charge -1, neutrinos neutral.          │
@@ -502,9 +504,9 @@ print(f"  sin²θ_W = {sin2} = {float(sin2):.6f}")
 
 print("""
   ┌──────────────────────────────────────────────────┐
-  │  The weak mixing angle at a scale where the       │
-  │  normalized couplings match is EXACTLY 3/8        │
-  │  (measured at low energy: 0.231)                 │
+  │  Tree-level group-theoretic matching value:        │
+  │  sin²θ_W = 3/8 exactly                           │
+  │  (measured at M_Z in MSbar: 0.23122)             │
   └──────────────────────────────────────────────────┘
 
   The difference between 0.375 and 0.231 is the running
@@ -599,11 +601,13 @@ print(f"""
     gap = {gap:.2f}  (in α⁻¹ units)
     Δb  = {bL - bC}  (the β coefficients barely differ)
 
-  Naive unification: M_U = {M_U:.1e} GeV (log₁₀ = {np.log10(M_U):.1f})
+  Formal one-loop L/C crossing: M_U = {M_U:.1e} GeV (log₁₀ = {np.log10(M_U):.1f})
 
-  That's 10⁹ ABOVE the Planck scale. The gap closes too slowly.
-  Extra matter (sextet Higgses at mass M₆) is needed to
-  steepen the convergence and pull unification below Planck.
+  That's 10⁹ ABOVE the Planck scale, where this field-theory
+  extrapolation is not physically trustworthy. If perturbative
+  unification below M_Pl is required, additional threshold or
+  spectrum effects are needed; the proposed sextet sector is
+  one possible mechanism.
 
   What's determined:  M_I (from the object's 3/8 + D-parity)
   What's missing:     M₆  (sextet Higgs mass; representation content must be specified)""")
@@ -662,7 +666,6 @@ gaps.sort(reverse=True)
 print(f"\n  Fibonacci chain with {N} sites, V = {V}:")
 print(f"  Largest gaps and their IDS labels:")
 
-inv_phi = 1.0/phi
 for rank, (gapsize, idx) in enumerate(gaps[:5]):
     ids = (idx + 1) / N
     best_m = None
@@ -751,7 +754,8 @@ Falsifiability: 593 of 594 chiral census manifolds do NOT
 sit at 2-torsion Chern-Simons. (Census methodology:
 OrientableCuspedCensus in SnapPy, chirality via symmetry_group(),
 CS tolerance for 2-torsion; census script to be supplied separately.)
-The topological selection is sharp (1/594). A measured nonzero θ̄
+In the stated chiral comparison sample, accidental 2-torsion
+occurs in 1/594 cases. A measured nonzero θ̄
 would not by itself falsify θ = 0; it would falsify θ̄ = 0 only
 jointly with a demonstration that arg(det M_q) = 0.
 
@@ -810,7 +814,7 @@ print("""
 
   AXIOMS (declared inputs, not derived):
     A1  why this rule  (minimal description)
-    A3  the McKay route  (disc → conductor → 2T → E₆)
+    A3  the McKay route  (N = 3 → SL(2,F₃) ≅ 2T → Ê₆ → E₆)
     A4  matter in the fundamental 27
     A5  chirality  (chiral 16, not vector-like)
     A7  chain's scale = experimenter's
@@ -819,8 +823,11 @@ print("""
   WHAT'S NOT SUPPLIED:
     •  absolute mass scale (external, by theorem)
     •  VEV direction within the forced orbit (free)
+    •  exotic decoupling (the 10+1 in each 27 must acquire masses)
     •  M₆ (sextet Higgs mass; representation content must be specified)
+    •  D-parity origin (model assumption in Step 8, not derived)
     •  generation count (not derived; one chiral generation constructed;
        h¹(M; 27_ρ) = 3 gives a cohomological origin for three slots (B632))
+    •  A8 phase convention (not yet operationally defined)
     •  coupling values at low energy (structure, not values)
 """)
