@@ -5360,6 +5360,17 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1246": {
+   "slug": "theta vs thetabar",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B124": {
    "slug": "time reversal reciprocity",
    "motifs": [

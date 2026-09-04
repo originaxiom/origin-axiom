@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1154** |
-| words of findings prose | **803,993** |
+| research arcs with findings | **1155** |
+| words of findings prose | **804,418** |
 | test lock files referenced | **688** |
-| arcs carrying an authored verdict | **1154** (100.0 %) |
+| arcs carrying an authored verdict | **1155** (100.0 %) |
 | recorded closures | **780** (613 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 748 |
+| PROVED | 749 |
 | NEGATIVE | 308 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1245`** (598 words, 0 locks)  
-THE FOLLOW-THROUGH: three statements made in session that reached the CHANGELOG and never the chain -- the same disease B1243/B1244 diagnosed, committed by the seat that diagnosed it. (1) C43 GAINS ITS SCOPE, EARNED ON-BENCH: the 16-sigma desert miss is GROUP-INDEPENDENT BY CONSTRUCTION. B915's own crossing.py settles it with no new run -- curve_point(MU) takes exactly one physical argument, the unification scale; its inputs are the SM one-loop betas (41/10, -19/6, -7), the SM two-loop matrix, the 5/3 GUT normalisation shared by SU(5) < SO(10) < E6, and the meeting condition. An AST pass over the executable code (docstrings and comments stripped) finds ZERO group-specific tokens. So the curve cannot depend on which simple group unifies: the control is not 'run SU(5) and SO(10) and compare', it is that there is no group parameter to vary. The miss is a fact about the DESERT CONFIGURATION, not about the object or about E6. Earned from our own sealed computation's dependency structure, NOT cited from the literature, per B1244's prereg E-4; no new measured input, since B915's seal already covers alpha_em(M_Z). (2) C44 GAINS THE BORROMEAN SHARPENING: every PAIR has room (16, 8, 8) and only the triple vanishes, so the fork is irreducibly three-way, not pairwise -- which is what distinguishes it from an uncertainty relation (pairwise, conjugate, a continuous trade-off bought with a scale). No trade-off here and no scale to buy one with. The programme's genuinely Heisenberg-shaped statement is elsewhere: B1087's charge complementarity, [H, rho(mu)] != 0, no common eigenbasis. (3) E59 MINTED, named by the owner: the FOUND-BUT-NOT-REVERIFIED class.  
-`B1245_follow_through/FINDINGS.md`
+**PROVED — `B1246`** (425 words, 0 locks)  
+I-18 SHARPENED BY A DOWNSTREAM SEAT'S FLAG, VERIFIED HERE: the type dictionary reaches theta, not theta-bar. B1243 registered the identification 'the object's CS 2-torsion = the SM's strong phase' with theta-bar -- the physical observable -- as the target. The physics seat flagged that the adversarial rounds had already established the target is the TOPOLOGICAL theta, with theta-bar contingent on the Yukawa sector. Verified on-bench: (i) under the anomalous chiral rotation psi -> exp(i alpha gamma5) psi on N_f flavours, theta -> theta - 2 N_f alpha while arg det M -> arg det M + 2 N_f alpha, so theta-bar = theta + arg det M is INVARIANT (shift cancels exactly, symbolically 0) and theta is NOT -- 'theta = 0' alone is basis-dependent, hence not a physical statement; (ii) theta and theta-bar carry the SAME discrete type (P-odd, C-even, T-odd), so a Z/2 -> Z/2 map of symmetry TYPES lands on 'an E-type dimensionless parameter' with TWO candidates and no way to choose between them. The observable claim theta-bar = 0 therefore carries a Yukawa-sector contingency the chain does not derive. The row stays UNEARNED and its PRICE becomes more precise: earning it needs the dictionary AND the Yukawa phase, not the dictionary alone.  
+`B1246_theta_vs_thetabar/FINDINGS.md`
 
 **NEGATIVE — `B1244`** (778 words, 0 locks)  
 THE GATE 5 AUDIT: ITS OWN THESIS IS REFUTED BY ITS OWN RUN. Pre-registered COLD (seal d0f05d44, amended A1 to 53d04ea6 before any item was evaluated) because the occasion was a downstream seat's exciting measured-data result -- exactly when a filter gets loosened for a reason nobody notices. Enumeration mechanical (Gate-5 token within +-3 lines of a fence token): 773 raw -> 255 live after a recorded merge (dated history is not a live fence; generated views duplicate their arcs; speculations are firewalled by design). 46 items examined with the SOURCE OPENED (amendment A1, the owner's rule: never be called on data you did not verify first). RESULT: ZERO MISLABELED, ZERO over-fences. E-1 (>=3 MISLABELED) FAILED. E-2 (C43 mislabeled) FALSIFIED -- B915 scopes its kill to the identification 'object boundary + pure SM desert', and C43 repeats that scope faithfully; I predicted otherwise from the chain's PHRASING without opening B915, the very shortcut A1 forbids, committed by A1's author inside the audit A1 governs. Gate 5 is not over-fencing: L15's firewall holds because the complex volume is DIMENSIONLESS (computed), and the h(27) lead is fenced because B580 proves the channel INFORMATION-FREE (identical for 4_1, 5_2 and the unknot). THE ACTUAL DISEASE IS COVERAGE, NOT RELEASE: the seam family B286-B295 -- ten arcs answering what closing supplies and whether it is selective -- had ONE citation between them in the chain (B288, inside C8, the NEGATIVE half). C46 admits it.  

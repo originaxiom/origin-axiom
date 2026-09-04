@@ -1,0 +1,21 @@
+{
+ "id": "B1246",
+ "verdict": "PROVED",
+ "claim_one_line": "I-18 SHARPENED BY A DOWNSTREAM SEAT'S FLAG, VERIFIED HERE: the type dictionary reaches theta, not theta-bar. B1243 registered the identification 'the object's CS 2-torsion = the SM's strong phase' with theta-bar -- the physical observable -- as the target. The physics seat flagged that the adversarial rounds had already established the target is the TOPOLOGICAL theta, with theta-bar contingent on the Yukawa sector. Verified on-bench: (i) under the anomalous chiral rotation psi -> exp(i alpha gamma5) psi on N_f flavours, theta -> theta - 2 N_f alpha while arg det M -> arg det M + 2 N_f alpha, so theta-bar = theta + arg det M is INVARIANT (shift cancels exactly, symbolically 0) and theta is NOT -- 'theta = 0' alone is basis-dependent, hence not a physical statement; (ii) theta and theta-bar carry the SAME discrete type (P-odd, C-even, T-odd), so a Z/2 -> Z/2 map of symmetry TYPES lands on 'an E-type dimensionless parameter' with TWO candidates and no way to choose between them. The observable claim theta-bar = 0 therefore carries a Yukawa-sector contingency the chain does not derive. The row stays UNEARNED and its PRICE becomes more precise: earning it needs the dictionary AND the Yukawa phase, not the dictionary alone.",
+ "instrument": false,
+ "depends_on": ["B1243", "B813", "B1242"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "A DOWNSTREAM SEAT CORRECTED MAIN, and the correction is right. The flag came from the physics seat in the same exchange in which this seat withdrew a wrong correction of ITS work (E58) -- the traffic ran both ways in one window, which is the healthiest thing in the record today. Scope of the verification, stated honestly: part (i) -- the chiral-rotation cancellation -- is COMPUTED symbolically here. Part (ii) -- that theta and theta-bar share the (eP, eC, eT) type -- is STANDARD QFT, stated and not derived; it is the premise the type argument runs on, and it is exactly the premise that makes the argument unable to discriminate. Gate 5 untouched: no measured value; the parameters are symbols throughout. The row's status is UNCHANGED (UNEARNED) -- only its price is sharpened, so the ratchet does not move.",
+ "identifications": [{"row": "I-18", "status": "UNEARNED", "note": "unchanged in status; the PRICE is sharpened. The type dictionary reaches theta (topological); theta-bar (physical, chiral-invariant) additionally requires arg det M_q. Earning the row now explicitly needs the Yukawa phase as well as the dictionary."}],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-03",
+  "arc": "B1246",
+  "was": "candidate: none. The chiral-rotation invariance of theta-bar is textbook; what is new here is only its APPLICATION as the discriminating fact against a register row this seat had written too loosely.",
+  "decision": "no law",
+  "class": "register-row sharpening from a cross-seat flag",
+  "basis": "verification/b1246_chiral_invariance.py computes the cancellation symbolically and prints REPRODUCES"
+ }
+}

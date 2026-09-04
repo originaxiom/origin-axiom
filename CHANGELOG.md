@@ -1,5 +1,36 @@
 # Changelog
 
+## I-18 SHARPENED BY A DOWNSTREAM SEAT'S FLAG, VERIFIED HERE: the type dictionary reaches θ, not θ̄ — and the price of the row goes UP
+
+**B1246.** B1243 registered **I-18** — *the object's CS 2-torsion ≡ the SM's strong phase* — with **θ̄**,
+the physical observable, as the target. The physics seat flagged that the adversarial rounds had already
+established the dictionary constrains the **topological θ**, with θ̄ contingent on the Yukawa sector.
+**The flag is right, and it is a defect in what this seat landed.** Verified here rather than accepted —
+which matters, because in the same exchange this seat withdrew a wrong correction of *that* seat's work
+(E58). Traffic ran both ways in one window.
+
+**THE DISCRIMINATING FACT, COMPUTED.** Under the anomalous chiral rotation ψ → e^{iαγ₅}ψ on N_f flavours:
+θ → θ − 2N_f α while arg det M → arg det M + 2N_f α, so **θ̄ = θ + arg det M is INVARIANT** (the shift
+cancels, symbolically 0) and **θ is not**. So *"θ = 0" alone is basis-dependent* — a chiral rotation moves
+the phase between θ and arg det M — and is not by itself a physical statement.
+
+**WHY A TYPE ARGUMENT CANNOT CHOOSE.** T17's move is a ℤ/2 → ℤ/2 map of symmetry **types**. But **θ and θ̄
+carry the same discrete type** — (P-odd, C-even, T-odd), both multiplying the same operator. The map lands
+on *"an E-type dimensionless parameter"* and finds **two** candidates differing by the Yukawa phase, which
+the type argument is constitutionally unable to separate.
+
+**SCOPE, STATED HONESTLY:** part (i), the cancellation, is **computed** symbolically. Part (ii), the shared
+type, is **standard QFT — stated, not derived**; it is the premise the type argument runs on, and precisely
+the premise that makes it unable to discriminate. Hiding that it is assumed would be the same species of
+error the row is being corrected for.
+
+**DISPOSITION: I-18 stays UNEARNED — the ratchet does not move.** Only its **price** changes, and it goes
+**UP**: earning it now needs the dictionary **and** the Yukawa phase, where before it read as if the
+dictionary alone would do. *A register row whose price is understated is worse than one whose price is
+high, because it makes the debt look payable.* **T17 itself is not disturbed** — its computation is
+correct; what moves is which parameter the map is entitled to name. Gate 5 untouched: every parameter here
+is a symbol.
+
 ## THE FOLLOW-THROUGH: three things said in session that reached the log and never the chain — and C43's kill turns out to be group-independent BY CONSTRUCTION
 
 **B1245.** In one session the seat built a gate for claims that reach the log and never the surface
