@@ -4859,7 +4859,7 @@ gap, per hand) is hand-resolved, so **what kills it is the non-uniqueness, not t
 
 ### Action items (Review 53)
 
-- [ ] R53-1: **the live-lane harvest** — codex **R028** (exact toric chart frames) and **R029**
+- [>] R53-1: **CARRIED to Review 54 (R53-1).** **the live-lane harvest** — codex **R028** (exact toric chart frames) and **R029**
   (verified above; disposition OA-C1169 as CORROBORATING B1095 and relay the refinement); the
   **outside-bench 2026-08-30 digest** ("six defects repaired, one drift standing, and my certificate
   was not a test" — the last clause is E52-shaped and wants reading); cc3's Paper IV lane.
@@ -4867,13 +4867,13 @@ gap, per hand) is hand-resolved, so **what kills it is the non-uniqueness, not t
 - [>] R53-2: **the cross-seat waits** (carried from **R52-5**, ex-**R51-5**, ex-**R50-6**): codex
   R023 + MC1 + R018; cloud's **C6 completeness**, still the one thing between "every choice typed"
   and "provably every choice". (owners: the seats; cc harvests)
-- [ ] R53-3: **E53's unswept remainder** — B1218 sweeps the surfaces named in its `SURFACES` list;
+- [x] R53-3: **ANSWERED at Review 54 §2 — measured: `representation_sweep` screens on CLAIM LENGTH (282 seen / 674 blind, 154 unrepresented), and the load-bearing half is that THE CHAIN IS NOT IN ITS `SURFACES` LIST AT ALL. Superseded by R54-1 and R54-2.** **E53's unswept remainder** — B1218 sweeps the surfaces named in its `SURFACES` list;
   the ~973 PROVED/NEGATIVE arcs outside every screen, and B1188's 132 off-surface arcs, remain
   unswept. Extend the sweep from surfaces-to-arcs to arcs-to-surfaces (the reverse direction).
   (owner: banking seat)
-- [ ] R53-4: **the {C, P} promotion cell** — bank the composition of B1118 and B1141 as a named arc
+- [>] R53-4: **CARRIED to Review 54.** **the {C, P} promotion cell** — bank the composition of B1118 and B1141 as a named arc
   so the discrete ledger's closure can promote under §5. (owner: banking seat; blocker named in §6)
-- [ ] R53-5: **λ's acceptance gate** — the ledger's weakest row, unmoved this window and the only
+- [>] R53-5: **CARRIED to Review 54 — and restated there: a row with no criterion is the shape that survives every audit by being unfalsifiable.** **λ's acceptance gate** — the ledger's weakest row, unmoved this window and the only
   row with *no* criterion at all. B1216's closure loop deleted zero rows; λ needs a gate written
   before it can be attempted again. (owner: banking seat)
 - [>] R53-6: **owner-electable, under the standing HOLD** (carried from **R52-6**, ex-**R51-6**,
@@ -4885,3 +4885,121 @@ gap, per hand) is hand-resolved, so **what kills it is the non-uniqueness, not t
 **Next review due after 20 merges from this anchor.**
 
 anchor-commit: `c0e9a4a0` (the B1218 bank, this window's last substantive commit before the review)
+
+---
+
+## Review 54 — 2026-09-03 (58 merges from Review 53; the window the instruments were caught proxying — and every real loss was a positive the chain had dropped)
+
+**Anchor:** `de8e5d8a`. **Window:** B1241–B1246, six arcs, all pushed to both remotes.
+
+### 0. Mechanical — all green, debts visible
+
+| check | result |
+|---|---|
+| `doc_currency` | **ok** — 18 living documents current; **4 declared debts** (CLAIMS lag 164, GUT_REQUIREMENTS 144, THEOREM_LEDGER 1, TOOLBOX 876), all printed every run; 1 visible frozen opt-out |
+| `retraction_sweep` | **0 live-claim violations** across 2704 tracked `.md` |
+| `instrument_freshness` | ok, 2 instruments re-run green |
+| `forcedness_census` | **PASS** — 46 links, forced 42, axioms exactly {C3, C4, C5, C18}, stretch C6..C17 clean |
+| `citation_status` (new, B1243) | **green** — 0 unacknowledged corrected-arc citations; coverage 9/9 |
+| kill-graph routing (`test_b833`) | **0 unrouted negatives** |
+
+### 1. THE WINDOW'S THEME: our instruments proxy, and the proxies drift
+
+Two independent instances, both found by using the instruments rather than trusting them.
+
+**(a) `representation_sweep` proxies SUBSTANTIALITY by CLAIM LENGTH.** `CLAIM_FLOOR = 500`. Measured
+on the live tree: 282 arcs screened (**4** unrepresented), **674 invisible** (**154** unrepresented).
+The gate is **98.6% effective on what it sees and blind to 70% of the corpus**. And the proxy fails
+hardest on the dense: the seam family B286–B295 runs **166–197 characters**, and **B286's 182
+characters relocate the programme's central wall** (P011 corrected: the wall is at the closure, not
+in the object).
+
+**(b) `open_claim_sweep` similarity is dominated by PROCESS vocabulary.** Its top hit this window
+pairs THE_SPINE's `B1156` (OPEN) with `B1157` (NEGATIVE) at 27.8 — on *workflow, agents, adversarial,
+seal, refuters*. Sources opened: **B1156 is SEAM-A Gate 2 (arithmetic); B1157 is the ∞-place dynamics
+(archimedean). Different questions.** A false positive produced by both being WF-workflow arcs.
+
+**Neither instrument is wrong about its own metric.** Both measure something adjacent to what they
+are for. That is the window's lesson and it generalises: *a proxy is a place where an instrument
+stops being an instrument and becomes a habit.*
+
+### 2. R53-3 ANSWERED — and the answer is bigger than the item
+
+R53-3 (carried from Review 53): *"extend the sweep from surfaces-to-arcs to arcs-to-surfaces."*
+Measured above. But the **second** defect it exposed is the load-bearing one:
+
+> **`docs/THEOREM_LEDGER.md` and `docs/THE_END_TO_END_CHAIN.md` are not in `representation_sweep`'s
+> `SURFACES` list at all. Nothing has ever checked chain representation.**
+
+That single gap explains this window's three biggest losses: **C25** carried a known-corrected
+sentence for a month into two downstream seats; the **genesis theorem** (A1–A7 ⟹ A = LR,
+machine-checked, banked day nine, lock green) sat uncited by the chain for **three months** while
+appearing on every other surface; the **seam family** — ten arcs — had **one** citation between them
+in the chain, and it was **B288, the negative half**, inside C8. *The spine kept the wall and dropped
+everything standing behind it.* B1243's coverage direction is the first instrument to ask, and it
+covers only 9 hand-pinned results.
+
+### 3. The relay ledger — the count misled, the design is vindicated
+
+`relay_debt` reports **"45 open"**. Decomposed: **42 outbound** (ours, awaiting the other seat — the
+*correct* resting state) and **3 inbound**. Sources opened on all three: one **triaged with a response
+sent**, one **read on this bench**, one **file LOST with the error-class already filed (B1172) and a
+re-send requested**. **Actual inbound debt: ZERO.**
+
+And the lost one **vindicates the instrument**: `CC3_TO_CC_2026-08-09_REVIVABLE_rationale.md` is gone
+from disk, but its **finding, triage and escalation survived in the ledger row** — exactly the loss
+the ledger was built for after the ι-status case. *Third proxy of the window:* a single "open" count
+that merges our debt with their silence.
+
+### 4. The rooms
+
+**claims** — LAW_MAP, THEOREM_LEDGER, CLAIMS: retraction sweep clean; C25's overstatement repaired
+(B1243); C43 gained its group-independence scope and C44 its Borromean sharpening (B1245); C22's
+terminology collision with B287 resolved by scope line rather than asserted past (B1244).
+**the chain** — 43 → 46 links this window; the genesis theorem now cited; C44/C45/C46 admitted.
+**the negatives** — kill graph complete, 0 unrouted; B1244 routed *its own thesis* as the thing it
+killed. **method** — WORKING_RULES/PRACTICES current; TOOLBOX frozen with a visible opt-out (876 lag,
+declared). **speculation** — firewall one-way; the Gate 5 audit found **zero over-fences in 46 items**.
+**logs** — CHANGELOG/PROGRESS_LOG/CAMPAIGN_STATUS carry all six arcs.
+
+### 5. Error classes minted this window
+
+- **E58** — *judged from a summary*: a seat graded another seat's theorem from a third seat's one-line
+  summary; the wrong grade was accepted downstream **within the hour**. *An incorrect correction
+  propagates faster than the error it replaces, because it arrives with authority.*
+- **E59** — *found-but-not-reverified* (owner-named): *"we check the repo we find it and we dont
+  reverify it in the new light."* **A found artifact carries the role it was filed under, not the role
+  you now need.**
+- **Open question for adjudication:** both classes assume a **static source**. A cross-seat dispute
+  this window resolved as neither party's error — the **file moved between reads** (oa-distill's
+  STATEMENTS.md, omission real at 09-02T18:21, fixed by `1002235` at 09-03T12:18). *A claim about a
+  file is time-indexed.* Is this an E58 clause or its own class? **Deferred to the owner.**
+
+### 6. The Gate 5 audit (B1244) — its own thesis refuted
+
+Pre-registered COLD (`d0f05d44`, amended `53d04ea6` before any item was evaluated). 773 raw hits →
+255 live → **46 examined at source**. **ZERO MISLABELED, ZERO over-fences.** **E-1 failed. E-2
+falsified** — C43 is correctly scoped, and the auditor predicted otherwise from the chain's *phrasing*
+without opening B915, the shortcut the audit's own amendment A1 forbids. **The firewall is not
+blocking physics.** Every genuine loss this window was **coverage**, not release.
+
+### Action items (Review 54)
+
+- [ ] **R54-1: replace the length proxy.** Screen `representation_sweep` on something structural —
+  `depends_on` in-degree, verdict class, `creates_law` — not on how many characters the author typed.
+  (owner: banking seat)
+- [ ] **R54-2: give the chain a coverage CRITERION, not a pin list.** `CHAIN_COVERAGE.json` is
+  hand-maintained; it caught the genesis theorem only because someone looked. (owner: banking seat)
+- [ ] **R54-3: split `relay_debt`'s "open"** into inbound (our debt) and outbound (awaiting reply).
+  Today's actionable number was 3, reported as 45. (owner: banking seat)
+- [ ] **R54-4: sampled disposition pass on the 154** unrepresented short arcs — sample, do not grind.
+- [ ] **R54-5: the time-indexed-source question** — E58 clause or its own class. **(owner)**
+- [>] **R54-6: cc3's PAPERS I–IV are drafted and building** (0 overfull, 0 undefined refs, each with a
+  reproducer and register appendix), open since **2026-08-26**. **Venue, order and arXiv endorsement
+  are owner-gated.** **(owner)**
+- [>] Carried from Review 53: **R53-1** live-lane harvest · **R53-2** cross-seat waits (ex-**R52-5**, ex-R51-5, ex-R50-6) · **R53-4**
+  {C,P} promotion cell · **R53-5** λ's acceptance gate — *the only ledger row with no criterion at
+  all*, carried since Review 50, and after this window a row with no criterion is exactly the shape
+  that survives every audit by being unfalsifiable · **R53-6** owner-electable under the standing HOLD (ex-**R52-6**, ex-R51-6, ex-R50-7; unchanged).
+
+**Next review due after 20 merges from this anchor.**

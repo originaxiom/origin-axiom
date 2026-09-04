@@ -1,5 +1,49 @@
 # Changelog
 
+## REVIEW 54: the window the instruments were caught PROXYING — and every real loss was a positive the chain had dropped, not a physics result the firewall had blocked
+
+**Review 54** (58 merges from Review 53; anchor `de8e5d8a`; window B1241–B1246, six arcs).
+Mechanical pass all green: doc-currency ok with 4 **declared** debts, retraction sweep **0 violations
+across 2704 files**, instrument freshness ok, census PASS (46 links, forced 42, axioms {C3,C4,C5,C18}),
+the new citation gate green, kill graph **0 unrouted**.
+
+**THE THEME: our instruments proxy, and the proxies drift.** Three instances, each found by *using* an
+instrument rather than trusting it. **(a)** `representation_sweep` proxies substantiality by **claim
+length** (floor 500): 282 arcs screened with **4** unrepresented, **674 invisible** with **154**
+unrepresented — 98.6% effective on what it sees, **blind to 70% of the corpus** — and it fails hardest
+on the dense, since the seam family runs 166–197 characters and **B286's 182 characters relocate the
+programme's central wall**. **(b)** `open_claim_sweep` similarity is dominated by **process
+vocabulary**: its top hit paired B1156 (OPEN, arithmetic) with B1157 (NEGATIVE, archimedean) on
+*workflow, agents, adversarial, seal* — sources opened, different questions, false positive.
+**(c)** `relay_debt` reports one **"45 open"** that merges our debt with their silence: decomposed,
+**42 outbound** (correct resting state) and **3 inbound**, all three already handled — **actual inbound
+debt ZERO**. *A proxy is where an instrument stops being an instrument and becomes a habit.*
+
+**R53-3 ANSWERED, and the second defect is the load-bearing one:** `docs/THEOREM_LEDGER.md` and
+`docs/THE_END_TO_END_CHAIN.md` **are not in `representation_sweep`'s SURFACES list at all — nothing has
+ever checked chain representation.** That single gap explains the window's three biggest losses: C25
+carried a known-corrected sentence for a month into two downstream seats; the genesis theorem (A1–A7 ⟹
+A = LR, machine-checked, day nine, lock green) sat **uncited by the chain for three months**; the seam
+family — ten arcs — had **one** citation between them, and it was **the negative half**.
+
+**THE LEDGER VINDICATED BY ITS OWN LOSS:** `CC3_TO_CC_2026-08-09_REVIVABLE_rationale.md` is gone from
+disk, but its **finding, triage and escalation survived in the ledger row** — exactly the failure the
+RELAY_LEDGER was built for after the ι-status case.
+
+**Error classes minted:** **E58** *judged-from-a-summary* (an incorrect correction propagates faster
+than the error it replaces, because it arrives with authority) and **E59** *found-but-not-reverified*
+(owner-named: a found artifact carries the role it was filed under, not the role you now need). **Open
+for the owner:** both assume a **static** source, but a cross-seat dispute this window resolved as
+neither party's error — **the file moved between reads**. A claim about a file is time-indexed. E58
+clause, or its own class?
+
+**Six action items**, R54-1..6. Two are the owner's: **the time-indexed-source adjudication**, and
+**cc3's Papers I–IV — drafted, all building (0 overfull, 0 undefined refs), each with a reproducer and
+register appendix, open since 2026-08-26, venue/order/arXiv endorsement owner-gated.** Carried from
+Review 53: R53-1, R53-2, R53-4, and **R53-5 — λ's acceptance gate, still the only ledger row with no
+criterion at all, carried since Review 50; after this window, a row with no criterion is exactly the
+shape that survives every audit by being unfalsifiable.**
+
 ## I-18 SHARPENED BY A DOWNSTREAM SEAT'S FLAG, VERIFIED HERE: the type dictionary reaches θ, not θ̄ — and the price of the row goes UP
 
 **B1246.** B1243 registered **I-18** — *the object's CS 2-torsion ≡ the SM's strong phase* — with **θ̄**,
