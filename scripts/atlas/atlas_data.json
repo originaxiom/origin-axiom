@@ -6061,6 +6061,25 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B1257": {
+   "slug": "brieskorn selection",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B266",
+    "B327",
+    "B727",
+    "B883"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B125": {
    "slug": "snappy arithmeticity",
    "motifs": [

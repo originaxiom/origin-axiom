@@ -1,5 +1,22 @@
 # Changelog
 
+## THE ORBIT THAT REMEMBERS 2T — and the theorem that finds it was in B327's own bibliography
+
+**B1257.** Attacking the strategy's first item. **The archaeology:** the principal sl₂ grading entered
+at **B327** and was never revisited across ~930 arcs — while B327's *own* literature line cites
+*"Kostant (principal SL(2)); the McKay correspondence 2T ↔ Ẽ₆ (Gonzalez-Sprinberg–Verdier,
+**Slodowy**)"*. Both cited; only Kostant's used. **The criterion:** Brieskorn–Slodowy — the Slodowy
+slice to a nilpotent orbit meets the nilpotent cone in `dim N − dim O`, and for the **subregular**
+orbit that is a simple **surface singularity ℂ²/Γ** of the same ADE type; for E₆, **Γ = 2T**. The
+object's E₆ was **built from 2T by McKay** (I-1, EARNED), so ask which orbit's geometry **returns**
+that group. **Exactly one of thirty does — the subregular** (dim O = 70, slice dim 2 = ℂ²/2T); the
+**principal** gives a **point** and forgets 2T; the other 28 give neither. Its 27-decomposition,
+**read off after the selection and never used to make it**, is **13+9+5 — three chiral, zero
+abelian**, so h¹ = 3 all chiral. A canonical, unique, **non-fitted** criterion selecting exactly the
+embedding that gives three generations, replacing a default with **no attachment to the object's own
+2T**. **Scope held: I-25 stays UNEARNED** — the route is named, not walked; earning it means
+exhibiting the object's SL(2) landing in that orbit.
+
 ## THE EVEN-DIMENSIONAL CASE, COMPUTED NOT CITED — AND THE STRATEGY
 
 **B1256 addendum + `docs/STRATEGY_2026-09-05.md`.** The arc's one open item is closed by

@@ -13803,3 +13803,29 @@ interactions m a a m qualia hartbeat voice etc."*
   crossing needs a dimensionless **number** from a pair. B1248's law makes the bit-carrying partners
   the family **κ = 2 + n²** — **and n is a number.** Whether n is object-determined is the crossing's
   own currency. Registered as a lead; asserted as nothing.
+
+### B1257 — the orbit that remembers 2T (2026-09-05)
+
+Owner: *"lets attack them."* Attacking strategy item 1 — and the answer was structurally available.
+
+- **THE ARCHAEOLOGY.** The principal grading entered at **B327** (*"the principal 27 decomposition is
+  V(16)+V(8)+V(0)"*; fence: *"Exact E₆ Weyl-orbit + principal grading"*) and was never revisited
+  across ~930 arcs. **B327's own bibliography** reads *"Kostant (principal SL(2)); the McKay
+  correspondence 2T ↔ Ẽ₆ (Gonzalez-Sprinberg–Verdier, **Slodowy**)"* — **both cited, only Kostant's
+  used.** The theorem that selects the other orbit sat one clause away.
+- **THE CRITERION.** Brieskorn–Slodowy: the Slodowy slice to a nilpotent orbit meets the nilpotent
+  cone in dimension `dim N − dim O`, and for the **subregular** orbit this is a simple **surface**
+  singularity **ℂ²/Γ** of the same ADE type — for E₆, **Γ = 2T**. Since the object's E₆ was **built
+  from 2T by McKay** (**I-1 EARNED**), ask which orbit's geometry **returns** that group.
+- **EXACTLY ONE OF THIRTY DOES.** Subregular: dim O = 70, `dim(S ∩ N) = 2` — a **surface = ℂ²/2T**.
+  Principal: `dim = 0` — a **point**, 2T forgotten. The other **28**: neither.
+- **AND ITS DECOMPOSITION — read off AFTER the selection, never used to make it — is 13+9+5:**
+  three nontrivial odd summands, no trivial one, so **h¹ = 3 ALL CHIRAL** (B1256's computed addendum).
+- **CONTROLS.** The decisive one: the criterion uses **dimensions alone** and never looks at the 27,
+  so the three-chiral reading **cannot have been fitted**. Plus: 28/30 discriminate; regular orbit
+  returns 72; 72 roots rebuilt.
+- **SCOPE HELD.** Does **not** claim the holonomy realises it — both orbits are intrinsic to E₆, and
+  what distinguishes the subregular is a **closure condition**, not a preference. Needs only **I-1**
+  plus the internal coherence of the ADE correspondence — **not I-6** (a different geometric claim).
+  **I-25 stays UNEARNED**; the route is named, not walked. What earns it: exhibiting the object's
+  SL(2) landing in that orbit.
