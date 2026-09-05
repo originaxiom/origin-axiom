@@ -85,3 +85,35 @@ the per-level z-trend, and the non-genericity verdict all stand unchanged. Corre
 B1188/FINDINGS, the GRAND_COMPUTATION_LEDGER, and L190's row; the phrase row added to
 RETRACTED_PHRASES. Class: E52-adjacent (an interpretation word passing both bank and review) —
 caught by the retrieval sweep's clock/4d lens cross-reading B189's own earlier correction.
+
+## 2026-09-05 (B1248) — "the class restricts to c" (B1192) is REFUTED, not merely unsupported
+
+**B1192**'s headline read *"X₀ induces the nontrivial Galois element on BOTH spectral fields
+simultaneously: **the class restricts to c**"*, and described ε as **mirror-odd**. **B1216**'s
+addendum already retracted the *eigenline evidence* for that clause as MB12-vacuous (every
+anti-conjugator swaps the eigenlines, by construction) while leaving the clause itself standing on
+the det = −1 sign.
+
+**The clause itself now falls.** B1248 shows `det X ≡ 2 − κ (mod squares)` with `κ = tr[A,M]` the
+Fricke–Vogt invariant, and κ is a function of the Fricke coordinates `(tr A, tr M, tr AM)` — **all
+three mirror-invariant**, so `κ(A,M) − κ(A⁻¹,M⁻¹) = 0` identically (Gröbner residue exactly 0). The
+class is therefore **MIRROR-EVEN for every pair**, and by **B1161**'s free-orbit theorem a
+mirror/Galois-invariant object quantity is constant across branches: **it cannot be c.**
+
+**What stands:** ε = −1 is a well-defined, dimensionless, non-vacuous ℤ/2-valued datum of the pair
+(B1248's trichotomy exhibits all four branches and reproduces −1 as `2 − κ = 2 − 3`). **What falls:**
+its identification with the orientation bit, and the word *mirror-odd*. Rows F2/H1 keep their
+"first realized instance" content with the restriction-to-c clause struck.
+
+**Also corrected here (E60), same arc, self-caught:** B1248's own first draft wrote the
+Maclachlan–Reid quaternion algebra as `(tr²A − 4, 2 − κ)`, identifying ε *itself* with the second
+Hilbert slot. The true algebra is `(tr²A − 4, (2 − κ)/(tr²A − 4))` — they differ by the first slot.
+Caught by computing **2T**: the Q8 pair gives the **Hurwitz quaternions (−1,−1)**, the known answer,
+against the wrong form's split `(−1,+1)`. `det X₀ = squarefree(2 − κ)` is unaffected, and the arc's
+lock already encoded the correct formula — the test was right while the prose was false. The 2T
+control is now permanent. Class: **E60** (a wrong statement whose downstream conclusion happened to
+be right, so nothing red).
+
+Corrected at source in `frontier/B1192_close_loop_batch4/FINDINGS.md` (Addendum 2, per E53), in
+`frontier/B1248_norm_classification/`, THEOREM_REGISTRY, IDENTIFICATION_LEDGER, CHANGELOG and
+CAMPAIGN_STATUS.

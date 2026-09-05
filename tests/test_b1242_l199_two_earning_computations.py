@@ -22,14 +22,44 @@ def test_both_priced_rows_are_now_refuted_and_the_containment_is_earned():
     assert r["I-12"] == "EARNED" and r["I-13"] == "UNEARNED"   # nothing else moved
 
 def test_the_ratchet_was_lowered_by_EARNING_not_by_relabelling():
+    """B1242's lowering 10 -> 8 came from REFUTING two rows, not from relabelling them.
+
+    Originally this pinned `unearned == 8` literally. That is a SNAPSHOT, not the invariant:
+    it went red at B1250 when a documented raise 8 -> 9 registered I-23 (a PRE-EXISTING debt
+    named for the first time -- B919's Y-anchoring). Replaced with a STRICTLY STRONGER check:
+    replay the whole documented raise/lowering history and require it to land exactly on the
+    live count. That audits the entire audit trail rather than one number, so an undocumented
+    change to `unearned` now reds the suite even if someone edits the count to match the ledger.
+    """
     b = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8"))
     live = _rows()
-    assert b["unearned"] == sum(1 for v in live.values() if v == "UNEARNED") == 8
+    live_unearned = sum(1 for v in live.values() if v == "UNEARNED")
+
+    # the ratchet is kept TIGHT: baseline == live, rows and totals agree
+    assert b["unearned"] == live_unearned
     assert set(b["rows"]) == {k for k, v in live.items() if v == "UNEARNED"}
     assert b["total_rows"] == len(live)
+
+    # B1242's own lowering is history and must stay recorded as EARNING, not relabelling
     low = next(x for x in b["_baseline_lowerings"] if x["to"] == 8)
     assert low["from"] == 10 and "I-15" in low["rows"] and "I-16" in low["rows"]
     assert "REFUTED" in low["reason"] and "not by relabelling" in low["reason"]
+
+    # EVERY movement of the count must be documented, and the trail must reconstruct it
+    moves = sorted(
+        [(x["date"], x["from"], x["to"], "raise") for x in b["_baseline_raises"]]
+        + [(x["date"], x["from"], x["to"], "lower") for x in b["_baseline_lowerings"]]
+    )
+    cur = moves[0][1]
+    for date, frm, to, kind in moves:
+        assert frm == cur, f"audit trail broken at {date}: {kind} claims from={frm}, running={cur}"
+        cur = to
+    assert cur == live_unearned, f"trail ends at {cur} but the ledger has {live_unearned} UNEARNED"
+
+    # every raise carries a reason -- an undocumented raise is the failure the ratchet exists for
+    for x in b["_baseline_raises"]:
+        assert x.get("reason"), f"raise {x['from']}->{x['to']} has no reason"
+        assert x.get("row"), f"raise {x['from']}->{x['to']} names no row"
 
 def test_the_arc_reproduces_by_RUNNING_its_script_not_reading_a_string():
     r = subprocess.run([sys.executable, str(ARC / "verification" / "l199_two_earning_computations.py")],

@@ -1,0 +1,27 @@
+{
+ "id": "B1253",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B891",
+  "B1250",
+  "B1252",
+  "B632",
+  "B324",
+  "B1033",
+  "B714"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "THE GEOMETRY OF THE FOREIGN 16s IS RIGID -- AND IT IS *NOT* A GENERATION COUNT. THIS ARC'S DRAFT HEADLINE WAS 'the generation count is forced at three' AND IT IS REFUTED, by a test the record itself supplied: docs/OPEN_PROBLEMS.md section C ('Multiplicity -> the generation count') was CLOSED on 2026-08-30 because B324 showed the candidate three there were g-CONJUGATES sharing one character, hence tautological -- and ALL 15 SIXTEEN-BLOCKS HERE LIE IN A SINGLE WEYL ORBIT (orbit size 27), so the three 16s in every triple are W(E6)-conjugates sharing one character and 'three' counts CONJUGATES, NOT SPECIES. A patch to docs/THE_SM_VERDICT.md written on the dead basis was REVERTED before the suite ran. Recorded as E63. WHAT IS REAL: the W6 layer B891 registered on 2026-08-04 ('the next W6 layer is structural: the pairwise geometry of the three 16s') and which went UNRUN FOR THIRTEEN MONTHS OF ARCS -- computed here on B1250's construction. Each mod-2 weight-character with so(10) stabiliser cuts a 16-block from the 27; there are 15, all DISTINCT, and the geometry is RIGID: pairwise |A n B| takes exactly TWO values, 8 (45 pairs) and 10 (60 pairs); exactly 11 of 455 triples have EMPTY triple intersection and every one has |AnB| = |AnC| = |BnC| = 8 with |A u B u C| = 24 of 27 (residue 3); and the maximum mutually-independent family is 3. Two-sided control over 300 random collections of 15 random 16-subsets of a 27-set: max family 2 in 288 cases and 3 in only 12 (~4%), distinct pairwise-overlap values 5..9 and NEVER 2 (0/300) -- so the RIGIDITY is genuinely non-generic. What that control tested was rigidity; the question was INEQUIVALENCE, and it is the latter that decides the reading. ALSO VERIFIED, as a check on B1252's DERIVED hypercharge: all six SM anomalies cancel (with a discriminating control -- shifting Y(e^c) by 1/6 breaks Y^3 and Y.grav^2); hypercharge is conserved on ALL 45 cubic terms; Y on the 16 is exactly the SM set, on the 10 exactly two Higgs doublets plus the colour-triplet pair (not assumed), on the 1 exactly {0}, and traceless overall; and the full SM Yukawa sector is present in the 40 10.16.16 terms (up, down, charged-lepton, Dirac-neutrino, plus the 24 expected GUT proton-decay operators). These are CONSISTENCY VERIFICATIONS -- a 16 of SO(10) is anomaly-free by construction and the Yukawa structure is standard -- valuable because a wrong Y would have failed them on any of 45 terms. AND the principal decomposition COMPUTED NOT CITED: 27 = Sym^16 + Sym^8 + Sym^0 = 17+9+1 with B1252's exact metric, so B632's h^1 = 3 splits as 1 (trivial, ABELIAN) + 1 (Sym^8) + 1 (Sym^16). UNCHANGED BY THIS ARC: the generation COUNT stays on the OPEN-INPUTS side where THE_SM_VERDICT.md and B1033 put it; B714's rung-based 'generation COUNT 3, object-forced' is untouched (it does not rest on these blocks); B891's 'mechanism-hood: not decided' stands. Gate 5 clean; no measured value.",
+ "note": "The owner asked for the session's results to be reflected into the repo 'so we dont get anymore misleading info'. Sweeping to do that is what caught this arc's own draft headline: docs/OPEN_PROBLEMS.md section C had CLOSED the multiplicity-to-generation-count route on 2026-08-30 via B324's conjugacy objection, five days before this seat re-derived the mistake -- and a patch to THE_SM_VERDICT.md had already been written on it. The sweep the owner asked for protected the canonical surface from this seat. The refutation is now in the instrument, the lock and the error ledger so no seat re-derives it.",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-05",
+  "arc": "B1253",
+  "was": "candidate: 'the object forces three generations' as a law.",
+  "now": "NO LAW, and the candidate is REFUTED: the blocks are one Weyl orbit, so the three are conjugates sharing one character (B324 / OPEN_PROBLEMS section C). The rigid geometry is real and non-generic but is not a species count. Locked in tests/test_b1253_generation_count.py."
+ }
+}

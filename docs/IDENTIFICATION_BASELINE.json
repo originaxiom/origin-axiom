@@ -1,17 +1,18 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 8,
+ "unearned": 9,
  "rows": [
-  "I-6",
-  "I-7",
-  "I-9",
   "I-10",
   "I-11",
   "I-13",
   "I-14",
-  "I-18"
+  "I-18",
+  "I-23",
+  "I-6",
+  "I-7",
+  "I-9"
  ],
- "total_rows": 19,
+ "total_rows": 23,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -40,6 +41,14 @@
    "to": 10,
    "row": "I-18",
    "reason": "a DOWNSTREAM SEAT ARTIFACT's declared dictionary, registered rather than left to stand unpriced in a public repository. The object's CS 2-torsion is mapped to the SM's strong phase theta-bar by a declared type dictionary (c = P, gamma5 = T). It is NOT B813's refuted I-4 -- that killed a VALUE identification and this is a Z/2 -> Z/2 map of symmetry types, fenced as such in the artifact's own text. Raised by hand. The main seat had graded this arc as resting on the refuted row, from a SUMMARY of it rather than its source, and the wrong grade was accepted downstream; that correction is withdrawn and logged as E58. The row is the honest disposition: priced and registered, not retracted."
+  },
+  {
+   "date": "2026-09-05",
+   "arc": "B1250",
+   "from": 8,
+   "to": 9,
+   "row": "I-23",
+   "reason": "A PRE-EXISTING DEBT NAMED, NOT A NEW IDENTIFICATION CREATED. B919 (2026-08-05) derives sin^2(theta_W) = 3/8 with T3 normalised convention-free by its sl2 ad-eigenvalues -- correct -- but with Y 'anchored by the electromagnetic identification' (Q = T3 + Y), which is an I-13 instance that has been performed and never registered. An external reviewer flagged that B919 carries NO genericity fence; verified here, the ratio Tr(T3^2)/Tr(Y^2) = 3/5 for the 5, 5bar, 10, 16 and 27 alike, so the VALUE discriminates nothing and the arc's weight rests entirely on the unregistered anchoring. The ratchet is raised rather than evaded because refusing to register a debt in order to keep a count low is the exact failure the ratchet exists to prevent -- B1231's own reasoning, applied against this seat."
   }
  ],
  "_earned_additions": [
@@ -54,6 +63,24 @@
    "row": "I-19",
    "arc": "B1242",
    "reason": "the second EARNED row: 3d gravity sits inside E6(C) CS as the principal spin-2 sector at level ratio 156. The map is the principal embedding, its index is computed three ways, and it acts -- CS_E6 = 156 CS_SL2 with remainder identically zero. UNEARNED drops 10 -> 8 by the refutations above."
+  },
+  {
+   "date": "2026-09-05",
+   "row": "I-20",
+   "arc": "B1248",
+   "reason": "eps <-> the Fricke-Vogt invariant kappa read mod squares. The map is an IDENTITY, det X*(cq-br)^2 = 2 - kappa (Groebner residue exactly 0), and it ACTS: it reproduces B1192's det X0 = -1 and all four behaviours B1192/B1189 banked separately, and predicts the torsor determinants. UNEARNED unchanged (8)."
+  },
+  {
+   "date": "2026-09-05",
+   "row": "I-21",
+   "arc": "B1248",
+   "reason": "eps <-> the second slot of the Maclachlan-Reid quaternion algebra (tr^2 A - 4, 2 - tr[A,M]). The anticommuting part satisfies B1^2 = (2-kappa)/(tr^2 A - 4) on 267/267 random pairs, exact. Recorded as REDISCOVERY of known mathematics, not novelty. UNEARNED unchanged (8)."
+  },
+  {
+   "date": "2026-09-05",
+   "row": "I-22",
+   "arc": "B1250",
+   "reason": "D2 <-> the SO(10) grading of E6. The stabiliser subalgebra of the character is EXHIBITED (40 even roots + 6 Cartan = 46 = so(10)+u(1); complement 32 = 16+16bar) and ACTS -- its orbits on the 27 are computed and give [1,10,16], with the flips exactly the 1+10 and the 16 untouched. Not a dimension match. UNEARNED unchanged by this row."
   }
  ],
  "_baseline_lowerings": [

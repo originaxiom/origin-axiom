@@ -1,5 +1,8 @@
 """B1247 — the proxies replaced by reporters, and E58 gains its time-indexed clause."""
-import json, re, subprocess, sys
+import json
+import re
+import subprocess
+import sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TOOL = ROOT / "scripts" / "checks" / "coverage_candidates.py"
@@ -47,9 +50,28 @@ def test_chain_coverage_carries_a_criterion_not_just_a_list():
     assert "coverage_candidates.py" in cov["_criterion"]
     assert cov["must_appear_in_chain"], "the pins themselves must survive"
 
+def _error_row(ledger, tag):
+    """Return the single ERROR_LEDGER row whose class tag is `tag` (e.g. 'E58')."""
+    rows = re.findall(r"^\| (E\d+)\b.*$", ledger, re.M)
+    assert tag in rows, f"{tag} missing from the ledger (rows: {rows[-6:]})"
+    for line in ledger.splitlines():
+        if re.match(rf"^\| {tag}\b", line):
+            return line
+    raise AssertionError(f"{tag} row not found")
+
+
 def test_E58_carries_the_time_indexed_clause():
+    """The time-indexed rule must live INSIDE E58, not be split into its own class.
+
+    This originally asserted `"E60" not in el` as a proxy for "not filed as a new class".
+    That was a SNAPSHOT PIN, not an invariant: it silently forbade the number 60 from ever
+    being used for any unrelated error class, and it went red at B1248 when three genuinely
+    new and unrelated classes (E60/E61/E62) were recorded. Replaced with the actual
+    invariant -- the clause's own language must be inside the E58 row -- which is strictly
+    stronger, since the proxy never checked WHERE the clause lived.
+    """
     el = (ROOT / "docs" / "ERROR_LEDGER.md").read_text(encoding="utf-8")
-    assert "A CLAIM ABOUT A FILE IS" in el and "TIME-INDEXED" in el
-    assert "quote the SHA or timestamp you read" in el
-    assert "neither party's error" in el, "the resolving case must be recorded"
-    assert "E60" not in el, "filed as a clause, not a new class"
+    row = _error_row(el, "E58")
+    assert "A CLAIM ABOUT A FILE IS" in row and "TIME-INDEXED" in row
+    assert "quote the SHA or timestamp you read" in row
+    assert "neither party's error" in row, "the resolving case must be recorded, in E58 itself"
