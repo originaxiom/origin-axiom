@@ -115,3 +115,23 @@ adding the final check transcript. Raw evidence: `QUANTUM_FINAL_CHECKS.txt`.
 The raw upstream command record retains a local interpreter path: make a
 labelled portable derivative before public distribution, not a silent edit
 of the original result. This remains a local, unpushed research branch.
+
+## R6 first staged gate: a new NO-ASSERT finding to verify
+
+The first R6 staged governance run at 44a52ec4 plus the result/report changes
+returned **27 passed, 3 failed**, not the previous 28/2. The additional output
+was exactly:
+
+```text
+  FAIL  test-vacuity: 1 unconditionally-passing test(s): tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+```
+
+Source inspection shows that the checker recognizes Python assert nodes and
+six pytest-style call names, but not `np.testing.assert_allclose`, which this
+test uses twice. A NO-ASSERT screen is not by itself a demonstration that
+the test passes unconditionally. `EXTENSION_4_CONTROL.md` seals live vector
+and Weyl mutation checks before execution, plus independent full-gradient
+and reduced-solve controls. The original sealed test, gate and checker are
+unchanged. This failure is not silently exempted or called green; its
+scientific significance depends on the bite controls. The two previous
+inventory-attribution/R4-seal failures also remain.

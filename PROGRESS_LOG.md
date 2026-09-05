@@ -13850,3 +13850,26 @@ gaps against silent loss: sealed 6549b134, then **50 combined tests passed in
 the normal one-loop vacuum shifts and a perturbative-size check; it will not
 mistake a nonstationary tree-level mass at the shifted point for a completed
 one-loop stability calculation.
+
+## 2026-09-05 — R6: complete leading normal quantum shifts
+
+Pre-sealed 44a52ec4; first scientific run succeeded, all five focused tests
+passed. All 186 scalar/vector/Weyl force components were calculated. The
+gradient annihilates the entire 77-dimensional tree kernel; inversion on
+109 positive modes solves stationarity to 1.23e-15. The exhibited SM-singlet
+subspace has 13 real dimensions: four gauge and nine physical normal.
+The shifted vacuum preserves the actual SM action.
+
+Reference scalar-27 shifts are 14.9%, above the declared 10% diagnostic.
+The predeclared epsilon=1/4 and 1/16 controls give 3.72% and 0.930%, with
+directly verified linear scaling of the shift. These are different input
+theories, not measured matching or RG evolution. R5's positive angular
+curvatures survive at leading order and already include the normal shift,
+as checked independently through the full cubic tree derivative. Its
+negative contribution must not be subtracted a second time.
+
+Source, complete output and remaining obligations:
+`reports/physical_bridge_2026_09_05/QUANTUM_SHIFT.md`. PB-VACUUM progresses,
+not closed; PB-MASS next needs a light doublet, its quantum feedback and
+actual thresholds. No all-order/global/pole-mass or TOE completion claimed.
+The earlier scientific producers and all first outputs remain unchanged.

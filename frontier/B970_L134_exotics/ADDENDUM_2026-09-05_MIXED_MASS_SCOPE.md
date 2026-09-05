@@ -41,3 +41,13 @@ not a quantum failure. Global selection and the light Higgs are still open.
 Source: `reports/physical_bridge_2026_09_05/QUANTUM_VACUUM.md`,
 `tests/test_physical_bridge_quantum_vacuum.py`, and
 `tests/test_physical_bridge_quantum_derivative.py`.
+
+**R6 follow-through:** the full leading normal quantum shift is now solved,
+with all 186 force components and the nine physical SM-singlet normal
+directions accounted for. The reference scalar shifts are 14.9%, versus
+3.72% and 0.930% in the predeclared weaker-coupling controls. All preserve
+the SM action. The independently checked normal-shift identity confirms
+that R5's positive angular curvatures already include this correction;
+adding it twice would be a false kill. Scope and remaining obligations:
+`reports/physical_bridge_2026_09_05/QUANTUM_SHIFT.md` and
+`tests/test_physical_bridge_quantum_shift.py`.

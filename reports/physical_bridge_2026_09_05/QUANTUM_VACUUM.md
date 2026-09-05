@@ -123,8 +123,12 @@ must not be counted as independent matter generations or ignored in uniqueness.
 
 ## 5. What remains live
 
-- Extend the stationary-vacuum calculation to its normal quantum shifts and
-  a controlled perturbative range; determine other allowed couplings and
+- **R6 update:** the complete leading normal shift and weak-coupling controls
+  are now computed in [QUANTUM_SHIFT.md](QUANTUM_SHIFT.md). Reference scalar
+  shifts are 14.9%; the predeclared controls reduce these to 3.72% and 0.930%
+  while preserving SM. The angular-shift identity independently confirms that
+  the positive curvatures above already include the leading normal correction.
+  Determine the higher-order stationary solution, other allowed couplings and
   any other tree-vacuum branches before a global selection claim.
 - Construct and price the light electroweak doublet, then match the actual
   scalar/vector/fermion spectrum. R4 has no tree-level massless physical Higgs

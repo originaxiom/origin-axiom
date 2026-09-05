@@ -2345,6 +2345,19 @@ local result must not disappear behind this remaining OPEN label. PB-MASS
 now needs the light-doublet sector and the correctly matched full spectrum;
 it must not reuse the old toy threshold requirement without rederivation.
 
+**R6 progress — leading normal shifts and weak-coupling controls computed.**
+The all-186-component gradient has zero tree-kernel force; inversion on the
+109 positive modes solves the first-order stationary equation and preserves
+the SM action. The complete SM-singlet subspace is 13 real = four gauge plus
+nine normal. Reference scalar shifts are 14.9% (above the declared diagnostic),
+reduced to 3.72% and 0.930% by the two predeclared weak-coupling controls.
+The normal shift is already included in R5's positive angular curvatures,
+as verified with the independent cubic tree derivative. This is a leading
+perturbative branch, not a full/global vacuum or a fit. PB-VACUUM remains
+open for higher orders/global scope; PB-MASS next addresses a priced light
+doublet and recomputation of its effect on the vacuum and threshold spectrum.
+Source: `reports/physical_bridge_2026_09_05/QUANTUM_SHIFT.md`.
+
 **PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
 exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's
 eight missing logs plus one cached-bytecode artifact. Exact paths, original

@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**PHYSICAL CONTINUATION R6 (2026-09-05): normal quantum shifts computed.**
+The complete leading stationary equation preserves the SM action. Reference
+scalar shifts are 14.9%; predeclared weak-coupling controls reduce them to
+3.72% and 0.930%. R5's positive angular masses already include the normal
+shift, independently checked; do not double-count its negative contribution.
+This is a conditional perturbative branch, not the full pole spectrum/global
+vacuum or derived TOE. Next: a priced light-Higgs sector, its feedback and
+actual spectrum matching. `reports/physical_bridge_2026_09_05/QUANTUM_SHIFT.md`.
+
 **PHYSICAL CONTINUATION R5 (2026-09-05): POSITIVE angular quantum lifting.**
 All eleven R4 octet/triplet zero modes acquire positive leading curvatures on
 the chosen common-quartic ray, using the complete spectrum and kinetic norm.

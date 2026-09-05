@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-09-05 — R6: leading quantum shifts preserve a small-coupling SM branch
+
+All 186 one-loop force components, the full quadratic-constraint Hessian and
+the nine physical SM-singlet normal modes are retained. The first-order
+stationary equation is solved. Reference scalar shifts are 14.9%, above the
+predeclared 10% diagnostic; weak-coupling controls give 3.72% and 0.930% while
+preserving SM. R5's positive angular masses already include the normal shift,
+verified independently, not a contribution to subtract again. Five focused
+tests pass; first output preserved. Full/global vacuum, light Higgs, input
+selection and gravity remain distinct duties. See `QUANTUM_SHIFT.md` in
+`reports/physical_bridge_2026_09_05/`.
+
 ## 2026-09-05 — R5: full one-loop dynamics positively lifts the extra scalar modes
 
 All eleven octet/triplet zero modes of the conditional R4 vacuum get positive
