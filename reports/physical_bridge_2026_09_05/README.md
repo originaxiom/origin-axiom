@@ -21,7 +21,7 @@ classical minimum with the SM gauge algebra, actual mixed fermion masses, and
 a full Hessian exposing eleven non-gauge scalar zero modes. The action and
 its parameters remain chosen inputs; its low-energy spectrum is not R2's.
 The same potential also admits a verified non-SM classical minimum. The
-current combined audit has **48 passing tests**, plus the separately run
+current combined audit has **50 passing tests**, plus the separately run
 59 upstream tests. Archive and staged publication-gate failures remain
 explicit in [FAILURES.md](FAILURES.md); no full-suite green is claimed.
 
@@ -46,6 +46,7 @@ From the repository root, using the audited Python 3.12 environment:
 python3.12 -m pytest tests/test_physical_bridge_gauge_running.py tests/test_physical_bridge_mass_match.py tests/test_physical_bridge_legacy_audit.py -q -p no:randomly
 python3.12 -m pytest tests/test_physical_bridge_vacuum.py tests/test_physical_bridge_vacuum_orientation.py -q -p no:randomly
 python3.12 -m pytest tests/test_physical_bridge_upstream.py tests/test_physical_bridge_quantum_vacuum.py tests/test_physical_bridge_quantum_derivative.py -q -p no:randomly
+python3.12 -m pytest tests/test_physical_bridge_quantum_result.py -q -p no:randomly
 python3.12 -m reports.physical_bridge_2026_09_05.vacuum --output /tmp/oa-vacuum-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.vacuum_orientation --output /tmp/oa-vacuum-orientation-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.run_audit --output /tmp/oa-crossing-new-run.json

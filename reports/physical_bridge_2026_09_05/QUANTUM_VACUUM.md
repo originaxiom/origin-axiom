@@ -163,3 +163,8 @@ Separate upstream suite: **59 passed**. Governance remains **28 passed,
 2 failed** for the previously preserved inventory attribution and R4 seal
 headings. All 39 scientific/input/design hashes matched before the final
 check transcript was added. Nothing has been pushed.
+
+Two subsequent, explicitly post-result numerical regression locks protect
+the positive coefficients and energy gaps themselves. With these included,
+**50 tests passed in 29.22 s** at 6549b134; governance failures were unchanged.
+Transcript: `QUANTUM_REGRESSION_CHECKS.txt`. The prior certificate is retained.

@@ -13842,3 +13842,11 @@ tests passed in 26.90 s**; governance **28 passed, 2 failed** on the same
 preserved attribution/R4-seal defects. All 39 then-listed hashes matched.
 Full output: `reports/physical_bridge_2026_09_05/QUANTUM_FINAL_CHECKS.txt`.
 No full-suite green against new main or publication readiness is claimed.
+
+Two post-result locks now explicitly protect R5's positive masses and energy
+gaps against silent loss: sealed 6549b134, then **50 combined tests passed in
+29.22 s**; the same two governance failures remain. Transcript preserved in
+`QUANTUM_REGRESSION_CHECKS.txt`. On the owner's continuation, R6 proceeds to
+the normal one-loop vacuum shifts and a perturbative-size check; it will not
+mistake a nonstationary tree-level mass at the shifted point for a completed
+one-loop stability calculation.

@@ -1,0 +1,20 @@
+Post-result positive-content regression locks were sealed at 6549b134 before
+their first execution. They deliberately assert known, independently verified
+numbers; they are not a blind-discovery design.
+
+Command, quiescent at 6549b134:
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_quantum_result.py tests/test_physical_bridge_upstream.py tests/test_physical_bridge_quantum_derivative.py tests/test_physical_bridge_quantum_vacuum.py tests/test_physical_bridge_vacuum.py tests/test_physical_bridge_vacuum_orientation.py tests/test_physical_bridge_gauge_running.py tests/test_physical_bridge_mass_match.py tests/test_physical_bridge_legacy_audit.py -q -p no:randomly
+
+Completion, exit 0:
+..................................................                       [100%]
+50 passed in 29.22s
+
+Governance was rerun on the same committed tree, exit 1: 28 passed, 2 failed.
+Failure details were unchanged from QUANTUM_FINAL_CHECKS.txt:
+  FAIL attribution: missing_evidence_inventory.json (3 vendor tokens, baseline 0)
+  FAIL seal-provenance: EXTENSION_2.md, EXTENSION_2_CONTROL.md
+The informational review-due count was 76, not a mathematical failure.
+
+The earlier 48-test transcript is preserved unchanged. The two extra tests
+lock the positive octet/triplet coefficients and the named competitor gaps.
+The separate 59-test upstream result is not part of this count.
