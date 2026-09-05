@@ -189,8 +189,9 @@ that the object has an E₆/Q(√−3) end (hyperbolic geometry / 2T) and an
 E₈/Q(√5) end (monodromy / 2I). The McKay route uses the E₆ end; the E₈ end
 is a separate structure. Among the metallic family σ_m, only m = 1 produces
 a mapping torus whose invariant trace field has conductor 3 (T13): m = 2
-gives invariant trace field Q(i) (conductor 4; the ordinary trace field Q(ζ₈)
-is larger, degree 4 over Q), m ≥ 3 gives higher-degree fields.
+gives invariant trace field Q(i) (conductor 4; the ordinary trace field
+properly contains Q(ζ₈) and has degree 8 over Q), m ≥ 3 gives
+higher-degree fields.
 B997's pre-selection via the eigenvalue discriminant Λ(m) = m² + 4 concerns
 the Perron–Frobenius eigenvalue field (a polynomial discriminant, not
 necessarily the field conductor) — the E₈ end, not the E₆ end.)
@@ -353,8 +354,10 @@ Every charge is **fixed by the SU(5) embedding**. No free parameter.
 
 Anomaly cancellation is a **consistency check**, not the derivation mechanism.
 Applied alone (without the SU(5) structure), the three linear anomaly conditions
-plus normalization leave a two-parameter family (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) =
-(1, t, −2−t, −3, e, 6−e). The cubic [U(1)]³ anomaly factorizes as
+leave a general solution (q, u, −2q−u, −3q, e, 6q−e). At q = 0 the cubic
+vanishes identically, giving a two-parameter family (0, u, −u, 0, e, −e) with
+uncharged quarks — excluded by the SU(5) embedding. For q ≠ 0, normalizing
+Y_Q = 1 gives (1, t, −2−t, −3, e, 6−e). The cubic [U(1)]³ anomaly factorizes as
 18(e − t − 4)(e + t − 2) = 0, giving two one-parameter branches related by
 interchange of the two SU(3)×SU(2)-singlet assignments (e^c ↔ ν^c).
 Choosing the conventional identification:
@@ -587,12 +590,13 @@ independent mismatches: kind, group, and slot. T17 survives because it has no co
 slot. See `STATE_2026-09-02.md` addendum 2026-09-03.)
 
 Falsifiability: for m004 specifically, 2-torsion is forced by amphichirality —
-CS(−M) = −CS(M) mod 1, so 2·CS ≡ 0 and CS ∈ {0, 1/4} (mod 1/2). This is
+CS ≡ −CS (mod 1/2) in SnapPy's normalization, so 2·CS ≡ 0 (mod 1/2)
+and CS ∈ {0, 1/4} (mod 1/2). This is
 a theorem, not a coincidence. The genuinely sharp content is *within* the
 amphichiral class: all 6 amphichiral census manifolds land exactly at
 {0, 1/4}, and m004 at 0 separates from its sister m003 at 1/4 (B1224).
-Among the 394 non-amphichiral census manifolds, only 1 sits at 2-torsion CS —
-a factor of ~200 suppression (B1224). (Census methodology:
+Among the 394 non-amphichiral census manifolds, only 1 sits at 2-torsion CS
+(B1224). (Census methodology:
 OrientableCuspedCensus in SnapPy, first 400 one-cusped orientable manifolds,
 amphichirality tested via symmetry_group(), CS values checked for 2-torsion
 within floating-point tolerance. The census script will be supplied

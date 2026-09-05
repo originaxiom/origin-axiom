@@ -374,11 +374,14 @@ WHAT ABOUT ANOMALY CANCELLATION?
 
 Anomaly cancellation is a CONSISTENCY CHECK, not the derivation
 mechanism. Applied alone (without SU(5) structure), the three
-linear anomaly conditions plus normalization leave a two-parameter
-family (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, -2-t, -3, e, 6-e).
-The cubic [U(1)]³ anomaly factorizes as 18(e-t-4)(e+t-2)=0,
-giving two one-parameter branches related by interchange of the
-two SU(3)×SU(2)-singlet assignments (e^c ↔ ν^c).
+linear anomaly conditions leave a general solution
+(q, u, -2q-u, -3q, e, 6q-e). At q=0 the cubic vanishes
+identically, giving (0, u, -u, 0, e, -e) — uncharged quarks,
+excluded by the SU(5) embedding. For q≠0, normalizing Y_Q=1
+gives (1, t, -2-t, -3, e, 6-e). The cubic [U(1)]³ anomaly
+factorizes as 18(e-t-4)(e+t-2)=0, giving two one-parameter
+branches related by interchange of the two SU(3)×SU(2)-singlet
+assignments (e^c ↔ ν^c).
 Choosing the conventional identification:
 
   (Y_Q, Y_u, Y_d, Y_L, Y_e, Y_ν) = (1, t, -2-t, -3, 2-t, 4+t)
@@ -747,12 +750,13 @@ by itself fix physical Yukawa phases or VEVs; the chain does not derive it.
 dictionary which attempted CS = θ as a value. B813 kills I-4.)
 
 For m004 specifically, 2-torsion is forced by amphichirality:
-CS(-M) = -CS(M) mod 1, so 2·CS ≡ 0 and CS ∈ {0, 1/4} (mod 1/2).
+CS ≡ -CS (mod 1/2) in SnapPy's normalization, so 2·CS ≡ 0 (mod 1/2)
+and CS ∈ {0, 1/4} (mod 1/2).
 This is a theorem, not a coincidence. The genuinely sharp content
 is within the amphichiral class: all 6 amphichiral census manifolds
 land exactly at {0, 1/4}, and m004 at 0 separates from its sister
 m003 at 1/4 (B1224). Among 394 non-amphichiral census manifolds,
-only 1 sits at 2-torsion CS — a factor of ~200 suppression (B1224).
+only 1 sits at 2-torsion CS (B1224).
 (Census: OrientableCuspedCensus in SnapPy, first 400 one-cusped
 orientable, amphichirality via symmetry_group(), CS tolerance for
 2-torsion; census script to be supplied separately.)
