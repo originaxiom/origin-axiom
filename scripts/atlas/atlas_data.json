@@ -6000,6 +6000,52 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1254": {
+   "slug": "class dynamics",
+   "motifs": [
+    "arrow",
+    "monoid",
+    "measurement",
+    "closing",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B497",
+    "B6",
+    "S063"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1255": {
+   "slug": "generation type",
+   "motifs": [
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B298",
+    "B307",
+    "B324",
+    "B632",
+    "B854",
+    "B883",
+    "B918",
+    "B923"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 17,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B125": {
    "slug": "snappy arithmeticity",
    "motifs": [

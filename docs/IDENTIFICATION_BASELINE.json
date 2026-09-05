@@ -12,7 +12,7 @@
   "I-7",
   "I-9"
  ],
- "total_rows": 23,
+ "total_rows": 24,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -90,6 +90,14 @@
    "to": 8,
    "rows": "I-15, I-16",
    "reason": "BOTH PAID AND BOTH REFUTED -- the ratchet lowered by EARNING the answer, not by relabelling. I-16: the silver cusp lattice's discriminant form was computed and is (Z/2 + Z/8), level 16, signature 2, 16 anyons, against A_3's (Z/4, q=3/8), level 8, signature 3, 4 anyons; no even rescaling can reach |D|=4 and no rank-2 form can reach signature 3 (Milgram). B675's 'conductor 8' was a name for the shadow level, never a lattice invariant. I-15: the Dynkin index of the principal sl2 in e6 is 156 by three agreeing routes, so the map is exhibited and ACTS -- but 78 = 3+9+11+15+17+23 means the gravity sector is 3 of 78, so '==' fails by counting. The containment that IS earned is registered as I-19 (EARNED)."
+  }
+ ],
+ "_refuted_additions": [
+  {
+   "date": "2026-09-05",
+   "row": "I-24",
+   "arc": "B1255",
+   "reason": "the object's cubic Galois index g <-> the SM generation index. REFUTED, not registered as debt: the index has the RIGHT Galois type (mu13 totally real irreducible S3, no distinguished root) and survives both prior kills, but a flavour index must COMMUTE with the gauge grading and [C18, D2|W18] != 0 with 0 of 6 colored atoms a D2-eigenspace. Closed permanently by a dimension count: 27 = 16+10+1 has the 16 with multiplicity ONE, 3 copies need dim >= 48 > 27. UNEARNED unchanged (9); total_rows 23 -> 24."
   }
  ]
 }
