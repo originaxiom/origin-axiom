@@ -527,3 +527,9 @@ hash-first status.*
 | 2026-08-21 | THE EDGE SEAL (L173; the mirror-isospectral split as the falsifier; differential-first per the binding discipline; C-GEN RUN+PASSED pre-seal [bite-controlled; silver-strict never closes]; placeholder R6 per the owner's D-3, amendable by addendum-beside; the tone crossing is L178, NOT under this seal) | `docs/EDGE_PREREG_SPEC.md` | `6ede5c8d90b8667ca02ac131a2145d9138a6934b568aa661d7d7ad76738eed30` |
 
 | 2026-08-27 | THE EDGE SEAL ADDENDUM-BESIDE (B1171, from cc3's B8146 NEGATIVE: the banked prediction is a COUNT not an energy — R6 re-posed from a resolution threshold to a COMMISSIONED OBSERVABLE, the mode count in a labelled gap; the sealed spec is NOT edited, per its own "placeholder R6 … amendable by addendum-beside" clause; §0/§1/§2/§3 stand unchanged) | `docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md` | `1740812c98dc14771287edcab7483be9273f7819146ca207c9d56a2ba6a893d0` |
+
+## Physical bridge audit extensions
+
+| Date | Design and scope | Path | SHA-256 |
+|---|---|---|---|
+| 2026-09-05 | R4: conditional compact-E6 scalar potential, full vacuum Hessian, compact stabilizer and mixed fermion masses; no empirical target; sealed before execution | `reports/physical_bridge_2026_09_05/EXTENSION_2.md` | `8d63ca2f1cad841b95606633fe01775f49ea967fd59ae6a8467a4c9d15e57691` |
