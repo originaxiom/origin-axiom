@@ -534,3 +534,5 @@ hash-first status.*
 |---|---|---|---|
 | 2026-09-05 | R4: conditional compact-E6 scalar potential, full vacuum Hessian, compact stabilizer and mixed fermion masses; no empirical target; sealed before execution | `reports/physical_bridge_2026_09_05/EXTENSION_2.md` | `8d63ca2f1cad841b95606633fe01775f49ea967fd59ae6a8467a4c9d15e57691` |
 | 2026-09-05 | R4 orientation control: explicit competing minimum of the same potential; post-first-result, sealed before this control | `reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md` | `84d14c74c478994e9d4c6328f251de5c9e3d119d1545eeea96ca3b461f20e31c` |
+| 2026-09-05 | Upstream representation/action audit; sealed 182c27ea before execution, registered after successful run | `reports/physical_bridge_2026_09_05/UPSTREAM_AUDIT_DESIGN.md` | `dbb3caf380560487c7ed02e5009e909db37a3dc42f70fb6761372162202eaf31` |
+| 2026-09-05 | R5 full one-loop orientation potential of the conditional R4 action; no measured input; before execution | `reports/physical_bridge_2026_09_05/EXTENSION_3.md` | `311d316c26b559cd697da7c9e011db0e0c1de9bc3f7dbabbc2770f7ac90f2eaf` |

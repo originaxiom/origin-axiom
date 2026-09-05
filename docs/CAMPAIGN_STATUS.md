@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**UPSTREAM/PHYSICAL BRIDGE (2026-09-05):** a8fd2460 merged locally; 59 focused
+tests passed. Independent action checks preserve the descent and connect
+B1250's D2 grading to R4 by a cubic-preserving Weyl matrix. B1252's metric
+provenance and uniqueness wording are scoped at source. R5 now pre-seals the
+full quantum orientation test, with kinetic and scale controls. Evidence:
+`reports/physical_bridge_2026_09_05/UPSTREAM_AUDIT.md`; no CLAIMS promotion.
+
 **PHYSICAL CONTINUATION R4 (2026-09-05, local audit branch):** an explicit
 bounded classical compact-E6 potential has an SM-algebra-preserving global
 minimum, verified on the actual 27/cubic. Full Hessian: rank 109 on 186 real

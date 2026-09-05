@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-05 — New upstream descent verified and linked to the physical model
+
+Local merge of a8fd2460; **59 focused upstream tests passed**. Independent
+generator-action/anomaly tests preserve the SM witness, and an explicit
+cubic-preserving Weyl matrix connects its D2 grading to R4. The metric was
+already present as B970's Cartan inverse; first-return hypercharge search is
+not a uniqueness proof. Source addendum and full scope:
+`reports/physical_bridge_2026_09_05/UPSTREAM_AUDIT.md`.
+The full one-loop vacuum-selection test is now sealed, not yet executed.
+
 ## 2026-09-05 — Physical bridge R4: an explicit action, vacuum and full spectrum
 
 The local audit continuation now builds a bounded renormalizable classical

@@ -13787,3 +13787,22 @@ two B1242 addenda owed to `B675_hcusp_sweep` and `B715_native_gauge`.
   decomposition computed not cited.
 - **Unchanged:** the count stays an open input; B714's rung-based count untouched.
 - The refutation is pinned in the instrument, the lock and the error ledger.
+
+## 2026-09-05 — Upstream integrated; the physical bridge keeps the positive descent
+
+Merged a8fd2460 as 93292799, retaining both histories and both independently
+supplied B1242 addenda. Pre-sealed verification 182c27ea: **59 focused upstream
+tests passed**, plus independent exact representation/action checks. B1252's
+metric equals B970's existing Cartan inverse; its root norm is imposed, not a
+separate validation. Its published Y has the actual SM generator action and
+anomaly cancellation. The fixed full centralizer admits two normalized
+histogram hits in the tested box; a first-return search proves existence,
+not uniqueness. An explicit cubic-preserving Weyl matrix connects R4's
+grading to B1250's D2. No physical selection or count is thereby derived.
+Evidence and source correction: `reports/physical_bridge_2026_09_05/UPSTREAM_AUDIT.md`
+and B1252's `ADDENDUM_2026-09-05_PHYSICAL_AUDIT.md`.
+
+Next R5 design/code sealed before execution: full real-scalar, vector and
+Weyl-fermion one-loop orientation potential, canonical kinetic normalization,
+scale checks and two-sided controls. It is a conditional quantum model,
+not an empirical prediction. No earlier first run or original producer edited.

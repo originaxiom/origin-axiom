@@ -1,0 +1,285 @@
+{
+  "code_sha256": "5068444c2aaf0e4606107b3b1f48b15f3559cb5f39aef6453b70fb349e7221f8",
+  "head": "182c27eaf58a13bb139de2260adff1f5bc0cc270",
+  "exact": {
+    "metric_equals_prior_Cartan_inverse": true,
+    "metric": [
+      [
+        "4/3",
+        "1",
+        "5/3",
+        "2",
+        "4/3",
+        "2/3"
+      ],
+      [
+        "1",
+        "2",
+        "2",
+        "3",
+        "2",
+        "1"
+      ],
+      [
+        "5/3",
+        "2",
+        "10/3",
+        "4",
+        "8/3",
+        "4/3"
+      ],
+      [
+        "2",
+        "3",
+        "4",
+        "6",
+        "4",
+        "2"
+      ],
+      [
+        "4/3",
+        "2",
+        "8/3",
+        "4",
+        "10/3",
+        "5/3"
+      ],
+      [
+        "2/3",
+        "1",
+        "4/3",
+        "2",
+        "5/3",
+        "4/3"
+      ]
+    ],
+    "root_length_counts": {
+      "2": 72
+    },
+    "weight_length_counts": {
+      "4/3": 27
+    },
+    "d5_simple_roots": [
+      [
+        "-1",
+        "-1",
+        "1",
+        "0",
+        "1",
+        "-1"
+      ],
+      [
+        "0",
+        "-1",
+        "-1",
+        "2",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1",
+        "1",
+        "1"
+      ],
+      [
+        "0",
+        "2",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0"
+      ]
+    ],
+    "d5_Cartan": [
+      [
+        "2",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "2",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      [
+        "0",
+        "-1",
+        "2",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "-1",
+        "0",
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0",
+        "2"
+      ]
+    ],
+    "derived_multiplets": [
+      {
+        "indices": [
+          3
+        ],
+        "color_dimension": 1,
+        "weak_dimension": 1,
+        "Y": "1"
+      },
+      {
+        "indices": [
+          8
+        ],
+        "color_dimension": 1,
+        "weak_dimension": 1,
+        "Y": "0"
+      },
+      {
+        "indices": [
+          11,
+          26
+        ],
+        "color_dimension": 1,
+        "weak_dimension": 2,
+        "Y": "-1/2"
+      },
+      {
+        "indices": [
+          10,
+          12,
+          14
+        ],
+        "color_dimension": 3,
+        "weak_dimension": 1,
+        "Y": "1/3"
+      },
+      {
+        "indices": [
+          16,
+          21,
+          23
+        ],
+        "color_dimension": 3,
+        "weak_dimension": 1,
+        "Y": "-2/3"
+      },
+      {
+        "indices": [
+          0,
+          2,
+          5,
+          18,
+          20,
+          24
+        ],
+        "color_dimension": 3,
+        "weak_dimension": 2,
+        "Y": "1/6"
+      }
+    ],
+    "trace_anomalies": {
+      "Y": "0",
+      "Y3": "0",
+      "color2Y": "0",
+      "weak2Y": "0",
+      "color3": "0",
+      "generic_color3": "0"
+    },
+    "nonvacuous_color_cubic_block_traces": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-18",
+      "18",
+      "18",
+      "-18"
+    ],
+    "weak_doublets": 4,
+    "normalized_witness_functional": [
+      "-1/2",
+      "-5/6",
+      "-1",
+      "-5/6",
+      "-2/3",
+      "-1/6"
+    ],
+    "fixed_subsystem_box": [
+      -6,
+      6
+    ],
+    "distinct_normalized_histogram_hits": 2,
+    "hit_functionals": [
+      [
+        "-1/2",
+        "-5/6",
+        "-1",
+        "-5/6",
+        "-2/3",
+        "-1/6"
+      ],
+      [
+        "-1/2",
+        "1/6",
+        "0",
+        "1/6",
+        "1/3",
+        "-1/6"
+      ]
+    ],
+    "Weyl_path_simple_indices_zero_based": [
+      0,
+      2,
+      3,
+      1,
+      4,
+      3,
+      2,
+      5
+    ],
+    "Weyl_transports_R4_grading_to_D2_and_preserves_cubic": true
+  },
+  "upstream_tests": {
+    "command": [
+      "/Users/dri/.pyenv/versions/3.12.1/bin/python3.12",
+      "-m",
+      "pytest",
+      "tests/test_b1242_l199_two_earning_computations.py",
+      "tests/test_b1247_coverage_candidates.py",
+      "tests/test_b1248_norm_classification.py",
+      "tests/test_b1249_door_and_class.py",
+      "tests/test_b1250_d2_decode.py",
+      "tests/test_b1251_five_gates.py",
+      "tests/test_b1252_metric_and_descent.py",
+      "tests/test_b1253_generation_count.py",
+      "-q",
+      "-p",
+      "no:randomly"
+    ],
+    "returncode": 0,
+    "stdout": "...........................................................              [100%]\n59 passed in 253.64s (0:04:13)\n",
+    "stderr": ""
+  },
+  "elapsed_seconds": 256.07556761900196
+}

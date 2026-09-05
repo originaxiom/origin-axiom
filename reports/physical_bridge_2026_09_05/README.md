@@ -1,7 +1,9 @@
 # Physical bridge audit — 2026-09-05
 
 Base repository: **`f06d34054899e8c23672b836a7c534af77cbd35d`**.
-Work is local on `audit/physical-bridge-2026-09-05`; no upstream merge or push.
+Work is local on `audit/physical-bridge-2026-09-05`; no push. Upstream a8fd2460
+was subsequently merged and [checked separately](UPSTREAM_AUDIT.md): its
+59 focused tests passed. Original baseline totals remain pinned to f06d3405.
 
 **Outcome:** a verified defect in the original crossing instrument, a corrected
 boundary-value solver, and an executable conditional gauge-and-mass calculation
