@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1164** |
-| words of findings prose | **813,487** |
+| research arcs with findings | **1165** |
+| words of findings prose | **814,505** |
 | test lock files referenced | **689** |
-| arcs carrying an authored verdict | **1164** (100.0 %) |
+| arcs carrying an authored verdict | **1165** (100.0 %) |
 | recorded closures | **780** (613 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 758 |
+| PROVED | 759 |
 | NEGATIVE | 308 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1255`** (1048 words, 0 locks)  
-THE GENERATION INDEX HAS THE RIGHT GALOIS TYPE AND THE WRONG COMMUTATOR. The pattern behind twelve lost three-nesses is named: every one was built on Q(sqrt-3), where 3 RAMIFIES -- ramification yields conjugates or gradings, never copies, and a quadratic field has at most TWO primes above any p, so three-fold splitting is impossible there in principle (independently reproducing B298's degree-2 obstruction, and re-reading B1253's '1 abelian + 2 chiral' price as that same 1+2 in representation-theoretic costume). The pattern PREDICTS what a genuine three needs -- an irreducible cubic with no distinguished root -- and the record contains exactly that, TWICE in the sqrt77 family: mu13 and HIER are both totally real, irreducible, GALOIS GROUP S3, disc squarefree kernel {7,11}, roots reproducing the banked v_g^2 to 1e-38. That three-ness SURVIVES BOTH KILLS that ended the others (B324's 'conjugates share one character' does not bite -- generations are REQUIRED to share one character and differ in VALUE; B1253's Weyl-orbit kill does not bite -- Galois conjugacy over Q is not a gauge symmetry). It is killed here by a THIRD test the record had never run: a flavour index must COMMUTE with the gauge grading, and [C18, D2|W18] != 0 with 0 of 6 colored atoms a D2-eigenspace -- behind which sits a dimension count that closes the route permanently, 27 = 16+10+1 carries the 16 with MULTIPLICITY ONE so three copies need dim >= 48 > 27. I-24 REFUTED. WHAT SURVIVES IS THE MECHANISM: B923's two gauges give (x+3)^3 GENERATION-DEGENERATE canonically and HIER's three distinct roots when twisted by D2 -- so had the two operators commuted they would be simultaneously diagonalisable and the splitting would be GAUGE-BLIND, degenerate copies with NO hierarchy. The same non-commutation that denies g the flavour role is what lifts the degeneracy. The count must therefore come from MULTIPLICITY, not from within the 27: B1253's h^1 = 3 is now the ONLY surviving route and its price is unchanged -- make the trivial Sym^0 summand chiral, or exhibit a bundle whose three classes are all chiral.  
-`B1255_generation_type/FINDINGS.md`
+**PROVED — `B1256`** (1018 words, 0 locks)  
+WHICH sl2? THE PRINCIPAL EMBEDDING WAS NEVER DERIVED. B1253 priced the generation count as a TYPING failure (h^1 = 3 matches but types as 2 chiral + 1 ABELIAN), and B1255 closed the other route permanently -- so 'a bundle whose three classes are all chiral' is all that remains. The abelian summand is the trivial Sym^0 in 27 = Sym^16 + Sym^8 + Sym^0, and THAT DECOMPOSITION IS TAKEN WITH RESPECT TO THE PRINCIPAL sl2 -- a choice nobody derived or varied. Enumerating all 729 weighted Dynkin labellings (COMPLETE over sl2 subalgebras by Jacobson-Morozov + Dynkin + integrality on the 27; 30 integral rows superset E6's 21 nilpotent orbits, so absence is NON-EXISTENCE not failure to identify): FOUR labellings type h^1 = 3 as three chiral, and EXACTLY ONE of them -- the SUBREGULAR E6(a1), (2,2,2,0,2,2), 27 = 13+9+5, dim O 70 -- carries NO even-dimensional summand and therefore needs NO assumption about what Sym^odd contributes to h^1, which the banked form of Menal-Ferrer-Porti does not settle. THAT, not a bare count, is what distinguishes it. THIS ARC'S OWN FIRST CRITERION IS CONVICTED BY ITS OWN CONTROL: 'exactly three summands total' reports 1 where the correct criterion reports 4, because even-dimensional summands ride along freely; the selftest runs both and asserts the discrepancy. Separately 9+9+9 does NOT exist in E6, but three IDENTICAL nontrivial odd summands DO -- (0,2,0,2,0,0) gives 7+7+7 with six trivial riders, h^1 = 3+6 = 9 not 3 (an earlier draft asserted otherwise; false). Machinery validated twice independently: principal returns orbit dim 72 and sl2 index 156, the latter reproducing B1242's banked Dynkin index. DOES NOT derive three generations: it converts B1253's open wish into a single decidable question with a short explicit candidate list. Registers I-25 UNEARNED.  
+`B1256_sl2_embedding/FINDINGS.md`
 
 **NEGATIVE — `B1244`** (778 words, 0 locks)  
 THE GATE 5 AUDIT: ITS OWN THESIS IS REFUTED BY ITS OWN RUN. Pre-registered COLD (seal d0f05d44, amended A1 to 53d04ea6 before any item was evaluated) because the occasion was a downstream seat's exciting measured-data result -- exactly when a filter gets loosened for a reason nobody notices. Enumeration mechanical (Gate-5 token within +-3 lines of a fence token): 773 raw -> 255 live after a recorded merge (dated history is not a live fence; generated views duplicate their arcs; speculations are firewalled by design). 46 items examined with the SOURCE OPENED (amendment A1, the owner's rule: never be called on data you did not verify first). RESULT: ZERO MISLABELED, ZERO over-fences. E-1 (>=3 MISLABELED) FAILED. E-2 (C43 mislabeled) FALSIFIED -- B915 scopes its kill to the identification 'object boundary + pure SM desert', and C43 repeats that scope faithfully; I predicted otherwise from the chain's PHRASING without opening B915, the very shortcut A1 forbids, committed by A1's author inside the audit A1 governs. Gate 5 is not over-fencing: L15's firewall holds because the complex volume is DIMENSIONLESS (computed), and the h(27) lead is fenced because B580 proves the channel INFORMATION-FREE (identical for 4_1, 5_2 and the unknot). THE ACTUAL DISEASE IS COVERAGE, NOT RELEASE: the seam family B286-B295 -- ten arcs answering what closing supplies and whether it is selective -- had ONE citation between them in the chain (B288, inside C8, the NEGATIVE half). C46 admits it.  

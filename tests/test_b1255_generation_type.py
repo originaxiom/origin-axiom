@@ -38,11 +38,21 @@ def test_the_dimension_count_that_closes_the_single_27_route():
     assert 16 + 10 + 1 == 27 and 3 * 16 > 27
 
 
-def test_I24_is_registered_REFUTED_and_the_ratchet_did_not_move():
+def _ledger_rows():
+    led = (ROOT / "docs" / "IDENTIFICATION_LEDGER.md").read_text(encoding="utf-8")
+    return [l for l in led.splitlines() if re.match(r"\|\s*I-\d+\s*\|", l)]
+
+
+def test_I24_is_registered_REFUTED_and_did_not_enter_the_unearned_set():
     led = (ROOT / "docs" / "IDENTIFICATION_LEDGER.md").read_text(encoding="utf-8")
     row = next(l for l in led.splitlines() if l.startswith("| I-24 |"))
     assert "**REFUTED**" in row, row[:200]
     assert "B1255" in row
     b = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8"))
-    assert b["unearned"] == 9, "a REFUTED row must not raise the unearned count"
-    assert b["total_rows"] == 24
+    # THE INVARIANT, not a snapshot: a REFUTED row must never appear as a ratchet RAISE
+    # and must never sit in the UNEARNED set. Pinning the literal count here would go red
+    # on any unrelated later raise (it did, at B1256's I-25) and teach the wrong lesson.
+    assert "I-24" not in b["rows"], "I-24 is REFUTED; it must not be in the unearned set"
+    for r in b["_baseline_raises"]:
+        assert r.get("row") != "I-24", "a REFUTED row must not be recorded as a raise"
+    assert b["total_rows"] == len(_ledger_rows())

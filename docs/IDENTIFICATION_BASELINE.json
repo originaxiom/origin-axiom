@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 9,
+ "unearned": 10,
  "rows": [
   "I-10",
   "I-11",
@@ -8,11 +8,12 @@
   "I-14",
   "I-18",
   "I-23",
+  "I-25",
   "I-6",
   "I-7",
   "I-9"
  ],
- "total_rows": 24,
+ "total_rows": 25,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -49,6 +50,14 @@
    "to": 9,
    "row": "I-23",
    "reason": "A PRE-EXISTING DEBT NAMED, NOT A NEW IDENTIFICATION CREATED. B919 (2026-08-05) derives sin^2(theta_W) = 3/8 with T3 normalised convention-free by its sl2 ad-eigenvalues -- correct -- but with Y 'anchored by the electromagnetic identification' (Q = T3 + Y), which is an I-13 instance that has been performed and never registered. An external reviewer flagged that B919 carries NO genericity fence; verified here, the ratio Tr(T3^2)/Tr(Y^2) = 3/5 for the 5, 5bar, 10, 16 and 27 alike, so the VALUE discriminates nothing and the arc's weight rests entirely on the unregistered anchoring. The ratchet is raised rather than evaded because refusing to register a debt in order to keep a count low is the exact failure the ratchet exists to prevent -- B1231's own reasoning, applied against this seat."
+  },
+  {
+   "date": "2026-09-05",
+   "from": 9,
+   "to": 10,
+   "row": "I-25",
+   "arc": "B1256",
+   "reason": "the object's SL(2) holonomy embeds in E6 via the PRINCIPAL sl2 -- declared, never derived. B1112 pins the canonical holonomy as PSL(2,C) with an SL(2,C) spin lift, but the EMBEDDING into E6 was assumed principal as the natural choice for an irreducible SL(2), and never varied. Every h^1 typing in the corpus rests on it, including B1253's generation-count price. A PRE-EXISTING debt newly named, not newly created: naming it makes the input ledger's count honest rather than lower-bounded by an invisible assumption. The stake is exact -- principal types h^1 = 3 as 2 chiral + 1 abelian, while the subregular E6(a1) types it as three chiral."
   }
  ],
  "_earned_additions": [

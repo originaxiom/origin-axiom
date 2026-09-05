@@ -1,0 +1,26 @@
+{
+ "id": "B1256",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1253",
+  "B1255",
+  "B1112",
+  "B1242",
+  "B883",
+  "B1250",
+  "B1252"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-25",
+   "status": "UNEARNED",
+   "note": "the object's SL(2) holonomy embeds in E6 via the PRINCIPAL sl2. Declared, never derived: B1112 pins the canonical holonomy as PSL(2,C) with an SL(2,C) spin lift, but the EMBEDDING into E6 was assumed principal as the natural choice for an irreducible SL(2). Every h^1 typing in the corpus rests on it. Documented raise 9 -> 10."
+  }
+ ],
+ "claim_one_line": "WHICH sl2? THE PRINCIPAL EMBEDDING WAS NEVER DERIVED. B1253 priced the generation count as a TYPING failure (h^1 = 3 matches but types as 2 chiral + 1 ABELIAN), and B1255 closed the other route permanently -- so 'a bundle whose three classes are all chiral' is all that remains. The abelian summand is the trivial Sym^0 in 27 = Sym^16 + Sym^8 + Sym^0, and THAT DECOMPOSITION IS TAKEN WITH RESPECT TO THE PRINCIPAL sl2 -- a choice nobody derived or varied. Enumerating all 729 weighted Dynkin labellings (COMPLETE over sl2 subalgebras by Jacobson-Morozov + Dynkin + integrality on the 27; 30 integral rows superset E6's 21 nilpotent orbits, so absence is NON-EXISTENCE not failure to identify): FOUR labellings type h^1 = 3 as three chiral, and EXACTLY ONE of them -- the SUBREGULAR E6(a1), (2,2,2,0,2,2), 27 = 13+9+5, dim O 70 -- carries NO even-dimensional summand and therefore needs NO assumption about what Sym^odd contributes to h^1, which the banked form of Menal-Ferrer-Porti does not settle. THAT, not a bare count, is what distinguishes it. THIS ARC'S OWN FIRST CRITERION IS CONVICTED BY ITS OWN CONTROL: 'exactly three summands total' reports 1 where the correct criterion reports 4, because even-dimensional summands ride along freely; the selftest runs both and asserts the discrepancy. Separately 9+9+9 does NOT exist in E6, but three IDENTICAL nontrivial odd summands DO -- (0,2,0,2,0,0) gives 7+7+7 with six trivial riders, h^1 = 3+6 = 9 not 3 (an earlier draft asserted otherwise; false). Machinery validated twice independently: principal returns orbit dim 72 and sl2 index 156, the latter reproducing B1242's banked Dynkin index. DOES NOT derive three generations: it converts B1253's open wish into a single decidable question with a short explicit candidate list. Registers I-25 UNEARNED."
+}

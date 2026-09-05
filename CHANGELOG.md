@@ -1,5 +1,24 @@
 # Changelog
 
+## WHICH sl₂? THE PRINCIPAL EMBEDDING WAS NEVER DERIVED
+
+**B1256.** Owner, on the previous draft: *"does not exist or u cant identify?"* — and the question
+broke two of my statements. B1253's "1 abelian" is the trivial **Sym⁰** in `27 = Sym¹⁶ ⊕ Sym⁸ ⊕ Sym⁰`,
+a decomposition taken with respect to the **principal sl₂ — a choice nobody derived or varied**,
+while h¹'s typing depends entirely on it. Enumerating all 729 weighted Dynkin labellings — **complete
+over sl₂ subalgebras** (Jacobson–Morozov + Dynkin + integrality; 30 integral rows ⊃ E₆'s 21 nilpotent
+orbits, so **absence is NON-EXISTENCE, not failure to identify**) — **FOUR** labellings type h¹ = 3 as
+three chiral, and **exactly one, the SUBREGULAR E₆(a₁)** (2,2,2,0,2,2), 27 = 13+9+5, dim O 70,
+**carries no even-dimensional summand** and so needs **no assumption** about what Sym^odd contributes
+to h¹ — which the banked form of Menal-Ferrer–Porti does not settle. **TWO CORRECTIONS TO THIS ARC'S
+OWN DRAFT, now asserted in its selftest:** "unique in 729" was **wrong** (the cruder criterion reports
+1 where the correct one reports 4 — even-dimensional summands ride along freely), and "three identical
+nontrivial summands don't exist" was **wrong** — `(0,2,0,2,0,0)` gives **7+7+7** with six trivial
+riders, h¹ = 9 not 3. **9+9+9 genuinely does not exist.** Machinery validated twice independently:
+principal returns orbit dim **72** and sl₂ index **156**, reproducing **B1242's banked Dynkin index**.
+Does **not** derive three generations — it converts B1253's open wish into a single decidable question
+with a short explicit candidate list. **Registers I-25 UNEARNED** (documented raise 9 → 10).
+
 ## THE GENERATION INDEX HAS THE RIGHT GALOIS TYPE AND THE WRONG COMMUTATOR
 
 **B1255.** Owner: *"analyze the pattern that led us to belive we derived three gen? maybe the

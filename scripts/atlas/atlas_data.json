@@ -6046,6 +6046,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1256": {
+   "slug": "sl2 embedding",
+   "motifs": [
+    "dickson_tower",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B883"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B125": {
    "slug": "snappy arithmeticity",
    "motifs": [

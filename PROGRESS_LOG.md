@@ -13742,3 +13742,32 @@ gives real results."* The instruction is the method: read the failures as a **fa
 - **THE COUNT MUST COME FROM MULTIPLICITY.** B1253's **h¹ = 3** is now the **only** surviving route,
   price unchanged: make the trivial (Sym⁰) summand chiral, or exhibit a bundle whose three classes
   are all chiral. Controls both ways: a cyclic cubic types **C3**; **[D₂, Cartan₀] = 0** exhibited.
+
+### B1256 — which sl₂? the principal embedding was never derived (2026-09-05)
+
+Owner, on the previous draft's uniqueness claim: *"does not exist or u cant identify?"* The question
+was right and it broke two of my statements.
+
+- **THE OBSERVATION.** B1253's "1 abelian" is the trivial **Sym⁰** in `27 = Sym¹⁶ ⊕ Sym⁸ ⊕ Sym⁰`, and
+  that decomposition is taken with respect to the **principal** sl₂ — **a choice never derived**.
+  B1112 pins the holonomy as PSL(2,ℂ) with a spin lift, but the **embedding into E₆** was assumed
+  principal and never varied. By Menal-Ferrer–Porti, h¹ counts nontrivial **odd**-dimensional
+  summands — so **the typing of h¹ depends entirely on the embedding**.
+- **COMPLETENESS, which is what makes absence meaningful.** All 729 weighted Dynkin labellings; 30
+  integral on the 27. Complete over sl₂ subalgebras: **Jacobson–Morozov** (every sl₂ ↔ a nilpotent
+  orbit) + **Dynkin** (h dominant with α_i(h) ∈ {0,1,2}) + integrality; E₆ has 21 nilpotent orbits, so
+  the 30 rows are a **superset**. **Absence here is NON-EXISTENCE, not failure to identify.**
+- **THE RESULT.** **FOUR** labellings type h¹ = 3 as three chiral. **Exactly one — the subregular
+  E₆(a₁), (2,2,2,0,2,2), 27 = 13+9+5, dim O 70 — carries no even-dimensional summand**, and so is the
+  only candidate needing **no assumption** about what Sym^odd contributes to h¹ (the banked form of
+  MFP does not settle it). That, not a bare count, is what distinguishes it.
+- **TWO CORRECTIONS TO MY OWN DRAFT, both now asserted in the selftest.** (1) "Unique in 729" was
+  **wrong**: the criterion "exactly three summands total" reports 1 where the correct criterion
+  reports 4 — **even-dimensional summands contribute nothing to h¹ and ride along freely**. (2)
+  "Three identical nontrivial summands don't exist" was **wrong**: `(0,2,0,2,0,0)` gives **7+7+7**,
+  with six trivial riders, so h¹ = 3+6 = 9, not 3. **9+9+9 genuinely does not exist.**
+- **MACHINERY VALIDATED TWICE, INDEPENDENTLY:** principal returns orbit dim **72** (the known regular
+  orbit) and sl₂ index **156**, reproducing **B1242's banked Dynkin index**.
+- **REGISTERS I-25 UNEARNED**, a documented raise 9 → 10 — a pre-existing debt newly **named**, not
+  newly created. **OPEN AND NAMED:** what H¹(M; Sym^odd) contributes under the spin-lifted holonomy;
+  settling it promotes the three conditional candidates or kills them.
