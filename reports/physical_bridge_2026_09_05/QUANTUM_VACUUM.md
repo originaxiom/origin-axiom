@@ -157,3 +157,9 @@ The runners refuse to overwrite outputs. Test and staged-gate evidence is
 recorded separately in `QUANTUM_FINAL_CHECKS.txt`; this is not a full-repository
 green certificate. Historical missing-evidence and seal-format failures
 remain visible in [FAILURES.md](FAILURES.md).
+
+Final combined physical-audit regression: **48 passed in 26.90 seconds**.
+Separate upstream suite: **59 passed**. Governance remains **28 passed,
+2 failed** for the previously preserved inventory attribution and R4 seal
+headings. All 39 scientific/input/design hashes matched before the final
+check transcript was added. Nothing has been pushed.

@@ -5,6 +5,14 @@ The remote was fetched again after the full suite; main remained at this SHA.
 This report distinguishes reading, reproduction of original code, independent
 implementation, and physical interpretation. None is a substitute for another.
 
+**Continuation update:** upstream a8fd2460 was later merged and independently
+checked ([59 focused tests and action audit](UPSTREAM_AUDIT.md)). R5's
+[complete one-loop calculation](QUANTUM_VACUUM.md) now gives **positive**
+leading masses to R4's eleven extra angular modes, confirmed by analytic
+derivatives and exact scale identities. The combined physical audit has
+48 passing tests. Historical baseline and tree-level statements below retain
+their scope; neither is a current quantum failure or a full-TOE verdict.
+
 ## Executive finding
 
 The program is not merely a collection of unexplained numerical coincidences.

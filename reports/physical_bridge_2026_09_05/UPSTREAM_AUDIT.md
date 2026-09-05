@@ -81,3 +81,8 @@ upstream construction and all earlier results. Existing radiative-potential
 hits were read in B962, the B796 mechanism catalog on a fetched branch, and
 the separate heterotic/Kähler-scale question map. They do not justify a
 repository-wide absence claim. The next cell tests **this explicit action**.
+
+That continuation has now run: [R5](QUANTUM_VACUUM.md) gives independently
+verified positive leading angular masses. The upstream action instrument is
+also locked by `tests/test_physical_bridge_upstream.py` (post-result regression
+tests, hashed and committed before their first execution).

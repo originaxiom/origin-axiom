@@ -13836,3 +13836,9 @@ Read `QUANTUM_VACUUM.md` before recycling R4's classical zeros as a negative.
 Next: full shifted vacuum/global question, light Higgs and actual threshold
 matching; object-to-action/parameter selection and 4d gravity are not paid
 by this conditional local quantum result. No CLAIMS promotion or push.
+
+R5 final quiescent verification at 427ff18a: **48 combined physical-audit
+tests passed in 26.90 s**; governance **28 passed, 2 failed** on the same
+preserved attribution/R4-seal defects. All 39 then-listed hashes matched.
+Full output: `reports/physical_bridge_2026_09_05/QUANTUM_FINAL_CHECKS.txt`.
+No full-suite green against new main or publication readiness is claimed.

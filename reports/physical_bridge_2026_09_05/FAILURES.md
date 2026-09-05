@@ -98,3 +98,20 @@ publication readiness is claimed, and nothing has been pushed.
 
 Final test/gate output: `VACUUM_FINAL_CHECKS.txt`. All 27 currently listed
 input/design/code/output hashes matched before these reporting notes.
+
+## R5: successful first runs; earlier governance defects remain visible
+
+Both R5 scientific first runs succeeded: full one-loop spectrum/orientation
+calculation and the independent analytic-derivative/exact-polynomial check.
+The final combined physical-audit tests at 427ff18a returned **48 passed in
+26.90 s**. Separate unchanged upstream tests returned **59 passed**. None of
+these is the full merged repository suite.
+
+Governance again returned **28 passed, 2 failed**, for the same original
+inventory attribution and R4 seal-heading issues. R5's two designs contain
+the required literal fields; the sealed R4 originals were not rewritten and
+no gate was weakened. All 39 input/design/code/result hashes matched before
+adding the final check transcript. Raw evidence: `QUANTUM_FINAL_CHECKS.txt`.
+The raw upstream command record retains a local interpreter path: make a
+labelled portable derivative before public distribution, not a silent edit
+of the original result. This remains a local, unpushed research branch.
