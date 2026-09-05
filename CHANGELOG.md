@@ -1,5 +1,80 @@
 # Changelog
 
+## THE RIGID GEOMETRY IS REAL — AND IT IS NOT A GENERATION COUNT (this arc's own headline, refuted)
+
+**B1253.** The owner asked for the session reflected into the repo *"so we dont get anymore
+misleading info"*. **Doing that swept up this arc's own headline from twenty minutes earlier.**
+
+**THE DRAFT CLAIM, AND ITS DEATH.** A first draft read: *"the generation count is forced at three."*
+`docs/OPEN_PROBLEMS.md` §C — *"Multiplicity → the generation count"* — was **CLOSED on 2026-08-30**
+because **B324** showed the candidate three there were **g-conjugates sharing one character**, hence
+tautological. **The identical objection kills this one: all 15 sixteen-blocks lie in a SINGLE Weyl
+orbit (size 27), so the three 16s in every triple are W(E₆)-conjugates.** "Three" counts
+**conjugates, not species**. A patch to `docs/THE_SM_VERDICT.md` had already been written on the dead
+basis and was **REVERTED** before the suite ran. Recorded as **E63**.
+
+**WHY THE CONTROL DIDN'T CATCH IT.** The control compared against *random* subsets, which measures
+**rigidity**. The question was **inequivalence**. A control can be strong (4%, 0-of-300) and aimed at
+the wrong property.
+
+**WHAT IS REAL — the W6 layer B891 named on 2026-08-04 and nobody ran** (unrun for thirteen months
+of arcs; the B1247 retrieval failure recurring). On B1250's construction: 15 distinct 16-blocks;
+pairwise `|A∩B|` takes exactly **two** values (8×45, 10×60); exactly **11** of 455 triples have empty
+intersection, every one `(8,8,8)` with union **24** of 27; max mutually-independent family **3**. The
+**rigidity** is genuinely non-generic — it just isn't a species count.
+
+**ALSO VERIFIED, as a check on B1252's derived hypercharge:** all six anomalies cancel (with a
+discriminating control); hypercharge conserved on **45/45** cubic terms; the **10 emerges as two
+Higgs doublets + colour triplets**, not assumed; the **full SM Yukawa sector** present. And
+`27 = Sym¹⁶+Sym⁸+Sym⁰` **computed, not cited**.
+
+**UNCHANGED:** the generation **count** stays on the **open-inputs** side where `THE_SM_VERDICT.md`
+and B1033 put it. **B714's rung-based "count 3, object-forced" is untouched** — it does not rest on
+these blocks. B891's *"mechanism-hood: not decided"* stands.
+
+**THE DOCS I SET OUT TO CORRECT WERE ALREADY RIGHT.** `THE_FRAMEWORK` already carries B1100's
+falsification and the identification fence; LAW_MAP already has B714's count. **The record was
+current; this seat was the stale part.** The refutation now lives in the instrument (printed every
+run), the lock (reds if the blocks stop being one orbit), and the error ledger.
+
+## THE GENERATION COUNT IS FORCED AT THREE — the layer B891 named in August and nobody ran
+
+**B1253.** Owner, after four pushes: *"FULL DERIVED SM biri, its all about that."* Right, and the
+decisive computation was cheap once aimed.
+
+**THE COUNT.** B891 registered *"the next W6 layer is structural: the pairwise geometry of the three
+16s"* on **2026-08-04** and it went **unrun for thirteen months of arcs** — the retrieval failure
+B1247 diagnosed, recurring. Computed here on B1250's construction: each mod-2 weight-character whose
+stabiliser is `so(10)` cuts a **16-block** out of the 27; there are **15**, all **distinct**, and
+their geometry is **rigid**:
+
+- pairwise `|A∩B|` takes exactly **TWO** values — **8** (45 pairs), **10** (60 pairs)
+- exactly **11** of 455 triples have **empty** triple intersection, and **every one** has
+  `|A∩B| = |A∩C| = |B∩C| = 8` with `|A∪B∪C| = 24` of 27 — residue exactly **3**
+- **MAXIMUM mutually-independent family = 3. THERE IS NO FOURTH.**
+
+**TWO-SIDED CONTROL, run BEFORE the claim** — 300 random collections of 15 random 16-subsets of a
+27-set: max family size **2 in 288 cases, 3 in only 12** (~**4%**), and distinct pairwise-overlap
+values **5–9, never 2** (**0 of 300**). **Neither the count nor the rigidity is generic.**
+
+**AND EACH 16 IS A COMPLETE SM GENERATION**, on the hypercharge derived at B1252: **all six
+anomalies cancel** (control: shifting Y(e^c) by 1/6 breaks Y³ and Y·grav²); **hypercharge conserved
+on ALL 45 cubic terms**; Y on the 16 exactly the SM set, on the **10** exactly **two Higgs doublets
+plus the colour-triplet pair** (not assumed), traceless overall; and the **full SM Yukawa sector** —
+up, down, charged-lepton and Dirac-neutrino operators, plus the 24 expected GUT proton-decay terms.
+
+**SCOPE, HELD.** Index-level on the 27's weight blocks. The anomaly cancellation *had* to pass (a 16
+of SO(10) is anomaly-free by construction) and the Yukawa structure is the standard SO(10)/E₆ one —
+both are **consistency verifications, not discoveries**, though strong ones, since Y came from the
+object's lattice and could have broken gauge invariance on any of 45 terms. **NOT claimed:** that
+these three 16s **are** the three physical generations — **I-13, unpriced; B891's "mechanism-hood:
+not decided" stands.**
+
+**CORRECTED AT SOURCE.** `docs/THE_SM_VERDICT.md` and **B1033** place the generation **COUNT** on the
+**open-inputs** side. It now has a **forcing argument with a two-sided control**, and both are
+amended beside this arc — B1033's re-scope of the *anatomy* (su(3)′ is chiral, not family) stands
+untouched; only the **count** moves.
+
 ## THE DESCENT RUNS: one SM generation with correct hypercharges — and the instrument that was missing
 
 **B1252 + B1251.** Owner: *"derive the full SM right now"*, then *"every butt has a hole"*. Both acted on.

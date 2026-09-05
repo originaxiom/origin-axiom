@@ -13669,3 +13669,31 @@ two B1242 addenda owed to `B675_hcusp_sweep` and `B715_native_gauge`.
 - Ratchet lock **strengthened**, not weakened: `test_the_ratchet_was_lowered_by_EARNING...` now
   replays the entire documented raise/lowering trail instead of pinning `== 8`; verified to catch
   four undocumented-change attacks the old literal pin would have passed.
+
+### B1253 — the generation count is forced at three (2026-09-05)
+
+- **15 distinct 16-blocks**; pairwise overlaps take exactly **two** values (8, 10); **11** empty
+  triples, all `(8,8,8)` with union **24**; **max mutually-independent family = 3, no fourth**.
+- **Control run before the claim**: random collections reach 3 only ~4% of the time and show the
+  two-valued rigidity **0/300**. The control lives inside the lock, not the prose.
+- **Each 16 is a complete SM generation**: exact hypercharges, all six anomalies cancelling,
+  hypercharge conserved 45/45, full Yukawa sector, the 10 emerging as two Higgs doublets.
+- **THE_SM_VERDICT.md and B1033 corrected at source** — the count leaves the open-inputs side.
+- **NOT claimed**: the identification to physical generations (I-13, unpriced).
+- B891 named this layer 2026-08-04 and it went unrun for thirteen months of arcs.
+
+### B1253 — the rigid geometry, and the headline it does NOT support (2026-09-05)
+
+- **REFUTED, self-caught:** "the generation count is forced at three". All 15 16-blocks lie in
+  **one Weyl orbit**, so the three are **conjugates sharing one character** — B324's objection,
+  which closed `OPEN_PROBLEMS` §C on **2026-08-30**, five days before I re-derived the mistake.
+  A patch to `THE_SM_VERDICT.md` on the dead basis was **reverted**. Class **E63**.
+- **Why the control missed it:** it tested *rigidity* (vs random) when the question was
+  *inequivalence*.
+- **Real:** the W6 layer B891 named 2026-08-04 and nobody ran — 15 distinct blocks, pairwise
+  overlaps taking exactly two values, 11 empty triples all (8,8,8) with union 24, max family 3,
+  non-generic against 300 random collections.
+- **Real:** anomalies/Yukawa/hypercharge verification of B1252's derived Y; principal
+  decomposition computed not cited.
+- **Unchanged:** the count stays an open input; B714's rung-based count untouched.
+- The refutation is pinned in the instrument, the lock and the error ledger.

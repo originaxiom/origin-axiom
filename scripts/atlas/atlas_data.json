@@ -5982,6 +5982,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1253": {
+   "slug": "generation count",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B324",
+    "B632",
+    "B714",
+    "B891"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B125": {
    "slug": "snappy arithmeticity",
    "motifs": [
