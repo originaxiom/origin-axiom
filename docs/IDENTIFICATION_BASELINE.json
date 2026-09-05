@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 10,
+ "unearned": 11,
  "rows": [
   "I-10",
   "I-11",
@@ -9,11 +9,12 @@
   "I-18",
   "I-23",
   "I-25",
+  "I-26",
   "I-6",
   "I-7",
   "I-9"
  ],
- "total_rows": 25,
+ "total_rows": 26,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -58,6 +59,14 @@
    "row": "I-25",
    "arc": "B1256",
    "reason": "the object's SL(2) holonomy embeds in E6 via the PRINCIPAL sl2 -- declared, never derived. B1112 pins the canonical holonomy as PSL(2,C) with an SL(2,C) spin lift, but the EMBEDDING into E6 was assumed principal as the natural choice for an irreducible SL(2), and never varied. Every h^1 typing in the corpus rests on it, including B1253's generation-count price. A PRE-EXISTING debt newly named, not newly created: naming it makes the input ledger's count honest rather than lower-bounded by an invisible assumption. The stake is exact -- principal types h^1 = 3 as 2 chiral + 1 abelian, while the subregular E6(a1) types it as three chiral."
+  },
+  {
+   "date": "2026-09-06",
+   "from": 10,
+   "to": 11,
+   "row": "I-26",
+   "arc": "B1259",
+   "reason": "a twisted-cohomology dimension of the object <-> the number of 4d chiral generations. The identification the entire generation-count line has rested on, and it was NEVER REGISTERED -- found while writing MAIN_GOAL JOIN 1. The index-theorem argument licensing 'massless multiplets = dim H^1' lives on a CY3 (real 6d) or a G2 7-manifold; its transport to a real 3-manifold's H^1 is not exhibited, and the surviving gauge group (the centralizer of rho(pi_1)) is not identified. A PRE-EXISTING debt newly NAMED, not newly created: naming it makes explicit that B1253/B1255/B1256/B1257 and the h^1 readings of B1036/B1086 are all conditional. Two banked complications: B1086 gives h^1(27) = h^1(27bar) on any closed double (PD), so the count is vector-like there whatever its value; and B1259 closes the flat-G2 isolation route for every group."
   }
  ],
  "_earned_additions": [

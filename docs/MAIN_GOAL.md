@@ -52,8 +52,13 @@ grading exists on any closed assembly.
    **three A₁ families**, Acharya–Witten **collision met**, **isolation failed** (every A₁ meets E₆
    along a *line* ⇒ vector-like). Its named hatch is **transversal deformation — resolving the
    enhancement lines**. Does resolving them restore isolation, hence chirality, hence a count?
-3. What identification licenses reading **any** of these h¹'s as a 4d generation count? It is
-   **still unregistered**; register it before leaning on it.
+3. ~~What identification licenses reading **any** of these h¹'s as a 4d generation count?~~
+   **DONE 2026-09-06 — registered as I-26, UNEARNED** (documented raise 10 → 11). The
+   index-theorem argument licensing *"massless multiplets = dim H¹"* lives on a **CY3 (real 6d)** or a
+   **G₂ 7-manifold**; its transport to a **real 3-manifold's** H¹ is nowhere exhibited, and the
+   surviving gauge group (the **centralizer of ρ(π₁)**) is never identified. **Until I-26 is earned,
+   B1253, B1255, B1256, B1257 and the h¹ readings of B1036/B1086 are all conditional on it.**
+   To earn: exhibit the compactification, and name the surviving gauge group.
 
 ## JOIN 2 — the values *(I-13, the listener map)*
 
