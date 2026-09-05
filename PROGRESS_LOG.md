@@ -13829,3 +13829,29 @@ Owner: *"lets attack them."* Attacking strategy item 1 — and the answer was st
   plus the internal coherence of the ADE correspondence — **not I-6** (a different geometric claim).
   **I-25 stays UNEARNED**; the route is named, not walked. What earns it: exhibiting the object's
   SL(2) landing in that orbit.
+
+### B1258 — 2T is blind, and so is the SO(10) grading (2026-09-05)
+
+Owner: *"continue."* B1257 named a canonical selector; earning I-25 needs the **object** to confirm
+it. Two natural object-internal tests were run. **Both are blind.**
+
+- **TEST 1 — the 27|2T branching (B327's own gate). BLIND, and FORCED.** χ₂₇ = (27,27,3,0,0,0,0) and
+  χ₇₈ = (78,78,−2,−3,−3,−3,−3) are **identical** for principal and subregular. Mechanism, verified
+  per modulus: at λ = ±1 the character is just the **dimension** (all indices even); at 2T's other
+  classes λ has order 3, 4 or 6, where χ_Symⁿ depends **only on n mod m** — and `{16,8,0}` ≡
+  `{12,8,4}` **mod 3, mod 4 and mod 6**. **2T's eigenvalues are 12th roots of unity and the two
+  decompositions are congruent modulo exactly that.**
+- **SCOPE CORRECTION LANDED ON B327** (addendum in that arc). Its substance is untouched — `n₁ = n₂`
+  by self-duality, Chat-1 refuted, the principal decomposition correct. What is corrected is reading
+  its branching gate as fixing **which** embedding: it cannot, and for the very reason B327 proved
+  (self-duality holds for *any* SU(2)-factoring embedding).
+- **TEST 2 — compatibility with D₂. BLIND differently.** Neither candidate makes the **16** a union
+  of complete sl₂ strings, nor the **10+1**. Consistent with B1255's `[C18, D₂|W18] ≠ 0`: the
+  object's gradings and its sl₂ structure are **transverse**.
+- **CONSEQUENCE.** I-25 stays UNEARNED; its discriminator is **narrowed by two** — not the
+  finite-group branching (theorem), not the SO(10) compatibility (computation). B1257's Brieskorn
+  criterion remains the only principled one on the table, and is still a statement about **E₆**, not
+  one the **object** has confirmed.
+- **CONTROL THAT CONVICTS THIS ARC'S OWN DRAFT:** the first statement of the mechanism — *"χ is
+  periodic mod 12 on every class"* — is **false**, failing at λ = 1 where χ = n+1 grows. The selftest
+  asserts the naive version false so it cannot silently revert.

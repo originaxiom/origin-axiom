@@ -1,0 +1,25 @@
+{
+ "id": "B1258",
+ "verdict": "NEGATIVE",
+ "instrument": true,
+ "depends_on": [
+  "B1257",
+  "B1256",
+  "B1255",
+  "B327",
+  "B883",
+  "B1250"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-25",
+   "status": "UNEARNED",
+   "note": "unchanged. Two object-internal tests that COULD have confirmed B1257s Brieskorn selector both come back blind: the 27|2T and 78|2T characters are IDENTICAL for principal and subregular (forced, since 2Ts eigenvalues are 12th roots of unity and the index multisets agree mod 3, 4 and 6), and neither candidate makes the SO(10) 16 a union of complete sl2 strings. The discriminator is elsewhere."
+  }
+ ],
+ "claim_one_line": "2T CANNOT SELECT THE EMBEDDING, AND NEITHER CAN THE SO(10) GRADING -- two object-internal tests, both blind, one by a theorem. B1257 named a canonical selector (Brieskorn-Slodowy picks the subregular uniquely, and it is the embedding giving three chiral generations), but a criterion about E6 is not the objects say-so; earning I-25 needs the OBJECT to confirm it. TEST 1, the 27|2T branching that is B327s own gate: chi_27 = (27,27,3,0,0,0,0) and chi_78 = (78,78,-2,-3,-3,-3,-3) are IDENTICAL for both candidates, and the equality is FORCED -- at lambda=1 and lambda=-1 the character is just the dimension (all indices are even), and at 2Ts remaining classes lambda has order 3, 4 or 6 where chi_Sym^n depends ONLY on n mod m, with the index multisets {16,8,0} and {12,8,4} agreeing mod 3 ([0,1,2]), mod 4 ([0,0,0]) AND mod 6 ([0,2,4]). 2T is too small: its eigenvalues are 12th roots of unity and the two decompositions are congruent modulo exactly that. SCOPE CORRECTION TO A BANKED ARC: B327s branching gate, used to sharpen the mass-hierarchy CRUX to one representation-theoretic lookup, is BLIND to principal-vs-subregular -- its n1=n2 conclusions are untouched (proved by self-duality for ANY SU(2)-factoring embedding, which is exactly why the gate cannot separate these), but no reading of it fixes WHICH embedding. TEST 2, compatibility with D2: neither candidate makes the 16 (D2=+1) a union of complete sl2 strings, nor the 10+1 -- consistent with B1255s [C18, D2|W18] != 0, the objects gradings and its sl2 structure are transverse. CONSEQUENCE: I-25 stays UNEARNED and its discriminator is narrowed by two -- not the finite-group branching (theorem), not the SO(10) compatibility (computation). This arcs OWN first statement of the mechanism was wrong (chi periodic mod 12 on EVERY class fails at lambda=1 where chi = n+1 grows) and the selftest asserts the naive version FALSE so it cannot silently revert."
+}

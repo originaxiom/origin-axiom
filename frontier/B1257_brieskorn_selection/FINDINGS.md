@@ -58,6 +58,25 @@ different, geometric claim. This argument uses only **I-1** (EARNED) plus the in
 the ADE correspondence — McKay's Γ and Du Val/Brieskorn's Γ are the two standard faces of one
 classification, not two structures glued.
 
+## THE FENCE — what here is verified, and what is cited
+
+**Verified on this bench (exact, controlled):** every dimension in the table (dim g = 78, rank 6,
+dim N = 72, each orbit dimension, `dim(S ∩ N) = dim N − dim O`); the **uniqueness** of the dim-70 row
+across the 30-labelling superset; the 27-decompositions; and — via **B1256's addendum, computed by
+Fox calculus on m004** — that 13+9+5 types h¹ as three chiral.
+
+**CITED, NOT VERIFIED ON BENCH — the one load-bearing citation:** **Brieskorn–Slodowy**, that for a
+simple Lie algebra of type ADE the transverse slice to the **subregular** orbit meets the nilpotent
+cone in a simple surface singularity **of the same ADE type** — together with the Kleinian
+classification's **E₆ ↔ 2T**. Both are standard (Brieskorn 1970; Slodowy 1980; Du Val/Klein), and the
+second is the same 2T that McKay attaches to E₆ (I-1, EARNED) — the two faces of one classification,
+not two structures glued. **But this seat has not reproduced the theorem**, and per the programme's
+own *cited ≠ verified* rule the arc is fenced accordingly: **what is computed here is that the
+subregular is the unique orbit with a surface slice; that this surface IS ℂ²/2T is taken from the
+literature.**
+
+Nothing downstream may treat the Brieskorn step as bench-verified until it is.
+
 ## Controls (MB12, both directions)
 
 - **THE DECISIVE ONE:** the criterion is computed from **dimensions alone**, with **no reference to

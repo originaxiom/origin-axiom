@@ -62,7 +62,7 @@ CONTROLS (MB12, both directions):
 import collections, itertools, json, os
 import sympy as sp
 
-REPO = "/Users/dri/origin-axiom"
+REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 CARTAN = sp.Matrix([
     [ 2, 0,-1, 0, 0, 0],
     [ 0, 2, 0,-1, 0, 0],

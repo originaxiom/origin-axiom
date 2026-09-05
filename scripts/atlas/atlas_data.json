@@ -6080,6 +6080,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1258": {
+   "slug": "2T is blind",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B327",
+    "B883"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B125": {
    "slug": "snappy arithmeticity",
    "motifs": [

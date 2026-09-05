@@ -1,5 +1,20 @@
 # Changelog
 
+## 2T IS BLIND — two object-internal tests, both negative, one by a theorem
+
+**B1258.** B1257 named a canonical selector (Brieskorn–Slodowy → the subregular, uniquely); earning
+**I-25** needs the *object* to confirm it. Two tests, **both blind**. **(1) The 27|2T branching —
+B327's own gate:** χ₂₇ = (27,27,3,0,0,0,0) and χ₇₈ = (78,78,−2,−3,−3,−3,−3) are **identical** for
+principal and subregular, and it is **forced** — at λ = ±1 the character is the dimension (all
+indices even), and at 2T's remaining classes λ has order 3, 4 or 6 where χ_Symⁿ depends only on
+**n mod m**, with `{16,8,0}` ≡ `{12,8,4}` **mod 3, 4 and 6**. 2T's eigenvalues are 12th roots of
+unity and the decompositions are congruent modulo exactly that. **A scope correction lands on B327**
+(addendum there): its substance is untouched — `n₁=n₂` by self-duality, Chat-1 refuted — but its
+branching gate **cannot fix which embedding**, for the very reason it proved. **(2) D₂ compatibility:**
+neither candidate makes the **16** a union of complete sl₂ strings, nor the **10+1** — consistent with
+B1255's `[C18, D₂|W18] ≠ 0`. **I-25 stays UNEARNED**, its discriminator narrowed by two. The arc's own
+first mechanism (*"χ periodic mod 12 everywhere"*) is **false at λ = 1** and the selftest asserts it so.
+
 ## THE ORBIT THAT REMEMBERS 2T — and the theorem that finds it was in B327's own bibliography
 
 **B1257.** Attacking the strategy's first item. **The archaeology:** the principal sl₂ grading entered
