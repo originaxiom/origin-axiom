@@ -533,3 +533,4 @@ hash-first status.*
 | Date | Design and scope | Path | SHA-256 |
 |---|---|---|---|
 | 2026-09-05 | R4: conditional compact-E6 scalar potential, full vacuum Hessian, compact stabilizer and mixed fermion masses; no empirical target; sealed before execution | `reports/physical_bridge_2026_09_05/EXTENSION_2.md` | `8d63ca2f1cad841b95606633fe01775f49ea967fd59ae6a8467a4c9d15e57691` |
+| 2026-09-05 | R4 orientation control: explicit competing minimum of the same potential; post-first-result, sealed before this control | `reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md` | `84d14c74c478994e9d4c6328f251de5c9e3d119d1545eeea96ca3b461f20e31c` |
