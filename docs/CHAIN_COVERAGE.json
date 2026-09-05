@@ -55,5 +55,6 @@
    "arc": "B1244",
    "why": "the E6-selecting arithmetic is destroyed by closing -- the two sides do not overlap"
   }
- ]
+ ],
+ "_criterion": "HOW ROWS GET HERE (B1247, R54-2). This file is the GATE -- dropping a pinned result reds the suite. It is fed by a REPORTER, not by memory: scripts/checks/coverage_candidates.py --chain-gap ranks arcs that synthesis surfaces cite and THE CHAIN DOES NOT, by surface-degree. That list is ~688 at threshold 1 and is NOT a defect list -- the chain is a curated spine, so absence is the normal case. WHICH absences matter is a judgement, and the decadal review is where judgement belongs: each review adjudicates the top of the ranked list and PINS what it promotes here. Validated against the chain as it stood at B1243, before C46: the reporter flags B286 (3 surfaces), B294 (2), B287 (1), B295 (1), and correctly does NOT flag B288, which C8 already cited."
 }

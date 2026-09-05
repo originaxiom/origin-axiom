@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1155** |
-| words of findings prose | **804,418** |
+| research arcs with findings | **1156** |
+| words of findings prose | **805,407** |
 | test lock files referenced | **688** |
-| arcs carrying an authored verdict | **1155** (100.0 %) |
+| arcs carrying an authored verdict | **1156** (100.0 %) |
 | recorded closures | **780** (613 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 749 |
+| PROVED | 750 |
 | NEGATIVE | 308 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1246`** (425 words, 0 locks)  
-I-18 SHARPENED BY A DOWNSTREAM SEAT'S FLAG, VERIFIED HERE: the type dictionary reaches theta, not theta-bar. B1243 registered the identification 'the object's CS 2-torsion = the SM's strong phase' with theta-bar -- the physical observable -- as the target. The physics seat flagged that the adversarial rounds had already established the target is the TOPOLOGICAL theta, with theta-bar contingent on the Yukawa sector. Verified on-bench: (i) under the anomalous chiral rotation psi -> exp(i alpha gamma5) psi on N_f flavours, theta -> theta - 2 N_f alpha while arg det M -> arg det M + 2 N_f alpha, so theta-bar = theta + arg det M is INVARIANT (shift cancels exactly, symbolically 0) and theta is NOT -- 'theta = 0' alone is basis-dependent, hence not a physical statement; (ii) theta and theta-bar carry the SAME discrete type (P-odd, C-even, T-odd), so a Z/2 -> Z/2 map of symmetry TYPES lands on 'an E-type dimensionless parameter' with TWO candidates and no way to choose between them. The observable claim theta-bar = 0 therefore carries a Yukawa-sector contingency the chain does not derive. The row stays UNEARNED and its PRICE becomes more precise: earning it needs the dictionary AND the Yukawa phase, not the dictionary alone.  
-`B1246_theta_vs_thetabar/FINDINGS.md`
+**PROVED — `B1247`** (989 words, 1 locks)  
+THE RETRIEVAL FIXES: the programme could not reach its own results, and the mechanism is now located and repaired. (1) THE QUESTION LEXICON: the atlas's 18 motifs were authored 2026-07-01 and FROZEN (B806) while ~750 arcs banked since; they index the OBJECTS studied (golden, eisenstein, figure_eight) and never the QUESTIONS asked, so a seat asking 'do we have an arrow of time?' retrieved NOTHING while B497 -- the four-stratum monoid, the programme's only irreversibility structure -- sat banked under twelve object-motifs, none saying monoid, strata or dynamics. Seven question-motifs added (arrow 75, monoid 87, measurement 283, closing 339, naming 38, choice 177, coupling 358 probes) and re-mined; TESTED: every arc excavated by hand this session is now retrieved by the question that wanted it. (2) coverage_candidates.py replaces two proxies with reporters: representation_sweep's CLAIM-LENGTH floor is declared a gate threshold rather than a measure of substantiality (282 screened / 674 blind; the seam family is 166-197 chars and B286's 182 relocate the central wall), and the unrepresented set is ranked BY IN-DEGREE -- the backlog is 9 arcs, not 154. An in-degree SCREEN was tried first and REJECTED on its own evidence (the seam family has in-degree 1-2, so it would have missed the motivating case); the rejected design is recorded in the instrument. (3) chain-gap: arcs on synthesis surfaces but absent from the chain, ranked by surface-degree, validated against the chain as it stood at B1243 BEFORE C46 (flags B286/B294/B287/B295, correctly skips B288). NOT a build gate -- at threshold 1 it is ~688 arcs because the chain is a curated spine; CHAIN_COVERAGE.json gains a _criterion naming its feeder, and the review adjudicates. (4) E58 gains the TIME-INDEXED clause: a claim about a file is time-indexed; quote the SHA you read, not just the filename. (5) A7 RE-PROBED AND THE ANSWER IS NO: both orders have exactly one stable vacuum (LR->phi, RL->1/phi, curvature +-sqrt5, product exactly 1), so the B6 field equation does NOT break A7's tie; requiring the growing vacuum selects LR but replaces one declared input with two. A7 stays an axiom.  
+`B1247_the_retrieval_fixes/FINDINGS.md`
 
 **NEGATIVE — `B1244`** (778 words, 0 locks)  
 THE GATE 5 AUDIT: ITS OWN THESIS IS REFUTED BY ITS OWN RUN. Pre-registered COLD (seal d0f05d44, amended A1 to 53d04ea6 before any item was evaluated) because the occasion was a downstream seat's exciting measured-data result -- exactly when a filter gets loosened for a reason nobody notices. Enumeration mechanical (Gate-5 token within +-3 lines of a fence token): 773 raw -> 255 live after a recorded merge (dated history is not a live fence; generated views duplicate their arcs; speculations are firewalled by design). 46 items examined with the SOURCE OPENED (amendment A1, the owner's rule: never be called on data you did not verify first). RESULT: ZERO MISLABELED, ZERO over-fences. E-1 (>=3 MISLABELED) FAILED. E-2 (C43 mislabeled) FALSIFIED -- B915 scopes its kill to the identification 'object boundary + pure SM desert', and C43 repeats that scope faithfully; I predicted otherwise from the chain's PHRASING without opening B915, the very shortcut A1 forbids, committed by A1's author inside the audit A1 governs. Gate 5 is not over-fencing: L15's firewall holds because the complex volume is DIMENSIONLESS (computed), and the h(27) lead is fenced because B580 proves the channel INFORMATION-FREE (identical for 4_1, 5_2 and the unknot). THE ACTUAL DISEASE IS COVERAGE, NOT RELEASE: the seam family B286-B295 -- ten arcs answering what closing supplies and whether it is selective -- had ONE citation between them in the chain (B288, inside C8, the NEGATIVE half). C46 admits it.  

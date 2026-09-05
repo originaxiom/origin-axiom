@@ -26,29 +26,19 @@ auditable in a way a passing threshold never was.
 | arc | disposition | why |
 |---|---|---|
 | `B1018` | INSTRUMENT | The suite's parallel qualification (xdist, the arbiter rule) — about **our own test infrastructure**, not an object topic; an OBJECT atlas is correct to miss it. |
-| `B977` | INSTRUMENT | The representation-sweep gate — about **our own claim hygiene**, not an object topic. |
 | `B966` | INSTRUMENT | The `lawmap-scope` gate — about **our own claim hygiene**, not an object topic. |
-| `B965` | INSTRUMENT | The LAW_MAP scope audit — about **our own claim hygiene**, not an object topic; an OBJECT atlas is correct to miss it. |
 | `B961` | INSTRUMENT | The frame instrument (`frame.py`) — exact Killing form, centralizer, Killing-perp, derived algebra on e₆. About **our own machinery**, not an object topic; an OBJECT atlas is correct to miss it. |
 | `B679` | INSTRUMENT | An `engine_v7` gate-report patch, prepared and verified but not deployed; explicitly about a seat conduit that is not a repo-tracked file. |
-| `B770` | INSTRUMENT | The closure census — Phase 0 bookkeeping over the programme's own arcs. |
 | `B793` | INSTRUMENT | Gate 8R2-A, blocked on an **architectural finding about the B788 solver**. About the apparatus, not the object. |
 | `B798` | INSTRUMENT | The algebraicity falsifier's power box — discharges review actions R32-4/R32-5 by pricing a `(d, H)` test budget. It **governs** an object claim without making one. *(Borderline: the falsifier it prices is load-bearing for B796, so if the lexicon ever gains a motif for falsifier design, revisit.)* |
 | `B818` | INSTRUMENT | The verdict-vocabulary errors and the `RETRACTED` disambiguation. |
-| `B819` | INSTRUMENT | The coverage-frame correction to B817. |
 | `B827` | INSTRUMENT | The shadow-progress-log recovery and the fail-open-by-drift gate fix. About the repository's own bookkeeping; an object atlas is correct to miss it. |
-| `B833` | INSTRUMENT | The negative-routing measurement and the arc-register vs kill-register unit mismatch. About the repository's own bookkeeping; an object atlas is correct to miss it. |
-| `B836` | INSTRUMENT | Routing the negative backlog into the kill graph. About the repository's own bookkeeping; an object atlas is correct to miss it. |
 | `B837` | INSTRUMENT | The file-drawer audit of sealed-but-unreported preregs. About the repository's own reporting discipline; an object atlas is correct to miss it. |
 | `B899` | GAP | The hierarchy-source check (an earned negative): the sealed cells' deviation magnitudes vs mu's root geometry. Object-level topic (root spacings, leakage magnitudes) the lexicon does not yet carry a motif for; the negative verdict does not make it instrumental. |
 | `B935` | GAP | The composition hunt: forced compositions of the object's cascade classes and the rank-2 degeneracy of the register overlap. Object-level geometry (overlap matrices, singular structure) the lexicon carries no motif for; the negative verdict does not make it instrumental. |
-| `B986` | GAP | The B500 depth-5 reopen: eliminants of depth-5 trace-map words over GF(p), and whether the child field K = Q[t]/(t^4-t-1) occurs as a root field. Object-level arithmetic (the child, the F/M/D word grammar, resultant eliminants) the lexicon carries no motif for. The NEGATIVE verdict is about this seat's own *method* being vacuous, but the arc's subject is the object, so it is a GAP and not an INSTRUMENT. |
-| `B998` | INSTRUMENT | The axiom chain's lock audit: which forks `test_b749_genesis_forks.py` actually tests versus which `THEOREM_LEDGER.md` cites. About the repository's own verification discipline — an object atlas is correct to miss it. |
 | `B1065` | INSTRUMENT | the three amendment controls for B1024's SAME — equivariance/base-rate/joint-rank checks on the programme's own class-map machinery; an OBJECT atlas is correct to miss it |
 | `B1076` | GAP | the coboundary/gauge layer of the Hermitian-frame structure (2026-08-19) — the lexicon has no term for the class-(0,0) coset, the per-gauge λ-family, or gauge-dependence-as-a-finding; a real object topic the vocabulary misses (the sweep's own theorem: the hierarchy is coboundary-carried) |
 | `B1078` | GAP | the gauge-selection layer (2026-08-19) — the lexicon has no term for denominator-purity, the closed λ-spectrum, or class-level selection; a real object topic the vocabulary misses (the observation's own grammar: the value-prime shape as a selector) |
-| `B1080` | GAP | the global-form layer (2026-08-19) — the lexicon has no term for center/fundamental-group quotients, Γ = ℤ/6 as the forced global structure, or charge-lattice-vs-center arithmetic; a real object topic the vocabulary misses (the arc's own finding: the quotient is uniform across the menu, B862's local fact made global) |
-| `B1092` | GAP | the spinor/purity layer (2026-08-20) — the lexicon has no term for pure spinors, the spinor variety 𝕊₁₀, parabolic stabilizers, or purity-as-selection; a real object topic the vocabulary misses (the arc's own finding: purity is the unique rank-preserving condition on the second VEV — the rank wall's sharpest reduction speaks a vocabulary the atlas predates) |
 | `B1152` | INSTRUMENT | THE COST FAILURE CLASS + the fast lane (2026-08-26, harvest of cc3's B8139): the suite's own runnability — a lock never *reached* catches nothing, the changed-file test selector, the `slow` marker, the main-band drift audit. About the repository's own test machinery; an OBJECT atlas is correct to miss it. |
 
 **Open `GAP` count: 2** (`B899`, `B935` — leakage/deviation magnitudes and root-spacing geometry await a lexicon motif). `B537` was closed by B825's `markov_cubic` motif.
@@ -61,6 +51,17 @@ auditable in a way a passing threshold never was.
 because they are about the Markov cubic but because they **quote** it while discussing the gap. A
 regex motif matches *mentions*, not *subjects*. Recorded rather than filtered, because filtering
 would mean classifying by topic — the thing B822 refused.
-| `B1205` | GAP | the forcing-dimension layer (2026-08-29) — the lexicon has no term for codimension counting on a closer-datum family, the determinantal cubic on the ℙ³ Higgs line, or *linear-cuts-then-nonlinear-cut* as the anatomy of a forcing theorem; a real object topic the vocabulary misses (the arc's own finding: the cubic exists and is failable but cuts one dimension of three, and GC-25's proved absence of linear conditions on B₀ is what blocks it — the ℙ³'s permanence and the forcing recipe are one fact). |
 | `B1213` | INSTRUMENT | The claim-base rebuild: a census of the `creates_law` field's absence (89% of settled arcs) and a union criterion for the paper's candidate pool. An arc about our own bookkeeping machinery — an OBJECT atlas is correct to miss it. |
-| `B1218` | INSTRUMENT | The open-claim sweep: a lexical instrument that scans the live surfaces for claims of current openness whose resolving arc is already banked SETTLED. An arc about our own retrieval machinery — an OBJECT atlas is correct to miss it. (Its two findings, L175 and L57, *are* object topics, but they live in B1110 and B364, which the atlas already indexes.) |
+
+## De-blinded by the question lexicon (B1247, 2026-09-05)
+
+Twelve arcs left this registry at once, not by shrinking and not by being re-written: the atlas
+lexicon's 18 motifs were authored 2026-07-01 and frozen (B806) while ~750 arcs banked, and they
+indexed **the objects the programme studies**, never **the questions it asks**. B1247 added seven
+question-motifs (`arrow, monoid, measurement, closing, naming, choice, coupling`). These arcs were
+never blind in substance — the lexicon had no word for what they were about:
+
+**B770, B819, B833, B836, B965, B977, B986, B998, B1080, B1092, B1205, B1218**
+
+*A blind arc had meant 'matches no motif'. For twelve of them it meant 'the index cannot ask the
+question this arc answers'. That is the distinction B821 warned the raw count conflates.*

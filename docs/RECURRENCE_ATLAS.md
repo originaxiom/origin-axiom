@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-09-04 from 1152 frontier probes.
+> Last generated: 2026-09-05 from 1153 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,12 +11,12 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1152 frontier probes; status {'open': 67, 'banked': 755, 'dead': 308, 'dormant': 22}
-  the ONE conserved first integral: kappa (recurs 255x, 22%) -- genuine unity, MUST recur
-  top recurring motifs: golden(646), eisenstein(631), firewall(622), figure_eight(486), metallic(430), amphichiral_cp(420)
-  recurrence is: structural-invariant 3782 mentions | conserved-integral 255 | TOOL 418
+  corpus: 1153 frontier probes; status {'open': 67, 'banked': 756, 'dead': 308, 'dormant': 22}
+  the ONE conserved first integral: kappa (recurs 256x, 22%) -- genuine unity, MUST recur
+  top recurring motifs: golden(647), eisenstein(631), firewall(623), figure_eight(487), metallic(431), amphichiral_cp(420)
+  recurrence is: structural-invariant 4430 mentions | conserved-integral 256 | TOOL 418
   the honest split: the trace-map TOOL is in 418 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral
-  top meeting-point candidates: B530, B521, B156, B598, B1189, B309
+  top meeting-point candidates: B530, B156, B521, B309, B598, B1189
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
 ```
 
@@ -26,30 +26,37 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 | motif | #probes | % | kind | conserved | home domain | gloss |
 |---|---|---|---|---|---|---|
-| golden | 646 | 56% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
+| golden | 647 | 56% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
 | eisenstein | 631 | 54% | arithmetic | structural | arithmetic | the Eisenstein end: Q(sqrt-3), omega, E6, 2T |
-| firewall | 622 | 53% | structure | structural | meta | the firewall / structural theorem / form-not-values |
-| figure_eight | 486 | 42% | object | no | topology | the simplest hyperbolic knot; the carrier object |
-| metallic | 430 | 37% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
+| firewall | 623 | 54% | structure | structural | meta | the firewall / structural theorem / form-not-values |
+| figure_eight | 487 | 42% | object | no | topology | the simplest hyperbolic knot; the carrier object |
+| metallic | 431 | 37% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | amphichiral_cp | 420 | 36% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | trace_map | 418 | 36% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
-| torsion | 353 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
+| coupling | 359 | 31% | question | no | physics | the observer/object interface: what the coupling supplies that neither side has alone (the listener map, the pair, the relational bit) |
+| torsion | 354 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
+| closing | 340 | 29% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
+| measurement | 284 | 24% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
 | wrt_quantum | 271 | 23% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | z3_generation | 263 | 22% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
-| kappa | 255 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
+| kappa | 256 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | lorentzian | 207 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
+| choice | 177 | 15% | question | structural | arithmetic | the residual bit(s): the torsor of closings, the basepoint bit, what the object can and cannot select (A7/B766/B1183/B1225) |
 | symplectic | 108 | 9% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
 | dickson_tower | 106 | 9% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
+| monoid | 88 | 7% | question | structural | dynamics | End(F2) beyond the units: the four Hopfian-det strata, the non-invertible verbs the programme has never computed |
 | apolynomial | 83 | 7% | structure | no | topology | the A-polynomial / Cooper-Long / AJ |
+| arrow | 76 | 6% | question | no | dynamics | time's direction and/or its irreversibility -- the two are NOT the same question (B766 = the direction bit, the golden branch; S063 = irreversibility, entering at det != +-1) |
 | markov_cubic | 71 | 6% | invariant | structural | topology | the trace-triple SURFACE the trace map acts on: the Markov/Fricke cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). Deliberately EXCLUDES the bare phrase 'character variety', which B824 measured at 13.8%% of the corpus -- this programme's subject matter, not a topic within it |
 | quasicrystal | 70 | 6% | dynamics | structural | quantum | the Fibonacci quasicrystal / Suto / Damanik-Gorodetski |
+| naming | 39 | 3% | question | structural | arithmetic | self-reference, the quine, self-name vs self-sign -- naming and choosing proved complementary (B762/B1184) |
 | five_web | 34 | 2% | arithmetic | structural | arithmetic | the '5' recurrence web (H2): 40a1, conductor 40, Pisano |
 | hyperbolicity_split | 28 | 2% | structure | structural | topology | the hyperbolicity-split motif (H4): object on both sides of the divide |
 
 ### The honest split — unity vs the hammer
 
-- **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **255** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **3782** mentions — invariants of the object's transforms.
+- **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **256** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4430** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **418** probes (36%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
@@ -58,15 +65,15 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 
 | obstacle-type | #banked | top conserved resolver | top motifs |
 |---|---|---|---|
-| source_free | 1 | golden | figure_eight(1), golden(1) |
+| source_free | 1 | choice | choice(1), figure_eight(1), golden(1) |
 | cancellation | 60 | golden | golden(37), eisenstein(35), firewall(34), trace_map(26) |
 | selector | 18 | firewall | firewall(12), trace_map(11), eisenstein(11), golden(11) |
-| measure | 112 | eisenstein | eisenstein(59), golden(58), firewall(55), figure_eight(45) |
+| measure | 113 | golden | golden(59), eisenstein(59), firewall(56), measurement(49) |
 | units_scale | 114 | firewall | firewall(77), golden(68), eisenstein(61), metallic(54) |
 | gauge_dict | 65 | eisenstein | eisenstein(41), firewall(34), golden(33), figure_eight(32) |
 | particle_dict | 96 | eisenstein | eisenstein(68), z3_generation(62), firewall(62), golden(58) |
 | spacetime_3p1 | 133 | eisenstein | eisenstein(78), golden(78), figure_eight(72), trace_map(63) |
-| observable | 46 | golden | golden(34), eisenstein(21), metallic(20), firewall(20) |
+| observable | 46 | golden | golden(34), coupling(25), measurement(22), eisenstein(21) |
 | numerology | 25 | eisenstein | eisenstein(18), golden(17), firewall(16), metallic(15) |
 | bridge_construction | 9 | golden | golden(7), firewall(6), figure_eight(5), eisenstein(5) |
 
@@ -78,25 +85,25 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | probe | score | status | unity-patterns fired | domains |
 |---|---|---|---|---|
 | B530 | 25 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, quantum, topology |
+| B156 | 23 | banked | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, representation, topology |
 | B521 | 23 | dead | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, quantum, topology |
-| B156 | 22 | banked | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, representation, topology |
+| B309 | 22 | banked | two_ends+object=dynamics+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, quantum, topology |
 | B598 | 22 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, physics, quantum, topology |
 | B1189 | 21 | dead | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, topology |
-| B309 | 21 | banked | two_ends+object=dynamics+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, meta, quantum, topology |
 | B321 | 21 | dead | two_ends+object=dynamics+physics_bridge+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, topology |
 | B717 | 21 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, geometry, meta, physics, quantum, topology |
 | B746 | 21 | banked | two_ends+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, representation, topology |
+| B1067 | 20 | open | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
 | B1069 | 20 | dead | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
 | B154 | 20 | dead | two_ends+object=dynamics+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, quantum, representation, topology |
 | B469 | 20 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
 | B491 | 20 | dormant | two_ends+object=dynamics+quantum_meeting+symplectic_casimir | arithmetic, dynamics, geometry, meta, quantum, topology |
 | B1009 | 19 | dead | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
-| B1067 | 19 | open | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
 | B140 | 19 | dead | two_ends+object=dynamics+symplectic_casimir | arithmetic, dynamics, geometry, meta, representation, topology |
 | B258 | 19 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
 | B316 | 19 | banked | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
 | B496 | 19 | banked | two_ends+object=dynamics+physics_bridge | arithmetic, dynamics, meta, physics, quantum, topology |
-| B709 | 19 | dead | two_ends+object=dynamics+physics_bridge+quantum_meeting | arithmetic, dynamics, meta, physics, quantum, topology |
+| B532 | 19 | open | two_ends+object=dynamics+symplectic_casimir | arithmetic, dynamics, geometry, meta, physics, representation, topology |
 
 **The unity-patterns** (the documented cross-structure identifications the detector looks for):
 
@@ -114,7 +121,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 |---|---|
 | source_free | 1/3 |
 | bridge_construction | 9/21 |
-| measure | 112/189 |
+| measure | 113/190 |
 | gauge_dict | 65/106 |
 | selector | 18/29 |
 | spacetime_3p1 | 133/209 |

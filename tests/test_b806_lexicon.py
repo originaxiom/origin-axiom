@@ -13,11 +13,13 @@ def _atlas():
 def test_the_lexicon_is_a_small_hand_authored_closed_vocabulary():
     """The finding's premise: the atlas can only ever see what it was told to look for."""
     lex = _atlas()["lexicon"]
-    # 19 since B825 added `markov_cubic`. This tripwire fired and its demand was MET rather than
-    # bumped: B806's numbers were re-derived (B829). Top-3 coverage is now 0.8845, against the
-    # 93.3 % B806 states -- and the drift is entirely CORPUS GROWTH, verified by recomputing with
-    # markov_cubic excluded and getting the identical 0.8845.
-    assert len(lex) == 19, f"lexicon size changed from 19 to {len(lex)} -- re-derive B806's numbers"
+    # 26 since B1247 added SEVEN QUESTION MOTIFS (arrow, monoid, measurement, closing, naming,
+    # choice, coupling). This tripwire fired a SECOND time and its demand was again MET rather than
+    # bumped, by the B829 method: top-3 coverage recomputed WITH and WITHOUT the new motifs is
+    # 0.8404 BOTH WAYS -- top-3 unchanged (golden, eisenstein, firewall), change +0.0000 -- so the
+    # widening re-dates NO recurrence claim; the drift from B829's 0.8845 is corpus growth alone.
+    # (19 since B825 added `markov_cubic`; B806's numbers re-derived then at B829.)
+    assert len(lex) == 26, f"lexicon size changed from 26 to {len(lex)} -- re-derive B806's numbers"
     src = (ROOT / "scripts" / "atlas" / "atlas.py").read_text()
     assert "LEXICON = {" in src                      # hand-authored, not derived from the corpus
     assert "K001..K022" in src                       # and its grounding is frozen, by its own header
@@ -105,7 +107,13 @@ def test_the_recent_corpus_has_no_words_in_the_lexicon():
     """
     lex = set(_atlas()["lexicon"])
     # the recent corpus's own vocabulary, by arc count at B800+ (B1008's table)
-    absent = {"cascade", "e6", "the_27", "rank", "chirality", "measurement", "generation",
+    # `measurement` LEFT this set at B1247 -- deliberately, banked, with B806/B1008's numbers
+    # re-derived in the same act (see the size test above). The distinction that made it admissible:
+    # every word still listed here is an OBJECT word, and admitting one WOULD re-date recurrence
+    # claims about that object. `measurement` entered as a QUESTION motif -- it indexes what an arc
+    # ANSWERS, not what it is about -- and the control confirms it: top-3 coverage is identical
+    # with and without the seven question motifs. The tripwire stays live for the object words.
+    absent = {"cascade", "e6", "the_27", "rank", "chirality", "generation",
               "centralizer", "observer", "hypercharge", "anomaly", "higgs", "value_layer",
               "maass"}
     present = absent & lex

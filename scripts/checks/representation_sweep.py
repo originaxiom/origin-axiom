@@ -25,6 +25,15 @@ import os
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 TRIAGE = os.path.join(ROOT, "docs", "REPRESENTATION_TRIAGE.md")
+# THE FLOOR IS A GATE THRESHOLD, NOT A MEASURE OF SUBSTANTIALITY (B1247, Review 54 R54-1).
+# Measured 2026-09-03: 282 arcs screened here (4 unrepresented), 674 BELOW the floor and therefore
+# invisible to this gate (154 unrepresented). 98.6% effective on what it sees; blind to 70% of the
+# corpus -- and blind hardest to the DENSE, since the seam family B286-B295 runs 166-197 characters
+# and B286's 182 characters relocate the programme's central wall. The floor is KEPT so this gate's
+# pass/fail does not regress; what it can never see is reported instead by
+# scripts/checks/coverage_candidates.py --unrepresented, ranked by in-degree (the real queue is 9,
+# not 154). An in-degree SCREEN was tried first and rejected on its own evidence: the seam family has
+# in-degree 1-2, so it would have missed exactly the case that motivated the change.
 CLAIM_FLOOR = 500
 
 SURFACES = [

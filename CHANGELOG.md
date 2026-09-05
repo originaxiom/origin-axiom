@@ -1,5 +1,49 @@
 # Changelog
 
+## THE RETRIEVAL FIXES: the index was keyed on NOUNS and every question asked of it was a VERB — seven arcs this window and not one was a new computation
+
+**B1247.** Seven arcs banked this window and **not one was a new computation.** Every finding was
+already in the bank and unreachable: the **genesis theorem** uncited by the chain for three months;
+the **seam family**, ten arcs with one citation between them and it was the negative; **B497** — the
+four-stratum monoid, the programme's only irreversibility structure — sat **seven weeks** while B1157
+concluded *"the object supplies no parameter-free dynamical law"* **without citing it**; and **B6**,
+holding the very kinetic term B1157 lists as missing, on **zero** surfaces since week one.
+
+**THE MECHANISM, LOCATED.** The atlas lexicon is **18 regex sets authored 2026-07-01 and FROZEN**
+(B806) — with **~750 arcs banked since**. It indexes *the objects we study* (golden, eisenstein,
+figure_eight, torsion) and **has no word for a question**: no motif for arrow, irreversibility,
+dynamics, monoid, measurement, closing, naming or choice. So *"do we have an arrow of time?"*
+retrieved **nothing**, while B497 sat under twelve object-motifs, none saying monoid or dynamics.
+
+**THE REPAIR, VERIFIED BY RETRIEVAL.** Seven question-motifs added and re-mined — arrow 75, monoid 87,
+measurement 283, closing 339, naming 38, choice 177, coupling 358. Every arc excavated **by hand**
+this session is now returned by the question that wanted it: B497 → arrow/monoid/measurement; B766 →
+arrow/choice; B286/B287 → closing; B1184 → naming/choice.
+
+**TWO PROXIES REPLACED BY REPORTERS.** `representation_sweep` screened on **claim LENGTH** (282
+watched, **674 blind**) and failed hardest on the dense — the seam family is 166–197 characters and
+**B286's 182 relocate the central wall**. The floor is kept so the gate cannot regress, and declared a
+threshold rather than a measure; what it cannot see is reported **ranked by in-degree**, and the
+backlog is **9 arcs, not 154**. An in-degree *screen* was tried first and **rejected on its own
+evidence** (the seam family has in-degree 1–2), and the rejected design is recorded in the instrument.
+`--chain-gap` reports surface-cited arcs the chain omits, **validated against the chain as it stood
+before C46**. It is not a gate: at threshold 1 it is ~688 arcs, because the chain is a curated spine.
+
+**E58 GAINS THE TIME-INDEXED CLAUSE:** a claim about a file is time-indexed — quote the SHA you read,
+not just the filename. A cross-seat dispute this session resolved as **neither party's error**: the
+file moved between reads.
+
+**A7 RE-PROBED — THE ANSWER IS NO.** Both orders have exactly one stable vacuum (LR → **φ**, RL →
+**1/φ**, curvature ±√5, **product exactly 1**), so B6's field equation does **not** break A7's tie.
+Requiring the growing vacuum selects LR but replaces one declared input with two. **A7 stays an
+axiom.** A negative, and the point of it: it killed *"φ is stable, therefore the bit is dynamical"*
+before that became an unearned identification.
+
+**`docs/OPEN_ITEMS_2026-09-05.md` lands with this arc** — 26 items across 8 sections, every point
+raised in the session, so none of it depends on memory. It carries one thing explicitly **not**
+claimed: the candidate synthesis *"the object is complete about itself and empty about everything
+else"*, with its own falsifier, for attack at Review 55.
+
 ## REVIEW 54: the window the instruments were caught PROXYING — and every real loss was a positive the chain had dropped, not a physics result the firewall had blocked
 
 **Review 54** (58 merges from Review 53; anchor `de8e5d8a`; window B1241–B1246, six arcs).
