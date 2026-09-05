@@ -60,3 +60,7 @@ field equation `□τ + κ(τ² − τ − 1) = 0` with an **earned** potential 
 
 B1248 (the class), B497 (the strata and κ-laws), B1247 (the retrieval fix that made B497 reachable),
 B6 (the field equation, cited as the other unreachable dynamics), B1157 (the negative, scoped).
+
+**2026-09-05 independent audit addendum:** the named laws reproduce; the
+square predicate, zero-factor boundary and universal stratum wording require
+the corrections in `ADDENDUM_2026-09-05_CLASSIFIER_SCOPE.md`. Original record retained.

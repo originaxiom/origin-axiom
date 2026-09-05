@@ -1,0 +1,105 @@
+Quiescent focused verification at 8659634f; no files edited during execution.
+Command:
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge*.py tests/test_b1255_generation_type.py -q -p no:randomly
+Exit: 1
+
+................F.F..................................................... [ 94%]
+....                                                                     [100%]
+=================================== FAILURES ===================================
+_________ test_full_constraint_J_H_derivatives_and_complex_covariance __________
+
+    def test_full_constraint_J_H_derivatives_and_complex_covariance():
+>       result = h.primitive_checks()
+                 ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_higgs_sector.py:9: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def primitive_checks():
+        geo, b = geometry(), base()
+        z = geo["z"]
+        np.testing.assert_allclose(constraints(z), 0, atol=1e-12)
+        rng = np.random.default_rng(202609057)
+        displaced = z+.02*rng.normal(size=294)
+        direction = rng.normal(size=294)
+        direction /= np.linalg.norm(direction)
+        eps = 1e-4
+        numerical = (constraints(displaced+eps*direction)-constraints(displaced-eps*direction))/(2*eps)
+        np.testing.assert_allclose(numerical, jacobian(displaced)@direction, atol=2e-10)
+        hplus, hminus = [full_tree_hessian(z+sign*eps*direction) for sign in [1, -1]]
+        first, second = derivatives(direction)[0]
+        numeric_first = geo["si"]@((hplus-hminus)/(2*eps))@geo["si"]
+        numeric_second = geo["si"]@((hplus+hminus-2*b["h0"])/eps**2)@geo["si"]
+        np.testing.assert_allclose(numeric_first, first, atol=2e-9)
+>       np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E       AssertionError: 
+E       Not equal to tolerance rtol=1e-07, atol=3e-07
+E       
+E       Mismatched elements: 12 / 86436 (0.0139%)
+E       First 5 mismatches are at indices:
+E        [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E        [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E        [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E        [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E        [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E       Max absolute difference among violations: 1.84087162e-06
+E       Max relative difference among violations: 1.88213205e-05
+E        ACTUAL: array([[ 3.482281e-01,  5.907067e-02,  5.519323e-03, ..., -5.256180e-05,
+E                1.380687e-04, -1.488004e-04],
+E              [ 5.907067e-02,  3.367802e-01, -2.112484e-02, ...,  1.916970e-03,...
+E        DESIRED: array([[ 3.482282e-01,  5.907067e-02,  5.519323e-03, ..., -5.256180e-05,
+E                1.380687e-04, -1.488004e-04],
+E              [ 5.907067e-02,  3.367802e-01, -2.112484e-02, ...,  1.916970e-03,...
+
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: AssertionError
+____________ test_parameter_controls_remove_or_restore_light_modes _____________
+
+    def test_parameter_controls_remove_or_restore_light_modes():
+>       result = h.primitive_checks()
+                 ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_higgs_sector.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def primitive_checks():
+        geo, b = geometry(), base()
+        z = geo["z"]
+        np.testing.assert_allclose(constraints(z), 0, atol=1e-12)
+        rng = np.random.default_rng(202609057)
+        displaced = z+.02*rng.normal(size=294)
+        direction = rng.normal(size=294)
+        direction /= np.linalg.norm(direction)
+        eps = 1e-4
+        numerical = (constraints(displaced+eps*direction)-constraints(displaced-eps*direction))/(2*eps)
+        np.testing.assert_allclose(numerical, jacobian(displaced)@direction, atol=2e-10)
+        hplus, hminus = [full_tree_hessian(z+sign*eps*direction) for sign in [1, -1]]
+        first, second = derivatives(direction)[0]
+        numeric_first = geo["si"]@((hplus-hminus)/(2*eps))@geo["si"]
+        numeric_second = geo["si"]@((hplus+hminus-2*b["h0"])/eps**2)@geo["si"]
+        np.testing.assert_allclose(numeric_first, first, atol=2e-9)
+>       np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E       AssertionError: 
+E       Not equal to tolerance rtol=1e-07, atol=3e-07
+E       
+E       Mismatched elements: 12 / 86436 (0.0139%)
+E       First 5 mismatches are at indices:
+E        [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E        [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E        [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E        [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E        [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E       Max absolute difference among violations: 1.84087162e-06
+E       Max relative difference among violations: 1.88213205e-05
+E        ACTUAL: array([[ 3.482281e-01,  5.907067e-02,  5.519323e-03, ..., -5.256180e-05,
+E                1.380687e-04, -1.488004e-04],
+E              [ 5.907067e-02,  3.367802e-01, -2.112484e-02, ...,  1.916970e-03,...
+E        DESIRED: array([[ 3.482282e-01,  5.907067e-02,  5.519323e-03, ..., -5.256180e-05,
+E                1.380687e-04, -1.488004e-04],
+E              [ 5.907067e-02,  3.367802e-01, -2.112484e-02, ...,  1.916970e-03,...
+
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance
+FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes
+2 failed, 74 passed in 59.57s
+

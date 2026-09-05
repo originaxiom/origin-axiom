@@ -108,3 +108,8 @@ needs `SESSION_SCRATCH` holding B923's step-1 invariants cache.
   B1250 (the D₂ decode), B1252 (the Cartan metric), B1253 (the h¹ price), B883 (the 27),
   B854 (the charge invariants), B298/B324/B307 (the prior obstructions).
 - **Registers:** I-24 **REFUTED**.
+
+**2026-09-05 independent audit addendum:** exact matrix rebuild reproduces
+the commutator and single-carrier bound. The stronger physical-exhaustiveness
+and causal statements need the scope in `ADDENDUM_2026-09-05_CARRIER_SCOPE.md`.
+Original evidence and I-24's bounded refutation are retained.

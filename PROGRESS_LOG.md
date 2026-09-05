@@ -13968,3 +13968,20 @@ gives real results."* The instruction is the method: read the failures as a **fa
 - **THE COUNT MUST COME FROM MULTIPLICITY.** B1253's **h¹ = 3** is now the **only** surviving route,
   price unchanged: make the trivial (Sym⁰) summand chiral, or exhibit a bundle whose three classes
   are all chiral. Controls both ways: a cyclic cubic types **C3**; **[D₂, Cartan₀] = 0** exhibited.
+
+## 2026-09-05 — Independent second upstream audit: exact results and corrected scope
+
+Upstream 8f83b5c8 merged as e3b51950, controls sealed 8659634f before execution.
+The isolated original B854 rebuild completes in 85.50 s; stdout, exact
+invariants and all results are preserved. B1255's W18, 12/6 split, S3 types
+and nonzero commutator reproduce. Exact stacked kernels prove no homogeneous
+C eigenvector over scalar extensions. The single elementary carrier bound
+is retained, not expanded into a universal multiplicity no-go.
+
+B1254's three trace identities reproduce. Its predicate wrongly accepts
+x^2+1; decimation can send kappa=17/4 to 2; B497's injective det-one = Aut
+label has an explicit counterexample. That example changes kappa but not
+its square class. Source addenda preserve these distinctions and all old
+evidence. Quiescent focused suite: 74 passed, 2 failed in 59.57 s; only the
+preserved R7 small-step controls fail. Full evidence and next physical task:
+`reports/physical_bridge_2026_09_05/UPSTREAM_SECOND_AUDIT.md`.

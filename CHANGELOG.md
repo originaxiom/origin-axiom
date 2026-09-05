@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-05 — Second upstream audit: retain the exact results, bound the claims
+
+Independent B854 rebuild reproduces B1255's matrix obstruction and cubic types;
+the single-carrier bound stands. B1254's square predicate fails a genuine
+negative control, decimation needs a nonzero-factor condition, and B497's
+injective det-one = Aut label has an exact counterexample. Source addenda keep
+these distinct from universal dynamics/family-count exclusions. Focused suite:
+74 passed, two preserved R7 control failures. Evidence and scope:
+`reports/physical_bridge_2026_09_05/UPSTREAM_SECOND_AUDIT.md`.
+
 ## 2026-09-05 — R7: light doublets couple, but their vacuum must be solved
 
 The explicit two-scalar-27 extension has two light complex doublets and

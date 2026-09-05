@@ -160,3 +160,7 @@ unit's own growth law; M Fᵏ M = F_{k+3} M). No H1; nothing to escalate; firewa
 Phase 1 novelty gates (research window ~Jul 14). Q4 full defect dictionary (heavy; queued). Q2's full
 proof (unbounded atoroidality / Mutanguha hypothesis verification) — NEEDS-SPECIALIST or a longer
 certified search. The 3-manifold with-boundary statement — NEEDS-SPECIALIST.
+
+**2026-09-05 independent audit addendum:** the named trace identities reproduce,
+but injective det +/-1 is not equivalent to Aut. An explicit witness and its
+scope are in `ADDENDUM_2026-09-05_STRATUM_SCOPE.md`; original results retained.
