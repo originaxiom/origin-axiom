@@ -1,0 +1,38 @@
+R7 first scientific execution at a3f8f786, exit 1, before classical or
+quantum results. higgs_first_run.json is the preserved zero-byte first output.
+This is a portable derivative of stderr: repository and interpreter absolute
+prefixes are replaced by <repository> and <python>. The raw transcript remains
+outside the repository in the local audit workspace. No number is changed.
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<repository>/reports/physical_bridge_2026_09_05/higgs_sector.py", line 462, in <module>
+    main()
+  File "<repository>/reports/physical_bridge_2026_09_05/higgs_sector.py", line 210, in main
+    result = {"primitive_checks": primitive_checks(), "classical": classical(),
+                                  ^^^^^^^^^^^^^^^^^^
+  File "<repository>/reports/physical_bridge_2026_09_05/higgs_sector.py", line 70, in primitive_checks
+    np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+  File "<python>/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1768, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "<python>/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 983, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-07, atol=3e-07
+
+Mismatched elements: 12 / 86436 (0.0139%)
+First 5 mismatches are at indices:
+ [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+ [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+ [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+ [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+ [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+Max absolute difference among violations: 1.84087162e-06
+Max relative difference among violations: 1.88213205e-05
+ ACTUAL: array([[ 3.482281e-01,  5.907067e-02,  5.519323e-03, ..., -5.256180e-05,
+         1.380687e-04, -1.488004e-04],
+       [ 5.907067e-02,  3.367802e-01, -2.112484e-02, ...,  1.916970e-03,...
+ DESIRED: array([[ 3.482282e-01,  5.907067e-02,  5.519323e-03, ..., -5.256180e-05,
+         1.380687e-04, -1.488004e-04],
+       [ 5.907067e-02,  3.367802e-01, -2.112484e-02, ...,  1.916970e-03,...

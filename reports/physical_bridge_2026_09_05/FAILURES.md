@@ -144,3 +144,19 @@ not an unconditionally passing mathematical test. Direct 186-component
 scalar-gradient contraction and the reduced nine-mode solve also pass.
 Combined regression: 59 passed in 35.56 s. Governance still reports 27/3;
 no checker/test exception was introduced. Raw: `QUANTUM_SHIFT_CHECKS.txt`.
+
+## R7 first run: numerical second-derivative control fails before physics
+
+At a3f8f786 the first R7 runner exits 1 in the full-Hessian second finite
+difference: 12/86436 elements fail atol=3e-7 at step 1e-4, maximum violation
+1.84087162e-6. It never reaches classical or quantum physics results.
+The zero-byte `higgs_first_run.json` is retained, as is stderr in the
+explicitly portable `HIGGS_FIRST_FAILURE.txt`; the unsanitized original
+transcript stays outside the repository in the local audit workspace.
+
+`EXTENSION_5_REPAIR.md` pre-seals a polynomial-Hessian polarization control
+and step sweep, with the original tolerance and all physics unchanged.
+The original producer and test bytes are preserved, not overwritten. This
+is not evidence of a Higgs instability. One trailing blank line in the R6
+raw check transcript was also reported by diff --check at banking; its
+sealed bytes are retained rather than cosmetically rewritten.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-09-05 — R7 numerical-control failure preserved before physics
+
+The priced Higgs extension's first execution stops in a second finite
+difference, before classical or quantum verdicts. Original model, code,
+test, zero-byte output and failure transcript are retained. A new sealed
+wrapper tests exact polynomial-Hessian polarization and larger steps,
+without relaxing tolerances. No physics rejection follows from the
+failed control. `reports/physical_bridge_2026_09_05/EXTENSION_5_REPAIR.md`.
+
 ## 2026-09-05 — R6: leading quantum shifts preserve a small-coupling SM branch
 
 All 186 one-loop force components, the full quadratic-constraint Hessian and

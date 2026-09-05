@@ -13888,3 +13888,10 @@ and actual mixed-kernel Yukawa projections. The new action's success or
 failure will not retroactively alter the retained R4/R5/R6 result. Its
 preflight caught and corrected a literal-versus-regex history-search error;
 the corrected search is PRESENT on all nine heads. Design: `EXTENSION_5.md`.
+
+R7 first run at a3f8f786 stops at its numerical second-Hessian-derivative
+control, before a physics result. First artifact/stderr retained. The
+post-failure control extension uses the exact quadratic-Hessian identity
+and larger steps without changing tolerances or the scientific model;
+it is sealed before the rerun. No negative about Higgs physics is banked
+from this numerical discrepancy.
