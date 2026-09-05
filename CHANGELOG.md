@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-05 — R7: light doublets couple, but their vacuum must be solved
+
+The explicit two-scalar-27 extension has two light complex doublets and
+massive colored partners. All 294 real scalars and the actual mixed light
+fermion kernel are computed. Complete quantum feedback retains positive
+octet/triplet masses, generates negative Higgs curvatures at mu=1, and
+exposes large new singlet shifts. These facts motivate a controlled
+broken-phase calculation, not a physical-completion claim. Exact angular
+scale identities and rank-16 Yukawa support are registered. Original
+failed control and source bytes remain; polynomial polarization diagnoses
+subtraction error without changing the physics. `HIGGS_SECTOR.md` in the
+physical-bridge report folder holds both signs and the input budget.
+
 ## 2026-09-05 — R7 numerical-control failure preserved before physics
 
 The priced Higgs extension's first execution stops in a second finite

@@ -13895,3 +13895,31 @@ post-failure control extension uses the exact quadratic-Hessian identity
 and larger steps without changing tolerances or the scientific model;
 it is sealed before the rerun. No negative about Higgs physics is banked
 from this numerical discrepancy.
+
+## 2026-09-05 — R7: full Higgs extension computed, with both signs retained
+
+The original numerical failure is diagnosed: the quadratic tree Hessian's
+unit-step polarization agrees with its analytic second derivative to
+1.07e-14; the 1e-4 step amplified subtraction error to 1.84e-6. The wrapper
+was sealed at f5c40f4f before rerun; no scientific function/parameter or
+tolerance changed. Full output `higgs_rerun_1.json` succeeds in 20.33 s.
+
+Classically, 294 real scalars give 209 positive modes and 85 zeros = 66
+gauge + eleven old angular + eight new Higgs real components. Actual
+actions identify two doublets; their projected Yukawas on the mixed
+17-dimensional light kernel combine to rank 16 with the charged blocks
+nonzero. Exact extra scalar mass-fourth traces are polynomials in Tr A^2,
+so angular scale independence persists. Expanded octet/triplet curvatures
+stay positive, 0.007519833193 and 0.007366050627 at the reference inputs.
+
+The Higgs-zero background is unstable at leading order: Higgs curvatures
+-0.018284666133 and -0.020847297820 at mu=1. New singlet shifts have norm
+0.430910682 each, not negligible. No inert parity, omitted tadpole or
+electroweak-vacuum claim hides that. Next is the controlled weak-coupling
+broken-phase calculation with electromagnetic action and full residual
+modes. Added fields/couplings/tuning remain inputs, not a derived TOE.
+
+R7 focused tests: 2 failed, 8 passed in 21.48 s; the two old small-step
+controls remain visible alongside the two new passing controls. Source:
+`reports/physical_bridge_2026_09_05/HIGGS_SECTOR.md`. PB-MASS and PB-VACUUM
+progress, not closed. No old R4/R5/R6 producer/output is rewritten.

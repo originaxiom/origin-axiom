@@ -160,3 +160,12 @@ The original producer and test bytes are preserved, not overwritten. This
 is not evidence of a Higgs instability. One trailing blank line in the R6
 raw check transcript was also reported by diff --check at banking; its
 sealed bytes are retained rather than cosmetically rewritten.
+
+R7 repaired scientific run succeeds at f5c40f4f in 20.33 s. The independent
+polynomial polarization agrees to 1.07e-14; the step sweep verifies roundoff
+amplification as the original failure's cause. The focused suite including
+the unchanged original tests returns 2 failed, 8 passed in 21.48 s: exactly
+the two calls to the old small-step control fail. The replacement controls
+and all other tests pass. Full output: `HIGGS_FIRST_TESTS.txt`; no skip or
+xfail was introduced. Negative Higgs loop curvatures and large singlet
+shifts are separately reported as physical-model results, not test defects.

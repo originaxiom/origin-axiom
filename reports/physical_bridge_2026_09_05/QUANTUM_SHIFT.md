@@ -134,3 +134,9 @@ Governance is **27 passed, 3 failed**: the two preserved earlier defects and
 a static NO-ASSERT false positive on that unchanged numerical-assertion test.
 The checker is not weakened or exempted. All 48 then-listed hashes match.
 Raw output: [QUANTUM_SHIFT_CHECKS.txt](QUANTUM_SHIFT_CHECKS.txt).
+
+**Next model, R7:** [HIGGS_SECTOR.md](HIGGS_SECTOR.md) now computes a priced
+two-scalar-27 extension. It retains the positive angular result, adds two
+light doublets and actual light-kernel Yukawa support, but has a radiative
+Higgs instability and large new singlet shifts at its reference point.
+Those are results for the expanded model, not a retraction of R6 above.

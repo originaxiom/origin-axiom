@@ -2358,6 +2358,19 @@ open for higher orders/global scope; PB-MASS next addresses a priced light
 doublet and recomputation of its effect on the vacuum and threshold spectrum.
 Source: `reports/physical_bridge_2026_09_05/QUANTUM_SHIFT.md`.
 
+**R7 progress — a priced light-Higgs model is now computed.** Two added
+scalar 27s with an explicit positive-square potential supply one light
+complex doublet each and massive colored partners. All 294 real scalars
+are retained; the mixed 17-dimensional fermion kernel has rank-16 Yukawa
+support from the two neutral doublets. The full expanded one-loop model
+keeps positive octet/triplet curvatures but generates negative Higgs masses
+at the reference mu=1, with large new singlet shifts. This is neither an
+inert sector nor a completed electroweak vacuum. PB-MASS/PB-VACUUM next
+require the controlled broken-phase potential, electromagnetic stabilizer,
+orientation selection/residual modes and actual matched spectrum. New
+fields, couplings and light-mode tuning remain priced inputs; no old
+result is erased by this new model's warning. Source: `reports/physical_bridge_2026_09_05/HIGGS_SECTOR.md`.
+
 **PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
 exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's
 eight missing logs plus one cached-bytecode artifact. Exact paths, original

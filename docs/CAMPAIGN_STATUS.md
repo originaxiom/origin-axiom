@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**PHYSICAL CONTINUATION R7 (2026-09-05): two light doublets and full feedback.**
+The priced two-27 extension gives the actual doublet actions and rank-16
+Yukawa support on the mixed light kernel. Full 294-scalar quantum treatment
+retains positive octet/triplet masses, but Higgs masses are negative at
+mu=1 and new singlet shifts are large. Next is a controlled broken-phase
+vacuum, not a Higgs-zero stability claim. The first numerical-control
+failure is retained and diagnosed by polynomial polarization with unchanged
+tolerances/model. Source: `reports/physical_bridge_2026_09_05/HIGGS_SECTOR.md`.
+
 **PHYSICAL CONTINUATION R6 (2026-09-05): normal quantum shifts computed.**
 The complete leading stationary equation preserves the SM action. Reference
 scalar shifts are 14.9%; predeclared weak-coupling controls reduce them to
