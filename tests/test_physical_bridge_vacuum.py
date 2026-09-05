@@ -45,7 +45,10 @@ def test_exact_mass_blocks_and_zero_control():
         np.testing.assert_allclose(masses[:10], target, atol=1e-12)
         np.testing.assert_allclose(masses[10:], 0, atol=1e-12)
         for block in (d, l):
-            assert all((block*x).is_zero_matrix for x in block.nullspace())
+            assert all(sp.simplify(block*x).is_zero_matrix for x in block.nullspace())
+            # Simplification cannot make an actual non-kernel vector pass.
+            nonzero_col = next(i for i in range(block.cols) if any(block[:, i]))
+            assert not sp.simplify(block*sp.eye(block.cols)[:, nonzero_col]).is_zero_matrix
 
 
 def test_family_mixing_kernel_and_singular_values():

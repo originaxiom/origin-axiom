@@ -1,0 +1,25 @@
+..F.....                                                                 [100%]
+=================================== FAILURES ===================================
+___________________ test_exact_mass_blocks_and_zero_control ____________________
+
+    def test_exact_mass_blocks_and_zero_control():
+        s, n = sp.symbols("s n", real=True)
+        _, d, l = v.mass_blocks(s, n)
+        assert sp.simplify(d*d.H-(s*s+n*n)*sp.eye(3)).is_zero_matrix
+        assert sp.simplify(l*l.H-(s*s+n*n)*sp.eye(2)).is_zero_matrix
+        assert v.mass_blocks(0, 0)[0].is_zero_matrix
+        for ss, nn in [(1, 0), (0, 1), (1, 2), (1+2*sp.I, 3-sp.I)]:
+            m, d, l = v.mass_blocks(ss, nn)
+            masses = np.linalg.svd(np.array(m, complex), compute_uv=False)
+            target = float(sp.sqrt(abs(ss)**2+abs(nn)**2))
+            np.testing.assert_allclose(masses[:10], target, atol=1e-12)
+            np.testing.assert_allclose(masses[10:], 0, atol=1e-12)
+            for block in (d, l):
+>               assert all((block*x).is_zero_matrix for x in block.nullspace())
+E               assert False
+E                +  where False = all(<generator object test_exact_mass_blocks_and_zero_control.<locals>.<genexpr> at 0x11087c040>)
+
+tests/test_physical_bridge_vacuum.py:48: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_vacuum.py::test_exact_mass_blocks_and_zero_control
+1 failed, 7 passed in 13.45s

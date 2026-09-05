@@ -1,0 +1,89 @@
+{
+  "scope": "R4 chosen compact-E6 classical model; no empirical inputs",
+  "input_rep_sha256": "ea36d0eb1b48354cc77f74f866d216727c31309849c65d29345cbda7df8ab1ee",
+  "cubic": {
+    "monomials": 45,
+    "nullity": 1,
+    "abs_coefficients": [
+      1
+    ],
+    "invariance_equations": 1080
+  },
+  "singlet_indices": {
+    "S": 26,
+    "N": 10
+  },
+  "hypercharge_cartan": [
+    "0",
+    "0",
+    "1/3",
+    "2/3",
+    "1",
+    "1/2"
+  ],
+  "fermion_mass": {
+    "triplet_block": [
+      [
+        "0",
+        "0",
+        "-s",
+        "0",
+        "0",
+        "-n"
+      ],
+      [
+        "0",
+        "s",
+        "0",
+        "0",
+        "-n",
+        "0"
+      ],
+      [
+        "s",
+        "0",
+        "0",
+        "n",
+        "0",
+        "0"
+      ]
+    ],
+    "doublet_block": [
+      [
+        "0",
+        "s",
+        "0",
+        "-n"
+      ],
+      [
+        "s",
+        "0",
+        "n",
+        "0"
+      ]
+    ],
+    "pure_S_rank": 10,
+    "pure_N_rank": 10,
+    "mixed_symbolic_rank": 10,
+    "nonzero_dirac_mass": "sqrt(abs(s)**2+abs(n)**2), five equal copies"
+  },
+  "compact_stabilizer_dimensions": {
+    "S": 45,
+    "S_plus_2N_single_field": 45,
+    "S_and_N_distinct_fields": 24,
+    "S_N_and_Y": 12
+  },
+  "potential": {
+    "value_at_candidate": 7.888609052210118e-31,
+    "real_scalar_coordinates": 186,
+    "real_constraints": 275,
+    "exact_hessian_rank": 109,
+    "independent_numeric_rank": 109,
+    "hessian_zero_modes": 77,
+    "gauge_goldstone_modes": 66,
+    "nongauge_tree_level_zero_modes": 11,
+    "exhibited_octet_plus_triplet_modes": 11,
+    "all_zero_modes_accounted": true,
+    "stability_scope": "global classical minimum; not an isolated or quantum-stable vacuum"
+  }
+}

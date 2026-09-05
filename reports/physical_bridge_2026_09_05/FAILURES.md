@@ -55,3 +55,24 @@ The inventory and its hash are retained without rewriting the source names.
 This is a **local draft**, not a publication-ready all-gates-green certificate;
 no gate exception was added and nothing was pushed. A publication policy for
 literal source-reference metadata is still needed.
+
+## R4 first test run: an unevaluated zero, not a nonzero kernel residual
+
+The sealed runner completed and wrote `vacuum_results_first_run.json`. The
+separate first test run returned **7 passed, 1 failed in 13.45 s**; full output
+is retained in `VACUUM_TEST_FIRST_RUN.txt`. Original test hash:
+`340d031b5dc6beb8a9c394f4e405ee3b42cb8ddfcfb3286adefd34e8e442b0c0`.
+
+The complex-VEV kernel check asked `is_zero_matrix` about unevaluated arithmetic.
+Diagnostic example, obtained before editing:
+
+```text
+3 - I + (-1/5 + 7*I/5)*(1 + 2*I)
+is_zero_matrix: None; simplify(...).is_zero_matrix: True
+```
+
+Every affected residual simplified to exactly zero; none was accepted by a
+numerical tolerance. Repair: simplify the product before checking exact zero,
+and add an actual non-kernel vector that must still fail. The scientific
+instrument and its completed output are unchanged. The corrected test is
+re-hashed and committed before its rerun.
