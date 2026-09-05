@@ -125,7 +125,7 @@ None means the chosen bound is inconclusive, not that the model is impossible.
     x1_lower = x[0]-b1_max*t_u/(2*math.pi)
     if x1_lower <= 0:
         return None
-    a1_max, a3_max = 1/x1_lower, 1/x[2]
+    a1_max, a3_max = float(1/x1_lower), float(1/x[2])
     single = t_u*((2/5)*a1_max+8*a3_max)/(4*math.pi)
     return {"alpha1_uniform_upper_bound": a1_max,
             "alpha3_uniform_upper_bound": a3_max,
@@ -185,9 +185,10 @@ def main():
               "L_Casimirs_exact": [str(c) for c in casimirs(L_PAIR[0])],
               "required_sum_log_MD_over_ML": required,
               "uniform_bounds": bounds, "illustrative_models": examples}
+    # Validate the complete serialization BEFORE creating a result artifact.
+    payload = json.dumps(result, indent=2, allow_nan=False)
     with args.output.open("x") as handle:
-        json.dump(result, handle, indent=2, allow_nan=False)
-        handle.write("\n")
+        handle.write(payload+"\n")
     print(json.dumps(result, indent=2))
 
 

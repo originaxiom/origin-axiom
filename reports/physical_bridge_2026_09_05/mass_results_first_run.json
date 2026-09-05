@@ -1,0 +1,36 @@
+{
+  "status": "POST-R1/R2 CONDITIONAL MODEL CHECK; no new empirical test",
+  "input_sha256": "e355e65a8fbf22447b34d25b6d8bfdf89fcd7b4d3affc2209014b9ae34ae6caa",
+  "mass_blocks": {
+    "SU5_commutant_dimension": 1,
+    "SM_commutant_dimension": 2,
+    "SU5_basis": [
+      "Matrix([[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]])"
+    ],
+    "SM_basis": [
+      "Matrix([[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]])",
+      "Matrix([[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]])"
+    ],
+    "split_mass_control_rejected_by_SU5": true
+  },
+  "D_Casimirs_exact": [
+    "1/15",
+    "0",
+    "4/3"
+  ],
+  "L_Casimirs_exact": [
+    "3/20",
+    "3/4",
+    "0"
+  ],
+  "required_sum_log_MD_over_ML": 43.44769523156132,
+  "uniform_bounds": [
+    {
+      "copies": 1,
+      "bound": {
+        "alpha1_uniform_upper_bound": 0.025972727537949134,
+        "alpha3_uniform_upper_bound": 0.118,
+        "per_pair_log_MD_over_ML_upper_bound": 2.054049933363995,
+        "sum_log_MD_over_ML_upper_bound": 2.054049933363995
+      },
+      "sufficient_to_exclude_common_UV_mass_in_this_model": 

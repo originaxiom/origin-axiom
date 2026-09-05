@@ -1,5 +1,6 @@
 """Equation-level controls for the explicitly post-R1/R2 mass extension."""
 from fractions import Fraction as F
+import json
 import math
 
 import numpy as np
@@ -69,3 +70,10 @@ def test_single_interval_integral_has_independent_closed_form():
     endpoint = evolve(x,0,t,loops=1)
     expected = -2*math.pi/SM_B*np.log(endpoint/x)
     assert got == pytest.approx(expected,abs=1e-12)
+
+
+def test_bound_and_its_decision_are_json_serializable():
+    upper = common_uv_upper_bound(np.array([60.,30.,10.]),25.,3)
+    report = {"bound":upper, "excluded":upper["sum_log_MD_over_ML_upper_bound"] < 40.}
+    restored = json.loads(json.dumps(report,allow_nan=False))
+    assert restored == report and restored["excluded"] is True
