@@ -69,3 +69,28 @@ it is indistinguishable from special pleading.
 counterexamples — the regulator is Dirichlet, ℓ and σ are missing data) stand, so the thesis is
 **partially supported and not established**. What is retracted is the claim that the decisive test
 refuted it. It did not test it.
+
+---
+
+## ADDENDUM (2026-09-05) — A CERTIFICATION CAUTION ON THE CENSUS EVIDENCE (the theorem is untouched)
+
+Raised by an external reviewer, **confirmed against SnapPy's own documentation** on this bench
+(SnapPy 3.3.2):
+
+> `complex_volume()` returns the complex volume **modulo iπ²**, and the *verified* variant is
+> certified only **up to multiples of iπ²/2** (`verified_modulo_2_torsion=True`).
+
+In the normalised CS (`c = CS_geom/2π² ∈ ℝ/½ℤ`), an ambiguity of `iπ²/2` is an ambiguity of **1/4** —
+**exactly the 0-vs-¼ distinction this arc's census uses.** So a re-run using the *verified* route
+**cannot separate CS = 0 from CS = ¼**, and a seat reading that output as confirmation would be
+confirming nothing.
+
+**What this does NOT touch.** The theorem — amphichirality ⟹ `CS = −CS` ⟹ `2·CS = 0` ⟹ `CS ∈ {0, ¼}`
+— is proved from the symmetry, **not** from computation, and stands unchanged. This arc's census
+used SnapPy's **high-precision numerics** (`chern_simons()`; m004 returns 9.0e−17, `ManifoldHP`
+returns exactly 0), and this arc **never claimed interval-certified values** — checked, the word
+does not appear in that sense.
+
+**What it does touch:** the *evidence tier* of the census, and any future seat's instinct to
+"strengthen" it by switching on verification. **That switch weakens it.** Recorded here so the
+upgrade is not attempted as an improvement.

@@ -4403,6 +4403,8 @@
    "motifs": [
     "choice",
     "coupling",
+    "trace_map",
+    "kappa",
     "eisenstein",
     "golden",
     "amphichiral_cp",
@@ -4414,8 +4416,8 @@
     "H1",
     "L154"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 2,
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -5827,7 +5829,8 @@
     "kappa",
     "metallic",
     "golden",
-    "torsion"
+    "torsion",
+    "firewall"
    ],
    "refs": [
     "B286",
@@ -5839,12 +5842,58 @@
     "B6",
     "B766",
     "B806",
+    "B829",
     "H5"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 5,
+   "obstacle_conf": 8,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1248": {
+   "slug": "norm classification",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B167",
+    "K001"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1249": {
+   "slug": "the door and the class",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B167",
+    "B237",
+    "B727",
+    "B997",
+    "K001"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "topology"
   },
   "B124": {
    "slug": "time reversal reciprocity",
@@ -5873,6 +5922,64 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 1,
    "status": "open",
+   "domain": "arithmetic"
+  },
+  "B1250": {
+   "slug": "d2 decode",
+   "motifs": [
+    "choice",
+    "eisenstein",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B883",
+    "B916",
+    "B926"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1251": {
+   "slug": "five gates",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B298",
+    "B307",
+    "B916",
+    "B918",
+    "B923",
+    "L154"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1252": {
+   "slug": "metric and descent",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B307",
+    "B854",
+    "B873",
+    "B883",
+    "B919"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 4,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B125": {
@@ -25190,8 +25297,10 @@
   "B919": {
    "slug": "weinberg traces",
    "motifs": [
+    "coupling",
     "trace_map",
-    "metallic"
+    "metallic",
+    "eisenstein"
    ],
    "refs": [
     "B906",
@@ -25200,7 +25309,7 @@
     "L2"
    ],
    "obstacle": "gauge_dict",
-   "obstacle_conf": 4,
+   "obstacle_conf": 13,
    "status": "dead",
    "domain": "arithmetic"
   },

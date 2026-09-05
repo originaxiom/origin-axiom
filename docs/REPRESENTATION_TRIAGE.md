@@ -81,3 +81,16 @@ clock) are all invisible to it. The 13 PENDING rows below are unchanged across t
 reads (08-13, 08-21, this one) — they ride into the campaign's GC-5 register-repair cell rather
 than a fourth passive read. Detector fix owed: a short-claim lane (drop the floor for arcs whose
 id appears in zero live surfaces, regardless of claim length).
+
+## Currency read 2026-09-05 (B1248 / B1249)
+
+Both arcs this window are **SURFACE** — represented on CHANGELOG, PROGRESS_LOG and CAMPAIGN_STATUS
+in the same commit, with registry and ledger rows where owed:
+
+| arc | disposition | where represented |
+|---|---|---|
+| **B1248** — ε is the Fricke invariant read mod squares | **SURFACE** | THEOREM_REGISTRY (`T-EPS-IS-KAPPA-MOD-SQUARES`), IDENTIFICATION_LEDGER (I-20, I-21), RETRACTIONS (the B1192 refutation + E60), ERROR_LEDGER (E60), CLAIM_CANDIDATES, OPEN_ITEMS (I1 closed) |
+| **B1249** — the class does not pass the McKay door | **SURFACE** | CHANGELOG, PROGRESS_LOG, CAMPAIGN_STATUS; no registry row (declares `creates_law: false` — it is a census, not a law) |
+
+The 13 PENDING rows above are unchanged and still ride into the register-repair cell; this read adds
+no new PENDING. The short-claim-lane detector fix remains owed.

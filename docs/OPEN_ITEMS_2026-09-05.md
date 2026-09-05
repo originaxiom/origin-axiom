@@ -162,11 +162,24 @@ B1192's own adopted scope: *"the generic norm-+1-forces-ε=−1 mechanism does *
 PROVED is the **exhibited pair's** ε = −1 … **the general norm-classification is the named
 refinement**."*
 
-- [ ] **I1 — THE DECIDING COMPUTATION: the general norm-classification.** Two norm-+1 partners
-  realize the bit *differently*, so M₁ is **not forced by its norm class**. Either a rule forces the
-  partner — **and then A7 is DERIVED, the census drops 4 axioms → 3** — or the partners are provably
-  a torsor — **and then A7 is provably EXTERNAL (the H2 upgrade)**. *Both outcomes are worth having
-  and they are the same computation.* This is now the sharpest open item in the repo.
+- [x] **I1 — THE DECIDING COMPUTATION: the general norm-classification. CLOSED 2026-09-05 (B1248),
+  and the dichotomy it was posed with was FALSE.** The item offered two outcomes — *a rule forces the
+  partner* (A7 derived, 4 axioms → 3) or *the partners are a torsor* (A7 provably external, the H2
+  upgrade). **Neither holds. There is a third branch, and it is the actual answer:** the partners are
+  **classified by an exact arithmetic criterion**, `det X₀ = squarefree(2 − κ)` with `κ = tr[A,M]` the
+  Fricke–Vogt invariant — so **ε = −1 exactly when κ − 2 is a perfect square**.
+  - *Not forced*: the bit-carrying partners are an **infinite family** (κ = 2 + n²), not a point. So
+    A7 is **not** derived and the axiom census stays at 4.
+  - *Not a torsor*: the partners are **not** homogeneous — they carry **distinguishable invariants**
+    (D = +1 no bit, D = −1 direct, |D| > 1 torsor form with det X₀ = D). So the H2 upgrade does not
+    fire either.
+  - *What is gained instead*: the object **sharply constrains which partners can carry c**, by a
+    criterion rather than a survey. And the object's own value is now explained — m004's fibre has
+    `κ = −2` (parabolic commutator = **the cusp**), below the wall `κ = 2`, so the object alone
+    carries no bit **by mechanism**, not merely by the B1161/B1163/B1183/B1184 obstruction.
+  - Also collapses **B1189's kill** into the same law: (A,A) has no bit because κ = 2 is Fricke
+    reducibility, forced because A commutes with itself.
+  - Registry `T-EPS-IS-KAPPA-MOD-SQUARES`; lock `tests/test_b1248_norm_classification.py`.
 - [x] **I2 — the pattern confirmed one level up.** Trading "choose the order" for "choose the
   partner" is C22's shape again: **the object supplies the group, never the point** — now seen at
   three levels (the closing C22, the order A7, the partner B1192). Strengthens checklist **H5**;

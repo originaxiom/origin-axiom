@@ -72,3 +72,45 @@ itself* is not canonical at either the field or the embedding level — see that
 
 *This is the second MB12-vacuity found in a fortnight, both in supporting clauses rather than
 headlines.*
+
+---
+
+## ADDENDUM 2 (2026-09-05, B1248) — "THE CLASS RESTRICTS TO c" IS REFUTED. THE SIGN STANDS, AND ITS SUPPLY BECOMES INTRINSIC.
+
+ADDENDUM 1 (B1216) retracted the *eigenline evidence* for the restriction-to-c clause as
+MB12-vacuous, and left the clause itself standing on the det = −1 sign. **The clause is now refuted
+outright, with a proof.**
+
+**The refutation.** B1248 shows `det X ≡ 2 − κ (mod squares)` with `κ = tr[A,M]` the Fricke–Vogt
+invariant. κ is a function of the Fricke coordinates `(x, y, z) = (tr A, tr M, tr AM)`, and **all
+three are mirror-invariant**:
+
+> `tr A⁻¹ = tr A`, `tr M⁻¹ = tr M`, `tr(A⁻¹M⁻¹) = tr(AM)` — hence
+> **`κ(A,M) − κ(A⁻¹,M⁻¹) = 0` identically** (Gröbner residue exactly 0 modulo both det relations).
+
+So the class is **MIRROR-EVEN for every pair**, not only for the exhibited one. By **B1161**'s
+free-orbit theorem a mirror/Galois-invariant object quantity is **constant across branches**, so the
+class **cannot be c**. The headline's *"the class restricts to c"* — and the arc's description of ε
+as **mirror-odd** — do not survive.
+
+**What is untouched, and it remains the headline's real content.** `ε = −1` is a well-defined,
+dimensionless, **non-vacuous** ℤ/2-valued datum of the pair (B1248's trichotomy exhibits all four
+branches, and the value −1 is reproduced exactly as `2 − κ = 2 − 3`). The *existence* of a
+bit-valued relational class stands. What falls is its identification with the orientation bit.
+
+**And the supply becomes intrinsic — a strict upgrade on this arc.** B1192 needed an **external**
+partner M₁ (the √3-side matrix, an outside choice) to exhibit ε. B1248 shows the object supplies a
+canonical non-commuting partner of its own — `X_A`, the realizer of its own amphichirality, with
+`κ(A, X_A) = tr²A − 2 = 7` — giving `2 − κ = −5 = −disc ℚ(√5)`, a **torsor** over ℚ.
+*Fence: X_A comes from the amphichirality, which B1234 showed is a consequence of axiom **A6**, so
+this is intrinsic modulo A6.* **And a vacuity correction, self-caught:** a draft added that the
+torsor "becomes the bit over ℚ(√5), the object's own field." **That is generic** — `2 − κ` is minus
+the discriminant of A's characteristic polynomial, so the class trivialises exactly over A's own
+eigenvalue field for **every** A. Only *which* field (ℚ(√5), from tr A = 3) is object-specific.
+
+**Net for the ledger.** The bit's **supply** is now object-internal (better than banked); the bit's
+**orientation content** is refuted (worse than banked). These two were conflated in the original
+headline. **A7 does not move**, and B1161 is untouched — but the reason is now a theorem rather than
+an unclosed gap.
+
+Rows F2/H1 keep their "first realized instance" content with the restriction-to-c clause struck.

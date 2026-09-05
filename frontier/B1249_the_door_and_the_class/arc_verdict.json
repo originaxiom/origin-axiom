@@ -1,0 +1,26 @@
+{
+ "id": "B1249",
+ "verdict": "PROVED",
+ "claim_one_line": "2T CANNOT HOLD THE BIT -- and the 'door' attribution this arc was written to make was REFUTED BY ITS OWN CONTROL, which is recorded rather than dropped. (1) THE REAL CONTENT: 2T built by closure from (i,j,omega), order 24; over ALL 576 pairs kappa takes EXACTLY three values {-2, 0, 2} (24/384/168), so 2-kappa in {4,2,0}, class D in {+1,2,0}, and THE CLASS -1 -- THE BIT -- NEVER OCCURS ANYWHERE IN 2T (eps = -1 needs kappa-2 a positive perfect square; 2T's kappa-2 in {-4,-2,0} never is). This is a property of the GROUP, not of any map into it. (2) The fig-8 relator w x w^-1 = y, w = x^-1 y x y^-1, has 72 solutions in 2T of which 48 GENERATE -- reproducing the banked surjection count (B237/B1019/B997) from the relator alone, the arc's control that group and relator are right. (3) THE FAILED ATTRIBUTION: a draft headlined 'all 48 surjections give kappa = 0, so THE DOOR is not class-preserving'. The discriminating control refutes it -- ALL 384 GENERATING PAIRS of 2T already have kappa = 0, so the relator cuts NOTHING and kappa = 0 on the surjections is a fact about GENERATION IN 2T, not about the figure-eight relator or the door. Correct statement, weaker and more general: any surjection from any group onto 2T sends a generating pair to class D = 2, and with (1), 2T cannot carry the bit HOWEVER one maps into it. The conclusion survives; the door-specific framing does not. (4) RAMIFICATION, two facts with NO map between them: the object's algebra (5,-5) is split everywhere; 2T's is (-1,-1), the HURWITZ quaternions, ramified at exactly {2, oo} (Hilbert symbols; controls matching known answers both ways). A draft said 'the door ADDS ramification' -- REMOVED: no map between the two algebras is exhibited, so a causal reading is exactly the T-IDENTIFICATION-IS-AN-INPUT error. The facts are recorded side by side with nothing claimed to flow between them. FENCED: SU(2) is NOT derived -- 2T sits inside SU(2) by construction. kappa is not a homomorphism invariant. No measured value. Gate 5 clean.",
+ "instrument": true,
+ "depends_on": [
+  "B1248",
+  "B237",
+  "B1019",
+  "B997",
+  "B167",
+  "B727"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "Ran because the owner asked where the computations were, mid-session, and was right to. TWO of this arc's three draft claims were killed by their own controls before banking -- the door attribution (384/384 generating pairs already have kappa = 0, so the relator discriminates nothing) and the 'door adds ramification' causal reading (no map exhibited). What survives is narrower and true: 2T's kappa spectrum omits the bit entirely. The 48 came out of the relator unprompted and matches the banked count, which is the arc's control that the setup is right.",
+ "identifications": [],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-05",
+  "arc": "B1249",
+  "was": "candidate: none. The results are a census (2T's kappa spectrum, the 48 surjections, the ramification sets), not a law.",
+  "now": "NO LAW. The uniformity kappa = 0 on all 48 surjections is a computed fact about one finite group, not a general statement; it is locked as a census in tests/test_b1249_door_and_class.py."
+ }
+}

@@ -532,6 +532,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B967` | PROVED | S | | L139 EXECUTED -- THE RETRACTION SWEEP. Rule: retracting a claim does not retract its INSTANCES, so a retraction is NOT COMPLETE until its phrase is registered in docs/RET… |
 | `B1067` | PROVED | S | | The branch-resident Q(sqrt-3) class-field asset lands on main DOUBLE-REBUILT (22/23 claims re-derived independently on two declared-different routes; the 23rd is a repo-s… |
 | `B1101` | PROVED | S | | THE CERTIFICATION ENVELOPE ADOPTED (Review 47's methodology delta, owner-elected): during any certifying suite the working tree is read-only by convention -- scratchpad s… |
+| `B1248` | PROVED | S | | EPSILON IS THE FRICKE INVARIANT READ MODULO SQUARES -- closing the refinement cell B1192 named and left open ('the general norm-classification'), carr… |
 
 ## The exhibit that forced the rebuild
 

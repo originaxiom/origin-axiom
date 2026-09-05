@@ -13573,3 +13573,99 @@ before that became an unearned identification.
 raised in the session, so none of it depends on memory. It carries one thing explicitly **not**
 claimed: the candidate synthesis *"the object is complete about itself and empty about everything
 else"*, with its own falsifier, for attack at Review 55.
+
+
+---
+
+## 2026-09-05 — B1248: ε is the Fricke invariant read modulo squares (the bad probe, corrected)
+
+The owner rejected the previous crossing verdict (*NO FORCED MAGNITUDE*) on the ground that it
+misunderstood what a crossing is. The rejection was right. The probe had scanned five values of a
+function without ever computing the function.
+
+- **The law**: `det X · (cq − br)² = 2 − κ`, an identity (Gröbner residue exactly 0), where
+  `κ = tr[A,M]` is **K001/B167's own Fricke–Vogt first integral**. ε was never a separate object.
+- **The trichotomy**: `det X₀ = squarefree(2 − κ)` over ℤ — one criterion reproducing all four
+  behaviours B1192 and B1189 banked separately (13 partners, realizer recomputed independently of
+  B1192's instrument; all four branches occur, so non-vacuous both ways).
+- **B1192's named-open refinement cell CLOSED** (checklist item I1, carried since 2026-08-27).
+  **B1189's kill dissolved**: (A,A) has no bit because κ = 2 is Fricke reducibility, forced.
+- **ε = −1 exactly when κ − 2 is a perfect square.**
+- **Known mathematics, computed not cited**: ε is the second Hilbert-symbol slot of the
+  Maclachlan–Reid quaternion algebra `(tr²A−4, 2−tr[A,M])`, 267/267 exact. First slot for the
+  object = `5 = disc ℚ(√5)`. Recorded as rediscovery.
+- **The object alone has no bit, with a mechanism**: m004's fibre has parabolic commutator κ = −2 —
+  the cusp pins κ below the wall κ = 2. B1161/B1163/B1183/B1184 had the obstruction; this supplies
+  the reason.
+- Fenced to `det M = +1`; four self-caught errors recorded in the arc (wrong partner matrix, a
+  uniform sign flip, an over-read survey, and an adjugate-for-inverse bug caught by its own lock).
+- **NOT claimed**: no crossing to physics, no measured value. Gate 5 clean.
+
+Also landed: `docs/DERIVATION_RECORD.md` (the novelty ledger read with the sign flipped) and the
+two B1242 addenda owed to `B675_hcusp_sweep` and `B715_native_gauge`.
+
+### Addendum, same session — the canonical pairs, and a correction to B1192
+
+- **Identity**: `κ(A, X_A) = tr²A − 2` for the object's own amphichirality realizer (symbolic
+  residue 0; 158/158 numeric). For m004: κ = 7, `2 − κ = −5 = −disc ℚ(√5)`.
+- **The field twist**: −5 is a torsor over ℚ and over ℚ(√−3), but is **exactly the bit −1 over
+  ℚ(√5)** — the monodromy's own field, and minimal. The bit's *supply* is intrinsic; B1192 had to
+  import a partner.
+- **The vacuity kill**: the meridian pair's class −1 looked like a bigger result and **is vacuous** —
+  `2 − κ = −y²` for any two parabolics, in any field, for every knot complement.
+- **E53 correction into B1192**: the class is **mirror-even for every pair** (all three Fricke
+  coordinates are mirror-invariant), so **"the class restricts to c" is refuted**, strengthening
+  B1216's partial retraction. A7 does not move; B1161 untouched.
+- Suite went RED first (3 failures, all mine, all bookkeeping: `total_rows` 19→21 and a missing
+  claim-pool row). Ratchet `unearned` held at 8 — no identification was relabelled to get green.
+
+### B1249 — 2T cannot hold the bit; two draft claims killed by their own controls
+
+- **Survives**: 2T's κ-spectrum over all 576 pairs is exactly `{−2, 0, 2}`, so **class −1 never
+  occurs in 2T** — a property of the group: **2T cannot carry the bit however one maps into it**.
+- The fig-8 relator gives 72 solutions, **48 surjective — the banked count, re-derived** from the
+  relator alone (the arc's control that the setup is right).
+- **REFUTED before banking**: the draft *"all 48 surjections give κ = 0, so the DOOR is not
+  class-preserving"* — **all 384 generating pairs of 2T already have κ = 0**, so the relator cuts
+  nothing and the fact is about generation in 2T. Locked permanently.
+- **REMOVED before banking**: *"the door adds ramification"* — object algebra `(5,−5)` split, 2T's
+  `(−1,−1)` ramifies at `{2, ∞}`, but **no map between them is exhibited**; the two facts now stand
+  side by side with nothing claimed to flow. Fenced: SU(2) is *not* derived; 2T ⊂ SU(2) by
+  construction.
+- **Also corrected in B1248/B1192**: the draft *"the torsor becomes the bit over ℚ(√5), the object's
+  own field"* is **generic** — `2 − κ` is minus the discriminant of A's characteristic polynomial,
+  so the class trivialises over A's own eigenvalue field for **every** A. Only *which* field is
+  object-specific.
+- Also this session: **E60** recorded — an identification written in a wrong form whose downstream
+  conclusion happened to be right, so nothing red. Caught by computing 2T against the known Hurwitz
+  answer; the 2T control is now permanent in the B1248 lock.
+
+### B1250 — the D₂ decode (2026-09-05)
+
+- **D₂(w) = (−1)^(⟨w₁₃,w⟩+1)**, unique, exact on all 27; `w₁₃` is itself one of the 27.
+- Stabiliser **exhibited**: 40 even roots + 6 Cartan = **46 = so(10)⊕u(1)**; complement **32 = 16+16̄**.
+- Its **orbits are [1,10,16]** → **D₂ flips the 1+10 and fixes the 16** (the matter/Higgs split).
+- B916's kill reproduced (0 plain solutions); its **"11 = 8+3" guess corrected to 1+10**.
+- Control **0/4000**; chance match ~1 in 10⁶. **M1 survives stage (a)**; stage (b) RED, untouched.
+- Landed with it: **B919 genericity fence** (3/8 identical for 5, 5̄, 10, 16, 27; Y-anchoring
+  registered as **I-23**, ratchet raised 8→9 *with a documented reason*), **B1224 certification
+  caution** (verified CS can't separate 0 from ¼), and **seven retracted phrases** registered.
+
+### B1251 + B1252 — the metric, and the descent to one SM generation (2026-09-05)
+
+- **Cartan metric recovered** for the B854 basis: unique, zero free parameters, validates on
+  roots (all length² = 2) and weights (all 4/3). **The repo had none**, and a naive dot product
+  gives 7 root lengths in a simply-laced algebra.
+- **Retracted**: this seat's "480 candidates, no selector" step-3 wall — broken metric, *and*
+  already answered by B873's banked unique winners.
+- **Descent runs**: E₆ → SO(10) (forced, B1250) → SU(5) → SU(3)×SU(2) → **one SM generation,
+  hypercharges exact**, unique Y = [0,−5,−4,5,−2,2] at scale 1/6.
+- **Not "the SM derived"** — Y is unique up to scale once the subgroup is fixed; the new content
+  is the metric and step 1.
+- **Object-forced descent tested and refuted by its own control** (weight vs non-weight characters,
+  exhaustive 63; sign reversal at level 3). Consistent with B1225's β-odd/dimensionful requirement.
+- B1251: HIER is S₃ (no B307 conflict); the cubic is uniformly D₂-odd, forcing B916's uniformity;
+  c((E₆)₁) = rank(E₆); five places, one gate, two shapes needing no measured value.
+- Ratchet lock **strengthened**, not weakened: `test_the_ratchet_was_lowered_by_EARNING...` now
+  replays the entire documented raise/lowering trail instead of pinning `== 8`; verified to catch
+  four undocumented-change attacks the old literal pin would have passed.

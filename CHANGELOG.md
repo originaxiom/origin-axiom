@@ -1,5 +1,216 @@
 # Changelog
 
+## THE DESCENT RUNS: one SM generation with correct hypercharges — and the instrument that was missing
+
+**B1252 + B1251.** Owner: *"derive the full SM right now"*, then *"every butt has a hole"*. Both acted on.
+
+**THE INSTRUMENT THE REPO LACKED.** The **B854 coordinates are not orthonormal** and no metric for
+them was banked. A naive dot product gives **seven distinct root lengths in a simply-laced algebra**
+— so every "orthogonality" conclusion drawn that way is invalid, **including one this seat produced
+in-session** (a claimed *"480 candidate SU(3)×SU(2) embeddings, no selector"*, reported as a wall in
+the SM descent). **Retracted.** It was wrong twice: broken metric, **and** B873 had banked the answer
+already — *"Winners: SO(10)×U(1), SU(5)×U(1), SM — unchanged and unique"*, every rival killed by
+computation, citation-free. **One repo sweep would have found it before any computation ran.**
+
+**THE METRIC.** E₆ simply-laced ⟹ the unique symmetric M with `αᵀMα` constant on 72 roots. **One
+solution, zero free parameters**, validating on two conditions not imposed: **all 72 roots length² =
+2**, **all 27 weights length² = 4/3**.
+
+**THE DESCENT.** E₆ → SO(10) **forced** (B1250, metric-free) → SU(5) (A₄, closed) → SU(3)×SU(2)
+(A₂+A₁) → and **exactly one** direction `Y = [0,−5,−4,5,−2,2]` (scale 1/6) grades the **16** into
+`Q 1/6 · u^c −2/3 · d^c 1/3 · L −1/2 · e^c 1 · ν^c 0` — **one complete Standard Model generation with
+correct hypercharges, on the object's lattice.**
+
+**WHAT IT IS NOT — stated before the result was seen, and kept.** Not *"the SM derived"*: once
+SU(3)×SU(2) is fixed inside SU(5), hypercharge is **unique up to scale** by standard Lie theory, so
+exhibiting it confirms **consistency, not novelty**, and the scale is a convention (B919's addendum).
+The genuinely new content is **the metric** and **step 1**, which was an input this morning.
+
+**THE HOLE IN THAT CAVEAT WAS LOOKED FOR AND CLOSED BY ITS OWN CONTROL.** If the object's weights
+supplied the characters cutting each level, "fixed by hand" would die. All 27 weight-characters were
+compared against the **exhaustive** 63 non-trivial mod-2 characters — *not* against a pool containing
+them, which was the first attempt's flaw: so(10) **56% vs 33%**, su(5) **59% vs 44%**, su(3)+su(2)
+**33% vs 53%**. Fisher p = 0.122/0.311/0.200; but **p-values are the wrong instrument on an exhaustive
+population** — what decides it is the **sign reversal at level 3**, since a real selector does not flip
+at the final step. **Not object-forced.** Consistent with **B1225**: a selector needs β-odd or
+dimensionful data, and a mod-2 character is neither — now **measured**, not only predicted.
+
+**B1251 banks four cross-readings** the record had never made: **HIER is S₃** so B307's C₃ obstruction
+does not apply; the **E₆ cubic is uniformly D₂-odd** (5×1·10·10 + 40×10·16·16), which **forces**
+B916's observed transport uniformity and supplies B923's gap 1; **c((E₆)₁) = 6 is just rank(E₆)**,
+confirming GC-19's route 1a rather than extending it; and **five places funnel into one gate**, of
+whose five shapes **two need no measured value**.
+
+## THE D₂ DECODE: THE TWIST IS THE SO(10) GRADING — a positive, found by searching one bit wider than a banked negative
+
+**B1250.** The owner's instruction was blunt and correct: *stop hunting negatives to sabotage the
+process when you can search for positives.* Applied to **M1**, the shape B926's surviving-shapes menu
+calls *"the strongest positive structure on the menu"*, whose stage **(a)** B926 marks explicitly
+**UNAFFECTED BY THE OWNER GATE** — and which this seat had never opened.
+
+**B916 searched the plain character `(−1)^⟨a,w⟩` (64 candidates) and correctly found none** —
+reproduced here, 0 solutions. **The affine form was one bit outside that search space:**
+
+> **D₂(w) = (−1)^(⟨w₁₃,w⟩ + 1)**, `w₁₃ = [1, 0, −1, 0, 1, −1]` — exact on all 27 weights, `w₁₃`
+> **itself one of the 27** and itself flipped, and **exactly one** weight of the 27 generates it.
+
+**Not a fit:** 128 candidates against 2²⁷ patterns is ~1 in 10⁶, and the two-sided control gives
+**0 of 4000** random 11-subsets admitting an affine character.
+
+**THE DECODE, EARNED BY THE B1223 TEMPLATE.** A root sends `w → w+α`, so the flip parity changes by
+`⟨w₁₃,α⟩ mod 2` — the **even** roots generate the character's stabiliser. From the B883 rep (**72
+roots recovered cleanly; e₆ has exactly 72**): **40 even → stabiliser dim 46 = so(10)⊕u(1)**, 32 odd
+→ complement **32 = 16+16̄**; and the stabiliser's **orbits on the 27 are [1, 10, 16]** with singlet
+block exactly `{w₁₃}`. Therefore **D₂ FLIPS THE 1 + 10 AND FIXES THE 16.** The subalgebra is
+*exhibited* and *acts* — not dimension-matched. **B916's "11 = 8+3" guess is corrected to 11 = 1+10.**
+
+**M1 SURVIVES ITS STAGE-(a) TEST.** B926's stated risk was that the decode *"may dissolve the twist
+into convention (then the shape dies honestly)"*. Unique generator, 0/4000 control: it does not
+dissolve. **NOT claimed** that the object produces Standard Model matter — the 16 "being a
+generation" is standard GUT nomenclature for the representation, and reading it as output is the
+I-13 debt. Stage (b) is RED and untouched. Gate 5 clean.
+
+## THREE CORRECTIONS LANDED AT SOURCE, AND A BANKED POSITIVE FENCED
+
+**B1192 — "the class restricts to c" is REFUTED**, where B1216 had only retracted its evidence. κ is
+a function of the Fricke coordinates, all three mirror-invariant, so the class is **mirror-even for
+every pair** and cannot be c (E53 correction written into B1192 itself).
+
+**B919 — `sin²θ_W = 3/8` gains the genericity fence it never had.** Flagged by an external reviewer
+working from two files without ledger access; **verified here**: `Tr(T₃²)/Tr(Y²) = 3/5` for the **5,
+5̄, 10, 16 and 27 alike**. The arc's "no convention" claim holds for **T₃** and **not** for **Y**,
+which is *anchored by the electromagnetic identification* — an unregistered I-13 instance, now
+**I-23**, and the reason the ratchet was **raised 8 → 9 with a documented reason** rather than
+evaded. Object-specific: that the object supplies the su(2)-ideal. **Not the number.**
+
+**B1224 — a certification caution.** SnapPy's *verified* complex volume is certified only up to
+`iπ²/2` = **1/4** in normalised CS — exactly the 0-vs-¼ distinction the census uses. The **theorem is
+untouched** (proved from `CS = −CS`), the arc never claimed certification, and the caution is
+recorded so no seat "strengthens" the census by switching verification on, which would weaken it.
+
+**Seven retracted phrases registered** (B967's rule: a retraction is not complete until its phrase
+is), including four of this seat's own drafts killed by their own controls.
+
+## 2T CANNOT HOLD THE BIT — and this arc's own control refuted the headline it was written to make
+
+**B1249.** B1248's law fired at the chain's door **π₁(m004) ↠ 2T ↠ E₆**. Two of the three draft
+claims were killed by their own controls **before banking**; both are recorded, not dropped.
+
+**WHAT SURVIVES — and it is a property of the group, not of any map.** Over **all 576 pairs** of 2T,
+`κ ∈ {−2, 0, 2}` exactly. So `D ∈ {+1, 2, 0}` and **the class −1 — the bit — never occurs anywhere
+in 2T**: ε = −1 needs `κ − 2` a positive perfect square, and 2T's `κ − 2 ∈ {−4,−2,0}` never is.
+**2T cannot carry the bit, however one maps into it.**
+
+**The 48 surjections came out of the relator** — `w x w⁻¹ = y`, `w = x⁻¹ y x y⁻¹`, 72 solutions of
+which **48 generate** — **reproducing the banked count** (B237/B1019/B997) with no reference to it.
+That is the arc's control that group and relator are right.
+
+**THE ATTRIBUTION THAT FAILED.** The draft headlined *"all 48 surjections give κ = 0, so **the door**
+is not class-preserving."* The discriminating control refutes it: **all 384 generating pairs of 2T
+already have κ = 0.** The relator **cuts nothing**; κ = 0 on the surjections is a fact about
+*generation in 2T*, not about the figure-eight relator or the door. Locked permanently in
+`test_the_relator_discriminates_NOTHING_the_door_claim_is_refuted`.
+
+**AND THE CAUSAL READING REMOVED.** The draft also said *"the door **adds** ramification"* (object
+algebra `(5,−5)` split; 2T's `(−1,−1)`, the **Hurwitz quaternions**, ramified at `{2, ∞}`). **No map
+between the two algebras is exhibited**, so that reading is exactly the error
+`T-IDENTIFICATION-IS-AN-INPUT` forbids. The two facts now stand side by side with **nothing claimed
+to flow between them**.
+
+**FENCED: SU(2) is not derived** — 2T ⊂ SU(2) by construction. κ is not a homomorphism invariant.
+No measured value. Gate 5 clean. Lock `tests/test_b1249_door_and_class.py`.
+
+## ε IS THE FRICKE INVARIANT READ MOD SQUARES: a bad probe, rejected by the owner, and the law it had been standing on
+
+**B1248.** The prior crossing probe (prereg `6705d6b2`) asked *"does a pair supply a NUMBER?"*,
+scanned five partners, saw `{−1, −19, −29, −71, −181}` and returned **NO FORCED MAGNITUDE**. The
+owner rejected the verdict on the right ground — *"the crossing problem is just our ignorance not
+understanding what crossing means and what we expect"* — and the rejection was correct. **The probe
+scanned five values of a function and never asked for the function.** Its stop rule (*the magnitude
+must be forced with no partner choice*) demands the object be a complete theory with zero inputs; no
+physical theory passes it, and every banked success of this programme — sin²θ_W = 3/8, I = −1,
+λ = 1, the hierarchy ratios — is a partner-independent **relation**, not an emitted number.
+
+**THE LAW.** One symbolic solve: for `A, M ∈ SL₂` with `cq − br ≠ 0`, the simultaneous-mirror
+realizer satisfies the **identity** `det X · (cq − br)² = 2 − κ`, with
+`κ = tr[A,M] = x²+y²+z²−xyz−2`. Gröbner residue **exactly 0**; denominator a perfect square. And κ
+is not new: it is **K001 / B167's own Fricke–Vogt first integral of the trace map**. *The relational
+bit was never a separate object.*
+
+**THE TRICHOTOMY, and four banked facts collapsing into one.** Over ℤ the realizer module is free of
+rank 1 (rank 2 exactly when κ = 2), and — **corrected in-session by a peer seat and verified here** —
+its generator comes straight off the **additive commutator**, no linear solve: `det(AM − MA) = 2 − κ`
+identically, so **`det X₀ = det((AM − MA)/g) = (2 − κ)/g²`**, `g` the entry-gcd. *(This arc first
+claimed `det X₀ = squarefree(2 − κ)`. **False** — 493/500 against the real realizer versus 500/500
+for the commutator form; at `2 − κ = −121`, `g = 1`, the truth is a **torsor** and squarefree would
+have called it **the bit**.)* **Corrected criterion: ε = −1 ⟺ 2 − κ = −g².** And a **second peer
+catch, confirmed**: B1192's √2 control fixed **one matrix** and spoke of the **field** — both signs
+occur inside ℚ(√2), so the exclusion holds for the pair, not the field, and this arc had repeated
+the field-level phrasing. That single criterion
+reproduces everything **B1192** and **B1189** recorded as separate empirical observations: `D=+1`
+no bit (√2, κ=−2); `D=−1` **ε=−1 DIRECT** (B1192's crown positive, κ=3); `|D|>1` **torsor form**
+with det X₀ = D (√7 → −29, √6 → −19, √15 → −181); `κ=2` rank-2 module, both signs. **B1189's kill is
+dissolved**: (A,A) has no bit because κ = 2 *is* Fricke's reducibility locus, forced because A
+commutes with itself. This closes the refinement cell **B1192 named and left open** — carried since 2026-08-27, checklist
+item **I1**.
+
+**IT IS KNOWN MATHEMATICS, AND THAT IS THE GOOD OUTCOME — with one claim of mine refuted en route.**
+The **Maclachlan–Reid quaternion algebra** is `(A₀², B₁²) = (tr²A−4, (2−κ)/(tr²A−4))`, verified
+267/267 exact. A draft of this arc wrote it as `(tr²A−4, 2−κ)` and called **ε itself** the second
+slot. **Wrong** — and what caught it was computing **2T**, the chain's own door: on the Q8 pair the
+true algebra is `(−1,−1)`, the **Hurwitz quaternions**, the known answer for the binary tetrahedral
+group, while the wrong form gives split `(−1,+1)`. ε and the second slot differ by exactly the first
+slot. `det X₀ = squarefree(2−κ)` is untouched (14/14 integral) and the lock already encoded the
+correct formula — only the prose was false. For the object the algebra is `(5,−5)`, split; the
+draft's `(5,−1)` is *also* split, so the conclusion survived while the statement did not. That is a
+coincidence, not a defence. First slot for the object: `tr²A − 4 = 5 = disc ℚ(√5)`. Banked as
+**rediscovery, not novelty** (`docs/DERIVATION_RECORD.md`).
+
+**THE OBJECT'S OWN VALUE — and a mechanism where there had only been an obstruction.** m004's
+once-punctured-torus fibre has parabolic commutator **κ = −2**, so `2 − κ = 4` and `D = +1`: the
+object alone carries **no bit**. B1161/B1163/B1183/B1184 held that conclusion as an *obstruction*
+(free orbit, no self-signing, parity). It now has a **mechanism: the cusp pins κ below the wall
+κ = 2**, past which alone the bit can turn on. What A7 needs is not "an outside" in the abstract —
+it is a partner that pushes κ across the reducibility wall.
+
+**CORRECTION LANDED IN THE SOURCE ARC (E53).** B1248's mirror-parity result **refutes B1192's
+headline clause** *"the class restricts to c."* B1216's addendum had retracted only the *eigenline
+evidence* as MB12-vacuous, leaving the clause standing on the det = −1 sign. The clause itself now
+falls: κ is a function of the Fricke coordinates `(tr A, tr M, tr AM)`, **all three mirror-invariant**,
+so `κ(A,M) = κ(A⁻¹,M⁻¹)` identically and **the class is MIRROR-EVEN for every pair** — hence, by
+B1161's free-orbit theorem, constant across branches and **not c**. ε's *existence* as a
+non-vacuous ℤ/2 datum stands; its identification with the orientation bit does not.
+
+**AND THE SUPPLY BECOMES INTRINSIC.** B1192 needed an **external** partner M₁. The object supplies
+its own: `X_A`, the realizer of its own amphichirality, non-commuting by construction, with the
+identity **`κ(A, X_A) = tr²A − 2`** (symbolic residue 0; 158/158 numeric). For the object
+`κ = 7`, so `2 − κ = −5 = −disc ℚ(√5)` — a **torsor over ℚ and over the trace field ℚ(√−3), but
+exactly the class −1 over ℚ(√5), the field its own monodromy generates** (minimal: the class
+trivialises iff √5 ∈ K). *The torsor was never a wall; it was a wall over the wrong field.* Fenced:
+X_A comes from the amphichirality, which B1234 traced to axiom **A6**.
+
+**THE THREE CANONICAL PAIRS, GRADED — and the best-looking one was killed by its own vacuity check.**
+Computed in π₁(m004) itself (relator verified, 340/340 traces in ℚ(√−3), volume matching to 1e-15),
+the **meridian pair** gives class −1 and briefly looked like the object supplying its bit
+intrinsically, *reversing* the monodromy conclusion. **It is vacuous**: for any two parabolics
+`tr[a,b] = y² + 2`, so `2 − κ = −y²`, minus a perfect square **identically, in every field** — the
+class −1 is shared by the meridian pair of *every* cusped hyperbolic knot complement (cross-checked
+on 5₂, 6₁). The **fibre pair**'s +1 is likewise generic (κ = −2, the cusp). **Only the monodromy
+pair carries m004-specific content**, because only it depends on `tr A = 3`. Net for A7: **the bit's
+supply is intrinsic and its orientation content is provably absent** — the two were conflated.
+
+**FENCED, and three self-caught errors recorded rather than smoothed.** The law holds for
+`det M = +1`; a `det M = −1` partner admits **no realizer at all** (`det M = −1 ⇒ tr M⁻¹ = −tr M ⇒
+tr M = 0`). (i) A guessed partner matrix `[[1,2],[1,1]]` produced a spurious mismatch against
+B1192's √2 control — fixed by reading the matrix out of **B1192's own data** instead of inferring
+it. (ii) The Maclachlan–Reid check first reported 267 mismatches that were a uniform sign flip.
+(iii) A 91-pair survey over ℚ(√−3) was briefly read as *"every non-fibre pair is −1"*; running it
+refuted that (6 trivial, 59 at −1, 26 elsewhere). (iv) The instrument's `inv()` was the **adjugate**,
+which equals the inverse only at det = 1 and would have reported a realizer where none exists —
+caught by the det −1 lock. **NOT claimed:** no crossing to physics, no measured value, no
+prediction. Gate 5 clean. Lock `tests/test_b1248_norm_classification.py`; registry row
+**T-EPS-IS-KAPPA-MOD-SQUARES**; identifications **I-20**, **I-21**, both EARNED.
+
 ## THE RETRIEVAL FIXES: the index was keyed on NOUNS and every question asked of it was a VERB — seven arcs this window and not one was a new computation
 
 **B1247.** Seven arcs banked this window and **not one was a new computation.** Every finding was
