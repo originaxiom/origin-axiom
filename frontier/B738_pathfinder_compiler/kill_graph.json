@@ -10270,14 +10270,14 @@
  },
  {
   "id": "B915",
-  "claim_killed": "That the object's gauge boundary (E6 unification with the banked sin2thetaW = 3/8) matches the measured low-energy couplings through a pure SM desert -- the naive 'boundary + desert' physics identification.",
+  "claim_killed": "The historical hypothesis that the specified common gauge boundary plus SM desert meets B915's archived coupling comparison. Scope corrected 2026-09-05: gauge-only two-loop truncation, actual root brackets, ad hoc distance criterion; NOT a global program kill or calibrated sigma. The original sequential solver fails its coupled boundary; independently corrected solvers retain the checked mismatch.",
   "kill_form": "sealed-one-input-comparison",
   "faces_consulted": [
    "being",
    "mtc-overlay"
   ],
   "fact_computed": true,
-  "hatch": "The desert assumption died, not the boundary: the miss is alpha_s-dominated with a three-order meeting-scale triangle (1.1e13 / 1.7e14 / 2.9e16 GeV), and the object carries its OWN intermediate ladder (the compact D-chain E6 > D5 > D4 > D3 > A2, the CMT lane) with banked scales and zero free parameters. R4b -- sealed before compute, per the register -- is the one honest way the identification returns: the chain's thresholds must close THIS cell's banked triangle."
+  "hatch": "B925 already adjudicated the original D-chain proposal; it is not the sole possible physical continuation. Other spectra or intermediate phases are different declared models. The 2026-09-05 physical-bridge audit derives beta/threshold requirements for the banked exotic multiplets and exhibits two-/three-copy inverse fits, explicitly not predictions. Its common-UV-mass/gauge-only mechanism is insufficient within that spectrum; additional breaking/mixing remains open. See reports/physical_bridge_2026_09_05/PHYSICAL_MODEL.md and the source addendum beside B915."
  },
  {
   "id": "B925",

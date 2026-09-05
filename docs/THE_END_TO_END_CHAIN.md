@@ -346,12 +346,16 @@ The record:**
 
 1. **B915 — THE CROSSING (2026-08-05, owner-authorized).** Prereg sealed and
    pushed BEFORE any data contact; one input (α_em); the object's own
-   boundary (the 3/8 of Part VI); two-loop SM running across an assumed
-   desert. **VERDICT: MISS at d = 15.97σ**, α_s-dominated (+0.041 vs +0.002),
+   boundary (the 3/8 of Part VI); gauge-only two-loop running across an assumed
+   desert. **Historical record: MISS at d = 15.97**, α_s-dominated (+0.041 vs +0.002),
    with the pairwise-meeting triangle (1.09e13 / 1.72e14 / 2.91e16 GeV)
-   banked as the deliverable. The disclosed prior (MISS) WON — the first time
-   in the program's sealed history that our pessimism, rather than the
-   object, was vindicated.
+   banked as the deliverable. **Correction, 2026-09-05:** the sequential solver
+   does not satisfy both UV equations and depends on a fixed comparison alpha_s.
+   Independent common-UV and simultaneous solvers correct it; the checked
+   historical metric still misses (`d_min` found about 16.1162). This metric
+   is not calibrated sigma and does not license a global program kill. Scope,
+   excluded root-box points, hashes and live tests:
+   `reports/physical_bridge_2026_09_05/AUDIT.md` and B915's September 5 addendum.
 2. **B925 — THE SECOND CROSSING (the object's own D-chain as the desert's
    replacement).** **VERDICT: OUTCOME B, and by the chain's own algebra
    rather than by data:** the banked D₃/D₄ typings admit NO unbroken su(2)_L

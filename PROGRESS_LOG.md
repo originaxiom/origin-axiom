@@ -13573,3 +13573,43 @@ before that became an unearned identification.
 raised in the session, so none of it depends on memory. It carries one thing explicitly **not**
 claimed: the candidate synthesis *"the object is complete about itself and empty about everything
 else"*, with its own falsifier, for attack at Review 55.
+
+## 2026-09-05 — Physical bridge audit against f06d3405
+
+Full history cloned; grounding, selected progress/history and the source
+computations read. A second fetch at completion leaves remote main at f06d3405.
+The immutable baseline suite completes: **5 failed, 5993 passed, 60 skipped,
+1 warning in 3943.22 s**. All failures are missing evidence/addenda, not failed
+numerical comparisons. Exact paths, ignore rules and reachable-history searches
+are preserved. Two B1242 addenda were missing despite the live calculation
+passing; they are now written from that calculation, explicitly as new text.
+Four evidence-failure areas remain, requiring original artifacts or separately
+identified reproductions. No historical logs fabricated to satisfy tests.
+
+**Positive checks:** 23 focused core tests; all five complete heavy reproduction
+batches; B1098's exact A2 witness after repairing its `__file__` loader. Neither
+the nonabelian rank escape nor the carrier/cubic is erased. B6 and B497 remain
+existing dynamics ingredients, not missing objects to reinvent.
+
+**New numerical defect, R1:** B915 solves the two UV equations sequentially,
+fixing alpha_s=0.118 in the first. At two loops this leaks the comparison into
+the curve and leaves UV residuals up to 0.0268397. Correct down/up solvers agree
+within 8.95e-12, residuals below 1.04e-10. The corrected historical metric still
+misses (lowest found 16.1162), but is not calibrated sigma, omits Yukawa terms,
+and only covers the disclosed root-box domain. B915 code/seal/output unchanged;
+correction reaches its addendum, metadata, LAW_MAP and both chain documents.
+
+**Physical bridge, R2/R3:** exact indices and anomaly controls feed a declared
+4d effective gauge theory. Its one-loop inverse matching requires
+`sum log(M_D/M_L)=43.4476952`. Two and three split exotic copies have explicit
+meeting witnesses, one cannot in [MZ,MU]. Equal physical thresholds are NOT
+confused with equal UV masses: gauge mass running is included in the latter
+test and bounded over the whole interval; its three-copy bound is only
+6.1739004. This constrains one common-mass mechanism, not all E6 completions.
+All couplings used in the inverse match are declared inputs. No empirical
+success, independent physical prediction, or complete TOE is claimed.
+
+Design and code were hashed before execution; the R3 serialization failure
+and partial output are retained, the repair re-hashed before a new-file rerun.
+Report and continuation contract: `reports/physical_bridge_2026_09_05/README.md`.
+The next task is registered in OPEN_LEADS; original substrate remains in place.

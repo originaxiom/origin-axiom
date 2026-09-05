@@ -125,3 +125,25 @@ each compare object quantities to measured SM values; each carried its own
 negatives drawn against matched nulls — the branch this ledger and the R-list both fully
 cover; the four rule-gaps (items 1/4/6, and 8's hit-branch) are HIT-branch gaps, and the
 wave made no hit. Filed to close the rule-6 defect the R48 gate/integrity audit found.
+
+## 2026-09-05 physical-bridge audit — historical fixture, not a new crossing
+
+This administrative checklist is written at reporting time, **not retroactively
+claimed as part of the pre-execution seal**. The actual pre-execution R1/R2
+design and the post-result R3 extension are preserved under
+`reports/physical_bridge_2026_09_05/`. No new empirical HIT or exclusion is claimed.
+
+| # | Item | Disposition |
+|---|---|---|
+| 1 | Scheme | Retain B915's archived MS-bar coupling convention. R2/R3 use explicit one-loop step decoupling; running mass thresholds obey M=m(M), without finite pole matching. |
+| 2 | Scale | MZ and the original scan domain are explicit; root brackets/excluded points are recorded. The inferred MU is a conditional fit output. |
+| 3 | Uncertainties | R1 reproduces the legacy metric but does not certify its loop-difference width, covariance treatment or unused EM uncertainty. R2/R3 use fixed fixture centers; no uncertainty-based exclusion significance is claimed. |
+| 4 | Multi-modal fits | No new global-fit target is selected. The fixture is fixed; no conclusion about current fit modes. |
+| 5 | Convention constants | Matching scale, gauge normalization, spectrum, mass convention, loop truncation and spacetime assumptions are explicit. None is labeled an independently measured prediction. |
+| 6 | Fit-vs-direct | Historical comparator only, not a new adjudication of present data. The threshold solution is labeled inverse matching. |
+| 7 | Look-elsewhere | Both grids, refinement and guess variants are disclosed; no probability or discovery significance assigned. |
+| 8 | Matched null | No new empirical HIT test. Instrument controls include synthetic positive/negative boundaries, anomalous spectra, degenerate/split thresholds, constant beta and quadrature checks. |
+| 9 | MB13 | Already-banked query, eight-head presence sweep, original B915/B925/B926 code, B970/B884 and the existing trinification branch are recorded in the design/report. No absence/novelty claim from an empty keyword query. |
+| 10 | Firewall | R1 audits a numerical instrument; R2/R3 develop a conditional physical model from imported QFT. All three couplings enter the inverse fit. No quantity promoted to CLAIMS. |
+| 11 | Source freshness | B915 source/fixture SHA-256 pinned, expressly not refreshed empirical data. Primary QFT equations checked 2026-09-05; remote main re-fetched and unchanged. |
+| 12 | Sealing | R1/R2 design then instruments committed before running. R3 separately labeled post-R1/R2 and sealed before its run. Serialization failure retained; repair hashed before a new-file rerun. |

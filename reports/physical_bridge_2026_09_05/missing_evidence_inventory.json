@@ -1,0 +1,192 @@
+{
+  "main_sha": "f06d34054899e8c23672b836a7c534af77cbd35d",
+  "remote_refs": [
+    [
+      "origin/HEAD",
+      "f06d34054899e8c23672b836a7c534af77cbd35d"
+    ],
+    [
+      "origin/audit/b775-braver-questions",
+      "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    ],
+    [
+      "origin/claude/new-session-qor5up",
+      "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    ],
+    [
+      "origin/claude/outside-bench",
+      "d52bf025bdddad2d46a513e4f5cc0d07f2182a86"
+    ],
+    [
+      "origin/claude/physics-seat-evaluation-8dkbrl",
+      "d5999b5f2be484abcbd3a697c178b91bab18d566"
+    ],
+    [
+      "origin/codex/seat-r001",
+      "f7a49536bc45bebc1557d3d081b6b3664a7c2199"
+    ],
+    [
+      "origin/main",
+      "f06d34054899e8c23672b836a7c534af77cbd35d"
+    ],
+    [
+      "origin/paper/structure-genesis-first",
+      "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4"
+    ]
+  ],
+  "scope": "Read-only search for the precise evidence paths behind the five suite failures.\n\nScope: current clone, fetched remote refs, reachable git history at these paths,\nand matching basenames in the reachable object listing. Not a claim that no copy\nexists in untracked local files, external uploads, or unpublished branches.",
+  "targets": [
+    {
+      "path": "frontier/B1062_bridge_cell/b1062_v2_block1.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B1062_bridge_cell/b1062_v2_block1.log"
+    },
+    {
+      "path": "frontier/B1062_bridge_cell/b1062_v2_block3.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B1062_bridge_cell/b1062_v2_block3.log"
+    },
+    {
+      "path": "frontier/B1062_bridge_cell/b1062_verify_battery.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B1062_bridge_cell/b1062_verify_battery.log"
+    },
+    {
+      "path": "frontier/B1062_bridge_cell/b1062_v2_block2n.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B1062_bridge_cell/b1062_v2_block2n.log"
+    },
+    {
+      "path": "frontier/B1062_bridge_cell/b1062_v1_v3.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B1062_bridge_cell/b1062_v1_v3.log"
+    },
+    {
+      "path": "frontier/B1063_refresh_verdict/refresh_windows.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B1063_refresh_verdict/refresh_windows.log"
+    },
+    {
+      "path": "frontier/B1137_regulator_probe/results/real_grid.jsonl",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:87:*.jsonl\tfrontier/B1137_regulator_probe/results/real_grid.jsonl"
+    },
+    {
+      "path": "frontier/B1137_regulator_probe/results/null_grid.jsonl",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:87:*.jsonl\tfrontier/B1137_regulator_probe/results/null_grid.jsonl"
+    },
+    {
+      "path": "frontier/B675_hcusp_sweep/ADDENDUM_2026-09-03_B1242.md",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": null
+    },
+    {
+      "path": "frontier/B715_native_gauge/ADDENDUM_2026-09-03_B1242.md",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": null,
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": null
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q3_proofs/q3_lemmas.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "b794152a7deecf7e535218add3c39200a11af9699a673505dffd0e88641b6355",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q3_proofs/q3_lemmas.log"
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q2_conductor/q2_mechanism.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "4b47b36837f07efe99571a15e60901ceb0a1d36cceffdada9252f07228cfefcc",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q2_conductor/q2_mechanism.log"
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q1_level8/outputs/L8_RUN.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "a2a5a74b2f2de520dee73dfb50954c84920e74d78f2a48de06b70643126a2695",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q1_level8/outputs/L8_RUN.log"
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/residuals/level_ladder_campaign/outputs/L7_RUN.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "d5da83d5e20b51c22f9a2dcc302da1a941d195ce1906cb577a8ea97fc0d39e53",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B646_wave2_integration/cc2_packets/residuals/level_ladder_campaign/outputs/L7_RUN.log"
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/character_run.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "2b84c25d390956ad6f8f459b5ef837ae912fbc864359bb9b8cf2a1a96e8c0ef8",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/character_run.log"
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/jeffrey_extend.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "05492ab05f5e363199c79ba02b03419afc59527767d15e3a80422e2caeb86481",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/jeffrey_extend.log"
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/jeffrey_run.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "5562aacb9d9c04c20fb48256b7240cc5dd4629ae504e88b742a2da6efe696738",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/jeffrey_run.log"
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/__pycache__/n1_jeffrey_terms.cpython-312.pyc",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "e867d6166dd2ce57ae083636b2d73633063d3ddedcc3dfb2db0163b92ce2ba74",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:2:__pycache__/\tfrontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/__pycache__/n1_jeffrey_terms.cpython-312.pyc"
+    },
+    {
+      "path": "frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n2_clock_law/n2_su3_13.log",
+      "present_in_worktree": false,
+      "expected_sha256_if_manifested": "9dc857b51df57dde9d3a7e98afec37e63d9bb6598fac0c677f99d595e9555e54",
+      "reachable_history_commits_at_exact_path": [],
+      "reachable_object_listing_basename_hits": [],
+      "ignore_rule": ".gitignore:20:*.log\tfrontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n2_clock_law/n2_su3_13.log"
+    }
+  ]
+}

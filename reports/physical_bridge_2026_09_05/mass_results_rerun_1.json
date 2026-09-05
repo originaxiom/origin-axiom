@@ -1,0 +1,75 @@
+{
+  "status": "POST-R1/R2 CONDITIONAL MODEL CHECK; no new empirical test",
+  "input_sha256": "e355e65a8fbf22447b34d25b6d8bfdf89fcd7b4d3affc2209014b9ae34ae6caa",
+  "mass_blocks": {
+    "SU5_commutant_dimension": 1,
+    "SM_commutant_dimension": 2,
+    "SU5_basis": [
+      "Matrix([[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]])"
+    ],
+    "SM_basis": [
+      "Matrix([[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]])",
+      "Matrix([[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]])"
+    ],
+    "split_mass_control_rejected_by_SU5": true
+  },
+  "D_Casimirs_exact": [
+    "1/15",
+    "0",
+    "4/3"
+  ],
+  "L_Casimirs_exact": [
+    "3/20",
+    "3/4",
+    "0"
+  ],
+  "required_sum_log_MD_over_ML": 43.44769523156132,
+  "uniform_bounds": [
+    {
+      "copies": 1,
+      "bound": {
+        "alpha1_uniform_upper_bound": 0.025972727537949134,
+        "alpha3_uniform_upper_bound": 0.118,
+        "per_pair_log_MD_over_ML_upper_bound": 2.054049933363995,
+        "sum_log_MD_over_ML_upper_bound": 2.054049933363995
+      },
+      "sufficient_to_exclude_common_UV_mass_in_this_model": true
+    },
+    {
+      "copies": 2,
+      "bound": {
+        "alpha1_uniform_upper_bound": 0.028064420346349164,
+        "alpha3_uniform_upper_bound": 0.118,
+        "per_pair_log_MD_over_ML_upper_bound": 2.05585064190694,
+        "sum_log_MD_over_ML_upper_bound": 4.11170128381388
+      },
+      "sufficient_to_exclude_common_UV_mass_in_this_model": true
+    },
+    {
+      "copies": 3,
+      "bound": {
+        "alpha1_uniform_upper_bound": 0.030522527663522446,
+        "alpha3_uniform_upper_bound": 0.118,
+        "per_pair_log_MD_over_ML_upper_bound": 2.0579667914809763,
+        "sum_log_MD_over_ML_upper_bound": 6.173900374442929
+      },
+      "sufficient_to_exclude_common_UV_mass_in_this_model": true
+    }
+  ],
+  "illustrative_models": [
+    {
+      "copies": 2,
+      "log_D_mass_enhancement": 0.048157742794084156,
+      "log_L_mass_enhancement": 0.2911948313586555,
+      "required_log_UV_mass_D_over_L_per_equal_copy": 21.96688470434523,
+      "analytic_quadrature_difference": 2.220446049250313e-16
+    },
+    {
+      "copies": 3,
+      "log_D_mass_enhancement": 0.1225094342049283,
+      "log_L_mass_enhancement": 0.247365062534363,
+      "required_log_UV_mass_D_over_L_per_equal_copy": 14.607420705516542,
+      "analytic_quadrature_difference": 5.551115123125783e-17
+    }
+  ]
+}

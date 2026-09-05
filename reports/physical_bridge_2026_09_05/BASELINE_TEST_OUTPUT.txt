@@ -1,0 +1,138 @@
+Completed default serial suite on f06d34054899e8c23672b836a7c534af77cbd35d.
+Command: python3.12 -m pytest tests/ -q -p no:randomly
+Completion/failure output below. Absolute local paths normalized for publication.
+
+........................................      [100%]
+=================================== FAILURES ===================================
+_______________________ test_block_logs_pin_the_numbers ________________________
+
+    def test_block_logs_pin_the_numbers():
+>       b1 = (ARC / "b1062_v2_block1.log").read_text()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_b1062_bridge.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<PYTHON312>/lib/python3.12/pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<BASELINE>/frontier/B1062_bridge_cell/b1062_v2_block1.log')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<BASELINE>/frontier/B1062_bridge_cell/b1062_v2_block1.log'
+
+<PYTHON312>/lib/python3.12/pathlib.py:1013: FileNotFoundError
+_______________________ test_window_log_pins_the_misses ________________________
+
+    def test_window_log_pins_the_misses():
+>       log = (ARC / "refresh_windows.log").read_text()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_b1063_refresh.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<PYTHON312>/lib/python3.12/pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<BASELINE>/frontier/B1063_refresh_verdict/refresh_windows.log')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<BASELINE>/frontier/B1063_refresh_verdict/refresh_windows.log'
+
+<PYTHON312>/lib/python3.12/pathlib.py:1013: FileNotFoundError
+_________________ test_aggregate_re_derives_from_pinned_grids __________________
+
+    def test_aggregate_re_derives_from_pinned_grids():
+        # re-run the aggregate logic on the COMMITTED grids -> DISJOINT (no grid recompute)
+        r = subprocess.run([sys.executable, str(ARC / "aggregate.py")], cwd=str(ARC),
+                           capture_output=True, text=True, timeout=300)
+>       assert r.returncode == 0, r.stderr[-2000:]
+E       AssertionError: Traceback (most recent call last):
+E           File "<BASELINE>/frontier/B1137_regulator_probe/aggregate.py", line 130, in <module>
+E             out = main(real_path, null_path, targets_json)
+E                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           File "<BASELINE>/frontier/B1137_regulator_probe/aggregate.py", line 45, in main
+E             real = load_jsonl(real_path)
+E                    ^^^^^^^^^^^^^^^^^^^^^
+E           File "<BASELINE>/frontier/B1137_regulator_probe/aggregate.py", line 12, in load_jsonl
+E             with open(path) as f:
+E                  ^^^^^^^^^^
+E         FileNotFoundError: [Errno 2] No such file or directory: 'results/real_grid.jsonl'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<PYTHON312>/bin/python3.12', '/Users/dri/oa-audit-seat/aud1t/chatgpt6/ve...th) as f:\n         ^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \'results/real_grid.jsonl\'\n').returncode
+
+tests/test_b1137_regulator_probe.py:62: AssertionError
+________ test_B675_and_B715_are_corrected_at_source_not_only_in_the_log ________
+
+    def test_B675_and_B715_are_corrected_at_source_not_only_in_the_log():
+        for arc, frag in (("B675_hcusp_sweep", "REFUTED"), ("B715_native_gauge", "I-15")):
+            v = json.loads((ROOT / "frontier" / arc / "arc_verdict.json").read_text(encoding="utf-8"))
+            assert "B1242" in json.dumps(v), f"{arc}: correction never reached its verdict file (E53)"
+>           assert (ROOT / "frontier" / arc / "ADDENDUM_2026-09-03_B1242.md").exists()
+E           AssertionError: assert False
+E            +  where False = exists()
+E            +    where exists = (((PosixPath('<BASELINE>') / 'frontier') / 'B675_hcusp_sweep') / 'ADDENDUM_2026-09-03_B1242.md').exists
+
+tests/test_b1242_l199_two_earning_computations.py:57: AssertionError
+________________ test_archive_matches_manifest_except_disclosed ________________
+
+    def test_archive_matches_manifest_except_disclosed():
+        man = {}
+        for ln in open(os.path.join(PK, "ORIGINALS_MANIFEST.txt")):
+            if ln.startswith("#") or not ln.strip():
+                continue
+            h, rel = ln.split(None, 1)
+            man[rel.strip()] = h
+        mismatches = []
+        for rel, h in man.items():
+            p = os.path.join(PK, rel)
+            if not os.path.exists(p):
+                mismatches.append(("MISSING", rel))
+                continue
+            got = hashlib.sha256(open(p, "rb").read()).hexdigest()
+            if got != h and rel not in PATCHED:
+                mismatches.append(("HASH", rel))
+>       assert mismatches == [], mismatches
+E       AssertionError: [('MISSING', 'proof_queue/proof_queue/q3_proofs/q3_lemmas.log'), ('MISSING', 'proof_queue/proof_queue/q2_conductor/q2_...e/next_queue/n1_counting/character_run.log'), ('MISSING', 'next_queue/next_queue/n1_counting/jeffrey_extend.log'), ...]
+E       assert [('MISSING', ...nd.log'), ...] == []
+E         
+E         Left contains 9 more items, first extra item: ('MISSING', 'proof_queue/proof_queue/q3_proofs/q3_lemmas.log')
+E         Use -v to get more diff
+
+tests/test_b646_wave2.py:55: AssertionError
+=============================== warnings summary ===============================
+tests/test_repo_gates.py::test_review_counter_readable
+  <BASELINE>/tests/test_repo_gates.py:26: UserWarning: decadal repo review DUE (60 merges since last review)
+    warnings.warn(f"decadal repo review DUE ({n} merges since last review)")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_b1062_bridge.py::test_block_logs_pin_the_numbers - FileNotF...
+FAILED tests/test_b1063_refresh.py::test_window_log_pins_the_misses - FileNot...
+FAILED tests/test_b1137_regulator_probe.py::test_aggregate_re_derives_from_pinned_grids
+FAILED tests/test_b1242_l199_two_earning_computations.py::test_B675_and_B715_are_corrected_at_source_not_only_in_the_log
+FAILED tests/test_b646_wave2.py::test_archive_matches_manifest_except_disclosed
+5 failed, 5993 passed, 60 skipped, 1 warning in 3943.22s (1:05:43)

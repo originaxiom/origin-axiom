@@ -1,5 +1,31 @@
 # Changelog
 
+## 2026-09-05 — Physical bridge audit: repair the crossing, retain the assets, compute a mass requirement
+
+Baseline `f06d3405`: full serial suite **5993 passed, 60 skipped, 5 failed**;
+all failures concern missing evidence/addenda. All five full heavy reproduction
+batches pass. The A2 triple/centralizer live test now loads its committed
+certificate correctly; its mathematical assertions are unchanged. Two promised
+B1242 source addenda are written from the reproduced computation, explicitly
+as new text. Four baseline evidence-failure areas remain open.
+
+**B915 instrument correction:** its sequential two-loop procedure fails both-
+equations-at-once matching and leaks a fixed strong coupling into the curve.
+Independent down/up boundary solvers correct it. The checked historical distance
+still misses (lowest found 16.1162), but is **not calibrated sigma**, and the
+limited desert configuration is not the program. Original seal/code/results
+preserved; source addendum, metadata and current chain wording updated.
+
+**Conditional physical work:** exact representation-derived gauge betas,
+anomalies, threshold running and mass running. Inverse matching the archived
+couplings requires `sum log(M_D/M_L)=43.4476952`; two-/three-copy split models
+exist, while one copy cannot meet within the stipulated mass range. A common
+UV mass plus gauge-only running cannot supply that split in this spectrum.
+These are declared-input effective-theory calculations, **not predictions or
+a completed TOE**. The mass/VEV mechanism is registered as the next task.
+Report, action, assumptions, failures and reproducing code:
+`reports/physical_bridge_2026_09_05/README.md`.
+
 ## THE RETRIEVAL FIXES: the index was keyed on NOUNS and every question asked of it was a VERB — seven arcs this window and not one was a new computation
 
 **B1247.** Seven arcs banked this window and **not one was a new computation.** Every finding was

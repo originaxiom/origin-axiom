@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**AUDIT UPDATE (2026-09-05, baseline `f06d3405`; local audit branch):** B915's
+sequential two-loop curve fails its coupled boundary conditions; independently
+corrected, its checked historical mismatch remains, but **not as calibrated
+16-sigma significance or a global physics no-go**. The existing nonabelian and
+carrier/Yukawa positives are retained and run. Full baseline suite: 5993 passed,
+60 skipped, 5 evidence failures; the missing B1242 addenda are now supplied from
+its reproduced computation, four evidence-failure areas remain. The new
+conditional spectrum-to-beta-to-threshold-to-mass interface yields a **fitted
+mass requirement**, not a prediction: the three-copy common-UV-mass/gauge-only
+mechanism cannot supply it, and additional breaking/mixing remains open.
+Next task and exact assumptions: `reports/physical_bridge_2026_09_05/PHYSICAL_MODEL.md`;
+audit: `reports/physical_bridge_2026_09_05/AUDIT.md`. Nothing promoted to CLAIMS.
+
 **LATEST (2026-09-05, B1247 — THE RETRIEVAL FIXES)**: seven arcs this window and **not one was a new computation** — the genesis theorem uncited three months, the seam family one citation, **B497 sat seven weeks while a dynamics null concluded the object has no dynamics without citing it**, B6 (holding the kinetic term B1157 calls missing) on zero surfaces since week one. **Cause located:** the atlas lexicon is 18 regex sets frozen 2026-07-01 with ~750 arcs banked since; it indexes the OBJECTS studied and **has no word for a question**. Seven question-motifs added and re-mined (arrow/monoid/measurement/closing/naming/choice/coupling); **verified by retrieval** — every hand-excavated arc now answers its question. `representation_sweep`'s length floor declared a gate threshold not a measure (674 blind); the unrepresented set ranked by in-degree — **the backlog is 9, not 154**; an in-degree screen was tried and **rejected on its own evidence**. E58 gains the **time-indexed** clause. **A7 re-probed: NO** — both orders have one stable vacuum (φ and 1/φ, product exactly 1); A7 stays an axiom. `docs/OPEN_ITEMS_2026-09-05.md` lands: 26 items, 8 sections.
 
 **LATEST (2026-09-03, REVIEW 54 — the decadal review over B1241–B1246; anchor `de8e5d8a`)**: mechanical pass all green (retraction sweep 0/2704, census PASS at 46 links, citation gate green, kill graph 0 unrouted, doc-currency ok with 4 declared debts). **THE THEME: the instruments PROXY** — `representation_sweep` screens on **claim length** (blind to 70% of the corpus; the seam family is 166–197 chars and B286's 182 relocate the central wall), `open_claim_sweep` similarity is dominated by **process vocabulary** (its top hit was a verified false positive), and `relay_debt`'s single "45 open" merges our debt with their silence (**actual inbound debt: ZERO**). **R53-3 ANSWERED** — and the load-bearing half is that **the chain is not in the sweep's SURFACES list at all**, which explains C25 (a month), the genesis theorem (three months) and the seam family (ten arcs, one citation, the negative half). **E58** and **E59** minted; the **time-indexed-source** question deferred to the owner. Six action items; **cc3's Papers I–IV are drafted and building, owner-gated since 2026-08-26**.

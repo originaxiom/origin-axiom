@@ -27,3 +27,31 @@ Post-hoc repair, before the rerun: convert bound results to native floats,
 add a JSON round-trip regression, and serialize the entire payload before
 opening the destination. The rerun uses a new output name. The pre-repair
 source remains in git and both output artifacts remain on disk.
+
+## Reporting check: source pointers missing from the law-index rows
+
+The first post-edit focused run was **67 passed, 1 failed** in 118.58 s.
+The only failure was `test_all_gates_pass`: the three new conditional-model
+index rows named their report and live tests, but lacked per-row arc pointers;
+the column header also did not use the index's recognized header form.
+
+The rows now explicitly connect their representation/mass inputs to B884/B970
+and the new work to B915's audit addendum, which points to R2/R3 and their
+actual code. They do not attribute the new mass calculation to the old arcs.
+The gate is unchanged; no numeric assertion, expected census or failure rule
+was loosened. The reporting/gate checks after this documentation fix were
+**13 passed, 1 warning in 79.53 s**. The 26 new gauge/mass/legacy tests also
+passed separately in 2.00 s. The warning is the existing review counter.
+
+## Staged publication check: literal upstream ref names
+
+Once the previously untracked evidence inventory was staged, the attribution
+gate reported three vendor-name tokens in its `remote_refs` field. Inspection
+confirmed these are literal fetched upstream branch names, not authorship
+claims. The other 29 gates passed. The earlier unstaged gate run did not reach
+this new file: its green result is not a certificate for the staged tree.
+
+The inventory and its hash are retained without rewriting the source names.
+This is a **local draft**, not a publication-ready all-gates-green certificate;
+no gate exception was added and nothing was pushed. A publication policy for
+literal source-reference metadata is still needed.

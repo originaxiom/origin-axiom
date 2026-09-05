@@ -2297,3 +2297,31 @@ gravity (B715):** compute the Dynkin index of the principal sl₂ ⊂ e₆ embed
 (index)·(Vol + i·CS) + (the rest); a canonical coefficient is the map, a non-canonical one is the refutation of
 "exactly what it should be". Both are register moves, not physics: neither touches Gate 5 and neither earns
 I-13. ★★ (each closes a row; I-13 stays the programme's).
+
+## Physical bridge audit follow-ups (2026-09-05; local audit branch, no main-band arc number assigned)
+
+**PB-MASS — a mass mechanism feeding an actual RG calculation. OPEN.** Source:
+`reports/physical_bridge_2026_09_05/PHYSICAL_MODEL.md`; existing ingredients
+B884's cubic, B970's S mass direction/exotic charges, B1148's carrier and
+Yukawa, and the physical-seat branch's existing trinification calculation.
+R2 derives a conditional threshold requirement from all three archived B915
+couplings, not a prediction. R3 tests the common-UV-mass escape including
+gauge running, not only degenerate physical thresholds; it is insufficient
+within the stated spectrum. **Next:** construct the breaking/VEV/mixing mass
+matrices and their singular values with every input priced, then feed their
+actual thresholds to the runner. Acceptance needs a new consequence not used
+to choose those inputs. Additional fields, interactions or intermediate phases
+are not excluded by R3. No blanket negative on dynamics or physical completion.
+
+**PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
+exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's
+eight missing logs plus one cached-bytecode artifact. Exact paths, original
+hashes where known, fresh refs and reachable-history searches:
+`reports/physical_bridge_2026_09_05/missing_evidence_inventory.json`.
+Seventeen of the 19 initially missing paths match ignore rules; the other two
+were B1242 addenda, now explicitly written from its verified computation.
+Recover original archives/workspace outputs if available; otherwise register
+a fresh reproduction as fresh, not as recovery. Do not invent logs, weaken
+the manifest, or count a stored NEGATIVE as independent verification of an
+unavailable grid. The historical bytecode entry needs an explicit archive
+policy decision, not a silent exception.

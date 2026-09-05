@@ -351,9 +351,19 @@ uncommitted `cw.py`; the three integers recompute from B1236's committed multipl
 `frontier/B1237_physics_seat_r31_r38_harvest/verification/traces_from_b1236.py`, lock
 `tests/test_b1237_physics_seat_harvest.py` (a different derivation of the same numbers, not a second prime).
 
-**C43 [NO-GO — the crossing, sealed].** One input (α_em) + the object's boundary + pure
-desert MISSES at 16σ, α_s-dominated; the failure triangle banked; the desert is dead as a
-mechanism. — B915. Lock: `tests/test_b915_crossing.py`.
+**C43 [NO-GO — historical crossing classification; numerical scope below].** The specified
+SM-desert comparison misses its historical criterion; **this is a conditional numerical
+test, not a global theorem that the program cannot produce physics**. B915's original
+15.97 distance and NEGATIVE record are preserved, not certified as calibrated sigma.
+**2026-09-05 audit:** the sequential two-loop solver leaks a fixed alpha_s into its first
+equation and fails the joint UV boundary (max residual 0.02684). A corrected common-UV
+solve, independently cross-checked upward, finds lowest historical distance 16.1162 on
+the checked domain; `d<=3` still is not met. Only gauge two-loop terms and the actual
+root brackets are covered; the loop-difference width is not a probability model.
+— B915, `frontier/B915_the_crossing/ADDENDUM_2026-09-05_PHYSICAL_BRIDGE_AUDIT.md`;
+`reports/physical_bridge_2026_09_05/AUDIT.md`. Historical lock:
+`tests/test_b915_crossing.py`; live equation locks:
+`tests/test_physical_bridge_legacy_audit.py`, `tests/test_physical_bridge_gauge_running.py`.
 **AND THE MISS IS GROUP-INDEPENDENT — BY CONSTRUCTION (added 2026-09-03, B1245).** This is a fact
 about the **desert configuration**, not about the object and not about E₆. B915's own
 `crossing.py` settles it without a new run: `curve_point(MU)` takes **one physical argument, the
@@ -365,6 +375,10 @@ desert curve *cannot* depend on which simple group unifies: the control is not "
 SO(10) and compare", it is that **there is no group parameter to vary**. Earned on this bench from
 our own sealed computation's dependency structure — **not** cited from the literature, per the
 B1244 prereg's E-4. No new measured input: B915's seal already covers α_em(M_Z).
+The group-independence statement is retained under those shared physical assumptions;
+the AST argument alone did not certify absence of hidden comparison-data dependencies
+or the numerical residuals. The 2026-09-05 correction checks those explicitly. The
+legacy NO-GO category above is not evidence that a numerical test is a forced theorem.
 
 **C44 [NO-GO — the fork].** On e₆ the centralizer ladder is dim z(T1) = 16, z(T1+colour) = 8,
 z(T1,T2) = 8, **z(T1,T2+colour) = 0**, slot-independent (two adjacent simple-pair choices
