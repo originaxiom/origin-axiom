@@ -125,3 +125,12 @@ matching of the spectrum actually constructed. Added fields or interactions
 must be priced and their effect on this quantum vacuum recomputed. Action
 selection, physical parameters and four-dimensional gravity are not derived
 by this result.
+
+Final combined regression at 2215d67b: **59 passed in 35.56 s**, including
+four post-result controls. Direct all-component scalar-Hessian contractions
+and a reduced nine-mode singlet solve agree. Two deliberate defects each
+make the original vector/Weyl derivative test fail, confirming its bite.
+Governance is **27 passed, 3 failed**: the two preserved earlier defects and
+a static NO-ASSERT false positive on that unchanged numerical-assertion test.
+The checker is not weakened or exempted. All 48 then-listed hashes match.
+Raw output: [QUANTUM_SHIFT_CHECKS.txt](QUANTUM_SHIFT_CHECKS.txt).

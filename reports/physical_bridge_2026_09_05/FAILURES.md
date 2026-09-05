@@ -135,3 +135,12 @@ and reduced-solve controls. The original sealed test, gate and checker are
 unchanged. This failure is not silently exempted or called green; its
 scientific significance depends on the bite controls. The two previous
 inventory-attribution/R4-seal failures also remain.
+
+The pre-sealed post-result controls at 2215d67b now PASS. The original
+derivative test passes before perturbation; an additive corruption of the
+vector orbit and, separately, of the Weyl map each trigger AssertionError.
+This demonstrates a false positive in the static NO-ASSERT classification,
+not an unconditionally passing mathematical test. Direct 186-component
+scalar-gradient contraction and the reduced nine-mode solve also pass.
+Combined regression: 59 passed in 35.56 s. Governance still reports 27/3;
+no checker/test exception was introduced. Raw: `QUANTUM_SHIFT_CHECKS.txt`.

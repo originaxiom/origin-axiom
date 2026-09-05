@@ -13873,3 +13873,18 @@ Source, complete output and remaining obligations:
 not closed; PB-MASS next needs a light doublet, its quantum feedback and
 actual thresholds. No all-order/global/pole-mass or TOE completion claimed.
 The earlier scientific producers and all first outputs remain unchanged.
+
+R6 final focused regression at 2215d67b: **59 passed in 35.56 s**. The
+independent scalar-gradient contraction and reduced nine-mode solve agree.
+Two mutation controls prove the original derivative test can fail; the new
+NO-ASSERT governance finding is a static-screen false positive, not a failed
+scientific result. The gate remains unchanged: **27 passed, 3 failed**.
+All 48 then-listed hashes match. Raw output: `QUANTUM_SHIFT_CHECKS.txt`.
+
+The next R7 design and instrument are sealed before execution: a priced
+positive-square Higgs extension with two added scalar 27s, all 294 real
+scalar modes, eight Higgs curvatures, the full normal force, angular feedback
+and actual mixed-kernel Yukawa projections. The new action's success or
+failure will not retroactively alter the retained R4/R5/R6 result. Its
+preflight caught and corrected a literal-versus-regex history-search error;
+the corrected search is PRESENT on all nine heads. Design: `EXTENSION_5.md`.
