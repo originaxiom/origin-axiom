@@ -22,12 +22,16 @@ def test_a2_triple_relations_and_centralizer_live():
     import os
     from fractions import Fraction as F
     import sympy as sp
-    cert = os.environ.get("B1098_CERT_PATH")
-    if not cert or not os.path.exists(cert):
+    vendored = ROOT / "frontier/B1148_carrier_harvest/verification/certificates/twisted_double.py"
+    cert = os.environ.get("B1098_CERT_PATH", str(vendored))
+    if not os.path.exists(cert):
         pytest.skip("cert machinery path not provided in this environment")
-    G = {}
+    # B1240 vendored the closure; its relative imports need the actual filename.
+    # Keep the original mathematical assertions, not a record-only replacement.
+    G = {"__file__": str(Path(cert).resolve()), "__name__": "b1098_certificate_prefix"}
     src = open(cert).read()
-    exec(src[:src.find(chr(112) + 'rint(" IDENTITY double')], G)
+    cut = src.index(chr(112) + 'rint(" IDENTITY double')
+    exec(compile(src[:cut], cert, "exec"), G)
     br, DIM = G["br"], G["DIM"]
     d = json.load(open(ROOT / "frontier/B1098_nonabelian_hatch/b1098_a2_triple.json"))
     de = lambda v: [F(a, b) for a, b in v]

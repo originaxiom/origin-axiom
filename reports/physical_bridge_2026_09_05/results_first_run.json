@@ -1,0 +1,764 @@
+{
+  "base_sha": "f06d34054899e8c23672b836a7c534af77cbd35d",
+  "source_sha256": "00c55a31b1e00ffb278331526d81f7403ac558c943adf7566e7150ac5b90d01d",
+  "archived_fixture_sha256": "893fb73f5e8524150a989e940ee747540a43c8b7806256fcbb1bc7bb3c4b9eed",
+  "R1_boundary": {
+    "historical_valid_points": 16,
+    "rows": [
+      {
+        "MU_GeV": 1304980145072.6428,
+        "legacy_observables": [
+          0.24317814187151426,
+          0.06086452692584685
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.01622438575707008,
+          -1.7876828906082665e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.1366020064306213e-11,
+        "corrected_observables": [
+          0.24309900391571487,
+          0.060902680976598365
+        ],
+        "up_down_difference": 1.934286064653179e-13,
+        "corrected_UV_residuals": [
+          4.597211500367848e-12,
+          -5.469047437145491e-11
+        ]
+      },
+      {
+        "MU_GeV": 2419412394752.832,
+        "legacy_observables": [
+          0.23969620734804029,
+          0.0641581985663136
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.015169869239223033,
+          -1.8587655858937069e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.0882851003989344e-11,
+        "corrected_observables": [
+          0.23962222017612,
+          0.06419788913860293
+        ],
+        "up_down_difference": 2.1899149160731213e-13,
+        "corrected_UV_residuals": [
+          4.710898338089464e-12,
+          -5.5720761338307057e-11
+        ]
+      },
+      {
+        "MU_GeV": 4485552027734.311,
+        "legacy_observables": [
+          0.2362142877465685,
+          0.06783451209387531
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.013996229743675315,
+          -1.8303012438991573e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.5764279598661233e-11,
+        "corrected_observables": [
+          0.236146031947146,
+          0.06787550747784876
+        ],
+        "up_down_difference": 2.5145163728979014e-13,
+        "corrected_UV_residuals": [
+          4.838796030526282e-12,
+          -5.722000651076087e-11
+        ]
+      },
+      {
+        "MU_GeV": 8316141984370.909,
+        "legacy_observables": [
+          0.232732387969954,
+          0.07196502914796012
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.012691161097215797,
+          -1.971130814126809e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.4307666990353027e-11,
+        "corrected_observables": [
+          0.2326705038957305,
+          0.0720069339462515
+        ],
+        "up_down_difference": 3.4995617514965716e-13,
+        "corrected_UV_residuals": [
+          5.9614535530272406e-12,
+          -7.069900220812997e-11
+        ]
+      },
+      {
+        "MU_GeV": 15417994725422.66,
+        "legacy_observables": [
+          0.22925051289121834,
+          0.07664050903949089
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.01123982026264514,
+          -2.0316903714956425e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.2964741219766438e-11,
+        "corrected_observables": [
+          0.22919571294126928,
+          0.07668267701540607
+        ],
+        "up_down_difference": 3.842620666105745e-13,
+        "corrected_UV_residuals": [
+          5.7625015870144125e-12,
+          -6.843237088105525e-11
+        ]
+      },
+      {
+        "MU_GeV": 28584716542829.004,
+        "legacy_observables": [
+          0.22576866737098894,
+          0.0819778611643286
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.00962412414770597,
+          -2.0350583440631453e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.630429207783891e-11,
+        "corrected_observables": [
+          0.22572175166338207,
+          0.08201925707382947
+        ],
+        "up_down_difference": 4.1060210786980633e-13,
+        "corrected_UV_residuals": [
+          5.3930193644191604e-12,
+          -6.399858420991222e-11
+        ]
+      },
+      {
+        "MU_GeV": 52995608987113.58,
+        "legacy_observables": [
+          0.22228685627442066,
+          0.08813037685164318
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.007821777331116664,
+          -2.2172841340761806e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.602718041089247e-11,
+        "corrected_observables": [
+          0.22224873300042747,
+          0.08816935218745565
+        ],
+        "up_down_difference": 6.532413499016343e-13,
+        "corrected_UV_residuals": [
+          7.389644451905042e-12,
+          -8.758860303714755e-11
+        ]
+      },
+      {
+        "MU_GeV": 98253014603344.2,
+        "legacy_observables": [
+          0.21880508448774774,
+          0.09530321181675236
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.0058048966069890184,
+          -2.2017445644451072e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.4414248400717042e-11,
+        "corrected_observables": [
+          0.21877679687895388,
+          0.09533713051390783
+        ],
+        "up_down_difference": 6.885603198725221e-13,
+        "corrected_UV_residuals": [
+          6.66489086142974e-12,
+          -7.885603281465592e-11
+        ]
+      },
+      {
+        "MU_GeV": 182159523461507.1,
+        "legacy_observables": [
+          0.21532335693486865,
+          0.10377758077807199
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.0035380125746513613,
+          -2.200948756581056e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.8336444302112795e-11,
+        "corrected_observables": [
+          0.2153061198210004,
+          0.10380217330020236
+        ],
+        "up_down_difference": 7.708972349362853e-13,
+        "corrected_UV_residuals": [
+          6.259881502046483e-12,
+          -7.412381819449365e-11
+        ]
+      },
+      {
+        "MU_GeV": 337720853875906.8,
+        "legacy_observables": [
+          0.21184167859392247,
+          0.11395002466466728
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          0.0009750732841382614,
+          -2.2982646896707593e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.595612613731646e-11,
+        "corrected_observables": [
+          0.21183692930927542,
+          0.11395822782796755
+        ],
+        "up_down_difference": 1.1162043511703246e-12,
+        "corrected_UV_residuals": [
+          7.425171588693047e-12,
+          -8.79794015418156e-11
+        ]
+      },
+      {
+        "MU_GeV": 626129081671503.1,
+        "legacy_observables": [
+          0.20836005451403716,
+          0.12639908135931255
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          -0.0019452203982552874,
+          -2.3803607973604812e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.9480418106686557e-11,
+        "corrected_observables": [
+          0.20836952608186077,
+          0.1263788504163738
+        ],
+        "up_down_difference": 1.2826961715006746e-12,
+        "corrected_UV_residuals": [
+          6.856737400084967e-12,
+          -8.138556495396188e-11
+        ]
+      },
+      {
+        "MU_GeV": 1160833340362362.8,
+        "legacy_observables": [
+          0.2048784898322446,
+          0.14200486094191828
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          -0.0053070157523791295,
+          -2.4475426130265987e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.7043256523029413e-11,
+        "corrected_observables": [
+          0.20490432032980732,
+          0.14193478743234944
+        ],
+        "up_down_difference": 1.86747839414636e-12,
+        "corrected_UV_residuals": [
+          7.887024366937112e-12,
+          -9.333689376944676e-11
+        ]
+      },
+      {
+        "MU_GeV": 2152166515727855.8,
+        "legacy_observables": [
+          0.20139698979125958,
+          0.16217862880586004
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          -0.009230416694997245,
+          -2.655767161741096e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.865618853320484e-11,
+        "corrected_observables": [
+          0.20144189384451325,
+          0.16201846960563301
+        ],
+        "up_down_difference": 2.433997448036962e-12,
+        "corrected_UV_residuals": [
+          7.808864666003501e-12,
+          -9.259082389689866e-11
+        ]
+      },
+      {
+        "MU_GeV": 3990082426452639.5,
+        "legacy_observables": [
+          0.19791555975742378,
+          0.1893438255278804
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          -0.01389579241533312,
+          -2.6341595571466314e-09
+        ],
+        "tighter_integrator_endpoint_difference": 3.0397018235817086e-11,
+        "corrected_observables": [
+          0.1979831145970963,
+          0.18901190009895885
+        ],
+        "up_down_difference": 3.386207980682343e-12,
+        "corrected_UV_residuals": [
+          7.929656931082718e-12,
+          -9.367795428261161e-11
+        ]
+      },
+      {
+        "MU_GeV": 7397549238657230.0,
+        "legacy_observables": [
+          0.19443420523956453,
+          0.22806854709736374
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          -0.0195934270150957,
+          -2.824748435159563e-09
+        ],
+        "tighter_integrator_endpoint_difference": 3.093703071499476e-11,
+        "corrected_observables": [
+          0.194529368904817,
+          0.2273800074995147
+        ],
+        "up_down_difference": 5.1829929237356964e-12,
+        "corrected_UV_residuals": [
+          8.235190307459561e-12,
+          -9.758593932929216e-11
+        ]
+      },
+      {
+        "MU_GeV": 1.3714938412189756e+16,
+        "legacy_observables": [
+          0.1909529319087926,
+          0.2882112279616283
+        ],
+        "archive_difference": 0.0,
+        "legacy_UV_residuals": [
+          -0.026839715966012534,
+          -2.7357529575056105e-09
+        ],
+        "tighter_integrator_endpoint_difference": 2.994227088493062e-11,
+        "corrected_observables": [
+          0.19108309840919946,
+          0.28667304796490023
+        ],
+        "up_down_difference": 8.943124019111792e-12,
+        "corrected_UV_residuals": [
+          8.746781077206833e-12,
+          -1.0349765489081619e-10
+        ]
+      }
+    ],
+    "legacy_fixed_input_sensitivity": [
+      {
+        "legacy_fixed_strong_coupling": 0.09,
+        "observables": [
+          0.22921540288339898,
+          0.0766675204033129
+        ],
+        "UV_residuals": [
+          0.004038534454231524,
+          -2.0341630602160876e-09
+        ]
+      },
+      {
+        "legacy_fixed_strong_coupling": 0.118,
+        "observables": [
+          0.22925051289121834,
+          0.07664050903949089
+        ],
+        "UV_residuals": [
+          0.01123982026264514,
+          -2.0316903714956425e-09
+        ]
+      },
+      {
+        "legacy_fixed_strong_coupling": 0.15,
+        "observables": [
+          0.22928320678901587,
+          0.07661537383700175
+        ],
+        "UV_residuals": [
+          0.01794554213918076,
+          -2.029487689014786e-09
+        ]
+      }
+    ],
+    "one_loop_up_down_control_errors": [
+      5.551115123125783e-17,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "R1_historical_metric": {
+    "interpretation": "historical loop-difference metric, not calibrated sigma",
+    "scope": "B915 scale interval intersected with BOTH original root brackets",
+    "best": {
+      "d": 16.116211355507396,
+      "MU_GeV": 13252415210187.256,
+      "t": 25.70228200883999,
+      "two_loop_gauge_only": [
+        0.23004757151896224,
+        0.07548014706532753
+      ],
+      "one_loop": [
+        0.2298010794109606,
+        0.07287317173345455
+      ],
+      "loop_difference": [
+        0.0002464921080016502,
+        0.002606975331872985
+      ]
+    },
+    "criterion_d_le_3": false,
+    "grid_checks": [
+      {
+        "grid_size": 61,
+        "valid_points": 15,
+        "grid_best": {
+          "d": 16.48524052608686,
+          "MU_GeV": 15417994725422.701,
+          "t": 25.853637508936465,
+          "two_loop_gauge_only": [
+            0.22919571294126923,
+            0.0766826770154061
+          ],
+          "one_loop": [
+            0.22894603256213744,
+            0.07396052537787128
+          ],
+          "loop_difference": [
+            0.00024968037913178365,
+            0.0027221516375348226
+          ]
+        },
+        "continuous_refinement": {
+          "d": 16.116211355507513,
+          "MU_GeV": 13252412239497.512,
+          "t": 25.702281784677826,
+          "two_loop_gauge_only": [
+            0.23004757278062718,
+            0.07548014531269358
+          ],
+          "one_loop": [
+            0.22980108067731134,
+            0.07287317014672615
+          ],
+          "loop_difference": [
+            0.0002464921033158429,
+            0.0026069751659674317
+          ]
+        }
+      },
+      {
+        "grid_size": 181,
+        "valid_points": 45,
+        "grid_best": {
+          "d": 16.16607390260568,
+          "MU_GeV": 12550447953546.383,
+          "t": 25.647858551455077,
+          "two_loop_gauge_only": [
+            0.230353889345431,
+            0.07505705309555555
+          ],
+          "one_loop": [
+            0.2301085317711944,
+            0.07248996192273477
+          ],
+          "loop_difference": [
+            0.0002453575742366043,
+            0.002567091172820779
+          ]
+        },
+        "continuous_refinement": {
+          "d": 16.116211355507396,
+          "MU_GeV": 13252415210187.256,
+          "t": 25.70228200883999,
+          "two_loop_gauge_only": [
+            0.23004757151896224,
+            0.07548014706532753
+          ],
+          "one_loop": [
+            0.2298010794109606,
+            0.07287317173345455
+          ],
+          "loop_difference": [
+            0.0002464921080016502,
+            0.002606975331872985
+          ]
+        }
+      }
+    ],
+    "uncovered_or_invalid_61_grid_points": [
+      {
+        "MU_GeV": 1000.0,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 1853.9840654956058,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 3437.2569151116154,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 6372.619549631522,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 11814.735100482625,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 21904.33061434641,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 40610.27992434582,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 75290.81187505326,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 139587.96549457606,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 258793.8637618945,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 479799.6996625931,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 889540.9978040248,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 1649194.8355337237,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 3057580.9459771756,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 5668706.352804654,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 10509691.250073561,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 19484800.11091494,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 36124508.92500338,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 66974263.92080993,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 124169218.1074791,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 230207751.79631427,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 426801503.5839349,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 791283186.7741796,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 1467026419.5739148,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 2719843605.5511136,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 5042546705.331872,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 9348801241.202673,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 17332528532.675266,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 32134231714.32793,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 59576353555.30743,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 110453610171.87265,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 204779233235.1149,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 379657435362.3119,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 703878835508.6553,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 1304980145072.6472,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 2.542727727545329e+16,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 4.714176689762883e+16,
+        "reason": "outside B915's actual weak-angle/strong-coupling root brackets"
+      },
+      {
+        "MU_GeV": 8.740008464751254e+16,
+        "reason": "no valid positive-coupling normalization bracket found"
+      },
+      {
+        "MU_GeV": 1.620383642594551e+17,
+        "reason": "no valid positive-coupling normalization bracket found"
+      },
+      {
+        "MU_GeV": 3.004165453360019e+17,
+        "reason": "no valid positive-coupling normalization bracket found"
+      },
+      {
+        "MU_GeV": 5.569674880641888e+17,
+        "reason": "one-loop path crosses a coupling pole"
+      },
+      {
+        "MU_GeV": 1.0326088478701181e+18,
+        "reason": "one-loop path crosses a coupling pole"
+      },
+      {
+        "MU_GeV": 1.9144403498409715e+18,
+        "reason": "one-loop path crosses a coupling pole"
+      },
+      {
+        "MU_GeV": 3.5493419029469885e+18,
+        "reason": "one-loop path crosses a coupling pole"
+      },
+      {
+        "MU_GeV": 6.580423331059602e+18,
+        "reason": "one-loop path crosses a coupling pole"
+      },
+      {
+        "MU_GeV": 1.2199999999999998e+19,
+        "reason": "one-loop path crosses a coupling pole"
+      }
+    ]
+  },
+  "R2_spectrum": {
+    "status": "CONDITIONAL INVERSE MATCH; all three archived couplings used",
+    "representation_dimension_per_27": 27,
+    "SM_beta_exact": [
+      "41/10",
+      "-19/6",
+      "-7"
+    ],
+    "D_Dbar_delta_beta_exact": [
+      "4/15",
+      "0",
+      "2/3"
+    ],
+    "L_Lbar_delta_beta_exact": [
+      "2/5",
+      "2/3",
+      "0"
+    ],
+    "degenerate_pair_delta_beta_exact": [
+      "2/3",
+      "2/3",
+      "2/3"
+    ],
+    "anomalies_SM_plus_three_27_exotic_sectors": {
+      "SU3_cubic": "0",
+      "SU3_squared_Y": "0",
+      "SU2_squared_Y": "0",
+      "Y_cubic": "0",
+      "gravity_Y": "0",
+      "SU2_global_mod2": "0"
+    },
+    "required_t_U": 27.045523640254164,
+    "required_M_U_GeV": 50775880435120.44,
+    "required_sum_log_M_L_over_M_D": -43.44769523156132,
+    "examples": [
+      {
+        "copies": 1,
+        "feasible_with_all_masses_between_MZ_and_MU": false,
+        "required_log_M_D_over_M_L_per_equal_copy": 43.44769523156132
+      },
+      {
+        "copies": 2,
+        "feasible_with_all_masses_between_MZ_and_MU": true,
+        "required_log_M_D_over_M_L_per_equal_copy": 21.72384761578066,
+        "illustrative_M_D_GeV": 3548707437285.0254,
+        "illustrative_M_L_GeV": 1304.7372195629393,
+        "inverse_UV_couplings": [
+          38.040930338953515,
+          38.040930338953515,
+          38.040930338953515
+        ],
+        "meeting_residual": 0.0,
+        "analytic_piecewise_difference": 7.105427357601002e-15
+      },
+      {
+        "copies": 3,
+        "feasible_with_all_masses_between_MZ_and_MU": true,
+        "required_log_M_D_over_M_L_per_equal_copy": 14.482565077187106,
+        "illustrative_M_D_GeV": 94982954073.73917,
+        "illustrative_M_L_GeV": 48746.96433605372,
+        "inverse_UV_couplings": [
+          36.606120747001796,
+          36.6061207470018,
+          36.606120747001796
+        ],
+        "meeting_residual": 7.105427357601002e-15,
+        "analytic_piecewise_difference": 7.105427357601002e-15
+      }
+    ],
+    "degenerate_control_errors": [
+      3.552713678800501e-15,
+      7.105427357601002e-15,
+      7.105427357601002e-15
+    ]
+  }
+}
