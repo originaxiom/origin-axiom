@@ -13771,3 +13771,35 @@ was right and it broke two of my statements.
 - **REGISTERS I-25 UNEARNED**, a documented raise 9 → 10 — a pre-existing debt newly **named**, not
   newly created. **OPEN AND NAMED:** what H¹(M; Sym^odd) contributes under the spin-lifted holonomy;
   settling it promotes the three conditional candidates or kills them.
+
+### B1256 addendum + THE STRATEGY (2026-09-05)
+
+Owner: *"lets make a strategy and solve the missing items, swipe the repo, account for all
+interactions m a a m qualia hartbeat voice etc."*
+
+- **THE EVEN-DIMENSIONAL CASE IS CLOSED, COMPUTED NOT CITED.** B1256's one open item — what
+  H¹(M; Sym^odd) contributes — was computable and is now computed. Fox calculus on m004's
+  2-generator/1-relator group with the banked B598 holonomy (relator maps to **+I**, so ρ is an
+  honest SL(2,ℂ) rep and Sym^n is defined for every n), ranks over two independent primes
+  p ≡ 1 mod 3 **agreeing on every row**, n = 0…16:
+  **h¹(Sym^even) = 1** (reproducing Menal-Ferrer–Porti on this bench for the object) and
+  **h¹(Sym^odd) = 0** — even-dimensional summands contribute **exactly zero**.
+- **CONSEQUENCE BOTH WAYS, and it weakens the arc's first headline.** The assumption was correct so
+  the arithmetic stands, but it now privileges nobody: **under the spin lift all FOUR candidates are
+  equally valid** and the subregular is merely tidiest; **under the canonical PSL(2,ℂ) holonomy**
+  (what B1112 banks — the lift is *extra* structure, a choice) even-dimensional summands are not
+  representations at all and the **subregular E₆(a₁) is genuinely unique**. Uniqueness survives
+  **conditioned on a stated hypothesis** rather than on an unverified gap. I-25 unchanged, UNEARNED.
+- **`docs/STRATEGY_2026-09-05.md` LANDED** — a full accounting built from a repo sweep: all four
+  interactions (strong/weak/EM structure DERIVED, gravity exhibited with **invariant content zero**,
+  and the **E₆(−14)/E₆(−26) fork** that no arc crosses), the observer threads (**qualia B1169 OPEN**
+  — the Markov blanket IS the cusp torus, mirror-EVEN, *aware-but-choiceless*; **heartbeat B448**
+  PROVED on the cusp locus **κ = −2**, which is exactly B1248's no-bit value; **voice/hearing B1069**
+  with the 1,1,2 vs 1,2,8 Hecke discriminator; **naming vs choosing** B1184), and the missing items
+  ranked. **Organising diagnosis: OPEN_ITEMS H5** — the object supplies every *space* and never a
+  *point*, now seen at **four** levels with I-25 added — so **I-13 is not one debt among twenty, it
+  IS the boundary**. H5's falsifier remains un-hunted and is named as work.
+- **THE HIGHEST-VALUE LEAD NAMED:** H4's limit is that ε is a **class, not a magnitude**, while
+  crossing needs a dimensionless **number** from a pair. B1248's law makes the bit-carrying partners
+  the family **κ = 2 + n²** — **and n is a number.** Whether n is object-determined is the crossing's
+  own currency. Registered as a lead; asserted as nothing.

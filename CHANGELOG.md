@@ -1,5 +1,23 @@
 # Changelog
 
+## THE EVEN-DIMENSIONAL CASE, COMPUTED NOT CITED — AND THE STRATEGY
+
+**B1256 addendum + `docs/STRATEGY_2026-09-05.md`.** The arc's one open item is closed by
+computation: Fox calculus on m004's 2-generator/1-relator group (banked B598 holonomy; the relator
+maps to **+I**, so ρ is an honest SL(2,ℂ) rep and Sym^n exists for every n), two independent primes
+agreeing on every row, n = 0…16 — **h¹(Sym^even) = 1** (Menal-Ferrer–Porti reproduced on bench) and
+**h¹(Sym^odd) = 0**. **Consequence both ways:** the assumption was right so the arithmetic stands,
+but it privileges nobody — under the spin lift **all four** candidate embeddings are equally valid;
+under the **canonical PSL(2,ℂ) holonomy** (B1112 banks the lift as *extra* structure, a choice)
+even-dimensional summands are not representations at all and the **subregular E₆(a₁) is uniquely
+admissible**. Uniqueness survives **conditioned on a stated hypothesis** rather than an unverified
+gap — a weaker headline and a better epistemic position. **The strategy** lands a full repo-swept
+accounting: all four interactions (structure derived for strong/weak/EM; gravity exhibited with
+**invariant content zero**; the **E₆(−14)/E₆(−26) fork no arc crosses**), the observer threads
+(qualia **B1169 OPEN**, heartbeat **B448** on κ = −2, voice **B1069**, naming-vs-choosing **B1184**),
+and the missing items ranked under **OPEN_ITEMS H5** — *the object supplies every space and never a
+point*, now at **four** levels, so **I-13 is the boundary, not one debt among twenty**.
+
 ## WHICH sl₂? THE PRINCIPAL EMBEDDING WAS NEVER DERIVED
 
 **B1256.** Owner, on the previous draft: *"does not exist or u cant identify?"* — and the question
