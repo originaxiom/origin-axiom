@@ -76,3 +76,25 @@ numerical tolerance. Repair: simplify the product before checking exact zero,
 and add an actual non-kernel vector that must still fail. The scientific
 instrument and its completed output are unchanged. The corrected test is
 re-hashed and committed before its rerun.
+
+The rerun, together with all earlier new physical-bridge tests, returned
+**34 passed in 15.75 s**. No failed scientific output was overwritten.
+
+## R4 final staged gates: two missing machine-readable headings
+
+After adding the orientation control, all **35 new tests passed in 22.12 s**.
+The staged governance run was **28 passed, 2 failed**: the already-disclosed
+literal-ref-name attribution check, and `seal-provenance` on EXTENSION_2.md
+and EXTENSION_2_CONTROL.md. The latter requires the exact headings
+`BANKED IDENTITY:` and `PRIOR ART:`. The designs describe their inherited
+identities, controls and prior work but do not use those literal headings.
+
+The sealed originals are not rewritten after execution to simulate compliant
+pre-execution wording; their hashes and commit history are preserved. This is
+a genuine procedural-format defect in this local draft, not a failed invariant
+or an excuse to drop the scientific result. Future designs must include both
+required fields before sealing. No gate was weakened, no full-suite green or
+publication readiness is claimed, and nothing has been pushed.
+
+Final test/gate output: `VACUUM_FINAL_CHECKS.txt`. All 27 currently listed
+input/design/code/output hashes matched before these reporting notes.

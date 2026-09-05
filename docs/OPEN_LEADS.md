@@ -2313,6 +2313,26 @@ actual thresholds to the runner. Acceptance needs a new consequence not used
 to choose those inputs. Additional fields, interactions or intermediate phases
 are not excluded by R3. No blanket negative on dynamics or physical completion.
 
+**R4 advancement:** `reports/physical_bridge_2026_09_05/VACUUM_MODEL.md` now
+supplies a particular positive classical potential, an SM-algebra minimum,
+the mixed S/N mass matrix and a complete scalar Hessian. Eleven non-gauge
+tree-level zero modes remain (real octet+triplet); no physical Higgs doublet
+is massless at the representative vacuum. **PB-MASS remains open**, now with
+specific duties: compute radiative/allowed-operator lifting and vacuum
+selection, engineer and price the light doublet, then match the actual scalar
+and fermion spectrum. Singlet mixing alone remains SU5-degenerate; R3's
+gauge-only bound does not cover every interaction in R4. Deriving action
+parameters from the program and making an independent prediction remain owed.
+
+**PB-VACUUM — admit versus select. OPEN as a physical-selection task.** R4's
+minimum is verified, but its orientation is not unique by the positive-square
+argument. The separately sealed `EXTENSION_2_CONTROL.md` **exhibits** a concrete
+competing SU5 Cartan orientation at the same potential and scalar norms: all
+twenty SU5 root charges nonzero, unbroken algebra dimension four, versus
+twelve at the SM minimum. It is not gauge-equivalent to the SM vacuum.
+Radiative selection must retain all fluctuating fields and state its input
+budget; choosing an SM orientation by hand is not a computed selector.
+
 **PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
 exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's
 eight missing logs plus one cached-bytecode artifact. Exact paths, original

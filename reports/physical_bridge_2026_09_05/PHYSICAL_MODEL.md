@@ -212,3 +212,18 @@ Gravity, the physical Lorentz-spin identification, a continuum limit, SM flavor,
 neutrino parameters and cosmology are **not delivered by this effective model**.
 Their existing repository results and open identifications remain in scope for
 the larger program, not silently replaced by this one gauge-sector calculation.
+
+## 6. R4 continuation: test the proposed action, not only a mass ansatz
+
+[VACUUM_MODEL.md](VACUUM_MODEL.md) now constructs an explicit positive,
+renormalizable classical E6 scalar potential, a global minimum with the SM
+gauge algebra, the exact mixed singlet-VEV fermion mass matrix, and the full
+186-coordinate scalar Hessian. Its 77 zero modes consist of 66 gauge modes
+and eleven additional real adjoint modes. No massless physical Higgs doublet
+remains at that representative vacuum. All those consequences are retained.
+
+That model therefore **does not have the effective spectrum assumed in §1**.
+Its extra scalar/Yukawa interactions also lie outside R3's gauge-only running
+bound. Do not apply §3's fitted threshold requirement as if it were a test of
+all of R4. The next step is vacuum selection, scalar lifting and the light
+doublet, followed by matching the actual spectrum. No original result is erased.

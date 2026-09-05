@@ -13613,3 +13613,54 @@ Design and code were hashed before execution; the R3 serialization failure
 and partial output are retained, the repair re-hashed before a new-file rerun.
 Report and continuation contract: `reports/physical_bridge_2026_09_05/README.md`.
 The next task is registered in OPEN_LEADS; original substrate remains in place.
+
+## 2026-09-05 — Physical bridge R4: the action, its vacuum and every scalar mode
+
+Continued from the audit on the local branch, preserving the full goal rather
+than declaring a fitted threshold or a subgroup diagram to be physics complete.
+R4's design and code were committed before execution (`0c47bcac`). Inputs:
+the banked B883 representation and B884 cubic, explicitly chosen compact E6,
+4d physical kinetic/statistics interpretation, two scalar 27s, one real
+adjoint, a positive quartic potential and free scales/Yukawa matrices.
+
+The cubic was independently reconstructed from 1,080 invariance equations:
+45 monomials, nullity one, coefficients of magnitude one. S and N form the
+complete SM/SU5-invariant subspace. The actual compact stabilizer of distinct
+S,N plus Y is the SM algebra (dimension 12); one scalar S+2N still leaves
+dimension 45. The specified potential's every square vanishes, proving a
+global classical minimum, not just an allowed representation configuration.
+
+The full 186-coordinate scalar Hessian has exact rank 109. Its 77 quadratic
+zero modes are 66 gauge Goldstones plus eleven non-gauge real octet/triplet
+modes. The exact gauge-orbit identity and finite directional differences
+check the instrument independently. The physical scalar spectrum is not the
+one assumed in R2; no massless physical Higgs doublet remains at this point.
+
+The actual s S+n N fermion matrix has rank 10 for every nonzero pair; the
+color/weak rectangular blocks have equal singular masses sqrt(abs(s)^2+abs(n)^2).
+Pure N also makes a complete vectorlike multiplet heavy, changing which 5bar
+is light. B970's direct-entry unique-S statement gets a scope addendum, not
+an invented contradiction. The mixed family interface retains all kernels.
+
+The first test run was 7 passed/1 failed on an unevaluated symbolic zero;
+the residual simplified to exact zero, the failed output was retained and
+the repaired assertion sealed before rerun (`965343fd`). The combined 34
+new bridge tests then passed in 15.75 s; no scientific code/result changed.
+
+One further control was sealed at `02a0d3ef`: an explicitly normalized SU5
+Cartan direction at the same scalar norms and potential. It too gives V=0,
+but its direct compact stabilizer has dimension four, not twelve; all twenty
+SU5 roots have nonzero charge. Hence the model admits, but does not select,
+the SM minimum. Neither this fact nor its tree-level zero modes is a quantum
+no-go. PB-MASS/PB-VACUUM retain radiative selection, scalar lifting, the light
+doublet, actual spectrum matching and a source-derived input restriction.
+
+Proofs and reproduction: `reports/physical_bridge_2026_09_05/VACUUM_MODEL.md`.
+All new sublemmas registered in LAW_MAP. No CLAIMS promotion or empirical
+success; physical gravity and the full program-to-observable map remain in scope.
+
+Final R4/control checks: **35 new tests passed in 22.12 s**; 27 artifact
+hashes matched. Staged governance: **28 passed, 2 failed** (literal upstream
+ref names; required exact provenance headings absent from the sealed designs).
+The seals were not rewritten after the fact. Raw checks and explanations are
+preserved; no publication-ready green certificate or push is claimed.

@@ -30,6 +30,11 @@ Both directions of skepticism were necessary in this audit:
   and test a common-UV-mass mechanism including radiative splitting. The result
   is a concrete mass target and a scoped mechanism constraint, not a fitted
   number relabeled as a prediction. See [PHYSICAL_MODEL.md](PHYSICAL_MODEL.md).
+- **Supply and test an action:** R4 now gives an explicit classical potential,
+  an SM-algebra global minimum, a complete scalar Hessian and mixed fermion
+  masses. It also exhibits a competing non-SM minimum and eleven extra scalar
+  zero modes. Its assumptions and unresolved physical work stay attached in
+  [VACUUM_MODEL.md](VACUUM_MODEL.md); this is not a source-derived complete TOE.
 - **Verify the archive itself:** the clean baseline suite has five failures
   caused by missing evidence. Passing metadata tests did not guarantee that
   the evidence they described had been committed.
@@ -306,3 +311,44 @@ The actionable next step is a **specific mass/VEV/mixing mechanism feeding
 the new threshold interface**, while retaining the existing dynamics and
 spacetime leads. This is a research route with tests that can pass or fail.
 Neither a complete TOE nor its impossibility has been established here.
+
+## 8. Continued physical construction: R4's action and vacuum
+
+The next step in §7 has now been executed for one fully declared classical
+model. [VACUUM_MODEL.md](VACUUM_MODEL.md) gives its action and input budget.
+Using the banked representation, the cubic is independently reconstructed
+from 1,080 exact invariance equations. Two scalar 27s plus an adjoint admit
+a sum-of-squares potential with an SM-algebra-preserving global minimum.
+The compact stabilizers are computed as actual kernels: one S or S+2N leaves
+dimension 45, distinct S and N leave 24, and adding Y leaves the explicit
+color/weak/hypercharge algebra of dimension 12.
+
+The full scalar Hessian has exact rank 109 on 186 real coordinates; its 77
+zero modes split into 66 gauge Goldstones and eleven physical quadratic zero
+modes, identified as a real octet and triplet. The fermion mass matrix has
+rank 10 for either pure S or pure N, or any nonzero combination; which 5bar
+is light changes with mixing. The complete massive SU5 multiplet remains
+tree-level degenerate. B970's direct-entry uniqueness statement is scoped
+at source; it is not turned into a ban on this physical mixing.
+
+These are consequences of a chosen **physical action**, not just representation
+compatibility. But neither that action nor its input parameters are derived
+from the program, and the extra light scalars mean its low-energy spectrum is
+not the earlier RG model. The physical bridge remains incomplete. In particular,
+R3 cannot kill all R4 interactions by using its gauge-only bound out of scope.
+
+The first eight vacuum tests returned 7 passed/1 failed on an unevaluated
+symbolic zero. Its exact residual was checked, the failure retained, and the
+assertion repaired without changing the scientific instrument. All 34 new
+bridge tests then passed in 15.75 s. A separately sealed competing-orientation
+control checks the distinction between admitting and selecting the SM vacuum.
+It exhibits an equal-potential, equal-norm minimum with unbroken Cartan algebra
+of dimension four; the direct matrix-action check distinguishes it from the
+dimension-twelve SM minimum. The action therefore does not select the SM
+orientation at tree level. No loop-level conclusion is substituted for that fact.
+The final combined new tests are **35 passed in 22.12 s**. The staged
+governance checks are **28 passed, 2 failed**: the literal upstream-ref names
+and exact required headings missing from the two sealed designs. Actual
+pre-execution text, hashes and failures are preserved; this remains a local
+draft, not an all-gates-green publication. See FAILURES.md and
+[VACUUM_FINAL_CHECKS.txt](VACUUM_FINAL_CHECKS.txt).

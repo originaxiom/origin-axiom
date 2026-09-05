@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**PHYSICAL CONTINUATION R4 (2026-09-05, local audit branch):** an explicit
+bounded classical compact-E6 potential has an SM-algebra-preserving global
+minimum, verified on the actual 27/cubic. Full Hessian: rank 109 on 186 real
+scalars, with 66 gauge modes and eleven extra physical zero modes (octet and
+triplet). Mixed S/N fermion masses computed; the light 5bar is a kernel, not
+a fixed inherited label. Inputs remain chosen. The resulting spectrum is
+**not** the previous RG model, so its fitted requirement cannot be applied
+unchanged. Action, assumptions and continuation:
+`reports/physical_bridge_2026_09_05/VACUUM_MODEL.md`. No CLAIMS promotion.
+
 **AUDIT UPDATE (2026-09-05, baseline `f06d3405`; local audit branch):** B915's
 sequential two-loop curve fails its coupled boundary conditions; independently
 corrected, its checked historical mismatch remains, but **not as calibrated

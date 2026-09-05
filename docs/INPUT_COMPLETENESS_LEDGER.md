@@ -147,3 +147,19 @@ design and the post-result R3 extension are preserved under
 | 10 | Firewall | R1 audits a numerical instrument; R2/R3 develop a conditional physical model from imported QFT. All three couplings enter the inverse fit. No quantity promoted to CLAIMS. |
 | 11 | Source freshness | B915 source/fixture SHA-256 pinned, expressly not refreshed empirical data. Primary QFT equations checked 2026-09-05; remote main re-fetched and unchanged. |
 | 12 | Sealing | R1/R2 design then instruments committed before running. R3 separately labeled post-R1/R2 and sealed before its run. Serialization failure retained; repair hashed before a new-file rerun. |
+
+## R4 action/VEV input account (2026-09-05; conditional theory, no empirical comparison)
+
+The following administrative summary is written after execution; the actual
+pre-execution declarations are EXTENSION_2.md and EXTENSION_2_CONTROL.md in
+`reports/physical_bridge_2026_09_05/`, both registered in SEAL_LEDGER.
+
+| Input | Status and limit |
+|---|---|
+| 4d Lorentzian spin spacetime, compact E6, positive kinetic terms and Weyl statistics | Chosen physical interpretation, not a paid program-to-physics identification or derivation of a real form. |
+| Two complex scalar 27s, one real adjoint and N_f Weyl 27 families | Field multiplicities chosen. Scalar and fermion carriers are not interchanged just because their gauge representations agree. |
+| Six positive quartic coefficients, gauge coupling and three scale parameters | Free model inputs; the numerical representative sets quartics and two scalar norms to one and fixes the adjoint norm to Tr Y^2. Not physical measured units. |
+| Symmetric complex family Yukawa matrices | Two matrices, freely supplied. For three families: 24 real entries before redefinitions, not a physical-observable parameter count. |
+| Other allowed operators and quantum corrections | Set to zero/not calculated at this defining stage, without claiming radiative protection. |
+| S,N,Y orientation versus actual selection | An SM-algebra minimum exists, but an equal-energy non-SM minimum is explicitly exhibited. No selector or independent prediction is claimed. |
+| Low-energy spectrum | All eleven extra scalar zero modes retained; no massless physical Higgs doublet at the tested vacuum. Earlier R2/R3 spectrum and truncation cannot be silently reused. |

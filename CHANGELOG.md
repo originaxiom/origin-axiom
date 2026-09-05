@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-09-05 — Physical bridge R4: an explicit action, vacuum and full spectrum
+
+The local audit continuation now builds a bounded renormalizable classical
+compact-E6 scalar potential from the banked 27/cubic, with two complex 27s and
+one real adjoint. The chosen vacuum is a global minimum and its actual compact
+stabilizer is the SM algebra. The complete 186-coordinate Hessian has rank 109:
+66 gauge Goldstones and eleven additional quadratic zero modes (real octet
+and triplet). All are retained; this is not R2's assumed effective spectrum.
+The singlet-VEV mixed fermion mass matrix is computed exactly, including the
+pure-N rank-10 control that changes which 5bar is light. B970 gets a direct-entry
+versus physical-mass scope addendum; no old result is rewritten.
+
+The action, real form, field content, scales and Yukawas are **chosen inputs**,
+not derived physics or an empirical success. First test failure preserved and
+exactly diagnosed; 34 new bridge tests pass after the assertion repair. The
+existing evidence/publication-gate issues remain disclosed. Full construction:
+`reports/physical_bridge_2026_09_05/VACUUM_MODEL.md`; next work: vacuum selection,
+scalar lifting, the light doublet and matching the spectrum actually obtained.
+
 ## 2026-09-05 — Physical bridge audit: repair the crossing, retain the assets, compute a mass requirement
 
 Baseline `f06d3405`: full serial suite **5993 passed, 60 skipped, 5 failed**;

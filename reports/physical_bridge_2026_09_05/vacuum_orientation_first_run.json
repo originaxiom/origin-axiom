@@ -1,0 +1,31 @@
+{
+  "scope": "same R4 potential and scalar norms; explicit alternative orientation",
+  "cartan_coefficients_before_norm": [
+    0,
+    0,
+    1,
+    4,
+    16,
+    64
+  ],
+  "scale_squared": "5/39324",
+  "positive_su5_root_charges": [
+    "112",
+    "-36",
+    "76",
+    "-9",
+    "-45",
+    "67",
+    "-2",
+    "-11",
+    "-47",
+    "65"
+  ],
+  "su5_roots_with_zero_charge": 0,
+  "compact_unbroken_dimension": 4,
+  "reference_Y_unbroken_dimension": 12,
+  "potential_numerical": 7.888609052210118e-31,
+  "zero_adjoint_potential_control": 25.0,
+  "not_gauge_equivalent_to_Y": true,
+  "global_minimum_proof": "same scalar constraints as R4; A*S=A*N=0 and exact norm equality"
+}

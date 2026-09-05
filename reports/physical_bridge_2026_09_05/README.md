@@ -8,9 +8,18 @@ boundary-value solver, and an executable conditional gauge-and-mass calculation
 using the banked exotic multiplets. This is progress toward a physical theory,
 **not a completed theory of everything or a newly successful empirical prediction**.
 
+R4 now adds an [explicit scalar action and vacuum](VACUUM_MODEL.md): a verified
+classical minimum with the SM gauge algebra, actual mixed fermion masses, and
+a full Hessian exposing eleven non-gauge scalar zero modes. The action and
+its parameters remain chosen inputs; its low-energy spectrum is not R2's.
+The same potential also admits a verified non-SM minimum. **35 new tests pass**;
+archive and staged publication-gate failures remain explicit in [FAILURES.md](FAILURES.md).
+
 - [Audit and programme history](AUDIT.md): what survives, what changed, what was checked.
 - [Physical model and its exact assumptions](PHYSICAL_MODEL.md): action, spectrum,
   threshold requirement, mass mechanism, and next falsifiable task.
+- [Vacuum and complete fluctuation audit](VACUUM_MODEL.md): what the potential
+  really supplies, versus merely drawing a subgroup chain.
 - [Original design](PREREGISTRATION.md), [post-result extension](EXTENSION_1.md),
   [preserved failures](FAILURES.md), and [artifact hashes](ARTIFACT_HASHES.txt).
 - Successful numerical outputs: [crossing and thresholds](results_first_run.json),
@@ -25,6 +34,9 @@ From the repository root, using the audited Python 3.12 environment:
 
 ```sh
 python3.12 -m pytest tests/test_physical_bridge_gauge_running.py tests/test_physical_bridge_mass_match.py tests/test_physical_bridge_legacy_audit.py -q -p no:randomly
+python3.12 -m pytest tests/test_physical_bridge_vacuum.py tests/test_physical_bridge_vacuum_orientation.py -q -p no:randomly
+python3.12 -m reports.physical_bridge_2026_09_05.vacuum --output /tmp/oa-vacuum-new-run.json
+python3.12 -m reports.physical_bridge_2026_09_05.vacuum_orientation --output /tmp/oa-vacuum-orientation-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.run_audit --output /tmp/oa-crossing-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.mass_match --input /tmp/oa-crossing-new-run.json --output /tmp/oa-mass-new-run.json
 python3.12 -m pytest tests/test_b1098_nonabelian_hatch.py -q -p no:randomly
@@ -38,7 +50,9 @@ from these focused checks; a partial run is never reported as green.
 ## Continuation contract
 
 Do not restart by assuming either that the program has no dynamics or that its
-physical interpretation has been proved. Start with the exact mass requirement
-in PHYSICAL_MODEL.md and its list of existing sources. A new mass mechanism must
-emit its parameters before a fresh empirical comparison; matching the requirement
-by choosing masses is an inverse fit. Preserve the original B915 seal and results.
+physical interpretation has been proved. Continue from VACUUM_MODEL.md: lift or
+retain its full scalar spectrum explicitly, test vacuum selection and construct
+the light-Higgs sector before redoing matching. PHYSICAL_MODEL.md's exact mass
+requirement applies to its own earlier spectrum, not automatically to R4.
+A new mass mechanism must emit its parameters before a fresh empirical comparison;
+matching by choosing masses is an inverse fit. Preserve all seals and first runs.
