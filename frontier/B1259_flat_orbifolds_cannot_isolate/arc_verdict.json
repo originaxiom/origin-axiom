@@ -1,0 +1,20 @@
+{
+ "id": "B1259",
+ "verdict": "NEGATIVE",
+ "instrument": true,
+ "depends_on": [
+  "B1084",
+  "B1086",
+  "B1087",
+  "B944",
+  "B582",
+  "B576",
+  "B432"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "NO FLAT G2 ORBIFOLD CAN SUPPLY ACHARYA-WITTEN ISOLATION -- B1084's census was a THEOREM all along, and its hatch cannot be walked by changing the group. B1084 built the flat G2 orbifold (C^2 x R^3)/G-hat (|G-hat| = 96): ONE E6 locus with pointwise stabilizer exactly 2T, three A1 families, AW COLLISION met at the apex, but ISOLATION FAILING because the fixed-dimension census over 95 nontrivial elements is {3d: 53, 1d: 42} with NO 0-dimensional fixed set -- so every A1 locus meets E6 along a LINE and all matter is vector-like (flatness => non-isolation => pairing). Its hatch, a deformation making an A1 locus meet E6 at an isolated transversal point, WAS NEVER WALKED (verified: of ~1180 arcs only one declares a dependency on B1084/B1086/B1087, a bookkeeping follow-through). THE THEOREM: G2 < SO(7) so every element acts on R^7 with det +1, and EVERY element of SO(2k+1) has eigenvalue +1 -- the characteristic polynomial is real of ODD degree hence has a real root, non-real eigenvalues come in conjugate pairs of modulus 1 each contributing +1 to the determinant, the real eigenvalues are +-1 and their product must be det = +1, and an ODD number of them multiplying to +1 forces one to be +1. So every nontrivial element of ANY flat G2 orbifold group fixes at least a LINE, and a 0-dimensional fixed set cannot occur FOR ANY G-hat, not merely order 96. CONSEQUENCE: AW isolation is unavailable across the ENTIRE class of flat G2 orbifolds -- the hatch cannot be walked by hunting a better finite group, and that whole search space closes in one line. Chiral matter by this route requires genuine CURVATURE, a conical G2 singularity whose local model is a cone over a 6-manifold rather than a linear action on R^7. Converts B1084's empirical census into a STRUCTURAL no-go. DOES NOT say chirality is impossible: the corpus has it CONSTRUCTED (B944: 102 arcs, 70 PROVED) by the theta-odd twisted full-E6(C) frame (B582/B576) with a CLOSING supplying the bit (B432/B434). DOES NOT resolve JOIN 1: B1086's chiral dial still gives h^1 = 2, not 3. CONTROLS: SO(6) elements generically DO avoid eigenvalue +1 (2000/2000) while SO(7) never do (0/4000), so the statement is dimension-specific rather than a triviality; and the argument is exhibited as independent of |G-hat|."
+}

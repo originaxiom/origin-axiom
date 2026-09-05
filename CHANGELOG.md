@@ -1,5 +1,22 @@
 # Changelog
 
+## NO FLAT G₂ ORBIFOLD CAN ISOLATE — B1084's census was a theorem, and its hatch closes for every group
+
+**B1259**, the first work under `docs/MAIN_GOAL.md` (JOIN 1). B1084 left a hatch — *"chirality costs
+a deformation making an A₁ locus meet the E₆ locus at an isolated transversal point"* — and it was
+**never walked** (of ~1180 arcs, one declares a dependency on B1084/B1086/B1087, a bookkeeping
+follow-through). **It cannot be walked by changing the group.** G₂ ⊂ SO(7) ⇒ every element has
+det = +1, and **every element of SO(2k+1) has eigenvalue +1** (real char poly of odd degree; non-real
+eigenvalues in conjugate pairs contributing +1 to det; real ones ±1 with product +1 and odd count).
+So every nontrivial element of **any** flat G₂ orbifold group fixes at least a **line** — **no
+0-dimensional fixed set, for any Ĝ.** B1084's {3d: 53, 1d: 42} was forced by **flatness in seven
+dimensions**, not by |Ĝ| = 96. **Acharya–Witten isolation is unavailable across the entire class of
+flat G₂ orbifolds**; chiral matter by this route requires genuine **curvature**. Controls: SO(6)
+generically avoids eigenvalue +1 (2000/2000), SO(7) never does (0/4000) — dimension-specific, not
+trivial. **Scope:** chirality is *not* impossible — the corpus has it constructed (B944: 102 arcs, 70
+PROVED) via the θ-odd twisted full-E₆(ℂ) frame with a closing supplying the bit. JOIN 1 stands:
+B1086's chiral dial gives **h¹ = 2**, not 3.
+
 ## 2T IS BLIND — two object-internal tests, both negative, one by a theorem
 
 **B1258.** B1257 named a canonical selector (Brieskorn–Slodowy → the subregular, uniquely); earning

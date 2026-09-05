@@ -13855,3 +13855,25 @@ it. Two natural object-internal tests were run. **Both are blind.**
 - **CONTROL THAT CONVICTS THIS ARC'S OWN DRAFT:** the first statement of the mechanism — *"χ is
   periodic mod 12 on every class"* — is **false**, failing at λ = 1 where χ = n+1 grows. The selftest
   asserts the naive version false so it cannot silently revert.
+
+### B1259 — no flat G₂ orbifold can supply Acharya–Witten isolation (2026-09-06)
+
+First work under `docs/MAIN_GOAL.md`, JOIN 1.
+
+- **THE HATCH WAS NEVER WALKED.** B1084 left one: *"chirality costs a deformation making an A₁ locus
+  meet the E₆ locus at an isolated transversal point."* Verified across ~1180 arcs — only **one**
+  declares a dependency on B1084/B1086/B1087, and it is a bookkeeping follow-through.
+- **AND IT CANNOT BE WALKED BY CHANGING THE GROUP.** **G₂ ⊂ SO(7)**, so every element acts on ℝ⁷ with
+  **det = +1**; and **every element of SO(2k+1) has eigenvalue +1** (real char poly of odd degree ⇒ a
+  real root; non-real eigenvalues in conjugate pairs of modulus 1 each contribute +1 to det; the real
+  ones are ±1 with product +1, and an odd count forces one to be +1). So **every nontrivial element
+  of any flat G₂ orbifold group fixes at least a LINE** — no 0-dimensional fixed set, **for any Ĝ**.
+- **B1084's census was a theorem all along.** {3d: 53, 1d: 42} is not a property of order 96; it is a
+  property of **flatness in seven dimensions**. AW isolation is unavailable across the **entire class
+  of flat G₂ orbifolds** — the search space closes in one line, and chiral matter by this route needs
+  genuine **curvature** (a conical singularity, local model a cone over a 6-manifold).
+- **CONTROLS.** Dimension-specific, not trivial: **SO(6) elements generically DO avoid eigenvalue +1
+  (2000/2000)** while **SO(7) never do (0/4000)**; and the argument is exhibited independent of |Ĝ|.
+- **SCOPE.** Does **not** say chirality is impossible — the corpus has it **constructed** (B944: 102
+  arcs, 70 PROVED) via the **θ-odd twisted full-E₆(ℂ)** frame with a **closing** supplying the bit.
+  Does **not** resolve JOIN 1: B1086's chiral dial still gives **h¹ = 2**, not 3.

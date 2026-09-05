@@ -6095,6 +6095,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1259": {
+   "slug": "flat orbifolds cannot isolate",
+   "motifs": [
+    "closing",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B432",
+    "B434",
+    "B576",
+    "B582",
+    "B944"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B125": {
    "slug": "snappy arithmeticity",
    "motifs": [
