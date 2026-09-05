@@ -1,0 +1,25 @@
+{
+ "id": "B1254",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1248",
+  "B497",
+  "B1247",
+  "B6",
+  "B1157"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "THE ORIENTATION CLASS HAS A DYNAMICS AND IT MOVES IN EXACTLY ONE STRATUM -- joining two things the repo already held and which had never met: B1248's det X = 2 - kappa in K*/(K*)^2 (so the orientation class is eps = squarefree(2-kappa)) and B497's FOUR STRATA of End(F_2) on X(F_2), each with an exact kappa-law, of which 'the program to date = stratum 1 of 4'. THE JOIN: a stratum multiplies (kappa-2) by an explicit factor F, and because eps is a SQUARE CLASS, F acts through ITS OWN square class -- so a perfect-square factor leaves eps untouched even though kappa moves. Stratum 1 (Aut/metallic) has kappa' = kappa, F = 1, class PRESERVED. Stratum 2 (A->A^2, B->B^2, det 4) has kappa'-2 = (kappa-2)x^2y^2, F = (xy)^2 a PERFECT SQUARE, class PRESERVED -- the kappa-law is non-trivial yet the class passes through untouched, and B497 records that this stratum is transfer-matrix decimation at matrix level, not metaphor. Stratum 3 (Thue-Morse, det 0) has kappa'-2 = (kappa-2)(x^2+y^2-xyz), whose factor has TOTAL DEGREE 3 and is therefore never a perfect square BY PARITY, NOT BY SEARCH -- so stratum 3 is the ONLY stratum that can move the orientation class. Stratum 4 (non-injective) has image contained in {kappa = 2}, exactly where 2-kappa = 0 and eps is UNDEFINED; and B497's U1 says kappa = 2 is invariant under EVERY endomorphism, so the locus on which the class dies is ABSORBING. WHY THIS WAS NOT ALREADY KNOWN: B1157 banked 'the object supplies NO parameter-free dynamical law' WITHOUT CITING B497 -- our own finding at B1247, which located the mechanism (the atlas lexicon was 18 noun-motifs frozen 2026-07-01 with NO WORD FOR A QUESTION -- no motif for arrow, irreversibility, dynamics, monoid, measurement, collapse, closing, naming or choice -- so B497 sat seven weeks under twelve object-motifs, none saying monoid, strata or dynamics), while B6's field equation box(tau) + kappa(tau^2 - tau - 1) = 0 with an EARNED potential has been on ZERO surfaces since week one. THE DYNAMICS WAS NEVER MISSING; IT WAS UNREACHABLE. FENCED: no physics reading of the strata (B497 fences the verb-names to speculations/S063 and that fence is kept); B1157's negative is NOT retracted -- its scope is the infinite-place dynamical-law reading, a different object; three of the four strata have never been worked. No measured value; Gate 5 clean.",
+ "note": "The owner's instruction across this session was that the programme's negatives are frequently retrieval failures rather than facts -- 'maybe dynamics isnt missing we need to identify them'. That was right: this arc is a JOIN of two banked arcs, not a new computation, and the only reason it was available tonight is B1247's lexicon repair two days earlier. The sweep preceded the computation this time.",
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-05",
+  "arc": "B1254",
+  "was": "candidate: 'the orientation class is conserved by strata 1-2 and moved only by stratum 3' as a law.",
+  "now": "NO LAW -- it is a COROLLARY of two banked results (B1248's square-class identity and B497's exact kappa-laws), obtained by reading one through the other. Locked in tests/test_b1254_class_dynamics.py."
+ }
+}

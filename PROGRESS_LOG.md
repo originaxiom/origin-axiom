@@ -13697,3 +13697,48 @@ two B1242 addenda owed to `B675_hcusp_sweep` and `B715_native_gauge`.
   decomposition computed not cited.
 - **Unchanged:** the count stays an open input; B714's rung-based count untouched.
 - The refutation is pinned in the instrument, the lock and the error ledger.
+
+### B1254 — the orientation class under the four strata (2026-09-05)
+
+- **A join, not a new computation:** B1248's `ε = squarefree(2−κ)` read through B497's exact κ-laws.
+- ε is **PRESERVED** by strata 1 and 2, **CAN CHANGE** only under stratum 3, **UNDEFINED** on
+  stratum 4's image. Stratum 3's factor has **odd total degree** — never a square, by parity.
+- **Stratum 2 is the sharp case**: κ moves, the class doesn't, because the factor is `(xy)²`.
+- B497's U1 (κ=2 invariant under every endomorphism) = the locus where ε dies is **absorbing**.
+- **B1157's "no dynamical law" was banked without citing B497** (our B1247 finding); B6's field
+  equation has been on zero surfaces since week one. **The dynamics was unreachable, not missing.**
+- Three of four strata remain unworked; the programme has lived in stratum 1.
+
+### B1255 — the generation index: right Galois type, wrong commutator (2026-09-05)
+
+Owner: *"how come we convinced ourselves we got three generations then we refuted it... analyze the
+pattern that led us to believe we derived three gen? maybe the patterns tells us the phenomena that
+gives real results."* The instruction is the method: read the failures as a **family**.
+
+- **THE PATTERN.** Twelve lost three-nesses all trace to one fact: **3 ramifies in ℚ(√−3)**.
+  Ramification yields **conjugates or gradings, never copies**, and a quadratic field has **at most
+  two** primes above any p — so three-fold splitting is impossible there *in principle*. This
+  independently reproduces **B298's degree-2 obstruction** and re-reads **B1253's "1 abelian +
+  2 chiral"** price as that same **1+2** in representation-theoretic costume (μ₃ = 1 rational root
+  + 1 conjugate pair). Each appearance looked independent; none were.
+- **WHAT THE PATTERN PREDICTS, AND THE RECORD DELIVERS.** A genuine three needs an **irreducible
+  cubic** with no distinguished root. Verified here from scratch: **μ13** and **HIER** are both
+  **totally real, irreducible, Galois S₃**, disc squarefree kernel **{7,11}** (the √77 family),
+  HIER's roots reproducing the banked v_g² to 1e−38. It **survives both prior kills** — B324's
+  ("conjugates share one character": generations are *required* to share one character and differ
+  in **value**) and B1253's Weyl-orbit kill (**Galois** conjugacy over ℚ is not a **gauge** symmetry).
+- **THE THIRD TEST, AND IT REFUTES.** A flavour index must **commute with the gauge grading**.
+  Computed on the object's own data: D₂ reproduces (11 flips = 1+10, the 16 fixed); the colored
+  block is 18-dim splitting **12/6** across D₂ exactly as SO(10) independently predicts; W18 **is**
+  D₂-invariant — but **[C18, D₂|W18] ≠ 0** and **0 of 6** colored atoms is a D₂-eigenspace.
+  **I-24 REFUTED.** Behind it, a dimension count that closes the route permanently: **27 = 16+10+1
+  carries the 16 with multiplicity ONE; three copies need dim ≥ 48 > 27.**
+- **WHAT SURVIVES IS THE MECHANISM.** B923's two gauges (reproduced on bench, 95 s, all PASS):
+  canonical **(x+3)³ — generation-DEGENERATE**; τ-twisted → **HIER, three distinct roots**. Had the
+  operators commuted they'd be simultaneously diagonalisable and the splitting **gauge-blind** —
+  degenerate copies with **no hierarchy**. The same non-commutation that denies g the flavour role
+  is what **lifts the degeneracy**. Identical-then-split is the physical shape of generations; what
+  one 27 cannot supply is the three **copies**.
+- **THE COUNT MUST COME FROM MULTIPLICITY.** B1253's **h¹ = 3** is now the **only** surviving route,
+  price unchanged: make the trivial (Sym⁰) summand chiral, or exhibit a bundle whose three classes
+  are all chiral. Controls both ways: a cyclic cubic types **C3**; **[D₂, Cartan₀] = 0** exhibited.

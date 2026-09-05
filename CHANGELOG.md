@@ -1,5 +1,63 @@
 # Changelog
 
+## THE GENERATION INDEX HAS THE RIGHT GALOIS TYPE AND THE WRONG COMMUTATOR
+
+**B1255.** Owner: *"analyze the pattern that led us to belive we derived three gen? maybe the
+patterns tells us the phenomena that gives real results."* **The pattern behind twelve lost
+three-nesses, named:** every one was built on **ℚ(√−3)**, where **3 ramifies** — ramification yields
+conjugates or gradings, **never copies** — and a quadratic field has **at most two** primes above any
+p, so three-fold splitting is impossible there *in principle*. That independently reproduces
+**B298's degree-2 obstruction** and re-reads **B1253's "1 abelian + 2 chiral"** as the same **1+2**
+in representation-theoretic costume. **The pattern predicts what a real three needs** — an
+irreducible cubic with no distinguished root — **and the record contains exactly that, twice**:
+**μ13** and **HIER**, both totally real, irreducible, **Galois S₃**, disc kernel **{7,11}**, roots
+matching the banked v_g² to 1e−38. It **survives both kills** that ended the others. **It is refuted
+here by a third test the record never ran:** a flavour index must **commute with the gauge grading**,
+and **[C18, D₂|W18] ≠ 0** with **0 of 6** colored atoms a D₂-eigenspace — behind which sits a
+dimension count closing the route permanently: **27 = 16+10+1 carries the 16 with multiplicity ONE;
+three copies need dim ≥ 48 > 27.** **I-24 REFUTED.** **What survives is the mechanism:** canonically
+the invariant is **(x+3)³, generation-DEGENERATE**, and the D₂ twist splits it into HIER's three
+distinct roots — had they commuted, the splitting would be **gauge-blind**, degenerate copies with
+**no hierarchy**. The same non-commutation that denies g the flavour role is what **lifts the
+degeneracy**. **The count must come from multiplicity: B1253's h¹ = 3 is the only surviving route.**
+
+## THE DYNAMICS WAS NEVER MISSING — IT WAS UNREACHABLE, AND IT ACTS ON THE ORIENTATION CLASS
+
+**B1254.** Owner: *"maybe dynamics isnt missing we need to identify them."* Correct. This arc is a
+**join of two banked arcs**, not a new computation — and it was only available because of B1247's
+lexicon repair two days earlier.
+
+**THE JOIN.** B1248 gives `det X ≡ 2 − κ (mod squares)`, so the orientation class is
+**ε = squarefree(2 − κ)**. B497 gives **four strata** of End(F₂) with **exact κ-laws** — and notes
+*"the program to date = stratum 1 of 4."* A stratum multiplies `(κ − 2)` by a factor **F**; since ε
+is a **square class**, F acts through **its own square class**:
+
+| stratum | κ-law | F | ε |
+|---|---|---|---|
+| 1 Aut/metallic | `κ′ = κ` | 1 | **PRESERVED** |
+| 2 A→A², B→B² | `κ′−2 = (κ−2)x²y²` | **(xy)²** | **PRESERVED** |
+| 3 Thue–Morse | `κ′−2 = (κ−2)(x²+y²−xyz)` | odd degree | **CAN CHANGE** |
+| 4 non-injective | image ⊆ {κ=2} | — | **UNDEFINED** |
+
+**Stratum 3 is the only one that can move the class, and the proof is PARITY, not search:**
+`x²+y²−xyz` has total degree **3**, and an odd-degree polynomial is never a perfect square.
+
+**Stratum 2 is the sharp case** — its κ-law is genuinely non-trivial, yet `(xy)²` is a perfect square
+so the class passes through untouched. B497 records what it is at matrix level: *"A→A² is literally
+transfer-matrix decimation — the RG face is matrix-level, not metaphor."* And **B497's U1** (κ=2
+invariant under *every* endomorphism) is exactly where `2 − κ = 0`: **the locus on which the class
+dies is absorbing.**
+
+**WHY IT WASN'T KNOWN.** **B1157 banked "the object supplies NO parameter-free dynamical law"
+WITHOUT CITING B497** — our own finding at B1247, which located the mechanism: the atlas lexicon was
+18 noun-motifs frozen 2026-07-01 with **no word for a question**, so B497 sat **seven weeks** under
+twelve object-motifs, none saying *monoid*, *strata* or *dynamics*; and **B6**'s field equation
+`□τ + κ(τ² − τ − 1) = 0`, with an **earned** potential, has been on **zero surfaces since week one**.
+
+**FENCED:** no physics reading of the strata (B497's S063 fence kept); B1157's negative is **not**
+retracted — its scope is the ∞-place reading, a different object; **three of the four strata have
+never been worked.**
+
 ## THE RIGID GEOMETRY IS REAL — AND IT IS NOT A GENERATION COUNT (this arc's own headline, refuted)
 
 **B1253.** The owner asked for the session reflected into the repo *"so we dont get anymore
