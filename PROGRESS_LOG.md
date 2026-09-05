@@ -13806,3 +13806,33 @@ Next R5 design/code sealed before execution: full real-scalar, vector and
 Weyl-fermion one-loop orientation potential, canonical kinetic normalization,
 scale checks and two-sided controls. It is a conditional quantum model,
 not an empirical prediction. No earlier first run or original producer edited.
+
+## 2026-09-05 — R5: quantum lifting is POSITIVE for the SM angular directions
+
+The complete one-loop MS-bar/Landau-gauge spectrum of the conditional R4
+action was computed after seal 0ac9352a: 186 real scalars, 78 vectors and
+27 Weyl modes, with the actual kinetic metrics. Both scalar and vector
+contributions give positive octet/triplet curvatures; fermion masses are
+orientation-independent for fixed S,N. All eleven extra tree-level zero
+modes are lifted at this leading order on the common-quartic ray. At the
+preselected lambda=.2,g=.5 point, corrected analytic curvatures are
+0.00751974898044 and 0.00736557837470 (squared arbitrary VEV units).
+
+The independent derivative extension was sealed in b8833482. Its analytic
+spectral-Hessian calculation agrees with the initial four-step finite
+differences. Exact rational polynomial subtraction proves the scalar/vector
+fourth-mass traces depend only on N=Tr A^2; at N=5 they are 209167/81 and
+3209/18. Hence angular one-loop differences are scale-independent, not a
+numerical accident. The SM lies below both named competitors at the declared
+point; six random local starts converge to its energy and dimension-12
+stabilizer. SU4 stops at iteration zero too: optimizer success is not a
+minimum certificate. No global proof is claimed.
+
+First runs and all spectra/search points preserved. Initial verification:
+41 physical-bridge tests passed; five independent derivative tests passed.
+Full combined regression and staged-gate output follows in
+`reports/physical_bridge_2026_09_05/QUANTUM_FINAL_CHECKS.txt`.
+Read `QUANTUM_VACUUM.md` before recycling R4's classical zeros as a negative.
+Next: full shifted vacuum/global question, light Higgs and actual threshold
+matching; object-to-action/parameter selection and 4d gravity are not paid
+by this conditional local quantum result. No CLAIMS promotion or push.

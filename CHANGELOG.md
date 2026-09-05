@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-05 — R5: full one-loop dynamics positively lifts the extra scalar modes
+
+All eleven octet/triplet zero modes of the conditional R4 vacuum get positive
+leading angular masses. Complete kinetic-normalized scalar/vector/fermion
+spectrum, independent analytic derivatives and exact scale-identity checks
+agree. The SM lies below both named competitors at the preselected point;
+global uniqueness is not proved. Light-Higgs construction, normal quantum
+shifts, physical parameters and gravity remain live. Results are preserved
+at source and registered, not left in a scratchpad:
+`reports/physical_bridge_2026_09_05/QUANTUM_VACUUM.md`.
+
 ## 2026-09-05 — New upstream descent verified and linked to the physical model
 
 Local merge of a8fd2460; **59 focused upstream tests passed**. Independent

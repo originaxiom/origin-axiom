@@ -5,7 +5,13 @@ Work is local on `audit/physical-bridge-2026-09-05`; no push. Upstream a8fd2460
 was subsequently merged and [checked separately](UPSTREAM_AUDIT.md): its
 59 focused tests passed. Original baseline totals remain pinned to f06d3405.
 
-**Outcome:** a verified defect in the original crossing instrument, a corrected
+**Latest result:** the full [one-loop quantum calculation](QUANTUM_VACUUM.md)
+stabilizes the eleven extra angular scalar modes of the conditional SM vacuum.
+Independent analytic derivatives confirm the positive masses; exact polynomial
+identities prove angular scale independence. This is local perturbative
+stabilization, **not** a globally selected vacuum or a completed TOE.
+
+**Earlier outcome:** a verified defect in the original crossing instrument, a corrected
 boundary-value solver, and an executable conditional gauge-and-mass calculation
 using the banked exotic multiplets. This is progress toward a physical theory,
 **not a completed theory of everything or a newly successful empirical prediction**.
@@ -52,9 +58,10 @@ from these focused checks; a partial run is never reported as green.
 ## Continuation contract
 
 Do not restart by assuming either that the program has no dynamics or that its
-physical interpretation has been proved. Continue from VACUUM_MODEL.md: lift or
-retain its full scalar spectrum explicitly, test vacuum selection and construct
-the light-Higgs sector before redoing matching. PHYSICAL_MODEL.md's exact mass
+physical interpretation has been proved. Continue from QUANTUM_VACUUM.md:
+the leading angular lifting is now positive and independently verified. Extend
+to the full shifted vacuum/global question and construct the light-Higgs
+sector before redoing matching. PHYSICAL_MODEL.md's exact mass
 requirement applies to its own earlier spectrum, not automatically to R4.
 A new mass mechanism must emit its parameters before a fresh empirical comparison;
 matching by choosing masses is an inverse fit. Preserve all seals and first runs.

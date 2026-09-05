@@ -205,6 +205,12 @@ states can only arise from S. [Source-level scope note](../../frontier/B970_L134
 
 ## 6. What this changes in the physical program
 
+**Follow-through, R5:** the [complete one-loop calculation](QUANTUM_VACUUM.md)
+now gives positive leading masses to the octet and triplet, with independent
+analytic derivative verification. The tree-level statements below remain
+true at their stated order; they must not be recycled as a quantum failure.
+Global selection, normal quantum shifts and the light Higgs remain separate.
+
 This model does **not** justify silently using R2's SM-plus-vectorlike-fermion
 spectrum. It has extra tree-level massless adjoint scalars, and at this vacuum
 it has **no massless physical electroweak Higgs doublet**. Engineering a light

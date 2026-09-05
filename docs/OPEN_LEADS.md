@@ -2333,6 +2333,18 @@ twelve at the SM minimum. It is not gauge-equivalent to the SM vacuum.
 Radiative selection must retain all fluctuating fields and state its input
 budget; choosing an SM orientation by hand is not a computed selector.
 
+**R5 progress — the leading angular part is now POSITIVE, not unrun.** The
+full scalar/vector/Weyl one-loop calculation and an independent analytic
+derivative check give positive masses to all eleven octet/triplet directions
+on the common-quartic ray. Exact polynomial trace identities establish
+angular scale independence; the SM is lower than the two named competitors
+at the sealed parameter point. Source: `reports/physical_bridge_2026_09_05/QUANTUM_VACUUM.md`.
+PB-VACUUM remains open for the full shifted vacuum, global certification,
+other allowed couplings/branches and a controlled perturbative domain. The
+local result must not disappear behind this remaining OPEN label. PB-MASS
+now needs the light-doublet sector and the correctly matched full spectrum;
+it must not reuse the old toy threshold requirement without rederivation.
+
 **PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
 exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's
 eight missing logs plus one cached-bytecode artifact. Exact paths, original

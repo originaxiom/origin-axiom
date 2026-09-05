@@ -31,3 +31,13 @@ non-gauge scalar zero modes; it is not a completed physical model.
 Proof, inputs, executable certificate and remaining work:
 `reports/physical_bridge_2026_09_05/VACUUM_MODEL.md`, `vacuum.py`, and
 `tests/test_physical_bridge_vacuum.py`. No observed mass was used or predicted.
+
+**R5 follow-through (same date):** the complete, kinetically normalized one-loop
+angular potential now gives positive leading mass-squared corrections to all
+eleven octet/triplet modes on the common-quartic ray. Independent analytic
+derivatives agree; exact polynomial identities make angular differences
+scale-independent. The tree-level zero modes above remain true at tree level,
+not a quantum failure. Global selection and the light Higgs are still open.
+Source: `reports/physical_bridge_2026_09_05/QUANTUM_VACUUM.md`,
+`tests/test_physical_bridge_quantum_vacuum.py`, and
+`tests/test_physical_bridge_quantum_derivative.py`.

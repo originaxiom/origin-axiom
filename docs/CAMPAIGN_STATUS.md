@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**PHYSICAL CONTINUATION R5 (2026-09-05): POSITIVE angular quantum lifting.**
+All eleven R4 octet/triplet zero modes acquire positive leading curvatures on
+the chosen common-quartic ray, using the complete spectrum and kinetic norm.
+Independent analytic derivatives agree; exact mass-trace identities prove
+angular scale independence. The SM is lower than both named competitors at
+the sealed illustrative point. This is local perturbative stabilization,
+not a full/global vacuum, light-Higgs or TOE claim. Source, all first runs
+and next tasks: `reports/physical_bridge_2026_09_05/QUANTUM_VACUUM.md`.
+
 **UPSTREAM/PHYSICAL BRIDGE (2026-09-05):** a8fd2460 merged locally; 59 focused
 tests passed. Independent action checks preserve the descent and connect
 B1250's D2 grading to R4 by a cubic-preserving Weyl matrix. B1252's metric

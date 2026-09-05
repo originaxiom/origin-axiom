@@ -1,0 +1,94 @@
+{
+  "exact_fourth_trace": {
+    "scalar": {
+      "constant": "73132/81",
+      "N_coefficient": "128/9",
+      "N_squared_coefficient": "193/3",
+      "remainder": "0",
+      "at_N_5": "209167/81"
+    },
+    "vector": {
+      "constant": "232/9",
+      "N_coefficient": "8",
+      "N_squared_coefficient": "9/2",
+      "remainder": "0",
+      "at_N_5": "3209/18"
+    },
+    "N": "12*h3**2 - 12*h3*h4 + 12*h4**2 - 12*h4*h5 + 12*h5**2 - 12*h5*h6 + 12*h6**2",
+    "scope": "all four real Cartan coordinates; physical mass trace on N=5"
+  },
+  "analytic_curvatures": {
+    "color_octet": {
+      "scalar_vector_curvature_by_mu": {
+        "0.5": [
+          0.002521562402500898,
+          0.11870218374944468
+        ],
+        "1.0": [
+          0.002521562402497298,
+          0.1187021837494442
+        ],
+        "2.0": [
+          0.0025215624024936983,
+          0.11870218374944391
+        ]
+      },
+      "finite_difference_eps_point0025": [
+        0.0025215592813765397,
+        0.11870002480929287
+      ],
+      "finite_minus_analytic": [
+        -3.1211207581101352e-09,
+        -2.158940151333888e-06
+      ],
+      "mass_fourth_trace_first_second_derivatives": [
+        [
+          2.075062344175649e-12,
+          1.2305712004945235e-12
+        ],
+        [
+          1.7763568394002505e-15,
+          5.0182080713057076e-14
+        ]
+      ],
+      "lambda_point2_g_point5_leading_m2": 0.007519748980440155
+    },
+    "weak_triplet": {
+      "scalar_vector_curvature_by_mu": {
+        "0.5": [
+          0.011521110594174504,
+          0.1104757432148904
+        ],
+        "1.0": [
+          0.011521110594170905,
+          0.11047574321489007
+        ],
+        "2.0": [
+          0.011521110594166226,
+          0.11047574321488982
+        ]
+      },
+      "finite_difference_eps_point0025": [
+        0.011521088367771881,
+        0.11047376505146644
+      ],
+      "finite_minus_analytic": [
+        -2.2226399023356214e-08,
+        -1.9781634236215595e-06
+      ],
+      "mass_fourth_trace_first_second_derivatives": [
+        [
+          1.503464019947387e-12,
+          8.641976023682219e-13
+        ],
+        [
+          -3.552713678800501e-15,
+          3.863576125695545e-14
+        ]
+      ],
+      "lambda_point2_g_point5_leading_m2": 0.007365578374697465
+    }
+  },
+  "code_sha256": "9d123d57b1935d20dc058279aa18103866f9237a6805bd19891324d2226ffc59",
+  "elapsed_seconds": 3.9032560469931923
+}
