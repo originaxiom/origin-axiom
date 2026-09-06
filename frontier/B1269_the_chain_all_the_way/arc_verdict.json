@@ -1,0 +1,39 @@
+{
+ "id": "B1269",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1268",
+  "B1252",
+  "B1250",
+  "B883",
+  "B308",
+  "B632",
+  "B1036",
+  "B952",
+  "B1267",
+  "B1253",
+  "B1255",
+  "B1192",
+  "B1248",
+  "B1266",
+  "B1261"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [
+  {
+   "row": "I-26",
+   "status": "UNEARNED",
+   "note": "note extended, status unchanged: the E8 transport's (27,3) is the three-generation multiplicity B302/B308/B632 asked for -- three copies of the whole 27 indexed by the Eisenstein weights and cycled by the founding ratio g, with (27bar,3bar) as their theta-mirror. As 4d fields they are the E6 x SU(3) content of the one adjoint chiral of the E8 theory (b1(m004) = 1), or one 27 + one 27bar with the 2T holonomy in the 3 (B1268); N = 0 either way. The triplet is the structure of the field, not a count of chiral copies on the object."
+  },
+  {
+   "row": "I-13",
+   "status": "UNEARNED",
+   "note": "re-read, status unchanged, the missing object named: the chain forces the generation-space family tensor to be antisymmetric (eps^{ijk}, the E8 bracket on (27,3)x(27,3)), and an antisymmetric family tensor on E6's symmetric cubic d_abc with commuting superfields is W == 0 identically -- every tree-level mass of the triplet vanishes. What the values need at this step is a SYMMETRIC family tensor on the triplet, which the corpus's own computation found empty on the object (B1036 V3) and whose only value-layer candidate (HIER) was refuted as a flavour index (I-24)."
+  }
+ ],
+ "claim_one_line": "THE CHAIN TAKEN ALL THE WAY. Every remaining Standard-Model step the corpus's ingredients supply is computed exactly on B1268's icosian E8 and B1252's descent. THREE GENERATIONS: the 162 non-E6, non-A2 roots of E8 fall into six classes of 27; left multiplication by the founding ratio g cycles them in two orbits of three whose Eisenstein pairings sum to zero -- (27,3) and (27bar,3bar) -- and quaternion conjugation swaps the orbits: three full copies of the 27 indexed by the weights of the Eisenstein 3 and permuted by the object's own order-3 element, the multiplicity mechanism B302/B308/B632 asked for; as 4d fields (the E8 transport) they are the (27,3) part of the one adjoint chiral (b1 = 1) with the mirror (27bar,3bar) alongside, N = 0. THE BIT: choosing the matter triplet is choosing the Eisenstein orientation (omega vs omegabar), the same mirror-odd Z/2 the corpus has carried since B582 -- supplied by a closing, not by the object. RANK 6 -> 4: the 27 has exactly two SM singlets (weight 12 = nu^c in the 16, weight 13 = the SO(10) singlet); their charges under the two extra U(1)s of the rank-6 Levi form [[1/3,-1],[1/3,0]] of rank 2, so VEVs for both leave exactly su(3)+su(2)+u(1)_Y -- the step the adjoint cannot take (B952, B1267's double-centralizer theorem) is taken by the 27s the two faces supply; structure only, the VEVs' values not supplied. THE FAMILY TENSOR E8 FORCES: on the lattice, two roots of the same class (27,3)_i never sum to a root (0 of 3 x 27^2: 2e_i is not a weight of the 3bar), while roots of classes i != j sum to a root 270 = 6 x 45 times per ordered pair, always in the class -e_l of the third index (e_i + e_j = -e_l); by Schur (Lambda^2(27x3) contains 27bar x 3bar once, in Sym^2(27) x Lambda^2(3)) the bracket is d_abc eps_ijk -- E6's symmetric cubic (SO(10) content 45 = 40 (10.16.16) + 5 (1.10.10)) times the ANTISYMMETRIC family tensor. THE YUKAWA IS ZERO: a superpotential is a polynomial in commuting superfields and d_abc X^a_i X^b_j X^c_k is symmetric in ijk, so W = d_abc eps^{ijk} 27^a_i 27^b_j 27^c_k == 0 identically -- checked monomial by monomial with generic rational d on the 45-triple support (the symmetric control has 135 monomials, one generation's d_abc 27^3 has 45); equivalently E8 has no cubic invariant (Casimir degrees 2,8,12,14,18,20,24,30), Sym^3(27x3) has no singlet (Sym^3(3) = 10), and on m004 b1 = 1 kills the Chern-Simons cubic outright. Every tree-level mass of the triplet vanishes: no hierarchy, no mixing, no phase, no neutrino mass (no Majorana term exists in d at all), and the mirror stays. The wall B632/B1036 met on the object (an antisymmetric pairing, empty symmetric part V3, no Yukawa) is the same zero seen on the lattice -- consistent, not identified. THE SCORECARD: gauge algebra reached as structure; hypercharge, Z6, sin^2 = 3/8 reproduced; three generations present as structure with their mirror; chirality supplied by a closing; Yukawas forced zero; values 0 of 19. The chain taken all the way is a definite parameter-free theory -- E8 (or E6) on the cusped object with one adjoint chiral whose E6 x SU(3) content is three 27s and three 27bars cycled by the founding ratio, an SM gauge group reachable by the 27's own singlets, and a vanishing superpotential -- and it is not the Standard Model: vector-like and massless. The missing object at this step is named: a SYMMETRIC family tensor on the triplet, i.e. three 27s that something outside E8 tells apart; the corpus found none on the object (B1036 V3, I-24). Price unchanged at 14."
+}

@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1269 — THE CHAIN TAKEN ALL THE WAY)**: on the owner's third instruction, every remaining
+SM step computed exactly. **Three generations = the Eisenstein triplet (27,3)** of the golden E₈, cycled by the
+founding ratio, with the θ-mirror (27̄,3̄) alongside (N = 0); **rank 6 → 4 by the 27's own two singlets** (ν^c,
+the SO(10) singlet; charge matrix of rank 2) → exactly su(3)⊕su(2)⊕u(1)_Y, values not supplied; **the family
+tensor E₈ forces on the triplet is ε_ijk, so the triplet's superpotential is identically zero** — every
+tree-level mass, angle and phase zero (E₈ has no cubic invariant; checked monomial by monomial on the 45-triple
+support). The chain's end: a definite parameter-free theory, vector-like and massless, not the Standard Model;
+the named missing object for the masses is a *symmetric* family tensor (none on the object: B1036 V3, I-24).
+E67 typed. Price unchanged at 14.
+
 **LATEST (2026-09-06, B1268 — E₆ FROM THE TWO FACES)**: on the owner's correction, E₆ derived from both letters
 at once — `RL` mod 5 gives SL(2,𝔽₅) = 2I and the icosian **E₈**, `g = −RL⁻¹` gives the Eisenstein plane inside
 it, **E₆ = ℤ[g]^⊥** (72 roots, the E₆ Cartan matrix, index 3) with the six classes of 27, the ℤ/3 and θ from the

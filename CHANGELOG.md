@@ -1,5 +1,17 @@
 # Changelog
 
+## THE CHAIN TAKEN ALL THE WAY — three generations as the Eisenstein triplet, the rank reduction by the 27's singlets, and the Yukawa E₈ forces on the triplet: zero
+
+**B1269**, on the owner's third instruction. Three generations are the **(27,3) of the golden E₈** — three copies
+of the 27 cycled by the founding ratio, with the θ-mirror (27̄,3̄) alongside; the 27's own two singlets (ν^c, the
+SO(10) singlet; charge matrix of rank 2) take the rank from 6 to **exactly su(3)⊕su(2)⊕u(1)_Y** (structure;
+values not supplied); the family tensor E₈ forces on the triplet is **ε_ijk**, and on commuting superfields with
+E₆'s symmetric cubic that is **W ≡ 0** (checked monomial by monomial; E₈ has no cubic invariant) — every
+tree-level mass, angle and phase zero. The chain's end is a definite parameter-free theory, vector-like and
+massless, and not the Standard Model; the named missing object for the masses is a *symmetric* family tensor
+(none on the object: B1036 V3, I-24). E67 records the draft's error (a bracket read as a superpotential), caught
+before banking. Price unchanged at 14.
+
 ## E₆ FROM THE TWO FACES — the golden E₈ cut by the Eisenstein ratio, and the 27 gets its slot
 
 **B1268**, on the owner's correction. The product `RL` mod 5 generates SL(2,𝔽₅) = 2I, whose ℤ[φ]-span is the

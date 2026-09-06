@@ -14125,3 +14125,37 @@ E₆ is now derived from both at once, exactly (`frontier/B1268_e6_from_the_two_
   (h¹(2′) = h¹(2″) = 0 with no cusp invariants, all 48 surjections — B1263's 72/48 reproduced a third time).
 - I-6 re-read (the two roles are played by the two faces: ALE Γ = 2I, holonomy = 2T); I-26 note corrected;
   price unchanged at 14. Lock `tests/test_b1268_e6_from_the_two_faces.py`.
+
+### B1269 — the chain taken all the way (2026-09-06)
+
+On the owner's third instruction — *"all ingredients for the SM are here; compute the missing all the way to the
+full SM with three generations."* Every remaining step the corpus's ingredients supply, computed exactly on
+B1268's icosian E₈ and B1252's descent (`frontier/B1269_the_chain_all_the_way/verification/all_the_way.py`).
+
+- **Three generations = the Eisenstein triplet.** The 162 non-E₆, non-A₂ roots of E₈ are six classes of 27;
+  left multiplication by the founding ratio g cycles them in two orbits of three whose Eisenstein pairings sum
+  to zero — **(27,3) and (27̄,3̄)** — and quaternion conjugation swaps the orbits: three copies of the whole 27
+  indexed by the weights of the 3 and permuted by the object's own order-3 element, the multiplicity mechanism
+  B302/B308/B632 asked for. As 4d fields: the (27,3) part of the one adjoint chiral of the E₈ theory
+  (b₁(m004) = 1), with the mirror alongside; or one 27 + one 27̄ under the 2T holonomy (B1268). N = 0 either way.
+- **The bit** is the Eisenstein orientation ω ↔ ω̄ (θ swaps the triplets) — the corpus's mirror-odd ℤ/2 since
+  B582, supplied by a closing, not by the object.
+- **Rank 6 → 4 by the 27's own singlets:** exactly two SM singlets in the 27 (weight 12 = ν^c in the 16,
+  weight 13 = the SO(10) singlet); their charges under the two extra U(1)s of the rank-6 Levi form
+  [[1/3, −1], [1/3, 0]] of **rank 2**, so VEVs for both leave **exactly su(3)⊕su(2)⊕u(1)_Y** — the step the
+  adjoint cannot take (B952, B1267) is taken by the 27s the two faces supply; the values are not supplied.
+- **The family tensor E₈ forces is ε_ijk:** same-class root sums are never roots (0 of 3 × 27²; 2e_i is not a
+  weight of the 3̄); cross-class sums are roots 270 = 6 × 45 times per ordered pair, always in the class −e_l of
+  the third index; by Schur the bracket on (27,3) × (27,3) is d_abc ε_ijk (E₆'s cubic, SO(10) content
+  45 = 40 (10·16·16) + 5 (1·10·10)).
+- **The Yukawa on the triplet is ZERO:** W = d_abc ε^{ijk} 27^a_i 27^b_j 27^c_k expands to 0 monomial by
+  monomial with generic symmetric d on the 45-triple support (the symmetric control: 135 monomials, nonzero);
+  E₈ has no cubic invariant; Sym³(27 ⊗ 3) has no singlet; on m004 b₁ = 1 kills the Chern–Simons cubic. Every
+  tree-level mass, angle and phase of the triplet vanishes, the mirror stays, no Majorana term exists in d.
+  B632/B1036's antisymmetry wall on the object is the same zero seen on the lattice (consistent, not identified).
+- **The scorecard:** gauge algebra reached as structure; hypercharge, ℤ₆, sin²θ_W = 3/8 reproduced; three
+  generations present as structure with their mirror; chirality supplied by a closing; Yukawas forced zero;
+  values 0 of 19. The chain's end is a definite parameter-free theory — vector-like and massless — and not the
+  Standard Model; the named missing object for the masses is a **symmetric** family tensor (none on the object:
+  B1036 V3, I-24). The draft's antisymmetric-texture spectrum was an error caught before banking (E67).
+  Price unchanged at 14. Lock `tests/test_b1269_the_chain_all_the_way.py`.

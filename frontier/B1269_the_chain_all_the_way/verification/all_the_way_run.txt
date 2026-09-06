@@ -1,0 +1,28 @@
+=== (a) the triplet (27,3) in the golden E8 and its family tensor eps_ijk ===
+  (27,3): the classes [(Fraction(-1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(-1, 1)), (Fraction(1, 1), Fraction(0, 1))] (cycled by g);  (27bar,3bar): [(Fraction(-1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(1, 1))];  conjugation swaps them
+  same-class root sums (27,3)_i + (27,3)_i that are roots: 0   (must be 0: 2e_i is not a weight of the 3bar)
+  (27,3)_0 + (27,3)_1: 270 root sums, all in (27bar,3bar)_0 = -(27,3)_2, l the third index
+  (27,3)_0 + (27,3)_2: 270 root sums, all in (27bar,3bar)_2 = -(27,3)_1, l the third index
+  (27,3)_1 + (27,3)_0: 270 root sums, all in (27bar,3bar)_0 = -(27,3)_2, l the third index
+  (27,3)_1 + (27,3)_2: 270 root sums, all in (27bar,3bar)_1 = -(27,3)_0, l the third index
+  (27,3)_2 + (27,3)_0: 270 root sums, all in (27bar,3bar)_2 = -(27,3)_1, l the third index
+  (27,3)_2 + (27,3)_1: 270 root sums, all in (27bar,3bar)_1 = -(27,3)_0, l the third index
+  the family tensor of the bracket is eps_ijk (e_i + e_j = -e_l); 270 = 6 x 45: the support of E6's cubic d
+
+=== (b) rank 6 -> 4 by the 27's own singlets (B1252's descent) ===
+  SM singlets in the 27 (zero SU(3)xSU(2) charges, Y = 0): weights [12, 13]   (expect 2: nu^c and the SO(10) singlet)
+  charge matrix under the two extra U(1)s:
+Matrix([[1/3, -1], [1/3, 0]])
+  rank = 2   (2: VEVs of both singlets break both extra U(1)s and nothing else -> exactly su(3)+su(2)+u(1)_Y)
+  SO(10) block of each singlet: {12: '16', 13: '1'}   (the SO(10) singlet and nu^c in the 16)
+
+=== (c) the Yukawa E8 forces on the triplet: zero ===
+  W = d_abc eps^ijk X^a_i X^b_j X^c_k on the 45-triple support with generic symmetric d: expands to 0
+  control, symmetric family tensor delta_iii: 135 monomials, nonzero;  one generation alone (d_abc 27^3): 45 monomials
+  -> the E8-forced Yukawa among the three 27s vanishes identically (E8 has no cubic invariant; Sym^3(3) = 10 has no singlet):
+     all tree-level masses of the triplet are zero -- no texture, no mixing, no hierarchy; the mirror (27bar,3bar) likewise
+
+=== (d) the cubic's SO(10) content (B883 weights, B1250 blocks) ===
+  weight triples of the 27 summing to zero: 45; by SO(10) block: {('10', '16', '16'): 40, ('1', '10', '10'): 5}
+
+SELFTEST: PASS

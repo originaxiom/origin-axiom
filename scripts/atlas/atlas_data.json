@@ -6348,6 +6348,42 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1269": {
+   "slug": "the chain all the way",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B302",
+    "B308",
+    "B432",
+    "B434",
+    "B582",
+    "B632",
+    "B713",
+    "B760",
+    "B862",
+    "B864",
+    "B883",
+    "B918",
+    "B919",
+    "B923",
+    "B952",
+    "V3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 30,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

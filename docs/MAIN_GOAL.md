@@ -109,3 +109,13 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   Eisenstein 2T inside the SU(3) that E₆ centralizes — has gauge group **exactly E₆** and puts the 27 on Q
   (B1267 §1's scope corrected): one 27, one 27̄, net 0; the complex Eisenstein twists give 0 = 0. JOIN 1's
   count stands at one vector-like pair; the named object of q2 is unchanged.
+- **The chain taken all the way (B1269, on the owner's third instruction: "compute the missing all the way to
+  the full SM with three generations").** Three generations are the **Eisenstein triplet** (27,3) of the golden
+  E₈ — three copies of the whole 27 cycled by the founding ratio, with the θ-mirror (27̄,3̄) alongside (N = 0);
+  the 27's own two singlets (ν^c and the SO(10) singlet; charge matrix of rank 2) take the rank from 6 to
+  **exactly su(3)⊕su(2)⊕u(1)_Y** (structure; values not supplied); and the family tensor E₈ forces on the
+  triplet is **ε_ijk**, so the triplet's superpotential **vanishes identically** — every tree-level mass, angle
+  and phase is zero. The chain's end is a definite parameter-free theory (E₈ on the object with one adjoint
+  chiral, or E₆ with one 27 + one 27̄) that is vector-like and massless; the missing object for the values is
+  named — a *symmetric* family tensor — and the corpus found none on the object (B1036 V3, I-24). Price
+  unchanged at 14.
