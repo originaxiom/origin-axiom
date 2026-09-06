@@ -2394,15 +2394,42 @@ mixed Weyl kernel give 6 gW^2 gY^2+16 y^4 as the orientation coefficient,
 23/80 at the chosen couplings. With log(epsilon)<0 it favors eta=1 in
 the declared asymptotic weak-coupling family and gives a positive restoring
 term to the charged pair. All resummed scalar modes and the surviving
-phase are retained. PB-VACUUM next requires the **finite** hard alignment
-term, field-dependent normal response and triplet relaxation for the
-specified action. The full light-Higgs invariant basis has dimensions
+phase are retained. R10 below now supplies the finite hard alignment
+term and normal-induced triplet relaxation for the specified boundary.
+The full light-Higgs invariant basis has dimensions
 0,2,0,4 at degrees 1..4 and includes the alignment operator; its finite
-coefficient is not assumed zero, intrinsically arbitrary or derived from
+coefficient was not assumed zero, intrinsically arbitrary or derived from
 the object. This does not yet select a vacuum at either R8 epsilon, compare
 all high branches, match pole masses or close the full physical-theory goal.
 Source: `reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md`;
 locks: `tests/test_physical_bridge_infrared_alignment.py`.
+
+**R10 progress — finite hard and triplet contributions also favor neutral.**
+The predeclared Landau-gauge MS-bar boundary gives cB_hard=-.00010308716
+and cB_triplet=-.00000170960. Omitting the normal response flips the latter
+sign, so it must remain in subsequent calculations. Full hard mass
+polynomials, two extraction methods, all-field Fierz identities and
+step/angle/mixed-gradient checks pass. PB-VACUUM next requires an independent
+full-theory stationary and power-counting comparison, a bounded remainder
+and competing-high-branch checks; the seven-angle truncated curve is not
+a global or full finite-epsilon vacuum certificate. Retain all residual
+scalars and the smaller seventeenth fermion mass. Source and live locks:
+`reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT.md`;
+`tests/test_physical_bridge_finite_alignment.py`.
+
+**PB-ACTION — the physical model must be determined, not merely compatible. OPEN.**
+This explicitly tracks the source/action duty already carried through
+PB-MASS/PB-VACUUM and R4--R10. Exhibit the map from the originating object
+to a physical action, including field content, kinetic/interaction data,
+vacuum inputs and renormalization conditions; declare what is derived and
+what remains input. Connect Lorentz/chirality and gravity in that same
+theory before a full-TOE claim. The latest fetched selector joins are
+pending independent audit; selecting an algebraic candidate is not by
+itself a physical map. This is an unmet requirement of the audited
+construction, not a theorem excluding all corpus routes. Acceptance must
+include an independently testable prediction with a declared input budget,
+not a fitted spectrum rebranded as a derivation. Source and continuation:
+`reports/physical_bridge_2026_09_05/GOAL_VERDICT.md`.
 
 **PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
 exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's

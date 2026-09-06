@@ -14095,3 +14095,58 @@ adds no provenance failure; the review-due warning remains visible. All
 Captured output: `reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT_GATES.txt`.
 The gate receipt and these final notes postdate that run; a final hash check
 precedes the local reporting commit. No old failure was hidden or weakened.
+
+## 2026-09-06 — R10: finite alignment contributions and the verdict toward the goal
+
+The previous R9 turn was concrete progress: committed scientific result,
+tests and preserved evidence, not a status-only continuation. The owner
+asked to continue and for the verdict toward the full physical-theory goal.
+Fresh fetch reaches origin/main 69a027eb, ten heads; the topic sweep is
+PRESENT. New upstream selector claims are not merged or independently
+certified here. Grounding and relevant source bodies read; no global
+absence claim or resurrection of the withdrawn 122-order Lambda miss.
+
+R10 design/source/eight tests sealed at 8cbd10ed before execution. First
+scientific run succeeds in 9.47 s. The finite hard alignment coefficient
+is -.00010308716 for the predeclared Landau-gauge MS-bar boundary, with
+other allowed renormalized operators zero at the matching scale. That
+boundary is an input, not a source derivation or a ban on counterterms.
+The hard branch's 209/10/66 modes remain separated from its soft complement;
+R9's full resummed soft determinant is added separately, once.
+
+The induced triplet source includes hard loops AND the original normal
+shift. Its relaxation adds cB=-.00000170960; omitting the normal piece
+would give +.00000146416, the opposite sign. Exact all-field Fierz
+identities and independent mixed-gradient/step/angle checks support the
+calculation. The displayed finite terms reinforce the neutral-favoring
+logarithm. This is not a full finite-epsilon/global vacuum certificate.
+
+Eight new tests pass in 10.29 s. Combined quiescent regression: 115 passed,
+3 failed in 111.84 s, the unchanged original G2 export and R7 small-step
+controls; separate repairs pass. No old source/tolerance edited, skip or
+xfail. Full results and checks: `reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT.md`.
+
+The goal verdict is recorded separately in GOAL_VERDICT.md: substantive
+conditional field-theory progress, not a verified source-derived TOE.
+PB-VACUUM next requires independent full-theory stationary/power-counting
+validation; PB-ACTION explicitly tracks the more central source-to-action
+map. Physical families, gravity and predictive contact remain duties in
+that same theory. Front door, framework, live leads and law index updated;
+the full objective is preserved, not replaced by this model's passing tests.
+
+The full framework read also found known audit corrections still missing
+from older live summaries. Its main paragraph, anomaly-selection row,
+crossing-significance statements and 64-representation paragraph now carry
+the already-verified scopes: existing conditional 14-to-12 reduction,
+15-versus-16 anomaly content, uncalibrated legacy distance, and invariant
+vectors versus functions. Original arc reports/seals are unchanged. This
+is propagation of retained evidence, not a fresh global negative or a
+claim that every historical summary has been fully reconciled.
+
+R10 staged reporting gates: 27 pass, 3 fail, the unchanged inventory
+attribution, R6 static-vacuity classification and four earlier seal-marker
+paths. The review-due warning remains. All 101 then-listed latest-path
+hashes match; views are current. Captured output:
+`reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT_GATES.txt`.
+These final notes and the gate receipt postdate that run; a final artifact
+check precedes the local reporting commit. No push or full-suite certificate.

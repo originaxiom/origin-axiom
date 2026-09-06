@@ -15,8 +15,11 @@
 > charge-breaking minima are degenerate at that leading order.
 > [R9's next logarithmic term](reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md)
 > favors the neutral orientation asymptotically in the chosen weak-coupling
-> family. Finite vacuum selection still needs matching; the source/action
-> identification remains open.
+> family. [R10's finite hard and triplet terms](reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT.md)
+> also favor neutral alignment under the declared renormalization boundary.
+> Full finite-vacuum certification and the source/action map remain open.
+> [Verdict toward the full goal](reports/physical_bridge_2026_09_05/GOAL_VERDICT.md):
+> a tested conditional field-theory model, not a source-derived physical TOE.
 
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The window (B1201–B1218) is the one where **the record audited itself**. A sweep of the live surfaces found **seven banked results being asserted as open** — the A2 stratum, the hypercharge direction and the spin lift all priced *free* against arcs that had assigned them; L175 counted open on two surfaces against a PROVED closure; L57 asserting a question a NEGATIVE had answered. **≈8.5 bits of phantom freedom removed, and the discrete freedom ledger closes to exactly {C, P}** — two relational bits, neither a selection from a menu. New error class **E53 (surface non-propagation)**; new instrument `scripts/checks/open_claim_sweep.py`. Suite 5745 green.
 

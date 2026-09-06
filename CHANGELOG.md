@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-09-06 — R10: finite hard and triplet terms reinforce neutral alignment
+
+Design/source/eight tests sealed at 8cbd10ed before first execution. The
+hard one-loop quartic is now computed for an explicit MS-bar boundary:
+cB_hard=-.00010308716. The induced triplet adds cB=-.00000170960; omitting
+the normal response reverses that smaller term's sign. Two-method and
+step/angle controls pass, with all raw data preserved. This computes named
+finite pieces, not a full finite-epsilon vacuum, pole spectrum or TOE.
+Source: `reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT.md`.
+
+Eight new tests pass in 10.29 s; combined checks 115 passed, the same three
+preserved earlier failures, in 111.84 s. The separate GOAL_VERDICT.md keeps
+the user's full objective explicit: source/action, physical families,
+four-dimensional gravity and predictive contact are not replaced by model
+compatibility. No old seal/test rewrite or push.
+
+Known scope corrections are also applied inside older live framework
+summaries, not only in a top banner: 14-to-12, full matter anomaly content,
+the uncalibrated crossing metric, and invariant vectors versus functions.
+The original scientific reports remain intact.
+
 ## 2026-09-06 — R9: the next logarithm favors the neutral Higgs orientation
 
 Sealed dac87d46 before execution. Actual all-complex-field gauge and Weyl

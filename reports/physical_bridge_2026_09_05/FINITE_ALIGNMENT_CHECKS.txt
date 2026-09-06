@@ -1,0 +1,253 @@
+R10 scientific and regression receipts, source sealed at 8cbd10ed
+
+No files were edited during the following scientific/test runs. This is
+not a full-repository suite certificate. Verbatim tool output follows,
+including original failure traces and local interpreter paths; this local
+research receipt is not a privacy-scrubbed publication derivative.
+
+FIRST SCIENTIFIC RUN (exit 0)
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.finite_alignment --output reports/physical_bridge_2026_09_05/finite_alignment_first_run.json
+
+{
+  "hard_cB_parts": [
+    -5.539609154557234e-07,
+    -0.00035417309940317536,
+    0.00025163990280544917
+  ],
+  "triplet_fU_fD": [
+    -0.004391044857904757,
+    1.7969045430723863e-05
+  ],
+  "triplet_cB": -1.7095974725879648e-06,
+  "neutral_differences": [
+    {
+      "epsilon": 0.01,
+      "eta": 1.0,
+      "logarithm": -4.993679171351337e-06,
+      "finite_soft": -4.9308105002727334e-06,
+      "finite_hard": -2.4559605559118057e-07,
+      "triplet_relaxation": -4.072965110737156e-09,
+      "sum_over_epsilon4": -1.0174158692325988e-05
+    },
+    {
+      "epsilon": 0.0025,
+      "eta": 1.0,
+      "logarithm": -6.496926390650543e-06,
+      "finite_soft": -4.9308105002727334e-06,
+      "finite_hard": -2.4559605559118057e-07,
+      "triplet_relaxation": -4.072965110737156e-09,
+      "sum_over_epsilon4": -1.1677405911625194e-05
+    },
+    {
+      "epsilon": 0.0001,
+      "eta": 1.0,
+      "logarithm": -9.987358342702673e-06,
+      "finite_soft": -4.9308105002727334e-06,
+      "finite_hard": -2.4559605559118057e-07,
+      "triplet_relaxation": -4.072965110737156e-09,
+      "sum_over_epsilon4": -1.5167837863677324e-05
+    },
+    {
+      "epsilon": 1e-08,
+      "eta": 1.0,
+      "logarithm": -1.997471668540535e-05,
+      "finite_soft": -4.9308105002727334e-06,
+      "finite_hard": -2.4559605559118057e-07,
+      "triplet_relaxation": -4.072965110737156e-09,
+      "sum_over_epsilon4": -2.5155196206380003e-05
+    }
+  ],
+  "elapsed_seconds": 9.469322229997488
+}
+
+FOCUSED TESTS (exit 0)
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_finite_alignment.py -q -p no:randomly
+
+........                                                                 [100%]
+8 passed in 10.29s
+
+COMBINED REGRESSION (exit 1)
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge*.py tests/test_b1255_generation_type.py tests/test_b1084_g2_cone.py tests/test_b1105_b1106_locks.py::test_scope_correction_landed tests/test_b1105_b1106_locks.py::test_overstatement_stays_dead tests/test_b1105_b1106_locks.py::test_b1105_findings_table -q -p no:randomly
+
+..........................F................F.F.......................... [ 61%]
+..............................................                           [100%]
+=================================== FAILURES ===================================
+______ test_upstream_element_test_can_pass_without_testing_the_inference _______
+
+    def test_upstream_element_test_can_pass_without_testing_the_inference():
+        result = g.analyze()
+        assert result["upstream_B1259_selftest"]["returncode"] == 0
+        assert result["exact_G2_counterexample"]["common_fixed_dimension"] == 0
+        assert not result["actual_B1084_group"]["physical_chiral_index_computed"]
+>       assert json.loads(json.dumps(result, allow_nan=False))["upstream_B1259_selftest"]["commit"] == g.UPSTREAM
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_g2_isolation.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/__init__.py:238: in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py:200: in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <json.encoder.JSONEncoder object at 0x10999b680>
+o = {'actual_B1084_group': {'A1_E6_intersection_dimensions': [1, 1, 1, 1, 1, 1, ...], 'A1_orbit_sizes': [6, 12, 12], 'axis...', 'returncode': 0, 'scope': 'the original selftest samples single-element eigenvalues, not common fixed spaces', ...}}
+_one_shot = True
+
+    def iterencode(self, o, _one_shot=False):
+        """Encode the given object and yield each string
+        representation as available.
+    
+        For example::
+    
+            for chunk in JSONEncoder().iterencode(bigobject):
+                mysocket.write(chunk)
+    
+        """
+        if self.check_circular:
+            markers = {}
+        else:
+            markers = None
+        if self.ensure_ascii:
+            _encoder = encode_basestring_ascii
+        else:
+            _encoder = encode_basestring
+    
+        def floatstr(o, allow_nan=self.allow_nan,
+                _repr=float.__repr__, _inf=INFINITY, _neginf=-INFINITY):
+            # Check for specials.  Note that this type of test is processor
+            # and/or platform-specific, so do tests which don't depend on the
+            # internals.
+    
+            if o != o:
+                text = 'NaN'
+            elif o == _inf:
+                text = 'Infinity'
+            elif o == _neginf:
+                text = '-Infinity'
+            else:
+                return _repr(o)
+    
+            if not allow_nan:
+                raise ValueError(
+                    "Out of range float values are not JSON compliant: " +
+                    repr(o))
+    
+            return text
+    
+    
+        if (_one_shot and c_make_encoder is not None
+                and self.indent is None):
+            _iterencode = c_make_encoder(
+                markers, self.default, _encoder, self.indent,
+                self.key_separator, self.item_separator, self.sort_keys,
+                self.skipkeys, self.allow_nan)
+        else:
+            _iterencode = _make_iterencode(
+                markers, self.default, _encoder, self.indent, floatstr,
+                self.key_separator, self.item_separator, self.sort_keys,
+                self.skipkeys, _one_shot)
+>       return _iterencode(o, 0)
+               ^^^^^^^^^^^^^^^^^
+E       TypeError: keys must be str, int, float, bool or None, not numpy.int64
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py:258: TypeError
+_________ test_full_constraint_J_H_derivatives_and_complex_covariance __________
+
+    def test_full_constraint_J_H_derivatives_and_complex_covariance():
+>       result = h.primitive_checks()
+                 ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_higgs_sector.py:9: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def primitive_checks():
+        geo, b = geometry(), base()
+        z = geo["z"]
+        np.testing.assert_allclose(constraints(z), 0, atol=1e-12)
+        rng = np.random.default_rng(202609057)
+        displaced = z+.02*rng.normal(size=294)
+        direction = rng.normal(size=294)
+        direction /= np.linalg.norm(direction)
+        eps = 1e-4
+        numerical = (constraints(displaced+eps*direction)-constraints(displaced-eps*direction))/(2*eps)
+        np.testing.assert_allclose(numerical, jacobian(displaced)@direction, atol=2e-10)
+        hplus, hminus = [full_tree_hessian(z+sign*eps*direction) for sign in [1, -1]]
+        first, second = derivatives(direction)[0]
+        numeric_first = geo["si"]@((hplus-hminus)/(2*eps))@geo["si"]
+        numeric_second = geo["si"]@((hplus+hminus-2*b["h0"])/eps**2)@geo["si"]
+        np.testing.assert_allclose(numeric_first, first, atol=2e-9)
+>       np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E       AssertionError: 
+E       Not equal to tolerance rtol=1e-07, atol=3e-07
+E       
+E       Mismatched elements: 12 / 86436 (0.0139%)
+E       First 5 mismatches are at indices:
+E        [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E        [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E        [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E        [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E        [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E       Max absolute difference among violations: 0.00000184
+E       Max relative difference among violations: 0.00001882
+E        ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E        DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: AssertionError
+____________ test_parameter_controls_remove_or_restore_light_modes _____________
+
+    def test_parameter_controls_remove_or_restore_light_modes():
+>       result = h.primitive_checks()
+                 ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_higgs_sector.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def primitive_checks():
+        geo, b = geometry(), base()
+        z = geo["z"]
+        np.testing.assert_allclose(constraints(z), 0, atol=1e-12)
+        rng = np.random.default_rng(202609057)
+        displaced = z+.02*rng.normal(size=294)
+        direction = rng.normal(size=294)
+        direction /= np.linalg.norm(direction)
+        eps = 1e-4
+        numerical = (constraints(displaced+eps*direction)-constraints(displaced-eps*direction))/(2*eps)
+        np.testing.assert_allclose(numerical, jacobian(displaced)@direction, atol=2e-10)
+        hplus, hminus = [full_tree_hessian(z+sign*eps*direction) for sign in [1, -1]]
+        first, second = derivatives(direction)[0]
+        numeric_first = geo["si"]@((hplus-hminus)/(2*eps))@geo["si"]
+        numeric_second = geo["si"]@((hplus+hminus-2*b["h0"])/eps**2)@geo["si"]
+        np.testing.assert_allclose(numeric_first, first, atol=2e-9)
+>       np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E       AssertionError: 
+E       Not equal to tolerance rtol=1e-07, atol=3e-07
+E       
+E       Mismatched elements: 12 / 86436 (0.0139%)
+E       First 5 mismatches are at indices:
+E        [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E        [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E        [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E        [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E        [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E       Max absolute difference among violations: 0.00000184
+E       Max relative difference among violations: 0.00001882
+E        ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E        DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference
+FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance
+FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes
+3 failed, 115 passed in 111.84s (0:01:51)

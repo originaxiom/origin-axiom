@@ -32,12 +32,23 @@ E6(-26) geometry. Source, tests and remaining selection/matching duties:
 **R9 follow-through, 2026-09-06:** the exact leading infrared logarithm
 favors the neutral relative-Higgs orientation in that action's stated
 weak-coupling family. The charged pair acquires a positive logarithmic
-restoring term. The remaining finite alignment coefficient is retained
-in the complete light-Higgs operator basis and still needs matching;
-uncomputed does not mean unknowable for a fixed UV prescription. This is
+restoring term. The finite alignment operator is retained in the complete
+light-Higgs basis; R10 below now computes its hard coefficient and the
+triplet contribution for a specified renormalization boundary. R9 is
 a conditional asymptotic result, not a finite-point selection certificate
 or an earned source/action identification. Source and live locks:
 `reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md`.
+
+**R10 follow-through, 2026-09-06:** the finite hard coefficient
+-.00010308716 and induced-triplet coefficient -.00000170960 both favor
+neutral alignment. Omitting the normal response would reverse the smaller
+triplet contribution's sign; both source pieces are computed and retained.
+This is a conditional calculation of named finite terms, not full vacuum
+certification or source-derived physical law. The distinction between a
+tested model built using the algebra and a physical theory determined by
+the object remains central to the goal. Source and full-goal verdict:
+`reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT.md`, `GOAL_VERDICT.md`
+in the same directory; live locks: `tests/test_physical_bridge_finite_alignment.py`.
 
 **Motivation, stated plainly, per the programme's own policy** (*the firewall is for
 sobriety, not for silence*): the thesis is that **reality emerges from the four-letter
@@ -211,7 +222,7 @@ where registerable means the 27's generation structure survives.
 | first measurement theorem (FMT) | B877 |
 | second measurement → **su(3) ⊕ su(2) ⊕ u(1)³** | B892, independently rebuilt B961 |
 | **the global ℤ₆ form: [SU(3)×SU(2)×U(1)]/ℤ₆** | **DERIVED (B862)** — resolves an ambiguity **the SM itself cannot fix** |
-| **hypercharge = the unique gaugeable U(1)** | **DERIVED (B864)** — ψ, χ anomalous over chiral matter; b = c = 0 forced. *Direction only; normalisation is homogeneous and not derivable* |
+| **hypercharge anomaly selection, with matter content stated** | **B864's uniqueness is for the 15 without nuR.** Including the derived nuR restores the anomaly-free Y/chi plane. The known S,N VEV charges remove chi and psi conditionally, leaving Y. Homogeneous anomaly equations do not fix an absolute normalization; the embedded trace ratio and physical electromagnetic identification are distinct. Scope receipt: `reports/physical_bridge_2026_09_05/RECOVERED_PHYSICAL_STEPS.md`. |
 | **the TERMINATION THEOREM** — the cascade halts because the SM is the **terminal registerable algebra** | B863 |
 | three generations, structurally; D₂ carries the hierarchy | B897, B928 *[scope restored 2026-09-02, B1235 addendum: generation-SHAPED at the tiling level, mechanism-hood FENCED — B897's own words (`docs/LAW_MAP.md:194`); B298: the object does not force three; B891: three sectors of ONE 27. "Banked" = the shape and the carrier (D₂), not three replicated families.]* |
 | menu completeness P5; padding lemma; gates G4–G7 | B873, B865, B868–B871 |
@@ -260,8 +271,12 @@ Exact arithmetic, no fitting: **I = −1** as the Leibniz sign (B908); **λ = 23
 forced, with 2304² = 2¹⁶·3⁴ **derived** (B931); the **one-class theorem** and its
 extension to the value layer (B910, B918); the twist-norm law (B946).
 
-**sin²θ_W = 3/8** at tree/GUT level (B919) — **REPRODUCED, not predicted**; it is a known
-GUT relation, and the run to M_Z **missed at 16σ** (B915).
+**sin²θ_W = 3/8** at tree/GUT level (B919) — **REPRODUCED, not predicted**;
+it is the familiar embedded trace ratio, not a discriminating prediction.
+**B915 scope corrected 2026-09-06:** the independent solver retains a mismatch
+for the specified desert comparison, but the old sequential solver did not
+satisfy both UV equations and its distance metric is not a calibrated sigma
+exclusion. Source: `reports/physical_bridge_2026_09_05/AUDIT.md`, section 4.
 
 ### The value story's full run, and where it now stands (through B1075)
 
@@ -277,7 +292,7 @@ measured Standard Model numbers have now returned seven misses:**
 
 | crossing | target | outcome |
 |---|---|---|
-| B915 | (sin²θ_W, α_s) run to M_Z from the object's boundary + pure desert | **MISS, 16σ** |
+| B915 | (sin²θ_W, α_s) run to M_Z from the object's boundary + pure desert | **Scoped mismatch retained after solver correction; not a calibrated 16σ exclusion.** See the independent audit cited above. |
 | B925 | the D-chain read as an RG ladder | **outcome B, by the chain's own algebra, before data voted** |
 | B929 | the twist cascade vs. CKM | **right shape (index 1.84), wrong magnitude 5–9×** |
 | B1027 / B1063 | the χ-phase menu {0, ±2π/3} vs. the quark and leptonic CP phases | **MISS in both sectors, powered; the pre-committed refresh CONFIRMED-DECISIVE** |
@@ -833,26 +848,23 @@ above rather than left standing beside its own refutation.)*
 
 ## THE ONE-PARAGRAPH STATEMENT
 
-The four-letter combination principle, formalised as six motivated axioms, **conditionally
-forces — given A1–A6, with A6 the minimality selection —** the figure-eight knot complement
-up to a single binary choice, and that choice is exactly where φ enters. The object so
-forced carries a two-ended geometry whose ends are E₆ and E₈ by McKay, an algebra that is
-the magic-square entry `M(𝕆,ℂ)`, and a measurement cascade that lands on a
-fourteen-dimensional, Standard-Model-shaped algebra — two steps from the SM's own twelve,
-not zero (`docs/SM_SPECIFICATION_LEDGER.md` §D1) — derives the global ℤ₆ form the SM
-cannot fix, derives hypercharge from anomaly consistency, and halts there by a termination
-theorem. On every *closed*
-assembly this object can build, chirality and charge are now proved — in four independent
-languages — to be structurally silent; the free half exists only at a cut, and one such
-cut, taken through the object's own non-abelian holonomy, opens the rank wall at exactly
-the Standard Model's rank, with exact and witnessed (if not yet exactly value-matched)
-matter waiting on the other side. The same object supports a second, self-standing,
-parameter-free 2+1-dimensional gravity theory whose quantum saddle point is its own
-founding constant. What the object does not supply anywhere in this account is a VALUE —
-tested seven times, under seal, with demonstrated power each time, and null every time —
-and that wall is now explained by a theorem about what kind of thing the object's outputs
-are, rather than merely reported as a run of disappointments. The remaining distance is
-enumerated above, and every item on it is a computation someone can run.
+**Scope refreshed 2026-09-06 from the physical audit's retained receipts.**
+The six motivated axioms conditionally select the founding construction,
+whose arithmetic/representation machinery supplies actual E6 matrices,
+the 27 and its cubic. The 14-dimensional cascade algebra is intermediate:
+the known two-singlet completion reaches the SM's 12-dimensional algebra,
+and R4 realizes it in a chosen scalar action. R8--R10 compute broken minima,
+full leading spectra and neutral-favoring quantum terms in that action.
+This is conditional dynamics, not a source-derived physical theory.
+The nonabelian rank hatches, exact hypercharge results and separate
+closed-double/boundary/geometry results retain their own scopes; they are
+not one universal no-go for physical chirality. The 3d action/state-integral
+and Lorentz/color/spin-two constructions are genuine assets, not already
+our unified 4d gravity-plus-matter theory. Historical value comparisons
+constrain their declared models and maps, not every possible continuation.
+The full goal still requires the source-to-action and physical-field maps,
+physical families, gravity and predictive contact. Evidence and limits:
+`reports/physical_bridge_2026_09_05/GOAL_VERDICT.md`.
 
 ---
 
@@ -907,25 +919,26 @@ the object's own lattice. So the values-as-regulators door has a *forced* domain
 real form is J₃(𝕆), and the 64 dimensions that closing fixes are where the untested regulators
 (and hypercharge, 27-reality) live — the sharpest form the value question has reached.
 
-**Both halves of that open sentence close within the same wave (2026-08-25).** The
-regulators are tested too (B1137) — negative, like every route before it. And **THE FINALE
-(B1140, memo 27) computes the other named quantity directly, closing it by structure rather
-than by a further comparison.** The E₆(−26) spacetime branch's own 64 fixed dimensions
-decompose exactly under su(2)×su(2)×su(3) as (spin-2,0;1)⊕(0,spin-2;1)⊕(1,1;3)⊕(1,1;3̄) =
-5+5+27+27 — a color-singlet **graviton** (two spin-2 summands) beside 54 colored bi-vectors
-— and the decomposition's **invariant content is ZERO**: nothing in it is fixed for
-hypercharge to be. **Hypercharge cannot organize in the spacetime branch**, and the
-firewalled value hypothesis closes on that fact as the campaign's **tenth honest
-value-negative — the first reached by STRUCTURE, not scan** (every prior miss ran a
-comparison and returned null; this one shows the target has nowhere to sit before any
-comparison runs). It is not a new mechanism: it is the representation-level restatement of
-**the fork theorem's own z = 0** (B1138), the same 14-dimensional subalgebra surfacing
-again, this time at rep level rather than at the level of the closing itself. **THE CLOSING
-COMPOSITION, named (B1138/B1134/B1135):** the fork's two real forms split the world with
-nothing shared between them — **E₆(−14)** took every charge (Y-selection, sin²θ_W = 3/8,
-the generation table, the anomaly zeros, B−L), **E₆(−26)** took the geometry (Lorentz,
-compact color, and now the graviton) — so **the observer gets any TWO of {spacetime, color,
-hypercharge}, never three.**
+**The regulator comparisons and the 64's representation result are distinct.**
+B1137 records regulator-comparison negatives; the baseline audit separately
+reports missing reproduction grids, so a stored verdict is not a fresh
+successful reproduction. B1140 decomposes the specified E6(-26) complement
+under su(2) x su(2) x su(3) into 5+5+27+27, including two color-singlet
+spin-two representation slots.
+
+**Scope corrected 2026-09-06:** absence of a trivial summand means no
+invariant **vectors**, not no invariant **functions** or all possible
+physical content. B1140's own complement contains a vector of Killing
+norm 36. The zero centralizer in the specified Lorentz/color embedding
+restricts an additional commuting hypercharge generator there; it is not
+a proof that every physical value or every gauge/gravity construction
+vanishes. The spin-two slots are not yet a graviton action, propagator or
+Einstein dynamics. The charge/spacetime real-form constructions still need
+an earned physical connection; a separately postulated compact-E6 4d action
+does not supply it automatically. The recovered positive results and these
+exact scope distinctions are retained in
+`reports/physical_bridge_2026_09_05/RECOVERED_PHYSICAL_STEPS.md` and
+`GOAL_VERDICT.md` in that directory.
 
 **The graviton itself is two faces now, not three.** One is the spin-2 rep just derived
 (B1140); the other is the Ruelle=graviton product / the 2+1-dimensional one-loop line of THE

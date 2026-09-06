@@ -240,3 +240,29 @@ diff whitespace check flags only pytest's verbatim trailing spaces in
 INFRARED_ALIGNMENT_CHECKS.txt; these raw evidence bytes are deliberately
 retained, not silently reformatted. The sealed R9 design, source and tests
 have no diff from dac87d46.
+
+## R10: successful finite computation, unchanged earlier failure debt
+
+Source/design/eight tests sealed at 8cbd10ed before first execution.
+Scientific run succeeds in 9.47 s; new tests 8 passed in 10.29 s. Combined
+quiescent regression: 115 passed, 3 failed in 111.84 s, exactly the
+original G2 NumPy-key exporter and both original R7 small-step controls;
+separate sealed repairs pass. No skip, xfail, tolerance relaxation or old
+source rewrite. Raw successful output and full failure traces are in
+FINITE_ALIGNMENT_CHECKS.txt. Their original local interpreter paths and
+pytest trailing whitespace are retained as raw local evidence, not a
+privacy-scrubbed public derivative.
+
+Staged reporting gates: 27 pass, 3 fail, the same inventory attribution,
+R6 static-vacuity classification and four earlier seal-marker omissions.
+R10 adds no provenance defect. The review-due warning remains; this is
+not a decadal review. All 101 then-listed latest-path artifact hashes
+match and generated views are already current. Captured gates:
+FINITE_ALIGNMENT_GATES.txt. These final notes and that transcript/hash
+postdate the staged gate run. Final hashes are checked again before the
+local reporting commit. No full-suite green or publication claim; no push.
+
+Final artifact check: 102 latest-path hashes, zero mismatches. R10's
+design/source/tests have no diff from 8cbd10ed. The staged whitespace check
+passes excluding the verbatim test transcript; its pytest-generated
+trailing spaces remain part of the preserved raw evidence.

@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**PHYSICAL CONTINUATION R10 (2026-09-06): finite terms computed, full goal unclosed.**
+For the explicit renormalization boundary, cB_hard=-.00010308716 and the
+induced triplet contributes -.00000170960; both reinforce neutral alignment.
+Omitting the normal response would reverse the triplet contribution's sign.
+The two-method and step/angle controls pass. Eight new tests pass; combined
+115 passed, three preserved earlier failures. Full finite-epsilon/global
+vacuum validation is still owed. The source-to-action map is a separate
+central duty, not supplied by a compatible chosen GUT action. Sources:
+`reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT.md` and `GOAL_VERDICT.md`
+in the same directory; these do not certify physical families or 4d gravity.
+
 **PHYSICAL CONTINUATION R9 (2026-09-06): a positive leading-log alignment result.**
 The exact soft gauge/Weyl fourth traces on all eight real Higgs variables
 give a neutral-favoring logarithm in the chosen weak-coupling family. Its
@@ -7,8 +18,8 @@ coefficient is 6 gW^2 gY^2+16 y^4, and the previously flat charged pair has
 a positive leading-log restoring contribution. All 19 resummed scalar
 modes are retained and are orientation-independent at this order. The
 complete light-Higgs invariant basis also retains a finite alignment
-operator: its hard matching coefficient remains to be computed for the
-specified action, not presumed arbitrary or zero. No finite-point vacuum
+operator: R10 above now computes the hard coefficient and triplet part for
+the specified boundary, not presumed arbitrary or zero. No full finite-point vacuum
 selection or TOE is claimed. Eight new tests pass; combined regression
 107 passed, 3 preserved earlier failures. Source and next finite task:
 `reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md`.

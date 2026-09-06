@@ -12,13 +12,22 @@ a theorem about all enhancement strata. Exact subgroup controls preserve
 B1084's geometry and expose the quantifier gap; no chiral matter is derived.
 Its first exporter failure and separately sealed successful rerun are retained.
 
-**Latest physical result:** [R9's leading infrared alignment logarithm](INFRARED_ALIGNMENT.md)
+**Latest physical result:** [R10's finite alignment calculation](FINITE_ALIGNMENT.md)
+computes the hard quartic and induced-triplet relaxation for a predeclared
+renormalization boundary. Both reinforce neutral alignment. Omitting the
+normal response would reverse the smaller triplet contribution's sign;
+the calculation retains both source pieces. This is not a full finite-
+epsilon vacuum certificate. [Verdict toward the full goal](GOAL_VERDICT.md):
+tested conditional field theory, not a source-derived physical TOE.
+
+**The preceding logarithmic result:** [R9](INFRARED_ALIGNMENT.md)
 favors the neutral orientation in the stated weak-coupling limit. Exact
 all-complex-field traces give 6 gW^2 gY^2+16 y^4, or 23/80 at the chosen
 reference couplings; log(epsilon) is negative. The charged pair that was
 flat in R8 gets a positive leading-log restoring contribution. The
 complete light-Higgs invariant basis retains an allowed finite alignment
-term, so **finite matching is still required** before either earlier
+term; R10 now computes its hard contribution and the triplet relaxation.
+**Full matching/stationary validation is still required** before either
 parameter point has a full vacuum-selection verdict. This is conditional
 progress in the chosen action, not source-derived physics or a TOE.
 
@@ -58,8 +67,8 @@ classical minimum with the SM gauge algebra, actual mixed fermion masses, and
 a full Hessian exposing eleven non-gauge scalar zero modes. The action and
 its parameters remain chosen inputs; its low-energy spectrum is not R2's.
 The same potential also admits a verified non-SM classical minimum. The
-latest combined focused run has **107 passed, 3 failed**, including the eight
-new R9 tests, all R8 tests, the five B1255 tests, G2/export controls, four original B1084
+latest combined focused run has **115 passed, 3 failed**, including the eight
+new R10 tests, all R8/R9 tests, the five B1255 tests, G2/export controls, four original B1084
 locks and three B1105 scope checks. Failures are the preserved original G2
 exporter test and the two R7 small-step controls; their separately sealed
 repairs pass. Archive and publication-gate failures remain
@@ -89,9 +98,11 @@ python3.12 -m pytest tests/test_physical_bridge_upstream.py tests/test_physical_
 python3.12 -m pytest tests/test_physical_bridge_quantum_result.py -q -p no:randomly
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_broken_vacuum.py -q -p no:randomly
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_infrared_alignment.py -q -p no:randomly
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_finite_alignment.py -q -p no:randomly
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge*.py tests/test_b1255_generation_type.py -q -p no:randomly
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.broken_vacuum --output /tmp/oa-broken-vacuum-new-run.json
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.infrared_alignment --output /tmp/oa-infrared-alignment-new-run.json
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.finite_alignment --output /tmp/oa-finite-alignment-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.vacuum --output /tmp/oa-vacuum-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.vacuum_orientation --output /tmp/oa-vacuum-orientation-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.run_audit --output /tmp/oa-crossing-new-run.json
@@ -107,16 +118,20 @@ from these focused checks; a partial run is never reported as green.
 ## Continuation contract
 
 Do not restart by assuming either that the program has no dynamics or that its
-physical interpretation has been proved. Continue from INFRARED_ALIGNMENT.md:
+physical interpretation has been proved. Continue from FINITE_ALIGNMENT.md:
 the full leading light potential, neutral/charged minima, actual stabilizers,
 all spectra and phase/anomaly control are computed, not queued. The leading
 infrared orientation logarithm and charged-pair lifting are now computed too.
-Next evaluate the finite hard alignment term for the existing action,
-including field-dependent normal response and triplet relaxation; use
-R9's logarithm as an independent control. Uncomputed matching is not
-intrinsic arbitrariness once the UV action/prescription is fixed.
+The finite hard coefficient and normal-induced triplet relaxation are now
+computed for the explicit boundary prescription. Next independently check
+the full-theory stationary/power-counting comparison, bound the remainder
+and compare competing high branches. Use R9's logarithm and R10's finite
+coefficients as controls; do not redo them as missing calculations.
 Retain the smaller seventeenth light fermion mass when improving matching.
 The action and its inputs remain to be derived. PHYSICAL_MODEL.md's exact mass
 requirement applies to its own earlier spectrum, not automatically to R4.
 A new mass mechanism must emit its parameters before a fresh empirical comparison;
 matching by choosing masses is an inverse fit. Preserve all seals and first runs.
+GOAL_VERDICT.md and PB-ACTION keep the more central source-to-action duty
+explicit: improving a compatible chosen model is not sufficient for the
+full objective without physical families, gravity and predictive contact.
