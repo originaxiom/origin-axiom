@@ -16,6 +16,19 @@ claiming either chiral matter or a physical no-go from orbit strata alone.
 See B1084's `ADDENDUM_2026-09-06_FIXED_SUBGROUP_SCOPE.md` and
 `reports/physical_bridge_2026_09_05/UPSTREAM_THIRD_AUDIT.md`.
 
+**Conditional physical-action continuation, 2026-09-06:** the known
+two-singlet reduction already removes the cascade's two extra U1 factors;
+R4 realizes the resulting SM stabilizer at an explicit classical minimum.
+R8 now computes the subsequent leading 19-field broken-Higgs EFT, including
+heavy exchange and quantum feedback. Neutral color/EM-preserving minima
+exist but are degenerate with charge-breaking minima at this order. The
+neutral full fermion rank is 27, with a small light mass missing from the
+leading rank-16 projection. All residual modes and the phase anomaly are
+retained. These are consequences of a specified compact-E6 4d action, not
+its derivation from the object or an earned identification with the
+E6(-26) geometry. Source, tests and remaining selection/matching duties:
+`reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md`.
+
 **Motivation, stated plainly, per the programme's own policy** (*the firewall is for
 sobriety, not for silence*): the thesis is that **reality emerges from the four-letter
 combination principle aAbB**. This document assembles the mathematics that bears on it.

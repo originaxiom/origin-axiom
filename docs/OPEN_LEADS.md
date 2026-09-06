@@ -2365,11 +2365,28 @@ are retained; the mixed 17-dimensional fermion kernel has rank-16 Yukawa
 support from the two neutral doublets. The full expanded one-loop model
 keeps positive octet/triplet curvatures but generates negative Higgs masses
 at the reference mu=1, with large new singlet shifts. This is neither an
-inert sector nor a completed electroweak vacuum. PB-MASS/PB-VACUUM next
-require the controlled broken-phase potential, electromagnetic stabilizer,
-orientation selection/residual modes and actual matched spectrum. New
+inert sector nor a completed electroweak vacuum. The requested leading
+broken-phase potential and stabilizer are now computed in R8 below;
+orientation selection and actual matched spectrum remain open. New
 fields, couplings and light-mode tuning remain priced inputs; no old
 result is erased by this new model's warning. Source: `reports/physical_bridge_2026_09_05/HIGGS_SECTOR.md`.
+
+**R8 progress — the leading broken-phase EFT is computed, not absent.**
+All 19 physical light fields, all 209-mode heavy exchange and the full
+one-loop light curvature produce neutral color/EM-preserving minima.
+Charge-breaking minima have the same leading energy. Their remaining
+physical scalar zero counts are three (neutral) and two (charged), so
+PB-VACUUM remains open for the first nonzero orientation-dependent order,
+not for a leading minimum's existence. The neutral full fermion rank is
+27, with a smaller seventeenth light mass absent from the rank-16 leading
+projection. PB-MASS must retain it in full matching, not label it exactly
+massless. Exact finite-VEV controls and full classical phase/anomaly checks
+are retained; no pole masses or observed generations are earned. Next:
+heavy-field response plus scalar/gauge/fermion loops, complete allowed
+counterterms and stated finite boundary inputs at the alignment-sensitive
+order. Deriving the action/inputs and gravity are separate duties.
+Source: `reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md`;
+locks: `tests/test_physical_bridge_broken_vacuum.py`.
 
 **PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
 exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's
@@ -2397,6 +2414,6 @@ The existing physical hatch requires the actual enhancement/unfolding,
 gauge action and localized operator/index; finding a point stratum does
 not discharge those duties. Nor may the element census alone close all
 flat-G2 constructions. No chirality-existence claim or new blanket no-go.
-R8's controlled electroweak-broken action remains the separate next
-physical-model computation, visible as an unsealed draft rather than a
-lost or unreported result.
+R8's controlled leading electroweak-broken action is now computed separately
+(the progress entry above); this G2 scope correction does not replace that
+physical calculation or close its remaining selection/matching questions.

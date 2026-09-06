@@ -162,3 +162,14 @@ actual vector/fermion thresholds. If the leading theory leaves degenerate
 orientations, that is a bounded higher-order task, not a programme no-go.
 The added inputs still need restriction or derivation; this conditional
 model does not pay for observed matching, families, gravity or a full TOE.
+
+## 7. Follow-through, 2026-09-06
+
+[R8](BROKEN_VACUUM.md) now computes the full leading 19-field light potential,
+including heavy exchange and the complete light quantum curvature. Neutral
+minima preserve actual color/EM but are degenerate with charge-breaking
+minima at this order. Its full neutral fermion matrix has rank 27 at the
+evaluated backgrounds; the smaller seventeenth light mass is absent only
+from the leading rank-16 projection, not from the complete matrix. This
+advances the next question above without rewriting R7's sealed evidence
+or claiming complete quantum-vacuum selection or measured matching.

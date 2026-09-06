@@ -191,3 +191,26 @@ the two calls to the old small-step control fail. The replacement controls
 and all other tests pass. Full output: `HIGGS_FIRST_TESTS.txt`; no skip or
 xfail was introduced. Negative Higgs loop curvatures and large singlet
 shifts are separately reported as physical-model results, not test defects.
+
+## R8: successful first execution; previous test and governance debt preserved
+
+The pre-sealed R8 first scientific execution succeeds in 60.23 s; all eight
+new tests pass in 57.33 s. The combined quiescent regression returns 99
+passed and three failed in 96.30 s. The failures are exactly the original
+G2 NumPy-key exporter test and both original R7 small-step controls. The
+separately sealed G2 export and R7 polynomial/larger-step controls pass.
+No original failure was hidden, no old source altered and no tolerance
+relaxed. Raw successful output and complete failed-test traces are in
+BROKEN_VACUUM_CHECKS.txt; the first scientific JSON is complete and valid.
+
+The staged reporting gates return 27 pass, 3 fail: inventory attribution,
+the R6 static NO-ASSERT classification already mutation-checked above,
+and seal-provenance. The latter still names EXTENSION_2.md,
+EXTENSION_2_CONTROL.md, UPSTREAM_3_DESIGN.md and
+UPSTREAM_3_EXPORT_REPAIR.md. The two G2 omissions were new errors in that
+earlier audit, not retroactively excused as preexisting. R8's design contains
+both required literal fields and does not add a provenance failure. All
+86 then-listed latest-path hashes match; generated views are already current.
+Captured gates: BROKEN_VACUUM_GATES.txt. The transcript/reporting hashes are
+added afterward, with a fresh final hash check before the local commit.
+This remains a local research checkpoint, not publication/full-suite green.

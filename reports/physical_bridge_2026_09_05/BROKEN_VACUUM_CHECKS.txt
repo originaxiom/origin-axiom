@@ -1,0 +1,299 @@
+R8 first execution and quiescent verification at sealed commit 6a02639d.
+Design, scientific source and tests were committed before execution. No files
+were edited during the scientific run or either test process. Captured output
+below is retained verbatim, including the three preserved earlier failures.
+
+COMMAND:
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.broken_vacuum --output reports/physical_bridge_2026_09_05/broken_vacuum_first_run.json
+EXIT: 0
+CAPTURED OUTPUT:
+{
+  "quartic_max_error": 5.551115123125783e-17,
+  "masses_O_T_U_D": [
+    0.007519833192759647,
+    0.007366050626734844,
+    -0.01828466613262771,
+    -0.020847297819659626
+  ],
+  "phase_symmetry": {
+    "compensating_Cartan_coefficients": [
+      "2",
+      "0",
+      "8/5",
+      "6/5",
+      "4/5",
+      "2/5"
+    ],
+    "residual_U_D_charges": [
+      "-18/5",
+      "-12/5"
+    ],
+    "mixed_color_anomaly_trace": "3",
+    "classical_potential_phase_error": 5.551115123125783e-17,
+    "Yukawa_phase_error": 6.206335383118183e-17,
+    "quantum_exact_Goldstone_claimed": false
+  },
+  "exact_fermion_controls": [
+    {
+      "orientation": "neutral",
+      "U_D_weight_indices": [
+        8,
+        22
+      ],
+      "rational_control_full_rank": 27,
+      "leading_projected_rank": 16,
+      "cubic_polynomial": "-d*u"
+    },
+    {
+      "orientation": "charge_breaking",
+      "U_D_weight_indices": [
+        8,
+        21
+      ],
+      "rational_control_full_rank": 18,
+      "leading_projected_rank": 8,
+      "cubic_polynomial": "0"
+    }
+  ],
+  "states": [
+    {
+      "epsilon": 0.01,
+      "orientation": "neutral",
+      "unbroken_gauge_dimension": 9,
+      "remaining_physical_leading_zero_modes": 3,
+      "fermion_full_numerical_rank": 27,
+      "fermion_leading_projected_rank": 16,
+      "vector_projection_relative_error": 0.00017474580665762432,
+      "fermion_projection_relative_error": 0.022924579284563963,
+      "global_phase_physical_norm": 0.13239934840663273
+    },
+    {
+      "epsilon": 0.01,
+      "orientation": "charge_breaking",
+      "unbroken_gauge_dimension": 8,
+      "remaining_physical_leading_zero_modes": 2,
+      "fermion_full_numerical_rank": 18,
+      "fermion_leading_projected_rank": 8,
+      "vector_projection_relative_error": 0.00026315979189575297,
+      "fermion_projection_relative_error": 6.614437204105306e-05,
+      "global_phase_physical_norm": 6.065728180238991e-16
+    },
+    {
+      "epsilon": 0.0025,
+      "orientation": "neutral",
+      "unbroken_gauge_dimension": 9,
+      "remaining_physical_leading_zero_modes": 3,
+      "fermion_full_numerical_rank": 27,
+      "fermion_leading_projected_rank": 16,
+      "vector_projection_relative_error": 4.3503103668064754e-05,
+      "fermion_projection_relative_error": 0.01142657271161328,
+      "global_phase_physical_norm": 0.06620573485560535
+    },
+    {
+      "epsilon": 0.0025,
+      "orientation": "charge_breaking",
+      "unbroken_gauge_dimension": 8,
+      "remaining_physical_leading_zero_modes": 2,
+      "fermion_full_numerical_rank": 18,
+      "fermion_leading_projected_rank": 8,
+      "vector_projection_relative_error": 6.561979663317219e-05,
+      "fermion_projection_relative_error": 1.641805373012453e-05,
+      "global_phase_physical_norm": 1.6367710093377544e-15
+    }
+  ],
+  "elapsed_seconds": 60.226752376998775
+}
+
+COMMAND:
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_broken_vacuum.py -q -p no:randomly
+EXIT: 0
+CAPTURED OUTPUT:
+........                                                                 [100%]
+8 passed in 57.33s
+
+COMMAND:
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge*.py tests/test_b1255_generation_type.py tests/test_b1084_g2_cone.py tests/test_b1105_b1106_locks.py::test_scope_correction_landed tests/test_b1105_b1106_locks.py::test_overstatement_stays_dead tests/test_b1105_b1106_locks.py::test_b1105_findings_table -q -p no:randomly
+EXIT: 1
+CAPTURED OUTPUT:
+..................F................F.F.................................. [ 70%]
+..............................                                           [100%]
+=================================== FAILURES ===================================
+______ test_upstream_element_test_can_pass_without_testing_the_inference _______
+
+    def test_upstream_element_test_can_pass_without_testing_the_inference():
+        result = g.analyze()
+        assert result["upstream_B1259_selftest"]["returncode"] == 0
+        assert result["exact_G2_counterexample"]["common_fixed_dimension"] == 0
+        assert not result["actual_B1084_group"]["physical_chiral_index_computed"]
+>       assert json.loads(json.dumps(result, allow_nan=False))["upstream_B1259_selftest"]["commit"] == g.UPSTREAM
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_g2_isolation.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/__init__.py:238: in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py:200: in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <json.encoder.JSONEncoder object at 0x10d8bf170>
+o = {'actual_B1084_group': {'A1_E6_intersection_dimensions': [1, 1, 1, 1, 1, 1, ...], 'A1_orbit_sizes': [6, 12, 12], 'axis...', 'returncode': 0, 'scope': 'the original selftest samples single-element eigenvalues, not common fixed spaces', ...}}
+_one_shot = True
+
+    def iterencode(self, o, _one_shot=False):
+        """Encode the given object and yield each string
+        representation as available.
+    
+        For example::
+    
+            for chunk in JSONEncoder().iterencode(bigobject):
+                mysocket.write(chunk)
+    
+        """
+        if self.check_circular:
+            markers = {}
+        else:
+            markers = None
+        if self.ensure_ascii:
+            _encoder = encode_basestring_ascii
+        else:
+            _encoder = encode_basestring
+    
+        def floatstr(o, allow_nan=self.allow_nan,
+                _repr=float.__repr__, _inf=INFINITY, _neginf=-INFINITY):
+            # Check for specials.  Note that this type of test is processor
+            # and/or platform-specific, so do tests which don't depend on the
+            # internals.
+    
+            if o != o:
+                text = 'NaN'
+            elif o == _inf:
+                text = 'Infinity'
+            elif o == _neginf:
+                text = '-Infinity'
+            else:
+                return _repr(o)
+    
+            if not allow_nan:
+                raise ValueError(
+                    "Out of range float values are not JSON compliant: " +
+                    repr(o))
+    
+            return text
+    
+    
+        if (_one_shot and c_make_encoder is not None
+                and self.indent is None):
+            _iterencode = c_make_encoder(
+                markers, self.default, _encoder, self.indent,
+                self.key_separator, self.item_separator, self.sort_keys,
+                self.skipkeys, self.allow_nan)
+        else:
+            _iterencode = _make_iterencode(
+                markers, self.default, _encoder, self.indent, floatstr,
+                self.key_separator, self.item_separator, self.sort_keys,
+                self.skipkeys, _one_shot)
+>       return _iterencode(o, 0)
+               ^^^^^^^^^^^^^^^^^
+E       TypeError: keys must be str, int, float, bool or None, not numpy.int64
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py:258: TypeError
+_________ test_full_constraint_J_H_derivatives_and_complex_covariance __________
+
+    def test_full_constraint_J_H_derivatives_and_complex_covariance():
+>       result = h.primitive_checks()
+                 ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_higgs_sector.py:9: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def primitive_checks():
+        geo, b = geometry(), base()
+        z = geo["z"]
+        np.testing.assert_allclose(constraints(z), 0, atol=1e-12)
+        rng = np.random.default_rng(202609057)
+        displaced = z+.02*rng.normal(size=294)
+        direction = rng.normal(size=294)
+        direction /= np.linalg.norm(direction)
+        eps = 1e-4
+        numerical = (constraints(displaced+eps*direction)-constraints(displaced-eps*direction))/(2*eps)
+        np.testing.assert_allclose(numerical, jacobian(displaced)@direction, atol=2e-10)
+        hplus, hminus = [full_tree_hessian(z+sign*eps*direction) for sign in [1, -1]]
+        first, second = derivatives(direction)[0]
+        numeric_first = geo["si"]@((hplus-hminus)/(2*eps))@geo["si"]
+        numeric_second = geo["si"]@((hplus+hminus-2*b["h0"])/eps**2)@geo["si"]
+        np.testing.assert_allclose(numeric_first, first, atol=2e-9)
+>       np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E       AssertionError: 
+E       Not equal to tolerance rtol=1e-07, atol=3e-07
+E       
+E       Mismatched elements: 12 / 86436 (0.0139%)
+E       First 5 mismatches are at indices:
+E        [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E        [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E        [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E        [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E        [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E       Max absolute difference among violations: 0.00000184
+E       Max relative difference among violations: 0.00001882
+E        ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E        DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: AssertionError
+____________ test_parameter_controls_remove_or_restore_light_modes _____________
+
+    def test_parameter_controls_remove_or_restore_light_modes():
+>       result = h.primitive_checks()
+                 ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_higgs_sector.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def primitive_checks():
+        geo, b = geometry(), base()
+        z = geo["z"]
+        np.testing.assert_allclose(constraints(z), 0, atol=1e-12)
+        rng = np.random.default_rng(202609057)
+        displaced = z+.02*rng.normal(size=294)
+        direction = rng.normal(size=294)
+        direction /= np.linalg.norm(direction)
+        eps = 1e-4
+        numerical = (constraints(displaced+eps*direction)-constraints(displaced-eps*direction))/(2*eps)
+        np.testing.assert_allclose(numerical, jacobian(displaced)@direction, atol=2e-10)
+        hplus, hminus = [full_tree_hessian(z+sign*eps*direction) for sign in [1, -1]]
+        first, second = derivatives(direction)[0]
+        numeric_first = geo["si"]@((hplus-hminus)/(2*eps))@geo["si"]
+        numeric_second = geo["si"]@((hplus+hminus-2*b["h0"])/eps**2)@geo["si"]
+        np.testing.assert_allclose(numeric_first, first, atol=2e-9)
+>       np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E       AssertionError: 
+E       Not equal to tolerance rtol=1e-07, atol=3e-07
+E       
+E       Mismatched elements: 12 / 86436 (0.0139%)
+E       First 5 mismatches are at indices:
+E        [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E        [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E        [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E        [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E        [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E       Max absolute difference among violations: 0.00000184
+E       Max relative difference among violations: 0.00001882
+E        ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E        DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference
+FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance
+FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes
+3 failed, 99 passed in 96.30s (0:01:36)

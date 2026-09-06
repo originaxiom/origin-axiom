@@ -12,12 +12,21 @@ a theorem about all enhancement strata. Exact subgroup controls preserve
 B1084's geometry and expose the quantifier gap; no chiral matter is derived.
 Its first exporter failure and separately sealed successful rerun are retained.
 
-**Latest physical result:** the priced [Higgs extension](HIGGS_SECTOR.md) supplies
-two actual light doublets and nonzero one-family Yukawa masses at small neutral
-VEVs. Its full 294-scalar quantum feedback preserves positive octet/triplet
-curvatures, but the Higgs-zero background has negative Higgs masses at the
-reference scale and large new singlet shifts. A controlled broken-phase
-calculation is required; this is **not** a completed electroweak vacuum.
+**Latest physical result:** [R8's leading broken-vacuum theory](BROKEN_VACUUM.md)
+is computed over all 19 physical light fields, including heavy exchange and
+the complete light quantum curvature. Neutral minima preserve actual color
+and electromagnetism, but charge-breaking minima have equal leading energy.
+The neutral full fermion matrix has rank 27 at the evaluated backgrounds:
+the rank-16 leading light projection must not erase its smaller seventeenth
+light mass. Three physical scalar zeros remain at the neutral minimum at
+this order. This is a conditional leading EFT, **not** vacuum selection,
+a complete quantum vacuum, pole matching or a TOE.
+
+R7's [priced Higgs extension](HIGGS_SECTOR.md) and its quantum feedback are
+the inputs. R8's predeclared small-coupling family reduces the normal shifts
+and verifies all-component force scaling; it is not RG running or a physical
+scale derivation. [Full output](broken_vacuum_first_run.json) and
+[captured checks](BROKEN_VACUUM_CHECKS.txt) are retained.
 
 The earlier [one-loop angular result](QUANTUM_VACUUM.md) and
 [complete leading normal shifts](QUANTUM_SHIFT.md) remain verified. Their
@@ -39,10 +48,11 @@ classical minimum with the SM gauge algebra, actual mixed fermion masses, and
 a full Hessian exposing eleven non-gauge scalar zero modes. The action and
 its parameters remain chosen inputs; its low-energy spectrum is not R2's.
 The same potential also admits a verified non-SM classical minimum. The
-latest combined focused run has **91 passed, 3 failed**, including the five
-B1255 tests, the new G2/export controls, four original B1084 locks and three
-B1105 scope checks. Failures are the preserved original G2 exporter test and
-the two R7 small-step controls; their separately sealed repairs pass. Archive and publication-gate failures remain
+latest combined focused run has **99 passed, 3 failed**, including all eight
+new R8 tests, the five B1255 tests, G2/export controls, four original B1084
+locks and three B1105 scope checks. Failures are the preserved original G2
+exporter test and the two R7 small-step controls; their separately sealed
+repairs pass. Archive and publication-gate failures remain
 explicit in [FAILURES.md](FAILURES.md); no full-suite green is claimed.
 
 - [Audit and programme history](AUDIT.md): what survives, what changed, what was checked.
@@ -67,7 +77,9 @@ python3.12 -m pytest tests/test_physical_bridge_gauge_running.py tests/test_phys
 python3.12 -m pytest tests/test_physical_bridge_vacuum.py tests/test_physical_bridge_vacuum_orientation.py -q -p no:randomly
 python3.12 -m pytest tests/test_physical_bridge_upstream.py tests/test_physical_bridge_quantum_vacuum.py tests/test_physical_bridge_quantum_derivative.py -q -p no:randomly
 python3.12 -m pytest tests/test_physical_bridge_quantum_result.py -q -p no:randomly
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_broken_vacuum.py -q -p no:randomly
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge*.py tests/test_b1255_generation_type.py -q -p no:randomly
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.broken_vacuum --output /tmp/oa-broken-vacuum-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.vacuum --output /tmp/oa-vacuum-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.vacuum_orientation --output /tmp/oa-vacuum-orientation-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.run_audit --output /tmp/oa-crossing-new-run.json
@@ -83,11 +95,13 @@ from these focused checks; a partial run is never reported as green.
 ## Continuation contract
 
 Do not restart by assuming either that the program has no dynamics or that its
-physical interpretation has been proved. Continue from HIGGS_SECTOR.md:
-the light sector and its quantum feedback are now computed, not merely queued.
-Derive the weak-coupling broken-phase potential, check the electromagnetic
-stabilizer, retain every residual mode and test orientation selection before
-redoing matching. PHYSICAL_MODEL.md's exact mass
+physical interpretation has been proved. Continue from BROKEN_VACUUM.md:
+the full leading light potential, neutral/charged minima, actual stabilizers,
+all spectra and phase/anomaly control are computed, not queued. Next evaluate
+the first nonzero relative-Higgs orientation potential with complete
+heavy-field response, loop/counterterm treatment and all residual modes.
+Retain the smaller seventeenth light fermion mass when improving matching.
+The action and its inputs remain to be derived. PHYSICAL_MODEL.md's exact mass
 requirement applies to its own earlier spectrum, not automatically to R4.
 A new mass mechanism must emit its parameters before a fresh empirical comparison;
 matching by choosing masses is an inverse fit. Preserve all seals and first runs.

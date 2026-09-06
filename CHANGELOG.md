@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-09-06 — R8: broken minima computed; the smaller fermion mass is retained
+
+Sealed at 6a02639d before execution. The entire 19-field leading EFT includes
+all 209-mode heavy exchange and 7315 quartic coefficients; the independent
+full light quantum matrix and fresh all-294-component force scaling agree.
+Neutral minima preserve actual color and Q, while charge-breaking minima
+have equal leading energy. Three versus two physical scalar zeros remain.
+The neutral full fermion matrix has rank 27, although its leading light
+projection has rank 16; a smaller seventeenth light mass is retained. Exact
+rational controls reproduce the full/projected rank distinction. The
+classical phase symmetry has a nonzero color anomaly, not an exact quantum
+Goldstone claim. Source: `reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md`.
+
+First scientific run succeeds; 8 new tests pass. Combined quiescent checks:
+99 passed, 3 preserved earlier failures in 96.30 s. No source/tolerance was
+changed after the seal. Next is higher-order Higgs orientation selection
+and full matching, not another declaration that the 14-to-12 step is absent.
+This conditional action does not derive physical parameters, families or
+gravity; no full-suite or publication certificate is claimed.
+
 ## 2026-09-06 — Preserve recovered rank reduction; scope the new G2 kill
 
 The old/new-result sweep retains the existing 14-to-12 completion, spin/beat

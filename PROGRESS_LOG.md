@@ -14014,3 +14014,43 @@ Gates: 27 pass, 3 fail. Seal-provenance now also names both new G2 designs
 for missing literal marker strings, a new process error explicitly retained.
 Attribution and the R6 static-vacuity failure remain. No publication/full-suite
 certificate; full captured output in G2_ISOLATION_CHECKS.txt.
+
+## 2026-09-06 — R8: all-light leading minima, full spectra and phase anomaly
+
+Continued the controlled broken-phase task after the G2 checkpoint. Final
+design, source and eight tests sealed together at 6a02639d before execution;
+both literal provenance fields checked. No files changed during the first
+scientific run or tests. First output succeeds in 60.23 s and is preserved.
+
+The entire 19-field physical tree kernel and all 209 positive-mode heavy
+exchange are retained. All 7315 quartic coefficients agree with the analytic
+radial/triplet form; omitting heavy exchange fails the pure-octet control.
+The complete one-loop 19x19 matrix and freshly scaled all-component forces
+agree with the inherited results and the declared weak-coupling expansion.
+Both neutral and charge-breaking leading minima exist with equal energy:
+actual unbroken gauge dimensions nine and eight, physical scalar zero counts
+three and two. This is a leading EFT on the chosen high-scale branch, not
+an exact/global quantum vacuum or a source-derived action.
+
+The neutral full fermion matrix has rank 27 at the evaluated backgrounds,
+and the charged control rank 18; exact rational finite-VEV controls agree.
+The neutral projected light rank remains 16, but the smaller seventeenth
+light mass is retained in the full singular spectrum. Full classical phase
+covariance, actual gauge compensation and the exact nonzero color anomaly
+trace are checked. No exact quantum Goldstone or phenomenological exclusion
+is inferred from the leading zero modes.
+
+New tests: 8 passed in 57.33 s. Combined quiescent regression: 99 passed,
+3 failed in 96.30 s, the same original G2 export and R7 subtraction-control
+failures; separately sealed repairs pass. No skip, source rewrite or relaxed
+tolerance. Source/report, full output, all captured checks and next bounded
+physical task: `reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md`. Results
+propagated to the front door, framework, law index and live leads. This local
+checkpoint is not a full-suite or publication certificate; no push.
+
+R8 staged reporting gates: 27 pass, 3 fail, the same inventory attribution,
+R6 static-vacuity classification and four earlier seal-marker paths. R8
+adds no provenance defect. All 86 then-listed latest-path artifact hashes
+match and generated views are already current. Captured gate output:
+`reports/physical_bridge_2026_09_05/BROKEN_VACUUM_GATES.txt`; the earlier
+failure sources are retained in FAILURES.md, not weakened or overwritten.

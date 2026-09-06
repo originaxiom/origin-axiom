@@ -1,16 +1,28 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**PHYSICAL CONTINUATION R8 (2026-09-06): leading broken minima and full spectra.**
+The complete 19-field light EFT is now solved with heavy exchange and a fresh
+full one-loop curvature matrix. A neutral minimum preserves actual color/EM;
+charge-breaking minima are degenerate at leading order, with three versus
+two physical scalar zeros. The neutral full fermion rank is 27, not the
+rank-16 leading projection: the smaller seventeenth light mass is retained.
+The full classical phase is checked along with its nonzero color anomaly.
+Eight new tests pass; combined quiescent regression 99 passed, 3 preserved
+earlier instrument failures. Next: higher-order orientation selection,
+counterterm/input closure and full matching, not a completed TOE claim.
+Source: `reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md`.
+
 **LATEST AUDIT (2026-09-06): recovered reduction and a fixed-space scope correction.**
 The 14-to-12 completion is already derived conditionally and realized in R4.
 The latest fetched G2 kill confuses element fixed spaces with common subgroup
 strata: an exact compact-G2 counterexample and B1084's own order-96 apex expose
 the distinction. The 30 pairwise A1/E6 line intersections remain; no chiral
 index is newly earned. First export failure retained, lossless wrapper rerun
-successful. R8 remains unsealed/unexecuted while this audit is banked.
+successful. R8 was unexecuted at that checkpoint; its later result is above.
 Sources: `reports/physical_bridge_2026_09_05/RECOVERED_PHYSICAL_STEPS.md` and
 `reports/physical_bridge_2026_09_05/UPSTREAM_THIRD_AUDIT.md`.
 
-Quiescent verification: 91 passed, 3 preserved instrument failures. Publication
+That audit's quiescent verification: 91 passed, 3 preserved instrument failures. Publication
 gates 27/3, including new missing-marker defects in the G2 seal documents;
 these are documented, not rewritten as compliant preregistrations.
 
@@ -18,8 +30,8 @@ these are documented, not rewritten as compliant preregistrations.
 The priced two-27 extension gives the actual doublet actions and rank-16
 Yukawa support on the mixed light kernel. Full 294-scalar quantum treatment
 retains positive octet/triplet masses, but Higgs masses are negative at
-mu=1 and new singlet shifts are large. Next is a controlled broken-phase
-vacuum, not a Higgs-zero stability claim. The first numerical-control
+mu=1 and new singlet shifts are large. R8 above now computes the leading
+small-coupling broken phase, not a Higgs-zero stability claim. The first numerical-control
 failure is retained and diagnosed by polynomial polarization with unchanged
 tolerances/model. Source: `reports/physical_bridge_2026_09_05/HIGGS_SECTOR.md`.
 
