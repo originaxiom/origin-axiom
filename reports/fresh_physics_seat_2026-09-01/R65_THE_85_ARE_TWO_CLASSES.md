@@ -22,7 +22,7 @@ R64 showed the founding ratio's E₆ factor w₃ has 24 three-cycles on the 72 r
 - B1264's counts reproduced exactly (170, 85) with its formula ⟨λ, h_c⟩ = λ·C⁻¹·c on the 27 weights, using this bench's own 27 (Weyl orbit of ω₁) and root system, not B883's file.
 - The class dimensions 24 and 30 are the only ones occurring; Kac's list for order 3 in E₆ is {24, 28, 30, 36, 78}, and the absent ones (28, 36, 78) do not split the 27 as 9+9+9 — consistent.
 - Colourings are class-pure (0 appear in two classes), so the 85 → 40 statement is well-defined at the colouring level B1264 uses.
-- w₃'s class is taken from R64's cycle count under the order-3-lift caveat stated there.
+- w₃'s class is taken from R64's cycle count; **R66** confirms it by constructing the Tits lift (order 3, multiplicities 24/27/27), so the caveat no longer applies.
 
 ## 2. What it changes
 
